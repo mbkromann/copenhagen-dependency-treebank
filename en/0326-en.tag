@@ -1,0 +1,232 @@
+<s>
+<W msd="IN" in="5:mod" out="1:avobj|2:pnct">At</W>
+<W msd="JJ" in="-1:avobj" out="">first</W>
+<W msd="," in="-2:pnct" out="">,</W>
+<W msd="PRP" in="2:subj|6:[subj]" out="">she</W>
+<W msd="RB" in="1:mod" out="">just</W>
+<W msd="VBD" in="" out="-2:subj|-1:mod|-5:mod|1:mod|3:coord|9:pnct">laughed</W>
+<W msd="DT" in="-1:mod" out="1:mod">a</W>
+<W msd="JJ" in="-1:mod" out="">little</W>
+<W msd="CC" in="-3:coord" out="1:conj">and</W>
+<W msd="VBN" in="-1:conj" out="-6:[subj]|1:dobj|2:mod">treated</W>
+<W msd="PRP" in="-1:dobj" out="">it</W>
+<W msd="IN" in="-2:mod" out="1:pred">as</W>
+<W msd="DT" in="-1:pred" out="1:nobj">a</W>
+<W msd="NN" in="-1:nobj" out="">joke</W>
+<W msd="." in="-9:pnct" out="">.</W>
+</s>
+<s>
+<W msd="CC" in="" out="1:conj|2:pnct">But</W>
+<W msd="RB" in="-1:conj" out="">still</W>
+<W msd="." in="-2:pnct" out="">.</W>
+</s>
+<s>
+<W msd="DT" in="4:mod" out="1:mod|2:nobj">The</W>
+<W msd="JJ" in="-1:mod" out="">next</W>
+<W msd="NNS" in="-2:nobj" out="">times</W>
+<W msd="PRP" in="1:subj|2:[subj]" out="">she</W>
+<W msd="VBD" in="" out="-4:mod|-1:subj|1:vobj|4:pnct">had</W>
+<W msd="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">looked</W>
+<W msd="IN" in="-1:pobj" out="1:nobj">at</W>
+<W msd="PRP" in="-1:nobj" out="">him</W>
+<W msd="." in="-4:pnct" out="">.</W>
+</s>
+<s>
+<W msd="&quot;" in="4:pnct" out="">"</W>
+<W msd="RB" in="3:mod" out="1:pnct">Finally</W>
+<W msd="," in="-1:pnct" out="">,</W>
+<W msd="PRP" in="1:subj" out="">I</W>
+<W msd="VBD" in="" out="-4:pnct|-3:mod|-1:subj|1:dobj|8:pnct">thought</W>
+<W msd="IN" in="-1:dobj" out="3:vobj">that</W>
+<W msd="PRP$" in="2:subj|3:[subj]" out="1:possd">her</W>
+<W msd="NN" in="-1:possd" out="">pregnancy</W>
+<W msd="VBD" in="-3:vobj" out="-2:subj|1:vobj">had</W>
+<W msd="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:pred">made</W>
+<W msd="PRP$" in="-1:dobj" out="">her</W>
+<W msd="JJ" in="-2:pred" out="">compliant</W>
+<W msd="." in="-8:pnct" out="">.</W>
+</s>
+<s>
+<W msd="DT" in="" out="1:vobj|6:pnct">That</W>
+<W msd="NN" in="-1:vobj|1:[subj]" out="1:vobj">she'd</W>
+<W msd="NN" in="-1:vobj" out="-1:[subj]|1:part|2:pobj">put</W>
+<W msd="RP" in="-1:part" out="">up</W>
+<W msd="IN" in="-2:pobj" out="1:nobj">with</W>
+<W msd="NN" in="-1:nobj" out="">anything</W>
+<W msd="." in="-6:pnct" out="">.</W>
+</s>
+<s>
+<W msd="CC" in="" out="2:conj|5:pnct#|6:pnct">And</W>
+<W msd="PRP" in="1:subj" out="">I</W>
+<W msd="VBD" in="-2:conj" out="-1:subj|3:lobj">went</W>
+<W msd="NN" in="1:mod" out="">way</W>
+<W msd="RB" in="1:mod" out="-1:mod">too</W>
+<W msd="CD" in="-5:pnct#|-3:lobj" out="-1:mod">far.</W>
+<W msd="&quot;" in="-6:pnct" out="">"</W>
+</s>
+<s>
+<W msd="NNP" in="1:subj" out="">Eva</W>
+<W msd="VBD" in="" out="-1:subj|1:iobj|2:dobj|6:pnct">asked</W>
+<W msd="PRP" in="-1:iobj|2:[subj]" out="">him</W>
+<W msd="TO" in="-2:dobj" out="1:vobj">to</W>
+<W msd="VB" in="-1:vobj" out="-2:[subj]|1:mod">disappear</W>
+<W msd="IN" in="-1:mod" out="1:avobj">for</W>
+<W msd="NN" in="-1:avobj" out="">good</W>
+<W msd="." in="-6:pnct" out="">.</W>
+</s>
+<s>
+<W msd="JJ" in="2:mod" out="1:nobj">Several</W>
+<W msd="NNS" in="-1:nobj" out="">times</W>
+<W msd="IN" in="5:mod" out="-2:mod|1:nobj|3:pnct">before</W>
+<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NN" in="-1:nobj" out="">birth</W>
+<W msd="," in="-3:pnct" out="">,</W>
+<W msd="PRP" in="1:subj|2:[subj]|4:[subj]" out="">he</W>
+<W msd="VBD" in="" out="-1:subj|-5:mod|1:vobj|5:pnct">had</W>
+<W msd="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">tried</W>
+<W msd="TO" in="-1:dobj" out="1:vobj">to</W>
+<W msd="VB" in="-1:vobj" out="-4:[subj]|1:dobj">re-establish</W>
+<W msd="NN" in="-1:dobj" out="">contact</W>
+<W msd="." in="-5:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NN" in="1:subj" out="4:coord">Despair</W>
+<W msd="VBD" in="" out="-1:subj|1:dobj|2:pnct|11:pnct">consumed</W>
+<W msd="PRP" in="-1:dobj" out="">him</W>
+<W msd="," in="-2:pnct" out="">,</W>
+<W msd="CC" in="-4:coord" out="1:conj">and</W>
+<W msd="DT" in="-1:conj" out="1:mod|2:nobj|3:pnct|4:coord">a</W>
+<W msd="JJ" in="-1:mod" out="">bad</W>
+<W msd="NN" in="-2:nobj" out="">conscience</W>
+<W msd="," in="-3:pnct" out="">,</W>
+<W msd="CC" in="-4:coord" out="2:conj">but</W>
+<W msd="RB" in="1:mod" out="">particularly</W>
+<W msd="NN" in="-2:conj" out="-1:mod">despair</W>
+<W msd="." in="-11:pnct" out="">.</W>
+</s>
+<s>
+<W msd="PRP" in="1:subj|2:[subj]" out="3:nobj">It</W>
+<W msd="MD" in="" out="-1:subj|1:vobj|8:pnct">might</W>
+<W msd="VB" in="-1:vobj" out="-2:[subj]">be</W>
+<W msd="IN" in="-3:nobj" out="2:vobj">that</W>
+<W msd="PRP" in="1:subj" out="">he</W>
+<W msd="VBD" in="-2:vobj" out="-1:subj|1:pred|3:mod">was</W>
+<W msd="DT" in="-1:pred" out="1:nobj">the</W>
+<W msd="NN" in="-1:nobj" out="">father</W>
+<W msd="RB" in="-3:mod" out="">anyway</W>
+<W msd="." in="-8:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NNP" in="1:subj" out="">Eva</W>
+<W msd="VBD" in="" out="-1:subj|1:dobj|2:mod|13:pnct">rejected</W>
+<W msd="PRP" in="-1:dobj" out="">him</W>
+<W msd="IN" in="-2:mod" out="1:nobj">with</W>
+<W msd="DT" in="-1:nobj" out="1:nobj|2:ref|4:rel">a</W>
+<W msd="NN" in="-1:nobj" out="">calm</W>
+<W msd="IN" in="-2:ref|5:dobj" out="">that</W>
+<W msd="PRP" in="1:subj|4:[subj]" out="">he</W>
+<W msd="VBD" in="-4:rel" out="-1:subj|2:mod|3:vobj">had</W>
+<W msd="RB" in="1:mod" out="">never</W>
+<W msd="IN" in="-2:mod" out="-1:mod">before</W>
+<W msd="VBN" in="-3:vobj" out="-5:dobj|-4:[subj]|1:pobj">experienced</W>
+<W msd="IN" in="-1:pobj" out="1:nobj">in</W>
+<W msd="PRP$" in="-1:nobj" out="">her</W>
+<W msd="." in="-13:pnct" out="">.</W>
+</s>
+<s>
+<W msd="PRP" in="1:subj|2:[subj]" out="">He</W>
+<W msd="VBD" in="" out="-1:subj|1:vobj|13:pnct">was</W>
+<W msd="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">used</W>
+<W msd="TO" in="-1:pobj" out="1:nobj">to</W>
+<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NN" in="-1:nobj" out="1:nobj">fact</W>
+<W msd="IN" in="-1:nobj" out="2:vobj">that</W>
+<W msd="PRP" in="1:subj|2:[subj]|4:[subj]|6:[subj]" out="">they</W>
+<W msd="MD" in="-2:vobj" out="-1:subj|1:vobj|2:coord">could</W>
+<W msd="VB" in="-1:vobj" out="-2:[subj]">quarrel</W>
+<W msd="CC" in="-2:coord" out="1:vobj">but</W>
+<W msd="VBD" in="-1:vobj" out="-4:[subj]|1:mod|2:vobj">had</W>
+<W msd="RB" in="-1:mod" out="">always</W>
+<W msd="VBN" in="-2:vobj" out="-6:[subj]">reconciled</W>
+<W msd="." in="-13:pnct" out="">.</W>
+</s>
+<s>
+<W msd="NN" in="1:subj|3:[subj]" out="">Something</W>
+<W msd="VBD" in="" out="-1:subj|1:mod|2:vobj|3:pnct|4:coord|15:pnct">was</W>
+<W msd="RB" in="-1:mod" out="10:coord">always</W>
+<W msd="VBG" in="-2:vobj" out="-3:[subj]">happening</W>
+<W msd="," in="-3:pnct" out="">,</W>
+<W msd="CC" in="-4:coord" out="3:conj">and</W>
+<W msd="RB" in="2:mod" out="">then</W>
+<W msd="PRP" in="1:subj" out="">they</W>
+<W msd="VBD" in="-3:conj" out="-2:mod|-1:subj|1:pred|2:mod|3:pnct">were</W>
+<W msd="RB" in="-1:pred" out="">together</W>
+<W msd="RB" in="-2:mod" out="">again</W>
+<W msd="," in="-3:pnct" out="">,</W>
+<W msd="CC" in="-10:coord" out="1:mod|2:conj">but</W>
+<W msd="RB" in="-1:mod" out="">not</W>
+<W msd="DT" in="-2:conj" out="1:nobj">this</W>
+<W msd="NN" in="-1:nobj" out="">time</W>
+<W msd="." in="-15:pnct" out="">.</W>
+</s>
+<s>
+<W msd="&quot;" in="3:pnct" out="">"</W>
+<W msd="NNP" in="2:subj|10:[subj]|16:[subj]" out="">Eva</W>
+<W msd="RB" in="1:mod" out="">just</W>
+<W msd="VBD" in="" out="-3:pnct|-2:subj|-1:mod|1:lobj|2:pnct|3:mods|13:coord|20:pnct|8:mods">sat</W>
+<W msd="EX" in="-1:lobj" out="">there</W>
+<W msd="," in="-2:pnct" out="">,</W>
+<W msd="NN" in="-3:mods" out="1:coord|4:pnct">kind</W>
+<W msd="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="RB" in="1:mod" out="">very</W>
+<W msd="JJ" in="-2:conj" out="-1:mod">pregnant</W>
+<W msd="," in="-4:pnct" out="">,</W>
+<W msd="VBG" in="-8:mods" out="-10:[subj]|1:pobj">beaming</W>
+<W msd="IN" in="-1:pobj" out="1:nobj">with</W>
+<W msd="NN" in="-1:nobj" out="1:coord">life</W>
+<W msd="CC" in="-1:coord" out="1:conj">and</W>
+<W msd="NN" in="-1:conj" out="">joy</W>
+<W msd="CC" in="-13:coord" out="1:conj">and</W>
+<W msd="VBD" in="-1:conj" out="-16:[subj]|1:iobj|2:dobj">told</W>
+<W msd="PRP" in="-1:iobj" out="">me</W>
+<W msd="IN" in="-2:dobj" out="2:vobj">that</W>
+<W msd="PRP" in="1:subj" out="">it</W>
+<W msd="VBD" in="-2:vobj" out="-1:subj|1:pred">was</W>
+<W msd="RB" in="-1:pred" out="">over</W>
+<W msd="." in="-20:pnct" out="">.</W>
+</s>
+<s>
+<W msd="RB" in="" out="1:pnct|2:pnct">Definitively</W>
+<W msd="." in="-1:pnct" out="">!</W>
+<W msd="&quot;" in="-2:pnct" out="">"</W>
+</s>
+<s>
+<W msd="&quot;" in="1:pnct" out="">"</W>
+<W msd="VBD" in="25:qobj" out="-1:pnct|1:subj|2:vobj|20:pnct|21:pnct">Did</W>
+<W msd="PRP" in="-1:subj|1:[subj]" out="">you</W>
+<W msd="VBP" in="-2:vobj" out="-1:[subj]|1:pobj|3:dobj">say</W>
+<W msd="TO" in="-1:pobj" out="1:nobj">to</W>
+<W msd="PRP" in="-1:nobj" out="">her</W>
+<W msd="IN" in="-3:dobj" out="4:vobj">that</W>
+<W msd="PRP" in="3:subj" out="">you</W>
+<W msd="RB" in="1:mod" out="">no</W>
+<W msd="RB" in="1:mod" out="-1:mod">longer</W>
+<W msd="VBN" in="-4:vobj" out="-3:subj|-1:mod|1:dobj|2:pobj">suspected</W>
+<W msd="PRP" in="-1:dobj" out="">her</W>
+<W msd="IN" in="-2:pobj" out="1:nobj">of</W>
+<W msd="VBG" in="-1:nobj" out="1:dobj">having</W>
+<W msd="DT" in="-1:dobj" out="1:nobj|2:pnct|3:ref|4:rel">another</W>
+<W msd="NN" in="-1:nobj" out="">man</W>
+<W msd="," in="-2:pnct" out="">,</W>
+<W msd="WP" in="-3:ref|1:subj" out="">who</W>
+<W msd="VBD" in="-4:rel" out="-1:subj|1:pred">was</W>
+<W msd="DT" in="-1:pred" out="1:nobj">the</W>
+<W msd="NN" in="-1:nobj" out="">father</W>
+<W msd="." in="-20:pnct" out="">?</W>
+<W msd="&quot;" in="-21:pnct" out="">"</W>
+</s>
+<s>
+<W msd="PRP" in="1:subj" out="">I</W>
+<W msd="VBD" in="" out="-25:qobj|-1:subj|1:pnct">asked</W>
+<W msd="." in="-1:pnct" out="">.</W>
+</s>

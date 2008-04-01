@@ -1,0 +1,232 @@
+<DTAGalign>
+<alignFile key="a" href="../dk/1038-dk.tag" sign="_input"/>
+<alignFile key="b" href="../en/1038-en.tag" sign="_input"/>
+<align out="a43" type="" in="b1" creator="-1" insign="But" outsign="Men"/>
+<align out="a44" type="" in="b2" creator="-1" insign="it" outsign="det"/>
+<align out="a45" type="" in="b3" creator="-1" insign="was" outsign="var"/>
+<align out="a47" type="" in="b4" creator="-1" insign="with" outsign="med"/>
+<align out="a50" type="" in="b7" creator="-1" insign="of" outsign="af"/>
+<align out="a52" type="" in="b9" creator="-1" insign="and" outsign="og"/>
+<align out="a55" type="" in="b12" creator="-1" insign="Preben" outsign="Preben"/>
+<align out="a56" type="" in="b13" creator="-1" insign="Madsen" outsign="Madsen"/>
+<align out="a61" type="" in="b17" creator="-1" insign="." outsign="."/>
+<align out="a65" type="" in="b23" creator="-1" insign="local" outsign="lokale"/>
+<align out="a66" type="" in="b24" creator="-1" insign="judges" outsign="dommere"/>
+<align out="a68" type="" in="b26" creator="-1" insign="Erwin" outsign="Erwin"/>
+<align out="a69" type="" in="b27" creator="-1" insign="Lauterbach" outsign="Lauterbach"/>
+<align out="a70" type="" in="b28" creator="-1" insign="," outsign=","/>
+<align out="a71" type="" in="b29" creator="-1" insign="Saison" outsign="Saison"/>
+<align out="a72" type="" in="b30" creator="-1" insign="at" outsign="på"/>
+<align out="a73" type="" in="b31" creator="-1" insign="Skovshoved" outsign="Skovshoved"/>
+<align out="a74" type="" in="b32" creator="-1" insign="Hotel" outsign="Hotel"/>
+<align out="a75" type="" in="b33" creator="-1" insign="," outsign=","/>
+<align out="a78" type="" in="b40" creator="-1" insign="." outsign="."/>
+<align out="a82" type="" in="b44" creator="-1" insign="gave" outsign="gav"/>
+<align out="a83" type="" in="b45" creator="-1" insign="me" outsign="mig"/>
+<align out="a84" type="" in="b46 b47" creator="-1" insign="the recipe" outsign="opskriften"/>
+<align out="a85" type="" in="b48" creator="-1" insign="." outsign="."/>
+<align out="a88" type="" in="b51 b52" creator="-1" insign="The ingredients" outsign="Ingredienserne"/>
+<align out="a89" type="" in="b53" creator="-1" insign="are" outsign="er"/>
+<align out="a90" type="" in="b54" creator="-1" insign=":" outsign=":"/>
+<align out="a94" type="" in="b58" creator="-1" insign="," outsign=","/>
+<align out="a98" type="" in="b62" creator="-1" insign="," outsign=","/>
+<align out="a102" type="" in="b66" creator="-1" insign="in" outsign="i"/>
+<align out="a104" type="" in="b69" creator="-1" insign="," outsign=","/>
+<align out="a105" type="" in="b70" creator="-1" insign="two" outsign="to"/>
+<align out="a108" type="" in="b74" creator="-1" insign="," outsign=","/>
+<align out="a109" type="" in="b75" creator="-1" insign="a" outsign="ét"/>
+<align out="a111" type="" in="b78" creator="-1" insign="parsley" outsign="persille"/>
+<align out="a112" type="" in="b79" creator="-1" insign="," outsign=","/>
+<align out="a113" type="" in="b80" creator="-1" insign="two" outsign="to"/>
+<align out="a114" type="" in="b81" creator="-1" insign="dl" outsign="dl"/>
+<align out="a115" type="" in="b82 b83" creator="-1" insign="vegetable bouillon" outsign="grønsagsbouillon"/>
+<align out="a116" type="" in="b84" creator="-1" insign="," outsign=","/>
+<align out="a117" type="" in="b85" creator="-1" insign="two" outsign="to"/>
+<align out="a118" type="" in="b86" creator="-1" insign="thin" outsign="tynde"/>
+<align out="a122" type="" in="b91" creator="-1" insign="," outsign=","/>
+<align out="a123" type="" in="b92" creator="-1" insign="two" outsign="to"/>
+<align out="a127" type="" in="b97" creator="-1" insign="," outsign=","/>
+<align out="a128" type="" in="b98" creator="-1" insign="two" outsign="to"/>
+<align out="a130" type="" in="b100" creator="-1" insign="ordinary" outsign="alm."/>
+<align out="a131" type="" in="b101" creator="-1" insign="vinegar" outsign="eddike"/>
+<align out="a132" type="" in="b102" creator="-1" insign="," outsign=","/>
+<align out="a135" type="" in="b104" creator="-1" insign="butter" outsign="smør"/>
+<align out="a136" type="" in="b105" creator="-1" insign="and" outsign="og"/>
+<align out="a137" type="" in="b106" creator="-1" insign="salt" outsign="salt"/>
+<align out="a138" type="" in="b107" creator="-1" insign="and" outsign="og"/>
+<align out="a139" type="" in="b108" creator="-1" insign="pepper" outsign="peber"/>
+<align out="a140" type="" in="b109" creator="-1" insign="." outsign="."/>
+<align out="a145" type="" in="b112" creator="-1" insign="Cut" outsign="Skær"/>
+<align out="a146" type="" in="b113 b114" creator="-1" insign="the fish" outsign="fisken"/>
+<align out="a147" type="" in="b115" creator="-1" insign="in" outsign="i"/>
+<align out="a149" type="" in="b117" creator="-1" insign="," outsign=","/>
+<align out="a151" type="" in="b119" creator="-1" insign="them" outsign="dem"/>
+<align out="a152" type="" in="b120" creator="-1" insign="on" outsign="på"/>
+<align out="a155" type="" in="b124" creator="-1" insign="in" outsign="i"/>
+<align out="a157" type="" in="b127" creator="-1" insign="at" outsign="ved"/>
+<align out="a158" type="" in="b128" creator="-1" insign="140" outsign="140"/>
+<align out="a159" type="" in="b129" creator="-1" insign="degrees" outsign="grader"/>
+<align out="a160" type="" in="b130" creator="-1" insign="." outsign="."/>
+<align out="a166" type="" in="b139" creator="-1" insign="." outsign="."/>
+<align out="a169" type="" in="b142 b143" creator="-1" insign="The sauce" outsign="Saucen"/>
+<align out="a170" type="" in="b144" creator="-1" insign=":" outsign=":"/>
+<align out="a171" type="" in="b145" creator="-1" insign="Steam" outsign="Damp"/>
+<align out="a173" type="" in="b149" creator="-1" insign="in" outsign="i"/>
+<align out="a175" type="" in="b152" creator="-1" insign="," outsign=","/>
+<align out="a179" type="" in="b155" creator="-1" insign="," outsign=","/>
+<align out="a183" type="" in="b159" creator="-1" insign="," outsign=","/>
+<align out="a184" type="" in="b160" creator="-1" insign="add" outsign="tilsæt"/>
+<align out="a185" type="" in="b161" creator="-1" insign="vinegar" outsign="eddike"/>
+<align out="a186" type="" in="b162" creator="-1" insign="and" outsign="og"/>
+<align out="a187" type="" in="b163" creator="-1" insign="mustard" outsign="sennep"/>
+<align out="a188" type="" in="b164" creator="-1" insign="," outsign=","/>
+<align out="a192" type="" in="b167" creator="-1" insign="butter" outsign="smør"/>
+<align out="a193" type="" in="b168" creator="-1" insign="," outsign=","/>
+<align out="a194" type="" in="b169" creator="-1" insign="add" outsign="tilsæt"/>
+<align out="a195" type="" in="b170" creator="-1" insign="chopped" outsign="hakket"/>
+<align out="a197" type="" in="b172" creator="-1" insign="." outsign="."/>
+<align out="a206" type="" in="b180 b181" creator="-1" insign="the cabbage" outsign="kålen"/>
+<align out="a207" type="" in="b182" creator="-1" insign="and" outsign="og"/>
+<align out="a208" type="" in="b183 b184" creator="-1" insign="leek rings" outsign="porreringene"/>
+<align out="a209" type="" in="b185" creator="-1" insign="," outsign=","/>
+<align out="a210" type="" in="b186" creator="-1" insign="pour" outsign="hæld"/>
+<align out="a212" type="" in="b189" creator="-1" insign="of" outsign="af"/>
+<align out="a214" type="" in="b192" creator="-1" insign="over" outsign="over"/>
+<align out="a215" type="" in="b193 b194" creator="-1" insign="the fish" outsign="fisken"/>
+<align out="a216" type="" in="b195" creator="-1" insign="and" outsign="og"/>
+<align out="a220" type="" in="b201" creator="-1" insign="." outsign="."/>
+<align out="a226" type="" in="b205" creator="-1" insign="may" outsign="kan"/>
+<align out="a230" type="" in="b208" creator="-1" insign="new" outsign="nye"/>
+<align out="a233" type="" in="b213" creator="-1" insign="." outsign="."/>
+<align out="a238" type="" in="b216" creator="-1" insign="Preben" outsign="Preben"/>
+<align out="a239" type="" in="b217" creator="-1" insign="Madsen" outsign="Madsen"/>
+<align out="a240" type="" in="b218" creator="-1" insign="," outsign=","/>
+<align out="a241" type="" in="b219" creator="-1" insign="who" outsign="der"/>
+<align out="a242" type="" in="b220" creator="-1" insign="is" outsign="er"/>
+<align out="a243" type="" in="b221" creator="-1" insign="31" outsign="31"/>
+<align out="a245" type="" in="b224" creator="-1" insign="," outsign=","/>
+<align out="a249" type="" in="b228" creator="-1" insign="Hovborg" outsign="Hovborg"/>
+<align out="a250" type="" in="b229" creator="-1" insign="Inn" outsign="Kro"/>
+<align out="a251" type="" in="b230" creator="-1" insign="." outsign="."/>
+<align out="a255" type="" in="b237" creator="-1" insign="has" outsign="har"/>
+<align out="a256" type="" in="b236" creator="-1" insign="he" outsign="han"/>
+<align out="a261" type="" in="b245" creator="-1" insign="in" outsign="i"/>
+<align out="a262" type="" in="b246" creator="-1" insign="Esbjerg" outsign="Esbjerg"/>
+<align out="a263" type="" in="b247" creator="-1" insign="," outsign=","/>
+<align out="a264" type="" in="b248" creator="-1" insign="Hotel" outsign="Hotel"/>
+<align out="a265" type="" in="b249" creator="-1" insign="Plaza" outsign="Plaza"/>
+<align out="a266" type="" in="b250" creator="-1" insign="in" outsign="i"/>
+<align out="a267" type="" in="b251" creator="-1" insign="Copenhagen" outsign="København"/>
+<align out="a268" type="" in="b252" creator="-1" insign="and" outsign="og"/>
+<align out="a269" type="" in="b253" creator="-1" insign="at" outsign="på"/>
+<align out="a270" type="" in="b254" creator="-1" insign="Henne" outsign="Henne"/>
+<align out="a271" type="" in="b255" creator="-1" insign="Kirkeby" outsign="Kirkeby"/>
+<align out="a272" type="" in="b256" creator="-1" insign="Inn" outsign="Kro"/>
+<align out="a273" type="" in="b257" creator="-1" insign="." outsign="."/>
+<align out="b235" type="" in="b235" creator="-1" insign="," outsign=","/>
+<align out="a46" type="" in="a46" creator="0" insign="nu" outsign="nu"/>
+<align out="a51" type="" in="b8" creator="0" insign="pike" outsign="gedde"/>
+<align out="a53" type="" in="b10" creator="0" insign="trout" outsign="ørred"/>
+<align out="a48" type="" in="b5 b11" creator="0" insign="the dish" outsign="retten"/>
+<align out="a49" type="" in="b6" creator="0" insign="fricassee" outsign="frikassé"/>
+<align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
+<align out="a57 a59 a60" type="" in="b14" creator="0" insign="landed" outsign="trak i land"/>
+<align out="a58" type="f" in="b15" creator="0" insign="his" outsign="sejren"/>
+<align out="a58" type="" in="b16" creator="0" insign="victory" outsign="sejren"/>
+<align out="a64" type="" in="b20 b21 b22" creator="0" insign="In addition to" outsign="Foruden"/>
+<align out="a62" type="" in="b18" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a63" type="" in="b19" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="b25" type="" in="b25" creator="0" insign="," outsign=","/>
+<align out="a67" type="" in="b34" creator="0" insign="was" outsign="var"/>
+<align out="a76" type="" in="b35" creator="0" insign="on" outsign="i"/>
+<align out="a77" type="" in="b36 b37 b38 b39" creator="0" insign="the panel of judges" outsign="dommerpanelet"/>
+<align out="a81" type="?" in="b43" creator="0" insign="Madsen" outsign="adsen"/>
+<align out="a80" type="" in="b42" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a79" type="" in="b41" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a91" type="" in="b55" creator="0" insign="400g" outsign="400"/>
+<align out="a92" type="?" in="b55" creator="0" insign="400g" outsign="g"/>
+<align out="a93" type="" in="b56 b57" creator="0" insign="pike filet" outsign="geddefilet"/>
+<align out="a95" type="" in="b59" creator="0" insign="400g" outsign="400"/>
+<align out="a96" type="?" in="b59" creator="0" insign="400g" outsign="g"/>
+<align out="a97" type="" in="b60 b61" creator="0" insign="trout filet" outsign="ørredfilet"/>
+<align out="a99" type="" in="b63" creator="0" insign="150g" outsign="150"/>
+<align out="a100" type="?" in="b63" creator="0" insign="150g" outsign="g"/>
+<align out="a101" type="" in="b64 b65" creator="0" insign="country ham" outsign="landskinke"/>
+<align out="a87" type="" in="b50" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a86" type="" in="b49" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a106" type="" in="b71" creator="0" insign="small" outsign="små"/>
+<align out="a107" type="" in="b72 b73" creator="0" insign="spring cabbages" outsign="spidskål"/>
+<align out="a110" type="" in="b76" creator="0" insign="bunch" outsign="bundt"/>
+<align out="a110" type="s" in="b77" creator="0" insign="of" outsign="bundt"/>
+<align out="a119" type="" in="b87" creator="0" insign="leeks" outsign="porrer"/>
+<align out="a124" type="f" in="b93" creator="0" insign="teaspoons" outsign="spsk."/>
+<align out="a125" type="f" in="b94 b95" creator="0" insign="whole seed" outsign="grov"/>
+<align out="a129" type="f" in="b99" creator="0" insign="teaspoons" outsign="spsk."/>
+<align out="a133" type="" in="b103" creator="0" insign="200g" outsign="200"/>
+<align out="a134" type="?" in="b103" creator="0" insign="200g" outsign="g"/>
+<align out="a126" type="" in="b96" creator="-1" insign="mustard" outsign="sennep"/>
+<align out="a148" type="" in="b116" creator="0" insign="cubes" outsign="tern"/>
+<align out="a150" type="" in="b118" creator="0" insign="bake" outsign="bag"/>
+<align out="a153" type="" in="b121" creator="0" insign="buttered" outsign="smurte"/>
+<align out="a156" type="" in="b125 b126" creator="0" insign="the oven" outsign="ovnen"/>
+<align out="a141" type="" in="b110" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a144" type="" in="b111" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a163" type="" in="b133 b134" creator="0" insign="The cabbage" outsign="Kålen"/>
+<align out="a172" type="" in="b146 b147 b148" creator="0" insign="the leek rings" outsign="porreringene"/>
+<align out="a174" type="" in="b150 b151" creator="0" insign="vegetable bouillon" outsign="grønsagsbouillon"/>
+<align out="a176 a178" type="" in="b153" creator="0" insign="remove" outsign="tag op"/>
+<align out="a177" type="" in="b154" creator="0" insign="them" outsign="dem"/>
+<align out="a180 a182" type="" in="b156" creator="0" insign="reduce" outsign="kog ind"/>
+<align out="a181" type="" in="b157 b158" creator="0" insign="the bouillon" outsign="bouillonen"/>
+<align out="a167" type="" in="b140" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a161" type="" in="b131" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a162" type="" in="b132" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a168" type="" in="b141" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a189 a190 a191" type="" in="b165 b166" creator="0" insign="stir in" outsign="piskes op med"/>
+<align out="a202" type="" in="b175" creator="0" insign="Serve" outsign="Anret"/>
+<align out="a203" type="" in="b176 b177 b178" creator="0" insign="the fish cubes" outsign="fiskestykkerne"/>
+<align out="a196" type="" in="b171" creator="-1" insign="parsley" outsign="persille"/>
+<align out="a198" type="" in="b173" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a201" type="" in="b174" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a204 a205" type="" in="b179" creator="0" insign="with" outsign="sammen med"/>
+<align out="a213" type="" in="b190 b191" creator="0" insign="the sauce" outsign="saucen"/>
+<align out="a217" type="" in="b196" creator="0" insign="sprinkle" outsign="drys"/>
+<align out="a211" type="s" in="b187" creator="0" insign="a" outsign="lidt"/>
+<align out="a211" type="" in="b188" creator="0" insign="little" outsign="lidt"/>
+<align out="a218" type="" in="b197 b198" creator="0" insign="the ham" outsign="skinken"/>
+<align out="a219" type="f" in="b199 b200" creator="0" insign="on top" outsign="over"/>
+<align out="a225" type="" in="a225" creator="0" insign="Evt." outsign="Evt."/>
+<align out="a227" type="" in="b204" creator="0" insign="You" outsign="man"/>
+<align out="b206" type="" in="b206" creator="0" insign="also" outsign="also"/>
+<align out="a228" type="?" in="b207" creator="0" insign="serve" outsign="serverer"/>
+<align out="a229" type="" in="b210 b211 b212" creator="0" insign="baked in butter" outsign="smørbagte"/>
+<align out="a231" type="" in="b209" creator="0" insign="potatoes" outsign="kartofler"/>
+<align out="a232" type="s" in="b207" creator="0" insign="serve" outsign="til"/>
+<align out="a244" type="" in="b222" creator="0" insign="years" outsign="år"/>
+<align out="a244" type="s" in="b223" creator="0" insign="old" outsign="år"/>
+<align out="a246" type="" in="b225" creator="0" insign="was" outsign="er"/>
+<align out="a247" type="" in="b226" creator="0" insign="trained" outsign="udlært"/>
+<align out="a237" type="" in="b215" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a224" type="" in="b203" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a234" type="" in="b214" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a221" type="" in="b202" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a254" type="" in="b233" creator="0" insign="Since" outsign="Siden"/>
+<align out="a254" type="s" in="b234" creator="0" insign="then" outsign="Siden"/>
+<align out="a257" type="" in="b238 b239 b240" creator="0" insign="among other places" outsign="bl.a."/>
+<align out="b241" type="" in="b241" creator="0" insign="," outsign=","/>
+<align out="a258" type="" in="b242" creator="0" insign="been" outsign="været"/>
+<align out="a253" type="" in="b232" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a252" type="" in="b231" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a260" type="" in="b244" creator="-1" insign="Pakhuset" outsign="Pakhuset"/>
+<align out="a248" type="" in="b227" creator="-1" insign="at" outsign="på"/>
+<align out="a259" type="" in="b243" creator="-1" insign="at" outsign="på"/>
+<align out="a274" type="" in="b258" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a103" type="" in="b67 b68" creator="0" insign="julienne strips" outsign="julienne"/>
+<align out="a120" type="" in="b89" creator="0" insign="in" outsign="i"/>
+<align out="a121" type="" in="b90" creator="0" insign="rings" outsign="ringe"/>
+<align out="a121" type="s" in="b88" creator="0" insign="cut" outsign="ringe"/>
+<align out="a154" type="" in="b122 b123" creator="0" insign="baking sheets" outsign="plader"/>
+<align out="a164" type="" in="b135 b136" creator="0" insign="is cooked" outsign="koges"/>
+<align out="a164" type="s" in="b137" creator="0" insign="until" outsign="koges"/>
+<align out="a165" type="" in="b138" creator="0" insign="tender" outsign="mør"/>
+</DTAGalign>

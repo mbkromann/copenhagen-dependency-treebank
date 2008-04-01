@@ -1,0 +1,21 @@
+<DTAGalign>
+<alignFile key="a" href="../dk/0104-dk.tag" sign="_input"/>
+<alignFile key="b" href="../es/0104-es.tag" sign="_input"/>
+<align out="a43" type="" in="b0 b1" creator="0" insign="La propuesta" outsign="Forslaget"/>
+<align out="a44" type="" in="b2" creator="0" insign="sobre" outsign="om"/>
+<align out="a45" type="" in="b6" creator="0" insign="colectivas" outsign="fælles"/>
+<align out="a46" type="" in="b3 b4 b5" creator="0" insign="sesiones de grupo" outsign="gruppemøder"/>
+<align out="a47" type="" in="b7" creator="0" insign="entre" outsign="mellem"/>
+<align out="a52" type="" in="b11" creator="0" insign="no" outsign="ikke"/>
+<align out="a51" type="" in="b12" creator="0" insign="es" outsign="er"/>
+<align out="a54" type="" in="b15" creator="0" insign="novedoso" outsign="nyt"/>
+<align out="a53" type="" in="b14" creator="0" insign="tan" outsign="helt"/>
+<align out="b13" type="" in="b13" creator="0" insign="algo" outsign="algo"/>
+<align out="a48" type="" in="b8" creator="-1" insign="V" outsign="V"/>
+<align out="a50" type="" in="b10" creator="-1" insign="K" outsign="K"/>
+<align out="a55" type="" in="b16" creator="-1" insign="." outsign="."/>
+<align out="a49" type="" in="b9" creator="-1" insign="y" outsign="og"/>
+<align out="a74" type="" in="b34" creator="-100" insign="1964" outsign="1964"/>
+<align out="a75" type="" in="b35" creator="-100" insign="," outsign=","/>
+<align out="a76" type="" in="b36" creator="-100" insign="y" outsign="og"/>
+</DTAGalign>

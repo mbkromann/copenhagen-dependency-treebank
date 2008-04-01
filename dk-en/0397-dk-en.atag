@@ -1,0 +1,218 @@
+<DTAGalign>
+<alignFile key="a" href="../dk/0397-dk.tag" sign="_input"/>
+<alignFile key="b" href="../en/0397-en.tag" sign="_input"/>
+<align out="a42" type="" in="b1" creator="-1" insign="I" outsign="Jeg"/>
+<align out="a43" type="" in="b2" creator="-1" insign="said" outsign="sagde"/>
+<align out="a45" type="" in="b3" creator="-1" insign="that" outsign="at"/>
+<align out="a46" type="" in="b7" creator="-1" insign="I" outsign="jeg"/>
+<align out="a48 a49" type="" in="b8 b9" creator="-1" insign="didn't have" outsign="ikke havde"/>
+<align out="a50" type="" in="b10" creator="-1" insign="time" outsign="tid"/>
+<align out="a51" type="" in="b11" creator="-1" insign="," outsign=","/>
+<align out="a52" type="" in="b12" creator="-1" insign="and" outsign="og"/>
+<align out="a53" type="" in="b13" creator="-1" insign="later" outsign="siden"/>
+<align out="a54" type="" in="b15" creator="-1" insign="went" outsign="gik"/>
+<align out="a55" type="" in="b14" creator="-1" insign="I" outsign="jeg"/>
+<align out="a56" type="" in="b16" creator="-1" insign="over" outsign="over"/>
+<align out="a57 a58" type="" in="b17" creator="-1" insign="to" outsign="til at"/>
+<align out="a59" type="" in="b18" creator="-1" insign="air" outsign="lufte"/>
+<align out="a60" type="" in="b19 b20" creator="-1" insign="the dog" outsign="hunden"/>
+<align out="a61" type="" in="b21" creator="-1" insign="in" outsign="i"/>
+<align out="a62" type="" in="b22 b23" creator="-1" insign="the area" outsign="området"/>
+<align out="a63" type="" in="b24" creator="-1" insign="around" outsign="omkring"/>
+<align out="a64" type="" in="b25" creator="-1" insign="a" outsign="en"/>
+<align out="a65" type="" in="b26" creator="-1" insign="fen" outsign="mose"/>
+<align out="a66" type="" in="b27" creator="-1" insign="in" outsign="i"/>
+<align out="a67" type="" in="b28 b29" creator="-1" insign="the vicinity" outsign="nærheden"/>
+<align out="a68" type="" in="b30" creator="-1" insign="." outsign="."/>
+<align out="a73" type="" in="b33" creator="-1" insign="The" outsign="Den"/>
+<align out="a74" type="" in="b34" creator="-1" insign="old" outsign="gamle"/>
+<align out="a75" type="" in="b35" creator="-1" insign="man" outsign="mand"/>
+<align out="a76" type="" in="b36" creator="-1" insign="was" outsign="var"/>
+<align out="a77" type="" in="b37" creator="-1" insign="probably" outsign="sikkert"/>
+<align out="a78" type="" in="b38" creator="-1" insign="just" outsign="bare"/>
+<align out="a80" type="" in="b40" creator="-1" insign="and" outsign="og"/>
+<align out="a84" type="" in="b43" creator="-1" insign="to" outsign="at"/>
+<align out="a85" type="" in="b44" creator="-1" insign="talk" outsign="snakke"/>
+<align out="a86" type="" in="b45" creator="-1" insign="to" outsign="med"/>
+<align out="a87" type="" in="b46" creator="-1" insign="," outsign=","/>
+<align out="a88" type="" in="b47" creator="-1" insign="but" outsign="men"/>
+<align out="a89" type="" in="b48" creator="-1" insign="he" outsign="han"/>
+<align out="a90" type="" in="b49" creator="-1" insign="made" outsign="gjorde"/>
+<align out="a91" type="" in="b50" creator="-1" insign="me" outsign="mig"/>
+<align out="a92" type="" in="b51" creator="-1" insign="so" outsign="så"/>
+<align out="a93" type="" in="b52" creator="-1" insign="sad" outsign="trist"/>
+<align out="a94" type="" in="b53" creator="-1" insign="." outsign="."/>
+<align out="a101" type="" in="a101" creator="-1" insign="," outsign=","/>
+<align out="a102" type="" in="b60" creator="-1" insign="I" outsign="jeg"/>
+<align out="a103" type="" in="b61" creator="-1" insign="will" outsign="ville"/>
+<align out="a104" type="" in="b62" creator="-1" insign="be" outsign="blive"/>
+<align out="a106" type="" in="b64" creator="-1" insign="." outsign="."/>
+<align out="a109" type="" in="b67" creator="-1" insign="A" outsign="En"/>
+<align out="a110" type="" in="b68" creator="-1" insign="lonely" outsign="ensom"/>
+<align out="a111" type="" in="b69" creator="-1" insign="lady" outsign="dame"/>
+<align out="a112" type="" in="b70" creator="-1" insign="," outsign=","/>
+<align out="a113" type="" in="b71" creator="-1" insign="who" outsign="der"/>
+<align out="a115" type="" in="b73" creator="-1" insign="around" outsign="rundt"/>
+<align out="a116" type="" in="b74" creator="-1" insign="in" outsign="i"/>
+<align out="a117" type="" in="b75" creator="-1" insign="parks" outsign="parkerne"/>
+<align out="a118" type="" in="b76" creator="-1" insign="and" outsign="og"/>
+<align out="a119" type="" in="b77" creator="-1" insign="on" outsign="på"/>
+<align out="a120" type="" in="b78 b79" creator="-1" insign="the streets" outsign="gaderne"/>
+<align out="a128" type="" in="b87" creator="-1" insign="with" outsign="med"/>
+<align out="a135" type="" in="b92" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a136" type="" in="b93" creator="-1" insign="It" outsign="Det"/>
+<align out="a137" type="" in="b94" creator="-1" insign="is" outsign="er"/>
+<align out="a142" type="" in="b97" creator="-1" insign="you" outsign="du"/>
+<align out="a145" type="" in="b99" creator="-1" insign="nobody" outsign="ingen"/>
+<align out="a150" type="" in="b102" creator="-1" insign="," outsign=","/>
+<align out="a151" type="" in="b103" creator="-1" insign="Janne" outsign="Janne"/>
+<align out="a152" type="" in="b104" creator="-1" insign="!" outsign="!"/>
+<align out="a153" type="" in="b107" creator="-1" insign="said" outsign="sagde"/>
+<align out="a154" type="" in="b108" creator="-1" insign="Lis" outsign="Lis"/>
+<align out="a155" type="" in="b110" creator="-1" insign="one" outsign="en"/>
+<align out="a156" type="" in="b111" creator="-1" insign="day" outsign="dag"/>
+<align out="a157" type="" in="b112" creator="-1" insign="," outsign=","/>
+<align out="a158" type="" in="b113" creator="-1" insign="when" outsign="da"/>
+<align out="a159" type="" in="b114" creator="-1" insign="she" outsign="hun"/>
+<align out="a160" type="" in="b115" creator="-1" insign="was" outsign="var"/>
+<align out="a161" type="" in="b116 b117" creator="-1" insign="at home" outsign="hjemme"/>
+<align out="a164" type="" in="b121" creator="-1" insign="." outsign="."/>
+<align out="a167" type="" in="b124" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a168 a169" type="" in="b125" creator="-1" insign="We're" outsign="Vi er"/>
+<align out="a170" type="" in="b126" creator="-1" insign="a" outsign="en"/>
+<align out="a171" type="" in="b127" creator="-1" insign="whole" outsign="hel"/>
+<align out="a172" type="" in="b128" creator="-1" insign="family" outsign="familie"/>
+<align out="a173" type="" in="a173" creator="-1" insign="," outsign=","/>
+<align out="a176" type="" in="b131" creator="-1" insign="you" outsign="dig"/>
+<align out="a177" type="" in="b132" creator="-1" insign="," outsign=","/>
+<align out="a178" type="" in="b133" creator="-1" insign="and" outsign="og"/>
+<align out="a179" type="" in="b134" creator="-1" insign="now" outsign="nu"/>
+<align out="a181" type="" in="b135" creator="-1" insign="there" outsign="der"/>
+<align out="a185" type="" in="b140" creator="-1" insign="!" outsign="!"/>
+<align out="a198" type="" in="b152" creator="-1" insign="That" outsign="Det"/>
+<align out="a199" type="" in="b153" creator="-1" insign="was" outsign="var"/>
+<align out="a200" type="" in="b154" creator="-1" insign="the" outsign="det"/>
+<align out="a201" type="" in="b155" creator="-1" insign="first" outsign="første"/>
+<align out="a202" type="" in="a202" creator="-1" insign="," outsign=","/>
+<align out="a203" type="" in="b156" creator="-1" insign="we" outsign="vi"/>
+<align out="a204" type="" in="b157" creator="-1" insign="heard" outsign="hørte"/>
+<align out="a209" type="" in="b160" creator="-1" insign="and" outsign="og"/>
+<align out="a210" type="" in="b161" creator="-1" insign="her" outsign="hendes"/>
+<align out="a211" type="" in="b162" creator="-1" insign="husband" outsign="mand"/>
+<align out="a213" type="" in="b166" creator="-1" insign="have" outsign="have"/>
+<align out="a214" type="" in="b167" creator="-1" insign="a" outsign="et"/>
+<align out="a215" type="" in="b168" creator="-1" insign="child" outsign="barn"/>
+<align out="a216" type="" in="b169" creator="-1" insign="." outsign="."/>
+<align out="a219" type="" in="b172" creator="-1" insign="Mother" outsign="Mor"/>
+<align out="a220" type="" in="b174" creator="-1" insign="began" outsign="begyndte"/>
+<align out="a225" type="" in="b178" creator="-1" insign=";" outsign=";"/>
+<align out="a226" type="" in="b179" creator="-1" insign="father" outsign="far"/>
+<align out="a232" type="" in="b182" creator="-1" insign=":" outsign=":"/>
+<align out="a235" type="" in="b185" creator="-1" insign="must" outsign="må"/>
+<align out="a236" type="" in="b184" creator="-1" insign="I" outsign="jeg"/>
+<align out="a238" type="" in="b186" creator="-1" insign="say" outsign="sige"/>
+<align out="a239" type="" in="b187" creator="-1" insign="!" outsign="!"/>
+<align out="a241" type="" in="b191" creator="-1" insign="and" outsign="og"/>
+<align out="a246" type="" in="b196 b197" creator="-1" insign="the telephone" outsign="telefonen"/>
+<align out="a247" type="" in="b198" creator="-1" insign="." outsign="."/>
+<align out="a250" type="" in="b201" creator="-1" insign="But" outsign="Men"/>
+<align out="a251" type="" in="b202" creator="-1" insign="that" outsign="det"/>
+<align out="a252" type="" in="b203" creator="-1" insign="was" outsign="var"/>
+<align out="a256" type="" in="b205" creator="-1" insign="make" outsign="lave"/>
+<align out="a257" type="" in="b206" creator="-1" insign="a" outsign="en"/>
+<align out="a259" type="" in="b208" creator="-1" insign="with" outsign="med"/>
+<align out="a260" type="" in="b209" creator="-1" insign="a" outsign="en"/>
+<align out="a261" type="" in="b210" creator="-1" insign="friend" outsign="veninde"/>
+<align out="a262 a264" type="" in="b211" creator="-1" insign="to" outsign="om at"/>
+<align out="a263" type="" in="a263" creator="-1" insign="," outsign=","/>
+<align out="a269" type="" in="b216" creator="-1" insign="." outsign="."/>
+<align out="b109" type="" in="b109" creator="-1" insign="," outsign=","/>
+<align out="a47" type="" in="b5" creator="0" insign="unfortunately" outsign="desværre"/>
+<align out="a44" type="" in="a44" creator="0" insign="," outsign=","/>
+<align out="b4" type="" in="b4" creator="0" insign="," outsign=","/>
+<align out="b6" type="" in="b6" creator="0" insign="," outsign=","/>
+<align out="a79" type="" in="b39" creator="0" insign="lonely" outsign="ensom"/>
+<align out="a81 a82" type="" in="b41" creator="0" insign="needed" outsign="trængte til"/>
+<align out="a83" type="" in="b42" creator="0" insign="someone" outsign="nogen"/>
+<align out="a72" type="" in="b32" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a69" type="" in="b31" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a97 a98" type="" in="b56" creator="0" insign="It's" outsign="Det var"/>
+<align out="a105" type="" in="b63" creator="0" insign="someday" outsign="engang"/>
+<align out="a99" type="f" in="b57" creator="0" insign="probably" outsign="vel"/>
+<align out="a96" type="" in="b55" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a95" type="" in="b54" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="b80" type="" in="b80" creator="0" insign="," outsign=","/>
+<align out="a114" type="f" in="b72" creator="0" insign="shuffled" outsign="trissede"/>
+<align out="a122" type="" in="b81" creator="0" insign="trying" outsign="prøvede"/>
+<align out="a121" type="s" in="b81" creator="0" insign="trying" outsign="og"/>
+<align out="a123 a124" type="" in="b82" creator="0" insign="to" outsign="på at"/>
+<align out="a125 a126 a127" type="" in="b83 b84 b85 b86" creator="0" insign="start up a conversation" outsign="komme i snak"/>
+<align out="a108" type="" in="b66" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a107" type="" in="b65" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a129" type="" in="b88" creator="0" insign="strangers" outsign="fremmede"/>
+<align out="a130" type="?" in="b89" creator="0" insign="?" outsign="..."/>
+<align out="a140" type="" in="a140" creator="0" insign="," outsign=","/>
+<align out="a141" type="" in="b96" creator="0" insign="that" outsign="at"/>
+<align out="a143" type="" in="b98" creator="0" insign="think" outsign="tror"/>
+<align out="a144" type="" in="a144" creator="0" insign="," outsign=","/>
+<align out="a146 a147 a148" type="" in="b100" creator="0" insign="likes" outsign="bryder sig om"/>
+<align out="a139" type="" in="b95" creator="0" insign="nonsense" outsign="pjat"/>
+<align out="a138" type="s" in="b95" creator="0" insign="nonsense" outsign="noget"/>
+<align out="a149" type="" in="b101" creator="-1" insign="you" outsign="dig"/>
+<align out="a131" type="" in="b90" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a134" type="" in="b91" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a162" type="" in="b118" creator="0" insign="for" outsign="på"/>
+<align out="a163" type="s" in="b119" creator="0" insign="a" outsign="besøg"/>
+<align out="a163" type="" in="b120" creator="0" insign="visit" outsign="besøg"/>
+<align out="a166" type="" in="b123" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a165" type="" in="b122" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a175" type="" in="b130" creator="0" insign="loves" outsign="elsker"/>
+<align out="a180" type="" in="b136 b138" creator="0" insign="will be" outsign="bliver"/>
+<align out="a182" type="" in="b137" creator="0" insign="soon" outsign="snart"/>
+<align out="a189" type="s" in="b143" creator="0" insign="You're" outsign="skal"/>
+<align out="a188" type="" in="b143" creator="0" insign="You're" outsign="Du"/>
+<align out="a189" type="" in="b144 b145" creator="0" insign="going to" outsign="skal"/>
+<align out="a191" type="" in="b146" creator="0" insign="be" outsign="være"/>
+<align out="a192" type="" in="b148" creator="0" insign="aunt" outsign="moster"/>
+<align out="a192" type="s" in="b147" creator="0" insign="an" outsign="moster"/>
+<align out="a190" type="" in="a190" creator="0" insign="nemlig" outsign="nemlig"/>
+<align out="a174" type="" in="b129" creator="-1" insign="who" outsign="der"/>
+<align out="a186" type="" in="b141" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a193" type="?" in="b149" creator="-1" insign="?" outsign="..."/>
+<align out="a187" type="" in="b142" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a205 a207" type="" in="b158" creator="0" insign="that" outsign="om at"/>
+<align out="a208" type="" in="b159" creator="0" insign="Lis" outsign="Lis"/>
+<align out="a212" type="" in="b163 b164 b165" creator="0" insign="were going to" outsign="skulle"/>
+<align out="a206" type="" in="a206" creator="0" insign="," outsign=","/>
+<align out="a217" type="" in="b170" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a218" type="" in="b171" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a221" type="" in="b173" creator="0" insign="immediately" outsign="omgående"/>
+<align out="a222" type="" in="b175" creator="0" insign="on" outsign="på"/>
+<align out="a227 a228 a229" type="" in="b180" creator="0" insign="kept" outsign="blev ved med"/>
+<align out="a231" type="" in="b181" creator="0" insign="saying" outsign="sige"/>
+<align out="a233" type="" in="b183" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a240" type="" in="b188" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a237" type="" in="a237" creator="0" insign="nok" outsign="nok"/>
+<align out="a243" type="" in="b193" creator="0" insign="threw" outsign="kastede"/>
+<align out="a244" type="" in="b194" creator="0" insign="herself" outsign="sig"/>
+<align out="a253" type="" in="a253" creator="0" insign="nu" outsign="nu"/>
+<align out="a254 a255" type="" in="b204" creator="0" insign="to" outsign="for at"/>
+<align out="a258" type="" in="b207" creator="0" insign="date" outsign="aftale"/>
+<align out="a242" type="" in="b192" creator="-1" insign="Christine" outsign="Christine"/>
+<align out="a249" type="" in="b200" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a248" type="" in="b199" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a245" type="" in="b195" creator="-1" insign="over" outsign="over"/>
+<align out="a268" type="" in="b215" creator="0" insign="discotheque" outsign="diskotek"/>
+<align out="a268" type="s" in="b214" creator="0" insign="a" outsign="diskotek"/>
+<align out="a267" type="" in="b213" creator="0" insign="to" outsign="på"/>
+<align out="a265" type="" in="a265" creator="0" insign="de" outsign="de"/>
+<align out="a266" type="f" in="b212" creator="0" insign="go" outsign="skulle"/>
+<align out="a270" type="" in="b217" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a100" type="f" in="b58 b59" creator="0" insign="the way" outsign="sådan"/>
+<align out="a183 a184" type="" in="b139" creator="0" insign="another" outsign="én til"/>
+<align out="b177" type="" in="b177" creator="0" insign="clothes" outsign="clothes"/>
+<align out="a224" type="" in="b176" creator="0" insign="knitting" outsign="strikketøj"/>
+<align out="a223" type="s" in="b176" creator="0" insign="knitting" outsign="et"/>
+<align out="a234" type="s" in="b186" creator="0" insign="say" outsign="Det"/>
+<align out="a230" type="s" in="b181" creator="0" insign="saying" outsign="at"/>
+</DTAGalign>

@@ -1,0 +1,43 @@
+<DTAGalign>
+<alignFile key="a" href="../dk/0306-dk.tag" sign="_input"/>
+<alignFile key="b" href="../de/0306-de.tag" sign="_input"/>
+<align out="a42" type="" in="b0" creator="0" insign="Gibt" outsign="Er"/>
+<align out="a43" type="" in="b1" creator="0" insign="es" outsign="der"/>
+<align out="a44" type="" in="b2" creator="0" insign="Probleme" outsign="problemer"/>
+<align out="a45" type="" in="b3" creator="0" insign="mit" outsign="med"/>
+<align out="a46" type="" in="b4 b5" creator="0" insign="der Gesundheit" outsign="helbredet"/>
+<align out="a48" type="" in="a48" creator="0" insign="så" outsign="så"/>
+<align out="a49" type="" in="b7" creator="0" insign="schreiben" outsign="skriv"/>
+<align out="a50" type="" in="b9" creator="0" insign="an" outsign="til"/>
+<align out="b8" type="" in="b8" creator="0" insign="Sie" outsign="Sie"/>
+<align out="a58" type="" in="b17" creator="-1" insign="Vesterbrogade" outsign="Vesterbrogade"/>
+<align out="a59" type="" in="b18" creator="-1" insign="16" outsign="16"/>
+<align out="a51" type="" in="b10" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a53" type="" in="b12" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a47" type="" in="b6" creator="-1" insign="," outsign=","/>
+<align out="a54" type="" in="b13" creator="-1" insign="," outsign=","/>
+<align out="a57" type="" in="b16" creator="-1" insign="," outsign=","/>
+<align out="a60" type="" in="b19" creator="-1" insign="," outsign=","/>
+<align out="a52" type="" in="b11" creator="-1" insign="Ärzte" outsign="Lægerne"/>
+<align out="a55" type="" in="b14" creator="-1" insign="Wochenmagazin" outsign="Ugemagasinet"/>
+<align out="a56" type="" in="b15" creator="-1" insign="SONNTAG" outsign="SØNDAG"/>
+<align out="a64" type="" in="a64" creator="0" insign="." outsign="."/>
+<align out="a67" type="" in="b23" creator="0" insign="Nur" outsign="Kun"/>
+<align out="a70" type="" in="b25" creator="0" insign="Ärzte" outsign="læger"/>
+<align out="a69" type="" in="b28" creator="0" insign="SONNTAG" outsign="SØNDAG's"/>
+<align out="a69" type="s" in="b24 b26" creator="0" insign="die vom" outsign="SØNDAG's"/>
+<align out="a71" type="" in="b29" creator="0" insign="dürfen" outsign="må"/>
+<align out="a72" type="" in="b32" creator="0" insign="öffnen" outsign="åbne"/>
+<align out="a73" type="" in="b30" creator="0" insign="Ihre" outsign="Deres"/>
+<align out="a74" type="" in="b31" creator="0" insign="Briefe" outsign="brev"/>
+<align out="a80" type="" in="b36 b37" creator="0" insign="Die Ärzte" outsign="Lægerne"/>
+<align out="a61" type="" in="b20" creator="-1" insign="1505" outsign="1505"/>
+<align out="a62" type="" in="b21" creator="-1" insign="København" outsign="København"/>
+<align out="a63" type="" in="b22" creator="-1" insign="V." outsign="V."/>
+<align out="a75" type="" in="b33" creator="-1" insign="." outsign="."/>
+<align out="a79" type="" in="b35" creator="-1" insign=":" outsign=":"/>
+<align out="a68" type="" in="b27" creator="-1" insign="Wochenmagazin" outsign="Ugemagasinet"/>
+<align out="a78" type="" in="b34" creator="-1" insign="NB" outsign="OBS"/>
+<align out="a98" type="" in="b49" creator="-100" insign="?" outsign="?"/>
+<align out="a90" type="" in="b44" creator="-100" insign="." outsign="."/>
+</DTAGalign>

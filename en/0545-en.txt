@@ -1,0 +1,57 @@
+
+11 Induktion
+
+
+Formål
+
+At beskrive magnetfeltet omkring en elektrisk strøm og elektrofeltet 
+omkring en magnet i bevægelse.
+
+
+Apparatur
+
+Spændingskilde ( jævn og veksel ), ledninger, kompasnål, stangmagnet, 
+fintfølende volt-meter, spoler ( 200 vind., 400 vind. og 1600 vind. )
+, jernkerne, jernlod og vægtlodder.
+
+
+Opstilling
+
+
+Arbejdsgang
+
+Induktion af magnetfelter:
+
+Anvend opstillingen fig. 11.1. Magneten skal stå langs ledningen før 
+strømmen sluttes. Tænd strømmen, og iagttag hvad der sker. Vend 
+strømretningen og iagttag.
+
+Lav dernæst en forsøgsrække, der kan afsløre hvilke ting, der har 
+indflydelse på magnetfelters styrke. Brug spolerne, jernloddet og 
+vægtlodderne ( fig. 11.2 ).
+
+
+Induktion af elektrofelter:
+
+Anvend opstillingen fig. 11.3. Bevæg magneten i forhold til ledningen 
+og iagttag på voltmeteret, hvad der sker.
+
+Lav dernæst en forsøgsrække, der kan afsløre hvilke ting, der har 
+indflydelse på elektrofeltets styrke. Brug spolerne, voltmeteret og 
+magneterne som på fig. 11.4.
+
+
+Resultater
+
+Magnetfelter:
+
+Beskriv magnetfeltet omkring en strømførende ledning:
+
+
+Beskriv forsøgsgangen i din undersøgelse af, hvad der afgør 
+magnetfeltets styrke:
+
+
+
+
+

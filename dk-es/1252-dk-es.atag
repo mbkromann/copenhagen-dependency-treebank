@@ -1,0 +1,169 @@
+<DTAGalign>
+<alignFile key="a" href="../dk/1252-dk.tag" sign="_input"/>
+<alignFile key="b" href="../es/1252-es.tag" sign="_input"/>
+<align out="a43" type="s" in="b0 b2" creator="0" insign="La de" outsign="Danmarks"/>
+<align out="a43" type="" in="b3" creator="0" insign="Dinamarca" outsign="Danmarks"/>
+<align out="a44" type="" in="b1" creator="0" insign="postura" outsign="holdning"/>
+<align out="a45" type="" in="b4" creator="0" insign="ante" outsign="til"/>
+<align out="a46" type="" in="b5" creator="0" insign="China" outsign="Kina"/>
+<align out="a48" type="" in="b6" creator="0" insign="desde" outsign="siden"/>
+<align out="a49" type="" in="b7" creator="0" insign="el" outsign="den"/>
+<align out="a50" type="" in="b8" creator="0" insign="dramÃ¡tico" outsign="dramatiske"/>
+<align out="a51" type="" in="b9" creator="0" insign="desmantelamiento" outsign="nedkæmpning"/>
+<align out="a52" type="" in="b10" creator="0" insign="de" outsign="af"/>
+<align out="a53" type="" in="b11" creator="0" insign="la" outsign="det"/>
+<align out="a54" type="" in="b13" creator="0" insign="pro-democrÃ¡tica" outsign="pro-demokratiske"/>
+<align out="a55" type="" in="b12 b14 b15 b16" creator="0" insign="protesta de los estudiantes" outsign="studenteroprør"/>
+<align out="a56" type="" in="b17" creator="0" insign="en" outsign="på"/>
+<align out="a58" type="" in="b23" creator="0" insign="Celestial" outsign="Himmelske"/>
+<align out="a59" type="s" in="b18 b20" creator="0" insign="la de" outsign="Freds"/>
+<align out="a60" type="" in="b19" creator="0" insign="Plaza" outsign="Plads"/>
+<align out="a57" type="" in="b21" creator="0" insign="la" outsign="Den"/>
+<align out="a59" type="" in="b22" creator="0" insign="Paz" outsign="Freds"/>
+<align out="a47" type="" in="b27" creator="0" insign="ha" outsign="har"/>
+<align out="a62" type="" in="b25" creator="-1" insign="1989" outsign="1989"/>
+<align out="a61" type="" in="b24" creator="-1" insign="en" outsign="i"/>
+<align out="a63 a64 a65 a66 a67 a68" type="" in="b26 b28 b29" creator="0" insign="se enfriado considerablemente" outsign="simret på et meget svagt vågeblus"/>
+<align out="a73 a75" type="" in="b32" creator="0" insign="sufre" outsign="er i"/>
+<align out="a74" type="" in="b33" creator="0" insign="aÃºn" outsign="stadig"/>
+<align out="a76" type="" in="b34 b35" creator="0" insign="arresto domiciliario" outsign="stue-arrest"/>
+<align out="a80" type="" in="b39" creator="0" insign="mantiene" outsign="holder"/>
+<align out="a81" type="" in="b42 b43 b44 b45" creator="0" insign="la caja de caudales" outsign="pengekassen"/>
+<align out="a82" type="" in="b41" creator="0" insign="hermÃ©ticamente" outsign="hermetisk"/>
+<align out="a83" type="" in="b40" creator="0" insign="cerrada" outsign="lukket"/>
+<align out="a72" type="" in="b31" creator="-1" insign="China" outsign="Kina"/>
+<align out="a78" type="" in="b37" creator="-1" insign="y" outsign="og"/>
+<align out="a79" type="" in="b38" creator="-1" insign="Danida" outsign="Danida"/>
+<align out="a69" type="" in="b30" creator="-1" insign="." outsign="."/>
+<align out="a77" type="" in="b36" creator="-1" insign="," outsign=","/>
+<align out="a84" type="" in="b46" creator="-1" insign="para" outsign="for"/>
+<align out="a88" type="" in="b50" creator="-1" insign="China" outsign="Kina"/>
+<align out="a94" type="punct" in="b52" creator="-1" insign="â€œLos" outsign="&quot;"/>
+<align out="a100" type="" in="b58" creator="-1" insign="postura" outsign="holdning"/>
+<align out="a99" type="s" in="b57 b59" creator="-1" insign="la de" outsign="Danmarks"/>
+<align out="a87" type="" in="b49" creator="-1" insign="en" outsign="i"/>
+<align out="a89" type="" in="b51" creator="-1" insign="." outsign="."/>
+<align out="a101" type="" in="b61" creator="-1" insign="." outsign="."/>
+<align out="a96" type="" in="b54" creator="-1" insign="estÃ¡n" outsign="er"/>
+<align out="a97" type="" in="b55" creator="-1" insign="decepcionados" outsign="skuffede"/>
+<align out="a98" type="" in="b56" creator="-1" insign="de" outsign="over"/>
+<align out="a85" type="" in="b48" creator="0" insign="daneses" outsign="danske"/>
+<align out="a95" type="" in="b52 b53" creator="0" insign="â€œLos chinos" outsign="Kineserne"/>
+<align out="a86" type="" in="b47" creator="0" insign="compromisos" outsign="engagementer"/>
+<align out="a99" type="" in="b60" creator="0" insign="Dinamarca" outsign="Danmarks"/>
+<align out="a104" type="" in="b62 b63" creator="0" insign="Los daneses" outsign="Danskerne"/>
+<align out="a105" type="" in="b64" creator="0" insign="estÃ¡bamos" outsign="var"/>
+<align out="a106" type="" in="b65" creator="0" insign="entre" outsign="blandt"/>
+<align out="a107" type="" in="b66" creator="0" insign="los" outsign="de"/>
+<align out="a108" type="" in="b67" creator="0" insign="primeros" outsign="første"/>
+<align out="a109" type="" in="b69" creator="0" insign="extranjeros" outsign="udenlandske"/>
+<align out="a110" type="" in="b68" creator="0" insign="negociantes" outsign="forretningsfolk"/>
+<align out="a115" type="" in="b76" creator="0" insign="ahora" outsign="nu"/>
+<align out="a116 a117" type="" in="b77" creator="0" insign="somos" outsign="er vi"/>
+<align out="a120" type="" in="b79" creator="0" insign="Ãºltimos" outsign="sidste"/>
+<align out="a118" type="" in="a118" creator="0" insign="blandt" outsign="blandt"/>
+<align out="a122 a123 a124 a125" type="f" in="b80 b81 b82 b83" creator="0" insign="en volver al paÃ­s,â€" outsign="der lukker op igen"/>
+<align out="a128" type="" in="b84" creator="0" insign="dice" outsign="siger"/>
+<align out="a130" type="" in="b86" creator="0" insign="Jensen" outsign="Jensen"/>
+<align out="a127" type="pnct" in="b83" creator="0" insign="paÃ­s,â€" outsign="&quot;"/>
+<align out="a112" type="" in="b71" creator="-1" insign="China" outsign="Kina"/>
+<align out="a129" type="" in="b85" creator="-1" insign="Oliver" outsign="Oliver"/>
+<align out="a111" type="" in="b70" creator="-1" insign="en" outsign="i"/>
+<align out="a114" type="" in="b73" creator="-1" insign="pero" outsign="men"/>
+<align out="a119" type="" in="b78" creator="-1" insign="los" outsign="de"/>
+<align out="a113" type="" in="b72" creator="-1" insign="," outsign=","/>
+<align out="a121" type="" in="b75" creator="-1" insign="," outsign=","/>
+<align out="b88" type="" in="b88" creator="0" insign="de" outsign="de"/>
+<align out="a132" type="" in="b89" creator="-1" insign="FLS" outsign="FLS"/>
+<align out="a135" type="" in="b92" creator="-1" insign="." outsign="."/>
+<align out="a133" type="" in="b90" creator="-1" insign="en" outsign="i"/>
+<align out="a131" type="" in="b87" creator="-1" insign="," outsign=","/>
+<align out="a134" type="" in="b91" creator="-1" insign="PekÃ­n" outsign="Peking"/>
+<align out="a140" type="" in="b93" creator="0" insign="Ã‰l" outsign="Han"/>
+<align out="a141" type="" in="b94" creator="0" insign="cuenta" outsign="fortæller"/>
+<align out="a142" type="" in="a142" creator="0" insign="," outsign=","/>
+<align out="a143" type="" in="b95" creator="0" insign="que" outsign="at"/>
+<align out="b74" type="" in="b74" creator="0" insign="en&nbsp;cambio" outsign="en&nbsp;cambio"/>
+<align out="a146" type="" in="b102 b103 b104 b105" creator="0" insign="el sur de China" outsign="Sydkina"/>
+<align out="a148" type="" in="b99" creator="0" insign="tan" outsign="så"/>
+<align out="a149" type="" in="b100" creator="0" insign="rÃ¡pido" outsign="hurtigt"/>
+<align out="a152" type="" in="b108" creator="0" insign="uno" outsign="man"/>
+<align out="a153" type="" in="b109" creator="0" insign="pierde" outsign="taber"/>
+<align out="a154" type="" in="b110 b111" creator="0" insign="el aliento" outsign="pusten"/>
+<align out="a144" type="sv" in="b97 b98" creator="0" insign="un desarrollo" outsign="udviklingen"/>
+<align out="a147" type="f" in="b96" creator="0" insign="hay" outsign="kører"/>
+<align out="a151" type="" in="b107" creator="-1" insign="que" outsign="at"/>
+<align out="a155" type="" in="b112" creator="-1" insign="." outsign="."/>
+<align out="a145" type="" in="b101" creator="-1" insign="en" outsign="i"/>
+<align out="a150" type="" in="b106" creator="-1" insign="," outsign=","/>
+<align out="a161 a162" type="" in="b113" creator="0" insign="â€œTenemos" outsign="Vi har"/>
+<align out="a163" type="" in="b114" creator="0" insign="grandes" outsign="store"/>
+<align out="a164" type="" in="b115" creator="0" insign="expectativas" outsign="forventninger"/>
+<align out="a165" type="" in="b116" creator="0" insign="en&nbsp;cuanto&nbsp;a" outsign="til"/>
+<align out="a166" type="" in="b117 b118" creator="0" insign="las reformas" outsign="reformerne"/>
+<align out="a168" type="" in="b120 b121" creator="0" insign="aÃºn cuando" outsign="omend"/>
+<align out="a169 a170" type="" in="b122" creator="0" insign="estamos" outsign="vi er"/>
+<align out="a171" type="" in="b123" creator="0" insign="preparados" outsign="forberedt"/>
+<align out="a172" type="" in="b124" creator="0" insign="para" outsign="på"/>
+<align out="a160" type="pnct" in="b113" creator="0" insign="â€œTenemos" outsign="&quot;"/>
+<align out="a175 a176 a177 a178 a179 a180" type="f" in="b126 b127" creator="0" insign="se den" outsign="de kan komme til at køre"/>
+<align out="a181 a182 a184" type="f" in="b128" creator="0" insign="gradualmente" outsign="lidt i ryk"/>
+<align out="a183" type="" in="a183" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a185" type="" in="a185" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a174" type="" in="b125" creator="-1" insign="que" outsign="at"/>
+<align out="a167" type="" in="b119" creator="-1" insign="," outsign=","/>
+<align out="a173" type="" in="a173" creator="0" insign="," outsign=","/>
+<align out="a186" type="" in="b129" creator="-1" insign="." outsign="."/>
+<align out="a189" type="" in="b130" creator="-1" insign="Pero" outsign="Men"/>
+<align out="a190 a191" type="" in="b131" creator="0" insign="es" outsign="det er"/>
+<align out="a192" type="" in="b132" creator="0" insign="interesante" outsign="spændende"/>
+<align out="a193 a194" type="" in="b133" creator="0" insign="ver" outsign="at se"/>
+<align out="a196" type="" in="b134" creator="0" insign="hasta" outsign="hvor"/>
+<align out="a197" type="" in="b135 b136" creator="0" insign="quÃ© punto" outsign="langt"/>
+<align out="a202 a203 a205" type="" in="b140" creator="0" insign="liberar" outsign="at slippe løs"/>
+<align out="a204" type="" in="b141 b142 b143 b144" creator="0" insign="las fuerzas del mercado.â€" outsign="markedskræfterne"/>
+<align out="a198 a199" type="" in="b137 b138 b139" creator="0" insign="se atreven a" outsign="de tør"/>
+<align out="a200" type="" in="a200" creator="0" insign="gå" outsign="gå"/>
+<align out="a201" type="" in="a201" creator="0" insign="med" outsign="med"/>
+<align out="a195" type="" in="a195" creator="0" insign="," outsign=","/>
+<align out="a206" type="pnct" in="b144" creator="0" insign="mercado.â€" outsign="."/>
+<align out="a207" type="pnct" in="b144" creator="0" insign="mercado.â€" outsign="&quot;"/>
+<align out="a212" type="" in="b145" creator="-1" insign="FLS" outsign="FLS"/>
+<align out="a213" type="" in="b146" creator="-1" insign="ha" outsign="har"/>
+<align out="a224" type="" in="b157 b158 b159" creator="0" insign="fÃ¡bricas de cemento" outsign="cement-fabrikker"/>
+<align out="a228" type="" in="b162 b163" creator="0" insign="el paÃ­s" outsign="landet"/>
+<align out="a225 a226" type="f" in="b161" creator="0" insign="todo" outsign="rundt om"/>
+<align out="a217" type="" in="b150" creator="-1" insign="China" outsign="Kina"/>
+<align out="a218" type="" in="b151" creator="-1" insign="desde" outsign="siden"/>
+<align out="a219" type="" in="b152" creator="-1" insign="1906" outsign="1906"/>
+<align out="a220" type="" in="b153" creator="-1" insign="y" outsign="og"/>
+<align out="a223" type="" in="b156" creator="-1" insign="20-30" outsign="20-30"/>
+<align out="a221" type="" in="b154" creator="-1" insign="ha" outsign="har"/>
+<align out="a229" type="" in="b164" creator="-1" insign="." outsign="."/>
+<align out="a216" type="" in="b149" creator="-1" insign="en" outsign="i"/>
+<align out="a232" type="" in="b165" creator="-1" insign="En" outsign="I"/>
+<align out="a227" type="" in="b160" creator="-1" insign="en" outsign="i"/>
+<align out="a214" type="" in="b147" creator="-1" insign="estado" outsign="været"/>
+<align out="a215" type="" in="b148" creator="-1" insign="activa" outsign="aktiv"/>
+<align out="a222" type="" in="b155" creator="-1" insign="construÃ­do" outsign="opført"/>
+<align out="a233" type="" in="b166 b167" creator="0" insign="este momento" outsign="øjeblikket"/>
+<align out="a235" type="" in="b168" creator="0" insign="se" outsign="man"/>
+<align out="a234 a236 a237" type="" in="b169" creator="0" insign="estÃ¡" outsign="er ved at"/>
+<align out="a244" type="" in="b175" creator="0" insign="financiada" outsign="finansieret"/>
+<align out="a245" type="" in="b176" creator="0" insign="por" outsign="af"/>
+<align out="a246" type="" in="b178" creator="0" insign="espaÃ±oles" outsign="spanske"/>
+<align out="a247" type="" in="b177" creator="0" insign="prÃ©stamos" outsign="lån"/>
+<align out="a248" type="" in="b179 b180 b181" creator="0" insign="a travÃ©s de" outsign="gennem"/>
+<align out="a249" type="s" in="b182 b185" creator="0" insign="la de" outsign="FLS'"/>
+<align out="a250" type="" in="b183 b184" creator="0" insign="empresa afiliada" outsign="søsterfirma"/>
+<align out="a249" type="" in="b186" creator="0" insign="FLS" outsign="FLS'"/>
+<align out="a251" type="" in="b187" creator="0" insign="en" outsign="i"/>
+<align out="a252" type="" in="b188" creator="0" insign="EspaÃ±a" outsign="Spanien"/>
+<align out="a243" type="" in="a243" creator="0" insign="," outsign=","/>
+<align out="a253" type="pnct" in="b189" creator="0" insign="." outsign="."/>
+<align out="a242" type="" in="b174" creator="-1" insign="Shanghai" outsign="Shanghai"/>
+<align out="a241" type="" in="b173" creator="-1" insign="en" outsign="i"/>
+<align out="a238" type="" in="b170" creator="-1" insign="construyendo" outsign="bygge"/>
+<align out="a239" type="" in="b171" creator="-1" insign="una" outsign="et"/>
+<align out="a240" type="" in="b172" creator="-1" insign="planta" outsign="anlæg"/>
+</DTAGalign>
