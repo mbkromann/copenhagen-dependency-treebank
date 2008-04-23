@@ -1,0 +1,98 @@
+# Set corpus
+corpus /opt/dtag/parole/*.tag
+
+# Define variables
+vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d
+
+# --------------------
+# LAYOUT
+# --------------------
+
+# Clear layout
+layout -clear
+
+# Variables that must be include the graph
+layout -vars /stream:.*/|cat|msd|lexeme|gloss|sdeps|_position
+
+# Regular expressions that must be applied to individual variables
+layout -var msd s/(..).*/$1/
+layout -var sdeps sub { \
+	my ($v,$G,$n) = @_; \
+	my $sdeps = {}; \
+	map {$sdeps->{$_} = 1} split('\|', $v); \
+	map {delete $sdeps->{$_->type()}} @{$G->node($n)->in()}; \
+	return join("|", sort(keys(%$sdeps))); \
+	}
+
+# Nodes to hide (comment nodes)
+layout -nhide $n->comment()
+
+# Edges to hide: those that do not exist at the current step
+layout -ehide \
+	$e->type() =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep());\
+	$s && (($s1 && (abs($s) < $s1)) || ($s2 && ($s > $s2)))
+
+# How to compute the stream name associated with a node
+layout -stream $n->var('speaker')
+
+# How to compute the style associated with a node or label
+layout -nstyles [\
+	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
+	split('\|', $n->var('styles') || ""), \
+	($l eq "sdeps" ? "redlbl" : "") ]
+
+# How to compute the style associated with an edge
+layout -estyles \
+	my $etype = $e->type();\
+	$etype =~ /:([0-9]+)(-([0-9]+))?$/;\
+	my ($s1, $s2, $s) = ($1, $3, $G->pstep() || 0);\
+	my $newborn = ($s && $s1 && ($s == $s1)) ? "newborn" : ""; \
+	my $dying = ($s && $s2 && ($s == $s2)) ? "dying" : ""; \
+	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
+	[	'speaker:' . ($G->node($e->in())->var('speaker') || 0),\
+		split('\|', $G->node($e->in())->var('styles') || ""),\
+		map {split(':', $_)} \
+			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /$1/} \
+				split('\|', $G->node($e->in())->var('estyles') || "")),\
+		$newborn, $dying, $dead]
+
+# Calculating the placement of an edge (bottom=1 or top=0)
+layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\))(:[-0-9]*)?$/)
+
+# Definition of different styles
+style title -label -fonttype bold
+style xland -arc -color red
+style speaker:1 -label -fonttype bold -color blue -arclabel -color blue -arc -color blue
+style speaker:2 -label -fonttype bold -color green -arclabel -color green -arc -color green
+style speaker:A -label -fonttype bold -color red -arclabel -color red -arc -color red
+style error -label -color red
+style match -label -fonttype bold -color blue
+style red -label -color red -arclabel -color red -arc -color red -dash dot
+style redlbl -label -color red -fonttype bold
+style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
+style white -arclabel -ps "1 setgray" -arc -ps "1 setgray"
+style light -arclabel -ps "0.7 setgray" -arc -ps "0.7 setgray"
+style arc=red -arclabel -color red -arc -color red -dash dot
+style arc=blue -arclabel -color blue -arc -color blue -dash dot
+style hide -arc -ps "0 setlinewidth" -arclabel -ps "0 setlinewidth"
+style newborn -arclabel -ps "0 0.5 0 setrgbcolor" -arc -ps "0 0.5 0 setrgbcolor"
+style dying -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor" 
+style dead -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor [1 2] 0 setdash" 
+style secondary -arc -ps "[1 4] 0 setdash"
+
+# Macros for greek and latin text
+#macro russian layout -graph -pssetup "true (rus) /Cyrillic /Cyrillic /Cyrillic-Ital /Cyrillic-Ital createfontfamily setfontfamily setupfont"
+macro cyrillic layout -graph -pssetup "true (cyr) /NimbusRomanCYR-Regu /NimbusRomanCYR-Medi /NimbusRomanCYR-ReguItal /NimbusRomanCYR-MediItal createfontfamily setfontfamily setupfont"
+macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
+macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+
+# Options
+option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
+option iconv iconv -c -f UTF8 -t ISO_8859-1
+#option post-start
+#option post-save
+#option post-exit
+#option post-print
