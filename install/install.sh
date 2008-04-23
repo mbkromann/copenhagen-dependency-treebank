@@ -5,12 +5,8 @@ user=cdt
 home=/home/$user
 svnpasswd=$home/.svnpasswd
 svnuser=$home/.svnuser
-
-# Check that program is run as root
-if [ "$USER" != "root" ] ; then
-	echo "ERROR! Installation program must be run as root"
-	exit 1
-fi
+cdtdir=$home/cdt
+installdir=$cdtdir/install
 
 # Prompt for Google user name and password
 if [ 0 = 1 ] ; then
@@ -26,18 +22,25 @@ fi
 
 # Get user and password
 cd $home
-user=`cat $svnuser`
-passwd=`cat $svnpasswd`
+username=`cat $svnuser`
+password=`cat $svnpasswd`
 
-# Checkout CDT repository
-#rm -r $home/cdt
-#svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn/trunk/ cdt --username $user --password $passwd
-exit 0
+# Checkout CDT repositorym -r $home/cdt
+if [ ! -d cdt ] ; then
+	svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn/trunk/ cdt --username $username --password $password
+else
+	echo "ERROR: Directory $home/cdt already exists!"
+	#exit 1
+fi
+
 
 # Download and install debian packages
-wget http://www.buch-kromann.dk/cdt/packages.txt
-dpkg --set-selections < packages.txt
-apt-get dselect-upgrade 
+echo "Please enter the Ubuntu password for $user when/if prompted for it"
+echo "Setting packages to install"
+sudo dpkg --set-selections < $installdir/packages.txt
+echo "Installing packages"
+sudo apt-get dselect-upgrade 
+exit 0
 
 # Extract dtag archive
 mkdir -p ~/dtag
