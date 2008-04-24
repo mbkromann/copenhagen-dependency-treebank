@@ -136,10 +136,7 @@ file						install
 file-roller					install
 findutils					install
 finger						install
-firefox-2					install
 firefox-3.0					install
-firefox-3.0-gnome-support			install
-firefox-gnome-support				install
 fontconfig					install
 fontconfig-config				install
 foo2zjs						install

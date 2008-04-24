@@ -12,16 +12,15 @@ if [ $USER != "root" ] ; then
 fi
 
 # Create links to dtag
-rm -f /opt/dtag
+rm -f /opt/dtag /opt/cdt
 rm -f /usr/local/bin/dtag
 ln -s $cdtdir/dtag /opt/
 ln -s $cdtdir /opt/
 ln -s /opt/dtag/dtag /usr/local/bin/dtag
 
 # Ask user to download and install debian packages
-echo "Please execute the following commands:"
-echo "    dpkg --set-selections < $installdir/packages.txt"
-echo "    apt-get dselect-upgrade"
+dpkg --set-selections < $installdir/packages.txt
+apt-get dselect-upgrade
 
 
 
