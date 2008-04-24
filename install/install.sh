@@ -32,8 +32,8 @@ else
 	echo "ERROR: Directory $home/cdt already exists!"
 fi
 
-# Copy DTAG icon to desktop
-cp $installdir/DTAG.desktop $home/Desktop
+# Copy icons to desktop
+cp $installdir/*.desktop $home/Desktop
 
 # Extract dtag archive
 echo

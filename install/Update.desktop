@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=update
+Type=Application
+Terminal=false
+Name[en_DK]=update
+Exec=gnome-terminal -t "CDT updater" --working-directory=/home/cdt/cdt/install -e /home/cdt/cdt/install/update.sh --hide-menubar
+Comment[en_DK]=DTAG treebank annotation tool
+Comment=DTAG treebank annotation tool
+GenericName[en_DK]=
