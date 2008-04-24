@@ -30,22 +30,12 @@ if [ ! -d cdt ] ; then
 	svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn/trunk/ cdt --username $username --password $password
 else
 	echo "ERROR: Directory $home/cdt already exists!"
-	#exit 1
 fi
 
 
-# Download and install debian packages
-echo "Please enter the Ubuntu password for $user when/if prompted for it"
-echo "Setting packages to install"
-sudo dpkg --set-selections < $installdir/packages.txt
-echo "Installing packages"
-sudo apt-get dselect-upgrade 
-exit 0
-
 # Extract dtag archive
-mkdir -p ~/dtag
+echo
+echo "Please log in as root and execute the following command:"
+echo "    sh $installdir/install-root.sh"
 
-#rm /opt/dtag
-#rm /usr/local/bin/dtag
-#ln -s /home/cdt/dtag /opt/
-#ln -s /opt/dtag/dtag /usr/local/bin/dtag
+
