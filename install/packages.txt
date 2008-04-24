@@ -136,6 +136,7 @@ file						install
 file-roller					install
 findutils					install
 finger						install
+firefox						deinstall
 firefox-3.0					install
 fontconfig					install
 fontconfig-config				install
@@ -984,7 +985,6 @@ ttf-opensymbol					install
 ttf-thai-tlwg					install
 ttf-unfonts-core				install
 tzdata						install
-ubufox						install
 ubuntu-artwork					install
 ubuntu-docs					install
 ubuntu-gdm-themes				install
