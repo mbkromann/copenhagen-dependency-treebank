@@ -9,7 +9,7 @@ cdtdir=$home/cdt
 installdir=$cdtdir/install
 
 # Prompt for Google user name and password
-if [ 0 = 1 ] ; then
+if [ ! -f $svnuser ] ; then
 	echo "Enter your user name and password. Please be very careful when typing!"
 	echo -n "Google code username (email): "
 	read user
@@ -32,6 +32,8 @@ else
 	echo "ERROR: Directory $home/cdt already exists!"
 fi
 
+# Copy DTAG icon to desktop
+cp $installdir/DTAG.desktop $home/Desktop
 
 # Extract dtag archive
 echo

@@ -1,5 +1,10 @@
 #!/bin/bash
 
+user=cdt
+home=/home/$user
+cdtdir=$home/cdt
+installdir=$cdtdir/install
+
 # Check that user is root
 if [ $USER != "root" ] ; then
 	echo "ERROR: You are not root!"
@@ -9,7 +14,8 @@ fi
 # Create links to dtag
 rm -f /opt/dtag
 rm -f /usr/local/bin/dtag
-ln -s /home/$USER/cdt/dtag /opt/
+ln -s $cdtdir/dtag /opt/
+ln -s $cdtdir /opt/
 ln -s /opt/dtag/dtag /usr/local/bin/dtag
 
 # Ask user to download and install debian packages
