@@ -1,0 +1,23 @@
+1. Install Ubuntu with cdt as user
+
+2. Login as cdt and download install script
+
+	wget http://www.buch-kromann.dk/cdt/install.sh
+
+3. Execute install script
+
+	sh install.sh
+
+4. Follow instructions in install script
+
+5. Save information about volume id for / and swap
+
+6. Make boot floppy if necessary
+
+7. Copy file system to harddisk with rsync
+
+8. Create ext3 and swap partitions on target drive
+
+9. Copy file system back to harddisk with rsync
+
+10. Set volume ids for / and swap

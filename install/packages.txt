@@ -29,6 +29,7 @@ base-passwd					install
 bash						install
 bash-completion					install
 bc						install
+beep						install
 belocs-locales-bin				install
 bind9-host					install
 binutils					install
