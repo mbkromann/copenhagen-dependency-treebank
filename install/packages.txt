@@ -137,7 +137,6 @@ file						install
 file-roller					install
 findutils					install
 finger						install
-firefox						deinstall
 firefox-3.0					install
 fontconfig					install
 fontconfig-config				install
@@ -288,6 +287,7 @@ language-support-translations-en		install
 language-support-writing-en			install
 laptop-detect					install
 laptop-mode-tools				install
+latex2html					install
 launchpad-integration				install
 less						install
 lftp						install
@@ -564,6 +564,7 @@ libndesk-dbus-glib1.0-cil			install
 libndesk-dbus1.0-cil				install
 libneon27					install
 libnet-dbus-perl				install
+libnetpbm10					install
 libnewt0.52					install
 libnl1						install
 libnm-glib0					install
@@ -802,6 +803,7 @@ net-tools					install
 netbase						install
 netcat						install
 netcat-traditional				install
+netpbm						install
 network-manager					install
 network-manager-gnome				install
 notification-daemon				install
@@ -838,6 +840,7 @@ pciutils					install
 pcmciautils					install
 perl						install
 perl-base					install
+perl-doc					install
 perl-modules					install
 pidgin						install
 pidgin-data					install
@@ -856,6 +859,7 @@ ppp						install
 pppconfig					install
 pppoeconf					install
 procps						install
+ps2eps						install
 psmisc						install
 pulseaudio					install
 pulseaudio-esound-compat			install
@@ -958,6 +962,14 @@ tasksel-data					install
 tcpd						install
 tcpdump						install
 telnet						install
+tex-common					install
+texlive-base					install
+texlive-base-bin				install
+texlive-common					install
+texlive-doc-base				install
+texlive-fonts-recommended			install
+texlive-latex-base				install
+texlive-latex-recommended			install
 thunderbird-locale-en-gb			install
 time						install
 tomboy						install
@@ -986,6 +998,7 @@ ttf-opensymbol					install
 ttf-thai-tlwg					install
 ttf-unfonts-core				install
 tzdata						install
+ubufox						install
 ubuntu-artwork					install
 ubuntu-docs					install
 ubuntu-gdm-themes				install
