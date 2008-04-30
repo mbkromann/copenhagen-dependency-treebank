@@ -28,7 +28,7 @@ password=`cat $svnpasswd`
 # Checkout CDT repositorym -r $home/cdt
 if [ ! -d cdt-all ] ; then
 	rm -rf cdt
-	svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn/trunk/ cdt-all --username $username --password $password
+	svn checkout https://copenhagen-dependency-treebank.googlecode.com/svn cdt-all --username $username --password $password
 	ln -s $home/cdt-all/trunk $home/cdt
 	ln -s $home/cdt-all/wiki $home/cdt/wiki
 else
