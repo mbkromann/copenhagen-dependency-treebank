@@ -48,13 +48,13 @@
 <W msd="VLfin" lemma="llegar">llegara</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="VLinf" lemma="estructurar">estructurar</W>
-<W msd="PPO" lemma="mÌo">mi</W>
+<W msd="PPO" lemma="mo">mi</W>
 <W msd="NC" lemma="juego">juego</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">b√°sico</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="especialmente">Especialmente</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">vari√©</W>
-<W msd="PPO" lemma="mÌo">mi</W>
+<W msd="PPO" lemma="mo">mi</W>
 <W msd="NC" lemma="juego">juego</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">el</W>
@@ -62,7 +62,7 @@
 <W msd="NC" lemma="set">set</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CC" lemma="y">y</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="hacer">hice</W>
 <W msd="NC" lemma="&lt;unknown&gt;">bien.‚Äù</W>
 <W msd="PREP" lemma="en">En</W>
@@ -111,7 +111,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">as√≠</W>
 <W msd="CSUBX" lemma="como">como</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="haber">he</W>
 <W msd="VLadj" lemma="practicar">practicado</W>
 <W msd="PREP" lemma="en">en</W>
@@ -149,7 +149,7 @@
 <W msd="VLfin" lemma="sentar|sentir">siento</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="DM" lemma="este">esto</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="poder">puedo</W>
 <W msd="VLinf" lemma="manejar">manejar</W>
 <W msd="PREP" lemma="con">con</W>
@@ -160,7 +160,7 @@
 <W msd="ADJ" lemma="masculino">masculinos</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="ADJ" lemma="femenino">femeninos</W>
-<W msd="ADJ" lemma="danÈs">daneses</W>
+<W msd="ADJ" lemma="dans">daneses</W>
 <W msd="VLfin" lemma="caer">cayeron</W>
 <W msd="VLadj" lemma="eliminar">eliminados</W>
 <W msd="ADV" lemma="ayer">ayer</W>
@@ -177,7 +177,7 @@
 <W msd="NC" lemma="pareja">parejas</W>
 <W msd="ADJ" lemma="semifinalista">semifinalistas</W>
 <W msd="VSfin" lemma="ser">son</W>
-<W msd="ADJ" lemma="danÈs">danesas</W>
+<W msd="ADJ" lemma="dans">danesas</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">as√≠</W>
 <W msd="CQUE" lemma="que">que</W>

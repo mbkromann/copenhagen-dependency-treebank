@@ -7,7 +7,7 @@
 <W msd="NNP" in="" out="">Services</W>
 <W msd="NNP" in="" out="1:pnct|3:appa">Union</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="1:namef" out="">Søren</W>
+<W msd="NNP" in="1:namef" out="">SÃ¸ren</W>
 <W msd="NNP" in="-3:appa" out="-1:namef|1:pnct">Dalmark</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="VBD" in="" out="1:mod">was</W>
@@ -135,7 +135,7 @@
 <W msd="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:namef" out="">Søren</W>
+<W msd="NNP" in="1:namef" out="">SÃ¸ren</W>
 <W msd="NNP" in="1:subj" out="-1:namef">Dalmark</W>
 <W msd="VBD" in="" out="-1:subj|1:dobj|11:pnct">suggested</W>
 <W msd="IN" in="-1:dobj" out="3:vobj">that</W>

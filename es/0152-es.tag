@@ -1,6 +1,6 @@
 <W msd="PREP" lemma="en">En</W>
 <W msd="ADV" lemma="adelante">adelante</W>
-<W msd="PPC" lemma="él">les</W>
+<W msd="PPC" lemma="l">les</W>
 <W msd="VLfin" lemma="esperar">esperan</W>
 <W msd="ART" lemma="un">unas</W>
 <W msd="NC" lemma="semana">semanas</W>
@@ -51,7 +51,7 @@
 <W msd="NC" lemma="sabor">sabor</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="SE" lemma="se">se</W>
-<W msd="PPC" lemma="él">les</W>
+<W msd="PPC" lemma="l">les</W>
 <W msd="VLfin" lemma="agregar">agrega</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="CSUBF" lemma="por~lo~tanto">Por lo tanto</W>

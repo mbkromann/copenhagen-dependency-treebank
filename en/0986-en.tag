@@ -142,7 +142,7 @@
 <W msd="NNP" in="-1:mod" out="">Swedish</W>
 <W msd="NNP" in="-2:nobj" out="1:mod|2:nobj|3:name">SSAB</W>
 <W msd="NNP" in="-1:mod" out="">Svenskt</W>
-<W msd="NNP" in="-2:nobj" out="">Stål</W>
+<W msd="NNP" in="-2:nobj" out="">StÃ¥l</W>
 <W msd="NNP" in="-3:name" out="">AB</W>
 <W msd="." in="-16:pnct" out="">.</W>
 </s>

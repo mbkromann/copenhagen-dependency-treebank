@@ -1,11 +1,11 @@
 
-Indicatore percorsi: c'è fervore nel settore danese di progettazione e sviluppo di software. Un po' in ritardo è ora a disposizione un programma per aiutare i visitatori a muoversi nei musei, i clienti nei supermercati, i cittadini nelle sedi municipali e anche a MikroData nel centro fieristico Bella Center.
+Indicatore percorsi: c'Ã¨ fervore nel settore danese di progettazione e sviluppo di software. Un po' in ritardo Ã¨ ora a disposizione un programma per aiutare i visitatori a muoversi nei musei, i clienti nei supermercati, i cittadini nelle sedi municipali e anche a MikroData nel centro fieristico Bella Center.
 
 Gli europei dovrebbero essere intelligenti abbastanza. 
 Questo almeno lo pensano gli ideatori del programma Scout che, all'entrata della fiera campionaria MikroData, mostra vari percorsi per districarsi nella giungla degli espositori. 
 E con questo complimento ci indicano la tastatura dove noi stessi possiamo digitare.
 
-Con il programma Scout non ci dovrebbero essere problemi: digita il nome di una ditta oppure una parola chiave e, con una modalità decisamente pedagogica, lo schermo ti mostra la via più vicina per raggiungere lo o gli stand che ti interessano. Alla fiera campionaria MikroData di due anni fa, c'era un "precursore" ad aiutare i visitatori.
+Con il programma Scout non ci dovrebbero essere problemi: digita il nome di una ditta oppure una parola chiave e, con una modalitÃ  decisamente pedagogica, lo schermo ti mostra la via piÃ¹ vicina per raggiungere lo o gli stand che ti interessano. Alla fiera campionaria MikroData di due anni fa, c'era un "precursore" ad aiutare i visitatori.
 
 "Abbiamo programmato tutto quanto in linguaggio Turbo Pascal e questo ci ha ritardato un po' i lavori", dice John Marrot della ditta Scansoft, responsabile per la programmazione.
 

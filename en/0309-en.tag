@@ -203,6 +203,6 @@
 <W msd="NNP" in="-1:nobj" out="1:coord">Bent</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
 <W msd="PRP$" in="-1:conj" out="1:possd">his</W>
-<W msd="NN" in="-1:possd" out="">fiancée</W>
+<W msd="NN" in="-1:possd" out="">fiancÃ©e</W>
 <W msd="." in="-10:pnct" out="">.</W>
 </s>

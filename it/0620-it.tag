@@ -11,11 +11,11 @@
 <W msd="VER:infi" lemma="essere">essere</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma=",">,</W>
-<W msd="VER:remo" lemma="continuare">continuÚ</W>
+<W msd="VER:remo" lemma="continuare">continu√≤</W>
 <W msd="PRO:pers" lemma="lui">lui</W>
 <W msd="PON" lemma=",">,</W>
 <W msd="PON" lemma="&quot;">"</W>
-<W msd="ADV" lemma="perciÚ">perciÚ</W>
+<W msd="ADV" lemma="perci√≤">perci√≤</W>
 <W msd="VER:remo" lemma="cercare">cercai</W>
 <W msd="DET:def" lemma="il">il</W>
 <W msd="NOM" lemma="portiere">portiere</W>
@@ -33,7 +33,7 @@
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="CON" lemma="ma">Ma</W>
 <W msd="ADV" lemma="dove">dove</W>
-<W msd="VER:futu" lemma="andare">andr‡</W>
+<W msd="VER:futu" lemma="andare">andr√†</W>
 <W msd="SENT" lemma="?">?</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="VER:remo" lemma="chiedere">chiese</W>
@@ -41,13 +41,13 @@
 <W msd="ADJ" lemma="pensieroso">pensierosa</W>
 <W msd="SENT" lemma=".">.</W>
 <W msd="NOM" lemma="&lt;unknown&gt;">Flemming</W>
-<W msd="VER:remo" lemma="alzare">alzÚ</W>
+<W msd="VER:remo" lemma="alzare">alz√≤</W>
 <W msd="DET:def" lemma="il">le</W>
 <W msd="NOM" lemma="spalla">spalle</W>
 <W msd="SENT" lemma=".">.</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="ADV" lemma="presto">Presto</W>
-<W msd="VER:futu" lemma="essere">sar‡</W>
+<W msd="VER:futu" lemma="essere">sar√†</W>
 <W msd="VER:pper" lemma="arrestare">arrestato</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma=",">,</W>
@@ -69,7 +69,7 @@
 <W msd="ADV" lemma="adesso">adesso</W>
 <W msd="SENT" lemma=".">.</W>
 <W msd="PRO:demo" lemma="c'">C'</W>
-<W msd="VER:pres" lemma="essere">Ë</W>
+<W msd="VER:pres" lemma="essere">√®</W>
 <W msd="DET:indef" lemma="una">una</W>
 <W msd="NOM" lemma="cosa">cosa</W>
 <W msd="PRO:rela" lemma="che">che</W>
@@ -79,7 +79,7 @@
 <W msd="SENT" lemma=".">.</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma="&quot;">"</W>
-<W msd="ADV" lemma="sÏ">SÏ</W>
+<W msd="ADV" lemma="s√¨">S√¨</W>
 <W msd="SENT" lemma="?">?</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma="&quot;">"</W>
@@ -95,11 +95,11 @@
 <W msd="CON" lemma="ma">ma</W>
 <W msd="PRO:demo" lemma="questo">questa</W>
 <W msd="ADV" lemma="non">non</W>
-<W msd="VER:pres" lemma="essere">Ë</W>
+<W msd="VER:pres" lemma="essere">√®</W>
 <W msd="ADV" lemma="sempre">sempre</W>
 <W msd="DET:def" lemma="il">la</W>
 <W msd="NOM" lemma="cosa">cosa</W>
-<W msd="ADV" lemma="pi˘">pi˘</W>
+<W msd="ADV" lemma="pi√π">pi√π</W>
 <W msd="ADJ" lemma="importante">importante</W>
 <W msd="SENT" lemma=".">.</W>
 <W msd="VER:cond" lemma="volere">Vorresti</W>
@@ -111,7 +111,7 @@
 <W msd="SENT" lemma="?">?</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma="&quot;">"</W>
-<W msd="ADV" lemma="sÏ">SÏ</W>
+<W msd="ADV" lemma="s√¨">S√¨</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="PON" lemma=",">,</W>
 <W msd="VER:remo" lemma="rispondere">rispose</W>
@@ -131,7 +131,7 @@
 <W msd="ADV" lemma="molto">molto</W>
 <W msd="ADJ" lemma="vicino">vicino</W>
 <W msd="PRE" lemma="a">a</W>
-<W msd="NOM" lemma="sÈ">sÈ</W>
+<W msd="NOM" lemma="s√©">s√©</W>
 <W msd="SENT" lemma=".">.</W>
 <W msd="PON" lemma="&quot;">"</W>
 <W msd="DET:indef" lemma="un">Un</W>
@@ -142,7 +142,7 @@
 <W msd="ADJ" lemma="natale">Natale</W>
 <W msd="SENT" lemma="?">?</W>
 <W msd="PON" lemma="&quot;">"</W>
-<W msd="VER:remo" lemma="continuare">continuÚ</W>
+<W msd="VER:remo" lemma="continuare">continu√≤</W>
 <W msd="PRO:pers" lemma="lui">lui</W>
 <W msd="PRE" lemma="in">in</W>
 <W msd="NOM" lemma="tono">tono</W>

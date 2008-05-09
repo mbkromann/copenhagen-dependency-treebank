@@ -46,7 +46,7 @@
 <W lemma="caudal" msd="NC" in="-1:nobj" out="">caudales</W>
 <W lemma="para" msd="PREP" in="-6:mod" out="1:nobj">para</W>
 <W lemma="compromiso" msd="NC" in="-1:nobj" out="1:mod|2:pobj">compromisos</W>
-<W lemma="danés" msd="ADJ" in="-1:mod" out="">daneses</W>
+<W lemma="dans" msd="ADJ" in="-1:mod" out="">daneses</W>
 <W lemma="en" msd="PREP" in="-2:pobj" out="1:nobj">en</W>
 <W lemma="China" msd="NP" in="-1:nobj" out="">China</W>
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
@@ -61,7 +61,7 @@
 <W lemma="Dinamarca" msd="NP" in="-1:nobj" out="">Dinamarca</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">Los</W>
-<W lemma="danés" msd="NC" in="-1:nobj" out="">daneses</W>
+<W lemma="dans" msd="NC" in="-1:nobj" out="">daneses</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="20:qobj" out="-2:subj|1:lobj|8:pnct|9:coord">estÃ¡bamos</W>
 <W lemma="entre" msd="PREP" in="-1:lobj" out="1:nobj">entre</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:mod|2:nobj|3:mod|4:mod">los</W>

@@ -153,7 +153,7 @@
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="3:subj" out="">que</W>
 <W lemma="en" msd="PREP" in="2:mod" out="1:nobj">en</W>
-<W lemma="Èl" msd="PPX" in="-1:nobj" out="">ella</W>
+<W lemma="l" msd="PPX" in="-1:nobj" out="">ella</W>
 <W lemma="funcionar" msd="VLfin" in="-7:rel" out="1:mod|-3:subj|-2:mod">funcionaban</W>
 <W lemma="bien" msd="ADV" in="-1:mod" out="1:coord">bien</W>
 <W lemma="y" msd="CC" in="-1:coord" out="1:conj">y</W>
@@ -167,7 +167,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">a√±os</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:mod|1:pobj|3:pobj|12:pnct|13:coord|19:coord|36:pnct">habl√©</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="Èl" msd="PPX" in="-1:nobj" out="">ella</W>
+<W lemma="l" msd="PPX" in="-1:nobj" out="">ella</W>
 <W lemma="sobre" msd="PREP" in="-3:pobj" out="1:nobj">sobre</W>
 <W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj|4:mod">otro</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">m√©todo</W>
@@ -179,9 +179,9 @@
 <W lemma="anticonceptivo" msd="ADJ" in="-1:mod" out="">anticonceptivas</W>
 <W lemma="," msd="CM" in="-12:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="-13:coord" out="4:conj">pero</W>
-<W lemma="Èl" msd="PPX" in="3:subj" out="">ella</W>
+<W lemma="l" msd="PPX" in="3:subj" out="">ella</W>
 <W lemma="no" msd="NEG" in="2:mod" out="">no</W>
-<W lemma="Èl" msd="PPO" in="1:dobj" out="">lo</W>
+<W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
 <W lemma="desear" msd="VLfin" in="-4:conj" out="-1:dobj|-3:subj|-2:mod|1:mod">deseaba</W>
 <W lemma="en~absoluto" msd="ADV" in="-1:mod" out="">en absoluto</W>
 <W lemma="y" msd="CC" in="-19:coord" out="1:conj">y</W>

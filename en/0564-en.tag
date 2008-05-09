@@ -110,7 +110,7 @@
 <W msd="WRB" in="1:mod" out="">how</W>
 <W msd="RB" in="1:mod" out="-1:mod">much</W>
 <W msd="JJR" in="-3:dobj|2:[pred]" out="-1:mod|2:rel|3:pobj">older</W>
-<W msd="NNP" in="1:subj" out="">Søren</W>
+<W msd="NNP" in="1:subj" out="">SÃ¸ren</W>
 <W msd="VBD" in="-2:rel" out="-2:[pred]|-1:subj">was</W>
 <W msd="IN" in="-3:pobj" out="1:nobj">than</W>
 <W msd="NNP" in="-1:nobj" out="">Peter</W>
@@ -130,7 +130,7 @@
 </s>
 <s>
 <W msd="&quot;" in="2:pnct" out="">"</W>
-<W msd="NNP" in="1:subj|2:[subj]" out="">Søren</W>
+<W msd="NNP" in="1:subj|2:[subj]" out="">SÃ¸ren</W>
 <W msd="VBD" in="" out="-2:pnct|-1:subj|1:vobj|7:coord|14:pnct">was</W>
 <W msd="VBN" in="-1:vobj" out="-2:[subj]|3:tobj">born</W>
 <W msd="DT" in="2:tobj" out="1:nobj">the</W>

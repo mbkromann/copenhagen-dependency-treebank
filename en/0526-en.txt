@@ -1,55 +1,44 @@
 
-18-vejr
+6 p.m. weather
 
 
-MEDARB = jid KILDE = met
+EMPL = jid SOURCE = met
 
 
-UDSENDES KL = 1800 OPLÆSER =
+TO BE BROADCAST = 6 p.m. READER =
 
 
-Vejret til torsdag eftermiddag
+The weather for Thursday afternoon
 
 
-I nat kan der komme lidt regn de fleste steder, og de laveste 
-temperaturer bliver mellem 10 og 15 grader. I morgen kommer der nogen 
-sol  -  og det bliver tørvejr overalt. De sydlige egne kan først på 
-dagen få lidt skyet vejr og regn.  -  Vinden let til frisk, lokalt 
-hård fra vest og nordvest
+There may be a bit of rain tonight most places, and the lowest temperatures will be between 10 and 15 degrees.  Tomorrow, there will be some sun - and it will be dry everywhere.  The southern regions may be a little cloudy weather and rain early in the day.  -  Wind, light to breezy, in places brisk from the west and north-west, 8-13 m/sec
 
 
-Kulingvarsel for Sydøstlige Østersø, Østersøen omkring Bornholm, Kattegat
-, Skagerrak, Sydlige Utsira, Fisker, Tampen og Viking For de indre 
-danske farvande ventes kulingen først i nat,m en i aften er der 
-varsel om hård vind for Kattegat og Limfjorden. Vest og nordvest, 
-8-13 m/sek
+Gale warning for the Southeastern Baltic, the Baltic around Bornholm, Kattegat, Skagerrak, Southern Utsira, Fisker, Tampen and Viking.  For the domestic Danish waters, the gale is not expected until tonight, but in the evening there is a warning for brisk winds for the Kattegat and Limfjord.  West and north-west, 8-13 m/sec.
 
 
-BRUTTO = 00:35
+GROSS = 00:35
 
 
-O = sovjet
+O = soviet
 
 
-MEDARB = mse
+EMPL = mse
 
 
-DATO = 04099l
+DATE = 04099l
 
 
-UDSENDES KL = 1830
+TO BE BROADCAST = 6:30 p.m.
 
 
-OPLÆSER =
+READER =
 
 
-RUBRIK
+HEADING
 
 
-( Den sovjetiske folkekongres har i princippet vedtaget at opløse 
-Sovjetunionen  -  men samtidig har præsident Mikhail Gorbatjov lidt et 
-nyt politisk nederlag, fordi hans forfatningsudkast ikke kunne samle 
-stemmer nok )
+(The Soviet Congress has in principle approved the dissolution of the Soviet Union - but, at the same time, President Mikhail Gorbachev has suffered a political defeat, because his draft constitution could not gather enough votes)
 
 
 

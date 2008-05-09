@@ -31,7 +31,7 @@
 <W msd="SE" lemma="se">se</W>
 <W msd="VHfin" lemma="haber">han</W>
 <W msd="VLadj" lemma="realizar">realizado</W>
-<W msd="NC" lemma="inversión">inversiones</W>
+<W msd="NC" lemma="inversin">inversiones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">Ãºltimo</W>
@@ -62,7 +62,7 @@
 <W msd="ADJ" lemma="&lt;unknown&gt;">antimonopolios</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NP" lemma="Inglaterra">Inglaterra</W>
-<W msd="PPO" lemma="él">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="permitir">permiten</W>
 <W msd="VLinf" lemma="&lt;unknown&gt;">â€“</W>
 <W msd="ART" lemma="un">un</W>

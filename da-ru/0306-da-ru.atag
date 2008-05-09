@@ -1,0 +1,192 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
+<alignFile key="b" href="../ru/0306-ru.tag" sign="_input"/>
+<align out="b1" type="" in="b1" creator="0" insign="Если" outsign="Если"/>
+<align out="a42 a43" type="" in="a42 a43" creator="0" insign="Er der" outsign="Er der"/>
+<align out="b2 b3" type="" in="b2 b3" creator="0" insign="у Вас" outsign="у Вас"/>
+<align out="a44" type="" in="b4" creator="0" insign="проблемы" outsign="problemer"/>
+<align out="a45" type="" in="b5" creator="0" insign="со" outsign="med"/>
+<align out="a46" type="" in="b6" creator="0" insign="здоровьем" outsign="helbredet"/>
+<align out="a47" type="" in="b7" creator="0" insign="–" outsign=","/>
+<align out="a48" type="" in="a48" creator="0" insign="s" outsign="s"/>
+<align out="a49" type="" in="b8" creator="0" insign="пишите" outsign="skriv"/>
+<align out="a50" type="" in="b9" creator="0" insign="в" outsign="til"/>
+<align out="a51 a52 a53" type="" in="b11" creator="0" insign="«Врачи»" outsign="&quot; Lgerne &quot;"/>
+<align out="b10" type="" in="b10" creator="0" insign="рубрику" outsign="рубрику"/>
+<align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
+<align out="a55" type="" in="b12" creator="0" insign="еженедельника" outsign="Ugemagasinet"/>
+<align out="a56" type="" in="b13" creator="0" insign="ВОСКРЕСЕНЬЕ" outsign="SNDAG"/>
+<align out="a57" type="" in="a57" creator="0" insign="," outsign=","/>
+<align out="b14 b15" type="" in="b14 b15" creator="0" insign="по адресу" outsign="по адресу"/>
+<align out="b16" type="" in="b16" creator="0" insign=":" outsign=":"/>
+<align out="a58" type="" in="b17" creator="-1" insign="Vesterbrogade" outsign="Vesterbrogade"/>
+<align out="a59" type="" in="b18" creator="-1" insign="16" outsign="16"/>
+<align out="a60" type="" in="b19" creator="-1" insign="," outsign=","/>
+<align out="a61" type="" in="b20" creator="-1" insign="1505" outsign="1505"/>
+<align out="a64" type="" in="a64" creator="0" insign="." outsign="."/>
+<align out="a67" type="" in="b28" creator="0" insign="только" outsign="Kun"/>
+<align out="a72" type="" in="b23" creator="0" insign="Вскрыть" outsign="bne"/>
+<align out="a73" type="" in="b24" creator="0" insign="Ваше" outsign="Deres"/>
+<align out="a74" type="" in="b25" creator="0" insign="письмо" outsign="brev"/>
+<align out="a71" type="" in="b26 b27" creator="0" insign="имеют право" outsign="m"/>
+<align out="a70" type="" in="b29" creator="0" insign="врачи" outsign="lger"/>
+<align out="a69" type="" in="b31" creator="0" insign="ВОСКРЕСЕНЬЕ" outsign="SNDAG's"/>
+<align out="a62" type="" in="b21" creator="-1" insign="Kbenhavn" outsign="Kbenhavn"/>
+<align out="a63" type="" in="b22" creator="-1" insign="V." outsign="V."/>
+<align out="a75" type="" in="b32" creator="-1" insign="." outsign="."/>
+<align out="a68" type="" in="b30" creator="-1" insign="еженедельника" outsign="Ugemagasinet"/>
+<align out="a79" type="" in="a79" creator="0" insign=":" outsign=":"/>
+<align out="b34" type="" in="b34" creator="0" insign="," outsign=","/>
+<align out="b38" type="" in="b38" creator="0" insign="," outsign=","/>
+<align out="a82" type="" in="b42 b43" creator="0" insign="к сожалению" outsign="desvrre"/>
+<align out="b41" type="" in="b41" creator="0" insign="," outsign=","/>
+<align out="a80" type="" in="b40" creator="0" insign="врачи" outsign="Lgerne"/>
+<align out="a83" type="" in="b45" creator="0" insign="не" outsign="ikke"/>
+<align out="b44" type="" in="b44" creator="0" insign="," outsign=","/>
+<align out="a81" type="" in="b46" creator="0" insign="могут" outsign="kan"/>
+<align out="b33" type="" in="b33" creator="0" insign="Однако" outsign="Однако"/>
+<align out="a85" type="" in="b49" creator="0" insign="себя" outsign="sig"/>
+<align out="a84" type="" in="b47 b48 b50" creator="0" insign="взять на обязательство" outsign="ptage"/>
+<align out="a87 a89" type="" in="b51" creator="0" insign="ответить" outsign="give svar"/>
+<align out="a86" type="" in="a86" creator="0" insign="at" outsign="at"/>
+<align out="a78" type="" in="b35 b36 b37 b39" creator="0" insign="имейте в виду что" outsign="OBS"/>
+<align out="a88" type="f" in="b52 b53" creator="0" insign="каждому индивидуально" outsign="private"/>
+<align out="a95" type="" in="b55 b56" creator="0" insign="ПРОТИВОЗАЧАТОЧНЫЕ ТАБЛЕТКИ" outsign="P-PILLER"/>
+<align out="a96" type="" in="b57" creator="0" insign="В" outsign="I"/>
+<align out="a97" type="" in="b58 b59" creator="0" insign="ПЕРЕХОДНОМ ВОЗРАСТЕ" outsign="OVERGANGSALDEREN"/>
+<align out="a98" type="" in="b60" creator="-1" insign="?" outsign="?"/>
+<align out="a90" type="" in="b54" creator="-1" insign="." outsign="."/>
+<align out="a103" type="" in="b61" creator="0" insign="Многие" outsign="Mange"/>
+<align out="a104" type="" in="b62" creator="0" insign="женщины" outsign="kvinder"/>
+<align out="a105" type="" in="b68" creator="0" insign="хотят" outsign="nsker"/>
+<align out="a110" type="" in="b71 b72" creator="0" insign="противозачаточных таблеток" outsign="P-pillerne"/>
+<align out="a106 a107 a108 a109" type="" in="b69" creator="0" insign="прекратить" outsign="at holde op med"/>
+<align out="b70" type="" in="b70" creator="0" insign="прием" outsign="прием"/>
+<align out="a111" type="" in="a111" creator="0" insign="," outsign=","/>
+<align out="a112 a113 a114 a115 a116 a117 a118" type="f" in="b63 b64 b65 b66 b67" creator="0" insign="в возрасте около 50 лет" outsign="nr de er i slutningen af 40'erne"/>
+<align out="a119" type="" in="b73" creator="-1" insign="." outsign="."/>
+<align out="a122" type="" in="b74" creator="0" insign="Однако" outsign="Men"/>
+<align out="b75" type="" in="b75" creator="0" insign="," outsign=","/>
+<align out="a126" type="" in="b81" creator="0" insign="целый" outsign="lang"/>
+<align out="a132" type="" in="b88" creator="0" insign="отвечают" outsign="svarer"/>
+<align out="a133" type="" in="b85" creator="0" insign="на" outsign="p"/>
+<align out="a130" type="" in="b86" creator="0" insign="которые" outsign="som"/>
+<align out="a134" type="" in="b89" creator="0" insign="здесь" outsign="her"/>
+<align out="a123" type="" in="b79" creator="0" insign="этим" outsign="det"/>
+<align out="a125" type="" in="a125" creator="0" insign="en" outsign="en"/>
+<align out="a124" type="" in="b76 b77 b78 b80" creator="0" insign="в связи с возникает" outsign="rejser"/>
+<align out="b87" type="" in="b87" creator="0" insign="и" outsign="и"/>
+<align out="a131" type="" in="b90" creator="-1" insign="врачи" outsign="lgerne"/>
+<align out="a129" type="" in="b84" creator="-1" insign="," outsign=","/>
+<align out="a127" type="" in="b82" creator="-1" insign="ряд" outsign="rkke"/>
+<align out="a128" type="" in="b83" creator="-1" insign="вопросов" outsign="sprgsml"/>
+<align out="a135" type="" in="b91" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a136" type="" in="b92 b93 b94" creator="0" insign="в том числе" outsign="bl.a."/>
+<align out="b95" type="" in="b95" creator="0" insign="–" outsign="–"/>
+<align out="a137" type="" in="b97" creator="0" insign="ли" outsign="om"/>
+<align out="a138" type="" in="b98" creator="0" insign="гормоны" outsign="hormoner"/>
+<align out="a140" type="" in="b99" creator="0" insign="заменить" outsign="erstatte"/>
+<align out="a141" type="" in="b100 b101" creator="0" insign="противозачаточные таблетки" outsign="P-piller"/>
+<align out="a147" type="" in="b103" creator="0" insign="Иллюстрация" outsign="Illustration"/>
+<align out="a148" type="" in="a148" creator="0" insign=":" outsign=":"/>
+<align out="a149" type="" in="b104" creator="0" insign="Оле" outsign="Ole"/>
+<align out="a150" type="mv" in="b105" creator="0" insign="Клаусена" outsign="Clausen"/>
+<align out="a155" type="mv" in="b106" creator="0" insign="Бодиль" outsign="Bodil"/>
+<align out="a156" type="" in="a156" creator="0" insign="er" outsign="er"/>
+<align out="a157" type="" in="b107" creator="-1" insign="49" outsign="49"/>
+<align out="a139" type="" in="b96" creator="-1" insign="могут" outsign="kan"/>
+<align out="a142" type="" in="b102" creator="-1" insign="." outsign="."/>
+<align out="a159" type="" in="b109" creator="-1" insign="." outsign="."/>
+<align out="a158" type="" in="b108" creator="-1" insign="лет" outsign="r"/>
+<align out="a172" type="" in="b119" creator="0" insign="Она" outsign="Hun"/>
+<align out="a173" type="" in="b121" creator="0" insign="родила" outsign="fik"/>
+<align out="a174" type="" in="b120" creator="0" insign="рано" outsign="tidligt"/>
+<align out="a175" type="" in="b125" creator="0" insign="троих" outsign="3"/>
+<align out="a176" type="" in="b126" creator="0" insign="детей" outsign="brn"/>
+<align out="a177 a178 a179" type="" in="b122 b123 b124" creator="0" insign="одного за другим" outsign="lige efter hinanden"/>
+<align out="a162" type="" in="b114" creator="0" insign="она" outsign="Hun"/>
+<align out="a163 a164" type="" in="b115" creator="0" insign="принимала" outsign="har spist"/>
+<align out="a166" type="" in="b110 b111" creator="0" insign="На протяжение" outsign="i"/>
+<align out="a167" type="" in="b112" creator="0" insign="многих" outsign="mange"/>
+<align out="a165" type="" in="b116 b117" creator="-1" insign="противозачаточные таблетки" outsign="P-piller"/>
+<align out="a168" type="" in="b113" creator="-1" insign="лет" outsign="r"/>
+<align out="a169" type="" in="b118" creator="-1" insign="." outsign="."/>
+<align out="a180" type="" in="b127" creator="-1" insign="," outsign=","/>
+<align out="a181" type="" in="b132" creator="0" insign="желала" outsign="nskede"/>
+<align out="a183" type="" in="b129" creator="0" insign="больше" outsign="flere"/>
+<align out="b130" type="" in="b130" creator="0" insign="детей" outsign="детей"/>
+<align out="a184" type="" in="b133" creator="0" insign="и" outsign="og"/>
+<align out="b134" type="" in="b134" creator="0" insign="," outsign=","/>
+<align out="b128" type="" in="b128" creator="0" insign="иметь" outsign="иметь"/>
+<align out="a190" type="mv" in="b137" creator="0" insign="абортов" outsign="abort"/>
+<align out="a188 a189" type="f" in="b136" creator="0" insign="противницей" outsign="modstand mod"/>
+<align out="a187" type="" in="b135" creator="0" insign="являясь" outsign="pga."/>
+<align out="a191 a192" type="" in="b143" creator="0" insign="застраховаться" outsign="sikre sig"/>
+<align out="b138" type="" in="b138" creator="0" insign="," outsign=","/>
+<align out="b144 b145" type="" in="b144 b145" creator="0" insign="от беременности" outsign="от беременности"/>
+<align out="a186" type="" in="a186" creator="0" insign="gerne" outsign="gerne"/>
+<align out="a185" type="" in="b139" creator="0" insign="решила" outsign="ville"/>
+<align out="b140" type="" in="b140" creator="0" insign="на" outsign="на"/>
+<align out="a193" type="" in="b141" creator="-1" insign="100" outsign="100"/>
+<align out="a194" type="" in="b142" creator="-1" insign="%" outsign="%"/>
+<align out="a182" type="" in="b131" creator="-1" insign="не" outsign="ikke"/>
+<align out="a195" type="" in="b146" creator="-1" insign="." outsign="."/>
+<align out="a198" type="" in="b147" creator="0" insign="Поэтому" outsign="Derfor"/>
+<align out="a199" type="" in="b149" creator="0" insign="выбрала" outsign="valgte"/>
+<align out="a201" type="" in="b150 b151" creator="0" insign="противозачаточные таблетки" outsign="P-pillerne"/>
+<align out="a202" type="" in="b152" creator="0" insign="," outsign=","/>
+<align out="a209" type="" in="b161 b162" creator="0" insign="побочных эффектов" outsign="bivirkninger"/>
+<align out="b160" type="" in="b160" creator="0" insign="каких-либо" outsign="каких-либо"/>
+<align out="a208" type="" in="b159" creator="0" insign="без" outsign="uden"/>
+<align out="a204" type="mv" in="b156" creator="0" insign="нее" outsign="hun"/>
+<align out="a205 a206 a207" type="f" in="b154 b155 b157 b158" creator="0" insign="оказали на желаемое действие" outsign="fungerede godt med"/>
+<align out="a203" type="" in="b153" creator="-1" insign="которые" outsign="som"/>
+<align out="a200" type="" in="b148" creator="-1" insign="она" outsign="hun"/>
+<align out="a210" type="" in="b163" creator="-1" insign="." outsign="."/>
+<align out="a215" type="" in="b164" creator="0" insign="Когда" outsign="Da"/>
+<align out="a216" type="" in="b165" creator="0" insign="ей" outsign="hun"/>
+<align out="a217" type="" in="b166" creator="0" insign="исполнилось" outsign="blev"/>
+<align out="a220" type="" in="b171" creator="0" insign="поговорил" outsign="talte"/>
+<align out="b169" type="" in="b169" creator="0" insign="," outsign=","/>
+<align out="a221" type="" in="b170" creator="0" insign="я" outsign="jeg"/>
+<align out="a222" type="" in="b172" creator="0" insign="с" outsign="med"/>
+<align out="a223" type="" in="b173" creator="0" insign="ней" outsign="hende"/>
+<align out="a224" type="" in="b174" creator="0" insign="о" outsign="om"/>
+<align out="a225" type="" in="a225" creator="0" insign="en" outsign="en"/>
+<align out="a226" type="" in="b175" creator="0" insign="другом" outsign="anden"/>
+<align out="b176" type="" in="b176" creator="0" insign="виде" outsign="виде"/>
+<align out="a227" type="" in="b177" creator="0" insign="контрацепции" outsign="prvention"/>
+<align out="a228 a229 a230" type="" in="b178" creator="0" insign="вместо" outsign="i stedet for"/>
+<align out="a218" type="" in="b167" creator="-1" insign="40" outsign="40"/>
+<align out="a219" type="" in="b168" creator="-1" insign="лет" outsign="r"/>
+<align out="a232" type="" in="b180" creator="-1" insign="," outsign=","/>
+<align out="a231" type="lv" in="b179" creator="0" insign="таблеток" outsign="P-pillerne"/>
+<align out="a233" type="" in="b181" creator="0" insign="но" outsign="men"/>
+<align out="a234" type="" in="b185" creator="0" insign="этого" outsign="det"/>
+<align out="a235" type="" in="b184" creator="0" insign="хотела" outsign="nskede"/>
+<align out="a237" type="" in="b187" creator="0" insign="при" outsign="under"/>
+<align out="a239" type="" in="b189" creator="0" insign="обстоятельствах" outsign="omstndigheder"/>
+<align out="a238" type="" in="b186 b188" creator="0" insign="ни каких" outsign="ingen"/>
+<align out="b183" type="" in="b183" creator="0" insign="не" outsign="не"/>
+<align out="a245" type="" in="a245" creator="0" insign="," outsign=","/>
+<align out="a243" type="" in="a243" creator="0" insign="De" outsign="De"/>
+<align out="a240" type="" in="b190" creator="0" insign="," outsign="."/>
+<align out="b194" type="" in="b194" creator="0" insign="," outsign=","/>
+<align out="b191" type="" in="b191" creator="0" insign="а" outsign="а"/>
+<align out="a244" type="" in="b192" creator="0" insign="риск" outsign="risici"/>
+<align out="b193" type="" in="b193" creator="0" insign="осложнений" outsign="осложнений"/>
+<align out="a246" type="" in="b195" creator="0" insign="которые" outsign="der"/>
+<align out="a247 a248" type="" in="b196 b197" creator="0" insign="могут возникнуть" outsign="mtte vre"/>
+<align out="a249" type="" in="b198" creator="0" insign="у" outsign="for"/>
+<align out="a250" type="" in="b199" creator="0" insign="женщин" outsign="kvinder"/>
+<align out="a236" type="" in="b182" creator="-1" insign="она" outsign="hun"/>
+<align out="a252" type="" in="b203" creator="0" insign="сорок" outsign="40"/>
+<align out="a251 a253" type="" in="b200 b201 b202" creator="0" insign="в возрасте за" outsign="over r"/>
+<align out="a260 a261 a262" type="f" in="b209" creator="0" insign="себя" outsign="sin egen kappe"/>
+<align out="a258" type="" in="b207" creator="0" insign="взять" outsign="tage"/>
+<align out="a256" type="" in="a256" creator="0" insign="hun" outsign="hun"/>
+<align out="a255 a257" type="" in="b205 b206" creator="0" insign="готова была" outsign="ville gerne"/>
+<align out="a259" type="" in="b208" creator="-1" insign="на" outsign="p"/>
+<align out="a254" type="" in="b204" creator="-1" insign="," outsign=","/>
+<align out="a263" type="" in="b210" creator="-1" insign="." outsign="."/>
+</DTAGalign>

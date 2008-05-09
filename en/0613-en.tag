@@ -79,7 +79,7 @@
 <W msd="JJ" in="-1:mod" out="">shut-down</W>
 <W msd="NN" in="-2:nobj" out="">kiosk</W>
 <W msd="IN" in="-4:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="1:mod">Østerbro</W>
+<W msd="NN" in="-1:nobj" out="1:mod">Ã˜sterbro</W>
 <W msd="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NNP" in="-1:nobj" out="">Copenhagen</W>
 <W msd="." in="-10:pnct" out="">.</W>
@@ -174,7 +174,7 @@
 <W msd="VBG" in="" out="">camping</W>
 <W msd="NN" in="" out="1:mod">site</W>
 <W msd="IN" in="-1:mod" out="1:nobj">on</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Havnsø</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">HavnsÃ¸</W>
 <W msd="NNP" in="-1:nobj" out="">Beach</W>
 <W msd="." in="-18:pnct" out="">.</W>
 </s>

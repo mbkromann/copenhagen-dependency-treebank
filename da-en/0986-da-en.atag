@@ -1,27 +1,27 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0986-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0986-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0986-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="LONDON" outsign="LONDON"/>
 <align out="a48" type="" in="b4" creator="-1" insign="The" outsign="De"/>
 <align out="a55" type="" in="b14" creator="-1" insign="the" outsign="den"/>
-<align out="a56" type="" in="b15" creator="-1" insign="worst" outsign="værste"/>
+<align out="a56" type="" in="b15" creator="-1" insign="worst" outsign="vÃ¦rste"/>
 <align out="a57" type="" in="b16" creator="-1" insign="downturn" outsign="nedgang"/>
 <align out="a58" type="" in="b17" creator="-1" insign="in" outsign="i"/>
 <align out="a59" type="" in="b18" creator="-1" insign="ten" outsign="ti"/>
-<align out="a60" type="" in="b19" creator="-1" insign="years" outsign="år"/>
+<align out="a60" type="" in="b19" creator="-1" insign="years" outsign="Ã¥r"/>
 <align out="a61" type="" in="b20" creator="-1" insign="," outsign=","/>
 <align out="a62" type="" in="b21" creator="-1" insign="without" outsign="uden"/>
 <align out="a63" type="" in="b22" creator="-1" insign="prospects" outsign="udsigt"/>
 <align out="a64" type="" in="b23" creator="-1" insign="for" outsign="til"/>
 <align out="a65" type="" in="b24" creator="-1" insign="improvement" outsign="forbedring"/>
-<align out="a66" type="" in="b25 b26" creator="-1" insign="this year" outsign="i_år"/>
+<align out="a66" type="" in="b25 b26" creator="-1" insign="this year" outsign="i_Ã¥r"/>
 <align out="a67" type="" in="b27" creator="-1" insign="." outsign="."/>
 <align out="a70" type="" in="b30" creator="-1" insign="But" outsign="Men"/>
 <align out="a71" type="" in="b31" creator="-1" insign="it" outsign="det"/>
 <align out="a72" type="" in="b32" creator="-1" insign="is" outsign="er"/>
 <align out="a73" type="" in="b33" creator="-1" insign="time" outsign="tid"/>
 <align out="a74 a75" type="" in="b34" creator="-1" insign="to" outsign="til at"/>
-<align out="a76" type="" in="b35" creator="-1" insign="buy" outsign="købe"/>
+<align out="a76" type="" in="b35" creator="-1" insign="buy" outsign="kÃ¸be"/>
 <align out="a77" type="" in="b36" creator="-1" insign="stocks" outsign="aktier"/>
 <align out="a78" type="" in="b37" creator="-1" insign="in" outsign="i"/>
 <align out="a80" type="" in="b41" creator="-1" insign="," outsign=","/>
@@ -49,10 +49,10 @@
 <align out="a120" type="" in="b88" creator="-1" insign="again" outsign="igen"/>
 <align out="a122" type="" in="b89" creator="-1" insign="the" outsign="de"/>
 <align out="a123" type="" in="b90" creator="-1" insign="last" outsign="sidste"/>
-<align out="a125" type="" in="b93" creator="-1" insign="months" outsign="måneder"/>
+<align out="a125" type="" in="b93" creator="-1" insign="months" outsign="mÃ¥neder"/>
 <align out="a126" type="" in="b94" creator="-1" insign="." outsign="."/>
 <align out="a131" type="" in="b97" creator="-1" insign="This" outsign="Det"/>
-<align out="a132" type="" in="b98 b99" creator="-1" insign="will make" outsign="gør"/>
+<align out="a132" type="" in="b98 b99" creator="-1" insign="will make" outsign="gÃ¸r"/>
 <align out="a135" type="" in="b103" creator="-1" insign="a" outsign="et"/>
 <align out="a136" type="" in="b104" creator="-1" insign="natural" outsign="naturligt"/>
 <align out="a138" type="" in="b108" creator="-1" insign="just" outsign="lige"/>
@@ -60,8 +60,8 @@
 <align out="a142" type="" in="b112" creator="-1" insign="investors" outsign="investorerne"/>
 <align out="a143" type="" in="b113" creator="-1" insign="see" outsign="ser"/>
 <align out="a144" type="" in="b114" creator="-1" insign="more" outsign="mere"/>
-<align out="a146" type="" in="b116" creator="-1" insign="in" outsign="på"/>
-<align out="a148" type="" in="b118" creator="-1" insign="economy" outsign="økonomi"/>
+<align out="a146" type="" in="b116" creator="-1" insign="in" outsign="pÃ¥"/>
+<align out="a148" type="" in="b118" creator="-1" insign="economy" outsign="Ã¸konomi"/>
 <align out="a149" type="" in="b119" creator="-1" insign="in" outsign="i"/>
 <align out="a152" type="" in="b121" creator="-1" insign="say" outsign="siger"/>
 <align out="a153" type="" in="b122 b123" creator="-1" insign="business analysts" outsign="erhvervsanalytikerne"/>
@@ -83,7 +83,7 @@
 <align out="a171" type="" in="b141" creator="-1" insign="Swedish" outsign="svenske"/>
 <align out="a172" type="" in="b142" creator="-1" insign="SSAB" outsign="SSAB"/>
 <align out="a173" type="" in="b143" creator="-1" insign="Svenskt" outsign="Svenskt"/>
-<align out="a174" type="" in="b144" creator="-1" insign="Stål" outsign="Stål"/>
+<align out="a174" type="" in="b144" creator="-1" insign="StÃ¥l" outsign="StÃ¥l"/>
 <align out="a175" type="" in="b145" creator="-1" insign="AB" outsign="AB"/>
 <align out="a176" type="" in="b146" creator="-1" insign="." outsign="."/>
 <align out="a181" type="" in="b149" creator="-1" insign="&quot;" outsign="&quot;"/>
@@ -113,7 +113,7 @@
 <align out="a215" type="" in="b186" creator="-1" insign="recently" outsign="fornylig"/>
 <align out="a216" type="" in="b187" creator="-1" insign="in" outsign="i"/>
 <align out="a217" type="" in="b188" creator="-1" insign="a" outsign="en"/>
-<align out="a218" type="" in="b189" creator="-1" insign="remark" outsign="bemærkning"/>
+<align out="a218" type="" in="b189" creator="-1" insign="remark" outsign="bemÃ¦rkning"/>
 <align out="a219" type="" in="b190" creator="-1" insign="about" outsign="om"/>
 <align out="a220" type="" in="b191" creator="-1" insign="British" outsign="British"/>
 <align out="a221" type="" in="b192" creator="-1" insign="Steel" outsign="Steel"/>
@@ -127,49 +127,49 @@
 <align out="a234" type="" in="b205" creator="-1" insign="the" outsign="det"/>
 <align out="a235" type="" in="b206" creator="-1" insign="tiniest" outsign="mindste"/>
 <align out="a237" type="" in="b208" creator="-1" insign="of" outsign="af"/>
-<align out="a238" type="" in="b209" creator="-1" insign="hope" outsign="håb"/>
+<align out="a238" type="" in="b209" creator="-1" insign="hope" outsign="hÃ¥b"/>
 <align out="a239" type="" in="b210" creator="-1" insign="of" outsign="om"/>
 <align out="a240" type="" in="b211" creator="-1" insign="an" outsign="en"/>
 <align out="b62" type="" in="b62" creator="-1" insign="," outsign=","/>
-<align out="a49" type="" in="b5" creator="0" insign="European" outsign="europæiske"/>
-<align out="a50" type="" in="b6 b7" creator="0" insign="steel factories" outsign="stålfabrikker"/>
+<align out="a49" type="" in="b5" creator="0" insign="European" outsign="europÃ¦iske"/>
+<align out="a50" type="" in="b6 b7" creator="0" insign="steel factories" outsign="stÃ¥lfabrikker"/>
 <align out="a51" type="" in="b8" creator="0" insign="find" outsign="befinder"/>
 <align out="a52" type="" in="b9" creator="0" insign="themselves" outsign="sig"/>
 <align out="a53 a54" type="" in="b10 b11 b12" creator="0" insign="in the middle" outsign="midt i"/>
 <align out="a53 a54" type="s" in="b13" creator="0" insign="of" outsign="midt i"/>
 <align out="a44" type="" in="b2" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a47" type="" in="b3" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a79" type="" in="b38 b39 b40" creator="0" insign="the steel industry" outsign="stålindustrien"/>
+<align out="a79" type="" in="b38 b39 b40" creator="0" insign="the steel industry" outsign="stÃ¥lindustrien"/>
 <align out="a69" type="" in="b29" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a68" type="" in="b28" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a86" type="f" in="b48 b49 b50" creator="0" insign="The steel factories" outsign="Stålfabrikanterne"/>
+<align out="a86" type="f" in="b48 b49 b50" creator="0" insign="The steel factories" outsign="StÃ¥lfabrikanterne"/>
 <align out="a91" type="s" in="b55" creator="0" insign="hit" outsign="der"/>
 <align out="a92 a94" type="" in="b55" creator="0" insign="hit" outsign="blev ramt"/>
-<align out="a93" type="" in="b54" creator="0" insign="hardest" outsign="hårdest"/>
+<align out="a93" type="" in="b54" creator="0" insign="hardest" outsign="hÃ¥rdest"/>
 <align out="a95" type="" in="b56" creator="0" insign="by" outsign="af"/>
 <align out="a96" type="" in="b57 b58" creator="0" insign="the recession" outsign="nedgangskonjunkturen"/>
 <align out="a98" type="" in="b60" creator="0" insign="1991" outsign="1991"/>
 <align out="a99" type="?" in="b60" creator="0" insign="1991" outsign=","/>
 <align out="a85" type="" in="b47" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a84" type="" in="b46" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a107" type="" in="b69" creator="0" insign="demand" outsign="efterspørgsel"/>
-<align out="a108" type="" in="b70" creator="0" insign="for" outsign="på"/>
-<align out="a111" type="" in="b73 b74 b75" creator="0" insign="the steel industry" outsign="stålindustrien"/>
-<align out="a112" type="" in="b76 b77 b78" creator="0" insign="at the beginning" outsign="først"/>
-<align out="a113" type="" in="b79" creator="0" insign="of" outsign="på"/>
-<align out="a114" type="" in="b80 b81" creator="0" insign="the year" outsign="året"/>
+<align out="a107" type="" in="b69" creator="0" insign="demand" outsign="efterspÃ¸rgsel"/>
+<align out="a108" type="" in="b70" creator="0" insign="for" outsign="pÃ¥"/>
+<align out="a111" type="" in="b73 b74 b75" creator="0" insign="the steel industry" outsign="stÃ¥lindustrien"/>
+<align out="a112" type="" in="b76 b77 b78" creator="0" insign="at the beginning" outsign="fÃ¸rst"/>
+<align out="a113" type="" in="b79" creator="0" insign="of" outsign="pÃ¥"/>
+<align out="a114" type="" in="b80 b81" creator="0" insign="the year" outsign="Ã¥ret"/>
 <align out="a117" type="" in="b83 b84" creator="0" insign="the prices" outsign="kurserne"/>
 <align out="a121" type="" in="a121" creator="0" insign="i" outsign="i"/>
 <align out="a124" type="" in="b91" creator="0" insign="couple" outsign="par"/>
 <align out="a124" type="s" in="b92" creator="0" insign="of" outsign="par"/>
 <align out="a133" type="" in="b100 b101" creator="0" insign="the shares" outsign="aktierne"/>
 <align out="a134" type="" in="b102" creator="0" insign="into" outsign="til"/>
-<align out="a137" type="" in="b105 b106 b107" creator="0" insign="object of attraction" outsign="tiltrækningsobjekt"/>
+<align out="a137" type="" in="b105 b106 b107" creator="0" insign="object of attraction" outsign="tiltrÃ¦kningsobjekt"/>
 <align out="a127" type="" in="b95" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a130" type="" in="b96" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a140" type="" in="b110" creator="0" insign="soon" outsign="snart"/>
-<align out="a139" type="s" in="b111" creator="0" insign="as" outsign="så"/>
-<align out="a139" type="" in="b109" creator="0" insign="as" outsign="så"/>
+<align out="a139" type="s" in="b111" creator="0" insign="as" outsign="sÃ¥"/>
+<align out="a139" type="" in="b109" creator="0" insign="as" outsign="sÃ¥"/>
 <align out="a145" type="f" in="b115" creator="0" insign="light" outsign="lyst"/>
 <align out="a147" type="" in="b117" creator="0" insign="Europe's" outsign="Europas"/>
 <align out="a150" type="" in="b120" creator="0" insign="1993," outsign="1993"/>
@@ -178,16 +178,16 @@
 <align out="a155" type="" in="b125" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a180" type="" in="b148" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a177" type="" in="b147" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a188" type="" in="b156 b157 b158" creator="0" insign="the steel industry" outsign="stålindustrien"/>
-<align out="a189" type="" in="b159" creator="0" insign="long" outsign="længe"/>
-<align out="a190" type="" in="b160" creator="0" insign="before" outsign="før"/>
+<align out="a188" type="" in="b156 b157 b158" creator="0" insign="the steel industry" outsign="stÃ¥lindustrien"/>
+<align out="a189" type="" in="b159" creator="0" insign="long" outsign="lÃ¦nge"/>
+<align out="a190" type="" in="b160" creator="0" insign="before" outsign="fÃ¸r"/>
 <align out="a192" type="" in="b162" creator="0" insign="recovery" outsign="konjunkturopsving"/>
 <align out="a193 a194" type="" in="b163" creator="0" insign="appears" outsign="viser sig"/>
 <align out="a199" type="" in="b168" creator="-1" insign="Hadas" outsign="Hadas"/>
 <align out="a203" type="s" in="b172" creator="0" insign="an" outsign="analytiker"/>
 <align out="a203" type="" in="b173" creator="0" insign="analyst" outsign="analytiker"/>
-<align out="a206" type="" in="b176" creator="0" insign="European" outsign="europæiske"/>
-<align out="a207" type="" in="b177 b178" creator="0" insign="steel industry" outsign="stålindustri"/>
+<align out="a206" type="" in="b176" creator="0" insign="European" outsign="europÃ¦iske"/>
+<align out="a207" type="" in="b177 b178" creator="0" insign="steel industry" outsign="stÃ¥lindustri"/>
 <align out="a228" type="" in="b199" creator="0" insign="not" outsign="ikke"/>
 <align out="a227" type="f" in="b198 b200" creator="0" insign="need be" outsign="skal"/>
 <align out="a231" type="s" in="b198 b200" creator="0" insign="need be" outsign="til"/>

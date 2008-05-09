@@ -1,0 +1,86 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1252-da.tag" sign="_input"/>
+<alignFile key="b" href="../ru/1252-ru.tag" sign="_input"/>
+<align out="a43" type="" in="b15" creator="0" insign="Дании" outsign="Danmarks"/>
+<align out="a44" type="" in="b14" creator="0" insign="отношение" outsign="holdning"/>
+<align out="a45" type="" in="b16" creator="0" insign="к" outsign="til"/>
+<align out="a46" type="" in="b17" creator="0" insign="Китаю" outsign="Kina"/>
+<align out="a48" type="" in="b1" creator="0" insign="После" outsign="siden"/>
+<align out="a49" type="" in="a49" creator="0" insign="den" outsign="den"/>
+<align out="a50" type="f" in="b2" creator="0" insign="жестокого" outsign="dramatiske"/>
+<align out="a51" type="" in="b3" creator="0" insign="подавления" outsign="nedkmpning"/>
+<align out="a54" type="" in="b5 b6" creator="0" insign="демократически настроенных" outsign="pro-demokratiske"/>
+<align out="a52" type="s" in="b4" creator="0" insign="выступления" outsign="af"/>
+<align out="a55" type="" in="b4 b7" creator="0" insign="выступления студентов" outsign="studenteroprr"/>
+<align out="a53" type="" in="a53" creator="0" insign="det" outsign="det"/>
+<align out="a57 a58 a59 a60" type="" in="b9 b10" creator="0" insign="площади Тяньаньмень" outsign="Den Himmelske Freds Plads"/>
+<align out="a61" type="" in="b11" creator="0" insign="в" outsign="i"/>
+<align out="a47 a63 a64 a65 a66 a67 a68" type="f" in="b13 b18 b19 b20 b21" creator="0" insign="году остается не слишком теплым" outsign="har simret p et meget svagt vgeblus"/>
+<align out="a56" type="" in="b8" creator="-1" insign="на" outsign="p"/>
+<align out="a62" type="" in="b12" creator="-1" insign="1989" outsign="1989"/>
+<align out="a72" type="" in="b23" creator="0" insign="Китай" outsign="Kina"/>
+<align out="a74" type="" in="b24 b25 b26" creator="0" insign="до сих пор" outsign="stadig"/>
+<align out="a76" type="" in="b29 b30" creator="0" insign="домашним арестом" outsign="stue-arrest"/>
+<align out="a75" type="" in="b28" creator="0" insign="под" outsign="i"/>
+<align out="a73" type="" in="b27" creator="0" insign="находится" outsign="er"/>
+<align out="a79" type="" in="b34" creator="0" insign="Даниды" outsign="Danida"/>
+<align out="a81" type="" in="b33" creator="0" insign="касса" outsign="pengekassen"/>
+<align out="a82" type="" in="b35" creator="0" insign="плотно" outsign="hermetisk"/>
+<align out="a80 a83" type="" in="b36" creator="0" insign="закрыта" outsign="holder lukket"/>
+<align out="a84" type="" in="b37" creator="0" insign="для" outsign="for"/>
+<align out="a85" type="" in="a85" creator="0" insign="danske" outsign="danske"/>
+<align out="a86" type="f" in="b39" creator="0" insign="контрактов" outsign="engagementer"/>
+<align out="a87 a88" type="f" in="b38" creator="0" insign="китайских" outsign="i Kina"/>
+<align out="a78" type="" in="b32" creator="-1" insign="и" outsign="og"/>
+<align out="a77" type="" in="b31" creator="-1" insign="," outsign=","/>
+<align out="a69" type="" in="b22" creator="-1" insign="." outsign="."/>
+<align out="a89" type="" in="b40" creator="-1" insign="." outsign="."/>
+<align out="a94" type="s" in="b41" creator="0" insign="«Китайцы" outsign="&quot;"/>
+<align out="a95" type="" in="b41" creator="0" insign="«Китайцы" outsign="Kineserne"/>
+<align out="a96 a97" type="" in="b42" creator="0" insign="разочарованы" outsign="er skuffede"/>
+<align out="a100" type="" in="b44" creator="0" insign="отношением" outsign="holdning"/>
+<align out="a98" type="s" in="b44" creator="0" insign="отношением" outsign="over"/>
+<align out="b43" type="" in="b43" creator="0" insign="таким" outsign="таким"/>
+<align out="b45 b46" type="" in="b45 b46" creator="0" insign="к себе" outsign="к себе"/>
+<align out="a108" type="" in="b53" creator="0" insign="первых" outsign="frste"/>
+<align out="a107" type="" in="a107" creator="0" insign="de" outsign="de"/>
+<align out="a106" type="" in="b51 b52" creator="0" insign="одними из" outsign="blandt"/>
+<align out="a111" type="" in="b56" creator="-1" insign="в" outsign="i"/>
+<align out="a99" type="" in="b47" creator="-1" insign="Дании" outsign="Danmarks"/>
+<align out="a101" type="" in="b48" creator="-1" insign="." outsign="."/>
+<align out="a113" type="" in="b58" creator="-1" insign="," outsign=","/>
+<align out="a104" type="" in="b49" creator="-1" insign="Датчане" outsign="Danskerne"/>
+<align out="a105" type="" in="b50" creator="-1" insign="были" outsign="var"/>
+<align out="a109" type="" in="b54" creator="-1" insign="иностранных" outsign="udenlandske"/>
+<align out="a110" type="" in="b55" creator="-1" insign="предпринимателей" outsign="forretningsfolk"/>
+<align out="a112" type="" in="b57" creator="-1" insign="Китае" outsign="Kina"/>
+<align out="a114" type="" in="b59" creator="0" insign="а" outsign="men"/>
+<align out="a115" type="" in="b60" creator="0" insign="теперь" outsign="nu"/>
+<align out="a116" type="" in="a116" creator="0" insign="er" outsign="er"/>
+<align out="a117" type="" in="b61" creator="0" insign="мы" outsign="vi"/>
+<align out="a118" type="" in="b62 b63" creator="0" insign="одни из" outsign="blandt"/>
+<align out="a119" type="" in="a119" creator="0" insign="de" outsign="de"/>
+<align out="a122" type="" in="b66" creator="0" insign="кто" outsign="der"/>
+<align out="a125" type="" in="b67" creator="0" insign="вновь" outsign="igen"/>
+<align out="a123 a124" type="" in="b68 b69 b70" creator="0" insign="пытается наладить связи»" outsign="lukker op"/>
+<align out="a127" type="" in="a127" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="b72" type="" in="b72" creator="0" insign="-" outsign="-"/>
+<align out="a132" type="" in="b77" creator="-1" insign="FLS" outsign="FLS"/>
+<align out="a133" type="" in="b78" creator="-1" insign="в" outsign="i"/>
+<align out="a121" type="" in="b65" creator="-1" insign="," outsign=","/>
+<align out="a126" type="" in="b71" creator="-1" insign="," outsign=","/>
+<align out="a131" type="" in="b76" creator="-1" insign="," outsign=","/>
+<align out="a120" type="" in="b64" creator="-1" insign="последних" outsign="sidste"/>
+<align out="a128" type="" in="b73" creator="-1" insign="говорит" outsign="siger"/>
+<align out="a129" type="" in="b74" creator="-1" insign="Оливер" outsign="Oliver"/>
+<align out="a130" type="" in="b75" creator="-1" insign="Енсен" outsign="Jensen"/>
+<align out="a145" type="" in="b85" creator="-100" insign="в" outsign="i"/>
+<align out="a135" type="" in="b80" creator="-100" insign="." outsign="."/>
+<align out="a155" type="" in="b96" creator="-100" insign="." outsign="."/>
+<align out="a150" type="" in="b91" creator="-100" insign="," outsign=","/>
+<align out="a134" type=" ! " in="b79" creator="-100" insign="Пекине" outsign="Peking"/>
+<align out="a151" type=" ! " in="b92" creator="-100" insign="что" outsign="at"/>
+<align out="a152" type=" ! " in="b93" creator="-100" insign="некогда" outsign="man"/>
+<align out="a153" type=" ! " in="b94" creator="-100" insign="перевести" outsign="taber"/>
+<align out="a154" type=" ! " in="b95" creator="-100" insign="дыхание" outsign="pusten"/>
+</DTAGalign>

@@ -126,7 +126,7 @@
 <W msd="ADJ" lemma="sordo">sordos</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="reacciÛn">reacciones</W>
+<W msd="NC" lemma="reaccin">reacciones</W>
 <W msd="PDEL" lemma="del">del</W>
 <W msd="NC" lemma="mundo">mundo</W>
 <W msd="ADJ" lemma="exterior">exterior</W>
@@ -167,7 +167,7 @@
 <W msd="NC" lemma="&lt;unknown&gt;">r√©gimen</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="PREP" lemma="por">por</W>
-<W msd="NC" lemma="generaciÛn">generaciones</W>
+<W msd="NC" lemma="generacin">generaciones</W>
 <W msd="VHfin" lemma="haber">ha</W>
 <W msd="VE" lemma="estar">estado</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">reprimiendo</W>

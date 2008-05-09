@@ -10,7 +10,7 @@
 <W msd="NNP" in="1:mod" out="-1:mod">Party</W>
 <W msd="NN" in="-9:appa" out="-1:mod|3:appr|4:pnct">member</W>
 <W msd="NNP" in="2:namef" out="">Jan</W>
-<W msd="NNP" in="1:namel" out="">Køpke</W>
+<W msd="NNP" in="1:namel" out="">KÃ¸pke</W>
 <W msd="NNP" in="-3:appr" out="-2:namef|-1:namel">Christensen</W>
 <W msd="," in="-4:pnct" out="">,</W>
 <W msd="VBD" in="" out="-14:subj|1:mod|2:dobj|38:pnct#">said</W>
@@ -56,7 +56,7 @@
 </s>
 <s>
 <W msd="NNP" in="2:namef" out="">Jan</W>
-<W msd="NNP" in="1:namel" out="">Købke</W>
+<W msd="NNP" in="1:namel" out="">KÃ¸bke</W>
 <W msd="NNP" in="1:subj" out="-2:namef|-1:namel">Christensen</W>
 <W msd="VBZ" in="" out="-1:subj|1:dobj|17:pnct">makes</W>
 <W msd="NN" in="-1:dobj" out="1:pobj">reference</W>

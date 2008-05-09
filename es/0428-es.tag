@@ -1,5 +1,5 @@
 <W msd="QU" lemma="alguno">Algunos</W>
-<W msd="NC" lemma="avión">aviones</W>
+<W msd="NC" lemma="avin">aviones</W>
 <W msd="VLfin" lemma="volar">volaban</W>
 <W msd="ADV" lemma="tan">tan</W>
 <W msd="PREP" lemma="bajo">bajo</W>
@@ -62,7 +62,7 @@
 <W msd="CSUBX" lemma="si">si</W>
 <W msd="QU" lemma="alguno">alguno</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="PPX" lemma="él">ellos</W>
+<W msd="PPX" lemma="l">ellos</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">habÃ­a</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">desertado.</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">â€“</W>
@@ -81,7 +81,7 @@
 <W msd="ALFS" lemma="o">o</W>
 <W msd="VSfin" lemma="ser">son</W>
 <W msd="NC" lemma="agente">agentes</W>
-<W msd="ADJ" lemma="inglés">ingleses</W>
+<W msd="ADJ" lemma="ingls">ingleses</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">os</W>
 <W msd="VSfin" lemma="ser">son</W>
@@ -139,7 +139,7 @@
 <W msd="ART" lemma="el">el</W>
 <W msd="NC" lemma="cielo">cielo</W>
 <W msd="CM" lemma=",">,</W>
-<W msd="PPO" lemma="él">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">atraparon</W>
 <W msd="FS" lemma="?">?</W>
 <W msd="DASH" lemma="-">-</W>

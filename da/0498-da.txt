@@ -5,13 +5,13 @@ Jugo-alarm
 MEDARB = jss KILDE = afp UDSENDES
 
 
-KL = 17 OPLÆSER =
+KL = 17 OPLÃ†SER =
 
 
-Chefen for den jugoslaviske hær siger, at hans styrker er sat i 
-alarmberedskab og er parat til at bekæmpe enhver intervention, som 
-truer de bosniske serberes overlevelse. Hæren er parat til at svare 
-med våben på enhver aggression mod Jugoslavien, siger general Zivota 
+Chefen for den jugoslaviske hÃ¦r siger, at hans styrker er sat i 
+alarmberedskab og er parat til at bekÃ¦mpe enhver intervention, som 
+truer de bosniske serberes overlevelse. HÃ¦ren er parat til at svare 
+med vÃ¥ben pÃ¥ enhver aggression mod Jugoslavien, siger general Zivota 
 Panic. Hans udtalelser bringes i den serbiske avis Borba.
 
 
@@ -24,21 +24,21 @@ resume6
 MEDARB = CEG KILDE = div.
 
 
-UDSENDES KL = 1630 OPLÆSER = CEG
+UDSENDES KL = 1630 OPLÃ†SER = CEG
 
 
-De Konservatives udenrigspolitikske ordfører Niels Ahlmann-Ohlsen siger, 
-at Vesteuropa alt for længe har set passivt på de serbiske militsers 
-myrderier i Bosnien-Herzegovina. Han mener, at det er på tide at bede 
-USA om at standse krigen militært.
+De Konservatives udenrigspolitikske ordfÃ¸rer Niels Ahlmann-Ohlsen siger, 
+at Vesteuropa alt for lÃ¦nge har set passivt pÃ¥ de serbiske militsers 
+myrderier i Bosnien-Herzegovina. Han mener, at det er pÃ¥ tide at bede 
+USA om at standse krigen militÃ¦rt.
 
 
 BRUTTO = 00:14
 
 
-Mad og anden hjælp strømmer nu til den bosniske hovedstad Sarajevo. 
-I går blev der bragt 640 tons forsyninger til byen  -  i dag ventes 
-18 nødhjælpsfly til Sarajevos lufthavn.
+Mad og anden hjÃ¦lp strÃ¸mmer nu til den bosniske hovedstad Sarajevo. 
+I gÃ¥r blev der bragt 640 tons forsyninger til byen  -  i dag ventes 
+18 nÃ¸dhjÃ¦lpsfly til Sarajevos lufthavn.
 
 
 

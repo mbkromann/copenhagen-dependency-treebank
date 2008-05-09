@@ -135,7 +135,7 @@
 <W msd="." in="-1:pnct#" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="-5:conj" out="-4:namef">Jørgensen</W>
+<W msd="NNP" in="-5:conj" out="-4:namef">JÃ¸rgensen</W>
 <W msd="." in="-19:pnct" out="">.</W>
 </s>
 <s>

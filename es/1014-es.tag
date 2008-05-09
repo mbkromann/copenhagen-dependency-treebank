@@ -86,7 +86,7 @@
 <W msd="NC" lemma="anciano">ancianos</W>
 <W msd="CSUBI" lemma="para">para</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPX" lemma="Èl">ellos</W>
+<W msd="PPX" lemma="l">ellos</W>
 <W msd="ADJ" lemma="mismo">mismos</W>
 <W msd="VMfin" lemma="poder">puedan</W>
 <W msd="VLinf" lemma="contratar">contratar</W>
@@ -126,7 +126,7 @@
 <W msd="NC" lemma="anciano">ancianos</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">‚Äì</W>
 <W msd="CC" lemma="y">y</W>
-<W msd="PPX" lemma="Èl">ellos</W>
+<W msd="PPX" lemma="l">ellos</W>
 <W msd="VLfin" lemma="establecer">establecen</W>
 <W msd="ART" lemma="un">un</W>
 <W msd="NC" lemma="punto">punto</W>
@@ -166,7 +166,7 @@
 <W msd="VHfin" lemma="haber">hay</W>
 <W msd="NC" lemma="gente">gente</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPO" lemma="Èl">los</W>
+<W msd="PPO" lemma="l">los</W>
 <W msd="VLfin" lemma="cuidar">cuide</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CC" lemma="y">y</W>
@@ -205,5 +205,5 @@
 <W msd="PREP" lemma="por">por</W>
 <W msd="NC" lemma="&lt;unknown&gt;">d√≠a,‚Äù</W>
 <W msd="VLfin" lemma="decir">dice</W>
-<W msd="PPX" lemma="Èl">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="FS" lemma=".">.</W>

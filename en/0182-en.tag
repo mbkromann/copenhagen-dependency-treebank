@@ -20,7 +20,7 @@
 <W msd="JJ" in="-1:mod" out="">Norwegian</W>
 <W msd="NN" in="-2:nobj" out="">singer</W>
 <W msd="NNP" in="1:namef" out="">Sissel</W>
-<W msd="NNP" in="-4:appr" out="-1:namef">Kyrkjebø</W>
+<W msd="NNP" in="-4:appr" out="-1:namef">KyrkjebÃ¸</W>
 <W msd="MD" in="-12:rel" out="-5:subj|1:vobj">will</W>
 <W msd="VB" in="-1:vobj" out="-6:[subj]|-13:[dobj]|1:mod">give</W>
 <W msd="IN" in="-1:mod" out="1:nobj">in</W>
@@ -29,7 +29,7 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Sissel</W>
-<W msd="NNP" in="17:subj|20:[subj]|22:[subj]" out="-1:namef|1:pnct|2:ref|6:rel">Kyrkjebø</W>
+<W msd="NNP" in="17:subj|20:[subj]|22:[subj]" out="-1:namef|1:pnct|2:ref|6:rel">KyrkjebÃ¸</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="WP" in="-2:ref|4:subj" out="">who</W>
 <W msd="CD" in="2:tobj" out="1:nobj">two</W>
@@ -110,7 +110,7 @@
 <W msd="JJ" in="-1:pred" out="1:pobj">decisive</W>
 <W msd="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="NNP" in="1:namef" out="">Sissel</W>
-<W msd="NNP" in="-2:nobj" out="-1:namef">Kyrkjebø</W>
+<W msd="NNP" in="-2:nobj" out="-1:namef">KyrkjebÃ¸</W>
 <W msd="." in="-35:pnct" out="">.</W>
 </s>
 <s>
@@ -138,7 +138,7 @@
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="-2:conj" out="">Odense</W>
 <W msd="," in="-3:pnct" out="">,</W>
-<W msd="JJ" in="-4:conj" out="">Århus</W>
+<W msd="JJ" in="-4:conj" out="">Ã…rhus</W>
 <W msd="," in="-5:pnct" out="">,</W>
 <W msd="NNS" in="-6:conj" out="">Randers</W>
 <W msd="CC" in="-7:coord" out="1:conj">and</W>

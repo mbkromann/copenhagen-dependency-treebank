@@ -4,7 +4,7 @@
 <W msd="NN" in="-1:nobj" out="">leader</W>
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="NNP" in="1:namef" out="">Poul</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Harremoës</W>
+<W msd="NNP" in="1:subj" out="-1:namef">HarremoÃ«s</W>
 <W msd="VBZ" in="" out="-6:mod|-1:subj|1:pred|8:pnct">is</W>
 <W msd="JJ" in="-1:pred" out="1:nobj">able</W>
 <W msd="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -77,7 +77,7 @@
 <W msd="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="">Harremoës</W>
+<W msd="NNP" in="1:subj" out="">HarremoÃ«s</W>
 <W msd="VBD" in="" out="-1:subj|1:dobj|3:pobj|8:pnct">criticised</W>
 <W msd="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NN" in="-1:nobj" out="">bill</W>
@@ -102,7 +102,7 @@
 <W msd="NN" in="-2:possd" out="-1:mod">job</W>
 <W msd="," in="-4:pnct" out="">,</W>
 <W msd="NNP" in="1:namef" out="">Poul</W>
-<W msd="NNP" in="11:subj|12:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Harremoës</W>
+<W msd="NNP" in="11:subj|12:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">HarremoÃ«s</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="WP" in="-2:ref|1:subj" out="">who</W>
 <W msd="VBZ" in="-3:rel" out="-1:subj|1:mod|2:pred|7:pnct">is</W>
@@ -168,7 +168,7 @@
 <W msd="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="6:mod">Harremoës</W>
+<W msd="NNP" in="1:subj" out="6:mod">HarremoÃ«s</W>
 <W msd="VBZ" in="" out="-1:subj|1:pred|15:pnct">is</W>
 <W msd="DT" in="-1:pred" out="1:nobj|2:mod|3:pnct">the</W>
 <W msd="NN" in="-1:nobj" out="">yachtsman</W>
@@ -219,6 +219,6 @@
 <W msd="NN" in="1:mod" out="">summer</W>
 <W msd="NN" in="-2:nobj" out="-1:mod|1:mod">address</W>
 <W msd="IN" in="-1:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="">Møn</W>
+<W msd="NNP" in="-1:nobj" out="">MÃ¸n</W>
 <W msd="." in="-30:pnct" out="">.</W>
 </s>

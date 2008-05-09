@@ -153,7 +153,7 @@
 <s>
 <W msd="NNP" in="2:title" out="">Director</W>
 <W msd="NNP" in="1:namef" out="">Henrik</W>
-<W msd="NNP" in="10:subj" out="-2:title|-1:namef|1:pnct|2:mod">Klæbel</W>
+<W msd="NNP" in="10:subj" out="-2:title|-1:namef|1:pnct|2:mod">KlÃ¦bel</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="-2:mod" out="1:nobj|2:pnct">Hafnia</W>
 <W msd="NNP" in="-1:nobj" out="">Holding</W>

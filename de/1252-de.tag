@@ -1,188 +1,188 @@
-<W msd="ART" lemma="d">Die</W>
-<W msd="NN" lemma="Beziehung">Beziehung</W>
-<W msd="NE" lemma="D‰nemark">D‰nemarks</W>
-<W msd="APPR" lemma="zu">zu</W>
-<W msd="NE" lemma="China">China</W>
-<W msd="VVFIN" lemma="kochen">kocht</W>
-<W msd="APPR" lemma="seit">seit</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="ADJA" lemma="dramatisch">dramatischen</W>
-<W msd="NN" lemma="Niederschlagung">Niederschlagung</W>
-<W msd="ART" lemma="d">des</W>
-<W msd="ADJA" lemma="pro-demokratisch">pro-demokratischen</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Studentenaufruhrs</W>
-<W msd="CARD" lemma="1989">1989</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="ART" lemma="d">dem</W>
-<W msd="NN" lemma="Platz">Platz</W>
-<W msd="ART" lemma="d">des</W>
-<W msd="NN" lemma="Himmlische">Himmlischen</W>
-<W msd="NN" lemma="Friede|Frieden">Friedens</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="NN" lemma="Sparflamme">Sparflamme</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="China">China</W>
-<W msd="VVFIN" lemma="stehen">steht</W>
-<W msd="ADV" lemma="immer">immer</W>
-<W msd="ADV" lemma="noch">noch</W>
-<W msd="APPR" lemma="unter">unter</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="NN" lemma="Stubenarrest">Stubenarrest</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="NE" lemma="&lt;unknown&gt;">Danida</W>
-<W msd="VVFIN" lemma="halten">h‰lt</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Geldkasse</W>
-<W msd="APPR" lemma="f¸r">f¸r</W>
-<W msd="ADJA" lemma="d‰nisch">d‰nisches</W>
-<W msd="NN" lemma="Engagement">Engagement</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="China">China</W>
-<W msd="ADJD" lemma="hermetisch">hermetisch</W>
-<W msd="VVPP" lemma="schlieﬂen">geschlossen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="ART" lemma="d">Die</W>
-<W msd="NN" lemma="Chinese">Chinesen</W>
-<W msd="VAFIN" lemma="sein">sind</W>
-<W msd="ADJD" lemma="entt‰uscht">entt‰uscht</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Haltung">Haltung</W>
-<W msd="NE" lemma="D‰nemark">D‰nemarks</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ART" lemma="d">Die</W>
-<W msd="NN" lemma="D‰ne">D‰nen</W>
-<W msd="VAFIN" lemma="sein">waren</W>
-<W msd="APPR" lemma="unter">unter</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="ADJA" lemma="erst">ersten</W>
-<W msd="ADJA" lemma="ausl‰ndisch">ausl‰ndischen</W>
-<W msd="NN" lemma="Gesch‰ftsleute">Gesch‰ftsleuten</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="China">China</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KON" lemma="aber">aber</W>
-<W msd="ADV" lemma="jetzt">jetzt</W>
-<W msd="VAFIN" lemma="sein">sind</W>
-<W msd="PPER" lemma="wir">wir</W>
-<W msd="APPR" lemma="unter">unter</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="NN" lemma="Letzte">Letzten</W>
-<W msd="$," lemma=",">,</W>
-<W msd="PRELS" lemma="d">die</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Beziehung">Beziehungen</W>
-<W msd="ADV" lemma="wieder">wieder</W>
-<W msd="VVINF" lemma="aufnehmen">aufnehmen</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="sagen">sagt</W>
-<W msd="NE" lemma="Oliver">Oliver</W>
-<W msd="NE" lemma="Jensen">Jensen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NN" lemma="&lt;unknown&gt;">FLS</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="Peking">Peking</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="er">Er</W>
-<W msd="VVFIN" lemma="berichten">berichtet</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Entwicklung">Entwicklung</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="S¸dchina">S¸dchina</W>
-<W msd="ADV" lemma="so">so</W>
-<W msd="ADJD" lemma="schnell">schnell</W>
-<W msd="VVFIN" lemma="gehen">geht</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PIS" lemma="man">man</W>
-<W msd="APPR" lemma="auﬂer">auﬂer</W>
-<W msd="NN" lemma="Atem">Atem</W>
-<W msd="VVFIN" lemma="kommen">kommt</W>
-<W msd="$." lemma=".">.</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="PPER" lemma="wir">Wir</W>
-<W msd="VVFIN" lemma="setzen">setzen</W>
-<W msd="ADJA" lemma="groﬂ">groﬂe</W>
-<W msd="NN" lemma="Erwartung">Erwartungen</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Reform">Reformen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="obwohl">obwohl</W>
-<W msd="PPER" lemma="wir">wir</W>
-<W msd="PAV" lemma="darauf">darauf</W>
-<W msd="VVPP" lemma="vorbereiten">vorbereitet</W>
-<W msd="VAFIN" lemma="sein">sind</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="ADJD" lemma="ruckweise">ruckweise</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="VVPP" lemma="verlaufen">verlaufen</W>
-<W msd="VAFIN" lemma="werden">werden</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KON" lemma="aber">Aber</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="VAFIN" lemma="sein">ist</W>
-<W msd="ADJD" lemma="&lt;unknown&gt;">intersessant</W>
-<W msd="PTKZU" lemma="zu">zu</W>
-<W msd="VVINF" lemma="sehen">sehen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="wie">wie</W>
-<W msd="ADJD" lemma="weit">weit</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="PAV" lemma="dabei">dabei</W>
-<W msd="PTKZU" lemma="zu">zu</W>
-<W msd="VVINF" lemma="gehen">gehen</W>
-<W msd="VVFIN" lemma="trauen">trauen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Marktkraft">Marktkr‰fte</W>
-<W msd="VVIZU" lemma="freisetzen">freizusetzen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">FLS</W>
-<W msd="VVFIN" lemma="engagieren">engagiert</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="APPR" lemma="seit">seit</W>
-<W msd="CARD" lemma="@card@">1906</W>
-<W msd="ADJD" lemma="aktiv">aktiv</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="China">China</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="VAFIN" lemma="haben">hat</W>
-<W msd="APPRART" lemma="im">im</W>
-<W msd="ADJA" lemma="ganz">ganzen</W>
-<W msd="NN" lemma="Land">Land</W>
-<W msd="CARD" lemma="@card@">20-30</W>
-<W msd="NN" lemma="Zementfabrik">Zementfabriken</W>
-<W msd="VVPP" lemma="errichten">errichtet</W>
-<W msd="$." lemma=".">.</W>
-<W msd="APPRART" lemma="im">Im</W>
-<W msd="NN" lemma="Augenblick">Augenblick</W>
-<W msd="VVFIN" lemma="bauen">baut</W>
-<W msd="PIS" lemma="man">man</W>
-<W msd="PTKVZ" lemma="gerade">gerade</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Anlage">Anlage</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="Shanghai">Shanghai</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVPP" lemma="finanzieren">finanziert</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ADJA" lemma="spanisch">spanischen</W>
-<W msd="NN" lemma="Kredit">Krediten</W>
-<W msd="APPR" lemma="¸ber">¸ber</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Schwesterfirma">Schwesterfirma</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="NN" lemma="&lt;unknown&gt;">FLS</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="Spanien">Spanien</W>
-<W msd="$." lemma=".">.</W>
+<W lemma="d" msd="ART" in="5:subj" out="1:nobj|2:mod">Die</W>
+<W lemma="Beziehung" msd="NN" in="-1:nobj" out="2:pobj">Beziehung</W>
+<W lemma="D√§nemark" msd="NE" in="-2:mod" out="">D√§nemarks</W>
+<W lemma="zu" msd="APPR" in="-2:pobj" out="1:nobj">zu</W>
+<W lemma="China" msd="NE" in="-1:nobj" out="">China</W>
+<W lemma="kochen" msd="VVFIN" in="" out="1:mod|15:mod|17:pnct|-5:subj">kocht</W>
+<W lemma="seit" msd="APPR" in="-1:mod" out="1:nobj">seit</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:mod|2:nobj|6:mod|7:mod">der</W>
+<W lemma="dramatisch" msd="ADJA" in="-1:mod" out="">dramatischen</W>
+<W lemma="Niederschlagung" msd="NN" in="-2:nobj" out="1:nobj">Niederschlagung</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:mod|2:nobj">des</W>
+<W lemma="pro-demokratisch" msd="ADJA" in="-1:mod" out="">pro-demokratischen</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-2:nobj" out="">Studentenaufruhrs</W>
+<W lemma="1989" msd="CARD" in="-6:mod" out="">1989</W>
+<W lemma="auf" msd="APPR" in="-7:mod" out="1:nobj">auf</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">dem</W>
+<W lemma="Platz" msd="NN" in="-1:nobj" out="1:possr">Platz</W>
+<W lemma="d" msd="ART" in="-1:possr" out="1:mod|2:nobj">des</W>
+<W lemma="Himmlische" msd="NN" in="-1:mod" out="">Himmlischen</W>
+<W lemma="Friede|Frieden" msd="NN" in="-2:nobj" out="">Friedens</W>
+<W lemma="auf" msd="APPR" in="-15:mod" out="1:nobj">auf</W>
+<W lemma="Sparflamme" msd="NN" in="-1:nobj" out="">Sparflamme</W>
+<W lemma="." msd="$." in="-17:pnct" out="">.</W>
+<W lemma="China" msd="NE" in="1:subj" out="">China</W>
+<W lemma="stehen" msd="VVFIN" in="" out="-1:subj|7:coord|19:pnct|2:mod|3:lobj">steht</W>
+<W lemma="immer" msd="ADV" in="1:mod" out="">immer</W>
+<W lemma="noch" msd="ADV" in="-2:mod" out="-1:mod">noch</W>
+<W lemma="unter" msd="APPR" in="-3:lobj" out="2:nobj">unter</W>
+<W lemma="&quot;" msd="$(" in="1:pnct" out="">"</W>
+<W lemma="Stubenarrest" msd="NN" in="-2:nobj" out="-1:pnct|1:pnct">Stubenarrest</W>
+<W lemma="&quot;" msd="$(" in="-1:pnct" out="">"</W>
+<W lemma="und" msd="KON" in="-7:coord" out="2:conj">und</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="1:subj|10:[subj]" out="">Danida</W>
+<W lemma="halten" msd="VVFIN" in="-2:conj" out="-1:subj|9:vobj|1:dobj">h√§lt</W>
+<W lemma="d" msd="ART" in="-1:dobj" out="1:nobj">die</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:nobj" out="1:mod">Geldkasse</W>
+<W lemma="f√ºr" msd="APPR" in="-1:mod" out="2:nobj">f√ºr</W>
+<W lemma="d√§nisch" msd="ADJA" in="1:mod" out="">d√§nisches</W>
+<W lemma="Engagement" msd="NN" in="-2:nobj" out="-1:mod|1:pobj">Engagement</W>
+<W lemma="in" msd="APPR" in="-1:pobj" out="1:nobj">in</W>
+<W lemma="China" msd="NE" in="-1:nobj" out="">China</W>
+<W lemma="hermetisch" msd="ADJD" in="1:mod" out="">hermetisch</W>
+<W lemma="schlie√üen" msd="VVPP" in="-9:vobj" out="-10:[subj]|-1:mod">geschlossen</W>
+<W lemma="." msd="$." in="-19:pnct" out="">.</W>
+<W lemma="&quot;" msd="$(" in="3:pnct" out="">"</W>
+<W lemma="d" msd="ART" in="2:subj" out="1:nobj">Die</W>
+<W lemma="Chinese" msd="NN" in="-1:nobj" out="">Chinesen</W>
+<W lemma="sein" msd="VAFIN" in="" out="-3:pnct|1:pred|6:pnct|-2:subj">sind</W>
+<W lemma="entt√§uscht" msd="ADJD" in="-1:pred" out="1:pobj">entt√§uscht</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj|2:possr">der</W>
+<W lemma="Haltung" msd="NN" in="-1:nobj" out="">Haltung</W>
+<W lemma="D√§nemark" msd="NE" in="-2:possr" out="">D√§nemarks</W>
+<W lemma="." msd="$." in="-6:pnct" out="">.</W>
+<W lemma="d" msd="ART" in="2:subj" out="1:nobj">Die</W>
+<W lemma="D√§ne" msd="NN" in="-1:nobj" out="">D√§nen</W>
+<W lemma="sein" msd="VAFIN" in="24:qobj" out="1:pred|8:pnct|9:coord|22:pnct|-2:subj">waren</W>
+<W lemma="unter" msd="APPR" in="-1:pred" out="1:nobj">unter</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:mod|2:mod|3:nobj|4:mod">den</W>
+<W lemma="erst" msd="ADJA" in="-1:mod" out="">ersten</W>
+<W lemma="ausl√§ndisch" msd="ADJA" in="-2:mod" out="">ausl√§ndischen</W>
+<W lemma="Gesch√§ftsleute" msd="NN" in="-3:nobj" out="">Gesch√§ftsleuten</W>
+<W lemma="in" msd="APPR" in="-4:mod" out="1:nobj">in</W>
+<W lemma="China" msd="NE" in="-1:nobj" out="">China</W>
+<W lemma="," msd="$," in="-8:pnct" out="">,</W>
+<W lemma="aber" msd="KON" in="-9:coord" out="2:conj">aber</W>
+<W lemma="jetzt" msd="ADV" in="1:mod" out="">jetzt</W>
+<W lemma="sein" msd="VAFIN" in="-2:conj" out="-1:mod|1:subj|2:pred">sind</W>
+<W lemma="wir" msd="PPER" in="-1:subj" out="">wir</W>
+<W lemma="unter" msd="APPR" in="-2:pred" out="1:nobj">unter</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:mod|2:pnct|3:ref|7:rel">den</W>
+<W lemma="Letzte" msd="NN" in="-1:mod" out="">Letzten</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="d" msd="PRELS" in="-3:ref|4:subj" out="">die</W>
+<W lemma="d" msd="ART" in="3:dobj" out="1:nobj">die</W>
+<W lemma="Beziehung" msd="NN" in="-1:nobj" out="">Beziehungen</W>
+<W lemma="wieder" msd="ADV" in="1:mod" out="">wieder</W>
+<W lemma="aufnehmen" msd="VVINF" in="-7:rel" out="-4:subj|-1:mod|2:pnct|-3:dobj">aufnehmen</W>
+<W lemma="&quot;" msd="$(" in="-22:pnct" out="">"</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="sagen" msd="VVFIN" in="" out="-24:qobj|2:subj|7:pnct">sagt</W>
+<W lemma="Oliver" msd="NE" in="1:namef" out="">Oliver</W>
+<W lemma="Jensen" msd="NE" in="-2:subj" out="-1:namef|1:pnct|2:mod">Jensen</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-2:mod" out="1:mod">FLS</W>
+<W lemma="in" msd="APPR" in="-1:mod" out="1:nobj">in</W>
+<W lemma="Peking" msd="NE" in="-1:nobj" out="">Peking</W>
+<W lemma="." msd="$." in="-7:pnct" out="">.</W>
+<W lemma="er" msd="PPER" in="1:subj" out="">Er</W>
+<W lemma="berichten" msd="VVFIN" in="" out="-1:subj|1:pnct|2:dobj|16:pnct">berichtet</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-2:dobj" out="7:vobj">dass</W>
+<W lemma="d" msd="ART" in="6:subj" out="1:nobj">die</W>
+<W lemma="Entwicklung" msd="NN" in="-1:nobj" out="1:mod">Entwicklung</W>
+<W lemma="in" msd="APPR" in="-1:mod" out="1:nobj">in</W>
+<W lemma="S√ºdchina" msd="NE" in="-1:nobj" out="">S√ºdchina</W>
+<W lemma="so" msd="ADV" in="1:mod" out="4:nobj">so</W>
+<W lemma="schnell" msd="ADJD" in="1:mod" out="-1:mod">schnell</W>
+<W lemma="gehen" msd="VVFIN" in="-7:vobj" out="-1:mod|-6:subj|1:pnct">geht</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-4:nobj" out="4:vobj">dass</W>
+<W lemma="man" msd="PIS" in="3:subj" out="">man</W>
+<W lemma="au√üer" msd="APPR" in="2:lobj" out="1:nobj">au√üer</W>
+<W lemma="Atem" msd="NN" in="-1:nobj" out="">Atem</W>
+<W lemma="kommen" msd="VVFIN" in="-4:vobj" out="-3:subj|-2:lobj">kommt</W>
+<W lemma="." msd="$." in="-16:pnct" out="">.</W>
+<W lemma="&quot;" msd="$(" in="2:pnct" out="">"</W>
+<W lemma="wir" msd="PPER" in="1:subj" out="">Wir</W>
+<W lemma="setzen" msd="VVFIN" in="" out="-2:pnct|-1:subj|2:dobj|6:pnct|7:mod|20:pnct|3:lobj">setzen</W>
+<W lemma="gro√ü" msd="ADJA" in="1:mod" out="">gro√üe</W>
+<W lemma="Erwartung" msd="NN" in="-2:dobj" out="-1:mod">Erwartungen</W>
+<W lemma="in" msd="APPR" in="-3:lobj" out="1:nobj">in</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">die</W>
+<W lemma="Reform" msd="NN" in="-1:nobj" out="">Reformen</W>
+<W lemma="," msd="$," in="-6:pnct" out="">,</W>
+<W lemma="obwohl" msd="KOUS" in="-7:mod" out="4:vobj">obwohl</W>
+<W lemma="wir" msd="PPER" in="3:subj|2:[subj]" out="">wir</W>
+<W lemma="darauf" msd="PAV" in="1:pobj" out="3:pnct|4:nobj">darauf</W>
+<W lemma="vorbereiten" msd="VVPP" in="1:pred" out="-2:[subj]|-1:pobj">vorbereitet</W>
+<W lemma="sein" msd="VAFIN" in="-4:vobj" out="-3:subj|-1:pred">sind</W>
+<W lemma="," msd="$," in="-3:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-4:nobj" out="6:vobj">dass</W>
+<W lemma="sie" msd="PPER" in="5:subj|4:[subj]" out="">sie</W>
+<W lemma="&quot;" msd="$(" in="1:pnct" out="">"</W>
+<W lemma="ruckweise" msd="ADJD" in="2:mod" out="-1:pnct|1:pnct">ruckweise</W>
+<W lemma="&quot;" msd="$(" in="-1:pnct" out="">"</W>
+<W lemma="verlaufen" msd="VVPP" in="1:vobj" out="-2:mod|-4:[subj]">verlaufen</W>
+<W lemma="werden" msd="VAFIN" in="-6:vobj" out="-5:subj|-1:vobj">werden</W>
+<W lemma="." msd="$." in="-20:pnct" out="">.</W>
+<W lemma="aber" msd="KON" in="" out="2:conj|19:pnct">Aber</W>
+<W lemma="es" msd="PPER" in="1:subj" out="3:nobj">es</W>
+<W lemma="sein" msd="VAFIN" in="-2:conj" out="-1:subj|1:pred">ist</W>
+<W lemma="&lt;unknown&gt;" msd="ADJD" in="-1:pred" out="">intersessant</W>
+<W lemma="zu" msd="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
+<W lemma="sehen" msd="VVINF" in="-1:vobj" out="1:pnct|3:dobj">sehen</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="wie" msd="KOUS" in="1:mod" out="">wie</W>
+<W lemma="weit" msd="ADJD" in="-3:dobj|5:[lobj]" out="-1:mod|6:rel">weit</W>
+<W lemma="sie" msd="PPER" in="4:[subj]|5:subj|9:[subj]" out="">sie</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="4:dobj2" out="">sich</W>
+<W lemma="dabei" msd="PAV" in="2:mod" out="7:nobj">dabei</W>
+<W lemma="zu" msd="PTKZU" in="2:dobj" out="1:vobj">zu</W>
+<W lemma="gehen" msd="VVINF" in="-1:vobj" out="-4:[subj]|-2:mod|-5:[lobj]">gehen</W>
+<W lemma="trauen" msd="VVFIN" in="-6:rel" out="1:pnct|-5:subj|-4:dobj2|-2:dobj">trauen</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="d" msd="ART" in="2:dobj" out="1:nobj">die</W>
+<W lemma="Marktkraft" msd="NN" in="-1:nobj" out="">Marktkr√§fte</W>
+<W lemma="freisetzen" msd="VVIZU" in="-7:nobj" out="-2:dobj|-9:[subj]">freizusetzen</W>
+<W lemma="." msd="$." in="-19:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="1:subj|9:[subj]|15:[subj]" out="">FLS</W>
+<W lemma="engagieren" msd="VVFIN" in="" out="-1:subj|1:dobj|2:mod|4:mod|5:mod|7:coord|15:pnct">engagiert</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="-1:dobj" out="">sich</W>
+<W lemma="seit" msd="APPR" in="-2:mod" out="1:nobj">seit</W>
+<W lemma="@card@" msd="CARD" in="-1:nobj" out="">1906</W>
+<W lemma="aktiv" msd="ADJD" in="-4:mod" out="">aktiv</W>
+<W lemma="in" msd="APPR" in="-5:mod" out="1:nobj">in</W>
+<W lemma="China" msd="NE" in="-1:nobj" out="">China</W>
+<W lemma="und" msd="KON" in="-7:coord" out="1:conj">und</W>
+<W lemma="haben" msd="VAFIN" in="-1:conj" out="-9:[subj]|6:vobj">hat</W>
+<W lemma="im" msd="APPRART" in="5:mod" out="1:mod|2:nobj">im</W>
+<W lemma="ganz" msd="ADJA" in="-1:mod" out="">ganzen</W>
+<W lemma="Land" msd="NN" in="-2:nobj" out="">Land</W>
+<W lemma="@card@" msd="CARD" in="2:dobj" out="1:nobj">20-30</W>
+<W lemma="Zementfabrik" msd="NN" in="-1:nobj" out="">Zementfabriken</W>
+<W lemma="errichten" msd="VVPP" in="-6:vobj" out="-15:[subj]|-2:dobj|-5:mod">errichtet</W>
+<W lemma="." msd="$." in="-15:pnct" out="">.</W>
+<W lemma="im" msd="APPRART" in="2:mod" out="1:nobj">Im</W>
+<W lemma="Augenblick" msd="NN" in="-1:nobj" out="">Augenblick</W>
+<W lemma="bauen" msd="VVFIN" in="" out="-2:mod|1:subj|3:dobj|5:mod|7:pnct|8:mod|2:mod|19:pnct">baut</W>
+<W lemma="man" msd="PIS" in="-1:subj" out="">man</W>
+<W lemma="gerade" msd="PTKVZ" in="-2:mod" out="">gerade</W>
+<W lemma="ein" msd="ART" in="-3:dobj" out="1:nobj">eine</W>
+<W lemma="Anlage" msd="NN" in="-1:nobj" out="">Anlage</W>
+<W lemma="in" msd="APPR" in="-5:mod" out="1:nobj">in</W>
+<W lemma="Shanghai" msd="NE" in="-1:nobj" out="">Shanghai</W>
+<W lemma="," msd="$," in="-7:pnct" out="">,</W>
+<W lemma="finanzieren" msd="VVPP" in="-8:mod" out="1:pobj|4:mod">finanziert</W>
+<W lemma="mit" msd="APPR" in="-1:pobj" out="2:nobj">mit</W>
+<W lemma="spanisch" msd="ADJA" in="1:mod" out="">spanischen</W>
+<W lemma="Kredit" msd="NN" in="-2:nobj" out="-1:mod">Krediten</W>
+<W lemma="√ºber" msd="APPR" in="-4:mod" out="1:nobj">√ºber</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj|4:mod">die</W>
+<W lemma="Schwesterfirma" msd="NN" in="-1:nobj" out="1:pobj">Schwesterfirma</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:nobj" out="">FLS</W>
+<W lemma="in" msd="APPR" in="-4:mod" out="1:nobj">in</W>
+<W lemma="Spanien" msd="NE" in="-1:nobj" out="">Spanien</W>
+<W lemma="." msd="$." in="-19:pnct" out="">.</W>

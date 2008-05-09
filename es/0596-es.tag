@@ -50,7 +50,7 @@
 <W msd="VLfin" lemma="adaptar">adapte</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">los</W>
 <W msd="NC" lemma="tiempo">tiempos</W>
@@ -75,7 +75,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="PREP" lemma="bajo">bajo</W>
 <W msd="ADJ" lemma="real">reales</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="guerra">guerra</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">‚Äì</W>
@@ -137,7 +137,7 @@
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="&lt;unknown&gt;">producci√≥n</W>
 <W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="situaciÛn">situaciones</W>
+<W msd="NC" lemma="situacin">situaciones</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">cr√≠ticas</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="VMfin" lemma="poder">pueda</W>
@@ -247,7 +247,7 @@
 <W msd="NC" lemma="&lt;unknown&gt;">f√°rmacos</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="PREP" lemma="por">por</W>
-<W msd="NC" lemma="cuestiÛn">cuestiones</W>
+<W msd="NC" lemma="cuestin">cuestiones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="tiempo">tiempo</W>
 <W msd="VLfin" lemma="ir">va</W>
@@ -255,6 +255,6 @@
 <W msd="VLadj" lemma="&lt;unknown&gt;">all√°</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="VLadj" lemma="mencionar">mencionadas</W>
 <W msd="FS" lemma=".">.</W>

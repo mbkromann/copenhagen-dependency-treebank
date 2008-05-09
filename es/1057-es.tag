@@ -17,7 +17,7 @@
 <W msd="ADV" lemma="como">como</W>
 <W msd="ALFS" lemma="p">p.</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">ej.</W>
-<W msd="PPO" lemma="él">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="hacer">hace</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Beinov</W>
 <W msd="RP" lemma=")">)</W>
@@ -46,7 +46,7 @@
 <W msd="NC" lemma="parte">parte</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="danés">daneses</W>
+<W msd="NC" lemma="dans">daneses</W>
 <W msd="VMfin" lemma="poder">puedan</W>
 <W msd="VEinf" lemma="estar">estar</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">mÃ¡s</W>
@@ -94,7 +94,7 @@
 <W msd="NC" lemma="&lt;unknown&gt;">aÃ±os</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ART" lemma="el">Los</W>
-<W msd="NC" lemma="danés">daneses</W>
+<W msd="NC" lemma="dans">daneses</W>
 <W msd="VSfin" lemma="ser">son</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CSUBX" lemma="como">como</W>

@@ -36,7 +36,7 @@
 <W msd="VBD" in="" out="-1:subj|-4:mod|1:mod|2:vobj|4:pnct">had</W>
 <W msd="RB" in="-1:mod" out="">not</W>
 <W msd="VBN" in="-2:vobj" out="-3:[subj]|1:pred">been</W>
-<W msd="NNP" in="-1:pred" out="">Søren</W>
+<W msd="NNP" in="-1:pred" out="">SÃ¸ren</W>
 <W msd="." in="-4:pnct" out="">.</W>
 </s>
 <s>

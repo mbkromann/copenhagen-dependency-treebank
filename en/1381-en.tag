@@ -93,7 +93,7 @@
 <W msd="NNS" in="-1:nobj" out="">Exports</W>
 <W msd="RB" in="-8:mod" out="1:mod">here</W>
 <W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">Århus</W>
+<W msd="NN" in="-1:nobj" out="">Ã…rhus</W>
 <W msd="." in="-26:pnct" out="">.</W>
 </s>
 <s>

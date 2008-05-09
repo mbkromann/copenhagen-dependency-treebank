@@ -1,7 +1,7 @@
 <W msd="VSfin" lemma="ser">Son</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="NC" lemma="sucursal">sucursales</W>
-<W msd="ADJ" lemma="danÈs">danesas</W>
+<W msd="ADJ" lemma="dans">danesas</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="ADJ" lemma="grande">grandes</W>
@@ -140,7 +140,7 @@
 <W msd="VLadj" lemma="descubrir">descubierto</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="PPO" lemma="suyo">sus</W>
-<W msd="NC" lemma="declaraciÛn">declaraciones</W>
+<W msd="NC" lemma="declaracin">declaraciones</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">quiz√°</W>
 <W msd="NEG" lemma="no">no</W>
 <W msd="VSfin" lemma="ser">son</W>
@@ -164,7 +164,7 @@
 <W msd="CCAD" lemma="pero">Pero</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">tambi√©n</W>
 <W msd="VSfin" lemma="ser">es</W>
-<W msd="PPO" lemma="mÌo">mi</W>
+<W msd="PPO" lemma="mo">mi</W>
 <W msd="NC" lemma="&lt;unknown&gt;">opini√≥n</W>
 <W msd="ADV" lemma="totalmente">totalmente</W>
 <W msd="ADJ" lemma="personal">personal</W>

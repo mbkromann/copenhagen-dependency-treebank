@@ -2,7 +2,7 @@
 <W msd="ADJ" lemma="percorso">percorsi</W>
 <W msd="PON" lemma=":">:</W>
 <W msd="PRO:demo" lemma="c'">c'</W>
-<W msd="VER:pres" lemma="essere">è</W>
+<W msd="VER:pres" lemma="essere">Ã¨</W>
 <W msd="NOM" lemma="fervore">fervore</W>
 <W msd="PRE:det" lemma="nel">nel</W>
 <W msd="NOM" lemma="settore">settore</W>
@@ -18,7 +18,7 @@
 <W msd="ADV" lemma="po'">po'</W>
 <W msd="PRE" lemma="in">in</W>
 <W msd="NOM" lemma="ritardo">ritardo</W>
-<W msd="VER:pres" lemma="essere">è</W>
+<W msd="VER:pres" lemma="essere">Ã¨</W>
 <W msd="ADV" lemma="ora">ora</W>
 <W msd="PRE" lemma="a">a</W>
 <W msd="NOM" lemma="disposizione">disposizione</W>
@@ -126,7 +126,7 @@
 <W msd="PON" lemma=",">,</W>
 <W msd="PRE" lemma="con">con</W>
 <W msd="DET:indef" lemma="una">una</W>
-<W msd="NOM" lemma="modalità">modalità</W>
+<W msd="NOM" lemma="modalitÃ ">modalitÃ </W>
 <W msd="ADV" lemma="decisamente">decisamente</W>
 <W msd="ADJ" lemma="pedagogico">pedagogica</W>
 <W msd="PON" lemma=",">,</W>
@@ -136,7 +136,7 @@
 <W msd="VER:pres" lemma="mostrare">mostra</W>
 <W msd="DET:def" lemma="il">la</W>
 <W msd="NOM" lemma="via">via</W>
-<W msd="ADV" lemma="più">più</W>
+<W msd="ADV" lemma="piÃ¹">piÃ¹</W>
 <W msd="ADJ" lemma="vicino">vicina</W>
 <W msd="PRE" lemma="per">per</W>
 <W msd="VER:infi" lemma="raggiungere">raggiungere</W>

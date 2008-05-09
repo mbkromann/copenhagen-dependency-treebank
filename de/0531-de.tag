@@ -1,187 +1,187 @@
-<W msd="ART" lemma="d">Die</W>
-<W msd="PIDAT" lemma="beide">beiden</W>
-<W msd="ADJA" lemma="verurteilt">verurteilten</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Topchefs</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="ADJA" lemma="6.">6.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Juli-Bank</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Vorstandsvorsitzende">Vorstandsvorsitzende</W>
-<W msd="NE" lemma="Niels">Niels</W>
-<W msd="NE" lemma="Johan">Johan</W>
-<W msd="ADJD" lemma="leer">Leer</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Direktor">Direktor</W>
-<W msd="NE" lemma="John">John</W>
-<W msd="NE" lemma="&lt;unknown&gt;">Olsdorf</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="legen">legten</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="NN" lemma="Antrag">Antrag</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="NN" lemma="Freispruch">Freispruch</W>
-<W msd="ADJD" lemma="umgehend">umgehend</W>
-<W msd="NN" lemma="Einspruch">Einspruch</W>
-<W msd="APPR" lemma="gegen">gegen</W>
-<W msd="ART" lemma="d">das</W>
-<W msd="NN" lemma="Urteil">Urteil</W>
-<W msd="APPRART" lemma="vom">vom</W>
-<W msd="NN" lemma="Amtsgericht">Amtsgericht</W>
-<W msd="NE" lemma="Kopenhagen">Kopenhagen</W>
-<W msd="NE" lemma="&lt;unknown&gt;">ein.</W>
-<W msd="ADV" lemma="auch">Auch</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Anklagevertretung">Anklagevertretung</W>
-<W msd="VAFIN" lemma="haben">hat</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Berufungsmöglichkeit">Berufungsmöglichkeit</W>
-<W msd="VVPP" lemma="vorbehalten">vorbehalten</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ART" lemma="d">Der</W>
-<W msd="NN" lemma="Vorstandsvorsitzende">Vorstandsvorsitzende</W>
-<W msd="VVFIN" lemma="bekommen">bekam</W>
-<W msd="CARD" lemma="1">1</W>
-<W msd="XY" lemma="½">½</W>
-<W msd="NN" lemma="Jahr">Jahre</W>
-<W msd="NN" lemma="Gefängnis">Gefängnis</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Geldstrafe">Geldstrafe</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NN" lemma="Höhe">Höhe</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="CARD" lemma="1">1</W>
-<W msd="NN" lemma="Million">Million</W>
-<W msd="NN" lemma="Krone">Kronen</W>
-<W msd="APPR" lemma="wegen">wegen</W>
-<W msd="NN" lemma="Veruntreuung">Veruntreuung</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NN" lemma="Steuerhinterziehung">Steuerhinterziehung</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="ADJA" lemma="besonder">besonderer</W>
-<W msd="NN" lemma="Schwere">Schwere</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="NN" lemma="Verstoß">Verstoß</W>
-<W msd="APPR" lemma="gegen">gegen</W>
-<W msd="ART" lemma="d">das</W>
-<W msd="NN" lemma="Aktiengesetz">Aktiengesetz</W>
-<W msd="KON" lemma="sowie">sowie</W>
-<W msd="ART" lemma="d">das</W>
-<W msd="TRUNC" lemma="Bank-">Bank-</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="NN" lemma="Sparkassengesetz">Sparkassengesetz</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ART" lemma="d">Der</W>
-<W msd="NN" lemma="Direktor">Direktor</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Bank">Bank</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NE" lemma="John">John</W>
-<W msd="NE" lemma="&lt;unknown&gt;">Olsdorf</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="bekommen">bekam</W>
-<W msd="CARD" lemma="6">6</W>
-<W msd="NN" lemma="Monat">Monate</W>
-<W msd="NN" lemma="Gefängnis">Gefängnis</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Geldstrafe">Geldstrafe</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="CARD" lemma="@card@">90.000</W>
-<W msd="NN" lemma="Krone">Kronen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PIS" lemma="beide">Beide</W>
-<W msd="VAFIN" lemma="sein">sind</W>
-<W msd="VVPP" lemma="anklagen">angeklagt</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Bank">Bank</W>
-<W msd="APPR" lemma="durch">durch</W>
-<W msd="ADJA" lemma="unverantwortlich">unverantwortliche</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="ADJA" lemma="gesetzeswidrig">gesetzeswidrige</W>
-<W msd="NN" lemma="Kreditvergabe">Kreditvergabe</W>
-<W msd="ART" lemma="ein">einen</W>
-<W msd="NN" lemma="Verlust">Verlust</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="ADJD" lemma="ungefähr">ungefähr</W>
-<W msd="CARD" lemma="60">60</W>
-<W msd="NN" lemma="Million">Millionen</W>
-<W msd="NN" lemma="Krone">Kronen</W>
-<W msd="VVPP" lemma="zufügen">zugefügt</W>
-<W msd="PTKZU" lemma="zu">zu</W>
-<W msd="VAINF" lemma="haben">haben</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ADV" lemma="außerdem">Außerdem</W>
-<W msd="VAFIN" lemma="haben">haben</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="CARD" lemma="3,5">3,5</W>
-<W msd="NN" lemma="Million">Millionen</W>
-<W msd="NN" lemma="Krone">Kronen</W>
-<W msd="NN" lemma="Steuer|Steuern">Steuern</W>
-<W msd="VVINF" lemma="hinterziehen">hinterzogen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="CARD" lemma="zwei">Zwei</W>
-<W msd="ADJA" lemma="einfach">einfache</W>
-<W msd="NN" lemma="Vorstandsmitglied">Vorstandsmitglieder</W>
-<W msd="VAFIN" lemma="werden">wurden</W>
-<W msd="VVPP" lemma="freisprechen">freigesprochen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="Richter">Richter</W>
-<W msd="NE" lemma="Nil|Nils">Nils</W>
-<W msd="NE" lemma="Erik">Erik</W>
-<W msd="NE" lemma="Jensen">Jensen</W>
-<W msd="VVFIN" lemma="machen">machte</W>
-<W msd="ADV" lemma="aber">aber</W>
-<W msd="PIAT" lemma="kein">kein</W>
-<W msd="NN" lemma="Hehl">Hehl</W>
-<W msd="PAV" lemma="daraus">daraus</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ADJA" lemma="gut">gutem</W>
-<W msd="NN" lemma="Gewisse|Gewissen">Gewissen</W>
-<W msd="APPR" lemma="nach">nach</W>
-<W msd="NN" lemma="Haus">Hause</W>
-<W msd="VVINF" lemma="gehen">gehen</W>
-<W msd="VMFIN" lemma="können">könnten</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ART" lemma="d">Der</W>
-<W msd="NN" lemma="Freispruch">Freispruch</W>
-<W msd="VAFIN" lemma="sein">sei</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="ADJA" lemma="&lt;unknown&gt;">keinster</W>
-<W msd="NN" lemma="Weise">Weise</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Bescheinigung">Bescheinigung</W>
-<W msd="PAV" lemma="dafür">dafür</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="PPOSAT" lemma="ihr">ihre</W>
-<W msd="NN" lemma="Vorstandsarbeit">Vorstandsarbeit</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="ADJA" lemma="vorbildlich">vorbildliche</W>
-<W msd="NN" lemma="Weise">Weise</W>
-<W msd="VVPP" lemma="verrichten">verrichtet</W>
-<W msd="VAFIN" lemma="haben">hätten</W>
-<W msd="$(" lemma="-">-</W>
-<W msd="ADJD" lemma="ganz">ganz</W>
-<W msd="APPRART" lemma="im">im</W>
-<W msd="NN" lemma="Gegenteil">Gegenteil</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="schieben">schob</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Richter">Richter</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="PPOSAT" lemma="sein">seine</W>
-<W msd="NN" lemma="Erläuterung">Erläuterungen</W>
-<W msd="APPRART" lemma="zum">zum</W>
-<W msd="NN" lemma="Urteil">Urteil</W>
-<W msd="NE" lemma="&lt;unknown&gt;">ein.</W>
+<W lemma="d" msd="ART" in="20:subj" out="1:nobj|8:pnct|9:appa">Die</W>
+<W lemma="beide" msd="PIDAT" in="-1:nobj" out="1:mod|2:nobj">beiden</W>
+<W lemma="verurteilt" msd="ADJA" in="-1:mod" out="">verurteilten</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-2:nobj" out="1:pobj">Topchefs</W>
+<W lemma="in" msd="APPR" in="-1:pobj" out="1:nobj">in</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:mod|2:nobj">der</W>
+<W lemma="6." msd="ADJA" in="-1:mod" out="">6.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-2:nobj" out="">Juli-Bank</W>
+<W lemma="," msd="$," in="-8:pnct" out="">,</W>
+<W lemma="d" msd="ART" in="-9:appa" out="1:nobj|4:appr|5:coord|10:pnct">der</W>
+<W lemma="Vorstandsvorsitzende" msd="NN" in="-1:nobj" out="">Vorstandsvorsitzende</W>
+<W lemma="Niels" msd="NE" in="2:namef" out="1:namef">Niels</W>
+<W lemma="Johan" msd="NE" in="-1:namef" out="">Johan</W>
+<W lemma="leer" msd="ADJD" in="-4:appr" out="-2:namef">Leer</W>
+<W lemma="und" msd="KON" in="-5:coord" out="1:conj">und</W>
+<W lemma="d" msd="ART" in="-1:conj" out="1:nobj|3:appr">der</W>
+<W lemma="Direktor" msd="NN" in="-1:nobj" out="">Direktor</W>
+<W lemma="John" msd="NE" in="1:namef" out="">John</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-3:appr" out="-1:namef">Olsdorf</W>
+<W lemma="," msd="$," in="-10:pnct" out="">,</W>
+<W lemma="legen" msd="VVFIN" in="" out="5:mod|1:mod|-20:subj|6:dobj|7:lobj|13:part">legten</W>
+<W lemma="mit" msd="APPR" in="-1:mod" out="1:nobj">mit</W>
+<W lemma="Antrag" msd="NN" in="-1:nobj" out="1:pobj">Antrag</W>
+<W lemma="auf" msd="APPR" in="-1:pobj" out="1:nobj">auf</W>
+<W lemma="Freispruch" msd="NN" in="-1:nobj" out="">Freispruch</W>
+<W lemma="umgehend" msd="ADJD" in="-5:mod" out="">umgehend</W>
+<W lemma="Einspruch" msd="NN" in="-6:dobj" out="">Einspruch</W>
+<W lemma="gegen" msd="APPR" in="-7:lobj" out="1:nobj">gegen</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">das</W>
+<W lemma="Urteil" msd="NN" in="-1:nobj" out="1:pobj">Urteil</W>
+<W lemma="vom" msd="APPRART" in="-1:pobj" out="1:nobj">vom</W>
+<W lemma="Amtsgericht" msd="NN" in="-1:nobj" out="1:nobj">Amtsgericht</W>
+<W lemma="Kopenhagen" msd="NE" in="-1:nobj" out="">Kopenhagen</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-13:part" out="">ein.</W>
+<W lemma="auch" msd="ADV" in="1:mod" out="">Auch</W>
+<W lemma="d" msd="ART" in="2:subj|6:[subj]" out="1:nobj|-1:mod">die</W>
+<W lemma="Anklagevertretung" msd="NN" in="-1:nobj" out="">Anklagevertretung</W>
+<W lemma="haben" msd="VAFIN" in="" out="4:vobj|5:pnct|-2:subj">hat</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="" out="">sich</W>
+<W lemma="ein" msd="ART" in="2:dobj" out="1:nobj">eine</W>
+<W lemma="BerufungsmÃ¶glichkeit" msd="NN" in="-1:nobj" out="">BerufungsmÃ¶glichkeit</W>
+<W lemma="vorbehalten" msd="VVPP" in="-4:vobj" out="-2:dobj|-6:[subj]">vorbehalten</W>
+<W lemma="." msd="$." in="-5:pnct" out="">.</W>
+<W lemma="d" msd="ART" in="2:subj" out="1:nobj">Der</W>
+<W lemma="Vorstandsvorsitzende" msd="NN" in="-1:nobj" out="">Vorstandsvorsitzende</W>
+<W lemma="bekommen" msd="VVFIN" in="" out="14:mod|31:pnct|-2:subj|1:dobj">bekam</W>
+<W lemma="1" msd="CARD" in="-1:dobj" out="1:numa|2:nobj|4:coord">1</W>
+<W lemma="Â½" msd="XY" in="-1:numa" out="">Â½</W>
+<W lemma="Jahr" msd="NN" in="-2:nobj" out="1:nobj">Jahre</W>
+<W lemma="GefÃ¤ngnis" msd="NN" in="-1:nobj" out="">GefÃ¤ngnis</W>
+<W lemma="und" msd="KON" in="-4:coord" out="1:conj">und</W>
+<W lemma="ein" msd="ART" in="-1:conj" out="1:nobj">eine</W>
+<W lemma="Geldstrafe" msd="NN" in="-1:nobj" out="1:pobj">Geldstrafe</W>
+<W lemma="in" msd="APPR" in="-1:pobj" out="1:nobj">in</W>
+<W lemma="HÃ¶he" msd="NN" in="-1:nobj" out="1:pobj">HÃ¶he</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="2:nobj">von</W>
+<W lemma="1" msd="CARD" in="1:numm" out="">1</W>
+<W lemma="Million" msd="NN" in="-2:nobj" out="-1:numm|1:nobj">Million</W>
+<W lemma="Krone" msd="NN" in="-1:nobj" out="">Kronen</W>
+<W lemma="wegen" msd="APPR" in="-14:mod" out="1:nobj">wegen</W>
+<W lemma="Veruntreuung" msd="NN" in="-1:nobj" out="1:pnct|2:conj|6:coord">Veruntreuung</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="Steuerhinterziehung" msd="NN" in="-2:conj" out="1:mod">Steuerhinterziehung</W>
+<W lemma="von" msd="APPR" in="-1:mod" out="2:nobj">von</W>
+<W lemma="besonder" msd="ADJA" in="1:mod" out="">besonderer</W>
+<W lemma="Schwere" msd="NN" in="-2:nobj" out="-1:mod">Schwere</W>
+<W lemma="und" msd="KON" in="-6:coord" out="1:conj">und</W>
+<W lemma="VerstoÃŸ" msd="NN" in="-1:conj" out="1:pobj">VerstoÃŸ</W>
+<W lemma="gegen" msd="APPR" in="-1:pobj" out="1:nobj">gegen</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">das</W>
+<W lemma="Aktiengesetz" msd="NN" in="-1:nobj" out="1:coord">Aktiengesetz</W>
+<W lemma="sowie" msd="KON" in="-1:coord" out="1:conj">sowie</W>
+<W lemma="d" msd="ART" in="-1:conj" out="1:nobj">das</W>
+<W lemma="Bank-" msd="TRUNC" in="-1:nobj" out="1:coord">Bank-</W>
+<W lemma="und" msd="KON" in="-1:coord" out="1:conj">und</W>
+<W lemma="Sparkassengesetz" msd="NN" in="-1:conj" out="">Sparkassengesetz</W>
+<W lemma="." msd="$." in="-31:pnct" out="">.</W>
+<W lemma="d" msd="ART" in="8:subj" out="1:nobj|2:possr|4:pnct|6:appa|7:pnct">Der</W>
+<W lemma="Direktor" msd="NN" in="-1:nobj" out="">Direktor</W>
+<W lemma="d" msd="ART" in="-2:possr" out="1:nobj">der</W>
+<W lemma="Bank" msd="NN" in="-1:nobj" out="">Bank</W>
+<W lemma="," msd="$," in="-4:pnct" out="">,</W>
+<W lemma="John" msd="NE" in="1:namef" out="">John</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-6:appa" out="-1:namef">Olsdorf</W>
+<W lemma="," msd="$," in="-7:pnct" out="">,</W>
+<W lemma="bekommen" msd="VVFIN" in="" out="1:dobj|10:pnct|-8:subj">bekam</W>
+<W lemma="6" msd="CARD" in="-1:dobj" out="1:nobj|3:coord">6</W>
+<W lemma="Monat" msd="NN" in="-1:nobj" out="1:nobj">Monate</W>
+<W lemma="GefÃ¤ngnis" msd="NN" in="-1:nobj" out="">GefÃ¤ngnis</W>
+<W lemma="und" msd="KON" in="-3:coord" out="1:conj">und</W>
+<W lemma="ein" msd="ART" in="-1:conj" out="1:nobj">eine</W>
+<W lemma="Geldstrafe" msd="NN" in="-1:nobj" out="1:pobj">Geldstrafe</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">90.000</W>
+<W lemma="Krone" msd="NN" in="-1:nobj" out="">Kronen</W>
+<W lemma="." msd="$." in="-10:pnct" out="">.</W>
+<W lemma="beide" msd="PIS" in="1:subj|2:[subj]" out="">Beide</W>
+<W lemma="sein" msd="VAFIN" in="" out="-1:subj|1:vobj|20:pnct">sind</W>
+<W lemma="anklagen" msd="VVPP" in="-1:vobj" out="-2:[subj]|1:pnct|17:gobj">angeklagt</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="d" msd="ART" in="14:iobj" out="1:nobj">der</W>
+<W lemma="Bank" msd="NN" in="-1:nobj" out="">Bank</W>
+<W lemma="durch" msd="APPR" in="12:mod" out="4:nobj">durch</W>
+<W lemma="unverantwortlich" msd="ADJA" in="3:mod" out="1:coord">unverantwortliche</W>
+<W lemma="und" msd="KON" in="-1:coord" out="1:conj">und</W>
+<W lemma="gesetzeswidrig" msd="ADJA" in="-1:conj" out="">gesetzeswidrige</W>
+<W lemma="Kreditvergabe" msd="NN" in="-4:nobj" out="-3:mod">Kreditvergabe</W>
+<W lemma="ein" msd="ART" in="7:dobj" out="1:nobj">einen</W>
+<W lemma="Verlust" msd="NN" in="-1:nobj" out="1:pobj">Verlust</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="3:nobj">von</W>
+<W lemma="ungefÃ¤hr" msd="ADJD" in="1:mod" out="">ungefÃ¤hr</W>
+<W lemma="60" msd="CARD" in="1:numm" out="-1:mod">60</W>
+<W lemma="Million" msd="NN" in="-3:nobj" out="1:nobj|-1:numm">Millionen</W>
+<W lemma="Krone" msd="NN" in="-1:nobj" out="">Kronen</W>
+<W lemma="zufÃ¼gen" msd="VVPP" in="2:vobj" out="-7:dobj|-12:mod|-14:iobj">zugefÃ¼gt</W>
+<W lemma="zu" msd="PTKZU" in="-17:gobj" out="1:vobj">zu</W>
+<W lemma="haben" msd="VAINF" in="-1:vobj" out="-2:vobj">haben</W>
+<W lemma="." msd="$." in="-20:pnct" out="">.</W>
+<W lemma="auÃŸerdem" msd="ADV" in="1:mod" out="">AuÃŸerdem</W>
+<W lemma="haben" msd="VAFIN" in="" out="1:subj|-1:mod|6:vobj|7:pnct">haben</W>
+<W lemma="sie" msd="PPER" in="-1:subj|5:[subj]" out="">sie</W>
+<W lemma="3,5" msd="CARD" in="1:numm" out="">3,5</W>
+<W lemma="Million" msd="NN" in="3:dobj" out="-1:numm|1:nobj">Millionen</W>
+<W lemma="Krone" msd="NN" in="-1:nobj" out="">Kronen</W>
+<W lemma="Steuer|Steuern" msd="NN" in="1:iobj" out="">Steuern</W>
+<W lemma="hinterziehen" msd="VVINF" in="-6:vobj" out="-5:[subj]|-1:iobj|-3:dobj">hinterzogen</W>
+<W lemma="." msd="$." in="-7:pnct" out="">.</W>
+<W lemma="zwei" msd="CARD" in="3:subj|4:[subj]" out="1:mod|2:nobj">Zwei</W>
+<W lemma="einfach" msd="ADJA" in="-1:mod" out="">einfache</W>
+<W lemma="Vorstandsmitglied" msd="NN" in="-2:nobj" out="">Vorstandsmitglieder</W>
+<W lemma="werden" msd="VAFIN" in="" out="-3:subj|1:vobj|2:pnct">wurden</W>
+<W lemma="freisprechen" msd="VVPP" in="-1:vobj" out="-4:[subj]">freigesprochen</W>
+<W lemma="." msd="$." in="-2:pnct" out="">.</W>
+<W lemma="Richter" msd="NE" in="3:title" out="">Richter</W>
+<W lemma="Nil|Nils" msd="NE" in="2:namef" out="1:namef">Nils</W>
+<W lemma="Erik" msd="NE" in="-1:namef" out="">Erik</W>
+<W lemma="Jensen" msd="NE" in="1:subj" out="-3:title|-2:namef">Jensen</W>
+<W lemma="machen" msd="VVFIN" in="" out="-1:subj|1:mod|2:dobj|4:pobj">machte</W>
+<W lemma="aber" msd="ADV" in="-1:mod" out="">aber</W>
+<W lemma="kein" msd="PIAT" in="-2:dobj" out="1:nobj">kein</W>
+<W lemma="Hehl" msd="NN" in="-1:nobj" out="">Hehl</W>
+<W lemma="daraus" msd="PAV" in="-4:pobj" out="2:nobj|12:pnct|1:pnct">daraus</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-2:nobj" out="9:vobj">dass</W>
+<W lemma="sie" msd="PPER" in="8:subj|7:[subj]" out="">sie</W>
+<W lemma="nicht" msd="PTKNEG" in="7:mod" out="">nicht</W>
+<W lemma="mit" msd="APPR" in="5:mod" out="2:nobj">mit</W>
+<W lemma="gut" msd="ADJA" in="1:mod" out="">gutem</W>
+<W lemma="Gewisse|Gewissen" msd="NN" in="-2:nobj" out="-1:mod">Gewissen</W>
+<W lemma="nach" msd="APPR" in="2:lobj" out="1:nobj">nach</W>
+<W lemma="Haus" msd="NN" in="-1:nobj" out="">Hause</W>
+<W lemma="gehen" msd="VVINF" in="1:vobj" out="-7:[subj]|-5:mod|-2:lobj">gehen</W>
+<W lemma="kÃ¶nnen" msd="VMFIN" in="-9:vobj" out="-8:subj|-7:mod|-1:vobj">kÃ¶nnten</W>
+<W lemma="." msd="$." in="-12:pnct" out="">.</W>
+<W lemma="d" msd="ART" in="2:subj" out="1:nobj">Der</W>
+<W lemma="Freispruch" msd="NN" in="-1:nobj" out="">Freispruch</W>
+<W lemma="sein" msd="VAFIN" in="22:qobj" out="1:mod|4:pred|-2:subj|19:modp|17:pnct">sei</W>
+<W lemma="in" msd="APPR" in="-1:mod" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="ADJA" in="-1:nobj" out="1:nobj">keinster</W>
+<W lemma="Weise" msd="NN" in="-1:nobj" out="">Weise</W>
+<W lemma="ein" msd="ART" in="-4:pred" out="1:nobj">eine</W>
+<W lemma="Bescheinigung" msd="NN" in="-1:nobj" out="1:pobj">Bescheinigung</W>
+<W lemma="dafÃ¼r" msd="PAV" in="-1:pobj" out="1:pnct|2:nobj">dafÃ¼r</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-2:nobj" out="8:vobj">dass</W>
+<W lemma="sie" msd="PPER" in="7:subj|6:[subj]" out="">sie</W>
+<W lemma="ihr" msd="PPOSAT" in="5:dobj" out="1:possd">ihre</W>
+<W lemma="Vorstandsarbeit" msd="NN" in="-1:possd" out="">Vorstandsarbeit</W>
+<W lemma="auf" msd="APPR" in="3:mod" out="2:nobj">auf</W>
+<W lemma="vorbildlich" msd="ADJA" in="1:mod" out="">vorbildliche</W>
+<W lemma="Weise" msd="NN" in="-2:nobj" out="-1:mod">Weise</W>
+<W lemma="verrichten" msd="VVPP" in="1:vobj" out="-6:[subj]|-5:dobj|-3:mod">verrichtet</W>
+<W lemma="haben" msd="VAFIN" in="-8:vobj" out="-7:subj|-1:vobj">hÃ¤tten</W>
+<W lemma="-" msd="$(" in="-17:pnct" out="">-</W>
+<W lemma="ganz" msd="ADJD" in="1:mod" out="">ganz</W>
+<W lemma="im" msd="APPRART" in="-19:modp" out="-1:mod|1:nobj|2:pnct">im</W>
+<W lemma="Gegenteil" msd="NN" in="-1:nobj" out="">Gegenteil</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="schieben" msd="VVFIN" in="" out="-22:qobj|3:mod|1:subj|8:part">schob</W>
+<W lemma="d" msd="ART" in="-1:subj" out="1:nobj">der</W>
+<W lemma="Richter" msd="NN" in="-1:nobj" out="">Richter</W>
+<W lemma="in" msd="APPR" in="-3:mod" out="1:nobj">in</W>
+<W lemma="sein" msd="PPOSAT" in="-1:nobj" out="1:possd">seine</W>
+<W lemma="ErlÃ¤uterung" msd="NN" in="-1:possd" out="1:pobj">ErlÃ¤uterungen</W>
+<W lemma="zum" msd="APPRART" in="-1:pobj" out="1:nobj">zum</W>
+<W lemma="Urteil" msd="NN" in="-1:nobj" out="">Urteil</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-8:part" out="">ein.</W>

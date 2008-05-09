@@ -145,7 +145,7 @@
 <W msd="VLfin" lemma="&lt;unknown&gt;">sólo</W>
 <W msd="CARD" lemma="@card@">200</W>
 <W msd="NC" lemma="&lt;unknown&gt;">calorías</W>
-<W msd="PPC" lemma="�l">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">dará</W>
 <W msd="ART" lemma="un">una</W>
 <W msd="NC" lemma="&lt;unknown&gt;">pérdida</W>

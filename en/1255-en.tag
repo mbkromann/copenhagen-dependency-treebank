@@ -76,7 +76,7 @@
 <W msd="NNP" in="-3:conj" out="-1:mod">Tidende</W>
 <W msd="CC" in="-4:coord" out="2:conj">and</W>
 <W msd="DT" in="" out="">the</W>
-<W msd="NNP" in="-2:conj" out="">Århus</W>
+<W msd="NNP" in="-2:conj" out="">Ã…rhus</W>
 <W msd="NNP" in="" out="">Stiftstidende</W>
 <W msd="." in="-16:pnct" out="">.</W>
 </s>
@@ -122,7 +122,7 @@
 </s>
 <s>
 <W msd="DT" in="" out="">The</W>
-<W msd="NNP" in="2:subj" out="">Århus</W>
+<W msd="NNP" in="2:subj" out="">Ã…rhus</W>
 <W msd="NNP" in="" out="">Stiftstidende</W>
 <W msd="VBD" in="" out="-2:subj|1:dobj|18:pnct">replied</W>
 <W msd="IN" in="-1:dobj" out="2:vobj">that</W>

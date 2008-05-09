@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1429-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1429-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1429-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="New" outsign="Nye"/>
 <align out="a44" type="" in="b2" creator="-1" insign="at" outsign="i"/>
@@ -55,7 +55,7 @@
 <align out="a122" type="" in="b86" creator="-1" insign="has" outsign="har"/>
 <align out="a123" type="" in="b87" creator="-1" insign="informed" outsign="meddelt"/>
 <align out="a124" type="" in="b88" creator="-1" insign="its" outsign="sine"/>
-<align out="a125" type="" in="b89" creator="-1" insign="drivers" outsign="kørere"/>
+<align out="a125" type="" in="b89" creator="-1" insign="drivers" outsign="kÃ¸rere"/>
 <align out="a126" type="" in="b90" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
 <align out="a127" type="" in="b91" creator="-1" insign="Stuck" outsign="Stuck"/>
 <align out="a128" type="" in="b92" creator="-1" insign="," outsign=","/>
@@ -100,12 +100,12 @@
 <align out="a199" type="" in="b163" creator="-1" insign="." outsign="."/>
 <align out="a202" type="" in="b166 b167" creator="-1" insign="The car" outsign="Bilen"/>
 <align out="a203" type="" in="b168" creator="-1" insign="can" outsign="kan"/>
-<align out="a204" type="" in="b169" creator="-1" insign="drive" outsign="køre"/>
+<align out="a204" type="" in="b169" creator="-1" insign="drive" outsign="kÃ¸re"/>
 <align out="a205" type="" in="b170" creator="-1" insign="just" outsign="lige"/>
 <align out="a206" type="" in="b171" creator="-1" insign="over" outsign="over"/>
 <align out="a207" type="" in="b172" creator="-1" insign="2,690" outsign="2.690"/>
 <align out="a208" type="" in="b173" creator="-1" insign="km" outsign="km"/>
-<align out="a209" type="" in="b174" creator="-1" insign="on" outsign="på"/>
+<align out="a209" type="" in="b174" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a210" type="" in="b175" creator="-1" insign="one" outsign="en"/>
 <align out="a212" type="" in="b178" creator="-1" insign="gasoline" outsign="benzin"/>
 <align out="a213" type="" in="b179" creator="-1" insign="," outsign=","/>
@@ -113,7 +113,7 @@
 <align out="a215" type="" in="b181" creator="-1" insign="is" outsign="er"/>
 <align out="a217" type="" in="b185" creator="-1" insign="." outsign="."/>
 <align out="a220" type="" in="b188" creator="-1" insign="The" outsign="Den"/>
-<align out="a221" type="" in="b189" creator="-1" insign="unique" outsign="enestående"/>
+<align out="a221" type="" in="b189" creator="-1" insign="unique" outsign="enestÃ¥ende"/>
 <align out="a222" type="" in="b190" creator="-1" insign="car" outsign="bil"/>
 <align out="a223" type="" in="b191" creator="-1" insign="won" outsign="vandt"/>
 <align out="a224" type="" in="b192" creator="-1" insign="in" outsign="i"/>
@@ -126,7 +126,7 @@
 <align out="a232" type="" in="b201" creator="-1" insign="other" outsign="andre"/>
 <align out="a233" type="" in="b202" creator="-1" insign="specially-built" outsign="specialbyggede"/>
 <align out="a234" type="" in="b203" creator="-1" insign="cars" outsign="biler"/>
-<align out="a235" type="" in="b204" creator="-1" insign="at" outsign="på"/>
+<align out="a235" type="" in="b204" creator="-1" insign="at" outsign="pÃ¥"/>
 <align out="a236" type="" in="b205 b206 b207" creator="-1" insign="the Silverstone track" outsign="Silverstone-banen"/>
 <align out="a237" type="" in="b208" creator="-1" insign="in" outsign="i"/>
 <align out="a238" type="" in="b209 b210" creator="-1" insign="Great Britain" outsign="Storbritannien"/>
@@ -139,10 +139,10 @@
 <align out="a250" type="" in="b221" creator="-1" insign="a" outsign="en"/>
 <align out="a251" type="" in="b222 b223" creator="-1" insign="Japanese built" outsign="japansk-bygget"/>
 <align out="a252" type="" in="b224" creator="-1" insign="car" outsign="bil"/>
-<align out="a253" type="" in="b225" creator="-1" insign="drove" outsign="kørte"/>
+<align out="a253" type="" in="b225" creator="-1" insign="drove" outsign="kÃ¸rte"/>
 <align out="a254" type="" in="b226" creator="-1" insign="2,270" outsign="2.270"/>
 <align out="a255" type="" in="b227" creator="-1" insign="km" outsign="km"/>
-<align out="a256" type="" in="b228" creator="-1" insign="on" outsign="på"/>
+<align out="a256" type="" in="b228" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a257" type="" in="b229" creator="-1" insign="one" outsign="en"/>
 <align out="a258" type="" in="b230" creator="-1" insign="litre" outsign="liter"/>
 <align out="a259" type="" in="b231" creator="-1" insign="." outsign="."/>
@@ -177,7 +177,7 @@
 <align out="a159" type="" in="b126" creator="0" insign="has" outsign="har"/>
 <align out="a151" type="" in="b115" creator="-1" insign="that" outsign="at"/>
 <align out="a152" type="" in="b116" creator="-1" insign="Audi" outsign="Audi"/>
-<align out="a161" type="" in="b128 b129" creator="0" insign="the drivers" outsign="kørerne"/>
+<align out="a161" type="" in="b128 b129" creator="0" insign="the drivers" outsign="kÃ¸rerne"/>
 <align out="a160 a162" type="" in="b127" creator="0" insign="asked" outsign="bedt om"/>
 <align out="a178" type="" in="b141" creator="0" insign="l" outsign="l."/>
 <align out="a178" type="?" in="b142" creator="0" insign="." outsign="l."/>
@@ -207,6 +207,6 @@
 <align out="a260" type="" in="b232" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a68 a69" type="f" in="b38" creator="0" insign="already" outsign="I forvejen"/>
 <align out="a146" type="" in="b110" creator="0" insign="interpreted" outsign="tolket"/>
-<align out="a147 a148 a149" type="f" in="b113 b114" creator="0" insign="as meaning" outsign="på den måde"/>
+<align out="a147 a148 a149" type="f" in="b113 b114" creator="0" insign="as meaning" outsign="pÃ¥ den mÃ¥de"/>
 <align out="a167 a168 a169" type="f" in="b134" creator="0" insign="elsewhere" outsign="til anden side"/>
 </DTAGalign>

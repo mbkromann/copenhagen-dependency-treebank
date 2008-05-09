@@ -10,7 +10,7 @@
 <W msd="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="NNP" in="-1:nobj" out="">CD</W>
 <W msd="IN" in="-5:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Storstrøm</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">StorstrÃ¸m</W>
 <W msd="NNP" in="-1:nobj" out="">County</W>
 </s>
 <s>

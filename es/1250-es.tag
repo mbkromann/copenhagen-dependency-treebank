@@ -40,7 +40,7 @@
 <W msd="DM" lemma="ese">eso</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="DM" lemma="ese">Eso</W>
-<W msd="PPO" lemma="él">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="decir">dicen</W>
 <W msd="ADV" lemma="siempre">siempre</W>
 <W msd="FS" lemma=".">.</W>
@@ -75,8 +75,8 @@
 <W msd="NC" lemma="desconocida">desconocida</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="QU" lemma="mucho">Muchos</W>
-<W msd="ADJ" lemma="danés">daneses</W>
-<W msd="PPO" lemma="él">la</W>
+<W msd="ADJ" lemma="dans">daneses</W>
+<W msd="PPO" lemma="l">la</W>
 <W msd="VHfin" lemma="haber">han</W>
 <W msd="VLadj" lemma="escuchar">escuchado</W>
 <W msd="VLinf" lemma="cantar">cantar</W>
@@ -115,7 +115,7 @@
 <W msd="NC" lemma="semana">semana</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="vacación">vacaciones</W>
+<W msd="NC" lemma="vacacin">vacaciones</W>
 <W msd="CSUBI" lemma="para">para</W>
 <W msd="VLinf" lemma="tocar">tocar</W>
 <W msd="CC" lemma="y">y</W>
@@ -129,10 +129,10 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="NC" lemma="centro">centros</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="reunión">reuniones</W>
+<W msd="NC" lemma="reunin">reuniones</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="NC" lemma="cuenta">cuenta</W>
-<W msd="PPX" lemma="él">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="NC" lemma="&lt;unknown&gt;">â€œMucha</W>
 <W msd="NC" lemma="gente">gente</W>
@@ -144,7 +144,7 @@
 <W msd="VLfin" lemma="continuar">continuara</W>
 <W msd="VLadj" lemma="andar">andando</W>
 <W msd="PREP" lemma="con">con</W>
-<W msd="PPO" lemma="mío">mi</W>
+<W msd="PPO" lemma="mo">mi</W>
 <W msd="NC" lemma="familia">familia</W>
 <W msd="PREP" lemma="hasta">hasta</W>
 <W msd="CQUE" lemma="que">que</W>
@@ -157,7 +157,7 @@
 <W msd="ADV" lemma="muy">muy</W>
 <W msd="VLadj" lemma="unir">unidos</W>
 <W msd="FS" lemma=".">.</W>
-<W msd="PPO" lemma="mío">Mi</W>
+<W msd="PPO" lemma="mo">Mi</W>
 <W msd="VLfin" lemma="maridar">marido</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="PPX" lemma="yo">yo</W>

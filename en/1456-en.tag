@@ -225,7 +225,7 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Ulrik</W>
-<W msd="NNP" in="" out="-1:namef|3:list|8:pnct|1:pnct">Sørensen</W>
+<W msd="NNP" in="" out="-1:namef|3:list|8:pnct|1:pnct">SÃ¸rensen</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="1:mod" out="">Finance</W>
 <W msd="NNP" in="-3:list" out="-1:mod|2:list|1:pnct">Director</W>

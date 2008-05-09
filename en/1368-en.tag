@@ -187,7 +187,7 @@
 <W msd="NNP" in="-3:nobj" out="-1:mod">Committee</W>
 <W msd="," in="-9:pnct" out="">,</W>
 <W msd="NNP" in="1:namef" out="">Ivar</W>
-<W msd="NNP" in="-11:appa" out="-1:namef">Nørgaard</W>
+<W msd="NNP" in="-11:appa" out="-1:namef">NÃ¸rgaard</W>
 <W msd="." in="-13:pnct" out="">.</W>
 </s>
 <s>

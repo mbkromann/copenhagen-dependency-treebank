@@ -211,7 +211,7 @@
 <s>
 <W msd="RB" in="1:mod" out="">Expensively</W>
 <W msd="VBN" in="4:mod" out="-1:mod">dressed</W>
-<W msd="NNP" in="3:mod" out="1:coord">Jönsson</W>
+<W msd="NNP" in="3:mod" out="1:coord">JÃ¶nsson</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
 <W msd="NNP" in="-1:conj" out="">Carlsson</W>
 <W msd="NNS" in="1:subj|4:[subj]" out="-4:mod|-3:mod">families</W>

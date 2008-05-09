@@ -2,17 +2,17 @@
 11 Induktion
 
 
-Formål
+FormÃ¥l
 
-At beskrive magnetfeltet omkring en elektrisk strøm og elektrofeltet 
-omkring en magnet i bevægelse.
+At beskrive magnetfeltet omkring en elektrisk strÃ¸m og elektrofeltet 
+omkring en magnet i bevÃ¦gelse.
 
 
 Apparatur
 
-Spændingskilde ( jævn og veksel ), ledninger, kompasnål, stangmagnet, 
-fintfølende volt-meter, spoler ( 200 vind., 400 vind. og 1600 vind. )
-, jernkerne, jernlod og vægtlodder.
+SpÃ¦ndingskilde ( jÃ¦vn og veksel ), ledninger, kompasnÃ¥l, stangmagnet, 
+fintfÃ¸lende volt-meter, spoler ( 200 vind., 400 vind. og 1600 vind. )
+, jernkerne, jernlod og vÃ¦gtlodder.
 
 
 Opstilling
@@ -22,33 +22,33 @@ Arbejdsgang
 
 Induktion af magnetfelter:
 
-Anvend opstillingen fig. 11.1. Magneten skal stå langs ledningen før 
-strømmen sluttes. Tænd strømmen, og iagttag hvad der sker. Vend 
-strømretningen og iagttag.
+Anvend opstillingen fig. 11.1. Magneten skal stÃ¥ langs ledningen fÃ¸r 
+strÃ¸mmen sluttes. TÃ¦nd strÃ¸mmen, og iagttag hvad der sker. Vend 
+strÃ¸mretningen og iagttag.
 
-Lav dernæst en forsøgsrække, der kan afsløre hvilke ting, der har 
-indflydelse på magnetfelters styrke. Brug spolerne, jernloddet og 
-vægtlodderne ( fig. 11.2 ).
+Lav dernÃ¦st en forsÃ¸gsrÃ¦kke, der kan afslÃ¸re hvilke ting, der har 
+indflydelse pÃ¥ magnetfelters styrke. Brug spolerne, jernloddet og 
+vÃ¦gtlodderne ( fig. 11.2 ).
 
 
 Induktion af elektrofelter:
 
-Anvend opstillingen fig. 11.3. Bevæg magneten i forhold til ledningen 
-og iagttag på voltmeteret, hvad der sker.
+Anvend opstillingen fig. 11.3. BevÃ¦g magneten i forhold til ledningen 
+og iagttag pÃ¥ voltmeteret, hvad der sker.
 
-Lav dernæst en forsøgsrække, der kan afsløre hvilke ting, der har 
-indflydelse på elektrofeltets styrke. Brug spolerne, voltmeteret og 
-magneterne som på fig. 11.4.
+Lav dernÃ¦st en forsÃ¸gsrÃ¦kke, der kan afslÃ¸re hvilke ting, der har 
+indflydelse pÃ¥ elektrofeltets styrke. Brug spolerne, voltmeteret og 
+magneterne som pÃ¥ fig. 11.4.
 
 
 Resultater
 
 Magnetfelter:
 
-Beskriv magnetfeltet omkring en strømførende ledning:
+Beskriv magnetfeltet omkring en strÃ¸mfÃ¸rende ledning:
 
 
-Beskriv forsøgsgangen i din undersøgelse af, hvad der afgør 
+Beskriv forsÃ¸gsgangen i din undersÃ¸gelse af, hvad der afgÃ¸r 
 magnetfeltets styrke:
 
 

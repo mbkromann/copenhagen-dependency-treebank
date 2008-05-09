@@ -42,7 +42,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="DM" lemma="ese">eso</W>
 <W msd="NEG" lemma="no">no</W>
-<W msd="PPO" lemma="él">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VMfin" lemma="poder">pueden</W>
 <W msd="VLinf" lemma="controlar">controlar</W>
 <W msd="ART" lemma="el">los</W>

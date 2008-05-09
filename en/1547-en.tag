@@ -41,7 +41,7 @@
 </s>
 <s>
 <W msd="DT" in="" out="1:mod|2:nobj|3:list|7:coord|19:pnct">A</W>
-<W msd="JJ" in="-1:mod" out="">3½-hour</W>
+<W msd="JJ" in="-1:mod" out="">3Â½-hour</W>
 <W msd="NN" in="-2:nobj" out="">production</W>
 <W msd="CD" in="-3:list" out="1:nobj|2:mod">six</W>
 <W msd="NNS" in="-1:nobj" out="">times</W>

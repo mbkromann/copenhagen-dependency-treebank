@@ -64,7 +64,7 @@
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="serie">serie</W>
-<W msd="NC" lemma="alem·n">alemana</W>
+<W msd="NC" lemma="alemn">alemana</W>
 <W msd="NC" lemma="grupo">Grupo</W>
 <W msd="ALFS" lemma="A">A</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">despu√©s</W>
@@ -138,7 +138,7 @@
 <W msd="VLadj" lemma="construir">construido</W>
 <W msd="PREP" lemma="por">por</W>
 <W msd="NC" lemma="estudiante">estudiantes</W>
-<W msd="ADJ" lemma="francÈs">franceses</W>
+<W msd="ADJ" lemma="francs">franceses</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">podr√≠a</W>
 <W msd="VLinf" lemma="arruinar">arruinar</W>
 <W msd="PREP" lemma="a">a</W>
@@ -210,7 +210,7 @@
 <W msd="NC" lemma="coche">coche</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="&lt;unknown&gt;">construcci√≥n</W>
-<W msd="ADJ" lemma="japonÈs">japonesa</W>
+<W msd="ADJ" lemma="japons">japonesa</W>
 <W msd="VMfin" lemma="poder">pudo</W>
 <W msd="VLinf" lemma="recorrer">recorrer</W>
 <W msd="CARD" lemma="@card@">2.270</W>

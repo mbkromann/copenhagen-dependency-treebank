@@ -1,25 +1,11 @@
 
-1.435.585, Niels fra Videbæk
+1,435,585, Niels from VidebÃ¦k
 
-Der findes to typer kølervæske på markedet. Monoetylenglycol og 
-Propylenglycol. Monoetylenglycol er normalt grønt eller blåt, og giver 
-ved en 50 % blanding med vand en frostsikring på ca. minus 40 
-grader. Propylenglycol er rødligt/lyserødt og giver ved en 50 % 
-blanding med vand en frostsikring ned til ca. minus 30 grader.
+There are two types of antifreeze on the market.  Monoetylenglycol and Propylenglycol.  Monoetylenglycol is normally green or blue, and with a 50% blend of water provides security against freezing temperatures to approximately minus 40 degrees.  Propylenglycol is red/pink and with a 50% blend with water provides security against freezing temperatures down to approximately minus 30 degrees.
 
-Forskellen på de to produkter er først og fremmest graden af 
-frostsikring, men derudover er monoetylenglycol mere giftig en 
-propylenglycol, og derfor er det vigtigt, at man ikke blander de to 
-produkter. Såfremt de bliver blandet, er det umuligt at fastslå 
-frostsikringspunktet. Der er ingen forskel på produkternes evne til at 
-modvirke korrosion  -  hverken i små eller store motorer, om det så 
-er diesel eller benzin gør ingen forskel, ej heller om der er 
-anvendt aluminiums-dele i motoren  -  men da additiverne, som modvirker
-korrosion, nedbrydes, skal frostvæsken mindst udskiftes hvert andet år
-.
+The difference between the two products is, first and foremost, the degree of security against freezing temperatures and, beyond that, monoetylenglycol is more toxic than propylenglycol and, therefore, it is important that people do not blend the two products.  In the event they are blended, it is impossible to determine the point at which there is security against freezing temperatures.  There is no difference in the products' ability to fight corrosion - either in small or large engines, whether it is diesel or gasoline makes no difference, nor there aluminium parts are used in the engine - but since the additives that fight corrosion break down, the antifreeze must at least be changed every other year.
 
-I de senere år er man blevet mere opmærksom på de urenheder, der 
-opstår i dieselbrændstoftanke: i daglig tale " dieselpest ".
+In recent years, people have become more attentive to impurities that arise in diesel fuel tanks: in everyday language, "diesel plague".
 
 
 

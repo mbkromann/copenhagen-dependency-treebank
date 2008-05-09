@@ -70,7 +70,7 @@
 <W msd="NN" in="-2:conj" out="-1:mod">director</W>
 <W msd="," in="-9:pnct" out="">,</W>
 <W msd="NNP" in="1:namef" out="">Erling</W>
-<W msd="NNP" in="-11:appa" out="-1:namef">Brøndum</W>
+<W msd="NNP" in="-11:appa" out="-1:namef">BrÃ¸ndum</W>
 <W msd="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -194,7 +194,7 @@
 <W msd="NN" in="-2:nobj" out="1:pobj">director</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="JJ" in="-1:nobj" out="1:nobj">Århus</W>
+<W msd="JJ" in="-1:nobj" out="1:nobj">Ã…rhus</W>
 <W msd="NNP" in="-1:nobj" out="1:nobj">Local</W>
 <W msd="NNP" in="-1:nobj" out="">Gazette</W>
 <W msd="." in="-14:pnct" out="">.</W>
@@ -232,7 +232,7 @@
 <W msd="NN" in="-1:possd" out="">owner</W>
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="NNP" in="2:namef" out="">Klaus</W>
-<W msd="NNP" in="1:namel" out="">Riskær</W>
+<W msd="NNP" in="1:namel" out="">RiskÃ¦r</W>
 <W msd="NNP" in="-5:appa" out="-2:namef|-1:namel|1:pnct">Pedersen</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="JJ" in="-14:mod" out="1:pobj">pursuant</W>

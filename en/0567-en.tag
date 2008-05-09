@@ -60,7 +60,7 @@
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj|2:[subj]" out="">Søsser</W>
+<W msd="NNP" in="1:subj|2:[subj]" out="">SÃ¸sser</W>
 <W msd="MD" in="" out="-1:subj|1:vobj">can</W>
 <W msd="VB" in="-1:vobj" out="-2:[subj]|1:part|2:pobj">sign</W>
 <W msd="RP" in="-1:part" out="">off</W>

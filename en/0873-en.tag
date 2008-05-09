@@ -48,7 +48,7 @@
 <W msd="TO" in="" out="">to</W>
 <W msd="DT" in="" out="1:mod">the</W>
 <W msd="JJ" in="-1:mod" out="">stupid</W>
-<W msd="NNP" in="" out="">Dänen</W>
+<W msd="NNP" in="" out="">DÃ¤nen</W>
 <W msd="." in="-7:pnct" out="">.</W>
 </s>
 <s>

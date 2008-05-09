@@ -15,7 +15,7 @@
 <W lemma="del" msd="PRE:det" in="-5:mod" out="1:nobj">del</W>
 <W lemma="settimanale" msd="ADJ" in="-1:nobj" out="1:appr">settimanale</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-1:appr" out="1:appr|3:list|8:list|2:pnct|7:pnct">Ugemagasinet</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:appr" out="">SØNDAG</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:appr" out="">SÃ˜NDAG</W>
 <W lemma="," msd="PON" in="-2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-3:list" out="3:list">Vesterbrogade</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="2:mod" out="1:pnct">nr</W>
@@ -31,7 +31,7 @@
 <W lemma="medico" msd="NOM" in="-1:nobj" out="">medici</W>
 <W lemma="di" msd="PRE" in="-2:mod" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-1:nobj" out="1:appr">Ugemagasinet</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:appr" out="">SØNDAG</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:appr" out="">SÃ˜NDAG</W>
 <W lemma="potere" msd="VER:pres" in="" out="1:vobj|5:pnct|-5:subj|-6:mod">possono</W>
 <W lemma="aprire" msd="VER:infi" in="-1:vobj" out="1:dobj">aprire</W>
 <W lemma="il" msd="DET:def" in="-1:dobj" out="1:mod|2:nobj">le</W>
@@ -100,7 +100,7 @@
 <W lemma="una" msd="DET:indef" in="3:subj" out="1:nobj">una</W>
 <W lemma="cura" msd="NOM" in="-1:nobj" out="1:mod">cura</W>
 <W lemma="ormonale" msd="ADJ" in="-1:mod" out="">ormonale</W>
-<W lemma="potere" msd="VER:pres" in="-4:vobj" out="1:vobj|-3:subj">può</W>
+<W lemma="potere" msd="VER:pres" in="-4:vobj" out="1:vobj|-3:subj">puÃ²</W>
 <W lemma="sostituire" msd="VER:infi" in="-1:vobj" out="1:dobj">sostituire</W>
 <W lemma="il" msd="DET:def" in="-1:dobj" out="1:nobj|2:mod">il</W>
 <W lemma="consumo" msd="NOM" in="-1:nobj" out="">consumo</W>
@@ -129,7 +129,7 @@
 <W lemma="contraccettivo" msd="ADJ" in="-1:mod" out="">contraccettive</W>
 <W lemma="." msd="SENT" in="-6:pnct" out="">.</W>
 <W lemma="in" msd="PRE" in="4:mod" out="1:nobj">In</W>
-<W lemma="età" msd="NOM" in="-1:nobj" out="2:mod">età</W>
+<W lemma="etÃ " msd="NOM" in="-1:nobj" out="2:mod">etÃ </W>
 <W lemma="relativamente" msd="ADV" in="1:mod" out="">relativamente</W>
 <W lemma="giovane" msd="ADJ" in="-2:mod" out="-1:mod">giovane</W>
 <W lemma="avere|riavere" msd="VER:pres" in="" out="-4:mod|1:vobj|17:conj">ha</W>
@@ -180,7 +180,7 @@
 <W lemma="con" msd="PRE" in="3:mod" out="1:nobj">con</W>
 <W lemma="cui" msd="PRO:rela" in="-6:ref|-1:nobj" out="">cui</W>
 <W lemma="si" msd="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="essere" msd="VER:pres" in="-6:rel" out="-1:robj|1:vobj|-3:mod">è</W>
+<W lemma="essere" msd="VER:pres" in="-6:rel" out="-1:robj|1:vobj|-3:mod">Ã¨</W>
 <W lemma="trovare" msd="VER:pper" in="-1:vobj" out="1:mod|2:mod">trovata</W>
 <W lemma="bene" msd="ADV" in="-1:mod" out="">bene</W>
 <W lemma="senza" msd="PRE" in="-2:mod" out="1:vobj">senza</W>

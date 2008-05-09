@@ -16,7 +16,7 @@
 <W msd="NN" in="-1:nobj" out="">blame</W>
 <W msd="IN" in="-4:pobj" out="3:nobj">on</W>
 <W msd="NNP" in="2:namef" out="">Richard</W>
-<W msd="NNP" in="1:namel" out="">Møller</W>
+<W msd="NNP" in="1:namel" out="">MÃ¸ller</W>
 <W msd="NNP" in="-3:nobj" out="-2:namef|-1:namel">Nielsen</W>
 <W msd="." in="-18:pnct" out="">.</W>
 </s>

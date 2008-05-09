@@ -112,7 +112,7 @@
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="IN" in="-11:mod" out="-4:mod|1:nobj">in</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="1:coord|3:nobj">Halkær</W>
+<W msd="NNP" in="-1:nobj" out="1:coord|3:nobj">HalkÃ¦r</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
 <W msd="NNP" in="-1:conj" out="1:[nobj]">Sebber</W>
 <W msd="NNS" in="-3:nobj|-1:[nobj]" out="">broads</W>
@@ -151,7 +151,7 @@
 <W msd="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W msd="JJ" in="" out="">-søwo</W>
+<W msd="JJ" in="" out="">-sÃ¸wo</W>
 </s>
 <s>
 <W msd="CD" in="3:subj" out="2:nobj">10,000</W>

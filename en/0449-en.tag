@@ -95,7 +95,7 @@
 <W msd="NNS" in="-1:nobj" out="">words</W>
 <W msd="MD" in="" out="-2:subj|1:vobj|5:pnct">can</W>
 <W msd="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:pred">make</W>
-<W msd="NNP" in="-1:dobj" out="1:possd">André's</W>
+<W msd="NNP" in="-1:dobj" out="1:possd">AndrÃ©'s</W>
 <W msd="NN" in="-1:possd" out="">head</W>
 <W msd="JJ" in="-3:pred" out="">tired</W>
 <W msd="." in="-5:pnct" out="">.</W>
@@ -190,7 +190,7 @@
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="JJ" in="2:subj|4:[subj]" out="1:possd">André's</W>
+<W msd="JJ" in="2:subj|4:[subj]" out="1:possd">AndrÃ©'s</W>
 <W msd="NNS" in="-1:possd" out="">eyes</W>
 <W msd="MD" in="" out="-2:subj|1:mod|2:vobj|10:coord|29:pnct">could</W>
 <W msd="RB" in="-1:mod" out="">not</W>

@@ -1,26 +1,11 @@
 
-Et chok i en verden, der har været vant til vækst  -  og som regel
-kraftig vækst.
+A shock in a world that has been used to growth - and, as a rule, strong growth.
 
-Men selv om den totale investering faldt, steg den betydeligt for 
-visse typer hardware, nemlig PC'er, workstations og små og mellemstore 
-systemer til flere brugere  -  alt sammen for så vidt angår maskiner 
-med Unix-styresystem. Her steg investeringen med i gennemsnit 12 
-procent.
+But even though total investment fell, it rose significantly for certain types of hardware, namely personal computers, workstations and small and medium-sized systems for multiple users - all to this extent dealing with machines with a Unix monitoring system.  Here, investment rose by an average of 12 percent.
 
-" Unix-delen af mindre flerbrugersystemer nåede i '90 cirka halvdelen 
-af salget. I 1996 vil Unix-andelen være på 70-80 procent, " spår Per
-Andersen fra analysefirmaet IDC Scandinavia og ansvarlig for analysen 
-af Unix-markedet.
+"The Unix part of smaller multiple user systems attained approximately half of the sales in the '90s.  In 1996, the Unix part will be 70-80 percent," predicts Per Andersen from the analysis firm of IDC Scandinavia and who is responsible for the analysis of the Unix market.
 
-" Unix kommer ikke til at overtage DOS-dominansen på skrivebordet. 
-Unix' rolle er i serveren. Og Unix er ikke afløsning af tidligere 
-systemer, men skal være et supplement. PC'en dræbte jo heller ikke 
-mainframen, men revolutionerede først og fremmest brugen af 
-tekstbehandling og andre enkle applikationer. " Hardware uden interesse 
-På dette marked  -  Unix og de åbne systemer, der i sidste ende 
-skal gøre det muligt at overføre applikationer mellem forskellige 
-flerbrugersystemer  -  er der benhård konkurrence for tiden.
+"Unix will not overtake the dominance of DOS on the desktop.  Unix's role is in the server.  And Unix is not a substitute for former systems but is to be a supplement.  The personal computer did not kill the mainframe, but first and foremost revolutionised the use of word processing and other simple applications."  Hardware without interest In this market - Unix and open systems, which ultimately are to make it possible to transfer applications between different multiple user systems - there is a stiff competition at the moment. 
 
 
 

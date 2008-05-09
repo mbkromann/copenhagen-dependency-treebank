@@ -2,7 +2,7 @@
 <W msd="NNP" in="4:subj" out="1:pobj">Chief</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="">Gønger</W>
+<W msd="NNP" in="-1:nobj" out="">GÃ¸nger</W>
 <W msd="VBD" in="" out="-4:subj|1:dobj|3:mod|5:lobj|12:mod|16:pnct">fought</W>
 <W msd="PRP$" in="-1:dobj" out="1:possd">its</W>
 <W msd="NN" in="-1:possd" out="">way</W>
@@ -174,7 +174,7 @@
 <W msd="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="JJ" in="1:mod" out="">Gønge</W>
+<W msd="JJ" in="1:mod" out="">GÃ¸nge</W>
 <W msd="NN" in="3:subj|4:[subj]" out="-1:mod|2:appr">producer</W>
 <W msd="NNP" in="1:namef" out="">Sven</W>
 <W msd="NNP" in="-2:appr" out="-1:namef">Clausen</W>
@@ -206,7 +206,7 @@
 <W msd="NNP" in="-1:dobj" out="1:pobj">Chief</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Gønger</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">GÃ¸nger</W>
 <W msd="NNP" in="-1:nobj" out="">II</W>
 <W msd="CC" in="-7:coord" out="1:conj">and</W>
 <W msd="MD" in="-1:conj" out="-11:[subj]|1:vobj">will</W>

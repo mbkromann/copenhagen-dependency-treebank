@@ -1,19 +1,19 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1143-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1143-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1143-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Dogs" outsign="Hunde"/>
 <align out="a44" type="" in="b2" creator="-1" insign="and" outsign="og"/>
-<align out="a45" type="" in="b3 b4" creator="-1" insign="atomic fuel" outsign="atombrændsel"/>
+<align out="a45" type="" in="b3 b4" creator="-1" insign="atomic fuel" outsign="atombrÃ¦ndsel"/>
 <align out="a50" type="" in="b7" creator="-1" insign="Sweden" outsign="Sverige"/>
 <align out="a51" type="" in="b8" creator="-1" insign="has" outsign="har"/>
-<align out="a52" type="" in="b9" creator="-1" insign="introduced" outsign="indført"/>
+<align out="a52" type="" in="b9" creator="-1" insign="introduced" outsign="indfÃ¸rt"/>
 <align out="a53" type="" in="b10" creator="-1" insign="a" outsign="en"/>
-<align out="a57" type="" in="b14" creator="-1" insign="for" outsign="på"/>
+<align out="a57" type="" in="b14" creator="-1" insign="for" outsign="pÃ¥"/>
 <align out="a60" type="" in="b16" creator="-1" insign="a" outsign="en"/>
 <align out="a64" type="" in="b19" creator="-1" insign="through" outsign="gennem"/>
 <align out="a65" type="" in="b20" creator="-1" insign="Sweden" outsign="Sverige"/>
 <align out="a68" type="" in="b22" creator="-1" insign="it" outsign="den"/>
-<align out="a69" type="" in="b23" creator="-1" insign="must" outsign="må"/>
+<align out="a69" type="" in="b23" creator="-1" insign="must" outsign="mÃ¥"/>
 <align out="a76" type="" in="b27" creator="-1" insign="." outsign="."/>
 <align out="a79" type="" in="b30" creator="-1" insign="Therefore" outsign="Derfor"/>
 <align out="a80" type="" in="b33" creator="-1" insign="is" outsign="er"/>
@@ -21,11 +21,11 @@
 <align out="a82" type="" in="b34" creator="-1" insign="with" outsign="med"/>
 <align out="a83" type="" in="b35" creator="-1" insign="wonder" outsign="forundring"/>
 <align out="a85" type="" in="b37" creator="-1" insign="you" outsign="man"/>
-<align out="a86" type="" in="b38" creator="-1" insign="read" outsign="læser"/>
+<align out="a86" type="" in="b38" creator="-1" insign="read" outsign="lÃ¦ser"/>
 <align out="a89" type="" in="b40" creator="-1" insign="Sweden" outsign="Sverige"/>
 <align out="a91" type="" in="b41" creator="-1" insign="can" outsign="kan"/>
 <align out="a93" type="" in="b44" creator="-1" insign="radioactive" outsign="radioaktivt"/>
-<align out="a94" type="" in="b45 b46" creator="-1" insign="atomic fuel" outsign="atombrændsel"/>
+<align out="a94" type="" in="b45 b46" creator="-1" insign="atomic fuel" outsign="atombrÃ¦ndsel"/>
 <align out="a95" type="" in="b47" creator="-1" insign="through" outsign="gennem"/>
 <align out="a96" type="" in="b48" creator="-1" insign="Denmark" outsign="Danmark"/>
 <align out="a97" type="" in="b49" creator="-1" insign="from" outsign="fra"/>
@@ -68,7 +68,7 @@
 <align out="a165" type="" in="b125" creator="-1" insign="it" outsign="der"/>
 <align out="a169" type="" in="b127" creator="-1" insign="an" outsign="en"/>
 <align out="a170" type="" in="b128" creator="-1" insign="event" outsign="begivenhed"/>
-<align out="a175" type="" in="b133" creator="-1" insign="years" outsign="år"/>
+<align out="a175" type="" in="b133" creator="-1" insign="years" outsign="Ã¥r"/>
 <align out="a177" type="" in="b135" creator="-1" insign="in" outsign="i"/>
 <align out="a179" type="" in="b138" creator="-1" insign="," outsign=","/>
 <align out="a180" type="" in="b139" creator="-1" insign="and" outsign="og"/>
@@ -107,7 +107,7 @@
 <align out="a219" type="" in="b181" creator="-1" insign="Francesco" outsign="Francesco"/>
 <align out="a220" type="" in="b182" creator="-1" insign="Cristofoli" outsign="Christofoli"/>
 <align out="a221" type="" in="b183" creator="-1" insign="has" outsign="har"/>
-<align out="a222" type="" in="b184" creator="-1" insign="done" outsign="udført"/>
+<align out="a222" type="" in="b184" creator="-1" insign="done" outsign="udfÃ¸rt"/>
 <align out="a223" type="" in="b185" creator="-1" insign="as" outsign="som"/>
 <align out="a224" type="" in="b186" creator="-1" insign="head" outsign="chef"/>
 <align out="a225" type="" in="b187" creator="-1" insign="and" outsign="og"/>
@@ -124,8 +124,8 @@
 <align out="a242" type="" in="b208" creator="-1" insign="," outsign=","/>
 <align out="b31" type="" in="b31" creator="-1" insign="," outsign=","/>
 <align out="a56" type="" in="b11" creator="0" insign="fee" outsign="afgift"/>
-<align out="a54" type="" in="b12" creator="0" insign="so" outsign="så"/>
-<align out="a55" type="" in="b13" creator="0" insign="high" outsign="høj"/>
+<align out="a54" type="" in="b12" creator="0" insign="so" outsign="sÃ¥"/>
+<align out="a55" type="" in="b13" creator="0" insign="high" outsign="hÃ¸j"/>
 <align out="a59" type="" in="b15" creator="0" insign="transporting" outsign="transportere"/>
 <align out="a58" type="s" in="b15" creator="0" insign="transporting" outsign="at"/>
 <align out="a61" type="" in="b17" creator="0" insign="dog" outsign="hund"/>
@@ -156,12 +156,12 @@
 <align out="a115 a116 a117" type="" in="b64 b65 b66 b67" creator="0" insign="The Royal Danish Orchestra" outsign="Det kongelige Kapel"/>
 <align out="a122" type="" in="b74 b75" creator="0" insign="August 26" outsign="26/8"/>
 <align out="b73" type="" in="b73" creator="0" insign="on" outsign="on"/>
-<align out="a124" type="" in="b77" creator="0" insign="portrait" outsign="portræt"/>
+<align out="a124" type="" in="b77" creator="0" insign="portrait" outsign="portrÃ¦t"/>
 <align out="a125" type="" in="b78" creator="0" insign="of" outsign="af"/>
 <align out="a128" type="s" in="b79 b81" creator="0" insign="the of" outsign="Operas"/>
 <align out="a128" type="" in="b84" creator="0" insign="Opera" outsign="Operas"/>
 <align out="b94" type="" in="b94" creator="0" insign="," outsign=","/>
-<align out="a140" type="" in="b95 b96" creator="0" insign="the end" outsign="ophøret"/>
+<align out="a140" type="" in="b95 b96" creator="0" insign="the end" outsign="ophÃ¸ret"/>
 <align out="a142" type="" in="b98 b99" creator="0" insign="the collaboration" outsign="samarbejdet"/>
 <align out="a144 a145 a146" type="" in="b101 b102 b103 b104" creator="0" insign="the Royal Danish Orchestra" outsign="Det kgl. Kapel"/>
 <align out="a139" type="" in="b107" creator="0" insign="was" outsign="blev"/>

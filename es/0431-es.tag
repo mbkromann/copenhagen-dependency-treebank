@@ -26,7 +26,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="NC" lemma="premio">premio</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">gan√≥</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Harald</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Jensen</W>
@@ -236,7 +236,7 @@
 <W msd="NP" lemma="&lt;unknown&gt;">Copenhagen</W>
 <W msd="NP" lemma="&lt;unknown&gt;">A/S</W>
 <W msd="FS" lemma=".">.</W>
-<W msd="NC" lemma="felicitaciÛn">Felicitaciones</W>
+<W msd="NC" lemma="felicitacin">Felicitaciones</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="&lt;unknown&gt;">orfebre</W>

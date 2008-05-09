@@ -1,7 +1,7 @@
 <s>
 <W msd="NNP" in="" out="1:pnct|2:mod">Susanne</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NN" in="-2:mod" out="">Østrup</W>
+<W msd="NN" in="-2:mod" out="">Ã˜strup</W>
 </s>
 <s>
 <W msd="NNP" in="1:mod" out="">Best</W>
@@ -81,7 +81,7 @@
 </s>
 <s>
 <W msd="CD" in="-4:list" out="1:list">4600</W>
-<W msd="NNP" in="-1:list" out="">Køge</W>
+<W msd="NNP" in="-1:list" out="">KÃ¸ge</W>
 </s>
 <s>
 <W msd="NNP" in="" out="1:dobj">Cough</W>

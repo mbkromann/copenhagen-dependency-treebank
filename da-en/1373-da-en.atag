@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1373-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1373-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1373-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Two" outsign="To"/>
 <align out="a44" type="" in="b2" creator="-1" insign="RS's" outsign="RS'ere"/>
@@ -31,7 +31,7 @@
 <align out="a97" type="" in="b55" creator="-1" insign="temperamental" outsign="hidsige"/>
 <align out="a98" type="" in="b56" creator="-1" insign="version" outsign="udgave"/>
 <align out="a99" type="" in="b57" creator="-1" insign="with" outsign="med"/>
-<align out="a102 a103" type="" in="b64" creator="-1" insign="lengthwise" outsign="på langs"/>
+<align out="a102 a103" type="" in="b64" creator="-1" insign="lengthwise" outsign="pÃ¥ langs"/>
 <align out="a104" type="" in="b65" creator="-1" insign="." outsign="."/>
 <align out="a109" type="" in="b68" creator="-1" insign="While" outsign="Mens"/>
 <align out="a111" type="" in="b71" creator="-1" insign="2000" outsign="2000"/>
@@ -47,11 +47,11 @@
 <align out="a126" type="" in="b91" creator="-1" insign="is" outsign="er"/>
 <align out="a129" type="" in="b93" creator="-1" insign="," outsign=","/>
 <align out="a132" type="" in="b97" creator="-1" insign="somewhat" outsign="noget"/>
-<align out="a133" type="" in="b98" creator="-1" insign="larger" outsign="større"/>
+<align out="a133" type="" in="b98" creator="-1" insign="larger" outsign="stÃ¸rre"/>
 <align out="a134" type="" in="b99" creator="-1" insign="than" outsign="end"/>
 <align out="a136" type="" in="b103" creator="-1" insign="," outsign=","/>
 <align out="a137" type="" in="b104" creator="-1" insign="and" outsign="og"/>
-<align out="a138" type="" in="b105" creator="-1" insign="then" outsign="så"/>
+<align out="a138" type="" in="b105" creator="-1" insign="then" outsign="sÃ¥"/>
 <align out="a139" type="" in="b107" creator="-1" insign="is" outsign="er"/>
 <align out="a140" type="" in="b106" creator="-1" insign="it" outsign="den"/>
 <align out="a141" type="" in="b108" creator="-1" insign="equipped" outsign="forsynet"/>
@@ -63,11 +63,11 @@
 <align out="a147" type="" in="b114" creator="-1" insign="intercooler" outsign="intercooler"/>
 <align out="a148" type="" in="b115" creator="-1" insign="." outsign="."/>
 <align out="a153" type="" in="b121" creator="-1" insign="there" outsign="der"/>
-<align out="a154" type="" in="b123" creator="-1" insign="so" outsign="så"/>
+<align out="a154" type="" in="b123" creator="-1" insign="so" outsign="sÃ¥"/>
 <align out="a155" type="" in="b124" creator="-1" insign="much" outsign="meget"/>
 <align out="a156" type="" in="b125" creator="-1" insign="more" outsign="mere"/>
 <align out="a157" type="" in="b126" creator="-1" insign="noise" outsign="rabalder"/>
-<align out="a158" type="" in="b127" creator="-1" insign="on" outsign="på"/>
+<align out="a158" type="" in="b127" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a159" type="" in="b128" creator="-1" insign="the" outsign="det"/>
 <align out="a162" type="" in="b132" creator="-1" insign="with" outsign="med"/>
 <align out="a163" type="" in="b133" creator="-1" insign="a" outsign="en"/>
@@ -88,10 +88,10 @@
 <align out="a191" type="" in="b164" creator="-1" insign="cars" outsign="biler"/>
 <align out="a194" type="" in="b166 b167" creator="-1" insign="apart from" outsign="bortset_fra"/>
 <align out="a195" type="" in="b168" creator="-1" insign="the" outsign="det"/>
-<align out="a196" type="" in="b169" creator="-1" insign="horrible" outsign="skrækkelige"/>
+<align out="a196" type="" in="b169" creator="-1" insign="horrible" outsign="skrÃ¦kkelige"/>
 <align out="a197" type="" in="b170" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a198" type="" in="b171" creator="-1" insign="Dutch" outsign="hollandske"/>
-<align out="a199" type="" in="b172" creator="-1" insign="extension" outsign="udtræk"/>
+<align out="a199" type="" in="b172" creator="-1" insign="extension" outsign="udtrÃ¦k"/>
 <align out="a200" type="" in="b173" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a204" type="" in="b177" creator="-1" insign="," outsign=","/>
 <align out="a206" type="" in="b180" creator="-1" insign="and" outsign="og"/>
@@ -107,7 +107,7 @@
 <align out="a223" type="" in="b204" creator="-1" insign="up" outsign="op"/>
 <align out="a224" type="" in="b205" creator="-1" insign="in" outsign="i"/>
 <align out="a225" type="" in="b206" creator="-1" insign="rotations" outsign="omdrejninger"/>
-<align out="a227" type="" in="b210" creator="-1" insign="get" outsign="få"/>
+<align out="a227" type="" in="b210" creator="-1" insign="get" outsign="fÃ¥"/>
 <align out="a232" type="" in="b216" creator="-1" insign="work" outsign="arbejde"/>
 <align out="a233" type="" in="b217" creator="-1" insign="." outsign="."/>
 <align out="a53" type="" in="b7" creator="0" insign="already" outsign="allerede"/>
@@ -122,7 +122,7 @@
 <align out="a48" type="" in="b4" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a74" type="" in="b27" creator="0" insign="4-cylinder" outsign="4-cyl."/>
 <align out="a75" type="" in="b28" creator="0" insign="with" outsign="og"/>
-<align out="a76" type="" in="b29" creator="0" insign="water-cooled" outsign="vandkølede"/>
+<align out="a76" type="" in="b29" creator="0" insign="water-cooled" outsign="vandkÃ¸lede"/>
 <align out="a77" type="" in="b30 b31" creator="0" insign="2 litre" outsign="2-liter"/>
 <align out="a78" type="?" in="b32 b33 b34" creator="0" insign="twin cam engines" outsign="twincamrmaskiner"/>
 <align out="a81" type="" in="b38 b39" creator="0" insign="cylinder heads" outsign="topstykke"/>
@@ -136,7 +136,7 @@
 <align out="a101" type="" in="b62 b63" creator="0" insign="the engine" outsign="motoren"/>
 <align out="a91" type="s" in="b50" creator="0" insign="a" outsign="motoren"/>
 <align out="a91" type="" in="b52" creator="0" insign="engine" outsign="motoren"/>
-<align out="a92 a93" type="" in="b51" creator="0" insign="transverse" outsign="på tværs"/>
+<align out="a92 a93" type="" in="b51" creator="0" insign="transverse" outsign="pÃ¥ tvÃ¦rs"/>
 <align out="a110" type="s" in="b69" creator="0" insign="the" outsign="RS"/>
 <align out="a110" type="" in="b70" creator="0" insign="RS" outsign="RS"/>
 <align out="a117 a118 a119" type="" in="b77 b78" creator="0" insign="that is" outsign="det vil sige"/>
@@ -151,8 +151,8 @@
 <align out="a150" type="" in="b117" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a149" type="" in="b116" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a160" type="" in="b129" creator="0" insign="permanent" outsign="permanente"/>
-<align out="a161" type="" in="b130 b131" creator="0" insign="4-wheel drive" outsign="4-hjulstræk"/>
-<align out="a165" type="" in="b136" creator="0" insign="of" outsign="på"/>
+<align out="a161" type="" in="b130 b131" creator="0" insign="4-wheel drive" outsign="4-hjulstrÃ¦k"/>
+<align out="a165" type="" in="b136" creator="0" insign="of" outsign="pÃ¥"/>
 <align out="a166" type="" in="b137 b138 b139" creator="0" insign="34 : 66" outsign="34:66"/>
 <align out="a167" type="" in="b140" creator="0" insign="front" outsign="for"/>
 <align out="a172" type="" in="b145" creator="-1" insign="<s>" outsign="<s>"/>
@@ -160,13 +160,13 @@
 <align out="a180" type="" in="b153" creator="0" insign="5-step" outsign="5-trins"/>
 <align out="a181" type="" in="b154 b155" creator="0" insign="MTX75 gearbox" outsign="MTX75-gearkasse"/>
 <align out="a187" type="" in="b159 b160" creator="0" insign="The difference" outsign="Forskellen"/>
-<align out="a188" type="" in="b161" creator="0" insign="between" outsign="på"/>
+<align out="a188" type="" in="b161" creator="0" insign="between" outsign="pÃ¥"/>
 <align out="a192" type="" in="b184" creator="0" insign="is" outsign="er"/>
 <align out="a193" type="" in="a193" creator="0" insign="," outsign=","/>
 <align out="b165" type="" in="b165" creator="0" insign="," outsign=","/>
 <align out="a183" type="" in="b157" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a186" type="" in="b158" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a201 a202" type="" in="b174" creator="0" insign="behind" outsign="bag på"/>
+<align out="a201 a202" type="" in="b174" creator="0" insign="behind" outsign="bag pÃ¥"/>
 <align out="a203" type="" in="b175 b176" creator="0" insign="the Cosworth" outsign="Cosworth'en"/>
 <align out="a205" type="" in="b178 b179" creator="0" insign="the transmission" outsign="transmissionen"/>
 <align out="a208" type="" in="b182 b183" creator="0" insign="equipment details" outsign="udstyrsdetaljer"/>
@@ -178,15 +178,15 @@
 <align out="a216" type="" in="b192 b193" creator="0" insign="moment curve" outsign="momentkurve"/>
 <align out="a218" type="" in="b195 b196 b197" creator="0" insign="the rally rocket" outsign="rallyraketten"/>
 <align out="a226" type="?" in="b207 b208 b209" creator="0" insign="in order to" outsign="for"/>
-<align out="a230" type="s" in="b211" creator="0" insign="the" outsign="hestekræfter"/>
-<align out="a230" type="" in="b214" creator="0" insign="horsepower" outsign="hestekræfter"/>
+<align out="a230" type="s" in="b211" creator="0" insign="the" outsign="hestekrÃ¦fter"/>
+<align out="a230" type="" in="b214" creator="0" insign="horsepower" outsign="hestekrÃ¦fter"/>
 <align out="a231" type="" in="b215" creator="0" insign="to" outsign="i"/>
 <align out="a234" type="" in="b218" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a229" type="" in="b213" creator="-1" insign="227" outsign="227"/>
 <align out="a80" type="" in="b36 b37" creator="0" insign="16 ventilated" outsign="16-ventilet"/>
 <align out="a122" type="f" in="b82 b83" creator="0" insign="cylinder bores" outsign="boring"/>
-<align out="a124" type="f" in="b85 b86" creator="0" insign="piston strokes" outsign="slaglængde"/>
+<align out="a124" type="f" in="b85 b86" creator="0" insign="piston strokes" outsign="slaglÃ¦ngde"/>
 <align out="a130" type="f" in="b94 b95" creator="0" insign="cylinder bores" outsign="boringen"/>
-<align out="a135" type="f" in="b100 b101 b102" creator="0" insign="the piston stroke" outsign="slaglængden"/>
+<align out="a135" type="f" in="b100 b101 b102" creator="0" insign="the piston stroke" outsign="slaglÃ¦ngden"/>
 <align out="a228" type="f" in="b212" creator="0" insign="full" outsign="alle"/>
 </DTAGalign>

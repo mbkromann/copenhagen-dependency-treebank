@@ -9,7 +9,7 @@
 <W msd="VLadj" lemma="alimentar">alimentado</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">Tambi√©n</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VSfin" lemma="ser">fue</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="ADJ" lemma="grande">gran</W>
@@ -102,14 +102,14 @@
 <W msd="ART" lemma="el">los</W>
 <W msd="ADJ" lemma="presunto">presuntos</W>
 <W msd="CARD" lemma="dos">dos</W>
-<W msd="NC" lemma="ladrÛn">ladrones</W>
+<W msd="NC" lemma="ladrn">ladrones</W>
 <W msd="VMfin" lemma="poder">pudieran</W>
 <W msd="ADJ" lemma="circular">circular</W>
 <W msd="PREP" lemma="sin">sin</W>
 <W msd="NC" lemma="impedimento">impedimentos</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="VLinf" lemma="forzar">forzar</W>
-<W msd="NC" lemma="cajÛn">cajones</W>
+<W msd="NC" lemma="cajn">cajones</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="NC" lemma="armario">armarios</W>
 <W msd="CC" lemma="y">e</W>

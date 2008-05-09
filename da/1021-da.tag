@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Igen nye ejere i Kosan-selskaber</title>
-            <author gender=m born=1960>Snitkjær, Klavs</author>
+            <author gender=m born=1960>SnitkjÃ¦r, Klavs</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -43,10 +43,10 @@
 <s>
 <W lemma="den" msd="PD-CSU--U" in="5:subj|6:[subj]" out="3:mod|4:nobj">Den</W>
 <W lemma="tidlig" msd="ANC---=-R" in="2:mod" out="">tidligere</W>
-<W lemma="så" msd="RGU" in="1:mod" out="">så</W>
+<W lemma="sÃ¥" msd="RGU" in="1:mod" out="">sÃ¥</W>
 <W lemma="omfangsrig" msd="ANP[CN]SU=DU" in="-3:mod" out="-1:mod|-2:mod">omfangsrige</W>
 <W lemma="Kosan-gruppe" msd="NCCSU==I" in="-4:nobj" out="">Kosan-gruppe</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-5:subj|1:vobj|5:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-5:subj|1:vobj|5:pnct">er</W>
 <W lemma="spredt" msd="ANP[CN]SU=IU" in="-1:vobj" out="-6:[subj]|1:pobj">spredt</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
 <W lemma="al" msd="ANP[CN]PU=[DI]U" in="-1:nobj" out="1:nobj">alle</W>
@@ -54,11 +54,11 @@
 <W lemma="." msd="XP" in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="i_går" msd="RGU" in="1:mod" out="">I_går</W>
+<W lemma="i_gÃ¥r" msd="RGU" in="1:mod" out="">I_gÃ¥r</W>
 <W lemma="blive" msd="VADA=----A-" in="" out="-1:mod|1:subj|3:vobj|5:pnct|6:coord|14:pnct">blev</W>
 <W lemma="Kosan" msd="NP--U==-" in="-1:subj|2:[subj]" out="1:name">Kosan</W>
 <W lemma="Teknova" msd="NP--U==-" in="-1:name" out="">Teknova</W>
-<W lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-2:[subj]|1:part">solgt</W>
+<W lemma="sÃ¦lge" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-2:[subj]|1:part">solgt</W>
 <W lemma="fra" msd="RGU" in="-1:part" out="">fra</W>
 <W lemma="," msd="XP" in="-5:pnct" out="">,</W>
 <W lemma="og" msd="CC" in="-6:coord" out="5:conj">og</W>
@@ -66,7 +66,7 @@
 <W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
 <W lemma="Kosan" msd="NP--U==-" in="-1:nobj" out="1:name">Kosan</W>
 <W lemma="Holding" msd="NP--U==-" in="-1:name" out="">Holding</W>
-<W lemma="være" msd="VADR=----A-" in="-5:conj" out="-4:pred|1:mod|2:subj">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="-5:conj" out="-4:pred|1:mod|2:subj">er</W>
 <W lemma="kun" msd="RGU" in="-1:mod" out="">kun</W>
 <W lemma="Crisplant" msd="NP--U==-" in="-2:subj" out="">Crisplant</W>
 <W lemma="." msd="XP" in="-14:pnct" out="">.</W>
@@ -106,7 +106,7 @@
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
 <W lemma="blandt_andre" msd="RGU" in="-2:mod" out="4:nobj|5:pnct">blandt_andre</W>
 <W lemma="administrere" msd="VAPR=[SP][CN][DI]A-U" in="1:mod" out="">administrerende</W>
-<W lemma="direktør" msd="NCCSU==I" in="2:title" out="-1:mod">direktør</W>
+<W lemma="direktÃ¸r" msd="NCCSU==I" in="2:title" out="-1:mod">direktÃ¸r</W>
 <W lemma="Mogens" msd="NP--U==-" in="1:namef" out="">Mogens</W>
 <W lemma="Petersen" msd="NP--U==-" in="-4:nobj" out="-1:namef|-2:title">Petersen</W>
 <W lemma="," msd="XP" in="-5:pnct" out="">,</W>
@@ -121,7 +121,7 @@
 <W lemma="." msd="XP" in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="Teknova-direktør" msd="NCCSU==D" in="2:title" out="">Teknova-direktør</W>
+<W lemma="Teknova-direktÃ¸r" msd="NCCSU==D" in="2:title" out="">Teknova-direktÃ¸r</W>
 <W lemma="Erik" msd="NP--U==-" in="1:namef" out="">Erik</W>
 <W lemma="Thygesen" msd="NP--U==-" in="1:subj" out="-1:namef|-2:title">Thygesen</W>
 <W lemma="tegne" msd="VADR=----A-" in="" out="-1:subj|1:dobj|9:pnct|10:mod|21:pnct">tegner</W>
@@ -141,7 +141,7 @@
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
 <W lemma="indtil" msd="CS" in="-3:mod" out="2:vobj">indtil</W>
 <W lemma="der" msd="U=" in="1:expl|2:[expl]" out="">der</W>
-<W lemma="være" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:vobj">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:vobj">er</W>
 <W lemma="finde" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-2:[expl]|2:dobj">fundet</W>
 <W lemma="alternativ" msd="ANP[CN]PU=[DI]U" in="1:mod" out="">alternative</W>
 <W lemma="investor" msd="NCCPU==I" in="-2:dobj" out="-1:mod">investorer</W>
@@ -155,7 +155,7 @@
 <W lemma="have" msd="VADR=----A-" in="" out="-2:subj|1:mod|3:vobj|32:pnct">har</W>
 <W lemma="siden" msd="SP" in="-1:mod" out="1:nobj">siden</W>
 <W lemma="1989" msd="AC---U=--" in="-1:nobj" out="">1989</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-5:[subj]|1:vobj">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-5:[subj]|1:vobj">vÃ¦ret</W>
 <W lemma="eje" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-6:[subj]|1:pobj|9:mod|12:coord">ejet</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="Unibank" msd="NP--U==-" in="-1:nobj" out="4:appa">Unibank</W>
@@ -169,7 +169,7 @@
 <W lemma="70" msd="AC---U=--" in="-1:nobj" out="1:nobj">70</W>
 <W lemma="procent" msd="NCCPU==I" in="-1:nobj" out="">procent</W>
 <W lemma="og" msd="CC" in="-12:coord" out="1:<pobj:nobj>|12:<mod>">og</W>
-<W lemma="Kosan-direktør" msd="NCCPU==D" in="-1:<pobj:nobj>" out="2:appr">Kosan-direktørerne</W>
+<W lemma="Kosan-direktÃ¸r" msd="NCCPU==D" in="-1:<pobj:nobj>" out="2:appr">Kosan-direktÃ¸rerne</W>
 <W lemma="Mogens" msd="NP--U==-" in="1:namef" out="">Mogens</W>
 <W lemma="Petersen" msd="NP--U==-" in="-2:appr" out="-1:namef|1:pnct|3:conj|4:coord">Petersen</W>
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
@@ -192,7 +192,7 @@
 <W lemma="tidlig" msd="ANP---=-R" in="3:mod" out="1:mod">Tidligt</W>
 <W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
 <W lemma="1989" msd="AC---U=--" in="-1:nobj" out="">1989</W>
-<W lemma="sætte" msd="VADA=----A-" in="" out="-3:mod|1:subj|2:dobj|4:pobj|6:pnct|7:coord|29:pnct">satte</W>
+<W lemma="sÃ¦tte" msd="VADA=----A-" in="" out="-3:mod|1:subj|2:dobj|4:pobj|6:pnct|7:coord|29:pnct">satte</W>
 <W lemma="Tholstrup-familie" msd="NCCSU==D" in="-1:subj" out="">Tholstrup-familien</W>
 <W lemma="Kosan" msd="NP--U==-" in="-2:dobj" out="1:nobj">Kosan</W>
 <W lemma="gruppe" msd="NCCSU==D" in="-1:nobj" out="">Gruppen</W>
@@ -203,28 +203,28 @@
 <W lemma="i" msd="SP" in="4:mod" out="1:nobj">i</W>
 <W lemma="april" msd="NCCSU==I" in="-1:nobj" out="1:mod">april</W>
 <W lemma="samme" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="1:nobj">samme</W>
-<W lemma="år" msd="NCNSU==I" in="-1:nobj" out="">år</W>
-<W lemma="gennemføre" msd="VADA=----A-" in="-5:conj" out="-4:mod|1:subj|2:mod|13:dobj">gennemførte</W>
+<W lemma="Ã¥r" msd="NCNSU==I" in="-1:nobj" out="">Ã¥r</W>
+<W lemma="gennemfÃ¸re" msd="VADA=----A-" in="-5:conj" out="-4:mod|1:subj|2:mod|13:dobj">gennemfÃ¸rte</W>
 <W lemma="SDS" msd="NP--U==-" in="-1:subj" out="">SDS</W>
 <W lemma="sammen" msd="RGU" in="-2:mod" out="1:pobj">sammen</W>
 <W lemma="med" msd="SP" in="-1:pobj" out="1:nobj">med</W>
 <W lemma="fire" msd="AC---U=--" in="-1:nobj" out="1:nobj|5:appa">fire</W>
-<W lemma="Kosan-direktør" msd="NCCPU==I" in="-1:nobj" out="">Kosan-direktører</W>
+<W lemma="Kosan-direktÃ¸r" msd="NCCPU==I" in="-1:nobj" out="">Kosan-direktÃ¸rer</W>
 <W lemma="-" msd="XP" in="3:pnct" out=""> - </W>
 <W lemma="den" msd="PD-CSU--U" in="2:subj" out="1:mod">den</W>
 <W lemma="fjerde" msd="AO---U=--" in="-1:mod" out="">fjerde</W>
-<W lemma="være" msd="VADA=----A-" in="-5:appa" out="-2:subj|-3:pnct|2:pred|3:pnct">var</W>
+<W lemma="vÃ¦re" msd="VADA=----A-" in="-5:appa" out="-2:subj|-3:pnct|2:pred|3:pnct">var</W>
 <W lemma="Robert" msd="NP--U==-" in="1:namef" out="">Robert</W>
 <W lemma="Storm" msd="NP--U==-" in="-2:pred" out="-1:namef">Storm</W>
 <W lemma="-" msd="XP" in="-3:pnct" out=""> - </W>
 <W lemma="den" msd="PD-NSU--U" in="-13:dobj" out="1:mod|3:nobj">det</W>
-<W lemma="første" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">første</W>
+<W lemma="fÃ¸rste" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">fÃ¸rste</W>
 <W lemma="management" msd="NCNSU==I" in="1:nobj" out="">management</W>
 <W lemma="buy-out" msd="NCNSU==I" in="-3:nobj" out="-1:nobj">buy-out</W>
 <W lemma="." msd="XP" in="-29:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="på" msd="SP" in="3:mod" out="1:nobj">På</W>
+<W lemma="pÃ¥" msd="SP" in="3:mod" out="1:nobj">PÃ¥</W>
 <W lemma="den" msd="PD-NSU--U" in="-1:nobj" out="1:nobj">det</W>
 <W lemma="tidspunkt" msd="NCNSU==I" in="-1:nobj" out="">tidspunkt</W>
 <W lemma="omfatte" msd="VADA=----A-" in="" out="-3:mod|1:subj|3:dobj|5:pnct">omfattede</W>

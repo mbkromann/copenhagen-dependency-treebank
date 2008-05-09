@@ -30,7 +30,7 @@
 <W msd="IN" in="-4:mod" out="1:nobj">for</W>
 <W msd="NNP" in="-1:nobj" out="">Camilla</W>
 <W msd="," in="-7:pnct" out="">,</W>
-<W msd="NNP" in="1:subj" out="">Bjørn</W>
+<W msd="NNP" in="1:subj" out="">BjÃ¸rn</W>
 <W msd="VBD" in="" out="-9:qobj|-1:subj|1:pnct|2:mod|10:pnct">explained</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="WRB" in="-2:mod" out="2:vobj">when</W>
@@ -109,7 +109,7 @@
 <W msd="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="">Bjørn</W>
+<W msd="NNP" in="1:subj" out="">BjÃ¸rn</W>
 <W msd="VBD" in="" out="-1:subj|1:dobj|4:coord|12:pnct">did</W>
 <W msd="WP" in="-1:dobj|2:[dobj]" out="2:rel">what</W>
 <W msd="PRP" in="1:subj" out="">she</W>

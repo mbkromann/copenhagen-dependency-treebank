@@ -55,11 +55,11 @@
 <W msd="RB" in="1:mod" out="">never</W>
 <W msd="VBN" in="-4:rel" out="-2:subj|-1:mod|2:dobj">reached</W>
 <W msd="NNP" in="1:namef" out="">Poul</W>
-<W msd="NNP" in="-2:dobj" out="-1:namef">Schlüter</W>
+<W msd="NNP" in="-2:dobj" out="-1:namef">SchlÃ¼ter</W>
 <W msd=":" in="-7:pnct" out="">-</W>
 <W msd="VBZ" in="" out="-8:qobj|2:subj|3:pnct">says</W>
 <W msd="NNP" in="1:namef" out="">Poul</W>
-<W msd="NNP" in="-2:subj" out="-1:namef">Schlüter</W>
+<W msd="NNP" in="-2:subj" out="-1:namef">SchlÃ¼ter</W>
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -96,7 +96,7 @@
 <W msd="VBN" in="-2:vobj" out="-3:[subj]|-1:mod|1:pobj">informed</W>
 <W msd="IN" in="-1:pobj" out="3:nobj">by</W>
 <W msd="NNP" in="2:namef" out="">Poul</W>
-<W msd="NNP" in="1:namel" out="">Lundbæk</W>
+<W msd="NNP" in="1:namel" out="">LundbÃ¦k</W>
 <W msd="NNP" in="-3:nobj" out="-2:namef|-1:namel">Andersen</W>
 <W msd=":" in="-7:pnct" out="">-</W>
 <W msd="CC" in="-16:coord" out="1:conj">and</W>
@@ -116,7 +116,7 @@
 <W msd="NNP" in="1:mod" out="">Prime</W>
 <W msd="NNP" in="2:title" out="-1:mod">Minister</W>
 <W msd="NNP" in="1:namef" out="">Poul</W>
-<W msd="NNP" in="-6:appr" out="-2:title|-1:namef">Schlüter</W>
+<W msd="NNP" in="-6:appr" out="-2:title|-1:namef">SchlÃ¼ter</W>
 <W msd="." in="-46:pnct" out="">.</W>
 </s>
 <s>
@@ -130,7 +130,7 @@
 </s>
 <s>
 <W msd="NNP" in="2:namef" out="">Poul</W>
-<W msd="NNP" in="1:namel" out="">Lundbæk</W>
+<W msd="NNP" in="1:namel" out="">LundbÃ¦k</W>
 <W msd="NNP" in="1:subj" out="-2:namef|-1:namel">Andersen</W>
 <W msd="VBD" in="" out="-1:subj|1:pobj|22:pnct|4:mod|5:pnct#">met</W>
 <W msd="IN" in="-1:pobj" out="2:nobj">with</W>
@@ -141,7 +141,7 @@
 <W msd="CD" in="-1:nobj|0:pnct#" out="0:pnct#">29,1989,</W>
 <W msd="WRB" in="-2:ref|4:mod" out="">when</W>
 <W msd="NNP" in="2:namef" out="">Poul</W>
-<W msd="NNP" in="1:namel" out="">Lundbæk</W>
+<W msd="NNP" in="1:namel" out="">LundbÃ¦k</W>
 <W msd="NNP" in="1:subj" out="-2:namef|-1:namel">Andersen</W>
 <W msd="VBD" in="-6:rel" out="-4:mod|-1:subj|1:dobj">discussed</W>
 <W msd="DT" in="-1:dobj" out="6:mod|2:nobj">all</W>

@@ -102,7 +102,7 @@
 <W msd="." in="-40:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:namef" out="">Jørn</W>
+<W msd="NNP" in="1:namef" out="">JÃ¸rn</W>
 <W msd="NNP" in="11:subj" out="-1:namef|1:pnct|2:appa">Lund</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NN" in="-2:appa" out="1:pobj|8:pnct">editor</W>

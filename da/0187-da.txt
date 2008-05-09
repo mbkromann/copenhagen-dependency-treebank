@@ -1,26 +1,26 @@
 
-Et chok i en verden, der har været vant til vækst  -  og som regel
- kraftig vækst.
+Et chok i en verden, der har vÃ¦ret vant til vÃ¦kst  -  og som regel
+ kraftig vÃ¦kst.
 
 Men selv om den totale investering faldt, steg den betydeligt for 
-visse typer hardware, nemlig PC'er, workstations og små og mellemstore 
-systemer til flere brugere  -  alt sammen for så vidt angår maskiner 
+visse typer hardware, nemlig PC'er, workstations og smÃ¥ og mellemstore 
+systemer til flere brugere  -  alt sammen for sÃ¥ vidt angÃ¥r maskiner 
 med Unix-styresystem. Her steg investeringen med i gennemsnit 12 
 procent.
 
-" Unix-delen af mindre flerbrugersystemer nåede i '90 cirka halvdelen 
-af salget. I 1996 vil Unix-andelen være på 70-80 procent, " spår Per
+" Unix-delen af mindre flerbrugersystemer nÃ¥ede i '90 cirka halvdelen 
+af salget. I 1996 vil Unix-andelen vÃ¦re pÃ¥ 70-80 procent, " spÃ¥r Per
  Andersen fra analysefirmaet IDC Scandinavia og ansvarlig for analysen 
 af Unix-markedet.
 
-" Unix kommer ikke til at overtage DOS-dominansen på skrivebordet. 
-Unix' rolle er i serveren. Og Unix er ikke afløsning af tidligere 
-systemer, men skal være et supplement. PC'en dræbte jo heller ikke 
-mainframen, men revolutionerede først og fremmest brugen af 
+" Unix kommer ikke til at overtage DOS-dominansen pÃ¥ skrivebordet. 
+Unix' rolle er i serveren. Og Unix er ikke aflÃ¸sning af tidligere 
+systemer, men skal vÃ¦re et supplement. PC'en drÃ¦bte jo heller ikke 
+mainframen, men revolutionerede fÃ¸rst og fremmest brugen af 
 tekstbehandling og andre enkle applikationer. " Hardware uden interesse 
-På dette marked  -  Unix og de åbne systemer, der i sidste ende 
-skal gøre det muligt at overføre applikationer mellem forskellige 
-flerbrugersystemer  -  er der benhård konkurrence for tiden.
+PÃ¥ dette marked  -  Unix og de Ã¥bne systemer, der i sidste ende 
+skal gÃ¸re det muligt at overfÃ¸re applikationer mellem forskellige 
+flerbrugersystemer  -  er der benhÃ¥rd konkurrence for tiden.
 
 
 

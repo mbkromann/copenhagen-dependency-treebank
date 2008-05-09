@@ -147,7 +147,7 @@
 <W msd="ART" lemma="un">una</W>
 <W msd="NC" lemma="zona">zona</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="exposición">exposiciones</W>
+<W msd="NC" lemma="exposicin">exposiciones</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ART" lemma="el">Los</W>
 <W msd="NC" lemma="partido">partidos</W>

@@ -164,7 +164,7 @@
 <W msd="RB" in="-2:mod" out="">accidentally</W>
 <W msd="IN" in="-3:mod" out="1:nobj">at</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="NN" in="-1:nobj" out="">café</W>
+<W msd="NN" in="-1:nobj" out="">cafÃ©</W>
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>

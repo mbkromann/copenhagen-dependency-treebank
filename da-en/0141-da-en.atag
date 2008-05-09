@@ -1,10 +1,10 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0141-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0141-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0141-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="After" outsign="Efter"/>
-<align out="a50" type="" in="b13 b14" creator="-1" insign="national coach" outsign="landstræner"/>
+<align out="a50" type="" in="b13 b14" creator="-1" insign="national coach" outsign="landstrÃ¦ner"/>
 <align out="a51" type="" in="b15" creator="-1" insign="Richard" outsign="Richard"/>
-<align out="a52" type="" in="b16" creator="-1" insign="Møller" outsign="Møller"/>
+<align out="a52" type="" in="b16" creator="-1" insign="MÃ¸ller" outsign="MÃ¸ller"/>
 <align out="a53" type="" in="b17" creator="-1" insign="Nielsen" outsign="Nielsen"/>
 <align out="a54" type="" in="b19" creator="-1" insign="only" outsign="kun"/>
 <align out="a57" type="" in="b21" creator="-1" insign="on" outsign="for"/>
@@ -53,13 +53,13 @@
 <align out="a136" type="" in="a136" creator="-1" insign="," outsign=","/>
 <align out="a137" type="" in="b101" creator="-1" insign="I" outsign="jeg"/>
 <align out="a141" type="" in="b105" creator="-1" insign="play" outsign="spille"/>
-<align out="a142" type="" in="b106" creator="-1" insign="on" outsign="på"/>
+<align out="a142" type="" in="b106" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a144" type="" in="b110" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
 <align out="a145" type="" in="b111" creator="-1" insign="and" outsign="og"/>
 <align out="a146" type="" in="b112" creator="-1" insign="the" outsign="den"/>
 <align out="a148" type="" in="b115" creator="-1" insign="I" outsign="jeg"/>
 <align out="a149" type="" in="b116" creator="-1" insign="really" outsign="rigtigt"/>
-<align out="a150" type="" in="b117" creator="-1" insign="feel" outsign="føler"/>
+<align out="a150" type="" in="b117" creator="-1" insign="feel" outsign="fÃ¸ler"/>
 <align out="a151" type="" in="a151" creator="-1" insign="," outsign=","/>
 <align out="a152" type="" in="b118" creator="-1" insign="I" outsign="jeg"/>
 <align out="a153" type="" in="b119" creator="-1" insign="can" outsign="kan"/>
@@ -77,28 +77,28 @@
 <align out="a170" type="" in="b138" creator="-1" insign="have" outsign="have"/>
 <align out="a171" type="" in="b139" creator="-1" insign="something" outsign="noget"/>
 <align out="a172" type="" in="b140" creator="-1" insign="to" outsign="at"/>
-<align out="a173" type="" in="b141" creator="-1" insign="fight" outsign="kæmpe"/>
+<align out="a173" type="" in="b141" creator="-1" insign="fight" outsign="kÃ¦mpe"/>
 <align out="a174" type="" in="b142" creator="-1" insign="for" outsign="for"/>
 <align out="a175" type="" in="b143" creator="-1" insign="." outsign="."/>
 <align out="a178" type="" in="b146" creator="-1" insign="And" outsign="Og"/>
 <align out="a179" type="" in="b147" creator="-1" insign="if" outsign="hvis"/>
 <align out="a180" type="" in="b148" creator="-1" insign="I" outsign="jeg"/>
 <align out="a181" type="" in="b149" creator="-1" insign="can" outsign="kan"/>
-<align out="a182" type="" in="b150" creator="-1" insign="make" outsign="gøre"/>
+<align out="a182" type="" in="b150" creator="-1" insign="make" outsign="gÃ¸re"/>
 <align out="a183" type="" in="b151" creator="-1" insign="a" outsign="en"/>
 <align out="a184" type="" in="b152" creator="-1" insign="good" outsign="god"/>
 <align out="a185" type="" in="b153" creator="-1" insign="effort" outsign="indsats"/>
 <align out="a187" type="" in="b155" creator="-1" insign="Richard" outsign="Richard"/>
-<align out="a188" type="" in="b156" creator="-1" insign="Møller" outsign="Møller"/>
+<align out="a188" type="" in="b156" creator="-1" insign="MÃ¸ller" outsign="MÃ¸ller"/>
 <align out="a189" type="" in="b157" creator="-1" insign="Nielsen" outsign="Nielsen"/>
 <align out="a202" type="" in="b168" creator="-1" insign="Lars" outsign="Lars"/>
 <align out="a203" type="" in="b169" creator="-1" insign="Olsen's" outsign="Olsens"/>
 <align out="a204" type="" in="b170" creator="-1" insign="cancellation" outsign="afbud"/>
 <align out="a205" type="" in="b172" creator="-1" insign="gives" outsign="giver"/>
-<align out="a206" type="" in="b171" creator="-1" insign="also" outsign="også"/>
+<align out="a206" type="" in="b171" creator="-1" insign="also" outsign="ogsÃ¥"/>
 <align out="a207" type="" in="b173" creator="-1" insign="veteran" outsign="veteranen"/>
 <align out="a208" type="" in="b174" creator="-1" insign="John" outsign="John"/>
-<align out="a209" type="" in="b175" creator="-1" insign="Sivebæk" outsign="Sivebæk"/>
+<align out="a209" type="" in="b175" creator="-1" insign="SivebÃ¦k" outsign="SivebÃ¦k"/>
 <align out="a210" type="" in="b176" creator="-1" insign="a" outsign="en"/>
 <align out="a211" type="" in="b177" creator="-1" insign="new" outsign="ny"/>
 <align out="a212" type="" in="b178" creator="-1" insign="function" outsign="funktion"/>
@@ -117,13 +117,13 @@
 <align out="a232" type="" in="b199" creator="-1" insign="," outsign=","/>
 <align out="a233" type="" in="b200" creator="-1" insign="and" outsign="og"/>
 <align out="a235" type="" in="b203" creator="-1" insign="Bjarne" outsign="Bjarne"/>
-<align out="a236" type="" in="b204" creator="-1" insign="Goldbæk" outsign="Goldbæk"/>
+<align out="a236" type="" in="b204" creator="-1" insign="GoldbÃ¦k" outsign="GoldbÃ¦k"/>
 <align out="a237" type="" in="b205" creator="-1" insign="," outsign=","/>
 <align out="a238" type="" in="b206" creator="-1" insign="Kaiserslautern" outsign="Kaiserslautern"/>
 <align out="a239" type="" in="b207" creator="-1" insign="," outsign=","/>
 <align out="a240" type="" in="b208 b209" creator="-1" insign="will begin" outsign="begynder"/>
 <align out="a241" type="" in="b210 b211" creator="-1" insign="the game" outsign="kampen"/>
-<align out="a242" type="" in="b212" creator="-1" insign="at" outsign="på"/>
+<align out="a242" type="" in="b212" creator="-1" insign="at" outsign="pÃ¥"/>
 <align out="a243" type="" in="b213" creator="-1" insign="midfield" outsign="midtbanen"/>
 <align out="a244" type="" in="b214" creator="-1" insign="." outsign="."/>
 <align out="a247" type="" in="b217" creator="-1" insign="Otherwise" outsign="Ellers"/>
@@ -142,24 +142,24 @@
 <align out="a267" type="" in="b240" creator="-1" insign="PSV" outsign="PSV"/>
 <align out="a269" type="" in="b242" creator="-1" insign="." outsign="."/>
 <align out="b80" type="" in="b80" creator="-1" insign="in" outsign="in"/>
-<align out="a45" type="" in="b8" creator="0" insign="practice" outsign="træning"/>
+<align out="a45" type="" in="b8" creator="0" insign="practice" outsign="trÃ¦ning"/>
 <align out="a46" type="" in="b9" creator="0" insign="in" outsign="i"/>
 <align out="a47" type="" in="b10" creator="0" insign="Nyborg" outsign="Nyborg"/>
-<align out="a48" type="" in="b11" creator="0" insign="yesterday" outsign="i_går"/>
+<align out="a48" type="" in="b11" creator="0" insign="yesterday" outsign="i_gÃ¥r"/>
 <align out="b12" type="" in="b12" creator="0" insign="," outsign=","/>
 <align out="a49" type="" in="b18" creator="-1" insign="had" outsign="havde"/>
 <align out="a55" type="" in="b20" creator="0" insign="decided" outsign="besluttet"/>
 <align out="a56" type="s" in="b20" creator="0" insign="decided" outsign="sig"/>
 <align out="a67" type="" in="b27 b28 b29" creator="0" insign="the starting lineup" outsign="startopstillingen"/>
 <align out="a70" type="" in="b32" creator="0" insign="tonight" outsign="i_aften"/>
-<align out="a71" type="" in="b33" creator="0" insign="at" outsign="på"/>
+<align out="a71" type="" in="b33" creator="0" insign="at" outsign="pÃ¥"/>
 <align out="a78" type="" in="b38" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a75" type="" in="b37" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a80" type="" in="b43 b44 b45" creator="0" insign="the Brøndby players" outsign="Brøndby-spillernes"/>
-<align out="a80" type="s" in="b40 b42" creator="0" insign="the of" outsign="Brøndby-spillernes"/>
-<align out="a81" type="" in="b41" creator="0" insign="absence" outsign="fravær"/>
+<align out="a80" type="" in="b43 b44 b45" creator="0" insign="the BrÃ¸ndby players" outsign="BrÃ¸ndby-spillernes"/>
+<align out="a80" type="s" in="b40 b42" creator="0" insign="the of" outsign="BrÃ¸ndby-spillernes"/>
+<align out="a81" type="" in="b41" creator="0" insign="absence" outsign="fravÃ¦r"/>
 <align out="b46" type="" in="b46" creator="0" insign="," outsign=","/>
-<align out="a82" type="" in="b56 b57" creator="0" insign="will get" outsign="får"/>
+<align out="a82" type="" in="b56 b57" creator="0" insign="will get" outsign="fÃ¥r"/>
 <align out="a90" type="" in="b53" creator="-1" insign="in" outsign="i"/>
 <align out="a92" type="" in="b55" creator="-1" insign="," outsign=","/>
 <align out="a94" type="" in="b59" creator="0" insign="Olsen's" outsign="Olsens"/>
@@ -183,7 +183,7 @@
 <align out="a143" type="" in="b107 b108 b109" creator="0" insign="the national team" outsign="landsholdet"/>
 <align out="a147" type="" in="b113" creator="0" insign="only" outsign="eneste"/>
 <align out="a147" type="s" in="b114" creator="0" insign="one" outsign="eneste"/>
-<align out="a158" type="" in="b124 b125" creator="0" insign="Of course" outsign="Selvfølgelig"/>
+<align out="a158" type="" in="b124 b125" creator="0" insign="Of course" outsign="SelvfÃ¸lgelig"/>
 <align out="b126" type="" in="b126" creator="0" insign="," outsign=","/>
 <align out="a162" type="" in="b130" creator="0" insign="Olsen's" outsign="Olsens"/>
 <align out="a163" type="" in="b131" creator="0" insign="position" outsign="plads"/>
@@ -192,13 +192,13 @@
 <align out="a190" type="" in="b160 b161" creator="0" insign="of course" outsign="naturligvis"/>
 <align out="b159" type="" in="b159" creator="0" insign="," outsign=","/>
 <align out="b162" type="" in="b162" creator="0" insign="," outsign=","/>
-<align out="a192 a193 a194" type="" in="b163" creator="0" insign="notice" outsign="lægge mærke til"/>
+<align out="a192 a193 a194" type="" in="b163" creator="0" insign="notice" outsign="lÃ¦gge mÃ¦rke til"/>
 <align out="a195" type="" in="b164" creator="0" insign="it." outsign="det"/>
-<align out="a191" type="" in="a191" creator="0" insign="også" outsign="også"/>
+<align out="a191" type="" in="a191" creator="0" insign="ogsÃ¥" outsign="ogsÃ¥"/>
 <align out="a196" type="?" in="b164" creator="0" insign="it." outsign="."/>
 <align out="a197" type="" in="b165" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a214" type="" in="a214" creator="0" insign="nemlig" outsign="nemlig"/>
-<align out="a215" type="" in="b180 b181 b182" creator="0" insign="the captain's post" outsign="anfører-posten"/>
+<align out="a215" type="" in="b180 b181 b182" creator="0" insign="the captain's post" outsign="anfÃ¸rer-posten"/>
 <align out="a220" type="" in="b187" creator="0" insign="Johnny" outsign="Johnny"/>
 <align out="a217" type="" in="b184" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a218" type="" in="b185" creator="-1" insign="<s>" outsign="<s>"/>
@@ -219,7 +219,7 @@
 <align out="a44" type="" in="b2 b3 b4 b5 b6 b7" creator="0" insign="the national &quot; A &quot; team's" outsign="A-landsholdets"/>
 <align out="a66" type="" in="b26" creator="0" insign="for" outsign="i"/>
 <align out="a63 a64 a65" type="s" in="b25" creator="0" insign="players" outsign="der skal med"/>
-<align out="a138" type="f" in="b102 b103" creator="0" insign="am hungry" outsign="tørster"/>
+<align out="a138" type="f" in="b102 b103" creator="0" insign="am hungry" outsign="tÃ¸rster"/>
 <align out="a223" type="s" in="b189 b190" creator="0" insign="will start" outsign="inde"/>
 <align out="a259" type="f" in="b230" creator="0" insign="half-game" outsign="halvleg"/>
 </DTAGalign>

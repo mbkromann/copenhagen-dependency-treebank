@@ -70,7 +70,7 @@
 <s>
 <W msd="NNP" in="3:subj" out="1:coord">Astma-Bodil</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NNP" in="-1:conj" out="">Rødberg</W>
+<W msd="NNP" in="-1:conj" out="">RÃ¸dberg</W>
 <W msd="VBD" in="" out="-3:subj|1:pred|6:pnct">were</W>
 <W msd="VBN" in="-1:pred" out="1:pobj">finished</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -86,7 +86,7 @@
 <W msd="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="">Rødberg</W>
+<W msd="NNP" in="1:subj" out="">RÃ¸dberg</W>
 <W msd="VBD" in="" out="-1:subj|1:dobj|2:mod|5:lobj|10:pnct">pulled</W>
 <W msd="PRP" in="-1:dobj" out="">her</W>
 <W msd="IN" in="-2:mod" out="1:nobj">by</W>

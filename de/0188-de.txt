@@ -1,19 +1,19 @@
 
 
-Wegweiser: Es GIBT Leben in der dänischen Software-Entwicklung. Mit Verspätung ist ein Programm fertig, das Kunden beim Weg durch Museen, Supermärkte, Rathäuser - und MikroData im Bella Center helfen soll.
+Wegweiser: Es GIBT Leben in der dÃ¤nischen Software-Entwicklung. Mit VerspÃ¤tung ist ein Programm fertig, das Kunden beim Weg durch Museen, SupermÃ¤rkte, RathÃ¤user - und MikroData im Bella Center helfen soll.
 
-Die Europäer sollten intelligent genug sein
+Die EuropÃ¤er sollten intelligent genug sein
 
 Das meinen die geistigen Urheber hinter dem Programm Scout, das am Eingang zur MikroData-Messe den Weg durch den Ausstellerdschungel weist.
 
-Und mit den lobenden Worten weisen sie darauf hin, dass sie es uns getrost zu überlassen wagen, mit Hilfe der Tastatur selbst zurechtzukommen.
+Und mit den lobenden Worten weisen sie darauf hin, dass sie es uns getrost zu Ã¼berlassen wagen, mit Hilfe der Tastatur selbst zurechtzukommen.
 
 
-Mit Scout sollte man auch nichts falsch machen können: man gibt den Firmennamen oder ein Suchwort ein, und der Bildschirm zeigt sehr pädagogisch den kürzesten Weg zu den aktuellen Ständen. Ein Vorläufer half den Besuchern bei der letzten MikroData vor 2 Jahren.
+Mit Scout sollte man auch nichts falsch machen kÃ¶nnen: man gibt den Firmennamen oder ein Suchwort ein, und der Bildschirm zeigt sehr pÃ¤dagogisch den kÃ¼rzesten Weg zu den aktuellen StÃ¤nden. Ein VorlÃ¤ufer half den Besuchern bei der letzten MikroData vor 2 Jahren.
 
-"Wir haben das Ganze von Grund auf in Turbo Pascal programmiert, und das hat uns mit det Zeit sicher etwas getäuscht", sagt John Marrot von der Firma Scansoft, der für die Programmierung verantwortlich ist.
+"Wir haben das Ganze von Grund auf in Turbo Pascal programmiert, und das hat uns mit det Zeit sicher etwas getÃ¤uscht", sagt John Marrot von der Firma Scansoft, der fÃ¼r die Programmierung verantwortlich ist.
 
-Ursprünglich hatte sein Bekannter Steen Olsen, der in einer Büroartikelfirma in Kopenhagen arbeitet, das Programm zum Preis von 100 Arbeitsstunden bestellt. Aus den 100 Stunden wurden 
+UrsprÃ¼nglich hatte sein Bekannter Steen Olsen, der in einer BÃ¼roartikelfirma in Kopenhagen arbeitet, das Programm zum Preis von 100 Arbeitsstunden bestellt. Aus den 100 Stunden wurden 
 statt dessen 5000 Stunden.
 
 

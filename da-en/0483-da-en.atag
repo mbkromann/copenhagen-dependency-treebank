@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0483-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0483-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0483-en.tag" sign="_input"/>
 <align out="a43" type="" in="b2" creator="-1" insign="We" outsign="Vi"/>
 <align out="a44" type="" in="b3" creator="-1" insign="believe" outsign="tror"/>
@@ -28,19 +28,19 @@
 <align out="a92" type="" in="b55" creator="-1" insign="of" outsign="af"/>
 <align out="a93" type="" in="b56" creator="-1" insign="wine" outsign="vin"/>
 <align out="a94" type="" in="b57" creator="-1" insign="and" outsign="og"/>
-<align out="a95" type="" in="b58" creator="-1" insign="beer" outsign="øl"/>
+<align out="a95" type="" in="b58" creator="-1" insign="beer" outsign="Ã¸l"/>
 <align out="a96" type="" in="b59" creator="-1" insign="south" outsign="syd"/>
 <align out="a97" type="" in="b60" creator="-1" insign="of" outsign="for"/>
-<align out="a98" type="" in="b61 b62" creator="-1" insign="the border" outsign="grænsen"/>
+<align out="a98" type="" in="b61 b62" creator="-1" insign="the border" outsign="grÃ¦nsen"/>
 <align out="a99" type="" in="b63" creator="-1" insign="as" outsign="som"/>
 <align out="a101" type="" in="b66" creator="-1" insign="of" outsign="af"/>
 <align out="a102" type="" in="b67" creator="-1" insign="the" outsign="de"/>
 <align out="a104" type="" in="b69" creator="-1" insign="Danish" outsign="danske"/>
-<align out="a105" type="" in="b70 b71" creator="-1" insign="duty reductions" outsign="afgiftsnedsættelser"/>
+<align out="a105" type="" in="b70 b71" creator="-1" insign="duty reductions" outsign="afgiftsnedsÃ¦ttelser"/>
 <align out="a106" type="" in="b72" creator="-1" insign="." outsign="."/>
 <align out="a109" type="" in="b75" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a110" type="" in="b81" creator="-1" insign="a" outsign="En"/>
-<align out="a111" type="" in="b82 b83" creator="-1" insign="discount beer" outsign="discountøl"/>
+<align out="a111" type="" in="b82 b83" creator="-1" insign="discount beer" outsign="discountÃ¸l"/>
 <align out="a112" type="" in="b84" creator="-1" insign="cost" outsign="kostede"/>
 <align out="a113" type="" in="b87" creator="-1" insign="in" outsign="i"/>
 <align out="a114" type="" in="b88" creator="-1" insign="Denmark" outsign="Danmark"/>
@@ -76,14 +76,14 @@
 <align out="a160" type="" in="b135" creator="-1" insign="goods" outsign="varer"/>
 <align out="a161" type="" in="b136" creator="-1" insign="south" outsign="syd"/>
 <align out="a162" type="" in="b137" creator="-1" insign="of" outsign="for"/>
-<align out="a163" type="" in="b138 b139" creator="-1" insign="the border" outsign="grænsen"/>
+<align out="a163" type="" in="b138 b139" creator="-1" insign="the border" outsign="grÃ¦nsen"/>
 <align out="a164" type="" in="b140" creator="-1" insign="," outsign=","/>
 <align out="a166" type="" in="b143" creator="-1" insign="it" outsign="det"/>
 <align out="a167" type="" in="b144" creator="-1" insign="can" outsign="kan"/>
 <align out="a168" type="" in="b145 b146" creator="-1" insign="be done" outsign="ske"/>
 <align out="a169" type="" in="b147" creator="-1" insign="in" outsign="i"/>
 <align out="a170" type="" in="b148" creator="-1" insign="great" outsign="store"/>
-<align out="a171" type="" in="b149" creator="-1" insign="quantities" outsign="mængder"/>
+<align out="a171" type="" in="b149" creator="-1" insign="quantities" outsign="mÃ¦ngder"/>
 <align out="a172" type="" in="b150" creator="-1" insign="," outsign=","/>
 <align out="a173" type="" in="b151" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a174" type="" in="b152" creator="-1" insign="says" outsign="siger"/>
@@ -93,11 +93,11 @@
 <align out="a179" type="" in="b157" creator="-1" insign="." outsign="."/>
 <align out="a182" type="" in="b160" creator="-1" insign="He" outsign="Han"/>
 <align out="a187" type="" in="b163 b164 b165" creator="-1" insign="the price difference" outsign="prisforskellen"/>
-<align out="a188" type="" in="b166" creator="-1" insign="on" outsign="på"/>
+<align out="a188" type="" in="b166" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a189" type="" in="b167" creator="-1" insign="spirits" outsign="spiritus"/>
 <align out="a190" type="" in="b168" creator="-1" insign="and" outsign="og"/>
 <align out="a191" type="" in="b169" creator="-1" insign="cigarettes" outsign="cigaretter"/>
-<align out="a192" type="" in="b171" creator="-1" insign="also" outsign="også"/>
+<align out="a192" type="" in="b171" creator="-1" insign="also" outsign="ogsÃ¥"/>
 <align out="a194" type="" in="b172 b173" creator="-1" insign="be reduced" outsign="mindskes"/>
 <align out="a195" type="" in="b175" creator="-1" insign="the" outsign="de"/>
 <align out="a196" type="" in="b176" creator="-1" insign="coming" outsign="kommende"/>
@@ -108,7 +108,7 @@
 <align out="a202" type="" in="b183" creator="-1" insign="Denmark" outsign="Danmark"/>
 <align out="a205" type="" in="b189" creator="-1" insign="inflation" outsign="inflationen"/>
 <align out="a206" type="" in="b190" creator="-1" insign="." outsign="."/>
-<align out="a214" type="" in="b193 b194" creator="-1" insign="Discount beer" outsign="Discountøl"/>
+<align out="a214" type="" in="b193 b194" creator="-1" insign="Discount beer" outsign="DiscountÃ¸l"/>
 <align out="a215" type="" in="b195" creator="-1" insign="at" outsign="til"/>
 <align out="a216" type="" in="b197" creator="-1" insign="1.04" outsign="1,04"/>
 <align out="a217" type="" in="b196" creator="-1" insign="DKK" outsign="kr."/>
@@ -123,10 +123,10 @@
 <align out="a232" type="" in="b217" creator="-1" insign="legally" outsign="lovligt"/>
 <align out="a233" type="" in="b211" creator="-1" insign="after" outsign="efter"/>
 <align out="a235" type="" in="b216" creator="-1" insign="can" outsign="kan"/>
-<align out="a236" type="" in="b218 b219" creator="-1" insign="bring in" outsign="indføre"/>
+<align out="a236" type="" in="b218 b219" creator="-1" insign="bring in" outsign="indfÃ¸re"/>
 <align out="a237" type="" in="b220 b221" creator="-1" insign="at least" outsign="mindst"/>
 <align out="a238" type="" in="b222" creator="-1" insign="110" outsign="110"/>
-<align out="a240" type="" in="b225" creator="-1" insign="beer" outsign="øl"/>
+<align out="a240" type="" in="b225" creator="-1" insign="beer" outsign="Ã¸l"/>
 <align out="a241" type="" in="b226" creator="-1" insign="," outsign=","/>
 <align out="a242" type="" in="b227" creator="-1" insign="90" outsign="90"/>
 <align out="a244" type="" in="b230" creator="-1" insign="wine" outsign="vin"/>
@@ -148,8 +148,8 @@
 <align out="a73" type="f" in="b32" creator="0" insign="also" outsign="Videre"/>
 <align out="a76" type="" in="a76" creator="0" insign="," outsign=","/>
 <align out="a78" type="" in="b35 b36" creator="0" insign="the Danes'" outsign="danskernes"/>
-<align out="a79" type="" in="b37" creator="0" insign="increased" outsign="større"/>
-<align out="a80" type="" in="b38" creator="0" insign="purchases" outsign="indkøb"/>
+<align out="a79" type="" in="b37" creator="0" insign="increased" outsign="stÃ¸rre"/>
+<align out="a80" type="" in="b38" creator="0" insign="purchases" outsign="indkÃ¸b"/>
 <align out="a82" type="" in="b40" creator="0" insign="durable" outsign="langvarige"/>
 <align out="a83" type="" in="b41 b42" creator="0" insign="consumer goods" outsign="forbrugsgoder"/>
 <align out="a84" type="" in="b47" creator="0" insign="fully" outsign="til_fulde"/>
@@ -159,42 +159,42 @@
 <align out="a72" type="" in="b30" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a100" type="s" in="b64" creator="0" insign="a" outsign="konsekvens"/>
 <align out="a100" type="" in="b65" creator="0" insign="consequence" outsign="konsekvens"/>
-<align out="a115" type="" in="b76" creator="0" insign="Before" outsign="før"/>
-<align out="a116" type="" in="b77 b78 b79" creator="0" insign="the duty increase" outsign="afgiftsforhøjelsen"/>
+<align out="a115" type="" in="b76" creator="0" insign="Before" outsign="fÃ¸r"/>
+<align out="a116" type="" in="b77 b78 b79" creator="0" insign="the duty increase" outsign="afgiftsforhÃ¸jelsen"/>
 <align out="a117" type="" in="b86" creator="0" insign="3.25" outsign="3,25"/>
 <align out="a107" type="" in="b73" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a108" type="" in="b74" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a127" type="" in="b97 b98 b99 b100" creator="0" insign="the reduction in duty" outsign="afgiftsnedsættelsen"/>
+<align out="a127" type="" in="b97 b98 b99 b100" creator="0" insign="the reduction in duty" outsign="afgiftsnedsÃ¦ttelsen"/>
 <align out="a128" type="" in="b101" creator="0" insign="in" outsign="til"/>
 <align out="b103" type="" in="b103" creator="0" insign="," outsign=","/>
 <align out="a130" type="" in="b106" creator="0" insign="is" outsign="er"/>
 <align out="a133" type="" in="b108" creator="0" insign="2.25" outsign="2,25"/>
 <align out="a124" type="" in="b94" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a125" type="" in="b95" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a147" type="" in="b123" creator="0" insign="applies" outsign="gælder"/>
-<align out="a148" type="" in="a148" creator="0" insign="både" outsign="både"/>
-<align out="a147" type="s" in="b124" creator="0" insign="to" outsign="gælder"/>
-<align out="a149" type="" in="b125" creator="-1" insign="beer" outsign="øl"/>
+<align out="a147" type="" in="b123" creator="0" insign="applies" outsign="gÃ¦lder"/>
+<align out="a148" type="" in="a148" creator="0" insign="bÃ¥de" outsign="bÃ¥de"/>
+<align out="a147" type="s" in="b124" creator="0" insign="to" outsign="gÃ¦lder"/>
+<align out="a149" type="" in="b125" creator="-1" insign="beer" outsign="Ã¸l"/>
 <align out="a142" type="" in="b117" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a141" type="" in="b116" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a157" type="s" in="b133" creator="0" insign="purchasing" outsign="at"/>
-<align out="a158" type="" in="b133" creator="0" insign="purchasing" outsign="købe"/>
-<align out="a183 a184" type="" in="b161" creator="0" insign="adds" outsign="føjer til"/>
+<align out="a158" type="" in="b133" creator="0" insign="purchasing" outsign="kÃ¸be"/>
+<align out="a183 a184" type="" in="b161" creator="0" insign="adds" outsign="fÃ¸jer til"/>
 <align out="a185" type="" in="a185" creator="0" insign="," outsign=","/>
 <align out="a186" type="" in="b162" creator="-1" insign="that" outsign="at"/>
 <align out="a180" type="" in="b158" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a181" type="" in="b159" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a177" type="" in="b155" creator="-1" insign="Helbo" outsign="Helbo"/>
 <align out="a193" type="" in="b170" creator="0" insign="will" outsign="vil"/>
-<align out="a197" type="s" in="b174" creator="0" insign="in" outsign="år"/>
-<align out="a197" type="" in="b177" creator="0" insign="years" outsign="år"/>
+<align out="a197" type="s" in="b174" creator="0" insign="in" outsign="Ã¥r"/>
+<align out="a197" type="" in="b177" creator="0" insign="years" outsign="Ã¥r"/>
 <align out="a203" type="" in="b184 b185 b186" creator="0" insign="will be maintained" outsign="fastholdes"/>
 <align out="a204" type="" in="b187" creator="0" insign="regardless" outsign="uanset"/>
 <align out="a204" type="s" in="b188" creator="0" insign="of" outsign="uanset"/>
 <align out="b205" type="" in="b205" creator="0" insign="," outsign=","/>
 <align out="a228" type="" in="b206 b207 b208" creator="0" insign="among other things" outsign="bl.a."/>
-<align out="a234" type="s" in="b212" creator="0" insign="the" outsign="nytår"/>
-<align out="a234" type="" in="b213 b214" creator="0" insign="New Year" outsign="nytår"/>
+<align out="a234" type="s" in="b212" creator="0" insign="the" outsign="nytÃ¥r"/>
+<align out="a234" type="" in="b213 b214" creator="0" insign="New Year" outsign="nytÃ¥r"/>
 <align out="a220" type="" in="b199" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a207" type="" in="b191" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a223" type="" in="b200" creator="-1" insign="<s>" outsign="<s>"/>

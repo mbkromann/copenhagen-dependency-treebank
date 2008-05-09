@@ -47,7 +47,7 @@
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="NNP" in="3:namef" out="1:namef">Carsten</W>
 <W msd="NNP" in="-1:namef" out="">Ove</W>
-<W msd="NNP" in="1:namel" out="">Dalsø</W>
+<W msd="NNP" in="1:namel" out="">DalsÃ¸</W>
 <W msd="NNP" in="-6:appa" out="-3:namef|-1:namel|1:mod">Nielsen</W>
 <W msd="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NNP" in="-1:nobj" out="1:possd|2:mod">Carsten's</W>
@@ -141,7 +141,7 @@
 <W msd="VBZ" in="" out="-26:qobj|4:subj|5:pnct">says</W>
 <W msd="NNP" in="3:namef" out="1:namef">Carsten</W>
 <W msd="NNP" in="-1:namef" out="">Ove</W>
-<W msd="NNP" in="1:namel" out="">Dalsø</W>
+<W msd="NNP" in="1:namel" out="">DalsÃ¸</W>
 <W msd="NNP" in="-4:subj" out="-3:namef|-1:namel">Nielsen</W>
 <W msd="." in="-5:pnct" out="">.</W>
 </s>

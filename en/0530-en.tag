@@ -134,7 +134,7 @@
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="TO" in="-13:pobj" out="2:nobj">to</W>
 <W msd="NNP" in="1:namef" out="">Allan</W>
-<W msd="NNP" in="-2:nobj" out="-1:namef">Høxbroe</W>
+<W msd="NNP" in="-2:nobj" out="-1:namef">HÃ¸xbroe</W>
 <W msd="." in="-16:pnct" out="">.</W>
 </s>
 <s>

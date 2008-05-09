@@ -159,7 +159,7 @@
 <W msd="NN" in="-1:nobj" out="">evening</W>
 <W msd="," in="-7:pnct" out="">,</W>
 <W msd="VBD" in="" out="-8:qobj|1:subj|2:mod|3:pnct">said</W>
-<W msd="NNP" in="-1:subj" out="">Schrøder</W>
+<W msd="NNP" in="-1:subj" out="">SchrÃ¸der</W>
 <W msd="RB" in="-2:mod" out="">readily</W>
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
@@ -208,7 +208,7 @@
 <W msd="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="JJ" in="2:subj" out="">-  He</W>
+<W msd="JJ" in="2:subj" out="">-Â Â He</W>
 <W msd="RB" in="1:mod" out="">probably</W>
 <W msd="VBD" in="" out="-2:subj|-1:mod|1:pobj|7:mod|11:pnct">took</W>
 <W msd="RP" in="-1:pobj" out="1:mod">off</W>

@@ -34,7 +34,7 @@
 <W msd="DT" in="-1:nobj" out="1:nobj|2:mod">an</W>
 <W msd="NN" in="-1:nobj" out="">orgy</W>
 <W msd="IN" in="-2:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="">Søren's</W>
+<W msd="NNP" in="-1:nobj" out="">SÃ¸ren's</W>
 </s>
 <s>
 <W msd="DT" in="3:subj" out="1:mod|2:nobj">The</W>
@@ -53,7 +53,7 @@
 <W msd="TO" in="-1:lobj" out="1:nobj">to</W>
 <W msd="NN" in="-1:nobj" out="1:mod">party</W>
 <W msd="IN" in="-1:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="1:pnct|2:appa">Søren's</W>
+<W msd="NNP" in="-1:nobj" out="1:pnct|2:appa">SÃ¸ren's</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="CD" in="-2:appa" out="1:pobj">one</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -201,7 +201,7 @@
 <W msd="VBD" in="-2:vobj" out="-1:subj|1:lobj|4:pnct">got</W>
 <W msd="IN" in="-1:lobj" out="1:mod">out</W>
 <W msd="TO" in="-1:mod" out="1:nobj">to</W>
-<W msd="NNP" in="-1:nobj" out="">Søren's</W>
+<W msd="NNP" in="-1:nobj" out="">SÃ¸ren's</W>
 <W msd="," in="-4:pnct" out="">,</W>
 <W msd="DT" in="4:subj|5:[subj]" out="1:nobj">a</W>
 <W msd="NN" in="-1:nobj" out="1:pobj">number</W>

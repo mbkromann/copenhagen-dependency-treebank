@@ -2,7 +2,7 @@
   <teiHeader type=text>
     <fileDesc>
       <titleStmt>
-        <title>Tagged sample of: 'Kunst sprænger rammerne'</title>
+        <title>Tagged sample of: 'Kunst sprÃ¦nger rammerne'</title>
       </titleStmt>
       <extent words=156>156 running words</extent>
       <publicationStmt>
@@ -14,7 +14,7 @@
       <sourceDesc>
         <biblStruct>
           <analytic>
-            <title>Kunst sprænger rammerne</title>
+            <title>Kunst sprÃ¦nger rammerne</title>
             <author gender=m born=1956>Heldgaard, Jesper</author>
           </analytic>
           <monogr>
@@ -56,11 +56,11 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU" in="1:subj" out="11:ref|12:rel">Det</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-1:subj|1:pred|9:pnct|17:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-1:subj|1:pred|9:pnct|17:pnct">er</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:pred" out="4:mod|5:pnct|6:mod|7:nobj">en</W>
 <W lemma="cirka" msd="RGU" in="1:mod" out="">cirka</W>
 <W lemma="150" msd="AC---U=--" in="2:mod" out="-1:mod|1:nobj">150</W>
-<W lemma="år" msd="NCNPU==I" in="-1:nobj" out="">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I" in="-1:nobj" out="">Ã¥r</W>
 <W lemma="gammel" msd="ANPCSU=IU" in="-4:mod" out="-2:mod">gammel</W>
 <W lemma="," msd="XP" in="-5:pnct" out="">,</W>
 <W lemma="smuk" msd="ANPCSU=IU" in="-6:mod" out="">smuk</W>
@@ -68,7 +68,7 @@
 <W lemma="," msd="XP" in="-9:pnct" out="">,</W>
 <W lemma="der" msd="U=" in="-11:ref|1:subj|2:[subj]" out="">der</W>
 <W lemma="blive" msd="VADA=----A-" in="-12:rel" out="-1:subj|1:vobj">blev</W>
-<W lemma="grundlægge" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-2:[subj]|1:pobj">grundlagt</W>
+<W lemma="grundlÃ¦gge" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-2:[subj]|1:pobj">grundlagt</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="Horsens" msd="NP--U==-" in="-1:nobj" out="1:mod|2:possd">Horsens</W>
 <W lemma="borgerlig" msd="ANP[CN]SU=DU" in="-1:mod" out="">Borgerlige</W>
@@ -80,7 +80,7 @@
 <W lemma="have" msd="VADR=----A-" in="" out="-1:mod|1:subj|2:mod|3:vobj|5:pnct">har</W>
 <W lemma="den" msd="PP3CSU-NU" in="-1:subj|2:[subj]" out="">den</W>
 <W lemma="blandt_andet" msd="RGU" in="-2:mod" out="">blandt_andet</W>
-<W lemma="være" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-2:[subj]|1:pred">været</W>
+<W lemma="vÃ¦re" msd="VAPA=S[CN]I[ARU]-U" in="-3:vobj" out="-2:[subj]|1:pred">vÃ¦ret</W>
 <W lemma="sommerrestaurant" msd="NCCSU==I" in="-1:pred" out="">sommerrestaurant</W>
 <W lemma="." msd="XP" in="-5:pnct" out="">.</W>
 </s>
@@ -97,7 +97,7 @@
 <W lemma="statelig" msd="ANP[CN]PU=[DI]U" in="3:mod" out="1:pnct">statelige</W>
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
 <W lemma="gammel" msd="ANP[CN]PU=[DI]U" in="1:mod" out="">gamle</W>
-<W lemma="træ" msd="NCNPU==I" in="-4:nobj" out="-3:mod|-1:mod">træer</W>
+<W lemma="trÃ¦" msd="NCNPU==I" in="-4:nobj" out="-3:mod|-1:mod">trÃ¦er</W>
 <W lemma="." msd="XP" in="-12:pnct" out="">.</W>
 </s>
 </p>
@@ -117,10 +117,10 @@
 <s>
 <W lemma="&quot;" msd="XP" in="2:pnct" out="">"</W>
 <W lemma="tilbygning" msd="NCCSU==D" in="1:subj" out="">Tilbygningen</W>
-<W lemma="berøre" msd="VADR=----A-" in="" out="-1:subj|-2:pnct|1:dobj|8:pnct|9:coord|43:pnct|44:pnct">berører</W>
+<W lemma="berÃ¸re" msd="VADR=----A-" in="" out="-1:subj|-2:pnct|1:dobj|8:pnct|9:coord|43:pnct|44:pnct">berÃ¸rer</W>
 <W lemma="lille" msd="ANC[CN][SP]U=[DI]U" in="-1:dobj" out="1:pobj">mindre</W>
 <W lemma="end" msd="CS" in="-1:pobj" out="1:nobj">end</W>
-<W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:nobj">én</W>
+<W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:nobj">Ã©n</W>
 <W lemma="procent" msd="NCCSU==I" in="-1:nobj" out="1:pobj">pct.</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="park" msd="NCCSG==D" in="-1:nobj" out="1:possd">parkens</W>
@@ -128,7 +128,7 @@
 <W lemma="," msd="XP" in="-8:pnct" out="">,</W>
 <W lemma="og" msd="CC" in="-9:coord" out="2:conj">og</W>
 <W lemma="det" msd="PP3NSU-NU" in="1:subj|2:[subj]" out="11:nobj">det</W>
-<W lemma="være" msd="VADR=----A-" in="-2:conj" out="-1:subj|1:vobj|23:pnct|24:coord">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="-2:conj" out="-1:subj|1:vobj|23:pnct|24:coord">er</W>
 <W lemma="lykkes" msd="VEPA=[SP][CN][DI][ARU]-U" in="-1:vobj" out="-2:[subj]|2:dobj">lykkedes</W>
 <W lemma="Horsens" msd="NP--U==-" in="1:mod" out="">Horsens</W>
 <W lemma="arkitekt" msd="NCCPU==D" in="-2:dobj" out="-1:mod|3:appr">arkitekterne</W>
@@ -145,7 +145,7 @@
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
 <W lemma="der" msd="U=" in="-3:ref|1:subj" out="">der</W>
 <W lemma="passe" msd="VADR=----A-" in="-4:rel" out="-1:subj|3:pobj|2:aobj">passer</W>
-<W lemma="særdeles" msd="RGU" in="1:mod" out="">særdeles</W>
+<W lemma="sÃ¦rdeles" msd="RGU" in="1:mod" out="">sÃ¦rdeles</W>
 <W lemma="fin" msd="ANP---=-R" in="-2:aobj" out="-1:mod">fint</W>
 <W lemma="til" msd="SP" in="-3:pobj" out="1:nobj">til</W>
 <W lemma="den" msd="PD-CSU--U" in="-1:nobj" out="1:mod|2:nobj">den</W>
@@ -166,12 +166,12 @@
 <s>
 <W lemma="klar" msd="ANPCSU=IU" in="" out="1:pobj">Klar</W>
 <W lemma="til" msd="SP" in="-1:pobj" out="1:nobj">til</W>
-<W lemma="byjubilæum" msd="NCNSU==D" in="-1:nobj" out="">byjubilæet</W>
+<W lemma="byjubilÃ¦um" msd="NCNSU==D" in="-1:nobj" out="">byjubilÃ¦et</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="gå" msd="VADR=----A-" in="5:mod" out="1:subj|2:pobj|4:pnct">Går</W>
+<W lemma="gÃ¥" msd="VADR=----A-" in="5:mod" out="1:subj|2:pobj|4:pnct">GÃ¥r</W>
 <W lemma="udbygning" msd="NCCSU==D" in="-1:subj" out="">udbygningen</W>
 <W lemma="efter" msd="SP" in="-2:pobj" out="1:nobj">efter</W>
 <W lemma="plan" msd="NCCSU==D" in="-1:nobj" out="">planen</W>
@@ -180,20 +180,20 @@
 <W lemma="den" msd="PD-NSU--U" in="-1:subj|3:[subj]" out="1:mod|2:nobj">det</W>
 <W lemma="udvide" msd="VAPA=S[CN]DA-U" in="-1:mod" out="">udvidede</W>
 <W lemma="museum" msd="NCNSU==I" in="-2:nobj" out="">museum</W>
-<W lemma="stå" msd="VAF-=----A-" in="-4:vobj" out="-3:[subj]|1:pred">stå</W>
+<W lemma="stÃ¥" msd="VAF-=----A-" in="-4:vobj" out="-3:[subj]|1:pred">stÃ¥</W>
 <W lemma="klar" msd="ANPNSU=IU" in="-1:pred" out="">klart</W>
 <W lemma="til" msd="SP" in="-6:mod" out="1:nobj">til</W>
 <W lemma="november" msd="NCCSU==I" in="-1:nobj" out="">november</W>
 <W lemma="," msd="XP" in="-8:pnct" out="">,</W>
-<W lemma="når" msd="CS" in="-9:mod" out="2:vobj">når</W>
+<W lemma="nÃ¥r" msd="CS" in="-9:mod" out="2:vobj">nÃ¥r</W>
 <W lemma="Horsens" msd="NP--U==-" in="1:subj" out="">Horsens</W>
 <W lemma="fejre" msd="VADR=----A-" in="-2:vobj" out="-1:subj|1:dobj">fejrer</W>
 <W lemma="sin" msd="PO3NSUSYU" in="-1:dobj" out="2:mod|3:possd">sit</W>
 <W lemma="550" msd="AC---U=--" in="1:mod" out="">550</W>
-<W lemma="år" msd="NCNPG==I" in="-2:mod" out="-1:mod">års</W>
-<W lemma="jubilæum" msd="NCNSU==I" in="-3:possd" out="1:pobj">jubilæum</W>
+<W lemma="Ã¥r" msd="NCNPG==I" in="-2:mod" out="-1:mod">Ã¥rs</W>
+<W lemma="jubilÃ¦um" msd="NCNSU==I" in="-3:possd" out="1:pobj">jubilÃ¦um</W>
 <W lemma="som" msd="U=" in="-1:pobj" out="1:nobj">som</W>
-<W lemma="købstad" msd="NCCSU==I" in="-1:nobj" out="">købstad</W>
+<W lemma="kÃ¸bstad" msd="NCCSU==I" in="-1:nobj" out="">kÃ¸bstad</W>
 <W lemma="." msd="XP" in="-18:pnct" out="">.</W>
 </s>
 </p>
@@ -211,7 +211,7 @@
 <W lemma="mulighed" msd="NCCPU==I" in="-3:dobj" out="-1:mod|1:pobj">muligheder</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
 <W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="gøre" msd="VAF-=----A-" in="-1:vobj" out="1:dobj|4:pred">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-" in="-1:vobj" out="1:dobj|4:pred">gÃ¸re</W>
 <W lemma="Horsens" msd="NP--U==-" in="-1:dobj" out="">Horsens</W>
 <W lemma="endnu" msd="RGU" in="1:mod" out="">endnu</W>
 <W lemma="meget" msd="ANC---=-R" in="1:mod" out="-1:mod">mere</W>
@@ -229,7 +229,7 @@
 <W lemma="til" msd="SP" in="-1:lobj" out="1:nobj">til</W>
 <W lemma="by" msd="NCCSU==D" in="-1:nobj" out="">byen</W>
 <W lemma="som" msd="U=" in="-3:mod" out="1:nobj">som</W>
-<W lemma="museumsinspektør" msd="NCCSU==I" in="-1:nobj" out="">museumsinspektør</W>
+<W lemma="museumsinspektÃ¸r" msd="NCCSU==I" in="-1:nobj" out="">museumsinspektÃ¸r</W>
 <W lemma="i" msd="SP" in="-5:mod" out="1:nobj">i</W>
 <W lemma="1984" msd="AC---U=--" in="-1:nobj" out="">1984</W>
 <W lemma="samtidig" msd="RGU" in="-7:mod" out="1:pobj">samtidig</W>

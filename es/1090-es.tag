@@ -143,7 +143,7 @@
 <W msd="NP" lemma="&lt;unknown&gt;">Cruz</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Roja</W>
 <W msd="FS" lemma=".">.</W>
-<W msd="PPX" lemma="él">Ella</W>
+<W msd="PPX" lemma="l">Ella</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="ART" lemma="un">un</W>
 <W msd="NC" lemma="grupo">grupo</W>

@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0530-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0530-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0530-en.tag" sign="_input"/>
 <align out="a57 a58" type="" in="b7" creator="-1" insign="Before" outsign="Forud for"/>
 <align out="a60" type="" in="b10" creator="-1" insign="major" outsign="store"/>
@@ -11,17 +11,17 @@
 <align out="a72" type="" in="b26" creator="-1" insign="this" outsign="denne"/>
 <align out="a73" type="" in="b27" creator="-1" insign="week" outsign="uge"/>
 <align out="a74" type="" in="b24" creator="-1" insign="in" outsign="i"/>
-<align out="a75" type="" in="b25" creator="-1" insign="Copenhagen" outsign="København"/>
+<align out="a75" type="" in="b25" creator="-1" insign="Copenhagen" outsign="KÃ¸benhavn"/>
 <align out="a76" type="" in="b28" creator="-1" insign="." outsign="."/>
 <align out="a79" type="" in="b31" creator="-1" insign="They" outsign="De"/>
-<align out="a80" type="" in="b32 b33" creator="-1" insign="are discussing" outsign="drøfter"/>
+<align out="a80" type="" in="b32 b33" creator="-1" insign="are discussing" outsign="drÃ¸fter"/>
 <align out="a83" type="" in="b39" creator="-1" insign="," outsign=","/>
 <align out="a84" type="" in="b40" creator="-1" insign="which" outsign="som"/>
 <align out="a85" type="" in="b41" creator="-1" insign="can" outsign="kan"/>
 <align out="a88" type="" in="b43" creator="-1" insign="global" outsign="globale"/>
 <align out="a90" type="" in="b46" creator="-1" insign="severely" outsign="voldsomt"/>
 <align out="a91" type="" in="b47" creator="-1" insign="." outsign="."/>
-<align out="a94" type="" in="b50 b51 b52" creator="-1" insign="The Ministerial Declaration" outsign="Ministererklæringen"/>
+<align out="a94" type="" in="b50 b51 b52" creator="-1" insign="The Ministerial Declaration" outsign="MinistererklÃ¦ringen"/>
 <align out="a95" type="" in="b53" creator="-1" insign="," outsign=","/>
 <align out="a96" type="" in="b54" creator="-1" insign="which" outsign="som"/>
 <align out="a97" type="" in="b55 b56 b57" creator="-1" insign="will be issued" outsign="udsendes"/>
@@ -52,7 +52,7 @@
 <align out="a168" type="" in="b133" creator="-1" insign="," outsign=","/>
 <align out="a169" type="" in="b134" creator="-1" insign="to" outsign="til"/>
 <align out="a170" type="" in="b135" creator="-1" insign="Allan" outsign="Allan"/>
-<align out="a171" type="" in="b136" creator="-1" insign="Høxbroe" outsign="Høxbroe"/>
+<align out="a171" type="" in="b136" creator="-1" insign="HÃ¸xbroe" outsign="HÃ¸xbroe"/>
 <align out="a172" type="" in="b137" creator="-1" insign="." outsign="."/>
 <align out="a178" type="" in="b140" creator="-1" insign="GROSS" outsign="BRUTTO"/>
 <align out="a179" type="" in="b141" creator="-1" insign="=" outsign="="/>
@@ -66,7 +66,7 @@
 <align out="a199" type="" in="b155" creator="-1" insign="all" outsign="all"/>
 <align out="a208" type="" in="b162" creator="-1" insign="=" outsign="="/>
 <align out="a209" type="" in="b163" creator="-1" insign="1858" outsign="1858"/>
-<align out="a210" type="" in="b164" creator="-1" insign="READER" outsign="OPLÆSER"/>
+<align out="a210" type="" in="b164" creator="-1" insign="READER" outsign="OPLÃ†SER"/>
 <align out="a211" type="" in="b165" creator="-1" insign="=" outsign="="/>
 <align out="a221" type="" in="b177" creator="-1" insign="today" outsign="i_dag"/>
 <align out="a222" type="" in="b178" creator="-1" insign="and" outsign="og"/>
@@ -80,7 +80,7 @@
 <align out="a231" type="" in="b186" creator="-1" insign="and" outsign="og"/>
 <align out="a234" type="" in="b190" creator="-1" insign="," outsign=","/>
 <align out="a235" type="" in="b191" creator="-1" insign="which" outsign="som"/>
-<align out="a237 a238" type="" in="b194 b195 b196 b197" creator="-1" insign="has at its disposal" outsign="råder over"/>
+<align out="a237 a238" type="" in="b194 b195 b196 b197" creator="-1" insign="has at its disposal" outsign="rÃ¥der over"/>
 <align out="a239" type="" in="b198" creator="-1" insign="today" outsign="i_dag"/>
 <align out="a240" type="" in="b199" creator="-1" insign="." outsign="."/>
 <align out="a243" type="" in="b202" creator="-1" insign="It" outsign="Det"/>
@@ -95,7 +95,7 @@
 <align out="a259" type="" in="b230" creator="-1" insign="strategy" outsign="strategi"/>
 <align out="a260" type="" in="b231" creator="-1" insign="with" outsign="med"/>
 <align out="a261" type="" in="b232" creator="-1" insign="less" outsign="mindre"/>
-<align out="a264" type="" in="b235 b236" creator="-1" insign="nuclear weapons" outsign="kernevåben"/>
+<align out="a264" type="" in="b235 b236" creator="-1" insign="nuclear weapons" outsign="kernevÃ¥ben"/>
 <align out="a265" type="" in="b237" creator="-1" insign="." outsign="."/>
 <align out="a268" type="" in="b240" creator="-1" insign="t-boret20" outsign="t-boret20"/>
 <align out="a274" type="" in="b243" creator="-1" insign="EMP" outsign="MEDARB"/>
@@ -106,16 +106,16 @@
 <align out="a279" type="" in="b248" creator="-1" insign="SB" outsign="SB"/>
 <align out="a288" type="" in="b255" creator="-1" insign="=" outsign="="/>
 <align out="a289" type="" in="b256" creator="-1" insign="evening" outsign="aften"/>
-<align out="a290" type="" in="b257" creator="-1" insign="READER" outsign="OPLÆSER"/>
+<align out="a290" type="" in="b257" creator="-1" insign="READER" outsign="OPLÃ†SER"/>
 <align out="a291" type="" in="b258" creator="-1" insign="=" outsign="="/>
 <align out="a292" type="" in="b259" creator="-1" insign="sdt" outsign="sdt"/>
 <align out="b222" type="" in="b222" creator="-1" insign="," outsign=","/>
-<align out="a43" type="" in="b1" creator="0" insign="READER" outsign="OPLÆSER"/>
-<align out="a50" type="f" in="b4" creator="0" insign="OPENING" outsign="OPLÆG"/>
+<align out="a43" type="" in="b1" creator="0" insign="READER" outsign="OPLÃ†SER"/>
+<align out="a50" type="f" in="b4" creator="0" insign="OPENING" outsign="OPLÃ†G"/>
 <align out="a59" type="" in="b8 b9" creator="0" insign="the UN's" outsign="FNs"/>
-<align out="a61" type="" in="b11 b12" creator="0" insign="environmental summit" outsign="miljøtopmøde"/>
-<align out="a64" type="" in="b15" creator="0" insign="next" outsign="næste"/>
-<align out="a65" type="" in="b16" creator="0" insign="year" outsign="år"/>
+<align out="a61" type="" in="b11 b12" creator="0" insign="environmental summit" outsign="miljÃ¸topmÃ¸de"/>
+<align out="a64" type="" in="b15" creator="0" insign="next" outsign="nÃ¦ste"/>
+<align out="a65" type="" in="b16" creator="0" insign="year" outsign="Ã¥r"/>
 <align out="a69" type="" in="b21" creator="0" insign="hundred" outsign="hundrede"/>
 <align out="a69" type="s" in="b20" creator="0" insign="a" outsign="hundrede"/>
 <align out="b17" type="" in="b17" creator="0" insign="," outsign=","/>
@@ -127,9 +127,9 @@
 <align out="a82" type="" in="b34 b35" creator="0" insign="industrial development" outsign="industriudvikling"/>
 <align out="a81" type="" in="b37 b38" creator="0" insign="developing countries" outsign="U-landenes"/>
 <align out="a81" type="s" in="b36" creator="0" insign="in" outsign="U-landenes"/>
-<align out="a86" type="" in="b42" creator="0" insign="worsen" outsign="forværre"/>
+<align out="a86" type="" in="b42" creator="0" insign="worsen" outsign="forvÃ¦rre"/>
 <align out="a87" type="s" in="b44 b45" creator="0" insign="environmental problems" outsign="de"/>
-<align out="a89" type="" in="b44 b45" creator="0" insign="environmental problems" outsign="miljøproblemer"/>
+<align out="a89" type="" in="b44 b45" creator="0" insign="environmental problems" outsign="miljÃ¸problemer"/>
 <align out="a78" type="" in="b30" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a77" type="" in="b29" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a102" type="" in="b61" creator="0" insign="however" outsign="imidlertid"/>
@@ -138,9 +138,9 @@
 <align out="a105" type="" in="b66" creator="0" insign="vague" outsign="ukonkret"/>
 <align out="a93" type="" in="b49" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a92" type="" in="b48" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a111" type="" in="b72" creator="0" insign="number" outsign="række"/>
-<align out="a111" type="s" in="b73" creator="0" insign="of" outsign="række"/>
-<align out="a112" type="" in="b74" creator="0" insign="environmental" outsign="miljø-"/>
+<align out="a111" type="" in="b72" creator="0" insign="number" outsign="rÃ¦kke"/>
+<align out="a111" type="s" in="b73" creator="0" insign="of" outsign="rÃ¦kke"/>
+<align out="a112" type="" in="b74" creator="0" insign="environmental" outsign="miljÃ¸-"/>
 <align out="b82" type="" in="b82" creator="0" insign="," outsign=","/>
 <align out="a119" type="" in="b83 b84" creator="0" insign="the chairperson" outsign="formanden"/>
 <align out="a121 a122" type="" in="b86 b87 b88 b89 b90 b91" creator="0" insign="the Danish Association for International Cooperation" outsign="Mellemfolkeligt Samvirke"/>
@@ -151,7 +151,7 @@
 <align out="a134" type="" in="b101" creator="0" insign=".." outsign="..."/>
 <align out="a134" type="?" in="b102" creator="0" insign="." outsign="..."/>
 <align out="a147" type="" in="b113 b114 b115" creator="0" insign="1 : 35" outsign="1:35"/>
-<align out="a154" type="f" in="b118" creator="0" insign="CLOSE" outsign="NEDLÆG"/>
+<align out="a154" type="f" in="b118" creator="0" insign="CLOSE" outsign="NEDLÃ†G"/>
 <align out="a164" type="" in="b122" creator="0" insign="chairperson" outsign="formand"/>
 <align out="a162 a163" type="" in="b124 b125 b126 b127 b128 b129" creator="0" insign="the Danish Association for International Cooperation" outsign="Mellemfolkeligt Samvirkes"/>
 <align out="a162 a163" type="s" in="b123" creator="0" insign="for" outsign="Mellemfolkeligt Samvirkes"/>
@@ -181,20 +181,20 @@
 <align out="a220" type="" in="b175 b176" creator="0" insign="will decide" outsign="beslutter"/>
 <align out="a212" type="" in="b166" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a217" type="" in="b167" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a232" type="" in="b187" creator="0" insign="short-range" outsign="kortrækkende"/>
-<align out="a233" type="" in="b188 b189" creator="0" insign="nuclear weapons" outsign="kernevåben"/>
+<align out="a232" type="" in="b187" creator="0" insign="short-range" outsign="kortrÃ¦kkende"/>
+<align out="a233" type="" in="b188 b189" creator="0" insign="nuclear weapons" outsign="kernevÃ¥ben"/>
 <align out="a236" type="" in="b192 b193" creator="0" insign="the alliance" outsign="alliancen"/>
 <align out="a241" type="" in="b200" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a242" type="" in="b201" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a246" type="" in="b205" creator="0" insign="largest" outsign="største"/>
-<align out="a247" type="" in="b206 b207 b208" creator="0" insign="nuclear weapons disarmament" outsign="kernevåbennedrustning"/>
+<align out="a246" type="" in="b205" creator="0" insign="largest" outsign="stÃ¸rste"/>
+<align out="a247" type="" in="b206 b207 b208" creator="0" insign="nuclear weapons disarmament" outsign="kernevÃ¥bennedrustning"/>
 <align out="a249" type="" in="b213 b214" creator="0" insign="the alliance" outsign="alliancens"/>
 <align out="a249" type="s" in="b210 b212" creator="0" insign="the of" outsign="alliancens"/>
 <align out="a254" type="" in="b218 b219 b220 b221" creator="0" insign="At the same time" outsign="Samtidig"/>
 <align out="a256" type="" in="b223 b224 b225" creator="0" insign="the defence ministers" outsign="forsvarsministrene"/>
 <align out="a253" type="" in="b217" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a252" type="" in="b216" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a262" type="" in="b233" creator="0" insign="dependence" outsign="afhængighed"/>
+<align out="a262" type="" in="b233" creator="0" insign="dependence" outsign="afhÃ¦ngighed"/>
 <align out="a263" type="" in="b234" creator="0" insign="on" outsign="af"/>
 <align out="a280" type="" in="b249" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a266" type="" in="b238" creator="-1" insign="</s>" outsign="</s>"/>

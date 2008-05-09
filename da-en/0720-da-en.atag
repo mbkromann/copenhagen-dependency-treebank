@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0720-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0720-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0720-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="In" outsign="Ved"/>
 <align out="a44 a45" type="" in="b2" creator="-1" insign="most" outsign="de fleste"/>
@@ -40,7 +40,7 @@
 <align out="a108" type="" in="b79" creator="-1" insign="." outsign="."/>
 <align out="a113" type="" in="b82" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a115" type="" in="b84" creator="-1" insign="you" outsign="man"/>
-<align out="a116" type="" in="b86" creator="-1" insign="seeking" outsign="søge"/>
+<align out="a116" type="" in="b86" creator="-1" insign="seeking" outsign="sÃ¸ge"/>
 <align out="a117" type="" in="b87" creator="-1" insign="a" outsign="en"/>
 <align out="a118" type="" in="b88" creator="-1" insign="place" outsign="plads"/>
 <align out="a119" type="" in="b89" creator="-1" insign="in" outsign="i"/>
@@ -52,7 +52,7 @@
 <align out="a125" type="" in="b95" creator="-1" insign="a" outsign="en"/>
 <align out="a126" type="" in="b96" creator="-1" insign="very" outsign="meget"/>
 <align out="a127" type="" in="b97" creator="-1" insign="good" outsign="god"/>
-<align out="a128" type="" in="b98" creator="-1" insign="idea" outsign="idé"/>
+<align out="a128" type="" in="b98" creator="-1" insign="idea" outsign="idÃ©"/>
 <align out="a129" type="" in="b99" creator="-1" insign="to" outsign="at"/>
 <align out="a130" type="" in="b100" creator="-1" insign="contact" outsign="kontakte"/>
 <align out="a132" type="" in="b104" creator="-1" insign="." outsign="."/>
@@ -90,10 +90,10 @@
 <align out="a185" type="" in="b162" creator="-1" insign="." outsign="."/>
 <align out="a190" type="" in="b165" creator="-1" insign="Graphics" outsign="Grafik"/>
 <align out="a191" type="" in="b166" creator="-1" insign=":" outsign=":"/>
-<align out="a197" type="" in="b175" creator="-1" insign="Copenhagen" outsign="Københavns"/>
+<align out="a197" type="" in="b175" creator="-1" insign="Copenhagen" outsign="KÃ¸benhavns"/>
 <align out="a198" type="" in="b176" creator="-1" insign="University" outsign="Universitet"/>
 <align out="a199" type="" in="b177" creator="-1" insign="8.1" outsign="8,1"/>
-<align out="a202" type="" in="b181" creator="-1" insign="Mathematics-Economics" outsign="Matematik-økonomi"/>
+<align out="a202" type="" in="b181" creator="-1" insign="Mathematics-Economics" outsign="Matematik-Ã¸konomi"/>
 <align out="a203" type="" in="b182" creator="-1" insign="8.1" outsign="8,1"/>
 <align out="a204" type="" in="b183" creator="-1" insign="Geology" outsign="Geologi"/>
 <align out="a205" type="" in="b184" creator="-1" insign="8.6" outsign="8,6"/>
@@ -105,7 +105,7 @@
 <align out="a211" type="" in="b191" creator="-1" insign="9.8" outsign="9,8"/>
 <align out="a212" type="" in="b192" creator="-1" insign="Psychology" outsign="Psykologi"/>
 <align out="a217" type="" in="b198" creator="-1" insign="8.9" outsign="8,9"/>
-<align out="a218" type="" in="b199" creator="-1" insign="Economics" outsign="Økonomi"/>
+<align out="a218" type="" in="b199" creator="-1" insign="Economics" outsign="Ã˜konomi"/>
 <align out="a219" type="" in="b200" creator="-1" insign="8.4" outsign="8,4"/>
 <align out="a220" type="" in="b201" creator="-1" insign="Theology" outsign="Teologi"/>
 <align out="a225" type="" in="b204" creator="-1" insign="Aarhus" outsign="Aarhus"/>
@@ -153,30 +153,30 @@
 <align out="a49" type="" in="b8" creator="0" insign="divided" outsign="opdelt"/>
 <align out="a50" type="" in="b9" creator="0" insign="into" outsign="i"/>
 <align out="b4" type="" in="b4" creator="0" insign="," outsign=","/>
-<align out="a60" type="" in="b19" creator="0" insign="applicants" outsign="ansøgerne"/>
+<align out="a60" type="" in="b19" creator="0" insign="applicants" outsign="ansÃ¸gerne"/>
 <align out="a59" type="" in="b20" creator="0" insign="are" outsign="bliver"/>
-<align out="a61" type="" in="b21" creator="0" insign="assessed" outsign="bedømt"/>
-<align out="a62" type="" in="b22" creator="0" insign="by" outsign="på"/>
+<align out="a61" type="" in="b21" creator="0" insign="assessed" outsign="bedÃ¸mt"/>
+<align out="a62" type="" in="b22" creator="0" insign="by" outsign="pÃ¥"/>
 <align out="a55" type="" in="b14" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a54" type="" in="b13" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a67" type="" in="b28" creator="0" insign="here" outsign="hér"/>
-<align out="a68" type="" in="b33" creator="0" insign="expires" outsign="udløber"/>
+<align out="a67" type="" in="b28" creator="0" insign="here" outsign="hÃ©r"/>
+<align out="a68" type="" in="b33" creator="0" insign="expires" outsign="udlÃ¸ber"/>
 <align out="a69" type="" in="b29 b30" creator="0" insign="the deadline" outsign="fristen"/>
 <align out="a71" type="s" in="b32" creator="0" insign="application" outsign="at"/>
-<align out="a72" type="" in="b32" creator="0" insign="application" outsign="søge"/>
+<align out="a72" type="" in="b32" creator="0" insign="application" outsign="sÃ¸ge"/>
 <align out="b44" type="" in="b44" creator="0" insign="," outsign=","/>
 <align out="a78" type="" in="b39" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a81" type="" in="b40" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a86" type="" in="b45 b46" creator="0" insign="the applicants'" outsign="ansøgernes"/>
-<align out="a85" type="" in="b49 b50" creator="0" insign="are assessed" outsign="bedømmes"/>
+<align out="a86" type="" in="b45 b46" creator="0" insign="the applicants'" outsign="ansÃ¸gernes"/>
+<align out="a85" type="" in="b49 b50" creator="0" insign="are assessed" outsign="bedÃ¸mmes"/>
 <align out="b54" type="" in="b54" creator="0" insign="," outsign=","/>
 <align out="a92" type="" in="b55 b56" creator="0" insign="residence abroad" outsign="udlandsophold"/>
 <align out="a96" type="" in="b63" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a97" type="" in="b64" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="b69" type="" in="b69" creator="0" insign="," outsign=","/>
-<align out="a102" type="" in="b74" creator="0" insign="expires" outsign="udløber"/>
+<align out="a102" type="" in="b74" creator="0" insign="expires" outsign="udlÃ¸ber"/>
 <align out="a104" type="" in="b75" creator="0" insign="on" outsign="den"/>
-<align out="a103" type="" in="b70 b71 b72 b73" creator="0" insign="the deadline for application" outsign="ansøgningsfristen"/>
+<align out="a103" type="" in="b70 b71 b72 b73" creator="0" insign="the deadline for application" outsign="ansÃ¸gningsfristen"/>
 <align out="a109" type="" in="b80" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a112" type="" in="b81" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="b83" type="" in="b83" creator="0" insign="If" outsign="If"/>
@@ -184,14 +184,14 @@
 <align out="a131" type="" in="b101 b102 b103" creator="0" insign="the educational institutions" outsign="uddannelsesstederne"/>
 <align out="a149" type="" in="b119" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a150" type="" in="b120" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a143 a144 a145" type="" in="b114" creator="0" insign="stress" outsign="lægge vægt på"/>
+<align out="a143 a144 a145" type="" in="b114" creator="0" insign="stress" outsign="lÃ¦gge vÃ¦gt pÃ¥"/>
 <align out="a146" type="" in="b115" creator="0" insign="for" outsign="hos"/>
-<align out="a147" type="" in="b117" creator="0" insign="applicants" outsign="ansøgerne"/>
-<align out="a147" type="f" in="b116" creator="0" insign="their" outsign="ansøgerne"/>
-<align out="a167" type="" in="b139 b140 b141 b142 b143" creator="0" insign="the Administration and Services Secretariat" outsign="Fællessekretariatet"/>
+<align out="a147" type="" in="b117" creator="0" insign="applicants" outsign="ansÃ¸gerne"/>
+<align out="a147" type="f" in="b116" creator="0" insign="their" outsign="ansÃ¸gerne"/>
+<align out="a167" type="" in="b139 b140 b141 b142 b143" creator="0" insign="the Administration and Services Secretariat" outsign="FÃ¦llessekretariatet"/>
 <align out="a165" type="" in="b135 b136 b137" creator="0" insign="the Deputy Head" outsign="souschef"/>
-<align out="a177" type="" in="b151" creator="0" insign="applicants" outsign="ansøgere"/>
-<align out="a178" type="" in="b152 b153" creator="0" insign="will receive" outsign="får"/>
+<align out="a177" type="" in="b151" creator="0" insign="applicants" outsign="ansÃ¸gere"/>
+<align out="a178" type="" in="b152 b153" creator="0" insign="will receive" outsign="fÃ¥r"/>
 <align out="a179" type="s" in="b154" creator="0" insign="a" outsign="svar"/>
 <align out="a179" type="" in="b155" creator="0" insign="response" outsign="svar"/>
 <align out="a180" type="" in="b156 b157 b158" creator="0" insign="no later than" outsign="senest"/>
@@ -217,14 +217,14 @@
 <align out="a251" type="?" in="b231" creator="0" insign="Portuguese" outsign="portugisisk/brasiliansk"/>
 <align out="a253 a254" type="?" in="b233 b234" creator="0" insign="Information Science" outsign="informationsviden skab"/>
 <align out="a264 a265" type="?" in="b245 b246" creator="0" insign="literary history" outsign="litteraturhisto rie"/>
-<align out="a271" type="" in="b252 b253" creator="0" insign="intellectual history" outsign="idéhistorie"/>
+<align out="a271" type="" in="b252 b253" creator="0" insign="intellectual history" outsign="idÃ©historie"/>
 <align out="a274" type="" in="b256" creator="0" insign="Law" outsign="Jura"/>
 <align out="a275" type="" in="b257" creator="0" insign="9.6" outsign="9,6"/>
 <align out="a276" type="" in="b258 b259" creator="0" insign="Political Sciences" outsign="Statskundskab/Samfundsfag"/>
 <align out="a273" type="" in="b255" creator="-1" insign="9.6" outsign="9,6"/>
-<align out="a278" type="" in="b261" creator="0" insign="Economics" outsign="Økonomi"/>
+<align out="a278" type="" in="b261" creator="0" insign="Economics" outsign="Ã˜konomi"/>
 <align out="a279" type="" in="b262" creator="0" insign="9.8" outsign="9,8"/>
 <align out="a281" type="" in="b264" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a48" type="" in="b5 b6" creator="0" insign="student admissions" outsign="studiepladserne"/>
-<align out="a94" type="" in="b55 b58 b59 b60 b61" creator="0" insign="residence at a high school" outsign="højskoleophold"/>
+<align out="a94" type="" in="b55 b58 b59 b60 b61" creator="0" insign="residence at a high school" outsign="hÃ¸jskoleophold"/>
 </DTAGalign>

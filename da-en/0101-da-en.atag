@@ -1,8 +1,8 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0101-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0101-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0101-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Later" outsign="Senere"/>
-<align out="a44" type="" in="b2" creator="-1" insign="in" outsign="på"/>
+<align out="a44" type="" in="b2" creator="-1" insign="in" outsign="pÃ¥"/>
 <align out="a45" type="" in="b3 b4" creator="-1" insign="the day" outsign="dagen"/>
 <align out="a46" type="" in="b7" creator="-1" insign="was" outsign="var"/>
 <align out="a47" type="" in="b6" creator="-1" insign="there" outsign="der"/>
@@ -14,7 +14,7 @@
 <align out="a60" type="" in="b25" creator="-1" insign="36.5" outsign="36,5"/>
 <align out="a61" type="" in="b26" creator="-1" insign="km" outsign="km."/>
 <align out="a62" type="" in="b27" creator="-1" insign="." outsign="."/>
-<align out="a65" type="" in="b30" creator="-1" insign="In" outsign="På"/>
+<align out="a65" type="" in="b30" creator="-1" insign="In" outsign="PÃ¥"/>
 <align out="a66" type="" in="b31 b32" creator="-1" insign="second place" outsign="andenpladsen"/>
 <align out="a67" type="" in="b33" creator="-1" insign="came" outsign="kom"/>
 <align out="a68" type="" in="b34" creator="-1" insign="Castorama" outsign="Castorama"/>
@@ -24,10 +24,10 @@
 <align out="a72" type="" in="b38" creator="-1" insign="and" outsign="og"/>
 <align out="a73" type="" in="b39" creator="-1" insign="Bjarne" outsign="Bjarne"/>
 <align out="a74" type="" in="b40" creator="-1" insign="Riis" outsign="Riis"/>
-<align out="a75" type="" in="b41" creator="-1" insign="at" outsign="på"/>
+<align out="a75" type="" in="b41" creator="-1" insign="at" outsign="pÃ¥"/>
 <align out="a76" type="" in="b42" creator="-1" insign="41.31" outsign="41,31"/>
 <align out="a77" type="" in="b43" creator="-1" insign="." outsign="."/>
-<align out="a80" type="" in="b46" creator="-1" insign="Then" outsign="Så"/>
+<align out="a80" type="" in="b46" creator="-1" insign="Then" outsign="SÃ¥"/>
 <align out="a81" type="" in="b47" creator="-1" insign="followed" outsign="fulgte"/>
 <align out="a82" type="" in="b48" creator="-1" insign="Panasonic" outsign="Panasonic"/>
 <align out="a83" type="" in="b49" creator="-1" insign="," outsign=","/>
@@ -48,7 +48,7 @@
 <align out="a99" type="" in="b70" creator="-1" insign="Lemond" outsign="Lemond"/>
 <align out="a100" type="" in="b71" creator="-1" insign="." outsign="."/>
 <align out="a105" type="" in="b74" creator="-1" insign="The" outsign="De"/>
-<align out="a106" type="" in="b75" creator="-1" insign="next" outsign="næste"/>
+<align out="a106" type="" in="b75" creator="-1" insign="next" outsign="nÃ¦ste"/>
 <align out="a107" type="" in="b76" creator="-1" insign="were" outsign="var"/>
 <align out="a108" type="" in="b77" creator="-1" insign="Motorola" outsign="Motorola"/>
 <align out="a109" type="" in="b78" creator="-1" insign="," outsign=","/>
@@ -118,7 +118,7 @@
 <align out="a229" type="" in="b206" creator="-1" insign="Here" outsign="Her"/>
 <align out="a234" type="" in="b213" creator="-1" insign="," outsign=","/>
 <align out="a236" type="" in="b215" creator="-1" insign="he" outsign="han"/>
-<align out="a240" type="" in="b219" creator="-1" insign="both" outsign="både"/>
+<align out="a240" type="" in="b219" creator="-1" insign="both" outsign="bÃ¥de"/>
 <align out="a241" type="" in="b220" creator="-1" insign="Moreno" outsign="Moreno"/>
 <align out="a242" type="" in="b221" creator="-1" insign="Argentin" outsign="Argentin"/>
 <align out="a243" type="" in="b222" creator="-1" insign="and" outsign="og"/>
@@ -127,8 +127,8 @@
 <align out="b56" type="" in="b56" creator="-1" insign="," outsign=","/>
 <align out="b58" type="" in="b58" creator="-1" insign="," outsign=","/>
 <align out="b207" type="" in="b207" creator="-1" insign="," outsign=","/>
-<align out="a48" type="s" in="b8" creator="0" insign="a" outsign="hold-tidskørsel"/>
-<align out="a48" type="" in="b9 b10 b11" creator="0" insign="team time trial" outsign="hold-tidskørsel"/>
+<align out="a48" type="s" in="b8" creator="0" insign="a" outsign="hold-tidskÃ¸rsel"/>
+<align out="a48" type="" in="b9 b10 b11" creator="0" insign="team time trial" outsign="hold-tidskÃ¸rsel"/>
 <align out="a49" type="" in="a49" creator="0" insign="," outsign=","/>
 <align out="b13" type="" in="b13" creator="0" insign="," outsign=","/>
 <align out="b15" type="" in="b15" creator="0" insign="," outsign=","/>
@@ -167,9 +167,9 @@
 <align out="a198" type="s" in="b170" creator="0" insign="a" outsign="melding"/>
 <align out="a198" type="" in="b171" creator="0" insign="report" outsign="melding"/>
 <align out="a200" type="" in="a200" creator="0" insign="," outsign=","/>
-<align out="a203" type="" in="b174 b175" creator="0" insign="were leading" outsign="førte"/>
-<align out="a204" type="s" in="b176" creator="0" insign="in" outsign="holdløbet"/>
-<align out="a204" type="" in="b177 b178 b179" creator="0" insign="the team race" outsign="holdløbet"/>
+<align out="a203" type="" in="b174 b175" creator="0" insign="were leading" outsign="fÃ¸rte"/>
+<align out="a204" type="s" in="b176" creator="0" insign="in" outsign="holdlÃ¸bet"/>
+<align out="a204" type="" in="b177 b178 b179" creator="0" insign="the team race" outsign="holdlÃ¸bet"/>
 <align out="a195" type="" in="b165" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a188" type="" in="b160" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a185" type="" in="b159" creator="-1" insign="</s>" outsign="</s>"/>
@@ -181,14 +181,14 @@
 <align out="a215" type="" in="b190" creator="0" insign="beyond" outsign="over"/>
 <align out="a216" type="s" in="b191" creator="0" insign="their" outsign="evne"/>
 <align out="a216" type="" in="b192" creator="0" insign="abilities" outsign="evne"/>
-<align out="a225" type="s" in="b201" creator="0" insign="the" outsign="mål"/>
-<align out="a225" type="" in="b202" creator="0" insign="goal" outsign="mål"/>
+<align out="a225" type="s" in="b201" creator="0" insign="the" outsign="mÃ¥l"/>
+<align out="a225" type="" in="b202" creator="0" insign="goal" outsign="mÃ¥l"/>
 <align out="a206" type="" in="b181" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a207" type="" in="b182" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a230" type="" in="b212" creator="0" insign="slipped" outsign="gled"/>
-<align out="a232" type="" in="b209" creator="0" insign="Sørensen's" outsign="Sørensens"/>
+<align out="a232" type="" in="b209" creator="0" insign="SÃ¸rensen's" outsign="SÃ¸rensens"/>
 <align out="a233" type="" in="b210 b211" creator="0" insign="back wheel" outsign="baghjul"/>
-<align out="a235" type="" in="b214" creator="0" insign="and" outsign="så"/>
+<align out="a235" type="" in="b214" creator="0" insign="and" outsign="sÃ¥"/>
 <align out="a237" type="" in="b216" creator="0" insign="crashed" outsign="styrtede"/>
 <align out="b217" type="" in="b217" creator="0" insign="," outsign=","/>
 <align out="a239" type="" in="b218" creator="0" insign="pulling" outsign="rev"/>
@@ -204,7 +204,7 @@
 <align out="a93" type="" in="b61" creator="0" insign="no" outsign="nr."/>
 <align out="a93" type="?" in="b62" creator="0" insign="." outsign="nr."/>
 <align out="a182" type="" in="b157" creator="0" insign="metres" outsign="meters"/>
-<align out="a183" type="" in="a183" creator="0" insign="kørsel" outsign="kørsel"/>
+<align out="a183" type="" in="a183" creator="0" insign="kÃ¸rsel" outsign="kÃ¸rsel"/>
 <align out="a245" type="" in="b224" creator="0" insign="with" outsign="med"/>
 <align out="b225" type="" in="b225" creator="0" insign="him" outsign="him"/>
 </DTAGalign>

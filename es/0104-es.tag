@@ -1,7 +1,7 @@
 <W msd="ART" lemma="el">La</W>
 <W msd="NC" lemma="propuesta">propuesta</W>
 <W msd="PREP" lemma="sobre">sobre</W>
-<W msd="NC" lemma="sesiÛn">sesiones</W>
+<W msd="NC" lemma="sesin">sesiones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="grupo">grupo</W>
 <W msd="ADJ" lemma="colectivo">colectivas</W>
@@ -37,7 +37,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="CARD" lemma="@card@">1965</W>
-<W msd="PPC" lemma="Èl">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">cost√≥</W>
 <W msd="PAL" lemma="al">al</W>
 <W msd="ADV" lemma="entonces">entonces</W>
@@ -127,11 +127,11 @@
 <W msd="NC" lemma="sentido">sentido</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">peri√≥dicas</W>
-<W msd="NC" lemma="sesiÛn">sesiones</W>
+<W msd="NC" lemma="sesin">sesiones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="grupo">grupo</W>
 <W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="reuniÛn">reuniones</W>
+<W msd="NC" lemma="reunin">reuniones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="directivo">directivos</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">podr√≠an</W>
@@ -158,7 +158,7 @@
 <W msd="PREP" lemma="entre">entre</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="ADJ" lemma="futuro">futuras</W>
-<W msd="NC" lemma="generaciÛn">generaciones</W>
+<W msd="NC" lemma="generacin">generaciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">pol√≠ticos</W>
 <W msd="NC" lemma="&lt;unknown&gt;">no-socialistas</W>

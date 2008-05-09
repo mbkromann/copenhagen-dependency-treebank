@@ -30,7 +30,7 @@
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="NC" lemma="agua">aguas</W>
-<W msd="ADJ" lemma="danÈs">danesas</W>
+<W msd="ADJ" lemma="dans">danesas</W>
 <W msd="NEG" lemma="no">no</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">ocurri√≥</W>
 <W msd="PREP" lemma="hasta">hasta</W>
@@ -161,7 +161,7 @@
 <W msd="NC" lemma="consecuencia">consecuencias</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="conexiÛn">conexiones</W>
+<W msd="NC" lemma="conexin">conexiones</W>
 <W msd="ADJ" lemma="fijo">fijas</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Storeb√¶lt</W>

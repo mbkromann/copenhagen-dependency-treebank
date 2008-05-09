@@ -79,7 +79,7 @@
 <W msd="NN" in="1:mod" out="">hospital</W>
 <W msd="NN" in="-3:nobj" out="-1:mod">ward</W>
 <W msd="IN" in="-4:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Brøndby</W>
+<W msd="NNP" in="-1:nobj" out="">BrÃ¸ndby</W>
 <W msd="." in="-10:pnct" out="">.</W>
 </s>
 <s>

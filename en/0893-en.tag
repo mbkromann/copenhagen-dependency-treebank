@@ -100,7 +100,7 @@
 <W msd="VBZ" in="" out="-28:qobj|3:subj|27:pnct">says</W>
 <W msd="NN" in="2:title" out="">director</W>
 <W msd="NNP" in="1:namef" out="">Leif</W>
-<W msd="NNP" in="-3:subj" out="-2:title|-1:namef|7:pnct|8:ref|9:rel|1:pnct">Kjærgaard</W>
+<W msd="NNP" in="-3:subj" out="-2:title|-1:namef|7:pnct|8:ref|9:rel|1:pnct">KjÃ¦rgaard</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="" out="">Lic</W>
 <W msd="." in="" out="">.</W>
@@ -128,7 +128,7 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Leif</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Kjærgaard</W>
+<W msd="NNP" in="1:subj" out="-1:namef">KjÃ¦rgaard</W>
 <W msd="VBZ" in="" out="-1:subj|1:dobj|8:mod|11:pnct|12:mod|36:pnct|13:pnct">needs</W>
 <W msd="DT" in="-1:dobj" out="2:nobj">a</W>
 <W msd="NN" in="1:mod" out="">production</W>

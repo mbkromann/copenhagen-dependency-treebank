@@ -156,7 +156,7 @@
 <W msd="VLfin" lemma="&lt;unknown&gt;">iza</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="bandera">bandera</W>
-<W msd="ADJ" lemma="danÈs">danesa</W>
+<W msd="ADJ" lemma="dans">danesa</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">mayor√≠a</W>
@@ -168,7 +168,7 @@
 <W msd="CSUBX" lemma="cuando">Cuando</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CSUBI" lemma="a~pesar~de">a pesar de</W>
-<W msd="PPX" lemma="Èl">ello</W>
+<W msd="PPX" lemma="l">ello</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="ART" lemma="el">los</W>
 <W msd="NC" lemma="votante">votantes</W>

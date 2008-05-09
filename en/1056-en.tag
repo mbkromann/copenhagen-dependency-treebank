@@ -1,6 +1,6 @@
 <s>
 <W msd="NNP" in="1:namef" out="">Lars</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Højer</W>
+<W msd="NNP" in="1:subj" out="-1:namef">HÃ¸jer</W>
 <W msd="VBZ" in="" out="-1:subj|1:mod|2:pred|4:mod|10:pnct|11:mod|52:pnct">is</W>
 <W msd="RB" in="-1:mod" out="">not</W>
 <W msd="JJ" in="-2:pred" out="1:mod">old</W>
@@ -39,7 +39,7 @@
 <W msd="VBD" in="-1:conj" out="-4:[subj]|1:part|2:[lobj]">grew</W>
 <W msd="RP" in="-1:part" out="">up</W>
 <W msd="IN" in="-4:lobj|-2:[lobj]" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Nørrebro</W>
+<W msd="NNP" in="-1:nobj" out="">NÃ¸rrebro</W>
 <W msd="CC" in="-7:coord" out="5:conj">and</W>
 <W msd="RB" in="4:mod" out="1:mod">here</W>
 <W msd="IN" in="-1:mod" out="1:nobj">in</W>
@@ -74,7 +74,7 @@
 <W msd=")" in="-7:pnct" out="">)</W>
 <W msd="IN" in="-15:nobj" out="3:vobj">that</W>
 <W msd="NNP" in="1:namef" out="">Lars</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Højer</W>
+<W msd="NNP" in="1:subj" out="-1:namef">HÃ¸jer</W>
 <W msd="NNS" in="-3:vobj" out="-1:subj|1:pobj">talks</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PRP$" in="-1:nobj" out="2:possd">his</W>
@@ -145,7 +145,7 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Lars</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Højer</W>
+<W msd="NNP" in="1:subj" out="-1:namef">HÃ¸jer</W>
 <W msd="VBZ" in="" out="-1:subj|1:pred|5:pnct">is</W>
 <W msd="CD" in="-1:pred" out="1:pobj">one</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">of</W>

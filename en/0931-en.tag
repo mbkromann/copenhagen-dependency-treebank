@@ -15,7 +15,7 @@
 <W msd="DT" in="" out="2:pobj|1:nobj">the</W>
 <W msd="NN" in="-1:nobj" out="">municipality</W>
 <W msd="IN" in="-2:pobj" out="">of</W>
-<W msd="NNP" in="" out="">Rødovre</W>
+<W msd="NNP" in="" out="">RÃ¸dovre</W>
 <W msd="IN" in="" out="">on</W>
 <W msd="NNP" in="-7:mod" out="1:mod">October</W>
 <W msd="CD" in="-1:mod" out="">1</W>
@@ -200,7 +200,7 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Dan</W>
-<W msd="NNP" in="4:subj|5:[subj]" out="-1:namef|1:pnct|2:title">Turèll</W>
+<W msd="NNP" in="4:subj|5:[subj]" out="-1:namef|1:pnct|2:title">TurÃ¨ll</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="JJ" in="-2:title" out="1:pnct">arch-Copenhagener</W>
 <W msd="," in="-1:pnct" out="">,</W>

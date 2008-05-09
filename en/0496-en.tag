@@ -1,6 +1,6 @@
 <s>
 <W msd="IN" in="10:mod" out="2:nobj">For</W>
-<W msd="NNP" in="1:namef" out="">Søs</W>
+<W msd="NNP" in="1:namef" out="">SÃ¸s</W>
 <W msd="NNP" in="-2:nobj" out="-1:namef|1:pnct|4:mod">Krusell</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="CD" in="2:mod" out="1:nobj">16</W>
@@ -244,7 +244,7 @@
 <W msd="NNS" in="-2:nobj" out="-1:mod">Studies</W>
 <W msd="CC" in="-9:coord" out="1:conj">and</W>
 <W msd="DT" in="-1:conj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Humlehøj</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">HumlehÃ¸j</W>
 <W msd="NNP" in="-1:nobj" out="">School</W>
 <W msd="VBZ" in="" out="8:pnct|-20:subj|7:pred">is</W>
 <W msd="JJ" in="2:mod" out="">11th-grade</W>

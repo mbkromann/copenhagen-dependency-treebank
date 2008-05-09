@@ -1,15 +1,15 @@
 
-OPLÆSER
+OPLÃ†SER
 
 
-OPLÆG
+OPLÃ†G
 
 
-Forud for FNs store miljøtopmøde i Brasilien næste år er et halvt 
-hundrede ministre i denne uge i København. De drøfter U-landenes 
-industriudvikling, som kan forværre de globale miljøproblemer voldsomt. 
-Ministererklæringen, som udsendes officielt i morgen, er imidlertid alt 
-for ukonkret og generel  -  siger en række miljø- og 
+Forud for FNs store miljÃ¸topmÃ¸de i Brasilien nÃ¦ste Ã¥r er et halvt 
+hundrede ministre i denne uge i KÃ¸benhavn. De drÃ¸fter U-landenes 
+industriudvikling, som kan forvÃ¦rre de globale miljÃ¸problemer voldsomt. 
+MinistererklÃ¦ringen, som udsendes officielt i morgen, er imidlertid alt 
+for ukonkret og generel  -  siger en rÃ¦kke miljÃ¸- og 
 bistandsorganisationer. Her formanden for Mellemfolkeligt Samvirke, Knud 
 Vilby:
 
@@ -20,10 +20,10 @@ SLUTORD = ... slet ikke gjort.
 NETTO = 1:35
 
 
-NEDLÆG
+NEDLÃ†G
 
 
-Sagde Mellemfolkeligt Samvirkes formand, Knud Vilby, til Allan Høxbroe.
+Sagde Mellemfolkeligt Samvirkes formand, Knud Vilby, til Allan HÃ¸xbroe.
 
 
 BRUTTO = 02:03
@@ -35,20 +35,20 @@ r-nato
 MEDARB = mse KILDE = all
 
 
-UDSENDES KL = 1858 OPLÆSER =
+UDSENDES KL = 1858 OPLÃ†SER =
 
 
 NATO-landenes forsvarsministre beslutter i dag og i morgen at fjerne tre
- fjerdedel af de taktiske og kortrækkende kernevåben, som alliancen 
-råder over i dag. Det er den største kernevåbennedrustning i alliancens
+ fjerdedel af de taktiske og kortrÃ¦kkende kernevÃ¥ben, som alliancen 
+rÃ¥der over i dag. Det er den stÃ¸rste kernevÃ¥bennedrustning i alliancens
  historie. Samtidig diskuterer forsvarsministrene en ny strategi med 
-mindre afhængighed af kernevåben. t-boret20
+mindre afhÃ¦ngighed af kernevÃ¥ben. t-boret20
 
 
 MEDARB = psp KILDE = SB
 
 
-UDSENDES KL = aften OPLÆSER = sdt
+UDSENDES KL = aften OPLÃ†SER = sdt
 
 
 

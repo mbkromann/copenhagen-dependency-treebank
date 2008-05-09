@@ -23,7 +23,7 @@
 <W msd="NC" lemma="total">total</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="inversiÛn">inversiones</W>
+<W msd="NC" lemma="inversin">inversiones</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">descendi√≥</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="VHfin" lemma="haber">ha</W>
@@ -68,7 +68,7 @@
 <W msd="SE" lemma="se">se</W>
 <W msd="VLfin" lemma="elevar">elevaron</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="inversiÛn">inversiones</W>
+<W msd="NC" lemma="inversin">inversiones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="un">un</W>
 <W msd="NC" lemma="promedio">promedio</W>
@@ -82,7 +82,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="ART" lemma="el">los</W>
 <W msd="NC" lemma="sistema">sistemas</W>
-<W msd="ADJ" lemma="pequeÒo">menores</W>
+<W msd="ADJ" lemma="pequeo">menores</W>
 <W msd="PREP" lemma="con">con</W>
 <W msd="NC" lemma="&lt;unknown&gt;">Unix</W>
 <W msd="PREP" lemma="para">para</W>
@@ -189,7 +189,7 @@
 <W msd="NC" lemma="texto">textos</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="QU" lemma="otro">otras</W>
-<W msd="NC" lemma="aplicaciÛn">aplicaciones</W>
+<W msd="NC" lemma="aplicacin">aplicaciones</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">simples.‚Äù</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Hardware</W>
 <W msd="PREP" lemma="sin">sin</W>
@@ -216,7 +216,7 @@
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="transferencia">transferencia</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="aplicaciÛn">aplicaciones</W>
+<W msd="NC" lemma="aplicacin">aplicaciones</W>
 <W msd="PREP" lemma="entre">entre</W>
 <W msd="ADJ" lemma="diferente">diferentes</W>
 <W msd="NC" lemma="sistema">sistemas</W>

@@ -41,14 +41,14 @@
 <W msd="SE" lemma="se">se</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">dirig√≠a</W>
 <W msd="PREP" lemma="hacia">hacia</W>
-<W msd="PPX" lemma="Èl">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">cogi√≥</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="NC" lemma="mano">manos</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="PPX" lemma="Èl">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="NC" lemma="&lt;unknown&gt;">suyas</W>
@@ -59,7 +59,7 @@
 <W msd="VLinf" lemma="&lt;unknown&gt;">qu√©</W>
 <W msd="VLinf" lemma="usar">usarlas</W>
 <W msd="FS" lemma=".">.</W>
-<W msd="PPX" lemma="Èl">Ella</W>
+<W msd="PPX" lemma="l">Ella</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">a√∫n</W>
 <W msd="VLfin" lemma="estar">estaba</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">jadeante</W>
@@ -79,7 +79,7 @@
 <W msd="ADV" lemma="demasiado">demasiado</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">f√°cil</W>
 <W msd="PREP" lemma="para">para</W>
-<W msd="PPX" lemma="Èl">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Hab√≠a</W>
 <W msd="VLadj" lemma="tener">tenido</W>
@@ -130,7 +130,7 @@
 <W msd="CC" lemma="o">o</W>
 <W msd="NC" lemma="muerte">muerte</W>
 <W msd="CM" lemma=",">,</W>
-<W msd="PPC" lemma="Èl">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">habr√≠a</W>
 <W msd="VLadj" lemma="divertir">divertido</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">‚Äì</W>
@@ -148,7 +148,7 @@
 <W msd="NC" lemma="comida">comida</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="NC" lemma="vino">vino</W>
-<W msd="PPC" lemma="Èl">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="provocar">provocaba</W>
 <W msd="NC" lemma="&lt;unknown&gt;">n√°useas</W>
 <W msd="CM" lemma=",">,</W>

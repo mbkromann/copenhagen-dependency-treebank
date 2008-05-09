@@ -1,12 +1,12 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0306-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
 <alignFile key="b" href="../de/0306-de.tag" sign="_input"/>
 <align out="a42" type="" in="b0" creator="0" insign="Gibt" outsign="Er"/>
 <align out="a43" type="" in="b1" creator="0" insign="es" outsign="der"/>
 <align out="a44" type="" in="b2" creator="0" insign="Probleme" outsign="problemer"/>
 <align out="a45" type="" in="b3" creator="0" insign="mit" outsign="med"/>
 <align out="a46" type="" in="b4 b5" creator="0" insign="der Gesundheit" outsign="helbredet"/>
-<align out="a48" type="" in="a48" creator="0" insign="s�" outsign="s�"/>
+<align out="a48" type="" in="a48" creator="0" insign="så" outsign="så"/>
 <align out="a49" type="" in="b7" creator="0" insign="schreiben" outsign="skriv"/>
 <align out="a50" type="" in="b9" creator="0" insign="an" outsign="til"/>
 <align out="b8" type="" in="b8" creator="0" insign="Sie" outsign="Sie"/>
@@ -18,26 +18,169 @@
 <align out="a54" type="" in="b13" creator="-1" insign="," outsign=","/>
 <align out="a57" type="" in="b16" creator="-1" insign="," outsign=","/>
 <align out="a60" type="" in="b19" creator="-1" insign="," outsign=","/>
-<align out="a52" type="" in="b11" creator="-1" insign="�rzte" outsign="L�gerne"/>
+<align out="a52" type="" in="b11" creator="-1" insign="Ärzte" outsign="Lægerne"/>
 <align out="a55" type="" in="b14" creator="-1" insign="Wochenmagazin" outsign="Ugemagasinet"/>
-<align out="a56" type="" in="b15" creator="-1" insign="SONNTAG" outsign="S�NDAG"/>
+<align out="a56" type="" in="b15" creator="-1" insign="SONNTAG" outsign="SØNDAG"/>
 <align out="a64" type="" in="a64" creator="0" insign="." outsign="."/>
 <align out="a67" type="" in="b23" creator="0" insign="Nur" outsign="Kun"/>
-<align out="a70" type="" in="b25" creator="0" insign="�rzte" outsign="l�ger"/>
-<align out="a69" type="" in="b28" creator="0" insign="SONNTAG" outsign="S�NDAG's"/>
-<align out="a69" type="s" in="b24 b26" creator="0" insign="die vom" outsign="S�NDAG's"/>
-<align out="a71" type="" in="b29" creator="0" insign="d�rfen" outsign="m�"/>
-<align out="a72" type="" in="b32" creator="0" insign="�ffnen" outsign="�bne"/>
+<align out="a70" type="" in="b25" creator="0" insign="Ärzte" outsign="læger"/>
+<align out="a69" type="" in="b28" creator="0" insign="SONNTAG" outsign="SØNDAG's"/>
+<align out="a69" type="s" in="b24 b26" creator="0" insign="die vom" outsign="SØNDAG's"/>
+<align out="a71" type="" in="b29" creator="0" insign="dürfen" outsign="må"/>
+<align out="a72" type="" in="b32" creator="0" insign="öffnen" outsign="åbne"/>
 <align out="a73" type="" in="b30" creator="0" insign="Ihre" outsign="Deres"/>
 <align out="a74" type="" in="b31" creator="0" insign="Briefe" outsign="brev"/>
-<align out="a80" type="" in="b36 b37" creator="0" insign="Die �rzte" outsign="L�gerne"/>
+<align out="a80" type="" in="b36 b37" creator="0" insign="Die Ärzte" outsign="Lægerne"/>
 <align out="a61" type="" in="b20" creator="-1" insign="1505" outsign="1505"/>
-<align out="a62" type="" in="b21" creator="-1" insign="K�benhavn" outsign="K�benhavn"/>
+<align out="a62" type="" in="b21" creator="-1" insign="København" outsign="København"/>
 <align out="a63" type="" in="b22" creator="-1" insign="V." outsign="V."/>
 <align out="a75" type="" in="b33" creator="-1" insign="." outsign="."/>
 <align out="a79" type="" in="b35" creator="-1" insign=":" outsign=":"/>
 <align out="a68" type="" in="b27" creator="-1" insign="Wochenmagazin" outsign="Ugemagasinet"/>
 <align out="a78" type="" in="b34" creator="-1" insign="NB" outsign="OBS"/>
-<align out="a98" type="" in="b49" creator="-100" insign="?" outsign="?"/>
-<align out="a90" type="" in="b44" creator="-100" insign="." outsign="."/>
+<align out="a81" type="" in="b38" creator="0" insign="können" outsign="kan"/>
+<align out="a82" type="" in="b39" creator="0" insign="leider" outsign="desværre"/>
+<align out="a88" type="" in="b41" creator="0" insign="privaten" outsign="private"/>
+<align out="a89" type="" in="b42" creator="0" insign="Antworten" outsign="svar"/>
+<align out="a87" type="" in="b43" creator="0" insign="geben" outsign="give"/>
+<align out="a83" type="f" in="b40" creator="0" insign="keine" outsign="ikke"/>
+<align out="a84 a85 a86" type="" in="a84 a85 a86" creator="0" insign="påtage sig at" outsign="påtage sig at"/>
+<align out="a95" type="" in="b45" creator="0" insign="Antibabypille" outsign="P-PILLER"/>
+<align out="a96" type="" in="b46" creator="0" insign="in" outsign="I"/>
+<align out="a97" type="" in="b47 b48" creator="0" insign="den Wechseljahren" outsign="OVERGANGSALDEREN"/>
+<align out="a90" type="" in="b44" creator="-1" insign="." outsign="."/>
+<align out="a98" type="" in="b49" creator="-1" insign="?" outsign="?"/>
+<align out="a103" type="" in="b50" creator="0" insign="Viele" outsign="Mange"/>
+<align out="a104" type="" in="b51" creator="0" insign="Frauen" outsign="kvinder"/>
+<align out="a105 a106" type="" in="b52" creator="0" insign="möchten" outsign="ønsker at"/>
+<align out="a107 a108" type="" in="b56" creator="0" insign="aufhören" outsign="holde op"/>
+<align out="a110" type="" in="b54 b55" creator="0" insign="der Antibabypille" outsign="P-pillerne"/>
+<align out="a113" type="" in="b59" creator="0" insign="sie" outsign="de"/>
+<align out="a114" type="" in="b62" creator="0" insign="sind" outsign="er"/>
+<align out="a115 a116 a117" type="" in="b60" creator="0" insign="Ende" outsign="i slutningen af"/>
+<align out="a118" type="f" in="b61" creator="0" insign="vierzig" outsign="40'erne"/>
+<align out="a122" type="" in="b64" creator="0" insign="Aber" outsign="Men"/>
+<align out="a109" type="" in="b53" creator="-1" insign="mit" outsign="med"/>
+<align out="a111" type="" in="b57" creator="-1" insign="," outsign=","/>
+<align out="a119" type="" in="b63" creator="-1" insign="." outsign="."/>
+<align out="a112" type="" in="b58" creator="-1" insign="wenn" outsign="når"/>
+<align out="a123" type="" in="b65" creator="0" insign="das" outsign="det"/>
+<align out="a125" type="" in="b67" creator="0" insign="eine" outsign="en"/>
+<align out="a126" type="" in="a126" creator="0" insign="lang" outsign="lang"/>
+<align out="a127" type="" in="b68 b69" creator="0" insign="Reihe von" outsign="række"/>
+<align out="a128" type="" in="b70" creator="0" insign="Fragen" outsign="spørgsmål"/>
+<align out="a124" type="" in="b66 b71" creator="0" insign="wirft auf" outsign="rejser"/>
+<align out="a133" type="" in="b73" creator="0" insign="auf" outsign="på"/>
+<align out="a130" type="" in="b74" creator="0" insign="die" outsign="som"/>
+<align out="a134" type="" in="b77" creator="0" insign="hier" outsign="her"/>
+<align out="a132" type="" in="b78" creator="0" insign="antworten" outsign="svarer"/>
+<align out="a135" type="" in="b79" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a136" type="" in="b80" creator="0" insign="u.a." outsign="bl.a."/>
+<align out="a131" type="" in="b75 b76" creator="-1" insign="die Ärzte" outsign="lægerne"/>
+<align out="a129" type="" in="b72" creator="-1" insign="," outsign=","/>
+<align out="b83" type="" in="b83" creator="0" insign="die" outsign="die"/>
+<align out="a141" type="sv" in="b84" creator="0" insign="Antibabypille" outsign="P-piller"/>
+<align out="a140" type="" in="b85" creator="0" insign="ersetzen" outsign="erstatte"/>
+<align out="a138" type="" in="b82" creator="0" insign="Hormone" outsign="hormoner"/>
+<align out="a147 a148 a149 a150" type="" in="a147 a148 a149 a150" creator="0" insign="Illustration : Ole Clausen" outsign="Illustration : Ole Clausen"/>
+<align out="a158" type="" in="a158" creator="0" insign="år" outsign="år"/>
+<align out="a155" type="" in="b88" creator="-1" insign="Bodil" outsign="Bodil"/>
+<align out="a157" type="" in="b90" creator="-1" insign="49" outsign="49"/>
+<align out="a139" type="" in="b86" creator="-1" insign="können" outsign="kan"/>
+<align out="a142" type="" in="b87" creator="-1" insign="." outsign="."/>
+<align out="a159" type="" in="b91" creator="-1" insign="." outsign="."/>
+<align out="a137" type="" in="b81" creator="-1" insign="ob" outsign="om"/>
+<align out="a156" type="" in="b89" creator="-1" insign="ist" outsign="er"/>
+<align out="a162" type="" in="b92" creator="0" insign="Sie" outsign="Hun"/>
+<align out="a163" type="" in="b93" creator="0" insign="hat" outsign="har"/>
+<align out="a166 a167 a168" type="" in="b94" creator="0" insign="jahrelang" outsign="i mange år"/>
+<align out="a165" type="sv" in="b95 b96" creator="0" insign="die Pille" outsign="P-piller"/>
+<align out="a164" type="lv" in="b97" creator="0" insign="genommen" outsign="spist"/>
+<align out="a172" type="" in="b99" creator="0" insign="Sie" outsign="Hun"/>
+<align out="a174" type="" in="a174" creator="0" insign="tidligt" outsign="tidligt"/>
+<align out="a175" type="" in="b103" creator="0" insign="drei" outsign="3"/>
+<align out="a176" type="" in="b104" creator="0" insign="Kinder" outsign="børn"/>
+<align out="a178 a179" type="" in="b102" creator="0" insign="hintereinander" outsign="efter hinanden"/>
+<align out="a177" type="" in="b101" creator="0" insign="kurz" outsign="lige"/>
+<align out="a173" type="" in="b100 b105" creator="0" insign="hatte geboren" outsign="fik"/>
+<align out="a182" type="f" in="b108" creator="-1" insign="keine" outsign="ikke"/>
+<align out="a169" type="" in="b98" creator="-1" insign="." outsign="."/>
+<align out="a180" type="" in="b106" creator="-1" insign="," outsign=","/>
+<align out="a181" type="" in="b107" creator="-1" insign="wollte" outsign="ønskede"/>
+<align out="a183" type="" in="b109" creator="0" insign="weiteren" outsign="flere"/>
+<align out="a185" type="" in="b111" creator="0" insign="wollte" outsign="ville"/>
+<align out="a192" type="" in="b112" creator="0" insign="sich" outsign="sig"/>
+<align out="b113" type="" in="b113" creator="0" insign="," outsign=","/>
+<align out="a187" type="" in="b114" creator="0" insign="weil" outsign="pga."/>
+<align out="a186" type="" in="a186" creator="0" insign="gerne" outsign="gerne"/>
+<align out="a191" type="" in="b122" creator="0" insign="absichern" outsign="sikre"/>
+<align out="b115" type="" in="b115" creator="0" insign="sie" outsign="sie"/>
+<align out="a188 a189" type="" in="b116 b118" creator="0" insign="gegen war" outsign="modstand mod"/>
+<align out="a190" type="" in="b117" creator="0" insign="Abtreibung" outsign="abort"/>
+<align out="b119" type="" in="b119" creator="0" insign="," outsign=","/>
+<align out="b119" type="" in="b119" creator="0" insign="," outsign=","/>
+<align out="a193" type="" in="b120" creator="-1" insign="100" outsign="100"/>
+<align out="a194" type="" in="b121" creator="-1" insign="%" outsign="%"/>
+<align out="a200" type="" in="b126" creator="-1" insign="sie" outsign="hun"/>
+<align out="a195" type="" in="b123" creator="-1" insign="." outsign="."/>
+<align out="a184" type="" in="b110" creator="-1" insign="und" outsign="og"/>
+<align out="a198" type="" in="b124" creator="-1" insign="Deshalb" outsign="Derfor"/>
+<align out="b127" type="" in="b127" creator="0" insign="sich" outsign="sich"/>
+<align out="a201" type="sv" in="b129 b130" creator="0" insign="die Antibabypille" outsign="P-pillerne"/>
+<align out="a199" type="" in="b125 b128" creator="0" insign="entschied für" outsign="valgte"/>
+<align out="a206" type="" in="b134" creator="0" insign="gut" outsign="godt"/>
+<align out="a208" type="" in="b136" creator="0" insign="ohne" outsign="uden"/>
+<align out="a209" type="" in="b137" creator="0" insign="Nebenwirkungen" outsign="bivirkninger"/>
+<align out="b138" type="" in="b138" creator="0" insign="," outsign=","/>
+<align out="b135" type="" in="b135" creator="0" insign="," outsign=","/>
+<align out="a205 a207" type="" in="b139" creator="0" insign="vertrug" outsign="fungerede med"/>
+<align out="a203" type="" in="b132" creator="-1" insign="die" outsign="som"/>
+<align out="a218" type="" in="b143" creator="-1" insign="40" outsign="40"/>
+<align out="a210" type="" in="b140" creator="-1" insign="." outsign="."/>
+<align out="a202" type="" in="b131" creator="-1" insign="," outsign=","/>
+<align out="a204" type="" in="b133" creator="-1" insign="sie" outsign="hun"/>
+<align out="a216" type="" in="b142" creator="-1" insign="sie" outsign="hun"/>
+<align out="a215" type="" in="b141" creator="-1" insign="Als" outsign="Da"/>
+<align out="a217" type="" in="b144" creator="0" insign="wurde" outsign="blev"/>
+<align out="a219" type="" in="a219" creator="0" insign="år" outsign="år"/>
+<align out="b145" type="" in="b145" creator="0" insign="," outsign=","/>
+<align out="a220" type="" in="b146" creator="0" insign="sprach" outsign="talte"/>
+<align out="a221" type="" in="b147" creator="0" insign="ich" outsign="jeg"/>
+<align out="a227" type="" in="b153" creator="0" insign="Verhütungsmöglichkeit" outsign="prævention"/>
+<align out="a228 a229 a230" type="" in="b154" creator="0" insign="anstelle" outsign="i stedet for"/>
+<align out="a232" type="" in="a232" creator="0" insign="," outsign=","/>
+<align out="b157" type="" in="b157" creator="0" insign="." outsign="."/>
+<align out="a222" type="" in="b148" creator="-1" insign="mit" outsign="med"/>
+<align out="a225" type="" in="b151" creator="-1" insign="eine" outsign="en"/>
+<align out="a231" type="" in="b155 b156" creator="-1" insign="der Antibabypille" outsign="P-pillerne"/>
+<align out="a233" type="" in="b158" creator="-1" insign="Aber" outsign="men"/>
+<align out="a234" type="" in="b159" creator="-1" insign="das" outsign="det"/>
+<align out="a235" type="" in="b160" creator="-1" insign="wollte" outsign="ønskede"/>
+<align out="a236" type="" in="b161" creator="-1" insign="sie" outsign="hun"/>
+<align out="a223" type="" in="b149" creator="-1" insign="ihr" outsign="hende"/>
+<align out="a224" type="" in="b150" creator="-1" insign="über" outsign="om"/>
+<align out="a226" type="" in="b152" creator="-1" insign="andere" outsign="anden"/>
+<align out="a251" type="" in="b170" creator="0" insign="über" outsign="over"/>
+<align out="a253" type="" in="a253" creator="0" insign="år" outsign="år"/>
+<align out="a256" type="" in="b176" creator="0" insign="sie" outsign="hun"/>
+<align out="a254" type="" in="a254" creator="0" insign="," outsign=","/>
+<align out="a249" type="" in="b168" creator="0" insign="für" outsign="for"/>
+<align out="a243" type="" in="b166" creator="0" insign="Das" outsign="De"/>
+<align out="a244" type="" in="b174" creator="0" insign="Risiko" outsign="risici"/>
+<align out="a245" type="" in="a245" creator="0" insign="," outsign=","/>
+<align out="a246 a247 a248" type="" in="b167 b172 b173" creator="0" insign="damit eventuell verbundene" outsign="der måtte være"/>
+<align out="a255" type="" in="b175" creator="-1" insign="wollte" outsign="ville"/>
+<align out="a250" type="" in="b169" creator="-1" insign="Frauen" outsign="kvinder"/>
+<align out="a240" type="" in="b165" creator="-1" insign="." outsign="."/>
+<align out="a257" type="" in="b177" creator="-1" insign="gerne" outsign="gerne"/>
+<align out="a252" type="" in="b171" creator="-1" insign="40" outsign="40"/>
+<align out="a237" type="" in="b162" creator="-1" insign="unter" outsign="under"/>
+<align out="a238" type="" in="b163" creator="-1" insign="keinen" outsign="ingen"/>
+<align out="a239" type="" in="b164" creator="-1" insign="Umständen" outsign="omstændigheder"/>
+<align out="a258" type="" in="b182" creator="0" insign="nehmen" outsign="tage"/>
+<align out="a260" type="" in="b179" creator="0" insign="ihre" outsign="sin"/>
+<align out="a261" type="" in="b180" creator="0" insign="eigene" outsign="egen"/>
+<align out="a262" type="" in="b181" creator="0" insign="Kappe" outsign="kappe"/>
+<align out="a259" type="" in="b178" creator="-1" insign="auf" outsign="på"/>
+<align out="a263" type="" in="b183" creator="-1" insign="." outsign="."/>
 </DTAGalign>

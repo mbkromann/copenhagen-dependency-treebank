@@ -39,7 +39,7 @@
 <W msd=":" in="1:pnct" out="">-</W>
 <W msd="UH" in="8:qobj" out="-1:pnct|1:pnct|3:conj">Yes</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="1:subj" out="">Søren</W>
+<W msd="NNP" in="1:subj" out="">SÃ¸ren</W>
 <W msd="VBZ" in="-3:conj" out="-1:subj|2:mod|3:pnct|1:pnct">is</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="RB" in="-2:mod" out="">too</W>
@@ -156,7 +156,7 @@
 <W msd="PRP$" in="" out="">her</W>
 <W msd="NN" in="" out="1:pobj">conversation</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">with</W>
-<W msd="NNP" in="-1:nobj" out="">Søren</W>
+<W msd="NNP" in="-1:nobj" out="">SÃ¸ren</W>
 <W msd="." in="-11:pnct" out="">.</W>
 </s>
 <s>

@@ -1,26 +1,10 @@
 
-Såfremt virksomheden ikke selv er i stand til at udføre de krævede 
-målinger, må den for egen regning søge bistand hos private eller 
-offentlige laboratorier. Tilsynsmyndigheden kan endvidere påbyde, at 
-analyserne i forbindelse med egenkontrollen helt eller delvist skal 
-foretages af et uafhængigt laboratorium, hvis der opstår tvivl om 
-kontrol og analyseresultater. Se iøvrigt afsnit 5.3 om stikprøvekontrol 
-og afsnit 5.6 om udførelse af laboratorieundersøgelser.
+In the event the business is not itself capable of carrying out the required measurements, it must at its own expense seek assistance from private or public laboratories.  Furthermore, the supervisory authority may order that analyses in connection with the own-check must be entirely or partially done by an independent laboratory, if there arises any doubt about the check or analysis results.  See, also, section 5.3 on random sampling checks and section 5.6 on the conduct of laboratory studies.
 
 
-5.2 Egenkontrollens registrering
+5.2 Registration of the own-check
 
-Resultaterne af egenkontrollen skal registreres og indføres i en 
-journal, der skal være tilgængelig for tilsynsmyndigheden og opbevares 
-i et antal år fastsat af tilsynsmyndigheden ( en periode af mindst 5
-år anbefales ). I journalen skal endvidere registreres alle 
-driftsforstyrrelser og konsekvenser og foranstaltninger i forbindelse 
-hermed. Alle analyseresultater skal i journalen ledsages af præcise 
-oplysninger om udtagningstid og  -  sted samt om analysemetoder. Ved 
-alle driftsforstyrrelser, der kan medføre udledning, som kan være til 
-skade for miljø, natur eller sundhed, eller indebære fare herfor, skal
-tilsynsmyndigheden og embedslægeinstitutionen orienteres hurtigst muligt,
-jfr. § 20.
+The results of the own-check must be registered and entered into a journal, which is to be accessible by the supervisory authority and retained for a number of years fixed by the supervisory authority (a period of at least 5 years is recommended).  Furthermore, all operational failures and consequences and measures taken in connection therewith must be registered in the journal.  All analysis results must be accompanied in the journal by precise information on the time of extraction and - place as well as on methods of analysis. All operational failures that can lead to a discharge that may be harmful to the environment, nature or health, or harbour a risk therefor, must be reported to the supervisory authority or medical health institution as soon as possible, cf. section 20.
 
 
 

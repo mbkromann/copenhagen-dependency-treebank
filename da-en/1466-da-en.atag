@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1466-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1466-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1466-en.tag" sign="_input"/>
 <align out="a46" type="" in="b6" creator="-1" insign="I" outsign="jeg"/>
 <align out="a49" type="" in="b10 b11" creator="-1" insign="the Germans" outsign="tyskerne"/>
@@ -15,7 +15,7 @@
 <align out="a66" type="" in="b29" creator="-1" insign="all" outsign="alle"/>
 <align out="a71" type="" in="b35" creator="-1" insign="." outsign="."/>
 <align out="a74" type="" in="b38" creator="-1" insign="Several" outsign="Flere"/>
-<align out="a75" type="" in="b39 b41" creator="-1" insign="are covered" outsign="dækkes"/>
+<align out="a75" type="" in="b39 b41" creator="-1" insign="are covered" outsign="dÃ¦kkes"/>
 <align out="a76" type="" in="b40" creator="-1" insign="completely" outsign="helt"/>
 <align out="a79" type="" in="b46" creator="-1" insign="." outsign="."/>
 <align out="a89" type="" in="b55" creator="-1" insign="in" outsign="i"/>
@@ -25,7 +25,7 @@
 <align out="a95" type="" in="b63" creator="-1" insign="," outsign=","/>
 <align out="a100" type="" in="b69 b70 b71 b72" creator="-1" insign="electric side view mirrors" outsign="el-sidespejle"/>
 <align out="a101" type="" in="b73" creator="-1" insign="and" outsign="og"/>
-<align out="a102" type="" in="b74 b75 b76" creator="-1" insign="central locking system" outsign="centrallås"/>
+<align out="a102" type="" in="b74 b75 b76" creator="-1" insign="central locking system" outsign="centrallÃ¥s"/>
 <align out="a103" type="" in="b77" creator="-1" insign="are" outsign="er"/>
 <align out="a104" type="" in="b78" creator="-1" insign="standard" outsign="standard"/>
 <align out="a105" type="" in="b79" creator="-1" insign="." outsign="."/>
@@ -37,10 +37,10 @@
 <align out="a124" type="" in="b100 b101" creator="-1" insign="Even though" outsign="Selv_om"/>
 <align out="a125" type="" in="b102" creator="-1" insign="there" outsign="der"/>
 <align out="a126" type="" in="b103 b104" creator="-1" insign="is focus" outsign="focuseres"/>
-<align out="a127" type="" in="b105" creator="-1" insign="on" outsign="på"/>
+<align out="a127" type="" in="b105" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a128" type="" in="b106" creator="-1" insign="the" outsign="det"/>
 <align out="a129" type="" in="b107" creator="-1" insign="very" outsign="meget"/>
-<align out="a130" type="" in="b108" creator="-1" insign="close" outsign="nære"/>
+<align out="a130" type="" in="b108" creator="-1" insign="close" outsign="nÃ¦re"/>
 <align out="a131" type="" in="b109" creator="-1" insign="relationship" outsign="forhold"/>
 <align out="a132" type="" in="b110" creator="-1" insign="to" outsign="til"/>
 <align out="a133" type="" in="b111" creator="-1" insign="VW" outsign="VW"/>
@@ -96,18 +96,18 @@
 <align out="a208" type="" in="b187" creator="-1" insign="rpm" outsign="o/m."/>
 <align out="a209" type="" in="b188" creator="-1" insign="." outsign="."/>
 <align out="a212" type="" in="b191" creator="-1" insign="Electronic" outsign="Elektronisk"/>
-<align out="a213" type="" in="b192" creator="-1" insign="injection" outsign="indsprøjtning"/>
+<align out="a213" type="" in="b192" creator="-1" insign="injection" outsign="indsprÃ¸jtning"/>
 <align out="a214" type="" in="b193" creator="-1" insign="." outsign="."/>
-<align out="a217" type="" in="b196" creator="-1" insign="STEERING" outsign="STYRETØJ"/>
+<align out="a217" type="" in="b196" creator="-1" insign="STEERING" outsign="STYRETÃ˜J"/>
 <align out="a218" type="" in="b197" creator="-1" insign=":" outsign=":"/>
 <align out="a222" type="" in="b202" creator="-1" insign="." outsign="."/>
 <align out="a225" type="" in="b205" creator="-1" insign="BRAKES" outsign="BREMSER"/>
 <align out="a226" type="" in="b206" creator="-1" insign=":" outsign=":"/>
 <align out="a230" type="" in="b210" creator="-1" insign="and" outsign="og"/>
 <align out="a233" type="" in="b213" creator="-1" insign="." outsign="."/>
-<align out="a236" type="" in="b216" creator="-1" insign="MEASUREMENT" outsign="MÅL"/>
+<align out="a236" type="" in="b216" creator="-1" insign="MEASUREMENT" outsign="MÃ…L"/>
 <align out="a237" type="" in="b217" creator="-1" insign="AND" outsign="OG"/>
-<align out="a238" type="" in="b218" creator="-1" insign="WEIGHT" outsign="VÆGT"/>
+<align out="a238" type="" in="b218" creator="-1" insign="WEIGHT" outsign="VÃ†GT"/>
 <align out="a239" type="" in="b219" creator="-1" insign=":" outsign=":"/>
 <align out="a241" type="" in="b221" creator="-1" insign=":" outsign=":"/>
 <align out="a243" type="" in="b223" creator="-1" insign="cm" outsign="cm."/>
@@ -117,20 +117,20 @@
 <align out="a250" type="" in="b231" creator="-1" insign="kg" outsign="kg."/>
 <align out="a251" type="" in="b232" creator="-1" insign="." outsign="."/>
 <align out="a254" type="" in="b235" creator="-1" insign="Permitted" outsign="Tilladt"/>
-<align out="a255" type="" in="b236 b237" creator="-1" insign="total weight" outsign="totalvægt"/>
+<align out="a255" type="" in="b236 b237" creator="-1" insign="total weight" outsign="totalvÃ¦gt"/>
 <align out="a258" type="" in="b240" creator="-1" insign="kg" outsign="kg."/>
 <align out="a259" type="" in="b241" creator="-1" insign="." outsign="."/>
 <align out="a262" type="" in="b244" creator="-1" insign="WHEELS" outsign="HJUL"/>
 <align out="a263" type="" in="b245" creator="-1" insign="AND" outsign="OG"/>
 <align out="a265" type="" in="b247" creator="-1" insign=":" outsign=":"/>
-<align out="a266" type="" in="b248 b249" creator="-1" insign="Steel rims" outsign="Stålfælge"/>
+<align out="a266" type="" in="b248 b249" creator="-1" insign="Steel rims" outsign="StÃ¥lfÃ¦lge"/>
 <align out="a267" type="" in="b250" creator="-1" insign="6Jx14" outsign="6Jx14"/>
 <align out="a268" type="" in="b251" creator="-1" insign="." outsign="."/>
-<align out="a271" type="" in="b254" creator="-1" insign="Tyres" outsign="Dæk"/>
+<align out="a271" type="" in="b254" creator="-1" insign="Tyres" outsign="DÃ¦k"/>
 <align out="a272" type="" in="b255" creator="-1" insign=":" outsign=":"/>
 <align out="a274" type="" in="b257" creator="-1" insign="R14" outsign="R14"/>
 <align out="a275" type="" in="b258" creator="-1" insign="." outsign="."/>
-<align out="a278" type="" in="b261" creator="-1" insign="PERFORMANCE" outsign="PRÆSTATIONER"/>
+<align out="a278" type="" in="b261" creator="-1" insign="PERFORMANCE" outsign="PRÃ†STATIONER"/>
 <align out="a279" type="" in="b262" creator="-1" insign=":" outsign=":"/>
 <align out="a280" type="" in="b263 b264" creator="-1" insign="Top speed" outsign="Topfart"/>
 <align out="a281" type="" in="b265" creator="-1" insign=":" outsign=":"/>
@@ -150,7 +150,7 @@
 <align out="a305" type="" in="b291" creator="-1" insign="219,996" outsign="219.996"/>
 <align out="a306" type="" in="b290" creator="-1" insign="DKK" outsign="kr."/>
 <align out="a307" type="" in="b292" creator="-1" insign="." outsign="."/>
-<align out="a43 a44" type="" in="b1 b2 b3 b4" creator="0" insign="On the other hand" outsign="Til gengæld"/>
+<align out="a43 a44" type="" in="b1 b2 b3 b4" creator="0" insign="On the other hand" outsign="Til gengÃ¦ld"/>
 <align out="b5" type="" in="b5" creator="0" insign="," outsign=","/>
 <align out="a47" type="" in="b8" creator="0" insign="not" outsign="ikke"/>
 <align out="a45" type="" in="b7 b9" creator="0" insign="do think" outsign="synes"/>
@@ -169,7 +169,7 @@
 <align out="a64" type="" in="b27" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a63" type="" in="b26" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a72" type="" in="b36" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a84" type="" in="b49" creator="0" insign="Equipment-wise" outsign="Udstyrsmæssigt"/>
+<align out="a84" type="" in="b49" creator="0" insign="Equipment-wise" outsign="UdstyrsmÃ¦ssigt"/>
 <align out="a86" type="s" in="b51" creator="0" insign="the" outsign="Toledo"/>
 <align out="a86" type="" in="b52" creator="0" insign="Toledo" outsign="Toledo"/>
 <align out="b50" type="" in="b50" creator="0" insign="," outsign=","/>
@@ -181,13 +181,13 @@
 <align out="a83" type="" in="b48" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a80" type="" in="b47" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a92" type="" in="b59" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a111" type="" in="b83" creator="0" insign="price-wise" outsign="prismæssigt"/>
+<align out="a111" type="" in="b83" creator="0" insign="price-wise" outsign="prismÃ¦ssigt"/>
 <align out="b84" type="" in="b84" creator="0" insign="," outsign=","/>
 <align out="a113" type="" in="b86" creator="0" insign="Seat" outsign="Seat"/>
 <align out="a114" type="s" in="b85" creator="0" insign="the" outsign="Toledo"/>
 <align out="a114" type="" in="b87" creator="0" insign="Toledo" outsign="Toledo"/>
-<align out="a115" type="" in="b89" creator="0" insign="also" outsign="også"/>
-<align out="a116" type="" in="b90" creator="0" insign="nicely" outsign="pænt"/>
+<align out="a115" type="" in="b89" creator="0" insign="also" outsign="ogsÃ¥"/>
+<align out="a116" type="" in="b90" creator="0" insign="nicely" outsign="pÃ¦nt"/>
 <align out="a112" type="" in="b88 b91" creator="0" insign="is placed" outsign="ligger"/>
 <align out="a106" type="" in="b80" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a109" type="" in="b81" creator="-1" insign="<s>" outsign="<s>"/>
@@ -202,8 +202,8 @@
 <align out="a165" type="s" in="b138" creator="0" insign="the" outsign="Toledo"/>
 <align out="a170" type="f" in="b145" creator="0" insign="4" outsign="4/5-personers"/>
 <align out="a178" type="" in="b152 b153" creator="0" insign="in front" outsign="foran"/>
-<align out="a175 a176 a177" type="" in="b150 b151" creator="0" insign="Transverse engine" outsign="Motor på tværs"/>
-<align out="a180 a181 a182" type="" in="b155 b156 b157" creator="0" insign="front wheels drive" outsign="træk på forhjulene"/>
+<align out="a175 a176 a177" type="" in="b150 b151" creator="0" insign="Transverse engine" outsign="Motor pÃ¥ tvÃ¦rs"/>
+<align out="a180 a181 a182" type="" in="b155 b156 b157" creator="0" insign="front wheels drive" outsign="trÃ¦k pÃ¥ forhjulene"/>
 <align out="a173" type="" in="b148" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a158" type="" in="b134" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a174" type="" in="b149" creator="-1" insign="<s>" outsign="<s>"/>
@@ -224,7 +224,7 @@
 <align out="a223" type="" in="b203" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a215" type="" in="b194" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a210" type="" in="b189" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a240" type="?" in="b220" creator="0" insign="Length" outsign="Længde/bredde/højde"/>
+<align out="a240" type="?" in="b220" creator="0" insign="Length" outsign="LÃ¦ngde/bredde/hÃ¸jde"/>
 <align out="a242" type="?" in="b222" creator="0" insign="432" outsign="432/166/142"/>
 <align out="a256" type="" in="b238" creator="0" insign=":" outsign=":"/>
 <align out="a257" type="" in="b239" creator="0" insign="1495" outsign="1495"/>
@@ -242,8 +242,8 @@
 <align out="a260" type="" in="b242" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a276" type="" in="b259" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a283" type="?" in="b267" creator="0" insign="km" outsign="km/t."/>
-<align out="a297" type="" in="b281" creator="0" insign="years" outsign="år"/>
-<align out="a298" type="" in="b282" creator="0" insign="against" outsign="på"/>
+<align out="a297" type="" in="b281" creator="0" insign="years" outsign="Ã¥r"/>
+<align out="a298" type="" in="b282" creator="0" insign="against" outsign="pÃ¥"/>
 <align out="a286" type="" in="b270" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a293" type="" in="b277" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a285" type="" in="b269" creator="-1" insign="</s>" outsign="</s>"/>
@@ -254,7 +254,7 @@
 <align out="a202" type="" in="b181" creator="0" insign="torque" outsign="drejningsmoment"/>
 <align out="a219 a220 a221" type="" in="b198 b199 b200 b201" creator="0" insign="Automatic rack and pinion" outsign="Tandstang med servo"/>
 <align out="a232" type="" in="b212" creator="0" insign="back" outsign="bag"/>
-<align out="a247" type="" in="b227 b228" creator="0" insign="Dead weight" outsign="Egenvægt"/>
-<align out="a264" type="" in="b246" creator="0" insign="RIM" outsign="FÆLGE"/>
-<align out="a299" type="" in="b283 b284" creator="0" insign="rust corrosion" outsign="rustgennemtæring"/>
+<align out="a247" type="" in="b227 b228" creator="0" insign="Dead weight" outsign="EgenvÃ¦gt"/>
+<align out="a264" type="" in="b246" creator="0" insign="RIM" outsign="FÃ†LGE"/>
+<align out="a299" type="" in="b283 b284" creator="0" insign="rust corrosion" outsign="rustgennemtÃ¦ring"/>
 </DTAGalign>

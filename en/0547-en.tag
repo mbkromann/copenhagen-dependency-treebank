@@ -117,7 +117,7 @@
 <W msd="," in="-5:pnct" out="">,</W>
 <W msd="VBZ" in="" out="-9:qobj|2:subj|3:pnct">relates</W>
 <W msd="NNP" in="1:namef" out="">Arne</W>
-<W msd="NNP" in="-2:subj" out="-1:namef">Worsøe</W>
+<W msd="NNP" in="-2:subj" out="-1:namef">WorsÃ¸e</W>
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
 <s>

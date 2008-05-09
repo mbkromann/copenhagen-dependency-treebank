@@ -69,7 +69,7 @@
 <W msd="JJ" in="1:mod" out="">political</W>
 <W msd="NN" in="-2:nobj" out="-1:mod">science</W>
 <W msd="," in="-8:pnct" out="">,</W>
-<W msd="NNP" in="-11:list" out="1:nobj">Århus</W>
+<W msd="NNP" in="-11:list" out="1:nobj">Ã…rhus</W>
 <W msd="NNP" in="-1:nobj" out="">University</W>
 <W msd="." in="-15:pnct" out="">.</W>
 </s>
@@ -156,7 +156,7 @@
 <W msd="CD" in="-1:nobj" out="1:nobj|2:mod">two</W>
 <W msd="NNS" in="-1:nobj" out="">colleagues</W>
 <W msd="IN" in="-2:mod" out="1:nobj">from</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Århus</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">Ã…rhus</W>
 <W msd="NNP" in="-1:nobj" out="">University</W>
 <W msd="," in="-7:pnct" out="">,</W>
 <W msd="PRP" in="1:subj" out="">she</W>

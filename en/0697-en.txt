@@ -1,12 +1,12 @@
 
-The country as a whole is counting on neither education nor the promotion of industry from the technology of space travel and, therefore, Danish businesses are having difficulty breaking in to this branch.  The competition is extremely tough, since satellite equipment is often the flagship of international businesses with great publicity value.  But now we have a chance; both ESA and NASA are providing an opportunity to put small, sturdy research and educational satellites on the commercial launches as hitch-hikers," says John Jørgensen.  
+The country as a whole is counting on neither education nor the promotion of industry from the technology of space travel and, therefore, Danish businesses are having difficulty breaking in to this branch.  The competition is extremely tough, since satellite equipment is often the flagship of international businesses with great publicity value.  But now we have a chance; both ESA and NASA are providing an opportunity to put small, sturdy research and educational satellites on the commercial launches as hitch-hikers," says John JÃ¸rgensen.  
 
 With advanced and elegant lightweight technology, Danish researchers will solve a great many problems that, with the design used up to this point, would require a much larger and heavier satellite.
 
 
 Knows 8,000 stars
 
-When the "Ørsted" is hurled out of the Ariane rocket's cargo hold, it will tumble around in a completely unpredictable way.  But the joint Picture Analysis Group of DTH and DIA has constructed a sensor that, after one sighting of the stars, will make sure that the antenna is pointed out towards space.  The computer knows all the constellations, for example, the Big Dipper and Orion.  In "normal" satellites, corresponding instruments fill more than the whole of the "Ørsted".
+When the "Ã˜rsted" is hurled out of the Ariane rocket's cargo hold, it will tumble around in a completely unpredictable way.  But the joint Picture Analysis Group of DTH and DIA has constructed a sensor that, after one sighting of the stars, will make sure that the antenna is pointed out towards space.  The computer knows all the constellations, for example, the Big Dipper and Orion.  In "normal" satellites, corresponding instruments fill more than the whole of the "Ã˜rsted".
 
 
 

@@ -112,7 +112,7 @@
 <W msd="VBD" in="-5:vobj" out="-4:subj|1:dobj|2:lobj">took</W>
 <W msd="NN" in="-1:dobj" out="">place</W>
 <W msd="IN" in="-2:lobj" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">Århus</W>
+<W msd="NN" in="-1:nobj" out="">Ã…rhus</W>
 <W msd="." in="-16:pnct" out="">.</W>
 </s>
 <s>

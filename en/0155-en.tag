@@ -104,7 +104,7 @@
 <W msd="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="NNS" in="-1:nobj" out="1:pobj">heaps</W>
 <W msd="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="VBN" in="1:mod" out="">sautéed</W>
+<W msd="VBN" in="1:mod" out="">sautÃ©ed</W>
 <W msd="NN" in="-2:nobj" out="-1:mod">onion</W>
 <W msd="." in="-15:pnct" out="">.</W>
 </s>

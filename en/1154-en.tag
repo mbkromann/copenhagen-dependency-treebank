@@ -56,7 +56,7 @@
 <W msd="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NN" in="-1:nobj" out="1:pobj">relationship</W>
 <W msd="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="VBG" in="-1:nobj" out="1:coord">Ærøskøbing</W>
+<W msd="VBG" in="-1:nobj" out="1:coord">Ã†rÃ¸skÃ¸bing</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
 <W msd="NNP" in="-1:conj" out="">Sindal</W>
 <W msd="." in="-24:pnct" out="">.</W>
@@ -114,7 +114,7 @@
 <W msd="RB" in="-1:mod" out="">also</W>
 <W msd="VB" in="-2:vobj" out="1:pobj|-7:[subj]">apply</W>
 <W msd="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="VBG" in="-1:nobj" out="">Ærøskøbing</W>
+<W msd="VBG" in="-1:nobj" out="">Ã†rÃ¸skÃ¸bing</W>
 <W msd="." in="-53:pnct" out="">.</W>
 </s>
 <s>

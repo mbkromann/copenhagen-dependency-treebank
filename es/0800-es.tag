@@ -23,7 +23,7 @@
 <W msd="NP" lemma="&lt;unknown&gt;">Hellerup</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="CC" lemma="y">Y</W>
-<W msd="PPX" lemma="él">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="VLfin" lemma="saber">sabe</W>
 <W msd="ART" lemma="el">los</W>
 <W msd="NC" lemma="nombre">nombres</W>
@@ -102,7 +102,7 @@
 <W msd="ADV" lemma="muy">muy</W>
 <W msd="ADJ" lemma="contento">contentos</W>
 <W msd="PREP" lemma="con">con</W>
-<W msd="PPX" lemma="él">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="VLfin" lemma="tener">Tiene</W>
 <W msd="ART" lemma="un">un</W>

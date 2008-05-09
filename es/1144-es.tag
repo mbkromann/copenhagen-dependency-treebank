@@ -41,7 +41,7 @@
 <W msd="NC" lemma="cosa">cosas</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="NEG" lemma="no">No</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="hacer">hizo</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CCAD" lemma="pero">pero</W>
@@ -155,7 +155,7 @@
 <W msd="ADV" lemma="hoy">hoy</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">d√≠a</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPO" lemma="Èl">la</W>
+<W msd="PPO" lemma="l">la</W>
 <W msd="VLfin" lemma="comprar">compra</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Tj√¶reborg</W>

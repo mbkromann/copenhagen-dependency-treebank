@@ -13,7 +13,7 @@
 <W msd="ADJ" lemma="grande">gran</W>
 <W msd="NC" lemma="medida">medida</W>
 <W msd="PREP" lemma="por">por</W>
-<W msd="NC" lemma="cuestiÛn">cuestiones</W>
+<W msd="NC" lemma="cuestin">cuestiones</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">estrat√©gicas</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="PREP" lemma="con">Con</W>
@@ -92,7 +92,7 @@
 <W msd="VLfin" lemma="atrever">atreve</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="VLinf" lemma="descartar">descartar</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="FS" lemma="?">?</W>
 <W msd="ADV" lemma="en~todo~caso">En todo caso</W>
 <W msd="CM" lemma=",">,</W>
@@ -108,7 +108,7 @@
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="&lt;unknown&gt;">pol√≠tica</W>
-<W msd="ADJ" lemma="danÈs">danesa</W>
+<W msd="ADJ" lemma="dans">danesa</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">despu√©s</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">la</W>

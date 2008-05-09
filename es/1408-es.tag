@@ -135,7 +135,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="VLfin" lemma="opinar">opina</W>
 <W msd="ART" lemma="el">la</W>
-<W msd="NP" lemma="SeÒora">Sra</W>
+<W msd="NP" lemma="Seora">Sra</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Bjerregaard</W>
 <W msd="FS" lemma=".">.</W>
@@ -175,7 +175,7 @@
 <W msd="VLfin" lemma="considerar">considera</W>
 <W msd="QU" lemma="todo">todas</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="especulaciÛn">especulaciones</W>
+<W msd="NC" lemma="especulacin">especulaciones</W>
 <W msd="PREP" lemma="sobre">sobre</W>
 <W msd="ART" lemma="un">un</W>
 <W msd="ADJ" lemma="nuevo">nuevo</W>
@@ -202,7 +202,7 @@
 <W msd="NEG" lemma="no">no</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">est√°</W>
 <W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="CSUBI" lemma="de">de</W>
 <W msd="VLinf" lemma="ratificar">ratificar</W>
 <W msd="ART" lemma="el">el</W>

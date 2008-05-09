@@ -31,7 +31,7 @@
 <W msd="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NN" in="" out="1:nobj">ง</W>
+<W msd="NN" in="" out="1:nobj">ยง</W>
 <W msd="CD" in="-1:nobj" out="">100</W>
 <W msd="JJ" in="1:mod" out="">Local</W>
 <W msd="NNS" in="12:subj|13:[subj]" out="-1:mod|1:pnct|2:ref|5:rel">associations</W>
@@ -61,7 +61,7 @@
 <W msd="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NN" in="-4:nobj" out="1:nobj">ง</W>
+<W msd="NN" in="-4:nobj" out="1:nobj">ยง</W>
 <W msd="CD" in="-1:nobj" out="">76</W>
 <W msd="." in="-17:pnct" out="">.</W>
 </s>
@@ -75,7 +75,7 @@
 <W msd="NNS" in="-1:nobj" out="">organizations</W>
 <W msd="VBN" in="-2:mod" out="1:pobj">mentioned</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="1:nobj">ง</W>
+<W msd="NN" in="-1:nobj" out="1:nobj">ยง</W>
 <W msd="CD" in="-1:nobj" out="">99</W>
 <W msd="VBP" in="" out="-8:subj|1:mod|2:vobj|9:pnct">are</W>
 <W msd="RB" in="-1:mod" out="">not</W>
@@ -89,7 +89,7 @@
 <W msd="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NN" in="" out="1:nobj">ง</W>
+<W msd="NN" in="" out="1:nobj">ยง</W>
 <W msd="CD" in="-1:nobj" out="">101</W>
 <W msd="NNS" in="15:subj|16:[subj]|17:[subj]" out="1:mod">Actions</W>
 <W msd="TO" in="-1:mod" out="1:nobj">to</W>
@@ -227,7 +227,7 @@
 <W msd="NNP" in="-1:nobj" out="">Appeal</W>
 </s>
 <s>
-<W msd="NN" in="" out="1:nobj">ง</W>
+<W msd="NN" in="" out="1:nobj">ยง</W>
 <W msd="CD" in="-1:nobj" out="">102</W>
 <W msd="DT" in="5:subj|6:[subj]" out="1:mod|2:nobj">The</W>
 <W msd="NNP" in="-1:mod" out="">Environmental</W>

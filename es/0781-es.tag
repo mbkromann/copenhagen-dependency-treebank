@@ -3,7 +3,7 @@
 <W msd="ADJ" lemma="claro">claro</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="inversión">inversiones</W>
+<W msd="NC" lemma="inversin">inversiones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="ADJ" lemma="exterior">exterior</W>
@@ -32,7 +32,7 @@
 <W msd="ADV" lemma="solamente">solamente</W>
 <W msd="CSUBI" lemma="de">de</W>
 <W msd="VLinf" lemma="comprar">comprar</W>
-<W msd="NC" lemma="acción">acciones</W>
+<W msd="NC" lemma="accin">acciones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="NC" lemma="empresa">empresas</W>
 <W msd="ADJ" lemma="extranjero">extranjeras</W>
@@ -40,7 +40,7 @@
 <W msd="VLfin" lemma="tener">tienen</W>
 <W msd="NC" lemma="empresa">empresas</W>
 <W msd="ADJ" lemma="filial">filiales</W>
-<W msd="ADJ" lemma="danés">danesas</W>
+<W msd="ADJ" lemma="dans">danesas</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ART" lemma="el">El</W>
 <W msd="NC" lemma="director">director</W>
@@ -57,7 +57,7 @@
 <W msd="ADJ" lemma="futuro">futura</W>
 <W msd="NC" lemma="estrategia">estrategia</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="inversión">inversiones</W>
+<W msd="NC" lemma="inversin">inversiones</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="PREP" lemma="para">Para</W>
 <W msd="NC" lemma="&lt;unknown&gt;">Ã©l</W>
@@ -107,9 +107,9 @@
 <W msd="ADJ" lemma="directivo">directiva</W>
 <W msd="CSUBI" lemma="de">de</W>
 <W msd="VLinf" lemma="comprar">comprar</W>
-<W msd="NC" lemma="acción">acciones</W>
+<W msd="NC" lemma="accin">acciones</W>
 <W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="obligación">obligaciones</W>
+<W msd="NC" lemma="obligacin">obligaciones</W>
 <W msd="ADJ" lemma="extranjero">extranjeras</W>
 <W msd="PREP" lemma="por">por</W>
 <W msd="ART" lemma="un">un</W>

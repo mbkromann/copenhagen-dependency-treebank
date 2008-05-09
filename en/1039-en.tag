@@ -42,7 +42,7 @@
 <W msd="CC" in="-4:coord" out="1:conj">and</W>
 <W msd="NNP" in="-1:conj" out="1:mod">Biografen</W>
 <W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">Århus</W>
+<W msd="NN" in="-1:nobj" out="">Ã…rhus</W>
 <W msd="." in="-44:pnct" out="">?</W>
 </s>
 <s>

@@ -108,7 +108,7 @@
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="" out="1:dobj|2:mod|9:pnct">Sauté</W>
+<W msd="NNP" in="" out="1:dobj|2:mod|9:pnct">SautÃ©</W>
 <W msd="PRP" in="-1:dobj" out="">them</W>
 <W msd="IN" in="-2:mod" out="2:vobj">until</W>
 <W msd="PRP" in="1:subj|2:[subj]" out="">they</W>
@@ -134,7 +134,7 @@
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NNS" in="-1:nobj" out="">onions</W>
 <W msd="CC" in="-12:coord" out="1:conj">and</W>
-<W msd="VBG" in="-1:conj" out="1:dobj|3:mod|7:mod">sauté</W>
+<W msd="VBG" in="-1:conj" out="1:dobj|3:mod|7:mod">sautÃ©</W>
 <W msd="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NN" in="-1:nobj" out="">mixture</W>
 <W msd="IN" in="-3:mod" out="1:nobj">over</W>
@@ -154,7 +154,7 @@
 <W msd="NNS" in="-1:nobj" out="">peppers</W>
 <W msd="CC" in="-4:coord" out="2:conj">and</W>
 <W msd="RB" in="1:mod" out="">again</W>
-<W msd="VBP" in="-2:conj" out="-1:mod|1:mod">sauté</W>
+<W msd="VBP" in="-2:conj" out="-1:mod|1:mod">sautÃ©</W>
 <W msd="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NN" in="-1:nobj" out="1:pobj">couple</W>

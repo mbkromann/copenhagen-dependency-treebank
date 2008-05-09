@@ -1,184 +1,184 @@
-<W msd="VVFIN" lemma="geben">Gibt</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="NN" lemma="Problem">Probleme</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Gesundheit">Gesundheit</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="schreiben">schreiben</W>
-<W msd="PPER" lemma="Sie|sie">Sie</W>
-<W msd="PTKVZ" lemma="an">an</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="NN" lemma="Arzt">Ärzte</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NN" lemma="Wochenmagazin">Wochenmagazin</W>
-<W msd="NN" lemma="Sonntag">SONNTAG</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Vesterbrogade</W>
-<W msd="CARD" lemma="16">16</W>
-<W msd="$," lemma=",">,</W>
-<W msd="CARD" lemma="@card@">1505</W>
-<W msd="NE" lemma="&lt;unknown&gt;">København</W>
-<W msd="NE" lemma="V.">V.</W>
-<W msd="ADV" lemma="nur">Nur</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Arzt">Ärzte</W>
-<W msd="APPRART" lemma="vom">vom</W>
-<W msd="NN" lemma="Wochenmagazin">Wochenmagazin</W>
-<W msd="NN" lemma="Sonntag">SONNTAG</W>
-<W msd="VMFIN" lemma="dürfen">dürfen</W>
-<W msd="PPOSAT" lemma="Ihr|ihr">Ihre</W>
-<W msd="NN" lemma="Brief">Briefe</W>
-<W msd="VVINF" lemma="öffnen">öffnen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="NB">NB</W>
-<W msd="$." lemma=":">:</W>
-<W msd="ART" lemma="d">Die</W>
-<W msd="NN" lemma="Arzt">Ärzte</W>
-<W msd="VMFIN" lemma="können">können</W>
-<W msd="ADV" lemma="leider">leider</W>
-<W msd="PIAT" lemma="kein">keine</W>
-<W msd="ADJA" lemma="privat">privaten</W>
-<W msd="NN" lemma="Antwort|Antworten">Antworten</W>
-<W msd="VVINF" lemma="geben">geben</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="Antibabypille">Antibabypille</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="NN" lemma="Wechseljahr">Wechseljahren</W>
-<W msd="$." lemma="?">?</W>
-<W msd="PIDAT" lemma="viel">Viele</W>
-<W msd="NN" lemma="Frau">Frauen</W>
-<W msd="VMFIN" lemma="mögen">möchten</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Antibabypille">Antibabypille</W>
-<W msd="VVINF" lemma="aufhören">aufhören</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="wenn">wenn</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="NN" lemma="Ende">Ende</W>
-<W msd="CARD" lemma="vierzig">vierzig</W>
-<W msd="VAFIN" lemma="sein">sind</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KON" lemma="aber">Aber</W>
-<W msd="PDS" lemma="d">das</W>
-<W msd="VVFIN" lemma="werfen">wirft</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="NN" lemma="Reihe">Reihe</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="NN" lemma="Frage">Fragen</W>
-<W msd="PTKVZ" lemma="auf">auf</W>
-<W msd="$," lemma=",">,</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="PRELS" lemma="d">die</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Arzt">Ärzte</W>
-<W msd="ADV" lemma="hier">hier</W>
-<W msd="VVINF" lemma="antworten">antworten</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ADV" lemma="u.a.">u.a.</W>
-<W msd="KOUS" lemma="ob">ob</W>
-<W msd="NN" lemma="Hormon">Hormone</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Antibabypille">Antibabypille</W>
-<W msd="VVINF" lemma="ersetzen">ersetzen</W>
-<W msd="VMFIN" lemma="können">können</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="Bodil">Bodil</W>
-<W msd="VAFIN" lemma="sein">ist</W>
-<W msd="CARD" lemma="@card@">49</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="Sie|sie">Sie</W>
-<W msd="VAFIN" lemma="haben">hat</W>
-<W msd="ADJD" lemma="jahrelang">jahrelang</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Pille">Pille</W>
-<W msd="VVPP" lemma="nehmen">genommen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="Sie|sie">Sie</W>
-<W msd="VAFIN" lemma="haben">hatte</W>
-<W msd="ADJD" lemma="kurz">kurz</W>
-<W msd="ADV" lemma="hintereinander">hintereinander</W>
-<W msd="CARD" lemma="drei">drei</W>
-<W msd="NN" lemma="Kind">Kinder</W>
-<W msd="VVPP" lemma="gebären">geboren</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VMFIN" lemma="wollen">wollte</W>
-<W msd="PIAT" lemma="kein">keine</W>
-<W msd="ADJA" lemma="weit">weiteren</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="VMFIN" lemma="wollen">wollte</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="weil">weil</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="APPR" lemma="gegen">gegen</W>
-<W msd="NN" lemma="Abtreibung">Abtreibung</W>
-<W msd="VAFIN" lemma="sein">war</W>
-<W msd="$," lemma=",">,</W>
-<W msd="CARD" lemma="100">100</W>
-<W msd="NN" lemma="%">%</W>
-<W msd="VVFIN" lemma="absichern">absichern</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PAV" lemma="deshalb">Deshalb</W>
-<W msd="VVFIN" lemma="entscheiden">entschied</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="APPR" lemma="für">für</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Antibabypille">Antibabypille</W>
-<W msd="$," lemma=",">,</W>
-<W msd="PRELS" lemma="d">die</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="ADJD" lemma="gut">gut</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUI" lemma="ohne">ohne</W>
-<W msd="NN" lemma="Nebenwirkung">Nebenwirkungen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="vertragen">vertrug</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KOKOM" lemma="als">Als</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="CARD" lemma="40">40</W>
-<W msd="VAFIN" lemma="werden">wurde</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="sprechen">sprach</W>
-<W msd="PPER" lemma="ich">ich</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="PPOSAT" lemma="ihr">ihr</W>
-<W msd="APPR" lemma="über">über</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="ADJA" lemma="ander">andere</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Verhütungsmöglichkeit</W>
-<W msd="APPR" lemma="anstelle">anstelle</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="Antibabypille">Antibabypille</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KON" lemma="aber">Aber</W>
-<W msd="PDS" lemma="d">das</W>
-<W msd="VMFIN" lemma="wollen">wollte</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="APPR" lemma="unter">unter</W>
-<W msd="PIAT" lemma="kein">keinen</W>
-<W msd="NN" lemma="Umstand">Umständen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PDS" lemma="d">Das</W>
-<W msd="PAV" lemma="damit">damit</W>
-<W msd="APPR" lemma="für">für</W>
-<W msd="NN" lemma="Frau">Frauen</W>
-<W msd="APPR" lemma="über">über</W>
-<W msd="CARD" lemma="40">40</W>
-<W msd="ADJD" lemma="eventuell">eventuell</W>
-<W msd="ADJA" lemma="verbunden">verbundene</W>
-<W msd="NN" lemma="Risiko">Risiko</W>
-<W msd="VMFIN" lemma="wollen">wollte</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="ADV" lemma="gerne">gerne</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="PPOSAT" lemma="ihr">ihre</W>
-<W msd="ADJA" lemma="eigen">eigene</W>
-<W msd="NN" lemma="Kappe">Kappe</W>
-<W msd="VVINF" lemma="nehmen">nehmen</W>
-<W msd="$." lemma=".">.</W>
+<W lemma="geben" msd="VVFIN" in="7:mod" out="1:expl|2:dobj|6:pnct">Gibt</W>
+<W lemma="es" msd="PPER" in="-1:expl" out="">es</W>
+<W lemma="Problem" msd="NN" in="-2:dobj" out="1:pobj">Probleme</W>
+<W lemma="mit" msd="APPR" in="-1:pobj" out="1:nobj">mit</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">der</W>
+<W lemma="Gesundheit" msd="NN" in="-1:nobj" out="">Gesundheit</W>
+<W lemma="," msd="$," in="-6:pnct" out="">,</W>
+<W lemma="schreiben" msd="VVFIN" in="" out="2:pobj|-7:mod|1:subj">schreiben</W>
+<W lemma="Sie|sie" msd="PPER" in="-1:subj" out="">Sie</W>
+<W lemma="an" msd="PTKVZ" in="-2:pobj" out="2:nobj">an</W>
+<W lemma="&quot;" msd="$(" in="1:pnct" out="">"</W>
+<W lemma="Arzt" msd="NN" in="-2:nobj" out="-1:pnct|1:pnct|2:pnct|3:list|5:pnct|6:list|8:pnct|9:list">Ã„rzte</W>
+<W lemma="&quot;" msd="$(" in="-1:pnct" out="">"</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="Wochenmagazin" msd="NN" in="-3:list" out="1:appr">Wochenmagazin</W>
+<W lemma="Sonntag" msd="NN" in="-1:appr" out="">SONNTAG</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-6:list" out="1:list">Vesterbrogade</W>
+<W lemma="16" msd="CARD" in="-1:list" out="">16</W>
+<W lemma="," msd="$," in="-8:pnct" out="">,</W>
+<W lemma="@card@" msd="CARD" in="-9:list" out="1:list">1505</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-1:list" out="1:list">KÃ¸benhavn</W>
+<W lemma="V." msd="NE" in="-1:list" out="">V.</W>
+<W lemma="nur" msd="ADV" in="1:mod" out="">Nur</W>
+<W lemma="d" msd="ART" in="5:subj|8:[subj]" out="1:nobj|2:mod|-1:mod">die</W>
+<W lemma="Arzt" msd="NN" in="-1:nobj" out="">Ã„rzte</W>
+<W lemma="vom" msd="APPRART" in="-2:mod" out="1:nobj">vom</W>
+<W lemma="Wochenmagazin" msd="NN" in="-1:nobj" out="1:appr">Wochenmagazin</W>
+<W lemma="Sonntag" msd="NN" in="-1:appr" out="">SONNTAG</W>
+<W lemma="dÃ¼rfen" msd="VMFIN" in="" out="3:vobj|4:pnct|-5:subj">dÃ¼rfen</W>
+<W lemma="Ihr|ihr" msd="PPOSAT" in="2:dobj" out="1:possd">Ihre</W>
+<W lemma="Brief" msd="NN" in="-1:possd" out="">Briefe</W>
+<W lemma="Ã¶ffnen" msd="VVINF" in="-3:vobj" out="-2:dobj|-8:[subj]">Ã¶ffnen</W>
+<W lemma="." msd="$." in="-4:pnct" out="">.</W>
+<W lemma="NB" msd="NE" in="" out="1:pnct|4:xpl">NB</W>
+<W lemma=":" msd="$." in="-1:pnct" out="">:</W>
+<W lemma="d" msd="ART" in="2:subj|7:[subj]" out="1:nobj">Die</W>
+<W lemma="Arzt" msd="NN" in="-1:nobj" out="">Ã„rzte</W>
+<W lemma="kÃ¶nnen" msd="VMFIN" in="-4:xpl" out="1:mod|6:pnct|-2:subj|5:vobj">kÃ¶nnen</W>
+<W lemma="leider" msd="ADV" in="-1:mod" out="">leider</W>
+<W lemma="kein" msd="PIAT" in="3:dobj" out="2:nobj|1:mod">keine</W>
+<W lemma="privat" msd="ADJA" in="-1:mod" out="">privaten</W>
+<W lemma="Antwort|Antworten" msd="NN" in="-2:nobj" out="">Antworten</W>
+<W lemma="geben" msd="VVINF" in="-5:vobj" out="-3:dobj|-7:[subj]">geben</W>
+<W lemma="." msd="$." in="-6:pnct" out="">.</W>
+<W lemma="Antibabypille" msd="NN" in="" out="1:mod|4:pnct">Antibabypille</W>
+<W lemma="in" msd="APPR" in="-1:mod" out="1:nobj">in</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="Wechseljahr" msd="NN" in="-1:nobj" out="">Wechseljahren</W>
+<W lemma="?" msd="$." in="-4:pnct" out="">?</W>
+<W lemma="viel" msd="PIDAT" in="2:subj|6:[subj]" out="1:nobj">Viele</W>
+<W lemma="Frau" msd="NN" in="-1:nobj" out="">Frauen</W>
+<W lemma="mÃ¶gen" msd="VMFIN" in="" out="-2:subj|4:vobj|5:pnct|6:mod|11:pnct">mÃ¶chten</W>
+<W lemma="mit" msd="APPR" in="3:pobj" out="1:nobj">mit</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">der</W>
+<W lemma="Antibabypille" msd="NN" in="-1:nobj" out="">Antibabypille</W>
+<W lemma="aufhÃ¶ren" msd="VVINF" in="-4:vobj" out="-6:[subj]|-3:pobj">aufhÃ¶ren</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="wenn" msd="KOUS" in="-6:mod" out="4:vobj">wenn</W>
+<W lemma="sie" msd="PPER" in="3:subj" out="">sie</W>
+<W lemma="Ende" msd="NN" in="2:pred" out="1:nobj">Ende</W>
+<W lemma="vierzig" msd="CARD" in="-1:nobj" out="">vierzig</W>
+<W lemma="sein" msd="VAFIN" in="-4:vobj" out="-3:subj|-2:pred">sind</W>
+<W lemma="." msd="$." in="-11:pnct" out="">.</W>
+<W lemma="aber" msd="KON" in="" out="23:pnct|2:conj">Aber</W>
+<W lemma="d" msd="PDS" in="1:subj" out="">das</W>
+<W lemma="werfen" msd="VVFIN" in="-2:conj" out="-1:subj|1:dobj|5:part|6:pnct">wirft</W>
+<W lemma="ein" msd="ART" in="-1:dobj" out="1:nobj">eine</W>
+<W lemma="Reihe" msd="NN" in="-1:nobj" out="1:pobj">Reihe</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="Frage" msd="NN" in="-1:nobj" out="8:rel|4:ref|11:modp">Fragen</W>
+<W lemma="auf" msd="PTKVZ" in="-5:part" out="">auf</W>
+<W lemma="," msd="$," in="-6:pnct" out="">,</W>
+<W lemma="auf" msd="APPR" in="5:pobj" out="1:nobj">auf</W>
+<W lemma="d" msd="PRELS" in="-1:nobj|-4:ref" out="">die</W>
+<W lemma="d" msd="ART" in="3:subj" out="1:nobj">die</W>
+<W lemma="Arzt" msd="NN" in="-1:nobj" out="">Ã„rzte</W>
+<W lemma="hier" msd="ADV" in="1:mod" out="">hier</W>
+<W lemma="antworten" msd="VVINF" in="-8:rel" out="-5:pobj|-1:mod|1:pnct|-3:subj">antworten</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="u.a." msd="ADV" in="1:mod" out="">u.a.</W>
+<W lemma="ob" msd="KOUS" in="-11:modp" out="-1:mod|5:vobj">ob</W>
+<W lemma="Hormon" msd="NN" in="3:[subj]|4:subj" out="">Hormone</W>
+<W lemma="d" msd="ART" in="2:dobj" out="1:nobj">die</W>
+<W lemma="Antibabypille" msd="NN" in="-1:nobj" out="">Antibabypille</W>
+<W lemma="ersetzen" msd="VVINF" in="1:vobj" out="-3:[subj]|-2:dobj">ersetzen</W>
+<W lemma="kÃ¶nnen" msd="VMFIN" in="-5:vobj" out="-4:subj|-1:vobj">kÃ¶nnen</W>
+<W lemma="." msd="$." in="-23:pnct" out="">.</W>
+<W lemma="Bodil" msd="NE" in="1:subj" out="">Bodil</W>
+<W lemma="sein" msd="VAFIN" in="" out="-1:subj|1:pred|2:pnct">ist</W>
+<W lemma="@card@" msd="CARD" in="-1:pred" out="">49</W>
+<W lemma="." msd="$." in="-2:pnct" out="">.</W>
+<W lemma="Sie|sie" msd="PPER" in="1:subj|5:[subj]" out="">Sie</W>
+<W lemma="haben" msd="VAFIN" in="" out="-1:subj|4:vobj|5:pnct">hat</W>
+<W lemma="jahrelang" msd="ADJD" in="3:mod" out="">jahrelang</W>
+<W lemma="d" msd="ART" in="2:dobj" out="1:nobj">die</W>
+<W lemma="Pille" msd="NN" in="-1:nobj" out="">Pille</W>
+<W lemma="nehmen" msd="VVPP" in="-4:vobj" out="-5:[subj]|-3:mod|-2:dobj">genommen</W>
+<W lemma="." msd="$." in="-5:pnct" out="">.</W>
+<W lemma="Sie|sie" msd="PPER" in="1:subj|6:[subj]|8:[subj]|12:[subj]|23:[subj]" out="">Sie</W>
+<W lemma="haben" msd="VAFIN" in="" out="-1:subj|5:vobj|7:conj|10:coord">hatte</W>
+<W lemma="kurz" msd="ADJD" in="1:tobj" out="">kurz</W>
+<W lemma="hintereinander" msd="ADV" in="3:mod" out="-1:tobj">hintereinander</W>
+<W lemma="drei" msd="CARD" in="2:dobj" out="1:nobj">drei</W>
+<W lemma="Kind" msd="NN" in="-1:nobj" out="">Kinder</W>
+<W lemma="gebÃ¤ren" msd="VVPP" in="-5:vobj" out="-6:[subj]|1:pnct|18:pnct|-2:dobj|-3:mod">geboren</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="wollen" msd="VMFIN" in="-7:conj" out="-8:[subj]|1:dobj">wollte</W>
+<W lemma="kein" msd="PIAT" in="-1:dobj" out="1:nobj">keine</W>
+<W lemma="weit" msd="ADJA" in="-1:nobj" out="">weiteren</W>
+<W lemma="und" msd="KON" in="-10:coord" out="1:conj">und</W>
+<W lemma="wollen" msd="VMFIN" in="-1:conj" out="-12:[subj]|3:mod|11:vobj|2:pnct">wollte</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="10:dobj" out="">sich</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="weil" msd="KOUS" in="-3:mod" out="4:vobj">weil</W>
+<W lemma="sie" msd="PPER" in="3:subj" out="">sie</W>
+<W lemma="gegen" msd="APPR" in="2:pred" out="1:nobj">gegen</W>
+<W lemma="Abtreibung" msd="NN" in="-1:nobj" out="">Abtreibung</W>
+<W lemma="sein" msd="VAFIN" in="-4:vobj" out="1:pnct|-3:subj|-2:pred">war</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="100" msd="CARD" in="2:mod" out="1:nobj">100</W>
+<W lemma="%" msd="NN" in="-1:nobj" out="">%</W>
+<W lemma="absichern" msd="VVFIN" in="-11:vobj" out="-23:[subj]|-10:dobj|-2:mod">absichern</W>
+<W lemma="." msd="$." in="-18:pnct" out="">.</W>
+<W lemma="deshalb" msd="PAV" in="1:mod" out="">Deshalb</W>
+<W lemma="entscheiden" msd="VVFIN" in="" out="-1:mod|1:subj|2:dobj|3:pobj">entschied</W>
+<W lemma="sie" msd="PPER" in="-1:subj" out="">sie</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="-2:dobj" out="">sich</W>
+<W lemma="fÃ¼r" msd="APPR" in="-3:pobj" out="12:pnct|1:nobj">fÃ¼r</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj|10:rel|3:ref|2:pnct">die</W>
+<W lemma="Antibabypille" msd="NN" in="-1:nobj" out="">Antibabypille</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="d" msd="PRELS" in="7:nobj|-3:ref" out="">die</W>
+<W lemma="sie" msd="PPER" in="6:subj" out="">sie</W>
+<W lemma="gut" msd="ADJD" in="5:mod" out="1:pnct">gut</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="ohne" msd="KOUI" in="3:mod" out="1:nobj|2:pnct">ohne</W>
+<W lemma="Nebenwirkung" msd="NN" in="-1:nobj" out="">Nebenwirkungen</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="vertragen" msd="VVFIN" in="-10:rel" out="-7:nobj|-6:subj|-5:mod|-3:mod">vertrug</W>
+<W lemma="." msd="$." in="-12:pnct" out="">.</W>
+<W lemma="als" msd="KOKOM" in="5:mod" out="3:vobj|4:pnct">Als</W>
+<W lemma="sie" msd="PPER" in="2:subj" out="">sie</W>
+<W lemma="40" msd="CARD" in="1:pred" out="">40</W>
+<W lemma="werden" msd="VAFIN" in="-3:vobj" out="-2:subj|-1:pred">wurde</W>
+<W lemma="," msd="$," in="-4:pnct" out="">,</W>
+<W lemma="sprechen" msd="VVFIN" in="" out="-5:mod|1:subj|2:pobj|4:pobj|12:coord|19:pnct">sprach</W>
+<W lemma="ich" msd="PPER" in="-1:subj" out="">ich</W>
+<W lemma="mit" msd="APPR" in="-2:pobj" out="1:nobj">mit</W>
+<W lemma="ihr" msd="PPOSAT" in="-1:nobj" out="">ihr</W>
+<W lemma="Ã¼ber" msd="APPR" in="-4:pobj" out="1:nobj">Ã¼ber</W>
+<W lemma="ein" msd="ART" in="-1:nobj" out="3:mod|1:mod|2:nobj">eine</W>
+<W lemma="ander" msd="ADJA" in="-1:mod" out="">andere</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-2:nobj" out="">VerhÃ¼tungsmÃ¶glichkeit</W>
+<W lemma="anstelle" msd="APPR" in="-3:mod" out="1:nobj">anstelle</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">der</W>
+<W lemma="Antibabypille" msd="NN" in="-1:nobj" out="">Antibabypille</W>
+<W lemma="." msd="$." in="" out="">.</W>
+<W lemma="aber" msd="KON" in="-12:coord" out="2:conj|7:pnct">Aber</W>
+<W lemma="d" msd="PDS" in="1:dobj" out="">das</W>
+<W lemma="wollen" msd="VMFIN" in="-2:conj" out="-1:dobj|1:subj|2:mod">wollte</W>
+<W lemma="sie" msd="PPER" in="-1:subj" out="">sie</W>
+<W lemma="unter" msd="APPR" in="-2:mod" out="1:nobj">unter</W>
+<W lemma="kein" msd="PIAT" in="-1:nobj" out="1:nobj">keinen</W>
+<W lemma="Umstand" msd="NN" in="-1:nobj" out="">UmstÃ¤nden</W>
+<W lemma="." msd="$." in="-19:pnct|-7:pnct" out="">.</W>
+<W lemma="d" msd="PDS" in="16:dobj" out="8:nobj|7:mod">Das</W>
+<W lemma="damit" msd="PAV" in="6:pobj" out="">damit</W>
+<W lemma="fÃ¼r" msd="APPR" in="6:pobj" out="1:nobj">fÃ¼r</W>
+<W lemma="Frau" msd="NN" in="-1:nobj" out="1:mod">Frauen</W>
+<W lemma="Ã¼ber" msd="APPR" in="-1:mod" out="1:nobj">Ã¼ber</W>
+<W lemma="40" msd="CARD" in="-1:nobj" out="">40</W>
+<W lemma="eventuell" msd="ADJD" in="1:mod" out="">eventuell</W>
+<W lemma="verbunden" msd="ADJA" in="-7:mod" out="-6:pobj|-1:mod">verbundene</W>
+<W lemma="Risiko" msd="NN" in="-8:nobj" out="-6:pobj">Risiko</W>
+<W lemma="wollen" msd="VMFIN" in="" out="1:subj|2:mod|7:vobj|8:pnct">wollte</W>
+<W lemma="sie" msd="PPER" in="-1:subj|6:[subj]" out="">sie</W>
+<W lemma="gerne" msd="ADV" in="-2:mod" out="">gerne</W>
+<W lemma="auf" msd="APPR" in="4:lobj" out="1:nobj">auf</W>
+<W lemma="ihr" msd="PPOSAT" in="-1:nobj" out="1:mod|2:possd">ihre</W>
+<W lemma="eigen" msd="ADJA" in="-1:mod" out="">eigene</W>
+<W lemma="Kappe" msd="NN" in="-2:possd" out="">Kappe</W>
+<W lemma="nehmen" msd="VVINF" in="-7:vobj" out="-16:dobj|-6:[subj]|-4:lobj">nehmen</W>
+<W lemma="." msd="$." in="-8:pnct" out="">.</W>

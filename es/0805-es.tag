@@ -21,7 +21,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="ADV" lemma="es~decir">es decir</W>
 <W msd="CM" lemma=",">,</W>
-<W msd="PPO" lemma="Èl">la</W>
+<W msd="PPO" lemma="l">la</W>
 <W msd="VLfin" lemma="novelar">novela</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="sin~embargo">Sin embargo</W>
@@ -127,7 +127,7 @@
 <W msd="ART" lemma="un">una</W>
 <W msd="ADJ" lemma="fuerte">fuerte</W>
 <W msd="NC" lemma="&lt;unknown&gt;">tradici√≥n</W>
-<W msd="ADJ" lemma="inglÈs">inglesa</W>
+<W msd="ADJ" lemma="ingls">inglesa</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="periodismo">periodismo</W>
 <W msd="ADJ" lemma="inteligente">inteligente</W>

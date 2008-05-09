@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Psykolog ville kidnappe mig</title>
-            <author gender=m born=1951>Bøgh, Poul</author>
+            <author gender=m born=1951>BÃ¸gh, Poul</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -42,7 +42,7 @@
 <p>
 <s>
 <W lemma="&quot;" msd="XP" in="9:pnct" out="">"</W>
-<W lemma="på" msd="SP" in="8:mod" out="1:nobj">På</W>
+<W lemma="pÃ¥" msd="SP" in="8:mod" out="1:nobj">PÃ¥</W>
 <W lemma="baggrund" msd="NCCSU==I" in="-1:nobj" out="1:pobj">baggrund</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="pige" msd="NCCSG==D" in="-1:nobj" out="1:mod|2:possd|3:mod">pigens</W>
@@ -56,7 +56,7 @@
 <W lemma="," msd="XP" in="-3:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-4:dobj" out="2:vobj">at</W>
 <W lemma="der" msd="U=" in="1:expl|2:[expl]" out="">der</W>
-<W lemma="burde" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:vobj|5:pnct">bør</W>
+<W lemma="burde" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:vobj|5:pnct">bÃ¸r</W>
 <W lemma="foretage" msd="VAF-=----P-" in="-1:vobj" out="-2:[expl]|1:dobj|2:mod">foretages</W>
 <W lemma="videre" msd="RGU" in="-1:dobj" out="">videre</W>
 <W lemma="i" msd="SP" in="-2:mod" out="1:nobj">i</W>
@@ -70,11 +70,11 @@
 <W lemma="," msd="XP" in="-3:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-4:dobj" out="2:vobj">at</W>
 <W lemma="der" msd="U=" in="1:expl" out="">der</W>
-<W lemma="være" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:dobj|7:mod">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="-2:vobj" out="-1:expl|1:dobj|7:mod">er</W>
 <W lemma="grundlag" msd="NCNSU==I" in="-1:dobj" out="1:pobj">grundlag</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:nobj">en</W>
-<W lemma="ophævelse" msd="NCCSU==I" in="-1:nobj" out="1:pobj">ophævelse</W>
+<W lemma="ophÃ¦velse" msd="NCCSU==I" in="-1:nobj" out="1:pobj">ophÃ¦velse</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="plejeforhold" msd="NCNSU==D" in="-1:nobj" out="">plejeforholdet</W>
 <W lemma="nu" msd="RGU" in="-7:mod" out="">nu</W>
@@ -87,7 +87,7 @@
 <W lemma="Herning" msd="NP--U==-" in="3:subj" out="1:nobj|2:possd">Herning</W>
 <W lemma="kommune" msd="NCCSG==I" in="-1:nobj" out="">Kommunes</W>
 <W lemma="socialudvalg" msd="NCNSU==I" in="-2:possd" out="">socialudvalg</W>
-<W lemma="tiltræde" msd="VADR=----A-" in="" out="-3:subj|1:dobj|10:pnct">tiltræder</W>
+<W lemma="tiltrÃ¦de" msd="VADR=----A-" in="" out="-3:subj|1:dobj|10:pnct">tiltrÃ¦der</W>
 <W lemma="indstilling" msd="NCCSU==D" in="-1:dobj" out="1:pnct|2:ref|3:rel">indstillingen</W>
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
 <W lemma="der" msd="U=" in="-2:ref|1:subj" out="">der</W>
@@ -103,7 +103,7 @@
 <p>
 <s>
 <W lemma="familie" msd="NCCSU==D" in="1:subj" out="">Familien</W>
-<W lemma="få" msd="VADR=----A-" in="" out="-1:subj|1:dobj|7:pnct|8:coord|17:pnct">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-" in="" out="-1:subj|1:dobj|7:pnct|8:coord|17:pnct">fÃ¥r</W>
 <W lemma="lov" msd="NC[CN][SP]U==[DI]" in="-1:dobj" out="1:pobj">lov</W>
 <W lemma="til" msd="SP" in="-1:pobj" out="1:nobj">til</W>
 <W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
@@ -125,8 +125,8 @@
 <s>
 <W lemma="i" msd="SP" in="3:mod" out="1:nobj">I</W>
 <W lemma="mange" msd="ANC[CN]PU=[DI]U" in="-1:nobj" out="1:nobj">flere</W>
-<W lemma="måned" msd="NCCPU==I" in="-1:nobj" out="">måneder</W>
-<W lemma="nægte" msd="VADR=----A-" in="" out="-3:mod|1:subj|2:dobj|8:pnct">nægter</W>
+<W lemma="mÃ¥ned" msd="NCCPU==I" in="-1:nobj" out="">mÃ¥neder</W>
+<W lemma="nÃ¦gte" msd="VADR=----A-" in="" out="-3:mod|1:subj|2:dobj|8:pnct">nÃ¦gter</W>
 <W lemma="man" msd="PI-C[SP]N--U" in="-1:subj" out="">man</W>
 <W lemma="at" msd="U=" in="-2:dobj" out="1:vobj">at</W>
 <W lemma="give" msd="VAF-=----A-" in="-1:vobj" out="1:iobj|2:dobj">give</W>
@@ -141,7 +141,7 @@
 <s>
 <W lemma="efter" msd="SP" in="3:mod" out="2:nobj">Efter</W>
 <W lemma="juridisk" msd="ANP[CN]SU=IU" in="1:mod" out="">juridisk</W>
-<W lemma="tovtrækkeri" msd="NCNSU==I" in="-2:nobj" out="-1:mod">tovtrækkeri</W>
+<W lemma="tovtrÃ¦kkeri" msd="NCNSU==I" in="-2:nobj" out="-1:mod">tovtrÃ¦kkeri</W>
 <W lemma="udlevere" msd="VADR=----P-" in="" out="-3:mod|1:subj|2:pnct|3:coord|19:pnct">udleveres</W>
 <W lemma="papir" msd="NCNPU==D" in="-1:subj" out="">papirerne</W>
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
@@ -158,7 +158,7 @@
 <W lemma="true" msd="VADR=----A-" in="-3:vobj" out="-1:subj|1:pobj">truer</W>
 <W lemma="med" msd="SP" in="-1:pobj" out="1:nobj">med</W>
 <W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="gå" msd="VAF-=----A-" in="-1:vobj" out="1:lobj">gå</W>
+<W lemma="gÃ¥" msd="VAF-=----A-" in="-1:vobj" out="1:lobj">gÃ¥</W>
 <W lemma="til" msd="SP" in="-1:lobj" out="1:nobj">til</W>
 <W lemma="presse" msd="NCCSU==D" in="-1:nobj" out="">pressen</W>
 <W lemma="." msd="XP" in="-19:pnct" out="">.</W>
@@ -173,7 +173,7 @@
 <W lemma="registrere" msd="VADR=----A-" in="" out="-4:mod|1:subj|3:mod|7:pnct|8:dobj|19:pnct">registrerer</W>
 <W lemma="Herning" msd="NP--U==-" in="-1:subj" out="1:nobj">Herning</W>
 <W lemma="kommune" msd="NCCSU==I" in="-1:nobj" out="">Kommune</W>
-<W lemma="på" msd="SP" in="-3:mod" out="1:nobj">på</W>
+<W lemma="pÃ¥" msd="SP" in="-3:mod" out="1:nobj">pÃ¥</W>
 <W lemma="Mona" msd="NP--U==-" in="-1:nobj" out="1:namef|2:possd">Mona</W>
 <W lemma="Lisa" msd="NP--G==-" in="-1:namef" out="">Lisas</W>
 <W lemma="sagsmappe" msd="NCCSU==I" in="-2:possd" out="">sagsmappe</W>
@@ -195,7 +195,7 @@
 <W lemma="den" msd="PD-CSU--U" in="3:subj|4:[subj]" out="1:mod|2:nobj">Den</W>
 <W lemma="kidnapningslignende" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">kidnapningslignende</W>
 <W lemma="aktion" msd="NCCSU==I" in="-2:nobj" out="">aktion</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-3:subj|1:vobj|2:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-3:subj|1:vobj|2:pnct">er</W>
 <W lemma="betale" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-4:[subj]">betalt</W>
 <W lemma="." msd="XP" in="-2:pnct" out="">.</W>
 </s>
@@ -215,10 +215,10 @@
 <W lemma="," msd="XP" in="-9:pnct" out="">,</W>
 <W lemma="men" msd="CC" in="-10:coord" out="2:conj">men</W>
 <W lemma="hun" msd="PP3CSN-NU" in="1:subj|4:[subj]|7:[subj]" out="">hun</W>
-<W lemma="ønske" msd="VADR=----A-" in="-2:conj" out="-1:subj|2:dobj">ønsker</W>
+<W lemma="Ã¸nske" msd="VADR=----A-" in="-2:conj" out="-1:subj|2:dobj">Ã¸nsker</W>
 <W lemma="hverken" msd="RGU" in="4:mod" out="">hverken</W>
 <W lemma="at" msd="U=" in="-2:dobj" out="1:vobj">at</W>
-<W lemma="høre" msd="VAF-=----A-" in="-1:vobj" out="-4:[subj]|1:dobj|2:coord">høre</W>
+<W lemma="hÃ¸re" msd="VAF-=----A-" in="-1:vobj" out="-4:[subj]|1:dobj|2:coord">hÃ¸re</W>
 <W lemma="artikel" msd="NCCSU==D" in="-1:dobj" out="">artiklen</W>
 <W lemma="eller" msd="CC" in="-2:coord" out="-4:mod|1:conj">eller</W>
 <W lemma="fremkommme" msd="XX" in="-1:conj" out="-7:[subj]|1:pobj">fremkommme</W>
@@ -231,7 +231,7 @@
 <s>
 <W lemma="B.T." msd="NP--U==-" in="1:subj|2:[subj]" out="">B.T.</W>
 <W lemma="have" msd="VADR=----A-" in="" out="-1:subj|1:vobj|27:pnct">har</W>
-<W lemma="forelægge" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-2:[subj]|1:dobj|2:pobj">forelagt</W>
+<W lemma="forelÃ¦gge" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-2:[subj]|1:dobj|2:pobj">forelagt</W>
 <W lemma="artikel" msd="NCCSU==D" in="-1:dobj" out="">artiklen</W>
 <W lemma="for" msd="SP" in="-2:pobj" out="4:nobj">for</W>
 <W lemma="advokat" msd="NCCSU==I" in="3:title" out="">advokat</W>

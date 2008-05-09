@@ -35,7 +35,7 @@
 <W msd="NN" in="-1:possd" out="">mother</W>
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="VBN" in="1:namef" out="">Bitten</W>
-<W msd="NNP" in="-4:appr" out="-1:namef">Mørch</W>
+<W msd="NNP" in="-4:appr" out="-1:namef">MÃ¸rch</W>
 <W msd="." in="-16:pnct" out="">.</W>
 </s>
 <s>

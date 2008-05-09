@@ -138,7 +138,7 @@
 <W msd="ART" lemma="el">los</W>
 <W msd="QU" lemma="otro">otros</W>
 <W msd="ADJ" lemma="grande">grandes</W>
-<W msd="NC" lemma="almacén">almacenes</W>
+<W msd="NC" lemma="almacn">almacenes</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="&lt;unknown&gt;">Copenhague</W>
 <W msd="VLfin" lemma="empezar">empezaron</W>

@@ -70,7 +70,7 @@
 <W msd="NNP" in="-1:nobj" out="1:nobj|2:mod">Riisvangen</W>
 <W msd="NNP" in="-1:nobj" out="">Stadium</W>
 <W msd="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">Århus</W>
+<W msd="NN" in="-1:nobj" out="">Ã…rhus</W>
 <W msd="." in="-9:pnct" out="">.</W>
 </s>
 <s>

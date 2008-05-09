@@ -151,7 +151,7 @@
 <W msd="&quot;" in="-6:pnct" out="">"</W>
 <W msd="VBZ" in="" out="-7:qobj|3:subj|4:pnct">says</W>
 <W msd="NNP" in="2:namef" out="">Finn</W>
-<W msd="NNP" in="1:namel" out="">Rønlov</W>
+<W msd="NNP" in="1:namel" out="">RÃ¸nlov</W>
 <W msd="NNP" in="-3:subj" out="-2:namef|-1:namel">Andersen</W>
 <W msd="." in="-4:pnct" out="">.</W>
 </s>
@@ -165,7 +165,7 @@
 <W msd="NNP" in="-1:dobj" out="1:nobj|2:mod">Riviera</W>
 <W msd="NNP" in="-1:nobj" out="">Solcenter</W>
 <W msd="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="JJ" in="-1:nobj" out="">Århus</W>
+<W msd="JJ" in="-1:nobj" out="">Ã…rhus</W>
 <W msd="NNS" in="" out="-9:subj|1:dobj|2:pred|5:pnct|6:mod|17:pnct">calls</W>
 <W msd="NNP" in="-1:dobj" out="">Denmark</W>
 <W msd="DT" in="-2:pred" out="2:nobj">a</W>

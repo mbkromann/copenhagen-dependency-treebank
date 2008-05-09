@@ -39,7 +39,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="VLadj" lemma="escuchar">escuchando</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="confesión">confesiones</W>
+<W msd="NC" lemma="confesin">confesiones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="un">un</W>
 <W msd="NC" lemma="&lt;unknown&gt;">provocador</W>
@@ -100,7 +100,7 @@
 <W msd="PE" lemma="The">The</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Dâ€™Generation</W>
 <W msd="FS" lemma=".">.</W>
-<W msd="PPC" lemma="él">Le</W>
+<W msd="PPC" lemma="l">Le</W>
 <W msd="VHfin" lemma="haber">han</W>
 <W msd="VLadj" lemma="llamar">llamado</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">â€“</W>
@@ -123,7 +123,7 @@
 <W msd="CARD" lemma="@card@">90</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="CCAD" lemma="pero">Pero</W>
-<W msd="PPC" lemma="él">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="dar">da</W>
 <W msd="ADJ" lemma="mucho">mucha</W>
 <W msd="NC" lemma="rabia">rabia</W>

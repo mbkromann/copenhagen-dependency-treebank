@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1162-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1162-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1162-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="Finally" outsign="Endelig"/>
 <align out="a44" type="" in="b4" creator="-1" insign="is" outsign="er"/>
@@ -25,7 +25,7 @@
 <align out="a69" type="" in="b27 b28 b29" creator="-1" insign="the World Bank" outsign="Verdensbanken"/>
 <align out="a70" type="" in="b30" creator="-1" insign="and" outsign="og"/>
 <align out="a71" type="" in="b31" creator="-1" insign="the" outsign="Den"/>
-<align out="a72" type="" in="b32" creator="-1" insign="European" outsign="Europæiske"/>
+<align out="a72" type="" in="b32" creator="-1" insign="European" outsign="EuropÃ¦iske"/>
 <align out="a73" type="" in="b33 b34" creator="-1" insign="Development Bank" outsign="Udviklingsbank"/>
 <align out="a74" type="" in="b35" creator="-1" insign="(" outsign="("/>
 <align out="a75" type="" in="b36" creator="-1" insign="EBRD" outsign="EBRD"/>
@@ -37,7 +37,7 @@
 <align out="a81" type="" in="b42" creator="-1" insign="Erik" outsign="Erik"/>
 <align out="a82" type="" in="b43" creator="-1" insign="Staalby" outsign="Staalby"/>
 <align out="a83" type="" in="b44" creator="-1" insign="," outsign=","/>
-<align out="a84" type="" in="b45 b46" creator="-1" insign="chief engineer" outsign="chefingeniør"/>
+<align out="a84" type="" in="b45 b46" creator="-1" insign="chief engineer" outsign="chefingeniÃ¸r"/>
 <align out="a85" type="" in="b47" creator="-1" insign="at" outsign="hos"/>
 <align out="a89" type="" in="b51" creator="-1" insign="." outsign="."/>
 <align out="a94" type="" in="b54" creator="-1" insign="EBRD" outsign="EBRD"/>
@@ -53,11 +53,11 @@
 <align out="a115" type="" in="b78" creator="-1" insign="is" outsign="er"/>
 <align out="a118" type="" in="b80" creator="-1" insign="these" outsign="disse"/>
 <align out="a119" type="" in="b81" creator="-1" insign="experts" outsign="eksperter"/>
-<align out="a120" type="" in="b83" creator="-1" insign="rarely" outsign="sjældent"/>
+<align out="a120" type="" in="b83" creator="-1" insign="rarely" outsign="sjÃ¦ldent"/>
 <align out="a121" type="" in="b82" creator="-1" insign="are" outsign="er"/>
 <align out="a122" type="" in="b84" creator="-1" insign="technicians" outsign="teknikere"/>
 <align out="a123" type="" in="b85" creator="-1" insign="or" outsign="eller"/>
-<align out="a124" type="" in="b86" creator="-1" insign="engineers" outsign="ingeniører"/>
+<align out="a124" type="" in="b86" creator="-1" insign="engineers" outsign="ingeniÃ¸rer"/>
 <align out="a126" type="" in="b87" creator="-1" insign="but" outsign="men"/>
 <align out="a127" type="" in="b89" creator="-1" insign="in" outsign="i"/>
 <align out="a128 a129" type="" in="b90" creator="-1" insign="most" outsign="de fleste"/>
@@ -67,11 +67,11 @@
 <align out="a143" type="" in="b103" creator="-1" insign="and" outsign="og"/>
 <align out="a144" type="" in="b105" creator="-1" insign="therefore" outsign="derfor"/>
 <align out="a149" type="" in="b117" creator="-1" insign="individual" outsign="individuel"/>
-<align out="a150" type="" in="b118" creator="-1" insign="support" outsign="støtte"/>
+<align out="a150" type="" in="b118" creator="-1" insign="support" outsign="stÃ¸tte"/>
 <align out="a151" type="" in="b119" creator="-1" insign="for" outsign="til"/>
 <align out="a152" type="" in="b120" creator="-1" insign="Danish" outsign="danske"/>
 <align out="a155" type="" in="b124" creator="-1" insign="for" outsign="for"/>
-<align out="a156" type="" in="b125" creator="-1" insign="both" outsign="både"/>
+<align out="a156" type="" in="b125" creator="-1" insign="both" outsign="bÃ¥de"/>
 <align out="a157" type="" in="b126 b127 b128" creator="-1" insign="the World Bank" outsign="Verdensbanken"/>
 <align out="a158" type="" in="b129" creator="-1" insign="and" outsign="og"/>
 <align out="a159" type="" in="b130" creator="-1" insign="EBRD" outsign="EBRD"/>
@@ -84,7 +84,7 @@
 <align out="a171" type="" in="b140" creator="-1" insign="This" outsign="Det"/>
 <align out="a172" type="" in="b141 b142 b143" creator="-1" insign="will be done" outsign="sker"/>
 <align out="a173" type="" in="b144" creator="-1" insign="through" outsign="gennem"/>
-<align out="a174" type="" in="b145" creator="-1" insign="so-called" outsign="såkaldte"/>
+<align out="a174" type="" in="b145" creator="-1" insign="so-called" outsign="sÃ¥kaldte"/>
 <align out="a175" type="" in="b146" creator="-1" insign="Trust" outsign="Trust"/>
 <align out="a176" type="" in="b147" creator="-1" insign="Funds" outsign="Funds"/>
 <align out="a177" type="" in="b148" creator="-1" insign="," outsign=","/>
@@ -140,7 +140,7 @@
 <align out="a254" type="" in="b236" creator="-1" insign="of" outsign="af"/>
 <align out="a255" type="" in="b237" creator="-1" insign="shipments" outsign="leverancer"/>
 <align out="a256" type="" in="b238" creator="-1" insign="to" outsign="til"/>
-<align out="a257" type="" in="b239 b240" creator="-1" insign="Eastern Europe" outsign="Østlandene"/>
+<align out="a257" type="" in="b239 b240" creator="-1" insign="Eastern Europe" outsign="Ã˜stlandene"/>
 <align out="a258" type="" in="b241" creator="-1" insign="." outsign="."/>
 <align out="b2" type="" in="b2" creator="-1" insign="," outsign=","/>
 <align out="b92" type="" in="b92" creator="-1" insign="," outsign=","/>
@@ -155,7 +155,7 @@
 <align out="a90" type="" in="b52" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a88" type="" in="b50" creator="-1" insign="Krogboe" outsign="Krogboe"/>
 <align out="a105" type="" in="b65" creator="0" insign="analyses" outsign="analyser"/>
-<align out="a107" type="" in="b67" creator="0" insign="assessments" outsign="bedømmelser"/>
+<align out="a107" type="" in="b67" creator="0" insign="assessments" outsign="bedÃ¸mmelser"/>
 <align out="a104" type="s" in="b64 b68" creator="0" insign="the of" outsign="eksperters"/>
 <align out="a104" type="" in="b71" creator="0" insign="experts" outsign="eksperters"/>
 <align out="a116" type="" in="a116" creator="0" insign="," outsign=","/>
@@ -164,8 +164,8 @@
 <align out="a109" type="" in="b73" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a125" type="" in="a125" creator="0" insign="," outsign=","/>
 <align out="b88" type="" in="b88" creator="0" insign="," outsign=","/>
-<align out="a130" type="" in="b91" creator="0" insign="instances" outsign="tilfælde"/>
-<align out="a131" type="" in="b93" creator="0" insign="economists" outsign="økonomer"/>
+<align out="a130" type="" in="b91" creator="0" insign="instances" outsign="tilfÃ¦lde"/>
+<align out="a131" type="" in="b93" creator="0" insign="economists" outsign="Ã¸konomer"/>
 <align out="a140" type="" in="b98 b99" creator="0" insign="The banks" outsign="bankerne"/>
 <align out="a138" type="" in="b102" creator="0" insign="this" outsign="Det"/>
 <align out="a141" type="" in="b101" creator="0" insign="acknowledged" outsign="erkendt"/>
@@ -174,15 +174,15 @@
 <align out="b106" type="" in="b106" creator="0" insign="," outsign=","/>
 <align out="a136" type="" in="b96" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a133" type="" in="b95" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a153" type="" in="b121" creator="0" insign="advisers'" outsign="rådgiveres"/>
-<align out="a154" type="" in="b122 b123" creator="0" insign="preliminary inquiries" outsign="forundersøgelser"/>
-<align out="a145 a147 a148" type="f" in="b114 b115 b116" creator="0" insign="has agreed to" outsign="går ind med"/>
+<align out="a153" type="" in="b121" creator="0" insign="advisers'" outsign="rÃ¥dgiveres"/>
+<align out="a154" type="" in="b122 b123" creator="0" insign="preliminary inquiries" outsign="forundersÃ¸gelser"/>
+<align out="a145 a147 a148" type="f" in="b114 b115 b116" creator="0" insign="has agreed to" outsign="gÃ¥r ind med"/>
 <align out="a170" type="" in="b139" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a167" type="" in="b138" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a165" type="" in="b136" creator="-1" insign="Staalby" outsign="Staalby"/>
 <align out="a179" type="" in="b151 b152" creator="0" insign="the banks" outsign="bankerne"/>
-<align out="a181" type="" in="b154" creator="0" insign="draw" outsign="trække"/>
-<align out="a182" type="" in="b155" creator="0" insign="on" outsign="på"/>
+<align out="a181" type="" in="b154" creator="0" insign="draw" outsign="trÃ¦kke"/>
+<align out="a182" type="" in="b155" creator="0" insign="on" outsign="pÃ¥"/>
 <align out="a194" type="" in="b166" creator="0" insign="couple" outsign="par"/>
 <align out="a194" type="s" in="b167" creator="0" insign="of" outsign="par"/>
 <align out="a192" type="" in="b164" creator="-1" insign="<s>" outsign="<s>"/>
@@ -196,19 +196,19 @@
 <align out="a235" type="" in="b216 b217 b218" creator="0" insign="will make sure" outsign="sikrer"/>
 <align out="a236" type="" in="a236" creator="0" insign="," outsign=","/>
 <align out="a237" type="" in="b219" creator="0" insign="that" outsign="at"/>
-<align out="a242" type="" in="b224 b225" creator="0" insign="support money" outsign="støttepenge"/>
+<align out="a242" type="" in="b224 b225" creator="0" insign="support money" outsign="stÃ¸ttepenge"/>
 <align out="a243" type="" in="b226" creator="0" insign="will" outsign="kan"/>
-<align out="a244 a245 a246" type="" in="b227 b228 b229" creator="0" insign="be part of" outsign="være med til"/>
+<align out="a244 a245 a246" type="" in="b227 b228 b229" creator="0" insign="be part of" outsign="vÃ¦re med til"/>
 <align out="a247" type="s" in="b230" creator="0" insign="influencing" outsign="at"/>
-<align out="a248" type="" in="b230" creator="0" insign="influencing" outsign="præge"/>
+<align out="a248" type="" in="b230" creator="0" insign="influencing" outsign="prÃ¦ge"/>
 <align out="a232" type="" in="b212" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a231" type="" in="b211" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a253" type="f" in="b235" creator="0" insign="tender" outsign="udbud"/>
 <align out="a259" type="" in="b242" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a58" type="" in="b17" creator="0" insign="get" outsign="gøre"/>
-<align out="a58" type="s" in="b16" creator="0" insign="to" outsign="gøre"/>
+<align out="a58" type="" in="b17" creator="0" insign="get" outsign="gÃ¸re"/>
+<align out="a58" type="s" in="b16" creator="0" insign="to" outsign="gÃ¸re"/>
 <align out="a99" type="f" in="b61" creator="0" insign="obliged" outsign="henvist"/>
-<align out="a146" type="" in="b107 b108 b109 b110 b111 b112 b113" creator="0" insign="the special aid fund for Eastern Europe" outsign="Østlandepuljen"/>
+<align out="a146" type="" in="b107 b108 b109 b110 b111 b112 b113" creator="0" insign="the special aid fund for Eastern Europe" outsign="Ã˜stlandepuljen"/>
 <align out="a103" type="" in="b70" creator="0" insign="own" outsign="egne"/>
 <align out="a104" type="s" in="b69" creator="0" insign="their" outsign="eksperters"/>
 <align out="a251" type="f" in="b233" creator="0" insign="bankers'" outsign="bankers"/>

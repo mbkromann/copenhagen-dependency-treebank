@@ -67,7 +67,7 @@
 <W msd="NNS" in="-1:conj" out="">spices</W>
 <W msd=")" in="-6:pnct" out="">)</W>
 <W msd="CC" in="-31:coord" out="1:conj">and</W>
-<W msd="NN" in="-1:conj" out="2:appa">börek</W>
+<W msd="NN" in="-1:conj" out="2:appa">bÃ¶rek</W>
 <W msd="(" in="1:pnct" out="">(</W>
 <W msd="NN" in="-2:appa" out="-1:pnct|1:mod|6:pnct">pastry</W>
 <W msd="VBN" in="-1:mod" out="1:pobj">filled</W>
@@ -244,6 +244,6 @@
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="NNP" in="-5:nobj" out="-3:mod|1:coord">Tuborg</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NNP" in="-1:conj" out="-5:[mod]">Lövenbräu</W>
+<W msd="NNP" in="-1:conj" out="-5:[mod]">LÃ¶venbrÃ¤u</W>
 <W msd="." in="-33:pnct" out="">.</W>
 </s>

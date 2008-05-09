@@ -1,11 +1,11 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0214-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0214-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0214-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="For" outsign="Til"/>
 <align out="a44" type="" in="b2" creator="-1" insign="comparison" outsign="sammenligning"/>
 <align out="a47" type="" in="b4" creator="-1" insign="in" outsign="i"/>
 <align out="a48" type="" in="b5 b6" creator="-1" insign="West Germany" outsign="Vesttyskland"/>
-<align out="a53" type="" in="b14" creator="-1" insign="first" outsign="første"/>
+<align out="a53" type="" in="b14" creator="-1" insign="first" outsign="fÃ¸rste"/>
 <align out="a54" type="" in="b15" creator="-1" insign="millions" outsign="millioner"/>
 <align out="a55" type="" in="b16" creator="-1" insign="for" outsign="til"/>
 <align out="a56" type="" in="b17" creator="-1" insign="biotechnology" outsign="bioteknologi"/>
@@ -55,9 +55,9 @@
 <align out="a137" type="" in="b103" creator="-1" insign="and" outsign="og"/>
 <align out="a138" type="" in="b104" creator="-1" insign="France" outsign="Frankrig"/>
 <align out="a139" type="" in="b105" creator="-1" insign="for" outsign="til"/>
-<align out="a140" type="" in="b106 b107" creator="-1" insign="support programmes" outsign="støtteprogrammer"/>
+<align out="a140" type="" in="b106 b107" creator="-1" insign="support programmes" outsign="stÃ¸tteprogrammer"/>
 <align out="a141" type="" in="b108" creator="-1" insign="." outsign="."/>
-<align out="a144" type="" in="b111" creator="-1" insign="Comments" outsign="Bemærkninger"/>
+<align out="a144" type="" in="b111" creator="-1" insign="Comments" outsign="BemÃ¦rkninger"/>
 <align out="a145" type="" in="b112" creator="-1" insign="on" outsign="til"/>
 <align out="a147" type="" in="b115" creator="-1" insign="for" outsign="til"/>
 <align out="a149" type="" in="b119" creator="-1" insign="on" outsign="om"/>
@@ -79,7 +79,7 @@
 <align out="a177" type="" in="b148" creator="-1" insign="While" outsign="Mens"/>
 <align out="a179" type="" in="b153" creator="-1" insign="the" outsign="de"/>
 <align out="a180" type="" in="b154" creator="-1" insign="German" outsign="tyske"/>
-<align out="a181" type="" in="b155 b156" creator="-1" insign="support programmes" outsign="støtteprogrammer"/>
+<align out="a181" type="" in="b155 b156" creator="-1" insign="support programmes" outsign="stÃ¸tteprogrammer"/>
 <align out="a182" type="" in="b157" creator="-1" insign="seem" outsign="synes"/>
 <align out="a184" type="" in="b160" creator="-1" insign="and" outsign="og"/>
 <align out="a185" type="" in="b161" creator="-1" insign="distributed" outsign="fordelt"/>
@@ -101,7 +101,7 @@
 <align out="a210" type="" in="b193" creator="-1" insign="by" outsign="af"/>
 <align out="a211" type="" in="b194" creator="-1" insign="public" outsign="offentlige"/>
 <align out="a212" type="" in="b195" creator="-1" insign="and" outsign="og"/>
-<align out="a213" type="" in="b196" creator="-1" insign="particularly" outsign="især"/>
+<align out="a213" type="" in="b196" creator="-1" insign="particularly" outsign="isÃ¦r"/>
 <align out="a214" type="" in="b197" creator="-1" insign="parliamentary" outsign="parlamentarisk"/>
 <align out="a215" type="" in="b198" creator="-1" insign="participation" outsign="deltagelse"/>
 <align out="a216" type="" in="b199" creator="-1" insign="in" outsign="i"/>
@@ -129,7 +129,7 @@
 <align out="a52" type="" in="b13" creator="0" insign="the" outsign="de"/>
 <align out="a58" type="" in="b19" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a59" type="" in="b20" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a60 a61 a63" type="" in="b21 b22 b23 b25" creator="0" insign="In the subsequent years" outsign="De følgende år"/>
+<align out="a60 a61 a63" type="" in="b21 b22 b23 b25" creator="0" insign="In the subsequent years" outsign="De fÃ¸lgende Ã¥r"/>
 <align out="b26" type="" in="b26" creator="0" insign="," outsign=","/>
 <align out="a64" type="" in="b31 b32" creator="0" insign="have been" outsign="er"/>
 <align out="a66" type="" in="b33" creator="0" insign="given" outsign="ydet"/>
@@ -138,8 +138,8 @@
 <align out="a72" type="" in="b35 b36" creator="0" insign="individual projects" outsign="enkeltprojekter"/>
 <align out="a68" type="" in="b29" creator="-1" insign="800" outsign="800"/>
 <align out="a81" type="" in="b46" creator="0" insign="1972-82" outsign="1972-82"/>
-<align out="a83" type="" in="b48" creator="0" insign="estimated" outsign="skønnet"/>
-<align out="a84" type="" in="b49" creator="0" insign="on" outsign="på"/>
+<align out="a83" type="" in="b48" creator="0" insign="estimated" outsign="skÃ¸nnet"/>
+<align out="a84" type="" in="b49" creator="0" insign="on" outsign="pÃ¥"/>
 <align out="a85" type="s" in="b50" creator="0" insign="the" outsign="baggrund"/>
 <align out="a85" type="" in="b51" creator="0" insign="basis" outsign="baggrund"/>
 <align out="a109" type="" in="b75" creator="0" insign="Research" outsign="Research"/>
@@ -150,11 +150,11 @@
 <align out="a110" type="" in="b76" creator="-1" insign="Policy" outsign="Policy"/>
 <align out="a125" type="" in="b88" creator="0" insign="recent" outsign="senere"/>
 <align out="a124" type="s" in="b89" creator="0" insign="years" outsign="de"/>
-<align out="a126" type="" in="b89" creator="0" insign="years" outsign="år"/>
+<align out="a126" type="" in="b89" creator="0" insign="years" outsign="Ã¥r"/>
 <align out="b90" type="" in="b90" creator="0" insign="," outsign=","/>
 <align out="a127" type="" in="b94 b95" creator="0" insign="have been" outsign="er"/>
 <align out="a128" type="" in="b96" creator="0" insign="appropriated" outsign="bevilget"/>
-<align out="a129" type="" in="b97" creator="0" insign="annually" outsign="årligt"/>
+<align out="a129" type="" in="b97" creator="0" insign="annually" outsign="Ã¥rligt"/>
 <align out="a130" type="" in="b92" creator="0" insign="600-1,000" outsign="600-1.000"/>
 <align out="a121" type="" in="b85" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a131" type="" in="b93" creator="-1" insign="million" outsign="mio."/>
@@ -183,10 +183,10 @@
 <align out="a193" type="" in="b172" creator="0" insign="and" outsign="og"/>
 <align out="a194" type="" in="b168 b169 b170 b173" creator="0" insign="the Ministry of Technology" outsign="teknologiministeriet"/>
 <align out="a199" type="" in="b178 b179" creator="0" insign="research institutes" outsign="forskningsinstitutioner"/>
-<align out="a204" type="" in="b187 b188" creator="0" insign="is characterised" outsign="præges"/>
+<align out="a204" type="" in="b187 b188" creator="0" insign="is characterised" outsign="prÃ¦ges"/>
 <align out="a205" type="" in="b184" creator="0" insign="the" outsign="det"/>
 <align out="a205" type="s" in="b186" creator="0" insign="one" outsign="det"/>
-<align out="a208" type="" in="b191" creator="0" insign="high" outsign="høj"/>
+<align out="a208" type="" in="b191" creator="0" insign="high" outsign="hÃ¸j"/>
 <align out="a209" type="s" in="b190" creator="0" insign="a" outsign="grad"/>
 <align out="a209" type="" in="b192" creator="0" insign="degree" outsign="grad"/>
 <align out="a217" type="" in="b200 b201 b202" creator="0" insign="the decision-making process" outsign="beslutningsprocessen"/>

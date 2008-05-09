@@ -19,7 +19,7 @@
 <W msd="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="" out="1:pnct|2:conj|3:pnct|5:conj|6:pnct">Naïve</W>
+<W msd="NNP" in="" out="1:pnct|2:conj|3:pnct|5:conj|6:pnct">NaÃ¯ve</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="JJ" in="-2:conj" out="">primitive</W>
 <W msd="," in="-3:pnct" out="">,</W>

@@ -185,7 +185,7 @@
 <W msd="ART" lemma="el">la</W>
 <W msd="ADJ" lemma="&lt;unknown&gt;">compañía</W>
 <W msd="NC" lemma="&lt;unknown&gt;">aérea</W>
-<W msd="ADJ" lemma="holand�s">holandesa</W>
+<W msd="ADJ" lemma="holands">holandesa</W>
 <W msd="NP" lemma="&lt;unknown&gt;">KLM</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ART" lemma="el">La</W>

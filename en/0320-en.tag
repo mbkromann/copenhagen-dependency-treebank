@@ -128,8 +128,8 @@
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="JJ" in="5:qobj" out="1:nobj|2:mod|4:pnct">- 75</W>
-<W msd="VBG" in="-1:nobj" out="">øre</W>
+<W msd="JJ" in="5:qobj" out="1:nobj|2:mod|4:pnct">-Â 75</W>
+<W msd="VBG" in="-1:nobj" out="">Ã¸re</W>
 <W msd="DT" in="-2:mod" out="1:nobj">a</W>
 <W msd="NN" in="-1:nobj" out="">piece</W>
 <W msd="," in="-4:pnct" out="">,</W>
@@ -146,7 +146,7 @@
 <s>
 <W msd=":" in="1:pnct" out="">-</W>
 <W msd="CD" in="" out="-1:pnct|1:nobj|2:pnct">75</W>
-<W msd="NN" in="-1:nobj" out="">øre</W>
+<W msd="NN" in="-1:nobj" out="">Ã¸re</W>
 <W msd="." in="-2:pnct" out="">.</W>
 </s>
 <s>
@@ -161,7 +161,7 @@
 <W msd="VBP" in="" out="-1:subj|1:vobj|6:pnct">don't</W>
 <W msd="NN" in="-1:vobj" out="-2:[subj]|1:dobj|3:pobj">pay</W>
 <W msd="DT" in="-1:dobj" out="1:nobj">an</W>
-<W msd="NN" in="-1:nobj" out="">øre</W>
+<W msd="NN" in="-1:nobj" out="">Ã¸re</W>
 <W msd="IN" in="-3:pobj" out="1:nobj">for</W>
 <W msd="PRP" in="-1:nobj" out="">them</W>
 <W msd="." in="-6:pnct" out="">.</W>

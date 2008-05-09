@@ -1,7 +1,7 @@
 <s>
 <W msd="IN" in="8:mod" out="1:nobj|6:pnct">At</W>
 <W msd="DT" in="-1:nobj" out="1:nobj|3:mod">the</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Nørrebro</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">NÃ¸rrebro</W>
 <W msd="NNP" in="-1:nobj" out="">Library</W>
 <W msd="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="NNP" in="-1:nobj" out="">Guldbergsgade</W>
@@ -190,7 +190,7 @@
 <W msd="RB" in="5:mod" out="1:pnct|-4:tobj">ago</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="DT" in="3:subj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Nørrebro</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">NÃ¸rrebro</W>
 <W msd="NNP" in="-1:nobj" out="">Library</W>
 <W msd="VBD" in="" out="-5:mod|20:pnct|-3:subj|1:dobj">introduced</W>
 <W msd="DT" in="-1:dobj" out="3:pnct|2:nobj|5:rel|4:ref">the</W>

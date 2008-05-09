@@ -24,14 +24,14 @@
 <W lemma="il" msd="DET:def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="Cina" msd="NPR" in="-1:nobj" out="">Cina</W>
 <W lemma="si" msd="PRO:pers" in="2:robj" out="">si</W>
-<W lemma="essere" msd="VER:pres" in="" out="-9:subj|-26:mod|1:vobj|4:pnct">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="-9:subj|-26:mod|1:vobj|4:pnct">√®</W>
 <W lemma="ridurre" msd="VER:pper" in="-1:vobj" out="-2:robj|-10:[subj]|1:mod">ridotto</W>
 <W lemma="al" msd="PRE:det" in="-1:mod" out="1:nobj">al</W>
 <W lemma="minimo" msd="NOM" in="-1:nobj" out="">minimo</W>
 <W lemma="." msd="SENT" in="-4:pnct" out="">.</W>
 <W lemma="il" msd="DET:def" in="2:subj" out="1:nobj">La</W>
 <W lemma="Cina" msd="NPR" in="-1:nobj" out="">Cina</W>
-<W lemma="essere" msd="VER:pres" in="" out="-2:subj|1:mod|2:pred|19:pnct|6:conj">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="-2:subj|1:mod|2:pred|19:pnct|6:conj">√®</W>
 <W lemma="ancora" msd="ADV" in="-1:mod" out="">ancora</W>
 <W lemma="in" msd="PRE" in="-2:pred" out="1:nobj">in</W>
 <W lemma="quarantena" msd="NOM" in="-1:nobj" out="">quarantena</W>
@@ -107,7 +107,7 @@
 <W lemma="ad" msd="PRE" in="-1:mod" out="1:nobj">ad</W>
 <W lemma="un" msd="DET:indef" in="-1:nobj" out="1:nobj|3:mod">un</W>
 <W lemma="ritmo" msd="NOM" in="-1:nobj" out="">ritmo</W>
-<W lemma="cosÏ" msd="ADV" in="1:mod" out="2:pobj">cosÏ</W>
+<W lemma="cos√¨" msd="ADV" in="1:mod" out="2:pobj">cos√¨</W>
 <W lemma="rapido" msd="ADJ" in="-3:mod" out="-1:mod">rapido</W>
 <W lemma="da" msd="PRE" in="-2:pobj" out="1:vobj">da</W>
 <W lemma="rimanere" msd="VER:infi" in="-1:vobj" out="1:mod">rimanere</W>
@@ -134,7 +134,7 @@
 <W lemma="ma" msd="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="DET:def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="interessante" msd="ADJ" in="-1:nobj" out="">interessante</W>
-<W lemma="essere" msd="VER:futu" in="" out="-2:subj|1:pred|17:pnct|-3:coord|18:pnct">sar‡</W>
+<W lemma="essere" msd="VER:futu" in="" out="-2:subj|1:pred|17:pnct|-3:coord|18:pnct">sar√†</W>
 <W lemma="vedere" msd="VER:infi" in="-1:pred" out="1:dobj">vedere</W>
 <W lemma="quanto" msd="ADV" in="-1:dobj|4:[dobj]" out="4:rel">quanto</W>
 <W lemma="il" msd="DET:def" in="3:subj" out="1:nobj|2:mod">i</W>
@@ -155,7 +155,7 @@
 <W lemma="&quot;" msd="PON" in="-18:pnct" out="">"</W>
 <W lemma="il" msd="DET:def" in="2:subj|3:[subj]|11:[subj]|12:[subj]" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-1:nobj" out="">FLS</W>
-<W lemma="essere" msd="VER:pres" in="" out="9:conj|1:vobj|-2:subj|6:mod|20:pnct">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="9:conj|1:vobj|-2:subj|6:mod|20:pnct">√®</W>
 <W lemma="essere|stare" msd="VER:pper" in="-1:vobj" out="1:pred|-3:[subj]">stata</W>
 <W lemma="presente" msd="ADJ" in="-1:pred" out="1:lobj">presente</W>
 <W lemma="in" msd="PRE" in="-1:lobj" out="1:nobj">in</W>

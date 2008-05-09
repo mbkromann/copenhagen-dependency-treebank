@@ -179,7 +179,7 @@
 <s>
 <W msd="NNP" in="2:namef" out="">JENS</W>
 <W msd="NNP" in="1:namel" out="">Sandfeld</W>
-<W msd="NNP" in="1:subj" out="-2:namef|-1:namel">Søndergaard</W>
+<W msd="NNP" in="1:subj" out="-2:namef|-1:namel">SÃ¸ndergaard</W>
 <W msd="NNS" in="" out="-1:subj|1:dobj|32:pnct">claims</W>
 <W msd="IN" in="-1:dobj" out="5:vobj">that</W>
 <W msd="DT" in="4:subj" out="3:nobj">the</W>

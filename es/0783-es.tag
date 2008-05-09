@@ -80,7 +80,7 @@
 <W msd="ART" lemma="el">el</W>
 <W msd="NC" lemma="material">material</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="relación">relaciones</W>
+<W msd="NC" lemma="relacin">relaciones</W>
 <W msd="ADJ" lemma="exterior">exteriores</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="NC" lemma="estilo">estilo</W>
@@ -113,7 +113,7 @@
 <W msd="ART" lemma="un">una</W>
 <W msd="NC" lemma="serie">serie</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="reducción">reducciones</W>
+<W msd="NC" lemma="reduccin">reducciones</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="VSfin" lemma="ser">es</W>

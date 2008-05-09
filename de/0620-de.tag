@@ -1,165 +1,165 @@
-<W msd="NN" lemma="&lt;unknown&gt;">-Ich</W>
-<W msd="VAFIN" lemma="haben">hatte</W>
-<W msd="ART" lemma="d">das</W>
-<W msd="NN" lemma="Gefühl">Gefühl</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="PIS" lemma="alle">alles</W>
-<W msd="ADV" lemma="so">so</W>
-<W msd="VAFIN" lemma="sein">war</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="wie">wie</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="VAINF" lemma="sein">sein</W>
-<W msd="VMFIN" lemma="sollen">sollte</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="fahren">fuhr</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="PTKVZ" lemma="fort">fort</W>
-<W msd="$(" lemma="-">-</W>
-<W msd="PAV" lemma="deshalb">deshalb</W>
-<W msd="VVFIN" lemma="wenden">wandte</W>
-<W msd="PPER" lemma="ich">ich</W>
-<W msd="PRF" lemma="ich">mich</W>
-<W msd="APPR" lemma="an">an</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="NN" lemma="Pförtner">Pförtner</W>
-<W msd="$," lemma=",">,</W>
-<W msd="PRELS" lemma="d">der</W>
-<W msd="ADV" lemma="auch">auch</W>
-<W msd="ADJD" lemma="tatsächlich">tatsächlich</W>
-<W msd="VVPP" lemma="sehen">gesehen</W>
-<W msd="VAFIN" lemma="haben">hatte</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="wie">wie</W>
-<W msd="ART" lemma="ein">ein</W>
-<W msd="NN" lemma="Mann">Mann</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="PDAT" lemma="dies">diese</W>
-<W msd="NN" lemma="Wohnung">Wohnung</W>
-<W msd="ADV" lemma="hier">hier</W>
-<W msd="VVPP" lemma="hereinlassen">hereingelassen</W>
-<W msd="VAFIN" lemma="werden">wurde</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="&lt;unknown&gt;">-Wo</W>
-<W msd="VMFIN" lemma="mögen">mag</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="ADV" lemma="wohl">wohl</W>
-<W msd="VVINF" lemma="hingehen">hingehen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="fragen">fragte</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="ADJD" lemma="nachdenklich">nachdenklich</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NE" lemma="Flemming">Flemming</W>
-<W msd="VVFIN" lemma="zucken">zuckte</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="NN" lemma="Achsel">Achseln</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">-Er</W>
-<W msd="VAFIN" lemma="werden">wird</W>
-<W msd="ADV" lemma="bald">bald</W>
-<W msd="VVPP" lemma="festnehmen">festgenommen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="sagen">sagte</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="ADJD" lemma="überzeugt">überzeugt</W>
-<W msd="$(" lemma="-">-</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="PDS" lemma="d">das</W>
-<W msd="VAFIN" lemma="werden">wird</W>
-<W msd="ADJD" lemma="sicher">sicher</W>
-<W msd="ADV" lemma="auch">auch</W>
-<W msd="ART" lemma="d">das</W>
-<W msd="NN" lemma="Beste">Beste</W>
-<W msd="APPR" lemma="für">für</W>
-<W msd="PPER" lemma="er">ihn</W>
-<W msd="VAINF" lemma="sein">sein</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KON" lemma="aber">Aber</W>
-<W msd="VVIMP" lemma="lassen">lass</W>
-<W msd="PPER" lemma="er">ihn</W>
-<W msd="PRF" lemma="wir">uns</W>
-<W msd="ADV" lemma="jetzt">jetzt</W>
-<W msd="VVFIN" lemma="vergessen">vergessen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="ich">Ich</W>
-<W msd="VMFIN" lemma="wollen">will</W>
-<W msd="PPER" lemma="du">dich</W>
-<W msd="ADV" lemma="etwas">etwas</W>
-<W msd="VVINF" lemma="fragen">fragen</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="-Ja">-Ja</W>
-<W msd="$." lemma="?">?</W>
-<W msd="NN" lemma="&lt;unknown&gt;">-Ich</W>
-<W msd="VVFIN" lemma="wissen">weiß</W>
-<W msd="ADV" lemma="wohl">wohl</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PPER" lemma="wir">wir</W>
-<W msd="PRF" lemma="wir">uns</W>
-<W msd="ADV" lemma="noch">noch</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="ADV" lemma="lange">lange</W>
-<W msd="VVFIN" lemma="kennen">kennen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KON" lemma="aber">aber</W>
-<W msd="PAV" lemma="darum">darum</W>
-<W msd="VVFIN" lemma="gehen">geht</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="ADV" lemma="auch">auch</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="ADV" lemma="immer">immer</W>
-<W msd="$." lemma=".">.</W>
-<W msd="VMFIN" lemma="wollen">Willst</W>
-<W msd="VVFIN" lemma="&lt;unknown&gt;">du...willst</W>
-<W msd="PPER" lemma="du">du</W>
-<W msd="PPOSAT" lemma="mein">meine</W>
-<W msd="NN" lemma="Frau">Frau</W>
-<W msd="VAINF" lemma="werden">werden</W>
-<W msd="$," lemma=",">,</W>
-<W msd="NE" lemma="Trine">Trine</W>
-<W msd="$." lemma="?">?</W>
-<W msd="NN" lemma="-Ja">-Ja</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="antworten">antwortete</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="APPR" lemma="ohne">ohne</W>
-<W msd="NN" lemma="Zögern">Zögern</W>
-<W msd="$." lemma=".">.</W>
-<W msd="KON" lemma="und">Und</W>
-<W msd="ADJD" lemma="leise">leise</W>
-<W msd="ADJD" lemma="lachend">lachend</W>
-<W msd="VVFIN" lemma="ziehen">zog</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="ADJD" lemma="ganz">ganz</W>
-<W msd="ADJD" lemma="fest">fest</W>
-<W msd="APPR" lemma="an">an</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">-Eine</W>
-<W msd="ADJD" lemma="richtig">richtig</W>
-<W msd="ADJA" lemma="romantisch">romantische</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Weihnachtshochzeit</W>
-<W msd="$." lemma="?">?</W>
-<W msd="$," lemma=",">,</W>
-<W msd="VVFIN" lemma="fragen">fragte</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="PTKVZ" lemma="weiter">weiter</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">-Mhm</W>
-<W msd="$," lemma=",">,</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="VVFIN" lemma="bergen">barg</W>
-<W msd="APPR" lemma="mit">mit</W>
-<W msd="ADJA" lemma="leicht">leichtem</W>
-<W msd="NN" lemma="Erröten">Erröten</W>
-<W msd="PPOSAT" lemma="ihr">ihr</W>
-<W msd="NN" lemma="Gesicht">Gesicht</W>
-<W msd="APPR" lemma="an">an</W>
-<W msd="PPOSAT" lemma="sein">seiner</W>
-<W msd="NN" lemma="Brust">Brust</W>
-<W msd="$." lemma=".">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="1:subj" out="">-Ich</W>
+<W lemma="haben" msd="VAFIN" in="15:qobj" out="-1:subj|1:dobj|20:conj">hatte</W>
+<W lemma="d" msd="ART" in="-1:dobj" out="1:nobj|3:appr|2:pnct">das</W>
+<W lemma="GefÃ¼hl" msd="NN" in="-1:nobj" out="">GefÃ¼hl</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-3:appr" out="4:vobj">dass</W>
+<W lemma="nicht" msd="PTKNEG" in="3:mod" out="">nicht</W>
+<W lemma="alle" msd="PIS" in="2:subj" out="">alles</W>
+<W lemma="so" msd="ADV" in="1:pred" out="3:nobj">so</W>
+<W lemma="sein" msd="VAFIN" in="-4:vobj" out="-2:subj|-3:mod|-1:pred|1:pnct">war</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="wie" msd="KOUS" in="-3:nobj|2:[pred]" out="3:rel">wie</W>
+<W lemma="es" msd="PPER" in="2:subj|1:[subj]" out="">es</W>
+<W lemma="sein" msd="VAINF" in="1:vobj" out="-1:[subj]|-2:[pred]">sein</W>
+<W lemma="sollen" msd="VMFIN" in="-3:rel" out="-2:subj|-1:vobj|1:pnct">sollte</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="fahren" msd="VVFIN" in="" out="1:subj|-15:qobj|2:part|3:pnct|27:pnct">fuhr</W>
+<W lemma="er" msd="PPER" in="-1:subj" out="">er</W>
+<W lemma="fort" msd="PTKVZ" in="-2:part" out="">fort</W>
+<W lemma="-" msd="$(" in="-3:pnct" out="">-</W>
+<W lemma="deshalb" msd="PAV" in="1:mod" out="">deshalb</W>
+<W lemma="wenden" msd="VVFIN" in="-20:conj" out="-1:mod|1:subj|2:dobj|3:lobj">wandte</W>
+<W lemma="ich" msd="PPER" in="-1:subj" out="">ich</W>
+<W lemma="ich" msd="PRF" in="-2:dobj" out="">mich</W>
+<W lemma="an" msd="APPR" in="-3:lobj" out="1:nobj">an</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="PfÃ¶rtner" msd="NN" in="-1:nobj" out="1:pnct|2:ref|6:rel">PfÃ¶rtner</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="d" msd="PRELS" in="-2:ref|4:subj|3:[subj]" out="">der</W>
+<W lemma="auch" msd="ADV" in="3:mod" out="">auch</W>
+<W lemma="tatsÃ¤chlich" msd="ADJD" in="2:mod" out="">tatsÃ¤chlich</W>
+<W lemma="sehen" msd="VVPP" in="1:vobj" out="-3:[subj]|3:dobj">gesehen</W>
+<W lemma="haben" msd="VAFIN" in="-6:rel" out="-4:subj|-2:mod|-1:vobj|-3:mod|1:pnct">hatte</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="wie" msd="KOUS" in="-3:dobj" out="8:rel">wie</W>
+<W lemma="ein" msd="ART" in="7:subj" out="1:nobj">ein</W>
+<W lemma="Mann" msd="NN" in="-1:nobj" out="">Mann</W>
+<W lemma="in" msd="APPR" in="4:mod" out="1:nobj|3:mod">in</W>
+<W lemma="dies" msd="PDAT" in="-1:nobj" out="1:nobj">diese</W>
+<W lemma="Wohnung" msd="NN" in="-1:nobj" out="">Wohnung</W>
+<W lemma="hier" msd="ADV" in="-3:mod" out="">hier</W>
+<W lemma="hereinlassen" msd="VVPP" in="1:vobj" out="-4:mod">hereingelassen</W>
+<W lemma="werden" msd="VAFIN" in="-8:rel" out="-1:vobj|-7:subj">wurde</W>
+<W lemma="." msd="$." in="-27:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="4:lobj" out="">-Wo</W>
+<W lemma="mÃ¶gen" msd="VMFIN" in="5:qobj" out="2:mod|1:subj|3:vobj|4:pnct">mag</W>
+<W lemma="er" msd="PPER" in="-1:subj|2:[subj]" out="">er</W>
+<W lemma="wohl" msd="ADV" in="-2:mod" out="">wohl</W>
+<W lemma="hingehen" msd="VVINF" in="-3:vobj" out="-2:[subj]|-4:lobj">hingehen</W>
+<W lemma="," msd="$," in="-4:pnct" out="">,</W>
+<W lemma="fragen" msd="VVFIN" in="" out="-5:qobj|1:subj|2:mod|3:pnct">fragte</W>
+<W lemma="sie" msd="PPER" in="-1:subj" out="">sie</W>
+<W lemma="nachdenklich" msd="ADJD" in="-2:mod" out="">nachdenklich</W>
+<W lemma="." msd="$." in="-3:pnct" out="">.</W>
+<W lemma="Flemming" msd="NE" in="1:subj" out="">Flemming</W>
+<W lemma="zucken" msd="VVFIN" in="" out="-1:subj|1:pobj|4:pnct">zuckte</W>
+<W lemma="mit" msd="APPR" in="-1:pobj" out="1:nobj">mit</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">den</W>
+<W lemma="Achsel" msd="NN" in="-1:nobj" out="">Achseln</W>
+<W lemma="." msd="$." in="-4:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="1:subj|1:[subj]|3:[subj]" out="">-Er</W>
+<W lemma="werden" msd="VAFIN" in="4:qobj" out="-1:subj|-1:[subj]|1:mod|2:vobj|3:pnct|8:coord">wird</W>
+<W lemma="bald" msd="ADV" in="-1:mod" out="">bald</W>
+<W lemma="festnehmen" msd="VVPP" in="-2:vobj" out="-3:[subj]">festgenommen</W>
+<W lemma="," msd="$," in="-3:pnct" out="">,</W>
+<W lemma="sagen" msd="VVFIN" in="" out="-4:qobj|1:subj|2:mod|14:pnct">sagte</W>
+<W lemma="er" msd="PPER" in="-1:subj" out="">er</W>
+<W lemma="Ã¼berzeugt" msd="ADJD" in="-2:mod" out="">Ã¼berzeugt</W>
+<W lemma="-" msd="$(" in="1:pnct" out="">-</W>
+<W lemma="und" msd="KON" in="-8:coord" out="-1:pnct|2:conj">und</W>
+<W lemma="d" msd="PDS" in="1:subj|8:[subj]" out="">das</W>
+<W lemma="werden" msd="VAFIN" in="-2:conj" out="-1:subj|1:mod|2:mod|7:vobj">wird</W>
+<W lemma="sicher" msd="ADJD" in="-1:mod" out="">sicher</W>
+<W lemma="auch" msd="ADV" in="-2:mod" out="">auch</W>
+<W lemma="d" msd="ART" in="4:pred" out="1:mod|2:mod">das</W>
+<W lemma="Beste" msd="NN" in="-1:mod" out="">Beste</W>
+<W lemma="fÃ¼r" msd="APPR" in="-2:mod" out="1:nobj">fÃ¼r</W>
+<W lemma="er" msd="PPER" in="-1:nobj" out="">ihn</W>
+<W lemma="sein" msd="VAINF" in="-7:vobj" out="-8:[subj]|-4:pred">sein</W>
+<W lemma="." msd="$." in="-14:pnct" out="">.</W>
+<W lemma="aber" msd="KON" in="" out="1:conj|6:pnct">Aber</W>
+<W lemma="lassen" msd="VVIMP" in="-1:conj" out="2:dobj|3:mod|4:vobj">lass</W>
+<W lemma="er" msd="PPER" in="3:dobj" out="">ihn</W>
+<W lemma="wir" msd="PRF" in="-2:dobj|2:[subj]" out="">uns</W>
+<W lemma="jetzt" msd="ADV" in="-3:mod" out="">jetzt</W>
+<W lemma="vergessen" msd="VVFIN" in="-4:vobj" out="-2:[subj]|-3:dobj">vergessen</W>
+<W lemma="." msd="$." in="-6:pnct" out="">.</W>
+<W lemma="ich" msd="PPER" in="1:subj|4:[subj]" out="">Ich</W>
+<W lemma="wollen" msd="VMFIN" in="" out="-1:subj|3:vobj|4:pnct">will</W>
+<W lemma="du" msd="PPER" in="2:dobj2" out="">dich</W>
+<W lemma="etwas" msd="ADV" in="1:dobj" out="">etwas</W>
+<W lemma="fragen" msd="VVINF" in="-3:vobj" out="-4:[subj]|-2:dobj2|-1:dobj">fragen</W>
+<W lemma="." msd="$." in="-4:pnct" out="">.</W>
+<W lemma="-Ja" msd="NN" in="" out="1:pnct">-Ja</W>
+<W lemma="?" msd="$." in="-1:pnct" out="">?</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="1:subj" out="">-Ich</W>
+<W lemma="wissen" msd="VVFIN" in="" out="-1:subj|1:mod|2:pnct|3:dobj|11:coord|18:pnct">weiÃŸ</W>
+<W lemma="wohl" msd="ADV" in="-1:mod" out="">wohl</W>
+<W lemma="," msd="$," in="-2:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-3:dobj" out="6:vobj">dass</W>
+<W lemma="wir" msd="PPER" in="5:subj" out="">wir</W>
+<W lemma="wir" msd="PRF" in="4:dobj" out="">uns</W>
+<W lemma="noch" msd="ADV" in="1:mod" out="">noch</W>
+<W lemma="nicht" msd="PTKNEG" in="1:mod" out="-1:mod">nicht</W>
+<W lemma="lange" msd="ADV" in="1:mod" out="-1:mod">lange</W>
+<W lemma="kennen" msd="VVFIN" in="-6:vobj" out="-4:dobj|-1:mod|1:pnct|-5:subj">kennen</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="aber" msd="KON" in="-11:coord" out="2:conj">aber</W>
+<W lemma="darum" msd="PAV" in="1:dobj" out="">darum</W>
+<W lemma="gehen" msd="VVFIN" in="-2:conj" out="1:subj|4:mod|2:mod|-1:dobj">geht</W>
+<W lemma="es" msd="PPER" in="-1:subj" out="">es</W>
+<W lemma="auch" msd="ADV" in="-2:mod" out="">auch</W>
+<W lemma="nicht" msd="PTKNEG" in="1:mod" out="">nicht</W>
+<W lemma="immer" msd="ADV" in="-4:mod" out="-1:mod">immer</W>
+<W lemma="." msd="$." in="-18:pnct" out="">.</W>
+<W lemma="wollen" msd="VMFIN" in="1:rep" out="">Willst</W>
+<W lemma="&lt;unknown&gt;" msd="VVFIN" in="" out="1:subj|5:pnct|6:voc|7:pnct|-1:rep|4:vobj">du...willst</W>
+<W lemma="du" msd="PPER" in="-1:subj|3:[subj]" out="">du</W>
+<W lemma="mein" msd="PPOSAT" in="2:pred" out="1:possd">meine</W>
+<W lemma="Frau" msd="NN" in="-1:possd" out="">Frau</W>
+<W lemma="werden" msd="VAINF" in="-4:vobj" out="-3:[subj]|-2:pred">werden</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="Trine" msd="NE" in="-6:voc" out="">Trine</W>
+<W lemma="?" msd="$." in="-7:pnct" out="">?</W>
+<W lemma="-Ja" msd="NN" in="2:qobj" out="1:pnct">-Ja</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="antworten" msd="VVFIN" in="" out="-2:qobj|1:subj|2:mod|4:pnct">antwortete</W>
+<W lemma="sie" msd="PPER" in="-1:subj" out="">sie</W>
+<W lemma="ohne" msd="APPR" in="-2:mod" out="1:nobj">ohne</W>
+<W lemma="ZÃ¶gern" msd="NN" in="-1:nobj" out="">ZÃ¶gern</W>
+<W lemma="." msd="$." in="-4:pnct" out="">.</W>
+<W lemma="und" msd="KON" in="" out="3:conj|10:pnct">Und</W>
+<W lemma="leise" msd="ADJD" in="1:mod" out="">leise</W>
+<W lemma="lachend" msd="ADJD" in="1:mod" out="-1:mod">lachend</W>
+<W lemma="ziehen" msd="VVFIN" in="-3:conj" out="1:subj|2:dobj|5:lobj|-1:mod|4:mod">zog</W>
+<W lemma="er" msd="PPER" in="-1:subj" out="">er</W>
+<W lemma="sie" msd="PPER" in="-2:dobj" out="">sie</W>
+<W lemma="ganz" msd="ADJD" in="1:mod" out="">ganz</W>
+<W lemma="fest" msd="ADJD" in="-4:mod" out="-1:mod">fest</W>
+<W lemma="an" msd="APPR" in="-5:lobj" out="1:nobj">an</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="-1:nobj" out="">sich</W>
+<W lemma="." msd="$." in="-10:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="6:qobj" out="1:mod|2:mod|3:nobj|4:pnct|5:pnct">-Eine</W>
+<W lemma="richtig" msd="ADJD" in="-1:mod" out="">richtig</W>
+<W lemma="romantisch" msd="ADJA" in="-2:mod" out="">romantische</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-3:nobj" out="">Weihnachtshochzeit</W>
+<W lemma="?" msd="$." in="-4:pnct" out="">?</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="fragen" msd="VVFIN" in="" out="-6:qobj|2:mod|1:subj|3:pnct">fragte</W>
+<W lemma="er" msd="PPER" in="-1:subj" out="">er</W>
+<W lemma="weiter" msd="PTKVZ" in="-2:mod" out="">weiter</W>
+<W lemma="." msd="$." in="-3:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="3:qobj" out="1:pnct">-Mhm</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="sie" msd="PPER" in="1:subj" out="">sie</W>
+<W lemma="bergen" msd="VVFIN" in="" out="-3:qobj|-1:subj|1:mod|4:dobj|9:pnct|6:mod">barg</W>
+<W lemma="mit" msd="APPR" in="-1:mod" out="1:mod|2:nobj">mit</W>
+<W lemma="leicht" msd="ADJA" in="-1:mod" out="">leichtem</W>
+<W lemma="ErrÃ¶ten" msd="NN" in="-2:nobj" out="">ErrÃ¶ten</W>
+<W lemma="ihr" msd="PPOSAT" in="-4:dobj" out="1:possd">ihr</W>
+<W lemma="Gesicht" msd="NN" in="-1:possd" out="">Gesicht</W>
+<W lemma="an" msd="APPR" in="-6:mod" out="1:nobj">an</W>
+<W lemma="sein" msd="PPOSAT" in="-1:nobj" out="1:possd">seiner</W>
+<W lemma="Brust" msd="NN" in="-1:possd" out="">Brust</W>
+<W lemma="." msd="$." in="-9:pnct" out="">.</W>

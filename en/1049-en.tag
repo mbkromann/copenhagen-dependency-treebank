@@ -32,7 +32,7 @@
 <W msd="NNP" in="-2:possd" out="">Eye</W>
 <W msd="&quot;" in="-3:pnct" out="">"</W>
 <W msd="IN" in="-8:mod" out="1:nobj">on</W>
-<W msd="NN" in="-1:nobj" out="1:mod">Øresundsvej</W>
+<W msd="NN" in="-1:nobj" out="1:mod">Ã˜resundsvej</W>
 <W msd="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="NNP" in="-1:nobj" out="">Amager</W>
 <W msd="," in="-14:pnct" out="">,</W>
@@ -159,7 +159,7 @@
 <W msd="NNP" in="-2:nobj" out="">Jutlander</W>
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="NNP" in="1:namef" out="">Finn</W>
-<W msd="NNP" in="-5:appa" out="-1:namef">Nørbygaard</W>
+<W msd="NNP" in="-5:appa" out="-1:namef">NÃ¸rbygaard</W>
 <W msd="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -209,7 +209,7 @@
 <W msd="NNP" in="1:mod" out="">Park</W>
 <W msd="NNP" in="-2:nobj" out="-1:mod">Hotel</W>
 <W msd="IN" in="-3:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Korsør</W>
+<W msd="NNP" in="-1:nobj" out="">KorsÃ¸r</W>
 <W msd="." in="-21:pnct" out="">.</W>
 </s>
 <s>

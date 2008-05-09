@@ -124,7 +124,7 @@
 </s>
 <s>
 <W msd="IN" in="5:mod" out="1:nobj|2:pnct">In</W>
-<W msd="NNP" in="-1:nobj" out="">Tåstrup</W>
+<W msd="NNP" in="-1:nobj" out="">TÃ¥strup</W>
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NN" in="-1:nobj" out="">train</W>

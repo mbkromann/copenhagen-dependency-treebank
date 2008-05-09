@@ -63,7 +63,7 @@
 <W msd="," in="-5:pnct" out="">,</W>
 <W msd="NNP" in="2:namef" out="">Gabriel</W>
 <W msd="NNP" in="1:namel" out="">Garcia</W>
-<W msd="NNP" in="-8:appr" out="-2:namef|-1:namel|1:coord">Márquez</W>
+<W msd="NNP" in="-8:appr" out="-2:namef|-1:namel|1:coord">MÃ¡rquez</W>
 <W msd="CC" in="-1:coord" out="3:conj">and</W>
 <W msd="NNP" in="2:namef" out="">Mario</W>
 <W msd="NNP" in="1:namel" out="">Vargas</W>
@@ -77,7 +77,7 @@
 <W msd="NNP" in="1:namef" out="">Italo</W>
 <W msd="NNP" in="-5:appr" out="-1:namef|1:coord">Calvino</W>
 <W msd="CC" in="-1:coord" out="2:conj">and</W>
-<W msd="NNP" in="1:namef" out="">Günter</W>
+<W msd="NNP" in="1:namef" out="">GÃ¼nter</W>
 <W msd="NNP" in="-2:conj" out="-1:namef">Grass</W>
 <W msd="." in="-50:pnct" out="">.</W>
 </s>

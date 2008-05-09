@@ -43,7 +43,7 @@
 <W msd="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NNP" in="-1:nobj" out="">Municipality</W>
 <W msd="IN" in="-2:mod" out="1:nobj">of</W>
-<W msd="NNP" in="-1:nobj" out="">Søllerød</W>
+<W msd="NNP" in="-1:nobj" out="">SÃ¸llerÃ¸d</W>
 <W msd="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -79,7 +79,7 @@
 <W msd="NNS" in="-1:nobj" out="">children</W>
 <W msd="IN" in="-3:pobj" out="1:nobj">from</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="2:nobj">Bagsværd</W>
+<W msd="NNP" in="-1:nobj" out="2:nobj">BagsvÃ¦rd</W>
 <W msd="NNP" in="1:mod" out="">Assessment</W>
 <W msd="NNP" in="-2:nobj" out="-1:mod">Center</W>
 <W msd="," in="-8:pnct" out="">,</W>

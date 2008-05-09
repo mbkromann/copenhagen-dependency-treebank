@@ -3,7 +3,7 @@
 <W msd="CD" in="-1:nobj" out="">64</W>
 </s>
 <s>
-<W msd="NNP" in="" out="1:pnct|2:list">Linderöd</W>
+<W msd="NNP" in="" out="1:pnct|2:list">LinderÃ¶d</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="-2:list" out="">Sweden</W>
 </s>

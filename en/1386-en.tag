@@ -24,7 +24,7 @@
 <W msd="VBZ" in="-6:rel" out="-1:subj|1:lobj">lives</W>
 <W msd="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Tronneallé</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">TronneallÃ©</W>
 <W msd="NN" in="-1:nobj" out="">neighbourhood</W>
 <W msd="." in="-12:pnct" out="">.</W>
 </s>

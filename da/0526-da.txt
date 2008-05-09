@@ -5,7 +5,7 @@
 MEDARB = jid KILDE = met
 
 
-UDSENDES KL = 1800 OPLÆSER =
+UDSENDES KL = 1800 OPLÃ†SER =
 
 
 Vejret til torsdag eftermiddag
@@ -13,15 +13,15 @@ Vejret til torsdag eftermiddag
 
 I nat kan der komme lidt regn de fleste steder, og de laveste 
 temperaturer bliver mellem 10 og 15 grader. I morgen kommer der nogen 
-sol  -  og det bliver tørvejr overalt. De sydlige egne kan først på 
-dagen få lidt skyet vejr og regn.  -  Vinden let til frisk, lokalt 
-hård fra vest og nordvest
+sol  -  og det bliver tÃ¸rvejr overalt. De sydlige egne kan fÃ¸rst pÃ¥ 
+dagen fÃ¥ lidt skyet vejr og regn.  -  Vinden let til frisk, lokalt 
+hÃ¥rd fra vest og nordvest
 
 
-Kulingvarsel for Sydøstlige Østersø, Østersøen omkring Bornholm, Kattegat
+Kulingvarsel for SydÃ¸stlige Ã˜stersÃ¸, Ã˜stersÃ¸en omkring Bornholm, Kattegat
 , Skagerrak, Sydlige Utsira, Fisker, Tampen og Viking For de indre 
-danske farvande ventes kulingen først i nat,m en i aften er der 
-varsel om hård vind for Kattegat og Limfjorden. Vest og nordvest, 
+danske farvande ventes kulingen fÃ¸rst i nat,m en i aften er der 
+varsel om hÃ¥rd vind for Kattegat og Limfjorden. Vest og nordvest, 
 8-13 m/sek
 
 
@@ -40,14 +40,14 @@ DATO = 04099l
 UDSENDES KL = 1830
 
 
-OPLÆSER =
+OPLÃ†SER =
 
 
 RUBRIK
 
 
-( Den sovjetiske folkekongres har i princippet vedtaget at opløse 
-Sovjetunionen  -  men samtidig har præsident Mikhail Gorbatjov lidt et 
+( Den sovjetiske folkekongres har i princippet vedtaget at oplÃ¸se 
+Sovjetunionen  -  men samtidig har prÃ¦sident Mikhail Gorbatjov lidt et 
 nyt politisk nederlag, fordi hans forfatningsudkast ikke kunne samle 
 stemmer nok )
 

@@ -1,0 +1,178 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0104-da.tag" sign="_input"/>
+<alignFile key="b" href="../ru/0104-ru.tag" sign="_input"/>
+<align out="a45" type="" in="b3" creator="0" insign="совместных" outsign="flles"/>
+<align out="a46 a47" type="" in="b4 b5 b6" creator="0" insign="заседаниях парламентских фракций" outsign="gruppemder mellem"/>
+<align out="a51" type="" in="a51" creator="0" insign="er" outsign="er"/>
+<align out="a54" type="" in="b13" creator="0" insign="ново" outsign="nyt"/>
+<align out="a53" type="" in="b11 b12" creator="0" insign="так уж" outsign="helt"/>
+<align out="a55" type="" in="b14" creator="0" insign="." outsign="."/>
+<align out="a60" type="" in="b15 b16" creator="0" insign="Ф актически" outsign="Faktisk"/>
+<align out="b17" type="" in="b17" creator="0" insign="," outsign=","/>
+<align out="a44" type="" in="b2" creator="-1" insign="о" outsign="om"/>
+<align out="a48" type="" in="b7" creator="-1" insign="V" outsign="V"/>
+<align out="a49" type="" in="b8" creator="-1" insign="и" outsign="og"/>
+<align out="a50" type="" in="b9" creator="-1" insign="K" outsign="K"/>
+<align out="a52" type="" in="b10" creator="-1" insign="не" outsign="ikke"/>
+<align out="a43" type="" in="b1" creator="-1" insign="Предложение" outsign="Forslaget"/>
+<align out="a72" type="" in="b29" creator="0" insign="плана-KV" outsign="KV-planen"/>
+<align out="b21" type="" in="b21" creator="0" insign="году" outsign="году"/>
+<align out="a62" type="" in="a62" creator="0" insign="der" outsign="der"/>
+<align out="a61 a63" type="" in="b22" creator="0" insign="состоялось" outsign="blev holdt"/>
+<align out="a64" type="" in="a64" creator="0" insign="et" outsign="et"/>
+<align out="a65" type="" in="b23" creator="0" insign="историческое" outsign="historisk"/>
+<align out="a66" type="" in="b25" creator="0" insign="совместное" outsign="flles"/>
+<align out="a67" type="" in="b24 b26" creator="0" insign="их заседание" outsign="gruppemde"/>
+<align out="a68 a69" type="" in="b27" creator="0" insign="перед" outsign="forud for"/>
+<align out="a70" type="" in="b28" creator="0" insign="обнародованием" outsign="lanceringen"/>
+<align out="a71" type="" in="a71" creator="0" insign="af" outsign="af"/>
+<align out="b18" type="" in="b18" creator="0" insign="еще" outsign="еще"/>
+<align out="a78" type="" in="b33" creator="-1" insign="1965" outsign="1965"/>
+<align out="a74" type="" in="b20" creator="-1" insign="1964" outsign="1964"/>
+<align out="a77" type="" in="b32" creator="-1" insign="в" outsign="i"/>
+<align out="a73" type="" in="b19" creator="-1" insign="в" outsign="i"/>
+<align out="a75" type="" in="b30" creator="-1" insign="," outsign=","/>
+<align out="a76" type="" in="b31" creator="-1" insign="а" outsign="og"/>
+<align out="a87" type="" in="b35" creator="0" insign="Эрику" outsign="Erik"/>
+<align out="a88" type="" in="b36" creator="0" insign="Эриксену" outsign="Eriksen"/>
+<align out="a81" type="" in="b40" creator="0" insign="Венстре" outsign="Venstres"/>
+<align out="a82" type="" in="b38" creator="0" insign="тогдашнему" outsign="davrende"/>
+<align out="a83" type="" in="b39" creator="0" insign="председателю" outsign="leder"/>
+<align out="a86" type="" in="b34" creator="0" insign="премьер-министру" outsign="statsminister"/>
+<align out="a84" type="" in="b37" creator="0" insign="," outsign=","/>
+<align out="a85" type="" in="a85" creator="0" insign="tidl." outsign="tidl."/>
+<align out="a92" type="" in="b46" creator="0" insign="своей" outsign="sit"/>
+<align out="a93" type="" in="b47" creator="0" insign="партии" outsign="partis"/>
+<align out="a79 a80" type="f" in="b42 b43" creator="0" insign="пришлось поплатиться" outsign="kostede det"/>
+<align out="a90 a91 a94" type="f" in="b44 b45" creator="0" insign="лидерством в" outsign="rollen som frontfigur"/>
+<align out="a95" type="" in="b48" creator="-1" insign="," outsign=","/>
+<align out="a89" type="" in="b41" creator="-1" insign="," outsign=","/>
+<align out="a97" type="" in="b53" creator="0" insign="он" outsign="han"/>
+<align out="a98" type="" in="b54" creator="0" insign="непосредственно" outsign="direkte"/>
+<align out="b51" type="" in="b51" creator="0" insign="," outsign=","/>
+<align out="a99 a100 a101" type="" in="b55 b56" creator="0" insign="выступил за" outsign="gik ind for"/>
+<align out="a102" type="" in="a102" creator="0" insign="en" outsign="en"/>
+<align out="a106" type="" in="b58" creator="0" insign="двух" outsign="to"/>
+<align out="a105" type="" in="a105" creator="0" insign="de" outsign="de"/>
+<align out="a103" type="" in="b57" creator="0" insign="слияние" outsign="sammenslutning"/>
+<align out="a104" type="" in="a104" creator="0" insign="af" outsign="af"/>
+<align out="a96" type="" in="b52" creator="0" insign="как" outsign="at"/>
+<align out="b49 b50" type="" in="b49 b50" creator="0" insign="после того" outsign="после того"/>
+<align out="a116" type="" in="b63" creator="-1" insign="не" outsign="ikke"/>
+<align out="a108" type="" in="b60" creator="-1" insign="." outsign="."/>
+<align out="a107" type="" in="b59" creator="-1" insign="партий" outsign="partier"/>
+<align out="a113" type="" in="b61" creator="0" insign="Тогда" outsign="Dengang"/>
+<align out="a115" type="" in="b65" creator="0" insign="время" outsign="tiden"/>
+<align out="b62" type="" in="b62" creator="0" insign="еще" outsign="еще"/>
+<align out="a114 a117" type="" in="b64" creator="0" insign="настало" outsign="var moden"/>
+<align out="a118" type="" in="b66" creator="0" insign="для" outsign="til"/>
+<align out="a119" type="" in="a119" creator="0" insign="et" outsign="et"/>
+<align out="a123" type="" in="b70" creator="-1" insign=":" outsign=":"/>
+<align out="a120" type="" in="b67" creator="-1" insign="столь" outsign="s"/>
+<align out="a121" type="" in="b68" creator="-1" insign="решительного" outsign="afgrende"/>
+<align out="a122" type="" in="b69" creator="-1" insign="шага" outsign="skridt"/>
+<align out="a128" type="s" in="b71" creator="0" insign="«Оно" outsign="&quot;"/>
+<align out="a132 a133 a134" type="" in="b74" creator="0" insign="вообще-то" outsign="for s vidt"/>
+<align out="a137" type="" in="b73" creator="0" insign="сейчас" outsign="nu"/>
+<align out="a131" type="" in="b71" creator="0" insign="«Оно" outsign="den"/>
+<align out="a135 a136" type="" in="b72 b75" creator="0" insign="и не" outsign="heller ikke"/>
+<align out="a129 a130" type="lv" in="b76" creator="0" insign="настало" outsign="Det er"/>
+<align out="a141" type="" in="b82" creator="-1" insign="мы" outsign="Vi"/>
+<align out="a138" type="" in="b77" creator="-1" insign="." outsign="."/>
+<align out="a143" type="" in="b78 b79 b80" creator="0" insign="Во всяком случае" outsign="i_hvert_fald"/>
+<align out="a142" type="" in="b83" creator="0" insign="должны" outsign="skal"/>
+<align out="b81" type="" in="b81" creator="0" insign="," outsign=","/>
+<align out="a146" type="" in="a146" creator="0" insign="en" outsign="en"/>
+<align out="a147 a148 a149" type="" in="b87 b88" creator="0" insign="довольно длительный" outsign="lang , lang"/>
+<align out="a145" type="" in="b86" creator="0" insign="через" outsign="igennem"/>
+<align out="b84" type="" in="b84" creator="0" insign="пройти" outsign="пройти"/>
+<align out="a144" type="f" in="b85" creator="0" insign="еще" outsign="frst"/>
+<align out="a154" type="" in="b94" creator="-1" insign="двух" outsign="to"/>
+<align out="a151" type="" in="b90" creator="-1" insign="," outsign=","/>
+<align out="a150" type="" in="b89" creator="-1" insign="период" outsign="periode"/>
+<align out="a152" type="" in="b91 b92" creator="0" insign="в который" outsign="hvor"/>
+<align out="a155" type="" in="b95" creator="0" insign="партий" outsign="partiers"/>
+<align out="a153" type="" in="a153" creator="0" insign="de" outsign="de"/>
+<align out="a156" type="" in="b93" creator="0" insign="представители" outsign="folk"/>
+<align out="a157" type="" in="b96" creator="0" insign="смогут" outsign="kan"/>
+<align out="a159" type="" in="b99 b100" creator="0" insign="друг друга" outsign="hinandens"/>
+<align out="a158 a161 a162" type="" in="b98" creator="0" insign="узнать" outsign="lre at kende"/>
+<align out="a160" type="" in="a160" creator="0" insign="kemi" outsign="kemi"/>
+<align out="b97" type="" in="b97" creator="0" insign="получше" outsign="получше"/>
+<align out="a163" type="" in="b101" creator="0" insign="." outsign="."/>
+<align out="a166" type="" in="b102" creator="0" insign="Тут" outsign="Her"/>
+<align out="a168" type="" in="b103" creator="0" insign="регулярные" outsign="jvnlige"/>
+<align out="a169" type="" in="b104" creator="0" insign="совместные" outsign="flles"/>
+<align out="b108" type="" in="b108" creator="0" insign="," outsign=","/>
+<align out="a170" type="" in="b106 b107" creator="0" insign="парламентских фракций" outsign="gruppe-"/>
+<align out="a170" type="" in="b105" creator="0" insign="заседания" outsign="gruppe-"/>
+<align out="a172" type="" in="b111 b112 b113" creator="0" insign="членов исполнительных комитетов" outsign="hovedbestyrelsesmder"/>
+<align out="a172" type="" in="b105" creator="0" insign="заседания" outsign="hovedbestyrelsesmder"/>
+<align out="a171" type="" in="b109 b110" creator="0" insign="а также" outsign="og"/>
+<align out="a167 a173" type="" in="b115 b116" creator="0" insign="были бы" outsign="kunne vre"/>
+<align out="b114" type="" in="b114" creator="0" insign="и" outsign="и"/>
+<align out="a175" type="" in="b117" creator="0" insign="шагом" outsign="skridt"/>
+<align out="a174" type="" in="a174" creator="0" insign="et" outsign="et"/>
+<align out="a176" type="" in="b118" creator="0" insign="в" outsign="p"/>
+<align out="a177" type="f" in="b119 b120" creator="0" insign="этом направлении" outsign="vejen"/>
+<align out="a178" type="" in="b121" creator="-1" insign="." outsign="."/>
+<align out="a184" type="" in="b123" creator="0" insign="сможет" outsign="vil"/>
+<align out="a185" type="" in="b124" creator="0" insign="предотвратить" outsign="hindre"/>
+<align out="a186" type="" in="b125" creator="0" insign="многие" outsign="mange"/>
+<align out="a198" type="" in="b133" creator="-1" insign="должны" outsign="skal"/>
+<align out="a192" type="" in="b131" creator="-1" insign="." outsign="."/>
+<align out="a183" type="" in="b122" creator="-1" insign="Это" outsign="Det"/>
+<align out="a188" type="" in="b127" creator="-1" insign="между" outsign="mellem"/>
+<align out="a189" type="" in="b128" creator="-1" insign="нашими" outsign="vore"/>
+<align out="a190" type="" in="b129" creator="-1" insign="двумя" outsign="to"/>
+<align out="a191" type="" in="b130" creator="-1" insign="партиями" outsign="partier"/>
+<align out="a197" type="" in="b132" creator="-1" insign="Мы" outsign="Vi"/>
+<align out="a187" type="" in="b126" creator="0" insign="недразумения" outsign="misforstelser"/>
+<align out="a199" type="" in="b134" creator="0" insign="думать" outsign="tnke"/>
+<align out="a200" type="" in="b135" creator="0" insign="о" outsign="p"/>
+<align out="a201" type="" in="b136" creator="0" insign="сотрудничестве" outsign="samarbejdet"/>
+<align out="a202" type="" in="a202" creator="0" insign="blandt" outsign="blandt"/>
+<align out="a204" type="" in="b137" creator="0" insign="грядущего" outsign="kommende"/>
+<align out="a205" type="" in="b138" creator="0" insign="поколения" outsign="generation"/>
+<align out="a207" type="" in="b139" creator="0" insign="буржуазных" outsign="borgerlige"/>
+<align out="a208" type="" in="b140" creator="0" insign="политиков" outsign="politikere"/>
+<align out="a206" type="" in="a206" creator="0" insign="af" outsign="af"/>
+<align out="a203" type="" in="a203" creator="0" insign="den" outsign="den"/>
+<align out="a219" type="" in="a219" creator="0" insign="," outsign=","/>
+<align out="b144" type="" in="b144" creator="0" insign="," outsign=","/>
+<align out="a209" type="" in="b141" creator="0" insign="." outsign="."/>
+<align out="a212 a213" type="" in="b146" creator="0" insign="все" outsign="Det hele"/>
+<align out="a214 a215" type="" in="b142 b143 b145" creator="0" insign="Не надо чтобы" outsign="skulle ndigt"/>
+<align out="b149" type="" in="b149" creator="0" insign="," outsign=","/>
+<align out="a216 a217 a218" type="mv" in="b147 b148" creator="0" insign="пошло насмарку" outsign="g p gulvet"/>
+<align out="a220" type="" in="b150 b151 b153" creator="0" insign="из-за того что" outsign="fordi"/>
+<align out="a225" type="" in="b154" creator="0" insign="сотрудничество" outsign="samarbejdet"/>
+<align out="a222" type="" in="b159 b160" creator="0" insign="отдельных личностях»" outsign="enkeltpersoner"/>
+<align out="b152" type="" in="b152" creator="0" insign="," outsign=","/>
+<align out="a221" type="" in="a221" creator="0" insign="nogle" outsign="nogle"/>
+<align out="b156 b157" type="" in="b156 b157" creator="0" insign="исключительно только" outsign="исключительно только"/>
+<align out="a223 a224 a226" type="" in="b155 b158" creator="0" insign="держалось на" outsign="har holdt i_gang"/>
+<align out="a227" type="" in="b161" creator="0" insign="," outsign=","/>
+<align out="a228" type="" in="b162" creator="0" insign="-" outsign="&quot;"/>
+<align out="a229" type="" in="b163" creator="0" insign="говорит" outsign="siger"/>
+<align out="a230" type="" in="b164 b165" creator="0" insign="министр рыболовства" outsign="fiskeriministeren"/>
+<align out="a237" type="" in="a237" creator="0" insign="en" outsign="en"/>
+<align out="a231" type="" in="b166" creator="0" insign="." outsign="."/>
+<align out="a238" type="" in="b168" creator="0" insign="уикэнда" outsign="weekend"/>
+<align out="b169" type="" in="b169" creator="0" insign="," outsign=","/>
+<align out="a239" type="" in="b171" creator="0" insign="с" outsign="hos"/>
+<align out="a240" type="" in="b172" creator="0" insign="семьей" outsign="familien"/>
+<align out="b170" type="" in="b170" creator="0" insign="проведенного" outsign="проведенного"/>
+<align out="b175" type="" in="b175" creator="0" insign="," outsign=","/>
+<align out="a243 a246" type="" in="b177" creator="0" insign="побывал" outsign="har vret"/>
+<align out="a245" type="" in="b178 b179" creator="0" insign="в понедельник" outsign="mandag"/>
+<align out="a242" type="" in="b174" creator="0" insign="Фанё" outsign="Fan"/>
+<align out="a244" type="" in="b176" creator="-1" insign="он" outsign="han"/>
+<align out="a241" type="" in="b173" creator="-1" insign="на" outsign="p"/>
+<align out="a247" type="" in="b180" creator="-1" insign="в" outsign="i"/>
+<align out="a236" type="" in="b167" creator="-1" insign="После" outsign="Efter"/>
+<align out="a248" type="" in="b181" creator="0" insign="Брюсселе" outsign="Bruxelles"/>
+<align out="a250" type="" in="b183 b184 b185 b186" creator="0" insign="встрече министров рыболовства ЕС" outsign="EF-fiskeriministermde"/>
+<align out="a251" type="" in="b187" creator="-1" insign="." outsign="."/>
+<align out="a249" type="" in="b182" creator="-1" insign="на" outsign="til"/>
+</DTAGalign>

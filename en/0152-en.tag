@@ -141,11 +141,11 @@
 </s>
 <s>
 <W msd="NNP" in="1:namef" out="">Iver</W>
-<W msd="NNP" in="" out="-1:namef">Høj</W>
+<W msd="NNP" in="" out="-1:namef">HÃ¸j</W>
 <W msd="NNP" in="" out="1:pnct|3:list">Photo</W>
 <W msd=":" in="-1:pnct" out="">:</W>
 <W msd="NNP" in="1:namef" out="">Jan</W>
-<W msd="NNP" in="-3:list" out="-1:namef">Jørgensen</W>
+<W msd="NNP" in="-3:list" out="-1:namef">JÃ¸rgensen</W>
 </s>
 <s>
 <W msd="IN" in="6:mod" out="1:nobj|3:pnct">In</W>

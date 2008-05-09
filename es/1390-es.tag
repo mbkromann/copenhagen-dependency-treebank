@@ -122,7 +122,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="VLfin" lemma="tener">tienen</W>
 <W msd="ADJ" lemma="grande">grandes</W>
-<W msd="NC" lemma="ambición">ambiciones</W>
+<W msd="NC" lemma="ambicin">ambiciones</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="lamentable">Lamentablemente</W>
 <W msd="NEG" lemma="no">no</W>

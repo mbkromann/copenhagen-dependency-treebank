@@ -4,7 +4,7 @@
 <W msd="CQUE" lemma="que">que</W>
 <W msd="QU" lemma="mucho">muchas</W>
 <W msd="NC" lemma="persona">personas</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="ver">vean</W>
 <W msd="VLinf" lemma="hablar">hablar</W>
 <W msd="PREP" lemma="en">en</W>
@@ -23,7 +23,7 @@
 <W msd="ADV" lemma="mucho">mucho</W>
 <W msd="PREP" lemma="desde">desde</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPO" lemma="Èl">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="VLfin" lemma="ver">vieron</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="&lt;unknown&gt;">√∫ltima</W>
@@ -102,7 +102,7 @@
 <W msd="NC" lemma="republicano">republicanos</W>
 <W msd="VLfin" lemma="ganar">ganan</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="elecciÛn">elecciones</W>
+<W msd="NC" lemma="eleccin">elecciones</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Quayle</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">estar√°</W>
@@ -135,7 +135,7 @@
 <W msd="NC" lemma="cargo">cargo</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">estar√°</W>
 <W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="VLinf" lemma="viajar">viajar</W>
 <W msd="PREP" lemma="por">por</W>
 <W msd="QU" lemma="todo">todo</W>

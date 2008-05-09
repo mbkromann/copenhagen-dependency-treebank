@@ -243,7 +243,7 @@
 <W msd="NC" lemma="juez">juez</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="PPO" lemma="suyo">sus</W>
-<W msd="NC" lemma="observación">observaciones</W>
+<W msd="NC" lemma="observacin">observaciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="sentencia">sentencia</W>

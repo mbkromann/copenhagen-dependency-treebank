@@ -60,7 +60,7 @@
 <W msd="CQUE" lemma="que">que</W>
 <W msd="VLfin" lemma="funcionar">funcionan</W>
 <W msd="DM" lemma="este">estas</W>
-<W msd="NC" lemma="construccion|construcci�n">construcciones</W>
+<W msd="NC" lemma="construccion|construccin">construcciones</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">–</W>
 <W msd="NEG" lemma="no">no</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">sólo</W>

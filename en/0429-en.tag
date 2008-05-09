@@ -170,7 +170,7 @@
 </s>
 <s>
 <W msd="NNP" in="20:subj" out="2:appr|3:pnct|4:ref|5:rel">Hungarian</W>
-<W msd="NNP" in="1:namef" out="">György</W>
+<W msd="NNP" in="1:namef" out="">GyÃ¶rgy</W>
 <W msd="NNP" in="-2:appr" out="-1:namef">Dalos</W>
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="WP" in="-4:ref|1:subj|2:[subj]|11:[subj]" out="">who</W>

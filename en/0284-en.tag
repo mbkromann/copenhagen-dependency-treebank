@@ -2,7 +2,7 @@
 <W msd="CD" in="" out="1:list">1,435,585,</W>
 <W msd="NNP" in="-1:list" out="1:mod">Niels</W>
 <W msd="IN" in="-1:mod" out="1:nobj">from</W>
-<W msd="NNP" in="-1:nobj" out="">Videbæk</W>
+<W msd="NNP" in="-1:nobj" out="">VidebÃ¦k</W>
 </s>
 <s>
 <W msd="EX" in="1:expl" out="">There</W>

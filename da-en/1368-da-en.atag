@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1368-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1368-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1368-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a44" type="" in="b2" creator="-1" insign="I" outsign="Jeg"/>
@@ -8,7 +8,7 @@
 <align out="a52" type="" in="b12" creator="-1" insign="is" outsign="er"/>
 <align out="a53" type="" in="b13" creator="-1" insign="a" outsign="en"/>
 <align out="a54" type="" in="b14" creator="-1" insign="good" outsign="god"/>
-<align out="a55" type="" in="b15" creator="-1" insign="idea" outsign="idé"/>
+<align out="a55" type="" in="b15" creator="-1" insign="idea" outsign="idÃ©"/>
 <align out="a56" type="" in="b16" creator="-1" insign="." outsign="."/>
 <align out="a59" type="" in="b21" creator="-1" insign="I" outsign="Jeg"/>
 <align out="a64" type="" in="b24" creator="-1" insign="it" outsign="det"/>
@@ -16,14 +16,14 @@
 <align out="a70" type="" in="b28" creator="-1" insign="," outsign=","/>
 <align out="a71" type="" in="b29" creator="-1" insign="because" outsign="fordi"/>
 <align out="a72" type="" in="b40" creator="-1" insign="we" outsign="vi"/>
-<align out="a73" type="" in="b30" creator="-1" insign="in" outsign="på"/>
-<align out="a76" type="" in="b34" creator="-1" insign="areas" outsign="områder"/>
+<align out="a73" type="" in="b30" creator="-1" insign="in" outsign="pÃ¥"/>
+<align out="a76" type="" in="b34" creator="-1" insign="areas" outsign="omrÃ¥der"/>
 <align out="a77" type="" in="b35" creator="-1" insign="," outsign=","/>
 <align out="a80" type="" in="a80" creator="-1" insign="for" outsign="for"/>
 <align out="a81" type="" in="b37" creator="-1" insign="the" outsign="det"/>
-<align out="a82" type="" in="b38" creator="-1" insign="economic" outsign="økonomiske"/>
+<align out="a82" type="" in="b38" creator="-1" insign="economic" outsign="Ã¸konomiske"/>
 <align out="a83" type="" in="b39" creator="-1" insign="," outsign=","/>
-<align out="a86" type="" in="b43" creator="-1" insign="particularly" outsign="særlig"/>
+<align out="a86" type="" in="b43" creator="-1" insign="particularly" outsign="sÃ¦rlig"/>
 <align out="a88" type="" in="b45" creator="-1" insign="," outsign=","/>
 <align out="a89" type="" in="b46" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a90" type="" in="b47" creator="-1" insign="says" outsign="siger"/>
@@ -32,7 +32,7 @@
 <align out="a93" type="" in="b50" creator="-1" insign="." outsign="."/>
 <align out="a98" type="" in="b53" creator="-1" insign="But" outsign="Men"/>
 <align out="a99" type="" in="b62" creator="-1" insign="is" outsign="er"/>
-<align out="a100" type="" in="b55" creator="-1" insign="support" outsign="støtten"/>
+<align out="a100" type="" in="b55" creator="-1" insign="support" outsign="stÃ¸tten"/>
 <align out="a101" type="" in="b56" creator="-1" insign="for" outsign="til"/>
 <align out="a102" type="" in="b57" creator="-1" insign="Lars" outsign="Lars"/>
 <align out="a103" type="" in="b58" creator="-1" insign="P." outsign="P."/>
@@ -51,7 +51,7 @@
 <align out="a125" type="" in="b84" creator="-1" insign="not" outsign="ikke"/>
 <align out="a127" type="" in="b86" creator="-1" insign="there" outsign="der"/>
 <align out="a128" type="" in="b87" creator="-1" insign="will" outsign="vil"/>
-<align out="a129" type="" in="b88" creator="-1" insign="be" outsign="være"/>
+<align out="a129" type="" in="b88" creator="-1" insign="be" outsign="vÃ¦re"/>
 <align out="a131" type="" in="b90" creator="-1" insign="great" outsign="store"/>
 <align out="a137" type="" in="b95" creator="-1" insign="will" outsign="vil"/>
 <align out="a138" type="" in="b96" creator="-1" insign="end" outsign="ende"/>
@@ -67,13 +67,13 @@
 <align out="a154" type="" in="b114" creator="-1" insign="can" outsign="kan"/>
 <align out="a155" type="" in="b115" creator="-1" insign="co-operate" outsign="samarbejde"/>
 <align out="a156" type="" in="b116" creator="-1" insign="and" outsign="og"/>
-<align out="a157" type="" in="b117" creator="-1" insign="areas" outsign="områder"/>
+<align out="a157" type="" in="b117" creator="-1" insign="areas" outsign="omrÃ¥der"/>
 <align out="a158" type="" in="a158" creator="-1" insign="," outsign=","/>
 <align out="a159" type="" in="b118" creator="-1" insign="where" outsign="hvor"/>
 <align out="a160" type="" in="b119" creator="-1" insign="we" outsign="vi"/>
 <align out="a161 a162" type="" in="b120" creator="-1" insign="cannot" outsign="ikke kan"/>
 <align out="a163" type="" in="b121" creator="-1" insign="." outsign="."/>
-<align out="a166" type="" in="b124" creator="-1" insign="So" outsign="Så"/>
+<align out="a166" type="" in="b124" creator="-1" insign="So" outsign="SÃ¥"/>
 <align out="a167" type="" in="b126" creator="-1" insign="a" outsign="en"/>
 <align out="a168" type="" in="b127" creator="-1" insign="collective" outsign="samlet"/>
 <align out="a170" type="" in="b129" creator="-1" insign="will" outsign="vil"/>
@@ -90,7 +90,7 @@
 <align out="a192" type="" in="b152" creator="-1" insign="while" outsign="mens"/>
 <align out="a193" type="" in="b153" creator="-1" insign="their" outsign="deres"/>
 <align out="a194" type="" in="b154" creator="-1" insign="brain" outsign="hjerne"/>
-<align out="a195" type="" in="b155" creator="-1" insign="supports" outsign="støtter"/>
+<align out="a195" type="" in="b155" creator="-1" insign="supports" outsign="stÃ¸tter"/>
 <align out="a197" type="" in="b159" creator="-1" insign="." outsign="."/>
 <align out="a200" type="" in="b162" creator="-1" insign="In" outsign="I"/>
 <align out="a202" type="" in="b167" creator="-1" insign="have" outsign="har"/>
@@ -114,7 +114,7 @@
 <align out="a230" type="" in="b198" creator="-1" insign="Nordic" outsign="nordiske"/>
 <align out="a231" type="" in="b199" creator="-1" insign="countries" outsign="lande"/>
 <align out="a232" type="" in="b200" creator="-1" insign="will" outsign="vil"/>
-<align out="a233" type="" in="b201" creator="-1" insign="at" outsign="på"/>
+<align out="a233" type="" in="b201" creator="-1" insign="at" outsign="pÃ¥"/>
 <align out="a234" type="" in="b202" creator="-1" insign="an" outsign="en"/>
 <align out="a235" type="" in="b203 b204" creator="-1" insign="extraordinarily convened" outsign="ekstraindkaldt"/>
 <align out="a236" type="" in="b205" creator="-1" insign="session" outsign="session"/>
@@ -122,7 +122,7 @@
 <align out="a238" type="" in="b208" creator="-1" insign="Nordic" outsign="Nordisk"/>
 <align out="a240" type="" in="b210" creator="-1" insign="in" outsign="til"/>
 <align out="a241" type="" in="b211" creator="-1" insign="November" outsign="november"/>
-<align out="a242" type="" in="b212" creator="-1" insign="establish" outsign="fastlægge"/>
+<align out="a242" type="" in="b212" creator="-1" insign="establish" outsign="fastlÃ¦gge"/>
 <align out="a243" type="" in="b213" creator="-1" insign="a" outsign="en"/>
 <align out="a244" type="" in="b214" creator="-1" insign="line" outsign="linje"/>
 <align out="a245" type="" in="b215" creator="-1" insign="for" outsign="for"/>
@@ -140,9 +140,9 @@
 <align out="a58" type="" in="b18" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a63" type="" in="a63" creator="0" insign="," outsign=","/>
 <align out="b23" type="" in="b23" creator="0" insign="that" outsign="that"/>
-<align out="a67 a68 a69" type="" in="b26 b27" creator="0" insign="be done" outsign="lade sig gøre"/>
+<align out="a67 a68 a69" type="" in="b26 b27" creator="0" insign="be done" outsign="lade sig gÃ¸re"/>
 <align out="a74 a75" type="" in="b31 b32 b33" creator="0" insign="quite a few" outsign="ganske mange"/>
-<align out="a78" type="" in="b36" creator="0" insign="especially" outsign="især"/>
+<align out="a78" type="" in="b36" creator="0" insign="especially" outsign="isÃ¦r"/>
 <align out="a79" type="" in="a79" creator="0" insign="inden" outsign="inden"/>
 <align out="a84" type="" in="b42" creator="0" insign="not" outsign="ikke"/>
 <align out="a85 a87" type="" in="b41 b44" creator="0" insign="do agree" outsign="er enige"/>
@@ -166,8 +166,8 @@
 <align out="a141" type="" in="b99 b100 b101 b102" creator="0" insign="formation of a block" outsign="blokdannelse"/>
 <align out="a49" type="" in="b6" creator="0" insign="the" outsign="en"/>
 <align out="a51" type="" in="b7 b8 b9 b11" creator="0" insign="formation of a block" outsign="blokdannelse"/>
-<align out="a147" type="" in="b108" creator="0" insign="be" outsign="være"/>
-<align out="a148" type="" in="b109" creator="0" insign="areas" outsign="områder"/>
+<align out="a147" type="" in="b108" creator="0" insign="be" outsign="vÃ¦re"/>
+<align out="a148" type="" in="b109" creator="0" insign="areas" outsign="omrÃ¥der"/>
 <align out="a144" type="" in="b105" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a143" type="" in="b104" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a169" type="" in="b128" creator="0" insign="block" outsign="blok"/>
@@ -190,9 +190,9 @@
 <align out="a215" type="" in="b179 b180" creator="0" insign="Social Democratic" outsign="socialdemokratiske"/>
 <align out="a218" type="" in="b183 b184 b185 b186" creator="0" insign="the Common Market Committee" outsign="Markedudvalget"/>
 <align out="a220" type="" in="b188" creator="0" insign="Ivar" outsign="Ivar"/>
-<align out="a221" type="" in="b189" creator="0" insign="Nørgaard" outsign="Nørgaard"/>
-<align out="a239" type="s" in="b207" creator="0" insign="the" outsign="Råd"/>
-<align out="a239" type="" in="b209" creator="0" insign="Council" outsign="Råd"/>
+<align out="a221" type="" in="b189" creator="0" insign="NÃ¸rgaard" outsign="NÃ¸rgaard"/>
+<align out="a239" type="s" in="b207" creator="0" insign="the" outsign="RÃ¥d"/>
+<align out="a239" type="" in="b209" creator="0" insign="Council" outsign="RÃ¥d"/>
 <align out="a226" type="" in="b192" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a223" type="" in="b191" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a246" type="s" in="b217" creator="0" insign="collaboration" outsign="det"/>

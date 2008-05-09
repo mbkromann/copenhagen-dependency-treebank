@@ -1,157 +1,157 @@
-<W msd="APPR" lemma="in">In</W>
-<W msd="NN" lemma="Wahrheit">Wahrheit</W>
-<W msd="VVFIN" lemma="geben">gab</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="ADJA" lemma="historisch">historische</W>
-<W msd="ADJA" lemma="gemeinsam">gemeinsame</W>
-<W msd="NN" lemma="Fraktionssitzung">Fraktionssitzung</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="bevor">bevor</W>
-<W msd="CARD" lemma="@card@">1964</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="NN" lemma="&lt;unknown&gt;">KV-Plan</W>
-<W msd="VVPP" lemma="lancieren">lanciert</W>
-<W msd="VAFIN" lemma="werden">wurde</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="CARD" lemma="@card@">1965</W>
-<W msd="VVFIN" lemma="kosten">kostete</W>
-<W msd="PPER" lemma="es">es</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="ADJA" lemma="damalig">damaligen</W>
-<W msd="NN" lemma="Vorsitzende">Vorsitzenden</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="NE" lemma="&lt;unknown&gt;">Venstre</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="ADJA" lemma="ehemalig">ehemaligen</W>
-<W msd="NN" lemma="Staatsminister">Staatsminister</W>
-<W msd="NE" lemma="Erik">Erik</W>
-<W msd="NE" lemma="&lt;unknown&gt;">Eriksen</W>
-<W msd="$," lemma=",">,</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Rolle">Rolle</W>
-<W msd="KOKOM" lemma="als">als</W>
-<W msd="NN" lemma="Spitzenfigur">Spitzenfigur</W>
-<W msd="PPOSAT" lemma="sein">seiner</W>
-<W msd="NN" lemma="Partei">Partei</W>
-<W msd="$," lemma=",">,</W>
-<W msd="KOUS" lemma="dass">dass</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="ADJD" lemma="offen">offen</W>
-<W msd="APPR" lemma="für">für</W>
-<W msd="ART" lemma="ein">einen</W>
-<W msd="NN" lemma="Zusammenschluß">Zusammenschluss</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="PIDAT" lemma="beide">beiden</W>
-<W msd="NN" lemma="Partei">Parteien</W>
-<W msd="VVFIN" lemma="eintreten">eintrat</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ADV" lemma="damals">Damals</W>
-<W msd="VAFIN" lemma="sein">war</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Zeit">Zeit</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="ADJD" lemma="reif">reif</W>
-<W msd="APPR" lemma="für">für</W>
-<W msd="PIDAT" lemma="solch">solch</W>
-<W msd="ART" lemma="ein">einen</W>
-<W msd="ADJA" lemma="entscheidend">entscheidenden</W>
-<W msd="NN" lemma="Schritt">Schritt</W>
-<W msd="$." lemma=":">:</W>
-<W msd="$(" lemma="&quot;">"</W>
-<W msd="PDS" lemma="d">Das</W>
-<W msd="VAFIN" lemma="sein">ist</W>
-<W msd="PPER" lemma="sie">sie</W>
-<W msd="ADV" lemma="eigentlich">eigentlich</W>
-<W msd="ADV" lemma="auch">auch</W>
-<W msd="ADV" lemma="jetzt">jetzt</W>
-<W msd="PTKNEG" lemma="nicht">nicht</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="wir">Wir</W>
-<W msd="VMFIN" lemma="müssen">müssen</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="PIDAT" lemma="jed">jedem</W>
-<W msd="NN" lemma="Fall">Fall</W>
-<W msd="ADJD" lemma="erst">erst</W>
-<W msd="APPR" lemma="durch">durch</W>
-<W msd="ART" lemma="ein">eine</W>
-<W msd="ADV" lemma="sehr">sehr</W>
-<W msd="ADJA" lemma="lang">lange</W>
-<W msd="NN" lemma="Periode">Periode</W>
-<W msd="$," lemma=",">,</W>
-<W msd="PWAV" lemma="wo">wo</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Mitglied">Mitglieder</W>
-<W msd="PIDAT" lemma="beide">beider</W>
-<W msd="NN" lemma="Partei">Parteien</W>
-<W msd="PRF" lemma="er|es|sie|Sie">sich</W>
-<W msd="ADJD" lemma="gegenseitig">gegenseitig</W>
-<W msd="VVINF" lemma="kennenlernen">kennenlernen</W>
-<W msd="VMFIN" lemma="können">können</W>
-<W msd="$." lemma=".">.</W>
-<W msd="ADV" lemma="hier">Hier</W>
-<W msd="VMFIN" lemma="können">könnten</W>
-<W msd="ADJA" lemma="regelmäßig">regelmäßige</W>
-<W msd="TRUNC" lemma="Fraktions-">Fraktions-</W>
-<W msd="KON" lemma="und">und</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Hauptvorstandssitzungen</W>
-<W msd="ART" lemma="ein">ein</W>
-<W msd="NN" lemma="Schritt">Schritt</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="ART" lemma="d">dem</W>
-<W msd="NN" lemma="Weg">Wege</W>
-<W msd="VAINF" lemma="sein">sein</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PDS" lemma="d">Das</W>
-<W msd="VAFIN" lemma="werden">wird</W>
-<W msd="PIDAT" lemma="viel">viele</W>
-<W msd="NN" lemma="Mißverständnis">Missverständnisse</W>
-<W msd="APPR" lemma="zwischen">zwischen</W>
-<W msd="PPOSAT" lemma="unser">unseren</W>
-<W msd="PIDAT" lemma="beide">beiden</W>
-<W msd="NN" lemma="Partei">Parteien</W>
-<W msd="VVINF" lemma="vermeiden">vermeiden</W>
-<W msd="$." lemma=".">.</W>
-<W msd="PPER" lemma="wir">Wir</W>
-<W msd="VMFIN" lemma="müssen">müssen</W>
-<W msd="APPR" lemma="an">an</W>
-<W msd="ART" lemma="d">die</W>
-<W msd="NN" lemma="Zusammenarbeit">Zusammenarbeit</W>
-<W msd="ART" lemma="d">der</W>
-<W msd="ADJA" lemma="kommend">kommenden</W>
-<W msd="NN" lemma="Generation">Generation</W>
-<W msd="APPR" lemma="von">von</W>
-<W msd="ADJA" lemma="bürgerlich">bürgerlichen</W>
-<W msd="NN" lemma="Politiker">Politikern</W>
-<W msd="VVINF" lemma="denken">denken</W>
-<W msd="$." lemma=".">.</W>
-<W msd="NN" lemma="&lt;unknown&gt;">!!!Er</W>
-<W msd="ART" lemma="d">den</W>
-<W msd="ADV" lemma="her">her</W>
-<W msd="ADJA" lemma="&lt;unknown&gt;">stående</W>
-<W msd="NN" lemma="&lt;unknown&gt;">danske</W>
-<W msd="ADJD" lemma="&lt;unknown&gt;">tekst</W>
-<W msd="ADJD" lemma="korrekt">korrekt</W>
-<W msd="$." lemma="?">?</W>
-<W msd="$." lemma="!">!</W>
-<W msd="$." lemma="!">!</W>
-<W msd="$." lemma="!">!</W>
-<W msd="APPR" lemma="nach">Nach</W>
-<W msd="ART" lemma="ein">einem</W>
-<W msd="NN" lemma="Wochenende">Wochenende</W>
-<W msd="APPR" lemma="bei">bei</W>
-<W msd="PPOSAT" lemma="sein">seiner</W>
-<W msd="NN" lemma="Familie">Familie</W>
-<W msd="APPR" lemma="auf">auf</W>
-<W msd="NN" lemma="&lt;unknown&gt;">Fanø</W>
-<W msd="VAFIN" lemma="sein">war</W>
-<W msd="PPER" lemma="er">er</W>
-<W msd="APPRART" lemma="am">am</W>
-<W msd="NN" lemma="Montag">Montag</W>
-<W msd="APPRART" lemma="zum">zum</W>
-<W msd="NN" lemma="&lt;unknown&gt;">EF-Fischereiministertreffen</W>
-<W msd="APPR" lemma="in">in</W>
-<W msd="NE" lemma="Brüssel">Brüssel</W>
-<W msd="$." lemma=".">.</W>
+<W lemma="in" msd="APPR" in="2:mod" out="1:nobj">In</W>
+<W lemma="Wahrheit" msd="NN" in="-1:nobj" out="">Wahrheit</W>
+<W lemma="geben" msd="VVFIN" in="" out="1:expl|1:[expl]|2:dobj|7:mod|14:coord|47:pnct|6:pnct|-2:mod">gab</W>
+<W lemma="es" msd="PPER" in="-1:expl|-1:[expl]" out="">es</W>
+<W lemma="ein" msd="ART" in="-2:dobj" out="1:mod|2:mod|3:nobj">eine</W>
+<W lemma="historisch" msd="ADJA" in="-1:mod" out="">historische</W>
+<W lemma="gemeinsam" msd="ADJA" in="-2:mod" out="">gemeinsame</W>
+<W lemma="Fraktionssitzung" msd="NN" in="-3:nobj" out="">Fraktionssitzung</W>
+<W lemma="," msd="$," in="-6:pnct" out="">,</W>
+<W lemma="bevor" msd="KOUS" in="-7:mod" out="5:vobj">bevor</W>
+<W lemma="@card@" msd="CARD" in="3:mod" out="">1964</W>
+<W lemma="d" msd="ART" in="3:subj|2:[subj]" out="1:nobj">der</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:nobj" out="">KV-Plan</W>
+<W lemma="lancieren" msd="VVPP" in="1:vobj" out="-3:mod|-2:[subj]">lanciert</W>
+<W lemma="werden" msd="VAFIN" in="-5:vobj" out="-1:vobj|-3:subj|1:pnct">wurde</W>
+<W lemma="," msd="$," in="-1:pnct" out="">,</W>
+<W lemma="und" msd="KON" in="-14:coord" out="2:conj">und</W>
+<W lemma="@card@" msd="CARD" in="1:mod" out="">1965</W>
+<W lemma="kosten" msd="VVFIN" in="-2:conj" out="1:subj|20:pnct|-1:mod|2:dobj|14:aobj">kostete</W>
+<W lemma="es" msd="PPER" in="-1:subj" out="20:nobj">es</W>
+<W lemma="d" msd="ART" in="-2:dobj" out="1:mod|2:nobj|6:appa|5:pnct">den</W>
+<W lemma="damalig" msd="ADJA" in="-1:mod" out="">damaligen</W>
+<W lemma="Vorsitzende" msd="NN" in="-2:nobj" out="1:pobj">Vorsitzenden</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="1:nobj">von</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-1:nobj" out="">Venstre</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="d" msd="ART" in="-6:appa" out="1:mod|2:nobj|4:appr|5:pnct">den</W>
+<W lemma="ehemalig" msd="ADJA" in="-1:mod" out="">ehemaligen</W>
+<W lemma="Staatsminister" msd="NN" in="-2:nobj" out="">Staatsminister</W>
+<W lemma="Erik" msd="NE" in="1:namef" out="">Erik</W>
+<W lemma="&lt;unknown&gt;" msd="NE" in="-4:appr" out="-1:namef">Eriksen</W>
+<W lemma="," msd="$," in="-5:pnct" out="">,</W>
+<W lemma="d" msd="ART" in="-14:aobj" out="1:nobj">die</W>
+<W lemma="Rolle" msd="NN" in="-1:nobj" out="1:pobj">Rolle</W>
+<W lemma="als" msd="KOKOM" in="-1:pobj" out="1:nobj">als</W>
+<W lemma="Spitzenfigur" msd="NN" in="-1:nobj" out="1:possr">Spitzenfigur</W>
+<W lemma="sein" msd="PPOSAT" in="-1:possr" out="1:possd">seiner</W>
+<W lemma="Partei" msd="NN" in="-1:possd" out="">Partei</W>
+<W lemma="," msd="$," in="-20:pnct" out="">,</W>
+<W lemma="dass" msd="KOUS" in="-20:nobj" out="9:vobj">dass</W>
+<W lemma="er" msd="PPER" in="8:subj" out="">er</W>
+<W lemma="offen" msd="ADJD" in="7:mod" out="">offen</W>
+<W lemma="fÃ¼r" msd="APPR" in="6:pobj" out="1:nobj">fÃ¼r</W>
+<W lemma="ein" msd="ART" in="-1:nobj" out="1:nobj">einen</W>
+<W lemma="ZusammenschluÃŸ" msd="NN" in="-1:nobj" out="1:nobj">Zusammenschluss</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">der</W>
+<W lemma="beide" msd="PIDAT" in="-1:nobj" out="1:nobj">beiden</W>
+<W lemma="Partei" msd="NN" in="-1:nobj" out="">Parteien</W>
+<W lemma="eintreten" msd="VVFIN" in="-9:vobj" out="-8:subj|-7:mod|-6:pobj">eintrat</W>
+<W lemma="." msd="$." in="-47:pnct" out="">.</W>
+<W lemma="damals" msd="ADV" in="1:mod" out="">Damals</W>
+<W lemma="sein" msd="VAFIN" in="" out="-1:mod|3:mod|4:pred|1:subj">war</W>
+<W lemma="d" msd="ART" in="-1:subj" out="1:nobj">die</W>
+<W lemma="Zeit" msd="NN" in="-1:nobj" out="">Zeit</W>
+<W lemma="nicht" msd="PTKNEG" in="-3:mod" out="">nicht</W>
+<W lemma="reif" msd="ADJD" in="-4:pred" out="1:pobj">reif</W>
+<W lemma="fÃ¼r" msd="APPR" in="-1:pobj" out="2:nobj">fÃ¼r</W>
+<W lemma="solch" msd="PIDAT" in="1:mod" out="">solch</W>
+<W lemma="ein" msd="ART" in="-2:nobj" out="1:mod|2:nobj|-1:mod">einen</W>
+<W lemma="entscheidend" msd="ADJA" in="-1:mod" out="">entscheidenden</W>
+<W lemma="Schritt" msd="NN" in="-2:nobj" out="">Schritt</W>
+<W lemma=":" msd="$." in="" out="">:</W>
+<W lemma="&quot;" msd="$(" in="" out="">"</W>
+<W lemma="d" msd="PDS" in="1:pred" out="">Das</W>
+<W lemma="sein" msd="VAFIN" in="" out="-1:pred|1:subj|2:mod|4:mod|5:mod">ist</W>
+<W lemma="sie" msd="PPER" in="-1:subj" out="">sie</W>
+<W lemma="eigentlich" msd="ADV" in="-2:mod" out="4:pnct">eigentlich</W>
+<W lemma="auch" msd="ADV" in="1:mod" out="">auch</W>
+<W lemma="jetzt" msd="ADV" in="-4:mod" out="-1:mod">jetzt</W>
+<W lemma="nicht" msd="PTKNEG" in="-5:mod" out="">nicht</W>
+<W lemma="." msd="$." in="-4:pnct" out="">.</W>
+<W lemma="wir" msd="PPER" in="1:subj" out="">Wir</W>
+<W lemma="mÃ¼ssen" msd="VMFIN" in="" out="-1:subj|4:mod|5:lobj|1:mod|10:pnct|20:pnct">mÃ¼ssen</W>
+<W lemma="in" msd="APPR" in="-1:mod" out="1:nobj">in</W>
+<W lemma="jed" msd="PIDAT" in="-1:nobj" out="1:nobj">jedem</W>
+<W lemma="Fall" msd="NN" in="-1:nobj" out="">Fall</W>
+<W lemma="erst" msd="ADJD" in="-4:mod" out="">erst</W>
+<W lemma="durch" msd="APPR" in="-5:lobj" out="1:nobj">durch</W>
+<W lemma="ein" msd="ART" in="-1:nobj" out="3:nobj|5:ref|13:rel|2:mod">eine</W>
+<W lemma="sehr" msd="ADV" in="1:mod" out="">sehr</W>
+<W lemma="lang" msd="ADJA" in="-2:mod" out="-1:mod">lange</W>
+<W lemma="Periode" msd="NN" in="-3:nobj" out="">Periode</W>
+<W lemma="," msd="$," in="-10:pnct" out="">,</W>
+<W lemma="wo" msd="PWAV" in="-5:ref|8:mod" out="">wo</W>
+<W lemma="d" msd="ART" in="7:subj|6:[subj]" out="1:nobj">die</W>
+<W lemma="Mitglied" msd="NN" in="-1:nobj" out="1:possr">Mitglieder</W>
+<W lemma="beide" msd="PIDAT" in="-1:possr" out="1:nobj">beider</W>
+<W lemma="Partei" msd="NN" in="-1:nobj" out="">Parteien</W>
+<W lemma="er|es|sie|Sie" msd="PRF" in="2:dobj" out="">sich</W>
+<W lemma="gegenseitig" msd="ADJD" in="1:mod" out="">gegenseitig</W>
+<W lemma="kennenlernen" msd="VVINF" in="1:vobj" out="-6:[subj]|-2:dobj|-1:mod">kennenlernen</W>
+<W lemma="kÃ¶nnen" msd="VMFIN" in="-13:rel" out="-8:mod|-7:subj|-1:vobj">kÃ¶nnen</W>
+<W lemma="." msd="$." in="-20:pnct" out="">.</W>
+<W lemma="hier" msd="ADV" in="1:mod" out="">Hier</W>
+<W lemma="kÃ¶nnen" msd="VMFIN" in="" out="-1:mod|2:subj|10:vobj|11:pnct">kÃ¶nnten</W>
+<W lemma="regelmÃ¤ÃŸig" msd="ADJA" in="1:mod" out="">regelmÃ¤ÃŸige</W>
+<W lemma="Fraktions-" msd="TRUNC" in="-2:subj|8:[subj]" out="-1:mod|1:coord">Fraktions-</W>
+<W lemma="und" msd="KON" in="-1:coord" out="1:conj">und</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:conj" out="">Hauptvorstandssitzungen</W>
+<W lemma="ein" msd="ART" in="5:pred" out="1:nobj|2:mod">ein</W>
+<W lemma="Schritt" msd="NN" in="-1:nobj" out="">Schritt</W>
+<W lemma="auf" msd="APPR" in="-2:mod" out="1:nobj">auf</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">dem</W>
+<W lemma="Weg" msd="NN" in="-1:nobj" out="">Wege</W>
+<W lemma="sein" msd="VAINF" in="-10:vobj" out="-8:[subj]|-5:pred">sein</W>
+<W lemma="." msd="$." in="-11:pnct" out="">.</W>
+<W lemma="d" msd="PDS" in="1:subj|8:[subj]" out="">Das</W>
+<W lemma="werden" msd="VAFIN" in="" out="-1:subj|7:vobj|8:pnct">wird</W>
+<W lemma="viel" msd="PIDAT" in="6:dobj" out="1:nobj">viele</W>
+<W lemma="MiÃŸverstÃ¤ndnis" msd="NN" in="-1:nobj" out="1:pobj">MissverstÃ¤ndnisse</W>
+<W lemma="zwischen" msd="APPR" in="-1:pobj" out="1:nobj">zwischen</W>
+<W lemma="unser" msd="PPOSAT" in="-1:nobj" out="1:possd">unseren</W>
+<W lemma="beide" msd="PIDAT" in="-1:possd" out="1:nobj">beiden</W>
+<W lemma="Partei" msd="NN" in="-1:nobj" out="">Parteien</W>
+<W lemma="vermeiden" msd="VVINF" in="-7:vobj" out="-8:[subj]|-6:dobj">vermeiden</W>
+<W lemma="." msd="$." in="-8:pnct" out="">.</W>
+<W lemma="wir" msd="PPER" in="1:subj|11:[subj]" out="">Wir</W>
+<W lemma="mÃ¼ssen" msd="VMFIN" in="" out="-1:subj|10:vobj|11:pnct">mÃ¼ssen</W>
+<W lemma="an" msd="APPR" in="9:pobj" out="1:nobj">an</W>
+<W lemma="d" msd="ART" in="-1:nobj" out="1:nobj">die</W>
+<W lemma="Zusammenarbeit" msd="NN" in="-1:nobj" out="1:gatts">Zusammenarbeit</W>
+<W lemma="d" msd="ART" in="-1:gatts" out="1:mod|2:nobj">der</W>
+<W lemma="kommend" msd="ADJA" in="-1:mod" out="">kommenden</W>
+<W lemma="Generation" msd="NN" in="-2:nobj" out="1:pobj">Generation</W>
+<W lemma="von" msd="APPR" in="-1:pobj" out="2:nobj">von</W>
+<W lemma="bÃ¼rgerlich" msd="ADJA" in="1:mod" out="">bÃ¼rgerlichen</W>
+<W lemma="Politiker" msd="NN" in="-2:nobj" out="-1:mod">Politikern</W>
+<W lemma="denken" msd="VVINF" in="-10:vobj" out="-11:[subj]|-9:pobj">denken</W>
+<W lemma="." msd="$." in="-11:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="" out="">!!!Er</W>
+<W lemma="d" msd="ART" in="" out="">den</W>
+<W lemma="her" msd="ADV" in="" out="">her</W>
+<W lemma="&lt;unknown&gt;" msd="ADJA" in="" out="">stÃ¥ende</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="" out="">danske</W>
+<W lemma="&lt;unknown&gt;" msd="ADJD" in="" out="">tekst</W>
+<W lemma="korrekt" msd="ADJD" in="" out="">korrekt</W>
+<W lemma="?" msd="$." in="" out="">?</W>
+<W lemma="!" msd="$." in="" out="">!</W>
+<W lemma="!" msd="$." in="" out="">!</W>
+<W lemma="!" msd="$." in="" out="">!</W>
+<W lemma="nach" msd="APPR" in="8:mod" out="1:nobj">Nach</W>
+<W lemma="ein" msd="ART" in="-1:nobj" out="1:nobj|2:mod">einem</W>
+<W lemma="Wochenende" msd="NN" in="-1:nobj" out="">Wochenende</W>
+<W lemma="bei" msd="APPR" in="-2:mod" out="1:nobj">bei</W>
+<W lemma="sein" msd="PPOSAT" in="-1:nobj" out="1:possd">seiner</W>
+<W lemma="Familie" msd="NN" in="-1:possd" out="1:mod">Familie</W>
+<W lemma="auf" msd="APPR" in="-1:mod" out="1:nobj">auf</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:nobj" out="">FanÃ¸</W>
+<W lemma="sein" msd="VAFIN" in="" out="-8:mod|1:subj|6:pred|8:pnct|2:mod|4:mod">war</W>
+<W lemma="er" msd="PPER" in="-1:subj" out="">er</W>
+<W lemma="am" msd="APPRART" in="-2:mod" out="1:nobj">am</W>
+<W lemma="Montag" msd="NN" in="-1:nobj" out="">Montag</W>
+<W lemma="zum" msd="APPRART" in="-4:mod" out="1:nobj">zum</W>
+<W lemma="&lt;unknown&gt;" msd="NN" in="-1:nobj" out="">EF-Fischereiministertreffen</W>
+<W lemma="in" msd="APPR" in="-6:pred" out="1:nobj">in</W>
+<W lemma="BrÃ¼ssel" msd="NE" in="-1:nobj" out="">BrÃ¼ssel</W>
+<W lemma="." msd="$." in="-8:pnct" out="">.</W>

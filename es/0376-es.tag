@@ -32,7 +32,7 @@
 <W msd="NC" lemma="&lt;unknown&gt;">preparaciÃ³n</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="ADJ" lemma="numeroso">numerosas</W>
-<W msd="NC" lemma="reunión">reuniones</W>
+<W msd="NC" lemma="reunin">reuniones</W>
 <W msd="CM" lemma=",">,</W>
 <W msd="CARD" lemma="@card@">15</W>
 <W msd="NC" lemma="familia">familias</W>

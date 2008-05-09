@@ -205,7 +205,7 @@
 </s>
 <s>
 <W msd="DT" in="" out="1:nobj|3:pnct|5:pnct|4:list">The</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Tønder</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">TÃ¸nder</W>
 <W msd="NNP" in="-1:nobj" out="">Festival</W>
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="NNP" in="-4:list" out="">Saturday</W>

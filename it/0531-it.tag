@@ -65,10 +65,10 @@
 <W lemma="pubblico" msd="ADJ" in="-1:mod" out="">pubblico</W>
 <W lemma="ministero" msd="NOM" in="-2:nobj" out="">ministero</W>
 <W lemma="si" msd="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="essere" msd="VER:pres" in="" out="1:vobj|7:pnct|-4:subj|-1:robj">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="1:vobj|7:pnct|-4:subj|-1:robj">√®</W>
 <W lemma="riservare" msd="VER:pper" in="-1:vobj" out="1:dobj">riservato</W>
 <W lemma="il" msd="DET:def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="possibilit‡" msd="NOM" in="-1:nobj" out="1:pobj">possibilit‡</W>
+<W lemma="possibilit√†" msd="NOM" in="-1:nobj" out="1:pobj">possibilit√†</W>
 <W lemma="di" msd="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="un" msd="DET:indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="ricorso" msd="NOM" in="-1:nobj" out="">ricorso</W>
@@ -76,7 +76,7 @@
 <W lemma="il" msd="DET:def" in="3:subj|4:[subj]|5:[subj]" out="1:nobj|2:appr">Il</W>
 <W lemma="presidente" msd="NOM" in="-1:nobj" out="">presidente</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-2:appr" out="">Leer</W>
-<W lemma="essere" msd="VER:pres" in="" out="-3:subj|1:vobj|44:pnct">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="-3:subj|1:vobj|44:pnct">√®</W>
 <W lemma="essere|stare" msd="VER:pper" in="-1:vobj" out="-4:[subj]|1:vobj">stato</W>
 <W lemma="condannare" msd="VER:pper" in="-1:vobj" out="-5:[subj]|1:pobj|19:pobj">condannato</W>
 <W lemma="ad" msd="PRE" in="-1:pobj" out="1:nobj|8:conj">ad</W>
@@ -112,7 +112,7 @@
 <W lemma="in" msd="PRE" in="-1:mod" out="1:nobj">in</W>
 <W lemma="materia" msd="NOM" in="-1:nobj" out="1:pobj">materia</W>
 <W lemma="di" msd="PRE" in="-1:pobj" out="1:nobj">di</W>
-<W lemma="societ‡" msd="NOM" in="-1:nobj" out="1:mod">societ‡</W>
+<W lemma="societ√†" msd="NOM" in="-1:nobj" out="1:mod">societ√†</W>
 <W lemma="per" msd="PRE" in="-1:mod" out="1:nobj">per</W>
 <W lemma="azione" msd="NOM" in="-1:nobj" out="">azioni</W>
 <W lemma="e" msd="CON" in="1:coord" out="">e</W>
@@ -124,7 +124,7 @@
 <W lemma="il" msd="DET:def" in="3:subj|4:[subj]|5:[subj]" out="1:possd|2:appr">Il</W>
 <W lemma="direttore" msd="NOM" in="-1:possd" out="">direttore</W>
 <W lemma="&lt;unknown&gt;" msd="NOM" in="-2:appr" out="">Olsdorf</W>
-<W lemma="essere" msd="VER:pres" in="" out="-3:subj|1:vobj">Ë</W>
+<W lemma="essere" msd="VER:pres" in="" out="-3:subj|1:vobj">√®</W>
 <W lemma="essere|stare" msd="VER:pper" in="-1:vobj" out="-4:[subj]|1:vobj">stato</W>
 <W lemma="condannare" msd="VER:pper" in="-1:vobj" out="-5:[subj]|1:pobj">condannato</W>
 <W lemma="a" msd="PRE" in="-1:pobj" out="14:pnct|1:nobj|6:conj">a</W>

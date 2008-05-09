@@ -9,7 +9,7 @@
 <W msd="CC" lemma="y">y</W>
 <W msd="VLinf" lemma="negociar">negociar</W>
 <W msd="ADJ" lemma="posible">posibles</W>
-<W msd="NC" lemma="adquisiciÛn">adquisiciones</W>
+<W msd="NC" lemma="adquisicin">adquisiciones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="NC" lemma="marco">marco</W>
@@ -25,7 +25,7 @@
 <W msd="QT" lemma="&quot;">"</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">discutir...</W>
 <W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="condiciÛn">condiciones</W>
+<W msd="NC" lemma="condicin">condiciones</W>
 <W msd="PREP" lemma="para">para</W>
 <W msd="ART" lemma="el">el</W>
 <W msd="NC" lemma="aprovisionamiento">aprovisionamiento</W>
@@ -80,7 +80,7 @@
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="reina">reina</W>
-<W msd="ADJ" lemma="inglÈs">inglesa</W>
+<W msd="ADJ" lemma="ingls">inglesa</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="NP" lemma="Londres">Londres</W>
 <W msd="FS" lemma=".">.</W>
@@ -195,7 +195,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="ART" lemma="el">lo</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPC" lemma="Èl">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="dar">da</W>
 <W msd="ART" lemma="un">una</W>
 <W msd="NC" lemma="&lt;unknown&gt;">relaci√≥n</W>

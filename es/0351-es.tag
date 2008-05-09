@@ -60,7 +60,7 @@
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">la</W>
 <W msd="NC" lemma="&lt;unknown&gt;">Rep√∫blica</W>
-<W msd="NC" lemma="alem·n">Alemana</W>
+<W msd="NC" lemma="alemn">Alemana</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="ahora">Ahora</W>
 <W msd="VMfin" lemma="deber">debe</W>
@@ -100,7 +100,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="VEfin" lemma="estar">estuvo</W>
 <W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vacaciÛn">vacaciones</W>
+<W msd="NC" lemma="vacacin">vacaciones</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Berl√≠n</W>
 <W msd="PREP" lemma="con">con</W>

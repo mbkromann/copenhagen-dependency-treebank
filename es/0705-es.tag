@@ -57,7 +57,7 @@
 <W msd="VLfin" lemma="publicar">publica</W>
 <W msd="CARD" lemma="tres">tres</W>
 <W msd="NC" lemma="nueva">nuevas</W>
-<W msd="NC" lemma="colecci�n">colecciones</W>
+<W msd="NC" lemma="coleccin">colecciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="&lt;unknown&gt;">poesías</W>
 <W msd="QU" lemma="cada">cada</W>
@@ -71,7 +71,7 @@
 <W msd="VLadj" lemma="&lt;unknown&gt;">“éxito”</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">quizá</W>
 <W msd="NEG" lemma="no">no</W>
-<W msd="PPO" lemma="�l">lo</W>
+<W msd="PPO" lemma="l">lo</W>
 <W msd="ADJ" lemma="mismo">mismo</W>
 <W msd="PREP" lemma="para">para</W>
 <W msd="NP" lemma="&lt;unknown&gt;">Jørgen</W>

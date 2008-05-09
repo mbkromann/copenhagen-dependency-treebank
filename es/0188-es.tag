@@ -80,7 +80,7 @@
 <W msd="PREP" lemma="con">con</W>
 <W msd="ART" lemma="el">las</W>
 <W msd="NC" lemma="&lt;unknown&gt;">elogiosas</W>
-<W msd="NC" lemma="declaración">declaraciones</W>
+<W msd="NC" lemma="declaracin">declaraciones</W>
 <W msd="SE" lemma="se">se</W>
 <W msd="VLfin" lemma="referir">refieren</W>
 <W msd="PREP" lemma="a">a</W>

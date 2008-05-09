@@ -204,7 +204,7 @@
 <W msd="VBZ" in="-2:conj" out="-1:subj|1:dobj">wants</W>
 <W msd="DT" in="-1:dobj" out="1:nobj">some</W>
 <W msd="JJR" in="-1:nobj" out="1:nobj">more</W>
-<W msd="NN" in="-1:nobj" out="">p‚tÈ</W>
+<W msd="NN" in="-1:nobj" out="">p√¢t√©</W>
 <W msd="." in="-10:pnct" out="">.</W>
 </s>
 <s>

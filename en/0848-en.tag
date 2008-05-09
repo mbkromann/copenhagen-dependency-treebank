@@ -148,13 +148,13 @@
 <W msd="DT" in="2:subj" out="1:ref|1:rel">Those</W>
 <W msd="VBG" in="-1:ref|-1:rel" out="">surviving</W>
 <W msd="VBP" in="" out="-2:subj|1:pred|17:pnct">are</W>
-<W msd="NNP" in="-1:pred" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|12:pnct|13:coord">Esbjerg-Fanø</W>
+<W msd="NNP" in="-1:pred" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|12:pnct|13:coord">Esbjerg-FanÃ¸</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="-2:conj" out="">Bøjden-Fynshav</W>
+<W msd="NNP" in="-2:conj" out="">BÃ¸jden-Fynshav</W>
 <W msd="," in="-3:pnct" out="">,</W>
-<W msd="NNP" in="-4:conj" out="">Kalundborg-Samsø</W>
+<W msd="NNP" in="-4:conj" out="">Kalundborg-SamsÃ¸</W>
 <W msd="," in="-5:pnct" out="">,</W>
-<W msd="NNP" in="-6:conj|5:[subj]" out="1:list|2:pnct|5:mod">Helsingør</W>
+<W msd="NNP" in="-6:conj|5:[subj]" out="1:list|2:pnct|5:mod">HelsingÃ¸r</W>
 <W msd="NNP" in="-1:list" out="">Helsingborg</W>
 <W msd="," in="-2:pnct" out="">,</W>
 <W msd="IN" in="2:mod" out="">though</W>
@@ -163,7 +163,7 @@
 <W msd="," in="-12:pnct" out="">,</W>
 <W msd="CC" in="-13:coord" out="1:mod|2:conj">and</W>
 <W msd="RB" in="-1:mod" out="">finally</W>
-<W msd="NNP" in="-2:conj" out="">Gedser-Warnemünde</W>
+<W msd="NNP" in="-2:conj" out="">Gedser-WarnemÃ¼nde</W>
 <W msd="." in="-17:pnct" out="">.</W>
 </s>
 <s>

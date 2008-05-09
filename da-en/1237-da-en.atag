@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/1237-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/1237-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/1237-en.tag" sign="_input"/>
 <align out="a45" type="" in="b3" creator="-1" insign="in" outsign="i"/>
 <align out="a46" type="" in="b4" creator="-1" insign="huts" outsign="hytter"/>
@@ -28,7 +28,7 @@
 <align out="a78" type="" in="b43" creator="-1" insign="," outsign=","/>
 <align out="a79" type="" in="b44" creator="-1" insign="bus" outsign="bus"/>
 <align out="a80" type="" in="b45" creator="-1" insign="to" outsign="til"/>
-<align out="a81" type="" in="b46" creator="-1" insign="Branäs" outsign="Branäs"/>
+<align out="a81" type="" in="b46" creator="-1" insign="BranÃ¤s" outsign="BranÃ¤s"/>
 <align out="a82" type="" in="b47" creator="-1" insign="and" outsign="og"/>
 <align out="a83" type="" in="b49" creator="-1" insign="Danish" outsign="dansk"/>
 <align out="a85" type="" in="b52" creator="-1" insign="." outsign="."/>
@@ -37,16 +37,16 @@
 <align out="a92" type="" in="b57" creator="-1" insign="Norway" outsign="Norge"/>
 <align out="a100" type="" in="b65" creator="-1" insign="Norwegian" outsign="Norsk"/>
 <align out="a103" type="" in="b70" creator="-1" insign="and" outsign="og"/>
-<align out="a104" type="" in="b71 b72 b73" creator="-1" insign="New Year's trips" outsign="nytårsrejser"/>
+<align out="a104" type="" in="b71 b72 b73" creator="-1" insign="New Year's trips" outsign="nytÃ¥rsrejser"/>
 <align out="a105" type="" in="b74" creator="-1" insign="to" outsign="til"/>
 <align out="a106" type="" in="b75" creator="-1" insign="Norway" outsign="Norge"/>
 <align out="a107" type="" in="b76" creator="-1" insign="." outsign="."/>
 <align out="a110" type="" in="b79" creator="-1" insign="To" outsign="Til"/>
 <align out="a111" type="" in="b80" creator="-1" insign="Gausdal" outsign="Gausdal"/>
-<align out="a112" type="" in="b81" creator="-1" insign="Høifjellshotell" outsign="Høifjellshotell"/>
+<align out="a112" type="" in="b81" creator="-1" insign="HÃ¸ifjellshotell" outsign="HÃ¸ifjellshotell"/>
 <align out="a113" type="" in="b82" creator="-1" insign="and" outsign="og"/>
 <align out="a114" type="" in="b83" creator="-1" insign="to" outsign="til"/>
-<align out="a115" type="" in="b84" creator="-1" insign="Kampsæter" outsign="Kampsæter"/>
+<align out="a115" type="" in="b84" creator="-1" insign="KampsÃ¦ter" outsign="KampsÃ¦ter"/>
 <align out="a116" type="" in="b85" creator="-1" insign="and" outsign="og"/>
 <align out="a117" type="" in="b86" creator="-1" insign="Ruten" outsign="Ruten"/>
 <align out="a118" type="" in="b87" creator="-1" insign="Fjellstue" outsign="Fjellstue"/>
@@ -70,7 +70,7 @@
 <align out="a142" type="" in="b112" creator="-1" insign="days" outsign="dage"/>
 <align out="a143" type="" in="b113" creator="-1" insign="with" outsign="med"/>
 <align out="a144" type="" in="b114 b115 b116 b117" creator="-1" insign="complete room and board" outsign="fuldpension"/>
-<align out="a147" type="" in="b121" creator="-1" insign="at" outsign="på"/>
+<align out="a147" type="" in="b121" creator="-1" insign="at" outsign="pÃ¥"/>
 <align out="a148" type="" in="b122" creator="-1" insign="Gausdal" outsign="Gausdal"/>
 <align out="a149" type="" in="b123" creator="-1" insign="costs" outsign="koster"/>
 <align out="a150" type="" in="b125" creator="-1" insign="4,415" outsign="4.415"/>
@@ -83,11 +83,11 @@
 <align out="a159" type="" in="b135" creator="-1" insign="and" outsign="og"/>
 <align out="a160" type="" in="b136" creator="-1" insign="toilet" outsign="toilet"/>
 <align out="a161" type="" in="b137" creator="-1" insign="." outsign="."/>
-<align out="a164" type="" in="b140" creator="-1" insign="Children" outsign="Børn"/>
+<align out="a164" type="" in="b140" creator="-1" insign="Children" outsign="BÃ¸rn"/>
 <align out="a165" type="" in="b141" creator="-1" insign="under" outsign="under"/>
 <align out="a168" type="" in="b143" creator="-1" insign="per" outsign="pr."/>
 <align out="a171" type="" in="b145" creator="-1" insign="in" outsign="i"/>
-<align out="a172" type="" in="b146 b147" creator="-1" insign="double room" outsign="dobbeltværelset"/>
+<align out="a172" type="" in="b146 b147" creator="-1" insign="double room" outsign="dobbeltvÃ¦relset"/>
 <align out="a173" type="" in="b148" creator="-1" insign="costs" outsign="koster"/>
 <align out="a176" type="" in="b151" creator="-1" insign="." outsign="."/>
 <align out="a179" type="" in="b154" creator="-1" insign="It" outsign="Det"/>
@@ -100,7 +100,7 @@
 <align out="a186" type="" in="b159 b160" creator="-1" insign="for example" outsign="f.eks."/>
 <align out="a188" type="" in="b165" creator="-1" insign="in" outsign="i"/>
 <align out="a190" type="" in="b168" creator="-1" insign="or" outsign="eller"/>
-<align out="a191" type="" in="b169" creator="-1" insign="four-bunk" outsign="firekøjers"/>
+<align out="a191" type="" in="b169" creator="-1" insign="four-bunk" outsign="firekÃ¸jers"/>
 <align out="a195" type="" in="b174" creator="-1" insign="," outsign=","/>
 <align out="a196" type="" in="b175" creator="-1" insign="and" outsign="og"/>
 <align out="a197" type="" in="b176 b177" creator="-1" insign="more expensive" outsign="dyrere"/>
@@ -120,14 +120,14 @@
 <align out="a240" type="" in="b231" creator="-1" insign="well-known" outsign="kendte"/>
 <align out="a241" type="" in="a241" creator="-1" insign="," outsign=","/>
 <align out="a242" type="" in="b232" creator="-1" insign="but" outsign="men"/>
-<align out="a243" type="" in="b233" creator="-1" insign="also" outsign="også"/>
+<align out="a243" type="" in="b233" creator="-1" insign="also" outsign="ogsÃ¥"/>
 <align out="a244" type="" in="a244" creator="-1" insign="i" outsign="i"/>
 <align out="a245" type="" in="b234" creator="-1" insign="the" outsign="de"/>
 <align out="a246" type="" in="b235" creator="-1" insign="less" outsign="mindre"/>
 <align out="a247" type="" in="b236" creator="-1" insign="well-known" outsign="kendte"/>
 <align out="a248" type="" in="b237 b238" creator="-1" insign="ski resorts" outsign="skisportssteder"/>
 <align out="a249" type="" in="b239" creator="-1" insign="in" outsign="i"/>
-<align out="a250" type="" in="b240" creator="-1" insign="Austria" outsign="Østrig"/>
+<align out="a250" type="" in="b240" creator="-1" insign="Austria" outsign="Ã˜strig"/>
 <align out="a251" type="" in="b241" creator="-1" insign="," outsign=","/>
 <align out="a252" type="" in="b242" creator="-1" insign="France" outsign="Frankrig"/>
 <align out="a253" type="" in="b243" creator="-1" insign="," outsign=","/>
@@ -147,7 +147,7 @@
 <align out="a70" type="" in="b34" creator="0" insign="bus" outsign="bus"/>
 <align out="a76" type="" in="b40" creator="0" insign="crossing" outsign="overfart"/>
 <align out="a76" type="s" in="b41" creator="0" insign="from" outsign="overfart"/>
-<align out="a77" type="" in="b42" creator="-1" insign="Frederikshavn-Göteborg" outsign="Frederikshavn-Göteborg"/>
+<align out="a77" type="" in="b42" creator="-1" insign="Frederikshavn-GÃ¶teborg" outsign="Frederikshavn-GÃ¶teborg"/>
 <align out="a84" type="" in="b50 b51" creator="0" insign="ski guide" outsign="skiguide"/>
 <align out="a84" type="s" in="b48" creator="0" insign="a" outsign="skiguide"/>
 <align out="a97" type="f" in="b62" creator="0" insign="traditional" outsign="Traditionen"/>
@@ -170,11 +170,11 @@
 <align out="a135" type="" in="b106" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a145" type="" in="b118" creator="0" insign="during" outsign="i"/>
 <align out="a146" type="" in="b119 b120" creator="0" insign="Christmas week" outsign="juleugen"/>
-<align out="a156" type="s" in="b130" creator="0" insign="a" outsign="dobbeltværelse"/>
-<align out="a156" type="" in="b131 b132" creator="0" insign="double room" outsign="dobbeltværelse"/>
+<align out="a156" type="s" in="b130" creator="0" insign="a" outsign="dobbeltvÃ¦relse"/>
+<align out="a156" type="" in="b131 b132" creator="0" insign="double room" outsign="dobbeltvÃ¦relse"/>
 <align out="a158" type="" in="b134" creator="0" insign="bath" outsign="bad"/>
 <align out="a166" type="" in="b142" creator="0" insign="16" outsign="16."/>
-<align out="a167" type="" in="a167" creator="0" insign="år" outsign="år"/>
+<align out="a167" type="" in="a167" creator="0" insign="Ã¥r" outsign="Ã¥r"/>
 <align out="a169" type="s" in="b144" creator="0" insign="adult" outsign="en"/>
 <align out="a170" type="" in="b144" creator="0" insign="adult" outsign="voksen"/>
 <align out="a174" type="" in="b150" creator="0" insign="450" outsign="450"/>
@@ -188,8 +188,8 @@
 <align out="a189" type="" in="b167" creator="0" insign="three-" outsign="tre-"/>
 <align out="a192" type="" in="b170" creator="0" insign="cabin" outsign="kahytter"/>
 <align out="a192" type="s" in="b166" creator="0" insign="a" outsign="kahytter"/>
-<align out="a193" type="" in="b171" creator="0" insign="on" outsign="på"/>
-<align out="a194" type="" in="b172 b173" creator="0" insign="the boat" outsign="båden"/>
+<align out="a193" type="" in="b171" creator="0" insign="on" outsign="pÃ¥"/>
+<align out="a194" type="" in="b172 b173" creator="0" insign="the boat" outsign="bÃ¥den"/>
 <align out="b179" type="" in="b179" creator="0" insign="," outsign=","/>
 <align out="b182" type="" in="b182" creator="0" insign="," outsign=","/>
 <align out="a202" type="" in="b184" creator="0" insign="want" outsign="vil"/>
@@ -206,22 +206,22 @@
 <align out="a214" type="" in="b203" creator="0" insign="car" outsign="bil"/>
 <align out="b204" type="" in="b204" creator="0" insign="." outsign="."/>
 <align out="b207" type="" in="b207" creator="0" insign="If" outsign="If"/>
-<align out="a219" type="" in="b209" creator="0" insign="prefer" outsign="Foretrækker"/>
+<align out="a219" type="" in="b209" creator="0" insign="prefer" outsign="ForetrÃ¦kker"/>
 <align out="a221" type="" in="b212" creator="0" insign="yourself" outsign="selv"/>
-<align out="a223" type="" in="b211" creator="0" insign="drive" outsign="køre"/>
+<align out="a223" type="" in="b211" creator="0" insign="drive" outsign="kÃ¸re"/>
 <align out="a225" type="s" in="b214" creator="0" insign="a" outsign="skiferie"/>
 <align out="a225" type="" in="b215 b216" creator="0" insign="ski vacation" outsign="skiferie"/>
 <align out="a226" type="" in="b217" creator="0" insign="," outsign=","/>
 <align out="a228" type="" in="b224" creator="0" insign="brokers" outsign="formidler"/>
-<align out="a227" type="" in="a227" creator="0" insign="så" outsign="så"/>
+<align out="a227" type="" in="a227" creator="0" insign="sÃ¥" outsign="sÃ¥"/>
 <align out="a231" type="" in="b220" creator="0" insign="Ferie" outsign="Ferie"/>
 <align out="a215" type="" in="b205" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a218" type="" in="b206" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a224" type="" in="b213" creator="-1" insign="on" outsign="på"/>
+<align out="a224" type="" in="b213" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a220" type="" in="b208" creator="-1" insign="you" outsign="man"/>
 <align out="a229" type="" in="b218" creator="-1" insign="Dansk" outsign="Dansk"/>
-<align out="a236" type="" in="b226" creator="0" insign="number" outsign="række"/>
-<align out="a236" type="s" in="b227" creator="0" insign="of" outsign="række"/>
+<align out="a236" type="" in="b226" creator="0" insign="number" outsign="rÃ¦kke"/>
+<align out="a236" type="s" in="b227" creator="0" insign="of" outsign="rÃ¦kke"/>
 <align out="a233" type="" in="b222" creator="-1" insign="Valby" outsign="Valby"/>
 <align out="a232" type="" in="b221" creator="-1" insign="," outsign=","/>
 <align out="a234" type="" in="b223" creator="-1" insign="," outsign=","/>

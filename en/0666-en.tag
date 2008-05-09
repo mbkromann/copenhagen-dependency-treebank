@@ -97,7 +97,7 @@
 <W msd="JJ" in="-1:mod" out="">residential</W>
 <W msd="NN" in="-2:nobj" out="">street</W>
 <W msd="IN" in="-3:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">Næstved</W>
+<W msd="NN" in="-1:nobj" out="">NÃ¦stved</W>
 <W msd="." in="-26:pnct" out="">.</W>
 </s>
 <s>
@@ -161,10 +161,10 @@
 <W msd="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:mod" out="">Fodbygård</W>
+<W msd="NNP" in="1:mod" out="">FodbygÃ¥rd</W>
 <W msd="NNP" in="3:subj|4:[subj]|8:[subj]" out="-1:mod|1:mod">Manor</W>
 <W msd="IN" in="-1:mod" out="1:nobj">near</W>
-<W msd="NN" in="-1:nobj" out="">Næstved</W>
+<W msd="NN" in="-1:nobj" out="">NÃ¦stved</W>
 <W msd="VBD" in="" out="-3:subj|1:vobj|12:pnct">was</W>
 <W msd="VBN" in="-1:vobj" out="-4:[subj]|1:pobj|3:coord">taken</W>
 <W msd="IN" in="-1:pobj" out="1:nobj">from</W>
@@ -182,7 +182,7 @@
 <s>
 <W msd="NN" in="4:mod" out="1:pnct">Today</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="1:namef" out="">Bøje</W>
+<W msd="NNP" in="1:namef" out="">BÃ¸je</W>
 <W msd="NNP" in="1:subj|2:[subj]" out="-1:namef">Nielsen</W>
 <W msd="VBZ" in="" out="-4:mod|-1:subj|1:vobj|10:pnct">is</W>
 <W msd="VBN" in="-1:vobj" out="-2:[subj]|1:mod|5:pobj">married</W>
@@ -215,6 +215,6 @@
 <W msd="PRP$" in="-1:nobj" out="1:nobj">his</W>
 <W msd="NN" in="-1:nobj" out="2:appr">adversary</W>
 <W msd="NNP" in="1:namef" out="">Axel</W>
-<W msd="NNP" in="-2:appr" out="-1:namef">Juhl-Jørgensen</W>
+<W msd="NNP" in="-2:appr" out="-1:namef">Juhl-JÃ¸rgensen</W>
 <W msd="." in="-18:pnct" out="">.</W>
 </s>

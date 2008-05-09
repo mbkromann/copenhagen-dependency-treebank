@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0864-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0864-da.tag" sign="_input"/>
 <alignFile key="b" href="../en/0864-en.tag" sign="_input"/>
 <align out="a43" type="" in="b1" creator="-1" insign="It" outsign="Det"/>
 <align out="a46" type="" in="b4 b5" creator="-1" insign="a lot" outsign="meget"/>
@@ -29,12 +29,12 @@
 <align out="a85" type="" in="b40" creator="-1" insign="or" outsign="eller"/>
 <align out="a86" type="" in="b41" creator="-1" insign="a" outsign="en"/>
 <align out="a87" type="" in="b42" creator="-1" insign="drastic" outsign="drastisk"/>
-<align out="a88" type="" in="b43" creator="-1" insign="increase" outsign="forøgelse"/>
+<align out="a88" type="" in="b43" creator="-1" insign="increase" outsign="forÃ¸gelse"/>
 <align out="a89" type="" in="b44" creator="-1" insign="in" outsign="af"/>
 <align out="a91" type="" in="b48" creator="-1" insign="," outsign=","/>
 <align out="a92" type="" in="b49" creator="-1" insign="which" outsign="hvilket"/>
 <align out="a93" type="" in="b50" creator="-1" insign="would" outsign="vil"/>
-<align out="a94" type="" in="b51" creator="-1" insign="be" outsign="være"/>
+<align out="a94" type="" in="b51" creator="-1" insign="be" outsign="vÃ¦re"/>
 <align out="a95" type="" in="b52" creator="-1" insign="very" outsign="meget"/>
 <align out="a96" type="" in="b53" creator="-1" insign="risky" outsign="risikabelt"/>
 <align out="a97" type="" in="b54" creator="-1" insign="and" outsign="og"/>
@@ -55,13 +55,13 @@
 <align out="a128" type="" in="b84" creator="-1" insign="which" outsign="som"/>
 <align out="a129" type="" in="b85" creator="-1" insign="they" outsign="de"/>
 <align out="a131" type="" in="b88" creator="-1" insign="always" outsign="altid"/>
-<align out="a132" type="" in="b89" creator="-1" insign="do" outsign="gør"/>
+<align out="a132" type="" in="b89" creator="-1" insign="do" outsign="gÃ¸r"/>
 <align out="a133" type="" in="b90" creator="-1" insign="during" outsign="under"/>
 <align out="a134" type="" in="b91" creator="-1" insign="crises" outsign="kriser"/>
 <align out="a135" type="" in="b92" creator="-1" insign="," outsign=","/>
 <align out="a136" type="" in="b93" creator="-1" insign="but" outsign="men"/>
 <align out="a137" type="" in="b94" creator="-1" insign="without" outsign="uden"/>
-<align out="a139" type="" in="b96" creator="-1" insign="on" outsign="på"/>
+<align out="a139" type="" in="b96" creator="-1" insign="on" outsign="pÃ¥"/>
 <align out="a140" type="" in="a140" creator="-1" insign="," outsign=","/>
 <align out="a141" type="" in="b97" creator="-1" insign="how" outsign="hvordan"/>
 <align out="a142" type="" in="b98" creator="-1" insign="it" outsign="dette"/>
@@ -72,11 +72,11 @@
 <align out="a151" type="" in="b107" creator="-1" insign="Clinton" outsign="Clinton"/>
 <align out="a152" type="" in="b108" creator="-1" insign="has" outsign="har"/>
 <align out="a160" type="" in="b114" creator="-1" insign="for" outsign="af"/>
-<align out="a165" type="" in="b117" creator="-1" insign="harsh" outsign="hård"/>
+<align out="a165" type="" in="b117" creator="-1" insign="harsh" outsign="hÃ¥rd"/>
 <align out="a166" type="" in="b118" creator="-1" insign="criticism" outsign="kritik"/>
 <align out="a167" type="" in="b119" creator="-1" insign="of" outsign="af"/>
 <align out="a169" type="" in="b122" creator="-1" insign="will" outsign="skal"/>
-<align out="a170" type="" in="b123" creator="-1" insign="push" outsign="støde"/>
+<align out="a170" type="" in="b123" creator="-1" insign="push" outsign="stÃ¸de"/>
 <align out="a171" type="" in="b124" creator="-1" insign="white" outsign="hvide"/>
 <align out="a174" type="" in="b129" creator="-1" insign="from" outsign="fra"/>
 <align out="a175" type="" in="b130 b131" creator="-1" insign="the Democrats" outsign="demokraterne"/>
@@ -102,10 +102,10 @@
 <align out="a210" type="" in="b166" creator="-1" insign="been" outsign="blevet"/>
 <align out="a212" type="" in="a212" creator="-1" insign="," outsign=","/>
 <align out="a213" type="" in="b169" creator="-1" insign="where" outsign="hvor"/>
-<align out="a214" type="" in="b170 b171" creator="-1" insign="the voters" outsign="vælgerne"/>
+<align out="a214" type="" in="b170 b171" creator="-1" insign="the voters" outsign="vÃ¦lgerne"/>
 <align out="a217" type="" in="b174" creator="-1" insign="into" outsign="i"/>
 <align out="a218" type="" in="b175" creator="-1" insign="three" outsign="tre"/>
-<align out="a219" type="" in="b176" creator="-1" insign="almost" outsign="næsten"/>
+<align out="a219" type="" in="b176" creator="-1" insign="almost" outsign="nÃ¦sten"/>
 <align out="a220" type="" in="b177" creator="-1" insign="equally" outsign="lige"/>
 <align out="a221" type="" in="b178" creator="-1" insign="large" outsign="store"/>
 <align out="a222" type="" in="b179" creator="-1" insign="groups" outsign="grupper"/>
@@ -133,8 +133,8 @@
 <align out="a49" type="" in="b9" creator="0" insign="association" outsign="sammenslutningen"/>
 <align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
 <align out="a55" type="" in="b14" creator="0" insign="that" outsign="at"/>
-<align out="a71 a72 a73" type="" in="b28 b29" creator="0" insign="be done" outsign="lade sig gøre"/>
-<align out="a76" type="" in="b33" creator="0" insign="increase" outsign="forhøjelse"/>
+<align out="a71 a72 a73" type="" in="b28 b29" creator="0" insign="be done" outsign="lade sig gÃ¸re"/>
+<align out="a76" type="" in="b33" creator="0" insign="increase" outsign="forhÃ¸jelse"/>
 <align out="a78" type="" in="b32" creator="0" insign="tax" outsign="skatterne"/>
 <align out="a77" type="s" in="b33" creator="0" insign="increase" outsign="af"/>
 <align out="a64" type="" in="b24" creator="-1" insign="</s>" outsign="</s>"/>
@@ -147,8 +147,8 @@
 <align out="a110" type="" in="b65" creator="0" insign="Party" outsign="parti"/>
 <align out="b66" type="" in="b66" creator="0" insign="yet" outsign="yet"/>
 <align out="a112" type="" in="a112" creator="0" insign="," outsign=","/>
-<align out="a125" type="" in="b80" creator="0" insign="proposed" outsign="foreslået"/>
-<align out="a126" type="" in="b81 b82" creator="0" insign="job-creation programs" outsign="beskæftigelsesarbejder"/>
+<align out="a125" type="" in="b80" creator="0" insign="proposed" outsign="foreslÃ¥et"/>
+<align out="a126" type="" in="b81 b82" creator="0" insign="job-creation programs" outsign="beskÃ¦ftigelsesarbejder"/>
 <align out="a115" type="" in="b70" creator="-1" insign="will" outsign="skal"/>
 <align out="a119" type="" in="b73" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a120" type="" in="b74" creator="-1" insign="<s>" outsign="<s>"/>
@@ -164,10 +164,10 @@
 <align out="a163" type="" in="a163" creator="0" insign="," outsign=","/>
 <align out="a164" type="" in="b116" creator="0" insign="that" outsign="at"/>
 <align out="a146" type="" in="b104" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a168" type="" in="b120 b121" creator="-1" insign="the president" outsign="præsidenten"/>
+<align out="a168" type="" in="b120 b121" creator="-1" insign="the president" outsign="prÃ¦sidenten"/>
 <align out="a149" type="" in="b105" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a172" type="" in="b125 b126 b127" creator="0" insign="middle class voters" outsign="mellemklassevælgere"/>
-<align out="a173" type="" in="b128" creator="0" insign="away" outsign="væk"/>
+<align out="a172" type="" in="b125 b126 b127" creator="0" insign="middle class voters" outsign="mellemklassevÃ¦lgere"/>
+<align out="a173" type="" in="b128" creator="0" insign="away" outsign="vÃ¦k"/>
 <align out="a179" type="" in="b134" creator="0" insign="happened" outsign="skete"/>
 <align out="a181" type="" in="b136 b137" creator="0" insign="the 1980s" outsign="1980erne"/>
 <align out="a183" type="" in="b139" creator="-1" insign="</s>" outsign="</s>"/>
@@ -175,11 +175,11 @@
 <align out="a192" type="" in="b147" creator="0" insign="attacking" outsign="angribe"/>
 <align out="a191" type="s" in="b147" creator="0" insign="attacking" outsign="at"/>
 <align out="a193" type="f" in="b148" creator="0" insign="urban" outsign="storbyernes"/>
-<align out="a199" type="" in="b157 b158 b159" creator="0" insign="at the moment" outsign="foreløbig"/>
+<align out="a199" type="" in="b157 b158 b159" creator="0" insign="at the moment" outsign="forelÃ¸big"/>
 <align out="a196" type="" in="b152 b153" creator="0" insign="is keeping" outsign="holder"/>
 <align out="a204" type="" in="b161" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a207" type="" in="b162" creator="-1" insign="<s>" outsign="<s>"/>
-<align out="a211" type="" in="b167 b168" creator="0" insign="opinion polls" outsign="meningsmålinger"/>
+<align out="a211" type="" in="b167 b168" creator="0" insign="opinion polls" outsign="meningsmÃ¥linger"/>
 <align out="a215" type="" in="b172 b173" creator="0" insign="are divided" outsign="deler"/>
 <align out="a216" type="s" in="b172 b173" creator="0" insign="are divided" outsign="sig"/>
 <align out="a233" type="" in="b190 b191 b192" creator="0" insign="the election campaign" outsign="valgkampen"/>

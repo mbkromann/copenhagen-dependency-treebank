@@ -78,7 +78,7 @@
 <W msd="PREP" lemma="de">de</W>
 <W msd="ART" lemma="el">lo</W>
 <W msd="NC" lemma="contrario">contrario</W>
-<W msd="PPO" lemma="Èl">los</W>
+<W msd="PPO" lemma="l">los</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">hubi√©ramos</W>
 <W msd="VLadj" lemma="invitar">invitado</W>
 <W msd="PREP" lemma="a">a</W>
@@ -93,7 +93,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">as√≠</W>
 <W msd="CQUE" lemma="que">que</W>
-<W msd="PPX" lemma="Èl">ellos</W>
+<W msd="PPX" lemma="l">ellos</W>
 <W msd="NEG" lemma="no">no</W>
 <W msd="VMfin" lemma="poder">pueden</W>
 <W msd="VLinf" lemma="contar">contarme</W>
@@ -108,7 +108,7 @@
 <W msd="CM" lemma=",">,</W>
 <W msd="PREP" lemma="a">a</W>
 <W msd="REL" lemma="quien">quien</W>
-<W msd="PPC" lemma="Èl">le</W>
+<W msd="PPC" lemma="l">le</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">pareci√≥</W>
 <W msd="ADV" lemma="muy">muy</W>
 <W msd="ADV" lemma="bien">bien</W>

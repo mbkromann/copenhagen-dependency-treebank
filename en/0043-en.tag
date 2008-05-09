@@ -19,7 +19,7 @@
 <W msd="IN" in="-1:pobj" out="1:nobj">between</W>
 <W msd="NNP" in="-1:nobj" out="1:coord">AGF</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NNP" in="-1:conj" out="">Brøndby</W>
+<W msd="NNP" in="-1:conj" out="">BrÃ¸ndby</W>
 <W msd="," in="-12:pnct" out="">,</W>
 <W msd="VBD" in="-7:mod" out="3:mod|4:pobj">followed</W>
 <W msd="DT" in="2:mod" out="1:nobj">the</W>
@@ -77,7 +77,7 @@
 <W msd=":" in="-3:pnct" out="">:</W>
 </s>
 <s>
-<W msd="NNP" in="-6:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|8:coord">Lyngby-Brøndby</W>
+<W msd="NNP" in="-6:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|8:coord">Lyngby-BrÃ¸ndby</W>
 <W msd="," in="-1:pnct" out="">,</W>
 <W msd="NNP" in="-2:conj" out="">Silkeborg-AGF</W>
 <W msd="," in="-3:pnct" out="">,</W>

@@ -21,7 +21,7 @@
 <W msd="VBZ" in="" out="-6:mod|-1:subj|1:vobj|8:pnct">has</W>
 <W msd="VBN" in="-1:vobj" out="-2:[subj]|1:lobj|3:mod">lived</W>
 <W msd="IN" in="-1:lobj" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Taastrupgård</W>
+<W msd="NNP" in="-1:nobj" out="">TaastrupgÃ¥rd</W>
 <W msd="IN" in="-3:mod" out="2:vobj">since</W>
 <W msd="PRP" in="1:subj" out="">he</W>
 <W msd="VBD" in="-2:vobj" out="-1:subj|1:lobj">came</W>
@@ -63,7 +63,7 @@
 <W msd="VBG" in="-1:vobj" out="-5:[subj]|1:dobj">remaining</W>
 <W msd="VBG" in="-1:dobj" out="1:lobj">living</W>
 <W msd="IN" in="-1:lobj" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Taastrupgård</W>
+<W msd="NNP" in="-1:nobj" out="">TaastrupgÃ¥rd</W>
 <W msd="." in="-8:pnct" out="">.</W>
 </s>
 <s>

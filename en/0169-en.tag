@@ -10,7 +10,7 @@
 <W msd="IN" in="-1:pred" out="1:nobj">in</W>
 <W msd="NN" in="-1:nobj" out="">treatment</W>
 <W msd="IN" in="-3:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="">Lænken</W>
+<W msd="NNP" in="-1:nobj" out="">LÃ¦nken</W>
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -54,7 +54,7 @@
 <W msd="NN" in="1:mod" out="">volunteer</W>
 <W msd="NN" in="-2:dobj" out="-1:mod|1:mod|3:mod">work</W>
 <W msd="IN" in="-1:mod" out="1:nobj">with</W>
-<W msd="NNP" in="-1:nobj" out="">Lænken</W>
+<W msd="NNP" in="-1:nobj" out="">LÃ¦nken</W>
 <W msd="IN" in="-3:mod" out="1:nobj">as</W>
 <W msd="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NN" in="1:mod" out="">contact</W>
@@ -216,7 +216,7 @@
 <W msd="JJ" in="1:mod" out="">new</W>
 <W msd="NNS" in="-2:dobj" out="-1:mod">friends</W>
 <W msd="IN" in="-3:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="">Lænken</W>
+<W msd="NNP" in="-1:nobj" out="">LÃ¦nken</W>
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>

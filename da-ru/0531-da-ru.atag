@@ -1,0 +1,178 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0531-da.tag" sign="_input"/>
+<alignFile key="b" href="../ru/0531-ru.tag" sign="_input"/>
+<align out="a48" type="" in="b6" creator="0" insign="РИТСАУС" outsign="RTZ"/>
+<align out="a49" type="" in="b7" creator="0" insign="ПЕРЕДАТЬ" outsign="UDSENDES"/>
+<align out="a50" type="" in="a50" creator="0" insign="KL" outsign="KL"/>
+<align out="a56" type="" in="b13" creator="0" insign="ЕР" outsign="ER"/>
+<align out="a44" type="" in="b2" creator="-1" insign="=" outsign="="/>
+<align out="a47" type="" in="b5" creator="-1" insign="=" outsign="="/>
+<align out="a51" type="" in="b8" creator="-1" insign="=" outsign="="/>
+<align out="a54" type="" in="b11" creator="-1" insign="=" outsign="="/>
+<align out="a55" type="" in="b12" creator="-1" insign="=" outsign="="/>
+<align out="a43" type="" in="b1" creator="-1" insign="СОТР" outsign="MEDARB"/>
+<align out="a45" type="" in="b3" creator="-1" insign="АГГ" outsign="AGG"/>
+<align out="a46" type="" in="b4" creator="-1" insign="ИСТОЧНИК" outsign="KILDE"/>
+<align out="a52" type="" in="b9" creator="-1" insign="16.00" outsign="1600"/>
+<align out="a53" type="" in="b10" creator="-1" insign="ДИКТОР" outsign="OPLSER"/>
+<align out="a63" type="" in="a63" creator="0" insign="De" outsign="De"/>
+<align out="a64" type="" in="b14" creator="0" insign="Два" outsign="to"/>
+<align out="a66" type="" in="b16 b17" creator="0" insign="главных руководителя" outsign="topchefer"/>
+<align out="a70" type="" in="b18" creator="0" insign="БАНКА" outsign="Banken"/>
+<align out="a68" type="" in="b19" creator="0" insign="6" outsign="6."/>
+<align out="a69" type="" in="b20" creator="0" insign="ИЮЛЯ" outsign="juli"/>
+<align out="a67" type="" in="a67" creator="0" insign="i" outsign="i"/>
+<align out="a72" type="" in="b22 b23" creator="0" insign="председатель правления" outsign="bestyrelsesformand"/>
+<align out="a76" type="" in="b27" creator="-1" insign="и" outsign="og"/>
+<align out="a71" type="" in="b21" creator="-1" insign="," outsign=","/>
+<align out="a80" type="" in="b31" creator="-1" insign="," outsign=","/>
+<align out="a65" type="" in="b15" creator="-1" insign="осужденных" outsign="dmte"/>
+<align out="a73" type="" in="b24" creator="-1" insign="Нильс" outsign="Niels"/>
+<align out="a74" type="" in="b25" creator="-1" insign="Йохан" outsign="Johan"/>
+<align out="a75" type="" in="b26" creator="-1" insign="Леер" outsign="Leer"/>
+<align out="a77" type="" in="b28" creator="-1" insign="директор" outsign="direktr"/>
+<align out="a78" type="" in="b29" creator="-1" insign="Джон" outsign="John"/>
+<align out="a79" type="" in="b30" creator="-1" insign="Ольсдорф" outsign="Olsdorf"/>
+<align out="a81" type="" in="b32 b35 b36" creator="0" insign="подали на апелляцию" outsign="ankede"/>
+<align out="a82 a83" type="" in="b33 b34" creator="0" insign="сразу же" outsign="p stedet"/>
+<align out="a84" type="" in="b37" creator="0" insign="решение" outsign="dommen"/>
+<align out="a85" type="" in="a85" creator="0" insign="fra" outsign="fra"/>
+<align out="a86" type="" in="b38" creator="0" insign="Копенгагенского" outsign="Kbenhavns"/>
+<align out="a87" type="" in="b39 b40" creator="0" insign="городского суда" outsign="byret"/>
+<align out="a89" type="" in="b42" creator="0" insign="требованием" outsign="krav"/>
+<align out="a90" type="" in="a90" creator="0" insign="om" outsign="om"/>
+<align out="a88" type="" in="b41" creator="-1" insign="с" outsign="med"/>
+<align out="a92" type="" in="b44" creator="-1" insign="." outsign="."/>
+<align out="a91" type="" in="b43" creator="-1" insign="оправдания" outsign="frifindelse"/>
+<align out="a95" type="" in="b46" creator="0" insign="также" outsign="Ogs"/>
+<align out="a96" type="" in="b45" creator="0" insign="Обвинение" outsign="anklagemyndigheden"/>
+<align out="a99" type="" in="a99" creator="0" insign="en" outsign="en"/>
+<align out="a97 a98" type="" in="b47 b48 b49" creator="0" insign="оставляет за собой" outsign="har reserveret"/>
+<align out="a100" type="" in="b50 b51" creator="0" insign="возможность обжалования" outsign="ankemylighed"/>
+<align out="a112" type="" in="b59" creator="-1" insign="и" outsign="og"/>
+<align out="a101" type="" in="b52" creator="-1" insign="." outsign="."/>
+<align out="a107" type="" in="b53 b54" creator="0" insign="Председатель правления" outsign="Bestyrelsesformanden"/>
+<align out="a113" type="" in="a113" creator="0" insign="en" outsign="en"/>
+<align out="a116" type="" in="a116" creator="0" insign="en" outsign="en"/>
+<align out="a117" type="" in="b63" creator="0" insign="миллиона" outsign="million"/>
+<align out="a115" type="" in="b61 b62" creator="0" insign="в размере" outsign="p"/>
+<align out="a118" type="" in="b64" creator="0" insign="крон" outsign="kroner"/>
+<align out="a119" type="" in="b65" creator="0" insign="за" outsign="for"/>
+<align out="a120" type="" in="b66 b67" creator="0" insign="злоупотребление доверием" outsign="mandagsvig"/>
+<align out="a122" type="" in="b69 b70 b71" creator="0" insign="афёры с налогами" outsign="skattesvig"/>
+<align out="a121" type="" in="b68" creator="-1" insign="," outsign=","/>
+<align out="a108" type="" in="b55" creator="-1" insign="получил" outsign="fik"/>
+<align out="a109" type="" in="b56" creator="-1" insign="полтора" outsign="halvandet"/>
+<align out="a110" type="" in="b57" creator="-1" insign="года" outsign="rs"/>
+<align out="a111" type="" in="b58" creator="-1" insign="тюрьмы" outsign="fngsel"/>
+<align out="a114" type="" in="b60" creator="-1" insign="штраф" outsign="bde"/>
+<align out="a123" type="" in="a123" creator="0" insign="af" outsign="af"/>
+<align out="a124" type="" in="b72" creator="0" insign="особо" outsign="srlig"/>
+<align out="a125" type="" in="b73" creator="0" insign="грубого" outsign="grov"/>
+<align out="a126" type="" in="b74" creator="0" insign="характера" outsign="karakter"/>
+<align out="a127" type="" in="a127" creator="0" insign="og" outsign="og"/>
+<align out="b75" type="" in="b75" creator="0" insign="," outsign=","/>
+<align out="a128" type="" in="b76" creator="0" insign="нарушение" outsign="overtrdelse"/>
+<align out="a129" type="" in="a129" creator="0" insign="af" outsign="af"/>
+<align out="a130" type="" in="b77 b78 b79" creator="0" insign="закона акционерного общества" outsign="aktieselskabsloven"/>
+<align out="b80" type="" in="b80" creator="0" insign="," outsign=","/>
+<align out="a131" type="" in="b81 b82" creator="0" insign="а также" outsign="og"/>
+<align out="b83" type="" in="b83" creator="0" insign="нарушение" outsign="нарушение"/>
+<align out="a132 a133 a134" type="" in="b84 b85 b86 b87 b88" creator="0" insign="закона о банках и сберкассах" outsign="bank- og sparekasseloven"/>
+<align out="a135" type="" in="b89" creator="-1" insign="." outsign="."/>
+<align out="a138" type="" in="b91" creator="0" insign="банка" outsign="Bankens"/>
+<align out="a139" type="" in="b90" creator="0" insign="Директор" outsign="direktr"/>
+<align out="a147" type="" in="a147" creator="0" insign="en" outsign="en"/>
+<align out="a149" type="" in="b102 b103" creator="0" insign="90 000" outsign="90.000"/>
+<align out="b100 b101" type="" in="b100 b101" creator="0" insign="в размере" outsign="в размере"/>
+<align out="a140" type="" in="b92" creator="-1" insign="Джон" outsign="John"/>
+<align out="a142" type="" in="b94" creator="-1" insign="получил" outsign="fik"/>
+<align out="a143" type="" in="b95" creator="-1" insign="6" outsign="6"/>
+<align out="a145" type="" in="b97" creator="-1" insign="тюрьмы" outsign="fngsel"/>
+<align out="a146" type="" in="b98" creator="-1" insign="и" outsign="og"/>
+<align out="a148" type="" in="b99" creator="-1" insign="штраф" outsign="bde"/>
+<align out="a150" type="" in="b104" creator="-1" insign="крон" outsign="kroner"/>
+<align out="a151" type="" in="b105" creator="-1" insign="." outsign="."/>
+<align out="a141" type="" in="b93" creator="-1" insign="Ольсдорф" outsign="Olsdorff"/>
+<align out="a144" type="" in="b96" creator="-1" insign="месяцев" outsign="mneders"/>
+<align out="a157" type="" in="b106" creator="0" insign="Оба" outsign="Begge"/>
+<align out="a158 a159" type="" in="b107" creator="0" insign="обвиняются" outsign="er tiltalt"/>
+<align out="a160" type="" in="b108" creator="0" insign="в" outsign="for"/>
+<align out="a161 a162 a163" type="" in="b109" creator="0" insign="нанесении" outsign="at have pfrt"/>
+<align out="a164" type="" in="b110" creator="0" insign="банку" outsign="banken"/>
+<align out="a165" type="" in="a165" creator="0" insign="et" outsign="et"/>
+<align out="a166" type="" in="b111" creator="0" insign="ущерба" outsign="tab"/>
+<align out="a172" type="f" in="b118" creator="0" insign="из-за" outsign="ved"/>
+<align out="a175" type="" in="b121" creator="0" insign="противозаконного" outsign="ulovlig"/>
+<align out="a176" type="" in="b122 b123" creator="0" insign="предоставления займов" outsign="lngivning"/>
+<align out="a169" type="" in="b115" creator="-1" insign="60" outsign="60"/>
+<align out="a171" type="" in="b117" creator="-1" insign="крон" outsign="kroner"/>
+<align out="a174" type="" in="b120" creator="-1" insign="и" outsign="og"/>
+<align out="a167" type="" in="b112 b113" creator="-1" insign="в размере" outsign="p"/>
+<align out="a168" type="" in="b114" creator="-1" insign="приблизительно" outsign="omkring"/>
+<align out="a170" type="" in="b116" creator="-1" insign="миллионов" outsign="millioner"/>
+<align out="a173" type="" in="b119" creator="-1" insign="безответственного" outsign="uforsvarlig"/>
+<align out="a177" type="" in="b124" creator="0" insign="." outsign="."/>
+<align out="b127" type="" in="b127" creator="0" insign="," outsign=","/>
+<align out="a182" type="" in="b125 b126" creator="0" insign="Кроме того" outsign="desuden"/>
+<align out="a180" type="" in="b128" creator="0" insign="они" outsign="De"/>
+<align out="a184" type="" in="b131 b132" creator="0" insign="налоговому ведомству" outsign="skattevsenet"/>
+<align out="a181 a183" type="f" in="b129 b130" creator="0" insign="не доплатили" outsign="har unddraget"/>
+<align out="a185" type="" in="b133" creator="-1" insign="3,5" outsign="3,5"/>
+<align out="a187" type="" in="b135" creator="-1" insign="крон" outsign="kroner"/>
+<align out="a194" type="" in="b137" creator="-1" insign="Два" outsign="To"/>
+<align out="a188" type="" in="b136" creator="-1" insign="." outsign="."/>
+<align out="a199" type="" in="b143" creator="-1" insign="." outsign="."/>
+<align out="a186" type="" in="b134" creator="-1" insign="миллиона" outsign="millioner"/>
+<align out="a196" type="" in="b139 b140" creator="0" insign="члена правления" outsign="bestyrelsesmedlemmer"/>
+<align out="a203" type="" in="b149" creator="0" insign="Нильс" outsign="Nils"/>
+<align out="a207" type="" in="b144" creator="0" insign="Однако" outsign="dog"/>
+<align out="a204" type="" in="b150" creator="0" insign="Эрик" outsign="Erik"/>
+<align out="a202" type="" in="b146 b147 b148" creator="0" insign="судья городского суда" outsign="Byretsdommer"/>
+<align out="b145" type="" in="b145" creator="0" insign="," outsign=","/>
+<align out="a206 a208 a209 a210" type="" in="b152 b153 b154" creator="0" insign="не стал скрывать" outsign="lagde ikke skjul p"/>
+<align out="a212" type="" in="b156" creator="-1" insign="что" outsign="at"/>
+<align out="a205" type="" in="b151" creator="-1" insign="Енсен" outsign="Jensen"/>
+<align out="a211" type="" in="b155" creator="-1" insign="," outsign=","/>
+<align out="a195" type="" in="b138" creator="-1" insign="рядовых" outsign="menige"/>
+<align out="a197" type="" in="b141" creator="-1" insign="были" outsign="blev"/>
+<align out="a198" type="" in="b142" creator="-1" insign="оправданы" outsign="frifundet"/>
+<align out="a213" type="" in="b162 b163" creator="0" insign="члены правления" outsign="bestyrelsesmedlemmerne"/>
+<align out="a219" type="" in="b158" creator="0" insign="чистой" outsign="god"/>
+<align out="a220" type="" in="b159" creator="0" insign="совестью" outsign="samvittighed"/>
+<align out="a217" type="" in="b161" creator="0" insign="домой" outsign="hjem"/>
+<align out="a214" type="" in="b164 b165" creator="0" insign="никак не" outsign="ikke"/>
+<align out="a215" type="" in="b166" creator="0" insign="смогут" outsign="kunne"/>
+<align out="a216" type="f" in="b160" creator="0" insign="отправиться" outsign="g"/>
+<align out="a218" type="" in="b157" creator="-1" insign="с" outsign="med"/>
+<align out="a221" type="" in="b167" creator="-1" insign="." outsign="."/>
+<align out="a228" type="" in="b168" creator="0" insign="Оправдание" outsign="Frifindelsen"/>
+<align out="a230 a231 a232" type="" in="b169 b170 b171 b172" creator="0" insign="ни в коей мере" outsign="p ingen mde"/>
+<align out="a227" type="" in="a227" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="b173" type="" in="b173" creator="0" insign="не" outsign="не"/>
+<align out="a229" type="" in="b174" creator="0" insign="является" outsign="er"/>
+<align out="a233" type="" in="a233" creator="0" insign="en" outsign="en"/>
+<align out="a236" type="" in="b177" creator="0" insign="," outsign=","/>
+<align out="a234 a235" type="" in="b175" creator="0" insign="признанием" outsign="blstempling af"/>
+<align out="b176" type="" in="b176" creator="0" insign="того" outsign="того"/>
+<align out="a239 a240" type="" in="b180" creator="0" insign="выполняли" outsign="har varetaget"/>
+<align out="a241" type="" in="b181" creator="0" insign="свою" outsign="deres"/>
+<align out="a242" type="" in="b182 b183 b184" creator="0" insign="работу в правлении" outsign="bestyrelsesarbejde"/>
+<align out="a243 a244 a245" type="" in="b185" creator="0" insign="образцовопоказательно" outsign="p forbilledlig vis"/>
+<align out="a238" type="" in="b179" creator="-1" insign="они" outsign="de"/>
+<align out="a237" type="" in="b178" creator="-1" insign="что" outsign="at"/>
+<align out="a247" type="" in="b187" creator="0" insign="это" outsign="det"/>
+<align out="a246" type="" in="b186" creator="0" insign="–" outsign="&nbsp;-&nbsp;"/>
+<align out="a249 a250 a251" type="" in="b188 b189 b190" creator="0" insign="отнюдь не так" outsign="langt fra tilfldet"/>
+<align out="b192" type="" in="b192" creator="0" insign="-" outsign="-"/>
+<align out="a253" type="" in="b193" creator="0" insign="добавил" outsign="indskd"/>
+<align out="a254" type="" in="b194" creator="0" insign="судья" outsign="dommeren"/>
+<align out="a256" type="" in="b196" creator="0" insign="своим" outsign="sine"/>
+<align out="a257" type="" in="b197" creator="0" insign="замечаниям" outsign="bemrkninger"/>
+<align out="a259" type="" in="b200 b201" creator="0" insign="судебного заключения" outsign="dommen"/>
+<align out="a258" type="f" in="b198 b199" creator="0" insign="по поводу" outsign="til"/>
+<align out="a255" type="f" in="b195" creator="0" insign="к" outsign="under"/>
+<align out="a252" type="" in="b191" creator="-1" insign="," outsign=","/>
+<align out="a260" type="" in="b202" creator="-1" insign="." outsign="."/>
+<align out="a248" type="" in="a248" creator="0" insign="er" outsign="er"/>
+</DTAGalign>

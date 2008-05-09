@@ -162,7 +162,7 @@
 <W msd="IN" in="-4:pobj" out="2:nobj">at</W>
 <W msd="RB" in="1:mod" out="">only</W>
 <W msd="CD" in="-2:nobj" out="-1:mod|1:nobj">three</W>
-<W msd="NN" in="-1:nobj" out="">øre</W>
+<W msd="NN" in="-1:nobj" out="">Ã¸re</W>
 <W msd="." in="-8:pnct" out="">.</W>
 </s>
 <s>

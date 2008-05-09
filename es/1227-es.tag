@@ -34,7 +34,7 @@
 <W msd="ADV" lemma="ahora">ahora</W>
 <W msd="ART" lemma="el">los</W>
 <W msd="NC" lemma="&lt;unknown&gt;">ilustradores</W>
-<W msd="ADJ" lemma="danés">daneses</W>
+<W msd="ADJ" lemma="dans">daneses</W>
 <W msd="VLfin" lemma="&lt;unknown&gt;">estarÃ¡n</W>
 <W msd="ADV" lemma="menos">menos</W>
 <W msd="VLadj" lemma="disponer">dispuestos</W>
@@ -70,12 +70,12 @@
 <W msd="CSUBI" lemma="a~pesar~de">a pesar de</W>
 <W msd="CQUE" lemma="que">que</W>
 <W msd="VLfin" lemma="ser">soy</W>
-<W msd="NC" lemma="danés">danesa</W>
+<W msd="NC" lemma="dans">danesa</W>
 <W msd="CC" lemma="y">y</W>
 <W msd="VLfin" lemma="escribir">escribo</W>
 <W msd="PREP" lemma="para">para</W>
 <W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="danés">daneses</W>
+<W msd="NC" lemma="dans">daneses</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="PPX" lemma="yo">Me</W>
 <W msd="VLfin" lemma="sentar|sentir">siento</W>
@@ -96,7 +96,7 @@
 <W msd="PREP" lemma="a">a</W>
 <W msd="NC" lemma="&lt;unknown&gt;">mÃ­,â€</W>
 <W msd="VLfin" lemma="decir">dice</W>
-<W msd="PPX" lemma="él">ella</W>
+<W msd="PPX" lemma="l">ella</W>
 <W msd="FS" lemma=".">.</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">SegÃºn</W>
 <W msd="ART" lemma="el">El</W>
@@ -121,7 +121,7 @@
 <W msd="NC" lemma="&lt;unknown&gt;">veintenaâ€</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="&lt;unknown&gt;">ilustradores</W>
-<W msd="ADJ" lemma="danés">daneses</W>
+<W msd="ADJ" lemma="dans">daneses</W>
 <W msd="ADV" lemma="&lt;unknown&gt;">serÃ¡n</W>
 <W msd="VLadj" lemma="afectar">afectados</W>
 <W msd="PREP" lemma="por">por</W>

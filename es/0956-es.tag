@@ -86,7 +86,7 @@
 <W msd="PREP" lemma="en~cuanto~a">en cuanto a</W>
 <W msd="NC" lemma="&lt;unknown&gt;">daÃ±os</W>
 <W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="instalación">instalaciones</W>
+<W msd="NC" lemma="instalacin">instalaciones</W>
 <W msd="PREP" lemma="de">de</W>
 <W msd="NC" lemma="agua">agua</W>
 <W msd="CM" lemma=",">,</W>
@@ -119,7 +119,7 @@
 <W msd="VLadj" lemma="entregar">entregado</W>
 <W msd="VLadj" lemma="&lt;unknown&gt;">â€“</W>
 <W msd="PREP" lemma="con">con</W>
-<W msd="PPO" lemma="mío">mi</W>
+<W msd="PPO" lemma="mo">mi</W>
 <W msd="NC" lemma="experiencia">experiencia</W>
 <W msd="PREP" lemma="en">en</W>
 <W msd="ART" lemma="el">el</W>

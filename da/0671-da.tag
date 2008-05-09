@@ -15,7 +15,7 @@
         <biblStruct>
           <analytic>
             <title>Samarbejde sikrer skoleeksport</title>
-            <author gender=m born=1954>Sørensen, Bent</author>
+            <author gender=m born=1954>SÃ¸rensen, Bent</author>
           </analytic>
           <monogr>
             <imprint><pubPlace>Denmark</pubPlace>
@@ -43,14 +43,14 @@
 <s>
 <W lemma="den" msd="PD-[CN]PU--U" in="3:subj|7:[subj]" out="1:nobj">De</W>
 <W lemma="to" msd="AC---U=--" in="-1:nobj" out="1:nobj">to</W>
-<W lemma="Næstved-skole" msd="NCCPU==I" in="-1:nobj" out="">Næstved-skoler</W>
+<W lemma="NÃ¦stved-skole" msd="NCCPU==I" in="-1:nobj" out="">NÃ¦stved-skoler</W>
 <W lemma="have" msd="VADR=----A-" in="" out="-3:subj|1:mod|4:vobj|11:pnct|12:coord|45:pnct">har</W>
 <W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
 <W lemma="tid" msd="NCCSG==D" in="-1:nobj" out="1:possd">tidens</W>
-<W lemma="løb" msd="NCNSU==I" in="-1:possd" out="">løb</W>
+<W lemma="lÃ¸b" msd="NCNSU==I" in="-1:possd" out="">lÃ¸b</W>
 <W lemma="have" msd="VAPA=S[CN]I[ARU]-U" in="-4:vobj" out="-7:[subj]|1:dobj|4:mod">haft</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:dobj" out="1:nobj">en</W>
-<W lemma="række" msd="NCCSU==I" in="-1:nobj" out="1:nobj">række</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I" in="-1:nobj" out="1:nobj">rÃ¦kke</W>
 <W lemma="udlandsaktivitet" msd="NCCPU==I" in="-1:nobj" out="">udlandsaktiviteter</W>
 <W lemma="hver" msd="PI-CSU--U" in="-4:mod" out="1:pobj">hver</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
@@ -58,7 +58,7 @@
 <W lemma="," msd="XP" in="-11:pnct" out="">,</W>
 <W lemma="men" msd="CC" in="-12:coord" out="4:conj">men</W>
 <W lemma="med" msd="SP" in="3:mod" out="1:nobj">med</W>
-<W lemma="jerntæppe" msd="NCNSG==D" in="-1:nobj" out="1:possd">jerntæppets</W>
+<W lemma="jerntÃ¦ppe" msd="NCNSG==D" in="-1:nobj" out="1:possd">jerntÃ¦ppets</W>
 <W lemma="fald" msd="NCNSU==I" in="-1:possd" out="">fald</W>
 <W lemma="blive" msd="VADA=----A-" in="-4:conj" out="-3:mod|1:expl|2:vobj">blev</W>
 <W lemma="der" msd="U=" in="-1:expl|1:[expl]" out="">der</W>
@@ -68,33 +68,33 @@
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
 <W lemma="der" msd="U=" in="-3:ref|2:subj|3:[subj]|6:[subj]|7:[subj]" out="">der</W>
 <W lemma="langsom" msd="ANP---=-R" in="1:mod" out="">langsomt</W>
-<W lemma="være" msd="VADR=----A-" in="-5:rel" out="-2:subj|-1:mod|1:vobj|2:coord">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="-5:rel" out="-2:subj|-1:mod|1:vobj|2:coord">er</W>
 <W lemma="udbygge" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-3:[subj]">udbygget</W>
 <W lemma="og" msd="CC" in="-2:coord" out="2:conj">og</W>
 <W lemma="nu" msd="RGU" in="1:mod" out="">nu</W>
 <W lemma="have" msd="VADR=----A-" in="-2:conj" out="-1:mod|-6:[subj]|1:vobj">har</W>
 <W lemma="resultere" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-7:[subj]|1:pobj">resulteret</W>
 <W lemma="i" msd="SP" in="-1:pobj" out="2:nobj">i</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U" in="1:mod" out="">fælles</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U" in="1:mod" out="">fÃ¦lles</W>
 <W lemma="udbud" msd="NCNPU==I" in="-2:nobj" out="-1:mod|1:pobj">udbud</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:nobj|5:mod">en</W>
-<W lemma="række" msd="NCCSU==I" in="-1:nobj" out="1:mod|2:nobj">række</W>
-<W lemma="fælles" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">fælles</W>
-<W lemma="kursus-forløb" msd="NCNPU==I" in="-2:nobj" out="">kursus-forløb</W>
+<W lemma="rÃ¦kke" msd="NCCSU==I" in="-1:nobj" out="1:mod|2:nobj">rÃ¦kke</W>
+<W lemma="fÃ¦lles" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">fÃ¦lles</W>
+<W lemma="kursus-forlÃ¸b" msd="NCNPU==I" in="-2:nobj" out="">kursus-forlÃ¸b</W>
 <W lemma="dels" msd="RGU" in="4:mod" out="">dels</W>
 <W lemma="i" msd="SP" in="-5:mod" out="1:nobj|2:coord">i</W>
 <W lemma="Polen" msd="NP--U==-" in="-1:nobj" out="">Polen</W>
 <W lemma="og" msd="CC" in="-2:coord" out="1:conj">og</W>
 <W lemma="dels" msd="RGU" in="-1:conj" out="-4:mod|1:mod">dels</W>
 <W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
-<W lemma="Næstved" msd="NP--U==-" in="-1:nobj" out="">Næstved</W>
+<W lemma="NÃ¦stved" msd="NP--U==-" in="-1:nobj" out="">NÃ¦stved</W>
 <W lemma="." msd="XP" in="-45:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="på" msd="SP" in="5:mod" out="1:nobj">På</W>
+<W lemma="pÃ¥" msd="SP" in="5:mod" out="1:nobj">PÃ¥</W>
 <W lemma="en" msd="PI-NSU--U" in="-1:nobj" out="1:nobj|2:mod">et</W>
 <W lemma="undervisningscenter" msd="NCNSU==I" in="-1:nobj" out="">undervisningscenter</W>
 <W lemma="i" msd="SP" in="-2:mod" out="1:nobj">i</W>
@@ -102,7 +102,7 @@
 <W lemma="have" msd="VADA=----A-" in="" out="-5:mod|1:subj|2:mod|5:dobj|20:pnct">havde</W>
 <W lemma="skole" msd="NCCPU==D" in="-1:subj" out="">skolerne</W>
 <W lemma="i" msd="SP" in="-2:mod" out="1:nobj">i</W>
-<W lemma="efterår" msd="NCNSU==D" in="-1:nobj" out="">efteråret</W>
+<W lemma="efterÃ¥r" msd="NCNSU==D" in="-1:nobj" out="">efterÃ¥ret</W>
 <W lemma="stor" msd="ANPCSU=IU" in="1:mod" out="">stor</W>
 <W lemma="succes" msd="NCCSU==I" in="-5:dobj" out="-1:mod|1:pobj">succes</W>
 <W lemma="med" msd="SP" in="-1:pobj" out="1:nobj">med</W>
@@ -111,14 +111,14 @@
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
 <W lemma="34" msd="AC---U=--" in="-1:nobj" out="1:mod|2:nobj|3:mod">34</W>
 <W lemma="polsk" msd="ANP[CN]PU=[DI]U" in="-1:mod" out="">polske</W>
-<W lemma="lærer" msd="NCCPU==I" in="-2:nobj" out="">lærere</W>
+<W lemma="lÃ¦rer" msd="NCCPU==I" in="-2:nobj" out="">lÃ¦rere</W>
 <W lemma="fra" msd="SP" in="-3:mod" out="2:nobj">fra</W>
 <W lemma="teknisk" msd="ANP[CN]PU=[DI]U" in="1:mod" out="">tekniske</W>
 <W lemma="skole" msd="NCCPU==I" in="-2:nobj" out="-1:mod|1:coord|3:mod">skoler</W>
 <W lemma="og" msd="CC" in="-1:coord" out="1:conj">og</W>
 <W lemma="handelsskole" msd="NCCPU==I" in="-1:conj" out="">handelsskoler</W>
 <W lemma="i" msd="SP" in="-3:mod" out="1:nobj">i</W>
-<W lemma="Gdynia/Gdansk-område" msd="NCNSU==D" in="-1:nobj" out="">Gdynia/Gdansk-området</W>
+<W lemma="Gdynia/Gdansk-omrÃ¥de" msd="NCNSU==D" in="-1:nobj" out="">Gdynia/Gdansk-omrÃ¥det</W>
 <W lemma="." msd="XP" in="-20:pnct" out="">.</W>
 </s>
 </p>
@@ -146,7 +146,7 @@
 </s>
 <s>
 <W lemma="vi" msd="PP1CPN-NU" in="1:subj" out="">Vi</W>
-<W lemma="få" msd="VADA=----A-" in="37:qobj" out="-1:subj|1:dobj|4:pnct|5:coord|36:pnct">fik</W>
+<W lemma="fÃ¥" msd="VADA=----A-" in="37:qobj" out="-1:subj|1:dobj|4:pnct|5:coord|36:pnct">fik</W>
 <W lemma="mange" msd="ANP[CN]PU=[DI]U" in="-1:dobj" out="1:mod|2:nobj">mange</W>
 <W lemma="positiv" msd="ANP[CN]PU=[DI]U" in="-1:mod" out="">positive</W>
 <W lemma="reaktion" msd="NCCPU==I" in="-2:nobj" out="">reaktioner</W>
@@ -156,7 +156,7 @@
 <W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:nobj|4:mod">en</W>
 <W lemma="evaluering" msd="NCCSU==I" in="-1:nobj" out="">evaluering</W>
 <W lemma="to" msd="AC---U=--" in="2:tobj" out="1:nobj">to</W>
-<W lemma="måned" msd="NCCPU==I" in="-1:nobj" out="">måneder</W>
+<W lemma="mÃ¥ned" msd="NCCPU==I" in="-1:nobj" out="">mÃ¥neder</W>
 <W lemma="efter" msd="RGU" in="-4:mod" out="-2:tobj">efter</W>
 <W lemma="kunne" msd="VADA=----A-" in="-7:conj" out="-6:mod|1:subj|2:vobj">kunne</W>
 <W lemma="vi" msd="PP1CPN-NU" in="-1:subj|1:[subj]" out="">vi</W>
@@ -165,13 +165,13 @@
 <W lemma="at" msd="CS" in="-2:dobj" out="4:vobj">at</W>
 <W lemma="den" msd="PD-[CN]PU--U" in="3:subj|4:[subj]|5:[subj]" out="1:mod|2:nobj">de</W>
 <W lemma="polsk" msd="ANP[CN]PU=[DI]U" in="-1:mod" out="">polske</W>
-<W lemma="lærer" msd="NCCPU==I" in="-2:nobj" out="">lærere</W>
+<W lemma="lÃ¦rer" msd="NCCPU==I" in="-2:nobj" out="">lÃ¦rere</W>
 <W lemma="have" msd="VADR=----A-" in="-4:vobj" out="-3:subj|1:vobj|15:pnct">har</W>
 <W lemma="kunne" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-4:[subj]|1:vobj">kunnet</W>
 <W lemma="anvende" msd="VAF-=----A-" in="-1:vobj" out="-5:[subj]|2:dobj|9:mod">anvende</W>
-<W lemma="både" msd="RGU" in="4:mod" out="">både</W>
+<W lemma="bÃ¥de" msd="RGU" in="4:mod" out="">bÃ¥de</W>
 <W lemma="den" msd="PD-CSU--U" in="-2:dobj" out="1:mod|2:nobj|3:coord">den</W>
-<W lemma="pædagogisk" msd="ANP[CN]SU=DU" in="-1:mod" out="">pædagogiske</W>
+<W lemma="pÃ¦dagogisk" msd="ANP[CN]SU=DU" in="-1:mod" out="">pÃ¦dagogiske</W>
 <W lemma="metode" msd="NCCSU==I" in="-2:nobj" out="">metode</W>
 <W lemma="og" msd="CC" in="-3:coord" out="-4:mod|1:conj">og</W>
 <W lemma="den" msd="PD-CSU--U" in="-1:conj" out="1:mod|2:nobj">den</W>
@@ -183,12 +183,12 @@
 <W lemma="arbejde" msd="NCNSU==I" in="-2:possd" out="">arbejde</W>
 <W lemma="," msd="XP" in="-15:pnct" out="">,</W>
 <W lemma="&quot;" msd="XP" in="-36:pnct" out="">"</W>
-<W lemma="fortælle" msd="VADR=----A-" in="" out="-37:qobj|3:subj|7:pnct">fortæller</W>
+<W lemma="fortÃ¦lle" msd="VADR=----A-" in="" out="-37:qobj|3:subj|7:pnct">fortÃ¦ller</W>
 <W lemma="uddannelsesleder" msd="NCCSU==I" in="2:title" out="">uddannelsesleder</W>
 <W lemma="Niels" msd="NP--U==-" in="1:namef" out="">Niels</W>
-<W lemma="Kjærsgaard" msd="NP--U==-" in="-3:subj" out="-2:title|-1:namef|1:mod">Kjærsgaard</W>
+<W lemma="KjÃ¦rsgaard" msd="NP--U==-" in="-3:subj" out="-2:title|-1:namef|1:mod">KjÃ¦rsgaard</W>
 <W lemma="fra" msd="SP" in="-1:mod" out="1:nobj">fra</W>
-<W lemma="Næstved" msd="NP--U==-" in="-1:nobj" out="1:nobj">Næstved</W>
+<W lemma="NÃ¦stved" msd="NP--U==-" in="-1:nobj" out="1:nobj">NÃ¦stved</W>
 <W lemma="handelsskole" msd="NCCSU==I" in="-1:nobj" out="">Handelsskole</W>
 <W lemma="." msd="XP" in="-7:pnct" out="">.</W>
 </s>
@@ -198,26 +198,26 @@
 <W lemma="kontakt" msd="NCCPU==D" in="3:subj|5:[subj]" out="1:pobj">Kontakterne</W>
 <W lemma="til" msd="SP" in="-1:pobj" out="1:nobj">til</W>
 <W lemma="Polen" msd="NP--U==-" in="-1:nobj" out="">Polen</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-3:subj|1:mod|2:vobj">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-3:subj|1:mod|2:vobj">er</W>
 <W lemma="blandt_andet" msd="RGU" in="-1:mod" out="">blandt_andet</W>
 <W lemma="skabe" msd="VAPA=S[CN]I[ARU]-U" in="-2:vobj" out="-5:[subj]|1:pobj|20:pnct">skabt</W>
 <W lemma="via" msd="SP" in="-1:pobj" out="1:nobj">via</W>
-<W lemma="Næstved" msd="NP--U==-" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:rel">Næstved</W>
-<W lemma="erhvervsråd" msd="NCNSU==I" in="-1:nobj" out="">Erhvervsråd</W>
+<W lemma="NÃ¦stved" msd="NP--U==-" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:rel">NÃ¦stved</W>
+<W lemma="erhvervsrÃ¥d" msd="NCNSU==I" in="-1:nobj" out="">ErhvervsrÃ¥d</W>
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
 <W lemma="der" msd="U=" in="-3:ref|5:subj|6:[subj]" out="">der</W>
 <W lemma="gennem" msd="SP" in="4:mod" out="1:nobj">gennem</W>
 <W lemma="selskab" msd="NCNSU==D" in="-1:nobj" out="1:appr">selskabet</W>
-<W lemma="Næstved" msd="NP--U==-" in="-1:appr" out="1:nobj">Næstved</W>
+<W lemma="NÃ¦stved" msd="NP--U==-" in="-1:appr" out="1:nobj">NÃ¦stved</W>
 <W lemma="entreprise" msd="NCCSU==I" in="-1:nobj" out="">Entreprise</W>
 <W lemma="have" msd="VADR=----A-" in="-8:rel" out="-5:subj|-4:mod|1:vobj">har</W>
 <W lemma="etablere" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-6:[subj]|1:dobj">etableret</W>
 <W lemma="en" msd="PI-NSU--U" in="-1:dobj" out="1:nobj|4:mod">et</W>
-<W lemma="rådgivnings-" msd="XX" in="-1:nobj" out="1:coord">rådgivnings-</W>
+<W lemma="rÃ¥dgivnings-" msd="XX" in="-1:nobj" out="1:coord">rÃ¥dgivnings-</W>
 <W lemma="og" msd="CC" in="-1:coord" out="1:conj">og</W>
 <W lemma="koordinationskontor" msd="NCNSU==I" in="-1:conj" out="">koordinationskontor</W>
 <W lemma="i" msd="SP" in="-4:mod" out="1:nobj">i</W>
-<W lemma="Næstved" msd="NP--G==-" in="-1:nobj" out="1:possd|2:appr">Næstveds</W>
+<W lemma="NÃ¦stved" msd="NP--G==-" in="-1:nobj" out="1:possd|2:appr">NÃ¦stveds</W>
 <W lemma="venskabsby" msd="NCCSU==I" in="-1:possd" out="">venskabsby</W>
 <W lemma="Sopot" msd="NP--U==-" in="-2:appr" out="">Sopot</W>
 <W lemma="." msd="XP" in="-20:pnct" out="">.</W>

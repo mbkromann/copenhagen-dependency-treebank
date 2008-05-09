@@ -6,7 +6,7 @@
 <W msd="IN" in="" out="1:dobj">on</W>
 <W msd="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NN" in="-1:possd" out="">child</W>
-<W msd="NN" in="" out="1:pnct|19:list|38:pnct">ÅRHUS</W>
+<W msd="NN" in="" out="1:pnct|19:list|38:pnct">Ã…RHUS</W>
 <W msd=":" in="-1:pnct" out="">:</W>
 <W msd="DT" in="17:subj|18:[subj]" out="1:nobj|6:pnct">The</W>
 <W msd="NNS" in="-1:nobj" out="1:pobj|7:appa">parents</W>
@@ -103,11 +103,11 @@
 <W msd="PRP$" in="" out="">her</W>
 <W msd="JJ" in="" out="">big</W>
 <W msd="NN" in="" out="1:appr">sister</W>
-<W msd="NNP" in="-1:appr" out="">Lærke</W>
+<W msd="NNP" in="-1:appr" out="">LÃ¦rke</W>
 <W msd="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="">Fanø</W>
+<W msd="NNP" in="1:subj" out="">FanÃ¸</W>
 <W msd="VBG" in="" out="-1:subj">enjoying</W>
 <W msd="DT" in="" out="2:pobj|1:possd">the</W>
 <W msd="NN" in="-1:possd" out="">bounty</W>
@@ -129,9 +129,9 @@
 <W msd="DT" in="6:subj|7:[subj]" out="1:nobj|2:mod">The</W>
 <W msd="NNS" in="-1:nobj" out="">residents</W>
 <W msd="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="1:mod">Sønderho</W>
+<W msd="NNP" in="-1:nobj" out="1:mod">SÃ¸nderho</W>
 <W msd="IN" in="-1:mod" out="1:nobj">on</W>
-<W msd="NNP" in="-1:nobj" out="">Fanø</W>
+<W msd="NNP" in="-1:nobj" out="">FanÃ¸</W>
 <W msd="MD" in="7:qobj" out="-6:subj|6:pnct">can</W>
 <W msd="VB" in="" out="-7:[subj]">say</W>
 <W msd="NN" in="" out="">something</W>
@@ -236,7 +236,7 @@
 <W msd="CD" in="-1:nobj" out="1:nobj|2:mod">179</W>
 <W msd="NNS" in="-1:nobj" out="">households</W>
 <W msd="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Sønderho</W>
+<W msd="NNP" in="-1:nobj" out="">SÃ¸nderho</W>
 <W msd="." in="-6:pnct" out="">.</W>
 </s>
 <s>

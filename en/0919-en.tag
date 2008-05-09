@@ -135,7 +135,7 @@
 <s>
 <W msd="IN" in="6:mod" out="1:mod|3:pnct">Down</W>
 <W msd="IN" in="-1:mod" out="1:nobj">on</W>
-<W msd="NNP" in="-1:nobj" out="">Strøget</W>
+<W msd="NNP" in="-1:nobj" out="">StrÃ¸get</W>
 <W msd="," in="-3:pnct" out="">,</W>
 <W msd="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NN" in="-1:nobj" out="">party</W>

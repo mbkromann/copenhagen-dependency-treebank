@@ -45,13 +45,13 @@
 <W lemma="udgang" msd="NCCSU==D" in="-1:nobj" out="1:pobj">udgangen</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="juni" msd="NCCSU==I" in="-1:nobj" out="">juni</W>
-<W lemma="beskæftige" msd="VADA=----A-" in="" out="-4:mod|1:subj|4:mod|8:dobj|10:pnct">beskæftigede</W>
+<W lemma="beskÃ¦ftige" msd="VADA=----A-" in="" out="-4:mod|1:subj|4:mod|8:dobj|10:pnct">beskÃ¦ftigede</W>
 <W lemma="den" msd="PD-[CN]PU--U" in="-1:subj" out="1:mod|2:nobj">de</W>
 <W lemma="dansk" msd="ANP[CN]PU=[DI]U" in="-1:mod" out="">danske</W>
 <W lemma="industrivirksomhed" msd="NCCPU==I" in="-2:nobj" out="">industrivirksomheder</W>
 <W lemma="korrigere" msd="VAPA=S[CN]I[ARU]-U" in="-4:mod" out="1:pobj">korrigeret</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
-<W lemma="sæssonudsving" msd="XX" in="-1:nobj" out="">sæssonudsving</W>
+<W lemma="sÃ¦ssonudsving" msd="XX" in="-1:nobj" out="">sÃ¦ssonudsving</W>
 <W lemma="god" msd="ANP---=-R" in="1:mod" out="">godt</W>
 <W lemma="270.000" msd="AC---U=--" in="-8:dobj" out="-1:mod|1:nobj">270.000</W>
 <W lemma="person" msd="NCCPU==I" in="-1:nobj" out="">personer</W>
@@ -59,14 +59,14 @@
 </s>
 <s>
 <W lemma="det" msd="PP3NSU-NU" in="1:subj" out="">Det</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-1:subj|2:pred|10:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-1:subj|2:pred|10:pnct">er</W>
 <W lemma="38.000" msd="AC---U=--" in="1:mod" out="">38.000</W>
-<W lemma="få" msd="ANC[CN]PU=[DI]U" in="-2:pred" out="-1:mod|1:mod">færre</W>
+<W lemma="fÃ¥" msd="ANC[CN]PU=[DI]U" in="-2:pred" out="-1:mod|1:mod">fÃ¦rre</W>
 <W lemma="end" msd="CS" in="-1:mod" out="1:obl">end</W>
-<W lemma="på" msd="SP" in="-1:obl" out="1:nobj">på</W>
+<W lemma="pÃ¥" msd="SP" in="-1:obl" out="1:nobj">pÃ¥</W>
 <W lemma="top" msd="NCCSU==D" in="-1:nobj" out="1:pobj">toppen</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
-<W lemma="højkonjunktur" msd="NCCSU==D" in="-1:nobj" out="1:mod">højkonjunkturen</W>
+<W lemma="hÃ¸jkonjunktur" msd="NCCSU==D" in="-1:nobj" out="1:mod">hÃ¸jkonjunkturen</W>
 <W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
 <W lemma="1986" msd="AC---U=--" in="-1:nobj" out="">1986</W>
 <W lemma="." msd="XP" in="-10:pnct" out="">.</W>
@@ -75,7 +75,7 @@
 <p>
 <s>
 <W lemma="der" msd="U=" in="1:expl" out="">Der</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-1:expl|2:dobj|28:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-1:expl|2:dobj|28:pnct">er</W>
 <W lemma="lang" msd="ANPCSU=IU" in="1:mod" out="">lang</W>
 <W lemma="tid" msd="NCCSU==I" in="-2:dobj" out="-1:mod|1:pobj">tid</W>
 <W lemma="til" msd="SP" in="-1:pobj" out="1:pnct|2:nobj">til</W>
@@ -84,20 +84,20 @@
 <W lemma="industri" msd="NCCSU==D" in="2:subj|3:[subj]" out="">industrien</W>
 <W lemma="igen" msd="RGU" in="1:mod" out="">igen</W>
 <W lemma="kunne" msd="VADR=----A-" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">kan</W>
-<W lemma="gøre" msd="VAF-=----A-" in="-1:vobj" out="-3:[subj]|1:iobj|2:dobj">gøre</W>
+<W lemma="gÃ¸re" msd="VAF-=----A-" in="-1:vobj" out="-3:[subj]|1:iobj|2:dobj">gÃ¸re</W>
 <W lemma="sig" msd="PP3[CN][SP]U-YU" in="-1:iobj" out="">sig</W>
-<W lemma="forhåbning" msd="NCCPU==I" in="-2:dobj" out="1:pobj">forhåbninger</W>
+<W lemma="forhÃ¥bning" msd="NCCPU==I" in="-2:dobj" out="1:pobj">forhÃ¥bninger</W>
 <W lemma="om" msd="SP" in="-1:pobj" out="1:nobj">om</W>
 <W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
 <W lemma="skabe" msd="VAF-=----A-" in="-1:vobj" out="1:dobj|4:mod|7:pnct|8:mod">skabe</W>
 <W lemma="53.000" msd="AC---U=--" in="-1:dobj" out="1:mod|2:nobj">53.000</W>
 <W lemma="ny" msd="ANP[CN]PU=[DI]U" in="-1:mod" out="">nye</W>
 <W lemma="job" msd="NCNPU==I" in="-2:nobj" out="">job</W>
-<W lemma="på" msd="SP" in="-4:mod" out="1:nobj">på</W>
+<W lemma="pÃ¥" msd="SP" in="-4:mod" out="1:nobj">pÃ¥</W>
 <W lemma="tre" msd="AC---U=--" in="-1:nobj" out="1:nobj">tre</W>
-<W lemma="år" msd="NCNPU==I" in="-1:nobj" out="">år</W>
+<W lemma="Ã¥r" msd="NCNPU==I" in="-1:nobj" out="">Ã¥r</W>
 <W lemma="," msd="XP" in="-7:pnct" out="">,</W>
-<W lemma="sådan" msd="RGU" in="-8:mod" out="1:ref|3:rel">sådan</W>
+<W lemma="sÃ¥dan" msd="RGU" in="-8:mod" out="1:ref|3:rel">sÃ¥dan</W>
 <W lemma="som" msd="U=" in="-1:ref|2:mod" out="">som</W>
 <W lemma="det" msd="PP3NSU-NU" in="1:subj" out="">det</W>
 <W lemma="ske" msd="VADA=----A-" in="-3:rel" out="-1:subj|-2:mod|1:tobj">skete</W>
@@ -111,23 +111,23 @@
 <W lemma="dengang" msd="RGU" in="-1:nobj" out="">dengang</W>
 <W lemma="tyde" msd="VADR=----A-" in="" out="-3:subj|1:mod|2:pobj|21:pnct">tyder</W>
 <W lemma="samtidig" msd="RGU" in="-1:mod" out="">samtidig</W>
-<W lemma="på" msd="SP" in="-2:pobj" out="1:pnct|2:nobj">på</W>
+<W lemma="pÃ¥" msd="SP" in="-2:pobj" out="1:pnct|2:nobj">pÃ¥</W>
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-2:nobj" out="4:vobj">at</W>
 <W lemma="industri" msd="NCCSG==D" in="3:subj|5:[subj]" out="1:possd">industriens</W>
-<W lemma="beskæftigelse" msd="NCCSU==I" in="-1:possd" out="">beskæftigelse</W>
-<W lemma="først" msd="RGU" in="1:mod" out="">først</W>
+<W lemma="beskÃ¦ftigelse" msd="NCCSU==I" in="-1:possd" out="">beskÃ¦ftigelse</W>
+<W lemma="fÃ¸rst" msd="RGU" in="1:mod" out="">fÃ¸rst</W>
 <W lemma="begynde" msd="VADA=----A-" in="-4:vobj" out="-3:subj|-1:mod|1:dobj">begyndte</W>
 <W lemma="at" msd="U=" in="-1:dobj" out="1:vobj">at</W>
 <W lemma="stige" msd="VAF-=----A-" in="-1:vobj" out="-5:[subj]|2:mod">stige</W>
-<W lemma="år" msd="NCNSU==D" in="1:tobj" out="">året</W>
+<W lemma="Ã¥r" msd="NCNSU==D" in="1:tobj" out="">Ã¥ret</W>
 <W lemma="efter" msd="SP" in="-2:mod" out="-1:tobj|1:pnct|2:nobj">efter</W>
 <W lemma="," msd="XP" in="-1:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-2:nobj" out="4:vobj">at</W>
 <W lemma="den" msd="PD-CSU--U" in="3:subj|4:[subj]" out="1:mod|2:nobj">den</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=DU" in="-1:mod" out="">økonomiske</W>
-<W lemma="vækst" msd="NCCSU==I" in="-2:nobj" out="">vækst</W>
-<W lemma="være" msd="VADA=----A-" in="-4:vobj" out="-3:subj|1:vobj">var</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=DU" in="-1:mod" out="">Ã¸konomiske</W>
+<W lemma="vÃ¦kst" msd="NCCSU==I" in="-2:nobj" out="">vÃ¦kst</W>
+<W lemma="vÃ¦re" msd="VADA=----A-" in="-4:vobj" out="-3:subj|1:vobj">var</W>
 <W lemma="komme" msd="VAPA=S[CN]I[ARU]-U" in="-1:vobj" out="-4:[subj]|1:pobj">kommet</W>
 <W lemma="i_gang" msd="RGU" in="-1:pobj" out="">i_gang</W>
 <W lemma="." msd="XP" in="-21:pnct" out="">.</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W lemma="det" msd="PP3NSU-NU" in="1:subj" out="6:nobj">Det</W>
-<W lemma="være" msd="VADR=----A-" in="" out="-1:subj|1:pred|4:pnct|27:pnct">er</W>
+<W lemma="vÃ¦re" msd="VADR=----A-" in="" out="-1:subj|1:pred|4:pnct|27:pnct">er</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:pred" out="1:mod|2:nobj">en</W>
 <W lemma="almindelig" msd="ANPCSU=IU" in="-1:mod" out="">almindelig</W>
 <W lemma="erfaring" msd="NCCSU==I" in="-2:nobj" out="">erfaring</W>
@@ -148,7 +148,7 @@
 <W lemma="vare" msd="NCCPU==I" in="-1:nobj" out="">varer</W>
 <W lemma="i" msd="SP" in="-4:mod" out="1:nobj">i</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:mod|2:nobj">en</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU" in="-1:mod" out="">økonomisk</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU" in="-1:mod" out="">Ã¸konomisk</W>
 <W lemma="opgang" msd="NCCSU==I" in="-2:nobj" out="">opgang</W>
 <W lemma="i" msd="SP" in="2:mod" out="1:nobj">i</W>
 <W lemma="start" msd="NCCSU==D" in="-1:nobj" out="">starten</W>
@@ -162,20 +162,20 @@
 <W lemma="og" msd="CC" in="-2:coord" out="1:conj">og</W>
 <W lemma="antal" msd="NCNSU==D" in="-1:conj" out="1:pobj">antallet</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
-<W lemma="ansætte" msd="VAPA=P[CN][DI]A-U" in="-1:nobj" out="">ansatte</W>
+<W lemma="ansÃ¦tte" msd="VAPA=P[CN][DI]A-U" in="-1:nobj" out="">ansatte</W>
 <W lemma="." msd="XP" in="-27:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="således" msd="RGU" in="1:mod" out="">Således</W>
+<W lemma="sÃ¥ledes" msd="RGU" in="1:mod" out="">SÃ¥ledes</W>
 <W lemma="vise" msd="VADR=----A-" in="" out="-1:mod|1:subj|6:mod|7:mod|8:pnct|9:dobj|40:pnct">viser</W>
 <W lemma="industri" msd="NCCSG==D" in="-1:subj" out="1:possd|2:mod">industriens</W>
-<W lemma="halvårsdata" msd="NCCPU==I" in="-1:possd" out="">halvårsdata</W>
+<W lemma="halvÃ¥rsdata" msd="NCCPU==I" in="-1:possd" out="">halvÃ¥rsdata</W>
 <W lemma="fra" msd="SP" in="-2:mod" out="1:nobj">fra</W>
 <W lemma="Danmark" msd="NP--G==-" in="-1:nobj" out="1:possd">Danmarks</W>
 <W lemma="statistik" msd="NCCSU==I" in="-1:possd" out="">Statistik</W>
-<W lemma="også" msd="RGU" in="-6:mod" out="">også</W>
+<W lemma="ogsÃ¥" msd="RGU" in="-6:mod" out="">ogsÃ¥</W>
 <W lemma="i_dag" msd="RGU" in="-7:mod" out="">i_dag</W>
 <W lemma="," msd="XP" in="-8:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-9:dobj" out="8:vobj">at</W>
@@ -183,31 +183,31 @@
 <W lemma="ved" msd="SP" in="6:mod" out="1:nobj">ved</W>
 <W lemma="indgang" msd="NCCSU==D" in="-1:nobj" out="1:pobj">indgangen</W>
 <W lemma="til" msd="SP" in="-1:pobj" out="1:nobj">til</W>
-<W lemma="år" msd="NCNSG==D" in="-1:nobj" out="1:mod|2:possd">årets</W>
+<W lemma="Ã¥r" msd="NCNSG==D" in="-1:nobj" out="1:mod|2:possd">Ã¥rets</W>
 <W lemma="anden" msd="AO---U=--" in="-1:mod" out="">andet</W>
-<W lemma="halvår" msd="NCNSU==I" in="-2:possd" out="">halvår</W>
+<W lemma="halvÃ¥r" msd="NCNSU==I" in="-2:possd" out="">halvÃ¥r</W>
 <W lemma="have" msd="VADR=----A-" in="-8:vobj" out="-7:subj|-6:mod|1:dobj">har</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:dobj" out="1:mod|2:nobj|6:ref|8:rel">en</W>
 <W lemma="ledig" msd="ANPCSU=IU" in="-1:mod" out="">ledig</W>
 <W lemma="restkapacitet" msd="NCCSU==I" in="-2:nobj" out="1:pobj">restkapacitet</W>
-<W lemma="på" msd="SP" in="-1:pobj" out="1:nobj">på</W>
+<W lemma="pÃ¥" msd="SP" in="-1:pobj" out="1:nobj">pÃ¥</W>
 <W lemma="20" msd="AC---U=--" in="-1:nobj" out="1:nobj">20</W>
 <W lemma="procent" msd="NCCPU==I" in="-1:nobj" out="">procent</W>
 <W lemma="som" msd="U=" in="-6:ref|2:subj|3:[subj]" out="">som</W>
-<W lemma="først" msd="RGU" in="1:mod" out="">først</W>
+<W lemma="fÃ¸rst" msd="RGU" in="1:mod" out="">fÃ¸rst</W>
 <W lemma="skulle" msd="VADR=----A-" in="-8:rel" out="-2:subj|-1:mod|1:vobj|2:pnct|3:mod">skal</W>
 <W lemma="formindske" msd="VAF-=----P-" in="-1:vobj" out="-3:[subj]">formindskes</W>
 <W lemma="," msd="XP" in="-2:pnct" out="">,</W>
-<W lemma="før" msd="CS" in="-3:mod" out="2:vobj">før</W>
+<W lemma="fÃ¸r" msd="CS" in="-3:mod" out="2:vobj">fÃ¸r</W>
 <W lemma="virksomhed" msd="NCCPU==D" in="1:subj" out="">virksomhederne</W>
-<W lemma="få" msd="VADR=----A-" in="-2:vobj" out="-1:subj|1:dobj|5:mod">får</W>
+<W lemma="fÃ¥" msd="VADR=----A-" in="-2:vobj" out="-1:subj|1:dobj|5:mod">fÃ¥r</W>
 <W lemma="behov" msd="NCNSU==I" in="-1:dobj" out="1:pobj">behov</W>
 <W lemma="for" msd="SP" in="-1:pobj" out="1:nobj">for</W>
 <W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
 <W lemma="udvide" msd="VAF-=----A-" in="-1:vobj" out="">udvide</W>
 <W lemma="under" msd="SP" in="-5:mod" out="1:nobj">under</W>
 <W lemma="en" msd="PI-CSU--U" in="-1:nobj" out="1:mod|2:nobj">en</W>
-<W lemma="økonomisk" msd="ANP[CN]SU=IU" in="-1:mod" out="">økonomisk</W>
+<W lemma="Ã¸konomisk" msd="ANP[CN]SU=IU" in="-1:mod" out="">Ã¸konomisk</W>
 <W lemma="opgang" msd="NCCSU==I" in="-2:nobj" out="">opgang</W>
 <W lemma="." msd="XP" in="-40:pnct" out="">.</W>
 </s>
@@ -220,7 +220,7 @@
 <W lemma="flertal" msd="NCNSU==I" in="-1:nobj" out="1:pobj">flertal</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="1:nobj">af</W>
 <W lemma="den" msd="PD-[CN]PU--U" in="-1:nobj" out="1:mod|2:nobj">de</W>
-<W lemma="stor" msd="ANS[CN][SP]U=DU" in="-1:mod" out="">største</W>
+<W lemma="stor" msd="ANS[CN][SP]U=DU" in="-1:mod" out="">stÃ¸rste</W>
 <W lemma="industrivirksomhed" msd="NCCPU==I" in="-2:nobj" out="">industrivirksomheder</W>
 <W lemma="," msd="XP" in="-7:pnct" out="">,</W>
 <W lemma="at" msd="CS" in="-8:dobj" out="2:vobj">at</W>
@@ -236,10 +236,10 @@
 <W lemma="ligge" msd="VADR=----A-" in="" out="-1:mod|1:subj|8:lobj|11:pnct">ligger</W>
 <W lemma="lager" msd="NCNPU==D" in="-1:subj" out="1:pobj">lagrene</W>
 <W lemma="af" msd="SP" in="-1:pobj" out="2:nobj">af</W>
-<W lemma="såvel" msd="RGU" in="2:mod" out="">såvel</W>
-<W lemma="råvare" msd="NCCPU==I" in="-2:nobj" out="1:coord">råvarer</W>
+<W lemma="sÃ¥vel" msd="RGU" in="2:mod" out="">sÃ¥vel</W>
+<W lemma="rÃ¥vare" msd="NCCPU==I" in="-2:nobj" out="1:coord">rÃ¥varer</W>
 <W lemma="som" msd="U=" in="-1:coord" out="-2:mod|1:conj">som</W>
-<W lemma="færdigvare" msd="NCCPU==I" in="-1:conj" out="">færdigvarer</W>
+<W lemma="fÃ¦rdigvare" msd="NCCPU==I" in="-1:conj" out="">fÃ¦rdigvarer</W>
 <W lemma="nogen" msd="PI-NSU--U" in="1:mod" out="">noget</W>
 <W lemma="over" msd="SP" in="-8:lobj" out="-1:mod|1:nobj">over</W>
 <W lemma="den" msd="PD-NSU--U" in="-1:nobj" out="1:nobj">det</W>

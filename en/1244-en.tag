@@ -170,7 +170,7 @@
 <s>
 <W msd="IN" in="6:mod" out="1:nobj|4:pnct">In</W>
 <W msd="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="NNP" in="1:mod" out="">Hækkerup</W>
+<W msd="NNP" in="1:mod" out="">HÃ¦kkerup</W>
 <W msd="NN" in="-2:nobj" out="-1:mod">case</W>
 <W msd="," in="-4:pnct" out="">,</W>
 <W msd="PRP" in="1:subj" out="">you</W>

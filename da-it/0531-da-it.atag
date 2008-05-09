@@ -1,5 +1,5 @@
 <DTAGalign>
-<alignFile key="a" href="../dk/0531-dk.tag" sign="_input"/>
+<alignFile key="a" href="../da/0531-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0531-it.tag" sign="_input"/>
 <align out="a43" type="" in="b0 b1" creator="0" insign="COLLABORAT ." outsign="MEDARB"/>
 <align out="a45" type="" in="a45" creator="0" insign="AGG" outsign="AGG"/>
@@ -15,7 +15,7 @@
 <align out="a51" type="" in="b9" creator="-1" insign="=" outsign="="/>
 <align out="a54" type="" in="b12" creator="-1" insign="=" outsign="="/>
 <align out="a55" type="" in="b13" creator="-1" insign="=" outsign="="/>
-<align out="a53" type="" in="b11" creator="-1" insign="ANNUNCIATORE" outsign="OPLÆSER"/>
+<align out="a53" type="" in="b11" creator="-1" insign="ANNUNCIATORE" outsign="OPLÃ†SER"/>
 <align out="a66" type="" in="b21 b22" creator="0" insign="alti dirigenti" outsign="topchefer"/>
 <align out="a67" type="" in="b23" creator="0" insign="della" outsign="i"/>
 <align out="b18" type="" in="b18" creator="0" insign="," outsign=","/>
@@ -23,13 +23,13 @@
 <align out="a72" type="" in="b30 b31 b32 b33 b34" creator="0" insign="presidente del consiglio d' amministrazione" outsign="bestyrelsesformand"/>
 <align out="b29" type="" in="b29" creator="0" insign="il" outsign="il"/>
 <align out="b15 b16 b17" type="" in="b15 b16 b17" creator="0" insign="Dopo la condanna" outsign="Dopo la condanna"/>
-<align out="a65" type="" in="a65" creator="0" insign="dømte" outsign="dømte"/>
+<align out="a65" type="" in="a65" creator="0" insign="dÃ¸mte" outsign="dÃ¸mte"/>
 <align out="a64" type="" in="b20" creator="-1" insign="due" outsign="to"/>
 <align out="a69" type="" in="b26" creator="-1" insign="juli" outsign="juli"/>
 <align out="a70" type="" in="b27" creator="-1" insign="Banken" outsign="Banken"/>
 <align out="a71" type="" in="b28" creator="-1" insign="," outsign=","/>
 <align out="b39" type="" in="b39" creator="0" insign="il" outsign="il"/>
-<align out="a77" type="" in="b40" creator="0" insign="direttore" outsign="direktør"/>
+<align out="a77" type="" in="b40" creator="0" insign="direttore" outsign="direktÃ¸r"/>
 <align out="a79" type="e" in="b42" creator="0" insign="Olsdorff" outsign="Olsdorf"/>
 <align out="a80" type="" in="a80" creator="0" insign="," outsign=","/>
 <align out="a73" type="" in="b35" creator="-1" insign="Niels" outsign="Niels"/>
@@ -37,82 +37,82 @@
 <align out="a75" type="" in="b37" creator="-1" insign="Leer" outsign="Leer"/>
 <align out="a76" type="" in="b38" creator="-1" insign="e" outsign="og"/>
 <align out="a78" type="" in="b41" creator="-1" insign="John" outsign="John"/>
-<align out="a82 a83" type="" in="b44" creator="0" insign="immediatamente" outsign="på stedet"/>
+<align out="a82 a83" type="" in="b44" creator="0" insign="immediatamente" outsign="pÃ¥ stedet"/>
 <align out="a81" type="" in="b43 b45 b46 b47" creator="0" insign="hanno fatto ricorso contro" outsign="ankede"/>
 <align out="a84" type="" in="b48 b49" creator="0" insign="la sentenza" outsign="dommen"/>
 <align out="b50" type="" in="b50" creator="0" insign="emessa" outsign="emessa"/>
 <align out="a85" type="" in="b51" creator="0" insign="dal" outsign="fra"/>
-<align out="a86" type="s" in="b51 b56" creator="0" insign="dal di" outsign="Københavns"/>
-<align out="a86" type="" in="b57" creator="0" insign="Copenaghen" outsign="Københavns"/>
+<align out="a86" type="s" in="b51 b56" creator="0" insign="dal di" outsign="KÃ¸benhavns"/>
+<align out="a86" type="" in="b57" creator="0" insign="Copenaghen" outsign="KÃ¸benhavns"/>
 <align out="a87" type="" in="b52 b53 b54 b55" creator="0" insign="tribunale di primo grado" outsign="byret"/>
 <align out="a88 a89 a90" type="" in="b58" creator="0" insign="chiedendo" outsign="med krav om"/>
 <align out="a91" type="" in="b60" creator="0" insign="assoluzione" outsign="frifindelse"/>
 <align out="b59" type="" in="b59" creator="0" insign="l'" outsign="l'"/>
 <align out="a92" type="" in="b61" creator="-1" insign="." outsign="."/>
-<align out="a95" type="" in="b62" creator="0" insign="Anche" outsign="Også"/>
+<align out="a95" type="" in="b62" creator="0" insign="Anche" outsign="OgsÃ¥"/>
 <align out="a96" type="" in="b63 b64 b65" creator="0" insign="il pubblico ministero" outsign="anklagemyndigheden"/>
 <align out="b66" type="" in="b66" creator="0" insign="si" outsign="si"/>
 <align out="a98" type="" in="b68" creator="0" insign="riservato" outsign="reserveret"/>
 <align out="a99" type="" in="b69" creator="0" insign="la" outsign="en"/>
-<align out="a100" type="" in="b70 b71 b72 b73" creator="0" insign="possibilità di un ricorso" outsign="ankemylighed"/>
+<align out="a100" type="" in="b70 b71 b72 b73" creator="0" insign="possibilitÃ  di un ricorso" outsign="ankemylighed"/>
 <align out="a101" type="" in="b74" creator="-1" insign="." outsign="."/>
-<align out="a97" type="" in="b67" creator="-1" insign="è" outsign="har"/>
+<align out="a97" type="" in="b67" creator="-1" insign="Ã¨" outsign="har"/>
 <align out="a107" type="" in="b75 b76" creator="0" insign="Il presidente" outsign="Bestyrelsesformanden"/>
 <align out="b77" type="" in="b77" creator="0" insign="Leer" outsign="Leer"/>
 <align out="a109" type="" in="b82 b84 b85" creator="0" insign="un e mezzo" outsign="halvandet"/>
-<align out="a110" type="" in="b83" creator="0" insign="anno" outsign="års"/>
-<align out="a108" type="" in="b78 b79 b80 b81" creator="0" insign="è stato condannato ad" outsign="fik"/>
+<align out="a110" type="" in="b83" creator="0" insign="anno" outsign="Ã¥rs"/>
+<align out="a108" type="" in="b78 b79 b80 b81" creator="0" insign="Ã¨ stato condannato ad" outsign="fik"/>
 <align out="b86" type="" in="b86" creator="0" insign="di" outsign="di"/>
-<align out="a111" type="" in="b87" creator="0" insign="carcere" outsign="fængsel"/>
+<align out="a111" type="" in="b87" creator="0" insign="carcere" outsign="fÃ¦ngsel"/>
 <align out="b89 b90 b91" type="" in="b89 b90 b91" creator="0" insign="al pagamento di" outsign="al pagamento di"/>
 <align out="a112" type="" in="b88" creator="-1" insign="e" outsign="og"/>
-<align out="a115" type="" in="b94" creator="-1" insign="di" outsign="på"/>
+<align out="a115" type="" in="b94" creator="-1" insign="di" outsign="pÃ¥"/>
 <align out="a113" type="" in="b92" creator="-1" insign="una" outsign="en"/>
-<align out="a114" type="" in="b93" creator="-1" insign="multa" outsign="bøde"/>
+<align out="a114" type="" in="b93" creator="-1" insign="multa" outsign="bÃ¸de"/>
 <align out="a117" type="" in="b96" creator="0" insign="milione" outsign="million"/>
 <align out="a118" type="" in="b98" creator="0" insign="corone" outsign="kroner"/>
 <align out="b97" type="" in="b97" creator="0" insign="di" outsign="di"/>
 <align out="a120" type="" in="b100 b101 b102" creator="0" insign="abuso di mandato" outsign="mandagsvig"/>
 <align out="a122" type="" in="b105 b106" creator="0" insign="frode fiscale" outsign="skattesvig"/>
-<align out="a123 a124 a125 a126" type="f" in="b104" creator="0" insign="grave" outsign="af særlig grov karakter"/>
-<align out="a128" type="" in="b108" creator="0" insign="violazione" outsign="overtrædelse"/>
+<align out="a123 a124 a125 a126" type="f" in="b104" creator="0" insign="grave" outsign="af sÃ¦rlig grov karakter"/>
+<align out="a128" type="" in="b108" creator="0" insign="violazione" outsign="overtrÃ¦delse"/>
 <align out="a129" type="" in="b109" creator="0" insign="della" outsign="af"/>
 <align out="a116" type="" in="b95" creator="-1" insign="un" outsign="en"/>
 <align out="a119" type="" in="b99" creator="-1" insign="per" outsign="for"/>
 <align out="a121" type="" in="b103" creator="-1" insign="," outsign=","/>
 <align out="a127" type="" in="b107" creator="-1" insign="e" outsign="og"/>
-<align out="a130" type="" in="b110 b111 b112 b113 b114 b115 b116" creator="0" insign="normativa in materia di società per azioni" outsign="aktieselskabsloven"/>
+<align out="a130" type="" in="b110 b111 b112 b113 b114 b115 b116" creator="0" insign="normativa in materia di societÃ  per azioni" outsign="aktieselskabsloven"/>
 <align out="b118" type="" in="b118" creator="0" insign="violazione" outsign="violazione"/>
 <align out="b119" type="" in="b119" creator="0" insign="della" outsign="della"/>
 <align out="a132 a133 a134" type="" in="b120 b121" creator="0" insign="legge bancaria" outsign="bank- og sparekasseloven"/>
-<align out="a139" type="" in="b124" creator="-1" insign="direttore" outsign="direktør"/>
+<align out="a139" type="" in="b124" creator="-1" insign="direttore" outsign="direktÃ¸r"/>
 <align out="a131" type="" in="b117" creator="-1" insign="e" outsign="og"/>
 <align out="a135" type="" in="b122" creator="-1" insign="." outsign="."/>
 <align out="a138" type="s" in="b123" creator="0" insign="Il" outsign="Bankens"/>
 <align out="a138" type="" in="a138" creator="0" insign="Bankens" outsign="Bankens"/>
 <align out="a140" type="" in="a140" creator="0" insign="John" outsign="John"/>
 <align out="a141" type="" in="b125" creator="0" insign="Olsdorf" outsign="Olsdorff"/>
-<align out="a142" type="" in="b126 b127 b128 b129" creator="0" insign="è stato condannato a" outsign="fik"/>
-<align out="a144" type="s" in="b132" creator="0" insign="di" outsign="måneders"/>
-<align out="a144" type="" in="b131" creator="0" insign="mesi" outsign="måneders"/>
+<align out="a142" type="" in="b126 b127 b128 b129" creator="0" insign="Ã¨ stato condannato a" outsign="fik"/>
+<align out="a144" type="s" in="b132" creator="0" insign="di" outsign="mÃ¥neders"/>
+<align out="a144" type="" in="b131" creator="0" insign="mesi" outsign="mÃ¥neders"/>
 <align out="b135 b136 b137" type="" in="b135 b136 b137" creator="0" insign="al pagamento di" outsign="al pagamento di"/>
 <align out="b140" type="" in="b140" creator="0" insign="di" outsign="di"/>
 <align out="a143" type="" in="b130" creator="-1" insign="6" outsign="6"/>
-<align out="a145" type="" in="b133" creator="-1" insign="carcere" outsign="fængsel"/>
+<align out="a145" type="" in="b133" creator="-1" insign="carcere" outsign="fÃ¦ngsel"/>
 <align out="a146" type="" in="b134" creator="-1" insign="e" outsign="og"/>
 <align out="a147" type="" in="b138" creator="-1" insign="una" outsign="en"/>
-<align out="a148" type="" in="b139" creator="-1" insign="multa" outsign="bøde"/>
+<align out="a148" type="" in="b139" creator="-1" insign="multa" outsign="bÃ¸de"/>
 <align out="a149" type="" in="b141" creator="-1" insign="90.000" outsign="90.000"/>
 <align out="a150" type="" in="b142" creator="-1" insign="corone" outsign="kroner"/>
 <align out="a151" type="" in="b143" creator="-1" insign="." outsign="."/>
 <align out="a170" type="" in="b157" creator="0" insign="milioni" outsign="millioner"/>
 <align out="b158" type="" in="b158" creator="0" insign="di" outsign="di"/>
 <align out="a161 a162" type="" in="b148" creator="0" insign="aver" outsign="at have"/>
-<align out="a163" type="" in="b149 b150" creator="0" insign="causato alla" outsign="påført"/>
+<align out="a163" type="" in="b149 b150" creator="0" insign="causato alla" outsign="pÃ¥fÃ¸rt"/>
 <align out="a164" type="" in="b151" creator="0" insign="banca" outsign="banken"/>
 <align out="a158" type="" in="b145" creator="-1" insign="sono" outsign="er"/>
 <align out="a160" type="" in="b147" creator="-1" insign="per" outsign="for"/>
-<align out="a167" type="" in="b154" creator="-1" insign="di" outsign="på"/>
+<align out="a167" type="" in="b154" creator="-1" insign="di" outsign="pÃ¥"/>
 <align out="a169" type="" in="b156" creator="-1" insign="60" outsign="60"/>
 <align out="a171" type="" in="b159" creator="-1" insign="corone" outsign="kroner"/>
 <align out="a157" type="" in="b144" creator="-1" insign="Entrambi" outsign="Begge"/>
@@ -126,10 +126,10 @@
 <align out="b161" type="" in="b161" creator="0" insign="una" outsign="una"/>
 <align out="b162" type="" in="b162" creator="0" insign="pratica" outsign="pratica"/>
 <align out="b166" type="" in="b166" creator="0" insign="di" outsign="di"/>
-<align out="a176" type="" in="b167 b168" creator="0" insign="concessione prestiti" outsign="långivning"/>
+<align out="a176" type="" in="b167 b168" creator="0" insign="concessione prestiti" outsign="lÃ¥ngivning"/>
 <align out="a182" type="" in="b170" creator="0" insign="Inoltre" outsign="desuden"/>
 <align out="a180 a181" type="" in="b171" creator="0" insign="hanno" outsign="De har"/>
-<align out="a184" type="" in="b173 b174" creator="0" insign="il fisco" outsign="skattevæsenet"/>
+<align out="a184" type="" in="b173 b174" creator="0" insign="il fisco" outsign="skattevÃ¦senet"/>
 <align out="a183" type="" in="b172 b175" creator="0" insign="defraudato di" outsign="unddraget"/>
 <align out="a185" type="" in="b176 b178 b179" creator="0" insign="3 e mezzo" outsign="3,5"/>
 <align out="b180" type="" in="b180" creator="0" insign="di" outsign="di"/>
@@ -156,11 +156,11 @@
 <align out="a208" type="" in="b208" creator="-1" insign="non" outsign="ikke"/>
 <align out="a204" type="" in="b206" creator="-1" insign="Erik" outsign="Erik"/>
 <align out="a205" type="" in="b207" creator="-1" insign="Jensen" outsign="Jensen"/>
-<align out="a206 a209 a210" type="" in="b209 b210" creator="0" insign="ha nascosto" outsign="lagde skjul på"/>
+<align out="a206 a209 a210" type="" in="b209 b210" creator="0" insign="ha nascosto" outsign="lagde skjul pÃ¥"/>
 <align out="b211" type="" in="b211" creator="0" insign="loro" outsign="loro"/>
 <align out="b212 b213" type="" in="b212 b213" creator="0" insign="il fatto" outsign="il fatto"/>
 <align out="a213" type="" in="a213" creator="0" insign="bestyrelsesmedlemmerne" outsign="bestyrelsesmedlemmerne"/>
-<align out="a216 a217 a218 a219 a220" type="" in="b222 b223 b224 b225 b226 b227 b228" creator="0" insign="credere di aver la coscienza a posto" outsign="gå hjem med god samvittighed"/>
+<align out="a216 a217 a218 a219 a220" type="" in="b222 b223 b224 b225 b226 b227 b228" creator="0" insign="credere di aver la coscienza a posto" outsign="gÃ¥ hjem med god samvittighed"/>
 <align out="a215" type="" in="b221" creator="0" insign="dovevano" outsign="kunne"/>
 <align out="b216 b217 b218" type="" in="b216 b217 b218" creator="0" insign="anche se assolti" outsign="anche se assolti"/>
 <align out="b215" type="" in="b215" creator="0" insign="," outsign=","/>
@@ -168,32 +168,32 @@
 <align out="a214" type="" in="b220" creator="-1" insign="non" outsign="ikke"/>
 <align out="a227" type="" in="b230" creator="0" insign="&quot;" outsign="&nbsp;-&nbsp;"/>
 <align out="a228" type="" in="b231 b232" creator="0" insign="L' assoluzione" outsign="Frifindelsen"/>
-<align out="a230 a231 a232" type="" in="b233 b235" creator="0" insign="non assolutamente" outsign="på ingen måde"/>
+<align out="a230 a231 a232" type="" in="b233 b235" creator="0" insign="non assolutamente" outsign="pÃ¥ ingen mÃ¥de"/>
 <align out="a229" type="f" in="b234" creator="0" insign="significa" outsign="er"/>
 <align out="b238" type="" in="b238" creator="0" insign="due" outsign="due"/>
 <align out="a239 a240" type="" in="b239 b240" creator="0" insign="abbiano svolto" outsign="har varetaget"/>
 <align out="a241" type="" in="b241 b242" creator="0" insign="il proprio" outsign="deres"/>
 <align out="a242" type="" in="b243 b244 b245" creator="0" insign="lavoro di membri" outsign="bestyrelsesarbejde"/>
-<align out="a243" type="" in="b246" creator="0" insign="in" outsign="på"/>
+<align out="a243" type="" in="b246" creator="0" insign="in" outsign="pÃ¥"/>
 <align out="a244" type="" in="b248" creator="0" insign="esemplare" outsign="forbilledlig"/>
 <align out="a245" type="" in="b247" creator="0" insign="modo" outsign="vis"/>
-<align out="a233 a234 a235" type="" in="a233 a234 a235" creator="0" insign="en blåstempling af" outsign="en blåstempling af"/>
+<align out="a233 a234 a235" type="" in="a233 a234 a235" creator="0" insign="en blÃ¥stempling af" outsign="en blÃ¥stempling af"/>
 <align out="a236" type="" in="a236" creator="0" insign="," outsign=","/>
 <align out="a237" type="" in="b236" creator="-1" insign="che" outsign="at"/>
 <align out="a221" type="" in="b229" creator="-1" insign="." outsign="."/>
 <align out="a238" type="" in="b237" creator="-1" insign="i" outsign="de"/>
-<align out="a253" type="" in="b259 b260" creator="0" insign="ha aggiunto" outsign="indskød"/>
+<align out="a253" type="" in="b259 b260" creator="0" insign="ha aggiunto" outsign="indskÃ¸d"/>
 <align out="a254" type="" in="b261 b262" creator="0" insign="il giudice" outsign="dommeren"/>
 <align out="a255" type="" in="b263" creator="0" insign="durante" outsign="under"/>
 <align out="a256" type="" in="b266 b267" creator="0" insign="delle sue" outsign="sine"/>
-<align out="a257" type="" in="b268" creator="0" insign="osservazioni" outsign="bemærkninger"/>
+<align out="a257" type="" in="b268" creator="0" insign="osservazioni" outsign="bemÃ¦rkninger"/>
 <align out="a258" type="" in="b269 b270 b271" creator="0" insign="in merito alla" outsign="til"/>
 <align out="a259" type="" in="b272" creator="0" insign="sentenza" outsign="dommen"/>
 <align out="a260" type="" in="b273" creator="0" insign="." outsign="."/>
 <align out="a246" type="" in="a246" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
 <align out="b249" type="" in="b249" creator="0" insign="," outsign=","/>
 <align out="a249 a250" type="" in="b251 b252 b254" creator="0" insign="di certo non" outsign="langt fra"/>
-<align out="a247 a248 a251" type="f" in="b253 b255 b256 b257" creator="0" insign="loro l' hanno svolto" outsign="det er tilfældet"/>
+<align out="a247 a248 a251" type="f" in="b253 b255 b256 b257" creator="0" insign="loro l' hanno svolto" outsign="det er tilfÃ¦ldet"/>
 <align out="a252" type="" in="a252" creator="0" insign="," outsign=","/>
 <align out="b258" type="" in="b258" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="b264 b265" type="" in="b264 b265" creator="0" insign="la lettura" outsign="la lettura"/>

@@ -1,44 +1,35 @@
 
-Jugo-alarm
+Yugo alert
 
 
-MEDARB = jss KILDE = afp UDSENDES
+EMPL = jss SOURCE = afp TO BE BROADCAST 
 
 
-KL = 17 OPLÆSER =
+TIME = 5:00pm READER =
 
 
-Chefen for den jugoslaviske hær siger, at hans styrker er sat i 
-alarmberedskab og er parat til at bekæmpe enhver intervention, som 
-truer de bosniske serberes overlevelse. Hæren er parat til at svare 
-med våben på enhver aggression mod Jugoslavien, siger general Zivota 
-Panic. Hans udtalelser bringes i den serbiske avis Borba.
+The head of the Yugoslavian army says that his forces are on alert and are ready to fight any intervention that threatens the Bosnian Serbs' survival.  The army is ready to respond with arms to any aggression against Yugoslavia, says General Zivota Panic.  His statements are in the Serbian newspaper Borba.
 
 
-BRUTTO = 00:18
+GROSS = 00:18
 
 
 resume6
 
 
-MEDARB = CEG KILDE = div.
+EMPL = CEG SOURCE = div.
 
 
-UDSENDES KL = 1630 OPLÆSER = CEG
+TO BE BROADCAST TIME = 4:30pm READER = CEG
 
 
-De Konservatives udenrigspolitikske ordfører Niels Ahlmann-Ohlsen siger, 
-at Vesteuropa alt for længe har set passivt på de serbiske militsers 
-myrderier i Bosnien-Herzegovina. Han mener, at det er på tide at bede 
-USA om at standse krigen militært.
+The Conservatives' foreign policy spokesperson Niels Ahlmann-Ohlsen says that Western Europe has passively watched the murders of the Serbian militias in Bosnia-Herzegovina far too long.  He believes that it is about time to ask the US to stop the war militarily.
 
 
-BRUTTO = 00:14
+GROSS = 00:14
 
 
-Mad og anden hjælp strømmer nu til den bosniske hovedstad Sarajevo. 
-I går blev der bragt 640 tons forsyninger til byen  -  i dag ventes 
-18 nødhjælpsfly til Sarajevos lufthavn.
+Food and other help is now streaming to the Bosnian capital of Sarajevo.  Yesterday, 640 tonnes of supplies were brought into the city - today, 18 emergency assistance planes are expected at Sarajevo's airport.
 
 
 

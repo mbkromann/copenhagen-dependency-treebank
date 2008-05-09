@@ -94,7 +94,7 @@
 <W msd="&quot;" in="-31:pnct" out="">"</W>
 <W msd="VBZ" in="" out="-32:qobj|2:subj|3:pnct">says</W>
 <W msd="NNP" in="1:namef" out="">John</W>
-<W msd="NNP" in="-2:subj" out="-1:namef">Jørgensen</W>
+<W msd="NNP" in="-2:subj" out="-1:namef">JÃ¸rgensen</W>
 <W msd="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -143,7 +143,7 @@
 <W msd="WRB" in="16:mod" out="5:vobj">When</W>
 <W msd="DT" in="4:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="&quot;" in="1:pnct" out="">"</W>
-<W msd="VBN" in="-2:nobj" out="1:pnct|-1:pnct">Ørsted</W>
+<W msd="VBN" in="-2:nobj" out="1:pnct|-1:pnct">Ã˜rsted</W>
 <W msd="&quot;" in="-1:pnct" out="">"</W>
 <W msd="VBZ" in="-5:vobj" out="1:vobj|9:pnct|-4:subj">is</W>
 <W msd="VBN" in="-1:vobj" out="1:lobj|-5:[subj]">hurled</W>
@@ -238,7 +238,7 @@
 <W msd="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="&quot;" in="1:pnct" out="">"</W>
-<W msd="VBN" in="-2:nobj" out="1:pnct|-1:pnct">Ørsted</W>
+<W msd="VBN" in="-2:nobj" out="1:pnct|-1:pnct">Ã˜rsted</W>
 <W msd="&quot;" in="-1:pnct" out="">"</W>
 <W msd="." in="-10:pnct" out="">.</W>
 </s>

@@ -11,7 +11,7 @@
 <W msd="," in="-8:pnct" out="">,</W>
 <W msd="IN" in="-9:mod" out="3:vobj">while</W>
 <W msd="NNP" in="1:namef" out="">Betina</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Nørager</W>
+<W msd="NNP" in="1:subj" out="-1:namef">NÃ¸rager</W>
 <W msd="VBD" in="-3:vobj" out="-1:subj|1:pobj">accounted</W>
 <W msd="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="DT" in="1:mod" out="">no</W>
@@ -55,7 +55,7 @@
 <W msd="IN" in="-9:mod" out="1:nobj">with</W>
 <W msd="JJ" in="-1:nobj" out="">24-12</W>
 <W msd="IN" in="-11:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Grønløkke</W>
+<W msd="NNP" in="-1:nobj" out="1:nobj">GrÃ¸nlÃ¸kke</W>
 <W msd="NNP" in="-1:nobj" out="">Hall</W>
 <W msd="." in="-18:pnct" out="">.</W>
 </s>

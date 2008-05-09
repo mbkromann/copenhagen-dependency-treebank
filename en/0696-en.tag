@@ -114,7 +114,7 @@
 <W msd="NNP" in="1:namef" out="">Arne</W>
 <W msd="NNP" in="" out="-1:namef|1:pnct|2:list|7:pnct">Fryman</W>
 <W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="-2:list" out="1:mod|2:list">Vestersøgade</W>
+<W msd="NNP" in="-2:list" out="1:mod|2:list">VestersÃ¸gade</W>
 <W msd="CD" in="-1:mod" out="">78,</W>
 <W msd="CD" in="-2:list" out="1:list">1601</W>
 <W msd="NNP" in="-1:list" out="1:name">Copenhagen</W>
@@ -207,5 +207,5 @@
 <W msd="NNP" in="-2:list" out="1:mod|1:pnct|2:list">Guldvej</W>
 <W msd="CD" in="-1:mod|-1:pnct" out="">6,</W>
 <W msd="CD" in="-2:list" out="1:list">3060</W>
-<W msd="NNP" in="-1:list" out="">Espergærde</W>
+<W msd="NNP" in="-1:list" out="">EspergÃ¦rde</W>
 </s>

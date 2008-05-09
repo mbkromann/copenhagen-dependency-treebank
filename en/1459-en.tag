@@ -1,6 +1,6 @@
 <s>
 <W msd="NNP" in="1:namef" out="">JACOB</W>
-<W msd="NNP" in="1:subj" out="-1:namef">ASBÆK</W>
+<W msd="NNP" in="1:subj" out="-1:namef">ASBÃ†K</W>
 <W msd="VBZ" in="" out="-1:subj|7:pnct|1:pred">is</W>
 <W msd="DT" in="-1:pred" out="1:mod|2:nobj|3:mod">the</W>
 <W msd="JJ" in="-1:mod" out="">happy</W>
@@ -31,7 +31,7 @@
 <W msd="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj|3:[subj]" out="">Asbæk</W>
+<W msd="NNP" in="1:subj|3:[subj]" out="">AsbÃ¦k</W>
 <W msd="VBZ" in="" out="-1:subj|1:mod|2:vobj|21:pnct">has</W>
 <W msd="RB" in="-1:mod" out="">just</W>
 <W msd="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">received</W>
@@ -113,7 +113,7 @@
 <W msd="JJ" in="-1:mod" out="1:coord">large</W>
 <W msd="CC" in="-1:coord" out="1:conj">and</W>
 <W msd="JJ" in="-1:conj" out="">distinguished</W>
-<W msd="NNP" in="-4:nobj" out="1:nobj">Bjørn</W>
+<W msd="NNP" in="-4:nobj" out="1:nobj">BjÃ¸rn</W>
 <W msd="NNP" in="-1:nobj" out="1:nobj">Wiinblad</W>
 <W msd="JJ" in="-1:nobj" out="">platter</W>
 <W msd="." in="-35:pnct" out="">.</W>

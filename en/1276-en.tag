@@ -204,7 +204,7 @@
 <W msd="NN" in="-3:nobj" out="">film</W>
 <W msd="," in="-4:pnct" out="">,</W>
 <W msd="&quot;" in="1:pnct" out="">"</W>
-<W msd="CD" in="-6:appr" out="-1:pnct|1:nobj|2:pnct">9½</W>
+<W msd="CD" in="-6:appr" out="-1:pnct|1:nobj|2:pnct">9Â½</W>
 <W msd="NNP" in="-1:nobj" out="">Weeks.</W>
 <W msd="&quot;" in="-2:pnct" out="">"</W>
 </s>
