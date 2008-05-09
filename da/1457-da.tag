@@ -41,235 +41,235 @@
 <div1 type=main>
 <p>
 <s>
-<W lemma="&quot;" msd="XP" in="1:pnct" out="">"</W>
-<W lemma="se" msd="VAM-=------" in="" out="-1:pnct|3:pnct|2:lobj">Se</W>
-<W lemma="lige" msd="RGU" in="1:mod" out="">lige</W>
-<W lemma="frem" msd="RGU" in="-2:lobj" out="-1:mod">frem</W>
-<W lemma="." msd="XP" in="-3:pnct" out="">.</W>
+<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="Look" lemma="se" msd="VAM-=------" tag="VB" in="" out="-1:pnct|2:lobj|3:pnct">Se</W>
+<W gloss="straight" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
+<W gloss="ahead" lemma="frem" msd="RGU" tag="RP" in="-2:lobj" out="-1:mod">frem</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="lade" msd="VAM-=------" in="" out="1:vobj|7:pnct">Lad</W>
-<W lemma="være" msd="VAF-=----A-" in="-1:vobj" out="1:pobj">være</W>
-<W lemma="med" msd="SP" in="-1:pobj" out="1:nobj">med</W>
-<W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="kigge" msd="VAF-=----A-" in="-1:vobj" out="1:pobj">kigge</W>
-<W lemma="på" msd="SP" in="-1:pobj" out="1:nobj">på</W>
-<W lemma="jeg" msd="PP1CSU-[YN]U" in="-1:nobj" out="">mig</W>
-<W lemma="." msd="XP" in="-7:pnct" out="">.</W>
+<W gloss="let" lemma="lade" msd="VAM-=------" tag="VB" in="" out="1:vobj|7:pnct">Lad</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">være</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
+<W gloss="look" lemma="kigge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">kigge</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
+<W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:nobj" out="">mig</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="køre" msd="VAM-=------" in="10:qobj" out="1:lobj|8:pnct|9:pnct">Kør</W>
-<W lemma="den" msd="PD-CSU--U" in="-1:lobj|6:[nobj]" out="1:nobj|2:pnct|4:rel">den</W>
-<W lemma="vej" msd="NCCSU==I" in="-1:nobj" out="">vej</W>
-<W lemma="," msd="XP" in="-2:pnct" out="">,</W>
-<W lemma="du" msd="PP2CSN-NU" in="1:subj" out="">du</W>
-<W lemma="få" msd="VADR=----A-" in="-4:rel" out="-1:subj|1:dobj">får</W>
-<W lemma="besked" msd="NCCSU==I" in="-1:dobj" out="1:pobj">besked</W>
-<W lemma="på" msd="SP" in="-1:pobj" out="-6:[nobj]">på</W>
-<W lemma="," msd="XP" in="-8:pnct" out="">,</W>
-<W lemma="&quot;" msd="XP" in="-9:pnct" out="">"</W>
-<W lemma="lyde" msd="VADA=----A-" in="" out="-10:qobj|1:subj|3:pnct">lød</W>
-<W lemma="pistolmand" msd="NCCSG==D" in="-1:subj" out="1:possd">pistolmandens</W>
-<W lemma="ordre" msd="NCCSU==I" in="-1:possd" out="">ordre</W>
-<W lemma="." msd="XP" in="-3:pnct" out="">.</W>
-</s>
-</p>
-<p>
-<s>
-<W lemma="med" msd="SP" in="5:mod" out="1:nobj|2:pred">Med</W>
-<W lemma="pistol" msd="NCCSU==D" in="-1:nobj" out="">pistolen</W>
-<W lemma="rette" msd="VAPA=S[CN]I[ARU]-U" in="-2:pred" out="1:pobj">rettet</W>
-<W lemma="mod" msd="SP" in="-1:pobj" out="1:nobj">mod</W>
-<W lemma="hoved" msd="NCNSU==D" in="-1:nobj" out="">hovedet</W>
-<W lemma="blive" msd="VADA=----A-" in="" out="-5:mod|1:subj|2:vobj|12:pnct">blev</W>
-<W lemma="postchauffør" msd="NCCSU==D" in="-1:subj|1:[subj]" out="">postchaufføren</W>
-<W lemma="dirigere" msd="VAPA=S[CN]I[ARU]-U" in="-2:vobj" out="-1:[subj]|1:lobj">dirigeret</W>
-<W lemma="ud" msd="RGU" in="-1:lobj" out="1:mod|3:pnct|4:mod">ud</W>
-<W lemma="ad" msd="SP" in="-1:mod" out="1:nobj">ad</W>
-<W lemma="Enghavevej" msd="NP--U==-" in="-1:nobj" out="">Enghavevej</W>
-<W lemma="," msd="XP" in="-3:pnct" out="">,</W>
-<W lemma="forbi" msd="SP" in="-4:mod" out="1:nobj|3:mod">forbi</W>
-<W lemma="Sydhavn" msd="NP--U==-" in="-1:nobj" out="1:nobj">Sydhavn</W>
-<W lemma="S-station" msd="NCCSU==I" in="-1:nobj" out="">S-station</W>
-<W lemma="mod" msd="SP" in="-3:mod" out="1:nobj">mod</W>
-<W lemma="Sjællandsbroen" msd="NP--U==-" in="-1:nobj" out="">Sjællandsbroen</W>
-<W lemma="." msd="XP" in="-12:pnct" out="">.</W>
+<W gloss="Drive" lemma="køre" msd="VAM-=------" tag="VB" in="10:qobj" out="1:lobj|8:pnct|9:pnct">Kør</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:lobj|6:[nobj]" out="1:nobj|2:pnct|4:rel">den</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">vej</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W gloss="you're" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
+<W gloss="receive" lemma="få" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj">får</W>
+<W gloss="message" lemma="besked" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">besked</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="-6:[nobj]">på</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
+<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
+<W gloss="sounded" lemma="lyde" msd="VADA=----A-" tag="VBD" in="" out="-10:qobj|1:subj|3:pnct">lød</W>
+<W gloss="the_gunman's" lemma="pistolmand" msd="NCCSG==D" tag="NN" in="-1:subj" out="1:possd">pistolmandens</W>
+<W gloss="orders" lemma="ordre" msd="NCCSU==I" tag="NN" in="-1:possd" out="">ordre</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="kort" msd="ANP---=-R" in="1:tobj" out="">Kort</W>
-<W lemma="før" msd="SP" in="2:mod" out="-1:tobj|1:nobj">før</W>
-<W lemma="bro" msd="NCCSU==D" in="-1:nobj" out="">broen</W>
-<W lemma="få" msd="VADA=----A-" in="" out="-2:mod|1:subj|2:dobj|25:pnct">fik</W>
-<W lemma="han" msd="PP3CSN-NU" in="-1:subj" out="">han</W>
-<W lemma="besked" msd="NCCSU==I" in="-2:dobj" out="1:pobj">besked</W>
-<W lemma="på" msd="SP" in="-1:pobj" out="1:nobj">på</W>
-<W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="køre" msd="VAF-=----A-" in="-1:vobj" out="1:lobj">køre</W>
-<W lemma="ind" msd="RGU" in="-1:lobj" out="1:mod|3:coord">ind</W>
-<W lemma="ad" msd="SP" in="-1:mod" out="1:nobj">ad</W>
-<W lemma="Bådehavnsgade" msd="NP--U==-" in="-1:nobj" out="">Bådehavnsgade</W>
-<W lemma="og" msd="CC" in="-3:coord" out="1:conj">og</W>
-<W lemma="ud" msd="RGU" in="-1:conj" out="1:mod">ud</W>
-<W lemma="ad" msd="SP" in="-1:mod" out="1:nobj">ad</W>
-<W lemma="Speditørvej" msd="NP--U==-" in="-1:nobj" out="1:pnct|2:ref|3:rel">Speditørvej</W>
-<W lemma="," msd="XP" in="-1:pnct" out="">,</W>
-<W lemma="der" msd="U=" in="-2:ref|1:subj" out="">der</W>
-<W lemma="ende" msd="VADR=----A-" in="-3:rel" out="-1:subj|1:mod|2:mod">ender</W>
-<W lemma="blind" msd="ANP---=-R" in="-1:mod" out="">blindt</W>
-<W lemma="ved" msd="SP" in="-2:mod" out="1:nobj">ved</W>
-<W lemma="en" msd="PI-NSU--U" in="-1:nobj" out="1:nobj|2:mod">et</W>
-<W lemma="hegn" msd="NCNSU==I" in="-1:nobj" out="">hegn</W>
-<W lemma="ud" msd="RGU" in="-2:mod" out="1:mod">ud</W>
-<W lemma="mod" msd="SP" in="-1:mod" out="1:nobj">mod</W>
-<W lemma="en" msd="PI-NSU--U" in="-1:nobj" out="1:mod|2:nobj">et</W>
-<W lemma="grøn" msd="ANPNSU=IU" in="-1:mod" out="">grønt</W>
-<W lemma="område" msd="NCNSU==I" in="-2:nobj" out="">område</W>
-<W lemma="." msd="XP" in="-25:pnct" out="">.</W>
+<W gloss="With" lemma="med" msd="SP" tag="IN" in="5:mod" out="1:nobj|2:pred">Med</W>
+<W gloss="the_pistol" lemma="pistol" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pistolen</W>
+<W gloss="directed" lemma="rette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:pred" out="1:pobj">rettet</W>
+<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>
+<W gloss="head" lemma="hoved" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedet</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-5:mod|1:subj|2:vobj|12:pnct">blev</W>
+<W gloss="the_postal_driver" lemma="postchauffør" msd="NCCSU==D" tag="NN" in="-1:subj|1:[subj]" out="">postchaufføren</W>
+<W gloss="directed" lemma="dirigere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:lobj">dirigeret</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod|3:pnct|4:mod">ud</W>
+<W gloss="along" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
+<W gloss="Enghavevej" lemma="Enghavevej" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Enghavevej</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W gloss="past" lemma="forbi" msd="SP" tag="IN" in="-4:mod" out="1:nobj|3:mod">forbi</W>
+<W gloss="the_South_Harbour" lemma="Sydhavn" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Sydhavn</W>
+<W gloss="S-station" lemma="S-station" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">S-station</W>
+<W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-3:mod" out="1:nobj">mod</W>
+<W gloss="the_Zealand_bridge" lemma="Sjællandsbroen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Sjællandsbroen</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="pistolmand" msd="NCCSU==I" in="1:subj" out="">PISTOLMAND</W>
-<W lemma="tage" msd="VADA=----A-" in="" out="-1:subj|1:mod">TOG</W>
-<W lemma="selv" msd="PD-[CN][SP]U--U" in="-1:mod" out="">SELV</W>
+<W gloss="Shortly" lemma="kort" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">Kort</W>
+<W gloss="before" lemma="før" msd="SP" tag="IN" in="2:mod" out="-1:tobj|1:nobj">før</W>
+<W gloss="the_bridge" lemma="bro" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">broen</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|1:subj|2:dobj|25:pnct">fik</W>
+<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
+<W gloss="message" lemma="besked" msd="NCCSU==I" tag="NN" in="-2:dobj" out="1:pobj">besked</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
+<W gloss="drive" lemma="køre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">køre</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod|3:coord">ind</W>
+<W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
+<W gloss="Bådehavnsgade" lemma="Bådehavnsgade" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Bådehavnsgade</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:conj" out="1:mod">ud</W>
+<W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
+<W gloss="Speditørvej" lemma="Speditørvej" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|3:rel">Speditørvej</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
+<W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
+<W gloss="ends" lemma="ende" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:mod|2:mod">ender</W>
+<W gloss="blindly" lemma="blind" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">blindt</W>
+<W gloss="at" lemma="ved" msd="SP" tag="IN" in="-2:mod" out="1:nobj">ved</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:mod">et</W>
+<W gloss="fence" lemma="hegn" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hegn</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:mod" out="1:mod">ud</W>
+<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:mod" out="1:nobj">mod</W>
+<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">et</W>
+<W gloss="the_green" lemma="grøn" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">grønt</W>
+<W gloss="area" lemma="område" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">område</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="pistolmand" msd="NCCSU==D" in="1:subj" out="">Pistolmanden</W>
-<W lemma="tvinge" msd="VADA=----A-" in="" out="-1:subj|1:dobj|3:lobj|17:pnct">tvang</W>
-<W lemma="sin" msd="PO3NSUSYU" in="-1:dobj" out="1:possd">sit</W>
-<W lemma="gidsel" msd="NCNSU==I" in="-1:possd" out="">gidsel</W>
-<W lemma="ud" msd="RGU" in="-3:lobj" out="1:mod|3:pnct|4:ref|6:rel">ud</W>
-<W lemma="af" msd="SP" in="-1:mod" out="1:nobj">af</W>
-<W lemma="bil" msd="NCCSU==D" in="-1:nobj" out="">bilen</W>
-<W lemma="," msd="XP" in="-3:pnct" out="">,</W>
-<W lemma="hvor" msd="RGU" in="-4:ref|2:mod" out="">hvor</W>
-<W lemma="han" msd="PP3CSN-NU" in="1:subj" out="">han</W>
-<W lemma="få" msd="VADA=----A-" in="-6:rel" out="-1:subj|-2:mod|1:dobj">fik</W>
-<W lemma="ordre" msd="NCCSU==I" in="-1:dobj" out="1:pobj">ordre</W>
-<W lemma="til" msd="SP" in="-1:pobj" out="1:nobj">til</W>
-<W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="låse" msd="VAF-=----A-" in="-1:vobj" out="1:dobj|3:avobj">låse</W>
-<W lemma="varevogn" msd="NCCSG==D" in="-1:dobj" out="1:possd">varevognens</W>
-<W lemma="skydedør" msd="NCCSU==I" in="-1:possd" out="">skydedør</W>
-<W lemma="op" msd="RGU" in="-3:avobj" out="">op</W>
-<W lemma="." msd="XP" in="-17:pnct" out="">.</W>
+<W gloss="GUNMAN" lemma="pistolmand" msd="NCCSU==I" tag="NN" in="1:subj" out="">PISTOLMAND</W>
+<W gloss="TOOK" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod">TOG</W>
+<W gloss="HIMSELF" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:mod" out="">SELV</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&quot;" msd="XP" in="1:pnct" out="">"</W>
-<W lemma="tak" msd="NCCSU==I" in="13:qobj" out="-1:pnct|1:pnct|3:conj|12:pnct">Tak</W>
-<W lemma="," msd="XP" in="-1:pnct" out="">,</W>
-<W lemma="nu" msd="RGU" in="1:mod" out="">nu</W>
-<W lemma="vide" msd="VADR=----A-" in="-3:conj" out="-1:mod|1:subj|2:mod|3:pnct|4:dobj">ved</W>
-<W lemma="jeg" msd="PP1CSN-NU" in="-1:subj" out="">jeg</W>
-<W lemma="selv" msd="PD-[CN][SP]U--U" in="-2:mod" out="">selv</W>
-<W lemma="," msd="XP" in="-3:pnct" out="">,</W>
-<W lemma="hvad" msd="PT-[CN]SU--U" in="-4:dobj|3:[dobj]" out="2:rel">hvad</W>
-<W lemma="jeg" msd="PP1CSN-NU" in="1:subj|2:[subj]" out="">jeg</W>
-<W lemma="skulle" msd="VADR=----A-" in="-2:rel" out="-1:subj|1:vobj|2:pnct">skal</W>
-<W lemma="have" msd="VAF-=----A-" in="-1:vobj" out="-2:[subj]|-3:[dobj]">have</W>
-<W lemma="," msd="XP" in="-2:pnct" out="">,</W>
-<W lemma="&quot;" msd="XP" in="-12:pnct" out="">"</W>
-<W lemma="sige" msd="VADA=----A-" in="" out="-13:qobj|1:subj|2:coord|13:pnct">sagde</W>
-<W lemma="pistolmand" msd="NCCSU==D" in="-1:subj|2:[subj]" out="">pistolmanden</W>
-<W lemma="og" msd="CC" in="-2:coord" out="1:conj">og</W>
-<W lemma="tage" msd="VADA=----A-" in="-1:conj" out="-2:[subj]|1:dobj|7:lobj">tog</W>
-<W lemma="en" msd="PI-CSU--U" in="-1:dobj" out="1:mod|2:nobj|3:coord">en</W>
-<W lemma="plombere" msd="VAPA=S[CN]IA-U" in="-1:mod" out="">plomberet</W>
-<W lemma="postsæk" msd="NCCSU==I" in="-2:nobj" out="">postsæk</W>
-<W lemma="og" msd="CC" in="-3:coord" out="1:conj">og</W>
-<W lemma="en" msd="PI-CSU--U" in="-1:conj" out="1:nobj">en</W>
-<W lemma="værdipakke" msd="NCCSU==I" in="-1:nobj" out="">værdipakke</W>
-<W lemma="ud" msd="RGU" in="-7:lobj" out="1:mod">ud</W>
-<W lemma="af" msd="SP" in="-1:mod" out="1:nobj">af</W>
-<W lemma="bil" msd="NCCSU==D" in="-1:nobj" out="">bilen</W>
-<W lemma="." msd="XP" in="-13:pnct" out="">.</W>
+<W gloss="The_gunman" lemma="pistolmand" msd="NCCSU==D" tag="NN" in="1:subj" out="">Pistolmanden</W>
+<W gloss="forced" lemma="tvinge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:lobj|17:pnct">tvang</W>
+<W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sit</W>
+<W gloss="hostage" lemma="gidsel" msd="NCNSU==I" tag="NN" in="-1:possd" out="">gidsel</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="1:mod|3:pnct|4:ref|6:rel">ud</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
+<W gloss="car_the" lemma="bil" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bilen</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-4:ref|2:mod" out="">hvor</W>
+<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|-2:mod|1:dobj">fik</W>
+<W gloss="orders" lemma="ordre" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">ordre</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
+<W gloss="lock" lemma="låse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:avobj">låse</W>
+<W gloss="the_delivery_van's" lemma="varevogn" msd="NCCSG==D" tag="NN" in="-1:dobj" out="1:possd">varevognens</W>
+<W gloss="sliding_door" lemma="skydedør" msd="NCCSU==I" tag="NN" in="-1:possd" out="">skydedør</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:avobj" out="">op</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="chauffør" msd="NCCSU==D" in="1:subj|3:[subj]" out="">Chaufføren</W>
-<W lemma="blive" msd="VADA=----A-" in="" out="-1:subj|1:mod|2:vobj|24:pnct">blev</W>
-<W lemma="igen" msd="RGU" in="-1:mod" out="">igen</W>
-<W lemma="tvinge" msd="VAPA=S[CN]I[ARU]-U" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod">tvunget</W>
-<W lemma="ind" msd="RGU" in="-1:lobj" out="1:mod">ind</W>
-<W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
-<W lemma="bil" msd="NCCSU==D" in="-1:nobj" out="">bilen</W>
-<W lemma="med" msd="SP" in="-4:mod" out="1:nobj">med</W>
-<W lemma="besked" msd="NCCSU==I" in="-1:nobj" out="1:pobj">besked</W>
-<W lemma="på" msd="SP" in="-1:pobj" out="1:nobj">på</W>
-<W lemma="at" msd="U=" in="-1:nobj" out="1:vobj">at</W>
-<W lemma="lægge" msd="VAF-=----A-" in="-1:vobj" out="1:dobj|2:lobj|5:coord">lægge</W>
-<W lemma="sig" msd="PP3[CN][SP]U-YU" in="-1:dobj" out="">sig</W>
-<W lemma="hen" msd="RGU" in="-2:lobj" out="1:mod">hen</W>
-<W lemma="over" msd="SP" in="-1:mod" out="1:nobj">over</W>
-<W lemma="sæde" msd="NCNPU==D" in="-1:nobj" out="">sæderne</W>
-<W lemma="og" msd="CC" in="-5:coord" out="2:conj">og</W>
-<W lemma="ikke" msd="RGU" in="1:mod" out="">ikke</W>
-<W lemma="kigge" msd="VAF-=----A-" in="-2:conj" out="-1:mod|1:lobj|2:pnct|3:mod">kigge</W>
-<W lemma="op" msd="RGU" in="-1:lobj" out="">op</W>
-<W lemma="," msd="XP" in="-2:pnct" out="">,</W>
-<W lemma="før" msd="CS" in="-3:mod" out="2:vobj">før</W>
-<W lemma="røver" msd="NCCSU==D" in="1:subj" out="">røveren</W>
-<W lemma="være" msd="VADA=----A-" in="-2:vobj" out="-1:subj|1:pred">var</W>
-<W lemma="væk" msd="RGU" in="-1:pred" out="">væk</W>
-<W lemma="." msd="XP" in="-24:pnct" out="">.</W>
+<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="Thank_you" lemma="tak" msd="NCCSU==I" tag="NN" in="13:qobj" out="-1:pnct|1:pnct|3:conj|12:pnct">Tak</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">nu</W>
+<W gloss="know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-1:mod|1:subj|2:mod|3:pnct|4:dobj">ved</W>
+<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
+<W gloss="myself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-2:mod" out="">selv</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-4:dobj|3:[dobj]" out="2:rel">hvad</W>
+<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
+<W gloss="have_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:vobj|2:pnct">skal</W>
+<W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[dobj]">have</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
+<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="" out="-13:qobj|1:subj|2:coord|13:pnct">sagde</W>
+<W gloss="the_gunman" lemma="pistolmand" msd="NCCSU==D" tag="NN" in="-1:subj|2:[subj]" out="">pistolmanden</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
+<W gloss="taking" lemma="tage" msd="VADA=----A-" tag="VBD" in="-1:conj" out="-2:[subj]|1:dobj|7:lobj">tog</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:mod|2:nobj|3:coord">en</W>
+<W gloss="sealed" lemma="plombere" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:mod" out="">plomberet</W>
+<W gloss="postal_bag" lemma="postsæk" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">postsæk</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
+<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:conj" out="1:nobj">en</W>
+<W gloss="insured_parcel" lemma="værdipakke" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">værdipakke</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-7:lobj" out="1:mod">ud</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
+<W gloss="the_car" lemma="bil" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bilen</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="den" msd="PD-CSU--U" in="3:subj|6:[subj]" out="1:mod|2:nobj">Den</W>
-<W lemma="chokere" msd="VAPA=S[CN]DA-U" in="-1:mod" out="">chokerede</W>
-<W lemma="chauffør" msd="NCCSU==I" in="-2:nobj" out="">chauffør</W>
-<W lemma="nå" msd="VADA=----A-" in="" out="-3:subj|1:mod|2:dobj|20:pnct">nåede</W>
-<W lemma="lige" msd="RGU" in="-1:mod" out="">lige</W>
-<W lemma="at" msd="U=" in="-2:dobj" out="1:vobj">at</W>
-<W lemma="se" msd="VAF-=----A-" in="-1:vobj" out="-6:[subj]|1:dobj|2:vobj">se</W>
-<W lemma="pistolmand" msd="NCCSU==D" in="-1:dobj|1:[subj]|8:[subj]" out="">pistolmanden</W>
-<W lemma="forsvinde" msd="VAF-=----A-" in="-2:vobj" out="-1:[subj]|1:mod|6:coord">forsvinde</W>
-<W lemma="gennem" msd="SP" in="-1:mod" out="1:nobj">gennem</W>
-<W lemma="en" msd="PI-NSU--U" in="-1:nobj" out="1:nobj|2:mod">et</W>
-<W lemma="hul" msd="NCNSU==I" in="-1:nobj" out="">hul</W>
-<W lemma="i" msd="SP" in="-2:mod" out="1:nobj">i</W>
-<W lemma="hegn" msd="NCNSU==D" in="-1:nobj" out="">hegnet</W>
-<W lemma="og" msd="CC" in="-6:coord" out="1:conj">og</W>
-<W lemma="løbe" msd="VAF-=----A-" in="-1:conj" out="-8:[subj]|1:lobj">løbe</W>
-<W lemma="ind" msd="RGU" in="-1:lobj" out="1:mod">ind</W>
-<W lemma="på" msd="SP" in="-1:mod" out="1:nobj">på</W>
-<W lemma="den" msd="PD-NSU--U" in="-1:nobj" out="1:mod|2:pnct|3:mod|4:nobj">det</W>
-<W lemma="øde" msd="ANP[CN][SP]U=[DI]U" in="-1:mod" out="">øde</W>
-<W lemma="," msd="XP" in="-2:pnct" out="">,</W>
-<W lemma="grøn" msd="ANP[CN]SU=DU" in="-3:mod" out="">grønne</W>
-<W lemma="område" msd="NCNSU==I" in="-4:nobj" out="">område</W>
-<W lemma="." msd="XP" in="-20:pnct" out="">.</W>
+<W gloss="The_driver" lemma="chauffør" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]" out="">Chaufføren</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|24:pnct">blev</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:mod" out="">igen</W>
+<W gloss="forced" lemma="tvinge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod">tvunget</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
+<W gloss="the_car" lemma="bil" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bilen</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:mod" out="1:nobj">med</W>
+<W gloss="message" lemma="besked" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">besked</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
+<W gloss="lie" lemma="lægge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:lobj|5:coord">lægge</W>
+<W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
+<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">hen</W>
+<W gloss="on_top_of" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
+<W gloss="seats" lemma="sæde" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">sæderne</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="2:conj">og</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
+<W gloss="look" lemma="kigge" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:mod|1:lobj|2:pnct|3:mod">kigge</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W gloss="before" lemma="før" msd="CS" tag="IN" in="-3:mod" out="2:vobj">før</W>
+<W gloss="the_robber" lemma="røver" msd="NCCSU==D" tag="NN" in="1:subj" out="">røveren</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred">var</W>
+<W gloss="gone" lemma="væk" msd="RGU" tag="RP" in="-1:pred" out="">væk</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj|6:[subj]" out="1:mod|2:nobj">Den</W>
+<W gloss="shocked" lemma="chokere" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:mod" out="">chokerede</W>
+<W gloss="driver" lemma="chauffør" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">chauffør</W>
+<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:mod|2:dobj|20:pnct">nåede</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="-1:mod" out="">lige</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
+<W gloss="see" lemma="se" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj|2:vobj">se</W>
+<W gloss="the_gunman" lemma="pistolmand" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]|8:[subj]" out="">pistolmanden</W>
+<W gloss="disappear" lemma="forsvinde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:mod|6:coord">forsvinde</W>
+<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-1:mod" out="1:nobj">gennem</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:mod">et</W>
+<W gloss="hole" lemma="hul" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hul</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
+<W gloss="the_fence" lemma="hegn" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hegnet</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-6:coord" out="1:conj">og</W>
+<W gloss="run" lemma="løbe" msd="VAF-=----A-" tag="VB" in="-1:conj" out="-8:[subj]|1:lobj">løbe</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:pnct|3:mod|4:nobj">det</W>
+<W gloss="deserted" lemma="øde" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:mod" out="">øde</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W gloss="greens" lemma="grøn" msd="ANP[CN]SU=DU" tag="JJ" in="-3:mod" out="">grønne</W>
+<W gloss="area" lemma="område" msd="NCNSU==I" tag="NN" in="-4:nobj" out="">område</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="derefter" msd="RGU" in="1:mod" out="">Derefter</W>
-<W lemma="slå" msd="VADA=----A-" in="" out="-1:mod|1:subj|2:dobj|3:mod|6:pobj|19:pnct">slog</W>
-<W lemma="han" msd="PP3CSN-NU" in="-1:subj" out="">han</W>
-<W lemma="alarm" msd="NCCSU==I" in="-2:dobj" out="">alarm</W>
-<W lemma="over" msd="SP" in="-3:mod" out="1:nobj">over</W>
-<W lemma="sin" msd="PO3CSUSYU" in="-1:nobj" out="1:possd">sin</W>
-<W lemma="radio" msd="NCCSU==I" in="-1:possd" out="">radio</W>
-<W lemma="til" msd="SP" in="-6:pobj" out="1:nobj">til</W>
-<W lemma="hovedkvarter" msd="NCNSU==D" in="-1:nobj" out="1:mod|3:pnct|4:ref|6:rel">hovedkvarteret</W>
-<W lemma="i" msd="SP" in="-1:mod" out="1:nobj">i</W>
-<W lemma="Tietgensgade" msd="NP--U==-" in="-1:nobj" out="">Tietgensgade</W>
-<W lemma="," msd="XP" in="-3:pnct" out="">,</W>
-<W lemma="hvor" msd="RGU" in="-4:ref|2:mod" out="">hvor</W>
-<W lemma="man" msd="PI-C[SP]N--U" in="1:subj" out="">man</W>
-<W lemma="slå" msd="VADA=----A-" in="-6:rel" out="-1:subj|-2:mod|1:dobj|2:pobj|4:mod">slog</W>
-<W lemma="alarm" msd="NCCSU==I" in="-1:dobj" out="">alarm</W>
-<W lemma="til" msd="SP" in="-2:pobj" out="1:nobj">til</W>
-<W lemma="politi" msd="NCNSU==D" in="-1:nobj" out="">politiet</W>
-<W lemma="klokke" msd="NCCSU==D" in="-4:mod" out="1:nobj">klokken</W>
-<W lemma="17.48" msd="AC---U=--" in="-1:nobj" out="">17.48</W>
-<W lemma="." msd="XP" in="-19:pnct" out="">.</W>
+<W gloss="Then" lemma="derefter" msd="RGU" tag="RP" in="1:mod" out="">Derefter</W>
+<W gloss="struck" lemma="slå" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|3:mod|6:pobj|19:pnct">slog</W>
+<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
+<W gloss="the_alarm" lemma="alarm" msd="NCCSU==I" tag="NN" in="-2:dobj" out="">alarm</W>
+<W gloss="over" lemma="over" msd="SP" tag="IN" in="-3:mod" out="1:nobj">over</W>
+<W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
+<W gloss="radio" lemma="radio" msd="NCCSU==I" tag="NN" in="-1:possd" out="">radio</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-6:pobj" out="1:nobj">til</W>
+<W gloss="headquarters" lemma="hovedkvarter" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:mod|3:pnct|4:ref|6:rel">hovedkvarteret</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
+<W gloss="Tietgensgade" lemma="Tietgensgade" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Tietgensgade</W>
+<W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-4:ref|2:mod" out="">hvor</W>
+<W gloss="we" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
+<W gloss="struck" lemma="slå" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|-2:mod|1:dobj|2:pobj|4:mod">slog</W>
+<W gloss="the_alarm" lemma="alarm" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">alarm</W>
+<W gloss="with" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
+<W gloss="the_police" lemma="politi" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">politiet</W>
+<W gloss="at" lemma="klokke" msd="NCCSU==D" tag="NN" in="-4:mod" out="1:nobj">klokken</W>
+<W gloss="5_:_48_pm" lemma="17.48" msd="AC---U=--" tag="CD" in="-1:nobj" out="">17.48</W>
+<W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 </p>
 </div1>
