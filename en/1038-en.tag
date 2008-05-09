@@ -1,259 +1,259 @@
 <s>
-<W msd="CC" in="" out="2:conj|16:pnct">But</W>
-<W msd="PRP" in="1:subj" out="12:vobj">it</W>
-<W msd="VBD" in="-2:conj" out="-1:subj|1:pred">was</W>
-<W msd="IN" in="-1:pred" out="1:nobj">with</W>
-<W msd="DT" in="-1:nobj" out="6:nobj">the</W>
-<W msd="NN" in="5:mod" out="1:mod">fricassee</W>
-<W msd="IN" in="-1:mod" out="1:nobj">of</W>
-<W msd="NN" in="-1:nobj" out="1:coord">pike</W>
-<W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NNS" in="-1:conj" out="">trout</W>
-<W msd="NN" in="-6:nobj" out="-5:mod">dish</W>
-<W msd="NNP" in="1:namef" out="">Preben</W>
-<W msd="NNP" in="1:subj" out="-1:namef">Madsen</W>
-<W msd="VBD" in="-12:vobj" out="-1:subj|1:dobj">landed</W>
-<W msd="PRP$" in="-1:dobj" out="1:possd">his</W>
-<W msd="NN" in="-1:possd" out="">victory</W>
-<W msd="." in="-16:pnct" out="">.</W>
+<W msd="CC" tag="CC" in="" out="2:conj|16:pnct">But</W>
+<W msd="PP" tag="PRP" in="1:subj" out="12:vobj">it</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:pred">was</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj">with</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="6:nobj">the</W>
+<W msd="NC=S" tag="NN" in="5:mod" out="1:mod">fricassee</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">pike</W>
+<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-1:conj" out="">trout</W>
+<W msd="NC=S" tag="NN" in="-6:nobj" out="-5:mod">dish</W>
+<W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
+<W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Madsen</W>
+<W msd="VADA" tag="VBD" in="-12:vobj" out="-1:subj|1:dobj">landed</W>
+<W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="">victory</W>
+<W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="IN" in="14:mod" out="1:nobj|5:pnct">In</W>
-<W msd="NN" in="-1:nobj" out="1:pobj">addition</W>
-<W msd="TO" in="-1:pobj" out="2:nobj">to</W>
-<W msd="JJ" in="1:mod" out="">local</W>
-<W msd="NNS" in="-2:nobj" out="-1:mod">judges</W>
-<W msd="," in="-5:pnct" out="">,</W>
-<W msd="NNP" in="1:namef" out="">Erwin</W>
-<W msd="NNP" in="7:subj" out="-1:namef|1:pnct|2:appa">Lauterbach</W>
-<W msd="," in="-1:pnct" out="">,</W>
-<W msd="NNP" in="-2:appa" out="1:mod|4:pnct">Saison</W>
-<W msd="IN" in="-1:mod" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Skovshoved</W>
-<W msd="NNP" in="-1:nobj" out="">Hotel</W>
-<W msd="," in="-4:pnct" out="">,</W>
-<W msd="VBD" in="" out="-7:subj|1:pred|6:pnct|-14:mod">was</W>
-<W msd="IN" in="-1:pred" out="1:nobj">on</W>
-<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="1:pobj">panel</W>
-<W msd="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NNS" in="-1:nobj" out="">judges</W>
-<W msd="." in="-6:pnct" out="">.</W>
+<W msd="SP" tag="IN" in="14:mod" out="1:nobj|5:pnct">In</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">addition</W>
+<W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="">local</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">judges</W>
+<W msd="XP" tag="," in="-5:pnct" out="">,</W>
+<W msd="NP=S" tag="NNP" in="1:namef" out="">Erwin</W>
+<W msd="NP=S" tag="NNP" in="7:subj" out="-1:namef|1:pnct|2:appa">Lauterbach</W>
+<W msd="XP" tag="," in="-1:pnct" out="">,</W>
+<W msd="NP=S" tag="NNP" in="-2:appa" out="1:mod|4:pnct">Saison</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Skovshoved</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Hotel</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="VADA" tag="VBD" in="" out="-7:subj|-14:mod|1:pred|6:pnct">was</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj">on</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">panel</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">judges</W>
+<W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:subj" out="">Madsen</W>
-<W msd="VBD" in="" out="-1:subj|1:iobj|2:dobj|4:pnct">gave</W>
-<W msd="PRP" in="-1:iobj" out="">me</W>
-<W msd="DT" in="-2:dobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">recipe</W>
-<W msd="." in="-4:pnct" out="">.</W>
+<W msd="NP=S" tag="NNP" in="1:subj" out="">Madsen</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:iobj|2:dobj|4:pnct">gave</W>
+<W msd="PP" tag="PRP" in="-1:iobj" out="">me</W>
+<W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">recipe</W>
+<W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="DT" in="2:subj" out="1:nobj">The</W>
-<W msd="NNS" in="-1:nobj" out="">ingredients</W>
-<W msd="VBP" in="" out="-2:subj|1:pnct|2:pred|56:pnct">are</W>
-<W msd=":" in="-1:pnct" out="">:</W>
-<W msd="CD" in="-2:pred" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|14:pnct|15:conj|19:pnct|20:conj|24:pnct|25:conj|29:pnct|30:conj|36:pnct|37:conj|42:pnct|43:conj|48:conj|47:pnct|50:coord">400g</W>
-<W msd="NN" in="1:mod" out="">pike</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">filet</W>
-<W msd="," in="-3:pnct" out="">,</W>
-<W msd="CD" in="-4:conj" out="2:nobj">400g</W>
-<W msd="NNS" in="1:mod" out="">trout</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">filet</W>
-<W msd="," in="-7:pnct" out="">,</W>
-<W msd="CD" in="-8:conj" out="2:nobj|3:mod">150g</W>
-<W msd="NN" in="1:mod" out="">country</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">ham</W>
-<W msd="IN" in="-3:mod" out="2:nobj">in</W>
-<W msd="NN" in="1:mod" out="">julienne</W>
-<W msd="NNS" in="-2:nobj" out="-1:mod">strips</W>
-<W msd="," in="-14:pnct" out="">,</W>
-<W msd="CD" in="-15:conj" out="1:mod|3:nobj">two</W>
-<W msd="JJ" in="-1:mod" out="">small</W>
-<W msd="NN" in="1:mod" out="">spring</W>
-<W msd="NNS" in="-3:nobj" out="-1:mod">cabbages</W>
-<W msd="," in="-19:pnct" out="">,</W>
-<W msd="DT" in="-20:conj" out="1:nobj">a</W>
-<W msd="NN" in="-1:nobj" out="1:pobj">bunch</W>
-<W msd="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NN" in="-1:nobj" out="">parsley</W>
-<W msd="," in="-24:pnct" out="">,</W>
-<W msd="CD" in="-25:conj" out="1:nobj">two</W>
-<W msd="NN" in="-1:nobj" out="2:nobj">dl</W>
-<W msd="NN" in="1:mod" out="">vegetable</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">bouillon</W>
-<W msd="," in="-29:pnct" out="">,</W>
-<W msd="CD" in="-30:conj" out="1:mod|2:nobj|3:mod">two</W>
-<W msd="JJ" in="-1:mod" out="">thin</W>
-<W msd="NNS" in="-2:nobj" out="">leeks</W>
-<W msd="VBP" in="-3:mod" out="1:pobj">cut</W>
-<W msd="IN" in="-1:pobj" out="1:nobj">in</W>
-<W msd="NNS" in="-1:nobj" out="">rings</W>
-<W msd="," in="-36:pnct" out="">,</W>
-<W msd="CD" in="-37:conj" out="1:nobj">two</W>
-<W msd="NNS" in="-1:nobj" out="3:nobj">teaspoons</W>
-<W msd="JJ" in="1:mod" out="">whole</W>
-<W msd="NN" in="1:mod" out="-1:mod">seed</W>
-<W msd="NN" in="-3:nobj" out="-1:mod">mustard</W>
-<W msd="," in="-42:pnct" out="">,</W>
-<W msd="CD" in="-43:conj" out="1:nobj">two</W>
-<W msd="NNS" in="-1:nobj" out="2:nobj">teaspoons</W>
-<W msd="JJ" in="1:mod" out="">ordinary</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">vinegar</W>
-<W msd="," in="-47:pnct" out="">,</W>
-<W msd="CD" in="-48:conj" out="1:nobj">200g</W>
-<W msd="NN" in="-1:nobj" out="">butter</W>
-<W msd="CC" in="-50:coord" out="1:conj">and</W>
-<W msd="NN" in="-1:conj" out="1:coord">salt</W>
-<W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NN" in="-1:conj" out="">pepper</W>
-<W msd="." in="-56:pnct" out="">.</W>
+<W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">ingredients</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:pnct|2:pred|56:pnct">are</W>
+<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="AC" tag="CD" in="-2:pred" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|14:pnct|15:conj|19:pnct|20:conj|24:pnct|25:conj|29:pnct|30:conj|36:pnct|37:conj|42:pnct|43:conj|47:pnct|48:conj|50:coord">400g</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">pike</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">filet</W>
+<W msd="XP" tag="," in="-3:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-4:conj" out="2:nobj">400g</W>
+<W msd="NC=P" tag="NNS" in="1:mod" out="">trout</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">filet</W>
+<W msd="XP" tag="," in="-7:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-8:conj" out="2:nobj|3:mod">150g</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">country</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">ham</W>
+<W msd="SP" tag="IN" in="-3:mod" out="2:nobj">in</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">julienne</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">strips</W>
+<W msd="XP" tag="," in="-14:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-15:conj" out="1:mod|3:nobj">two</W>
+<W msd="ANP" tag="JJ" in="-1:mod" out="">small</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">spring</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">cabbages</W>
+<W msd="XP" tag="," in="-19:pnct" out="">,</W>
+<W msd="PI" tag="DT" in="-20:conj" out="1:nobj">a</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">bunch</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">parsley</W>
+<W msd="XP" tag="," in="-24:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-25:conj" out="1:nobj">two</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:nobj">dl</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">vegetable</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bouillon</W>
+<W msd="XP" tag="," in="-29:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-30:conj" out="1:mod|2:nobj|3:mod">two</W>
+<W msd="ANP" tag="JJ" in="-1:mod" out="">thin</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="">leeks</W>
+<W msd="VADR" tag="VBP" in="-3:mod" out="1:pobj">cut</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">rings</W>
+<W msd="XP" tag="," in="-36:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-37:conj" out="1:nobj">two</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="3:nobj">teaspoons</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="">whole</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">seed</W>
+<W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">mustard</W>
+<W msd="XP" tag="," in="-42:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-43:conj" out="1:nobj">two</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:nobj">teaspoons</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="">ordinary</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">vinegar</W>
+<W msd="XP" tag="," in="-47:pnct" out="">,</W>
+<W msd="AC" tag="CD" in="-48:conj" out="1:nobj">200g</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">butter</W>
+<W msd="CC" tag="CC" in="-50:coord" out="1:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:conj" out="1:coord">salt</W>
+<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:conj" out="">pepper</W>
+<W msd="XP" tag="." in="-56:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VB" in="" out="1:dobj|3:pobj|5:pnct|6:conj|18:pnct">Cut</W>
-<W msd="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">fish</W>
-<W msd="IN" in="-3:pobj" out="1:nobj">in</W>
-<W msd="NNS" in="-1:nobj" out="">cubes</W>
-<W msd="," in="-5:pnct" out="">,</W>
-<W msd="JJ" in="-6:conj" out="1:dobj|2:mod|6:mod|9:mod">bake</W>
-<W msd="PRP" in="-1:dobj" out="">them</W>
-<W msd="IN" in="-2:mod" out="3:nobj">on</W>
-<W msd="VBN" in="2:mod" out="">buttered</W>
-<W msd="NN" in="1:mod" out="">baking</W>
-<W msd="NNS" in="-3:nobj" out="-1:mod|-2:mod">sheets</W>
-<W msd="IN" in="-6:mod" out="1:nobj">in</W>
-<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">oven</W>
-<W msd="IN" in="-9:mod" out="1:nobj">at</W>
-<W msd="CD" in="-1:nobj" out="1:nobj">140</W>
-<W msd="NNS" in="-1:nobj" out="">degrees</W>
-<W msd="." in="-18:pnct" out="">.</W>
+<W msd="VAF" tag="VB" in="" out="1:dobj|3:pobj|5:pnct|6:conj|18:pnct">Cut</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">fish</W>
+<W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">in</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">cubes</W>
+<W msd="XP" tag="," in="-5:pnct" out="">,</W>
+<W msd="ANP" tag="JJ" in="-6:conj" out="1:dobj|2:mod|6:mod|9:mod">bake</W>
+<W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
+<W msd="SP" tag="IN" in="-2:mod" out="3:nobj">on</W>
+<W msd="VAP" tag="VBN" in="2:mod" out="">buttered</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">baking</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod|-2:mod">sheets</W>
+<W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">oven</W>
+<W msd="SP" tag="IN" in="-9:mod" out="1:nobj">at</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">140</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">degrees</W>
+<W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
-<W msd="NN" in="-1:nobj" out="">cabbage</W>
-<W msd="VBZ" in="" out="-2:subj|1:vobj|4:pnct">is</W>
-<W msd="VBN" in="-1:vobj" out="-3:[subj]|1:mod">cooked</W>
-<W msd="IN" in="-1:mod" out="1:pred">until</W>
-<W msd="NN" in="-1:pred" out="">tender</W>
-<W msd="." in="-4:pnct" out="">.</W>
+<W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">cabbage</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|4:pnct">is</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">cooked</W>
+<W msd="CS" tag="IN" in="-1:mod" out="1:pred">until</W>
+<W msd="NC=S" tag="NN" in="-1:pred" out="">tender</W>
+<W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="DT" in="" out="1:nobj|2:pnct|30:pnct|3:list">The</W>
-<W msd="NN" in="-1:nobj" out="">sauce</W>
-<W msd=":" in="-2:pnct" out="">:</W>
-<W msd="NNP" in="-3:list" out="4:mod|7:pnct|8:conj|10:pnct|11:conj|14:pnct|15:conj|19:pnct|23:pnct|24:conj|1:dobj|20:conj">Steam</W>
-<W msd="DT" in="-1:dobj" out="2:nobj">the</W>
-<W msd="NN" in="1:mod" out="">leek</W>
-<W msd="NNS" in="-2:nobj" out="-1:mod">rings</W>
-<W msd="IN" in="-4:mod" out="2:nobj">in</W>
-<W msd="NN" in="1:mod" out="">vegetable</W>
-<W msd="NN" in="-2:nobj" out="-1:mod">bouillon</W>
-<W msd="," in="-7:pnct" out="">,</W>
-<W msd="VB" in="-8:conj" out="1:dobj">remove</W>
-<W msd="PRP" in="-1:dobj" out="">them</W>
-<W msd="," in="-10:pnct" out="">,</W>
-<W msd="VB" in="-11:conj" out="1:dobj">reduce</W>
-<W msd="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">bouillon</W>
-<W msd="," in="-14:pnct" out="">,</W>
-<W msd="VB" in="-15:conj" out="1:dobj">add</W>
-<W msd="NN" in="-1:dobj" out="1:coord">vinegar</W>
-<W msd="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NN" in="-1:conj" out="">mustard</W>
-<W msd="," in="-19:pnct" out="">,</W>
-<W msd="VB" in="-20:conj" out="1:mod">stir</W>
-<W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">butter</W>
-<W msd="," in="-23:pnct" out="">,</W>
-<W msd="VB" in="-24:conj" out="2:dobj">add</W>
-<W msd="VBN" in="1:mod" out="">chopped</W>
-<W msd="NN" in="-2:dobj" out="-1:mod">parsley</W>
-<W msd="." in="-30:pnct" out="">.</W>
+<W msd="PD" tag="DT" in="" out="1:nobj|2:pnct|3:list|30:pnct">The</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">sauce</W>
+<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="NP=S" tag="NNP" in="-3:list" out="1:dobj|4:mod|7:pnct|8:conj|10:pnct|11:conj|14:pnct|15:conj|19:pnct|20:conj|23:pnct|24:conj">Steam</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">leek</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">rings</W>
+<W msd="SP" tag="IN" in="-4:mod" out="2:nobj">in</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">vegetable</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bouillon</W>
+<W msd="XP" tag="," in="-7:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-8:conj" out="1:dobj">remove</W>
+<W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
+<W msd="XP" tag="," in="-10:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-11:conj" out="1:dobj">reduce</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">bouillon</W>
+<W msd="XP" tag="," in="-14:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-15:conj" out="1:dobj">add</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="1:coord">vinegar</W>
+<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:conj" out="">mustard</W>
+<W msd="XP" tag="," in="-19:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-20:conj" out="1:mod">stir</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">butter</W>
+<W msd="XP" tag="," in="-23:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-24:conj" out="2:dobj">add</W>
+<W msd="VAP" tag="VBN" in="1:mod" out="">chopped</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:mod">parsley</W>
+<W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="" out="4:mod|10:pnct|11:conj|20:coord|26:pnct|1:dobj">Serve</W>
-<W msd="DT" in="-1:dobj" out="2:nobj">the</W>
-<W msd="NN" in="1:mod" out="">fish</W>
-<W msd="NNS" in="-2:nobj" out="-1:mod">cubes</W>
-<W msd="IN" in="-4:mod" out="1:nobj">with</W>
-<W msd="DT" in="-1:nobj" out="1:nobj|2:coord">the</W>
-<W msd="NN" in="-1:nobj" out="">cabbage</W>
-<W msd="CC" in="-2:coord" out="2:conj">and</W>
-<W msd="NN" in="1:mod" out="">leek</W>
-<W msd="NNS" in="-2:conj" out="-1:mod">rings</W>
-<W msd="," in="-10:pnct" out="">,</W>
-<W msd="VB" in="-11:conj" out="6:lobj|1:dobj">pour</W>
-<W msd="DT" in="-1:dobj" out="1:mod">a</W>
-<W msd="JJ" in="-1:mod" out="1:pobj">little</W>
-<W msd="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">sauce</W>
-<W msd="IN" in="-6:lobj" out="1:nobj">over</W>
-<W msd="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">fish</W>
-<W msd="CC" in="-20:coord" out="1:conj">and</W>
-<W msd="VBP" in="-1:conj" out="1:dobj|3:lobj">sprinkle</W>
-<W msd="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NN" in="-1:nobj" out="">ham</W>
-<W msd="IN" in="-3:lobj" out="1:nobj">on</W>
-<W msd="NN" in="-1:nobj" out="">top</W>
-<W msd="." in="-26:pnct" out="">.</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|4:mod|10:pnct|11:conj|20:coord|26:pnct">Serve</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">fish</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">cubes</W>
+<W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">cabbage</W>
+<W msd="CC" tag="CC" in="-2:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="1:mod" out="">leek</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">rings</W>
+<W msd="XP" tag="," in="-10:pnct" out="">,</W>
+<W msd="VAF" tag="VB" in="-11:conj" out="1:dobj|6:lobj">pour</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:mod">a</W>
+<W msd="ANP" tag="JJ" in="-1:mod" out="1:pobj">little</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">sauce</W>
+<W msd="SP" tag="IN" in="-6:lobj" out="1:nobj">over</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">fish</W>
+<W msd="CC" tag="CC" in="-20:coord" out="1:conj">and</W>
+<W msd="VADR" tag="VBP" in="-1:conj" out="1:dobj|3:lobj">sprinkle</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">ham</W>
+<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">on</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">top</W>
+<W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="MD" in="" out="-1:subj|2:vobj|8:pnct|1:mod">may</W>
-<W msd="RB" in="-1:mod" out="">also</W>
-<W msd="VB" in="-2:vobj" out="-3:[subj]|2:dobj|3:modo">serve</W>
-<W msd="JJ" in="1:mod" out="">new</W>
-<W msd="NNS" in="-2:dobj" out="-1:mod">potatoes</W>
-<W msd="JJ" in="-3:modo" out="1:mod">baked</W>
-<W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NN" in="-1:nobj" out="">butter</W>
-<W msd="." in="-8:pnct" out="">.</W>
+<W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|8:pnct">may</W>
+<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj|3:modo">serve</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="">new</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">potatoes</W>
+<W msd="ANP" tag="JJ" in="-3:modo" out="1:mod">baked</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">butter</W>
+<W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NNP" in="1:namef" out="">Preben</W>
-<W msd="NNP" in="8:subj|9:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Madsen</W>
-<W msd="," in="-1:pnct" out="">,</W>
-<W msd="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VBZ" in="-3:rel" out="-1:subj|4:pnct|3:pred">is</W>
-<W msd="CD" in="2:mod" out="1:nobj">31</W>
-<W msd="NNS" in="-1:nobj" out="">years</W>
-<W msd="JJ" in="-3:pred" out="-2:mod">old</W>
-<W msd="," in="-4:pnct" out="">,</W>
-<W msd="VBD" in="" out="-8:subj|5:pnct|1:vobj">was</W>
-<W msd="VBN" in="-1:vobj" out="1:pobj|-9:[subj]">trained</W>
-<W msd="IN" in="-1:pobj" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Hovborg</W>
-<W msd="NNP" in="-1:nobj" out="">Inn</W>
-<W msd="." in="-5:pnct" out="">.</W>
+<W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
+<W msd="NP=S" tag="NNP" in="8:subj|9:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Madsen</W>
+<W msd="XP" tag="," in="-1:pnct" out="">,</W>
+<W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|3:pred|4:pnct">is</W>
+<W msd="AC" tag="CD" in="2:mod" out="1:nobj">31</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
+<W msd="ANP" tag="JJ" in="-3:pred" out="-2:mod">old</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|1:vobj|5:pnct">was</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">trained</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Hovborg</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Inn</W>
+<W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="IN" in="4:mod" out="1:avobj|2:pnct">Since</W>
-<W msd="RB" in="-1:avobj" out="">then</W>
-<W msd="," in="-2:pnct" out="">,</W>
-<W msd="PRP" in="1:subj|6:[subj]" out="">he</W>
-<W msd="VBZ" in="" out="-1:subj|5:vobj|20:pnct|-4:mod|1:mod|4:pnct">has</W>
-<W msd="IN" in="-1:mod" out="1:nobj">among</W>
-<W msd="JJ" in="-1:nobj" out="1:nobj">other</W>
-<W msd="NNS" in="-1:nobj" out="">places</W>
-<W msd="," in="-4:pnct" out="">,</W>
-<W msd="VBN" in="-5:vobj" out="-6:[subj]|1:pred">been</W>
-<W msd="IN" in="-1:pred" out="1:nobj|4:pnct|5:conj|9:coord">at</W>
-<W msd="NNP" in="-1:nobj" out="1:mod">Pakhuset</W>
-<W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Esbjerg</W>
-<W msd="," in="-4:pnct" out="">,</W>
-<W msd="NNP" in="-5:conj" out="1:name">Hotel</W>
-<W msd="NNP" in="-1:name" out="1:mod">Plaza</W>
-<W msd="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NNP" in="-1:nobj" out="">Copenhagen</W>
-<W msd="CC" in="-9:coord" out="1:conj">and</W>
-<W msd="IN" in="-1:conj" out="1:nobj">at</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Henne</W>
-<W msd="NNP" in="-1:nobj" out="1:nobj">Kirkeby</W>
-<W msd="NNP" in="-1:nobj" out="">Inn</W>
-<W msd="." in="-20:pnct" out="">.</W>
+<W msd="CS" tag="IN" in="4:mod" out="1:avobj|2:pnct">Since</W>
+<W msd="ANP" tag="RB" in="-1:avobj" out="">then</W>
+<W msd="XP" tag="," in="-2:pnct" out="">,</W>
+<W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">he</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-4:mod|1:mod|4:pnct|5:vobj|20:pnct">has</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">among</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">places</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="VAP" tag="VBN" in="-5:vobj" out="-6:[subj]|1:pred">been</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|4:pnct|5:conj|9:coord">at</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod">Pakhuset</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Esbjerg</W>
+<W msd="XP" tag="," in="-4:pnct" out="">,</W>
+<W msd="NP=S" tag="NNP" in="-5:conj" out="1:name">Hotel</W>
+<W msd="NP=S" tag="NNP" in="-1:name" out="1:mod">Plaza</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
+<W msd="CC" tag="CC" in="-9:coord" out="1:conj">and</W>
+<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">at</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Henne</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Kirkeby</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="">Inn</W>
+<W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
