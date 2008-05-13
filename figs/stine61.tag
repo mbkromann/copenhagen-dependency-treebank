@@ -1,0 +1,9 @@
+<W gloss="Dog-the" msd="NC" in="1:subj" out="">Hunden</W>
+<W gloss="is" msd="VA" in="" out="-1:subj|3:pred">er</W>
+<W gloss="not" msd="RG" in="1:mod" out="">ikke</W>
+<W gloss="only" msd="RG" in="3:mod" out="-1:mod">blot</W>
+<W gloss="fierce" msd="AN" in="-3:pred" out="2:coord|1:pnct">bidsk</W>
+<W gloss="," msd="XP" in="-1:pnct" out="">,</W>
+<W gloss="but" msd="CC" in="-2:coord" out="-3:mod|1:mod|2:conj">men</W>
+<W gloss="also" msd="RG" in="-1:mod" out="">også</W>
+<W gloss="disobedient" msd="AN" in="-2:conj" out="">ulydig</W>

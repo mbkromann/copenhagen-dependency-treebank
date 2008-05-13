@@ -1,0 +1,17 @@
+<W gloss="We" msd="PP" in="1:subj" out="">Vi</W>
+<W gloss="serve" msd="VA" in="" out="-1:subj|1:iobj|2:dobj|3:pnct|4:gap|7:pnct|8:gap|11:pnct|12:coord">serverer</W>
+<W gloss="Anne" msd="NP" in="-1:iobj" out="">Anne</W>
+<W gloss="tea" msd="NC" in="-2:dobj" out="">te</W>
+<W gloss="," msd="XP" in="-3:pnct" out="">,</W>
+<W gloss="" msd="VA" in="-4:gap" out="1:iobj|2:dobj"></W>
+<W gloss="Bo" msd="NP" in="-1:iobj" out="">Bo</W>
+<W gloss="coffee" msd="NC" in="-2:dobj" out="">kaffe</W>
+<W gloss="," msd="XP" in="-7:pnct" out="">,</W>
+<W gloss="" msd="VA" in="-8:gap" out="1:iobj|2:dobj"></W>
+<W gloss="Clara" msd="NP" in="-1:iobj" out="">Clara</W>
+<W gloss="cocoa" msd="NC" in="-2:dobj" out="">kakao</W>
+<W gloss="," msd="XP" in="-11:pnct" out="">,</W>
+<W gloss="and" msd="CC" in="-12:coord" out="1:gap">og</W>
+<W gloss="" msd="VA" in="-1:gap" out="1:iobj|2:dobj"></W>
+<W gloss="Dorthe" msd="NP" in="-1:iobj" out="">Dorthe</W>
+<W gloss="milk" msd="NC" in="-2:dobj" out="">mælk</W>

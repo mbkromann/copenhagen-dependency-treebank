@@ -1,0 +1,9 @@
+<W gloss="He" msd="PP" in="1:subj" out="">Han</W>
+<W gloss="wanted" msd="VA" in="" out="-1:subj|1:dobj|7:pnct">ønskede</W>
+<W gloss="one" msd="PP" in="-1:dobj" out="2:appa|1:pnct">et</W>
+<W gloss=":" msd="XP" in="-1:pnct" out="">:</W>
+<W gloss="to" msd="U" in="-2:appa" out="1:vobj">at</W>
+<W gloss="see" msd="VA" in="-1:vobj" out="1:dob|2:mod">se</W>
+<W gloss="her" msd="PP" in="-1:dob" out="">hende</W>
+<W gloss="again" msd="RG" in="-2:mod" out="">igen</W>
+<W gloss="." msd="XP" in="-7:pnct" out="">!</W>

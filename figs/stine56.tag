@@ -1,0 +1,10 @@
+<W gloss="With" msd="SP" in="" out="1:nobj|3:pnct|5:xpl">Med</W>
+<W gloss="other" msd="PI" in="-1:nobj" out="1:nobj">andre</W>
+<W gloss="words" msd="NC" in="-1:nobj" out="">ord</W>
+<W gloss=":" msd="XP" in="-3:pnct" out="">:</W>
+<W gloss="smoking" msd="NC" in="1:subj" out="">rygning</W>
+<W gloss="is" msd="VA" in="-5:xpl" out="-1:subj|1:pred|2:mod|4:pnct">er</W>
+<W gloss="forbidden" msd="AN" in="-1:pred" out="">forbudt</W>
+<W gloss="in" msd="SP" in="-2:mod" out="1:nobj">i</W>
+<W gloss="car-the" msd="NC" in="-1:nobj" out="">bilen</W>
+<W gloss="!" msd="XP" in="-4:pnct" out="">!</W>

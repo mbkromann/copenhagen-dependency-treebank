@@ -1,0 +1,10 @@
+<W gloss="He" msd="PP" in="1:subj" out="">Han</W>
+<W gloss="tells" msd="VA" in="" out="-1:subj|1:iobj|2:pnct|3:coord|6:pnct|7:pobj">fortæller</W>
+<W gloss="russians-the" msd="NC" in="-1:iobj" out="">russerne</W>
+<W gloss="," msd="XP" in="-2:pnct" out="">,</W>
+<W gloss="and" msd="CC" in="-3:coord" out="1:<subj>|2:<iobj>">og</W>
+<W gloss="she" msd="PP" in="-1:<subj>" out="">hun</W>
+<W gloss="japanese-the" msd="NC" in="-2:<iobj>" out="">japanerne</W>
+<W gloss="," msd="XP" in="-6:pnct" out="">,</W>
+<W gloss="about" msd="SP" in="-7:pobj" out="1:nobj">om</W>
+<W gloss="Kronborg" msd="NP" in="-1:nobj" out="">Kronborg</W>

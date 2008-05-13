@@ -1,0 +1,10 @@
+<W gloss="because" msd="SP" in="" out="5:vobj">weil</W>
+<W gloss="the" msd="PD" in="3:iobj" out="1:nobj">dem</W>
+<W gloss="audience" msd="NC" in="-1:nobj" out="">Publikum</W>
+<W gloss="nobody" msd="PP" in="2:subj" out="">niemand</W>
+<W gloss="promised" msd="VA" in="1:vobj" out="-3:iobj|4:nobj">versprochen</W>
+<W gloss="has" msd="VA" in="-5:vobj" out="-2:subj|-1:vobj">hat</W>
+<W gloss="the" msd="PD" in="3:dobj" out="1:nobj">die</W>
+<W gloss="waltzes" msd="NC" in="-1:nobj" out="">Walzer</W>
+<W gloss="to" msd="U" in="-4:nobj" out="1:vobj">zu</W>
+<W gloss="play" msd="VA" in="-1:vobj" out="-3:dobj">spielen</W>

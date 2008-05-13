@@ -1,0 +1,14 @@
+<W gloss="We" msd="PP" in="1:subj" out="">Vi</W>
+<W gloss="serve" msd="VA" in="" out="-1:subj|1:iobj|2:dobj|3:pnct|5:<dobj>|6:pnct|4:<iobj>|7:<iobj>|8:<dobj>|9:pnct|10:coord">serverer</W>
+<W gloss="Anne" msd="NP" in="-1:iobj" out="">Anne</W>
+<W gloss="tea" msd="NC" in="-2:dobj" out="">te</W>
+<W gloss="," msd="XP" in="-3:pnct" out="">,</W>
+<W gloss="Bo" msd="NP" in="-4:<iobj>" out="">Bo</W>
+<W gloss="coffee" msd="NC" in="-5:<dobj>" out="">kaffe</W>
+<W gloss="," msd="XP" in="-6:pnct" out="">,</W>
+<W gloss="Clara" msd="NP" in="-7:<iobj>" out="">Clara</W>
+<W gloss="cocoa" msd="NC" in="-8:<dobj>" out="">kakao</W>
+<W gloss="," msd="XP" in="-9:pnct" out="">,</W>
+<W gloss="and" msd="CC" in="-10:coord" out="1:<iobj>|2:<dobj>">og</W>
+<W gloss="Dorthe" msd="NP" in="-1:<iobj>" out="">Dorthe</W>
+<W gloss="milk" msd="NC" in="-2:<dobj>" out="">mælk</W>

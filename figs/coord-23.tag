@@ -1,0 +1,10 @@
+<W gloss="Peter" msd="NP" in="3:subj" out="">Peter</W>
+<W gloss="think" msd="VA" in="" out="1:subj|2:vobj">tror</W>
+<W gloss="I" msd="PP" in="-1:subj" out="">jeg</W>
+<W gloss="drinks" msd="VA" in="-2:vobj" out="-3:subj|1:dobj|2:pnct|6:pnct|3:coord">drikker</W>
+<W gloss="coffee" msd="NC" in="-1:dobj" out="">kaffe</W>
+<W gloss="," msd="XP" in="-2:pnct" out="">,</W>
+<W gloss="and" msd="CC" in="-3:coord" out="1:<subj>|2:<dobj>">og</W>
+<W gloss="Marie" msd="NP" in="-1:<subj>" out="">Marie</W>
+<W gloss="tea" msd="PP" in="-2:<dobj>" out="">te</W>
+<W gloss="." msd="XP" in="-6:pnct" out="">.</W>

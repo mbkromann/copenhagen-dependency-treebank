@@ -1,0 +1,9 @@
+<W gloss="He" msd="PP" in="1:subj" out="">Han</W>
+<W gloss="got" msd="VA" in="" out="-1:subj|2:dobj|4:pobj|7:pnct">fik</W>
+<W gloss="&gt;" msd="XS" in="1:mod" out="">&gt;</W>
+<W gloss="300" msd="AC" in="-2:dobj" out="-1:mod|1:mod">300</W>
+<W gloss="%" msd="XS" in="-1:mod" out="">%</W>
+<W gloss="out" msd="SP" in="-4:pobj" out="1:pobj">ud</W>
+<W gloss="of" msd="SP" in="-1:pobj" out="1:nobj">af</W>
+<W gloss="it" msd="PD" in="-1:nobj" out="">det</W>
+<W gloss="." msd="XP" in="-7:pnct" out="">.</W>

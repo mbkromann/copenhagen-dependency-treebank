@@ -1,0 +1,17 @@
+<W gloss="We" msd="PP" in="1:subj" out="">Vi</W>
+<W gloss="have" msd="VA" in="" out="-1:subj|1:pobj|5:nobj">har</W>
+<W gloss="with" msd="SP" in="-1:pobj" out="1:nobj">med</W>
+<W gloss="a" msd="PI" in="-1:nobj" out="1:nobj|5:ref|8:rel">en</W>
+<W gloss="group" msd="NC" in="-1:nobj" out="1:nobj">gruppe</W>
+<W gloss="young" msd="AN" in="-1:nobj" out="">unge</W>
+<W gloss="to" msd="U" in="-5:nobj" out="1:vobj">at</W>
+<W gloss="do" msd="VA" in="-1:vobj" out="">gøre</W>
+<W gloss="who" msd="U" in="-5:ref|3:subj" out="">som</W>
+<W gloss="all" msd="AN" in="2:mod" out="1:nobj">hele</W>
+<W gloss="day" msd="NC" in="-1:nobj" out="">døgnet</W>
+<W gloss="are" msd="VA" in="-8:rel" out="-3:subj|-2:mod|1:vobj">er</W>
+<W gloss="surrounded" msd="VA" in="-1:vobj" out="1:pobj">omgivet</W>
+<W gloss="by" msd="SP" in="-1:pobj" out="1:nobj">af</W>
+<W gloss="parents" msd="NC" in="-1:nobj" out="1:coord">forældre</W>
+<W gloss="and" msd="CC" in="-1:coord" out="1:conj">og</W>
+<W gloss="friends" msd="NC" in="-1:conj" out="">kammerater</W>

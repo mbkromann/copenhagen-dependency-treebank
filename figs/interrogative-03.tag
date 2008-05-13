@@ -1,0 +1,10 @@
+<W gloss="What" msd="PT" in="8:dobj" out="">Hvad</W>
+<W gloss="thought" msd="VA" in="" out="1:subj|2:dobj|8:pnct">troede</W>
+<W gloss="they" msd="PP" in="-1:subj" out="">de</W>
+<W gloss="that" msd="U" in="-2:dobj" out="2:vobj">at</W>
+<W gloss="she" msd="PP" in="1:subj" out="">hun</W>
+<W gloss="wished" msd="VA" in="-2:vobj" out="-1:subj|1:dobj">ønskede</W>
+<W gloss="that" msd="U" in="-1:dobj" out="2:vobj">at</W>
+<W gloss="she" msd="PP" in="1:subj" out="">hun</W>
+<W gloss="found" msd="VA" in="-2:vobj" out="-8:dobj|-1:subj">fandt</W>
+<W gloss="?" msd="XP" in="-8:pnct" out="">?</W>

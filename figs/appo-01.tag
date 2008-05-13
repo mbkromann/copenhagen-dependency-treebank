@@ -1,0 +1,11 @@
+<W gloss="Novel-the" msd="NC" in="8:subj" out="1:pnct|2:appa">Romanen</W>
+<W gloss="," msd="XP" in="-1:pnct" out="">,</W>
+<W gloss="a" msd="PI" in="-2:appa" out="1:nobj|5:pnct">et</W>
+<W gloss="work" msd="NC" in="-1:nobj" out="1:pobj">værk</W>
+<W gloss="of" msd="SP" in="-1:pobj" out="1:nobj">på</W>
+<W gloss="800" msd="AC" in="-1:nobj" out="1:nobj">800</W>
+<W gloss="pages" msd="NC" in="-1:nobj" out="">sider</W>
+<W gloss="," msd="XP" in="-5:pnct" out="">,</W>
+<W gloss="was" msd="VA" in="" out="-8:subj|1:pred|2:pnct">var</W>
+<W gloss="long" msd="AN" in="-1:pred" out="">lang</W>
+<W gloss="." msd="XP" in="-2:pnct" out="">.</W>

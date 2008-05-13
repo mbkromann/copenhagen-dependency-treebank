@@ -1,0 +1,9 @@
+<W gloss="It" msd="PP" in="1:subj|3:[subj]" out="">Det</W>
+<W gloss="will" msd="VA" in="" out="-1:subj|2:vobj">vil</W>
+<W gloss="neither" msd="RGU" in="5:mod" out="">hverken</W>
+<W gloss="become" msd="VA" in="-2:vobj" out="1:pred|-3:[subj]">blive</W>
+<W gloss="dependent" msd="AN" in="-1:pred" out="1:pobj">afhængigt</W>
+<W gloss="on" msd="SP" in="-1:pobj" out="1:nobj">af</W>
+<W gloss="U.S.A" msd="NP" in="-1:nobj" out="1:coord">USA</W>
+<W gloss="or" msd="CC" in="-1:coord" out="1:conj|-5:mod">eller</W>
+<W gloss="Russia" msd="NP" in="-1:conj" out="">Rusland</W>

@@ -1,0 +1,11 @@
+<W gloss="The" msd="RG" in="4:[nobj]|6:mod" out="1:aobj|3:rel">Jo</W>
+<W gloss="fewer" msd="AN" in="-1:aobj" out="">færre</W>
+<W gloss="he" msd="PP" in="1:subj" out="">han</W>
+<W gloss="listens" msd="VA" in="-3:rel" out="-1:subj|1:pobj|2:pnct">lytter</W>
+<W gloss="to" msd="SP" in="-1:pobj" out="-4:[nobj]">til</W>
+<W gloss="," msd="XP" in="-2:pnct" out="">,</W>
+<W gloss="the" msd="RG" in="" out="-6:mod|1:aobj|3:vobj">desto</W>
+<W gloss="greater" msd="AN" in="-1:aobj|1:[mod]" out="">større</W>
+<W gloss="significance" msd="NC" in="1:dobj" out="-1:[mod]">betydning</W>
+<W gloss="get" msd="VA" in="-3:vobj" out="-1:dobj|1:subj">får</W>
+<W gloss="they" msd="PP" in="-1:subj" out="">de</W>

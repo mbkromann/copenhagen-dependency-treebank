@@ -1,0 +1,9 @@
+<W gloss="With" msd="SP" in="2:pobj" out="1:nobj">Med</W>
+<W gloss="war" msd="NC" in="-1:nobj" out="">krig</W>
+<W gloss="is-ment" msd="VA" in="" out="-2:pobj|1:mod|2:dobj">menes</W>
+<W gloss="not" msd="RG" in="-1:mod" out="">ikke</W>
+<W gloss="a" msd="PI" in="-2:dobj" out="1:nobj">en</W>
+<W gloss="stationing" msd="NC" in="-1:nobj" out="1:pobj">udstationering</W>
+<W gloss="of" msd="SP" in="-1:pobj" out="1:nobj">af</W>
+<W gloss="2000" msd="AC" in="-1:nobj" out="1:mod">2000</W>
+<W gloss="conscripts" msd="AN" in="-1:mod" out="">værnepligtige</W>

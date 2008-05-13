@@ -1,0 +1,9 @@
+<W gloss="House-the" msd="NC" in="6:subj" out="1:pnct|2:ref|4:rel">Huset</W>
+<W gloss="," msd="XP" in="-1:pnct" out="">,</W>
+<W gloss="which" msd="PT" in="-2:ref|2:dobj" out="">som</W>
+<W gloss="we" msd="PP" in="1:subj" out="">vi</W>
+<W gloss="destroyed" msd="VA" in="-4:rel" out="-1:subj|-2:dobj|1:pnct">ødelagde</W>
+<W gloss="," msd="XP" in="-1:pnct" out="">,</W>
+<W gloss="was" msd="VA" in="" out="-6:subj|1:pred|2:pnct">var</W>
+<W gloss="ramshackle" msd="AN" in="-1:pred" out="">faldefærdigt</W>
+<W gloss="." msd="XP" in="-2:pnct" out="">.</W>

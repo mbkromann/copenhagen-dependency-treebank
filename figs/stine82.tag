@@ -1,0 +1,13 @@
+<W gloss="They" msd="PP" in="1:subj" out="">De</W>
+<W gloss="sit" msd="VA" in="" out="-1:subj|1:lobj|3:mod">sidder</W>
+<W gloss="on" msd="SP" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="form-the" msd="NC" in="-1:nobj" out="">skolebænken</W>
+<W gloss="from" msd="SP" in="-3:mod" out="1:nobj|2:pobj|4:mod|6:mod">fra</W>
+<W gloss="eight" msd="AC" in="-1:nobj" out="">otte</W>
+<W gloss="to" msd="SP" in="-2:pobj" out="1:nobj">til</W>
+<W gloss="eleven" msd="AC" in="-1:nobj" out="">elleve</W>
+<W gloss="every" msd="PI" in="-4:mod" out="1:nobj">hver</W>
+<W gloss="morning" msd="NC" in="-1:nobj" out="">morgen</W>
+<W gloss="for" msd="SP" in="-6:mod" out="1:nobj">i</W>
+<W gloss="two" msd="AC" in="-1:nobj" out="1:nobj">to</W>
+<W gloss="weeks" msd="NC" in="-1:nobj" out="">uger</W>

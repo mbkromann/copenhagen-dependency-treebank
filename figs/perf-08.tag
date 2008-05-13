@@ -1,0 +1,10 @@
+<W gloss="She" msd="PP" in="1:subj" out="">Hun</W>
+<W gloss="placed" msd="VA" in="" out="-1:subj|1:dobj|2:lobj|5:pnct|6:modo">satte</W>
+<W gloss="goose-the" msd="NC" in="-1:dobj" out="">gåsen</W>
+<W gloss="inwards" msd="RG" in="-2:lobj" out="1:pobj">ind</W>
+<W gloss="in" msd="SP" in="-1:pobj" out="1:nobj">i</W>
+<W gloss="oven-the" msd="NC" in="-1:nobj" out="">ovnen</W>
+<W gloss="," msd="XP" in="-5:pnct" out="">,</W>
+<W gloss="browned" msd="VA" in="-6:modo" out="1:coord">brunet</W>
+<W gloss="and" msd="CC" in="-1:coord" out="1:conj">og</W>
+<W gloss="cut-up" msd="VA" in="-1:conj" out="">parteret</W>

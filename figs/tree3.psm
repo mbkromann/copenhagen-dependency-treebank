@@ -1,0 +1,43 @@
+%! psMath PostScript file
+%%BoundingBox: 121.186 73.463 279.187 164.104
+
+PSMinit
+
+200 100 translate
+
+% Variables
+/un {1 mm mul} def
+
+% Words
+[(Peter) (will) (paint) (the) (wall) (today)] words
+/NPs [Peter] (NP) cat
+/VP1 [will] (VP) 3 cat
+/VP2 [paint] (VP) 2 cat
+/NPo [the] (NP) 1 cat
+/NP [wall] (NP) cat
+/AdvP [today] (AdvP) cat
+
+% Dependencies
+Peter NPs lex
+will VP1 lex
+paint VP2 lex
+the NPo lex
+wall NP lex
+today AdvP lex
+
+NPs VP1 comp 
+	(_{subj}) cdpnt 2 2 label
+NPs VP2 comp
+	(_{subj}) cdpnt 2 2 label
+VP2 VP1 comp
+	(_{vobj}) cdpnt 2 2 label
+NPo VP2 comp
+	(_{dobj}) cdpnt 2 2 label
+NP NPo comp
+	(_{nobj}) cdpnt 2 2 label
+AdvP VP2 adj
+	(_{mod}) cdpnt 2 2 label
+
+% End
+PSMclose
+

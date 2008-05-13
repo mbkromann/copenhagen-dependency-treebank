@@ -1,0 +1,30 @@
+%! psMath PostScript file
+%%BoundingBox: .050 -62.059 241.736 6.829
+
+PSMinit
+
+0 0 moveto
+/vspace 30 def
+[(edge)
+	[(deep)
+		[(comp)
+			[(...)]
+			[(...)]]
+		[(filldep)
+			[([/italic{dtype}])]]
+		[(gapdep)
+			[(</italic{dtype}>)]]
+		[(mod)
+			[(...)]
+			[(...)]]
+	]
+	[(land)
+		[(fill)
+			[(gap)]]
+		[(relz)]
+		[(xland)]]
+	[(ref)]
+] toptree
+
+PSMclose
+

@@ -1,0 +1,12 @@
+<W gloss="As" msd="U" in="3:dobj|5:ref" out="">Som</W>
+<W gloss="Marie" msd="NP" in="1:subj|2:[subj]" out="">Marie</W>
+<W gloss="has" msd="VA" in="3:rel" out="-1:subj|1:vobj|2:pnct">har</W>
+<W gloss="said" msd="VA" in="-1:vobj" out="-2:[subj]|-3:dobj">sagt</W>
+<W gloss="," msd="XP" in="-2:pnct" out="">,</W>
+<W gloss="is" msd="VA" in="" out="1:subj|-3:rel|-5:ref|2:pred|6:pnct">er</W>
+<W gloss="Moscow" msd="NP" in="-1:subj" out="">Moskva</W>
+<W gloss="a" msd="PI" in="-2:pred" out="1:nobj">en</W>
+<W gloss="city" msd="NC" in="-1:nobj" out="1:pobj">by</W>
+<W gloss="in" msd="SP" in="-1:pobj" out="1:nobj">i</W>
+<W gloss="Russia" msd="NP" in="-1:nobj" out="">Rusland</W>
+<W gloss="." msd="XP" in="-6:pnct" out="">.</W>

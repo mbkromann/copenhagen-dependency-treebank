@@ -1,0 +1,11 @@
+<W gloss="Coffee" msd="NC" in="1:dobj" out="">Kaffe</W>
+<W gloss="pours" msd="VA" in="" out="-1:dobj|1:subj|2:pobj|4:pnct|5:coord">skænker</W>
+<W gloss="he" msd="PP" in="-1:subj" out="">han</W>
+<W gloss="to" msd="SP" in="-2:pobj" out="1:nobj">til</W>
+<W gloss="os" msd="PP" in="-1:nobj" out="">os</W>
+<W gloss="," msd="XP" in="-4:pnct" out="">,</W>
+<W gloss="and" msd="CC" in="-5:coord" out="1:gap">og</W>
+<W gloss="" msd="VA" in="-1:gap" out="1:subj|2:pobj"></W>
+<W gloss="she" msd="PP" in="-1:subj" out="">hun</W>
+<W gloss="to" msd="SP" in="-2:pobj" out="1:nobj">til</W>
+<W gloss="them" msd="PP" in="-1:nobj" out="">dem</W>

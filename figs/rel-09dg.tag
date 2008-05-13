@@ -1,0 +1,12 @@
+<W gloss="I" msd="PP" in="1:subj" out="">Jeg</W>
+<W gloss="have" msd="VA" in="" out="-1:subj|1:vobj|3:pnct|7:rel|10:pnct|5:ref">har</W>
+<W gloss="made" msd="VA" in="-1:vobj" out="1:dobj">lavet</W>
+<W gloss="cake" msd="NC" in="-1:dobj" out="">kage</W>
+<W gloss="," msd="XP" in="-3:pnct" out="">,</W>
+<W gloss="as" msd="U" in="5:nobj" out="1:fobj">som</W>
+<W gloss="" msd="VA" in="-1:fobj|2:fill|-5:ref" out=""></W>
+<W gloss="you" msd="PP" in="1:subj" out="">du</W>
+<W gloss="asked" msd="VA" in="-7:rel" out="-1:subj|1:iobj|2:pobj|-2:fill">bad</W>
+<W gloss="me" msd="PP" in="-1:iobj" out="">mig</W>
+<W gloss="about" msd="SP" in="-2:pobj" out="-5:nobj">om</W>
+<W gloss="." msd="XP" in="-10:pnct" out="">.</W>

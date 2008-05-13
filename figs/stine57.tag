@@ -1,0 +1,12 @@
+<W gloss="They" msd="PP" in="1:subj|3:[subj]" out="">De</W>
+<W gloss="have" msd="VA" in="" out="-1:subj|1:mod|2:vobj">har</W>
+<W gloss="often" msd="RG" in="-1:mod" out="">ofte</W>
+<W gloss="posed" msd="VA" in="-2:vobj" out="-3:[subj]|1:dobj">stillet</W>
+<W gloss="question-the" msd="NC" in="-1:dobj" out="1:pnct|3:xpl">spørgsmålet</W>
+<W gloss=":" msd="XP" in="-1:pnct" out="">:</W>
+<W gloss="What" msd="PT" in="4:nobj" out="">Hvad</W>
+<W gloss="will" msd="VA" in="-3:xpl" out="1:subj|2:vobj|4:pnct">skal</W>
+<W gloss="it" msd="PP" in="-1:subj|1:[subj]" out="">det</W>
+<W gloss="be-used" msd="VA" in="-2:vobj" out="1:pobj|-1:[subj]">bruges</W>
+<W gloss="for" msd="SP" in="-1:pobj" out="-4:nobj">til</W>
+<W gloss="?" msd="XP" in="-4:pnct" out="">?</W>

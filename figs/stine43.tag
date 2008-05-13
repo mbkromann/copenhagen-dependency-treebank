@@ -1,0 +1,10 @@
+<W gloss="It" msd="PP" in="1:subj" out="">Det</W>
+<W gloss="happened" msd="VA" in="" out="-1:subj|3:tobj">skete</W>
+<W gloss="two" msd="AC" in="2:tobj" out="1:nobj">to</W>
+<W gloss="hours" msd="NC" in="-1:nobj" out="">timer</W>
+<W gloss="earlier" msd="AN" in="-3:tobj" out="-2:tobj|1:pobj">tidligere</W>
+<W gloss="than" msd="CS" in="-1:pobj" out="2:vobj">end</W>
+<W gloss="they" msd="PP" in="1:subj|2:[subj]" out="">de</W>
+<W gloss="had" msd="VA" in="-2:vobj" out="-1:subj|1:vobj">havde</W>
+<W gloss="calculated" msd="VA" in="-1:vobj" out="-2:[subj]|1:pobj">regnet</W>
+<W gloss="on" msd="SP" in="-1:pobj" out="">med</W>

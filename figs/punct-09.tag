@@ -1,0 +1,13 @@
+<W gloss="He" msd="PP" in="1:subj" out="">Han</W>
+<W gloss="wrote" msd="VA" in="" out="-1:subj|2:qobj|10:mod">skrev</W>
+<W gloss=""" msd="XP" in="1:pnct" out="">"</W>
+<W gloss="2" msd="AN" in="-2:qobj" out="1:coord|5:coord|-1:pnct|7:pnct">2</W>
+<W gloss="+" msd="XS" in="-1:coord" out="1:conj">+</W>
+<W gloss="4" msd="AN" in="-1:conj" out="1:coord">4</W>
+<W gloss="^" msd="XS" in="-1:coord" out="1:conj">^</W>
+<W gloss="2" msd="AN" in="-1:conj" out="">2</W>
+<W gloss="&lt;" msd="XS" in="-5:coord" out="1:conj">&lt;</W>
+<W gloss="23" msd="AN" in="-1:conj" out="">23</W>
+<W gloss=""" msd="XS" in="-7:pnct" out="">"</W>
+<W gloss="on" msd="SP" in="-10:mod" out="1:nobj">på</W>
+<W gloss="blackboard-the" msd="NC" in="-1:nobj" out="">tavlen</W>

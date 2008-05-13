@@ -1,0 +1,9 @@
+<W gloss="He" msd="PP" in="1:subj" out="">Han</W>
+<W gloss="got" msd="VA" in="" out="-1:subj|1:dobj">fik</W>
+<W gloss="the" msd="PD" in="-1:dobj" out="1:nobj">det</W>
+<W gloss="impression" msd="NC" in="-1:nobj" out="2:nobj|1:pnct">indtryk</W>
+<W gloss="," msd="XP" in="-1:pnct" out="">,</W>
+<W gloss="that" msd="U=" in="-2:nobj" out="2:vobj">at</W>
+<W gloss="everything" msd="AN" in="1:subj" out="">alt</W>
+<W gloss="was" msd="VA" in="-2:vobj" out="-1:subj|1:pred">var</W>
+<W gloss="fine" msd="AN" in="-1:pred" out="">godt</W>

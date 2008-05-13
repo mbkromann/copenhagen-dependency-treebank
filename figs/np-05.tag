@@ -1,0 +1,9 @@
+<W gloss="a" msd="PI" in="" out="2:mod|3:nobj">en</W>
+<W gloss="so" msd="CS" in="1:mod" out="3:nobj">så</W>
+<W gloss="good" msd="AN" in="-2:mod" out="-1:mod">god</W>
+<W gloss="cake" msd="NC" in="-3:nobj" out="">kage</W>
+<W gloss="that" msd="CS" in="-3:nobj" out="3:vobj">at</W>
+<W gloss="it" msd="PD" in="2:subj|3:[subj]" out="">det</W>
+<W gloss="not" msd="RG" in="1:mod" out="">ikke</W>
+<W gloss="can" msd="VA" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">kan</W>
+<W gloss="be-described" msd="VA" in="-1:vobj" out="-3:[subj]">beskrives</W>

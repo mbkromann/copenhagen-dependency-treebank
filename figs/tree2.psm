@@ -1,0 +1,41 @@
+%! psMath PostScript file
+%%BoundingBox: 121.186 72.150 278.674 154.290
+
+PSMinit
+
+200 100 translate
+
+% Variables
+/un {1 mm mul} def
+/move {/h xdef /lbl xdef lbl 0 get 1 h 1 sub 25 mul put lbl cdlbl} def
+
+% Words
+gsave
+	1 setgray 
+	[(Peter) (will) (paint) (the) (wall) (today)] words
+grestore
+
+Peter 1 move
+will 3 move
+paint 2 move
+the 1 move
+wall 0 move
+today 1 move
+
+% Dependencies
+Peter will comp 
+	(_{subj}) cdpnt 2 2 label
+Peter paint comp
+	(_{subj}) cdpnt 2 2 label
+paint will comp
+	(_{vobj}) cdpnt 2 2 label
+the paint comp
+	(_{dobj}) cdpnt 2 2 label
+wall the comp
+	(_{nobj}) cdpnt 2 2 label
+today paint adj
+	(_{mod}) cdpnt 2 2 label
+
+% End
+PSMclose
+

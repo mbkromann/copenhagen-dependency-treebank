@@ -1,0 +1,12 @@
+<W gloss="His" msd="PO" in="9:subj" out="1:possd|3:appa|2:pnct">Hans</W>
+<W gloss="wish" msd="NC" in="-1:possd" out="">ønske</W>
+<W gloss="-" msd="XP" in="-2:pnct" out="">-</W>
+<W gloss="to" msd="U" in="-3:appa" out="1:vobj|5:pnct">at</W>
+<W gloss="see" msd="VA" in="-1:vobj" out="1:dobj|3:mod">se</W>
+<W gloss="his" msd="PC" in="-1:dobj" out="1:possd">sin</W>
+<W gloss="wife" msd="NC" in="-1:possd" out="">kone</W>
+<W gloss="again" msd="RG" in="-3:mod" out="">igen</W>
+<W gloss="-" msd="XP" in="-5:pnct" out="">-</W>
+<W gloss="became" msd="VA" in="" out="-9:subj|1:vobj|2:pnct">blev</W>
+<W gloss="fulfilled" msd="VA" in="-1:vobj" out="">opfyldt</W>
+<W gloss="." msd="XP" in="-2:pnct" out="">.</W>

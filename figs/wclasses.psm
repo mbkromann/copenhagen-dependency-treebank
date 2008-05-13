@@ -1,0 +1,43 @@
+%! psMath PostScript file
+%%BoundingBox: .149 -80.060 545.955 6.829
+
+PSMinit
+
+/vspace 30 def
+0 0 moveto
+[(word)
+	[(A)
+		[(AN)]
+		[(AO)]]
+	[(CC)]
+	[(I)]
+	[(N)
+		[(NC)]
+		[(NP)]
+		[(P)
+			[(PP)]
+			[(PD)]
+			[(PI)]
+			[(PT)]
+			[(PC)]
+			[(PO)]
+			[(M)
+				[(AC/slash{}MC)]]]]
+	[(RG)]
+	[(SP)
+		[(CS)]]
+	[(U)]
+	[(V)
+		[(VA)]
+		[(VE)]]
+	[(X)
+		[(XA)]
+		[(XF)]
+		[(XP)]
+		[(XR)]
+		[(XS)]
+		[(XX)]]
+] toptree
+
+PSMclose
+

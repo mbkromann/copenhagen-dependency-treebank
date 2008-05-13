@@ -1,0 +1,11 @@
+<W gloss="And" msd="CC" in="" out="6:conj">Og</W>
+<W gloss="the" msd="RG" in="3:[dobj]|5:mod" out="1:aobj|4:pnct|3:rel">jo</W>
+<W gloss="more" msd="AN" in="-1:aobj" out="">mere</W>
+<W gloss="you" msd="PP" in="1:subj" out="">man</W>
+<W gloss="know" msd="VA" in="-3:rel" out="-1:subj|-3:[dobj]">ved</W>
+<W gloss="," msd="XP" in="-4:pnct" out="">,</W>
+<W gloss="the" msd="RG" in="-6:conj" out="-5:mod|1:aobj|3:vobj">jo</W>
+<W gloss="better" msd="AN" in="-1:aobj|1:[mod]" out="">bedre</W>
+<W gloss="chance" msd="NC" in="1:dobj" out="-1:[mod]">chance</W>
+<W gloss="have" msd="VA" in="-3:vobj" out="-1:dobj|1:subj">har</W>
+<W gloss="you" msd="PP" in="-1:subj" out="">man</W>

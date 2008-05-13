@@ -1,0 +1,9 @@
+<W gloss="That" msd="U" in="5:dobj" out="2:vobj">At</W>
+<W gloss="they" msd="PP" in="1:subj|2:[subj]" out="">de</W>
+<W gloss="would" msd="VA" in="-2:vobj" out="-1:subj|1:vobj|2:pnct">ville</W>
+<W gloss="run" msd="VA" in="-1:vobj" out="-2:[subj]">løbe</W>
+<W gloss="," msd="XP" in="-2:pnct" out="">,</W>
+<W gloss="knew" msd="VA" in="" out="-5:dobj|1:subj|2:mod|3:pnct">vidste</W>
+<W gloss="we" msd="PP" in="-1:subj" out="">vi</W>
+<W gloss="not" msd="RG" in="-2:mod" out="">ikke</W>
+<W gloss="." msd="XP" in="-3:pnct" out="">.</W>

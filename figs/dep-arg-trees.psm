@@ -1,0 +1,36 @@
+%! psMath PostScript file
+%%BoundingBox: .325 -15.744 358.356 66.836
+
+PSMinit
+
+0 0 moveto
+[(gov)
+	[(comp1)]
+	[(comp2)]
+	[(adj1)]
+	[(adj2)]] tree
+
+(/bold{deep tree}) [40 -16] 1 0 label
+
+150 0 moveto
+[(adj2)
+	[(adj1)
+		[(gov)
+			[(comp1)]
+			[(comp2)]]]] tree
+
+(/bold{functor-argument tree 1}) [130 -16] 1 0 label
+
+275 0 moveto
+[(adj1)
+	[(adj2)
+		[(gov)
+			[(comp1)]
+			[(comp2)]]]] tree
+
+(/bold{functor-argument tree 2}) [250 -16] 1 0 label
+
+() show
+
+PSMclose
+
