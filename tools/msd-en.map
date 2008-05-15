@@ -1,0 +1,69 @@
+CC	CC	Coordinating conjunction
+CD	AC	Cardinal number
+DT:an	PI	Determiner
+DT:a	PI	Determiner
+DT	PD	Determiner
+EX	U=	Existential there
+FW	XF	Foreign word
+IN:after	CS	Preposition or subordinating conjunction
+IN:although	CS	Preposition or subordinating conjunction
+IN:as	CS	Preposition or subordinating conjunction
+IN:because	CS	Preposition or subordinating conjunction
+IN:before	CS	Preposition or subordinating conjunction
+IN:how	CS	Preposition or subordinating conjunction
+IN:if	CS	Preposition or subordinating conjunction
+IN:inasmuch	CS	Preposition or subordinating conjunction
+IN:lest	CS	Preposition or subordinating conjunction
+IN:since	CS	Preposition or subordinating conjunction
+IN:so	CS	Preposition or subordinating conjunction
+IN:though	CS	Preposition or subordinating conjunction
+IN:'til	CS	Preposition or subordinating conjunction
+IN:till	CS	Preposition or subordinating conjunction
+IN:unless	CS	Preposition or subordinating conjunction
+IN:until	CS	Preposition or subordinating conjunction
+IN:when	CS	Preposition or subordinating conjunction
+IN:whenever	CS	Preposition or subordinating conjunction
+IN:where	CS	Preposition or subordinating conjunction
+IN:wherever	CS	Preposition or subordinating conjunction
+IN:while	CS	Preposition or subordinating conjunction
+IN	SP	Preposition or subordinating conjunction
+JJ	ANP	Adjective
+JJR	ANC	Adjective, comparative
+JJS	ANS	Adjective, superlative
+LS	XS	List item marker
+MD	VA	Modal
+NN	NC=S	Noun, singular or mass
+NNP	NP=S	Proper noun, singular
+NNPS	NP=P	Proper noun, plural
+NNS	NC=P	Noun, plural
+PDT	PD	Predeterminer
+POS	U=	Possessive ending
+PRP$	PO	Possessive pronoun (prolog version PRP-S)
+PRP	PP	Personal pronoun
+RB	ANP	Adverb
+RBR	ANC	Adverb, comparative
+RBS	ANS	Adverb, superlative
+RP	RG	Particle
+SYM	XS	Symbol
+TO	U=	to
+UH	I=	Interjection
+VBD	VADA	Verb, past tense
+VBG	VAG	Verb, gerund or present participle
+VBN	VAP	Verb, past participle
+VBP	VADR	Verb, non-3rd person singular present
+VB	VAF	Verb, base form
+VBZ	VADR	Verb, 3rd person singular present
+WDT	PT	Wh-determiner
+WP$	PT	Possessive wh-pronoun (prolog version WP-S)
+WP	PT	Wh-pronoun
+WRB	PT	Wh-adverb
+XA	XA	Abbreviation
+,	XP
+:	XP
+.	XP
+&quot;	XP
+NP--U==-	NC
+NCCSU==I	NC
+''	XP
+(	XP
+)	XP

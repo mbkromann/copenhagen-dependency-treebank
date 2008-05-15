@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Find name and exit if missing
+name=`cat ~/.cdtname` 
+if [ -z "$name" ] ; then
+	echo "Please provide your first name with the command 'setname your-name'"
+	echo "using small letters only, then try the 'opentask' command again."
+	exit 1
+fi
+
+# Find first 
+todo=~/cdt/todo/$name
+if [ -f $todo ] ; then
+	file=`grep -v '[*]' $todo | head -1 | sed -e 's/\[.\] //g'`
+	dir=`echo $file | sed -e 's/\/.*$//g'`
+	fname=`echo $file | sed -e 's/^.*\///g'`
+	echo "cd /home/cdt/cdt/$dir" > ~/.script
+	echo "!echo load $fname" >> ~/.script
+	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
+		echo "load $fname" >> ~/.script
+	else
+		echo "ERROR: cannot find file $file" 
+	fi
+else
+	echo "No todo-file for $name: please check your first name and set"
+	echo "it again with 'setname' if wrong, otherwise contact Matthias."
+fi
+

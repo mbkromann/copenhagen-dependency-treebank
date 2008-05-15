@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+my $convtable = $ARGV[0];
+
+# Read conversion table from file
+open(IFS, "<$convtable");
+while (my $line = <IFS>) {
+	print $line;
+}
+close(IFS)
+

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+idset=$1
+lang=$2
+
+# Check parameters
+idfile=src/$idset.ids
+if [ ! -f "$idfile" ] ; then
+	echo 'Usage: ids2txt $idset $lang';
+	echo "error: missing idfile $idfile";
+	exit 1;
+fi
+
+# Create output file
+ofile=tmp/$lang-$idset.txt
+echo > $ofile
+for f in `cat $idfile` ; do 
+	echo -e "===$f===\n\n" >> $ofile
+	cat $lang/$f-$lang.txt >> $ofile
+	echo -e "\n\n" >> $ofile
+done
+echo "Output file: $ofile"
