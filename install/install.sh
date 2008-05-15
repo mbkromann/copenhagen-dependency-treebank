@@ -16,7 +16,7 @@ if [ ! -f $svnuser ] ; then
 	echo $user > $svnuser
 	echo -n "Google code password: "
 	read passwd
-	echo $passwd > $svnuser
+	echo $passwd > $svnpasswd
 	chown $user $svnuser $svnpasswd
 fi
 
