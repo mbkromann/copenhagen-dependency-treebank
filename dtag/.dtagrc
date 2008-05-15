@@ -92,8 +92,8 @@ macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Itali
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
-macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
-macro closetask !~/cdt/tools/dtag-closetask ;; script ~/.script
+macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
+macro closetask !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 
 # Options
