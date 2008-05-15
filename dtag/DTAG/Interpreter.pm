@@ -834,7 +834,19 @@ sub cmd_aparse {
 	my $self = shift;
 	my $graph = shift;
 	my $afile = shift;
+	my $scheme = shift;
 	my $current_graph = $self->{'graph'};
+
+	# Check scheme and correct scheme name
+	if ($scheme =~ /^(dk-en|dk-es|dk-it|dk-de)$/) {
+		$scheme =~ s/-/_/g;
+		$scheme = "_" . $scheme;
+	} else {
+		error("unsupported scheme: $scheme\n");
+		$scheme = "_dk_en";
+	}
+	my $edgecmd = "process_edge$scheme";
+	my $aedgecmd = "process_aedge$scheme";
 
 	# Load alignment
 	$graph->mtime(1);
@@ -869,11 +881,11 @@ sub cmd_aparse {
 
 	# Process all alignment edges
 	foreach my $e (@{$alignment->edges()}) {	
-		process_aedge($e, $alignment, $skey, $tkey, $graph);
+		&{\&$aedgecmd}($e, $alignment, $skey, $tkey, $graph);
 	}
 
 	# Process all dependency edges in source
-	$source->do_edges(\&process_edge, $alignment, $skey, $tkey, $graph);
+	$source->do_edges(\&$edgecmd, $alignment, $skey, $tkey, $graph);
 	
 	# Postprocess graph
 	for (my $n = 0; $n < $graph->size(); ++$n) {
@@ -881,11 +893,11 @@ sub cmd_aparse {
 
 	}
 
-	# Calculate possible dependencies for node
-	for (my $n = 0; $n < $graph->size(); ++$n) {
-		post_process_dlabels($graph, $alignment, $skey, $tkey, $n) 
-			if (!  $graph->node($n)->comment());
-	}
+	# Calculate possible dependencies for node with no dependencies
+	#for (my $n = 0; $n < $graph->size(); ++$n) {
+	#	post_process_dlabels($graph, $alignment, $skey, $tkey, $n) 
+	#		if (!  $graph->node($n)->comment());
+	#}
 
 	# Return to original graph
 	$self->{'graph'} = $current_graph;
@@ -903,49 +915,7 @@ sub process_aedge {
 	my $graph = shift;
 
 	# Debug
-	#print $e->string() . "\n";	
-
-	# Check inkey and outkey
-	return if (! ($e->outkey() eq $skey && $e->inkey() eq $tkey));
-
-	# Color all non 1-1 edges
-	#if (scalar(@{$e->inArray()}) > 1 || scalar(@{$e->outArray()}) > 1) {
-	#	foreach my $n (@{$e->inArray()}) {
-	#		my $node = $graph->node($n);
-	#		$node->var('styles', 'red') if ($node);
-	#	}
-	#}
-
-	# Process all 1-2 edges 
-	if (scalar(@{$e->inArray()}) == 2 && scalar(@{$e->outArray()}) == 1) {
-		my $out = $e->outArray()->[0];
-		my $in1 = $e->inArray()->[0];
-		my $in2 = $e->inArray()->[1];
-		
-		if ($graph->node($in1)->var($tag) =~ /^VB/
-				&& ($graph->node($in2)->var($tag) =~ /^VB/
-					|| $graph->node($in2)->input() =~ /ed$/)) {
-			# V <--> V1 V2
-			my_edge_add($graph, Edge->new($in2, $in1, 'vobj'), "");
-		} elsif ($graph->node($in1)->var($tag) =~ /^D/
-				&& $graph->node($in2)->var($tag) =~ /^N/) {
-			# Ndef <--> DET N
-			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
-		} elsif ($graph->node($in1)->var($tag) =~ /^N/
-				&& $graph->node($in2)->var($tag) =~ /^N/) {
-			# N <--> N N
-			my_edge_add($graph, Edge->new($in1, $in2, 'mod'), "");
-		} elsif ($graph->node($in2)->var($tag) =~ /^IN/) {
-			# X <--> X P
-			my_edge_add($graph, Edge->new($in2, $in1, 'pobj'), "");
-		} elsif ($graph->node($in1)->var($tag) =~ /^IN/
-				&& $graph->node($in2)->var($tag) =~ /^[ND]/) {
-			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
-		} else {
-			# Default
-			#my_edge_add($graph, Edge->new($in2, $in1, '???'));
-		}
-	}
+	print "Language pair $skey-$tkey unsupported\n";
 }
 
 sub my_edge_add {
@@ -972,85 +942,7 @@ sub process_edge {
 	my $tkey = shift;
 	my $graph = shift;
 
-	# Find edge parameters
-	my $sin = $e->in();
-	my $sout = $e->out();
-	my $type = $e->type();
-
-	# Translate in and out
-	my $tin = src2target($alignment, $skey, $tkey, $sin);
-	my $tout = src2target($alignment, $skey, $tkey, $sout);
-
-	# Check that in and out are non-empty
-	return if (! (@$tin && @$tout));
-
-	# head:dep = 1:1: transfer dependency unaltered
-	if (scalar(@$tin) == 1 && scalar(@$tout) == 1) {
-		my_edge_add($graph, Edge->new($tin->[0], $tout->[0], $type), 0);
-		return;
-	} 
-
-	# find head of dependent
-	my $dhead = find_head($graph, $tin);
-	if ($dhead) {
-		# head:dep = 1:n
-		if (scalar(@$tout) == 1 && scalar(@$tin) > 0) {
-			my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
-			return;
-		}
-
-		# head:dep = m:n, type=subj
-		if ($type eq "subj") {
-			# Assign subject to first verbal head
-			my $node = $graph->node($tout->[0]);
-			if ($node && $node->var($tag) =~ /^V/) {
-				# Create subject
-				my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
-
-				# Create fillers to other verbal objects
-				foreach my $n (@$tout) {
-					if ($n != $tout->[0] && $graph->node($n) &&
-							$graph->node($n)->var($tag) =~ /^V/) {
-						my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
-					}
-				}
-				return;
-			}
-		}
-
-		# head:dep = m:n, type=mod|pnct
-		if ($type =~ /^(mod|pnct|coord|conj|rel|ref)$/) {
-			my $ghead = find_head($graph, $tout);
-			if ($ghead) {
-				my_edge_add($graph, Edge->new($dhead, $ghead, $type));
-				return;
-			}
-		}
-
-		# head:dep = m:n, type=[subj]
-		if ($type eq "[subj]") {
-			foreach my $n (@$tout) {
-				if ($graph->node($n) && $graph->node($n)->var($tag) =~ /^V/) {
-					my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
-				}
-			}
-			return;
-		}
-
-		# DEFAULT: attach to last preceding node, or
-		# following node if no preceding node exists
-		my $gov = -1;
-		foreach my $n (@$tout) {
-			$gov = max($gov, $n) if ($n < $dhead);
-		}
-		$gov = $tout->[0] if ($gov < 0);
-		my_edge_add($graph, Edge->new($dhead, $gov, $type));
-		return;
-	}
-
-	# default
-	print "ignored: " . 
-		join(" ", @$tin, $type, @$tout) . "\n";
+	print "Language pair $skey-$tkey unsupported\n";
 }
 
 sub find_head {
@@ -1081,7 +973,7 @@ sub src2target {
 	my $snode = shift;
 
 	my @tnodes = ();
-	foreach my $aedge (@{$alignment->node($skey, $snode)}) {
+	foreach my $aedge (grep {$_->type() ne "pnct"} @{$alignment->node($skey, $snode)}) {
 		# Find source and target nodes
 		my ($source, $target) = (undef, undef);
 		if ($aedge->inkey() eq $tkey) {
@@ -1111,7 +1003,9 @@ sub post_process {
 	return if (! $node);
 
 	# Return if node has a single governor
-	return if (scalar(@{$node->in()}) == 1);
+	my @govs = sort {$a->in() <=> $b->in()} 
+		grep {$_->type !~ /\[/} @{$node->in()};
+	return if (scalar(@govs) == 1);
 
 	# Find dependent for unanalyzed comma
 	my $maxloop = 50;
@@ -1132,7 +1026,7 @@ sub post_process {
 		return;
 	}
 
-	# Remove double dependency
+	
 
 	# Add filler subject to verbal complex
 }
@@ -1271,6 +1165,121 @@ sub cmd_autoevaluate {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_autogloss.pl
+## ------------------------------------------------------------
+
+# Specify tag feature
+
+sub cmd_autogloss {
+	my $self = shift;
+	my $graph = shift;
+	my $afile = shift || "";
+	my $mapfiles = shift || "";
+
+	# Create atag graph, either dummy or loaded graph
+	my $agraph = DTAG::Alignment->new();
+	my $key = "";
+	my $ograph = undef;
+	if ($afile) {
+		# Load atag file
+		$self->cmd_load_atag($graph, $afile);
+		$agraph = $self->graph();
+
+		# Determine key
+		foreach my $k (keys(%{$agraph->graphs()})) {
+			if ($agraph->graph($k)->file() eq $graph->file()) {
+				$key = $k;
+			} else {
+				$ograph = $agraph->graph($k);
+			}
+		}
+
+
+		# Determine whether graph was found in alignment
+		if (! $key) {
+			return error("Graph not found in alignment");
+		}
+	}
+
+	# Load all other gloss maps
+	my $maps = [];
+	foreach my $mapfile (split(/\s+/, $mapfiles)) {
+		if (-f $mapfile) {
+			my $map = {};
+			push @$maps, $map;
+			open(IFS, "<$mapfile") 
+				|| return error("Error opening mapfile $mapfile");
+			while (my $line = <IFS>) {
+				chomp($line);
+				my ($key, $value) = split(/\t/, $line);
+				$map->{$key} = $value;
+			}
+			close(IFS);
+		} else {
+			return error("Non-existent mapfile $mapfile!");
+		}
+	}
+
+	# Process all nodes in graph
+	for (my $i = 0; $i < $graph->size(); ++$i) {
+		my $N = $graph->node($i);
+		my $gloss = "";
+		if (! $N->comment()) {
+			# Lookup gloss in alignment
+			my @aedges = grep {$_->type() eq "" && $_->inkey() ne $_->outkey()} 
+				@{$agraph->node($key, $i) || []};
+			if (@aedges) {
+				if ($aedges[0]->outkey() eq $key
+					&& scalar(@{$aedges[0]->outArray()}) == 1) {
+					$gloss = join("_", 
+						map {($ograph->node($_) ? $ograph->node($_)->input() : "") 
+							|| ""}
+							@{$aedges[0]->inArray()});
+				} elsif ($aedges[0]->inkey() eq $key &&
+						scalar(@{$aedges[0]->inArray()}) == 1) {
+					$gloss = join("_", 
+						map {($ograph->node($_) ? $ograph->node($_)->input()
+							: "") 
+							|| ""}
+							@{$aedges[0]->outArray()});
+				}
+			}
+
+			# Alternatively, lookup gloss in map files (first match
+			# is used)
+			my $word = $N->input();
+			my $lcword = lc($word);
+			my $lemma = $N->var('lemma') || undef;
+			if (! $gloss) {
+				foreach my $token ($word, $lcword, $lemma) {
+					foreach my $map (@$maps) {
+						if ($map->{$token}) {
+							$gloss = $map->{$token};
+							last();
+						}
+					}
+					last() if ($gloss);
+				}
+			}
+
+			# Alternatively, use source string
+			$gloss = $word if (! $gloss);
+
+			# Save gloss in tag file
+			$gloss =~ s/ /_/g;
+			$gloss =~ s/"/&quot;/g;
+			$N->var('gloss', $gloss);
+		}
+	}
+	push @{$self->{'graphs'}}, $graph;
+	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	$self->cmd_vars($graph, 'gloss');
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_cd.pl
 ## ------------------------------------------------------------
 
@@ -1298,6 +1307,10 @@ sub cmd_clear {
 		my $lexicon = $self->lexicon();
 		return 1 if (! $lexicon);
 		$lexicon->clear();
+	} elsif ($type eq '-edges') {
+		if (UNIVERSAL::isa($graph, 'DTAG::Graph')) {
+			$graph->clear_edges();
+		}
 	} else {
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph')) {
 			$graph->clear();
@@ -2414,6 +2427,12 @@ sub cmd_load {
 	my $graph = shift;
 	my $ftype = shift;
 	my $fname = shift || "";
+	my $optionstr = shift || "";
+
+	# Process options: permitted options {multi=0/1 (create new graph,
+	# add to current graph)}
+	my $multi = 0;
+	$multi = 1 if ($optionstr =~ /-multi/);
 
     # Open internal graph if $file is an internal graph reference
     if ($fname =~ /^\[[GA]([0-9]+)\]$/) {
@@ -2442,7 +2461,7 @@ sub cmd_load {
 	}
 
 	# Load file
-	$self->cmd_load_tag($graph, $fname) if ($ftype eq '-tag');
+	$self->cmd_load_tag($graph, $fname, $multi) if ($ftype eq '-tag');
 	$self->cmd_load_atag($graph, $fname) if ($ftype eq '-atag');
 	$self->cmd_load_tiger($graph, $fname) if ($ftype eq '-tiger');
 	$self->cmd_load_malt($graph, $fname) if ($ftype eq '-malt');
@@ -2866,6 +2885,7 @@ sub cmd_load_tag {
 	my $self = shift;
 	my $graph = shift;
 	my $file = shift;
+	my $multi = shift;
 
 	# Open tag file
 	open("XML", "< $file") 
@@ -2873,21 +2893,29 @@ sub cmd_load_tag {
 	CORE::binmode("XML", $self->binmode()) if ($self->binmode());
 	
 	# Close current graph, if unmodified
-	$self->cmd_load_closegraph($graph);
-
-	# Create new graph
-	$graph = DTAG::Graph->new();
-	$graph->file($file);
-	push @{$self->{'graphs'}}, $graph;
-	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	if (! $multi) {
+		# Close old graph and create new graph
+		$self->cmd_load_closegraph($graph);
+		$graph = DTAG::Graph->new();
+		$graph->file($file);
+		push @{$self->{'graphs'}}, $graph;
+		$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	}
 	my @edges = ();
 
 	# Read XML file line by line
 	my $varnames = {};
+	my $lineno = 0;
     while (my $line = <XML>) {
         chomp($line);
 		my $n = Node->new();
 		my $pos = $graph->size();
+
+		# Record line number and source
+		if ($multi) {
+			++$lineno;
+			$n->var('_source', "$file:$lineno");
+		}
 
 		# Process <W> tag
 		#if ($line =~ /^\s*<W([^>]*)>([^<]*)<\/W>\s*$/) 
@@ -2951,7 +2979,8 @@ sub cmd_load_tag {
 
 	# Insert varnames as permitted varnames
 	foreach my $var (keys(%$varnames)) {
-		$graph->vars()->{$var} = undef;
+		$graph->vars()->{$var} = undef 
+			if (! exists $graph->vars()->{$var});
 	}
 
 	# Insert unprocessed edges
@@ -3385,6 +3414,65 @@ sub cmd_macros {
 	}
 
 	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_maptags.pl
+## ------------------------------------------------------------
+
+sub cmd_maptags {
+	my $self = shift;
+	my $graph = shift;
+	my $mapfile = shift;
+	my $invar = shift;
+	my $outvar = shift;
+
+	# Check that arguments are legal
+	if (! (defined($invar) && defined($outvar))) {
+		error("Usage: maptags [-mapfile $mapfile] $invar $outvar\n");
+	}
+
+	# Read mapfile
+	my $map = $self->{'maptags_map'} 
+		= $self->{'maptags_map'} || {};
+	my $missing = $self->{'maptags_missing'} 
+		= $self->{'maptags_missing'} || {};
+ 
+	if ($mapfile && -f $mapfile) {
+		open(IFS, "<$mapfile") 
+			|| return error("cannot open mapfile $mapfile");
+		while (my $line = <IFS>) {
+			chomp($line);
+			my ($in, $out) = split(/\t/, $line);
+			$map->{$in} = $out;
+		}
+		close(IFS);
+	}
+
+	# Convert words in graph
+	for (my $i = 0; $i < $graph->size(); ++$i) {
+		my $node = $graph->node($i);
+		if (! $node->comment()) {
+			my $inval = $node->var($invar);
+			next() if (! defined $inval);
+			my $instring = lc($node->input());
+			my $outval = $map->{$inval . ":" . $instring} || $map->{$inval};
+			if (defined $outval) {
+				$node->var($outvar, $outval);
+			} else {
+				$missing->{$inval} = 1;
+			}
+		}
+	}
+
+	# Add new var to vars
+	$self->cmd_vars($graph, $outvar);
+
+	# Print input values that lack from map
+	print "Undefined input tags: "
+		. join(" ", sort(keys(%$missing))) . "\n";
+
 	return 1;
 }
 
@@ -4822,25 +4910,11 @@ sub cmd_save_tag {
 	$file = $graph->file();
 
 	# Open tag file
-	open("XML", "> $file") 
+	Node->use_color(0);
+	open(XML, "> $file") 
 		|| return error("cannot open tag-file for writing: $file");
-
-	# Write XML file line by line
-	foreach (my $i = 0; $i < $graph->size(); ++ $i) {
-		my $N = $graph->node($i);
-		print XML 
-			($N->comment() 
-				? ($N->input() . "\n")
-				: ($N->xml($graph, 0 - $i) . "\n"));
-	}
-
-	# Write inalign edges as comments at the end of the file
-	foreach my $inalign (sort(keys(%{$graph->{'inalign'}}))) {
-		print XML "<!--<inalign>", $inalign, "</inalign>-->\n";
-	}
-
-	# Close file
-	close("XML");
+	print XML $graph->print_tag();
+	close(XML);
 	print "saved tag-file $file\n" if (! $self->quiet());
 
 	# Mark graph as being unmodified
@@ -5776,8 +5850,10 @@ sub do {
 			if ($cmd =~ /^\s*alignment\s+(.*)$/);
 
 		# Aparse: aparse $alignmentfile
-		$success = $self->cmd_aparse($graph, $1)
+		$success = $self->cmd_aparse($graph, $1, "dk-en")
 			if ($cmd =~ /^\s*aparse\s+(\S+)\s*$/);
+		$success = $self->cmd_aparse($graph, $2, $1)
+			if ($cmd =~ /^\s*aparse\s+-(\S+)\s+(\S+)\s*$/);
 
 		# Autoalign: autoalign $alexicon
 		$success = $self->cmd_autoalign($graph, $2)
@@ -5788,13 +5864,17 @@ sub do {
 		$success = $self->cmd_autoevaluate($graph, $2)
 			if ($cmd =~ /^\s*autoevaluate(\s+(\S+))?\s*$/);
 
+		# Autogloss: autogloss [-atag $atagfile] [mapfile1] [mapfile2] ...
+		$success = $self->cmd_autogloss($graph, $2, $3) 
+			if ($cmd =~ /^\s*autogloss(\s+-atag\s+(\S*))?\s*(.*)$/);
+
 		# Change directory: cd $dir
 		$success = $self->cmd_cd($1)
 			if ($cmd =~ /^\s*cd\s+(.*)$/);
 
-		# Clear: clear [-tag|-lex]
+		# Clear: clear [-tag|-lex|-edges]
 		$success = $self->cmd_clear($graph, $2) 
-			if ($cmd =~ /^\s*clear( (-lex|-tag))?\s*$/);
+			if ($cmd =~ /^\s*clear( (-lex|-tag|-edges))?\s*$/);
 
 		# Close: close
 		$success = $self->cmd_close($graph, $2)
@@ -5887,9 +5967,9 @@ sub do {
 		$success = $self->cmd_lexicon($1)
 			if ($cmd =~ /^\s*lexicon\s+(\S*)\s*$/);
 
-		# Load: load [-tag|-lex|-match] [$file]
-		$success = $self->cmd_load($graph, $2, $3)
-			if ($cmd =~ /^\s*load\s*((-lex|-tag|-atag|-match|-tiger|-malt|-conll|-emalt)\s+)?(\S*)\s*$/);
+		# Load: load [-tag|-lex|-match] [-multi] [$file]
+		$success = $self->cmd_load($graph, $2, $4, $3)
+			if ($cmd =~ /^\s*load\s*((-lex|-tag|-atag|-match|-tiger|-malt|-conll|-emalt)\s+)?(-multi\s+)?(\S*)\s*$/);
 
 		# Lookup: lookup "$string"$
 		$success = $self->cmd_lookup($graph, $1) 
@@ -5917,6 +5997,10 @@ sub do {
 		$success = $self->cmd_macros($1, $2) 
 			if ($cmd =~ /^\s*macros\s*$/);
 
+		# Maptags: maptags [-map $mapfile] $invar $outvar
+		$success = $self->cmd_maptags($graph, $2, $3, $4)
+			if ($cmd =~ /^\s*maptags(\s+-map\s+(\S+))?\s+(\S+)\s+(\S+)\s*$/);
+
 		# Matches: matches
 		$success = $self->cmd_matches($1)
 			if ($cmd =~ /^\s*matches\s*(.*)$/);
@@ -5924,6 +6008,9 @@ sub do {
 		# Move node: move $pos1 $pos2
 		$success = $self->cmd_move($graph, $1, $2)
 			if ($cmd =~ /^\s*move\s+([0-9]+)\s+([0-9]+)\s*$/);
+
+		# Multiedit: multiedit $node1-$node2 ...
+
 
 		# New: new (create new graph)
 		$success = $self->cmd_new()
@@ -6611,6 +6698,648 @@ sub print_match {
 	return $string;
 }
 
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_aedge_dk_de.pl
+## ------------------------------------------------------------
+
+sub process_aedge_dk_de {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Debug
+	#print $e->string() . "\n";	
+
+	# Check inkey and outkey
+	return if (! ($e->outkey() eq $skey && $e->inkey() eq $tkey));
+
+	# Color all non 1-1 edges
+	#if (scalar(@{$e->inArray()}) > 1 || scalar(@{$e->outArray()}) > 1) {
+	#	foreach my $n (@{$e->inArray()}) {
+	#		my $node = $graph->node($n);
+	#		$node->var('styles', 'red') if ($node);
+	#	}
+	#}
+
+	# Process all 1-2 edges 
+	if (scalar(@{$e->inArray()}) == 2 && scalar(@{$e->outArray()}) == 1) {
+		my $out = $e->outArray()->[0];
+		my $in1 = $e->inArray()->[0];
+		my $in2 = $e->inArray()->[1];
+		
+		if ($graph->node($in1)->var($tag) =~ /^VB/
+				&& ($graph->node($in2)->var($tag) =~ /^VB/
+					|| $graph->node($in2)->input() =~ /ed$/)) {
+			# V <--> V1 V2
+			my_edge_add($graph, Edge->new($in2, $in1, 'vobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^D/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# Ndef <--> DET N
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^N/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# N <--> N N
+			my_edge_add($graph, Edge->new($in1, $in2, 'mod'), "");
+		} elsif ($graph->node($in2)->var($tag) =~ /^IN/) {
+			# X <--> X P
+			my_edge_add($graph, Edge->new($in2, $in1, 'pobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^IN/
+				&& $graph->node($in2)->var($tag) =~ /^[ND]/) {
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} else {
+			# Default
+			#my_edge_add($graph, Edge->new($in2, $in1, '???'));
+		}
+	}
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_aedge_dk_en.pl
+## ------------------------------------------------------------
+
+sub process_aedge_dk_en {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Debug
+	#print $e->string() . "\n";	
+
+	# Check inkey and outkey
+	return if (! ($e->outkey() eq $skey && $e->inkey() eq $tkey));
+
+	# Color all non 1-1 edges
+	#if (scalar(@{$e->inArray()}) > 1 || scalar(@{$e->outArray()}) > 1) {
+	#	foreach my $n (@{$e->inArray()}) {
+	#		my $node = $graph->node($n);
+	#		$node->var('styles', 'red') if ($node);
+	#	}
+	#}
+
+	# Process all 1-2 edges 
+	if (scalar(@{$e->inArray()}) == 2 && scalar(@{$e->outArray()}) == 1) {
+		my $out = $e->outArray()->[0];
+		my $in1 = $e->inArray()->[0];
+		my $in2 = $e->inArray()->[1];
+		
+		if ($graph->node($in1)->var($tag) =~ /^VB/
+				&& ($graph->node($in2)->var($tag) =~ /^VB/
+					|| $graph->node($in2)->input() =~ /ed$/)) {
+			# V <--> V1 V2
+			my_edge_add($graph, Edge->new($in2, $in1, 'vobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^D/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# Ndef <--> DET N
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^N/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# N <--> N N
+			my_edge_add($graph, Edge->new($in1, $in2, 'mod'), "");
+		} elsif ($graph->node($in2)->var($tag) =~ /^IN/) {
+			# X <--> X P
+			my_edge_add($graph, Edge->new($in2, $in1, 'pobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^IN/
+				&& $graph->node($in2)->var($tag) =~ /^[ND]/) {
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} else {
+			# Default
+			#my_edge_add($graph, Edge->new($in2, $in1, '???'));
+		}
+	}
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_aedge_dk_es.pl
+## ------------------------------------------------------------
+
+sub process_aedge_dk_es {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Debug
+	#print $e->string() . "\n";	
+
+	# Check inkey and outkey
+	return if (! ($e->outkey() eq $skey && $e->inkey() eq $tkey));
+
+	# Color all non 1-1 edges
+	#if (scalar(@{$e->inArray()}) > 1 || scalar(@{$e->outArray()}) > 1) {
+	#	foreach my $n (@{$e->inArray()}) {
+	#		my $node = $graph->node($n);
+	#		$node->var('styles', 'red') if ($node);
+	#	}
+	#}
+
+	my $source = $alignment->graph($skey);
+
+	# Process all 1-2 edges 
+	if (scalar(@{$e->inArray()}) == 2 && scalar(@{$e->outArray()}) == 1) {
+		my $out = $e->outArray()->[0];
+		my $in1 = $e->inArray()->[0];
+		my $in2 = $e->inArray()->[1];
+		
+		my $etype = $e->type();
+		my $outtag = $source->node($out)->var($tag);
+		my $in1tag = $graph->node($in1)->var($tag);
+		my $in2tag = $graph->node($in2)->var($tag);
+
+		if ($in1tag =~ /^V.*fin/ && $in2tag =~ /^V.*inf/) {
+			# V <--> V1 V2
+			my_edge_add($graph, Edge->new($in2, $in1, 'vobj'), "");
+		} elsif ($etype eq "s") {
+			my_edge_add($graph, Edge->new($in2, $in1, 'mod'), "");
+		} elsif ($in1tag =~ /^ART/ && $in2tag =~ /^NC/) {
+			# Ndef <--> DET N
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} elsif ($in1tag =~ /^NC/ && $in2tag =~ /^ADJ/) {
+			# NN <--> N ADJ 
+			my_edge_add($graph, Edge->new($in2, $in1, 'mod'), "");
+		#} elsif ($in1tag =~ /^N/ && $in2tag =~ /^N/) {
+		#	# N <--> N N
+		#	my_edge_add($graph, Edge->new($in1, $in2, 'mod'), "");
+		} elsif ($in2tag =~ /^PREP/) {
+			# X <--> X P
+			my_edge_add($graph, Edge->new($in2, $in1, 'pobj'), "");
+		} elsif ($in1tag =~ /^PREP/ && $in2tag =~ /^(N|Art)/) {
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+			
+		} else {
+			# Default
+			#my_edge_add($graph, Edge->new($in2, $in1, '???'));
+		}
+	}
+
+	# Process all 1-3 edges
+	if (scalar(@{$e->inArray()}) == 3 && scalar(@{$e->outArray()}) == 1) {
+		my $out = $e->outArray()->[0];
+		my $in1 = $e->inArray()->[0];
+		my $in2 = $e->inArray()->[1];
+		my $in3 = $e->inArray()->[2];
+		
+		my $etype = $e->type();
+		my $outtag = $source->node($out)->var($tag);
+		my $in1tag = $graph->node($in1)->var($tag);
+		my $in2tag = $graph->node($in2)->var($tag);
+		my $in3tag = $graph->node($in3)->var($tag);
+
+		if ($in1tag eq "ART" && $in2tag eq "NC" && $in3tag eq "ADJ") {
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+			my_edge_add($graph, Edge->new($in3, $in1, 'mod'), "");
+		}
+	}		
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_aedge_dk_it.pl
+## ------------------------------------------------------------
+
+sub process_aedge_dk_it {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Debug
+	#print $e->string() . "\n";	
+
+	# Check inkey and outkey
+	return if (! ($e->outkey() eq $skey && $e->inkey() eq $tkey));
+
+	# Color all non 1-1 edges
+	#if (scalar(@{$e->inArray()}) > 1 || scalar(@{$e->outArray()}) > 1) {
+	#	foreach my $n (@{$e->inArray()}) {
+	#		my $node = $graph->node($n);
+	#		$node->var('styles', 'red') if ($node);
+	#	}
+	#}
+
+	# Process all 1-2 edges 
+	if (scalar(@{$e->inArray()}) == 2 && scalar(@{$e->outArray()}) == 1) {
+		my $out = $e->outArray()->[0];
+		my $in1 = $e->inArray()->[0];
+		my $in2 = $e->inArray()->[1];
+		
+		if ($graph->node($in1)->var($tag) =~ /^VB/
+				&& ($graph->node($in2)->var($tag) =~ /^VB/
+					|| $graph->node($in2)->input() =~ /ed$/)) {
+			# V <--> V1 V2
+			my_edge_add($graph, Edge->new($in2, $in1, 'vobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^D/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# Ndef <--> DET N
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^N/
+				&& $graph->node($in2)->var($tag) =~ /^N/) {
+			# N <--> N N
+			my_edge_add($graph, Edge->new($in1, $in2, 'mod'), "");
+		} elsif ($graph->node($in2)->var($tag) =~ /^IN/) {
+			# X <--> X P
+			my_edge_add($graph, Edge->new($in2, $in1, 'pobj'), "");
+		} elsif ($graph->node($in1)->var($tag) =~ /^IN/
+				&& $graph->node($in2)->var($tag) =~ /^[ND]/) {
+			my_edge_add($graph, Edge->new($in2, $in1, 'nobj'), "");
+		} else {
+			# Default
+			#my_edge_add($graph, Edge->new($in2, $in1, '???'));
+		}
+	}
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_edge_dk_de.pl
+## ------------------------------------------------------------
+
+sub process_edge_dk_de {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Find edge parameters
+	my $sin = $e->in();
+	my $sout = $e->out();
+	my $type = $e->type();
+
+	# Translate in and out
+	my $tin = src2target($alignment, $skey, $tkey, $sin);
+	my $tout = src2target($alignment, $skey, $tkey, $sout);
+
+	# Check that in and out are non-empty
+	return if (! (@$tin && @$tout));
+
+	# head:dep = 1:1: transfer dependency unaltered
+	if (scalar(@$tin) == 1 && scalar(@$tout) == 1) {
+		my_edge_add($graph, Edge->new($tin->[0], $tout->[0], $type), 0);
+		return;
+	} 
+
+	# find head of dependent
+	my $dhead = find_head($graph, $tin);
+	if ($dhead) {
+		# head:dep = 1:n
+		if (scalar(@$tout) == 1 && scalar(@$tin) > 0) {
+			my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+			return;
+		}
+
+		# head:dep = m:n, type=subj
+		if ($type eq "subj") {
+			# Assign subject to first verbal head
+			my $node = $graph->node($tout->[0]);
+			if ($node && $node->var($tag) =~ /^V/) {
+				# Create subject
+				my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+
+				# Create fillers to other verbal objects
+				foreach my $n (@$tout) {
+					if ($n != $tout->[0] && $graph->node($n) &&
+							$graph->node($n)->var($tag) =~ /^V/) {
+						my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+					}
+				}
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=mod|pnct
+		if ($type =~ /^(mod|pnct|coord|conj|rel|ref)$/) {
+			my $ghead = find_head($graph, $tout);
+			if ($ghead) {
+				my_edge_add($graph, Edge->new($dhead, $ghead, $type));
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=[subj]
+		if ($type eq "[subj]") {
+			foreach my $n (@$tout) {
+				if ($graph->node($n) && $graph->node($n)->var($tag) =~ /^V/) {
+					my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+				}
+			}
+			return;
+		}
+
+		# DEFAULT: attach to last preceding node, or
+		# following node if no preceding node exists
+		my $gov = -1;
+		foreach my $n (@$tout) {
+			$gov = max($gov, $n) if ($n < $dhead);
+		}
+		$gov = $tout->[0] if ($gov < 0);
+		my_edge_add($graph, Edge->new($dhead, $gov, $type));
+		return;
+	}
+
+	# default
+	print "ignored: " . 
+		join(" ", @$tin, $type, @$tout) . "\n";
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_edge_dk_en.pl
+## ------------------------------------------------------------
+
+sub process_edge_dk_en {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Find edge parameters
+	my $sin = $e->in();
+	my $sout = $e->out();
+	my $type = $e->type();
+
+	# Translate in and out
+	my $tin = src2target($alignment, $skey, $tkey, $sin);
+	my $tout = src2target($alignment, $skey, $tkey, $sout);
+
+	# Check that in and out are non-empty
+	return if (! (@$tin && @$tout));
+
+	# head:dep = 1:1: transfer dependency unaltered
+	if (scalar(@$tin) == 1 && scalar(@$tout) == 1) {
+		my_edge_add($graph, Edge->new($tin->[0], $tout->[0], $type), 0);
+		return;
+	} 
+
+	# find head of dependent
+	my $dhead = find_head($graph, $tin);
+	if ($dhead) {
+		# head:dep = 1:n
+		if (scalar(@$tout) == 1 && scalar(@$tin) > 0) {
+			my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+			return;
+		}
+
+		# head:dep = m:n, type=subj
+		if ($type eq "subj") {
+			# Assign subject to first verbal head
+			my $node = $graph->node($tout->[0]);
+			if ($node && $node->var($tag) =~ /^V/) {
+				# Create subject
+				my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+
+				# Create fillers to other verbal objects
+				foreach my $n (@$tout) {
+					if ($n != $tout->[0] && $graph->node($n) &&
+							$graph->node($n)->var($tag) =~ /^V/) {
+						my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+					}
+				}
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=mod|pnct
+		if ($type =~ /^(mod|pnct|coord|conj|rel|ref)$/) {
+			my $ghead = find_head($graph, $tout);
+			if ($ghead) {
+				my_edge_add($graph, Edge->new($dhead, $ghead, $type));
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=[subj]
+		if ($type eq "[subj]") {
+			foreach my $n (@$tout) {
+				if ($graph->node($n) && $graph->node($n)->var($tag) =~ /^V/) {
+					my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+				}
+			}
+			return;
+		}
+
+		# DEFAULT: attach to last preceding node, or
+		# following node if no preceding node exists
+		my $gov = -1;
+		foreach my $n (@$tout) {
+			$gov = max($gov, $n) if ($n < $dhead);
+		}
+		$gov = $tout->[0] if ($gov < 0);
+		my_edge_add($graph, Edge->new($dhead, $gov, $type));
+		return;
+	}
+
+	# default
+	print "ignored: " . 
+		join(" ", @$tin, $type, @$tout) . "\n";
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_edge_dk_es.pl
+## ------------------------------------------------------------
+
+sub process_edge_dk_es {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Find edge parameters
+	my $source = $alignment->graph($skey);
+	my $sin = $e->in();
+	my $sout = $e->out();
+	my $type = $e->type();
+
+	# Adjust source edge for possessives!!!
+	if (my @possd = grep {$_->type() eq "possd"} 
+			@{$source->node($sin)->out()}) {
+		print "SOURCE REPLACE: $sin<=$type=$sout with ", $possd[0]->in(), "<=$type=$sout\n";
+		$sin = $possd[0]->in();
+	}
+
+	# Translate in and out
+	my $tin = src2target($alignment, $skey, $tkey, $sin);
+	my $tout = src2target($alignment, $skey, $tkey, $sout);
+
+	# Check that in and out are non-empty
+	return if (! (@$tin && @$tout));
+
+	# head:dep = 1:1: transfer dependency unaltered
+	if (scalar(@$tin) == 1 && scalar(@$tout) == 1) {
+		my $tintag = $graph->node($tin->[0])->var('msd');
+		my $touttag = $graph->node($tout->[0])->var('msd');
+		my $ntype = $type;
+
+		# Create new edge
+		my_edge_add($graph, Edge->new($tin->[0], $tout->[0], $ntype), 0);
+		return;
+	} 
+
+	# find head of dependent
+	my $dhead = find_head($graph, $tin);
+
+	# Go ahead...
+	if ($dhead) {
+		# head:dep = 1:n
+		if (scalar(@$tout) == 1 && scalar(@$tin) > 0) {
+			my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+			return;
+		}
+
+		# head:dep = m:n, type=subj
+		if ($type eq "subj") {
+			# Assign subject to first verbal head
+			my $node = $graph->node($tout->[0]);
+			if ($node && $node->var($tag) =~ /^V/) {
+				# Create subject
+				my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+
+				# Create fillers to other verbal objects
+				foreach my $n (@$tout) {
+					if ($n != $tout->[0] && $graph->node($n) &&
+							$graph->node($n)->var($tag) =~ /^V/) {
+						my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+					}
+				}
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=mod|pnct
+		if ($type =~ /^(mod|pnct|coord|conj|rel|ref|list)$/) {
+			my $ghead = find_head($graph, $tout);
+			if ($ghead) {
+				my_edge_add($graph, Edge->new($dhead, $ghead, $type));
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=[subj]
+		if ($type eq "[subj]") {
+			foreach my $n (@$tout) {
+				if ($graph->node($n) && $graph->node($n)->var($tag) =~ /^V/) {
+					my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+				}
+			}
+			return;
+		}
+
+		# DEFAULT: attach to last preceding node, or
+		# following node if no preceding node exists
+		my $gov = -1;
+		foreach my $n (@$tout) {
+			$gov = max($gov, $n) if ($n < $dhead);
+		}
+		$gov = $tout->[0] if ($gov < 0);
+		my_edge_add($graph, Edge->new($dhead, $gov, $type));
+		return;
+	}
+
+	# default
+	print "ignored: " . 
+		join(" ", @$tin, $type, @$tout) . "\n";
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/process_edge_dk_it.pl
+## ------------------------------------------------------------
+
+sub process_edge_dk_it {
+	my $e = shift;
+	my $alignment = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	my $graph = shift;
+
+	# Find edge parameters
+	my $sin = $e->in();
+	my $sout = $e->out();
+	my $type = $e->type();
+
+	# Translate in and out
+	my $tin = src2target($alignment, $skey, $tkey, $sin);
+	my $tout = src2target($alignment, $skey, $tkey, $sout);
+
+	# Check that in and out are non-empty
+	return if (! (@$tin && @$tout));
+
+	# head:dep = 1:1: transfer dependency unaltered
+	if (scalar(@$tin) == 1 && scalar(@$tout) == 1) {
+		my_edge_add($graph, Edge->new($tin->[0], $tout->[0], $type), 0);
+		return;
+	} 
+
+	# find head of dependent
+	my $dhead = find_head($graph, $tin);
+	if ($dhead) {
+		# head:dep = 1:n
+		if (scalar(@$tout) == 1 && scalar(@$tin) > 0) {
+			my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+			return;
+		}
+
+		# head:dep = m:n, type=subj
+		if ($type eq "subj") {
+			# Assign subject to first verbal head
+			my $node = $graph->node($tout->[0]);
+			if ($node && $node->var($tag) =~ /^V/) {
+				# Create subject
+				my_edge_add($graph, Edge->new($dhead, $tout->[0], $type));
+
+				# Create fillers to other verbal objects
+				foreach my $n (@$tout) {
+					if ($n != $tout->[0] && $graph->node($n) &&
+							$graph->node($n)->var($tag) =~ /^V/) {
+						my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+					}
+				}
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=mod|pnct
+		if ($type =~ /^(mod|pnct|coord|conj|rel|ref)$/) {
+			my $ghead = find_head($graph, $tout);
+			if ($ghead) {
+				my_edge_add($graph, Edge->new($dhead, $ghead, $type));
+				return;
+			}
+		}
+
+		# head:dep = m:n, type=[subj]
+		if ($type eq "[subj]") {
+			foreach my $n (@$tout) {
+				if ($graph->node($n) && $graph->node($n)->var($tag) =~ /^V/) {
+					my_edge_add($graph, Edge->new($dhead, $n, "[subj]"));
+				}
+			}
+			return;
+		}
+
+		# DEFAULT: attach to last preceding node, or
+		# following node if no preceding node exists
+		my $gov = -1;
+		foreach my $n (@$tout) {
+			$gov = max($gov, $n) if ($n < $dhead);
+		}
+		$gov = $tout->[0] if ($gov < 0);
+		my_edge_add($graph, Edge->new($dhead, $gov, $type));
+		return;
+	}
+
+	# default
+	print "ignored: " . 
+		join(" ", @$tin, $type, @$tout) . "\n";
+}
 
 
 ## ------------------------------------------------------------

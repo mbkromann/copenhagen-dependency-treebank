@@ -67,7 +67,8 @@ style speaker:1 -label -fonttype bold -color blue -arclabel -color blue -arc -co
 style speaker:2 -label -fonttype bold -color green -arclabel -color green -arc -color green
 style speaker:A -label -fonttype bold -color red -arclabel -color red -arc -color red
 style error -label -color red
-style match -label -fonttype bold -color blue
+style match -label -fonttype bold -color red
+style ematch -arc -color red -arclabel -fonttype bold -color red
 style red -label -color red -arclabel -color red -arc -color red -dash dot
 style redlbl -label -color red -fonttype bold
 style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
@@ -88,6 +89,11 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro commit !~/cdt/tools/dtag-commit
+macro update !~/cdt/tools/dtag-update
+macro wiki !~/cdt/tools/dtag-wiki
+macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
+macro closetask !~/cdt/tools/dtag-closetask ;; script ~/.script
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
