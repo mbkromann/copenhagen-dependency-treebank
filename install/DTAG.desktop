@@ -5,7 +5,7 @@ Name=DTAG
 Type=Application
 Terminal=false
 Name[en_DK]=DTAG
-Exec=gnome-terminal -t "DTAG annotation tool" --working-directory=~/cdt -e /opt/dtag/dtag --geometry=80x5+0-0 --hide-menubar
+Exec=gnome-terminal -t "DTAG annotation tool" --working-directory=/home/cdt/cdt -e /opt/dtag/dtag --geometry=80x5+0-0 --hide-menubar
 Comment[en_DK]=DTAG treebank annotation tool
 Comment=DTAG treebank annotation tool
 GenericName[en_DK]=

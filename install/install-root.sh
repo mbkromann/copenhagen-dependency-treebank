@@ -12,9 +12,9 @@ if [ $USER != "root" ] ; then
 fi
 
 # Backup important disk information
-fdisk -l > $home/.fdisk
-swapdev=`fdisk -l | grep swap | awk '{ print $1 }'`
-dd if=$swapdev of=$home/.swap bs=512 count=100
+#fdisk -l > $home/.fdisk
+#swapdev=`fdisk -l | grep swap | awk '{ print $1 }'`
+#dd if=$swapdev of=$home/.swap bs=512 count=100
 
 # Create links to dtag
 rm -f /opt/dtag /opt/cdt
@@ -26,6 +26,5 @@ ln -s /opt/dtag/dtag /usr/local/bin/dtag
 # Ask user to download and install debian packages
 dpkg --set-selections < $installdir/packages.txt
 apt-get dselect-upgrade
-
 
 

@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Name=update
+Name=Update CDT
 Type=Application
 Terminal=false
-Name[en_DK]=update
-Exec=gnome-terminal -t "CDT updater" --working-directory=/home/cdt/cdt/install -e /home/cdt/cdt/install/update.sh --hide-menubar
-Comment[en_DK]=DTAG treebank annotation tool
-Comment=DTAG treebank annotation tool
+Name[en_DK]=Update CDT
+Exec=gnome-terminal -t "Update CDT" --working-directory=/home/cdt/cdt/install -e /home/cdt/cdt/install/update.sh --hide-menubar
+Comment[en_DK]=Update program for CDT tools
+Comment=Update program for CDT tools
 GenericName[en_DK]=
