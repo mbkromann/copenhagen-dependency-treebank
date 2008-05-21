@@ -1,0 +1,23 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0881-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0881-es.tag" sign="_input"/>
+<align out="a51" type="" in="b121" creator="-101" outsign="af" insign="de"/>
+<align out="a67" type="" in="a67" creator="-101" outsign="og" insign="og"/>
+<align out="a68" type="" in="a68" creator="-101" outsign="en" insign="en"/>
+<align out="a69" type="" in="a69" creator="-101" outsign="var" insign="var"/>
+<align out="a70" type="" in="a70" creator="-101" outsign="allerede" insign="allerede"/>
+<align out="a71" type="" in="a71" creator="-101" outsign="kristen" insign="kristen"/>
+<align out="a72" type="" in="a72" creator="-101" outsign="og" insign="og"/>
+<align out="a73" type="" in="a73" creator="-101" outsign="kommer" insign="kommer"/>
+<align out="a88" type="" in="b139" creator="-101" outsign="det" insign="que"/>
+<align out="a98" type="" in="b145" creator="-101" outsign="men" insign="pero"/>
+<align out="a131" type="" in="b65" creator="-101" outsign="snak" insign="hablar"/>
+<align out="a132" type="" in="b66" creator="-101" outsign="med" insign="con"/>
+<align out="a133" type="" in="b67" creator="-101" outsign="de" insign="los"/>
+<align out="a134" type="" in="b68" creator="-101" outsign="to" insign="dos"/>
+<align out="a143" type="" in="b148" creator="-101" outsign="havde" insign="había"/>
+<align out="b154" type="" in="b154" creator="-101" outsign="en" insign="en"/>
+<align out="b155" type="" in="b155" creator="-101" outsign="la" insign="la"/>
+<align out="b162" type="" in="b162" creator="-101" outsign="la" insign="la"/>
+<align out="b176" type="" in="b176" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

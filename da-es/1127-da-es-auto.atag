@@ -1,0 +1,19 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1127-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1127-es.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" outsign="men" insign="pero"/>
+<align out="a44" type="" in="b1" creator="-101" outsign="deres" insign="su"/>
+<align out="a45" type="" in="b3" creator="-101" outsign="indbyrdes" insign="mutua"/>
+<align out="a46" type="" in="b2" creator="-101" outsign="forhold" insign="relación"/>
+<align out="a50" type="" in="b10" creator="-101" outsign="at" insign="que"/>
+<align out="a62" type="" in="a62" creator="-101" outsign="og" insign="og"/>
+<align out="a110" type="" in="a110" creator="-101" outsign="er" insign="er"/>
+<align out="a175" type="" in="a175" creator="-101" outsign="og" insign="og"/>
+<align out="" type="" in="" creator="-101" outsign="" insign=""/>
+<align out="a192" type="" in="b143" creator="-101" outsign="eller" insign="y"/>
+<align out="a193" type="" in="b163" creator="-101" outsign="i" insign="en"/>
+<align out="a213" type="" in="b172" creator="-101" outsign="på" insign="en"/>
+<align out="b7" type="" in="b7" creator="-101" outsign="el" insign="el"/>
+<align out="b87" type="" in="b87" creator="-101" outsign="que" insign="que"/>
+<align out="b159" type="" in="b159" creator="-101" outsign="en" insign="en"/>
+</DTAGalign>

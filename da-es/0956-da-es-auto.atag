@@ -1,0 +1,18 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0956-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0956-es.tag" sign="_input"/>
+<align out="a218" type="" in="b162" creator="-101" outsign="gad" insign="quién"/>
+<align out="a219" type="" in="b163" creator="-101" outsign="vide" insign="sabe"/>
+<align out="a221" type="" in="b164+b167" creator="-101" outsign="om" insign="si de"/>
+<align out="a222" type="" in="b165+b166+b168" creator="-101" outsign="naturgasselskaberne" insign="las compañiás gas"/>
+<align out="a223" type="" in="b169" creator="-101" outsign="kan" insign="pueden"/>
+<align out="a224" type="" in="b170" creator="-101" outsign="acceptere" insign="aceptar"/>
+<align out="a225" type="" in="b171" creator="-101" outsign="denne" insign="esta"/>
+<align out="a226" type="" in="b172" creator="-101" outsign="løsning" insign="solución"/>
+<align out="" type="" in="b173" creator="-101" outsign="" insign="–"/>
+<align out="a228" type="" in="b174" creator="-101" outsign="især" insign="sobretodo"/>
+<align out="a229" type="" in="b175" creator="-101" outsign="når" insign="cuando"/>
+<align out="a230" type="" in="b176" creator="-101" outsign="man" insign="se"/>
+<align out="a233" type="" in="b179" creator="-101" outsign="seneste" insign="últimos"/>
+<align out="a235" type="" in="b181" creator="-101" outsign="i" insign="de"/>
+</DTAGalign>

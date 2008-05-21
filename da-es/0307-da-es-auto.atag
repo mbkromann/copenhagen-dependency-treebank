@@ -1,0 +1,82 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0307-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0307-es.tag" sign="_input"/>
+<align out="a42" type="" in="b0" creator="-101" outsign="kære" insign="queridos"/>
+<align out="a43" type="" in="b1" creator="-101" outsign="inderligt" insign="profundamente"/>
+<align out="a44" type="" in="b2" creator="-101" outsign="forvirrede" insign="confundidos"/>
+<align out="a49+a50" type="" in="b3" creator="-101" outsign="det er" insign="es"/>
+<align out="a51" type="" in="b4" creator="-101" outsign="rigtigt" insign="cierto"/>
+<align out="a53" type="" in="b5" creator="-101" outsign="at" insign="que"/>
+<align out="a55" type="" in="b10" creator="-101" outsign="og" insign="y"/>
+<align out="a57+a62" type="" in="b15+b17" creator="-101" outsign="falder derimod" insign="desaparecen encambio"/>
+<align out="a63" type="" in="b21" creator="-101" outsign="kan" insign="puede"/>
+<align out="a64" type="" in="b19" creator="-101" outsign="hendes" insign="su"/>
+<align out="a65" type="" in="b20" creator="-101" outsign="far" insign="padre"/>
+<align out="a70" type="" in="b13" creator="-101" outsign="som" insign="para"/>
+<align out="a72" type="" in="b30" creator="-101" outsign="mindre" insign="menor"/>
+<align out="a73" type="" in="b31" creator="-101" outsign="end" insign="que"/>
+<align out="a74" type="" in="b32" creator="-101" outsign="før" insign="antes"/>
+<align out="a75" type="" in="b29" creator="-101" outsign="det" insign="importe"/>
+<align out="a76+a84" type="" in="b34+b35" creator="-101" outsign="fyldte uddanner" insign="cumplir los"/>
+<align out="a77" type="" in="b36" creator="-101" outsign="18." insign="18"/>
+<align out="a78" type="" in="b37" creator="-101" outsign="år" insign="aÃ±os"/>
+<align out="a81" type="" in="b40" creator="-101" outsign="mens" insign="mientras"/>
+<align out="a82" type="" in="b41" creator="-101" outsign="den" insign="el"/>
+<align out="a83" type="" in="b42" creator="-101" outsign="unge" insign="joven"/>
+<align out="a89" type="" in="b46" creator="-101" outsign="dog" insign="aunque"/>
+<align out="a90" type="" in="b47" creator="-101" outsign="kun" insign="sÃ³lo"/>
+<align out="a91" type="" in="b48" creator="-101" outsign="til" insign="para"/>
+<align out="a92" type="" in="b49" creator="-101" outsign="den" insign="la"/>
+<align out="a93" type="" in="b50" creator="-101" outsign="første" insign="primera"/>
+<align out="a103" type="" in="a103" creator="-101" outsign="er" insign="er"/>
+<align out="a105" type="" in="b56+b57" creator="-101" outsign="imod" insign="en contra"/>
+<align out="a107" type="" in="b59" creator="-101" outsign="er" insign="es"/>
+<align out="a109" type="" in="b60" creator="-101" outsign="nok" insign="probablemente"/>
+<align out="a110" type="" in="b61" creator="-101" outsign="den" insign="la"/>
+<align out="a116+a117" type="" in="b66" creator="-101" outsign="det er" insign="es"/>
+<align out="a118" type="" in="b67" creator="-101" outsign="svært" insign="difÃ­cil"/>
+<align out="a119" type="" in="b68" creator="-101" outsign="for" insign="para"/>
+<align out="a120" type="" in="b69" creator="-101" outsign="de" insign="los"/>
+<align out="a121+a123" type="" in="b70+b71" creator="-101" outsign="unge da" insign="jÃ³venes yaque"/>
+<align out="a126" type="" in="b77" creator="-101" outsign="er" insign="es"/>
+<align out="a127" type="" in="b72+b78" creator="-101" outsign="et" insign="el muy"/>
+<align out="a128" type="" in="b79" creator="-101" outsign="vigtigt" insign="importante"/>
+<align out="a133" type="" in="b81" creator="-101" outsign="der" insign="se"/>
+<align out="a134" type="" in="b82" creator="-101" outsign="kræves" insign="exigen"/>
+<align out="a135" type="" in="b83" creator="-101" outsign="meget" insign="muy"/>
+<align out="a136" type="" in="b84" creator="-101" outsign="høje" insign="altas"/>
+<align out="a137" type="" in="b85" creator="-101" outsign="karakterer" insign="calificaciones"/>
+<align out="a138" type="" in="b86" creator="-101" outsign="for" insign="para"/>
+<align out="a139+a140" type="" in="b87" creator="-101" outsign="at blive" insign="ser"/>
+<align out="a141" type="" in="b88" creator="-101" outsign="optaget" insign="admitidos"/>
+<align out="a142" type="" in="b89" creator="-101" outsign="på" insign="en"/>
+<align out="a143" type="" in="b93" creator="-101" outsign="de" insign="las"/>
+<align out="a145" type="" in="b95" creator="-101" outsign="højere" insign="superiores"/>
+<align out="a148" type="" in="b97" creator="-101" outsign="og" insign="y"/>
+<align out="a149" type="" in="b98" creator="-101" outsign="en" insign="unas"/>
+<align out="a152" type="" in="b103" creator="-101" outsign="er" insign="tienen"/>
+<align out="a153" type="" in="b101" creator="-101" outsign="for" insign="del"/>
+<align out="a156" type="" in="b104" creator="-101" outsign="meget" insign="muy"/>
+<align out="a157" type="" in="b105" creator="-101" outsign="lidt" insign="poco"/>
+<align out="a158" type="" in="b106" creator="-101" outsign="værd" insign="valor"/>
+<align out="a162" type="" in="b108" creator="-101" outsign="dette" insign="esto"/>
+<align out="a163" type="" in="b109" creator="-101" outsign="er" insign="significa"/>
+<align out="a164" type="" in="a164" creator="-101" outsign="i" insign="i"/>
+<align out="a167" type="" in="b110" creator="-101" outsign="et" insign="una"/>
+<align out="a168" type="" in="b111" creator="-101" outsign="utroligt" insign="gran"/>
+<align out="a169" type="" in="b112" creator="-101" outsign="pres" insign="presiÃ³n"/>
+<align out="a170" type="" in="b113" creator="-101" outsign="på" insign="para"/>
+<align out="a171" type="" in="b114" creator="-101" outsign="vore" insign="nuestros"/>
+<align out="a172" type="" in="b115" creator="-101" outsign="unge" insign="jÃ³venes"/>
+<align out="a182+a183" type="" in="b120" creator="-101" outsign="at se" insign="ver"/>
+<align out="a184" type="" in="b126" creator="-101" outsign="en" insign="un"/>
+<align out="a185" type="" in="b122" creator="-101" outsign="løsning" insign="soluciÃ³n"/>
+<align out="a188" type="" in="a188" creator="-101" outsign="at" insign="at"/>
+<align out="a191" type="" in="b124" creator="-101" outsign="til" insign="a"/>
+<align out="a192+a193" type="" in="b125" creator="-101" outsign="at tage" insign="tomar"/>
+<align out="a197" type="" in="b130" creator="-101" outsign="af" insign="de"/>
+<align out="b6" type="" in="b6" creator="-101" outsign="el" insign="el"/>
+<align out="b11" type="" in="b11" creator="-101" outsign="el" insign="el"/>
+<align out="b33" type="" in="b33" creator="-101" outsign="de" insign="de"/>
+<align out="b92" type="" in="b92" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

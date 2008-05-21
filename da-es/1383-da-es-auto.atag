@@ -1,0 +1,121 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1383-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1383-es.tag" sign="_input"/>
+<align out="a44" type="" in="b4" creator="-101" outsign="de" insign="las"/>
+<align out="a45" type="" in="b1+b2" creator="-101" outsign="fleste" insign="la mayorÃ­a"/>
+<align out="a47+a48" type="" in="b12+b8" creator="-101" outsign="er aktivitetskontrollen" insign="es el"/>
+<align out="a49" type="" in="b13" creator="-101" outsign="let" insign="fÃ¡cil"/>
+<align out="a50" type="" in="b14" creator="-101" outsign="at" insign="de"/>
+<align out="a51" type="" in="b15" creator="-101" outsign="foretage" insign="realizar"/>
+<align out="a52" type="" in="b16" creator="-101" outsign="fra" insign="desde"/>
+<align out="a53" type="" in="b17+b20+b21" creator="-101" outsign="uddannelsens" insign="el la educaciÃ³n"/>
+<align out="a54" type="" in="b18" creator="-101" outsign="start" insign="comienzo"/>
+<align out="a58" type="" in="b23+b37" creator="-101" outsign="deltager" insign="si ello"/>
+<align out="a59" type="" in="b24" creator="-101" outsign="en" insign="un"/>
+<align out="a60" type="" in="b25+b26" creator="-101" outsign="elev" insign="alumno participa"/>
+<align out="a61" type="" in="b27" creator="-101" outsign="i" insign="en"/>
+<align out="a62" type="" in="b28+b29" creator="-101" outsign="undervisning" insign="la enseÃ±anza"/>
+<align out="a64" type="" in="b31+b32" creator="-101" outsign="opgaver" insign="las tareas"/>
+<align out="a65" type="" in="b33" creator="-101" outsign="og" insign="y"/>
+<align out="a66" type="" in="b34+b35" creator="-101" outsign="prøver" insign="los exÃ¡menes"/>
+<align out="a68" type="" in="b40" creator="-101" outsign="er" insign="es"/>
+<align out="a69" type="" in="b38+b39" creator="-101" outsign="man" insign="significa que"/>
+<align out="a70" type="" in="b41" creator="-101" outsign="aktiv" insign="activo"/>
+<align out="a74" type="" in="b43" creator="-101" outsign="hvis" insign="si"/>
+<align out="a75" type="" in="b44" creator="-101" outsign="ikke" insign="no"/>
+<align out="a77" type="" in="b46" creator="-101" outsign="er" insign="es"/>
+<align out="a78+a79" type="" in="b47" creator="-101" outsign="man inaktiv" insign="inactivo"/>
+<align out="a87" type="" in="b50" creator="-101" outsign="ikke" insign="no"/>
+<align out="a91" type="" in="a91" creator="-101" outsign="vil" insign="vil"/>
+<align out="a92" type="" in="b56" creator="-101" outsign="der" insign="hay"/>
+<align out="a96" type="" in="b57" creator="-101" outsign="opgaver" insign="tareas"/>
+<align out="a97" type="" in="a97" creator="-101" outsign="og" insign="og"/>
+<align out="a100" type="" in="b58" creator="-101" outsign="der" insign="que"/>
+<align out="a101" type="" in="b59" creator="-101" outsign="muliggør" insign="posibilitan"/>
+<align out="a102" type="" in="b60" creator="-101" outsign="en" insign="un"/>
+<align out="a105" type="" in="b67" creator="-101" outsign="og" insign="y"/>
+<align out="a110" type="" in="b75" creator="-101" outsign="i" insign="en"/>
+<align out="a111" type="" in="b76+b77" creator="-101" outsign="alle" insign="todos los"/>
+<align out="a112" type="" in="b80" creator="-101" outsign="uddannelser" insign="educaciÃ³n"/>
+<align out="a118" type="" in="b90+b93" creator="-101" outsign="på" insign="de de"/>
+<align out="a119" type="" in="b91+b92+b94" creator="-101" outsign="uddannelsesinstitutionerne" insign="los institutos enseÃ±anza"/>
+<align out="a123" type="" in="b96" creator="-101" outsign="jeg" insign="no"/>
+<align out="a124" type="" in="b97" creator="-101" outsign="har" insign="tengo"/>
+<align out="a125" type="" in="b98" creator="-101" outsign="ingen" insign="ningÃºn"/>
+<align out="a126" type="" in="b99" creator="-101" outsign="grund" insign="motivo"/>
+<align out="a127" type="" in="b100" creator="-101" outsign="til" insign="para"/>
+<align out="a128+a129" type="" in="b101+b105" creator="-101" outsign="at tro" insign="creer que"/>
+<align out="a131" type="" in="b102" creator="-101" outsign="at" insign="que"/>
+<align out="a132" type="" in="b103+b104" creator="-101" outsign="institutionerne" insign="haya instituciones"/>
+<align out="a133" type="" in="b106" creator="-101" outsign="ikke" insign="no"/>
+<align out="a134" type="" in="b107" creator="-101" outsign="tager" insign="tomen"/>
+<align out="a135" type="" in="b110" creator="-101" outsign="denne" insign="esta"/>
+<align out="a136" type="" in="b111" creator="-101" outsign="opgave" insign="tarea"/>
+<align out="a137" type="" in="b108+b109" creator="-101" outsign="alvorligt" insign="en serio"/>
+<align out="a141" type="" in="b113" creator="-101" outsign="en" insign="es"/>
+<align out="a142" type="" in="b117" creator="-101" outsign="mulighed" insign="posibilidades"/>
+<align out="a143" type="" in="b118" creator="-101" outsign="for" insign="de"/>
+<align out="a144" type="" in="b114+b116+b119+b120" creator="-101" outsign="snyd" insign="natural haya hacer trampas"/>
+<align out="a145" type="" in="b115" creator="-101" outsign="kan" insign="que"/>
+<align out="a150" type="" in="b121" creator="-101" outsign="i" insign="en"/>
+<align out="a152" type="" in="b123" creator="-101" outsign="første" insign="primer"/>
+<align out="a153" type="" in="b124" creator="-101" outsign="år" insign="aÃ±o"/>
+<align out="a157" type="" in="b128" creator="-101" outsign="jeg" insign="por"/>
+<align out="a158" type="" in="b130" creator="-101" outsign="vil" insign="quiero"/>
+<align out="a159" type="" in="b129" creator="-101" outsign="derfor" insign="esto"/>
+<align out="a160" type="" in="b131" creator="-101" outsign="indføre" insign="introducir"/>
+<align out="a161" type="" in="b132" creator="-101" outsign="en" insign="una"/>
+<align out="a165" type="" in="b135" creator="-101" outsign="at" insign="que"/>
+<align out="a166" type="" in="b136+b137" creator="-101" outsign="institutionerne" insign="las instituciones"/>
+<align out="a167" type="" in="b138" creator="-101" outsign="skal" insign="deben"/>
+<align out="a168" type="" in="b139" creator="-101" outsign="gennemføre" insign="realizar"/>
+<align out="a169" type="" in="b141" creator="-101" outsign="første" insign="primer"/>
+<align out="a172" type="" in="b147" creator="-101" outsign="6" insign="6"/>
+<align out="a173" type="" in="b148" creator="-101" outsign="måneder" insign="meses"/>
+<align out="a175+a176" type="" in="b156+b158+b159" creator="-101" outsign="uddannelsens start" insign="inicio la educaciÃ³n"/>
+<align out="a187" type="" in="b165" creator="-101" outsign="at" insign="que"/>
+<align out="a188" type="" in="b166+b167+b169" creator="-101" outsign="su-reglerne" insign="las reglas su"/>
+<align out="a189" type="" in="b170" creator="-101" outsign="er" insign="son"/>
+<align out="a190" type="" in="b171" creator="-101" outsign="så" insign="tan"/>
+<align out="a191" type="" in="b172" creator="-101" outsign="lempelige" insign="favorables"/>
+<align out="a193" type="" in="b173" creator="-101" outsign="at" insign="que"/>
+<align out="a194" type="" in="b174" creator="-101" outsign="man" insign="se"/>
+<align out="a195" type="" in="b175" creator="-101" outsign="kan" insign="puede"/>
+<align out="a196" type="" in="b176" creator="-101" outsign="få" insign="recibir"/>
+<align out="a197" type="" in="b177" creator="-101" outsign="fra" insign="de"/>
+<align out="a204" type="" in="b183" creator="-101" outsign="året" insign="aÃ±o"/>
+<align out="a205" type="" in="b184" creator="-101" outsign="uden" insign="sin"/>
+<align out="a206" type="" in="a206" creator="-101" outsign="at" insign="at"/>
+<align out="a207+a208" type="" in="b187" creator="-101" outsign="vise sig" insign="presentarse"/>
+<align out="a209" type="" in="b188" creator="-101" outsign="på" insign="en"/>
+<align out="a210" type="" in="b189" creator="-101" outsign="uddannelsesstedet" insign="el"/>
+<align out="a211" type="" in="b192" creator="-101" outsign="og" insign="y"/>
+<align out="a212" type="" in="b193" creator="-101" outsign="uden" insign="sin"/>
+<align out="a213+a214" type="" in="b194" creator="-101" outsign="at åbne" insign="abrir"/>
+<align out="a215" type="" in="b195" creator="-101" outsign="en" insign="un"/>
+<align out="a216" type="" in="b196" creator="-101" outsign="bog" insign="libro"/>
+<align out="a220" type="" in="b198" creator="-101" outsign="som" insign="como"/>
+<align out="a221" type="" in="b199" creator="-101" outsign="eksempel" insign="ejemplo"/>
+<align out="a222" type="" in="b200+b201" creator="-101" outsign="anføres" insign="se cita"/>
+<align out="a224" type="" in="b202" creator="-101" outsign="at" insign="que"/>
+<align out="a225" type="" in="b204" creator="-101" outsign="hvis" insign="si"/>
+<align out="a226" type="" in="b205" creator="-101" outsign="en" insign="una"/>
+<align out="a227" type="" in="b206" creator="-101" outsign="person" insign="persona"/>
+<align out="a228" type="" in="b207+b210" creator="-101" outsign="tjener" insign="gana al"/>
+<align out="a229" type="" in="b208" creator="-101" outsign="300.000" insign="300.000"/>
+<align out="a232" type="" in="b215" creator="-101" outsign="kan" insign="puede"/>
+<align out="a235" type="" in="b218" creator="-101" outsign="uddannelsesstøtte" insign="subsidio"/>
+<align out="a236" type="" in="b219+b221" creator="-101" outsign="i" insign="de durante"/>
+<align out="a237" type="" in="b222" creator="-101" outsign="én" insign="un"/>
+<align out="a238" type="" in="b223" creator="-101" outsign="måned" insign="mes"/>
+<align out="b3" type="" in="b3" creator="-101" outsign="de" insign="de"/>
+<align out="b10" type="" in="b10" creator="-101" outsign="de" insign="de"/>
+<align out="b19" type="" in="b19" creator="-101" outsign="de" insign="de"/>
+<align out="b62" type="" in="b62" creator="-101" outsign="de" insign="de"/>
+<align out="b64" type="" in="b64" creator="-101" outsign="de" insign="de"/>
+<align out="b79" type="" in="b79" creator="-101" outsign="de" insign="de"/>
+<align out="b140" type="" in="b140" creator="-101" outsign="el" insign="el"/>
+<align out="b143" type="" in="b143" creator="-101" outsign="de" insign="de"/>
+<align out="b157" type="" in="b157" creator="-101" outsign="de" insign="de"/>
+<align out="b168" type="" in="b168" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

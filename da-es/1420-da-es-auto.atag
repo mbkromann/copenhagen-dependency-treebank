@@ -1,0 +1,112 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1420-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1420-es.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" outsign="de" insign="las"/>
+<align out="a44" type="" in="b1" creator="-101" outsign="nye" insign="nuevas"/>
+<align out="a45" type="" in="b2" creator="-101" outsign="virksomheder" insign="empresas"/>
+<align out="a46" type="" in="b3" creator="-101" outsign="skal" insign="deben"/>
+<align out="a47" type="" in="b5" creator="-101" outsign="især" insign="principalmente"/>
+<align out="a48" type="" in="b4" creator="-101" outsign="placeres" insign="situarse"/>
+<align out="a49" type="" in="b6" creator="-101" outsign="i" insign="en"/>
+<align out="a50" type="" in="b7+b8" creator="-101" outsign="området" insign="la zona"/>
+<align out="a51" type="" in="b10+b9" creator="-101" outsign="syd" insign="sur al"/>
+<align out="a52" type="" in="b11" creator="-101" outsign="for" insign="del"/>
+<align out="a53" type="" in="b12" creator="-101" outsign="bella" insign="bella"/>
+<align out="a56" type="" in="b15" creator="-101" outsign="hvor" insign="donde"/>
+<align out="a57" type="" in="b16" creator="-101" outsign="der" insign="hay"/>
+<align out="a59" type="" in="b18" creator="-101" outsign="for" insign="de"/>
+<align out="a60" type="" in="b19" creator="-101" outsign="en" insign="una"/>
+<align out="a68" type="" in="b26" creator="-101" outsign="skal" insign="debe"/>
+<align out="a69" type="" in="b25" creator="-101" outsign="der" insign="se"/>
+<align out="a70+a77" type="" in="b30+b31" creator="-101" outsign="i nord" insign="al norte"/>
+<align out="a71+a72+a73+a88" type="" in="b43" creator="-101" outsign="højere grad tages friholdt" insign="eximidas"/>
+<align out="a74" type="" in="b45" creator="-101" outsign="hensyn" insign="consideración"/>
+<align out="a75" type="" in="b46" creator="-101" outsign="til" insign="a"/>
+<align out="a78" type="" in="b32" creator="-101" outsign="for" insign="de"/>
+<align out="a79" type="" in="b27+b33" creator="-101" outsign="bella" insign="respetar bella"/>
+<align out="a82" type="" in="b36" creator="-101" outsign="hvor" insign="donde"/>
+<align out="a83" type="" in="b38+b39" creator="-101" outsign="i_alt" insign="total de"/>
+<align out="a84" type="" in="b40" creator="-101" outsign="31" insign="31"/>
+<align out="a85" type="" in="b41" creator="-101" outsign="hektar" insign="hectáreas"/>
+<align out="a86+a87" type="" in="b42" creator="-101" outsign="vil blive" insign="serán"/>
+<align out="a89" type="" in="b44+b47" creator="-101" outsign="af" insign="por la"/>
+<align out="a97" type="" in="b50" creator="-101" outsign="den" insign="la"/>
+<align out="a98+a99" type="" in="b51+b52" creator="-101" outsign="del af" insign="parte del"/>
+<align out="a100" type="" in="b53" creator="-101" outsign="amager" insign="amager"/>
+<align out="a101" type="" in="b54" creator="-101" outsign="fælled" insign="fælled"/>
+<align out="a103" type="" in="b55" creator="-101" outsign="der" insign="que"/>
+<align out="a104" type="" in="b56" creator="-101" outsign="ikke" insign="no"/>
+<align out="a105" type="" in="b57+b58" creator="-101" outsign="indgår" insign="forma parte"/>
+<align out="a106" type="" in="b59" creator="-101" outsign="i" insign="de"/>
+<align out="a115+a116+a117" type="" in="b66+b67" creator="-101" outsign="drejer sig om" insign="trata de"/>
+<align out="a118" type="" in="b68" creator="-101" outsign="240" insign="240"/>
+<align out="a119" type="" in="b69" creator="-101" outsign="hektar" insign="hectáreas"/>
+<align out="a120" type="" in="b70" creator="-101" outsign="og" insign="y"/>
+<align out="a121" type="" in="b71" creator="-101" outsign="det" insign="esa"/>
+<align out="a122" type="" in="b72" creator="-101" outsign="område" insign="zona"/>
+<align out="a123" type="" in="b73" creator="-101" outsign="skal" insign="debe"/>
+<align out="a124" type="" in="b74" creator="-101" outsign="have" insign="tener"/>
+<align out="a125" type="" in="b75" creator="-101" outsign="karakter" insign="carácter"/>
+<align out="a126" type="" in="b80" creator="-101" outsign="af" insign="de"/>
+<align out="a127" type="" in="a127" creator="-101" outsign="en" insign="en"/>
+<align out="a128" type="" in="b81" creator="-101" outsign="stor" insign="gran"/>
+<align out="a129" type="" in="b77+b79+b82" creator="-101" outsign="bypark" insign="parque ciudad tamaño"/>
+<align out="a133" type="" in="b84" creator="-101" outsign="sammen" insign="junto"/>
+<align out="a137" type="" in="b87" creator="-101" outsign="der" insign="que"/>
+<align out="a138" type="" in="b88" creator="-101" outsign="i_dag" insign="hoy"/>
+<align out="a139" type="" in="b89" creator="-101" outsign="er" insign="están"/>
+<align out="a142" type="" in="b100" creator="-101" outsign="vil" insign="cuadrados"/>
+<align out="a145" type="" in="b94" creator="-101" outsign="en" insign="un"/>
+<align out="a146" type="" in="b95+b96" creator="-101" outsign="naturpark" insign="parque natural"/>
+<align out="a149" type="" in="b98" creator="-101" outsign="25" insign="25"/>
+<align out="a158" type="" in="b104" creator="-101" outsign="også" insign="también"/>
+<align out="a160" type="" in="b110" creator="-101" outsign="i" insign="en"/>
+<align out="a165+a170" type="" in="b113+b118+b121" creator="-101" outsign="ny bebygges" insign="ny antes preferentemente"/>
+<align out="a166+a168+a172" type="" in="b114+b117" creator="-101" outsign="tøjhusgrunden snarest gerne" insign="tøjhusgrunden lo"/>
+<align out="a167" type="" in="b115" creator="-101" outsign="skal" insign="debe"/>
+<align out="a169" type="" in="b119" creator="-101" outsign="muligt" insign="posible"/>
+<align out="a173" type="" in="b122" creator="-101" outsign="med" insign="con"/>
+<align out="a174" type="" in="b123" creator="-101" outsign="et" insign="una"/>
+<align out="a175" type="" in="b125+b126" creator="-101" outsign="kultur-" insign="de cultura"/>
+<align out="a176" type="" in="b127" creator="-101" outsign="og" insign="y"/>
+<align out="a182+a191" type="" in="b143+b144" creator="-101" outsign="skal Ørestaden" insign="Ørestaden debe"/>
+<align out="a183" type="" in="b132+b133" creator="-101" outsign="området" insign="la zona"/>
+<align out="a184" type="" in="b134+b135" creator="-101" outsign="omkring" insign="alrededor de"/>
+<align out="a185" type="" in="b136+b137" creator="-101" outsign="søerne" insign="los lagos"/>
+<align out="a186" type="" in="b138" creator="-101" outsign="i" insign="en"/>
+<align out="a187" type="" in="b139" creator="-101" outsign="det" insign="la"/>
+<align out="a188+a189" type="" in="b140+b141" creator="-101" outsign="nordlige område" insign="zona norte"/>
+<align out="a190" type="" in="b142" creator="-101" outsign="af" insign="de"/>
+<align out="a192" type="" in="b145" creator="-101" outsign="være" insign="ser"/>
+<align out="a193" type="" in="b146" creator="-101" outsign="et" insign="una"/>
+<align out="a194" type="" in="b147+b148+b149" creator="-101" outsign="udstillingsområde" insign="zona de exposiciones"/>
+<align out="a198" type="" in="b151+b152" creator="-101" outsign="partierne" insign="los partidos"/>
+<align out="a199" type="" in="b154" creator="-101" outsign="foreslår" insign="sugieren"/>
+<align out="a200" type="" in="b155" creator="-101" outsign="en" insign="una"/>
+<align out="a201+a207" type="" in="b157" creator="-101" outsign="baltisk status" insign="báltica"/>
+<align out="a202" type="" in="b156" creator="-101" outsign="udstilling" insign="exposición"/>
+<align out="a203" type="" in="b158" creator="-101" outsign="i" insign="en"/>
+<align out="a204" type="" in="b159" creator="-101" outsign="forbindelse" insign="relación"/>
+<align out="a209" type="" in="b163+b164" creator="-101" outsign="kulturby" insign="ciudad cultural"/>
+<align out="a210" type="" in="b167" creator="-101" outsign="i" insign="en"/>
+<align out="a211" type="" in="b168" creator="-101" outsign="1996" insign="1996"/>
+<align out="a217" type="" in="b170" creator="-101" outsign="og" insign="y"/>
+<align out="a219" type="" in="b174" creator="-101" outsign="får" insign="obtendrá"/>
+<align out="a221" type="" in="b172" creator="-101" outsign="endelig" insign="final"/>
+<align out="a227" type="" in="b180" creator="-101" outsign="der" insign="se"/>
+<align out="a228+a229" type="" in="b181" creator="-101" outsign="skal anlægges" insign="construirándos"/>
+<align out="a230" type="" in="b182" creator="-101" outsign="to" insign="dos"/>
+<align out="a242" type="" in="a242" creator="-101" outsign="at" insign="at"/>
+<align out="a253" type="" in="b199" creator="-101" outsign="den" insign="la"/>
+<align out="a254" type="" in="b200" creator="-101" outsign="anden" insign="otra"/>
+<align out="a262" type="" in="b209" creator="-101" outsign="islands" insign="islands"/>
+<align out="a263" type="" in="b210" creator="-101" outsign="brygge" insign="brygge"/>
+<align out="a264" type="" in="b211" creator="-101" outsign="og" insign="y"/>
+<align out="a265" type="" in="b212+b213" creator="-101" outsign="vest" insign="al oeste"/>
+<align out="a266" type="" in="b214" creator="-101" outsign="om" insign="de"/>
+<align out="a267" type="" in="b216" creator="-101" outsign="universitet" insign="universidad"/>
+<align out="a268" type="" in="b204+b217" creator="-101" outsign="til" insign="de hasta"/>
+<align out="b76" type="" in="b76" creator="-101" outsign="de" insign="de"/>
+<align out="b78" type="" in="b78" creator="-101" outsign="de" insign="de"/>
+<align out="b165" type="" in="b165" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

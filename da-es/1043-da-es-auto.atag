@@ -1,0 +1,68 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1043-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1043-es.tag" sign="_input"/>
+<align out="a99" type="" in="b61+b62" creator="-101" outsign="alligevel" insign="de todos"/>
+<align out="a100" type="" in="b74" creator="-101" outsign="er" insign="está"/>
+<align out="a101" type="" in="b65+b66" creator="-101" outsign="debatten" insign="el debate"/>
+<align out="a102" type="" in="b67" creator="-101" outsign="om" insign="sobre"/>
+<align out="a103" type="" in="b68+b72" creator="-101" outsign="danmarks" insign="la dinamarca"/>
+<align out="a104" type="" in="b70" creator="-101" outsign="økonomiske" insign="económica"/>
+<align out="a105" type="" in="b69" creator="-101" outsign="politik" insign="política"/>
+<align out="a106" type="" in="b76" creator="-101" outsign="på_ny" insign="denuevo"/>
+<align out="a107" type="" in="b77" creator="-101" outsign="ved" insign="a"/>
+<align out="a108+a109" type="" in="b78" creator="-101" outsign="at blive" insign="ser"/>
+<align out="a110" type="" in="b79" creator="-101" outsign="et" insign="una"/>
+<align out="a111" type="" in="b80" creator="-101" outsign="spørgsmål" insign="cuestión"/>
+<align out="a112" type="" in="b81" creator="-101" outsign="om" insign="de"/>
+<align out="a113" type="" in="b82" creator="-101" outsign="ideologi" insign="ideología"/>
+<align out="a114" type="" in="b83" creator="-101" outsign="eller" insign="o"/>
+<align out="a117" type="" in="b71+b84" creator="-101" outsign="om" insign="de de"/>
+<align out="a123" type="" in="b87" creator="-101" outsign="for" insign="porque"/>
+<align out="a129+a130" type="" in="b88" creator="-101" outsign="socialdemokratiet den" insign="ese"/>
+<align out="a131" type="" in="b89" creator="-101" outsign="samme" insign="mismo"/>
+<align out="a132" type="" in="b90" creator="-101" outsign="dag" insign="día"/>
+<align out="" type="" in="b91" creator="-101" outsign="" insign="–"/>
+<align out="a134" type="" in="b92" creator="-101" outsign="tirsdag" insign="martes"/>
+<align out="" type="" in="" creator="-101" outsign="" insign=""/>
+<align out="a136" type="" in="b99" creator="-101" outsign="med" insign="con"/>
+<align out="a137" type="" in="b104" creator="-101" outsign="deres" insign="su"/>
+<align out="a145" type="" in="b114" creator="-101" outsign="de" insign="las"/>
+<align out="a147" type="" in="b115" creator="-101" outsign="forskelle" insign="diferencias"/>
+<align out="a149" type="" in="b120" creator="-101" outsign="tydelige" insign="claras"/>
+<align out="a150" type="" in="b121" creator="-101" outsign="og" insign="y"/>
+<align out="a151" type="" in="b124" creator="-101" outsign="kan" insign="pueden"/>
+<align out="a152+a153" type="" in="b125" creator="-101" outsign="firkantet udtrykkes" insign="expresarse"/>
+<align out="a163" type="" in="b133" creator="-101" outsign="kan" insign="podemos"/>
+<align out="a164" type="" in="b132" creator="-101" outsign="ikke" insign="no"/>
+<align out="a167+a168" type="" in="b134+b135" creator="-101" outsign="at lade" insign="permitir que"/>
+<align out="a169" type="" in="b136" creator="-101" outsign="de" insign="los"/>
+<align out="a170" type="" in="b137" creator="-101" outsign="arbejdsløse" insign="desempleados"/>
+<align out="a171" type="" in="b138" creator="-101" outsign="fortsat" insign="sigan"/>
+<align out="a177+a178" type="" in="b142" creator="-101" outsign="vi har" insign="tenemos"/>
+<align out="a179" type="" in="b145" creator="-101" outsign="så" insign="tan"/>
+<align out="a180" type="" in="b146" creator="-101" outsign="stort" insign="grande"/>
+<align out="a181" type="" in="b143+b144" creator="-101" outsign="overskud" insign="un superávit"/>
+<align out="a182" type="" in="b147" creator="-101" outsign="på" insign="en"/>
+<align out="a183+a188+a192" type="" in="b149+b151" creator="-101" outsign="betalingsbalancen råd mere" insign="balanza pagos"/>
+<align out="a185" type="" in="b152" creator="-101" outsign="at" insign="que"/>
+<align out="a186+a187" type="" in="b153" creator="-101" outsign="der er" insign="hay"/>
+<align out="a189" type="" in="b155" creator="-101" outsign="til" insign="para"/>
+<align out="a190+a191" type="" in="b156" creator="-101" outsign="at sætte" insign="aumentar"/>
+<align out="a193" type="" in="b158" creator="-101" outsign="gang" insign="producción"/>
+<align out="a194" type="" in="b159" creator="-101" outsign="i" insign="en"/>
+<align out="a200" type="" in="b162" creator="-101" outsign="vi" insign="debemos"/>
+<align out="a207" type="" in="b167" creator="-101" outsign="med" insign="con"/>
+<align out="a208" type="" in="b168" creator="-101" outsign="en" insign="una"/>
+<align out="a209" type="" in="b169" creator="-101" outsign="finanspolitisk" insign="política"/>
+<align out="a213" type="" in="b174" creator="-101" outsign="offentligt" insign="mayor"/>
+<align out="a214" type="" in="b175" creator="-101" outsign="underskud" insign="déficit"/>
+<align out="a217" type="" in="b178" creator="-101" outsign="det" insign="el"/>
+<align out="a218" type="" in="b180" creator="-101" outsign="private" insign="privado"/>
+<align out="a219" type="" in="b179" creator="-101" outsign="forbrug" insign="consumo"/>
+<align out="a222" type="" in="b182" creator="-101" outsign="i" insign="considerablemente"/>
+<align out="a227" type="" in="b184" creator="-101" outsign="så" insign="entonces"/>
+<align out="a229" type="" in="b185+b186+b187" creator="-101" outsign="ledigheden" insign="descendería el paro"/>
+<align out="a230" type="" in="b188" creator="-101" outsign="og" insign="y"/>
+<align out="" type="" in="b199" creator="-101" outsign="" insign="“el"/>
+<align out="b150" type="" in="b150" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

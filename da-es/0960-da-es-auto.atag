@@ -1,0 +1,103 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0960-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0960-es.tag" sign="_input"/>
+<align out="a43+a44" type="" in="b0" creator="-101" outsign="det er" insign="es"/>
+<align out="a45" type="" in="b1+b2+b3" creator="-101" outsign="folkemagten" insign="el poder popular"/>
+<align out="a46" type="" in="b6" creator="-101" outsign="bestående" insign="consta"/>
+<align out="a47" type="" in="b7" creator="-101" outsign="af" insign="de"/>
+<align out="a48+a50+a51" type="" in="b5+b8" creator="-101" outsign="så så mange" insign="que tantos"/>
+<align out="a49" type="" in="a49" creator="-101" outsign="og" insign="og"/>
+<align out="a52+a53" type="" in="b10+b9" creator="-101" outsign="individuelle krydser" insign="individuales votos"/>
+<align out="a55" type="" in="b12" creator="-101" outsign="der" insign="que"/>
+<align out="a56" type="" in="b13" creator="-101" outsign="kollektivt" insign="colectivamente"/>
+<align out="a57" type="" in="b15" creator="-101" outsign="beslutter" insign="decide"/>
+<align out="a58" type="" in="b14" creator="-101" outsign="sig" insign="se"/>
+<align out="a59" type="" in="b16" creator="-101" outsign="og" insign="y"/>
+<align out="a60" type="" in="b17+b18" creator="-101" outsign="dermed" insign="con esto"/>
+<align out="a61" type="" in="b19" creator="-101" outsign="udøver" insign="ejerce"/>
+<align out="a62" type="" in="b21" creator="-101" outsign="myndighed" insign="autoridad"/>
+<align out="a66" type="" in="b23" creator="-101" outsign="sådan" insign="así"/>
+<align out="a67+a68" type="" in="b24+b25" creator="-101" outsign="er det" insign="es el"/>
+<align out="a69" type="" in="b27" creator="-101" outsign="demokratiske" insign="democrático"/>
+<align out="a70" type="" in="b26" creator="-101" outsign="ideal" insign="ideal"/>
+<align out="a72" type="" in="b29" creator="-101" outsign="men" insign="pero"/>
+<align out="a73+a74" type="" in="b30" creator="-101" outsign="i virkeligheden" insign="enrealidad"/>
+<align out="a75+a76" type="" in="b31" creator="-101" outsign="tror jeg" insign="pienso"/>
+<align out="a78" type="" in="b32" creator="-101" outsign="at" insign="que"/>
+<align out="a79" type="" in="b36" creator="-101" outsign="de" insign="los"/>
+<align out="a80" type="" in="b33+b34" creator="-101" outsign="fleste" insign="la mayoría"/>
+<align out="a81" type="" in="b37" creator="-101" outsign="vælgere" insign="electores"/>
+<align out="" type="" in="" creator="-101" outsign="" insign=""/>
+<align out="a83" type="" in="b39+b40+b41" creator="-101" outsign="bortset_fra" insign="con excepción de"/>
+<align out="a84+a93+a99" type="" in="b42" creator="-101" outsign="uffe kryds mindst" insign="uffe"/>
+<align out="a101+a85+a95" type="" in="b43" creator="-101" outsign="gjort ellemann sættes" insign="ellemann"/>
+<align out="" type="" in="b44" creator="-101" outsign="" insign="–"/>
+<align out="a87+a88" type="" in="b45+b46" creator="-101" outsign="føler sig" insign="se sienten"/>
+<align out="a89" type="" in="b47" creator="-101" outsign="afmægtige" insign="impotentes"/>
+<align out="a91" type="" in="b48" creator="-101" outsign="når" insign="a"/>
+<align out="a92" type="" in="b49" creator="-101" outsign="dette" insign="la"/>
+<align out="a94" type="" in="b52+b53" creator="-101" outsign="skal" insign="elegir a"/>
+<align out="a97" type="" in="b57" creator="-101" outsign="og" insign="y"/>
+<align out="a100" type="" in="a100" creator="-101" outsign="har" insign="har"/>
+<align out="a102" type="" in="b62" creator="-101" outsign="det" insign="el"/>
+<align out="a103" type="" in="b59" creator="-101" outsign="i" insign="en"/>
+<align out="a104" type="" in="b60" creator="-101" outsign="forbindelse" insign="relación"/>
+<align out="a105" type="" in="b61" creator="-101" outsign="med" insign="con"/>
+<align out="a110" type="" in="b69" creator="-101" outsign="for" insign="porque"/>
+<align out="a111" type="" in="b70" creator="-101" outsign="hvem" insign="¿quién"/>
+<align out="a112" type="" in="b71" creator="-101" outsign="forstår" insign="comprende"/>
+<align out="a115" type="" in="b73+b74+b75+b77" creator="-101" outsign="maastricht-aftalerne" insign="significado del tratado maastricht"/>
+<align out="a116" type="" in="b78" creator="-101" outsign="og" insign="y"/>
+<align out="a117" type="" in="b79" creator="-101" outsign="hvilke" insign="qué"/>
+<align out="a118" type="" in="b80" creator="-101" outsign="konsekvenser" insign="consecuencias"/>
+<align out="a120" type="" in="b83" creator="-101" outsign="et" insign="un"/>
+<align out="a126" type="" in="b86" creator="-101" outsign="henholdsvis" insign="¿o"/>
+<align out="a127" type="" in="b87" creator="-101" outsign="et" insign="un"/>
+<align out="a128" type="" in="b88" creator="-101" outsign="ja" insign="“sí”"/>
+<align out="a132" type="" in="b90" creator="-101" outsign="ingen" insign="nadie"/>
+<align out="a133" type="" in="b91" creator="-101" outsign="kan" insign="puede"/>
+<align out="a135" type="" in="b92" creator="-101" outsign="svare" insign="responder"/>
+<align out="a136" type="" in="b93+b96" creator="-101" outsign="på" insign="a por"/>
+<align out="a137+a139" type="" in="b94+b97+b98" creator="-101" outsign="det så" insign="esto lo que"/>
+<align out="a140" type="" in="b100+b99" creator="-101" outsign="hånden" insign="mano la"/>
+<align out="a142" type="" in="a142" creator="-101" outsign="en" insign="en"/>
+<align out="a145" type="" in="b102" creator="-101" outsign="når" insign="cuando"/>
+<align out="a148" type="" in="b105" creator="-101" outsign="og" insign="y"/>
+<align out="a149" type="" in="b110" creator="-101" outsign="ansvaret" insign="responsable"/>
+<align out="a150+a151" type="" in="b111+b118" creator="-101" outsign="for den" insign="del la"/>
+<align out="a152" type="" in="b113" creator="-101" outsign="historiske" insign="histórico"/>
+<align out="a153" type="" in="b112" creator="-101" outsign="udvikling" insign="desarrollo"/>
+<align out="a154" type="" in="b115" creator="-101" outsign="er" insign="está"/>
+<align out="a155" type="" in="b116" creator="-101" outsign="kogt" insign="implícito"/>
+<align out="a160" type="" in="b119" creator="-101" outsign="kryds" insign="cruz"/>
+<align out="a161" type="" in="b123" creator="-101" outsign="på" insign="en"/>
+<align out="a162" type="" in="b124" creator="-101" outsign="en" insign="la"/>
+<align out="a169" type="" in="b129" creator="-101" outsign="det" insign="el"/>
+<align out="a170" type="" in="b131" creator="-101" outsign="demokratiske" insign="democrático"/>
+<align out="a171" type="" in="b130" creator="-101" outsign="ideal" insign="ideal"/>
+<align out="a172" type="" in="b132" creator="-101" outsign="forudsætter" insign="implica"/>
+<align out="a174" type="" in="b133" creator="-101" outsign="at" insign="que"/>
+<align out="a175" type="" in="b134+b135" creator="-101" outsign="vælgerne" insign="los electores"/>
+<align out="a176" type="" in="b137+b138" creator="-101" outsign="en_bloc" insign="una vez"/>
+<align out="a179" type="" in="b144" creator="-101" outsign="og" insign="y"/>
+<align out="a180" type="" in="b142+b143" creator="-101" outsign="udviklingens" insign="del desarrollo"/>
+<align out="a181" type="" in="b147" creator="-101" outsign="gang" insign="historia"/>
+<align out="a185+a186" type="" in="b149" creator="-101" outsign="det lyder" insign="suena"/>
+<align out="a187" type="" in="b150" creator="-101" outsign="magtfuldt" insign="poderoso"/>
+<align out="a188" type="" in="b151" creator="-101" outsign="og" insign="y"/>
+<align out="a189" type="" in="b152+b153" creator="-101" outsign="derfor" insign="por eso"/>
+<align out="a193" type="" in="b163" creator="-101" outsign="de" insign="los"/>
+<align out="a194" type="" in="b160+b161" creator="-101" outsign="fleste" insign="la mayoría"/>
+<align out="b20" type="" in="b20" creator="-101" outsign="la" insign="la"/>
+<align out="b35" type="" in="b35" creator="-101" outsign="de" insign="de"/>
+<align out="b51" type="" in="b51" creator="-101" outsign="de" insign="de"/>
+<align out="b65" type="" in="b65" creator="-101" outsign="a" insign="a"/>
+<align out="b66" type="" in="b66" creator="-101" outsign="la" insign="la"/>
+<align out="b76" type="" in="b76" creator="-101" outsign="de" insign="de"/>
+<align out="b106" type="" in="b106" creator="-101" outsign="de" insign="de"/>
+<align out="b114" type="" in="b114" creator="-101" outsign="que" insign="que"/>
+<align out="b120" type="" in="b120" creator="-101" outsign="que" insign="que"/>
+<align out="b126" type="" in="b126" creator="-101" outsign="de" insign="de"/>
+<align out="b145" type="" in="b145" creator="-101" outsign="de" insign="de"/>
+<align out="b162" type="" in="b162" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

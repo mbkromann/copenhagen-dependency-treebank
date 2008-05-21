@@ -1,0 +1,53 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1038-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1038-es.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" outsign="men" insign="pero"/>
+<align out="a44" type="" in="b23" creator="-101" outsign="det" insign="el"/>
+<align out="a45" type="" in="b1" creator="-101" outsign="var" insign="fue"/>
+<align out="a46+a49" type="" in="b4+b5" creator="-101" outsign="nu frikassé" insign="plato fricasé"/>
+<align out="a47" type="" in="b28+b2" creator="-101" outsign="med" insign="con con"/>
+<align out="a48" type="" in="b30+b3" creator="-101" outsign="retten" insign="lauterbach el"/>
+<align out="a52" type="" in="b8" creator="-101" outsign="og" insign="y"/>
+<align out="a55" type="" in="b11+b29+b35" creator="-101" outsign="preben" insign="preben erwin hotel"/>
+<align out="a204+a205" type="" in="b185" creator="-101" outsign="sammen med" insign="juntocon"/>
+<align out="a206" type="" in="b186+b187" creator="-101" outsign="kålen" insign="la col"/>
+<align out="a207" type="" in="b188" creator="-101" outsign="og" insign="y"/>
+<align out="a208" type="" in="b189+b190" creator="-101" outsign="porreringene" insign="las rodajas"/>
+<align out="a210" type="" in="b192+b194" creator="-101" outsign="hæld" insign="puerro verter"/>
+<align out="a211" type="" in="b195+b196" creator="-101" outsign="lidt" insign="un poco"/>
+<align out="a212" type="" in="b197" creator="-101" outsign="af" insign="de"/>
+<align out="a213+a214" type="" in="b198+b199+b200" creator="-101" outsign="saucen over" insign="salsa sobre el"/>
+<align out="a215" type="" in="b201" creator="-101" outsign="fisken" insign="pescado"/>
+<align out="a216" type="" in="b202" creator="-101" outsign="og" insign="y"/>
+<align out="a217" type="" in="b203+b204+b205" creator="-101" outsign="drys" insign="culminar esparciendo el"/>
+<align out="a218+a219" type="" in="b206" creator="-101" outsign="skinken over" insign="jamón"/>
+<align out="a225" type="" in="b208" creator="-101" outsign="evt." insign="eventualmente"/>
+<align out="a226" type="" in="b210" creator="-101" outsign="kan" insign="puede"/>
+<align out="a227" type="" in="b209" creator="-101" outsign="man" insign="se"/>
+<align out="a238" type="" in="b217" creator="-101" outsign="preben" insign="preben"/>
+<align out="a239" type="" in="b218" creator="-101" outsign="madsen" insign="madsen"/>
+<align out="a241" type="" in="b220" creator="-101" outsign="der" insign="que"/>
+<align out="a242" type="" in="b221" creator="-101" outsign="er" insign="tiene"/>
+<align out="a243" type="" in="b222" creator="-101" outsign="31" insign="31"/>
+<align out="a244" type="" in="b223" creator="-101" outsign="år" insign="años"/>
+<align out="a246" type="" in="b225" creator="-101" outsign="er" insign="es"/>
+<align out="a247" type="" in="b226" creator="-101" outsign="udlært" insign="titulado"/>
+<align out="a248" type="" in="b227" creator="-101" outsign="på" insign="de"/>
+<align out="a249" type="" in="b228+b229" creator="-101" outsign="hovborg" insign="la hovborg"/>
+<align out="a255" type="" in="b234" creator="-101" outsign="har" insign="ha"/>
+<align out="a258" type="" in="b235" creator="-101" outsign="været" insign="trabajado"/>
+<align out="a261" type="" in="b240" creator="-101" outsign="i" insign="en"/>
+<align out="a265" type="" in="b244" creator="-101" outsign="plaza" insign="plaza"/>
+<align out="a266" type="" in="b245" creator="-101" outsign="i" insign="en"/>
+<align out="a267" type="" in="b246" creator="-101" outsign="københavn" insign="copenhague"/>
+<align out="a268" type="" in="b247" creator="-101" outsign="og" insign="y"/>
+<align out="a269" type="" in="b248" creator="-101" outsign="på" insign="en"/>
+<align out="a270" type="" in="b249" creator="-101" outsign="henne" insign="henne"/>
+<align out="a271" type="" in="b250" creator="-101" outsign="kirkeby" insign="kirkeby"/>
+<align out="a272" type="" in="b251" creator="-101" outsign="kro" insign="kro"/>
+<align out="b14" type="" in="b14" creator="-101" outsign="la" insign="la"/>
+<align out="b50" type="" in="b50" creator="-101" outsign="de" insign="de"/>
+<align out="b52" type="" in="b52" creator="-101" outsign="de" insign="de"/>
+<align out="b183" type="" in="b183" creator="-101" outsign="de" insign="de"/>
+<align out="b191" type="" in="b191" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

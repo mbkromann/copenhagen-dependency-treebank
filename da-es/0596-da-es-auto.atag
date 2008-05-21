@@ -1,0 +1,43 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0596-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0596-es.tag" sign="_input"/>
+<align out="a42+a45" type="" in="b0+b1+b3" creator="-101" outsign="arbejdsgruppen sit" insign="el grupo trabajo"/>
+<align out="a43" type="" in="b4" creator="-101" outsign="skal" insign="tieneque"/>
+<align out="a44" type="" in="b5" creator="-101" outsign="tage" insign="tener"/>
+<align out="a46" type="" in="b6+b7+b9" creator="-101" outsign="udgangspunkt" insign="como punto partida"/>
+<align out="a47" type="" in="b8" creator="-101" outsign="i" insign="de"/>
+<align out="a48" type="" in="b10" creator="-101" outsign="de" insign="los"/>
+<align out="a49" type="" in="b12" creator="-101" outsign="bestående" insign="existentes"/>
+<align out="a50" type="" in="b11" creator="-101" outsign="lagre" insign="depósitos"/>
+<align out="a51" type="" in="b13" creator="-101" outsign="af" insign="de"/>
+<align out="a52" type="" in="b14" creator="-101" outsign="lægemidler" insign="medicamentos"/>
+<align out="a53" type="" in="b15" creator="-101" outsign="og" insign="y"/>
+<align out="a54" type="" in="b16" creator="-101" outsign="forsyningsvejene" insign="las"/>
+<align out="a55" type="" in="b20" creator="-101" outsign="i" insign="en"/>
+<align out="a56" type="" in="b21+b23" creator="-101" outsign="fredstid" insign="tiempos paz"/>
+<align out="a58" type="" in="b25" creator="-101" outsign="herunder" insign="incluido"/>
+<align out="a191" type="" in="b213+b214+b216" creator="-101" outsign="indenrigsministeriet" insign="el ministerio interior"/>
+<align out="a194" type="" in="b225" creator="-101" outsign="og" insign="y"/>
+<align out="a197" type="" in="b234" creator="-101" outsign="om" insign="si"/>
+<align out="a198" type="" in="b235+b236" creator="-101" outsign="arbejdet" insign="el trabajo"/>
+<align out="a199" type="" in="b237" creator="-101" outsign="skal" insign="debe"/>
+<align out="a208" type="" in="b241" creator="-101" outsign="et" insign="un"/>
+<align out="a211" type="" in="b247" creator="-101" outsign="der" insign="que"/>
+<align out="a212" type="" in="b251" creator="-101" outsign="tidsmæssigt" insign="tiempo"/>
+<align out="a216" type="" in="b256" creator="-101" outsign="de" insign="las"/>
+<align out="a217+a218" type="" in="b257+b258" creator="-101" outsign="nævnte forudsætninger" insign="condiciones mencionadas"/>
+<align out="b2" type="" in="b2" creator="-101" outsign="de" insign="de"/>
+<align out="b18" type="" in="b18" creator="-101" outsign="de" insign="de"/>
+<align out="b22" type="" in="b22" creator="-101" outsign="de" insign="de"/>
+<align out="b28" type="" in="b28" creator="-101" outsign="de" insign="de"/>
+<align out="b30" type="" in="b30" creator="-101" outsign="de" insign="de"/>
+<align out="b32" type="" in="b32" creator="-101" outsign="de" insign="de"/>
+<align out="b218" type="" in="b218" creator="-101" outsign="la" insign="la"/>
+<align out="b221" type="" in="b221" creator="-101" outsign="de" insign="de"/>
+<align out="b226" type="" in="b226" creator="-101" outsign="la" insign="la"/>
+<align out="b229" type="" in="b229" creator="-101" outsign="de" insign="de"/>
+<align out="b232" type="" in="b232" creator="-101" outsign="a" insign="a"/>
+<align out="b243" type="" in="b243" creator="-101" outsign="de" insign="de"/>
+<align out="b245" type="" in="b245" creator="-101" outsign="de" insign="de"/>
+<align out="b250" type="" in="b250" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

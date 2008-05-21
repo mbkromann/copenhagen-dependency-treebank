@@ -1,0 +1,114 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1054-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1054-es.tag" sign="_input"/>
+<align out="a44+a53" type="" in="b0" creator="-101" outsign="hans ham" insign="”su"/>
+<align out="a45" type="" in="b1" creator="-101" outsign="håb" insign="esperanza"/>
+<align out="a46" type="" in="b2" creator="-101" outsign="er" insign="es"/>
+<align out="a48" type="" in="b3" creator="-101" outsign="at" insign="que"/>
+<align out="a49" type="" in="b4" creator="-101" outsign="mange" insign="muchas"/>
+<align out="a50" type="" in="b5" creator="-101" outsign="mennesker" insign="personas"/>
+<align out="a51+a52" type="" in="b7" creator="-101" outsign="vil se" insign="vean"/>
+<align out="a54" type="" in="b8" creator="-101" outsign="tale" insign="hablar"/>
+<align out="a55" type="" in="b9" creator="-101" outsign="på" insign="en"/>
+<align out="a56" type="" in="b10+b11" creator="-101" outsign="konventet" insign="la convención"/>
+<align out="a57" type="" in="b12" creator="-101" outsign="og" insign="y"/>
+<align out="a59" type="" in="b43" creator="-101" outsign="til" insign="de"/>
+<align out="a63+a64" type="" in="b13+b16+b17" creator="-101" outsign="at den" insign="que que ese"/>
+<align out="a65" type="" in="b18" creator="-101" outsign="mand" insign="hombre"/>
+<align out="a66+a67" type="" in="b19+b20" creator="-101" outsign="er vokset" insign="se ha"/>
+<align out="a68" type="" in="a68" creator="-101" outsign="med" insign="med"/>
+<align out="a69+a73+a74+a75" type="" in="b29" creator="-101" outsign="opgaven sidst så ham" insign="vez,”"/>
+<align out="a71" type="" in="b23" creator="-101" outsign="siden" insign="desde"/>
+<align out="a72" type="" in="b26" creator="-101" outsign="de" insign="vieron"/>
+<align out="a78" type="" in="b30" creator="-101" outsign="siger" insign="dice"/>
+<align out="a79" type="" in="b31" creator="-101" outsign="en" insign="un"/>
+<align out="a80" type="" in="b32" creator="-101" outsign="ekspert" insign="experto"/>
+<align out="a81" type="" in="b33" creator="-101" outsign="i" insign="en"/>
+<align out="a82+a83" type="" in="b34+b35+b36" creator="-101" outsign="amerikanske valgkampe" insign="campañas electorales americanas"/>
+<align out="a85" type="" in="b38" creator="-101" outsign="stephen" insign="stephen"/>
+<align out="a86" type="" in="b21+b22+b39" creator="-101" outsign="hess" insign="desarrollado mucho hess"/>
+<align out="a96+a97" type="" in="b48" creator="-101" outsign="en anden" insign="otra"/>
+<align out="a98" type="" in="b49" creator="-101" outsign="opgave" insign="misión"/>
+<align out="a99" type="" in="b50" creator="-101" outsign="på" insign="en"/>
+<align out="a100" type="" in="b51+b52" creator="-101" outsign="konventet" insign="la convención"/>
+<align out="a101" type="" in="b53" creator="-101" outsign="er" insign="es"/>
+<align out="a102" type="" in="b54" creator="-101" outsign="simpelthen" insign="simplemente"/>
+<align out="a103+a104+a105" type="" in="b55" creator="-101" outsign="at holde sig" insign="mantenerse"/>
+<align out="a106" type="" in="a106" creator="-101" outsign="i" insign="i"/>
+<align out="a107" type="" in="b56" creator="-101" outsign="nærheden" insign="cerca"/>
+<align out="a108" type="" in="b57" creator="-101" outsign="af" insign="de"/>
+<align out="a109" type="" in="b58" creator="-101" outsign="bush" insign="bush"/>
+<align out="a113+a114" type="" in="b60+b85" creator="-101" outsign="det har" insign="ha está"/>
+<align out="a122" type="" in="b71" creator="-101" outsign="der" insign="que"/>
+<align out="a123+a124" type="" in="b72+b73+b74" creator="-101" outsign="er taget" insign="se han sacado"/>
+<align out="a125" type="" in="b75" creator="-101" outsign="i" insign="en"/>
+<align out="a127" type="" in="b77" creator="-101" outsign="af" insign="de"/>
+<align out="a128" type="" in="b78" creator="-101" outsign="de" insign="los"/>
+<align out="a129" type="" in="b79" creator="-101" outsign="to" insign="dos"/>
+<align out="a130" type="" in="b80" creator="-101" outsign="mænd" insign="hombres"/>
+<align out="a131" type="" in="b81" creator="-101" outsign="sammen" insign="juntos"/>
+<align out="a133" type="" in="b86" creator="-101" outsign="i" insign="en"/>
+<align out="a134+a135+a136" type="" in="b88+b89" creator="-101" outsign="skærende kontrast til" insign="contraste con"/>
+<align out="a137" type="" in="b90" creator="-101" outsign="de" insign="las"/>
+<align out="a138" type="" in="b91" creator="-101" outsign="mange" insign="numerosas"/>
+<align out="a139" type="" in="b92" creator="-101" outsign="billeder" insign="fotografías"/>
+<align out="a140" type="" in="b93" creator="-101" outsign="af" insign="de"/>
+<align out="a141" type="" in="b94" creator="-101" outsign="clinton" insign="clinton"/>
+<align out="a142" type="" in="b95" creator="-101" outsign="og" insign="y"/>
+<align out="a143" type="" in="b96" creator="-101" outsign="gore" insign="gore"/>
+<align out="a144" type="" in="b97" creator="-101" outsign="sammen" insign="juntos"/>
+<align out="a157" type="" in="b108" creator="-101" outsign="i" insign="en"/>
+<align out="a158" type="" in="b109" creator="-101" outsign="en" insign="una"/>
+<align out="a159" type="" in="b110" creator="-101" outsign="god" insign="buena"/>
+<align out="a160" type="" in="b111" creator="-101" outsign="position" insign="posición"/>
+<align out="a161" type="" in="b112" creator="-101" outsign="til" insign="para"/>
+<align out="a162" type="" in="b113" creator="-101" outsign="i_hvert_fald" insign="almenos"/>
+<align out="a165" type="" in="a165" creator="-101" outsign="et" insign="et"/>
+<align out="a169" type="" in="b115" creator="-101" outsign="blive" insign="ser"/>
+<align out="a170" type="" in="b116" creator="-101" outsign="nomineret" insign="nominado"/>
+<align out="a171" type="" in="b117" creator="-101" outsign="i" insign="en"/>
+<align out="a172" type="" in="b118" creator="-101" outsign="1996" insign="1996"/>
+<align out="a176" type="" in="b120" creator="-101" outsign="fire" insign="cuatro"/>
+<align out="a177" type="" in="b121" creator="-101" outsign="år" insign="años"/>
+<align out="a178" type="" in="b122" creator="-101" outsign="er" insign="es"/>
+<align out="a179" type="" in="b123" creator="-101" outsign="lang" insign="mucho"/>
+<align out="a180" type="" in="b124" creator="-101" outsign="tid" insign="tiempo"/>
+<align out="a182" type="" in="b126" creator="-101" outsign="og" insign="y"/>
+<align out="a183" type="" in="b127" creator="-101" outsign="med" insign="con"/>
+<align out="a187+a188" type="" in="b135" creator="-101" outsign="bliver han" insign="estará"/>
+<align out="a189" type="" in="b136" creator="-101" outsign="i" insign="en"/>
+<align out="a190" type="" in="b137" creator="-101" outsign="stand" insign="condiciones"/>
+<align out="a191" type="" in="b144" creator="-101" outsign="til" insign="a"/>
+<align out="a192" type="" in="b130" creator="-101" outsign="at" insign="que"/>
+<align out="a196" type="" in="b141+b145" creator="-101" outsign="usa" insign="estadosunidos los"/>
+<align out="a197" type="" in="b142" creator="-101" outsign="og" insign="y"/>
+<align out="a206" type="" in="b151" creator="-101" outsign="men" insign="en"/>
+<align out="a208" type="" in="b154" creator="-101" outsign="får" insign="tendrá"/>
+<align out="a209+a212" type="" in="b155" creator="-101" outsign="i hård" insign="dura"/>
+<align out="a213" type="" in="b156" creator="-101" outsign="konkurrence" insign="competencia"/>
+<align out="a214" type="" in="b157" creator="-101" outsign="fra" insign="de"/>
+<align out="a215" type="" in="b158" creator="-101" outsign="navne" insign="nombres"/>
+<align out="a216" type="" in="b159" creator="-101" outsign="som" insign="como"/>
+<align out="a217" type="" in="b160" creator="-101" outsign="james" insign="james"/>
+<align out="a218" type="" in="b161" creator="-101" outsign="baker" insign="baker"/>
+<align out="a220" type="" in="b163" creator="-101" outsign="den" insign="el"/>
+<align out="a222" type="" in="b164+b165+b167" creator="-101" outsign="boligminister" insign="popular ministro vivienda"/>
+<align out="a223" type="" in="b168" creator="-101" outsign="jack" insign="jack"/>
+<align out="a227" type="" in="b175" creator="-101" outsign="richard" insign="richard"/>
+<align out="a228" type="" in="b176+b178" creator="-101" outsign="cheney" insign="cheney el"/>
+<align out="a230" type="" in="b179+b180" creator="-101" outsign="texas-senatoren" insign="senador de"/>
+<align out="a231" type="" in="b181" creator="-101" outsign="phil" insign="texas"/>
+<align out="a232" type="" in="b182+b183" creator="-101" outsign="gramm" insign="phil gramm"/>
+<align out="a233" type="" in="b184" creator="-101" outsign="og" insign="y"/>
+<align out="a234" type="" in="b185" creator="-101" outsign="måske" insign="quizá"/>
+<align out="a235" type="" in="b186+b187+b189" creator="-101" outsign="forsvarschefen" insign="el ministro defensa"/>
+<align out="a236" type="" in="b190" creator="-101" outsign="colin" insign="colin"/>
+<align out="a237" type="" in="b191" creator="-101" outsign="powell" insign="powell"/>
+<align out="b27" type="" in="b27" creator="-101" outsign="la" insign="la"/>
+<align out="b62" type="" in="b62" creator="-101" outsign="la" insign="la"/>
+<align out="b64" type="" in="b64" creator="-101" outsign="la" insign="la"/>
+<align out="b67" type="" in="b67" creator="-101" outsign="de" insign="de"/>
+<align out="b69" type="" in="b69" creator="-101" outsign="de" insign="de"/>
+<align out="b166" type="" in="b166" creator="-101" outsign="de" insign="de"/>
+<align out="b188" type="" in="b188" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

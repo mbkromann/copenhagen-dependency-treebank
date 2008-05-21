@@ -1,0 +1,129 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0184-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0184-es.tag" sign="_input"/>
+<align out="a43" type="" in="b0+b1" creator="-101" outsign="pasta" insign="la pasta"/>
+<align out="a48" type="" in="b7" creator="-101" outsign="og" insign="y"/>
+<align out="a49" type="" in="b8" creator="-101" outsign="i" insign="en"/>
+<align out="a50+a55" type="" in="b10+b6+b9" creator="-101" outsign="færdigretter men" insign="preparados seca platos"/>
+<align out="a51" type="" in="b11" creator="-101" outsign="og" insign="y"/>
+<align out="a52+a53" type="" in="b12+b13" creator="-101" outsign="bruges både" insign="se usan"/>
+<align out="a60" type="" in="b19" creator="-101" outsign="kød" insign="carne"/>
+<align out="a61" type="" in="b20" creator="-101" outsign="og" insign="y"/>
+<align out="a62" type="" in="b21" creator="-101" outsign="grøntsager" insign="verduras"/>
+<align out="a68" type="" in="b23" creator="-101" outsign="siden" insign="desde"/>
+<align out="a69" type="" in="b24" creator="-101" outsign="vi" insign="que"/>
+<align out="a70" type="" in="b25+b26" creator="-101" outsign="begyndte" insign="comenzamos a"/>
+<align out="a71+a72" type="" in="b27" creator="-101" outsign="at producere" insign="producir"/>
+<align out="a73+a74" type="" in="b28+b29" creator="-101" outsign="frisk pasta" insign="pasta fresca"/>
+<align out="a76+a77" type="" in="b31" creator="-101" outsign="har vi" insign="hemos"/>
+<align out="a78" type="" in="b32" creator="-101" outsign="fordoblet" insign="duplicado"/>
+<align out="a79" type="" in="b33+b34" creator="-101" outsign="salget" insign="la venta"/>
+<align out="a80" type="" in="b35" creator="-101" outsign="hvert" insign="cada"/>
+<align out="a81" type="" in="b39" creator="-101" outsign="år" insign="año"/>
+<align out="a86+a87" type="" in="b40" creator="-101" outsign="regner vi" insign="contamos"/>
+<align out="a88" type="" in="b41" creator="-101" outsign="med" insign="con"/>
+<align out="a89" type="" in="a89" creator="-101" outsign="at" insign="at"/>
+<align out="a90" type="" in="b42" creator="-101" outsign="sælge" insign="vender"/>
+<align out="a91" type="" in="b43" creator="-101" outsign="700" insign="700"/>
+<align out="a92" type="" in="b44" creator="-101" outsign="ton" insign="toneladas"/>
+<align out="" type="" in="b45" creator="-101" outsign="" insign="–"/>
+<align out="a94" type="" in="b46+b47" creator="-101" outsign="det" insign="lo que"/>
+<align out="a95" type="" in="b48" creator="-101" outsign="svarer" insign="equivale"/>
+<align out="a96" type="" in="b49" creator="-101" outsign="til" insign="a"/>
+<align out="a97" type="" in="b50" creator="-101" outsign="2,8" insign="2,8"/>
+<align out="a98" type="" in="b51" creator="-101" outsign="millioner" insign="millones"/>
+<align out="a99" type="" in="b53" creator="-101" outsign="pakker" insign="paquetes"/>
+<align out="a101+a106" type="" in="b63" creator="-101" outsign="fortæller tholstrup" insign="tholstrup"/>
+<align out="a102" type="" in="b59" creator="-101" outsign="produktchef" insign="producción"/>
+<align out="a103" type="" in="b60" creator="-101" outsign="lars" insign="lars"/>
+<align out="a104" type="" in="b61" creator="-101" outsign="bred" insign="bred"/>
+<align out="a107" type="" in="b55+b56+b57+b64" creator="-101" outsign="cheese" insign="cuenta el jefe cheese"/>
+<align out="a113" type="" in="b66" creator="-101" outsign="tholstrup" insign="tholstrup"/>
+<align out="a114+a135" type="" in="b67" creator="-101" outsign="cheese større" insign="cheese"/>
+<align out="a115" type="" in="b68" creator="-101" outsign="er" insign="es"/>
+<align out="a116" type="" in="b69" creator="-101" outsign="den" insign="el"/>
+<align out="a117" type="" in="b70" creator="-101" outsign="eneste" insign="único"/>
+<align out="a118" type="" in="b72" creator="-101" outsign="danske" insign="danés"/>
+<align out="a119" type="" in="b71" creator="-101" outsign="producent" insign="productor"/>
+<align out="a120" type="" in="b73" creator="-101" outsign="af" insign="de"/>
+<align out="a121+a122" type="" in="b74+b75+b81" creator="-101" outsign="frisk pasta" insign="pasta fresca el"/>
+<align out="a124" type="" in="b77" creator="-101" outsign="men" insign="pero"/>
+<align out="a125" type="" in="b78" creator="-101" outsign="der" insign="hay"/>
+<align out="a126+a127" type="" in="b79" creator="-101" outsign="går rygter" insign="rumores"/>
+<align out="a128" type="" in="b80" creator="-101" outsign="i" insign="en"/>
+<align out="a130" type="" in="b87" creator="-101" outsign="om" insign="de"/>
+<align out="a132" type="" in="b88" creator="-101" outsign="at" insign="que"/>
+<align out="a133" type="" in="b89" creator="-101" outsign="også" insign="también"/>
+<align out="a134" type="" in="b91" creator="-101" outsign="en" insign="un"/>
+<align out="a138" type="" in="b98" creator="-101" outsign="starte" insign="comenzar"/>
+<align out="a139" type="" in="b99" creator="-101" outsign="en" insign="una"/>
+<align out="a140" type="" in="b100" creator="-101" outsign="produktion" insign="producción"/>
+<align out="a141" type="" in="b101" creator="-101" outsign="inden" insign="en"/>
+<align out="a142" type="" in="b103" creator="-101" outsign="længe" insign="tiempo"/>
+<align out="a148" type="" in="b105" creator="-101" outsign="vi" insign="a"/>
+<align out="a149" type="" in="b112" creator="-101" outsign="kan" insign="podemos"/>
+<align out="a150" type="" in="b113" creator="-101" outsign="fornemme" insign="presentir"/>
+<align out="a151" type="" in="b107" creator="-101" outsign="på" insign="de"/>
+<align out="a152" type="" in="b108" creator="-101" outsign="tendenserne" insign="tendencias"/>
+<align out="a153" type="" in="b109" creator="-101" outsign="i" insign="en"/>
+<align out="a154" type="" in="b110+b111" creator="-101" outsign="udlandet" insign="el extranjero"/>
+<align out="a156" type="" in="b114" creator="-101" outsign="at" insign="que"/>
+<align out="a157+a158" type="" in="b115" creator="-101" outsign="der er" insign="hay"/>
+<align out="a159" type="" in="b116" creator="-101" outsign="fremtid" insign="futuro"/>
+<align out="a160" type="" in="b117+b141" creator="-101" outsign="i" insign="con en"/>
+<align out="a161" type="" in="b119" creator="-101" outsign="pasta" insign="pasta"/>
+<align out="a163" type="" in="b121" creator="-101" outsign="siger" insign="dice"/>
+<align out="a164" type="" in="b122" creator="-101" outsign="lars" insign="lars"/>
+<align out="a168" type="" in="b129+b134" creator="-101" outsign="i_går" insign="ayer en"/>
+<align out="a176" type="" in="b147" creator="-101" outsign="i" insign="en"/>
+<align out="a177" type="" in="b148" creator="-101" outsign="tyskland" insign="alemania"/>
+<align out="a183" type="" in="b150" creator="-101" outsign="eksport" insign="exportación"/>
+<align out="a188" type="" in="b151+b152" creator="-101" outsign="pasta" insign="la pasta"/>
+<align out="a189" type="" in="b153" creator="-101" outsign="er" insign="es"/>
+<align out="a190" type="" in="b154" creator="-101" outsign="endnu" insign="todavía"/>
+<align out="a192" type="" in="b155" creator="-101" outsign="en" insign="una"/>
+<align out="a193" type="" in="b156" creator="-101" outsign="lille" insign="pequeña"/>
+<align out="a194+a195" type="" in="b157+b158" creator="-101" outsign="del af" insign="parte de"/>
+<align out="a196" type="" in="b162" creator="-101" outsign="tholstrup" insign="tholstrup"/>
+<align out="a202" type="" in="b165" creator="-101" outsign="kun" insign="sólo"/>
+<align out="a203" type="" in="b166" creator="-101" outsign="30" insign="30"/>
+<align out="a204" type="" in="b167" creator="-101" outsign="af" insign="de"/>
+<align out="a205" type="" in="b168" creator="-101" outsign="virksomhedens" insign="los"/>
+<align out="a206" type="" in="b169" creator="-101" outsign="500" insign="500"/>
+<align out="a207" type="" in="b170" creator="-101" outsign="ansatte" insign="empleados"/>
+<align out="a208+a209+a210" type="" in="b171+b175" creator="-101" outsign="beskæftiger sig med" insign="de ocupan"/>
+<align out="a219" type="" in="b186" creator="-101" outsign="virksomheden" insign="empresa"/>
+<align out="a220" type="" in="a220" creator="-101" outsign="har" insign="har"/>
+<align out="a221" type="" in="b183" creator="-101" outsign="dog" insign="maneras"/>
+<align out="a222" type="" in="b187" creator="-101" outsign="allerede" insign="ya"/>
+<align out="a225" type="" in="b189" creator="-101" outsign="til" insign="a"/>
+<align out="a226" type="" in="b190" creator="-101" outsign="norge" insign="noruega"/>
+<align out="a228" type="" in="b192" creator="-101" outsign="sverige" insign="suecia"/>
+<align out="a229" type="" in="b193" creator="-101" outsign="og" insign="y"/>
+<align out="a230" type="" in="b194" creator="-101" outsign="finland" insign="finlandia"/>
+<align out="a232" type="" in="b196" creator="-101" outsign="og" insign="y"/>
+<align out="a233" type="" in="b197" creator="-101" outsign="lars" insign="lars"/>
+<align out="a235" type="" in="b199" creator="-101" outsign="tror" insign="cree"/>
+<align out="a239" type="" in="b200" creator="-101" outsign="at" insign="que"/>
+<align out="a240" type="" in="b201" creator="-101" outsign="selveste" insign="hasta"/>
+<align out="a241" type="" in="b202" creator="-101" outsign="italien" insign="italia"/>
+<align out="a242+a243" type="" in="b203" creator="-101" outsign="vil være" insign="será"/>
+<align out="a244" type="" in="b204" creator="-101" outsign="et" insign="una"/>
+<align out="a245" type="" in="b205" creator="-101" outsign="godt" insign="buena"/>
+<align out="a246" type="" in="b181+b182+b188+b206" creator="-101" outsign="aftagerland" insign="de todas exporta receptora"/>
+<align out="a247" type="" in="b207" creator="-101" outsign="for" insign="de"/>
+<align out="a248" type="" in="b208" creator="-101" outsign="hans" insign="sus"/>
+<align out="a249" type="" in="b209" creator="-101" outsign="varer" insign="productos"/>
+<align out="b36" type="" in="b36" creator="-101" outsign="año" insign="año"/>
+<align out="b38" type="" in="b38" creator="-101" outsign="este" insign="este"/>
+<align out="b52" type="" in="b52" creator="-101" outsign="de" insign="de"/>
+<align out="b58" type="" in="b58" creator="-101" outsign="de" insign="de"/>
+<align out="b83" type="" in="b83" creator="-101" outsign="de" insign="de"/>
+<align out="b93" type="" in="b93" creator="-101" outsign="de" insign="de"/>
+<align out="b95" type="" in="b95" creator="-101" outsign="que" insign="que"/>
+<align out="b118" type="" in="b118" creator="-101" outsign="la" insign="la"/>
+<align out="b138" type="" in="b138" creator="-101" outsign="de" insign="de"/>
+<align out="b142" type="" in="b142" creator="-101" outsign="el" insign="el"/>
+<align out="b145" type="" in="b145" creator="-101" outsign="la" insign="la"/>
+<align out="b176" type="" in="b176" creator="-101" outsign="de" insign="de"/>
+</DTAGalign>

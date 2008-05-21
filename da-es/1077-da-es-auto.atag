@@ -1,0 +1,12 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1077-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1077-es.tag" sign="_input"/>
+<align out="a123" type="" in="b93+b94" creator="-101" outsign="mere" insign="cuanto más"/>
+<align out="a124" type="" in="b95" creator="-101" outsign="vildt" insign="caza"/>
+<align out="a126" type="" in="b97" creator="-101" outsign="bedre" insign="mejor"/>
+<align out="a129" type="" in="b105" creator="-101" outsign="bedre" insign="mejor"/>
+<align out="a131" type="" in="b106" creator="-101" outsign="og" insign="y"/>
+<align out="b110" type="" in="b110" creator="-101" outsign="de" insign="de"/>
+<align out="b111" type="" in="b111" creator="-101" outsign="la" insign="la"/>
+<align out="b133" type="" in="b133" creator="-101" outsign="la" insign="la"/>
+</DTAGalign>

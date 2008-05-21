@@ -1,0 +1,106 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0426-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0426-es.tag" sign="_input"/>
+<align out="a41+a42" type="" in="b0+b1" creator="-101" outsign="kapitel i" insign="capÃ­tulo i"/>
+<align out="a50" type="" in="b2" creator="-101" outsign="hvordan" insign="Â¿cÃ³mo"/>
+<align out="a55" type="" in="b7" creator="-101" outsign="i" insign="en"/>
+<align out="a67" type="" in="b13" creator="-101" outsign="det" insign="el"/>
+<align out="a69" type="" in="b15+b16" creator="-101" outsign="jeg" insign="que yo"/>
+<align out="a78" type="" in="b21" creator="-101" outsign="i" insign="de"/>
+<align out="a79" type="" in="b22" creator="-101" outsign="mig" insign="mÃ­"/>
+<align out="a81" type="" in="b23" creator="-101" outsign="eller" insign="o"/>
+<align out="a89" type="" in="b27" creator="-101" outsign="pablo" insign="pablo"/>
+<align out="a90" type="" in="b28" creator="-101" outsign="neruda" insign="neruda"/>
+<align out="a92" type="" in="b30" creator="-101" outsign="1978" insign="1978"/>
+<align out="a105" type="" in="b40" creator="-101" outsign="dets" insign="sus"/>
+<align out="a106" type="" in="b41" creator="-101" outsign="forældre" insign="padres"/>
+<align out="a115" type="" in="b53" creator="-101" outsign="de" insign="ellos"/>
+<align out="a116+a123" type="" in="b64+b69" creator="-101" outsign="måske kan" insign="puede puede"/>
+<align out="a121" type="" in="b51+b57" creator="-101" outsign="det" insign="lo el"/>
+<align out="a124" type="" in="a124" creator="-101" outsign="er" insign="er"/>
+<align out="a125" type="" in="b67" creator="-101" outsign="jo" insign="que"/>
+<align out="a126" type="" in="b66+b68" creator="-101" outsign="kun" insign="sino sÃ³lo"/>
+<align out="a128" type="" in="b62" creator="-101" outsign="det" insign="lo"/>
+<align out="a131" type="" in="b59" creator="-101" outsign="ikke" insign="no"/>
+<align out="a132" type="" in="b60" creator="-101" outsign="noget" insign="puede"/>
+<align out="a138" type="" in="b72" creator="-101" outsign="det" insign="lo"/>
+<align out="a139" type="" in="b73" creator="-101" outsign="som" insign="que"/>
+<align out="a140" type="" in="b74+b75" creator="-101" outsign="barnet" insign="el bebÃ©"/>
+<align out="a141" type="" in="b76" creator="-101" outsign="kan" insign="puede"/>
+<align out="a142" type="" in="b77" creator="-101" outsign="mere" insign="hacer"/>
+<align out="a143" type="" in="b78" creator="-101" outsign="end" insign="aparte"/>
+<align out="a144+a146" type="" in="b81" creator="-101" outsign="man lægger" insign="se"/>
+<align out="a147+a148" type="" in="b82" creator="-101" outsign="mærke til" insign="nota"/>
+<align out="a150+a151" type="" in="b80+b84" creator="-101" outsign="det er" insign="lo es"/>
+<align out="a152" type="" in="b85" creator="-101" outsign="noget" insign="algo"/>
+<align out="a153" type="" in="b63" creator="-101" outsign="der" insign="que"/>
+<align out="a154" type="" in="a154" creator="-101" outsign="er" insign="er"/>
+<align out="a155" type="" in="b86" creator="-101" outsign="meget" insign="muy"/>
+<align out="a156" type="" in="b87" creator="-101" outsign="svært" insign="difÃ­cil"/>
+<align out="a160" type="" in="b89" creator="-101" outsign="men" insign="pero"/>
+<align out="a161+a162" type="" in="b91" creator="-101" outsign="vi har" insign="hemos"/>
+<align out="a163" type="" in="b90" creator="-101" outsign="alle" insign="todos"/>
+<align out="a164" type="" in="b92" creator="-101" outsign="kunnet" insign="podido"/>
+<align out="a165" type="" in="b93" creator="-101" outsign="det" insign="hacerlo"/>
+<align out="a171" type="" in="b98" creator="-101" outsign="vi" insign="tenemos"/>
+<align out="a172" type="" in="b97" creator="-101" outsign="nøjes" insign="sÃ³lo"/>
+<align out="a174" type="" in="b99" creator="-101" outsign="at" insign="que"/>
+<align out="a176" type="" in="b100" creator="-101" outsign="kunne" insign="poder"/>
+<align out="a177" type="" in="b101" creator="-101" outsign="det" insign="hacerlo"/>
+<align out="a178" type="" in="b102+b115" creator="-101" outsign="den" insign="esa el"/>
+<align out="a179+a180" type="" in="b103+b104" creator="-101" outsign="ene gang" insign="Ãºnica vez"/>
+<align out="a182+a184+a185" type="" in="b106" creator="-101" outsign="lære at kende" insign="conocer"/>
+<align out="a183" type="" in="b107+b108" creator="-101" outsign="verden" insign="el mundo"/>
+<align out="a186" type="" in="b109" creator="-101" outsign="som" insign="como"/>
+<align out="a187" type="" in="b110" creator="-101" outsign="den" insign="lo"/>
+<align out="a188+a189" type="" in="b111" creator="-101" outsign="ser ud" insign="ven"/>
+<align out="a190" type="" in="b112" creator="-101" outsign="for" insign="las"/>
+<align out="a191" type="" in="b113" creator="-101" outsign="mennesker" insign="personas"/>
+<align out="a192" type="" in="b114" creator="-101" outsign="på" insign="en"/>
+<align out="a193" type="" in="b116" creator="-101" outsign="egnen" insign="sitio"/>
+<align out="a194" type="" in="b117" creator="-101" outsign="hvor" insign="donde"/>
+<align out="a202" type="" in="b121" creator="-101" outsign="at" insign="que"/>
+<align out="a203+a204" type="" in="b122" creator="-101" outsign="vi lærer" insign="conocemos"/>
+<align out="a205" type="" in="b123+b124" creator="-101" outsign="verden" insign="el mundo"/>
+<align out="a206+a207+a209+a210" type="" in="b126" creator="-101" outsign="at kende lærer vi" insign="aprendemos"/>
+<align out="a211" type="" in="b127" creator="-101" outsign="vores" insign="nuestra"/>
+<align out="a212" type="" in="b128" creator="-101" outsign="første" insign="primera"/>
+<align out="a213+a217" type="" in="b129+b131" creator="-101" outsign="sprog så" insign="lengua asÃ­"/>
+<align out="a218+a225" type="" in="b139+b140" creator="-101" outsign="kan mere" insign="mÃ¡s fÃ¡cil"/>
+<align out="a219" type="" in="b137" creator="-101" outsign="vi" insign="nos"/>
+<align out="a220+a222" type="" in="b141" creator="-101" outsign="også få" insign="contar"/>
+<align out="a221+a223+a227" type="" in="b138" creator="-101" outsign="bedre fortalt den" insign="sale"/>
+<align out="a224" type="" in="b142" creator="-101" outsign="noget" insign="cosas"/>
+<align out="a226" type="" in="b143" creator="-101" outsign="om" insign="sobre"/>
+<align out="a228" type="" in="b133+b134+b135+b144" creator="-101" outsign="efterhånden" insign="poco a poco ello"/>
+<align out="a232" type="" in="b146" creator="-101" outsign="nu" insign="por"/>
+<align out="a233+a234" type="" in="b148" creator="-101" outsign="er det" insign="es"/>
+<align out="a235" type="" in="b149" creator="-101" outsign="så" insign="tan"/>
+<align out="a236" type="" in="b150" creator="-101" outsign="praktisk" insign="prÃ¡ctico"/>
+<align out="a237" type="" in="b151" creator="-101" outsign="at" insign="que"/>
+<align out="a238" type="" in="b152+b153" creator="-101" outsign="alle" insign="todos los"/>
+<align out="a239" type="" in="b155" creator="-101" outsign="normale" insign="normales"/>
+<align out="a240" type="" in="b147+b154" creator="-101" outsign="spædbørn" insign="suerte bebÃ©s"/>
+<align out="a241+a242" type="" in="b156+b157+b163" creator="-101" outsign="er indstillet" insign="estÃ¡n dispuestos se"/>
+<align out="a243" type="" in="b158" creator="-101" outsign="på" insign="a"/>
+<align out="a244" type="" in="a244" creator="-101" outsign="at" insign="at"/>
+<align out="a245" type="" in="b159" creator="-101" outsign="lære" insign="aprender"/>
+<align out="a246" type="" in="b160" creator="-101" outsign="det" insign="la"/>
+<align out="a247" type="" in="b161" creator="-101" outsign="sprog" insign="lengua"/>
+<align out="a248" type="" in="b162" creator="-101" outsign="som" insign="que"/>
+<align out="a249" type="" in="b166" creator="-101" outsign="deres" insign="su"/>
+<align out="a258" type="" in="b173" creator="-101" outsign="en" insign="un"/>
+<align out="a259" type="" in="b174" creator="-101" outsign="lettelse" insign="alivio"/>
+<align out="a260" type="" in="b175" creator="-101" outsign="at" insign="que"/>
+<align out="a261+a262" type="" in="b176+b177" creator="-101" outsign="ingen af" insign="ninguno de"/>
+<align out="a263" type="" in="b178+b179" creator="-101" outsign="børnene" insign="los niÃ±os"/>
+<align out="a264" type="" in="b180" creator="-101" outsign="i" insign="en"/>
+<align out="a267+a268" type="" in="b184" creator="-101" outsign="at tale" insign="hablar"/>
+<align out="a269" type="" in="b185" creator="-101" outsign="finsk" insign="finÃ©s"/>
+<align out="a270" type="" in="b186" creator="-101" outsign="som" insign="que"/>
+<align out="a271" type="" in="b187" creator="-101" outsign="er" insign="es"/>
+<align out="a272" type="" in="b188" creator="-101" outsign="så" insign="tan"/>
+<align out="a273" type="" in="b189" creator="-101" outsign="svært" insign="difÃ­cil"/>
+<align out="b35" type="" in="b35" creator="-101" outsign="de" insign="de"/>
+<align out="b165" type="" in="b165" creator="-101" outsign="en" insign="en"/>
+</DTAGalign>
