@@ -5855,7 +5855,7 @@ sub do {
 			if ($cmd =~ /^\s*alignment\s+(.*)$/);
 
 		# Aparse: aparse $alignmentfile
-		$success = $self->cmd_aparse($graph, $1, "dk-en")
+		$success = $self->cmd_aparse($graph, $1, "da-en")
 			if ($cmd =~ /^\s*aparse\s+(\S+)\s*$/);
 		$success = $self->cmd_aparse($graph, $2, $1)
 			if ($cmd =~ /^\s*aparse\s+-(\S+)\s+(\S+)\s*$/);
