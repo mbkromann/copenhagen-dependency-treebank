@@ -1,6 +1,6 @@
 <DTAGalign>
-<alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
-<alignFile key="b" href="../it/0306-it-auto.tag" sign="_input"/>
+<alignFile key="a" href="/home/cdt/cdt/da-it/../da/0306-da.tag" sign="_input"/>
+<alignFile key="b" href="/home/cdt/cdt/da-it/../it/0306-it-auto.tag" sign="_input"/>
 <align out="b0" type="" in="b0" creator="0" insign="Se" outsign="Se"/>
 <align out="a42 a43" type="" in="b1" creator="0" insign="avete" outsign="Er der"/>
 <align out="a48" type="" in="b6" creator="0" insign="allora" outsign="så"/>
