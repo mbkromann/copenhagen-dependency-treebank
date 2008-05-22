@@ -1,4 +1,5 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0188-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0188-it-auto.tag" sign="_input"/>
+<align out="a44" type="" in="b0" creator="0" insign="Indicatore" outsign="Vejviser"/>
 </DTAGalign>
