@@ -838,12 +838,12 @@ sub cmd_aparse {
 	my $current_graph = $self->{'graph'};
 
 	# Check scheme and correct scheme name
-	if ($scheme =~ /^(dk-en|dk-es|dk-it|dk-de)$/) {
+	if ($scheme =~ /^(da-en|da-es|da-it|da-de)$/) {
 		$scheme =~ s/-/_/g;
 		$scheme = "_" . $scheme;
 	} else {
 		error("unsupported scheme: $scheme\n");
-		$scheme = "_dk_en";
+		$scheme = "_da_en";
 	}
 	my $edgecmd = "process_edge$scheme";
 	my $aedgecmd = "process_aedge$scheme";
@@ -6701,10 +6701,10 @@ sub print_match {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_aedge_dk_de.pl
+##  auto-inserted from: Interpreter/process_aedge_da_de.pl
 ## ------------------------------------------------------------
 
-sub process_aedge_dk_de {
+sub process_aedge_da_de {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -6758,10 +6758,10 @@ sub process_aedge_dk_de {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_aedge_dk_en.pl
+##  auto-inserted from: Interpreter/process_aedge_da_en.pl
 ## ------------------------------------------------------------
 
-sub process_aedge_dk_en {
+sub process_aedge_da_en {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -6815,10 +6815,10 @@ sub process_aedge_dk_en {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_aedge_dk_es.pl
+##  auto-inserted from: Interpreter/process_aedge_da_es.pl
 ## ------------------------------------------------------------
 
-sub process_aedge_dk_es {
+sub process_aedge_da_es {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -6899,10 +6899,10 @@ sub process_aedge_dk_es {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_aedge_dk_it.pl
+##  auto-inserted from: Interpreter/process_aedge_da_it.pl
 ## ------------------------------------------------------------
 
-sub process_aedge_dk_it {
+sub process_aedge_da_it {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -6956,10 +6956,10 @@ sub process_aedge_dk_it {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_edge_dk_de.pl
+##  auto-inserted from: Interpreter/process_edge_da_de.pl
 ## ------------------------------------------------------------
 
-sub process_edge_dk_de {
+sub process_edge_da_de {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -7049,10 +7049,10 @@ sub process_edge_dk_de {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_edge_dk_en.pl
+##  auto-inserted from: Interpreter/process_edge_da_en.pl
 ## ------------------------------------------------------------
 
-sub process_edge_dk_en {
+sub process_edge_da_en {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -7142,10 +7142,10 @@ sub process_edge_dk_en {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_edge_dk_es.pl
+##  auto-inserted from: Interpreter/process_edge_da_es.pl
 ## ------------------------------------------------------------
 
-sub process_edge_dk_es {
+sub process_edge_da_es {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
@@ -7250,10 +7250,10 @@ sub process_edge_dk_es {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/process_edge_dk_it.pl
+##  auto-inserted from: Interpreter/process_edge_da_it.pl
 ## ------------------------------------------------------------
 
-sub process_edge_dk_it {
+sub process_edge_da_it {
 	my $e = shift;
 	my $alignment = shift;
 	my $skey = shift;
