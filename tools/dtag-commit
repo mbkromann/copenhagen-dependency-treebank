@@ -1,5 +1,12 @@
 #!/bin/bash
 
 name=`cat ~/.cdtname`
-cd ~/ctt-all
+if [ -d ~/ctt-all ] ; then
+	cd ~/ctt-all
+fi
+if [ -d ~/ctt ] ; then
+	cd ctt
+fi
+
+echo "Uploading files to CDT repository"
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`

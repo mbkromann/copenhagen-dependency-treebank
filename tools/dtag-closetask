@@ -5,7 +5,7 @@ name=`cat ~/.cdtname`
 if [ -z "$name" ] ; then
     echo "Please provide your first name with the command 'setname your-name'"
     echo "using small letters only, then try the 'closetask' command again."
-    exit 1
+    exit 0
 fi
 
 # Find first task

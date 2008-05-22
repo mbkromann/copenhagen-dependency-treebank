@@ -1,4 +1,10 @@
 #!/bin/bash
 
-cd ~/cdt-all
+if [ -d ~/cdt-all ] ; then
+	cd ~/cdt-all
+fi
+if [ -d ~/cdt ] ; then
+	cd ~/cdt
+fi
+echo "Downloading files from CDT repository"
 svn update --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`

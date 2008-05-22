@@ -28,7 +28,9 @@ if [ -z "$fname" ] ; then
 fi
 
 # Reset script file
-echo "cd /home/cdt/cdt/$dir" > ~/.script
+echo "save" > ~/.script
+echo "close -all" >> ~/.script
+echo "cd /home/cdt/cdt/$dir" >> ~/.script
 
 # Process alignment task 
 if echo $fname | grep '.atag' ; then
@@ -40,6 +42,7 @@ if echo $fname | grep '.atag' ; then
 		cd /home/cdt/cdt/$dir
 		rfname=`echo $fname | sed -e 's/-[^-]*$//g'`
 		if [ -f $rfname-auto.atag ] ; then
+			echo "Copying $fname from $rfname-auto.atag"
 			svn cp $rfname-auto.atag $fname
 		fi
 	fi
@@ -59,29 +62,60 @@ fi
 if echo $fname | grep '\.tag' > /dev/null ; then
 	# Dependency annotation task
 	echo "Dependency annotation task: $fname"
+	rfname=`echo $fname | sed -e 's/^\([^-]*-[^-]*\)-.*$/\1/g'`
 
 	# Try to create file if non-existent
 	if [ ! -f /home/cdt/cdt/$dir/$fname ] ; then
-		# Copy file from base name
-		cd /home/cdt/cdt/$dir
-		rfname=`echo $fname | sed -e 's/^[^-]*-[^-]*$//g'`
-		echo "rfname=$rfname"
-		if [ -f $rfname.tag ] ; then
-			cp $rfname.tag $fname
-			svn add $fname
+		# Create file from auto tag-file
+		if [ -f /home/cdt/cdt/$dir/$rfname-auto.tag ] ; then
+			echo "Copying $fname from $rfname-auto.tag" 
+			svn cp /home/cdt/cdt/$dir/$rfname-auto.tag /home/cdt/cdt/$dir/$fname
+			echo "tag source: $rfname-auto.tag"
 		fi
 	fi
 
 	# Aparse the file if it contains no dependency edges
 	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
 		if ! egrep 'in="[^"]' $fname | egrep 'out="[^"]' > /dev/null ; then
-			# Find corresponding atag file
-			pattern=`echo $fname | sed -e 's/^\([^-]*-[^-]*\)-.*$/\1/g'`
-			id=`echo $pattern | awk -F- '{ print $1 }'`
-			lang=`echo $pattern | awk -F- '{ print $2 }'`
-			echo "id=$id lang=$lang"
-			atag=`cd /home/cdt/cdt && ( ls *-$lang/$id-*-$lang-$name.atag || ls *-$lang/$id-*-$lang.atag ) 2>/dev/null | head -1`
-			echo "atag=$atag"
+			# Identify id and language
+			id=`echo $rfname | awk -F'-' '{ print $1 }'`
+			lang=`echo $rfname | awk -F'-' '{ print $2 }'`
+
+			# Find atag-file
+			atagfiles=`ls /home/cdt/cdt/*-$lang/$id-*-$lang*.atag`
+
+			# Prefer final atag file with ending $lang.atag
+			atag=`echo $atagfiles | grep "$lang.atag" | head -1`
+			method="final"
+
+			# Otherwise prefer user's own atag file
+			if [ -z "$atag" ] ; then
+				atag=`echo $atagfiles | grep "$lang-$user.atag" | head -1`
+				method="user's own"
+			fi
+
+			# Otherwise prefer the largest other atag file
+			if [ -z "$atag" ] ; then
+				atag=`du -s /home/cdt/cdt/*-$lang/$id-*-$lang*.atag \
+					| sort -nr | head -1 | awk '{ print $2 }'`
+				method="largest match"
+			fi
+
+			# Find atag-file and atag dir
+			atagdir=`echo $atag | sed -e 's/\/[^\/]*$//g'`
+			atagname=`echo $atag | sed -e 's/^.*\/\([^\]*\)$/\1/g'`
+			echo "atag-file: $atag [$method]"
+			echo "atag-dir : $atagdir"
+
+			# Aparse file
+			if [ -f /home/cdt/cdt/$lang/$id-$lang-auto.tag ] ; then
+				echo "cd $atagdir" >> ~/.script
+				echo "load ../$lang/$id-$lang-auto.tag" >> ~/.script
+				echo "aparse $atagname" >> ~/.script
+				echo "cd /home/cdt/cdt/$dir" >> ~/.script
+				echo "save $fname" >> ~/.script
+				echo "close -all" >> ~/.script
+			fi
 		fi
 	fi
 
