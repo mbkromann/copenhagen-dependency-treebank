@@ -1,0 +1,5 @@
+#!/bin/bash
+
+name=`cat ~/.cdtname`
+cd ~/ctt-all
+svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`

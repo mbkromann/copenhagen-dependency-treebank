@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/cdt-all
+svn update --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`

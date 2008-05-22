@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Find name and exit if missing
+echo > ~/.script
 name=`cat ~/.cdtname` 
 if [ -z "$name" ] ; then
 	echo "Please provide your first name with the command 'setname your-name'"
@@ -8,21 +9,88 @@ if [ -z "$name" ] ; then
 	exit 1
 fi
 
-# Find first 
+# Check that todo file exists
 todo=~/cdt/todo/$name
-if [ -f $todo ] ; then
-	file=`grep -v '[*]' $todo | head -1 | sed -e 's/\[.\] //g'`
-	dir=`echo $file | sed -e 's/\/.*$//g'`
-	fname=`echo $file | sed -e 's/^.*\///g'`
-	echo "cd /home/cdt/cdt/$dir" > ~/.script
-	echo "!echo load $fname" >> ~/.script
-	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
-		echo "load $fname" >> ~/.script
-	else
-		echo "ERROR: cannot find file $file" 
-	fi
-else
+if [ ! -f $todo ] ; then
 	echo "No todo-file for $name: please check your first name and set"
 	echo "it again with 'setname' if wrong, otherwise contact Matthias."
+	exit 1
 fi
 
+# Find first incomplete task
+file=`grep -v '[*]' $todo | head -1 | sed -e 's/\[.\] //g'`
+dir=`echo $file | sed -e 's/\/.*$//g'`
+fname=`echo $file | sed -e 's/^.*\///g'`
+if [ -z "$fname" ] ; then
+	echo "No more tasks: please ask Matthias to give you more tasks"
+	echo > ~/.script
+	exit 1
+fi
+
+# Reset script file
+echo "cd /home/cdt/cdt/$dir" > ~/.script
+
+# Process alignment task 
+if echo $fname | grep '.atag' ; then
+	# Alignment task
+	echo "Alignment task"
+
+	# Try to create file if non-existent
+	if [ ! -f /home/cdt/cdt/$dir/$fname ] ; then
+		cd /home/cdt/cdt/$dir
+		rfname=`echo $fname | sed -e 's/-[^-]*$//g'`
+		if [ -f $rfname-auto.atag ] ; then
+			svn cp $rfname-auto.atag $fname
+		fi
+	fi
+
+	# Load file if it exists
+	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
+		echo "cd /home/cdt/cdt/$dir"
+		echo "load $fname" >> ~/.script
+		#echo "autoalign *.atag" >> ~/.script
+	else
+		echo "ERROR: cannot open/create file $file"
+		echo "Please contact Matthias if you think this is an error"
+	fi
+fi
+
+# Process dependency annotation task
+if echo $fname | grep '\.tag' > /dev/null ; then
+	# Dependency annotation task
+	echo "Dependency annotation task: $fname"
+
+	# Try to create file if non-existent
+	if [ ! -f /home/cdt/cdt/$dir/$fname ] ; then
+		# Copy file from base name
+		cd /home/cdt/cdt/$dir
+		rfname=`echo $fname | sed -e 's/^[^-]*-[^-]*$//g'`
+		echo "rfname=$rfname"
+		if [ -f $rfname.tag ] ; then
+			cp $rfname.tag $fname
+			svn add $fname
+		fi
+	fi
+
+	# Aparse the file if it contains no dependency edges
+	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
+		if ! egrep 'in="[^"]' $fname | egrep 'out="[^"]' > /dev/null ; then
+			# Find corresponding atag file
+			pattern=`echo $fname | sed -e 's/^\([^-]*-[^-]*\)-.*$/\1/g'`
+			id=`echo $pattern | awk -F- '{ print $1 }'`
+			lang=`echo $pattern | awk -F- '{ print $2 }'`
+			echo "id=$id lang=$lang"
+			atag=`cd /home/cdt/cdt && ( ls *-$lang/$id-*-$lang-$name.atag || ls *-$lang/$id-*-$lang.atag ) 2>/dev/null | head -1`
+			echo "atag=$atag"
+		fi
+	fi
+
+	# Load file if it exists
+	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
+		echo "cd /home/cdt/cdt/$dir"
+		echo "load $fname" >> ~/.script
+	else
+		echo "ERROR: cannot find file $file"
+	fi
+fi
+	
