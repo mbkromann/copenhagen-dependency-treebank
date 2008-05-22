@@ -93,7 +93,7 @@ macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
 macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
-macro closetask !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
+macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 
 # Options
