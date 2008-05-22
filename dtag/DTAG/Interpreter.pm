@@ -861,8 +861,13 @@ sub cmd_aparse {
 
 	# Find source graph, source key, and target key
 	my ($tkey, $skey, $source);
+	my $graphfile = $graph->file();
+	$graphfile =~ s/^.*\/([^/]*)$/\1/g;
 	foreach my $key (keys(%{$alignment->graphs()})) {
-		if ($alignment->graph($key)->file() eq $graph->file()) {
+		my $keyfile = $alignment->graph($key)->file();
+		$keyfile =~ s/^.*\/([^/]*)$/\1/g;
+		print "graph=$graphfile key=$keyfile\n";
+		if ($graphfile eq $keyfile) {
 			# Found target
 			$tkey = $key;
 		} else {
