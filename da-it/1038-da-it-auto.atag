@@ -1,4 +1,4 @@
 <DTAGalign>
-<alignFile key="a" href="da/1038-da.tag" sign="_input"/>
-<alignFile key="b" href="it/1038-it-auto.tag" sign="_input"/>
+<alignFile key="a" href="../da/1038-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1038-it-auto.tag" sign="_input"/>
 </DTAGalign>
