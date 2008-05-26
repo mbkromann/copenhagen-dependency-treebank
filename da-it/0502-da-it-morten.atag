@@ -131,15 +131,52 @@
 <align out="a183" type="" in="b123" creator="-1" insign="buon" outsign="godt"/>
 <align out="a184" type="" in="b124" creator="-1" insign="cosiglio" outsign="råd"/>
 <align out="a186" type="" in="b126" creator="-1" insign="di" outsign="at"/>
-<align out="a201" type="" in="b140" creator="-1" insign="del" outsign="for"/>
 <align out="a185" type="" in="b125" creator="-1" insign="è" outsign="er"/>
 <align out="a194" type="" in="b131" creator="-1" insign="." outsign="."/>
 <align out="a199" type="en=un'" in="b133" creator="0" insign="un’esperienza" outsign="en"/>
 <align out="a200" type="oplevelse=esperienza" in="b133" creator="0" insign="un’esperienza" outsign="oplevelse"/>
 <align out="a197 a198" type="" in="b132" creator="0" insign="È" outsign="Det er"/>
 <align out="a201 a202" type="f" in="b134" creator="0" insign="indimenticabile" outsign="for livet"/>
-<align out="a221" type="" in="b150" creator="-100" insign="con" outsign="med"/>
-<align out="a213" type="" in="b146" creator="-100" insign="," outsign="&nbsp;-&nbsp;"/>
-<align out="a218" type="" in="b137" creator="-100" insign="," outsign="&nbsp;-&nbsp;"/>
-<align out="a203" type="" in="b135" creator="-100" insign="." outsign="."/>
+<align out="a212" type="err" in="b136" creator="0" insign="Horus" outsign="Honus"/>
+<align out="a211" type="" in="b138 b139" creator="0" insign="dio tutelare" outsign="skytsgud"/>
+<align out="b137" type="" in="b137" creator="0" insign="," outsign=","/>
+<align out="a213" type="" in="a213" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a218" type="" in="a218" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a210" type="" in="b141" creator="0" insign="faraone" outsign="Faraos"/>
+<align out="a210" type="s" in="b140" creator="0" insign="del" outsign="Faraos"/>
+<align out="a214" type="" in="b143" creator="0" insign="re" outsign="konge"/>
+<align out="a215" type="" in="b144" creator="0" insign="del" outsign="over"/>
+<align out="a216" type="" in="a216" creator="0" insign="hele" outsign="hele"/>
+<align out="a217" type="" in="b145" creator="0" insign="mondo" outsign="verden"/>
+<align out="a219" type="" in="b147 b149" creator="0" insign="viene raffigurato" outsign="fremstilles"/>
+<align out="a220" type="" in="b148" creator="0" insign="spesso" outsign="ofte"/>
+<align out="a222" type="" in="b152 b153 b154" creator="0" insign="testa di falcone" outsign="falkehovede"/>
+<align out="b151" type="" in="b151" creator="0" insign="la" outsign="la"/>
+<align out="b146" type="" in="b146" creator="0" insign="," outsign=","/>
+<align out="b142" type="" in="b142" creator="0" insign="e" outsign="e"/>
+<align out="a223" type="" in="a223" creator="0" insign="og" outsign="og"/>
+<align out="a224" type="" in="b158 b159" creator="0" insign="doppia corona" outsign="dobbeltkrone"/>
+<align out="b155" type="" in="b155" creator="0" insign="sormontata" outsign="sormontata"/>
+<align out="b156" type="" in="b156" creator="0" insign="da" outsign="da"/>
+<align out="b157" type="" in="b157" creator="0" insign="una" outsign="una"/>
+<align out="a225" type="" in="b160" creator="0" insign="." outsign="."/>
+<align out="a221" type="" in="b150" creator="-1" insign="con" outsign="med"/>
+<align out="a203" type="" in="b135" creator="-1" insign="." outsign="."/>
+<align out="a233" type="" in="b162" creator="0" insign="guardia" outsign="vagt"/>
+<align out="a234" type="" in="b163 b164" creator="0" insign="davanti alla" outsign="foran"/>
+<align out="a236" type="s" in="b164" creator="0" insign="alla" outsign="pyramiden"/>
+<align out="a236" type="" in="b165" creator="0" insign="piramide" outsign="pyramiden"/>
+<align out="a235" type="" in="b167" creator="0" insign="Cheope" outsign="Cheops"/>
+<align out="a235" type="s" in="b164 b166" creator="0" insign="alla di" outsign="Cheops"/>
+<align out="a244" type="" in="b169 b170 b171" creator="0" insign="Cronista di viaggio" outsign="Rejseskribenten"/>
+<align out="a245" type="" in="b172" creator="0" insign="dal" outsign="ved"/>
+<align out="a246" type="s" in="b172" creator="0" insign="dal" outsign="Det"/>
+<align out="a247 a248" type="" in="b173 b174" creator="0" insign="Mar Rosso" outsign="Røde Hav"/>
+<align out="a254" type="" in="b176" creator="-100" insign="Sheraton" outsign="Sheraton"/>
+<align out="a256" type="" in="b178" creator="-100" insign="Luxor" outsign="Luxor"/>
+<align out="a232" type="" in="b161" creator="-100" insign="Di" outsign="På"/>
+<align out="a255" type="" in="b177" creator="-100" insign="a" outsign="i"/>
+<align out="a237" type="" in="b168" creator="-100" insign="." outsign="."/>
+<align out="a249" type="" in="b175" creator="-100" insign="." outsign="."/>
+<align out="a257" type="" in="b179" creator="-100" insign="." outsign="."/>
 </DTAGalign>
