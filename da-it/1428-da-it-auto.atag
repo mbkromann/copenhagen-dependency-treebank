@@ -1,4 +1,13 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1428-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/1428-it-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b2" creator="-100" insign="può" outsign="Kan"/>
+<align out="a48" type="" in="b8" creator="-100" insign="Kongens" outsign="Kongens"/>
+<align out="a49" type="" in="b9" creator="-100" insign="Have" outsign="Have"/>
+<align out="a51" type="" in="b11" creator="-100" insign="35" outsign="35"/>
+<align out="a59" type="" in="b18" creator="-100" insign="un" outsign="et"/>
+<align out="a47" type="" in="b5" creator="-100" insign="nel" outsign="i"/>
+<align out="a44" type="" in="b1" creator="-100" insign="si" outsign="man"/>
+<align out="a62" type="" in="b13" creator="-100" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a50" type=" ! " in="b10" creator="-100" insign="con" outsign="i"/>
 </DTAGalign>
