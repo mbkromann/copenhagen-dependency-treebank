@@ -1,10 +1,15 @@
 #!/usr/bin/perl
 
-my $swords = "tmp/da-it.words.da";
-my $twords = "tmp/da-it.words.it";
+# Parameters
+my $dir = "tmp";
+my $slang = "da";
+my $tlang = "it"; 
 
-my $lex = "tmp/da-it/model/lex.0-0.n2f";
-my $invlex = "tmp/da-it/model/lex.0-0.f2n";
+# Paths
+my $swordsfn = "$dir/words.$slang";
+my $twordsfn = "$dir/words.$tlang";
+my $lexfn = "$dir/$slang-$tlang.lex";
+my $invlexfn = "$dir/$tlang-$slang.lex";
 
 # Clean word wrt. punctuation and case
 sub cleanword {
@@ -26,9 +31,10 @@ sub readwords {
 }	
 
 # Open lexicon
-sub readfile {
+sub readlex {
 	my $file = shift;
-	my $n = shift;
+	my $slex = shift;
+	my $tlex = shift;
 	my $hash = {};
 
 	# Read file
@@ -36,11 +42,14 @@ sub readfile {
 	while (my $line = <LEX>) {
 		# Read line
 		chomp($line);
-		my ($sword, $tword, $prob) = split(/\s+/, $line);
+		my ($sword, $tword, $prob) = map {cleanword($_)} split(/\s+/, $line);
 
 		# Store translation
-		$hash->{$sword} = {} if (! exists $hash->{$sword});
-		$hash->{$sword}{$tword} = $prob;
+		if ($slex->{$sword} && $tlex->{$tword}) {
+			$hash->{$sword} = {} if (! exists $hash->{$sword});
+			$hash->{$sword}{$tword} = $prob;
+			print "$sword <=> $tword ($prob)\n";
+		}
 	}
 	close(LEX);
 
@@ -48,9 +57,11 @@ sub readfile {
 	return $hash;
 }
 
-# Read lexica
-my $lexhash = readfile($lex);
-my $invlexhash = readfile($invlex);
+# Main: read files
+my $swords = readwords($swordsfn);
+my $twords = readwords($twordsfn);
+my $lexhash = readlex($lex, $swords, $twords);
+my $invlexhash = readlex($invlex, $twords, $swords);
 
 # Find intersection of the two alignments
 my $hash = {};
