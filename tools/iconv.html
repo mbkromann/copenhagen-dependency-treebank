@@ -1,0 +1,343 @@
+From: <Gemt af Windows Internet Explorer 7>
+Subject: ICONV
+Date: Mon, 25 Jun 2007 08:36:35 -0000
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gnu.org/software/libiconv/documentation/libiconv/iconv.1.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3138
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>ICONV</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"MSHTML 6.00.6000.16481" name=3DGENERATOR>
+<META content=3Dtext/css name=3DContent-Style></HEAD>
+<BODY>
+<H1 align=3Dcenter>ICONV</H1><A=20
+href=3D"http://www.gnu.org/software/libiconv/documentation/libiconv/iconv=
+.1.html#NAME">NAME</A><BR><A=20
+href=3D"http://www.gnu.org/software/libiconv/documentation/libiconv/iconv=
+.1.html#SYNOPSIS">SYNOPSIS</A><BR><A=20
+href=3D"http://www.gnu.org/software/libiconv/documentation/libiconv/iconv=
+.1.html#DESCRIPTION">DESCRIPTION</A><BR><A=20
+href=3D"http://www.gnu.org/software/libiconv/documentation/libiconv/iconv=
+.1.html#EXAMPLES">EXAMPLES</A><BR><A=20
+href=3D"http://www.gnu.org/software/libiconv/documentation/libiconv/iconv=
+.1.html#SEE ALSO">SEE=20
+ALSO</A><BR>
+<HR>
+<!-- Creator     : groff version 1.17.2 --><!-- CreationDate: Mon Jan 23 =
+14:20:53 2006 --><A=20
+name=3DNAME></A>
+<H2>NAME</H2>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">iconv - character set =
+conversion</TD></TR></TBODY></TABLE><A=20
+name=3DSYNOPSIS></A>
+<H2>SYNOPSIS</H2>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><PRE>iconv [<I>OPTION</I>...] [<B>-f</B> =
+<I>encoding</I>] [<B>-t</B> <I>encoding</I>] [<I>inputfile</I> ...]
+iconv <B>-l
+</B></PRE></TD></TR></TBODY></TABLE><A name=3DDESCRIPTION></A>
+<H2>DESCRIPTION</H2>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">The <B>iconv</B> program converts text from one =
+encoding=20
+      to another encoding. More precisely, it converts <B>from</B> the =
+encoding=20
+      given for the <B>-f</B> option <B>to</B> the encoding given for =
+the=20
+      <B>-t</B> option. Either of these encodings defaults to the =
+encoding of=20
+      the current locale. All the <I>inputfile</I>s are read and =
+converted in=20
+      turn; if no <I>inputfile</I> is given, the standard input is used. =
+The=20
+      converted text is printed to standard =
+output.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">The encodings permitted are system dependent. For =
+the=20
+      libiconv implementation, they are listed in the iconv_open(3) =
+manual=20
+    page.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">Options controlling the input and output=20
+  format:</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>-f</B> <I>encoding</I>,=20
+      <B>--from-code=3D</B><I>encoding</I></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">Specifies the encoding of the =
+input.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>-t</B> <I>encoding</I>,=20
+    <B>--to-code=3D</B><I>encoding</I></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">Specifies the encoding of the =
+output.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">Options controlling conversion=20
+problems:</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>-c</B></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">When this option is given, characters that cannot =
+be=20
+      converted are silently discarded, instead of leading to a =
+conversion=20
+    error.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD=20
+width=3D"90%"><B>--unicode-subst=3D</B><I>formatstring</I></TD></TR></TBO=
+DY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">When this option is given, Unicode characters that =
+cannot=20
+      be represented in the target encoding are replaced with a =
+placeholder=20
+      string that is constructed from the given <I>formatstring</I>, =
+applied to=20
+      the Unicode code point. The <I>formatstring</I> must be a format =
+string in=20
+      the same format as for the <I>printf</I> command or the =
+<I>printf()</I>=20
+      function, taking either no argument or exactly one unsigned =
+integer=20
+      argument.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD=20
+width=3D"90%"><B>--byte-subst=3D</B><I>formatstring</I></TD></TR></TBODY>=
+</TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">When this option is given, bytes in the input that =
+are not=20
+      valid in the source encoding are replaced with a placeholder =
+string that=20
+      is constructed from the given <I>formatstring</I>, applied to the =
+byte's=20
+      value. The <I>formatstring</I> must be a format string in the same =
+format=20
+      as for the <I>printf</I> command or the <I>printf()</I> function, =
+taking=20
+      either no argument or exactly one unsigned integer=20
+argument.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD=20
+width=3D"90%"><B>--widechar-subst=3D</B><I>formatstring</I></TD></TR></TB=
+ODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">When this option is given, wide characters in the =
+input=20
+      that are not valid in the source encoding are replaced with a =
+placeholder=20
+      string that is constructed from the given <I>formatstring</I>, =
+applied to=20
+      the byte's value. The <I>formatstring</I> must be a format string =
+in the=20
+      same format as for the <I>printf</I> command or the =
+<I>printf()</I>=20
+      function, taking either no argument or exactly one unsigned =
+integer=20
+      argument.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">Options controlling error =
+output:</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>-s</B>, =
+<B>--silent</B></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">When this option is given, error messages about =
+invalid or=20
+      unconvertible characters are omitted, but the actual converted =
+text is=20
+      unaffected.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">The <B>iconv -l</B> or <B>iconv --list</B> command =
+lists=20
+      the names of the supported encodings, in a system dependent =
+format. For=20
+      the libiconv implementation, the names are printed in upper case,=20
+      separated by whitespace, and alias names of an encoding are listed =
+on the=20
+      same line as the encoding itself.</TD></TR></TBODY></TABLE><A =
+name=3DEXAMPLES></A>
+<H2>EXAMPLES</H2>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>iconv -f ISO-8859-1 -t =
+UTF-8</B></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">converts input from the old West-European encoding =
+
+      ISO-8859-1 to Unicode.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><PRE><B>iconv -f KOI8-R =
+--byte-subst=3D"&lt;0x%x&gt;"
+                --unicode-subst=3D"&lt;U+%04X&gt;"
+</B></PRE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">converts input from the old Russian encoding =
+KOI8-R to the=20
+      locale encoding, substituting an angle bracket notation with =
+hexadecimal=20
+      numbers for invalid bytes and for valid but unconvertible=20
+  characters.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>iconv --list</B></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"21%"></TD>
+    <TD width=3D"79%">lists the supported =
+encodings.</TD></TR></TBODY></TABLE><A=20
+name=3D"SEE ALSO"></A>
+<H2>SEE ALSO</H2>
+<TABLE cellSpacing=3D0 cols=3D2 cellPadding=3D0 rules=3Dnone =
+width=3D"100%" border=3D0=20
+frame=3Dvoid>
+  <TBODY>
+  <TR vAlign=3Dtop align=3Dleft>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%"><B>iconv_open</B>(3), =
+<B>locale</B>(7)</TD></TR></TBODY></TABLE>
+<HR>
+</BODY></HTML>

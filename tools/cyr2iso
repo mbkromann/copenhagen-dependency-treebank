@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+
+binmode(STDIN, ":utf8");
+binmode(STSOUT, ":utf8");
+
+# Read conversion table
+open(FH, "<:utf8", "characters2.txt");
+my $conv = {};
+while (my $line = <FH>) {
+	my $a = substr($line, 0, 1);
+	my $b = substr($line, 2, 1);
+	$conv->{$a} = $b;
+	print " = $b\n";
+}
+close(FH);
+
+# Convert file
+while (my $line = <>) {
+	for (my $i = 0; $i < length($line); ++$i) {
+		my $c = substr($line, $i, 1);
+		print $conv->{$c} ? $conv->{$c} : $c;
+	}
+}

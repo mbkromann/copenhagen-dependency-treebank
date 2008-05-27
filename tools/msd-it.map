@@ -1,0 +1,36 @@
+ABR	XA	abbreviation
+ADJ	AN	adjective
+ADV	RG	adverb
+CON	CS	conjunction
+DET:def	PD	definite article
+DET:indef	PI	indefinite article
+INT	I=	interjection
+NOM	NC	noun
+NPR	NP	name
+NUM	AN	numeral
+PON	XP	punctuation
+PRE	SP	preposition
+PRE:det	SP+P	preposition+article
+PRO	P	pronoun
+PRO:demo	PD	demonstrative pronoun
+PRO:indef	PI	indefinite pronoun
+PRO:inter	PT	interrogative pronoun
+PRO:pers	PP	personal pronoun
+PRO:poss	PO	possessive pronoun
+PRO:refl	PR	reflexive pronoun
+PRO:rela	PT	relative pronoun
+SENT	XP	sentence marker
+SYM	XS	symbol
+VER:cimp	VADA	verb conjunctive imperfect
+VER:cond	VA	verb conditional
+VER:cpre	VADR	verb conjunctive present
+VER:futu	VADR	verb future tense
+VER:geru	VAG	verb gerund
+VER:impe	VAM	verb imperative
+VER:impf	VADA	verb imperfect
+VER:infi	VAF	verb infinitive
+VER:pper	VAP	verb participle perfect
+VER:ppre	VAG	verb participle present
+VER:pres	VADR	verb present
+VER:refl:infi	VAF	verb reflexive infinitive
+VER:remo	VADA	verb simple past

@@ -1,0 +1,55 @@
+#!/bin/bash 
+
+slang=$1
+tlang=$2
+
+# Files
+dir=.
+tools=$dir/tools/
+base=$dir/tmp/$slang-$tlang
+idfile=$base.ids
+sclean=$base.clean.$slang
+tclean=$base.clean.$tlang
+salign=$base.align.$slang
+talign=$base.align.$tlang
+stag=$base.tag.$slang
+ttag=$base.tag.$tlang
+sdiff=$base.diff.$slang
+tdiff=$base.diff.$tlang
+diag=$base.grow-diag-final
+
+# Check arguments, and exit if illegal
+if [ ! \( -f $sclean -a -f $tclean -a -f $diag -a -f $idfile \) ] ; then
+	echo "USAGE: autoalign <source language> <target language>"
+	echo "ERROR: check that the files below exist!"
+	echo "idfile=$idfile (id numbers for giza-aligned tag-files)"
+	echo "sclean=$sclean (Europarl cleaned up source text file)"
+	echo "tclean=$tclean (Europarl cleaned up target text file)"
+	echo "diag=$diag (Giza-produced alignment file)"
+	exit 1
+fi
+
+
+# Align texts (produces files $salign.txt and $salign.ref)
+$tools/aligned2txt.pl $sclean $salign
+echo "producing $salign.txt and $salign.ref"
+$tools/aligned2txt.pl $tclean $talign
+echo "producing $talign.txt and $talign.ref"
+
+# Create concatenated texts for idfile from tag-files
+echo "producing $stag.txt and $stag.ref"
+cat $idfile | sed -e "s/^/$slang\//g" -e "s/\$/-$slang.tag/" | 
+	$tools/tag2txt.pl $stag 
+echo "producing $ttag.txt and $ttag.ref"
+cat $idfile | sed -e "s/^/$tlang\//g" -e "s/\$/-$tlang.tag/" | 
+	$tools/tag2txt.pl $ttag 
+
+# Find differences between tokenizations
+echo "producing $sdiff"
+diff -i $salign.txt $stag.txt | egrep -v '[<>-]' > $sdiff
+echo "producing $tdiff"
+diff -i $talign.txt $ttag.txt | egrep -v '[<>-]' > $tdiff
+
+# Produce 
+perl $tools/diff2align.pl $base $slang $tlang
+

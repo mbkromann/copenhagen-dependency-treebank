@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+ 
+# Corpus file
+my $file = $ARGV[0];
+my $lang = "de";
+
+# Variables
+my $segment;
+my $id = "";
+
+# Open corpus file
+open("CORPUS", "< $file")
+	|| return die("Cannot open file $file for reading");
+
+# Read corpus file
+while (<CORPUS>) {
+	my $input = $_;
+
+	# Comment
+	if ($input =~ /^----+$/) {
+		$input = "";
+	}
+
+	# Segment begin
+	if ($input =~ /^[-=\s]*([0-9]+)[-=\s]*$/) { 
+		print $input;
+		# Save old segment
+		my $newid = $1;
+		if ($id) {
+			my $fname = sprintf("$lang/%04i.txt", $id);
+			open("TXT", "> $fname")
+				|| return die("Cannot open file $fnamefor writing");
+			print TXT "\n";
+			print TXT $segment;
+			close("TXT");
+		}
+
+		# Initialize new segment
+		$id = $newid;
+		$segment = "";
+		$input = "";
+	} 
+	
+	# Read line in sentence
+	if ($id) {
+		$segment .= $input;
+	}
+
+	# Print last file
+	my $fname = sprintf("$lang/%04i.txt", $id);
+	open("TXT", "> $fname")
+		|| return die("Cannot open file $fnamefor writing");
+	print TXT $segment;
+	close("TXT");
+}
+
+# Close corpus file
+close("CORPUS");
+
+

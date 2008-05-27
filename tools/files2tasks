@@ -1,0 +1,46 @@
+#!/usr/bin/perl
+
+# Print help message if no arguments provided
+my @names = ();
+push @names, @ARGV;
+if (! @names) {
+	print "Usage: files2tasks [NAME[+NAME]...]...\n";
+	print "Read file names from standard input, find unassigned tasks, and\n";
+	print "distribute filenames as tasks according to the given pattern.\n\n";
+	print "Example: files2tasks morten lisa morten lisa morten+lisa+iorn\n";
+	exit(1);
+}
+
+# Read file names from standard input
+my $todo = {}; 
+my $i = 0;
+while (my $files = <STDIN>) {
+	chomp($files);
+	foreach my $file (split(/\s+/, $files)) {
+		$file =~ s/-auto./-.*./g;
+		my $grep = `egrep \"$file\" todo/* | egrep -v '[-]auto.'`; 
+		if (! $grep) {
+			my $namelist = $names[$i];
+			foreach my $name (split(/\+/, $namelist)) {
+				# Find task
+				my $task = "$file";
+				$task =~ s/-\.\*\./-$name./g;
+
+				# Store task on todo list
+				$todo->{$name} = [] if (! exists $todo->{$name});
+				push @{$todo->{$name}}, "[ ] " . 
+					join("\n[ ] ", split(/\s+/, $task)) . "\n";
+			}
+		}
+	}
+	++$i;
+	$i = 0 if ($i > $#names);
+}
+
+# Add todo lists to todo files
+foreach my $name (keys(%$todo)) {
+	open(TODO, ">>todo/$name");
+	print TODO "\n" . join("", @{$todo->{$name}});
+	print "=== $name\n" . join("", @{$todo->{$name}});
+	close(TODO);
+}

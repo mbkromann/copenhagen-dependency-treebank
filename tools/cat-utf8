@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+# Path to directory with ULA-OANC files
+my $path = "/home/mtk/research/cdt3/ULA-OANC-1-UTF8";
+
+# Get list of files
+my @files = `cd $path; find . -type f | grep -v spoken`;
+
+binmode(STDOUT, ":utf8");
+
+# Process files
+foreach my $f (@files) {
+	chomp($f);
+	my $fn = "$path/$f";
+
+	if ($fn =~ /travel/) {
+		$fn =~ s/UTF8/UTF16/;
+	}
+	print "\n\n=== $f ===\n\n";
+
+	open(IH, "<:utf8", $fn);
+	# Print input file to stdout in UTF8 encoding
+	while (<IH>) {
+		$_ =~ s/^     */    /g;
+		print $_;
+	}
+	close(IH);
+}
+

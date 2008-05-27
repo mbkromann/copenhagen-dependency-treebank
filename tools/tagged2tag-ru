@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+
+binmode(STDIN, ":utf8");
+binmode(STDOUT, ":latin1");
+
+# Read conversion table
+open(FH, "<:utf8", "/home/mtkromann/research/cdt3/bin/cyrillic2roman.txt");
+my $conv = {};
+while (my $line = <FH>) {
+	my $a = substr($line, 0, 1);
+	my $b = substr($line, 2, 1);
+	$conv->{$a} = $b;
+	#print " = $b\n";
+}
+close(FH);
+
+# Convert file
+my $first = 1;
+while (my $line = <>) {
+	if ($first) {
+		print $line;
+		$first = 0;
+	} else {
+		my ($input, $tag, $lemma) = split(/\t/, $line);
+		print "<W msd=\"$tag\" romanized=\"" . romanize($input) . "\" lemma=\"$lemma\">$input</W>\n";
+	}
+}
+
+sub romanize {
+	my $line = shift;
+	my $trans = "";
+	for (my $i = 0; $i < length($line); ++$i) {
+		my $c = substr($line, $i, 1);
+		$trans .= $conv->{$c} ? $conv->{$c} : $c;
+	}
+	return $trans;
+}
+

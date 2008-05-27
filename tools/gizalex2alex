@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+
+my $swords = "tmp/da-it.words.da";
+my $twords = "tmp/da-it.words.it";
+
+my $lex = "tmp/da-it/model/lex.0-0.n2f";
+my $invlex = "tmp/da-it/model/lex.0-0.f2n";
+
+# Clean word wrt. punctuation and case
+sub cleanword {
+	my $word = shift;
+	$word =~ s/\W//g;
+	return lc($word);
+}
+
+# Read wordlist from file
+sub readwords {
+	my $file = shift;
+	my $hash = {};
+	open(WORDS, "<$file");
+	while (my $line = <WORDS>) {
+		chomp($line);
+		$hash->{cleanword($line)};
+	}
+	return $hash;
+}	
+
+# Open lexicon
+sub readfile {
+	my $file = shift;
+	my $n = shift;
+	my $hash = {};
+
+	# Read file
+	open(LEX, "<$file"); 
+	while (my $line = <LEX>) {
+		# Read line
+		chomp($line);
+		my ($sword, $tword, $prob) = split(/\s+/, $line);
+
+		# Store translation
+		$hash->{$sword} = {} if (! exists $hash->{$sword});
+		$hash->{$sword}{$tword} = $prob;
+	}
+	close(LEX);
+
+	# Return lexicon
+	return $hash;
+}
+
+# Read lexica
+my $lexhash = readfile($lex);
+my $invlexhash = readfile($invlex);
+
+# Find intersection of the two alignments
+my $hash = {};
+foreach my $sword (sort(keys(%$lexhash))) {
+	foreach my $tword (keys(%{$lexhash->{$sword}})) {
+		my $prob = $lexhash->{$sword}{$tword};
+		my $invprob = (exists $invlexhash->{$tword}) ? 
+			($invlexhash->{$tword}{$sword} || 0) : 0;
+
+		if ($prob > 0 && $invprob > 0) {
+			$hash->{$sword} = {} if (! exists $hash->{$sword});
+			$hash->{$sword}{$tword} = $prob * $invprob;
+		}
+	}
+}
+
+# Print lexicon
+foreach my $sword (sort(keys(%$hash))) {
+	my $thash = $hash->{$sword};
+	print "$sword: ";
+	print join(" ", map {$_ . "/" . $thash->{$_}} 
+		sort {$thash->{$b} <=> $thash->{$a}} keys(%$thash));
+	print "\n";
+}
+
