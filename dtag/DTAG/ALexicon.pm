@@ -1274,8 +1274,8 @@ sub match_keys {
 
 	# Sort keys according to number of matches
 	my @sorted = sort {
-		scalar(@{$hash->{$a}}) <=>
-			scalar(@{$hash->{$b}})
+		scalar(@{$hash->{$a} || []}) <=>
+			scalar(@{$hash->{$b} || []})
 	} @$defined;
 
 	# Intersect all lists
