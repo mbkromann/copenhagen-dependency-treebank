@@ -1,9 +1,18 @@
+<W lemma="un" msd="PI" tag="DET:indef" in="" out="">Un</W>
+<W lemma="paio" msd="NC" tag="NOM" in="" out="">paio</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="buono" msd="AN" tag="ADJ" in="" out="">buoni</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="" out="">consigli</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Sinuhe</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">l’Egiziano</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="medico" msd="NC" tag="NOM" in="" out="">medico</W>
+<W lemma="solitario" msd="AN" tag="ADJ" in="" out="">solitario</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="raccontare" msd="VADA" tag="VER:impf" in="" out="">raccontava</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="bere" msd="VAP" tag="VER:pper" in="" out="">bevuta</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="">una</W>
 <W lemma="volta" msd="NC" tag="NOM" in="" out="">volta</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">l’acqua</W>
@@ -184,3 +193,4 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Nobili”</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+
