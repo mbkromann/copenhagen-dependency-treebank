@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1429-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/1429-es.tag" sign="_input"/>
+<alignFile key="b" href="../es/1429-es-auto.tag" sign="_input"/>
 <align out="a43" type="" in="b0" creator="-101" outsign="nye" insign="novedades"/>
 <align out="a44" type="" in="b1" creator="-101" outsign="i" insign="en"/>
 <align out="a45" type="" in="b2" creator="-101" outsign="btcc" insign="btcc"/>

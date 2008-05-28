@@ -1,4 +1,14 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0184-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0184-it-auto.tag" sign="_input"/>
+<align out="a49" type="" in="a49" creator="-101" outsign="i" insign="i"/>
+<align out="" type="" in="" creator="-101" outsign="" insign=""/>
+<align out="a125" type="" in="a125" creator="-101" outsign="der" insign="der"/>
+<align out="a132" type="" in="a132" creator="-101" outsign="at" insign="at"/>
+<align out="a133" type="" in="a133" creator="-101" outsign="også" insign="også"/>
+<align out="a134" type="" in="a134" creator="-101" outsign="en" insign="en"/>
+<align out="a153" type="" in="a153" creator="-101" outsign="i" insign="i"/>
+<align out="a209" type="" in="a209" creator="-101" outsign="sig" insign="sig"/>
+<align out="a229" type="" in="a229" creator="-101" outsign="og" insign="og"/>
+<align out="a237" type="" in="a237" creator="-101" outsign="på" insign="på"/>
 </DTAGalign>

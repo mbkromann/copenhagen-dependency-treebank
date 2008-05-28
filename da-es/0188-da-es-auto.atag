@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0188-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0188-es.tag" sign="_input"/>
+<alignFile key="b" href="../es/0188-es-auto.tag" sign="_input"/>
 <align out="a49" type="" in="b4" creator="-101" outsign="i" insign="en"/>
 <align out="a50" type="" in="b7" creator="-101" outsign="dansk" insign="danés"/>
 <align out="a51" type="" in="b11+b5+b6+b9" creator="-101" outsign="softwareudvikling" insign="computación el desarrollo programas"/>

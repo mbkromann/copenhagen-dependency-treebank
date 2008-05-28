@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0960-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0960-es.tag" sign="_input"/>
+<alignFile key="b" href="../es/0960-es-auto.tag" sign="_input"/>
 <align out="a43+a44" type="" in="b0" creator="-101" outsign="det er" insign="es"/>
 <align out="a45" type="" in="b1+b2+b3" creator="-101" outsign="folkemagten" insign="el poder popular"/>
 <align out="a46" type="" in="b6" creator="-101" outsign="bestående" insign="consta"/>

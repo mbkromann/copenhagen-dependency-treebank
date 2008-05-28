@@ -1,4 +1,10 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0104-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0104-it-auto.tag" sign="_input"/>
+<align out="a52" type="" in="a52" creator="-101" outsign="ikke" insign="ikke"/>
+<align out="a76" type="" in="a76" creator="-101" outsign="og" insign="og"/>
+<align out="a77" type="" in="a77" creator="-101" outsign="i" insign="i"/>
+<align out="a91" type="" in="a91" creator="-101" outsign="som" insign="som"/>
+<align out="a141" type="" in="a141" creator="-101" outsign="vi" insign="vi"/>
+<align out="a161" type="" in="a161" creator="-101" outsign="at" insign="at"/>
 </DTAGalign>

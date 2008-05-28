@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1043-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/1043-es.tag" sign="_input"/>
+<alignFile key="b" href="../es/1043-es-auto.tag" sign="_input"/>
 <align out="a99" type="" in="b61+b62" creator="-101" outsign="alligevel" insign="de todos"/>
 <align out="a100" type="" in="b74" creator="-101" outsign="er" insign="está"/>
 <align out="a101" type="" in="b65+b66" creator="-101" outsign="debatten" insign="el debate"/>

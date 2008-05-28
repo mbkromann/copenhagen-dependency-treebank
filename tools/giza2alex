@@ -1,0 +1,123 @@
+#!/usr/bin/perl
+
+# Parameters
+my $dir = "tmp";
+my ($slang, $tlang) = @ARGV;
+die "Error: missing source and target language" 
+	if (! ($slang && $tlang));
+print "source=$slang target=$tlang\n";
+
+# Paths
+my $swordsfn = "$dir/words.$slang";
+my $twordsfn = "$dir/words.$tlang";
+my $lexfn = "$dir/$slang-$tlang.lex";
+my $invlexfn = "$dir/$tlang-$slang.lex";
+my $scountsfn = "$dir/$slang-$tlang.count";
+my $tcountsfn = "$dir/$tlang-$slang.count";
+
+# Check that files exist
+foreach my $file ($swordsfn, $twordsfn, $lexfn, $invlexfn) {
+	if (! -f $file) {
+		die "Error: non-existent file $file";
+	}
+}
+
+# Clean word wrt. punctuation and case
+sub cleanword {
+	my $word = shift;
+	$word =~ s/[!-\/]+$//g;
+	$word =~ s/["'«»]//g;
+	return lc($word);
+}
+
+# Read wordlist from file
+sub readwords {
+	my $file = shift;
+	my $hash = {};
+	open(WORDS, "<$file");
+	while (my $line = <WORDS>) {
+		chomp($line);
+		my ($word, $count) = split(/\s+/, $line);
+		$hash->{cleanword($word)} = $count || 1;
+	}
+	return $hash;
+}	
+
+# Open lexicon
+sub readlex {
+	my $file = shift;
+	my $slex = shift;
+	my $tlex = shift;
+	my $counts = shift;
+	my $hash = {};
+
+	# Read file
+	open(LEX, "<$file"); 
+	while (my $line = <LEX>) {
+		# Read line
+		chomp($line);
+		my ($twordraw, $swordraw, $prob) = split(/\s+/, $line);
+		my ($sword, $tword) = map {cleanword($_)} ($swordraw, $twordraw);
+
+		# Store translation
+		if ($slex->{$sword} && $tlex->{$tword}) {
+			$hash->{$sword} = {} if (! exists $hash->{$sword});
+			$hash->{$sword}{$tword} += $prob;
+		}
+	}
+	close(LEX);
+
+	# Return lexicon
+	return $hash;
+}
+
+# Main: read files
+print "Reading source words\n";
+my $swords = readwords($swordsfn);
+print "Reading target words\n";
+my $twords = readwords($twordsfn);
+
+print "Reading source counts\n";
+my $scounts = readwords($scountsfn);
+print "Reading target counts\n";
+my $tcounts = readwords($tcountsfn);
+
+print "Reading source lexicon\n";
+my $lexhash = readlex($lexfn, $swords, $twords, $tcounts);
+print "Reading target lexicon\n";
+my $invlexhash = readlex($invlexfn, $twords, $swords, $scounts);
+
+# Find intersection of the two alignments
+print "Computing intersected lexicon\n";
+my $hash = {};
+foreach my $sword (sort(keys(%$lexhash))) {
+	foreach my $tword (keys(%{$lexhash->{$sword}})) {
+		my $prob = $lexhash->{$sword}{$tword};
+		my $invprob = (exists $invlexhash->{$tword}) ? 
+			($invlexhash->{$tword}{$sword} || 0) : 0;
+
+		if ($prob > 0 && $invprob > 0) {
+			$hash->{$sword} = {} if (! exists $hash->{$sword});
+			$hash->{$sword}{$tword} = $prob + $invprob;
+		}
+	}
+}
+
+# Print lexicon
+print "Printing ATAG file\n";
+open(ALEX, ">:utf8", "$dir/$slang-$tlang.alex");
+my $beamsize = 0.1;
+foreach my $sword (sort(keys(%$hash))) {
+	if ($sword) {
+		my $thash = $hash->{$sword};
+		my @entries = sort {$thash->{$b} <=> $thash->{$a}} keys(%$thash);
+		my $minprob = $thash->{$entries[0]} * $beamsize;
+		foreach my $entry (grep {$thash->{$_} > $minprob} @entries) {
+			print ALEX "<alex pos=\""
+				. $thash->{$entry} . "\" neg=\"0\" out=\"$sword\" type=\"\" in=\"$entry\"/>\n" 
+				if ($sword && $entry);
+		}
+	}
+}
+	close(ALEX);
+

@@ -1,6 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0866-da.tag" sign="_input"/>
-<alignFile key="b" href="../es/0866-es.tag" sign="_input"/>
+<alignFile key="b" href="../es/0866-es-auto.tag" sign="_input"/>
 <align out="a43" type="" in="b0" creator="-101" outsign="steen" insign="steen"/>
 <align out="a44+a45" type="" in="b15+b1+b2" creator="-101" outsign="gade forberedte" insign="campaña gade previno"/>
 <align out="a46" type="" in="b4" creator="-101" outsign="de" insign="los"/>
