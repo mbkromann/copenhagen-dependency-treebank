@@ -1069,8 +1069,7 @@ sub post_process_dlabels {
 sub cmd_autoalign {
 	my $self = shift;
 	my $graph = shift;
-	my $files = shift;
-	my $default = shift;
+	my $files = shift || "";
 	
 	# Check that $graph is an Alignment
 	if (! UNIVERSAL::isa($graph, 'DTAG::Alignment')) {
@@ -1089,7 +1088,7 @@ sub cmd_autoalign {
 	# exists, then drop given files
 	if ($files =~ /^\s*-default\s+/ 
 			&& ($graph->alexicon() || $self->var('alexicon'))) {
-		notify("Reusing existing alignment lexicon\n");
+		inform("Reusing existing alignment lexicon\n");
 		$files = "";
 	}
 
