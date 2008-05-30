@@ -1,14 +1,44 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1043-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/1043-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" outsign="som" insign="como"/>
+<align out="a44" type="" in="b1" creator="-101" outsign="den" insign="el"/>
+<align out="a51" type="" in="b22" creator="-101" outsign="har" insign="con"/>
+<align out="a53" type="" in="b12+b9" creator="-101" outsign="poul" insign="poul el"/>
+<align out="a55" type="" in="b14" creator="-101" outsign="iv" insign="iv"/>
+<align out="a58" type="" in="b17" creator="-101" outsign="et" insign="un"/>
+<align out="a62" type="" in="b24" creator="-101" outsign="som" insign="que"/>
+<align out="a63" type="" in="b25+b26" creator="-101" outsign="fortsætter" insign="se continúa"/>
+<align out="a64" type="" in="b27" creator="-101" outsign="den" insign="la"/>
+<align out="a65" type="" in="b30" creator="-101" outsign="moderate" insign="moderada"/>
+<align out="a66" type="" in="b29" creator="-101" outsign="økonomiske" insign="económica"/>
+<align out="a67" type="" in="b28" creator="-101" outsign="politik" insign="política"/>
+<align out="a68" type="" in="b31" creator="-101" outsign="fra" insign="de"/>
+<align out="a69" type="" in="b32" creator="-101" outsign="de" insign="los"/>
+<align out="a70" type="" in="b33" creator="-101" outsign="senere" insign="últimos"/>
+<align out="a71" type="" in="b34" creator="-101" outsign="år" insign="años"/>
+<align out="a73" type="" in="b36" creator="-101" outsign="men" insign="pero"/>
+<align out="a74" type="" in="b37" creator="-101" outsign="uden" insign="sin"/>
+<align out="a75" type="" in="b41" creator="-101" outsign="provokerende" insign="provocativas"/>
+<align out="a76" type="" in="b42" creator="-101" outsign="eller" insign="o"/>
+<align out="a77" type="" in="b43" creator="-101" outsign="ideologiske" insign="ideológicas"/>
+<align out="a78" type="" in="b38+b40" creator="-101" outsign="spareforslag" insign="propuestas ahorro"/>
+<align out="a80" type="" in="b44" creator="-101" outsign="som" insign="que"/>
+<align out="a81+a82" type="" in="b45" creator="-101" outsign="på forhånd" insign="deantemano"/>
+<align out="a84" type="" in="b47" creator="-101" outsign="støde" insign="empujar"/>
+<align out="a85" type="" in="b49" creator="-101" outsign="de" insign="los"/>
+<align out="a86" type="" in="b50" creator="-101" outsign="afgørende" insign="decisivos"/>
+<align out="a89" type="" in="b54" creator="-101" outsign="over" insign="a"/>
+<align out="a91" type="" in="b55+b56" creator="-101" outsign="armene" insign="los brazos"/>
+<align out="a92" type="" in="b57" creator="-101" outsign="på" insign="del"/>
+<align out="a93" type="" in="b58+b59" creator="-101" outsign="socialdemokratiet" insign="partido socialdemócrata"/>
 <align out="a99" type="" in="b61+b62" creator="-101" outsign="alligevel" insign="de todos"/>
-<align out="a100" type="" in="b74" creator="-101" outsign="er" insign="está"/>
 <align out="a101" type="" in="b65+b66" creator="-101" outsign="debatten" insign="el debate"/>
 <align out="a102" type="" in="b67" creator="-101" outsign="om" insign="sobre"/>
 <align out="a103" type="" in="b68+b72" creator="-101" outsign="danmarks" insign="la dinamarca"/>
 <align out="a104" type="" in="b70" creator="-101" outsign="økonomiske" insign="económica"/>
 <align out="a105" type="" in="b69" creator="-101" outsign="politik" insign="política"/>
-<align out="a106" type="" in="b76" creator="-101" outsign="på_ny" insign="denuevo"/>
+<align out="a106" type="" in="b71+b76" creator="-101" outsign="på_ny" insign="de denuevo"/>
 <align out="a107" type="" in="b77" creator="-101" outsign="ved" insign="a"/>
 <align out="a108+a109" type="" in="b78" creator="-101" outsign="at blive" insign="ser"/>
 <align out="a110" type="" in="b79" creator="-101" outsign="et" insign="una"/>
@@ -16,15 +46,15 @@
 <align out="a112" type="" in="b81" creator="-101" outsign="om" insign="de"/>
 <align out="a113" type="" in="b82" creator="-101" outsign="ideologi" insign="ideología"/>
 <align out="a114" type="" in="b83" creator="-101" outsign="eller" insign="o"/>
-<align out="a117" type="" in="b71+b84" creator="-101" outsign="om" insign="de de"/>
+<align out="a117" type="" in="b84" creator="-101" outsign="om" insign="de"/>
 <align out="a123" type="" in="b87" creator="-101" outsign="for" insign="porque"/>
+<align out="a124+a136" type="" in="b99" creator="-101" outsign="med med" insign="con"/>
+<align out="a126" type="" in="b100" creator="-101" outsign="tilrettelagt" insign="una"/>
+<align out="a127" type="" in="b101" creator="-101" outsign="præcision" insign="precisión"/>
 <align out="a129+a130" type="" in="b88" creator="-101" outsign="socialdemokratiet den" insign="ese"/>
 <align out="a131" type="" in="b89" creator="-101" outsign="samme" insign="mismo"/>
 <align out="a132" type="" in="b90" creator="-101" outsign="dag" insign="día"/>
-<align out="" type="" in="b91" creator="-101" outsign="" insign="–"/>
 <align out="a134" type="" in="b92" creator="-101" outsign="tirsdag" insign="martes"/>
-<align out="" type="" in="" creator="-101" outsign="" insign=""/>
-<align out="a136" type="" in="b99" creator="-101" outsign="med" insign="con"/>
 <align out="a137" type="" in="b104" creator="-101" outsign="deres" insign="su"/>
 <align out="a145" type="" in="b114" creator="-101" outsign="de" insign="las"/>
 <align out="a147" type="" in="b115" creator="-101" outsign="forskelle" insign="diferencias"/>
@@ -38,6 +68,7 @@
 <align out="a169" type="" in="b136" creator="-101" outsign="de" insign="los"/>
 <align out="a170" type="" in="b137" creator="-101" outsign="arbejdsløse" insign="desempleados"/>
 <align out="a171" type="" in="b138" creator="-101" outsign="fortsat" insign="sigan"/>
+<align out="a173" type="" in="b139+b140" creator="-101" outsign="gildet" insign="el pato"/>
 <align out="a177+a178" type="" in="b142" creator="-101" outsign="vi har" insign="tenemos"/>
 <align out="a179" type="" in="b145" creator="-101" outsign="så" insign="tan"/>
 <align out="a180" type="" in="b146" creator="-101" outsign="stort" insign="grande"/>
@@ -59,10 +90,14 @@
 <align out="a217" type="" in="b178" creator="-101" outsign="det" insign="el"/>
 <align out="a218" type="" in="b180" creator="-101" outsign="private" insign="privado"/>
 <align out="a219" type="" in="b179" creator="-101" outsign="forbrug" insign="consumo"/>
-<align out="a222" type="" in="b182" creator="-101" outsign="i" insign="considerablemente"/>
 <align out="a227" type="" in="b184" creator="-101" outsign="så" insign="entonces"/>
 <align out="a229" type="" in="b185+b186+b187" creator="-101" outsign="ledigheden" insign="descendería el paro"/>
 <align out="a230" type="" in="b188" creator="-101" outsign="og" insign="y"/>
-<align out="" type="" in="b199" creator="-101" outsign="" insign="“el"/>
+<align out="a241" type="" in="b200" creator="-101" outsign="gode" insign="buen"/>
+<align out="b4" type="" in="b4" creator="-101" outsign="de" insign="de"/>
+<align out="b6" type="" in="b6" creator="-101" outsign="que" insign="que"/>
+<align out="b11" type="" in="b11" creator="-101" outsign="de" insign="de"/>
+<align out="b39" type="" in="b39" creator="-101" outsign="de" insign="de"/>
+<align out="b48" type="" in="b48" creator="-101" outsign="a" insign="a"/>
 <align out="b150" type="" in="b150" creator="-101" outsign="de" insign="de"/>
 </DTAGalign>

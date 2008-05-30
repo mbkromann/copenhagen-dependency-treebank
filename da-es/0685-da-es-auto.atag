@@ -11,16 +11,16 @@
 <align out="a52" type="" in="b11" creator="-101" outsign="sidste" insign="el"/>
 <align out="a53" type="" in="b12+b13" creator="-101" outsign="år" insign="año pasado"/>
 <align out="a54" type="" in="b14" creator="-101" outsign="i" insign="en"/>
-<align out="a55" type="" in="b15+b20" creator="-101" outsign="odense" insign="el odense"/>
-<align out="a56" type="" in="b16+b18" creator="-101" outsign="politikreds" insign="distrito policía"/>
+<align out="a55" type="" in="b15+b16" creator="-101" outsign="odense" insign="el distrito"/>
+<align out="a56" type="" in="b18+b20" creator="-101" outsign="politikreds" insign="policía odense"/>
 <align out="a57" type="" in="b21" creator="-101" outsign="som" insign="como"/>
 <align out="a58+a59" type="" in="b22+b23" creator="-101" outsign="følge af" insign="consecuencia de"/>
 <align out="a60" type="" in="b24+b26" creator="-101" outsign="narkotikamisbrug" insign="consumo drogas"/>
 <align out="a64+a65" type="" in="b28" creator="-101" outsign="det er" insign="es"/>
 <align out="a66" type="" in="b29" creator="-101" outsign="næsten" insign="casi"/>
 <align out="a67" type="" in="b31" creator="-101" outsign="dobbelt" insign="doble"/>
-<align out="a70" type="" in="b36" creator="-101" outsign="som" insign="según"/>
-<align out="a74" type="" in="b37+b38" creator="-101" outsign="fremgår" insign="se desprende"/>
+<align out="a71" type="" in="b30+b33" creator="-101" outsign="året" insign="el año"/>
+<align out="a74" type="" in="b37" creator="-101" outsign="fremgår" insign="se"/>
 <align out="a75" type="" in="b43" creator="-101" outsign="det" insign="la"/>
 <align out="a76" type="" in="b45" creator="-101" outsign="af" insign="de"/>
 <align out="a80" type="" in="b47" creator="-101" outsign="for" insign="para"/>
@@ -41,7 +41,9 @@
 <align out="a106" type="" in="b75" creator="-101" outsign="sammenhæng" insign="conexión"/>
 <align out="a107" type="" in="a107" creator="-101" outsign="er" insign="er"/>
 <align out="a108" type="" in="b76" creator="-101" outsign="mellem" insign="entre"/>
+<align out="a109" type="" in="b78" creator="-101" outsign="dødsfaldene" insign="muertos"/>
 <align out="a110" type="" in="b79" creator="-101" outsign="og" insign="y"/>
+<align out="a111" type="" in="b81" creator="-101" outsign="det" insign="hecho"/>
 <align out="a113" type="" in="b83" creator="-101" outsign="at" insign="que"/>
 <align out="a114" type="" in="b84" creator="-101" outsign="alle" insign="todas"/>
 <align out="a115" type="" in="b85+b86" creator="-101" outsign="ofrene" insign="las víctimas"/>
@@ -49,8 +51,9 @@
 <align out="a118" type="" in="b88" creator="-101" outsign="været" insign="sido"/>
 <align out="a119" type="" in="b89" creator="-101" outsign="misbrugere" insign="consumidores"/>
 <align out="a120" type="" in="b90" creator="-101" outsign="af" insign="de"/>
+<align out="a122" type="" in="b91" creator="-101" outsign="stoffer" insign="drogas"/>
 <align out="a124" type="" in="b96" creator="-101" outsign="skriver" insign="escribe"/>
-<align out="a125" type="" in="b91+b97" creator="-101" outsign="fyens" insign="drogas fyens"/>
+<align out="a125" type="" in="b97" creator="-101" outsign="fyens" insign="fyens"/>
 <align out="a131" type="" in="b104" creator="-101" outsign="to" insign="dos"/>
 <align out="a132" type="" in="b103" creator="-101" outsign="fynske" insign="cierran"/>
 <align out="a133" type="" in="b105" creator="-101" outsign="skoler" insign="escuelas"/>
@@ -71,20 +74,14 @@
 <align out="a154" type="" in="b132" creator="-101" outsign="besluttet" insign="decidido"/>
 <align out="a155+a156" type="" in="b133" creator="-101" outsign="at nedlægge" insign="cerrar"/>
 <align out="a157" type="" in="b134+b135" creator="-101" outsign="skolerne" insign="las escuelas"/>
-<align out="a158" type="" in="b136" creator="-101" outsign="i" insign="de"/>
+<align out="a158" type="" in="b136+b142" creator="-101" outsign="i" insign="de de"/>
 <align out="a159" type="" in="b137" creator="-101" outsign="orte" insign="orte"/>
 <align out="a160" type="" in="b138" creator="-101" outsign="og" insign="y"/>
 <align out="a162" type="" in="a162" creator="-101" outsign="og" insign="og"/>
-<align out="a165" type="" in="b145+b146" creator="-101" outsign="ca." insign="alrededor de"/>
-<align out="a166" type="" in="b147" creator="-101" outsign="800.000" insign="800.000"/>
-<align out="a167" type="" in="b148+b149" creator="-101" outsign="kr.awb" insign="coronas. awb"/>
 <align out="a172" type="" in="b150" creator="-101" outsign="flere" insign="más"/>
 <align out="a173" type="" in="b151" creator="-101" outsign="sygehuse" insign="hospitales"/>
 <align out="a174" type="" in="b152" creator="-101" outsign="til" insign="a"/>
 <align out="a175" type="" in="b153+b154+b155" creator="-101" outsign="Østeuropa" insign="europa del este"/>
-<align out="a181" type="" in="b163" creator="-101" outsign="har" insign="han"/>
-<align out="a182+a183+a184" type="" in="b165" creator="-101" outsign="den seneste tid" insign="últimamente"/>
-<align out="a185+a186" type="" in="b162" creator="-101" outsign="fundet vej" insign="exhaustos"/>
 <align out="a187" type="" in="b166" creator="-101" outsign="fra" insign="desde"/>
 <align out="a188" type="" in="b167" creator="-101" outsign="danmark" insign="dinamarca"/>
 <align out="a189" type="" in="b168" creator="-101" outsign="til" insign="hacia"/>
@@ -103,16 +100,14 @@
 <align out="a208" type="" in="b188" creator="-101" outsign="et" insign="un"/>
 <align out="a209" type="" in="b189" creator="-101" outsign="beredskabssygehus" insign="hospital"/>
 <align out="a210" type="" in="b190" creator="-101" outsign="fra" insign="de"/>
-<align out="a211" type="" in="b191+b193" creator="-101" outsign="brædstrup" insign="emergencia brædstrup"/>
 <align out="a212" type="" in="b194" creator="-101" outsign="til" insign="a"/>
 <align out="a213" type="" in="b195" creator="-101" outsign="zagreb" insign="zagreb"/>
 <align out="a214" type="" in="b196" creator="-101" outsign="i" insign="en"/>
-<align out="a218" type="" in="b204" creator="-101" outsign="et" insign="give"/>
+<align out="a215+a217" type="" in="b197+b199" creator="-101" outsign="kroatien mens" insign="croacia mientrasque"/>
 <align out="a225" type="" in="b207" creator="-101" outsign="polen" insign="polonia."/>
 <align out="b17" type="" in="b17" creator="-101" outsign="de" insign="de"/>
 <align out="b19" type="" in="b19" creator="-101" outsign="de" insign="de"/>
 <align out="b25" type="" in="b25" creator="-101" outsign="de" insign="de"/>
-<align out="b42" type="" in="b42" creator="-101" outsign="de" insign="de"/>
 <align out="b59" type="" in="b59" creator="-101" outsign="la" insign="la"/>
 <align out="b65" type="" in="b65" creator="-101" outsign="de" insign="de"/>
 <align out="b77" type="" in="b77" creator="-101" outsign="los" insign="los"/>
@@ -121,7 +116,6 @@
 <align out="b113" type="" in="b113" creator="-101" outsign="la" insign="la"/>
 <align out="b115" type="" in="b115" creator="-101" outsign="de" insign="de"/>
 <align out="b125" type="" in="b125" creator="-101" outsign="de" insign="de"/>
-<align out="b142" type="" in="b142" creator="-101" outsign="de" insign="de"/>
 <align out="b160" type="" in="b160" creator="-101" outsign="de" insign="de"/>
 <align out="b183" type="" in="b183" creator="-101" outsign="de" insign="de"/>
 <align out="b192" type="" in="b192" creator="-101" outsign="de" insign="de"/>

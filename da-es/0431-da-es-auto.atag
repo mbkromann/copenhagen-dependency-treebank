@@ -5,6 +5,8 @@
 <align out="a50" type="" in="b6" creator="-101" outsign="en" insign="un"/>
 <align out="a51" type="" in="b7" creator="-101" outsign="konkurrence" insign="concurso"/>
 <align out="a52" type="" in="b8" creator="-101" outsign="på" insign="en"/>
+<align out="a53" type="" in="b10+b12+b13+b14" creator="-101" outsign="vejlemessen" insign="feria vejle acerca del"/>
+<align out="a54" type="" in="b11" creator="-101" outsign="om" insign="de"/>
 <align out="a55" type="" in="b15" creator="-101" outsign="navnet" insign="nombre"/>
 <align out="a56" type="" in="b16" creator="-101" outsign="på" insign="de"/>
 <align out="a57+a58" type="" in="b17+b18" creator="-101" outsign="et smykke" insign="una alhaja"/>
@@ -13,24 +15,28 @@
 <align out="a65" type="" in="b23" creator="-101" outsign="personality" insign="“personality”"/>
 <align out="a68" type="" in="b25" creator="-101" outsign="og" insign="y"/>
 <align out="a73" type="" in="b30" creator="-101" outsign="harald" insign="harald"/>
+<align out="a85+a86" type="" in="b35+b36+b39" creator="-101" outsign="de beers" insign="de beers sus"/>
+<align out="a87+a92" type="" in="b37+b40" creator="-101" outsign="centenary kontor" insign="centenary oficinas"/>
+<align out="a89" type="" in="b38" creator="-101" outsign="åbnede" insign="abrió"/>
 <align out="a90" type="" in="b41" creator="-101" outsign="den" insign="el"/>
 <align out="a91" type="" in="b42+b44" creator="-101" outsign="8.september" insign="8 setiembre"/>
 <align out="a93" type="" in="b45" creator="-101" outsign="i" insign="en"/>
-<align out="a94+a98" type="" in="b46+b48+b49" creator="-101" outsign="moskva til_stede" insign="moscú estaban presentes"/>
-<align out="a99" type="" in="b54" creator="-101" outsign="var" insign="directivos"/>
+<align out="a100+a101" type="" in="b51+b57" creator="-101" outsign="foruden de_beers-topfolk" insign="además beers"/>
+<align out="a102" type="" in="b60" creator="-101" outsign="russiske" insign="rusos"/>
+<align out="a103" type="" in="b59" creator="-101" outsign="politikere" insign="políticos"/>
 <align out="a105" type="" in="b62" creator="-101" outsign="diplomater" insign="diplomáticos"/>
 <align out="a106" type="" in="b63" creator="-101" outsign="og" insign="y"/>
 <align out="a107" type="" in="b64" creator="-101" outsign="repræsentanter" insign="representantes"/>
-<align out="a108" type="" in="b65" creator="-101" outsign="for" insign="de"/>
-<align out="a109" type="" in="b66" creator="-101" outsign="landets" insign="la"/>
+<align out="a108" type="" in="b52+b65" creator="-101" outsign="for" insign="de de"/>
+<align out="a109" type="" in="b53+b66+b72" creator="-101" outsign="landets" insign="los la del"/>
 <align out="a111" type="" in="b68" creator="-101" outsign="og" insign="y"/>
 <align out="a122" type="" in="b78" creator="-101" outsign="ib" insign="ib"/>
 <align out="a123" type="" in="b75+b76+b79" creator="-101" outsign="gaarn" insign="hace poco gaarn"/>
 <align out="a126" type="" in="b81" creator="-101" outsign="guldsmed" insign="orfebre"/>
 <align out="a127" type="" in="b82" creator="-101" outsign="i" insign="de"/>
-<align out="a128+a131" type="" in="b83" creator="-101" outsign="køge nylig" insign="køge"/>
+<align out="a128+a131+a132" type="" in="b83+b86" creator="-101" outsign="køge nylig restaureret" insign="køge restaurado"/>
 <align out="a130" type="" in="b85" creator="-101" outsign="har" insign="ha"/>
-<align out="a132+a133" type="" in="b86+b87+b88" creator="-101" outsign="restaureret sølvtøjet" insign="restaurado la platería"/>
+<align out="a133" type="" in="b87+b88" creator="-101" outsign="sølvtøjet" insign="la platería"/>
 <align out="a134" type="" in="b89" creator="-101" outsign="og" insign="y"/>
 <align out="a135" type="" in="b90" creator="-101" outsign="en" insign="una"/>
 <align out="a136" type="" in="b91" creator="-101" outsign="lysekrone" insign="araña"/>
@@ -38,7 +44,7 @@
 <align out="a138" type="" in="b93+b96" creator="-101" outsign="lellinge" insign="la lellinge"/>
 <align out="a139" type="" in="b94" creator="-101" outsign="kirke" insign="iglesia"/>
 <align out="a143" type="" in="b98" creator="-101" outsign="her" insign="aquí"/>
-<align out="a144" type="" in="b99" creator="-101" outsign="står" insign="se"/>
+<align out="a146" type="" in="b105" creator="-101" outsign="med" insign="de"/>
 <align out="a148" type="" in="b106" creator="-101" outsign="300" insign="300"/>
 <align out="a149+a157" type="" in="b107+b110" creator="-101" outsign="år foto" insign="años foto"/>
 <align out="a159" type="" in="b112" creator="-101" outsign="stig" insign="stig"/>
@@ -58,20 +64,22 @@
 <align out="a191" type="" in="b141" creator="-101" outsign="i" insign="en"/>
 <align out="a192" type="" in="b142" creator="-101" outsign="sølv" insign="plata"/>
 <align out="a201" type="" in="b144+b145" creator="-101" outsign="jubilæums-frimærke" insign="sello conmemorativo"/>
-<align out="a207" type="" in="b147" creator="-101" outsign="i" insign="pforzheim"/>
 <align out="a208" type="" in="b156" creator="-101" outsign="225" insign="225"/>
 <align out="a209" type="" in="b157" creator="-101" outsign="år" insign="años"/>
 <align out="a210" type="" in="b148" creator="-101" outsign="har" insign="ha"/>
 <align out="a214" type="" in="b153" creator="-101" outsign="og" insign="y"/>
-<align out="a215+a216+a217" type="" in="b154+b155" creator="-101" outsign="ur-industri i pforzheim" insign="relojera durante"/>
 <align out="a221" type="" in="b159+b160" creator="-101" outsign="jubilæet" insign="el aniversario"/>
 <align out="a222" type="" in="b161" creator="-101" outsign="blev" insign="fue"/>
-<align out="a223" type="" in="b162+b164" creator="-101" outsign="fejret" insign="celebrado el"/>
+<align out="a223" type="" in="b162" creator="-101" outsign="fejret" insign="celebrado"/>
+<align out="a225" type="" in="b166" creator="-101" outsign="af" insign="de"/>
+<align out="a226" type="" in="b165" creator="-101" outsign="postvæsenet" insign="servicio"/>
 <align out="a227" type="" in="b172" creator="-101" outsign="med" insign="con"/>
 <align out="a228" type="" in="b173" creator="-101" outsign="udgivelsen" insign="la"/>
 <align out="a229" type="" in="b175" creator="-101" outsign="af" insign="de"/>
 <align out="a230" type="" in="b176" creator="-101" outsign="et" insign="un"/>
 <align out="a235" type="" in="b183" creator="-101" outsign="så" insign="hasta"/>
+<align out="a236+a238+a254" type="" in="b208" creator="-101" outsign="længe rækker pforzheim" insign="pforzheim"/>
+<align out="a237" type="" in="b184+b185+b186" creator="-101" outsign="oplaget" insign="que se agoten"/>
 <align out="a239" type="" in="b190" creator="-101" outsign="kan" insign="pueden"/>
 <align out="a240" type="" in="b188+b189" creator="-101" outsign="interesserede" insign="los interesados"/>
 <align out="a241" type="" in="b191" creator="-101" outsign="få" insign="obtener"/>
@@ -85,31 +93,33 @@
 <align out="a253" type="" in="b207" creator="-101" outsign="w-7530" insign="w-7530"/>
 <align out="a262" type="" in="b210" creator="-101" outsign="nye" insign="nuevos"/>
 <align out="a263" type="" in="b211+b212" creator="-101" outsign="svende" insign="oficiales herreros"/>
-<align out="a270" type="" in="b213" creator="-101" outsign="blev" insign="fueron"/>
 <align out="a272" type="" in="b220" creator="-101" outsign="i" insign="en"/>
 <align out="a273" type="" in="b221" creator="-101" outsign="august" insign="agosto"/>
 <align out="a277" type="" in="b223" creator="-101" outsign="begge" insign="ambos"/>
 <align out="a278" type="" in="b224" creator="-101" outsign="lærlinge" insign="aprendices"/>
-<align out="a279" type="" in="b229" creator="-101" outsign="er" insign="platería"/>
-<align out="a280+a283" type="" in="b235" creator="-101" outsign="udlært copenhagen" insign="copenhagen"/>
-<align out="a281" type="" in="b233" creator="-101" outsign="hos" insign="en"/>
-<align out="a282" type="" in="b234" creator="-101" outsign="royal" insign="royal"/>
-<align out="a284" type="" in="b228+b236" creator="-101" outsign="a/s" insign="la a/s"/>
+<align out="a279+a283" type="" in="b229" creator="-101" outsign="er copenhagen" insign="platería"/>
+<align out="a280" type="" in="b225+b226" creator="-101" outsign="udlært" insign="fueron instruidos"/>
+<align out="a281" type="" in="b227" creator="-101" outsign="hos" insign="en"/>
+<align out="a282" type="" in="b228" creator="-101" outsign="royal" insign="la"/>
+<align out="a284+a291+a292" type="" in="b236" creator="-101" outsign="a/s til lykke" insign="a/s"/>
 <align out="a285" type="" in="b231" creator="-101" outsign="georg" insign="georg"/>
 <align out="a286" type="" in="b232" creator="-101" outsign="jensen" insign="jensen"/>
-<align out="a291+a292+a303" type="" in="b251" creator="-101" outsign="til lykke rasmussen" insign="rasmussen"/>
-<align out="a293" type="" in="b230+b239" creator="-101" outsign="til" insign="de a"/>
+<align out="a287" type="" in="b233+b234+b235" creator="-101" outsign="sølvsmedie" insign="en royal copenhagen"/>
+<align out="a293" type="" in="b239" creator="-101" outsign="til" insign="a"/>
 <align out="a294" type="" in="b241" creator="-101" outsign="guldsmed" insign="orfebre"/>
+<align out="a295" type="" in="b242" creator="-101" outsign="lykke" insign="lykke"/>
+<align out="a296" type="" in="b243" creator="-101" outsign="elkjÆr" insign="elkjÆr"/>
+<align out="a297" type="" in="b238+b244" creator="-101" outsign="olsen" insign="felicitaciones olsen"/>
 <align out="a298" type="" in="b245" creator="-101" outsign="og" insign="y"/>
 <align out="a299" type="" in="b246" creator="-101" outsign="til" insign="a"/>
+<align out="a303" type="" in="b251" creator="-101" outsign="rasmussen" insign="rasmussen"/>
 <align out="b9" type="" in="b9" creator="-101" outsign="la" insign="la"/>
-<align out="b11" type="" in="b11" creator="-101" outsign="de" insign="de"/>
 <align out="b43" type="" in="b43" creator="-101" outsign="de" insign="de"/>
-<align out="b52" type="" in="b52" creator="-101" outsign="de" insign="de"/>
-<align out="b55" type="" in="b55" creator="-101" outsign="de" insign="de"/>
 <align out="b95" type="" in="b95" creator="-101" outsign="de" insign="de"/>
 <align out="b124" type="" in="b124" creator="-101" outsign="la" insign="la"/>
+<align out="b164" type="" in="b164" creator="-101" outsign="el" insign="el"/>
 <align out="b179" type="" in="b179" creator="-101" outsign="de" insign="de"/>
 <align out="b217" type="" in="b217" creator="-101" outsign="de" insign="de"/>
+<align out="b230" type="" in="b230" creator="-101" outsign="de" insign="de"/>
 <align out="b240" type="" in="b240" creator="-101" outsign="la" insign="la"/>
 </DTAGalign>

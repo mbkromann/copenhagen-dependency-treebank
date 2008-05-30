@@ -1,9 +1,7 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1383-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/1383-es-auto.tag" sign="_input"/>
-<align out="a44" type="" in="b4" creator="-101" outsign="de" insign="las"/>
 <align out="a45" type="" in="b1+b2" creator="-101" outsign="fleste" insign="la mayorÃ­a"/>
-<align out="a47+a48" type="" in="b12+b8" creator="-101" outsign="er aktivitetskontrollen" insign="es el"/>
 <align out="a49" type="" in="b13" creator="-101" outsign="let" insign="fÃ¡cil"/>
 <align out="a50" type="" in="b14" creator="-101" outsign="at" insign="de"/>
 <align out="a51" type="" in="b15" creator="-101" outsign="foretage" insign="realizar"/>
@@ -25,9 +23,9 @@
 <align out="a75" type="" in="b44" creator="-101" outsign="ikke" insign="no"/>
 <align out="a77" type="" in="b46" creator="-101" outsign="er" insign="es"/>
 <align out="a78+a79" type="" in="b47" creator="-101" outsign="man inaktiv" insign="inactivo"/>
+<align out="a86+a88+a89" type="" in="b51" creator="-101" outsign="der er mødepligt" insign="hay"/>
 <align out="a87" type="" in="b50" creator="-101" outsign="ikke" insign="no"/>
 <align out="a91" type="" in="a91" creator="-101" outsign="vil" insign="vil"/>
-<align out="a92" type="" in="b56" creator="-101" outsign="der" insign="hay"/>
 <align out="a96" type="" in="b57" creator="-101" outsign="opgaver" insign="tareas"/>
 <align out="a97" type="" in="a97" creator="-101" outsign="og" insign="og"/>
 <align out="a100" type="" in="b58" creator="-101" outsign="der" insign="que"/>
@@ -54,7 +52,7 @@
 <align out="a137" type="" in="b108+b109" creator="-101" outsign="alvorligt" insign="en serio"/>
 <align out="a141" type="" in="b113" creator="-101" outsign="en" insign="es"/>
 <align out="a142" type="" in="b117" creator="-101" outsign="mulighed" insign="posibilidades"/>
-<align out="a143" type="" in="b118" creator="-101" outsign="for" insign="de"/>
+<align out="a143+a146" type="" in="b118" creator="-101" outsign="for i" insign="de"/>
 <align out="a144" type="" in="b114+b116+b119+b120" creator="-101" outsign="snyd" insign="natural haya hacer trampas"/>
 <align out="a145" type="" in="b115" creator="-101" outsign="kan" insign="que"/>
 <align out="a150" type="" in="b121" creator="-101" outsign="i" insign="en"/>
@@ -72,7 +70,8 @@
 <align out="a169" type="" in="b141" creator="-101" outsign="første" insign="primer"/>
 <align out="a172" type="" in="b147" creator="-101" outsign="6" insign="6"/>
 <align out="a173" type="" in="b148" creator="-101" outsign="måneder" insign="meses"/>
-<align out="a175+a176" type="" in="b156+b158+b159" creator="-101" outsign="uddannelsens start" insign="inicio la educaciÃ³n"/>
+<align out="a174" type="" in="b157" creator="-101" outsign="efter" insign="de"/>
+<align out="a175" type="" in="b158" creator="-101" outsign="uddannelsens" insign="la"/>
 <align out="a187" type="" in="b165" creator="-101" outsign="at" insign="que"/>
 <align out="a188" type="" in="b166+b167+b169" creator="-101" outsign="su-reglerne" insign="las reglas su"/>
 <align out="a189" type="" in="b170" creator="-101" outsign="er" insign="son"/>
@@ -83,6 +82,8 @@
 <align out="a195" type="" in="b175" creator="-101" outsign="kan" insign="puede"/>
 <align out="a196" type="" in="b176" creator="-101" outsign="få" insign="recibir"/>
 <align out="a197" type="" in="b177" creator="-101" outsign="fra" insign="de"/>
+<align out="a202" type="" in="b181" creator="-101" outsign="kr." insign="coronas"/>
+<align out="a203" type="" in="b182" creator="-101" outsign="om" insign="al"/>
 <align out="a204" type="" in="b183" creator="-101" outsign="året" insign="aÃ±o"/>
 <align out="a205" type="" in="b184" creator="-101" outsign="uden" insign="sin"/>
 <align out="a206" type="" in="a206" creator="-101" outsign="at" insign="at"/>
@@ -101,10 +102,9 @@
 <align out="a225" type="" in="b204" creator="-101" outsign="hvis" insign="si"/>
 <align out="a226" type="" in="b205" creator="-101" outsign="en" insign="una"/>
 <align out="a227" type="" in="b206" creator="-101" outsign="person" insign="persona"/>
-<align out="a228" type="" in="b207+b210" creator="-101" outsign="tjener" insign="gana al"/>
+<align out="a228" type="" in="b207" creator="-101" outsign="tjener" insign="gana"/>
 <align out="a229" type="" in="b208" creator="-101" outsign="300.000" insign="300.000"/>
 <align out="a232" type="" in="b215" creator="-101" outsign="kan" insign="puede"/>
-<align out="a235" type="" in="b218" creator="-101" outsign="uddannelsesstøtte" insign="subsidio"/>
 <align out="a236" type="" in="b219+b221" creator="-101" outsign="i" insign="de durante"/>
 <align out="a237" type="" in="b222" creator="-101" outsign="én" insign="un"/>
 <align out="a238" type="" in="b223" creator="-101" outsign="måned" insign="mes"/>
@@ -116,6 +116,6 @@
 <align out="b79" type="" in="b79" creator="-101" outsign="de" insign="de"/>
 <align out="b140" type="" in="b140" creator="-101" outsign="el" insign="el"/>
 <align out="b143" type="" in="b143" creator="-101" outsign="de" insign="de"/>
-<align out="b157" type="" in="b157" creator="-101" outsign="de" insign="de"/>
+<align out="b146" type="" in="b146" creator="-101" outsign="los" insign="los"/>
 <align out="b168" type="" in="b168" creator="-101" outsign="de" insign="de"/>
 </DTAGalign>

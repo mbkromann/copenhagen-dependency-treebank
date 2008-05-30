@@ -1,12 +1,139 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1077-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/1077-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" outsign="men" insign="pero"/>
+<align out="a44" type="" in="b1+b2" creator="-101" outsign="argumentationen" insign="la argumentación"/>
+<align out="a45" type="" in="b3" creator="-101" outsign="er" insign="es"/>
+<align out="a46" type="" in="b4" creator="-101" outsign="helt" insign="bien"/>
+<align out="a47" type="" in="b5" creator="-101" outsign="klar" insign="clara"/>
+<align out="a49" type="" in="b7+b8" creator="-101" outsign="staten" insign="el estado"/>
+<align out="a50" type="" in="b9" creator="-101" outsign="skal" insign="tieneque"/>
+<align out="a51" type="" in="b10" creator="-101" outsign="bevare" insign="conservar"/>
+<align out="a55" type="" in="b31" creator="-101" outsign="skal" insign="para"/>
+<align out="a65" type="" in="b39" creator="-101" outsign="offentlig" insign="público"/>
+<align out="a66" type="" in="b38" creator="-101" outsign="adgang" insign="acceso"/>
+<align out="a69" type="" in="b34+b41" creator="-101" outsign="og" insign="y y"/>
+<align out="a70+a80" type="" in="b42+b44" creator="-101" outsign="det det" insign="eso lo"/>
+<align out="a71" type="" in="b45" creator="-101" outsign="kan" insign="pueden"/>
+<align out="a72" type="" in="b49" creator="-101" outsign="private" insign="privados"/>
+<align out="a73" type="" in="b47+b48" creator="-101" outsign="jægere" insign="los cazadores"/>
+<align out="a74" type="" in="b43" creator="-101" outsign="ikke" insign="no"/>
+<align out="a75" type="" in="b46" creator="-101" outsign="kontrollere" insign="controlar"/>
+<align out="a77" type="" in="b51" creator="-101" outsign="men" insign="pero"/>
+<align out="a78" type="" in="b52" creator="-101" outsign="her" insign="aquí"/>
+<align out="a79" type="" in="b53" creator="-101" outsign="er" insign="está"/>
+<align out="a81+a82" type="" in="b54" creator="-101" outsign="helt klart" insign="claro"/>
+<align out="a83" type="" in="b55" creator="-101" outsign="at" insign="que"/>
+<align out="a84" type="" in="b56" creator="-101" outsign="i" insign="en"/>
+<align out="a85" type="" in="b57" creator="-101" outsign="de" insign="los"/>
+<align out="a86" type="" in="b62" creator="-101" outsign="private" insign="privados"/>
+<align out="a87" type="" in="b60+b61" creator="-101" outsign="skove" insign="los bosques"/>
+<align out="a88" type="" in="b59" creator="-101" outsign="og" insign="y"/>
+<align out="a112+a89+a92" type="" in="b58" creator="-101" outsign="kun arealer jo" insign="terrones"/>
+<align out="a90+a91" type="" in="b63+b64" creator="-101" outsign="er der" insign="no hay"/>
+<align out="a93" type="" in="b65" creator="-101" outsign="ingen" insign="ningún"/>
+<align out="a94" type="" in="b66" creator="-101" outsign="problemer" insign="problema"/>
+<align out="a95" type="" in="a95" creator="-101" outsign="med" insign="med"/>
+<align out="a96" type="" in="a96" creator="-101" outsign="og" insign="og"/>
+<align out="a97" type="" in="b67" creator="-101" outsign="mellem" insign="entre"/>
+<align out="a98" type="" in="b69" creator="-101" outsign="offentlig" insign="público"/>
+<align out="a99" type="" in="b68" creator="-101" outsign="adgang" insign="acceso"/>
+<align out="a100" type="" in="b70" creator="-101" outsign="og" insign="y"/>
+<align out="a101" type="" in="b72" creator="-101" outsign="private" insign="privados"/>
+<align out="a102" type="" in="b71" creator="-101" outsign="jægere" insign="cazadores"/>
+<align out="a104" type="" in="b74" creator="-101" outsign="og" insign="y"/>
+<align out="a108" type="" in="b75+b76" creator="-101" outsign="alle" insign="todas las"/>
+<align out="a110" type="" in="b80" creator="-101" outsign="at" insign="que"/>
+<align out="a111+a115" type="" in="b81+b82" creator="-101" outsign="jagten at" insign="la caza"/>
+<align out="a113" type="" in="b83" creator="-101" outsign="forbedres" insign="se"/>
+<align out="a114+a117" type="" in="b86" creator="-101" outsign="af jægere" insign="los"/>
+<align out="a119" type="" in="b91" creator="-101" outsign="jagten" insign="caza"/>
 <align out="a123" type="" in="b93+b94" creator="-101" outsign="mere" insign="cuanto más"/>
 <align out="a124" type="" in="b95" creator="-101" outsign="vildt" insign="caza"/>
 <align out="a126" type="" in="b97" creator="-101" outsign="bedre" insign="mejor"/>
 <align out="a129" type="" in="b105" creator="-101" outsign="bedre" insign="mejor"/>
 <align out="a131" type="" in="b106" creator="-101" outsign="og" insign="y"/>
+<align out="a138" type="" in="b115" creator="-101" outsign="ser" insign="si"/>
+<align out="a139" type="" in="b117" creator="-101" outsign="man" insign="se"/>
+<align out="a140+a141" type="" in="b116+b119" creator="-101" outsign="på f.eks." insign="porejemplo el"/>
+<align out="a142+a145" type="" in="b118+b120+b122" creator="-101" outsign="sydsjælland langt" insign="observa sur sjælland"/>
+<align out="a144" type="" in="b124" creator="-101" outsign="hvor" insign="donde"/>
+<align out="a146" type="" in="b125" creator="-101" outsign="de" insign="la"/>
+<align out="a147" type="" in="b126+b133" creator="-101" outsign="fleste" insign="mayoría la"/>
+<align out="a152" type="" in="b132" creator="-101" outsign="til" insign="para"/>
+<align out="a153" type="" in="b134" creator="-101" outsign="jagt" insign="caza"/>
+<align out="a155+a156" type="" in="b137+b139+b140" creator="-101" outsign="er der" insign="se que hay"/>
+<align out="a157" type="" in="b141" creator="-101" outsign="langt" insign="mucha"/>
+<align out="a158" type="" in="b142" creator="-101" outsign="mere" insign="más"/>
+<align out="a159" type="" in="b143" creator="-101" outsign="vildt" insign="fauna"/>
+<align out="a161" type="" in="b145" creator="-101" outsign="men" insign="pero"/>
+<align out="a162" type="" in="b146" creator="-101" outsign="samtidig" insign="almismotiempo"/>
+<align out="a163" type="" in="b150" creator="-101" outsign="har" insign="tiene"/>
+<align out="a164" type="" in="b147+b148" creator="-101" outsign="jagten" insign="la caza"/>
+<align out="a165" type="" in="b149" creator="-101" outsign="også" insign="también"/>
+<align out="a166" type="" in="b151" creator="-101" outsign="et" insign="una"/>
+<align out="a167" type="" in="b153" creator="-101" outsign="mere" insign="más"/>
+<align out="a168" type="" in="b154" creator="-101" outsign="naturligt" insign="natural"/>
+<align out="a169+a170" type="" in="b152+b155+b156" creator="-101" outsign="forhold til" insign="relación con la"/>
+<align out="a171+a173" type="" in="b157+b158+b160" creator="-101" outsign="lokalbefolkningen idet" insign="población local yaque"/>
+<align out="a174" type="" in="b162" creator="-101" outsign="folk" insign="gente"/>
+<align out="a175" type="" in="b163" creator="-101" outsign="er" insign="está"/>
+<align out="a176" type="" in="b164" creator="-101" outsign="vant" insign="acostumbrada"/>
+<align out="a177" type="" in="b165" creator="-101" outsign="til" insign="a"/>
+<align out="a178+a179" type="" in="b166" creator="-101" outsign="at se" insign="ver"/>
+<align out="a180" type="" in="b167" creator="-101" outsign="jægere" insign="cazadores"/>
+<align out="a182+a187" type="" in="b169" creator="-101" outsign="der man" insign="se"/>
+<align out="a183" type="" in="b170" creator="-101" outsign="spises" insign="come"/>
+<align out="a184" type="" in="b171" creator="-101" outsign="mere" insign="más"/>
+<align out="a190" type="" in="b177" creator="-101" outsign="større" insign="más"/>
+<align out="a195" type="" in="b185" creator="-101" outsign="i" insign="en"/>
+<align out="a196+a203" type="" in="b187+b189" creator="-101" outsign="nordsjælland diskret" insign="norte sjælland"/>
+<align out="a198" type="" in="b191" creator="-101" outsign="er" insign="es"/>
+<align out="a199" type="" in="b192" creator="-101" outsign="det" insign="la"/>
+<align out="a200" type="" in="b186+b194+b195" creator="-101" outsign="statens" insign="el del estado"/>
+<align out="a201" type="" in="b193" creator="-101" outsign="folk" insign="gente"/>
+<align out="a202" type="" in="b196" creator="-101" outsign="der" insign="que"/>
+<align out="a204" type="" in="b201" creator="-101" outsign="på" insign="en"/>
+<align out="a205" type="" in="b203+b204+b220" creator="-101" outsign="hverdage" insign="días laborales limitado"/>
+<align out="a207" type="" in="b206" creator="-101" outsign="når" insign="cuando"/>
+<align out="a208" type="" in="b208" creator="-101" outsign="andre" insign="demás"/>
+<align out="a209" type="" in="b209" creator="-101" outsign="arbejder" insign="trabajan"/>
+<align out="a211" type="" in="b197" creator="-101" outsign="går" insign="van"/>
+<align out="a212" type="" in="b198" creator="-101" outsign="på" insign="de"/>
+<align out="a213" type="" in="b199+b207+b214" creator="-101" outsign="jagt" insign="caza los caza"/>
+<align out="a215" type="" in="b200+b202+b216" creator="-101" outsign="vildtet" insign="discretamente los vende"/>
+<align out="a216" type="" in="b215" creator="-101" outsign="sælges" insign="se"/>
+<align out="a217" type="" in="b222" creator="-101" outsign="til" insign="a"/>
+<align out="a218" type="" in="b223" creator="-101" outsign="fordel" insign="beneficio"/>
+<align out="a219" type="" in="b224" creator="-101" outsign="for" insign="del"/>
+<align out="a220" type="" in="b225" creator="-101" outsign="statskassen" insign="tesoro"/>
+<align out="a221" type="" in="b217" creator="-101" outsign="til" insign="a"/>
+<align out="a222" type="" in="b218" creator="-101" outsign="en" insign="un"/>
+<align out="a223+a224" type="" in="b219+b226" creator="-101" outsign="lukket kreds" insign="círculo público"/>
+<align out="a226" type="" in="b228" creator="-101" outsign="og" insign="y"/>
+<align out="a227" type="" in="b229+b230" creator="-101" outsign="folk" insign="la gente"/>
+<align out="a228" type="" in="b231+b232" creator="-101" outsign="bliver" insign="se vuelve"/>
+<align out="a229+a235" type="" in="b233" creator="-101" outsign="fremmedgjort alt" insign="distanciada"/>
+<align out="a230" type="" in="b234" creator="-101" outsign="for" insign="de"/>
+<align out="a231" type="" in="b235" creator="-101" outsign="det" insign="lo"/>
+<align out="a232" type="" in="b236" creator="-101" outsign="mest" insign="más"/>
+<align out="a233" type="" in="b237" creator="-101" outsign="naturlige" insign="natural"/>
+<align out="a234" type="" in="b238" creator="-101" outsign="af" insign="del"/>
+<align out="a237" type="" in="b239+b242" creator="-101" outsign="jagt" insign="mundo caza"/>
+<align out="b11" type="" in="b11" creator="-101" outsign="los" insign="los"/>
+<align out="b18" type="" in="b18" creator="-101" outsign="de" insign="de"/>
+<align out="b23" type="" in="b23" creator="-101" outsign="de" insign="de"/>
+<align out="b27" type="" in="b27" creator="-101" outsign="de" insign="de"/>
+<align out="b90" type="" in="b90" creator="-101" outsign="la" insign="la"/>
 <align out="b110" type="" in="b110" creator="-101" outsign="de" insign="de"/>
 <align out="b111" type="" in="b111" creator="-101" outsign="la" insign="la"/>
-<align out="b133" type="" in="b133" creator="-101" outsign="la" insign="la"/>
+<align out="b121" type="" in="b121" creator="-101" outsign="de" insign="de"/>
+<align out="b127" type="" in="b127" creator="-101" outsign="de" insign="de"/>
+<align out="b161" type="" in="b161" creator="-101" outsign="la" insign="la"/>
+<align out="b173" type="" in="b173" creator="-101" outsign="de" insign="de"/>
+<align out="b180" type="" in="b180" creator="-101" outsign="la" insign="la"/>
+<align out="b188" type="" in="b188" creator="-101" outsign="de" insign="de"/>
+<align out="b212" type="" in="b212" creator="-101" outsign="y" insign="y"/>
+<align out="b213" type="" in="b213" creator="-101" outsign="la" insign="la"/>
+<align out="b241" type="" in="b241" creator="-101" outsign="la" insign="la"/>
 </DTAGalign>

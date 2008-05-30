@@ -5,10 +5,8 @@
 <align out="a43" type="" in="b4" creator="-101" outsign="skal" insign="tieneque"/>
 <align out="a44" type="" in="b5" creator="-101" outsign="tage" insign="tener"/>
 <align out="a46" type="" in="b6+b7+b9" creator="-101" outsign="udgangspunkt" insign="como punto partida"/>
-<align out="a47" type="" in="b8" creator="-101" outsign="i" insign="de"/>
-<align out="a48" type="" in="b10" creator="-101" outsign="de" insign="los"/>
-<align out="a49" type="" in="b12" creator="-101" outsign="bestående" insign="existentes"/>
-<align out="a50" type="" in="b11" creator="-101" outsign="lagre" insign="depósitos"/>
+<align out="a47" type="" in="b2+b8" creator="-101" outsign="i" insign="de de"/>
+<align out="a48+a59" type="" in="b10" creator="-101" outsign="de forsvarets" insign="los"/>
 <align out="a51" type="" in="b13" creator="-101" outsign="af" insign="de"/>
 <align out="a52" type="" in="b14" creator="-101" outsign="lægemidler" insign="medicamentos"/>
 <align out="a53" type="" in="b15" creator="-101" outsign="og" insign="y"/>
@@ -16,8 +14,36 @@
 <align out="a55" type="" in="b20" creator="-101" outsign="i" insign="en"/>
 <align out="a56" type="" in="b21+b23" creator="-101" outsign="fredstid" insign="tiempos paz"/>
 <align out="a58" type="" in="b25" creator="-101" outsign="herunder" insign="incluido"/>
-<align out="a191" type="" in="b213+b214+b216" creator="-101" outsign="indenrigsministeriet" insign="el ministerio interior"/>
+<align out="a66" type="" in="b42" creator="-101" outsign="på" insign="a"/>
+<align out="a67" type="" in="b43" creator="-101" outsign="et" insign="un"/>
+<align out="a68" type="" in="b44+b46" creator="-101" outsign="serviceniveau" insign="nivel servicio"/>
+<align out="a69" type="" in="b47" creator="-101" outsign="der" insign="que"/>
+<align out="a70" type="" in="b48" creator="-101" outsign="er" insign="se"/>
+<align out="a73" type="" in="b60" creator="-101" outsign="kunne" insign="pueda"/>
+<align out="a74" type="" in="b61" creator="-101" outsign="dække" insign="cubrir"/>
+<align out="a75" type="" in="b62+b63" creator="-101" outsign="behovet" insign="las necesidades"/>
+<align out="a76" type="" in="b64" creator="-101" outsign="i" insign="en"/>
+<align out="a77" type="" in="b65" creator="-101" outsign="en" insign="un"/>
+<align out="a78" type="" in="b66" creator="-101" outsign="kort" insign="breve"/>
+<align out="a79" type="" in="b67+b68+b71+b77" creator="-101" outsign="optaktsperiode" insign="estado inicial o condiciones"/>
+<align out="a80" type="" in="b58+b69" creator="-101" outsign="på" insign="en de"/>
+<align out="a81" type="" in="b57+b72" creator="-101" outsign="en-to" insign="guerra dos"/>
+<align out="a82" type="" in="b73" creator="-101" outsign="uger" insign="semanas"/>
+<align out="a84" type="" in="b75" creator="-101" outsign="under" insign="bajo"/>
+<align out="a85" type="" in="b76" creator="-101" outsign="egentlige" insign="reales"/>
+<align out="a86" type="" in="b79" creator="-101" outsign="krigshandlinger" insign="guerra"/>
+<align out="a88" type="" in="b78+b81" creator="-101" outsign="i" insign="de durante"/>
+<align out="a89+a95" type="" in="b82" creator="-101" outsign="cirka cirka" insign="aproximadamente"/>
+<align out="a90" type="" in="b83" creator="-101" outsign="30" insign="30"/>
+<align out="a91" type="" in="b84" creator="-101" outsign="dage" insign="días"/>
+<align out="a93" type="" in="b86" creator="-101" outsign="samt" insign="y"/>
+<align out="a94" type="" in="b87" creator="-101" outsign="i" insign="durante"/>
+<align out="a96" type="" in="b88" creator="-101" outsign="to" insign="dos"/>
+<align out="a97" type="" in="b89" creator="-101" outsign="uger" insign="semanas"/>
+<align out="a98" type="" in="b90" creator="-101" outsign="umiddelbart" insign="inmediatamente"/>
+<align out="a191" type="" in="b213+b214+b215+b216" creator="-101" outsign="indenrigsministeriet" insign="el ministerio del interior"/>
 <align out="a194" type="" in="b225" creator="-101" outsign="og" insign="y"/>
+<align out="a195" type="" in="b233" creator="-101" outsign="sundhedstyrelsen" insign="evaluar"/>
 <align out="a197" type="" in="b234" creator="-101" outsign="om" insign="si"/>
 <align out="a198" type="" in="b235+b236" creator="-101" outsign="arbejdet" insign="el trabajo"/>
 <align out="a199" type="" in="b237" creator="-101" outsign="skal" insign="debe"/>
@@ -26,14 +52,21 @@
 <align out="a212" type="" in="b251" creator="-101" outsign="tidsmæssigt" insign="tiempo"/>
 <align out="a216" type="" in="b256" creator="-101" outsign="de" insign="las"/>
 <align out="a217+a218" type="" in="b257+b258" creator="-101" outsign="nævnte forudsætninger" insign="condiciones mencionadas"/>
-<align out="b2" type="" in="b2" creator="-101" outsign="de" insign="de"/>
 <align out="b18" type="" in="b18" creator="-101" outsign="de" insign="de"/>
 <align out="b22" type="" in="b22" creator="-101" outsign="de" insign="de"/>
 <align out="b28" type="" in="b28" creator="-101" outsign="de" insign="de"/>
 <align out="b30" type="" in="b30" creator="-101" outsign="de" insign="de"/>
 <align out="b32" type="" in="b32" creator="-101" outsign="de" insign="de"/>
-<align out="b218" type="" in="b218" creator="-101" outsign="la" insign="la"/>
+<align out="b33" type="" in="b33" creator="-101" outsign="la" insign="la"/>
+<align out="b38" type="" in="b38" creator="-101" outsign="de" insign="de"/>
+<align out="b45" type="" in="b45" creator="-101" outsign="de" insign="de"/>
+<align out="b53" type="" in="b53" creator="-101" outsign="de" insign="de"/>
+<align out="b54" type="" in="b54" creator="-101" outsign="los" insign="los"/>
+<align out="b56" type="" in="b56" creator="-101" outsign="de" insign="de"/>
+<align out="b59" type="" in="b59" creator="-101" outsign="que" insign="que"/>
+<align out="b70" type="" in="b70" creator="-101" outsign="una" insign="una"/>
 <align out="b221" type="" in="b221" creator="-101" outsign="de" insign="de"/>
+<align out="b222" type="" in="b222" creator="-101" outsign="la" insign="la"/>
 <align out="b226" type="" in="b226" creator="-101" outsign="la" insign="la"/>
 <align out="b229" type="" in="b229" creator="-101" outsign="de" insign="de"/>
 <align out="b232" type="" in="b232" creator="-101" outsign="a" insign="a"/>

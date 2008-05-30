@@ -1,105 +1,110 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/0306-es-auto.tag" sign="_input"/>
-<align out="a42" type="" in="b0" creator="-101" outsign="er" insign="si"/>
-<align out="a43" type="" in="b1" creator="-101" outsign="der" insign="hay"/>
-<align out="a44" type="" in="b2" creator="-101" outsign="problemer" insign="problemas"/>
-<align out="a45" type="" in="b3" creator="-101" outsign="med" insign="de"/>
-<align out="a46" type="" in="b4" creator="-101" outsign="helbredet" insign="salud"/>
-<align out="a49" type="" in="b6" creator="-101" outsign="skriv" insign="escriba"/>
-<align out="a50" type="" in="b7" creator="-101" outsign="til" insign="a"/>
-<align out="a55" type="" in="b8" creator="-101" outsign="ugemagasinet" insign="“los"/>
-<align out="a58" type="" in="b14" creator="-101" outsign="vesterbrogade" insign="vesterbrogade"/>
-<align out="a59" type="" in="b15" creator="-101" outsign="16" insign="16"/>
-<align out="a61+a62" type="" in="b17" creator="-101" outsign="1505 københavn" insign="1505"/>
-<align out="a67" type="" in="b20" creator="-101" outsign="kun" insign="sólo"/>
-<align out="a68" type="" in="b21+b30" creator="-101" outsign="ugemagasinet" insign="los a"/>
-<align out="a70" type="" in="b22" creator="-101" outsign="læger" insign="médicos"/>
-<align out="a71+a72" type="" in="b23+b27" creator="-101" outsign="må åbne" insign="de sØndag"/>
-<align out="a73" type="" in="b31" creator="-101" outsign="deres" insign="su"/>
-<align out="a81" type="" in="b42" creator="-101" outsign="kan" insign="pueden"/>
-<align out="a83" type="" in="b41" creator="-101" outsign="ikke" insign="no"/>
-<align out="a86+a87" type="" in="b43" creator="-101" outsign="at give" insign="brindar"/>
-<align out="a95+a96" type="" in="b48+b49" creator="-101" outsign="p-piller i" insign="¿pÍldoras anticonceptivas"/>
-<align out="a97" type="" in="b50+b51+b52" creator="-101" outsign="overgangsalderen" insign="en la menopausia"/>
-<align out="a103" type="" in="b54" creator="-101" outsign="mange" insign="muchas"/>
-<align out="a104" type="" in="b55" creator="-101" outsign="kvinder" insign="mujeres"/>
-<align out="a105+a106" type="" in="b56" creator="-101" outsign="ønsker at" insign="desean"/>
-<align out="a112" type="" in="b62" creator="-101" outsign="når" insign="cuando"/>
-<align out="a113+a114" type="" in="b63" creator="-101" outsign="de er" insign="se"/>
-<align out="a115" type="" in="b65" creator="-101" outsign="i" insign="a"/>
-<align out="a117" type="" in="b68" creator="-101" outsign="af" insign="de"/>
-<align out="a118" type="" in="b64+b67+b69+b70" creator="-101" outsign="40'erne" insign="acercan edad cincuenta años"/>
-<align out="a122" type="" in="b72" creator="-101" outsign="men" insign="pero"/>
-<align out="a123" type="" in="b73" creator="-101" outsign="det" insign="esto"/>
-<align out="a125" type="" in="b75" creator="-101" outsign="en" insign="una"/>
-<align out="a126" type="" in="b76" creator="-101" outsign="lang" insign="larga"/>
-<align out="a127" type="" in="b77" creator="-101" outsign="række" insign="serie"/>
-<align out="a128" type="" in="b79" creator="-101" outsign="spørgsmål" insign="preguntas"/>
-<align out="a130" type="" in="b82" creator="-101" outsign="som" insign="que"/>
-<align out="a131" type="" in="b83+b84" creator="-101" outsign="lægerne" insign="los médicos"/>
-<align out="a132" type="" in="b85" creator="-101" outsign="svarer" insign="responden"/>
-<align out="a134" type="" in="b86" creator="-101" outsign="her" insign="aquí"/>
-<align out="" type="" in="b87" creator="-101" outsign="" insign="–"/>
-<align out="a136" type="" in="b88+b89" creator="-101" outsign="bl.a." insign="entre otras"/>
-<align out="a138" type="" in="b93+b94" creator="-101" outsign="hormoner" insign="las hormonas"/>
-<align out="a139" type="" in="b95" creator="-101" outsign="kan" insign="pueden"/>
-<align out="a140" type="" in="b96" creator="-101" outsign="erstatte" insign="reemplazar"/>
-<align out="a149" type="" in="b103" creator="-101" outsign="ole" insign="ole"/>
-<align out="a150" type="" in="b104" creator="-101" outsign="clausen" insign="clausen"/>
-<align out="a155+a156" type="" in="b105+b106" creator="-101" outsign="bodil er" insign="bodil tiene"/>
-<align out="a157" type="" in="b107" creator="-101" outsign="49" insign="49"/>
-<align out="a158" type="" in="b108" creator="-101" outsign="år" insign="años"/>
-<align out="a162+a163" type="" in="b110" creator="-101" outsign="hun har" insign="ha"/>
-<align out="a167" type="" in="b115" creator="-101" outsign="mange" insign="muchos"/>
-<align out="a168" type="" in="b116" creator="-101" outsign="år" insign="años"/>
-<align out="a172+a173" type="" in="b118" creator="-101" outsign="hun fik" insign="tuvo"/>
-<align out="a174" type="" in="b125" creator="-101" outsign="tidligt" insign="temprana"/>
-<align out="a175" type="" in="b119" creator="-101" outsign="3" insign="3"/>
-<align out="a176" type="" in="b120" creator="-101" outsign="børn" insign="niños"/>
-<align out="a177+a178+a179" type="" in="b121+b122" creator="-101" outsign="lige efter hinanden" insign="seguidos a"/>
-<align out="a181" type="" in="b128" creator="-101" outsign="ønskede" insign="deseaba"/>
-<align out="a182" type="" in="b127" creator="-101" outsign="ikke" insign="no"/>
-<align out="a183" type="" in="b130" creator="-101" outsign="flere" insign="más"/>
-<align out="a184" type="" in="b131" creator="-101" outsign="og" insign="y"/>
-<align out="a185+a186" type="" in="b132" creator="-101" outsign="ville gerne" insign="quería"/>
-<align out="a188+a189" type="" in="b123+b136+b140" creator="-101" outsign="modstand mod" insign="una a oposición"/>
-<align out="a203" type="" in="b153" creator="-101" outsign="som" insign="que"/>
-<align out="a204" type="" in="b155" creator="-101" outsign="hun" insign="ella"/>
-<align out="a205" type="" in="b156" creator="-101" outsign="fungerede" insign="funcionaban"/>
-<align out="a206" type="" in="b157" creator="-101" outsign="godt" insign="bien"/>
-<align out="a207" type="" in="b158" creator="-101" outsign="med" insign="y"/>
-<align out="a208" type="" in="b159" creator="-101" outsign="uden" insign="sin"/>
-<align out="a209" type="" in="b160+b161" creator="-101" outsign="bivirkninger" insign="efectos secundarios"/>
-<align out="a215" type="" in="b163" creator="-101" outsign="da" insign="cuando"/>
-<align out="a216+a217" type="" in="b164" creator="-101" outsign="hun blev" insign="cumplió"/>
-<align out="a218" type="" in="b165" creator="-101" outsign="40" insign="40"/>
-<align out="a219" type="" in="b166" creator="-101" outsign="år" insign="años"/>
-<align out="a220+a221" type="" in="b167" creator="-101" outsign="talte jeg" insign="hablé"/>
-<align out="a222" type="" in="b168" creator="-101" outsign="med" insign="con"/>
-<align out="a223" type="" in="b169" creator="-101" outsign="hende" insign="ella"/>
-<align out="a224" type="" in="b170" creator="-101" outsign="om" insign="sobre"/>
-<align out="a225+a226" type="" in="b171" creator="-101" outsign="en anden" insign="otro"/>
-<align out="a227" type="" in="b172+b174" creator="-101" outsign="prævention" insign="método prevención"/>
-<align out="a228+a229+a230" type="" in="b175" creator="-101" outsign="i stedet for" insign="enlugarde"/>
-<align out="a233" type="" in="b180" creator="-101" outsign="men" insign="pero"/>
-<align out="a234" type="" in="b181+b183" creator="-101" outsign="det" insign="ella lo"/>
-<align out="a235+a255+a256+a257" type="" in="b184" creator="-101" outsign="ønskede ville hun gerne" insign="deseaba"/>
-<align out="a244" type="" in="b191+b193" creator="-101" outsign="risici" insign="los riesgos"/>
-<align out="a246" type="" in="b194" creator="-101" outsign="der" insign="que"/>
-<align out="a249" type="" in="b197" creator="-101" outsign="for" insign="para"/>
-<align out="a250" type="" in="b198" creator="-101" outsign="kvinder" insign="mujeres"/>
-<align out="a251" type="" in="b199+b200" creator="-101" outsign="over" insign="mayores de"/>
-<align out="a252" type="" in="b201" creator="-101" outsign="40" insign="40"/>
-<align out="a258" type="" in="b189" creator="-101" outsign="tage" insign="cuenta"/>
-<align out="a260" type="" in="b192" creator="-101" outsign="sin" insign="eventuales"/>
-<align out="a261" type="" in="b190" creator="-101" outsign="egen" insign="propia"/>
-<align out="b24" type="" in="b24" creator="-101" outsign="la" insign="la"/>
-<align out="b66" type="" in="b66" creator="-101" outsign="la" insign="la"/>
-<align out="b78" type="" in="b78" creator="-101" outsign="de" insign="de"/>
-<align out="b80" type="" in="b80" creator="-101" outsign="a" insign="a"/>
-<align out="b138" type="" in="b138" creator="-101" outsign="de" insign="de"/>
-<align out="b154" type="" in="b154" creator="-101" outsign="en" insign="en"/>
-<align out="b173" type="" in="b173" creator="-101" outsign="de" insign="de"/>
-<align out="b186" type="" in="b186" creator="-101" outsign="y" insign="y"/>
+<align out="a42" type="" in="b0" creator="-101" insign="Si" outsign="Er"/>
+<align out="a43" type="" in="b1" creator="-101" insign="hay" outsign="der"/>
+<align out="a44" type="" in="b2" creator="-101" insign="problemas" outsign="problemer"/>
+<align out="a45" type="" in="b3" creator="-101" insign="de" outsign="med"/>
+<align out="a46" type="" in="b4" creator="-101" insign="salud" outsign="helbredet"/>
+<align out="a49" type="" in="b6" creator="-101" insign="escriba" outsign="skriv"/>
+<align out="a50" type="" in="b7" creator="-101" insign="a" outsign="til"/>
+<align out="a55" type="" in="b8" creator="-101" insign="“Los" outsign="Ugemagasinet"/>
+<align out="a58" type="" in="b14" creator="-101" insign="Vesterbrogade" outsign="Vesterbrogade"/>
+<align out="a59" type="" in="b15" creator="-101" insign="16" outsign="16"/>
+<align out="a61 a62" type="" in="b17" creator="-101" insign="1505" outsign="1505 København"/>
+<align out="a67" type="" in="b20" creator="-101" insign="Sólo" outsign="Kun"/>
+<align out="a68" type="" in="b21 b30" creator="-101" insign="los a" outsign="Ugemagasinet"/>
+<align out="a70" type="" in="b22" creator="-101" insign="médicos" outsign="læger"/>
+<align out="a71 a72" type="" in="b23 b27" creator="-101" insign="de SØNDAG" outsign="må åbne"/>
+<align out="a73" type="" in="b31" creator="-101" insign="su" outsign="Deres"/>
+<align out="a81" type="" in="b42" creator="-101" insign="pueden" outsign="kan"/>
+<align out="a83" type="" in="b41" creator="-101" insign="no" outsign="ikke"/>
+<align out="a86 a87" type="" in="b43" creator="-101" insign="brindar" outsign="at give"/>
+<align out="a95 a96" type="" in="b48 b49" creator="-101" insign="¿PÍLDORAS ANTICONCEPTIVAS" outsign="P-PILLER I"/>
+<align out="a97" type="" in="b50 b51 b52" creator="-101" insign="EN LA MENOPAUSIA" outsign="OVERGANGSALDEREN"/>
+<align out="a103" type="" in="b54" creator="-101" insign="Muchas" outsign="Mange"/>
+<align out="a104" type="" in="b55" creator="-101" insign="mujeres" outsign="kvinder"/>
+<align out="a105 a106" type="" in="b56" creator="-101" insign="desean" outsign="ønsker at"/>
+<align out="a112" type="" in="b62" creator="-101" insign="cuando" outsign="når"/>
+<align out="a113 a114" type="" in="b63" creator="-101" insign="se" outsign="de er"/>
+<align out="a115" type="" in="b65" creator="-101" insign="a" outsign="i"/>
+<align out="a117" type="" in="b68" creator="-101" insign="de" outsign="af"/>
+<align out="a118" type="" in="b64 b67 b69 b70" creator="-101" insign="acercan edad cincuenta años" outsign="40'erne"/>
+<align out="a122" type="" in="b72" creator="-101" insign="Pero" outsign="Men"/>
+<align out="a123" type="" in="b73" creator="-101" insign="esto" outsign="det"/>
+<align out="a125" type="" in="b75" creator="-101" insign="una" outsign="en"/>
+<align out="a126" type="" in="b76" creator="-101" insign="larga" outsign="lang"/>
+<align out="a127" type="" in="b77" creator="-101" insign="serie" outsign="række"/>
+<align out="a128" type="" in="b79" creator="-101" insign="preguntas" outsign="spørgsmål"/>
+<align out="a130" type="" in="b82" creator="-101" insign="que" outsign="som"/>
+<align out="a131" type="" in="b83 b84" creator="-101" insign="los médicos" outsign="lægerne"/>
+<align out="a132" type="" in="b85" creator="-101" insign="responden" outsign="svarer"/>
+<align out="a134" type="" in="b86" creator="-101" insign="aquí" outsign="her"/>
+<align out="a136" type="" in="b88 b89" creator="-101" insign="entre otras" outsign="bl.a."/>
+<align out="a138" type="" in="b93 b94" creator="-101" insign="las hormonas" outsign="hormoner"/>
+<align out="a139" type="" in="b95" creator="-101" insign="pueden" outsign="kan"/>
+<align out="a140" type="" in="b96" creator="-101" insign="reemplazar" outsign="erstatte"/>
+<align out="a149" type="" in="b103" creator="-101" insign="Ole" outsign="Ole"/>
+<align out="a150" type="" in="b104" creator="-101" insign="Clausen" outsign="Clausen"/>
+<align out="a155 a156" type="" in="b105 b106" creator="-101" insign="Bodil tiene" outsign="Bodil er"/>
+<align out="a157" type="" in="b107" creator="-101" insign="49" outsign="49"/>
+<align out="a158" type="" in="b108" creator="-101" insign="años" outsign="år"/>
+<align out="a162 a163" type="" in="b110" creator="-101" insign="Ha" outsign="Hun har"/>
+<align out="a167" type="" in="b115" creator="-101" insign="muchos" outsign="mange"/>
+<align out="a168" type="" in="b116" creator="-101" insign="años" outsign="år"/>
+<align out="a172 a173" type="" in="b118" creator="-101" insign="Tuvo" outsign="Hun fik"/>
+<align out="a174" type="" in="b125" creator="-101" insign="temprana" outsign="tidligt"/>
+<align out="a175" type="" in="b119" creator="-101" insign="3" outsign="3"/>
+<align out="a176" type="" in="b120" creator="-101" insign="niños" outsign="børn"/>
+<align out="a177 a178 a179" type="" in="b121 b122" creator="-101" insign="seguidos a" outsign="lige efter hinanden"/>
+<align out="a181" type="" in="b128" creator="-101" insign="deseaba" outsign="ønskede"/>
+<align out="a182" type="" in="b127" creator="-101" insign="no" outsign="ikke"/>
+<align out="a183" type="" in="b130" creator="-101" insign="más" outsign="flere"/>
+<align out="a184" type="" in="b131" creator="-101" insign="y" outsign="og"/>
+<align out="a185 a186" type="" in="b132" creator="-101" insign="quería" outsign="ville gerne"/>
+<align out="a188 a189" type="" in="b123 b136 b140" creator="-101" insign="una a oposición" outsign="modstand mod"/>
+<align out="a203" type="" in="b153" creator="-101" insign="que" outsign="som"/>
+<align out="a204" type="" in="b155" creator="-101" insign="ella" outsign="hun"/>
+<align out="a205" type="" in="b156" creator="-101" insign="funcionaban" outsign="fungerede"/>
+<align out="a206" type="" in="b157" creator="-101" insign="bien" outsign="godt"/>
+<align out="a207" type="" in="b158" creator="-101" insign="y" outsign="med"/>
+<align out="a208" type="" in="b159" creator="-101" insign="sin" outsign="uden"/>
+<align out="a209" type="" in="b160 b161" creator="-101" insign="efectos secundarios" outsign="bivirkninger"/>
+<align out="a215" type="" in="b163" creator="-101" insign="Cuando" outsign="Da"/>
+<align out="a216 a217" type="" in="b164" creator="-101" insign="cumplió" outsign="hun blev"/>
+<align out="a218" type="" in="b165" creator="-101" insign="40" outsign="40"/>
+<align out="a219" type="" in="b166" creator="-101" insign="años" outsign="år"/>
+<align out="a220 a221" type="" in="b167" creator="-101" insign="hablé" outsign="talte jeg"/>
+<align out="a222" type="" in="b168" creator="-101" insign="con" outsign="med"/>
+<align out="a223" type="" in="b169" creator="-101" insign="ella" outsign="hende"/>
+<align out="a224" type="" in="b170" creator="-101" insign="sobre" outsign="om"/>
+<align out="a225 a226" type="" in="b171" creator="-101" insign="otro" outsign="en anden"/>
+<align out="a227" type="" in="b172 b174" creator="-101" insign="método prevención" outsign="prævention"/>
+<align out="a228 a229 a230" type="" in="b175" creator="-101" insign="en&nbsp;lugar&nbsp;de" outsign="i stedet for"/>
+<align out="a233" type="" in="b180" creator="-101" insign="pero" outsign="men"/>
+<align out="a234" type="" in="b181 b183" creator="-101" insign="ella lo" outsign="det"/>
+<align out="a235 a255 a256 a257" type="" in="b184" creator="-101" insign="deseaba" outsign="ønskede ville hun gerne"/>
+<align out="a244" type="" in="b191 b193" creator="-101" insign="los riesgos" outsign="risici"/>
+<align out="a246" type="" in="b194" creator="-101" insign="que" outsign="der"/>
+<align out="a249" type="" in="b197" creator="-101" insign="para" outsign="for"/>
+<align out="a250" type="" in="b198" creator="-101" insign="mujeres" outsign="kvinder"/>
+<align out="a251" type="" in="b199 b200" creator="-101" insign="mayores de" outsign="over"/>
+<align out="a252" type="" in="b201" creator="-101" insign="40" outsign="40"/>
+<align out="a258" type="" in="b189" creator="-101" insign="cuenta" outsign="tage"/>
+<align out="a260" type="" in="b192" creator="-101" insign="eventuales" outsign="sin"/>
+<align out="a261" type="" in="b190" creator="-101" insign="propia" outsign="egen"/>
+<align out="b24" type="" in="b24" creator="-101" insign="la" outsign="la"/>
+<align out="b66" type="" in="b66" creator="-101" insign="la" outsign="la"/>
+<align out="b78" type="" in="b78" creator="-101" insign="de" outsign="de"/>
+<align out="b80" type="" in="b80" creator="-101" insign="a" outsign="a"/>
+<align out="b138" type="" in="b138" creator="-101" insign="de" outsign="de"/>
+<align out="b154" type="" in="b154" creator="-101" insign="en" outsign="en"/>
+<align out="b173" type="" in="b173" creator="-101" insign="de" outsign="de"/>
+<align out="b186" type="" in="b186" creator="-101" insign="y" outsign="y"/>
+<align out="a56" type="" in="b12" creator="-100" insign="SØNDAG" outsign="SØNDAG"/>
+<align out="a51" type="punct" in="b9" creator="-100" insign="médicos”" outsign="&quot;"/>
+<align out="a47" type="" in="b5" creator="-100" insign="," outsign=","/>
+<align out="a57" type="" in="b13" creator="-100" insign="," outsign=","/>
+<align out="a60" type="" in="b16" creator="-100" insign="," outsign=","/>
+<align out="a54" type="" in="b10" creator="-100" insign="," outsign=","/>
 </DTAGalign>

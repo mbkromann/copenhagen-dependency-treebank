@@ -2,7 +2,7 @@
 <alignFile key="a" href="../da/0647-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/0647-es-auto.tag" sign="_input"/>
 <align out="a43" type="" in="b0" creator="-101" outsign="hvis" insign="si"/>
-<align out="a44" type="" in="b3" creator="-101" outsign="man" insign="se"/>
+<align out="a44+a50" type="" in="b3" creator="-101" outsign="man få" insign="se"/>
 <align out="a45+a46+a47" type="" in="b1" creator="-101" outsign="i løbet af" insign="alolargode"/>
 <align out="a48" type="" in="b2" creator="-101" outsign="i_dag" insign="hoy"/>
 <align out="a52" type="" in="b4" creator="-101" outsign="på" insign="observan"/>
@@ -11,10 +11,9 @@
 <align out="a56" type="" in="b6" creator="-101" outsign="med" insign="con"/>
 <align out="a57" type="" in="b7" creator="-101" outsign="gusten" insign="piel"/>
 <align out="a59" type="" in="b9" creator="-101" outsign="og" insign="y"/>
+<align out="a61" type="" in="b11" creator="-101" outsign="poser" insign="bolsas"/>
 <align out="a62" type="" in="b12" creator="-101" outsign="under" insign="bajo"/>
 <align out="a63" type="" in="b13+b14" creator="-101" outsign="øjnene" insign="los ojos"/>
-<align out="a64+a65" type="" in="b17" creator="-101" outsign="vandrer hvileløst" insign="deambulan"/>
-<align out="a66+a67" type="" in="b19" creator="-101" outsign="rundt i" insign="por"/>
 <align out="a68" type="" in="b20+b21" creator="-101" outsign="byen" insign="la ciudad"/>
 <align out="a70+a71" type="" in="b24" creator="-101" outsign="skal man" insign="hayque"/>
 <align out="a72" type="" in="b23" creator="-101" outsign="hverken" insign="no"/>
@@ -35,17 +34,16 @@
 <align out="a109" type="" in="b56" creator="-101" outsign="usædvanlig" insign="excepcional"/>
 <align out="a113" type="" in="b58" creator="-101" outsign="der" insign="no"/>
 <align out="a114+a115" type="" in="b59" creator="-101" outsign="er nemlig" insign="hay"/>
-<align out="a116" type="" in="b61" creator="-101" outsign="ikke" insign="siquiera"/>
+<align out="a117" type="" in="b62" creator="-101" outsign="én" insign="un"/>
 <align out="a119" type="" in="b63" creator="-101" outsign="premiere" insign="estreno"/>
 <align out="a120" type="" in="b64" creator="-101" outsign="i" insign="en"/>
 <align out="a121" type="" in="b65" creator="-101" outsign="de" insign="los"/>
-<align out="a122" type="" in="b67" creator="-101" outsign="danske" insign="daneses"/>
-<align out="a125" type="" in="b69" creator="-101" outsign="og" insign="por"/>
-<align out="a127" type="" in="b79" creator="-101" outsign="har" insign="ha"/>
-<align out="a131" type="" in="b80" creator="-101" outsign="mistet" insign="perdido"/>
+<align out="a125+a126" type="" in="b69+b70" creator="-101" outsign="og dermed" insign="por lo"/>
+<align out="a127" type="" in="b71" creator="-101" outsign="har" insign="que"/>
+<align out="a131" type="" in="b79+b80" creator="-101" outsign="mistet" insign="ha perdido"/>
 <align out="a139" type="" in="b84" creator="-101" outsign="ikke" insign="no"/>
 <align out="a140" type="" in="b85" creator="-101" outsign="fordi" insign="porque"/>
-<align out="a143+a146" type="" in="b89+b90" creator="-101" outsign="at se" insign="a ver"/>
+<align out="a143+a146" type="" in="b90" creator="-101" outsign="at se" insign="ver"/>
 <align out="a145" type="" in="a145" creator="-101" outsign="og" insign="og"/>
 <align out="a147" type="" in="b91+b92" creator="-101" outsign="stribevis" insign="un montÃ³n"/>
 <align out="a148" type="" in="b93" creator="-101" outsign="af" insign="de"/>
@@ -53,7 +51,7 @@
 <align out="a150+a151" type="" in="b95+b96" creator="-101" outsign="om fredagen" insign="los viernes"/>
 <align out="a155" type="" in="b98" creator="-101" outsign="de" insign="los"/>
 <align out="a156" type="" in="b99" creator="-101" outsign="venlige" insign="amables"/>
-<align out="a157+a159" type="" in="b100" creator="-101" outsign="filmselskaber biografer" insign="cines"/>
+<align out="a157+a159" type="" in="b100+b102+b103" creator="-101" outsign="filmselskaber biografer" insign="cines compaÃ±Ã­as cinematogrÃ¡ficas"/>
 <align out="a158" type="" in="b101" creator="-101" outsign="og" insign="y"/>
 <align out="a160" type="" in="b104" creator="-101" outsign="sørger" insign="cuidan"/>
 <align out="a161" type="" in="b105" creator="-101" outsign="for" insign="de"/>
@@ -62,33 +60,33 @@
 <align out="a165" type="" in="b108" creator="-101" outsign="nye" insign="nuevas"/>
 <align out="a166" type="" in="b109" creator="-101" outsign="film" insign="pelÃ­culas"/>
 <align out="a167" type="" in="b110" creator="-101" outsign="ved" insign="en"/>
-<align out="a168" type="" in="b114" creator="-101" outsign="særlige" insign="especiales"/>
-<align out="a170" type="" in="b116" creator="-101" outsign="som" insign="generalmente"/>
 <align out="a172" type="" in="b117" creator="-101" outsign="flere" insign="varios"/>
 <align out="a173" type="" in="b118" creator="-101" outsign="dage" insign="dÃ­as"/>
 <align out="a174" type="" in="b119" creator="-101" outsign="før" insign="antes"/>
 <align out="a177" type="" in="b123" creator="-101" outsign="og" insign="y"/>
 <align out="a179" type="" in="b129" creator="-101" outsign="har" insign="tienen"/>
-<align out="a181+a182" type="" in="b130+b131" creator="-101" outsign="god tid" insign="tiempo suficiente"/>
+<align out="a182" type="" in="b130+b131" creator="-101" outsign="tid" insign="tiempo suficiente"/>
 <align out="a183" type="" in="b132" creator="-101" outsign="til" insign="para"/>
 <align out="a184+a185" type="" in="b133" creator="-101" outsign="at udføre" insign="realizar"/>
 <align out="a186" type="" in="b134" creator="-101" outsign="deres" insign="su"/>
 <align out="a192" type="" in="b144" creator="-101" outsign="der" insign="hay"/>
 <align out="a198" type="" in="b147" creator="-101" outsign="i" insign="en"/>
-<align out="a199" type="" in="b151" creator="-101" outsign="en" insign="una"/>
+<align out="a199" type="" in="b148+b151" creator="-101" outsign="en" insign="la una"/>
 <align out="a205" type="" in="b155" creator="-101" outsign="ikke" insign="no"/>
 <align out="a209" type="" in="a209" creator="-101" outsign="det" insign="det"/>
 <align out="a210" type="" in="b165" creator="-101" outsign="naturligvis" insign="lÃ³gicamente"/>
 <align out="a211" type="" in="b166" creator="-101" outsign="er" insign="es"/>
 <align out="a212+a213" type="" in="b167+b168" creator="-101" outsign="mest bekvemt" insign="mÃ¡s cÃ³modo"/>
 <align out="a214" type="" in="b169" creator="-101" outsign="for" insign="para"/>
+<align out="a217" type="" in="b139" creator="-101" outsign="hvis" insign="si"/>
+<align out="a218" type="" in="b174" creator="-101" outsign="læserne" insign="lectores"/>
+<align out="a219" type="" in="b172" creator="-101" outsign="tror" insign="que"/>
 <align out="b33" type="" in="b33" creator="-101" outsign="de" insign="de"/>
+<align out="b72" type="" in="b72" creator="-101" outsign="la" insign="la"/>
 <align out="b74" type="" in="b74" creator="-101" outsign="de" insign="de"/>
-<align out="b75" type="" in="b75" creator="-101" outsign="los" insign="los"/>
 <align out="b77" type="" in="b77" creator="-101" outsign="de" insign="de"/>
 <align out="b112" type="" in="b112" creator="-101" outsign="de" insign="de"/>
 <align out="b124" type="" in="b124" creator="-101" outsign="de" insign="de"/>
 <align out="b140" type="" in="b140" creator="-101" outsign="de" insign="de"/>
-<align out="b148" type="" in="b148" creator="-101" outsign="la" insign="la"/>
 <align out="b150" type="" in="b150" creator="-101" outsign="de" insign="de"/>
 </DTAGalign>

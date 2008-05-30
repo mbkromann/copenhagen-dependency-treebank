@@ -15,8 +15,12 @@
 <align out="a64" type="" in="b16" creator="-101" outsign="men" insign="pero"/>
 <align out="a65+a66" type="" in="b18" creator="-101" outsign="vi farer" insign="andamos"/>
 <align out="a67" type="" in="b17" creator="-101" outsign="ikke" insign="no"/>
-<align out="a68+a70+a72" type="" in="b20" creator="-101" outsign="frem blinde så" insign="ciegas"/>
+<align out="a68+a70" type="" in="b20" creator="-101" outsign="frem blinde" insign="ciegas"/>
 <align out="a69" type="" in="b19" creator="-101" outsign="i" insign="a"/>
+<align out="a72+a86" type="" in="b22+b23" creator="-101" outsign="så af" insign="por lo"/>
+<align out="a73" type="" in="b24" creator="-101" outsign="derfor" insign="cual"/>
+<align out="a74" type="" in="a74" creator="-101" outsign="vil" insign="vil"/>
+<align out="a75" type="" in="a75" creator="-101" outsign="det" insign="det"/>
 <align out="a76" type="" in="b25" creator="-101" outsign="også" insign="también"/>
 <align out="a77" type="" in="b26" creator="-101" outsign="i" insign="en"/>
 <align out="a78" type="" in="b27" creator="-101" outsign="den" insign="el"/>
@@ -25,7 +29,6 @@
 <align out="a81" type="" in="b31" creator="-101" outsign="alene" insign="solamente"/>
 <align out="a84" type="" in="b32" creator="-101" outsign="om" insign="de"/>
 <align out="a85" type="" in="b33" creator="-101" outsign="køb" insign="comprar"/>
-<align out="a86" type="" in="a86" creator="-101" outsign="af" insign="af"/>
 <align out="a87" type="" in="b34" creator="-101" outsign="aktier" insign="acciones"/>
 <align out="a88" type="" in="b35" creator="-101" outsign="i" insign="en"/>
 <align out="a89" type="" in="b37" creator="-101" outsign="udenlandske" insign="extranjeras"/>
@@ -36,32 +39,34 @@
 <align out="a95" type="" in="b40+b41" creator="-101" outsign="datterselskaber" insign="empresas filiales"/>
 <align out="a104+a105+a109" type="" in="b49+b51" creator="-101" outsign="simonsen tager fuld" insign="simonsen exagera"/>
 <align out="a106" type="" in="b50" creator="-101" outsign="ikke" insign="no"/>
+<align out="a108" type="" in="b46+b58" creator="-101" outsign="for" insign="de de"/>
 <align out="a111" type="" in="b52" creator="-101" outsign="når" insign="cuando"/>
 <align out="a112+a113" type="" in="b53" creator="-101" outsign="han skal" insign="tieneque"/>
 <align out="a114" type="" in="b54" creator="-101" outsign="kommentere" insign="comentar"/>
 <align out="a115" type="" in="b55" creator="-101" outsign="den" insign="la"/>
 <align out="a116" type="" in="b56" creator="-101" outsign="fremtidige" insign="futura"/>
 <align out="a117" type="" in="b57+b59" creator="-101" outsign="investeringsstrategi" insign="estrategia inversiones"/>
-<align out="a121" type="" in="b61+b62" creator="-101" outsign="han" insign="para él"/>
 <align out="a122" type="" in="b63" creator="-101" outsign="er" insign="está"/>
 <align out="a123+a124" type="" in="b64" creator="-101" outsign="klar over" insign="claro"/>
 <align out="a126" type="" in="b65" creator="-101" outsign="at" insign="que"/>
 <align out="a127" type="" in="b66" creator="-101" outsign="enhver" insign="cada"/>
 <align out="a128" type="" in="b67" creator="-101" outsign="lille" insign="pequeño"/>
 <align out="a129" type="" in="b68" creator="-101" outsign="bevægelse" insign="movimiento"/>
-<align out="a130" type="" in="b69+b71" creator="-101" outsign="fra" insign="de de"/>
+<align out="a130" type="" in="b69+b70+b71" creator="-101" outsign="fra" insign="de parte de"/>
 <align out="a133+a134+a135+a139" type="" in="b80" creator="-101" outsign="blive fulgt nøje aktiemarked" insign="accionario"/>
 <align out="a136" type="" in="b77" creator="-101" outsign="af" insign="por"/>
 <align out="a137" type="" in="b78+b79" creator="-101" outsign="det" insign="el mercado"/>
 <align out="a138" type="" in="b81" creator="-101" outsign="danske" insign="danés"/>
 <align out="a140" type="" in="b82+b83+b84+b88" creator="-101" outsign="på_grund_af" insign="a causa de de"/>
+<align out="a141" type="" in="b89" creator="-101" outsign="atp's" insign="atp"/>
+<align out="a142+a146" type="" in="b92+b93" creator="-101" outsign="meget aktiemarkedet" insign="mercado accionario"/>
+<align out="a143" type="" in="b86" creator="-101" outsign="store" insign="gran"/>
+<align out="a144" type="" in="b87" creator="-101" outsign="betydning" insign="importancia"/>
 <align out="a145" type="" in="b90" creator="-101" outsign="for" insign="en"/>
-<align out="a152+a158" type="" in="b95+b99" creator="-101" outsign="palle foreløbig" insign="palle porelmomento"/>
+<align out="a152" type="" in="b95" creator="-101" outsign="palle" insign="palle"/>
 <align out="a153+a169" type="" in="b96" creator="-101" outsign="simonsen op" insign="simonsen"/>
 <align out="a154" type="" in="b97" creator="-101" outsign="siger" insign="dice"/>
 <align out="a156" type="" in="b98" creator="-101" outsign="at" insign="que"/>
-<align out="a157+a159" type="" in="b100" creator="-101" outsign="der er" insign="hay"/>
-<align out="a160" type="" in="b101+b102+b105+b106" creator="-101" outsign="bestyrelsesbeslutning" insign="una decisión junta directiva"/>
 <align out="a161" type="" in="b107" creator="-101" outsign="om" insign="de"/>
 <align out="a162+a163" type="" in="b108" creator="-101" outsign="at købe" insign="comprar"/>
 <align out="a164" type="" in="b112" creator="-101" outsign="udenlandske" insign="extranjeras"/>
@@ -78,17 +83,16 @@
 <align out="a181+a182" type="" in="b125" creator="-101" outsign="at ville" insign="querer"/>
 <align out="a183+a184" type="" in="b126" creator="-101" outsign="lægge sig" insign="revelar"/>
 <align out="a186" type="" in="b145" creator="-101" outsign="på" insign="de"/>
-<align out="a190+a194" type="" in="b134" creator="-101" outsign="lægger skjul" insign="oculta"/>
-<align out="a191" type="" in="b129+b131" creator="-101" outsign="palle" insign="específico palle"/>
+<align out="a187" type="" in="b127" creator="-101" outsign="nogen" insign="un"/>
+<align out="a188" type="" in="b128" creator="-101" outsign="procentandel" insign="porcentaje"/>
+<align out="a190+a191" type="" in="b129+b131" creator="-101" outsign="lægger palle" insign="específico palle"/>
 <align out="a192" type="" in="b132" creator="-101" outsign="simonsen" insign="simonsen"/>
 <align out="a193" type="" in="b133" creator="-101" outsign="ikke" insign="no"/>
-<align out="a195+a200" type="" in="b137+b139" creator="-101" outsign="på fem-ti" insign="cinco-diez atp"/>
+<align out="a194" type="" in="b134" creator="-101" outsign="skjul" insign="oculta"/>
 <align out="a197" type="" in="b135" creator="-101" outsign="at" insign="que"/>
 <align out="a198+a199" type="" in="b136" creator="-101" outsign="atp om" insign="dentrode"/>
 <align out="a201" type="" in="b138" creator="-101" outsign="år" insign="años"/>
-<align out="a202+a203" type="" in="b140" creator="-101" outsign="vil have" insign="tendrá"/>
 <align out="a204" type="" in="b141" creator="-101" outsign="en" insign="una"/>
-<align out="a206" type="" in="b144" creator="-101" outsign="større" insign="mayor"/>
 <align out="a208" type="" in="b147" creator="-101" outsign="af" insign="de"/>
 <align out="a211" type="" in="b150" creator="-101" outsign="i" insign="en"/>
 <align out="a216+a217" type="" in="b154" creator="-101" outsign="han mener" insign="piensa"/>
@@ -111,11 +115,11 @@
 <align out="a238" type="" in="b173" creator="-101" outsign="enhver" insign="cualquier"/>
 <align out="a239" type="" in="b174" creator="-101" outsign="form" insign="forma"/>
 <align out="a240" type="" in="b175" creator="-101" outsign="for" insign="de"/>
-<align out="a241+a243" type="" in="b176+b178" creator="-101" outsign="bindinger tværs" insign="atadura través"/>
+<align out="a241" type="" in="b176" creator="-101" outsign="bindinger" insign="atadura"/>
 <align out="a242" type="" in="b177" creator="-101" outsign="på" insign="a"/>
+<align out="a243" type="" in="b178" creator="-101" outsign="tværs" insign="través"/>
 <align out="a244" type="" in="b179+b182" creator="-101" outsign="af" insign="de del"/>
 <align out="a245" type="" in="b180+b181+b183" creator="-101" outsign="landegrænserne" insign="las fronteras país"/>
-<align out="b58" type="" in="b58" creator="-101" outsign="de" insign="de"/>
 <align out="b85" type="" in="b85" creator="-101" outsign="la" insign="la"/>
 <align out="b91" type="" in="b91" creator="-101" outsign="el" insign="el"/>
 <align out="b103" type="" in="b103" creator="-101" outsign="de" insign="de"/>

@@ -6,37 +6,30 @@
 <align out="a50" type="" in="b4" creator="-101" outsign="være" insign="estar"/>
 <align out="a51" type="" in="b5" creator="-101" outsign="i" insign="en"/>
 <align out="a52" type="" in="b6" creator="-101" outsign="god" insign="forma,”"/>
-<align out="a64+a65" type="" in="b14" creator="-101" outsign="de ønsker" insign="desean"/>
 <align out="a67" type="" in="a67" creator="-101" outsign="at" insign="at"/>
 <align out="a69" type="" in="b13" creator="-101" outsign="ikke" insign="no"/>
 <align out="a76" type="" in="b18" creator="-101" outsign="det" insign="eso"/>
 <align out="a77" type="" in="a77" creator="-101" outsign="er" insign="er"/>
 <align out="a78" type="" in="b22" creator="-101" outsign="en" insign="una"/>
 <align out="a79+a80" type="" in="b20+b21" creator="-101" outsign="halv snes" insign="de moda"/>
-<align out="a81+a82+a86" type="" in="b23+b24" creator="-101" outsign="år siden in" insign="década atrás"/>
 <align out="a84" type="" in="a84" creator="-101" outsign="det" insign="det"/>
-<align out="a85" type="" in="b19" creator="-101" outsign="var" insign="estaba"/>
 <align out="a90" type="" in="b26" creator="-101" outsign="nu" insign="ahora"/>
 <align out="a91" type="" in="b27" creator="-101" outsign="skal" insign="debe"/>
 <align out="a97" type="" in="b33" creator="-101" outsign="uden" insign="sin"/>
 <align out="a98" type="" in="b34" creator="-101" outsign="at" insign="estar"/>
-<align out="a107" type="" in="b41" creator="-101" outsign="vil" insign="desean"/>
 <align out="a109" type="" in="b42" creator="-101" outsign="være" insign="ser"/>
 <align out="a112" type="" in="b45" creator="-101" outsign="men" insign="pero"/>
 <align out="a114" type="" in="b48" creator="-101" outsign="og" insign="y"/>
-<align out="a115" type="" in="b39+b40+b49+b50" creator="-101" outsign="velplejet" insign="los hombres bien cuidados"/>
 <align out="a119" type="" in="b52+b53" creator="-101" outsign="idealet" insign="el ideal"/>
 <align out="a120" type="" in="b54" creator="-101" outsign="er" insign="es"/>
 <align out="a121" type="" in="b55" creator="-101" outsign="noget" insign="algo"/>
-<align out="a122" type="" in="a122" creator="-101" outsign="i" insign="i"/>
+<align out="a122" type="" in="b63" creator="-101" outsign="i" insign="de"/>
 <align out="a125" type="" in="b58" creator="-101" outsign="en" insign="un"/>
 <align out="a126" type="" in="b59+b61" creator="-101" outsign="pæn" insign="lindo elegante"/>
 <align out="a129" type="" in="b62+b64" creator="-101" outsign="forretningsmand" insign="hombre negocios"/>
-<align out="" type="" in="b65" creator="-101" outsign="" insign="–"/>
 <align out="a131" type="" in="b60" creator="-101" outsign="og" insign="y"/>
-<align out="a132+a133+a134" type="" in="b66+b70" creator="-101" outsign="han kommer her" insign="que frecuenta"/>
+<align out="a132" type="" in="b66" creator="-101" outsign="han" insign="que"/>
 <align out="a135" type="" in="b68" creator="-101" outsign="også" insign="también"/>
-<align out="" type="" in="b71" creator="-101" outsign="" insign="–"/>
 <align out="a137+a138" type="" in="b72" creator="-101" outsign="sammen med" insign="juntocon"/>
 <align out="a146" type="" in="b81" creator="-101" outsign="to" insign="dos"/>
 <align out="a147" type="" in="b82" creator="-101" outsign="mænd" insign="hombres"/>
@@ -46,7 +39,8 @@
 <align out="a155" type="" in="b88" creator="-101" outsign="hvad" insign="qué"/>
 <align out="a156" type="" in="b89" creator="-101" outsign="er" insign="es"/>
 <align out="a157" type="" in="b90" creator="-101" outsign="det" insign="lo"/>
-<align out="a161" type="" in="b91+b92" creator="-101" outsign="vil" insign="que quieren"/>
+<align out="a160" type="" in="b93" creator="-101" outsign="kvinden" insign="las"/>
+<align out="a161" type="" in="b91" creator="-101" outsign="vil" insign="que"/>
 <align out="a170" type="" in="b98" creator="-101" outsign="en" insign="¿un"/>
 <align out="a171" type="" in="b99" creator="-101" outsign="krop" insign="cuerpo"/>
 <align out="a172" type="" in="b100" creator="-101" outsign="der" insign="que"/>
@@ -56,10 +50,32 @@
 <align out="a179" type="" in="b107+b108" creator="-101" outsign="muskler" insign="bien entrenados"/>
 <align out="a185" type="" in="b110" creator="-101" outsign="ja" insign="sí"/>
 <align out="a186" type="" in="b111" creator="-101" outsign="og" insign="y"/>
-<align out="a257" type="" in="b176+b178" creator="-101" outsign="fra" insign="de de"/>
-<align out="a260+a262" type="" in="b182" creator="-101" outsign="sylvester rambo" insign="sylvester"/>
+<align out="a187" type="" in="b112" creator="-101" outsign="nej" insign="no"/>
+<align out="a191" type="" in="b114+b115" creator="-101" outsign="kvinder" insign="las mujeres"/>
+<align out="a192" type="" in="b117" creator="-101" outsign="har" insign="han"/>
+<align out="a193" type="" in="b119" creator="-101" outsign="i" insign="en"/>
+<align out="a194" type="" in="b116" creator="-101" outsign="det" insign="se"/>
+<align out="a195" type="" in="b121" creator="-101" outsign="seneste" insign="últimos"/>
+<align out="a196" type="" in="b122" creator="-101" outsign="år" insign="años"/>
+<align out="a197+a205" type="" in="b133" creator="-101" outsign="kastet swayze" insign="swayze"/>
+<align out="a198+a199" type="" in="b135" creator="-101" outsign="deres øjne" insign="“ghost”"/>
+<align out="a200" type="" in="b123" creator="-101" outsign="på" insign="en"/>
+<align out="a202" type="" in="b127" creator="-101" outsign="som" insign="como"/>
+<align out="a203" type="" in="b131" creator="-101" outsign="skuespillerne" insign="actores"/>
+<align out="a204" type="" in="b132" creator="-101" outsign="patrick" insign="patrick"/>
+<align out="a208+a212+a213" type="" in="b138" creator="-101" outsign="ghost point break" insign="break”"/>
+<align out="a210" type="" in="b136" creator="-101" outsign="og" insign="y"/>
+<align out="a217" type="" in="b141" creator="-101" outsign="richard" insign="richard"/>
+<align out="a218" type="" in="b142" creator="-101" outsign="gere" insign="gere"/>
+<align out="a225" type="" in="b147" creator="-101" outsign="og" insign="y"/>
+<align out="a226" type="" in="b148" creator="-101" outsign="kevin" insign="kevin"/>
+<align out="a231+a245" type="" in="b152" creator="-101" outsign="med med" insign="con"/>
+<align out="a240" type="" in="b158" creator="-101" outsign="der" insign="que"/>
+<align out="a241" type="" in="b159" creator="-101" outsign="allesammen" insign="todos"/>
+<align out="a242" type="" in="b160" creator="-101" outsign="ligner" insign="parecen"/>
+<align out="a247" type="" in="b162" creator="-101" outsign="på" insign="de"/>
+<align out="a257" type="" in="b178" creator="-101" outsign="fra" insign="de"/>
 <align out="a265" type="" in="b185" creator="-101" outsign="og" insign="y"/>
 <align out="a266" type="" in="b186" creator="-101" outsign="arnold" insign="arnold"/>
-<align out="b76" type="" in="b76" creator="-101" outsign="el" insign="el"/>
-<align out="b79" type="" in="b79" creator="-101" outsign="el" insign="el"/>
+<align out="b129" type="" in="b129" creator="-101" outsign="de" insign="de"/>
 </DTAGalign>

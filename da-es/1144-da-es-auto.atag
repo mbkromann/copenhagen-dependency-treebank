@@ -2,8 +2,6 @@
 <alignFile key="a" href="../da/1144-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/1144-es-auto.tag" sign="_input"/>
 <align out="a43" type="" in="b0" creator="-101" outsign="er" insign="¿es"/>
-<align out="a44" type="" in="b3" creator="-101" outsign="larsen" insign="larsen"/>
-<align out="" type="" in="b10" creator="-101" outsign="" insign="“el"/>
 <align out="a58" type="" in="b11" creator="-101" outsign="jyden" insign="jutlandés"/>
 <align out="a59" type="" in="b12" creator="-101" outsign="er" insign="es"/>
 <align out="a60" type="" in="b13" creator="-101" outsign="som" insign="como"/>
@@ -16,10 +14,9 @@
 <align out="a72" type="" in="b22" creator="-101" outsign="tilførte" insign="aportó"/>
 <align out="a73" type="" in="b23+b24" creator="-101" outsign="branchen" insign="al sector"/>
 <align out="a74" type="" in="b25" creator="-101" outsign="et" insign="un"/>
-<align out="a75+a80+a81+a82" type="" in="b31" creator="-101" outsign="tiltrængt han dukkede op" insign="apareció"/>
 <align out="a76+a77" type="" in="b26+b28+b29" creator="-101" outsign="frisk pust" insign="soplo aire fresco"/>
-<align out="a79" type="" in="b30" creator="-101" outsign="da" insign="cuando"/>
 <align out="a88" type="" in="b33" creator="-101" outsign="han" insign="al"/>
+<align out="a90" type="" in="b39" creator="-101" outsign="med" insign="de"/>
 <align out="a94" type="" in="b37" creator="-101" outsign="en" insign="un"/>
 <align out="a95+a96" type="" in="b38+b40" creator="-101" outsign="hel masse" insign="montón cosas"/>
 <align out="a100" type="" in="b42" creator="-101" outsign="det" insign="no"/>
@@ -64,14 +61,14 @@
 <align out="a174" type="" in="b102" creator="-101" outsign="med" insign="de"/>
 <align out="a175+a176" type="" in="b103" creator="-101" outsign="faldende marked" insign="declive"/>
 <align out="a182" type="" in="b105" creator="-101" outsign="alle" insign="todo"/>
-<align out="a187" type="" in="b126" creator="-101" outsign="at" insign="a"/>
-<align out="a190" type="" in="b110+b131" creator="-101" outsign="at" insign="poder que"/>
-<align out="a191" type="" in="b113" creator="-101" outsign="opleve" insign="experimentar"/>
+<align out="a185" type="" in="b106" creator="-101" outsign="drømmen" insign="el"/>
+<align out="a186+a196" type="" in="b109" creator="-101" outsign="om sammen" insign="con"/>
+<align out="a187" type="" in="a187" creator="-101" outsign="at" insign="at"/>
+<align out="a191" type="" in="b112+b113+b126" creator="-101" outsign="opleve" insign="y experimentar a"/>
 <align out="a192" type="" in="b114" creator="-101" outsign="noget" insign="algo"/>
 <align out="a193" type="" in="b115" creator="-101" outsign="nyt" insign="nuevo"/>
 <align out="a194" type="" in="b116" creator="-101" outsign="og" insign="y"/>
 <align out="a195" type="" in="b117" creator="-101" outsign="være" insign="conocer"/>
-<align out="a196" type="" in="b109" creator="-101" outsign="sammen" insign="con"/>
 <align out="a197" type="" in="b118" creator="-101" outsign="med" insign="a"/>
 <align out="a198" type="" in="b120" creator="-101" outsign="fremmede" insign="extranjeras"/>
 <align out="a199" type="" in="b119" creator="-101" outsign="mennesker" insign="personas"/>
@@ -80,7 +77,7 @@
 <align out="a203" type="" in="b124" creator="-101" outsign="er" insign="se"/>
 <align out="a204" type="" in="b128" creator="-101" outsign="afventende" insign="expectativa"/>
 <align out="a206" type="" in="b129" creator="-101" outsign="fordi" insign="porque"/>
-<align out="a207+a208" type="" in="b130" creator="-101" outsign="de føler" insign="sienten"/>
+<align out="a207+a208" type="" in="b130+b131" creator="-101" outsign="de føler" insign="sienten que"/>
 <align out="a209" type="" in="b132" creator="-101" outsign="den" insign="la"/>
 <align out="a210" type="" in="b134" creator="-101" outsign="økonomiske" insign="económica"/>
 <align out="a212" type="" in="b136" creator="-101" outsign="usikker" insign="insegura"/>
@@ -91,15 +88,15 @@
 <align out="a222" type="" in="b142+b143" creator="-101" outsign="præger" insign="caracteriza a"/>
 <align out="a223" type="" in="b144" creator="-101" outsign="hele" insign="toda"/>
 <align out="a224" type="" in="b145" creator="-101" outsign="samfundet" insign="la"/>
-<align out="" type="" in="b146" creator="-101" outsign="" insign="sociedad.”"/>
+<align out="a233" type="" in="b154+b155" creator="-101" outsign="i_dag" insign="hoy día"/>
+<align out="a238" type="" in="b152" creator="-101" outsign="i" insign="a"/>
+<align out="a241" type="" in="b153" creator="-101" outsign="erkende" insign="reconocer"/>
 <align out="a242" type="" in="b156" creator="-101" outsign="at" insign="que"/>
-<align out="a243" type="" in="b158" creator="-101" outsign="købet" insign="compra"/>
 <align out="a244" type="" in="b159" creator="-101" outsign="af" insign="de"/>
 <align out="a246" type="" in="b161" creator="-101" outsign="var" insign="era"/>
 <align out="a247" type="" in="b162" creator="-101" outsign="en" insign="un"/>
+<align out="a248" type="" in="b163" creator="-101" outsign="fejl" insign="error"/>
 <align out="b27" type="" in="b27" creator="-101" outsign="de" insign="de"/>
-<align out="b39" type="" in="b39" creator="-101" outsign="de" insign="de"/>
-<align out="b112" type="" in="b112" creator="-101" outsign="y" insign="y"/>
 <align out="b127" type="" in="b127" creator="-101" outsign="la" insign="la"/>
 <align out="b157" type="" in="b157" creator="-101" outsign="la" insign="la"/>
 </DTAGalign>

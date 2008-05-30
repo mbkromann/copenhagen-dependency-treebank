@@ -5,12 +5,11 @@
 <align out="a45" type="" in="b5" creator="-101" outsign="de" insign="las"/>
 <align out="a46" type="" in="b6" creator="-101" outsign="store" insign="grandes"/>
 <align out="a47" type="" in="b7+b8" creator="-101" outsign="multi-nationale" insign="empresas multinacionales"/>
-<align out="a48" type="" in="b4+b9" creator="-101" outsign="selskabers" insign="de las"/>
-<align out="a49" type="" in="b3" creator="-101" outsign="danske" insign="danesas"/>
+<align out="a48" type="" in="b9" creator="-101" outsign="selskabers" insign="las"/>
 <align out="a52" type="" in="b10" creator="-101" outsign="der" insign="que"/>
 <align out="a53" type="" in="b11" creator="-101" outsign="bruger" insign="usan"/>
 <align out="a54" type="" in="b12" creator="-101" outsign="millioner" insign="millones"/>
-<align out="a55" type="" in="b15" creator="-101" outsign="på" insign="en"/>
+<align out="a55" type="" in="b14+b15" creator="-101" outsign="på" insign="publicidades en"/>
 <align out="a60" type="" in="b17+b18" creator="-101" outsign="abba" insign="“gold” de"/>
 <align out="a62" type="" in="b19" creator="-101" outsign="gold" insign="abba"/>
 <align out="a64" type="" in="b20" creator="-101" outsign="har" insign="ha"/>
@@ -21,7 +20,7 @@
 <align out="a69" type="" in="b25" creator="-101" outsign="tv" insign="televisión"/>
 <align out="a71" type="" in="b27+b28" creator="-101" outsign="ligesom" insign="así como"/>
 <align out="a73" type="" in="b34" creator="-101" outsign="og" insign="y"/>
-<align out="a90" type="" in="b46" creator="-101" outsign="skader" insign="dañan"/>
+<align out="a91" type="" in="b44" creator="-101" outsign="dansk" insign="la"/>
 <align out="a97+a98" type="" in="b52" creator="-101" outsign="vi ved" insign="sabemos"/>
 <align out="a99" type="" in="b53" creator="-101" outsign="af" insign="por"/>
 <align out="a100" type="" in="b54" creator="-101" outsign="erfaring" insign="experiencia"/>
@@ -39,17 +38,14 @@
 <align out="a115" type="" in="b69" creator="-101" outsign="om" insign="por"/>
 <align out="a116" type="" in="b70" creator="-101" outsign="året" insign="año"/>
 <align out="a120" type="" in="b72" creator="-101" outsign="og" insign="y"/>
-<align out="a123" type="" in="b74" creator="-101" outsign="tidligere" insign="antes"/>
-<align out="a125" type="" in="b76" creator="-101" outsign="købte" insign="comprado"/>
 <align out="a126" type="" in="b79" creator="-101" outsign="kim" insign="kim"/>
 <align out="a127" type="" in="b80" creator="-101" outsign="larsen" insign="larsen"/>
 <align out="a129" type="" in="b82" creator="-101" outsign="anne" insign="anne"/>
 <align out="a134+a135" type="" in="b88" creator="-101" outsign="køber de" insign="compran"/>
-<align out="a138" type="" in="b89+b90" creator="-101" outsign="hvad" insign="lo que"/>
-<align out="a139" type="" in="b93" creator="-101" outsign="de" insign="las"/>
-<align out="a140+a141" type="" in="b94" creator="-101" outsign="ser reklamer" insign="publicidades"/>
-<align out="a142" type="" in="b105" creator="-101" outsign="for" insign="de"/>
-<align out="a143" type="" in="b95" creator="-101" outsign="på" insign="en"/>
+<align out="a138" type="" in="b89" creator="-101" outsign="hvad" insign="lo"/>
+<align out="a139+a140" type="" in="b90+b91" creator="-101" outsign="de ser" insign="que ven"/>
+<align out="a141" type="" in="b94" creator="-101" outsign="reklamer" insign="publicidades"/>
+<align out="a142+a143" type="" in="b92+b95" creator="-101" outsign="for på" insign="en en"/>
 <align out="a144" type="" in="b96" creator="-101" outsign="tv" insign="televisión,”"/>
 <align out="a147" type="" in="b97" creator="-101" outsign="siger" insign="dice"/>
 <align out="a148" type="" in="b98" creator="-101" outsign="stefan" insign="stefan"/>
@@ -57,21 +53,25 @@
 <align out="a151" type="" in="b101" creator="-101" outsign="formand" insign="presidente"/>
 <align out="a152" type="" in="b102" creator="-101" outsign="for" insign="de"/>
 <align out="a161" type="" in="b110" creator="-101" outsign="men" insign="pero"/>
+<align out="a162+a177+a185+a187" type="" in="b111" creator="-101" outsign="fryland massivt blotte udtalelse" insign="fryland"/>
 <align out="a163" type="" in="b112" creator="-101" outsign="er" insign="es"/>
 <align out="a164" type="" in="b113" creator="-101" outsign="også" insign="también"/>
 <align out="a165" type="" in="b114" creator="-101" outsign="direktør" insign="director"/>
 <align out="a166" type="" in="b115" creator="-101" outsign="for" insign="de"/>
 <align out="a167" type="" in="b116" creator="-101" outsign="polygram" insign="polygram"/>
-<align out="" type="" in="b117" creator="-101" outsign="" insign="–"/>
 <align out="a169" type="" in="b118" creator="-101" outsign="et" insign="una"/>
 <align out="a170" type="" in="b119" creator="-101" outsign="af" insign="de"/>
 <align out="a171" type="" in="b120" creator="-101" outsign="de" insign="las"/>
 <align out="a172" type="" in="b121" creator="-101" outsign="selskaber" insign="empresas"/>
 <align out="a174" type="" in="b122" creator="-101" outsign="der" insign="que"/>
+<align out="a175" type="" in="b124" creator="-101" outsign="tv-annoncerer" insign="anuncia"/>
+<align out="a176" type="" in="b123" creator="-101" outsign="mest" insign="más"/>
 <align out="a178" type="" in="b125" creator="-101" outsign="med" insign="por"/>
+<align out="a179" type="" in="b126+b130+b137" creator="-101" outsign="opsam" insign="televisión grandes poner"/>
 <align out="a182" type="" in="b133+b134" creator="-101" outsign="hvilket" insign="lo que"/>
 <align out="a183" type="" in="b135" creator="-101" outsign="godt" insign="bien"/>
 <align out="a184" type="" in="b136" creator="-101" outsign="kan" insign="puede"/>
+<align out="a186" type="" in="b141" creator="-101" outsign="hans" insign="sus"/>
 <align out="a188" type="" in="b146" creator="-101" outsign="for" insign="de"/>
 <align out="a189" type="" in="b147" creator="-101" outsign="god" insign="buena"/>
 <align out="a190" type="" in="b148" creator="-101" outsign="vilje" insign="voluntad"/>
@@ -90,36 +90,39 @@
 <align out="a220" type="" in="b166" creator="-101" outsign="min" insign="mi"/>
 <align out="a221" type="" in="b168" creator="-101" outsign="helt" insign="totalmente"/>
 <align out="a222" type="" in="b169" creator="-101" outsign="personlige" insign="personal"/>
+<align out="a223" type="" in="b167" creator="-101" outsign="mening" insign="opinión"/>
 <align out="a225" type="" in="b170" creator="-101" outsign="at" insign="que"/>
+<align out="a226" type="" in="b171+b172+b174" creator="-101" outsign="tv-spots" insign="las publicidades televisión"/>
 <align out="a227+a228" type="" in="b175+b176" creator="-101" outsign="er skadelige" insign="son perjudiciales,”"/>
 <align out="a231" type="" in="b177" creator="-101" outsign="siger" insign="dice"/>
 <align out="a232" type="" in="b178" creator="-101" outsign="han" insign="él"/>
 <align out="a238+a240" type="" in="b180" creator="-101" outsign="der ikke" insign="no"/>
 <align out="a239" type="" in="b181" creator="-101" outsign="findes" insign="existen"/>
-<align out="a241+a249+a250" type="" in="b191" creator="-101" outsign="opgørelser kaster ud" insign="discográfico"/>
 <align out="a244+a245" type="" in="b184" creator="-101" outsign="hvor mange" insign="cuántos"/>
 <align out="a246" type="" in="b185" creator="-101" outsign="millioner" insign="millones"/>
 <align out="a247" type="" in="b186+b187" creator="-101" outsign="kroner" insign="de coronas"/>
-<align out="a248" type="" in="b188" creator="-101" outsign="pladebranchen" insign="utiliza"/>
 <align out="a251" type="" in="b192" creator="-101" outsign="i" insign="en"/>
 <align out="a256" type="" in="b196" creator="-101" outsign="men" insign="pero"/>
-<align out="a257" type="" in="b199" creator="-101" outsign="flere" insign="gente"/>
-<align out="a260" type="" in="b200" creator="-101" outsign="at" insign="que"/>
+<align out="a257" type="" in="b197" creator="-101" outsign="flere" insign="hay"/>
+<align out="a260" type="" in="b203" creator="-101" outsign="at" insign="que"/>
+<align out="a261" type="" in="b206+b208" creator="-101" outsign="det" insign="la el"/>
 <align out="a263" type="" in="b205" creator="-101" outsign="til" insign="a"/>
-<align out="a264" type="" in="b207" creator="-101" outsign="eftertanke" insign="reflexión"/>
+<align out="a264" type="" in="b199+b207+b209" creator="-101" outsign="eftertanke" insign="gente reflexión hecho"/>
 <align out="a266" type="" in="b211" creator="-101" outsign="at" insign="que"/>
 <align out="a267" type="" in="b212" creator="-101" outsign="det" insign="la"/>
 <align out="a268" type="" in="b214" creator="-101" outsign="totale" insign="total"/>
 <align out="a269" type="" in="b213" creator="-101" outsign="salg" insign="venta"/>
-<align out="a271" type="" in="b215" creator="-101" outsign="er" insign="ha"/>
+<align out="a270+a273" type="" in="b217+b218" creator="-101" outsign="alligevel ned" insign="apesarde todo"/>
+<align out="a271+a272" type="" in="b215" creator="-101" outsign="er gået" insign="ha"/>
+<align out="b4" type="" in="b4" creator="-101" outsign="de" insign="de"/>
 <align out="b32" type="" in="b32" creator="-101" outsign="de" insign="de"/>
 <align out="b41" type="" in="b41" creator="-101" outsign="de" insign="de"/>
 <align out="b60" type="" in="b60" creator="-101" outsign="de" insign="de"/>
 <align out="b78" type="" in="b78" creator="-101" outsign="de" insign="de"/>
 <align out="b103" type="" in="b103" creator="-101" outsign="la" insign="la"/>
+<align out="b105" type="" in="b105" creator="-101" outsign="de" insign="de"/>
 <align out="b127" type="" in="b127" creator="-101" outsign="los" insign="los"/>
 <align out="b129" type="" in="b129" creator="-101" outsign="de" insign="de"/>
-<align out="b140" type="" in="b140" creator="-101" outsign="que" insign="que"/>
 <align out="b173" type="" in="b173" creator="-101" outsign="de" insign="de"/>
 <align out="b210" type="" in="b210" creator="-101" outsign="de" insign="de"/>
 </DTAGalign>
