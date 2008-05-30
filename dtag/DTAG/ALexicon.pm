@@ -924,8 +924,8 @@ sub insert_regexp {
 
 # Intersect two ordered lists
 sub intsct {
-	my $list1 = shift;
-	my $list2 = shift;
+	my $list1 = shift || [];
+	my $list2 = shift || [];
 
 	$list1 = [ sort {$a <=> $b} @$list1 ];
 	$list2 = [ sort {$a <=> $b} @$list2 ];
@@ -1263,7 +1263,7 @@ sub match_keys {
 	my $keys = shift;
 
 	# Check whether all keys exist
-	my $defined = shift;
+	my $defined = shift || [];
 	foreach my $uckey (@$keys) {
 		my $key = lc($uckey);
 		if (defined($key)) {
@@ -1274,8 +1274,8 @@ sub match_keys {
 
 	# Sort keys according to number of matches
 	my @sorted = sort {
-		scalar(@{$hash->{$a} || []}) <=>
-			scalar(@{$hash->{$b} || []})
+		scalar(@{$hash->{$a}}) <=>
+			scalar(@{$hash->{$b}})
 	} @$defined;
 
 	# Intersect all lists

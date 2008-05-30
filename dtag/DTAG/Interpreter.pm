@@ -1070,11 +1070,27 @@ sub cmd_autoalign {
 	my $self = shift;
 	my $graph = shift;
 	my $files = shift;
+	my $default = shift;
 	
 	# Check that $graph is an Alignment
 	if (! UNIVERSAL::isa($graph, 'DTAG::Alignment')) {
 		error("no active alignment");
 		return 1;
+	}
+
+	# Turn off autoaligner if argument is "-off"
+	if ($files =~ /^\s*-off\s*$/) {
+		$graph->var('autoalign', 0);
+		$self->cmd_return();
+		return 1;
+	}
+
+	# If first file argument is "-default" and an alexicon already
+	# exists, then drop given files
+	if ($files =~ /^\s*-default\s+/ 
+			&& ($graph->alexicon() || $self->var('alexicon'))) {
+		notify("Reusing existing alignment lexicon\n");
+		$files = "";
 	}
 
 	# Save current graph
@@ -1106,11 +1122,16 @@ sub cmd_autoalign {
 				$sublexicon->train($alignment);
 			}
 		}
-	} elsif (! $graph->alexicon() && $self->var('alexicon')) {
+	} elsif ($graph->alexicon()) {
 		# Use previous alignment lexicon
-			$alexicon = $self->var('alexicon');
-			$graph->alexicon($alexicon);
-			inform("Using previous alignment lexicon");
+		$alexicon = $graph->alexicon();
+		$graph->alexicon($alexicon);
+		inform("Using previous alignment lexicon");
+	} elsif ($self->var('alexicon')) {
+		# Use previous alignment lexicon
+		$alexicon = $self->var('alexicon');
+		$graph->alexicon($alexicon);
+		inform("Using previous alignment lexicon");
 	} else {
 		error("No alignment lexicon specified");
 		return 1;
@@ -3828,6 +3849,12 @@ sub cmd_offset_align {
 	my $graph = shift;
 	my $offsets = shift;
 
+	# Check for auto offset
+	if ($offsets eq "auto") {
+		$graph->auto_offset();
+		return 1;
+	}
+
 	# Process offsets
 	while ($offsets =~ s/^\s+([-+=])?([a-z])(-?[0-9]+)//) {
 		# Find sign, key, and number
@@ -3843,6 +3870,9 @@ sub cmd_offset_align {
 		} elsif ($sign eq "=") {
 			$graph->offset($key, $number);
 		}
+
+		# Check that offset is valid
+		$graph->offset($key, 0) if ($graph->offset($key) < 0);
 
 		# Set imin accordingly
 		$graph->{'imin'}{$key} = $graph->offset($key);
@@ -5735,6 +5765,32 @@ sub max {
 			
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_view_align.pl
+## ------------------------------------------------------------
+
+sub cmd_view_align {
+	my $self = shift;
+	my $graph = shift;
+	my $nodestr = shift;
+
+	# Check node argument
+	$nodestr =~ /^([a-z])([0-9]+)$/;
+	my ($key, $node) = ($1, $2);
+	return 0 if (! (defined($1) && defined($2)));
+	$node += $graph->offset($key) || 0;
+
+	# Print alignment edges attached to given node
+	my @edges = map {$graph->edge($_)} @{$graph->node_edges($key, $node)};
+	foreach my $edge (@edges) {
+		print $edge->string($graph->{'offsets'});
+	}
+	print "\n";
+	return 1;
+
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_viewer.pl
 ## ------------------------------------------------------------
 
@@ -6036,6 +6092,10 @@ sub do {
 		$success = $self->cmd_offset_align($graph, $1)
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment')
 				&& $cmd =~ /^\s*offset((\s+([-+=])?([a-z]-?[0-9]+))*)\s*$/);
+		$success = $self->cmd_offset_align($graph, "auto")
+			if (UNIVERSAL::isa($graph, 'DTAG::Alignment')
+				&& $cmd =~ /^\s*offset\s+-auto\s*$/);
+
 
 		# ok: ok
 		$success = $self->cmd_ok($graph) 
@@ -6104,10 +6164,12 @@ sub do {
 
 		# Show: show [-component] $imin1[-$imax1] $imin2[-$imax2]
 		# $success = $self->cmd_show($graph, $3, $5)
-		if ($cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[0-9]+(-[0-9]+)?)*)\s*$/) {
+		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show($graph, $5, $2);
 		}
-		if ($cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[a-z][0-9]+)?)*)\s*$/) {
+		if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[a-z][0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show_align($graph, $5, $2);
 		}
 
@@ -6154,9 +6216,14 @@ sub do {
 
 		# View: view
 		$success = $self->cmd_view($graph, $1, $1) 
-			if ($cmd =~ /^\s*view\s*([+-]?[0-9]+)?\s*$/);
+			if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+				$cmd =~ /^\s*view\s*([+-]?[0-9]+)?\s*$/);
 		$success = $self->cmd_view($graph, $1, $2) 
-			if ($cmd =~ /^\s*view\s+([0-9]+)-([0-9]+)\s*$/);
+			if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+				$cmd =~ /^\s*view\s+([0-9]+)-([0-9]+)\s*$/);
+		$success = $self->cmd_view_align($graph, $1) 
+			if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
+				$cmd =~ /^\s*view\s+([a-z][0-9]+)\s*$/);
 
 		# Viewer: viewer
 		$success = $self->cmd_viewer($graph) 
