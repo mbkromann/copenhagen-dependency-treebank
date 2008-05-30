@@ -200,7 +200,7 @@ sub giza2dtag {
 			if ($aedge =~ /(\+.*){4,}/) {
 				++$ignorecount;
 				print "ignoring alignment edge with more than 6 nodes: $aedge\n";
-			} else {
+			} elsif (! ($aedge =~ / in=\"\"/ || $aedge =~ / out=\"\"/)) {
 				print ATAG $aedge;
 			}
 		}

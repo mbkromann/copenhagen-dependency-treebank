@@ -51,7 +51,8 @@ if echo $fname | grep '.atag' ; then
 	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
 		echo "cd /home/cdt/cdt/$dir"
 		echo "load $fname" >> ~/.script
-		#echo "autoalign *.atag" >> ~/.script
+		echo "autoalign -default *.atag" >> ~/.script
+		echo "# Stop autoaligner with \"autoalign -off\"" >> ~/.script
 	else
 		echo "ERROR: cannot open/create file $file"
 		echo "Please contact Matthias if you think this is an error"

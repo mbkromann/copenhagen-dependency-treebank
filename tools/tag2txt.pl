@@ -10,6 +10,11 @@ sub tag2txt {
 	# Process each TAG file
 	while (my $file = <STDIN>) {
 		# Open TAG file
+		chomp($file);
+		if (! -e "$file") {
+			$file =~ s/\.tag/-auto.tag/g;
+		}
+
 		open(TAG, "<$file");
 		$file =~ /.*\/([0-9]+)-.*\.tag/;
 		my $fid = $1;

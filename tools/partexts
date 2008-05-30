@@ -1,0 +1,38 @@
+#!/bin/bash
+
+slang=$1
+tlang=$2
+stext=tmp/$slang-$tlang.$slang.txt
+ttext=tmp/$slang-$tlang.$tlang.txt
+
+# Check arguments
+if [ -z "$slang" -o -z "$tlang" ] ; then
+	echo "Usage: partexts [slang] [tlang]"
+fi
+
+# Find file names in parallel corpora
+stexts=`ls $tlang/*.txt | sed -e "s/$tlang\//$slang\//g" -e "s/-$tlang.txt/-$slang.txt/g"| xargs ls 2>/dev/null`
+ttexts=`echo $stexts | sed -e "s/$slang\//$tlang\//g" -e "s/-$slang.txt/-$tlang.txt/g"`
+
+# Create source text file
+echo > $stext
+for f in `echo $stexts` ; do 
+	g=`echo $f | sed -e "s/$slang\//XX\//g" -e "s/-$slang.txt/-XX.txt/g"`
+	g="$g\n$g"
+	g="$g\n$g"
+	g="$g\n$g"
+    echo -e "\n\n$g\n\n" >> $stext
+	cat $f | sed -e 's/.\{70\} /&\n/g' >> $stext
+done
+
+# Create target text file
+echo > $ttext
+for f in `echo $ttexts` ; do 
+	g=`echo $f | sed -e "s/$tlang\//XX\//g" -e "s/-$tlang.txt/-XX.txt/g"`
+   	g="$g\n$g"
+	g="$g\n$g"
+	g="$g\n$g"
+    echo -e "\n\n$g\n\n" >> $ttext
+	cat $f | sed -e 's/.\{70\} /&\n/g' >> $ttext
+done
+
