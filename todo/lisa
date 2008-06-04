@@ -1,6 +1,7 @@
 # Indsæt "*" når annotationen er afsluttet
 [*] da-it/0502-da-it-lisa.atag
 [ ] it/0502-it-lisa.tag
+[ ] it/0502-it-lisa.tag
 [ ] da-it/1347-da-it-lisa.atag
 [ ] it/1347-it-lisa.tag
 
@@ -11,7 +12,6 @@
 [ ] da-it/0388-da-it-lisa.atag
 [ ] it/0388-it-lisa.tag
 [ ] da-it/0502-da-it-lisa.atag
-[ ] it/0502-it-lisa.tag
 [ ] da-it/0602-da-it-lisa.atag
 [ ] it/0602-it-lisa.tag
 [ ] da-it/0620-da-it-lisa.atag
