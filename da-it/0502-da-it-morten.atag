@@ -172,11 +172,21 @@
 <align out="a245" type="" in="b172" creator="0" insign="dal" outsign="ved"/>
 <align out="a246" type="s" in="b172" creator="0" insign="dal" outsign="Det"/>
 <align out="a247 a248" type="" in="b173 b174" creator="0" insign="Mar Rosso" outsign="Røde Hav"/>
-<align out="a254" type="" in="b176" creator="-100" insign="Sheraton" outsign="Sheraton"/>
-<align out="a256" type="" in="b178" creator="-100" insign="Luxor" outsign="Luxor"/>
-<align out="a232" type="" in="b161" creator="-100" insign="Di" outsign="På"/>
-<align out="a255" type="" in="b177" creator="-100" insign="a" outsign="i"/>
-<align out="a237" type="" in="b168" creator="-100" insign="." outsign="."/>
-<align out="a249" type="" in="b175" creator="-100" insign="." outsign="."/>
-<align out="a257" type="" in="b179" creator="-100" insign="." outsign="."/>
+<align out="a261" type="" in="b181" creator="0" insign="sulla" outsign="nedover"/>
+<align out="a262" type="" in="b182" creator="0" insign="piscina" outsign="svømmepølen"/>
+<align out="a263" type="" in="b183" creator="0" insign="ed" outsign="og"/>
+<align out="a264" type="" in="b184 b185" creator="0" insign="il Nilo" outsign="Nilen"/>
+<align out="a265" type="" in="b186" creator="0" insign="verso" outsign="mod"/>
+<align out="a266" type="" in="a266" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a270" type="" in="a270" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a260" type="" in="b180" creator="-1" insign="Vista" outsign="Udsigt"/>
+<align out="a254" type="" in="b176" creator="-1" insign="Sheraton" outsign="Sheraton"/>
+<align out="a255" type="" in="b177" creator="-1" insign="a" outsign="i"/>
+<align out="a232" type="" in="b161" creator="-1" insign="Di" outsign="På"/>
+<align out="a256" type="" in="b178" creator="-1" insign="Luxor" outsign="Luxor"/>
+<align out="a237" type="" in="b168" creator="-1" insign="." outsign="."/>
+<align out="a249" type="" in="b175" creator="-1" insign="." outsign="."/>
+<align out="a257" type="" in="b179" creator="-1" insign="." outsign="."/>
+<align out="a267 a268 a269" type="" in="b187 b188 b189 b190 b191 b192 b193" creator="-1" insign="la “Valle dei Re e dei Nobili”" outsign="De dødes rige"/>
+<align out="a271" type="" in="b194" creator="-1" insign="." outsign="."/>
 </DTAGalign>
