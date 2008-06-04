@@ -98,7 +98,7 @@ macro setname !~/cdt/tools/dtag-setname
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
-option iconv iconv -c -f UTF8 -t ISO_8859-1
+option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 #option post-start
 #option post-save
 #option post-exit

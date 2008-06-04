@@ -4265,9 +4265,11 @@ sub cmd_print {
 	if ($file) {
 		my $ps = $graph->postscript($self) || "\n";
 		my $tmpfile = $file . "~";
-		open(PSFILE, ">:encoding(iso-8859-1)", $file . "~") 
+		#open(PSFILE, ">:encoding(iso-8859-1)", $file . "~") 
+		open(PSFILE, ">:encoding(utf8)", $file . "~") 
 			|| return error("cannot open file $file for printing!");
 		print PSFILE $ps;
+		print $ps;
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
 		system($iconv . " $tmpfile > $file");
@@ -6301,12 +6303,13 @@ sub do {
 
 		# Macro
 		if ($cmd =~ /^\s*(\w+)\s*$/ || $cmd =~ /^\s*(\w+)\s+(.*)\s*$/) {
-			my $cmd = $self->{'macros'}{$1};
+			my ($x1, $x2) = ($1, $2);
+			my $cmd = $self->{'macros'}{$x1};
 			my $cmd2 = $cmd || "";
-			if ($cmd && defined($2) && $cmd =~ /{ARG}/) {
-				$cmd2 =~ s/{ARG}/$2/;
+			if ($cmd && defined($x2) && $cmd =~ /{ARG}/) {
+				$cmd2 =~ s/{ARG}/$x2/;
 			} elsif ($cmd) {
-				$cmd2 =~ . " " . ($2 || "");
+				$cmd2 .=  " " . ($x2 || "");
 			}
 			$self->do($cmd2);
 			$success = 1;
