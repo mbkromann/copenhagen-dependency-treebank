@@ -1086,11 +1086,9 @@ sub cmd_autoalign {
 
 	# If first file argument is "-default" and an alexicon already
 	# exists, then drop given files
-	if ($files =~ /^\s*-default\s+/ 
-			&& ($graph->alexicon() || $self->var('alexicon'))) {
-		inform("Reusing existing alignment lexicon\n");
-		$files = "";
-	}
+	$files = ""
+		if ($files =~ /^\s*-default\s+/ 
+			&& ($graph->alexicon() || $self->var('alexicon')));
 
 	# Save current graph
 	my $currentgraph = $self->{'graph'};
@@ -1509,7 +1507,12 @@ sub cmd_del {
 	}
 
 	# Delete node, if requested
-	if (! defined($etype)) {
+	if ($graph->{'block_nodedel'}) {
+		print "WARNING: Node deletion turned off: only incoming edges deleted\n";
+		print "Please use \"edel <node>\" when deleting in-edges\n";
+		print "Node deletion can be turned on/off with \"del -on\" / \"del -off\"\n";
+		$self->cmd_edel($graph, $nodeinr);
+	} elsif (! defined($etype)) {
 		# Delete node
 		splice(@{$graph->nodes()}, $nodein, 1);
 
@@ -1789,6 +1792,38 @@ sub compare_graphs {
 #		$nedges1, $nedges2, $nplus1, $nplus2, 
 #		100 * ($nplus1 + $nplus2) / (($nedges1 + $nedges2) || 1); 
 #
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_edel.pl
+## ------------------------------------------------------------
+
+sub cmd_edel {
+	my $self = shift;
+	my $graph = shift;
+	my $noderel = shift;
+
+	# Apply offset
+	my $node = defined($noderel) ? $noderel + $graph->offset() : undef;
+
+	# Check that $nodein is valid
+	my $n  = $graph->node($node);
+	return error("Non-existent node: " . ( $node || "?")) 
+		if ((! defined($node)) || (! ref($n)));
+
+	# Delete all in-edges at $n
+	my @edges = @{$n->in()};
+	foreach my $e (@edges) {
+		# Delete edge if it matches description
+		$graph->edge_del($e) 
+	}
+
+	# Mark graph as modified
+    $graph->mtime(1);
+
+	# Return
+	return 1;
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_edge.pl
@@ -4937,12 +4972,19 @@ sub cmd_save_matches {
 sub cmd_save_tag {
 	my $self = shift;
 	my $graph = shift;
-	my $file = shift;
+	my $file = shift || "";
 
 	# Update tag file name
 	$graph->file($file) if ($file);
 	$file = $graph->file();
 
+	# Check whether file name exists
+    if (! $file) {
+		error("cannot save: no name specified for file")
+			if ($graph->mtime());
+		return 1;
+	}
+						
 	# Open tag file
 	Node->use_color(0);
 	open(XML, "> $file") 
@@ -5963,10 +6005,23 @@ sub do {
 		$success = $self->cmd_del_align($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
 				$cmd =~ /^\s*del\s+([a-z]-?[0-9]+)\s*$/);
-
+		if ($cmd =~ /^\s*del\s+-on\s*$/) {
+			$success = 1;
+			$graph->{'block_nodedel'} = 0;
+		}
+		if ($cmd =~ /^\s*del\s+-off\s*$/) {
+			$success = 1;
+			$graph->{'block_nodedel'} = 1;
+		}
+		
 		# Diff: diff $file
 		$success = $self->cmd_diff($graph, $2)
 			if ($cmd =~ /^\s*diff\s*(\s(\S*))?\s*$/);
+
+		# Delete incoming edges at node: edel $node
+		$success = $self->cmd_edel($graph, $1) 
+			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && 
+				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/);
 
 		# Edit node/edge: edit $node [$var[=$value]]
 		#	"edit 12 gloss=him"
@@ -6105,6 +6160,20 @@ sub do {
 			if (($cmd =~ /^\s*option\s*([A-Za-z-]+)\s+(\S.*)$/)
 				|| ($cmd =~ /^\s*option\s*([A-za-z-]+)\s*$/));
 
+		# Offset and show: oshow $offset
+		if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
+				&& $cmd =~ /^\s*oshow(\s+([-+=])?([0-9]+))?\s*$/) {
+			my ($sign, $offset) = ($2, $3);
+			$success = $self->cmd_offset($graph, $sign, $offset);
+			$success = $self->cmd_show($graph, " 0");
+		}
+		
+	
+		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
+			my $offset = $1;
+		}
+
 		# parse2dtag: parse2dtag $ifile $ofile
 		$success = $self->cmd_parse2dtag($1, $2) 
 			if ($cmd =~ /^\s*parse2dtag\s+(\S+)\s+(\S+)\s*$/);
@@ -6233,11 +6302,14 @@ sub do {
 		# Macro
 		if ($cmd =~ /^\s*(\w+)\s*$/ || $cmd =~ /^\s*(\w+)\s+(.*)\s*$/) {
 			my $cmd = $self->{'macros'}{$1};
-			if ($cmd) {
-				my $cmd2 = $cmd . " " . ($2 || "");
-				$self->do($cmd2);
-				$success = 1;
+			my $cmd2 = $cmd || "";
+			if ($cmd && defined($2) && $cmd =~ /{ARG}/) {
+				$cmd2 =~ s/{ARG}/$2/;
+			} elsif ($cmd) {
+				$cmd2 =~ . " " . ($2 || "");
 			}
+			$self->do($cmd2);
+			$success = 1;
 		}
 
 	# ---------- SPECIAL COMMANDS THAT MUST GO AT THE END ----------
