@@ -12,8 +12,9 @@ if ps aux | grep gnome | grep -v grep > /dev/null ; then
     echo "Updating Gnome desktop icons"
 	cp $installdir/gnome/*.desktop $home/Desktop
 fi
-if ps aux | grep xfce | grep -v grep
+if ps aux | grep xfce | grep -v grep > /dev/null ; then
     echo "Updating XFCE desktop icons"
+	cp $installdir/xfce/*.desktop $home/Desktop
 fi
 
 # Run update program
