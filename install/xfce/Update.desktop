@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Update CDT
+Comment=Update CDT program and treebank files
+Categories=Application;
+Exec=xfce4-terminal -t "Update CDT" --working-directory=/home/cdt/cdt/install -e /home/cdt/cdt/install/update.sh --hide-menubar
+Icon=gdm
+Terminal=false
+StartupNotify=false
