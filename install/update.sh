@@ -8,11 +8,11 @@ svn update --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
 
 # Copy desktop icons to desktop
 echo Updating desktop icons
-if ps aux | grep gnome | grep -v grep > /dev/null ; then
+if ps aux | grep -v grep | grep gnome-session > /dev/null ; then
     echo "Updating Gnome desktop icons"
 	cp install/gnome/*.desktop ~/Desktop
 fi
-if ps aux | grep xfce | grep -v grep > /dev/null ; then
+if ps aux | grep -v grep | grep xfce-mcs-manage /dev/null ; then
     echo "Updating XFCE desktop icons"
 	cp install/xfce/*.desktop ~/Desktop
 fi
