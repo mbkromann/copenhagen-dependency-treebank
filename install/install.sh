@@ -36,7 +36,13 @@ else
 fi
 
 # Copy icons to desktop
-cp $installdir/*.desktop $home/Desktop
+if ps aux | grep gnome | grep -v grep > /dev/null ; then
+	echo "Gnome desktop (eg, Ubuntu): copying Gnome desktop icons"
+	cp $installdir/gnome/*.desktop $home/Desktop
+fi
+if ps aux | grep xfce | grep -v grep
+	echo "XFCE desktop (eg, Xubuntu): copying XFCE desktop icons"
+fi
 
 # Extract dtag archive
 echo

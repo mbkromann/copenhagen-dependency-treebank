@@ -24,7 +24,9 @@ ln -s $cdtdir /opt/
 ln -s /opt/dtag/dtag /usr/local/bin/dtag
 
 # Ask user to download and install debian packages
-dpkg --set-selections < $installdir/packages.txt
+cd /tmp
+wget http://www.buch-kromann.dk/cdt/packages.txt
+dpkg --set-selections < packages.txt
 apt-get dselect-upgrade
 
 
