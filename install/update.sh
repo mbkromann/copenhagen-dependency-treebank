@@ -8,7 +8,13 @@ svn update --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
 
 # Copy desktop icons to desktop
 echo Updating desktop icons
-cp ~/cdt/install/*.desktop ~/Desktop
+if ps aux | grep gnome | grep -v grep > /dev/null ; then
+    echo "Updating Gnome desktop icons"
+	cp $installdir/gnome/*.desktop $home/Desktop
+fi
+if ps aux | grep xfce | grep -v grep
+    echo "Updating XFCE desktop icons"
+fi
 
 # Run update program
 updates=~/cdt-all/trunk/install/updates
