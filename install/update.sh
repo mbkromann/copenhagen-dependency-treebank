@@ -41,7 +41,7 @@ echo "YOU CAN START DTAG NOW!"
 echo
 echo "Updating local copy of www.treebank.dk"
 cd ~
-if [ ! -d web ] ; then
+if [ ! -d web/www.treebank.dk ] ; then
 	mkdir -p web 
 	cd web
 	httrack -w www.treebank.dk && ln -s httrack/www.treebank.dk treebank.dk
