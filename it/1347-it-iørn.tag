@@ -240,3 +240,4 @@
 <W lemma="interesse" msd="NC" tag="NOM" in="" out="">interesse</W>
 <W lemma="comune" msd="AN" tag="ADJ" in="" out="">comune</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+
