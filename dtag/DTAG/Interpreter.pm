@@ -4269,7 +4269,6 @@ sub cmd_print {
 		open(PSFILE, ">:encoding(utf8)", $file . "~") 
 			|| return error("cannot open file $file for printing!");
 		print PSFILE $ps;
-		print $ps;
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
 		system($iconv . " $tmpfile > $file");
