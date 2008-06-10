@@ -18,7 +18,7 @@ if [ ! -f $todo ] ; then
 fi
 
 # Find first incomplete task
-file=`grep -v '[*]' $todo | head -1 | sed -e 's/\[.\] //g'`
+file=`grep '\[ \]' $todo | head -1 | sed -e 's/\[.\] //g'`
 dir=`echo $file | sed -e 's/\/.*$//g'`
 fname=`echo $file | sed -e 's/^.*\///g'`
 if [ -z "$fname" ] ; then
@@ -28,7 +28,8 @@ if [ -z "$fname" ] ; then
 fi
 
 # Reset script file
-echo "save" > ~/.script
+mkdir -p /home/cdt/backup
+echo "save /home/cdt/backup/backup-`date +%F-%H:%M:%S`" > ~/.script
 echo "close -all" >> ~/.script
 echo "cd /home/cdt/cdt/$dir" >> ~/.script
 
@@ -77,7 +78,9 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 
 	# Aparse the file if it contains no dependency edges
 	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
-		if ! egrep 'in="[^"]' $fname | egrep 'out="[^"]' > /dev/null ; then
+		if egrep 'in="[^"]' $fname | egrep 'out="[^"]' ; then
+			echo "File contains dependency edges"
+		else 
 			# Identify id and language
 			id=`echo $rfname | awk -F'-' '{ print $1 }'`
 			lang=`echo $rfname | awk -F'-' '{ print $2 }'`
@@ -114,7 +117,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 				echo "load ../$lang/$id-$lang-auto.tag" >> ~/.script
 				echo "aparse $atagname" >> ~/.script
 				echo "cd /home/cdt/cdt/$dir" >> ~/.script
-				echo "save $fname" >> ~/.script
+				#echo "save $fname" >> ~/.script
 				echo "close -all" >> ~/.script
 			fi
 		fi
@@ -124,6 +127,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
 		echo "cd /home/cdt/cdt/$dir"
 		echo "load $fname" >> ~/.script
+		echo "del -off" >> ~/.script
 	else
 		echo "ERROR: cannot find file $file"
 	fi
