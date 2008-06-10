@@ -7,7 +7,7 @@
 <W lemma="questo" msd="PD" tag="PRO:demo" in="4:xtop" out="4:ref">questo</W>
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:namef">Kjærsgaard</W>
-<W lemma="dovere" msd="VA" tag="VER:cond" in="" out="-5:pnct|3:pnct|1:voj|-4:coord">dovrebbe</W>
+<W lemma="dovere" msd="VA" tag="VER:cond" in="" out="-5:pnct|-4:coord|1:voj|3:pnct">dovrebbe</W>
 <W _compound="1" lemma="sapere" msd="VAF" tag="VER:infi" in="-4:ref|-1:voj" out="-4:xtop|1:man">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -20,7 +20,7 @@
 <W lemma="riguardare" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj">riguarda</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="politica|politico" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">politiche</W>
-<W lemma="sul" msd="SP+P" tag="PRE:det" in="3:conj|-1:attrr" out="1:nobj">sugli</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:attrr|3:conj" out="1:nobj">sugli</W>
 <W lemma="immigrato" msd="NC" tag="NOM" in="-1:nobj" out="">immigrati</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="-1:coord|-3:conj|1:nobj">i</W>
@@ -32,7 +32,7 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-18:conj" out="-2:subj|-3:coord|1:vobj|6:dobj|28:pnct">ha</W>
 <W lemma="produrre" msd="VAP" tag="VER:pper" in="-1:vobj" out="">prodotto</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="fra" msd="SP" tag="PRE" in="" out="-1:pnct|2:pnct|1:nobj">fra</W>
+<W lemma="fra" msd="SP" tag="PRE" in="" out="-1:pnct|1:nobj|2:pnct">fra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">l’altro</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-6:dobj" out="1:nobj|4:attrr">un</W>
@@ -41,7 +41,7 @@
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attrr" out="">politico</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-4:attrr" out="1:vobj">che</W>
 <W lemma="stabilire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:dobj">stabilisce</W>
-<W lemma="quale" msd="PT" tag="PRO:rela" in="-1:dobj" out="2:vobj|1:nobj">quale</W>
+<W lemma="quale" msd="PT" tag="PRO:rela" in="-1:dobj" out="1:nobj|2:vobj">quale</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:nobj" out="">stato</W>
 <W lemma="dovere" msd="VADR" tag="VER:cpre" in="-2:vobj" out="1:vobj|2:preds">debba</W>
 <W lemma="ritenere" msd="VAF" tag="VER:infi" in="-1:vobj" out="">ritenersi</W>
