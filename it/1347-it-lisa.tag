@@ -29,7 +29,7 @@
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">la</W>
 <W lemma="collaborazione" msd="NC" tag="NOM" in="-1:nobj" out="">collaborazione</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-18:conj" out="-2:subj|-3:coord|1:vobj|6:dobj">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-18:conj" out="-2:subj|-3:coord|1:vobj|6:dobj|28:pnct">ha</W>
 <W lemma="produrre" msd="VAP" tag="VER:pper" in="-1:vobj" out="">prodotto</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="fra" msd="SP" tag="PRE" in="" out="-1:pnct|2:pnct|1:nobj">fra</W>
@@ -57,7 +57,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">dei</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">paesi</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:attrr" out="">membri</W>
-<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
 <W lemma="quando" msd="PT" tag="PRO:inter" in="" out="">Quando</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">l’accordo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">entrerà</W>
