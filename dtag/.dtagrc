@@ -96,7 +96,7 @@ macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script
 macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 macro tasks !gedit /home/cdt/cdt/todo/`cat ~/.cdtname` &
-macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html
+macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &

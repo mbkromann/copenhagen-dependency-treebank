@@ -1443,6 +1443,7 @@ sub cmd_compound {
 	my $graph = shift;
 	my $noder = shift;
 	my $arg = shift;
+	$arg =~ s/^\s+(\S)/$1/g;
 
 	# Apply offset
 	my $node = defined($noder) ? $noder + $graph->offset() : undef;
