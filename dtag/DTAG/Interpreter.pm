@@ -4264,14 +4264,17 @@ sub cmd_print {
 	# Print file
 	if ($file) {
 		my $ps = $graph->postscript($self) || "\n";
-		my $tmpfile = $file . "~";
+		my $tmpfile = $file . ".utf8";
 		#open(PSFILE, ">:encoding(iso-8859-1)", $file . "~") 
-		open(PSFILE, ">:encoding(utf8)", $file . "~") 
+		#open(PSFILE, ">:utf8", $tmpfile) 
+		open(PSFILE, ">", $tmpfile) 
 			|| return error("cannot open file $file for printing!");
 		print PSFILE $ps;
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
-		system($iconv . " $tmpfile > $file");
+		my $cmd = $iconv . " $tmpfile > $file";
+		print "$cmd\n";
+		system($cmd);
 	}
 
 	# Return
