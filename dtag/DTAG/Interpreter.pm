@@ -1435,6 +1435,41 @@ sub cmd_complements {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_compound.pl
+## ------------------------------------------------------------
+
+sub cmd_compound {
+	my $self = shift;
+	my $graph = shift;
+	my $noder = shift;
+	my $arg = shift;
+
+	# Apply offset
+	my $node = defined($noder) ? $noder + $graph->offset() : undef;
+
+	# Find node 
+	my $N = $graph->node($node);
+	if ($arg) {
+		$N->var('compound', $arg);
+	}
+	
+	# Errors: non-existent node, or comment node
+	return error("Non-existent node: $noder") if (! $N);
+	return error("Node $noder is a comment node.") if ($N->comment());
+
+
+	# Mark graph as modified and add existing compound
+	my $compound = $N->var('compound') || $N->input();
+	if ((! $arg) && $compound) {
+		$self->nextcmd("compound $noder $compound");
+	} 
+	$graph->mtime(1);
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_corpus.pl
 ## ------------------------------------------------------------
 
@@ -4273,8 +4308,8 @@ sub cmd_print {
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
 		my $cmd = $iconv . " $tmpfile > $file";
-		print "$cmd\n";
 		system($cmd);
+		system("rm $tmpfile");
 	}
 
 	# Return
@@ -5994,6 +6029,10 @@ sub do {
 		$success = $self->cmd_complements($graph, $1) 
 			if ($cmd =~ /^\s*complements(\s+.*)?$/);
 
+		# Compound: compound $node [segment|segment|...] 
+		$success = $self->cmd_compound($graph, $1, $2)
+			if ($cmd =~ /^\s*compound\s+([0-9]+)(.*)$/);
+			
 		# Corpus: corpus $files
 		$success = $self->cmd_corpus($1) 
 			if ($cmd =~ /^\s*corpus(\s+.*)?$/);
