@@ -38,6 +38,10 @@ layout -stream $n->var('speaker')
 
 # How to compute the style associated with a node or label
 layout -nstyles [\
+	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
+		?  "nogoverror" : ""),\
+	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) > 1 \
+		?  "manygoverror" : ""),\
 	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
 	split('\|', $n->var('styles') || ""), \
 	($l eq "sdeps" ? "redlbl" : "") ]
@@ -51,6 +55,9 @@ layout -estyles \
 	my $dying = ($s && $s2 && ($s == $s2)) ? "dying" : ""; \
 	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
 	[	'speaker:' . ($G->node($e->in())->var('speaker') || 0),\
+		($G->is_known_edge($e) ? "" : "unknownetypeerror"),\
+		(scalar(grep {$G->is_dependent($_)} @{$G->node($e->in())->in()}) > 1 \
+			?  "edgeconflict" : ""),\
 		split('\|', $G->node($e->in())->var('styles') || ""),\
 		map {split(':', $_)} \
 			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /$1/} \
@@ -81,6 +88,10 @@ style newborn -arclabel -ps "0 0.5 0 setrgbcolor" -arc -ps "0 0.5 0 setrgbcolor"
 style dying -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor" 
 style dead -arclabel -ps "1 0.2 0.2 setrgbcolor" -arc -ps "1 0.2 0.2 setrgbcolor [1 2] 0 setdash" 
 style secondary -arc -ps "[1 4] 0 setdash"
+style nogoverror -label -color blue -fonttype bold
+style manygoverror -label -color red -fonttype bold
+style unknownetypeerror  -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
+style edgeconflict -arclabel -color red -fonttype bold
 
 # Macros for greek and latin text
 #macro russian layout -graph -pssetup "true (rus) /Cyrillic /Cyrillic /Cyrillic-Ital /Cyrillic-Ital createfontfamily setfontfamily setupfont"
@@ -105,3 +116,11 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 #option post-save
 #option post-exit
 #option post-print
+
+# Edge types
+etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd pred qobj robj subj tobj vobj
+etypes -adj adjuncts appa appr attrd attrr ben bg cause conc cond conj cons coord degr ext goal inst list man mod modo modp modr name namef namel neg other path pnct prg rel source space struct time title voc xpl xtop
+etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
+etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
+etypes -land land xland
+etypes -ref ref

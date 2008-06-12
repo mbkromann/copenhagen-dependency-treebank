@@ -83,36 +83,11 @@ $pstrailer->{'arcs'} = readfile("$src/arcs.trailer");
 # Default edges used in the treebank
 my $etypes = 
 	{
-		'comp' =>
-			['aobj', 'avobj', 'dobj', 'expl', 'fobj', 'iobj', 'lobj',
-			'nobj', 'numa', 'numm', 'part', 'pobj', 'possd', 'pred',
-			'qobj', 'subj', 'tobj', 'vobj'],
-
-		'adj' =>
-			['appa', 'appr', 'coord', 'mod', 'modo', 'modp', 'modr',
-			'name', 'namef', 'namel', 'pnct', 'rel', 'title', 'voc',
-			'xpl', 'xtop'],
-		'gap' =>
-			['<avobj>', '<dobj>', '<lobj>', '<nobj>', '<pobj>', '<pred>',
-			'<subj>', '<mod>', '<xpl>', '<pobj:nobj>', '<subj:pobj>'],
-		'other' =>
-			['conj', 'err', 'list', 'rep'],
-		'fill' =>
-			['[avobj]', '[dobj]', '[expl]', '[iobj]', '[mod]', '[namef]',
-			'[nobj]', '[pobj]', '[possd]', '[pred]', '[subj]'],
-		'land' =>
-			['land', 'xland'],
-		'ref' =>
-			['ref'],
+		'comp' => [],
+		'adj' => [],
+		'land' => [],
+		'other' => []
 	};
-$etypes->{'deep'} = 
-	[	@{$etypes->{'comp'}}, 
-	 	@{$etypes->{'adj'}}, 
-	 	@{$etypes->{'gap'}}, 
-	 	@{$etypes->{'other'}}
-	];
-$etypes->{'surf'} =
-	$etypes->{'land'};
 
 
 ## ------------------------------------------------------------
@@ -410,7 +385,7 @@ sub depths {
 	$depths->{$node} = [];
 
 	# Find deep parent(s) of node
-	my @deep = (@{$etypes->{'deep'}});
+	my @deep = (@{$etypes->{'comp'}}, @{$etypes->{'adj'}});
 	my $maxdepth = 0;
 	foreach my $e (@{$nodeobj->in()}) {
 		if (grep {$e->type() eq $_} @deep) {
@@ -526,7 +501,7 @@ sub dtag2cfg {
 	}
 
 	# Process each node in the graph
-	my @deep = @{$self->etypes()->{'deep'}};
+	my @deep = (@{$self->etypes()->{'comp'}}, @{$self-etypes()->{'adj'}});
 	my $sent = 0;
 	for (my $n = 0; $n < $self->size(); ++$n) {
 		my $node = $self->node($n);
@@ -678,8 +653,10 @@ sub etypes {
 	my $self = shift;
 
 	# Set etypes
+	my $interpreter = $self->{'interpreter'};
 	if (@_) {
-		my $etypes0 = $self->var('etypes') || $etypes;
+		my $etypes0 = $self->var('etypes') 
+			|| ($interpreter ? $interpreter->{'etypes'} : undef) || $etypes;
 		my $etypes1 = shift;
 
 		# Copy all missing etypes from $etypes0 to $etypes1
@@ -689,22 +666,14 @@ sub etypes {
 			}
 		}
 
-		# Update authomatically created etypes
-		$etypes1->{'deep'} =
-		    [   @{$etypes1->{'comp'} || []},
-		        @{$etypes1->{'adj'} || []},
-		        @{$etypes1->{'gap'} || []},
-		        @{$etypes1->{'other'} || []}
-		    ];
-		$etypes1->{'surf'} =
-		    $etypes1->{'land'};
-
 		# Set new etypes
 		$self->var('etypes', $etypes1);
 	}
 
 	# Return etypes
-	return $self->var('etypes', @_) || $etypes;
+	return $self->var('etypes', @_) 
+		|| ($interpreter ?  $interpreter->{'etypes'} : undef) 
+		|| $etypes;
 }
 
 
@@ -810,7 +779,7 @@ Return governor $gov for node $node.
 sub governor {
 	my $self = shift;
 	my $node = shift;
-	my @deep = @{$self->etypes()->{'deep'}};
+	my @deep = (@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}});
 
 	# Find governor and landing site edges
 	my $governor;
@@ -918,6 +887,23 @@ sub is_dependent {
 	my $type = ref($edge) ? $edge->type() : $edge;
 	return 1 if (grep {$type eq $_} 
 		(@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}}));
+
+	# Otherwise return 0
+	return 0;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/is_known_edge.pl
+## ------------------------------------------------------------
+
+sub is_known_edge {
+	my ($self, $edge) = @_;
+	
+	# Return 1 if edge is a complement
+	my $type = ref($edge) ? $edge->type() : $edge;
+	return 1 if (grep {$type eq $_} 
+		(map {@{$self->etypes()->{$_}}} keys(%{$self->etypes()})));
 
 	# Otherwise return 0
 	return 0;
@@ -1350,7 +1336,9 @@ Create new Graph object.
 sub new {
 	# Create new object and find its class
 	my $proto = shift;
+	my $interpreter = shift;
 	my $class = ref($proto) || $proto;
+
 
 	# Create self: 
 	my $self = { 
@@ -1362,7 +1350,8 @@ sub new {
 		'imax' => -1,
 		'graph_id' => ++$graph_id,
 		'lexstream' => {},
-		'inalign' => {}
+		'inalign' => {},
+		'interpreter' => $interpreter
 	};
 
 	# Specify class for new object
@@ -1573,8 +1562,8 @@ Return governor and landing site for node $node.
 sub parents {
 	my $self = shift;
 	my $node = shift;
-	my @deep = @{$self->etypes()->{'deep'}};
-	my @surf = @{$self->etypes()->{'surf'}};
+	my @deep = (@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}});
+	my @surf = @{$self->etypes()->{'land'} || []};
 
 	# Find governor and landing site edges
 	my $lsite;
@@ -2364,7 +2353,7 @@ sub subgraph {
 	my $max = $subnodes_list->[$#$subnodes_list];
 
 	# Add nodes to subgraph
-	my $subgraph = DTAG::Graph->new();
+	my $subgraph = DTAG::Graph->new($self->interpreter());
 	my $positions = {};
 	my $dots = 0;
 	$dots = 1 if ($depnodes->[0] < $min);

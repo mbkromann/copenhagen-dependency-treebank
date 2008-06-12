@@ -601,26 +601,6 @@ sub cmd_adiff {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmd_adjuncts.pl
-## ------------------------------------------------------------
-
-sub cmd_adjuncts {
-	my $self = shift;
-	my $graph = shift;
-	my $adjuncts = shift || "";
-
-	# Copy default etypes to graph etypes, if no etypes for graph
-	my $etypes = {
-		'adj' => [grep {$_} split(/\s+/, $adjuncts)]
-	};
-	$graph->etypes($etypes);
-
-	# Return
-	return 1;
-}
-
-
-## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_alearn.pl
 ## ------------------------------------------------------------
 
@@ -1369,7 +1349,7 @@ sub cmd_close {
 
 		# Open new graph, if graph list is empty
 		if (! @{$self->{'graphs'}}) {
-			my $new = DTAG::Graph->new();
+			my $new = DTAG::Graph->new($self);
 			push @{$self->{'graphs'}}, $new;
 		}
 
@@ -1413,26 +1393,6 @@ sub cmd_comment {
 	$graph->mtime(1);
 	return 1;
 }
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmd_complements.pl
-## ------------------------------------------------------------
-
-sub cmd_complements {
-	my $self = shift;
-	my $graph = shift;
-	my $complements = shift || "";
-
-	# Copy default etypes to graph etypes, if no etypes for graph
-	my $etypes1 = {
-		'comp' => [grep {$_} split(/\s+/, $complements)]
-	};
-	$graph->etypes($etypes1);
-
-	# Return
-	return 1;
-}
-
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_compound.pl
@@ -1622,7 +1582,7 @@ sub cmd_diff {
 	# Load file with comparison analysis (using a few tricks to avoid
 	# closing $graph)
 	my $graphid = $self->{'graph'};
-	$self->cmd_load(DTAG::Graph->new(), undef, $file);
+	$self->cmd_load(DTAG::Graph->new($self), undef, $file);
 	my $graph2 = pop(@{$self->{'graphs'}});
 	$self->{'graph'} = $graphid;
 
@@ -1879,6 +1839,39 @@ sub cmd_edge {
 	$graph->mtime(1);
 	return 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_edges.pl
+## ------------------------------------------------------------
+
+sub cmd_etypes {
+	my $self = shift;
+	my $graph = shift;
+	my $category = shift || "";
+	my $types = shift || "";
+
+	# Copy default etypes to graph etypes, if no etypes for graph
+	my $etypes1 = {};
+	if ($category) {
+		$etypes1->{$category} = [split(/\s+/, $types)];
+	}
+	$graph->etypes($etypes1);
+	$self->{'etypes'} = $graph->etypes();
+
+	# Print edges
+	if (! $self->quiet()) {
+		print "\n";
+		my $etypes = $graph->etypes();
+		foreach my $key (sort(keys %$etypes)) {
+			print "EDGE CLASS $key: ", join(" ",
+				sort(@{$etypes->{$key}})), "\n\n";
+		}
+	}
+
+	# Return
+	return 1;
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_edit.pl
@@ -2690,7 +2683,7 @@ sub cmd_load_conll {
 	$self->cmd_load_closegraph($graph);
 
 	# Create new graph
-	$graph = DTAG::Graph->new();
+	$graph = DTAG::Graph->new($self);
 	$graph->file($file);
 	push @{$self->{'graphs'}}, $graph;
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
@@ -2887,7 +2880,7 @@ sub cmd_load_malt {
 	$self->cmd_load_closegraph($graph);
 
 	# Create new graph
-	$graph = DTAG::Graph->new();
+	$graph = DTAG::Graph->new($self);
 	$graph->file($file);
 	push @{$self->{'graphs'}}, $graph;
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
@@ -2992,7 +2985,7 @@ sub cmd_load_tag {
 	if (! $multi) {
 		# Close old graph and create new graph
 		$self->cmd_load_closegraph($graph);
-		$graph = DTAG::Graph->new();
+		$graph = DTAG::Graph->new($self);
 		$graph->file($file);
 		push @{$self->{'graphs'}}, $graph;
 		$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
@@ -3106,7 +3099,7 @@ sub cmd_load_tiger {
 	$self->cmd_load_closegraph($graph);
 
 	# Create new graph
-	$graph = DTAG::Graph->new();
+	$graph = DTAG::Graph->new($self);
 	$graph->file($file);
 	push @{$self->{'graphs'}}, $graph;
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
@@ -3788,7 +3781,7 @@ sub cmd_new {
 	my $self = shift;
 
 	# Create new graph
-	push @{$self->{'graphs'}}, DTAG::Graph->new();
+	push @{$self->{'graphs'}}, DTAG::Graph->new($self);
 
 	# Set graph pointer to new graph
 	$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
@@ -5973,10 +5966,6 @@ sub do {
 		$success = $self->cmd_adiff($graph, $1)
 			if ($cmd =~ /^\s*adiff\s+(.*)$/);
 
-		# Adjuncts: adjuncts $comp1 $comp2 ....
-		$success = $self->cmd_adjuncts($graph, $1) 
-			if ($cmd =~ /^\s*adjuncts(\s+.*)?$/);
-
 		# Alearn: alearn $options
 		$success = $self->cmd_alearn($graph, $1) 
 			if ($cmd =~ /^\s*alearn\s*(.*)\s*$/);
@@ -6026,10 +6015,6 @@ sub do {
 		$success = $self->cmd_comment($graph, $1, $2) 
 			if ($cmd =~ /^\s*comment\s*([0-9]+)?\s+(.*)$/);
 
-		# Complements: complements $comp1 $comp2 ....
-		$success = $self->cmd_complements($graph, $1) 
-			if ($cmd =~ /^\s*complements(\s+.*)?$/);
-
 		# Compound: compound $node [segment|segment|...] 
 		$success = $self->cmd_compound($graph, $1, $2)
 			if ($cmd =~ /^\s*compound\s+([0-9]+)(.*)$/);
@@ -6066,6 +6051,11 @@ sub do {
 		$success = $self->cmd_edel($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && 
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/);
+
+		# Etypes: etypes -$type $type1 $type2 ...
+		$success = $self->cmd_etypes($graph, $1, $2)
+			if ($cmd =~ /^\s*etypes\s+-(\S+)\s+(.*)$/ ||
+				$cmd =~ /^\s*etypes\s*$/);
 
 		# Edit node/edge: edit $node [$var[=$value]]
 		#	"edit 12 gloss=him"
@@ -6802,7 +6792,7 @@ sub new {
 	$self->var("todo", []);
 
 	# Create empty graph
-	$self->{'graphs'} = [DTAG::Graph->new()];
+	$self->{'graphs'} = [DTAG::Graph->new($self)];
 	$interpreter = $self;
 
 	# Initialize graph
