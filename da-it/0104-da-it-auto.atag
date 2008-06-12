@@ -1,10 +1,13 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0104-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0104-it-auto.tag" sign="_input"/>
-<align out="a52" type="" in="a52" creator="-101" outsign="ikke" insign="ikke"/>
-<align out="a76" type="" in="a76" creator="-101" outsign="og" insign="og"/>
-<align out="a77" type="" in="a77" creator="-101" outsign="i" insign="i"/>
-<align out="a91" type="" in="a91" creator="-101" outsign="som" insign="som"/>
-<align out="a141" type="" in="a141" creator="-101" outsign="vi" insign="vi"/>
-<align out="a161" type="" in="a161" creator="-101" outsign="at" insign="at"/>
+<align out="a77" type="" in="b34" creator="-101" outsign="i" insign="del"/>
+<align out="b2" type="" in="b2" creator="-101" outsign="di" insign="di"/>
+<align out="b22" type="" in="b22" creator="-101" outsign="non" insign="non"/>
+<align out="b33" type="" in="b33" creator="-101" outsign="prima" insign="prima"/>
+<align out="a49" type="" in="b83" creator="-101" outsign="i" insign="in"/>
+<align out="a134" type="" in="b126" creator="-101" outsign="en" insign="un"/>
+<align out="a237" type="" in="b130" creator="-101" outsign="på" insign="in"/>
+<align out="b224" type="" in="b224" creator="-101" outsign="ha" insign="ha"/>
+<align out="b230" type="" in="b230" creator="-101" outsign="i" insign="i"/>
 </DTAGalign>

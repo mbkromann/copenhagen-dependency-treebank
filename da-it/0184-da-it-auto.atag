@@ -1,14 +1,16 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0184-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0184-it-auto.tag" sign="_input"/>
-<align out="a49" type="" in="a49" creator="-101" outsign="i" insign="i"/>
-<align out="" type="" in="" creator="-101" outsign="" insign=""/>
-<align out="a125" type="" in="a125" creator="-101" outsign="der" insign="der"/>
-<align out="a132" type="" in="a132" creator="-101" outsign="at" insign="at"/>
-<align out="a133" type="" in="a133" creator="-101" outsign="også" insign="også"/>
-<align out="a134" type="" in="a134" creator="-101" outsign="en" insign="en"/>
-<align out="a153" type="" in="a153" creator="-101" outsign="i" insign="i"/>
-<align out="a209" type="" in="a209" creator="-101" outsign="sig" insign="sig"/>
-<align out="a229" type="" in="a229" creator="-101" outsign="og" insign="og"/>
-<align out="a237" type="" in="a237" creator="-101" outsign="på" insign="på"/>
+<align out="a84" type="" in="b14" creator="-101" outsign="og" insign="e"/>
+<align out="a177" type="" in="b26" creator="-101" outsign="og" insign="e"/>
+<align out="a188" type="" in="b30" creator="-101" outsign="fra" insign="da"/>
+<align out="a240" type="" in="b34" creator="-101" outsign="til" insign="a"/>
+<align out="a241" type="" in="b88" creator="-101" outsign="at" insign="che"/>
+<align out="a238" type="" in="b89" creator="-101" outsign="en" insign="un"/>
+<align out="a244" type="" in="b98" creator="-101" outsign="med" insign="con"/>
+<align out="a48" type="" in="b102" creator="-101" outsign="ikke" insign="non"/>
+<align out="a66" type="" in="b113" creator="-101" outsign="som" insign="che"/>
+<align out="a71" type="" in="b117" creator="-101" outsign="en" insign="un"/>
+<align out="a130" type="" in="b141" creator="-101" outsign="for" insign="per"/>
+<align out="a171" type="" in="b185" creator="-101" outsign="at" insign="che"/>
 </DTAGalign>

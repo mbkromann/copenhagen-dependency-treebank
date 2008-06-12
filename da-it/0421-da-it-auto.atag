@@ -1,4 +1,7 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0421-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0421-it-auto.tag" sign="_input"/>
+<align out="b21" type="" in="b21" creator="-101" outsign="di" insign="di"/>
+<align out="b43" type="" in="b43" creator="-101" outsign="di" insign="di"/>
+<align out="b60" type="" in="b60" creator="-101" outsign="a" insign="a"/>
 </DTAGalign>

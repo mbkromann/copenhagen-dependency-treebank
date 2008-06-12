@@ -78,7 +78,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 
 	# Aparse the file if it contains no dependency edges
 	if [ -f /home/cdt/cdt/$dir/$fname ] ; then
-		if egrep 'in="[^"]' $fname | egrep 'out="[^"]' ; then
+		if egrep 'in="[^"]' $fname > /dev/null ; then
 			echo "File contains dependency edges"
 		else 
 			# Identify id and language

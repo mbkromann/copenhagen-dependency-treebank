@@ -1,4 +1,14 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0306-it-auto.tag" sign="_input"/>
+<align out="a174" type="" in="b14" creator="-101" outsign="klodens" insign="del"/>
+<align out="a212" type="" in="b28" creator="-101" outsign="kun" insign="solo"/>
+<align out="b80" type="" in="b80" creator="-101" outsign="di" insign="di"/>
+<align out="a252" type="" in="b94" creator="-101" outsign="på" insign="per"/>
+<align out="a261" type="" in="b104" creator="-101" outsign="en" insign="il"/>
+<align out="a262" type="" in="b105" creator="-101" outsign="nivellering" insign="consumo"/>
+<align out="a263+a264" type="" in="b106" creator="-101" outsign="af de" insign="delle"/>
+<align out="a50" type="" in="b126" creator="-101" outsign="af" insign="di"/>
+<align out="a52" type="" in="b140" creator="-101" outsign="og" insign="e"/>
+<align out="b158" type="" in="b158" creator="-101" outsign="che" insign="che"/>
 </DTAGalign>

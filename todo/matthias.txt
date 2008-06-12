@@ -1,0 +1,10 @@
+[*] Implement "edel" DTAG command for deleting all inedges at a node
+[*] Implement "oshow" DTAG command as an abbreviation of "offset + show"
+[*] Fix problem: opentask does not detect existing dependency annotations
+[*] Non-ASCII characters must be displayed correctly in DTAG
+[*] Implement "tasks" DTAG command for starting task editor in DTAG
+[*] Implement browser with CDT map
+[*] Error marking of illegal analyses / missing dependencies
+[ ] Implement "compound" command for segmenting words in dependency graph
+[ ] Implement printing in DTAG (via print server)
+[ ] Implement "note" command 

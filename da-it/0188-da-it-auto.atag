@@ -1,10 +1,24 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0188-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0188-it-auto.tag" sign="_input"/>
-<align out="" type="" in="" creator="-101" outsign="" insign=""/>
-<align out="a75" type="" in="a75" creator="-101" outsign="og" insign="og"/>
-<align out="a76" type="" in="a76" creator="-101" outsign="mikrodata" insign="mikrodata"/>
-<align out="a77" type="" in="a77" creator="-101" outsign="i" insign="i"/>
 <align out="a96" type="" in="a96" creator="-101" outsign="det" insign="det"/>
-<align out="a104" type="" in="a104" creator="-101" outsign="ved" insign="ved"/>
+<align out="a182" type="" in="b4" creator="-101" outsign="er" insign="è"/>
+<align out="a220" type="" in="b11" creator="-101" outsign="og" insign="e"/>
+<align out="a221" type="" in="b12+b13+b14" creator="-101" outsign="med" insign="sviluppo di software"/>
+<align out="a222" type="" in="b16" creator="-101" outsign="en" insign="un"/>
+<align out="a232" type="" in="b22" creator="-101" outsign="til" insign="a"/>
+<align out="b96" type="" in="b96" creator="-101" outsign="la" insign="la"/>
+<align out="b105" type="" in="b105" creator="-101" outsign="il" insign="il"/>
+<align out="a57" type="" in="b118" creator="-101" outsign="en" insign="una"/>
+<align out="a61" type="" in="b124" creator="-101" outsign="og" insign="e"/>
+<align out="a76" type="" in="b127" creator="-101" outsign="en" insign="una"/>
+<align out="a88" type="" in="b136" creator="-101" outsign="det" insign="la"/>
+<align out="b154" type="" in="b154" creator="-101" outsign="di" insign="di"/>
+<align out="b175" type="" in="b175" creator="-101" outsign="in" insign="in"/>
+<align out="a104" type="" in="b179" creator="-101" outsign="og" insign="e"/>
+<align out="a107" type="" in="b198" creator="-101" outsign="for" insign="per"/>
+<align out="a147" type="" in="b213" creator="-101" outsign="for" insign="per"/>
+<align out="a151" type="" in="b215" creator="-101" outsign="lyst" insign="da"/>
+<align out="a171" type="" in="b225" creator="-101" outsign="en" insign="un"/>
+<align out="a173" type="" in="b231" creator="-101" outsign="for" insign="per"/>
 </DTAGalign>
