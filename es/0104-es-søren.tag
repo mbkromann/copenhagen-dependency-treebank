@@ -177,12 +177,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">colaboración</W>
 <W lemma="en" msd="PREP" in="-3:part" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">marcha,”</W>
-<W lemma="decir" msd="VLfin" in="" out="1:subj">dice</W>
+<W lemma="decir" msd="VLfin" in="" out="1:subj|5:pnct">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="ministro" msd="NC" in="-1:nobj" out="1:pobj:arg#">ministro</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="pescar" msd="VLfin" in="-1:nobj" out="">pesca</W>
-<W lemma="." msd="FS" in="" out="">.</W>
+<W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="15:time" out="1:pobj#|11:pnct">Después</W>
 <W lemma="de" msd="PREP" in="-1:pobj#" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
