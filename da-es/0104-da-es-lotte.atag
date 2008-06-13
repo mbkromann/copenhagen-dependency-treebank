@@ -1,0 +1,129 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0104-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0104-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0 b1" creator="-1" insign="La propuesta" outsign="Forslaget"/>
+<align out="a44" type="" in="b2" creator="-1" insign="sobre" outsign="om"/>
+<align out="a47" type="" in="b7" creator="-1" insign="entre" outsign="mellem"/>
+<align out="a48" type="" in="b8" creator="-1" insign="V" outsign="V"/>
+<align out="a49" type="" in="b9" creator="-1" insign="y" outsign="og"/>
+<align out="a50" type="" in="b10" creator="-1" insign="K" outsign="K"/>
+<align out="a51" type="" in="b12" creator="-1" insign="es" outsign="er"/>
+<align out="a52" type="" in="b11" creator="-1" insign="no" outsign="ikke"/>
+<align out="a113" type="" in="b73 b74 b75" creator="-101" insign="En ese entonces" outsign="Dengang"/>
+<align out="a114" type="" in="b79" creator="-101" insign="estaban" outsign="var"/>
+<align out="a115" type="" in="b82" creator="-101" insign="maduros" outsign="tiden"/>
+<align out="a116" type="" in="b78" creator="-101" insign="no" outsign="ikke"/>
+<align out="a117" type="" in="b77" creator="-101" insign="tiempos" outsign="moden"/>
+<align out="a118" type="" in="b84" creator="-101" insign="para" outsign="til"/>
+<align out="a119" type="" in="b86" creator="-101" insign="un" outsign="et"/>
+<align out="a130" type="" in="b95" creator="-101" insign="es" outsign="er"/>
+<align out="a131 a132" type="" in="b96" creator="-101" insign="el" outsign="den for"/>
+<align out="a135 a136" type="" in="b94" creator="-101" insign="tampoco" outsign="heller ikke"/>
+<align out="a142" type="" in="b101" creator="-101" insign="debemos" outsign="skal"/>
+<align out="a144" type="" in="b102" creator="-101" insign="primero" outsign="først"/>
+<align out="a145" type="" in="b103 b104" creator="-101" insign="pasar por" outsign="igennem"/>
+<align out="a146" type="" in="b105" creator="-101" insign="un" outsign="en"/>
+<align out="a147 a162" type="" in="b106" creator="-101" insign="largísimo" outsign="lang kende"/>
+<align out="a149 a150" type="" in="b107" creator="-101" insign="período" outsign="lang periode"/>
+<align out="a152" type="" in="b108 b109" creator="-101" insign="en que" outsign="hvor"/>
+<align out="a153" type="" in="b110" creator="-101" insign="las" outsign="de"/>
+<align out="a154" type="" in="b113" creator="-101" insign="ambos" outsign="to"/>
+<align out="a155" type="" in="b114" creator="-101" insign="partidos" outsign="partiers"/>
+<align out="a157" type="" in="b115" creator="-101" insign="puedan" outsign="kan"/>
+<align out="a158" type="" in="b116" creator="-101" insign="conocer" outsign="lære"/>
+<align out="a159" type="" in="b117" creator="-101" insign="la" outsign="hinandens"/>
+<align out="a161" type="" in="b120" creator="-101" insign="que" outsign="at"/>
+<align out="a166" type="" in="b124 b125" creator="-101" insign="En este" outsign="Her"/>
+<align out="a168 a169 a170" type="" in="b126 b128" creator="-101" insign="sentido periódicas" outsign="jævnlige fælles gruppe-"/>
+<align out="a171" type="" in="b132" creator="-101" insign="y" outsign="og"/>
+<align out="a173" type="" in="b137" creator="-101" insign="ser" outsign="være"/>
+<align out="a174" type="" in="b138" creator="-101" insign="un" outsign="et"/>
+<align out="a175" type="" in="b139" creator="-101" insign="paso" outsign="skridt"/>
+<align out="a176 a177" type="" in="b140" creator="-101" insign="adelante" outsign="på vejen"/>
+<align out="a183" type="" in="b142" creator="-101" insign="Esto" outsign="Det"/>
+<align out="a184 a185 a186" type="" in="b143 b144" creator="-101" insign="impediría que" outsign="vil hindre mange"/>
+<align out="a187" type="" in="b145 b146" creator="-101" insign="hayan malentendidos" outsign="misforståelser"/>
+<align out="a188" type="" in="b147" creator="-101" insign="entre" outsign="mellem"/>
+<align out="a189" type="" in="b148" creator="-101" insign="nuestros" outsign="vore"/>
+<align out="a190" type="" in="b149" creator="-101" insign="dos" outsign="to"/>
+<align out="a191" type="" in="b150" creator="-101" insign="partidos" outsign="partier"/>
+<align out="a197 a198" type="" in="b152" creator="-101" insign="Debemos" outsign="Vi skal"/>
+<align out="a199" type="" in="b153" creator="-101" insign="pensar" outsign="tænke"/>
+<align out="a200" type="" in="b154" creator="-101" insign="en" outsign="på"/>
+<align out="a201" type="" in="b155 b156" creator="-101" insign="la colaboración" outsign="samarbejdet"/>
+<align out="a202" type="" in="b157" creator="-101" insign="entre" outsign="blandt"/>
+<align out="a203" type="" in="b158" creator="-101" insign="las" outsign="den"/>
+<align out="a204" type="" in="b159" creator="-101" insign="futuras" outsign="kommende"/>
+<align out="a205" type="" in="b160" creator="-101" insign="generaciones" outsign="generation"/>
+<align out="a206" type="" in="b161" creator="-101" insign="de" outsign="af"/>
+<align out="a207 a208" type="" in="b162 b163" creator="-101" insign="políticos no-socialistas" outsign="borgerlige politikere"/>
+<align out="a212 a213" type="" in="b165" creator="-101" insign="Todo" outsign="Det hele"/>
+<align out="a214" type="" in="b166" creator="-101" insign="podría" outsign="skulle"/>
+<align out="a217" type="" in="b167" creator="-101" insign="fracasar" outsign="på"/>
+<align out="a221" type="" in="b172" creator="-101" insign="algunas" outsign="nogle"/>
+<align out="a222" type="" in="b173" creator="-101" insign="personas" outsign="enkeltpersoner"/>
+<align out="a223" type="" in="a223" creator="-101" insign="har" outsign="har"/>
+<align out="a225" type="" in="b175 b176" creator="-101" insign="la colaboración" outsign="samarbejdet"/>
+<align out="a229" type="" in="b179" creator="-101" insign="dice" outsign="siger"/>
+<align out="a236" type="" in="b185" creator="-101" insign="Después" outsign="Efter"/>
+<align out="a237" type="" in="b187" creator="-101" insign="un" outsign="en"/>
+<align out="a238" type="" in="b188 b190" creator="-101" insign="fin semana" outsign="weekend"/>
+<align out="a239" type="" in="b186 b189 b206" creator="-101" insign="de de de" outsign="hos"/>
+<align out="a240" type="" in="b193 b209" creator="-101" insign="familia la" outsign="familien"/>
+<align out="a241" type="" in="b194" creator="-101" insign="en" outsign="på"/>
+<align out="a243 a246" type="" in="b199 b200" creator="-101" insign="ha participado" outsign="har været"/>
+<align out="a245" type="" in="b197 b198" creator="-101" insign="el lunes" outsign="mandag"/>
+<align out="a247" type="" in="b201" creator="-101" insign="en" outsign="i"/>
+<align out="a249" type="" in="b204" creator="-101" insign="de" outsign="til"/>
+<align out="b76" type="" in="b76" creator="-101" insign="los" outsign="los"/>
+<align out="b112" type="" in="b112" creator="-101" insign="de" outsign="de"/>
+<align out="b130" type="" in="b130" creator="-101" insign="de" outsign="de"/>
+<align out="b134" type="" in="b134" creator="-101" insign="de" outsign="de"/>
+<align out="b182" type="" in="b182" creator="-101" insign="de" outsign="de"/>
+<align out="b208" type="" in="b208" creator="-101" insign="de" outsign="de"/>
+<align out="a45" type="" in="b6" creator="0" insign="colectivas" outsign="fælles"/>
+<align out="a45" type="" in="b6" creator="0" insign="colectivas" outsign="fælles"/>
+<align out="a45" type="" in="b6" creator="0" insign="colectivas" outsign="fælles"/>
+<align out="a46" type="" in="b3 b4 b5" creator="0" insign="sesiones de grupo" outsign="gruppemøder"/>
+<align out="b13" type="" in="b13" creator="0" insign="algo" outsign="algo"/>
+<align out="a53" type="" in="b14" creator="-1" insign="tan" outsign="helt"/>
+<align out="a54" type="" in="b15" creator="-1" insign="novedoso" outsign="nyt"/>
+<align out="a60" type="" in="b17" creator="-1" insign="De&nbsp;hecho" outsign="Faktisk"/>
+<align out="a55" type="" in="b16" creator="-1" insign="." outsign="."/>
+<align out="a61" type="" in="b18" creator="0" insign="ha" outsign="blev"/>
+<align out="a62 a63" type="" in="b19" creator="0" insign="habido" outsign="der holdt"/>
+<align out="a65" type="" in="b21" creator="0" insign="histórica" outsign="historisk"/>
+<align out="a66" type="" in="b25" creator="0" insign="colectiva" outsign="fælles"/>
+<align out="a68" type="" in="b26 b27" creator="0" insign="con anticipación" outsign="forud"/>
+<align out="a69" type="" in="b28" creator="0" insign="del" outsign="for"/>
+<align out="a67" type="gruppe" in="b24" creator="0" insign="grupo" outsign="gruppemøde"/>
+<align out="a67" type="møde" in="b22" creator="0" insign="sesión" outsign="gruppemøde"/>
+<align out="b23" type="" in="b23" creator="0" insign="de" outsign="de"/>
+<align out="a70" type="" in="b29" creator="0" insign="lanzamiento" outsign="lanceringen"/>
+<align out="a70" type="s" in="b28" creator="0" insign="del" outsign="lanceringen"/>
+<align out="a72" type="KV=" in="b32" creator="0" insign="KV" outsign="KV-planen"/>
+<align out="a72" type="plan=" in="b31" creator="0" insign="plan" outsign="KV-planen"/>
+<align out="a72" type="s" in="b30" creator="0" insign="del" outsign="KV-planen"/>
+<align out="a74" type="" in="b34" creator="0" insign="1964" outsign="1964"/>
+<align out="a75" type="" in="b35" creator="0" insign="," outsign=","/>
+<align out="a76" type="" in="b36" creator="0" insign="y" outsign="og"/>
+<align out="a77" type="" in="b37" creator="0" insign="en" outsign="i"/>
+<align out="a78" type="" in="b38" creator="0" insign="1965" outsign="1965"/>
+<align out="a79 a80" type="" in="b40" creator="0" insign="costó" outsign="kostede det"/>
+<align out="a82" type="" in="b42" creator="0" insign="entonces" outsign="daværende"/>
+<align out="a83" type="" in="b43" creator="0" insign="líder" outsign="leder"/>
+<align out="a84" type="" in="a84" creator="0" insign="," outsign=","/>
+<align out="a89" type="" in="a89" creator="0" insign="," outsign=","/>
+<align out="b46" type="" in="b46" creator="0" insign="y" outsign="y"/>
+<align out="a85" type="" in="b47" creator="0" insign="anterior" outsign="tidl."/>
+<align out="a87" type="" in="b50" creator="0" insign="Erik" outsign="Erik"/>
+<align out="a88" type="" in="b51" creator="0" insign="Eriksen" outsign="Eriksen"/>
+<align out="b39" type="" in="b39" creator="0" insign="le" outsign="le"/>
+<align out="a94" type="front=" in="b56" creator="0" insign="central" outsign="frontfigur"/>
+<align out="a94" type="figur=" in="b55" creator="0" insign="personaje" outsign="frontfigur"/>
+<align out="a81" type="s" in="b44" creator="0" insign="de" outsign="Venstres"/>
+<align out="a81" type="" in="b45" creator="0" insign="Venstre" outsign="Venstres"/>
+<align out="a86" type="" in="b48 b49" creator="0" insign="primer ministro" outsign="statsminister"/>
+<align out="a64" type="" in="b20" creator="-100" insign="una" outsign="et"/>
+<align out="a71" type="" in="b33" creator="-100" insign="en" outsign="af"/>
+</DTAGalign>
