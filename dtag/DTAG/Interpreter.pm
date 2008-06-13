@@ -6051,6 +6051,10 @@ sub do {
 		$success = $self->cmd_edel($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && 
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/);
+		$success = $self->cmd_del($graph, $1, $2, $3) 
+			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
+				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
+				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/));
 
 		# Etypes: etypes -$type $type1 $type2 ...
 		$success = $self->cmd_etypes($graph, $1, $2)

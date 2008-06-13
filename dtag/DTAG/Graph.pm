@@ -385,10 +385,9 @@ sub depths {
 	$depths->{$node} = [];
 
 	# Find deep parent(s) of node
-	my @deep = (@{$etypes->{'comp'}}, @{$etypes->{'adj'}});
 	my $maxdepth = 0;
 	foreach my $e (@{$nodeobj->in()}) {
-		if (grep {$e->type() eq $_} @deep) {
+		if ($self->is_dependent($e)) {
 			$self->depths($depths, $e->out());
 			$maxdepth = max($maxdepth, $depths->{$e->out()} || 0);
 		}
@@ -501,7 +500,6 @@ sub dtag2cfg {
 	}
 
 	# Process each node in the graph
-	my @deep = (@{$self->etypes()->{'comp'}}, @{$self-etypes()->{'adj'}});
 	my $sent = 0;
 	for (my $n = 0; $n < $self->size(); ++$n) {
 		my $node = $self->node($n);
@@ -513,7 +511,7 @@ sub dtag2cfg {
 			my $left = [];
 			my $right = [];
 			foreach my $e (@{$node->out()}) {
-				if (grep {$e->type() eq $_} @deep) {
+				if ($self->is_dependent($e)) {
 					if ($e->in() < $n) {
 						push @$left, $e;
 					} else {
@@ -779,12 +777,11 @@ Return governor $gov for node $node.
 sub governor {
 	my $self = shift;
 	my $node = shift;
-	my @deep = (@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}});
 
 	# Find governor and landing site edges
 	my $governor;
 	foreach my $e (@{$self->node($node)->in()}) {
-		if (grep {$e->type() eq $_} @deep) {
+		if ($self->is_dependent($e)) {
 			return $e->out();
 		}
 	}
@@ -902,8 +899,32 @@ sub is_known_edge {
 	
 	# Return 1 if edge is a complement
 	my $type = ref($edge) ? $edge->type() : $edge;
-	return 1 if (grep {$type eq $_} 
-		(map {@{$self->etypes()->{$_}}} keys(%{$self->etypes()})));
+
+	# Normalize edge
+	if ($type =~ /^\[(.*)\]$/) {
+		return $self->is_dependent($1) ? 1 : 0;
+	} elsif ($type =~ /^<(.*)>$/) {
+		my $return = 1;
+		map {is_dependent($_) || ($return = 0)} split(/:/, $type);
+		return $return;
+	} else {
+		return (grep {$type eq $_} (map {@{$self->etypes()->{$_}}} 
+				keys(%{$self->etypes()}))) 
+			? 1 : 0;
+	}
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/is_landing.pl
+## ------------------------------------------------------------
+
+sub is_landing {
+	my ($self, $edge) = @_;
+	
+	# Return 1 if edge is a complement
+	my $type = ref($edge) ? $edge->type() : $edge;
+	return 1 if (grep {$type eq $_} @{$self->etypes()->{'land'} || []});
 
 	# Otherwise return 0
 	return 0;
@@ -1562,17 +1583,15 @@ Return governor and landing site for node $node.
 sub parents {
 	my $self = shift;
 	my $node = shift;
-	my @deep = (@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}});
-	my @surf = @{$self->etypes()->{'land'} || []};
 
 	# Find governor and landing site edges
 	my $lsite;
 	my $governor;
 	foreach my $e (@{$self->node($node)->in()}) {
-		if (grep {$e->type() eq $_} @deep) {
+		if ($self->is_dependent($e)) {
 			$governor = $e->out();
 		}
-		if (grep {$e->type() eq $_} @surf) {
+		if ($self->is_landing($e)) {
 			$lsite = $e->out();
 		}
 	}
@@ -3210,11 +3229,9 @@ sub yields {
 			if (length($nodeobj->input() || "") > 0);
 		my $out = $nodeobj->out();
 		my $etypes = $self->etypes();
-		my @edges = (@{$etypes->{'comp'}}, @{$etypes->{'adj'}},
-			@{$etypes->{'gap'}}, @{$etypes->{'other'}});
 		foreach my $e (@$out) {
 			# Test whether edge is a complement or an adjunct
-			if (grep {$e->type() eq $_} @edges) {
+			if ($self->is_dependent($e)) {
 				# Find yield of dependent
 				$self->yields($yields, $e->in());
 				push @yield, @{$yields->{$e->in()} || []};

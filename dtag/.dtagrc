@@ -118,8 +118,8 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 #option post-print
 
 # Edge types
-etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd pred qobj robj subj tobj vobj
-etypes -adj adjuncts appa appr attrd attrr ben bg cause conc cond conj cons coord degr ext goal inst list man mod modo modp modr name namef namel neg other path pnct prg rel source space struct time title voc xpl xtop
+etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:dobj pobj:possd pred preds predo predf qobj robj subj tobj vobj
+etypes -adj adjuncts appa appr attrd attrd# attrr attr# ben bg cause conc cond conj cons coord degr ext goal inst list man mod modo modp modr name namef namel neg other path pnct prg rel source space struct time title voc xpl xtop
 etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland
