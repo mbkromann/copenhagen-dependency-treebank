@@ -5,6 +5,12 @@
 [*] Implement "tasks" DTAG command for starting task editor in DTAG
 [*] Implement browser with CDT map
 [*] Error marking of illegal analyses / missing dependencies
-[ ] Implement "compound" command for segmenting words in dependency graph
-[ ] Implement printing in DTAG (via print server)
-[ ] Implement "note" command 
+[*] Implement "note" command 
+[*] Implement "compound" command for segmenting words in dependency graph
+[*] Implement "node -off" command.
+[*] Implement printing in DTAG to PDF
+[ ] Implement "edges" command for printing alignment/dependency edges at a node
+[ ] Document important DTAG commands (alignment, dependency, diff, find, svn, tasks)
+[ ] Final dependency files: distribute to students
+[ ] Autosegment Danish dependency files (???)
+[ ] Check tag conversion for Spanish and Italian

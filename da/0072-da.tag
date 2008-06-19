@@ -193,12 +193,12 @@
 <W gloss="silly" lemma="dumme" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-4:[subj]|1:dobj|3:mod">dummer</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="3:mod" out="">både</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:mod" out="5:nobj">på</W>
-<W gloss="own" lemma="egen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="4:mod" out="1:coord">egne</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:mod" out="1:nobj">på</W>
+<W gloss="own" lemma="egen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:coord|4:possd">egne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="-3:mod|1:conj">og</W>
-<W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:conj" out="1:possd">hans</W>
-<W gloss="colleagues'" lemma="kollega" msd="NCCPG==I" tag="NNP" in="-1:possd" out="1:[possd]">kollegers</W>
-<W gloss="behalf" lemma="vegne" msd="NCCPU==I" tag="NNP" in="-1:[possd]|-5:nobj" out="-4:mod">vegne</W>
+<W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:conj" out="1:possd|2:[possd]">hans</W>
+<W gloss="colleagues'" lemma="kollega" msd="NCCPG==I" tag="NNP" in="-1:possd" out="">kollegers</W>
+<W gloss="behalf" lemma="vegne" msd="NCCPU==I" tag="NNP" in="-4:possd|-2:[possd]" out="">vegne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-16:subj|2:pred|8:pnct">er</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="3:mod" out="">både</W>

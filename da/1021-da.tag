@@ -168,8 +168,8 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-9:mod" out="1:nobj">med</W>
 <W gloss="70" lemma="70" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">70</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">procent</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-12:coord" out="1:<pobj:nobj>|12:<mod>">og</W>
-<W gloss="Kosan_directors" lemma="Kosan-direktør" msd="NCCPU==D" tag="NNP" in="-1:<pobj:nobj>" out="2:appr">Kosan-direktørerne</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-12:coord" out="12:<mod>|1:<nobj:pobj>">og</W>
+<W gloss="Kosan_directors" lemma="Kosan-direktør" msd="NCCPU==D" tag="NNP" in="-1:<nobj:pobj>" out="2:appr">Kosan-direktørerne</W>
 <W gloss="Mogens" lemma="Mogens" msd="NP--U==-" tag="NNP" in="1:namef" out="">Mogens</W>
 <W gloss="Petersen" lemma="Petersen" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef|1:pnct|3:conj|4:coord">Petersen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

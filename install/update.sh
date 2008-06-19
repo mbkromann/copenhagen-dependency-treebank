@@ -35,6 +35,9 @@ if [ -d $updates ] ; then
 	fi
 fi
 
+# Create printout directory
+mkdir -p ~/Desktop/CDT-prints
+
 # Update local copy of treebank.dk
 echo
 echo "YOU CAN START DTAG NOW!"

@@ -110,9 +110,9 @@
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
 <W gloss="happened" lemma="ske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod">sket</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-1:mod" out="1:nobj">uden</W>
-<W gloss="the_government's" lemma="regering" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">regeringens</W>
-<W gloss="security_committee" lemma="sikkerhedsudvalg" msd="NCNSG==I" tag="NN" in="-1:possd" out="1:possd">sikkerhedsudvalgs</W>
-<W gloss="knowledge" lemma="vidende" msd="NCNSU==I" tag="NN" in="-1:possd" out="">vidende</W>
+<W gloss="the_government's" lemma="regering" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:possd">regeringens</W>
+<W gloss="security_committee" lemma="sikkerhedsudvalg" msd="NCNSG==I" tag="NN" in="-1:possd" out="">sikkerhedsudvalgs</W>
+<W gloss="knowledge" lemma="vidende" msd="NCNSU==I" tag="NN" in="-2:possd" out="">vidende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 </p>

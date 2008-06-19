@@ -1,5 +1,4 @@
 # Indsæt "*" når annotationen er afsluttet
-[ ] it/0502-it-matthias.tag
-[ ] it/0502-it-matthias.tag
-[ ] it/0502-it-matthias.tag
-[ ] it/0502-it-matthias.tag
+[*] it/0502-it-matthias.tag
+[ ] da-it/0502-da-it-matthias.atag
+
