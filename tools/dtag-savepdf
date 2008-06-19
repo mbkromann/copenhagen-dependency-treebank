@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Read file names
+psfile=$1
+pdffile=$2
+path=~/Desktop/CDT-prints/
+
+# Define pdffile name automatically
+if [ -z "$pdffile" ] ; then
+	pdffile=`echo $psfile | sed -e 's/^.*\/\([^\/]*\)$/\1/g'`
+	pdffile=$path$pdffile
+fi
+
+if echo $pdffile | grep '/' ; then
+	echo # do nothing
+else
+	pdffile=$path$pdffile
+fi
+
+# Remove trailing pdf
+pdffile=`echo $pdffile | sed -e 's/\.pdf$//g' -e 's/\.ps$//g' \
+	-e 's/\.tag$//g' -e 's/\.atag$//g'`
+pdffile=`echo $pdffile".pdf"`
+
+# Converting output to PDF
+echo PDF file saved as $pdffile
+ps2pdf $psfile $pdffile
+
