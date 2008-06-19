@@ -1401,34 +1401,80 @@ sub cmd_comment {
 sub cmd_compound {
 	my $self = shift;
 	my $graph = shift;
+	my $key = shift || "";
 	my $noder = shift;
-	my $arg = shift;
-	$arg =~ s/^\s+(\S)/$1/g;
+	my $compound = shift || "";
+	my $ocompound = $compound . "";
+	$compound =~ s/^\s+//g;
 
-	# Apply offset
-	my $node = defined($noder) ? $noder + $graph->offset() : undef;
+	# Autoformat compound
+	$compound = compound_autonumber($compound);
 
-	# Find node 
-	my $N = $graph->node($node);
-	if ($arg) {
-		$N->var('compound', $arg);
+	# Now we have the renumbered segment
+	my $cmd = "";
+	if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (! $key)) {
+		# Dependency graph
+		my $node = defined($noder) ? $noder + $graph->offset() : undef;
+		my $N = $graph->node($node);
+		if ($compound) {
+			$N->var('compound', $compound);
+			$graph->vars()->{'compound'} = 1;
+		}
+		
+		# Errors: non-existent node, or comment node
+		return error("Non-existent node: $noder") if (! $N);
+		return error("Node $noder is a comment node.") if ($N->comment());
+		my $default = $N->input();
+		if ($ocompound && ($compound eq "")) {
+			$N->var('compound', '');
+		}
+
+		# Mark graph as modified and add existing compound
+		$compound = $N->var('compound') || $N->input();
+		$cmd = "segment $noder $compound";
+		print "segment $key$noder $compound\n";
+	} elsif (UNIVERSAL::isa($graph, 'DTAG::Alignment') && ($key)) {
+		# Alignment: check that key is valid
+		my $ngraph = $graph->graph($key);
+		return error("Non-existent graph key \"$key\"") if (!  $ngraph);
+
+		# Check that node is valid
+		my $nodeabs = $noder + ($graph->offset($key) || 0);
+		my $node = $ngraph->node($nodeabs);
+		return error("Non-existent node \"$key$noder\"") if (! $node);
+
+		# Retrieve compound from graph, if non-existent
+		my $compounds = $graph->{'compounds'};
+		my $default = $node->var('compound') || $node->input() || "";
+		if (! $compound) {
+			$compound = $compounds->{$key . $nodeabs} || $default;
+			$compound = $default if ($ocompound =~ /^\s+$/);
+		}
+
+		# Remove compound if equal to graph compound or input
+		if ($ocompound && ($compound eq $default)) {
+			delete $compounds->{$key . $nodeabs};
+		} else {
+			$compounds->{$key . $nodeabs} = $compound;
+		}
+
+		# Mark graph as modified and add existing compound
+		$cmd = "segment $key$noder $compound";
+		print "segment $key$noder=$compound\n";
 	}
-	
-	# Errors: non-existent node, or comment node
-	return error("Non-existent node: $noder") if (! $N);
-	return error("Node $noder is a comment node.") if ($N->comment());
 
-
-	# Mark graph as modified and add existing compound
-	my $compound = $N->var('compound') || $N->input();
-	if ((! $arg) && $compound) {
-		$self->nextcmd("compound $noder $compound");
-	} 
+	# Update command line history and graph
+	if (! $ocompound) {
+		$self->nextcmd($cmd);
+	} else {
+		 $self->term()->addhistory($cmd);
+	}
 	$graph->mtime(1);
 
 	# Return
 	return 1;
 }
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_corpus.pl
@@ -1841,39 +1887,6 @@ sub cmd_edge {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmd_edges.pl
-## ------------------------------------------------------------
-
-sub cmd_etypes {
-	my $self = shift;
-	my $graph = shift;
-	my $category = shift || "";
-	my $types = shift || "";
-
-	# Copy default etypes to graph etypes, if no etypes for graph
-	my $etypes1 = {};
-	if ($category) {
-		$etypes1->{$category} = [split(/\s+/, $types)];
-	}
-	$graph->etypes($etypes1);
-	$self->{'etypes'} = $graph->etypes();
-
-	# Print edges
-	if (! $self->quiet()) {
-		print "\n";
-		my $etypes = $graph->etypes();
-		foreach my $key (sort(keys %$etypes)) {
-			print "EDGE CLASS $key: ", join(" ",
-				sort(@{$etypes->{$key}})), "\n\n";
-		}
-	}
-
-	# Return
-	return 1;
-}
-
-
-## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_edit.pl
 ## ------------------------------------------------------------
 
@@ -1925,6 +1938,39 @@ sub cmd_edit {
 	# Return
 	return 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_etypes.pl
+## ------------------------------------------------------------
+
+sub cmd_etypes {
+	my $self = shift;
+	my $graph = shift;
+	my $category = shift || "";
+	my $types = shift || "";
+
+	# Copy default etypes to graph etypes, if no etypes for graph
+	my $etypes1 = {};
+	if ($category) {
+		$etypes1->{$category} = [split(/\s+/, $types)];
+	}
+	$graph->etypes($etypes1);
+	$self->{'etypes'} = $graph->etypes();
+
+	# Print edges
+	if (! $self->quiet()) {
+		print "\n";
+		my $etypes = $graph->etypes();
+		foreach my $key (sort(keys %$etypes)) {
+			print "EDGE CLASS $key: ", join(" ",
+				sort(@{$etypes->{$key}})), "\n\n";
+		}
+	}
+
+	# Return
+	return 1;
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_exit.pl
@@ -2630,6 +2676,8 @@ sub cmd_load_atag {
 
 			# Create edge
 			$self->cmd_align($alignment, $out, $type, $in, $creator, 0);
+		} elsif ($line =~ /^<compound node=\"([^"]+)">(.*)<\/compound>$/) {
+			$alignment->{'compounds'}{$1} = $2;
 		} elsif ($line =~ /<\/?DTAGalign>/) {
 			# Do nothing
 		} else {
@@ -3805,6 +3853,10 @@ sub cmd_node {
 	my $input = shift;
 	my $varstr = shift;
 
+	# Check node -off
+	return error("node creation blocked") 
+		if ($graph->{'block_nodeadd'});
+
 	# Check range
 	my $pos = (! defined($posr) || $posr eq "") 
 		? $graph->size()
@@ -3859,6 +3911,67 @@ sub cmd_noedge {
 	return 1;
 }
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_note.pl
+## ------------------------------------------------------------
+
+sub cmd_note {
+	my $self = shift;
+	my $graph = shift;
+	my $noder = shift;
+	my $note = shift;
+
+	# Check that graph is a dependency graph
+	if (! UNIVERSAL::isa($graph, 'DTAG::Graph')) {
+		error("ERROR: Notes not supported for alignments\n");
+		return 1;
+	}
+
+	# Find absolute node
+	my $node = defined($noder) ? $noder + $graph->offset() : undef;
+	my $N = $graph->node($node);
+
+	# Errors: non-existent node, or comment node
+	return error("Non-existent node: $noder") if (! $N);
+	return error("Node $noder is a comment node.") if ($N->comment());
+
+	# Clean up note
+	$note =~ s/"/&quot;/g;
+	$note =~ s/</&lt;/g;
+	$note =~ s/</&gt;/g;
+
+	# Set values for all given variable-value pairs
+	$graph->vars()->{'note'} = 1;
+	$N->var("note", $note);
+	$graph->mtime(1);
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_notes.pl
+## ------------------------------------------------------------
+
+sub cmd_notes {
+	my ($self, $graph) = @_;
+	my $imin = $graph->var("imin");
+	my $imax = $graph->var("imax");
+	
+	$imin = 0 if ($imin < 0);
+	$imax = $graph->size() if ($imax < 0 || $imax > $graph->size());
+	for (my $i = $imin; $i < $imax; ++$i) {
+		my $note = ($graph->node($i)->var("note") || "") . "";
+		$note =~ s/\&quot;/"/g;
+		$note =~ s/\&lt;/</g;
+		$note =~ s/\&gt;/>/g;
+
+		print "NOTE[" . ($i - $graph->offset()) . "]: " . $note .  "\n\n"
+			if ($note);
+	}
+	return 1;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_offset.pl
@@ -5646,7 +5759,16 @@ sub cmd_title {
 	my $graph = shift;
 	my $text = shift;
 
+	# Create title automatically, if requested
+	if ($text =~ /^\s*-auto\s*$/) {
+		# Create title automatically
+		my $fname = $graph->file() || "UNTITLED";
+		$text = $fname . " on " . `date`;
+	} 
+	
+	# Set title
 	$graph->var('title', $text);
+
 	return 1;
 }
 
@@ -5893,6 +6015,72 @@ sub cmd_viewer {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/compound_autonumber.pl
+## ------------------------------------------------------------
+
+sub compound_autonumber {
+	my $compound = shift;
+
+	# Counter characters
+	my $odigit = "^";
+	my $ldigits = ["¹", "²", "³"];
+	my $digits = join("", @$ldigits) . $odigit;
+
+	# Insert spaces before all segment identifiers
+	$compound =~ s/([^$digits\|])([$digits])/$1\|$2/g;
+
+	# Split compound into segments
+	my @segments = split(/\|/, $compound);
+
+	# Compute identifier for each segment
+	my @ids = ();
+	for (my $i = 0; $i <= $#segments; ++$i) {
+		if ($segments[$i] =~ /^([$digits]+)/) {
+			$ids[$i] = $1 || "";
+		} else {
+			$ids[$i] = "";
+		}
+	}
+
+	# Process compound string
+	if (! $ids[0]) {
+		# Compound does not have any identifiers: renumber segments
+		if (scalar(@segments) > 1) {
+			$compound = "";
+			for (my $i = 0; $i <= $#segments; ++$i) {
+				$compound .= ($odigit x int($i / 3)) 
+					. $ldigits->[$i % 3] . $segments[$i];
+			}
+		}
+	} else {
+		# Compound already contains identifiers: split identifiers
+		my $prefix = "";
+		my $count = 0;
+		for (my $i = 0; $i <= $#segments; ++$i) {
+			if ($ids[$i]) {
+				# Segment is numbered: split numbering if next
+				# segment is unnumbered; otherwise unchanged
+				$prefix = $ids[$i];
+				$count = 0;
+				if ($i < $#segments && (! $ids[$i + 1])) {
+					$segments[$i] =~ s/[$digits]//g;
+					$segments[$i] = $prefix . $ldigits->[0] . $segments[$i];
+					++$count;
+				}
+			} else {
+				# Segment is unnumbered: add number to prefix
+				$segments[$i] = $prefix . ("$odigit" x int($count / 3)) 
+					. $ldigits->[$count % 3] . $segments[$i];
+				++$count;
+			}
+		}
+		$compound = join("", @segments);
+	}
+	
+	return $compound;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/do.pl
 ## ------------------------------------------------------------
 
@@ -6015,10 +6203,6 @@ sub do {
 		$success = $self->cmd_comment($graph, $1, $2) 
 			if ($cmd =~ /^\s*comment\s*([0-9]+)?\s+(.*)$/);
 
-		# Compound: compound $node [segment|segment|...] 
-		$success = $self->cmd_compound($graph, $1, $2)
-			if ($cmd =~ /^\s*compound\s+([0-9]+)(.*)$/);
-			
 		# Corpus: corpus $files
 		$success = $self->cmd_corpus($1) 
 			if ($cmd =~ /^\s*corpus(\s+.*)?$/);
@@ -6053,8 +6237,7 @@ sub do {
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/);
 		$success = $self->cmd_del($graph, $1, $2, $3) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
-				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
-				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/));
+				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/));
 
 		# Etypes: etypes -$type $type1 $type2 ...
 		$success = $self->cmd_etypes($graph, $1, $2)
@@ -6177,6 +6360,14 @@ sub do {
 		$success = $self->cmd_noedge($graph, $1)
 			if ($cmd =~ /^\s*noedge\s+([0-9]+)\s*$/);
 
+		# Note: note $node $text
+		$success = $self->cmd_note($graph, $1, $2)
+			if ($cmd =~ /^\s*note\s+([0-9]+)\s*(.*)$/);
+
+		# Note: notes
+		$success = $self->cmd_notes($graph)
+			if ($cmd =~ /^\s*notes\s*$/);
+
 		# Offset: offset [=+-]$offset
 		$success = $self->cmd_offset($graph, $2, $3)
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
@@ -6250,12 +6441,16 @@ sub do {
 
 		# Save: save [$file]
 		$success = $self->cmd_save($graph, $2, $3)
-			if ($cmd =~ /^\s*save\s*((-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll)\s+)?(\S*)\s*$/);
+			if ($cmd =~ /^\s*save\s+((-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll)\s+)?(\S*)\s*$/);
 
 		# Script: script [$file]
 		$success = $self->cmd_script($graph, $1)
 			if ($cmd =~ /^\s*script\s*(\S*)\s*$/);
 
+		# Segment: segment $node [segment|segment|...] 
+		$success = $self->cmd_compound($graph, $1, $2, $3)
+			if ($cmd =~ /^\s*segment\s+([a-z])?([0-9]+)(.*)$/);
+	
 		# Server: server $directory
 		$success = $self->cmd_server($1)
 			if ($cmd =~ /^\s*server\s*(\S*)\s*$/);
@@ -6340,15 +6535,20 @@ sub do {
 		# Macro
 		if ($cmd =~ /^\s*(\w+)\s*$/ || $cmd =~ /^\s*(\w+)\s+(.*)\s*$/) {
 			my ($x1, $x2) = ($1, $2);
+			$x2 = "" if (! defined($x2));
 			my $cmd = $self->{'macros'}{$x1};
 			my $cmd2 = $cmd || "";
-			if ($cmd && defined($x2) && $cmd =~ /{ARG}/) {
-				$cmd2 =~ s/{ARG}/$x2/;
+			if ($cmd && $cmd2 =~ /{ARGS}/) {
+				$cmd2 =~ s/{ARGS}/$x2/;
 			} elsif ($cmd) {
 				$cmd2 .=  " " . ($x2 || "");
 			}
-			$self->do($cmd2);
-			$success = 1;
+			my $fname = $graph->file() || "UNTITLED";
+			$cmd2 =~ s/{FILE}/$fname/g;
+			if ($cmd) {
+				$self->do($cmd2);
+				$success = 1;
+			}
 		}
 
 	# ---------- SPECIAL COMMANDS THAT MUST GO AT THE END ----------
@@ -6357,12 +6557,20 @@ sub do {
 		# Add node: [node] [$pos] $input [$var=$value] ...
 		#	"node Han t=XP g=He x=han123 m=han"
 		#	" Han t=XP g=He x=han123 m=han"
+		if ($cmd =~ /^\s*node\s+-off\s*$/) {
+			$success = 1;
+			$graph->{'block_nodeadd'} = 1;
+		} 
+		if ($cmd =~ /^\s*node\s+-on\s*$/) {
+			$success = 1;
+			$graph->{'block_nodeadd'} = 0;
+		}
 		$success = $self->cmd_node($graph, $1, $2, $3) 
-			if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
+			if ((! $success) && UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 				($cmd =~ /^\s*node\s*([+-]?[0-9]+)?\s+(\S+)((\s+\S+=\S+)*)\s*$/ ||
 				$cmd =~ /^\s+()(\S+)\s+((\S+=\S+\s*)*)\s*$/ ||
 				((! $success) && $cmd =~ /^\s+()(\S+)()\s*$/)));
-
+	
 		# Add edge: [edge] $nodein $etype $nodeout
 		#	"edge 12 subj 23"
 		#	"12 land 23"

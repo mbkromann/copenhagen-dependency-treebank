@@ -95,11 +95,12 @@ exch {nodes exch get dup 0 get exch 5 get pageheight div cvi dup 4
 index ne {4 2 roll exch pages exch get exch 4 index exch put exch
 minwidth exch} {pop} ifelse stringwidth pop maxwidth min max} for exch
 pages exch get 3 1 roll put} for pop} def /drawpages {[ 0 dimensions
-{add dup} forall pop] [ 0 dimensions {1 index add} forall pop ] 0 1
-pages length 1 sub {[ llx pages 3 index get {1 index add dup dw add}
-forall pop] dup /columns exch def 4 1 roll gsave -10000 lly botmargin
-sub moveto -10000 ury topmargin add lineto 10000 ury topmargin add
-lineto 10000 lly botmargin sub lineto closepath clip 0 1 index 1 add
+{add dup} forall pop] [ 0 dimensions {1 index add} forall pop ] llx
+ury 10 sub moveto title exch pop {title pop show} format 0 1 pages
+length 1 sub {[ llx pages 3 index get {1 index add dup dw add} forall
+pop] dup /columns exch def 4 1 roll gsave -10000 lly botmargin sub
+moveto -10000 ury topmargin add lineto 10000 ury topmargin add lineto
+10000 lly botmargin sub lineto closepath clip 0 1 index 1 add
 pageheight mul translate newpath 0 1 dimension 1 sub {dup 3 index exch
 get {dup 5 index 3 index get ge {pop pop exit} if dup nodes exch get
 dup 5 get pageheight div cvi 4 index ne {pop pop pop exit} if drawnode

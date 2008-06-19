@@ -1075,6 +1075,7 @@ sub new {
 	# Create self: 
 	my $self = { 
 		'alignment_id' => ++$alignment_id,
+		'compounds' => {},
 	};
 
 	# Specify class for new object
@@ -1488,7 +1489,10 @@ sub postscript {
 			if ($nodeobj && ! $nodeobj->comment()) {
 				# Add node to graph
 				$nodes->{"$g$i"} = $node++;
-				my $label = $nodeobj->var("romanized") || $nodeobj->input() || "";
+				my $label = $self->var("compounds")->{$g . $i} 
+					|| $nodeobj->var("compound") 
+					|| $nodeobj->var("romanized") 
+					|| $nodeobj->input() || "";
 				my $format = "";
 				$format = " 3" if (! defined($node_edges->{"$g$i"}));
 				$format = " 4" if (! $self->node_in_autowindow($g, $i));
@@ -1503,12 +1507,15 @@ sub postscript {
 	}
 
 	# Make setup
+	my $title = $self->var('title') || "";
 	$ps = "% Setup graph\n[$setup] setup\n" 
+		. "/title {($title) 6} def\n\n"
 		. "/formats [{1 0 0 setrgbcolor}\n"
 		. "\t{0 0 1 setrgbcolor}\n"
 		. "\t{1 0 0 setrgbcolor 1 setfontstyle setupfont}\n"
 		. "\t{0.8 setgray}\n"
 		. "\t{1 0.5 0.5 setrgbcolor}\n"
+		. "\t{1 setfontstyle setupfont}\n"
 		. "] def\n\n"
 		. $ps . "\n% Edges\n";
 
@@ -2085,6 +2092,13 @@ sub write_atag {
 				. '"'
 				#. vars2xml($e->vars()) 
 				. "/>\n";
+	}
+
+	# Print <compound> tags
+	my $compounds = $self->{'compounds'};
+	foreach my $c (sort(keys(%$compounds))) {
+		$atag .= '<compound node="' . $c . '">' . $compounds->{$c}
+			. "</compound>\n";
 	}
 
 	# Print end tag

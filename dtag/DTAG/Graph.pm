@@ -850,6 +850,7 @@ sub is_adjunct {
 	
 	# Return 1 if edge is an adjunct edge 
 	my $type = ref($edge) ? $edge->type() : $edge;
+	$type =~ s/\#$//g;
 	return 1 if (grep {$type eq $_} @{$self->etypes()->{'adj'}});
 
 	# Otherwise return 0
@@ -865,7 +866,8 @@ sub is_complement {
 	my ($self, $edge) = @_;
 	
 	# Return 1 if edge is a complement
-	my $type = ref($edge) ? $edge->type() : $edge;
+	my $type = ref($edge) ? "" . $edge->type() : "" . $edge;
+	$type =~ s/\#$//g;
 	return 1 if (grep {$type eq $_} @{$self->etypes()->{'comp'}});
 
 	# Otherwise return 0
@@ -905,7 +907,11 @@ sub is_known_edge {
 		return $self->is_dependent($1) ? 1 : 0;
 	} elsif ($type =~ /^<(.*)>$/) {
 		my $return = 1;
-		map {is_dependent($_) || ($return = 0)} split(/:/, $type);
+		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
+		return $return;
+	} elsif ($type =~ /^:$/) {
+		my $return = 1;
+		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
 		return $return;
 	} else {
 		return (grep {$type eq $_} (map {@{$self->etypes()->{$_}}} 
@@ -1799,7 +1805,8 @@ sub postscript {
 		foreach my $lbl (@sorted) {
 			# Find value
 			if ($lbl =~ /^stream:.*$/) {
-				$val = ($lbl eq "stream:$s") ? ($node->input()) : "";
+				$val = ($lbl eq "stream:$s") 
+					?  $node->input() : "";
 			} elsif ($lbl eq '_position') {
 				my $rpos = $n - $self->offset();
 				$val = ($self->offset() && $rpos >= 0) 

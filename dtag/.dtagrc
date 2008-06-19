@@ -1,5 +1,5 @@
 # Set corpus
-corpus /opt/dtag/parole/*.tag
+corpus /opt/cdt/*/*.tag
 
 # Define variables
 vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c
@@ -12,7 +12,7 @@ vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c
 layout -clear
 
 # Variables that must be include the graph
-layout -vars /stream:.*/|cat|msd|lexeme|gloss|sdeps|_position
+layout -vars /stream:.*/|compound|cat|msd|lexeme|gloss|sdeps|_position
 
 # Regular expressions that must be applied to individual variables
 layout -var msd s/(..).*/$1/
@@ -22,7 +22,7 @@ layout -var sdeps sub { \
 	map {$sdeps->{$_} = 1} split('\|', $v); \
 	map {delete $sdeps->{$_->type()}} @{$G->node($n)->in()}; \
 	return join("|", sort(keys(%$sdeps))); \
-	}
+}
 
 # Nodes to hide (comment nodes)
 layout -nhide $n->comment()
@@ -65,7 +65,7 @@ layout -estyles \
 		$newborn, $dying, $dead]
 
 # Calculating the placement of an edge (bottom=1 or top=0)
-layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\))(:[-0-9]*)?$/)
+layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\))(:[-0-9]*)?$/ || ($e->in() == $e->out()))
 
 # Definition of different styles
 style title -label -fonttype bold
@@ -108,6 +108,7 @@ macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 macro tasks !gedit /home/cdt/cdt/todo/`cat ~/.cdtname` &
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
+macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
@@ -118,9 +119,11 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 #option post-print
 
 # Edge types
-etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:dobj pobj:possd pred preds predo predf qobj robj subj tobj vobj
-etypes -adj adjuncts appa appr attrd attrd# attrr attr# ben bg cause conc cond conj cons coord degr ext goal inst list man mod modo modp modr name namef namel neg other path pnct prg rel source space struct time title voc xpl xtop
-etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
-etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
+etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd pred preds predo predf qobj robj subj tobj vobj
+#etypes -comp pobj:dobj pobj:possd 
+#etypes -adj attrd# attrr#
+etypes -adj adjuncts appa appr attrd attrr ben bg cause conc cond conj cons coord degr ext goal inst list man mod modo modp modr name namef namel neg other path pnct prg rel relelab relp relr source space struct time title voc xpl xtop
+# etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
+#etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland
 etypes -ref ref
