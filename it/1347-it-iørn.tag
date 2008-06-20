@@ -4,14 +4,14 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CEE</W>
 <W lemma="," msd="XP" tag="PON" in="5:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="4:coord" out="">e</W>
-<W lemma="questo" msd="PD" tag="PRO:demo" in="4:xtop" out="4:²ref">questo</W>
+<W lemma="questo" msd="PD" tag="PRO:demo" in="4:xtop|7:coref-res" out="4:²ref">questo</W>
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-1:subj|-5:pnct|-4:coord|1:¹vobj|3:pnct">dovrebbe</W>
-<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
+<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|1:time|3:vobj|4:bg|18:conj">hanno</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|1:time|3:vobj|4:bg|18:conj|-7:coref-res">hanno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:time" out="1:nobj">per</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="collaborare" msd="VAP" tag="VER:pper" in="-3:vobj" out="">collaborato</W>
@@ -65,9 +65,9 @@
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="" out="-1:subj|-7:time|6:vobj|2:ext|17:pnct|18:cause|30:pnct">potrà</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="" out="-1:subj|-7:time|2:ext|6:vobj|17:pnct|18:cause|30:pnct">potrà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="per" msd="SP" tag="PRE" in="-2:ext" out="-1:pnct|3:pnct|1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-2:ext" out="-1:pnct|1:nobj|3:pnct">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
