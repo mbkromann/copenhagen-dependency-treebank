@@ -47,10 +47,10 @@ cd ~
 if [ ! -d web/www.treebank.dk ] ; then
 	mkdir -p web 
 	cd web
-	httrack -w www.treebank.dk && ln -s httrack/www.treebank.dk treebank.dk
+#	httrack -w www.treebank.dk && ln -s httrack/www.treebank.dk treebank.dk
 fi
 cd web
-httrack --update
+#httrack --update
 
 # Finish
 echo ""
