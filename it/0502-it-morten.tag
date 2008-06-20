@@ -32,27 +32,57 @@
 <W lemma="morire" msd="VAP" tag="VER:pper" in="-2:vobj" out="">morto</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:ext" out="1:nobj">più</W>
 <W lemma="volto" msd="AN" tag="ADJ" in="-1:nobj" out="">volte</W>
+<<<<<<< .mine
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:mod" out="3:vobj">perché</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Nilo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:vobj" out="2:pred">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:mod" out="2:nobj">così</W>
+<W lemma="inquinare" msd="VAP" tag="VER:pper" in="-2:pred" out="-1:mod">inquinato</W>
+=======
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:cause" out="3:vobj">perché</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">il</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Nilo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:vobj" out="1:degr|-2:subj|2:pred">è</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:degr" out="2:cons">così</W>
 <W lemma="inquinare" msd="VAP" tag="VER:pper" in="-2:pred" out="">inquinato</W>
+>>>>>>> .r162
+<<<<<<< .mine
+<W lemma="che" msd="PT" tag="PRO:rela" in="-2:nobj" out="">che</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:mod">al</W>
+<W lemma="semplice" msd="AN" tag="ADJ" in="-1:mod" out="">semplice</W>
+<W lemma="contatto" msd="NC" tag="NOM" in="" out="1:lobj">contatto</W>
+=======
 <W lemma="che" msd="PT" tag="PRO:rela" in="-2:cons" out="8:vobj">che</W>
 <W _compound="1" lemma="al" msd="SP+P" tag="PRE:det" in="" out="1:mod">al</W>
 <W lemma="semplice" msd="AN" tag="ADJ" in="-1:mod" out="">semplice</W>
 <W lemma="contatto" msd="NC" tag="NOM" in="" out="1:lobj">contatto</W>
+>>>>>>> .r162
 <W lemma="con" msd="SP" tag="PRE" in="-1:lobj" out="1:nobj">con</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">l’acqua</W>
+<<<<<<< .mine
+<W lemma="ci" msd="PD" tag="PRO:demo" in="1:subj" out="">ci</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="" out="-1:subj">si</W>
+<W lemma="rischiare" msd="VADR" tag="VER:pres" in="" out="1:dobj">rischia</W>
+=======
 <W lemma="ci" msd="PD" tag="PRO:demo" in="2:subj" out="">ci</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="3:robj" out="">si</W>
 <W lemma="rischiare" msd="VADR" tag="VER:pres" in="-8:vobj" out="1:dobj|-2:subj">rischia</W>
+>>>>>>> .r162
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
+<<<<<<< .mine
+<W lemma="beccare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">beccare</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="">un</W>
+<W lemma="qualche" msd="AN" tag="ADJ" in="" out="">qualche</W>
+<W lemma="virus" msd="NC" tag="NOM" in="" out="">virus</W>
+<W lemma="parassita" msd="AN" tag="ADJ" in="" out="">parassita</W>
+=======
 <W lemma="beccare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|-3:robj">beccare</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="">un</W>
 <W lemma="qualche" msd="AN" tag="ADJ" in="" out="">qualche</W>
 <W lemma="virus" msd="NC" tag="NOM" in="" out="">virus</W>
 <W lemma="parassita" msd="AN" tag="ADJ" in="" out="">parassita</W>
+>>>>>>> .r162
 <W lemma="." msd="XP" tag="SENT" in="-26:pnct" out="">.</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">Per</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">questa</W>
