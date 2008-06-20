@@ -65,7 +65,7 @@ layout -estyles \
 		$newborn, $dying, $dead]
 
 # Calculating the placement of an edge (bottom=1 or top=0)
-layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\))(:[-0-9]*)?$/ || ($e->in() == $e->out()))
+layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\)|coref.*|assoc.*)(:[-0-9]*)?$/ || ($e->in() == $e->out()))
 
 # Definition of different styles
 style title -label -fonttype bold
@@ -126,4 +126,4 @@ etypes -adj adjuncts appa appr attrd attrr ben bg cause conc cond conj cons coor
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 #etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland
-etypes -ref ref
+etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope
