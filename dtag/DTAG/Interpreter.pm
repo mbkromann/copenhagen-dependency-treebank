@@ -1893,6 +1893,27 @@ sub cmd_edge {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_edges.pl
+## ------------------------------------------------------------
+
+sub cmd_edges {
+	my ($self, $graph, $noder) = @_;
+
+
+	# Dependency graphs
+	if (UNIVERSAL::isa($graph, 'DTAG::Graph'))  {
+		print "view edges at node $noder\n";
+	}
+
+	# Alignment graphs
+	if (UNIVERSAL::isa($graph, 'DTAG::Alignment'))  {
+		print "view edges at node $noder\n";
+	}
+
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_edit.pl
 ## ------------------------------------------------------------
 
@@ -6246,6 +6267,10 @@ sub do {
 		$success = $self->cmd_del($graph, $1, $2, $3, 1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/));
+
+		# Edges: edges $node
+		$success = $self->cmd_edges($graph, $1)
+			if ($cmd =~ /^\s*edges\s+(\S+)\s*$/);
 
 		# Etypes: etypes -$type $type1 $type2 ...
 		$success = $self->cmd_etypes($graph, $1, $2)
