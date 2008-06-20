@@ -1523,6 +1523,17 @@ sub cmd_del {
 	my $nodeinr = shift;
 	my $etype = shift;
 	my $nodeoutr = shift;
+	my $called_as_edel = shift;
+
+	# Check that nodeblocking is not activated
+	if ($graph->{'block_nodedel'} && ! $called_as_edel) {
+		print "WARNING: Node deletion turned off: no edges deleted\n";
+		print "Please use \"edel <node>\" or \"edel <node> <label> <node>\"\n";
+		print "when deleting in-edges. Node deletion can be turned on/off\n";
+		print "with \"del -on\" / \"del -off\"\n";
+		return 1;
+		#$self->cmd_edel($graph, $nodeinr);
+	}
 
 	# Apply offset
 	my $nodein = defined($nodeinr) ? $nodeinr + $graph->offset() : undef;
@@ -1549,12 +1560,7 @@ sub cmd_del {
 	}
 
 	# Delete node, if requested
-	if ($graph->{'block_nodedel'}) {
-		print "WARNING: Node deletion turned off: only incoming edges deleted\n";
-		print "Please use \"edel <node>\" when deleting in-edges\n";
-		print "Node deletion can be turned on/off with \"del -on\" / \"del -off\"\n";
-		$self->cmd_edel($graph, $nodeinr);
-	} elsif (! defined($etype)) {
+	if ((! $graph->{'block_nodedel'}) && ! defined($etype)) {
 		# Delete node
 		splice(@{$graph->nodes()}, $nodein, 1);
 
@@ -4607,8 +4613,9 @@ sub cmd_return {
 sub cmd_save {
 	my $self = shift;
 	my $graph = shift;
-	my $ftype = shift;
+	my $ftype = shift || "";
 	my $fname = shift;
+	$ftype =~ s/^\s+//g;
 
     # Find type of file (-tag): look at ending, select .tag
 	if (! $ftype) {
@@ -5763,7 +5770,8 @@ sub cmd_title {
 	if ($text =~ /^\s*-auto\s*$/) {
 		# Create title automatically
 		my $fname = $graph->file() || "UNTITLED";
-		$text = $fname . " on " . `date`;
+		$text = $fname . " on " . `date` . "(offset "
+			. $graph->offset() . ")";
 	} 
 	
 	# Set title
@@ -6235,7 +6243,7 @@ sub do {
 		$success = $self->cmd_edel($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && 
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s*$/);
-		$success = $self->cmd_del($graph, $1, $2, $3) 
+		$success = $self->cmd_del($graph, $1, $2, $3, 1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/));
 
@@ -6441,7 +6449,7 @@ sub do {
 
 		# Save: save [$file]
 		$success = $self->cmd_save($graph, $2, $3)
-			if ($cmd =~ /^\s*save\s+((-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll)\s+)?(\S*)\s*$/);
+			if ($cmd =~ /^\s*save\s*(\s+(-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll)\s+)?(\S*)\s*$/);
 
 		# Script: script [$file]
 		$success = $self->cmd_script($graph, $1)
