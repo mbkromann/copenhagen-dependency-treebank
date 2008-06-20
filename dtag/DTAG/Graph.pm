@@ -849,9 +849,24 @@ sub is_adjunct {
 	my ($self, $edge) = @_;
 	
 	# Return 1 if edge is an adjunct edge 
-	my $type = ref($edge) ? $edge->type() : $edge;
+	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
+
+	# Remove edge decorations
+	$type =~ s/^[¹²³^]+//g;
+	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
-	return 1 if (grep {$type eq $_} @{$self->etypes()->{'adj'}});
+
+	# See if reduced edge matches adjunct
+	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
+		return 1;
+	} elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
+		my ($head, $tail) = ($1, $3 || "");
+		my $return = 1;
+		map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
+		return $self->is_adjunct($head) && $return;
+	} elsif ($type =~ /^([^:]+):([^:]+)$/) {
+		return $self->is_adjunct($1) && $self->is_dependent($2);
+	}
 
 	# Otherwise return 0
 	return 0;
@@ -866,9 +881,24 @@ sub is_complement {
 	my ($self, $edge) = @_;
 	
 	# Return 1 if edge is a complement
-	my $type = ref($edge) ? "" . $edge->type() : "" . $edge;
+	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
+
+	# Remove edge decorations
+	$type =~ s/^[¹²³^]+//g;
+	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
-	return 1 if (grep {$type eq $_} @{$self->etypes()->{'comp'}});
+
+	# See if it is known
+	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
+		return 1;
+    } elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
+        my ($head, $tail) = ($1, $3 || "");
+        my $return = 1;
+        map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
+        return $self->is_complement($head) && $return;
+    } elsif ($type =~ /^([^:]+):([^:]+)$/) {
+		return $self->is_complement($1) && $self->is_dependent($2);
+	}
 
 	# Otherwise return 0
 	return 0;
@@ -883,12 +913,7 @@ sub is_dependent {
 	my ($self, $edge) = @_;
 	
 	# Return 1 if edge is a complement
-	my $type = ref($edge) ? $edge->type() : $edge;
-	return 1 if (grep {$type eq $_} 
-		(@{$self->etypes()->{'comp'}}, @{$self->etypes()->{'adj'}}));
-
-	# Otherwise return 0
-	return 0;
+	return $self->is_complement($edge) || $self->is_adjunct($edge);
 }
 
 
@@ -900,16 +925,21 @@ sub is_known_edge {
 	my ($self, $edge) = @_;
 	
 	# Return 1 if edge is a complement
-	my $type = ref($edge) ? $edge->type() : $edge;
+	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
+    $type =~ s/^[¹²³^]+//g;
+	$type =~ s/[¹²³^]+$//g;
+    $type =~ s/\#$//g;
 
 	# Normalize edge
-	if ($type =~ /^\[(.*)\]$/) {
+	if ($self->is_dependent($type)) {
+		return 1;
+	} elsif ($type =~ /^\[(.*)\]$/) {
 		return $self->is_dependent($1) ? 1 : 0;
 	} elsif ($type =~ /^<(.*)>$/) {
 		my $return = 1;
 		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
 		return $return;
-	} elsif ($type =~ /^:$/) {
+	} elsif ($type =~ /:/) {
 		my $return = 1;
 		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
 		return $return;
