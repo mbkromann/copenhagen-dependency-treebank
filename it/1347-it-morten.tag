@@ -4,11 +4,11 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CEE</W>
 <W lemma="," msd="XP" tag="PON" in="5:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="4:coord" out="">e</W>
-<W lemma="questo" msd="PD" tag="PRO:demo" in="4:xtop" out="4:ref²">questo</W>
+<W lemma="questo" msd="PD" tag="PRO:demo" in="4:xtop" out="4:²ref">questo</W>
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-1:subj|-4:coord|-5:pnct|1:¹vobj|3:pnct">dovrebbe</W>
-<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|-1:¹vobj|0:²dobj¹|-4:ref²" out="-4:xtop|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
+<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|1:time|3:vobj|4:bg|18:conj">hanno</W>
@@ -58,20 +58,20 @@
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">paesi</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:attrr" out="">membri</W>
 <W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
-<W lemma="quando" msd="PT" tag="PRO:inter" in="" out="">Quando</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">l’accordo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">entrerà</W>
-<W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
-<W lemma="vigore" msd="NC" tag="NOM" in="" out="1:pnct">vigore</W>
-<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="si" msd="PP" tag="PRO:pers" in="" out="">si</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="" out="1:pnct">potrà</W>
-<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">es</W>
-<W lemma="." msd="XP" tag="SENT" in="" out="1:pnct">.</W>
-<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="impedire" msd="VAF" tag="VER:infi" in="" out="">impedire</W>
+<W lemma="quando" msd="PT" tag="PRO:inter" in="7:time" out="2:vobj">Quando</W>
+<W compound="l’accordo" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">l’accordo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:vobj" out="-1:subj|1:man|3:pnct">entrerà</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:man" out="1:nobj">in</W>
+<W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
+<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
+<W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="" out="-1:subj|6:vobj|-7:time|2:ext">potrà</W>
+<W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
+<W lemma="per" msd="SP" tag="PRE" in="-2:ext" out="1:nobj|3:pnct|-1:pnct">per</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
+<W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
+<W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
+<W lemma="impedire" msd="VAF" tag="VER:infi" in="-6:vobj" out="">impedire</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
 <W lemma="rifugiato" msd="NC" tag="NOM" in="" out="">rifugiati</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="" out="">politici</W>
@@ -81,8 +81,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">più</W>
 <W lemma="paese" msd="NC" tag="NOM" in="" out="">paesi</W>
-<W lemma="contemporaneamente" msd="RG" tag="ADV" in="" out="1:pnct">contemporaneamente</W>
-<W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
+<W lemma="contemporaneamente" msd="RG" tag="ADV" in="" out="">contemporaneamente</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dal</W>
 <W lemma="momento" msd="NC" tag="NOM" in="" out="">momento</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
