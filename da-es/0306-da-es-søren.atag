@@ -1,0 +1,104 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0306-da.tag" sign="_input"/>
+<alignFile key="b" href="../da/0306-da.tag" sign="_input"/>
+<align out="a42" type="" in="b0" creator="-101" insign="<tei.2>" outsign="Er"/>
+<align out="a43" type="" in="b1" creator="-101" insign="&nbsp;&nbsp;<teiHeader&nbsp;type=text>" outsign="der"/>
+<align out="a44" type="" in="b2" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;<fileDesc>" outsign="problemer"/>
+<align out="a45" type="" in="b3" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<titleStmt>" outsign="med"/>
+<align out="a46" type="" in="b4" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<title>Tagged&nbsp;sample&nbsp;of:&nbsp;'Søndags&nbsp;læger'</title>" outsign="helbredet"/>
+<align out="a49" type="" in="b6" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<extent&nbsp;words=160>160&nbsp;running&nbsp;words</extent>" outsign="skriv"/>
+<align out="a50" type="" in="b7" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<publicationStmt>" outsign="til"/>
+<align out="a55" type="" in="b8" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<distributor>PAROLE-DK</distributor>" outsign="Ugemagasinet"/>
+<align out="a58" type="" in="b14" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<biblStruct>" outsign="Vesterbrogade"/>
+<align out="a59" type="" in="b15" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<analytic>" outsign="16"/>
+<align out="a61 a62" type="" in="b17" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<author>UNKNOWN</author>" outsign="1505 København"/>
+<align out="a67" type="" in="b20" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<imprint><pubPlace>Denmark</pubPlace>" outsign="Kun"/>
+<align out="a68" type="" in="b21 b30" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<date>1990-02-25</date> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textClass>" outsign="Ugemagasinet"/>
+<align out="a70" type="" in="b22" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</imprint>" outsign="læger"/>
+<align out="a71 a72" type="" in="b23 b27" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</monogr> &nbsp;&nbsp;&nbsp;&nbsp;<profileDesc>" outsign="må åbne"/>
+<align out="a73" type="" in="b31" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<catRef&nbsp;target=&quot;P.M3.3&quot;>" outsign="Deres"/>
+<align out="a81" type="" in="b42" creator="-101" insign="Er" outsign="kan"/>
+<align out="a83" type="" in="b41" creator="-101" insign="<s>" outsign="ikke"/>
+<align out="a86 a87" type="" in="b43" creator="-101" insign="der" outsign="at give"/>
+<align out="a95 a96" type="" in="b48 b49" creator="-101" insign="så skriv" outsign="P-PILLER I"/>
+<align out="a97" type="" in="b50 b51 b52" creator="-101" insign="til &quot; Lægerne" outsign="OVERGANGSALDEREN"/>
+<align out="a103" type="" in="b54" creator="-101" insign="," outsign="Mange"/>
+<align out="a104" type="" in="b55" creator="-101" insign="Ugemagasinet" outsign="kvinder"/>
+<align out="a105 a106" type="" in="b56" creator="-101" insign="SØNDAG" outsign="ønsker at"/>
+<align out="a112" type="" in="b62" creator="-101" insign="København" outsign="når"/>
+<align out="a113 a114" type="" in="b63" creator="-101" insign="V." outsign="de er"/>
+<align out="a115" type="" in="b65" creator="-101" insign="</s>" outsign="i"/>
+<align out="a117" type="" in="b68" creator="-101" insign="Ugemagasinet" outsign="af"/>
+<align out="a118" type="" in="b64 b67 b69 b70" creator="-101" insign=". Kun SØNDAG's læger" outsign="40'erne"/>
+<align out="a122" type="" in="b72" creator="-101" insign="åbne" outsign="Men"/>
+<align out="a123" type="" in="b73" creator="-101" insign="Deres" outsign="det"/>
+<align out="a125" type="" in="b75" creator="-101" insign="." outsign="en"/>
+<align out="a126" type="" in="b76" creator="-101" insign="</s>" outsign="lang"/>
+<align out="a127" type="" in="b77" creator="-101" insign="<s>" outsign="række"/>
+<align out="a128" type="" in="b79" creator="-101" insign=":" outsign="spørgsmål"/>
+<align out="a130" type="" in="b82" creator="-101" insign="desværre" outsign="som"/>
+<align out="a131" type="" in="b83 b84" creator="-101" insign="ikke påtage" outsign="lægerne"/>
+<align out="a132" type="" in="b85" creator="-101" insign="sig" outsign="svarer"/>
+<align out="a134" type="" in="b86" creator="-101" insign="at" outsign="her"/>
+<align out="a136" type="" in="b88 b89" creator="-101" insign="private svar" outsign="bl.a."/>
+<align out="a138" type="" in="b93 b94" creator="-101" insign="<p> <s>" outsign="hormoner"/>
+<align out="a139" type="" in="b95" creator="-101" insign="P-PILLER" outsign="kan"/>
+<align out="a140" type="" in="b96" creator="-101" insign="I" outsign="erstatte"/>
+<align out="a149" type="" in="b103" creator="-101" insign="Mange" outsign="Ole"/>
+<align out="a150" type="" in="b104" creator="-101" insign="kvinder" outsign="Clausen"/>
+<align out="a155 a156" type="" in="b105 b106" creator="-101" insign="ønsker at" outsign="Bodil er"/>
+<align out="a157" type="" in="b107" creator="-101" insign="holde" outsign="49"/>
+<align out="a158" type="" in="b108" creator="-101" insign="op" outsign="år"/>
+<align out="a162 a163" type="" in="b110" creator="-101" insign="P-pillerne" outsign="Hun har"/>
+<align out="a167" type="" in="b115" creator="-101" insign="i" outsign="mange"/>
+<align out="a168" type="" in="b116" creator="-101" insign="slutningen" outsign="år"/>
+<align out="a172 a173" type="" in="b118" creator="-101" insign="40'erne" outsign="Hun fik"/>
+<align out="a174" type="" in="b125" creator="-101" insign="en" outsign="tidligt"/>
+<align out="a175" type="" in="b119" creator="-101" insign="." outsign="3"/>
+<align out="a176" type="" in="b120" creator="-101" insign="</s>" outsign="børn"/>
+<align out="a177 a178 a179" type="" in="b121 b122" creator="-101" insign="<s> Men" outsign="lige efter hinanden"/>
+<align out="a181" type="" in="b128" creator="-101" insign="spørgsmål" outsign="ønskede"/>
+<align out="a182" type="" in="b127" creator="-101" insign="række" outsign="ikke"/>
+<align out="a183" type="" in="b130" creator="-101" insign="som" outsign="flere"/>
+<align out="a184" type="" in="b131" creator="-101" insign="lægerne" outsign="og"/>
+<align out="a185 a186" type="" in="b132" creator="-101" insign="svarer" outsign="ville gerne"/>
+<align out="a188 a189" type="" in="b123 b136 b140" creator="-101" insign="det bl.a. erstatte" outsign="modstand mod"/>
+<align out="a203" type="" in="b153" creator="-101" insign="<p>" outsign="som"/>
+<align out="a204" type="" in="b155" creator="-101" insign="Bodil" outsign="hun"/>
+<align out="a205" type="" in="b156" creator="-101" insign="er" outsign="fungerede"/>
+<align out="a206" type="" in="b157" creator="-101" insign="49" outsign="godt"/>
+<align out="a207" type="" in="b158" creator="-101" insign="år" outsign="med"/>
+<align out="a208" type="" in="b159" creator="-101" insign="." outsign="uden"/>
+<align out="a209" type="" in="b160 b161" creator="-101" insign="</s> <s>" outsign="bivirkninger"/>
+<align out="a215" type="" in="b163" creator="-101" insign="har" outsign="Da"/>
+<align out="a216 a217" type="" in="b164" creator="-101" insign="spist" outsign="hun blev"/>
+<align out="a218" type="" in="b165" creator="-101" insign="P-piller" outsign="40"/>
+<align out="a219" type="" in="b166" creator="-101" insign="i" outsign="år"/>
+<align out="a220 a221" type="" in="b167" creator="-101" insign="mange" outsign="talte jeg"/>
+<align out="a222" type="" in="b168" creator="-101" insign="år" outsign="med"/>
+<align out="a223" type="" in="b169" creator="-101" insign="." outsign="hende"/>
+<align out="a224" type="" in="b170" creator="-101" insign="</s>" outsign="om"/>
+<align out="a225 a226" type="" in="b171" creator="-101" insign="<s>" outsign="en anden"/>
+<align out="a227" type="" in="b172 b174" creator="-101" insign="Hun tidligt" outsign="prævention"/>
+<align out="a228 a229 a230" type="" in="b175" creator="-101" insign="3" outsign="i stedet for"/>
+<align out="a233" type="" in="b180" creator="-101" insign="," outsign="men"/>
+<align out="a234" type="" in="b181 b183" creator="-101" insign="ønskede flere" outsign="det"/>
+<align out="a235 a255 a256 a257" type="" in="b184" creator="-101" insign="og" outsign="ønskede ville hun gerne"/>
+<align out="a244" type="" in="b191 b193" creator="-101" insign="sikre 100" outsign="risici"/>
+<align out="a246" type="" in="b194" creator="-101" insign="%" outsign="der"/>
+<align out="a249" type="" in="b197" creator="-101" insign="<s>" outsign="for"/>
+<align out="a250" type="" in="b198" creator="-101" insign="Derfor" outsign="kvinder"/>
+<align out="a251" type="" in="b199 b200" creator="-101" insign="valgte hun" outsign="over"/>
+<align out="a252" type="" in="b201" creator="-101" insign="P-pillerne" outsign="40"/>
+<align out="a258" type="" in="b189" creator="-101" insign="mod" outsign="tage"/>
+<align out="a260" type="" in="b192" creator="-101" insign="sig" outsign="sin"/>
+<align out="a261" type="" in="b190" creator="-101" insign="abort" outsign="egen"/>
+<align out="b24" type="" in="b24" creator="-101" insign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</biblStruct>" outsign="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</biblStruct>"/>
+<align out="b66" type="" in="b66" creator="-101" insign="<s>" outsign="<s>"/>
+<align out="b78" type="" in="b78" creator="-101" insign="OBS" outsign="OBS"/>
+<align out="b80" type="" in="b80" creator="-101" insign="Lægerne" outsign="Lægerne"/>
+<align out="b138" type="" in="b138" creator="-101" insign="hormoner" outsign="hormoner"/>
+<align out="b154" type="" in="b154" creator="-101" insign="<s>" outsign="<s>"/>
+<align out="b173" type="" in="b173" creator="-101" insign="fik" outsign="fik"/>
+<align out="b186" type="" in="b186" creator="-101" insign="gerne" outsign="gerne"/>
+</DTAGalign>
