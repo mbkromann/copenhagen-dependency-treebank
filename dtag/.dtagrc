@@ -40,7 +40,7 @@ layout -stream $n->var('speaker')
 layout -nstyles [\
 	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
 		?  "nogoverror" : ""),\
-	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) > 1 \
+	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$n->in()}) > 1 \
 		?  "manygoverror" : ""),\
 	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
 	split('\|', $n->var('styles') || ""), \
@@ -56,7 +56,7 @@ layout -estyles \
 	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
 	[	'speaker:' . ($G->node($e->in())->var('speaker') || 0),\
 		($G->is_known_edge($e) ? "" : "unknownetypeerror"),\
-		(scalar(grep {$G->is_dependent($_)} @{$G->node($e->in())->in()}) > 1 \
+		(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1 \
 			?  "edgeconflict" : ""),\
 		split('\|', $G->node($e->in())->var('styles') || ""),\
 		map {split(':', $_)} \
@@ -65,7 +65,7 @@ layout -estyles \
 		$newborn, $dying, $dead]
 
 # Calculating the placement of an edge (bottom=1 or top=0)
-layout -pos ($e->type() =~ /^(\[.*\]|gap|ref|fill.?|ref\+fill|land|xland|src|dom|share|para|replace.*|copy.*|default.*|gapsrc|gapd|repl|hideb|ant|match|tland|parallel|nonpar|\(.*\)|coref.*|assoc.*)(:[-0-9]*)?$/ || ($e->in() == $e->out()))
+layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out())
 
 # Definition of different styles
 style title -label -fonttype bold
