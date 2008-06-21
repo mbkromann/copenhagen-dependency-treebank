@@ -12,9 +12,9 @@
 [*] Fix error in edel / del
 [*] Fix error in detecting ¹edge
 [*] Fix error in save
-[.] Document important DTAG commands (alignment, dependency, diff, find, svn, tasks)
+[*] Document important DTAG commands (alignment, dependency, diff, find, svn, tasks)
+[*] Implement "edges" command for printing alignment/dependency edges at a node
 [ ] Implement svn-archive for treebank.dk
-[ ] Implement "edges" command for printing alignment/dependency edges at a node
 [ ] Final dependency files: distribute to students and update opentask
 [ ] Check tag conversion for Spanish and Italian
 [ ] Autosegment Danish dependency files (???)
