@@ -122,7 +122,7 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd pred preds predo predf qobj robj subj tobj vobj
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
-etypes -adj adjuncts appa appr attrd attrr ben bg cause conc cond conj cons coord degr dir ext goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg rel relelab relp relr source struct time title voc xpl xtop +
+etypes -adj adjuncts appa appr attrd attrr ben bg cause comp conc cond conj cons coord degr dir ext goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg rel relelab relp relr source struct time title voc xpl xtop +
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 #etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland

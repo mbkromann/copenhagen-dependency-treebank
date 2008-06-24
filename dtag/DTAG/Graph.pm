@@ -3157,16 +3157,29 @@ sub words {
 	my $text = "";
 	my $size = $self->size();
 	my $first = 1;
+	my $lastten = -1000;
 	for (my $i = $i1; $i <= $i2; ++$i) {
 		# Add text
 		my $node = $self->node($i);
 		if (! $node->comment()) {
 			$text .= $sep if (! $first);
 			if ($unicode) {
-				$text .= superscript($i - $self->offset());
+				if ($i - $lastten >= 10) {
+					# Print entire text
+					$text .= superscript($i - $self->offset());
+					$lastten = $i - ($i % 10);
+				} else {
+					# Print only last digit
+					my $sup = superscript($i -$self->offset());
+					$text .= substr($sup, length($sup) - 1);
+				}
 			}
 			
-			$text .= $node->input();
+			if (Encode::decode_utf8($node->input())) {
+				$text .=  Encode::decode_utf8($node->input());
+			} else {
+				$text .= $node->input();
+			}
 			$first = 0;
 		}
 	}

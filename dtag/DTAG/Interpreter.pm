@@ -59,7 +59,8 @@ use XML::Writer;
 use PerlIO;
 use IO qw(File);
 use File::Basename;
-use Encode;
+use Encode 'decode_utf8';
+use Encode 'decode_utf8';
 
 # Required DTAG modules 
 require DTAG::Lexicon;
