@@ -3162,14 +3162,17 @@ sub words {
 		my $node = $self->node($i);
 		if (! $node->comment()) {
 			$text .= $sep if (! $first);
-			$text .= ($unicode 
-				? superscript($i - $self->offset()) : "") . $node->input();
+			if ($unicode) {
+				$text .= superscript($i - $self->offset());
+			}
+			
+			$text .= $node->input();
 			$first = 0;
 		}
 	}
 
 	# Return text
-	return $digits . $text . $digits;
+	return $text;
 }
 
 
@@ -3177,7 +3180,7 @@ sub superscript {
 	my $n = "" . shift;
 
 	my $s = "";
-	for (my $i = length($n)-0; $i < length($n); ++$i) {
+	for (my $i = 0; $i < length($n); ++$i) {
 		my $digit = substr($n, $i, 1);
 		$s .= substr($digits, 0 + $digit, 1);
 	}
