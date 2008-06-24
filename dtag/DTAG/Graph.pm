@@ -3137,12 +3137,15 @@ sub wikidoc_superw {
 
 =cut
 
+my $digits = "\x{2070}\x{00B9}\x{00B2}\x{00B3}\x{2074}\x{2075}\x{2076}\x{2077}\x{2078}\x{2079}";
+
 sub words {
 	my $self = shift;
 	my $i1 = shift;
 	my $i2 = shift;
 	my $sep = shift || "";
 	my $maxlen = shift;
+	my $unicode = shift || 1;
 
 	# Ensure $i1 and $i2 are set
 	$i1 = 0 if (! defined($i1));
@@ -3159,13 +3162,27 @@ sub words {
 		my $node = $self->node($i);
 		if (! $node->comment()) {
 			$text .= $sep if (! $first);
-			$text .= $node->input();
+			$text .= ($unicode 
+				? superscript($i - $self->offset()) : "") . $node->input();
 			$first = 0;
 		}
 	}
 
 	# Return text
-	return $text;
+	return $digits . $text . $digits;
+}
+
+
+sub superscript {
+	my $n = "" . shift;
+
+	my $s = "";
+	for (my $i = length($n)-0; $i < length($n); ++$i) {
+		my $digit = substr($n, $i, 1);
+		$s .= substr($digits, 0 + $digit, 1);
+	}
+
+	return $s;
 }
 
 ## ------------------------------------------------------------

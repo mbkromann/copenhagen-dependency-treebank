@@ -7083,6 +7083,7 @@ sub new {
 	$self->interactive(1);
 	$self->var("tag_segment_ends", sub { $_[0] =~ /<\/[sS]>/ });
 	$self->var("todo", []);
+	$self->binmode("utf8");
 
 	# Create empty graph
 	$self->{'graphs'} = [DTAG::Graph->new($self)];
