@@ -1,0 +1,163 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0376-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0376-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" insign="Si" outsign="Hvis"/>
+<align out="a44" type="" in="b1" creator="-101" insign="todo" outsign="alt"/>
+<align out="a50" type="" in="b8" creator="-101" insign="15" outsign="15"/>
+<align out="a51" type="" in="b9" creator="-101" insign="familias" outsign="familier"/>
+<align out="a54" type="" in="b15" creator="-101" insign="1987" outsign="1987"/>
+<align out="a55" type="" in="b16" creator="-101" insign="en" outsign="i"/>
+<align out="a56" type="" in="b17" creator="-101" insign="sus" outsign="deres"/>
+<align out="a57" type="" in="b18" creator="-101" insign="nuevas" outsign="nye"/>
+<align out="a59" type="" in="b21" creator="-101" insign="en" outsign="på"/>
+<align out="a61" type="" in="b23" creator="-101" insign="en" outsign="i"/>
+<align out="a70" type="" in="b26" creator="-101" insign="Después" outsign="Efter"/>
+<align out="a71" type="" in="b28" creator="-101" insign="varios" outsign="flere"/>
+<align out="a72" type="" in="b29 b30" creator="-101" insign="años de" outsign="års"/>
+<align out="a73" type="" in="b31" creator="-101" insign="preparación" outsign="forberedelse"/>
+<align out="a74" type="" in="b32" creator="-101" insign="y" outsign="og"/>
+<align out="a75" type="" in="b33" creator="-101" insign="numerosas" outsign="flere"/>
+<align out="a79" type="" in="b36" creator="-101" insign="15" outsign="15"/>
+<align out="a80" type="" in="b37" creator="-101" insign="familias" outsign="familier"/>
+<align out="a85" type="" in="b41" creator="-101" insign="que" outsign="at"/>
+<align out="a86 a87" type="" in="b42" creator="-101" insign="quieren" outsign="de vil"/>
+<align out="a100" type="" in="b53 b54" creator="-101" insign="detrás de" outsign="bag"/>
+<align out="a104" type="" in="b56" creator="-101" insign="sólo" outsign="kun"/>
+<align out="a107" type="" in="b58" creator="-101" insign="que" outsign="at"/>
+<align out="a113" type="" in="b67" creator="-101" insign="antes" outsign="inden"/>
+<align out="a115" type="" in="b71" creator="-101" insign="1987" outsign="1987"/>
+<align out="a124" type="" in="b82 b83 b84" creator="-101" insign="a más tardar" outsign="senest"/>
+<align out="a125" type="" in="b78" creator="-101" insign="abril" outsign="april"/>
+<align out="a127" type="" in="b86" creator="-101" insign="para" outsign="for"/>
+<align out="a128" type="" in="b87" creator="-101" insign="que" outsign="at"/>
+<align out="a129" type="" in="b88" creator="-101" insign="estar" outsign="stå"/>
+<align out="a130" type="" in="b89" creator="-101" insign="terminada" outsign="klart"/>
+<align out="a133" type="" in="b93" creator="-101" insign="1987" outsign="1987"/>
+<align out="a137" type="" in="b97" creator="-101" insign="de" outsign="af"/>
+<align out="a141" type="" in="b103" creator="-101" insign="Flemming" outsign="Flemming"/>
+<align out="a151" type="" in="b109" creator="-101" insign="Ahora" outsign="Nu"/>
+<align out="a152" type="" in="b113" creator="-101" insign="han" outsign="har"/>
+<align out="a153" type="" in="b110" creator="-101" insign="varios" outsign="flere"/>
+<align out="a154" type="" in="b111" creator="-101" insign="de" outsign="af"/>
+<align out="a155" type="" in="b112" creator="-101" insign="nosotros" outsign="os"/>
+<align out="a156" type="" in="b114" creator="-101" insign="estado" outsign="været"/>
+<align out="a157" type="" in="a157" creator="-101" insign="med" outsign="med"/>
+<align out="a158" type="" in="b115" creator="-101" insign="desde" outsign="siden"/>
+<align out="a159" type="" in="b116 b117" creator="-101" insign="el inicio" outsign="starten"/>
+<align out="a161" type="" in="b119" creator="-101" insign="más" outsign="over"/>
+<align out="a162" type="" in="b121" creator="-101" insign="dos" outsign="to"/>
+<align out="a168" type="" in="b124" creator="-101" insign="Ahora" outsign="Nu"/>
+<align out="a179" type="" in="b135" creator="-101" insign="ha" outsign="har"/>
+<align out="a180" type="" in="b136" creator="-101" insign="estado" outsign="været"/>
+<align out="a181" type="" in="b137" creator="-101" insign="en" outsign="på"/>
+<align out="a186" type="" in="b148" creator="-101" insign="año" outsign="år"/>
+<align out="a188" type="" in="b152" creator="-101" insign="pero" outsign="men"/>
+<align out="a189" type="" in="b153" creator="-101" insign="Flemming" outsign="Flemming"/>
+<align out="a190" type="" in="b154" creator="-101" insign="Østergaard" outsign="Østergaard"/>
+<align out="a195 a196" type="" in="b156" creator="-101" insign="obtener" outsign="at få"/>
+<align out="a197" type="" in="b157" creator="-101" insign="un" outsign="et"/>
+<align out="a198" type="" in="b158" creator="-101" insign="“sí”" outsign="ja"/>
+<align out="a200" type="" in="b163" creator="-101" insign="20" outsign="20"/>
+<align out="a202" type="" in="b166" creator="-101" insign="en" outsign="i"/>
+<align out="a206" type="" in="b172" creator="-101" insign="abril" outsign="april"/>
+<align out="a207" type="" in="b169 b170" creator="-101" insign="el trimestre" outsign="kvartal"/>
+<align out="a233" type="" in="b188" creator="-101" insign="un" outsign="en"/>
+<align out="a234 a235" type="" in="b189" creator="-101" insign="trazo" outsign="grov skitse"/>
+<align out="a238" type="" in="b194" creator="-101" insign="y" outsign="og"/>
+<align out="a239" type="" in="b195" creator="-101" insign="un" outsign="en"/>
+<align out="a240" type="" in="b196 b197" creator="-101" insign="número de" outsign="række"/>
+<align out="a242" type="" in="b203" creator="-101" insign="para" outsign="for"/>
+<align out="b12" type="" in="b12" creator="-101" insign="la" outsign="la"/>
+<align out="b14" type="" in="b14" creator="-101" insign="de" outsign="de"/>
+<align out="b27" type="" in="b27" creator="-101" insign="de" outsign="de"/>
+<align out="b68" type="" in="b68" creator="-101" insign="de" outsign="de"/>
+<align out="b79" type="" in="b79" creator="-101" insign="de" outsign="de"/>
+<align out="b138" type="" in="b138" creator="-101" insign="la" outsign="la"/>
+<align out="b160" type="" in="b160" creator="-101" insign="la" outsign="la"/>
+<align out="b201" type="" in="b201" creator="-101" insign="de" outsign="de"/>
+<align out="a45 a46 a47" type="" in="b2 b3 b4 b5 b6" creator="0" insign="sale como se ha previsto" outsign="går efter planerne"/>
+<align out="a49" type="" in="b10" creator="0" insign="podrán" outsign="kan"/>
+<align out="a52" type="" in="b11" creator="0" insign="celebrar" outsign="fejre"/>
+<align out="a53" type="" in="b13" creator="0" insign="navidad" outsign="jul"/>
+<align out="a58" type="andels=" in="b20" creator="0" insign="cooperativas" outsign="andelsbolig"/>
+<align out="a58" type="bolig=" in="b19" creator="0" insign="viviendas" outsign="andelsbolig"/>
+<align out="a60" type="" in="b22" creator="0" insign="Stokkebjergvej" outsign="Stokkebjergvej"/>
+<align out="a62" type="" in="b24" creator="0" insign="Jyderup" outsign="Jyderup"/>
+<align out="a63" type="" in="b25" creator="0" insign="." outsign="."/>
+<align out="a77" type="" in="b34" creator="0" insign="reuniones" outsign="møder"/>
+<align out="a76" type="" in="a76" creator="0" insign="store" outsign="store"/>
+<align out="b35" type="" in="b35" creator="0" insign="," outsign=","/>
+<align out="a78 a81 a82 a83" type="ovs???" in="b38 b39 b40" creator="0" insign="han ratificando así" outsign="har skrevet under på"/>
+<align out="a84" type="" in="a84" creator="0" insign="," outsign=","/>
+<align out="a88 a89 a90" type="lv" in="b43 b44 b45" creator="0" insign="ser parte de" outsign="være med i"/>
+<align out="a91" type="" in="b46 b47" creator="0" insign="la cooperativa" outsign="bofællesskabet"/>
+<align out="a92" type="" in="b48" creator="0" insign="." outsign="."/>
+<align out="a97" type="" in="b49" creator="0" insign="Ahora" outsign="Nu"/>
+<align out="b50" type="" in="b50" creator="0" insign="," outsign=","/>
+<align out="a99" type="" in="b51 b52" creator="0" insign="la gente" outsign="folkene"/>
+<align out="a101 a102 a103" type="" in="b55" creator="0" insign="“Stokken”" outsign="&quot; Stokken &quot;"/>
+<align out="a98" type="" in="b57" creator="0" insign="espera" outsign="venter"/>
+<align out="a106" type="" in="a106" creator="0" insign="," outsign=","/>
+<align out="a105" type="" in="a105" creator="0" insign="på" outsign="på"/>
+<align out="a108" type="" in="b59 b60" creator="0" insign="la cooperativa" outsign="bofællesskabet"/>
+<align out="a109 a110 a111" type="lv" in="b61 b62 b63" creator="0" insign="forme parte del" outsign="får del i"/>
+<align out="a112" type="" in="b64 b65 b66" creator="0" insign="cupo de viviendas" outsign="boligkvoten"/>
+<align out="a114" type="" in="b69" creator="0" insign="abril" outsign="april"/>
+<align out="a116" type="" in="b72" creator="0" insign="." outsign="."/>
+<align out="a121" type="" in="b73 b74" creator="0" insign="La construcción" outsign="Byggeriet"/>
+<align out="a122 a123" type="lv" in="b75 b76" creator="0" insign="deberá iniciarse" outsign="skal i_gang"/>
+<align out="b81" type="" in="b81" creator="0" insign="," outsign=","/>
+<align out="a131 a132" type="" in="b90 b91 b92" creator="0" insign="en diciembre de" outsign="til december"/>
+<align out="a114" type="" in="b69 b70" creator="0" insign="abril de" outsign="april"/>
+<align out="a134" type="" in="b94" creator="0" insign="," outsign=","/>
+<align out="a135" type="" in="b95" creator="0" insign="relata" outsign="fortæller"/>
+<align out="a136" type="" in="b96" creator="0" insign="uno" outsign="en"/>
+<align out="a138" type="" in="b98 b99" creator="0" insign="los promotores" outsign="initiativtagerne"/>
+<align out="a139" type="" in="b100" creator="0" insign="," outsign=","/>
+<align out="a140" type="" in="b101 b102" creator="0" insign="el arquitecto" outsign="arkitekt"/>
+<align out="a142" type="" in="b104" creator="0" insign="Østergaard" outsign="Østergaard"/>
+<align out="a143" type="" in="b105" creator="0" insign="," outsign=","/>
+<align out="a150" type="" in="b108" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a163" type="" in="b122" creator="0" insign="años" outsign="år"/>
+<align out="a164" type="" in="b118" creator="0" insign="hace" outsign="siden"/>
+<align out="a165" type="" in="b123" creator="0" insign="." outsign="."/>
+<align out="a169 a170 a171 a172" type="lv" in="b125 b126 b127 b128 b129" creator="0" insign="es tiempo de ver resultados" outsign="skal der ske noget"/>
+<align out="a173" type="" in="b130" creator="0" insign="." outsign="."/>
+<align out="a178" type="" in="b131 b132 b133 b134" creator="0" insign="La cooperativa de viviendas" outsign="Andelsbofællesskabet"/>
+<align out="a183" type="" in="b139 b140 b141" creator="0" insign="lista de espera" outsign="venteliste"/>
+<align out="a182" type="" in="b142 b143 b144 b145" creator="0" insign="del Ministerio de Vivienda" outsign="boligministeriets"/>
+<align out="a184" type="" in="b146" creator="0" insign="durante" outsign="i"/>
+<align out="a184" type="" in="b146" creator="0" insign="durante" outsign="i"/>
+<align out="a185" type="" in="b147 b149 b150" creator="0" insign="un y medio" outsign="halvandet"/>
+<align out="a187" type="" in="b151" creator="0" insign="," outsign=","/>
+<align out="a191 a192" type="" in="b155" creator="0" insign="espera" outsign="håber på"/>
+<align out="a193" type="" in="a193" creator="0" insign="og" outsign="og"/>
+<align out="a194" type="" in="a194" creator="0" insign="forventer" outsign="forventer"/>
+<align out="a199" type="" in="b159" creator="0" insign="para" outsign="til"/>
+<align out="b161" type="" in="b161" creator="0" insign="construcción" outsign="construcción"/>
+<align out="b162" type="" in="b162" creator="0" insign="de" outsign="de"/>
+<align out="a201" type="boliger=" in="b164" creator="0" insign="viviendas" outsign="andelsboliger"/>
+<align out="a201" type="andels=" in="b165" creator="0" insign="cooperativas" outsign="andelsboliger"/>
+<align out="a203" type="" in="b167" creator="0" insign="Jyderup" outsign="Jyderup"/>
+<align out="a204" type="" in="b176 b177 b178" creator="0" insign="a más tardar" outsign="senest"/>
+<align out="a205" type="" in="b168" creator="0" insign="en" outsign="i"/>
+<align out="b171" type="" in="b171" creator="0" insign="de" outsign="de"/>
+<align out="b175" type="" in="b175" creator="0" insign="," outsign=","/>
+<align out="a208 a209" type="" in="b173 b174" creator="0" insign="de 1987" outsign="i 1987"/>
+<align out="a210" type="" in="b179" creator="0" insign="." outsign="."/>
+<align out="b80" type="" in="b80" creator="0" insign="1987" outsign="1987"/>
+<align out="a215 a216 a217 a218 a219 a220 a221 a222 a223 a224 a225 a226 a227" type="lv" in="b180 b181 b182 b183 b184" creator="0" insign="Pero nada de esperar inactivos" outsign="Der bliver ikke tale om at vente på svar med hænderne i skødet"/>
+<align out="a228" type="" in="b185" creator="0" insign="." outsign="."/>
+<align out="a231 a232" type="" in="b186" creator="0" insign="Existe" outsign="Der eksisterer"/>
+<align out="b187" type="" in="b187" creator="0" insign="ya" outsign="ya"/>
+<align out="a236" type="" in="b190" creator="0" insign="sobre" outsign="over"/>
+<align out="a237" type="boligerne=" in="b191 b192" creator="0" insign="las viviendas" outsign="andelsboligerne"/>
+<align out="a237" type="andels=" in="b193" creator="0" insign="comunitarias" outsign="andelsboligerne"/>
+<align out="a241" type="" in="b198" creator="0" insign="estatutos" outsign="vedtægter"/>
+<align out="b199" type="" in="b199" creator="0" insign="una" outsign="una"/>
+<align out="b202" type="" in="b202" creator="0" insign="ordenanzas" outsign="ordenanzas"/>
+<align out="a244" type="" in="b209" creator="0" insign="." outsign="."/>
+<align out="a243" type="ovs???" in="b204 b205 b206 b207 b208" creator="0" insign="la cooperativa de viviendas comunitarias" outsign="bofællesskabet"/>
+<align out="b200" type="" in="b200" creator="0" insign="lista" outsign="lista"/>
+<align out="a48" type="" in="b7" creator="-100" insign="," outsign=","/>
+</DTAGalign>
