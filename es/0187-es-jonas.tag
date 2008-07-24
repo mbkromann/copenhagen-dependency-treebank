@@ -2,7 +2,7 @@
 <W lemma="susto" msd="NC" in="" out="">susto</W>
 <W lemma="en" msd="PREP" in="" out="">en</W>
 <W lemma="un" msd="ART" in="" out="">un</W>
-<W lemma="mundo" msd="NC" in="" out="2:relr|1:ref">mundo</W>
+<W lemma="mundo" msd="NC" in="" out="1:ref|2:relr">mundo</W>
 <W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>
 <W lemma="haber" msd="VHfin" in="-2:relr" out="1:vobj">ha</W>
 <W lemma="estar" msd="VE" in="-1:vobj" out="1:preds">estado</W>
