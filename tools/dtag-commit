@@ -9,4 +9,5 @@ if [ -d ~/ctt ] ; then
 fi
 
 echo "Uploading files to CDT repository"
+svn update
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
