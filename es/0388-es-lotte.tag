@@ -88,9 +88,9 @@
 <W lemma="tú" msd="PPO" in="5:subj" out="1:nobj|3:conj">Tu</W>
 <W lemma="madre" msd="NC" in="-1:nobj" out="">madre</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="yo" msd="PPX" in="-3:conj|2:subj" out="-1:coord">yo</W>
+<W lemma="yo" msd="PPX" in="-3:conj" out="-1:coord">yo</W>
 <W lemma="nosotros" msd="PPX" in="1:dobj" out="">nos</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-6:pnct|-2:subj|-1:dobj|1:pnct">amÃ¡bamos</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-6:pnct|-1:dobj|1:pnct">amÃ¡bamos</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="tener" msd="VLfin" in="" out="1:nobj|4:pnct">tienes</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="1:vobj">que</W>
@@ -173,7 +173,7 @@
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="pocos" msd="QU" in="" out="">poco</W>
 <W lemma="él" msd="PPO" in="2:dobj" out="">lo</W>
-<W lemma="ir" msd="VLfin" in="-12:conj" out="-5:coord|-4:man|3:pnct|1:vobj">fue</W>
+<W lemma="ir" msd="VLfin" in="-12:conj" out="-5:coord|-4:man|1:vobj|3:pnct">fue</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="-2:dobj|1:degr">reprimiendo</W>
 <W lemma="totalmente" msd="ADV" in="-1:degr" out="">totalmente</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
