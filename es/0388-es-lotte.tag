@@ -173,8 +173,8 @@
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="pocos" msd="QU" in="" out="">poco</W>
 <W lemma="él" msd="PPO" in="2:dobj" out="">lo</W>
-<W lemma="ir" msd="VLfin" in="-12:conj" out="-5:coord|-4:man|3:pnct">fue</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="-2:dobj|1:degr">reprimiendo</W>
+<W lemma="ir" msd="VLfin" in="-12:conj" out="-5:coord|-4:man|3:pnct|1:vobj">fue</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="-2:dobj|1:degr">reprimiendo</W>
 <W lemma="totalmente" msd="ADV" in="-1:degr" out="">totalmente</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="era" msd="VEfin" in="" out="2:preds|3:man|7:prg|10:pnct">Era</W>
