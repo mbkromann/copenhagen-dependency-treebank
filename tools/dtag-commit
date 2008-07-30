@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "DTAG commit started"
+
 name=`cat ~/.cdtname`
 if [ -d ~/ctt-all ] ; then
 	cd ~/ctt-all
@@ -8,6 +10,18 @@ if [ -d ~/ctt ] ; then
 	cd ctt
 fi
 
-echo "Uploading files to CDT repository"
+# Update repository
 svn update
+
+# Resolve all conflicts: we assume that the local copy of any file that
+# contains the user's name is the correct one
+if [ ! -z "$name" ] ; then
+	svn resolved `find . -name "*$name*" | grep -v '.svn'`
+else
+	echo "Please contact Matthias: Cannot find your name!"
+fi
+
+# Upload files
+echo "Uploading files to CDT repository"
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
+
