@@ -106,7 +106,7 @@ macro wiki !~/cdt/tools/dtag-wiki
 macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
 macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
-macro tasks !gedit /home/cdt/cdt/todo/`cat ~/.cdtname` &
+macro tasks !~/cdt/tools/dtag-tasks
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
 macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
 

@@ -3642,7 +3642,7 @@ sub cmd_maptags {
 
 	# Check that arguments are legal
 	if (! (defined($invar) && defined($outvar))) {
-		error("Usage: maptags [-mapfile $mapfile] $invar $outvar\n");
+		error("Usage: maptags [-map $mapfile] $invar $outvar\n");
 	}
 
 	# Read mapfile
