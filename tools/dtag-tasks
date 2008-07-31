@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if which mousepad >/dev/null ; then
+	editor=mousepad
+fi
+if which gedit > /dev/null ; then
+	editor=gedit
+fi
+
+if [ -z "$editor" ] ; then
+	editor=mousepad
+	echo "Installing mousepad editor. Enter your Linux password when"
+	echo "you are asked for it."
+	sudo apt-get install mousepad
+fi
+
+$editor /home/cdt/cdt/todo/`cat ~/.cdtname` &
+
