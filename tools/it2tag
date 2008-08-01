@@ -1,0 +1,38 @@
+#!/bin/bash
+
+echo "Store Italian source file in latin1 encoding"
+echo "Split it using tools/splitfile-it"
+echo "Then convert splitted file into .tag with this tool"
+
+# Parameters
+bindir=/home/matthias/svn/cdt/trunk/tools/
+
+# File names
+file=$1
+base=`echo $file | sed -e 's/.txt$//'`
+tagged=$base.tagged
+tag=$base-auto.tag
+atagbase=`echo $file | sed -e 's/-it.txt$//g'`
+atag=$atagbase-da-it-auto.atag
+
+# Create .tagged file by running tagger
+/home/matthias/research/statmt/treetagger/cmd/tree-tagger-italian $file > $tagged
+
+# Create .tag file by running tagged2tag script
+$bindir/tagged2tag-it $tagged | sed -e 's/ msd=/ tag=/g' \
+	| iconv -f latin1 -t utf8 > $tag.tmp
+
+# Convert tags in .tag file to PAROLE tags
+dtag -e "load $tag.tmp" -e "maptags -map /home/matthias/svn/cdt/trunk/tools/msd-it.map tag msd" -e "save $tag" -e "exit"
+
+# Create .atag file
+cat > $atag <<EOFMARK
+<DTAGalign>
+<alignFile key="a" href="../da/$atagbase-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/$atagbase-it-auto.tag" sign="_input"/>
+<DTAGalign>
+EOFMARK
+
+# Clean up
+rm $tagged $tag.tmp
+

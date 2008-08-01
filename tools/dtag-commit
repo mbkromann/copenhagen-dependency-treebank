@@ -17,7 +17,7 @@ if [ ! -z "$name" ] ; then
 	# Resolve all conflicts: we assume that the local copy of any file that
 	# contains the user's name is the correct one
 	svn resolved `find . -name "*$name*" | grep -v '.svn'`
-	svn add `find . -name "*$name*" | grep -v '.svn'`
+	svn add `svn status | grep "[-]$name" | awk '{ print $2 }' | grep .svn`
 else
 	echo "Please contact Matthias: Cannot find your name!"
 fi
@@ -26,3 +26,4 @@ fi
 echo "Uploading files to CDT repository"
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
 
+echo "You are using version 2008-08-01 of the commit program"
