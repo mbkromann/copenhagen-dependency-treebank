@@ -1,4 +1,5 @@
 # Indsæt "*" når annotationen er afsluttet
+[ ] it/0184-it-iørn.tag 
 [*] da-it/0306-da-it-iørn.atag
 [*] it/0306-it-iørn.tag
 [*] da-it/1252-da-it-iørn.atag
@@ -7,8 +8,8 @@
 [*] it/0104-it-iørn.tag
 [*] da-it/0531-da-it-iørn.atag
 [*] it/0531-it-iørn.tag
-[ ] it/1347-it-iørn.tag
-[ ] it/0502-it-iørn.tag
+[*] it/1347-it-iørn.tag
+[*] it/0502-it-iørn.tag
 [ ] da-it/0502-da-it-iørn.atag
 [ ] da-it/1347-da-it-iørn.atag
 
@@ -16,3 +17,5 @@
 [ ] it/0104-it-iørn.tag
 [ ] da-it/0620-da-it-iørn.atag
 [ ] it/0620-it-iørn.tag
+
+

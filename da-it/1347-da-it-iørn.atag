@@ -1,0 +1,15 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1347-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1347-it-auto.tag" sign="_input"/>
+<align out="a234" type="" in="a234" creator="-101" insign="men" outsign="men"/>
+<align out="a237" type="" in="a237" creator="-101" insign="nu" outsign="nu"/>
+<align out="a43" type="" in="b0 b1 b2 b3" creator="0" insign="I paesi della CEE" outsign="EF-landene"/>
+<align out="a44" type="" in="b13" creator="-100" insign="hanno" outsign="har"/>
+<align out="a56" type="" in="b15" creator="-100" insign="anni" outsign="år"/>
+<align out="a50" type="" in="b7" creator="-100" insign="Pia" outsign="Pia"/>
+<align out="a51" type="" in="b8" creator="-100" insign="Kjærsgaard" outsign="Kjærsgaard"/>
+<align out="a60" type="" in="b5" creator="-100" insign="e" outsign="og"/>
+<align out="a54" type="" in="b14" creator="-100" insign="per" outsign="i"/>
+<align out="a45" type="" in="b4" creator="-100" insign="," outsign=","/>
+<align out="a53" type="" in="b12" creator="-100" insign="," outsign=","/>
+</DTAGalign>

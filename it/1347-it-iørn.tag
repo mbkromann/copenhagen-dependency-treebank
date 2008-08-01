@@ -8,7 +8,7 @@
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-1:subj|-5:pnct|-4:coord|1:¹vobj|3:pnct">dovrebbe</W>
-<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|0:²dobj¹|0:²dobj¹|-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
+<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|-7:coref-res|1:time|3:vobj|4:bg|18:conj">hanno</W>
@@ -75,7 +75,7 @@
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="rifugiato" msd="NC" tag="NOM" in="2:subj" out="1:attrr">rifugiati</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attrr" out="">politici</W>
-<W lemma="inoltrare" msd="VADR" tag="VER:cpre" in="-3:vobj" out="-2:subj|1:dobj|6:time|3:lobj">inoltrino</W>
+<W lemma="inoltrare" msd="VADR" tag="VER:cpre" in="-3:vobj" out="-2:subj|1:dobj|3:lobj|6:time">inoltrino</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj:dobj">domande</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:pobj:dobj" out="">d’asilo</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:lobj" out="1:nobj">in</W>
@@ -120,11 +120,11 @@
 <W lemma="Spagna" msd="NP" tag="NPR" in="-1:nobj" out="">Spagna</W>
 <W lemma="," msd="XP" tag="PON" in="-16:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-22:vobj" out="-21:subj|1:pnct|8:vobj|-1:neg|2:comp|22:pnct|23:coref-res">può</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-22:vobj" out="-21:subj|-1:neg|1:pnct|2:comp|8:vobj|22:pnct|23:coref-res">può</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="come" msd="CS" tag="CON" in="-2:comp" out="2:vobj">come</W>
 <W lemma="invece" msd="RG" tag="ADV" in="1:contr" out="">invece</W>
-<W lemma="sostenere" msd="VADR" tag="VER:pres" in="-2:vobj" out="2:subj|-1:contr|3:pnct">sostiene</W>
+<W lemma="sostenere" msd="VADR" tag="VER:pres" in="-2:vobj" out="-1:contr|2:subj|3:pnct">sostiene</W>
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
