@@ -35,3 +35,7 @@ if ! cmp .$name $name.auto ; then
 	diff .$name $name.auto | grep '^>' | sed -e 's/> //g' >> $name
 	cp $name.auto .$name
 fi
+
+echo "Please tell Matthias that you are using the new update program!!!"
+
+
