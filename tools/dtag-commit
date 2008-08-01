@@ -4,7 +4,7 @@ echo "DTAG commit started"
 
 name=`cat ~/.cdtname`
 if [ -d ~/cdt ] ; then
-	cd cdt
+	cd ~/cdt
 fi
 if [ -d ~/cdt-all ] ; then
 	cd ~/cdt-all
