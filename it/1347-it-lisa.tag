@@ -229,9 +229,9 @@
 <W lemma="volere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:vobj">voluto</W>
 <W lemma="inserire" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">inserire</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-1:dobj" out="1:dobj">questo</W>
-<W lemma="aspetto" msd="NC" tag="NOM" in="-1:dobj" out="">aspetto</W>
-<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">nel</W>
-<W lemma="trattato" msd="NC" tag="NOM" in="" out="">Trattato</W>
+<W lemma="aspetto" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">aspetto</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:dobj">nel</W>
+<W lemma="trattato" msd="NC" tag="NOM" in="-1:dobj" out="">Trattato</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="quanto" msd="PI" tag="PRO:indef" in="" out="">quanto</W>
 <W lemma="aspetto" msd="NC" tag="NOM" in="" out="">aspetto</W>
