@@ -1,186 +1,186 @@
-<W msd="QU" lemma="alguno">Algunos</W>
-<W msd="NC" lemma="avin">aviones</W>
-<W msd="VLfin" lemma="volar">volaban</W>
-<W msd="ADV" lemma="tan">tan</W>
-<W msd="PREP" lemma="bajo">bajo</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="cadena">cadenas</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="barrera">barreras</W>
-<W msd="VLfin" lemma="temblar">temblaban</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADJ" lemma="grande">Grandes</W>
-<W msd="NC" lemma="sombra">sombras</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">tronaban</W>
-<W msd="PREP" lemma="sobre">sobre</W>
-<W msd="PPO" lemma="nuestro">nuestras</W>
-<W msd="NC" lemma="cabeza">cabezas</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">esperábamos</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="saber">supieran</W>
-<W msd="VLinf" lemma="volver">volver</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="&lt;unknown&gt;">formación</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="un">Un</W>
-<W msd="NC" lemma="hombre">hombre</W>
-<W msd="NC" lemma="vino">vino</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="bicicleta">bicicleta</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">bajó</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="salto">salto</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VEfin" lemma="era">era</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Silius</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">tenía</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="mando">mando</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="&lt;unknown&gt;">protección</W>
-<W msd="ADJ" lemma="civil">civil</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="&lt;unknown&gt;">CB</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">había</W>
-<W msd="VLadj" lemma="venir">venido</W>
-<W msd="CSUBI" lemma="para">para</W>
-<W msd="VLinf" lemma="ver">ver</W>
-<W msd="CSUBX" lemma="si">si</W>
-<W msd="QU" lemma="alguno">alguno</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="PPX" lemma="l">ellos</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">había</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">desertado.</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">–</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">Vaya</W>
-<W msd="NC" lemma="trabajo">trabajo</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="tener">tienes</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="decir">dijo</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="comerciante">comerciante</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="bicicleta">bicicletas</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="ALFS" lemma="o">o</W>
-<W msd="VSfin" lemma="ser">son</W>
-<W msd="NC" lemma="agente">agentes</W>
-<W msd="ADJ" lemma="ingls">ingleses</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">os</W>
-<W msd="VSfin" lemma="ser">son</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="CSUBI" lemma="de">de</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">allí</W>
-<W msd="ADV" lemma="arriba">arriba</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="VLfin" lemma="deber">Debes</W>
-<W msd="VEinf" lemma="estar">estar</W>
-<W msd="VLadj" lemma="cansar">cansado</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="VSfin" lemma="ser">Es</W>
-<W msd="NC" lemma="parte">parte</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="trabajo">trabajo</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">respondió</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">Silius.</W>
-<W msd="NC" lemma="&lt;unknown&gt;">–</W>
-<W msd="ALFS" lemma="A">A</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">propósito</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">deberíais</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">encontraros</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">vía</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">está</W>
-<W msd="VLadj" lemma="prohibir">prohibido</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="NEG" lemma="no">No</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">vendrán</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="NC" lemma="tren">trenes</W>
-<W msd="DM" lemma="este">esta</W>
-<W msd="NC" lemma="noche">noche</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="&lt;unknown&gt;">informó</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Schrøder</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">complaciente</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="NC" lemma="&lt;unknown&gt;">¿Qué</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">pasó</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="NC" lemma="&lt;unknown&gt;">aquél</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">cayó</W>
-<W msd="PREP" lemma="desde">desde</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="cielo">cielo</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="PPO" lemma="l">lo</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">atraparon</W>
-<W msd="FS" lemma="?">?</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="ADJ" lemma="claro">Claro</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="un">Un</W>
-<W msd="NC" lemma="hombre">hombre</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">así</W>
-<W msd="VLfin" lemma="saber">sabe</W>
-<W msd="ADV" lemma="bien">bien</W>
-<W msd="ART" lemma="el">lo</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VMfin" lemma="tener~que">tiene que</W>
-<W msd="VLinf" lemma="hacer">hacer</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">respondió</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="guardia">guardia</W>
-<W msd="ADJ" lemma="rural">rural</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">–</W>
-<W msd="VMfin" lemma="deber">Debe</W>
-<W msd="VCLI" lemma="haberse">haberse</W>
-<W msd="VLadj" lemma="precipitar">precipitado</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="bicicleta">bicicleta</W>
-<W msd="CARD" lemma="diez">diez</W>
-<W msd="NMEA" lemma="minuto">minutos</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">después</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="aterrizar">aterrizara</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="en~todo~caso">En todo caso</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">está</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">aquí</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="DM" lemma="este">esta</W>
-<W msd="NC" lemma="ciudad">ciudad</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="alguno" msd="QU" in="2:subj" out="1:nobj">Algunos</W>
+<W lemma="avin" msd="NC" in="-1:nobj" out="">aviones</W>
+<W lemma="volar" msd="VLfin" in="" out="-2:subj|2:man|10:pnct">volaban</W>
+<W lemma="tan" msd="ADV" in="1:mod" out="">tan</W>
+<W lemma="bajo" msd="PREP" in="-2:man" out="-1:mod">bajo</W>
+<W lemma="que" msd="CQUE" in="" out="6:vobj">que</W>
+<W lemma="el" msd="ART" in="5:subj" out="1:nobj">las</W>
+<W lemma="cadena" msd="NC" in="-1:nobj" out="1:pobj:other#">cadenas</W>
+<W lemma="de" msd="PREP" in="-1:pobj:other#" out="1:nobj">de</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
+<W lemma="barrera" msd="NC" in="-1:nobj" out="">barreras</W>
+<W lemma="temblar" msd="VLfin" in="-6:vobj" out="-5:subj">temblaban</W>
+<W lemma="." msd="FS" in="-10:pnct" out="">.</W>
+<W lemma="grande" msd="ADJ" in="1:attrd" out="">Grandes</W>
+<W lemma="sombra" msd="NC" in="1:subj" out="-1:attrd">sombras</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:pobj|4:pnct|6:conj|13:pnct">tronaban</W>
+<W lemma="sobre" msd="PREP" in="-1:pobj" out="1:nobj">sobre</W>
+<W lemma="nuestro" msd="PPO" in="-1:nobj" out="1:nobj">nuestras</W>
+<W lemma="cabeza" msd="NC" in="-1:nobj" out="">cabezas</W>
+<W lemma="," msd="CM" in="-4:pnct" out="">,</W>
+<W lemma="y" msd="CC" in="1:coord" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:conj" out="-1:coord|1:dobj">esperábamos</W>
+<W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
+<W lemma="saber" msd="VLfin" in="-1:vobj|1:[subj]" out="1:vobj">supieran</W>
+<W lemma="volver" msd="VLinf" in="-1:vobj" out="-1:[subj]|1:pobj">volver</W>
+<W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
+<W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">formación</W>
+<W lemma="." msd="FS" in="-13:pnct" out="">.</W>
+<W lemma="un" msd="ART" in="2:subj" out="1:nobj">Un</W>
+<W lemma="hombre" msd="NC" in="-1:nobj" out="">hombre</W>
+<W lemma="vino" msd="NC" in="" out="-2:subj|1:pobj|5:conj">vino</W>
+<W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
+<W lemma="bicicleta" msd="NC" in="-1:nobj" out="">bicicleta</W>
+<W lemma="y" msd="CC" in="2:coord" out="">y</W>
+<W lemma="se" msd="SE" in="1:robj" out="">se</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:conj" out="-1:robj|-2:coord|1:pobj">bajó</W>
+<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
+<W lemma="salto" msd="NC" in="-1:nobj" out="">salto</W>
+<W lemma="," msd="CM" in="1:pnct" out="">,</W>
+<W lemma="era" msd="VEfin" in="" out="-1:pnct|1:preds|2:pnct">era</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:preds" out="2:ref|3:relpa">Silius</W>
+<W lemma="," msd="CM" in="-2:pnct" out="">,</W>
+<W lemma="que" msd="CQUE" in="-2:ref|1:subj|14:[subj]" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:relpa" out="-1:subj|1:loc|4:dobj|10:pnct|12:conj">tenía</W>
+<W lemma="a" msd="PREP" in="-1:loc" out="1:nobj">a</W>
+<W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">su</W>
+<W lemma="mando" msd="NC" in="-1:nobj" out="">mando</W>
+<W lemma="el" msd="ART" in="-4:dobj" out="1:nobj|4:conj">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">protección</W>
+<W lemma="civil" msd="ADJ" in="-1:nobj" out="">civil</W>
+<W lemma="y" msd="CC" in="1:coord" out="">y</W>
+<W lemma="el" msd="ART" in="-4:conj" out="-1:coord|1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">CB</W>
+<W lemma="," msd="CM" in="-10:pnct" out="">,</W>
+<W lemma="y" msd="CC" in="1:coord" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-12:conj" out="-1:coord|1:vobj">había</W>
+<W lemma="venir" msd="VLadj" in="-1:vobj" out="-14:[subj]|1:pobj">venido</W>
+<W lemma="para" msd="CSUBI" in="-1:pobj" out="1:vobj">para</W>
+<W lemma="ver" msd="VLinf" in="-1:vobj" out="1:dobj">ver</W>
+<W lemma="si" msd="CSUBX" in="-1:dobj" out="4:vobj">si</W>
+<W lemma="alguno" msd="QU" in="3:subj" out="1:pobj">alguno</W>
+<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="l" msd="PPX" in="-1:nobj" out="">ellos</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:vobj" out="-3:subj|1:vobj">había</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="">desertado.</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="4:pnct" out="">–</W>
+<W lemma="&lt;unknown&gt;" msd="VLinf" in="5:dobj" out="">Vaya</W>
+<W lemma="trabajo" msd="NC" in="" out="1:ref|2:relr">trabajo</W>
+<W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>
+<W lemma="tener" msd="VLfin" in="-2:relr" out="-4:pnct|1:pnct">tienes</W>
+<W lemma="," msd="CM" in="-1:pnct" out="">,</W>
+<W lemma="decir" msd="VLfin" in="" out="-5:dobj|1:subj|2:nobj|5:pnct">dijo</W>
+<W lemma="el" msd="ART" in="-1:subj" out="">el</W>
+<W lemma="comerciante" msd="NC" in="-2:nobj" out="1:pobj:dobj#">comerciante</W>
+<W lemma="de" msd="PREP" in="-1:pobj:dobj#" out="1:nobj">de</W>
+<W lemma="bicicleta" msd="NC" in="-1:nobj" out="">bicicletas</W>
+<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
+<W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
+<W lemma="o" msd="ALFS" in="" out="">o</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:pnct|1:preds|3:pnct|5:conj|10:pnct">son</W>
+<W lemma="agente" msd="NC" in="-1:preds" out="1:attrr">agentes</W>
+<W lemma="ingls" msd="ADJ" in="-1:attrr" out="">ingleses</W>
+<W lemma="," msd="CM" in="-3:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="1:coord" out="">os</W>
+<W lemma="ser" msd="VSfin" in="-5:conj" out="-1:coord|1:preds">son</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:pobj">los</W>
+<W lemma="de" msd="CSUBI" in="-1:pobj" out="1:loc">de</W>
+<W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:loc" out="1:nobj">allí</W>
+<W lemma="arriba" msd="ADV" in="-1:nobj" out="">arriba</W>
+<W lemma="." msd="FS" in="-10:pnct" out="">.</W>
+<W lemma="deber" msd="VLfin" in="1:[subj]" out="1:vobj|3:pnct">Debes</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="-1:[subj]|1:preds">estar</W>
+<W lemma="cansar" msd="VLadj" in="-1:preds" out="">cansado</W>
+<W lemma="." msd="FS" in="-3:pnct" out="">.</W>
+<W lemma="-" msd="DASH" in="1:pnct" out="">-</W>
+<W lemma="ser" msd="VSfin" in="5:dobj" out="-1:pnct|1:preds|4:pnct">Es</W>
+<W lemma="parte" msd="NC" in="-1:preds" out="1:pobj:arg">parte</W>
+<W lemma="del" msd="PDEL" in="-1:pobj:arg" out="1:nobj">del</W>
+<W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
+<W lemma="," msd="CM" in="-4:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:subj|-5:dobj">respondió</W>
+<W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:subj" out="">Silius.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="5:pnct" out="">–</W>
+<W lemma="A" msd="ALFS" in="4:bg" out="1:nobj">A</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">propósito</W>
+<W lemma="," msd="CM" in="2:pnct" out="">,</W>
+<W lemma="no" msd="NEG" in="1:neg" out="">no</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="1:[subj]" out="-5:pnct|-1:neg|-4:bg|-2:pnct|1:vobj|2:loc|5:pnct|8:pnct">deberíais</W>
+<W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:vobj" out="-1:[subj]">encontraros</W>
+<W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">vía</W>
+<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:preds">está</W>
+<W lemma="prohibir" msd="VLadj" in="-1:preds" out="">prohibido</W>
+<W lemma="." msd="FS" in="-8:pnct" out="">.</W>
+<W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
+<W lemma="no" msd="NEG" in="1:neg|7:dobj" out="">No</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:pnct|-1:neg|3:time|2:subj|5:pnct">vendrán</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="1:mod" out="">más</W>
+<W lemma="tren" msd="NC" in="-2:subj" out="-1:mod">trenes</W>
+<W lemma="este" msd="DM" in="-3:time" out="1:nobj">esta</W>
+<W lemma="noche" msd="NC" in="-1:nobj" out="">noche</W>
+<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="2:man|1:subj|3:pnct|-7:dobj">informó</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:subj" out="">Schrøder</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:man" out="">complaciente</W>
+<W lemma="." msd="FS" in="-3:pnct" out="">.</W>
+<W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="1:dobj" out="">¿Qué</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:dobj|-2:pnct|1:pobj|8:pnct|11:pnct">pasó</W>
+<W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|2:relr" out="1:ref">aquél</W>
+<W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:relr|1:dir">cayó</W>
+<W lemma="desde" msd="PREP" in="-1:dir" out="1:nobj">desde</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="cielo" msd="NC" in="-1:nobj" out="">cielo</W>
+<W lemma="," msd="CM" in="-8:pnct" out="">,</W>
+<W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:dobj">atraparon</W>
+<W lemma="?" msd="FS" in="-11:pnct" out="">?</W>
+<W lemma="-" msd="DASH" in="" out="">-</W>
+<W lemma="claro" msd="ADJ" in="" out="">Claro</W>
+<W lemma="que" msd="CQUE" in="" out="">que</W>
+<W lemma="no" msd="NEG" in="" out="">no</W>
+<W lemma="." msd="FS" in="" out="">.</W>
+<W lemma="un" msd="ART" in="3:subj" out="1:nobj">Un</W>
+<W lemma="hombre" msd="NC" in="-1:nobj" out="">hombre</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="0:mod" out="0:mod">así</W>
+<W lemma="saber" msd="VLfin" in="" out="-3:subj|1:man|2:dobj|6:pnct">sabe</W>
+<W lemma="bien" msd="ADV" in="-1:man" out="">bien</W>
+<W lemma="el" msd="ART" in="-2:dobj" out="2:relr|1:ref">lo</W>
+<W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>
+<W lemma="tener~que" msd="VMfin" in="-2:relr|1:[subj]" out="1:vobj">tiene que</W>
+<W lemma="hacer" msd="VLinf" in="-1:vobj" out="-1:[subj]">hacer</W>
+<W lemma="," msd="CM" in="-6:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:subj|4:pnct">respondió</W>
+<W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
+<W lemma="guardia" msd="NC" in="-1:nobj" out="1:attrr">guardia</W>
+<W lemma="rural" msd="ADJ" in="-1:attrr" out="">rural</W>
+<W lemma="." msd="FS" in="-4:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="1:pnct" out="">–</W>
+<W lemma="deber" msd="VMfin" in="1:[subj]|2:[subj]" out="-1:pnct|1:vobj|6:time|12:pnct">Debe</W>
+<W lemma="haberse" msd="VCLI" in="-1:vobj" out="-1:[subj]|1:vobj">haberse</W>
+<W lemma="precipitar" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:pobj">precipitado</W>
+<W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
+<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
+<W lemma="bicicleta" msd="NC" in="-1:nobj" out="">bicicleta</W>
+<W lemma="diez" msd="CARD" in="-6:time" out="1:nobj">diez</W>
+<W lemma="minuto" msd="NMEA" in="-1:nobj" out="1:time">minutos</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:time" out="1:pobj">después</W>
+<W lemma="de" msd="PREP" in="-1:pobj" out="">de</W>
+<W lemma="que" msd="CQUE" in="" out="1:vobj">que</W>
+<W lemma="aterrizar" msd="VLfin" in="-1:vobj" out="">aterrizara</W>
+<W lemma="." msd="FS" in="-12:pnct" out="">.</W>
+<W lemma="en~todo~caso" msd="ADV" in="2:prg" out="">En todo caso</W>
+<W lemma="no" msd="NEG" in="1:neg" out="">no</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:prg|-1:neg|1:loc|5:pnct">está</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:loc" out="1:loc">aquí</W>
+<W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
+<W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">esta</W>
+<W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
+<W lemma="." msd="FS" in="-5:pnct" out="">.</W>
