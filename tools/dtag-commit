@@ -22,6 +22,11 @@ else
 	echo "Please contact Matthias: Cannot find your name!"
 fi
 
+# Update again
+if [ -f ~/cdt/tools/dtag-update2 ] ; then
+	sh ~/cdt/tools/dtag-update2
+fi
+
 # Upload files
 echo "Uploading files to CDT repository"
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
