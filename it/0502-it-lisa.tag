@@ -36,8 +36,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">il</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Nilo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:vobj" out="-2:subj|1:degr|2:pred">è</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:degr" out="2:cons">così</W>
-<W lemma="inquinare" msd="VAP" tag="VER:pper" in="-2:pred" out="">inquinato</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:degr" out="2:cons|1:preds">così</W>
+<W lemma="inquinare" msd="VAP" tag="VER:pper" in="-2:pred|-1:preds" out="">inquinato</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-2:cons" out="1:pobj|8:vobj">che</W>
 <W _compound="1" lemma="al" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:attrr|2:nobj">al</W>
 <W lemma="semplice" msd="AN" tag="ADJ" in="-1:attrr" out="">semplice</W>
@@ -52,7 +52,7 @@
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="1:ext">un</W>
 <W lemma="qualche" msd="AN" tag="ADJ" in="-1:ext" out="1:dobj">qualche</W>
 <W lemma="virus" msd="NC" tag="NOM" in="-1:dobj" out="">virus</W>
-<W lemma="parassita" msd="AN" tag="ADJ" in="0:attrr|0:attrr" out="0:attrr|0:attrr">parassita</W>
+<W lemma="parassita" msd="AN" tag="ADJ" in="0:attrr|0:attrr|0:attrr|0:attrr" out="0:attrr|0:attrr|0:attrr|0:attrr">parassita</W>
 <W lemma="." msd="XP" tag="SENT" in="-26:pnct" out="">.</W>
 <W lemma="per" msd="SP" tag="PRE" in="5:bg" out="1:dobj">Per</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-1:dobj" out="1:dobj">questa</W>
