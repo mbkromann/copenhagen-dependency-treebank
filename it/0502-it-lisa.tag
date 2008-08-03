@@ -186,11 +186,11 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Nilo</W>
 <W lemma="verso" msd="SP" tag="PRE" in="0:lobj" out="0:lobj|1:dobj">verso</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:name">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:name" out="">“Valle</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
-<W lemma="re" msd="NC" tag="NOM" in="" out="">Re</W>
-<W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Nobili”</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:name" out="1:pobj">“Valle</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dei</W>
+<W lemma="re" msd="NC" tag="NOM" in="-1:nobj" out="3:conj">Re</W>
+<W lemma="e" msd="CS" tag="CON" in="2:coord" out="1:pobj">e</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="">dei</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:conj" out="-2:coord">Nobili”</W>
 <W lemma="." msd="XP" tag="SENT" in="-14:pnct" out="">.</W>
 
