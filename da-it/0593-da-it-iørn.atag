@@ -1,0 +1,92 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0593-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0593-it-auto.tag" sign="_input"/>
+<align out="a41" type="" in="b6" creator="0" insign="possono" outsign="kan"/>
+<align out="a40" type="" in="b0 b1 b2 b3 b4 b5" creator="0" insign="I contributi comunali per l' affitto" outsign="Boligydelse"/>
+<align out="a42" type="" in="b7 b8" creator="0" insign="essere richiesti" outsign="søges"/>
+<align out="a43" type="" in="b9" creator="0" insign="da" outsign="af"/>
+<align out="a44" type="" in="b10" creator="0" insign="tutti" outsign="alle"/>
+<align out="a45" type="d" in="b11 b12" creator="0" insign="i pensionati" outsign="pensionister"/>
+<align out="a47 a49" type="" in="b14 b17" creator="0" insign="sia che" outsign="både og"/>
+<align out="b15" type="" in="b15" creator="0" insign="da" outsign="da"/>
+<align out="b18" type="" in="b18" creator="0" insign="da" outsign="da"/>
+<align out="a48" type="" in="b16" creator="0" insign="singoli" outsign="enlige"/>
+<align out="a50" type="" in="b19" creator="0" insign="coppie" outsign="ægtepar"/>
+<align out="a46" type="" in="b13" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a51" type="" in="a51" creator="0" insign="," outsign=","/>
+<align out="a53 a54" type="d" in="b22" creator="0" insign="uno" outsign="den ene"/>
+<align out="a57" type="d" in="b25 b26" creator="0" insign="i coniugi" outsign="ægtefæller"/>
+<align out="a58" type="" in="b27" creator="0" insign="siano" outsign="er"/>
+<align out="a59" type="" in="b28" creator="0" insign="pensionati" outsign="pensionister"/>
+<align out="a63" type="n" in="b30 b31 b32 b33 b34" creator="0" insign="I contributi per l' affitto" outsign="Boligydelsen"/>
+<align out="a55" type="" in="b23" creator="-1" insign="o" outsign="eller"/>
+<align out="a56" type="" in="b24" creator="-1" insign="entrambi" outsign="begge"/>
+<align out="a64" type="" in="b35" creator="-1" insign="sono" outsign="er"/>
+<align out="a52" type="" in="b20 b21" creator="-1" insign="in cui" outsign="hvor"/>
+<align out="a60" type="" in="b29" creator="-1" insign="." outsign="."/>
+<align out="a66" type="" in="b37" creator="-1" insign="." outsign="."/>
+<align out="a65" type="" in="b36" creator="-1" insign="esentasse" outsign="skattefri"/>
+<align out="a71" type="f" in="b38 b39 b40 b41" creator="0" insign="L' ammontare dei contributi" outsign="Boligydelsen"/>
+<align out="a72" type="" in="b42 b43" creator="0" insign="viene calcolato" outsign="beregnes"/>
+<align out="a73 a74 a75" type="mcg" in="b44" creator="0" insign="considerando" outsign="med udgangspunkt i"/>
+<align out="a77" type="" in="b46" creator="0" insign="importo" outsign="størrelse"/>
+<align out="a80" type="n" in="b51" creator="0" insign="introiti" outsign="indkomst"/>
+<align out="a76" type="s" in="b45 b47 b48" creator="0" insign="l' dell' affitto" outsign="huslejens"/>
+<align out="a79" type="s" in="b50 b52 b53 b54 b55" creator="0" insign="gli dei componenti della famiglia" outsign="husstandens"/>
+<align out="a82" type="s" in="b57 b59 b60" creator="0" insign="la dell' appartamento" outsign="lejlighedens"/>
+<align out="a83" type="" in="b58" creator="0" insign="grandezza" outsign="størrelse"/>
+<align out="a78" type="" in="b49" creator="-1" insign="," outsign=","/>
+<align out="a81" type="" in="b56" creator="-1" insign="," outsign=","/>
+<align out="a86" type="" in="b63" creator="0" insign="numero" outsign="størrelse"/>
+<align out="a88" type="" in="b66" creator="0" insign="composizione" outsign="sammensætning"/>
+<align out="a85" type="s" in="b62 b65 b67 b68 b69" creator="0" insign="il la del nucleo familiare" outsign="husstandens"/>
+<align out="a92" type="" in="b71" creator="0" insign="Per" outsign="Med_hensyn_til"/>
+<align out="a93" type="" in="b72 b73" creator="0" insign="il calcolo" outsign="beregningen"/>
+<align out="a94" type="" in="b74" creator="0" insign="dei" outsign="af"/>
+<align out="a95" type="n" in="b75" creator="0" insign="contributi" outsign="boligydelsen"/>
+<align out="a96 a97 a98 a99 a100" type="s" in="b76 b77 b78" creator="0" insign="si parte dalla" outsign="tages der udgangspunkt i det"/>
+<align out="a101" type="" in="b79" creator="0" insign="cosiddetta" outsign="såkaldte"/>
+<align out="a84" type="" in="b61" creator="-1" insign="ed" outsign="og"/>
+<align out="a87" type="" in="b64" creator="-1" insign="e" outsign="og"/>
+<align out="a89" type="" in="b70" creator="-1" insign="." outsign="."/>
+<align out="a102" type="f" in="b80 b81" creator="0" insign="soglia limite" outsign="grænsebeløb"/>
+<align out="a119 a120" type="wo" in="b83 b84" creator="0" insign="Nel 1992" outsign="i 1992"/>
+<align out="a106" type="wo" in="b95 b96 b97" creator="0" insign="la soglia limite" outsign="Grænsebeløbet"/>
+<align out="a121 a122 a123" type="" in="b101" creator="0" insign="11,66%" outsign="11 2/3 %"/>
+<align out="a109" type="n" in="b87 b88" creator="0" insign="un introito" outsign="indkomster"/>
+<align out="a110" type="" in="a110" creator="0" insign="," outsign=","/>
+<align out="a111 a113" type="mca" in="b90 b91" creator="0" insign="superiore alle" outsign="der overstiger"/>
+<align out="a114 a115" type="" in="a114 a115" creator="0" insign="en ca." outsign="en ca."/>
+<align out="a117" type="" in="b93" creator="0" insign="corone" outsign="kr."/>
+<align out="b85" type="" in="b85" creator="0" insign="," outsign=","/>
+<align out="a107" type="mvd" in="b98 b99 b100" creator="0" insign="è data dall'" outsign="udgør"/>
+<align out="a108" type="" in="b86" creator="-1" insign="per" outsign="for"/>
+<align out="a116" type="" in="b92" creator="-1" insign="130.000" outsign="130.000"/>
+<align out="a112" type="" in="b89" creator="-1" insign="non" outsign="ikke"/>
+<align out="a103" type="" in="b82" creator="-1" insign="." outsign="."/>
+<align out="a118" type="" in="b94" creator="-1" insign="," outsign=","/>
+<align out="a124" type="" in="b102" creator="0" insign="dei" outsign="af"/>
+<align out="b103" type="" in="b103" creator="0" insign="complessivi" outsign="complessivi"/>
+<align out="a125" type="n" in="b104 b105" creator="0" insign="introiti familiari" outsign="husstandsindkomsten"/>
+<align out="a131 a132" type="wo" in="b107 b108" creator="0" insign="Nel 1992" outsign="i 1992"/>
+<align out="a129" type="n" in="b109 b110" creator="0" insign="i contributi" outsign="Boligydelsen"/>
+<align out="a130" type="" in="b111" creator="0" insign="costituiscono" outsign="udgør"/>
+<align out="b112" type="" in="b112" creator="0" insign="il" outsign="il"/>
+<align out="a133 a134 a135" type="" in="b113" creator="0" insign="93,33%" outsign="93 1/3 %"/>
+<align out="a137" type="s" in="b115" creator="0" insign="differenza" outsign="forskellen"/>
+<align out="a138" type="" in="b116" creator="0" insign="tra" outsign="mellem"/>
+<align out="a140" type="" in="b120" creator="0" insign="calcolata" outsign="beregnede"/>
+<align out="a139" type="f" in="b121 b122" creator="0" insign="dal richiedente" outsign="dit"/>
+<align out="a136" type="" in="b114" creator="-1" insign="della" outsign="af"/>
+<align out="a141" type="f" in="b118 b119" creator="-1" insign="soglia limite" outsign="grænsebeløb"/>
+<align out="a126" type="" in="b106" creator="-1" insign="." outsign="."/>
+<align out="a144" type="" in="b126" creator="0" insign="affitto" outsign="husleje"/>
+<align out="a143" type="f" in="b124 b125" creator="0" insign="il suo" outsign="din"/>
+<align out="a164" type="" in="b136" creator="-1" insign="del" outsign="i"/>
+<align out="a142" type="" in="b123" creator="-1" insign="ed" outsign="og"/>
+<align out="a145" type="" in="b127" creator="-1" insign="." outsign="."/>
+<align out="b117" type="" in="b117" creator="0" insign="la" outsign="la"/>
+<align out="a157" type="" in="b140" creator="-100" insign="65" outsign="65"/>
+<align out="a160" type="" in="b143" creator="-100" insign="ed" outsign="og"/>
+<align out="a152" type="" in="b147" creator="-100" insign="da" outsign="at"/>
+</DTAGalign>
