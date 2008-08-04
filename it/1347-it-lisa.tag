@@ -7,8 +7,8 @@
 <W lemma="questo" msd="PD" tag="PRO:demo" in="4:ref²|4:xtop¹" out="">questo</W>
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Kjærsgaard</W>
-<W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-5:pnct|-4:coord|-1:subj|1:¹vobj|3:pnct">dovrebbe</W>
-<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|-1:¹vobj|0:²dobj¹" out="0:²dobj¹|-4:ref²|-4:xtop¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
+<W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-5:pnct|-4:coord|-1:subj|3:pnct|1:vobj">dovrebbe</W>
+<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|-1:vobj" out="-4:ref²|-4:xtop¹|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|1:nobj|3:vobj|4:bg|18:conj">hanno</W>
@@ -40,7 +40,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attrr" out="1:attrr">sull’asilo</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attrr" out="">politico</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-4:attrr" out="1:vobj">che</W>
-<W lemma="stabilire" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:dobj|-4:[subj]">stabilisce</W>
+<W lemma="stabilire" msd="VADR" tag="VER:pres" in="-1:vobj" out="-4:[subj]|1:dobj">stabilisce</W>
 <W lemma="quale" msd="PT" tag="PRO:rela" in="-1:dobj" out="1:nobj|2:vobj">quale</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:nobj" out="">stato</W>
 <W lemma="dovere" msd="VADR" tag="VER:cpre" in="-2:vobj" out="1:vobj|2:preds">debba</W>
@@ -60,7 +60,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
 <W lemma="quando" msd="PT" tag="PRO:inter" in="7:cond" out="2:vobj">Quando</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:dobj" out="">l’accordo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:vobj" out="-1:dobj|3:pnct|1:avobj">entrerà</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:vobj" out="-1:dobj|1:avobj|3:pnct">entrerà</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:avobj" out="1:vobj">in</W>
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:vobj" out="">vigore</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -128,13 +128,13 @@
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="scegliere" msd="VAF" tag="VER:infi" in="-8:vobj" out="1:pobj|-29:[subj]">scegliere</W>
+<W lemma="scegliere" msd="VAF" tag="VER:infi" in="-8:vobj" out="-29:[subj]|1:pobj">scegliere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="trasferire" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:loc|4:conj">trasferirsi</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:dobj">in</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:dobj" out="">Danimarca</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="chiedere" msd="VAF" tag="VER:infi" in="-4:conj" out="-1:coord|1:dobj|-35:[subj]">chiedere</W>
+<W lemma="chiedere" msd="VAF" tag="VER:infi" in="-4:conj" out="-1:coord|-35:[subj]|1:dobj">chiedere</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="3:dobj" out="1:possr">la</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-1:possr" out="1:possd">sua</W>
