@@ -12,8 +12,10 @@ fi
 todo=~/cdt/todo/$name
 if [ -f $todo ] ; then
     file=`grep -v '[*]' $todo | head -1 | sed -e 's/^.*\/\([^/]*\)/\1/g'`
-	sed -e "s/^\[ \]\(.*$file\)$/\[*\]\1/g" $todo > /tmp/x
-	mv /tmp/x $todo
+	if [ ! -z "$file" ] ; then
+		sed -e "s/^\[ \]\(.*$file\)$/\[*\]\1/g" $todo > /tmp/x
+		mv /tmp/x $todo
+	fi
 	if [ -z "$file" ] ; then
 		echo "No more tasks: please ask Matthias to give you more tasks"
 	else 
