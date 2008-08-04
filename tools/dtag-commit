@@ -22,7 +22,7 @@ if [ ! -z "$name" ] ; then
 	if [ ! -z "$files" ] ; then
 		svn resolved $files
 	fi
-	svn add `svn status | grep "[-]$name" | awk '{ print $2 }' | grep -v .svn | egrep '(\.tag|\.atag)$`
+	svn add `svn status | grep "[-]$name" | awk '{ print $2 }' | grep -v .svn | egrep '(\.tag|\.atag)$'`
 else
 	echo "Please contact Matthias: Cannot find your name!"
 fi
