@@ -3,11 +3,13 @@
 echo "DTAG commit started"
 
 name=`cat ~/.cdtname`
+prefix=""
 if [ -d ~/cdt ] ; then
 	cd ~/cdt
 fi
 if [ -d ~/cdt-all ] ; then
 	cd ~/cdt-all
+	prefix="trunk"
 fi
 
 # Update repository
@@ -21,7 +23,7 @@ if [ ! -z "$name" ] ; then
 	files=`find . -name "*$name*" | grep -v '.svn' | egrep '(\.tag|\.atag)$'`
 	if [ ! -z "$files" ] ; then
 		echo "RESOLVING FILES\n$files"
-		svn resolved $files
+		svn resolved $prefix/todo/$name $files
 	fi
 
 	# Add new .tag or .atag files to svn repository
