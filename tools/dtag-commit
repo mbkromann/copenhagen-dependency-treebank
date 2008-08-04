@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "DTAG commit started"
+echo "DTAG commit version 2008-08-04"
 
 name=`cat ~/.cdtname`
 prefix=""
@@ -39,4 +39,3 @@ fi
 echo "Uploading files to CDT repository"
 svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
 
-echo "You are using version 2008-08-01 of the commit program"

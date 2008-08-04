@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "DTAG update version 2008-08-04"
+
 # Goto cdt directory
 if [ -d ~/cdt ] ; then
 	cd ~/cdt
@@ -36,5 +38,4 @@ if ! cmp .$name $name.auto ; then
 	cp $name.auto .$name
 fi
 
-echo "You are using version 2008-08-01 of the update program"
 
