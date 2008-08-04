@@ -3158,7 +3158,7 @@ sub cmd_load_tag {
 						}
 						
 						# Create edge if possible
-						if ($pos2 <= $pos) {
+						if ($pos2 < $pos) {
 							$graph->edge_add($edge);
 						} else {
 							push @edges, $edge;

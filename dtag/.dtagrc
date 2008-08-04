@@ -100,6 +100,7 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
+macro cdt cd /home/cdt/cdt
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
@@ -122,8 +123,9 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd pred preds predo predf qobj robj subj tobj vobj
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
-etypes -adj adjuncts appa appr attrd attrr ben bg cause comp conc cond conj cons contr coord degr dir ext goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg rel relelab relp relr source struct time title voc xpl xtop +
+etypes -adj adjuncts appa appr attrd attrr ben bg cause comp conc cond conj cons contr coord degr dir elab ext focal fpreds fpredo goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg rel relelab relp relr source struct time title voc xpl xtop +
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 #etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland
-etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope
+etypes -ref ref correl coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope
+
