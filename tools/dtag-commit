@@ -22,14 +22,14 @@ if [ ! -z "$name" ] ; then
 	# contains the user's name is the correct one
 	files=`find . -name "*$name*" | grep -v '.svn' | egrep '(\.tag|\.atag)$'`
 	if [ ! -z "$files" ] ; then
-		echo "RESOLVING FILES\n$files"
+		echo -e "RESOLVING FILES\n$prefix/todo/$name\n$files"
 		svn resolved $prefix/todo/$name $files
 	fi
 
 	# Add new .tag or .atag files to svn repository
 	files=`svn status | grep "[-]$name" | awk '{ print $2 }' | grep -v .svn | egrep '(\.tag|\.atag)$'`
 	if [ ! -z "$files" ] ; then
-		echo "ADDING FILES\n$files"
+		echo -e "ADDING FILES\n$files"
 		svn add $files
 	fi
 else
