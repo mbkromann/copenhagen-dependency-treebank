@@ -20,9 +20,16 @@ if [ ! -z "$name" ] ; then
 	# contains the user's name is the correct one
 	files=`find . -name "*$name*" | grep -v '.svn'`
 	if [ ! -z "$files" ] ; then
+		echo "RESOLVING: $files"
 		svn resolved $files
 	fi
-	svn add `svn status | grep "[-]$name" | awk '{ print $2 }' | grep -v .svn | egrep '(\.tag|\.atag)$'`
+
+	# Add new .tag or .atag files to svn repository
+	files=`svn status | grep "[-]$name" | awk '{ print $2 }' | grep -v .svn | egrep '(\.tag|\.atag)$'`
+	if [ ! -z "$files" ] ; then
+		echo "ADDING: $files"
+		svn add $files
+	fi
 else
 	echo "Please contact Matthias: Cannot find your name!"
 fi
