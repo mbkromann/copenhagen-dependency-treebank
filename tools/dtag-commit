@@ -18,7 +18,7 @@ fi
 if [ ! -z "$name" ] ; then
 	# Resolve all conflicts: we assume that the local copy of any file that
 	# contains the user's name is the correct one
-	files=`find . -name "*$name*" | grep -v '.svn'`
+	files=`find . -name "*$name*" | grep -v '.svn' | egrep '(\.tag|\.atag)$'`
 	if [ ! -z "$files" ] ; then
 		echo "RESOLVING FILES\n$files"
 		svn resolved $files
