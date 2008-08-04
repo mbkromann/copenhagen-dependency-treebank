@@ -100,7 +100,10 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
-macro cdt cd /home/cdt/cdt
+macro it cd /home/cdt/cdt/it
+macro da-it cd /home/cdt/cdt/da-it
+macro da-es cd /home/cdt/cdt/da-es
+macro es cd /home/cdt/cdt/es
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
