@@ -8,7 +8,7 @@
 <W lemma="pio" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="dovere" msd="VA" tag="VER:cond" in="4:other" out="-1:subj|-5:pnct|-4:coord|1:¹vobj|3:pnct">dovrebbe</W>
-<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
+<W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|0:²dobj¹|1:man">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|-7:coref-res|1:time|3:vobj|4:bg|18:conj">hanno</W>
