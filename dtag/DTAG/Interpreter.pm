@@ -1292,6 +1292,7 @@ sub cmd_cd {
 	my $dir = (shift) || "";
 
 	# Change to new directory
+	print "*cd $dir*\n";
 	chdir($dir);
 
 	# Return
@@ -3160,7 +3161,7 @@ sub cmd_load_tag {
 						# Create edge if possible
 						if ($pos2 < $pos) {
 							$graph->edge_add($edge);
-						} else if ($pos2 == $pos && $var eq "in") {
+						} elsif ($pos2 == $pos && $var eq "in") {
 							push @edges, $edge;
 						}
 					}
@@ -6266,7 +6267,7 @@ sub do {
 
 		# Change directory: cd $dir
 		$success = $self->cmd_cd($1)
-			if ($cmd =~ /^\s*cd\s+(.*)$/);
+			if ($cmd =~ /^\s*cd\s+(.*\S)\s*$/);
 
 		# Clear: clear [-tag|-lex|-edges]
 		$success = $self->cmd_clear($graph, $2) 
@@ -6628,6 +6629,7 @@ sub do {
 			my $fname = $graph->file() || "UNTITLED";
 			$cmd2 =~ s/{FILE}/$fname/g;
 			if ($cmd) {
+				print "executing macro: $cmd2\n";
 				$self->do($cmd2);
 				$success = 1;
 			}
