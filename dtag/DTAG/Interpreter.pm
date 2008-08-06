@@ -6629,7 +6629,6 @@ sub do {
 			my $fname = $graph->file() || "UNTITLED";
 			$cmd2 =~ s/{FILE}/$fname/g;
 			if ($cmd) {
-				print "executing macro: $cmd2\n";
 				$self->do($cmd2);
 				$success = 1;
 			}
