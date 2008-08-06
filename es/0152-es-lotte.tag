@@ -88,7 +88,7 @@
 <W lemma="para" msd="CSUBI" in="-22:goal" out="1:vobj">para</W>
 <W lemma="pedir" msd="VLinf" in="-1:vobj" out="1:dobj">pedir</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="2:nobj">el</W>
-<W lemma="bueno" msd="ADJ" in="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd" out="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd">mejor</W>
+<W lemma="bueno" msd="ADJ" in="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd" out="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd">mejor</W>
 <W lemma="plato" msd="NC" in="-2:nobj" out="1:pobj:arg|4:attrr">plato</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -163,7 +163,7 @@
 <W lemma="tienda" msd="NC" in="-1:nobj" out="">tienda</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="12:pnct" out="">–</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Mie</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="10:subj" out="-1:namef|6:conj|3:conj|9:conj">Graversen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="10:subj" out="-1:namef|3:conj|6:conj|9:conj">Graversen</W>
 <W lemma="," msd="CM" in="9:pnct" out="">,</W>
 <W lemma="Olga" msd="NP" in="1:namef" out="">Olga</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:conj" out="-1:namef">Osetrova</W>
