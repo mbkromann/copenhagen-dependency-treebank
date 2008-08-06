@@ -46,7 +46,7 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W compound="¹Quest'²anno" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:¹time|0:²nobj¹" out="0:²nobj¹">Quest’anno</W>
-<W lemma="ne" msd="RG" tag="ADV" in="5:pobj|-9:coref" out="">ne</W>
+<W lemma="ne" msd="RG" tag="ADV" in="-9:coref|5:pobj" out="">ne</W>
 <W lemma="prevedere" msd="VADR" tag="VER:pres" in="14:qobj" out="-2:¹time|1:dobj|13:pnct">prevediamo</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj|5:pnct">una</W>
 <W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:dobj">vendita</W>
@@ -63,7 +63,7 @@
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="affermare" msd="VADR" tag="VER:pres" in="" out="-14:qobj|2:subj|9:pnct">afferma</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|2:appa|1:pnct">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:appa">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="capo" msd="NC" tag="NOM" in="-2:appa" out="1:pobj:arg#|2:attrr">capo</W>
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:pobj:arg#" out="">produzione</W>
@@ -83,7 +83,7 @@
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attrr" out="">fresca</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:loc|-12:assoc-const" out="">nell’ambiente</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-12:assoc-const|1:loc" out="">nell’ambiente</W>
 <W lemma="circolare" msd="VADR" tag="VER:pres" in="-11:conj" out="-2:coord|-1:loc|1:subj|18:pnct">circolano</W>
 <W lemma="voce|vocio" msd="NC" tag="NOM" in="-1:subj" out="1:appr">voci</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:appr" out="6:vobj">che</W>
@@ -185,13 +185,13 @@
 <W lemma="credere" msd="VADR" tag="VER:pres" in="-11:conj" out="-3:coord|-1:subj|1:dobj|12:pnct">crede</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="perfino" msd="RG" tag="ADV" in="1:focal" out="">perfino</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:pres" in="2:subj" out="3:preds|1:focal|-1:focal">l’Italia</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:pres" in="2:subj" out="-1:focal|1:focal|3:preds">l’Italia</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stessa</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VER:infi" in="-4:vobj" out="-2:subj">diventerà</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-3:preds" out="2:nobj">un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attrd" out="">buon</W>
 <W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:pobj:dobj">importatore</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj:dobj" out="2:nobj">dei</W>
-<W lemma="suo" msd="PO" tag="PRO:poss" in="1:attrd|-25:coref" out="">suoi</W>
+<W lemma="suo" msd="PO" tag="PRO:poss" in="-25:coref|1:attrd" out="">suoi</W>
 <W lemma="prodotto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">prodotti</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
