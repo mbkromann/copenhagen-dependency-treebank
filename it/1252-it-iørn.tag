@@ -126,7 +126,7 @@
 <W lemma="preparare" msd="VAP" tag="VER:pper" in="-1:pred" out="1:pobj">preparati</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="2:nobj">una</W>
-<W lemma="loro" msd="PO" tag="PRO:poss" in="1:pobj:dobj|-8:coref" out="">loro</W>
+<W lemma="loro" msd="PO" tag="PRO:poss" in="-8:coref|1:pobj:dobj" out="">loro</W>
 <W lemma="realizzazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj:dobj|1:man">realizzazione</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="singhiozzo" msd="NC" tag="NOM" in="-1:nobj" out="">singhiozzo</W>
