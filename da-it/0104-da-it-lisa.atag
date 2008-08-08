@@ -59,7 +59,6 @@
 <align out="b84" type="" in="b84" creator="0" insign="quanto" outsign="quanto"/>
 <align out="a96" type="" in="a96" creator="0" insign="at" outsign="at"/>
 <align out="a97" type="" in="a97" creator="0" insign="han" outsign="han"/>
-<align out="a99 a100 a101" type="f" in="b86 b87" creator="0" insign="sostenitore di" outsign="gik ind for"/>
 <align out="a90" type="" in="b78 b80" creator="-1" insign="il ruolo" outsign="rollen"/>
 <align out="a91" type="" in="b81" creator="-1" insign="di" outsign="som"/>
 <align out="a94" type="" in="b82" creator="-1" insign="dirigente" outsign="frontfigur"/>
@@ -108,7 +107,6 @@
 <align out="b139" type="" in="b139" creator="0" insign="meglio" outsign="meglio"/>
 <align out="b140" type="" in="b140" creator="0" insign="politicamente" outsign="politicamente"/>
 <align out="b145" type="" in="b145" creator="0" insign="," outsign=","/>
-<align out="a168" type="f" in="b146 b147 b148" creator="0" insign="una maggior frequenza" outsign="jævnlige"/>
 <align out="b149" type="" in="b149" creator="0" insign="di" outsign="di"/>
 <align out="b156" type="" in="b156" creator="0" insign="di" outsign="di"/>
 <align out="a157" type="" in="b137" creator="-1" insign="possano" outsign="kan"/>
@@ -136,7 +134,6 @@
 <align out="a201" type="" in="b173 b174" creator="-1" insign="una collaborazione" outsign="samarbejdet"/>
 <align out="a174 a175 a176 a177" type="f" in="b158 b159" creator="-1" insign="un aiuto" outsign="et skridt på vejen"/>
 <align out="a192" type="" in="b169" creator="-1" insign="." outsign="."/>
-<align out="a178" type="" in="b160" creator="-1" insign="e" outsign="."/>
 <align out="a206" type="" in="a206" creator="0" insign="af" outsign="af"/>
 <align out="a207" type="" in="b178" creator="0" insign="liberali" outsign="borgerlige"/>
 <align out="a208" type="" in="b176 b177" creator="0" insign="i politici" outsign="politikere"/>
@@ -177,4 +174,11 @@
 <align out="a251" type="" in="b239" creator="-1" insign="." outsign="."/>
 <align out="a248" type="" in="b238" creator="-1" insign="Bruxelles" outsign="Bruxelles"/>
 <align out="b220" type="" in="b220" creator="0" insign="," outsign=","/>
+<align out="a99 a100 a101" type="mvf" in="b86 b87" creator="0" insign="sostenitore di" outsign="gik ind for"/>
+<align out="a168" type="" in="a168" creator="0" insign="jævnlige" outsign="jævnlige"/>
+<align out="b146" type="" in="b146" creator="0" insign="una" outsign="una"/>
+<align out="b147" type="" in="b147" creator="0" insign="maggior" outsign="maggior"/>
+<align out="b148" type="" in="b148" creator="0" insign="frequenza" outsign="frequenza"/>
+<align out="a178" type="" in="a178" creator="0" insign="." outsign="."/>
+<align out="b160" type="" in="b160" creator="0" insign="e" outsign="e"/>
 </DTAGalign>

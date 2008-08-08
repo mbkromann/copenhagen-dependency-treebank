@@ -12,7 +12,6 @@
 <align out="a50" type="" in="b7" creator="-1" insign="Pia" outsign="Pia"/>
 <align out="a51" type="" in="b8" creator="-1" insign="Kjærsgaard" outsign="Kjærsgaard"/>
 <align out="a43" type="" in="b0 b1 b2 b3" creator="-1" insign="I paesi della CEE" outsign="EF-landene"/>
-<align out="a45" type="" in="b4" creator="-1" insign="," outsign=","/>
 <align out="a53" type="" in="b12" creator="-1" insign="," outsign=","/>
 <align out="a59 a60 a61" type="f" in="b20 b21 b22 b23 b24 b25 b26 b27" creator="0" insign="le politiche sugli immigrati ed i rifugiati politici" outsign="indvandrings- og asylpolitikken"/>
 <align out="a62" type="" in="a62" creator="0" insign="," outsign=","/>
@@ -33,7 +32,6 @@
 <align out="a65" type="" in="b31" creator="-1" insign="ha" outsign="har"/>
 <align out="a66" type="" in="b34 b35" creator="-1" insign="fra l’altro" outsign="bl.a."/>
 <align out="a63" type="" in="b28" creator="-1" insign="e" outsign="og"/>
-<align out="a73" type="" in="b37" creator="-1" insign="un" outsign=","/>
 <align out="a64" type="" in="b29 b30" creator="-1" insign="la collaborazione" outsign="samarbejdet"/>
 <align out="a81" type="" in="a81" creator="0" insign="af" outsign="af"/>
 <align out="a79" type="f" in="b48" creator="0" insign="nel" outsign="for"/>
@@ -187,12 +185,18 @@
 <align out="a232" type="" in="b217" creator="-1" insign="collaborazione" outsign="samarbejde"/>
 <align out="a233" type="" in="b220" creator="-1" insign="," outsign=","/>
 <align out="a234" type="" in="b221" creator="-1" insign="ma" outsign="men"/>
-<align out="a246 a247" type="" in="b236" creator="0" insign="aspetto" outsign="et spørgsmål"/>
 <align out="a245" type="f" in="b234 b235" creator="0" insign="in quanto" outsign="som"/>
 <align out="a248" type="f" in="b237" creator="0" insign="concernente" outsign="af"/>
-<align out="a250" type="" in="b238 b239" creator="0" insign="un interesse" outsign="interesse"/>
 <align out="a243" type="" in="b232" creator="-1" insign="nel" outsign="i"/>
 <align out="a244" type="" in="b233" creator="-1" insign="Trattato" outsign="traktaten"/>
 <align out="a249" type="" in="b240" creator="-1" insign="comune" outsign="fælles"/>
 <align out="a251" type="" in="b241" creator="-1" insign="." outsign="."/>
+<align out="a45" type="" in="a45" creator="0" insign="," outsign=","/>
+<align out="b4" type="" in="b4" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="a73" creator="0" insign="," outsign=","/>
+<align out="b37" type="" in="b37" creator="0" insign="un" outsign="un"/>
+<align out="a246" type="" in="a246" creator="0" insign="et" outsign="et"/>
+<align out="a247" type="" in="b236" creator="0" insign="aspetto" outsign="spørgsmål"/>
+<align out="b238" type="" in="b238" creator="0" insign="un" outsign="un"/>
+<align out="a250" type="" in="b239" creator="0" insign="interesse" outsign="interesse"/>
 </DTAGalign>

@@ -21,7 +21,6 @@
 <align out="a58" type="" in="b11" creator="-1" insign="," outsign=","/>
 <align out="a60" type="" in="b7" creator="-1" insign="," outsign=","/>
 <align out="a45" type="" in="b1" creator="-1" insign="paio" outsign="par"/>
-<align out="a68" type="" in="b18 b19" creator="0" insign="del Nilo" outsign="Nilens"/>
 <align out="a69" type="" in="b17" creator="0" insign="l’acqua" outsign="vand"/>
 <align out="a71" type="" in="b22" creator="0" insign="avrà" outsign="vil"/>
 <align out="a73 a74" type="f" in="b24 b25 b26" creator="0" insign="voglia di ritornarci" outsign="længes tilbage"/>
@@ -185,4 +184,6 @@
 <align out="a264" type="" in="b184 b185" creator="-1" insign="il Nilo" outsign="Nilen"/>
 <align out="a271" type="" in="b194" creator="-1" insign="." outsign="."/>
 <align out="a260" type="" in="b180" creator="0" insign="Vista" outsign="Udsigt"/>
+<align out="a68" type="s" in="b18" creator="0" insign="del" outsign="Nilens"/>
+<align out="a68" type="" in="b19" creator="0" insign="Nilo" outsign="Nilens"/>
 </DTAGalign>
