@@ -16,7 +16,6 @@
 <align out="a64" type="" in="b15" creator="0" insign="una" outsign="een"/>
 <align out="a66" type="" in="b14" creator="0" insign="bevuta" outsign="drukket"/>
 <align out="a65" type="" in="b16" creator="0" insign="volta" outsign="gang"/>
-<align out="a67" type="" in="a67" creator="0" insign="af" outsign="af"/>
 <align out="a44" type="" in="b0" creator="-1" insign="Un" outsign="Et"/>
 <align out="a58" type="" in="b11" creator="-1" insign="," outsign=","/>
 <align out="a60" type="" in="b7" creator="-1" insign="," outsign=","/>
@@ -32,7 +31,6 @@
 <align out="a83" type="f" in="b32" creator="0" insign="più" outsign="mange"/>
 <align out="a84" type="" in="b33" creator="0" insign="volte" outsign="gange"/>
 <align out="a85" type="" in="a85" creator="0" insign="," outsign=","/>
-<align out="a87" type="" in="b35 b36" creator="0" insign="il Nilo" outsign="Nilen"/>
 <align out="a86" type="" in="b34" creator="-1" insign="perché" outsign="fordi"/>
 <align out="a72" type="" in="b21" creator="-1" insign="si" outsign="man"/>
 <align out="a70" type="" in="b20" creator="-1" insign="," outsign=","/>
@@ -181,9 +179,14 @@
 <align out="a270" type="" in="a270" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a267 a268 a269" type="" in="b187 b188 b189 b190 b191 b192 b193" creator="0" insign="la “Valle dei Re e dei Nobili”" outsign="De dødes rige"/>
 <align out="a263" type="" in="b183" creator="-1" insign="ed" outsign="og"/>
-<align out="a264" type="" in="b184 b185" creator="-1" insign="il Nilo" outsign="Nilen"/>
 <align out="a271" type="" in="b194" creator="-1" insign="." outsign="."/>
 <align out="a260" type="" in="b180" creator="0" insign="Vista" outsign="Udsigt"/>
 <align out="a68" type="s" in="b18" creator="0" insign="del" outsign="Nilens"/>
 <align out="a68" type="" in="b19" creator="0" insign="Nilo" outsign="Nilens"/>
+<align out="a67" type="" in="b18" creator="0" insign="del" outsign="af"/>
+<align out="a87" type="s" in="b35" creator="0" insign="il" outsign="Nilen"/>
+<align out="a87" type="" in="b36" creator="0" insign="Nilo" outsign="Nilen"/>
+<align out="a217" type="s" in="b144" creator="0" insign="del" outsign="verden"/>
+<align out="a264" type="s" in="b184" creator="0" insign="il" outsign="Nilen"/>
+<align out="a264" type="" in="b185" creator="0" insign="Nilo" outsign="Nilen"/>
 </DTAGalign>
