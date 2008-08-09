@@ -1,0 +1,205 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0187-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0187-it-auto.tag" sign="_input"/>
+<align out="a46" type="" in="b3" creator="0" insign="un" outsign="en"/>
+<align out="a48" type="" in="a48" creator="0" insign="," outsign=","/>
+<align out="a50 a51 a52" type="mvi" in="b5" creator="0" insign="abituato" outsign="har været vant"/>
+<align out="a49" type="" in="a49" creator="0" insign="der" outsign="der"/>
+<align out="a54" type="" in="b7" creator="0" insign="crescita" outsign="vækst"/>
+<align out="a55" type="" in="a55" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a57 a58" type="" in="b9 b10" creator="0" insign="di norma" outsign="som regel"/>
+<align out="b11" type="" in="b11" creator="0" insign="una" outsign="una"/>
+<align out="a43" type="" in="b0" creator="-1" insign="Uno" outsign="Et"/>
+<align out="a47" type="" in="b4" creator="-1" insign="mondo" outsign="verden"/>
+<align out="a53" type="" in="b6" creator="-1" insign="alla" outsign="til"/>
+<align out="a45" type="" in="b2" creator="-1" insign="in" outsign="i"/>
+<align out="a56" type="" in="b8" creator="-1" insign="e" outsign="og"/>
+<align out="a61" type="" in="b14" creator="-1" insign="." outsign="."/>
+<align out="a66" type="" in="b15" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a44" type="" in="b1" creator="-1" insign="choc" outsign="chok"/>
+<align out="a59" type="" in="b12" creator="-1" insign="forte" outsign="kraftig"/>
+<align out="a60" type="" in="b13" creator="-1" insign="crescita" outsign="vækst"/>
+<align out="a67" type="" in="b16 b17" creator="0" insign="anche se" outsign="selv_om"/>
+<align out="b20" type="" in="b20" creator="0" insign="degli" outsign="degli"/>
+<align out="a70" type="" in="b21" creator="0" insign="investimenti" outsign="investering"/>
+<align out="a71" type="f" in="b22 b23 b24 b25" creator="0" insign="ha segnato una caduta" outsign="faldt"/>
+<align out="a73" type="f" in="b27 b28 b29 b31 b33" creator="0" insign="c' è stata una crescita" outsign="steg"/>
+<align out="b30" type="" in="b30" creator="0" insign="tuttavia" outsign="tuttavia"/>
+<align out="b32" type="" in="b32" creator="0" insign="loro" outsign="loro"/>
+<align out="a74" type="" in="a74" creator="0" insign="den" outsign="den"/>
+<align out="a75" type="" in="b34" creator="0" insign="significativa" outsign="betydeligt"/>
+<align out="a68" type="" in="b18" creator="-1" insign="il" outsign="den"/>
+<align out="a69" type="" in="b19" creator="-1" insign="totale" outsign="totale"/>
+<align out="a76" type="" in="b35" creator="-1" insign="per" outsign="for"/>
+<align out="a72" type="" in="b26" creator="-1" insign="," outsign=","/>
+<align out="a77" type="" in="b36" creator="0" insign="certi" outsign="visse"/>
+<align out="a78" type="" in="b37" creator="0" insign="tipi" outsign="typer"/>
+<align out="b38" type="" in="b38" creator="0" insign="di" outsign="di"/>
+<align out="a80" type="" in="b40" creator="0" insign="," outsign=","/>
+<align out="a82" type="" in="b43 b44 b45" creator="0" insign="i personal computer" outsign="PC'er"/>
+<align out="a81" type="" in="a81" creator="0" insign="nemlig" outsign="nemlig"/>
+<align out="b41" type="" in="b41" creator="0" insign="come" outsign="come"/>
+<align out="b42" type="" in="b42" creator="0" insign="per" outsign="per"/>
+<align out="a83" type="" in="b46" creator="0" insign="," outsign=","/>
+<align out="b47" type="" in="b47" creator="0" insign="per" outsign="per"/>
+<align out="b48" type="" in="b48" creator="0" insign="le" outsign="le"/>
+<align out="a84" type="" in="b49" creator="0" insign="workstation" outsign="workstations"/>
+<align out="b51" type="" in="b51" creator="0" insign="per" outsign="per"/>
+<align out="a88" type="" in="b54" creator="0" insign="medio-grandi" outsign="mellemstore"/>
+<align out="a89" type="" in="b55" creator="0" insign="sistemi" outsign="systemer"/>
+<align out="a79" type="" in="b39" creator="-1" insign="hardware" outsign="hardware"/>
+<align out="a85" type="" in="b50" creator="-1" insign="e" outsign="og"/>
+<align out="a87" type="" in="b53" creator="-1" insign="e" outsign="og"/>
+<align out="a86" type="" in="b52" creator="-1" insign="piccoli" outsign="små"/>
+<align out="a90" type="" in="b56" creator="0" insign="per" outsign="til"/>
+<align out="a91 a92" type="" in="b57" creator="0" insign="multiutenti" outsign="flere brugere"/>
+<align out="a93" type="" in="a93" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="b58" type="" in="b58" creator="0" insign="," outsign=","/>
+<align out="a94 a95" type="" in="b59 b60" creator="0" insign="il tutto" outsign="alt sammen"/>
+<align out="a96 a97 a98 a99" type="" in="b61 b62 b63" creator="0" insign="in relazione ad" outsign="for så vidt angår"/>
+<align out="a100" type="" in="b64" creator="0" insign="apparati" outsign="maskiner"/>
+<align out="a101" type="mc+f" in="b65 b66" creator="0" insign="forniti di" outsign="med"/>
+<align out="a102" type="" in="b67 b68" creator="0" insign="sistema Unix" outsign="Unix-styresystem"/>
+<align out="b71" type="" in="b71" creator="0" insign="gli" outsign="gli"/>
+<align out="a107" type="" in="b77 b78" creator="0" insign="sono aumentati" outsign="steg"/>
+<align out="a109" type="" in="b79" creator="0" insign="del" outsign="med"/>
+<align out="a111" type="" in="b75" creator="0" insign="media" outsign="gennemsnit"/>
+<align out="b73" type="" in="b73" creator="0" insign="," outsign=","/>
+<align out="a108" type="" in="b72" creator="0" insign="investimenti" outsign="investeringen"/>
+<align out="a106" type="" in="b70" creator="-1" insign="Qui" outsign="Her"/>
+<align out="a110" type="" in="b74" creator="-1" insign="in" outsign="i"/>
+<align out="a103" type="" in="b69" creator="-1" insign="." outsign="."/>
+<align out="b76" type="" in="b76" creator="0" insign="," outsign=","/>
+<align out="a112 a113" type="" in="b80" creator="0" insign="12%" outsign="12 procent"/>
+<align out="a119" type="" in="b82" creator="0" insign="&lt;&lt;" outsign="&quot;"/>
+<align out="a114" type="" in="b81" creator="-1" insign="." outsign="."/>
+<align out="a125" type="" in="b83" creator="0" insign="Negli" outsign="i"/>
+<align out="a126" type="" in="b84 b85 b86" creator="0" insign="anni ' 90" outsign="'90"/>
+<align out="b87" type="" in="b87" creator="0" insign="," outsign=","/>
+<align out="a120 a121 a122 a123" type="" in="b88 b89 b90 b91 b92 b93 b94 b95 b96 b97 b98" creator="0" insign="la parte di mercato relativa a sistemi multiutenti coperta da Unix" outsign="Unix-delen af mindre flerbrugersystemer"/>
+<align out="a124" type="" in="b99 b100" creator="0" insign="ha raggiunto" outsign="nåede"/>
+<align out="a127" type="" in="a127" creator="0" insign="cirka" outsign="cirka"/>
+<align out="b101" type="" in="b101" creator="0" insign="il" outsign="il"/>
+<align out="a128" type="f" in="b102" creator="0" insign="50%" outsign="halvdelen"/>
+<align out="a129" type="" in="a129" creator="0" insign="af" outsign="af"/>
+<align out="a130" type="" in="a130" creator="0" insign="salget" outsign="salget"/>
+<align out="a131" type="" in="b103" creator="0" insign="." outsign="."/>
+<align out="a134" type="" in="b104" creator="0" insign="Nel" outsign="I"/>
+<align out="a135" type="" in="b105" creator="0" insign="1996" outsign="1996"/>
+<align out="a136 a138 a139" type="" in="b107" creator="0" insign="raggiungerà" outsign="vil være på"/>
+<align out="a137" type="f" in="b106" creator="0" insign="Unix" outsign="Unix-andelen"/>
+<align out="b108" type="" in="b108" creator="0" insign="una" outsign="una"/>
+<align out="b109" type="" in="b109" creator="0" insign="vendita" outsign="vendita"/>
+<align out="b110" type="" in="b110" creator="0" insign="pari" outsign="pari"/>
+<align out="b111" type="" in="b111" creator="0" insign="al" outsign="al"/>
+<align out="a140 a141" type="" in="b112" creator="0" insign="70-80%" outsign="70-80 procent"/>
+<align out="a143" type="" in="b113" creator="0" insign="&gt;&gt;" outsign="&quot;"/>
+<align out="a144" type="" in="b114" creator="0" insign="prevede" outsign="spår"/>
+<align out="a145" type="" in="b115" creator="0" insign="Per" outsign="Per"/>
+<align out="a147" type="" in="b117" creator="0" insign="della" outsign="fra"/>
+<align out="a148" type="" in="a148" creator="0" insign="analysefirmaet" outsign="analysefirmaet"/>
+<align out="a153" type="" in="b122" creator="0" insign="delle" outsign="for"/>
+<align out="a154" type="" in="b123" creator="0" insign="analisi" outsign="analysen"/>
+<align out="a146" type="" in="b116" creator="-1" insign="Andersen" outsign="Andersen"/>
+<align out="a149" type="" in="b118" creator="-1" insign="IDC" outsign="IDC"/>
+<align out="a150" type="" in="b119" creator="-1" insign="Scandinavia" outsign="Scandinavia"/>
+<align out="a152" type="" in="b121" creator="-1" insign="responsabile" outsign="ansvarlig"/>
+<align out="a151" type="" in="b120" creator="-1" insign="e" outsign="og"/>
+<align out="a142" type="" in="a142" creator="0" insign="," outsign=","/>
+<align out="a162" type="" in="b130" creator="-1" insign="&lt;&lt;" outsign="&quot;"/>
+<align out="a165" type="" in="b132" creator="-1" insign="non" outsign="ikke"/>
+<align out="a163" type="" in="b131" creator="-1" insign="Unix" outsign="Unix"/>
+<align out="a157" type="" in="b129" creator="-1" insign="." outsign="."/>
+<align out="a155" type="" in="b124" creator="0" insign="di" outsign="af"/>
+<align out="a156" type="" in="b125 b126 b127 b128" creator="0" insign="mercato relative ad Unix" outsign="Unix-markedet"/>
+<align out="a164 a166 a167 a168" type="f" in="b133" creator="0" insign="soppianterà" outsign="kommer til at overtage"/>
+<align out="a169" type="" in="b134 b135 b136 b137" creator="0" insign="il dominio di DOS" outsign="DOS-dominansen"/>
+<align out="a170" type="" in="b138" creator="0" insign="sulle" outsign="på"/>
+<align out="a171" type="" in="b139" creator="0" insign="scrivanie" outsign="skrivebordet"/>
+<align out="a172" type="" in="b140" creator="0" insign="." outsign="."/>
+<align out="a175" type="" in="b143 b144" creator="0" insign="di Unix" outsign="Unix'"/>
+<align out="b141" type="" in="b141" creator="0" insign="Il" outsign="Il"/>
+<align out="a176" type="" in="b142" creator="0" insign="ruolo" outsign="rolle"/>
+<align out="a183" type="" in="a183" creator="0" insign="Og" outsign="Og"/>
+<align out="b150" type="" in="b150" creator="0" insign="inoltre" outsign="inoltre"/>
+<align out="a186" type="" in="b151" creator="0" insign="non" outsign="ikke"/>
+<align out="b153" type="" in="b153" creator="0" insign="un" outsign="un"/>
+<align out="a193" type="" in="a193" creator="0" insign="skal" outsign="skal"/>
+<align out="a194" type="" in="a194" creator="0" insign="være" outsign="være"/>
+<align out="a187" type="" in="b154" creator="0" insign="sostituto" outsign="afløsning"/>
+<align out="a190" type="" in="b157" creator="-1" insign="sistemi" outsign="systemer"/>
+<align out="a188" type="" in="b155" creator="-1" insign="di" outsign="af"/>
+<align out="a177" type="" in="b145" creator="-1" insign="è" outsign="er"/>
+<align out="a185" type="" in="b152" creator="-1" insign="è" outsign="er"/>
+<align out="a178" type="" in="b146" creator="-1" insign="nel" outsign="i"/>
+<align out="a184" type="" in="b149" creator="-1" insign="Unix" outsign="Unix"/>
+<align out="a192" type="" in="b159" creator="-1" insign="ma" outsign="men"/>
+<align out="a191" type="" in="b158" creator="-1" insign="," outsign=","/>
+<align out="a195" type="" in="b160" creator="-1" insign="un" outsign="et"/>
+<align out="a180" type="" in="b148" creator="-1" insign="." outsign="."/>
+<align out="a197" type="" in="b162" creator="-1" insign="." outsign="."/>
+<align out="a179" type="" in="b147" creator="-1" insign="server" outsign="serveren"/>
+<align out="a189" type="" in="b156" creator="-1" insign="precedenti" outsign="tidligere"/>
+<align out="a196" type="" in="b161" creator="-1" insign="supplemento" outsign="supplement"/>
+<align out="a200" type="" in="b164 b165" creator="0" insign="il PC" outsign="PC'en"/>
+<align out="a201" type="" in="b166" creator="0" insign="uccise" outsign="dræbte"/>
+<align out="a205" type="" in="b167 b168" creator="0" insign="il mainframe" outsign="mainframen"/>
+<align out="a202" type="" in="a202" creator="0" insign="jo" outsign="jo"/>
+<align out="a208" type="" in="b171" creator="0" insign="rivoluzionò" outsign="revolutionerede"/>
+<align out="a212" type="" in="b173 b174" creator="0" insign="il modo" outsign="brugen"/>
+<align out="a214" type="" in="b176 b177 b178 b179" creator="0" insign="trattare elettronicamente i testi" outsign="tekstbehandling"/>
+<align out="a216" type="" in="b181" creator="0" insign="altre" outsign="andre"/>
+<align out="a217" type="" in="b182" creator="0" insign="semplici" outsign="enkle"/>
+<align out="a218" type="" in="b183" creator="0" insign="applicazioni" outsign="applikationer"/>
+<align out="a219" type="" in="b184" creator="0" insign="." outsign="."/>
+<align out="a209 a210 a211" type="" in="b172" creator="0" insign="innanzitutto" outsign="først og fremmest"/>
+<align out="a213" type="" in="b175" creator="-1" insign="di" outsign="af"/>
+<align out="a203 a204" type="" in="b163" creator="-1" insign="Nemmeno" outsign="heller ikke"/>
+<align out="a215" type="" in="b180" creator="-1" insign="e" outsign="og"/>
+<align out="a206" type="" in="b169" creator="-1" insign="," outsign=","/>
+<align out="a207" type="" in="b170" creator="-1" insign="ma" outsign="men"/>
+<align out="a223" type="" in="a223" creator="0" insign="Hardware" outsign="Hardware"/>
+<align out="a224" type="" in="a224" creator="0" insign="uden" outsign="uden"/>
+<align out="a225" type="" in="a225" creator="0" insign="interesse" outsign="interesse"/>
+<align out="a226" type="" in="b186" creator="0" insign="In" outsign="På"/>
+<align out="b188" type="" in="b188" creator="0" insign="tipo" outsign="tipo"/>
+<align out="b189" type="" in="b189" creator="0" insign="di" outsign="di"/>
+<align out="a228" type="" in="b190" creator="0" insign="mercato" outsign="marked"/>
+<align out="a229" type="" in="b191" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="b192" type="" in="b192" creator="0" insign="nel" outsign="nel"/>
+<align out="b193" type="" in="b193" creator="0" insign="mercato" outsign="mercato"/>
+<align out="b194" type="" in="b194" creator="0" insign="di" outsign="di"/>
+<align out="a233" type="" in="b200" creator="0" insign="aperti" outsign="åbne"/>
+<align out="a232" type="" in="b198" creator="0" insign="quei" outsign="de"/>
+<align out="a231" type="" in="b196" creator="0" insign="e" outsign="og"/>
+<align out="b197" type="" in="b197" creator="0" insign="di" outsign="di"/>
+<align out="a222" type="" in="b185" creator="-1" insign="&gt;&gt;" outsign="&quot;"/>
+<align out="a227" type="" in="b187" creator="-1" insign="questo" outsign="dette"/>
+<align out="a237" type="" in="b203" creator="-1" insign="in" outsign="i"/>
+<align out="a234" type="" in="b199" creator="-1" insign="sistemi" outsign="systemer"/>
+<align out="a236" type="" in="b201" creator="-1" insign="che" outsign="der"/>
+<align out="a230" type="" in="b195" creator="-1" insign="Unix" outsign="Unix"/>
+<align out="a238" type="" in="b204" creator="0" insign="ultima" outsign="sidste"/>
+<align out="a239" type="" in="b205" creator="0" insign="istanza" outsign="ende"/>
+<align out="a235" type="" in="a235" creator="0" insign="," outsign=","/>
+<align out="b202" type="" in="b202" creator="0" insign="," outsign=","/>
+<align out="b206" type="" in="b206" creator="0" insign="," outsign=","/>
+<align out="a240" type="" in="b207" creator="0" insign="devono" outsign="skal"/>
+<align out="a241" type="" in="b208" creator="0" insign="render" outsign="gøre"/>
+<align out="a242" type="" in="a242" creator="0" insign="det" outsign="det"/>
+<align out="a243" type="" in="b209" creator="0" insign="possibile" outsign="muligt"/>
+<align out="a244 a245" type="mc" in="b210 b211" creator="0" insign="il trasferimento" outsign="at overføre"/>
+<align out="b212" type="" in="b212" creator="0" insign="di" outsign="di"/>
+<align out="a248" type="" in="b215" creator="0" insign="differenti" outsign="forskellige"/>
+<align out="a249" type="" in="b216 b217" creator="0" insign="sistemi multiutenti" outsign="flerbrugersystemer"/>
+<align out="a252" type="" in="b219" creator="0" insign="c'" outsign="der"/>
+<align out="a255" type="f" in="b221" creator="0" insign="oggi" outsign="for_tiden"/>
+<align out="a253" type="" in="b224" creator="0" insign="spietata" outsign="benhård"/>
+<align out="b222" type="" in="b222" creator="0" insign="una" outsign="una"/>
+<align out="a254" type="" in="b223" creator="0" insign="concorrenza" outsign="konkurrence"/>
+<align out="a256" type="" in="b225" creator="0" insign="." outsign="."/>
+<align out="a246" type="" in="b213" creator="-1" insign="applicazioni" outsign="applikationer"/>
+<align out="a247" type="" in="b214" creator="-1" insign="fra" outsign="mellem"/>
+<align out="a250" type="" in="b218" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a251" type="" in="b220" creator="-1" insign="è" outsign="er"/>
+</DTAGalign>
