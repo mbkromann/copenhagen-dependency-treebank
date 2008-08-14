@@ -156,7 +156,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:vobj|8:pnct|12:conj">“Hemos</W>
-<W lemma="programar" msd="VLadj" in="-1:vobj" out="1:dobj|4:inst|2:man">programado</W>
+<W lemma="programar" msd="VLadj" in="-1:vobj" out="1:dobj|2:man|4:inst">programado</W>
 <W lemma="todo" msd="QU" in="-1:dobj" out="">todo</W>
 <W lemma="desde" msd="PREP" in="-2:man" out="1:nobj">desde</W>
 <W lemma="cero" msd="NC" in="-1:nobj" out="">cero</W>
@@ -188,13 +188,13 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">programación</W>
 <W lemma="." msd="FS" in="-13:pnct" out="">.</W>
 <W lemma="originalmente" msd="ADV" in="11:time" out="">Originalmente</W>
-<W lemma="un" msd="ART" in="20:subj" out="4:pnct|6:appa|1:nobj">un</W>
+<W lemma="un" msd="ART" in="20:subj" out="1:nobj|4:pnct|6:appa">un</W>
 <W lemma="conocer" msd="VLadj" in="-1:nobj" out="1:pobj:dobj">conocido</W>
 <W lemma="de" msd="PREP" in="-1:pobj:dobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">él</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Steen</W>
-<W lemma="Olsen" msd="NP" in="-6:appa" out="1:pnct|-1:namef">Olsen</W>
+<W lemma="Olsen" msd="NP" in="-6:appa" out="-1:namef|1:pnct">Olsen</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="1:subj" out="">que</W>
 <W lemma="trabajar" msd="VLfin" in="" out="-1:subj|1:loc|10:pnct">trabaja</W>
@@ -208,7 +208,7 @@
 <W lemma="en" msd="PREP" in="-6:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Copenhague</W>
 <W lemma="," msd="CM" in="-10:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:vobj|-20:subj|12:pnct">había</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-20:subj|1:vobj|12:pnct">había</W>
 <W lemma="encargar" msd="VLadj" in="-1:vobj" out="1:dobj|3:other">encargado</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="programa" msd="NC" in="-1:nobj" out="">programa</W>

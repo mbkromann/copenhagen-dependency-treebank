@@ -88,7 +88,7 @@
 <W lemma="para" msd="CSUBI" in="-22:goal" out="1:vobj">para</W>
 <W lemma="pedir" msd="VLinf" in="-1:vobj" out="1:dobj">pedir</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="2:nobj">el</W>
-<W lemma="bueno" msd="ADJ" in="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd" out="0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd|0:attrd">mejor</W>
+<W lemma="bueno" msd="ADJ" in="0:attrd" out="0:attrd">mejor</W>
 <W lemma="plato" msd="NC" in="-2:nobj" out="1:pobj:arg|4:attrr">plato</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
