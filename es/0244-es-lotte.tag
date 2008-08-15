@@ -12,8 +12,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:relr" out="-1:subj|1:vobj|2:pnct">debÃ­an</W>
 <W lemma="eliminarse" msd="VCLI" in="-1:vobj" out="">eliminarse</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
-<W lemma="este" msd="DM" in="2:xtop" out="">Esto</W>
-<W lemma="él" msd="PPO" in="1:dobj" out="">lo</W>
+<W lemma="este" msd="DM" in="2:xtop" out="1:ref">Esto</W>
+<W lemma="él" msd="PPO" in="1:dobj|-1:ref" out="">lo</W>
 <W lemma="solucionar" msd="VLfin" in="" out="-2:xtop|-1:dobj|2:subj|3:pnct|4:bg|9:pnct|10:vobj">soluciona</W>
 <W lemma="John" msd="NP" in="1:namef" out="">John</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef">Winther</W>
@@ -48,7 +48,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">TEBA</W>
 <W lemma="este" msd="DM" in="1:subj" out="">esto</W>
 <W lemma="significar" msd="VLfin" in="" out="-1:subj|-6:bg|1:dobj">significa</W>
-<W lemma="que" msd="CQUE" in="-1:dobj" out="8:vobj|2:other">que</W>
+<W lemma="que" msd="CQUE" in="-1:dobj" out="2:other|8:vobj">que</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="de" msd="CSUBI" in="-2:other" out="1:vobj">de</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="1:subj|3:time">ser</W>
@@ -82,7 +82,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">TEBA</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:vobj" out="-5:subj|1:preds|-1:neg|2:cause|5:pnct">serÃ¡</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:vobj" out="-5:subj|-1:neg|1:preds|2:cause|5:pnct">serÃ¡</W>
 <W lemma="ampliar" msd="VLadj" in="-1:preds" out="">ampliada</W>
 <W lemma="por" msd="PREP" in="-2:cause" out="1:nobj">por</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">esta</W>
@@ -154,7 +154,7 @@
 <W lemma="pesar" msd="VLfin" in="" out="-7:subj|5:pnct">pesa</W>
 <W lemma="alrededor" msd="PREP" in="" out="">alrededor</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
-<W lemma="@card@" msd="CARD" in="" out="6:relr|3:ref">19</W>
+<W lemma="@card@" msd="CARD" in="" out="3:ref|6:relr">19</W>
 <W lemma="kilo" msd="NC" in="" out="">kilos</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-3:ref|3:subj" out="">que</W>
