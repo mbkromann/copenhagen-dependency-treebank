@@ -30,7 +30,6 @@
 <align out="a202" type="" in="b157" creator="-101" insign="entre" outsign="blandt"/>
 <align out="a203" type="" in="b158" creator="-101" insign="las" outsign="den"/>
 <align out="a204" type="" in="b159" creator="-101" insign="futuras" outsign="kommende"/>
-<align out="a205" type="" in="b160" creator="-101" insign="generaciones" outsign="generation"/>
 <align out="a206" type="" in="b161" creator="-101" insign="de" outsign="af"/>
 <align out="a212 a213" type="" in="b165" creator="-101" insign="Todo" outsign="Det hele"/>
 <align out="a214" type="" in="b166" creator="-101" insign="podría" outsign="skulle"/>
@@ -95,8 +94,6 @@
 <align out="a107" type="" in="b71" creator="0" insign="partidos" outsign="partier"/>
 <align out="a108" type="" in="b72" creator="0" insign="." outsign="."/>
 <align out="a114" type="" in="b79" creator="0" insign="estaban" outsign="var"/>
-<align out="a115" type="s" in="b76" creator="0" insign="los" outsign="tiden"/>
-<align out="a115" type="" in="b77" creator="0" insign="tiempos" outsign="tiden"/>
 <align out="a116" type="" in="b78" creator="0" insign="no" outsign="ikke"/>
 <align out="b80" type="" in="b80" creator="0" insign="lo" outsign="lo"/>
 <align out="b81" type="" in="b81" creator="0" insign="suficientemente" outsign="suficientemente"/>
@@ -206,9 +203,11 @@
 <align out="a201" type="" in="b155 b156" creator="0" insign="la colaboración" outsign="samarbejdet"/>
 <align out="a216 a217 a218" type="lv" in="b167" creator="0" insign="fracasar" outsign="gå på gulvet"/>
 <align out="a225" type="" in="b175 b176" creator="0" insign="la colaboración" outsign="samarbejdet"/>
-<align out="a250" type="EF=" in="b209 b210 b211" creator="0" insign="la Comunidad Europea" outsign="EF-fiskeriministermøde"/>
-<align out="a250" type="møde=" in="b202 b203" creator="0" insign="una reunión" outsign="EF-fiskeriministermøde"/>
-<align out="a250" type="fiskeri=" in="b207" creator="0" insign="pesca" outsign="EF-fiskeriministermøde"/>
-<align out="a250" type="minister=" in="b205" creator="0" insign="ministros" outsign="EF-fiskeriministermøde"/>
 <align out="a223 a224" type="mv" in="b174" creator="0" insign="mantuvieran" outsign="har holdt"/>
+<align out="a115" type="mv" in="b76 b77" creator="0" insign="los tiempos" outsign="tiden"/>
+<align out="a205" type="mv" in="b160" creator="0" insign="generaciones" outsign="generation"/>
+<align out="a250" type="møde=" in="b202 b203" creator="0" insign="una reunión" outsign="EF-fiskeriministermøde"/>
+<align out="a250" type="minister=/mv" in="b205" creator="0" insign="ministros" outsign="EF-fiskeriministermøde"/>
+<align out="a250" type="fiskeri=" in="b207" creator="0" insign="pesca" outsign="EF-fiskeriministermøde"/>
+<align out="a250" type="EF=" in="b209 b210 b211" creator="0" insign="la Comunidad Europea" outsign="EF-fiskeriministermøde"/>
 </DTAGalign>
