@@ -2,7 +2,6 @@
 <alignFile key="a" href="../da/0593-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0593-it-auto.tag" sign="_input"/>
 <align out="a41" type="" in="b6" creator="0" insign="possono" outsign="kan"/>
-<align out="a40" type="" in="b0 b1 b2 b3 b4 b5" creator="0" insign="I contributi comunali per l' affitto" outsign="Boligydelse"/>
 <align out="a42" type="" in="b7 b8" creator="0" insign="essere richiesti" outsign="søges"/>
 <align out="a43" type="" in="b9" creator="0" insign="da" outsign="af"/>
 <align out="a44" type="" in="b10" creator="0" insign="tutti" outsign="alle"/>
@@ -86,7 +85,5 @@
 <align out="a142" type="" in="b123" creator="-1" insign="ed" outsign="og"/>
 <align out="a145" type="" in="b127" creator="-1" insign="." outsign="."/>
 <align out="b117" type="" in="b117" creator="0" insign="la" outsign="la"/>
-<align out="a157" type="" in="b140" creator="-100" insign="65" outsign="65"/>
-<align out="a160" type="" in="b143" creator="-100" insign="ed" outsign="og"/>
-<align out="a152" type="" in="b147" creator="-100" insign="da" outsign="at"/>
+<align out="a40" type="d" in="b0 b1 b2 b3 b4 b5" creator="0" insign="I contributi comunali per l' affitto" outsign="Boligydelse"/>
 </DTAGalign>
