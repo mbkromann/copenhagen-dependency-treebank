@@ -145,8 +145,6 @@
 <align out="a218" type="" in="b146" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
 <align out="a221" type="" in="b150" creator="-1" insign="con" outsign="med"/>
 <align out="a203" type="" in="b135" creator="-1" insign="." outsign="."/>
-<align out="a222" type="" in="b152 b153 b154" creator="0" insign="testa di falcone" outsign="falkehovede"/>
-<align out="b151" type="" in="b151" creator="0" insign="la" outsign="la"/>
 <align out="b155" type="" in="b155" creator="0" insign="sormontata" outsign="sormontata"/>
 <align out="b156" type="" in="b156" creator="0" insign="da" outsign="da"/>
 <align out="a223" type="" in="a223" creator="0" insign="og" outsign="og"/>
@@ -187,4 +185,5 @@
 <align out="a146 a147 a148 a149" type="" in="a146 a147 a148 a149" creator="0" insign="det der kaldes for" outsign="det der kaldes for"/>
 <align out="a247" type="" in="b174" creator="0" insign="Rosso" outsign="Røde"/>
 <align out="a248" type="" in="b173" creator="0" insign="Mar" outsign="Hav"/>
+<align out="a222" type="d" in="b151 b152 b153 b154" creator="0" insign="la testa di falcone" outsign="falkehovede"/>
 </DTAGalign>
