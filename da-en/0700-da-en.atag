@@ -226,7 +226,7 @@
 <align out="a256" type="" in="b230" creator="-1" insign="<s>" outsign="<s>"/>
 <align out="a255" type="" in="b229" creator="-1" insign="</s>" outsign="</s>"/>
 <align out="a273" type="" in="b251" creator="-1" insign="</s>" outsign="</s>"/>
-<align out="a179" type="" in="b145 b146 b147 b148 b149" creator="0" insign="Lic . </s> <s> Jur" outsign="lic._jur."/>
+<align out="a179" type="" in="b145 b146 b149" creator="0" insign="Lic . </s> <s> Jur" outsign="lic._jur."/>
 <align out="a258" type="" in="b235" creator="0" insign="have" outsign="har"/>
 <align out="a257" type="" in="b231" creator="0" insign="That" outsign="Det"/>
 <align out="b232" type="" in="b232" creator="0" insign="is" outsign="is"/>
