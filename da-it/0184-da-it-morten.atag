@@ -1,0 +1,26 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0184-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0184-it-auto.tag" sign="_input"/>
+<align out="a84" type="" in="b14" creator="-101" insign="e" outsign="<s>"/>
+<align out="a177" type="" in="b26" creator="-101" insign="e" outsign="Tyskland"/>
+<align out="a188" type="" in="b30" creator="-101" insign="da" outsign="Pasta"/>
+<align out="a240" type="" in="b34" creator="-101" insign="a" outsign="selveste"/>
+<align out="a241" type="" in="b88" creator="-101" insign="che" outsign="Italien"/>
+<align out="a238" type="" in="b89" creator="-101" insign="un" outsign=","/>
+<align out="a244" type="" in="b98" creator="-101" insign="con" outsign="et"/>
+<align out="a48" type="" in="b102" creator="-101" insign="non" outsign="og"/>
+<align out="a66" type="" in="b113" creator="-101" insign="che" outsign="<p>"/>
+<align out="a71" type="" in="b117" creator="-101" insign="un" outsign="at"/>
+<align out="a130" type="" in="b141" creator="-101" insign="Per" outsign="om"/>
+<align out="a171" type="" in="b185" creator="-101" insign="che" outsign="fra"/>
+<align out="a44" type="" in="b2 b3" creator="-100" insign="si vende" outsign="sælges"/>
+<align out="a45" type="" in="b4" creator="-100" insign="fresca" outsign="frisklavet"/>
+<align out="a47" type="" in="b6" creator="-100" insign="secca" outsign="tørret"/>
+<align out="a52" type="f" in="b16 b17 b18" creator="-100" insign="si può consumare" outsign="bruges"/>
+<align out="a53" type="" in="b19" creator="-100" insign="sia" outsign="både"/>
+<align out="a49" type="" in="b12" creator="-100" insign="per" outsign="i"/>
+<align out="a51" type="" in="b7" creator="-100" insign="ed" outsign="og"/>
+<align out="a61" type="" in="b8" creator="-100" insign="in" outsign="og"/>
+<align out="a43" type="d" in="b0 b1" creator="-100" insign="La pasta" outsign="Pasta"/>
+<align out="a46" type="" in="b5" creator="-100" insign="," outsign=","/>
+</DTAGalign>

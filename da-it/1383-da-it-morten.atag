@@ -1,0 +1,11 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1383-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1383-it-auto.tag" sign="_input"/>
+<align out="a86" type="" in="a86" creator="-101" outsign="der" insign="der"/>
+<align out="a236" type="" in="a236" creator="-101" outsign="i" insign="i"/>
+<align out="b11" type="" in="b11" creator="-101" outsign="di" insign="di"/>
+<align out="b61" type="" in="b61" creator="-101" outsign="si" insign="si"/>
+<align out="b124" type="" in="b124" creator="-101" outsign="di" insign="di"/>
+<align out="b147" type="" in="b147" creator="-101" outsign="i" insign="i"/>
+<align out="b166" type="" in="b166" creator="-101" outsign="di" insign="di"/>
+</DTAGalign>

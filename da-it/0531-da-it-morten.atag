@@ -1,0 +1,14 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0531-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0531-it-auto.tag" sign="_input"/>
+<align out="a147" type="" in="a147" creator="-101" outsign="en" insign="en"/>
+<align out="a160" type="" in="a160" creator="-101" outsign="for" insign="for"/>
+<align out="a161" type="" in="a161" creator="-101" outsign="at" insign="at"/>
+<align out="a162" type="" in="a162" creator="-101" outsign="have" insign="have"/>
+<align out="a212" type="" in="a212" creator="-101" outsign="at" insign="at"/>
+<align out="" type="" in="" creator="-101" outsign="" insign=""/>
+<align out="a237" type="" in="a237" creator="-101" outsign="at" insign="at"/>
+<align out="a247" type="" in="a247" creator="-101" outsign="det" insign="det"/>
+<align out="a258" type="" in="a258" creator="-101" outsign="til" insign="til"/>
+<align out="a259" type="" in="a259" creator="-101" outsign="dommen" insign="dommen"/>
+</DTAGalign>

@@ -1,0 +1,24 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0863-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0863-it-auto.tag" sign="_input"/>
+<align out="a50" type="" in="a50" creator="-101" outsign="danskernes" insign="danskernes"/>
+<align out="a55" type="" in="a55" creator="-101" outsign="vi" insign="vi"/>
+<align out="a56" type="" in="a56" creator="-101" outsign="har" insign="har"/>
+<align out="a71" type="" in="a71" creator="-101" outsign="er" insign="er"/>
+<align out="a108" type="" in="a108" creator="-101" outsign="eksempel" insign="eksempel"/>
+<align out="a109" type="" in="a109" creator="-101" outsign="halfdan" insign="halfdan"/>
+<align out="a110" type="" in="a110" creator="-101" outsign="rasmussen" insign="rasmussen"/>
+<align out="a112" type="" in="a112" creator="-101" outsign="men" insign="men"/>
+<align out="a114" type="" in="a114" creator="-101" outsign="er" insign="er"/>
+<align out="a115" type="" in="a115" creator="-101" outsign="allesammen" insign="allesammen"/>
+<align out="a116" type="" in="a116" creator="-101" outsign="danske" insign="danske"/>
+<align out="a117" type="" in="a117" creator="-101" outsign="og" insign="og"/>
+<align out="a118" type="" in="a118" creator="-101" outsign="enige" insign="enige"/>
+<align out="a119" type="" in="a119" creator="-101" outsign="om" insign="om"/>
+<align out="a121" type="" in="a121" creator="-101" outsign="at" insign="at"/>
+<align out="a123" type="" in="a123" creator="-101" outsign="er" insign="er"/>
+<align out="a128" type="" in="a128" creator="-101" outsign="i" insign="i"/>
+<align out="a129" type="" in="a129" creator="-101" outsign="mit" insign="mit"/>
+<align out="a130" type="" in="a130" creator="-101" outsign="land" insign="land"/>
+<align out="a186" type="" in="a186" creator="-101" outsign="er" insign="er"/>
+</DTAGalign>
