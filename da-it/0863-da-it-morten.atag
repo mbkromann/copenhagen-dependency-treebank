@@ -182,13 +182,55 @@
 <align out="a237" type="s" in="b182" creator="0" insign="“I" outsign="danskerne"/>
 <align out="a237" type="" in="b183" creator="0" insign="danesi" outsign="danskerne"/>
 <align out="a238" type="" in="a238" creator="0" insign="nu" outsign="nu"/>
-<align out="a239" type="" in="b186" creator="-100" insign="sempre" outsign="altid"/>
-<align out="a245" type="" in="b195" creator="-100" insign="anni" outsign="år"/>
-<align out="a246" type="" in="b196" creator="-100" insign="fa" outsign="siden"/>
-<align out="a235" type="" in="b184" creator="-100" insign="lo" outsign="Det"/>
-<align out="a244" type="" in="b194" creator="-100" insign="300" outsign="300"/>
-<align out="a229" type="" in="b181" creator="-100" insign="." outsign="."/>
-<align out="a241" type="" in="b188" creator="-100" insign="," outsign=","/>
-<align out="a247" type="" in="b192" creator="-100" insign="," outsign=","/>
-<align out="a240" type=" ! " in="b187" creator="-100" insign="stati”" outsign="været"/>
+<align out="a242" type="" in="b193" creator="0" insign="“anche" outsign="også"/>
+<align out="a243" type="" in="a243" creator="0" insign="for" outsign="for"/>
+<align out="a239" type="" in="b186" creator="-1" insign="sempre" outsign="altid"/>
+<align out="a245" type="" in="b195" creator="-1" insign="anni" outsign="år"/>
+<align out="a246" type="" in="b196" creator="-1" insign="fa" outsign="siden"/>
+<align out="a235" type="" in="b184" creator="-1" insign="lo" outsign="Det"/>
+<align out="a244" type="" in="b194" creator="-1" insign="300" outsign="300"/>
+<align out="a229" type="" in="b181" creator="-1" insign="." outsign="."/>
+<align out="a241" type="" in="b188" creator="-1" insign="," outsign=","/>
+<align out="a240" type="" in="b187" creator="-1" insign="stati”" outsign="været"/>
+<align out="a248" type="" in="b198" creator="0" insign="perciò" outsign="så"/>
+<align out="a249 a250" type="" in="b199" creator="0" insign="sono" outsign="jeg er"/>
+<align out="a253 a254" type="f" in="b202 b203 b204" creator="0" insign="quanto vi riguarda" outsign="jeres vegne"/>
+<align out="a258" type="" in="a258" creator="0" insign="Men" outsign="Men"/>
+<align out="a259" type="s" in="b206" creator="0" insign="Il" outsign="faren"/>
+<align out="a259" type="" in="b208" creator="0" insign="pericolo" outsign="faren"/>
+<align out="b207" type="" in="b207" creator="0" insign="vero" outsign="vero"/>
+<align out="a261" type="d" in="b210" creator="0" insign="il" outsign="en"/>
+<align out="a262" type="" in="b211" creator="0" insign="livellamento" outsign="nivellering"/>
+<align out="a263" type="" in="b212" creator="0" insign="delle" outsign="af"/>
+<align out="a264" type="" in="b212" creator="0" insign="delle" outsign="de"/>
+<align out="a266" type="" in="b215" creator="0" insign="europee" outsign="europæiske"/>
+<align out="a267" type="" in="b214" creator="0" insign="culture" outsign="kulturer"/>
+<align out="a252" type="" in="b201" creator="-1" insign="per" outsign="på"/>
+<align out="a265" type="" in="b213" creator="-1" insign="differenti" outsign="forskellige"/>
+<align out="a260" type="" in="b209" creator="-1" insign="è" outsign="er"/>
+<align out="a255" type="" in="b205" creator="-1" insign="." outsign="."/>
+<align out="a247" type="" in="b197" creator="-1" insign="," outsign=","/>
+<align out="a268" type="" in="b216" creator="-1" insign="," outsign=","/>
+<align out="a251" type="" in="b200" creator="-1" insign="ottimista" outsign="optimistisk"/>
+<align out="b219" type="" in="b219" creator="0" insign="di" outsign="di"/>
+<align out="a271" type="" in="b220" creator="0" insign="americanizzazione" outsign="amerikanisering"/>
+<align out="a272" type="" in="a272" creator="0" insign="," outsign=","/>
+<align out="a273" type="f+mcp" in="b221" creator="0" insign="dovuta" outsign="via"/>
+<align out="a274" type="s" in="b222" creator="0" insign="ai" outsign="de"/>
+<align out="a276" type="" in="b224 b225" creator="0" insign="rapporti commerciali" outsign="markedsforhold"/>
+<align out="a277" type="" in="b226" creator="0" insign="e" outsign="og"/>
+<align out="a278" type="" in="b229" creator="0" insign="libertà" outsign="fri"/>
+<align out="a280" type="" in="b228" creator="0" insign="generale" outsign="overalt"/>
+<align out="a279" type="" in="b230" creator="0" insign="d’insediamento.”" outsign="bosættelse"/>
+<align out="a279" type="d" in="b227" creator="0" insign="alla" outsign="bosættelse"/>
+<align out="a286" type="" in="b230" creator="0" insign="d’insediamento.”" outsign="."/>
+<align out="a282" type="" in="b230" creator="0" insign="d’insediamento.”" outsign="&quot;"/>
+<align out="a281" type="" in="a281" creator="0" insign="," outsign=","/>
+<align out="a283" type="" in="b189" creator="0" insign="continua" outsign="fortsætter"/>
+<align out="a284" type="" in="b190" creator="0" insign="James" outsign="James"/>
+<align out="a285" type="" in="b191" creator="0" insign="Mellon" outsign="Mellon"/>
+<align out="b192" type="" in="b192" creator="0" insign="," outsign=","/>
+<align out="a270" type="" in="b218" creator="0" insign="sorta" outsign="slags"/>
+<align out="a269" type="" in="b217" creator="-1" insign="una" outsign="en"/>
+<align out="a275" type="" in="b223" creator="-1" insign="nuovi" outsign="nye"/>
 </DTAGalign>
