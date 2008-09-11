@@ -1,0 +1,199 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1241-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1241-it-auto.tag" sign="_input"/>
+<align out="a45" type="" in="b1" creator="0" insign="i" outsign="de"/>
+<align out="a50" type="" in="b2" creator="0" insign="comparti" outsign="afdelinger"/>
+<align out="a46" type="" in="b5" creator="0" insign="grandi" outsign="store"/>
+<align out="a45" type="s" in="b4" creator="0" insign="delle" outsign="de"/>
+<align out="a48" type="" in="b6" creator="0" insign="compagnie" outsign="selskabers"/>
+<align out="a47" type="" in="b7" creator="0" insign="multinazionali" outsign="multi-nationale"/>
+<align out="a52 a53" type="mvi" in="b8 b9" creator="0" insign="ad usare" outsign="der bruger"/>
+<align out="a51" type="" in="a51" creator="0" insign="," outsign=","/>
+<align out="a56" type="f" in="b12 b13 b14 b15 b16" creator="0" insign="pubblicizzare il gruppo TV- 2" outsign="TV-2-spots"/>
+<align out="a54" type="" in="b10" creator="-1" insign="milioni" outsign="millioner"/>
+<align out="a55" type="" in="b11" creator="-1" insign="per" outsign="på"/>
+<align out="a62" type="" in="b19" creator="-1" insign="Gold" outsign="Gold"/>
+<align out="a49" type="" in="b3" creator="-1" insign="danesi" outsign="danske"/>
+<align out="a43 a44" type="" in="b0" creator="-1" insign="Sono" outsign="Det er"/>
+<align out="a57" type="" in="b17" creator="-1" insign="." outsign="."/>
+<align out="a61" type="" in="b18" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a60" type="d+s" in="b21 b22" creator="0" insign="degli Abba" outsign="ABBA"/>
+<align out="a65" type="" in="b24" creator="0" insign="stato" outsign="været"/>
+<align out="a66" type="" in="b26 b27 b28" creator="0" insign="in modo esponenziale" outsign="massivt"/>
+<align out="a67" type="" in="b25" creator="0" insign="reclamizzato" outsign="annonceret"/>
+<align out="a68 a69 a70" type="" in="a68 a69 a70" creator="0" insign="på tv ," outsign="på tv ,"/>
+<align out="a71" type="f" in="b29 b30 b31 b32 b33" creator="0" insign="e lo stesso sarà per" outsign="ligesom"/>
+<align out="b36" type="" in="b36" creator="0" insign="per" outsign="per"/>
+<align out="a75" type="" in="a75" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a79" type="" in="a79" creator="0" insign="bliver" outsign="bliver"/>
+<align out="a78" type="" in="a78" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a76 a77" type="" in="b38 b39" creator="0" insign="grandi hit" outsign="greatest hits"/>
+<align out="a64" type="" in="b23" creator="-1" insign="è" outsign="har"/>
+<align out="a72" type="" in="b34" creator="-1" insign="AC/DC" outsign="AC/DC"/>
+<align out="a74" type="" in="b37" creator="-1" insign="altre" outsign="andre"/>
+<align out="a73" type="" in="b35" creator="-1" insign="e" outsign="og"/>
+<align out="a63" type="" in="b20" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a80" type="" in="a80" creator="0" insign="det" outsign="det"/>
+<align out="a87 a88" type="" in="b42" creator="0" insign="Ritengo" outsign="Jeg tror"/>
+<align out="b43" type="" in="b43" creator="0" insign="che" outsign="che"/>
+<align out="a89" type="s" in="b44" creator="0" insign="le" outsign="tv-annonce-kampagner"/>
+<align out="a89" type="" in="b45 b46 b47" creator="0" insign="campagne pubblicitarie televisive" outsign="tv-annonce-kampagner"/>
+<align out="a90" type="" in="b48" creator="0" insign="danneggino" outsign="skader"/>
+<align out="a92" type="s" in="b50" creator="0" insign="il" outsign="rock"/>
+<align out="a92" type="" in="b51" creator="0" insign="rock" outsign="rock"/>
+<align out="a91" type="" in="b52" creator="0" insign="danese" outsign="dansk"/>
+<align out="a97 a98 a99 a100" type="mcn" in="b54 b55 b56" creator="0" insign="La nostra esperienza" outsign="Vi ved af erfaring"/>
+<align out="a101" type="" in="a101" creator="0" insign="," outsign=","/>
+<align out="a102 a103" type="" in="a102 a103" creator="0" insign="at der" outsign="at der"/>
+<align out="b57 b58 b59" type="" in="b57 b58 b59" creator="0" insign="ci dice che" outsign="ci dice che"/>
+<align out="a104" type="" in="a104" creator="0" insign="er" outsign="er"/>
+<align out="a86" type="" in="b41" creator="-1" insign="&lt;&lt;" outsign="&quot;"/>
+<align out="a93" type="" in="b49" creator="-1" insign="molto" outsign="meget"/>
+<align out="a81" type="" in="b40" creator="-1" insign="." outsign="."/>
+<align out="a94" type="" in="b53" creator="-1" insign="." outsign="."/>
+<align out="a106" type="f" in="b61" creator="0" insign="buona" outsign="stor"/>
+<align out="a107" type="f" in="b62" creator="0" insign="parte" outsign="gruppe"/>
+<align out="b63" type="" in="b63" creator="0" insign="di" outsign="di"/>
+<align out="a108" type="" in="b64" creator="0" insign="pubblico" outsign="publikum"/>
+<align out="a112" type="" in="b65" creator="0" insign="compra" outsign="køber"/>
+<align out="a109 a110" type="" in="a109 a110" creator="0" insign=", der" outsign=", der"/>
+<align out="a113" type="" in="b67 b68 b69" creator="0" insign="3 o 4" outsign="tre-fire"/>
+<align out="a114" type="f" in="b70" creator="0" insign="CD" outsign="plader"/>
+<align out="a115 a116" type="" in="b71 b72" creator="0" insign="all' anno" outsign="om året"/>
+<align out="b75" type="" in="b75" creator="0" insign="se" outsign="se"/>
+<align out="a121" type="" in="b76" creator="0" insign="mentre" outsign="hvor"/>
+<align out="a123" type="" in="b77" creator="0" insign="prima" outsign="tidligere"/>
+<align out="a122 a125" type="" in="b78" creator="0" insign="compravano" outsign="de købte"/>
+<align out="a124" type="" in="a124" creator="0" insign="måske" outsign="måske"/>
+<align out="a126" type="" in="b79" creator="-1" insign="Kim" outsign="Kim"/>
+<align out="a111" type="" in="b66" creator="-1" insign="solo" outsign="blot"/>
+<align out="a105" type="" in="b60" creator="-1" insign="una" outsign="en"/>
+<align out="a120" type="" in="b74" creator="-1" insign="E" outsign="Og"/>
+<align out="a117" type="" in="b73" creator="-1" insign="." outsign="."/>
+<align out="a134 a135" type="" in="b88" creator="0" insign="acquistano" outsign="køber de"/>
+<align out="a137" type="" in="a137" creator="0" insign="," outsign=","/>
+<align out="a144" type="" in="b93" creator="0" insign="TV" outsign="tv"/>
+<align out="a141" type="mcp" in="b91" creator="0" insign="reclamizzati" outsign="reklamer"/>
+<align out="a138" type="" in="a138" creator="0" insign="hvad" outsign="hvad"/>
+<align out="a142" type="" in="a142" creator="0" insign="for" outsign="for"/>
+<align out="a140" type="" in="a140" creator="0" insign="ser" outsign="ser"/>
+<align out="b90" type="" in="b90" creator="0" insign="CD" outsign="CD"/>
+<align out="b89" type="" in="b89" creator="0" insign="i" outsign="i"/>
+<align out="a139" type="" in="a139" creator="0" insign="de" outsign="de"/>
+<align out="a127" type="" in="b80" creator="-1" insign="Larsen" outsign="Larsen"/>
+<align out="a129" type="" in="b82" creator="-1" insign="Anne" outsign="Anne"/>
+<align out="a130" type="" in="b83" creator="-1" insign="Linnet" outsign="Linnet"/>
+<align out="a132" type="" in="b85" creator="-1" insign="TV-2" outsign="TV-2"/>
+<align out="a146" type="" in="b94" creator="-1" insign="&gt;&gt;" outsign="&quot;"/>
+<align out="a136" type="" in="b87" creator="-1" insign="ora" outsign="nu"/>
+<align out="a143" type="" in="b92" creator="-1" insign="in" outsign="på"/>
+<align out="a128" type="" in="b81" creator="-1" insign="," outsign=","/>
+<align out="a131" type="" in="b84" creator="-1" insign="," outsign=","/>
+<align out="a133" type="" in="b86" creator="-1" insign="," outsign=","/>
+<align out="a145" type="" in="a145" creator="0" insign="," outsign=","/>
+<align out="a150" type="" in="b98" creator="0" insign="," outsign=","/>
+<align out="a151" type="" in="b99" creator="0" insign="presidente" outsign="formand"/>
+<align out="a152" type="" in="b100" creator="0" insign="della" outsign="for"/>
+<align out="a153" type="s" in="b100" creator="0" insign="della" outsign="pladeselskabernes"/>
+<align out="a153 a154" type="" in="b102 b103" creator="0" insign="discografie associate" outsign="pladeselskabernes sammenslutning"/>
+<align out="a166" type="" in="b110" creator="0" insign="della" outsign="for"/>
+<align out="a167" type="s" in="b110" creator="0" insign="della" outsign="Polygram"/>
+<align out="a167" type="" in="b111" creator="0" insign="Polygram" outsign="Polygram"/>
+<align out="a147" type="" in="b95" creator="-1" insign="afferma" outsign="siger"/>
+<align out="a148" type="" in="b96" creator="-1" insign="Stefan" outsign="Stefan"/>
+<align out="a165" type="" in="b109" creator="-1" insign="direttore" outsign="direktør"/>
+<align out="a169" type="" in="b113" creator="-1" insign="una" outsign="et"/>
+<align out="a170" type="" in="b114" creator="-1" insign="delle" outsign="af"/>
+<align out="a155" type="" in="b101" creator="-1" insign="IFPI" outsign="IFPI"/>
+<align out="a168" type="" in="b112" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a149" type="" in="b97" creator="-1" insign="Fryland" outsign="Fryland"/>
+<align out="a162" type="" in="b106" creator="-1" insign="Fryland" outsign="Fryland"/>
+<align out="a161" type="" in="b105" creator="-1" insign="Però" outsign="Men"/>
+<align out="a163" type="" in="b107" creator="-1" insign="è" outsign="er"/>
+<align out="a156" type="" in="b104" creator="-1" insign="." outsign="."/>
+<align out="a164" type="" in="b108" creator="-1" insign="anche" outsign="også"/>
+<align out="a171" type="s" in="b114" creator="0" insign="delle" outsign="de"/>
+<align out="a172" type="" in="b115 b116" creator="0" insign="compagnie discografiche" outsign="selskaber"/>
+<align out="a173" type="" in="a173" creator="0" insign="," outsign=","/>
+<align out="a175" type="" in="b119 b124 b125 b126 b127 b128 b129" creator="0" insign="ricorre a campagne pubblicitarie televisive per reclamizzare" outsign="tv-annoncerer"/>
+<align out="a177" type="" in="b123" creator="0" insign="massiccio" outsign="massivt"/>
+<align out="b121 b122" type="" in="b121 b122" creator="0" insign="in modo" outsign="in modo"/>
+<align out="a176" type="" in="b118" creator="0" insign="più" outsign="mest"/>
+<align out="b120" type="" in="b120" creator="0" insign="ed" outsign="ed"/>
+<align out="a178" type="" in="a178" creator="0" insign="med" outsign="med"/>
+<align out="a179 a180" type="" in="b130 b131" creator="0" insign="collezioni musicali" outsign="opsam lings-plader"/>
+<align out="a182" type="" in="b133 b134" creator="0" insign="il che" outsign="hvilket"/>
+<align out="a174" type="" in="b117" creator="-1" insign="che" outsign="der"/>
+<align out="a181" type="" in="b132" creator="-1" insign="," outsign=","/>
+<align out="a183" type="" in="a183" creator="0" insign="godt" outsign="godt"/>
+<align out="a184 a185" type="f" in="b135" creator="0" insign="svela" outsign="kan blotte"/>
+<align out="a187" type="n+s" in="b139 b141" creator="0" insign="delle affermazioni" outsign="udtalelse"/>
+<align out="a188" type="" in="a188" creator="0" insign="for" outsign="for"/>
+<align out="a189 a190" type="d" in="b136 b137 b138" creator="0" insign="la natura ambigua" outsign="god vilje"/>
+<align out="a186" type="" in="b140" creator="0" insign="sue" outsign="hans"/>
+<align out="a196" type="" in="b143" creator="-1" insign="&lt;&lt;" outsign="&quot;"/>
+<align out="a200" type="" in="b146" creator="-1" insign="del" outsign="over"/>
+<align out="a197 a198" type="" in="b144" creator="-1" insign="Sono" outsign="Jeg er"/>
+<align out="a191" type="" in="b142" creator="-1" insign="." outsign="."/>
+<align out="a199" type="" in="b145" creator="-1" insign="consapevole" outsign="klar"/>
+<align out="a203 a204 a205 a206 a207 a208 a209" type="f+mcn" in="b146 b147 b148 b149" creator="0" insign="del mio doppio ruolo" outsign="jeg har to kasketter og to regnestykker"/>
+<align out="a201" type="" in="a201" creator="0" insign="," outsign=","/>
+<align out="a202" type="" in="a202" creator="0" insign="at" outsign="at"/>
+<align out="a212" type="" in="b152" creator="0" insign="situazione" outsign="sag"/>
+<align out="a213" type="" in="b153" creator="0" insign="." outsign="."/>
+<align out="a210" type="" in="b150" creator="-1" insign="in" outsign="i"/>
+<align out="a211" type="" in="b151" creator="-1" insign="questa" outsign="den"/>
+<align out="a216" type="" in="b154" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a217 a218" type="" in="b155" creator="-1" insign="è" outsign="det er"/>
+<align out="a219" type="" in="b156" creator="-1" insign="anche" outsign="også"/>
+<align out="a220" type="" in="b157" creator="0" insign="mia" outsign="min"/>
+<align out="a223" type="" in="b158" creator="0" insign="opinione" outsign="mening"/>
+<align out="a221" type="" in="b160" creator="0" insign="assoluta" outsign="helt"/>
+<align out="a222" type="" in="b162" creator="0" insign="personale" outsign="personlige"/>
+<align out="b161" type="" in="b161" creator="0" insign="e" outsign="e"/>
+<align out="b159" type="" in="b159" creator="0" insign="," outsign=","/>
+<align out="a224" type="" in="b163" creator="0" insign="," outsign=","/>
+<align out="a225" type="" in="b164" creator="0" insign="che" outsign="at"/>
+<align out="a226" type="" in="b168 b169" creator="0" insign="spots televisivi" outsign="tv-spots"/>
+<align out="b165 b166 b167" type="" in="b165 b166 b167" creator="0" insign="le campagne di" outsign="le campagne di"/>
+<align out="a228" type="" in="b171" creator="0" insign="dannose" outsign="skadelige"/>
+<align out="a229" type="" in="a229" creator="0" insign="," outsign=","/>
+<align out="a227" type="" in="b170" creator="-1" insign="siano" outsign="er"/>
+<align out="a230" type="" in="b172" creator="-1" insign="&gt;&gt;" outsign="&quot;"/>
+<align out="a240" type="" in="b176" creator="-1" insign="Non" outsign="ikke"/>
+<align out="a233" type="" in="b175" creator="-1" insign="." outsign="."/>
+<align out="a231" type="" in="b173" creator="-1" insign="ribadisce" outsign="siger"/>
+<align out="a232" type="" in="b174" creator="-1" insign="Fryland" outsign="han"/>
+<align out="a239" type="" in="b178" creator="0" insign="sono" outsign="findes"/>
+<align out="a241" type="f" in="b179 b180" creator="0" insign="dati ufficiali" outsign="opgørelser"/>
+<align out="a242" type="" in="b181" creator="0" insign="su" outsign="over"/>
+<align out="a244 a245" type="" in="b182" creator="0" insign="quanti" outsign="hvor mange"/>
+<align out="a243" type="" in="a243" creator="0" insign="," outsign=","/>
+<align out="b184" type="" in="b184" creator="0" insign="di" outsign="di"/>
+<align out="a248" type="s" in="b186 b187 b188" creator="0" insign="il settore discografico" outsign="pladebranchen"/>
+<align out="a249 a250" type="f" in="b189" creator="0" insign="investa" outsign="kaster ud"/>
+<align out="a252" type="" in="b191 b192 b193" creator="0" insign="campagne pubblicitarie televisive" outsign="tv-kampagner"/>
+<align out="a256" type="f" in="b195" creator="0" insign="Tuttavia" outsign="Men"/>
+<align out="a246" type="" in="b183" creator="-1" insign="milioni" outsign="millioner"/>
+<align out="a247" type="" in="b185" creator="-1" insign="corone" outsign="kroner"/>
+<align out="a251" type="" in="b190" creator="-1" insign="in" outsign="i"/>
+<align out="a238" type="" in="b177" creator="-1" insign="ci" outsign="Der"/>
+<align out="a253" type="" in="b194" creator="-1" insign="." outsign="."/>
+<align out="a257" type="f" in="b196" creator="0" insign="molti" outsign="flere"/>
+<align out="a258" type="" in="b197" creator="0" insign="ritengono" outsign="mener"/>
+<align out="a259" type="" in="a259" creator="0" insign="," outsign=","/>
+<align out="a260" type="" in="b198" creator="0" insign="che" outsign="at"/>
+<align out="a261 a262" type="" in="b199" creator="0" insign="dia" outsign="det maner"/>
+<align out="a263" type="" in="b200" creator="0" insign="da" outsign="til"/>
+<align out="a264" type="mci" in="b201" creator="0" insign="pensare" outsign="eftertanke"/>
+<align out="a265" type="" in="a265" creator="0" insign="," outsign=","/>
+<align out="a270" type="" in="b205" creator="0" insign="nonostante" outsign="alligevel"/>
+<align out="b206" type="" in="b206" creator="0" insign="tutto" outsign="tutto"/>
+<align out="a269" type="s" in="b207 b208" creator="0" insign="le vendite" outsign="salg"/>
+<align out="a268" type="" in="b209 b210" creator="0" insign="in totale" outsign="totale"/>
+<align out="a267" type="n" in="b207" creator="0" insign="le" outsign="det"/>
+<align out="a272 a273" type="" in="b212" creator="0" insign="diminuite" outsign="gået ned"/>
+<align out="a271" type="" in="b211" creator="-1" insign="siano" outsign="er"/>
+<align out="a266" type="" in="b202 b203 b204" creator="-1" insign="il fatto che" outsign="at"/>
+<align out="a274" type="" in="b213" creator="-1" insign="." outsign="."/>
+</DTAGalign>

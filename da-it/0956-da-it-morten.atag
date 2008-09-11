@@ -1,0 +1,175 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0956-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0956-it-auto.tag" sign="_input"/>
+<align out="a45 a46" type="mcadj" in="b1" creator="0" insign="necessario" outsign="en forudsætning"/>
+<align out="a47" type="" in="a47" creator="0" insign="," outsign=","/>
+<align out="a52" type="" in="b4" creator="0" insign="sia" outsign="er"/>
+<align out="a50" type="" in="b7 b8" creator="0" insign="si crei" outsign="skabes"/>
+<align out="b6" type="" in="b6" creator="0" insign="che" outsign="che"/>
+<align out="a55" type="" in="b10" creator="0" insign="fondo" outsign="bund"/>
+<align out="a54" type="" in="b11" creator="0" insign="stabile" outsign="fast"/>
+<align out="a57" type="" in="b12" creator="0" insign="affinché" outsign="før"/>
+<align out="a56" type="" in="a56" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a58" type="d" in="b13" creator="0" insign="l'" outsign="en"/>
+<align out="a59" type="" in="b15" creator="0" insign="costante" outsign="vedvarende"/>
+<align out="a60" type="" in="a60" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a62" type="" in="a62" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a61" type="" in="b14 b16 b17" creator="0" insign="effetto del sollevatore" outsign="dunkraft-virkning"/>
+<align out="a43 a44" type="" in="b0" creator="-1" insign="È" outsign="Det er"/>
+<align out="a49" type="" in="b3" creator="-1" insign="ci" outsign="der"/>
+<align out="a51" type="" in="b5" creator="-1" insign="o" outsign="eller"/>
+<align out="a48" type="" in="b2" creator="-1" insign="che" outsign="at"/>
+<align out="a53" type="" in="b9" creator="-1" insign="un" outsign="en"/>
+<align out="a63" type="" in="b18" creator="0" insign="possa" outsign="kan"/>
+<align out="a64" type="" in="b19" creator="0" insign="funzionare" outsign="fungere"/>
+<align out="a65" type="f" in="b20" creator="0" insign=";" outsign=","/>
+<align out="a70" type="" in="b25" creator="0" insign="imprescindibile" outsign="ubetinget"/>
+<align out="a71" type="" in="b24" creator="0" insign="condizione" outsign="krav"/>
+<align out="a72" type="" in="a72" creator="0" insign="," outsign=","/>
+<align out="a75" type="" in="b29 b30" creator="0" insign="più profondi" outsign="dybere"/>
+<align out="a77" type="" in="b28 b31 b32" creator="0" insign="strati del terreno" outsign="jordlag"/>
+<align out="a76" type="" in="b30" creator="0" insign="profondi" outsign="liggende"/>
+<align out="a79" type="" in="b34" creator="0" insign="solidi" outsign="bæredygtige"/>
+<align out="a80" type="f" in="b35" creator="0" insign="." outsign=","/>
+<align out="a68" type="" in="b21" creator="-1" insign="perciò" outsign="derfor"/>
+<align out="a69" type="" in="b23" creator="-1" insign="una" outsign="et"/>
+<align out="a73" type="" in="b26" creator="-1" insign="che" outsign="at"/>
+<align out="a74" type="" in="b27" creator="-1" insign="gli" outsign="de"/>
+<align out="a78" type="" in="b33" creator="-1" insign="siano" outsign="er"/>
+<align out="a66 a67" type="" in="b22" creator="-1" insign="è" outsign="det er"/>
+<align out="a81" type="" in="b36" creator="0" insign="Detto" outsign="sagt"/>
+<align out="a82 a83 a84 a85" type="" in="b37" creator="0" insign="altrimenti" outsign="på en anden måde"/>
+<align out="a90 a91" type="" in="b42" creator="0" insign="credere" outsign="tro på"/>
+<align out="a92" type="" in="a92" creator="0" insign="," outsign=","/>
+<align out="a86" type="" in="b38" creator="0" insign="," outsign=","/>
+<align out="a93" type="" in="b43" creator="0" insign="che" outsign="at"/>
+<align out="a96" type="" in="b44" creator="0" insign="sia" outsign="kan"/>
+<align out="a94" type="" in="a94" creator="0" insign="man" outsign="man"/>
+<align out="a95" type="f" in="b45" creator="0" insign="sufficiente" outsign="blot"/>
+<align out="a97" type="" in="b46" creator="0" insign="mettere" outsign="lægge"/>
+<align out="a98" type="" in="b47" creator="0" insign="un" outsign="et"/>
+<align out="a99" type="" in="b48" creator="0" insign="cerotto" outsign="plaster"/>
+<align out="a100" type="" in="b49" creator="0" insign="su" outsign="på"/>
+<align out="a88" type="" in="b41" creator="-1" insign="può" outsign="kan"/>
+<align out="a87" type="" in="b40" creator="-1" insign="si" outsign="man"/>
+<align out="a89" type="" in="b39" creator="-1" insign="non" outsign="ikke"/>
+<align out="a103" type="" in="b51" creator="0" insign="ferita" outsign="sår"/>
+<align out="a102" type="" in="b52 b53" creator="0" insign="non disinfettata" outsign="urenset"/>
+<align out="a104" type="" in="a104" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a105" type="" in="b54" creator="0" insign="e" outsign="og"/>
+<align out="a107 a108" type="" in="b56" creator="0" insign="pretendere" outsign="tro på"/>
+<align out="a109" type="" in="a109" creator="0" insign="," outsign=","/>
+<align out="a111 a112" type="" in="b58" creator="0" insign="guarisca" outsign="det heler"/>
+<align out="a114 a115" type="" in="b60" creator="0" insign="sola" outsign="sig selv"/>
+<align out="a116" type="" in="b61" creator="0" insign="." outsign="."/>
+<align out="a121" type="d+n" in="b62 b63 b64 b65" creator="0" insign="I pericoli della ricostruzione" outsign="Genopretningsfare"/>
+<align out="a101" type="" in="b50" creator="-1" insign="una" outsign="et"/>
+<align out="a106" type="" in="b55" creator="-1" insign="poi" outsign="så"/>
+<align out="a113" type="" in="b59" creator="-1" insign="da" outsign="af"/>
+<align out="a110" type="" in="b57" creator="-1" insign="che" outsign="at"/>
+<align out="a128 a129 a130" type="n+wo" in="b66 b67 b68" creator="0" insign="Nella sua offerta" outsign="i sine tilbud"/>
+<align out="b69" type="" in="b69" creator="0" insign="," outsign=","/>
+<align out="a126" type="s" in="b70 b71" creator="0" insign="l' azienda" outsign="Firmaet"/>
+<align out="a127 a131" type="" in="b72 b73" creator="0" insign="si cautela" outsign="tager forbehold"/>
+<align out="a132 a133" type="" in="b74" creator="0" insign="contro" outsign="over for"/>
+<align out="b75" type="" in="b75" creator="0" insign="eventuali" outsign="eventuali"/>
+<align out="a134" type="" in="b76" creator="0" insign="danni" outsign="skader"/>
+<align out="a135" type="" in="b77" creator="0" insign="alle" outsign="på"/>
+<align out="a136 a137 a138 a139 a140" type="s" in="b77 b78 b79 b80 b81 b82 b83 b84" creator="0" insign="alle installazioni d' acqua , gas ed elettricità" outsign="vand- , afløbsgas- og elinstallationer"/>
+<align out="a142" type="" in="b86" creator="0" insign="però" outsign="dog"/>
+<align out="a141" type="" in="b85" creator="-1" insign="," outsign=","/>
+<align out="b87 b88" type="" in="b87 b88" creator="0" insign="l' azienda" outsign="l' azienda"/>
+<align out="a143" type="mvd" in="b89" creator="0" insign="sostiene" outsign="bekostes"/>
+<align out="b90 b91 b92" type="" in="b90 b91 b92" creator="0" insign="le spese di" outsign="le spese di"/>
+<align out="a144" type="" in="b93" creator="0" insign="riparazione" outsign="udbedring"/>
+<align out="a147" type="" in="b96" creator="0" insign="alle" outsign="på"/>
+<align out="a148" type="s" in="b96 b97" creator="0" insign="alle condutture" outsign="ledninger"/>
+<align out="a149" type="" in="b98" creator="0" insign="," outsign=","/>
+<align out="a151" type="" in="b100" creator="0" insign="queste" outsign="de"/>
+<align out="a152" type="" in="b101 b102" creator="0" insign="si trovano" outsign="ligger"/>
+<align out="a153" type="" in="b103 b104 b105" creator="0" insign="all' interno di" outsign="indenfor"/>
+<align out="b106 b108" type="" in="b106 b108" creator="0" insign="un di" outsign="un di"/>
+<align out="a146" type="" in="b95" creator="-1" insign="danni" outsign="skader"/>
+<align out="a150" type="" in="b99" creator="-1" insign="se" outsign="hvis"/>
+<align out="a145" type="" in="b94" creator="-1" insign="per" outsign="af"/>
+<align out="b107" type="" in="b107" creator="0" insign="perimetro" outsign="perimetro"/>
+<align out="a154" type="" in="b109" creator="0" insign="8" outsign="otte"/>
+<align out="a155" type="" in="b110" creator="0" insign="centimetri" outsign="centimeter"/>
+<align out="a156 a157 a158" type="" in="b111 b112" creator="0" insign="rispetto alla" outsign="i forhold til"/>
+<align out="b113" type="" in="b113" creator="0" insign="loro" outsign="loro"/>
+<align out="a159" type="s" in="b112 b114" creator="0" insign="alla collocazione" outsign="placeringen"/>
+<align out="a162" type="" in="b117" creator="0" insign="consegnato" outsign="udleverede"/>
+<align out="a160" type="" in="b116" creator="0" insign="nel" outsign="på"/>
+<align out="b115" type="" in="b115" creator="0" insign="tracciata" outsign="tracciata"/>
+<align out="a163" type="n+s" in="b116 b118 b119 b120" creator="0" insign="nel progetto di costruzione" outsign="bygningstegninger"/>
+<align out="a161" type="s" in="b116" creator="0" insign="nel" outsign="de"/>
+<align out="a164" type="f" in="b121" creator="0" insign=";" outsign="&nbsp;-&nbsp;"/>
+<align out="a165" type="" in="a165" creator="0" insign="med" outsign="med"/>
+<align out="b122" type="" in="b122" creator="0" insign="ma" outsign="ma"/>
+<align out="a166" type="" in="b124" creator="0" insign="mia" outsign="min"/>
+<align out="a167" type="s" in="b123 b125" creator="0" insign="la esperienza" outsign="erfaring"/>
+<align out="a168 a169" type="" in="b126" creator="0" insign="nel" outsign="inden for"/>
+<align out="a170" type="s" in="b126 b128 b127" creator="0" insign="nel edilizio settore" outsign="byggebranchen"/>
+<align out="a171" type="" in="a171" creator="0" insign="," outsign=","/>
+<align out="b129 b130" type="" in="b129 b130" creator="0" insign="mi dice" outsign="mi dice"/>
+<align out="a175" type="" in="b136" creator="0" insign="eccezionale" outsign="sjældent"/>
+<align out="a174" type="" in="b135" creator="0" insign="veramente" outsign="uhyre"/>
+<align out="b133 b134" type="" in="b133 b134" creator="0" insign="un caso" outsign="un caso"/>
+<align out="a176" type="" in="a176" creator="0" insign="," outsign=","/>
+<align out="a178" type="" in="b140" creator="0" insign="le" outsign="disse"/>
+<align out="b138 b139" type="" in="b138 b139" creator="0" insign="in cui" outsign="in cui"/>
+<align out="b131" type="" in="b131" creator="0" insign="che" outsign="che"/>
+<align out="a177" type="" in="a177" creator="0" insign="at" outsign="at"/>
+<align out="b137" type="" in="b137" creator="0" insign="quello" outsign="quello"/>
+<align out="a181" type="" in="b143" creator="0" insign="collocate" outsign="placeret"/>
+<align out="b144 b145" type="" in="b144 b145" creator="0" insign="in modo" outsign="in modo"/>
+<align out="a182" type="" in="b146" creator="-1" insign="così" outsign="så"/>
+<align out="a180" type="" in="b142" creator="-1" insign="siano" outsign="er"/>
+<align out="a172 a173" type="" in="b132" creator="-1" insign="è" outsign="er det"/>
+<align out="a179" type="" in="b141" creator="-1" insign="condutture" outsign="ledninger"/>
+<align out="a184 a185 a186" type="" in="b148 b149" creator="0" insign="rispetto ai" outsign="i forhold til"/>
+<align out="a187" type="s" in="b149 b150" creator="0" insign="ai disegni" outsign="tegningerne"/>
+<align out="b151 b152" type="" in="b151 b152" creator="0" insign="del progetto" outsign="del progetto"/>
+<align out="a188" type="" in="b153" creator="0" insign="." outsign="."/>
+<align out="a194" type="" in="b154 b155" creator="0" insign="Per questo" outsign="derfor"/>
+<align out="a191 a192" type="" in="b156" creator="0" insign="giudico" outsign="Jeg anser"/>
+<align out="a196" type="" in="b158" creator="0" insign="rischioso" outsign="risikabelt"/>
+<align out="a197 a198" type="" in="a197 a198" creator="0" insign=", at" outsign=", at"/>
+<align out="a193" type="" in="a193" creator="0" insign="det" outsign="det"/>
+<align out="a195" type="" in="a195" creator="0" insign="for" outsign="for"/>
+<align out="b157" type="" in="b157" creator="0" insign="estremamente" outsign="estremamente"/>
+<align out="a201" type="" in="b161" creator="0" insign="pavimento" outsign="gulv"/>
+<align out="a199 a202" type="" in="b159" creator="0" insign="riportare" outsign="tvinge tilbage"/>
+<align out="a203" type="" in="b162" creator="0" insign="al" outsign="til"/>
+<align out="a206" type="s" in="b162" creator="0" insign="al" outsign="niveau"/>
+<align out="a204" type="" in="b163" creator="-1" insign="suo" outsign="sit"/>
+<align out="a200" type="" in="b160" creator="-1" insign="un" outsign="et"/>
+<align out="a183" type="" in="b147" creator="-1" insign="preciso" outsign="præcist"/>
+<align out="a205" type="" in="b165" creator="0" insign="originario" outsign="oprindelige"/>
+<align out="a206" type="" in="b164" creator="0" insign="livello" outsign="niveau"/>
+<align out="a207" type="" in="a207" creator="0" insign="," outsign=","/>
+<align out="a210" type="" in="b172" creator="0" insign="relative" outsign="respektive"/>
+<align out="b170" type="" in="b170" creator="0" insign="anche" outsign="anche"/>
+<align out="a212 a213 a214" type="mvd+f" in="b167 b168 b169" creator="0" insign="si debbano trasferire" outsign="skal følge med"/>
+<align out="a215" type="" in="b174" creator="0" insign="." outsign="."/>
+<align out="a218 a219" type="" in="b175" creator="0" insign="Chissà" outsign="Gad vide"/>
+<align out="a220" type="" in="a220" creator="0" insign="," outsign=","/>
+<align out="a222" type="s" in="b177 b178 b179 b180 b181 b182" creator="0" insign="le società di distribuzione del metano" outsign="naturgasselskaberne"/>
+<align out="a208" type="" in="b166" creator="-1" insign="qualora" outsign="når"/>
+<align out="a221" type="" in="b176" creator="-1" insign="se" outsign="om"/>
+<align out="a209" type="" in="b171" creator="-1" insign="le" outsign="de"/>
+<align out="a211" type="" in="b173" creator="-1" insign="condutture" outsign="ledninger"/>
+<align out="a223 a224" type="" in="b183" creator="0" insign="accetteranno" outsign="kan acceptere"/>
+<align out="a225" type="d" in="b184" creator="0" insign="una" outsign="denne"/>
+<align out="b185" type="" in="b185" creator="0" insign="simile" outsign="simile"/>
+<align out="a227" type="f" in="b187" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a232" type="n" in="b192" creator="0" insign="i" outsign="den"/>
+<align out="a231 a235 a236" type="" in="b191" creator="0" insign="considerano" outsign="tager i betragtning"/>
+<align out="a233" type="" in="b195" creator="0" insign="ultima" outsign="seneste"/>
+<align out="a234" type="n" in="b193 b194 b196" creator="0" insign="danni dell' esplosione" outsign="eksplosionsskade"/>
+<align out="a237" type="f" in="b197" creator="0" insign="." outsign="?"/>
+<align out="a230" type="" in="b190" creator="-1" insign="si" outsign="man"/>
+<align out="a226" type="" in="b186" creator="-1" insign="soluzione" outsign="løsning"/>
+<align out="a228" type="" in="b188" creator="-1" insign="specialmente" outsign="især"/>
+<align out="a229" type="" in="b189" creator="-1" insign="se" outsign="når"/>
+</DTAGalign>
