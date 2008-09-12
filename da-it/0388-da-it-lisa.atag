@@ -7,10 +7,6 @@
 <align out="a53" type="" in="b8" creator="0" insign="snella" outsign="slank"/>
 <align out="a54" type="" in="a54" creator="0" insign="og" outsign="og"/>
 <align out="b9" type="" in="b9" creator="0" insign="," outsign=","/>
-<align out="a55" type="" in="a55" creator="0" insign="sportstrænet" outsign="sportstrænet"/>
-<align out="b10" type="" in="b10" creator="0" insign="un" outsign="un"/>
-<align out="b11" type="" in="b11" creator="0" insign="tipo" outsign="tipo"/>
-<align out="b12" type="" in="b12" creator="0" insign="atletico" outsign="atletico"/>
 <align out="a60" type="" in="a60" creator="0" insign="hun" outsign="hun"/>
 <align out="a61" type="" in="b15 b16 b17 b18" creator="0" insign="era in attesa di" outsign="ventede"/>
 <align out="a62" type="" in="b19" creator="0" insign="nostra" outsign="vores"/>
@@ -52,7 +48,6 @@
 <align out="a100" type="" in="b51" creator="0" insign="uomo”" outsign="mand"/>
 <align out="a101" type="" in="b52" creator="0" insign="," outsign=","/>
 <align out="a102" type="" in="b53" creator="0" insign="constatò" outsign="konstaterede"/>
-<align out="a104" type="" in="b55 b56 b57" creator="0" insign="con tono imparziale" outsign="sagligt"/>
 <align out="a105" type="" in="a105" creator="0" insign="." outsign="."/>
 <align out="b58" type="" in="b58" creator="0" insign="," outsign=","/>
 <align out="a108" type="" in="b59" creator="0" insign="“non" outsign="&nbsp;-&nbsp;"/>
@@ -69,7 +64,6 @@
 <align out="a118" type="" in="a118" creator="0" insign="mand" outsign="mand"/>
 <align out="a119" type="" in="b66" creator="0" insign="?”" outsign="?"/>
 <align out="a125" type="f" in="b68" creator="0" insign="stette" outsign="sad"/>
-<align out="a126" type="" in="b71 b72" creator="0" insign="in silenzio" outsign="tavs"/>
 <align out="a127 a128 a129" type="" in="b69 b70" creator="0" insign="a lungo" outsign="i lang tid"/>
 <align out="b63" type="" in="b63" creator="0" insign="c’era" outsign="c’era"/>
 <align out="a132 a133" type="" in="b76" creator="0" insign="piegò" outsign="bøjede han"/>
@@ -80,11 +74,7 @@
 <align out="a124" type="" in="b67" creator="-1" insign="Bernie" outsign="Bernie"/>
 <align out="a131" type="" in="b74" creator="-1" insign="poi" outsign="så"/>
 <align out="a130" type="" in="b73" creator="-1" insign="," outsign=","/>
-<align out="a140 a142 a143" type="" in="b79" creator="0" insign="guardandola" outsign="så på hende"/>
 <align out="a139" type="" in="a139" creator="0" insign="og" outsign="og"/>
-<align out="a141" type="" in="b82" creator="0" insign="penetranti" outsign="indtrængende"/>
-<align out="b80" type="" in="b80" creator="0" insign="con" outsign="con"/>
-<align out="b81" type="" in="b81" creator="0" insign="occhi" outsign="occhi"/>
 <align out="a149" type="" in="b84" creator="0" insign="“Tua" outsign="&nbsp;-&nbsp;"/>
 <align out="a150" type="" in="b84" creator="0" insign="“Tua" outsign="Din"/>
 <align out="a153" type="" in="b87" creator="0" insign="io" outsign="jeg"/>
@@ -145,8 +135,6 @@
 <align out="a201" type="" in="b126" creator="-1" insign="." outsign="."/>
 <align out="a219" type="" in="b136" creator="0" insign="“Probabilmente" outsign="&nbsp;-&nbsp;"/>
 <align out="a220" type="" in="a220" creator="0" insign="Hun" outsign="Hun"/>
-<align out="a221" type="" in="b137 b138" creator="0" insign="avrà avuto" outsign="havde"/>
-<align out="a222" type="" in="b136" creator="0" insign="“Probabilmente" outsign="antagelig"/>
 <align out="a223" type="s" in="b139" creator="0" insign="i" outsign="sine"/>
 <align out="a223" type="" in="b140" creator="0" insign="suoi" outsign="sine"/>
 <align out="a224" type="" in="b141" creator="0" insign="motivi" outsign="grunde"/>
@@ -203,4 +191,10 @@
 <align out="b194" type="" in="b194" creator="0" insign="modo" outsign="modo"/>
 <align out="a281 a282" type="f" in="b189" creator="0" insign="Sicuramente" outsign="må have"/>
 <align out="a283" type="" in="b190 b191" creator="0" insign="ha agito" outsign="handlet"/>
+<align out="a55" type="mcn" in="b10 b11 b12" creator="0" insign="un tipo atletico" outsign="sportstrænet"/>
+<align out="a104" type="mcn" in="b55 b56 b57" creator="0" insign="con tono imparziale" outsign="sagligt"/>
+<align out="a126" type="mcn" in="b71 b72" creator="0" insign="in silenzio" outsign="tavs"/>
+<align out="a140 a142 a143" type="mcg" in="b79" creator="0" insign="guardandola" outsign="så på hende"/>
+<align out="a141" type="mcn" in="b80 b81 b82" creator="0" insign="con occhi penetranti" outsign="indtrængende"/>
+<align out="a221 a222" type="" in="b136 b137 b138" creator="0" insign="“Probabilmente avrà avuto" outsign="havde antagelig"/>
 </DTAGalign>

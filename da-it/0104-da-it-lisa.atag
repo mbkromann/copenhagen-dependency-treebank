@@ -14,7 +14,6 @@
 <align out="a50" type="" in="b16 b17 b18 b19 b20 b21" creator="0" insign="Det Konservative Folkeparti ( K )" outsign="K"/>
 <align out="a52" type="" in="b22" creator="0" insign="non" outsign="ikke"/>
 <align out="b29" type="" in="b29" creator="0" insign="già" outsign="già"/>
-<align out="a61 a62 a63" type="" in="b49 b50" creator="0" insign="ci fu" outsign="blev der holdt"/>
 <align out="a69" type="" in="b34" creator="0" insign="del" outsign="for"/>
 <align out="a68" type="" in="b33" creator="0" insign="prima" outsign="forud"/>
 <align out="a64" type="" in="b51" creator="0" insign="uno" outsign="et"/>
@@ -29,7 +28,6 @@
 <align out="a74" type="" in="b31" creator="0" insign="1964" outsign="1964"/>
 <align out="a75" type="" in="a75" creator="0" insign="," outsign=","/>
 <align out="b32" type="" in="b32" creator="0" insign="," outsign=","/>
-<align out="a53" type="f" in="b24" creator="-1" insign="affatto" outsign="helt"/>
 <align out="a54" type="" in="b25" creator="-1" insign="nuova" outsign="nyt"/>
 <align out="a60" type="" in="b27 b28" creator="-1" insign="In realtà" outsign="Faktisk"/>
 <align out="a51" type="" in="b23" creator="-1" insign="è" outsign="er"/>
@@ -59,7 +57,6 @@
 <align out="a97" type="" in="a97" creator="0" insign="han" outsign="han"/>
 <align out="a91" type="" in="b81" creator="-1" insign="di" outsign="som"/>
 <align out="a94" type="" in="b82" creator="-1" insign="dirigente" outsign="frontfigur"/>
-<align out="a98" type="f" in="b85" creator="-1" insign="caldo" outsign="direkte"/>
 <align out="a103" type="" in="b89" creator="-1" insign="fusione" outsign="sammenslutning"/>
 <align out="a107" type="" in="b93" creator="-1" insign="partiti" outsign="partier"/>
 <align out="a102" type="" in="b88" creator="-1" insign="una" outsign="en"/>
@@ -86,14 +83,10 @@
 <align out="a128" type="" in="b110" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a138" type="" in="b115" creator="0" insign="." outsign="."/>
 <align out="a141" type="" in="a141" creator="0" insign="Vi" outsign="Vi"/>
-<align out="a142" type="f" in="b122 b123" creator="0" insign="sarà necessario" outsign="skal"/>
-<align out="a145" type="f" in="b124 b125" creator="0" insign="passare attraverso" outsign="igennem"/>
 <align out="a151" type="" in="a151" creator="0" insign="," outsign=","/>
 <align out="a152" type="" in="b130 b131" creator="0" insign="in cui" outsign="hvor"/>
-<align out="a153 a154 a155" type="" in="b134 b135 b136" creator="0" insign="dei due partiti" outsign="de to partiers"/>
 <align out="a150" type="" in="b127" creator="-1" insign="periodo" outsign="periode"/>
 <align out="a144" type="" in="b119 b120 b121" creator="-1" insign="prima di tutto" outsign="først"/>
-<align out="a143" type="" in="b116 b117 b118" creator="-1" insign="In ogni caso" outsign="i_hvert_fald"/>
 <align out="a146" type="" in="b126" creator="-1" insign="un" outsign="en"/>
 <align out="a147 a148 a149" type="" in="b128 b129" creator="-1" insign="assai lungo" outsign="lang , lang"/>
 <align out="a156" type="f" in="b132 b133" creator="0" insign="i membri" outsign="folk"/>
@@ -110,7 +103,6 @@
 <align out="a163" type="" in="b141" creator="-1" insign="." outsign="."/>
 <align out="a167 a173" type="" in="b155" creator="-1" insign="sarebbe" outsign="kunne være"/>
 <align out="b157" type="" in="b157" creator="0" insign="certo" outsign="certo"/>
-<align out="a202" type="" in="b175" creator="0" insign="fra" outsign="blandt"/>
 <align out="a205" type="" in="b181" creator="0" insign="generazione" outsign="generation"/>
 <align out="a204" type="" in="b180" creator="0" insign="futura" outsign="kommende"/>
 <align out="a203" type="" in="b179" creator="0" insign="della" outsign="den"/>
@@ -124,15 +116,9 @@
 <align out="a199" type="" in="b171" creator="-1" insign="pensare" outsign="tænke"/>
 <align out="a200" type="" in="b172" creator="-1" insign="ad" outsign="på"/>
 <align out="a190" type="" in="b167" creator="-1" insign="due" outsign="to"/>
-<align out="a201" type="" in="b173 b174" creator="-1" insign="una collaborazione" outsign="samarbejdet"/>
 <align out="a174 a175 a176 a177" type="f" in="b158 b159" creator="-1" insign="un aiuto" outsign="et skridt på vejen"/>
 <align out="a192" type="" in="b169" creator="-1" insign="." outsign="."/>
-<align out="a206" type="" in="a206" creator="0" insign="af" outsign="af"/>
 <align out="a207" type="" in="b178" creator="0" insign="liberali" outsign="borgerlige"/>
-<align out="a208" type="" in="b176 b177" creator="0" insign="i politici" outsign="politikere"/>
-<align out="a212 a213" type="f" in="b187" creator="0" insign="ciò" outsign="Det hele"/>
-<align out="a214 a215" type="f" in="b183 b184 b185 b186" creator="0" insign="Sarebbe un peccato se" outsign="skulle nødigt"/>
-<align out="a216 a217 a218" type="f" in="b188 b189" creator="0" insign="non avvenisse" outsign="gå på gulvet"/>
 <align out="a219" type="" in="a219" creator="0" insign="," outsign=","/>
 <align out="b190" type="" in="b190" creator="0" insign="solo" outsign="solo"/>
 <align out="a220" type="" in="b191" creator="-1" insign="perché" outsign="fordi"/>
@@ -165,7 +151,6 @@
 <align out="a251" type="" in="b239" creator="-1" insign="." outsign="."/>
 <align out="a248" type="" in="b238" creator="-1" insign="Bruxelles" outsign="Bruxelles"/>
 <align out="b220" type="" in="b220" creator="0" insign="," outsign=","/>
-<align out="a99 a100 a101" type="mvf" in="b86 b87" creator="0" insign="sostenitore di" outsign="gik ind for"/>
 <align out="a168" type="" in="a168" creator="0" insign="jævnlige" outsign="jævnlige"/>
 <align out="b146" type="" in="b146" creator="0" insign="una" outsign="una"/>
 <align out="b147" type="" in="b147" creator="0" insign="maggior" outsign="maggior"/>
@@ -180,15 +165,32 @@
 <align out="a81" type="" in="b67" creator="0" insign="Venstre" outsign="Venstres"/>
 <align out="a90" type="s" in="b78" creator="0" insign="il" outsign="rollen"/>
 <align out="a90" type="" in="b80" creator="0" insign="ruolo" outsign="rollen"/>
-<align out="a115" type="n+s" in="b98" creator="0" insign="i" outsign="tiden"/>
-<align out="a115" type="s" in="b99" creator="0" insign="tempi" outsign="tiden"/>
-<align out="a114" type="s" in="b101" creator="0" insign="erano" outsign="var"/>
-<align out="a117" type="s" in="b103" creator="0" insign="maturi" outsign="moden"/>
 <align out="a169" type="s" in="b151" creator="0" insign="comuni" outsign="fælles"/>
 <align out="a169" type="" in="b151" creator="0" insign="comuni" outsign="fælles"/>
-<align out="a202" type="" in="b179" creator="0" insign="della" outsign="blandt"/>
 <align out="a225" type="s" in="b200" creator="0" insign="la" outsign="samarbejdet"/>
 <align out="a225" type="" in="b201" creator="0" insign="collaborazione" outsign="samarbejdet"/>
 <align out="a230" type="s" in="b205" creator="0" insign="il" outsign="fiskeriministeren"/>
 <align out="a230" type="" in="b206 b207 b208" creator="0" insign="ministro della pesca" outsign="fiskeriministeren"/>
+<align out="a61 a62 a63" type="mvd" in="b49 b50" creator="0" insign="ci fu" outsign="blev der holdt"/>
+<align out="a99 a100 a101" type="mcn" in="b86 b87" creator="0" insign="sostenitore di" outsign="gik ind for"/>
+<align out="a98" type="f" in="b85" creator="0" insign="caldo" outsign="direkte"/>
+<align out="a114" type="n" in="b101" creator="0" insign="erano" outsign="var"/>
+<align out="a115" type="n+s" in="b98" creator="0" insign="i" outsign="tiden"/>
+<align out="a115" type="n" in="b99" creator="0" insign="tempi" outsign="tiden"/>
+<align out="a117" type="n" in="b103" creator="0" insign="maturi" outsign="moden"/>
+<align out="a53" type="" in="b24" creator="0" insign="affatto" outsign="helt"/>
+<align out="a143" type="" in="b116 b117 b118" creator="0" insign="In ogni caso" outsign="i_hvert_fald"/>
+<align out="a142 a145" type="mvd" in="b122 b123 b124 b125" creator="0" insign="sarà necessario passare attraverso" outsign="skal igennem"/>
+<align out="a155" type="" in="b136" creator="0" insign="partiti" outsign="partiers"/>
+<align out="a155" type="s" in="b134" creator="0" insign="dei" outsign="partiers"/>
+<align out="a154" type="" in="b135" creator="0" insign="due" outsign="to"/>
+<align out="a153" type="" in="b134" creator="0" insign="dei" outsign="de"/>
+<align out="a201" type="d" in="b173 b174" creator="0" insign="una collaborazione" outsign="samarbejdet"/>
+<align out="a202" type="" in="b175" creator="0" insign="fra" outsign="blandt"/>
+<align out="a208" type="s+d" in="b176" creator="0" insign="i" outsign="politikere"/>
+<align out="a208" type="" in="b177" creator="0" insign="politici" outsign="politikere"/>
+<align out="a206" type="" in="a206" creator="0" insign="af" outsign="af"/>
+<align out="a212 a213 a214 a215" type="f" in="b183 b184 b185 b186" creator="0" insign="Sarebbe un peccato se" outsign="Det hele skulle nødigt"/>
+<align out="b187" type="" in="b187" creator="0" insign="ciò" outsign="ciò"/>
+<align out="a216 a217 a218" type="f" in="b188 b189" creator="0" insign="non avvenisse" outsign="gå på gulvet"/>
 </DTAGalign>

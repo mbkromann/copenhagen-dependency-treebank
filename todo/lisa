@@ -8,8 +8,8 @@
 [*] it/0104-it-lisa.tag
 [*] da-it/0188-da-it-lisa.atag
 [*] it/0188-it-lisa.tag
-[ ] da-it/0388-da-it-lisa.atag
-[ ] it/0388-it-lisa.tag
+[*] da-it/0388-da-it-lisa.atag
+[*] it/0388-it-lisa.tag
 [*] da-it/0502-da-it-lisa.atag
 [ ] da-it/0602-da-it-lisa.atag
 [ ] it/0602-it-lisa.tag
@@ -18,7 +18,7 @@
 [ ] da-it/1038-da-it-lisa.atag
 [ ] it/1038-it-lisa.tag
 [*] da-it/1347-da-it-lisa.atag
-[ ] it/1347-it-lisa.tag
+[*] it/1347-it-lisa.tag
 [ ] da-it/1408-da-it-lisa.atag
 [ ] it/1408-it-lisa.tag
 

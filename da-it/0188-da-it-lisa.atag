@@ -194,11 +194,9 @@
 <align out="a226" type="" in="b193" creator="0" insign="della" outsign="firmaet"/>
 <align out="b176" type="" in="b176" creator="0" insign="linguaggio" outsign="linguaggio"/>
 <align out="a229" type="" in="a229" creator="0" insign="der" outsign="der"/>
-<align out="a230 a231 a232" type="mc+f" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
 <align out="a239" type="" in="b202" creator="0" insign="Inizialmente" outsign="Oprindelig"/>
 <align out="a242" type="" in="b205" creator="0" insign="conoscente" outsign="bekendte"/>
 <align out="a245" type="" in="b208" creator="0" insign="," outsign=","/>
-<align out="a246 a247" type="mc" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
 <align out="a240" type="" in="b220" creator="0" insign="aveva" outsign="havde"/>
 <align out="a241" type="" in="b204" creator="0" insign="suo" outsign="hans"/>
 <align out="b203" type="" in="b203" creator="0" insign="un" outsign="un"/>
@@ -215,8 +213,6 @@
 <align out="a260" type="" in="b230 b231 b232 b233" creator="0" insign="ore per l' installazione" outsign="programmørtimer"/>
 <align out="a256" type="" in="b224" creator="0" insign="ad" outsign="for"/>
 <align out="a257" type="" in="b225 b226" creator="0" insign="un prezzo" outsign="prisen"/>
-<align out="a258" type="f" in="b227" creator="0" insign="corrispondente" outsign="på"/>
-<align out="b228" type="" in="b228" creator="0" insign="a" outsign="a"/>
 <align out="a266" type="" in="b237" creator="0" insign="ore" outsign="timer"/>
 <align out="a268 a269" type="" in="b235" creator="0" insign="Invece" outsign="i stedet"/>
 <align out="a264" type="" in="b236" creator="0" insign="le" outsign="De"/>
@@ -251,4 +247,7 @@
 <align out="a233" type="" in="b200" creator="0" insign="programmazione" outsign="programmeringen"/>
 <align out="a255" type="s" in="b222" creator="0" insign="il" outsign="programmet"/>
 <align out="a255" type="" in="b223" creator="0" insign="programma" outsign="programmet"/>
+<align out="a230 a231 a232" type="mcn+f" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
+<align out="a246 a247" type="mcn" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
+<align out="a258" type="f" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
 </DTAGalign>

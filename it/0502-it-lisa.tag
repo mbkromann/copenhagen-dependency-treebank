@@ -101,7 +101,7 @@
 <W lemma="sopravvivere" msd="VAF" tag="VER:infi" in="-1:vobj" out="">sopravvivere</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-5:dobj|1:pobj|19:pnct">è</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
-<W lemma="prendere" msd="VAF" tag="VER:infi" in="-1:vobj" out="13:ext|1:dobj">prendere</W>
+<W lemma="prendere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|13:ext">prendere</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:dobj" out="1:dobj">due</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:dobj" out="1:const|3:coord">pillole</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:const" out="1:name">di</W>
@@ -130,13 +130,13 @@
 <W lemma="in" msd="SP" tag="PRE" in="-2:loc" out="1:nobj">in</W>
 <W lemma="Egitto" msd="NP" tag="NPR" in="-1:nobj" out="">Egitto</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="3:pnct|1:¹dobj">È</W>
-<W compound="¹un’²esperienza" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="0:²nobj¹|-1:¹dobj" out="1:attrr|0:²nobj¹">un’esperienza</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:¹dobj|3:pnct">È</W>
+<W compound="¹un’²esperienza" lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:¹dobj|0:²nobj¹" out="1:attrr|0:²nobj¹">un’esperienza</W>
 <W lemma="indimenticabile" msd="AN" tag="ADJ" in="-1:attrr" out="">indimenticabile</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:dobj" out="1:pnct|2:appa">Horus</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="dio" msd="NC" tag="NOM" in="-2:appa" out="2:pobj|5:conj|8:pnct|1:attrr">dio</W>
+<W lemma="dio" msd="NC" tag="NOM" in="-2:appa" out="1:attrr|2:pobj|5:conj|8:pnct">dio</W>
 <W lemma="tutelare" msd="AN" tag="ADJ" in="-1:attrr" out="">tutelare</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-2:pobj" out="1:nobj">del</W>
 <W lemma="faraona|faraone" msd="NC" tag="NOM" in="-1:nobj" out="">faraone</W>
@@ -145,7 +145,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="" out="2:vobj|13:pnct|-11:dobj">viene</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-11:dobj|2:vobj|13:pnct">viene</W>
 <W lemma="spesso" msd="RG" tag="ADV" in="1:ext" out="">spesso</W>
 <W lemma="raffigurare" msd="VAP" tag="VER:pper" in="-2:vobj" out="-1:ext|1:pobj">raffigurato</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:dobj">con</W>

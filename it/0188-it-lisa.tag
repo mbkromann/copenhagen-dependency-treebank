@@ -1,8 +1,8 @@
-<W lemma="indicatore" msd="NC" tag="NOM" in="" out="1:attrr:dobj#|2:pnct">Indicatore</W>
+<W lemma="indicatore" msd="NC" tag="NOM" in="" out="1:attrr:dobj#|2:pnct|4:qobj">Indicatore</W>
 <W lemma="percorso" msd="AN" tag="ADJ" in="-1:attrr:dobj#" out="">percorsi</W>
 <W lemma=":" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="c'" msd="PD" tag="PRO:demo" in="1:subj" out="">c'</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj|11:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-4:qobj" out="-1:subj|1:dobj|11:pnct">è</W>
 <W lemma="fervore" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">fervore</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">nel</W>
 <W lemma="settore" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:pobj">settore</W>
