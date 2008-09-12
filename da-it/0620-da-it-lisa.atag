@@ -1,0 +1,7 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0620-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0620-it-auto.tag" sign="_input"/>
+<align out="a63" type="" in="a63" creator="-101" outsign="i" insign="i"/>
+<align out="a76" type="" in="a76" creator="-101" outsign="i" insign="i"/>
+<align out="a122" type="" in="a122" creator="-101" outsign="og" insign="og"/>
+</DTAGalign>
