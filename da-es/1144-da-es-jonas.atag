@@ -61,10 +61,6 @@
 <align out="a247" type="" in="b162" creator="-101" insign="un" outsign="en"/>
 <align out="a248" type="" in="b163" creator="-101" insign="error" outsign="fejl"/>
 <align out="b157" type="" in="b157" creator="-101" insign="la" outsign="la"/>
-<align out="a45" type="" in="b1" creator="-100" insign="más" outsign="mere"/>
-<align out="a52" type="" in="b9" creator="-100" insign="?" outsign="?"/>
-<align out="a44" type="" in="b3" creator="-100" insign="Larsen" outsign="Larsen"/>
-<align out="a65" type="" in="b19" creator="-100" insign="." outsign="."/>
 <align out="a46" type="f" in="b2" creator="0" insign="resistente" outsign="sejlivet"/>
 <align out="a48" type="" in="b4" creator="0" insign="de" outsign="end"/>
 <align out="a47" type="" in="a47" creator="0" insign="," outsign=","/>
@@ -145,4 +141,8 @@
 <align out="a243" type="" in="b158" creator="0" insign="compra" outsign="købet"/>
 <align out="a245" type="" in="b160" creator="0" insign="Tjæreborg" outsign="Tjæreborg"/>
 <align out="a249" type="" in="b164" creator="0" insign="?" outsign="?"/>
+<align out="a45" type="" in="b1" creator="-100" insign="más" outsign="mere"/>
+<align out="a52" type="" in="b9" creator="-100" insign="?" outsign="?"/>
+<align out="a44" type="" in="b3" creator="-100" insign="Larsen" outsign="Larsen"/>
+<align out="a65" type="" in="b19" creator="-100" insign="." outsign="."/>
 </DTAGalign>
