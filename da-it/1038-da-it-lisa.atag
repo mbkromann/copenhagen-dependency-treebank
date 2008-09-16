@@ -1,0 +1,244 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1038-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1038-it-auto.tag" sign="_input"/>
+<align out="a44 a45" type="" in="b1 b2" creator="0" insign="è stato" outsign="det var"/>
+<align out="a46" type="" in="a46" creator="0" insign="nu" outsign="nu"/>
+<align out="a48" type="" in="a48" creator="0" insign="retten" outsign="retten"/>
+<align out="a49" type="s" in="b4" creator="0" insign="la" outsign="frikassé"/>
+<align out="a49" type="" in="b5" creator="0" insign="fricassea" outsign="frikassé"/>
+<align out="a51" type="" in="b7" creator="0" insign="luccio" outsign="gedde"/>
+<align out="a52" type="" in="b8" creator="0" insign="e" outsign="og"/>
+<align out="a53" type="" in="b9" creator="0" insign="trota" outsign="ørred"/>
+<align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
+<align out="b10" type="" in="b10" creator="0" insign="che" outsign="che"/>
+<align out="a58" type="s" in="b18" creator="0" insign="la" outsign="sejren"/>
+<align out="a58" type="" in="b19" creator="0" insign="vittoria" outsign="sejren"/>
+<align out="a57 a59 a60" type="f" in="b13 b14 b15 b16 b17" creator="0" insign="si è portato a casa" outsign="trak i land"/>
+<align out="a56" type="" in="b12" creator="-1" insign="Madsen" outsign="Madsen"/>
+<align out="a55" type="" in="b11" creator="-1" insign="Preben" outsign="Preben"/>
+<align out="a43" type="" in="b0" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a50" type="" in="b6" creator="-1" insign="di" outsign="af"/>
+<align out="a47" type="" in="b3" creator="-1" insign="con" outsign="med"/>
+<align out="a64" type="" in="b21 b22" creator="0" insign="Oltre a" outsign="Foruden"/>
+<align out="a65" type="" in="b24 b25" creator="0" insign="del luogo" outsign="lokale"/>
+<align out="a66" type="" in="b23" creator="0" insign="giudici" outsign="dommere"/>
+<align out="b26" type="" in="b26" creator="0" insign="," outsign=","/>
+<align out="a61" type="" in="b20" creator="0" insign="." outsign="."/>
+<align out="a67" type="" in="b29" creator="0" insign="c’era" outsign="var"/>
+<align out="a68" type="" in="b31" creator="0" insign="Erwin" outsign="Erwin"/>
+<align out="a69" type="" in="b32" creator="0" insign="Lauterbach" outsign="Lauterbach"/>
+<align out="a74" type="" in="b33" creator="0" insign="dell’Hotel" outsign="Hotel"/>
+<align out="a72" type="" in="b33" creator="0" insign="dell’Hotel" outsign="på"/>
+<align out="a76" type="" in="b27" creator="0" insign="nella" outsign="i"/>
+<align out="a77" type="s" in="b27" creator="0" insign="nella" outsign="dommerpanelet"/>
+<align out="a77" type="" in="b28" creator="0" insign="giuria" outsign="dommerpanelet"/>
+<align out="b30" type="" in="b30" creator="0" insign="anche" outsign="anche"/>
+<align out="a70" type="" in="a70" creator="0" insign="," outsign=","/>
+<align out="a71" type="" in="a71" creator="0" insign="Saison" outsign="Saison"/>
+<align out="a75" type="" in="a75" creator="0" insign="," outsign=","/>
+<align out="b35" type="" in="b35" creator="0" insign="." outsign="."/>
+<align out="a78" type="" in="a78" creator="0" insign="." outsign="."/>
+<align out="a81" type="" in="b38" creator="0" insign="Madsen" outsign="adsen"/>
+<align out="b36" type="" in="b36" creator="0" insign="Il" outsign="Il"/>
+<align out="b37" type="" in="b37" creator="0" insign="signor" outsign="signor"/>
+<align out="a82" type="" in="b40 b41" creator="0" insign="ha dato" outsign="gav"/>
+<align out="a83" type="" in="b39" creator="-1" insign="mi" outsign="mig"/>
+<align out="a73" type="" in="b34" creator="-1" insign="Skovshoved" outsign="Skovshoved"/>
+<align out="a84" type="s" in="b42" creator="0" insign="la" outsign="opskriften"/>
+<align out="a84" type="" in="b43" creator="0" insign="ricetta" outsign="opskriften"/>
+<align out="a85" type="" in="a85" creator="0" insign="." outsign="."/>
+<align out="b44" type="" in="b44" creator="0" insign="e" outsign="e"/>
+<align out="a88" type="s" in="b47" creator="0" insign="gli" outsign="Ingredienserne"/>
+<align out="a88" type="" in="b48" creator="0" insign="ingredienti" outsign="Ingredienserne"/>
+<align out="b45" type="" in="b45" creator="0" insign="questi" outsign="questi"/>
+<align out="a92" type="" in="b51 b52" creator="0" insign="gr ." outsign="g"/>
+<align out="a93" type="" in="b54 b55 b56" creator="0" insign="filetto di luccio" outsign="geddefilet"/>
+<align out="a94" type="" in="b57" creator="0" insign="," outsign=","/>
+<align out="b53" type="" in="b53" creator="0" insign="di" outsign="di"/>
+<align out="a96" type="" in="b59 b60" creator="0" insign="gr ." outsign="g"/>
+<align out="a90" type="" in="b49" creator="0" insign=":" outsign=":"/>
+<align out="b61" type="" in="b61" creator="0" insign="di" outsign="di"/>
+<align out="a89" type="" in="b46" creator="-1" insign="sono" outsign="er"/>
+<align out="a91" type="" in="b50" creator="-1" insign="400" outsign="400"/>
+<align out="a95" type="" in="b58" creator="-1" insign="400" outsign="400"/>
+<align out="a97" type="" in="b62 b63 b64" creator="0" insign="filetto di trota" outsign="ørredfilet"/>
+<align out="b69" type="" in="b69" creator="0" insign="di" outsign="di"/>
+<align out="a101" type="" in="b70 b71" creator="0" insign="prosciutto affumicato" outsign="landskinke"/>
+<align out="a102 a103" type="" in="b72 b73 b74 b75" creator="0" insign="tagliato a striscioline sottili" outsign="i julienne"/>
+<align out="a99" type="" in="b66" creator="-1" insign="150" outsign="150"/>
+<align out="a106" type="" in="b78" creator="-1" insign="piccoli" outsign="små"/>
+<align out="a105" type="" in="b77" creator="-1" insign="2" outsign="to"/>
+<align out="a100" type="" in="b67 b68" creator="-1" insign="gr ." outsign="g"/>
+<align out="a98" type="" in="b65" creator="-1" insign="," outsign=","/>
+<align out="a104" type="" in="b76" creator="-1" insign="," outsign=","/>
+<align out="a108" type="" in="b81" creator="-1" insign="," outsign=","/>
+<align out="a107" type="" in="b79 b80" creator="0" insign="cavoli cappuccio" outsign="spidskål"/>
+<align out="a114" type="" in="b88" creator="-1" insign="dl" outsign="dl"/>
+<align out="a113" type="" in="b87" creator="-1" insign="2" outsign="to"/>
+<align out="a109" type="" in="b82" creator="0" insign="un" outsign="ét"/>
+<align out="a110" type="" in="b83" creator="0" insign="mazzetto" outsign="bundt"/>
+<align out="b84" type="" in="b84" creator="0" insign="di" outsign="di"/>
+<align out="a111" type="" in="b85" creator="0" insign="prezzemolo" outsign="persille"/>
+<align out="a112" type="" in="b86" creator="0" insign="," outsign=","/>
+<align out="b89" type="" in="b89" creator="0" insign="di" outsign="di"/>
+<align out="a115" type="" in="b90 b91 b92 b93" creator="0" insign="brodo di verdura concentrato" outsign="grønsagsbouillon"/>
+<align out="a116" type="" in="b94" creator="0" insign="," outsign=","/>
+<align out="a117" type="" in="b95" creator="0" insign="due" outsign="to"/>
+<align out="a118" type="" in="b97" creator="0" insign="fini" outsign="tynde"/>
+<align out="a119" type="" in="b96" creator="0" insign="porri" outsign="porrer"/>
+<align out="a120 a121" type="" in="b98 b99 b100" creator="0" insign="tagliati ad anelli" outsign="i ringe"/>
+<align out="a122" type="" in="b101" creator="0" insign="," outsign=","/>
+<align out="a124" type="" in="b103" creator="0" insign="cucchiai" outsign="spsk."/>
+<align out="b104" type="" in="b104" creator="0" insign="di" outsign="di"/>
+<align out="a125 a126" type="" in="b105" creator="0" insign="senape" outsign="grov sennep"/>
+<align out="a129" type="" in="b108" creator="0" insign="cucchiai" outsign="spsk."/>
+<align out="b109" type="" in="b109" creator="0" insign="di" outsign="di"/>
+<align out="a133" type="" in="b112" creator="-1" insign="200" outsign="200"/>
+<align out="a123" type="" in="b102" creator="-1" insign="2" outsign="to"/>
+<align out="a128" type="" in="b107" creator="-1" insign="2" outsign="to"/>
+<align out="a134" type="" in="b113 b114" creator="-1" insign="gr ." outsign="g"/>
+<align out="a127" type="" in="b106" creator="-1" insign="," outsign=","/>
+<align out="a130 a131" type="" in="b110" creator="0" insign="aceto" outsign="alm. eddike"/>
+<align out="a132" type="" in="b111" creator="0" insign="," outsign=","/>
+<align out="b115" type="" in="b115" creator="0" insign="di" outsign="di"/>
+<align out="a135" type="" in="b116" creator="0" insign="burro" outsign="smør"/>
+<align out="a136" type="" in="b117" creator="0" insign="e" outsign="og"/>
+<align out="a137" type="" in="b118" creator="0" insign="sale" outsign="salt"/>
+<align out="a138" type="" in="b119" creator="0" insign="e" outsign="og"/>
+<align out="a139" type="" in="b120" creator="0" insign="pepe" outsign="peber"/>
+<align out="a140" type="" in="b124" creator="0" insign="." outsign="."/>
+<align out="b121" type="" in="b121" creator="0" insign="q" outsign="q"/>
+<align out="b122" type="" in="b122" creator="0" insign="." outsign="."/>
+<align out="b123" type="" in="b123" creator="0" insign="b" outsign="b"/>
+<align out="b125" type="" in="b125" creator="0" insign="Per" outsign="Per"/>
+<align out="b126" type="" in="b126" creator="0" insign="preparare" outsign="preparare"/>
+<align out="b127" type="" in="b127" creator="0" insign="il" outsign="il"/>
+<align out="b128" type="" in="b128" creator="0" insign="piatto" outsign="piatto"/>
+<align out="b129" type="" in="b129" creator="0" insign=":" outsign=":"/>
+<align out="a145" type="" in="b130" creator="0" insign="tagliate" outsign="Skær"/>
+<align out="a146" type="s" in="b131" creator="0" insign="il" outsign="fisken"/>
+<align out="a146" type="" in="b132" creator="0" insign="pesce" outsign="fisken"/>
+<align out="a147" type="" in="b133" creator="0" insign="a" outsign="i"/>
+<align out="a148" type="" in="b134" creator="0" insign="dadini" outsign="tern"/>
+<align out="a149" type="" in="b135" creator="0" insign="," outsign=","/>
+<align out="a150 a151" type="" in="b144" creator="0" insign="cuoceteli" outsign="bag dem"/>
+<align out="a153" type="" in="b142" creator="0" insign="imburrate" outsign="smurte"/>
+<align out="a154" type="" in="b139 b140 b141" creator="0" insign="teglie del forno" outsign="plader"/>
+<align out="b136" type="" in="b136" creator="0" insign="disponeteli" outsign="disponeteli"/>
+<align out="b138" type="" in="b138" creator="0" insign="due" outsign="due"/>
+<align out="a152" type="" in="b137" creator="-1" insign="su" outsign="på"/>
+<align out="b143" type="" in="b143" creator="0" insign="e" outsign="e"/>
+<align out="a155" type="" in="a155" creator="0" insign="i" outsign="i"/>
+<align out="a156" type="" in="a156" creator="0" insign="ovnen" outsign="ovnen"/>
+<align out="a157" type="" in="b145 b146 b147 b148" creator="0" insign="ad una temperatura di" outsign="ved"/>
+<align out="a158" type="" in="b149" creator="0" insign="140°" outsign="140"/>
+<align out="a159" type="" in="b149" creator="0" insign="140°" outsign="grader"/>
+<align out="b150" type="" in="b150" creator="0" insign="circa" outsign="circa"/>
+<align out="a164" type="mvd" in="b152" creator="0" insign="Lessate" outsign="koges"/>
+<align out="a163" type="n+s" in="b153" creator="0" insign="i" outsign="Kålen"/>
+<align out="a163" type="n" in="b154" creator="0" insign="cavoletti" outsign="Kålen"/>
+<align out="a165" type="" in="a165" creator="0" insign="mør" outsign="mør"/>
+<align out="b156" type="" in="b156" creator="0" insign="Per" outsign="Per"/>
+<align out="a169" type="s" in="b157" creator="0" insign="la" outsign="Saucen"/>
+<align out="a169" type="" in="b158" creator="0" insign="salsa" outsign="Saucen"/>
+<align out="a171" type="" in="b160 b161 b162" creator="0" insign="cuocete a vapore" outsign="Damp"/>
+<align out="a166" type="" in="b155" creator="0" insign="." outsign="."/>
+<align out="a160" type="" in="b151" creator="0" insign="." outsign="."/>
+<align out="a170" type="" in="b159" creator="0" insign=":" outsign=":"/>
+<align out="a172" type="s" in="b163" creator="0" insign="gli" outsign="porreringene"/>
+<align out="a172" type="" in="b164 b165 b166" creator="0" insign="anelli di porro" outsign="porreringene"/>
+<align out="a173" type="" in="b167" creator="0" insign="nel" outsign="i"/>
+<align out="a174" type="s" in="b167" creator="0" insign="nel" outsign="grønsagsbouillon"/>
+<align out="a174" type="" in="b168 b169 b170" creator="0" insign="brodo di verdura" outsign="grønsagsbouillon"/>
+<align out="a175" type="" in="b171" creator="0" insign="," outsign=","/>
+<align out="b172" type="" in="b172" creator="0" insign="poi" outsign="poi"/>
+<align out="a176 a177 a178" type="" in="b173" creator="0" insign="toglieteli" outsign="tag dem op"/>
+<align out="a179" type="" in="a179" creator="0" insign="," outsign=","/>
+<align out="b174" type="" in="b174" creator="0" insign="e" outsign="e"/>
+<align out="a180 a181 a182" type="" in="b175 b176 b177 b178 b179 b180 b181 b182 b183 b184 b185" creator="0" insign="fate andare il brodo fino a quando non si sia ristretto" outsign="kog bouillonen ind"/>
+<align out="a183" type="" in="b186" creator="0" insign="," outsign=","/>
+<align out="a184" type="" in="b187" creator="0" insign="aggiungete" outsign="tilsæt"/>
+<align out="a185" type="d" in="b188" creator="0" insign="l’aceto" outsign="eddike"/>
+<align out="a186" type="" in="b189" creator="0" insign="e" outsign="og"/>
+<align out="a187" type="s+d" in="b190" creator="0" insign="la" outsign="sennep"/>
+<align out="a187" type="" in="b191" creator="0" insign="senape" outsign="sennep"/>
+<align out="a188" type="" in="a188" creator="0" insign="," outsign=","/>
+<align out="b192" type="" in="b192" creator="0" insign="e" outsign="e"/>
+<align out="a189 a190" type="mvd" in="b193 b194 b195" creator="0" insign="sbattete il tutto" outsign="piskes op"/>
+<align out="a191" type="" in="b196" creator="0" insign="con" outsign="med"/>
+<align out="a192" type="" in="b197" creator="0" insign="burro" outsign="smør"/>
+<align out="b199" type="" in="b199" creator="0" insign="infine" outsign="infine"/>
+<align out="a194" type="" in="b200" creator="0" insign="aggiungete" outsign="tilsæt"/>
+<align out="a195" type="" in="b203" creator="0" insign="tritato" outsign="hakket"/>
+<align out="a196" type="s+d" in="b201" creator="0" insign="il" outsign="persille"/>
+<align out="a196" type="" in="b202" creator="0" insign="prezzemolo" outsign="persille"/>
+<align out="a206" type="n+s" in="b206" creator="-1" insign="i" outsign="kålen"/>
+<align out="a193" type="" in="b198" creator="-1" insign="," outsign=","/>
+<align out="a197" type="" in="b204" creator="-1" insign="." outsign="."/>
+<align out="a202" type="f" in="b205" creator="0" insign="Servite" outsign="Anret"/>
+<align out="a203" type="s" in="b206" creator="0" insign="i" outsign="fiskestykkerne"/>
+<align out="a203" type="f" in="b207 b208 b209" creator="0" insign="dadini di pesce" outsign="fiskestykkerne"/>
+<align out="a204 a205" type="" in="b210" creator="0" insign="con" outsign="sammen med"/>
+<align out="a206" type="s+n" in="b211" creator="0" insign="i" outsign="kålen"/>
+<align out="a206" type="n" in="b212" creator="0" insign="cavoletti" outsign="kålen"/>
+<align out="a208" type="" in="b215 b216 b217" creator="0" insign="anelli di porro" outsign="porreringene"/>
+<align out="a209" type="" in="b218" creator="0" insign="," outsign=","/>
+<align out="a207" type="" in="b213" creator="0" insign="e" outsign="og"/>
+<align out="a208" type="s" in="b214" creator="0" insign="gli" outsign="porreringene"/>
+<align out="a211" type="" in="b222 b223" creator="0" insign="un po’" outsign="lidt"/>
+<align out="a212" type="" in="b224" creator="-1" insign="di" outsign="af"/>
+<align out="a213" type="d" in="b225" creator="0" insign="salsa" outsign="saucen"/>
+<align out="a215" type="" in="b220" creator="0" insign="avervi" outsign="fisken"/>
+<align out="a210 a214" type="mci" in="b219 b220 b221" creator="0" insign="dopo avervi versato" outsign="hæld over"/>
+<align out="a218" type="s+n" in="b228" creator="0" insign="le" outsign="skinken"/>
+<align out="a218" type="n+f" in="b229 b230 b231" creator="0" insign="striscioline di prosciutto" outsign="skinken"/>
+<align out="a220" type="" in="b232" creator="0" insign="." outsign="."/>
+<align out="a216" type="" in="b226" creator="0" insign="e" outsign="og"/>
+<align out="a217 a219" type="mci" in="b227" creator="0" insign="cosparso" outsign="drys over"/>
+<align out="a228 a232" type="" in="b237 b238 b239 b240" creator="0" insign="accompagnare il piatto con" outsign="serverer til"/>
+<align out="a229" type="" in="b244 b245 b246 b247 b248" creator="0" insign="cotte al burro in forno" outsign="smørbagte"/>
+<align out="a230 a231" type="" in="b242 b243" creator="0" insign="patate novelle" outsign="nye kartofler"/>
+<align out="b241" type="" in="b241" creator="0" insign="piccole" outsign="piccole"/>
+<align out="b235" type="" in="b235" creator="0" insign="," outsign=","/>
+<align out="a225" type="f" in="b233 b234" creator="0" insign="Se volete" outsign="Evt."/>
+<align out="a226 a227" type="" in="b236" creator="0" insign="potete" outsign="kan man"/>
+<align out="a238" type="" in="b252" creator="0" insign="Preben" outsign="Preben"/>
+<align out="a233" type="" in="b249" creator="0" insign="." outsign="."/>
+<align out="a239" type="" in="b253" creator="0" insign="Madsen" outsign="Madsen"/>
+<align out="a246 a247" type="mvd" in="b254 b255 b256" creator="0" insign="si è formato" outsign="er udlært"/>
+<align out="a248" type="f" in="b257" creator="0" insign="presso" outsign="på"/>
+<align out="b258" type="" in="b258" creator="0" insign="la" outsign="la"/>
+<align out="b259" type="" in="b259" creator="0" insign="trattoria" outsign="trattoria"/>
+<align out="b260" type="" in="b260" creator="0" insign="di" outsign="di"/>
+<align out="a251" type="" in="b263" creator="0" insign="." outsign="."/>
+<align out="a241 a242 a243 a244" type="mcadj" in="b250 b251" creator="0" insign="Il trentunenne" outsign="der er 31 år"/>
+<align out="a240" type="" in="a240" creator="0" insign="," outsign=","/>
+<align out="a245" type="" in="a245" creator="0" insign="," outsign=","/>
+<align out="a254" type="" in="b264 b265" creator="0" insign="In seguito" outsign="Siden"/>
+<align out="a257" type="" in="b269 b270" creator="0" insign="tra l’altro" outsign="bl.a."/>
+<align out="a255 a256 a258" type="" in="b266 b267" creator="0" insign="ha lavorato" outsign="har han været"/>
+<align out="b268" type="" in="b268" creator="0" insign="," outsign=","/>
+<align out="b271" type="" in="b271" creator="0" insign="," outsign=","/>
+<align out="a259" type="f" in="b272" creator="0" insign="presso" outsign="på"/>
+<align out="a249" type="" in="b261" creator="-1" insign="Hovborg" outsign="Hovborg"/>
+<align out="a250" type="" in="b262" creator="-1" insign="Kro" outsign="Kro"/>
+<align out="b273" type="" in="b273" creator="0" insign="il" outsign="il"/>
+<align out="b274" type="" in="b274" creator="0" insign="ristorante" outsign="ristorante"/>
+<align out="a263" type="" in="b278" creator="0" insign="," outsign=","/>
+<align out="a264" type="" in="b279" creator="0" insign="all’Hotel" outsign="Hotel"/>
+<align out="a266" type="" in="b281" creator="0" insign="a" outsign="i"/>
+<align out="a269" type="" in="b284" creator="0" insign="nella" outsign="på"/>
+<align out="b285" type="" in="b285" creator="0" insign="rinomata" outsign="rinomata"/>
+<align out="b286" type="" in="b286" creator="0" insign="trattoria" outsign="trattoria"/>
+<align out="b287" type="" in="b287" creator="0" insign="di" outsign="di"/>
+<align out="a273" type="" in="b291" creator="0" insign="." outsign="."/>
+<align out="a260" type="" in="b275" creator="-1" insign="Pakhuset" outsign="Pakhuset"/>
+<align out="a262" type="" in="b277" creator="-1" insign="Esbjerg" outsign="Esbjerg"/>
+<align out="a265" type="" in="b280" creator="-1" insign="Plaza" outsign="Plaza"/>
+<align out="a267" type="" in="b282" creator="-1" insign="Copenaghen" outsign="København"/>
+<align out="a270" type="" in="b288" creator="-1" insign="Henne" outsign="Henne"/>
+<align out="a271" type="" in="b289" creator="-1" insign="Kirkeby" outsign="Kirkeby"/>
+<align out="a268" type="" in="b283" creator="-1" insign="e" outsign="og"/>
+<align out="a272" type="" in="b290" creator="-1" insign="Kro" outsign="Kro"/>
+<align out="a261" type="" in="b276" creator="-1" insign="a" outsign="i"/>
+</DTAGalign>
