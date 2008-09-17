@@ -24,7 +24,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="chi" msd="PT" tag="PRO:rela" in="-1:nobj" out="">chi</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
-<W lemma="porre" msd="VADR" tag="VER:pres" in="" out="1:dobj|-1:subj">pone</W>
+<W lemma="porre" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj">pone</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="-1:nobj" out="">domanda</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>

@@ -12,14 +12,11 @@
 <align out="a50" type="" in="b2" creator="0" insign="drammatica" outsign="dramatiske"/>
 <align out="a51" type="" in="b3" creator="0" insign="repressione" outsign="nedkæmpning"/>
 <align out="a52" type="" in="b4" creator="0" insign="delle" outsign="af"/>
-<align out="a54" type="" in="b10 b11 b12 b13" creator="0" insign="in favore della democrazia" outsign="pro-demokratiske"/>
 <align out="a55" type="f+n" in="b5" creator="0" insign="manifestazioni" outsign="studenteroprør"/>
 <align out="a53" type="n" in="b4" creator="0" insign="delle" outsign="det"/>
 <align out="a55" type="" in="b6" creator="0" insign="studentesche" outsign="studenteroprør"/>
 <align out="b16" type="" in="b16" creator="0" insign="," outsign=","/>
-<align out="a56" type="" in="b7" creator="0" insign="di" outsign="på"/>
 <align out="a57 a58 a59 a60" type="" in="b8 b9" creator="0" insign="Piazza Tienanmen" outsign="Den Himmelske Freds Plads"/>
-<align out="a61" type="" in="b14" creator="0" insign="nel" outsign="i"/>
 <align out="a62" type="s" in="b14" creator="0" insign="nel" outsign="1989"/>
 <align out="a62" type="" in="b15" creator="0" insign="1989" outsign="1989"/>
 <align out="b19" type="" in="b19" creator="0" insign="positivo" outsign="positivo"/>
@@ -174,4 +171,7 @@
 <align out="a245" type="" in="b187" creator="-1" insign="con" outsign="af"/>
 <align out="a232 a233" type="" in="b178" creator="-1" insign="Attualmente" outsign="I øjeblikket"/>
 <align out="a241" type="" in="b184" creator="-1" insign="a" outsign="i"/>
+<align out="a56" type="wo" in="b7" creator="0" insign="di" outsign="på"/>
+<align out="a54" type="wo" in="b10 b11 b12 b13" creator="0" insign="in favore della democrazia" outsign="pro-demokratiske"/>
+<align out="a61" type="wo" in="b14" creator="0" insign="nel" outsign="i"/>
 </DTAGalign>
