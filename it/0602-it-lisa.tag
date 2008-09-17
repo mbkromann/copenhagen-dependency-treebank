@@ -11,10 +11,10 @@
 <W lemma="era" msd="NC" tag="NOM" in="" out="1:fpreds|7:pnct">Era</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="-1:fpreds" out="1:pobj">diversa</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:comp">da</W>
-<W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="">come</W>
-<W lemma="me" msd="PP" tag="PRO:pers" in="1:subj|2:[subj]" out="">me</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:subj|1:vobj">l’ero</W>
-<W lemma="immaginare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:[subj]">immaginata</W>
+<W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="2:vobj">come</W>
+<W lemma="me" msd="PP" tag="PRO:pers" in="1:robj" out="">me</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:vobj" out="1:vobj|-1:robj">l’ero</W>
+<W lemma="immaginare" msd="VAP" tag="VER:pper" in="-1:vobj" out="">immaginata</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="2:loc" out="1:nobj">Nel</W>
 <W lemma="taxi" msd="NC" tag="NOM" in="-1:nobj" out="">taxi</W>
@@ -29,9 +29,9 @@
 <W lemma="mentre" msd="CS" tag="CON" in="6:time" out="1:dir">mentre</W>
 <W lemma="salire" msd="VADA" tag="VER:impf" in="-1:dir" out="1:dobj">salivamo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">le</W>
-<W lemma="scala" msd="NC" tag="NOM" in="-1:nobj" out="">scale</W>
-<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuovo</W>
+<W lemma="scala" msd="NC" tag="NOM" in="-1:nobj" out="1:time">scale</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:time" out="1:nobj">di</W>
+<W lemma="nuovo" msd="AN" tag="ADJ" in="-1:nobj" out="">nuovo</W>
 <W lemma="dire" msd="VADA" tag="VER:remo" in="-14:conj" out="-7:coord|-6:time|1:dobj|7:pnct">disse</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">le</W>
