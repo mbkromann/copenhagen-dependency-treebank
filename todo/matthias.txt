@@ -14,7 +14,11 @@
 [*] Fix error in save
 [*] Document important DTAG commands (alignment, dependency, diff, find, svn, tasks)
 [*] Implement "edges" command for printing alignment/dependency edges at a node
-[ ] Implement svn-archive for treebank.dk
+[*] Implement svn-archive for treebank.dk
 [ ] Final dependency files: distribute to students and update opentask
 [ ] Check tag conversion for Spanish and Italian
 [ ] Autosegment Danish dependency files (???)
+[ ] Fix problem with missing "fpred", "fpreds", "pobj:arg#" edges (overwrite when updating dtag?)
+[*] Fix problem with double copies of n-n edges.
+[ ] Fix problem with manual -- one file + word version
+[ ] Mail telefonnummer mobil til Iørn + Henrik
