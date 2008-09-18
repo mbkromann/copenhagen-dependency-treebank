@@ -6,7 +6,6 @@
 <align out="a49" type="" in="b7" creator="0" insign="scrivete" outsign="skriv"/>
 <align out="a50" type="" in="b8" creator="0" insign="alla" outsign="til"/>
 <align out="b9" type="" in="b9" creator="0" insign="rubrica" outsign="rubrica"/>
-<align out="a52" type="" in="b11 b12" creator="0" insign="I medici" outsign="Lægerne"/>
 <align out="b14" type="" in="b14" creator="0" insign="del" outsign="del"/>
 <align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
 <align out="b15" type="" in="b15" creator="0" insign="settimanale" outsign="settimanale"/>
@@ -44,12 +43,9 @@
 <align out="a97" type="" in="b56 b57" creator="0" insign="LA MENOPAUSA" outsign="OVERGANGSALDEREN"/>
 <align out="a79" type="" in="b44" creator="-1" insign=":" outsign=":"/>
 <align out="a98" type="" in="b58" creator="-1" insign="?" outsign="?"/>
-<align out="a80" type="" in="b46 b47" creator="-1" insign="i medici" outsign="Lægerne"/>
 <align out="a90" type="" in="b52" creator="-1" insign="." outsign="."/>
 <align out="a103" type="" in="b59" creator="0" insign="Molte" outsign="Mange"/>
 <align out="a104" type="" in="b60" creator="0" insign="donne" outsign="kvinder"/>
-<align out="a105 a106" type="" in="b61" creator="0" insign="desiderano" outsign="ønsker at"/>
-<align out="a107 a108" type="" in="b62" creator="0" insign="smettere" outsign="holde op"/>
 <align out="b64" type="" in="b64" creator="0" insign="prendere" outsign="prendere"/>
 <align out="a110" type="" in="b65 b66 b67" creator="0" insign="le pillole contraccettive" outsign="P-pillerne"/>
 <align out="a111" type="" in="a111" creator="0" insign="," outsign=","/>
@@ -70,13 +66,11 @@
 <align out="a134" type="f" in="b87 b88 b89" creator="0" insign="in questa rubrica" outsign="her"/>
 <align out="a129" type="" in="a129" creator="0" insign="," outsign=","/>
 <align out="a135" type="" in="b90" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
-<align out="a131" type="" in="b84 b85" creator="-1" insign="i medici" outsign="lægerne"/>
 <align out="a136" type="" in="b91 b92" creator="0" insign="tra cui" outsign="bl.a."/>
 <align out="b93" type="" in="b93" creator="0" insign="," outsign=","/>
 <align out="a136" type="" in="b94 b95 b96" creator="0" insign="per es ." outsign="bl.a."/>
 <align out="b97" type="" in="b97" creator="0" insign="," outsign=","/>
 <align out="a137" type="" in="b98" creator="0" insign="se" outsign="om"/>
-<align out="a138" type="" in="b99 b100 b101" creator="0" insign="una cura ormonale" outsign="hormoner"/>
 <align out="a139" type="" in="b102" creator="0" insign="può" outsign="kan"/>
 <align out="a140" type="" in="b103" creator="0" insign="sostituire" outsign="erstatte"/>
 <align out="a141" type="" in="b107" creator="0" insign="pillole" outsign="P-piller"/>
@@ -104,7 +98,6 @@
 <align out="a175" type="" in="b136" creator="0" insign="tre" outsign="3"/>
 <align out="a176" type="" in="b137" creator="0" insign="figli" outsign="børn"/>
 <align out="a177 a178 a179" type="f" in="b138 b139" creator="0" insign="di seguito" outsign="lige efter hinanden"/>
-<align out="a181" type="" in="b143" creator="0" insign="desiderandone" outsign="ønskede"/>
 <align out="a183" type="" in="b144" creator="0" insign="altri" outsign="flere"/>
 <align out="a184" type="" in="b145" creator="0" insign="ed" outsign="og"/>
 <align out="b140" type="" in="b140" creator="0" insign="e" outsign="e"/>
@@ -138,7 +131,6 @@
 <align out="a222 a223" type="" in="b196" creator="0" insign="le" outsign="med hende"/>
 <align out="a220 a221" type="f" in="b197 b198" creator="0" insign="ho proposto" outsign="talte jeg"/>
 <align out="a224" type="" in="a224" creator="0" insign="om" outsign="om"/>
-<align out="a225" type="" in="b199" creator="0" insign="un" outsign="en"/>
 <align out="a226" type="" in="b200" creator="0" insign="altro" outsign="anden"/>
 <align out="b201" type="" in="b201" creator="0" insign="tipo" outsign="tipo"/>
 <align out="b202" type="" in="b202" creator="0" insign="di" outsign="di"/>
@@ -154,7 +146,6 @@
 <align out="a234" type="" in="a234" creator="0" insign="det" outsign="det"/>
 <align out="a240" type="" in="b214" creator="-1" insign="." outsign="."/>
 <align out="a232" type="" in="b208" creator="-1" insign="," outsign=","/>
-<align out="a231" type="" in="b207" creator="-1" insign="pillole" outsign="P-pillerne"/>
 <align out="a251" type="" in="b231" creator="0" insign="oltre" outsign="over"/>
 <align out="a252 a253" type="" in="b232 b233" creator="0" insign="la quarantina" outsign="40 år"/>
 <align out="b222 b223 b224 b225 b226 b227" type="" in="b222 b223 b224 b225 b226 b227" creator="0" insign="connessi all' uso delle pillole contraccettive" outsign="connessi all' uso delle pillole contraccettive"/>
@@ -164,10 +155,7 @@
 <align out="a244" type="" in="b221" creator="0" insign="rischi" outsign="risici"/>
 <align out="a245" type="" in="a245" creator="0" insign="," outsign=","/>
 <align out="a246" type="" in="a246" creator="0" insign="der" outsign="der"/>
-<align out="a258 a259 a260 a261 a262" type="" in="b217 b218" creator="0" insign="assumersi liberamente" outsign="tage på sin egen kappe"/>
 <align out="a249" type="" in="b228" creator="0" insign="per" outsign="for"/>
-<align out="b229" type="" in="b229" creator="0" insign="le" outsign="le"/>
-<align out="a250" type="" in="b230" creator="-1" insign="donne" outsign="kvinder"/>
 <align out="a254" type="" in="a254" creator="0" insign="," outsign=","/>
 <align out="a263" type="" in="b234" creator="-1" insign="." outsign="."/>
 <align out="a42 a43" type="f" in="b1" creator="0" insign="avete" outsign="Er der"/>
@@ -176,10 +164,27 @@
 <align out="a73" type="s" in="b36" creator="0" insign="le" outsign="Deres"/>
 <align out="a74" type="n" in="b38" creator="0" insign="lettere" outsign="brev"/>
 <align out="a82" type="wo" in="b45" creator="0" insign="purtroppo" outsign="desværre"/>
-<align out="a81 a84 a85 a86" type="f" in="b49" creator="0" insign="possono" outsign="kan påtage sig at"/>
 <align out="a113 a114 a115 a116 a117 a118" type="" in="b69 b70 b71 b72" creator="0" insign="si avvicinano alla cinquantina" outsign="de er i slutningen af 40'erne"/>
 <align out="a166 a167 a168" type="wo" in="b120 b121 b122" creator="0" insign="per molto tempo" outsign="i mange år"/>
 <align out="a174" type="wo" in="b130 b131 b132 b133" creator="0" insign="In età relativamente giovane" outsign="tidligt"/>
-<align out="a187 a188 a189 a190" type="wo" in="b146 b147 b148 b149" creator="0" insign="essendo contraria all' aborto" outsign="pga. modstand mod abort"/>
-<align out="a225" type="" in="b205" creator="0" insign="sostituzione" outsign="en"/>
+<align out="a52" type="" in="b12" creator="0" insign="medici" outsign="Lægerne"/>
+<align out="a52" type="s" in="b11" creator="0" insign="I" outsign="Lægerne"/>
+<align out="a80" type="s" in="b46" creator="0" insign="i" outsign="Lægerne"/>
+<align out="a80" type="" in="b47" creator="0" insign="medici" outsign="Lægerne"/>
+<align out="a81" type="" in="b49" creator="0" insign="possono" outsign="kan"/>
+<align out="a84 a85 a86" type="" in="a84 a85 a86" creator="0" insign="påtage sig at" outsign="påtage sig at"/>
+<align out="a105" type="" in="b61" creator="0" insign="desiderano" outsign="ønsker"/>
+<align out="a106 a107 a108" type="" in="b62" creator="0" insign="smettere" outsign="at holde op"/>
+<align out="a131" type="s" in="b84" creator="0" insign="i" outsign="lægerne"/>
+<align out="a131" type="" in="b85" creator="0" insign="medici" outsign="lægerne"/>
+<align out="a138" type="f" in="b99 b100 b101" creator="0" insign="una cura ormonale" outsign="hormoner"/>
+<align out="a181" type="mvg" in="b143" creator="0" insign="desiderandone" outsign="ønskede"/>
+<align out="a187 a188 a189 a190" type="womcg" in="b146 b147 b148 b149" creator="0" insign="essendo contraria all' aborto" outsign="pga. modstand mod abort"/>
+<align out="a225" type="" in="b199" creator="0" insign="un" outsign="en"/>
+<align out="a231" type="s" in="b206" creator="0" insign="delle" outsign="P-pillerne"/>
+<align out="a231" type="f" in="b207" creator="0" insign="pillole" outsign="P-pillerne"/>
+<align out="a255 a256 a257" type="wo" in="b215 b216" creator="0" insign="Ha preferito" outsign="ville hun gerne"/>
+<align out="a250" type="d" in="b229" creator="0" insign="le" outsign="kvinder"/>
+<align out="a250" type="" in="b230" creator="0" insign="donne" outsign="kvinder"/>
+<align out="a258 a259 a260 a261 a262" type="f" in="b217 b218" creator="0" insign="assumersi liberamente" outsign="tage på sin egen kappe"/>
 </DTAGalign>
