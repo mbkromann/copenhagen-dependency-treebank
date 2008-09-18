@@ -21,7 +21,6 @@
 <align out="a60" type="" in="b7" creator="-1" insign="," outsign=","/>
 <align out="a45" type="" in="b1" creator="-1" insign="paio" outsign="par"/>
 <align out="a71" type="" in="b22" creator="0" insign="avrà" outsign="vil"/>
-<align out="a73 a74" type="f" in="b24 b25 b26" creator="0" insign="voglia di ritornarci" outsign="længes tilbage"/>
 <align out="b23" type="" in="b23" creator="0" insign="sempre" outsign="sempre"/>
 <align out="a78" type="" in="b28" creator="0" insign="Oggi" outsign="Idag"/>
 <align out="a79 a80 a81" type="" in="b29" creator="0" insign="sarebbe" outsign="ville han være"/>
@@ -39,7 +38,6 @@
 <align out="a94" type="" in="a94" creator="0" insign="man" outsign="man"/>
 <align out="a96 a97" type="" in="a96 a97" creator="0" insign="en finger" outsign="en finger"/>
 <align out="a98" type="f" in="b44" creator="0" insign="con" outsign="i"/>
-<align out="a99" type="" in="b45" creator="0" insign="l’acqua" outsign="floden"/>
 <align out="a102" type="" in="b46" creator="0" insign="ci" outsign="man"/>
 <align out="a101" type="" in="b47 b48" creator="0" insign="si rischia" outsign="risikerer"/>
 <align out="a91" type="" in="a91" creator="0" insign="," outsign=","/>
@@ -81,11 +79,9 @@
 <align out="a141" type="" in="a141" creator="0" insign="så" outsign="så"/>
 <align out="a142" type="f" in="b92" creator="0" insign="contrae" outsign="får"/>
 <align out="a146 a147 a148 a149" type="" in="a146 a147 a148 a149" creator="0" insign="det der kaldes for" outsign="det der kaldes for"/>
-<align out="a150" type="" in="b93 b94" creator="0" insign="la diarrea" outsign="Cairo-step"/>
 <align out="a155" type="" in="b97" creator="0" insign="buon" outsign="godt"/>
 <align out="a156" type="" in="b98" creator="0" insign="cosiglio" outsign="råd"/>
 <align out="a160" type="" in="a160" creator="0" insign="på" outsign="på"/>
-<align out="a93" type="mc+f" in="b41 b43" creator="0" insign="al contatto" outsign="stikker"/>
 <align out="a164" type="" in="b105" creator="0" insign="pillole" outsign="piller"/>
 <align out="a166" type="" in="b108" creator="0" insign="insieme" outsign="plus"/>
 <align out="b102 b103" type="" in="b102 b103" creator="0" insign="di prendere" outsign="di prendere"/>
@@ -118,7 +114,6 @@
 <align out="a187 a188 a189 a190" type="" in="a187 a188 a189 a190" creator="0" insign="lade den næste rejse" outsign="lade den næste rejse"/>
 <align out="a192" type="" in="b129" creator="0" insign="in" outsign="til"/>
 <align out="b128" type="" in="b128" creator="0" insign="comunque" outsign="comunque"/>
-<align out="a191" type="" in="b127" creator="0" insign="andare" outsign="gå"/>
 <align out="a183" type="" in="b123" creator="-1" insign="buon" outsign="godt"/>
 <align out="a184" type="" in="b124" creator="-1" insign="cosiglio" outsign="råd"/>
 <align out="a186" type="" in="b126" creator="-1" insign="di" outsign="at"/>
@@ -173,7 +168,6 @@
 <align out="a265" type="" in="b186" creator="0" insign="verso" outsign="mod"/>
 <align out="a266" type="" in="a266" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a270" type="" in="a270" creator="0" insign="&quot;" outsign="&quot;"/>
-<align out="a267 a268 a269" type="" in="b187 b188 b189 b190 b191 b192 b193" creator="0" insign="la “Valle dei Re e dei Nobili”" outsign="De dødes rige"/>
 <align out="a263" type="" in="b183" creator="-1" insign="ed" outsign="og"/>
 <align out="a271" type="" in="b194" creator="-1" insign="." outsign="."/>
 <align out="a260" type="" in="b180" creator="0" insign="Vista" outsign="Udsigt"/>
@@ -189,4 +183,12 @@
 <align out="a116" type="" in="b60 b61 b62" creator="0" insign="si deve mangiare" outsign="spis"/>
 <align out="a158 a159" type="mvi" in="b99 b100" creator="0" insign="per sopravvivere" outsign="jeg overlevede"/>
 <align out="a244" type="d" in="b169 b170 b171" creator="0" insign="Cronista di viaggio" outsign="Rejseskribenten"/>
+<align out="b7" type="" in="b7" creator="0" insign="," outsign=","/>
+<align out="a60" type="" in="a60" creator="0" insign="," outsign=","/>
+<align out="a73 a74" type="mcn" in="b24 b25 b26" creator="0" insign="voglia di ritornarci" outsign="længes tilbage"/>
+<align out="a93" type="mcn+f" in="b41 b43" creator="0" insign="al contatto" outsign="stikker"/>
+<align out="a99" type="lv" in="b45" creator="0" insign="l’acqua" outsign="floden"/>
+<align out="a150" type="lv" in="b93 b94" creator="0" insign="la diarrea" outsign="Cairo-step"/>
+<align out="a191" type="f" in="b127" creator="0" insign="andare" outsign="gå"/>
+<align out="a267 a268 a269" type="lv" in="b187 b188 b189 b190 b191 b192 b193" creator="0" insign="la “Valle dei Re e dei Nobili”" outsign="De dødes rige"/>
 </DTAGalign>

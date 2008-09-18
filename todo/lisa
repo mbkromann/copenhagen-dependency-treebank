@@ -1,36 +1,36 @@
 # Indsæt "*" når annotationen er afsluttet
-[*] da-it/0502-da-it-lisa.atag
-[*] it/1347-it-lisa.tag
-[*] it/0502-it-lisa.tag
-[*] da-it/1347-da-it-lisa.atag
+[ ] da-it/0502-da-it-lisa.atag
+[ ] it/1347-it-lisa.tag
+[ ] it/0502-it-lisa.tag
+[ ] da-it/1347-da-it-lisa.atag
 
-[*] da-it/0104-da-it-lisa.atag
-[*] it/0104-it-lisa.tag
-[*] da-it/0188-da-it-lisa.atag
-[*] it/0188-it-lisa.tag
-[*] da-it/0388-da-it-lisa.atag
-[*] it/0388-it-lisa.tag
-[*] da-it/0502-da-it-lisa.atag
-[*] da-it/0602-da-it-lisa.atag
-[*] it/0602-it-lisa.tag
-[*] da-it/0620-da-it-lisa.atag
-[*] it/0620-it-lisa.tag
-[*] da-it/1038-da-it-lisa.atag
-[*] it/1038-it-lisa.tag
-[*] da-it/1347-da-it-lisa.atag
-[*] it/1347-it-lisa.tag
-[*] da-it/1408-da-it-lisa.atag
-[*] it/1408-it-lisa.tag
+[ ] da-it/0104-da-it-lisa.atag
+[ ] it/0104-it-lisa.tag
+[ ] da-it/0188-da-it-lisa.atag
+[ ] it/0188-it-lisa.tag
+[ ] da-it/0388-da-it-lisa.atag
+[ ] it/0388-it-lisa.tag
+[ ] da-it/0502-da-it-lisa.atag
+[ ] da-it/0602-da-it-lisa.atag
+[ ] it/0602-it-lisa.tag
+[ ] da-it/0620-da-it-lisa.atag
+[ ] it/0620-it-lisa.tag
+[ ] da-it/1038-da-it-lisa.atag
+[ ] it/1038-it-lisa.tag
+[ ] da-it/1347-da-it-lisa.atag
+[ ] it/1347-it-lisa.tag
+[ ] da-it/1408-da-it-lisa.atag
+[ ] it/1408-it-lisa.tag
 
 [ ] da-it/1252-da-it-lisa.atag
 [ ] it/1252-it-lisa.tag
-[*] da-it/0531-da-it-lisa.atag
+[ ] da-it/0531-da-it-lisa.atag
 [ ] it/0531-it-lisa.tag
 
 
-[*] da-it/0244-da-it-lisa.atag
+[ ] da-it/0244-da-it-lisa.atag
 [ ] it/0244-it-lisa.tag
-[*] da-it/0431-da-it-lisa.atag
+[ ] da-it/0431-da-it-lisa.atag
 [ ] it/0431-it-lisa.tag
 [ ] da-it/0593-da-it-lisa.atag
 [ ] it/0593-it-lisa.tag
@@ -42,3 +42,51 @@
 [ ] it/1035-it-lisa.tag
 [ ] da-it/1390-da-it-lisa.atag
 [ ] it/1390-it-lisa.tag
+
+[ ] da-it/0152-da-it-lisa.atag
+[ ] da-it/0212-da-it-lisa.atag
+[ ] da-it/0235-da-it-lisa.atag
+[ ] da-it/0260-da-it-lisa.atag
+[ ] da-it/0339-da-it-lisa.atag
+[ ] it/0339-it-lisa.tag
+[ ] it/0351-it-lisa.tag
+[ ] it/0376-it-lisa.tag
+[ ] it/0426-it-lisa.tag
+[ ] it/0428-it-lisa.tag
+[ ] da-it/0596-da-it-lisa.atag
+[ ] da-it/0607-da-it-lisa.atag
+[ ] da-it/0643-da-it-lisa.atag
+[ ] da-it/0647-da-it-lisa.atag
+[ ] da-it/0685-da-it-lisa.atag
+[ ] it/0685-it-lisa.tag
+[ ] it/0705-it-lisa.tag
+[ ] it/0729-it-lisa.tag
+[ ] it/0780-it-lisa.tag
+[ ] it/0783-it-lisa.tag
+[ ] da-it/0800-da-it-lisa.atag
+[ ] da-it/0805-da-it-lisa.atag
+[ ] da-it/0848-da-it-lisa.atag
+[ ] da-it/0866-da-it-lisa.atag
+[ ] da-it/0876-da-it-lisa.atag
+[ ] it/0876-it-lisa.tag
+[ ] it/0881-it-lisa.tag
+[ ] it/0915-it-lisa.tag
+[ ] it/0939-it-lisa.tag
+[ ] it/0960-it-lisa.tag
+[ ] da-it/0998-da-it-lisa.atag
+[ ] da-it/1043-da-it-lisa.atag
+[ ] da-it/1054-da-it-lisa.atag
+[ ] da-it/1057-da-it-lisa.atag
+[ ] da-it/1077-da-it-lisa.atag
+[ ] it/1077-it-lisa.tag
+[ ] it/1090-it-lisa.tag
+[ ] it/1127-it-lisa.tag
+[ ] it/1144-it-lisa.tag
+[ ] it/1227-it-lisa.tag
+[ ] da-it/1250-da-it-lisa.atag
+[ ] da-it/1337-da-it-lisa.atag
+[ ] da-it/1398-da-it-lisa.atag
+[ ] da-it/1420-da-it-lisa.atag
+[ ] da-it/1497-da-it-lisa.atag
+[ ] it/1497-it-lisa.tag
+[ ] it/1536-it-lisa.tag

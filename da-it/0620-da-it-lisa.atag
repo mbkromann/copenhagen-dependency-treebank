@@ -1,9 +1,7 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0620-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0620-it-auto.tag" sign="_input"/>
-<align out="a63" type="" in="a63" creator="-1" insign="i" outsign="i"/>
 <align out="a45" type="" in="a45" creator="0" insign="," outsign=","/>
-<align out="a51 a52" type="n" in="b8 b9" creator="0" insign="avrebbero dovuto" outsign="det skulle"/>
 <align out="a54" type="" in="b12" creator="0" insign="," outsign=","/>
 <align out="b11" type="" in="b11" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a57" type="" in="b15" creator="0" insign="," outsign=","/>
@@ -28,14 +26,12 @@
 <align out="a77" type="" in="b29" creator="0" insign="appartamento" outsign="lejligheden"/>
 <align out="a78" type="" in="a78" creator="0" insign="her" outsign="her"/>
 <align out="b30" type="" in="b30" creator="0" insign="&quot;" outsign="&quot;"/>
-<align out="a60 a61 a62" type="f" in="b18" creator="-1" insign="cercai" outsign="fik jeg fat"/>
 <align out="a69" type="" in="b23" creator="-1" insign="aveva" outsign="havde"/>
 <align out="a70" type="" in="b24" creator="-1" insign="visto" outsign="set"/>
 <align out="a72" type="" in="b26" creator="-1" insign="uomo" outsign="mand"/>
 <align out="a73 a74 a75" type="mvd" in="b27" creator="-1" insign="introdursi" outsign="blive lukket ind"/>
 <align out="a66" type="" in="b21" creator="-1" insign="che" outsign="som"/>
 <align out="a79" type="" in="b31" creator="-1" insign="." outsign="."/>
-<align out="a86" type="f" in="b33" creator="-1" insign="Ma" outsign="mon"/>
 <align out="a92" type="" in="b38" creator="-1" insign="chiese" outsign="spurgte"/>
 <align out="a94" type="" in="b40" creator="-1" insign="pensierosa" outsign="tankefuldt"/>
 <align out="a101 a102 a103" type="" in="b43 b44 b45" creator="-1" insign="alzò le spalle" outsign="trak på skuldrene"/>
@@ -167,4 +163,9 @@
 <align out="a267" type="" in="b164" creator="-1" insign="suo" outsign="hans"/>
 <align out="a256" type="" in="b154" creator="-1" insign="lei" outsign="hun"/>
 <align out="a269" type="" in="b166" creator="-1" insign="." outsign="."/>
+<align out="a51 a52" type="" in="b8 b9" creator="0" insign="avrebbero dovuto" outsign="det skulle"/>
+<align out="a60 a61 a62 a63" type="f" in="b18" creator="0" insign="cercai" outsign="fik jeg fat i"/>
+<align out="a77" type="s" in="b28" creator="0" insign="nell'" outsign="lejligheden"/>
+<align out="a86" type="" in="a86" creator="0" insign="mon" outsign="mon"/>
+<align out="b33" type="" in="b33" creator="0" insign="Ma" outsign="Ma"/>
 </DTAGalign>
