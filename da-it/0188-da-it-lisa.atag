@@ -21,24 +21,16 @@
 <align out="a61" type="" in="b25" creator="0" insign="programma" outsign="program"/>
 <align out="a62" type="f" in="b22 b23" creator="0" insign="a disposizione" outsign="klar"/>
 <align out="b21" type="" in="b21" creator="0" insign="ora" outsign="ora"/>
-<align out="a64 a65" type="" in="b27" creator="0" insign="aiutare" outsign="at hjælpe"/>
 <align out="a70" type="" in="b34" creator="0" insign="," outsign=","/>
 <align out="a60" type="" in="b24" creator="0" insign="un" outsign="et"/>
 <align out="a72" type="" in="b39" creator="0" insign="," outsign=","/>
-<align out="b30" type="" in="b30" creator="0" insign="a" outsign="a"/>
 <align out="b35" type="" in="b35" creator="0" insign="i" outsign="i"/>
-<align out="b37" type="" in="b37" creator="0" insign="nei" outsign="nei"/>
-<align out="a71" type="" in="b38" creator="0" insign="supermercati" outsign="supermarkeder"/>
 <align out="b36" type="" in="b36" creator="0" insign="clienti" outsign="clienti"/>
-<align out="a67" type="" in="a67" creator="0" insign="rundt" outsign="rundt"/>
-<align out="b31" type="" in="b31" creator="0" insign="muoversi" outsign="muoversi"/>
 <align out="a68" type="" in="b32" creator="0" insign="nei" outsign="i"/>
 <align out="a63" type="" in="b26" creator="-1" insign="per" outsign="til"/>
 <align out="a59" type="" in="b20" creator="-1" insign="è" outsign="er"/>
 <align out="b40" type="" in="b40" creator="0" insign="i" outsign="i"/>
 <align out="b41" type="" in="b41" creator="0" insign="cittadini" outsign="cittadini"/>
-<align out="b42" type="" in="b42" creator="0" insign="nelle" outsign="nelle"/>
-<align out="a73" type="" in="b43 b44" creator="0" insign="sedi municipali" outsign="rådhuse"/>
 <align out="a76" type="" in="b48" creator="0" insign="MikroData" outsign="MikroData"/>
 <align out="b46" type="" in="b46" creator="0" insign="anche" outsign="anche"/>
 <align out="a77" type="" in="b49" creator="0" insign="nel" outsign="i"/>
@@ -104,12 +96,6 @@
 <align out="a147" type="" in="b104" creator="0" insign="Con" outsign="Med"/>
 <align out="b106" type="" in="b106" creator="0" insign="programma" outsign="programma"/>
 <align out="a151" type="" in="a151" creator="0" insign="heller" outsign="heller"/>
-<align out="b112" type="" in="b112" creator="0" insign="problemi" outsign="problemi"/>
-<align out="a154" type="" in="a154" creator="0" insign="noget" outsign="noget"/>
-<align out="a155" type="" in="a155" creator="0" insign="at" outsign="at"/>
-<align out="a156" type="" in="a156" creator="0" insign="tage" outsign="tage"/>
-<align out="a157" type="" in="a157" creator="0" insign="fejl" outsign="fejl"/>
-<align out="a158" type="" in="a158" creator="0" insign="af" outsign="af"/>
 <align out="a160" type="" in="b114" creator="0" insign="digita" outsign="Tast"/>
 <align out="a162" type="" in="b120" creator="0" insign="oppure" outsign="eller"/>
 <align out="a163" type="" in="a163" creator="0" insign="tast" outsign="tast"/>
@@ -123,10 +109,6 @@
 <align out="a149" type="" in="b110" creator="-1" insign="dovrebbero" outsign="skulle"/>
 <align out="a148" type="" in="b107" creator="-1" insign="Scout" outsign="Scout"/>
 <align out="a159" type="" in="b113" creator="-1" insign=":" outsign=":"/>
-<align out="a170" type="f" in="b129" creator="0" insign="decisamente" outsign="meget"/>
-<align out="a171" type="" in="b130" creator="0" insign="pedagogica" outsign="pædagogisk"/>
-<align out="b126" type="" in="b126" creator="0" insign="con" outsign="con"/>
-<align out="b128" type="" in="b128" creator="0" insign="modalità" outsign="modalità"/>
 <align out="b131" type="" in="b131" creator="0" insign="," outsign=","/>
 <align out="b134" type="" in="b134" creator="0" insign="ti" outsign="ti"/>
 <align out="a172" type="" in="b136 b138 b139" creator="0" insign="la più vicina" outsign="nærmeste"/>
@@ -134,17 +116,11 @@
 <align out="a175" type="" in="b142" creator="0" insign="lo" outsign="den"/>
 <align out="a179" type="" in="b145" creator="0" insign="stand" outsign="stande"/>
 <align out="a180" type="" in="b149" creator="0" insign="." outsign="."/>
-<align out="b127" type="" in="b127" creator="0" insign="una" outsign="una"/>
 <align out="a174" type="f" in="b140 b141" creator="0" insign="per raggiungere" outsign="til"/>
 <align out="a169" type="" in="b135" creator="-1" insign="mostra" outsign="viser"/>
 <align out="a176" type="" in="b143" creator="-1" insign="o" outsign="eller"/>
 <align out="a177" type="" in="b144" creator="-1" insign="gli" outsign="de"/>
-<align out="a178" type="" in="a178" creator="0" insign="aktuelle" outsign="aktuelle"/>
-<align out="b146" type="" in="b146" creator="0" insign="che" outsign="che"/>
-<align out="b147" type="" in="b147" creator="0" insign="ti" outsign="ti"/>
-<align out="b148" type="" in="b148" creator="0" insign="interessano" outsign="interessano"/>
 <align out="a184" type="" in="b162 b163 b164" creator="0" insign="&quot; precursore &quot;" outsign="forløber"/>
-<align out="a187" type="" in="b150" creator="0" insign="Alla" outsign="ved"/>
 <align out="a188" type="" in="a188" creator="0" insign="sidste" outsign="sidste"/>
 <align out="a190" type="" in="b154" creator="0" insign="di" outsign="for"/>
 <align out="a193" type="" in="b157" creator="0" insign="fa" outsign="siden"/>
@@ -153,7 +129,6 @@
 <align out="b158" type="" in="b158" creator="0" insign="," outsign=","/>
 <align out="b159" type="" in="b159" creator="0" insign="c'" outsign="c'"/>
 <align out="b160" type="" in="b160" creator="0" insign="era" outsign="era"/>
-<align out="a186" type="" in="b167 b168" creator="0" insign="i visitatori" outsign="besøgende"/>
 <align out="a194" type="" in="b169" creator="0" insign="." outsign="."/>
 <align out="a192" type="" in="b156" creator="-1" insign="anni" outsign="år"/>
 <align out="a189" type="" in="b153" creator="-1" insign="MikroData" outsign="MikroData"/>
@@ -167,31 +142,21 @@
 <align out="a206" type="" in="a206" creator="0" insign="bunden" outsign="bunden"/>
 <align out="a210" type="" in="a210" creator="0" insign="," outsign=","/>
 <align out="a214" type="" in="a214" creator="0" insign="nok" outsign="nok"/>
-<align out="a215" type="" in="a215" creator="0" insign="snydt" outsign="snydt"/>
-<align out="a216" type="" in="b181" creator="0" insign="ci" outsign="os"/>
-<align out="a217" type="" in="b185" creator="0" insign="po'" outsign="lidt"/>
-<align out="a218" type="" in="a218" creator="0" insign="med" outsign="med"/>
-<align out="b183" type="" in="b183" creator="0" insign="ritardato" outsign="ritardato"/>
-<align out="b184" type="" in="b184" creator="0" insign="un" outsign="un"/>
 <align out="b186" type="" in="b186" creator="0" insign="i" outsign="i"/>
 <align out="b187" type="" in="b187" creator="0" insign="lavori" outsign="lavori"/>
 <align out="a220" type="" in="b189" creator="0" insign="," outsign=","/>
 <align out="a221" type="" in="b188" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a208" type="" in="b177" creator="-1" insign="Turbo" outsign="Turbo"/>
 <align out="a209" type="" in="b178" creator="-1" insign="Pascal" outsign="Pascal"/>
-<align out="a213" type="" in="b182" creator="-1" insign="ha" outsign="har"/>
 <align out="a199" type="" in="b170" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a211" type="" in="b179" creator="-1" insign="e" outsign="og"/>
 <align out="a212" type="" in="b180" creator="-1" insign="questo" outsign="det"/>
-<align out="a219" type="" in="a219" creator="0" insign="tiden" outsign="tiden"/>
 <align out="a228" type="" in="b196" creator="0" insign="," outsign=","/>
 <align out="a222" type="" in="b190" creator="-1" insign="dice" outsign="fortæller"/>
 <align out="a224" type="" in="b192" creator="-1" insign="Marrot" outsign="Marrot"/>
 <align out="a227" type="" in="b195" creator="-1" insign="Scansoft" outsign="Scansoft"/>
 <align out="a223" type="" in="b191" creator="-1" insign="John" outsign="John"/>
 <align out="a225" type="" in="b193" creator="-1" insign="della" outsign="fra"/>
-<align out="a226" type="" in="b194" creator="-1" insign="ditta" outsign="firmaet"/>
-<align out="a226" type="" in="b193" creator="0" insign="della" outsign="firmaet"/>
 <align out="b176" type="" in="b176" creator="0" insign="linguaggio" outsign="linguaggio"/>
 <align out="a229" type="" in="a229" creator="0" insign="der" outsign="der"/>
 <align out="a239" type="" in="b202" creator="0" insign="Inizialmente" outsign="Oprindelig"/>
@@ -212,9 +177,7 @@
 <align out="a254" type="" in="b221" creator="0" insign="ordinato" outsign="bestilt"/>
 <align out="a260" type="" in="b230 b231 b232 b233" creator="0" insign="ore per l' installazione" outsign="programmørtimer"/>
 <align out="a256" type="" in="b224" creator="0" insign="ad" outsign="for"/>
-<align out="a257" type="" in="b225 b226" creator="0" insign="un prezzo" outsign="prisen"/>
 <align out="a266" type="" in="b237" creator="0" insign="ore" outsign="timer"/>
-<align out="a268 a269" type="" in="b235" creator="0" insign="Invece" outsign="i stedet"/>
 <align out="a264" type="" in="b236" creator="0" insign="le" outsign="De"/>
 <align out="b238" type="" in="b238" creator="0" insign="da" outsign="da"/>
 <align out="a267 a270" type="" in="b240 b241" creator="0" insign="sono diventate" outsign="blev til"/>
@@ -226,7 +189,6 @@
 <align out="a261" type="" in="b234" creator="-1" insign="." outsign="."/>
 <align out="a66" type="s" in="b28" creator="0" insign="i" outsign="kunder"/>
 <align out="a66" type="f" in="b29" creator="0" insign="visitatori" outsign="kunder"/>
-<align out="a69" type="" in="b33" creator="0" insign="musei" outsign="museer"/>
 <align out="a86" type="s" in="b55" creator="0" insign="Gli" outsign="Europæerne"/>
 <align out="a86" type="" in="b56" creator="0" insign="europei" outsign="Europæerne"/>
 <align out="a98" type="s" in="b66" creator="0" insign="gli" outsign="idémændene"/>
@@ -238,8 +200,6 @@
 <align out="a111" type="s" in="b85" creator="0" insign="nella" outsign="junglen"/>
 <align out="a135 a136" type="f" in="b102" creator="0" insign="digitare" outsign="at stave"/>
 <align out="a141" type="s" in="b96" creator="0" insign="la" outsign="tastaturet"/>
-<align out="a161" type="" in="b116 b117 b118 b119" creator="0" insign="nome di una ditta" outsign="firmanavn"/>
-<align out="b115" type="" in="b115" creator="0" insign="il" outsign="il"/>
 <align out="a168" type="s" in="b132" creator="0" insign="lo" outsign="skærmen"/>
 <align out="a168" type="" in="b133" creator="0" insign="schermo" outsign="skærmen"/>
 <align out="a185" type="mvi" in="b165 b166" creator="0" insign="ad aiutare" outsign="hjalp"/>
@@ -250,4 +210,21 @@
 <align out="a230 a231 a232" type="mcn+f" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
 <align out="a246 a247" type="mcn" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
 <align out="a258" type="f" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
+<align out="a67" type="f+mc" in="b31" creator="0" insign="muoversi" outsign="rundt"/>
+<align out="a69" type="d" in="b32 b33" creator="0" insign="nei musei" outsign="museer"/>
+<align out="a71" type="d" in="b37 b38" creator="0" insign="nei supermercati" outsign="supermarkeder"/>
+<align out="a73" type="d" in="b42 b43 b44" creator="0" insign="nelle sedi municipali" outsign="rådhuse"/>
+<align out="a154 a155 a156 a157 a158" type="f" in="b112" creator="0" insign="problemi" outsign="noget at tage fejl af"/>
+<align out="a161" type="d" in="b115 b116 b117 b118 b119" creator="0" insign="il nome di una ditta" outsign="firmanavn"/>
+<align out="a170 a171" type="" in="b126 b127 b128 b129 b130" creator="0" insign="con una modalità decisamente pedagogica" outsign="meget pædagogisk"/>
+<align out="a64 a65" type="" in="b27 b30" creator="0" insign="aiutare a" outsign="at hjælpe"/>
+<align out="a178" type="f" in="b146 b147 b148" creator="0" insign="che ti interessano" outsign="aktuelle"/>
+<align out="a187" type="wo" in="b150" creator="0" insign="Alla" outsign="ved"/>
+<align out="a186" type="d" in="b167 b168" creator="0" insign="i visitatori" outsign="besøgende"/>
+<align out="a213 a215 a216 a217 a218 a219" type="" in="b181 b182 b183 b184 b185" creator="0" insign="ci ha ritardato un po'" outsign="har snydt os lidt med tiden"/>
+<align out="a226" type="s" in="b193" creator="0" insign="della" outsign="firmaet"/>
+<align out="a226" type="" in="b194" creator="0" insign="ditta" outsign="firmaet"/>
+<align out="a257" type="d" in="b225 b226" creator="0" insign="un prezzo" outsign="prisen"/>
+<align out="a258" type="f+mcadj" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
+<align out="a268 a269" type="wo" in="b235" creator="0" insign="Invece" outsign="i stedet"/>
 </DTAGalign>
