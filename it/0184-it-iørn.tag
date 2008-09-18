@@ -30,8 +30,8 @@
 <W lemma="sin" msd="SP" tag="PRE" in="1:focal" out="">Sin</W>
 <W lemma="da" msd="SP" tag="PRE" in="10:time" out="-1:focal|1:avobj">da</W>
 <W lemma="quando" msd="RG" tag="ADV" in="-1:avobj" out="1:vobj">quando</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-1:vobj" out="1:vobj|6:pnct">abbiamo</W>
-<W lemma="incominciare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj">incominciato</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-1:vobj|1:[subj]" out="1:vobj|6:pnct">abbiamo</W>
+<W lemma="incominciare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:dobj|-1:[subj]">incominciato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">a</W>
 <W lemma="produrre" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">produrre</W>
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:dobj" out="1:attrr|3:coref">pasta</W>
