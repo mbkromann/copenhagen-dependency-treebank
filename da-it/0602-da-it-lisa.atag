@@ -45,7 +45,6 @@
 <align out="a110 a111 a112" type="" in="b46 b47 b48 b49" creator="0" insign="nel pieno della notte" outsign="midt om natten"/>
 <align out="a105" type="" in="a105" creator="0" insign="Her" outsign="Her"/>
 <align out="a109" type="f" in="b44" creator="0" insign="persone" outsign="mennesker"/>
-<align out="b42" type="" in="b42" creator="0" insign="“Siamo" outsign="“Siamo"/>
 <align out="a106 a107" type="" in="b45 b50" creator="0" insign="che camminano" outsign="går vi"/>
 <align out="a98" type="" in="b40" creator="-1" insign="così" outsign="sådan"/>
 <align out="a94" type="" in="b35" creator="-1" insign="che" outsign="at"/>
@@ -83,12 +82,8 @@
 <align out="a143" type="" in="b72" creator="-1" insign="?”" outsign="?"/>
 <align out="a140 a141" type="" in="b71" creator="-1" insign="facciamo" outsign="Gør vi"/>
 <align out="a157" type="" in="b81" creator="-1" insign="ma" outsign="men"/>
-<align out="a165 a166 a167" type="mcadv" in="b85" creator="0" insign="Nudi" outsign="Vi lå nøgne"/>
-<align out="a168 a169 a170 a171" type="mcadv" in="b87 b88 b89" creator="0" insign="uno vicino all’altra" outsign="ved siden af hinanden"/>
 <align out="b86" type="" in="b86" creator="0" insign="," outsign=","/>
 <align out="b90" type="" in="b90" creator="0" insign="," outsign=","/>
-<align out="a172" type="" in="a172" creator="0" insign="og" outsign="og"/>
-<align out="a173" type="" in="b91" creator="0" insign="chiacchieravamo" outsign="snakkede"/>
 <align out="a174" type="" in="b92" creator="0" insign="e" outsign="og"/>
 <align out="a175" type="" in="b93" creator="0" insign="bevevamo" outsign="drak"/>
 <align out="a178" type="" in="b96" creator="0" insign="porto" outsign="portvin"/>
@@ -98,11 +93,9 @@
 <align out="a185" type="f" in="b98" creator="0" insign="“Prima" outsign="Først"/>
 <align out="a186 a187" type="f" in="b99" creator="0" insign="passavo" outsign="løb jeg"/>
 <align out="a195" type="" in="a195" creator="0" insign="," outsign=","/>
-<align out="a196" type="" in="b104" creator="0" insign="disse" outsign="sagde"/>
 <align out="b105" type="" in="b105" creator="0" insign="," outsign=","/>
 <align out="a198" type="" in="a198" creator="0" insign="." outsign="."/>
 <align out="a188 a189 a190 a191 a192 a193 a194" type="" in="b100 b101 b102 b103" creator="0" insign="da un uomo all’altro”" outsign="fra den ene mand til den anden"/>
-<align out="a197" type="" in="a197" creator="0" insign="hun" outsign="hun"/>
 <align out="a202 a203" type="" in="b106" creator="0" insign="“avevo" outsign="Jeg havde"/>
 <align out="a204 a205" type="" in="b107" creator="0" insign="sempre" outsign="hele tiden"/>
 <align out="a208 a209 a210" type="" in="b109 b110" creator="0" insign="in mente" outsign="inde i hovedet"/>
@@ -112,7 +105,6 @@
 <align out="a213 a214" type="f" in="b114" creator="0" insign="capii" outsign="jeg opdagede"/>
 <align out="a215" type="" in="a215" creator="0" insign="," outsign=","/>
 <align out="a218" type="" in="a218" creator="0" insign="slet" outsign="slet"/>
-<align out="a220" type="mv" in="b117" creator="0" insign="era" outsign="er"/>
 <align out="a222" type="" in="a222" creator="0" insign="," outsign=","/>
 <align out="a223 a224 a225 a226" type="mcn" in="b119 b120" creator="0" insign="il punto" outsign="det drejer sig om"/>
 <align out="a232" type="" in="a232" creator="0" insign="," outsign=","/>
@@ -121,13 +113,21 @@
 <align out="a221" type="" in="b118" creator="-1" insign="quello" outsign="det"/>
 <align out="a219" type="" in="b116" creator="-1" insign="non" outsign="ikke"/>
 <align out="a227" type="" in="b121" creator="-1" insign="." outsign="."/>
-<align out="a234 a235 a236" type="mv" in="b124 b125 b126 b127" creator="0" insign="se fossi riuscita a" outsign="bare jeg kunne"/>
 <align out="a238" type="" in="b132" creator="0" insign="un" outsign="en"/>
 <align out="a239" type="" in="b133" creator="0" insign="uomo" outsign="mand"/>
 <align out="a237 a240 a241" type="f" in="b128 b129 b130 b131" creator="0" insign="far in modo che" outsign="få til at"/>
-<align out="a242 a243 a244 a245" type="mv" in="b134 b135 b136" creator="0" insign="stesse con me" outsign="være sammen med mig"/>
 <align out="a246" type="" in="b137" creator="0" insign="," outsign=","/>
-<align out="a247 a248 a249 a250" type="mv" in="b138 b139 b140 b141 b142" creator="0" insign="allora tutto sarebbe andato bene.”" outsign="så var alt godt"/>
-<align out="a251" type="" in="b142" creator="0" insign="bene.”" outsign="."/>
 <align out="a233" type="" in="b123" creator="-1" insign="che" outsign="at"/>
+<align out="a104" type="-="" in="b42" creator="0" insign="“Siamo" outsign="&nbsp;-&nbsp;"/>
+<align out="a167" type="" in="b85" creator="0" insign="Nudi" outsign="nøgne"/>
+<align out="a165 a166 a172 a173" type="" in="b91" creator="0" insign="chiacchieravamo" outsign="Vi lå og snakkede"/>
+<align out="a168 a169 a170 a171" type="" in="b87 b88 b89" creator="0" insign="uno vicino all’altra" outsign="ved siden af hinanden"/>
+<align out="a184" type="-="" in="b98" creator="0" insign="“Prima" outsign="&nbsp;-&nbsp;"/>
+<align out="a196 a197" type="" in="b104" creator="0" insign="disse" outsign="sagde hun"/>
+<align out="a201" type="-="" in="b106" creator="0" insign="“avevo" outsign="&nbsp;-&nbsp;"/>
+<align out="a220" type="" in="b117" creator="0" insign="era" outsign="er"/>
+<align out="a234 a235 a236" type="f" in="b124 b125 b126 b127" creator="0" insign="se fossi riuscita a" outsign="bare jeg kunne"/>
+<align out="a242 a243 a244 a245" type="" in="b134 b135 b136" creator="0" insign="stesse con me" outsign="være sammen med mig"/>
+<align out="a247 a248 a249 a250" type="" in="b138 b139 b140 b141 b142" creator="0" insign="allora tutto sarebbe andato bene.”" outsign="så var alt godt"/>
+<align out="a251" type=".=." in="b142" creator="0" insign="bene.”" outsign="."/>
 </DTAGalign>

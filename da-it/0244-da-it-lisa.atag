@@ -7,10 +7,7 @@
 <align out="a47 a48" type="f" in="b4 b5 b6" creator="0" insign="la storia delle" outsign="det med"/>
 <align out="a49" type="" in="b7 b8 b9" creator="0" insign="liste d' attesa" outsign="ventelisterne"/>
 <align out="a50" type="" in="a50" creator="0" insign="," outsign=","/>
-<align out="a52" type="" in="b11" creator="0" insign="dovevano" outsign="skulle"/>
-<align out="a53" type="f" in="b12 b13" creator="0" insign="essere eliminate" outsign="væk"/>
 <align out="a51" type="" in="b10" creator="-1" insign="che" outsign="der"/>
-<align out="a61" type="" in="b15" creator="-1" insign="Nel" outsign="i"/>
 <align out="a59" type="" in="b19" creator="-1" insign="John" outsign="John"/>
 <align out="a43" type="" in="b0" creator="-1" insign="E" outsign="Og"/>
 <align out="a54" type="" in="b14" creator="-1" insign="." outsign="."/>
@@ -53,7 +50,6 @@
 <align out="a115" type="" in="b66" creator="-1" insign="." outsign="."/>
 <align out="a107" type="" in="b59" creator="-1" insign="di" outsign="om"/>
 <align out="a110" type="" in="b62" creator="-1" insign="di" outsign="på"/>
-<align out="a125" type="" in="b71 b72" creator="0" insign="lo spazio" outsign="areal"/>
 <align out="a127 a128" type="" in="b76" creator="0" insign="sarà" outsign="vil blive"/>
 <align out="a129" type="" in="b77" creator="0" insign="ampliato" outsign="udvidet"/>
 <align out="a130" type="" in="b78" creator="0" insign="per" outsign="af"/>
@@ -77,9 +73,7 @@
 <align out="a142" type="" in="b90" creator="0" insign="di" outsign="at"/>
 <align out="a143" type="" in="a143" creator="0" insign="man" outsign="man"/>
 <align out="a144" type="" in="a144" creator="0" insign="skal" outsign="skal"/>
-<align out="a145 a146 a147 a148" type="f" in="b91 b98 b99 b100 b101 b102" creator="0" insign="investire in miglioramenti strutturali dall' altro" outsign="sætte ind på gyngerne"/>
 <align out="a149" type="" in="a149" creator="0" insign="," outsign=","/>
-<align out="a150 a151 a152 a153 a154" type="f" in="b92 b93 b94 b95 b96 b97" creator="0" insign="i risparmi ottenuti da un lato" outsign="hvad man vinder på karrusellen"/>
 <align out="a162" type="" in="a162" creator="0" insign="i" outsign="i"/>
 <align out="b104" type="" in="b104" creator="0" insign="A" outsign="A"/>
 <align out="b105" type="" in="b105" creator="0" insign="partire" outsign="partire"/>
@@ -91,7 +85,6 @@
 <align out="a166" type="" in="b114 b115" creator="0" insign="metri quadrati" outsign="kvadratmeter"/>
 <align out="a169" type="" in="b116" creator="-1" insign="." outsign="."/>
 <align out="a172" type="" in="b117" creator="-1" insign="E" outsign="Og"/>
-<align out="a180" type="" in="b125 b126" creator="0" insign="l' affitto" outsign="husleje"/>
 <align out="b128" type="" in="b128" creator="0" insign="cioè" outsign="cioè"/>
 <align out="a173" type="" in="b118" creator="-1" insign="qui" outsign="her"/>
 <align out="a187" type="" in="b132" creator="-1" insign="." outsign="."/>
@@ -122,14 +115,11 @@
 <align out="a227" type="" in="a227" creator="0" insign="er" outsign="er"/>
 <align out="a231" type="" in="b168 b169" creator="0" insign="metro quadrato" outsign="kvadratmeter"/>
 <align out="b171" type="" in="b171" creator="0" insign="," outsign=","/>
-<align out="b172" type="" in="b172" creator="0" insign="detto" outsign="detto"/>
-<align out="b173" type="" in="b173" creator="0" insign="altrimenti" outsign="altrimenti"/>
 <align out="b174" type="" in="b174" creator="0" insign="," outsign=","/>
 <align out="a236" type="" in="b175" creator="0" insign="circa" outsign="cirka"/>
 <align out="a221" type="" in="b160" creator="-1" insign="2" outsign="to"/>
 <align out="a222" type="" in="b161 b162" creator="-1" insign="metri quadrati" outsign="kvadratmeter"/>
 <align out="a228" type="" in="b165" creator="-1" insign="9,5" outsign="9,5"/>
-<align out="a235" type="" in="b170" creator="-1" insign="o" outsign="Eller"/>
 <align out="a229" type="" in="b166" creator="-1" insign="chili" outsign="kilo"/>
 <align out="a217" type="" in="b156" creator="-1" insign="che" outsign="Som"/>
 <align out="a220" type="" in="b159" creator="-1" insign="per" outsign="på"/>
@@ -150,12 +140,8 @@
 <align out="a83 a87" type="" in="b42" creator="0" insign="significa" outsign="vil sige"/>
 <align out="a91 a92 a93" type="f" in="b44" creator="0" insign="dai" outsign="fra at være"/>
 <align out="a90 a98 a99" type="f" in="b50 b51 b52" creator="0" insign="si passerà a" outsign="de vil være"/>
-<align out="a124" type="s" in="b73" creator="0" insign="di" outsign="TEBA's"/>
-<align out="a124" type="" in="b74" creator="0" insign="TEBA" outsign="TEBA's"/>
 <align out="a160 a161 a164" type="f+mvd" in="b110 b111 b112" creator="0" insign="avrà a disposizione" outsign="Der er afsat"/>
-<align out="a174 a175" type="f+mvd" in="b119 b120" creator="0" insign="si fa" outsign="er det"/>
 <align out="a176 a177 a178 a179" type="f" in="b121 b122 b123 b124" creator="0" insign="come quando si calcola" outsign="ligesom med udregningen af"/>
-<align out="a180" type="d" in="b125 b126" creator="0" insign="l' affitto" outsign="husleje"/>
 <align out="a182 a183 a186" type="f" in="b129 b130" creator="0" insign="si considera" outsign="vi tager med"/>
 <align out="a184 a185" type="" in="b131" creator="0" insign="tutto" outsign="det hele"/>
 <align out="a194" type="s" in="b137 b139" creator="0" insign="la del" outsign="pædagogernes"/>
@@ -163,4 +149,14 @@
 <align out="a195" type="" in="b138" creator="0" insign="cucina" outsign="the-køkken"/>
 <align out="a219" type="" in="b157 b158" creator="0" insign="vengono distribuiti" outsign="fordeles"/>
 <align out="a165" type="" in="b113" creator="-1" insign="2" outsign="to"/>
+<align out="a52 a53" type="" in="b11 b12 b13" creator="0" insign="dovevano essere eliminate" outsign="skulle væk"/>
+<align out="a61" type="wo" in="b15" creator="0" insign="Nel" outsign="i"/>
+<align out="a125" type="f" in="b72" creator="0" insign="spazio" outsign="areal"/>
+<align out="a145 a146 a147 a148 a150 a151 a152 a153 a154" type="f" in="b91 b92 b93 b94 b95 b96 b97 b98 b99 b100 b101 b102" creator="0" insign="investire i risparmi ottenuti da un lato in miglioramenti strutturali dall' altro" outsign="sætte ind på gyngerne hvad man vinder på karrusellen"/>
+<align out="a174 a175" type="f" in="b119 b120" creator="0" insign="si fa" outsign="er det"/>
+<align out="a180" type="d" in="b125" creator="0" insign="l'" outsign="husleje"/>
+<align out="a180" type="" in="b126" creator="0" insign="affitto" outsign="husleje"/>
+<align out="a235" type="" in="b170 b172 b173" creator="0" insign="o detto altrimenti" outsign="Eller"/>
+<align out="a124" type="s" in="b71 b73" creator="0" insign="lo di" outsign="TEBA's"/>
+<align out="a124" type="" in="b74" creator="0" insign="TEBA" outsign="TEBA's"/>
 </DTAGalign>

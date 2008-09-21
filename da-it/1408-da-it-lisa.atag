@@ -22,30 +22,19 @@
 <align out="a53 a54 a55" type="" in="b23 b24 b25 b26 b27 b28" creator="0" insign="a chi si pone la domanda" outsign="hvem man spørger"/>
 <align out="a59" type="s" in="b30" creator="0" insign="Il" outsign="Partiet"/>
 <align out="a59" type="" in="b31" creator="0" insign="partito" outsign="Partiet"/>
-<align out="a61" type="" in="a61" creator="0" insign="leveringsdygtigt" outsign="leveringsdygtigt"/>
-<align out="b33" type="" in="b33" creator="0" insign="una" outsign="una"/>
-<align out="b34" type="" in="b34" creator="0" insign="fucina" outsign="fucina"/>
 <align out="a62" type="" in="b35" creator="0" insign="di" outsign="i"/>
 <align out="a65" type="" in="b37 b38 b39" creator="0" insign="punti di vista" outsign="synspunkter"/>
 <align out="a64" type="" in="b40" creator="0" insign="interessanti" outsign="interessante"/>
 <align out="a66" type="" in="b41" creator="0" insign="." outsign="."/>
 <align out="a63" type="" in="b36" creator="-1" insign="molti" outsign="mange"/>
 <align out="a69" type="" in="b42" creator="-1" insign="A" outsign="På"/>
-<align out="a70" type="" in="b43" creator="-1" insign="Christiansborg" outsign="Christiansborg"/>
 <align out="a60" type="" in="b32" creator="-1" insign="è" outsign="er"/>
 <align out="a71" type="" in="a71" creator="0" insign="står" outsign="står"/>
 <align out="a73" type="" in="b51" creator="0" insign="nuovo" outsign="ny"/>
 <align out="a74" type="f" in="b52 b53 b54" creator="0" insign="capo del partito" outsign="formand"/>
-<align out="b44" type="" in="b44" creator="0" insign="," outsign=","/>
-<align out="b45" type="" in="b45" creator="0" insign="sede" outsign="sede"/>
-<align out="b46" type="" in="b46" creator="0" insign="del" outsign="del"/>
-<align out="b47" type="" in="b47" creator="0" insign="parlamento" outsign="parlamento"/>
-<align out="b48" type="" in="b48" creator="0" insign="danese" outsign="danese"/>
-<align out="b49" type="" in="b49" creator="0" insign="," outsign=","/>
 <align out="a72" type="" in="b50" creator="0" insign="il" outsign="den"/>
 <align out="a78" type="" in="a78" creator="0" insign="og" outsign="og"/>
 <align out="a79 a80" type="" in="b58" creator="0" insign="appoggia" outsign="tilslutter sig"/>
-<align out="a82 a83 a84" type="" in="b61" creator="0" insign="ufficiale" outsign="&quot; officielle &quot;"/>
 <align out="a85" type="" in="b60" creator="0" insign="posizione" outsign="synspunkt"/>
 <align out="a75" type="" in="b55" creator="-1" insign="Poul" outsign="Poul"/>
 <align out="a76" type="" in="b56" creator="-1" insign="Nyrup" outsign="Nyrup"/>
@@ -62,7 +51,6 @@
 <align out="a89" type="" in="a89" creator="0" insign="ikke" outsign="ikke"/>
 <align out="a90" type="" in="a90" creator="0" insign="skal" outsign="skal"/>
 <align out="a91 a92" type="f" in="b68" creator="0" insign="avanzare" outsign="komme med"/>
-<align out="a93 a94 a95 a96" type="mci" in="b69 b70 b71 b72 b73" creator="0" insign="proposte per risolvere la questione" outsign="bud på en løsning"/>
 <align out="a97" type="" in="a97" creator="0" insign="," outsign=","/>
 <align out="a99" type="" in="a99" creator="0" insign="vi" outsign="vi"/>
 <align out="a100" type="" in="a100" creator="0" insign="har" outsign="har"/>
@@ -126,13 +114,10 @@
 <align out="a131" type="" in="b116" creator="-1" insign="Bjerregaard" outsign="Bjerregaard"/>
 <align out="b132" type="" in="b132" creator="0" insign="già" outsign="già"/>
 <align out="b133" type="" in="b133" creator="0" insign="bocciato" outsign="bocciato"/>
-<align out="a145" type="f" in="b135 b136" creator="0" insign="La Bjerregaard" outsign="Hun"/>
 <align out="a146 a148 a149" type="" in="b138" creator="0" insign="intende" outsign="har tænkt sig"/>
 <align out="a152" type="s" in="b140" creator="0" insign="al" outsign="afstemningsresultatet"/>
 <align out="a152" type="" in="b141 b142 b143" creator="0" insign="risultato del referendum" outsign="afstemningsresultatet"/>
-<align out="a150 a151 a153 a154" type="" in="b139" creator="0" insign="adeguarsi" outsign="at tage til efterretning"/>
 <align out="b144" type="" in="b144" creator="0" insign="svoltosi" outsign="svoltosi"/>
-<align out="a157 a159" type="n" in="b152" creator="0" insign="esistono" outsign="der findes"/>
 <align out="a158" type="" in="b151" creator="0" insign="non" outsign="ikke"/>
 <align out="b147" type="" in="b147" creator="0" insign="a" outsign="a"/>
 <align out="b148" type="" in="b148" creator="0" insign="suo" outsign="suo"/>
@@ -177,8 +162,6 @@
 <align out="a207" type="" in="b201" creator="0" insign="." outsign="."/>
 <align out="a199" type="" in="b192 b193" creator="0" insign="punto vista" outsign="synspunkt"/>
 <align out="a212" type="" in="b202 b203 b204" creator="0" insign="In quella sede" outsign="Her"/>
-<align out="a214" type="f" in="b205" creator="0" insign="Auken" outsign="han"/>
-<align out="a215 a216 a217" type="" in="b207 b208" creator="0" insign="l’idea di" outsign="alle spekulationer om"/>
 <align out="a218" type="" in="b209" creator="0" insign="un" outsign="en"/>
 <align out="a219" type="" in="b210" creator="0" insign="nuovo" outsign="ny"/>
 <align out="a220" type="" in="b211" creator="0" insign="referendum" outsign="folkeafstemning"/>
@@ -203,4 +186,15 @@
 <align out="a246" type="s" in="b237" creator="0" insign="il" outsign="Maastricht-Traktaten"/>
 <align out="a246" type="" in="b238 b239 b240" creator="0" insign="Trattato di Maastricht" outsign="Maastricht-Traktaten"/>
 <align out="a247" type="" in="b241" creator="-1" insign="." outsign="."/>
+<align out="a61" type="f+mcn" in="b33 b34" creator="0" insign="una fucina" outsign="leveringsdygtigt"/>
+<align out="a70" type="" in="b43 b44 b45 b46 b47 b48 b49" creator="0" insign="Christiansborg , sede del parlamento danese ," outsign="Christiansborg"/>
+<align out="a82" type="" in="a82" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a84" type="" in="a84" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a83" type="" in="b61" creator="0" insign="ufficiale" outsign="officielle"/>
+<align out="a93 a94 a95 a96" type="" in="b69 b70 b71 b72 b73" creator="0" insign="proposte per risolvere la questione" outsign="bud på en løsning"/>
+<align out="a145" type="lv" in="b135 b136" creator="0" insign="La Bjerregaard" outsign="Hun"/>
+<align out="a157 a159" type="" in="b152" creator="0" insign="esistono" outsign="der findes"/>
+<align out="a214" type="lv" in="b205" creator="0" insign="Auken" outsign="han"/>
+<align out="a215 a216 a217" type="f+n" in="b207 b208" creator="0" insign="l’idea di" outsign="alle spekulationer om"/>
+<align out="a150 a151 a153 a154" type="f" in="b139 b140" creator="0" insign="adeguarsi al" outsign="at tage til efterretning"/>
 </DTAGalign>

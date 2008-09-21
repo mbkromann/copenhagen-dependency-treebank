@@ -1,7 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0531-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0531-it-auto.tag" sign="_input"/>
-<align out="a147" type="" in="a147" creator="-1" insign="en" outsign="en"/>
 <align out="a212" type="" in="a212" creator="-1" insign="at" outsign="at"/>
 <align out="a237" type="" in="a237" creator="-1" insign="at" outsign="at"/>
 <align out="a247" type="" in="a247" creator="-1" insign="det" outsign="det"/>
@@ -14,8 +13,6 @@
 <align out="a49" type="" in="b6 b7" creator="-1" insign="DA TRASMETTERSI" outsign="UDSENDES"/>
 <align out="a50" type="" in="b8" creator="-1" insign="ORE" outsign="KL"/>
 <align out="a53" type="" in="b11" creator="-1" insign="ANNUNCIATORE" outsign="OPLÆSER"/>
-<align out="a65" type="mcn" in="b15 b16 b17" creator="-1" insign="Dopo la condanna" outsign="dømte"/>
-<align out="a43" type="" in="b0 b1" creator="-1" insign="COLLABORAT ." outsign="MEDARB"/>
 <align out="a48" type="" in="b5" creator="-1" insign="RTZ" outsign="RTZ"/>
 <align out="a52" type="" in="b10" creator="-1" insign="1600" outsign="1600"/>
 <align out="a56" type="" in="b14" creator="-1" insign="ER" outsign="ER"/>
@@ -54,9 +51,6 @@
 <align out="a87" type="" in="b52 b53 b54 b55" creator="0" insign="tribunale di primo grado" outsign="byret"/>
 <align out="a100" type="" in="b70 b71 b72 b73" creator="0" insign="possibilità di un ricorso" outsign="ankemylighed"/>
 <align out="a99" type="d" in="b69" creator="0" insign="la" outsign="en"/>
-<align out="a107" type="s" in="b75" creator="0" insign="Il" outsign="Bestyrelsesformanden"/>
-<align out="a107" type="" in="b76" creator="0" insign="presidente" outsign="Bestyrelsesformanden"/>
-<align out="b77" type="" in="b77" creator="0" insign="Leer" outsign="Leer"/>
 <align out="a109 a110" type="" in="b82 b83 b84 b85" creator="0" insign="un anno e mezzo" outsign="halvandet års"/>
 <align out="a98" type="" in="b68" creator="-1" insign="riservato" outsign="reserveret"/>
 <align out="a96" type="" in="b63 b64 b65" creator="-1" insign="il pubblico ministero" outsign="anklagemyndigheden"/>
@@ -93,11 +87,9 @@
 <align out="a139" type="s" in="b123" creator="0" insign="Il" outsign="direktør"/>
 <align out="a139" type="" in="b124" creator="0" insign="direttore" outsign="direktør"/>
 <align out="a128" type="" in="b108" creator="-1" insign="violazione" outsign="overtrædelse"/>
-<align out="a141" type="" in="b125" creator="-1" insign="Olsdorf" outsign="Olsdorff"/>
 <align out="a135" type="" in="b122" creator="-1" insign="." outsign="."/>
 <align out="a127" type="" in="b107" creator="-1" insign="e" outsign="og"/>
 <align out="b132" type="" in="b132" creator="0" insign="di" outsign="di"/>
-<align out="a147" type="" in="b138" creator="0" insign="una" outsign="en"/>
 <align out="b135" type="" in="b135" creator="0" insign="al" outsign="al"/>
 <align out="b136" type="" in="b136" creator="0" insign="pagamento" outsign="pagamento"/>
 <align out="b137" type="" in="b137" creator="0" insign="di" outsign="di"/>
@@ -216,4 +208,12 @@
 <align out="a253" type="" in="b259 b260" creator="-1" insign="ha aggiunto" outsign="indskød"/>
 <align out="a255" type="" in="b263" creator="-1" insign="durante" outsign="under"/>
 <align out="a257" type="" in="b268" creator="-1" insign="osservazioni" outsign="bemærkninger"/>
+<align out="a43" type="" in="b0" creator="0" insign="COLLABORAT" outsign="MEDARB"/>
+<align out="b15" type="" in="b15" creator="0" insign="Dopo" outsign="Dopo"/>
+<align out="a65" type="mcn" in="b16 b17" creator="0" insign="la condanna" outsign="dømte"/>
+<align out="a107" type="s" in="b75" creator="0" insign="Il" outsign="Bestyrelsesformanden"/>
+<align out="a107" type="lv" in="b76 b77" creator="0" insign="presidente Leer" outsign="Bestyrelsesformanden"/>
+<align out="a141" type="e" in="b125" creator="0" insign="Olsdorf" outsign="Olsdorff"/>
+<align out="a147" type="" in="b138" creator="0" insign="una" outsign="en"/>
+<align out="b1" type="" in="b1" creator="0" insign="." outsign="."/>
 </DTAGalign>
