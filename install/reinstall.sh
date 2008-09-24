@@ -11,7 +11,7 @@ installdir=$cdtdir/install
 
 # Delete Google user name and password, and move directories to /tmp
 cd $home
-tmpdir="/tmp/cdt.`date +%Y%m%d`"
+tmpdir="/tmp/cdt.`date +%Y%m%d-%H%M%S`"
 mkdir $tmpdir
 mv -f $svnuser $svnpasswd $cdtname cdt-all cdt $tmpdir
 
@@ -27,7 +27,7 @@ if [ ! -f $svnuser ] ; then
 	chown $user $svnuser $svnpasswd
 	echo -n "CDT name (eg, morten): "
 	read usercdt
-	echo $usercdt > $cdtuser
+	echo $usercdt > $cdtname
 fi
 
 # Get user and password
