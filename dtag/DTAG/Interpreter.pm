@@ -4701,6 +4701,7 @@ sub cmd_save {
 		$ftype = '-malt' if ($fname =~ /\.malt$/);
 		$ftype = '-match' if ($fname =~ /\.match$/);
 		$ftype = '-conll' if ($fname =~ /\.conll$/);
+		$ftype = '-osdt' if ($fname =~ /\.osdt$/);
 	}
 
 	# Save file
@@ -4718,6 +4719,8 @@ sub cmd_save {
 		$self->cmd_save_conll($graph, $fname);
 	} elsif ($ftype eq '-match') {
 		$self->cmd_save_matches($fname);
+	} elsif ($ftype eq '-osdt') {
+		$self->cmd_save_osdt($graph, $fname);
 	}
 
 	# Return
@@ -5185,6 +5188,42 @@ sub cmd_save_matches {
 	# Return
 	return 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_save_osdt.pl
+## ------------------------------------------------------------
+
+sub cmd_save_osdt {
+	my $self = shift;
+	my $graph = shift;
+	my $file = shift || "";
+
+	# Update tag file name
+	$graph->file($file) if ($file);
+	$file = $graph->file();
+
+	# Check whether file name exists
+    if (! $file) {
+		error("cannot save: no name specified for file")
+			if ($graph->mtime());
+		return 1;
+	}
+						
+	# Open tag file
+	Node->use_color(0);
+	open(XML, "> $file") 
+		|| return error("cannot open osdt-file for writing: $file");
+	print XML $graph->print_osdt();
+	close(XML);
+	print "saved osdt-file $file\n" if (! $self->quiet());
+
+	# Mark graph as being unmodified
+	$graph->mtime(undef);
+
+	# Return
+	return 1;
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_save_tag.pl
