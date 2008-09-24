@@ -13,7 +13,7 @@ installdir=$cdtdir/install
 cd $home
 tmpdir="/tmp/cdt.`date +%Y%m%d`"
 mkdir $tmpdir
-mv -f $svnuser $svnpasswd .cdtuser cdt-all cdt $tmpdir
+mv -f $svnuser $svnpasswd $cdtname cdt-all cdt $tmpdir
 
 # Prompt for Google user name and password
 if [ ! -f $svnuser ] ; then
@@ -25,7 +25,7 @@ if [ ! -f $svnuser ] ; then
 	read passwd
 	echo $passwd > $svnpasswd
 	chown $user $svnuser $svnpasswd
-	echo -n "CDT name (eg, morten)"
+	echo -n "CDT name (eg, morten): "
 	read usercdt
 	echo $usercdt > $cdtuser
 fi
@@ -44,19 +44,5 @@ if [ ! -d cdt-all ] ; then
 else
 	echo "ERROR: Directory $home/cdt already exists!"
 fi
-
-# Copy icons to desktop
-if ps aux | grep gnome | grep -v grep > /dev/null ; then
-	echo "Gnome desktop (eg, Ubuntu): copying Gnome desktop icons"
-	cp $installdir/gnome/*.desktop $home/Desktop
-fi
-if ps aux | grep xfce | grep -v grep
-	echo "XFCE desktop (eg, Xubuntu): copying XFCE desktop icons"
-fi
-
-# Extract dtag archive
-echo
-echo "Please log in as root and execute the following command:"
-echo "    sh $installdir/install-root.sh"
 
 
