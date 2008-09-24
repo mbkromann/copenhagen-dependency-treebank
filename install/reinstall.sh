@@ -19,8 +19,8 @@ mv -f $svnuser $svnpasswd $cdtname cdt-all cdt $tmpdir
 if [ ! -f $svnuser ] ; then
 	echo "Enter your user name and password. Please be very careful when typing!"
 	echo -n "Google code username (email): "
-	read user
-	echo $user > $svnuser
+	read suser
+	echo $suser > $svnuser
 	echo -n "Google code password: "
 	read passwd
 	echo $passwd > $svnpasswd
