@@ -70,10 +70,8 @@
 <align out="a250" type="" in="b197" creator="-101" insign="que" outsign="der"/>
 <align out="a255" type="" in="b202" creator="-101" insign="de" outsign="i"/>
 <align out="a257" type="" in="b205" creator="-101" insign="y" outsign="og"/>
-<align out="a258" type="" in="b206" creator="-101" insign="la" outsign="i"/>
 <align out="b83" type="" in="b83" creator="-101" insign="de" outsign="de"/>
 <align out="b168" type="" in="b168" creator="-101" insign="de" outsign="de"/>
-<align out="a43" type="" in="b0" creator="-100" insign="CUANDO" outsign="DA"/>
 <align out="a44" type="s" in="b1" creator="0" insign="el" outsign="Socialdemokratiet"/>
 <align out="a44" type="" in="b2 b3" creator="0" insign="partido Socialdemócrata" outsign="Socialdemokratiet"/>
 <align out="a45 a46" type="" in="b4 b5" creator="0" insign="se rindió" outsign="gav op"/>
@@ -183,4 +181,6 @@
 <align out="a256" type="" in="b204" creator="0" insign="población" outsign="befolkningen"/>
 <align out="a259" type="" in="b207 b208" creator="0" insign="vida económico-industrial" outsign="erhvervslivet"/>
 <align out="a260" type="" in="b209" creator="0" insign="." outsign="."/>
+<align out="a43" type="" in="b0" creator="-100" insign="CUANDO" outsign="DA"/>
+<align out="a258" type="e" in="b206" creator="0" insign="la" outsign="i"/>
 </DTAGalign>
