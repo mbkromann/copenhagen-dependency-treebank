@@ -1,0 +1,162 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0607-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0607-it-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="0" insign="?se" outsign="hvis"/>
+<align out="a42" type="" in="a42" creator="0" insign="..." outsign="..."/>
+<align out="a52 a53" type="n" in="b1 b2" creator="0" insign="nelle feci" outsign="i afføringen"/>
+<align out="a44" type="" in="a44" creator="0" insign="der" outsign="der"/>
+<align out="a45" type="f" in="b3" creator="0" insign="compaiono" outsign="kommer"/>
+<align out="a51" type="" in="b4 b5 b6" creator="0" insign="tracce di sangue" outsign="blodspor"/>
+<align out="a50" type="" in="b7" creator="0" insign="o" outsign="eller"/>
+<align out="a49" type="" in="b8" creator="0" insign="frammenti" outsign="opkastninger"/>
+<align out="a48" type="" in="b9 b10 b11 b12 b13" creator="0" insign="simili a fondi di caffè" outsign="kaffegrumsligende"/>
+<align out="a46 a47" type="" in="a46 a47" creator="0" insign="blodige eller" outsign="blodige eller"/>
+<align out="a54" type="" in="a54" creator="0" insign="." outsign="."/>
+<align out="b14" type="" in="b14" creator="0" insign="," outsign=","/>
+<align out="a59" type="n+s" in="b17 b18" creator="0" insign="le feci" outsign="afføringen"/>
+<align out="a60" type="f" in="b19" creator="0" insign="assumono" outsign="bliver"/>
+<align out="a61" type="" in="b20 b21 b22" creator="0" insign="una colorazione nera" outsign="sortfarvet"/>
+<align out="a62" type="" in="b23" creator="0" insign="." outsign="."/>
+<align out="a69" type="" in="b24" creator="0" insign="..." outsign="..."/>
+<align out="a57" type="" in="b15" creator="-1" insign="oppure" outsign="Eller"/>
+<align out="a58" type="" in="b16" creator="-1" insign="se" outsign="hvis"/>
+<align out="a81" type="" in="b42" creator="0" insign="giorni" outsign="dages"/>
+<align out="a80" type="" in="b41" creator="0" insign="pochi" outsign="få"/>
+<align out="a82" type="mcv" in="b38" creator="0" insign="durino" outsign="varighed"/>
+<align out="a75" type="" in="b35" creator="0" insign="leggeri" outsign="lettere"/>
+<align out="a74" type="" in="b33 b34" creator="0" insign="anche se" outsign="selv"/>
+<align out="a72" type="" in="b29 b30 b31" creator="0" insign="dolori di stomaco" outsign="mavesmerter"/>
+<align out="a71" type="f" in="b28" creator="0" insign="insoliti" outsign="nytilkomne"/>
+<align out="a77" type="" in="a77" creator="0" insign="af" outsign="af"/>
+<align out="b37" type="" in="b37" creator="0" insign="che" outsign="che"/>
+<align out="a84" type="" in="b44" creator="0" insign="specialmente" outsign="særlig"/>
+<align out="a70" type="f" in="b25 b26 b27" creator="-1" insign="in caso di" outsign="ved"/>
+<align out="a79" type="" in="b40" creator="-1" insign="di" outsign="end"/>
+<align out="a78" type="" in="b39" creator="-1" insign="più" outsign="mere"/>
+<align out="a83" type="" in="b43" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a73" type="" in="b32" creator="-1" insign="," outsign=","/>
+<align out="a76" type="" in="b36" creator="-1" insign="," outsign=","/>
+<align out="a85" type="f" in="b45 b46 b47" creator="0" insign="in caso di" outsign="hvis"/>
+<align out="a88" type="" in="b49 b50" creator="0" insign="superiore ai" outsign="over"/>
+<align out="a86 a87" type="" in="a86 a87" creator="0" insign="du er" outsign="du er"/>
+<align out="b48" type="" in="b48" creator="0" insign="età" outsign="età"/>
+<align out="b51" type="" in="b51" creator="0" insign="di" outsign="di"/>
+<align out="a99 a100 a101" type="mcv" in="b57 b58 b59 b60" creator="0" insign="si ha l' impressione" outsign="ved følelse af"/>
+<align out="b56" type="" in="b56" creator="0" insign="se" outsign="se"/>
+<align out="a103" type="s" in="b62 b63" creator="0" insign="l' intestino" outsign="tarmen"/>
+<align out="a105" type="" in="b65 b66" creator="0" insign="sia svuotato" outsign="tømmes"/>
+<align out="a106" type="" in="b67" creator="0" insign="completamente" outsign="fuldstændigt"/>
+<align out="a107 a108" type="mcv" in="b68 b69 b70 b71 b72" creator="0" insign="quando si va in bagno" outsign="ved toiletbesøg"/>
+<align out="a109" type="" in="b73" creator="0" insign="." outsign="."/>
+<align out="a116" type="" in="b74" creator="0" insign="..." outsign="..."/>
+<align out="a89" type="" in="b52" creator="-1" insign="40" outsign="40"/>
+<align out="a90" type="" in="b53" creator="-1" insign="anni" outsign="år"/>
+<align out="a98" type="" in="b55" creator="-1" insign="..." outsign="..."/>
+<align out="a102" type="" in="b61" creator="-1" insign="che" outsign="at"/>
+<align out="a104" type="" in="b64" creator="-1" insign="non" outsign="ikke"/>
+<align out="a91" type="" in="b54" creator="-1" insign="." outsign="."/>
+<align out="a119" type="" in="b79" creator="0" insign="definitivamente" outsign="varigt"/>
+<align out="a120 a121" type="" in="b78 b80 b81 b82" creator="0" insign="assumono un carattere diverso" outsign="ændrer karakter"/>
+<align out="a122" type="" in="b83" creator="0" insign="." outsign="."/>
+<align out="a129 a130 a131" type="" in="b84 b85" creator="0" insign="E' essenziale" outsign="Vigtigst er det"/>
+<align out="a139" type="" in="b93 b94" creator="0" insign="poco sane" outsign="usunde"/>
+<align out="a142" type="" in="b95" creator="0" insign="che" outsign="der"/>
+<align out="a143" type="" in="b96" creator="0" insign="hanno" outsign="har"/>
+<align out="a140" type="s" in="b90 b91 b92" creator="0" insign="le abitudini alimentari" outsign="kostvaner"/>
+<align out="b87" type="" in="b87" creator="0" insign="," outsign=","/>
+<align out="b89" type="" in="b89" creator="0" insign="," outsign=","/>
+<align out="a132" type="f" in="b88" creator="0" insign="innanzitutto" outsign="imidlertid"/>
+<align out="a134 a135 a136" type="" in="b86" creator="0" insign="modificare" outsign="foretage en omlægning"/>
+<align out="a133" type="" in="a133" creator="0" insign="at" outsign="at"/>
+<align out="a137 a138" type="" in="a137 a138" creator="0" insign="af de" outsign="af de"/>
+<align out="a141" type="" in="a141" creator="0" insign="," outsign=","/>
+<align out="a118" type="n+s" in="b76 b77" creator="-1" insign="le feci" outsign="afføringen"/>
+<align out="a117" type="" in="b75" creator="-1" insign="se" outsign="hvis"/>
+<align out="a144" type="" in="b97" creator="0" insign="causato" outsign="forårsaget"/>
+<align out="a145" type="s" in="b98 b99" creator="0" insign="il soprappeso" outsign="overvægten"/>
+<align out="a151" type="" in="b101 b102 b103" creator="0" insign="tra l' altro" outsign="bl.a."/>
+<align out="a153 a154 a155" type="mvg" in="b104" creator="0" insign="analizzando" outsign="ved at analysere"/>
+<align out="a149 a150 a152" type="" in="a149 a150 a152" creator="0" insign="Det kan ske" outsign="Det kan ske"/>
+<align out="a156" type="" in="b106" creator="0" insign="propria" outsign="sine"/>
+<align out="a157" type="n+s" in="b105 b107" creator="0" insign="la alimentazione" outsign="kostvaner"/>
+<align out="a158" type="" in="b108" creator="0" insign="e" outsign="og"/>
+<align out="a159 a160 a161" type="" in="b111 b112 b113 b114" creator="0" insign="con l' ausilio di" outsign="ved hjælp af"/>
+<align out="a162" type="" in="b115" creator="0" insign="una" outsign="en"/>
+<align out="a163" type="" in="b116 b117 b118" creator="0" insign="tabella delle calorie" outsign="kalorietabel"/>
+<align out="a146" type="f" in="b100" creator="-1" insign="," outsign="."/>
+<align out="a164 a165 a166" type="mvg" in="b109 b110" creator="0" insign="individuando ," outsign="finde frem til"/>
+<align out="a168" type="" in="b121" creator="0" insign="alimenti" outsign="næringsmidler"/>
+<align out="a172 a173 a174" type="" in="b122 b123" creator="0" insign="maggiormente calorici" outsign="rigest på kalorier"/>
+<align out="a178" type="mvi" in="b125" creator="0" insign="scartare" outsign="undgå"/>
+<align out="b124" type="" in="b124" creator="0" insign="da" outsign="da"/>
+<align out="a177" type="" in="a177" creator="0" insign="derefter" outsign="derefter"/>
+<align out="a179" type="" in="a179" creator="0" insign="dem" outsign="dem"/>
+<align out="a170 a171" type="" in="a170 a171" creator="0" insign="der er" outsign="der er"/>
+<align out="a175" type="" in="a175" creator="0" insign="," outsign=","/>
+<align out="a179" type="" in="a179" creator="0" insign="dem" outsign="dem"/>
+<align out="a176" type="" in="a176" creator="0" insign="og" outsign="og"/>
+<align out="a169" type="" in="a169" creator="0" insign="," outsign=","/>
+<align out="b119" type="" in="b119" creator="0" insign="," outsign=","/>
+<align out="a180" type="" in="b126" creator="0" insign="." outsign="."/>
+<align out="a185" type="" in="a185" creator="0" insign="En" outsign="En"/>
+<align out="a167" type="" in="b120" creator="0" insign="gli" outsign="de"/>
+<align out="a186" type="" in="b128" creator="0" insign="quotidianamente" outsign="daglig"/>
+<align out="a187" type="f+mci" in="b127" creator="0" insign="Eliminare" outsign="kalorienedsættelse"/>
+<align out="a188 a189" type="" in="a188 a189" creator="0" insign="på blot" outsign="på blot"/>
+<align out="a195" type="" in="b135 b136" creator="0" insign="al mese" outsign="månedligt"/>
+<align out="a193 a194 a196" type="" in="b132" creator="0" insign="perdere" outsign="give et vægttab"/>
+<align out="a197" type="" in="a197" creator="0" insign="på" outsign="på"/>
+<align out="a198" type="" in="b133" creator="0" insign="un" outsign="et"/>
+<align out="a199" type="" in="b134" creator="0" insign="chilo" outsign="kilo"/>
+<align out="b141" type="" in="b141" creator="0" insign="delle" outsign="delle"/>
+<align out="a203" type="" in="a203" creator="0" insign="Og" outsign="Og"/>
+<align out="a208" type="" in="b143 b144" creator="0" insign="in realtà" outsign="let"/>
+<align out="a207 a209" type="" in="b145 b146 b147 b148" creator="0" insign="è in grado di" outsign="vil kunne"/>
+<align out="a210" type="" in="b149" creator="0" insign="eliminarne" outsign="fjerne"/>
+<align out="a211" type="" in="b150" creator="0" insign="tre/quattro" outsign="tre-fire"/>
+<align out="a212" type="" in="b151" creator="0" insign="volte" outsign="gange"/>
+<align out="a213 a214" type="" in="b152 b153" creator="0" insign="di più" outsign="så mange"/>
+<align out="a204" type="n" in="b138" creator="-1" insign="la" outsign="de"/>
+<align out="a205" type="f" in="b139 b140" creator="-1" insign="maggior parte" outsign="fleste"/>
+<align out="a206" type="f" in="b142" creator="-1" insign="persone" outsign="mennesker"/>
+<align out="a190" type="" in="b129" creator="-1" insign="200" outsign="200"/>
+<align out="a200" type="" in="b137" creator="-1" insign=";" outsign="."/>
+<align out="a191" type="" in="b130" creator="-1" insign="calorie" outsign="kalorier"/>
+<align out="a192" type="" in="b131" creator="-1" insign="farà" outsign="vil"/>
+<align out="a227" type="" in="b163 b164 b165" creator="0" insign="tre , quattro" outsign="tre-fire"/>
+<align out="a224" type="" in="b161" creator="0" insign="mensile" outsign="månedligt"/>
+<align out="a225" type="" in="b158 b159 b160" creator="0" insign="perdita di peso" outsign="vægttab"/>
+<align out="a223" type="" in="b157" creator="0" insign="una" outsign="et"/>
+<align out="a221" type="" in="b156" creator="0" insign="così" outsign="derved"/>
+<align out="a222" type="mvg" in="b155" creator="0" insign="raggiungendo" outsign="opnå"/>
+<align out="a215 a216 a217 a218 a219 a220" type="" in="a215 a216 a217 a218 a219 a220" creator="0" insign="kalorier i den daglige kostplan og" outsign="kalorier i den daglige kostplan og"/>
+<align out="b154" type="" in="b154" creator="0" insign="," outsign=","/>
+<align out="a226" type="" in="b162" creator="0" insign="di" outsign="på"/>
+<align out="a228" type="" in="b166" creator="-1" insign="chili" outsign="kilo"/>
+<align out="a229" type="" in="b167" creator="-1" insign="." outsign="."/>
+<align out="a232 a233" type="mvg" in="b168 b169" creator="0" insign="Associando alla" outsign="Kombineret med"/>
+<align out="a234" type="f" in="b172" creator="0" insign="certo" outsign="passende"/>
+<align out="a235" type="" in="b173 b174" creator="0" insign="esercizio fisico" outsign="motion"/>
+<align out="a236 a237 a238 a239" type="f" in="b176 b177 b178" creator="0" insign="si può ottenere" outsign="bliver der tale om"/>
+<align out="a241" type="" in="b180" creator="0" insign="discreto" outsign="rimeligt"/>
+<align out="a242" type="" in="b181 b182 b183" creator="0" insign="calo di peso" outsign="vægttab"/>
+<align out="b170" type="" in="b170" creator="0" insign="dieta" outsign="dieta"/>
+<align out="b171" type="" in="b171" creator="0" insign="un" outsign="un"/>
+<align out="b175" type="" in="b175" creator="0" insign="," outsign=","/>
+<align out="a240" type="" in="b179" creator="0" insign="un" outsign="et"/>
+<align out="a246" type="n" in="b186 b187" creator="0" insign="la possibilità" outsign="mulighed"/>
+<align out="a245" type="mvi" in="b185" creator="0" insign="avere" outsign="giver"/>
+<align out="b184" type="" in="b184" creator="0" insign="ed" outsign="ed"/>
+<align out="a244" type="" in="a244" creator="0" insign="som" outsign="som"/>
+<align out="a243" type="" in="a243" creator="0" insign="," outsign=","/>
+<align out="a250 a251" type="mvi" in="b189" creator="0" insign="mantenere" outsign="kan holdes"/>
+<align out="a254" type="s" in="b190 b191 b192" creator="0" insign="il peso forma" outsign="idealvægten"/>
+<align out="a256" type="" in="b197" creator="0" insign="raggiunto" outsign="nået"/>
+<align out="a255" type="" in="b195 b196" creator="0" insign="si è" outsign="er"/>
+<align out="b194" type="" in="b194" creator="0" insign="lo" outsign="lo"/>
+<align out="a257" type="" in="b198" creator="0" insign="." outsign="."/>
+<align out="a252" type="" in="a252" creator="0" insign="," outsign=","/>
+<align out="a248 a249" type="" in="a248 a249" creator="0" insign="at vægten" outsign="at vægten"/>
+<align out="a247" type="" in="b188" creator="-1" insign="di" outsign="for"/>
+<align out="a253" type="" in="b193" creator="-1" insign="quando" outsign="når"/>
+</DTAGalign>

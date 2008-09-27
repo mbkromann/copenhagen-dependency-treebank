@@ -1,0 +1,167 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0647-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0647-it-auto.tag" sign="_input"/>
+<align out="a44" type="f" in="b5" creator="0" insign="qualcuno" outsign="man"/>
+<align out="a49" type="" in="b6" creator="0" insign="dovesse" outsign="skulle"/>
+<align out="a50 a51 a52" type="" in="b7" creator="0" insign="notare" outsign="få øje på"/>
+<align out="a45 a46 a47" type="" in="b1 b2 b3" creator="0" insign="nel corso della" outsign="i løbet af"/>
+<align out="a48" type="d" in="b3 b4" creator="0" insign="della giornata" outsign="i_dag"/>
+<align out="a53" type="d" in="b8 b9" creator="0" insign="degli uomini" outsign="mænd"/>
+<align out="a54" type="" in="a54" creator="0" insign="," outsign=","/>
+<align out="b11" type="" in="b11" creator="0" insign="," outsign=","/>
+<align out="a56" type="" in="b12" creator="0" insign="con" outsign="med"/>
+<align out="a58" type="d" in="b13 b15" creator="0" insign="un livido" outsign="teint"/>
+<align out="a57" type="" in="b14" creator="0" insign="incarnato" outsign="gusten"/>
+<align out="a43" type="" in="b0" creator="-1" insign="Se" outsign="Hvis"/>
+<align out="a55" type="" in="b10" creator="-1" insign="che" outsign="som"/>
+<align out="a59" type="" in="b16" creator="-1" insign="e" outsign="og"/>
+<align out="a63" type="s" in="b21 b22" creator="0" insign="gli occhi" outsign="øjnene"/>
+<align out="a60" type="" in="b18" creator="0" insign="vistose" outsign="betragtelige"/>
+<align out="a61" type="d" in="b17 b19" creator="0" insign="delle borse" outsign="poser"/>
+<align out="a64 a66" type="" in="b24 b27" creator="0" insign="vagano per" outsign="vandrer rundt"/>
+<align out="a67" type="" in="a67" creator="0" insign="i" outsign="i"/>
+<align out="a68" type="s" in="b28 b29" creator="0" insign="la città" outsign="byen"/>
+<align out="a65" type="" in="b25 b26" creator="0" insign="senza posa" outsign="hvileløst"/>
+<align out="a72 a75" type="" in="b33 b35" creator="0" insign="né né" outsign="hverken eller"/>
+<align out="a74" type="mvi" in="b34" creator="0" insign="meravigliarsi" outsign="forbavset"/>
+<align out="a76" type="mvi" in="b36" creator="0" insign="spaventarsi" outsign="forskrækket"/>
+<align out="a70 a71" type="" in="b32" creator="0" insign="deve" outsign="skal man"/>
+<align out="b31" type="" in="b31" creator="0" insign="non" outsign="non"/>
+<align out="a77" type="f" in="b37" creator="0" insign=":" outsign="."/>
+<align out="b23" type="" in="b23" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="a73" creator="0" insign="blive" outsign="blive"/>
+<align out="a62" type="" in="b20" creator="-1" insign="sotto" outsign="under"/>
+<align out="a69" type="" in="b30" creator="-1" insign="," outsign=","/>
+<align out="a88" type="" in="b45 b46 b47" creator="0" insign="niente di pericoloso" outsign="ufarlige"/>
+<align out="a85" type="" in="b42 b43" creator="0" insign="critici cinematografici" outsign="filmanmeldere"/>
+<align out="a80 a81 a82 a83" type="" in="a80 a81 a82 a83" creator="0" insign="De pågældende mænd er" outsign="De pågældende mænd er"/>
+<align out="a84" type="" in="b40" creator="0" insign="semplicemente" outsign="bare"/>
+<align out="b38 b39" type="" in="b38 b39" creator="0" insign="si tratta" outsign="si tratta"/>
+<align out="b41" type="" in="b41" creator="0" insign="di" outsign="di"/>
+<align out="b44" type="" in="b44" creator="0" insign="," outsign=","/>
+<align out="a89" type="" in="b48" creator="0" insign="." outsign="."/>
+<align out="a86 a87" type="" in="a86 a87" creator="0" insign="og ganske" outsign="og ganske"/>
+<align out="a97" type="" in="b56" creator="0" insign="demotivato" outsign="formålsløse"/>
+<align out="a95" type="" in="b54" creator="0" insign="ramingo" outsign="flakkende"/>
+<align out="a98" type="d" in="b52 b53" creator="0" insign="un atteggiamento" outsign="adfærd"/>
+<align out="a99" type="wo" in="b50" creator="0" insign="oggi" outsign="i_dag"/>
+<align out="b49" type="" in="b49" creator="0" insign="Se" outsign="Se"/>
+<align out="a94" type="" in="a94" creator="0" insign="Deres" outsign="Deres"/>
+<align out="b51" type="" in="b51" creator="0" insign="hanno" outsign="hanno"/>
+<align out="a100" type="f" in="b58 b59" creator="0" insign="è perché" outsign="skyldes"/>
+<align out="a102" type="" in="a102" creator="0" insign="at" outsign="at"/>
+<align out="a103" type="" in="b60" creator="0" insign="questa" outsign="denne"/>
+<align out="a101" type="" in="b57" creator="-1" insign="," outsign=","/>
+<align out="a96" type="" in="b55" creator="-1" insign="e" outsign="og"/>
+<align out="a104" type="" in="b65" creator="0" insign="giornata" outsign="dag"/>
+<align out="a106" type="" in="b63" creator="0" insign="loro" outsign="dem"/>
+<align out="b64" type="" in="b64" creator="0" insign="una" outsign="una"/>
+<align out="a108" type="" in="b66" creator="0" insign="particolarmente" outsign="højst"/>
+<align out="a109" type="" in="b67" creator="0" insign="insolita" outsign="usædvanlig"/>
+<align out="a110" type="f" in="b68" creator="0" insign="," outsign="."/>
+<align out="a115" type="" in="b71" creator="0" insign="neanche" outsign="nemlig"/>
+<align out="a116" type="" in="b69" creator="0" insign="non" outsign="ikke"/>
+<align out="a117" type="" in="b72" creator="0" insign="una" outsign="én"/>
+<align out="a118" type="" in="a118" creator="0" insign="eneste" outsign="eneste"/>
+<align out="a119" type="" in="b73" creator="0" insign="premiere" outsign="premiere"/>
+<align out="a120" type="" in="b74" creator="0" insign="nei" outsign="i"/>
+<align out="a121" type="s" in="b74" creator="0" insign="nei" outsign="de"/>
+<align out="a123" type="" in="b75" creator="0" insign="cinema" outsign="biografer"/>
+<align out="a113 a114" type="mvg" in="b70" creator="0" insign="essendoci" outsign="Der er"/>
+<align out="a124" type="f" in="b77" creator="-1" insign="." outsign=","/>
+<align out="a105" type="" in="b62" creator="-1" insign="per" outsign="for"/>
+<align out="a122" type="" in="b76" creator="-1" insign="danesi" outsign="danske"/>
+<align out="a107" type="" in="b61" creator="-1" insign="è" outsign="er"/>
+<align out="a129" type="" in="b79" creator="0" insign="esistenza" outsign="tilværelse"/>
+<align out="a128" type="s" in="b78 b80 b81 b82" creator="0" insign="L' dei critici cinematografici" outsign="filmanmelderens"/>
+<align out="a126" type="" in="b83" creator="0" insign=",quindi" outsign="dermed"/>
+<align out="a130" type="" in="b86" creator="0" insign="temporaneamente" outsign="momentant"/>
+<align out="a133" type="" in="b89" creator="0" insign="significato" outsign="mening"/>
+<align out="a134" type="" in="b90" creator="0" insign="." outsign="."/>
+<align out="a125" type="" in="a125" creator="0" insign="og" outsign="og"/>
+<align out="b84" type="" in="b84" creator="0" insign="," outsign=","/>
+<align out="a132" type="" in="a132" creator="0" insign="sin" outsign="sin"/>
+<align out="b88" type="" in="b88" creator="0" insign="di" outsign="di"/>
+<align out="a139" type="" in="b91" creator="0" insign="Non" outsign="Ikke"/>
+<align out="a151" type="wo+s" in="b96 b97" creator="0" insign="il venerdì" outsign="fredagen"/>
+<align out="a144" type="mvp" in="b98" creator="0" insign="seduti" outsign="sidde"/>
+<align out="a142" type="" in="b93 b94 b95" creator="0" insign="di solito trascorrano" outsign="plejer"/>
+<align out="a140" type="f" in="b92" creator="0" insign="che" outsign="fordi"/>
+<align out="a141" type="" in="a141" creator="0" insign="anmelderne" outsign="anmelderne"/>
+<align out="a146" type="" in="b102" creator="0" insign="vedere" outsign="se"/>
+<align out="a131" type="" in="b87" creator="-1" insign="perso" outsign="mistet"/>
+<align out="a127" type="" in="b85" creator="-1" insign="ha" outsign="har"/>
+<align out="b99 b100 b101" type="" in="b99 b100 b101" creator="0" insign="al cinema a" outsign="al cinema a"/>
+<align out="a147" type="" in="b103 b105 b106 b107" creator="0" insign="un dopo l' altro" outsign="stribevis"/>
+<align out="a148" type="" in="a148" creator="0" insign="af" outsign="af"/>
+<align out="a145" type="" in="a145" creator="0" insign="og" outsign="og"/>
+<align out="a143" type="" in="a143" creator="0" insign="at" outsign="at"/>
+<align out="a150" type="" in="a150" creator="0" insign="om" outsign="om"/>
+<align out="a156" type="mcadv" in="b116" creator="0" insign="cortesemente" outsign="venlige"/>
+<align out="a162" type="" in="b117" creator="0" insign="di" outsign="at"/>
+<align out="a163" type="" in="b118" creator="0" insign="presentare" outsign="præsentere"/>
+<align out="a159" type="s" in="b113 b114" creator="0" insign="i cinema" outsign="biografer"/>
+<align out="a160 a161" type="" in="b115" creator="0" insign="cercano" outsign="sørger for"/>
+<align out="a155 a157" type="" in="b109 b110 b111" creator="0" insign="Le compagnie cinematografiche" outsign="De filmselskaber"/>
+<align out="a158" type="" in="b112" creator="-1" insign="ed" outsign="og"/>
+<align out="a149" type="" in="b104" creator="-1" insign="film" outsign="film"/>
+<align out="a152" type="" in="b108" creator="-1" insign="." outsign="."/>
+<align out="a167" type="" in="b122" creator="0" insign="con" outsign="ved"/>
+<align out="a169" type="n+d" in="b123 b124 b125 b126 b127" creator="0" insign="una anteprima riservata alla stampa" outsign="pressevisninger"/>
+<align out="a168" type="" in="a168" creator="0" insign="særlige" outsign="særlige"/>
+<align out="a165" type="" in="b120" creator="0" insign="nuovi" outsign="nye"/>
+<align out="a164" type="" in="b119" creator="0" insign="i" outsign="de"/>
+<align out="a170 a171" type="" in="b131 b132" creator="0" insign="di solito" outsign="som regel"/>
+<align out="a172" type="f" in="b134" creator="0" insign="vari" outsign="flere"/>
+<align out="a174" type="" in="b137 b139" creator="0" insign="anticipo alla" outsign="før"/>
+<align out="a175" type="s" in="b139 b140 b141" creator="0" insign="alla prima visione" outsign="premieren"/>
+<align out="a176" type="" in="b142" creator="0" insign="," outsign=","/>
+<align out="a180" type="" in="b143 b144 b145" creator="0" insign="in modo che" outsign="således"/>
+<align out="a178" type="s" in="b146 b147" creator="0" insign="i critici" outsign="anmelderne"/>
+<align out="a179" type="" in="b148" creator="0" insign="abbiano" outsign="har"/>
+<align out="a182" type="" in="b153" creator="0" insign="tempo" outsign="tid"/>
+<align out="a183 a184" type="" in="b154" creator="0" insign="per" outsign="til at"/>
+<align out="a185" type="" in="b155" creator="0" insign="eseguire" outsign="udføre"/>
+<align out="a186" type="" in="b157" creator="0" insign="loro" outsign="deres"/>
+<align out="a187" type="" in="b158" creator="0" insign="compito" outsign="arbejde"/>
+<align out="a188" type="" in="b159" creator="0" insign="." outsign="."/>
+<align out="a187" type="s" in="b156" creator="0" insign="il" outsign="arbejde"/>
+<align out="a181" type="f+mcn" in="b149 b150 b151 b152" creator="0" insign="un certo lasso di" outsign="god"/>
+<align out="a177" type="" in="a177" creator="0" insign="og" outsign="og"/>
+<align out="b128 b129 b130" type="" in="b128 b129 b130" creator="0" insign="che si tiene" outsign="che si tiene"/>
+<align out="b133" type="" in="b133" creator="0" insign="con" outsign="con"/>
+<align out="b136" type="" in="b136" creator="0" insign="di" outsign="di"/>
+<align out="b138" type="" in="b138" creator="0" insign="rispetto" outsign="rispetto"/>
+<align out="a173" type="" in="b135" creator="-1" insign="giorni" outsign="dage"/>
+<align out="a166" type="" in="b121" creator="-1" insign="film" outsign="film"/>
+<align out="a193" type="" in="b161 b162 b163 b164" creator="0" insign="di tanto in tanto" outsign="undertiden"/>
+<align out="a196" type="" in="b168" creator="0" insign="delle" outsign="noget"/>
+<align out="a197" type="n" in="b169" creator="0" insign="scempiaggini" outsign="vås"/>
+<align out="a198" type="" in="b170" creator="0" insign="nelle" outsign="i"/>
+<align out="a199" type="d" in="b170" creator="0" insign="nelle" outsign="en"/>
+<align out="a200" type="n" in="b171 b172 b173" creator="0" insign="recensioni dei film" outsign="film-anmeldelse"/>
+<align out="a194" type="" in="b166" creator="0" insign="dovessero" outsign="skulle"/>
+<align out="a195" type="f" in="b167" creator="0" insign="essere" outsign="stå"/>
+<align out="a203" type="n" in="b175" creator="0" insign="queste" outsign="det"/>
+<align out="a202" type="" in="b177 b178 b179" creator="0" insign="sono dovute alla" outsign="skyldes"/>
+<align out="a206" type="n" in="b179" creator="0" insign="alla" outsign="tidnød"/>
+<align out="a206" type="" in="b180 b181 b182" creator="0" insign="mancanza di tempo" outsign="tidnød"/>
+<align out="a207" type="" in="b183" creator="0" insign="," outsign=","/>
+<align out="a204" type="" in="a204" creator="0" insign="altså" outsign="altså"/>
+<align out="a191" type="" in="b160" creator="-1" insign="Se" outsign="Hvis"/>
+<align out="a201" type="" in="b174" creator="-1" insign="," outsign=","/>
+<align out="a192" type="" in="b165" creator="-1" insign="ci" outsign="der"/>
+<align out="a205" type="" in="b176" creator="-1" insign="non" outsign="ikke"/>
+<align out="a209 a211 a213" type="" in="b189" creator="0" insign="conviene" outsign="det er bekvemt"/>
+<align out="a212" type="" in="a212" creator="0" insign="mest" outsign="mest"/>
+<align out="a214" type="" in="b187" creator="0" insign="ai" outsign="for"/>
+<align out="a215" type="s" in="b187 b188" creator="0" insign="ai critici" outsign="anmelderne"/>
+<align out="a217" type="" in="b190" creator="0" insign="che" outsign="hvis"/>
+<align out="a218" type="s" in="b191 b192" creator="0" insign="i lettori" outsign="læserne"/>
+<align out="a220" type="" in="b193" creator="0" insign="lo" outsign="det"/>
+<align out="a219" type="" in="b194" creator="0" insign="credano" outsign="tror"/>
+<align out="a221" type="" in="b195" creator="0" insign="." outsign="."/>
+<align out="a216" type="" in="a216" creator="0" insign="," outsign=","/>
+<align out="a210" type="" in="b186" creator="-1" insign="naturalmente" outsign="naturligvis"/>
+<align out="a208" type="" in="b184 b185" creator="-1" insign="anche se" outsign="selv_om"/>
+</DTAGalign>
