@@ -24,7 +24,7 @@
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="volere" msd="VADR" tag="VER:cpre" in="-2:dobj" out="-3:[subj]|1:pobj">voglia</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
-<W _compound="1" compound="¹²ritornarci" lemma="ritornare" msd="VAF" tag="VER:infi" in="-1:¹vobj|-8:²coref|0:²dir¹" out="-5:[subj]|0:²dir¹">ritornarci</W>
+<W _compound="1" compound="¹ritornar²ci" lemma="ritornare" msd="VAF" tag="VER:infi" in="-1:¹vobj|-8:²coref|0:²dir¹" out="-5:[subj]|0:²dir¹">ritornarci</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="1:time" out="">Oggi</W>
 <W lemma="essere" msd="VA" tag="VER:cond" in="" out="-1:time|1:time|2:vobj|3:ext|5:cause|26:pnct">sarebbe</W>
@@ -44,11 +44,11 @@
 <W lemma="contatto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:pobj">contatto</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">con</W>
 <W _compound="1" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">l’acqua</W>
-<W lemma="ci" msd="PD" tag="PRO:demo" in="2:subj" out="">ci</W>
+<W lemma="ci" msd="PD" tag="PRO:demo" in="2:subj|4:[subj]" out="">ci</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="3:robj" out="">si</W>
 <W lemma="rischiare" msd="VADR" tag="VER:pres" in="-8:vobj" out="-2:subj|-7:man|1:dobj|9:coref-res">rischia</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
-<W lemma="beccare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:robj|1:dobj">beccare</W>
+<W lemma="beccare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:robj|1:dobj|-4:[subj]">beccare</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="2:nobj">un</W>
 <W lemma="qualche" msd="AN" tag="ADJ" in="1:attrd" out="">qualche</W>
 <W lemma="virus" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr">virus</W>
@@ -110,7 +110,7 @@
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="bel" msd="NC" tag="NOM" in="1:attrd" out="">bel</W>
-<W lemma="sorso" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:pobj:arg">sorso</W>
+<W lemma="sorso" msd="NC" tag="NOM" in="-2:nobj" out="1:pobj:arg|-1:attrd">sorso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj:arg" out="1:const">di</W>
 <W lemma="fernet" msd="NC" tag="NOM" in="-1:const" out="1:name">Fernet</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Branca</W>
@@ -134,7 +134,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:preds" out="1:attrr">un’esperienza</W>
 <W lemma="indimenticabile" msd="AN" tag="ADJ" in="-1:attrr" out="">indimenticabile</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:subj" out="1:pnct|2:appa">Horus</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:subj|13:[subj]" out="1:pnct|2:appa">Horus</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="dio" msd="NC" tag="NOM" in="-2:appa" out="1:attrr|2:attrr|5:conj|8:pnct">dio</W>
 <W lemma="tutelare" msd="AN" tag="ADJ" in="-1:attrr" out="">tutelare</W>
@@ -147,7 +147,7 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-11:subj|1:ext|2:vobj|13:pnct">viene</W>
 <W lemma="spesso" msd="RG" tag="ADV" in="-1:ext" out="">spesso</W>
-<W lemma="raffigurare" msd="VAP" tag="VER:pper" in="-2:vobj" out="1:man">raffigurato</W>
+<W lemma="raffigurare" msd="VAP" tag="VER:pper" in="-2:vobj" out="1:man|-13:[subj]">raffigurato</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="testa" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|3:attrr">testa</W>
@@ -167,8 +167,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Cheope</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
-<W lemma="cronista" msd="NC" tag="NOM" in="" out="1:pobj:pobj|3:loc|6:pnct">Cronista</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj:pobj" out="1:nobj">di</W>
+<W lemma="cronista" msd="NC" tag="NOM" in="" out="3:loc|6:pnct|1:attrr">Cronista</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="viaggio" msd="NC" tag="NOM" in="-1:nobj" out="">viaggio</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="-3:loc" out="1:nobj">dal</W>
 <W lemma="Mar" msd="NP" tag="NPR" in="-1:nobj" out="1:attrr">Mar</W>
