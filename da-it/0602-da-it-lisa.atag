@@ -33,10 +33,7 @@
 <align out="a84" type="" in="b27" creator="0" insign="e" outsign="og"/>
 <align out="a89" type="s+n" in="b30" creator="0" insign="le" outsign="trappen"/>
 <align out="a89" type="n" in="b31" creator="0" insign="scale" outsign="trappen"/>
-<align out="a85 a86 a87 a88" type="" in="b28 b29" creator="0" insign="mentre salivamo" outsign="på vejen op ad"/>
-<align out="a90" type="" in="b34" creator="-1" insign="disse" outsign="sagde"/>
 <align out="a92" type="" in="b32 b33" creator="0" insign="di nuovo" outsign="igen"/>
-<align out="a91" type="" in="a91" creator="0" insign="hun" outsign="hun"/>
 <align out="a93" type="" in="a93" creator="0" insign="," outsign=","/>
 <align out="a95" type="n" in="b36 b37" creator="0" insign="le cose" outsign="det"/>
 <align out="a96" type="" in="b38" creator="0" insign="non" outsign="ikke"/>
@@ -45,7 +42,6 @@
 <align out="a110 a111 a112" type="" in="b46 b47 b48 b49" creator="0" insign="nel pieno della notte" outsign="midt om natten"/>
 <align out="a105" type="" in="a105" creator="0" insign="Her" outsign="Her"/>
 <align out="a109" type="f" in="b44" creator="0" insign="persone" outsign="mennesker"/>
-<align out="a106 a107" type="" in="b45 b50" creator="0" insign="che camminano" outsign="går vi"/>
 <align out="a98" type="" in="b40" creator="-1" insign="così" outsign="sådan"/>
 <align out="a94" type="" in="b35" creator="-1" insign="che" outsign="at"/>
 <align out="a108" type="" in="b43" creator="-1" insign="due" outsign="to"/>
@@ -74,8 +70,6 @@
 <align out="a146" type="" in="b74" creator="0" insign="." outsign="."/>
 <align out="a154" type="" in="b75" creator="0" insign="A" outsign="i"/>
 <align out="a155" type="d" in="b76" creator="0" insign="letto" outsign="sengen"/>
-<align out="a149" type="" in="a149" creator="0" insign="Det" outsign="Det"/>
-<align out="a149 a150 a151 a152 a153" type="" in="b77 b78 b79" creator="0" insign="non accadde nulla" outsign="Det blev ikke til noget"/>
 <align out="a156" type="" in="b80" creator="0" insign="," outsign=","/>
 <align out="a158 a159 a160 a161" type="" in="b82 b83" creator="0" insign="non importava" outsign="det betød ikke noget"/>
 <align out="a162" type="" in="b84" creator="0" insign="." outsign="."/>
@@ -118,16 +112,19 @@
 <align out="a237 a240 a241" type="f" in="b128 b129 b130 b131" creator="0" insign="far in modo che" outsign="få til at"/>
 <align out="a246" type="" in="b137" creator="0" insign="," outsign=","/>
 <align out="a233" type="" in="b123" creator="-1" insign="che" outsign="at"/>
-<align out="a104" type="-="" in="b42" creator="0" insign="“Siamo" outsign="&nbsp;-&nbsp;"/>
 <align out="a167" type="" in="b85" creator="0" insign="Nudi" outsign="nøgne"/>
 <align out="a165 a166 a172 a173" type="" in="b91" creator="0" insign="chiacchieravamo" outsign="Vi lå og snakkede"/>
 <align out="a168 a169 a170 a171" type="" in="b87 b88 b89" creator="0" insign="uno vicino all’altra" outsign="ved siden af hinanden"/>
-<align out="a184" type="-="" in="b98" creator="0" insign="“Prima" outsign="&nbsp;-&nbsp;"/>
 <align out="a196 a197" type="" in="b104" creator="0" insign="disse" outsign="sagde hun"/>
-<align out="a201" type="-="" in="b106" creator="0" insign="“avevo" outsign="&nbsp;-&nbsp;"/>
 <align out="a220" type="" in="b117" creator="0" insign="era" outsign="er"/>
 <align out="a234 a235 a236" type="f" in="b124 b125 b126 b127" creator="0" insign="se fossi riuscita a" outsign="bare jeg kunne"/>
 <align out="a242 a243 a244 a245" type="" in="b134 b135 b136" creator="0" insign="stesse con me" outsign="være sammen med mig"/>
 <align out="a247 a248 a249 a250" type="" in="b138 b139 b140 b141 b142" creator="0" insign="allora tutto sarebbe andato bene.”" outsign="så var alt godt"/>
 <align out="a251" type=".=." in="b142" creator="0" insign="bene.”" outsign="."/>
+<align out="a85 a86 a87 a88" type="f" in="b28 b29" creator="0" insign="mentre salivamo" outsign="på vejen op ad"/>
+<align out="a90 a91" type="" in="b34" creator="0" insign="disse" outsign="sagde hun"/>
+<align out="a104" type="-="" in="b42" creator="0" insign="“Siamo" outsign="&nbsp;-&nbsp;"/>
+<align out="a106 a107" type="f" in="b45 b50" creator="0" insign="che camminano" outsign="går vi"/>
+<align out="a149 a150 a151 a152 a153" type="" in="b77 b78 b79" creator="0" insign="non accadde nulla" outsign="Det blev ikke til noget"/>
+<align out="a201" type="-="" in="b106" creator="0" insign="“avevo" outsign="&nbsp;-&nbsp;"/>
 </DTAGalign>

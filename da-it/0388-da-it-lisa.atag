@@ -54,13 +54,10 @@
 <align out="a113" type="" in="b62" creator="-1" insign="che" outsign="at"/>
 <align out="a98" type="" in="b49" creator="-1" insign="un" outsign="en"/>
 <align out="a116" type="" in="b64" creator="0" insign="un" outsign="en"/>
-<align out="a114" type="" in="a114" creator="0" insign="hun" outsign="hun"/>
-<align out="a115" type="" in="a115" creator="0" insign="havde" outsign="havde"/>
 <align out="a118" type="" in="a118" creator="0" insign="mand" outsign="mand"/>
 <align out="a119" type="" in="b66" creator="0" insign="?”" outsign="?"/>
 <align out="a125" type="f" in="b68" creator="0" insign="stette" outsign="sad"/>
 <align out="a127 a128 a129" type="" in="b69 b70" creator="0" insign="a lungo" outsign="i lang tid"/>
-<align out="b63" type="" in="b63" creator="0" insign="c’era" outsign="c’era"/>
 <align out="a135 a136" type="" in="b77" creator="0" insign="verso" outsign="frem mod"/>
 <align out="a137 a138" type="" in="b78" creator="0" insign="l’altro" outsign="den anden"/>
 <align out="a117" type="" in="b65" creator="-1" insign="altro" outsign="anden"/>
@@ -68,7 +65,6 @@
 <align out="a131" type="" in="b74" creator="-1" insign="poi" outsign="så"/>
 <align out="a130" type="" in="b73" creator="-1" insign="," outsign=","/>
 <align out="a139" type="" in="a139" creator="0" insign="og" outsign="og"/>
-<align out="a149" type="" in="b84" creator="0" insign="“Tua" outsign="&nbsp;-&nbsp;"/>
 <align out="a150" type="" in="b84" creator="0" insign="“Tua" outsign="Din"/>
 <align out="a153" type="" in="b87" creator="0" insign="io" outsign="jeg"/>
 <align out="a156" type="" in="b90" creator="0" insign="," outsign=","/>
@@ -156,7 +152,6 @@
 <align out="a126" type="mcn" in="b71 b72" creator="0" insign="in silenzio" outsign="tavs"/>
 <align out="a140 a142 a143" type="mcg" in="b79" creator="0" insign="guardandola" outsign="så på hende"/>
 <align out="a141" type="mcn" in="b80 b81 b82" creator="0" insign="con occhi penetranti" outsign="indtrængende"/>
-<align out="a72" type="d" in="b28 b29" creator="0" insign="del settimo" outsign="syvende"/>
 <align out="a88" type=".=." in="b44" creator="0" insign="Danimarca.”" outsign="."/>
 <align out="a132 a133 a134" type="" in="b75 b76" creator="0" insign="si piegò" outsign="bøjede han sig"/>
 <align out="a157 a158 a159 a160" type="f" in="b91 b92 b93 b94 b95" creator="0" insign="lo capisci ? ! !" outsign="det må du forstå"/>
@@ -172,8 +167,11 @@
 <align out="a214" type=".=." in="b135" creator="0" insign="padre.”" outsign="."/>
 <align out="a220 a221 a222" type="" in="b136 b137 b138" creator="0" insign="“Probabilmente avrà avuto" outsign="Hun havde antagelig"/>
 <align out="a224" type="" in="b141" creator="0" insign="motivi" outsign="grunde"/>
-<align out="a250 a251 a253" type="" in="b161 b162 b163" creator="0" insign="è stata costretta" outsign="Hun var tvunget"/>
 <align out="a280 a281 a282 a283" type="f" in="b189 b190 b191" creator="0" insign="Sicuramente ha agito" outsign="Hun må have handlet"/>
 <align out="a288" type=".=." in="b197" creator="0" insign="tuo.”" outsign="."/>
-<align out="a42" type="-="" in="b0" creator="0" insign="“Non" outsign="&nbsp;-&nbsp;"/>
+<align out="a72" type="ds" in="b28" creator="0" insign="del" outsign="syvende"/>
+<align out="a72" type="" in="b29" creator="0" insign="settimo" outsign="syvende"/>
+<align out="a114 a115" type="f" in="b63" creator="0" insign="c’era" outsign="hun havde"/>
+<align out="a250 a251" type="" in="b161 b162" creator="0" insign="è stata" outsign="Hun var"/>
+<align out="a253" type="" in="b163" creator="0" insign="costretta" outsign="tvunget"/>
 </DTAGalign>

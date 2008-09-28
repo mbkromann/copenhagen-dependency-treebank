@@ -64,7 +64,6 @@
 <align out="a97" type="" in="b62 b63 b64" creator="0" insign="filetto di trota" outsign="ørredfilet"/>
 <align out="b69" type="" in="b69" creator="0" insign="di" outsign="di"/>
 <align out="a101" type="" in="b70 b71" creator="0" insign="prosciutto affumicato" outsign="landskinke"/>
-<align out="a102 a103" type="" in="b72 b73 b74 b75" creator="0" insign="tagliato a striscioline sottili" outsign="i julienne"/>
 <align out="a99" type="" in="b66" creator="-1" insign="150" outsign="150"/>
 <align out="a106" type="" in="b78" creator="-1" insign="piccoli" outsign="små"/>
 <align out="a105" type="" in="b77" creator="-1" insign="2" outsign="to"/>
@@ -86,7 +85,6 @@
 <align out="a117" type="" in="b95" creator="0" insign="due" outsign="to"/>
 <align out="a118" type="" in="b97" creator="0" insign="fini" outsign="tynde"/>
 <align out="a119" type="" in="b96" creator="0" insign="porri" outsign="porrer"/>
-<align out="a120 a121" type="" in="b98 b99 b100" creator="0" insign="tagliati ad anelli" outsign="i ringe"/>
 <align out="a122" type="" in="b101" creator="0" insign="," outsign=","/>
 <align out="a124" type="" in="b103" creator="0" insign="cucchiai" outsign="spsk."/>
 <align out="b104" type="" in="b104" creator="0" insign="di" outsign="di"/>
@@ -135,8 +133,6 @@
 <align out="a159" type="" in="b149" creator="0" insign="140°" outsign="grader"/>
 <align out="b150" type="" in="b150" creator="0" insign="circa" outsign="circa"/>
 <align out="a164" type="mvd" in="b152" creator="0" insign="Lessate" outsign="koges"/>
-<align out="a163" type="n+s" in="b153" creator="0" insign="i" outsign="Kålen"/>
-<align out="a163" type="n" in="b154" creator="0" insign="cavoletti" outsign="Kålen"/>
 <align out="a165" type="" in="a165" creator="0" insign="mør" outsign="mør"/>
 <align out="b156" type="" in="b156" creator="0" insign="Per" outsign="Per"/>
 <align out="a169" type="s" in="b157" creator="0" insign="la" outsign="Saucen"/>
@@ -171,7 +167,6 @@
 <align out="a202" type="f" in="b205" creator="0" insign="Servite" outsign="Anret"/>
 <align out="a203" type="f" in="b207 b208 b209" creator="0" insign="dadini di pesce" outsign="fiskestykkerne"/>
 <align out="a204 a205" type="" in="b210" creator="0" insign="con" outsign="sammen med"/>
-<align out="a206" type="s+n" in="b211" creator="0" insign="i" outsign="kålen"/>
 <align out="a206" type="n" in="b212" creator="0" insign="cavoletti" outsign="kålen"/>
 <align out="a208" type="" in="b215 b216 b217" creator="0" insign="anelli di porro" outsign="porreringene"/>
 <align out="a209" type="" in="b218" creator="0" insign="," outsign=","/>
@@ -180,8 +175,6 @@
 <align out="a211" type="" in="b222 b223" creator="0" insign="un po’" outsign="lidt"/>
 <align out="a212" type="" in="b224" creator="-1" insign="di" outsign="af"/>
 <align out="a213" type="d" in="b225" creator="0" insign="salsa" outsign="saucen"/>
-<align out="a215" type="" in="b220" creator="0" insign="avervi" outsign="fisken"/>
-<align out="a218" type="s+n" in="b228" creator="0" insign="le" outsign="skinken"/>
 <align out="a218" type="n+f" in="b229 b230 b231" creator="0" insign="striscioline di prosciutto" outsign="skinken"/>
 <align out="a220" type="" in="b232" creator="0" insign="." outsign="."/>
 <align out="a216" type="" in="b226" creator="0" insign="e" outsign="og"/>
@@ -231,11 +224,19 @@
 <align out="a268" type="" in="b283" creator="-1" insign="e" outsign="og"/>
 <align out="a272" type="" in="b290" creator="-1" insign="Kro" outsign="Kro"/>
 <align out="a261" type="" in="b276" creator="-1" insign="a" outsign="i"/>
-<align out="a173" type="" in="b167" creator="0" insign="nel" outsign="i"/>
-<align out="a174" type="d" in="b167" creator="0" insign="nel" outsign="grønsagsbouillon"/>
 <align out="a187" type="d" in="b190 b191" creator="0" insign="la senape" outsign="sennep"/>
-<align out="a196" type="d" in="b201 b202" creator="0" insign="il prezzemolo" outsign="persille"/>
 <align out="a203" type="s" in="b206" creator="0" insign="i" outsign="fiskestykkerne"/>
 <align out="a210 a214" type="mvi" in="b219 b220 b221" creator="0" insign="dopo avervi versato" outsign="hæld over"/>
 <align out="a217 a219" type="mvp" in="b227" creator="0" insign="cosparso" outsign="drys over"/>
+<align out="a102 a103" type="f" in="b72 b73 b74 b75" creator="0" insign="tagliato a striscioline sottili" outsign="i julienne"/>
+<align out="a120 a121" type="f" in="b98 b99 b100" creator="0" insign="tagliati ad anelli" outsign="i ringe"/>
+<align out="a163" type="s" in="b153" creator="0" insign="i" outsign="Kålen"/>
+<align out="a163" type="n" in="b154" creator="0" insign="cavoletti" outsign="Kålen"/>
+<align out="a173" type="" in="b167" creator="0" insign="nel" outsign="i"/>
+<align out="a174" type="ds" in="b167" creator="0" insign="nel" outsign="grønsagsbouillon"/>
+<align out="a196" type="ds" in="b201" creator="0" insign="il" outsign="persille"/>
+<align out="a196" type="" in="b202" creator="0" insign="prezzemolo" outsign="persille"/>
+<align out="a206" type="s" in="b211" creator="0" insign="i" outsign="kålen"/>
+<align out="a215" type="f" in="b220" creator="0" insign="avervi" outsign="fisken"/>
+<align out="a218" type="s" in="b228" creator="0" insign="le" outsign="skinken"/>
 </DTAGalign>

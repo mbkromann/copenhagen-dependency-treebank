@@ -1,7 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1347-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/1347-it-auto.tag" sign="_input"/>
-<align out="b138" type="" in="b138" creator="-1" insign="la" outsign="la"/>
 <align out="b5" type="" in="b5" creator="0" insign="e" outsign="e"/>
 <align out="a46" type="" in="a46" creator="0" insign="som" outsign="som"/>
 <align out="a58" type="f" in="b17 b18 b19" creator="0" insign="per quanto riguarda" outsign="om"/>
@@ -66,7 +65,6 @@
 <align out="a128" type="" in="b101" creator="0" insign="un" outsign="en"/>
 <align out="a125" type="" in="b99" creator="-1" insign="significa" outsign="betyder"/>
 <align out="a129" type="" in="b102" creator="-1" insign="rifugiato" outsign="asylansøger"/>
-<align out="a132" type="" in="b105" creator="-1" insign="già" outsign="først"/>
 <align out="a134" type="" in="b106" creator="-1" insign="inoltrato" outsign="indgivet"/>
 <align out="a136" type="" in="b109" creator="-1" insign="domanda" outsign="ansøgning"/>
 <align out="a139" type="" in="b116" creator="-1" insign="Portogallo" outsign="Portugal"/>
@@ -100,14 +98,10 @@
 <align out="a149" type="" in="a149" creator="0" insign="blot" outsign="blot"/>
 <align out="b129" type="" in="b129" creator="0" insign="," outsign=","/>
 <align out="b114" type="" in="b114" creator="0" insign="," outsign=","/>
-<align out="b136" type="" in="b136" creator="0" insign="chiedere" outsign="chiedere"/>
-<align out="b137" type="" in="b137" creator="0" insign="che" outsign="che"/>
 <align out="a155" type="" in="b134" creator="-1" insign="Danimarca" outsign="Danmark"/>
-<align out="a157" type="f" in="b141" creator="-1" insign="venga" outsign="få"/>
 <align out="a160" type="" in="b142" creator="-1" insign="trattata" outsign="behandlet"/>
 <align out="a161" type="" in="b143" creator="-1" insign="qui" outsign="her"/>
 <align out="a167" type="" in="b145" creator="-1" insign="Ciò" outsign="DET"/>
-<align out="a177" type="" in="b150" creator="-1" insign="elaborato" outsign="udarbejdet"/>
 <align out="a159" type="" in="b140" creator="-1" insign="domanda" outsign="asylansøgning"/>
 <align out="a156" type="" in="b135" creator="-1" insign="e" outsign="og"/>
 <align out="a168" type="" in="b146" creator="-1" insign="è" outsign="bliver"/>
@@ -121,7 +115,6 @@
 <align out="b158" type="" in="b158" creator="0" insign="loro" outsign="loro"/>
 <align out="a189" type="" in="b170" creator="-1" insign="però" outsign="Men"/>
 <align out="a186" type="" in="b167" creator="-1" insign="." outsign="."/>
-<align out="a190" type="" in="b169" creator="-1" insign="questo" outsign="det"/>
 <align out="a182" type="f" in="b160 b161 b162" creator="-1" insign="per quanto riguarda" outsign="om"/>
 <align out="b168" type="" in="b168" creator="0" insign="Tutto" outsign="Tutto"/>
 <align out="a191 a193 a195 a196" type="" in="b172 b174 b175 b176 b177" creator="0" insign="ha a che fare con" outsign="har med at gøre"/>
@@ -180,7 +173,6 @@
 <align out="a108" type="n" in="b78 b79" creator="0" insign="domande d’asilo" outsign="ansøgning"/>
 <align out="a194" type="s" in="b178" creator="0" insign="il" outsign="Unionstraktaten"/>
 <align out="a194" type="" in="b179 b180 b181" creator="0" insign="Trattato dell’Unione Europea" outsign="Unionstraktaten"/>
-<align out="a221" type="n" in="b206" creator="0" insign="cornice" outsign="rammer"/>
 <align out="a235" type="s" in="b222" creator="0" insign="i" outsign="EF-landene"/>
 <align out="a235" type="" in="b223 b224 b225 b226" creator="0" insign="paesi membri della CEE" outsign="EF-landene"/>
 <align out="a47" type="" in="b10" creator="0" insign="saperlo" outsign="det"/>
@@ -189,7 +181,6 @@
 <align out="a69" type="f+d" in="b37 b38 b39 b40" creator="0" insign="un accordo sull’asilo politico" outsign="EF-asylkonventionen"/>
 <align out="a76 a77" type="f" in="b45 b46" creator="0" insign="debba ritenersi" outsign="der er"/>
 <align out="a80" type="" in="b48 b49" creator="0" insign="nel trattare" outsign="behandlingen"/>
-<align out="a158" type="d" in="b138" creator="0" insign="la" outsign="en"/>
 <align out="a75" type="" in="b44" creator="0" insign="stato" outsign="stat"/>
 <align out="a175" type="" in="b151 b152 b153 b154 b155" creator="0" insign="dai paesi membri della CEE" outsign="EF-landene"/>
 <align out="a178 a179 a180" type="f" in="b156 b157" creator="0" insign="all’interno della" outsign="som led i"/>
@@ -199,7 +190,14 @@
 <align out="a203" type="lv" in="b186" creator="0" insign="Trattato" outsign="Unionstraktaten"/>
 <align out="a203" type="s" in="b185" creator="0" insign="nel" outsign="Unionstraktaten"/>
 <align out="a215 a216 a217" type="mvd+f" in="b202 b203" creator="0" insign="viene inserita" outsign="finder en plads"/>
-<align out="a221" type="s+n" in="b205" creator="0" insign="della" outsign="rammer"/>
 <align out="a242" type="f" in="b231" creator="0" insign="aspetto" outsign="spørgsmål"/>
 <align out="a244" type="s" in="b232" creator="0" insign="nel" outsign="traktaten"/>
+<align out="a132" type="f" in="b105" creator="0" insign="già" outsign="først"/>
+<align out="a159" type="ds" in="b138" creator="0" insign="la" outsign="asylansøgning"/>
+<align out="a158" type="" in="a158" creator="0" insign="en" outsign="en"/>
+<align out="a157" type="f" in="b136 b137 b141" creator="0" insign="chiedere che venga" outsign="få"/>
+<align out="a177" type="" in="b150" creator="0" insign="elaborato" outsign="udarbejdet"/>
+<align out="a190" type="" in="b169" creator="0" insign="questo" outsign="det"/>
+<align out="a221" type="s" in="b205" creator="0" insign="della" outsign="rammer"/>
+<align out="a221" type="n" in="b206" creator="0" insign="cornice" outsign="rammer"/>
 </DTAGalign>

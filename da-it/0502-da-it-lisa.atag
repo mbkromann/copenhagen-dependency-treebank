@@ -18,7 +18,6 @@
 <align out="a65" type="" in="b16" creator="0" insign="volta" outsign="gang"/>
 <align out="a44" type="" in="b0" creator="-1" insign="Un" outsign="Et"/>
 <align out="a58" type="" in="b11" creator="-1" insign="," outsign=","/>
-<align out="a60" type="" in="b7" creator="-1" insign="," outsign=","/>
 <align out="a45" type="" in="b1" creator="-1" insign="paio" outsign="par"/>
 <align out="a71" type="" in="b22" creator="0" insign="avrà" outsign="vil"/>
 <align out="b23" type="" in="b23" creator="0" insign="sempre" outsign="sempre"/>
@@ -136,7 +135,6 @@
 <align out="a216" type="" in="a216" creator="0" insign="hele" outsign="hele"/>
 <align out="a219" type="" in="b147 b149" creator="0" insign="viene raffigurato" outsign="fremstilles"/>
 <align out="a220" type="" in="b148" creator="0" insign="spesso" outsign="ofte"/>
-<align out="a218" type="" in="b146" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
 <align out="a221" type="" in="b150" creator="-1" insign="con" outsign="med"/>
 <align out="a203" type="" in="b135" creator="-1" insign="." outsign="."/>
 <align out="a222" type="" in="b152 b153 b154" creator="0" insign="testa di falcone" outsign="falkehovede"/>
@@ -171,8 +169,6 @@
 <align out="a263" type="" in="b183" creator="-1" insign="ed" outsign="og"/>
 <align out="a271" type="" in="b194" creator="-1" insign="." outsign="."/>
 <align out="a260" type="" in="b180" creator="0" insign="Vista" outsign="Udsigt"/>
-<align out="a68" type="s" in="b18" creator="0" insign="del" outsign="Nilens"/>
-<align out="a68" type="" in="b19" creator="0" insign="Nilo" outsign="Nilens"/>
 <align out="a67" type="" in="b18" creator="0" insign="del" outsign="af"/>
 <align out="a87" type="s" in="b35" creator="0" insign="il" outsign="Nilen"/>
 <align out="a87" type="" in="b36" creator="0" insign="Nilo" outsign="Nilen"/>
@@ -184,11 +180,14 @@
 <align out="a158 a159" type="mvi" in="b99 b100" creator="0" insign="per sopravvivere" outsign="jeg overlevede"/>
 <align out="a244" type="d" in="b169 b170 b171" creator="0" insign="Cronista di viaggio" outsign="Rejseskribenten"/>
 <align out="b7" type="" in="b7" creator="0" insign="," outsign=","/>
-<align out="a60" type="" in="a60" creator="0" insign="," outsign=","/>
 <align out="a73 a74" type="mcn" in="b24 b25 b26" creator="0" insign="voglia di ritornarci" outsign="længes tilbage"/>
 <align out="a93" type="mcn+f" in="b41 b43" creator="0" insign="al contatto" outsign="stikker"/>
 <align out="a99" type="lv" in="b45" creator="0" insign="l’acqua" outsign="floden"/>
 <align out="a150" type="lv" in="b93 b94" creator="0" insign="la diarrea" outsign="Cairo-step"/>
 <align out="a191" type="f" in="b127" creator="0" insign="andare" outsign="gå"/>
 <align out="a267 a268 a269" type="lv" in="b187 b188 b189 b190 b191 b192 b193" creator="0" insign="la “Valle dei Re e dei Nobili”" outsign="De dødes rige"/>
+<align out="a68" type="s" in="b17 b18" creator="0" insign="l’acqua del" outsign="Nilens"/>
+<align out="a68" type="" in="b19" creator="0" insign="Nilo" outsign="Nilens"/>
+<align out="a218" type="" in="b146" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a60" type="" in="a60" creator="0" insign="," outsign=","/>
 </DTAGalign>

@@ -145,7 +145,6 @@
 <align out="a183" type="" in="b168" creator="-1" insign="Un" outsign="En"/>
 <align out="a178" type="" in="b167" creator="0" insign="." outsign="."/>
 <align out="a184" type="" in="b169" creator="0" insign="terzo" outsign="tredje"/>
-<align out="a185 a186" type="" in="b170 b171 b172 b173 b174 b175" creator="0" insign="politico di spicco della Socialdemocrazia danese" outsign="fremtrædende socialdemokrat"/>
 <align out="a188" type="" in="a188" creator="0" insign="nemlig" outsign="nemlig"/>
 <align out="a189 a190" type="f" in="b177" creator="0" insign="l’ex" outsign="den detroniserede"/>
 <align out="a191" type="f" in="b178 b179 b180" creator="0" insign="capo del partito" outsign="formand"/>
@@ -187,7 +186,6 @@
 <align out="a246" type="" in="b238 b239 b240" creator="0" insign="Trattato di Maastricht" outsign="Maastricht-Traktaten"/>
 <align out="a247" type="" in="b241" creator="-1" insign="." outsign="."/>
 <align out="a61" type="f+mcn" in="b33 b34" creator="0" insign="una fucina" outsign="leveringsdygtigt"/>
-<align out="a70" type="" in="b43 b44 b45 b46 b47 b48 b49" creator="0" insign="Christiansborg , sede del parlamento danese ," outsign="Christiansborg"/>
 <align out="a82" type="" in="a82" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a84" type="" in="a84" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a83" type="" in="b61" creator="0" insign="ufficiale" outsign="officielle"/>
@@ -197,4 +195,13 @@
 <align out="a214" type="lv" in="b205" creator="0" insign="Auken" outsign="han"/>
 <align out="a215 a216 a217" type="f+n" in="b207 b208" creator="0" insign="l’idea di" outsign="alle spekulationer om"/>
 <align out="a150 a151 a153 a154" type="f" in="b139 b140" creator="0" insign="adeguarsi al" outsign="at tage til efterretning"/>
+<align out="a70" type="" in="b43" creator="0" insign="Christiansborg" outsign="Christiansborg"/>
+<align out="b44" type="" in="b44" creator="0" insign="," outsign=","/>
+<align out="b45" type="" in="b45" creator="0" insign="sede" outsign="sede"/>
+<align out="b46" type="" in="b46" creator="0" insign="del" outsign="del"/>
+<align out="b47" type="" in="b47" creator="0" insign="parlamento" outsign="parlamento"/>
+<align out="b48" type="" in="b48" creator="0" insign="danese" outsign="danese"/>
+<align out="b49" type="" in="b49" creator="0" insign="," outsign=","/>
+<align out="a185 a186" type="" in="b170 b171 b172 b173 b174" creator="0" insign="politico di spicco della Socialdemocrazia" outsign="fremtrædende socialdemokrat"/>
+<align out="b175" type="" in="b175" creator="0" insign="danese" outsign="danese"/>
 </DTAGalign>

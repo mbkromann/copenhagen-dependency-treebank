@@ -120,7 +120,6 @@
 <align out="a169" type="" in="b135" creator="-1" insign="mostra" outsign="viser"/>
 <align out="a176" type="" in="b143" creator="-1" insign="o" outsign="eller"/>
 <align out="a177" type="" in="b144" creator="-1" insign="gli" outsign="de"/>
-<align out="a184" type="" in="b162 b163 b164" creator="0" insign="&quot; precursore &quot;" outsign="forløber"/>
 <align out="a188" type="" in="a188" creator="0" insign="sidste" outsign="sidste"/>
 <align out="a190" type="" in="b154" creator="0" insign="di" outsign="for"/>
 <align out="a193" type="" in="b157" creator="0" insign="fa" outsign="siden"/>
@@ -209,7 +208,6 @@
 <align out="a255" type="" in="b223" creator="0" insign="programma" outsign="programmet"/>
 <align out="a230 a231 a232" type="mcn+f" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
 <align out="a246 a247" type="mcn" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
-<align out="a258" type="f" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
 <align out="a67" type="f+mc" in="b31" creator="0" insign="muoversi" outsign="rundt"/>
 <align out="a69" type="d" in="b32 b33" creator="0" insign="nei musei" outsign="museer"/>
 <align out="a71" type="d" in="b37 b38" creator="0" insign="nei supermercati" outsign="supermarkeder"/>
@@ -225,6 +223,10 @@
 <align out="a226" type="s" in="b193" creator="0" insign="della" outsign="firmaet"/>
 <align out="a226" type="" in="b194" creator="0" insign="ditta" outsign="firmaet"/>
 <align out="a257" type="d" in="b225 b226" creator="0" insign="un prezzo" outsign="prisen"/>
-<align out="a258" type="f+mcadj" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
 <align out="a268 a269" type="wo" in="b235" creator="0" insign="Invece" outsign="i stedet"/>
+<align out="a113" type="ds" in="b87" creator="0" insign="degli" outsign="udstillere"/>
+<align out="a184" type="" in="b163" creator="0" insign="precursore" outsign="forløber"/>
+<align out="b162" type="" in="b162" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="b164" type="" in="b164" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a258" type="f+mcadj" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
 </DTAGalign>
