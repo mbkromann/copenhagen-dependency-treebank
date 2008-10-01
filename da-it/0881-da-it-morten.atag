@@ -1,0 +1,167 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0881-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0881-it-auto.tag" sign="_input"/>
+<align out="a52" type="s" in="b10 b11" creator="0" insign="della strada" outsign="gaden"/>
+<align out="a51" type="" in="b10" creator="0" insign="della" outsign="af"/>
+<align out="a50" type="" in="b9" creator="0" insign="lato" outsign="side"/>
+<align out="a45 a46 a47" type="f" in="b1 b2 b3" creator="0" insign="Ci siamo presentati" outsign="har vi taget"/>
+<align out="a44" type="" in="a44" creator="0" insign="Nu" outsign="Nu"/>
+<align out="b5 b6 b7" type="" in="b5 b6 b7" creator="0" insign="ogni casa di" outsign="ogni casa di"/>
+<align out="a48" type="" in="a48" creator="0" insign="den" outsign="den"/>
+<align out="a49" type="" in="b8" creator="0" insign="un" outsign="ene"/>
+<align out="b4 b5 b6 b7" type="" in="b4 b5 b6 b7" creator="0" insign="in ogni casa di" outsign="in ogni casa di"/>
+<align out="a53" type="" in="a53" creator="0" insign="." outsign="."/>
+<align out="a78" type="" in="b13 b14" creator="0" insign="ha detto" outsign="fortalte"/>
+<align out="a79" type="" in="b15" creator="0" insign="Ann-Mari" outsign="Ann-Mari"/>
+<align out="a80" type="" in="b16" creator="0" insign="Cadogan" outsign="Cadogan"/>
+<align out="a77" type="" in="b12" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="b17" type="" in="b17" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="b19" type="" in="b19" creator="0" insign="famiglie" outsign="famiglie"/>
+<align out="a57 a59" type="" in="b21 b22 b23" creator="0" insign="erano in casa" outsign="var hjemme"/>
+<align out="a58" type="" in="b20" creator="0" insign="non" outsign="ikke"/>
+<align out="a61" type="" in="b25" creator="0" insign="un" outsign="en"/>
+<align out="b26" type="" in="b26" creator="0" insign="tale" outsign="tale"/>
+<align out="a63" type="" in="b29" creator="0" insign="affatto" outsign="slet"/>
+<align out="a65" type="" in="b30" creator="0" insign="interessato" outsign="interesseret"/>
+<align out="a60" type="" in="b24" creator="0" insign="," outsign=","/>
+<align out="a43" type="" in="b0" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a56" type="" in="b18" creator="-1" insign="Tre" outsign="Tre"/>
+<align out="a62" type="" in="b28" creator="0" insign="era" outsign="var"/>
+<align out="a64" type="" in="b27" creator="0" insign="non" outsign="ikke"/>
+<align out="a66" type="" in="b31" creator="0" insign="," outsign=","/>
+<align out="a67" type="" in="a67" creator="0" insign="og" outsign="og"/>
+<align out="b33" type="" in="b33" creator="0" insign="altro" outsign="altro"/>
+<align out="a71" type="" in="b36" creator="0" insign="cristiano" outsign="kristen"/>
+<align out="a73 a74" type="" in="b38" creator="0" insign="frequenta" outsign="kommer i"/>
+<align out="a75" type="f" in="b39 b40" creator="0" insign="la missione" outsign="missionshuset"/>
+<align out="a69" type="" in="b34" creator="0" insign="è" outsign="var"/>
+<align out="a68" type="" in="b32" creator="0" insign="un" outsign="en"/>
+<align out="a72" type="" in="b37" creator="0" insign="e" outsign="og"/>
+<align out="a76" type="" in="a76" creator="0" insign="," outsign=","/>
+<align out="a81" type="" in="b41" creator="0" insign="." outsign="."/>
+<align out="a87" type="" in="b47" creator="-1" insign="quindi" outsign="Så"/>
+<align out="a70" type="" in="b35" creator="-1" insign="già" outsign="allerede"/>
+<align out="a94 a95 a96" type="" in="b43 b44" creator="0" insign="abbiamo concluso" outsign="vi har udrettet"/>
+<align out="a88 a89 a90 a91" type="" in="a88 a89 a90 a91" creator="0" insign="det er ikke så" outsign="det er ikke så"/>
+<align out="a88 a89 a91" type="" in="a88 a89 a91" creator="0" insign="det er så" outsign="det er så"/>
+<align out="a90" type="" in="b42" creator="0" insign="Non" outsign="ikke"/>
+<align out="a93" type="" in="b46" creator="0" insign="," outsign=","/>
+<align out="a97" type="" in="b48" creator="0" insign="," outsign=","/>
+<align out="a103" type="" in="b53" creator="0" insign="alcuni" outsign="nogle"/>
+<align out="a104" type="" in="b54" creator="0" insign="Vangeli" outsign="evangelier"/>
+<align out="a101" type="" in="b50" creator="0" insign="almeno" outsign="da"/>
+<align out="a102" type="" in="b52" creator="0" insign="consegnato" outsign="afleveret"/>
+<align out="a99 a100" type="" in="b51" creator="0" insign="abbiamo" outsign="vi fik"/>
+<align out="a92" type="" in="b45" creator="-1" insign="molto" outsign="meget"/>
+<align out="a98" type="" in="b49" creator="-1" insign="ma" outsign="men"/>
+<align out="a106" type="" in="b55" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a111" type="" in="b57" creator="-1" insign="Una" outsign="En"/>
+<align out="a105" type="" in="b56" creator="-1" insign="." outsign="."/>
+<align out="a113" type="s+lv" in="b58 b59" creator="0" insign="delle persone" outsign="dem"/>
+<align out="a114" type="" in="a114" creator="0" insign="," outsign=","/>
+<align out="a116" type="" in="b61 b62" creator="0" insign="hanno ricevuto" outsign="fik"/>
+<align out="a117" type="d" in="b63 b64" creator="0" insign="la visita" outsign="besøg"/>
+<align out="a119" type="" in="b65" creator="0" insign="era" outsign="var"/>
+<align out="a118" type="" in="a118" creator="0" insign="," outsign=","/>
+<align out="a112" type="" in="b58" creator="0" insign="delle" outsign="af"/>
+<align out="a124" type="" in="b70" creator="0" insign="tuttavia" outsign="dog"/>
+<align out="a126 a127 a128" type="f" in="b72 b73 b74 b75" creator="0" insign="ha potuto prestare attenzione" outsign="tog sig tid"/>
+<align out="a130 a131" type="" in="a130 a131" creator="0" insign="en snak" outsign="en snak"/>
+<align out="b77" type="" in="b77" creator="0" insign="visita" outsign="visita"/>
+<align out="a132" type="" in="a132" creator="0" insign="med" outsign="med"/>
+<align out="a134" type="" in="b79" creator="0" insign="due" outsign="to"/>
+<align out="a135" type="" in="b80 b81" creator="0" insign="missionari laici" outsign="evangelister"/>
+<align out="a133" type="s" in="b78" creator="0" insign="dei" outsign="de"/>
+<align out="a120" type="" in="b66" creator="-1" insign="Ove" outsign="Ove"/>
+<align out="a129" type="" in="b76" creator="-1" insign="alla" outsign="til"/>
+<align out="a121" type="" in="b67" creator="-1" insign="Andersen" outsign="Andersen"/>
+<align out="a122" type="" in="b68" creator="-1" insign="," outsign=","/>
+<align out="a125" type="" in="b71" creator="-1" insign="non" outsign="ikke"/>
+<align out="a115" type="" in="b60" creator="-1" insign="che" outsign="der"/>
+<align out="a123" type="" in="b69" creator="-1" insign="che" outsign="der"/>
+<align out="a142 a143" type="" in="b87" creator="0" insign="avevamo" outsign="Vi havde"/>
+<align out="a144" type="d" in="b88 b89" creator="0" insign="degli ospiti" outsign="gæster"/>
+<align out="a145" type="" in="b90" creator="0" insign="e" outsign="og"/>
+<align out="a146 a147 a148 a149" type="" in="b91 b92 b93 b94 b95" creator="0" insign="stavamo per andare a tavola" outsign="var ved at spise"/>
+<align out="b84 b85 b86" type="" in="b84 b85 b86" creator="0" insign="In quel momento" outsign="In quel momento"/>
+<align out="a151 a152" type="" in="b97" creator="0" insign="altrimenti" outsign="men ellers"/>
+<align out="a156" type="" in="b98" creator="0" insign="li" outsign="dem"/>
+<align out="a153 a154 a155 a157" type="" in="b99 b100 b101" creator="0" insign="avrei fatti entrare" outsign="havde jeg inviteret ind"/>
+<align out="a158" type="" in="b102" creator="0" insign="." outsign="."/>
+<align out="a136" type="f" in="b82" creator="-1" insign="." outsign=":"/>
+<align out="a141" type="" in="b83" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a150" type="" in="b96" creator="-1" insign="," outsign=","/>
+<align out="a162 a163" type="mvg" in="b107 b108" creator="0" insign="essendo io" outsign="er jeg"/>
+<align out="a164" type="" in="b109" creator="0" insign="stesso" outsign="selv"/>
+<align out="b103 b104 b105 b106" type="" in="b103 b104 b105 b106" creator="0" insign="Devo dire che ," outsign="Devo dire che ,"/>
+<align out="a161" type="" in="a161" creator="0" insign="Nu" outsign="Nu"/>
+<align out="a165 a166" type="" in="b110 b111 b112" creator="0" insign="testimone di Geova" outsign="Jehovas Vidne"/>
+<align out="a175" type="" in="b122" creator="0" insign="qualcosa" outsign="noget"/>
+<align out="a173" type="" in="b121" creator="0" insign="raccontare" outsign="fortælle"/>
+<align out="a171" type="" in="b117 b118" creator="0" insign="in realtà" outsign="nok"/>
+<align out="a169 a170" type="" in="b120" creator="0" insign="possano" outsign="de kan"/>
+<align out="b115" type="" in="b115" creator="0" insign="è" outsign="è"/>
+<align out="a177 a178 a179" type="f" in="b123 b124" creator="0" insign="di nuovo" outsign="jeg ikke ved"/>
+<align out="a176" type="" in="a176" creator="0" insign="," outsign=","/>
+<align out="a180" type="" in="a180" creator="0" insign="," outsign=","/>
+<align out="a168" type="" in="b116" creator="-1" insign="che" outsign="så"/>
+<align out="a167" type="" in="b113" creator="-1" insign="," outsign=","/>
+<align out="a174" type="" in="b119" creator="-1" insign="mi" outsign="mig"/>
+<align out="a172" type="" in="b114" creator="-1" insign="non" outsign="ikke"/>
+<align out="a182" type="" in="b126 b127" creator="0" insign="ha affermato" outsign="sagde"/>
+<align out="a187 a188 a189 a190 a191" type="" in="b133 b134 b135 b136 b137" creator="0" insign="non era contrario al fatto" outsign="fandt det helt i orden"/>
+<align out="b132" type="" in="b132" creator="0" insign="comunque" outsign="comunque"/>
+<align out="a193" type="" in="b138" creator="0" insign="che" outsign="at"/>
+<align out="a194 a196 a197" type="n" in="b139 b141" creator="0" insign="dei rivali" outsign="et konkurrerende foretagende"/>
+<align out="a195" type="" in="b140" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a198" type="" in="b142" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a199 a200" type="" in="b143 b144 b145 b146 b147" creator="0" insign="andassero di porta in porta" outsign="stemte dørklokker"/>
+<align out="a192" type="" in="a192" creator="0" insign="," outsign=","/>
+<align out="a183" type="" in="b128" creator="-1" insign="Ove" outsign="Ove"/>
+<align out="a184" type="" in="b129" creator="-1" insign="Andersen" outsign="Andersen"/>
+<align out="a186" type="" in="b131" creator="-1" insign="che" outsign="der"/>
+<align out="a181" type="" in="b125" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a185" type="" in="b130" creator="-1" insign="," outsign=","/>
+<align out="a218 a219" type="f" in="b150 b151" creator="0" insign="ha aggiunto" outsign="mente han"/>
+<align out="b149" type="" in="b149" creator="0" insign="ed" outsign="ed"/>
+<align out="a208" type="" in="b157" creator="0" insign="dovrebbero" outsign="bør"/>
+<align out="a211" type="" in="b158" creator="0" insign="farlo" outsign="gøre"/>
+<align out="a212" type="" in="b159" creator="0" insign="per" outsign="for"/>
+<align out="a214" type="" in="b160" creator="0" insign="diffondere" outsign="udbrede"/>
+<align out="a213" type="" in="a213" creator="0" insign="at" outsign="at"/>
+<align out="a215" type="s" in="b161 b162" creator="0" insign="la Parola" outsign="budskabet"/>
+<align out="a216" type="" in="a216" creator="0" insign="," outsign=","/>
+<align out="a210" type="s" in="b155 b156" creator="0" insign="i cristiani" outsign="kristne"/>
+<align out="a207" type="" in="b158" creator="0" insign="farlo" outsign="Det"/>
+<align out="b152" type="" in="b152" creator="0" insign=":" outsign=":"/>
+<align out="a220" type="" in="b164" creator="0" insign="." outsign="."/>
+<align out="a226" type="" in="b167" creator="0" insign="tale" outsign="del"/>
+<align out="b166" type="" in="b166" creator="0" insign="altro" outsign="altro"/>
+<align out="a231" type="wo" in="b168" creator="0" insign="alle" outsign="klokken"/>
+<align out="a209" type="" in="b154" creator="-1" insign="Tutti" outsign="alle"/>
+<align out="a201" type="f" in="b148" creator="-1" insign="," outsign="."/>
+<align out="a225" type="" in="b165" creator="-1" insign="Un" outsign="En"/>
+<align out="a206" type="" in="b153" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a217" type="" in="b163" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a228 a229" type="" in="a228 a229" creator="0" insign="byens borgere" outsign="byens borgere"/>
+<align out="a230 a233 a234" type="f" in="b170 b171" creator="0" insign="è andato" outsign="havde fundet vej"/>
+<align out="a235" type="" in="b172" creator="0" insign="verso" outsign="til"/>
+<align out="a236" type="s" in="b173 b174" creator="0" insign="la chiesa" outsign="folkekirken"/>
+<align out="a238" type="" in="b175" creator="0" insign="dove" outsign="hvor"/>
+<align out="a227" type="" in="a227" creator="0" insign="af" outsign="af"/>
+<align out="a237" type="" in="a237" creator="0" insign="," outsign=","/>
+<align out="a240 a241 a242" type="" in="b176 b177 b178 b179" creator="0" insign="in occasione della giornata" outsign="i dagens anledning"/>
+<align out="a244" type="d" in="b182 b183" creator="0" insign="la messa" outsign="gudstjeneste"/>
+<align out="a247" type="" in="b187 b188" creator="0" insign="sorta di" outsign="slags"/>
+<align out="a248" type="" in="b189" creator="0" insign="dimostrazione" outsign="demonstration"/>
+<align out="a249" type="" in="b190" creator="0" insign="contro" outsign="mod"/>
+<align out="a251" type="d" in="b191 b192" creator="0" insign="l' iniziativa" outsign="arrangement"/>
+<align out="a250" type="" in="b193" creator="0" insign="ETAH" outsign="ETAHS"/>
+<align out="a252" type="" in="b194" creator="0" insign="." outsign="."/>
+<align out="b185" type="" in="b185" creator="0" insign="per" outsign="per"/>
+<align out="a232" type="" in="b169" creator="-1" insign="14" outsign="14"/>
+<align out="a243" type="" in="b181" creator="-1" insign="era" outsign="var"/>
+<align out="a245" type="" in="b184" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a246" type="" in="b186" creator="-1" insign="una" outsign="en"/>
+<align out="a239" type="" in="b180" creator="-1" insign="c'" outsign="der"/>
+</DTAGalign>
