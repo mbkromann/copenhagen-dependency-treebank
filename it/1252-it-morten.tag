@@ -24,7 +24,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="">Cina</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:robj" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-26:time|-9:subj|1:vobj|4:pnct|-1:robj">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-26:time|-9:subj|-1:robj|1:vobj|4:pnct">è</W>
 <W lemma="ridurre" msd="VAP" tag="VER:pper" in="-1:vobj" out="-10:[subj]|1:degr">ridotto</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:degr" out="1:nobj">al</W>
 <W lemma="minimo" msd="NC" tag="NOM" in="-1:nobj" out="">minimo</W>
@@ -37,7 +37,7 @@
 <W lemma="quarantena" msd="NC" tag="NOM" in="-1:nobj" out="">quarantena</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="2:assoc-const">Danida</W>
-<W lemma="tenere" msd="VADR" tag="VER:pres" in="-6:conj" out="-2:coord|-1:subj|1:dobj|5:bg|4:predo">tiene</W>
+<W lemma="tenere" msd="VADR" tag="VER:pres" in="-6:conj" out="-2:coord|-1:subj|1:dobj|4:predo|5:bg">tiene</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj|-2:assoc-const" out="1:nobj">il</W>
 <W lemma="portafoglio" msd="NC" tag="NOM" in="-1:nobj" out="">portafoglio</W>
 <W lemma="ermeticamente" msd="RG" tag="ADV" in="1:man" out="">ermeticamente</W>
@@ -66,14 +66,14 @@
 <W lemma="noi" msd="PP" tag="PRO:pers" in="2:subj|3:[subj]" out="1:nobj">Noi</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:nobj" out="">danesi</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="21:qobj" out="-2:subj|1:vobj|14:conj|20:pnct">siamo</W>
-<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="10:pnct|-3:[subj]|1:preds">stati</W>
+<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:[subj]|1:preds|10:pnct">stati</W>
 <W lemma="fra" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj|5:[subj]" out="2:nobj|4:pobj">i</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attrd" out="">primi</W>
 <W lemma="investitore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr">investitori</W>
 <W lemma="straniero" msd="AN" tag="ADJ" in="-1:attrr" out="">stranieri</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-4:pobj" out="1:vobj">ad</W>
-<W lemma="operare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:loc|-5:[subj]">operare</W>
+<W lemma="operare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-5:[subj]|1:loc">operare</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="">Cina</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
@@ -94,7 +94,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">a</W>
 <W lemma="Pechino" msd="NP" tag="NPR" in="-1:nobj" out="">Pechino</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
-<W lemma="Jensen" msd="NP" tag="NPR" in="1:subj|-6:coref-var" out="">Jensen</W>
+<W lemma="Jensen" msd="NP" tag="NPR" in="-6:coref-var|1:subj" out="">Jensen</W>
 <W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj|8:vobj|18:pnct">dice</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="6:subj" out="1:nobj|3:loc">lo</W>
@@ -126,7 +126,7 @@
 <W lemma="preparare" msd="VAP" tag="VER:pper" in="-1:preds" out="1:pobj">preparati</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="2:nobj">una</W>
-<W lemma="loro" msd="PO" tag="PRO:poss" in="1:pobj:dobj|-8:coref" out="">loro</W>
+<W lemma="loro" msd="PO" tag="PRO:poss" in="-8:coref|1:pobj:dobj" out="">loro</W>
 <W lemma="realizzazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj:dobj|1:man">realizzazione</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="singhiozzo" msd="NC" tag="NOM" in="-1:nobj" out="">singhiozzo</W>
@@ -134,7 +134,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="interessante" msd="AN" tag="ADJ" in="-1:nobj" out="">interessante</W>
-<W lemma="essere" msd="VADR" tag="VER:futu" in="-18:conj" out="-2:subj|1:preds|17:pnct|18:pnct|-3:coord|6:vobj">sarà</W>
+<W lemma="essere" msd="VADR" tag="VER:futu" in="-18:conj" out="-2:subj|-3:coord|1:preds|6:vobj|17:pnct|18:pnct">sarà</W>
 <W lemma="vedere" msd="VAF" tag="VER:infi" in="-1:preds" out="1:dobj">vedere</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:dobj|4:[dobj]" out="">quanto</W>
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="1:nobj">i</W>
@@ -161,7 +161,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="14:coref-var">Cina</W>
 <W lemma="sin" msd="SP" tag="PRE" in="1:focal" out="">sin</W>
-<W lemma="dal" msd="SP+P" tag="PRE:det" in="-6:time" out="1:nobj|-1:focal">dal</W>
+<W lemma="dal" msd="SP+P" tag="PRE:det" in="-6:time" out="-1:focal|1:nobj">dal</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1909</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-9:conj" out="-1:coord|-11:[subj]|1:vobj|11:pnct">ha</W>
