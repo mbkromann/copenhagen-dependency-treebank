@@ -10,17 +10,12 @@
 <align out="a51" type="" in="b12" creator="-1" insign="es" outsign="er"/>
 <align out="a52" type="" in="b11" creator="-1" insign="no" outsign="ikke"/>
 <align out="a113" type="" in="b73 b74 b75" creator="-101" insign="En ese entonces" outsign="Dengang"/>
-<align out="a118" type="" in="b84" creator="-101" insign="para" outsign="til"/>
 <align out="a119" type="" in="b86" creator="-101" insign="un" outsign="et"/>
 <align out="a135 a136" type="" in="b94" creator="-101" insign="tampoco" outsign="heller ikke"/>
 <align out="a144" type="" in="b102" creator="-101" insign="primero" outsign="først"/>
 <align out="a145" type="" in="b103 b104" creator="-101" insign="pasar por" outsign="igennem"/>
 <align out="a146" type="" in="b105" creator="-101" insign="un" outsign="en"/>
 <align out="a152" type="" in="b108 b109" creator="-101" insign="en que" outsign="hvor"/>
-<align out="a153" type="" in="b110" creator="-101" insign="las" outsign="de"/>
-<align out="a154" type="" in="b113" creator="-101" insign="ambos" outsign="to"/>
-<align out="a155" type="" in="b114" creator="-101" insign="partidos" outsign="partiers"/>
-<align out="a157" type="" in="b115" creator="-101" insign="puedan" outsign="kan"/>
 <align out="a171" type="" in="b132" creator="-101" insign="y" outsign="og"/>
 <align out="a173" type="" in="b137" creator="-101" insign="ser" outsign="være"/>
 <align out="a174" type="" in="b138" creator="-101" insign="un" outsign="et"/>
@@ -34,7 +29,6 @@
 <align out="a197 a198" type="" in="b152" creator="-101" insign="Debemos" outsign="Vi skal"/>
 <align out="a199" type="" in="b153" creator="-101" insign="pensar" outsign="tænke"/>
 <align out="a200" type="" in="b154" creator="-101" insign="en" outsign="på"/>
-<align out="a201" type="" in="b155 b156" creator="-101" insign="la colaboración" outsign="samarbejdet"/>
 <align out="a202" type="" in="b157" creator="-101" insign="entre" outsign="blandt"/>
 <align out="a206" type="" in="b161" creator="-101" insign="de" outsign="af"/>
 <align out="a207 a208" type="" in="b162 b163" creator="-101" insign="políticos no-socialistas" outsign="borgerlige politikere"/>
@@ -42,14 +36,10 @@
 <align out="a214" type="" in="b166" creator="-101" insign="podría" outsign="skulle"/>
 <align out="a221" type="" in="b172" creator="-101" insign="algunas" outsign="nogle"/>
 <align out="a222" type="" in="b173" creator="-101" insign="personas" outsign="enkeltpersoner"/>
-<align out="a223" type="" in="a223" creator="-101" insign="har" outsign="har"/>
 <align out="a225" type="" in="b175 b176" creator="-101" insign="la colaboración" outsign="samarbejdet"/>
 <align out="a229" type="" in="b179" creator="-101" insign="dice" outsign="siger"/>
-<align out="a236" type="" in="b185" creator="-101" insign="Después" outsign="Efter"/>
 <align out="a237" type="" in="b187" creator="-101" insign="un" outsign="en"/>
 <align out="a241" type="" in="b194" creator="-101" insign="en" outsign="på"/>
-<align out="b112" type="" in="b112" creator="-101" insign="de" outsign="de"/>
-<align out="b130" type="" in="b130" creator="-101" insign="de" outsign="de"/>
 <align out="b134" type="" in="b134" creator="-101" insign="de" outsign="de"/>
 <align out="b182" type="" in="b182" creator="-101" insign="de" outsign="de"/>
 <align out="b208" type="" in="b208" creator="-101" insign="de" outsign="de"/>
@@ -63,9 +53,6 @@
 <align out="a61" type="" in="b18" creator="0" insign="ha" outsign="blev"/>
 <align out="a62 a63" type="" in="b19" creator="0" insign="habido" outsign="der holdt"/>
 <align out="a65" type="" in="b21" creator="0" insign="histórica" outsign="historisk"/>
-<align out="a66" type="" in="b25" creator="0" insign="colectiva" outsign="fælles"/>
-<align out="a67" type="gruppe=" in="b24" creator="0" insign="grupo" outsign="gruppemøde"/>
-<align out="a67" type="møde=" in="b22" creator="0" insign="sesión" outsign="gruppemøde"/>
 <align out="a68" type="" in="b26 b27" creator="0" insign="con anticipación" outsign="forud"/>
 <align out="b23" type="" in="b23" creator="0" insign="de" outsign="de"/>
 <align out="a69" type="" in="b28" creator="0" insign="del" outsign="for"/>
@@ -95,10 +82,8 @@
 <align out="a87" type="" in="b50" creator="0" insign="Erik" outsign="Erik"/>
 <align out="a88" type="" in="b51" creator="0" insign="Eriksen" outsign="Eriksen"/>
 <align out="a89" type="" in="a89" creator="0" insign="," outsign=","/>
-<align out="a90" type="lv" in="b52 b53" creator="0" insign="su rol" outsign="rollen"/>
 <align out="a91" type="" in="b54" creator="0" insign="como" outsign="som"/>
 <align out="a94" type="" in="b55 b56" creator="0" insign="personaje central" outsign="frontfigur"/>
-<align out="a92 a93" type="lv" in="b57 b58" creator="0" insign="del partido" outsign="sit partis"/>
 <align out="a95" type="" in="b59" creator="0" insign="," outsign=","/>
 <align out="a98" type="" in="b61" creator="0" insign="directamente" outsign="direkte"/>
 <align out="a96" type="" in="b60" creator="0" insign="cuando" outsign="at"/>
@@ -108,35 +93,25 @@
 <align out="a106" type="" in="b70" creator="0" insign="dos" outsign="to"/>
 <align out="a105" type="" in="b69" creator="0" insign="los" outsign="de"/>
 <align out="a107" type="" in="b71" creator="0" insign="partidos" outsign="partier"/>
-<align out="a97 a99 a100 a101" type="lv" in="b62 b63 b64 b65" creator="0" insign="se mostró partidario de" outsign="han gik ind for"/>
 <align out="a108" type="" in="b72" creator="0" insign="." outsign="."/>
-<align out="a115" type="" in="b76 b77" creator="0" insign="los tiempos" outsign="tiden"/>
 <align out="a114" type="" in="b79" creator="0" insign="estaban" outsign="var"/>
 <align out="a116" type="" in="b78" creator="0" insign="no" outsign="ikke"/>
 <align out="b80" type="" in="b80" creator="0" insign="lo" outsign="lo"/>
 <align out="b81" type="" in="b81" creator="0" insign="suficientemente" outsign="suficientemente"/>
 <align out="a117" type="" in="b82" creator="0" insign="maduros" outsign="moden"/>
-<align out="b85" type="" in="b85" creator="0" insign="dar" outsign="dar"/>
 <align out="a120" type="" in="b88" creator="0" insign="tan" outsign="så"/>
 <align out="a121" type="" in="b89" creator="0" insign="decisivo" outsign="afgørende"/>
 <align out="a122" type="" in="b87" creator="0" insign="paso" outsign="skridt"/>
 <align out="a123" type="" in="b90" creator="0" insign=":" outsign=":"/>
-<align out="a132 a133 a134" type="lv" in="b91 b92 b93" creator="0" insign="“En cierto modo" outsign="for så vidt"/>
 <align out="a137" type="" in="b98" creator="0" insign="ahora" outsign="nu"/>
 <align out="a138" type="" in="b99" creator="0" insign="." outsign="."/>
-<align out="a128 a129 a130 a131" type="" in="b95" creator="0" insign="es" outsign="&quot; Det er den"/>
-<align out="b96" type="" in="b96" creator="0" insign="el" outsign="el"/>
-<align out="b97" type="" in="b97" creator="0" insign="momento" outsign="momento"/>
 <align out="a141 a142" type="" in="b101" creator="0" insign="debemos" outsign="Vi skal"/>
 <align out="a143" type="" in="b100" creator="0" insign="En&nbsp;todo&nbsp;caso" outsign="i_hvert_fald"/>
 <align out="a147 a148 a149" type="" in="b106" creator="0" insign="largísimo" outsign="lang , lang"/>
 <align out="a150" type="" in="b107" creator="0" insign="período" outsign="periode"/>
 <align out="a151" type="" in="a151" creator="0" insign="," outsign=","/>
 <align out="a156" type="" in="b111" creator="0" insign="personas" outsign="folk"/>
-<align out="a159" type="" in="b119" creator="0" insign="mutua" outsign="hinandens"/>
 <align out="a160" type="" in="b118" creator="0" insign="química" outsign="kemi"/>
-<align out="b117" type="" in="b117" creator="0" insign="la" outsign="la"/>
-<align out="a158 a161 a162" type="" in="b116" creator="0" insign="conocer" outsign="lære at kende"/>
 <align out="b120" type="" in="b120" creator="0" insign="que" outsign="que"/>
 <align out="b121" type="" in="b121" creator="0" insign="puedan" outsign="puedan"/>
 <align out="b122" type="" in="b122" creator="0" insign="tener" outsign="tener"/>
@@ -145,7 +120,6 @@
 <align out="a167" type="" in="b136" creator="0" insign="podrían" outsign="kunne"/>
 <align out="a168" type="" in="b128" creator="0" insign="periódicas" outsign="jævnlige"/>
 <align out="a169" type="" in="a169" creator="0" insign="fælles" outsign="fælles"/>
-<align out="a170" type="lv" in="b129 b131" creator="0" insign="sesiones grupo" outsign="gruppe-"/>
 <align out="a172" type="" in="b133 b135" creator="0" insign="reuniones directivos" outsign="hovedbestyrelsesmøder"/>
 <align out="a178" type="" in="b141" creator="0" insign="." outsign="."/>
 <align out="b127" type="" in="b127" creator="0" insign="," outsign=","/>
@@ -155,22 +129,18 @@
 <align out="a187" type="" in="b146" creator="0" insign="malentendidos" outsign="misforståelser"/>
 <align out="b144" type="" in="b144" creator="0" insign="que" outsign="que"/>
 <align out="a192" type="" in="b151" creator="0" insign="." outsign="."/>
-<align out="a203 a204 a205" type="mv" in="b158 b159 b160" creator="0" insign="las futuras generaciones" outsign="den kommende generation"/>
 <align out="a209" type="" in="b164" creator="0" insign="." outsign="."/>
-<align out="a216 a217 a218" type="lv" in="b167" creator="0" insign="fracasar" outsign="gå på gulvet"/>
 <align out="a219" type="" in="b168" creator="0" insign="," outsign=","/>
 <align out="b169" type="" in="b169" creator="0" insign="si" outsign="si"/>
 <align out="b170" type="" in="b170" creator="0" insign="tan" outsign="tan"/>
 <align out="b171" type="" in="b171" creator="0" insign="sólo" outsign="sólo"/>
 <align out="a220" type="" in="a220" creator="0" insign="fordi" outsign="fordi"/>
-<align out="a224" type="mv" in="b174" creator="0" insign="mantuvieran" outsign="holdt"/>
 <align out="a226 a227 a228" type="" in="b177 b178" creator="0" insign="en marcha,”" outsign="i_gang , &quot;"/>
 <align out="a230" type="ministeren=" in="b180 b181" creator="0" insign="el ministro" outsign="fiskeriministeren"/>
 <align out="a230" type="fiskeri=" in="b183" creator="0" insign="pesca" outsign="fiskeriministeren"/>
 <align out="a231" type="" in="b184" creator="0" insign="." outsign="."/>
 <align out="a238" type="" in="b188 b189 b190" creator="0" insign="fin de semana" outsign="weekend"/>
 <align out="a239" type="" in="b191" creator="0" insign="con" outsign="hos"/>
-<align out="a240" type="lv" in="b192 b193" creator="0" insign="su familia" outsign="familien"/>
 <align out="a242" type="" in="b195" creator="0" insign="Fanø" outsign="Fanø"/>
 <align out="b196" type="" in="b196" creator="0" insign="," outsign=","/>
 <align out="a251" type="" in="b214" creator="0" insign="." outsign="."/>
@@ -178,7 +148,6 @@
 <align out="a247" type="" in="b212" creator="0" insign="en" outsign="i"/>
 <align out="a245" type="" in="b197 b198" creator="0" insign="el lunes" outsign="mandag"/>
 <align out="a243 a244" type="" in="b199" creator="0" insign="ha" outsign="har han"/>
-<align out="a246" type="lv" in="b200" creator="0" insign="participado" outsign="været"/>
 <align out="a249" type="" in="b201" creator="0" insign="en" outsign="til"/>
 <align out="b202" type="" in="b202" creator="0" insign="una" outsign="una"/>
 <align out="a250" type="EF=" in="b209 b210 b211" creator="0" insign="la Comunidad Europea" outsign="EF-fiskeriministermøde"/>
@@ -189,4 +158,31 @@
 <align out="b206" type="" in="b206" creator="0" insign="de" outsign="de"/>
 <align out="a64" type="" in="b20" creator="-100" insign="una" outsign="et"/>
 <align out="a78" type="" in="b38" creator="-100" insign="1965" outsign="1965"/>
+<align out="a66 a67" type="" in="b22 b23 b24 b25" creator="0" insign="sesión de grupo colectiva" outsign="fælles gruppemøde"/>
+<align out="a90" type="d" in="b52 b53" creator="0" insign="su rol" outsign="rollen"/>
+<align out="a93 a92" type="d" in="b57 b58" creator="0" insign="del partido" outsign="partis sit"/>
+<align out="a97 a99 a100 a101" type="f" in="b62 b63 b64 b65" creator="0" insign="se mostró partidario de" outsign="han gik ind for"/>
+<align out="a115" type="s/n" in="b76" creator="0" insign="los" outsign="tiden"/>
+<align out="a115" type="" in="b77" creator="0" insign="tiempos" outsign="tiden"/>
+<align out="b83" type="" in="b83" creator="0" insign="como" outsign="como"/>
+<align out="a118" type="" in="b84 b85" creator="0" insign="para dar" outsign="til"/>
+<align out="a132 a133 a134" type="" in="b91 b92 b93" creator="0" insign="“En cierto modo" outsign="for så vidt"/>
+<align out="a128 a129 a130 a131" type="f" in="b95 b96 b97" creator="0" insign="es el momento" outsign="&quot; Det er den"/>
+<align out="a155" type="" in="b114" creator="0" insign="partidos" outsign="partiers"/>
+<align out="a155" type="s" in="b110 b112" creator="0" insign="las de" outsign="partiers"/>
+<align out="a153 a154" type="" in="b113" creator="0" insign="ambos" outsign="de to"/>
+<align out="a157" type="" in="b115" creator="0" insign="puedan" outsign="kan"/>
+<align out="a158 a161 a162" type="" in="b116" creator="0" insign="conocer" outsign="lære at kende"/>
+<align out="a159" type="s" in="b117" creator="0" insign="la" outsign="hinandens"/>
+<align out="a159" type="f" in="b119" creator="0" insign="mutua" outsign="hinandens"/>
+<align out="a170" type="" in="b129 b130 b131" creator="0" insign="sesiones de grupo" outsign="gruppe-"/>
+<align out="a201" type="s" in="b155" creator="0" insign="la" outsign="samarbejdet"/>
+<align out="a201" type="" in="b156" creator="0" insign="colaboración" outsign="samarbejdet"/>
+<align out="a203 a204 a205" type="n" in="b158 b159 b160" creator="0" insign="las futuras generaciones" outsign="den kommende generation"/>
+<align out="a216 a217 a218" type="f" in="b167" creator="0" insign="fracasar" outsign="gå på gulvet"/>
+<align out="a223 a224" type="" in="b174" creator="0" insign="mantuvieran" outsign="har holdt"/>
+<align out="a236" type="" in="b185 b186" creator="0" insign="Después de" outsign="Efter"/>
+<align out="a240" type="s/d" in="b192" creator="0" insign="su" outsign="familien"/>
+<align out="a240" type="" in="b193" creator="0" insign="familia" outsign="familien"/>
+<align out="a246" type="" in="b200" creator="0" insign="participado" outsign="været"/>
 </DTAGalign>
