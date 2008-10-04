@@ -58,8 +58,6 @@
 <align out="a235" type="" in="b152" creator="-101" insign="fÃ¡cil" outsign="let"/>
 <align out="a236" type="" in="b153" creator="-101" insign="para" outsign="for"/>
 <align out="a237" type="" in="b154" creator="-101" insign="ella" outsign="hende"/>
-<align out="a238" type="" in="a238" creator="-101" insign="at" outsign="at"/>
-<align out="a239 a240" type="" in="b155" creator="-101" insign="volver" outsign="vende tilbage"/>
 <align out="a241" type="" in="b156" creator="-101" insign="a" outsign="til"/>
 <align out="a242" type="" in="b157" creator="-101" insign="sus" outsign="sine"/>
 <align out="a243" type="" in="b158" creator="-101" insign="padres" outsign="forældre"/>
@@ -71,7 +69,6 @@
 <align out="a253" type="" in="b165" creator="-101" insign="obligada" outsign="tvunget"/>
 <align out="a254" type="" in="b166" creator="-101" insign="a" outsign="til"/>
 <align out="a255 a256" type="" in="b167" creator="-101" insign="ocultar" outsign="at fortie"/>
-<align out="a257" type="" in="b168 b169" creator="-101" insign="la verdad" outsign="sandheden"/>
 <align out="a258" type="" in="b170" creator="-101" insign="y" outsign="og"/>
 <align out="a267 a268" type="" in="b179" creator="-101" insign="Era" outsign="Det var"/>
 <align out="a270" type="" in="b183" creator="-101" insign="para" outsign="for"/>
@@ -84,9 +81,6 @@
 <align out="a64" type="" in="b20" creator="0" insign="," outsign=","/>
 <align out="b2" type="" in="b2" creator="0" insign="es" outsign="es"/>
 <align out="b3" type="" in="b3" creator="0" insign="igual" outsign="igual"/>
-<align out="a67 a68 a69" type="" in="b21" creator="0" insign="apenas" outsign="næsten slet ingenting"/>
-<align out="b23" type="" in="b23" creator="0" insign="podÃ­a" outsign="podÃ­a"/>
-<align out="a65" type="mv" in="b24" creator="0" insign="ver" outsign="så"/>
 <align out="a70 a71" type="" in="b28" creator="0" insign="hasta" outsign="førend i"/>
 <align out="a66" type="" in="b22" creator="0" insign="se" outsign="man"/>
 <align out="b25" type="" in="b25" creator="0" insign="que" outsign="que"/>
@@ -96,15 +90,12 @@
 <align out="a72" type="" in="b30" creator="0" insign="sÃ©ptimo" outsign="syvende"/>
 <align out="a73" type="" in="b31" creator="0" insign="mes" outsign="måned"/>
 <align out="a74" type="" in="b32" creator="0" insign="." outsign="."/>
-<align out="b33" type="" in="b33" creator="0" insign="Lo" outsign="Lo"/>
-<align out="a77 a78" type="" in="b34" creator="0" insign="llevaba" outsign="Hun bar"/>
 <align out="a79" type="" in="b35" creator="0" insign="bien" outsign="godt"/>
 <align out="b36" type="" in="b36" creator="0" insign="," outsign=","/>
 <align out="a85" type="" in="a85" creator="0" insign="hjemme" outsign="hjemme"/>
 <align out="b40" type="" in="b40" creator="0" insign="aquÃ­" outsign="aquÃ­"/>
 <align out="a88" type="" in="b43" creator="0" insign="." outsign="."/>
 <align out="a93" type="" in="b44" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
-<align out="a94 a95 a96 a97" type="lv" in="b45 b46 b47" creator="0" insign="Debe haber habido" outsign="Der må have været"/>
 <align out="a96" type="" in="b46" creator="0" insign="haber" outsign="have"/>
 <align out="a97" type="" in="b47" creator="0" insign="habido" outsign="været"/>
 <align out="a100" type="" in="b49" creator="0" insign="hombre" outsign="mand"/>
@@ -121,19 +112,14 @@
 <align out="b69" type="" in="b69" creator="0" insign="y" outsign="y"/>
 <align out="a126" type="" in="b70" creator="0" insign="callado" outsign="tavs"/>
 <align out="a130" type="" in="b74" creator="0" insign="," outsign=","/>
-<align out="a132 a133 a134" type="" in="b76 b77" creator="0" insign="se inclinÃ³" outsign="bøjede han sig"/>
-<align out="a135" type="" in="a135" creator="0" insign="frem" outsign="frem"/>
 <align out="a141" type="" in="b84" creator="0" insign="fijamente" outsign="indtrængende"/>
-<align out="a137 a138" type="lv" in="b79 b80" creator="0" insign="su interlocutora" outsign="den anden"/>
 <align out="a143" type="" in="b82" creator="0" insign="la" outsign="hende"/>
 <align out="a140 a142" type="" in="b83" creator="0" insign="mirÃ³" outsign="så på"/>
 <align out="a144" type="" in="b85" creator="0" insign="." outsign="."/>
 <align out="a149" type="" in="b86" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
 <align out="a150" type="" in="b87" creator="0" insign="Tu" outsign="Din"/>
-<align out="a154 a155" type="mv" in="b91 b92" creator="0" insign="nos amÃ¡bamos" outsign="elskede hinanden"/>
 <align out="a156" type="" in="b93" creator="0" insign="," outsign=","/>
 <align out="a157" type="" in="b97" creator="0" insign="esto" outsign="det"/>
-<align out="a158 a159 a160" type="lv" in="b94 b95 b96" creator="0" insign="tienes que entender" outsign="må du forstå"/>
 <align out="a160" type="" in="b96" creator="0" insign="entender" outsign="forstå"/>
 <align out="a161" type="" in="b98" creator="0" insign="." outsign="."/>
 <align out="a164 a165" type="" in="b99 b100" creator="0" insign="Nos encontramos" outsign="Vi mødtes"/>
@@ -142,15 +128,12 @@
 <align out="b113" type="" in="b113" creator="0" insign="que" outsign="que"/>
 <align out="b114" type="" in="b114" creator="0" insign="pudiera" outsign="pudiera"/>
 <align out="b115" type="" in="b115" creator="0" insign="tener" outsign="tener"/>
-<align out="a186" type="" in="b118" creator="0" insign="," outsign="kærlighedsforhold"/>
 <align out="a185" type="" in="b117" creator="0" insign="secretos" outsign="hemmelige"/>
-<align out="a186" type="" in="b116" creator="0" insign="amores" outsign="kærlighedsforhold"/>
 <align out="a188" type="" in="b119" creator="0" insign="ella" outsign="hun"/>
 <align out="a189" type="" in="b121" creator="0" insign="mentÃ­a" outsign="løj"/>
 <align out="a190" type="" in="b122" creator="0" insign="nunca" outsign="aldrig"/>
 <align out="b120" type="" in="b120" creator="0" insign="no" outsign="no"/>
 <align out="a191" type="" in="b123" creator="0" insign="." outsign="."/>
-<align out="a197 a198" type="" in="b128" creator="0" insign="mintiÃ³" outsign="Hun løj"/>
 <align out="b127" type="" in="b127" creator="0" insign="me" outsign="me"/>
 <align out="a199 a200" type="" in="b125 b126" creator="0" insign="A mÃ­" outsign="for mig"/>
 <align out="a201" type="" in="b129" creator="0" insign="." outsign="."/>
@@ -158,8 +141,6 @@
 <align out="a208" type="" in="a208" creator="0" insign="," outsign=","/>
 <align out="a214" type="" in="b139" creator="0" insign="." outsign="."/>
 <align out="a219" type="" in="b140" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
-<align out="a220 a221 a222" type="lv" in="b141 b142" creator="0" insign="DebiÃ³ tener" outsign="Hun havde antagelig"/>
-<align out="a221" type="mv" in="b142" creator="0" insign="tener" outsign="havde"/>
 <align out="a223" type="" in="b143" creator="0" insign="sus" outsign="sine"/>
 <align out="a224" type="" in="b144" creator="0" insign="motivos" outsign="grunde"/>
 <align out="a225" type="" in="b145" creator="0" insign="," outsign=","/>
@@ -171,7 +152,6 @@
 <align out="a259" type="" in="b171 b172 b173" creator="0" insign="poco a poco" outsign="efterhånden"/>
 <align out="a263" type="" in="b177" creator="0" insign="totalmente" outsign="helt"/>
 <align out="a262" type="" in="b174" creator="0" insign="lo" outsign="den"/>
-<align out="a260 a261" type="mv" in="b175 b176" creator="0" insign="fue reprimiendo" outsign="fortrængte hun"/>
 <align out="a264" type="" in="b178" creator="0" insign="." outsign="."/>
 <align out="a269" type="" in="b180 b181" creator="0" insign="mÃ¡s fÃ¡cil" outsign="enklere"/>
 <align out="a271 a272" type="" in="b184" creator="0" insign="ella..." outsign="hende ..."/>
@@ -180,7 +160,6 @@
 <align out="a274" type="" in="a274" creator="0" insign="også" outsign="også"/>
 <align out="a276" type="" in="b188" creator="0" insign="ti" outsign="dig"/>
 <align out="a277" type="" in="b189" creator="0" insign="." outsign="."/>
-<align out="a280 a281 a282 a283" type="lv" in="b190 b191 b192" creator="0" insign="Debe haber actuado" outsign="Hun må have handlet"/>
 <align out="a283" type="" in="b192" creator="0" insign="actuado" outsign="handlet"/>
 <align out="a282" type="" in="b191" creator="0" insign="haber" outsign="have"/>
 <align out="b193" type="" in="b193" creator="0" insign="asÃ­" outsign="asÃ­"/>
@@ -188,7 +167,25 @@
 <align out="a288" type="" in="b198" creator="0" insign="." outsign="."/>
 <align out="a44" type="" in="b4" creator="-100" insign="para" outsign="på"/>
 <align out="a45" type="" in="b5" creator="-100" insign="todos" outsign="alle"/>
+<align out="a42" type="" in="b0" creator="-100" insign="-" outsign="&nbsp;-&nbsp;"/>
 <align out="a46" type="" in="b6" creator="-100" insign="." outsign="."/>
 <align out="a56" type="" in="b14" creator="-100" insign="." outsign="."/>
-<align out="a42" type=" ! " in="b0" creator="-100" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a67" type="" in="b21" creator="0" insign="apenas" outsign="næsten"/>
+<align out="a77 a78" type="" in="b33 b34" creator="0" insign="Lo llevaba" outsign="Hun bar"/>
+<align out="a94 a95" type="" in="b45" creator="0" insign="Debe" outsign="Der må"/>
+<align out="a132 a133 a134 a135" type="" in="b76 b77" creator="0" insign="se inclinÃ³" outsign="bøjede han sig frem"/>
+<align out="a137 a138" type="f" in="b79 b80" creator="0" insign="su interlocutora" outsign="den anden"/>
+<align out="a154 a155" type="" in="b91 b92" creator="0" insign="nos amÃ¡bamos" outsign="elskede hinanden"/>
+<align out="a158 a159" type="" in="b94 b95" creator="0" insign="tienes que" outsign="må du"/>
+<align out="a176" type="" in="b107" creator="0" insign="." outsign="."/>
+<align out="a186" type="" in="b116" creator="0" insign="amores" outsign="kærlighedsforhold"/>
+<align out="a187" type="" in="b118" creator="0" insign="," outsign=","/>
+<align out="a196" type="" in="b124" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a197 a198" type="" in="b127 b128" creator="0" insign="me mintiÃ³" outsign="Hun løj"/>
+<align out="a220 a221 a222" type="" in="b141 b142" creator="0" insign="DebiÃ³ tener" outsign="Hun havde antagelig"/>
+<align out="a238 a239 a240" type="" in="b155" creator="0" insign="volver" outsign="at vende tilbage"/>
+<align out="a257" type="s" in="b168" creator="0" insign="la" outsign="sandheden"/>
+<align out="a257" type="" in="b169" creator="0" insign="verdad" outsign="sandheden"/>
+<align out="a260 a261" type="mvg" in="b175 b176" creator="0" insign="fue reprimiendo" outsign="fortrængte hun"/>
+<align out="a280 a281" type="" in="b190" creator="0" insign="Debe" outsign="Hun må"/>
 </DTAGalign>
