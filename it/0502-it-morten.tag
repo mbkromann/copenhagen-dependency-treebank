@@ -24,7 +24,7 @@
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="volere" msd="VADR" tag="VER:cpre" in="-2:dobj" out="-3:[subj]|1:pobj">voglia</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
-<W _compound="1" compound="¹ritornar²ci" lemma="ritornare" msd="VAF" tag="VER:infi" in="0:²dir¹|-1:¹vobj" out="-5:[subj]|0:²dir¹">ritornarci</W>
+<W _compound="1" compound="¹ritornar²ci" lemma="ritornare" msd="VAF" tag="VER:infi" in="-1:¹vobj|0:²dir¹" out="-5:[subj]|0:²dir¹">ritornarci</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="1:time" out="">Oggi</W>
 <W lemma="essere" msd="VA" tag="VER:cond" in="" out="-1:time|1:time|2:vobj|3:ext|6:cause|56:pnct">sarebbe</W>
@@ -90,7 +90,7 @@
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj|2:[subj]" out="">si</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-2:neg|-1:subj|-5:cause|1:vobj|2:neg|9:pnct">deve</W>
-<W lemma="mangiare" msd="VAF" tag="VER:infi" in="-1:vobj" out="2:vobj|4:conj|-2:[subj]">mangiare</W>
+<W lemma="mangiare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-2:[subj]|2:vobj|4:conj">mangiare</W>
 <W lemma="mai" msd="RG" tag="ADV" in="-2:neg" out="">mai</W>
 <W lemma="verdura" msd="NC" tag="NOM" in="-2:vobj" out="">verdure</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:coord" out="">né</W>
@@ -117,10 +117,10 @@
 <W lemma="stare" msd="VADR" tag="VER:pres" in="-3:vobj" out="-1:subj|-2:neg|1:preds|2:pnct">sta</W>
 <W lemma="attento" msd="AN" tag="ADJ" in="-1:preds" out="">attenti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="di" msd="SP" tag="PRE" in="3:man" out="1:nobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="3:prg" out="1:nobj">di</W>
 <W lemma="sicuro" msd="AN" tag="ADJ" in="-1:nobj" out="">sicuro</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
-<W lemma="contrarre" msd="VADR" tag="VER:pres" in="" out="-1:subj|-9:cond|-3:man|1:dobj|3:pnct">contrae</W>
+<W lemma="contrarre" msd="VADR" tag="VER:pres" in="" out="-1:subj|-9:cond|1:dobj|3:pnct|-3:prg">contrae</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="diarrea" msd="NC" tag="NOM" in="-1:nobj" out="">diarrea</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

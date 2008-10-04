@@ -182,8 +182,8 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="." msd="XP" tag="SENT" in="-11:pnct" out="">.</W>
 <W lemma="due" msd="AN" tag="ADJ" in="6:subj|7:[subj]|8:[subj]" out="1:nobj|28:coref">Due</W>
-<W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:arg">membri</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-35:assoc-const|-1:pobj:arg" out="1:nobj">del</W>
+<W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:arg#">membri</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-35:assoc-const|-1:pobj:arg#" out="1:nobj">del</W>
 <W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:arg#">consiglio</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj:arg#" out="1:nobj">d'</W>
 <W lemma="amministrazione" msd="NC" tag="NOM" in="-1:nobj" out="">amministrazione</W>
@@ -219,10 +219,10 @@
 <W lemma="assolto" msd="AN" tag="ADJ" in="-1:vobj" out="3:[subj]">assolti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="dovere" msd="VADA" tag="VER:impf" in="-7:vobj|3:[subj]|1:[subj]|-3:[subj]" out="-1:neg|-4:conc|1:vobj">dovevano</W>
-<W lemma="credere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|-1:[subj]">credere</W>
+<W lemma="dovere" msd="VADA" tag="VER:impf" in="-7:vobj|-3:[subj]|1:[subj]|3:[subj]" out="-1:neg|-4:conc|1:vobj">dovevano</W>
+<W lemma="credere" msd="VAF" tag="VER:infi" in="-1:vobj" out="-1:[subj]|1:dobj">credere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
-<W lemma="avere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj|3:predo|-3:[subj]">aver</W>
+<W lemma="avere" msd="VAF" tag="VER:infi" in="-1:vobj" out="-3:[subj]|1:dobj|3:predo">aver</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="coscienza" msd="NC" tag="NOM" in="-1:nobj" out="">coscienza</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:predo" out="1:nobj">a</W>

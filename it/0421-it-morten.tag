@@ -1,14 +1,14 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:conj" out="2:pnct|1:nobj">“Ma</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:conj" out="1:nobj|2:pnct">“Ma</W>
 <W lemma="caro" msd="AN" tag="ADJ" in="-1:nobj" out="">cara</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:cause" out="5:pnct">perché</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="6:conj" out="-1:cause|1:loc|-4:conj|5:pnct">vieni</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="6:conj" out="-1:cause|-4:conj|1:loc|5:pnct">vieni</W>
 <W lemma="qui" msd="RG" tag="ADV" in="-1:loc" out="1:pobj">qui</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:attrr">da</W>
 <W lemma="solo" msd="AN" tag="ADJ" in="-1:attrr" out="">sola</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:pnct" out="">?”</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="chiedere" msd="VADA" tag="VER:remo" in="" out="1:subj|2:concom|7:pnct|-6:conj">chiese</W>
+<W lemma="chiedere" msd="VADA" tag="VER:remo" in="" out="-6:conj|1:subj|2:concom|7:pnct">chiese</W>
 <W lemma="lui" msd="PP" tag="PRO:pers" in="-1:subj" out="">lui</W>
 <W lemma="restare" msd="VAG" tag="VER:geru" in="-2:concom" out="1:pobj">restando</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
@@ -21,9 +21,9 @@
 <W lemma="fiammeggiante" msd="AN" tag="ADJ" in="-1:attrr" out="">fiammeggiante</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attrr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Arnalta</W>
-<W lemma="dovere" msd="VADA" tag="VER:impf" in="" out="-5:subj|1:vobj|3:pnct">doveva</W>
-<W lemma="avere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:vobj">averlo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:vobj" out="">colpirto</W>
+<W lemma="dovere" msd="VADA" tag="VER:impf" in="" out="-5:subj|3:pnct|1:¹vobj">doveva</W>
+<W compound="¹aver²lo" lemma="avere" msd="VAF" tag="VER:infi" in="1:²dobj|-1:¹vobj" out="1:vobj">averlo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:vobj" out="-1:²dobj">colpirto</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">Non</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:neg|1:dobj|3:pnct|5:vobj|25:pnct">aspettò</W>
@@ -84,7 +84,7 @@
 <W lemma="un" msd="PI" tag="DET:indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="rifiuto" msd="NC" tag="NOM" in="-1:nobj" out="">rifiuto</W>
 <W lemma="senza" msd="SP" tag="PRE" in="1:neg" out="">senza</W>
-<W lemma="lasciare" msd="VAF" tag="VER:infi" in="0:vobj" out="-1:neg|0:vobj|1:vobj">lasciarsi</W>
+<W lemma="lasciare" msd="VAF" tag="VER:infi" in="0:vobj" out="-1:neg|1:vobj|0:vobj">lasciarsi</W>
 <W lemma="distruggere" msd="VAF" tag="VER:infi" in="-1:vobj" out="">distruggere</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:neg" out="">“Non</W>
@@ -121,7 +121,7 @@
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VAP" tag="VER:pper" in="2:subj|3:[subj]" out="">l’invito</W>
 <W lemma="il" msd="PD" tag="DET:def" in="1:iobj" out="">le</W>
-<W lemma="essere" msd="VA" tag="VER:cond" in="" out="-2:subj|-1:iobj|1:vobj|-10:conj|8:pnct">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER:cond" in="" out="-2:subj|-1:iobj|-10:conj|1:vobj|8:pnct">sarebbe</W>
 <W lemma="apparire" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:[subj]|1:attrr">apparso</W>
 <W lemma="divertente" msd="AN" tag="ADJ" in="-1:attrr" out="1:pnct|2:focal">divertente</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
@@ -136,7 +136,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="cibo" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">cibo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:conj" out="1:nobj|-1:coord">del</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:conj" out="-1:coord|1:nobj">del</W>
 <W lemma="vino" msd="NC" tag="NOM" in="-1:nobj" out="">vino</W>
 <W lemma="il" msd="PD" tag="DET:def" in="1:iobj" out="">le</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-9:conj|-8:subj|-1:iobj|1:dobj|9:pnct">provocò</W>
