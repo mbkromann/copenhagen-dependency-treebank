@@ -75,7 +75,6 @@
 <align out="a130" type="" in="a130" creator="0" insign="er" outsign="er"/>
 <align out="b111" type="" in="b111" creator="0" insign="E" outsign="E"/>
 <align out="a131" type="" in="a131" creator="0" insign="den" outsign="den"/>
-<align out="a144" type="" in="b119 b120 b121" creator="0" insign="prima di tutto" outsign="først"/>
 <align out="a146" type="" in="b126" creator="-1" insign="un" outsign="en"/>
 <align out="a138" type="" in="b115" creator="-1" insign="." outsign="."/>
 <align out="a145" type="" in="b125" creator="0" insign="attraverso" outsign="igennem"/>
@@ -141,7 +140,6 @@
 <align out="a248" type="" in="b238" creator="0" insign="Bruxelles" outsign="Bruxelles"/>
 <align out="a251" type="" in="b239" creator="0" insign="." outsign="."/>
 <align out="a242" type="" in="b219" creator="-1" insign="Fanø" outsign="Fanø"/>
-<align out="a73 a74" type="wo" in="b30 b31" creator="0" insign="nel 1964" outsign="i 1964"/>
 <align out="a72" type="f" in="b37 b38 b39 b40 b41 b42 b43 b44 b45 b46 b47" creator="0" insign="comune programma politico da parte dei due partiti V e K" outsign="KV-planen"/>
 <align out="a67" type="f" in="b53 b54 b55 b56 b57 b58" creator="0" insign="incontro fra i rispettivi gruppi parlamentari" outsign="gruppemøde"/>
 <align out="a68" type="wo" in="b33" creator="0" insign="prima" outsign="forud"/>
@@ -156,13 +154,10 @@
 <align out="a70" type="s" in="b34" creator="0" insign="del" outsign="lanceringen"/>
 <align out="a72" type="s" in="b36" creator="0" insign="del" outsign="KV-planen"/>
 <align out="a77" type="" in="b60" creator="0" insign="nel" outsign="i"/>
-<align out="a78" type="" in="b61" creator="0" insign="1965" outsign="1965"/>
-<align out="a78" type="d" in="b60" creator="0" insign="nel" outsign="1965"/>
 <align out="a79" type="f" in="b77" creator="0" insign="perse" outsign="kostede"/>
 <align out="a90" type="s" in="b78" creator="0" insign="il" outsign="rollen"/>
 <align out="a90" type="" in="b80" creator="0" insign="ruolo" outsign="rollen"/>
 <align out="a97 a99 a100 a101" type="mcn" in="b86 b87" creator="0" insign="sostenitore di" outsign="han gik ind for"/>
-<align out="a113" type="f" in="b95 b96 b97" creator="0" insign="In quegli anni" outsign="Dengang"/>
 <align out="a115" type="s" in="b98" creator="0" insign="i" outsign="tiden"/>
 <align out="a115" type="n" in="b99" creator="0" insign="tempi" outsign="tiden"/>
 <align out="a141 a142" type="f" in="b122 b123" creator="0" insign="sarà necessario" outsign="Vi skal"/>
@@ -186,5 +181,13 @@
 <align out="a230" type="s" in="b205" creator="0" insign="il" outsign="fiskeriministeren"/>
 <align out="a230" type="" in="b206 b207 b208" creator="0" insign="ministro della pesca" outsign="fiskeriministeren"/>
 <align out="a244" type="lv" in="b222 b223" creator="0" insign="il ministro" outsign="han"/>
-<align out="a250" type="d" in="b227 b228 b229 b230 b231 b232 b233 b234 b235 b236" creator="0" insign="una riunione fra i ministri della pesca della Comunità Europea" outsign="EF-fiskeriministermøde"/>
+<align out="a73" type="" in="b30" creator="0" insign="nel" outsign="i"/>
+<align out="a74" type="" in="b31" creator="0" insign="1964" outsign="1964"/>
+<align out="a74" type="ds" in="b30" creator="0" insign="nel" outsign="1964"/>
+<align out="a78" type="" in="b61" creator="0" insign="1965" outsign="1965"/>
+<align out="a78" type="ds" in="b60" creator="0" insign="nel" outsign="1965"/>
+<align out="a113" type="" in="b95 b96 b97" creator="0" insign="In quegli anni" outsign="Dengang"/>
+<align out="a144" type="f" in="b119 b120 b121" creator="0" insign="prima di tutto" outsign="først"/>
+<align out="a250" type="ds" in="b227" creator="0" insign="una" outsign="EF-fiskeriministermøde"/>
+<align out="a250" type="" in="b228 b229 b230 b231 b232 b233 b234 b235 b236" creator="0" insign="riunione fra i ministri della pesca della Comunità Europea" outsign="EF-fiskeriministermøde"/>
 </DTAGalign>
