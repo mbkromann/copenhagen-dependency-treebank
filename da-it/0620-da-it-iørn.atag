@@ -4,7 +4,6 @@
 <align out="a43 a44" type="" in="b1" creator="0" insign="Sentivo" outsign="Jeg følte"/>
 <align out="a45" type="" in="a45" creator="0" insign="," outsign=","/>
 <align out="a51 a52" type="" in="b8 b9" creator="0" insign="avrebbero dovuto" outsign="det skulle"/>
-<align out="a47" type="fn" in="b3 b4" creator="0" insign="le cose" outsign="alt"/>
 <align out="b11" type="" in="b11" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a55" type="" in="b13" creator="0" insign="continuò" outsign="fortsatte"/>
 <align out="a56" type="" in="b14" creator="0" insign="lui" outsign="han"/>
@@ -24,7 +23,6 @@
 <align out="a65" type="" in="a65" creator="0" insign="," outsign=","/>
 <align out="a67 a68" type="" in="b22" creator="0" insign="giustamente" outsign="ganske rigtig"/>
 <align out="a72" type="" in="b26" creator="0" insign="uomo" outsign="mand"/>
-<align out="a73 a74 a75" type="mvd" in="b27" creator="0" insign="introdursi" outsign="blive lukket ind"/>
 <align out="a77" type="s" in="b28" creator="0" insign="nell'" outsign="lejligheden"/>
 <align out="a77" type="" in="b29" creator="0" insign="appartamento" outsign="lejligheden"/>
 <align out="a76" type="" in="b28" creator="0" insign="nell'" outsign="i"/>
@@ -38,14 +36,9 @@
 <align out="a85" type="" in="b34" creator="0" insign="dove" outsign="Hvor"/>
 <align out="b33" type="" in="b33" creator="0" insign="Ma" outsign="Ma"/>
 <align out="a86" type="" in="a86" creator="0" insign="mon" outsign="mon"/>
-<align out="a88" type="" in="a88" creator="0" insign="vi" outsign="vi"/>
-<align out="a87 a89 a90" type="" in="b35" creator="0" insign="andrà" outsign="han gå hen"/>
 <align out="a92" type="" in="b38" creator="0" insign="chiese" outsign="spurgte"/>
 <align out="b37" type="" in="b37" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a101 a102 a103" type="" in="b43 b44 b45" creator="0" insign="alzò le spalle" outsign="trak på skuldrene"/>
-<align out="a112" type="" in="b48" creator="0" insign="Presto" outsign="snart"/>
-<align out="a110 a111" type="" in="b49" creator="0" insign="sarà" outsign="Han vil"/>
-<align out="a113 a114" type="" in="b50" creator="0" insign="arrestato" outsign="blive anholdt"/>
 <align out="b51" type="" in="b51" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a115" type="" in="b52" creator="0" insign="," outsign=","/>
 <align out="a93" type="" in="b39" creator="-1" insign="lei" outsign="hun"/>
@@ -56,7 +49,6 @@
 <align out="a95" type="" in="b41" creator="-1" insign="." outsign="."/>
 <align out="a104" type="" in="b46" creator="-1" insign="." outsign="."/>
 <align out="a94" type="" in="b40" creator="-1" insign="pensierosa" outsign="tankefuldt"/>
-<align out="a118 a119" type="" in="b55" creator="0" insign="convinto" outsign="med overbevisning"/>
 <align out="a120" type="" in="b56" creator="0" insign="," outsign=","/>
 <align out="a122" type="" in="b58" creator="0" insign="e" outsign="og"/>
 <align out="a125" type="" in="b59" creator="0" insign="sicuramente" outsign="sikkert"/>
@@ -73,7 +65,6 @@
 <align out="a136" type="" in="a136" creator="0" insign="Men" outsign="Men"/>
 <align out="a137 a138 a140 a141" type="" in="b67" creator="0" insign="Dimentichiamolo" outsign="lad os glemme ham"/>
 <align out="a145" type="" in="b70" creator="0" insign="C'" outsign="Der"/>
-<align out="a147" type="" in="b72 b73" creator="0" insign="una cosa" outsign="noget"/>
 <align out="a148" type="" in="a148" creator="0" insign="," outsign=","/>
 <align out="b74" type="" in="b74" creator="0" insign="che" outsign="che"/>
 <align out="a152" type="" in="b75" creator="0" insign="ti" outsign="dig"/>
@@ -170,4 +161,14 @@
 <align out="a244" type="" in="b142" creator="-1" insign="?" outsign="?"/>
 <align out="a248" type="" in="b149" creator="-1" insign="." outsign="."/>
 <align out="a255" type="" in="b153" creator="-1" insign="," outsign=","/>
+<align out="a47" type="sn" in="b3" creator="0" insign="le" outsign="alt"/>
+<align out="a47" type="f" in="b4" creator="0" insign="cose" outsign="alt"/>
+<align out="a73 a74 a75" type="mvi" in="b27" creator="0" insign="introdursi" outsign="blive lukket ind"/>
+<align out="a87 a88 a89 a90" type="" in="b35" creator="0" insign="andrà" outsign="han vi gå hen"/>
+<align out="a110 a111 a113" type="" in="b49" creator="0" insign="sarà" outsign="Han vil blive"/>
+<align out="a114" type="" in="b50" creator="0" insign="arrestato" outsign="anholdt"/>
+<align out="a112" type="wo" in="b48" creator="0" insign="Presto" outsign="snart"/>
+<align out="a118 a119" type="mcp" in="b55" creator="0" insign="convinto" outsign="med overbevisning"/>
+<align out="a147" type="s" in="b72" creator="0" insign="una" outsign="noget"/>
+<align out="a147" type="" in="b73" creator="0" insign="cosa" outsign="noget"/>
 </DTAGalign>
