@@ -51,11 +51,11 @@
 
 # New tasks replacing wrongly assigned tasks
 [*] da-it/0152-da-it-morten.atag
-[ ] it/0152-it-morten.tag
+[*] it/0152-it-morten.tag
 [*] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [*] da-it/0260-da-it-morten.atag
-[ ] it/0260-it-morten.tag
+[*] it/0260-it-morten.tag
 [*] da-it/0351-da-it-morten.atag
 [ ] it/0351-it-morten.tag
 [*] da-it/0426-da-it-morten.atag
