@@ -74,22 +74,22 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="3:vobj">...si</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">las</W>
 <W lemma="heces" msd="NC" in="-1:nobj" out="">heces</W>
-<W lemma="cambiar" msd="VLfin" in="-3:vobj" out="-2:subj|1:pobj|3:degr|4:pnct">cambian</W>
+<W lemma="cambiar" msd="VLfin" in="-3:vobj" out="-2:subj|1:pobj|4:pnct|3:ext">cambian</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="aspecto" msd="NC" in="-1:nobj" out="">aspecto</W>
-<W lemma="permanentemente" msd="ADV" in="-3:degr" out="">permanentemente</W>
+<W lemma="permanentemente" msd="ADV" in="-3:ext" out="">permanentemente</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
-<W lemma="no~obstante" msd="ADV" in="" out="">No obstante</W>
+<W lemma="no~obstante" msd="ADV" in="5:struct" out="">No obstante</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="el" msd="ART" in="3:preds" out="">lo</W>
+<W lemma="el" msd="ART" in="3:subj" out="2:nobj">lo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
-<W lemma="importante" msd="ADJ" in="" out="-1:degr">importante</W>
-<W lemma="ser" msd="VSfin" in="" out="1:subj|-3:preds|15:pnct">es</W>
-<W lemma="realizar" msd="VLinf" in="-1:subj" out="1:dobj">realizar</W>
+<W lemma="importante" msd="ADJ" in="-2:nobj" out="-1:degr">importante</W>
+<W lemma="ser" msd="VSfin" in="" out="15:pnct|-3:subj|1:preds|-5:struct">es</W>
+<W lemma="realizar" msd="VLinf" in="-1:preds" out="1:dobj">realizar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="cambio" msd="NC" in="-1:nobj" out="1:pobj">cambio</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|4:attrr|6:relr|5:ref">las</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|4:attrr|5:ref|6:relr">las</W>
 <W lemma="costumbre" msd="NC" in="-1:nobj" out="1:attrr:dobj#">costumbres</W>
 <W lemma="alimenticio" msd="ADJ" in="-1:attrr:dobj#" out="">alimenticias</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
@@ -111,9 +111,9 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">alimentación</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
-<W lemma="buscar" msd="VLadj" in="-6:conj" out="-1:coord|11:dobj|2:man|24:conj">buscando</W>
+<W lemma="buscar" msd="VLadj" in="-6:conj" out="-1:coord|2:man|11:dobj|24:conj">buscando</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="con" msd="PREP" in="-2:man" out="1:nobj|-1:pnct|8:pnct">con</W>
+<W lemma="con" msd="PREP" in="-2:man" out="-1:pnct|1:nobj|8:pnct">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ayuda" msd="NC" in="-1:nobj" out="1:pobj">ayuda</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
@@ -122,14 +122,14 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
-<W lemma="el" msd="ART" in="-11:dobj" out="1:nobj|3:relr|2:ref">los</W>
+<W lemma="el" msd="ART" in="-11:dobj" out="1:nobj|2:ref|3:relr">los</W>
 <W lemma="alimento" msd="NC" in="-1:nobj" out="">alimentos</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
 <W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|2:preds|5:pnct">son</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
-<W lemma="rico" msd="ADJ" in="-2:preds" out="-1:degr">ricos</W>
-<W lemma="en" msd="PREP" in="" out="">en</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="">calorías</W>
+<W lemma="rico" msd="ADJ" in="-2:preds" out="-1:degr|1:other">ricos</W>
+<W lemma="en" msd="PREP" in="-1:other" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
 <W lemma="de" msd="PREP" in="3:man" out="1:nobj">de</W>
@@ -143,7 +143,7 @@
 <W lemma="de" msd="PREP" in="-3:attrr" out="3:numm">de</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="1:degr" out="-1:degr">sólo</W>
-<W lemma="@card@" msd="CARD" in="-3:numm" out="1:nobj|-1:degr">200</W>
+<W lemma="@card@" msd="CARD" in="-3:numm" out="-1:degr|1:nobj">200</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="l" msd="PPC" in="1:iobj" out="">le</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-9:subj|-1:iobj|1:dobj|9:pnct">dará</W>
@@ -164,7 +164,7 @@
 <W lemma="persona" msd="NC" in="-1:nobj" out="">personas</W>
 <W lemma="poder" msd="VMfin" in="" out="-5:subj|1:man|2:vobj|30:pnct">pueden</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:man" out="">fácilmente</W>
-<W lemma="eliminar" msd="VLinf" in="-2:vobj" out="5:dobj|9:pobj|1:ext|15:conj">eliminar</W>
+<W lemma="eliminar" msd="VLinf" in="-2:vobj" out="1:ext|5:dobj|9:pobj|15:conj">eliminar</W>
 <W lemma="tres" msd="CARD" in="-1:ext" out="2:conj|3:nobj">tres</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="cuatro" msd="CARD" in="-2:conj" out="-1:coord">cuatro</W>
@@ -173,10 +173,10 @@
 <W lemma="cantidad" msd="NC" in="-1:nobj" out="1:pobj:arg">cantidad</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
-<W lemma="del" msd="PDEL" in="-9:pobj" out="1:nobj|2:attrr|3:attrr">del</W>
-<W lemma="plan" msd="NC" in="-1:nobj" out="">plan</W>
+<W lemma="del" msd="PDEL" in="-9:pobj" out="1:nobj|2:attrr">del</W>
+<W lemma="plan" msd="NC" in="-1:nobj" out="2:attrr">plan</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attrr" out="">dietario</W>
-<W lemma="diario" msd="ADJ" in="-3:attrr" out="">diario</W>
+<W lemma="diario" msd="ADJ" in="-2:attrr" out="">diario</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="1:man" out="">así</W>
 <W lemma="lograr" msd="VLinf" in="-15:conj" out="-1:man|-2:coord|1:dobj">lograr</W>
@@ -198,7 +198,7 @@
 <W lemma="ejercicio" msd="NC" in="-1:nobj" out="">ejercicio</W>
 <W lemma="adecuado" msd="ADJ" in="0:attrr" out="0:attrr">adecuado</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="poder" msd="VMfin" in="" out="-1:robj|1:vobj|-5:man|23:pnct">puede</W>
+<W lemma="poder" msd="VMfin" in="" out="-1:robj|-5:man|1:vobj|23:pnct">puede</W>
 <W lemma="obtener" msd="VLinf" in="-1:vobj" out="1:dobj">obtener</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:dobj" out="1:pobj:arg#|3:attrr">pérdida</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
@@ -216,7 +216,7 @@
 <W lemma="peso" msd="NC" in="-1:nobj" out="">peso</W>
 <W lemma="una~vez~que" msd="CSUBF" in="2:time" out="">una vez que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="haber" msd="VHfin" in="" out="-1:robj|1:nobj|-2:time">ha</W>
+<W lemma="haber" msd="VHfin" in="" out="-1:robj|-2:time|1:nobj">ha</W>
 <W lemma="lograr" msd="VLadj" in="-1:nobj" out="1:dobj">logrado</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|2:attrr">el</W>
 <W lemma="peso" msd="NC" in="-1:nobj" out="">peso</W>
