@@ -1,0 +1,183 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1043-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1043-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="0" insign="Como" outsign="Som"/>
+<align out="a44" type="" in="b1" creator="0" insign="el" outsign="den"/>
+<align out="b4" type="" in="b4" creator="0" insign="de" outsign="de"/>
+<align out="a45" type="" in="b2" creator="0" insign="taimado" outsign="drevne"/>
+<align out="a48" type="" in="b6" creator="0" insign="que" outsign="den"/>
+<align out="a49" type="" in="b7" creator="0" insign="es" outsign="er"/>
+<align out="a50" type="" in="b8" creator="0" insign="," outsign=","/>
+<align out="a52" type="s" in="b9" creator="0" insign="el" outsign="ministeriet"/>
+<align out="a52" type="" in="b10" creator="0" insign="ministerio" outsign="ministeriet"/>
+<align out="b11" type="" in="b11" creator="0" insign="de" outsign="de"/>
+<align out="a53" type="" in="b12" creator="0" insign="Poul" outsign="Poul"/>
+<align out="a54" type="" in="b13" creator="0" insign="Schlüter" outsign="Schlüter"/>
+<align out="a51" type="" in="b15" creator="0" insign="ha" outsign="har"/>
+<align out="a55" type="" in="b14" creator="0" insign="IV" outsign="IV"/>
+<align out="a46" type="mindretal=" in="b5" creator="0" insign="minorías" outsign="mindretalsregering"/>
+<align out="a46" type="regering=" in="b3" creator="0" insign="gobierno" outsign="mindretalsregering"/>
+<align out="a57 a60" type="" in="b16" creator="0" insign="emitido" outsign="lagt frem"/>
+<align out="a58" type="" in="b17" creator="0" insign="un" outsign="et"/>
+<align out="a59" type="" in="b18 b19 b20 b21" creator="0" insign="proyecto del Presupuesto Nacional" outsign="finanslovforslag"/>
+<align out="a56" type="" in="a56" creator="0" insign="netop" outsign="netop"/>
+<align out="a62 a63" type="" in="b22 b23 b24 b25 b26" creator="0" insign="con el que se continúa" outsign="som fortsætter"/>
+<align out="a63" type="" in="b26" creator="0" insign="continúa" outsign="fortsætter"/>
+<align out="a64" type="" in="b27" creator="0" insign="la" outsign="den"/>
+<align out="a67" type="" in="b28" creator="0" insign="política" outsign="politik"/>
+<align out="a65" type="" in="b30" creator="0" insign="moderada" outsign="moderate"/>
+<align out="a66" type="" in="b29" creator="0" insign="económica" outsign="økonomiske"/>
+<align out="a68" type="" in="b31" creator="0" insign="de" outsign="fra"/>
+<align out="a69" type="" in="b32" creator="0" insign="los" outsign="de"/>
+<align out="a70" type="" in="b33" creator="0" insign="últimos" outsign="senere"/>
+<align out="a71" type="" in="b34" creator="0" insign="años" outsign="år"/>
+<align out="a72" type="" in="b35" creator="0" insign="–" outsign="&nbsp;-&nbsp;"/>
+<align out="a61" type="" in="a61" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="b36" creator="0" insign="pero" outsign="men"/>
+<align out="a74" type="" in="b37" creator="0" insign="sin" outsign="uden"/>
+<align out="a78" type="forslag=" in="b38" creator="0" insign="propuestas" outsign="spareforslag"/>
+<align out="a78" type="spare=/mcn" in="b40" creator="0" insign="ahorro" outsign="spareforslag"/>
+<align out="b39" type="" in="b39" creator="0" insign="de" outsign="de"/>
+<align out="a75" type="" in="b41" creator="0" insign="provocativas" outsign="provokerende"/>
+<align out="a76" type="" in="b42" creator="0" insign="o" outsign="eller"/>
+<align out="a77" type="" in="b43" creator="0" insign="ideológicas" outsign="ideologiske"/>
+<align out="a79" type="" in="a79" creator="0" insign="," outsign=","/>
+<align out="a80" type="" in="b44" creator="0" insign="que" outsign="som"/>
+<align out="a81 a82" type="" in="b45" creator="0" insign="de&nbsp;antemano" outsign="på forhånd"/>
+<align out="a83" type="" in="b46" creator="0" insign="puedan" outsign="kan"/>
+<align out="a85" type="" in="b49" creator="0" insign="los" outsign="de"/>
+<align out="a86" type="" in="b50" creator="0" insign="decisivos" outsign="afgørende"/>
+<align out="a88" type="s" in="b48" creator="0" insign="a" outsign="midterpartier"/>
+<align out="a88" type="partier=" in="b51" creator="0" insign="partidos" outsign="midterpartier"/>
+<align out="b52" type="" in="b52" creator="0" insign="del" outsign="del"/>
+<align out="a88" type="midt=" in="b53" creator="0" insign="centro" outsign="midterpartier"/>
+<align out="a87" type="" in="a87" creator="0" insign="borgerlige" outsign="borgerlige"/>
+<align out="a84 a89 a90" type="" in="b47 b54" creator="0" insign="empujar a" outsign="støde over i"/>
+<align out="a91" type="s" in="b55" creator="0" insign="los" outsign="armene"/>
+<align out="a91" type="" in="b56" creator="0" insign="brazos" outsign="armene"/>
+<align out="a92" type="" in="b57" creator="0" insign="del" outsign="på"/>
+<align out="a93" type="s" in="b57" creator="0" insign="del" outsign="Socialdemokratiet"/>
+<align out="a93" type="" in="b58 b59" creator="0" insign="partido Socialdemócrata" outsign="Socialdemokratiet"/>
+<align out="a94" type="" in="b60" creator="0" insign="." outsign="."/>
+<align out="a99" type="" in="b61 b62 b63" creator="0" insign="De todos modos" outsign="Alligevel"/>
+<align out="b64" type="" in="b64" creator="0" insign="," outsign=","/>
+<align out="a101" type="s" in="b65" creator="0" insign="el" outsign="debatten"/>
+<align out="a101" type="" in="b66" creator="0" insign="debate" outsign="debatten"/>
+<align out="a102" type="" in="b67" creator="0" insign="sobre" outsign="om"/>
+<align out="a103" type="s" in="b68 b71" creator="0" insign="la de" outsign="Danmarks"/>
+<align out="a104" type="" in="b70" creator="0" insign="económica" outsign="økonomiske"/>
+<align out="a105" type="" in="b69" creator="0" insign="política" outsign="politik"/>
+<align out="a103" type="" in="b72" creator="0" insign="Dinamarca" outsign="Danmarks"/>
+<align out="a100 a106 a107 a108 a109" type="" in="b73 b74 b75 b76 b77 b78" creator="0" insign="se está volviendo de&nbsp;nuevo a ser" outsign="er på_ny ved at blive"/>
+<align out="a108 a109" type="" in="b78" creator="0" insign="ser" outsign="at blive"/>
+<align out="a106" type="" in="b76" creator="0" insign="de&nbsp;nuevo" outsign="på_ny"/>
+<align out="a110" type="" in="b79" creator="0" insign="una" outsign="et"/>
+<align out="a111" type="" in="b80" creator="0" insign="cuestión" outsign="spørgsmål"/>
+<align out="a112" type="" in="b81" creator="0" insign="de" outsign="om"/>
+<align out="a113" type="" in="b82" creator="0" insign="ideología" outsign="ideologi"/>
+<align out="a114" type="" in="b83" creator="0" insign="o" outsign="eller"/>
+<align out="a115" type="" in="b85" creator="0" insign="moral" outsign="moral"/>
+<align out="a116" type="" in="a116" creator="0" insign="," outsign=","/>
+<align out="a117" type="" in="a117" creator="0" insign="om" outsign="om"/>
+<align out="a118" type="" in="a118" creator="0" insign="man" outsign="man"/>
+<align out="a119" type="" in="a119" creator="0" insign="vil" outsign="vil"/>
+<align out="b84" type="" in="b84" creator="0" insign="de" outsign="de"/>
+<align out="a120" type="" in="b86" creator="0" insign="." outsign="."/>
+<align out="a123" type="" in="b87" creator="0" insign="Porque" outsign="For"/>
+<align out="a130" type="wo" in="b88" creator="0" insign="ese" outsign="den"/>
+<align out="a131" type="wo" in="b89" creator="0" insign="mismo" outsign="samme"/>
+<align out="a132" type="wo" in="b90" creator="0" insign="día" outsign="dag"/>
+<align out="a133" type="" in="b91" creator="0" insign="–" outsign="&nbsp;-&nbsp;"/>
+<align out="a134" type="" in="b92" creator="0" insign="martes" outsign="tirsdag"/>
+<align out="a135" type="" in="b93" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a124" type="wo" in="b99" creator="0" insign="con" outsign="med"/>
+<align out="a127" type="d" in="b100 b101" creator="0" insign="una precisión" outsign="præcision"/>
+<align out="a125 a126" type="wo" in="b102" creator="0" insign="minuciosa" outsign="omhyggeligt tilrettelagt"/>
+<align out="a129" type="s" in="b94" creator="0" insign="el" outsign="Socialdemokratiet"/>
+<align out="a129" type="" in="b95 b96" creator="0" insign="partido Socialdemócrata" outsign="Socialdemokratiet"/>
+<align out="a128 a136" type="" in="b97" creator="0" insign="emitió" outsign="kom med"/>
+<align out="b98" type="" in="b98" creator="0" insign="," outsign=","/>
+<align out="a137" type="" in="b104" creator="0" insign="su" outsign="deres"/>
+<align out="a138" type="" in="b106" creator="0" insign="alternativa" outsign="alternative"/>
+<align out="b103" type="" in="b103" creator="0" insign="," outsign=","/>
+<align out="a140" type="" in="b105 b107 b108 b110 b111" creator="0" insign="propuesta para un Presupuesto Nacional" outsign="finanslovforslag"/>
+<align out="a139" type="" in="b109" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a141" type="" in="b112" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a142" type="" in="b113" creator="0" insign="." outsign="."/>
+<align out="a145" type="" in="b114" creator="0" insign="Las" outsign="De"/>
+<align out="a146" type="" in="b116 b117 b118" creator="0" insign="ideológicas / morales" outsign="ideologisk/moralske"/>
+<align out="a147" type="" in="b115" creator="0" insign="diferencias" outsign="forskelle"/>
+<align out="a148" type="" in="b119" creator="0" insign="quedan" outsign="er"/>
+<align out="a149" type="" in="b120" creator="0" insign="claras" outsign="tydelige"/>
+<align out="a150" type="" in="b121" creator="0" insign="y" outsign="og"/>
+<align out="a152" type="f" in="b122 b123" creator="0" insign="en resumen" outsign="firkantet"/>
+<align out="a151" type="" in="b124" creator="0" insign="pueden" outsign="kan"/>
+<align out="a153" type="" in="b125" creator="0" insign="expresarse" outsign="udtrykkes"/>
+<align out="a154" type="" in="b126" creator="0" insign="así" outsign="således"/>
+<align out="a155" type="" in="b127" creator="0" insign=":" outsign=":"/>
+<align out="a160" type="s" in="b128" creator="0" insign="El" outsign="Socialdemokratiet"/>
+<align out="a160" type="" in="b129 b130" creator="0" insign="partido Socialdemócrata" outsign="Socialdemokratiet"/>
+<align out="a161" type="" in="b131" creator="0" insign=":" outsign=":"/>
+<align out="a162 a163" type="" in="b133" creator="0" insign="podemos" outsign="Vi kan"/>
+<align out="a164" type="" in="b132" creator="0" insign="no" outsign="ikke"/>
+<align out="a165 a166 a167 a168 a169 a170 a171 a172 a173" type="" in="b134 b135 b136 b137 b138 b139 b140" creator="0" insign="permitir que los desempleados sigan el pato" outsign="være bekendt at lade de arbejdsløse fortsat betale gildet"/>
+<align out="a174" type="" in="b141" creator="0" insign="." outsign="."/>
+<align out="a177 a178" type="" in="b142" creator="0" insign="Tenemos" outsign="Vi har"/>
+<align out="a179" type="" in="b145" creator="0" insign="tan" outsign="så"/>
+<align out="a180" type="" in="b146" creator="0" insign="grande" outsign="stort"/>
+<align out="a181" type="d" in="b143 b144" creator="0" insign="un superávit" outsign="overskud"/>
+<align out="a182" type="" in="b147" creator="0" insign="en" outsign="på"/>
+<align out="a183" type="s" in="b148" creator="0" insign="la" outsign="betalingsbalancen"/>
+<align out="a183" type="betaling=/n" in="b151" creator="0" insign="pagos" outsign="betalingsbalancen"/>
+<align out="a183" type="balance=" in="b149" creator="0" insign="balanza" outsign="betalingsbalancen"/>
+<align out="b150" type="" in="b150" creator="0" insign="de" outsign="de"/>
+<align out="a184" type="" in="a184" creator="0" insign="," outsign=","/>
+<align out="a185" type="" in="b152" creator="0" insign="que" outsign="at"/>
+<align out="a186 a187" type="" in="b153" creator="0" insign="hay" outsign="der er"/>
+<align out="a188" type="" in="b154" creator="0" insign="medios" outsign="råd"/>
+<align out="a189" type="" in="b155" creator="0" insign="para" outsign="til"/>
+<align out="a190 a191 a192 a193 a194" type="f" in="b156" creator="0" insign="aumentar" outsign="at sætte mere gang i"/>
+<align out="a195" type="" in="b160" creator="0" insign="Dinamarca" outsign="Danmarks"/>
+<align out="a196" type="" in="a196" creator="0" insign="hjul" outsign="hjul"/>
+<align out="b157" type="" in="b157" creator="0" insign="la" outsign="la"/>
+<align out="b158" type="" in="b158" creator="0" insign="producción" outsign="producción"/>
+<align out="b159" type="" in="b159" creator="0" insign="en" outsign="en"/>
+<align out="a197" type="" in="b161" creator="0" insign="." outsign="."/>
+<align out="a200 a201 a202 a203" type="" in="b162 b163 b164 b165" creator="0" insign="Debemos aprovechar la ocasión" outsign="Vi tager chancen nu"/>
+<align out="a204" type="" in="b166" creator="0" insign="." outsign="."/>
+<align out="a207" type="" in="b167" creator="0" insign="Con" outsign="Med"/>
+<align out="a208" type="" in="b168" creator="0" insign="una" outsign="en"/>
+<align out="a209" type="finans=/mcadj" in="b170" creator="0" insign="financiera" outsign="finanspolitisk"/>
+<align out="a209" type="politisk=/mcn" in="b169" creator="0" insign="política" outsign="finanspolitisk"/>
+<align out="a210" type="mcadj" in="b171 b172" creator="0" insign="menos restringida" outsign="lempelse"/>
+<align out="a211" type="" in="b173" creator="0" insign="(" outsign="("/>
+<align out="a212" type="" in="b174" creator="0" insign="mayor" outsign="større"/>
+<align out="a213" type="" in="b176" creator="0" insign="público" outsign="offentligt"/>
+<align out="a214" type="" in="b175" creator="0" insign="déficit" outsign="underskud"/>
+<align out="a215" type="" in="b177" creator="0" insign=")" outsign=")"/>
+<align out="a217" type="" in="b178" creator="0" insign="el" outsign="det"/>
+<align out="a218" type="" in="b180" creator="0" insign="privado" outsign="private"/>
+<align out="a219" type="" in="b179" creator="0" insign="consumo" outsign="forbrug"/>
+<align out="a221" type="" in="b182" creator="0" insign="considerablemente" outsign="markant"/>
+<align out="a216 a220 a222 a223" type="" in="b181" creator="0" insign="aumentaría" outsign="vil gå i vejret"/>
+<align out="a224" type="" in="b183" creator="0" insign="." outsign="."/>
+<align out="a227" type="" in="b184" creator="0" insign="Entonces" outsign="Så"/>
+<align out="a229" type="s" in="b186" creator="0" insign="el" outsign="ledigheden"/>
+<align out="a229" type="" in="b187" creator="0" insign="paro" outsign="ledigheden"/>
+<align out="a228" type="" in="b185" creator="0" insign="descendería" outsign="falder"/>
+<align out="a230" type="" in="b188" creator="0" insign="y" outsign="og"/>
+<align out="a231" type="s" in="b189" creator="0" insign="los" outsign="skatteindtægterne"/>
+<align out="a231" type="indtægter=" in="b190" creator="0" insign="ingresos" outsign="skatteindtægterne"/>
+<align out="a231" type="skatte=" in="b191" creator="0" insign="fiscales" outsign="skatteindtægterne"/>
+<align out="a232" type="" in="b192" creator="0" insign="aumentarían" outsign="stiger"/>
+<align out="a233" type="" in="b193" creator="0" insign="." outsign="."/>
+<align out="a236" type="s" in="b194 b196" creator="0" insign="El del" outsign="Planens"/>
+<align out="a237" type="" in="b195" creator="0" insign="título" outsign="titel"/>
+<align out="a236" type="s" in="b196" creator="0" insign="del" outsign="Planens"/>
+<align out="a236" type="" in="b197" creator="0" insign="plan" outsign="Planens"/>
+<align out="a238" type="" in="b198" creator="0" insign=":" outsign=":"/>
+<align out="a240" type="" in="b199" creator="0" insign="“El" outsign="Den"/>
+<align out="a241" type="" in="b200" creator="0" insign="buen" outsign="gode"/>
+<align out="a242" type="" in="b201" creator="0" insign="círculo”" outsign="cirkel"/>
+<align out="a244" type="" in="b202" creator="0" insign="." outsign="."/>
+</DTAGalign>
