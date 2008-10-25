@@ -75,10 +75,8 @@
 <align out="a116 a117" type="mcn" in="b102" creator="0" insign="cauzionamento" outsign="man hefter"/>
 <align out="a118" type="" in="b103" creator="0" insign="degli" outsign="for"/>
 <align out="a119" type="s" in="b103 b106" creator="0" insign="degli della" outsign="fællesskabets"/>
-<align out="a120" type="" in="b104 b105" creator="0" insign="aspetti economici" outsign="økonomi"/>
 <align out="a119" type="" in="b107 b108" creator="0" insign="forma coabitativa" outsign="fællesskabets"/>
 <align out="a121" type="" in="b109" creator="0" insign="." outsign="."/>
-<align out="a126" type="" in="b110 b111 b112 b113 b114" creator="0" insign="Le società in nome collettivo" outsign="Interessentskaberne"/>
 <align out="a127" type="" in="b115 b116" creator="0" insign="vengono considerate" outsign="betragtes"/>
 <align out="a132" type="" in="b121" creator="0" insign="particolarmente" outsign="især"/>
 <align out="b122" type="" in="b122" creator="0" insign="in" outsign="in"/>
@@ -97,7 +95,6 @@
 <align out="a140" type="" in="b132" creator="0" insign="legge" outsign="loven"/>
 <align out="a139" type="" in="b131" creator="0" insign="della" outsign="af"/>
 <align out="a141" type="" in="b133" creator="0" insign="sulle" outsign="om"/>
-<align out="a142" type="d" in="b134 b135 b136" creator="0" insign="abitazioni in cooperativa" outsign="andelsboliger"/>
 <align out="a143" type="" in="a143" creator="0" insign="," outsign=","/>
 <align out="a144" type="" in="b137" creator="0" insign="e" outsign="og"/>
 <align out="a148" type="" in="b139" creator="0" insign="non" outsign="ikke"/>
@@ -129,9 +126,7 @@
 <align out="a179" type="" in="b164 b168 b169" creator="0" insign="è proprietari di" outsign="ejer"/>
 <align out="b165" type="" in="b165" creator="0" insign="," outsign=","/>
 <align out="b167" type="" in="b167" creator="0" insign="," outsign=","/>
-<align out="a184" type="s" in="b172" creator="0" insign="dei" outsign="formuen"/>
 <align out="a183" type="" in="b172" creator="0" insign="dei" outsign="af"/>
-<align out="a184" type="n" in="b173" creator="0" insign="capitali" outsign="formuen"/>
 <align out="a182" type="" in="b171" creator="0" insign="parte" outsign="del"/>
 <align out="a186" type="" in="b174" creator="0" insign="della" outsign="det"/>
 <align out="a187" type="" in="b175 b176 b177 b178" creator="0" insign="società in nome collettivo" outsign="I/S"/>
@@ -191,4 +186,17 @@
 <align out="a237" type="" in="b227" creator="-1" insign="Anche" outsign="Også"/>
 <align out="a234" type="" in="b226" creator="-1" insign="." outsign="."/>
 <align out="a249" type="" in="b237" creator="-1" insign="." outsign="."/>
+<align out="a54" type="ds" in="b21" creator="0" insign="l'" outsign="cand._jur."/>
+<align out="b55" type="" in="b55" creator="0" insign="si" outsign="si"/>
+<align out="a85" type="" in="b62" creator="0" insign="Ci" outsign="Der"/>
+<align out="a86" type="" in="b63" creator="0" insign="sono" outsign="er"/>
+<align out="a92" type="s" in="b66" creator="0" insign="nel" outsign="hvordan"/>
+<align out="a120" type="n" in="b104 b105" creator="0" insign="aspetti economici" outsign="økonomi"/>
+<align out="a126" type="s" in="b110" creator="0" insign="Le" outsign="Interessentskaberne"/>
+<align out="a126" type="" in="b111 b112 b113 b114" creator="0" insign="società in nome collettivo" outsign="Interessentskaberne"/>
+<align out="a142" type="ds" in="b133" creator="0" insign="sulle" outsign="andelsboliger"/>
+<align out="a142" type="" in="b134 b135 b136" creator="0" insign="abitazioni in cooperativa" outsign="andelsboliger"/>
+<align out="a184" type="sn" in="b172" creator="0" insign="dei" outsign="formuen"/>
+<align out="a184" type="" in="b173" creator="0" insign="capitali" outsign="formuen"/>
+<align out="a192" type="" in="a192" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
 </DTAGalign>
