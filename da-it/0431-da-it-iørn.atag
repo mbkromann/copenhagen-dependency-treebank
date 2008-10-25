@@ -1,7 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0431-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0431-it-auto.tag" sign="_input"/>
-<align out="a52 a53" type="wo" in="b0 b1 b2 b3" creator="0" insign="Alla fiera di Vejle" outsign="på Vejlemessen"/>
 <align out="b4" type="" in="b4" creator="0" insign="," outsign=","/>
 <align out="a46" type="" in="b7" creator="0" insign="," outsign=","/>
 <align out="a48" type="" in="a48" creator="0" insign="," outsign=","/>
@@ -19,7 +18,6 @@
 <align out="a54" type="" in="b13" creator="-1" insign="per" outsign="om"/>
 <align out="a57" type="" in="b18" creator="-1" insign="un" outsign="et"/>
 <align out="a50" type="" in="b11" creator="-1" insign="un" outsign="en"/>
-<align out="a62" type="f" in="b21 b22 b23" creator="0" insign="Il nome scelto" outsign="Løsningen"/>
 <align out="a63" type="" in="b24 b25" creator="0" insign="è stato" outsign="var"/>
 <align out="a67" type="" in="a67" creator="0" insign="," outsign=","/>
 <align out="a69" type="" in="b31" creator="0" insign="premio" outsign="præmien"/>
@@ -36,7 +34,6 @@
 <align out="a77" type="" in="b40" creator="-1" insign="." outsign="."/>
 <align out="a64" type="" in="b26" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a66" type="" in="b28" creator="-1" insign="&quot;" outsign="&quot;"/>
-<align out="a90 a91" type="wo" in="b41 b42 b43" creator="0" insign="L' 8 settembre" outsign="den 8.september"/>
 <align out="a93" type="wo" in="b44" creator="0" insign="a" outsign="i"/>
 <align out="a94" type="" in="b45" creator="0" insign="Mosca" outsign="Moskva"/>
 <align out="b46" type="" in="b46" creator="0" insign="la" outsign="la"/>
@@ -50,7 +47,6 @@
 <align out="a98 a99" type="" in="b65 b66" creator="0" insign="c' erano" outsign="Til_stede var"/>
 <align out="b56 b57" type="" in="b56 b57" creator="0" insign="All' apertura" outsign="All' apertura"/>
 <align out="a100" type="" in="b58 b59" creator="0" insign="oltre ai" outsign="foruden"/>
-<align out="a101" type="d" in="b60 b61 b62 b63" creator="0" insign="vertici della DE BEERS" outsign="De_Beers-topfolk"/>
 <align out="a102" type="" in="b68" creator="0" insign="russi" outsign="russiske"/>
 <align out="b64" type="" in="b64" creator="0" insign="," outsign=","/>
 <align out="a104" type="" in="b69" creator="0" insign="," outsign=","/>
@@ -160,7 +156,6 @@
 <align out="a237" type="s" in="b190" creator="0" insign="della" outsign="oplaget"/>
 <align out="a237" type="" in="b191" creator="0" insign="tiratura" outsign="oplaget"/>
 <align out="b192" type="" in="b192" creator="0" insign="," outsign=","/>
-<align out="a240" type="d" in="b193 b194" creator="0" insign="gli interessati" outsign="interesserede"/>
 <align out="a241" type="" in="b196" creator="0" insign="riceverne" outsign="få"/>
 <align out="a243" type="" in="b198" creator="0" insign="esemplare" outsign="eksemplar"/>
 <align out="a244 a245" type="mcp" in="b199 b200 b201 b202" creator="0" insign="timbrato con la data" outsign="med førstedags-stempel"/>
@@ -184,9 +179,7 @@
 <align out="a252" type="" in="b210" creator="-1" insign="," outsign=","/>
 <align out="a255" type="" in="b214" creator="-1" insign="." outsign="."/>
 <align out="a262" type="" in="b215" creator="-1" insign="Nuovi" outsign="Nye"/>
-<align out="a263" type="" in="b216" creator="-1" insign="orefici" outsign="svende"/>
 <align out="a271" type="" in="b223" creator="-1" insign="superati" outsign="bestået"/>
-<align out="a278" type="d" in="b228 b229" creator="0" insign="gli apprendisti" outsign="lærlinge"/>
 <align out="b230" type="" in="b230" creator="0" insign="si" outsign="si"/>
 <align out="a280" type="" in="b232" creator="0" insign="formati" outsign="udlært"/>
 <align out="a281" type="" in="b233" creator="0" insign="presso" outsign="hos"/>
@@ -204,7 +197,6 @@
 <align out="a273" type="" in="b225" creator="-1" insign="agosto" outsign="august"/>
 <align out="a291 a292" type="" in="b242" creator="0" insign="Congratulazioni" outsign="Til lykke"/>
 <align out="a293" type="" in="b243" creator="0" insign="all'" outsign="til"/>
-<align out="a294" type="d" in="b244" creator="0" insign="orafo" outsign="guldsmed"/>
 <align out="a295" type="" in="b245" creator="-1" insign="LYKKE" outsign="LYKKE"/>
 <align out="a296" type="" in="b246" creator="-1" insign="ELKJÆR" outsign="ELKJÆR"/>
 <align out="a301" type="" in="b251" creator="-1" insign="GITTE" outsign="GITTE"/>
@@ -215,4 +207,21 @@
 <align out="a304" type="" in="b254" creator="-1" insign="." outsign="."/>
 <align out="a299" type="" in="b249" creator="-1" insign="all'" outsign="til"/>
 <align out="a300" type="" in="b250" creator="-1" insign="argentiere" outsign="korpussølvsmed"/>
+<align out="a52" type="wo" in="b0" creator="0" insign="Alla" outsign="på"/>
+<align out="a53" type="s" in="b0" creator="0" insign="Alla" outsign="Vejlemessen"/>
+<align out="a53" type="" in="b1 b2 b3" creator="0" insign="fiera di Vejle" outsign="Vejlemessen"/>
+<align out="a62" type="s" in="b21" creator="0" insign="Il" outsign="Løsningen"/>
+<align out="a62" type="f" in="b22 b23" creator="0" insign="nome scelto" outsign="Løsningen"/>
+<align out="a90" type="wo" in="b41" creator="0" insign="L'" outsign="den"/>
+<align out="a91" type="wo" in="b42 b43" creator="0" insign="8 settembre" outsign="8.september"/>
+<align out="a101" type="ds" in="b59" creator="0" insign="ai" outsign="De_Beers-topfolk"/>
+<align out="a101" type="" in="b60 b61 b62 b63" creator="0" insign="vertici della DE BEERS" outsign="De_Beers-topfolk"/>
+<align out="a240" type="ds" in="b193" creator="0" insign="gli" outsign="interesserede"/>
+<align out="a240" type="" in="b194" creator="0" insign="interessati" outsign="interesserede"/>
+<align out="a263" type="f" in="b216" creator="0" insign="orefici" outsign="svende"/>
+<align out="a278" type="ds" in="b228" creator="0" insign="gli" outsign="lærlinge"/>
+<align out="a278" type="" in="b229" creator="0" insign="apprendisti" outsign="lærlinge"/>
+<align out="a294" type="ds" in="b243" creator="0" insign="all'" outsign="guldsmed"/>
+<align out="a294" type="" in="b244" creator="0" insign="orafo" outsign="guldsmed"/>
+<align out="a300" type="ds" in="b249" creator="0" insign="all'" outsign="korpussølvsmed"/>
 </DTAGalign>
