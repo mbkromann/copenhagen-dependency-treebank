@@ -17,11 +17,9 @@
 <align out="a49" type="s" in="b6" creator="0" insign="delle" outsign="ventelisterne"/>
 <align out="a50" type="" in="a50" creator="0" insign="," outsign=","/>
 <align out="b18" type="" in="b18" creator="0" insign="," outsign=","/>
-<align out="a61" type="" in="b15" creator="0" insign="Nel" outsign="i"/>
 <align out="a62" type="s" in="b15" creator="0" insign="Nel" outsign="TEBA's"/>
 <align out="a57 a58" type="f" in="b21 b22 b23 b24" creator="0" insign="ha risolto il problema" outsign="Det klarer"/>
 <align out="a64 a65 a66 a71" type="mvg" in="b25" creator="0" insign="inserendo" outsign="ved at tage ind"/>
-<align out="a68" type="d" in="b28 b29" creator="0" insign="i bambini" outsign="unger"/>
 <align out="b30 b31" type="" in="b30 b31" creator="0" insign="che erano" outsign="che erano"/>
 <align out="a69" type="" in="b32" creator="0" insign="in" outsign="på"/>
 <align out="a70" type="d" in="b33 b34 b35" creator="0" insign="lista d' attesa" outsign="ventelisten"/>
@@ -30,7 +28,6 @@
 <align out="a72" type="" in="b36" creator="-1" insign="." outsign="."/>
 <align out="a75 a76 a77 a78" type="" in="b26" creator="0" insign="semplicemente" outsign="Så enkelt er det"/>
 <align out="a79" type="" in="a79" creator="0" insign="." outsign="."/>
-<align out="a84 a86" type="" in="b37 b38 b39" creator="0" insign="Per quanto riguarda" outsign="i tilfælde"/>
 <align out="a88" type="" in="a88" creator="0" insign="," outsign=","/>
 <align out="a85" type="" in="b40" creator="-1" insign="TEBA" outsign="TEBA's"/>
 <align out="a83 a87" type="" in="b42" creator="-1" insign="significa" outsign="vil sige"/>
@@ -41,9 +38,7 @@
 <align out="a92 a93" type="" in="a92 a93" creator="0" insign="at være" outsign="at være"/>
 <align out="b49" type="" in="b49" creator="0" insign="," outsign=","/>
 <align out="a98 a99" type="f" in="b51" creator="0" insign="passerà" outsign="vil være"/>
-<align out="a96 a97" type="" in="b47 b48" creator="0" insign="del 1991" outsign="i 1991"/>
 <align out="a101" type="" in="a101" creator="0" insign="børn" outsign="børn"/>
-<align out="a102 a103" type="" in="b54 b55" creator="0" insign="nel 1992" outsign="i 1992"/>
 <align out="b52" type="" in="b52" creator="0" insign="a" outsign="a"/>
 <align out="b56" type="" in="b56" creator="0" insign="." outsign="."/>
 <align out="a104 a105" type="" in="b57" creator="-1" insign="Parliamo" outsign="Vi taler"/>
@@ -59,7 +54,6 @@
 <align out="a124" type="s" in="b71 b73" creator="0" insign="lo di" outsign="TEBA's"/>
 <align out="a124" type="" in="b74" creator="0" insign="TEBA" outsign="TEBA's"/>
 <align out="a125" type="" in="b72" creator="0" insign="spazio" outsign="areal"/>
-<align out="a113 a114" type="" in="b65" creator="-1" insign="10%" outsign="10 procent"/>
 <align out="a127 a128" type="" in="b76" creator="-1" insign="sarà" outsign="vil blive"/>
 <align out="a129" type="" in="b77" creator="-1" insign="ampliato" outsign="udvidet"/>
 <align out="a131" type="" in="b79" creator="-1" insign="questa" outsign="den"/>
@@ -87,7 +81,6 @@
 <align out="a137" type="" in="b87" creator="-1" insign="è" outsign="er"/>
 <align out="a139" type="" in="b85" creator="-1" insign="non" outsign="ikke"/>
 <align out="a162" type="f" in="b104 b105 b106" creator="0" insign="A partire dal" outsign="i"/>
-<align out="a167" type="f" in="b108" creator="-1" insign="ogni" outsign="pr."/>
 <align out="a168" type="" in="b109" creator="-1" insign="bambino" outsign="barn"/>
 <align out="a174 a175" type="f" in="b119 b120" creator="-1" insign="si fa" outsign="er det"/>
 <align out="a176" type="" in="b121" creator="-1" insign="come" outsign="ligesom"/>
@@ -101,7 +94,6 @@
 <align out="a169" type="" in="b116" creator="-1" insign="." outsign="."/>
 <align out="a177 a178" type="mvf" in="b122 b123 b124" creator="0" insign="quando si calcola" outsign="med udregningen"/>
 <align out="a179" type="" in="a179" creator="0" insign="af" outsign="af"/>
-<align out="a180" type="d" in="b125 b126" creator="0" insign="l' affitto" outsign="husleje"/>
 <align out="b128" type="" in="b128" creator="0" insign="cioè" outsign="cioè"/>
 <align out="a182 a183 a186" type="" in="b129 b130" creator="0" insign="si considera" outsign="vi tager med"/>
 <align out="a184 a185" type="" in="b131" creator="0" insign="tutto" outsign="det hele"/>
@@ -150,4 +142,20 @@
 <align out="a237" type="" in="b176" creator="-1" insign="1050" outsign="1050"/>
 <align out="a232" type="f" in="b171" creator="-1" insign="," outsign="."/>
 <align out="a242" type="" in="b181" creator="-1" insign="." outsign="."/>
+<align out="a61" type="wo" in="b15" creator="0" insign="Nel" outsign="i"/>
+<align out="a68" type="ds" in="b28" creator="0" insign="i" outsign="unger"/>
+<align out="a68" type="" in="b29" creator="0" insign="bambini" outsign="unger"/>
+<align out="a84 a86" type="wo" in="b37 b38 b39" creator="0" insign="Per quanto riguarda" outsign="i tilfælde"/>
+<align out="a96" type="" in="b47" creator="0" insign="del" outsign="i"/>
+<align out="a97" type="" in="b48" creator="0" insign="1991" outsign="1991"/>
+<align out="a97" type="ds" in="b47" creator="0" insign="del" outsign="1991"/>
+<align out="a103" type="" in="b55" creator="0" insign="1992" outsign="1992"/>
+<align out="a102" type="" in="b54" creator="0" insign="nel" outsign="i"/>
+<align out="a103" type="ds" in="b54" creator="0" insign="nel" outsign="1992"/>
+<align out="a113 a114" type="" in="b65" creator="0" insign="10%" outsign="10 procent"/>
+<align out="a113 a114" type="ds" in="b64" creator="0" insign="del" outsign="10 procent"/>
+<align out="a163" type="ds" in="b106" creator="0" insign="dal" outsign="1992"/>
+<align out="a167" type="" in="b108" creator="0" insign="ogni" outsign="pr."/>
+<align out="a180" type="ds" in="b125" creator="0" insign="l'" outsign="husleje"/>
+<align out="a180" type="" in="b126" creator="0" insign="affitto" outsign="husleje"/>
 </DTAGalign>
