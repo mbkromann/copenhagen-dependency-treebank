@@ -1,0 +1,181 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0596-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0596-it-auto.tag" sign="_input"/>
+<align out="a42" type="s" in="b0" creator="0" insign="Il" outsign="Arbejdsgruppen"/>
+<align out="a42" type="" in="b1 b2 b3" creator="0" insign="gruppo di lavoro" outsign="Arbejdsgruppen"/>
+<align out="a43" type="" in="b5" creator="0" insign="deve" outsign="skal"/>
+<align out="a47" type="" in="b7" creator="0" insign="sulla" outsign="i"/>
+<align out="a54" type="s" in="b7" creator="0" insign="sulla" outsign="forsyningsvejene"/>
+<align out="a54" type="f+n" in="b8 b9" creator="0" insign="rete operativa" outsign="forsyningsvejene"/>
+<align out="a48" type="" in="b14" creator="0" insign="le" outsign="de"/>
+<align out="a50" type="" in="b15" creator="0" insign="scorte" outsign="lagre"/>
+<align out="a49" type="f" in="b16 b17" creator="0" insign="a disposizione" outsign="bestående"/>
+<align out="a55" type="" in="b18" creator="0" insign="in" outsign="i"/>
+<align out="a56" type="" in="b19 b20 b21" creator="0" insign="periodo di pace" outsign="fredstid"/>
+<align out="a44 a45 a46" type="" in="b4 b6" creator="0" insign="si basare" outsign="tage sit udgangspunkt"/>
+<align out="a51" type="" in="a51" creator="0" insign="af" outsign="af"/>
+<align out="a53" type="" in="b13" creator="0" insign="e" outsign="og"/>
+<align out="b10" type="" in="b10" creator="0" insign="," outsign=","/>
+<align out="a52" type="s" in="b11 b12" creator="-1" insign="i medicinali" outsign="lægemidler"/>
+<align out="a64" type="lv" in="b28 b29" creator="0" insign="Tali strumenti" outsign="Lægemiddelberedskabet"/>
+<align out="b30" type="" in="b30" creator="0" insign="," outsign=","/>
+<align out="a66" type="" in="a66" creator="0" insign="på" outsign="på"/>
+<align out="a67" type="" in="a67" creator="0" insign="et" outsign="et"/>
+<align out="a68" type="" in="a68" creator="0" insign="serviceniveau" outsign="serviceniveau"/>
+<align out="b37" type="" in="b37" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="b39 b40 b41 b42" creator="0" insign="essere in grado di" outsign="kunne"/>
+<align out="a58" type="" in="b23" creator="-1" insign="inclusi" outsign="herunder"/>
+<align out="a60" type="lv" in="b24" creator="-1" insign="quelli" outsign="lægemiddelberedskab"/>
+<align out="a65" type="" in="b38" creator="-1" insign="devono" outsign="skal"/>
+<align out="a69 a70 a71" type="mvp" in="b31 b32 b33" creator="-1" insign="resi efficienti per" outsign="der er tilpasset"/>
+<align out="a72" type="" in="b34 b35 b36" creator="-1" insign="condizioni di guerra" outsign="krigstidsforhold"/>
+<align out="a59" type="s" in="b25 b26" creator="-1" insign="della Difesa" outsign="forsvarets"/>
+<align out="a57" type="" in="b22" creator="-1" insign="," outsign=","/>
+<align out="a61" type="" in="b27" creator="-1" insign="." outsign="."/>
+<align out="a77" type="" in="b44" creator="0" insign="un" outsign="en"/>
+<align out="a83" type="" in="a83" creator="0" insign="," outsign=","/>
+<align out="b49" type="" in="b49" creator="0" insign="circa" outsign="circa"/>
+<align out="a75" type="" in="a75" creator="0" insign="behovet" outsign="behovet"/>
+<align out="a76" type="" in="a76" creator="0" insign="i" outsign="i"/>
+<align out="a77" type="" in="a77" creator="0" insign="en" outsign="en"/>
+<align out="a84" type="" in="a84" creator="0" insign="under" outsign="under"/>
+<align out="a86" type="" in="b63 b64" creator="0" insign="azioni belliche" outsign="krigshandlinger"/>
+<align out="a88" type="" in="b65" creator="0" insign="di" outsign="i"/>
+<align out="a89" type="" in="b66" creator="0" insign="circa" outsign="cirka"/>
+<align out="a90" type="" in="b67" creator="0" insign="30" outsign="30"/>
+<align out="a91" type="" in="b68" creator="0" insign="giorni" outsign="dage"/>
+<align out="a92" type="" in="a92" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a87" type="" in="a87" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a95" type="" in="b55" creator="0" insign="circa" outsign="cirka"/>
+<align out="a96" type="" in="b56" creator="0" insign="due" outsign="to"/>
+<align out="a97" type="" in="b57" creator="0" insign="settimane" outsign="uger"/>
+<align out="a98 a99" type="" in="b58" creator="0" insign="seguenti" outsign="umiddelbart efter"/>
+<align out="b59" type="" in="b59" creator="0" insign="alle" outsign="alle"/>
+<align out="a74" type="" in="b43" creator="-1" insign="coprire" outsign="dække"/>
+<align out="a78" type="" in="b45" creator="-1" insign="breve" outsign="kort"/>
+<align out="a79" type="" in="b46 b47" creator="-1" insign="fase preliminare" outsign="optaktsperiode"/>
+<align out="a81" type="" in="b50 b51" creator="-1" insign="una due" outsign="en-to"/>
+<align out="a82" type="" in="b52" creator="-1" insign="settimane" outsign="uger"/>
+<align out="a85" type="" in="b60 b61 b62" creator="-1" insign="vere e proprie" outsign="egentlige"/>
+<align out="a93" type="" in="b53 b54" creator="-1" insign="oltre a" outsign="samt"/>
+<align out="a80" type="" in="b48" creator="-1" insign="di" outsign="på"/>
+<align out="a100" type="" in="b69" creator="0" insign="." outsign="."/>
+<align out="a94" type="" in="a94" creator="0" insign="i" outsign="i"/>
+<align out="a105" type="s" in="b70" creator="0" insign="Il" outsign="Arbejdsgruppen"/>
+<align out="a105" type="" in="b71 b72 b73" creator="0" insign="gruppo di lavoro" outsign="Arbejdsgruppen"/>
+<align out="a109 a110" type="f" in="b81" creator="0" insign="attuali" outsign="tidligere udarbejdede"/>
+<align out="b84" type="" in="b84" creator="0" insign="e" outsign="e"/>
+<align out="b85" type="" in="b85" creator="0" insign="mezzi" outsign="mezzi"/>
+<align out="a107" type="" in="b75 b76 b77" creator="-1" insign="tra l' altro" outsign="blandt_andet"/>
+<align out="a108" type="" in="b78" creator="-1" insign="aggiornare" outsign="ajourføre"/>
+<align out="a106" type="" in="b74" creator="-1" insign="deve" outsign="skal"/>
+<align out="a111 a112 a113" type="" in="b79 b80 b82 b83" creator="-1" insign="le liste di medicinali" outsign="lister for lægemidler"/>
+<align out="a114 a115 a116 a117" type="f+mvi" in="b86 b87 b88" creator="-1" insign="da utilizzarsi nel" outsign="der skal indgå i"/>
+<align out="a118 a119 a120" type="s" in="b88" creator="0" insign="nel" outsign="forsynings- og katastrofeberedskabet"/>
+<align out="a118 a119 a120" type="" in="b89 b90 b91 b92 b93 b94 b95 b96" creator="0" insign="sistema di pronto intervento per situazioni di crisi" outsign="forsynings- og katastrofeberedskabet"/>
+<align out="b97" type="" in="b97" creator="0" insign="," outsign=","/>
+<align out="a128" type="s" in="b106" creator="0" insign="le" outsign="mulighederne"/>
+<align out="a128" type="" in="b107" creator="0" insign="possibilità" outsign="mulighederne"/>
+<align out="a123 a124 a125" type="f" in="b100 b101 b102" creator="0" insign="le variabili geografiche" outsign="i geografisk henseende"/>
+<align out="b103" type="" in="b103" creator="0" insign="," outsign=","/>
+<align out="a121 a122" type="f" in="b98 b99" creator="-1" insign="senza tralasciare" outsign="herunder også"/>
+<align out="a127" type="" in="b105" creator="-1" insign="indagare" outsign="undersøge"/>
+<align out="a129" type="" in="b108" creator="-1" insign="di" outsign="for"/>
+<align out="a126" type="f" in="b104" creator="-1" insign="e" outsign="samt"/>
+<align out="a134" type="s" in="b110" creator="0" insign="la" outsign="produktionen"/>
+<align out="a134" type="" in="b111" creator="0" insign="produzione" outsign="produktionen"/>
+<align out="a132" type="mvi" in="b109" creator="0" insign="aumentarne" outsign="forøgelse"/>
+<align out="a130" type="" in="a130" creator="0" insign="en" outsign="en"/>
+<align out="a131" type="" in="a131" creator="0" insign="hurtig" outsign="hurtig"/>
+<align out="a133" type="" in="a133" creator="0" insign="af" outsign="af"/>
+<align out="a135" type="" in="b114 b115 b116" creator="0" insign="situazione di crisi" outsign="krisesituation"/>
+<align out="a135" type="ds" in="b113" creator="0" insign="La" outsign="krisesituation"/>
+<align out="b112" type="" in="b112" creator="0" insign="." outsign="."/>
+<align out="a142" type="s" in="b120" creator="0" insign="nel" outsign="landet"/>
+<align out="a142" type="" in="b121" creator="0" insign="paese" outsign="landet"/>
+<align out="a141" type="" in="b120" creator="0" insign="nel" outsign="i"/>
+<align out="b122" type="" in="b122" creator="0" insign="," outsign=","/>
+<align out="a143" type="" in="a143" creator="0" insign="og" outsign="og"/>
+<align out="a147" type="" in="b127" creator="0" insign="e" outsign="og"/>
+<align out="a148" type="s" in="b128" creator="0" insign="il" outsign="sundhedstjenesten"/>
+<align out="a136" type="" in="b118" creator="-1" insign="rapidamente" outsign="hurtigt"/>
+<align out="a138 a139 a140" type="" in="b119" creator="-1" insign="spargersi" outsign="distribueres ligeligt ud"/>
+<align out="a146" type="s" in="b124 b125 b126" creator="-1" insign="il sistema ospedaliero" outsign="sygehusvæsenet"/>
+<align out="a137" type="" in="b117" creator="-1" insign="può" outsign="kan"/>
+<align out="a144 a145" type="f+mvg" in="b123" creator="0" insign="coinvolgendo" outsign="fordeles mellem"/>
+<align out="a148" type="" in="b129 b130" creator="0" insign="servizio sanitario" outsign="sundhedstjenesten"/>
+<align out="a150" type="f" in="b134 b135 b136" creator="0" insign="tra l' altro" outsign="herunder"/>
+<align out="a153" type="s" in="b139" creator="0" insign="la" outsign="samspillet"/>
+<align out="a153" type="" in="b140" creator="0" insign="collaborazione" outsign="samspillet"/>
+<align out="a164" type="dsn" in="b142" creator="0" insign="le" outsign="myndigheder"/>
+<align out="a164" type="n" in="b143" creator="0" insign="autorità" outsign="myndigheder"/>
+<align out="a156" type="" in="b141" creator="-1" insign="tra" outsign="mellem"/>
+<align out="a155" type="" in="b137" creator="-1" insign="articolare" outsign="forløbe"/>
+<align out="a157" type="" in="b144" creator="-1" insign="centrali" outsign="centrale"/>
+<align out="a159" type="" in="b146" creator="-1" insign="statali" outsign="statslige"/>
+<align out="a161" type="" in="b148" creator="-1" insign="provinciali" outsign="amtslige"/>
+<align out="a154" type="" in="b132 b133" creator="-1" insign="si dovrà" outsign="skal"/>
+<align out="a158" type="" in="b145" creator="-1" insign="," outsign=","/>
+<align out="a149" type="" in="b131" creator="0" insign=";" outsign=","/>
+<align out="b152" type="" in="b152" creator="0" insign="tra" outsign="tra"/>
+<align out="a166" type="ds" in="b153" creator="0" insign="i" outsign="lægemiddelproducenter"/>
+<align out="a166" type="" in="b154 b155 b156" creator="0" insign="produttori di medicinali" outsign="lægemiddelproducenter"/>
+<align out="b149" type="" in="b149" creator="0" insign="," outsign=","/>
+<align out="a165" type="" in="b151" creator="0" insign="e" outsign="samt"/>
+<align out="a151" type="" in="a151" creator="0" insign="overveje" outsign="overveje"/>
+<align out="a152" type="" in="a152" creator="0" insign="hvordan" outsign="hvordan"/>
+<align out="b138" type="" in="b138" creator="0" insign="adeguatamente" outsign="adeguatamente"/>
+<align out="a167" type="" in="b157" creator="0" insign="e" outsign="og"/>
+<align out="a160" type="" in="b147" creator="0" insign="," outsign=","/>
+<align out="a162" type="" in="a162" creator="0" insign="og" outsign="og"/>
+<align out="a163" type="" in="b150" creator="-1" insign="comunali" outsign="kommunale"/>
+<align out="a169" type="ds" in="b158" creator="0" insign="i" outsign="distributører"/>
+<align out="a169" type="" in="b159" creator="0" insign="distributori" outsign="distributører"/>
+<align out="a168" type="" in="a168" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a176" type="s" in="b161" creator="0" insign="Il" outsign="indenrigsministeriet"/>
+<align out="b160" type="" in="b160" creator="0" insign="." outsign="."/>
+<align out="a176" type="" in="b162 b163 b164" creator="0" insign="Ministero degli Interni" outsign="indenrigsministeriet"/>
+<align out="b166" type="" in="b166" creator="0" insign="che" outsign="che"/>
+<align out="a174" type="f" in="b170" creator="0" insign="impegno" outsign="arbejde"/>
+<align out="a170" type="" in="b167" creator="0" insign="questa" outsign="Denne"/>
+<align out="a173" type="s" in="b169 b171" creator="0" insign="dell' del" outsign="arbejdsgruppens"/>
+<align out="a172" type="" in="b169" creator="0" insign="dell'" outsign="af"/>
+<align out="a173" type="" in="b172 b173 b174" creator="0" insign="gruppo di lavoro" outsign="arbejdsgruppens"/>
+<align out="a179" type="" in="b177 b178" creator="0" insign="prima del" outsign="inden"/>
+<align out="a177 a178" type="mvd" in="b175 b176" creator="-1" insign="si concluda" outsign="er afsluttet"/>
+<align out="a171" type="" in="b168" creator="-1" insign="parte" outsign="del"/>
+<align out="a175" type="" in="b165" creator="-1" insign="prevede" outsign="forventer"/>
+<align out="a180" type="" in="b178" creator="0" insign="del" outsign="den"/>
+<align out="b185" type="" in="b185" creator="0" insign="," outsign=","/>
+<align out="a190 a196" type="" in="b199" creator="0" insign="valuteranno" outsign="vil overveje"/>
+<align out="a191" type="s" in="b186" creator="0" insign="il" outsign="indenrigsministeriet"/>
+<align out="a191" type="lv" in="b187" creator="0" insign="Ministero" outsign="indenrigsministeriet"/>
+<align out="a193" type="s" in="b189" creator="0" insign="la" outsign="civilforsvarsstyrelsen"/>
+<align out="a193" type="" in="b190 b191" creator="0" insign="Difesa civile" outsign="civilforsvarsstyrelsen"/>
+<align out="a195" type="s" in="b193" creator="0" insign="la" outsign="sundhedstyrelsen"/>
+<align out="a195" type="" in="b194 b195 b196 b197 b198" creator="0" insign="Direzione generale del servizio sanitario" outsign="sundhedstyrelsen"/>
+<align out="a181" type="" in="b179" creator="-1" insign="1" outsign="1."/>
+<align out="a182" type="" in="b180" creator="-1" insign="giugno" outsign="juni"/>
+<align out="a189" type="f" in="b183 b184" creator="-1" insign="Subito dopo" outsign="Dernæst"/>
+<align out="a183" type="" in="b181" creator="-1" insign="1984" outsign="1984"/>
+<align out="a184" type="" in="b182" creator="-1" insign="." outsign="."/>
+<align out="a192" type="" in="b188" creator="-1" insign="," outsign=","/>
+<align out="a194" type="" in="b192" creator="-1" insign="e" outsign="og"/>
+<align out="a198" type="sn" in="b205" creator="0" insign="i" outsign="arbejdet"/>
+<align out="a198" type="n" in="b206" creator="0" insign="lavori" outsign="arbejdet"/>
+<align out="b207" type="" in="b207" creator="0" insign="," outsign=","/>
+<align out="a202 a203 a204 a205 a206 a207" type="f+mvg" in="b208" creator="0" insign="creando" outsign="med henblik på at få opbygget"/>
+<align out="a210" type="" in="a210" creator="0" insign="," outsign=","/>
+<align out="a197" type="f" in="b200 b201 b202" creator="0" insign="l' eventualità di" outsign="om"/>
+<align out="a209" type="" in="b210 b211 b212 b213 b214" creator="-1" insign="sistema di pronto intervento medico" outsign="lægemiddelberedskab"/>
+<align out="a199 a200 a201" type="mvi" in="b203 b204" creator="-1" insign="far proseguire" outsign="skal føres videre"/>
+<align out="a208" type="" in="b209" creator="-1" insign="un" outsign="et"/>
+<align out="a211" type="" in="b215" creator="-1" insign="che" outsign="der"/>
+<align out="a212" type="f" in="b223" creator="0" insign="tempi" outsign="tidsmæssigt"/>
+<align out="b224" type="" in="b224" creator="0" insign="e" outsign="e"/>
+<align out="a216" type="" in="b225" creator="0" insign="dei" outsign="de"/>
+<align out="a218" type="" in="b226" creator="0" insign="presupposti" outsign="forudsætninger"/>
+<align out="a219" type="" in="b228" creator="0" insign="." outsign="."/>
+<align out="a213 a214 a215" type="" in="b216 b217 b218 b219 b220 b221 b222" creator="-1" insign="sia in funzione al di fuori dei" outsign="rækker ud over"/>
+<align out="a217" type="" in="b227" creator="-1" insign="sopraindicati" outsign="nævnte"/>
+</DTAGalign>

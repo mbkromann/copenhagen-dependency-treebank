@@ -1,0 +1,203 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1014-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1014-it-auto.tag" sign="_input"/>
+<align out="a44 a45" type="" in="b1 b2" creator="0" insign="Al momento" outsign="I øjeblikket"/>
+<align out="a47" type="ds" in="b3" creator="0" insign="la" outsign="folk"/>
+<align out="a47" type="" in="b4" creator="0" insign="gente" outsign="folk"/>
+<align out="a46" type="" in="b6" creator="0" insign="deve" outsign="må"/>
+<align out="a51 a52" type="" in="b10" creator="0" insign="propria" outsign="deres egen"/>
+<align out="a53" type="" in="b9" creator="0" insign="tasca" outsign="lomme"/>
+<align out="a56 a57" type="f" in="b13 b14 b15" creator="0" insign="la maggior parte" outsign="de fleste"/>
+<align out="b16" type="" in="b16" creator="0" insign="di" outsign="di"/>
+<align out="b17" type="" in="b17" creator="0" insign="loro" outsign="loro"/>
+<align out="a48" type="" in="b7" creator="-1" insign="pagare" outsign="betale"/>
+<align out="a58" type="" in="b18" creator="-1" insign="ha" outsign="har"/>
+<align out="a50" type="" in="b8" creator="-1" insign="di" outsign="af"/>
+<align out="a49" type="" in="b5" creator="-1" insign="mi" outsign="mig"/>
+<align out="a43" type="" in="b0" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a54" type="" in="b11" creator="-1" insign="," outsign=","/>
+<align out="a55" type="" in="b12" creator="-1" insign="e" outsign="og"/>
+<align out="a60" type="" in="b23" creator="0" insign="comunale" outsign="kommunal"/>
+<align out="a61" type="" in="b21 b22" creator="0" insign="assistente domicialiare" outsign="hjemmehjælp"/>
+<align out="a70" type="" in="a70" creator="0" insign="det" outsign="det"/>
+<align out="a69 a72" type="f" in="b28 b29" creator="0" insign="dovrebbe essere" outsign="behøver være"/>
+<align out="a73" type="" in="a73" creator="0" insign="," outsign=","/>
+<align out="a81" type="n" in="b35" creator="0" insign="Contributi" outsign="Tilskud"/>
+<align out="b36" type="" in="b36" creator="0" insign="." outsign="."/>
+<align out="a68" type="" in="b26" creator="-1" insign="così" outsign="sådan"/>
+<align out="a75" type="" in="b31" creator="-1" insign="dice" outsign="siger"/>
+<align out="a76" type="" in="b32" creator="-1" insign="Bente" outsign="Bente"/>
+<align out="a77" type="" in="b33" creator="-1" insign="Munck" outsign="Munck"/>
+<align out="a62 a63" type="" in="b19" creator="-1" insign="già" outsign="i forvejen"/>
+<align out="a67" type="" in="b25" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a59" type="" in="b20" creator="-1" insign="un" outsign="en"/>
+<align out="a71" type="" in="b27" creator="-1" insign="non" outsign="ikke"/>
+<align out="a64" type="" in="b24" creator="-1" insign="." outsign="."/>
+<align out="a78" type="" in="b34" creator="-1" insign="." outsign="."/>
+<align out="a74" type="" in="b30" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a82" type="" in="b37" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a83 a84 a85" type="" in="b38" creator="0" insign="Secondo" outsign="I henhold til"/>
+<align out="a86" type="s" in="b39" creator="0" insign="la" outsign="bistandslovens"/>
+<align out="a86" type="f" in="b40 b42 b43 b44" creator="0" insign="legge sulla previdenza sociale" outsign="bistandslovens"/>
+<align out="b45" type="" in="b45" creator="0" insign="," outsign=","/>
+<align out="a90" type="" in="a90" creator="0" insign="faktisk" outsign="faktisk"/>
+<align out="a95 a96" type="" in="b51" creator="0" insign="assumere" outsign="at ansætte"/>
+<align out="a94" type="f" in="b52" creator="0" insign="autonomamente" outsign="selv"/>
+<align out="a97" type="" in="b53" creator="0" insign="un" outsign="en"/>
+<align out="a98" type="" in="b54 b55" creator="0" insign="assistente domiciliare" outsign="hjemmehjælp"/>
+<align out="a88" type="" in="b47" creator="-1" insign="possono" outsign="kan"/>
+<align out="a91" type="" in="b48" creator="-1" insign="ricevere" outsign="få"/>
+<align out="a92" type="n" in="b49" creator="-1" insign="contributi" outsign="tilskud"/>
+<align out="a93" type="" in="b50" creator="-1" insign="per" outsign="til"/>
+<align out="a87" type="" in="b41" creator="-1" insign="56" outsign="56"/>
+<align out="a99" type="" in="b56" creator="-1" insign="." outsign="."/>
+<align out="a89" type="" in="b46" creator="-1" insign="tutti" outsign="alle"/>
+<align out="a102" type="s" in="b57" creator="0" insign="I" outsign="Kommunerne"/>
+<align out="a102" type="" in="b58" creator="0" insign="comuni" outsign="Kommunerne"/>
+<align out="a103" type="" in="b59" creator="0" insign="debbono" outsign="skal"/>
+<align out="a107" type="" in="b65" creator="0" insign="anziani" outsign="ældre"/>
+<align out="a104 a105" type="f" in="b60" creator="0" insign="aiutare" outsign="sørge for"/>
+<align out="a109" type="" in="b63" creator="0" insign="rassicurante" outsign="betryggende"/>
+<align out="a111" type="" in="a111" creator="0" insign="," outsign=","/>
+<align out="a112" type="" in="b66" creator="0" insign="e" outsign="og"/>
+<align out="a108" type="" in="b61" creator="0" insign="in" outsign="på"/>
+<align out="a113" type="f" in="b67 b68" creator="0" insign="nel caso" outsign="når"/>
+<align out="a114 a116 a117" type="f" in="b70 b71 b72" creator="0" insign="riescano a farlo" outsign="de kan overkomme"/>
+<align out="a118" type="" in="b72" creator="0" insign="farlo" outsign="det"/>
+<align out="a110" type="" in="b62" creator="-1" insign="modo" outsign="vis"/>
+<align out="a119" type="" in="b73" creator="-1" insign="," outsign=","/>
+<align out="a115" type="" in="b69" creator="-1" insign="non" outsign="ikke"/>
+<align out="a106" type="" in="b64" creator="-1" insign="gli" outsign="de"/>
+<align out="a132" type="f" in="b90" creator="0" insign="continua" outsign="siger"/>
+<align out="a120 a121" type="" in="b75" creator="0" insign="debbono" outsign="må de"/>
+<align out="b86" type="" in="b86" creator="0" insign="un" outsign="un"/>
+<align out="a129" type="" in="b87 b88" creator="0" insign="assistente domicialiare" outsign="hushjælp"/>
+<align out="a130" type="" in="a130" creator="0" insign="," outsign=","/>
+<align out="a123" type="" in="b81" creator="0" insign="gli" outsign="de"/>
+<align out="b84" type="" in="b84" creator="0" insign="possano" outsign="possano"/>
+<align out="a126" type="f" in="b83" creator="0" insign="stessi" outsign="selv"/>
+<align out="b74" type="" in="b74" creator="0" insign="allora" outsign="allora"/>
+<align out="a122" type="f" in="b76 b77 b78 b79" creator="0" insign="dar loro dei contributi" outsign="betale"/>
+<align out="a125" type="" in="a125" creator="0" insign="for" outsign="for"/>
+<align out="b80" type="" in="b80" creator="0" insign="affinché" outsign="affinché"/>
+<align out="a124" type="" in="b82" creator="-1" insign="anziani" outsign="ældre"/>
+<align out="a127 a128" type="" in="b85" creator="-1" insign="assumere" outsign="at ansætte"/>
+<align out="a133" type="" in="b91" creator="-1" insign="Bente" outsign="Bente"/>
+<align out="a134" type="" in="b92" creator="-1" insign="Munck" outsign="Munck"/>
+<align out="a135" type="" in="b93" creator="-1" insign="." outsign="."/>
+<align out="a131" type="" in="b89" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a142" type="f" in="b96" creator="0" insign="interpreto" outsign="læser"/>
+<align out="a143" type="" in="b97" creator="0" insign="io" outsign="jeg"/>
+<align out="a144" type="s" in="b98" creator="0" insign="la" outsign="bistandsloven"/>
+<align out="a144" type="" in="b99 b100 b101 b102" creator="0" insign="legge sulla previdenza sociale" outsign="bistandsloven"/>
+<align out="a145" type="" in="a145" creator="0" insign="," outsign=","/>
+<align out="a146" type="" in="b103" creator="0" insign="e" outsign="og"/>
+<align out="a148" type="" in="b109" creator="0" insign="interpretazione" outsign="fortolkning"/>
+<align out="a152" type="" in="a152" creator="0" insign="mig" outsign="mig"/>
+<align out="a149 a150 a151" type="" in="b104 b105 b106" creator="0" insign="ho intenzione di" outsign="har jeg tænkt"/>
+<align out="a153 a154" type="" in="b107" creator="0" insign="diffondere" outsign="at udbrede"/>
+<align out="b112" type="" in="b112" creator="0" insign="comune" outsign="comune"/>
+<align out="b113" type="" in="b113" creator="0" insign="di" outsign="di"/>
+<align out="a141" type="" in="b95" creator="-1" insign="Così" outsign="Sådan"/>
+<align out="a147" type="" in="b108" creator="-1" insign="quest'" outsign="den"/>
+<align out="a140" type="" in="b94" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a155" type="" in="b110" creator="-1" insign="qui" outsign="her"/>
+<align out="a156" type="" in="b111" creator="-1" insign="nel" outsign="i"/>
+<align out="a161" type="" in="b116" creator="0" insign="Purtroppo" outsign="Desværre"/>
+<align out="a163" type="" in="a163" creator="0" insign="det" outsign="det"/>
+<align out="a164" type="f" in="b117" creator="0" insign="però" outsign="jo"/>
+<align out="a165" type="s" in="b119" creator="0" insign="i" outsign="kommunerne"/>
+<align out="a165" type="" in="b120" creator="0" insign="comuni" outsign="kommunerne"/>
+<align out="a166" type="" in="a166" creator="0" insign="," outsign=","/>
+<align out="a167" type="" in="a167" creator="0" insign="der" outsign="der"/>
+<align out="a168" type="mvi" in="b121 b122" creator="0" insign="a valutare" outsign="vurderer"/>
+<align out="a171" type="" in="b124" creator="0" insign="bisogni" outsign="behov"/>
+<align out="a170" type="s" in="b123 b125" creator="0" insign="i degli" outsign="ældres"/>
+<align out="a170" type="" in="b126" creator="0" insign="anziani" outsign="ældres"/>
+<align out="a169" type="s" in="b125" creator="0" insign="degli" outsign="de"/>
+<align out="a172" type="" in="a172" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a177" type="n" in="b133" creator="0" insign="economici" outsign="økonomisk"/>
+<align out="a176" type="dn" in="b131" creator="0" insign="i" outsign="en"/>
+<align out="b132" type="" in="b132" creator="0" insign="costi" outsign="costi"/>
+<align out="a178" type="" in="a178" creator="0" insign="synsvinkel" outsign="synsvinkel"/>
+<align out="a174 a175" type="mvg+f" in="b130" creator="0" insign="considerando" outsign="de anlægger"/>
+<align out="b128" type="" in="b128" creator="0" insign="lo" outsign="lo"/>
+<align out="b129" type="" in="b129" creator="0" insign="fanno" outsign="fanno"/>
+<align out="a157" type="" in="b114" creator="-1" insign="Silkeborg" outsign="Silkeborg"/>
+<align out="a162" type="" in="b118" creator="-1" insign="sono" outsign="er"/>
+<align out="a158" type="" in="b115" creator="-1" insign="." outsign="."/>
+<align out="a173" type="" in="b127" creator="-1" insign="e" outsign="og"/>
+<align out="a183 a184" type="" in="b136" creator="0" insign="è" outsign="det er"/>
+<align out="a185" type="f" in="b139 b140" creator="0" insign="del tutto" outsign="for"/>
+<align out="a186" type="f" in="b137 b138 b141" creator="0" insign="un modo miope" outsign="kortsigtet"/>
+<align out="a187" type="" in="b142" creator="0" insign="," outsign=","/>
+<align out="a192" type="f" in="b147 b148" creator="0" insign="non ricevono" outsign="mangler"/>
+<align out="a193" type="" in="b150" creator="0" insign="aiuto" outsign="hjælp"/>
+<align out="b149" type="" in="b149" creator="0" insign="l'" outsign="l'"/>
+<align out="b151" type="" in="b151" creator="0" insign="necessario" outsign="necessario"/>
+<align out="a191" type="" in="b146" creator="-1" insign="anziani" outsign="ældre"/>
+<align out="a189" type="" in="b144" creator="-1" insign="quando" outsign="når"/>
+<align out="a182" type="" in="b135" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a190" type="" in="b145" creator="-1" insign="gli" outsign="de"/>
+<align out="a179" type="" in="b134" creator="-1" insign="." outsign="."/>
+<align out="a194" type="" in="b152" creator="-1" insign="," outsign=","/>
+<align out="a188" type="" in="b143" creator="-1" insign="perché" outsign="for"/>
+<align out="a195 a196 a197" type="" in="b153 b154" creator="0" insign="finiscono in" outsign="ryger de på"/>
+<align out="a198" type="" in="b155" creator="0" insign="ospedale" outsign="hospitalet"/>
+<align out="a199" type="" in="a199" creator="0" insign="." outsign="."/>
+<align out="b156" type="" in="b156" creator="0" insign="e" outsign="e"/>
+<align out="a205 a206 a207" type="" in="b159 b160 b161 b162" creator="0" insign="ritornare a casa propria" outsign="komme hjem igen"/>
+<align out="a210" type="" in="b166" creator="0" insign="c'" outsign="der"/>
+<align out="a202 a203" type="" in="b158" creator="0" insign="possono" outsign="De kan"/>
+<align out="a213" type="f" in="b168" creator="0" insign="nessuno" outsign="folk"/>
+<align out="a209" type="" in="b164" creator="-1" insign="perché" outsign="for"/>
+<align out="a208" type="" in="b163" creator="-1" insign="," outsign=","/>
+<align out="a211" type="" in="b167" creator="-1" insign="è" outsign="er"/>
+<align out="a204" type="" in="b157" creator="-1" insign="non" outsign="ikke"/>
+<align out="a212" type="" in="b165" creator="-1" insign="non" outsign="ikke"/>
+<align out="a214 a215 a216" type="" in="b169 b170 b171 b172 b173" creator="0" insign="che si prende cura di" outsign="til at passe"/>
+<align out="a218" type="" in="a218" creator="0" insign="," outsign=","/>
+<align out="a220" type="s" in="b178" creator="0" insign="le" outsign="plejehjemmene"/>
+<align out="a220" type="" in="b179 b180 b181" creator="0" insign="case di riposo" outsign="plejehjemmene"/>
+<align out="a222" type="f" in="b183" creator="0" insign="strapiene" outsign="fyldt"/>
+<align out="b176" type="" in="b176" creator="0" insign="in" outsign="in"/>
+<align out="b177" type="" in="b177" creator="0" insign="più" outsign="più"/>
+<align out="a230" type="" in="b187" creator="0" insign="penso" outsign="mener"/>
+<align out="a232" type="" in="a232" creator="0" insign="," outsign=","/>
+<align out="a228 a229" type="f" in="b185" creator="0" insign="Insomma" outsign="Groft sagt"/>
+<align out="a236" type="" in="b190" creator="0" insign="colpa" outsign="skyld"/>
+<align out="a234" type="s" in="b191" creator="0" insign="dei" outsign="kommunerne"/>
+<align out="a234" type="" in="b192" creator="0" insign="comuni" outsign="kommunerne"/>
+<align out="a217" type="" in="b174" creator="-1" insign="loro" outsign="dem"/>
+<align out="a219" type="" in="b175" creator="-1" insign="ed" outsign="og"/>
+<align out="a233" type="" in="b188" creator="-1" insign="che" outsign="at"/>
+<align out="a221" type="" in="b182" creator="-1" insign="sono" outsign="er"/>
+<align out="a235" type="" in="b189" creator="-1" insign="sia" outsign="er"/>
+<align out="a231" type="" in="b186" creator="-1" insign="io" outsign="jeg"/>
+<align out="a223" type="" in="b184" creator="-1" insign="." outsign="."/>
+<align out="a237" type="" in="a237" creator="0" insign="i" outsign="i"/>
+<align out="b193" type="" in="b193" creator="0" insign="se" outsign="se"/>
+<align out="a238" type="" in="a238" creator="0" insign="," outsign=","/>
+<align out="a239" type="" in="a239" creator="0" insign="at" outsign="at"/>
+<align out="a242" type="f" in="b196" creator="0" insign="finiscono" outsign="havner"/>
+<align out="a243" type="" in="b197" creator="0" insign="all'" outsign="på"/>
+<align out="a244" type="s" in="b197" creator="0" insign="all'" outsign="hospitalerne"/>
+<align out="a244" type="" in="b198" creator="0" insign="ospedale" outsign="hospitalerne"/>
+<align out="a252" type="" in="a252" creator="0" insign="," outsign=","/>
+<align out="a254" type="f" in="b212" creator="0" insign="conclude" outsign="siger"/>
+<align out="a255" type="lv" in="b213 b214" creator="0" insign="la Munck" outsign="hun"/>
+<align out="a256" type="" in="b215" creator="0" insign="." outsign="."/>
+<align out="b199" type="" in="b199" creator="0" insign="e" outsign="e"/>
+<align out="a247" type="" in="b203 b204 b205 b206" creator="0" insign="ad un costo di" outsign="til"/>
+<align out="a246" type="f" in="b202" creator="0" insign="parcheggiati" outsign="venteposition"/>
+<align out="a245" type="" in="a245" creator="0" insign="i" outsign="i"/>
+<align out="b200" type="" in="b200" creator="0" insign="vi" outsign="vi"/>
+<align out="b201" type="" in="b201" creator="0" insign="rimangano" outsign="rimangano"/>
+<align out="a241" type="" in="b195" creator="-1" insign="anziani" outsign="ældre"/>
+<align out="a248" type="" in="b207" creator="-1" insign="1.500" outsign="1.500"/>
+<align out="a249" type="" in="b208" creator="-1" insign="corone" outsign="kr."/>
+<align out="a250" type="" in="b209" creator="-1" insign="al" outsign="om"/>
+<align out="a251" type="" in="b210" creator="-1" insign="giorno" outsign="dagen"/>
+<align out="a240" type="" in="b194" creator="-1" insign="gli" outsign="de"/>
+<align out="a253" type="" in="b211" creator="-1" insign="&quot;" outsign="&quot;"/>
+</DTAGalign>

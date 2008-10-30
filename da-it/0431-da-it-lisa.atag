@@ -5,7 +5,6 @@
 <align out="b4" type="" in="b4" creator="0" insign="," outsign=","/>
 <align out="a48" type="" in="b7" creator="0" insign="," outsign=","/>
 <align out="b14" type="" in="b14" creator="0" insign="dare" outsign="dare"/>
-<align out="a55" type="" in="b15 b16" creator="0" insign="un nome" outsign="navnet"/>
 <align out="a51" type="" in="b12" creator="-1" insign="concorso" outsign="konkurrence"/>
 <align out="a58" type="" in="b19" creator="-1" insign="gioiello" outsign="smykke"/>
 <align out="a44" type="" in="b5" creator="-1" insign="Rensch" outsign="Rensch"/>
@@ -22,7 +21,6 @@
 <align out="a66" type="" in="b28" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a75" type="" in="b38" creator="0" insign="," outsign=","/>
 <align out="a77" type="" in="b40" creator="0" insign="." outsign="."/>
-<align out="a62" type="f" in="b21 b22 b23" creator="-1" insign="Il nome scelto" outsign="Løsningen"/>
 <align out="a68" type="" in="b29" creator="-1" insign="ed" outsign="og"/>
 <align out="a71" type="" in="b34" creator="-1" insign="vinto" outsign="vundet"/>
 <align out="a72" type="" in="b35" creator="-1" insign="da" outsign="af"/>
@@ -41,7 +39,6 @@
 <align out="a98 a99" type="f" in="b56 b57 b65 b66" creator="0" insign="All' apertura c' erano" outsign="Til_stede var"/>
 <align out="a100" type="" in="b58 b59" creator="-1" insign="oltre ai" outsign="foruden"/>
 <align out="a94" type="" in="b45" creator="-1" insign="Mosca" outsign="Moskva"/>
-<align out="a90 a91" type="wo" in="b41 b42 b43" creator="-1" insign="L' 8 settembre" outsign="den 8.september"/>
 <align out="a86" type="" in="b48" creator="-1" insign="BEERS" outsign="BEERS"/>
 <align out="a87" type="" in="b49" creator="-1" insign="CENTENARY" outsign="CENTENARY"/>
 <align out="a101" type="s" in="b59" creator="0" insign="ai" outsign="De_Beers-topfolk"/>
@@ -56,7 +53,6 @@
 <align out="a105" type="" in="b70" creator="-1" insign="diplomatici" outsign="diplomater"/>
 <align out="a107" type="" in="b72" creator="-1" insign="rappresentanti" outsign="repræsentanter"/>
 <align out="a102" type="" in="b68" creator="-1" insign="russi" outsign="russiske"/>
-<align out="a110" type="" in="b77 b78" creator="-1" insign="industria diamantiferi" outsign="diamantindustri"/>
 <align out="a113" type="" in="b74" creator="-1" insign="commercio" outsign="handel"/>
 <align out="a108" type="" in="b73" creator="-1" insign="del" outsign="for"/>
 <align out="a126" type="" in="b85" creator="0" insign="orafo" outsign="guldsmed"/>
@@ -64,9 +60,6 @@
 <align out="a133" type="s" in="b93" creator="0" insign="l'" outsign="sølvtøjet"/>
 <align out="a133" type="" in="b94" creator="0" insign="argenteria" outsign="sølvtøjet"/>
 <align out="a135" type="" in="b96" creator="0" insign="un" outsign="en"/>
-<align out="a139" type="s" in="b98" creator="0" insign="della" outsign="kirke"/>
-<align out="a139" type="" in="b99" creator="0" insign="chiesa" outsign="kirke"/>
-<align out="b100" type="" in="b100" creator="0" insign="di" outsign="di"/>
 <align out="a130" type="" in="b89" creator="-1" insign="ha" outsign="har"/>
 <align out="a132" type="" in="b90" creator="-1" insign="restaurato" outsign="restaureret"/>
 <align out="a134" type="" in="b95" creator="-1" insign="ed" outsign="og"/>
@@ -76,7 +69,6 @@
 <align out="a127" type="" in="b86" creator="-1" insign="di" outsign="i"/>
 <align out="a131" type="" in="b91 b92" creator="-1" insign="di recente" outsign="nylig"/>
 <align out="a128" type="" in="b87" creator="-1" insign="Køge" outsign="Køge"/>
-<align out="a138" type="" in="b101" creator="-1" insign="Lellinge" outsign="Lellinge"/>
 <align out="a125" type="" in="b84" creator="-1" insign="," outsign=","/>
 <align out="a137" type="f" in="b98" creator="0" insign="della" outsign="i"/>
 <align out="a146" type="" in="b106" creator="0" insign="con" outsign="med"/>
@@ -97,7 +89,6 @@
 <align out="b113" type="" in="b113" creator="0" insign="di" outsign="di"/>
 <align out="a162" type="" in="b123" creator="0" insign="." outsign="."/>
 <align out="a173" type="" in="b126" creator="0" insign="," outsign=","/>
-<align out="a179" type="s" in="b137" creator="0" insign="dell'" outsign="årets"/>
 <align out="a179" type="" in="b138" creator="0" insign="anno" outsign="årets"/>
 <align out="a182" type="" in="b142" creator="0" insign="Smykkekæden" outsign="Smykkekæden"/>
 <align out="b140" type="" in="b140" creator="0" insign="la" outsign="la"/>
@@ -105,7 +96,6 @@
 <align out="a183" type="" in="b143" creator="0" insign="." outsign="."/>
 <align out="a176" type="" in="b130" creator="0" insign="," outsign=","/>
 <align out="a186 a187" type="" in="b144" creator="0" insign="È" outsign="Det er"/>
-<align out="a180" type="s" in="b133" creator="0" insign="il" outsign="kunstnersmykke"/>
 <align out="a180" type="" in="b134 b135 b136" creator="0" insign="gioiello d' arte" outsign="kunstnersmykke"/>
 <align out="a174" type="" in="b127" creator="-1" insign="famoso" outsign="berømt"/>
 <align out="a175" type="" in="b128 b129" creator="-1" insign="artista figurativo" outsign="billedkunstner"/>
@@ -119,7 +109,6 @@
 <align out="a216" type="" in="b162" creator="0" insign="a" outsign="i"/>
 <align out="a207" type="" in="a207" creator="0" insign="I" outsign="I"/>
 <align out="a211" type="" in="a211" creator="0" insign="der" outsign="der"/>
-<align out="a215" type="d" in="b154 b155 b158" creator="0" insign="L' industria orologiaia" outsign="ur-industri"/>
 <align out="a189" type="" in="b147" creator="-1" insign="prima" outsign="første"/>
 <align out="a190" type="" in="b148" creator="-1" insign="opera" outsign="arbejde"/>
 <align out="a192" type="" in="b150" creator="-1" insign="argento" outsign="sølv"/>
@@ -150,7 +139,6 @@
 <align out="a235 a236 a237 a238" type="f" in="b187 b188 b189 b190 b191" creator="0" insign="Fino ad esaurimento della tiratura" outsign="Så længe oplaget rækker"/>
 <align out="b192" type="" in="b192" creator="0" insign="," outsign=","/>
 <align out="a240" type="" in="b194" creator="0" insign="interessati" outsign="interesserede"/>
-<align out="a240" type="s" in="b193" creator="0" insign="gli" outsign="interesserede"/>
 <align out="a239" type="" in="b195" creator="0" insign="possono" outsign="kan"/>
 <align out="a241" type="" in="b196" creator="0" insign="riceverne" outsign="få"/>
 <align out="a243" type="" in="b198" creator="0" insign="esemplare" outsign="eksemplar"/>
@@ -181,17 +169,14 @@
 <align out="a291 a292" type="" in="b242" creator="-1" insign="Congratulazioni" outsign="Til lykke"/>
 <align out="a293" type="" in="b243" creator="-1" insign="all'" outsign="til"/>
 <align out="a277" type="" in="b227" creator="-1" insign="Entrambi" outsign="Begge"/>
-<align out="a283" type="" in="b236" creator="-1" insign="Copenhagen" outsign="Copenhagen"/>
 <align out="a284" type="" in="b237" creator="-1" insign="A/S" outsign="A/S"/>
 <align out="a285" type="" in="b238" creator="-1" insign="Georg" outsign="Georg"/>
 <align out="a286" type="" in="b239" creator="-1" insign="Jensen" outsign="Jensen"/>
 <align out="a287" type="" in="b240" creator="-1" insign="Sølvsmedie" outsign="Sølvsmedie"/>
-<align out="a294" type="" in="b244" creator="-1" insign="orafo" outsign="guldsmed"/>
 <align out="a295" type="" in="b245" creator="-1" insign="LYKKE" outsign="LYKKE"/>
 <align out="a296" type="" in="b246" creator="-1" insign="ELKJÆR" outsign="ELKJÆR"/>
 <align out="a288" type="" in="b241" creator="-1" insign="." outsign="."/>
 <align out="a299" type="" in="b249" creator="-1" insign="all'" outsign="til"/>
-<align out="a300" type="" in="b250" creator="-1" insign="argentiere" outsign="korpussølvsmed"/>
 <align out="a301" type="" in="b251" creator="-1" insign="GITTE" outsign="GITTE"/>
 <align out="a302" type="" in="b252" creator="-1" insign="TOFTESKOV" outsign="TOFTESKOV"/>
 <align out="a298" type="" in="b248" creator="-1" insign="e" outsign="og"/>
@@ -199,7 +184,6 @@
 <align out="a303" type="" in="b253" creator="-1" insign="RASMUSSEN" outsign="RASMUSSEN"/>
 <align out="a304" type="" in="b254" creator="-1" insign="." outsign="."/>
 <align out="a49" type="f" in="b9 b10" creator="0" insign="ha indetto" outsign="havde"/>
-<align out="a92" type="f" in="b52 b53 b54" creator="0" insign="la propria sede" outsign="kontor"/>
 <align out="a109" type="s" in="b76 b79" creator="0" insign="dell' del" outsign="landets"/>
 <align out="a109" type="" in="b80" creator="0" insign="paese" outsign="landets"/>
 <align out="a144 a145" type="f+mvd" in="b104 b105" creator="0" insign="è ripreso" outsign="står han"/>
@@ -207,7 +191,25 @@
 <align out="a50" type="" in="b11" creator="0" insign="un" outsign="en"/>
 <align out="a210 a212" type="f" in="b159" creator="0" insign="compie" outsign="har været"/>
 <align out="a246" type="mcg" in="b203 b204" creator="0" insign="rivolgendosi a" outsign="hos"/>
-<align out="a282" type="d" in="b234 b235" creator="0" insign="la Royal" outsign="Royal"/>
-<align out="a294" type="d" in="b243" creator="0" insign="all'" outsign="guldsmed"/>
-<align out="a300" type="d" in="b249" creator="0" insign="all'" outsign="korpussølvsmed"/>
+<align out="a55" type="" in="b16" creator="0" insign="nome" outsign="navnet"/>
+<align out="a55" type="s" in="b15" creator="0" insign="un" outsign="navnet"/>
+<align out="a62" type="s" in="b21" creator="0" insign="Il" outsign="Løsningen"/>
+<align out="a62" type="f" in="b22 b23" creator="0" insign="nome scelto" outsign="Løsningen"/>
+<align out="a90 a91" type="" in="b41 b42 b43" creator="0" insign="L' 8 settembre" outsign="den 8.september"/>
+<align out="a92" type="d+f" in="b52 b53 b54" creator="0" insign="la propria sede" outsign="kontor"/>
+<align out="a113" type="ds" in="b73" creator="0" insign="del" outsign="handel"/>
+<align out="a110" type="" in="b77 b78" creator="0" insign="industria diamantiferi" outsign="diamantindustri"/>
+<align out="a138 a139" type="ds" in="b98" creator="0" insign="della" outsign="Lellinge kirke"/>
+<align out="a138 a139" type="ds" in="b98" creator="0" insign="della" outsign="Lellinge kirke"/>
+<align out="a138 a139" type="" in="b99 b100 b101" creator="0" insign="chiesa di Lellinge" outsign="Lellinge kirke"/>
+<align out="a179" type="s" in="b133 b137" creator="0" insign="il dell'" outsign="årets"/>
+<align out="a215" type="ds" in="b154" creator="0" insign="L'" outsign="ur-industri"/>
+<align out="a215" type="" in="b155 b158" creator="0" insign="industria orologiaia" outsign="ur-industri"/>
+<align out="a240" type="ds" in="b193" creator="0" insign="gli" outsign="interesserede"/>
+<align out="a282 a283" type="ds" in="b234" creator="0" insign="la" outsign="Royal Copenhagen"/>
+<align out="a282 a283" type="" in="b235 b236" creator="0" insign="Royal Copenhagen" outsign="Royal Copenhagen"/>
+<align out="a294" type="ds" in="b243" creator="0" insign="all'" outsign="guldsmed"/>
+<align out="a294" type="" in="b244" creator="0" insign="orafo" outsign="guldsmed"/>
+<align out="a300" type="ds" in="b249" creator="0" insign="all'" outsign="korpussølvsmed"/>
+<align out="a300" type="" in="b250" creator="0" insign="argentiere" outsign="korpussølvsmed"/>
 </DTAGalign>

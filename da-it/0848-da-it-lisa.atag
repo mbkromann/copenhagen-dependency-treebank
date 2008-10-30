@@ -1,0 +1,186 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0848-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0848-it-auto.tag" sign="_input"/>
+<align out="a43" type="s" in="b9" creator="0" insign="la" outsign="Overfarten"/>
+<align out="a43" type="f" in="b10 b11 b12 b13" creator="0" insign="linea di comunicazione marittima" outsign="Overfarten"/>
+<align out="a44" type="f" in="b14" creator="0" insign="del" outsign="på"/>
+<align out="a45" type="" in="b15 b16" creator="0" insign="Grande Belt" outsign="Storebælt"/>
+<align out="a46" type="mvd" in="b4 b5 b6" creator="0" insign="si è aperta" outsign="åbnedes"/>
+<align out="a48 a49" type="f" in="b8" creator="0" insign="pubblico" outsign="almindelig trafik"/>
+<align out="a50" type="wo" in="b0" creator="0" insign="Il" outsign="den"/>
+<align out="a51" type="" in="b1" creator="0" insign="primo" outsign="1."/>
+<align out="a68" type="" in="b19" creator="0" insign="primo" outsign="første"/>
+<align out="a52" type="" in="b2" creator="-1" insign="dicembre" outsign="december"/>
+<align out="a53" type="" in="b3" creator="-1" insign="1883" outsign="1883"/>
+<align out="a47" type="" in="b7" creator="-1" insign="al" outsign="for"/>
+<align out="a54" type="" in="b17" creator="-1" insign="." outsign="."/>
+<align out="a67" type="wo" in="b18" creator="0" insign="Il" outsign="det"/>
+<align out="a69" type="f" in="b20" creator="0" insign="grosso" outsign="alvorlige"/>
+<align out="a70" type="f" in="b21" creator="0" insign="colpo" outsign="angreb"/>
+<align out="a72" type="s" in="b23 b25" creator="0" insign="il della" outsign="færgefartens"/>
+<align out="a72" type="" in="b26 b27 b28" creator="0" insign="navigazione in traghetto" outsign="færgefartens"/>
+<align out="a73" type="" in="b24" creator="0" insign="predominio" outsign="dominans"/>
+<align out="a59" type="f" in="b35" creator="0" insign="solo" outsign="Først"/>
+<align out="a61" type="" in="b39" creator="0" insign="di" outsign="end"/>
+<align out="a62 a63 a64" type="f" in="b40 b41" creator="0" insign="cinquant' anni" outsign="et halvt århundrede"/>
+<align out="a66" type="f" in="b32 b33 b34" creator="0" insign="si è verificato" outsign="kom"/>
+<align out="a76" type="" in="b30" creator="0" insign="acque" outsign="farvande"/>
+<align out="a65" type="" in="b36" creator="0" insign="dopo" outsign="senere"/>
+<align out="a60" type="" in="b38" creator="0" insign="più" outsign="mere"/>
+<align out="b37" type="" in="b37" creator="0" insign="poco" outsign="poco"/>
+<align out="a71" type="" in="b22" creator="-1" insign="contro" outsign="mod"/>
+<align out="a75" type="" in="b31" creator="-1" insign="danesi" outsign="danske"/>
+<align out="a74" type="" in="b29" creator="-1" insign="nelle" outsign="i"/>
+<align out="a88" type="s" in="b46" creator="0" insign="del" outsign="Lillebæltsbroen"/>
+<align out="a88" type="" in="b47 b48 b49 b50" creator="0" insign="ponte sul Piccolo Belt" outsign="Lillebæltsbroen"/>
+<align out="a82" type="" in="b51" creator="0" insign="il" outsign="den"/>
+<align out="a83" type="" in="b52" creator="0" insign="15" outsign="15."/>
+<align out="a84" type="" in="b53" creator="0" insign="maggio" outsign="maj"/>
+<align out="a80 a81 a86 a87" type="f" in="b43" creator="0" insign="con" outsign="Det skete , da"/>
+<align out="a89 a90" type="mcn" in="b44 b45" creator="0" insign="l' inaugurazione" outsign="blev indviet"/>
+<align out="a98" type="" in="a98" creator="0" insign="et" outsign="et"/>
+<align out="a99" type="" in="a99" creator="0" insign="halvt" outsign="halvt"/>
+<align out="a96" type="" in="b56" creator="-1" insign="Tra" outsign="Om"/>
+<align out="a100" type="" in="b58" creator="-1" insign="anni" outsign="år"/>
+<align out="a85" type="" in="b54" creator="-1" insign="1935" outsign="1935"/>
+<align out="a102" type="" in="b59" creator="-1" insign="un" outsign="en"/>
+<align out="a77" type="f" in="b42" creator="-1" insign="," outsign="."/>
+<align out="a91" type="" in="b55" creator="-1" insign="." outsign="."/>
+<align out="a97" type="" in="b57" creator="-1" insign="tre" outsign="tre"/>
+<align out="a101" type="" in="b70" creator="0" insign="dovrà" outsign="må"/>
+<align out="a103 a104" type="f" in="b60 b61" creator="0" insign="grande numero" outsign="betydelig del"/>
+<align out="a105" type="" in="b62" creator="0" insign="di" outsign="af"/>
+<align out="a106" type="" in="b63 b64 b65 b66 b67 b68 b69" creator="0" insign="traghetti del sistema nazionale danese dei trasporti" outsign="DSB-færgerne"/>
+<align out="a107" type="" in="b71" creator="0" insign="cercare" outsign="søge"/>
+<align out="a109" type="" in="b74" creator="0" insign="mari" outsign="farvande"/>
+<align out="b72" type="" in="b72" creator="0" insign="dei" outsign="dei"/>
+<align out="a110" type="" in="b75" creator="0" insign="," outsign=","/>
+<align out="a112" type="s" in="b77" creator="0" insign="il" outsign="Storebæltsforbindelsen"/>
+<align out="a112" type="" in="b78 b79 b80 b81" creator="0" insign="Collegamento del Grande Belt" outsign="Storebæltsforbindelsen"/>
+<align out="a108" type="" in="b73" creator="-1" insign="nuovi" outsign="nye"/>
+<align out="a111" type="" in="b76" creator="-1" insign="quando" outsign="når"/>
+<align out="a113" type="" in="b82" creator="0" insign="diventerà" outsign="er"/>
+<align out="a123" type="f" in="b88" creator="0" insign="emozionante" outsign="spændende"/>
+<align out="a124" type="" in="b87" creator="0" insign="vicenda" outsign="historie"/>
+<align out="a121 a129 a130 a131 a132" type="f" in="b89 b90 b91" creator="0" insign="entrerà nella storia" outsign="er ved at være historie"/>
+<align out="a119" type="" in="a119" creator="0" insign="Og" outsign="Og"/>
+<align out="a120" type="" in="a120" creator="0" insign="dermed" outsign="dermed"/>
+<align out="a114" type="" in="b83" creator="-1" insign="una" outsign="en"/>
+<align out="a122" type="" in="b86" creator="-1" insign="una" outsign="en"/>
+<align out="a116" type="f" in="b85" creator="-1" insign=":" outsign="."/>
+<align out="a133" type="" in="b92" creator="-1" insign="." outsign="."/>
+<align out="a115" type="" in="b84" creator="-1" insign="realtà" outsign="realitet"/>
+<align out="a138" type="" in="b93" creator="0" insign="Cinque" outsign="Fem"/>
+<align out="a139" type="" in="b94 b95 b96 b97 b98 b99 b100 b101" creator="0" insign="linee del sistema di comunicazione marittima nazionale DSB" outsign="DSB-ruter"/>
+<align out="a140" type="f" in="b102 b103 b104" creator="0" insign="continuano a sussistere" outsign="overlever"/>
+<align out="b105" type="" in="b105" creator="0" insign="." outsign="."/>
+<align out="a145" type="s" in="b106 b109" creator="0" insign="La della" outsign="DSBs"/>
+<align out="a145" type="" in="b110" creator="0" insign="DSB" outsign="DSBs"/>
+<align out="a146" type="f" in="b107 b108" creator="0" insign="flotta mercantile" outsign="rederi-division"/>
+<align out="a147 a148" type="" in="b111" creator="0" insign="ricerca" outsign="leder efter"/>
+<align out="a149" type="" in="b112" creator="0" insign="nuovi" outsign="nye"/>
+<align out="a150" type="" in="b113" creator="0" insign="mercati" outsign="markeder"/>
+<align out="a151" type="" in="b114" creator="0" insign="nelle" outsign="i"/>
+<align out="a155" type="" in="b118" creator="0" insign="del" outsign="af"/>
+<align out="a156" type="" in="b119 b120" creator="0" insign="Mar Baltico" outsign="Østersøen"/>
+<align out="a152" type="sn" in="b114" creator="0" insign="nelle" outsign="den"/>
+<align out="a153 a154" type="n" in="b115 b116 b117" creator="0" insign="aree ad est" outsign="østlige del"/>
+<align out="a158" type="" in="b122" creator="0" insign="poiché" outsign="for"/>
+<align out="a157" type="" in="b121" creator="0" insign="," outsign=","/>
+<align out="a164" type="" in="b132" creator="0" insign="delle" outsign="af"/>
+<align out="a165" type="" in="b132" creator="0" insign="delle" outsign="de"/>
+<align out="a159" type="" in="a159" creator="0" insign="år" outsign="år"/>
+<align out="b123" type="" in="b123" creator="0" insign="a" outsign="a"/>
+<align out="b124" type="" in="b124" creator="0" insign="partire" outsign="partire"/>
+<align out="b125" type="" in="b125" creator="0" insign="dal" outsign="dal"/>
+<align out="a161 a169 a170" type="f" in="b127 b128 b129" creator="0" insign="resteranno in funzione" outsign="vil være intakte"/>
+<align out="a166" type="f" in="b133" creator="0" insign="attuali" outsign="eksisterende"/>
+<align out="a167" type="" in="b134" creator="0" insign="dieci" outsign="ti"/>
+<align out="a168" type="" in="b135 b136" creator="0" insign="linee marittime" outsign="overfarter"/>
+<align out="a160" type="" in="b126" creator="-1" insign="2005" outsign="2005"/>
+<align out="a163" type="" in="b131" creator="-1" insign="cinque" outsign="fem"/>
+<align out="a162" type="" in="b130" creator="-1" insign="solo" outsign="kun"/>
+<align out="b137" type="" in="b137" creator="0" insign="," outsign=","/>
+<align out="a171" type="" in="a171" creator="0" insign="." outsign="."/>
+<align out="a174" type="" in="a174" creator="0" insign="De" outsign="De"/>
+<align out="a175" type="" in="a175" creator="0" insign="," outsign=","/>
+<align out="a176" type="" in="a176" creator="0" insign="som" outsign="som"/>
+<align out="a177" type="" in="a177" creator="0" insign="overlever" outsign="overlever"/>
+<align out="a178" type="" in="a178" creator="0" insign="," outsign=","/>
+<align out="a179" type="" in="a179" creator="0" insign="er" outsign="er"/>
+<align out="b138" type="" in="b138" creator="0" insign="e" outsign="e"/>
+<align out="b139" type="" in="b139" creator="0" insign="cioè" outsign="cioè"/>
+<align out="b140" type="" in="b140" creator="0" insign="le" outsign="le"/>
+<align out="b141" type="" in="b141" creator="0" insign="linee" outsign="linee"/>
+<align out="a189" type="f" in="b151 b152" creator="0" insign="anche se" outsign="dog"/>
+<align out="a190 a191" type="f" in="b153 b154 b155" creator="0" insign="con forti riduzioni" outsign="stærkt reduceret"/>
+<align out="a192" type="" in="a192" creator="0" insign="," outsign=","/>
+<align out="a188" type="" in="b150" creator="0" insign="," outsign=","/>
+<align out="a185" type="" in="b147" creator="0" insign="," outsign=","/>
+<align out="a193" type="" in="b156" creator="0" insign="e" outsign="og"/>
+<align out="a194" type="" in="b157" creator="0" insign="infine" outsign="endelig"/>
+<align out="a195" type="" in="b158" creator="0" insign="Gedser-Warnemünde" outsign="Gedser-Warnemünde"/>
+<align out="a196" type="" in="b159" creator="0" insign="." outsign="."/>
+<align out="a180" type="" in="b142" creator="-1" insign="Esbjerg-Fanø" outsign="Esbjerg-Fanø"/>
+<align out="a182" type="" in="b144" creator="-1" insign="Bøjden-Fynshav" outsign="Bøjden-Fynshav"/>
+<align out="a184" type="" in="b146" creator="-1" insign="Kalundborg-Samsø" outsign="Kalundborg-Samsø"/>
+<align out="a186" type="" in="b148" creator="-1" insign="Helsingør" outsign="Helsingør"/>
+<align out="a187" type="" in="b149" creator="-1" insign="Helsingborg" outsign="Helsingborg"/>
+<align out="a181" type="" in="b143" creator="-1" insign="," outsign=","/>
+<align out="a183" type="" in="b145" creator="-1" insign="," outsign=","/>
+<align out="a200" type="" in="b162" creator="0" insign="fosca" outsign="dystre"/>
+<align out="a201" type="" in="b161" creator="0" insign="prognosi" outsign="prognose"/>
+<align out="a202 a203" type="f" in="b163 b164" creator="0" insign="deriva dall'" outsign="bygger på"/>
+<align out="a206" type="" in="b166" creator="0" insign="delle" outsign="de"/>
+<align out="a209" type="" in="b171" creator="0" insign="sul" outsign="over"/>
+<align out="a207 a208" type="lv" in="b168 b169 b170" creator="0" insign="vie di comunicazione" outsign="faste forbindelser"/>
+<align out="b167" type="" in="b167" creator="0" insign="nuove" outsign="nuove"/>
+<align out="b165" type="" in="b165" creator="0" insign="attivazione" outsign="attivazione"/>
+<align out="a204" type="" in="a204" creator="0" insign="konsekvenserne" outsign="konsekvenserne"/>
+<align out="a205" type="" in="a205" creator="0" insign="af" outsign="af"/>
+<align out="a215" type="" in="a215" creator="0" insign="." outsign="."/>
+<align out="b178" type="" in="b178" creator="0" insign="," outsign=","/>
+<align out="a199" type="" in="b160" creator="-1" insign="Questa" outsign="Den"/>
+<align out="a210" type="" in="b172 b173" creator="-1" insign="Grande Belt" outsign="Storebælt"/>
+<align out="a212" type="" in="b175" creator="-1" insign="Øresund" outsign="Øresund"/>
+<align out="a211" type="" in="b174" creator="-1" insign="," outsign=","/>
+<align out="a213" type="" in="b176" creator="-1" insign="e" outsign="og"/>
+<align out="a214" type="" in="b177" creator="0" insign="Baltico" outsign="Østersøen"/>
+<align out="a221" type="" in="b182" creator="0" insign="sul" outsign="på"/>
+<align out="a232" type="" in="b194" creator="0" insign="nel" outsign="i"/>
+<align out="a236" type="" in="b197" creator="0" insign="sul" outsign="på"/>
+<align out="a233" type="" in="a233" creator="0" insign="år" outsign="år"/>
+<align out="a229" type="" in="b191" creator="0" insign="," outsign=","/>
+<align out="a235" type="" in="b196" creator="0" insign="e" outsign="og"/>
+<align out="b179" type="" in="b179" creator="0" insign="e" outsign="e"/>
+<align out="a223" type="" in="b185" creator="0" insign="nel" outsign="i"/>
+<align out="b180" type="" in="b180" creator="0" insign="in" outsign="in"/>
+<align out="b181" type="" in="b181" creator="0" insign="particolare" outsign="particolare"/>
+<align out="a218" type="" in="a218" creator="0" insign="Konsekvenserne" outsign="Konsekvenserne"/>
+<align out="a219" type="" in="a219" creator="0" insign="sætter" outsign="sætter"/>
+<align out="a220" type="" in="a220" creator="0" insign="ind" outsign="ind"/>
+<align out="a238" type="" in="b199" creator="0" insign="nel" outsign="i"/>
+<align out="a240" type="" in="b200" creator="0" insign="2005" outsign="2005"/>
+<align out="a239" type="" in="a239" creator="0" insign="år" outsign="år"/>
+<align out="a241" type="" in="b201" creator="0" insign="." outsign="."/>
+<align out="a222" type="" in="b183 b184" creator="-1" insign="Grande Belt" outsign="Storebælt"/>
+<align out="a226" type="" in="b188" creator="-1" insign="1997" outsign="1997"/>
+<align out="a228" type="" in="b190" creator="-1" insign="1998" outsign="1998"/>
+<align out="a230" type="" in="b192" creator="-1" insign="nell'" outsign="på"/>
+<align out="a234" type="" in="b195" creator="-1" insign="2000" outsign="2000"/>
+<align out="a237" type="" in="b198" creator="-1" insign="Baltico" outsign="Østersøen"/>
+<align out="a224" type="" in="b186" creator="-1" insign="1996" outsign="1996"/>
+<align out="a225" type="" in="b187" creator="-1" insign="," outsign=","/>
+<align out="a227" type="" in="b189" creator="-1" insign="o" outsign="eller"/>
+<align out="a231" type="" in="b193" creator="-1" insign="Øresund" outsign="Øresund"/>
+<align out="a244 a245" type="f" in="b203 b204" creator="0" insign="gran parte" outsign="De fleste"/>
+<align out="a246" type="" in="b205" creator="0" insign="dei" outsign="af"/>
+<align out="a247" type="s" in="b205 b208" creator="0" insign="dei della" outsign="DSBs"/>
+<align out="a247" type="" in="b209" creator="0" insign="DSB" outsign="DSBs"/>
+<align out="a249" type="" in="b207" creator="0" insign="traghetti" outsign="færger"/>
+<align out="a250" type="" in="b210" creator="0" insign="diventerà" outsign="bliver"/>
+<align out="a252" type="" in="b211" creator="0" insign="superflua" outsign="overflødige"/>
+<align out="a248" type="" in="b206" creator="-1" insign="34" outsign="34"/>
+<align out="a253" type="" in="b212" creator="-1" insign="." outsign="."/>
+<align out="a251" type="wo" in="b202" creator="0" insign="Quindi" outsign="derved"/>
+</DTAGalign>

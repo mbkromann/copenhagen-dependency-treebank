@@ -49,7 +49,7 @@
 <W lemma="ingrediente" msd="NC" tag="NOM" in="-1:nobj" out="">ingredienti</W>
 <W lemma=":" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-4:xpl" out="1:nobj|7:pnct|8:conj|16:conj|27:conj|32:conj|37:conj|45:conj|52:conj|57:conj|62:conj|68:conj">400</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|1:+">gr</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+|2:pobj">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
 <W lemma="filetto" msd="NC" tag="NOM" in="-1:nobj" out="1:const">filetto</W>
@@ -57,7 +57,7 @@
 <W lemma="luccio" msd="NC" tag="NOM" in="-1:nobj" out="">luccio</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-8:conj" out="1:nobj|7:pnct">400</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|1:+">gr</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+|2:pobj">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
 <W lemma="filetto" msd="NC" tag="NOM" in="-1:nobj" out="1:const">filetto</W>
@@ -65,7 +65,7 @@
 <W lemma="trota" msd="NC" tag="NOM" in="-1:nobj" out="">trota</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-16:conj" out="1:nobj|10:pnct">150</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|1:+">gr</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+|2:pobj">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
 <W lemma="prosciutto" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr:dobj#">prosciutto</W>
@@ -88,7 +88,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-37:conj" out="1:nobj|7:pnct">2</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">dl</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
-<W lemma="brodo" msd="NC" tag="NOM" in="-1:nobj" out="3:attrr|1:pobj:arg#">brodo</W>
+<W lemma="brodo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:arg#|3:attrr">brodo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj:arg#" out="1:nobj">di</W>
 <W lemma="verdura" msd="NC" tag="NOM" in="-1:nobj" out="">verdura</W>
 <W lemma="concentrare" msd="VAP" tag="VER:pper" in="-3:attrr" out="">concentrato</W>
@@ -111,7 +111,7 @@
 <W lemma="aceto" msd="NC" tag="NOM" in="-1:nobj" out="">aceto</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-62:conj" out="1:nobj">200</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|1:+">gr</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+|2:pobj">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
 <W lemma="burro" msd="NC" tag="NOM" in="-1:nobj" out="">burro</W>
@@ -119,7 +119,7 @@
 <W lemma="sala|sale" msd="NC" tag="NOM" in="-68:conj" out="-1:coord|2:conj">sale</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="pepe" msd="NC" tag="NOM" in="-2:conj" out="-1:coord|1:ext">pepe</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:ext" out="2:nobj|1:+">q</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:ext" out="1:+|2:nobj">q</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="b" msd="XA" tag="ABR" in="-2:nobj" out="1:+">b</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
