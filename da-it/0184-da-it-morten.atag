@@ -6,7 +6,6 @@
 <align out="a50" type="" in="b9 b10 b11 b12 b13" creator="0" insign="piatti già confezionati per l’uso" outsign="færdigretter"/>
 <align out="a51" type="" in="b14" creator="0" insign="e" outsign="og"/>
 <align out="b15" type="" in="b15" creator="0" insign="la" outsign="la"/>
-<align out="a54 a55" type="" in="b20" creator="0" insign="con" outsign="sammen men"/>
 <align out="a56" type="" in="b21" creator="0" insign="pesce" outsign="fisk"/>
 <align out="a57" type="" in="b22" creator="0" insign="," outsign=","/>
 <align out="a58" type="" in="b23" creator="0" insign="pollame" outsign="fjerkræ"/>
@@ -18,7 +17,6 @@
 <align out="a52" type="f" in="b16 b17 b18" creator="-1" insign="si può consumare" outsign="bruges"/>
 <align out="a53" type="" in="b19" creator="-1" insign="sia" outsign="både"/>
 <align out="a46" type="" in="b5" creator="-1" insign="," outsign=","/>
-<align out="a43" type="d" in="b0 b1" creator="-1" insign="La pasta" outsign="Pasta"/>
 <align out="a61" type="" in="b26" creator="0" insign="e" outsign="og"/>
 <align out="a68" type="" in="b29 b30 b31" creator="0" insign="Sin da quando" outsign="Siden"/>
 <align out="a62" type="" in="b27" creator="-1" insign="verdure" outsign="grøntsager"/>
@@ -38,8 +36,6 @@
 <align out="b39" type="" in="b39" creator="0" insign="ne" outsign="ne"/>
 <align out="b48" type="" in="b48" creator="0" insign="ne" outsign="ne"/>
 <align out="b52" type="" in="b52" creator="0" insign="di" outsign="di"/>
-<align out="a94" type="" in="b56" creator="0" insign="cioè" outsign="det"/>
-<align out="a95 a96" type="" in="b57" creator="0" insign="circa" outsign="svarer til"/>
 <align out="a98" type="" in="b59" creator="0" insign="milioni" outsign="millioner"/>
 <align out="b60" type="" in="b60" creator="0" insign="di" outsign="di"/>
 <align out="a99" type="" in="b61" creator="0" insign="confezioni" outsign="pakker"/>
@@ -51,7 +47,6 @@
 <align out="a97" type="" in="b58" creator="-1" insign="2,8" outsign="2,8"/>
 <align out="a93" type="" in="b55" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
 <align out="a82" type="" in="b46" creator="-1" insign="." outsign="."/>
-<align out="a106" type="d" in="b69" creator="0" insign="della" outsign="Tholstrup"/>
 <align out="a106" type="" in="b70" creator="0" insign="Tholstrup" outsign="Tholstrup"/>
 <align out="a107" type="" in="b71" creator="0" insign="Cheese" outsign="Cheese"/>
 <align out="a121" type="" in="b82" creator="0" insign="fresca" outsign="frisk"/>
@@ -157,9 +152,25 @@
 <align out="a239" type="" in="b185" creator="0" insign="che" outsign="at"/>
 <align out="a241" type="d" in="b187" creator="0" insign="l’Italia" outsign="Italien"/>
 <align out="a240" type="" in="b188" creator="0" insign="stessa" outsign="selveste"/>
-<align out="a233" type="" in="b182" creator="-100" insign="Lars" outsign="Lars"/>
-<align out="a234" type="" in="b183" creator="-100" insign="Bred" outsign="Bred"/>
-<align out="a227" type="" in="b177" creator="-100" insign="," outsign=","/>
-<align out="a232" type="" in="b181" creator="-100" insign="e" outsign="og"/>
-<align out="a226" type=" ! " in="b176" creator="-100" insign="Norvegia" outsign="Norge"/>
+<align out="a246" type="" in="b192" creator="0" insign="importatore" outsign="aftagerland"/>
+<align out="a247" type="" in="b193" creator="0" insign="dei" outsign="for"/>
+<align out="a248" type="" in="b194" creator="0" insign="suoi" outsign="hans"/>
+<align out="a249" type="" in="b195" creator="0" insign="prodotti" outsign="varer"/>
+<align out="a250" type="" in="b196" creator="0" insign="." outsign="."/>
+<align out="a249" type="s" in="b194" creator="0" insign="suoi" outsign="varer"/>
+<align out="a242 a243" type="" in="b189" creator="-1" insign="diventerà" outsign="vil være"/>
+<align out="a245" type="" in="b191" creator="-1" insign="buon" outsign="godt"/>
+<align out="a226" type="" in="b176" creator="-1" insign="Norvegia" outsign="Norge"/>
+<align out="a233" type="" in="b182" creator="-1" insign="Lars" outsign="Lars"/>
+<align out="a234" type="" in="b183" creator="-1" insign="Bred" outsign="Bred"/>
+<align out="a244" type="" in="b190" creator="-1" insign="un" outsign="et"/>
+<align out="a227" type="" in="b177" creator="-1" insign="," outsign=","/>
+<align out="a232" type="" in="b181" creator="-1" insign="e" outsign="og"/>
+<align out="a43" type="ds" in="b0" creator="0" insign="La" outsign="Pasta"/>
+<align out="a43" type="" in="b1" creator="0" insign="pasta" outsign="Pasta"/>
+<align out="a54" type="" in="b20" creator="0" insign="con" outsign="sammen"/>
+<align out="a55" type="" in="a55" creator="0" insign="men" outsign="men"/>
+<align out="b56" type="" in="b56" creator="0" insign="cioè" outsign="cioè"/>
+<align out="a94 a95 a96" type="" in="b57" creator="0" insign="circa" outsign="det svarer til"/>
+<align out="b69" type="" in="b69" creator="0" insign="della" outsign="della"/>
 </DTAGalign>
