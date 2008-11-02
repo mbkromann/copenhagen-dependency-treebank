@@ -5,8 +5,8 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="affitto" msd="NC" tag="NOM" in="-1:nobj" out="">affitto</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="-6:subj|1:vobj|7:pnct|23:pnct">possono</W>
-<W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:vobj|-7:[subj]">essere</W>
-<W lemma="richiedere" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:pobj|-8:[subj]|7:pobj">richiesti</W>
+<W lemma="essere" msd="VAF" tag="VER:infi" in="-1:vobj" out="-7:[subj]|1:vobj">essere</W>
+<W lemma="richiedere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-8:[subj]|1:pobj|7:pobj">richiesti</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">da</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:nobj" out="-1:degr|1:nobj">i</W>
@@ -41,7 +41,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-10:coref-var|-1:attrr" out="1:nobj|34:coref-id">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
 <W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-4:subj|1:vobj|28:pnct">viene</W>
-<W lemma="calcolare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:man|-5:[subj]">calcolato</W>
+<W lemma="calcolare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-5:[subj]|1:man">calcolato</W>
 <W lemma="considerare" msd="VAG" tag="VER:geru" in="-1:man" out="1:dobj">considerando</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj|4:pnct|5:conj|12:conj|17:conj">l'</W>
 <W lemma="importo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">importo</W>
@@ -75,7 +75,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj:dobj|-34:coref-id" out="1:nobj|35:coref-id">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">si</W>
-<W lemma="parte" msd="NC" tag="NOM" in="" out="-1:subj|-6:bg|5:pnct|1:lobj">parte</W>
+<W lemma="parte" msd="NC" tag="NOM" in="" out="-1:subj|-6:bg|1:lobj|5:pnct">parte</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:lobj" out="2:nobj|17:coref-id">dalla</W>
 <W lemma="cosiddetto" msd="AN" tag="ADJ" in="1:attrd" out="">cosiddetta</W>
 <W lemma="soglia" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr">soglia</W>
@@ -97,7 +97,7 @@
 <W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">soglia</W>
 <W lemma="limite" msd="NC" tag="NOM" in="-1:attrr" out="">limite</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-15:time|-12:bg|-3:subj|1:vobj|8:pnct">è</W>
-<W lemma="dare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:pobj|-4:[subj]">data</W>
+<W lemma="dare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-4:[subj]|1:pobj">data</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dall'</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:attrr">11,66%</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="2:const">dei</W>
@@ -132,7 +132,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="7:subj" out="1:nobj">la</W>
 <W lemma="superficie" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:pobj:arg">superficie</W>
 <W lemma="abitabile" msd="AN" tag="ADJ" in="-1:attrr" out="">abitabile</W>
-<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:pobj:arg" out="38:coref-var|1:nobj">dell'</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="-2:pobj:arg" out="1:nobj|38:coref-var">dell'</W>
 <W lemma="appartamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">appartamento</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">del</W>
 <W lemma="richiedente" msd="NC" tag="NOM" in="-1:nobj" out="">richiedente</W>
@@ -160,7 +160,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj|3:[subj]" out="1:nobj">i</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
 <W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-2:subj|-31:cond|-11:cond|-10:bg|1:vobj|9:pnct">vengono</W>
-<W lemma="ridurre" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:ext|-3:[subj]">ridotti</W>
+<W lemma="ridurre" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:[subj]|1:ext">ridotti</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:ext" out="1:nobj">del</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:attrr">57%</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">delle</W>
@@ -203,7 +203,7 @@
 <W lemma="superficie" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">superficie</W>
 <W lemma="abitabile" msd="AN" tag="ADJ" in="-1:attrr" out="">abitabile</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="-8:vobj" out="-7:subj|1:vobj|29:pnct">è</W>
-<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:vobj" out="5:pobj|-8:[subj]">dovuto</W>
+<W lemma="dovere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-8:[subj]|5:pobj">dovuto</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="per" msd="SP" tag="PRE" in="3:ex" out="-1:pnct|1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
@@ -233,10 +233,10 @@
 <W lemma="richiedente" msd="NC" tag="NOM" in="-1:nobj" out="">richiedente</W>
 <W lemma="," msd="XP" tag="PON" in="-29:pnct" out="">,</W>
 <W lemma="allora" msd="RG" tag="ADV" in="-38:coref|4:cond" out="">allora</W>
-<W lemma="tale" msd="PD" tag="PRO:demo" in="3:subj|-38:coref-var" out="1:nobj">tale</W>
+<W lemma="tale" msd="PD" tag="PRO:demo" in="-38:coref-var|3:subj" out="1:nobj">tale</W>
 <W lemma="superamento" msd="NC" tag="NOM" in="-1:nobj" out="">superamento</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="incidere" msd="VADR" tag="VER:pres" in="" out="-42:cond|-4:cond|-3:subj|-1:neg|5:pnct|1:pobj">incide</W>
+<W lemma="incidere" msd="VADR" tag="VER:pres" in="" out="-42:cond|-4:cond|-3:subj|-1:neg|1:pobj|5:pnct">incide</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">sull'</W>
 <W lemma="ammontare" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:subj">ammontare</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj:subj" out="1:nobj">dei</W>
