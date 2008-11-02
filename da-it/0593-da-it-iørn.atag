@@ -50,9 +50,7 @@
 <align out="a118" type="" in="b94" creator="-1" insign="," outsign=","/>
 <align out="a124" type="" in="b102" creator="0" insign="dei" outsign="af"/>
 <align out="b103" type="" in="b103" creator="0" insign="complessivi" outsign="complessivi"/>
-<align out="a131 a132" type="wo" in="b107 b108" creator="0" insign="Nel 1992" outsign="i 1992"/>
 <align out="a130" type="" in="b111" creator="0" insign="costituiscono" outsign="udgør"/>
-<align out="b112" type="" in="b112" creator="0" insign="il" outsign="il"/>
 <align out="a133 a134 a135" type="" in="b113" creator="0" insign="93,33%" outsign="93 1/3 %"/>
 <align out="a138" type="" in="b116" creator="0" insign="tra" outsign="mellem"/>
 <align out="a140" type="" in="b120" creator="0" insign="calcolata" outsign="beregnede"/>
@@ -161,7 +159,6 @@
 <align out="a241" type="" in="a241" creator="0" insign="din" outsign="din"/>
 <align out="a217" type="" in="b210" creator="0" insign="alla" outsign="eller"/>
 <align out="a225 a230 a231 a232" type="mcn" in="b221" creator="0" insign="trasferimento" outsign="at er blevet optaget"/>
-<align out="a40" type="dn" in="b1 b2 b3 b4 b5" creator="0" insign="contributi comunali per l' affitto" outsign="Boligydelse"/>
 <align out="a45" type="ds" in="b11" creator="0" insign="i" outsign="pensionister"/>
 <align out="a45" type="" in="b12" creator="0" insign="pensionati" outsign="pensionister"/>
 <align out="a57" type="ds" in="b25" creator="0" insign="i" outsign="ægtefæller"/>
@@ -204,4 +201,10 @@
 <align out="b240" type="" in="b240" creator="0" insign="ammontare" outsign="ammontare"/>
 <align out="a242" type="sn" in="b241" creator="0" insign="dei" outsign="boligydelse"/>
 <align out="a242" type="" in="b242" creator="0" insign="contributi" outsign="boligydelse"/>
+<align out="a40" type="dsn" in="b0" creator="0" insign="I" outsign="Boligydelse"/>
+<align out="a40" type="" in="b1 b2 b3 b4 b5" creator="0" insign="contributi comunali per l' affitto" outsign="Boligydelse"/>
+<align out="a131" type="wo" in="b107" creator="0" insign="Nel" outsign="i"/>
+<align out="a132" type="wo" in="b108" creator="0" insign="1992" outsign="1992"/>
+<align out="a132" type="ds" in="b107" creator="0" insign="Nel" outsign="1992"/>
+<align out="a133" type="ds" in="b112" creator="0" insign="il" outsign="93"/>
 </DTAGalign>
