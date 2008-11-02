@@ -187,7 +187,6 @@
 <align out="a130" type="" in="b110 b111 b112 b113 b114 b115 b116" creator="0" insign="normativa in materia di società per azioni" outsign="aktieselskabsloven"/>
 <align out="a138" type="" in="a138" creator="0" insign="Bankens" outsign="Bankens"/>
 <align out="b123" type="" in="b123" creator="0" insign="Il" outsign="Il"/>
-<align out="a163" type="" in="b149" creator="0" insign="causato" outsign="påført"/>
 <align out="a164" type="s" in="b150" creator="0" insign="alla" outsign="banken"/>
 <align out="a176" type="sd" in="b161" creator="0" insign="una" outsign="långivning"/>
 <align out="a176" type="" in="b162 b163 b164 b165 b166 b167 b168" creator="0" insign="pratica irresponsabile ed illegale di concessione prestiti" outsign="långivning"/>
@@ -199,8 +198,6 @@
 <align out="a91" type="" in="b60" creator="0" insign="assoluzione" outsign="frifindelse"/>
 <align out="a184" type="s" in="b173" creator="0" insign="il" outsign="skattevæsenet"/>
 <align out="a184" type="" in="b174" creator="0" insign="fisco" outsign="skattevæsenet"/>
-<align out="a183" type="" in="b172" creator="0" insign="defraudato" outsign="unddraget"/>
-<align out="b175" type="" in="b175" creator="0" insign="di" outsign="di"/>
 <align out="a202" type="sd" in="b195" creator="0" insign="il" outsign="Byretsdommer"/>
 <align out="a228" type="s" in="b231" creator="0" insign="L'" outsign="Frifindelsen"/>
 <align out="a228" type="" in="b232" creator="0" insign="assoluzione" outsign="Frifindelsen"/>
@@ -209,4 +206,6 @@
 <align out="a254" type="" in="b262" creator="0" insign="giudice" outsign="dommeren"/>
 <align out="a259" type="s" in="b271" creator="0" insign="alla" outsign="dommen"/>
 <align out="a259" type="" in="b272" creator="0" insign="sentenza" outsign="dommen"/>
+<align out="a163" type="" in="b149 b150" creator="0" insign="causato alla" outsign="påført"/>
+<align out="a183" type="" in="b172 b175" creator="0" insign="defraudato di" outsign="unddraget"/>
 </DTAGalign>
