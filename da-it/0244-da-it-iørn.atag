@@ -3,8 +3,6 @@
 <alignFile key="b" href="../it/0244-it-auto.tag" sign="_input"/>
 <align out="a44" type="" in="b1" creator="-1" insign="poi" outsign="så"/>
 <align out="a49" type="" in="b7 b8 b9" creator="-1" insign="liste d' attesa" outsign="ventelisterne"/>
-<align out="a52" type="" in="b11" creator="-1" insign="dovevano" outsign="skulle"/>
-<align out="a53" type="f" in="b12 b13" creator="-1" insign="essere eliminate" outsign="væk"/>
 <align out="a63" type="" in="b16" creator="-1" insign="caso" outsign="tilfælde"/>
 <align out="a62" type="" in="b17" creator="-1" insign="TEBA" outsign="TEBA's"/>
 <align out="a45" type="" in="b3" creator="-1" insign="era" outsign="var"/>
@@ -18,7 +16,6 @@
 <align out="a50" type="" in="a50" creator="0" insign="," outsign=","/>
 <align out="b18" type="" in="b18" creator="0" insign="," outsign=","/>
 <align out="a62" type="s" in="b15" creator="0" insign="Nel" outsign="TEBA's"/>
-<align out="a57 a58" type="f" in="b21 b22 b23 b24" creator="0" insign="ha risolto il problema" outsign="Det klarer"/>
 <align out="a64 a65 a66 a71" type="mvg" in="b25" creator="0" insign="inserendo" outsign="ved at tage ind"/>
 <align out="b30 b31" type="" in="b30 b31" creator="0" insign="che erano" outsign="che erano"/>
 <align out="a69" type="" in="b32" creator="0" insign="in" outsign="på"/>
@@ -158,4 +155,7 @@
 <align out="a167" type="" in="b108" creator="0" insign="ogni" outsign="pr."/>
 <align out="a180" type="ds" in="b125" creator="0" insign="l'" outsign="husleje"/>
 <align out="a180" type="" in="b126" creator="0" insign="affitto" outsign="husleje"/>
+<align out="a52 a53" type="f" in="b11 b12 b13" creator="0" insign="dovevano essere eliminate" outsign="skulle væk"/>
+<align out="a58" type="" in="b21 b22" creator="0" insign="ha risolto" outsign="klarer"/>
+<align out="a57" type="f" in="b23 b24" creator="0" insign="il problema" outsign="Det"/>
 </DTAGalign>
