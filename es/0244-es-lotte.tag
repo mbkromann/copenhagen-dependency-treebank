@@ -9,11 +9,11 @@
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
 <W lemma="espera" msd="NC" in="-1:nobj" out="">espera</W>
 <W lemma="que" msd="CQUE" in="-4:ref|1:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:relr" out="-1:subj|1:vobj|2:pnct">debÃ­an</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:relr" out="-1:subj|1:vobj|2:pnct|3:coref-res">debÃ­an</W>
 <W lemma="eliminarse" msd="VCLI" in="-1:vobj" out="">eliminarse</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
-<W lemma="este" msd="DM" in="2:xtop" out="1:ref">Esto</W>
-<W lemma="él" msd="PPO" in="1:dobj|-1:ref" out="">lo</W>
+<W lemma="este" msd="DM" in="2:xtop|-3:coref-res" out="1:ref">Esto</W>
+<W lemma="él" msd="PPO" in="-1:ref|1:dobj" out="">lo</W>
 <W lemma="solucionar" msd="VLfin" in="" out="-2:xtop|-1:dobj|2:subj|3:pnct|4:bg|9:pnct|10:vobj">soluciona</W>
 <W lemma="John" msd="NP" in="1:namef" out="">John</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef">Winther</W>
@@ -24,7 +24,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">TEBA</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
-<W lemma="incorporar" msd="VLadj" in="-10:vobj" out="1:pobj">incorporando</W>
+<W lemma="incorporar" msd="VLadj" in="-10:vobj" out="1:pobj|22:coref-res">incorporando</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">todos</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:ref|3:relr">los</W>
@@ -46,7 +46,7 @@
 <W lemma="caso" msd="NC" in="-1:nobj" out="1:pobj:arg">caso</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">TEBA</W>
-<W lemma="este" msd="DM" in="1:subj" out="">esto</W>
+<W lemma="este" msd="DM" in="1:subj|-22:coref-res" out="">esto</W>
 <W lemma="significar" msd="VLfin" in="" out="-1:subj|-6:bg|1:dobj">significa</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:other|8:vobj">que</W>
 <W lemma="," msd="CM" in="" out="">,</W>
@@ -62,7 +62,7 @@
 <W lemma="en" msd="PREP" in="-3:time" out="1:nobj">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1992</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="estar" msd="VLfin" in="" out="1:vobj">Estamos</W>
+<W lemma="estar" msd="VLfin" in="" out="1:vobj|23:assoc-cause">Estamos</W>
 <W lemma="hablar" msd="VLger" in="-1:vobj" out="2:pobj">hablando</W>
 <W lemma="entonces" msd="ADV" in="-12:struct" out="">entonces</W>
 <W lemma="de" msd="PREP" in="-2:pobj" out="1:nobj">de</W>
@@ -85,7 +85,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:vobj" out="-5:subj|-1:neg|1:preds|2:cause|5:pnct">serÃ¡</W>
 <W lemma="ampliar" msd="VLadj" in="-1:preds" out="">ampliada</W>
 <W lemma="por" msd="PREP" in="-2:cause" out="1:nobj">por</W>
-<W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">esta</W>
+<W lemma="este" msd="DM" in="-1:nobj|-23:assoc-cause" out="1:nobj">esta</W>
 <W lemma="causa" msd="NC" in="-1:nobj" out="">causa</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">No</W>

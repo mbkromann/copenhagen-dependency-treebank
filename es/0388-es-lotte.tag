@@ -50,7 +50,7 @@
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombre</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="1:subj|2:pnct|4:pnct|5:pnct">constatÃ³</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:subj" out="2:attrr">Loulou</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:subj" out="2:attrr|27:coref-var">Loulou</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="objetivo" msd="ADJ" in="-2:attrr" out="">objetiva</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
@@ -77,15 +77,15 @@
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:time|-1:robj|1:path|6:conj">inclinÃ³</W>
 <W lemma="hacia" msd="PREP" in="-1:path" out="1:nobj">hacia</W>
-<W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">su</W>
+<W lemma="suyo" msd="PPO" in="-1:nobj|-27:coref-var" out="1:nobj|3:coref">su</W>
 <W lemma="interlocutor" msd="NC" in="-1:nobj" out="">interlocutora</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
-<W lemma="el" msd="ART" in="1:dobj" out="">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-6:conj" out="-2:coord|-1:dobj|1:man|2:pnct">mirÃ³</W>
+<W lemma="el" msd="ART" in="-3:coref" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-6:conj" out="-2:coord|1:man|2:pnct">mirÃ³</W>
 <W lemma="fijo" msd="ADV" in="-1:man" out="">fijamente</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="6:pnct" out="">-</W>
-<W lemma="tú" msd="PPO" in="5:subj" out="1:nobj|3:conj">Tu</W>
+<W lemma="tú" msd="PPO" in="5:subj" out="1:nobj|3:conj|21:coref">Tu</W>
 <W lemma="madre" msd="NC" in="-1:nobj" out="">madre</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="yo" msd="PPX" in="-3:conj" out="-1:coord">yo</W>
@@ -106,7 +106,7 @@
 <W lemma="amor" msd="NC" in="-1:subj" out="1:time">amor</W>
 <W lemma="a~primera~vista" msd="ADV" in="-1:time" out="">a primera vista</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="él" msd="PPX" in="2:subj" out="5:ref|6:relr">Ella</W>
+<W lemma="él" msd="PPX" in="2:subj|-21:coref" out="5:ref|6:relr|11:coref">Ella</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="era" msd="VEfin" in="" out="-2:subj|-1:neg|1:preds">era</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
@@ -117,7 +117,7 @@
 <W lemma="amor" msd="NC" in="-1:dobj" out="1:attrr">amores</W>
 <W lemma="secreto" msd="NC" in="-1:attrr" out="">secretos</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="él" msd="PPX" in="2:subj" out="">ella</W>
+<W lemma="él" msd="PPX" in="2:subj|-11:coref" out="11:coref">ella</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|-1:neg|1:neg|2:neg">mentÃ­a</W>
 <W lemma="nunca" msd="ADV" in="-1:neg" out="">nunca</W>
@@ -128,7 +128,7 @@
 <W lemma="yo" msd="PPX" in="-2:ref|1:iobj" out="">me</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:pnct|-3:xtop|-1:iobj|1:pnct">mintiÃ³</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
-<W lemma="él" msd="PPX" in="2:subj" out="">Ella</W>
+<W lemma="él" msd="PPX" in="2:subj|-11:coref" out="">Ella</W>
 <W lemma="yo" msd="PPX" in="1:iobj|2:[subj]" out="">me</W>
 <W lemma="hacer" msd="VLfin" in="" out="-2:subj|-1:iobj|1:vobj|7:pnct">hizo</W>
 <W lemma="creer" msd="VLinf" in="-1:vobj" out="-2:[subj]|1:dobj">creer</W>

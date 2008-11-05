@@ -10,14 +10,14 @@
 <W lemma="alimentario" msd="ADJ" in="-1:attrr" out="">alimentario</W>
 <W lemma="consistente" msd="ADJ" in="-2:attrr" out="">consistente</W>
 <W lemma="en" msd="PREP" in="" out="1:nobj">en</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">pemmican</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr|7:coref-id">pemmican</W>
 <W lemma="preparar" msd="VLadj" in="-1:attrr" out="">preparado</W>
 <W lemma="de" msd="PREP" in="" out="1:nobj">de</W>
 <W lemma="ciento" msd="CARD" in="-1:nobj" out="2:nobj">cien</W>
 <W lemma="diferente" msd="ADJ" in="1:attrd" out="">diferentes</W>
 <W lemma="manera" msd="NC" in="-2:nobj" out="-1:attrd">maneras</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="2:subj|-7:coref-id" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pemmican</W>
 <W lemma="consistir" msd="VLfin" in="" out="-2:subj|1:pobj|5:pnct|9:pnct">consiste</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
@@ -64,7 +64,7 @@
 <W lemma="bien" msd="ADV" in="1:man" out="">bien</W>
 <W lemma="entrenar" msd="VLadj" in="-2:attrr" out="-1:man">entrenados</W>
 <W lemma="aprovechar" msd="VLfin" in="-6:vobj" out="-4:subj|1:dobj|8:pnct|22:goal">aprovecharon</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:vobj|2:time|5:loc">el</W>
+<W lemma="el" msd="ART" in="-1:dobj" out="1:vobj|2:time|5:loc|8:coref-part">el</W>
 <W lemma="jueves" msd="NC" in="-1:vobj" out="">jueves</W>
 <W lemma="por" msd="PREP" in="-2:time" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -72,7 +72,7 @@
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Akureyri</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:pnct" out="">–</W>
-<W lemma="el" msd="ART" in="6:subj" out="1:nobj|6:relr">la</W>
+<W lemma="el" msd="ART" in="6:subj|-8:coref-part" out="1:nobj|6:relr">la</W>
 <W lemma="noche" msd="NC" in="-1:nobj" out="1:ref">noche</W>
 <W lemma="que" msd="CQUE" in="-1:ref|4:subj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:man" out="">según</W>

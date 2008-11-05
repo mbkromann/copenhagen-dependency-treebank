@@ -6,7 +6,7 @@
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="colectivo" msd="ADJ" in="-3:attrr" out="">colectivas</W>
 <W lemma="entre" msd="PREP" in="-4:pobj" out="1:nobj">entre</W>
-<W lemma="V" msd="ALFS" in="-1:nobj" out="2:conj">V</W>
+<W lemma="V" msd="ALFS" in="-1:nobj" out="2:conj|61:coref-var">V</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="K" msd="ALFS" in="-2:conj" out="-1:coord">K</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
@@ -35,7 +35,7 @@
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1964</W>
 <W lemma="," msd="CM" in="-17:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
-<W lemma="en" msd="PREP" in="3:time" out="1:nobj">en</W>
+<W lemma="en" msd="PREP" in="3:time" out="1:nobj|36:coref">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1965</W>
 <W lemma="l" msd="PPC" in="1:iobj|2:ref" out="">le</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-22:conj" out="-4:coord|-3:time|-1:iobj|-20:[subj]|1:xtop|12:dobj|19:pnct|20:time">costó</W>
@@ -67,11 +67,11 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:dobj">fusión</W>
 <W lemma="de" msd="PREP" in="-1:pobj:dobj" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="el" msd="ART" in="-1:nobj|-61:coref-var" out="1:nobj|44:coref">los</W>
 <W lemma="dos" msd="CARD" in="-1:nobj" out="1:nobj">dos</W>
 <W lemma="partido" msd="NC" in="-1:nobj" out="">partidos</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="en" msd="PREP" in="6:time" out="1:nobj">En</W>
+<W lemma="en" msd="PREP" in="6:time|-36:coref" out="1:nobj">En</W>
 <W lemma="ese" msd="DM" in="-1:nobj" out="1:nobj">ese</W>
 <W lemma="entonces" msd="ADV" in="-1:nobj" out="">entonces</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">los</W>
@@ -111,7 +111,7 @@
 <W lemma="el" msd="ART" in="5:subj|6:[subj]" out="1:nobj">las</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="1:const">personas</W>
 <W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
-<W lemma="ambo" msd="QU" in="-1:nobj" out="1:nobj">ambos</W>
+<W lemma="ambo" msd="QU" in="-1:nobj|-44:coref" out="1:nobj">ambos</W>
 <W lemma="partido" msd="NC" in="-1:nobj" out="">partidos</W>
 <W lemma="poder" msd="VMfin" in="-10:relr" out="-5:subj|1:vobj">puedan</W>
 <W lemma="conocer" msd="VLinf" in="-1:vobj" out="-8:time|-6:[subj]|1:dobj">conocer</W>
@@ -134,13 +134,13 @@
 <W lemma="reunin" msd="NC" in="-4:conj" out="-1:coord|1:pobj:subj#">reuniones</W>
 <W lemma="de" msd="PREP" in="-1:pobj:subj#" out="1:nobj">de</W>
 <W lemma="directivo" msd="NC" in="-1:nobj" out="">directivos</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|-12:man|1:vobj|5:pnct">podrían</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|-12:man|1:vobj|5:pnct|6:coref-res">podrían</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="paso" msd="NC" in="-1:nobj" out="1:attrr">paso</W>
 <W lemma="adelante" msd="ADV" in="-1:attrr" out="">adelante</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="este" msd="DM" in="1:subj" out="">Esto</W>
+<W lemma="este" msd="DM" in="1:subj|-6:coref-res" out="">Esto</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:dobj|8:pnct">impediría</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hayan</W>
@@ -153,7 +153,7 @@
 <W lemma="deber" msd="VLfin" in="" out="1:vobj|12:pnct">Debemos</W>
 <W lemma="pensar" msd="VLinf" in="-1:vobj" out="1:pobj">pensar</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|20:coref-id">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:subj">colaboración</W>
 <W lemma="entre" msd="PREP" in="-1:pobj:subj" out="1:nobj">entre</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">las</W>
@@ -173,7 +173,7 @@
 <W lemma="alguno" msd="QU" in="2:subj" out="-1:other|1:nobj">algunas</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="">personas</W>
 <W lemma="mantener" msd="VLfin" in="-5:vobj" out="-2:subj|1:dobj|3:part">mantuvieran</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="-1:dobj|-20:coref-id" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">colaboración</W>
 <W lemma="en" msd="PREP" in="-3:part" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">marcha,”</W>
