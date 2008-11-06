@@ -71,7 +71,7 @@
 <W lemma="dos" msd="CARD" in="-1:nobj" out="1:nobj">dos</W>
 <W lemma="partido" msd="NC" in="-1:nobj" out="">partidos</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="en" msd="PREP" in="6:time|-36:coref" out="1:nobj">En</W>
+<W lemma="en" msd="PREP" in="-36:coref|6:time" out="1:nobj">En</W>
 <W lemma="ese" msd="DM" in="-1:nobj" out="1:nobj">ese</W>
 <W lemma="entonces" msd="ADV" in="-1:nobj" out="">entonces</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">los</W>
@@ -140,7 +140,7 @@
 <W lemma="paso" msd="NC" in="-1:nobj" out="1:attrr">paso</W>
 <W lemma="adelante" msd="ADV" in="-1:attrr" out="">adelante</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="este" msd="DM" in="1:subj|-6:coref-res" out="">Esto</W>
+<W lemma="este" msd="DM" in="-6:coref-res|1:subj" out="">Esto</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:dobj|8:pnct">impediría</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hayan</W>
@@ -163,9 +163,9 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:attrr">políticos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr" out="">no-socialistas</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
-<W lemma="todo" msd="QU" in="1:subj" out="">Todo</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:vobj|2:pnct">podría</W>
-<W lemma="fracasar" msd="VLinf" in="-1:vobj" out="2:cond">fracasar</W>
+<W lemma="todo" msd="QU" in="1:subj|2:[subj]" out="">Todo</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="13:qobj" out="-1:subj|1:vobj|2:pnct">podría</W>
+<W lemma="fracasar" msd="VLinf" in="-1:vobj" out="2:cond|-2:[subj]">fracasar</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="si" msd="CSUBX" in="-2:cond" out="5:vobj">si</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
@@ -177,7 +177,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">colaboración</W>
 <W lemma="en" msd="PREP" in="-3:part" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">marcha,”</W>
-<W lemma="decir" msd="VLfin" in="" out="1:subj|5:pnct">dice</W>
+<W lemma="decir" msd="VLfin" in="" out="1:subj|5:pnct|-13:qobj">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="ministro" msd="NC" in="-1:nobj" out="1:pobj:arg#">ministro</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>

@@ -4,7 +4,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:pnct">Ebeltoft</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:subj|1:dobj|14:pnct">tenía</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
+<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|14:assoc-scope|20:assoc-scope">un</W>
 <W lemma="concurso" msd="NC" in="-1:nobj" out="1:loc|7:pobj:dobj">concurso</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">la</W>
@@ -18,13 +18,13 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">alhaja</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj" out="1:nobj">La</W>
+<W lemma="el" msd="ART" in="2:subj|-14:assoc-scope" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">solución</W>
 <W lemma="era" msd="VEfin" in="" out="-2:subj|1:preds|2:pnct|7:conj">era</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">“Personality”</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
-<W lemma="el" msd="ART" in="3:xtop" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="3:xtop|-20:assoc-scope" out="1:nobj">el</W>
 <W lemma="premio" msd="NC" in="-1:nobj" out="">premio</W>
 <W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:conj" out="-4:coord|-3:xtop|-1:dobj|2:subj|5:pnct">ganó</W>
@@ -34,7 +34,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Vejle</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="de" msd="PREP" in="1:namel" out="">DE</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="-1:namel|1:possd">BEERS</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="-1:namel|1:possd|17:assoc-scope">BEERS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:possd" out="">CENTENARY</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:dobj|3:time|9:pnct">abrió</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj" out="1:possd">sus</W>
@@ -51,7 +51,7 @@
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">además</W>
 <W lemma="de" msd="PREP" in="-4:other" out="-2:pnct|1:nobj|6:pnct">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="el" msd="ART" in="-1:nobj|-17:assoc-scope" out="1:nobj">los</W>
 <W lemma="directivo" msd="NC" in="-1:nobj" out="1:pobj:arg">directivos</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="2:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:namel" out="">De</W>
@@ -115,7 +115,7 @@
 <W lemma=")" msd="RP" in="" out="">)</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="Henry" msd="NP" in="1:namef" out="">HENRY</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="5:subj|6:[subj]" out="-1:namef|1:pnct|3:appa">HEERUP</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="5:subj|6:[subj]" out="-1:namef|1:pnct|3:appa|21:coref">HEERUP</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="famoso" msd="ADJ" in="1:attrd" out="">famoso</W>
 <W lemma="escultor" msd="NC" in="-3:appa" out="-1:attrd|1:pnct">escultor</W>
@@ -136,7 +136,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-4:appr" out="">Smykkekæden</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
 <W lemma="ser" msd="VSfin" in="" out="1:subj|6:pnct">Es</W>
-<W lemma="suyo" msd="PPO" in="-1:subj" out="1:attrd|2:nobj">su</W>
+<W lemma="suyo" msd="PPO" in="-1:subj|-21:coref" out="1:attrd|2:nobj">su</W>
 <W lemma="primero" msd="ORD" in="-1:attrd" out="">primer</W>
 <W lemma="trabajo" msd="NC" in="-2:nobj" out="1:pobj:pobj">trabajo</W>
 <W lemma="en" msd="PREP" in="-1:pobj:pobj" out="1:nobj">en</W>
@@ -146,7 +146,7 @@
 <W lemma="conmemorativo" msd="ADJ" in="-1:attrr" out="">conmemorativo</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="">Pforzheim</W>
-<W lemma="haber" msd="VHfin" in="" out="-1:subj|1:vobj|7:time|10:pnct">ha</W>
+<W lemma="haber" msd="VHfin" in="" out="-1:subj|1:vobj|7:time|10:pnct|11:assoc-scope">ha</W>
 <W lemma="tener" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="industriar" msd="VLfin" in="-1:nobj" out="1:attrr">industria</W>
@@ -157,7 +157,7 @@
 <W lemma="@card@" msd="CARD" in="1:numm" out="">225</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:numm">años</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="2:subj|3:[subj]|-11:assoc-scope" out="1:nobj">El</W>
 <W lemma="aniversario" msd="NC" in="-1:nobj" out="">aniversario</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:vobj|21:pnct">fue</W>
 <W lemma="celebrar" msd="VLadj" in="-1:vobj" out="-3:[subj]|1:pobj|10:man">celebrado</W>
@@ -209,7 +209,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Pforzheim</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="nuevo" msd="ADJ" in="1:attrd" out="2:attrr">Nuevos</W>
-<W lemma="oficial" msd="ADJ" in="" out="-1:attrd">oficiales</W>
+<W lemma="oficial" msd="ADJ" in="" out="-1:attrd|12:coref-var">oficiales</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:attrr" out="">herreros</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:preds|3:subj|7:time|9:pnct">Fueron</W>
 <W lemma="aprobar" msd="VLadj" in="-1:preds" out="">aprobadas</W>
@@ -221,7 +221,7 @@
 <W lemma="en" msd="PREP" in="-7:time" out="1:nobj">en</W>
 <W lemma="agosto" msd="NC" in="-1:nobj" out="">agosto</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="ambo" msd="QU" in="2:subj" out="1:nobj">Ambos</W>
+<W lemma="ambo" msd="QU" in="2:subj|-12:coref-var" out="1:nobj">Ambos</W>
 <W lemma="aprendiz" msd="NC" in="-1:nobj" out="">aprendices</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|12:pnct">fueron</W>
 <W lemma="instruir" msd="VLadj" in="-1:preds" out="1:loc">instruidos</W>

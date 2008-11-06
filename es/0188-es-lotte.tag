@@ -155,7 +155,7 @@
 <W lemma="dos" msd="CARD" in="-1:nobj" out="1:nobj">dos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:vobj|8:pnct|12:conj|10:coref-res">“Hemos</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="18:qobj" out="1:vobj|8:pnct|10:coref-res|12:conj">“Hemos</W>
 <W lemma="programar" msd="VLadj" in="-1:vobj" out="1:dobj|2:man|4:inst">programado</W>
 <W lemma="todo" msd="QU" in="-1:dobj" out="">todo</W>
 <W lemma="desde" msd="PREP" in="-2:man" out="1:nobj">desde</W>
@@ -165,7 +165,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Pascal</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
-<W lemma="ese" msd="DM" in="2:subj|3:[subj]|-10:coref-res" out="">eso</W>
+<W lemma="ese" msd="DM" in="-10:coref-res|2:subj|3:[subj]" out="">eso</W>
 <W lemma="nosotros" msd="PPX" in="1:dobj" out="">nos</W>
 <W lemma="haber" msd="VHfin" in="-12:conj" out="-3:coord|-2:subj|-1:dobj|1:vobj">ha</W>
 <W lemma="defraudar" msd="VLadj" in="-1:vobj" out="-3:[subj]|1:degr|3:bg">defraudado</W>
@@ -173,7 +173,7 @@
 <W lemma="poco" msd="ADV" in="-1:nobj" out="">poco</W>
 <W lemma="con~respecto~al" msd="PAL" in="-3:bg" out="1:nobj">con respecto al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">tiempo,”</W>
-<W lemma="comentar" msd="VLfin" in="" out="2:subj|3:pnct|8:pnct|13:pnct">comenta</W>
+<W lemma="comentar" msd="VLfin" in="" out="2:subj|3:pnct|8:pnct|13:pnct|-18:qobj">comenta</W>
 <W lemma="John" msd="NP" in="1:namef" out="">John</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef|2:other|7:attrr|16:coref">Marrot</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -188,7 +188,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">programación</W>
 <W lemma="." msd="FS" in="-13:pnct" out="">.</W>
 <W lemma="originalmente" msd="ADV" in="11:time" out="">Originalmente</W>
-<W lemma="un" msd="ART" in="20:subj" out="1:nobj|4:pnct|6:appa">un</W>
+<W lemma="un" msd="ART" in="20:subj|21:[subj]" out="1:nobj|4:pnct|6:appa">un</W>
 <W lemma="conocer" msd="VLadj" in="-1:nobj" out="1:pobj:dobj">conocido</W>
 <W lemma="de" msd="PREP" in="-1:pobj:dobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-16:coref" out="">él</W>
@@ -209,7 +209,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Copenhague</W>
 <W lemma="," msd="CM" in="-10:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-20:subj|1:vobj|12:pnct">había</W>
-<W lemma="encargar" msd="VLadj" in="-1:vobj" out="1:dobj|3:other">encargado</W>
+<W lemma="encargar" msd="VLadj" in="-1:vobj" out="1:dobj|3:other|-21:[subj]">encargado</W>
 <W lemma="el" msd="ART" in="-1:dobj|-108:coref-var" out="1:nobj">el</W>
 <W lemma="programa" msd="NC" in="-1:nobj" out="">programa</W>
 <W lemma="a" msd="PREP" in="-3:other" out="1:nobj">a</W>
@@ -221,7 +221,7 @@
 <W lemma="de" msd="PREP" in="-1:subj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">programador</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="4:subj|-5:coref-id" out="1:nobj">Las</W>
+<W lemma="el" msd="ART" in="-5:coref-id|4:subj" out="1:nobj">Las</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">100</W>
 <W lemma="hora" msd="NC" in="-1:nobj" out="">horas</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>

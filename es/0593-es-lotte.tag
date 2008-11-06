@@ -1,9 +1,9 @@
-<W lemma="el" msd="ART" in="4:subj" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="4:subj|5:[subj]" out="1:nobj">El</W>
 <W lemma="subsidio" msd="NC" in="-1:nobj" out="1:about#">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
 <W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
-<W lemma="poder" msd="VMfin" in="" out="-4:subj|7:pnct">puede</W>
-<W lemma="ser" msd="VSinf" in="" out="1:vobj">ser</W>
+<W lemma="poder" msd="VMfin" in="" out="-4:subj|7:pnct|1:vobj">puede</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:vobj|-5:[subj]">ser</W>
 <W lemma="solicitar" msd="VLadj" in="-1:vobj" out="1:pobj">solicitada</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="2:nobj">por</W>
 <W lemma="todo" msd="QU" in="1:attrd" out="77:subj">todos</W>
@@ -77,8 +77,8 @@
 <W lemma="basar" msd="VLfin" in="" out="">base</W>
 <W lemma="el" msd="ART" in="-3:dobj" out="1:attrd|2:nobj">el</W>
 <W lemma="llamar" msd="VLadj" in="-1:attrd" out="">llamado</W>
-<W lemma="importe" msd="NC" in="-2:nobj" out="">importe</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="">límite</W>
+<W lemma="importe" msd="NC" in="-2:nobj" out="1:attrr">importe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr" out="">límite</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="para" msd="PREP" in="14:bg" out="1:nobj">Para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:ref|4:relr">los</W>
@@ -92,8 +92,8 @@
 <W lemma="corona" msd="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
-<W lemma="importe" msd="NC" in="-1:nobj" out="">importe</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="">límite</W>
+<W lemma="importe" msd="NC" in="-1:nobj" out="1:attrr">importe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr" out="">límite</W>
 <W lemma="ascender" msd="VLfin" in="" out="-14:bg|-3:subj|1:pobj|12:time|14:pnct">asciende</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="">un</W>
@@ -219,12 +219,12 @@
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj|11:nobj">a</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="6:vobj">que</W>
 <W lemma="por~ejemplo" msd="ADV" in="1:ex" out="">por ejemplo</W>
-<W lemma="suyo" msd="PPO" in="4:subj" out="-1:ex|1:nobj">su</W>
+<W lemma="suyo" msd="PPO" in="4:subj|5:[subj]" out="-1:ex|1:nobj">su</W>
 <W lemma="pareja" msd="NC" in="-1:nobj" out="2:conj">pareja</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="-1:coord">cónyuge</W>
 <W lemma="haber" msd="VHfin" in="-6:vobj" out="-4:subj|1:vobj|2:pnct|9:conj">ha</W>
-<W lemma="fallecer" msd="VLadj" in="-1:vobj" out="">fallecido</W>
+<W lemma="fallecer" msd="VLadj" in="-1:vobj" out="-5:[subj]">fallecido</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="o" msd="CC" in="6:coord" out="">o</W>
 <W lemma="que" msd="CQUE" in="-11:nobj" out="">que</W>

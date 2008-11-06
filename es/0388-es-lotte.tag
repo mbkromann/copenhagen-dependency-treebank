@@ -106,7 +106,7 @@
 <W lemma="amor" msd="NC" in="-1:subj" out="1:time">amor</W>
 <W lemma="a~primera~vista" msd="ADV" in="-1:time" out="">a primera vista</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="él" msd="PPX" in="2:subj|-21:coref" out="5:ref|6:relr|11:coref">Ella</W>
+<W lemma="él" msd="PPX" in="-21:coref|2:subj" out="5:ref|6:relr|11:coref">Ella</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="era" msd="VEfin" in="" out="-2:subj|-1:neg|1:preds">era</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
@@ -117,7 +117,7 @@
 <W lemma="amor" msd="NC" in="-1:dobj" out="1:attrr">amores</W>
 <W lemma="secreto" msd="NC" in="-1:attrr" out="">secretos</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="él" msd="PPX" in="2:subj|-11:coref" out="11:coref">ella</W>
+<W lemma="él" msd="PPX" in="-11:coref|2:subj" out="11:coref">ella</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|-1:neg|1:neg|2:neg">mentÃ­a</W>
 <W lemma="nunca" msd="ADV" in="-1:neg" out="">nunca</W>
@@ -128,7 +128,7 @@
 <W lemma="yo" msd="PPX" in="-2:ref|1:iobj" out="">me</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:pnct|-3:xtop|-1:iobj|1:pnct">mintiÃ³</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
-<W lemma="él" msd="PPX" in="2:subj|-11:coref" out="">Ella</W>
+<W lemma="él" msd="PPX" in="-11:coref|2:subj" out="">Ella</W>
 <W lemma="yo" msd="PPX" in="1:iobj|2:[subj]" out="">me</W>
 <W lemma="hacer" msd="VLfin" in="" out="-2:subj|-1:iobj|1:vobj|7:pnct">hizo</W>
 <W lemma="creer" msd="VLinf" in="-1:vobj" out="-2:[subj]|1:dobj">creer</W>

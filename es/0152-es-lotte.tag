@@ -17,7 +17,7 @@
 <W lemma="diferente" msd="ADJ" in="1:attrd" out="">diferentes</W>
 <W lemma="manera" msd="NC" in="-2:nobj" out="-1:attrd">maneras</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|-7:coref-id" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="-7:coref-id|2:subj" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pemmican</W>
 <W lemma="consistir" msd="VLfin" in="" out="-2:subj|1:pobj|5:pnct|9:pnct">consiste</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
@@ -72,7 +72,7 @@
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Akureyri</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:pnct" out="">–</W>
-<W lemma="el" msd="ART" in="6:subj|-8:coref-part" out="1:nobj|6:relr">la</W>
+<W lemma="el" msd="ART" in="-8:coref-part|6:subj" out="1:nobj|6:relr">la</W>
 <W lemma="noche" msd="NC" in="-1:nobj" out="1:ref">noche</W>
 <W lemma="que" msd="CQUE" in="-1:ref|4:subj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:man" out="">según</W>
@@ -88,8 +88,8 @@
 <W lemma="para" msd="CSUBI" in="-22:goal" out="1:vobj">para</W>
 <W lemma="pedir" msd="VLinf" in="-1:vobj" out="1:dobj">pedir</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="2:nobj">el</W>
-<W lemma="bueno" msd="ADJ" in="0:attrd" out="0:attrd">mejor</W>
-<W lemma="plato" msd="NC" in="-2:nobj" out="1:pobj:arg|4:attrr">plato</W>
+<W lemma="bueno" msd="ADJ" in="1:attrd" out="">mejor</W>
+<W lemma="plato" msd="NC" in="-2:nobj" out="1:pobj:arg|4:attrr|-1:attrd">plato</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
@@ -134,9 +134,9 @@
 <W lemma="espera" msd="NC" in="-1:nobj" out="">espera</W>
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Karo</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="-1:namef">Thomsen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef">Thomsen</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-6:time|-3:pnct|-1:subj|1:vobj|7:pnct">había</W>
-<W lemma="tener" msd="VLadj" in="-1:vobj" out="1:dobj">tenido</W>
+<W lemma="tener" msd="VLadj" in="-1:vobj" out="1:dobj|-2:[subj]">tenido</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:agent">ocasión</W>
 <W lemma="de" msd="CSUBI" in="-1:agent" out="1:vobj">de</W>
 <W lemma="conocer" msd="VLinf" in="-1:vobj" out="1:dobj">conocer</W>
@@ -163,7 +163,7 @@
 <W lemma="tienda" msd="NC" in="-1:nobj" out="">tienda</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="12:pnct" out="">–</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Mie</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="10:subj" out="-1:namef|3:conj|6:conj|9:conj">Graversen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="10:subj|11:[subj]" out="-1:namef|3:conj|6:conj|9:conj">Graversen</W>
 <W lemma="," msd="CM" in="9:pnct" out="">,</W>
 <W lemma="Olga" msd="NP" in="1:namef" out="">Olga</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:conj" out="-1:namef">Osetrova</W>
@@ -174,7 +174,7 @@
 <W lemma="Susan" msd="NP" in="1:namef" out="">Susan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-9:conj" out="-2:coord|-1:namef">Frankenstein</W>
 <W lemma="haber" msd="VHfin" in="" out="-30:time|-26:loc|-17:pnct|-12:pnct|-10:subj|-9:pnct|-6:pnct|1:vobj|8:pnct">han</W>
-<W lemma="comenzar" msd="VLadj" in="-1:vobj" out="1:dobj">comenzado</W>
+<W lemma="comenzar" msd="VLadj" in="-1:vobj" out="1:dobj|-11:[subj]">comenzado</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj" out="1:nobj">su</W>
 <W lemma="marcha" msd="NC" in="-1:nobj" out="1:path">marcha</W>
 <W lemma="a" msd="PREP" in="-1:path" out="1:nobj">a</W>
