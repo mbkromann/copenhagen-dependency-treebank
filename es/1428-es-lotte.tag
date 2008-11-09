@@ -20,7 +20,7 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">árbol</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:pnct" out="">–</W>
-<W lemma="vestir" msd="VLadj" in="" out="1:pobj|5:pnct|-1:pnct|7:prg|8:pnct">vestido</W>
+<W lemma="vestir" msd="VLadj" in="" out="-1:pnct|1:pobj|5:pnct|7:prg|8:pnct">vestido</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">toda</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:possd">su</W>
@@ -101,7 +101,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">D’Generation</W>
 <W lemma="." msd="FS" in="-24:pnct" out="">.</W>
 <W lemma="l" msd="PPC" in="2:iobj" out="">Le</W>
-<W lemma="haber" msd="VHfin" in="" out="4:other|1:vobj|20:pnct">han</W>
+<W lemma="haber" msd="VHfin" in="" out="1:vobj|4:other|20:pnct">han</W>
 <W lemma="llamar" msd="VLadj" in="-1:vobj" out="-2:iobj|7:dobj">llamado</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="2:pnct" out="">–</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
@@ -129,8 +129,8 @@
 <W lemma="rabia" msd="NC" in="-2:dobj" out="-1:attrd">rabia</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">“¡Yo</W>
-<W lemma="ser" msd="VLfin" in="3:qobj" out="-1:subj|1:subj|2:pnct">soy</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:subj" out="">yo!”</W>
+<W lemma="ser" msd="VLfin" in="3:qobj" out="-1:subj|2:pnct|1:preds">soy</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds" out="">yo!”</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="insistir" msd="VLfin" in="" out="-3:qobj|1:loc|9:pnct|10:time|15:comp|61:pnct">insiste</W>
 <W lemma="bajo" msd="PREP" in="-1:loc" out="1:nobj">bajo</W>
@@ -147,7 +147,7 @@
 <W lemma="de" msd="PREP" in="-1:man" out="1:nobj">de</W>
 <W lemma="espalda" msd="NC" in="-1:nobj" out="">espalda</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="como" msd="CSUBX" in="-15:comp" out="5:pnct|-1:pnct">como</W>
+<W lemma="como" msd="CSUBX" in="-15:comp" out="-1:pnct|5:pnct">como</W>
 <W lemma="bueno" msd="ADJ" in="2:attrd" out="">buen</W>
 <W lemma="atrever" msd="VLadj" in="1:attrd" out="">atrevido</W>
 <W lemma="muchacho" msd="NC" in="" out="-2:attrd|-1:attrd|1:attrr">muchacho</W>

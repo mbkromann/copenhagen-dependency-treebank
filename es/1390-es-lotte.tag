@@ -4,7 +4,7 @@
 <W lemma="que" msd="CQUE" in="-1:preds" out="14:vobj">que</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">además</W>
-<W lemma="de" msd="PREP" in="-4:other" out="1:vobj|-2:pnct|9:pnct">de</W>
+<W lemma="de" msd="PREP" in="-4:other" out="-2:pnct|1:vobj|9:pnct">de</W>
 <W lemma="poder" msd="VMinf" in="-1:vobj" out="1:vobj">poder</W>
 <W lemma="absorber" msd="VLinf" in="-1:vobj" out="1:dobj">absorber</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">el</W>
@@ -27,8 +27,8 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="publicidad" msd="NC" in="-4:conj" out="-1:coord">publicidad</W>
 <W lemma="," msd="CM" in="-11:pnct" out="">,</W>
-<W lemma="de~manera~que" msd="CSUBF" in="-12:cons" out="1:nobj">de manera que</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="de~manera~que" msd="CSUBF" in="-12:cons" out="10:vobj">de manera que</W>
+<W lemma="el" msd="ART" in="9:subj|10:[subj]" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:arg">interés</W>
 <W lemma="por" msd="PREP" in="-1:pobj:arg" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|3:conj">la</W>
@@ -37,8 +37,8 @@
 <W lemma="el" msd="ART" in="-3:conj" out="-1:coord|1:nobj">las</W>
 <W lemma="carrera" msd="NC" in="-1:nobj" out="">carreras</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:other" out="">también</W>
-<W lemma="poder" msd="VMfin" in="" out="-1:other|1:vobj">pueda</W>
-<W lemma="funcionar" msd="VLinf" in="-1:vobj" out="1:man">funcionar</W>
+<W lemma="poder" msd="VMfin" in="-10:vobj" out="-1:other|1:vobj|-9:subj">pueda</W>
+<W lemma="funcionar" msd="VLinf" in="-1:vobj" out="1:man|-10:[subj]">funcionar</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:man" out="">económicamente</W>
 <W lemma="." msd="FS" in="-40:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="2:subj" out="1:nobj">“La</W>
@@ -84,14 +84,14 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">jóvenes</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
-<W lemma="yo" msd="PPX" in="2:subj" out="1:focal">Yo</W>
+<W lemma="yo" msd="PPX" in="2:subj|3:[subj]" out="1:focal">Yo</W>
 <W lemma="mismo" msd="ADJ" in="-1:focal" out="">mismo</W>
 <W lemma="haber" msd="VLfin" in="" out="-2:subj|1:vobj|5:man|26:pnct">he</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="2:preds">sido</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="2:preds|-3:[subj]">sido</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
 <W lemma="afortunar" msd="VLadj" in="-2:preds" out="-1:degr">afortunado</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="con" msd="PREP" in="-5:man" out="-1:pnct|8:pnct|1:nobj">con</W>
+<W lemma="con" msd="PREP" in="-5:man" out="-1:pnct|1:nobj|8:pnct">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ayuda" msd="NC" in="-1:nobj" out="1:agent">ayuda</W>
 <W lemma="de" msd="PREP" in="-1:agent" out="1:nobj">de</W>

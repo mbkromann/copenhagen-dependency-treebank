@@ -22,11 +22,11 @@
 <W lemma="el" msd="ART" in="7:subj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:other">médicos</W>
 <W lemma="de" msd="PREP" in="-1:other" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="3:appr|1:nobj">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|3:appr">la</W>
 <W lemma="revista" msd="NC" in="-1:nobj" out="1:attrr">revista</W>
 <W lemma="semanal" msd="ADJ" in="-1:attrr" out="">semanal</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:appr" out="">SØNDAG</W>
-<W lemma="tener" msd="VLfin" in="" out="-7:subj|1:dobj|-8:ext|5:pnct">tienen</W>
+<W lemma="tener" msd="VLfin" in="" out="-7:subj|-8:ext|1:dobj|5:pnct">tienen</W>
 <W lemma="permiso" msd="NC" in="-1:dobj" out="">permiso</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="suyo" msd="PPO" in="" out="">su</W>
@@ -99,7 +99,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attrr" out="">anticonceptivas</W>
 <W lemma="." msd="FS" in="-26:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="3:arg|1:pnct">Ilustración</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:pnct|3:arg">Ilustración</W>
 <W lemma=":" msd="COLON" in="-1:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Ole</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:arg" out="-1:namef">Clausen</W>
@@ -108,7 +108,7 @@
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">49</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="haber" msd="VHfin" in="" out="4:time|7:pnct|1:vobj">Ha</W>
+<W lemma="haber" msd="VHfin" in="" out="1:vobj|4:time|7:pnct">Ha</W>
 <W lemma="tomar" msd="VLadj" in="-1:vobj" out="1:dobj">tomado</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:attrr">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attrr" out="">anticonceptivas</W>
@@ -182,7 +182,7 @@
 <W lemma="l" msd="PPX" in="3:subj" out="">ella</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">no</W>
 <W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
-<W lemma="desear" msd="VLfin" in="" out="-2:neg|-1:dobj|1:degr|-3:subj|3:conj">deseaba</W>
+<W lemma="desear" msd="VLfin" in="" out="-2:neg|-1:dobj|-3:subj|1:degr|3:conj">deseaba</W>
 <W lemma="en~absoluto" msd="ADV" in="-1:degr" out="">en absoluto</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:conj" out="-1:coord|1:pobj|4:dobj">tomó</W>

@@ -2,8 +2,8 @@
 <W lemma="subsidio" msd="NC" in="-1:nobj" out="1:about#">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
 <W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
-<W lemma="poder" msd="VMfin" in="" out="-4:subj|7:pnct|1:vobj">puede</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:vobj|-5:[subj]">ser</W>
+<W lemma="poder" msd="VMfin" in="" out="-4:subj|1:vobj|7:pnct">puede</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-5:[subj]|1:vobj">ser</W>
 <W lemma="solicitar" msd="VLadj" in="-1:vobj" out="1:pobj">solicitada</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="2:nobj">por</W>
 <W lemma="todo" msd="QU" in="1:attrd" out="77:subj">todos</W>

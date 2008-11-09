@@ -12,7 +12,7 @@
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="">haya</W>
 <W lemma="mucho" msd="QU" in="1:attrd" out="1:dobj">muchos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="-1:attrd">muertos,”</W>
-<W lemma="decir" msd="VLfin" in="" out="-14:qobj|1:subj|9:pnct|-7:qobj">dijo</W>
+<W lemma="decir" msd="VLfin" in="" out="-14:qobj|-7:qobj|1:subj|9:pnct">dijo</W>
 <W lemma="un" msd="ART" in="-1:subj" out="1:nobj|7:appr">un</W>
 <W lemma="portavoz" msd="NC" in="-1:nobj" out="1:pobj:arg">portavoz</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
@@ -33,7 +33,7 @@
 <W lemma="cenar" msd="VLinf" in="-1:nobj" out="">cenar</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="aproximadamente" msd="ADV" in="1:degr" out="">aproximadamente</W>
-<W lemma="a" msd="PREP" in="-9:time" out="1:nobj|-2:pnct|4:pnct|-1:degr">a</W>
+<W lemma="a" msd="PREP" in="-9:time" out="-2:pnct|-1:degr|1:nobj|4:pnct">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">18.45</W>
 <W lemma="hora" msd="NC" in="-1:nobj" out="">horas</W>

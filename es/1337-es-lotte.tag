@@ -99,12 +99,12 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">tranquilizados</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="de~modo~que" msd="CSUBF" in="-3:cons" out="5:vobj">de modo que</W>
-<W lemma="el" msd="ART" in="4:subj" out="2:nobj">los</W>
+<W lemma="el" msd="ART" in="4:subj|5:[subj]" out="2:nobj">los</W>
 <W lemma="presunto" msd="ADJ" in="2:attrd" out="">presuntos</W>
 <W lemma="dos" msd="CARD" in="-2:nobj" out="1:nobj">dos</W>
 <W lemma="ladrn" msd="NC" in="-1:nobj" out="-2:attrd">ladrones</W>
 <W lemma="poder" msd="VMfin" in="-5:vobj" out="-4:subj|1:vobj|2:other|4:pnct">pudieran</W>
-<W lemma="circular" msd="ADJ" in="-1:vobj" out="4:conj|9:conj">circular</W>
+<W lemma="circular" msd="ADJ" in="-1:vobj" out="4:conj|9:conj|-5:[subj]">circular</W>
 <W lemma="sin" msd="PREP" in="-2:other" out="1:nobj">sin</W>
 <W lemma="impedimento" msd="NC" in="-1:nobj" out="">impedimentos</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
@@ -165,7 +165,7 @@
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="residencia" msd="NC" in="-1:nobj" out="">residencias</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="haber" msd="VHfin" in="" out="-1:robj|1:vobj|12:pnct|-7:loc">ha</W>
+<W lemma="haber" msd="VHfin" in="" out="-1:robj|-7:loc|1:vobj|12:pnct">ha</W>
 <W lemma="robar" msd="VLadj" in="-1:vobj" out="1:other">robado</W>
 <W lemma="por" msd="PREP" in="-1:other" out="1:nobj">por</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
@@ -191,7 +191,7 @@
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>
 <W lemma="cuyo" msd="REL" in="2:subj" out="1:nobj">cuyo</W>
 <W lemma="domicilio" msd="NC" in="-1:nobj" out="">domicilio</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|3:loc|5:pnct|-3:pnct">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|-3:pnct|1:preds|3:loc|5:pnct">es</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:preds" out="1:numm">Søterrassen</W>
 <W lemma="7" msd="CARD" in="-1:numm" out="">7</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
@@ -217,7 +217,7 @@
 <W lemma="superior" msd="ADJ" in="-1:attrr" out="">superior</W>
 <W lemma="de" msd="PREP" in="-2:pobj:arg#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">policía</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:dobj|10:pnct|-13:struct">había</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-13:struct|1:dobj|10:pnct">había</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="par" msd="NC" in="-1:nobj" out="1:pobj:arg">par</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="2:nobj">de</W>
@@ -238,9 +238,9 @@
 <W lemma="seguro" msd="ADJ" in="-1:nobj" out="">seguros</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Poul</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="-1:namef">Eefsen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef">Eefsen</W>
 <W lemma="haber" msd="VHfin" in="" out="-11:loc|-1:subj|1:vobj|11:pnct">ha</W>
-<W lemma="declarar" msd="VLadj" in="-1:vobj" out="1:vobj">declarado</W>
+<W lemma="declarar" msd="VLadj" in="-1:vobj" out="1:vobj|-2:[subj]">declarado</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj">haber</W>
 <W lemma="ser" msd="VS" in="-1:vobj" out="1:preds">sido</W>
 <W lemma="robar" msd="VLadj" in="-1:preds" out="1:pobj:dobj">robado</W>

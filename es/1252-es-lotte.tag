@@ -37,7 +37,7 @@
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="">Danida</W>
-<W lemma="mantener" msd="VLfin" in="-7:conj" out="-2:coord|-1:subj|3:dobj|1:predo|7:ben">mantiene</W>
+<W lemma="mantener" msd="VLfin" in="-7:conj" out="-2:coord|-1:subj|1:predo|3:dobj|7:ben">mantiene</W>
 <W lemma="cerrado" msd="ADJ" in="-1:predo" out="1:degr">cerrada</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:degr" out="">herméticamente</W>
 <W lemma="el" msd="ART" in="-3:dobj" out="1:nobj">la</W>
@@ -64,7 +64,7 @@
 <W lemma="dans" msd="NC" in="-1:nobj" out="">daneses</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="20:qobj" out="-2:subj|1:loc|8:pnct|13:conj">estábamos</W>
 <W lemma="entre" msd="PREP" in="-1:loc" out="1:nobj">entre</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="2:nobj|1:attrd|4:loc">los</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|2:nobj|4:loc">los</W>
 <W lemma="primero" msd="ORD" in="-1:attrd" out="">primeros</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="1:attrr">negociantes</W>
 <W lemma="extranjero" msd="ADJ" in="-1:attrr" out="">extranjeros</W>
@@ -136,7 +136,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:nobj">qué</W>
 <W lemma="punto" msd="NC" in="-1:nobj" out="">punto</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="atrever" msd="VLfin" in="-5:vobj" out="-1:robj|1:pobj|-4:dir">atreven</W>
+<W lemma="atrever" msd="VLfin" in="-5:vobj" out="-1:robj|-4:dir|1:pobj">atreven</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="liberar" msd="VLinf" in="-1:vobj" out="1:dobj">liberar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">las</W>
@@ -167,9 +167,9 @@
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="momento" msd="NC" in="-1:nobj" out="">momento</W>
 <W lemma="se" msd="SE" in="1:robj" out="-3:time">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|1:vobj|4:loc|20:pnct">está</W>
-<W lemma="construir" msd="VLadj" in="-1:vobj" out="1:dobj|5:predo">construyendo</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|1:vobj|4:loc|20:pnct|2:subj">está</W>
+<W lemma="construir" msd="VLadj" in="-1:vobj" out="5:predo|1:[subj]">construyendo</W>
+<W lemma="un" msd="ART" in="-2:subj|-1:[subj]" out="1:nobj">una</W>
 <W lemma="planta" msd="NC" in="-1:nobj" out="">planta</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Shanghai</W>

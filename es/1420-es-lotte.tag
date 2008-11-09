@@ -24,9 +24,9 @@
 <W lemma="&lt;unknown&gt;" msd="ADV" in="3:struct" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="deber" msd="VMfin" in="" out="-3:struct|-1:robj|1:vobj|9:pnct|23:pnct">debe</W>
-<W lemma="respetar" msd="VLinf" in="-1:vobj" out="1:dobj">respetar</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|2:loc">la</W>
+<W lemma="deber" msd="VMfin" in="" out="-3:struct|-1:robj|1:vobj|9:pnct|23:pnct|2:subj">debe</W>
+<W lemma="respetar" msd="VLinf" in="-1:vobj" out="1:[subj]">respetar</W>
+<W lemma="el" msd="ART" in="-2:subj|-1:[subj]" out="1:nobj|2:loc">la</W>
 <W lemma="naturaleza" msd="NC" in="-1:nobj" out="">naturaleza</W>
 <W lemma="al" msd="PAL" in="-2:loc" out="1:nobj">al</W>
 <W lemma="norte" msd="NC" in="-1:nobj" out="1:pobj:arg|5:loc">norte</W>
@@ -53,7 +53,7 @@
 <W lemma="del" msd="PDEL" in="-1:pobj:arg" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:nobj">Amager</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Fælled</W>
-<W lemma="que" msd="CQUE" in="2:subj|-5:ref" out="">que</W>
+<W lemma="que" msd="CQUE" in="-5:ref|2:subj" out="">que</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="formar" msd="VLfin" in="-7:relr" out="-2:subj|-1:neg|1:dobj">forma</W>
 <W lemma="parte" msd="NC" in="-1:dobj" out="1:pobj:arg">parte</W>
@@ -113,7 +113,7 @@
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj|3:[subj]" out="1:nobj">Ny</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Tøjhusgrunden</W>
-<W lemma="deber" msd="VMfin" in="" out="-2:subj|1:vobj|6:prg|7:man|14:pnct|5:pnct">debe</W>
+<W lemma="deber" msd="VMfin" in="" out="-2:subj|1:vobj|5:pnct|6:prg|7:man|14:pnct">debe</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:vobj" out="-3:[subj]">edificarse</W>
 <W lemma="el" msd="ART" in="" out="">lo</W>
 <W lemma="antes" msd="ADV" in="" out="">antes</W>
@@ -150,8 +150,8 @@
 <W lemma="exposicin" msd="NC" in="-1:nobj" out="">exposiciones</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">Los</W>
-<W lemma="partido" msd="NC" in="-1:nobj" out="">partidos</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="0:attrr" out="0:attrr">políticos</W>
+<W lemma="partido" msd="NC" in="-1:nobj" out="1:attrr">partidos</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">políticos</W>
 <W lemma="sugerir" msd="VLfin" in="" out="-3:subj|1:dobj|4:other|15:pnct">sugieren</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">exposición</W>
@@ -180,8 +180,8 @@
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|3:pnct">construirándos</W>
-<W lemma="dos" msd="CARD" in="" out="">dos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="">vías</W>
+<W lemma="dos" msd="CARD" in="" out="1:nobj">dos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">vías</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="un" msd="ART" in="7:subj" out="1:pnct|2:appa">Una</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>

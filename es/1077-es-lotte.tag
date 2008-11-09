@@ -5,10 +5,10 @@
 <W lemma="bien" msd="ADV" in="1:degr" out="">bien</W>
 <W lemma="claro" msd="ADJ" in="-2:preds" out="-1:degr">clara</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
-<W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">el</W>
 <W lemma="estado" msd="NC" in="-1:nobj" out="">estado</W>
 <W lemma="tener~que" msd="VMfin" in="" out="-2:subj|1:vobj|5:pnct">tiene que</W>
-<W lemma="conservar" msd="VLinf" in="-1:vobj" out="1:dobj">conservar</W>
+<W lemma="conservar" msd="VLinf" in="-1:vobj" out="1:dobj|-3:[subj]">conservar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|2:attrr">los</W>
 <W lemma="valor" msd="NC" in="-1:nobj" out="">valores</W>
 <W lemma="cultural" msd="ADJ" in="-2:attrr" out="">culturales</W>
@@ -136,7 +136,7 @@
 <W lemma="privado" msd="ADJ" in="-2:attrr" out="">privada</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="ver" msd="VLfin" in="" out="-1:robj|1:dobj|-23:cond|12:conj">ve</W>
+<W lemma="ver" msd="VLfin" in="" out="-1:robj|-23:cond|1:dobj|12:conj">ve</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="3:dobj">hay</W>
 <W lemma="mucho" msd="ADJ" in="1:degr" out="">mucha</W>
@@ -154,7 +154,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
 <W lemma="natural" msd="ADJ" in="-3:attrr" out="-1:degr">natural</W>
 <W lemma="con" msd="PREP" in="-3:pobj" out="1:nobj">con</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="2:attrr|1:nobj">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">población</W>
 <W lemma="local" msd="ADJ" in="-2:attrr" out="">local</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
@@ -220,7 +220,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">círculo</W>
 <W lemma="limitar" msd="VLadj" in="-2:attrr" out="">limitado</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="a" msd="PREP" in="-6:ben" out="-1:pnct|5:pnct|1:nobj">a</W>
+<W lemma="a" msd="PREP" in="-6:ben" out="-1:pnct|1:nobj|5:pnct">a</W>
 <W lemma="beneficio" msd="NC" in="-1:nobj" out="1:pobj:subj">beneficio</W>
 <W lemma="del" msd="PDEL" in="-1:pobj:subj" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:attrr">Tesoro</W>
@@ -233,7 +233,7 @@
 <W lemma="volver" msd="VLfin" in="-35:conj" out="-4:coord|-3:subj|-1:robj|1:preds">vuelve</W>
 <W lemma="distanciar" msd="VLadj" in="-1:preds" out="1:pobj">distanciada</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|5:pnct|2:loc|6:appa">lo</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|2:loc|5:pnct|6:appa">lo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrd" out="">más</W>
 <W lemma="natural" msd="ADJ" in="-2:loc" out="1:loc">natural</W>
 <W lemma="del" msd="PDEL" in="-1:loc" out="1:nobj">del</W>

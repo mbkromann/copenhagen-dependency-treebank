@@ -45,9 +45,9 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:attrr" out="">extranjeras.”</W>
 <W lemma="Karen" msd="NP" in="2:namef" out="">Karen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Merete</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="-1:namef|-2:namef">Bennike</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef|-2:namef">Bennike</W>
 <W lemma="haber" msd="VHfin" in="" out="-1:subj|1:vobj|9:ben|12:pnct">ha</W>
-<W lemma="escribir" msd="VLadj" in="-1:vobj" out="1:dobj">escrito</W>
+<W lemma="escribir" msd="VLadj" in="-1:vobj" out="1:dobj|-2:[subj]">escrito</W>
 <W lemma="cuatro" msd="CARD" in="-1:dobj" out="1:nobj|2:attrr|3:elab">cuatro</W>
 <W lemma="libro" msd="NC" in="-1:nobj" out="">libros</W>
 <W lemma="popular" msd="ADJ" in="-2:attrr" out="">populares</W>
@@ -62,14 +62,14 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="3:discmark" out="">“Pero</W>
 <W lemma="ahora" msd="ADV" in="2:time" out="">ahora</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="recibo" msd="NC" in="" out="-3:discmark|-2:time|-1:neg|4:pnct|2:dobj|5:conc|14:pnct">recibo</W>
+<W lemma="recibo" msd="NC" in="" out="-3:discmark|-2:time|-1:neg|2:dobj|4:pnct|5:conc|14:pnct">recibo</W>
 <W lemma="ni" msd="CCNEG" in="1:neg" out="">ni</W>
 <W lemma="un" msd="ART" in="-2:dobj" out="-1:neg|1:nobj">una</W>
 <W lemma="corona" msd="NC" in="-1:nobj" out="">corona</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="a~pesar~de" msd="CSUBI" in="-5:conc" out="2:vobj">a pesar de</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="ser" msd="VLfin" in="-2:vobj" out="3:conj|1:preds">soy</W>
+<W lemma="ser" msd="VLfin" in="-2:vobj" out="1:preds|3:conj">soy</W>
 <W lemma="dans" msd="NC" in="-1:preds" out="">danesa</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="escribir" msd="VLfin" in="-3:conj" out="-1:coord|1:ben">escribo</W>
@@ -87,11 +87,11 @@
 <W lemma="injusto" msd="ADJ" in="-3:attrr" out="-1:degr">injusta</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="yo" msd="PPX" in="1:iobj" out="">me</W>
-<W lemma="asombrar" msd="VLfin" in="-9:conj" out="-2:coord|-1:iobj|1:dobj">asombra</W>
-<W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
+<W lemma="asombrar" msd="VLfin" in="-9:conj" out="-2:coord|-1:iobj|1:subj">asombra</W>
+<W lemma="que" msd="CQUE" in="-1:subj" out="2:vobj">que</W>
 <W lemma="yo" msd="PPX" in="2:xtop" out="5:ref">me</W>
 <W lemma="tener~que" msd="VMfin" in="-2:vobj" out="1:vobj|2:degr">tenga que</W>
-<W lemma="tocar" msd="VLinf" in="-1:vobj" out="3:iobj|-2:xtop">tocar</W>
+<W lemma="tocar" msd="VLinf" in="-1:vobj" out="-2:xtop|3:iobj">tocar</W>
 <W lemma="precisamente" msd="ADV" in="-2:degr" out="">precisamente</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:iobj|-5:ref" out="">mí,”</W>
@@ -99,7 +99,7 @@
 <W lemma="l" msd="PPX" in="-1:subj" out="">ella</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="24:struct" out="1:nobj|8:pnct">Según</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="8:ref|9:relpa|1:nobj">El</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|8:ref|9:relpa">El</W>
 <W lemma="servicio" msd="NC" in="-1:nobj" out="1:pobj:arg">servicio</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
@@ -122,16 +122,16 @@
 <W lemma="de" msd="PREP" in="-1:ext" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">ilustradores</W>
 <W lemma="dans" msd="ADJ" in="-1:attrr" out="">daneses</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-5:subj|1:preds|-24:struct|8:comp|29:pnct">serán</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-5:subj|-24:struct|1:preds|8:comp|29:pnct">serán</W>
 <W lemma="afectar" msd="VLadj" in="-1:preds" out="1:pobj">afectados</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="2:nobj|1:attrd">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|2:nobj">la</W>
 <W lemma="nuevo" msd="ADJ" in="-1:attrd" out="">nueva</W>
 <W lemma="ley" msd="NC" in="-2:nobj" out="">ley</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="11:vobj">así</W>
 <W lemma="como" msd="CSUBX" in="-8:comp" out="">como</W>
-<W lemma="varios" msd="QU" in="9:subj" out="1:nobj">varios</W>
+<W lemma="varios" msd="QU" in="9:subj|11:[subj]" out="1:nobj">varios</W>
 <W lemma="autor" msd="NC" in="-1:nobj" out="1:pobj:arg">autores</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="libro" msd="NC" in="-1:nobj" out="1:about">libros</W>
@@ -142,7 +142,7 @@
 <W lemma="extranjero" msd="ADJ" in="-1:attrr" out="">extranjeras</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-11:vobj" out="-9:subj|2:vobj|4:time">tendrán</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="acostumbrar" msd="VLinf" in="-2:vobj" out="3:pobj">acostumbrarse</W>
+<W lemma="acostumbrar" msd="VLinf" in="-2:vobj" out="3:pobj|-11:[subj]">acostumbrarse</W>
 <W lemma="a~partir~de" msd="PREP" in="" out="">a partir de</W>
 <W lemma="ahora" msd="ADV" in="-4:time" out="">ahora</W>
 <W lemma="a" msd="CSUBI" in="-3:pobj" out="1:vobj">a</W>
@@ -161,7 +161,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:attrr" out="">danés</W>
 <W lemma="con" msd="PREP" in="-3:about" out="2:nobj">con</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">sólo</W>
-<W lemma="un" msd="ART" in="-2:nobj" out="1:nobj|-1:degr">un</W>
+<W lemma="un" msd="ART" in="-2:nobj" out="-1:degr|1:nobj">un</W>
 <W lemma="pocos" msd="QU" in="-1:nobj" out="1:pobj:arg">poco</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="lengua" msd="NC" in="-1:nobj" out="1:attrr">lengua</W>
@@ -179,7 +179,7 @@
 <W lemma="biblioteca" msd="NC" in="-1:nobj" out="">bibliotecas</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="10:coord" out="">pero</W>
-<W lemma="el" msd="ART" in="9:subj|10:[subj]" out="2:nobj|1:attrd">los</W>
+<W lemma="el" msd="ART" in="9:subj|10:[subj]" out="1:attrd|2:nobj">los</W>
 <W lemma="decidido" msd="ADJ" in="-1:attrd" out="">decididos</W>
 <W lemma="libro" msd="NC" in="-2:nobj" out="1:about#">libros</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="">de</W>
