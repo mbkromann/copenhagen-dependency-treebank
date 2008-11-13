@@ -6,10 +6,8 @@
 <align out="a50" type="" in="b9" creator="0" insign="lato" outsign="side"/>
 <align out="a45 a46 a47" type="f" in="b1 b2 b3" creator="0" insign="Ci siamo presentati" outsign="har vi taget"/>
 <align out="a44" type="" in="a44" creator="0" insign="Nu" outsign="Nu"/>
-<align out="b5 b6 b7" type="" in="b5 b6 b7" creator="0" insign="ogni casa di" outsign="ogni casa di"/>
 <align out="a48" type="" in="a48" creator="0" insign="den" outsign="den"/>
 <align out="a49" type="" in="b8" creator="0" insign="un" outsign="ene"/>
-<align out="b4 b5 b6 b7" type="" in="b4 b5 b6 b7" creator="0" insign="in ogni casa di" outsign="in ogni casa di"/>
 <align out="a53" type="" in="a53" creator="0" insign="." outsign="."/>
 <align out="a78" type="" in="b13 b14" creator="0" insign="ha detto" outsign="fortalte"/>
 <align out="a79" type="" in="b15" creator="0" insign="Ann-Mari" outsign="Ann-Mari"/>
@@ -42,8 +40,6 @@
 <align out="a87" type="" in="b47" creator="-1" insign="quindi" outsign="Så"/>
 <align out="a70" type="" in="b35" creator="-1" insign="già" outsign="allerede"/>
 <align out="a94 a95 a96" type="" in="b43 b44" creator="0" insign="abbiamo concluso" outsign="vi har udrettet"/>
-<align out="a88 a89 a90 a91" type="" in="a88 a89 a90 a91" creator="0" insign="det er ikke så" outsign="det er ikke så"/>
-<align out="a88 a89 a91" type="" in="a88 a89 a91" creator="0" insign="det er så" outsign="det er så"/>
 <align out="a90" type="" in="b42" creator="0" insign="Non" outsign="ikke"/>
 <align out="a93" type="" in="b46" creator="0" insign="," outsign=","/>
 <align out="a97" type="" in="b48" creator="0" insign="," outsign=","/>
@@ -164,4 +160,7 @@
 <align out="a245" type="" in="b184" creator="-1" insign="," outsign="&nbsp;-&nbsp;"/>
 <align out="a246" type="" in="b186" creator="-1" insign="una" outsign="en"/>
 <align out="a239" type="" in="b180" creator="-1" insign="c'" outsign="der"/>
+<align out="b4 b5 b6 b7" type="" in="b4 b5 b6 b7" creator="0" insign="in ogni casa di" outsign="in ogni casa di"/>
+<align out="a88 a89 a90 a91" type="" in="a88 a89 a90 a91" creator="0" insign="det er ikke så" outsign="det er ikke så"/>
+<align out="a86" type="" in="a86" creator="0" insign="&quot;" outsign="&quot;"/>
 </DTAGalign>

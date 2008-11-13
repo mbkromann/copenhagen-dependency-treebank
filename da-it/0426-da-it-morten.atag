@@ -89,13 +89,11 @@
 <align out="a185" type="" in="b86" creator="-1" insign="conoscere" outsign="kende"/>
 <align out="a197" type="f" in="b98" creator="-1" insign="," outsign="."/>
 <align out="a184" type="" in="b85" creator="-1" insign="a" outsign="at"/>
-<align out="a187" type="" in="b102" creator="-1" insign="la" outsign="den"/>
 <align out="a200" type="" in="b99 b100" creator="-1" insign="nel contempo" outsign="Samtidig"/>
 <align out="a208" type="" in="b101" creator="0" insign="," outsign=","/>
 <align out="a203 a204" type="" in="a203 a204" creator="0" insign="vi lærer" outsign="vi lærer"/>
 <align out="a205" type="" in="a205" creator="0" insign="verden" outsign="verden"/>
 <align out="a209 a210" type="" in="b97" creator="0" insign="apprendiamo" outsign="lærer vi"/>
-<align out="a213" type="s" in="b102 b105" creator="0" insign="la lingua" outsign="sprog"/>
 <align out="a206 a207" type="" in="a206 a207" creator="0" insign="at kende" outsign="at kende"/>
 <align out="a201 a202" type="" in="a201 a202" creator="0" insign="med at" outsign="med at"/>
 <align out="a218 a219 a222" type="" in="b108 b109 b110" creator="0" insign="ci permetterà di" outsign="kan vi få"/>
@@ -139,4 +137,7 @@
 <align out="a273" type="" in="b149" creator="-1" insign="difficile" outsign="svært"/>
 <align out="a270" type="" in="b150" creator="-1" insign="come" outsign="som"/>
 <align out="a274" type="" in="b153" creator="-1" insign="." outsign="."/>
+<align out="a187" type="" in="a187" creator="0" insign="den" outsign="den"/>
+<align out="a211" type="ds" in="b102" creator="0" insign="la" outsign="vores"/>
+<align out="a213" type="" in="b105" creator="-1" insign="lingua" outsign="sprog"/>
 </DTAGalign>
