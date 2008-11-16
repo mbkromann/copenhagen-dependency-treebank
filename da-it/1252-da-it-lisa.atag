@@ -6,7 +6,6 @@
 <align out="a49" type="" in="b1" creator="0" insign="la" outsign="den"/>
 <align out="a50" type="" in="b2" creator="0" insign="drammatica" outsign="dramatiske"/>
 <align out="a51" type="" in="b3" creator="0" insign="repressione" outsign="nedkæmpning"/>
-<align out="a53" type="n" in="b4" creator="0" insign="delle" outsign="det"/>
 <align out="b16" type="" in="b16" creator="0" insign="," outsign=","/>
 <align out="a57 a58 a59 a60" type="" in="b8 b9" creator="0" insign="Piazza Tienanmen" outsign="Den Himmelske Freds Plads"/>
 <align out="b19" type="" in="b19" creator="0" insign="positivo" outsign="positivo"/>
@@ -53,17 +52,14 @@
 <align out="a116 a117" type="" in="b81" creator="-1" insign="siamo" outsign="er vi"/>
 <align out="a118" type="" in="b82" creator="-1" insign="tra" outsign="blandt"/>
 <align out="a120" type="" in="b84" creator="-1" insign="ultimi" outsign="sidste"/>
-<align out="a123 a124 a125" type="mvi" in="b86" creator="-1" insign="riprendere" outsign="lukker op igen"/>
 <align out="a110" type="f" in="b72" creator="-1" insign="investitori" outsign="forretningsfolk"/>
 <align out="a114" type="" in="b79" creator="-1" insign="ma" outsign="men"/>
 <align out="a113" type="" in="b78" creator="-1" insign="," outsign=","/>
-<align out="a122" type="" in="b85" creator="-1" insign="a" outsign="der"/>
 <align out="a111" type="" in="b76" creator="-1" insign="in" outsign="i"/>
 <align out="a119" type="" in="b83" creator="-1" insign="gli" outsign="de"/>
 <align out="a107" type="" in="b70" creator="-1" insign="i" outsign="de"/>
 <align out="a126" type="" in="a126" creator="0" insign="," outsign=","/>
 <align out="a131" type="" in="a131" creator="0" insign="," outsign=","/>
-<align out="b91" type="" in="b91" creator="0" insign="della" outsign="della"/>
 <align out="a132" type="" in="b92" creator="0" insign="FLS" outsign="FLS"/>
 <align out="a133" type="" in="b93" creator="0" insign="a" outsign="i"/>
 <align out="a135" type="" in="b95" creator="0" insign="." outsign="."/>
@@ -126,7 +122,6 @@
 <align out="a245" type="" in="b187" creator="-1" insign="con" outsign="af"/>
 <align out="a232 a233" type="" in="b178" creator="-1" insign="Attualmente" outsign="I øjeblikket"/>
 <align out="a241" type="" in="b184" creator="-1" insign="a" outsign="i"/>
-<align out="a88" type="lv" in="b49 b50 b51" creator="0" insign="nel paese asiatico" outsign="Kina"/>
 <align out="a99" type="s" in="b59 b62" creator="0" insign="l' dalla" outsign="Danmarks"/>
 <align out="a99" type="" in="b63" creator="0" insign="Danimarca" outsign="Danmarks"/>
 <align out="a100" type="" in="b60" creator="0" insign="atteggiamento" outsign="holdning"/>
@@ -154,7 +149,6 @@
 <align out="a43" type="" in="b21" creator="0" insign="Danimarca" outsign="Danmarks"/>
 <align out="a43" type="s" in="b17 b20" creator="0" insign="l' della" outsign="Danmarks"/>
 <align out="a46" type="ds" in="b23" creator="0" insign="la" outsign="Kina"/>
-<align out="a52" type="sn" in="b4" creator="0" insign="delle" outsign="af"/>
 <align out="a55" type="n" in="b5 b6" creator="0" insign="manifestazioni studentesche" outsign="studenteroprør"/>
 <align out="a44" type="" in="b18" creator="0" insign="orientamento" outsign="holdning"/>
 <align out="a54" type="" in="b10 b11 b12 b13" creator="0" insign="in favore della democrazia" outsign="pro-demokratiske"/>
@@ -163,7 +157,6 @@
 <align out="a62" type="ds" in="b14" creator="0" insign="nel" outsign="1989"/>
 <align out="a62" type="" in="b15" creator="0" insign="1989" outsign="1989"/>
 <align out="a72" type="ds" in="b31" creator="0" insign="La" outsign="Kina"/>
-<align out="a88" type="d" in="b49" creator="0" insign="nel" outsign="Kina"/>
 <align out="a129" type="" in="b89" creator="0" insign="Oliver" outsign="Oliver"/>
 <align out="a145" type="" in="b102" creator="0" insign="nella" outsign="i"/>
 <align out="a146" type="ds" in="b102" creator="0" insign="nella" outsign="Sydkina"/>
@@ -184,4 +177,10 @@
 <align out="a247" type="d" in="b188" creator="0" insign="un" outsign="lån"/>
 <align out="a249" type="s" in="b191" creator="0" insign="dalla" outsign="FLS'"/>
 <align out="a251 a252" type="" in="b194" creator="0" insign="spagnola" outsign="i Spanien"/>
+<align out="a52" type="" in="b4" creator="0" insign="delle" outsign="af"/>
+<align out="a53" type="sn" in="b4" creator="0" insign="delle" outsign="det"/>
+<align out="a88" type="ds" in="b49" creator="0" insign="nel" outsign="Kina"/>
+<align out="a88" type="lv" in="b50 b51" creator="0" insign="paese asiatico" outsign="Kina"/>
+<align out="a122 a123 a124 a125" type="mvi" in="b85 b86" creator="0" insign="a riprendere" outsign="der lukker op igen"/>
+<align out="a132" type="ds" in="b91" creator="0" insign="della" outsign="FLS"/>
 </DTAGalign>

@@ -7,8 +7,6 @@
 <align out="a53" type="" in="b8" creator="0" insign="snella" outsign="slank"/>
 <align out="a54" type="" in="a54" creator="0" insign="og" outsign="og"/>
 <align out="b9" type="" in="b9" creator="0" insign="," outsign=","/>
-<align out="a60" type="" in="a60" creator="0" insign="hun" outsign="hun"/>
-<align out="a61" type="" in="b15 b16 b17 b18" creator="0" insign="era in attesa di" outsign="ventede"/>
 <align out="a62" type="" in="b19" creator="0" insign="nostra" outsign="vores"/>
 <align out="a63" type="" in="b20" creator="0" insign="figlia" outsign="datter"/>
 <align out="a64" type="" in="b21" creator="0" insign="," outsign=","/>
@@ -40,7 +38,6 @@
 <align out="a78" type="" in="b33" creator="-1" insign="portava" outsign="bar"/>
 <align out="b22" type="" in="b22" creator="0" insign="non" outsign="non"/>
 <align out="a94" type="" in="b45" creator="0" insign="“Ci" outsign="Der"/>
-<align out="a95 a96 a97" type="" in="b46 b47 b48" creator="0" insign="deve esser stato" outsign="må have været"/>
 <align out="a100" type="" in="b51" creator="0" insign="uomo”" outsign="mand"/>
 <align out="a101" type="" in="b52" creator="0" insign="," outsign=","/>
 <align out="a102" type="" in="b53" creator="0" insign="constatò" outsign="konstaterede"/>
@@ -101,11 +98,9 @@
 <align out="a223" type="s" in="b139" creator="0" insign="i" outsign="sine"/>
 <align out="a223" type="" in="b140" creator="0" insign="suoi" outsign="sine"/>
 <align out="a225" type="" in="b142" creator="0" insign="," outsign=","/>
-<align out="a230" type="" in="a230" creator="0" insign="Det" outsign="Det"/>
 <align out="a235" type="" in="b149" creator="0" insign="facile" outsign="let"/>
 <align out="a237" type="" in="b151" creator="0" insign="lei" outsign="hende"/>
 <align out="a238 a239 a240" type="" in="b152" creator="0" insign="tornare" outsign="at vende tilbage"/>
-<align out="a231 a233 a234" type="f" in="b146 b147 b148" creator="0" insign="deve esser stato" outsign="kan have været"/>
 <align out="a236" type="" in="b150" creator="-1" insign="per" outsign="for"/>
 <align out="a226" type="" in="b143" creator="-1" insign="Loulou" outsign="Loulou"/>
 <align out="a227" type="" in="b144" creator="-1" insign="." outsign="."/>
@@ -129,14 +124,12 @@
 <align out="a261" type="" in="a261" creator="0" insign="hun" outsign="hun"/>
 <align out="a263" type="" in="b175" creator="0" insign="completamente" outsign="helt"/>
 <align out="a262" type="?" in="b173" creator="0" insign="la" outsign="den"/>
-<align out="a267" type="" in="a267" creator="0" insign="Det" outsign="Det"/>
 <align out="a273" type="" in="b184" creator="0" insign="e" outsign="og"/>
 <align out="a276" type="" in="b187" creator="0" insign="te" outsign="dig"/>
 <align out="a269" type="" in="b178 b179" creator="0" insign="più semplice" outsign="enklere"/>
 <align out="b180" type="" in="b180" creator="0" insign="così" outsign="così"/>
 <align out="a272" type="" in="b183" creator="-1" insign="..." outsign="..."/>
 <align out="a274" type="" in="b185" creator="-1" insign="anche" outsign="også"/>
-<align out="a268" type="" in="b177" creator="-1" insign="Era" outsign="var"/>
 <align out="a271" type="" in="b182" creator="-1" insign="lei" outsign="hende"/>
 <align out="a270" type="" in="b181" creator="-1" insign="per" outsign="for"/>
 <align out="a275" type="" in="b186" creator="-1" insign="per" outsign="for"/>
@@ -154,7 +147,6 @@
 <align out="a141" type="mcn" in="b80 b81 b82" creator="0" insign="con occhi penetranti" outsign="indtrængende"/>
 <align out="a88" type=".=." in="b44" creator="0" insign="Danimarca.”" outsign="."/>
 <align out="a132 a133 a134" type="" in="b75 b76" creator="0" insign="si piegò" outsign="bøjede han sig"/>
-<align out="a157 a158 a159 a160" type="f" in="b91 b92 b93 b94 b95" creator="0" insign="lo capisci ? ! !" outsign="det må du forstå"/>
 <align out="a164 a165" type="" in="b96 b97" creator="0" insign="Ci incontrammo" outsign="Vi mødtes"/>
 <align out="a170" type="" in="b101" creator="0" insign="fu" outsign="det"/>
 <align out="a172 a173 a174 a175" type="d" in="b102 b104 b105 b106" creator="0" insign="un colpo di fulmine" outsign="kærlighed ved første blik"/>
@@ -174,4 +166,19 @@
 <align out="a114 a115" type="f" in="b63" creator="0" insign="c’era" outsign="hun havde"/>
 <align out="a250 a251" type="" in="b161 b162" creator="0" insign="è stata" outsign="Hun var"/>
 <align out="a253" type="" in="b163" creator="0" insign="costretta" outsign="tvunget"/>
+<align out="a42" type="-="" in="b0" creator="0" insign="“Non" outsign="&nbsp;-&nbsp;"/>
+<align out="a60 a61" type="" in="b15 b16 b17 b18" creator="0" insign="era in attesa di" outsign="hun ventede"/>
+<align out="a93" type="-="" in="b45" creator="0" insign="“Ci" outsign="&nbsp;-&nbsp;"/>
+<align out="a95" type="" in="b46" creator="0" insign="deve" outsign="må"/>
+<align out="a96 a97" type="" in="b47 b48" creator="0" insign="esser stato" outsign="have været"/>
+<align out="a108" type="-="" in="b59" creator="0" insign="“non" outsign="&nbsp;-&nbsp;"/>
+<align out="a149" type="-="" in="b84" creator="0" insign="“Tua" outsign="&nbsp;-&nbsp;"/>
+<align out="a157 a158 a159 a160" type="f" in="b91 b92" creator="0" insign="lo capisci" outsign="det må du forstå"/>
+<align out="b93" type="" in="b93" creator="0" insign="?" outsign="?"/>
+<align out="b94" type="" in="b94" creator="0" insign="!" outsign="!"/>
+<align out="b95" type="" in="b95" creator="0" insign="!" outsign="!"/>
+<align out="a196" type="-="" in="b122" creator="0" insign="“Lei" outsign="&nbsp;-&nbsp;"/>
+<align out="a219" type="-="" in="b136" creator="0" insign="“Probabilmente" outsign="&nbsp;-&nbsp;"/>
+<align out="a267 a268" type="" in="b177" creator="0" insign="Era" outsign="Det var"/>
+<align out="a230 a231 a233 a234" type="f" in="b146 b147 b148" creator="0" insign="deve esser stato" outsign="Det kan have været"/>
 </DTAGalign>

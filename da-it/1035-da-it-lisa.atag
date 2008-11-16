@@ -2,7 +2,6 @@
 <alignFile key="a" href="../da/1035-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/1035-it-auto.tag" sign="_input"/>
 <align out="a43" type="" in="b0" creator="0" insign="Uno" outsign="En"/>
-<align out="a44" type="f" in="b1" creator="0" insign="fra" outsign="af"/>
 <align out="a45" type="s" in="b2 b6" creator="0" insign="i del" outsign="landets"/>
 <align out="a45" type="" in="b7" creator="0" insign="paese" outsign="landets"/>
 <align out="b3" type="" in="b3" creator="0" insign="maggiori" outsign="maggiori"/>
@@ -27,10 +26,7 @@
 <align out="a58" type="" in="b29 b30" creator="0" insign="studio legale" outsign="advokatfirmaet"/>
 <align out="a63" type="" in="b35" creator="0" insign="." outsign="."/>
 <align out="b23" type="" in="b23" creator="0" insign="e" outsign="e"/>
-<align out="a61" type="" in="a61" creator="0" insign="," outsign=","/>
-<align out="b33" type="" in="b33" creator="0" insign="a" outsign="a"/>
 <align out="a68" type="" in="a68" creator="0" insign="," outsign=","/>
-<align out="a67" type="f" in="b37" creator="0" insign="afferma" outsign="siger"/>
 <align out="a62" type="" in="b34" creator="-1" insign="Copenaghen" outsign="København"/>
 <align out="a69" type="" in="b38" creator="-1" insign="che" outsign="at"/>
 <align out="a52" type="" in="b24 b25" creator="-1" insign="agente immobiliare" outsign="ejendomsmægler"/>
@@ -50,14 +46,9 @@
 <align out="a81" type="" in="b53" creator="0" insign="in" outsign="i"/>
 <align out="a77" type="f" in="b54" creator="0" insign="cui" outsign="der"/>
 <align out="a79" type="f" in="b57" creator="0" insign="annidare" outsign="ligge"/>
-<align out="a80" type="dns" in="b58" creator="0" insign="le" outsign="faldgruber"/>
-<align out="a80" type="f" in="b59" creator="0" insign="insidie" outsign="faldgruber"/>
 <align out="b51" type="" in="b51" creator="0" insign="quelle" outsign="quelle"/>
 <align out="b52" type="" in="b52" creator="0" insign="forme" outsign="forme"/>
 <align out="a71" type="" in="b40" creator="-1" insign="soprattutto" outsign="især"/>
-<align out="a78" type="" in="b55 b56" creator="-1" insign="si possono" outsign="kan"/>
-<align out="b60" type="" in="b60" creator="0" insign="maggiori" outsign="maggiori"/>
-<align out="a88" type="f+n" in="b64" creator="0" insign="chiare" outsign="markant"/>
 <align out="a90" type="" in="b66" creator="0" insign="nel" outsign="i"/>
 <align out="a91" type="" in="a91" creator="0" insign="," outsign=","/>
 <align out="a94" type="f" in="b71" creator="0" insign="forme" outsign="konstruktioner"/>
@@ -75,38 +66,24 @@
 <align out="a82" type="" in="b61" creator="-1" insign="." outsign="."/>
 <align out="b85" type="" in="b85" creator="0" insign="da" outsign="da"/>
 <align out="b86" type="" in="b86" creator="0" insign="quello" outsign="quello"/>
-<align out="a103" type="f" in="b87" creator="0" insign="fiscale" outsign="skatteteknisk"/>
-<align out="a107" type="f" in="b89 b90 b91" creator="0" insign="Allo stesso tempo" outsign="Ligesom"/>
-<align out="a108 a109" type="f" in="b92 b93" creator="0" insign="è necessario" outsign="man skal"/>
 <align out="a114" type="" in="a114" creator="0" insign="," outsign=","/>
-<align out="a115 a116 a117" type="f" in="b98 b99 b100 b101 b102" creator="0" insign="circa le modalità di cauzionamento" outsign="hvordan man hefter"/>
 <align out="a118" type="" in="b103" creator="0" insign="degli" outsign="for"/>
 <align out="a110 a111 a112 a113" type="" in="b94 b95 b96 b97" creator="-1" insign="esser del tutto consapevoli" outsign="gøre sig helt klart"/>
 <align out="a101" type="" in="b83" creator="-1" insign="ma" outsign="men"/>
 <align out="a102" type="" in="b84" creator="-1" insign="anche" outsign="også"/>
 <align out="a100" type="" in="b82" creator="-1" insign="," outsign=","/>
 <align out="a104" type="" in="b88" creator="-1" insign="." outsign="."/>
-<align out="a119" type="s" in="b106" creator="0" insign="della" outsign="fællesskabets"/>
-<align out="a119" type="f" in="b107 b108" creator="0" insign="forma coabitativa" outsign="fællesskabets"/>
 <align out="a128" type="" in="b117" creator="0" insign="in" outsign="i"/>
 <align out="b122" type="" in="b122" creator="0" insign="in" outsign="in"/>
-<align out="b123" type="" in="b123" creator="0" insign="quelli" outsign="quelli"/>
-<align out="a133" type="" in="a133" creator="0" insign="visse" outsign="visse"/>
 <align out="a127" type="" in="b115 b116" creator="-1" insign="vengono considerate" outsign="betragtes"/>
 <align out="a129" type="" in="b118" creator="-1" insign="certi" outsign="visse"/>
 <align out="a130" type="" in="b119" creator="-1" insign="ambienti" outsign="kredse"/>
 <align out="a132" type="" in="b121" creator="-1" insign="particolarmente" outsign="især"/>
-<align out="a120" type="" in="b104 b105" creator="-1" insign="aspetti economici" outsign="økonomi"/>
-<align out="a126" type="" in="b110 b111 b112 b113 b114" creator="-1" insign="Le società in nome collettivo" outsign="Interessentskaberne"/>
 <align out="a121" type="" in="b109" creator="-1" insign="." outsign="."/>
-<align out="a135" type="f" in="b125" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
-<align out="a131" type="f" in="b121" creator="0" insign="particolarmente" outsign="&nbsp;-&nbsp;"/>
 <align out="b128" type="" in="b128" creator="0" insign="sorta" outsign="sorta"/>
 <align out="b129" type="" in="b129" creator="0" insign="d'" outsign="d'"/>
 <align out="a140" type="s" in="b131" creator="0" insign="della" outsign="loven"/>
 <align out="a140" type="" in="b132" creator="0" insign="legge" outsign="loven"/>
-<align out="a142" type="d" in="b133" creator="0" insign="sulle" outsign="andelsboliger"/>
-<align out="a142" type="" in="b134 b135 b136" creator="0" insign="abitazioni in cooperativa" outsign="andelsboliger"/>
 <align out="a139" type="" in="b131" creator="0" insign="della" outsign="af"/>
 <align out="a141" type="" in="b133" creator="0" insign="sulle" outsign="om"/>
 <align out="a143" type="" in="a143" creator="0" insign="," outsign=","/>
@@ -119,8 +96,6 @@
 <align out="a136" type="" in="b126" creator="-1" insign="come" outsign="som"/>
 <align out="a137" type="" in="b127" creator="-1" insign="una" outsign="en"/>
 <align out="a148" type="" in="b139" creator="-1" insign="non" outsign="ikke"/>
-<align out="b141" type="" in="b141" creator="0" insign="questa" outsign="questa"/>
-<align out="a149" type="" in="b142" creator="0" insign="la" outsign="den"/>
 <align out="a151" type="" in="a151" creator="0" insign="," outsign=","/>
 <align out="b144" type="" in="b144" creator="0" insign="che" outsign="che"/>
 <align out="a169" type="" in="b156" creator="0" insign="si" outsign="man"/>
@@ -196,19 +171,43 @@
 <align out="b221" type="" in="b221" creator="0" insign="forma" outsign="forma"/>
 <align out="b222" type="" in="b222" creator="0" insign="d'" outsign="d'"/>
 <align out="a242" type="" in="a242" creator="0" insign="," outsign=","/>
-<align out="b233" type="" in="b233" creator="0" insign="in" outsign="in"/>
 <align out="b234" type="" in="b234" creator="0" insign="successivi" outsign="successivi"/>
-<align out="a231" type="" in="b219" creator="-100" insign="costituire" outsign="etablere"/>
-<align out="a233" type="" in="b223 b224 b225" creator="-100" insign="abitazione in cooperativa" outsign="bofællesskab"/>
-<align out="a244 a246" type="f" in="b232" creator="-100" insign="incorrere" outsign="der bliver"/>
-<align out="a248" type="" in="b235" creator="-100" insign="problemi" outsign="problemer"/>
-<align out="a247" type="" in="b236" creator="-100" insign="fiscali" outsign="skattetekniske"/>
-<align out="a232" type="" in="b220" creator="-100" insign="una" outsign="et"/>
-<align out="a239 a240 a241" type="" in="b229" creator="-100" insign="assicurarsi" outsign="at sikre sig"/>
-<align out="a238" type="" in="b228" creator="-100" insign="per" outsign="for"/>
-<align out="a243" type="" in="b230" creator="-100" insign="di" outsign="at"/>
-<align out="a237" type="" in="b227" creator="-100" insign="Anche" outsign="Også"/>
-<align out="a245" type="" in="b231" creator="-100" insign="non" outsign="ikke"/>
-<align out="a234" type="" in="b226" creator="-100" insign="." outsign="."/>
-<align out="a249" type="" in="b237" creator="-100" insign="." outsign="."/>
+<align out="a44" type="" in="b1" creator="0" insign="fra" outsign="af"/>
+<align out="a61" type="f" in="b33" creator="0" insign="a" outsign=","/>
+<align out="a67" type="" in="b37" creator="0" insign="afferma" outsign="siger"/>
+<align out="a78" type="" in="b56" creator="0" insign="possono" outsign="kan"/>
+<align out="b55" type="" in="b55" creator="0" insign="si" outsign="si"/>
+<align out="a80" type="d" in="b58 b59 b60" creator="0" insign="le insidie maggiori" outsign="faldgruber"/>
+<align out="a88" type="n" in="b64" creator="0" insign="chiare" outsign="markant"/>
+<align out="a92" type="s" in="b66" creator="0" insign="nel" outsign="hvordan"/>
+<align out="a103" type="" in="b87" creator="0" insign="fiscale" outsign="skatteteknisk"/>
+<align out="a107" type="" in="b89 b90 b91" creator="0" insign="Allo stesso tempo" outsign="Ligesom"/>
+<align out="a108 a109" type="" in="b92 b93" creator="0" insign="è necessario" outsign="man skal"/>
+<align out="b98" type="" in="b98" creator="0" insign="circa" outsign="circa"/>
+<align out="a115" type="" in="b99 b100 b101" creator="0" insign="le modalità di" outsign="hvordan"/>
+<align out="a116 a117" type="mcn" in="b102" creator="0" insign="cauzionamento" outsign="man hefter"/>
+<align out="a119" type="s" in="b103 b106" creator="0" insign="degli della" outsign="fællesskabets"/>
+<align out="a120" type="n" in="b104 b105" creator="0" insign="aspetti economici" outsign="økonomi"/>
+<align out="a119" type="" in="b107 b108" creator="0" insign="forma coabitativa" outsign="fællesskabets"/>
+<align out="a126" type="s" in="b110" creator="0" insign="Le" outsign="Interessentskaberne"/>
+<align out="a126" type="" in="b111 b112 b113 b114" creator="0" insign="società in nome collettivo" outsign="Interessentskaberne"/>
+<align out="a131" type="" in="b120" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a133" type="f" in="b123" creator="0" insign="quelli" outsign="visse"/>
+<align out="a135" type="" in="b125" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
+<align out="a142" type="ds" in="b133" creator="0" insign="sulle" outsign="andelsboliger"/>
+<align out="a142" type="" in="b134 b135 b136" creator="0" insign="abitazioni in cooperativa" outsign="andelsboliger"/>
+<align out="a149" type="" in="b141" creator="0" insign="questa" outsign="den"/>
+<align out="b142" type="" in="b142" creator="0" insign="la" outsign="la"/>
+<align out="a231" type="" in="b219" creator="0" insign="costituire" outsign="etablere"/>
+<align out="a232" type="" in="b220" creator="0" insign="una" outsign="et"/>
+<align out="a233" type="" in="b223 b224 b225" creator="0" insign="abitazione in cooperativa" outsign="bofællesskab"/>
+<align out="a234" type="" in="b226" creator="0" insign="." outsign="."/>
+<align out="a237" type="" in="b227" creator="0" insign="Anche" outsign="Også"/>
+<align out="a238" type="" in="b228" creator="0" insign="per" outsign="for"/>
+<align out="a239 a240 a241" type="" in="b229" creator="0" insign="assicurarsi" outsign="at sikre sig"/>
+<align out="a245" type="" in="b231" creator="0" insign="non" outsign="ikke"/>
+<align out="a243 a244 a246" type="mvi" in="b230 b232 b233" creator="0" insign="di incorrere in" outsign="at der bliver"/>
+<align out="a247" type="" in="b236" creator="0" insign="fiscali" outsign="skattetekniske"/>
+<align out="a248" type="" in="b235" creator="0" insign="problemi" outsign="problemer"/>
+<align out="a249" type="" in="b237" creator="0" insign="." outsign="."/>
 </DTAGalign>

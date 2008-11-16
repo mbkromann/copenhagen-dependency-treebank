@@ -50,7 +50,6 @@
 <align out="a91" type="" in="b61" creator="0" insign="." outsign="."/>
 <align out="a96" type="" in="b62" creator="0" insign="Questo" outsign="Det"/>
 <align out="b63" type="" in="b63" creator="0" insign="almeno" outsign="almeno"/>
-<align out="a99" type="f" in="b68" creator="0" insign="del" outsign="bag"/>
 <align out="a100" type="" in="b69" creator="0" insign="programma" outsign="programmet"/>
 <align out="a104" type="" in="b73" creator="0" insign="all'" outsign="ved"/>
 <align out="a105" type="" in="b74" creator="0" insign="entrata" outsign="indgangen"/>
@@ -206,19 +205,13 @@
 <align out="a233" type="" in="b200" creator="0" insign="programmazione" outsign="programmeringen"/>
 <align out="a255" type="s" in="b222" creator="0" insign="il" outsign="programmet"/>
 <align out="a255" type="" in="b223" creator="0" insign="programma" outsign="programmet"/>
-<align out="a230 a231 a232" type="mcn+f" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
 <align out="a246 a247" type="mcn" in="b209" creator="0" insign="dipendente" outsign="der arbejder"/>
-<align out="a67" type="f+mc" in="b31" creator="0" insign="muoversi" outsign="rundt"/>
-<align out="a69" type="d" in="b32 b33" creator="0" insign="nei musei" outsign="museer"/>
-<align out="a71" type="d" in="b37 b38" creator="0" insign="nei supermercati" outsign="supermarkeder"/>
-<align out="a73" type="d" in="b42 b43 b44" creator="0" insign="nelle sedi municipali" outsign="rådhuse"/>
 <align out="a154 a155 a156 a157 a158" type="f" in="b112" creator="0" insign="problemi" outsign="noget at tage fejl af"/>
 <align out="a161" type="d" in="b115 b116 b117 b118 b119" creator="0" insign="il nome di una ditta" outsign="firmanavn"/>
 <align out="a170 a171" type="" in="b126 b127 b128 b129 b130" creator="0" insign="con una modalità decisamente pedagogica" outsign="meget pædagogisk"/>
 <align out="a64 a65" type="" in="b27 b30" creator="0" insign="aiutare a" outsign="at hjælpe"/>
 <align out="a178" type="f" in="b146 b147 b148" creator="0" insign="che ti interessano" outsign="aktuelle"/>
 <align out="a187" type="wo" in="b150" creator="0" insign="Alla" outsign="ved"/>
-<align out="a186" type="d" in="b167 b168" creator="0" insign="i visitatori" outsign="besøgende"/>
 <align out="a213 a215 a216 a217 a218 a219" type="" in="b181 b182 b183 b184 b185" creator="0" insign="ci ha ritardato un po'" outsign="har snydt os lidt med tiden"/>
 <align out="a226" type="s" in="b193" creator="0" insign="della" outsign="firmaet"/>
 <align out="a226" type="" in="b194" creator="0" insign="ditta" outsign="firmaet"/>
@@ -229,4 +222,15 @@
 <align out="b162" type="" in="b162" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="b164" type="" in="b164" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a258" type="f+mcadj" in="b227 b228" creator="0" insign="corrispondente a" outsign="på"/>
+<align out="a67" type="mvi" in="b31" creator="0" insign="muoversi" outsign="rundt"/>
+<align out="a69" type="ds" in="b32" creator="0" insign="nei" outsign="museer"/>
+<align out="a69" type="" in="b33" creator="0" insign="musei" outsign="museer"/>
+<align out="a71" type="ds" in="b37" creator="0" insign="nei" outsign="supermarkeder"/>
+<align out="a71" type="" in="b38" creator="0" insign="supermercati" outsign="supermarkeder"/>
+<align out="a73" type="ds" in="b42" creator="0" insign="nelle" outsign="rådhuse"/>
+<align out="a73" type="" in="b43 b44" creator="0" insign="sedi municipali" outsign="rådhuse"/>
+<align out="a99" type="" in="b68" creator="0" insign="del" outsign="bag"/>
+<align out="a186" type="ds" in="b167" creator="0" insign="i" outsign="besøgende"/>
+<align out="a186" type="" in="b168" creator="0" insign="visitatori" outsign="besøgende"/>
+<align out="a230 a231 a232" type="mcn" in="b197 b198" creator="0" insign="responsabile per" outsign="har stået for"/>
 </DTAGalign>
