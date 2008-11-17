@@ -19,12 +19,12 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj|8:[subj]" out="-1:namef">Winther</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="en" msd="PREP" in="-4:bg" out="1:nobj">en</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|23:coref-id">el</W>
 <W lemma="caso" msd="NC" in="-1:nobj" out="1:pobj:arg">caso</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">TEBA</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
-<W lemma="incorporar" msd="VLadj" in="-10:vobj" out="1:pobj|22:coref-res|-8:[subj]">incorporando</W>
+<W lemma="incorporar" msd="VLadj" in="-10:vobj" out="-8:[subj]|1:pobj|22:coref-res">incorporando</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">todos</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:ref|3:relr">los</W>
@@ -42,10 +42,10 @@
 <W lemma="simple" msd="ADJ" in="" out="">simple</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="en" msd="PREP" in="6:bg" out="1:nobj">En</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="-1:nobj|-23:coref-id" out="1:nobj">el</W>
 <W lemma="caso" msd="NC" in="-1:nobj" out="1:pobj:arg">caso</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">TEBA</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="35:coref-id">TEBA</W>
 <W lemma="este" msd="DM" in="-22:coref-res|1:subj" out="">esto</W>
 <W lemma="significar" msd="VLfin" in="" out="-1:subj|-6:bg|1:dobj">significa</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:other|8:vobj">que</W>
@@ -80,7 +80,7 @@
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">la</W>
 <W lemma="superficie" msd="NC" in="-1:nobj" out="1:pobj:arg">superficie</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">TEBA</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj|-35:coref-id" out="">TEBA</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:vobj" out="-5:subj|-1:neg|1:preds|2:cause|5:pnct">serÃ¡</W>
 <W lemma="ampliar" msd="VLadj" in="-1:preds" out="">ampliada</W>
@@ -106,7 +106,7 @@
 <W lemma="en" msd="PREP" in="3:time" out="1:nobj">En</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1992</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="haber" msd="VHfin" in="" out="-3:time|1:vobj|8:pnct|-1:robj">han</W>
+<W lemma="haber" msd="VHfin" in="" out="-3:time|-1:robj|1:vobj|8:pnct">han</W>
 <W lemma="destinar" msd="VLadj" in="-1:vobj" out="1:dobj|4:other">destinado</W>
 <W lemma="dos" msd="CARD" in="-1:dobj" out="1:nobj">dos</W>
 <W lemma="metro" msd="NC" in="-1:nobj" out="1:attrr">metros</W>
