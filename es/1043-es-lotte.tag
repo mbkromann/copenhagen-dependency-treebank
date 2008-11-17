@@ -14,7 +14,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Schlüter</W>
 <W lemma="IV" msd="CARD" in="" out="">IV</W>
 <W lemma="haber" msd="VHfin" in="" out="-15:comp|-6:subj|1:vobj|45:pnct">ha</W>
-<W lemma="emitir" msd="VLadj" in="-1:vobj" out="1:dobj|-7:[subj]">emitido</W>
+<W lemma="emitir" msd="VLadj" in="-1:vobj" out="-7:[subj]|1:dobj">emitido</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="proyecto" msd="NC" in="-1:nobj" out="1:about">proyecto</W>
 <W lemma="del" msd="PDEL" in="-1:about" out="1:nobj">del</W>
@@ -45,7 +45,7 @@
 <W lemma="que" msd="CQUE" in="-6:ref|2:subj|3:[subj]" out="">que</W>
 <W lemma="de~antemano" msd="ADV" in="1:time" out="">de antemano</W>
 <W lemma="poder" msd="VMfin" in="-8:relr" out="-2:subj|-1:time|1:vobj|8:dir">puedan</W>
-<W lemma="empujar" msd="VLinf" in="-1:vobj" out="2:dobj|-3:[subj]">empujar</W>
+<W lemma="empujar" msd="VLinf" in="-1:vobj" out="-3:[subj]|2:dobj">empujar</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="el" msd="ART" in="-2:dobj" out="1:attrd|2:nobj">los</W>
 <W lemma="decisivo" msd="ADJ" in="-1:attrd" out="">decisivos</W>
@@ -73,7 +73,7 @@
 <W lemma="Dinamarca" msd="NP" in="-1:nobj" out="">Dinamarca</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-13:prg|-9:subj|-1:robj|1:vobj|2:other|12:pnct">está</W>
-<W lemma="volver" msd="VLadj" in="-1:vobj" out="3:vobj|-10:[subj]">volviendo</W>
+<W lemma="volver" msd="VLadj" in="-1:vobj" out="-10:[subj]|3:vobj">volviendo</W>
 <W lemma="de~nuevo" msd="ADV" in="-2:other" out="">de nuevo</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="ser" msd="VSinf" in="-3:vobj" out="1:preds">ser</W>

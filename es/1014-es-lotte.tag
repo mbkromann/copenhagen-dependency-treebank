@@ -48,7 +48,7 @@
 <W lemma="todo" msd="QU" in="2:subj|3:[subj]" out="1:nobj">toda</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="">persona</W>
 <W lemma="poder" msd="VMfin" in="" out="-13:bg|-2:subj|1:vobj|4:goal|10:pnct">puede</W>
-<W lemma="recibir" msd="VLinf" in="-1:vobj" out="1:dobj|-3:[subj]">recibir</W>
+<W lemma="recibir" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">recibir</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="">subvención</W>
 <W lemma="incluso" msd="ADV" in="1:other" out="">incluso</W>
 <W lemma="para" msd="CSUBI" in="-4:goal" out="-1:other|1:vobj">para</W>
@@ -61,7 +61,7 @@
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj|10:pnct">Los</W>
 <W lemma="municipio" msd="NC" in="-1:nobj" out="">municipios</W>
 <W lemma="deber" msd="VMfin" in="32:qobj" out="-2:subj|1:vobj|19:conj">deben</W>
-<W lemma="velar" msd="VLinf" in="-1:vobj" out="1:pobj|-3:[subj]">velar</W>
+<W lemma="velar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">velar</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:pobj">por</W>
 <W lemma="el" msd="ART" in="-1:pobj" out="1:nobj">la</W>
 <W lemma="seguridad" msd="NC" in="-1:nobj" out="1:pobj:dobj">seguridad</W>
@@ -89,7 +89,7 @@
 <W lemma="l" msd="PPX" in="2:subj|3:[subj]" out="1:focal">ellos</W>
 <W lemma="mismo" msd="ADJ" in="-1:focal" out="">mismos</W>
 <W lemma="poder" msd="VMfin" in="-4:vobj" out="-2:subj|1:vobj">puedan</W>
-<W lemma="contratar" msd="VLinf" in="-1:vobj" out="1:dobj|-3:[subj]">contratar</W>
+<W lemma="contratar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">contratar</W>
 <W lemma="ayuda" msd="NC" in="-1:dobj" out="1:attrr">ayuda</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:attrr" out="">domiciliaria,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-32:qobj|1:namef|2:subj|3:pnct">dice</W>

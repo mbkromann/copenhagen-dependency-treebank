@@ -22,7 +22,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Wan</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:appr" out="-1:namef">Shengwen</W>
 <W lemma=":" msd="COLON" in="" out="">:</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-22:conj" out="-13:coord|-12:loc|6:conj|29:pnct|1:man">“Gané</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-22:conj" out="-13:coord|-12:loc|1:man|6:conj|29:pnct">“Gané</W>
 <W lemma="@card@" msd="CODE" in="-1:man" out="">15-9</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="@card@" msd="CODE" in="" out="-1:pnct|1:pnct">15-8</W>
@@ -77,7 +77,7 @@
 <W lemma="Thomas" msd="NP" in="1:namef" out="">Thomas</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef">Stuer</W>
 <W lemma="haber" msd="VHfin" in="" out="-1:subj|-11:loc|1:vobj|16:conj">ha</W>
-<W lemma="ganar" msd="VLadj" in="-1:vobj" out="1:dobj|-2:[subj]">ganado</W>
+<W lemma="ganar" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">ganado</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:attrd|2:nobj">el</W>
 <W lemma="primero" msd="ORD" in="-1:attrd" out="">primer</W>
 <W lemma="set" msd="NC" in="-2:nobj" out="">set</W>

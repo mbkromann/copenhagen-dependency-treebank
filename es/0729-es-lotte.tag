@@ -17,7 +17,7 @@
 <W lemma="grande" msd="ADJ" in="-1:attrr" out="">grandes</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="ese" msd="DM" in="1:subj" out="">Eso</W>
-<W lemma="estar" msd="VLfin" in="" out="-1:subj|1:pobj|6:pnct|3:time">estaba</W>
+<W lemma="estar" msd="VLfin" in="" out="-1:subj|1:pobj|3:time|6:pnct">estaba</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="moda" msd="NC" in="-1:nobj" out="">moda</W>
 <W lemma="un" msd="ART" in="-3:time" out="1:nobj">una</W>
@@ -40,7 +40,7 @@
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">Los</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="desear" msd="VLfin" in="" out="-2:subj|1:vobj|10:pnct">desean</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds|-3:[subj]">ser</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-3:[subj]|1:preds">ser</W>
 <W lemma="rudo" msd="ADJ" in="-1:preds" out="4:conj">rudos</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="2:coord" out="-1:pnct">pero</W>
@@ -116,7 +116,7 @@
 <W lemma="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>
 <W lemma="se" msd="SE" in="-9:robj" out="">se</W>
 <W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|2:time|47:pnct">han</W>
-<W lemma="enfocar" msd="VLadj" in="-1:vobj" out="5:pobj|-4:[subj]">enfocado</W>
+<W lemma="enfocar" msd="VLadj" in="-1:vobj" out="-4:[subj]|5:pobj">enfocado</W>
 <W lemma="en" msd="PREP" in="-2:time" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|2:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrd" out="">últimos</W>

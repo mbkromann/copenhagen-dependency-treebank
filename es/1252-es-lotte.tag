@@ -167,8 +167,8 @@
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="momento" msd="NC" in="-1:nobj" out="">momento</W>
 <W lemma="se" msd="SE" in="1:robj" out="-3:time">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|1:vobj|4:loc|20:pnct|2:subj">está</W>
-<W lemma="construir" msd="VLadj" in="-1:vobj" out="5:predo|1:[subj]">construyendo</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|1:vobj|2:subj|4:loc|20:pnct">está</W>
+<W lemma="construir" msd="VLadj" in="-1:vobj" out="1:[subj]|5:predo">construyendo</W>
 <W lemma="un" msd="ART" in="-2:subj|-1:[subj]" out="1:nobj">una</W>
 <W lemma="planta" msd="NC" in="-1:nobj" out="">planta</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>

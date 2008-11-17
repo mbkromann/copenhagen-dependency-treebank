@@ -96,7 +96,7 @@
 <W lemma="l" msd="PPX" in="2:subj|3:[subj]" out="">ellos</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="poder" msd="VMfin" in="-4:vobj" out="-2:subj|-1:neg|1:vobj">pueden</W>
-<W lemma="contar" msd="VLinf" in="-1:vobj" out="1:dobj|-3:[subj]">contarme</W>
+<W lemma="contar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">contarme</W>
 <W lemma="algo" msd="QU" in="-1:dobj" out="1:ref|4:relr">algo</W>
 <W lemma="que" msd="CQUE" in="-1:ref|3:subj" out="">que</W>
 <W lemma="ya" msd="ADV" in="2:time" out="">ya</W>

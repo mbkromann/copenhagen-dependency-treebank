@@ -3,7 +3,7 @@
 <W lemma="sobre" msd="PREP" in="-1:loc" out="1:nobj">sobre</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Storebælt</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-1:robj|1:ben|11:pnct|5:time">abrió</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-1:robj|1:ben|5:time|11:pnct">abrió</W>
 <W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">tráfico</W>
@@ -40,7 +40,7 @@
 <W lemma="siglo" msd="NC" in="-1:nobj" out="">siglo</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="" out="">después</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="8:time|1:time|7:pnct">Sucedió</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:time|7:pnct|8:time">Sucedió</W>
 <W lemma="el" msd="ART" in="-1:time" out="1:nobj">el</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:time">15</W>
 <W lemma="de" msd="PREP" in="-1:time" out="1:nobj">de</W>
@@ -70,7 +70,7 @@
 <W lemma="de" msd="PREP" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">DSB</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-13:time|-8:subj|1:vobj|4:time|12:pnct">deberán</W>
-<W lemma="buscar" msd="VLinf" in="-1:vobj" out="2:dobj|-9:[subj]">buscar</W>
+<W lemma="buscar" msd="VLinf" in="-1:vobj" out="-9:[subj]|2:dobj">buscar</W>
 <W lemma="nuevo" msd="ADJ" in="1:attrd" out="">nuevas</W>
 <W lemma="agua" msd="NC" in="-2:dobj" out="-1:attrd">aguas</W>
 <W lemma="cuando" msd="CSUBX" in="-4:time" out="5:vobj">cuando</W>

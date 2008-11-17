@@ -89,7 +89,7 @@
 <W lemma="pedir" msd="VLinf" in="-1:vobj" out="1:dobj">pedir</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="2:nobj">el</W>
 <W lemma="bueno" msd="ADJ" in="1:attrd" out="">mejor</W>
-<W lemma="plato" msd="NC" in="-2:nobj" out="1:pobj:arg|4:attrr|-1:attrd">plato</W>
+<W lemma="plato" msd="NC" in="-2:nobj" out="-1:attrd|1:pobj:arg|4:attrr">plato</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
@@ -136,7 +136,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Karo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef">Thomsen</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-6:time|-3:pnct|-1:subj|1:vobj|7:pnct">había</W>
-<W lemma="tener" msd="VLadj" in="-1:vobj" out="1:dobj|-2:[subj]">tenido</W>
+<W lemma="tener" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:agent">ocasión</W>
 <W lemma="de" msd="CSUBI" in="-1:agent" out="1:vobj">de</W>
 <W lemma="conocer" msd="VLinf" in="-1:vobj" out="1:dobj">conocer</W>
@@ -174,7 +174,7 @@
 <W lemma="Susan" msd="NP" in="1:namef" out="">Susan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-9:conj" out="-2:coord|-1:namef">Frankenstein</W>
 <W lemma="haber" msd="VHfin" in="" out="-30:time|-26:loc|-17:pnct|-12:pnct|-10:subj|-9:pnct|-6:pnct|1:vobj|8:pnct">han</W>
-<W lemma="comenzar" msd="VLadj" in="-1:vobj" out="1:dobj|-11:[subj]">comenzado</W>
+<W lemma="comenzar" msd="VLadj" in="-1:vobj" out="-11:[subj]|1:dobj">comenzado</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj" out="1:nobj">su</W>
 <W lemma="marcha" msd="NC" in="-1:nobj" out="1:path">marcha</W>
 <W lemma="a" msd="PREP" in="-1:path" out="1:nobj">a</W>

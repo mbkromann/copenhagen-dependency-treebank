@@ -78,7 +78,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="haber" msd="VHfin" in="" out="-7:subj|1:vobj|3:man">ha</W>
-<W lemma="perder" msd="VLadj" in="-1:vobj" out="1:dobj|-8:[subj]">perdido</W>
+<W lemma="perder" msd="VLadj" in="-1:vobj" out="-8:[subj]|1:dobj">perdido</W>
 <W lemma="importancia" msd="NC" in="-1:dobj" out="">importancia</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-3:man" out="">momentÃ¡neamente</W>
 <W lemma="." msd="FS" in="-24:pnct" out="">.</W>
@@ -88,7 +88,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">crÃ­ticos</W>
 <W lemma="acostumbrar" msd="VLfin" in="-3:vobj" out="-2:subj|1:pobj|7:time|9:pnct">acostumbren</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
-<W lemma="ver" msd="VLinf" in="-1:vobj" out="1:dobj|-4:[subj]">ver</W>
+<W lemma="ver" msd="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj">ver</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:arg">montÃ³n</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
@@ -104,7 +104,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">cinematogrÃ¡ficas</W>
 <W lemma="cuidar" msd="VLfin" in="" out="-6:subj|1:pobj|25:conj">cuidan</W>
 <W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
-<W lemma="presentar" msd="VLinf" in="-1:vobj" out="1:dobj|4:loc|10:prg|-8:[subj]">presentar</W>
+<W lemma="presentar" msd="VLinf" in="-1:vobj" out="-8:[subj]|1:dobj|4:loc|10:prg">presentar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:attrd|2:nobj">las</W>
 <W lemma="nuevo" msd="ADJ" in="-1:attrd" out="">nuevas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="">pelÃ­culas</W>

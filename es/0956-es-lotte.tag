@@ -1,7 +1,7 @@
-<W lemma="ser" msd="VSfin" in="" out="12:pnct|14:time|22:pnct|3:subj|1:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:preds|3:subj|12:pnct|14:time|22:pnct">Es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">condición</W>
-<W lemma="que" msd="CQUE" in="-3:subj" out="3:conj|1:vobj">que</W>
+<W lemma="que" msd="CQUE" in="-3:subj" out="1:vobj|3:conj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="">haya</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="que" msd="CQUE" in="-3:conj" out="-1:coord|2:vobj">que</W>
@@ -44,8 +44,8 @@
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">no</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="deber" msd="VMfin" in="" out="-2:neg|-1:robj|1:vobj|15:pnct|25:pnct|2:subj">debe</W>
-<W lemma="creer" msd="VLinf" in="-1:vobj" out="17:conj|1:[subj]">creer</W>
+<W lemma="deber" msd="VMfin" in="" out="-2:neg|-1:robj|1:vobj|2:subj|15:pnct|25:pnct">debe</W>
+<W lemma="creer" msd="VLinf" in="-1:vobj" out="1:[subj]|17:conj">creer</W>
 <W lemma="que" msd="CQUE" in="-2:subj|-1:[subj]" out="2:vobj">que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="poder" msd="VMfin" in="-2:vobj" out="-1:robj|1:prg|2:vobj|5:loc|8:other">puede</W>
@@ -168,7 +168,7 @@
 <W lemma="de" msd="PREP" in="-1:const#" out="1:nobj">de</W>
 <W lemma="gas" msd="NC" in="-1:nobj" out="">gas</W>
 <W lemma="poder" msd="VMfin" in="-5:vobj" out="-4:subj|1:vobj">pueden</W>
-<W lemma="aceptar" msd="VLinf" in="-1:vobj" out="1:dobj|-5:[subj]">aceptar</W>
+<W lemma="aceptar" msd="VLinf" in="-1:vobj" out="-5:[subj]|1:dobj">aceptar</W>
 <W lemma="este" msd="DM" in="-1:dobj" out="1:nobj">esta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">solución</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="4:pnct" out="">–</W>

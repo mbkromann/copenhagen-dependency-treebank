@@ -10,7 +10,7 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="ir" msd="VLfin" in="" out="-10:subj|2:vobj|5:man|7:loc|17:pnct">van</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
-<W lemma="crear" msd="VLinf" in="-2:vobj" out="1:dobj|-12:[subj]">crear</W>
+<W lemma="crear" msd="VLinf" in="-2:vobj" out="-12:[subj]|1:dobj">crear</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|6:ref|7:relr">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">redacción</W>
 <W lemma="en" msd="PREP" in="-5:man" out="1:nobj">en</W>
@@ -20,7 +20,7 @@
 <W lemma="que" msd="CQUE" in="-6:ref|1:subj|3:[subj]" out="">que</W>
 <W lemma="ir" msd="VLfin" in="-7:relr" out="-1:subj|2:vobj|4:ben">va</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
-<W lemma="entregar" msd="VLinf" in="-2:vobj" out="1:dobj|-3:[subj]">entregar</W>
+<W lemma="entregar" msd="VLinf" in="-2:vobj" out="-3:[subj]|1:dobj">entregar</W>
 <W lemma="material" msd="NC" in="-1:dobj" out="">material</W>
 <W lemma="a" msd="PREP" in="-4:ben" out="1:nobj">a</W>
 <W lemma="ambo" msd="QU" in="-1:nobj" out="1:nobj">ambos</W>
@@ -105,12 +105,12 @@
 <W lemma="del" msd="PDEL" in="-2:attrr" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-9:loc|-1:robj|1:vobj|2:time|9:pnct|11:conj">está</W>
-<W lemma="negociar" msd="VLadj" in="-1:vobj" out="4:dobj">negociando</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-9:loc|-1:robj|1:vobj|2:time|9:pnct|11:conj|5:subj">está</W>
+<W lemma="negociar" msd="VLadj" in="-1:vobj" out="4:[subj]">negociando</W>
 <W lemma="en" msd="PREP" in="-2:time" out="1:nobj">en</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">estos</W>
 <W lemma="momento" msd="NC" in="-1:nobj" out="">momentos</W>
-<W lemma="un" msd="ART" in="-4:dobj" out="1:nobj">una</W>
+<W lemma="un" msd="ART" in="-5:subj|-4:[subj]" out="1:nobj">una</W>
 <W lemma="serie" msd="NC" in="-1:nobj" out="1:pobj:arg">serie</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="reduccin" msd="NC" in="-1:nobj" out="">reducciones</W>

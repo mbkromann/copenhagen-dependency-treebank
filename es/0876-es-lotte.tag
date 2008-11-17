@@ -1,15 +1,15 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attrr|3:conj">Barquillos</W>
 <W lemma="caliente" msd="ADJ" in="-1:attrr" out="">calientes</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="fresa" msd="NC" in="-3:conj" out="-1:coord|1:attrr">fresas</W>
+<W lemma="fresa" msd="NC" in="-3:conj" out="1:attrr|-1:coord">fresas</W>
 <W lemma="fresco" msd="ADJ" in="-1:attrr" out="">frescas</W>
 <W lemma="para" msd="CSUBI" in="5:goal" out="1:vobj">Para</W>
 <W lemma="hacer" msd="VLinf" in="-1:vobj" out="1:dobj">hacer</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">barquillos</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|-5:goal|1:dobj|4:man|9:pnct|21:pnct">baten</W>
-<W lemma="2" msd="CARD" in="-1:dobj" out="1:nobj|2:attrr">2</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:robj|-5:goal|4:man|9:pnct|21:pnct|1:subj">baten</W>
+<W lemma="2" msd="CARD" in="-1:subj" out="1:nobj|2:attrr">2</W>
 <W lemma="yema" msd="NC" in="-1:nobj" out="">yemas</W>
 <W lemma="grande" msd="ADJ" in="-2:attrr" out="">grandes</W>
 <W lemma="con" msd="PREP" in="-4:man" out="1:nobj">con</W>
@@ -109,7 +109,7 @@
 <W lemma="hora" msd="NC" in="-1:nobj" out="">hora</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:struct" out="">También</W>
-<W lemma="poder" msd="VMfin" in="" out="1:vobj|4:pnct|-1:struct">puede</W>
+<W lemma="poder" msd="VMfin" in="" out="-1:struct|1:vobj|4:pnct">puede</W>
 <W lemma="reposar" msd="VLinf" in="-1:vobj" out="1:time">reposar</W>
 <W lemma="varios" msd="QU" in="-1:time" out="1:nobj">varias</W>
 <W lemma="hora" msd="NC" in="-1:nobj" out="">horas</W>
@@ -129,7 +129,7 @@
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">barquillero</W>
 <W lemma="deber" msd="VMfin" in="" out="-2:subj|1:vobj|4:pnct">debe</W>
-<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds|-3:[subj]">estar</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="-3:[subj]|2:preds">estar</W>
 <W lemma="bien" msd="ADV" in="1:degr" out="">bien</W>
 <W lemma="caliente" msd="ADJ" in="-2:preds" out="-1:degr">caliente</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
@@ -153,7 +153,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="">barquillo</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
-<W lemma="usar" msd="VLfin" in="" out="-1:robj|1:degr|6:ben|9:pnct|12:conj|2:subj">usa</W>
+<W lemma="usar" msd="VLfin" in="" out="-1:robj|1:degr|2:subj|6:ben|9:pnct|12:conj">usa</W>
 <W lemma="aproximadamente" msd="ADV" in="-1:degr" out="">aproximadamente</W>
 <W lemma="1" msd="CARD" in="-2:subj" out="1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:arg">dl</W>
