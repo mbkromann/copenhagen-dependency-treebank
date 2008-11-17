@@ -18,15 +18,15 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">alhaja</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|-14:assoc-scope" out="1:nobj">La</W>
+<W lemma="el" msd="ART" in="-14:assoc-scope|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">solución</W>
 <W lemma="era" msd="VEfin" in="" out="-2:subj|1:preds|2:pnct|7:conj">era</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">“Personality”</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
-<W lemma="el" msd="ART" in="3:xtop|-20:assoc-scope" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="-20:assoc-scope|3:xtop" out="1:nobj|2:ref">el</W>
 <W lemma="premio" msd="NC" in="-1:nobj" out="">premio</W>
-<W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
+<W lemma="l" msd="PPO" in="1:dobj|-2:ref" out="">lo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:conj" out="-4:coord|-3:xtop|-1:dobj|2:subj|5:pnct">ganó</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Harald</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef|1:pnct">Jensen</W>
@@ -77,7 +77,7 @@
 <W lemma="poco" msd="ADV" in="-1:dobj" out="">poco</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">IB</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="6:subj|7:[subj]" out="-1:namef|1:pnct|2:appa">GAARN</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="6:subj|7:[subj]" out="-1:namef|1:pnct|2:appa|21:coref">GAARN</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:appa" out="1:attrr|3:pnct">orfebre</W>
 <W lemma="de" msd="PREP" in="-1:attrr" out="1:nobj">de</W>
@@ -98,7 +98,7 @@
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="2:loc" out="">Aquí</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="ver" msd="VLfin" in="" out="-2:loc|-1:robj|2:man|8:pnct">ve</W>
+<W lemma="ver" msd="VLfin" in="-21:coref" out="-2:loc|-1:robj|2:man|8:pnct">ve</W>
 <W lemma="junto" msd="ADJ" in="" out="">junto</W>
 <W lemma="al" msd="PAL" in="-2:man" out="1:attrd|2:nobj|3:attrr">al</W>
 <W lemma="restaurar" msd="VLadj" in="-1:attrd" out="">restaurado</W>
@@ -122,7 +122,7 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="haber" msd="VHfin" in="" out="-5:subj|1:vobj|14:pnct">ha</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="-6:[subj]|1:dobj|7:ben">diseñado</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|3:attrr">la</W>
+<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|3:attrr|13:coref">la</W>
 <W lemma="joya" msd="NC" in="-1:nobj" out="1:attrr">joya</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">artística</W>
 <W lemma="de" msd="PREP" in="-3:attrr" out="1:nobj">de</W>
@@ -135,7 +135,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">joyerías</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-4:appr" out="">Smykkekæden</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="" out="1:subj|6:pnct">Es</W>
+<W lemma="ser" msd="VSfin" in="-13:coref" out="1:subj|6:pnct">Es</W>
 <W lemma="suyo" msd="PPO" in="-1:subj|-21:coref" out="1:attrd|2:nobj">su</W>
 <W lemma="primero" msd="ORD" in="-1:attrd" out="">primer</W>
 <W lemma="trabajo" msd="NC" in="-2:nobj" out="1:pobj:pobj">trabajo</W>
@@ -157,7 +157,7 @@
 <W lemma="@card@" msd="CARD" in="1:numm" out="">225</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:numm">años</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|3:[subj]|-11:assoc-scope" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="-11:assoc-scope|2:subj|3:[subj]" out="1:nobj">El</W>
 <W lemma="aniversario" msd="NC" in="-1:nobj" out="">aniversario</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:vobj|21:pnct">fue</W>
 <W lemma="celebrar" msd="VLadj" in="-1:vobj" out="-3:[subj]|1:pobj|10:man">celebrado</W>
@@ -174,7 +174,7 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:dobj">emisión</W>
 <W lemma="de" msd="PREP" in="-1:pobj:dobj" out="1:nobj">de</W>
-<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj|3:attrr">un</W>
+<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj|3:attrr|10:coref|16:coref-var">un</W>
 <W lemma="sello" msd="NC" in="-1:nobj" out="1:attrr">sello</W>
 <W lemma="conmemorativo" msd="ADJ" in="-1:attrr" out="">conmemorativo</W>
 <W lemma="de" msd="PREP" in="-3:attrr" out="1:numm">de</W>
@@ -184,13 +184,13 @@
 <W lemma="hasta" msd="PREP" in="3:time" out="">Hasta</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="agotar" msd="VLfin" in="" out="-3:time|-1:robj|1:pnct">agoten</W>
+<W lemma="agotar" msd="VLfin" in="-10:coref" out="-3:time|-1:robj|1:pnct">agoten</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">los</W>
 <W lemma="interesado" msd="ADJ" in="-1:nobj" out="">interesados</W>
 <W lemma="poder" msd="VMfin" in="" out="-2:subj|1:vobj">pueden</W>
 <W lemma="obtener" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj|9:loc">obtener</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|2:attrr">un</W>
+<W lemma="un" msd="ART" in="-1:dobj|-16:coref-var" out="1:nobj|2:attrr">un</W>
 <W lemma="ejemplar" msd="ADJ" in="-1:nobj" out="">ejemplar</W>
 <W lemma="con" msd="PREP" in="-2:attrr" out="1:nobj">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -221,7 +221,7 @@
 <W lemma="en" msd="PREP" in="-7:time" out="1:nobj">en</W>
 <W lemma="agosto" msd="NC" in="-1:nobj" out="">agosto</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="ambo" msd="QU" in="2:subj|-12:coref-var" out="1:nobj">Ambos</W>
+<W lemma="ambo" msd="QU" in="-12:coref-var|2:subj" out="1:nobj">Ambos</W>
 <W lemma="aprendiz" msd="NC" in="-1:nobj" out="">aprendices</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|12:pnct">fueron</W>
 <W lemma="instruir" msd="VLadj" in="-1:preds" out="1:loc">instruidos</W>
