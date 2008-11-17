@@ -15,7 +15,7 @@
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="cuando" msd="CSUBX" in="2:time" out="">Cuando</W>
 <W lemma="él" msd="PPX" in="1:subj" out="10:coref">ella</W>
-<W lemma="esperar" msd="VLfin" in="" out="-2:time|1:dobj|3:pnct|-1:subj">esperaba</W>
+<W lemma="esperar" msd="VLfin" in="" out="-2:time|-1:subj|1:dobj|3:pnct">esperaba</W>
 <W lemma="nuestro" msd="PPO" in="-1:dobj" out="1:nobj">nuestra</W>
 <W lemma="hijo" msd="NC" in="-1:nobj" out="">hija</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -49,7 +49,7 @@
 <W lemma="otro" msd="QU" in="-1:dobj" out="1:nobj">otro</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombre</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="-6:qobj|2:pnct|4:pnct|1:subj">constatÃ³</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="-6:qobj|1:subj|2:pnct|4:pnct">constatÃ³</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:subj" out="2:attrr|27:coref-var">Loulou</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="objetivo" msd="ADJ" in="-2:attrr" out="">objetiva</W>
@@ -59,12 +59,12 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:neg|-2:pnct|1:pnct|2:dobj|8:coref">notabas</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-2:dobj" out="2:vobj">que</W>
-<W lemma="él" msd="PPX" in="1:subj|-27:coref" out="26:coref-var">ella</W>
+<W lemma="él" msd="PPX" in="-27:coref|1:subj" out="26:coref-var">ella</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:vobj" out="-1:subj|1:dobj|3:pnct">tenÃ­a</W>
 <W lemma="otro" msd="QU" in="-1:dobj" out="1:nobj">otro</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombre</W>
 <W lemma="?" msd="FS" in="-3:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|-8:coref" out="11:coref">Bernie</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-8:coref|1:subj" out="11:coref">Bernie</W>
 <W lemma="estar" msd="VLfin" in="" out="-1:subj|1:preds|4:time|7:pnct">estaba</W>
 <W lemma="sentado" msd="ADJ" in="-1:preds" out="2:conj">sentado</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
@@ -85,7 +85,7 @@
 <W lemma="fijo" msd="ADV" in="-1:man" out="">fijamente</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="6:pnct" out="">-</W>
-<W lemma="tú" msd="PPO" in="5:subj|-26:coref-var" out="1:nobj|3:conj|21:coref">Tu</W>
+<W lemma="tú" msd="PPO" in="-26:coref-var|5:subj" out="1:nobj|3:conj|21:coref">Tu</W>
 <W lemma="madre" msd="NC" in="-1:nobj" out="">madre</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="yo" msd="PPX" in="-3:conj|-7:coref" out="-1:coord|45:coref">yo</W>
@@ -97,7 +97,7 @@
 <W lemma="entender" msd="VLinf" in="-2:vobj" out="1:dobj">entender</W>
 <W lemma="este" msd="DM" in="-1:dobj" out="">esto</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
-<W lemma="nosotros" msd="PPX" in="1:dobj|-8:coref" out="">Nos</W>
+<W lemma="nosotros" msd="PPX" in="-8:coref|1:dobj" out="">Nos</W>
 <W lemma="encontrar" msd="VLfin" in="-8:coref" out="-1:dobj|1:loc|4:conj">encontramos</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">ParÃ­s</W>
@@ -128,12 +128,12 @@
 <W lemma="yo" msd="PPX" in="-2:ref|1:iobj" out="">me</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-9:coref" out="-4:pnct|-3:xtop|-1:iobj|1:pnct|2:coref">mintiÃ³</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
-<W lemma="él" msd="PPX" in="2:subj|-2:coref" out="11:coref">Ella</W>
-<W lemma="yo" msd="PPX" in="1:iobj|-5:coref" out="15:coref-var">me</W>
-<W lemma="hacer" msd="VLfin" in="" out="-1:iobj|1:vobj|7:pnct|-2:subj">hizo</W>
+<W lemma="él" msd="PPX" in="-2:coref|2:subj" out="11:coref">Ella</W>
+<W lemma="yo" msd="PPX" in="-5:coref|1:iobj" out="15:coref-var">me</W>
+<W lemma="hacer" msd="VLfin" in="" out="-1:iobj|-2:subj|1:vobj|7:pnct">hizo</W>
 <W lemma="creer" msd="VLinf" in="-1:vobj" out="1:dobj">creer</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="1:subj|-45:coref" out="">tÃº</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-45:coref|1:subj" out="">tÃº</W>
 <W lemma="erar|ser" msd="VLfin" in="-2:vobj" out="-1:subj|1:preds">eras</W>
 <W lemma="mío" msd="PPO" in="-1:preds" out="1:nobj">mi</W>
 <W lemma="padre" msd="NC" in="-1:nobj" out="">padre</W>
