@@ -13,13 +13,10 @@
 <align out="b10" type="" in="b10" creator="0" insign="farà" outsign="farà"/>
 <align out="a47" type="s" in="b11" creator="0" insign="la" outsign="Danmark"/>
 <align out="a49" type="" in="b14 b15 b16 b17 b18 b19 b20 b21" creator="0" insign="il no al referendum sul Trattato di Maastricht" outsign="EF-nej'et"/>
-<align out="a50" type="" in="b22" creator="0" insign="dipende" outsign="afhænger"/>
-<align out="a51" type="" in="a51" creator="0" insign="af" outsign="af"/>
 <align out="a56" type="" in="b29" creator="0" insign="." outsign="."/>
 <align out="a52" type="" in="a52" creator="0" insign="," outsign=","/>
 <align out="a47" type="" in="b12" creator="0" insign="Danimarca" outsign="Danmark"/>
 <align out="a48" type="" in="b13" creator="-1" insign="dopo" outsign="efter"/>
-<align out="a53 a54 a55" type="" in="b23 b24 b25 b26 b27 b28" creator="0" insign="a chi si pone la domanda" outsign="hvem man spørger"/>
 <align out="a59" type="s" in="b30" creator="0" insign="Il" outsign="Partiet"/>
 <align out="a59" type="" in="b31" creator="0" insign="partito" outsign="Partiet"/>
 <align out="a62" type="" in="b35" creator="0" insign="di" outsign="i"/>
@@ -204,4 +201,11 @@
 <align out="b49" type="" in="b49" creator="0" insign="," outsign=","/>
 <align out="a185 a186" type="" in="b170 b171 b172 b173 b174" creator="0" insign="politico di spicco della Socialdemocrazia" outsign="fremtrædende socialdemokrat"/>
 <align out="b175" type="" in="b175" creator="0" insign="danese" outsign="danese"/>
+<align out="a43" type="" in="b1" creator="0" insign="cosa" outsign="Hvad"/>
+<align out="b0" type="" in="b0" creator="0" insign="Che" outsign="Che"/>
+<align out="a50 a51" type="" in="b22" creator="0" insign="dipende" outsign="afhænger af"/>
+<align out="a53" type="" in="b24" creator="0" insign="chi" outsign="hvem"/>
+<align out="a54" type="" in="b25" creator="0" insign="si" outsign="man"/>
+<align out="a55" type="" in="b26 b27 b28" creator="0" insign="pone la domanda" outsign="spørger"/>
+<align out="b23" type="" in="b23" creator="0" insign="a" outsign="a"/>
 </DTAGalign>

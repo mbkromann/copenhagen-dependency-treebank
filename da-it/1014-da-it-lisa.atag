@@ -1,7 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/1014-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/1014-it-auto.tag" sign="_input"/>
-<align out="a44 a45" type="" in="b1 b2" creator="0" insign="Al momento" outsign="I øjeblikket"/>
 <align out="a47" type="ds" in="b3" creator="0" insign="la" outsign="folk"/>
 <align out="a47" type="" in="b4" creator="0" insign="gente" outsign="folk"/>
 <align out="a46" type="" in="b6" creator="0" insign="deve" outsign="må"/>
@@ -38,7 +37,6 @@
 <align out="a82" type="" in="b37" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a83 a84 a85" type="" in="b38" creator="0" insign="Secondo" outsign="I henhold til"/>
 <align out="a86" type="s" in="b39" creator="0" insign="la" outsign="bistandslovens"/>
-<align out="a86" type="f" in="b40 b42 b43 b44" creator="0" insign="legge sulla previdenza sociale" outsign="bistandslovens"/>
 <align out="b45" type="" in="b45" creator="0" insign="," outsign=","/>
 <align out="a90" type="" in="a90" creator="0" insign="faktisk" outsign="faktisk"/>
 <align out="a95 a96" type="" in="b51" creator="0" insign="assumere" outsign="at ansætte"/>
@@ -62,7 +60,6 @@
 <align out="a112" type="" in="b66" creator="0" insign="e" outsign="og"/>
 <align out="a108" type="" in="b61" creator="0" insign="in" outsign="på"/>
 <align out="a113" type="f" in="b67 b68" creator="0" insign="nel caso" outsign="når"/>
-<align out="a114 a116 a117" type="f" in="b70 b71 b72" creator="0" insign="riescano a farlo" outsign="de kan overkomme"/>
 <align out="a118" type="" in="b72" creator="0" insign="farlo" outsign="det"/>
 <align out="a110" type="" in="b62" creator="-1" insign="modo" outsign="vis"/>
 <align out="a119" type="" in="b73" creator="-1" insign="," outsign=","/>
@@ -93,8 +90,6 @@
 <align out="a145" type="" in="a145" creator="0" insign="," outsign=","/>
 <align out="a146" type="" in="b103" creator="0" insign="e" outsign="og"/>
 <align out="a148" type="" in="b109" creator="0" insign="interpretazione" outsign="fortolkning"/>
-<align out="a152" type="" in="a152" creator="0" insign="mig" outsign="mig"/>
-<align out="a149 a150 a151" type="" in="b104 b105 b106" creator="0" insign="ho intenzione di" outsign="har jeg tænkt"/>
 <align out="a153 a154" type="" in="b107" creator="0" insign="diffondere" outsign="at udbrede"/>
 <align out="b112" type="" in="b112" creator="0" insign="comune" outsign="comune"/>
 <align out="b113" type="" in="b113" creator="0" insign="di" outsign="di"/>
@@ -104,7 +99,6 @@
 <align out="a155" type="" in="b110" creator="-1" insign="qui" outsign="her"/>
 <align out="a156" type="" in="b111" creator="-1" insign="nel" outsign="i"/>
 <align out="a161" type="" in="b116" creator="0" insign="Purtroppo" outsign="Desværre"/>
-<align out="a163" type="" in="a163" creator="0" insign="det" outsign="det"/>
 <align out="a164" type="f" in="b117" creator="0" insign="però" outsign="jo"/>
 <align out="a165" type="s" in="b119" creator="0" insign="i" outsign="kommunerne"/>
 <align out="a165" type="" in="b120" creator="0" insign="comuni" outsign="kommunerne"/>
@@ -124,7 +118,6 @@
 <align out="b128" type="" in="b128" creator="0" insign="lo" outsign="lo"/>
 <align out="b129" type="" in="b129" creator="0" insign="fanno" outsign="fanno"/>
 <align out="a157" type="" in="b114" creator="-1" insign="Silkeborg" outsign="Silkeborg"/>
-<align out="a162" type="" in="b118" creator="-1" insign="sono" outsign="er"/>
 <align out="a158" type="" in="b115" creator="-1" insign="." outsign="."/>
 <align out="a173" type="" in="b127" creator="-1" insign="e" outsign="og"/>
 <align out="a183 a184" type="" in="b136" creator="0" insign="è" outsign="det er"/>
@@ -188,7 +181,6 @@
 <align out="a255" type="lv" in="b213 b214" creator="0" insign="la Munck" outsign="hun"/>
 <align out="a256" type="" in="b215" creator="0" insign="." outsign="."/>
 <align out="b199" type="" in="b199" creator="0" insign="e" outsign="e"/>
-<align out="a247" type="" in="b203 b204 b205 b206" creator="0" insign="ad un costo di" outsign="til"/>
 <align out="a246" type="f" in="b202" creator="0" insign="parcheggiati" outsign="venteposition"/>
 <align out="a245" type="" in="a245" creator="0" insign="i" outsign="i"/>
 <align out="b200" type="" in="b200" creator="0" insign="vi" outsign="vi"/>
@@ -200,4 +192,13 @@
 <align out="a251" type="" in="b210" creator="-1" insign="giorno" outsign="dagen"/>
 <align out="a240" type="" in="b194" creator="-1" insign="gli" outsign="de"/>
 <align out="a253" type="" in="b211" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a44" type="" in="b1" creator="0" insign="Al" outsign="I"/>
+<align out="a45" type="s" in="b1" creator="0" insign="Al" outsign="øjeblikket"/>
+<align out="a45" type="" in="b2" creator="0" insign="momento" outsign="øjeblikket"/>
+<align out="a86" type="" in="b40 b42 b43 b44" creator="0" insign="legge sulla previdenza sociale" outsign="bistandslovens"/>
+<align out="a114 a116" type="" in="b70 b71" creator="0" insign="riescano a" outsign="de kan"/>
+<align out="a117 a118" type="" in="b72" creator="0" insign="farlo" outsign="overkomme det"/>
+<align out="a149 a150 a151 a152" type="" in="b104 b105 b106" creator="0" insign="ho intenzione di" outsign="har jeg tænkt mig"/>
+<align out="a162 a163" type="" in="b118" creator="0" insign="sono" outsign="er det"/>
+<align out="a247" type="f" in="b203 b204 b205 b206" creator="0" insign="ad un costo di" outsign="til"/>
 </DTAGalign>

@@ -1,7 +1,6 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0781-da.tag" sign="_input"/>
 <alignFile key="b" href="../it/0781-it-auto.tag" sign="_input"/>
-<align out="a46 a47" type="" in="b2 b3 b4" creator="0" insign="del tutto evidente" outsign="helt klart"/>
 <align out="a48" type="" in="a48" creator="0" insign="," outsign=","/>
 <align out="a50" type="" in="b11" creator="0" insign="investimenti" outsign="investeringerne"/>
 <align out="a50" type="s" in="b10" creator="0" insign="degli" outsign="investeringerne"/>
@@ -15,14 +14,12 @@
 <align out="a53 a54" type="mcn" in="b6 b7 b8 b9" creator="0" insign="ci sarà un aumento" outsign="vil stige"/>
 <align out="a44 a45" type="" in="b1" creator="-1" insign="È" outsign="Det er"/>
 <align out="a49" type="" in="b5" creator="-1" insign="che" outsign="at"/>
-<align out="a60" type="" in="b17" creator="-1" insign="anni" outsign="år"/>
 <align out="a43" type="" in="b0" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a61" type="" in="b18" creator="-1" insign="." outsign="."/>
 <align out="a64" type="" in="b19" creator="-1" insign="Ma" outsign="Men"/>
 <align out="a65" type="" in="b20" creator="0" insign="noi" outsign="vi"/>
 <align out="a66 a68" type="f" in="b22" creator="0" insign="operiamo" outsign="farer frem"/>
 <align out="a69 a70" type="f" in="b23" creator="0" insign="imprudentemente" outsign="i blinde"/>
-<align out="a73" type="" in="a73" creator="0" insign="derfor" outsign="derfor"/>
 <align out="a78" type="n" in="b28" creator="0" insign="nei" outsign="den"/>
 <align out="a77" type="" in="b28" creator="0" insign="nei" outsign="i"/>
 <align out="a80" type="f+n" in="b30" creator="0" insign="anni" outsign="tid"/>
@@ -34,7 +31,6 @@
 <align out="a87" type="" in="b33" creator="0" insign="azioni" outsign="aktier"/>
 <align out="a89" type="" in="b36" creator="0" insign="straniere" outsign="udenlandske"/>
 <align out="a90" type="" in="b35" creator="0" insign="società" outsign="selskaber"/>
-<align out="a92 a93" type="" in="b37" creator="0" insign="con" outsign="der har"/>
 <align out="a94" type="" in="b39" creator="0" insign="danesi" outsign="danske"/>
 <align out="a95" type="" in="b38" creator="0" insign="filiali" outsign="datterselskaber"/>
 <align out="a96" type="" in="b41" creator="0" insign="&quot;" outsign="&quot;"/>
@@ -44,7 +40,6 @@
 <align out="b31" type="" in="b31" creator="0" insign="si" outsign="si"/>
 <align out="a86" type="" in="a86" creator="0" insign="af" outsign="af"/>
 <align out="a88" type="" in="b34" creator="0" insign="di" outsign="i"/>
-<align out="a72" type="" in="b25 b26" creator="-1" insign="per cui" outsign="så"/>
 <align out="a71" type="" in="b24" creator="-1" insign="," outsign=","/>
 <align out="a76" type="" in="b27" creator="-1" insign="anche" outsign="også"/>
 <align out="a67" type="" in="b21" creator="-1" insign="non" outsign="ikke"/>
@@ -55,8 +50,6 @@
 <align out="b48" type="" in="b48" creator="0" insign="," outsign=","/>
 <align out="a105 a107 a108 a109" type="" in="b50 b51 b52" creator="0" insign="si sbilancia troppo" outsign="tager munden for fuld"/>
 <align out="a110" type="" in="a110" creator="0" insign="," outsign=","/>
-<align out="a111 a112 a113" type="f" in="b53" creator="0" insign="nel" outsign="når han skal"/>
-<align out="a114" type="" in="b54" creator="0" insign="commentare" outsign="kommentere"/>
 <align out="a115" type="n" in="b55" creator="0" insign="le" outsign="den"/>
 <align out="a116" type="n" in="b56" creator="0" insign="future" outsign="fremtidige"/>
 <align out="a117" type="n" in="b57 b58 b59" creator="0" insign="strategie d' investimento" outsign="investeringsstrategi"/>
@@ -68,7 +61,6 @@
 <align out="a123 a124" type="" in="b64" creator="0" insign="consapevole" outsign="klar over"/>
 <align out="a125" type="" in="a125" creator="0" insign="," outsign=","/>
 <align out="a126" type="" in="b65" creator="0" insign="che" outsign="at"/>
-<align out="a127" type="f" in="b66" creator="0" insign="qualsiasi" outsign="enhver"/>
 <align out="a129" type="f" in="b67" creator="0" insign="mossa" outsign="bevægelse"/>
 <align out="a130" type="" in="b68 b69 b70" creator="0" insign="da parte di" outsign="fra"/>
 <align out="b73" type="" in="b73" creator="0" insign="benché" outsign="benché"/>
@@ -84,7 +76,6 @@
 <align out="a122" type="" in="b62" creator="-1" insign="è" outsign="er"/>
 <align out="b75" type="" in="b75" creator="0" insign="," outsign=","/>
 <align out="a139" type="" in="b81 b82" creator="0" insign="mercato azionario" outsign="aktiemarked"/>
-<align out="a140" type="f" in="b85" creator="0" insign="per" outsign="på_grund_af"/>
 <align out="b84" type="" in="b84" creator="0" insign="proprio" outsign="proprio"/>
 <align out="a141" type="" in="b91" creator="0" insign="ATP" outsign="ATP's"/>
 <align out="a142" type="" in="a142" creator="0" insign="meget" outsign="meget"/>
@@ -117,7 +108,6 @@
 <align out="a171 a172" type="" in="b121" creator="0" insign="1,5%" outsign="1,5 procent"/>
 <align out="a173" type="" in="b122" creator="0" insign="dei" outsign="af"/>
 <align out="a174" type="sn" in="b122" creator="0" insign="dei" outsign="formuen"/>
-<align out="a174" type="" in="b123" creator="0" insign="capitali" outsign="formuen"/>
 <align out="a184" type="" in="b126" creator="0" insign="volersi" outsign="sig"/>
 <align out="a183 a185" type="" in="b127" creator="0" insign="attaccare" outsign="lægge fast"/>
 <align out="a186" type="" in="b129" creator="0" insign="a" outsign="på"/>
@@ -135,12 +125,9 @@
 <align out="a199" type="f" in="b139 b140 b141" creator="0" insign="nel giro di" outsign="om"/>
 <align out="a200" type="" in="b142" creator="0" insign="5-10" outsign="fem-ti"/>
 <align out="a196" type="" in="b138" creator="0" insign="," outsign=","/>
-<align out="a205" type="" in="b152" creator="0" insign="decisamente" outsign="betydelig"/>
 <align out="a207" type="" in="b151" creator="0" insign="parte" outsign="andel"/>
 <align out="b144" type="" in="b144" creator="0" insign="," outsign=","/>
 <align out="a206" type="f" in="b153" creator="0" insign="rilevante" outsign="større"/>
-<align out="a210" type="f" in="b155" creator="0" insign="titoli" outsign="værdipapirer"/>
-<align out="a202 a203 a211 a212" type="" in="b146 b147 b148 b149" creator="0" insign="arriverà a disporre di" outsign="vil have i beholdningen"/>
 <align out="a201" type="" in="b143" creator="-1" insign="anni" outsign="år"/>
 <align out="a209" type="" in="b156" creator="-1" insign="stranieri" outsign="udenlandske"/>
 <align out="a197" type="" in="b137" creator="-1" insign="che" outsign="at"/>
@@ -162,13 +149,24 @@
 <align out="a224" type="" in="b163" creator="-1" insign="sviluppo" outsign="udvikling"/>
 <align out="a213" type="" in="b157" creator="-1" insign="." outsign="."/>
 <align out="a216" type="" in="b158" creator="-1" insign="Egli" outsign="Han"/>
-<align out="a237" type="" in="b173" creator="0" insign="eliminare" outsign="afskaffe"/>
 <align out="a235" type="" in="a235" creator="0" insign="helt" outsign="helt"/>
-<align out="a236" type="" in="a236" creator="0" insign="at" outsign="at"/>
 <align out="a241" type="n" in="b177" creator="0" insign="limitazione" outsign="bindinger"/>
 <align out="a242 a243 a244 a245" type="f" in="b178 b179 b180 b181" creator="0" insign="tra i differenti paesi" outsign="på tværs af landegrænserne"/>
-<align out="a238" type="f" in="b174" creator="-1" insign="qualsiasi" outsign="enhver"/>
 <align out="a240" type="" in="b176" creator="-1" insign="di" outsign="for"/>
 <align out="a246" type="" in="b182" creator="-1" insign="." outsign="."/>
 <align out="a239" type="" in="b175" creator="-1" insign="forma" outsign="form"/>
+<align out="a47" type="" in="b4" creator="0" insign="evidente" outsign="klart"/>
+<align out="a46" type="f" in="b2 b3" creator="0" insign="del tutto" outsign="helt"/>
+<align out="a60" type="" in="b17" creator="0" insign="anni" outsign="år"/>
+<align out="a72 a73" type="" in="b25 b26" creator="0" insign="per cui" outsign="så derfor"/>
+<align out="a92 a93" type="f" in="b37" creator="0" insign="con" outsign="der har"/>
+<align out="a111 a112 a113 a114" type="mcn" in="b53 b54" creator="0" insign="nel commentare" outsign="når han skal kommentere"/>
+<align out="a127" type="" in="b66" creator="0" insign="qualsiasi" outsign="enhver"/>
+<align out="a140" type="" in="b85" creator="0" insign="per" outsign="på_grund_af"/>
+<align out="a174" type="n" in="b123" creator="0" insign="capitali" outsign="formuen"/>
+<align out="a202 a203 a211 a212" type="f" in="b146 b147 b148 b149" creator="0" insign="arriverà a disporre di" outsign="vil have i beholdningen"/>
+<align out="a205" type="f" in="b152" creator="0" insign="decisamente" outsign="betydelig"/>
+<align out="a210" type="" in="b155" creator="0" insign="titoli" outsign="værdipapirer"/>
+<align out="a236 a237" type="" in="b173" creator="0" insign="eliminare" outsign="at afskaffe"/>
+<align out="a238" type="" in="b174" creator="0" insign="qualsiasi" outsign="enhver"/>
 </DTAGalign>

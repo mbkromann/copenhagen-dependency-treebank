@@ -5,7 +5,6 @@
 <align out="a43" type="" in="b1" creator="0" insign="scopo" outsign="Målet"/>
 <align out="a45" type="" in="a45" creator="0" insign="," outsign=","/>
 <align out="a48" type="" in="b4 b5" creator="0" insign="oltre ad" outsign="foruden"/>
-<align out="a55" type="" in="b7 b8" creator="0" insign="la sua" outsign="hans"/>
 <align out="a56" type="" in="b9" creator="0" insign="conoscenza" outsign="viden"/>
 <align out="a57" type="" in="b10" creator="0" insign="sulla" outsign="om"/>
 <align out="a58" type="ds" in="b10" creator="0" insign="sulla" outsign="kørsel"/>
@@ -24,15 +23,12 @@
 <align out="a62" type="" in="b17" creator="-1" insign="anche" outsign="også"/>
 <align out="a64" type="f" in="b18 b19" creator="0" insign="far tesoro" outsign="profitere"/>
 <align out="a65" type="" in="b20" creator="0" insign="della" outsign="af"/>
-<align out="a66" type="" in="b20 b21" creator="0" insign="della sua" outsign="hans"/>
 <align out="a67" type="n" in="b22" creator="0" insign="esperienza" outsign="erfaringer"/>
-<align out="a68 a69 a70" type="" in="b23" creator="0" insign="nel" outsign="inden for det"/>
 <align out="a71 a72" type="" in="b24" creator="0" insign="procurarsi" outsign="at skaffe"/>
 <align out="a73" type="" in="b25" creator="0" insign="sponsorizzazioni" outsign="sponsor-kroner"/>
 <align out="a74" type="" in="b26" creator="0" insign="e" outsign="og"/>
 <align out="a75" type="f" in="b27" creator="0" insign="pubblicità" outsign="omtale"/>
 <align out="a76" type="" in="a76" creator="0" insign="," outsign=","/>
-<align out="a77" type="" in="b28 b29 b30" creator="0" insign="di modo che" outsign="så"/>
 <align out="a78" type="s" in="b31" creator="0" insign="l'" outsign="interessen"/>
 <align out="a78" type="" in="b32" creator="0" insign="interesse" outsign="interessen"/>
 <align out="a80" type="ds" in="b34" creator="0" insign="la" outsign="fart"/>
@@ -147,7 +143,6 @@
 <align out="a194" type="" in="b132" creator="-1" insign="di" outsign="for"/>
 <align out="a196" type="" in="b134" creator="-1" insign="con" outsign="på"/>
 <align out="a197" type="" in="b135" creator="-1" insign="le" outsign="de"/>
-<align out="a203 a204" type="" in="b145" creator="0" insign="son" outsign="er de"/>
 <align out="a205" type="f" in="b146 b147" creator="0" insign="della partita" outsign="med"/>
 <align out="a209 a210" type="" in="b150" creator="0" insign="farò" outsign="vil gøre"/>
 <align out="a211" type="f" in="b151 b152" creator="0" insign="di tutto" outsign="alt"/>
@@ -157,7 +152,6 @@
 <align out="a216 a217" type="" in="b156" creator="0" insign="allenarli" outsign="træne dem"/>
 <align out="a218" type="" in="a218" creator="0" insign="," outsign=","/>
 <align out="a219" type="" in="b157 b158 b159" creator="0" insign="di modo che" outsign="så"/>
-<align out="a220" type="" in="b160 b161" creator="0" insign="il loro" outsign="deres"/>
 <align out="a202" type="" in="b144" creator="-1" insign="adesso" outsign="nu"/>
 <align out="a207" type="" in="b148" creator="-1" insign="ed" outsign="og"/>
 <align out="a215" type="" in="b155" creator="-1" insign="ed" outsign="og"/>
@@ -175,4 +169,14 @@
 <align out="a224" type="" in="b167" creator="-1" insign="non" outsign="ikke"/>
 <align out="a231" type="" in="b174" creator="-1" insign="." outsign="."/>
 <align out="a226" type="" in="b170" creator="-1" insign="," outsign=","/>
+<align out="a55" type="s" in="b7" creator="0" insign="la" outsign="hans"/>
+<align out="a55" type="" in="b8" creator="0" insign="sua" outsign="hans"/>
+<align out="a66" type="s" in="b20" creator="0" insign="della" outsign="hans"/>
+<align out="a66" type="" in="b21" creator="0" insign="sua" outsign="hans"/>
+<align out="a68 a69 a70" type="f" in="b23" creator="0" insign="nel" outsign="inden for det"/>
+<align out="a77" type="f" in="b28 b29 b30" creator="0" insign="di modo che" outsign="så"/>
+<align out="a203 a204" type="e" in="b145" creator="0" insign="son" outsign="er de"/>
+<align out="a219" type="f" in="b157 b158 b159" creator="0" insign="di modo che" outsign="så"/>
+<align out="a220" type="s" in="b160" creator="0" insign="il" outsign="deres"/>
+<align out="a220" type="" in="b161" creator="0" insign="loro" outsign="deres"/>
 </DTAGalign>
