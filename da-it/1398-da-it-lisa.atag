@@ -1,0 +1,175 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1398-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/1398-it-auto.tag" sign="_input"/>
+<align out="a48" type="" in="b4" creator="0" insign="l'" outsign="det"/>
+<align out="a43" type="" in="a43" creator="0" insign="Så" outsign="Så"/>
+<align out="a55" type="" in="b13" creator="0" insign="dei" outsign="de"/>
+<align out="a56" type="" in="b15" creator="0" insign="serbi" outsign="serbiske"/>
+<align out="a57" type="" in="b14" creator="0" insign="soldati" outsign="soldater"/>
+<align out="a60" type="" in="b17 b18 b19" creator="0" insign="avrebbero dovuto essere" outsign="skulle"/>
+<align out="a61" type="" in="b20" creator="0" insign="scambiati" outsign="udveksles"/>
+<align out="a62" type="f" in="b21" creator="0" insign="con" outsign="for"/>
+<align out="a63" type="s" in="b22" creator="0" insign="il" outsign="præsidenten"/>
+<align out="a63" type="" in="b23" creator="0" insign="presidente" outsign="præsidenten"/>
+<align out="a66" type="s" in="b9" creator="0" insign="la" outsign="livet"/>
+<align out="a66" type="" in="b10" creator="0" insign="vita" outsign="livet"/>
+<align out="a52" type="" in="a52" creator="0" insign="hvorved" outsign="hvorved"/>
+<align out="b8" type="" in="b8" creator="0" insign="costato" outsign="costato"/>
+<align out="a58" type="" in="a58" creator="0" insign="," outsign=","/>
+<align out="a44" type="" in="b0" creator="-1" insign="Molto" outsign="meget"/>
+<align out="a45" type="" in="b1" creator="-1" insign="più" outsign="mere"/>
+<align out="a54" type="" in="b11" creator="-1" insign="di" outsign="af"/>
+<align out="a53" type="" in="b12" creator="-1" insign="alcuni" outsign="nogle"/>
+<align out="a47" type="" in="b3" creator="-1" insign="è" outsign="er"/>
+<align out="a51" type="" in="b7" creator="-1" insign="," outsign=","/>
+<align out="a59" type="" in="b16" creator="-1" insign="che" outsign="der"/>
+<align out="a46" type="" in="b2" creator="-1" insign="preoccupante" outsign="foruroligende"/>
+<align out="a49" type="" in="b5" creator="-1" insign="agguato" outsign="bosniske"/>
+<align out="a50" type="" in="b6" creator="-1" insign="bosniaco" outsign="baghold"/>
+<align out="a65" type="" in="a65" creator="0" insign="mistede" outsign="mistede"/>
+<align out="a64" type="" in="a64" creator="0" insign="," outsign=","/>
+<align out="a74" type="" in="b27" creator="0" insign="avvenimenti" outsign="begivenheder"/>
+<align out="a76" type="f" in="b28" creator="0" insign="sembrano" outsign="sandsynligvis"/>
+<align out="a86" type="" in="a86" creator="0" insign="," outsign=","/>
+<align out="a85" type="" in="b37" creator="0" insign="scontri" outsign="opgør"/>
+<align out="a84" type="" in="b38" creator="0" insign="etnici" outsign="etniske"/>
+<align out="a82 a83" type="" in="b36" creator="0" insign="negli" outsign="i de"/>
+<align out="a75" type="f" in="b29" creator="0" insign="mostrare" outsign="tegner"/>
+<align out="a77" type="" in="a77" creator="0" insign="omridset" outsign="omridset"/>
+<align out="a79" type="" in="b33" creator="0" insign="una" outsign="et"/>
+<align out="a81" type="" in="b35" creator="0" insign="metodologia" outsign="mønster"/>
+<align out="a80" type="f" in="b30 b31" creator="0" insign="il ripetersi" outsign="varigt"/>
+<align out="b34" type="" in="b34" creator="0" insign="certa" outsign="certa"/>
+<align out="a78" type="" in="b32" creator="-1" insign="di" outsign="af"/>
+<align out="a67" type="" in="b24" creator="-1" insign="." outsign="."/>
+<align out="a87" type="" in="b39" creator="-1" insign="che" outsign="der"/>
+<align out="a73" type="" in="b26" creator="-1" insign="due" outsign="to"/>
+<align out="a72" type="" in="b25" creator="-1" insign="I" outsign="De"/>
+<align out="a91 a92" type="f" in="b43" creator="0" insign="scoppiano" outsign="flammer op"/>
+<align out="a93" type="" in="b44" creator="0" insign="in" outsign="i"/>
+<align out="a94" type="" in="b45" creator="0" insign="vari" outsign="flere"/>
+<align out="a98" type="" in="b49" creator="0" insign="socialisti" outsign="socialistiske"/>
+<align out="a97" type="" in="b47 b48" creator="0" insign="in passato" outsign="tidligere"/>
+<align out="a96" type="" in="a96" creator="0" insign="de" outsign="de"/>
+<align out="a95" type="" in="a95" creator="0" insign="af" outsign="af"/>
+<align out="a107" type="f" in="b54" creator="0" insign="particolare" outsign="konkrete"/>
+<align out="b55" type="" in="b55" creator="0" insign="," outsign=","/>
+<align out="a90" type="" in="b42" creator="-1" insign="periodo" outsign="tid"/>
+<align out="a108" type="" in="b53" creator="-1" insign="caso" outsign="tilfælde"/>
+<align out="a99" type="" in="b46" creator="-1" insign="paesi" outsign="lande"/>
+<align out="a100" type="" in="b50" creator="-1" insign="." outsign="."/>
+<align out="a89" type="" in="b41" creator="-1" insign="questo" outsign="denne"/>
+<align out="a106" type="" in="b52" creator="-1" insign="questo" outsign="det"/>
+<align out="a88" type="" in="b40" creator="-1" insign="in" outsign="i"/>
+<align out="a105" type="" in="b51" creator="-1" insign="In" outsign="I"/>
+<align out="a109 a112" type="f" in="b59" creator="0" insign="ha" outsign="står med"/>
+<align out="a113" type="s" in="b60" creator="0" insign="la" outsign="ansvaret"/>
+<align out="a113" type="" in="b61" creator="0" insign="responsabilità" outsign="ansvaret"/>
+<align out="a114" type="" in="b62" creator="0" insign="di" outsign="for"/>
+<align out="a110" type="s" in="b56" creator="0" insign="l'" outsign="forbundshæren"/>
+<align out="a110" type="" in="b57 b58" creator="0" insign="esercito federale" outsign="forbundshæren"/>
+<align out="a117" type="" in="b64" creator="0" insign="provocato" outsign="fremprovokeret"/>
+<align out="a118" type="s" in="b65" creator="0" insign="la" outsign="situationen"/>
+<align out="a118" type="" in="b66" creator="0" insign="situazione" outsign="situationen"/>
+<align out="a119" type="" in="b67" creator="0" insign="con" outsign="med"/>
+<align out="a120" type="f" in="b68" creator="0" insign="il" outsign="sin"/>
+<align out="a121" type="" in="b69" creator="0" insign="paradossale" outsign="groteske"/>
+<align out="a122" type="" in="b70" creator="0" insign="arresto" outsign="pågribelse"/>
+<align out="a123" type="" in="b71" creator="0" insign="del" outsign="af"/>
+<align out="a124" type="" in="b71" creator="0" insign="del" outsign="den"/>
+<align out="a125" type="" in="b73" creator="0" insign="bosniaco" outsign="bosniske"/>
+<align out="a126" type="" in="b72" creator="0" insign="presidente" outsign="præsident"/>
+<align out="a111" type="" in="a111" creator="0" insign="naturligvis" outsign="naturligvis"/>
+<align out="a115 a116" type="" in="b63" creator="-1" insign="aver" outsign="at have"/>
+<align out="a128 a129 a130" type="mcn" in="b74 b75 b76" creator="0" insign="al suo arrivo" outsign="da han landede"/>
+<align out="a131" type="" in="b77" creator="0" insign="a" outsign="i"/>
+<align out="a133" type="" in="b79 b80" creator="0" insign="sabato scorso" outsign="i_lørdags"/>
+<align out="a127" type="" in="a127" creator="0" insign="," outsign=","/>
+<align out="b81" type="" in="b81" creator="0" insign="," outsign=","/>
+<align out="a134" type="f" in="b82 b83 b84" creator="0" insign="di ritorno dalle" outsign="efter"/>
+<align out="a135" type="ds" in="b84" creator="0" insign="dalle" outsign="drøftelser"/>
+<align out="a135" type="" in="b85" creator="0" insign="trattative" outsign="drøftelser"/>
+<align out="a139" type="" in="b88" creator="0" insign="governo" outsign="regering"/>
+<align out="a139" type="ds" in="b87" creator="0" insign="il" outsign="regering"/>
+<align out="a137" type="mvf" in="b91 b92 b93 b94 b95" creator="0" insign="che presiede la Comunità Europea" outsign="EF-formandslandet"/>
+<align out="a138" type="f" in="b89" creator="0" insign="portoghese" outsign="Portugals"/>
+<align out="b90" type="" in="b90" creator="0" insign="," outsign=","/>
+<align out="a140" type="" in="b96" creator="0" insign="." outsign="."/>
+<align out="a136" type="" in="b86" creator="0" insign="con" outsign="med"/>
+<align out="a132" type="" in="b78" creator="-1" insign="Sarajevo" outsign="Sarajevo"/>
+<align out="a151" type="f" in="b98 b99 b100" creator="0" insign="a quanto pare" outsign="åbenbart"/>
+<align out="a147" type="" in="a147" creator="0" insign="i" outsign="i"/>
+<align out="a149 a152 a153" type="" in="b106" creator="0" insign="sa" outsign="er klar over"/>
+<align out="a146" type="f" in="b103" creator="0" insign="stesso" outsign="selv"/>
+<align out="a148" type="" in="b104 b105" creator="0" insign="esercito federale" outsign="Forbundshæren"/>
+<align out="a148" type="s" in="b102" creator="0" insign="lo" outsign="Forbundshæren"/>
+<align out="b101" type="" in="b101" creator="0" insign="," outsign=","/>
+<align out="a154" type="" in="a154" creator="0" insign="," outsign=","/>
+<align out="a156" type="" in="b109" creator="0" insign="nessuna" outsign="intet"/>
+<align out="a150" type="" in="a150" creator="0" insign="man" outsign="man"/>
+<align out="b108" type="" in="b108" creator="0" insign="oggi" outsign="oggi"/>
+<align out="a157" type="" in="a157" creator="0" insign="moderne" outsign="moderne"/>
+<align out="a158" type="" in="a158" creator="0" insign="samfunds" outsign="samfunds"/>
+<align out="b111" type="" in="b111" creator="0" insign="locale" outsign="locale"/>
+<align out="a161 a162 a163 a164 a165" type="" in="b113 b114 b115 b116" creator="0" insign="agire senza curarsi delle" outsign="vende det døve øre til"/>
+<align out="a167" type="" in="b117" creator="0" insign="reazioni" outsign="reaktioner"/>
+<align out="a166" type="s" in="b118" creator="0" insign="del" outsign="omverdenens"/>
+<align out="a166" type="" in="b119 b120" creator="0" insign="mondo circostante" outsign="omverdenens"/>
+<align out="a159" type="n" in="b110" creator="0" insign="autorità" outsign="myndighedsorganer"/>
+<align out="a155" type="" in="b107" creator="-1" insign="che" outsign="at"/>
+<align out="a160" type="" in="b112" creator="-1" insign="può" outsign="kan"/>
+<align out="a145" type="" in="b97" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a168" type="f" in="b121" creator="0" insign="." outsign="&nbsp;-&nbsp;"/>
+<align out="a173 a174 a175" type="e" in="b122 b123 b124 b125 b126 b127 b128" creator="0" insign="( ? )la più piccola di tutte" outsign="mindst af alle"/>
+<align out="a176" type="ds" in="b129" creator="0" insign="le" outsign="samfund"/>
+<align out="a176" type="" in="b130" creator="0" insign="collettività" outsign="samfund"/>
+<align out="a178" type="" in="b132 b133" creator="0" insign="il cui" outsign="hvis"/>
+<align out="a180 a181" type="" in="b135 b136" creator="0" insign="dipende dagli" outsign="afhænger af"/>
+<align out="a182" type="n" in="b137" creator="0" insign="aiuti" outsign="hjælp"/>
+<align out="a182" type="dns" in="b136" creator="0" insign="dagli" outsign="hjælp"/>
+<align out="a183" type="" in="b138" creator="0" insign="esterni" outsign="udefra"/>
+<align out="a179" type="" in="b134" creator="-1" insign="futuro" outsign="fremtid"/>
+<align out="a189" type="" in="b140" creator="-1" insign="Questo" outsign="Det"/>
+<align out="a177" type="" in="b131" creator="-1" insign="," outsign=","/>
+<align out="a184" type="" in="b139" creator="-1" insign="." outsign="."/>
+<align out="a190" type="f" in="b141 b142 b143" creator="0" insign="punto di vista" outsign="perspektiv"/>
+<align out="a192" type="" in="b146" creator="0" insign="comprensibilmente" outsign="forståeligt"/>
+<align out="a193" type="" in="a193" creator="0" insign="nok" outsign="nok"/>
+<align out="b145" type="" in="b145" creator="0" insign="-" outsign="-"/>
+<align out="b147" type="" in="b147" creator="0" insign="-" outsign="-"/>
+<align out="a191 a195 a196 a197" type="f" in="b144 b149" creator="0" insign="è secondario" outsign="kommer i anden række"/>
+<align out="a204" type="s" in="b156" creator="0" insign="l'" outsign="forbundshæren"/>
+<align out="a204" type="" in="b157 b158" creator="0" insign="esercito federale" outsign="forbundshæren"/>
+<align out="a203" type="" in="b155" creator="0" insign="considerano" outsign="ser"/>
+<align out="a198" type="" in="b150" creator="-1" insign="per" outsign="for"/>
+<align out="a206" type="d" in="b160" creator="-1" insign="il" outsign="et"/>
+<align out="a194" type="" in="b148" creator="-1" insign="ancora" outsign="endnu"/>
+<align out="a201" type="" in="b153" creator="-1" insign="," outsign=","/>
+<align out="a199" type="" in="b151" creator="-1" insign="i" outsign="de"/>
+<align out="a202" type="" in="b154" creator="-1" insign="che" outsign="der"/>
+<align out="a205" type="" in="b159" creator="-1" insign="come" outsign="som"/>
+<align out="a200" type="" in="b152" creator="-1" insign="partigiani" outsign="partisaner"/>
+<align out="a207" type="" in="b162" creator="0" insign="intollerabile" outsign="utåleligt"/>
+<align out="a208" type="" in="b161" creator="0" insign="residuo" outsign="levn"/>
+<align out="a209" type="" in="b163" creator="0" insign="del" outsign="efter"/>
+<align out="a210" type="" in="b163" creator="0" insign="del" outsign="det"/>
+<align out="a212" type="" in="a212" creator="0" insign="," outsign=","/>
+<align out="a215" type="" in="b167" creator="0" insign="generazioni" outsign="generationer"/>
+<align out="a217 a218" type="f" in="b169" creator="0" insign="permesso" outsign="stået for"/>
+<align out="a219" type="f" in="b171" creator="0" insign="serbi" outsign="serbisk"/>
+<align out="a227" type="" in="b175" creator="0" insign="autonomia" outsign="selvstændighed"/>
+<align out="a226" type="" in="b176" creator="0" insign="nazionale" outsign="nationale"/>
+<align out="a225" type="s" in="b177" creator="0" insign="degli" outsign="folkegruppers"/>
+<align out="a225" type="" in="b179 b180" creator="0" insign="gruppi etnici" outsign="folkegruppers"/>
+<align out="a224" type="" in="b181" creator="0" insign="jugoslavi" outsign="jugoslaviske"/>
+<align out="a222" type="" in="b177" creator="0" insign="degli" outsign="de"/>
+<align out="b170" type="" in="b170" creator="0" insign="ai" outsign="ai"/>
+<align out="a220" type="f-mvf" in="b173" creator="0" insign="frenare" outsign="undertrykkelse"/>
+<align out="a227" type="ds" in="b174" creator="0" insign="l'" outsign="selvstændighed"/>
+<align out="a211" type="" in="b164" creator="-1" insign="regime" outsign="regime"/>
+<align out="a216" type="" in="b168" creator="-1" insign="ha" outsign="har"/>
+<align out="a223" type="" in="b178" creator="-1" insign="altri" outsign="andre"/>
+<align out="a213" type="" in="b165" creator="-1" insign="che" outsign="der"/>
+<align out="a214" type="" in="b166" creator="-1" insign="per" outsign="i"/>
+<align out="a221" type="" in="b172" creator="-1" insign="di" outsign="af"/>
+</DTAGalign>
