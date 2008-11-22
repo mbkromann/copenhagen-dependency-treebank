@@ -59,13 +59,4 @@
 <align out="b110 b111" type="" in="b110 b111" creator="0" insign="ha la" outsign="ha la"/>
 <align out="a166" type="sn" in="b118" creator="0" insign="i" outsign="udsalget"/>
 <align out="a166" type="" in="b119" creator="0" insign="saldi" outsign="udsalget"/>
-<align out="a164 a165" type="" in="b116 b117" creator="-100" insign="Abbiamo avviato" outsign="Vi begyndte"/>
-<align out="a168" type="" in="b121" creator="-100" insign="22" outsign="22."/>
-<align out="a169" type="" in="b122" creator="-100" insign="giugno" outsign="juni"/>
-<align out="a170" type="" in="b124" creator="-100" insign="in" outsign="og"/>
-<align out="a154" type="" in="b108" creator="-100" insign="Daells" outsign="Daells"/>
-<align out="a155" type="" in="b109" creator="-100" insign="Varehus" outsign="Varehus"/>
-<align out="a163" type="" in="b115" creator="-100" insign="&quot;" outsign="&quot;"/>
-<align out="a162" type="" in="b114" creator="-100" insign=":" outsign=":"/>
-<align out="a167" type="" in="b120" creator="-100" insign="il" outsign="den"/>
 </DTAGalign>
