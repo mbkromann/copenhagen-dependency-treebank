@@ -43,7 +43,6 @@
 <align out="a99" type="f" in="b39" creator="0" insign="graziosa" outsign="pæne"/>
 <align out="b38" type="" in="b38" creator="0" insign="solita" outsign="solita"/>
 <align out="a105 a106 a107" type="" in="b43 b44" creator="0" insign="ne uscivo" outsign="jeg steg ud"/>
-<align out="a108 a109" type="" in="b45 b46" creator="0" insign="ero trasformata" outsign="forvandledes jeg"/>
 <align out="a111" type="s" in="b48" creator="0" insign="una" outsign="vamp"/>
 <align out="a111" type="" in="b49" creator="0" insign="vamp" outsign="vamp"/>
 <align out="a115" type="" in="b52" creator="0" insign="femme" outsign="Femme"/>
@@ -114,14 +113,11 @@
 <align out="a178" type="" in="b117" creator="0" insign="e" outsign="og"/>
 <align out="a181" type="f" in="b120" creator="0" insign="po'" outsign="tid"/>
 <align out="a189" type="" in="b127" creator="0" insign="bibita" outsign="drink"/>
-<align out="a186 a187" type="mvg" in="b125" creator="0" insign="offrendogli" outsign="byder ham"/>
-<align out="a185" type="" in="a185" creator="0" insign="og" outsign="og"/>
 <align out="b124" type="" in="b124" creator="0" insign="lui" outsign="lui"/>
 <align out="a182 a184" type="f" in="b122 b123" creator="0" insign="va da" outsign="går over"/>
 <align out="a198 a199" type="wo" in="b129 b130" creator="0" insign="Di solito" outsign="som regel"/>
 <align out="a195" type="" in="a195" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
 <align out="b131" type="" in="b131" creator="0" insign="," outsign=","/>
-<align out="a196" type="lv" in="b132 b133" creator="0" insign="quest' uomo" outsign="Fyren"/>
 <align out="a197" type="" in="b134" creator="0" insign="sa" outsign="ved"/>
 <align out="a200" type="" in="b135" creator="-1" insign="bene" outsign="godt"/>
 <align out="a183" type="f" in="b121" creator="-1" insign="si" outsign="de"/>
@@ -167,4 +163,9 @@
 <align out="a250" type="" in="b172" creator="-1" insign="ragazza" outsign="pige"/>
 <align out="a248" type="" in="b171" creator="-1" insign="una" outsign="en"/>
 <align out="a251" type="" in="b175" creator="-1" insign="." outsign="."/>
+<align out="a76" type="s" in="b21" creator="0" insign="nel" outsign="weekenden"/>
+<align out="a108 a109" type="mvd" in="b45 b46" creator="0" insign="ero trasformata" outsign="forvandledes jeg"/>
+<align out="a196" type="" in="b133" creator="0" insign="uomo" outsign="Fyren"/>
+<align out="a196" type="s" in="b132" creator="0" insign="quest'" outsign="Fyren"/>
+<align out="a185 a186 a187" type="mvg" in="b125" creator="0" insign="offrendogli" outsign="og byder ham"/>
 </DTAGalign>

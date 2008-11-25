@@ -58,7 +58,6 @@
 <align out="b58" type="" in="b58" creator="0" insign="poi" outsign="poi"/>
 <align out="a106" type="" in="b61" creator="0" insign="." outsign="."/>
 <align out="a97" type="" in="a97" creator="0" insign="melblandingen" outsign="melblandingen"/>
-<align out="a96 a98 a101 a102 a103 a104 a105" type="f+mvg" in="b57" creator="0" insign="unendovi" outsign="pisk i indtil alt er godt blandet"/>
 <align out="a87" type="" in="b44" creator="-1" insign="cucchiaino" outsign="tsk."/>
 <align out="a90" type="" in="b50" creator="-1" insign="50" outsign="50"/>
 <align out="a100" type="" in="a100" creator="0" insign="," outsign=","/>
@@ -72,7 +71,6 @@
 <align out="a122" type="" in="b74" creator="0" insign="bianchi" outsign="hvider"/>
 <align out="a125 a126" type="f" in="b76" creator="0" insign="aggiungeteli" outsign="vend dem"/>
 <align out="a128" type="s" in="b77" creator="0" insign="all'" outsign="dejen"/>
-<align out="a127" type="f" in="b77" creator="0" insign="all'" outsign="i"/>
 <align out="a128" type="" in="b78" creator="0" insign="impasto" outsign="dejen"/>
 <align out="a115" type="" in="b66" creator="-1" insign="burro" outsign="smør"/>
 <align out="a110" type="" in="b63" creator="-1" insign="125" outsign="125"/>
@@ -129,7 +127,6 @@
 <align out="a190" type="" in="b131" creator="0" insign="spennellarla" outsign="det"/>
 <align out="a189" type="" in="b131" creator="0" insign="spennellarla" outsign="pensle"/>
 <align out="a186 a187" type="f" in="b129 b130" creator="0" insign="è necessario" outsign="behøver man"/>
-<align out="a192" type="f+lv" in="b133 b134 b135 b136" creator="0" insign="dell' olio o burro-" outsign="fedtstof"/>
 <align out="a195" type="" in="b137" creator="0" insign="eventualmente" outsign="måske"/>
 <align out="a193" type="" in="a193" creator="0" insign="," outsign=","/>
 <align out="a194" type="" in="a194" creator="0" insign="udover" outsign="udover"/>
@@ -156,13 +153,11 @@
 <align out="a218" type="" in="b157" creator="0" insign="dorate" outsign="gyldne"/>
 <align out="a219" type="" in="a219" creator="0" insign="," outsign=","/>
 <align out="a220 a221 a222" type="f" in="b158 b159" creator="0" insign="non appena" outsign="lige så snart"/>
-<align out="a223" type="" in="b161" creator="0" insign="," outsign=","/>
 <align out="a205" type="" in="b145" creator="-1" insign="circa" outsign="ca."/>
 <align out="a207" type="" in="b147" creator="-1" insign="decilitro" outsign="dl"/>
 <align out="a212" type="f" in="b150" creator="-1" insign="." outsign=","/>
 <align out="a206" type="" in="b146" creator="-1" insign="1" outsign="1"/>
 <align out="a224 a225 a226" type="mcadj" in="b160" creator="0" insign="pronte" outsign="de er bagt"/>
-<align out="b161" type="" in="b161" creator="0" insign="," outsign=","/>
 <align out="a227" type="" in="a227" creator="0" insign="." outsign="."/>
 <align out="a230" type="" in="a230" creator="0" insign="Server" outsign="Server"/>
 <align out="a231" type="" in="b165" creator="0" insign="fresche" outsign="friske"/>
@@ -181,4 +176,9 @@
 <align out="a234" type="" in="b164" creator="-1" insign="fragole" outsign="jordbær"/>
 <align out="a232" type="" in="b166" creator="-1" insign="o" outsign="eller"/>
 <align out="a250" type="f" in="b177" creator="0" insign="Agnello" outsign="lammebov"/>
+<align out="a96 a98 a101 a102 a103 a104 a105" type="f+mvg" in="b57" creator="0" insign="unendovi" outsign="pisk i indtil alt er godt blandet"/>
+<align out="a127" type="" in="b77" creator="0" insign="all'" outsign="i"/>
+<align out="a192" type="ds" in="b133" creator="0" insign="dell'" outsign="fedtstof"/>
+<align out="a192" type="lv" in="b134 b135 b136" creator="0" insign="olio o burro-" outsign="fedtstof"/>
+<align out="a223" type="" in="b161" creator="0" insign="," outsign=","/>
 </DTAGalign>

@@ -14,7 +14,6 @@
 <align out="a43" type="" in="b0" creator="-1" insign="11" outsign="11"/>
 <align out="a49" type="" in="b17" creator="-1" insign="11" outsign="11"/>
 <align out="a45" type="" in="b2" creator="-1" insign="per" outsign="af"/>
-<align out="a54" type="" in="b9" creator="-1" insign="nel" outsign="i"/>
 <align out="a44" type="" in="b1" creator="-1" insign="morti" outsign="døde"/>
 <align out="a60" type="" in="b25 b26 b27" creator="0" insign="abuso di stupefacenti" outsign="narkotikamisbrug"/>
 <align out="a57 a58 a59" type="f" in="b24" creator="0" insign="per" outsign="som følge af"/>
@@ -49,9 +48,6 @@
 <align out="a87" type="" in="b49" creator="-1" insign="non" outsign="ikke"/>
 <align out="a82" type="" in="b46" creator="-1" insign="." outsign="."/>
 <align out="a96" type="" in="b60" creator="0" insign="," outsign=","/>
-<align out="a98 a99" type="f" in="b62 b63" creator="0" insign="si limita" outsign="nøjes med"/>
-<align out="a99" type="f" in="b64" creator="0" insign="ad" outsign="med"/>
-<align out="a100 a101" type="" in="b64 b65" creator="0" insign="ad affermare" outsign="at fastslå"/>
 <align out="a102" type="" in="a102" creator="0" insign="," outsign=","/>
 <align out="a103" type="" in="b66" creator="0" insign="che" outsign="at"/>
 <align out="a104 a107" type="f" in="b68" creator="0" insign="sussiste" outsign="der er"/>
@@ -112,8 +108,6 @@
 <align out="a158" type="" in="b128" creator="-1" insign="di" outsign="i"/>
 <align out="a154" type="" in="b123" creator="-1" insign="stabilito" outsign="besluttet"/>
 <align out="b132" type="" in="b132" creator="0" insign="," outsign=","/>
-<align out="a162" type="" in="a162" creator="0" insign="og" outsign="og"/>
-<align out="a162 a163" type="mvg" in="b133" creator="0" insign="risparmiando" outsign="og sparer"/>
 <align out="a164" type="" in="b134 b135" creator="0" insign="di conseguenza" outsign="dermed"/>
 <align out="a165" type="" in="b136" creator="0" insign="circa" outsign="ca."/>
 <align out="a167" type="" in="b138 b139 b140" creator="0" insign="corone . awb" outsign="kr.awb"/>
@@ -167,4 +161,9 @@
 <align out="a221" type="" in="b205" creator="-1" insign="da" outsign="fra"/>
 <align out="a216" type="" in="b196" creator="-1" insign="," outsign=","/>
 <align out="a218" type="" in="b198" creator="-1" insign="un" outsign="et"/>
+<align out="a54" type="wo" in="b9" creator="0" insign="nel" outsign="i"/>
+<align out="a98 a99" type="f" in="b62 b63 b64" creator="0" insign="si limita ad" outsign="nøjes med"/>
+<align out="a100 a101" type="" in="b65" creator="0" insign="affermare" outsign="at fastslå"/>
+<align out="a162 a163" type="mvg" in="b133" creator="0" insign="risparmiando" outsign="og sparer"/>
+<align out="a229" type="" in="a229" creator="0" insign="hel" outsign="hel"/>
 </DTAGalign>

@@ -12,7 +12,6 @@
 <align out="a58 a59" type="mcn" in="b10 b11" creator="0" insign="la cura" outsign="at behandle"/>
 <align out="a60" type="" in="b13" creator="0" insign="malattie" outsign="sygdomme"/>
 <align out="a61" type="" in="a61" creator="0" insign="," outsign=","/>
-<align out="a55 a56 a57" type="f" in="b8 b9" creator="0" insign="reso possibile" outsign="givet mulighed for"/>
 <align out="b0" type="" in="b0" creator="0" insign="Gli" outsign="Gli"/>
 <align out="b1" type="" in="b1" creator="0" insign="sviluppi" outsign="sviluppi"/>
 <align out="a43" type="" in="a43" creator="0" insign="Meget" outsign="Meget"/>
@@ -84,7 +83,6 @@
 <align out="a109" type="" in="b73" creator="0" insign="etc" outsign="o.s.v."/>
 <align out="a117" type="" in="b76" creator="0" insign="risparmi" outsign="besparelser"/>
 <align out="a116" type="f" in="b77 b78" creator="0" insign="della collettività" outsign="samfundsmæssige"/>
-<align out="a119 a122 a123 a124" type="f+mcn" in="b80" creator="0" insign="conseguenza" outsign="der følger i kølvandet"/>
 <align out="a125" type="" in="b81" creator="0" insign="di" outsign="på"/>
 <align out="a126" type="" in="b82" creator="0" insign="questi" outsign="disse"/>
 <align out="a127" type="" in="b84" creator="0" insign="terapeutici" outsign="terapeutiske"/>
@@ -97,7 +95,6 @@
 <align out="a128" type="" in="b83" creator="0" insign="progressi" outsign="fremskridt"/>
 <align out="a132" type="" in="b88" creator="0" insign="immediatamente" outsign="umiddelbart"/>
 <align out="a133" type="" in="b89" creator="0" insign="visibili" outsign="synlige"/>
-<align out="a135 a136 a137" type="lv" in="b91 b92" creator="0" insign="bilanci nazionali" outsign="det store regnskab"/>
 <align out="a141" type="f" in="b94 b95" creator="0" insign="anche se" outsign="Men"/>
 <align out="a145" type="" in="b98 b99 b100" creator="0" insign="dato di fatto" outsign="faktum"/>
 <align out="a146" type="" in="a146" creator="0" insign="," outsign=","/>
@@ -120,7 +117,6 @@
 <align out="a160" type="" in="a160" creator="0" insign="nye" outsign="nye"/>
 <align out="a162" type="" in="a162" creator="0" insign="også" outsign="også"/>
 <align out="a164" type="d" in="b123" creator="0" insign="futuro" outsign="fremtiden"/>
-<align out="a165 a166 a177 a178 a179" type="f(mvg)" in="b115 b116 b117 b118 b119 b120 b121" creator="0" insign="essendo soggette ad un aumento di costo" outsign="vil blive dyrere at indkøbe"/>
 <align out="a163" type="" in="b122" creator="0" insign="in" outsign="i"/>
 <align out="a159" type="" in="b114" creator="-1" insign="pur" outsign="selv_om"/>
 <align out="a149" type="" in="b104" creator="-1" insign="innovative" outsign="innovative"/>
@@ -212,4 +208,9 @@
 <align out="a242" type="" in="b198" creator="-1" insign="." outsign="."/>
 <align out="a252" type="" in="b211" creator="0" insign="assenze" outsign="fravær"/>
 <align out="a256" type="" in="b214" creator="-1" insign="." outsign="."/>
+<align out="a55 a56 a57" type="" in="b8 b9" creator="0" insign="reso possibile" outsign="givet mulighed for"/>
+<align out="a119 a122 a123 a124" type="mcn" in="b80" creator="0" insign="conseguenza" outsign="der følger i kølvandet"/>
+<align out="a135 a136 a137" type="ns" in="b90" creator="0" insign="nei" outsign="det store regnskab"/>
+<align out="a135 a136 a137" type="lv+n" in="b91 b92" creator="0" insign="bilanci nazionali" outsign="det store regnskab"/>
+<align out="a165 a166 a177 a178 a179" type="f+mvg" in="b115 b116 b117 b118 b119 b120 b121" creator="0" insign="essendo soggette ad un aumento di costo" outsign="vil blive dyrere at indkøbe"/>
 </DTAGalign>

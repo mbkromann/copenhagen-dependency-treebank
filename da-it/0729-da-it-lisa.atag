@@ -3,7 +3,6 @@
 <alignFile key="b" href="../it/0729-it-auto.tag" sign="_input"/>
 <align out="a44" type="f" in="b1" creator="0" insign="Beh" outsign="Ja"/>
 <align out="a46" type="f" in="b3 b4" creator="0" insign="in generale" outsign="grundlæggende"/>
-<align out="a47 a48 a49" type="f" in="b5" creator="0" insign="desiderano" outsign="vil de gerne"/>
 <align out="a51" type="" in="b7" creator="0" insign="in" outsign="i"/>
 <align out="a52" type="" in="a52" creator="0" insign="god" outsign="god"/>
 <align out="a54" type="" in="b9" creator="0" insign="," outsign=","/>
@@ -32,7 +31,6 @@
 <align out="a62" type="" in="b14" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a73" type="" in="a73" creator="0" insign="." outsign="."/>
 <align out="b22" type="" in="b22" creator="0" insign="come" outsign="come"/>
-<align out="a79 a80" type="f" in="b27 b28" creator="0" insign="decina di" outsign="halv snes"/>
 <align out="a76" type="" in="a76" creator="0" insign="Det" outsign="Det"/>
 <align out="a77" type="" in="a77" creator="0" insign="er" outsign="er"/>
 <align out="a83" type="" in="a83" creator="0" insign="," outsign=","/>
@@ -58,7 +56,6 @@
 <align out="a97" type="" in="b39" creator="-1" insign="senza" outsign="uden"/>
 <align out="a116" type="f" in="b57" creator="-1" insign=";" outsign="."/>
 <align out="a114" type="" in="b55" creator="-1" insign="e" outsign="og"/>
-<align out="a119" type="f" in="b59 b60 b61 b62 b63 b64" creator="0" insign="i modelli a cui si aspira" outsign="Idealet"/>
 <align out="b58" type="" in="b58" creator="0" insign="tra" outsign="tra"/>
 <align out="b65" type="" in="b65" creator="0" insign="," outsign=","/>
 <align out="b66" type="" in="b66" creator="0" insign="c'" outsign="c'"/>
@@ -183,8 +180,6 @@
 <align out="a255" type="f" in="b182" creator="0" insign="certo" outsign="i_hvert_fald"/>
 <align out="a253" type="n" in="b184" creator="0" insign="corpo" outsign="kroppe"/>
 <align out="a253" type="dns" in="b183" creator="0" insign="il" outsign="kroppe"/>
-<align out="a258" type="" in="b187 b188 b189" creator="0" insign="degli anni Ottanta" outsign="80'ernes"/>
-<align out="a259" type="f" in="b185 b186" creator="0" insign="dei supermuscolosi" outsign="bøfdrenge"/>
 <align out="a252" type="" in="a252" creator="0" insign="Deres" outsign="Deres"/>
 <align out="a254" type="" in="a254" creator="0" insign="ligger" outsign="ligger"/>
 <align out="a256" type="" in="a256" creator="0" insign="langt" outsign="langt"/>
@@ -202,4 +197,16 @@
 <align out="a265" type="" in="b196" creator="-1" insign="e" outsign="og"/>
 <align out="a261" type="" in="b192" creator="-1" insign="&quot;" outsign="&quot;"/>
 <align out="a263" type="" in="b194" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a47 a48 a49" type="" in="b5" creator="0" insign="desiderano" outsign="vil de gerne"/>
+<align out="a79 a80" type="" in="b27 b28" creator="0" insign="decina di" outsign="halv snes"/>
+<align out="a119" type="sn" in="b59" creator="0" insign="i" outsign="Idealet"/>
+<align out="a119" type="n" in="b60" creator="0" insign="modelli" outsign="Idealet"/>
+<align out="b61" type="" in="b61" creator="0" insign="a" outsign="a"/>
+<align out="b62" type="" in="b62" creator="0" insign="cui" outsign="cui"/>
+<align out="b63" type="" in="b63" creator="0" insign="si" outsign="si"/>
+<align out="b64" type="" in="b64" creator="0" insign="aspira" outsign="aspira"/>
+<align out="a258" type="s" in="b187" creator="0" insign="degli" outsign="80'ernes"/>
+<align out="a258" type="" in="b188 b189" creator="0" insign="anni Ottanta" outsign="80'ernes"/>
+<align out="a259" type="s" in="b185" creator="0" insign="dei" outsign="bøfdrenge"/>
+<align out="a259" type="" in="b186" creator="0" insign="supermuscolosi" outsign="bøfdrenge"/>
 </DTAGalign>
