@@ -115,7 +115,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">delle</W>
 <W lemma="compagnia" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:ref">compagnie</W>
 <W lemma="discografico" msd="AN" tag="ADJ" in="-1:attrr" out="">discografiche</W>
-<W lemma="che" msd="PT" tag="PRO:rela" in="2:subj|-2:ref" out="">che</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="-2:ref|2:subj" out="">che</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="ricorrere" msd="VADR" tag="VER:pres" in="-6:relr" out="-1:degr|-2:subj|2:man|5:pobj">ricorre</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
@@ -133,7 +133,7 @@
 <W lemma="," msd="XP" tag="PON" in="3:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-26:ref|2:cons" out="">il</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:subj" out="">che</W>
-<W lemma="svelare" msd="VADR" tag="VER:pres" in="-28:relelab" out="-1:subj|-2:cons|1:dobj|-3:pnct">svela</W>
+<W lemma="svelare" msd="VADR" tag="VER:pres" in="-28:relelab" out="-1:subj|-2:cons|-3:pnct|1:dobj">svela</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="natura" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">natura</W>
 <W lemma="ambiguo" msd="AN" tag="ADJ" in="-1:attrr" out="1:attrr">ambigua</W>
@@ -153,10 +153,10 @@
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:discmark" out="">Ma</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="18:qobj" out="-1:discmark|17:pnct|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="18:qobj" out="-1:discmark|3:preds|17:pnct">è</W>
 <W lemma="anche" msd="RG" tag="ADV" in="2:focal" out="">anche</W>
 <W lemma="mio" msd="PO" tag="PRO:poss" in="1:attrd" out="">mia</W>
-<W lemma="opinione" msd="NC" tag="NOM" in="-3:preds" out="2:attrr|6:dobj|-2:focal|-1:attrd">opinione</W>
+<W lemma="opinione" msd="NC" tag="NOM" in="-3:preds" out="-2:focal|-1:attrd|2:attrr|6:dobj">opinione</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="assoluto" msd="AN" tag="ADJ" in="-2:attrr" out="-1:pnct|2:conj|3:pnct">assoluta</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -176,8 +176,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">Non</W>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="1:expl" out="">ci</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-2:neg|-1:expl|1:preds|11:conj|16:pnct">sono</W>
-<W lemma="dato" msd="NC" tag="NOM" in="-1:preds" out="1:attrr|2:pobj">dati</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="-2:neg|-1:expl|11:conj|16:pnct|1:subj">sono</W>
+<W lemma="dato" msd="NC" tag="NOM" in="-1:subj" out="1:attrr|2:pobj">dati</W>
 <W lemma="ufficiale" msd="AN" tag="ADJ" in="-1:attrr" out="">ufficiali</W>
 <W lemma="su" msd="SP" tag="PRE" in="-2:pobj" out="2:nobj">su</W>
 <W lemma="quanto" msd="PI" tag="PRO:indef" in="1:degr" out="">quanti</W>

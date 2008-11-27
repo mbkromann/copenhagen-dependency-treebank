@@ -173,7 +173,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:const">dei</W>
 <W lemma="capitale" msd="NC" tag="NOM" in="-1:const" out="1:attrr">capitali</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">della</W>
-<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="4:ref|5:relr|1:attrr#">società</W>
+<W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#|4:ref|5:relr">società</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">in</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">nome</W>
 <W lemma="collettivo" msd="AN" tag="ADJ" in="-1:attrr" out="">collettivo</W>

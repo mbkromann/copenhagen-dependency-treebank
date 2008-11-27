@@ -3,7 +3,7 @@
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-2:subj|1:vobj|11:conj|44:pnct">ha</W>
 <W lemma="cominciare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:[subj]|1:pobj">cominciato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
-<W compound="¹parlar²ne" lemma="parlare" msd="VAF" tag="VER:infi" in="-1:vobj|0:²pobj¹" out="11:time|0:²pobj¹|30:assoc²">parlarne</W>
+<W compound="¹parlar²ne" lemma="parlare" msd="VAF" tag="VER:infi" in="-1:vobj|0:²pobj¹" out="11:time|30:assoc²|0:²pobj¹">parlarne</W>
 <W lemma="," msd="XP" tag="PON" in="7:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="6:subj" out="1:nobj">i</W>
 <W lemma="libro" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">libri</W>
@@ -11,7 +11,7 @@
 <W lemma="suo" msd="PO" tag="PRO:poss" in="1:attrd" out="25:coref">sua</W>
 <W lemma="casa" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr:dobj#">casa</W>
 <W lemma="editore" msd="AN" tag="ADJ" in="-1:attrr:dobj#" out="">editrice</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="-11:conj" out="-6:subj|1:preds|-7:pnct|2:pnct">vengono</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="-11:conj" out="-6:subj|-7:pnct|1:preds|2:pnct">vengono</W>
 <W lemma="recensire" msd="VAP" tag="VER:pper" in="-1:preds" out="">recensiti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="fino" msd="CS" tag="CON" in="-11:time" out="1:pobj">fino</W>
@@ -33,7 +33,7 @@
 <W lemma="occupare" msd="VADR" tag="VER:pres" in="-6:relr" out="-1:robj|-3:pobj">occupa</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Jørgen</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]|-30:assoc²|-25:coref" out="-1:namef">Thorgaard</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-30:assoc²|-25:coref|1:subj|2:[subj]" out="-1:namef">Thorgaard</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-17:vobj" out="-15:time|-11:loc|-1:subj|1:vobj">ha</W>
 <W lemma="trattare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:[subj]|1:dobj">trattato</W>
 <W lemma="uno" msd="AN" tag="ADJ" in="-1:dobj" out="1:attrr">uno</W>
@@ -45,7 +45,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Vagn</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:appa" out="-1:namef">Predbjørn</W>
 <W lemma="." msd="XP" tag="SENT" in="-44:pnct" out="">.</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="1:struct|2:vobj|12:cause|21:pnct|11:pnct">Ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="1:struct|2:vobj|11:pnct|12:cause|21:pnct">Ha</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-1:struct" out="">inoltre</W>
 <W lemma="avere" msd="VAP" tag="VER:pper" in="-2:vobj" out="1:dobj">avuto</W>
 <W lemma="successo" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj|22:coref-id">successo</W>
@@ -148,13 +148,13 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="collana" msd="NC" tag="NOM" in="-1:nobj" out="">collana</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-14:pnct" out="">"</W>
-<W lemma="dire" msd="VADR" tag="VER:pres" in="" out="16:pnct|4:qobj|-15:qobj">dice</W>
+<W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-15:qobj|4:qobj|16:pnct">dice</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="ci" msd="PR" tag="PRO:refl" in="1:expl" out="">ci</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-4:qobj" out="-1:expl|-2:neg|-3:pnct|2:preds|13:pnct">sono</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="-4:qobj" out="-1:expl|-2:neg|-3:pnct|13:pnct|2:subj">sono</W>
 <W lemma="né" msd="CS" tag="CON" in="2:correl" out="">né</W>
-<W lemma="istituzione" msd="NC" tag="NOM" in="-2:preds" out="2:conj|7:contr">istituzioni</W>
+<W lemma="istituzione" msd="NC" tag="NOM" in="-2:subj" out="2:conj|7:contr">istituzioni</W>
 <W lemma="né" msd="CS" tag="CON" in="1:coord" out="-2:correl">né</W>
 <W lemma="biblioteca" msd="NC" tag="NOM" in="-2:conj" out="-1:coord|1:pobj">biblioteche</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">tra</W>
@@ -171,7 +171,7 @@
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">la</W>
 <W lemma="tiratura" msd="NC" tag="NOM" in="-1:nobj" out="">tiratura</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-5:prg|-2:subj|1:preds|15:pnct|4:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-5:prg|-2:subj|1:preds|4:pnct|15:pnct">è</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">100</W>
 <W lemma="copia" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">copie</W>
