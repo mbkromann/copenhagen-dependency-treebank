@@ -1494,7 +1494,8 @@ sub postscript {
 					|| $nodeobj->var("romanized") 
 					|| $nodeobj->input() || "";
 				my $format = "";
-				$format = " 3" if (! defined($node_edges->{"$g$i"}));
+				my $nedges = $node_edges->{"$g$i"};
+				$format = " 3" if (! ( defined($nedges) && @$nedges));
 				$format = " 4" if (! $self->node_in_autowindow($g, $i));
 				$label = $left ? "$g$r    $label" : "$label    $g$r";
 				$ps .= psstr($label) . "$format node\n";

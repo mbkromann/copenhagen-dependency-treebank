@@ -4368,6 +4368,213 @@ sub cmd_partag {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_patch.pl
+## ------------------------------------------------------------
+
+sub cmd_patch {
+	my $self = shift;
+	my $graph = shift;
+	my $key = shift;
+	my $difffile = shift;
+
+	print "patch $key : $difffile\n";
+
+	sub usage {
+		print "Usage: use one of the two following patch commands:\n";
+		print '    patch $difffile          (for graphs)', "\n";
+		print '    patch -$key $difffile    (for alignments)', "\n";
+	}
+
+	# Check that diff-file exists
+	my $diff;
+	if (! -f "$difffile" ) {
+		print "ERROR: Cannot open diff-file $difffile for reading\n";
+		usage();
+		return 1;
+	}
+
+	if (UNIVERSAL::isa($graph, 'DTAG::Graph')) {
+		# Patch graph: Check arguments
+		if (defined($key)) {
+			print "ERROR: Key arguments cannot be used with graphs.\n";
+			usage();
+			return 1;
+		}
+
+		# Read diff file
+		$diff = $self->read_tagdiff($graph, $difffile);	
+
+		# Apply patch
+		$self->cmd_patch_graph($graph, $diff);
+		print "patched current graph with diff-file $difffile\n";
+	} else {
+		# Patch alignment: Check arguments
+		if (! defined($key)) {
+			print "ERROR: You need to supply a key argument.\n";
+			usage();
+			return 1;
+		}
+
+		# Read diff file
+		my $keygraph = $graph->graph($key);
+		if (! defined($keygraph)) {
+			print "ERROR: Cannot find graph in aligment associated with key $key.\n";
+		}
+		$diff = $self->read_tagdiff($keygraph, $difffile);	
+
+		#print "diff:\n";
+		#foreach my $d (@$diff) {
+		#	print join("\n", join(" ", @{$d->[0]}), 
+		#		join("\n", map {"a: " . $_->xml($keygraph)} @{$d->[1]}),
+		#		"---", join("\n", map {"b: " . $_->xml($keygraph)} @{$d->[2]}), "==="), "\n";
+		#}
+
+		# Patch alignment
+		$self->cmd_patch_graph($keygraph, $diff);
+		$self->cmd_patch_alignment($graph, $keygraph, $diff, $key);
+		print "patched current alignment with diff-file $difffile for key \"" .  ($key || "") . "\"\n";
+	}
+
+	return 1;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_patch_alignment.pl
+## ------------------------------------------------------------
+
+sub cmd_patch_alignment {
+	my $self = shift;
+	my $alignment = shift;
+	my $graph = shift;
+	my $diff = shift;
+	my $key = shift;
+	$graph->offset(0);
+	
+	# Compute word mapping by processing diff commands
+	my $wordmap = {};
+	my $i = 0;
+	my $imax = $graph->size() - 1;
+	my $offset = 0;
+	foreach my $spec (@$diff) {
+		# Read command
+		my ($cmd, $a, $b) = @$spec;
+		my ($o, $a1, $a2, $b1, $b2) = @$cmd;
+
+		# Move counter $i forward to $a1
+		for ( ; $i < $a1; ++$i) {
+			$wordmap->{$i} = $i + $offset;
+		}
+		$i = $a2;
+		$offset += ($b2-$b1)-($a2-$a1);
+	}
+	for ( ; $i <= $imax; ++$i) {
+		$wordmap->{$i} = $i + $offset;
+	}
+
+	# Adjust edges in alignment
+	my $edges = $alignment->edges();
+	my @newedges = ();
+	for (my $i = 0; $i < scalar(@$edges); ++$i) {
+		my $edge = $edges->[$i];
+
+		# Adjust in-nodes
+		my $skip = 0;
+		my $newedge = $edge->clone();
+		if ($edge->inkey() eq $key) {
+			my $array = patchAlignmentArray($wordmap, $edge->inArray());
+			$newedge->inArray($array);
+			$skip = 1 if (! defined($array));
+		}
+
+		if ($edge->outkey() eq $key) {
+			my $array = patchAlignmentArray($wordmap, $edge->outArray());
+			$newedge->outArray($array);
+			$skip = 1 if (! defined($array));
+		}
+		push @newedges, $newedge if (! $skip);
+	}
+
+	# Delete edges
+	for (my $i = $#$edges; $i >= 0; --$i) {
+		$alignment->del_edge($i);
+	}
+
+	# Add edges
+	foreach my $e (@newedges) {
+		$alignment->add_edge($e);
+	}
+}
+
+
+sub patchAlignmentArray {
+	my $wordmap = shift;
+	my $array = shift;
+ 	my $newarray = [];
+	for (my $i = 0; $i < scalar(@$array); ++$i) {
+		my $pos = $array->[$i];
+		my $newpos = $wordmap->{$pos};
+		push @$newarray, $newpos;
+		return undef if (! defined($newpos));
+	}
+	return $newarray;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_patch_graph.pl
+## ------------------------------------------------------------
+
+sub cmd_patch_graph {
+	my $self = shift;
+	my $graph = shift;
+	my $diff = shift;
+	my $oldoffset = $graph->offset();
+	$graph->offset(0);
+	
+	# Process diff commands
+	my $offset = 0;
+	foreach my $spec (@$diff) {
+		# Read command
+		my ($cmd, $a, $b) = @$spec;
+		my ($o, $a1, $a2, $b1, $b2) = @$cmd;
+
+		# Delete nodes
+		if ($o eq "c" || $o eq "d") {
+			#print "delete nodes from " . ($a1+$offset) 
+			#	. " to " . ($a2 + $offset) . "\n";
+			my $o = $offset;
+			for (my $i = $a2 - $a1 - 1; $i >= 0; --$i) {
+				# Compare input
+				my $pos = $i + $a1 + $o;
+				my $n = $graph->node($pos);
+				#print "    delete word $pos at index $i ("
+				#	. $n->input() . "/" . $a->[$i]->input() . ")\n";
+
+				# Check input
+				if ($n->input() ne $a->[$i]->input()) {
+					print "ERROR: Expected word " . $a->[$i]
+						. " but found word " . $n->input() . "\n";
+				}
+				
+				# Delete node
+				$self->cmd_del($graph, $pos);
+				--$offset;
+			}	
+		} 
+		
+		# Add nodes
+		if ($o eq "c" || $o eq "a") {
+			#print "add nodes from $b1 to $b2\n"; 
+			for (my $i = 0; $i < $b2-$b1; ++$i) {
+				my $n = $graph->node_add($b1+$i, $b->[$i]);
+				++$offset;
+			}
+		}
+	}
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_pause.pl
 ## ------------------------------------------------------------
 
@@ -6533,6 +6740,10 @@ sub do {
 		$success = $self->cmd_partag($graph, $1)
 			if ($cmd =~ /^\s*partag\s+(\S*)\s*$/);
 
+		# Patch: patch [-$key] $difffile
+		$success = $self->cmd_patch($graph, $2, $3) 
+			if ($cmd =~ /^\s*patch\s+(-([a-z])\s+)?(.*\S)\s*$/);
+
 		# Pause: pause
 		$success = $self->cmd_pause()
 			if ($cmd =~ /^\s*pause\s*$/);
@@ -7882,6 +8093,94 @@ sub query_parser {
 sub quiet {
 	my $self = shift;
 	return $self->var('quiet', @_);
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/read_tagdiff.pl
+## ------------------------------------------------------------
+
+sub read_tagdiff {
+	my $self = shift;
+	my $graph = shift;
+	my $diff = shift;
+	my $output = [];
+
+	sub savecmd {
+		my $l = shift;
+		my $c = shift;
+		my $x = shift;
+		my $y = shift;
+		if ($c) {
+			push @$l, [$c, $x, $y];
+		}
+	}
+
+	sub readrange {
+        my $range = shift;
+        if ($range =~ /^([0-9]+)$/) {
+            return ($1 - 1, $1);
+        } elsif ($range =~ /^([0-9]+),([0-9]+)$/) {
+            return ($1 - 1, $2);
+        }
+    }
+
+	sub diffnode {
+		my $s = shift;
+		my $g = shift;
+		my $tagline = shift;
+		my $node = Node->new();
+		if ($tagline =~ /^\s*<W(.*)>(.*)<\/W>\s*$/) {
+			my $input = $2;
+			my $varstr = $1;
+			$node->input($input);
+			$node->in([]);
+			$node->out([]);
+			my $vars = $s->varparse($g, $varstr, 0);
+			foreach my $var (keys(%$vars)) {
+				$node->var($var, $vars->{$var});
+			}
+		} else {
+			print "ERROR: Cannot parse node specification:\n";
+			print $tagline, "\n";
+		}
+		return $node;
+	}
+
+	# Read diff lines
+	open(DIFF, "<$diff"); 
+	my ($cmd, $a, $b);
+	while (my $line = <DIFF>) {
+		chomp($line);
+
+		if ($line =~ /^[0-9]/) {
+			# Command line: save old command
+			savecmd($output, $cmd, $a, $b);
+
+			# Initialize new command
+			$a = [];
+			$b = [];
+			if ($line =~ /^([0-9]+)a([0-9,]+)$/) {
+				$cmd = ["a", $1 - 1, $1 - 1, readrange($2)];	
+			} elsif ($line =~ /^([0-9,]+)c([0-9,]+)$/) {
+				$cmd = ["c", readrange($1), readrange($2)];
+			} elsif ($line =~ /^([0-9,]+)d([0-9]+)$/) {
+				$cmd = ["d", readrange($1), $2 - 1, $2 - 1];
+			}
+		} elsif ($line =~ /^< (.*)$/) {
+			# Left line
+			push @$a, diffnode($self, $graph, $1);
+		} elsif ($line =~ /^> (.*)$/) {
+			# Right line
+			push @$b, diffnode($self, $graph, $1);
+		} elsif ($line =~ /^---$/) {
+		} else {
+			print "ERROR: Unknown diff line:\n";
+			print $line, "\n";
+		}
+	}
+	savecmd($output, $cmd, $a, $b);
+	close(DIFF);
+	return $output;
 }
 
 ## ------------------------------------------------------------
