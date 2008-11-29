@@ -58,13 +58,13 @@
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-1:nobj|-9:coref-res" out="1:nobj">questa</W>
 <W lemma="ragione" msd="NC" tag="NOM" in="-1:nobj" out="">ragione</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
-<W lemma="si" msd="PR" tag="PRO:refl" in="1:subj|2:[subj]" out="">si</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="1:subj|2:[subj]|6:[subj]" out="">si</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="-1:subj|-2:neg|-5:cause|1:vobj|2:neg|9:pnct">deve</W>
-<W lemma="mangiare" msd="VAF" tag="VER:infi" in="-1:vobj" out="2:dobj|4:conj|-2:[subj]|4:[subj]">mangiare</W>
+<W lemma="mangiare" msd="VAF" tag="VER:infi" in="-1:vobj" out="-2:[subj]|2:dobj|4:conj">mangiare</W>
 <W lemma="mai" msd="RG" tag="ADV" in="-2:neg" out="">mai</W>
 <W lemma="verdura" msd="NC" tag="NOM" in="-2:dobj" out="">verdure</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:coord" out="">né</W>
-<W lemma="bere" msd="NC" tag="NOM" in="-4:conj|-4:[subj]" out="-1:coord|1:dobj">bere</W>
+<W lemma="bere" msd="NC" tag="NOM" in="-4:conj" out="-1:coord|1:dobj|-6:[subj]">bere</W>
 <W lemma="acqua" msd="NC" tag="NOM" in="-1:dobj" out="1:loc">acqua</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="-1:loc" out="1:nobj">dal</W>
 <W lemma="rubinetto" msd="NC" tag="NOM" in="-1:nobj" out="">rubinetto</W>
@@ -90,7 +90,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="3:prg" out="1:nobj">di</W>
 <W lemma="sicuro" msd="AN" tag="ADJ" in="-1:nobj" out="">sicuro</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:subj" out="">si</W>
-<W lemma="contrarre" msd="VADR" tag="VER:pres" in="" out="-1:subj|-9:cond|1:dobj|3:pnct|-3:prg">contrae</W>
+<W lemma="contrarre" msd="VADR" tag="VER:pres" in="" out="-1:subj|-9:cond|-3:prg|1:dobj|3:pnct">contrae</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="diarrea" msd="NC" tag="NOM" in="-1:nobj" out="">diarrea</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
