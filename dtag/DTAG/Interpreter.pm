@@ -4377,7 +4377,7 @@ sub cmd_patch {
 	my $key = shift;
 	my $difffile = shift;
 
-	print "patch $key : $difffile\n";
+	# print "patch $key : $difffile\n";
 
 	sub usage {
 		print "Usage: use one of the two following patch commands:\n";
@@ -4552,7 +4552,7 @@ sub cmd_patch_graph {
 
 				# Check input
 				if ($n->input() ne $a->[$i]->input()) {
-					print "ERROR: Expected word " . $a->[$i]
+					print "ERROR: Expected word " . $a->[$i]->input()
 						. " but found word " . $n->input() . "\n";
 				}
 				
