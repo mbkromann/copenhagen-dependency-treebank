@@ -125,7 +125,7 @@
 <W lemma="sorriso" msd="NC" tag="NOM" in="-1:nobj" out="">sorriso</W>
 <W lemma="lui" msd="PP" tag="PRO:pers" in="2:subj" out="8:coref">lui</W>
 <W lemma="la" msd="PP" tag="PRO:pers" in="-9:coref|1:dobj" out="28:coref">la</W>
-<W lemma="trarre" msd="VADA" tag="VER:remo" in="-11:conj" out="-5:man|-2:subj|-1:dobj|-6:coord|2:pnct|4:dir|7:pnct|1:dir">trasse</W>
+<W lemma="trarre" msd="VADA" tag="VER:remo" in="-11:conj" out="-5:man|-2:subj|-1:dobj|-6:coord|1:dir|2:pnct|4:dir|7:pnct">trasse</W>
 <W lemma="vicino" msd="AN" tag="ADJ" in="-1:dir" out="">vicino</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
@@ -153,7 +153,7 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="lei" msd="PP" tag="PRO:pers" in="-28:coref|1:subj" out="3:coref">lei</W>
-<W lemma="nascondere" msd="VADA" tag="VER:remo" in="" out="-1:subj|1:dobj|8:loc">nascose</W>
+<W lemma="nascondere" msd="VADA" tag="VER:remo" in="" out="-1:subj|1:dobj|8:loc|11:pnct">nascose</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="2:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-3:coref|1:attrd" out="">suo</W>
 <W lemma="volto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr">volto</W>
@@ -164,4 +164,4 @@
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-8:loc" out="2:nobj">nel</W>
 <W lemma="suo" msd="PO" tag="PRO:poss" in="-19:coref|1:attrd" out="">suo</W>
 <W lemma="petto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">petto</W>
-<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-11:pnct" out="">.</W>
