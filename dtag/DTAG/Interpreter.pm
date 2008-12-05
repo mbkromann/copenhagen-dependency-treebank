@@ -602,6 +602,177 @@ sub cmd_adiff {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_afilter.pl
+## ------------------------------------------------------------
+
+# Remove a dependent whƣch isn't source-linked to any target node? 
+my $remove_unlinked_dependent = 0;
+
+# Remove a dependent where no transitive source parent is linked to a
+# target node? 
+my $remove_unlinked_transitive_parent = 1;
+
+# Remove a dependent which is source-linked to another target node,
+# but not the governor?
+my $remove_doubly_linked = 1;
+
+# Specify tag feature
+sub cmd_afilter {
+	my $self = shift;
+	my $graph = shift;
+	my $afile = shift;
+	my $current_graph = $self->{'graph'};
+
+	# Load alignment
+	$graph->mtime(1);
+	$self->cmd_load($graph, '-atag', $afile);
+	my $alignment = $self->graph();
+
+	# Check that alignment is loaded
+	if (! UNIVERSAL::isa($alignment, 'DTAG::Alignment')) {
+		error("invalid alignment graph: aborting afilter");
+		return 1;
+	}
+
+	# Find source graph, source key, and target key
+	my ($tkey, $skey, $source);
+	my $graphfile = $graph->file();
+	$graphfile =~ s/^.*\/([^\/]*)$/$1/g;
+	foreach my $key (keys(%{$alignment->graphs()})) {
+		my $keyfile = $alignment->graph($key)->file();
+		$keyfile =~ s/^.*\/([^\/]*)$/$1/g;
+		print "graph=$graphfile key=$keyfile\n";
+		if ($graphfile eq $keyfile) {
+			# Found target
+			$tkey = $key;
+		} else {
+			# Found source
+			$skey = $key;
+			$source = $alignment->graph($skey);
+		}
+	}
+
+	# Exit if source and target key not found
+	if (! $skey || ! $tkey) {
+		error("target graph does not match any graph in alignment");
+		return 1;
+	}
+	print "source=". $source->file() . " target=" . $graph->file() . "\n";
+
+	# Process all dependency edges in target
+	$graph->do_edges(\&filter_edge, $alignment, $source, $graph, $skey, $tkey);
+	
+	# Return to original graph
+	$self->{'graph'} = $current_graph;
+	$self->cmd_return();
+
+	# Return
+	return 1;
+}
+
+sub filter_edge {
+	my $e = shift;
+	my $alignment = shift;
+	my $source = shift;
+	my $target = shift;
+	my $skey = shift;
+	my $tkey = shift;
+	#print "e=$e alignment=$alignment source=$source target=$target skey=$skey tkey=$tkey\n";
+
+	# Find nodes linked to dependent, and the linked parents
+	if ($target->is_dependent($e)) {
+		my $node = $tkey . $e->in();
+		my $parent = $tkey . $e->out();
+		my $nodes = find_linked_nodes($alignment, $node);
+		my $parents = find_linked_parents($alignment, $source, $skey, $tkey, $node);
+
+		# Determine what to do
+		my $accept = 0;
+		if ($nodes->{$parent}) {
+			# Governor among linked nodes: accept
+			$accept = 1;
+		} elsif ($parents->{$parent}) {
+			# Governor among linked parents: accept
+			$accept = 1
+		} elsif (! grep {$_ =~ /^$skey/} keys(%$nodes)) {
+			# Dependent not linked to any source nodes
+			$accept = ! $remove_unlinked_dependent;
+		} elsif (grep {$_ =~ /^$tkey/} keys(%$parents)) {
+			# Dependent has other linked parents, but governor not among them
+			$accept = ! $remove_doubly_linked;
+		} else {
+			# Dependent has no transitive target parents: reject
+			$accept = ! $remove_unlinked_transitive_parent;
+		}
+
+		# Delete dependency if not accepted
+		$target->edge_del($e) if (! $accept);
+	}
+}
+
+sub find_linked_parents {
+	my $alignment = shift;
+	my $srcgraph = shift;
+	my $srckey = shift;
+	my $tkey = shift;
+	my $node = shift;
+	my $parents = shift || {};
+
+	# Find linked nodes
+	my $nodes = find_linked_nodes($alignment, $node);
+
+	# Find linked parents 
+	foreach my $n (keys(%$nodes)) {
+		my $nkey = substr($n, 0, 1);
+		my $nid = substr($n, 1);
+		if ($nkey eq $srckey) {
+			my $snode = $srcgraph->node($nid);
+			foreach my $edge (@{$snode->in()}) {
+				if ($srcgraph->is_dependent($edge)) {
+					find_linked_nodes($alignment, $nkey .  $edge->out(), 
+						$parents);
+				}
+			}
+		}
+	}
+
+	# If no target nodes among linked parents, take transitive parents
+	if (! grep {$_ =~ /^$tkey/} keys(%$parents)) {
+		foreach my $p (keys(%$parents)) {
+			find_linked_parents($alignment, $srcgraph, $srckey, $tkey, $p, $parents);
+		}
+	}
+
+	# Return linked parents
+	return $parents;
+}
+
+sub find_linked_nodes {
+	my $alignment = shift;
+	my $node = shift;
+	my $nodes = shift || {};
+
+	# Return if node has been visited already
+	return $nodes if ($nodes->{$node});
+	$nodes->{$node} = 1;
+
+	# Otherwise find all alignment edges linked to node
+	foreach my $aedge (@{$alignment->node($node)}) {
+		foreach my $n (@{$aedge->inArray()}) {
+			find_linked_nodes($alignment, $aedge->inkey() . $n, $nodes);
+		}
+		foreach my $n (@{$aedge->outArray()}) {
+			find_linked_nodes($alignment, $aedge->outkey() . $n, $nodes);
+		}
+	}
+
+	# Return
+	return $nodes;
+}
+
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_alearn.pl
 ## ------------------------------------------------------------
 
@@ -1663,6 +1834,9 @@ sub cmd_diff {
 	$self->do('layout -graph -pos $e->var("diff")');
 	$self->do('layout -graph -estyles [$G->diffplus($e) ? "plus" : 0, $G->diffminus($e) ? "minus" : 0]');
 
+	my ($proposed50, $correct50) = (0,0);
+	my $labels50 = {};
+
 	# Compare graphs and print precision and recall
 	if (! $self->quiet()) {
 		my $stats = $self->compare_graphs($graph, $pos);
@@ -1682,8 +1856,8 @@ sub cmd_diff {
 		# Print statistics 
 		my $print_total = 0;
 		my $print_total1 = 0;
-		foreach my $label ((sort {($stats->{$b}[0] + $stats->{$b}[1]) 
-				<=> ($stats->{$a}[0] + $stats->{$a}[1])
+		foreach my $label ((sort {(($stats->{$b}[0]||0)+($stats->{$b}[1]||0))
+		                <=> (($stats->{$a}[0]||0) + ($stats->{$a}[1]||0))
 			|| $a cmp $b} keys(%$stats)), 'TOTAL', 'TOTAL1') {
 			# Skip TOTAL the first time
 			if ($label eq 'TOTAL') {
@@ -1702,9 +1876,9 @@ sub cmd_diff {
 			
 			# Find counts
 			my ($total, $proposed, $correct, $correct_unlbl) = 
-				($stats->{$label}[0], $stats->{$label}[1],
-				$stats->{$label}[2], $stats->{$label}[3]);
-
+				($stats->{$label}[0] || 0, $stats->{$label}[1] || 0,
+				$stats->{$label}[2] || 0, $stats->{$label}[3] || 0);
+			
 			# Print counts
 			printf $printf,
 				$label,
@@ -1715,12 +1889,19 @@ sub cmd_diff {
 					* ($correct / max(1, $total)) 
 					/ max(0.00001, ($correct / max(1, $proposed) 
 							+ $correct / max(1, $total))));
+
+			# Calculate precision>0.5 totals
+			if ($correct / max(1, $proposed) > 0.5 && $label !~ /^TOTAL/ && $total >= 5) {
+				$correct50 += $correct;
+				$proposed50 += $proposed;
+				$labels50->{$label} = 1;
+			}
 		}
 
 		# Print unlabelled total scores
 		my ($total, $proposed, $correct, $correct_unlbl) = 
-			($stats->{'TOTAL'}[0], $stats->{'TOTAL'}[1],
-			$stats->{'TOTAL'}[2], $stats->{'TOTAL'}[3]);
+			($stats->{'TOTAL'}[0] || 0, $stats->{'TOTAL'}[1] || 0,
+			$stats->{'TOTAL'}[2] || 0, $stats->{'TOTAL'}[3] || 0);
 		printf $printf,
 			"nolabel",
 			$total, $proposed, $correct_unlbl, 
@@ -1733,8 +1914,8 @@ sub cmd_diff {
 
 		# Print unlabelled total primary scores
 		($total, $proposed, $correct, $correct_unlbl) = 
-			($stats->{'TOTAL1'}[0], $stats->{'TOTAL1'}[1],
-			$stats->{'TOTAL1'}[2], $stats->{'TOTAL1'}[3]);
+			($stats->{'TOTAL1'}[0] || 0, $stats->{'TOTAL1'}[1] || 0,
+			$stats->{'TOTAL1'}[2] || 0, $stats->{'TOTAL1'}[3] || 0);
 		printf $printf,
 			"nolabel1",
 			$total, $proposed, $correct_unlbl, 
@@ -1746,10 +1927,18 @@ sub cmd_diff {
 						+ $correct_unlbl / max(1, $total))));
 
 		# Print relative annotation time compared to manual
-		print "\n\nRelative annotation time for automatic relative to manual annotation\n    = (GOLD-CORRECT)/GOLD + 2*(PROPOSED-CORRECT)/GOLD = "
+		print "\n\nRelative annotation time for automatic relative to manual annotation\n    = ((GOLD-CORRECT) + 2*(PROPOSED-CORRECT))/GOLD = "
 			. sprintf("%.1f%%\n", 100 * (
-				($total - $correct) / $total 
-					+ 2 * ($proposed - $correct) / $total));
+				($total - $correct) 
+					+ 2 * ($proposed - $correct)) / max(1, $total));
+
+		# Print relative annotation time compared to manual
+		print "\nRelative annotation time for automatic with precision > 50% relative to manual annotation\n";
+		print "using labels: " . join(" ", sort(keys(%$labels50))) . "\n";
+		print "    = ((GOLD-PROPOSED50) + 2*(PROPOSED50-CORRECT50))/GOLD = "
+			. sprintf("%.1f%%\n", 100 * (
+				($total - $proposed50
+					+ 2 * ($proposed50 - $correct50)) / max(1, $total)));
 	}
 
 	# Update graph
@@ -2014,6 +2203,69 @@ sub cmd_edit {
 	# Return
 	return 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_efilter.pl
+## ------------------------------------------------------------
+
+sub cmd_efilter {
+	my $self = shift;
+	my $graph = shift;
+	my $filter = " " . (shift || "");
+
+	# Check that graph is a graph
+	if (! UNIVERSAL::isa($graph, 'DTAG::Graph')) {
+		error("this command can only be applied to graphs");
+		return 1;
+	}
+
+	# Unpack filter
+	my $default_remove = 0;
+	$default_remove = 1 
+		if ($filter =~ /\s+\+/ && $filter !~ /\s+-/);
+	my $keep = {};
+	my $remove = {};
+	foreach my $spec (split(/\s+/, $filter)) {
+		if ($spec) {
+			print "spec: <$spec>\n";
+			my $op = substr($spec, 0, 1);
+			my $label = substr($spec, 1);
+			if ($op eq "+") {
+				$keep->{$label} = 1;
+			} elsif ($op eq "-") {
+				$remove->{$label} = 1;
+			}
+		}
+	}
+
+	# Save default action
+	if (! $keep->{""} && ! $remove->{""}) {
+		$keep->{""} = 1 if (! $default_remove);
+		$remove->{""} = 1 if ($default_remove);
+	}
+
+	# Process all edges in the graph
+	$graph->do_edges(\&efilter_edge, $graph, $keep, $remove);
+	        
+	# Return
+	return 1;
+}
+
+sub efilter_edge {
+	my $e = shift;
+	my $graph = shift;
+	my $keep = shift;
+	my $remove = shift;
+	my $label = $e->type();
+
+	# Remove edge if it is on remove list and not on keep list
+	if (! $keep->{$label} && ($remove->{$label} || $remove->{""})) {
+		$graph->edge_del($e);
+	}
+}
+	
+
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_etypes.pl
@@ -5174,13 +5426,29 @@ sub cmd_save_conll {
 	# Calculate line numbers
 	my $lines = [];
 	my $line = 0;
+	my $rightboundary = 0;
+	my $boundaries = {};
+	my $pos = $graph->layout($self, 'pos') || sub {return 0};
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
 		my $node = $graph->node($i);
 		my $input = $node->input();
 		if (! $node->comment()) {
 			$lines->[$i] = ++$line;
-		} elsif ($input =~ /^<\/s>/) {
+
+            # Update right boundary
+            foreach my $e (grep {! &$pos($graph, $_)} @{$node->in()}) {
+                my $n = $e->out();
+                $rightboundary = $n if ($n > $rightboundary);
+            }
+            foreach my $e (grep {! &$pos($graph, $_)} @{$node->out()}) {
+                my $n = $e->in();
+                $rightboundary = $n if ($n > $rightboundary);
+            }
+		} 
+		
+		if ($input =~ /^<\/s>/ || $rightboundary <= $i) {
 			$line = 0;
+			$boundaries->{$i} = 1;
 		}
 	}
 
@@ -5189,7 +5457,6 @@ sub cmd_save_conll {
 		|| return error("cannot open file for writing: $file");
 
 	# Write CONLL file line by line
-	my $pos = $graph->layout($self, 'pos') || sub {return 0};
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
 		my $node = $graph->node($i);
 
@@ -5219,9 +5486,8 @@ sub cmd_save_conll {
 			$CPOSTAG = "SP" if ($CPOSTAG eq "S");
 			$CPOSTAG = "RG" if ($CPOSTAG eq "R");
 
-			
 			# FEATS
-			my $FEATS = conll_msd2features($CPOSTAG, substr($msd, 2)); 
+			my $FEATS = conll_msd2features($CPOSTAG, substr($msd, min(length($msd), 2))); 
 
 			# HEAD AND DEPREL
 			my $edges = [grep {! &$pos($graph, $_)} @{$node->in()}];
@@ -5249,7 +5515,9 @@ sub cmd_save_conll {
 				# ($LEMMA || "_"),
 				($CPOSTAG || "_"), ($POSTAG || "_"), ($FEATS || "_"),
 				($HEAD || "0"), ($DEPREL || "_"), $PHEAD, $PDEPREL;
-		} elsif ($input =~ /^<\/s>/) {
+		} 
+
+		if ($boundaries->{$i}) {
 			print CONLL "\n";
 		}
 	}
@@ -5317,13 +5585,34 @@ sub cmd_save_malt {
 	# Calculate line numbers
 	my $lines = [];
 	my $line = 0;
+	my $rightboundaries = {};
+	my $rightboundary = 0;
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
 		my $node = $graph->node($i);
 		my $input = $node->input();
+
+
+		# Process node
 		if (! $node->comment()) {
 			$lines->[$i] = ++$line;
-		} elsif ($input =~ /^<\/s>/) {
+
+			# Update right boundary
+			foreach my $e (@{$node->in()}) {
+				my $n = $e->out();
+				$rightboundary = $n if ($n > $rightboundary);
+			}
+			foreach my $e (@{$node->out()}) {
+				my $n = $e->in();
+				$rightboundary = $n if ($n > $rightboundary);
+			}
+		}
+		
+		print "i=$i rb=$rightboundary\n";
+		# Check for boundary
+		if ($input =~ /^<\/s>/ || $rightboundary <= $i) {
+			print "\n";
 			$line = 0;
+			$rightboundaries->{$i} = 1;
 		}
 	}
 
@@ -5359,7 +5648,9 @@ sub cmd_save_malt {
 
 			# Print head and type
 			print MALT "$input\t$tag\t$head\t$type\n";
-		} elsif ($input =~ /^<\/s>/) {
+		} 
+		
+		if ($rightboundaries->{$i}) {
 			print MALT "\n";
 		}
 	}
@@ -6478,6 +6769,10 @@ sub do {
 		$success = $self->cmd_adiff($graph, $1)
 			if ($cmd =~ /^\s*adiff\s+(.*)$/);
 
+		# Afilter: afilter $alignmentfile
+		$success = $self->cmd_afilter($graph, $1)
+			if ($cmd =~ /^\s*afilter\s+(\S+)\s*$/);
+
 		# Alearn: alearn $options
 		$success = $self->cmd_alearn($graph, $1) 
 			if ($cmd =~ /^\s*alearn\s*(.*)\s*$/);
@@ -6567,6 +6862,10 @@ sub do {
 		$success = $self->cmd_edges($graph, $1)
 			if ($cmd =~ /^\s*edges\s+(\S+)\s*$/
 				|| $cmd =~ /^([a-z]?[0-9]+)\s*$/);
+
+		# Edges: efilter ±label... ±
+		$success = $self->cmd_efilter($graph, $1)
+			if ($cmd =~ /^\s*efilter((\s+[+-]\S*)+)\s*$/);
 
 		# Etypes: etypes -$type $type1 $type2 ...
 		$success = $self->cmd_etypes($graph, $1, $2)

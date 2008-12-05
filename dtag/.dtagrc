@@ -114,6 +114,8 @@ macro setname !~/cdt/tools/dtag-setname
 macro tasks !~/cdt/tools/dtag-tasks
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
 macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
+macro agreement !~/cdt/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff /tmp/cdtB.tag ;; agreementdiff
+macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
 macro ddt !openoffice /home/cdt/web/www.treebank.dk/ddt-manual.odt &
 macro ddtpdf !acroread /home/cdt/web/www.treebank.dk/ddt-manual.pdf &
 
