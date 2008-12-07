@@ -1,7 +1,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="7:qobj" out="1:pnct|3:conj">“Sí</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:prg" out="">básicamente</W>
-<W lemma="querer" msd="VLfin" in="-3:conj" out="-1:prg|1:vobj">quisieran</W>
+<W lemma="querer" msd="VLfin" in="-3:conj" out="-1:prg|1:vobj|11:coref">quisieran</W>
 <W lemma="estar" msd="VEinf" in="-1:vobj" out="1:pobj">estar</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">forma,”</W>
@@ -12,11 +12,11 @@
 <W lemma="sin~embargo" msd="ADV" in="3:struct" out="1:pnct">sin embargo</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="desear" msd="VLfin" in="" out="-4:discmark|-3:struct|-1:neg|1:dobj|3:pnct">desean</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:attrr">músculos</W>
+<W lemma="desear" msd="VLfin" in="-11:coref" out="-4:discmark|-3:struct|-1:neg|1:dobj|3:pnct|25:coref">desean</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:attrr|3:coref-res">músculos</W>
 <W lemma="grande" msd="ADJ" in="-1:attrr" out="">grandes</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="ese" msd="DM" in="1:subj" out="">Eso</W>
+<W lemma="ese" msd="DM" in="1:subj|-3:coref-res" out="">Eso</W>
 <W lemma="estar" msd="VLfin" in="" out="-1:subj|1:pobj|3:time|6:pnct">estaba</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="moda" msd="NC" in="-1:nobj" out="">moda</W>
@@ -37,7 +37,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">músculos</W>
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">Los</W>
+<W lemma="el" msd="ART" in="2:subj|3:[subj]|-25:coref" out="1:nobj">Los</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="desear" msd="VLfin" in="" out="-2:subj|1:vobj|10:pnct">desean</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="-3:[subj]|1:preds">ser</W>
@@ -91,7 +91,7 @@
 <W lemma="el" msd="ART" in="2:dobj" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="querer" msd="VLfin" in="" out="-2:dobj|-5:discmark|1:subj">quieren</W>
-<W lemma="el" msd="ART" in="-1:subj" out="1:nobj">las</W>
+<W lemma="el" msd="ART" in="-1:subj" out="1:nobj|21:coref-id">las</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>
 <W lemma="?" msd="FS" in="" out="">?</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">¿Juventud</W>
@@ -112,7 +112,7 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="no" msd="NEG" in="-2:conj" out="-1:coord">no</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="3:subj|4:[subj]" out="1:nobj">Las</W>
+<W lemma="el" msd="ART" in="3:subj|4:[subj]|-21:coref-id" out="1:nobj">Las</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>
 <W lemma="se" msd="SE" in="-9:robj" out="">se</W>
 <W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|2:time|47:pnct">han</W>
@@ -158,7 +158,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="">–</W>
 <W lemma="que" msd="CQUE" in="-28:ref|2:subj" out="">que</W>
 <W lemma="todo" msd="QU" in="" out="">todos</W>
-<W lemma="parecer" msd="VLfin" in="-30:relpa" out="-2:subj|1:preds">parecen</W>
+<W lemma="parecer" msd="VLfin" in="-30:relpa" out="-2:subj|1:preds|11:coref">parecen</W>
 <W lemma="hombre" msd="NC" in="-1:preds" out="1:attrr">hombres</W>
 <W lemma="de" msd="PREP" in="-1:attrr" out="1:nobj">de</W>
 <W lemma="bien" msd="ADV" in="-1:nobj" out="">bien</W>
@@ -169,7 +169,7 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">no</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="parecer" msd="VLfin" in="" out="-6:prg|-2:neg|-1:robj|1:neg|3:pobj|17:pnct">parecen</W>
+<W lemma="parecer" msd="VLfin" in="-11:coref" out="-6:prg|-2:neg|-1:robj|1:neg|3:pobj|17:pnct">parecen</W>
 <W lemma="para" msd="PREP" in="-1:neg" out="">para</W>
 <W lemma="nada" msd="QU" in="" out="">nada</W>
 <W lemma="al" msd="PAL" in="-3:pobj" out="1:nobj|4:attrr|7:comp">al</W>

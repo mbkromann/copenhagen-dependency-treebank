@@ -8,7 +8,7 @@
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">el</W>
 <W lemma="estado" msd="NC" in="-1:nobj" out="">estado</W>
 <W lemma="tener~que" msd="VMfin" in="" out="-2:subj|1:vobj|5:pnct">tiene que</W>
-<W lemma="conservar" msd="VLinf" in="-1:vobj" out="1:dobj|-3:[subj]">conservar</W>
+<W lemma="conservar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">conservar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|2:attrr">los</W>
 <W lemma="valor" msd="NC" in="-1:nobj" out="">valores</W>
 <W lemma="cultural" msd="ADJ" in="-2:attrr" out="">culturales</W>
@@ -36,7 +36,7 @@
 <W lemma="en~general" msd="ADV" in="1:prg" out="">en general</W>
 <W lemma="haber~que" msd="VMfin" in="-21:conj" out="-2:coord|-1:prg|1:vobj">hay que</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:dobj">haber</W>
-<W lemma="acceso" msd="NC" in="-1:dobj" out="1:attrr|4:conj">acceso</W>
+<W lemma="acceso" msd="NC" in="-1:dobj" out="1:attrr|4:conj|31:coref-id">acceso</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">público</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
@@ -46,7 +46,7 @@
 <W lemma="poder" msd="VMfin" in="" out="-2:neg|1:vobj|2:subj|5:pnct|8:conj">pueden</W>
 <W lemma="controlar" msd="VLinf" in="-1:vobj" out="-2:dobj|1:[subj]">controlar</W>
 <W lemma="el" msd="ART" in="-2:subj|-1:[subj]" out="1:nobj|2:attrr">los</W>
-<W lemma="cazador" msd="NC" in="-1:nobj" out="">cazadores</W>
+<W lemma="cazador" msd="NC" in="-1:nobj" out="23:coref-id">cazadores</W>
 <W lemma="privado" msd="ADJ" in="-2:attrr" out="">privados</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-5:pnct" out="">–</W>
 <W lemma="pero" msd="CCAD" in="2:coord" out="">pero</W>
@@ -67,9 +67,9 @@
 <W lemma="problema" msd="NC" in="-1:nobj" out="">problema</W>
 <W lemma="entre" msd="PREP" in="-3:loc" out="1:nobj">entre</W>
 <W lemma="acceso" msd="NC" in="-1:nobj" out="1:attrr|3:conj">acceso</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">público</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr|-31:coref-id" out="">público</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="cazador" msd="ADJ" in="-3:conj" out="-1:coord|1:attrr">cazadores</W>
+<W lemma="cazador" msd="ADJ" in="-3:conj|-23:coref-id" out="-1:coord|1:attrr|15:coref-id">cazadores</W>
 <W lemma="privado" msd="ADJ" in="-1:attrr" out="">privados</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
@@ -79,21 +79,21 @@
 <W lemma="mostrar" msd="VLfin" in="-25:conj" out="-4:coord|-3:subj|1:man|2:dobj|14:pnct">muestran</W>
 <W lemma="claramente" msd="ADV" in="-1:man" out="">claramente</W>
 <W lemma="que" msd="CQUE" in="-2:dobj" out="4:vobj">que</W>
-<W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="3:subj" out="1:nobj|9:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="mejora" msd="NC" in="-4:vobj" out="-3:subj|-1:robj|1:cond">mejora</W>
 <W lemma="cuando" msd="CSUBX" in="-1:cond" out="4:vobj">cuando</W>
-<W lemma="el" msd="ART" in="3:subj" out="1:nobj|2:attrr">los</W>
+<W lemma="el" msd="ART" in="3:subj|-15:coref-id" out="1:nobj|2:attrr">los</W>
 <W lemma="cazador" msd="NC" in="-1:nobj" out="">cazadores</W>
 <W lemma="privado" msd="ADJ" in="-2:attrr" out="">privados</W>
 <W lemma="cuidar" msd="VLfin" in="-4:vobj" out="-3:subj|1:dobj">cuidan</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="-1:dobj|-9:coref-id" out="1:nobj|5:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
 <W lemma="cuanto" msd="CSUBX" in="" out="">Cuanto</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">más</W>
-<W lemma="caza" msd="NC" in="" out="">caza</W>
+<W lemma="caza" msd="NC" in="-5:coref-id" out="8:coref-id">caza</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="bueno" msd="ADJ" in="" out="">mejor</W>
 <W lemma="forraje" msd="NC" in="" out="">forraje</W>
@@ -101,7 +101,7 @@
 <W lemma="el" msd="ART" in="" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="significar" msd="VLfin" in="" out="">significa</W>
-<W lemma="un" msd="ART" in="" out="">una</W>
+<W lemma="un" msd="ART" in="-8:coref-id" out="30:coref-var">una</W>
 <W lemma="caza" msd="NC" in="" out="">caza</W>
 <W lemma="bueno" msd="ADJ" in="" out="">mejor</W>
 <W lemma="y" msd="CC" in="" out="">y</W>
@@ -131,7 +131,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-6:vobj" out="-5:subj|1:preds|2:goal|6:pnct">están</W>
 <W lemma="alquilar" msd="VLadj" in="-1:preds" out="">alquilados</W>
 <W lemma="para" msd="PREP" in="-2:goal" out="1:nobj">para</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">la</W>
+<W lemma="el" msd="ART" in="-1:nobj|-30:coref-var" out="1:nobj|2:attrr|14:coref-var">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="privado" msd="ADJ" in="-2:attrr" out="">privada</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
@@ -145,7 +145,7 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="pero" msd="CCAD" in="5:coord" out="">pero</W>
 <W lemma="al~mismo~tiempo" msd="ADV" in="4:struct" out="">al mismo tiempo</W>
-<W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="3:subj|-14:coref-var" out="1:nobj|20:assoc-agent|66:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:other" out="">también</W>
 <W lemma="tener" msd="VLfin" in="-12:conj" out="-5:coord|-4:struct|-3:subj|-1:other|1:dobj|9:pnct|10:cause|32:pnct">tiene</W>
@@ -154,18 +154,18 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
 <W lemma="natural" msd="ADJ" in="-3:attrr" out="-1:degr">natural</W>
 <W lemma="con" msd="PREP" in="-3:pobj" out="1:nobj">con</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attrr|5:coref-var">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">población</W>
 <W lemma="local" msd="ADJ" in="-2:attrr" out="">local</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="ya~que" msd="CSUBF" in="-10:cause" out="3:vobj">ya que</W>
-<W lemma="el" msd="ART" in="2:subj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="2:subj|-5:coref-var" out="1:nobj">la</W>
 <W lemma="gente" msd="NC" in="-1:nobj" out="">gente</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:vobj" out="-2:subj|1:preds|5:pnct|7:conj">está</W>
 <W lemma="acostumbrar" msd="VLadj" in="-1:preds" out="1:pobj">acostumbrada</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="ver" msd="VLinf" in="-1:vobj" out="1:dobj">ver</W>
-<W lemma="cazador" msd="NC" in="-1:dobj" out="">cazadores</W>
+<W lemma="cazador" msd="NC" in="-1:dobj|-20:assoc-agent" out="">cazadores</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="comer" msd="VLfin" in="-7:conj" out="-1:robj|2:dobj|5:concom">come</W>
@@ -211,7 +211,7 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
-<W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
+<W lemma="el" msd="ART" in="3:subj|-66:coref-id" out="1:nobj|28:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="se" msd="SE" in="" out="">se</W>
 <W lemma="vendar|vender" msd="VLfin" in="-19:conj" out="-4:coord|-3:subj|1:pobj|6:ben">vende</W>
@@ -239,6 +239,6 @@
 <W lemma="del" msd="PDEL" in="-1:loc" out="1:nobj">del</W>
 <W lemma="mundo" msd="NC" in="-1:nobj" out="">mundo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:pnct" out="">–</W>
-<W lemma="el" msd="ART" in="-6:appa" out="1:nobj|2:pnct">la</W>
+<W lemma="el" msd="ART" in="-6:appa|-28:coref-id" out="1:nobj|2:pnct">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
