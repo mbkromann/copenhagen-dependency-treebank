@@ -178,7 +178,7 @@
 <W lemma="decennio" msd="NC" tag="NOM" in="-1:nobj" out="1:time">decenni</W>
 <W lemma="fa" msd="RG" tag="ADV" in="-1:time" out="">fa</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct²" out="">.</W>
-<W lemma="il" msd="PD" tag="DET:def" in="7:subj" out="2:nobj">La</W>
+<W lemma="il" msd="PD" tag="DET:def" in="7:subj|9:[subj]" out="2:nobj">La</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attrd" out="">stessa</W>
 <W lemma="visione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr">visione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">dell'</W>
@@ -187,7 +187,7 @@
 <W lemma="sapere" msd="NC" tag="NOM" in="-1:nobj" out="">sapere</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-7:subj|2:preds|3:pnct|6:conj">è</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
-<W lemma="mutare" msd="VAP" tag="VER:pper" in="-2:preds" out="-1:degr">mutata</W>
+<W lemma="mutare" msd="VAP" tag="VER:pper" in="-2:preds" out="-1:degr|-9:[subj]">mutata</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
 <W lemma="alcuno" msd="PI" tag="PRO:indef" in="2:subj" out="">alcuni</W>
 <W lemma="il" msd="PD" tag="DET:def" in="1:dobj" out="">la</W>
