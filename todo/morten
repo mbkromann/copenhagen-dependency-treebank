@@ -81,7 +81,7 @@
 [*] da-it/0939-da-it-morten.atag
 [*] it/0939-it-morten.tag
 [*] da-it/0998-da-it-morten.atag
-[ ] it/0998-it-morten.tag
+[*] it/0998-it-morten.tag
 [*] da-it/1043-da-it-morten.atag
 [*] it/1043-it-morten.tag
 [*] da-it/1057-da-it-morten.atag
@@ -91,7 +91,7 @@
 [*] da-it/1144-da-it-morten.atag
 [*] it/1144-it-morten.tag
 [*] da-it/1250-da-it-morten.atag
-[ ] it/1250-it-morten.tag
+[*] it/1250-it-morten.tag
 [*] da-it/1337-da-it-morten.atag
 [*] it/1337-it-morten.tag
 [*] da-it/1420-da-it-morten.atag
@@ -101,16 +101,16 @@
 
 # Tasks that should be revised because of revised translation
 
-[ ] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
-[ ] da-it/0426-da-it-morten.atag
-[ ] it/0426-it-morten.tag
+[*] da-it/0212-da-it-morten.atag
+[*] it/0212-it-morten.tag
+[*] da-it/0426-da-it-morten.atag
+[*] it/0426-it-morten.tag
 [ ] da-it/0800-da-it-morten.atag
 [ ] it/0800-it-morten.tag
-[ ] da-it/0939-da-it-morten.atag
-[ ] it/0939-it-morten.tag
+[*] da-it/0939-da-it-morten.atag
+[*] it/0939-it-morten.tag
 [ ] da-it/0998-da-it-morten.atag
 [ ] it/0998-it-morten.tag
-[ ] da-it/1057-da-it-morten.atag
-[ ] it/1057-it-morten.tag
+[*] da-it/1057-da-it-morten.atag
+[*] it/1057-it-morten.tag
 

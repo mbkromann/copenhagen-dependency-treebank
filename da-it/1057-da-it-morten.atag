@@ -5,13 +5,10 @@
 <align out="a45" type="" in="b1" creator="0" insign="facile" outsign="let"/>
 <align out="a57" type="" in="b11" creator="0" insign="considera" outsign="anser"/>
 <align out="a58" type="" in="a58" creator="0" insign="for" outsign="for"/>
-<align out="a61" type="ds" in="b15" creator="0" insign="terribile" outsign="uvidenhed"/>
-<align out="a61" type="" in="b17" creator="0" insign="(" outsign="uvidenhed"/>
 <align out="a59" type="" in="a59" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a62" type="" in="a62" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a48" type="" in="a48" creator="0" insign="&quot;" outsign="&quot;"/>
 <align out="a51" type="" in="a51" creator="0" insign="&quot;" outsign="&quot;"/>
-<align out="a60" type="f" in="b16" creator="0" insign="ignoranza" outsign="himmelråbende"/>
 <align out="a63" type="" in="b18" creator="0" insign="come" outsign=","/>
 <align out="a50" type="ds" in="b4" creator="0" insign="all'" outsign="forargelse"/>
 <align out="a50" type="" in="b6" creator="0" insign="indignazione" outsign="forargelse"/>
@@ -27,8 +24,6 @@
 <align out="a55" type="" in="b10" creator="-1" insign="si" outsign="man"/>
 <align out="a64" type="" in="a64" creator="0" insign="(" outsign="("/>
 <align out="a69" type="" in="a69" creator="0" insign=")" outsign=")"/>
-<align out="a67" type="" in="b21 b22" creator="0" insign="esempio Beinov" outsign="f.eks."/>
-<align out="a68" type="" in="b20" creator="0" insign="per" outsign="gør"/>
 <align out="a72" type="mcv" in="b28 b29" creator="0" insign="bisogna chiedersi" outsign="spørgsmålet"/>
 <align out="a74" type="f" in="b26 b27" creator="0" insign="in realtà" outsign="efterhånden"/>
 <align out="a73" type="" in="a73" creator="0" insign="er" outsign="er"/>
@@ -41,8 +36,6 @@
 <align out="a81 a82 a83 a84" type="" in="a81 a82 a83 a84" creator="0" insign="som en størrelse ," outsign="som en størrelse ,"/>
 <align out="b36 b37 b38 b39" type="" in="b36 b37 b38 b39" creator="0" insign="di base come &quot;" outsign="di base come &quot;"/>
 <align out="a76" type="" in="b30" creator="-1" insign="se" outsign="om"/>
-<align out="a66" type="" in="b23" creator="-1" insign=")" outsign="Beinov"/>
-<align out="a65" type="" in="b19" creator="-1" insign="fa" outsign="som"/>
 <align out="a70" type="" in="b24" creator="-1" insign="," outsign=","/>
 <align out="a71" type="" in="b25" creator="-1" insign="ma" outsign="men"/>
 <align out="a86 a87" type="f" in="b41" creator="0" insign="&quot;" outsign="større antal"/>
@@ -197,4 +190,6 @@
 <align out="a227" type="" in="b195" creator="-1" insign="più" outsign="nogle"/>
 <align out="a238" type="" in="b199" creator="-1" insign="passato" outsign="mere"/>
 <align out="a226" type="f" in="b194" creator="-1" insign="decisamente" outsign=","/>
+<align out="a60" type="f" in="b15" creator="0" insign="terribile" outsign="himmelråbende"/>
+<align out="a61" type="" in="b16" creator="0" insign="ignoranza" outsign="uvidenhed"/>
 </DTAGalign>
