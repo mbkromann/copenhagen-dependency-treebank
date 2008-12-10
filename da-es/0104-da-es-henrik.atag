@@ -15,7 +15,23 @@
 <align out="a50" type="" in="b10" creator="-1" insign="K" outsign="K"/>
 <align out="a55" type="" in="b16" creator="-1" insign="." outsign="."/>
 <align out="a49" type="" in="b9" creator="-1" insign="y" outsign="og"/>
+<align out="a61" type="" in="b18" creator="0" insign="ha" outsign="blev"/>
+<align out="a62 a63" type="" in="b19" creator="0" insign="habido" outsign="der holdt"/>
+<align out="a65" type="" in="b21" creator="0" insign="histórica" outsign="historisk"/>
+<align out="a66" type="" in="b25" creator="0" insign="colectiva" outsign="fælles"/>
+<align out="a68" type="" in="b26 b27" creator="0" insign="con anticipación" outsign="forud"/>
+<align out="a67" type="gruppe=" in="b24" creator="0" insign="grupo" outsign="gruppemøde"/>
+<align out="a67" type="møde=" in="b22" creator="0" insign="sesión" outsign="gruppemøde"/>
+<align out="b23" type="" in="b23" creator="0" insign="de" outsign="de"/>
+<align out="a70" type="s" in="b28" creator="0" insign="del" outsign="lanceringen"/>
+<align out="a70" type="" in="b29" creator="0" insign="lanzamiento" outsign="lanceringen"/>
+<align out="a72" type="kv=" in="b32" creator="0" insign="KV" outsign="KV-planen"/>
+<align out="a72" type="plan=" in="b31" creator="0" insign="plan" outsign="KV-planen"/>
+<align out="a72" type="s" in="b30" creator="0" insign="del" outsign="KV-planen"/>
+<align out="a60" type="" in="b17" creator="-100" insign="De&nbsp;hecho" outsign="Faktisk"/>
+<align out="a64" type="" in="b20" creator="-100" insign="una" outsign="et"/>
 <align out="a74" type="" in="b34" creator="-100" insign="1964" outsign="1964"/>
 <align out="a75" type="" in="b35" creator="-100" insign="," outsign=","/>
 <align out="a76" type="" in="b36" creator="-100" insign="y" outsign="og"/>
+<align out="a71" type="" in="b33" creator="-100" insign="en" outsign="af"/>
 </DTAGalign>
