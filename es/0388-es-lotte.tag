@@ -1,8 +1,8 @@
 <W lemma="-" msd="DASH" in="" out="">-</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">No</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:neg|1:subj|2:ben|4:pnct">es</W>
-<W lemma="igual" msd="ADJ" in="-1:subj" out="">igual</W>
-<W lemma="para" msd="PREP" in="-2:ben" out="1:nobj">para</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:neg|1:subj|4:pnct">es</W>
+<W lemma="igual" msd="ADJ" in="-1:subj" out="1:pobj">igual</W>
+<W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="">todos</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="tú" msd="PPO" in="2:subj" out="1:nobj">Tu</W>
@@ -150,9 +150,9 @@
 <W lemma="poder" msd="VMfin" in="" out="-1:neg|1:vobj|6:subj|13:pnct">puede</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj|5:[subj]">haber</W>
 <W lemma="ser" msd="VS" in="-1:vobj" out="1:preds|4:[subj]">sido</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:ben">fÃ¡cil</W>
-<W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
-<W lemma="él" msd="PPX" in="-1:nobj|-13:coref" out="9:coref">ella</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj">fÃ¡cil</W>
+<W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
+<W lemma="él" msd="PPX" in="-13:coref|-1:nobj" out="9:coref">ella</W>
 <W lemma="volver" msd="VLinf" in="-6:subj|-5:[subj]|-4:[subj]" out="1:pobj|4:other">volver</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">sus</W>
@@ -179,9 +179,9 @@
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="era" msd="VEfin" in="" out="2:preds|3:man|7:prg|10:pnct">Era</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds" out="-1:degr|2:ben">fÃ¡cil</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds" out="-1:degr|2:pobj">fÃ¡cil</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:man" out="">asÃ­</W>
-<W lemma="para" msd="CSUBI" in="-2:ben" out="1:nobj|4:conj">para</W>
+<W lemma="para" msd="CSUBI" in="-2:pobj" out="1:nobj|4:conj">para</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:nobj|-9:coref" out="6:coref">ella...</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-7:prg" out="">quizÃ¡</W>

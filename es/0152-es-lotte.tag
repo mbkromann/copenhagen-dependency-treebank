@@ -11,15 +11,15 @@
 <W lemma="consistente" msd="ADJ" in="-2:attrr" out="">consistente</W>
 <W lemma="en" msd="PREP" in="" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr|7:coref-var">pemmican</W>
-<W lemma="preparar" msd="VLadj" in="-1:attrr" out="">preparado</W>
-<W lemma="de" msd="PREP" in="" out="1:nobj">de</W>
+<W lemma="preparar" msd="VLadj" in="-1:attrr" out="1:pobj">preparado</W>
+<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="ciento" msd="CARD" in="-1:nobj" out="2:nobj">cien</W>
 <W lemma="diferente" msd="ADJ" in="1:attrd" out="">diferentes</W>
 <W lemma="manera" msd="NC" in="-2:nobj" out="-1:attrd">maneras</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|-7:coref-var" out="1:nobj">El</W>
+<W lemma="el" msd="ART" in="-7:coref-var|2:subj" out="1:nobj">El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pemmican</W>
-<W lemma="consistir" msd="VLfin" in="" out="1:pobj|5:pnct|9:pnct|-2:subj">consiste</W>
+<W lemma="consistir" msd="VLfin" in="" out="-2:subj|1:pobj|5:pnct|9:pnct">consiste</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="placa" msd="NC" in="-1:nobj" out="1:const#|4:conj|6:conj|8:ref|9:relpa|24:coref">placas</W>
 <W lemma="de" msd="PREP" in="-1:const#" out="1:nobj">de</W>
@@ -31,9 +31,9 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-8:ref|1:subj" out="">que</W>
 <W lemma="ser" msd="VSfin" in="-9:relpa" out="-1:subj|1:preds|13:pnct|15:conj">son</W>
-<W lemma="apropiado" msd="ADJ" in="-1:preds" out="6:loc">apropiadas</W>
+<W lemma="apropiado" msd="ADJ" in="-1:preds" out="6:loc|2:pobj">apropiadas</W>
 <W lemma="tanto" msd="ADV" in="3:correl" out="">tanto</W>
-<W lemma="para" msd="PREP" in="" out="1:nobj">para</W>
+<W lemma="para" msd="PREP" in="-2:pobj" out="1:nobj">para</W>
 <W lemma="perro" msd="NC" in="-1:nobj" out="2:conj">perros</W>
 <W lemma="como" msd="CSUBX" in="1:coord" out="-3:correl">como</W>
 <W lemma="persona" msd="NC" in="-2:conj" out="-1:coord">personas</W>
@@ -51,7 +51,7 @@
 <W lemma="sabor" msd="NC" in="-1:nobj" out="1:ref|4:relr">sabor</W>
 <W lemma="que" msd="CQUE" in="-1:ref|3:dobj" out="">que</W>
 <W lemma="se" msd="SE" in="2:subj" out="">se</W>
-<W lemma="l" msd="PPC" in="1:iobj|-6:coref" out="">les</W>
+<W lemma="l" msd="PPC" in="-6:coref|1:iobj" out="">les</W>
 <W lemma="agregar" msd="VLfin" in="-4:relr" out="-1:iobj|-2:subj|-3:dobj|1:pnct">agrega</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
 <W lemma="por~lo~tanto" msd="CSUBF" in="2:struct" out="">Por lo tanto</W>
@@ -93,8 +93,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-4:attrr" out="">acompañado</W>
-<W lemma="con" msd="PREP" in="" out="1:nobj">con</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-4:attrr" out="1:pobj">acompañado</W>
+<W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="vino" msd="NC" in="-1:nobj" out="1:nobj">vino</W>
 <W lemma="tinto" msd="ADJ" in="-1:nobj" out="">tinto</W>
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
@@ -137,8 +137,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef|35:coref-id">Thomsen</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-6:time|-3:pnct|-1:subj|1:vobj|7:pnct">había</W>
 <W lemma="tener" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:agent">ocasión</W>
-<W lemma="de" msd="CSUBI" in="-1:agent" out="1:vobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:pobj:arg">ocasión</W>
+<W lemma="de" msd="CSUBI" in="-1:pobj:arg" out="1:vobj">de</W>
 <W lemma="conocer" msd="VLinf" in="-1:vobj" out="1:dobj">conocer</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">sextante</W>
@@ -149,8 +149,8 @@
 <W lemma="semana" msd="NC" in="-1:nobj" out="13:loc">semana</W>
 <W lemma="en" msd="PREP" in="26:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="campo" msd="NC" in="-1:nobj" out="1:agent#|3:loc">campo</W>
-<W lemma="de" msd="PREP" in="-1:agent#" out="1:nobj">de</W>
+<W lemma="campo" msd="NC" in="-1:nobj" out="3:loc|1:goal#">campo</W>
+<W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
 <W lemma="entrenamiento" msd="NC" in="-1:nobj" out="">entrenamiento</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:loc">Akureyri</W>
@@ -176,8 +176,8 @@
 <W lemma="haber" msd="VHfin" in="" out="-30:time|-26:loc|-17:pnct|-12:pnct|-10:subj|-9:pnct|-6:pnct|1:vobj|8:pnct">han</W>
 <W lemma="comenzar" msd="VLadj" in="-1:vobj" out="-11:[subj]|1:dobj">comenzado</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj" out="1:nobj">su</W>
-<W lemma="marcha" msd="NC" in="-1:nobj" out="1:path">marcha</W>
-<W lemma="a" msd="PREP" in="-1:path" out="1:nobj">a</W>
+<W lemma="marcha" msd="NC" in="-1:nobj" out="1:dir">marcha</W>
+<W lemma="a" msd="PREP" in="-1:dir" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">través</W>
 <W lemma="de" msd="PREP" in="-1:nobj" out="1:nobj">de</W>
 <W lemma="Groenlandia" msd="NP" in="-1:nobj" out="">Groenlandia</W>
