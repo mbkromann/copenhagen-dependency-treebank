@@ -1455,6 +1455,41 @@ sub cmd_autogloss {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_autoreplace.pl
+## ------------------------------------------------------------
+
+sub cmd_autoreplace {
+	my $self = shift;
+	my $graph = shift;
+	my $corpus = shift || "";
+	my @relations = split(/\s+/, shift);
+
+	# Check arguments
+	if (scalar(@relations) == 0) {
+		error('Usage: autoreplace [-corpus] $relation1 $relation2 ...');
+		return 1;
+	}
+
+	# Execute find query
+	my $erel = "/^(" . join("|", @relations) . ')$/';
+	$erel = $relations[0] if ($#relations == 0);
+	my $query = "$corpus\$dep $erel \$gov";
+	print "query=\"$query\"\n";
+	$self->cmd_find($graph, $query);
+
+	# Create edge type hash
+	my $relhash = {};
+	map {$relhash->{$_} = 1} @relations;
+
+	# Process matches
+	my $matches = $self->{'matches'};
+	$self->{'replace_files'} = ['', sort(keys(%$matches))];
+	$self->{'replace_matches'} = [''];
+	$self->{'replace_hash'} = $relhash;
+	$self->cmd_replace($graph);
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_cd.pl
 ## ------------------------------------------------------------
 
@@ -2427,7 +2462,7 @@ sub cmd_find {
 	 		if (time() > $laststatus + 0.5 ) {
 				$laststatus = time();
 				my $blank = "\b" x length($progress);
-				my $percent = int(100 * $c / (1 + $#{@$findfiles}));
+				my $percent = int(100 * $c / (1 + $#$findfiles));
 				$progress = 
 					sprintf('Searched %02i%%. Elapsed: %s. ETA: %s. Matches: %i.',
 					$percent,
@@ -4897,8 +4932,8 @@ sub cmd_perl {
 
 		# Prepend command with initializing code
 		@perl_args = ($self, $graph, $self->lexicon());
-		my $pcmd = '$L = pop(@perl_args); $G = pop(@perl_args); '
-				. '$I = pop(@perl_args); ' . $cmd;
+		my $pcmd = 'my $L = pop(@perl_args); my $G = pop(@perl_args); '
+				. 'my $I = pop(@perl_args); ' . $cmd;
 
 		# Execute command
 		my $value = eval($pcmd);
@@ -5088,6 +5123,92 @@ sub cmd_relations {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_replace.pl
+## ------------------------------------------------------------
+
+sub cmd_replace {
+	my ($self, $graph, $replace) = @_;
+
+	# Replace at current position if replacement is given
+	my $filelist = $self->{'replace_files'};
+	my $matchlist = $self->{'replace_matches'};
+	my $file = $filelist->[0];
+	my $match = $matchlist->[0];
+	my $relhash = $self->{'replace_hash'};
+
+	# Check arguments
+	if (! defined($filelist)) {
+		error("autoreplace not active");
+		return 1;
+	}
+
+	if ($replace) {
+		if ($file && defined($match) && $graph &&
+				($graph->file() || "") eq $file || $file =~ /^\[/) {
+			# Find matching edge
+			my $dep = $match->{'$dep'};
+			my $gov = $match->{'$gov'};
+			my $depnode = $graph->node($dep);
+			my @edges = grep {$_->out() == $gov && $relhash->{$_->type()}} 
+				@{$depnode->in()};
+			my $edge = $edges[0];
+
+			# Delete edge
+			$graph->edge_del($edge) if ($edge);
+
+			# Add new edge
+			$self->cmd_edge($graph, $dep - $graph->offset(),
+				$replace, $gov - $graph->offset());
+			print "edit: $dep " . $replace . " $gov\n";
+		}
+	}
+
+	# Advance to next position and show graph
+	shift(@$matchlist);
+	if (! @$matchlist) {
+		# Save previous file
+		if ($file && ($graph->file() || "") eq $file) {
+			$self->cmd_save($graph);
+		}
+
+		# Advance to next graph and return if undefined
+		shift(@$filelist);
+		$file = $filelist->[0];
+		if (! $file) {
+			warning("replace: no more matches\n");
+		    $self->{'replace_files'} = undef;
+			my $gfile = $graph->file() || "";
+			return 1;
+		}
+		$matchlist = $self->{'replace_matches'} 
+			= [@{$self->{'matches'}{$file}}];
+		# Load new graph
+		if (! ($graph && ($graph->file() || "") eq $file)) {
+	        $self->cmd_load($graph, undef, $file);
+	        $graph = $self->graph();
+			print "=== $file ===\n";
+	    }
+	}
+
+	# Load first match
+	$match = $matchlist->[0];
+	$self->{'replace_match'} = {$graph => [$match]};
+	my $dep = $match->{'$dep'};
+	my $gov = $match->{'$gov'};
+	my $min = min($dep, $gov);
+	my $depnode = $graph->node($dep);
+	my @edges = grep {$_->out() == $gov && $relhash->{$_->type()}} 
+		@{$depnode->in()};
+	my $edge = $edges[0];
+
+	# Goto this position
+	$self->cmd_show($graph, $min - $self->var('goto_context'));
+	print "next: $dep " . $edge->type() . " $gov\n";
+
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_resume.pl
 ## ------------------------------------------------------------
 
@@ -5143,7 +5264,7 @@ sub cmd_save {
 	my $self = shift;
 	my $graph = shift;
 	my $ftype = shift || "";
-	my $fname = shift;
+	my $fname = shift || "";
 	$ftype =~ s/^\s+//g;
 
     # Find type of file (-tag): look at ending, select .tag
@@ -6755,6 +6876,10 @@ sub do {
 		$success = $self->cmd_return($graph)
 			if ($cmd =~ /^\s*$/);
 
+		# Replace: =$replacement
+		$success = $self->cmd_replace($graph, $1)
+			if ($cmd =~ /^=(.*)\s*$/);
+
 		# Unix shell: ! $cmd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*!\s*(.*)$/);
@@ -6805,6 +6930,10 @@ sub do {
 		# Autogloss: autogloss [-atag $atagfile] [mapfile1] [mapfile2] ...
 		$success = $self->cmd_autogloss($graph, $2, $3) 
 			if ($cmd =~ /^\s*autogloss(\s+-atag\s+(\S*))?\s*(.*)$/);
+
+		# Replace: autoreplace [-corpus] $rel1 $rel2 ...
+		$success = $self->cmd_autoreplace($graph, $1, $2)
+			if ($cmd =~ /^\s*autoreplace\s+(-corpus\s+)?(.*)$/);
 
 		# Change directory: cd $dir
 		$success = $self->cmd_cd($1)

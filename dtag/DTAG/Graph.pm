@@ -1319,9 +1319,13 @@ sub matches {
 	my $match = {};
 	if ($inter) {
 		# Find list of matches
-		my $m = $inter->{'matches'}{$self->graph_id() || ""}
+		my $m = 
+			$inter->{'matches'}{$self->graph_id() || ""}
 			|| $inter->{'matches'}{$self->file() || ""}
 			|| [];
+		my $irm = $inter->{'replace_match'};
+		my $irmf = $irm ? $irm->{$self} : undef;
+		$m = $irmf if ($irmf);
 
 		# Process list of matches
 		foreach my $b (@$m) {
