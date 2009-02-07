@@ -12,12 +12,10 @@
 <align out="a53" type="" in="b12" creator="0" insign="Natale" outsign="jul"/>
 <align out="b13" type="" in="b13" creator="0" insign="del" outsign="del"/>
 <align out="a55" type="" in="b15" creator="0" insign="nei" outsign="i"/>
-<align out="a58" type="" in="b18 b19 b20" creator="0" insign="appartamenti in cooperativa" outsign="andelsbolig"/>
 <align out="a44" type="" in="b1" creator="-1" insign="tutto" outsign="alt"/>
 <align out="a54" type="" in="b14" creator="-1" insign="1987" outsign="1987"/>
 <align out="a43" type="" in="b0" creator="-1" insign="Se" outsign="Hvis"/>
 <align out="a48" type="" in="b6" creator="-1" insign="," outsign=","/>
-<align out="a57" type="" in="b17" creator="-1" insign="nuovi" outsign="nye"/>
 <align out="a50" type="" in="b7" creator="-1" insign="15" outsign="15"/>
 <align out="a59" type="" in="b21" creator="0" insign="in" outsign="på"/>
 <align out="b22" type="" in="b22" creator="0" insign="via" outsign="via"/>
@@ -107,7 +105,6 @@
 <align out="a86" type="" in="a86" creator="0" insign="de" outsign="de"/>
 <align out="a85" type="" in="a85" creator="0" insign="at" outsign="at"/>
 <align out="a110" type="f" in="b61" creator="0" insign="quota" outsign="del"/>
-<align out="a110" type="ds" in="b60" creator="0" insign="una" outsign="del"/>
 <align out="a112" type="s" in="b62" creator="0" insign="nel" outsign="boligkvoten"/>
 <align out="a124" type="" in="b73 b74 b75" creator="0" insign="al più tardi" outsign="senest"/>
 <align out="b76" type="" in="b76" creator="0" insign="entro" outsign="entro"/>
@@ -193,4 +190,7 @@
 <align out="a239" type="" in="b203" creator="-1" insign="uno" outsign="en"/>
 <align out="a228" type="f" in="b193" creator="-1" insign=":" outsign="."/>
 <align out="a244" type="" in="b209" creator="-1" insign="." outsign="."/>
+<align out="a57" type="n" in="b17" creator="0" insign="nuovi" outsign="nye"/>
+<align out="a58" type="n" in="b18 b19 b20" creator="0" insign="appartamenti in cooperativa" outsign="andelsbolig"/>
+<align out="a110" type="s" in="b60" creator="0" insign="una" outsign="del"/>
 </DTAGalign>

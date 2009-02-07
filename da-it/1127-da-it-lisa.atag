@@ -61,14 +61,12 @@
 <align out="a91" type="" in="a91" creator="0" insign="det" outsign="det"/>
 <align out="a92" type="" in="a92" creator="0" insign="er" outsign="er"/>
 <align out="a96" type="" in="a96" creator="0" insign="," outsign=","/>
-<align out="a98 a99 a100" type="" in="b51 b52 b53 b54" creator="0" insign="creando le premesse per" outsign="lægger op til"/>
 <align out="a93" type="" in="b55" creator="0" insign="il" outsign="den"/>
 <align out="a97" type="" in="a97" creator="0" insign="den" outsign="den"/>
 <align out="a101" type="f" in="b58" creator="0" insign="," outsign="&nbsp;-&nbsp;"/>
 <align out="a106 a107" type="" in="b60" creator="0" insign="nella" outsign="i den"/>
 <align out="a108" type="" in="b61" creator="0" insign="lunga" outsign="lange"/>
 <align out="a109" type="" in="b62" creator="0" insign="storia" outsign="historie"/>
-<align out="a102 a103 a104 a105" type="" in="b64 b65 b66 b67 b68" creator="0" insign="tra le pagine più belle" outsign="noget af det fineste"/>
 <align out="b59" type="" in="b59" creator="0" insign="ma" outsign="ma"/>
 <align out="b63" type="" in="b63" creator="0" insign="," outsign=","/>
 <align out="b69" type="" in="b69" creator="0" insign="," outsign=","/>
@@ -80,7 +78,6 @@
 <align out="a113" type="" in="a113" creator="0" insign="," outsign=","/>
 <align out="a114" type="" in="a114" creator="0" insign="hvordan" outsign="hvordan"/>
 <align out="a118" type="" in="b80" creator="0" insign="esitante" outsign="tøvende"/>
-<align out="a119 a120 a121" type="" in="b82 b83 b84 b85" creator="0" insign="si apre un varco" outsign="baner sig vej"/>
 <align out="b78" type="" in="b78" creator="0" insign="che" outsign="che"/>
 <align out="b79" type="" in="b79" creator="0" insign="," outsign=","/>
 <align out="b81" type="" in="b81" creator="0" insign="," outsign=","/>
@@ -101,7 +98,6 @@
 <align out="b108" type="" in="b108" creator="0" insign="dai" outsign="dai"/>
 <align out="b109" type="" in="b109" creator="0" insign="lettori" outsign="lettori"/>
 <align out="a142" type="" in="a142" creator="0" insign="derfor" outsign="derfor"/>
-<align out="a125 a139 a140 a141 a143 a144 a145" type="f" in="b101 b102 b103 b104" creator="0" insign="anche se non necessariamente" outsign="Men uden at den behøver at blive"/>
 <align out="a138" type="" in="b100" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
 <align out="a136" type="" in="b95" creator="-1" insign="migliore" outsign="bedste"/>
 <align out="a134" type="" in="b98" creator="-1" insign="Helle" outsign="Helle"/>
@@ -116,7 +112,6 @@
 <align out="a156" type="" in="b117" creator="0" insign="freddamente" outsign="køligt"/>
 <align out="a157" type="" in="b118" creator="0" insign="passionale" outsign="passionerede"/>
 <align out="a160" type="" in="b119 b120" creator="0" insign="con cui" outsign="hvormed"/>
-<align out="a161" type="" in="b121 b122" creator="0" insign="la scrittrice" outsign="hun"/>
 <align out="a158" type="f" in="b114 b115" creator="0" insign="sensibilità eccellente" outsign="overlegenhed"/>
 <align out="a167" type="" in="a167" creator="0" insign="," outsign=","/>
 <align out="b129" type="" in="b129" creator="0" insign="e" outsign="e"/>
@@ -213,9 +208,17 @@
 <align out="a252" type="" in="a252" creator="0" insign="ude" outsign="ude"/>
 <align out="b199" type="" in="b199" creator="0" insign="questo" outsign="questo"/>
 <align out="a250" type="" in="b194" creator="-1" insign="Stangerup" outsign="Stangerup"/>
-<align out="a253" type="" in="b198" creator="-1" insign="di" outsign="i"/>
 <align out="a249" type="" in="b193" creator="-1" insign="Helle" outsign="Helle"/>
 <align out="a254" type="" in="b200" creator="-1" insign="." outsign="."/>
 <align out="a248" type="" in="b195" creator="-1" insign="è" outsign="er"/>
 <align out="a251" type="" in="b197" creator="-1" insign="anche" outsign="også"/>
+<align out="a98 a99 a100" type="mvg" in="b51 b52 b53 b54" creator="0" insign="creando le premesse per" outsign="lægger op til"/>
+<align out="a102 a103 a104 a105" type="f" in="b64 b65 b66 b67 b68" creator="0" insign="tra le pagine più belle" outsign="noget af det fineste"/>
+<align out="a119 a120 a121" type="mvd" in="b82 b83 b84 b85" creator="0" insign="si apre un varco" outsign="baner sig vej"/>
+<align out="a125 a139 a140 a141 a143" type="f" in="b101 b102 b103 b104" creator="0" insign="anche se non necessariamente" outsign="Men uden at den behøver"/>
+<align out="a144" type="" in="a144" creator="0" insign="at" outsign="at"/>
+<align out="a145" type="" in="a145" creator="0" insign="blive" outsign="blive"/>
+<align out="a161" type="lv" in="b121 b122" creator="0" insign="la scrittrice" outsign="hun"/>
+<align out="a253" type="" in="a253" creator="0" insign="i" outsign="i"/>
+<align out="b198" type="" in="b198" creator="0" insign="di" outsign="di"/>
 </DTAGalign>

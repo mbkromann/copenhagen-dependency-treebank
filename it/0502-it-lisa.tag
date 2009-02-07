@@ -12,7 +12,7 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="raccontare" msd="VADA" tag="VER:impf" in="" out="-7:subj|1:dobj|15:pnct">raccontava</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="9:vobj">che</W>
-<W lemma="bere" msd="VAP" tag="VER:pper" in="8:cond" out="1:ext|6:pnct|3:dobj">bevuta</W>
+<W lemma="bere" msd="VAP" tag="VER:pper" in="8:cond" out="1:ext|3:dobj|6:pnct">bevuta</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:ext" out="1:nobj">una</W>
 <W lemma="volta" msd="NC" tag="NOM" in="-1:nobj" out="">volta</W>
 <W compound="¹l’²acqua" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:dobj" out="1:attrr">l’acqua</W>
@@ -145,7 +145,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj:arg" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
-<W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-11:subj|2:vobj|13:pnct|1:ext">viene</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="" out="-11:subj|1:ext|2:vobj|13:pnct">viene</W>
 <W lemma="spesso" msd="RG" tag="ADV" in="-1:ext" out="">spesso</W>
 <W lemma="raffigurare" msd="VAP" tag="VER:pper" in="-2:vobj" out="-13:[subj]|1:man">raffigurato</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>

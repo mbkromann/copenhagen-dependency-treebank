@@ -20,7 +20,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="noi" msd="PP" tag="PRO:pers" in="2:subj" out="">noi</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="5:coref-res">non</W>
-<W lemma="operare" msd="VADR" tag="VER:pres" in="-21:conj" out="-1:neg|-2:subj|-3:coord|2:pnct|3:cons|18:pnct|1:man">operiamo</W>
+<W lemma="operare" msd="VADR" tag="VER:pres" in="-21:conj" out="-1:neg|-2:subj|-3:coord|1:man|2:pnct|3:cons|18:pnct">operiamo</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:man" out="">imprudentemente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="per" msd="CS" tag="CON" in="-3:cons" out="1:nobj|7:vobj">per</W>
@@ -65,7 +65,7 @@
 <W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:dobj">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:dobj" out="11:vobj">che</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="1:attrd" out="">qualsiasi</W>
-<W lemma="mossa" msd="NC" tag="NOM" in="9:subj|10:[subj]" out="-1:attrd|7:attrr|1:pobj:subj">mossa</W>
+<W lemma="mossa" msd="NC" tag="NOM" in="9:subj|10:[subj]" out="-1:attrd|1:pobj:subj|7:attrr">mossa</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj:subj" out="1:nobj">da</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">parte</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
@@ -87,7 +87,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj" out="2:nobj">il</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attrd" out="">grande</W>
 <W lemma="ruolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">ruolo</W>
-<W lemma="rivestire" msd="VAP" tag="VER:pper" in="-4:vobj" out="-3:subj|3:loc|1:pobj:subj">rivestito</W>
+<W lemma="rivestire" msd="VAP" tag="VER:pper" in="-4:vobj" out="-3:subj|1:pobj:subj|3:loc">rivestito</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj:subj" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="20:assoc-const|32:assoc-const">ATP</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">in</W>

@@ -1,12 +1,12 @@
 <W lemma="che" msd="PT" tag="PRO:rela" in="22:subj" out="1:nobj|2:vobj">Che</W>
-<W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cosa</W>
-<W lemma="pensare" msd="VADR" tag="VER:pres" in="-2:vobj" out="1:subj|5:pobj">pensi</W>
+<W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="6:attrr">cosa</W>
+<W lemma="pensare" msd="VADR" tag="VER:pres" in="-2:vobj" out="1:subj">pensi</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:attrr">Partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-1:attrr" out="">Socialdemocratico</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-2:attrr" out="">danese</W>
-<W lemma="di" msd="SP" tag="PRE" in="-5:pobj" out="1:dobj">di</W>
-<W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="1:nobj|63:coref-res|2:vobj">che</W>
+<W lemma="di" msd="SP" tag="PRE" in="-6:attrr" out="1:nobj">di</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="-1:nobj" out="1:nobj|2:vobj|63:coref-res">che</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cosa</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:vobj" out="1:subj|3:time">farà</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="1:nobj">la</W>
@@ -20,25 +20,25 @@
 <W lemma="trattato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:arg#">Trattato</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj:arg#" out="1:nobj">di</W>
 <W lemma="Maastricht" msd="NP" tag="NPR" in="-1:nobj" out="">Maastricht</W>
-<W lemma="dipendere" msd="VADR" tag="VER:pres" in="" out="6:pnct|3:²vobj|-22:subj">dipende</W>
+<W lemma="dipendere" msd="VADR" tag="VER:pres" in="" out="-22:subj|3:²vobj|6:pnct">dipende</W>
 <W lemma="a" msd="SP" tag="PRE" in="2:iobj²" out="1:nobj">a</W>
 <W lemma="chi" msd="PT" tag="PRO:rela" in="-1:nobj" out="">chi</W>
-<W compound="¹si²pone" lemma="si" msd="PR" tag="PRO:refl" in="0:¹subj²|-3:²vobj" out="0:¹subj²|-2:iobj²|1:dobj²">si</W>
+<W compound="¹si²pone" lemma="si" msd="PR" tag="PRO:refl" in="-3:²vobj|0:¹subj²" out="-2:iobj²|1:dobj²|0:¹subj²">si</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj²" out="1:nobj">la</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="-1:nobj" out="">domanda</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="">partito</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|1:preds">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|1:preds|9:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="fucina" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:dobj">fucina</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj:dobj" out="1:nobj">di</W>
 <W lemma="molto" msd="PI" tag="PRO:indef" in="-1:nobj" out="1:nobj">molti</W>
 <W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj:dobj#">punti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj:dobj#" out="1:pobj|3:attrr">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj:dobj#" out="1:pobj">di</W>
 <W lemma="vista" msd="NC" tag="NOM" in="-1:pobj" out="1:attrd">vista</W>
 <W lemma="interessante" msd="AN" tag="ADJ" in="-1:attrd" out="">interessanti</W>
-<W lemma="." msd="XP" tag="SENT" in="-3:attrr" out="">.</W>
+<W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="a" msd="SP" tag="PRE" in="16:loc" out="1:nobj">A</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:appa">Christiansborg</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>

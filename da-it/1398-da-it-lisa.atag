@@ -120,7 +120,6 @@
 <align out="a160" type="" in="b112" creator="-1" insign="può" outsign="kan"/>
 <align out="a145" type="" in="b97" creator="-1" insign="Ma" outsign="Men"/>
 <align out="a168" type="f" in="b121" creator="0" insign="." outsign="&nbsp;-&nbsp;"/>
-<align out="a173 a174 a175" type="e" in="b122 b123 b124 b125 b126 b127 b128" creator="0" insign="( ? )la più piccola di tutte" outsign="mindst af alle"/>
 <align out="a176" type="ds" in="b129" creator="0" insign="le" outsign="samfund"/>
 <align out="a176" type="" in="b130" creator="0" insign="collettività" outsign="samfund"/>
 <align out="a178" type="" in="b132 b133" creator="0" insign="il cui" outsign="hvis"/>
@@ -172,4 +171,7 @@
 <align out="a213" type="" in="b165" creator="-1" insign="che" outsign="der"/>
 <align out="a214" type="" in="b166" creator="-1" insign="per" outsign="i"/>
 <align out="a221" type="" in="b172" creator="-1" insign="di" outsign="af"/>
+<align out="b122" type="" in="b122" creator="0" insign="(" outsign="("/>
+<align out="b123" type="" in="b123" creator="0" insign="?" outsign="?"/>
+<align out="a173 a174 a175" type="e" in="b124 b125 b126 b127 b128" creator="0" insign=")la più piccola di tutte" outsign="mindst af alle"/>
 </DTAGalign>

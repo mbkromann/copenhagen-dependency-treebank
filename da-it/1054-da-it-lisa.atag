@@ -132,14 +132,12 @@
 <align out="a187 a188" type="" in="b140" creator="0" insign="sarà" outsign="bliver han"/>
 <align out="a189" type="" in="b141" creator="0" insign="in" outsign="i"/>
 <align out="a190 a191" type="" in="b142 b143" creator="0" insign="grado di" outsign="stand til"/>
-<align out="a192" type="" in="b143" creator="0" insign="di" outsign="at"/>
 <align out="b137" type="" in="b137" creator="0" insign="sua" outsign="sua"/>
 <align out="b139" type="" in="b139" creator="0" insign="," outsign=","/>
 <align out="b135" type="" in="b135" creator="0" insign="via" outsign="via"/>
 <align out="a185" type="" in="a185" creator="0" insign="indbyggede" outsign="indbyggede"/>
 <align out="a186" type="" in="a186" creator="0" insign="status" outsign="status"/>
 <align out="a196" type="" in="b149 b150" creator="0" insign="Stati Uniti" outsign="USA"/>
-<align out="a193 a194" type="f" in="b144 b145 b146 b147" creator="0" insign="visitare le diverse zone" outsign="rejse rundt"/>
 <align out="a180" type="" in="b132" creator="-1" insign="periodo" outsign="tid"/>
 <align out="a195" type="" in="b148" creator="-1" insign="degli" outsign="i"/>
 <align out="a183" type="" in="b134" creator="-1" insign="per" outsign="med"/>
@@ -182,4 +180,7 @@
 <align out="a237" type="" in="b204" creator="-1" insign="Powell" outsign="Powell"/>
 <align out="a238" type="" in="b205" creator="-1" insign="." outsign="."/>
 <align out="a233" type="" in="b197" creator="-1" insign="e" outsign="og"/>
+<align out="a83" type="dns" in="b35" creator="0" insign="nella" outsign="valgkampe"/>
+<align out="a192 a193 a194" type="f" in="b144 b145 b146 b147" creator="0" insign="visitare le diverse zone" outsign="at rejse rundt"/>
+<align out="a196" type="dns" in="b148" creator="0" insign="degli" outsign="USA"/>
 </DTAGalign>

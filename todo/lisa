@@ -69,10 +69,10 @@
 [*] it/0848-it-lisa.tag
 [*] da-it/0876-da-it-lisa.atag
 [*] it/0876-it-lisa.tag
-[ ] da-it/0915-da-it-lisa.atag
-[ ] it/0915-it-lisa.tag
-[ ] da-it/0960-da-it-lisa.atag
-[ ] it/0960-it-lisa.tag
+[*] da-it/0915-da-it-lisa.atag
+[*] it/0915-it-lisa.tag
+[*] da-it/0960-da-it-lisa.atag
+[*] it/0960-it-lisa.tag
 [*] da-it/0998-da-it-lisa.atag
 [*] it/0998-it-lisa.tag
 [ ] da-it/1054-da-it-lisa.atag
@@ -83,10 +83,24 @@
 [ ] it/1127-it-lisa.tag
 [ ] da-it/1227-da-it-lisa.atag
 [ ] it/1227-it-lisa.tag
-[*] da-it/1250-da-it-lisa.atag
-[*] it/1250-it-lisa.tag
+[ ] da-it/1250-da-it-lisa.atag
+[ ] it/1250-it-lisa.tag
 [ ] da-it/1398-da-it-lisa.atag
 [ ] it/1398-it-lisa.tag
 [ ] da-it/1497-da-it-lisa.atag
 [ ] it/1497-it-lisa.tag
+
+
+# Tasks that should be revised because of revised translation
+
+[ ] da-it/0339-da-it-lisa.atag
+[ ] it/0339-it-lisa.tag
+[ ] da-it/0800-da-it-lisa.atag
+[ ] it/0800-it-lisa.tag
+[ ] da-it/0915-da-it-lisa.atag
+[ ] da-it/0960-da-it-lisa.atag
+[ ] da-it/0998-da-it-lisa.atag
+[ ] it/0998-it-lisa.tag
+[ ] da-it/1077-da-it-lisa.atag
+[ ] da-it/1497-da-it-lisa.atag
 
