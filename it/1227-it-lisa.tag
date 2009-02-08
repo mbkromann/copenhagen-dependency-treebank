@@ -1,7 +1,7 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET:def" in="2:subj" out="1:nobj">Le</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Faroer</W>
-<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="8:qobj" out="-3:pnct|7:pnct|2:dobj|1:prg|-2:subj">sono</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="8:qobj" out="-3:pnct|-2:subj|1:prg|2:dobj|7:pnct">sono</W>
 <W lemma="comunque" msd="RG" tag="ADV" in="-1:prg" out="">comunque</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-2:dobj" out="1:pobj">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">del</W>
@@ -66,7 +66,7 @@
 <W lemma="e" msd="CS" tag="CON" in="3:discmark" out="">E</W>
 <W lemma="adesso" msd="RG" tag="ADV" in="2:time" out="">adesso</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:degr">non</W>
-<W lemma="guadagnare" msd="VADR" tag="VER:pres" in="" out="-4:pnct|-1:neg|-2:time|-3:discmark|2:pnct|11:pnct|3:conc|23:coref-res">guadagno</W>
+<W lemma="guadagnare" msd="VADR" tag="VER:pres" in="" out="-4:pnct|-1:neg|-2:time|-3:discmark|2:pnct|3:conc|11:pnct|23:coref-res">guadagno</W>
 <W lemma="affatto" msd="RG" tag="ADV" in="-2:degr" out="">affatto</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nonostante" msd="SP" tag="PRE" in="-3:conc" out="1:vobj">nonostante</W>
@@ -100,12 +100,12 @@
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 <W lemma="secondo" msd="SP" tag="PRE" in="23:source" out="1:nobj">Secondo</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:attrr|2:attrr|5:relr|4:ref">Servizio</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:attrr|2:attrr|4:ref|5:relr">Servizio</W>
 <W lemma="bibliotecario" msd="NC" tag="NOM" in="-1:attrr" out="">Bibliotecario</W>
 <W lemma="nazionale" msd="AN" tag="ADJ" in="-2:attrr" out="">Nazionale</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
-<W lemma="che" msd="PT" tag="PRO:rela" in="1:subj|-4:ref" out="">che</W>
-<W lemma="amministrare" msd="VADR" tag="VER:pres" in="-5:relr" out="-1:subj|1:dobj|-2:pnct|6:pnct">amministra</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="-4:ref|1:subj" out="">che</W>
+<W lemma="amministrare" msd="VADR" tag="VER:pres" in="-5:relr" out="-1:subj|-2:pnct|1:dobj|6:pnct">amministra</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="fondo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">fondi</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">per</W>
@@ -115,7 +115,7 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="più" msd="RG" tag="ADV" in="8:subj" out="1:pobj">più</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
-<W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="-3:pnct|2:pnct|1:nobj">una</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="-3:pnct|1:nobj|2:pnct">una</W>
 <W lemma="ventina" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj">ventina</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
@@ -148,7 +148,7 @@
 <W lemma="Anna" msd="NP" tag="NPR" in="1:namef" out="">Anna</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="9:subj" out="-1:namef|2:appa">Johansen</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="consulente" msd="AN" tag="ADJ" in="-2:appa" out="-1:pnct|6:pnct|1:pobj">consulente</W>
+<W lemma="consulente" msd="AN" tag="ADJ" in="-2:appa" out="-1:pnct|1:pobj|6:pnct">consulente</W>
 <W lemma="presso" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">presso</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="servizio" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">Servizio</W>
@@ -159,7 +159,7 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="2:subj" out="1:nobj">questo</W>
 <W lemma="servizio" msd="NC" tag="NOM" in="-1:nobj" out="">servizio</W>
-<W lemma="mettere" msd="VADR" tag="VER:pres" in="-4:qobj" out="-3:pnct|28:pnct|-2:subj|1:pobj|17:pnct">mette</W>
+<W lemma="mettere" msd="VADR" tag="VER:pres" in="-4:qobj" out="-3:pnct|-2:subj|1:pobj|17:pnct|28:pnct">mette</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="disposizione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|3:cond">disposizione</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">dei</W>

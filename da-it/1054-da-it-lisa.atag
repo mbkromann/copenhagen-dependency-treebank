@@ -131,7 +131,6 @@
 <align out="a184" type="" in="b138" creator="0" insign="carica" outsign="embedets"/>
 <align out="a187 a188" type="" in="b140" creator="0" insign="sarà" outsign="bliver han"/>
 <align out="a189" type="" in="b141" creator="0" insign="in" outsign="i"/>
-<align out="a190 a191" type="" in="b142 b143" creator="0" insign="grado di" outsign="stand til"/>
 <align out="b137" type="" in="b137" creator="0" insign="sua" outsign="sua"/>
 <align out="b139" type="" in="b139" creator="0" insign="," outsign=","/>
 <align out="b135" type="" in="b135" creator="0" insign="via" outsign="via"/>
@@ -183,4 +182,6 @@
 <align out="a83" type="dns" in="b35" creator="0" insign="nella" outsign="valgkampe"/>
 <align out="a192 a193 a194" type="f" in="b144 b145 b146 b147" creator="0" insign="visitare le diverse zone" outsign="at rejse rundt"/>
 <align out="a196" type="dns" in="b148" creator="0" insign="degli" outsign="USA"/>
+<align out="a190" type="" in="b142" creator="0" insign="grado" outsign="stand"/>
+<align out="a191" type="" in="b143" creator="0" insign="di" outsign="til"/>
 </DTAGalign>
