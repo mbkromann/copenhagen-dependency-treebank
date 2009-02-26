@@ -118,6 +118,7 @@ macro agreement !~/cdt/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff
 macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
 macro ddt !openoffice /home/cdt/web/www.treebank.dk/ddt-manual.odt &
 macro ddtpdf !acroread /home/cdt/web/www.treebank.dk/ddt-manual.pdf &
+macro corpusda corpus /home/cdt/cdt/da/*.tag
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
