@@ -41,17 +41,17 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="9:subj" out="1:mod|2:mod|3:nobj|5:appr">To</W>
-<W gloss="well-known" lemma="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">kendte</W>
-<W gloss="Russian" lemma="russisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:mod" out="">russiske</W>
+<W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="9:subj" out="3:nobj|5:appr|1:attr|2:attr">To</W>
+<W gloss="well-known" lemma="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kendte</W>
+<W gloss="Russian" lemma="russisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">russiske</W>
 <W gloss="historians" lemma="historiker" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">historikere</W>
 <W gloss="Andronik" lemma="Andronik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Andronik</W>
 <W gloss="Mirganjan" lemma="Mirganjan" msd="NP--U==-" tag="NNP" in="-5:appr" out="-1:namef|1:coord">Mirganjan</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="2:conj">og</W>
 <W gloss="Igor" lemma="Igor" msd="NP--U==-" tag="NNP" in="1:namef" out="">Igor</W>
 <W gloss="Klamkin" lemma="Klamkin" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:namef">Klamkin</W>
-<W gloss="do_believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:mod|2:pnct|3:dobj|12:pnct">tror</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="do_believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|2:pnct|3:dobj|12:pnct|1:neg">tror</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="2:vobj">at</W>
 <W gloss="Russia" lemma="Rusland" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">Rusland</W>

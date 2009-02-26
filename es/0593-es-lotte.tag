@@ -13,7 +13,7 @@
 <W lemma="tanto" msd="ADV" in="2:correl" out="">tanto</W>
 <W lemma="soltero" msd="ADJ" in="" out="2:conj">solteros</W>
 <W lemma="como" msd="CSUBX" in="1:coord" out="-2:correl">como</W>
-<W lemma="matrimonio" msd="NC" in="-2:conj" out="-1:coord|2:ref|6:coref-part|7:relr|1:loc">matrimonios</W>
+<W lemma="matrimonio" msd="NC" in="-2:conj" out="-1:coord|1:loc|2:ref|6:coref-part|7:relr">matrimonios</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="">en</W>
 <W lemma="que" msd="CQUE" in="-2:ref" out="">que</W>
 <W lemma="uno" msd="CARD" in="4:subj" out="2:conj">uno</W>
@@ -68,14 +68,14 @@
 <W lemma="al" msd="PAL" in="-30:coref-var|7:bg" out="1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:dobj">cálculo</W>
 <W lemma="del" msd="PDEL" in="-1:pobj:dobj" out="1:nobj">del</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj|-38:coref-id" out="44:coref-id|1:goal#">subsidio</W>
+<W lemma="subsidio" msd="NC" in="-1:nobj|-38:coref-id" out="1:goal#|44:coref-id">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
 <W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="tomar" msd="VLfin" in="" out="-1:robj|-7:bg|3:dobj|7:pnct">toma</W>
 <W lemma="como" msd="CSUBX" in="2:comp" out="1:nobj">como</W>
 <W lemma="basar" msd="VLfin" in="-1:nobj" out="">base</W>
-<W lemma="el" msd="ART" in="-3:dobj" out="1:attrd|2:nobj|16:coref-id|-2:comp">el</W>
+<W lemma="el" msd="ART" in="-3:dobj" out="-2:comp|1:attrd|2:nobj|16:coref-id">el</W>
 <W lemma="llamar" msd="VLadj" in="-1:attrd" out="">llamado</W>
 <W lemma="importe" msd="NC" in="-2:nobj" out="1:attrr#">importe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="">límite</W>
@@ -137,7 +137,7 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="37:vobj">que</W>
 <W lemma="si" msd="CSUBX" in="36:cond" out="7:vobj">si</W>
 <W lemma="el" msd="ART" in="6:subj" out="1:nobj">la</W>
-<W lemma="superficie" msd="NC" in="-1:nobj" out="2:pobj:arg|1:attrr#">superficie</W>
+<W lemma="superficie" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj:arg">superficie</W>
 <W lemma="bruto" msd="ADJ" in="-1:attrr#" out="">bruta</W>
 <W lemma="de" msd="PREP" in="-2:pobj:arg" out="1:nobj">de</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">su</W>
@@ -151,8 +151,8 @@
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="si" msd="CSUBX" in="22:cond" out="">si</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">Ud.</W>
-<W lemma="vivir" msd="VLfin" in="-9:conj" out="-3:coord|-1:subj|1:man|2:loc|5:pnct">vive</W>
-<W lemma="solo" msd="ADJ" in="-1:man" out="">solo</W>
+<W lemma="vivir" msd="VLfin" in="-9:conj" out="-3:coord|-1:subj|2:loc|5:pnct|1:preds">vive</W>
+<W lemma="solo" msd="ADJ" in="-1:preds" out="">solo</W>
 <W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="piso" msd="NC" in="-1:nobj" out="">piso</W>

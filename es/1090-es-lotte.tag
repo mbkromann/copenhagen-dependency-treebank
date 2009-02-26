@@ -26,10 +26,10 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">años</W>
 <W lemma="@card@" msd="CODE" in="-1:nobj" out="">1600</W>
-<W lemma="en" msd="PREP" in="-23:loc" out="">en</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="3:loc|13:coref-var">Gl</W>
-<W lemma="." msd="FS" in="" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Forlev</W>
+<W lemma="en" msd="PREP" in="-23:loc" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="3:loc|13:coref-var|1:+|2:name">Gl</W>
+<W lemma="." msd="FS" in="-1:+" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-2:name" out="">Forlev</W>
 <W lemma="cerca" msd="ADV" in="-3:loc" out="1:nobj">cerca</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">deTrelleborg</W>
 <W lemma="." msd="FS" in="-29:pnct" out="">.</W>
@@ -44,8 +44,8 @@
 <W lemma="lugar" msd="NC" in="-1:nobj" out="1:pnct">lugar</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="p" msd="ALFS" in="3:ex" out="">p.</W>
-<W lemma="ej" msd="NC" in="" out="">ej</W>
-<W lemma="." msd="FS" in="" out="">.</W>
+<W lemma="ej" msd="NC" in="" out="1:+">ej</W>
+<W lemma="." msd="FS" in="-1:+" out="">.</W>
 <W lemma="utensilio" msd="NC" in="" out="-3:ex|1:attrr|2:ref|4:relr">utensilios</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">domésticos</W>
 <W lemma="que" msd="CQUE" in="-2:ref|2:subj|3:[subj]" out="">que</W>
@@ -143,7 +143,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Cruz</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:attrd" out="">Roja</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
-<W lemma="l" msd="PPX" in="6:subj|8:[subj]|-27:coref" out="2:conj">Ella</W>
+<W lemma="l" msd="PPX" in="-27:coref|6:subj|8:[subj]" out="2:conj">Ella</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="un" msd="ART" in="-2:conj" out="-1:coord|1:nobj">un</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="1:pobj:arg">grupo</W>
@@ -213,7 +213,7 @@
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Copenhague</W>
 <W lemma="." msd="FS" in="-13:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="2:subj|-18:assoc-scope" out="1:nobj">La</W>
+<W lemma="el" msd="ART" in="-18:assoc-scope|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">exposición</W>
 <W lemma="durar" msd="VLfin" in="" out="-2:subj|1:time|6:pnct">dura</W>
 <W lemma="hasta" msd="PREP" in="-1:time" out="1:nobj">hasta</W>
