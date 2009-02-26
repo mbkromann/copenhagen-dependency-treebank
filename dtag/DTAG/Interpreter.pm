@@ -1486,7 +1486,7 @@ sub cmd_autoreplace {
 	$self->{'replace_files'} = ['', sort(keys(%$matches))];
 	$self->{'replace_matches'} = [''];
 	$self->{'replace_hash'} = $relhash;
-	$self->{'replace_times} = [];
+	$self->{'replace_times'} = [];
 	$self->cmd_replace($graph);
 }
 
