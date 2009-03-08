@@ -187,7 +187,7 @@
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="3:conj|19:pnct">Og</W>
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="2:time" out="1:nobj">denne</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="2:subj|3:neg|4:vobj|-2:time">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-2:time|2:subj|3:neg|4:vobj">kan</W>
 <W gloss="Poul-Erik" lemma="Poul-Erik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul-Erik</W>
 <W gloss="Billeskov" lemma="Billeskov" msd="NP--U==-" tag="NNP" in="-2:subj|2:[subj]" out="-1:namef">Billeskov</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
@@ -264,8 +264,8 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:prg|2:pred">er</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-1:prg" out="">altså</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pred" out="1:nobj">i</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">de</W>
-<W gloss="be_devoted" lemma="hellig" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:mod" out="">helliges</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:nobj|1:nobj">de</W>
+<W gloss="be_devoted" lemma="hellig" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:nobj" out="">helliges</W>
 <W gloss="disadvantage" lemma="disfavør" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">disfavør</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

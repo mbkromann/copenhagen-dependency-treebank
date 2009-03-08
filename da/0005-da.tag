@@ -212,8 +212,8 @@
 <W gloss="racism" lemma="racisme" msd="NCCSU==I" tag="NN" in="-1:conj" out="">racisme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="in_which" lemma="hvor" msd="RGU" tag="RP" in="-7:ref|6:loc" out="">hvor</W>
-<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="5:subj" out="1:mod">de</W>
-<W gloss="young_people" lemma="ung" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">unge</W>
+<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="5:subj" out="1: nobj">de</W>
+<W gloss="young_people" lemma="ung" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1: nobj" out="">unge</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:ex" out="">blandt_andet</W>
 <W gloss="through" lemma="via" msd="SP" tag="IN" in="2:man" out="-1:ex|1:nobj">via</W>
 <W gloss="posters" lemma="plakat" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">plakater</W>

@@ -156,8 +156,8 @@
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">kan</W>
 <W gloss="send" lemma="sende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">sende</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">folk</W>
-<W gloss="away" lemma="af_sted" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">af_sted</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
+<W gloss="away" lemma="af_sted" msd="RGU" tag="RP" in="-2:lobj" out="1:other">af_sted</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="suicide_missions" lemma="selvmordsmission" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">selvmordsmissioner</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-19:pnct" out="">?</W>
 </s>
@@ -173,9 +173,9 @@
 <W gloss="private" lemma="privat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">privat</W>
 <W gloss="intelligence_service" lemma="efterretningsvæsen" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">efterretningsvæsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-9:list" out="-7:xtop|1:subj|2:mod|3:vobj">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-9:list" out="-7:xtop|1:subj|3:vobj|2:cons">kan</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">vi</W>
-<W gloss="then" lemma="så" msd="RGU" tag="RP" in="-2:mod|-9:ref" out="">så</W>
+<W gloss="then" lemma="så" msd="RGU" tag="RP" in="-9:ref|-2:cons" out="">så</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:pred">være</W>
 <W gloss="sure" lemma="sikker" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="1:pobj">sikre</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
