@@ -264,7 +264,7 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:prg|2:pred">er</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-1:prg" out="">altså</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pred" out="1:nobj">i</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:nobj|1:nobj">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:nobj">de</W>
 <W gloss="be_devoted" lemma="hellig" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:nobj" out="">helliges</W>
 <W gloss="disadvantage" lemma="disfavør" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">disfavør</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>

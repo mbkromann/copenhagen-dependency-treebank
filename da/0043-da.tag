@@ -179,7 +179,7 @@
 <W gloss="is" lemma="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:pred">Bliver</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="the_case" lemma="tilfælde" msd="NCNSU==D" tag="NN" in="-2:pred" out="">tilfældet</W>
-<W gloss="will_be_chosen" lemma="kåre" msd="VADR=----P-" tag="VBD" in="" out="-3:cond|1:subj|6:pnct|3:time">kåres</W>
+<W gloss="will_be_chosen" lemma="kåre" msd="VADR=----P-" tag="VBD" in="" out="-3:cond|1:subj|3:time|6:pnct">kåres</W>
 <W gloss="the_year's" lemma="år" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">årets</W>
 <W gloss="Danish_champion" lemma="danmarksmester" msd="NCCSU==I" tag="NN" in="-1:possd" out="">danmarksmester</W>
 <W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:time" out="1:mod|2:nobj">den</W>

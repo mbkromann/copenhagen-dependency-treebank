@@ -72,7 +72,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-6:coord" out="2:conj">og</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:cons" out="">så</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-2:conj" out="2:subj|5:neg|6:vobj|10:pnct|11:coord|-1:cons">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:cons|2:subj|5:neg|6:vobj|10:pnct|11:coord">ville</W>
 <W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:ext" out="">mindst</W>
 <W gloss="150" lemma="150" msd="AC---U=--" tag="CD" in="-2:subj|4:[subj]|5:[subj]" out="-1:ext|1:attr|2:nobj">150</W>
 <W gloss="critical" lemma="kritisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kritiske</W>
@@ -225,7 +225,7 @@
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-7:xpl" out="-1:subj|-2:pnct|1:neg|2:vobj|9:pnct|10:pnct">vil</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pred">være</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:pred" out="2:pnct|3:ref|4:rel|1:nobj">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:pred" out="1:nobj|2:pnct|3:ref|4:rel">de</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="">næste</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj|2:[subj]" out="">der</W>

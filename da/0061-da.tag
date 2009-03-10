@@ -82,7 +82,7 @@
 <W gloss="1_:_38_a.m." lemma="01.38" msd="AC---U=--" tag="CD" in="-1:nobj" out="">01.38</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:time|1:subj|2:pred|5:pnct">var</W>
 <W gloss="Baghdad" lemma="Bagdad" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Bagdad</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="2:nobj|1:attr">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="1:attr|2:nobj">en</W>
 <W gloss="dead" lemma="død" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">død</W>
 <W gloss="city" lemma="by" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">by</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
