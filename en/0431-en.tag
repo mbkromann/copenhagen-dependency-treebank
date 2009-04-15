@@ -219,8 +219,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Ständige</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:pnct|2:list">Musterausstellung</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-2:list" out="1:mod|1:pnct|2:list">Poststrasse</W>
-<W msd="AC" tag="CD" in="-1:mod|-1:pnct" out="">1,</W>
+<W msd="NP=S" tag="NNP" in="-2:list" out="1:mod|2:list|1:pnct#">Poststrasse</W>
+<W msd="AC" tag="CD" in="-1:mod|-1:pnct#" out="">1,</W>
 <W msd="NP=S" tag="NNP" in="-2:list" out="1:list">W-7530</W>
 <W msd="NP=S" tag="NNP" in="-1:list" out="">Pforzheim</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>

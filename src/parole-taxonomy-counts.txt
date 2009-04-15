@@ -1,0 +1,205 @@
+Parole Corpus
+
+P.M Medium : 536
+P.M1 book : 49
+P.M2 newspaper : 405
+P.M3 periodical : 63
+P.M3.1 journal : 11
+P.M3.2 local : 5
+P.M3.3 magazine : 45
+P.M3.4 specialized journal/magazine : 2
+P.M4 misc : 19
+P.M4.1 correspondence : 0
+P.M4.2 electronic : 6
+P.M4.3 ephemera : 13
+P.M4.4 hand-written : 0
+P.M4.5 spoken : 0
+P.M4.6 typed : 0
+
+P.G Genre : 536
+P.G1 N/A : 278
+P.G2 advertising : 0
+P.G2.1 advertisement : 0
+P.G2.2 leaflet : 0
+P.G2.3 prior publicity : 0
+P.G2.4 catalogue : 0
+P.G2.5 advertising : 0
+P.G2.6 printed advertising : 0
+P.G2.7 bargains paper : 0
+P.G3 discussion : 43
+P.G3.1 Debate : 25
+P.G3.2 Dialogue : 0
+P.G3.3 Parliamentary speech : 0
+P.G3.4 Interview : 13
+P.G3.5 Cultural debate : 0
+P.G3.6 Letter to the editor : 5
+P.G3.7 Conversation : 0
+P.G4 feature : 81
+P.G4.1 Review : 21
+P.G4.2 Article : 43
+P.G4.3 Causerie : 0
+P.G4.4 Quotation : 0
+P.G4.5 Essay : 1
+P.G4.6 Feature : 0
+P.G4.7 Column : 10
+P.G4.8 Feature article : 3
+P.G4.9 Programme : 3
+P.G5 fiction : 44
+P.G5.1 children's page : 42
+P.G5.2 poem : 0
+P.G5.3 play : 0
+P.G5.4 fairy tale : 1
+P.G5.5 film : 0
+P.G5.6 story : 1
+P.G5.7 horoscope : 0
+P.G5.8 humour : 0
+P.G5.9 occasional song : 0
+P.G5.10 short story : 11
+P.G5.11 novel : 31
+P.G5.12 song lyrics : 0
+P.G5.13 series (tv) : 0
+P.G5.14 games : 0
+P.G5.15 comic strip/book : 0
+P.G5.16 youth section : 0
+P.G6 information : 49
+P.G6.1 Background article : 35
+P.G6.2 Informal message : 10
+P.G6.3 Caption : 0
+P.G6.4 Documentary : 0
+P.G6.5 Enquiry, poll : 0
+P.G6.6 Lecture : 0
+P.G6.7 Consumer advice : 1
+P.G6.8 Association publication : 0
+P.G6.9 Information leaflet : 3
+P.G6.10 Information booklet : 1
+P.G6.11 Editorial : 7
+P.G6.12 List : 0
+P.G6.13 Message : 0
+P.G6.14 Notice : 9
+P.G6.15 News article : 1
+P.G6.16 News broadcast : 5
+P.G6.17 Small news item : 1
+P.G6.18 Poster : 0
+P.G6.19 Editorial matters : 1
+P.G6.20 Account, minutes : 6
+P.G6.21 On-the-spot report : 4
+P.G6.22 Sign : 0
+P.G7 instruction : 20
+P.G7.1 bibliography : 6
+P.G7.2 correspondence column : 4
+P.G7.3 corr. column questions : 1
+P.G7.4 corr. column answers : 0
+P.G7.5 reference book : 3
+P.G7.6 handbook : 1
+P.G7.7 textbook : 4
+P.G7.8 monograph : 1
+P.G7.9 instructions : 0
+P.G7.10 work of reference : 1
+P.G7.11 travel book : 0
+P.G7.12 school textbook : 3
+P.G7.13 how-to guide : 2
+P.G8 non-fiction : 19
+P.G8.1 aphorism : 3
+P.G8.2 biography : 1
+P.G8.3 principal speech : 0
+P.G8.4 calendar : 0
+P.G8.5 short biography : 0
+P.G8.6 'names' : 10
+P.G8.7 obituary : 1
+P.G8.8 student essay : 1
+P.G8.9 profile : 3
+P.G8.10 sermon : 0
+P.G8.11 report : 0
+P.G8.12 autobiography : 2
+P.G8.13 school essay : 0
+P.G9 official : 2
+P.G9.1 announcement : 0
+P.G9.2 parl. report/white paper : 0
+P.G9.3 form : 0
+P.G9.4 governmental circular : 0
+P.G9.5 document : 0
+P.G9.6 business letter : 0
+P.G9.7 contract : 0
+P.G9.8 law text : 2
+P.G9.9 legal record : 0
+P.G9.10 official letter : 0
+P.G10 private : 0
+P.G10.1 private letter : 0
+P.G10.2 diary : 0
+
+P.T Topic : 536
+P.T1 N/A : 220
+P.T2 business : 29
+P.T2.1 economics : 13
+P.T2.2 business : 7
+P.T2.3 agriculture : 0
+P.T2.4 fishing and hunting : 0
+P.T2.5 trade : 4
+P.T2.6 advertising : 0
+P.T2.7 industry : 2
+P.T2.8 crafts : 1
+P.T2.9 construction : 2
+P.T3 geography : 8
+P.T3.1 folklore : 0
+P.T3.2 geography : 0
+P.T3.3 travel : 7
+P.T3.4 anthropology : 1
+P.T4 health : 39
+P.T4.1 psychology : 3
+P.T4.2 family : 9
+P.T4.3 pedagogics : 0
+P.T4.4 health : 18
+P.T4.5 sex/living together : 9
+P.T5 history : 4
+P.T5.1 history : 2
+P.T5.2 biograpical : 2
+P.T6 humanities : 65
+P.T6.1 library sciences : 48
+P.T6.2 philosophy : 0
+P.T6.3 communication : 1
+P.T6.4 religion : 1
+P.T6.5 teaching/education : 7
+P.T6.6 press : 2
+P.T6.7 art : 2
+P.T6.8 culture : 3
+P.T6.9 architecture : 1
+P.T6.10 photography : 0
+P.T6.11 theatre : 6
+P.T6.12 film : 9
+P.T6.13 radio : 1
+P.T6.14 music and dance : 20
+P.T6.15 literature : 11
+P.T6.16 languages : 1
+P.T7 leisure : 85
+P.T7.1 transportation : 14
+P.T7.2 housing : 8
+P.T7.3 food : 7
+P.T7.4 clothing : 4
+P.T7.5 television : 10
+P.T7.6 sport : 37
+P.T7.7 games : 2
+P.T7.8 leisure : 3
+P.T8 science : 19
+P.T8.1 computer science : 7
+P.T8.2 natural sciences : 0
+P.T8.3 mathematics : 0
+P.T8.4 astronomy : 1
+P.T8.5 physics : 3
+P.T8.6 chemistry : 1
+P.T8.7 geology : 0
+P.T8.8 biology : 6
+P.T8.9 botany : 1
+P.T8.10 zoology : 1
+P.T8.11 technology : 1
+P.T8.12 environment : 3
+P.T9 society : 67
+P.T9.1 general science/scholarship : 3
+P.T9.2 society/social studies : 5
+P.T9.3 politics : 19
+P.T9.4 EU : 5
+P.T9.5 law : 3
+P.T9.6 crime : 18
+P.T9.7 social services : 7
+P.T9.8 military : 5
+P.T9.9 consumer items : 2
+P.T9.10 traffic : 2

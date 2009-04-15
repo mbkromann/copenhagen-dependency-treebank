@@ -166,7 +166,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">wife</W>
-<W msd="VA" tag="MD" in="" out="-4:mod|-2:subj|3:pnct|4:coord|19:pnct|20:pnct">might</W>
+<W msd="VA" tag="MD" in="" out="-4:mod|-2:subj|3:pnct|4:coord|20:pnct|19:pnct#">might</W>
 <W msd="VAF" tag="VB" in="" out="-3:[subj]">get</W>
 <W msd="ANP" tag="JJ" in="" out="">suspicious</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -185,14 +185,14 @@
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">brothel</W>
 <W msd="SP" tag="IN" in="-4:lobj" out="1:nobj">in</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj|-19:pnct" out="">Holland.</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj|-19:pnct#" out="">Holland.</W>
 <W msd="XP" tag="&quot;" in="-20:pnct" out="">"</W>
 </s>
 <s>
 <W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct">The</W>
 <W msd="NP=S" tag="NNP" in="" out="">Mercedes</W>
-<W msd="NC=S" tag="NN" in="" out="1:pnct|2:pnct|23:pnct">man</W>
+<W msd="NC=S" tag="NN" in="" out="1:pnct|2:pnct|23:pnct#">man</W>
 <W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag=":" in="-2:pnct" out="">:</W>
 <W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
@@ -215,7 +215,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:mod">his</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">debaucheries</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj|-23:pnct" out="">Holland.</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj|-23:pnct#" out="">Holland.</W>
 <W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
 </s>
 <s>

@@ -103,7 +103,7 @@
 <W msd="XP" tag="." in="-42:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="-1:subj|1:subj" out="5:rel">That</W>
+<W msd="PD" tag="DT" in="1:subj" out="5:rel">That</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|8:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:pred|3:[pred]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>

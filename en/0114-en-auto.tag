@@ -88,7 +88,7 @@
 <W msd="SP" tag="IN" in="-7:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:pred|15:pnct|16:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:pred|16:pnct|15:pnct#">is</W>
 <W msd="RG" tag="RP" in="-1:pred" out="1:pobj">up</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -96,14 +96,14 @@
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">decide</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">whether</W>
-<W msd="NC=P" tag="NNS" in="2:dobj" out="">illegalities</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="1:expl|1:vobj">have</W>
-<W msd="VAP" tag="VBN" in="-1:expl|-1:vobj" out="-2:dobj|1:vobj|1:vobj|2:mod">been</W>
-<W msd="VAP" tag="VBN" in="-1:vobj|-1:vobj" out="">committed</W>
+<W msd="NC=P" tag="NNS" in="1:subj|2:[subj]|3:[subj]" out="">illegalities</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">have</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="2:mod|1:vobj|-2:[subj]">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">committed</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Youth</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:possd">Housing's</W>
-<W msd="ANP" tag="JJ" in="-1:possd|-15:pnct" out="">administration.</W>
+<W msd="ANP" tag="JJ" in="-1:possd|-15:pnct#" out="">administration.</W>
 <W msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
 </s>
 <s>

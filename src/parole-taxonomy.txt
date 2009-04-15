@@ -1,0 +1,205 @@
+Parole Corpus
+
+P.M Medium 
+P.M1 book 
+P.M2 newspaper 
+P.M3 periodical 
+P.M3.1 journal 
+P.M3.2 local 
+P.M3.3 magazine 
+P.M3.4 specialized journal/magazine 
+P.M4 misc 
+P.M4.1 correspondence 
+P.M4.2 electronic 
+P.M4.3 ephemera 
+P.M4.4 hand-written 
+P.M4.5 spoken 
+P.M4.6 typed 
+
+P.G Genre 
+P.G1 N/A 
+P.G2 advertising 
+P.G2.1 advertisement 
+P.G2.2 leaflet 
+P.G2.3 prior publicity 
+P.G2.4 catalogue 
+P.G2.5 advertising 
+P.G2.6 printed advertising 
+P.G2.7 bargains paper 
+P.G3 discussion 
+P.G3.1 Debate 
+P.G3.2 Dialogue 
+P.G3.3 Parliamentary speech 
+P.G3.4 Interview 
+P.G3.5 Cultural debate 
+P.G3.6 Letter to the editor 
+P.G3.7 Conversation 
+P.G4 feature 
+P.G4.1 Review 
+P.G4.2 Article 
+P.G4.3 Causerie 
+P.G4.4 Quotation 
+P.G4.5 Essay 
+P.G4.6 Feature 
+P.G4.7 Column 
+P.G4.8 Feature article 
+P.G4.9 Programme 
+P.G5 fiction 
+P.G5.1 children's page 
+P.G5.2 poem 
+P.G5.3 play 
+P.G5.4 fairy tale 
+P.G5.5 film 
+P.G5.6 story 
+P.G5.7 horoscope 
+P.G5.8 humour 
+P.G5.9 occasional song 
+P.G5.10 short story 
+P.G5.11 novel 
+P.G5.12 song lyrics 
+P.G5.13 series (tv) 
+P.G5.14 games 
+P.G5.15 comic strip/book 
+P.G5.16 youth section 
+P.G6 information 
+P.G6.1 Background article 
+P.G6.2 Informal message 
+P.G6.3 Caption 
+P.G6.4 Documentary 
+P.G6.5 Enquiry, poll 
+P.G6.6 Lecture 
+P.G6.7 Consumer advice 
+P.G6.8 Association publication 
+P.G6.9 Information leaflet 
+P.G6.10 Information booklet 
+P.G6.11 Editorial 
+P.G6.12 List 
+P.G6.13 Message 
+P.G6.14 Notice 
+P.G6.15 News article 
+P.G6.16 News broadcast 
+P.G6.17 Small news item 
+P.G6.18 Poster 
+P.G6.19 Editorial matters 
+P.G6.20 Account, minutes 
+P.G6.21 On-the-spot report 
+P.G6.22 Sign 
+P.G7 instruction 
+P.G7.1 bibliography 
+P.G7.2 correspondence column 
+P.G7.3 corr. column questions 
+P.G7.4 corr. column answers 
+P.G7.5 reference book 
+P.G7.6 handbook 
+P.G7.7 textbook 
+P.G7.8 monograph 
+P.G7.9 instructions 
+P.G7.10 work of reference 
+P.G7.11 travel book 
+P.G7.12 school textbook 
+P.G7.13 how-to guide 
+P.G8 non-fiction 
+P.G8.1 aphorism 
+P.G8.2 biography 
+P.G8.3 principal speech 
+P.G8.4 calendar 
+P.G8.5 short biography 
+P.G8.6 'names' 
+P.G8.7 obituary 
+P.G8.8 student essay 
+P.G8.9 profile 
+P.G8.10 sermon 
+P.G8.11 report 
+P.G8.12 autobiography 
+P.G8.13 school essay 
+P.G9 official 
+P.G9.1 announcement 
+P.G9.2 parl. report/white paper 
+P.G9.3 form 
+P.G9.4 governmental circular 
+P.G9.5 document 
+P.G9.6 business letter 
+P.G9.7 contract 
+P.G9.8 law text 
+P.G9.9 legal record 
+P.G9.10 official letter 
+P.G10 private 
+P.G10.1 private letter 
+P.G10.2 diary 
+
+P.T Topic 
+P.T1 N/A 
+P.T2 business 
+P.T2.1 economics 
+P.T2.2 business 
+P.T2.3 agriculture 
+P.T2.4 fishing and hunting 
+P.T2.5 trade 
+P.T2.6 advertising 
+P.T2.7 industry 
+P.T2.8 crafts 
+P.T2.9 construction 
+P.T3 geography 
+P.T3.1 folklore 
+P.T3.2 geography 
+P.T3.3 travel 
+P.T3.4 anthropology 
+P.T4 health 
+P.T4.1 psychology 
+P.T4.2 family 
+P.T4.3 pedagogics 
+P.T4.4 health 
+P.T4.5 sex/living together 
+P.T5 history 
+P.T5.1 history 
+P.T5.2 biograpical 
+P.T6 humanities 
+P.T6.1 library sciences 
+P.T6.2 philosophy 
+P.T6.3 communication 
+P.T6.4 religion 
+P.T6.5 teaching/education 
+P.T6.6 press 
+P.T6.7 art 
+P.T6.8 culture 
+P.T6.9 architecture 
+P.T6.10 photography 
+P.T6.11 theatre 
+P.T6.12 film 
+P.T6.13 radio 
+P.T6.14 music and dance 
+P.T6.15 literature 
+P.T6.16 languages 
+P.T7 leisure 
+P.T7.1 transportation 
+P.T7.2 housing 
+P.T7.3 food 
+P.T7.4 clothing 
+P.T7.5 television 
+P.T7.6 sport 
+P.T7.7 games 
+P.T7.8 leisure 
+P.T8 science 
+P.T8.1 computer science 
+P.T8.2 natural sciences 
+P.T8.3 mathematics 
+P.T8.4 astronomy 
+P.T8.5 physics 
+P.T8.6 chemistry 
+P.T8.7 geology 
+P.T8.8 biology 
+P.T8.9 botany 
+P.T8.10 zoology 
+P.T8.11 technology 
+P.T8.12 environment 
+P.T9 society 
+P.T9.1 general science/scholarship 
+P.T9.2 society/social studies 
+P.T9.3 politics 
+P.T9.4 EU 
+P.T9.5 law 
+P.T9.6 crime 
+P.T9.7 social services 
+P.T9.8 military 
+P.T9.9 consumer items 
+P.T9.10 traffic 

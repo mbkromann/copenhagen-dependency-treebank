@@ -14,7 +14,7 @@ fi
 # Create output file
 ofile=tmp/$lang-$idset.txt
 echo > $ofile
-for f in `cat $idfile` ; do 
+for f in `cat $idfile | sort` ; do 
 	echo -e "===$f===\n\n" >> $ofile
 	cat $lang/$f-$lang.txt >> $ofile
 	echo -e "\n\n" >> $ofile

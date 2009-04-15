@@ -126,7 +126,7 @@
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:nobj">happy</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|11:pnct">could</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|11:pnct#">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:pobj">take</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">set</W>
@@ -137,7 +137,7 @@
 <W msd="XP" tag="." in="" out="3:nobj">.</W>
 </s>
 <s>
-<W msd="AC" tag="CD" in="-3:nobj|-11:pnct" out="">1,</W>
+<W msd="AC" tag="CD" in="-3:nobj|-11:pnct#" out="">1,</W>
 <W msd="XP" tag="&quot;" in="-31:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-32:qobj|2:subj|3:mod|6:pnct">added</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Allan</W>

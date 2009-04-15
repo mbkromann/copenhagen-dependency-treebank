@@ -113,7 +113,7 @@
 <W msd="I=" tag="UH" in="" out="1:pnct|3:conj|25:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-1:subj|1:vobj|12:pnct|13:mod">had</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-1:subj|1:vobj|13:mod|12:pnct#">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pred">been</W>
 <W msd="SP" tag="IN" in="-1:pred" out="1:nobj|2:mod|4:mod|8:mod">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">vacation</W>
@@ -125,7 +125,7 @@
 <W msd="ANP" tag="RB" in="2:mod" out="">even</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="-2:mod|1:nobj">November</W>
-<W msd="AC" tag="CD" in="-1:nobj|-12:pnct" out="">1918,</W>
+<W msd="AC" tag="CD" in="-1:nobj|-12:pnct#" out="">1918,</W>
 <W msd="PT" tag="WRB" in="-13:mod" out="">when</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:mod">no</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">outsider</W>

@@ -202,7 +202,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">Lithuanian</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:appr">newspaper</W>
 <W msd="NP=S" tag="NNP" in="-1:appr" out="">Respublica</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|1:dobj|29:pnct">related</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|1:dobj">related</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="1:pnct|9:vobj|29:pnct">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="7:mod" out="1:nobj|3:pnct">after</W>
@@ -231,6 +231,6 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pred">look</W>
 <W msd="SP" tag="IN" in="-1:pred" out="2:nobj">like</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">dead</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj|-29:pnct" out="-1:mod">soldiers</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">soldiers</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>

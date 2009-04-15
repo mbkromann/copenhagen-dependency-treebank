@@ -182,11 +182,11 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
 <W msd="VADA" tag="VBD" in="" out="">used</W>
 <W msd="U=" tag="TO" in="" out="1:nobj">to</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|4:mod">making</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|3:mod">making</W>
 <W msd="VAF" tag="VB" in="-1:dobj" out="1:vobj">programme</W>
 <W msd="VADR" tag="VBZ" in="-1:vobj" out="">changes</W>
-<W msd="PD" tag="DT" in="1:nobj" out="1:nobj">this</W>
-<W msd="NC=S" tag="NN" in="-4:mod|-1:nobj" out="-1:nobj">way</W>
+<W msd="PD" tag="DT" in="-3:mod" out="1:nobj">this</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|2:subj|3:pnct|4:coord|19:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gerhard</W>

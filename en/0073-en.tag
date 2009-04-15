@@ -63,7 +63,7 @@
 <W msd="ANP" tag="RB" in="-1:part" out="">down</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
-<W msd="VADA" tag="VBD" in="" out="-6:qobj|1:subj|4:mod|16:err">maintained</W>
+<W msd="VADA" tag="VBD" in="" out="-6:qobj|1:subj|4:mod">maintained</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DR-Documentary</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">group</W>
@@ -79,7 +79,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Pedal-Ove</W>
-<W msd="NC=S" tag="NN" in="-2:nobj|-16:err" out="-1:mod">case</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">case</W>
 </s>
 <s>
 <W msd="XP" tag="&quot;" in="6:pnct" out="">"</W>

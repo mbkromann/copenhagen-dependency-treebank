@@ -77,7 +77,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="-4:conj" out="-2:mod|1:nobj">a</W>
 <W msd="I=" tag="UH" in="-1:nobj" out="">yes</W>
-<W msd="XP" tag="." in="-8:pnct|-6:pnct" out="">?</W>
+<W msd="XP" tag="." in="-6:pnct" out="">?</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">No</W>

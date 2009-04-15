@@ -20,10 +20,10 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">all</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ministries</W>
-<W msd="VADR" tag="VBP" in="" out="-3:mod|-4:subj|1:vobj|3:mod|13:pnct">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-5:[subj]|3:dobj">trying</W>
-<W msd="PD" tag="DT" in="1:nobj" out="1:nobj">these</W>
-<W msd="NC=P" tag="NNS" in="-3:mod|-1:nobj" out="-1:nobj">days</W>
+<W msd="VADR" tag="VBP" in="" out="-3:mod|-4:subj|1:vobj|13:pnct">are</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-5:[subj]|3:dobj|1:mod">trying</W>
+<W msd="PD" tag="DT" in="-1:mod" out="1:nobj">these</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="U=" tag="TO" in="-3:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:pobj">look</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:dobj|3:pobj">at</W>
