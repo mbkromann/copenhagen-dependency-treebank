@@ -5568,7 +5568,8 @@ sub cmd_save_conll {
             }
 		} 
 		
-		if ($input =~ /^<\/s>/ || $rightboundary <= $i) {
+		if ($rightboundary <= $i) {
+		#if ($input =~ /^<\/s>/ || $rightboundary <= $i) {
 			$line = 0;
 			$boundaries->{$i} = 1;
 		}
@@ -5579,6 +5580,7 @@ sub cmd_save_conll {
 		|| return error("cannot open file for writing: $file");
 
 	# Write CONLL file line by line
+	my $prevblank = 1;
 	foreach (my $i = 0; $i < $graph->size(); ++$i) {
 		my $node = $graph->node($i);
 
@@ -5609,21 +5611,33 @@ sub cmd_save_conll {
 			$CPOSTAG = "RG" if ($CPOSTAG eq "R");
 
 			# FEATS
-			my $FEATS = conll_msd2features($CPOSTAG, substr($msd, min(length($msd), 2))); 
+			my $FEATS = conll_msd2features($CPOSTAG, 
+				substr($msd, min(length($msd), 2)));
+			$FEATS = (($FEATS =~ /^_$/) ? "" : "$FEATS|") . "line=$i"; 
 
 			# HEAD AND DEPREL
 			my $edges = [grep {! &$pos($graph, $_)} @{$node->in()}];
 			my ($head, $type) = (0, "ROOT");
 			if (scalar(@$edges) >= 1) {
+				# More than one primary parent
+				if (scalar(@$edges) > 1) {
+					# Try to filter out edges ending in '#' -- in the
+					# Copenhagen Danish-English treebank, these may
+					# indicate dependencies into non-root morphemes
+					$edges = [grep {my $s = $_->type(); $s !~ /#$/} @$edges];
+
+					# Check again
+					if (scalar(@$edges) > 1) {
+						warning("node $i: more than one primary head");
+					} else {
+						warning("node $i: more than one primary head, but resolved problem by ignoring relations ending with '#'");
+					}
+				}
+
 				# One primary parent 
 				my $edge = $edges->[0];
 				$type = $edge->type() || "??";
 				$head = $lines->[$edge->out()] || "??";
-
-				# More than one primary parent
-				if (scalar(@$edges) > 1) {
-					warning("node $i: more than one primary head");
-				}
 			}
 			my ($HEAD, $DEPREL) = ($head, $type);
 			$HEAD = "0" if ($head eq "??");
@@ -5633,14 +5647,16 @@ sub cmd_save_conll {
 
 			# Print head and type
 			printf CONLL "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",
-				$ID, $FORM, "_",
-				# ($LEMMA || "_"),
+				$ID, $FORM,
+				($LEMMA || "_"),
 				($CPOSTAG || "_"), ($POSTAG || "_"), ($FEATS || "_"),
 				($HEAD || "0"), ($DEPREL || "_"), $PHEAD, $PDEPREL;
+			$prevblank = 0;
 		} 
 
-		if ($boundaries->{$i}) {
+		if ($boundaries->{$i} && $prevblank == 0) {
 			print CONLL "\n";
+			$prevblank = 1;
 		}
 	}
 
@@ -6388,19 +6404,33 @@ sub cmd_style {
 
 	# PostScript equivalents
 	my $color = { 
-		'black' 	=> '',
+		'black' 	=> '0 setgray',
 		'white' 	=> '1 setgray', 
 		'gray'  	=> '0.5 setgray',
+		'gray10'	=> '0.1 setgray',
+		'gray20'	=> '0.2 setgray',
+		'gray30'	=> '0.3 setgray',
+		'gray40'	=> '0.4 setgray',
+		'gray50'	=> '0.5 setgray',
+		'gray60'	=> '0.6 setgray',
+		'gray70'	=> '0.7 setgray',
+		'gray80'	=> '0.8 setgray',
+		'gray90'	=> '0.9 setgray',
 		'red'   	=> '1 0 0 setrgbcolor',
 		'green' 	=> '0 1 0 setrgbcolor',
 		'blue'  	=> '0 0 1 setrgbcolor',
 		'cyan'  	=> '0 1 1 setrgbcolor',
 		'magenta'	=> '1 0 1 setrgbcolor',
 		'yellow' 	=> '1 1 0 setrgbcolor',
+		'darkred'	=> '0.5 0 0 setrgbcolor',
+		'darkgreen'	=> '0 0.5 0 setrgbcolor',
+		'darkblue'	=> '0 0 0.5 setrgbcolor',
+		'lightred'	=> '1 0.5 0.5 setrgbcolor',
+		'lightgreen'	=> '0.5 1 0.5 setrgbcolor',
+		'lightblue'	=> '0.5 0.5 1 setrgbcolor',
 	};
 	my $dash = {
-		'none' 		=> '',
-		'dash' 		=> '[4] 0 setdash',
+		'none' 		=> '', 'dash' 		=> '[4] 0 setdash',
 		'dot'		=> '[2] 0 setdash',
 	};
 	my $fonttype = {
@@ -6749,6 +6779,35 @@ sub cmd_viewer {
 
 	# Set follow file for current graph
 	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_webmap.pl
+## ------------------------------------------------------------
+
+sub cmd_webmap {
+	my $self = shift;
+	my $graph = shift;
+	my ($tagvar, $wikidir, $exdir, $termexcount, $excount, $mincount, $url) 
+		= @_;
+
+	$tagvar = 'msd' if (! defined($tagvar));
+	$wikidir = 'treebank.dk/cdt-map' if (! defined($wikidir ));
+	$exdir = $wikidir if (! defined($exdir ));
+	$termexcount = 10 if (! defined($termexcount ));
+	$excount = $termexcount if (! defined($excount));
+	$mincount = 5 if (! defined($mincount));
+	$url = "" if (! defined($url));
+
+	# Debug
+	print 'usage: webmap $tagvar $wikidir $exampledir $terminalExampleCount $ExampleCount $MinimalCount'; 
+	print "\n";
+	print "language must be encoded in '_lang' feature\n\n";
+	print "running: webmap $tagvar $wikidir $exdir $termexcount $excount $mincount $url\n";
+
+	# Issue command
+	$graph->wikidoc($tagvar, $wikidir, $exdir, $termexcount, $excount, 
+		$mincount, $url);
 }
 
 ## ------------------------------------------------------------
@@ -7291,6 +7350,10 @@ sub do {
 		# Viewer: viewer
 		$success = $self->cmd_viewer($graph) 
 			if ($cmd =~ /^\s*viewer\s*$/);
+
+		# Webmap
+		$success = $self->cmd_webmap($graph, $2)
+			if ($cmd =~ /^\s*webmap(\s+(\S.*))?$/);
 
 	# ---------- MACROS ----------
 

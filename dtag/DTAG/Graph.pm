@@ -842,6 +842,15 @@ sub input {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/interpreter.pl
+## ------------------------------------------------------------
+
+sub interpreter {
+	my $self = shift;
+	return $self->{'interpreter'};
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/is_adjunct.pl
 ## ------------------------------------------------------------
 
@@ -851,10 +860,15 @@ sub is_adjunct {
 	# Return 1 if edge is an adjunct edge 
 	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
 
+	# Return 0 if edge is a landing edge
+	return 0 if ($self->is_landing($edge));
+
 	# Remove edge decorations
 	$type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
+	$type =~ s/\/.*$//g;
+	$type =~ s/\*//g;
 
 	# See if reduced edge matches adjunct
 	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
@@ -883,10 +897,15 @@ sub is_complement {
 	# Return 1 if edge is a complement
 	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
 
+	# Return false if edge is a landing edge
+	return 0 if ($self->is_landing($edge));
+
 	# Remove edge decorations
 	$type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
+    $type =~ s/\/.*$//g;
+	$type =~ s/\*//g;
 
 	# See if it is known
 	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
@@ -958,7 +977,7 @@ sub is_known_edge {
 sub is_landing {
 	my ($self, $edge) = @_;
 	
-	# Return 1 if edge is a complement
+	# Return 1 if edge is a landing edge
 	my $type = ref($edge) ? $edge->type() : $edge;
 	return 1 if (grep {$type eq $_} @{$self->etypes()->{'land'} || []});
 
