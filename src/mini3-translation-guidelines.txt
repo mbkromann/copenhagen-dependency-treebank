@@ -1,0 +1,24 @@
+﻿Til oversætterne af minikorpus 3 (Lingtech)
+
+Kildeteksterne består af små tekstudsnit fra et bredt udvalg af tekster (avisartikler, bøger, tidsskriftsartikler, osv.). Oversættelserne skal bruges i et forskningsprojekt hvor vi ønsker at opbygge et parallelt tekstkorpus for dansk, engelsk, italiensk, spansk og tysk; teksterne i dette korpus vil blive manuelt udstyret med detaljerede lingvistiske analyser af grammatik, tekststruktur og relationen mellem kilde- og måltekst. Analyserne vil forhåbentlig gøre det muligt for os at undersøge systematiske forskelle mellem sprogene, lære lidt om hvilke strategier I bruger som oversættere, samt undersøge i hvor høj grad et automatisk oversættelsessystem kan lære at oversætte ud fra jeres eksempeloversættelser. 
+
+For at jeres oversættelser skal kunne bruges til dette formål, er det vigtigt at de så vidt muligt tilfredsstiller følgende krav:
+
+Krav til oversættelsen: oversættelsen skal være korrekt og naturligt klingende på målsproget, men i øvrigt holde sig så tæt på den danske tekst som muligt mht. sætningsstruktur og syntaks (sprogteknologiske værktøjer er for "dumme" til at lære noget af en oversættelse der er alt for kreativ). Der behøver ikke at være en 1-1 korrespondance mellem sætningerne på de to sprog, hvis det ikke er naturligt på målsproget.
+Fejl i kildeteksten: Kildeteksterne kan indeholde fejl og udeladelser, herunder stavefejl og mærkelig afsnitsinddeling. Oversætteren skal så vidt muligt ignorere disse fejl i oversættelsen. Hvis den danske tekst har en mærkelig paragraf-inddeling, skal oversætteren helst lave en mere naturlig afsnitsinddeling i oversættelsen. Vi har ikke nogen større tekstudsnit end dem oversætteren har fået, så i de tilfælde hvor tekstens mening ikke er helt klar, må oversætteren lave sit bedste gæt ud fra konteksten. 
+Modtageren: Oversætteren skal antage at modtageren på målsproget har et fuldstændigt kendskab til danske kultur og samfundsforhold.
+Tekstnummerering: Koderne "===XXXX===" skal bevares i oversættelsen så vi kan identificere teksterne bagefter.
+Filformat: Oversættelsen skal afleveres som Word-fil eller som tekst-fil i Unicode.
+Oversætteren: skal helst have målsproget som sit modersmål. Hvis det er muligt, vil vi meget gerne vide hvem der har oversat hvilke tekster og have følgende oplysninger om hver oversætter: 
+navn:
+alder: 
+modersmål: 
+uddannelse som oversætter: uddannelse/grad, institution, år
+ophold i målsprogslandet: X år
+professionel erfaring: X års beskæftigelse som oversætter
+
+I er velkomne til at skrive eller ringe hvis I har yderligere spørgsmål i forbindelse med oversættelsen.
+
+Mange venlige hilsner
+Matthias Buch-Kromann (mbk.isv@cbs.dk)
+Telefon 6085 5585

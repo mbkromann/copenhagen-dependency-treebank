@@ -1,0 +1,387 @@
+﻿
+0306
+
+Gibt es Probleme mit der Gesundheit, schreiben Sie an „Ärzte“, Wochenmagazin SONNTAG, Vesterbrogade 16, 1505 København V. Nur die Ärzte vom Wochenmagazin SONNTAG dürfen Ihre Briefe öffnen. NB: Die Ärzte können leider keine privaten Antworten geben.
+
+Antibabypille in den Wechseljahren?
+
+Viele Frauen möchten mit der Antibabypille aufhören, wenn sie Ende vierzig sind. Aber das wirft eine Reihe von Fragen auf, auf die die Ärzte hier antworten, u.a. ob Hormone die Antibabypille ersetzen können.
+
+Bodil ist 49. Sie hat jahrelang die Pille genommen. Sie hatte kurz hintereinander drei Kinder geboren, wollte keine weiteren und wollte sich, weil sie gegen Abtreibung war, 100% absichern. Deshalb entschied sie sich für die Antibabypille, die sie gut, ohne Nebenwirkungen, vertrug.
+
+Als sie 40 wurde, sprach ich mit ihr über eine andere Verhütungsmöglichkeit anstelle der Antibabypille. Aber das wollte sie unter keinen Umständen. Das damit für Frauen über 40 eventuell verbundene Risiko wollte sie gerne auf ihre eigene Kappe nehmen.
+
+
+
+1252 
+
+Die Beziehung Dänemarks zu China kocht seit der dramatischen Niederschlagung des pro-demokratischen Studentenaufruhrs 1989 auf dem Platz des Himmlischen Friedens auf Sparflamme. China steht immer noch unter „Stubenarrest“ und Danida hält die Geldkasse für dänisches Engagement in China hermetisch geschlossen.
+
+„Die Chinesen sind enttäuscht von der Haltung Dänemarks. Die Dänen waren unter den ersten ausländischen Geschäftsleuten in China, aber jetzt sind wir unter den Letzten, die die Beziehungen wieder aufnehmen“, sagt Oliver Jensen, FLS in Peking.
+
+Er berichtet, dass die Entwicklung in Südchina so schnell geht, dass man außer Atem kommt.
+
+„Wir setzen große Erwartungen in die Reformen, obwohl wir darauf vorbereitet sind, dass sie „ruckweise“ verlaufen werden. Aber es ist intersessant zu sehen, wie weit sie sich dabei zu gehen trauen, die Marktkräfte freizusetzen.
+
+FLS engagiert sich seit 1906 aktiv in China und hat im ganzen Land 20-30 Zementfabriken errichtet. Im Augenblick baut man gerade eine Anlage in Shanghai, finanziert mit spanischen Krediten über die Schwesterfirma von FLS in Spanien.
+
+
+
+0104 
+
+In Wahrheit gab es eine historische gemeinsame Fraktionssitzung, bevor 1964 der KV-Plan lanciert wurde, und 1965 kostete es den damaligen Vorsitzenden von Venstre, den ehemaligen Staatsminister Erik Eriksen, die Rolle als Spitzenfigur seiner Partei, dass er offen für einen Zusammenschluss der beiden Parteien eintrat.
+
+Damals war die Zeit nicht reif für solch einen entscheidenden Schritt:
+
+„Das ist sie eigentlich auch jetzt nicht. Wir müssen in jedem Fall erst durch eine sehr lange Periode, wo die Mitglieder beider Parteien sich gegenseitig kennenlernen können. Hier könnten regelmäßige Fraktions- und Hauptvorstandssitzungen ein Schritt auf dem Wege sein.
+
+Das wird viele Missverständnisse zwischen unseren beiden Parteien vermeiden.
+
+Wir müssen an die Zusammenarbeit der kommenden Generation von bürgerlichen Politikern denken. 
+Das Ganze sollte ja nun nicht gerade daran scheitern, dass nur wenige Einzelpersonen die Zusammenarbeit in Gang gehalten haben“, sagt der Fischjereiminister.
+
+Nach einem Wochenende bei seiner Familie auf Fanø war er am Montag zum EF-Fischereiministertreffen in Brüssel.
+
+
+
+0531
+
+Die beiden verurteilten Topchefs  in der 6. Juli-Bank, der Vorstandsvorsitzende Niels Johan Leer und der Direktor John Olsdorf, legten mit Antrag auf Freispruch umgehend Einspruch gegen das Urteil vom Amtsgericht Kopenhagen ein. Auch die Anklagevertretung hat sich eine Berufungsmöglichkeit vorbehalten.
+
+Der Vorstandsvorsitzende bekam 1 ½ Jahre Gefängnis und eine Geldstrafe in Höhe von 1 Million Kronen wegen Veruntreuung, Steuerhinterziehung von besonderer Schwere und Verstoß gegen das Aktiengesetz sowie das Bank- und Sparkassengesetz. Der Direktor der Bank, John Olsdorf, bekam 6 Monate Gefängnis und eine Geldstrafe von 90.000 Kronen.
+
+Beide sind angeklagt, der Bank durch unverantwortliche und gesetzeswidrige Kreditvergabe einen Verlust von ungefähr 60 Millionen Kronen zugefügt zu haben. Außerdem haben sie 3,5 Millionen Kronen Steuern hinterzogen.
+
+Zwei einfache Vorstandsmitglieder wurden freigesprochen. Richter Nils Erik Jensen machte aber kein Hehl daraus, dass sie nicht mit gutem Gewissen nach Hause gehen könnten.
+
+Der Freispruch sei in keinster Weise  eine Bescheinigung dafür, dass sie ihre Vorstandsarbeit auf vorbildliche Weise verrichtet hätten – ganz im Gegenteil, schob der Richter in seine Erläuterungen zum Urteil ein.
+
+
+0188 
+
+Wegweiser: Es GIBT Leben in der dänischen Software-Entwicklung. Mit Verspätung ist ein Programm fertig, das Kunden beim Weg durch Museen, Supermärkte, Rathäuser – und MikroData im Bella Center helfen soll.
+
+Die Europäer sollten intelligent genug sein
+
+Das meinen die geistigen Urheber hinter dem Programm Scout, das am Eingang zur MikroData-Messe den Weg durch den Ausstellerdschungel weist.
+
+Und mit den lobenden Worten weisen sie darauf hin, dass sie es uns getrost zu überlassen wagen, mit Hilfe der Tastatur selbst zurechtzukommen.
+
+
+Mit Scout sollte man auch nichts falsch machen können: man gibt den Firmennamen oder ein Suchwort ein, und der Bildschirm zeigt sehr pädagogisch den kürzesten Weg zu den aktuellen Ständen. Ein Vorläufer half den Besuchern bei der letzten MikroData vor 2 Jahren.
+
+„Wir haben das Ganze von Grund auf in Turbo Pascal programmiert, und das hat uns mit det Zeit sicher etwas getäuscht“, sagt John Marrot von der Firma Scansoft, der für die Programmierung verantwortlich ist.
+
+Ursprünglich hatte sein Bekannter Steen Olsen, der in einer Büroartikelfirma in Kopenhagen arbeitet, das Programm zum Preis von 100 Arbeitsstunden bestellt. Aus den 100 Stunden wurden 
+statt dessen 5000 Stunden.
+
+
+
+0620
+
+-Ich hatte das Gefühl, dass nicht alles so war, wie es sein sollte, fuhr er fort – deshalb wandte ich mich an den Pförtner, der auch tatsächlich gesehen hatte, wie ein Mann in diese Wohnung hier hereingelassen wurde.
+
+-Wo mag er wohl hingehen, fragte sie nachdenklich.
+
+Flemming zuckte mit den Achseln.
+
+-Er wird bald festgenommen, sagte er überzeugt – und das wird sicher auch das Beste für ihn sein. Aber lass ihn uns jetzt vergessen. Ich will dich etwas fragen.
+
+-Ja?
+
+-Ich weiß wohl, dass wir uns noch nicht lange kennen, aber darum geht es auch nicht immer. Willst du...willst du meine Frau werden, Trine?
+
+-Ja, antwortete sie ohne Zögern. Und leise lachend zog er sie ganz fest an sich.
+-Eine richtig romantische Weihnachtshochzeit?, fragte er weiter.
+
+-Mhm, sie barg mit leichtem Erröten ihr Gesicht an seiner Brust.
+
+
+
+1038
+
+Aber den Sieg errang Preben Madsen mit dem Frikassé von Hecht und Forelle. Neben ortsansässigen Richtern war Erwin Lauterbach, Saison im Skovshoved Hotel, Mitglied der Jury. Madsen gab mir das Rezept. Die Zutaten sind: 400 gr Hechtfilet, 400 gr Forellenfilet, 150 gr Bauernschinken in Julienne, 2 kleine Köpfe Spitzkohl, i Bund Petersilie, 2 dl Gemüsebouillon, 2 dünne in Ringe geschnittene Porreestangen, 2 Esslöffel körniger Senf, 2 Esslöffel einfacher Essig, 200 gr Butter, Salz und Pfeffer.
+
+Den Fisch in Würfel schneiden, auf eingefetteten Blechen bei 140 Grad im Backofen backen, den Kohl weichkochen. Die Sauce: die Porreeringe in der Gemüseboullion dämpfen, herausnehmen, die Boullion einkochen lassen, Essig und Senf dazugeben, mit Butter aufschlagen und gehackte Petersilie hinzufügen.
+
+Die Fischstücke werden zusammen mit dem Kohl und den Porreeringen angerichtet, man gibt etwas Sauce über den Fisch und streut den Schinken darüber. Eventuell kann man in Butter geschwenkte neue Kartoffeln dazu reichen.
+
+Preben Madsen, der 31 Jahre alt ist, hat seine Lehre in Hovborg Kro gemacht. Danach war er u.a. im Pakhus in Esbjerg, im Hotel Plaza in Kopenhagen und im Henne Kirkeby Kro.
+
+
+1035
+
+Einer der juristischen Experten im Dschungel von Wohngemeinschaften ist der Makler Svend Trangeled, Jurist in der Rechtsanwaltskanzlei Niels Gesner, Kopenhagen.
+
+Er sagt, dass besonders die Wohnungsgenossenschaften und die I/S ihre Tücken haben können. Es gibt einen markanten Unterschied im Hinblick darauf, wie diese Konstruktionen sich auswirken – nicht nur für den Eigentümer, sondern auch was die Steuer betrifft. Man muss sich auch völlig klar machen, wie man für die Ökonomie der Genossenschaft haftet. Die I/S werden in gewissen Kreisen, besonders politischen, als Umgehung des Gesetzes über Genossenschaftswohnungen angesehen, deshalb empfiehlt Svend Trageled diese Konstruktion nicht gerade als die beste.
+
+Bei dieser besitzt man seine Wohnung praktisch nicht. Man besitzt vielmehr einen Vermögensanteil in der I/S, die die Wohnung besitzt – für die man ein Nutzungsrecht hat. Und hier spielen die Statuten eine entscheidende Rolle, sagt Trageled, der empfiehlt, dass man sich unter allen Umständen mit einem Experten alliiert, wenn man eine Wohngemeinschaft eingeht. Auch, um sich abzusichern, dass es keine steuertechnischen Probleme gibt.
+
+
+0602
+
+- Ich auch nicht. Also lass uns zu dir nach Hause gehen, sagte sie.
+
+Sie war anders als ich dachte. Im Taxi lehnte sie ihren Kopf an meine Schulter, und auf dem Weg nach oben sagte sie wieder, dass es nicht so war.
+
+- Hier entschuldigen wir zwei uns dauernd mitten in der Nacht, als ob es heimlich und verboten wäre, was wir machen. Warum tun wir das?
+
+- Tun wir das?, fragte sie. Es wurde nichts im Bett, aber das machte nichts. Wir lagen nackt nebeneinander, redeten und tranken Tee und Portwein.
+
+- Zuerst zog ich von einem Mann zum anderen, sagte sie. Ich hatte die ganze Zeit einen Namen im Kopf, bis ich merkte, dass es darum ja gar nicht geht. Ich glaubte, dass alles gut wäre, wenn ich nur einen Mann dazu bringen könnte, mit mir zusammen zu sein.
+
+
+0863
+
+Die fehlenden inneren Auseinandersetzungen sieht er als das Adelsmerkmal der Dänen an. Wir haben eine Tradition für Konsens und weitreichende Einigung.
+
+„Ihr seid ein Stamm von außergewöhnlicher Einheit, was Volk und Kultur betrifft. Das ist nicht dasselbe wie Gleichförmigkeit, wie Molesworth sie beschrieben hat. Ihr habt jede Menge Phantasie und Genies wie z. B. Halfdan Rasmussen, aber ihr seid alle dänisch und einig darin, dass ihr dänisch seid. In meinem Land, Schottland, hingegen sind wir viele verschiedene Schotten.“
+
+Für James Mellon sind also helle Haare und hübsche Mädchen urdänisch, aber Dänentum besteht in erster Linie aus dem Willen zur Zusammenarbeit und unserer einmaligen Sprache, die in der Regel für die übrigen 5 Milliarden Menschen auf der Welt ein Mysterium ist.
+
+„Es ist typisch, dass die Genossenschaftsbewegung in Dänemark Erfolg hatte, aber in Schottland missglückte“. 
+
+Aber nicht nur der Wohlstandsstaat ist von der Internationalisierung bedroht, die Kultur ist es ebenso. Das Dänentum gerät unter Druck.
+
+„ Das sind die Dänen nun immer gewesen, auch vor 300 Jahren, ich bin also optimistisch, was euch betrifft. Aber die Gefahr besteht in der Nivellierung der verschiedenen europäischen Kulturen, eine Art Amerikanisierung auf Grund der neuen Marktlage und der allgemeinen Niederlassungsfreiheit“, fährt James Mellon fort.
+
+
+0502
+
+Ein paar nützliche Ratschläge.
+
+Hat man einmal Nilwasser getrunken, wird man sich danach zurücksehnen, sagte der Ägypter Sinuhe, der einsame Arzt. Heute wäre er viele Male gestorben, weil der Nil so verunreinigt ist, dass man riskiert, sich einen Parasiten einzufangen, wenn man nur seinen Finger in den Fluss hält.
+
+Deshalb nie Gemüse essen oder Wasser aus dem Hahn trinken! Es gibt vorzügliche Literflaschen aus Kunststoff. Wenn man nicht aufpasst, bekommt man garantiert das, was man Montezumas Rache nennt. Ein guter Rat, mit dem ich überlebte: 3x am Tag 2 Tabletten Paragurth und einen großen Schluck Fernet Branca.
+
+Ein zweiter guter Rat ist, die nächste Reise nach Ägypten gehen zu lassen. Es ist ein Erlebnis fürs Leben.
+
+Pharaos Schutzgott Horus  – König der ganzen Welt – wird oft mit Falkenkopf und Doppelkrone abgebildet.
+
+Wache vor der Cheops-Pyramide.
+
+Reiseschriftsteller am Roten Meer.
+
+Sheraton in Luxor. Aussicht über den Swimmingpool und den Nil gegen ‚Das Reich der Toten’
+
+
+
+0956
+
+Die Voraussetzung ist, dass eine feste Grundlage vorhanden ist oder geschaffen wird – bevor eine anhaltende ‚Hebelwirkung’ funktionieren kann. Deshalb ist es unbedingt erforderlich, dass die unteren Erdschichten tragfähig sind. Mit anderen Worten, man kann nicht darauf vertrauen, dass es reicht, ein Pflaster auf eine ungereinigte Wunde zu legen und sich dann darauf zu verlassen, dass das Ganze von selbst heilt.
+
+Risiko bei der Anhebung 
+
+Gegenüber Schäden in den Abfluss-, Gas- und Elektroinstallationen meldet die Firma in ihren Angeboten Vorbehalt an, kommt jedoch auf für die Ausbesserung von Schäden an Leitungen, wenn diese nicht mehr als 8 cm von der Lage in den gelieferten Bauzeichnungen abweichen. Nach meiner Erfahrung in der Baubranche ist es äußerst selten, dass diese Leitungen so genau nach den Zeichnungen verlegt sind. Ich sehe es deshalb als riskant an, den Boden auf sein ursprüngliches Niveau zurückzuzwingen, wenn die verschiedenen Leitungen mit sollen. Ich frage mich, ob die Naturgasgesellschaften diese Lösung akzeptieren können – besonders in Anbetracht des jüngsten Explosionsschadens. 
+
+
+1383
+
+Bei den meisten Ausbildungsinstitutionen ist es einfach, die Aktivitätskontrolle vom Ausbildungsbeginn an vorzunehmen. Beteiligt sich ein Lernender am Unterricht, an Aufgaben und Prüfungen, ist man aktiv. Wenn nicht, ist man inaktiv.
+
+Wo es keine Präsenzpflicht gibt, gibt es in der Regel Aufgaben u.ä., was die Studienaktivitätskontrolle ermöglicht; Teilprüfungen gibt es ja in allen Ausbildungsgängen. Die Studienaktivitätskontrollen liegen bei den Ausbildungsinstitutionen. Ich habe keinen Grund zu der Annahme, dass die Institutionen diese Aufgabe nicht ernst nehmen. Es liegt in der Natur der Sache, dass Betrug im ersten Jahr einer Ausbildung möglich ist. Deshalb will ich eine Vorschrift einführen, nach der die Institutionen spätestens 6 Monate nach Studienstart erste Aktivitätskontrollen durchführen sollen.
+
+Jens Sandfeld Søndergaard behauptet, dass die SU-Regeln so maßvoll sind, dass man zwischen 3.198 und 38.376 Kr im Jahr bekommen kann, ohne sich am Ausbildungsort zu zeigen oder ein Buch zu öffnen. Als Beispiel wird angeführt, dass eine Person, die 300.000 Kronen verdient, für einen Monat Ausbilderungsförderung bekommen kann.
+
+
+1390
+
+Ziel ist, dass sie, außer von seinen Fahrkünsten und technischen Fähigkeiten zu lernen, auch von seinen Erfahrungen profitieren können, was die Beschaffung von Sponsormitteln und PR betrifft, so dass das Interesse für Geschwindigkeit und Wettrennen sich auch ökonomisch rechnet.  
+
+„ Das Ziel ist ja, den großen Klassen bei dänischen Roadracings auch in den kommenden Jahren neue Talente zuzuführen. Und das wird nur geschehen, wenn wir Alten uns aktiv dafür einsetzen, das Interesse der Jungen zu wecken.
+
+Ich selbst bin mit Hilfe von Yamaha und Enghave Motor in der glücklichen Lage, dass ich den beiden ‚Lehrlingen’ Ausrüstung zur Verfügung stellen kann. Beide sind voller Unternehmungsgeist und beide haben große Ambitionen. 
+
+Eine Garantie für den Erfolg auf den beiden 80-Kubik-Maschinen kann ich den beiden ja leider nicht geben, aber jetzt sind sie dabei und ich werde alles tun, sie zu unterstützen und zu trainieren, damit ihr Interesse für Roadracing nicht erlischt“, sagt Claus Wulff.
+
+
+0184
+
+Pasta werden frisch zubereitet, getrocknet sowie in Fertiggerichten verkauft und zusammen mit Fisch, Fleisch und Gemüse verwendet.
+
+Seit wir begonnen haben, frische Pasta herzustellen, haben wir den Absatz jedes Jahr verdoppelt. Dieses Jahr rechnen wir mit dem Verkauf von 700 Tonnen – das entspricht 2,8 Millionen Packungen, sagt der Produktmanager Lars Bred, Tholstrup Cheese.
+
+Tholstrup Cheese ist der einzige dänische Produzent von frischer Pasta, aber in der Meiereibranche geht das Gerücht, dass schon bald auch ein größerer Brotproduzent mit der Produktion beginnen wird.
+
+Wir können aus den Tendenzen im Ausland schließen, dass Pasta Zukunft hat, sagt Lars Bred, der gestern von der größten Nahrungsmittelmesse in Deutschland, der NUGA, zurückgekommen ist.
+
+Export
+
+Pasta ist bisher nur ein kleiner Teil der Geschäftsgrundlage von Tholstrup Cheese. Nur 30 der 500 Angestellten der Firma haben mit den den weichen Fäden zu tun.
+
+Die Firma betreibt aber doch schon den Export nach Norwegen, Schweden und Finnland, und Lars Bred glaubt sogar daran, dass selbst Italien ein guter Abnehmer für seine Waren sein wird.
+
+
+1014
+
+„Im Augenblick müssen die Leute mich aus ihrer eigenen Tasche bezahlen und die meisten haben darüber hinaus eine kommunale Haushaltshilfe. So muss es aber nicht sein“, sagt Bente Munck. Nach § 56, Sozialhilfegesetz, kann praktisch jeder einen Zuschuss bekommen, selbst eine Haushaltshilfe anzustellen. Die Kommunen müssen in hinreichendem Maße für die Älteren sorgen, und wenn sie das nicht können, müssen sie dafür bezahlen, dass die Älteren selbst Haushaltshilfen einstellen“, sagt Bente Munck.
+
+„So interpretiere ich das Sozialhilfegesetz und diese Auslegung gedenke ich hier in Silkeborg zu verbreiten. Leider beurteilen ja gerade die Kommunen den Bedarf der Älteren – und die legen wirtschaftliche Maßstäbe an. Das ist aber zu kurzsichtig, denn wenn die Alten keine Hilfe haben, kommen sie ins Krankenhaus. Sie können nicht wieder nach Hause kommen, weil es niemanden gibt, der sie versorgt, und die Pflegeheime sind voll.
+
+Kurz gesagt bin ich der Meinung, dass es Schuld der Kommunen ist, dass die Älteren in Warteposition für 1.500 Kr pro Tag im Krankenhaus landen.
+
+
+1408
+
+Was die Sozialdemokraten zum Thema Dänemark nach dem EF-Nein meinen, hängt davon ab, wen man fragt. Die Partei ist gut für viele interessante Meinungen. In Christiansborg schließt sich der neue Vorsitzende Poul Nyrup Rasmussen dem offiziellen Standpunkt an, dass wir nicht mit einem Lösungsvorschlag kommen sollten, bevor wir gesehen haben, ob Frankreich und England den Maastricht-Vertrag unterzeichnen. Ein verhandlungstaktischer Standpunkt, den die Regierungsparteien teilen.
+
+In Det Fri Aktuelt fordert Ritt Bjerregaard auf zu einer neuen Volksabstimmung zu etwas, was dem Maastricht-Vertrag entspricht. Sie denkt nicht daran, das Abstimmungsergebnis einfach hinzunehmen, weil es keine Zwischenlösung gibt. Entweder sind wir draußen oder wir sind drin, meint Frau Bjerregaard.
+
+Ein dritter prominenter Sozialdemokrat, nämlich der entthronte Vorsitzende Svend Auken, verbreitet im Parlamentary Brief, dem Blatt des englischen Parlaments, einen dritten Gesichtspunkt. 
+
+Er bezeichnet hier alle Spekulationen über eine neue Volksabstimmung als reines Wunschdenken. Denn: die dänische Volksabstimmung ist juristisch bindend und deshalb ist Dänemark außer Stande, den Maastricht-Vertrag zu ratifizieren.
+
+
+0244
+
+Und dann war da noch die Sache mit den Wartelisten, die weg sollten. Im Fall von TEBA löst John Winther das, indem er alle Kinder von der Warteliste aufnimmt. So einfach ist das. Das heißt in TEBAs Fall, dass sie von 45 im Jahr 1991 auf 55 Kinder im Jahr 1992 kommen werden. Wir sprechen also von einer Zunahme von mehr als 10%. Es versteht sich von selbst, dass das kein Grund ist, TEBAs Areal zu erweitern. Es geht ja nicht darum, dass man mit der einen Hand ausgibt, was man mit der anderen einnimmt.
+
+Für 1992 sind 2 m2 per Kind veranschlagt. Und hier verfährt man genauso wie bei der Errechnung von Mietkosten, alles wird mitgerechnet. Toiletten, Flure, die Teeküche der Erzieher u.s.w. Ein normal entwickeltes Kind von 5 Jahren wiegt ungefähr 19 Kilo. Die also auf  2 m2 verteilt werden. Das macht 9,5 Kilo per m2. Oder circa 1050 cm2 per Kilo Kind.
+
+
+1429
+
+Neue bei der BTCC (British Touring Car Championship)
+
+Ford, VW und Renault werden sich 1993 voraussichtlich am Rennen für Standardwagen beteiligen. BMW, Toyota, Vauxhall, Peugeot, Mazda und Nissan sind schon an der BTCC beteiligt, die Thorkild Thyning jetzt nach dem Fehlgriff mit dem Andy-Rouse-Team aufgegeben  hat.
+Audi, das sich kürzlich nach Streitigkeiten um eine neue Kurbelwelle in den V8 Modellen des Teams aus der deutschen Gruppe A-Serie zurückgezogen hat, hat seinen Fahrern – Struck, Jelinski und Biela – mitgeteilt, dass sie ‚nichts übereilen sollen’. Das wird von Beobachtern so ausgelegt, dass Audi 1993 zurückkommt und deshalb die Fahrer gebeten hat, sich nicht anderweitig zu verpflichten.
+
+0,04 l / 100 km
+Ein von französischen Studenten gebautes Auto könnte die Benzingesellschaften ruinieren, wenn es in Massenproduktion ginge. Das Auto verbraucht unter 0,04 l Benzin auf 100 km – was Weltrekord ist. Das einzigartige Auto wurde auf der Silverstone Bahn in Großbritannien im Wettbewerb mit 73 anderen sonderangefertigten Autos Sieger in dieser Disziplin. Der bisherige Rekord stammte von 1988, wo ein in Japan gebautes Auto knapp über 0,04 l verbrauchte.
+
+
+
+0675
+
+Thomas Stuer musste einen Satz gegen den Koreaner Lee Kvan-Jin abgeben, aber im Viertel gegen den Chinesen Wan Shengwen: „Ich habe 15-9, 15-8 gewonnen, lag aber weit zurück, 0-7 bzw. 2-7, in beiden Sätzen, bevor ich mein Grundspiel in den Griff bekam.
+Vor allem im 1. Satz variierte ich mein Spiel und [das?] gut“.
+
+Thomas Stuer hat die letzten zwei Male den 1. Satz gegen Andy Wiranata gewonnen, und vor dem  heutigen Semifinale lautet die Taktik: „Andy soll abgewehrt werden mit einem soliden Grundlinienspiel, so wie ich es praktiziert habe im 1. Satz, aber beide Male aus dem Griff verloren habe im 2. Satz, wo ich auf der Seite mit Rückenwind war. Hier in Japan herrscht Seitenwind, und den kann ich leichter beherrschen.
+
+Die dänischen Damen- und Herrendoppel schieden gestern aus, aber im Mix sind drei von den vier Semifinalpaaren dänisch, wir haben also einen Finalplatz sicher, wenn Henrik Svarrer/Marlene Thomsen auf unsere gewöhnlich beste Konstellation Thomas Lund/Pernille Dupont treffen.
+
+
+1347
+
+Die EF-Mitgliedstaaten haben – was Pia Kjersgaad wissen sollte – schon Jahre lang in der Einwanderungs- und Asylpolitik zusammengearbeitet. Die Zusammenarbeit mündete u.a. in der Asyl-Konvention, in der festgelegt wird, welcher Staat für die Behandlung eines Asylantrags verantwortlich ist, der in einem EF-Mitgliedstaat gestellt wird. Wenn die Konvention in Kraft tritt, wird man z. B. verhindern können, dass Asylbewerber in mehreren Ländern gleichzeitig einen Antrag stellen, weil der Antrag nur in einem Land bearbeitet wird. Das heißt, dass ein Asylbewerber, der zuerst seinen Antrag in z. B. Portugal oder Spanien gestellt hat, nicht, wie von Pia behauptet, bloß nach Dänemark zu kommen braucht und hier einen Asylantrag behandelt bekommt. 
+
+Das ist das Ergebnis der Konvention, die die EF-Staaten als Bestandteil der Zusammenarbeit in Einwanderungs- und Asylfragen erarbeitet haben. Das hat aber nichts mit dem Unionstraktat zu tun. Das Neue im Unionstraktat ist, dass die schon existierende Zusammenarbeit in der Einwanderungs- und Asylpolitik einen Platz im Rahmen des Traktats findet. Es ist nach wie vor die Rede von zwischenstaatlicher Zusammenarbeit. Die EF-Staaten wollten diese Frage aber jetzt als Frage von gemeinsamem Interesse in den Traktat aufnehmen.
+
+
+0388
+
+Nicht bei allen. Deine Mutter war sehr schlank und durchtrainiert. Als sie mit unserer Tochter schwanger war, sah man bis zum siebten Monat fast gar nichts. Sie ‚trug gut’, wie man bei uns in Dänemark sagt.
+
+- Da muss es einen anderen Mann gegeben haben, stellte Loulou sachlich fest. Hast du nicht bemerkt, dass sie einen anderen Mann hatte?
+
+ Bernie saß lange stumm, dann wandte er sich der Anderen zu und sah sie eindringlich an.
+
+Deine Mutter und ich haben uns geliebt, das musst du glauben. Wir trafen uns in Paris und es war Liebe auf den ersten Blick. Sie war keine Frau mit heimlichen Affairen, sie log nie.
+
+- Sie hat mich belogen. Sie ließ mich in dem Glauben, du seist mein Vater.
+
+- Sie hatte vermutlich ihre Gründe, Loulou. Es kann nicht leicht für sie gewesen sein, unter solchen Umständen zu ihren Eltern zurückzukehren. Sie war vielleicht gezwungen, die Wahrheit zu verschweigen und allmählich hat sie sie völlig verdrängt. Das war einfacher für sie ... und auch für dich. Sie muss aus Liebe zu dir gehandelt haben.
+
+
+0421
+
+Aber Liebste, warum kommst du alleine zu mir?, fragte er und blieb in gehörigem Abstand stehen. Arnaltas lodernder Blick musste ihn getroffen haben. Er wartete nicht auf Antwort, sondern streckte beide Hände aus, während er ihr das letzte Stück entgegen ging, und nahm ihre Hände in seine, ohne zu wissen, wo er mit ihnen hin sollte.
+
+Sie war immer noch außer Atem und es fiel ihr schwer, die rechtenWorte zu finden. Er hatte es ihr zu leicht gemacht. Nun hatte sie sich gerade stark machen müssen, um eine Zurückweisung zu ertragen, ohne daran zu zerbrechen.
+
+-Du brauchst dich doch nicht hier draußen zu verstecken, komm rein und iss mit, du erweist uns allen eine große Ehre.
+ 
+- Wenn es für sie nicht um Leben und Tod gegangen wäre, hätte es ihr Spaß gemacht – auch um Arnalta zu ärgern. Aber der Gedanke an Essen und Wein verursachte ihr Brechreiz, als Vorwarnung.
+
+
+
+1241
+
+Die dänischen Abteilungen der großen multinationalen Gesellschaften verbrauchen Millionen für TV-2-Spots. ABBA „Gold“ ist massiv im Fernsehen angekündigt worden, genau wie jetzt AC/AD und andere „greatest hits“.
+
+„Meiner Meinung nach schaden die TV-Kampagnen dem dänischen Rock sehr. Wir wissen aus Erfahrung, dass es eine große Gruppe unter den Zuschauern  gibt, die nur 3-4 Platten im Jahr kaufen. Und wo sie früher vielleicht Kim Larsen und Anne Linnet, TV2, kauften, kaufen sie jetzt das, wofür sie im Fernsehen Reklame sehen“, sagt Stefan Fryland, Präsident von IFPI, dem Zusammenschluss der Plattengesellschaften. 
+
+Aber Fryland ist auch Direktor bei Polygram – eine der Gesellschaften, die im Fernsehen massivst für Samplers Reklame macht, was einen ja schon an der Aufrichtigkeit seiner Worte zweifeln lassen kann.
+
+„Mir ist klar, dass ich in dieser Sache doppelte Interessen und doppelte Bilanzen vertrete. Aber es ist auch meine ganz persönliche Meinung, dass Fernsehspots schädlich sind“, sagt er.
+
+Es gibt keine Berechnungen darüber, wieviele Millionen Kronen die Plattenbranche für TV-Kampagnen hinauswirft. Aber viele meinen, dass es zu denken geben sollte, dass die totalen Verkaufszahlen nichtsdestoweniger zurückgegangen sind.
+
+
+1428
+
+Kann man bei 350 in Kongens Have verführt werden, während man unter einem schattigen Baum liegt – wohlgemerkt völlig bekleidet –, Mineralwasser trinkt, Zigaretten raucht und sich die Bekenntnisse eines Pop-Provokateurs anhört?
+
+-Ja!
+
+Carsten Bo – der Ordnung halber – ist 33 Jahre. Er ist der Sohn des früheren Industrieministers Erling Jensen, Dichter, Popsänger und Schriftsteller. Frontfigur in Gruppen mit geheimnisvollen Namen wie 400 Fieber, Männer in Blau oder jüngst Sea Bee&amp; die D-Generation. Er wurde - sehr gegen seinen Willen – Stephen Brandt der 90er oder C.V. Jørgensen genannt. Das macht ihn aber wirklich ungehalten.
+
+‚Ich bin ich’ insistiert er unter der mehrere hundert Jahre alten Eiche – der Pop-Flaps, der er ist - auf dem Rücken liegend in seinen orangefarbenen Jeans, dem T-Shirt - das natürlich eine sonnengebräunte behaarte Brust zur Schau stellt –, der 68er ‚make love not war’-Sonnenbrille, die er gerade in Paris gekauft hat, und einer Kings im Mundwinkel.
+
+
+0431
+
+Rench Nielsen, Ebeltoft, veranstaltete auf der Messe in Vejle ein Preisausschreiben zum Namen eines Schmuckstücks. Die Lösung war ‚Personality’ und den Preis gewann Harald Jensen, Vejle.
+
+De Beers Centenary eröffnete am 8. September ein Büro in Moskau. Anwesend waren – außer den Spitzenleuten von de Beers – russische Politiker, Diplomaten und Repräsentanten von Diamantindustrie und –handel des Landes.
+
+Ib Garn, Goldschmied aus Køge, hat vor kurzem Silbergerät und einen Kronleuchter in der Kirche von Lellinge restauriert. Hier steht er mit dem 300 Jahre alten Abendmahlskelch. (Foto Stig Hansen)
+
+Henry Heerup, ein berühmter bildender Künstler, hat den Jahreskünstlerschmuck für 
+‚Smykkekæden’ entworfen. Das ist seine erste Arbeit in Silber.
+
+Jubiläumsbriefmarke.
+Seit 225 Jahren gibt es in Pforzheim Schmuck- und Uhrenindustrie. Das Jubiläum wurde u.a. von der Post durch die Herausgabe einer 100 Pfennig-Briefmarke gefeiert. Solange die Auflage reicht, können Interessenten bei der ständigen Musterausstellung, Poststr. 1, W-7530 Pforzheim, ein Exemplar mit Ersttagsstempel bekommen.
+
+
+Neue Gesellen.
+Im August wurden zwei Gesellenprüfungen erfolgreich abgelegt. Beide Lehrlinge sind ausgebildet bei Royal Copenhagen Georg Jensen Sølvsmedie. Wir gratulieren der Goldschmiedin Lykke Elkjær Olsen und der Silberschmiedin Gitte Tofteskov Rasmussen.
+
+
+0593
+
+Alle Rentner können Mietkostenzuschuss beantragen, sowohl allein Lebende als auch Ehepaare, wo ein Ehepartner oder beide Rentner sind. Der Mietkostenzuschuss ist steuerfrei.
+
+Der Mietkostenzuschuss richtet sich nach der Höhe der Miete, dem Einkommen des Hausstandes, der Größe der Wohnung sowie nach Größe und Zusammensetzung des Hausstandes. Bei der Berechnung des Mietkostenzuschusses wird vom sogenannten Höchstbetrag ausgegangen.
+Der Höchstbetrag für 1992 beträgt 11 2/3 % des Hausstandseinkommens für Einkommen, die ca 130.000 DKR nicht übersteigen. Der Mietkostenzuschuss beträgt für 1992 93 1/3 % des Unterschieds zwischen errechnetem Höchstbetrag und der Miete.
+
+Zu beachten ist, dass der Zuschuss, wenn das Bruttoareal der Wohnung 65 m2 übersteigt und man alleine in der Wohnung wohnt, für die ersten 20 übersteigenden m2 auf 57 % der m2-Kosten gekürzt wird. Übersteigt die Wohnung 85 m2, wird der Zuschuss auf 50 % der Kosten für die übersteigenden m2 gekürzt. Wenn die Überschreitung der Wohnflächengrenze darin begründet ist, dass der Ehepartner oder Lebensgefährte gestorben ist, oder dass der Ehepartner oder Lebensgefährte einen Platz im Pflegeheim bekommen hat, bleibt die Überschreitung ohne Einfluss auf den Mietkostenzuschuss.
+
+
+0187
+
+Ein Schock in einer Welt, die an Wachstumssteigerung gewöhnt war – und in der Regel an beträchtliche Wachstumssteigerung.
+
+Aber obwohl die totalen Investitionen zurückgegangen sind, sind sie doch deutlich bei gewissen Typen Hardware gestiegen, nämlich PCs, Workstationen und kleinen und mittelgroßen Systemen für mehrere Benutzer – insofern es sich bei all diesen um Geräte mit Unix-Betriebssystem handelt. Hier stiegen die Investitionen durchschnittlich um 12 %.
+
+„Der Anteil an kleineren Mehrbenutzersystemen erreichte 1990 ca die Hälfte des Absatzes. 1996 wird der Unix-Anteil 70-80 % betragen“, sagt Per Andersen von der Analysefirma IDC Scandinavia voraus. Er ist verantwortlich für die Analyse des Unix-Markts.
+
+„Unix wird nicht die DOS-Dominanz auf dem Schreibtisch übernehmen. Unix’ Rolle liegt beim Server. Und Unix ist nicht der Ersatz für ältere Systeme, sondern soll ein Supplement sein. Der PC machte ja auch nicht den Mainframe kaputt, sondern revolutionierte vor allem Textverarbeitung und andere einfache Anwendungen“. Hardware ist uninteressant. Auf diesem Markt – Unix und die offenen Systeme, die letzten Endes ermöglichen sollen, Anwendungen zwischen verschiedenen Mehrbenutzersystemen zu übertragen – herrscht im Augenblick scharfe Konkurrenz.
+
+
+0781
+
+„Es ist völlig klar, dass die Investitionen im Ausland in den kommenden Jahren um etliches steigen werden.
+
+Aber wir stürzen uns nicht ins Ungewisse, deshalb wird es also auch in naher Zukunft ausschließlich um den Kauf von Aktien in ausländischen Gesellschaften, die dänische Tochtergesellschaften haben, gehen.“
+
+ATP-Direktor Palle Simonsen macht keine großen Worte, wenn er die zukünftige Investitionsstrategie kommentieren soll. Ihm ist klar, dass jede kleine Bewegung von ATP genau verfolgt wird vom dänischen Aktienmarkt wegen der großen Bedeutung von ATP für den Aktienmarkt.
+
+Palle Simonsen sagt, dass es einen Aufsichtsratsbeschluss gibt, vorläufig ausländische Aktien und Obligationen für bis zu 1,5 % des Vermögens zu kaufen.
+
+Ohne sich auf irgendeinen Prozentanteil festlegen zu wollen, macht Palle Simonsen kein Hehl daraus, dass ATP in 5-10 Jahren einen bedeutend größeren Anteil ausländischer Wertpapiere im Besitz haben wird. Er ist der Auffassung, dass das eine natürliche Entwicklung ist auf einem Kapitalmarkt, der im Begriff ist, jede Form von Bindungen über Landesgrenzen hinweg völlig abzuschaffen.
+
+
+0307
+
+Liebe zutiefst Verwirrte
+
+Es stimmt, dass Kindergeld und Zuschuss für Familien mit Kindern wegfallen. Dagegen kann ihr Vater zur Unterhaltzahlung verpflichtet werden (in der Regel weniger als vor dem vollendeten 18. Lebensjahr), während die Tochter in der Ausbildung ist. Aber nur für die erste eigentliche Ausbildung.
+
+Selbst wenn ihr nicht dafür seid, ist es wohl die richtigste Lösung. Die Jugendlichen haben es schwer, da das letzte Jahr vor dem Abitur ein wichtiges Schuljahr ist. Für die Zulassung zu den meisten weiterführenden Ausbildungsgängen werden sehr hohe Noten verlangt, und insofern ist eine niedrige Abiturnote sehr wenig wert. Das alleine ist ein unglaublicher Druck für unsere Jugendlichen.
+
+Deshalb fällt es schwer, eine Lösung alleine darin zu sehen, ihr zu Erwerbsarbeit neben dem Lernen für das Examen zu raten.
+
+Die Alleinversorger großer Kinder wurden noch schlechter gestellt, als die Regel abgeschafft wurde, nach der man als Vater oder Mutter von studierenden Kindern über 17 Jahren seinen Steuerfreibetrag angehoben bekommen konnte. Diese Regel hätte hier helfen können.
+
+
