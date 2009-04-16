@@ -1,0 +1,233 @@
+
+                     DTAG DEPENDENCY TAGGING TOOL
+
+                      Matthias Trautner Kromann 
+                           <mtk.id@cbs.dk>
+
+            Center for Computational Modelling of Language
+               Department of Computational Linguistics
+                      Copenhagen Business School
+                      http://www.id.cbs.dk/~mtk
+
+                            DTAG HOME PAGE
+                    http://www.id.cbs.dk/~mtk/dtag
+
+                      Last revised February 2, 2005
+
+
+
+WHAT IS DTAG?
+-------------
+
+DTAG is a linguistic tool for building and using dependency treebanks,
+ie, natural language texts annotated with syntactic analyses based on
+dependency-theory. Here are some of the things that DTAG version 0 can
+do (release 0.8.5):
+	
+	* viewing dependency graphs and dependency treebanks, and printing
+	  them as PostScript, with a large number of formatting options;
+	* manual creation and editing of dependency treebanks;
+	* creating, viewing, and editing word alignments with
+	  semiautomatic word alignment;
+	* searching dependency treebanks with a constraint-based
+	  query language with search-and-replace.
+	* comparing dependency graphs with each other.
+
+Version 0 has been used in the construction of the Danish Dependency
+Treebank, a 100.000 word treebank, and is currently being used in
+other treebank projects as well. 
+
+Here are some of the things that the planned DTAG version 1 will be
+able to do (expected release: 2005-2006):
+
+	* learn a probabilistic dependency lexicon from a treebank.
+	* parse text (segmented/unsegmented) and speech (word lattice)
+	  using a heuristic dependency parser based on serial parsing with
+	  repair; the associated lexicon can be constructed manually
+	  and/or using our learning algorithm. 
+
+Here are some of the things that the planned DTAG version 2 will be
+able to do (expected release: fall 2006):
+
+	* manual creation of parallel treebanks and treebanks for
+	  dialogue with multiple, possibly overlapping speakers.
+	* learn a probabilistic translation lexicon from a parallel
+	  treebank.
+	* probabilistic machine translation of texts; the associated
+	  lexicon can be constructed manually and/or using our learning
+	  algorithm.
+
+DTAG is released under the GNU General Public License (please refer to
+the files LICENSE and LICENSE-GPL).
+
+
+DEPENDENCY GRAPHS
+-----------------
+
+In DTAG, a syntax graph is viewed as a set of words/lexemes (including
+phonetically empty words, or "fillers"), which have any number of
+associated variable-value pairs, and which are connected by any number
+of directed labeled edges (arcs). The graph structure is completely
+unrestricted. In particular, the dependency graphs used by DTAG are
+allowed to have:
+
+	* cyclic graphs: graphs are allowed to have arcs that form a loop.
+	* discontinuous (non-projective) graphs: the yield of a word in
+	  the graph (defined as the set of words that can be reached from
+	  a word by following the arcs) may not form an uninterrupted
+	  sequence of words.
+	* multiple dependencies: a word in the graph can have more than
+	  one incoming arc (so that the graph will not form a tree).
+	
+These theoretical assumptions are reflected in the way that DTAG
+graphs are drawn, and makes DTAG graphs look different from 
+the phrase-structure trees that are used in phrase-structure based
+linguistic theories, since phrase-structure trees are incompatible
+with both cyclicity, multiple dependencies, and (in most formulations
+of phrase-structure based theories) discontinuous dependencies. 
+
+The main limitations of our dependency-based layout, from the point of
+linguistic theory, is that:
+
+	* phrasal nodes are awkward and unnatural, although they can in
+	  principle be encoded as phonetically empty words in the graph.
+	* the dependency assumption forces us to identify a head in every
+	  phrase.
+	* it is difficult to represent arbitrary n-ary relationships
+	  between words (PS trees are equally bad in this respect).
+
+Many linguistic theories can live happily with one or more of these
+limitations, while others cannot. Some of the limitations may only be
+a problem in terms of presentation, rather than substance: for
+example, a phrase-based theory where phrases are only needed in order
+to distinguish between lexical heads and their maximal phrasal
+projection (and where no intermediate phrasal projection play any
+crucial role in the theory), is easily reformulated in terms of a
+dependency-based theory. 
+
+So before you decide to use DTAG or another treebank tool, you should 
+consider the particular needs of your linguistic theory, and how they
+compare with what the different treebank tools have to offer.
+
+
+REQUIREMENTS
+------------
+
+DTAG is written entirely in Perl. It requires the following Perl
+packages to be installed on your system:
+
+	Cwd
+	DB_File
+	Data::Dumper
+	Exporter
+	File::Basename
+	IO
+	IO::File
+	MLDBM
+	Math::CDF
+	Parse::RecDescent
+	PerlIO
+	Term::ANSIColor
+	Term::ReadKey
+	Term::ReadLine::Gnu (recommended)
+	Term::ReadLine
+	XML::Parser
+	XML::Writer
+
+In order to display the PostScript graphs produced by DTAG, you will
+also need a standalone PostScript viewer, such as GhostView or GV. In
+order to compile the sources, you will need the following standard
+UNIX programs:
+
+	bash make find sed sort cat 
+
+DTAG has only been tested under UNIX (Linux and Solaris), but it
+should run on any platform that supports Perl and the Perl packages
+listed above. Any version of UNIX will probably be unproblematic. So
+far, we haven't tried it on Windows or Apple machines -- please tell
+us if you have installed DTAG on any of these operating systems. 
+
+
+HOW DO I DOWNLOAD DTAG?
+-----------------------
+
+You can download the latest (stable or unstable) dtag-X.X.X.tar.bz2
+package from our sourceforge.net homepage:
+
+	http://sourceforge.net/project/showfiles.php?group_id=46671
+
+If you have access to CVS, you can download DTAG by creating a new
+DTAG home directory (DTAGHOME), changing to that directory, and
+creating your local copy of the DTAG sources with the cvs command:
+
+	cvs -z3 -d:pserver:anonymous@cvs.sf.net:/cvsroot/disgram -P co .
+
+Whenever you wish to update your sources so that they become identical
+with the latest development version of DTAG, just change to the
+DTAGHOME directory, and execute the CVS command:
+
+	cvs update -P
+
+
+HOW DO I INSTALL AND COMPILE DTAG (UNIX)?
+-----------------------------------------
+
+Before you can run DTAG, you need to install the Perl modules needed
+by DTAG (listed in the REQUIREMENTS section above). The easiest way to
+install them is to use the "install.pl" script in the DTAGHOME
+directory, by running "perl install.pl". This will use the built-in CPAN
+installer in Perl to retrieve the latest version of the modules from
+the internet and install them on your system. Note that you may need
+root priviliges in order to do this. Otherwise you will need to
+consult the Perl CPAN manpage ("man CPAN") in order to read about how
+you install the modules manually. 
+
+DTAG is precompiled unless you have downloaded DTAG with CVS, so
+there is no need to compile DTAG if you have downloaded it as a
+.tar.bz2 file. In order to compile DTAG from the sources, enter the
+DTAGHOME directory and issue the command "make". This will place the
+compiled sources in the "run" directory. 
+
+You can test DTAG by running "dtag" itself. Afterwards, you can make a
+more detailed test of all the functionality in DTAG by running "make
+test". This will run a large number of regression tests, which should
+produce an output like:
+
+	Running test ./Graph/Edge/test/selectors.pl ... ok
+	Running test ./Graph/Node/test/selectors.pl ... ok
+	Running test ./Graph/test/etypes.dtag ... ok
+	...
+
+If you cannot start DTAG without error messages, or if a test fails,
+then the regression tests may help you pinpoint the error by showing
+which particular functionality fails. If you send a bug report,
+please include the output you get when you start DTAG, and the output
+you get when you run the regression tests. 
+
+
+HOW DO I RUN DTAG (UNIX)?
+-------------------------
+
+In order to run DTAG, you should execute the "run/dtag" script in your
+DTAGHOME directory. Eg, if your DTAG home directory is "/opt/dtag",
+then you should execute "/opt/dtag/run/dtag". You can specify the
+DTAGHOME directory using the DTAGHOME environment variable, but this
+is optional -- the run/dtag script will try to figure it out
+automatically from its own location.
+
+If you want to run DTAG by typing only "dtag", you can create a
+symbolic link to DTAG from a directory in your PATH variable (in UNIX:
+run the command "cd /usr/bin; ln -s /opt/dtag/run/dtag ."), or you can
+add "/opt/dtag/run" to your PATH environment variable. 
+
+
+HOW DO I PARTICIPATE IN THE DEVELOPMENT OF DTAG?
+------------------------------------------------
+
+Please email me (mtk@id.cbs.dk) if you have any questions. Send bug
+reports to me if you find something that doesn't work as expected.
+Feel free to improve the documentation for DTAG. Contact me if you
+want to participate in the development of DTAG.
+
+
+
