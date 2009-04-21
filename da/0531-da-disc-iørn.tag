@@ -79,10 +79,10 @@
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Olsdorf" lemma="Olsdorf" msd="NP--U==-" tag="NNP" in="-3:conj" out="-2:title|-1:namef">Olsdorf</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="appealed" lemma="anke" msd="VADA=----A-" tag="VBD" in="" out="-18:subj|1:mod|3:dobj|7:mod|11:pnct">ankede</W>
+<W gloss="appealed" lemma="anke" msd="VADA=----A-" tag="VBD" in="" out="-18:subj|1:mod|3:dobj|7:mod|11:pnct|16:CONJ/også|3:DOBJ">ankede</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the_spot" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>
-<W gloss="judgment" lemma="dom" msd="NCCSU==D" tag="NN" in="-3:dobj" out="1:mod">dommen</W>
+<W gloss="judgment" lemma="dom" msd="NCCSU==D" tag="NN" in="-3:dobj|-3:DOBJ" out="1:mod|24:+ELAB:part/(herunder)">dommen</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="the_Copenhagen" lemma="København" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Københavns</W>
 <W gloss="Municipal_Court" lemma="byret" msd="NCNSU==I" tag="NN" in="-1:possd" out="">byret</W>
@@ -95,7 +95,7 @@
 <s>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">Også</W>
 <W gloss="The_prosecuting_authority" lemma="anklagemyndighed" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="-1:mod">anklagemyndigheden</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|4:pnct">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-16:CONJ/også" out="-1:subj|1:vobj|4:pnct">har</W>
 <W gloss="reserved" lemma="reservere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">reserveret</W>
 <W gloss="the" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="possibility_of_appeal" lemma="ankemylighed" msd="XX" tag="FW" in="-1:nobj" out="">ankemylighed</W>
@@ -106,7 +106,7 @@
 <p>
 <s>
 <W gloss="The_chairman_of_the_board" lemma="bestyrelsesformand" msd="NCCSU==D" tag="NN" in="1:subj" out="">Bestyrelsesformanden</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:dobj|11:mod|27:pnct">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-24:+ELAB:part/(herunder)" out="-1:subj|2:dobj|11:mod|27:pnct|34:CONJ/(og)">fik</W>
 <W gloss="and_a_half" lemma="halvanden" msd="ANPNSU=IU" tag="JJ" in="1:mod" out="">halvandet</W>
 <W gloss="years" lemma="år" msd="NCNSG==I" tag="NN" in="-2:dobj" out="-1:mod|1:possd|2:coord">års</W>
 <W gloss="prison" lemma="fængsel" msd="NCNSU==I" tag="NN" in="-1:possd" out="">fængsel</W>
@@ -140,7 +140,7 @@
 <W gloss="director" lemma="direktør" msd="NCCSU==I" tag="NN" in="-1:possd" out="">direktør</W>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Olsdorff" lemma="Olsdorff" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Olsdorff</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|1:dobj|9:pnct">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-34:CONJ/(og)" out="-4:subj|1:dobj|9:pnct">fik</W>
 <W gloss="6" lemma="6" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|2:possd|3:coord">6</W>
 <W gloss="months" lemma="måned" msd="NCCPG==I" tag="NNP" in="-1:nobj" out="">måneders</W>
 <W gloss="jail" lemma="fængsel" msd="NCNSU==I" tag="NN" in="-2:possd" out="">fængsel</W>
