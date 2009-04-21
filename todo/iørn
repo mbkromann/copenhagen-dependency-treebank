@@ -35,11 +35,13 @@
 [*] da-it/0596-da-it-iørn.atag
 [*] it/0596-it-iørn.tag
 [*] da-it/0998-da-it-iørn.atag
-[ ] it/0998-it-iørn.tag
+[*] it/0998-it-iørn.tag
 [*] da-it/0800-da-it-iørn.atag
 [*] it/0800-it-iørn.tag
 [*] da-it/1250-da-it-iørn.atag
 [*] it/1250-it-iørn.tag
+
+[ ] it/1252-it-iørn.tag
 
 [ ] da-it/0781-da-it-iørn.atag
 [ ] it/0781-it-iørn.tag
@@ -53,3 +55,23 @@
 
 [ ] da-it/0800-da-it-iørn.atag
 [ ] da-it/0998-da-it-iørn.atag
+
+# Discourse annotation
+[ ] da/0531-da-disc-iørn.tag
+[ ] da/0602-da-disc-iørn.tag
+[ ] da/0848-da-disc-iørn.tag
+[ ] da/0915-da-disc-iørn.tag
+[ ] da/1035-da-disc-iørn.tag
+[ ] da/1252-da-disc-iørn.tag
+[ ] da/1347-da-disc-iørn.tag
+[ ] da/1408-da-disc-iørn.tag
+[ ] da/1497-da-disc-iørn.tag
+[ ] it/0531-it-disc-iørn.tag
+[ ] it/0602-it-disc-iørn.tag
+[ ] it/0848-it-disc-iørn.tag
+[ ] it/0915-it-disc-iørn.tag
+[ ] it/1035-it-disc-iørn.tag
+[ ] it/1252-it-disc-iørn.tag
+[ ] it/1347-it-disc-iørn.tag
+[ ] it/1408-it-disc-iørn.tag
+[ ] it/1497-it-disc-iørn.tag

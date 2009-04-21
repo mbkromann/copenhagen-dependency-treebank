@@ -44,7 +44,7 @@
 <W lemma="chiuso" msd="AN" tag="ADJ" in="-4:predo" out="-1:man">chiuso</W>
 <W lemma="per" msd="SP" tag="PRE" in="-5:bg" out="1:nobj">per</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj|1:[subj]" out="1:relr">quanto</W>
-<W lemma="riguardare" msd="VADR" tag="VER:pres" in="-1:relr" out="1:dobj|-1:[subj]">riguarda</W>
+<W lemma="riguardare" msd="VADR" tag="VER:pres" in="-1:relr" out="-1:[subj]|1:dobj">riguarda</W>
 <W lemma="investimento" msd="NC" tag="NOM" in="-1:dobj" out="1:attrr|2:pobj:pobj">investimenti</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attrr" out="">danesi</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-2:pobj:pobj|-18:coref-var" out="1:nobj">nel</W>
