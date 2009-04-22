@@ -11,7 +11,7 @@
 <W _compound="1" compound="¹saper²lo" lemma="sapere" msd="VAF" tag="VER:infi" in="-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|-7:coref-res|1:time|3:vobj|4:bg|16:coref-res|18:conj">hanno</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-13:subj|-4:other|-7:coref-res|1:time|3:vobj|4:bg|16:coref-res|18:conj|18:CONJ/e">hanno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:time" out="1:nobj">per</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="collaborare" msd="VAP" tag="VER:pper" in="-3:vobj" out="">collaborato</W>
@@ -29,13 +29,13 @@
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-16:coref-res|2:subj" out="1:nobj">la</W>
 <W lemma="collaborazione" msd="NC" tag="NOM" in="-1:nobj" out="">collaborazione</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-18:conj" out="-3:coord|-2:subj|1:vobj|28:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-18:conj|-18:CONJ/e" out="-3:coord|-2:subj|1:vobj|28:pnct|6:NOBJ">ha</W>
 <W lemma="produrre" msd="VAP" tag="VER:pper" in="-1:vobj" out="5:dobj">prodotto</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="fra" msd="SP" tag="PRE" in="3:ext" out="-1:pnct|1:nobj|2:pnct">fra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">l’altro</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="un" msd="PI" tag="DET:indef" in="-5:dobj" out="-3:ext|1:nobj">un</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="-5:dobj|-6:NOBJ" out="-3:ext|1:nobj|30:ELAB:exem/p.es">un</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|3:ref|4:relr|23:coref-id">accordo</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attrr" out="1:attrr">sull’asilo</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attrr" out="">politico</W>
@@ -65,7 +65,7 @@
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj|7:[subj]" out="">si</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="" out="-1:subj|-7:time|2:ext|6:vobj|17:pnct|18:cause|30:pnct|31:coref-res">potrà</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER:futu" in="-30:ELAB:exem/p.es" out="-1:subj|-7:time|2:ext|6:vobj|17:pnct|18:cause|30:pnct|31:coref-res|32:CONS/(perciò)">potrà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:ext" out="-1:pnct|1:nobj|3:pnct">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
@@ -97,7 +97,7 @@
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paesi</W>
 <W lemma="." msd="XP" tag="SENT" in="-30:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-31:coref-res|1:subj" out="">Questo</W>
-<W lemma="significare" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj">significa</W>
+<W lemma="significare" msd="VADR" tag="VER:pres" in="-32:CONS/(perciò)" out="-1:subj|1:dobj|47:+ELAB:rest">significa</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="22:vobj">che</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="5:[subj]|21:subj|29:[subj]|31:[subj]|35:[subj]" out="1:nobj|7:coref">un</W>
 <W lemma="rifugiato" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|2:relr">rifugiato</W>
@@ -144,7 +144,7 @@
 <W lemma="qui" msd="RG" tag="ADV" in="-1:loc" out="">qui</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:coref-res|1:subj" out="">Ciò</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:subj|1:preds|21:pnct|23:coref-res">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-47:+ELAB:rest" out="-1:subj|1:preds|21:pnct|23:coref-res|26:CONTR/però">è</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">risultato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:attrr" out="1:attrr">dell’accordo</W>
@@ -170,7 +170,7 @@
 <W lemma="questo" msd="PD" tag="PRO:demo" in="-23:coref-res|3:subj" out="-1:degr">questo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:contr" out="">però</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:neg|-3:subj|-2:contr|1:neg|2:pobj|10:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-26:CONTR/però" out="-1:neg|-3:subj|-2:contr|1:neg|2:pobj|10:pnct|15:JOINT">ha</W>
 <W lemma="niente" msd="RG" tag="ADV" in="-1:neg" out="">niente</W>
 <W lemma="a" msd="SP" tag="PRE" in="-2:pobj" out="2:vobj">a</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="1:dobj" out="2:pobj">che</W>
@@ -185,7 +185,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">novità</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:attrr|-7:coref-var" out="1:nobj|23:coref-id">nel</W>
 <W lemma="trattato" msd="NC" tag="NOM" in="-1:nobj" out="">Trattato</W>
-<W lemma="consistere" msd="VADR" tag="VER:pres" in="" out="-4:subj|1:pobj|24:pnct">consiste</W>
+<W lemma="consistere" msd="VADR" tag="VER:pres" in="-15:JOINT" out="-4:subj|1:pobj|24:pnct|26:ELAB:exp/ancora">consiste</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-1:pobj" out="1:nobj">nel</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:appr" out="12:vobj">che</W>
@@ -211,7 +211,7 @@
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
 <W lemma="si" msd="PP" tag="PRO:pers" in="1:subj" out="">Si</W>
-<W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:time|2:pobj|7:pnct|14:conj">tratta</W>
+<W lemma="trattare" msd="VADR" tag="VER:pres" in="-26:ELAB:exp/ancora" out="-1:subj|1:time|2:pobj|7:pnct|14:conj">tratta</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="-1:time" out="">ancora</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj" out="1:nobj">di</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="-1:nobj" out="1:nobj">una</W>
