@@ -123,7 +123,7 @@
 </p>
 <p>
 <s>
-<W gloss="On" lemma="den" msd="PD-CSU--U" tag="DT" in="3:time" out="2:nobj|1:=">Den</W>
+<W gloss="On" lemma="den" msd="PD-CSU--U" tag="DT" in="3:time" out="1:=|2:nobj">Den</W>
 <W gloss="8," lemma="8." msd="AO---U=--" tag="JJ" in="-1:=" out="">8.</W>
 <W gloss="November" lemma="november" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">november</W>
 <W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="" out="-3:time|1:subj|2:pnct|3:source|6:aobj|7:pnct">gik</W>

@@ -97,9 +97,9 @@
 <W gloss="none" lemma="ingen" msd="PI-CSU--U" tag="DT" in="5:subj|6:[subj]" out="1:pobj">ingen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
-<W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="2:mod" out="1:nobj">nogen</W>
+<W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="2:other" out="1:nobj">nogen</W>
 <W gloss="hearts" lemma="sinde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sinde</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-2:mod|1:vobj">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|1:vobj|-2:other">vil</W>
 <W gloss="forget" lemma="glemme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|-9:[dobj]">glemme</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -111,9 +111,9 @@
 <W gloss="24,000" lemma="24.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">24.000</W>
 <W gloss="spectators" lemma="tilskuer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tilskuere</W>
 <W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:pred|4:pnct">var</W>
-<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:pred" out="2:mod">noget</W>
+<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:pred" out="2:other">noget</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="extraordinary" lemma="speciel" msd="ANPNSU=IU" tag="JJ" in="-2:mod" out="-1:degr">specielt</W>
+<W gloss="extraordinary" lemma="speciel" msd="ANPNSU=IU" tag="JJ" in="-2:other" out="-1:degr">specielt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -135,8 +135,8 @@
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
 <W gloss="the_ball" lemma="bold" msd="NCCSU==D" tag="NN" in="1:subj" out="">bolden</W>
 <W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|-3:[mod]|1:lobj">kom</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ned</W>
-<W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ned</W>
+<W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="our" lemma="vores" msd="PO1[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:possd">vores</W>
 <W gloss="half_of_the_court" lemma="banehalvdel" msd="NCCSU==I" tag="NN" in="-1:possd" out="">banehalvdel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>

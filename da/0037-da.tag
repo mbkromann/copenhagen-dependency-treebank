@@ -99,8 +99,8 @@
 <s>
 <W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="6:cond" out="1:subj|2:lobj|5:pnct">Går</W>
 <W gloss="the_competitors" lemma="konkurrent" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">konkurrenterne</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">ned</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:lobj" out="1:other">ned</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="price" lemma="pris" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pris</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="will_follow" lemma="følge" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-6:cond|1:subj|2:pobj|3:pnct|4:pnct">følger</W>
@@ -215,8 +215,8 @@
 <W gloss="save" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">spare</W>
 <W gloss="will_be_cut" lemma="skære" msd="VADR=----P-" tag="VBD" in="" out="-3:goal|1:subj|2:avobj|5:pnct">skæres</W>
 <W gloss="the_number" lemma="antal" msd="NCNSU==D" tag="NN" in="-1:subj" out="">antallet</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:avobj" out="1:mod">ned</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:avobj" out="1:other">ned</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="8,000" lemma="8.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="">8.000</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

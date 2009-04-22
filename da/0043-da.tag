@@ -190,8 +190,8 @@
 </p>
 <p>
 <s>
-<W gloss="Without" lemma="uden" msd="SP" tag="IN" in="" out="1:mod|2:nobj|21:pnct">Uden</W>
-<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:mod" out="">dog</W>
+<W gloss="Without" lemma="uden" msd="SP" tag="IN" in="" out="2:nobj|21:pnct|1:other">Uden</W>
+<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:other" out="">dog</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
 <W gloss="achieving" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|5:pnct|6:cause">opnå</W>
 <W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-1:dobj" out="1:nobj">meget</W>
@@ -216,14 +216,14 @@
 </p>
 <p>
 <s>
-<W gloss="were_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="13:cond" out="1:subj|5:prg|7:mod|8:vobj">Skulle</W>
+<W gloss="were_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="13:cond" out="1:subj|5:prg|8:vobj|7:other">Skulle</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:subj|7:[subj]" out="1:nobj|2:loc">et</W>
 <W gloss="majority" lemma="flertal" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">flertal</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the_Division_Association" lemma="divisionsforening" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Divisionsforeningen</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-5:prg" out="1:nobj">mod</W>
 <W gloss="expectations" lemma="forventning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forventning</W>
-<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-7:mod" out="">imidlertid</W>
+<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-7:other" out="">imidlertid</W>
 <W gloss="want" lemma="ønske" msd="VAF-=----A-" tag="VB" in="-8:vobj" out="-7:[subj]|1:dobj">ønske</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="keep" lemma="bibeholde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:tobj">bibeholde</W>
@@ -232,8 +232,8 @@
 <W gloss="will_pull" lemma="rykke" msd="VADR=----A-" tag="VBD" in="" out="-13:cond|1:subj|3:lobj|6:pnct">rykker</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:subj" out="1:nobj">to</W>
 <W gloss="teams" lemma="hold" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">hold</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="1:mod">ud</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ud</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_Super_League" lemma="superliga" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Superligaen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

@@ -215,8 +215,8 @@
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="had_been" lemma="blive" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj">blev</W>
 <W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">hjulpet</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">væk</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="1:other">væk</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="the_battlefield" lemma="slagmark" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">slagmarken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>

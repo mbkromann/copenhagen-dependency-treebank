@@ -190,10 +190,10 @@
 </p>
 <p>
 <s>
-<W gloss="Interrogated" lemma="afhøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="3:mod" out="1:man">Afhørt</W>
+<W gloss="Interrogated" lemma="afhøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="3:other" out="1:man">Afhørt</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:man" out="1:nobj">under</W>
 <W gloss="oath" lemma="vidneansvar" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">vidneansvar</W>
-<W gloss="denied" lemma="afvise" msd="VADA=----A-" tag="VBD" in="" out="-3:mod|3:subj|33:mod|34:pnct|35:dobj|49:pnct">afviste</W>
+<W gloss="denied" lemma="afvise" msd="VADA=----A-" tag="VBD" in="" out="3:subj|34:pnct|35:dobj|49:pnct|-3:other|33:other">afviste</W>
 <W gloss="Detective_Inspector" lemma="kriminalassistent" msd="NCCSU==I" tag="NN" in="2:title" out="">kriminalassistent</W>
 <W gloss="Villy" lemma="Villy" msd="NP--U==-" tag="NNP" in="1:namef" out="">Villy</W>
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:title|-1:namef|1:pnct|2:loc|5:ref|12:rel">Nielsen</W>
@@ -226,7 +226,7 @@
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hendes</W>
 <W gloss="husband" lemma="mand" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mand</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-17:pnct" out="">,</W>
-<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-33:mod" out="">imidlertid</W>
+<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-33:other" out="">imidlertid</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-34:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-35:dobj" out="2:vobj">at</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">hun</W>

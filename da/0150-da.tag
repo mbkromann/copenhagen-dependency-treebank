@@ -166,8 +166,8 @@
 <W gloss="gradually" lemma="efterhånden" msd="RGU" tag="RP" in="1:time" out="">efterhånden</W>
 <W gloss="will_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:time|1:vobj">skal</W>
 <W gloss="throttled" lemma="drosle" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-4:[subj]|1:avobj|5:other">drosles</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:avobj" out="1:mod">ned</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:avobj" out="1:other">ned</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="25" lemma="25" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">25</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">procent</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:other" out="1:nobj">i</W>

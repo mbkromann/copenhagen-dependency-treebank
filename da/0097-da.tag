@@ -133,11 +133,11 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="17:qobj" out="-1:subj|1:cause|2:dobj|15:pnct|16:pnct|23:pnct">har</W>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
-<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:dobj|4:[subj]" out="1:attr|2:nobj|4:mod">få</W>
+<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:dobj|4:[subj]" out="1:attr|2:nobj|4:other">få</W>
 <W gloss="strong" lemma="stærk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">stærke</W>
 <W gloss="feelings" lemma="følelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">følelser</W>
 <W gloss="particularly" lemma="speciel" msd="ANP---=-R" tag="JJ" in="1:attr" out="">specielt</W>
-<W gloss="connected" lemma="forbinde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:mod" out="-4:[subj]|-1:attr|1:pobj">forbundet</W>
+<W gloss="connected" lemma="forbinde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:other" out="-4:[subj]|-1:attr|1:pobj">forbundet</W>
 <W gloss="to" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="keeping" lemma="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">holde</W>

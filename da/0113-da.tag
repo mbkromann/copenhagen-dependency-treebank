@@ -113,8 +113,8 @@
 <W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-2:dobj" out="1:nobj|3:other">sit</W>
 <W gloss="work" lemma="arbejde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">arbejde</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:other" out="">helt</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:other" out="-1:other|1:mod">op</W>
-<W gloss="until" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:other" out="-1:other|1:other">op</W>
+<W gloss="until" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="1989" lemma="1989" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1989</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

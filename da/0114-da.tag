@@ -252,8 +252,8 @@
 <W gloss="bank" lemma="bank" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bank</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-10:coord" out="1:conj">og</W>
 <W gloss="the_state" lemma="stat" msd="NCCSU==D" tag="NN" in="-1:conj" out="">staten</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:subj|1:mod|2:dobj|3:pred">har</W>
-<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">alle</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:subj|2:dobj|3:pred|1:attr">har</W>
+<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">alle</W>
 <W gloss="money" lemma="penge" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="">penge</W>
 <W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-3:pred" out="">til_gode</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>

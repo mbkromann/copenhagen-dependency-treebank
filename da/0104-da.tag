@@ -210,8 +210,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="2:subj|4:[subj]" out="1:mod">Det</W>
-<W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">hele</W>
+<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="2:subj|4:[subj]" out="1:other">Det</W>
+<W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:other" out="">hele</W>
 <W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="15:qobj" out="-2:subj|1:prg|2:vobj|5:pnct|6:cause|14:pnct">skulle</W>
 <W gloss="hate" lemma="nødigt" msd="RGU" tag="RP" in="-1:prg" out="">nødigt</W>
 <W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-4:[subj]|1:lobj">gå</W>

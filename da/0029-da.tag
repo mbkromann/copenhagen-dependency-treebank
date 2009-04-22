@@ -162,11 +162,11 @@
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:loc|1:subj|3:pred">var</W>
 <W gloss="the_slaughterhouse" lemma="slagteri" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">slagteriets</W>
 <W gloss="the_management" lemma="ledelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="">ledelse</W>
-<W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-3:pred" out="1:mod">ude</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:mod">en</W>
+<W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-3:pred" out="1:other">ude</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:other">en</W>
 <W gloss="punitive_expedition" lemma="straffeekspedition" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">straffeekspedition</W>
-<W gloss="over" lemma="over" msd="RGU" tag="RP" in="-2:mod" out="1:pobj">over</W>
+<W gloss="over" lemma="over" msd="RGU" tag="RP" in="-2:other" out="1:pobj">over</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">nogle</W>
 <W gloss="employees" lemma="medarbejder" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">medarbejdere</W>

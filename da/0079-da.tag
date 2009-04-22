@@ -75,8 +75,8 @@
 <s>
 <W gloss="The_parents" lemma="forælder" msd="NCCPU==D" tag="NNP" in="1:subj|4:[subj]|7:[subj]" out="">Forældrene</W>
 <W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:neg|3:vobj|4:pnct|5:coord|11:pnct">blev</W>
-<W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
+<W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:other" out="">heller</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:other">ikke</W>
 <W gloss="convicted" lemma="dømme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]">dømt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="-5:coord" out="1:conj">men</W>

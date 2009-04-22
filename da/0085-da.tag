@@ -116,8 +116,8 @@
 <W gloss="the_family" lemma="familie" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:man">familien</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:man" out="1:nobj">på</W>
 <W gloss="skis" lemma="ski" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ski</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-5:lobj" out="1:mod">ned</W>
-<W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-5:lobj" out="1:other">ned</W>
+<W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:other" out="1:nobj">ad</W>
 <W gloss="the_hills" lemma="bakke" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">bakkerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>

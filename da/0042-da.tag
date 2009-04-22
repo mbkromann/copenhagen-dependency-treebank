@@ -155,8 +155,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">som</W>
 <W gloss="cover" lemma="dække" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj">dækker</W>
-<W gloss="everything" lemma="al" msd="ANPNSU=[DI]U" tag="JJ" in="-1:dobj" out="1:mod">alt</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:pobj">fra</W>
+<W gloss="everything" lemma="al" msd="ANPNSU=[DI]U" tag="JJ" in="-1:dobj" out="1:other">alt</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj|4:pobj">fra</W>
 <W gloss="reduction" lemma="nedsættelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">nedsættelse</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="unemployment_insurance_dues" lemma="akassekontingent" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">akassekontingent</W>

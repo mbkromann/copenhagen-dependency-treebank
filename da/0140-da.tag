@@ -109,8 +109,8 @@
 <W gloss="outcry" lemma="ramaskrig" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">ramaskrig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-19:cause" out="2:vobj">for</W>
-<W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="1:mod" out="">pludselig</W>
-<W gloss="did_hear" lemma="høre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:mod|1:subj|2:neg|3:dobj|4:pobj">hørte</W>
+<W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="1:other" out="">pludselig</W>
+<W gloss="did_hear" lemma="høre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="1:subj|2:neg|3:dobj|4:pobj|-1:other">hørte</W>
 <W gloss="people" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="any_more" lemma="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-3:dobj" out="">mere</W>
@@ -183,8 +183,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
 <W gloss="sail" lemma="sejle" msd="VAF-=----A-" tag="VB" in="-1:conj" out="1:dobj|2:lobj">sejle</W>
 <W gloss="the_boat" lemma="båd" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">båden</W>
-<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">hen</W>
-<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:mod" out="1:nobj">langs</W>
+<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-2:lobj" out="1:other">hen</W>
+<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:other" out="1:nobj">langs</W>
 <W gloss="the_coast" lemma="kyst" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kysten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="come" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-15:cond|1:subj|2:lobj|12:pnct">kommer</W>
@@ -194,9 +194,9 @@
 <W gloss="picturesque" lemma="pittoresk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">pittoresk</W>
 <W gloss="tourist_attraction" lemma="turistattraktion" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">turistattraktion</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="2:mod" out="">nemlig</W>
+<W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="2:other" out="">nemlig</W>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
-<W gloss="Robinson's" lemma="Robinson" msd="NP--G==-" tag="NNP" in="-6:appa" out="-2:mod|-1:pnct|1:possd|2:pnct">Robinsons</W>
+<W gloss="Robinson's" lemma="Robinson" msd="NP--G==-" tag="NNP" in="-6:appa" out="-1:pnct|1:possd|2:pnct|-2:other">Robinsons</W>
 <W gloss="Cave" lemma="hule" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Hule</W>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -206,8 +206,8 @@
 <s>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|8:[subj]" out="">Den</W>
 <W gloss="is_located" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:lobj|6:coord|30:pnct">ligger</W>
-<W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
-<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-2:lobj" out="-1:mod|1:nobj">ved</W>
+<W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
+<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-2:lobj" out="1:nobj|-1:other">ved</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="stony" lemma="stenet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">stenede</W>
 <W gloss="beach" lemma="strand" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">strand</W>

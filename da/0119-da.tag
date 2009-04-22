@@ -183,8 +183,8 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">Jeg</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:neg|3:vobj|6:pnct|7:cond|13:pnct">ville</W>
-<W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:mod" out="">bare</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:neg|3:vobj|6:pnct|7:cond|13:pnct|1:other">ville</W>
+<W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:other" out="">bare</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="talk" lemma="snakke" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pobj">snakke</W>
 <W gloss="to" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -281,8 +281,8 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Han</W>
 <W gloss="was_supposed_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|10:pnct|11:time|15:pnct">skulle</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|5:goal">komme</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ud</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="address" lemma="adresse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">adresse</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:goal" out="1:nobj">for</W>

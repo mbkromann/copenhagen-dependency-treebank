@@ -121,8 +121,8 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="promoting" lemma="fremhæve" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|5:pobj">fremhæve</W>
-<W gloss="just" lemma="netop" msd="RGU" tag="RP" in="1:mod" out="">netop</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:dobj" out="-1:mod|1:attr|2:nobj">den</W>
+<W gloss="just" lemma="netop" msd="RGU" tag="RP" in="1:other" out="">netop</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj|-1:other">den</W>
 <W gloss="latest" lemma="ny" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">nyeste</W>
 <W gloss="record" lemma="plade" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">plade</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-5:pobj" out="1:nobj">som</W>
@@ -157,9 +157,9 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="38:qobj" out="1:nobj|2:pnct|3:ref|5:rel|37:pnct">Den</W>
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="which" lemma="hvorpå" msd="RGU" tag="RP" in="-3:ref|2:mod" out="">hvorpå</W>
+<W gloss="which" lemma="hvorpå" msd="RGU" tag="RP" in="-3:ref|2:other" out="">hvorpå</W>
 <W gloss="rock" lemma="rock" msd="NCCSU==D" tag="NN" in="1:subj" out="">rocken</W>
-<W gloss="prevails" lemma="sejre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:mod|1:dobj|2:pred|3:man">sejrer</W>
+<W gloss="prevails" lemma="sejre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:dobj|2:pred|3:man|-2:other">sejrer</W>
 <W gloss="itself" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="to_death" lemma="til_døde" msd="RGU" tag="RP" in="-2:pred" out="">til_døde</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-3:man" out="1:nobj">ved</W>
@@ -176,8 +176,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pred" out="1:nobj">i</W>
 <W gloss="able" lemma="stand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">stand</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">til</W>
-<W gloss="overhovedeet" lemma="overhovedeet" msd="XX" tag="FW" in="1:mod" out="">overhovedeet</W>
-<W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:mod|1:vobj">at</W>
+<W gloss="overhovedeet" lemma="overhovedeet" msd="XX" tag="FW" in="1:other" out="">overhovedeet</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj|-1:other">at</W>
 <W gloss="remembering" lemma="huske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">huske</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:dobj" out="1:ref|4:rel">hvad</W>

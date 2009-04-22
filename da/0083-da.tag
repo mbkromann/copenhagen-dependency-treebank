@@ -64,8 +64,8 @@
 <W gloss="ladies" lemma="dame" msd="NCCPU==I" tag="NNP" in="2:subj" out="-1:attr">damer</W>
 <W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="1:time" out="">allerede</W>
 <W gloss="have_crawled" lemma="kravle" msd="VADA=----A-" tag="VBD" in="-8:rel" out="-2:subj|-4:loc|-1:time|1:lobj|4:loc">kravlede</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">op</W>
-<W gloss="onto" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="1:other">op</W>
+<W gloss="onto" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="platforms" lemma="plateau" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">plateau'erne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:loc" out="1:nobj">i</W>
 <W gloss="the_winter_cold" lemma="vinterkulde" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">vinterkulden</W>
@@ -94,8 +94,8 @@
 <W gloss="unique" lemma="unik" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">unikke</W>
 <W gloss="stocks" lemma="varelager" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">varelager</W>
 <W gloss="borne" lemma="have" msd="VADR=----P-" tag="VBD" in="-4:vobj" out="-3:subj">haves</W>
-<W gloss="can_be_found" lemma="få" msd="VADR=----P-" tag="VBD" in="-9:vobj" out="-7:subj|-5:time|1:mod">fås</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj|3:pobj">fra</W>
+<W gloss="can_be_found" lemma="få" msd="VADR=----P-" tag="VBD" in="-9:vobj" out="-7:subj|-5:time|1:other">fås</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj|3:pobj">fra</W>
 <W gloss="sizes" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">str.</W>
 <W gloss="36" lemma="36" msd="AC---U=--" tag="CD" in="-1:nobj" out="">36</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj|2:pnct|3:coord">til</W>
@@ -118,8 +118,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]|5:[subj]" out="">der</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="2:other" out="">også</W>
-<W gloss="certainly" lemma="nok" msd="RGU" tag="RP" in="1:mod" out="">nok</W>
-<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-1:mod|-2:other|1:vobj|9:pnct|10:cond">skal</W>
+<W gloss="certainly" lemma="nok" msd="RGU" tag="RP" in="1:other" out="">nok</W>
+<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|1:vobj|9:pnct|10:cond|-1:other">skal</W>
 <W gloss="could" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">kunne</W>
 <W gloss="make" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|4:pred">gøre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:coord">en</W>
@@ -243,8 +243,8 @@
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:expl|3:dobj">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="2:numm" out="1:nobj">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">par</W>
-<W gloss="hundred" lemma="hundrede" msd="NCNPU==I" tag="NNP" in="-3:dobj" out="-2:numm|1:mod">hundrede</W>
-<W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:mod" out="1:vobj">at</W>
+<W gloss="hundred" lemma="hundrede" msd="NCNPU==I" tag="NNP" in="-3:dobj" out="-2:numm|1:other">hundrede</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W gloss="save" lemma="spare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:other|6:loc">spare</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:pobj">andre</W>

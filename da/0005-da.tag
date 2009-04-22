@@ -97,8 +97,8 @@
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">de</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">politiske</W>
 <W gloss="leaders" lemma="leder" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">ledere</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:mod|2:loc">kommer</W>
-<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:mod" out="">med</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|2:loc|1:other">kommer</W>
+<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:other" out="">med</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:rel">det</W>
 <W gloss="equal_opportunity_board" lemma="ligebehandlingsnævn" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">ligebehandlingsnævn</W>

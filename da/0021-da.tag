@@ -173,7 +173,7 @@
 <W gloss="private" lemma="privat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">privat</W>
 <W gloss="intelligence_service" lemma="efterretningsvæsen" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">efterretningsvæsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-9:list" out="-7:xtop|1:subj|3:vobj|2:cons">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-9:list" out="-7:xtop|1:subj|2:cons|3:vobj">kan</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">vi</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-9:ref|-2:cons" out="">så</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:pred">være</W>

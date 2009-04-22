@@ -190,9 +190,9 @@
 <p>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="7:nobj" out="">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:expl|2:mod|4:neg|5:dobj|7:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:expl|4:neg|5:dobj|7:pnct|2:other">var</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
-<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:mod" out="">imidlertid</W>
+<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:other" out="">imidlertid</W>
 <W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-4:neg" out="-1:degr">ikke</W>
 <W gloss="speech" lemma="tale" msd="NCCSU==I" tag="NN" in="-5:dobj" out="1:pobj">tale</W>
@@ -216,9 +216,9 @@
 <W gloss="amended" lemma="ændre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">ændret</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="4:attr|5:nobj|6:pnct|7:ref|8:rel">de</W>
 <W gloss="nearly" lemma="snart" msd="RGU" tag="RP" in="1:degr" out="">snart</W>
-<W gloss="eight" lemma="otte" msd="AC---U=--" tag="CD" in="2:mod" out="-1:degr|1:nobj">otte</W>
+<W gloss="eight" lemma="otte" msd="AC---U=--" tag="CD" in="2:other" out="-1:degr|1:nobj">otte</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="old" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:attr" out="-2:mod">gamle</W>
+<W gloss="old" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:attr" out="-2:other">gamle</W>
 <W gloss="riders" lemma="tillægskontrakt" msd="NCCPU==I" tag="NNP" in="-5:nobj" out="">tillægskontrakter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-7:ref|1:subj" out="">som</W>
