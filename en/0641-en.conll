@@ -1,0 +1,210 @@
+1	-	_	X	XP	line=1	2	pnct	_	_
+2	Yes	_	I	I	line=2	0	ROOT	_	_
+3	,	_	X	XP	line=3	2	pnct	_	_
+4	I	_	P	PP	line=4	5	subj	_	_
+5	was	_	V	VA	mood=indic|tense=past|line=5	2	conj	_	_
+6	.	_	X	XP	line=6	2	pnct	_	_
+
+1	-	_	X	XP	line=9	2	pnct	_	_
+2	Would	_	V	VA	line=10	0	ROOT	_	_
+3	you	_	P	PP	line=11	2	subj	_	_
+4	call	_	V	VA	mood=infin|line=12	2	vobj	_	_
+5	it	_	P	PP	line=13	4	dobj	_	_
+6	?	_	X	XP	line=14	4	pnct	_	_
+7	love	_	N	NC	number=sing|line=17	4	pred	_	_
+8	?	_	X	XP	line=18	2	pnct	_	_
+
+1	Lars	_	N	NP	number=sing|line=21	2	subj	_	_
+2	didn't	_	N	NC	number=sing|line=22	0	ROOT	_	_
+3	respond	_	N	NC	number=sing|line=23	2	vobj	_	_
+4	.	_	X	XP	line=24	2	pnct	_	_
+
+1	He	_	P	PP	line=27	2	subj	_	_
+2	wanted	_	V	VA	mood=indic|tense=past|line=28	0	ROOT	_	_
+3	out	_	A	AN	degree=pos|line=29	2	lobj	_	_
+4	.	_	X	XP	line=30	2	pnct	_	_
+
+1	To	_	U	U	line=33	0	ROOT	_	_
+2	get	_	V	VA	mood=infin|line=34	1	vobj	_	_
+3	far	_	A	AN	degree=pos|line=35	4	mod	_	_
+4	away	_	A	AN	degree=pos|line=36	2	lobj	_	_
+5	.	_	X	XP	line=37	4	pnct	_	_
+
+1	The	_	P	PD	line=40	3	subj	_	_
+2	room	_	N	NC	number=sing|line=41	1	nobj	_	_
+3	was	_	V	VA	mood=indic|tense=past|line=42	0	ROOT	_	_
+4	shrinking	_	V	VA	mood=gerund|line=43	3	vobj	_	_
+5	.	_	X	XP	line=44	3	pnct	_	_
+
+1	Now	_	A	AN	degree=pos|line=47	3	mod	_	_
+2	it	_	P	PP	line=48	3	subj	_	_
+3	was	_	V	VA	mood=indic|tense=past|line=49	0	ROOT	_	_
+4	serious	_	A	AN	degree=pos|line=50	3	pred	_	_
+5	.	_	X	XP	line=51	3	pnct	_	_
+
+1	Now	_	A	AN	degree=pos|line=54	3	mod	_	_
+2	it	_	P	PP	line=55	3	subj	_	_
+3	hurt	_	V	VA	mood=indic|tense=past|line=56	0	ROOT	_	_
+4	.	_	X	XP	line=57	3	pnct	_	_
+
+1	-	_	X	XP	line=60	2	pnct	_	_
+2	No	_	P	PD	line=61	0	ROOT	_	_
+3	,	_	X	XP	line=62	2	pnct	_	_
+4	I	_	P	PP	line=63	5	subj	_	_
+5	wouldn't	_	V	VA	mood=indic|tense=present|line=64	2	conj	_	_
+6	.	_	X	XP	line=65	2	pnct	_	_
+
+1	why	_	P	PT	line=68	0	ROOT	_	_
+2	?	_	X	XP	line=69	1	pnct	_	_
+
+1	-	_	X	XP	line=72	2	pnct	_	_
+2	Because	_	A	AN	degree=pos|line=73	0	ROOT	_	_
+3	?	_	X	XP	line=74	2	pnct	_	_
+4	well	_	A	AN	degree=pos|line=77	2	list	_	_
+5	,	_	X	XP	line=78	4	pnct	_	_
+6	yeah	_	I	I	line=79	2	list	_	_
+7	.	_	X	XP	line=80	2	pnct	_	_
+
+1	But	_	C	CC	line=83	0	ROOT	_	_
+2	then	_	A	AN	degree=pos|line=84	3	mod	_	_
+3	you've	_	N	NC	number=sing|line=85	1	conj	_	_
+4	never	_	A	AN	degree=pos|line=86	3	mod	_	_
+5	been	_	V	VA	mood=partic|line=87	3	vobj	_	_
+6	really	_	A	AN	degree=pos|line=88	5	mod	_	_
+7	,	_	X	XP	line=89	5	pnct	_	_
+8	seriously	_	A	AN	degree=pos|line=90	5	mod	_	_
+9	in	_	SP	SP	line=91	5	pred	_	_
+10	love	_	N	NC	number=sing|line=92	9	nobj	_	_
+11	?	_	X	XP	line=93	1	pnct	_	_
+
+1	Lars	_	N	NP	number=sing|line=96	2	subj	_	_
+2	replied	_	V	VA	mood=indic|tense=past|line=97	0	ROOT	_	_
+3	that	_	SP	SP	line=98	2	dobj	_	_
+4	it	_	P	PP	line=99	5	subj	_	_
+5	was	_	V	VA	mood=indic|tense=past|line=100	3	vobj	_	_
+6	hard	_	A	AN	degree=pos|line=101	5	pred	_	_
+7	to	_	U	U	line=102	4	nobj	_	_
+8	say	_	V	VA	mood=infin|line=103	7	vobj	_	_
+9	.	_	X	XP	line=104	2	pnct	_	_
+
+1	Gunnar	_	N	NP	number=sing|line=107	2	subj	_	_
+2	shook	_	V	VA	mood=indic|tense=past|line=108	0	ROOT	_	_
+3	his	_	P	PO	line=109	2	dobj	_	_
+4	head	_	N	NC	number=sing|line=110	3	possd	_	_
+5	,	_	X	XP	line=111	2	pnct	_	_
+6	talking	_	V	VA	mood=gerund|line=112	1	mod	_	_
+7	to	_	U	U	line=113	6	pobj	_	_
+8	himself	_	P	PP	line=114	7	nobj	_	_
+9	:	_	X	XP	line=115	6	pnct	_	_
+10	-	_	X	XP	line=118	11	pnct	_	_
+11	No	_	P	PD	line=119	14	qobj	_	_
+12	,	_	X	XP	line=120	11	pnct	_	_
+13	he	_	P	PP	line=121	14	subj	_	_
+14	said	_	V	VA	mood=indic|tense=past|line=122	6	xpl	_	_
+15	,	_	X	XP	line=123	14	pnct	_	_
+16	-	_	X	XP	line=124	18	pnct	_	_
+17	you	_	P	PP	line=125	18	subj	_	_
+18	know	_	V	VA	mood=indic|tense=present|line=126	11	conj	_	_
+19	that	_	SP	SP	line=127	18	dobj	_	_
+20	for	_	SP	SP	line=128	18	mod	_	_
+21	sure	_	A	AN	degree=pos|line=129	20	aobj	_	_
+22	,	_	X	XP	line=130	18	pnct	_	_
+23	deep	_	A	AN	degree=pos|line=131	24	mod	_	_
+24	inside	_	A	AN	degree=pos|line=132	18	mod	_	_
+25	.	_	X	XP	line=133	14	pnct	_	_
+
+1	It	_	P	PP	line=136	2	subj	_	_
+2	boils	_	V	VA	mood=indic|tense=present|line=137	0	ROOT	_	_
+3	and	_	C	CC	line=138	2	coord	_	_
+4	you're	_	N	NC	number=sing|line=139	3	conj	_	_
+5	happy	_	A	AN	degree=pos|line=140	4	pred	_	_
+6	and	_	C	CC	line=141	2	coord	_	_
+7	the	_	P	PD	line=142	6	<mod>	_	_
+8	next	_	A	AN	degree=pos|line=143	7	mod	_	_
+9	moment	_	N	NC	number=sing|line=144	7	nobj	_	_
+10	?	_	X	XP	line=145	2	pnct	_	_
+
+1	Gunnar	_	N	NP	number=sing|line=148	2	subj	_	_
+2	pulled	_	V	VA	mood=indic|tense=past|line=149	0	ROOT	_	_
+3	out	_	RG	RG	line=150	2	lobj	_	_
+4	the	_	P	PD	line=151	2	dobj	_	_
+5	top	_	A	AN	degree=pos|line=152	4	mod	_	_
+6	drawer	_	N	NC	number=sing|line=153	4	nobj	_	_
+7	and	_	C	CC	line=154	2	coord	_	_
+8	laid	_	V	VA	mood=indic|tense=past|line=155	7	conj	_	_
+9	the	_	P	PD	line=156	8	dobj	_	_
+10	letter	_	N	NC	number=sing|line=157	9	nobj	_	_
+11	on	_	SP	SP	line=158	8	lobj	_	_
+12	the	_	P	PD	line=159	11	nobj	_	_
+13	table	_	N	NC	number=sing|line=160	12	nobj	_	_
+14	.	_	X	XP	line=161	2	pnct	_	_
+
+1	Lars	_	N	NP	number=sing|line=164	2	subj	_	_
+2	mumbled	_	V	VA	mood=partic|line=165	0	ROOT	_	_
+3	something	_	N	NC	number=sing|line=166	2	dobj	_	_
+4	about	_	SP	SP	line=167	2	pobj	_	_
+5	it	_	P	PP	line=168	6	subj	_	_
+6	being	_	V	VA	mood=gerund|line=169	4	vobj	_	_
+7	late	_	A	AN	degree=pos|line=170	6	pred	_	_
+8	.	_	X	XP	line=171	2	pnct	_	_
+
+1	-	_	X	XP	line=174	2	pnct	_	_
+2	I've	_	N	NP	number=sing|line=175	9	qobj	_	_
+3	rewritten	_	V	VA	mood=partic|line=176	2	vobj	_	_
+4	it	_	P	PP	line=177	3	dobj	_	_
+5	a	_	P	PI	line=178	3	mod	_	_
+6	thousand	_	A	AC	line=179	5	nobj	_	_
+7	times	_	N	NC	number=plur|line=180	6	nobj	_	_
+8	,	_	X	XP	line=181	2	pnct	_	_
+9	said	_	V	VA	mood=indic|tense=past|line=182	0	ROOT	_	_
+10	Gunnar	_	N	NP	number=sing|line=183	9	subj	_	_
+11	.	_	X	XP	line=184	9	pnct	_	_
+
+1	-	_	X	XP	line=187	2	pnct	_	_
+2	It's	_	N	NP	number=sing|line=188	0	ROOT	_	_
+3	been	_	V	VA	mood=partic|line=189	2	vobj	_	_
+4	lying	_	V	VA	mood=gerund|line=190	3	vobj	_	_
+5	here	_	A	AN	degree=pos|line=191	4	lobj	_	_
+6	for	_	SP	SP	line=192	4	mod	_	_
+7	weeks	_	N	NC	number=plur|line=193	6	nobj	_	_
+8	.	_	X	XP	line=194	2	pnct	_	_
+
+1	I	_	P	PP	line=197	2	subj	_	_
+2	couldn't	_	V	VA	mood=indic|tense=present|line=198	0	ROOT	_	_
+3	make	_	N	NC	number=sing|line=199	2	vobj	_	_
+4	myself	_	P	PP	line=200	3	dobj	_	_
+5	send	_	V	VA	mood=indic|tense=present|line=201	3	vobj	_	_
+6	it	_	P	PP	line=202	5	dobj	_	_
+7	.	_	X	XP	line=203	2	pnct	_	_
+
+1	He	_	P	PP	line=206	2	subj	_	_
+2	was	_	V	VA	mood=indic|tense=past|line=207	0	ROOT	_	_
+3	now	_	A	AN	degree=pos|line=208	2	mod	_	_
+4	looking	_	V	VA	mood=gerund|line=209	2	vobj	_	_
+5	directly	_	A	AN	degree=pos|line=210	4	mod	_	_
+6	at	_	SP	SP	line=211	4	pobj	_	_
+7	Lars	_	N	NP	number=sing|line=212	6	nobj	_	_
+8	.	_	X	XP	line=213	2	pnct	_	_
+
+1	His	_	P	PO	line=216	3	subj	_	_
+2	look	_	N	NC	number=sing|line=217	1	possd	_	_
+3	was	_	V	VA	mood=indic|tense=past|line=218	0	ROOT	_	_
+4	puzzled	_	A	AN	degree=pos|line=219	3	vobj	_	_
+5	.	_	X	XP	line=220	3	pnct	_	_
+
+1	The	_	P	PD	line=223	0	ROOT	_	_
+2	unhappy	_	A	AN	degree=pos|line=224	1	mod	_	_
+3	angel	_	N	NC	number=sing|line=225	1	nobj	_	_
+4	.	_	X	XP	line=226	1	pnct	_	_
+
+1	Quite	_	A	AN	degree=pos|line=229	2	mod	_	_
+2	unnecessary	_	A	AN	degree=pos|line=230	5	qobj	_	_
+3	,	_	X	XP	line=231	2	pnct	_	_
+4	Lars	_	N	NP	number=sing|line=232	5	subj	_	_
+5	thought	_	V	VA	mood=indic|tense=past|line=233	0	ROOT	_	_
+6	,	_	X	XP	line=234	5	pnct	_	_
+7	and	_	C	CC	line=235	2	coord	_	_
+8	bloody	_	A	AN	degree=pos|line=236	9	mod	_	_
+9	unfair	_	A	AN	degree=pos|line=237	7	conj	_	_
+10	.	_	X	XP	line=238	5	pnct	_	_
+

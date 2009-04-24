@@ -1,0 +1,204 @@
+1	Udfyld	udfylde	V	VA	mood=imper|line=42	0	ROOT	_	_
+2	kuponen	kupon	N	NC	gender=common|number=sing|case=unmarked|def=def|line=43	1	dobj	_	_
+3	med	med	SP	SP	line=44	1	pobj	_	_
+4	rigtigt	rigtig	A	AN	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=45	5	mod	_	_
+5	svar	svar	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=46	3	nobj	_	_
+6	samt	samt	C	CC	line=47	5	coord	_	_
+7	navn	navn	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=48	6	conj	_	_
+8	og	og	C	CC	line=49	7	coord	_	_
+9	adresse	adresse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=50	8	conj	_	_
+10	.	.	X	XP	line=51	1	pnct	_	_
+
+1	Send	sende	V	VA	mood=imper|line=54	0	ROOT	_	_
+2	kuponen	kupon	N	NC	gender=common|number=sing|case=unmarked|def=def|line=55	1	dobj	_	_
+3	med	med	SP	SP	line=56	1	mod	_	_
+4	det	den	P	PD	gender=neuter|number=sing|case=unmarked|register=unmarked|line=57	3	nobj	_	_
+5	samme	samme	A	AN	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|line=58	4	nobj	_	_
+6	til	til	SP	SP	line=59	1	lobj	_	_
+7	:	:	X	XP	line=60	6	pnct	_	_
+8	Hjemmet	hjem	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=65	6	nobj	_	_
+9	,	,	X	XP	line=66	8	pnct	_	_
+10	Postboks	postboks	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=67	8	list	_	_
+11	2441	2441	A	AC	case=unmarked|line=68	10	nobj	_	_
+12	,	,	X	XP	line=69	10	pnct	_	_
+13	1024	1024	A	AC	case=unmarked|line=70	10	list	_	_
+14	København	København	N	NP	case=unmarked|line=71	13	list	_	_
+15	K.	K.	N	NP	case=unmarked|line=72	14	name	_	_
+
+1	Mærk	mærke	V	VA	mood=imper|line=77	0	ROOT	_	_
+2	kuverten	kuvert	N	NC	gender=common|number=sing|case=unmarked|def=def|line=78	1	iobj	_	_
+3	"	&quot;	X	XP	line=79	4	pnct	_	_
+4	DUPLO	Duplo	N	NP	case=unmarked|line=80	1	dobj	_	_
+5	legetøj	legetøj	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=81	4	nobj	_	_
+6	"	&quot;	X	XP	line=82	4	pnct	_	_
+
+1	Kuverten	kuvert	N	NC	gender=common|number=sing|case=unmarked|def=def|line=87	2	subj	_	_
+2	skal	skulle	V	VA	mood=indic|tense=present|voice=active|line=88	0	ROOT	_	_
+3	være	være	V	VA	mood=infin|voice=active|line=89	2	vobj	_	_
+4	os	vi	P	PP	person=1|gender=common|number=plur|case=unmarked|reflexive=yes/no|register=unmarked|line=90	3	dobj	_	_
+5	i_hænde	i_hænde	RG	RG	degree=unmarked|line=91	3	pred	_	_
+6	senest	sen	A	AN	degree=sup|transcat=adverbial|line=92	7	mod	_	_
+7	onsdag	onsdag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=93	3	mod	_	_
+8	den	den	P	PD	gender=common|number=sing|case=unmarked|register=unmarked|line=94	7	nobj	_	_
+9	25.	25.	A	AO	case=unmarked|line=95	8	mod	_	_
+10	november	november	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=96	8	nobj	_	_
+11	1992	1992	A	AC	case=unmarked|line=97	10	nobj	_	_
+12	.	.	X	XP	line=98	2	pnct	_	_
+
+1	De	De	P	PP	person=2|gender=common|number=sing/plur|case=nom|reflexive=no|register=polite|line=101	2	subj	_	_
+2	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=102	0	ROOT	_	_
+3	også	også	RG	RG	degree=unmarked|line=103	2	mod	_	_
+4	aflevere	aflevere	V	VA	mood=infin|voice=active|line=104	2	vobj	_	_
+5	kuverten	kuvert	N	NC	gender=common|number=sing|case=unmarked|def=def|line=105	4	dobj	_	_
+6	ufrankeret	ufrankeret	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=106	4	mod	_	_
+7	i	i	SP	SP	line=107	4	mod	_	_
+8	kassen	kasse	N	NC	gender=common|number=sing|case=unmarked|def=def|line=108	7	nobj	_	_
+9	til	til	SP	SP	line=109	8	mod	_	_
+10	breve	brev	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=110	9	nobj	_	_
+11	og	og	C	CC	line=111	10	coord	_	_
+12	løsninger	løsning	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=112	11	conj	_	_
+13	,	,	X	XP	line=113	8	pnct	_	_
+14	Vognmagergade	Vognmagergade	N	NP	case=unmarked|line=114	8	list	_	_
+15	10	10	A	AC	case=unmarked|line=115	14	nobj	_	_
+16	,	,	X	XP	line=116	14	pnct	_	_
+17	København	København	N	NP	case=unmarked|line=117	14	list	_	_
+18	K.	K.	N	NP	case=unmarked|line=118	17	nobj	_	_
+19	senest	sen	A	AN	degree=sup|transcat=adverbial|line=119	21	mod	_	_
+20	ovennævnte	ovennævnt	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=120	21	mod	_	_
+21	dato	dato	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=121	4	mod	_	_
+22	.	.	X	XP	line=122	2	pnct	_	_
+
+1	Efter	efter	SP	SP	line=125	4	mod	_	_
+2	fristens	frist	N	NC	gender=common|number=sing|case=gen|def=def|line=126	1	nobj	_	_
+3	udløb	udløb	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=127	2	possd	_	_
+4	trækker	trække	V	VA	mood=indic|tense=present|voice=active|line=128	0	ROOT	_	_
+5	vi	vi	P	PP	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|line=129	4	subj	_	_
+6	lod	lod	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=130	4	dobj	_	_
+7	blandt	blandt	SP	SP	line=131	4	mod	_	_
+8	alle	al	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=132	7	nobj	_	_
+9	indsendte	indsende	V	VA	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|line=133	8	mod	_	_
+10	løsninger	løsning	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=134	8	nobj	_	_
+11	,	,	X	XP	line=135	4	pnct	_	_
+12	og	og	C	CC	line=136	4	coord	_	_
+13	de	den	P	PD	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=137	15	subj	_	_
+14	heldige	heldig	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=138	13	mod	_	_
+15	vil	ville	V	VA	mood=indic|tense=present|voice=active|line=139	12	conj	_	_
+16	få	få	V	VA	mood=infin|voice=active|line=140	15	vobj	_	_
+17	tilsendt	tilsende	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=141	16	vobj	_	_
+18	deres	deres	P	PO	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=plur|reflexive=no|register=unmarked|line=142	17	dobj	_	_
+19	gevinst	gevinst	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=143	18	possd	_	_
+20	i	i	SP	SP	line=144	23	tobj	_	_
+21	god	god	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=145	22	mod	_	_
+22	tid	tid	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=146	20	nobj	_	_
+23	inden	inden	SP	SP	line=147	17	mod	_	_
+24	juleaften	juleaften	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=148	23	nobj	_	_
+25	.	.	X	XP	line=149	4	pnct	_	_
+
+1	KUPON	kupon	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=156	0	ROOT	_	_
+2	uge	uge	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=157	1	list	_	_
+3	47	47	A	AC	case=unmarked|line=158	2	nobj	_	_
+
+1	Hvilket	hvilken	P	PT	gender=neuter|number=sing|case=unmarked|register=unmarked|line=163	3	subj	_	_
+2	værktøj	værktøj	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=164	1	nobj	_	_
+3	hører	høre	V	VA	mood=indic|tense=present|voice=active|line=165	0	ROOT	_	_
+4	til	til	SP	SP	line=166	3	pobj	_	_
+5	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=167	4	nobj	_	_
+6	TOOLO	Toolo	N	NP	case=unmarked|line=168	5	name	_	_
+7	æske	æske	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=169	5	nobj	_	_
+8	?	?	X	XP	line=170	3	pnct	_	_
+
+1	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=175	0	ROOT	_	_
+2	skruetrækker	skruetrækker	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=176	1	nobj	_	_
+
+1	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=181	0	ROOT	_	_
+2	hammer	hammer	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=182	1	nobj	_	_
+
+1	(	(	X	XP	line=183	2	pnct	_	_
+2	sæt	sætte	V	VA	mood=imper|line=184	0	ROOT	_	_
+3	kryds	kryds	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=185	2	dobj	_	_
+4	)	)	X	XP	line=186	2	pnct	_	_
+
+1	Navn	navn	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=193	0	ROOT	_	_
+2	:	:	X	XP	line=194	1	pnct	_	_
+
+1	Adresse	adresse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=199	0	ROOT	_	_
+2	:	:	X	XP	line=200	1	pnct	_	_
+
+1	Postnr.	postnummer	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=205	0	ROOT	_	_
+2	.	.	X	XP	line=206	1	pnct	_	_
+3	:	:	X	XP	line=209	1	pnct	_	_
+
+1	By	by	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=210	0	ROOT	_	_
+2	:	:	X	XP	line=211	1	pnct	_	_
+
+1	Skriv	skrive	V	VA	mood=imper|line=216	0	ROOT	_	_
+2	venligst	venlig	A	AN	degree=sup|transcat=adverbial|line=217	1	mod	_	_
+3	med	med	SP	SP	line=218	1	pobj	_	_
+4	blokbogstaver	blokbogstav	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=219	3	nobj	_	_
+
+1	Udløbsdato	udløbsdato	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=220	0	ROOT	_	_
+2	:	:	X	XP	line=221	1	pnct	_	_
+3	25.	25.	A	AO	case=unmarked|line=222	4	mod	_	_
+4	november	november	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=223	1	list	_	_
+5	1992	1992	A	AC	case=unmarked|line=224	4	nobj	_	_
+
+1	Deltager	deltage	V	VA	mood=indic|tense=present|voice=active|line=231	14	xtop	_	_
+2	De	De	P	PP	person=2|gender=common|number=sing/plur|case=nom|reflexive=no|register=polite|line=232	1	subj	_	_
+3	også	også	RG	RG	degree=unmarked|line=233	1	mod	_	_
+4	i	i	SP	SP	line=234	1	pobj	_	_
+5	"	&quot;	X	XP	line=235	6	pnct	_	_
+6	Ugens	uge	N	NC	gender=common|number=sing|case=gen|def=def|line=236	4	nobj	_	_
+7	Overraskelse	overraskelse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=237	6	possd	_	_
+8	"	&quot;	X	XP	line=238	6	pnct	_	_
+9	på	på	SP	SP	line=239	6	mod	_	_
+10	side	side	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=240	9	nobj	_	_
+11	47	47	A	AC	case=unmarked|line=241	10	nobj	_	_
+12	,	,	X	XP	line=242	1	pnct	_	_
+13	så	så	RG	RG	degree=unmarked|line=243	14	mod	_	_
+14	kommer	komme	V	VA	mood=indic|tense=present|voice=active|line=244	0	ROOT	_	_
+15	De	De	P	PP	person=2|gender=common|number=sing/plur|case=nom|reflexive=no|register=polite|line=245	14	subj	_	_
+16	blot	blot	RG	RG	degree=unmarked|line=246	14	mod	_	_
+17	kuponen	kupon	N	NC	gender=common|number=sing|case=unmarked|def=def|line=247	14	dobj	_	_
+18	i	i	SP	SP	line=248	14	lobj	_	_
+19	én	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=249	18	nobj	_	_
+20	kuvert	kuvert	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=250	19	nobj	_	_
+21	mærket	mærke	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=251	19	mod	_	_
+22	"	&quot;	X	XP	line=252	23	pnct	_	_
+23	Ugens	uge	N	NC	gender=common|number=sing|case=gen|def=def|line=253	21	dobj	_	_
+24	Overraskelse	overraskelse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=254	23	possd	_	_
+25	-	-	X	XP	line=255	23	pnct	_	_
+26	uge	uge	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=256	23	list	_	_
+27	47	47	A	AC	case=unmarked|line=257	26	nobj	_	_
+28	"	&quot;	X	XP	line=258	23	pnct	_	_
+29	og	og	C	CC	line=259	23	coord	_	_
+30	"	&quot;	X	XP	line=260	31	pnct	_	_
+31	DUPLO	Duplo	N	NP	case=unmarked|line=261	29	conj	_	_
+32	legetøj	legetøj	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=262	31	nobj	_	_
+33	"	&quot;	X	XP	line=263	31	pnct	_	_
+34	.	.	X	XP	line=264	14	pnct	_	_
+
+1	UGENS	uge	N	NC	gender=common|number=sing|case=gen|def=def|line=271	0	ROOT	_	_
+2	OVERRASKELSE	overraskelse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=272	1	possd	_	_
+
+1	Skruerne	skrue	N	NC	gender=common|number=plur|case=unmarked|def=def|line=279	2	subj	_	_
+2	er	være	V	VA	mood=indic|tense=present|voice=active|line=280	0	ROOT	_	_
+3	fast	fast	A	AN	degree=pos|transcat=adverbial|line=281	4	mod	_	_
+4	forankrede	forankre	V	VA	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|line=282	2	pred	_	_
+5	og	og	C	CC	line=283	2	coord	_	_
+6	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=284	5	conj	_	_
+7	ikke	ikke	RG	RG	degree=unmarked|line=285	6	mod	_	_
+8	blive	blive	V	VA	mood=infin|voice=active|line=286	6	vobj	_	_
+9	væk	væk	RG	RG	degree=unmarked|line=287	8	pred	_	_
+10	,	,	X	XP	line=288	2	pnct	_	_
+11	og	og	C	CC	line=289	2	coord	_	_
+12	de	de	P	PP	person=3|gender=common/neuter|number=plur|case=nom|reflexive=no|register=unmarked|line=290	13	subj	_	_
+13	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=291	11	conj	_	_
+14	ikke	ikke	RG	RG	degree=unmarked|line=292	13	mod	_	_
+15	overskrues	overskrue	V	VA	mood=infin|voice=passive|line=293	13	vobj	_	_
+16	eller	eller	C	CC	line=294	15	coord	_	_
+17	på	på	SP	SP	line=295	20	mod	_	_
+18	anden	anden	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=296	17	nobj	_	_
+19	måde	måde	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=297	18	nobj	_	_
+20	ødelægges	ødelægge	V	VA	mood=infin|voice=passive|line=298	16	conj	_	_
+21	.	.	X	XP	line=299	2	pnct	_	_
+

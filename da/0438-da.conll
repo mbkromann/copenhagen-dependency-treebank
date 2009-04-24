@@ -1,0 +1,250 @@
+1	"	&quot;	X	XP	line=41	3	pnct	_	_
+2	Jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=42	3	subj	_	_
+3	synes	synes	V	VE	mood=indic|tense=present|voice=active|line=43	0	ROOT	_	_
+4	,	,	X	XP	line=44	3	pnct	_	_
+5	vi	vi	P	PP	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|line=45	6	subj	_	_
+6	havde	have	V	VA	mood=indic|tense=past|voice=active|line=46	3	vobj	_	_
+7	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=47	6	dobj	_	_
+8	skønt	skøn	A	AN	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=48	6	aobj	_	_
+9	,	,	X	XP	line=49	6	pnct	_	_
+10	ikke	ikke	RG	RG	degree=unmarked|line=50	6	mod	_	_
+11	?	?	X	XP	line=51	3	pnct	_	_
+
+1	Men	men	C	CC	line=54	0	ROOT	_	_
+2	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=55	3	subj	_	_
+3	må	måtte	V	VA	mood=indic|tense=present|voice=active|line=56	1	conj	_	_
+4	altså	altså	RG	RG	degree=unmarked|line=57	3	mod	_	_
+5	ikke	ikke	RG	RG	degree=unmarked|line=58	3	mod	_	_
+6	lægge	lægge	V	VA	mood=infin|voice=active|line=59	3	vobj	_	_
+7	noget	nogen	P	PI	gender=neuter|number=sing|case=unmarked|register=unmarked|line=60	6	dobj	_	_
+8	i	i	SP	SP	line=61	6	pobj	_	_
+9	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=62	8	nobj	_	_
+10	,	,	X	XP	line=63	3	pnct	_	_
+11	vel	vel	RG	RG	degree=unmarked|line=64	3	mod	_	_
+12	?	?	X	XP	line=65	1	pnct	_	_
+13	"	&quot;	X	XP	line=66	1	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=71	2	subj	_	_
+2	samler	samle	V	VA	mood=indic|tense=present|voice=active|line=72	0	ROOT	_	_
+3	badekåben	badekåbe	N	NC	gender=common|number=sing|case=unmarked|def=def|line=73	2	dobj	_	_
+4	tættere	tæt	A	AN	degree=comp|transcat=adverbial|line=74	2	mod	_	_
+5	om	om	SP	SP	line=75	2	mod	_	_
+6	sig	sig	P	PP	person=3|gender=common/neuter|number=sing/plur|case=unmarked|reflexive=yes|register=unmarked|line=76	5	nobj	_	_
+7	.	.	X	XP	line=77	2	pnct	_	_
+
+1	"	&quot;	X	XP	line=82	3	pnct	_	_
+2	Jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=83	3	subj	_	_
+3	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=84	0	ROOT	_	_
+4	godt	god	A	AN	degree=pos|transcat=adverbial|line=85	3	mod	_	_
+5	lide	lide	V	VA	mood=infin|voice=active|line=86	3	vobj	_	_
+6	dig	du	P	PP	person=2|gender=common|number=sing|case=unmarked|reflexive=yes/no|register=unmarked|line=87	5	dobj	_	_
+7	.	.	X	XP	line=88	3	pnct	_	_
+
+1	Jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=91	2	subj	_	_
+2	synes	synes	V	VE	mood=indic|tense=present|voice=active|line=92	0	ROOT	_	_
+3	også	også	RG	RG	degree=unmarked|line=93	2	mod	_	_
+4	,	,	X	XP	line=94	2	pnct	_	_
+5	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=95	6	subj	_	_
+6	er	være	V	VA	mood=indic|tense=present|voice=active|line=96	2	vobj	_	_
+7	sød	sød	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=97	6	pred	_	_
+8	.	.	X	XP	line=98	2	pnct	_	_
+
+1	Men	men	C	CC	line=101	0	ROOT	_	_
+2	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=102	3	subj	_	_
+3	er	være	V	VA	mood=indic|tense=present|voice=active|line=103	1	conj	_	_
+4	på	på	SP	SP	line=104	3	pred	_	_
+5	sådan	sådan	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=105	4	nobj	_	_
+6	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=106	5	nobj	_	_
+7	mere	meget	A	AN	degree=comp|transcat=adverbial|line=107	8	mod	_	_
+8	kammeratlig	kammeratlig	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=108	6	mod	_	_
+9	måde	måde	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=109	6	nobj	_	_
+10	.	.	X	XP	line=110	1	pnct	_	_
+
+1	Lige	lige	RG	RG	degree=unmarked|line=113	2	mod	_	_
+2	som	som	U	U	line=114	0	ROOT	_	_
+3	jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=115	4	subj	_	_
+4	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=116	2	vobj	_	_
+5	lide	lide	V	VA	mood=infin|voice=active|line=117	4	vobj	_	_
+6	Karin	Karin	N	NP	case=unmarked|line=118	5	dobj	_	_
+7	.	.	X	XP	line=119	2	pnct	_	_
+
+1	Jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=122	2	subj	_	_
+2	tror	tro	V	VA	mood=indic|tense=present|voice=active|line=123	0	ROOT	_	_
+3	godt	god	A	AN	degree=pos|transcat=adverbial|line=124	2	mod	_	_
+4	,	,	X	XP	line=125	2	pnct	_	_
+5	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=126	6	subj	_	_
+6	forstår	forstå	V	VA	mood=indic|tense=present|voice=active|line=127	2	vobj	_	_
+7	,	,	X	XP	line=128	6	pnct	_	_
+8	hvad	hvad	P	PT	gender=common/neuter|number=sing|case=unmarked|register=unmarked|line=129	6	dobj	_	_
+9	jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=130	10	subj	_	_
+10	mener	mene	V	VA	mood=indic|tense=present|voice=active|line=131	8	rel	_	_
+11	,	,	X	XP	line=132	10	pnct	_	_
+12	ikke	ikke	RG	RG	degree=unmarked|line=133	2	mod	_	_
+13	?	?	X	XP	line=134	2	pnct	_	_
+14	"	&quot;	X	XP	line=135	2	pnct	_	_
+
+1	Maja	Maja	N	NP	case=unmarked|line=140	2	subj	_	_
+2	tvinger	tvinge	V	VA	mood=indic|tense=present|voice=active|line=141	0	ROOT	_	_
+3	sig	sig	P	PP	person=3|gender=common/neuter|number=sing/plur|case=unmarked|reflexive=yes|register=unmarked|line=142	2	dobj	_	_
+4	selv	selv	P	PD	gender=common/neuter|number=sing/plur|case=unmarked|register=unmarked|line=143	3	mod	_	_
+5	til	til	SP	SP	line=144	2	pobj	_	_
+6	at	at	U	U	line=145	5	nobj	_	_
+7	nikke	nikke	V	VA	mood=infin|voice=active|line=146	6	vobj	_	_
+8	.	.	X	XP	line=147	2	pnct	_	_
+
+1	"	&quot;	X	XP	line=152	3	pnct	_	_
+2	Det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=153	3	dobj	_	_
+3	tænkte	tænke	V	VA	mood=indic|tense=past|voice=active|line=154	0	ROOT	_	_
+4	jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=155	3	subj	_	_
+5	nok	nok	RG	RG	degree=unmarked|line=156	3	mod	_	_
+6	.	.	X	XP	line=157	3	pnct	_	_
+
+1	Jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=160	2	subj	_	_
+2	siger	sige	V	VA	mood=indic|tense=present|voice=active|line=161	0	ROOT	_	_
+3	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=162	2	dobj	_	_
+4	også	også	RG	RG	degree=unmarked|line=163	2	mod	_	_
+5	bare	bare	RG	RG	degree=unmarked|line=164	2	mod	_	_
+6	for	for	SP	SP	line=165	2	mod	_	_
+7	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=166	6	nobj	_	_
+8	sikkerheds	sikkerhed	N	NC	gender=common|number=sing|case=gen|def=indef|line=167	7	nobj	_	_
+9	skyld	skyld	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=168	7	possd	_	_
+10	.	.	X	XP	line=169	2	pnct	_	_
+
+1	Der	der	U	U	line=172	2	expl	_	_
+2	er	være	V	VA	mood=indic|tense=present|voice=active|line=173	0	ROOT	_	_
+3	nogle	nogen	P	PI	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=174	2	dobj	_	_
+4	piger	pige	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=175	3	nobj	_	_
+5	,	,	X	XP	line=176	3	pnct	_	_
+6	der	der	U	U	line=177	7	subj	_	_
+7	tror	tro	V	VA	mood=indic|tense=present|voice=active|line=178	3	rel	_	_
+8	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=179	7	dobj	_	_
+9	masse	masse	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=180	8	nobj	_	_
+10	med	med	SP	SP	line=181	7	mod	_	_
+11	det	den	P	PD	gender=neuter|number=sing|case=unmarked|register=unmarked|line=182	10	nobj	_	_
+12	samme	samme	A	AN	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|line=183	11	nobj	_	_
+13	.	.	X	XP	line=184	2	pnct	_	_
+14	"	&quot;	X	XP	line=185	2	pnct	_	_
+
+1	Han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=190	2	subj	_	_
+2	virker	virke	V	VA	mood=indic|tense=present|voice=active|line=191	0	ROOT	_	_
+3	lettet	lette	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=192	2	pred	_	_
+4	.	.	X	XP	line=193	2	pnct	_	_
+
+1	Maja	Maja	N	NP	case=unmarked|line=196	2	subj	_	_
+2	tør	turde	V	VA	mood=indic|tense=present|voice=active|line=197	0	ROOT	_	_
+3	ikke	ikke	RG	RG	degree=unmarked|line=198	2	mod	_	_
+4	kigge	kigge	V	VA	mood=infin|voice=active|line=199	2	vobj	_	_
+5	på	på	SP	SP	line=200	4	pobj	_	_
+6	ham	han	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=201	5	nobj	_	_
+7	.	.	X	XP	line=202	2	pnct	_	_
+
+1	Så	så	RG	RG	degree=unmarked|line=205	2	mod	_	_
+2	ville	ville	V	VA	mood=indic|tense=past|voice=active|line=206	0	ROOT	_	_
+3	han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=207	2	subj	_	_
+4	kunne	kunne	V	VA	mood=indic|tense=past|voice=active|line=208	2	vobj	_	_
+5	se	se	V	VA	mood=infin|voice=active|line=209	4	vobj	_	_
+6	,	,	X	XP	line=210	5	pnct	_	_
+7	at	at	C	CS	line=211	5	dobj	_	_
+8	hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=212	9	subj	_	_
+9	har	have	V	VA	mood=indic|tense=present|voice=active|line=213	7	vobj	_	_
+10	tårer	tåre	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=214	9	dobj	_	_
+11	i	i	SP	SP	line=215	9	lobj	_	_
+12	øjnene	øje	N	NC	gender=neuter|number=plur|case=unmarked|def=def|line=216	11	nobj	_	_
+13	.	.	X	XP	line=217	2	pnct	_	_
+
+1	"	&quot;	X	XP	line=222	3	pnct	_	_
+2	Du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=223	3	subj	_	_
+3	må	måtte	V	VA	mood=indic|tense=present|voice=active|line=224	0	ROOT	_	_
+4	ikke	ikke	RG	RG	degree=unmarked|line=225	3	mod	_	_
+5	græde	græde	V	VA	mood=infin|voice=active|line=226	3	vobj	_	_
+6	!	!	X	XP	line=227	3	pnct	_	_
+
+1	Du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=230	2	subj	_	_
+2	må	måtte	V	VA	mood=indic|tense=present|voice=active|line=231	0	ROOT	_	_
+3	ikke	ikke	RG	RG	degree=unmarked|line=232	2	mod	_	_
+4	græde	græde	V	VA	mood=infin|voice=active|line=233	2	vobj	_	_
+5	!	!	X	XP	line=234	2	pnct	_	_
+
+1	Du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=237	2	subj	_	_
+2	må	måtte	V	VA	mood=indic|tense=present|voice=active|line=238	7	qobj	_	_
+3	ikke	ikke	RG	RG	degree=unmarked|line=239	2	mod	_	_
+4	græde	græde	V	VA	mood=infin|voice=active|line=240	2	vobj	_	_
+5	!	!	X	XP	line=241	2	pnct	_	_
+6	"	&quot;	X	XP	line=244	2	pnct	_	_
+7	lyder	lyde	V	VA	mood=indic|tense=present|voice=active|line=245	0	ROOT	_	_
+8	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=246	7	subj	_	_
+9	hele	hel	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=247	7	mod	_	_
+10	tiden	tid	N	NC	gender=common|number=sing|case=unmarked|def=def|line=248	9	nobj	_	_
+11	inden	inden	RG	RG	degree=unmarked|line=249	7	mod	_	_
+12	i	i	SP	SP	line=250	11	pobj	_	_
+13	hende	hun	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=251	12	nobj	_	_
+14	.	.	X	XP	line=252	7	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=257	2	subj	_	_
+2	ville	ville	V	VA	mood=indic|tense=past|voice=active|line=258	0	ROOT	_	_
+3	ønske	ønske	V	VA	mood=infin|voice=active|line=259	2	vobj	_	_
+4	,	,	X	XP	line=260	3	pnct	_	_
+5	han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=261	6	subj	_	_
+6	ville	ville	V	VA	mood=indic|tense=past|voice=active|line=262	3	vobj	_	_
+7	gå	gå	V	VA	mood=infin|voice=active|line=263	6	vobj	_	_
+8	nu	nu	RG	RG	degree=unmarked|line=264	7	mod	_	_
+9	.	.	X	XP	line=265	2	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=268	2	subj	_	_
+2	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=269	0	ROOT	_	_
+3	ikke	ikke	RG	RG	degree=unmarked|line=270	2	mod	_	_
+4	klare	klare	V	VA	mood=infin|voice=active|line=271	2	vobj	_	_
+5	den	den	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=272	4	dobj	_	_
+6	ret	ret	RG	RG	degree=unmarked|line=273	7	mod	_	_
+7	meget	meget	A	AN	degree=pos|transcat=adverbial|line=274	8	mod	_	_
+8	længere	længe	RG	RG	degree=comp|line=275	4	mod	_	_
+9	.	.	X	XP	line=276	2	pnct	_	_
+
+1	"	&quot;	X	XP	line=281	2	pnct	_	_
+2	Er	være	V	VA	mood=indic|tense=present|voice=active|line=282	7	qobj	_	_
+3	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=283	2	subj	_	_
+4	sur	sur	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=284	2	pred	_	_
+5	?	?	X	XP	line=285	2	pnct	_	_
+6	"	&quot;	X	XP	line=286	2	pnct	_	_
+7	spørger	spørge	V	VA	mood=indic|tense=present|voice=active|line=287	0	ROOT	_	_
+8	han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=288	7	subj	_	_
+9	pludselig	pludselig	RG	RG	degree=unmarked|line=289	7	mod	_	_
+10	.	.	X	XP	line=290	7	pnct	_	_
+
+1	Maja	Maja	N	NP	case=unmarked|line=295	2	subj	_	_
+2	ryster	ryste	V	VA	mood=indic|tense=present|voice=active|line=296	0	ROOT	_	_
+3	på	på	SP	SP	line=297	2	mod	_	_
+4	hovedet	hoved	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=298	3	nobj	_	_
+5	.	.	X	XP	line=299	2	pnct	_	_
+
+1	Nej	nej	I	I	line=302	0	ROOT	_	_
+2	,	,	X	XP	line=303	1	pnct	_	_
+3	hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=304	4	subj	_	_
+4	er	være	V	VA	mood=indic|tense=present|voice=active|line=305	1	conj	_	_
+5	ikke	ikke	RG	RG	degree=unmarked|line=306	4	mod	_	_
+6	sur	sur	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=307	4	pred	_	_
+7	.	.	X	XP	line=308	1	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=311	2	subj	_	_
+2	er	være	V	VA	mood=indic|tense=present|voice=active|line=312	0	ROOT	_	_
+3	bundulykkelig	bundulykkelig	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=313	2	pred	_	_
+4	.	.	X	XP	line=314	2	pnct	_	_
+
+1	Men	men	C	CC	line=317	0	ROOT	_	_
+2	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=318	7	dobj	_	_
+3	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=319	1	conj	_	_
+4	han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=320	3	subj	_	_
+5	jo	jo	RG	RG	degree=unmarked|line=321	3	mod	_	_
+6	ikke	ikke	RG	RG	degree=unmarked|line=322	3	mod	_	_
+7	vide	vide	V	VA	mood=infin|voice=active|line=323	3	vobj	_	_
+8	.	.	X	XP	line=324	1	pnct	_	_
+
+1	Og	og	C	CC	line=327	0	ROOT	_	_
+2	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=328	7	dobj	_	_
+3	skal	skulle	V	VA	mood=indic|tense=present|voice=active|line=329	1	conj	_	_
+4	han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=330	3	subj	_	_
+5	heller	heller	RG	RG	degree=unmarked|line=331	6	mod	_	_
+6	ikke	ikke	RG	RG	degree=unmarked|line=332	3	mod	_	_
+7	vide	vide	V	VA	mood=infin|voice=active|line=333	3	vobj	_	_
+8	!	!	X	XP	line=334	1	pnct	_	_
+

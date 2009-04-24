@@ -1,0 +1,183 @@
+1	Hornfisken	hornfisk	N	NC	gender=common|number=sing|case=unmarked|def=def|line=43	2	subj	_	_
+2	arriverer	arrivere	V	VA	mood=indic|tense=present|voice=active|line=44	0	ROOT	_	_
+3	så	så	RG	RG	degree=unmarked|line=45	4	other	_	_
+4	småt	lille	A	AN	degree=pos|transcat=adverbial|line=46	2	other	_	_
+5	,	,	X	XP	line=47	2	pnct	_	_
+6	endnu	endnu	RG	RG	degree=unmarked|line=48	7	time	_	_
+7	til	til	SP	SP	line=49	2	other	_	_
+8	luksuspris	luksuspris	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=50	7	nobj	_	_
+9	-	-	X	XP	line=51	8	pnct	_	_
+10	35	35	A	AC	case=unmarked|line=52	8	appa	_	_
+11	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=53	10	nobj	_	_
+12	for	for	SP	SP	line=54	10	other	_	_
+13	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=55	12	nobj	_	_
+14	halvkg	halvkg	X	XX	line=56	0	ROOT	_	_
+15	krabat	krabat	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=57	13	nobj	_	_
+16	.	.	X	XP	line=58	2	pnct	_	_
+
+1	Med	med	SP	SP	line=61	0	ROOT	_	_
+2	ben	ben	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=62	1	nobj	_	_
+3	.	.	X	XP	line=63	1	pnct	_	_
+
+1	Nye	ny	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=66	0	ROOT	_	_
+
+1	danske	dansk	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=67	0	ROOT	_	_
+
+1	ål	ål	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=68	2	subj	_	_
+2	koster	koste	V	VA	mood=indic|tense=present|voice=active|line=69	0	ROOT	_	_
+3	85	85	A	AC	case=unmarked|line=70	2	dobj	_	_
+4	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=71	3	nobj	_	_
+5	pr.	per	SP	SP	line=72	3	other	_	_
+6	halvkg	halvkg	X	XX	line=73	5	nobj	_	_
+7	eller	eller	C	CC	line=74	3	coord	_	_
+8	30	30	A	AC	case=unmarked|line=75	7	conj	_	_
+9	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=76	8	nobj	_	_
+10	stk.	styk	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=77	8	other	_	_
+11	3	3	A	AC	case=unmarked|line=78	2	<subj>	_	_
+12	rødfiskefileter	rødfiskefilet	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=79	11	nobj	_	_
+13	60	60	A	AC	case=unmarked|line=80	2	<dobj>	_	_
+14	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=81	13	nobj	_	_
+15	.	.	X	XP	line=82	2	pnct	_	_
+
+1	(	(	X	XP	line=85	2	pnct	_	_
+2	Lørdag	lørdag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=86	0	ROOT	_	_
+3	aften	aften	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=87	2	time	_	_
+4	)	)	X	XP	line=88	2	pnct	_	_
+
+1	og	og	C	CC	line=89	0	ROOT	_	_
+2	3	3	A	AC	case=unmarked|line=90	1	<subj>	_	_
+3	røgede	røge	V	VA	mood=partic|tense=past|number=plur|gender=common/neuter|definiteness=def/indef|transcat=adject|case=unmarked|line=91	0	ROOT	_	_
+4	sild	sild	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=92	2	nobj	_	_
+5	til	til	SP	SP	line=93	2	other	_	_
+6	forretten	forret	N	NC	gender=common|number=sing|case=unmarked|def=def|line=94	5	nobj	_	_
+7	torsdag	torsdag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=95	6	time	_	_
+8	18	18	A	AC	case=unmarked|line=96	1	<dobj>	_	_
+9	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=97	8	nobj	_	_
+10	.	.	X	XP	line=98	1	pnct	_	_
+
+1	Hos	hos	SP	SP	line=103	3	loc	_	_
+2	slagteren	slagter	N	NC	gender=common|number=sing|case=unmarked|def=def|line=104	1	nobj	_	_
+3	står	stå	V	VA	mood=indic|tense=present|voice=active|line=105	0	ROOT	_	_
+4	den	den	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=106	3	subj	_	_
+5	på	på	SP	SP	line=107	3	pobj	_	_
+6	revlsben	revlsben	X	XX	line=108	5	nobj	_	_
+7	til	til	SP	SP	line=109	6	other	_	_
+8	50	50	A	AC	case=unmarked|line=110	7	nobj	_	_
+9	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=111	8	nobj	_	_
+10	pr.	per	SP	SP	line=112	8	other	_	_
+11	kg.	kilo	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=113	10	nobj	_	_
+12	.	.	X	XP	line=114	3	pnct	_	_
+
+1	Kalveleveren	kalvelever	N	NC	gender=common|number=sing|case=unmarked|def=def|line=117	7	subj	_	_
+2	til	til	SP	SP	line=118	1	other	_	_
+3	60	60	A	AC	case=unmarked|line=119	2	nobj	_	_
+4	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=120	3	nobj	_	_
+5	pr.	per	SP	SP	line=121	3	other	_	_
+6	kg	kilo	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=122	5	nobj	_	_
+7	er	være	V	VA	mood=indic|tense=present|voice=active|line=123	0	ROOT	_	_
+8	dansk	dansk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=124	7	pred	_	_
+9	og	og	C	CC	line=125	7	coord	_	_
+10	slagteren	slagter	N	NC	gender=common|number=sing|case=unmarked|def=def|line=126	11	subj	_	_
+11	foreslår	foreslå	V	VA	mood=indic|tense=present|voice=active|line=127	9	conj	_	_
+12	den	den	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=128	11	dobj	_	_
+13	serveret	servere	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=129	11	vobj	_	_
+14	stegt	stege	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=130	13	modo	_	_
+15	med	med	SP	SP	line=131	14	man	_	_
+16	dynger	dynge	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=132	15	nobj	_	_
+17	af	af	SP	SP	line=133	16	pobj	_	_
+18	bløde	blød	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=134	0	ROOT	_	_
+19	løg	løg	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=135	17	nobj	_	_
+20	.	.	X	XP	line=136	7	pnct	_	_
+
+1	Koteletterne	kotelet	N	NC	gender=common|number=plur|case=unmarked|def=def|line=139	5	subj	_	_
+2	til	til	SP	SP	line=140	1	other	_	_
+3	torsdagens	torsdag	N	NC	gender=common|number=sing|case=gen|def=def|line=141	2	nobj	_	_
+4	efterret	efterret	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=142	3	possd	_	_
+5	koster	koste	V	VA	mood=indic|tense=present|voice=active|line=143	0	ROOT	_	_
+6	78	78	A	AC	case=unmarked|line=144	5	dobj	_	_
+7	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=145	6	nobj	_	_
+8	pr.	per	SP	SP	line=146	6	other	_	_
+9	kg	kilo	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=147	8	nobj	_	_
+10	og	og	C	CC	line=148	5	coord	_	_
+11	lammefrikadellerne	lammefrikadelle	N	NC	gender=common|number=plur|case=unmarked|def=def|line=149	10	<subj>	_	_
+12	til	til	SP	SP	line=150	11	other	_	_
+13	fredag	fredag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=151	12	nobj	_	_
+14	70	70	A	AC	case=unmarked|line=152	10	<dobj>	_	_
+15	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=153	14	nobj	_	_
+16	.	.	X	XP	line=154	5	pnct	_	_
+
+1	Ostehandleren	ostehandler	N	NC	gender=common|number=sing|case=unmarked|def=def|line=159	2	subj	_	_
+2	synes	synes	V	VE	mood=indic|tense=present|voice=active|line=160	0	ROOT	_	_
+3	,	,	X	XP	line=161	2	pnct	_	_
+4	vi	vi	P	PP	person=1|gender=common|number=plur|case=nom|reflexive=no|register=unmarked|line=162	5	subj	_	_
+5	skal	skulle	V	VA	mood=indic|tense=present|voice=active|line=163	2	vobj	_	_
+6	samge	samge	X	XX	line=164	5	vobj	_	_
+7	den	den	P	PD	gender=common|number=sing|case=unmarked|register=unmarked|line=165	6	dobj	_	_
+8	raffinerede	raffineret	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=166	0	ROOT	_	_
+9	engelske	engelsk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=167	0	ROOT	_	_
+10	cheddartype	cheddartype	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=168	7	nobj	_	_
+11	Sage	Sage	N	NP	case=unmarked|line=173	7	appr	_	_
+12	Derby	Derby	N	NP	case=unmarked|line=174	11	name	_	_
+13	med	med	SP	SP	line=175	7	other	_	_
+14	salvie	salvie	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=176	13	nobj	_	_
+15	med	med	SP	SP	line=177	7	other	_	_
+16	marmorskæreflade	marmorskæreflade	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=178	15	nobj	_	_
+17	til	til	SP	SP	line=179	7	other	_	_
+18	14,85	14,85	A	AC	case=unmarked|line=180	17	nobj	_	_
+19	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=181	18	nobj	_	_
+20	.	.	X	XP	line=182	2	pnct	_	_
+
+1	Server	servere	V	VA	mood=imper|line=185	0	ROOT	_	_
+2	den	den	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=186	1	dobj	_	_
+3	i	i	SP	SP	line=187	1	man	_	_
+4	tynde	tynd	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=188	0	ROOT	_	_
+5	skiver	skive	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=189	3	nobj	_	_
+6	med	med	SP	SP	line=190	1	other	_	_
+7	frisk	frisk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=191	0	ROOT	_	_
+8	salvie	salvie	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=192	6	nobj	_	_
+9	.	.	X	XP	line=193	1	pnct	_	_
+
+1	Dansk	dansk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=196	0	ROOT	_	_
+
+1	cheddar	cheddar	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=197	2	subj	_	_
+2	koster	koste	V	VA	mood=indic|tense=present|voice=active|line=198	0	ROOT	_	_
+3	7,95	7,95	A	AC	case=unmarked|line=199	2	dobj	_	_
+4	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=200	3	nobj	_	_
+5	for	for	SP	SP	line=201	3	other	_	_
+6	100	100	A	AC	case=unmarked|line=202	5	nobj	_	_
+7	g.	gram	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=203	6	nobj	_	_
+8	.	.	X	XP	line=204	2	pnct	_	_
+
+1	Hollandsk	hollandsk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=207	0	ROOT	_	_
+
+1	Gouda	Gouda	N	NP	case=unmarked|line=208	7	subj	_	_
+2	med	med	SP	SP	line=209	1	other	_	_
+3	enten	enten	RG	RG	degree=unmarked|line=210	5	other	_	_
+4	brændenælder	brændenælde	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=211	2	nobj	_	_
+5	eller	eller	C	CC	line=212	4	coord	_	_
+6	hvidløg	hvidløg	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=213	5	conj	_	_
+7	koster	koste	V	VA	mood=indic|tense=present|voice=active|line=214	0	ROOT	_	_
+8	11,50	11,50	A	AC	case=unmarked|line=215	7	dobj	_	_
+9	kr.	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=216	8	nobj	_	_
+10	for	for	SP	SP	line=217	8	other	_	_
+11	100	100	A	AC	case=unmarked|line=218	10	nobj	_	_
+12	g.	gram	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=219	11	nobj	_	_
+13	.	.	X	XP	line=220	7	pnct	_	_
+
+1	Brug	bruge	V	VA	mood=imper|line=223	0	ROOT	_	_
+2	den	den	P	PP	person=3|gender=common|number=sing|case=unmarked|reflexive=no|register=unmarked|line=224	1	dobj	_	_
+3	i	i	SP	SP	line=225	1	man	_	_
+4	tynde	tynd	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=226	0	ROOT	_	_
+5	flager	flage	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=227	3	nobj	_	_
+6	som	som	U	U	line=228	1	pobj	_	_
+7	gratinering	gratinering	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=229	6	nobj	_	_
+8	af	af	SP	SP	line=230	7	pobj	_	_
+9	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=231	8	nobj	_	_
+10	ovnret	ovnret	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=232	9	nobj	_	_
+11	eller	eller	C	CC	line=233	1	coord	_	_
+12	i	i	SP	SP	line=234	11	<mod>	_	_
+13	tern	tern	N	NC	gender=common/neuter|number=plur|case=unmarked|def=indef|line=235	12	nobj	_	_
+14	i	i	SP	SP	line=236	11	<mod>	_	_
+15	salatskålen	salatskål	N	NC	gender=common|number=sing|case=unmarked|def=def|line=237	14	nobj	_	_
+16	.	.	X	XP	line=238	1	pnct	_	_
+

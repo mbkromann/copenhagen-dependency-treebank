@@ -1,0 +1,197 @@
+1	18-vejr	18-vejr	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=43	0	ROOT	_	_
+
+1	MEDARB	MEDARB	X	XX	line=50	0	ROOT	_	_
+2	=	=	X	XS	line=51	1	coord	_	_
+3	jid	jid	X	XX	line=52	2	conj	_	_
+4	KILDE	kilde	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=53	1	conj	_	_
+5	=	=	X	XS	line=54	4	coord	_	_
+6	met	met	X	XX	line=55	5	conj	_	_
+
+1	UDSENDES	udsende	V	VA	mood=indic|tense=present|voice=passive|line=62	0	ROOT	_	_
+2	KL	klokke	N	NC	gender=common|number=sing|case=unmarked|def=def|line=63	1	mod	_	_
+3	=	=	X	XS	line=64	2	coord	_	_
+4	1800	1800	A	AC	case=unmarked|line=65	3	conj	_	_
+5	OPLÆSER	oplæser	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=66	1	conj	_	_
+6	=	=	X	XS	line=67	5	coord	_	_
+
+1	Vejret	vejr	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=74	0	ROOT	_	_
+2	til	til	SP	SP	line=75	1	mod	_	_
+3	torsdag	torsdag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=76	2	nobj	_	_
+4	eftermiddag	eftermiddag	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=77	3	nobj	_	_
+
+1	I_nat	i_nat	RG	RG	degree=unmarked|line=83	2	mod	_	_
+2	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=84	0	ROOT	_	_
+3	der	der	U	U	line=85	2	expl	_	_
+4	komme	komme	V	VA	mood=infin|voice=active|line=86	2	vobj	_	_
+5	lidt	lidt	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=87	4	dobj	_	_
+6	regn	regn	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=88	5	nobj	_	_
+7	de	den	P	PD	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=89	4	mod	_	_
+8	fleste	mange	A	AN	degree=sup|gender=common/neuter|number=plur|case=unmarked|def=def|transcat=unmarked|line=90	7	nobj	_	_
+9	steder	sted	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=91	8	nobj	_	_
+10	,	,	X	XP	line=92	2	pnct	_	_
+11	og	og	C	CC	line=93	2	coord	_	_
+12	de	den	P	PD	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=94	15	subj	_	_
+13	laveste	lav	A	AN	degree=sup|gender=common/neuter|number=sing/plur|case=unmarked|def=def|transcat=unmarked|line=95	12	mod	_	_
+14	temperaturer	temperatur	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=96	12	nobj	_	_
+15	bliver	blive	V	VA	mood=indic|tense=present|voice=active|line=97	11	conj	_	_
+16	mellem	mellem	SP	SP	line=98	17	mod	_	_
+17	10	10	A	AC	case=unmarked|line=99	15	pred	_	_
+18	og	og	C	CC	line=100	17	coord	_	_
+19	15	15	A	AC	case=unmarked|line=101	18	conj	_	_
+20	grader	grad	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=102	17	nobj	_	_
+21	.	.	X	XP	line=103	2	pnct	_	_
+
+1	I_morgen	i_morgen	RG	RG	degree=unmarked|line=106	2	mod	_	_
+2	kommer	komme	V	VA	mood=indic|tense=present|voice=active|line=107	0	ROOT	_	_
+3	der	der	U	U	line=108	2	expl	_	_
+4	nogen	nogen	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=109	2	dobj	_	_
+5	sol	sol	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=110	4	nobj	_	_
+6	-	-	X	XP	line=111	2	pnct	_	_
+7	og	og	C	CC	line=112	2	coord	_	_
+8	det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=113	9	subj	_	_
+9	bliver	blive	V	VA	mood=indic|tense=present|voice=active|line=114	7	conj	_	_
+10	tørvejr	tørvejr	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=115	9	pred	_	_
+11	overalt	overalt	RG	RG	degree=unmarked|line=116	9	mod	_	_
+12	.	.	X	XP	line=117	2	pnct	_	_
+
+1	De	den	P	PD	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=120	4	subj	_	_
+2	sydlige	sydlig	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=121	1	mod	_	_
+3	egne	egn	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=122	1	nobj	_	_
+4	kan	kunne	V	VA	mood=indic|tense=present|voice=active|line=123	0	ROOT	_	_
+5	først	først	RG	RG	degree=unmarked|line=124	4	mod	_	_
+6	på	på	SP	SP	line=125	5	mod	_	_
+7	dagen	dag	N	NC	gender=common|number=sing|case=unmarked|def=def|line=126	6	nobj	_	_
+8	få	få	V	VA	mood=infin|voice=active|line=127	4	vobj	_	_
+9	lidt	lidt	A	AN	degree=pos|transcat=adverbial|line=128	10	mod	_	_
+10	skyet	skyet	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=129	11	mod	_	_
+11	vejr	vejr	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=130	8	dobj	_	_
+12	og	og	C	CC	line=131	11	coord	_	_
+13	regn	regn	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=132	12	conj	_	_
+14	.	.	X	XP	line=133	4	pnct	_	_
+
+1	-	-	X	XP	line=136	2	pnct	_	_
+2	Vinden	vind	N	NC	gender=common|number=sing|case=unmarked|def=def|line=137	0	ROOT	_	_
+3	let	let	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=138	2	<pred>	_	_
+4	til	til	SP	SP	line=139	3	mod	_	_
+5	frisk	frisk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=140	4	aobj	_	_
+6	,	,	X	XP	line=141	2	pnct	_	_
+7	lokalt	lokal	A	AN	degree=pos|transcat=adverbial|line=142	2	<mod>	_	_
+8	hård	hård	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=143	2	<pred>	_	_
+9	fra	fra	SP	SP	line=144	2	<mod>	_	_
+10	vest	vest	N	NC	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|line=145	9	nobj	_	_
+11	og	og	C	CC	line=146	10	coord	_	_
+12	nordvest	nordvest	N	NC	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|line=147	11	conj	_	_
+
+1	Kulingvarsel	kulingvarsel	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=153	0	ROOT	_	_
+2	for	for	SP	SP	line=154	1	mod	_	_
+3	Sydøstlige	sydøstlig	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=155	4	mod	_	_
+4	Østersø	Østersø	N	NP	case=unmarked|line=156	2	nobj	_	_
+5	,	,	X	XP	line=157	4	pnct	_	_
+6	Østersøen	Østersøen	N	NP	case=unmarked|line=158	4	conj	_	_
+7	omkring	omkring	SP	SP	line=159	6	mod	_	_
+8	Bornholm	Bornholm	N	NP	case=unmarked|line=160	7	nobj	_	_
+9	,	,	X	XP	line=161	4	pnct	_	_
+10	Kattegat	Kattegat	N	NP	case=unmarked|line=162	4	conj	_	_
+11	,	,	X	XP	line=163	4	pnct	_	_
+12	Skagerrak	Skagerrak	N	NP	case=unmarked|line=164	4	conj	_	_
+13	,	,	X	XP	line=165	4	pnct	_	_
+14	Sydlige	sydlig	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=166	15	mod	_	_
+15	Utsira	Utsira	N	NP	case=unmarked|line=167	4	conj	_	_
+16	,	,	X	XP	line=168	4	pnct	_	_
+17	Fisker	Fisker	N	NP	case=unmarked|line=169	4	conj	_	_
+18	,	,	X	XP	line=170	4	pnct	_	_
+19	Tampen	tamp	N	NC	gender=common|number=sing|case=unmarked|def=def|line=171	4	conj	_	_
+20	og	og	C	CC	line=172	4	coord	_	_
+21	Viking	viking	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=173	20	conj	_	_
+
+1	For	for	SP	SP	line=174	6	mod	_	_
+2	de	den	P	PD	gender=common/neuter|number=plur|case=unmarked|register=unmarked|line=175	1	nobj	_	_
+3	indre	indre	A	AN	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|line=176	0	ROOT	_	_
+4	danske	dansk	A	AN	degree=pos|gender=common/neuter|number=plur|case=unmarked|def=def/indef|transcat=unmarked|line=177	2	mod	_	_
+5	farvande	farvand	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=178	2	nobj	_	_
+6	ventes	vente	V	VA	mood=indic|tense=present|voice=passive|line=179	0	ROOT	_	_
+7	kulingen	kuling	N	NC	gender=common|number=sing|case=unmarked|def=def|line=180	6	subj	_	_
+8	først	først	RG	RG	degree=unmarked|line=181	6	mod	_	_
+9	i	i	SP	SP	line=182	8	pobj	_	_
+10	nat,m	nat,m	X	XX	line=183	9	nobj	_	_
+11	en	en	X	XX	line=184	6	coord	_	_
+12	i_aften	i_aften	RG	RG	degree=unmarked|line=185	13	mod	_	_
+13	er	være	V	VA	mood=indic|tense=present|voice=active|line=186	11	conj	_	_
+14	der	der	U	U	line=187	13	expl	_	_
+15	varsel	varsel	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=188	13	dobj	_	_
+16	om	om	SP	SP	line=189	15	pobj	_	_
+17	hård	hård	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=190	18	mod	_	_
+18	vind	vind	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=191	16	nobj	_	_
+19	for	for	SP	SP	line=192	15	mod	_	_
+20	Kattegat	Kattegat	N	NP	case=unmarked|line=193	19	nobj	_	_
+21	og	og	C	CC	line=194	20	coord	_	_
+22	Limfjorden	Limfjorden	N	NP	case=unmarked|line=195	21	conj	_	_
+23	.	.	X	XP	line=196	6	pnct	_	_
+
+1	Vest	vest	N	NC	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|line=199	0	ROOT	_	_
+2	og	og	C	CC	line=200	1	coord	_	_
+3	nordvest	nordvest	N	NC	gender=common/neuter|number=sing/plur|case=unmarked|def=indef|line=201	2	conj	_	_
+4	,	,	X	XP	line=202	1	pnct	_	_
+5	8-13	8-13	A	AC	case=unmarked|line=203	1	list	_	_
+6	m/sek	m/sek	X	XA	line=204	5	nobj	_	_
+
+1	BRUTTO	brutto	RG	RG	degree=unmarked|line=210	0	ROOT	_	_
+2	=	=	X	XS	line=211	1	coord	_	_
+3	00:35	00:35	A	AC	case=unmarked|line=212	2	conj	_	_
+
+1	O	O	X	XA	line=219	0	ROOT	_	_
+2	=	=	X	XS	line=220	1	coord	_	_
+3	sovjet	sovjet	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=221	2	conj	_	_
+
+1	MEDARB	MEDARB	X	XX	line=228	0	ROOT	_	_
+2	=	=	X	XS	line=229	1	coord	_	_
+3	mse	mse	X	XX	line=230	2	conj	_	_
+
+1	DATO	dato	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=237	0	ROOT	_	_
+2	=	=	X	XS	line=238	1	coord	_	_
+3	04099l	04099l	X	XX	line=239	2	conj	_	_
+
+1	UDSENDES	udsende	V	VA	mood=indic|tense=present|voice=passive|line=246	0	ROOT	_	_
+2	KL	klokke	N	NC	gender=common|number=sing|case=unmarked|def=def|line=247	1	mod	_	_
+3	=	=	X	XS	line=248	2	coord	_	_
+4	1830	1830	A	AC	case=unmarked|line=249	3	conj	_	_
+
+1	OPLÆSER	oplæser	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=256	0	ROOT	_	_
+2	=	=	X	XS	line=257	1	coord	_	_
+
+1	RUBRIK	rubrik	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=264	0	ROOT	_	_
+
+1	(	(	X	XP	line=271	5	pnct	_	_
+2	Den	den	P	PD	gender=common|number=sing|case=unmarked|register=unmarked|line=272	5	subj	_	_
+3	sovjetiske	sovjetisk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=273	2	mod	_	_
+4	folkekongres	folkekongres	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=274	2	nobj	_	_
+5	har	have	V	VA	mood=indic|tense=present|voice=active|line=275	0	ROOT	_	_
+6	i	i	SP	SP	line=276	5	mod	_	_
+7	princippet	princip	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=277	6	nobj	_	_
+8	vedtaget	vedtage	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=278	5	vobj	_	_
+9	at	at	U	U	line=279	8	dobj	_	_
+10	opløse	opløse	V	VA	mood=infin|voice=active|line=280	9	vobj	_	_
+11	Sovjetunionen	Sovjetunionen	N	NP	case=unmarked|line=281	10	dobj	_	_
+12	-	-	X	XP	line=282	5	pnct	_	_
+13	men	men	C	CC	line=283	5	coord	_	_
+14	samtidig	samtidig	RG	RG	degree=unmarked|line=284	15	mod	_	_
+15	har	have	V	VA	mood=indic|tense=present|voice=active|line=285	13	conj	_	_
+16	præsident	præsident	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=286	18	title	_	_
+17	Mikhail	Mikhail	N	NP	case=unmarked|line=287	18	namef	_	_
+18	Gorbatjov	Gorbatjov	N	NP	case=unmarked|line=288	15	subj	_	_
+19	lidt	lide	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=289	15	vobj	_	_
+20	et	en	P	PI	gender=neuter|number=sing|case=unmarked|register=unmarked|line=290	19	dobj	_	_
+21	nyt	ny	A	AN	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=291	20	mod	_	_
+22	politisk	politisk	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=292	20	mod	_	_
+23	nederlag	nederlag	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=293	20	nobj	_	_
+24	,	,	X	XP	line=294	15	pnct	_	_
+25	fordi	fordi	C	CS	line=295	15	mod	_	_
+26	hans	hans	P	PO	person=3|gender=common/neuter|number=sing/plur|case=unmarked|possessor=sing|reflexive=no|register=unmarked|line=296	29	subj	_	_
+27	forfatningsudkast	forfatningsudkast	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=297	26	possd	_	_
+28	ikke	ikke	RG	RG	degree=unmarked|line=298	29	mod	_	_
+29	kunne	kunne	V	VA	mood=indic|tense=past|voice=active|line=299	25	vobj	_	_
+30	samle	samle	V	VA	mood=infin|voice=active|line=300	29	vobj	_	_
+31	stemmer	stemme	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=301	30	dobj	_	_
+32	nok	nok	RG	RG	degree=unmarked|line=302	31	mod	_	_
+33	)	)	X	XP	line=303	5	pnct	_	_
+

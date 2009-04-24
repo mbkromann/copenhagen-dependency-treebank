@@ -1,0 +1,210 @@
+1	A	_	P	PI	line=1	4	subj	_	_
+2	bad	_	A	AN	degree=pos|line=2	1	mod	_	_
+3	root	_	N	NC	number=sing|line=3	1	nobj	_	_
+4	does	_	V	VA	mood=indic|tense=present|line=4	0	ROOT	_	_
+5	not	_	A	AN	degree=pos|line=5	4	mod	_	_
+6	give	_	V	VA	mood=infin|line=6	4	vobj	_	_
+7	good	_	A	AN	degree=pos|line=7	8	mod	_	_
+8	apples	_	N	NC	number=plur|line=8	6	dobj	_	_
+9	.	_	X	XP	line=9	4	pnct	_	_
+
+1	Rome	_	N	NP	number=sing|line=12	2	subj	_	_
+2	was	_	V	VA	mood=indic|tense=past|line=13	0	ROOT	_	_
+3	not	_	A	AN	degree=pos|line=14	2	mod	_	_
+4	built	_	V	VA	mood=partic|line=15	2	vobj	_	_
+5	in	_	SP	SP	line=16	4	mod	_	_
+6	a	_	P	PI	line=17	5	nobj	_	_
+7	day	_	N	NC	number=sing|line=18	6	nobj	_	_
+8	.	_	X	XP	line=19	2	pnct	_	_
+
+1	All	_	P	PD	line=22	3	subj	_	_
+2	roads	_	N	NC	number=plur|line=23	1	nobj	_	_
+3	lead	_	V	VA	mood=indic|tense=present|line=24	0	ROOT	_	_
+4	to	_	U	U	line=25	3	pobj	_	_
+5	Rome	_	N	NP	number=sing|line=26	4	nobj	_	_
+6	.	_	X	XP	line=27	3	pnct	_	_
+
+1	He	_	P	PP	line=30	5	subj	_	_
+2	who	_	P	PT	line=31	3	subj	_	_
+3	praises	_	V	VA	mood=indic|tense=present|line=32	1	rel	_	_
+4	himself	_	P	PP	line=33	3	dobj	_	_
+5	praises	_	V	VA	mood=indic|tense=present|line=34	0	ROOT	_	_
+6	no	_	P	PD	line=35	5	dobj	_	_
+7	one	_	A	AC	line=36	6	nobj	_	_
+8	else	_	A	AN	degree=pos|line=37	6	mod	_	_
+9	.	_	X	XP	line=38	5	pnct	_	_
+
+1	No	_	P	PD	line=41	0	ROOT	_	_
+2	roses	_	N	NC	number=plur|line=42	1	nobj	_	_
+3	without	_	SP	SP	line=43	1	mod	_	_
+4	thorns	_	N	NC	number=plur|line=44	3	nobj	_	_
+5	.	_	X	XP	line=45	1	pnct	_	_
+
+1	Do	_	V	VA	mood=indic|tense=present|line=48	0	ROOT	_	_
+2	not	_	A	AN	degree=pos|line=49	1	mod	_	_
+3	be	_	V	VA	mood=infin|line=50	1	vobj	_	_
+4	sad	_	A	AN	degree=pos|line=51	3	pred	_	_
+5	that	_	SP	SP	line=52	4	nobj	_	_
+6	roses	_	N	NC	number=plur|line=53	7	subj	_	_
+7	have	_	V	VA	mood=indic|tense=present|line=54	5	vobj	_	_
+8	thorns	_	N	NC	number=plur|line=55	7	dobj	_	_
+9	,	_	X	XP	line=56	7	pnct	_	_
+10	but	_	C	CC	line=57	1	coord	_	_
+11	rejoice	_	V	VA	mood=indic|tense=present|line=58	10	conj	_	_
+12	that	_	SP	SP	line=59	11	nobj	_	_
+13	the	_	P	PD	line=60	15	subj	_	_
+14	thorns	_	N	NC	number=plur|line=61	13	nobj	_	_
+15	have	_	V	VA	mood=indic|tense=present|line=62	12	vobj	_	_
+16	roses	_	N	NC	number=plur|line=63	15	dobj	_	_
+17	.	_	X	XP	line=64	1	pnct	_	_
+
+1	Before	_	C	CS	line=67	8	mod	_	_
+2	the	_	P	PD	line=68	4	subj	_	_
+3	rose	_	V	VA	mood=indic|tense=past|line=69	2	nobj	_	_
+4	knows	_	V	VA	mood=indic|tense=present|line=70	1	vobj	_	_
+5	it	_	P	PP	line=71	4	dobj	_	_
+6	,	_	X	XP	line=72	4	pnct	_	_
+7	it	_	P	PP	line=73	8	subj	_	_
+8	is	_	V	VA	mood=indic|tense=present|line=74	0	ROOT	_	_
+9	an	_	P	PI	line=75	8	pred	_	_
+10	old	_	A	AN	degree=pos|line=76	9	mod	_	_
+11	hip	_	N	NC	number=sing|line=77	9	nobj	_	_
+12	.	_	X	XP	line=78	8	pnct	_	_
+
+1	Like	_	SP	SP	line=81	0	ROOT	_	_
+2	the	_	P	PD	line=82	1	nobj	_	_
+3	raisin	_	N	NC	number=sing|line=83	2	nobj	_	_
+4	at	_	SP	SP	line=84	2	mod	_	_
+5	the	_	P	PD	line=85	4	nobj	_	_
+6	end	_	N	NC	number=sing|line=86	5	nobj	_	_
+7	of	_	SP	SP	line=87	6	pobj	_	_
+8	a	_	P	PI	line=88	7	nobj	_	_
+9	sausage	_	N	NC	number=sing|line=89	8	nobj	_	_
+10	.	_	X	XP	line=90	1	pnct	_	_
+
+1	Rats	_	N	NP	number=sing|line=93	2	subj	_	_
+2	don't	_	N	NC	number=sing|line=94	0	ROOT	_	_
+3	thrive	_	V	VA	mood=infin|line=95	2	vobj	_	_
+4	in	_	SP	SP	line=96	3	mod	_	_
+5	a	_	P	PI	line=97	4	nobj	_	_
+6	deserted	_	V	VA	mood=partic|line=98	5	mod	_	_
+7	house	_	N	NC	number=sing|line=99	5	nobj	_	_
+8	.	_	X	XP	line=100	2	pnct	_	_
+
+1	Rats	_	N	NP	number=sing|line=103	2	subj	_	_
+2	leave	_	V	VA	mood=infin|line=104	0	ROOT	_	_
+3	a	_	P	PI	line=105	2	dobj	_	_
+4	sinking	_	V	VA	mood=gerund|line=106	3	mod	_	_
+5	ship	_	N	NC	number=sing|line=107	3	nobj	_	_
+6	and	_	C	CC	line=108	3	coord	_	_
+7	a	_	P	PI	line=109	6	conj	_	_
+8	burning	_	V	VA	mood=gerund|line=110	7	mod	_	_
+9	house	_	N	NC	number=sing|line=111	7	nobj	_	_
+10	.	_	X	XP	line=112	2	pnct	_	_
+
+1	You	_	P	PP	line=115	2	subj	_	_
+2	can't	_	V	VA	mood=indic|tense=present|line=116	0	ROOT	_	_
+3	fool	_	N	NC	number=sing|line=117	2	vobj	_	_
+4	an	_	P	PI	line=118	3	dobj	_	_
+5	old	_	A	AN	degree=pos|line=119	4	mod	_	_
+6	rat	_	N	NC	number=sing|line=120	4	nobj	_	_
+7	.	_	X	XP	line=121	2	pnct	_	_
+
+1	It	_	P	PP	line=124	2	subj	_	_
+2	is	_	V	VA	mood=indic|tense=present|line=125	0	ROOT	_	_
+3	better	_	A	AN	degree=comp|line=126	2	pred	_	_
+4	to	_	U	U	line=127	1	nobj	_	_
+5	be	_	V	VA	mood=infin|line=128	4	vobj	_	_
+6	handy	_	A	AN	degree=pos|line=129	5	pred	_	_
+7	with	_	SP	SP	line=130	6	mod	_	_
+8	your	_	P	PO	line=131	7	nobj	_	_
+9	purse	_	N	NC	number=sing|line=132	8	possd	_	_
+10	than	_	SP	SP	line=133	3	pobj	_	_
+11	bandy	_	A	AN	degree=pos|line=134	0	ROOT	_	_
+12	in	_	SP	SP	line=135	11	mod	_	_
+13	your	_	P	PO	line=136	12	nobj	_	_
+14	legs	_	N	NC	number=plur|line=137	13	possd	_	_
+15	.	_	X	XP	line=138	2	pnct	_	_
+
+1	It	_	P	PP	line=141	2	subj	_	_
+2	takes	_	V	VA	mood=indic|tense=present|line=142	0	ROOT	_	_
+3	a	_	P	PI	line=143	2	iobj	_	_
+4	broad	_	A	AN	degree=pos|line=144	3	mod	_	_
+5	back	_	A	AN	degree=pos|line=145	3	nobj	_	_
+6	to	_	U	U	line=146	2	dobj	_	_
+7	carry	_	V	VA	mood=infin|line=147	6	vobj	_	_
+8	good	_	A	AN	degree=pos|line=148	9	mod	_	_
+9	days	_	N	NC	number=plur|line=149	7	dobj	_	_
+10	.	_	X	XP	line=150	2	pnct	_	_
+
+1	The	_	P	PD	line=153	3	subj	_	_
+2	fox	_	N	NC	number=sing|line=154	1	nobj	_	_
+3	is	_	V	VA	mood=indic|tense=present|line=155	0	ROOT	_	_
+4	sly	_	A	AN	degree=pos|line=156	3	pred	_	_
+5	,	_	X	XP	line=157	3	pnct	_	_
+6	it	_	P	PP	line=158	7	subj	_	_
+7	doesn't	_	V	VA	mood=indic|tense=present|line=159	3	conj	_	_
+8	step	_	N	NC	number=sing|line=160	7	vobj	_	_
+9	on	_	SP	SP	line=161	8	mod	_	_
+10	its	_	P	PO	line=162	9	nobj	_	_
+11	own	_	A	AN	degree=pos|line=163	10	mod	_	_
+12	tail	_	N	NC	number=sing|line=164	10	possd	_	_
+13	.	_	X	XP	line=165	3	pnct	_	_
+
+1	When	_	P	PT	line=168	9	mod	_	_
+2	the	_	P	PD	line=169	4	subj	_	_
+3	fox	_	N	NC	number=sing|line=170	2	nobj	_	_
+4	praises	_	V	VA	mood=indic|tense=present|line=171	1	vobj	_	_
+5	the	_	P	PD	line=172	4	dobj	_	_
+6	raven	_	V	VA	mood=partic|line=173	5	nobj	_	_
+7	,	_	X	XP	line=174	4	pnct	_	_
+8	it	_	P	PP	line=175	9	subj	_	_
+9	loses	_	V	VA	mood=indic|tense=present|line=176	0	ROOT	_	_
+10	its	_	P	PO	line=177	9	dobj	_	_
+11	cheese	_	N	NC	number=sing|line=178	10	possd	_	_
+12	.	_	X	XP	line=179	9	pnct	_	_
+
+1	Don't	_	N	NP	number=sing|line=182	0	ROOT	_	_
+2	let	_	V	VA	mood=infin|line=183	1	vobj	_	_
+3	a	_	P	PI	line=184	2	dobj	_	_
+4	fox	_	N	NC	number=sing|line=185	3	nobj	_	_
+5	in	_	SP	SP	line=186	2	lobj	_	_
+6	the	_	P	PD	line=187	5	nobj	_	_
+7	henhouse	_	N	NC	number=sing|line=188	6	nobj	_	_
+8	.	_	X	XP	line=189	1	pnct	_	_
+
+1	Old	_	A	AN	degree=pos|line=192	2	mod	_	_
+2	foxes	_	N	NC	number=plur|line=193	3	subj	_	_
+3	don't	_	V	VA	mood=indic|tense=present|line=194	0	ROOT	_	_
+4	walk	_	V	VA	mood=infin|line=195	3	vobj	_	_
+5	into	_	SP	SP	line=196	4	lobj	_	_
+6	rusty	_	A	AN	degree=pos|line=197	7	mod	_	_
+7	traps	_	N	NC	number=plur|line=198	5	nobj	_	_
+8	.	_	X	XP	line=199	3	pnct	_	_
+
+1	He	_	P	PP	line=202	2	subj	_	_
+2	is	_	V	VA	mood=indic|tense=present|line=203	0	ROOT	_	_
+3	as	_	A	AN	degree=pos|line=204	4	mod	_	_
+4	sly	_	A	AN	degree=pos|line=205	2	pred	_	_
+5	as	_	C	CS	line=206	3	pobj	_	_
+6	a	_	P	PI	line=207	5	nobj	_	_
+7	fox	_	N	NC	number=sing|line=208	6	nobj	_	_
+8	.	_	X	XP	line=209	2	pnct	_	_
+
+1	He	_	P	PP	line=212	2	subj	_	_
+2	is	_	V	VA	mood=indic|tense=present|line=213	0	ROOT	_	_
+3	up	_	RG	RG	line=214	2	pred	_	_
+4	to	_	U	U	line=215	3	pobj	_	_
+5	something	_	N	NC	number=sing|line=216	4	nobj	_	_
+6	.	_	X	XP	line=217	2	pnct	_	_
+
+1	You	_	P	PP	line=220	2	subj	_	_
+2	can't	_	V	VA	mood=indic|tense=present|line=221	0	ROOT	_	_
+3	straddle	_	V	VA	mood=infin|line=222	2	vobj	_	_
+4	two	_	A	AC	line=223	3	nobj	_	_
+5	horses	_	N	NC	number=plur|line=224	4	nobj	_	_
+6	with	_	SP	SP	line=225	3	mod	_	_
+7	one	_	A	AC	line=226	6	nobj	_	_
+8	ass	_	N	NC	number=sing|line=227	7	nobj	_	_
+9	.	_	X	XP	line=228	2	pnct	_	_
+

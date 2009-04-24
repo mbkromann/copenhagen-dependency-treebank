@@ -1,0 +1,207 @@
+1	-	-	X	XP	line=41	2	pnct	_	_
+2	Ska	skulle	V	VA	mood=indic|tense=present|voice=active|line=42	12	qobj	_	_
+3	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=43	2	subj	_	_
+4	med	med	RG	RG	degree=unmarked|line=44	2	mod	_	_
+5	ind	ind	RG	RG	degree=unmarked|line=45	2	lobj	_	_
+6	og	og	C	CC	line=46	5	coord	_	_
+7	besøge	besøge	V	VA	mood=infin|voice=active|line=47	6	conj	_	_
+8	Magnild	Magnild	N	NP	case=unmarked|line=48	7	dobj	_	_
+9	fra	fra	SP	SP	line=49	8	mod	_	_
+10	Træfpunktet	træfpunkt	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=50	9	nobj	_	_
+11	,	,	X	XP	line=51	2	pnct	_	_
+12	spørger	spørge	V	VA	mood=indic|tense=present|voice=active|line=52	0	ROOT	_	_
+13	Birthe	Birthe	N	NP	case=unmarked|line=53	12	subj	_	_
+14	.	.	X	XP	line=54	12	pnct	_	_
+
+1	-	-	X	XP	line=61	3	pnct	_	_
+2	Han	han	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=62	3	subj	_	_
+3	har	have	V	VA	mood=indic|tense=present|voice=active|line=63	9	qobj	_	_
+4	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=64	3	dobj	_	_
+5	skide	skide	A	AN	degree=pos|transcat=adverbial|line=65	6	mod	_	_
+6	sexet	sexet	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=66	4	mod	_	_
+7	stemme	stemme	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=67	4	nobj	_	_
+8	,	,	X	XP	line=68	3	pnct	_	_
+9	tilføjer	tilføje	V	VA	mood=indic|tense=present|voice=active|line=69	0	ROOT	_	_
+10	Maja	Maja	N	NP	case=unmarked|line=70	9	subj	_	_
+11	.	.	X	XP	line=71	9	pnct	_	_
+
+1	-	-	X	XP	line=78	2	pnct	_	_
+2	Ja	ja	I	I	line=79	0	ROOT	_	_
+3	,	,	X	XP	line=80	2	pnct	_	_
+4	og	og	C	CC	line=81	2	coord	_	_
+5	opvarmet	opvarme	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject|case=unmarked|line=82	6	mod	_	_
+6	pøl	pøl	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=83	4	conj	_	_
+7	og	og	C	CC	line=84	6	coord	_	_
+8	Volvo	Volvo	N	NP	case=unmarked|line=85	7	conj	_	_
+9	.	.	X	XP	line=86	2	pnct	_	_
+
+1	Sonjas	Sonja	N	NP	case=gen|line=89	3	subj	_	_
+2	øjne	øje	N	NC	gender=neuter|number=plur|case=unmarked|def=indef|line=90	1	possd	_	_
+3	lyser	lyse	V	VA	mood=indic|tense=present|voice=active|line=91	0	ROOT	_	_
+4	ved	ved	SP	SP	line=92	3	mod	_	_
+5	tanken	tanke	N	NC	gender=common|number=sing|case=unmarked|def=def|line=93	4	nobj	_	_
+6	.	.	X	XP	line=94	3	pnct	_	_
+
+1	-	-	X	XP	line=101	3	pnct	_	_
+2	Det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=102	3	subj	_	_
+3	er	være	V	VA	mood=indic|tense=present|voice=active|line=103	12	qobj	_	_
+4	sgu	sgu	RG	RG	degree=unmarked|line=104	3	mod	_	_
+5	nok	nok	RG	RG	degree=unmarked|line=105	3	mod	_	_
+6	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=106	3	pred	_	_
+7	invalidevogn	invalidevogn	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=107	6	nobj	_	_
+8	,	,	X	XP	line=108	3	pnct	_	_
+9	lissom	lissom	RG	RG	degree=unmarked|line=109	3	mod	_	_
+10	sidst	sidst	RG	RG	degree=unmarked|line=110	9	avobj	_	_
+11	,	,	X	XP	line=111	9	pnct	_	_
+12	griner	grine	V	VA	mood=indic|tense=present|voice=active|line=112	0	ROOT	_	_
+13	Sally	Sally	N	NP	case=unmarked|line=113	12	subj	_	_
+14	og	og	C	CC	line=114	12	coord	_	_
+15	tag	tag	X	XX	line=115	14	conj	_	_
+16	sin	sin	P	PO	person=3|gender=common|number=sing|case=unmarked|possessor=sing|reflexive=yes|register=unmarked|line=116	15	dobj	_	_
+17	smøgæske	smøgæske	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=117	16	possd	_	_
+18	frem	frem	RG	RG	degree=unmarked|line=118	15	lobj	_	_
+19	.	.	X	XP	line=119	12	pnct	_	_
+
+1	-	-	X	XP	line=122	3	pnct	_	_
+2	Desuden	desuden	RG	RG	degree=unmarked|line=123	3	mod	_	_
+3	må	måtte	V	VA	mood=indic|tense=present|voice=active|line=124	0	ROOT	_	_
+4	jeg	jeg	P	PP	person=1|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=125	3	subj	_	_
+5	passe	passe	V	VA	mood=infin|voice=active|line=126	3	vobj	_	_
+6	min	min	P	PO	person=1|gender=common|number=sing|case=unmarked|possessor=sing|reflexive=no|register=unmarked|line=127	5	dobj	_	_
+7	bizniz	bizniz	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=128	6	possd	_	_
+8	.	.	X	XP	line=129	3	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=136	2	subj	_	_
+2	åbner	åbne	V	VA	mood=indic|tense=present|voice=active|line=137	0	ROOT	_	_
+3	smøgæsken	smøgæske	N	NC	gender=common|number=sing|case=unmarked|def=def|line=138	2	dobj	_	_
+4	.	.	X	XP	line=139	2	pnct	_	_
+
+1	Der	der	U	U	line=142	2	expl	_	_
+2	ligger	ligge	V	VA	mood=indic|tense=present|voice=active|line=143	0	ROOT	_	_
+3	fire	fire	A	AC	case=unmarked|line=144	2	dobj	_	_
+4	skodder	skodde	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=145	3	nobj	_	_
+5	plus	plus	RG	RG	degree=unmarked|line=146	3	coord	_	_
+6	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=147	5	conj	_	_
+7	hel	hel	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=148	6	mod	_	_
+8	Camel	Camel	N	NP	case=unmarked|line=149	6	nobj	_	_
+9	.	.	X	XP	line=150	2	pnct	_	_
+
+1	-	-	X	XP	line=157	3	pnct	_	_
+2	Du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=158	3	subj	_	_
+3	har	have	V	VA	mood=indic|tense=present|voice=active|line=159	0	ROOT	_	_
+4	aldrig	aldrig	RG	RG	degree=unmarked|line=160	3	mod	_	_
+5	andet	anden	P	PI	gender=neuter|number=sing|case=unmarked|register=unmarked|line=161	3	dobj	_	_
+6	en	en	X	XX	line=162	5	pobj	_	_
+7	bizniz	bizniz	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=163	6	nobj	_	_
+8	i	i	SP	SP	line=164	3	lobj	_	_
+9	hovedet	hoved	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=165	8	nobj	_	_
+10	.	.	X	XP	line=166	3	pnct	_	_
+
+1	Maja	Maja	N	NP	case=unmarked|line=169	2	subj	_	_
+2	løfter	løfte	V	VA	mood=indic|tense=present|voice=active|line=170	0	ROOT	_	_
+3	midlertidigt	midlertidig	A	AN	degree=pos|transcat=adverbial|line=171	2	mod	_	_
+4	blikket	blik	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=172	2	dobj	_	_
+5	.	.	X	XP	line=173	2	pnct	_	_
+
+1	-	-	X	XP	line=176	2	pnct	_	_
+2	75	75	A	AC	case=unmarked|line=177	6	qobj	_	_
+3	øre	øre	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=178	2	nobj	_	_
+4	stykket	stykke	N	NC	gender=neuter|number=sing|case=unmarked|def=def|line=179	2	mod	_	_
+5	,	,	X	XP	line=180	2	pnct	_	_
+6	siger	sige	V	VA	mood=indic|tense=present|voice=active|line=181	0	ROOT	_	_
+7	Sally	Sally	N	NP	case=unmarked|line=182	6	subj	_	_
+8	og	og	C	CC	line=183	6	coord	_	_
+9	ser	se	V	VA	mood=indic|tense=present|voice=active|line=184	8	conj	_	_
+10	ud	ud	RG	RG	degree=unmarked|line=185	9	lobj	_	_
+11	i	i	SP	SP	line=186	10	mod	_	_
+12	luften	luft	N	NC	gender=common|number=sing|case=unmarked|def=def|line=187	11	nobj	_	_
+13	.	.	X	XP	line=188	6	pnct	_	_
+
+1	-	-	X	XP	line=195	2	pnct	_	_
+2	75	75	A	AC	case=unmarked|line=196	0	ROOT	_	_
+3	øre	øre	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=197	2	nobj	_	_
+4	.	.	X	XP	line=198	2	pnct	_	_
+
+1	Hvor	hvor	RG	RG	degree=unmarked|line=201	2	mod	_	_
+2	er	være	V	VA	mood=indic|tense=present|voice=active|line=202	0	ROOT	_	_
+3	du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=203	2	subj	_	_
+4	grov	grov	A	AN	degree=pos|gender=common|number=sing|case=unmarked|def=indef|transcat=unmarked|line=204	2	pred	_	_
+5	.	.	X	XP	line=205	2	pnct	_	_
+
+1	Du	du	P	PP	person=2|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=208	2	subj	_	_
+2	gir	give	V	VA	mood=indic|tense=present|voice=active|line=209	0	ROOT	_	_
+3	jo	jo	RG	RG	degree=unmarked|line=210	2	mod	_	_
+4	ikke	ikke	RG	RG	degree=unmarked|line=211	2	mod	_	_
+5	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=212	2	dobj	_	_
+6	øre	øre	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=213	5	nobj	_	_
+7	for	for	SP	SP	line=214	2	pobj	_	_
+8	dem	de	P	PP	person=3|gender=common/neuter|number=plur|case=unmarked|reflexive=no|register=unmarked|line=215	7	nobj	_	_
+9	.	.	X	XP	line=216	2	pnct	_	_
+
+1	Sonja	Sonja	N	NP	case=unmarked|line=219	2	subj	_	_
+2	er	være	V	VA	mood=indic|tense=present|voice=active|line=220	0	ROOT	_	_
+3	dybt	dyb	A	AN	degree=pos|transcat=adverbial|line=221	4	mod	_	_
+4	forarget	forarge	V	VA	mood=partic|tense=past|number=sing|gender=common/neuter|definiteness=indef|transcat=adject/adverb/unmarked|case=unmarked|line=222	2	vobj	_	_
+5	.	.	X	XP	line=223	2	pnct	_	_
+
+1	Birthe	Birthe	N	NP	case=unmarked|line=230	2	subj	_	_
+2	har	have	V	VA	mood=indic|tense=present|voice=active|line=231	0	ROOT	_	_
+3	allerede	allerede	RG	RG	degree=unmarked|line=232	2	mod	_	_
+4	et	en	P	PI	gender=neuter|number=sing|case=unmarked|register=unmarked|line=233	2	dobj	_	_
+5	skod	skod	N	NC	gender=neuter|number=sing|case=unmarked|def=indef|line=234	4	nobj	_	_
+6	i	i	SP	SP	line=235	2	lobj	_	_
+7	flaben	flab	N	NC	gender=common|number=sing|case=unmarked|def=def|line=236	6	nobj	_	_
+8	.	.	X	XP	line=237	2	pnct	_	_
+
+1	-	-	X	XP	line=244	2	pnct	_	_
+2	Okay	okay	A	AN	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|line=245	0	ROOT	_	_
+3	,	,	X	XP	line=246	2	pnct	_	_
+4	mængderabat	mængderabat	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=247	2	conj	_	_
+5	.	.	X	XP	line=248	2	pnct	_	_
+
+1	Ta	tage	V	VA	mood=imper|line=251	0	ROOT	_	_
+2	en	en	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=252	1	dobj	_	_
+3	hver	hver	P	PI	gender=common|number=sing|case=unmarked|register=unmarked|line=253	1	mod	_	_
+4	.	.	X	XP	line=254	1	pnct	_	_
+
+1	Gi	give	V	VA	mood=imper|line=257	0	ROOT	_	_
+2	2	2	A	AC	case=unmarked|line=258	1	dobj	_	_
+3	kroner	krone	N	NC	gender=common|number=plur|case=unmarked|def=indef|line=259	2	nobj	_	_
+4	tilsammen	tilsammen	RG	RG	degree=unmarked|line=260	1	mod	_	_
+5	.	.	X	XP	line=261	1	pnct	_	_
+
+1	-	-	X	XP	line=268	2	pnct	_	_
+2	Med	med	SP	SP	line=269	5	qobj	_	_
+3	ild	ild	N	NC	gender=common|number=sing|case=unmarked|def=indef|line=270	2	nobj	_	_
+4	?	?	X	XP	line=271	2	pnct	_	_
+5	spørger	spørge	V	VA	mood=indic|tense=present|voice=active|line=272	0	ROOT	_	_
+6	Sonja	Sonja	N	NP	case=unmarked|line=273	5	subj	_	_
+7	.	.	X	XP	line=274	5	pnct	_	_
+
+1	-	-	X	XP	line=281	3	pnct	_	_
+2	Det	det	P	PP	person=3|gender=neuter|number=sing|case=unmarked|reflexive=no|register=unmarked|line=282	3	subj	_	_
+3	er	være	V	VA	mood=indic|tense=present|voice=active|line=283	6	qobj	_	_
+4	klart	klar	A	AN	degree=pos|gender=neuter|number=sing|case=unmarked|def=indef|transcat=unmarked|line=284	3	pred	_	_
+5	,	,	X	XP	line=285	3	pnct	_	_
+6	siger	sige	V	VA	mood=indic|tense=present|voice=active|line=286	0	ROOT	_	_
+7	Sally	Sally	N	NP	case=unmarked|line=287	6	subj	_	_
+8	.	.	X	XP	line=288	6	pnct	_	_
+
+1	-	-	X	XP	line=291	2	pnct	_	_
+2	og	og	C	CC	line=292	0	ROOT	_	_
+3	den	den	P	PD	gender=common|number=sing|case=unmarked|register=unmarked|line=293	6	subj	_	_
+4	hele	hel	A	AN	degree=pos|gender=common/neuter|number=sing|case=unmarked|def=def|transcat=unmarked|line=294	3	mod	_	_
+5	Camel	Camel	N	NP	case=unmarked|line=295	3	nobj	_	_
+6	koster	koste	V	VA	mood=indic|tense=present|voice=active|line=296	2	conj	_	_
+7	ikke	ikke	RG	RG	degree=unmarked|line=297	6	mod	_	_
+8	ekstra	ekstra	A	AN	degree=pos|transcat=adverbial|line=298	6	dobj	_	_
+9	.	.	X	XP	line=299	2	pnct	_	_
+
+1	Hun	hun	P	PP	person=3|gender=common|number=sing|case=nom|reflexive=no|register=unmarked|line=302	2	subj	_	_
+2	slår	slå	V	VA	mood=indic|tense=present|voice=active|line=303	0	ROOT	_	_
+3	large	large	A	AN	degree=pos|gender=common/neuter|number=sing/plur|case=unmarked|def=def/indef|transcat=unmarked|line=304	0	ROOT	_	_
+4	ud	ud	RG	RG	degree=unmarked|line=305	2	avobj	_	_
+5	med	med	SP	SP	line=306	4	mod	_	_
+6	hånden	hånd	N	NC	gender=common|number=sing|case=unmarked|def=def|line=307	5	nobj	_	_
+7	.	.	X	XP	line=308	2	pnct	_	_
+

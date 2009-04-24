@@ -1,0 +1,215 @@
+1	ASK	_	N	NP	number=sing|line=1	0	ROOT	_	_
+2	US	_	P	PP	line=2	1	dobj	_	_
+
+1	Where	_	P	PT	line=5	6	nobj	_	_
+2	does	_	V	VA	mood=indic|tense=present|line=6	0	ROOT	_	_
+3	Santa	_	N	NP	number=sing|line=7	4	title	_	_
+4	Claus	_	N	NP	number=sing|line=8	2	subj	_	_
+5	come	_	V	VA	mood=infin|line=9	2	vobj	_	_
+6	from	_	A	AN	degree=pos|line=10	5	lobj	_	_
+7	?	_	X	XP	line=11	2	pnct	_	_
+
+1	Illustrated	_	N	NP	number=sing|line=14	2	mod	_	_
+2	Science	_	N	NP	number=sing|line=15	3	subj	_	_
+3	will	_	V	VA	line=16	0	ROOT	_	_
+4	answer	_	V	VA	mood=infin|line=17	3	vobj	_	_
+5	this	_	P	PD	line=18	4	dobj	_	_
+6	and	_	C	CC	line=19	5	coord	_	_
+7	many	_	A	AN	degree=pos|line=20	6	conj	_	_
+8	other	_	A	AN	degree=pos|line=21	7	nobj	_	_
+9	questions	_	N	NC	number=plur|line=22	8	nobj	_	_
+
+1	the	_	P	PD	line=23	0	ROOT	_	_
+2	experts	_	N	NC	number=plur|line=24	1	nobj	_	_
+3	of	_	SP	SP	line=25	2	pobj	_	_
+4	BAMBOO	_	N	NP	number=sing|line=28	3	nobj	_	_
+
+1	In	_	SP	SP	line=31	10	mod	_	_
+2	South	_	N	NP	number=sing|line=32	3	mod	_	_
+3	East	_	N	NP	number=sing|line=33	4	mod	_	_
+4	Asia	_	N	NP	number=sing|line=34	1	nobj	_	_
+5	,	_	X	XP	line=35	1	pnct	_	_
+6	the	_	P	PD	line=36	10	subj	_	_
+7	tower-high	_	A	AN	degree=pos|line=37	6	mod	_	_
+8	grass	_	N	NC	number=sing|line=38	9	mod	_	_
+9	species	_	N	NC	number=sing|line=39	6	nobj	_	_
+10	has	_	V	VA	mood=indic|tense=present|line=40	0	ROOT	_	_
+11	through	_	SP	SP	line=41	10	mod	_	_
+12	the	_	P	PD	line=42	11	nobj	_	_
+13	ages	_	N	NC	number=plur|line=43	12	nobj	_	_
+14	supplied	_	V	VA	mood=indic|tense=past|line=44	10	vobj	_	_
+15	raw	_	A	AN	degree=pos|line=45	16	mod	_	_
+16	materials	_	N	NC	number=plur|line=46	14	dobj	_	_
+17	for	_	SP	SP	line=47	14	mod	_	_
+18	everything	_	N	NC	number=sing|line=48	17	nobj	_	_
+19	from	_	SP	SP	line=49	18	mod	_	_
+20	houses	_	N	NC	number=plur|line=50	19	nobj	_	_
+21	to	_	U	U	line=51	19	pobj	_	_
+22	chopsticks	_	N	NC	number=plur|line=52	21	nobj	_	_
+
+1	NEW	_	N	NP	number=sing|line=55	2	mod	_	_
+2	KNOWLEDGE	_	N	NP	number=sing|line=56	0	ROOT	_	_
+
+1	Special	_	A	AN	degree=pos|line=59	2	mod	_	_
+2	section	_	N	NC	number=sing|line=60	0	ROOT	_	_
+3	with	_	SP	SP	line=61	2	mod	_	_
+4	exciting	_	A	AN	degree=pos|line=62	5	mod	_	_
+5	discoveries	_	N	NC	number=plur|line=63	3	nobj	_	_
+6	and	_	C	CC	line=64	5	coord	_	_
+7	research	_	N	NC	number=sing|line=65	8	mod	_	_
+8	results	_	N	NC	number=plur|line=66	6	conj	_	_
+9	in	_	SP	SP	line=67	8	mod	_	_
+10	medicine	_	N	NC	number=sing|line=68	9	nobj	_	_
+11	,	_	X	XP	line=69	10	pnct	_	_
+12	technology	_	N	NC	number=sing|line=70	10	conj	_	_
+13	and	_	C	CC	line=71	10	coord	_	_
+14	science	_	N	NC	number=sing|line=72	13	conj	_	_
+
+1	CAVE	_	N	NP	number=sing|line=75	2	mod	_	_
+2	PAINTINGS	_	N	NP	number=sing|line=76	0	ROOT	_	_
+
+1	With	_	SP	SP	line=79	10	mod	_	_
+2	earth	_	N	NC	number=sing|line=80	3	mod	_	_
+3	colours	_	N	NC	number=plur|line=81	1	nobj	_	_
+4	,	_	X	XP	line=82	1	pnct	_	_
+5	the	_	P	PD	line=83	10	subj	_	_
+6	people	_	N	NC	number=plur|line=84	5	nobj	_	_
+7	of	_	SP	SP	line=85	6	pobj	_	_
+8	the	_	P	PD	line=86	7	nobj	_	_
+9	past	_	A	AN	degree=pos|line=87	8	nobj	_	_
+10	have	_	N	NC	number=sing|line=88	0	ROOT	_	_
+11	captured	_	V	VA	mood=partic|line=89	10	vobj	_	_
+12	the	_	P	PD	line=90	11	dobj	_	_
+13	difficult	_	A	AN	degree=pos|line=91	12	mod	_	_
+14	art	_	N	NC	number=sing|line=92	12	nobj	_	_
+15	of	_	SP	SP	line=93	12	mod	_	_
+16	the	_	P	PD	line=94	15	nobj	_	_
+17	hunt	_	N	NC	number=sing|line=95	16	nobj	_	_
+18	in	_	SP	SP	line=96	11	mod	_	_
+19	honour	_	N	NC	number=sing|line=97	18	nobj	_	_
+20	of	_	SP	SP	line=98	19	pobj	_	_
+21	the	_	P	PD	line=99	20	nobj	_	_
+22	gods	_	N	NC	number=plur|line=100	21	nobj	_	_
+23	and	_	C	CC	line=101	18	coord	_	_
+24	as	_	C	CS	line=102	23	conj	_	_
+25	a	_	P	PI	line=103	24	nobj	_	_
+26	help	_	N	NC	number=sing|line=104	25	nobj	_	_
+27	for	_	SP	SP	line=105	26	mod	_	_
+28	young	_	A	AN	degree=pos|line=106	29	mod	_	_
+29	hunters	_	N	NC	number=plur|line=107	27	nobj	_	_
+
+1	TREE	_	N	NP	number=sing|line=110	2	mod	_	_
+2	FROGS	_	N	NP	number=sing|line=111	0	ROOT	_	_
+
+1	The	_	P	PD	line=114	5	subj	_	_
+2	grey	_	A	AN	degree=pos|line=115	1	mod	_	_
+3	tree	_	N	NC	number=sing|line=116	4	mod	_	_
+4	frogs	_	N	NC	number=plur|line=117	1	nobj	_	_
+5	have	_	V	VA	mood=indic|tense=present|line=118	0	ROOT	_	_
+6	an	_	P	PI	line=119	5	dobj	_	_
+7	amazing	_	A	AN	degree=pos|line=120	6	mod	_	_
+8	mating	_	N	NC	number=sing|line=121	9	mod	_	_
+9	ritual	_	N	NC	number=sing|line=122	6	nobj	_	_
+10	.	_	X	XP	line=123	5	pnct	_	_
+
+1	Together	_	A	AN	degree=pos|line=126	3	mod	_	_
+2	they	_	P	PP	line=127	3	subj	_	_
+3	whip	_	N	NC	number=sing|line=128	0	ROOT	_	_
+4	up	_	RG	RG	line=129	3	part	_	_
+5	foam	_	N	NC	number=sing|line=130	6	mod	_	_
+6	nests	_	N	NC	number=plur|line=131	3	dobj	_	_
+7	for	_	SP	SP	line=132	6	mod	_	_
+8	their	_	P	PO	line=133	7	nobj	_	_
+9	common	_	A	AN	degree=pos|line=134	8	mod	_	_
+10	offspring	_	N	NC	number=sing|line=135	8	possd	_	_
+
+1	RECYCLING	_	N	NC	number=sing|line=138	0	ROOT	_	_
+
+1	Garbage	_	N	NP	number=sing|line=141	2	subj	_	_
+2	is	_	V	VA	mood=indic|tense=present|line=142	0	ROOT	_	_
+3	the	_	P	PD	line=143	2	pred	_	_
+4	raw	_	A	AN	degree=pos|line=144	5	mod	_	_
+5	material	_	N	NC	number=sing|line=145	3	nobj	_	_
+6	of	_	SP	SP	line=146	3	mod	_	_
+7	the	_	P	PD	line=147	6	nobj	_	_
+8	future	_	N	NC	number=sing|line=148	7	nobj	_	_
+9	,	_	X	XP	line=149	2	pnct	_	_
+10	for	_	SP	SP	line=150	2	mod	_	_
+11	businesses	_	N	NC	number=plur|line=151	12	subj	_	_
+12	will	_	V	VA	line=152	10	vobj	_	_
+13	have	_	V	VA	mood=infin|line=153	12	vobj	_	_
+14	the	_	P	PD	line=154	13	dobj	_	_
+15	obligation	_	N	NC	number=sing|line=155	14	nobj	_	_
+16	to	_	U	U	line=156	15	nobj	_	_
+17	recycle	_	V	VA	mood=infin|line=157	16	vobj	_	_
+18	their	_	P	PO	line=158	17	dobj	_	_
+19	products	_	N	NC	number=plur|line=159	18	possd	_	_
+
+1	METEOR	_	N	NP	number=sing|line=162	0	ROOT	_	_
+
+1	11	_	A	AC	line=165	5	subj	_	_
+2	craters	_	N	NC	number=plur|line=166	1	nobj	_	_
+3	in	_	SP	SP	line=167	1	mod	_	_
+4	Argentina	_	N	NP	number=sing|line=168	3	nobj	_	_
+5	indicate	_	V	VA	mood=infin|line=169	0	ROOT	_	_
+6	that	_	SP	SP	line=170	5	dobj	_	_
+7	a	_	P	PI	line=171	13	subj	_	_
+8	large	_	A	AN	degree=pos|line=172	7	mod	_	_
+9	meteor	_	N	NC	number=sing|line=173	7	nobj	_	_
+10	10,000	_	A	AC	line=174	12	tobj	_	_
+11	years	_	N	NC	number=plur|line=175	10	nobj	_	_
+12	ago	_	A	AN	degree=pos|line=176	13	mod	_	_
+13	skipped	_	V	VA	mood=indic|tense=past|line=177	6	vobj	_	_
+14	across	_	SP	SP	line=178	13	lobj	_	_
+15	the	_	P	PD	line=179	14	nobj	_	_
+16	Earth	_	N	NP	number=sing|line=180	15	nobj	_	_
+
+1	ZOOLOGY	_	N	NP	number=sing|line=183	0	ROOT	_	_
+
+1	Biologists	_	N	NC	number=plur|line=186	2	subj	_	_
+2	are	_	V	VA	mood=indic|tense=present|line=187	0	ROOT	_	_
+3	equipping	_	V	VA	mood=gerund|line=188	2	vobj	_	_
+4	threatened	_	V	VA	mood=partic|line=189	5	mod	_	_
+5	animals	_	N	NC	number=plur|line=190	3	dobj	_	_
+6	with	_	SP	SP	line=191	3	pobj	_	_
+7	radio	_	N	NC	number=sing|line=192	8	mod	_	_
+8	transmitters	_	N	NC	number=plur|line=193	6	nobj	_	_
+9	,	_	X	XP	line=194	2	pnct	_	_
+10	so	_	C	CS	line=195	2	mod	_	_
+11	they	_	P	PP	line=196	12	subj	_	_
+12	can	_	V	VA	line=197	10	vobj	_	_
+13	follow	_	V	VA	mood=infin|line=198	12	vobj	_	_
+14	them	_	P	PP	line=199	13	dobj	_	_
+15	constantly	_	A	AN	degree=pos|line=200	13	mod	_	_
+16	and	_	C	CC	line=201	13	coord	_	_
+17	obtain	_	V	VA	mood=infin|line=202	16	conj	_	_
+18	knowledge	_	N	NC	number=sing|line=203	17	dobj	_	_
+19	that	_	P	PT	line=204	20	subj	_	_
+20	can	_	V	VA	line=205	18	rel	_	_
+21	save	_	V	VA	mood=infin|line=206	20	vobj	_	_
+22	the	_	P	PD	line=207	21	dobj	_	_
+23	animals	_	N	NC	number=plur|line=208	22	nobj	_	_
+
+1	GEOLOGY	_	N	NP	number=sing|line=211	0	ROOT	_	_
+
+1	The	_	P	PD	line=214	6	subj	_	_
+2	Devil's	_	N	NP	number=sing|line=215	1	nobj	_	_
+3	Marbles	_	N	NP	number=sing|line=216	2	possd	_	_
+4	in	_	SP	SP	line=217	1	mod	_	_
+5	Australia	_	N	NP	number=sing|line=218	4	nobj	_	_
+6	is	_	V	VA	mood=indic|tense=present|line=219	0	ROOT	_	_
+7	a	_	P	PI	line=220	6	pred	_	_
+8	landscape	_	N	NC	number=sing|line=221	7	nobj	_	_
+9	of	_	SP	SP	line=222	7	mod	_	_
+10	large	_	A	AN	degree=pos|line=223	12	mod	_	_
+11	stone	_	N	NC	number=sing|line=224	12	mod	_	_
+12	spheres	_	N	NC	number=plur|line=225	9	nobj	_	_
+13	created	_	V	VA	mood=partic|line=226	12	rel	_	_
+14	over	_	SP	SP	line=227	13	mod	_	_
+15	a	_	P	PI	line=228	14	nobj	_	_
+16	billion	_	A	AC	line=229	15	nobj	_	_
+17	and	_	C	CC	line=230	16	coord	_	_
+18	a	_	P	PI	line=231	17	conj	_	_
+19	half	_	N	NC	number=sing|line=232	18	nobj	_	_
+20	years	_	N	NC	number=plur|line=233	16	nobj	_	_
+
