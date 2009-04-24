@@ -1,0 +1,26 @@
+#!/bin/bash
+
+name1=$1
+name2=$2
+fileprefix=/tmp/cdt-agreement
+file1=/tmp/cdtA.tag
+file2=/tmp/cdtB.tag
+
+# Find all files annotated by name1 and name2
+ls ~/cdt/??/*$name1.tag | sed -e "s/$name1.tag//g" > /tmp/cdt-files.$name1
+ls ~/cdt/??/*$name2.tag | sed -e "s/$name2.tag//g" > /tmp/cdt-files.$name2
+
+# Find all files annotated by both name1 and name2
+
+# Find tag file concatenation of all jointly annotated files
+rm $prefix-{A,B}*.tag
+touch $file1 $file2
+for f in `diff --changed-group-format='' /tmp/cdt-files.$name1 /tmp/cdt-files.$name2` ; do
+	wc1=`wc -l $f$name1.tag | awk '{print $1}'`
+	wc2=`wc -l $f$name2.tag | awk '{print $1}'`
+	if [ "$wc1" = "$wc2" ] ; then
+		cat $f$name1.tag >> $file1
+		cat $f$name2.tag >> $file2
+	fi
+done
+sleep 1

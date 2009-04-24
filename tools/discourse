@@ -1,0 +1,25 @@
+#!/bin/bash
+
+files="0531 0602 0848 0915 1035 1252 1347 1408 1497"
+lang=da
+userspecs="iørn:da iørn:it morten:da morten:it lotte:da lotte:es"
+for userspec in `echo $userspecs` ; do 
+	user=`echo $userspec | awk -F: '{ print $1 }'`;
+	lang=`echo $userspec | awk -F: '{ print $2 }'`;
+	echo $user ":" $lang
+	for id in `echo $files` ; do 
+		src=`ls $lang/$id-$lang*$user*.tag 2>/dev/null | grep -v disc`
+		if [ -z "$src" ] ; then
+			src=`ls $lang/$id-$lang*.tag | grep -v auto | grep -v tagged | grep -v disc | head -1`
+			if [ -z "$src" ] ; then
+				src=`ls $lang/$id-$lang-auto.tag`
+			fi
+		fi
+		dest=$lang/$id-$lang-disc-$user.tag
+		if [ ! -f $dest ] ; then
+			svn cp $src $dest
+			#"[ ] $dest" >> todo/$u.auto
+		fi
+	done
+done
+

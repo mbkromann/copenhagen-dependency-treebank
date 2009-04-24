@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Options
+export lang=es
+export bindir=~/svn/cdt/trunk/tools/
+export tagger=/home/matthias/research/statmt/treetagger/cmd/tree-tagger-spanish
+export EOSREGEXP=".*	FS	.*"
+
+# Check arguments
+export file=$1
+if [ -z "$file" ] ; then
+	echo "Usage: es2tag <file>"
+	echo "The file must be utf8 encoded"
+	exit 0
+fi
+
+# Source txt2tag command
+bash $bindir/txt2tag
+

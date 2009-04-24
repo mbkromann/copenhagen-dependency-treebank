@@ -1,0 +1,66 @@
+ACRNM	XA	acronym
+ADJ	AN	adjective
+ADV	RG	adverbial
+ALFS	XS	single letter of alphabet	
+ART	PD	definite article
+CARD	AC	cardinal adjective
+CC	CC	coordinating conjunction
+CCAD	CC	adversative coordinating conjunction
+CCNEG	CC	negative coordinating conjunction
+CM	XP	comma
+CODE	XS	alpha-numeric code
+COLON	XP	colon
+CQUE	CS	que as subordinating conjunction
+CSUBF	CS	subordinating conjunction for finite clauses
+CSUBI	CS	subordinating conjunction for infinite clauses
+CSUBX	CS	subordinating conjunction underspecified for type
+DASH	XP	dash
+DM		PD	demonstrative
+FS	XP	end of sentence
+INT	PT	interrogative
+LP	XP	left parenthesis
+NC	NC	common noun
+NEG	U=	negation
+NMEA	NC	measure noun
+NMON	NC	month name
+NP	NP	proper noun
+ORD	AO	ordinal adjective
+PAL	SP	preposition al
+PDEL	SP	portmanteau preposition del
+PE	SP	portmanteau preposition del	
+PERCT	XS	percent sign
+PPC	PP	clitic personal pronoun
+PPO	PP	clitic personal pronoun
+PPP	PP	personal pronoun
+PPX	PP	personal pronoun
+PREP	SP	preposition
+PREP/DEL	SP	preposition or del
+QT	XP	quotation mark
+QU	AN	quantifier
+REL	PT	relative pronoun
+RP	XP	right parenthesis
+SE	PC	reciprocal pronoun
+SEMICOLON	XP	semicolon
+SLASH	XS	slash
+SYM	XS	symbol
+UMMX	NC	measure unit
+VCLI	VA	verb with clitic
+VE	VAF	verb estar
+VEfin	VAD	verb estar finite form
+VEger	VAG	verb estar gerund
+VEinf	VAF	verb estar infinite
+VHadj	VAF	verb haber
+VHfin	VAD	verb haber finite form
+VHinf	VAF	verb haber infinite form
+VLadj	VAF	lexical verb
+VLfin	VAD	lexical verb finite form
+VLger	VAG	lexical verb gerund
+VLinf	VAF lexical verb infinite
+VM	VAF	modal verb
+VMfin	VAD	modal verb finite
+VMger	VAG	modal verb gerund
+VMinf	VAF	modal verb infinite
+VS	VAF	verb ser 
+VSfin	VAD	verb ser finite
+VSger	VAG	verb ser gerund
+VSinf	VAF	verb ser infinite

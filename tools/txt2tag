@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#echo "lang=$lang"
+#echo "bindir=$bindir"
+#echo "tagger=$tagger"
+#echo "EOSREGEXP=$EOSREGEXP"
+#echo "file=$file"
+
+# File names
+base=`echo $file | sed -e 's/.txt$//'`
+tmp="/tmp/txt2tag.$$"
+pre="$tmp.pre"
+tagged="$tmp.tagged"
+tmptag="$tmp.tag"
+tmpmapped="$tmp.tag.mapped"
+tag=$base-tagged.tag
+
+# Preprocess text file
+iconv -f utf8 -t latin1//TRANSLIT $file | $bindir/txt2sgml > $pre
+
+# Create .tagged file by running tagger
+$tagger $pre \
+	| sed -e "s/^$EOSREGEXP\$/&\\n<\\/s>\\n<s>/g" \
+	| $bindir/tagged-cleanup > $tagged
+
+# Create .tag file by running tagged2tag script
+$bindir/tagged2tag $tagged | sed -e 's/ msd=/ tag=/g' \
+	| iconv -f latin1 -t utf8 > $tmptag
+
+# Convert tags in .tag file to PAROLE tags
+dtag -e "load $tmptag" -e "maptags -map $bindir/msd-$lang.map tag msd" -e "save $tmpmapped" -e "exit"
+
+# Move files to final location
+if [ -f "$tag" ] ; then
+	echo "ERROR: skipping $tag ... it already exists!"
+else
+	mv $tmpmapped $tag
+fi
+
+# Clean up
+rm $tmp.*

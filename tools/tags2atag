@@ -1,0 +1,40 @@
+#!/bin/bash
+
+cdtdir=~/svn/cdt/trunk/
+slang=$1
+tlang=$2
+id=$3
+
+# Check arguments
+if [ -z "$slang" -o -z "$tlang" -o -z "$id" ] ; then
+	echo "Usage: tags2atag <slang> <tlang> <file prefix>"
+	exit 0
+fi
+
+# Find source and target file
+sfile=`cd $cdtdir/$slang ; ( ls $id-$slang.tag ; ls $id-$slang-auto.tag ; ls $id-$slang-tagged.tag ) 2>/dev/null | head -1`
+tfile=`cd $cdtdir/$tlang ; ( ls $id-$tlang.tag ; ls $id-$tlang-auto.tag ; ls $id-$tlang-tagged.tag ) 2>/dev/null | head -1`
+
+if [ -z "$sfile" -o -z "$tfile" ] ; then
+	echo "ERROR: cannot find file (found sfile=$sfile, tfile=$tfile)"
+	exit 1
+fi
+
+# Create .atag file
+tmpatag=/tmp/tags2atag.$$.atag
+cat > $tmpatag <<EOFMARK
+<DTAGalign>
+<alignFile key="a" href="../$slang/$sfile" sign="_input"/>
+<alignFile key="b" href="../$tlang/$tfile" sign="_input"/>
+<DTAGalign>
+EOFMARK
+
+# Save new atag file if it doesn't exist already
+atag=$id-$slang-$tlang-auto.atag
+if [ -f $atag ] ; then
+	echo "ERROR: skipping $atag ... it already exists (see output in /tmp/tags2atag)"
+	mv $tmpatag /tmp/tags2atag
+else
+	mv $tmpatag $atag
+fi
+

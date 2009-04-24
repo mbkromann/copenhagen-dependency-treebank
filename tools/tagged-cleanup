@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+$lastsent = 0;
+while (my $line = <>) {
+	if ($line =~ /^<s>$/) {
+		$lastsent = 1;
+	} elsif ($line =~ /^<\/s>$/) {
+		print $line if (! $lastsent);
+		$lastsent = 0;
+	} else {
+		print "<s>\n" if ($lastsent);
+		print $line;
+		$lastsent = 0;
+	}
+}
+

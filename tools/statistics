@@ -1,0 +1,3 @@
+#!/bin/bash
+for f in `ls *.tag` ; do n=`grep 'in=""' $f | wc -l`; m=`grep '</s>' $f | wc -l`; echo $(($n-$m)) $f $n $m ; done | sort -n
+

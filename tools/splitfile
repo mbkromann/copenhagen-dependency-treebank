@@ -1,0 +1,87 @@
+#!/usr/bin/perl
+ 
+# Corpus file
+my $file = $ARGV[1];
+my $lang = $ARGV[0];
+my $cdtdir = "~/svn/cdt/trunk";
+
+if (! ($lang && $file)) {
+	print "Usage: splitfile <language> <file>\n";
+	print "The file must be in iso-latin1 encoding\n";
+	exit(1);
+}
+
+# File writing procedure
+
+sub writefile {
+	# Arguments
+	my ($segment, $id) = @_;
+	my $fname = sprintf("$cdtdir/$lang/%04i-$lang.txt", $id);
+	my $fnametmp = "/tmp/splitfile.txt";
+
+	# Save file in latin1
+	open("TXT", "> $fnametmp")
+		|| return die("Cannot open file $fnametmp for writing");
+	print TXT $segment;
+	close("TXT");
+
+	# Convert file to utf8
+	my @files = glob($fname);
+	if ( -e $files[0]) {
+		print "ERROR: skipping $fname... it already exists.\n"; 
+	} else {
+		print "writing $fname\n";
+		`iconv -f latin1 -t utf8 -o $fname $fnametmp`
+	}
+}
+
+# Create directory
+`mkdir -p $cdtdir/$lang`;
+
+# Variables
+my $segment;
+my $id = "";
+
+# Convert corpus file to latin1
+my $corpus = "/tmp/corpus";
+`iconv -f utf8 -t latin1//TRANSLIT $file -o $corpus`;
+
+# Open corpus file
+open("CORPUS", "< $corpus")
+	|| return die("Cannot open file $file for reading");
+
+# Read corpus file
+while (<CORPUS>) {
+	my $input = $_;
+
+	# Comment
+	if ($input =~ /^----+$/) {
+		$input = "";
+	}
+
+	# Segment begin
+	if ($input =~ /^[-=\s]*([0-9]+)[-=\s]*$/) { 
+		# Save old segment
+		my $newid = $1;
+		if ($id + 0) {
+			writefile($segment, $id);
+		}
+
+		# Initialize new segment
+		$id = $newid;
+		$segment = "";
+		$input = "";
+	} 
+	
+	# Read line in sentence
+	if ($id) {
+		$segment .= $input;
+	}
+}
+
+# Print last file
+writefile($segment, $id);
+
+# Close corpus file
+close("CORPUS");
+

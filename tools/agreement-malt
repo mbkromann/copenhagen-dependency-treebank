@@ -1,0 +1,23 @@
+#!/bin/bash
+
+annotator=$1
+language=$2
+cdtdir=~/svn/cdt/trunk
+maltdir=$cdtdir/malt
+
+# Check input
+if [ -z "$annotator" -o -z "$language" ] ; then
+	echo "Usage: agreement $annotator $language"
+	echo "Print statistics for an annotator for a CDT language"
+	exit 1
+fi
+
+# Create tag files for annotator
+cat $cdtdir/$language/*$annotator.tag > $maltdir/$annotator.tag
+cd $maltdir
+make $annotator.conll
+java -jar malt/malt.jar -c cdt-$language -i $annotator.conll -o $annotator.parse-cdt-$language.conll -m parse
+dtag -e "load $annotator.parse-cdt-$language.conll" -e "save /tmp/$annotator.tag" -e "quit"
+grep -v '</s>' /tmp/$annotator.tag > $annotator.parse-cdt-$language.tag
+dtag -e "load $annotator.tag" -e "diff $annotator.parse-cdt-$language.tag" -e "quit" > $annotator.agreement
+
