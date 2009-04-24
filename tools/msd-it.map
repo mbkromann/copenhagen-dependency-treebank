@@ -5,6 +5,7 @@ CON	CS	conjunction
 DET:def	PD	definite article
 DET:indef	PI	indefinite article
 INT	I=	interjection
+LS	XS	unknown symbol
 NOM	NC	noun
 NPR	NP	name
 NUM	AN	numeral

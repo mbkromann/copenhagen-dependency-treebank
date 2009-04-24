@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+$prevblank = 1;
+$firstline = 1;
+while (my $line = <>) {
+	if ($line =~ /^\s*$/) {
+		# Line is blank
+		if ($prevblank == 0) {
+			print "</s>\n</p>\n"
+				if (! $firstline)
+		}
+		print $line;
+		$prevblank = 1;
+	} else {
+		# Line is not blank
+		print "<p>\n<s>\n";
+		print $line;
+		$firstline = 0;
+		$prevblank = 0;
+	} 
+}
+

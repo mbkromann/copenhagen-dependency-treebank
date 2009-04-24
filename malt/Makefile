@@ -1,6 +1,9 @@
 train: cdt-it.train cdt-es.train
 	# cdt-it.mco cdt-it-train.mco cdt-es.mco cdt-es-train.mco
 
+clean:
+	rm cdt-*.tag
+
 test: test-it test-es
 
 test-it: 
@@ -26,9 +29,9 @@ test-es:
 	dtag -e "load $*.conll" -e "save $*.conll.tag" -e "quit"
 
 cdt-%.tag: /home/matthias/svn/cdt/trunk/%/*.tag
-	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto'` > cdt-$*.tag
-	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto' | grep -v '/01'` > cdt-$*-train.tag
-	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto' | grep '/01'` > cdt-$*-test.tag
+	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto' | grep -v 'disc'` > cdt-$*.tag
+	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto' | grep -v 'disc' | grep -v '/01'` > cdt-$*-train.tag
+	cat `ls /home/matthias/svn/cdt/trunk/$*/*.tag | grep -v 'auto' | grep -v 'disc' | grep '/01'` > cdt-$*-test.tag
 
 %.conll: %.tag
 	dtag -e "load $*.tag" -e "save $*.conll" -e 'quit'
@@ -40,4 +43,3 @@ cdt-%.tag: /home/matthias/svn/cdt/trunk/%/*.tag
 	java -jar malt/malt.jar -c cdt-it-train -i $*.conll -o $*.parse-cdt-it.conll -m parse 
 	make $*.parse-cdt-it.conll.tag
 	grep -v '</s>' $*.parse-cdt-it.conll.tag > $*.parse-cdt-it.tag
-	

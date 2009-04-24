@@ -1,7 +1,6 @@
 
 
 
-
 COLAB = AGG FUENTE = RTZ DIFUSIÓN = 1600 HS LOCUTOR = = ER
 
 
@@ -14,7 +13,7 @@ Ambos están acusados de haber causado al banco una pérdida de alrededor de 60 
 
 Dos vocales simples del consejo administrativo fueron liberados. De todas maneras, el juez municipal Nils Erik Jensen dejó en claro que los miembros del consejo administrativo no podían irse a casa con la conciencia limpia.
 
-- Su liberación no significa en absoluto una afirmación de que han llevado a cabo su gestión en el consejo de manera ejemplar – no es para nada el caso, ratificó el juez en sus observaciones de la sentencia.
+- Su liberación no significa en absoluto una afirmación de que han llevado a cabo su gestión en el consejo de manera ejemplar - no es para nada el caso, ratificó el juez en sus observaciones de la sentencia.
 
 
 

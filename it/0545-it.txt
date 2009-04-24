@@ -1,0 +1,35 @@
+
+11 Induzione
+
+ Obiettivo
+
+Descrivere il campo magnetico attorno ad una corrente elettrica e il campo elettrico attorno ad un magnete in movimento.
+
+ Dispositivi
+
+Alimentazione elettrica (diretta e alternata), cavi, ago della bussola, magnete a sbarra, voltmetro di precisione, bobine (200 avvolgimenti, 400 avvolgimenti e 1600 avvolgimenti) sfere di ferro, pesi in ferro e pesi.
+
+ Realizzazione
+
+ Procedura
+
+Induzione dei campi magnetici:
+
+Usando la realizzazione della figura 11.1. Il magnete deve trovarsi lungo il cavo di collegamento della corrente. Accendere l'alimentazione e osservare quanto succede. Invertire la direzione della corrente e osservare.
+
+Eseguire quindi una serie di esperimenti volti a stabilire quali oggetti influiscono sulla potenza del campo magnetico. Usare bobine, pesi di ferro e pesi (fig. 11.2 ).
+
+ Induzione dei campi elettrici:
+
+Usando la realizzazione della figura 11.3. Muovere il magnete rispetto al cavo e osservare sul voltmetro cosa accade.
+
+Eseguire quindi una serie di esperimenti volti a stabilire quali oggetti influiscono sulla potenza del campo elettrico. Usare le bobine, il voltmetro e i magneti come alla figura 11.4.
+
+ Risultati
+
+Campi magnetici:
+
+Descrivere il campo magnetico attorno ad un cavo alimentato di corrente:
+
+ Descrivere la procedura di analisi dell'esperimento su cosa influisce sulla forza di un campo magnetico.
+

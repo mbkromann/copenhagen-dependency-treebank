@@ -1,0 +1,249 @@
+<p>
+<s>
+<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
+<W lemma="credere" msd="VADR" tag="VER:pres" in="" out="">credo</W>
+<W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="uno" msd="PI" tag="DET:indef" in="" out="">uno</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
+<W lemma="membro" msd="NC" tag="NOM" in="" out="">membri</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="comitato" msd="NC" tag="NOM" in="" out="">Comitato</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="mercato" msd="NC" tag="NOM" in="" out="">mercato</W>
+<W lemma="potere" msd="VADR" tag="VER:cpre" in="" out="">possa</W>
+<W lemma="tenere" msd="VAF" tag="VER:infi" in="" out="">tenere</W>
+<W lemma="sotto" msd="AN" tag="ADJ" in="" out="">sotto</W>
+<W lemma="controllo" msd="NC" tag="NOM" in="" out="">controllo</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
+<W lemma="situazione" msd="NC" tag="NOM" in="" out="">situazione</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+<s>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">Siamo</W>
+<W lemma="tutto" msd="PI" tag="PRO:indef" in="" out="">tutti</W>
+<W lemma="sedere" msd="VAP" tag="VER:pper" in="" out="">seduti</W>
+<W lemma="qui" msd="RG" tag="ADV" in="" out="">qui</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="riunione" msd="NC" tag="NOM" in="" out="">riunione</W>
+<W lemma="dopo" msd="SP" tag="PRE" in="" out="">dopo</W>
+<W lemma="riunione" msd="NC" tag="NOM" in="" out="">riunione</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
+<W lemma="emettere" msd="VAF" tag="VER:infi" in="" out="">emettere</W>
+<W lemma="mandato" msd="NC" tag="NOM" in="" out="">mandati</W>
+<W lemma="vincolante" msd="AN" tag="ADJ" in="" out="">vincolanti</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">ai</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="" out="">ministri</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="">devono</W>
+<W lemma="difendere" msd="VAF" tag="VER:infi" in="" out="">difendere</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
+<W lemma="posizione" msd="NC" tag="NOM" in="" out="">posizione</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">della</W>
+<W lemma="Danimarca" msd="NP" tag="NPR" in="" out="">Danimarca</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">al</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="" out="">consiglio</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="" out="">ministri</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="parlamento" msd="NC" tag="NOM" in="" out="">Parlamento</W>
+<W lemma="europeo" msd="AN" tag="ADJ" in="" out="">europeo</W>
+<W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="dire" msd="VADR" tag="VER:pres" in="" out="">dice</W>
+<W lemma="Peter" msd="NP" tag="NPR" in="" out="">Peter</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Duetoft</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="si" msd="PP" tag="PRO:pers" in="" out="">Si</W>
+<W lemma="riferire" msd="VADR" tag="VER:pres" in="" out="">riferisce</W>
+<W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
+<W lemma="esempio" msd="NC" tag="NOM" in="" out="">esempio</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">alla</W>
+<W lemma="scoprire" msd="VAP" tag="VER:pper" in="" out="">scoperta</W>
+<W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
+<W lemma="parte" msd="NC" tag="NOM" in="" out="">parte</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">B.T.</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="una" msd="PI" tag="DET:indef" in="" out="">una</W>
+<W lemma="direttiva" msd="NC" tag="NOM" in="" out="">direttiva</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="parlamento" msd="NC" tag="NOM" in="" out="">Parlamento</W>
+<W lemma="europeo" msd="AN" tag="ADJ" in="" out="">europeo</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
+<W lemma="proteggere" msd="VAF" tag="VER:infi" in="" out="">proteggere</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
+<W lemma="salute" msd="NC" tag="NOM" in="" out="">salute</W>
+<W lemma="pubblico" msd="AN" tag="ADJ" in="" out="">pubblica</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="vietare" msd="VADR" tag="VER:pres" in="" out="">vieta</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">ai</W>
+<W lemma="macello" msd="NC" tag="NOM" in="" out="">macelli</W>
+<W lemma="privato" msd="AN" tag="ADJ" in="" out="">privati</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="macellare" msd="VAF" tag="VER:infi" in="" out="">macellare</W>
+<W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="" out="">12</W>
+<W lemma="animale" msd="NC" tag="NOM" in="" out="">animali</W>
+<W lemma="al" msd="SP+P" tag="PRE:det" in="" out="">alla</W>
+<W lemma="settimana" msd="NC" tag="NOM" in="" out="">settimana</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+<s>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
+<W lemma="salute" msd="NC" tag="NOM" in="" out="">salute</W>
+<W lemma="pubblico" msd="AN" tag="ADJ" in="" out="">pubblica</W>
+<W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
+<W lemma="corre" msd="VAF" tag="VER:infi" in="" out="">corre</W>
+<W lemma="alcuno" msd="PI" tag="PRO:indef" in="" out="">alcun</W>
+<W lemma="pericolo" msd="NC" tag="NOM" in="" out="">pericolo</W>
+<W lemma="se" msd="PR" tag="PRO:refl" in="" out="">se</W>
+<W lemma="venire" msd="VADR" tag="VER:pres" in="" out="">vengono</W>
+<W lemma="macellare" msd="VAP" tag="VER:pper" in="" out="">macellati</W>
+<W lemma="meno" msd="RG" tag="ADV" in="" out="">meno</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="" out="">12</W>
+<W lemma="animale" msd="NC" tag="NOM" in="" out="">animali</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
+<W lemma="se" msd="PR" tag="PRO:refl" in="" out="">se</W>
+<W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
+<W lemma="ucciso" msd="NC" tag="NOM" in="" out="">uccisi</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="" out="">13</W>
+<W lemma="animale" msd="NC" tag="NOM" in="" out="">animali</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">i</W>
+<W lemma="macello" msd="NC" tag="NOM" in="" out="">macelli</W>
+<W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="">devono</W>
+<W lemma="dotare" msd="VAF" tag="VER:infi" in="" out="">dotarsi</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="attrezzatura" msd="NC" tag="NOM" in="" out="">attrezzature</W>
+<W lemma="molto" msd="RG" tag="ADV" in="" out="">molto</W>
+<W lemma="avanzare" msd="VAP" tag="VER:pper" in="" out="">avanzate</W>
+<W lemma="simile" msd="NC" tag="NOM" in="" out="">simili</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
+<W lemma="quello" msd="PD" tag="PRO:demo" in="" out="">quelle</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
+<W lemma="macello" msd="NC" tag="NOM" in="" out="">macelli</W>
+<W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">l'</W>
+<W lemma="esportazione" msd="NC" tag="NOM" in="" out="">esportazione</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+<s>
+<W lemma="per" msd="SP" tag="PRE" in="" out="">Per</W>
+<W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">questo</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
+<W lemma="metà" msd="NC" tag="NOM" in="" out="">metà</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">dei</W>
+<W lemma="macello" msd="NC" tag="NOM" in="" out="">macelli</W>
+<W lemma="danese" msd="AN" tag="ADJ" in="" out="">danesi</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
+<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="" out="">stata</W>
+<W lemma="costringere" msd="VAP" tag="VER:pper" in="" out="">costretta</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
+<W lemma="chiudere" msd="VAF" tag="VER:infi" in="" out="">chiudere</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">La</W>
+<W lemma="direttiva" msd="NC" tag="NOM" in="" out="">direttiva</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
+<W lemma="entrata" msd="NC" tag="NOM" in="" out="">entrata</W>
+<W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
+<W lemma="vigore" msd="NC" tag="NOM" in="" out="">vigore</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
+<W lemma="luglio" msd="NC" tag="NOM" in="" out="">luglio</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="quest'" msd="PD" tag="PRO:demo" in="" out="">quest'</W>
+<W lemma="anno" msd="NC" tag="NOM" in="" out="">anno</W>
+<W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
+<W lemma="comitato" msd="NC" tag="NOM" in="" out="">Comitato</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="mercato" msd="NC" tag="NOM" in="" out="">mercato</W>
+<W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ha</W>
+<W lemma="comprendere" msd="VAP" tag="VER:pper" in="" out="">compreso</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">le</W>
+<W lemma="conseguenza" msd="NC" tag="NOM" in="" out="">conseguenze</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">della</W>
+<W lemma="norma" msd="NC" tag="NOM" in="" out="">norma</W>
+<W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
+<W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
+<W lemma="nel" msd="SP+P" tag="PRE:det" in="" out="">nell'</W>
+<W lemma="ultimo" msd="AN" tag="ADJ" in="" out="">ultima</W>
+<W lemma="settimana" msd="NC" tag="NOM" in="" out="">settimana</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Duetoft</W>
+<W lemma="presentare" msd="VADR" tag="VER:pres" in="" out="">presenta</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
+<W lemma="suo" msd="PO" tag="PRO:poss" in="" out="">suo</W>
+<W lemma="controverso" msd="AN" tag="ADJ" in="" out="">controverso</W>
+<W lemma="punto" msd="NC" tag="NOM" in="" out="">punto</W>
+<W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
+<W lemma="vista" msd="NC" tag="NOM" in="" out="">vista</W>
+<W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="" out="">un</W>
+<W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuovo</W>
+<W lemma="libro" msd="NC" tag="NOM" in="" out="">libro</W>
+<W lemma="sul" msd="SP+P" tag="PRE:det" in="" out="">sul</W>
+<W lemma="parlamento" msd="NC" tag="NOM" in="" out="">Parlamento</W>
+<W lemma="europeo" msd="AN" tag="ADJ" in="" out="">europeo</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="uscire" msd="VADR" tag="VER:futu" in="" out="">uscirà</W>
+<W lemma="lunedì" msd="NC" tag="NOM" in="" out="">lunedì</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+<s>
+<W lemma="Peter" msd="NP" tag="NPR" in="" out="">Peter</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Duetoft</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
+<W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
+<W lemma="dichiarare" msd="VADR" tag="VER:pres" in="" out="">dichiara</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">sovraeuropeo</W>
+<W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ha</W>
+<W lemma="un" msd="PI" tag="DET:indef" in="" out="">un</W>
+<W lemma="passato" msd="NC" tag="NOM" in="" out="">passato</W>
+<W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
+<W lemma="parlamentare" msd="NC" tag="NOM" in="" out="">parlamentare</W>
+<W lemma="europeo" msd="AN" tag="ADJ" in="" out="">europeo</W>
+<W lemma="," msd="XP" tag="PON" in="" out="">,</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">ha</W>
+<W lemma="scrivere" msd="VAP" tag="VER:pper" in="" out="">scritto</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
+<W lemma="libro" msd="NC" tag="NOM" in="" out="">libro</W>
+<W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
+<W lemma="quattro" msd="AN" tag="ADJ" in="" out="">quattro</W>
+<W lemma="mani|mano" msd="NC" tag="NOM" in="" out="">mani</W>
+<W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
+<W lemma="Jens" msd="NP" tag="NPR" in="" out="">Jens</W>
+<W lemma="Peter" msd="NP" tag="NPR" in="" out="">Peter</W>
+<W lemma="Bonde" msd="NP" tag="NPR" in="" out="">Bonde</W>
+<W lemma="del" msd="SP+P" tag="PRE:det" in="" out="">del</W>
+<W lemma="movimento" msd="NC" tag="NOM" in="" out="">Movimento</W>
+<W lemma="popolare" msd="AN" tag="ADJ" in="" out="">popolare</W>
+<W lemma="contro" msd="SP" tag="PRE" in="" out="">contro</W>
+<W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
+<W lemma="parlamento" msd="NC" tag="NOM" in="" out="">Parlamento</W>
+<W lemma="europeo" msd="AN" tag="ADJ" in="" out="">europeo</W>
+<W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
+</s>
+</p>
