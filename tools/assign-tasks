@@ -18,6 +18,7 @@ while (my $files = <STDIN>) {
 	chomp($files);
 	foreach my $file (split(/\s+/, $files)) {
 		$file =~ s/-auto./-.*./g;
+		$file =~ s/-tagged./-.*./g;
 		my $grep = `egrep \"$file\" todo/* | egrep -v '[-]auto.'`; 
 		if (! $grep) {
 			my $namelist = $names[$i];
@@ -40,7 +41,8 @@ while (my $files = <STDIN>) {
 # Add todo lists to todo files
 foreach my $name (keys(%$todo)) {
 	open(TODO, ">>todo/$name.auto");
-	print TODO "\n" . join("", @{$todo->{$name}});
+	print TODO "\n\n# Assign-tasks added new files on " . `date` . "\n";
+	print TODO join("", @{$todo->{$name}});
 	print "=== $name\n" . join("", @{$todo->{$name}});
 	close(TODO);
 }
