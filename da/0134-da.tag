@@ -190,7 +190,7 @@
 <p>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="7:nobj" out="">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:expl|4:neg|5:dobj|7:pnct|2:other">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:expl|2:other|4:neg|5:dobj|7:pnct">var</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:other" out="">imidlertid</W>
 <W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>

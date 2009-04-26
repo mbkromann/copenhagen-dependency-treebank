@@ -75,8 +75,8 @@
 <W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="-3:pred|2:[subj]" out="-2:namef|-1:namel|1:pnct|2:modp">Hooker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="born" lemma="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:modp" out="-2:[subj]|2:tobj|4:lobj">født</W>
-<W gloss="22," lemma="22." msd="AO---U=--" tag="JJ" in="1:mod" out="">22.</W>
-<W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-2:tobj" out="-1:mod|1:nobj">august</W>
+<W gloss="22," lemma="22." msd="AO---U=--" tag="JJ" in="1:nobj" out="">22.</W>
+<W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-2:tobj" out="1:nobj|-1:nobj">august</W>
 <W gloss="1917," lemma="1917" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1917</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">i</W>
 <W gloss="blues_music" lemma="bluesmusik" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:appr">bluesmusikkens</W>
@@ -89,7 +89,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|74:pnct">Og</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="1:other" out="">nok</W>
-<W gloss="did_get" lemma="få" msd="VADA=----A-" tag="VBD" in="-2:conj" out="1:subj|2:time|3:dobj|6:time|20:coord|-1:other">fik</W>
+<W gloss="did_get" lemma="få" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:other|1:subj|2:time|3:dobj|6:time|20:coord">fik</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="-2:time" out="">først</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-3:dobj" out="1:attr|2:nobj">det</W>
@@ -116,8 +116,8 @@
 <W gloss="Johnny" lemma="Johnny" msd="NP--U==-" tag="NNP" in="1:namef" out="">Johnny</W>
 <W gloss="Winter" lemma="Winter" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-1:namef|-2:ex|1:pnct|2:conj|4:pnct|5:conj|6:pnct|7:conj|9:pnct|10:conj|12:pnct|13:conj|16:coord">Winter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="Status" lemma="Status" msd="NP--U==-" tag="NNP" in="-2:conj" out="1:mod">Status</W>
-<W gloss="Quo" lemma="Quo" msd="NP--U==-" tag="NNP" in="-1:mod" out="">Quo</W>
+<W gloss="Status" lemma="Status" msd="NP--U==-" tag="NNP" in="-2:conj" out="1:nobj">Status</W>
+<W gloss="Quo" lemma="Quo" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Quo</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="Animals" lemma="Animals" msd="NP--U==-" tag="NNP" in="-5:conj" out="">Animals</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -208,8 +208,8 @@
 <W gloss="Rick" lemma="Rick" msd="NP--U==-" tag="NNP" in="1:namef" out="">Rick</W>
 <W gloss="Parfitt" lemma="Parfitt" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:namef">Parfitt</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-6:loc" out="1:nobj">i</W>
-<W gloss="Status" lemma="Status" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:mod">Status</W>
-<W gloss="Quo" lemma="Quo" msd="NP--U==-" tag="NNP" in="-1:mod" out="">Quo</W>
+<W gloss="Status" lemma="Status" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Status</W>
+<W gloss="Quo" lemma="Quo" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Quo</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-19:rel" out="-11:subj|1:vobj">har</W>
 <W gloss="lived" lemma="leve" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-12:[subj]|1:man|4:pobj|5:time">levet</W>
 <W gloss="fat" lemma="fed" msd="ANP---=-R" tag="JJ" in="-1:man" out="1:coord">fedt</W>

@@ -65,10 +65,10 @@
 <W gloss="the_Hafnia_group's" lemma="Hafnia-koncern" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Hafnia-koncernens</W>
 <W gloss="companies" lemma="selskab" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">selskaber</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="Public_Limited_Company" lemma="aktieselskab" msd="NCNSU==D" tag="NN" in="-5:appa" out="1:mod">Aktieselskabet</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="2:nobj">af</W>
-<W gloss="15" lemma="15." msd="AO---U=--" tag="JJ" in="1:mod" out="">15.</W>
-<W gloss="April" lemma="april" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:mod|1:nobj">april</W>
+<W gloss="Public_Limited_Company" lemma="aktieselskab" msd="NCNSU==D" tag="NN" in="-5:appa" out="1:time">Aktieselskabet</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:time" out="2:nobj">af</W>
+<W gloss="15" lemma="15." msd="AO---U=--" tag="JJ" in="1:nobj" out="">15.</W>
+<W gloss="April" lemma="april" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:nobj|1:nobj">april</W>
 <W gloss="1980" lemma="1980" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1980</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
@@ -123,9 +123,9 @@
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Norden's" lemma="Norden" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|3:appr">Nordens</W>
 <W gloss="parent_company" lemma="moderselskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">moderselskab</W>
-<W gloss="Commercial" lemma="Commercial" msd="NP--U==-" tag="NNP" in="1:mod" out="">Commercial</W>
-<W gloss="Holding" lemma="Holding" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:mod|1:mod|2:nobj">Holding</W>
-<W gloss="International" lemma="International" msd="NP--U==-" tag="NNP" in="-1:mod" out="">International</W>
+<W gloss="Commercial" lemma="Commercial" msd="NP--U==-" tag="NNP" in="1:attr" out="">Commercial</W>
+<W gloss="Holding" lemma="Holding" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:attr|1:attr|2:nobj">Holding</W>
+<W gloss="International" lemma="International" msd="NP--U==-" tag="NNP" in="-1:attr" out="">International</W>
 <W gloss="a/s" lemma="aktieselskab" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">A/S</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

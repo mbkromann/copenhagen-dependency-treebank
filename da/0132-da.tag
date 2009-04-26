@@ -102,7 +102,7 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:time" out="1:nobj|-1:other">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:time" out="-1:other|1:nobj">med</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="the_same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="">samme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -141,7 +141,7 @@
 <W gloss="showed" lemma="vise" msd="VADA=----A-" tag="VBD" in="-1:conj" out="-15:[subj]|1:dobj">viste</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:pobj">noget</W>
 <W gloss="of" lemma="at" msd="XX" tag="FW" in="-1:pobj" out="1:nobj">at</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj|4:[dobj]" out="2:pnct|4:rel|1:other">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj|4:[dobj]" out="1:other|2:pnct|4:rel">det</W>
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:other" out="">bedste</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>

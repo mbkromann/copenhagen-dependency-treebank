@@ -99,7 +99,7 @@
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
 <W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="2:other" out="1:nobj">nogen</W>
 <W gloss="hearts" lemma="sinde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sinde</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|1:vobj|-2:other">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-2:other|1:vobj">vil</W>
 <W gloss="forget" lemma="glemme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|-9:[dobj]">glemme</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>

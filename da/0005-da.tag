@@ -97,7 +97,7 @@
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">de</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">politiske</W>
 <W gloss="leaders" lemma="leder" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">ledere</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|2:loc|1:other">kommer</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:other|2:loc">kommer</W>
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:other" out="">med</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:rel">det</W>
@@ -255,12 +255,12 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-1:subj|1:vobj|8:pnct">har</W>
-<W gloss="heard" lemma="høre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|5:other">hørt</W>
+<W gloss="heard" lemma="høre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|5:dir">hørt</W>
 <W gloss="such" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
 <W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:degr">klar</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="-1:attr|1:nobj">en</W>
 <W gloss="message" lemma="melding" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">melding</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-5:other" out="1:nobj">fra</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-5:dir" out="1:nobj">fra</W>
 <W gloss="the_Social_Democratic_Party" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Socialdemokratiet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>

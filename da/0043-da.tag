@@ -52,8 +52,8 @@
 <W gloss="will_begin" lemma="indlede" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:struct|4:time|5:pobj|11:pnct|12:coord|25:pnct">indledes</W>
 <W gloss="As" lemma="som" msd="U=" tag="WDT" in="-1:struct" out="1:vobj">som</W>
 <W gloss="mentioned" lemma="nævne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="">nævnt</W>
-<W gloss="16" lemma="16." msd="AO---U=--" tag="JJ" in="1:mod" out="">16.</W>
-<W gloss="March" lemma="marts" msd="NCCSU==I" tag="NN" in="-4:time" out="-1:mod">marts</W>
+<W gloss="16" lemma="16." msd="AO---U=--" tag="JJ" in="1:nobj" out="">16.</W>
+<W gloss="March" lemma="marts" msd="NCCSU==I" tag="NN" in="-4:time" out="-1:nobj">marts</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">med</W>
 <W gloss="the_showdown" lemma="opgør" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">opgøret</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
@@ -101,8 +101,8 @@
 <W gloss="rounds" lemma="runde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">runder</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:pred">med</W>
 <W gloss="finish" lemma="afslutning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afslutning</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:pred" out="1:mod|2:nobj|3:pnct|4:ref|6:rel">den</W>
-<W gloss="23," lemma="23." msd="AO---U=--" tag="JJ" in="-1:mod" out="">23.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:pred" out="1:nobj|2:nobj|3:pnct|4:ref|6:rel">den</W>
+<W gloss="23," lemma="23." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">23.</W>
 <W gloss="June" lemma="juni" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">juni</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="when" lemma="hvor" msd="RGU" tag="RP" in="-4:ref|2:time" out="">hvor</W>
@@ -143,8 +143,8 @@
 <W gloss="on" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="-10:nobj">til</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-5:loc" out="1:nobj">på</W>
 <W gloss="the_annual_general_meeting" lemma="generalforsamling" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:time">generalforsamlingen</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:time" out="1:mod|2:nobj">den</W>
-<W gloss="26" lemma="26." msd="AO---U=--" tag="JJ" in="-1:mod" out="">26.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:time" out="1:nobj|2:nobj">den</W>
+<W gloss="26" lemma="26." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">26.</W>
 <W gloss="January" lemma="januar" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">januar</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -182,15 +182,15 @@
 <W gloss="will_be_chosen" lemma="kåre" msd="VADR=----P-" tag="VBD" in="" out="-3:cond|1:subj|3:time|6:pnct">kåres</W>
 <W gloss="the_year's" lemma="år" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">årets</W>
 <W gloss="Danish_champion" lemma="danmarksmester" msd="NCCSU==I" tag="NN" in="-1:possd" out="">danmarksmester</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:time" out="1:mod|2:nobj">den</W>
-<W gloss="23" lemma="23." msd="AO---U=--" tag="JJ" in="-1:mod" out="">23.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:time" out="1:nobj|2:nobj">den</W>
+<W gloss="23" lemma="23." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">23.</W>
 <W gloss="June" lemma="juni" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">juni</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="Without" lemma="uden" msd="SP" tag="IN" in="" out="2:nobj|21:pnct|1:other">Uden</W>
+<W gloss="Without" lemma="uden" msd="SP" tag="IN" in="" out="1:other|2:nobj|21:pnct">Uden</W>
 <W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:other" out="">dog</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
 <W gloss="achieving" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|5:pnct|6:cause">opnå</W>
@@ -216,7 +216,7 @@
 </p>
 <p>
 <s>
-<W gloss="were_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="13:cond" out="1:subj|5:prg|8:vobj|7:other">Skulle</W>
+<W gloss="were_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="13:cond" out="1:subj|5:prg|7:other|8:vobj">Skulle</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:subj|7:[subj]" out="1:nobj|2:loc">et</W>
 <W gloss="majority" lemma="flertal" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">flertal</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>

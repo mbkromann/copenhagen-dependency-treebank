@@ -62,7 +62,7 @@
 <W gloss="players" lemma="spiller" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">spillere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|2:lobj|1:other">skal</W>
+<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:other|2:lobj">skal</W>
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:other" out="">med</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
 <W gloss="the_starting_lineup" lemma="startopstilling" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj|3:time|4:loc">startopstillingen</W>
@@ -80,14 +80,14 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:other" out="1:nobj">I</W>
 <W gloss="the_Brøndby_players" lemma="Brøndby-spiller" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd">Brøndby-spillernes</W>
 <W gloss="absence" lemma="fravær" msd="NCNSU==I" tag="NN" in="-1:possd" out="">fravær</W>
-<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="2:subj|12:dobj|16:pnct|-3:other">får</W>
+<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-3:other|2:subj|12:dobj|16:pnct">får</W>
 <W gloss="Jakob" lemma="Jakob" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jakob</W>
 <W gloss="Friis-Hansen" lemma="Friis-Hansen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|5:rel">Friis-Hansen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|3:subj" out="">der</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:other" out="1:aobj">til</W>
 <W gloss="daily" lemma="daglig" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="">daglig</W>
-<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|1:lobj|3:pnct|-2:other">spiller</W>
+<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|1:lobj|3:pnct">spiller</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
 <W gloss="Lille" lemma="Lille" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Lille</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -144,7 +144,7 @@
 <W gloss="the_national_team" lemma="landshold" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landsholdet</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-6:pnct" out=""> - </W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-10:coord" out="1:conj">og</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:conj|8:[dobj]" out="4:rel|1:other">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:conj|8:[dobj]" out="1:other|4:rel">den</W>
 <W gloss="only" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:other" out="">eneste</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="2:subj" out="">jeg</W>
 <W gloss="really" lemma="rigtig" msd="ANP---=-R" tag="JJ" in="1:man" out="">rigtigt</W>
@@ -220,7 +220,7 @@
 <W gloss="OB's" lemma="OB" msd="NP--G==-" tag="NNP" in="3:subj" out="2:possd">OBs</W>
 <W gloss="Johnny" lemma="Johnny" msd="NP--U==-" tag="NNP" in="1:namef" out="">Johnny</W>
 <W gloss="Hansen" lemma="Hansen" msd="NP--U==-" tag="NNP" in="-2:possd" out="-1:namef">Hansen</W>
-<W gloss="will_start" lemma="starte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:lobj|4:pnct|22:pnct|2:other|5:other">starter</W>
+<W gloss="will_start" lemma="starte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:lobj|2:other|4:pnct|5:other|22:pnct">starter</W>
 <W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-1:lobj" out="">inde</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:other" out="1:nobj">som</W>
 <W gloss="forstopper" lemma="forstopper" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forstopper</W>

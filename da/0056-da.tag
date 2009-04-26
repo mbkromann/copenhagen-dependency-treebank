@@ -174,14 +174,14 @@
 <s>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|3:[subj]" out="">De</W>
-<W gloss="started" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-10:xpl" out="-1:subj|-2:pnct|1:dobj|5:pnct|7:mod|16:pnct|17:pnct">begyndte</W>
+<W gloss="started" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-10:xpl" out="-1:subj|-2:pnct|1:dobj|5:pnct|16:pnct|17:pnct|7:prg">begyndte</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="shooting" lemma="skyde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dir">skyde</W>
 <W gloss="at" lemma="mod" msd="SP" tag="IN" in="-1:dir" out="1:nobj">mod</W>
 <W gloss="everybody" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="..." lemma="..." msd="XP" tag="..." in="-5:pnct" out="">...</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:prg" out="">lige</W>
-<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-7:mod" out="-1:prg|1:pobj">meget</W>
+<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-7:prg" out="-1:prg|1:pobj">meget</W>
 <W gloss="if" lemma="om" msd="CS" tag="IN" in="-1:pobj" out="2:vobj">om</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred">var</W>

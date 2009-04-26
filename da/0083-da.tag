@@ -119,7 +119,7 @@
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]|5:[subj]" out="">der</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="2:other" out="">også</W>
 <W gloss="certainly" lemma="nok" msd="RGU" tag="RP" in="1:other" out="">nok</W>
-<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|1:vobj|9:pnct|10:cond|-1:other">skal</W>
+<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|-1:other|1:vobj|9:pnct|10:cond">skal</W>
 <W gloss="could" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">kunne</W>
 <W gloss="make" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|4:pred">gøre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:coord">en</W>

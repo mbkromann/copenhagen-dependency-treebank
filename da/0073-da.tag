@@ -52,8 +52,8 @@
 <W gloss="11_:_50" lemma="11.50" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:coord">11.50</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="12_:_50" lemma="12.50" msd="AC---U=--" tag="CD" in="-1:conj" out="">12.50</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-6:time" out="1:mod|2:nobj">den</W>
-<W gloss="12," lemma="12." msd="AO---U=--" tag="JJ" in="-1:mod" out="">12.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-6:time" out="2:nobj|1:nobj">den</W>
+<W gloss="12," lemma="12." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">12.</W>
 <W gloss="December" lemma="december" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj">december</W>
 <W gloss="81" lemma="81" msd="AC---U=--" tag="CD" in="-1:nobj" out="">81</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-11:pnct" out=""> - </W>
@@ -193,7 +193,7 @@
 <W gloss="Interrogated" lemma="afhøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="3:other" out="1:man">Afhørt</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:man" out="1:nobj">under</W>
 <W gloss="oath" lemma="vidneansvar" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">vidneansvar</W>
-<W gloss="denied" lemma="afvise" msd="VADA=----A-" tag="VBD" in="" out="3:subj|34:pnct|35:dobj|49:pnct|-3:other|33:other">afviste</W>
+<W gloss="denied" lemma="afvise" msd="VADA=----A-" tag="VBD" in="" out="-3:other|3:subj|33:other|34:pnct|35:dobj|49:pnct">afviste</W>
 <W gloss="Detective_Inspector" lemma="kriminalassistent" msd="NCCSU==I" tag="NN" in="2:title" out="">kriminalassistent</W>
 <W gloss="Villy" lemma="Villy" msd="NP--U==-" tag="NNP" in="1:namef" out="">Villy</W>
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:title|-1:namef|1:pnct|2:loc|5:ref|12:rel">Nielsen</W>
@@ -210,8 +210,8 @@
 <W gloss="Madsen" lemma="Madsen" msd="NP--U==-" tag="NNP" in="-3:appr" out="-2:namef|-1:name">Madsen</W>
 <W gloss="undertook" lemma="foretage" msd="VADA=----A-" tag="VBD" in="-12:rel" out="-7:subj|-6:man|1:dobj|9:loc|12:man|17:pnct">foretog</W>
 <W gloss="the_interrogation" lemma="afhøring" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:time|5:pobj">afhøringen</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:time" out="1:mod|2:nobj">den</W>
-<W gloss="30," lemma="30." msd="AO---U=--" tag="JJ" in="-1:mod" out="">30.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:time" out="2:nobj|1:nobj">den</W>
+<W gloss="30," lemma="30." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">30.</W>
 <W gloss="December" lemma="december" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj">december</W>
 <W gloss="1981," lemma="1981" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1981</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-5:pobj" out="2:nobj">af</W>

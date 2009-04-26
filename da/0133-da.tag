@@ -170,7 +170,7 @@
 <W gloss="the_Sea_Lion_class" lemma="søløveklasse" msd="NCCSU==D" tag="NN" in="-5:nobj" out="">Søløveklassen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:other" out="">alle</W>
-<W gloss="delivered" lemma="aflevere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:attr" out="-10:[subj]|1:dir|3:time|-1:other">afleveret</W>
+<W gloss="delivered" lemma="aflevere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:attr" out="-10:[subj]|-1:other|1:dir|3:time">afleveret</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:dir" out="1:nobj">fra</W>
 <W gloss="orlogsværftet" lemma="orlogsværft" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">orlogsværftet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:time" out="1:nobj">i</W>
@@ -189,7 +189,7 @@
 <W gloss="run" lemma="løbe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|3:lobj">løbe</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="2:other" out="1:other">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:[nobj]">til</W>
-<W gloss="54" lemma="54" msd="AC---U=--" tag="CD" in="-1:[nobj]|-3:lobj" out="1:nobj|-2:other">54</W>
+<W gloss="54" lemma="54" msd="AC---U=--" tag="CD" in="-1:[nobj]|-3:lobj" out="-2:other|1:nobj">54</W>
 <W gloss="knots" lemma="knob" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">knob</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-7:cause" out="2:vobj">fordi</W>
@@ -198,7 +198,7 @@
 <W gloss="equipped" lemma="udstyre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">udstyret</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj|4:pred">med</W>
 <W gloss="a_total_of" lemma="i_alt" msd="RGU" tag="RP" in="1:other" out="">i_alt</W>
-<W gloss="12,750" lemma="12.750" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj|-1:other">12.750</W>
+<W gloss="12,750" lemma="12.750" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:other|1:nobj">12.750</W>
 <W gloss="HP" lemma="hestekraft" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">HK</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:pred" out="1:nobj">på</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>

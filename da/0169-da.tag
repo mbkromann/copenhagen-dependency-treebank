@@ -46,7 +46,7 @@
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">sidste</W>
 <W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj">seks</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|7:pnct|-5:time">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-5:time|1:subj|2:vobj|7:pnct">har</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">hun</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:pred|3:loc">været</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pred" out="1:nobj">i</W>
@@ -142,12 +142,12 @@
 <W gloss="alcoholic" lemma="alkoholiker" msd="NCCSU==I" tag="NN" in="-3:pred" out="-1:attr">alkoholiker</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-4:time" out="2:nobj">i</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="1:other" out="">over</W>
-<W gloss="twenty" lemma="tyve" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj|-1:other">tyve</W>
+<W gloss="twenty" lemma="tyve" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:other|1:nobj">tyve</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="hospitalised" lemma="indlægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="" out="2:time|7:pnct|3:other|5:other">Indlagt</W>
+<W gloss="hospitalised" lemma="indlægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="" out="2:time|3:other|5:other|7:pnct">Indlagt</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">første</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-2:time" out="-1:attr">gang</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:other" out="1:nobj">med</W>
@@ -193,7 +193,7 @@
 <W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="3:other" out="">pludselig</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="2:time" out="1:nobj">en</W>
 <W gloss="day" lemma="dag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dag</W>
-<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-4:time|1:subj|2:dobj|-3:other|-2:time">begyndte</W>
+<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-4:time|-3:other|-2:time|1:subj|2:dobj">begyndte</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:time">få</W>
@@ -208,7 +208,7 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">jeg</W>
 <W gloss="drink" lemma="drikke" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:dobj|7:time">drikke</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="1:other" out="">mellem</W>
-<W gloss="50" lemma="50" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:coord|3:attr|4:nobj|-1:other">50</W>
+<W gloss="50" lemma="50" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:other|1:coord|3:attr|4:nobj">50</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="70" lemma="70" msd="AC---U=--" tag="CD" in="-1:conj" out="2:[nobj]">70</W>
 <W gloss="ordinary" lemma="almindelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:attr" out="">almindelige</W>
@@ -238,7 +238,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="10:qobj" out="2:conj">Og</W>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:pred|7:pnct|1:other">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:other|2:pred|7:pnct">er</W>
 <W gloss="precisely" lemma="netop" msd="RGU" tag="RP" in="-1:other" out="">netop</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:pred" out="1:pobj">ét</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

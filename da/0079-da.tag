@@ -48,8 +48,8 @@
 <W gloss="stuck" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj">stukket</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sin</W>
 <W gloss="peepee" lemma="tissemand" msd="NCCSU==I" tag="NN" in="-1:possd" out="">tissemand</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="1:mod">op</W>
-<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="1:other">op</W>
+<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:nobj" out="">mig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>

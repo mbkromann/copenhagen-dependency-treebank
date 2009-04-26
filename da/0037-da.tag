@@ -47,8 +47,8 @@
 <W gloss="cause" lemma="volde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:iobj|8:dobj">volde</W>
 <W gloss="rivals" lemma="rival" msd="NCCPU==D" tag="NNP" in="-1:iobj" out="1:loc">rivalerne</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:loc" out="2:nobj">i</W>
-<W gloss="Dansk" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:mod" out="">Dansk</W>
-<W gloss="Supermarked" lemma="supermarked" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:mod|1:coord">Supermarked</W>
+<W gloss="Dansk" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Dansk</W>
+<W gloss="Supermarked" lemma="supermarked" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:coord|-1:attr">Supermarked</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="Aldi" lemma="Aldi" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Aldi</W>
 <W gloss="financial" lemma="finansiel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">finansielle</W>

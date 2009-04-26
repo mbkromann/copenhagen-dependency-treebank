@@ -144,7 +144,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="28" lemma="28" msd="AC---U=--" tag="CD" in="" out="1:nobj|3:loc|7:pnct|2:other">28</W>
+<W gloss="28" lemma="28" msd="AC---U=--" tag="CD" in="" out="1:nobj|2:other|3:loc|7:pnct">28</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="in_all" lemma="i_alt" msd="RGU" tag="RP" in="-2:other" out="">i_alt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>

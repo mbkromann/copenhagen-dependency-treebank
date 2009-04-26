@@ -123,7 +123,7 @@
 <W gloss="incredible" lemma="utrolig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">utrolig</W>
 <W gloss="support" lemma="opbakning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">opbakning</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:pobj" out="2:nobj">fra</W>
-<W gloss="both" lemma="både" msd="RGU" tag="RP" in="8:mod" out="">både</W>
+<W gloss="both" lemma="både" msd="RGU" tag="RP" in="8:other" out="">både</W>
 <W gloss="doctors" lemma="læge" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:coord">læger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="police" lemma="politi" msd="NCNSU==I" tag="NN" in="-2:conj" out="">politi</W>
@@ -131,12 +131,12 @@
 <W gloss="local_administrators" lemma="kommunalfolk" msd="NCNPU==I" tag="NNP" in="-4:conj" out="">kommunalfolk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="family" lemma="familie" msd="NCCSU==I" tag="NN" in="-6:conj" out="">familie</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="-8:mod|1:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="1:conj|-8:other">og</W>
 <W gloss="acquaintances" lemma="bekendt" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">bekendte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-16:cons" out="2:vobj">så</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">vi</W>
-<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|1:other">skal</W>
+<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:other|2:vobj">skal</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:other" out="">nok</W>
 <W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">komme</W>
 <W gloss="through" lemma="igennem" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">igennem</W>
@@ -210,7 +210,7 @@
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="-3:nobj">fra</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|4:[subj]" out="">vi</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|2:neg|3:vobj|1:other">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|1:other|2:neg|3:vobj">er</W>
 <W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="-1:other" out="">nemlig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="interested" lemma="interessere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:pobj">interesserede</W>
@@ -234,7 +234,7 @@
 <W gloss="norms_of_conduct" lemma="adfærdsnorm" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">adfærdsnormer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="namely" lemma="nemlig" msd="RGU" tag="RP" in="1:other" out="">nemlig</W>
-<W gloss="respect" lemma="respekt" msd="NCCSU==D" tag="NN" in="-6:appa" out="1:pobj|3:pnct|-1:other">respekten</W>
+<W gloss="respect" lemma="respekt" msd="NCCSU==D" tag="NN" in="-6:appa" out="-1:other|1:pobj|3:pnct">respekten</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="each_other" lemma="hinanden" msd="PC--PU---" tag="PP" in="-1:nobj" out="">hinanden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

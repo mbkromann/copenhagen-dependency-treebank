@@ -252,7 +252,7 @@
 </s>
 <s>
 <W gloss="Flames" lemma="flamme" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Flammerne</W>
-<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|4:pnct|2:other">står</W>
+<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|2:other|4:pnct">står</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="1:nobj">i</W>
 <W gloss="the_horizon" lemma="horisont" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">horisonten</W>

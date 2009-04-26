@@ -133,7 +133,7 @@
 <p>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="9:nobj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:expl|2:prg|5:neg|6:dobj|9:pnct|10:conc|24:pnct|8:other">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:expl|2:prg|5:neg|6:dobj|8:other|9:pnct|10:conc|24:pnct">er</W>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:prg" out="2:avobj">for</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
@@ -180,8 +180,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-15:conj" out="2:conj">og</W>
 <W gloss="gossip" lemma="sladder" msd="NCCSU==I" tag="NN" in="1:subj" out="">sladder</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|3:neg|4:pred|6:loc">er</W>
-<W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:mod" out="">jo</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|3:neg|4:pred|6:loc|1:other">er</W>
+<W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:other" out="">jo</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:other" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="-1:other">ikke</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-4:pred" out="1:vobj">at</W>
@@ -217,7 +217,7 @@
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="-5:[nobj]">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="1:other" out="">nemlig</W>
-<W gloss="your" lemma="din" msd="PO2NSUSNU" tag="PRP$" in="-8:appa" out="1:coord|3:possd|-1:other|4:other">dit</W>
+<W gloss="your" lemma="din" msd="PO2NSUSNU" tag="PRP$" in="-8:appa" out="-1:other|1:coord|3:possd|4:other">dit</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="mine" lemma="min" msd="PO1NSUSNU" tag="PRP$" in="-1:conj" out="1:[possd]">mit</W>
 <W gloss="responsibility" lemma="ansvar" msd="NCNSU==I" tag="NN" in="-3:possd|-1:[possd]" out="">ansvar</W>

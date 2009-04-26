@@ -44,8 +44,8 @@
 <W gloss="Yesterday" lemma="i_går" msd="RGU" tag="RP" in="1:time" out="">I_går</W>
 <W gloss="claimed" lemma="hævde" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|4:pnct|5:dobj|21:pnct">hævdede</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:nobj">de</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:mod">to</W>
-<W gloss="charged" lemma="tiltale" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">tiltalte</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:other">to</W>
+<W gloss="charged" lemma="tiltale" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:other" out="">tiltalte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:dobj" out="3:vobj">at</W>
 <W gloss="computer_man_the" lemma="computermand" msd="NCCSU==D" tag="NN" in="2:subj" out="">computermanden</W>
@@ -183,7 +183,7 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">Jeg</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:neg|3:vobj|6:pnct|7:cond|13:pnct|1:other">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:other|2:neg|3:vobj|6:pnct|7:cond|13:pnct">ville</W>
 <W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:other" out="">bare</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="talk" lemma="snakke" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pobj">snakke</W>

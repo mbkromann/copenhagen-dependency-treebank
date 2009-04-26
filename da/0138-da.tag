@@ -63,7 +63,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|12:pnct|13:pnct">Men</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="">jeg</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:prg|2:neg|4:vobj|6:pnct|7:cond|3:other">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:prg|2:neg|3:other|4:vobj|6:pnct|7:cond">har</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-1:prg" out="">altså</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="anymore" lemma="meget" msd="ANC---=-R" tag="JJR" in="-3:other" out="">mere</W>
@@ -85,7 +85,7 @@
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:pnct|3:xpl">to</W>
 <W gloss="things" lemma="ting" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ting</W>
 <W gloss=":" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-3:xpl" out="2:possd|3:loc|5:pnct|6:coord|12:pnct|13:coord|1:other">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-3:xpl" out="1:other|2:possd|3:loc|5:pnct|6:coord|12:pnct|13:coord">de</W>
 <W gloss="accused" lemma="tiltale" msd="VAPA=P[CN][DI]A-G" tag="VBN" in="-1:other" out="">tiltaltes</W>
 <W gloss="behaviour" lemma="opførsel" msd="NCCSU==I" tag="NN" in="-2:possd" out="">opførsel</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>

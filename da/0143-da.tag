@@ -123,12 +123,12 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|37:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:other|1:subj|3:time|6:vobj|2:other">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:other|1:subj|2:other|3:time|6:vobj">skal</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|5:[subj]|6:[subj]" out="">de</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:other" out="">ellers</W>
 <W gloss="before" lemma="inden" msd="SP" tag="IN" in="-3:time" out="2:nobj">inden</W>
-<W gloss="3," lemma="3." msd="AO---U=--" tag="JJ" in="1:mod" out="">3.</W>
-<W gloss="May" lemma="maj" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:mod">maj</W>
+<W gloss="3," lemma="3." msd="AO---U=--" tag="JJ" in="1:nobj" out="">3.</W>
+<W gloss="May" lemma="maj" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:nobj">maj</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="-5:[subj]|1:vobj">have</W>
 <W gloss="worked_out" lemma="udarbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">udarbejdet</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:coord">en</W>
@@ -203,7 +203,7 @@
 <W gloss="waiting" lemma="vente" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">vente</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-15:ref|1:other" out="">så</W>
-<W gloss="recommend" lemma="anbefale" msd="VADR=----A-" tag="VBD" in="" out="-16:xtop|1:subj|4:man|7:pnct|8:dobj|17:pnct|-1:other">anbefaler</W>
+<W gloss="recommend" lemma="anbefale" msd="VADR=----A-" tag="VBD" in="" out="-16:xtop|-1:other|1:subj|4:man|7:pnct|8:dobj|17:pnct">anbefaler</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="parties" lemma="part" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">parter</W>
@@ -217,8 +217,8 @@
 <W gloss="transfer_provisions" lemma="transfer-bestemmelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">transfer-bestemmelser</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-3:time" out="1:obl">fra</W>
 <W gloss="before" lemma="før" msd="SP" tag="IN" in="-1:obl" out="2:nobj">før</W>
-<W gloss="9" lemma="9." msd="AO---U=--" tag="JJ" in="1:mod" out="">9.</W>
-<W gloss="March" lemma="marts" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:mod">marts</W>
+<W gloss="9" lemma="9." msd="AO---U=--" tag="JJ" in="1:nobj" out="">9.</W>
+<W gloss="March" lemma="marts" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:nobj">marts</W>
 <W gloss="be_used" lemma="anvende" msd="VADR=----P-" tag="VBD" in="-8:vobj" out="-7:subj">anvendes</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>

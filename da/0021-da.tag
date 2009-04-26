@@ -46,9 +46,9 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:cond" out="2:nobj">I</W>
 <W gloss="if_so" lemma="bekræfte" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">bekræftende</W>
 <W gloss="least" lemma="fald" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">fald</W>
-<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-5:list" out="-3:cond|1:expl|2:other|3:dobj|6:loc">findes</W>
+<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-5:list" out="-3:cond|1:expl|2:=|3:dobj|6:loc">findes</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
-<W gloss="when" lemma="da" msd="RGU" tag="RP" in="-2:other" out="">da</W>
+<W gloss="when" lemma="da" msd="RGU" tag="RP" in="-2:=" out="">da</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="secret" lemma="hemmelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">hemmelig</W>
 <W gloss="agent_activity" lemma="agentvirksomhed" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">agentvirksomhed</W>

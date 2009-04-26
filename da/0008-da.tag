@@ -49,8 +49,8 @@
 <W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">100</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-6:prg|2:subj|3:dobj|6:pnct">tabte</W>
-<W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:mod" out="">Indre</W>
-<W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:mod">Mission</W>
+<W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Indre</W>
+<W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:attr">Mission</W>
 <W gloss="the_parish_council_elections" lemma="menighedsrådsvalg" msd="NCNSU==D" tag="NN" in="-3:dobj" out="1:loc">menighedsrådsvalget</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Skjern" lemma="Skjern" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Skjern</W>
@@ -163,8 +163,8 @@
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:time" out="-2:tobj">senere</W>
 <W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-1:time|2:subj|3:dobj|6:pnct">tabte</W>
-<W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:mod" out="">Indre</W>
-<W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:mod">Mission</W>
+<W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Indre</W>
+<W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:attr">Mission</W>
 <W gloss="the_parish_council_election" lemma="menighedsrådsvalg" msd="NCNSU==D" tag="NN" in="-3:dobj" out="1:loc">menighedsrådsvalget</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Skjern" lemma="Skjern" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Skjern</W>

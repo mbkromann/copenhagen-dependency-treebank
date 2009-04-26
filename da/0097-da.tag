@@ -220,8 +220,8 @@
 <W gloss="Anne" lemma="Anne" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Anne</W>
 <W gloss="Birgitte" lemma="Birgitte" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Birgitte</W>
 <W gloss="Lundholt" lemma="Lundholt" msd="NP--U==-" tag="NNP" in="1:subj|3:[subj]" out="-3:title|-2:namef">Lundholt</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|1:mod|2:vobj">kunne</W>
-<W gloss="when" lemma="da" msd="RGU" tag="RP" in="-1:mod" out="">da</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|2:vobj|1:other">kunne</W>
+<W gloss="when" lemma="da" msd="RGU" tag="RP" in="-1:other" out="">da</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pred">være</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:nobj">en</W>
 <W gloss="possibility" lemma="mulighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mulighed</W>

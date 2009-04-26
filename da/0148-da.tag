@@ -101,7 +101,7 @@
 <W gloss="dish" lemma="fad" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">fad</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">som</W>
-<W gloss="suits" lemma="passe" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:degr|4:pobj|2:other">passer</W>
+<W gloss="suits" lemma="passe" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:degr|2:other|4:pobj">passer</W>
 <W gloss="more_or_less" lemma="nogenlunde" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">nogenlunde</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="1:nobj">i</W>
 <W gloss="size" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">størrelse</W>
@@ -125,7 +125,7 @@
 <s>
 <W gloss="The_sauce" lemma="sauce" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Saucen</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|7:pnct">kan</W>
-<W gloss="done" lemma="gøre" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred|5:time|2:other">gøres</W>
+<W gloss="done" lemma="gøre" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred|2:other|5:time">gøres</W>
 <W gloss="prepared" lemma="parat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">parat</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="2:nobj">i</W>
 <W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">god</W>

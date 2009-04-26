@@ -43,7 +43,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|8:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:struct" out="">så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:struct|1:subj|4:pred|5:time|2:other">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:struct|1:subj|2:other|4:pred|5:time">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-2:other" out="">jo</W>
 <W gloss="Mozart" lemma="Mozart" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Mozart</W>
@@ -104,7 +104,7 @@
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Gothersgade" lemma="Gothersgade" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Gothersgade</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:conc|1:expl|3:neg|4:dobj|10:pnct|12:conj|21:pnct|2:other">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:conc|1:expl|2:other|3:neg|4:dobj|10:pnct|12:conj|21:pnct">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-2:other" out="">stadig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
@@ -139,7 +139,7 @@
 </s>
 <s>
 <W gloss="For_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:struct" out="">F.eks.</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="" out="-1:struct|1:nobj|8:pnct|4:other">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="" out="-1:struct|1:nobj|4:other|8:pnct">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:attr|2:nobj">par</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="Rococo_bureaus" lemma="rokoko-kommode" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">rokoko-kommoder</W>
@@ -150,7 +150,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="11:subj|12:[subj]" out="2:pnct|10:pnct|1:other|3:other|5:other">Den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="11:subj|12:[subj]" out="1:other|2:pnct|3:other|5:other|10:pnct">Den</W>
 <W gloss="one" lemma="ene" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:other" out="">ene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:other" out="1:nobj">i</W>
