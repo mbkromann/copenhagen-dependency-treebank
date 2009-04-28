@@ -91,8 +91,8 @@
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="-1:time" out="1:nobj">denne</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
 <W gloss="chosen" lemma="vælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-21:[subj]|2:dobj">valgt</W>
-<W gloss="exclusively" lemma="udelukkende" msd="RGU" tag="RP" in="1:mod" out="">udelukkende</W>
-<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="-1:mod|1:vobj">at</W>
+<W gloss="exclusively" lemma="udelukkende" msd="RGU" tag="RP" in="1:other" out="">udelukkende</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="-1:other|1:vobj">at</W>
 <W gloss="appear" lemma="optræde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:loc">optræde</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="churches" lemma="kirke" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kirker</W>
@@ -222,8 +222,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-7:pobj" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:nobj" out="4:vobj">at</W>
-<W gloss="the_profit" lemma="overskud" msd="NCNSU==D" tag="NN" in="3:subj" out="1:mod">overskuddet</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
+<W gloss="the_profit" lemma="overskud" msd="NCNSU==D" tag="NN" in="3:subj" out="1:dir">overskuddet</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:dir" out="1:nobj">fra</W>
 <W gloss="the_event" lemma="arrangement" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">arrangementet</W>
 <W gloss="having_go" lemma="gå" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:pobj">går</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
