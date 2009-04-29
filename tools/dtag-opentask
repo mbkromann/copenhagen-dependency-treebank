@@ -73,7 +73,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 			echo "Copying $fname from $rfname-auto.tag" 
 			svn cp /home/cdt/cdt/$dir/$rfname-auto.tag /home/cdt/cdt/$dir/$fname
 			echo "tag source: $rfname-auto.tag"
-		else if [ -f /home/cdt/cdt/$dir/$rfname-tagged.tag ] ; then
+		elif [ -f /home/cdt/cdt/$dir/$rfname-tagged.tag ] ; then
 			echo "Copying $fname from $rfname-tagged.tag" 
 			svn cp /home/cdt/cdt/$dir/$rfname-tagged.tag /home/cdt/cdt/$dir/$fname
 			echo "tag source: $rfname-tagged.tag"
