@@ -868,6 +868,7 @@ sub is_adjunct {
 	$type =~ s/\#$//g;
 	$type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
+	$type =~ s/[()]//g;
 
 	# See if reduced edge matches adjunct
 	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
@@ -908,6 +909,8 @@ sub is_complement {
 	$type =~ s/\#$//g;
     $type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
+    $type =~ s/[()]//g;
+
 
 	# See if it is known
 	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
@@ -953,6 +956,8 @@ sub is_known_edge {
     $type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
     $type =~ s/\#$//g;
+	$type =~ s/[()]//g;
+
 
 	# Normalize edge
 	if ($self->is_dependent($type)) {
