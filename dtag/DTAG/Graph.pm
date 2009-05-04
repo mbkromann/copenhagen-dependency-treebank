@@ -1935,6 +1935,7 @@ sub postscript {
 
 	# Find prologue
 	my $pssetup = $self->layout($interpreter, 'pssetup') || "";
+	print "pssetup=$pssetup\n";
 
 
 	# Print setup
