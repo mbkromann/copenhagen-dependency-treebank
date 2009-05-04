@@ -132,7 +132,7 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="remember" lemma="huske" msd="VADR=----A-" tag="VBD" in="-20:JOINT" out="-1:subj|1:dobj|17:pnct|1:DOBJ|41:JOINT">husker</W>
+<W gloss="remember" lemma="huske" msd="VADR=----A-" tag="VBD" in="-20:JOINT" out="-1:subj|1:dobj|1:DOBJ|17:pnct|41:+JOINT">husker</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj|-1:DOBJ" out="1:nobj|19:ELAB:rest/(dvs.)">en</W>
 <W gloss="vandrehistorie" lemma="vandrehistorie" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">vandrehistorie</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">om</W>
@@ -173,7 +173,7 @@
 <p>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="-41:JOINT" out="-1:subj|1:mod|2:pobj|15:pnct|19:CONJ/(og)|53:JOINT">ser</W>
+<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="-41:+JOINT" out="-1:subj|1:mod|2:pobj|15:pnct|19:CONJ/(og)|53:JOINT">ser</W>
 <W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">langt</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">efter</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:mod">en</W>
