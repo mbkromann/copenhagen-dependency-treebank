@@ -1,12 +1,14 @@
 #!/bin/bash
 
-files="0531 0602 0848 0915 1035 1252 1347 1408 1497"
+files="0235 0593 0596 0620 0647 0781 0783 0800 0866 0960 1014 1038 1043 1337 1420 1428"
+
 lang=da
 userspecs="iørn:da iørn:it morten:da morten:it lotte:da lotte:es"
 for userspec in `echo $userspecs` ; do 
 	user=`echo $userspec | awk -F: '{ print $1 }'`;
 	lang=`echo $userspec | awk -F: '{ print $2 }'`;
 	echo $user ":" $lang
+	echo -e "\n# Added discourse tasks on `date`\n" >> todo/$user.auto;
 	for id in `echo $files` ; do 
 		src=`ls $lang/$id-$lang*$user*.tag 2>/dev/null | grep -v disc`
 		if [ -z "$src" ] ; then
@@ -18,8 +20,8 @@ for userspec in `echo $userspecs` ; do
 		dest=$lang/$id-$lang-disc-$user.tag
 		if [ ! -f $dest ] ; then
 			svn cp $src $dest
-			#"[ ] $dest" >> todo/$u.auto
 		fi
+		echo "[ ] $dest" >> todo/$user.auto
 	done
 done
 
