@@ -862,13 +862,13 @@ sub is_adjunct {
 	return 0 if ($self->is_landing($edge));
 
 	# Remove edge decorations
-	$type =~ s/^://g;
+	$type =~ s/^[:;+]//g;
 	$type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
 	$type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
-	$type =~ s/[()]//g;
+	$type =~ s/[()+]//g;
 
 	# See if reduced edge matches adjunct
 	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
@@ -903,14 +903,13 @@ sub is_complement {
 	return 0 if ($self->is_landing($edge));
 
 	# Remove edge decorations
-	$type =~ s/^://g;
+	$type =~ s/^[:;+]//g;
 	$type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
     $type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
     $type =~ s/[()]//g;
-
 
 	# See if it is known
 	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
@@ -952,7 +951,7 @@ sub is_known_edge {
 	
 	# Return 1 if edge is a complement
 	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
-    $type =~ s/^://g;
+    $type =~ s/^[:;+]//g;
     $type =~ s/^[¹²³^]+//g;
 	$type =~ s/[¹²³^]+$//g;
     $type =~ s/\#$//g;
