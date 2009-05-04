@@ -43,7 +43,7 @@
 <s>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Gade</W>
-<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct">forberedte</W>
+<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct|31:+SUPPORT">forberedte</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:mod">de</W>
 <W gloss="delegates" lemma="delegere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">delegerede</W>
 <W gloss="for" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">på</W>
@@ -74,7 +74,7 @@
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
 <W gloss="against" lemma="imod" msd="SP" tag="IN" in="2:mod" out="1:nobj">Imod</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="">det</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:pnct|-2:mod|1:subj|2:dobj|15:pnct">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-31:+SUPPORT" out="-3:pnct|-2:mod|1:subj|2:dobj|15:pnct|20:CONJ/og">har</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:dobj" out="1:mod|2:nobj|3:coord">de</W>
 <W gloss="right" lemma="rigtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">rigtige</W>
@@ -94,7 +94,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|21:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|2:pobj">satser</W>
+<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-2:conj|-20:CONJ/og" out="-1:mod|1:subj|2:pobj">satser</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
