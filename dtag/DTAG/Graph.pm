@@ -1,6 +1,6 @@
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -13,11 +13,9 @@
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -874,6 +872,8 @@ sub is_adjunct {
 	# See if reduced edge matches adjunct
 	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
 		return 1;
+	} elsif (grep {lc($type) eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
+		return 1;
 	} elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
 		my ($head, $tail) = ($1, $3 || "");
 		my $return = 1;
@@ -911,6 +911,8 @@ sub is_complement {
 
 	# See if it is known
 	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
+		return 1;
+	} elsif (grep {lc($type) eq $_} @{$self->etypes()->{'comp'}}) {
 		return 1;
     } elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
         my ($head, $tail) = ($1, $3 || "");
@@ -3421,7 +3423,7 @@ sub yields {
 
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -3434,11 +3436,9 @@ sub yields {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -3703,7 +3703,7 @@ sub vars {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -3716,11 +3716,9 @@ sub vars {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 

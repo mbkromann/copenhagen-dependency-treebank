@@ -1,6 +1,6 @@
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -13,11 +13,9 @@
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -544,7 +542,7 @@ sub test {
 
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -557,11 +555,9 @@ sub test {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -629,7 +625,7 @@ sub new {
 
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -642,11 +638,9 @@ sub new {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -736,7 +730,7 @@ sub logfmodel {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -749,11 +743,9 @@ sub logfmodel {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -1031,7 +1023,7 @@ sub var {
 
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -1044,11 +1036,9 @@ sub var {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -1123,7 +1113,7 @@ sub node {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -1136,11 +1126,9 @@ sub node {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -1239,7 +1227,7 @@ sub new {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -1252,11 +1240,9 @@ sub new {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -1374,7 +1360,7 @@ sub var {
 }
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -1387,11 +1373,9 @@ sub var {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -3292,7 +3276,7 @@ sub xsplit {
 }
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -3305,11 +3289,9 @@ sub xsplit {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -4443,7 +4425,7 @@ sub xchildren {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -4456,18 +4438,16 @@ sub xchildren {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -4480,11 +4460,9 @@ sub xchildren {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -4493,7 +4471,7 @@ sub xchildren {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -4506,11 +4484,9 @@ sub xchildren {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -4569,7 +4545,7 @@ sub new {
 
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -4582,11 +4558,9 @@ sub new {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
@@ -5258,7 +5232,7 @@ sub wcover2sub {
 1;
 # 
 # LICENSE
-# Copyright (c) 2002-2003 Matthias Trautner Kromann <mtk@id.cbs.dk>
+# Copyright (c) 2002-2009 Matthias Buch-Kromann <mbk.isv@cbs.dk>
 # 
 # The code in this package is free software: You can redistribute it
 # and/or modify it under the terms of the GNU General Public License 
@@ -5271,11 +5245,9 @@ sub wcover2sub {
 # The GNU General Public License is contained in the file LICENSE-GPL.
 # Please consult the DTAG homepages for more information about DTAG:
 #
-#     http://sf.net/projects/disgram/
-#     http://www.id.cbs.dk/~mtk/dtag
+#	http://code.google.com/p/copenhagen-dependency-treebank/wiki/DTAG
 # 
-# Matthias Trautner Kromann
-# mtk@id.cbs.dk
+# Matthias Buch-Kromann <mbk.isv@cbs.dk>
 #
 
 
