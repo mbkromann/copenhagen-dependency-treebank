@@ -127,8 +127,8 @@ macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
 macro ddt !openoffice /home/cdt/web/www.treebank.dk/ddt-manual.odt &
 macro ddtpdf !acroread /home/cdt/web/www.treebank.dk/ddt-manual.pdf &
 macro corpusda corpus /home/cdt/cdt/da/*.tag
-macro discourse style discourse -label -color black -ps "3 setfontsize setupfont" -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80 ;; layout -pssetup "/dA 5 def"
-macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -color gray80 -ps "4 setfontsize setupfont" -arc -color gray80 -arclabel -color gray80 ;; layout -pssetup "/dA 5 def"
+macro discourse style discourse -label -color black -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80
+macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -color gray80 -ps "4 setfontsize setupfont" -arc -color gray80 -arclabel -color gray80 -ps "3 setfontsize setupfont" ;; layout -pssetup "/dA 5 def"
 macro syntax style discourse -label -color darkgreen -arc -color darkgreen -arclabel -color darkgreen ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def"
 syntax
 
