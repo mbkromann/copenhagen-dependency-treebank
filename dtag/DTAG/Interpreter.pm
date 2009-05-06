@@ -6530,10 +6530,13 @@ sub cmd_title {
 		$text = $fname . " on " . `date` . "(offset "
 			. $graph->offset() . ")";
 	} 
-	
-	# Set title
-	$graph->var('title', $text);
 
+	if ($text =~ /^\s*-off\s*$/) {
+		$text = undef;
+	}
+
+	$graph->var('title', $text);
+	print "title=" . ($graph->var('title') || "UNTITLED") . "\n";
 	return 1;
 }
 
