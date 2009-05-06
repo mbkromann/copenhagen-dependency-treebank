@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Read file names
+psfile=$1
+epsfile=$2
+path=~/Desktop/CDT-prints/
+
+# Define epsfile name automatically
+if [ -z "$epsfile" ] ; then
+	epsfile=`echo $psfile | sed -e 's/^.*\/\([^\/]*\)$/\1/g'`
+	epsfile=$path$epsfile
+fi
+
+if echo $epsfile | grep '/' ; then
+	echo # do nothing
+else
+	epsfile=$path$epsfile
+fi
+
+# Remove trailing eps
+epsfile=`echo $epsfile | sed -e 's/\.eps$//g' -e 's/\.ps$//g' \
+	-e 's/\.tag$//g' -e 's/\.atag$//g'`
+epsfile=`echo $epsfile".eps"`
+
+# Converting output to EPS
+echo EPS file saved as $epsfile
+ps2epsi $psfile $epsfile
+

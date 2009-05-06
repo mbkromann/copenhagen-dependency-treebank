@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Read file names
+psfile=$1
+pngfile=$2
+path=~/Desktop/CDT-prints/
+epsfile=$1.$$.eps
+
+# Define pngfile name automatically
+if [ -z "$pngfile" ] ; then
+	pngfile=`echo $psfile | sed -e 's/^.*\/\([^\/]*\)$/\1/g'`
+	pngfile=$path$pngfile
+fi
+
+if echo $pngfile | grep '/' ; then
+	echo # do nothing
+else
+	pngfile=$path$pngfile
+fi
+
+# Remove trailing png
+pngfile=`echo $pngfile | sed -e 's/\.png$//g' -e 's/\.ps$//g' \
+	-e 's/\.tag$//g' -e 's/\.atag$//g'`
+pngfile=`echo $pngfile".png"`
+
+# Converting output to PDF
+echo PNG file saved as $pngfile
+ps2epsi $psfile $epsfile
+pstoimg -transparent -antialias -scale 3 $epsfile -out $pngfile
+rm $epsfile
+
