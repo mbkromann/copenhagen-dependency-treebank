@@ -41,7 +41,7 @@
 <p>
 <s>
 <W gloss="The_working_group" lemma="arbejdsgruppe" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Arbejdsgruppen</W>
-<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|18:pnct">skal</W>
+<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|18:pnct|63:+ELAB:part/bl.a">skal</W>
 <W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">tage</W>
 <W gloss="its" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sit</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">udgangspunkt</W>
@@ -58,12 +58,12 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="including" lemma="herunder" msd="RGU" tag="RP" in="-10:mod" out="1:nobj">herunder</W>
 <W gloss="defence" lemma="forsvar" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">forsvarets</W>
-<W gloss="lægemiddelberedskab" lemma="lægemiddelberedskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">lægemiddelberedskab</W>
+<W gloss="lægemiddelberedskab" lemma="lægemiddelberedskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="5:ELAB:exp">lægemiddelberedskab</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Lægemiddelberedskabet" lemma="lægemiddelberedskab" msd="NCNSU==D" tag="NN" in="1:subj|9:[subj]|10:[subj]" out="">Lægemiddelberedskabet</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|8:vobj|35:pnct">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:ELAB:exp" out="-1:subj|1:mod|8:vobj|35:pnct">skal</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">et</W>
 <W gloss="service_level" lemma="serviceniveau" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">serviceniveau</W>
@@ -104,7 +104,7 @@
 <p>
 <s>
 <W gloss="the_working_group" lemma="arbejdsgruppe" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]|22:[subj]" out="">Arbejdsgruppen</W>
-<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj">skal</W>
+<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-63:+ELAB:part/bl.a" out="-1:subj|1:mod|2:vobj|69:ELAB:exp">skal</W>
 <W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:mod" out="">blandt_andet</W>
 <W gloss="bring_up-to-date" lemma="ajourføre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|3:dobj|18:coord">ajourføre</W>
 <W gloss="previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:mod" out="">tidligere</W>
@@ -173,7 +173,7 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_working_group's" lemma="arbejdsgruppe" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">arbejdsgruppens</W>
 <W gloss="job" lemma="arbejde" msd="NCNSU==I" tag="NN" in="-1:possd" out="">arbejde</W>
-<W gloss="expects" lemma="forvente" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|9:pnct">forventer</W>
+<W gloss="expects" lemma="forvente" msd="VADR=----A-" tag="VBD" in="-69:ELAB:exp" out="1:subj|2:vobj|9:pnct|15:+TIME:succ/dernæst">forventer</W>
 <W gloss="the_Ministry_of_the_Interior" lemma="indenrigsministerium" msd="NCNSU==D" tag="NN" in="-1:subj" out="">indenrigsministeriet</W>
 <W gloss="be" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-7:subj|1:vobj">er</W>
 <W gloss="concluded" lemma="afslutte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:mod">afsluttet</W>
@@ -188,7 +188,7 @@
 <p>
 <s>
 <W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="1:mod" out="">Dernæst</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|6:vobj|29:pnct">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-15:+TIME:succ/dernæst" out="-1:mod|1:subj|6:vobj|29:pnct">vil</W>
 <W gloss="the_Ministry_of_the_Interior" lemma="indenrigsministerium" msd="NCNSU==D" tag="NN" in="-1:subj|5:[subj]" out="1:pnct|2:conj|3:coord">indenrigsministeriet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="the_civil_defence_authority" lemma="civilforsvarsstyrelse" msd="NCCSU==D" tag="NN" in="-2:conj" out="">civilforsvarsstyrelsen</W>
