@@ -43,7 +43,7 @@
 <s>
 <W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:pred|3:pnct|16:pnct|21:CONTR|60:+ELAB:exp">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:pred|3:pnct|16:pnct|21:CONTR:prg/men|60:EVAL">er</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
 <W gloss="clear" lemma="klar" msd="ANPNSU=IU" tag="JJ" in="-2:pred" out="-1:mod">klart</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -64,7 +64,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|32:pnct|33:pnct">Men</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
-<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-2:conj|-21:CONTR" out="-1:subj|1:mod|2:lobj|3:mod|5:pnct|6:mod">farer</W>
+<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-2:conj|-21:CONTR:prg/men" out="-1:subj|1:mod|2:lobj|3:mod|5:pnct|6:mod">farer</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="forward" lemma="frem" msd="RGU" tag="RP" in="-2:lobj" out="">frem</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -103,7 +103,7 @@
 <W gloss="ATP_director" lemma="ATP-direktør" msd="NCCSU==I" tag="NN" in="2:title" out="">ATP-direktør</W>
 <W gloss="Palle" lemma="Palle" msd="NP--U==-" tag="NNP" in="1:namef" out="">Palle</W>
 <W gloss="Simonsen" lemma="Simonsen" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef|-2:title">Simonsen</W>
-<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-60:+ELAB:exp" out="-1:subj|1:mod|2:dobj|4:pred|5:pnct|6:mod|13:pnct|17:CAUSE/(for)">tager</W>
+<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-60:EVAL" out="-1:subj|1:mod|2:dobj|4:pred|5:pnct|6:mod|13:pnct|17:CAUSE/(for)">tager</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="mouth" lemma="mund" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">munden</W>
 <W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
