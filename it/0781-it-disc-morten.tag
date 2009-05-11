@@ -1,5 +1,5 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|3:preds|17:pnct|21:conj">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|3:preds|17:pnct|21:conj|21:CONTR:prg/ma|50:+EVAL">È</W>
 <W lemma="del" msd="SP+P" tag="PRE:det" in="2:degr" out="1:nobj">del</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="-1:nobj" out="">tutto</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="-3:preds" out="-2:degr|1:appr">evidente</W>
@@ -20,7 +20,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="noi" msd="PP" tag="PRO:pers" in="2:subj" out="">noi</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="5:coref-res">non</W>
-<W lemma="operare" msd="VADR" tag="VER:pres" in="-21:conj" out="-1:neg|-2:subj|-3:coord|1:man|2:pnct|3:cons|18:pnct">operiamo</W>
+<W lemma="operare" msd="VADR" tag="VER:pres" in="-21:conj|-21:CONTR:prg/ma" out="-1:neg|-2:subj|-3:coord|1:man|2:pnct|3:cons|18:pnct">operiamo</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:man" out="">imprudentemente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="per" msd="CS" tag="CON" in="-3:cons" out="1:nobj|7:vobj">per</W>
@@ -49,7 +49,7 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="1:robj" out="">si</W>
-<W lemma="sbilanciare" msd="VADR" tag="VER:pres" in="" out="-8:subj|-1:robj|-2:neg|-10:pnct|1:degr|2:pobj|9:pnct">sbilancia</W>
+<W lemma="sbilanciare" msd="VADR" tag="VER:pres" in="-50:+EVAL" out="-8:subj|-1:robj|-2:neg|-10:pnct|1:degr|2:pobj|9:pnct|11:CAUSE/(perché)">sbilancia</W>
 <W lemma="troppo" msd="RG" tag="ADV" in="-1:degr" out="">troppo</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="-2:pobj" out="1:vobj">nel</W>
 <W lemma="commentare" msd="VAF" tag="VER:infi" in="-1:vobj" out="1:dobj">commentare</W>
@@ -60,7 +60,7 @@
 <W lemma="investimento" msd="NC" tag="NOM" in="-1:nobj" out="">investimento</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="egli" msd="PP" tag="PRO:pers" in="-18:coref-var|1:subj" out="">Egli</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="" out="-1:subj|2:preds|33:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-11:CAUSE/(perché)" out="-1:subj|2:preds|33:pnct|36:+CONJ/(e)">è</W>
 <W lemma="ben" msd="RG" tag="ADV" in="1:degr" out="">ben</W>
 <W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:dobj">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:dobj" out="11:vobj">che</W>
@@ -96,7 +96,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-33:pnct" out="">.</W>
 <W lemma="palla" msd="NC" tag="NOM" in="1:namef" out="">Palle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="-1:namef">Simonsen</W>
-<W lemma="dire" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj|26:pnct">dice</W>
+<W lemma="dire" msd="VADR" tag="VER:pres" in="-36:+CONJ/(e)" out="-1:subj|1:dobj|26:pnct|38:+CONJ/(e)">dice</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="4:time" out="-1:pnct|1:nobj|2:pnct">al</W>
@@ -134,7 +134,7 @@
 <W lemma="palla" msd="NC" tag="NOM" in="1:namef" out="">Palle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="-1:namef|24:coref-var">Simonsen</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="nascondere" msd="VADR" tag="VER:pres" in="" out="-2:subj|-1:neg|-10:conc|1:dobj|10:vobj|21:pnct">nasconde</W>
+<W lemma="nascondere" msd="VADR" tag="VER:pres" in="-38:+CONJ/(e)" out="-2:subj|-1:neg|-10:conc|1:dobj|10:vobj|21:pnct|23:CONJ/(e)">nasconde</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="">che</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE:det" in="7:time" out="-1:pnct|1:nobj|5:pnct">nel</W>
@@ -157,7 +157,7 @@
 <W lemma="straniero" msd="AN" tag="ADJ" in="-1:attrr" out="">stranieri</W>
 <W lemma="." msd="XP" tag="SENT" in="-21:pnct" out="">.</W>
 <W lemma="egli" msd="PP" tag="PRO:pers" in="-24:coref-var|1:subj" out="">Egli</W>
-<W lemma="ritenere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:dobj|23:pnct">ritiene</W>
+<W lemma="ritenere" msd="VADR" tag="VER:pres" in="-23:CONJ/(e)" out="-1:subj|1:dobj|23:pnct">ritiene</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="essere" msd="VADR" tag="VER:cpre" in="-1:vobj" out="1:dobj">sia</W>
 <W lemma="uno" msd="PI" tag="DET:indef" in="-1:dobj|-16:coref-res" out="1:nobj">uno</W>

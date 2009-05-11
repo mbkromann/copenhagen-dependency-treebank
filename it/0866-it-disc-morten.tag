@@ -1,6 +1,6 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj|2:[subj]" out="-1:namef">Gade</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:vobj|28:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:vobj|28:pnct|79:+ELAB:exp">ha</W>
 <W lemma="preannunziare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:[subj]|1:iobj|3:dobj">preannunziato</W>
 <W lemma="al" msd="SP+P" tag="PRE:det" in="-1:iobj" out="1:nobj">ai</W>
 <W lemma="delegato" msd="NC" tag="NOM" in="-1:nobj" out="">delegati</W>
@@ -30,7 +30,7 @@
 <W lemma="giugno" msd="NC" tag="NOM" in="-2:nobj" out="-1:nobj">giugno</W>
 <W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="49:qobj" out="-1:pnct|2:dobj|9:conj|23:conj|48:pnct">Abbiamo</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="49:qobj|49:QOBJ" out="-1:pnct|2:dobj|9:conj|23:conj|48:pnct|23:CONJ/inoltre">Abbiamo</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-2:dobj" out="-1:degr|1:nobj">gli</W>
 <W lemma="argomento" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:pobj:pobj">argomenti</W>
@@ -53,7 +53,7 @@
 <W lemma="del" msd="SP+P" tag="PRE:det" in="-1:attrr" out="1:nobj">del</W>
 <W lemma="no." msd="XA" tag="ABR" in="-1:nobj" out="">no.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:struct" out="">Inoltre</W>
-<W lemma="potere" msd="VADR" tag="VER:pres" in="-23:conj|1:[subj]" out="-1:struct|1:¹vobj|17:pnct|22:conj">possiamo</W>
+<W lemma="potere" msd="VADR" tag="VER:pres" in="-23:conj|1:[subj]|-23:CONJ/inoltre" out="-1:struct|1:¹vobj|17:pnct|22:conj|22:CONS/quindi">possiamo</W>
 <W compound="¹basar²ci" lemma="basare" msd="VAF" tag="VER:infi" in="-1:¹vobj|0:²robj¹" out="-1:[subj]|1:dobj|0:²robj¹">basarci</W>
 <W lemma="sul" msd="SP+P" tag="PRE:det" in="-1:dobj" out="1:nobj">sul</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
@@ -75,11 +75,11 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="da" msd="SP" tag="PRE" in="2:loc" out="1:nobj">da</W>
 <W lemma="noi" msd="PP" tag="PRO:pers" in="-1:nobj" out="">noi</W>
-<W lemma="vincere" msd="VADR" tag="VER:futu" in="-22:conj" out="-4:cons|-2:loc|1:subj">vincerà</W>
+<W lemma="vincere" msd="VADR" tag="VER:futu" in="-22:conj|-22:CONS/quindi" out="-4:cons|-2:loc|1:subj">vincerà</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="no." msd="XA" tag="ABR" in="-1:nobj" out="">no.</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-48:pnct" out="">"</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-49:qobj|1:vobj|3:subj|4:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-79:+ELAB:exp" out="-49:qobj|1:vobj|3:subj|4:pnct|-49:QOBJ|12:+CONJ/(e)">ha</W>
 <W lemma="affermare" msd="VAP" tag="VER:pper" in="-1:vobj" out="2:[subj]">affermato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:subj|-2:[subj]" out="-1:namef">Gade</W>
@@ -91,7 +91,7 @@
 <W lemma="politica|politico" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">politica</W>
 <W lemma="interno" msd="AN" tag="ADJ" in="-1:attrr" out="">interna</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="1:[subj]" out="-7:bg|1:vobj|44:pnct|26:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="1:[subj]|-12:+CONJ/(e)" out="-7:bg|1:vobj|26:pnct|44:pnct|27:;CONJ/inoltre">ha</W>
 <W lemma="sottolineare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-1:[subj]|1:dobj">sottolineato</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="6:qobj">che</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="5:pnct" out="">"</W>
@@ -99,7 +99,7 @@
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">partito</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:appr" out="1:attrd">Popolare</W>
 <W lemma="socialista" msd="AN" tag="ADJ" in="-1:attrd" out="">socialista</W>
-<W lemma="essere" msd="VADR" tag="VER:pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|9:bg|17:pnct|19:conj|8:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER:pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|8:pnct|9:bg|17:pnct|19:conj">è</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="serbatoio" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">serbatoio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
@@ -118,7 +118,7 @@
 <W lemma="cambiamento" msd="NC" tag="NOM" in="-1:nobj" out="">cambiamento</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-17:pnct" out="">"</W>
 <W lemma=";" msd="XP" tag="PON" in="-26:pnct" out="">;</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-19:conj" out="1:struct|2:vobj">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-19:conj|-27:;CONJ/inoltre" out="1:struct|2:vobj|60:+CONJ/(e)">ha</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-1:struct" out="">inoltre</W>
 <W lemma="definire" msd="VAP" tag="VER:pper" in="-2:vobj" out="1:dobj">definito</W>
 <W lemma="il" msd="PD" tag="DET:def" in="-1:dobj|69:coref-id" out="1:nobj">il</W>
@@ -178,7 +178,7 @@
 <W lemma="responsabilità" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">responsabilità</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-5:pnct" out="">"</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-6:qobj|1:vobj|3:subj|4:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-60:+CONJ/(e)" out="-6:qobj|1:vobj|3:subj|4:pnct|9:+CONJ/(e)">ha</W>
 <W lemma="affermare" msd="VAP" tag="VER:pper" in="-1:vobj" out="2:[subj]">affermato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:subj|-2:[subj]" out="-1:namef">Gade</W>
@@ -187,7 +187,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:namef" out="-1:namef|1:+">K</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]" out="-2:namef">Nielsen</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="-1:subj|1:vobj|22:pnct">ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="-9:+CONJ/(e)" out="-1:subj|1:vobj|22:pnct|23:CONJ/(e)">ha</W>
 <W lemma="sostenere" msd="VAP" tag="VER:pper" in="-1:vobj" out="-2:[subj]|1:dobj">sostenuto</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-1:dobj" out="4:qobj">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="3:subj|4:[subj]" out="-69:coref-id|1:nobj|26:coref-id">il</W>
@@ -210,7 +210,7 @@
 <W lemma="tempo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">tempo</W>
 <W lemma="&quot;" msd="XP" tag="PON" in="-15:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
-<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="1:[subj]" out="1:vobj|13:pnct">Ha</W>
+<W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="1:[subj]|-23:CONJ/(e)" out="1:vobj|13:pnct">Ha</W>
 <W lemma="affermare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-1:[subj]|1:struct|2:dobj">affermato</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-1:struct" out="">inoltre</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="-2:dobj" out="5:vobj">che</W>
@@ -219,7 +219,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="-26:coref-id|2:subj|3:[subj]" out="1:nobj">il</W>
 <W lemma="governo" msd="NC" tag="NOM" in="-1:nobj" out="">governo</W>
 <W lemma="essere" msd="VA" tag="VER:cond" in="-5:vobj" out="-4:time|-2:subj|1:vobj">sarebbe</W>
-<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="1:preds|-3:[subj]">stato</W>
+<W lemma="essere|stare" msd="VAP" tag="VER:pper" in="-1:vobj" out="-3:[subj]|1:preds">stato</W>
 <W lemma="costringere" msd="VAP" tag="VER:pper" in="-1:preds" out="1:pobj">costretto</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">a</W>
 <W compound="¹ritirar²si" lemma="ritirare" msd="VAF" tag="VER:infi" in="-1:¹vobj|0:²robj¹" out="0:²robj¹">ritirarsi</W>
