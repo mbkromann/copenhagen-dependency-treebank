@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="12:ref|14:rel">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|10:pnct|19:pnct|22:coref-res|23:ELAB:class">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|10:pnct|19:pnct|22:coref-res|23:INTERP">er</W>
 <W gloss="people_power" lemma="folkemagt" msd="NCCSU==D" tag="NN" in="-1:pred" out="1:mod">folkemagten</W>
 <W gloss="consisting" lemma="bestå" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:mod" out="1:pobj">bestående</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="4:nobj">af</W>
@@ -65,7 +65,7 @@
 </s>
 <s>
 <W gloss="That" lemma="sådan" msd="RGU" tag="RP" in="-22:coref-res|1:pred" out="">Sådan</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:ELAB:class" out="-1:pred|1:subj|4:pnct|5:coord|40:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:INTERP" out="-1:pred|1:subj|4:pnct|5:coord|40:pnct">er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:mod|2:nobj">det</W>
 <W gloss="democratic" lemma="demokratisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">demokratiske</W>
 <W gloss="ideal" lemma="ideal" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">ideal</W>
