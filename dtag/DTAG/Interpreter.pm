@@ -1497,8 +1497,10 @@ sub cmd_cd {
 	my $dir = (shift) || "";
 
 	# Change to new directory
-	print "*cd $dir*\n";
+	my $HOME = $ENV{'HOME'} || ".";
+	$dir =~ s/~/$ENV{'HOME'}/g;
 	chdir($dir);
+	$self->cmd_shell("pwd");
 
 	# Return
 	return 1;
