@@ -854,7 +854,6 @@ sub interpreter {
 
 sub is_adjunct {
 	my ($self, $edge) = @_;
-	
 	# Return 1 if edge is an adjunct edge 
 	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
 
@@ -882,6 +881,8 @@ sub is_adjunct {
 		return $self->is_adjunct($head) && $return;
 	} elsif ($type =~ /^([^:]+):([^:]+)$/) {
 		return $self->is_adjunct($1) && $self->is_dependent($2);
+    } elsif ($type =~ /^([^\|]+)\|(.*)$/) {
+           return $self->is_adjunct($1) && $self->is_dependent($2);
 	}
 
 	# Otherwise return 0
@@ -922,6 +923,8 @@ sub is_complement {
         map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
         return $self->is_complement($head) && $return;
     } elsif ($type =~ /^([^:]+):([^:]+)$/) {
+		return $self->is_complement($1) && $self->is_dependent($2);
+	} elsif ($type =~ /^([^\|]+)\|(.*)$/) {
 		return $self->is_complement($1) && $self->is_dependent($2);
 	}
 
@@ -3307,6 +3310,38 @@ sub superscript {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/xml-quote.pl
+## ------------------------------------------------------------
+
+sub xml_quote {
+	my $self = shift;
+	my $string = shift;
+	$string =~ s/\&/\&amp;/g;
+	$string =~ s/</\&lt;/g;
+	$string =~ s/>/\&gt;/g;
+	$string =~ s/"/\&22;/g;
+	$string =~ s/\|/\&7c;/g;
+	$string =~ s/:/\&3a;/g;
+	return $string;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/xml-unquote.pl
+## ------------------------------------------------------------
+
+sub xml_unquote {
+	my $self = shift;
+	my $string = shift;
+	$string =~ s/\&lt;/</g;
+	$string =~ s/\&gt;/>/g;
+	$string =~ s/\&22;/"/g;
+	$string =~ s/\&7c;/|/g;
+	$string =~ s/\&3a;/:/g;
+	$string =~ s/\&amp;/\&/g;
+	return $string;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/yield_simplify.pl
 ## ------------------------------------------------------------
 
@@ -4192,6 +4227,7 @@ sub xml {
 	my $self = shift;
 	my $graph = shift;
 	my $displace = shift || 0;
+	my $noquote = shift || 0;
 
 	sub emph {
 		my $text = shift;
@@ -4221,14 +4257,14 @@ sub xml {
 			my $value = $self->var($var);
 			$value = ref($value) ? $self->varstr($var) : "\"$value\"";
 			$value = "\"\"" if ("$value" eq "");
-			$string .= " $var=" . emph($value) . "";
+			$string .= " $var=" . emph($noquote ? $value : $graph->xml_quote($value)) . "";
 		}
 	}
 
 	# In-edges
 	my @edges = ();
 	foreach my $e (@{$self->in()}) {
-		push @edges, ($displace + $e->out()) . ":" . $e->type()
+		push @edges, ($displace + $e->out()) . ":" .  ($noquote ? $e->type() : $graph->xml_quote($e->type()))
 			unless ($e->var('ignore'));
 	}
 	$string .= " in=\"" . emph(join("|", @edges)) . "\"";
@@ -4236,7 +4272,7 @@ sub xml {
 	# Out-edges
 	@edges = ();
 	foreach my $e (@{$self->out()}) {
-		push @edges, ($displace + $e->in()) . ":" . $e->type()
+		push @edges, ($displace + $e->in()) . ":" . ($noquote ? $e->type() : $graph->xml_quote($e->type()))
 			unless ($e->var('ignore'));
 	}
 	$string .= " out=\"" . emph(join("|", @edges)) . "\"";

@@ -3434,14 +3434,14 @@ sub cmd_load_tag {
 					foreach my $e (split(/\|/, $vars->{$var})) {
 						$e =~ /^([+-]?[0-9]+):(\S+)$/;
 						my $pos2 = $1+$pos;
-						my $etype = $2;
+						my $etype = $graph->xml_unquote($2);
 						my $edge;
 
 						# Create edge
 						if ($var eq "in") {
-							$edge = Edge->new($pos, $1+$pos, $2);
+							$edge = Edge->new($pos, $1+$pos, $etype);
 						} elsif ($var eq "out") {
-							$edge = Edge->new($1+$pos, $pos, $2);
+							$edge = Edge->new($1+$pos, $pos, $etype);
 						}
 						
 						# Create edge if possible
@@ -3454,7 +3454,7 @@ sub cmd_load_tag {
 				} else {
 					# Ordinary variable
 					$varnames->{$var} = 1;
-					$n->var($var, $vars->{$var});
+					$n->var($var, $graph->xml_unquote($vars->{$var}));
 				}
 			}
 		} elsif ($line =~ /^\s*<!--\s*<inalign>([\d+]+)\s+([\d+]+)<\/inalign>\s*-->\s*$/) {
@@ -6708,7 +6708,7 @@ sub print_node {
 
 	return (($graph->offset() && $rpos >= 0) ? "+$rpos" : "$rpos") 
 		. ($N->comment() ? "| " : ": ")
-		. $N->xml($graph, 0) . "\n";
+		. $N->xml($graph, 0, 1) . "\n";
 }
 
 sub min {
