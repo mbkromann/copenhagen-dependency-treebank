@@ -3319,7 +3319,7 @@ sub xml_quote {
 	$string =~ s/\&/\&amp;/g;
 	$string =~ s/</\&lt;/g;
 	$string =~ s/>/\&gt;/g;
-	$string =~ s/"/\&22;/g;
+	$string =~ s/(.)"(.)/$1\&22;$2/g;
 	$string =~ s/\|/\&7c;/g;
 	$string =~ s/:/\&3a;/g;
 	return $string;

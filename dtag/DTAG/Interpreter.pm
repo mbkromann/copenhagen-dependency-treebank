@@ -8755,6 +8755,9 @@ sub varparse {
 		} elsif ($varstr =~ s/^\s*([^=\s]+)=`([^`]*)`\s+//) {
 			# Back-quoted value
 			($var, $val) = ($1, eval($2));
+		} elsif ($varstr =~ s/^\s*([^=\s]+)=(&22;)+(\S+?)(&22;)+\s+//) {
+			# Quoted value
+			($var, $val) = ($1, "$3");
 		} elsif ($varstr =~ s/^\s*([^=\s]+)="([^"]*)"\s+//) {
 			# Quoted value
 			($var, $val) = ($1, "$2");
