@@ -1,0 +1,249 @@
+<p>
+<s>
+<W lemma=&22;&22;&amp;quot;&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="2:pnct" out="">"</W>
+<W lemma=&22;&22;non&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="1:neg" out="">Non</W>
+<W lemma=&22;&22;credere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-2:pnct|-1:neg|1:time|2:dobj|16:pnct">credo</W>
+<W lemma=&22;&22;più&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="-1:time" out="">più</W>
+<W lemma=&22;&22;che&22;&22; msd=&22;&22;PT&22;&22; tag=&22;&22;PRO&3a;rela&22;&22; in="-2:dobj" out="8:vobj">che</W>
+<W lemma=&22;&22;uno&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;DET&3a;indef&22;&22; in="7:subj|8:[subj]" out="1:pobj">uno</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj" out="1:nobj">dei</W>
+<W lemma=&22;&22;membro&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg">membri</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma=&22;&22;comitato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg#">Comitato</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma=&22;&22;mercato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">mercato</W>
+<W lemma=&22;&22;potere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;cpre&22;&22; in="-8:vobj" out="-7:subj|1:vobj">possa</W>
+<W lemma=&22;&22;tenere&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="-8:[subj]|1:man|3:dobj">tenere</W>
+<W lemma=&22;&22;sotto&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:man" out="1:nobj">sotto</W>
+<W lemma=&22;&22;controllo&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">controllo</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-3:dobj" out="1:nobj">la</W>
+<W lemma=&22;&22;situazione&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">situazione</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-16:pnct" out="">.</W>
+</s>
+<s>
+<W lemma=&22;&22;essere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="30:qobj|9:[subj]|2:[subj]" out="1:degr|2:vobj|29:pnct|28:pnct">Siamo</W>
+<W lemma=&22;&22;tutto&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;PRO&3a;indef&22;&22; in="-1:degr" out="">tutti</W>
+<W lemma=&22;&22;sedere&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-2:vobj" out="1:loc|6:goal|-2:[subj]">seduti</W>
+<W lemma=&22;&22;qui&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="-1:loc" out="1:pnct|2:appa">qui</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-1:pnct" out="">,</W>
+<W lemma=&22;&22;riunione&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-2:appa" out="1:time">riunione</W>
+<W lemma=&22;&22;dopo&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:time" out="1:nobj">dopo</W>
+<W lemma=&22;&22;riunione&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">riunione</W>
+<W lemma=&22;&22;a&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-6:goal" out="1:vobj">a</W>
+<W lemma=&22;&22;emettere&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="1:dobj|3:iobj|-9:[subj]">emettere</W>
+<W lemma=&22;&22;mandato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:dobj" out="1:attrr">mandati</W>
+<W lemma=&22;&22;vincolante&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr" out="">vincolanti</W>
+<W lemma=&22;&22;al&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-3:iobj" out="1:nobj">ai</W>
+<W lemma=&22;&22;ministro&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="2:relr|1:ref">ministri</W>
+<W lemma=&22;&22;che&22;&22; msd=&22;&22;PT&22;&22; tag=&22;&22;PRO&3a;rela&22;&22; in="1:subj|-1:ref|2:[subj]" out="">che</W>
+<W lemma=&22;&22;dovere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-2:relr" out="-1:subj|1:vobj">devono</W>
+<W lemma=&22;&22;difendere&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="-2:[subj]|1:dobj|5:loc">difendere</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:dobj" out="1:nobj">la</W>
+<W lemma=&22;&22;posizione&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">posizione</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:attrr" out="1:nobj">della</W>
+<W lemma=&22;&22;Danimarca&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="-1:nobj" out="">Danimarca</W>
+<W lemma=&22;&22;al&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-5:loc" out="1:nobj">al</W>
+<W lemma=&22;&22;consiglio&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg#">consiglio</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg#" out="1:nobj">dei</W>
+<W lemma=&22;&22;ministro&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg">ministri</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma=&22;&22;parlamento&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#">Parlamento</W>
+<W lemma=&22;&22;europeo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">europeo</W>
+<W lemma=&22;&22;&amp;quot;&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-28:pnct" out="">"</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-29:pnct" out="">,</W>
+<W lemma=&22;&22;dire&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-30:qobj|2:subj|3:pnct">dice</W>
+<W lemma=&22;&22;Peter&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="1:namef" out="">Peter</W>
+<W lemma=&22;&22;&lt;unknown&gt;&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-2:subj" out="-1:namef">Duetoft</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-3:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma=&22;&22;si&22;&22; msd=&22;&22;PP&22;&22; tag=&22;&22;PRO&3a;pers&22;&22; in="1:subj" out="">Si</W>
+<W lemma=&22;&22;riferire&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-1:subj|3:pobj|35:pnct">riferisce</W>
+<W lemma=&22;&22;ad&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="2:ex" out="1:nobj">ad</W>
+<W lemma=&22;&22;esempio&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">esempio</W>
+<W lemma=&22;&22;al&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-3:pobj" out="-2:ex|1:nobj">alla</W>
+<W lemma=&22;&22;scoprire&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:nobj" out="5:pobj&3a;dobj|1:attrr">scoperta</W>
+<W lemma=&22;&22;da&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:attrr" out="1:nobj">da</W>
+<W lemma=&22;&22;parte&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">parte</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:attrr" out="1:nobj">di</W>
+<W lemma=&22;&22;&lt;unknown&gt;&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">B.T.</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-5:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma=&22;&22;una&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;DET&3a;indef&22;&22; in="-1:nobj" out="1:nobj|86:coref-id">una</W>
+<W lemma=&22;&22;direttiva&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg|12:relr|4:ref">direttiva</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma=&22;&22;parlamento&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#">Parlamento</W>
+<W lemma=&22;&22;europeo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">europeo</W>
+<W lemma=&22;&22;che&22;&22; msd=&22;&22;PT&22;&22; tag=&22;&22;PRO&3a;rela&22;&22; in="8:subj|-4:ref" out="">che</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="1:pnct" out="">,</W>
+<W lemma=&22;&22;per&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="6:goal" out="-1:pnct|5:pnct|1:vobj">per</W>
+<W lemma=&22;&22;proteggere&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="1:dobj">proteggere</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:dobj" out="1:nobj">la</W>
+<W lemma=&22;&22;salute&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">salute</W>
+<W lemma=&22;&22;pubblico&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr" out="">pubblica</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-5:pnct" out="">,</W>
+<W lemma=&22;&22;vietare&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-12:relr" out="-8:subj|-6:goal|1:iobj|4:dobj">vieta</W>
+<W lemma=&22;&22;al&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:iobj" out="1:nobj|36:coref-var">ai</W>
+<W lemma=&22;&22;macello&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">macelli</W>
+<W lemma=&22;&22;privato&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr" out="">privati</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-4:dobj" out="1:vobj">di</W>
+<W lemma=&22;&22;macellare&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="3:nobj|5:time">macellare</W>
+<W lemma=&22;&22;più&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="2:degr" out="1:pobj">più</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="">di</W>
+<W lemma=&22;&22;@card@&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;NUM&22;&22; in="-3:nobj" out="-2:degr|1:nobj">12</W>
+<W lemma=&22;&22;animale&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">animali</W>
+<W lemma=&22;&22;al&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-5:time" out="1:nobj">alla</W>
+<W lemma=&22;&22;settimana&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">settimana</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-35:pnct" out="">.</W>
+</s>
+<s>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="4:subj" out="1:nobj">La</W>
+<W lemma=&22;&22;salute&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">salute</W>
+<W lemma=&22;&22;pubblico&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr" out="">pubblica</W>
+<W lemma=&22;&22;non&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="1:neg" out="">non</W>
+<W lemma=&22;&22;corre&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="" out="-4:subj|-1:neg|1:dobj|3:cond|10:pnct|20:conj">corre</W>
+<W lemma=&22;&22;alcuno&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;PRO&3a;indef&22;&22; in="-1:dobj" out="1:nobj">alcun</W>
+<W lemma=&22;&22;pericolo&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">pericolo</W>
+<W lemma=&22;&22;se&22;&22; msd=&22;&22;PR&22;&22; tag=&22;&22;PRO&3a;refl&22;&22; in="-3:cond" out="1:vobj">se</W>
+<W lemma=&22;&22;venire&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-1:vobj" out="1:vobj|4:subj">vengono</W>
+<W lemma=&22;&22;macellare&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:vobj" out="3:[subj]">macellati</W>
+<W lemma=&22;&22;meno&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="2:degr" out="1:pobj">meno</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="">di</W>
+<W lemma=&22;&22;@card@&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;NUM&22;&22; in="-4:subj|-3:[subj]" out="-2:degr|1:nobj">12</W>
+<W lemma=&22;&22;animale&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">animali</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-10:pnct" out="">,</W>
+<W lemma=&22;&22;ma&22;&22; msd=&22;&22;CS&22;&22; tag=&22;&22;CON&22;&22; in="9:coord" out="">ma</W>
+<W lemma=&22;&22;se&22;&22; msd=&22;&22;PR&22;&22; tag=&22;&22;PRO&3a;refl&22;&22; in="8:cond" out="1:vobj">se</W>
+<W lemma=&22;&22;essere&7c;sonare&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-1:vobj" out="1:vobj|2:subj|4:pnct">sono</W>
+<W lemma=&22;&22;ucciso&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:vobj" out="1:[subj]">uccisi</W>
+<W lemma=&22;&22;@card@&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;NUM&22;&22; in="-2:subj|-1:[subj]" out="1:nobj">13</W>
+<W lemma=&22;&22;animale&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">animali</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-4:pnct" out="">,</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="2:subj|3:[subj]|-36:coref-var" out="1:nobj">i</W>
+<W lemma=&22;&22;macello&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">macelli</W>
+<W lemma=&22;&22;dovere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-20:conj" out="-8:cond|-9:coord|-2:subj|1:vobj|14:pnct|18:coref-res">devono</W>
+<W lemma=&22;&22;dotare&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="-3:[subj]|1:pobj">dotarsi</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="1:nobj">di</W>
+<W lemma=&22;&22;attrezzatura&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="2:attrr|3:comp">attrezzature</W>
+<W lemma=&22;&22;molto&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="1:degr" out="">molto</W>
+<W lemma=&22;&22;avanzare&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-2:attrr" out="-1:degr">avanzate</W>
+<W lemma=&22;&22;simile&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-3:comp" out="1:pobj">simili</W>
+<W lemma=&22;&22;a&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="1:nobj">a</W>
+<W lemma=&22;&22;quello&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;PRO&3a;demo&22;&22; in="-1:nobj" out="1:attrr">quelle</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:attrr" out="1:nobj">dei</W>
+<W lemma=&22;&22;macello&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:goal">macelli</W>
+<W lemma=&22;&22;per&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:goal" out="1:nobj">per</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:nobj" out="1:nobj">l'</W>
+<W lemma=&22;&22;esportazione&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">esportazione</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-14:pnct" out="">.</W>
+</s>
+<s>
+<W lemma=&22;&22;per&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="7:cause" out="1:nobj">Per</W>
+<W lemma=&22;&22;questo&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;PRO&3a;demo&22;&22; in="-18:coref-res|-1:nobj" out="">questo</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="5:subj|6:[subj]|7:[subj]|9:[subj]" out="1:nobj">la</W>
+<W lemma=&22;&22;metà&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">metà</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:attrr" out="1:nobj">dei</W>
+<W lemma=&22;&22;macello&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">macelli</W>
+<W lemma=&22;&22;danese&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr" out="">danesi</W>
+<W lemma=&22;&22;essere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-7:cause|-5:subj|1:vobj|5:pnct">è</W>
+<W lemma=&22;&22;essere&7c;stare&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:vobj" out="-6:[subj]|1:vobj">stata</W>
+<W lemma=&22;&22;costringere&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:vobj" out="-7:[subj]|1:pobj">costretta</W>
+<W lemma=&22;&22;a&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="1:vobj">a</W>
+<W lemma=&22;&22;chiudere&22;&22; msd=&22;&22;VAF&22;&22; tag=&22;&22;VER&3a;infi&22;&22; in="-1:vobj" out="-9:[subj]">chiudere</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-5:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="2:subj|3:[subj]|-86:coref-id" out="1:nobj">La</W>
+<W lemma=&22;&22;direttiva&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">direttiva</W>
+<W lemma=&22;&22;essere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-2:subj|1:vobj|15:conj">è</W>
+<W lemma=&22;&22;entrata&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:vobj" out="1:man|3:time|-3:[subj]">entrata</W>
+<W lemma=&22;&22;in&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:man" out="1:nobj">in</W>
+<W lemma=&22;&22;vigore&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">vigore</W>
+<W lemma=&22;&22;a&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-3:time" out="1:nobj">a</W>
+<W lemma=&22;&22;luglio&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr">luglio</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:attrr" out="1:nobj">di</W>
+<W lemma=&22;&22;quest'&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;PRO&3a;demo&22;&22; in="-1:nobj" out="1:nobj">quest'</W>
+<W lemma=&22;&22;anno&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">anno</W>
+<W lemma=&22;&22;ma&22;&22; msd=&22;&22;CS&22;&22; tag=&22;&22;CON&22;&22; in="6:coord" out="">ma</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="5:subj|6:[subj]" out="1:nobj">il</W>
+<W lemma=&22;&22;comitato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;arg#">Comitato</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma=&22;&22;mercato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">mercato</W>
+<W lemma=&22;&22;non&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="1:neg" out="">non</W>
+<W lemma=&22;&22;avere&7c;riavere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-15:conj" out="-6:coord|-5:subj|-1:neg|1:vobj|6:cond|11:pnct">ha</W>
+<W lemma=&22;&22;comprendere&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:vobj" out="1:dobj|-6:[subj]">compreso</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:dobj" out="1:nobj">le</W>
+<W lemma=&22;&22;conseguenza&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj&3a;dobj">conseguenze</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj&3a;dobj" out="1:nobj">della</W>
+<W lemma=&22;&22;norma&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">norma</W>
+<W lemma=&22;&22;se&22;&22; msd=&22;&22;CS&22;&22; tag=&22;&22;CON&22;&22; in="-6:cond" out="2:time">se</W>
+<W lemma=&22;&22;non&22;&22; msd=&22;&22;RG&22;&22; tag=&22;&22;ADV&22;&22; in="1:neg" out="">non</W>
+<W lemma=&22;&22;nel&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-2:time" out="-1:neg|2:nobj">nell'</W>
+<W lemma=&22;&22;ultimo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="1:attrd" out="">ultima</W>
+<W lemma=&22;&22;settimana&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-2:nobj" out="-1:attrd">settimana</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-11:pnct" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma=&22;&22;&lt;unknown&gt;&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="1:subj" out="23:coref-var">Duetoft</W>
+<W lemma=&22;&22;presentare&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-1:subj|1:dobj|7:loc|18:pnct">presenta</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:dobj" out="3:nobj">il</W>
+<W lemma=&22;&22;suo&22;&22; msd=&22;&22;PO&22;&22; tag=&22;&22;PRO&3a;poss&22;&22; in="2:attrd" out="">suo</W>
+<W lemma=&22;&22;controverso&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="1:attrd" out="">controverso</W>
+<W lemma=&22;&22;punto&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-3:nobj" out="-2:attrd|-1:attrd|1:attrr#">punto</W>
+<W lemma=&22;&22;di&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:attrr#" out="1:nobj">di</W>
+<W lemma=&22;&22;vista&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">vista</W>
+<W lemma=&22;&22;in&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-7:loc" out="1:nobj">in</W>
+<W lemma=&22;&22;un&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;DET&3a;indef&22;&22; in="-1:nobj" out="2:nobj|30:coref-id">un</W>
+<W lemma=&22;&22;nuovo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="1:attrd" out="">nuovo</W>
+<W lemma=&22;&22;libro&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-2:nobj" out="-1:attrd|4:pnct|6:relpa|5:ref|1:pobj">libro</W>
+<W lemma=&22;&22;sul&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:pobj" out="1:nobj">sul</W>
+<W lemma=&22;&22;parlamento&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#">Parlamento</W>
+<W lemma=&22;&22;europeo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">europeo</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-4:pnct" out="">,</W>
+<W lemma=&22;&22;che&22;&22; msd=&22;&22;PT&22;&22; tag=&22;&22;PRO&3a;rela&22;&22; in="1:subj|-5:ref" out="">che</W>
+<W lemma=&22;&22;uscire&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;futu&22;&22; in="-6:relpa" out="-1:subj|1:time">uscirà</W>
+<W lemma=&22;&22;lunedì&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:time" out="">lunedì</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-18:pnct" out="">.</W>
+</s>
+<s>
+<W lemma=&22;&22;Peter&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="1:namef" out="">Peter</W>
+<W lemma=&22;&22;&lt;unknown&gt;&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="14:subj|15:[subj]|-23:coref-var" out="-1:namef|2:ref|1:pnct|4:relpa">Duetoft</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-1:pnct" out="">,</W>
+<W lemma=&22;&22;che&22;&22; msd=&22;&22;PT&22;&22; tag=&22;&22;PRO&3a;rela&22;&22; in="-2:ref|2:subj" out="">che</W>
+<W lemma=&22;&22;si&22;&22; msd=&22;&22;PR&22;&22; tag=&22;&22;PRO&3a;refl&22;&22; in="1:robj" out="">si</W>
+<W lemma=&22;&22;dichiarare&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-4:relpa" out="-2:subj|-1:robj|1:dobj|3:conj">dichiara</W>
+<W lemma=&22;&22;&lt;unknown&gt;&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:dobj" out="">sovraeuropeo</W>
+<W lemma=&22;&22;e&22;&22; msd=&22;&22;CS&22;&22; tag=&22;&22;CON&22;&22; in="1:coord" out="">e</W>
+<W lemma=&22;&22;avere&7c;riavere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="-3:conj" out="-1:coord|1:dobj|6:pnct">ha</W>
+<W lemma=&22;&22;un&22;&22; msd=&22;&22;PI&22;&22; tag=&22;&22;DET&3a;indef&22;&22; in="-1:dobj" out="1:nobj">un</W>
+<W lemma=&22;&22;passato&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:pobj">passato</W>
+<W lemma=&22;&22;da&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-1:pobj" out="1:nobj">da</W>
+<W lemma=&22;&22;parlamentare&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#">parlamentare</W>
+<W lemma=&22;&22;europeo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">europeo</W>
+<W lemma=&22;&22;,&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;PON&22;&22; in="-6:pnct" out="">,</W>
+<W lemma=&22;&22;avere&7c;riavere&22;&22; msd=&22;&22;VADR&22;&22; tag=&22;&22;VER&3a;pres&22;&22; in="" out="-14:subj|1:vobj|18:pnct">ha</W>
+<W lemma=&22;&22;scrivere&22;&22; msd=&22;&22;VAP&22;&22; tag=&22;&22;VER&3a;pper&22;&22; in="-1:vobj" out="-15:[subj]|3:man|6:man|1:dobj">scritto</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:dobj|-30:coref-id" out="1:nobj">il</W>
+<W lemma=&22;&22;libro&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">libro</W>
+<W lemma=&22;&22;a&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-3:man" out="1:nobj">a</W>
+<W lemma=&22;&22;quattro&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:nobj" out="1:nobj">quattro</W>
+<W lemma=&22;&22;mani&7c;mano&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="">mani</W>
+<W lemma=&22;&22;con&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-6:man" out="3:nobj">con</W>
+<W lemma=&22;&22;Jens&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="2:namef" out="">Jens</W>
+<W lemma=&22;&22;Peter&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="1:namef" out="">Peter</W>
+<W lemma=&22;&22;Bonde&22;&22; msd=&22;&22;NP&22;&22; tag=&22;&22;NPR&22;&22; in="-3:nobj" out="-2:namef|-1:namef|1:attrr">Bonde</W>
+<W lemma=&22;&22;del&22;&22; msd=&22;&22;SP+P&22;&22; tag=&22;&22;PRE&3a;det&22;&22; in="-1:attrr" out="1:nobj">del</W>
+<W lemma=&22;&22;movimento&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#|2:pobj">Movimento</W>
+<W lemma=&22;&22;popolare&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">popolare</W>
+<W lemma=&22;&22;contro&22;&22; msd=&22;&22;SP&22;&22; tag=&22;&22;PRE&22;&22; in="-2:pobj" out="1:nobj">contro</W>
+<W lemma=&22;&22;il&22;&22; msd=&22;&22;PD&22;&22; tag=&22;&22;DET&3a;def&22;&22; in="-1:nobj" out="1:nobj">il</W>
+<W lemma=&22;&22;parlamento&22;&22; msd=&22;&22;NC&22;&22; tag=&22;&22;NOM&22;&22; in="-1:nobj" out="1:attrr#">Parlamento</W>
+<W lemma=&22;&22;europeo&22;&22; msd=&22;&22;AN&22;&22; tag=&22;&22;ADJ&22;&22; in="-1:attrr#" out="">europeo</W>
+<W lemma=&22;&22;.&22;&22; msd=&22;&22;XP&22;&22; tag=&22;&22;SENT&22;&22; in="-18:pnct" out="">.</W>
+</s>
+</p>
