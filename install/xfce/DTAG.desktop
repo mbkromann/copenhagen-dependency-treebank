@@ -6,7 +6,7 @@ Type=Application
 Name=DTAG
 Comment=DTAG treebank annotation program
 Categories=Application;
-Exec=xfce4-terminal -t "DTAG treebank tool" --working-directory=/home/cdt/cdt -e /opt/dtag/dtag --geometry=80x5+0-0 --hide-menubar
+Exec=xfce4-terminal -t "DTAG treebank tool" --working-directory=/home/cdt/cdt -e /opt/dtag/dtag.pl --geometry=80x5+0-0 --hide-menubar
 Icon=gdm
 Terminal=false
 StartupNotify=false
