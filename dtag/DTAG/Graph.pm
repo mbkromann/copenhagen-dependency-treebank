@@ -868,6 +868,7 @@ sub is_adjunct {
 	$type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
 	$type =~ s/[()+]//g;
+	$type =~ s/\/ATTR[0-9]+//g;
 
 	# See if reduced edge matches adjunct
 	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
@@ -911,6 +912,7 @@ sub is_complement {
     $type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
     $type =~ s/[()]//g;
+	$type =~ s/\/ATTR[0-9]+//g;
 
 	# See if it is known
 	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {

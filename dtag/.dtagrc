@@ -130,8 +130,9 @@ macro ddt !openoffice /home/cdt/web/www.treebank.dk/ddt-manual.odt &
 macro ddtpdf !acroread /home/cdt/web/www.treebank.dk/ddt-manual.pdf &
 macro corpusda corpus /home/cdt/cdt/da/*.tag
 macro cdt cd ~/cdt/{ARGS}
-macro discourse style discourse -label -color black -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80
+macro discourse1 style discourse -label -color black -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80
 macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -ps "/dAs 1 def 1 setlinewidth" -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -ps "5 setfontsize setupfont" -arc -color gray80 -ps "0.1 setlinewidth /dAs 0.5 def" -arclabel -ps "4 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
+macro discourse discourse2
 macro syntax style discourse -label -color darkgreen -arc -color darkgreen -arclabel -color darkgreen ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def"
 syntax
 
@@ -147,7 +148,12 @@ option iconv iconv -c -f UTF8 -t ISO_8859-1//TRANSLIT
 etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:arg possd pred preds predo predf qobj robj subj tobj vobj
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
-etypes -adj CAUSE CIRCUM CONC COND CONS DESCR GOAL INSTR INTERP JUST PREPAR PROBL QUEST SUPPORT ELAB:attr ELAB:class ELAB:exp ELAB:exem ELAB:part ELAB:rest ELAB:spec EVAL TIME:cont TIME:prec TIME:succ CONJ CONTR DISJ JOINT exp attr class exem part rest spec cont prec succ about adjuncts agent appa appr attrd attrr ben bg cause comp conc concom cond conj cons const contr coord correl degr dir discmark elab ex ext focal fpred fpreds fpredo goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg reas rel relelab relp relpa relr resem source struct time title voc xpl xtop + \n 
+
+# Discourse relations in the CDT project
+etypes -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:dir CONJ:seq CONS CONTR CONTR:prg DESCR DESCR:class DESCR:eval DESCR:exem DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:cont QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ
+
+# Remaining relations in the CDT project
+etypes -add -adj exp attr class exem part rest spec cont prec succ about adjuncts agent appa appr attrd attrr ben bg cause comp conc concom cond conj cons const contr coord correl degr dir discmark elab ex ext focal fpred fpreds fpredo goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg reas rel relelab relp relpa relr resem source struct time title voc xpl xtop + \n 
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 #etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland \n\n

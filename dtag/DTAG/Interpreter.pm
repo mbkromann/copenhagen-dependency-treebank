@@ -2312,11 +2312,17 @@ sub cmd_etypes {
 	my $graph = shift;
 	my $category = shift || "";
 	my $types = shift || "";
+	my $add = shift || "";
 
 	# Copy default etypes to graph etypes, if no etypes for graph
 	my $etypes1 = {};
 	if ($category) {
-		$etypes1->{$category} = [split(/\s+/, $types)];
+		my $list = [];
+		if ($add) {
+			push @$list, @{$graph->etypes()->{$category}};
+		}
+		push @$list, split(/\s+/, $types);
+		$etypes1->{$category} = $list;
 	}
 	$graph->etypes($etypes1);
 	$self->{'etypes'} = $graph->etypes();
@@ -7060,8 +7066,8 @@ sub do {
 			if ($cmd =~ /^\s*efilter((\s+[+-]\S*)+)\s*$/);
 
 		# Etypes: etypes -$type $type1 $type2 ...
-		$success = $self->cmd_etypes($graph, $1, $2)
-			if ($cmd =~ /^\s*etypes\s+-(\S+)\s+(.*)$/ ||
+		$success = $self->cmd_etypes($graph, $2, $3, $1)
+			if ($cmd =~ /^\s*etypes\s+(-add\s+)?-(\S+)\s+(.*)$/ ||
 				$cmd =~ /^\s*etypes\s*$/);
 
 		# Edit node/edge: edit $node [$var[=$value]]
