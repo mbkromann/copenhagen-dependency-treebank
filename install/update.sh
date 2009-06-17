@@ -19,14 +19,17 @@ fi
 
 # Run update program
 updates=~/cdt-all/trunk/install/updates
+user=`cat ~/.cdtname`
 if [ -d $updates ] ; then
 	cd $updates
 	export LANG=C
 	for f in `ls | sort | grep .sh | sed -e 's/.sh$//g'` ; do
+		logfile=~/cdt-all/trunk/install/logs/$user-$f.log
 		if [ ! -f ".$f.done" ] ; then
 			echo "Applying update $f"
-			bash $f.sh && touch ".$f.done"
+			bash $f.sh 2>&1 | tee $logfile && touch ".$f.done" 
 			echo $f > .last
+			svn add $logfile
 		fi
 	done
 	if [ -f .last ] ; then
