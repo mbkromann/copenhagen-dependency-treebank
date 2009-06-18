@@ -19,7 +19,7 @@ fi
 
 # Run update program
 updates=~/cdt-all/trunk/install/updates
-user=`cat ~/.cdtname`
+user=`cat ~/.cdtname | sed -e 's/i.*rn/iorn/g'`
 if [ -d $updates ] ; then
 	cd $updates
 	export LANG=C
