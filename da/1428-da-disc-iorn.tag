@@ -167,9 +167,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|6:pnct">Men</W>
+<W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="6:pnct">Men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-19:coref-res|1:subj" out="">det</W>
-<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-2:conj|-20:CONTR&3a;prg/men" out="-1:subj|1:dobj|2:mod|3:pred|15:ELAB&3a;exp/ATTR">gør</W>
+<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-20:CONTR&3a;prg/men" out="-1:subj|1:dobj|2:mod|3:pred|15:ELAB&3a;exp/ATTR|-2:coord">gør</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="sgu'" lemma="sgu'" msd="RGU" tag="RP" in="-2:mod" out="">sgu'</W>
 <W gloss="mad" lemma="sur" msd="ANPCSU=IU" tag="JJ" in="-3:pred" out="">sur</W>

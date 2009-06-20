@@ -164,8 +164,8 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|8:[subj]|10:[subj]" out="">Vi</W>
-<W gloss="lay" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-16:ELAB&3a;exp" out="-1:subj|1:mods|2:mod|6:coord|13:pnct|30:CONJ/(og)/ATTR1">lå</W>
-<W gloss="naked" lemma="nøgen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mods" out="">nøgne</W>
+<W gloss="lay" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-16:ELAB&3a;exp" out="-1:subj|2:mod|6:coord|13:pnct|30:CONJ/(og)/ATTR1|1:fpreds">lå</W>
+<W gloss="naked" lemma="nøgen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:fpreds" out="">nøgne</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-2:mod" out="1:nobj">ved</W>
 <W gloss="since" lemma="side" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">siden</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
