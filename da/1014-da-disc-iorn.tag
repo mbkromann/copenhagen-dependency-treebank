@@ -101,7 +101,7 @@
 </s>
 <s>
 <W gloss="Municipalities" lemma="kommune" msd="NCCPU==D" tag="NNP" in="1:subj|2:[subj]" out="">Kommunerne</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:CAUSE&3a;expl/(nemlig)/ATTR" out="-1:subj|1:vobj|8:pnct|9:coord|27:pnct|28:pnct|38:coref-res|39:+DESCR&3a;qual/ATTR">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:CAUSE&3a;expl/(nemlig)/ATTR" out="-1:subj|1:vobj|8:pnct|9:coord|27:pnct|28:pnct|38:coref-res|39:+DESCR&3a;qual/sådan/ATTR">skal</W>
 <W gloss="arrange" lemma="sørge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj|4:mod">sørge</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod">de</W>
@@ -140,7 +140,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="such" lemma="sådan" msd="RGU" tag="RP" in="-38:coref-res|1:mod" out="">Sådan</W>
-<W gloss="read" lemma="læse" msd="VADR=----A-" tag="VBD" in="-39:+DESCR&3a;qual/ATTR" out="-1:mod|-2:pnct|1:subj|2:dobj|3:pnct|4:coord|16:pnct|20:CONC/(selvom)/ATTR">læser</W>
+<W gloss="read" lemma="læse" msd="VADR=----A-" tag="VBD" in="-39:+DESCR&3a;qual/sådan/ATTR" out="-1:mod|-2:pnct|1:subj|2:dobj|3:pnct|4:coord|16:pnct|20:CONC/(selvom)/ATTR">læser</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="the_Social_Assistance_Act" lemma="bistandslov" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">bistandsloven</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -182,7 +182,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="17:pnct">Men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-22:DESCR&3a;eval/ATTR" out="-1:subj|2:pred|3:pnct|4:mod|-2:coord">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-22:DESCR&3a;eval/ATTR" out="-1:subj|-2:coord|2:pred|3:pnct|4:mod">er</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
 <W gloss="short-sighted" lemma="kortsigtet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:pred" out="-1:mod">kortsigtet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

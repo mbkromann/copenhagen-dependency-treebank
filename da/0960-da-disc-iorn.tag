@@ -108,9 +108,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Because" lemma="for" msd="CC" tag="CC" in="" out="2:vobj|13:pnct">For</W>
+<W gloss="Because" lemma="for" msd="CC" tag="CC" in="2:cause" out="13:pnct">For</W>
 <W gloss="who" lemma="hvem" msd="PT-C[SP]U--U" tag="WDT" in="1:subj" out="">hvem</W>
-<W gloss="understands" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-2:vobj|-9:QUEST&3a;query" out="-1:subj|1:dobj|2:pobj|4:coord|21:ELAB&3a;exp">forstår</W>
+<W gloss="understands" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-9:QUEST&3a;query" out="-1:subj|1:dobj|2:pobj|4:coord|21:ELAB&3a;exp|-2:cause">forstår</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">på</W>
 <W gloss="the_Maastricht_agreements" lemma="Maastricht-aftale" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">Maastricht-aftalerne</W>
@@ -170,7 +170,7 @@
 <W gloss="The" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj" out="1:mod|2:nobj">Det</W>
 <W gloss="democratic" lemma="demokratisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">demokratiske</W>
 <W gloss="ideal" lemma="ideal" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">ideal</W>
-<W gloss="presumes" lemma="forudsætte" msd="VADR=----A-" tag="VBD" in="-33:+CAUSE&3a;expl/(nemlig)" out="-3:subj|1:pnct|2:dobj|10:pnct|13:coref-res|14:DESCR&3a;eval|34:CONTR&3a;dir/(men)">forudsætter</W>
+<W gloss="presumes" lemma="forudsætte" msd="VADR=----A-" tag="VBD" in="-33:+CAUSE&3a;expl/(nemlig)" out="-3:subj|1:pnct|2:dobj|10:pnct|13:coref-res|14:DESCR&3a;eval|34:CONTR&3a;dir/alligevel">forudsætter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="the_voters" lemma="vælger" msd="NCCPU==D" tag="NNP" in="2:subj" out="">vælgerne</W>
@@ -204,7 +204,7 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="powerlessness" lemma="afmagt" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afmagt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-34:CONTR&3a;dir/(men)" out="-7:mod|1:subj|2:pred|38:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-34:CONTR&3a;dir/alligevel" out="-7:mod|1:subj|2:pred|38:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="1:nobj">en</W>
 <W gloss="feeling" lemma="følelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">følelse</W>
