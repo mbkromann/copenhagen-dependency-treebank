@@ -6,6 +6,10 @@ fi
 if which gedit > /dev/null ; then
 	editor=gedit
 fi
+if which nedit >/dev/null ; then
+	editor=nedit
+fi
+
 
 if [ -z "$editor" ] ; then
 	editor=mousepad
@@ -14,5 +18,5 @@ if [ -z "$editor" ] ; then
 	sudo apt-get install mousepad
 fi
 
-$editor /home/cdt/cdt/todo/`cat ~/.cdtname` &
+$editor "$HOME/cdt/todo/`cat ~/.cdtname`" &
 

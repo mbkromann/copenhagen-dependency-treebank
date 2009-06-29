@@ -27,8 +27,8 @@ if ! cd ~/cdt/todo ; then
 	exit 1
 fi
 
-if [ ! -f ~/cdt/todo/.$name ] ; then
-	touch ~/cdt/todo/.$name
+if [ ! -f "~/cdt/todo/.$name" ] ; then
+	touch "$HOME/cdt/todo/.$name"
 fi
 
 if ! cmp .$name $name.auto ; then

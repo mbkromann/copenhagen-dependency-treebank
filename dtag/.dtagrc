@@ -109,15 +109,15 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
-macro es cd /home/cdt/cdt/es
-macro it cd /home/cdt/cdt/it
-macro dait cd /home/cdt/cdt/da-it
-macro daes cd /home/cdt/cdt/da-es
+macro es cd ~/cdt/es
+macro it cd ~/cdt/it
+macro dait cd ~/cdt/da-it
+macro daes cd ~/cdt/da-es
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
-macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
-macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
+macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
+macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script ~/.script
 macro setname !~/cdt/tools/dtag-setname
 macro tasks !~/cdt/tools/dtag-tasks
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &

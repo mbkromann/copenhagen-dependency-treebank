@@ -2,19 +2,19 @@
 
 echo "DTAG commit version 2008-08-04"
 
-name=`cat ~/.cdtname`
-prefix=""
-if [ -d ~/cdt ] ; then
-	cd ~/cdt
+cd "$HOME"
+
+name=`cat .cdtname`
+if [ -d cdt ] ; then
+	cd cdt
 fi
-if [ -d ~/cdt-all ] ; then
-	cd ~/cdt-all
-	prefix="trunk"
+if [ -d cdt-all ] ; then
+	cd cdt-all/trunk
 fi
 
 # Update repository
-if [ -f ~/cdt/tools/dtag-update ] ; then
-	sh ~/cdt/tools/dtag-update
+if [ -f tools/dtag-update ] ; then
+	sh tools/dtag-update
 fi
 
 if [ ! -z "$name" ] ; then
@@ -22,7 +22,7 @@ if [ ! -z "$name" ] ; then
 	# contains the user's name is the correct one
 	files=`find . -name "*$name*" | grep -v '.svn' | egrep '(\.tag|\.atag)$'`
 	if [ ! -z "$files" ] ; then
-		svn resolve -R --accept working $prefix/todo/$name $files
+		svn resolve -R --accept working todo/$name $files
 	fi
 
 	# Add new .tag or .atag files to svn repository
@@ -37,5 +37,9 @@ fi
 
 # Upload files
 echo "Uploading files to CDT repository"
-svn ci -m "Automatic update by $name" --username `cat ~/.svnuser` --password `cat ~/.svnpasswd`
+pwd
+echo svn ci -m "Automatic update by $name" --username `cat "$HOME"/.svnuser` --password `cat "$HOME"/.svnpasswd`
+svn ci -m "Automatic update by $name" --username `cat "$HOME"/.svnuser` --password `cat "$HOME"/.svnpasswd`
+
+
 

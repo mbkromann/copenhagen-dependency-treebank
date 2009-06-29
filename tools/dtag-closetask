@@ -9,12 +9,14 @@ if [ -z "$name" ] ; then
 fi
 
 # Find first task
-todo=~/cdt/todo/$name
-if [ -f $todo ] ; then
+todo="todo/$name"
+cd "$HOME"/cdt
+tmpfile=.x
+if [ -f "$todo" ] ; then
     file=`grep -v '[*]' $todo | head -1 | sed -e 's/^.*\/\([^/]*\)/\1/g'`
 	if [ ! -z "$file" ] ; then
-		sed -e "s/^\[ \]\(.*$file\)$/\[*\]\1/g" $todo > /tmp/x
-		mv /tmp/x $todo
+		sed -e "s/^\[ \]\(.*$file\)$/\[*\]\1/g" $todo > $tmpfile
+		mv $tmpfile $todo
 	fi
 	if [ -z "$file" ] ; then
 		echo "No more tasks: please ask Matthias to give you more tasks"
