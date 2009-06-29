@@ -6141,8 +6141,8 @@ sub cmd_script {
 	my $graph = shift;
 	my $file = shift;
 
+	# Replace ~ with home directory
 	$file =~ s/~/$ENV{HOME}/g;
-	print "script $file\n";
 
 	# Open script file
 	open("SCRIPT", "< $file")
@@ -7278,7 +7278,7 @@ sub do {
 
 		# Script: script [$file]
 		$success = $self->cmd_script($graph, $1)
-			if ($cmd =~ /^\s*script\s*(\S*)\s*$/);
+			if ($cmd =~ /^\s*script\s*(\S.*\S)\s*$/);
 
 		# Segment: segment $node [segment|segment|...] 
 		$success = $self->cmd_compound($graph, $1, $2, $3)
