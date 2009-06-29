@@ -6141,6 +6141,9 @@ sub cmd_script {
 	my $graph = shift;
 	my $file = shift;
 
+	$file =~ s/~/$ENV{HOME}/g;
+	print "script $file\n";
+
 	# Open script file
 	open("SCRIPT", "< $file")
 		|| return error("cannot open file for reading: $file");
