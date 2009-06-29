@@ -23,9 +23,12 @@ todo.es:
 words:
 	for lang in `echo da it es en` ; do cat $$lang/*.txt  | sed -e 's/ /\n/g' | sed -e 's/[       ]//g' | sort | uniq > tmp/words.$$lang; done
 
-wikidoc: tmp/all.tag
-	make tmp/all.tag
-	dtag -e 'load tmp/all.tag' -e 'perl $$G->wikidoc()' -e 'quit'
+all.tag: 
+	echo > all.tag	
+	for l in `echo da en es it` ; do cat $$l/*.tag | sed -e "s/<W/<W _lang=\"$$l\"/g" >> all.tag ; done
+
+wikidoc: all.tag
+	dtag -e 'load all.tag' -e 'perl $$G->wikidoc()' -e 'quit'
 	find treebank.dk -name '*.tag' | sed -e 's/.tag/.png/g' | xargs -n 100 -P 4 xmake
 	
 da-es.texts:

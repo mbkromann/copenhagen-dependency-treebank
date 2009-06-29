@@ -2933,6 +2933,7 @@ sub cmd_load {
 	my $ftype = shift;
 	my $fname = shift || "";
 	my $optionstr = shift || "";
+	$fname =~ s/~/$ENV{HOME}/g;
 
 	# Process options: permitted options {multi=0/1 (create new graph,
 	# add to current graph)}
@@ -5272,6 +5273,7 @@ sub cmd_save {
 	my $graph = shift;
 	my $ftype = shift || "";
 	my $fname = shift || "";
+	$fname =~ s/~/$ENV{HOME}/g;
 	$ftype =~ s/^\s+//g;
 
     # Find type of file (-tag): look at ending, select .tag
