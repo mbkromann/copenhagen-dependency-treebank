@@ -1,96 +1,272 @@
 # Indsæt "*" når annotationen er afsluttet
 
-[*] da-it/0306-da-it-iørn.atag
-[*] it/0306-it-iørn.tag
-[*] da-it/1252-da-it-iørn.atag
-[*] it/1252-it-iørn.tag
-[*] da-it/0104-da-it-iørn.atag
-[*] it/0104-it-iørn.tag
-[*] it/0184-it-iørn.tag
-[*] da-it/0531-da-it-iørn.atag
-[*] it/0531-it-iørn.tag
-[*] it/1347-it-iørn.tag
-[*] it/0502-it-iørn.tag
-[*] da-it/0502-da-it-iørn.atag
-[*] da-it/1347-da-it-iørn.atag
+[*] da-it/0306-da-it-iorn.atag
+[*] it/0306-it-iorn.tag
+[*] da-it/1252-da-it-iorn.atag
+[*] it/1252-it-iorn.tag
+[*] da-it/0104-da-it-iorn.atag
+[*] it/0104-it-iorn.tag
+[*] it/0184-it-iorn.tag
+[*] da-it/0531-da-it-iorn.atag
+[*] it/0531-it-iorn.tag
+[*] it/1347-it-iorn.tag
+[*] it/0502-it-iorn.tag
+[*] da-it/0502-da-it-iorn.atag
+[*] da-it/1347-da-it-iorn.atag
 
-[*] da-it/0104-da-it-iørn.atag
-[*] da-it/0620-da-it-iørn.atag
-[*] it/0620-it-iørn.tag
-[*] it/0104-it-iørn.tag
+[*] da-it/0104-da-it-iorn.atag
+[*] da-it/0620-da-it-iorn.atag
+[*] it/0620-it-iorn.tag
+[*] it/0104-it-iorn.tag
 
-[*] da-it/0593-da-it-iørn.atag
-[*] it/0593-it-iørn.tag
-[*] da-it/1035-da-it-iørn.atag
-[*] it/1035-it-iørn.tag
+[*] da-it/0593-da-it-iorn.atag
+[*] it/0593-it-iorn.tag
+[*] da-it/1035-da-it-iorn.atag
+[*] it/1035-it-iorn.tag
 
-[*] da-it/0184-da-it-iørn.atag
-[*] da-it/0244-da-it-iørn.atag
-[*] it/0244-it-iørn.tag
-[*] da-it/0431-da-it-iørn.atag
-[*] it/0431-it-iørn.tag
+[*] da-it/0184-da-it-iorn.atag
+[*] da-it/0244-da-it-iorn.atag
+[*] it/0244-it-iorn.tag
+[*] da-it/0431-da-it-iorn.atag
+[*] it/0431-it-iorn.tag
 
-[*] da-it/0152-da-it-iørn.atag
-[*] it/0152-it-iørn.tag
-[*] da-it/0596-da-it-iørn.atag
-[*] it/0596-it-iørn.tag
-[*] da-it/0998-da-it-iørn.atag
-[*] it/0998-it-iørn.tag
-[*] da-it/0800-da-it-iørn.atag
-[*] it/0800-it-iørn.tag
-[*] da-it/1250-da-it-iørn.atag
-[*] it/1250-it-iørn.tag
+[*] da-it/0152-da-it-iorn.atag
+[*] it/0152-it-iorn.tag
+[*] da-it/0596-da-it-iorn.atag
+[*] it/0596-it-iorn.tag
+[*] da-it/0998-da-it-iorn.atag
+[*] it/0998-it-iorn.tag
+[*] da-it/0800-da-it-iorn.atag
+[*] it/0800-it-iorn.tag
+[*] da-it/1250-da-it-iorn.atag
+[*] it/1250-it-iorn.tag
 
 # Discourse annotation
 
 # Added discourse tasks on Mon May  4 10:00:14 CEST 2009
-[*] da/0235-da-disc-iørn.tag
-[*] da/0620-da-disc-iørn.tag
-[*] da/0647-da-disc-iørn.tag
-[*] da/0781-da-disc-iørn.tag
-[*] da/0783-da-disc-iørn.tag
-[*] da/0800-da-disc-iørn.tag
-[*] da/0866-da-disc-iørn.tag
-[*] da/0960-da-disc-iørn.tag
-[*] da/1014-da-disc-iørn.tag
-[*] da/1038-da-disc-iørn.tag
-[*] da/1043-da-disc-iørn.tag
-[*] da/1337-da-disc-iørn.tag
-[*] da/1420-da-disc-iørn.tag
-[*] da/1428-da-disc-iørn.tag
+[*] da/0235-da-disc-iorn.tag
+[*] da/0620-da-disc-iorn.tag
+[*] da/0647-da-disc-iorn.tag
+[*] da/0781-da-disc-iorn.tag
+[*] da/0783-da-disc-iorn.tag
+[*] da/0800-da-disc-iorn.tag
+[*] da/0866-da-disc-iorn.tag
+[*] da/0960-da-disc-iorn.tag
+[*] da/1014-da-disc-iorn.tag
+[*] da/1038-da-disc-iorn.tag
+[*] da/1043-da-disc-iorn.tag
+[*] da/1337-da-disc-iorn.tag
+[*] da/1420-da-disc-iorn.tag
+[*] da/1428-da-disc-iorn.tag
 
-[*] da/0531-da-disc-iørn.tag
-[*] da/0602-da-disc-iørn.tag
-[*] da/0848-da-disc-iørn.tag
-[*] da/0915-da-disc-iørn.tag
-[*] da/1035-da-disc-iørn.tag
-[*] da/1252-da-disc-iørn.tag
-[*] da/1347-da-disc-iørn.tag
-[*] da/1408-da-disc-iørn.tag
-[*] da/1497-da-disc-iørn.tag
+[*] da/0531-da-disc-iorn.tag
+[*] da/0602-da-disc-iorn.tag
+[*] da/0848-da-disc-iorn.tag
+[*] da/0915-da-disc-iorn.tag
+[*] da/1035-da-disc-iorn.tag
+[*] da/1252-da-disc-iorn.tag
+[*] da/1347-da-disc-iorn.tag
+[*] da/1408-da-disc-iorn.tag
+[*] da/1497-da-disc-iorn.tag
 
 
  
 # Added discourse tasks on Mon May  4 10:01:07 CEST 2009
-[ ] it/0235-it-disc-iørn.tag
-[ ] it/0593-it-disc-iørn.tag
-[ ] it/0596-it-disc-iørn.tag
-[ ] it/0620-it-disc-iørn.tag
-[ ] it/0647-it-disc-iørn.tag
-[ ] it/0781-it-disc-iørn.tag
-[ ] it/0783-it-disc-iørn.tag
-[ ] it/0800-it-disc-iørn.tag
-[ ] it/0866-it-disc-iørn.tag
-[ ] it/0960-it-disc-iørn.tag
-[ ] it/1014-it-disc-iørn.tag
-[ ] it/1038-it-disc-iørn.tag
-[ ] it/1043-it-disc-iørn.tag
-[ ] it/1337-it-disc-iørn.tag
-[ ] it/1420-it-disc-iørn.tag
-[ ] it/1428-it-disc-iørn.tag
+[ ] it/0235-it-disc-iorn.tag
+[ ] it/0593-it-disc-iorn.tag
+[ ] it/0596-it-disc-iorn.tag
+[ ] it/0620-it-disc-iorn.tag
+[ ] it/0647-it-disc-iorn.tag
+[ ] it/0781-it-disc-iorn.tag
+[ ] it/0783-it-disc-iorn.tag
+[ ] it/0800-it-disc-iorn.tag
+[ ] it/0866-it-disc-iorn.tag
+[ ] it/0960-it-disc-iorn.tag
+[ ] it/1014-it-disc-iorn.tag
+[ ] it/1038-it-disc-iorn.tag
+[ ] it/1043-it-disc-iorn.tag
+[ ] it/1337-it-disc-iorn.tag
+[ ] it/1420-it-disc-iorn.tag
+[ ] it/1428-it-disc-iorn.tag
 
 
 
+[ ] it/0531-it-disc-iorn.tag
+[ ] it/0602-it-disc-iorn.tag
+[ ] it/0848-it-disc-iorn.tag
+[ ] it/0915-it-disc-iorn.tag
+[ ] it/1035-it-disc-iorn.tag
+[ ] it/1252-it-disc-iorn.tag
+[ ] it/1347-it-disc-iorn.tag
+[ ] it/1408-it-disc-iorn.tag
+[ ] it/1497-it-disc-iorn.tag
+
+
+[ ] it/1252-it-iorn.tag
+[ ] it/0781-it-iorn.tag
+[ ] da-it/0781-da-it-iorn.atag
+[ ] it/1014-it-iorn.tag
+[ ] da-it/1014-da-it-iorn.atag
+
+[ ] da-it/1390-da-it-iorn.atag
+[ ] it/1390-it-iorn.tag
+
+
+# Tasks that should be revised because of revised translation
+
+[ ] da-it/0800-da-it-iorn.atag
+[ ] da-it/0998-da-it-iorn.atag
+
+
+
+# Assign-tasks added new files on Fri Apr 24 10:55:54 CEST 2009
+
+[ ] da-it/0001-da-it-iorn.atag
+[ ] it/0001-it-iorn.tag
+[ ] da-it/0079-da-it-iorn.atag
+[ ] it/0079-it-iorn.tag
+[ ] da-it/0103-da-it-iorn.atag
+[ ] it/0103-it-iorn.tag
+[ ] da-it/0134-da-it-iorn.atag
+[ ] it/0134-it-iorn.tag
+[ ] da-it/0211-da-it-iorn.atag
+[ ] it/0211-it-iorn.tag
+[ ] da-it/0265-da-it-iorn.atag
+[ ] it/0265-it-iorn.tag
+[ ] da-it/0300-da-it-iorn.atag
+[ ] it/0300-it-iorn.tag
+[ ] da-it/0320-da-it-iorn.atag
+[ ] it/0320-it-iorn.tag
+[ ] da-it/0411-da-it-iorn.atag
+[ ] it/0411-it-iorn.tag
+[ ] da-it/0465-da-it-iorn.atag
+[ ] it/0465-it-iorn.tag
+[ ] da-it/0488-da-it-iorn.atag
+[ ] it/0488-it-iorn.tag
+[ ] da-it/0576-da-it-iorn.atag
+[ ] it/0576-it-iorn.tag
+[ ] da-it/0624-da-it-iorn.atag
+[ ] it/0624-it-iorn.tag
+[ ] da-it/0652-da-it-iorn.atag
+[ ] it/0652-it-iorn.tag
+[ ] da-it/0683-da-it-iorn.atag
+[ ] it/0683-it-iorn.tag
+[ ] da-it/0738-da-it-iorn.atag
+[ ] it/0738-it-iorn.tag
+[ ] da-it/0843-da-it-iorn.atag
+[ ] it/0843-it-iorn.tag
+[ ] da-it/0864-da-it-iorn.atag
+[ ] it/0864-it-iorn.tag
+[ ] da-it/0935-da-it-iorn.atag
+[ ] it/0935-it-iorn.tag
+[ ] da-it/0988-da-it-iorn.atag
+[ ] it/0988-it-iorn.tag
+[ ] da-it/1011-da-it-iorn.atag
+[ ] it/1011-it-iorn.tag
+[ ] da-it/1046-da-it-iorn.atag
+[ ] it/1046-it-iorn.tag
+[ ] da-it/1088-da-it-iorn.atag
+[ ] it/1088-it-iorn.tag
+[ ] da-it/1129-da-it-iorn.atag
+[ ] it/1129-it-iorn.tag
+[ ] da-it/1168-da-it-iorn.atag
+[ ] it/1168-it-iorn.tag
+[ ] da-it/1206-da-it-iorn.atag
+[ ] it/1206-it-iorn.tag
+[ ] da-it/1265-da-it-iorn.atag
+[ ] it/1265-it-iorn.tag
+[ ] da-it/1306-da-it-iorn.atag
+[ ] it/1306-it-iorn.tag
+[ ] da-it/1336-da-it-iorn.atag
+[ ] it/1336-it-iorn.tag
+[ ] da-it/1361-da-it-iorn.atag
+[ ] it/1361-it-iorn.tag
+[ ] da-it/1378-da-it-iorn.atag
+[ ] it/1378-it-iorn.tag
+[ ] da-it/1467-da-it-iorn.atag
+[ ] it/1467-it-iorn.tag
+[ ] da-it/1494-da-it-iorn.atag
+[ ] it/1494-it-iorn.tag
+[ ] da-it/1522-da-it-iorn.atag
+[ ] it/1522-it-iorn.tag
+ 
+
+
+[ ] da-it/0593-da-it-iørn.atag
+[ ] it/0593-it-iørn.tag
+[ ] da-it/1035-da-it-iørn.atag
+[ ] it/1035-it-iørn.tag
+
+[ ] da-it/0244-da-it-iørn.atag
+[ ] it/0244-it-iørn.tag
+[ ] da-it/0431-da-it-iørn.atag
+[ ] it/0431-it-iørn.tag
+[ ] da-it/0593-da-it-iørn.atag
+[ ] it/0593-it-iørn.tag
+[ ] da-it/0675-da-it-iørn.atag
+[ ] it/0675-it-iørn.tag
+[ ] da-it/0593-da-it-iørn.atag
+[ ] it/0593-it-iørn.tag
+[ ] da-it/0781-da-it-iørn.atag
+[ ] it/0781-it-iørn.tag
+[ ] da-it/1014-da-it-iørn.atag
+[ ] it/1014-it-iørn.tag
+[ ] da-it/1035-da-it-iørn.atag
+[ ] it/1035-it-iørn.tag
+[ ] da-it/1390-da-it-iørn.atag
+[ ] it/1390-it-iørn.tag
+
+[ ] da-it/0187-da-it-iørn.atag
+[ ] it/0187-it-iørn.tag
+[ ] da-it/0307-da-it-iørn.atag
+[ ] it/0307-it-iørn.tag
+[ ] da-it/0956-da-it-iørn.atag
+[ ] it/0956-it-iørn.tag
+[ ] da-it/1035-da-it-iørn.atag
+[ ] it/1035-it-iørn.tag
+[ ] da-it/1241-da-it-iørn.atag
+[ ] it/1241-it-iørn.tag
+[ ] da-it/1429-da-it-iørn.atag
+[ ] it/1429-it-iørn.tag
+
+[ ] da-it/0152-da-it-iørn.atag
+[ ] it/0339-it-iørn.tag
+[ ] da-it/0596-da-it-iørn.atag
+[ ] it/0685-it-iørn.tag
+[ ] da-it/0800-da-it-iørn.atag
+[ ] it/0876-it-iørn.tag
+[ ] da-it/0998-da-it-iørn.atag
+[ ] it/1077-it-iørn.tag
+[ ] da-it/1250-da-it-iørn.atag
+[ ] it/1497-it-iørn.tag
+
+# New tasks replacing wrongly assigned tasks
+[ ] da-it/0152-da-it-iørn.atag
+[ ] it/0152-it-iørn.tag
+[ ] da-it/0596-da-it-iørn.atag
+[ ] it/0596-it-iørn.tag
+[ ] da-it/0800-da-it-iørn.atag
+[ ] it/0800-it-iørn.tag
+[ ] da-it/0998-da-it-iørn.atag
+[ ] it/0998-it-iørn.tag
+[ ] da-it/1250-da-it-iørn.atag
+[ ] it/1250-it-iørn.tag
+
+# Tasks that should be revised because of revised translation
+
+[ ] da-it/0800-da-it-iørn.atag
+[ ] da-it/0998-da-it-iørn.atag
+
+# Discourse annotation
+[ ] da/0531-da-disc-iørn.tag
+[ ] da/0602-da-disc-iørn.tag
+[ ] da/0848-da-disc-iørn.tag
+[ ] da/0915-da-disc-iørn.tag
+[ ] da/1035-da-disc-iørn.tag
+[ ] da/1252-da-disc-iørn.tag
+[ ] da/1347-da-disc-iørn.tag
+[ ] da/1408-da-disc-iørn.tag
+[ ] da/1497-da-disc-iørn.tag
 [ ] it/0531-it-disc-iørn.tag
 [ ] it/0602-it-disc-iørn.tag
 [ ] it/0848-it-disc-iørn.tag
@@ -100,23 +276,6 @@
 [ ] it/1347-it-disc-iørn.tag
 [ ] it/1408-it-disc-iørn.tag
 [ ] it/1497-it-disc-iørn.tag
-
-
-[ ] it/1252-it-iørn.tag
-[ ] it/0781-it-iørn.tag
-[ ] da-it/0781-da-it-iørn.atag
-[ ] it/1014-it-iørn.tag
-[ ] da-it/1014-da-it-iørn.atag
-
-[ ] da-it/1390-da-it-iørn.atag
-[ ] it/1390-it-iørn.tag
-
-
-# Tasks that should be revised because of revised translation
-
-[ ] da-it/0800-da-it-iørn.atag
-[ ] da-it/0998-da-it-iørn.atag
-
 
 
 # Assign-tasks added new files on Fri Apr 24 10:55:54 CEST 2009
@@ -190,4 +349,39 @@
 [ ] da-it/1522-da-it-iørn.atag
 [ ] it/1522-it-iørn.tag
  
+# Added discourse tasks on Mon May  4 10:00:14 CEST 2009
+[ ] da/0235-da-disc-iørn.tag
+[ ] da/0593-da-disc-iørn.tag
+[ ] da/0596-da-disc-iørn.tag
+[ ] da/0620-da-disc-iørn.tag
+[ ] da/0647-da-disc-iørn.tag
+[ ] da/0781-da-disc-iørn.tag
+[ ] da/0783-da-disc-iørn.tag
+[ ] da/0800-da-disc-iørn.tag
+[ ] da/0866-da-disc-iørn.tag
+[ ] da/0960-da-disc-iørn.tag
+[ ] da/1014-da-disc-iørn.tag
+[ ] da/1038-da-disc-iørn.tag
+[ ] da/1043-da-disc-iørn.tag
+[ ] da/1337-da-disc-iørn.tag
+[ ] da/1420-da-disc-iørn.tag
+[ ] da/1428-da-disc-iørn.tag
+ 
+# Added discourse tasks on Mon May  4 10:01:07 CEST 2009
+[ ] it/0235-it-disc-iørn.tag
+[ ] it/0593-it-disc-iørn.tag
+[ ] it/0596-it-disc-iørn.tag
+[ ] it/0620-it-disc-iørn.tag
+[ ] it/0647-it-disc-iørn.tag
+[ ] it/0781-it-disc-iørn.tag
+[ ] it/0783-it-disc-iørn.tag
+[ ] it/0800-it-disc-iørn.tag
+[ ] it/0866-it-disc-iørn.tag
+[ ] it/0960-it-disc-iørn.tag
+[ ] it/1014-it-disc-iørn.tag
+[ ] it/1038-it-disc-iørn.tag
+[ ] it/1043-it-disc-iørn.tag
+[ ] it/1337-it-disc-iørn.tag
+[ ] it/1420-it-disc-iørn.tag
+[ ] it/1428-it-disc-iørn.tag
 
