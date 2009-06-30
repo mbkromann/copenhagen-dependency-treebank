@@ -16,7 +16,7 @@ todo.it:
 		| ./tools/assign-tasks iorn+morten+lisa morten lisa morten lisa morten lisa morten lisa
 	ls it/*-auto.tag it/*-tagged.tag | sed -e 's/it-auto.tag//g' -e 's/it-tagged.tag//g' \
 		| xargs -I FILE echo -e FILEit-disc.tag \
-		| ./tools/assign-tasks iorn+morten+lisa morten lisa morten lisa morten lisa morten lisa
+		| ./tools/assign-tasks iorn+morten morten morten morten morten
 
 todo.es: 
 	ls es/*-auto.tag es/*-tagged.tag | sed -e 's/es-auto.tag//g' -e 's/es-tagged.tag//g' \
