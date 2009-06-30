@@ -109,15 +109,15 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
-macro es cd ~/cdt/es
-macro it cd ~/cdt/it
-macro dait cd ~/cdt/da-it
-macro daes cd ~/cdt/da-es
+macro es cd /home/cdt/cdt/es
+macro it cd /home/cdt/cdt/it
+macro dait cd /home/cdt/cdt/da-it
+macro daes cd /home/cdt/cdt/da-es
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
-macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
-macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script ~/.script
+macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
+macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 macro tasks !~/cdt/tools/dtag-tasks
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
@@ -145,16 +145,27 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 #option post-print
 
 # Edge types
-etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj tobj vobj
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
 
-# Discourse relations in the CDT project
-etypes -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:dir CONJ:seq CONS CONTR CONTR:prg DESCR DESCR:class DESCR:eval DESCR:exem DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:cont QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ
+# Complement relations
+etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj possd possr preds predo predf qobj robj subj tobj vobj
 
-# Remaining relations in the CDT project
-etypes -add -adj exp attr class exem part rest spec cont prec succ about adjuncts agent appa appr attrd attrr ben bg cause comp conc concom cond conj cons const contr coord correl degr dir discmark elab ex ext focal fpred fpreds fpredo goal inst list loc man mod modo modp modr name namef namel neg other path pnct prg reas rel relelab relp relpa relr resem source struct time title voc xpl xtop + \n 
+# Adjunct relations replacing "mod" (Lotte's list)
+etypes -adj add agent att ben bg cause comp comp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond prec prg reas source space struct succ time
+
+# Other adjunct relations
+etypes -add -adj + appa appr attr attrd attrr conj coord correl fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
+
+# Adjunct relations with unclear status (are they allowed/disallowed?)
+etypes -add -adj about adjuncts class concom const discmark exem exp mod modo modp modr path relp relpa resem rest spec xpl
+
+# Discourse relations 
+etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:dir CONJ:seq CONS CONTR CONTR:prg DESCR DESCR:class DESCR:eval DESCR:exem DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:cont QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ REP INTACT:attn
+
+# Anaphoric relations
+etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 #etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland \n\n
-etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope assoc-loc
