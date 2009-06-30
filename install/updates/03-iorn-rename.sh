@@ -6,7 +6,7 @@ installdir=$cdtdir/install
 user=`cat $home/.cdtname`
 
 # This update only applies to iørn
-if cat $home/.cdtname | egrep "(iørn|iorn)" ; then
+if cat $home/.cdtname | egrep -v "(iørn|iorn)" ; then
 	echo "This update only applies to Iørn's computer"
 else
 	# Find all files with iørn and rename to iorn
