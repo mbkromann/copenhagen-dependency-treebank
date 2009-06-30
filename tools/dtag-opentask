@@ -67,6 +67,30 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 	echo "Dependency annotation task: $fname"
 	rfname=`echo $fname | sed -e 's/^\([^-]*-[^-]*\)-.*$/\1/g'`
 
+	# Try to create discourse file if present
+	if echo $fname | grep disc ; then
+		# Look for annotated file
+		srcfile=""
+		if [ -f "$HOME/cdt/$dir/$rfname-$name.tag" ] ; then
+			srcfile="$HOME/cdt/$dir/$rfname-$name.tag"
+		else 
+			srcfile=`du -s $rfname*.tag | sort -nr | head -1 | awk '{ print $2 }' | grep -v auto | grep -v tagged`
+		fi
+
+		# Exit if no syntax-annotated file can be found
+		if [ -z "$srcfile" ] ; then
+			echo "# ERROR: Cannot open discourse task: no existing syntax annotation" > ~/.script
+			echo "# Please edit the tasks file manually with the 'tasks' command" >> ~/.script
+			echo "# Then postpone task $fname by moving it to the bottom of the tasks file" >> ~/.script
+			exit 1
+		fi
+
+		# Otherwise create discourse file as copy of syntax file
+		echo "Copying $fname from $srcfile" 
+		svn cp "$srcfile" "$HOME/cdt/$dir/$fname"
+		echo "tag source: $srcfile"
+	fi
+
 	# Try to create file if non-existent
 	if [ ! -f "$HOME/cdt/$dir/$fname" ] ; then
 		# Create file from auto tag-file
@@ -140,5 +164,8 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 	else
 		echo "ERROR: cannot find file $file"
 	fi
+
+	# Print task
+	echo "Task: $fname"
 fi
 	
