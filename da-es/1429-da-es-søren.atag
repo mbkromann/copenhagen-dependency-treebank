@@ -1,0 +1,197 @@
+<DTAGalign>
+<alignFile key="a" href="../da/1429-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/1429-es-auto.tag" sign="_input"/>
+<align out="a44" type="" in="b1" creator="-101" insign="en" outsign="i"/>
+<align out="a45" type="" in="b2" creator="-101" insign="BTCC" outsign="BTCC"/>
+<align out="a50" type="" in="b6" creator="-101" insign="Ford" outsign="Ford"/>
+<align out="a54" type="" in="b10" creator="-101" insign="Renault" outsign="Renault"/>
+<align out="a59" type="" in="b13" creator="-101" insign="en" outsign="i"/>
+<align out="a63" type="" in="b19" creator="-101" insign="en" outsign="i"/>
+<align out="a175" type="" in="b130" creator="-101" insign="2.690" outsign="2.690"/>
+<align out="a176" type="" in="b131" creator="-101" insign="km" outsign="km"/>
+<align out="a177" type="" in="b132" creator="-101" insign="por" outsign="pr."/>
+<align out="a183" type="" in="b135" creator="-101" insign="Un" outsign="En"/>
+<align out="a184" type="" in="b136" creator="-101" insign="coche" outsign="bil"/>
+<align out="a185" type="" in="b137" creator="-101" insign="construido" outsign="bygget"/>
+<align out="a186" type="" in="b138" creator="-101" insign="por" outsign="af"/>
+<align out="a187" type="" in="b140" creator="-101" insign="franceses" outsign="franske"/>
+<align out="a188" type="" in="b139" creator="-101" insign="estudiantes" outsign="studerende"/>
+<align out="a189" type="" in="b141" creator="-101" insign="podría" outsign="kunne"/>
+<align out="a193" type="" in="b148" creator="-101" insign="si" outsign="hvis"/>
+<align out="a203" type="" in="b157" creator="-101" insign="puede" outsign="kan"/>
+<align out="a208" type="" in="b161" creator="-101" insign="kilómetros" outsign="km"/>
+<align out="a209" type="" in="b162" creator="-101" insign="con" outsign="på"/>
+<align out="a210" type="" in="b163" creator="-101" insign="un" outsign="en"/>
+<align out="a211" type="" in="b164" creator="-101" insign="litro" outsign="liter"/>
+<align out="a212" type="" in="b166" creator="-101" insign="gasolina" outsign="benzin"/>
+<align out="a214" type="" in="b168 b169" creator="-101" insign="lo que" outsign="hvilket"/>
+<align out="a215" type="" in="b170" creator="-101" insign="es" outsign="er"/>
+<align out="a216" type="" in="b171 b172 b173" creator="-101" insign="un récord mundial" outsign="verdensrekord"/>
+<align out="a220" type="" in="b175" creator="-101" insign="El" outsign="Den"/>
+<align out="a221" type="" in="b176" creator="-101" insign="increíble" outsign="enestående"/>
+<align out="a222" type="" in="b177" creator="-101" insign="coche" outsign="bil"/>
+<align out="a223" type="" in="b178" creator="-101" insign="ganó" outsign="vandt"/>
+<align out="a224" type="" in="b179" creator="-101" insign="en" outsign="i"/>
+<align out="a225" type="" in="b180" creator="-101" insign="esta" outsign="denne"/>
+<align out="a227" type="" in="b181" creator="-101" insign="disciplina" outsign="disciplin"/>
+<align out="a230" type="" in="b185" creator="-101" insign="con" outsign="med"/>
+<align out="a231" type="" in="b186" creator="-101" insign="73" outsign="73"/>
+<align out="a232" type="" in="b187" creator="-101" insign="otros" outsign="andre"/>
+<align out="a242" type="" in="b199" creator="-101" insign="El" outsign="Den"/>
+<align out="a243" type="" in="b201" creator="-101" insign="anterior" outsign="tidligere"/>
+<align out="a244" type="" in="b200" creator="-101" insign="récord" outsign="rekord"/>
+<align out="a245" type="" in="b202" creator="-101" insign="era" outsign="var"/>
+<align out="a246" type="" in="b203" creator="-101" insign="de" outsign="fra"/>
+<align out="a247" type="" in="b204" creator="-101" insign="1988" outsign="1988"/>
+<align out="a249" type="" in="b206 b207" creator="-101" insign="en que" outsign="hvor"/>
+<align out="a250" type="" in="b208" creator="-101" insign="un" outsign="en"/>
+<align out="a252" type="" in="b209" creator="-101" insign="coche" outsign="bil"/>
+<align out="a255" type="" in="b216" creator="-101" insign="kilómetros" outsign="km"/>
+<align out="a256" type="" in="b217" creator="-101" insign="con" outsign="på"/>
+<align out="a257" type="" in="b218" creator="-101" insign="un" outsign="en"/>
+<align out="b165" type="" in="b165" creator="-101" insign="de" outsign="de"/>
+<align out="b220" type="" in="b220" creator="-101" insign="de" outsign="de"/>
+<align out="a65" type="" in="b21" creator="0" insign="." outsign="."/>
+<align out="a64" type="" in="b20" creator="0" insign="1993" outsign="1993"/>
+<align out="a43" type="f" in="b0" creator="0" insign="Novedades" outsign="Nye"/>
+<align out="a52" type="" in="b8" creator="0" insign="Volkswagen" outsign="Volkswagen"/>
+<align out="a53" type="" in="b9" creator="0" insign="y" outsign="og"/>
+<align out="a55" type="" in="b3 b4" creator="0" insign="Se espera" outsign="ventes"/>
+<align out="b5" type="" in="b5" creator="0" insign="que" outsign="que"/>
+<align out="a56 a57 a58" type="" in="b11 b12" creator="0" insign="se incorporarán" outsign="at engagere sig"/>
+<align out="a61" type="s" in="b14 b17" creator="0" insign="las de" outsign="standardvogns"/>
+<align out="a60" type="" in="b16" creator="0" insign="británicas" outsign="britisk"/>
+<align out="a61" type="" in="b18" creator="0" insign="turismos" outsign="standardvogns"/>
+<align out="a62" type="" in="b15" creator="0" insign="carreras" outsign="racing"/>
+<align out="a68 a69" type="" in="b33" creator="0" insign="ya" outsign="I forvejen"/>
+<align out="a70" type="" in="b34" creator="0" insign="están" outsign="er"/>
+<align out="a71" type="" in="b22" creator="0" insign="BMW" outsign="BMW"/>
+<align out="a72" type="" in="b23" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="b24" creator="0" insign="Toyota" outsign="Toyota"/>
+<align out="a74" type="" in="b25" creator="0" insign="," outsign=","/>
+<align out="a75" type="" in="b26" creator="0" insign="Vauxhall" outsign="Vauxhall"/>
+<align out="a76" type="" in="b27" creator="0" insign="," outsign=","/>
+<align out="a77" type="" in="b28" creator="0" insign="Peugeot" outsign="Peugeot"/>
+<align out="a78" type="" in="b29" creator="0" insign="," outsign=","/>
+<align out="a79" type="" in="b30" creator="0" insign="Mazda" outsign="Mazda"/>
+<align out="a80" type="" in="b31" creator="0" insign="y" outsign="og"/>
+<align out="a81" type="" in="b32" creator="0" insign="Nissan" outsign="Nissan"/>
+<align out="a82" type="" in="b35" creator="0" insign="involucradas" outsign="involveret"/>
+<align out="a83" type="" in="b36" creator="0" insign="en" outsign="i"/>
+<align out="a84" type="s" in="b37" creator="0" insign="la" outsign="BTCC-serien"/>
+<align out="a84" type="" in="b38 b39 b40" creator="0" insign="serie de BTCC" outsign="BTCC-serien"/>
+<align out="a85" type="" in="b41" creator="0" insign="," outsign=","/>
+<align out="b42" type="" in="b42" creator="0" insign="serie" outsign="serie"/>
+<align out="a86" type="" in="b43" creator="0" insign="que" outsign="som"/>
+<align out="a87" type="" in="b44" creator="0" insign="Thorkild" outsign="Thorkild"/>
+<align out="a88" type="" in="b45" creator="0" insign="Thyrring" outsign="Thyrring"/>
+<align out="a89 a90 a91 a92 a93" type="f" in="b46 b47 b48" creator="0" insign="acaba de abandonar" outsign="nu har lagt bag sig"/>
+<align out="a94" type="" in="b49 b50" creator="0" insign="después del" outsign="efter"/>
+<align out="a95" type="" in="b51" creator="0" insign="error" outsign="fejltagelsen"/>
+<align out="a96" type="" in="b52" creator="0" insign="con&nbsp;respecto&nbsp;al" outsign="med"/>
+<align out="a97" type="" in="b53 b54 b55" creator="0" insign="equipo Andy Rouse" outsign="Andy_Rouse-teamet"/>
+<align out="a98" type="" in="b56" creator="0" insign="." outsign="."/>
+<align out="a101" type="" in="b57" creator="0" insign="Audi" outsign="Audi"/>
+<align out="a102" type="" in="b58" creator="0" insign="," outsign=","/>
+<align out="a103" type="" in="b59" creator="0" insign="que" outsign="som"/>
+<align out="a104" type="" in="b60" creator="0" insign="recientemente" outsign="fornylig"/>
+<align out="a106" type="" in="b61" creator="0" insign="se" outsign="sig"/>
+<align out="a110" type="" in="b66" creator="0" insign="alemana" outsign="tyske"/>
+<align out="a109" type="" in="b64" creator="0" insign="la" outsign="den"/>
+<align out="a111" type="serie=" in="b65" creator="0" insign="serie" outsign="Gruppe_A-serie"/>
+<align out="a111" type="Gruppe=" in="b67" creator="0" insign="Grupo" outsign="Gruppe_A-serie"/>
+<align out="a111" type="A=" in="b68" creator="0" insign="A" outsign="Gruppe_A-serie"/>
+<align out="a112" type="" in="b69 b70" creator="0" insign="después de" outsign="efter"/>
+<align out="a113" type="d" in="b71 b72" creator="0" insign="unas controversias" outsign="kontroverser"/>
+<align out="a114" type="" in="b73" creator="0" insign="con&nbsp;respecto&nbsp;a" outsign="omkring"/>
+<align out="a115" type="" in="b74" creator="0" insign="un" outsign="en"/>
+<align out="a116" type="" in="b75" creator="0" insign="nuevo" outsign="ny"/>
+<align out="a117" type="" in="b76" creator="0" insign="cigüeñal" outsign="krumtapaksel"/>
+<align out="a118" type="" in="b77" creator="0" insign="en" outsign="i"/>
+<align out="a108" type="" in="b63" creator="0" insign="de" outsign="af"/>
+<align out="a105 a107" type="" in="b62" creator="0" insign="retiró" outsign="trak ud"/>
+<align out="a119" type="s" in="b78 b80" creator="0" insign="los del" outsign="teamets"/>
+<align out="a119" type="" in="b81" creator="0" insign="equipo" outsign="teamets"/>
+<align out="a120" type="" in="b79" creator="0" insign="V8" outsign="V8'ere"/>
+<align out="a121" type="" in="b82" creator="0" insign="," outsign=","/>
+<align out="a122" type="" in="b83" creator="0" insign="ha" outsign="har"/>
+<align out="a123" type="" in="b84 b85" creator="0" insign="informado a" outsign="meddelt"/>
+<align out="a124" type="" in="b86" creator="0" insign="sus" outsign="sine"/>
+<align out="a125" type="" in="b87" creator="0" insign="pilotos" outsign="kørere"/>
+<align out="a126" type="" in="b88" creator="0" insign="–" outsign="&nbsp;-&nbsp;"/>
+<align out="a127" type="" in="b89" creator="0" insign="Stuck" outsign="Stuck"/>
+<align out="a128" type="" in="b90" creator="0" insign="," outsign=","/>
+<align out="a129" type="" in="b91" creator="0" insign="Jelinski" outsign="Jelinski"/>
+<align out="a130" type="" in="b92" creator="0" insign="y" outsign="og"/>
+<align out="a131" type="" in="b93" creator="0" insign="Biela" outsign="Biela"/>
+<align out="a132" type="" in="b94" creator="0" insign="–" outsign="&nbsp;-&nbsp;"/>
+<align out="a133" type="" in="b95" creator="0" insign="que" outsign="at"/>
+<align out="a134 a135" type="" in="b96" creator="0" insign="deben" outsign="de skal"/>
+<align out="a136 a137 a138 a139" type="" in="b97 b98 b99" creator="0" insign="“tomárselo con calma”" outsign="&quot; klappe hesten &quot;"/>
+<align out="a140" type="" in="b100" creator="0" insign="," outsign=","/>
+<align out="a141" type="" in="b101" creator="0" insign="y" outsign="og"/>
+<align out="a142 a143" type="" in="b102" creator="0" insign="es" outsign="det er"/>
+<align out="a144" type="" in="b104" creator="0" insign="por" outsign="af"/>
+<align out="a145" type="d" in="b105 b106" creator="0" insign="los observadores" outsign="iagttagere"/>
+<align out="a146" type="" in="b103" creator="0" insign="interpretado" outsign="tolket"/>
+<align out="a147" type="" in="b107" creator="0" insign="de" outsign="på"/>
+<align out="a148" type="" in="b108" creator="0" insign="tal" outsign="den"/>
+<align out="a149" type="" in="b109" creator="0" insign="modo" outsign="måde"/>
+<align out="a150" type="" in="a150" creator="0" insign="," outsign=","/>
+<align out="a151" type="" in="b110" creator="0" insign="que" outsign="at"/>
+<align out="a152" type="" in="b111" creator="0" insign="Audi" outsign="Audi"/>
+<align out="a153 a154" type="" in="b112" creator="0" insign="regresará" outsign="vender tilbage"/>
+<align out="a155" type="" in="b113" creator="0" insign="en" outsign="i"/>
+<align out="a156" type="" in="b114" creator="0" insign="1993" outsign="1993"/>
+<align out="a157" type="" in="b115" creator="0" insign="y" outsign="og"/>
+<align out="a158" type="" in="b116" creator="0" insign="por&nbsp;lo&nbsp;tanto" outsign="derfor"/>
+<align out="a159" type="" in="b117" creator="0" insign="ha" outsign="har"/>
+<align out="a160" type="" in="b118 b119" creator="0" insign="pedido a" outsign="bedt"/>
+<align out="b120" type="" in="b120" creator="0" insign="sus" outsign="sus"/>
+<align out="a161" type="d" in="b121" creator="0" insign="pilotos" outsign="kørerne"/>
+<align out="a164" type="" in="b122" creator="0" insign="que" outsign="at"/>
+<align out="a163" type="" in="b123" creator="0" insign="no" outsign="ikke"/>
+<align out="a166" type="" in="b124" creator="0" insign="se" outsign="sig"/>
+<align out="a165" type="" in="b125" creator="0" insign="comprometan" outsign="engagere"/>
+<align out="a167" type="" in="b126" creator="0" insign="con" outsign="til"/>
+<align out="a168" type="n" in="b127" creator="0" insign="otros" outsign="anden"/>
+<align out="a169" type="f" in="b128" creator="0" insign="equipos" outsign="side"/>
+<align out="a170" type="" in="b129" creator="0" insign="." outsign="."/>
+<align out="a162" type="" in="a162" creator="0" insign="om" outsign="om"/>
+<align out="a178" type="" in="b133 b134" creator="0" insign="litro ." outsign="l."/>
+<align out="a190" type="" in="b142 b143" creator="0" insign="arruinar a" outsign="ruinere"/>
+<align out="a192" type="s" in="b144" creator="0" insign="las" outsign=","/>
+<align out="a191" type="" in="b145 b146" creator="0" insign="compañías petroleras" outsign="benzinselskaberne"/>
+<align out="a192" type="" in="b147" creator="0" insign="," outsign=","/>
+<align out="a194 a195 a196 a197 a198" type="f" in="b149 b150 b151 b152 b153" creator="0" insign="llegara a producirse en masa" outsign="den blev sat i masseproduktion"/>
+<align out="a199" type="" in="b154" creator="0" insign="." outsign="."/>
+<align out="a198" type="masse=" in="b153" creator="0" insign="masa" outsign="masseproduktion"/>
+<align out="a202" type="s" in="b155" creator="0" insign="El" outsign="Bilen"/>
+<align out="a202" type="" in="b156" creator="0" insign="coche" outsign="Bilen"/>
+<align out="a204" type="" in="b158" creator="0" insign="recorrer" outsign="køre"/>
+<align out="a205 a206" type="" in="b159" creator="0" insign="por&nbsp;encima&nbsp;de" outsign="lige over"/>
+<align out="a207" type="" in="b160" creator="0" insign="2.690" outsign="2.690"/>
+<align out="a213" type="" in="b167" creator="0" insign="," outsign=","/>
+<align out="a217" type="" in="b174" creator="0" insign="." outsign="."/>
+<align out="a226" type="" in="b182" creator="0" insign="especial" outsign="specielle"/>
+<align out="a228" type="" in="b183" creator="0" insign="un" outsign="i"/>
+<align out="a229" type="" in="b184" creator="0" insign="concurso" outsign="konkurrence"/>
+<align out="a234" type="" in="b188" creator="0" insign="coches" outsign="biler"/>
+<align out="a233" type="f" in="b189" creator="0" insign="especializados" outsign="specialbyggede"/>
+<align out="a235" type="" in="b190" creator="0" insign="en" outsign="på"/>
+<align out="a236" type="s" in="b191" creator="0" insign="la" outsign="Silverstone-banen"/>
+<align out="a236" type="" in="b192 b193 b194" creator="0" insign="pista de Silverstone" outsign="Silverstone-banen"/>
+<align out="a237" type="" in="b195" creator="0" insign="en" outsign="i"/>
+<align out="a238" type="" in="b196 b197" creator="0" insign="Gran Bretaña" outsign="Storbritannien"/>
+<align out="a239" type="" in="b198" creator="0" insign="." outsign="."/>
+<align out="a248" type="" in="b205" creator="0" insign="," outsign=","/>
+<align out="a253" type="mvi" in="b214" creator="0" insign="recorrer" outsign="kørte"/>
+<align out="b213" type="" in="b213" creator="0" insign="pudo" outsign="pudo"/>
+<align out="a251" type="" in="b210 b211 b212" creator="0" insign="de construcción japonesa" outsign="japansk-bygget"/>
+<align out="a251" type="japansk=" in="b212" creator="0" insign="japonesa" outsign="japansk-bygget"/>
+<align out="a254" type="" in="b215" creator="0" insign="2.270" outsign="2.270"/>
+<align out="a258" type="" in="b219" creator="0" insign="litro" outsign="liter"/>
+<align out="b221" type="" in="b221" creator="0" insign="gasolina" outsign="gasolina"/>
+<align out="a259" type="" in="b222" creator="0" insign="." outsign="."/>
+<align out="a51" type="" in="b7" creator="-100" insign="," outsign=","/>
+</DTAGalign>

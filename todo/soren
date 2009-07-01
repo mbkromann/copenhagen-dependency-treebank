@@ -1,60 +1,317 @@
-[*] es/0104-es-søren.tag
-[*] da-es/0104-da-es-søren.atag
-[*] da-es/0388-da-es-søren.atag
-[*] es/0388-es-søren.tag
-[*] da-es/0184-da-es-søren.atag
-[*] es/0184-es-søren.tag
-[*] da-es/0212-da-es-søren.atag
-[*] es/0212-es-søren.tag
-[*] da-es/0260-da-es-søren.atag
-[ ] es/0260-es-søren.tag
-[ ] da-es/0351-da-es-søren.atag
-[ ] es/0351-es-søren.tag
-[*] da-es/0388-da-es-søren.atag
-[*] es/0388-es-søren.tag
-[ ] da-es/0426-da-es-søren.atag
-[ ] es/0426-es-søren.tag
-[ ] da-es/0502-da-es-søren.atag
-[ ] es/0502-es-søren.tag
-[ ] da-es/0596-da-es-søren.atag
-[ ] es/0596-es-søren.tag
-[ ] da-es/0620-da-es-søren.atag
-[ ] es/0620-es-søren.tag
-[ ] da-es/0647-da-es-søren.atag
-[ ] es/0647-es-søren.tag
-[ ] da-es/0685-da-es-søren.atag
-[ ] es/0685-es-søren.tag
-[ ] da-es/0780-da-es-søren.atag
-[ ] es/0780-es-søren.tag
-[ ] da-es/0800-da-es-søren.atag
-[ ] es/0800-es-søren.tag
-[ ] da-es/0863-da-es-søren.atag
-[ ] es/0863-es-søren.tag
-[ ] da-es/0876-da-es-søren.atag
-[ ] es/0876-es-søren.tag
-[ ] da-es/0915-da-es-søren.atag
-[ ] es/0915-es-søren.tag
-[ ] da-es/0960-da-es-søren.atag
-[ ] es/0960-es-søren.tag
-[ ] da-es/1035-da-es-søren.atag
-[ ] es/1035-es-søren.tag
-[ ] da-es/1054-da-es-søren.atag
-[ ] es/1054-es-søren.tag
-[ ] da-es/1077-da-es-søren.atag
-[ ] es/1077-es-søren.tag
-[ ] da-es/1127-da-es-søren.atag
-[ ] es/1127-es-søren.tag
-[ ] da-es/1241-da-es-søren.atag
-[ ] es/1241-es-søren.tag
-[ ] da-es/1347-da-es-søren.atag
-[ ] es/1347-es-søren.tag
-[ ] da-es/1398-da-es-søren.atag
-[ ] es/1398-es-søren.tag
-[ ] da-es/1420-da-es-søren.atag
-[ ] es/1420-es-søren.tag
-[ ] da-es/1429-da-es-søren.atag
-[ ] es/1429-es-søren.tag
-[ ] da-es/0306-da-es-søren.atag
-[ ] es/0306-es-søren.tag
-[ ] da-es/1252-da-es-søren.atag
-[ ] es/1252-es-søren.tag
+[*] es/0104-es-soren.tag
+[*] da-es/0104-da-es-soren.atag
+[*] da-es/0388-da-es-soren.atag
+[*] es/0388-es-soren.tag
+[*] da-es/0184-da-es-soren.atag
+[*] es/0184-es-soren.tag
+[*] da-es/0212-da-es-soren.atag
+[*] es/0212-es-soren.tag
+[*] da-es/0260-da-es-soren.atag
+[ ] es/0260-es-soren.tag
+[ ] da-es/0351-da-es-soren.atag
+[ ] es/0351-es-soren.tag
+[*] da-es/0388-da-es-soren.atag
+[*] es/0388-es-soren.tag
+[ ] da-es/0426-da-es-soren.atag
+[ ] es/0426-es-soren.tag
+[ ] da-es/0502-da-es-soren.atag
+[ ] es/0502-es-soren.tag
+[ ] da-es/0596-da-es-soren.atag
+[ ] es/0596-es-soren.tag
+[ ] da-es/0620-da-es-soren.atag
+[ ] es/0620-es-soren.tag
+[ ] da-es/0647-da-es-soren.atag
+[ ] es/0647-es-soren.tag
+[ ] da-es/0685-da-es-soren.atag
+[ ] es/0685-es-soren.tag
+[ ] da-es/0780-da-es-soren.atag
+[ ] es/0780-es-soren.tag
+[ ] da-es/0800-da-es-soren.atag
+[ ] es/0800-es-soren.tag
+[ ] da-es/0863-da-es-soren.atag
+[ ] es/0863-es-soren.tag
+[ ] da-es/0876-da-es-soren.atag
+[ ] es/0876-es-soren.tag
+[ ] da-es/0915-da-es-soren.atag
+[ ] es/0915-es-soren.tag
+[ ] da-es/0960-da-es-soren.atag
+[ ] es/0960-es-soren.tag
+[ ] da-es/1035-da-es-soren.atag
+[ ] es/1035-es-soren.tag
+[ ] da-es/1054-da-es-soren.atag
+[ ] es/1054-es-soren.tag
+[ ] da-es/1077-da-es-soren.atag
+[ ] es/1077-es-soren.tag
+[ ] da-es/1127-da-es-soren.atag
+[ ] es/1127-es-soren.tag
+[ ] da-es/1241-da-es-soren.atag
+[ ] es/1241-es-soren.tag
+[ ] da-es/1347-da-es-soren.atag
+[ ] es/1347-es-soren.tag
+[ ] da-es/1398-da-es-soren.atag
+[ ] es/1398-es-soren.tag
+[ ] da-es/1420-da-es-soren.atag
+[ ] es/1420-es-soren.tag
+[ ] da-es/1429-da-es-soren.atag
+[ ] es/1429-es-soren.tag
+[ ] da-es/0306-da-es-soren.atag
+[ ] es/0306-es-soren.tag
+[ ] da-es/1252-da-es-soren.atag
+[ ] es/1252-es-soren.tag
+[*] es/0104-es-soren.tag
+[*] da-es/0104-da-es-soren.atag
+[*] da-es/0388-da-es-soren.atag
+[*] es/0388-es-soren.tag
+[*] da-es/0184-da-es-soren.atag
+[*] es/0184-es-soren.tag
+[*] da-es/0212-da-es-soren.atag
+[*] es/0212-es-soren.tag
+[*] da-es/0260-da-es-soren.atag
+[*] es/0260-es-soren.tag
+[*] da-es/0351-da-es-soren.atag
+[*] es/0351-es-soren.tag
+[*] da-es/0388-da-es-soren.atag
+[*] es/0388-es-soren.tag
+[*] da-es/0426-da-es-soren.atag
+[*] es/0426-es-soren.tag
+[*] da-es/0502-da-es-soren.atag
+[*] es/0502-es-soren.tag
+[*] da-es/0596-da-es-soren.atag
+[*] es/0596-es-soren.tag
+[*] da-es/0620-da-es-soren.atag
+[*] es/0620-es-soren.tag
+[*] da-es/0647-da-es-soren.atag
+[*] es/0647-es-soren.tag
+[*] da-es/0685-da-es-soren.atag
+[*] es/0685-es-soren.tag
+[*] da-es/0780-da-es-soren.atag
+[*] es/0780-es-soren.tag
+[*] da-es/0800-da-es-soren.atag
+[*] es/0800-es-soren.tag
+[*] da-es/0863-da-es-soren.atag
+[*] es/0863-es-soren.tag
+[*] da-es/0876-da-es-soren.atag
+[*] es/0876-es-soren.tag
+[*] da-es/0915-da-es-soren.atag
+[*] es/0915-es-soren.tag
+[*] da-es/0960-da-es-soren.atag
+[*] es/0960-es-soren.tag
+[*] da-es/1035-da-es-soren.atag
+[*] es/1035-es-soren.tag
+[*] da-es/1054-da-es-soren.atag
+[*] es/1054-es-soren.tag
+[*] da-es/1077-da-es-soren.atag
+[*] es/1077-es-soren.tag
+[*] da-es/1127-da-es-soren.atag
+[*] es/1127-es-soren.tag
+[*] da-es/1241-da-es-soren.atag
+[*] es/1241-es-soren.tag
+[*] da-es/1347-da-es-soren.atag
+[*] es/1347-es-soren.tag
+[*] da-es/1398-da-es-soren.atag
+[*] es/1398-es-soren.tag
+[*] da-es/1420-da-es-soren.atag
+[*] es/1420-es-soren.tag
+[*] da-es/1429-da-es-soren.atag
+[*] es/1429-es-soren.tag
+[*] da-es/0306-da-es-soren.atag
+[*] es/0306-es-soren.tag
+[*] da-es/1252-da-es-soren.atag
+[*] es/1252-es-soren.tag
+
+
+# Assign-tasks added new files on Fri Apr 24 11:00:14 CEST 2009
+
+[ ] da-es/0001-da-es-soren.atag
+[ ] da-es/0008-da-es-soren.atag
+[ ] da-es/0043-da-es-soren.atag
+[ ] da-es/0079-da-es-soren.atag
+[ ] da-es/0091-da-es-soren.atag
+[ ] da-es/0096-da-es-soren.atag
+[ ] da-es/0101-da-es-soren.atag
+[ ] da-es/0112-da-es-soren.atag
+[ ] da-es/0119-da-es-soren.atag
+[ ] da-es/0134-da-es-soren.atag
+[ ] da-es/0140-da-es-soren.atag
+[ ] da-es/0144-da-es-soren.atag
+[ ] da-es/0151-da-es-soren.atag
+[ ] da-es/0159-da-es-soren.atag
+[ ] da-es/0174-da-es-soren.atag
+[ ] da-es/0178-da-es-soren.atag
+[ ] da-es/0191-da-es-soren.atag
+[ ] da-es/0204-da-es-soren.atag
+[ ] da-es/0229-da-es-soren.atag
+[ ] da-es/0237-da-es-soren.atag
+[ ] da-es/0245-da-es-soren.atag
+[ ] da-es/0258-da-es-soren.atag
+[ ] da-es/0264-da-es-soren.atag
+[ ] da-es/0269-da-es-soren.atag
+[ ] da-es/0278-da-es-soren.atag
+[ ] da-es/0294-da-es-soren.atag
+[ ] da-es/0300-da-es-soren.atag
+[ ] da-es/0309-da-es-soren.atag
+[ ] da-es/0320-da-es-soren.atag
+[ ] da-es/0327-da-es-soren.atag
+[ ] da-es/0333-da-es-soren.atag
+[ ] da-es/0342-da-es-soren.atag
+[ ] da-es/0355-da-es-soren.atag
+[ ] da-es/0366-da-es-soren.atag
+[ ] da-es/0386-da-es-soren.atag
+[ ] da-es/0391-da-es-soren.atag
+[ ] da-es/0401-da-es-soren.atag
+[ ] da-es/0416-da-es-soren.atag
+[ ] da-es/0438-da-es-soren.atag
+[ ] da-es/0446-da-es-soren.atag
+[ ] da-es/0449-da-es-soren.atag
+[ ] da-es/0468-da-es-soren.atag
+[ ] da-es/0473-da-es-soren.atag
+[ ] da-es/0483-da-es-soren.atag
+[ ] da-es/0488-da-es-soren.atag
+[ ] da-es/0510-da-es-soren.atag
+[ ] da-es/0520-da-es-soren.atag
+[ ] da-es/0538-da-es-soren.atag
+[ ] da-es/0545-da-es-soren.atag
+[ ] da-es/0547-da-es-soren.atag
+[ ] da-es/0576-da-es-soren.atag
+[ ] da-es/0588-da-es-soren.atag
+[ ] da-es/0601-da-es-soren.atag
+[ ] da-es/0613-da-es-soren.atag
+[ ] da-es/0626-da-es-soren.atag
+[ ] da-es/0645-da-es-soren.atag
+[ ] da-es/0666-da-es-soren.atag
+[ ] da-es/0671-da-es-soren.atag
+[ ] da-es/0683-da-es-soren.atag
+[ ] da-es/0688-da-es-soren.atag
+[ ] da-es/0700-da-es-soren.atag
+[ ] da-es/0713-da-es-soren.atag
+[ ] da-es/0725-da-es-soren.atag
+[ ] da-es/0735-da-es-soren.atag
+[ ] da-es/0741-da-es-soren.atag
+[ ] da-es/0754-da-es-soren.atag
+[ ] da-es/0770-da-es-soren.atag
+[ ] da-es/0793-da-es-soren.atag
+[ ] da-es/0809-da-es-soren.atag
+[ ] da-es/0822-da-es-soren.atag
+[ ] da-es/0843-da-es-soren.atag
+[ ] da-es/0850-da-es-soren.atag
+[ ] da-es/0853-da-es-soren.atag
+[ ] da-es/0873-da-es-soren.atag
+[ ] da-es/0883-da-es-soren.atag
+[ ] da-es/0893-da-es-soren.atag
+[ ] da-es/0905-da-es-soren.atag
+[ ] da-es/0917-da-es-soren.atag
+[ ] da-es/0925-da-es-soren.atag
+[ ] da-es/0927-da-es-soren.atag
+[ ] da-es/0935-da-es-soren.atag
+[ ] da-es/0940-da-es-soren.atag
+[ ] da-es/0951-da-es-soren.atag
+[ ] da-es/0956-da-es-soren.atag
+[ ] da-es/0958-da-es-soren.atag
+[ ] da-es/0968-da-es-soren.atag
+[ ] da-es/0978-da-es-soren.atag
+[ ] da-es/0989-da-es-soren.atag
+[ ] da-es/1001-da-es-soren.atag
+[ ] da-es/1010-da-es-soren.atag
+[ ] da-es/1021-da-es-soren.atag
+[ ] da-es/1031-da-es-soren.atag
+[ ] da-es/1042-da-es-soren.atag
+[ ] da-es/1046-da-es-soren.atag
+[ ] da-es/1048-da-es-soren.atag
+[ ] da-es/1056-da-es-soren.atag
+[ ] da-es/1058-da-es-soren.atag
+[ ] da-es/1063-da-es-soren.atag
+[ ] da-es/1075-da-es-soren.atag
+[ ] da-es/1117-da-es-soren.atag
+[ ] da-es/1130-da-es-soren.atag
+[ ] da-es/1154-da-es-soren.atag
+[ ] da-es/1168-da-es-soren.atag
+[ ] da-es/1174-da-es-soren.atag
+[ ] da-es/1181-da-es-soren.atag
+[ ] da-es/1183-da-es-soren.atag
+[ ] da-es/1214-da-es-soren.atag
+[ ] da-es/1229-da-es-soren.atag
+[ ] da-es/1259-da-es-soren.atag
+[ ] da-es/1276-da-es-soren.atag
+[ ] da-es/1284-da-es-soren.atag
+[ ] da-es/1292-da-es-soren.atag
+[ ] da-es/1306-da-es-soren.atag
+[ ] da-es/1321-da-es-soren.atag
+[ ] da-es/1328-da-es-soren.atag
+[ ] da-es/1333-da-es-soren.atag
+[ ] da-es/1339-da-es-soren.atag
+[ ] da-es/1364-da-es-soren.atag
+[ ] da-es/1368-da-es-soren.atag
+[ ] da-es/1372-da-es-soren.atag
+[ ] da-es/1377-da-es-soren.atag
+[ ] da-es/1381-da-es-soren.atag
+[ ] da-es/1385-da-es-soren.atag
+[ ] da-es/1400-da-es-soren.atag
+[ ] da-es/1406-da-es-soren.atag
+[ ] da-es/1414-da-es-soren.atag
+[ ] da-es/1439-da-es-soren.atag
+[ ] da-es/1453-da-es-soren.atag
+[ ] da-es/1465-da-es-soren.atag
+[ ] da-es/1472-da-es-soren.atag
+[ ] da-es/1488-da-es-soren.atag
+[ ] da-es/1493-da-es-soren.atag
+[ ] da-es/1495-da-es-soren.atag
+[ ] da-es/1508-da-es-soren.atag
+[ ] da-es/1522-da-es-soren.atag
+[ ] da-es/1527-da-es-soren.atag
+[ ] da-es/1546-da-es-soren.atag
+
+
+# Assign-tasks added new files on Tue Jun 30 14:39:19 CEST 2009
+
+[ ] da-es/0005-da-es-soren.atag
+[ ] da-es/0065-da-es-soren.atag
+[ ] da-es/0090-da-es-soren.atag
+[ ] da-es/0097-da-es-soren.atag
+[ ] da-es/0114-da-es-soren.atag
+[ ] da-es/0138-da-es-soren.atag
+[ ] da-es/0143-da-es-soren.atag
+[ ] da-es/0259-da-es-soren.atag
+[ ] da-es/0268-da-es-soren.atag
+[ ] da-es/0273-da-es-soren.atag
+[ ] da-es/0298-da-es-soren.atag
+[ ] da-es/0318-da-es-soren.atag
+[ ] da-es/0378-da-es-soren.atag
+[ ] da-es/0434-da-es-soren.atag
+[ ] da-es/0448-da-es-soren.atag
+[ ] da-es/0479-da-es-soren.atag
+[ ] da-es/0500-da-es-soren.atag
+[ ] da-es/0507-da-es-soren.atag
+[ ] da-es/0573-da-es-soren.atag
+[ ] da-es/0581-da-es-soren.atag
+[ ] da-es/0644-da-es-soren.atag
+[ ] da-es/0654-da-es-soren.atag
+[ ] da-es/0670-da-es-soren.atag
+[ ] da-es/0680-da-es-soren.atag
+[ ] da-es/0790-da-es-soren.atag
+[ ] da-es/0840-da-es-soren.atag
+[ ] da-es/0856-da-es-soren.atag
+[ ] da-es/0889-da-es-soren.atag
+[ ] da-es/0934-da-es-soren.atag
+[ ] da-es/0975-da-es-soren.atag
+[ ] da-es/1019-da-es-soren.atag
+[ ] da-es/1032-da-es-soren.atag
+[ ] da-es/1055-da-es-soren.atag
+[ ] da-es/1104-da-es-soren.atag
+[ ] da-es/1138-da-es-soren.atag
+[ ] da-es/1166-da-es-soren.atag
+[ ] da-es/1173-da-es-soren.atag
+[ ] da-es/1182-da-es-soren.atag
+[ ] da-es/1228-da-es-soren.atag
+[ ] da-es/1270-da-es-soren.atag
+[ ] da-es/1302-da-es-soren.atag
+[ ] da-es/1319-da-es-soren.atag
+[ ] da-es/1371-da-es-soren.atag
+[ ] da-es/1379-da-es-soren.atag
+[ ] da-es/1394-da-es-soren.atag
+[ ] da-es/1399-da-es-soren.atag
+[ ] da-es/1426-da-es-soren.atag
+[ ] da-es/1471-da-es-soren.atag
+[ ] da-es/1485-da-es-soren.atag
+[ ] da-es/1519-da-es-soren.atag
+[ ] da-es/1524-da-es-soren.atag
+[ ] da-es/1545-da-es-soren.atag

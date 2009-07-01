@@ -1,0 +1,187 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0685-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0685-es-auto.tag" sign="_input"/>
+<align out="a43" type="" in="b0" creator="-101" insign="11" outsign="11"/>
+<align out="a44" type="" in="b1" creator="-101" insign="muertos" outsign="døde"/>
+<align out="a49" type="" in="b8" creator="-101" insign="11" outsign="11"/>
+<align out="a50" type="" in="b9" creator="-101" insign="personas" outsign="personer"/>
+<align out="a51" type="" in="b10" creator="-101" insign="murieron" outsign="døde"/>
+<align out="a54" type="" in="b14" creator="-101" insign="en" outsign="i"/>
+<align out="a57" type="" in="b21" creator="-101" insign="como" outsign="som"/>
+<align out="a64 a65" type="" in="b28" creator="-101" insign="Es" outsign="Det er"/>
+<align out="a66" type="" in="b29" creator="-101" insign="casi" outsign="næsten"/>
+<align out="a80" type="" in="b47" creator="-101" insign="para" outsign="for"/>
+<align out="a81" type="" in="b48" creator="-101" insign="1991" outsign="1991"/>
+<align out="a86" type="" in="b53" creator="-101" insign="puede" outsign="kan"/>
+<align out="a87" type="" in="b52" creator="-101" insign="no" outsign="ikke"/>
+<align out="a88" type="" in="b54" creator="-101" insign="aclarar" outsign="forklare"/>
+<align out="a89" type="" in="b55" creator="-101" insign="el" outsign="den"/>
+<align out="a90" type="" in="b56" creator="-101" insign="enorme" outsign="voldsomme"/>
+<align out="a91" type="" in="b57" creator="-101" insign="aumento" outsign="stigning"/>
+<align out="a92" type="" in="b58" creator="-101" insign="en" outsign="i"/>
+<align out="a94" type="" in="b61" creator="-101" insign="de" outsign="af"/>
+<align out="a97" type="" in="b68" creator="-101" insign="pero" outsign="men"/>
+<align out="a106" type="" in="b75" creator="-101" insign="conexión" outsign="sammenhæng"/>
+<align out="a108" type="" in="b76" creator="-101" insign="entre" outsign="mellem"/>
+<align out="a110" type="" in="b79" creator="-101" insign="y" outsign="og"/>
+<align out="a113" type="" in="b83" creator="-101" insign="que" outsign="at"/>
+<align out="a114" type="" in="b84" creator="-101" insign="todas" outsign="alle"/>
+<align out="a117" type="" in="b87" creator="-101" insign="habían" outsign="havde"/>
+<align out="a118" type="" in="b88" creator="-101" insign="sido" outsign="været"/>
+<align out="a119" type="" in="b89" creator="-101" insign="consumidores" outsign="misbrugere"/>
+<align out="a120" type="" in="b90" creator="-101" insign="de" outsign="af"/>
+<align out="a122" type="" in="b91" creator="-101" insign="drogas" outsign="stoffer"/>
+<align out="a124" type="" in="b96" creator="-101" insign="escribe" outsign="skriver"/>
+<align out="a125" type="" in="b97" creator="-101" insign="Fyens" outsign="Fyens"/>
+<align out="a131" type="" in="b104" creator="-101" insign="dos" outsign="To"/>
+<align out="a133" type="" in="b105" creator="-101" insign="escuelas" outsign="skoler"/>
+<align out="a137" type="" in="b110" creator="-101" insign="Dos" outsign="To"/>
+<align out="a138" type="" in="b111" creator="-101" insign="escuelas" outsign="skoler"/>
+<align out="a139" type="" in="b112" creator="-101" insign="en" outsign="i"/>
+<align out="a142" type="" in="b117" creator="-101" insign="en" outsign="på"/>
+<align out="a145" type="" in="b121" creator="-101" insign="cerrar" outsign="lukke"/>
+<align out="a146" type="" in="b122" creator="-101" insign="en" outsign="i"/>
+<align out="a148" type="" in="b126" creator="-101" insign="1993" outsign="1993"/>
+<align out="a153" type="" in="b131" creator="-101" insign="ha" outsign="har"/>
+<align out="a154" type="" in="b132" creator="-101" insign="decidido" outsign="besluttet"/>
+<align out="a155 a156" type="" in="b133" creator="-101" insign="cerrar" outsign="at nedlægge"/>
+<align out="a159" type="" in="b137" creator="-101" insign="Orte" outsign="Orte"/>
+<align out="a160" type="" in="b138" creator="-101" insign="y" outsign="og"/>
+<align out="a162" type="" in="a162" creator="-101" insign="og" outsign="og"/>
+<align out="a172" type="" in="b150" creator="-101" insign="Más" outsign="Flere"/>
+<align out="a173" type="" in="b151" creator="-101" insign="hospitales" outsign="sygehuse"/>
+<align out="a174" type="" in="b152" creator="-101" insign="a" outsign="til"/>
+<align out="a175" type="" in="b153 b154 b155" creator="-101" insign="Europa del Este" outsign="Østeuropa"/>
+<align out="a187" type="" in="b166" creator="-101" insign="desde" outsign="fra"/>
+<align out="a188" type="" in="b167" creator="-101" insign="Dinamarca" outsign="Danmark"/>
+<align out="a189" type="" in="b168" creator="-101" insign="hacia" outsign="til"/>
+<align out="a190" type="" in="b169 b170 b171" creator="-101" insign="Europa del Este" outsign="Østeuropa"/>
+<align out="a192" type="" in="b173" creator="-101" insign="y" outsign="og"/>
+<align out="a193" type="" in="b174" creator="-101" insign="ahora" outsign="nu"/>
+<align out="a194" type="" in="b175" creator="-101" insign="hay" outsign="er"/>
+<align out="a195" type="" in="b176" creator="-101" insign="dos" outsign="to"/>
+<align out="a196" type="" in="b177" creator="-101" insign="más" outsign="mere"/>
+<align out="a197" type="" in="b178" creator="-101" insign="en" outsign="på"/>
+<align out="a198" type="" in="b179" creator="-101" insign="camino" outsign="vej"/>
+<align out="a204" type="" in="b185" creator="-101" insign="ha" outsign="har"/>
+<align out="a208" type="" in="b188" creator="-101" insign="un" outsign="et"/>
+<align out="a212" type="" in="b194" creator="-101" insign="a" outsign="til"/>
+<align out="a213" type="" in="b195" creator="-101" insign="Zagreb" outsign="Zagreb"/>
+<align out="a214" type="" in="b196" creator="-101" insign="en" outsign="i"/>
+<align out="a225" type="" in="b207" creator="-101" insign="Polonia." outsign="Polen"/>
+<align out="b82" type="" in="b82" creator="-101" insign="de" outsign="de"/>
+<align out="b125" type="" in="b125" creator="-101" insign="de" outsign="de"/>
+<align out="a45" type="" in="b2" creator="0" insign="por" outsign="af"/>
+<align out="a46" type="" in="b3 b4 b5" creator="0" insign="consumo de drogas" outsign="narkomisbrug"/>
+<align out="a52" type="" in="b13" creator="0" insign="pasado" outsign="sidste"/>
+<align out="a53" type="d" in="b11 b12" creator="0" insign="el año" outsign="år"/>
+<align out="a58" type="" in="b22" creator="0" insign="consecuencia" outsign="følge"/>
+<align out="a59" type="" in="b23" creator="0" insign="de" outsign="af"/>
+<align out="a60" type="" in="b24 b25 b26" creator="0" insign="consumo de drogas" outsign="narkotikamisbrug"/>
+<align out="a61" type="" in="b27" creator="0" insign="." outsign="."/>
+<align out="a71" type="" in="b33" creator="0" insign="año" outsign="året"/>
+<align out="a71" type="s" in="b32" creator="0" insign="del" outsign="året"/>
+<align out="a67" type="mcn/d" in="b30 b31" creator="0" insign="el doble" outsign="dobbelt"/>
+<align out="a68" type="" in="a68" creator="0" insign="så" outsign="så"/>
+<align out="a69" type="" in="a69" creator="0" insign="mange" outsign="mange"/>
+<align out="a70" type="" in="a70" creator="0" insign="som" outsign="som"/>
+<align out="a72" type="" in="b34" creator="0" insign="anterior" outsign="før"/>
+<align out="a73" type="" in="b35" creator="0" insign="," outsign=","/>
+<align out="a82" type="" in="b49" creator="0" insign="." outsign="."/>
+<align out="b36" type="" in="b36" creator="0" insign="según" outsign="según"/>
+<align out="a79" type="" in="b40 b41" creator="0" insign="informe anual" outsign="årsberetning"/>
+<align out="a85" type="s" in="b50" creator="0" insign="La" outsign="Politiet"/>
+<align out="a85" type="" in="b51" creator="0" insign="policía" outsign="Politiet"/>
+<align out="a93" type="s" in="b59" creator="0" insign="la" outsign="antallet"/>
+<align out="a93" type="" in="b60" creator="0" insign="cantidad" outsign="antallet"/>
+<align out="a96" type="" in="b67" creator="0" insign="," outsign=","/>
+<align out="a95" type="lv" in="b62 b63 b64 b65 b66" creator="0" insign="muertos por consumo de drogas" outsign="narkodødsfald"/>
+<align out="a100 a101" type="mvi" in="b70" creator="0" insign="afirma" outsign="at fastslå"/>
+<align out="a102" type="" in="a102" creator="0" insign="," outsign=","/>
+<align out="a103" type="" in="b71" creator="0" insign="que" outsign="at"/>
+<align out="a98" type="" in="a98" creator="0" insign="nøjes" outsign="nøjes"/>
+<align out="a99" type="" in="a99" creator="0" insign="med" outsign="med"/>
+<align out="b69" type="" in="b69" creator="0" insign="en&nbsp;cambio" outsign="en&nbsp;cambio"/>
+<align out="b72" type="" in="b72" creator="0" insign="no" outsign="no"/>
+<align out="a105" type="" in="b74" creator="0" insign="ninguna" outsign="ingen"/>
+<align out="a104 a107" type="" in="b73" creator="0" insign="hay" outsign="der er"/>
+<align out="a109" type="s" in="b77" creator="0" insign="los" outsign="dødsfaldene"/>
+<align out="a109" type="" in="b78" creator="0" insign="muertos" outsign="dødsfaldene"/>
+<align out="a115" type="s" in="b85" creator="0" insign="las" outsign="ofrene"/>
+<align out="a115" type="" in="b86" creator="0" insign="víctimas" outsign="ofrene"/>
+<align out="a111" type="" in="b80 b81" creator="0" insign="el hecho" outsign="det"/>
+<align out="a112" type="" in="a112" creator="0" insign="," outsign=","/>
+<align out="a116" type="" in="b93 b94" creator="0" insign="durante años" outsign="i_årevis"/>
+<align out="a121" type="" in="b92" creator="0" insign="euforizantes" outsign="euforiserende"/>
+<align out="a123" type="" in="b95" creator="0" insign="," outsign=","/>
+<align out="a126" type="" in="b98 b99 b100 b101 b102" creator="0" insign="Stiftstidende . ( RB )" outsign="Stiftstidende.(RB)"/>
+<align out="a134" type="mvd" in="b103" creator="0" insign="Cierran" outsign="lukkes"/>
+<align out="a132" type="s" in="b106" creator="0" insign="de" outsign="fynske"/>
+<align out="a132" type="mvn" in="b107" creator="0" insign="Fyn" outsign="fynske"/>
+<align out="a135" type="" in="b108" creator="0" insign="ÅRUP" outsign="ÅRUP"/>
+<align out="a136" type="" in="b109" creator="0" insign=":" outsign=":"/>
+<align out="a140 a141" type="d" in="b113 b114 b115 b116" creator="0" insign="la municipalidad de Årup" outsign="Årup kommune"/>
+<align out="a143" type="" in="b118" creator="0" insign="Fyn" outsign="Fyn"/>
+<align out="a144" type="mvg" in="b119 b120" creator="0" insign="van a" outsign="skal"/>
+<align out="a147" type="s" in="b123" creator="0" insign="el" outsign="sommeren"/>
+<align out="a147" type="" in="b124" creator="0" insign="verano" outsign="sommeren"/>
+<align out="a149" type="" in="b127" creator="0" insign="." outsign="."/>
+<align out="a152" type="kommunal=" in="b130" creator="0" insign="municipal" outsign="Kommunalbestyrelsen"/>
+<align out="a152" type="s" in="b128" creator="0" insign="El" outsign="Kommunalbestyrelsen"/>
+<align out="a152" type="bestyrelse=" in="b129" creator="0" insign="concejo" outsign="Kommunalbestyrelsen"/>
+<align out="a157" type="s" in="b134" creator="0" insign="las" outsign="skolerne"/>
+<align out="a157" type="" in="b135" creator="0" insign="escuelas" outsign="skolerne"/>
+<align out="a158" type="" in="b136" creator="0" insign="de" outsign="i"/>
+<align out="a161" type="" in="b139" creator="0" insign="Kerte" outsign="Kerte"/>
+<align out="b140" type="" in="b140" creator="0" insign="," outsign=","/>
+<align out="a163" type="mvg" in="b141" creator="0" insign="ahorrando" outsign="sparer"/>
+<align out="a164" type="lv" in="b142 b143 b144" creator="0" insign="de este modo" outsign="dermed"/>
+<align out="a165" type="" in="b145 b146" creator="0" insign="alrededor de" outsign="ca."/>
+<align out="a166" type="" in="b147" creator="0" insign="800.000" outsign="800.000"/>
+<align out="a167" type="" in="b148 b149" creator="0" insign="coronas. awb" outsign="kr.awb"/>
+<align out="a176" type="" in="b156" creator="0" insign="VEJLE" outsign="VEJLE"/>
+<align out="a177" type="" in="b157" creator="0" insign=":" outsign=":"/>
+<align out="a178" type="" in="b158" creator="0" insign="Numerosos" outsign="Adskillige"/>
+<align out="a179" type="" in="b162" creator="0" insign="exhaustos" outsign="udtjente"/>
+<align out="a191" type="" in="b172" creator="0" insign="," outsign=","/>
+<align out="a180" type="sygehuse=" in="b159" creator="0" insign="hospitales" outsign="beredskabssygehuse"/>
+<align out="a180" type="beredskab=" in="b160 b161" creator="0" insign="de emergencia" outsign="beredskabssygehuse"/>
+<align out="a182 a183 a184" type="mcadv" in="b165" creator="0" insign="últimamente" outsign="den seneste tid"/>
+<align out="a181" type="" in="b163" creator="0" insign="han" outsign="har"/>
+<align out="a185" type="" in="a185" creator="0" insign="fundet" outsign="fundet"/>
+<align out="a186" type="" in="a186" creator="0" insign="vej" outsign="vej"/>
+<align out="b164" type="" in="b164" creator="0" insign="partido" outsign="partido"/>
+<align out="a199" type="" in="b180" creator="0" insign="." outsign="."/>
+<align out="a202 a203" type="s" in="b181" creator="0" insign="El" outsign="Vejle Amt"/>
+<align out="a202 a203" type="" in="b181 b182 b183 b184" creator="0" insign="El municipio de Vejle" outsign="Vejle Amt"/>
+<align out="a206 a207" type="" in="b187" creator="0" insign="enviar" outsign="at sende"/>
+<align out="a210" type="" in="b192" creator="0" insign="de" outsign="fra"/>
+<align out="a211" type="" in="b193" creator="0" insign="Brædstrup" outsign="Brædstrup"/>
+<align out="b190" type="" in="b190" creator="0" insign="de" outsign="de"/>
+<align out="a209" type="sygehus=" in="b189" creator="0" insign="hospital" outsign="beredskabssygehus"/>
+<align out="a209" type="beredskab=" in="b191" creator="0" insign="emergencia" outsign="beredskabssygehus"/>
+<align out="a215" type="" in="b197" creator="0" insign="Croacia" outsign="Kroatien"/>
+<align out="a216" type="" in="b198" creator="0" insign="," outsign=","/>
+<align out="a217" type="" in="b199" creator="0" insign="mientras&nbsp;que" outsign="mens"/>
+<align out="a219" type="" in="b202" creator="0" insign="similar" outsign="tilsvarende"/>
+<align out="a221" type="" in="b203" creator="0" insign="de" outsign="fra"/>
+<align out="a222" type="" in="b204" creator="0" insign="Give" outsign="Give"/>
+<align out="a223 a224" type="f" in="b205 b206" creator="0" insign="partirá hacia" outsign="skal til"/>
+<align out="a220" type="f" in="b201" creator="0" insign="hospital" outsign="beredskabssygehus"/>
+<align out="a218" type="" in="a218" creator="0" insign="et" outsign="et"/>
+<align out="b200" type="" in="b200" creator="0" insign="otro" outsign="otro"/>
+<align out="a226" type="" in="a226" creator="0" insign="." outsign="."/>
+<align out="a229" type="" in="b208" creator="0" insign="hel" outsign="hel"/>
+<align out="a205" type="" in="b186" creator="0" insign="decidido" outsign="besluttet"/>
+<align out="a74 a75" type="mvd" in="b37 b38" creator="0" insign="se desprende" outsign="fremgår det"/>
+<align out="a48" type="" in="b7" creator="-100" insign=":" outsign=":"/>
+<align out="a47" type="" in="b6" creator="-100" insign="ODENSE" outsign="ODENSE"/>
+<align out="a55" type="" in="b20" creator="0" insign="Odense" outsign="Odense"/>
+<align out="a55" type="s" in="b15 b19" creator="0" insign="el de" outsign="Odense"/>
+<align out="a56" type="" in="b16 b17 b18" creator="0" insign="distrito de policía" outsign="Politikreds"/>
+<align out="a77" type="" in="b46" creator="0" insign="Odense" outsign="Odense"/>
+<align out="a78" type="" in="b44" creator="0" insign="Policía" outsign="Politis"/>
+<align out="a76" type="" in="b39" creator="0" insign="del" outsign="af"/>
+<align out="a78" type="s" in="b39 b42" creator="0" insign="del de" outsign="Politis"/>
+<align out="a77" type="s" in="b43 b45" creator="0" insign="la de" outsign="Odense"/>
+</DTAGalign>
