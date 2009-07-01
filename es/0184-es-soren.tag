@@ -1,7 +1,7 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj|12:ref">La</W>
 <W lemma="pasta" msd="NC" in="-1:nobj" out="">pasta</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="vendar|vender" msd="VLfin" in="" out="-3:subj|-1:robj|2:pnct|4:coord|5:pobj|8:coord|1:predo|3:predo|10:vobj">vende</W>
+<W lemma="vendar|vender" msd="VLfin" in="" out="-3:subj|-1:robj|1:predo|2:pnct|3:predo|4:coord|5:pobj|8:coord|10:vobj">vende</W>
 <W lemma="fresco" msd="ADJ" in="-1:predo" out="">fresca</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="seco" msd="ADJ" in="-3:predo" out="3:nobj">seca</W>
@@ -10,8 +10,8 @@
 <W lemma="plato" msd="NC" in="-3:nobj" out="1:nobj">platos</W>
 <W lemma="preparar" msd="VLadj" in="-1:nobj" out="">preparados</W>
 <W lemma="y" msd="CC" in="-8:coord" out="">y</W>
-<W lemma="se" msd="SE" in="1:robj|-12:ref" out="">se</W>
-<W lemma="usar" msd="VLfin" in="-10:vobj" out="-1:robj|3:pnct|5:pnct|9:pnct|1:pobj">usan</W>
+<W lemma="se" msd="SE" in="-12:ref|1:robj" out="">se</W>
+<W lemma="usar" msd="VLfin" in="-10:vobj" out="-1:robj|1:pobj|3:pnct|5:pnct|9:pnct">usan</W>
 <W lemma="junto~con" msd="PREP" in="-1:pobj" out="1:nobj">junto con</W>
 <W lemma="pescado" msd="NC" in="-1:nobj" out="2:conj|4:conj|6:conj">pescado</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -29,7 +29,7 @@
 <W lemma="pasta" msd="NC" in="-1:dobj" out="1:attrr">pasta</W>
 <W lemma="fresco" msd="ADJ" in="-1:attrr" out="">fresca</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="haber" msd="VLfin" in="" out="1:vobj|-1:pnct|6:pnct|-8:time|-6:vobj">hemos</W>
+<W lemma="haber" msd="VLfin" in="" out="-1:pnct|-8:time|-6:vobj|1:vobj|6:pnct">hemos</W>
 <W lemma="duplicar" msd="VLadj" in="-1:vobj" out="1:subj">duplicado</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
 <W lemma="venta" msd="NC" in="-1:nobj" out="1:time">venta</W>
@@ -49,11 +49,11 @@
 <W lemma="equivaler" msd="VLfin" in="" out="-3:pnct|-2:subj|1:pobj|3:dobj">equivale</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="">a</W>
 <W lemma="@card@" msd="CARD" in="1:numm" out="">2,8</W>
-<W lemma="millones" msd="CARD" in="-3:dobj" out="1:pobj:arg|-1:numm">millones</W>
+<W lemma="millones" msd="CARD" in="-3:dobj" out="-1:numm|1:pobj:arg">millones</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
 <W lemma="paquete" msd="NC" in="-1:nobj" out="">paquetes</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="contar" msd="VLfin" in="" out="-1:pnct|6:subj|10:pnct|-17:time|-15:vobj">cuenta</W>
+<W lemma="contar" msd="VLfin" in="" out="-1:pnct|-17:time|-15:vobj|6:subj|10:pnct">cuenta</W>
 <W lemma="el" msd="ART" in="5:title" out="1:nobj">el</W>
 <W lemma="jefe" msd="NC" in="-1:nobj" out="1:pobj:dobj#">jefe</W>
 <W lemma="de" msd="PREP" in="-1:pobj:dobj#" out="1:nobj">de</W>
@@ -94,7 +94,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj:dobj#" out="1:nobj">de</W>
 <W lemma="pan" msd="NC" in="-1:nobj" out="">pan</W>
 <W lemma="que" msd="CQUE" in="-3:relr|1:[subj]" out="">que</W>
-<W lemma="ir" msd="VLfin" in="-6:vobj" out="1:vp#|-1:[subj]">va</W>
+<W lemma="ir" msd="VLfin" in="-6:vobj" out="-1:[subj]|1:vp#">va</W>
 <W lemma="a" msd="PREP" in="-1:vp#" out="1:vobj">a</W>
 <W lemma="comenzar" msd="VLinf" in="-1:vobj" out="1:dobj">comenzar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
@@ -110,7 +110,7 @@
 <W lemma="en" msd="PREP" in="3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="extranjero" msd="NC" in="-1:nobj" out="">extranjero</W>
-<W lemma="podar|poder" msd="VLfin" in="9:vobj" out="1:vobj|-3:loc">podemos</W>
+<W lemma="podar|poder" msd="VLfin" in="9:vobj" out="-3:loc|1:vobj">podemos</W>
 <W lemma="presentir" msd="VLinf" in="-1:vobj" out="1:dobj|2:vobj">presentir</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="">que</W>
 <W lemma="haber" msd="VHfin" in="-2:vobj" out="1:dobj">hay</W>
@@ -119,7 +119,7 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="pasta" msd="NC" in="-1:nobj" out="">pasta</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="decir" msd="VLfin" in="" out="-1:pnct|2:subj|3:pnct|-9:vobj|28:pnct">dice</W>
+<W lemma="decir" msd="VLfin" in="" out="-1:pnct|-9:vobj|2:subj|3:pnct|28:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef|2:[ref]|3:rel">Bred</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -168,12 +168,12 @@
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="">los</W>
 <W lemma="@card@" msd="CARD" in="1:numm" out="">500</W>
-<W lemma="empleado" msd="NC" in="5:subj" out="1:pobj:arg#|-4:numm|-1:numm">empleados</W>
+<W lemma="empleado" msd="NC" in="5:subj" out="-4:numm|-1:numm|1:pobj:arg#">empleados</W>
 <W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="ocupar" msd="VLfin" in="" out="-1:robj|-10:degr|1:pobj|5:pnct|-5:subj">ocupan</W>
+<W lemma="ocupar" msd="VLfin" in="" out="-1:robj|-10:degr|-5:subj|1:pobj|5:pnct">ocupan</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="tirar" msd="VLfin" in="-1:nobj" out="1:attrr">tiras</W>
@@ -186,7 +186,7 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="ya" msd="ADV" in="1:prg" out="">ya</W>
-<W lemma="exportar" msd="VLfin" in="" out="-3:subj|1:dir|-1:prg|-4:pnct|-7:conc|3:pnct|7:pnct|8:coord">exporta</W>
+<W lemma="exportar" msd="VLfin" in="" out="-3:subj|-1:prg|-4:pnct|-7:conc|1:dir|3:pnct|7:pnct|8:coord">exporta</W>
 <W lemma="a" msd="PREP" in="-1:dir" out="1:nobj">a</W>
 <W lemma="Noruega" msd="NP" in="-1:nobj" out="2:conj|4:conj">Noruega</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
