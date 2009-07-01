@@ -68,9 +68,9 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="contribution" lemma="bidrag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="4:modp">bidrag</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="3:pnct" out="">(</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="2:prg" out="1:nobj">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="2:eval" out="1:nobj">som</W>
 <W gloss="rule" lemma="regel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regel</W>
-<W gloss="less" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-4:modp" out="-3:pnct|-2:prg|1:pobj|7:pnct">mindre</W>
+<W gloss="less" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-4:modp" out="-3:pnct|1:pobj|7:pnct|-2:eval">mindre</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:pobj" out="1:obl">end</W>
 <W gloss="before" lemma="før" msd="SP" tag="IN" in="-1:obl" out="1:nobj">før</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">det</W>
@@ -150,8 +150,8 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">en</W>
 <W gloss="low" lemma="lav" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lav</W>
 <W gloss="studentereksamenskarakter" lemma="studentereksamenskarakter" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">studentereksamenskarakter</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:subj|1:prg|6:pred">er</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:prg" out="2:avobj">for</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:subj|6:pred|1:eval">er</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:eval" out="2:avobj">for</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
 <W gloss="far" lemma="vidt" msd="RGU" tag="RP" in="-2:avobj" out="-1:degr">vidt</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>

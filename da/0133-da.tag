@@ -90,7 +90,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_terms_of_the_auction" lemma="auktionsbetingelse" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Auktionsbetingelserne</W>
 <W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="20:qobj" out="-1:subj|-2:pnct|1:other|2:pnct|3:dobj|19:pnct">siger</W>
 <W gloss="simply" lemma="simpelthen" msd="RGU" tag="RP" in="-1:other" out="">simpelthen</W>
@@ -111,7 +111,7 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_Navy" lemma="søværn" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Søværnet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
 <W gloss="reports" lemma="oplyse" msd="VADR=----A-" tag="VBD" in="" out="-20:qobj|3:subj|8:pnct">oplyser</W>
 <W gloss="senior_grade_commander" lemma="kommandørkaptajn" msd="NCCSU==I" tag="NN" in="2:title" out="">kommandørkaptajn</W>
 <W gloss="Per" lemma="Per" msd="NP--U==-" tag="NNP" in="1:namef" out="">Per</W>
@@ -126,8 +126,8 @@
 <p>
 <s>
 <W gloss="Holmen" lemma="holm" msd="NCCSU==D" tag="NN" in="1:subj" out="">Holmen</W>
-<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:prg|2:other|3:time|4:pred|6:pnct">er</W>
-<W gloss="Actually" lemma="såmænd" msd="RGU" tag="RP" in="-1:prg" out="">såmænd</W>
+<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:other|3:time|4:pred|6:pnct">er</W>
+<W gloss="Actually" lemma="såmænd" msd="RGU" tag="RP" in="-1:eval" out="">såmænd</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:other" out="">også</W>
 <W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="-3:time" out="">snart</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-4:pred" out="1:nobj">til</W>
@@ -183,7 +183,7 @@
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:pred" out="1:attr|2:nobj">nogle</W>
 <W gloss="rapid" lemma="hurtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">hurtige</W>
 <W gloss="svende" lemma="svend" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">svende</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-4:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-6:xpl" out="-1:subj|1:vobj|6:pnct|7:cause|18:pnct">kan</W>
 <W gloss="run" lemma="løbe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|3:lobj">løbe</W>

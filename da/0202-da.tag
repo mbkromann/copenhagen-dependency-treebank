@@ -121,7 +121,7 @@
 <W gloss="on" lemma="om" msd="SP" tag="IN" in="-1:list" out="1:nobj|3:pnct|11:xpl">om</W>
 <W gloss="the_race_car_driver" lemma="racerkører" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:appr">racerkøreren</W>
 <W gloss="Kris" lemma="Kris" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Kris</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-3:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 </hi>
 </s>
 </p>
@@ -161,8 +161,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:struct" out="">Samtidig</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|3:pred|4:loc|6:pnct|7:coord|26:pnct">er</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|3:pred|4:loc|6:pnct|7:coord|26:pnct|-1:time">er</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
 <W gloss="fair" lemma="fair" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:pred" out="-1:degr">fair</W>
@@ -178,9 +178,9 @@
 <W gloss="i" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">har</W>
 <W gloss="had" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj|6:loc">haft</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="problems" lemma="problem" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:pnct|1:pnct|2:pobj">problemer</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">ham</W>
 <W gloss="during" lemma="under" msd="SP" tag="IN" in="-6:loc" out="1:nobj|2:coord">under</W>
@@ -203,7 +203,7 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:vobj">har</W>
 <W gloss="overcome" lemma="overkomme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[dobj]|-2:[subj]|1:time|2:pnct|5:xpl">overkommet</W>
 <W gloss="this_year" lemma="i_år" msd="RGU" tag="RP" in="-1:time" out="">i_år</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W gloss="first" lemma="først" msd="RGU" tag="RP" in="2:time" out="">Først</W>
 <W gloss="three-quarters" lemma="trekvart" msd="ANP[CN]SU=IU" tag="JJ" in="1:mod" out="">trekvart</W>
 <W gloss="DTM_season" lemma="DTM-sæson" msd="NCCSU==I" tag="NN" in="-5:xpl" out="-1:mod|-2:time|1:loc">DTM-sæson</W>
@@ -220,9 +220,9 @@
 <W gloss="driver" lemma="kører" msd="NCCSU==I" tag="NN" in="-1:pred" out="">kører</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:other" out="">også</W>
 <W gloss="was_supposed_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-11:rel" out="-6:subj|-7:loc|-5:other|-1:other|2:vobj">skulle</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="organise" lemma="organisere" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|-8:[subj]|1:pnct|2:dobj">organisere</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj">en</W>
 <W gloss="lot" lemma="masse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">masse</W>
 <W gloss="things" lemma="ting" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ting</W>

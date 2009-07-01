@@ -41,8 +41,8 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Nevertheless" lemma="ikke_desto_mindre" msd="RGU" tag="RP" in="1:prg" out="">Ikke_desto_mindre</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:prg|3:subj|4:time|9:dobj|12:pnct">havde</W>
+<W gloss="Nevertheless" lemma="ikke_desto_mindre" msd="RGU" tag="RP" in="1:eval" out="">Ikke_desto_mindre</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="3:subj|4:time|9:dobj|12:pnct|-1:eval">havde</W>
 <W gloss="General" lemma="general" msd="NCCSU==I" tag="NN" in="2:title" out="">general</W>
 <W gloss="Augusto" lemma="Augusto" msd="NP--U==-" tag="NNP" in="1:namef" out="">Augusto</W>
 <W gloss="Pinochet" lemma="Pinochet" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:title|-1:namef">Pinochet</W>
@@ -121,16 +121,16 @@
 </p>
 <p>
 <s>
-<W gloss="In_addition_to" lemma="foruden" msd="SP" tag="IN" in="9:prg" out="1:nobj">Foruden</W>
+<W gloss="In_addition_to" lemma="foruden" msd="SP" tag="IN" in="9:add" out="1:nobj">Foruden</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="being" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pred|3:pobj">være</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:pred" out="1:nobj">et</W>
 <W gloss="draw" lemma="tilløbsstykke" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">tilløbsstykke</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="2:nobj">for</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="chlorophyll_tourists" lemma="klorofyl-turist" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">klorofyl-turister</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:prg|2:subj|3:pred|5:pobj|12:pnct">er</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="2:subj|3:pred|5:pobj|12:pnct|-9:add">er</W>
 <W gloss="Robinson" lemma="Robinson" msd="NP--U==-" tag="NNP" in="1:namef" out="">Robinson</W>
 <W gloss="Crusoe" lemma="Crusoe" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Crusoe</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:pred" out="1:nobj">et</W>
@@ -194,11 +194,11 @@
 <W gloss="picturesque" lemma="pittoresk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">pittoresk</W>
 <W gloss="tourist_attraction" lemma="turistattraktion" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">turistattraktion</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="2:other" out="">nemlig</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="2:other" out="">nemlig</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Robinson's" lemma="Robinson" msd="NP--G==-" tag="NNP" in="-6:appa" out="-1:pnct|-2:other|1:possd|2:pnct">Robinsons</W>
 <W gloss="Cave" lemma="hule" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Hule</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 </p>

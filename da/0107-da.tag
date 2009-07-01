@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:neg|2:time|3:pnct|4:dobj|14:pnct">tror</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
@@ -60,8 +60,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:prg" out="">Alligevel</W>
-<W gloss="sit" lemma="sidde" msd="VADR=----A-" tag="VBD" in="22:qobj" out="-1:prg|1:subj|2:other|5:coord|21:pnct">sidder</W>
+<W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:eval" out="">Alligevel</W>
+<W gloss="sit" lemma="sidde" msd="VADR=----A-" tag="VBD" in="22:qobj" out="1:subj|2:other|5:coord|21:pnct|-1:eval">sidder</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|5:[subj]" out="">vi</W>
 <W gloss="meeting" lemma="møde" msd="NCNSU==I" tag="NN" in="-2:other" out="1:other">møde</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:other" out="1:nobj">efter</W>
@@ -82,7 +82,7 @@
 <W gloss="EU" lemma="EF" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">EFs</W>
 <W gloss="Council_of_Ministers" lemma="ministerråd" msd="NCNSU==I" tag="NN" in="-1:possd" out="">ministerråd</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-22:qobj|2:subj|3:pnct">siger</W>
 <W gloss="peter" lemma="Peter" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peter</W>
 <W gloss="Duetoft" lemma="Duetoft" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Duetoft</W>

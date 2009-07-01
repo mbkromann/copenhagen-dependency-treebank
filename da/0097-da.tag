@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henning</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Dyremose</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-3:pnct|1:pred|3:pnct">er</W>
@@ -147,7 +147,7 @@
 <W gloss="present" lemma="nuværende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">nuværende</W>
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">regering</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-16:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-17:qobj|1:subj">siger</W>
 <W gloss="the_Progress_Party" lemma="fremskridtsparti" msd="NCNSU==D" tag="NN" in="-1:subj" out="1:possd|2:pnct|4:appa">Fremskridtspartiets</W>
 <W gloss="group_chairman" lemma="gruppeformand" msd="NCCSU==I" tag="NN" in="-1:possd" out="">gruppeformand</W>
@@ -176,14 +176,14 @@
 <W gloss="point" lemma="pege" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-2:[subj]|1:pobj">pege</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Dyremose</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-7:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
-<W gloss="probably" lemma="sandsynligvis" msd="RGU" tag="RP" in="1:prg" out="">Sandsynligvis</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-14:xpl" out="-2:pnct|-1:prg|1:subj|2:vobj|21:pnct">vil</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
+<W gloss="probably" lemma="sandsynligvis" msd="RGU" tag="RP" in="1:epi" out="">Sandsynligvis</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-14:xpl" out="-2:pnct|1:subj|2:vobj|21:pnct|-1:epi">vil</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">vi</W>
 <W gloss="refer" lemma="henholde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:pobj">henholde</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
@@ -220,7 +220,7 @@
 <W gloss="Anne" lemma="Anne" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Anne</W>
 <W gloss="Birgitte" lemma="Birgitte" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Birgitte</W>
 <W gloss="Lundholt" lemma="Lundholt" msd="NP--U==-" tag="NNP" in="1:subj|3:[subj]" out="-3:title|-2:namef">Lundholt</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|2:vobj|1:other">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|1:other|2:vobj">kunne</W>
 <W gloss="when" lemma="da" msd="RGU" tag="RP" in="-1:other" out="">da</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pred">være</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:nobj">en</W>
@@ -261,7 +261,7 @@
 <W gloss="sharper" lemma="skarp" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:attr" out="-1:degr">skarpere</W>
 <W gloss="profile" lemma="profil" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">profil</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-20:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-21:qobj|2:subj|3:pnct">siger</W>
 <W gloss="Aage" lemma="Aage" msd="NP--U==-" tag="NNP" in="1:namef" out="">Aage</W>
 <W gloss="Brusgaard" lemma="Brusgaard" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Brusgaard</W>

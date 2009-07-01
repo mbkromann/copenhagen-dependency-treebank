@@ -49,9 +49,9 @@
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-6:ref|1:=other" out="">så</W>
 <W gloss="write" lemma="skrive" msd="VAM-=------" tag="VB" in="" out="-7:xtop|-1:=other|1:pobj|15:pnct">skriv</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">til</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="The_Doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct|2:pnct|3:list|5:pnct|6:list|8:pnct|9:list">Lægerne</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="Weekly_Magazine" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="-3:list" out="1:appr">Ugemagasinet</W>
 <W gloss="SUNDAY" lemma="søndag" msd="NCCSU==I" tag="NN" in="-1:appr" out="">SØNDAG</W>
@@ -77,10 +77,10 @@
 </s>
 <s>
 <W gloss="NB" lemma="observere" msd="VAM-=------" tag="VB" in="" out="1:pnct|3:xpl">OBS</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="the_doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="1:subj|4:[subj]" out="">Lægerne</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="-1:subj|1:prg|2:neg|3:vobj|9:pnct">kan</W>
-<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="-1:prg" out="">desværre</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="-1:subj|2:neg|3:vobj|9:pnct|1:att">kan</W>
+<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="-1:att" out="">desværre</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="take_upon" lemma="påtage" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:iobj|2:dobj">påtage</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
@@ -146,7 +146,7 @@
 <p>
 <s>
 <W gloss="Illustration" lemma="illustration" msd="NCCSU==I" tag="NN" in="" out="1:pnct|3:list">Illustration</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="Ole" lemma="Ole" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ole</W>
 <W gloss="Clausen" lemma="Clausen" msd="NP--U==-" tag="NNP" in="-3:list" out="-1:namef">Clausen</W>
 </s>

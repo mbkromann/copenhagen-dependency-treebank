@@ -80,7 +80,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="aim" lemma="satse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:pobj|15:pnct">satser</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
@@ -126,7 +126,7 @@
 <W gloss="in" lemma="ved" msd="SP" tag="IN" in="-6:loc" out="1:nobj">ved</W>
 <W gloss="the_collective_bargaining_agreements" lemma="overenskomst" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">overenskomsterne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-22:qobj|2:subj|3:pobj|5:pnct">siger</W>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henning</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Dyremose</W>
@@ -209,11 +209,11 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="doubt" lemma="tvivle" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-1:subj|-2:pnct|2:prg|3:pobj|24:pnct">tvivler</W>
+<W gloss="doubt" lemma="tvivle" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-1:subj|-2:pnct|3:pobj|24:pnct|2:epi">tvivler</W>
 <W gloss="Honestly" lemma="oprigtig" msd="ANP---=-R" tag="JJ" in="1:man" out="">oprigtig</W>
-<W gloss="speaking" lemma="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:prg" out="-1:man">talt</W>
+<W gloss="speaking" lemma="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:epi" out="-1:man">talt</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
@@ -235,7 +235,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">afgifter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-25:qobj|2:subj|3:pnct">siger</W>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henning</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Dyremose</W>

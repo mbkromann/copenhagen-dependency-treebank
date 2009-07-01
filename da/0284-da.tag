@@ -66,8 +66,8 @@
 </s>
 <s>
 <W gloss="Monoetylenglycol" lemma="Monoetylenglycol" msd="NCNSU==I" tag="NN" in="1:subj|8:[subj]" out="">Monoetylenglycol</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:prg|2:pred|5:pnct|6:coord|22:pnct">er</W>
-<W gloss="normally" lemma="normal" msd="ANP---=-R" tag="JJ" in="-1:prg" out="">normalt</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:pred|5:pnct|6:coord|22:pnct">er</W>
+<W gloss="normally" lemma="normal" msd="ANP---=-R" tag="JJ" in="-1:eval" out="">normalt</W>
 <W gloss="green" lemma="grøn" msd="ANPNSU=IU" tag="JJ" in="-2:pred" out="1:coord">grønt</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
 <W gloss="blue" lemma="blå" msd="ANPNSU=IU" tag="JJ" in="-1:conj" out="">blåt</W>
@@ -121,8 +121,8 @@
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="products" lemma="produkt" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">produkter</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:prg|4:pred|7:pnct|8:coord|30:pnct">er</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:prg" out="1:coord">først</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:eval|4:pred|7:pnct|8:coord|30:pnct">er</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:eval" out="1:coord">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-1:conj" out="">fremmest</W>
 <W gloss="the_degree" lemma="grad" msd="NCCSU==D" tag="NN" in="-4:pred" out="1:pobj">graden</W>
@@ -130,8 +130,8 @@
 <W gloss="security_against_freezing_temperatures" lemma="frostsikring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">frostsikring</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="and" lemma="men" msd="CC" tag="CC" in="-8:coord" out="2:conj">men</W>
-<W gloss="beyond_that" lemma="derudover" msd="RGU" tag="RP" in="1:struct" out="">derudover</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:struct|1:subj|3:pred|6:pnct|7:coord">er</W>
+<W gloss="beyond_that" lemma="derudover" msd="RGU" tag="RP" in="1:add" out="">derudover</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="1:subj|3:pred|6:pnct|7:coord|-1:add">er</W>
 <W gloss="monoetylenglycol" lemma="monoetylenglycol" msd="NCNSU==I" tag="NN" in="-1:subj" out="">monoetylenglycol</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="2:pobj">mere</W>
 <W gloss="toxic" lemma="giftig" msd="ANPCSU=IU" tag="JJ" in="-3:pred" out="-1:degr">giftig</W>
@@ -194,13 +194,13 @@
 <W gloss="diesel" lemma="diesel" msd="NCCSU==I" tag="NN" in="-1:pred" out="1:coord">diesel</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
 <W gloss="gasoline" lemma="benzin" msd="NCCSU==I" tag="NN" in="-1:conj" out="">benzin</W>
-<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-7:subj|1:dobj|3:pnct|4:<mod>|6:<subj>">gør</W>
+<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-7:subj|1:dobj|3:pnct|4:&lt;mod&gt;|6:&lt;subj&gt;">gør</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
 <W gloss="difference" lemma="forskel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forskel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="not" lemma="ej" msd="RGU" tag="RP" in="-4:<mod>" out="1:other">ej</W>
+<W gloss="not" lemma="ej" msd="RGU" tag="RP" in="-4:&lt;mod&gt;" out="1:other">ej</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="-1:other" out="">heller</W>
-<W gloss="on_the" lemma="om" msd="CS" tag="IN" in="-6:<subj>" out="2:vobj">om</W>
+<W gloss="on_the" lemma="om" msd="CS" tag="IN" in="-6:&lt;subj&gt;" out="2:vobj">om</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:vobj">er</W>
 <W gloss="used" lemma="anvende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[expl]|1:dobj|2:loc">anvendt</W>
@@ -247,13 +247,13 @@
 <W gloss="arise" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:loc">opstår</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="diesel_fuel_tanks" lemma="dieselbrændstoftank" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dieselbrændstoftanke</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-7:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="4:elab" out="2:nobj">i</W>
 <W gloss="everyday" lemma="daglig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">daglig</W>
 <W gloss="speech" lemma="tale" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">tale</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="diesel_plague" lemma="dieselpest" msd="NCCSU==I" tag="NN" in="-12:appa" out="-1:pnct|-4:elab|1:pnct">dieselpest</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 </p>

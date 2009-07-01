@@ -58,7 +58,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="12:qobj" out="-1:subj|-2:pnct|1:pred|11:pnct">er</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pred" out="1:nobj">i</W>
@@ -71,7 +71,7 @@
 <W gloss="real" lemma="ren" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">ren</W>
 <W gloss="dynamite_pool" lemma="dynamitpulje" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">dynamitpulje</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-12:qobj|1:subj|9:pobj|11:pnct">siger</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|4:appr|5:pnct|6:list">den</W>
 <W gloss="29-year_old" lemma="29-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">29-årige</W>
@@ -88,7 +88,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_China_match" lemma="Kina-kamp" msd="NCCSU==D" tag="NN" in="1:subj" out="">Kina-kampen</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:pred|11:pnct">var</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred|9:[dobj]" out="1:nobj|2:pnct|8:rel">en</W>
@@ -106,8 +106,8 @@
 </p>
 <p>
 <s>
-<W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="1:prg" out="">Alene</W>
-<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="-1:prg|1:nobj">de</W>
+<W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="1:eval" out="">Alene</W>
+<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:nobj|-1:eval">de</W>
 <W gloss="24,000" lemma="24.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">24.000</W>
 <W gloss="spectators" lemma="tilskuer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tilskuere</W>
 <W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:pred|4:pnct">var</W>
@@ -183,7 +183,7 @@
 <W gloss="our" lemma="vores" msd="PO1[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">vores</W>
 <W gloss="performance." lemma="præstation" msd="NCCSU==I" tag="NN" in="-1:possd" out="">præstation</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-13:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -221,7 +221,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
 <W gloss="shook" lemma="ryste" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|2:man|8:pnct">rystede</W>
 <W gloss="the_World_Championship_favourite" lemma="VM-favorit" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">VM-favoritten</W>
@@ -265,7 +265,7 @@
 <W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:mod" out="1:nobj">100</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">procent</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="underscore" lemma="pointere" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|2:subj|3:pnct">pointerer</W>
 <W gloss="Susan" lemma="Susan" msd="NP--U==-" tag="NNP" in="1:namef" out="">Susan</W>
 <W gloss="Mackensie" lemma="Mackensie" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Mackensie</W>

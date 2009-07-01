@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="6:xtop" out="3:vobj|5:ref">Når</W>
 <W gloss="the_Minister_for_Housing" lemma="boligminister" msd="NCCSU==D" tag="NN" in="2:subj" out="">boligministeren</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
@@ -53,7 +53,7 @@
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">gøre</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|2:subj|3:source|27:pnct">siger</W>
 <W gloss="kirsten" lemma="Kirsten" msd="NP--U==-" tag="NNP" in="1:namef" out="">Kirsten</W>
 <W gloss="Jacobsen" lemma="Jacobsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Jacobsen</W>
@@ -112,7 +112,7 @@
 <W gloss="TV_2_News" lemma="TV_2-nyhed" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">TV_2-Nyhederne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:dobj" out="3:vobj">at</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:pred|16:pnct|17:pnct">er</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:pred" out="1:pobj">op</W>
@@ -131,7 +131,7 @@
 <W gloss="Youth_Housing's" lemma="Ungbo" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Ungbos</W>
 <W gloss="administration." lemma="administration" msd="NCCSU==I" tag="NN" in="-1:possd" out="">administration</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
 </s>
 </p>
 <p>

@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Decided" lemma="beslutte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="1:subj|4:[subj]" out="">Besluttet</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|3:vobj|4:pnct|6:conj|10:pnct">er</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
@@ -94,7 +94,7 @@
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">deres</W>
 <W gloss="notice_period" lemma="opsigelsesfrist" msd="NCCSU==I" tag="NN" in="-1:possd" out="">opsigelsesfrist</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-30:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-30:pnct" out="">"</W>
 <W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="" out="-31:qobj|1:subj|4:pnct|6:time|9:pnct">sagde</W>
 <W gloss="Bjarne" lemma="Bjarne" msd="NP--U==-" tag="NNP" in="-1:subj" out="1:coord">Bjarne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
@@ -188,13 +188,13 @@
 <W gloss="Bjarne" lemma="Bjarne" msd="NP--U==-" tag="NNP" in="3:subj" out="1:coord">Bjarne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="Max" lemma="Max" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Max</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:pred|6:prg|9:pnct|10:cons|20:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:pred|9:pnct|10:cons|20:pnct|6:eval">er</W>
 <W gloss="sure" lemma="sikker" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="1:pobj">sikre</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="smoking" lemma="ryge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">ryge</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="">ud</W>
-<W gloss="under" lemma="under" msd="SP" tag="IN" in="-6:prg" out="1:nobj">under</W>
+<W gloss="under" lemma="under" msd="SP" tag="IN" in="-6:eval" out="1:nobj">under</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">alle</W>
 <W gloss="event" lemma="omstændighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">omstændigheder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -219,8 +219,8 @@
 <W gloss="the_attitude" lemma="holdning" msd="NCCSU==D" tag="NN" in="-1:subj" out="">holdningen</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="1:nobj">en</W>
 <W gloss="the_second" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="">anden</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-4:pnct" out="">:</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-7:xpl" out="-1:subj|-2:pnct|1:neg|2:vobj|9:pnct|10:pnct">vil</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
@@ -232,7 +232,7 @@
 <W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">skal</W>
 <W gloss="be_sacked" lemma="fyre" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]">fyres</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
 </s>
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="5:conj|13:pnct">og</W>

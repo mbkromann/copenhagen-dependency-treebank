@@ -76,7 +76,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="born" lemma="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:modp" out="-2:[subj]|2:tobj|4:lobj">født</W>
 <W gloss="22," lemma="22." msd="AO---U=--" tag="JJ" in="1:nobj" out="">22.</W>
-<W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-2:tobj" out="1:nobj|-1:nobj">august</W>
+<W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-2:tobj" out="-1:nobj|1:nobj">august</W>
 <W gloss="1917," lemma="1917" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1917</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">i</W>
 <W gloss="blues_music" lemma="bluesmusik" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:appr">bluesmusikkens</W>

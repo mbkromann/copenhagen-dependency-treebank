@@ -102,8 +102,8 @@
 <W gloss="41" lemma="41" msd="AC---U=--" tag="CD" in="-1:nobj" out="">41</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-3:coord" out="2:conj">eller</W>
-<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="1:prg" out="">i_hvert_fald</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:conj" out="-1:prg|1:nobj">til</W>
+<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="1:eval" out="">i_hvert_fald</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:conj" out="1:nobj|-1:eval">til</W>
 <W gloss="size" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">str.</W>
 <W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-1:nobj" out="">40</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>
@@ -199,12 +199,12 @@
 <W gloss="mother" lemma="mor" msd="NCCSU==I" tag="NN" in="1:subj" out="">mor</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred">var</W>
 <W gloss="young" lemma="ung" msd="ANPCSU=IU" tag="JJ" in="-1:pred" out="">ung</W>
-<W gloss="cost" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:dobj|3:pnct|4:<subj>|5:<dobj>|7:pnct">koster</W>
+<W gloss="cost" lemma="koste" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:dobj|3:pnct|4:&lt;subj&gt;|5:&lt;dobj&gt;|7:pnct">koster</W>
 <W gloss="399" lemma="399" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">399</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
-<W gloss="the_booties" lemma="støvlet" msd="NCCPU==D" tag="NNP" in="-4:<subj>" out="">støvletterne</W>
-<W gloss="499" lemma="499" msd="AC---U=--" tag="CD" in="-5:<dobj>" out="1:nobj">499</W>
+<W gloss="the_booties" lemma="støvlet" msd="NCCPU==D" tag="NNP" in="-4:&lt;subj&gt;" out="">støvletterne</W>
+<W gloss="499" lemma="499" msd="AC---U=--" tag="CD" in="-5:&lt;dobj&gt;" out="1:nobj">499</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
