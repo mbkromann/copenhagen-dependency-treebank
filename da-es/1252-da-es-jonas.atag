@@ -75,7 +75,6 @@
 <align out="a44" type="" in="b1" creator="0" insign="postura" outsign="holdning"/>
 <align out="a43" type="" in="b3" creator="0" insign="Dinamarca" outsign="Danmarks"/>
 <align out="a45" type="" in="b4" creator="0" insign="ante" outsign="til"/>
-<align out="a54" type="" in="b13" creator="-100" insign="pro-democrática" outsign="pro-demokratiske"/>
 <align out="a55" type="oprør=" in="b12" creator="0" insign="protesta" outsign="studenteroprør"/>
 <align out="a55" type="studenter=" in="b16" creator="0" insign="estudiantes" outsign="studenteroprør"/>
 <align out="a48" type="" in="b6" creator="0" insign="desde" outsign="siden"/>
@@ -168,4 +167,5 @@
 <align out="a250" type="" in="b183 b184" creator="0" insign="empresa afiliada" outsign="søsterfirma"/>
 <align out="a253" type="" in="b189" creator="0" insign="." outsign="."/>
 <align out="a243" type="" in="a243" creator="0" insign="," outsign=","/>
+<align out="a54" type="" in="b13" creator="-100" insign="pro-democrática" outsign="pro-demokratiske"/>
 </DTAGalign>
