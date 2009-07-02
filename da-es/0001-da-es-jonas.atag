@@ -15,18 +15,6 @@
 <align out="a62" type="" in="b23 b24 b25" creator="0" insign="mano de hierro" outsign="jernnæve"/>
 <align out="a64" type="" in="b27" creator="0" insign="." outsign="."/>
 <align out="a67 a68" type="" in="b30" creator="0" insign="Afirman" outsign="De hævder"/>
-<align out="a57" type="" in="b18" creator="-100" insign="puede" outsign="kan"/>
-<align out="a47" type="" in="b10" creator="-100" insign="Andronik" outsign="Andronik"/>
-<align out="a48" type="" in="b11" creator="-100" insign="Mirganjan" outsign="Mirganjan"/>
-<align out="a49" type="" in="b12" creator="-100" insign="e" outsign="og"/>
-<align out="a50" type="" in="b13" creator="-100" insign="Igor" outsign="Igor"/>
-<align out="a51" type="" in="b14" creator="-100" insign="Klamkin" outsign="Klamkin"/>
-<align out="a59" type="" in="b20" creator="-100" insign="sin" outsign="uden"/>
-<align out="a60" type="" in="b21" creator="-100" insign="una" outsign="en"/>
-<align out="a54" type="" in="b15" creator="-100" insign="," outsign=","/>
-<align out="a43" type="" in="b5" creator="-100" insign="dos" outsign="To"/>
-<align out="a53" type="" in="b17" creator="-100" insign="no" outsign="ikke"/>
-<align out="a58" type=" ! " in="b19" creator="-100" insign="avanzar" outsign="udvikles"/>
 <align out="a70" type="" in="b31" creator="0" insign="que" outsign="at"/>
 <align out="a69" type="" in="a69" creator="0" insign="," outsign=","/>
 <align out="a75" type="" in="b39" creator="0" insign="pasa" outsign="går"/>
@@ -172,4 +160,16 @@
 <align out="a249" type="" in="b225" creator="0" insign="dictatoriales" outsign="diktaroriske"/>
 <align out="a251" type="" in="b226" creator="0" insign="." outsign="."/>
 <align out="a248" type="s" in="b222" creator="0" insign="al" outsign="præsidenten"/>
+<align out="a57" type="" in="b18" creator="-100" insign="puede" outsign="kan"/>
+<align out="a47" type="" in="b10" creator="-100" insign="Andronik" outsign="Andronik"/>
+<align out="a48" type="" in="b11" creator="-100" insign="Mirganjan" outsign="Mirganjan"/>
+<align out="a49" type="" in="b12" creator="-100" insign="e" outsign="og"/>
+<align out="a50" type="" in="b13" creator="-100" insign="Igor" outsign="Igor"/>
+<align out="a51" type="" in="b14" creator="-100" insign="Klamkin" outsign="Klamkin"/>
+<align out="a59" type="" in="b20" creator="-100" insign="sin" outsign="uden"/>
+<align out="a60" type="" in="b21" creator="-100" insign="una" outsign="en"/>
+<align out="a54" type="" in="b15" creator="-100" insign="," outsign=","/>
+<align out="a43" type="" in="b5" creator="-100" insign="dos" outsign="To"/>
+<align out="a53" type="" in="b17" creator="-100" insign="no" outsign="ikke"/>
+<align out="a58" type=" ! " in="b19" creator="-100" insign="avanzar" outsign="udvikles"/>
 </DTAGalign>
