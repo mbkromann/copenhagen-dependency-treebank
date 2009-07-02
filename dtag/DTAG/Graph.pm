@@ -884,6 +884,8 @@ sub is_adjunct {
 		return $self->is_adjunct($1) && $self->is_dependent($2);
     } elsif ($type =~ /^([^\|]+)\|(.*)$/) {
            return $self->is_adjunct($1) && $self->is_dependent($2);
+    } elsif ($type =~ /^([^\|]+)\&(.*)$/) {
+           return $self->is_adjunct($1) && $self->is_dependent($2);
 	}
 
 	# Otherwise return 0
