@@ -161,10 +161,10 @@ etypes -add -adj + appa appr attr attrd attrr conj coord correl fpred fpredo fpr
 etypes -add -adj about adjuncts class concom const discmark exem exp mod modo modp modr path relp relpa resem rest spec xpl
 
 # Discourse relations 
-etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:dir CONJ:seq CONS CONTR CONTR:prg DESCR DESCR:class DESCR:eval DESCR:exem DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:cont QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ REP INTACT:attn
+etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ REP INTACT:attn
 
 # Anaphoric relations
-etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
 
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
