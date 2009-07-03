@@ -1,0 +1,148 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0096-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0096-es-tagged.tag" sign="_input"/>
+<align out="a43 a44" type="" in="b3" creator="0" insign="tendrá&nbsp;que" outsign="Hun skal"/>
+<align out="a46 a47" type="" in="b4" creator="0" insign="vivir" outsign="leve i"/>
+<align out="a50" type="" in="b7" creator="0" insign="con" outsign="med"/>
+<align out="a51" type="s" in="b8" creator="0" insign="el" outsign="frygten"/>
+<align out="a51" type="" in="b9" creator="0" insign="miedo" outsign="frygten"/>
+<align out="a52" type="" in="b10" creator="0" insign="de" outsign="for"/>
+<align out="a56" type="" in="b13" creator="0" insign="contagiada" outsign="smittet"/>
+<align out="a57" type="" in="b14" creator="0" insign="con" outsign="med"/>
+<align out="a53 a54" type="" in="b11" creator="0" insign="haber" outsign="at være"/>
+<align out="a58" type="s" in="b15" creator="0" insign="el" outsign="AIDS"/>
+<align out="a58" type="" in="b16" creator="0" insign="SIDA." outsign="AIDS"/>
+<align out="a59" type="" in="b16" creator="0" insign="SIDA." outsign="."/>
+<align out="a48" type="" in="b5" creator="-100" insign="varios" outsign="adskillige"/>
+<align out="a49" type="" in="b6" creator="-100" insign="meses" outsign="måneder"/>
+<align out="a55" type="" in="b12" creator="-100" insign="sido" outsign="blevet"/>
+<align out="a62" type="" in="b18" creator="-100" insign="Qué" outsign="Hvad"/>
+<align out="a45" type="" in="b2" creator="-100" insign="Ahora" outsign="nu"/>
+<align out="a63 a64" type="" in="b19" creator="0" insign="crees" outsign="tror du"/>
+<align out="a66" type="" in="b21" creator="0" insign="eso" outsign="det"/>
+<align out="a67" type="" in="b22" creator="0" insign="significa" outsign="betyder"/>
+<align out="a68" type="" in="b23" creator="0" insign="para" outsign="for"/>
+<align out="a69" type="" in="b24" creator="0" insign="una" outsign="en"/>
+<align out="a70" type="" in="b26" creator="0" insign="joven" outsign="ung"/>
+<align out="a71" type="" in="b25" creator="0" insign="chica" outsign="pige"/>
+<align out="a72" type="" in="b27" creator="0" insign="?" outsign="?"/>
+<align out="a77 a78" type="" in="b32" creator="0" insign="Espero" outsign="Jeg håber"/>
+<align out="a80" type="s" in="b34" creator="0" insign="la" outsign="politiet"/>
+<align out="a80" type="" in="b35" creator="0" insign="policía" outsign="politiet"/>
+<align out="a81" type="" in="b37" creator="0" insign="pille" outsign="fanger"/>
+<align out="a82" type="" in="b36" creator="0" insign="te" outsign="dig"/>
+<align out="a83" type="" in="b38" creator="0" insign="rápidamente" outsign="hurtigt"/>
+<align out="a85" type="" in="b39 b40" creator="0" insign="para que" outsign="så"/>
+<align out="a87" type="" in="b41" creator="0" insign="no" outsign="ikke"/>
+<align out="a86 a88" type="" in="b42" creator="0" insign="puedas" outsign="du når"/>
+<align out="a89 a90" type="f" in="b43 b44" creator="0" insign="atentar contra" outsign="at krænke"/>
+<align out="a91" type="" in="b45" creator="0" insign="otras" outsign="andre"/>
+<align out="a92" type="" in="b46" creator="0" insign="chicas" outsign="piger"/>
+<align out="a94" type="" in="b47" creator="0" insign="que" outsign="som"/>
+<align out="a95" type="" in="b48" creator="0" insign="quizás" outsign="måske"/>
+<align out="a96" type="" in="b49" creator="0" insign="no" outsign="ikke"/>
+<align out="a97" type="" in="b50 b51" creator="0" insign="cuenten con" outsign="får"/>
+<align out="a98" type="" in="b52" creator="0" insign="el" outsign="samme"/>
+<align out="a99" type="" in="b54" creator="0" insign="familiar" outsign="familiemæssige"/>
+<align out="a100" type="" in="b53" creator="0" insign="apoyo" outsign="støtte"/>
+<align out="a101 a102 a103" type="" in="b55 b56 b57" creator="0" insign="de mi hija" outsign="som min pige"/>
+<align out="a104" type="" in="b58" creator="0" insign="," outsign=","/>
+<align out="a105" type="" in="b59" creator="0" insign="y" outsign="og"/>
+<align out="a106" type="" in="b61" creator="0" insign="por&nbsp;tanto" outsign="derfor"/>
+<align out="a107 a108" type="" in="b62 b63 b64 b65" creator="0" insign="corren el riesgo de" outsign="risikerer at"/>
+<align out="a109 a110 a111" type="" in="b66" creator="0" insign="desmoronarse" outsign="knække helt sammen"/>
+<align out="a112" type="" in="b67" creator="0" insign="psicológicamente" outsign="psykisk"/>
+<align out="a113" type="" in="b68" creator="0" insign="." outsign="."/>
+<align out="a118 a119" type="" in="b73" creator="0" insign="Hemos" outsign="Vi har"/>
+<align out="a120" type="" in="b74" creator="0" insign="recibido" outsign="fået"/>
+<align out="a121" type="" in="b75" creator="0" insign="un" outsign="en"/>
+<align out="a122" type="" in="b76" creator="0" insign="enorme" outsign="utrolig"/>
+<align out="a123" type="" in="b77" creator="0" insign="apoyo" outsign="opbakning"/>
+<align out="a124" type="" in="b78" creator="0" insign="por&nbsp;parte&nbsp;de" outsign="fra"/>
+<align out="a126" type="" in="b79" creator="0" insign="médicos" outsign="læger"/>
+<align out="a128" type="" in="b81" creator="0" insign="policía" outsign="politi"/>
+<align out="a130" type="" in="b83 b84" creator="0" insign="personal municipal" outsign="kommunalfolk"/>
+<align out="a131" type="" in="b85" creator="0" insign="," outsign=","/>
+<align out="a132" type="" in="b86" creator="0" insign="familiares" outsign="familie"/>
+<align out="a133" type="" in="b87" creator="0" insign="y" outsign="og"/>
+<align out="a134" type="" in="b88" creator="0" insign="conocidos" outsign="bekendte"/>
+<align out="a135" type="" in="b89" creator="0" insign="," outsign=","/>
+<align out="a136" type="" in="b90" creator="0" insign="así&nbsp;que" outsign="så"/>
+<align out="a127" type="" in="b80" creator="0" insign="," outsign=","/>
+<align out="a129" type="" in="b82" creator="0" insign="," outsign=","/>
+<align out="a125" type="" in="a125" creator="0" insign="både" outsign="både"/>
+<align out="a137 a138 a139 a140 a141" type="" in="b91 b92" creator="0" insign="lograremos superar" outsign="vi skal nok komme igennem"/>
+<align out="a142" type="" in="b93" creator="0" insign="esta" outsign="denne"/>
+<align out="a143" type="" in="b94" creator="0" insign="horrible" outsign="forfærdelige"/>
+<align out="a144" type="" in="b95" creator="0" insign="experiencia." outsign="oplevelse"/>
+<align out="a145" type="" in="b95" creator="0" insign="experiencia." outsign="."/>
+<align out="a148 a149 a150 a151 a152 a153" type="" in="b97 b98 b99 b100 b101" creator="0" insign="Te das cuenta de que" outsign="Er du klar over , at"/>
+<align out="a161 a162" type="" in="b104 b105" creator="0" insign="afectas a" outsign="du rammer"/>
+<align out="a158" type="" in="b106" creator="0" insign="la" outsign="den"/>
+<align out="a160" type="" in="b107" creator="0" insign="chica" outsign="pige"/>
+<align out="a155 a156" type="" in="b102 b103" creator="0" insign="no sólo" outsign="ikke kun"/>
+<align out="a163" type="" in="b108" creator="0" insign="," outsign=","/>
+<align out="a164" type="" in="b109 b110" creator="0" insign="sino también" outsign="men"/>
+<align out="a171" type="s" in="b118" creator="0" insign="los" outsign="forældre"/>
+<align out="a171" type="" in="b119" creator="0" insign="padres" outsign="forældre"/>
+<align out="a165 a167 a168 a169 a170" type="" in="b113 b114 b115 b116" creator="0" insign="en el mismo grado" outsign="i lige så høj grad"/>
+<align out="a166" type="" in="b112" creator="0" insign="casi" outsign="næsten"/>
+<align out="a173" type="" in="b121" creator="0" insign="hermanos" outsign="søskende"/>
+<align out="a175" type="" in="b123" creator="0" insign="abuelos" outsign="bedsteforældre"/>
+<align out="a174" type="" in="b122" creator="0" insign="," outsign=","/>
+<align out="a176" type="" in="b124" creator="0" insign="y" outsign="og"/>
+<align out="a177" type="" in="b125 b126 b127" creator="0" insign="compañeras del colegio" outsign="skoleveninder"/>
+<align out="a178" type="" in="b132" creator="0" insign="." outsign="."/>
+<align out="a179" type="" in="b131" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a184 a185 a186" type="" in="b137 b138 b139" creator="0" insign="VUELVE A CASA" outsign="REJS HJEM IGEN"/>
+<align out="a192" type="" in="b145" creator="0" insign="Nuestra" outsign="Vort"/>
+<align out="a193" type="" in="b146" creator="0" insign="sociedad" outsign="samfund"/>
+<align out="a194" type="" in="b147" creator="0" insign="es" outsign="er"/>
+<align out="a195" type="" in="b148" creator="0" insign="demasiado" outsign="for"/>
+<align out="a196" type="" in="b149" creator="0" insign="buena" outsign="godt"/>
+<align out="a191" type="" in="b144" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a197" type="" in="b150" creator="0" insign="para" outsign="til"/>
+<align out="a198" type="" in="b151" creator="0" insign="personas" outsign="folk"/>
+<align out="a199" type="" in="b152" creator="0" insign="como" outsign="som"/>
+<align out="a200" type="" in="b153" creator="0" insign="tú" outsign="dig"/>
+<align out="a201" type="" in="b154" creator="0" insign="." outsign="."/>
+<align out="a204 a205" type="" in="b157" creator="0" insign="Vuelve" outsign="Rejs tilbage"/>
+<align out="a206 a207 a208 a209" type="" in="b158 b159 b160 b161" creator="0" insign="por donde has venido" outsign="hvor du kom fra"/>
+<align out="a210" type="" in="b162" creator="0" insign="," outsign=","/>
+<align out="a211 a212" type="" in="b164" creator="0" insign="estamos" outsign="vi er"/>
+<align out="a214" type="" in="b163" creator="0" insign="no" outsign="ikke"/>
+<align out="a215" type="" in="b165" creator="0" insign="interesados" outsign="interesserede"/>
+<align out="a216" type="" in="b166" creator="0" insign="a" outsign="i"/>
+<align out="a217 a218 a219" type="" in="b167" creator="0" insign="acoger" outsign="at give ophold"/>
+<align out="a220" type="" in="b168" creator="0" insign="a" outsign="til"/>
+<align out="a221" type="" in="b169" creator="0" insign="personas" outsign="personer"/>
+<align out="a222" type="" in="b170" creator="0" insign="como" outsign="som"/>
+<align out="a223" type="" in="b171" creator="0" insign="tú" outsign="dig"/>
+<align out="a224" type="" in="b172" creator="0" insign="," outsign=","/>
+<align out="a225 a226 a227" type="" in="b173 b174" creator="0" insign="incapaces de" outsign="der ikke kan"/>
+<align out="a228 a229" type="" in="b175" creator="0" insign="adoptar" outsign="indordne sig"/>
+<align out="a231 a232" type="" in="b180 b181" creator="0" insign="más sencillas" outsign="aller simpleste"/>
+<align out="a230" type="" in="b176" creator="0" insign="las" outsign="de"/>
+<align out="a233" type="adfærd=" in="b179" creator="0" insign="conducta" outsign="adfærdsnormer"/>
+<align out="a233" type="normer=" in="b177" creator="0" insign="normas" outsign="adfærdsnormer"/>
+<align out="a233" type="" in="b177 b178 b179" creator="0" insign="normas de conducta" outsign="adfærdsnormer"/>
+<align out="a235" type="" in="b183" creator="0" insign="es&nbsp;decir" outsign="nemlig"/>
+<align out="a234" type="" in="b182" creator="0" insign="," outsign=","/>
+<align out="a236" type="s" in="b185" creator="0" insign="el" outsign="respekten"/>
+<align out="a236" type="" in="b186" creator="0" insign="respeto" outsign="respekten"/>
+<align out="a237" type="" in="b187" creator="0" insign="por" outsign="for"/>
+<align out="a238" type="" in="b188 b189" creator="0" insign="los demás" outsign="hinanden"/>
+<align out="a240" type="" in="b190" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a239" type="" in="b191" creator="0" insign="," outsign=","/>
+<align out="a241" type="" in="b192" creator="0" insign="escribe" outsign="skriver"/>
+<align out="a242" type="s" in="b193" creator="0" insign="el" outsign="faderen"/>
+<align out="a242" type="" in="b194" creator="0" insign="padre" outsign="faderen"/>
+<align out="a244" type="" in="b196" creator="0" insign="que" outsign="der"/>
+<align out="a245" type="" in="b197" creator="0" insign="concluye" outsign="slutter"/>
+<align out="a246" type="s" in="b198" creator="0" insign="su" outsign="brevet"/>
+<align out="a246" type="" in="b199" creator="0" insign="carta" outsign="brevet"/>
+<align out="a243" type="" in="b195" creator="0" insign="," outsign=","/>
+<align out="a247" type="" in="b200 b201 b202" creator="0" insign="con estas palabras" outsign="sådan"/>
+<align out="a248" type="" in="b203" creator="0" insign=":" outsign=":"/>
+<align out="a213" type="" in="a213" creator="0" insign="nemlig" outsign="nemlig"/>
+</DTAGalign>
