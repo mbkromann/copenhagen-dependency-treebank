@@ -108,9 +108,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Because" lemma="for" msd="CC" tag="CC" in="2:cause" out="13:pnct">For</W>
+<W gloss="Because" lemma="for" msd="CC" tag="CC" in="2:reas" out="13:pnct">For</W>
 <W gloss="who" lemma="hvem" msd="PT-C[SP]U--U" tag="WDT" in="1:subj" out="">hvem</W>
-<W gloss="understands" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-9:QUEST&3a;query" out="-1:subj|1:dobj|2:pobj|4:coord|21:ELAB&3a;exp|-2:cause">forstår</W>
+<W gloss="understands" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-9:QUEST&3a;query" out="-1:subj|1:dobj|2:pobj|4:coord|21:ELAB&3a;exp|-2:reas">forstår</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">på</W>
 <W gloss="the_Maastricht_agreements" lemma="Maastricht-aftale" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">Maastricht-aftalerne</W>

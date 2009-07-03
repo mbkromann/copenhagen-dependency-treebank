@@ -262,11 +262,11 @@
 <W gloss="reporting" lemma="anmeldelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">anmeldelsen</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="insurance_company" lemma="forsikringsselskab" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">forsikringsselskabet</W>
-<W gloss="withdrew" lemma="opgive" msd="VADA=----A-" tag="VBD" in="-39:ELAB&3a;exp" out="-4:mod|2:subj|3:dobj|4:pred|9:pnct">opgav</W>
+<W gloss="withdrew" lemma="opgive" msd="VADA=----A-" tag="VBD" in="-39:ELAB&3a;exp" out="-4:mod|2:subj|3:dobj|9:pnct|4:preds">opgav</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Eefsen" lemma="Eefsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Eefsen</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-3:dobj" out="">sig</W>
-<W gloss="bestjålet" lemma="bestjæle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:pred" out="1:pobj">bestjålet</W>
+<W gloss="bestjålet" lemma="bestjæle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:preds" out="1:pobj">bestjålet</W>
 <W gloss="as" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W gloss="a_total_of" lemma="i_alt" msd="RGU" tag="RP" in="1:mod" out="">i_alt</W>
 <W gloss="155,000" lemma="155.000" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:nobj">155.000</W>

@@ -126,7 +126,7 @@
 <W gloss="carefully" lemma="omhyggelig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">omhyggeligt</W>
 <W gloss="organised" lemma="tilrettelægge" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:mod" out="-1:mod">tilrettelagt</W>
 <W gloss="precision" lemma="præcision" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:mod">præcision</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-28:CAUSE&3a;reas/for" out="-4:mod|1:subj|2:mod|8:pobj|-5:cause">kom</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-28:CAUSE&3a;reas/for" out="-4:mod|-5:cause|1:subj|2:mod|8:pobj">kom</W>
 <W gloss="the_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-1:subj" out="">Socialdemokratiet</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:nobj|3:pnct|4:mod">den</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>
@@ -138,7 +138,7 @@
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:mod|3:possd">deres</W>
 <W gloss="alternative" lemma="alternativ" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">alternative</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="finance_bill" lemma="finanslovforslag" msd="NCNSU==I" tag="NN" in="-3:possd" out="-1:pnct|1:pnct|8:DESCR&3a;eval|96:DESCR&3a;qual">finanslovforslag</W>
+<W gloss="finance_bill" lemma="finanslovforslag" msd="NCNSU==I" tag="NN" in="-3:possd" out="-1:pnct|1:pnct|96:DESCR&3a;qual|8:DESCR&3a;qual&7c;DESCR&3a;eval">finanslovforslag</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
@@ -146,22 +146,22 @@
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|6:[subj]|8:[subj]" out="1:mod|2:nobj">De</W>
 <W gloss="ideological_/_moral" lemma="ideologisk/moralske" msd="XX" tag="FW" in="-1:mod" out="">ideologisk/moralske</W>
 <W gloss="differences" lemma="forskel" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">forskelle</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR&3a;eval" out="-3:subj|1:pred|2:coord|15:+ELAB&3a;exp/ATTR">er</W>
-<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="">tydelige</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR&3a;qual&7c;DESCR&3a;eval" out="-3:subj|2:coord|1:preds|12:+ELAB&3a;exp/ATTR">er</W>
+<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">tydelige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-6:[subj]|1:mod|2:vobj">kan</W>
 <W gloss="square" lemma="firkantet" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">firkantet</W>
-<W gloss="be_expressed" lemma="udtrykke" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-8:[subj]|1:mod|2:pnct|7:xpl">udtrykkes</W>
+<W gloss="be_expressed" lemma="udtrykke" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-8:[subj]|1:mod|2:pnct">udtrykkes</W>
 <W gloss="in_this_way" lemma="således" msd="RGU" tag="RP" in="-1:mod" out="">således</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="The_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-7:xpl" out="1:pnct|3:xpl">Socialdemokratiet</W>
+<W gloss="The_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-12:+ELAB&3a;exp/ATTR" out="1:pnct">Socialdemokratiet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl|-15:+ELAB&3a;exp/ATTR" out="-1:subj|1:mod|2:vobj|11:pnct|15:CAUSE&3a;expl/(nemlig)/ATTR">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|11:pnct|15:CAUSE&3a;expl/(nemlig)/ATTR">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pred|2:dobj">være</W>
 <W gloss="we_know" lemma="bekendt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">bekendt</W>
@@ -176,7 +176,7 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-15:CAUSE&3a;expl/(nemlig)/ATTR" out="-1:subj|3:dobj|19:pnct|23:CONS/så/ATTR">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-15:CAUSE&3a;expl/(nemlig)/ATTR" out="-1:subj|3:dobj|19:pnct|23:CONS&3a;prg/(så)/ATTR">har</W>
 <W gloss="such" lemma="så" msd="RGU" tag="RP" in="1:mod" out="6:nobj">så</W>
 <W gloss="large" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="1:mod" out="-1:mod">stort</W>
 <W gloss="surplus" lemma="overskud" msd="NCNSU==I" tag="NN" in="-3:dobj" out="-1:mod|1:mod|3:pnct">overskud</W>
@@ -199,7 +199,7 @@
 </s>
 <s>
 <W gloss="We'll" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-23:CONS/så/ATTR" out="-1:subj|1:dobj|2:mod|3:pnct|15:JUST/ATTR">tager</W>
+<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR" out="-1:subj|1:dobj|2:mod|3:pnct|15:JUST/ATTR">tager</W>
 <W gloss="the_chance" lemma="chance" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">chancen</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-2:mod" out="">nu</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -214,7 +214,7 @@
 <W gloss="public" lemma="offentlig" msd="ANPNSU=IU" tag="JJ" in="1:mod" out="">offentligt</W>
 <W gloss="deficit" lemma="underskud" msd="NCNSU==I" tag="NN" in="-6:appa" out="-2:mod|-1:mod|-3:pnct|1:pnct">underskud</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-15:JUST/ATTR" out="-9:mod|1:subj|4:vobj|8:pnct|12:CONS/så/ATTR">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-15:JUST/ATTR" out="-9:mod|1:subj|4:vobj|8:pnct|12:CONS&3a;prg/så/ATTR">vil</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj|3:[subj]" out="1:mod|2:nobj">det</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">private</W>
 <W gloss="consumption" lemma="forbrug" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">forbrug</W>
@@ -226,7 +226,7 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="will_fall" lemma="falde" msd="VADR=----A-" tag="VBD" in="-12:CONS/så/ATTR" out="-1:mod|1:subj|2:coord|5:pnct">falder</W>
+<W gloss="will_fall" lemma="falde" msd="VADR=----A-" tag="VBD" in="-12:CONS&3a;prg/så/ATTR" out="-1:mod|1:subj|2:coord|5:pnct">falder</W>
 <W gloss="unemployment" lemma="ledighed" msd="NCCSU==D" tag="NN" in="-1:subj" out="">ledigheden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="2:conj">og</W>
 <W gloss="tax_revenue" lemma="skatteindtægt" msd="NCCPU==D" tag="NNP" in="1:subj" out="">skatteindtægterne</W>
