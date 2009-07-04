@@ -115,7 +115,7 @@
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">situazione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">di</W>
 <W lemma="crisi" msd="NC" tag="NOM" in="-1:nobj" out="">crisi</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-43:CAUSE&3a;expl/(infatti)" out="-4:subj|2:vobj|5:pnct|14:pnct|16:CONS">può</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-43:CAUSE&3a;expl/(infatti)" out="-4:subj|2:vobj|5:pnct|14:pnct|16:;CONS">può</W>
 <W lemma="rapidamente" msd="RG" tag="ADV" in="1:man" out="">rapidamente</W>
 <W lemma="spargere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:man|1:lobj|4:concom">spargersi</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:lobj" out="1:nobj">nel</W>
@@ -131,7 +131,7 @@
 <W lemma="sanitario" msd="AN" tag="ADJ" in="-1:attrr" out="">sanitario</W>
 <W lemma=";" msd="XP" tag="PON" in="-14:pnct" out="">;</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:subj" out="">si</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-16:CONS" out="-1:subj|4:vobj|27:pnct|34:coref-res|32:ELAB&3a;exp">dovrà</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-16:;CONS" out="-1:subj|4:vobj|27:pnct|32:ELAB&3a;exp|34:coref-res">dovrà</W>
 <W lemma="tra" msd="SP" tag="PRE" in="3:ext" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="altro" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">altro</W>

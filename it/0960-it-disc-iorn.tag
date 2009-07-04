@@ -107,7 +107,7 @@
 <W lemma="impugnare" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:dobj">impugna</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="matita" msd="NC" tag="NOM" in="-1:nobj" out="">matita</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:CONS" out="-6:subj|-8:prg|1:preds|2:pnct|16:conj|25:pnct|-11:cause&3a;reas|29:+CAUSE&3a;exp/(infatti)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:CONS" out="-6:subj|-8:prg|-11:cause&3a;reas|1:preds|2:pnct|16:conj|25:pnct|29:+CAUSE&3a;exp/(infatti)">è</W>
 <W lemma="incerto" msd="AN" tag="ADJ" in="-1:preds" out="2:time">incerta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj|4:pnct">nel</W>
@@ -136,7 +136,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">L'</W>
 <W lemma="ideale" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">ideale</W>
 <W lemma="democratico" msd="AN" tag="ADJ" in="-1:attrr" out="">democratico</W>
-<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-29:+CAUSE&3a;exp/(infatti)" out="-3:subj|1:dobj|15:pnct|16:coref-res|18:+CONJ/(e)">prevede</W>
+<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-29:+CAUSE&3a;exp/(infatti)" out="-3:subj|1:dobj|15:pnct|16:coref-res|18:;CONJ/(e)&7c;DESCR&3a;eval">prevede</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">gli</W>
 <W lemma="elettore" msd="NC" tag="NOM" in="-1:nobj" out="">elettori</W>
@@ -154,7 +154,7 @@
 <W lemma=";" msd="XP" tag="PON" in="-15:pnct" out="">;</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-16:coref-res|2:subj" out="1:nobj">il</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="">che</W>
-<W lemma="dare" msd="VADR" tag="VER&3a;pres" in="-18:+CONJ/(e)" out="-2:subj|1:dobj|8:cause|22:pnct|33:CONTR&3a;dir/(tuttavia)">dà</W>
+<W lemma="dare" msd="VADR" tag="VER&3a;pres" in="-18:;CONJ/(e)&7c;DESCR&3a;eval" out="-2:subj|1:dobj|8:cause|22:pnct|33:CONTR&3a;dir/(tuttavia)">dà</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">l'</W>
 <W lemma="impressione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">impressione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
@@ -181,13 +181,13 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="6:subj" out="1:nobj">gli</W>
 <W lemma="elettore" msd="NC" tag="NOM" in="-1:nobj" out="">elettori</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="invece" msd="RG" tag="ADV" in="3:contr" out="1:pnct|-1:pnct">invece</W>
+<W lemma="invece" msd="RG" tag="ADV" in="3:contr" out="-1:pnct|1:pnct">invece</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
 <W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-7:vobj" out="-1:robj|-6:subj|-3:contr|1:preds|2:pnct|15:pnct">sentono</W>
 <W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds" out="">impotenti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-33:CONTR&3a;dir/(tuttavia)" out="1:cause|-10:cond">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-33:CONTR&3a;dir/(tuttavia)" out="-10:cond|1:cause|15:CONS&3a;prg/(quindi)">è</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-1:cause" out="3:vobj">perché</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:prg" out="1:nobj">in</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
@@ -202,7 +202,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-73:coref-id|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">crocetta</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:CONS&3a;prg/(quindi)" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="sorta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">sorta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>

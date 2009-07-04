@@ -129,7 +129,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr#" out="1:nobj">dei</W>
 <W lemma="pagamento" msd="NC" tag="NOM" in="-1:nobj" out="">pagamenti</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:iobj" out="">ci</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-15:CAUSE&3a;expl/(infatti)/ATTR" out="-7:subj|-1:iobj|1:vobj|8:pnct|9:CONS">può</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-15:CAUSE&3a;expl/(infatti)/ATTR" out="-7:subj|-1:iobj|1:vobj|8:pnct|9:CONS&3a;prg">può</W>
 <W lemma="permettere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:pobj">permettere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:dobj">di</W>
 <W lemma="attivare" msd="VAF" tag="VER&3a;infi" in="-1:dobj" out="-10:[subj]|1:man|2:dobj">attivare</W>
@@ -138,7 +138,7 @@
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attrd" out="">nostro</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">Paese</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
-<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-9:CONS" out="1:dobj|7:pnct|24:+JUST">Riteniamo</W>
+<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-9:CONS&3a;prg" out="1:dobj|7:pnct|24:+JUST">Riteniamo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj|2:coref" out="">questo</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:preds">sia</W>
