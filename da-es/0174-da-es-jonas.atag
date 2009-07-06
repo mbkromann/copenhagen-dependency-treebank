@@ -1,0 +1,159 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0174-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0174-es-tagged.tag" sign="_input"/>
+<align out="a45" type="" in="a45" creator="0" insign="multinationale" outsign="multinationale"/>
+<align out="a44" type="" in="b3" creator="0" insign="la" outsign="det"/>
+<align out="a47" type="" in="b4 b5" creator="0" insign="compañía discográfica" outsign="pladeselskab"/>
+<align out="a48" type="" in="b7" creator="-100" insign="Warner" outsign="Warner"/>
+<align out="a49" type="" in="b8" creator="-100" insign="Brothers" outsign="Brothers"/>
+<align out="a43" type="" in="b2" creator="-100" insign="Cuando" outsign="Da"/>
+<align out="a46" type="" in="b6" creator="0" insign="americana" outsign="amerikanske"/>
+<align out="a50 a54 a55 a56 a57 a58" type="f" in="b9 b10 b11 b12 b13" creator="0" insign="les puso la etiqueta del" outsign="skrev på ryggen af deres ruskindsjakker"/>
+<align out="a51 a52 a53" type="" in="b14 b15 b16" creator="0" insign="millón de dólares" outsign="én million dollars"/>
+<align out="a59 a63" type="" in="b17" creator="0" insign="hace" outsign="for siden"/>
+<align out="a60" type="" in="b18" creator="0" insign="un" outsign="et"/>
+<align out="a61 a62" type="" in="b19 b20 b21" creator="0" insign="par de años" outsign="par år"/>
+<align out="a64" type="" in="b22" creator="0" insign="," outsign=","/>
+<align out="a65" type="" in="b23" creator="0" insign="y" outsign="og"/>
+<align out="a66" type="" in="b24" creator="0" insign="su" outsign="deres"/>
+<align out="a69" type="" in="b26 b27" creator="0" insign="disco revelación" outsign="gennembruds-lp"/>
+<align out="a70" type="" in="b28" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a67" type="" in="b25" creator="0" insign="gran" outsign="store"/>
+<align out="a68" type="" in="a68" creator="0" insign="danske" outsign="danske"/>
+<align out="a71" type="" in="b29" creator="0" insign="No" outsign="No"/>
+<align out="a72" type="" in="b30" creator="0" insign="Fuel" outsign="Fuel"/>
+<align out="a73" type="" in="b31" creator="0" insign="Left" outsign="Left"/>
+<align out="a74" type="" in="b32" creator="0" insign="For" outsign="For"/>
+<align out="a75" type="" in="b33" creator="0" insign="The" outsign="The"/>
+<align out="a76" type="" in="b34" creator="0" insign="Pilgrims" outsign="Pilgrims"/>
+<align out="a77" type="" in="b35" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a79 a80" type="" in="b36 b37 b38" creator="0" insign="iba a lanzarse" outsign="skulle udgives"/>
+<align out="a81" type="" in="b39" creator="0" insign="en" outsign="i"/>
+<align out="a82" type="" in="b40" creator="0" insign="todo" outsign="hele"/>
+<align out="a83" type="s" in="b41" creator="0" insign="el" outsign="verden"/>
+<align out="a83" type="" in="b42" creator="0" insign="mundo" outsign="verden"/>
+<align out="a84" type="" in="b43" creator="0" insign="," outsign=","/>
+<align out="a78" type="" in="a78" creator="0" insign="dermed" outsign="dermed"/>
+<align out="a87" type="" in="a87" creator="0" insign="bogstaveligt" outsign="bogstaveligt"/>
+<align out="a88" type="" in="a88" creator="0" insign="talt" outsign="talt"/>
+<align out="a93" type="" in="b49" creator="0" insign="." outsign="."/>
+<align out="a98" type="" in="b54" creator="0" insign="Pero" outsign="Men"/>
+<align out="a85 a86 a89 a90 a91 a92" type="sc" in="b44 b45 b46 b47 b48" creator="0" insign="las expectativas no conocían límites" outsign="var der ingen grænser for forestillingerne"/>
+<align out="a99" type="" in="b55 b56" creator="0" insign="más adelante" outsign="senere"/>
+<align out="a100 a101" type="" in="b57" creator="0" insign="descubrieron" outsign="opdagede de"/>
+<align out="a103" type="" in="b58" creator="0" insign="que" outsign="at"/>
+<align out="a104" type="s" in="b59" creator="0" insign="el" outsign="millionen"/>
+<align out="a104" type="" in="b60" creator="0" insign="millón" outsign="millionen"/>
+<align out="a105" type="" in="b61" creator="0" insign="estaba" outsign="var"/>
+<align out="a106" type="" in="b62" creator="0" insign="supeditado" outsign="bundet"/>
+<align out="a107" type="" in="b63" creator="0" insign="a" outsign="til"/>
+<align out="a108 a109 a111" type="" in="b64 b66" creator="0" insign="sacar discos" outsign="at lave plader"/>
+<align out="a110" type="" in="b65" creator="0" insign="dos" outsign="to"/>
+<align out="a112" type="" in="b67" creator="0" insign="así&nbsp;como" outsign="samt"/>
+<align out="a113" type="mcn" in="b68 b69" creator="0" insign="al pago" outsign="betale"/>
+<align out="a115" type="" in="b72" creator="0" insign="costes" outsign="udgifter"/>
+<align out="a116" type="" in="b73" creator="0" insign="de" outsign="til"/>
+<align out="a117" type="" in="b74" creator="0" insign="promoción" outsign="promotion"/>
+<align out="a114" type="" in="b70 b71" creator="0" insign="de diversos" outsign="diverse"/>
+<align out="a118" type="" in="b75" creator="0" insign="." outsign="."/>
+<align out="a123" type="" in="b78 b79" creator="0" insign="De momento" outsign="foreløbig"/>
+<align out="a121 a122 a125 a126" type="f" in="b80 b81 b82 b83 b84 b85 b86 b87" creator="0" insign="el dinero ha ido a la compra de" outsign="Det er blevet til"/>
+<align out="a127" type="" in="b88" creator="0" insign="un" outsign="et"/>
+<align out="a128" type="" in="b89 b90" creator="0" insign="par de" outsign="par"/>
+<align out="a129" type="" in="b92 b93 b94" creator="0" insign="de segunda mano" outsign="brugte"/>
+<align out="a130" type="" in="b91" creator="0" insign="coches" outsign="biler"/>
+<align out="a124" type="" in="a124" creator="0" insign="blot" outsign="blot"/>
+<align out="a131" type="" in="b95" creator="0" insign="." outsign="."/>
+<align out="a136" type="" in="b100" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a137" type="" in="b101" creator="0" insign="Pero" outsign="Men"/>
+<align out="a140" type="" in="b102" creator="0" insign="no" outsign="ikke"/>
+<align out="a138 a139 a141" type="" in="b103 b104 b105" creator="0" insign="queda dinero para" outsign="der er til"/>
+<align out="a142" type="s" in="b106" creator="0" insign="las" outsign="reparationerne"/>
+<align out="a142" type="" in="b107" creator="0" insign="reparaciones" outsign="reparationerne"/>
+<align out="a143" type="" in="b109" creator="0" insign="," outsign=","/>
+<align out="a144" type="" in="b108" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a145" type="" in="b110" creator="0" insign="apunta" outsign="siger"/>
+<align out="a146" type="" in="b111" creator="0" insign="Jesper" outsign="Jesper"/>
+<align out="a147" type="" in="b112" creator="0" insign="Binzer" outsign="Binzer"/>
+<align out="a148" type="" in="b113" creator="0" insign="." outsign="."/>
+<align out="a156" type="" in="b118" creator="0" insign="No&nbsp;obstante" outsign="dog"/>
+<align out="a153" type="" in="b119" creator="0" insign="los" outsign="De"/>
+<align out="a154" type="" in="b120" creator="0" insign="cuatro" outsign="fire"/>
+<align out="a155 a161 a162 a163" type="f" in="b121 b122 b123 b124 b125" creator="0" insign="han viajado por el mundo" outsign="har fået set verden"/>
+<align out="a157" type="" in="b126" creator="0" insign="durante" outsign="i"/>
+<align out="a158" type="" in="b127" creator="0" insign="el" outsign="det"/>
+<align out="a159" type="" in="b128" creator="0" insign="último" outsign="sidste"/>
+<align out="a160" type="" in="b129" creator="0" insign="año" outsign="år"/>
+<align out="a164" type="" in="b130" creator="0" insign="." outsign="."/>
+<align out="a169 a170" type="" in="b135 b136 b137" creator="0" insign="Un mundo maravilloso" outsign="Vidunderlig verden"/>
+<align out="a171" type="" in="b141" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a172" type="" in="b142" creator="0" insign="No" outsign="No"/>
+<align out="a173" type="" in="b143" creator="0" insign="Fuel" outsign="Fuel"/>
+<align out="a174" type="" in="b144" creator="0" insign="Left" outsign="Left"/>
+<align out="a175" type="" in="b145" creator="0" insign="For" outsign="For"/>
+<align out="a176" type="" in="b146" creator="0" insign="The" outsign="The"/>
+<align out="a177" type="" in="b147" creator="0" insign="Pilgrims" outsign="Pilgrims"/>
+<align out="a178" type="" in="b148" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a179 a180" type="" in="b149 b150" creator="0" insign="ha vendido" outsign="har solgt"/>
+<align out="a181" type="" in="b151" creator="0" insign="casi" outsign="knap"/>
+<align out="a182 a183 a184" type="e" in="b152 b153 b154" creator="0" insign="un millón de" outsign="en halv million"/>
+<align out="a185" type="" in="b155" creator="0" insign="ejemplares" outsign="eksemplarer"/>
+<align out="a186 a187" type="" in="b156 b157 b158 b159" creator="0" insign="en todo el mundo" outsign="verden over"/>
+<align out="a188" type="" in="b160" creator="0" insign="." outsign="."/>
+<align out="a193" type="" in="b169" creator="0" insign="en" outsign="i"/>
+<align out="a194" type="" in="b170" creator="0" insign="Dinamarca" outsign="Danmark"/>
+<align out="a191 a192" type="" in="b163 b164" creator="0" insign="La mayoría" outsign="De fleste"/>
+<align out="a197" type="" in="b166" creator="0" insign="100.000" outsign="100.000"/>
+<align out="a198" type="" in="b167" creator="0" insign="ejemplares" outsign="eksemplarer"/>
+<align out="a196" type="" in="a196" creator="0" insign="nemlig" outsign="nemlig"/>
+<align out="a199" type="" in="b171" creator="0" insign="," outsign=","/>
+<align out="a200" type="" in="b172" creator="0" insign="mientras" outsign="mens"/>
+<align out="a201" type="s" in="b173" creator="0" insign="el" outsign="resten"/>
+<align out="a201" type="" in="b173 b174" creator="0" insign="el resto" outsign="resten"/>
+<align out="a202" type="" in="b175" creator="0" insign="está" outsign="er"/>
+<align out="a203" type="" in="b177" creator="0" insign="distribuido" outsign="fordelt"/>
+<align out="a204" type="" in="b176" creator="0" insign="homogéneamente" outsign="pænt"/>
+<align out="a205 a206" type="" in="b178 b179 b180 b181" creator="0" insign="en todo el mundo" outsign="verden over"/>
+<align out="a207" type="" in="b183" creator="0" insign="con" outsign="med"/>
+<align out="a208" type="" in="b184" creator="0" insign="Japón" outsign="Japan"/>
+<align out="a211" type="" in="b187" creator="0" insign="como" outsign="som"/>
+<align out="a210" type="" in="b186" creator="0" insign="Australia" outsign="Australien"/>
+<align out="a209" type="" in="b185" creator="0" insign="y" outsign="og"/>
+<align out="a212" type="" in="b188" creator="0" insign="los" outsign="de"/>
+<align out="a213" type="" in="b190 b191" creator="0" insign="más ávidos" outsign="største"/>
+<align out="a214" type="" in="b189" creator="0" insign="compradores" outsign="aftagere"/>
+<align out="a215" type="" in="b192" creator="0" insign="del" outsign="af"/>
+<align out="a216" type="s" in="b192 b195" creator="0" insign="del de" outsign="D.A.Ds"/>
+<align out="a216" type="" in="b196" creator="0" insign="D.A.D." outsign="D.A.Ds"/>
+<align out="a219" type="" in="b196" creator="0" insign="D.A.D." outsign="."/>
+<align out="a224" type="" in="b201" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a218" type="" in="b193" creator="0" insign="rock" outsign="rock"/>
+<align out="a217" type="" in="b194" creator="0" insign="íntegro" outsign="kontante"/>
+<align out="a225 a226" type="" in="b207" creator="0" insign="estuvimos" outsign="Vi var"/>
+<align out="a228" type="" in="b208" creator="0" insign="en" outsign="i"/>
+<align out="a229" type="" in="b209" creator="0" insign="EE.UU." outsign="USA"/>
+<align out="a230 a231 a232 a233" type="f" in="b202 b203 b204 b205 b206" creator="0" insign="En una de nuestras giras" outsign="på sådan en tur"/>
+<align out="a234" type="" in="b210" creator="0" insign="," outsign=","/>
+<align out="a235" type="" in="b211" creator="0" insign="donde" outsign="hvor"/>
+<align out="a236 a237" type="" in="b212" creator="0" insign="comíamos" outsign="vi spiste"/>
+<align out="a241" type="" in="b216" creator="0" insign="," outsign=","/>
+<align out="a238 a239 a240" type="" in="b213 b214 b215" creator="0" insign="durante tres días" outsign="i tre dage"/>
+<align out="a242" type="" in="b217" creator="0" insign="tocábamos" outsign="spillede"/>
+<align out="a243 a244" type="f" in="b218 b219" creator="0" insign="al cuarto" outsign="i én"/>
+<align out="a245 a246 a248 a249 a250 a251 a252" type="f" in="b221 b222 b223 b224" creator="0" insign="para comer otros tres" outsign="for så at spise i tre dage"/>
+<align out="a254 a255 a256" type="f" in="b226 b227 b228" creator="0" insign="tocar al siguiente" outsign="spille i én"/>
+<align out="a257" type="" in="b230 b231 b232" creator="0" insign="y así sucesivamente" outsign="o.s.v"/>
+<align out="a247" type="" in="a247" creator="0" insign="igen" outsign="igen"/>
+<align out="a258" type="" in="b233" creator="0" insign="..." outsign="..."/>
+<align out="a259 a260" type="" in="b236" creator="0" insign="para" outsign="for at"/>
+<align out="a261 a262 a263 a264" type="f" in="b237 b238" creator="0" insign="promocionarnos en" outsign="fedte os ind på"/>
+<align out="a265" type="s" in="b239" creator="0" insign="las" outsign="radiostationerne"/>
+<align out="a265" type="" in="b240 b241 b242" creator="0" insign="emisoras de radio" outsign="radiostationerne"/>
+<align out="a267" type="" in="b243" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a266" type="" in="b244" creator="0" insign="," outsign=","/>
+<align out="a268" type="" in="b245" creator="0" insign="explica" outsign="siger"/>
+<align out="a269" type="" in="b246" creator="0" insign="Jesper" outsign="Jesper"/>
+<align out="a270" type="" in="b247" creator="0" insign="Binzer" outsign="Binzer"/>
+<align out="a253" type="" in="a253" creator="0" insign="og" outsign="og"/>
+<align out="a271" type="" in="b248" creator="0" insign="." outsign="."/>
+</DTAGalign>
