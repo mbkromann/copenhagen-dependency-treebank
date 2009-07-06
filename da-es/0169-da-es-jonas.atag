@@ -1,0 +1,154 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0169-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0169-es-tagged.tag" sign="_input"/>
+<align out="a44" type="" in="b3" creator="0" insign="los" outsign="de"/>
+<align out="a46" type="" in="b5" creator="0" insign="seis" outsign="seks"/>
+<align out="a48 a49 a50 a51" type="" in="b7 b8 b9" creator="0" insign="ha estado bajo" outsign="har hun været i"/>
+<align out="a53" type="" in="b11" creator="0" insign="en" outsign="hos"/>
+<align out="a54" type="" in="b12" creator="0" insign="Lænken" outsign="Lænken"/>
+<align out="a55" type="" in="b13" creator="0" insign="." outsign="."/>
+<align out="a64" type="" in="b20" creator="0" insign="largos" outsign="lange"/>
+<align out="a65" type="" in="b21 b22 b23" creator="0" insign="períodos de tiempo" outsign="perioder"/>
+<align out="a59 a60 a61 a62" type="" in="b17 b18" creator="0" insign="ha funcionado" outsign="det er gået godt"/>
+<align out="a45" type="" in="b4" creator="-100" insign="últimos" outsign="sidste"/>
+<align out="a52" type="" in="b10" creator="-100" insign="tratamiento" outsign="behandling"/>
+<align out="a56" type="" in="b14" creator="-100" insign="</s>" outsign="</s>"/>
+<align out="a57" type="" in="b15" creator="-100" insign="<s>" outsign="<s>"/>
+<align out="a47" type="" in="b6" creator="-100" insign="años" outsign="år"/>
+<align out="a58" type="" in="b16" creator="-100" insign="Y" outsign="Og"/>
+<align out="a43" type="" in="b2" creator="-100" insign="Durante" outsign="I"/>
+<align out="a63" type="" in="b19" creator="-100" insign="durante" outsign="i"/>
+<align out="a67" type="f" in="b25" creator="0" insign="aunque" outsign="men"/>
+<align out="a66" type="" in="b24" creator="0" insign="," outsign=","/>
+<align out="a68" type="" in="b26 b27 b28 b29" creator="0" insign="de vez en cuando" outsign="indimellem"/>
+<align out="a76" type="" in="b40" creator="0" insign="." outsign="."/>
+<align out="a69 a70 a71 a72 a73 a74" type="f" in="b30 b31 b32 b33 b34 b35 b36 b37" creator="0" insign="ha vuelto a caer en la tentación de" outsign="er hun blevet lokket tilbage til"/>
+<align out="a75" type="s" in="b38" creator="0" insign="la" outsign="flasken"/>
+<align out="a75" type="" in="b39" creator="0" insign="botella" outsign="flasken"/>
+<align out="a79" type="" in="b43" creator="0" insign="Hoy" outsign="I_dag"/>
+<align out="a80 a81 a82" type="sc" in="b44 b45 b46" creator="0" insign="lo ha superado" outsign="er hun ovenpå"/>
+<align out="a83" type="" in="b47" creator="0" insign="y" outsign="og"/>
+<align out="a84 a85" type="f" in="b48 b49 b50" creator="0" insign="trabaja como voluntaria" outsign="arbejder frivilligt"/>
+<align out="a86" type="" in="b51" creator="0" insign="en" outsign="hos"/>
+<align out="a88" type="" in="b53" creator="0" insign="como" outsign="som"/>
+<align out="a89" type="person=" in="b54" creator="0" insign="persona" outsign="kontaktperson"/>
+<align out="a89" type="kontakt=" in="b56" creator="0" insign="contacto" outsign="kontaktperson"/>
+<align out="a89" type="" in="b55 b55 b56" creator="0" insign="de de contacto" outsign="kontaktperson"/>
+<align out="a90" type="" in="b57" creator="0" insign="de" outsign="for"/>
+<align out="a91" type="" in="b58" creator="0" insign="otros" outsign="andre"/>
+<align out="a92" type="" in="b59" creator="0" insign="alcohólicos" outsign="alkoholikere"/>
+<align out="a93" type="" in="b60" creator="0" insign="." outsign="."/>
+<align out="a87" type="" in="b52" creator="0" insign="Lænken" outsign="Lænken"/>
+<align out="a98 a99" type="" in="b65 b66" creator="0" insign="Lo mismo" outsign="Det samme"/>
+<align out="a100" type="" in="b67" creator="0" insign="hace" outsign="gør"/>
+<align out="a101" type="" in="b68" creator="0" insign="Palle" outsign="Palle"/>
+<align out="a102" type="" in="b69" creator="0" insign="Johansen" outsign="Johansen"/>
+<align out="a106 a107 a112" type="" in="b71" creator="0" insign="prejubilado" outsign="Han er førtidspensionist"/>
+<align out="a113" type="" in="b75" creator="0" insign="." outsign="."/>
+<align out="a116" type="" in="b78" creator="0" insign="Desde" outsign="Siden"/>
+<align out="a117" type="" in="b79" creator="0" insign="1984" outsign="1984"/>
+<align out="a120" type="" in="b80" creator="0" insign="no" outsign="ikke"/>
+<align out="a118 a119 a121" type="" in="b81 b82" creator="0" insign="ha probado" outsign="har han drukket"/>
+<align out="a122 a123 a124" type="" in="b83" creator="0" insign="siquiera" outsign="så meget som"/>
+<align out="a125" type="" in="b84" creator="0" insign="un" outsign="en"/>
+<align out="a126" type="" in="b85 b86 b87" creator="0" insign="bombón de coñac" outsign="chokoladeflaske"/>
+<align out="a127" type="" in="b88" creator="0" insign="de" outsign="fra"/>
+<align out="a128 a129 a130" type="" in="b89 b90 b91" creator="0" insign="Galle & Jessen" outsign="Galle &amp; Jessen"/>
+<align out="a134" type="" in="b95" creator="0" insign="Pero" outsign="Men"/>
+<align out="a131" type="" in="b92" creator="0" insign="." outsign="."/>
+<align out="a135 a136 a137" type="" in="b96 b97" creator="0" insign="hasta entonces" outsign="før den tid"/>
+<align out="a138 a139" type="" in="b98" creator="0" insign="fue" outsign="var han"/>
+<align out="a140" type="d" in="b99" creator="0" insign="un" outsign="inkarneret"/>
+<align out="a141" type="" in="b100" creator="0" insign="bebedor" outsign="alkoholiker"/>
+<align out="a140" type="" in="b101" creator="0" insign="empedernido" outsign="inkarneret"/>
+<align out="a142" type="" in="b102" creator="0" insign="durante" outsign="i"/>
+<align out="a143" type="" in="b103 b104" creator="0" insign="más de" outsign="over"/>
+<align out="a144" type="" in="b105" creator="0" insign="veinte" outsign="tyve"/>
+<align out="a145" type="" in="b106" creator="0" insign="años" outsign="år"/>
+<align out="a146" type="" in="b107" creator="0" insign="." outsign="."/>
+<align out="a149" type="mvd" in="b110 b111" creator="0" insign="Fue ingresado" outsign="Indlagt"/>
+<align out="a150 a151" type="" in="b112 b113 b114" creator="0" insign="por primera vez" outsign="første gang"/>
+<align out="a154 a155" type="" in="b115 b116 b117 b118" creator="0" insign="a los 27 años" outsign="som 27-årig"/>
+<align out="a152" type="" in="b119" creator="0" insign="con" outsign="med"/>
+<align out="a153" type="" in="b121 b122 b123" creator="0" insign="inducido por alcohol" outsign="delirium"/>
+<align out="a156" type="" in="b124" creator="0" insign="." outsign="."/>
+<align out="a161" type="" in="b129" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a162" type="s" in="b130" creator="0" insign="El" outsign="Misbruget"/>
+<align out="a162" type="" in="b131" creator="0" insign="alcoholismo" outsign="Misbruget"/>
+<align out="a163 a164" type="mvt" in="b132 b133 b134" creator="0" insign="llega sin avisar" outsign="kom snigende"/>
+<align out="a165" type="" in="b135" creator="0" insign="," outsign=","/>
+<align out="a166" type="" in="b136" creator="0" insign="porque" outsign="for"/>
+<align out="a167" type="" in="b137" creator="0" insign="uno" outsign="man"/>
+<align out="a168" type="" in="b139 b140 b141" creator="0" insign="se convierte en" outsign="bliver"/>
+<align out="a169" type="" in="b138" creator="0" insign="no" outsign="ikke"/>
+<align out="a170" type="" in="b142" creator="0" insign="alcohólico" outsign="alkoholiker"/>
+<align out="a171 a172 a173 a174 a175 a176 a177" type="" in="b143 b144 b145 b146 b147 b148" creator="0" insign="de la noche a la mañana" outsign="fra den ene dag til den anden"/>
+<align out="a178" type="" in="b149" creator="0" insign="." outsign="."/>
+<align out="a181" type="f" in="b152" creator="0" insign="Todo" outsign="Det"/>
+<align out="a182" type="" in="b153" creator="0" insign="empezó" outsign="begyndte"/>
+<align out="a183" type="" in="b154" creator="0" insign="con" outsign="med"/>
+<align out="a184" type="" in="b155" creator="0" insign="un" outsign="et"/>
+<align out="a185" type="" in="b156 b157" creator="0" insign="par de" outsign="par"/>
+<align out="a186" type="" in="b158" creator="0" insign="cañas" outsign="bajere"/>
+<align out="a187" type="" in="b159" creator="0" insign="en" outsign="på"/>
+<align out="a188" type="s" in="b160" creator="0" insign="el" outsign="arbejdet"/>
+<align out="a188" type="" in="b161" creator="0" insign="trabajo" outsign="arbejdet"/>
+<align out="a189" type="" in="b162" creator="0" insign="," outsign=","/>
+<align out="a190" type="" in="b163" creator="0" insign="y" outsign="og"/>
+<align out="a192" type="" in="b164 b165" creator="0" insign="de pronto" outsign="pludselig"/>
+<align out="a193" type="" in="b166" creator="0" insign="un" outsign="en"/>
+<align out="a194" type="" in="b167" creator="0" insign="día" outsign="dag"/>
+<align out="a195 a196" type="" in="b168" creator="0" insign="comencé" outsign="begyndte jeg"/>
+<align out="a191" type="" in="a191" creator="0" insign="så" outsign="så"/>
+<align out="a197" type="" in="b169" creator="0" insign="a" outsign="at"/>
+<align out="a198" type="" in="b170" creator="0" insign="sentir" outsign="få"/>
+<align out="a199" type="" in="b171 b172 b173" creator="0" insign="síntomas de abstinencia" outsign="abstinenser"/>
+<align out="a200" type="" in="b174" creator="0" insign="desde" outsign="fra"/>
+<align out="a201" type="" in="b175 b176 b177" creator="0" insign="por la mañana" outsign="morgenstunden"/>
+<align out="a202" type="" in="b178" creator="0" insign="." outsign="."/>
+<align out="a205" type="" in="b181 b182" creator="0" insign="Al final" outsign="Til_sidst"/>
+<align out="a206 a207" type="" in="b183" creator="0" insign="podía" outsign="kunne jeg"/>
+<align out="a208" type="" in="b184" creator="0" insign="beber" outsign="drikke"/>
+<align out="a209" type="" in="b185" creator="0" insign="entre" outsign="mellem"/>
+<align out="a210" type="" in="b186" creator="0" insign="50" outsign="50"/>
+<align out="a211" type="" in="b187" creator="0" insign="y" outsign="og"/>
+<align out="a212" type="" in="b188" creator="0" insign="70" outsign="70"/>
+<align out="a214" type="" in="b189" creator="0" insign="cervezas" outsign="øl"/>
+<align out="a215 a216 a217" type="" in="b190" creator="0" insign="al&nbsp;día" outsign="på et døgn"/>
+<align out="a219" type="" in="b191" creator="0" insign="&quot;" outsign="&quot;"/>
+<align out="a218" type="" in="b192" creator="0" insign="." outsign="."/>
+<align out="a213" type="" in="a213" creator="0" insign="almindelige" outsign="almindelige"/>
+<align out="a224" type="" in="b197" creator="0" insign="Como" outsign="Som"/>
+<align out="a225" type="" in="b198" creator="0" insign="muchos" outsign="mange"/>
+<align out="a228" type="" in="b201" creator="0" insign="Palle" outsign="Palle"/>
+<align out="a229" type="" in="b202" creator="0" insign="Johansen" outsign="Johansen"/>
+<align out="a227 a230 a232" type="" in="b203 b204 b206" creator="0" insign="ha encontrado amistades" outsign="har fået venner"/>
+<align out="a231" type="" in="b205" creator="0" insign="nuevas" outsign="nye"/>
+<align out="a226" type="" in="b199" creator="0" insign="otros" outsign="andre"/>
+<align out="a233" type="" in="b207" creator="0" insign="en" outsign="hos"/>
+<align out="a234" type="" in="b208" creator="0" insign="Lænken" outsign="Lænken"/>
+<align out="a235" type="" in="b209" creator="0" insign="." outsign="."/>
+<align out="a238" type="" in="b212" creator="0" insign="Y" outsign="Og"/>
+<align out="a239" type="" in="b213" creator="0" insign="este" outsign="det"/>
+<align out="a240" type="" in="b214" creator="0" insign="es" outsign="er"/>
+<align out="a241" type="" in="b215" creator="0" insign="precisamente" outsign="netop"/>
+<align out="a242" type="" in="b216" creator="0" insign="uno" outsign="ét"/>
+<align out="a243" type="" in="b217" creator="0" insign="de" outsign="af"/>
+<align out="a244" type="s" in="b218" creator="0" insign="los" outsign="formålene"/>
+<align out="a244" type="" in="b219" creator="0" insign="objetivos" outsign="formålene"/>
+<align out="a245" type="" in="b220" creator="0" insign="del" outsign="med"/>
+<align out="a246" type="s" in="b220" creator="0" insign="del" outsign="ambulatoriet"/>
+<align out="a246" type="" in="b221" creator="0" insign="ambulatorio" outsign="ambulatoriet"/>
+<align out="a247" type="" in="b222" creator="0" insign="," outsign=","/>
+<align out="a248" type="" in="b223" creator="0" insign="explica" outsign="forklarer"/>
+<align out="a249" type="" in="b227" creator="0" insign="psiquiatra" outsign="psykiater"/>
+<align out="a250" type="" in="b224" creator="0" insign="Lars" outsign="Lars"/>
+<align out="a251" type="" in="b225" creator="0" insign="Eplov" outsign="Eplov"/>
+<align out="a253" type="" in="b229" creator="0" insign="que" outsign="der"/>
+<align out="a255" type="" in="b231" creator="0" insign="guardia" outsign="vagt"/>
+<align out="a256" type="" in="b232" creator="0" insign="dos" outsign="to"/>
+<align out="a257" type="" in="b233" creator="0" insign="noches" outsign="aftener"/>
+<align out="a258 a259" type="" in="b234 b235 b236" creator="0" insign="a la semana" outsign="om ugen"/>
+<align out="a260" type="" in="b237" creator="0" insign=":" outsign=":"/>
+<align out="a254" type="" in="b230" creator="0" insign="tiene" outsign="har"/>
+</DTAGalign>
