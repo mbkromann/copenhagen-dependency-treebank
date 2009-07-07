@@ -1,0 +1,168 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0182-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0182-es-tagged.tag" sign="_input"/>
+<align out="a43 a44" type="" in="b6 b7 b8 b9" creator="0" insign="la Catedral de Roskilde" outsign="Roskilde Domkirke"/>
+<align out="a48" type="s" in="b11" creator="0" insign="el" outsign="rammen"/>
+<align out="a48" type="" in="b12" creator="0" insign="escenario" outsign="rammen"/>
+<align out="a51" type="" in="b14" creator="0" insign="primero" outsign="første"/>
+<align out="a52" type="" in="b15" creator="0" insign="de" outsign="af"/>
+<align out="a55" type="" in="b19" creator="0" insign="conciertos" outsign="koncerter"/>
+<align out="a46 a47" type="" in="b2 b3 b4 b5" creator="0" insign="El 12 de noviembre" outsign="12. november"/>
+<align out="a49 a50" type="" in="b13" creator="0" insign="del" outsign="om den"/>
+<align out="a62" type="" in="b21" creator="0" insign="dará" outsign="giver"/>
+<align out="a57" type="" in="b22" creator="0" insign="la" outsign="den"/>
+<align out="a59" type="" in="b23" creator="0" insign="cantante" outsign="sangerinde"/>
+<align out="a58" type="" in="b24" creator="0" insign="noruega" outsign="norske"/>
+<align out="a60" type="" in="b25" creator="0" insign="Sissel" outsign="Sissel"/>
+<align out="a61" type="" in="b26" creator="0" insign="Kyrkjebø" outsign="Kyrkjebø"/>
+<align out="a63" type="" in="b27" creator="0" insign="en" outsign="i"/>
+<align out="a64" type="" in="b28" creator="0" insign="Dinamarca" outsign="Danmark"/>
+<align out="a65" type="" in="b29" creator="0" insign="." outsign="."/>
+<align out="a70" type="" in="b34" creator="0" insign="Sissel" outsign="Sissel"/>
+<align out="a71" type="" in="b35" creator="0" insign="Kyrkjebø" outsign="Kyrkjebø"/>
+<align out="a72" type="" in="b36" creator="0" insign="," outsign=","/>
+<align out="a73" type="" in="b37" creator="0" insign="que" outsign="der"/>
+<align out="a74 a77" type="" in="b38" creator="0" insign="hace" outsign="for siden"/>
+<align out="a75" type="" in="b39" creator="0" insign="dos" outsign="to"/>
+<align out="a76" type="" in="b40" creator="0" insign="años" outsign="år"/>
+<align out="a78" type="" in="b41 b42" creator="0" insign="atrajo a" outsign="trak"/>
+<align out="a80" type="" in="b43" creator="0" insign="20.000" outsign="20.000"/>
+<align out="a79" type="" in="a79" creator="0" insign="over" outsign="over"/>
+<align out="a81" type="" in="b44" creator="0" insign="personas" outsign="tilhørere"/>
+<align out="a82" type="" in="b45" creator="0" insign="a" outsign="til"/>
+<align out="a84" type="" in="b46" creator="0" insign="conciertos" outsign="koncerter"/>
+<align out="a85" type="" in="b47" creator="0" insign="en" outsign="i"/>
+<align out="a87" type="" in="b48" creator="0" insign="salas" outsign="sale"/>
+<align out="a86" type="" in="b49" creator="0" insign="grandes" outsign="store"/>
+<align out="a83" type="f" in="b50 b51 b52 b53 b54 b55" creator="0" insign="con el cartel de entradas agotadas" outsign="udsolgte"/>
+<align out="a90 a91" type="" in="b57 b58" creator="0" insign="esta vez" outsign="denne gang"/>
+<align out="a89 a92" type="" in="b59 b60 b61" creator="0" insign="ha optado por" outsign="har valgt"/>
+<align out="a93" type="" in="b63" creator="0" insign="exclusivamente" outsign="udelukkende"/>
+<align out="a88" type="" in="b56" creator="0" insign="," outsign=","/>
+<align out="a94 a95" type="f" in="b62" creator="0" insign="cantar" outsign="at optræde"/>
+<align out="a96" type="" in="b64" creator="0" insign="en" outsign="i"/>
+<align out="a97" type="" in="b65" creator="0" insign="iglesias" outsign="kirker"/>
+<align out="a98" type="" in="b66" creator="0" insign="." outsign="."/>
+<align out="a101" type="" in="b69" creator="0" insign="Esto" outsign="Det"/>
+<align out="a102" type="" in="b70" creator="0" insign="supone" outsign="indebærer"/>
+<align out="a108 a109" type="" in="b77" creator="0" insign="para" outsign="for at"/>
+<align out="a110" type="" in="b78 b79" creator="0" insign="asistir a" outsign="overvære"/>
+<align out="a111" type="" in="b80" creator="0" insign="sus" outsign="hendes"/>
+<align out="a112" type="" in="b81" creator="0" insign="conciertos" outsign="koncerter"/>
+<align out="a116" type="" in="b83" creator="0" insign="pero" outsign="Men"/>
+<align out="a117" type="" in="b84" creator="0" insign="según" outsign="ifølge"/>
+<align out="a118" type="" in="b85" creator="0" insign="Jens" outsign="Jens"/>
+<align out="a119" type="" in="b86" creator="0" insign="Hofman" outsign="Hofman"/>
+<align out="a120" type="" in="b87" creator="0" insign="de" outsign="fra"/>
+<align out="a121" type="" in="b88" creator="0" insign="su" outsign="hendes"/>
+<align out="a123" type="" in="b89" creator="0" insign="promotor" outsign="promotor"/>
+<align out="a122" type="" in="b90" creator="0" insign="danés" outsign="danske"/>
+<align out="a124" type="" in="b91" creator="0" insign="," outsign=","/>
+<align out="a125" type="s" in="b92" creator="0" insign="la" outsign="pladeselskabet"/>
+<align out="a125" type="" in="b93 b94" creator="0" insign="compañía discográfica" outsign="pladeselskabet"/>
+<align out="a103 a104 a105 a106 a107" type="mcn" in="b71 b72 b73 b74 b75 b76" creator="0" insign="una notable merma de las posibilidades" outsign="at langt færre får mulighed"/>
+<align out="a127" type="" in="b96" creator="0" insign="," outsign=","/>
+<align out="a126" type="" in="b95" creator="0" insign="Medley" outsign="Medley"/>
+<align out="a130 a131 a132" type="" in="b103 b104" creator="0" insign="ganas de" outsign="lysten til at"/>
+<align out="a133" type="" in="b105" creator="0" insign="cantar" outsign="synge"/>
+<align out="a134" type="" in="b106" creator="0" insign="en" outsign="i"/>
+<align out="a135" type="d" in="b107" creator="0" insign="un" outsign="kirkerum"/>
+<align out="a135" type="" in="b108 b109" creator="0" insign="espacio eclesiástico" outsign="kirkerum"/>
+<align out="a136" type="" in="b110" creator="0" insign="más" outsign="mere"/>
+<align out="a137" type="" in="b111" creator="0" insign="que" outsign="end"/>
+<align out="a138" type="d" in="b112" creator="0" insign="el" outsign="forretning"/>
+<align out="a138" type="" in="b113" creator="0" insign="negocio" outsign="forretning"/>
+<align out="a45" type="" in="b10" creator="-100" insign="será" outsign="bliver"/>
+<align out="a54" type="" in="b17 b18" creator="-100" insign="serie de" outsign="række"/>
+<align out="a56" type="f" in="b20" creator="-100" insign="que" outsign=","/>
+<align out="a53" type="" in="b16" creator="-100" insign="una" outsign="en"/>
+<align out="a144" type="" in="b97" creator="0" insign="para" outsign="for"/>
+<align out="a145" type="" in="b98" creator="0" insign="Sissel" outsign="Sissel"/>
+<align out="a146" type="" in="b99" creator="0" insign="Kyrkjebø" outsign="Kyrkjebø"/>
+<align out="a128 a129" type="mvt" in="b100 b101" creator="0" insign="han sido" outsign="er det"/>
+<align out="a130" type="s/n" in="b102" creator="0" insign="las" outsign="lysten"/>
+<align out="a140" type="" in="b114 b115" creator="0" insign="lo que" outsign="der"/>
+<align out="a141 a142 a143" type="" in="b116 b117 b118 b119" creator="0" insign="ha motivado la decisión" outsign="har været afgørende"/>
+<align out="a147" type="" in="b120" creator="0" insign="." outsign="."/>
+<align out="a163" type="" in="b125" creator="0" insign="Además" outsign="udover"/>
+<align out="a164" type="" in="b126" creator="0" insign="de" outsign="i"/>
+<align out="a165" type="" in="b127" creator="0" insign="Roskilde" outsign="Roskilde"/>
+<align out="a152" type="s" in="b129" creator="0" insign="esta" outsign="Sangerinden"/>
+<align out="a153" type="" in="b131" creator="0" insign="de" outsign="med"/>
+<align out="a154 a155" type="" in="b132" creator="0" insign="voz" outsign="en stemme"/>
+<align out="a156" type="" in="b133" creator="0" insign="tan" outsign="så"/>
+<align out="a158" type="" in="b135" creator="0" insign="como" outsign="som"/>
+<align out="a157" type="" in="b134" creator="0" insign="clara" outsign="klar"/>
+<align out="a159" type="" in="b136" creator="0" insign="el" outsign="den"/>
+<align out="a160 a161" type="" in="b137 b138 b139 b140 b141" creator="0" insign="aire de las montañas noruegas" outsign="norske fjeldluft"/>
+<align out="a162" type="" in="b143" creator="0" insign="actuará" outsign="synger"/>
+<align out="a166" type="" in="b144" creator="0" insign="también" outsign="også"/>
+<align out="a167" type="" in="b145" creator="0" insign="en" outsign="i"/>
+<align out="a168" type="" in="b146" creator="0" insign="Copenhague" outsign="København"/>
+<align out="a174" type="" in="b152" creator="0" insign="Randers" outsign="Randers"/>
+<align out="a176" type="" in="b154" creator="0" insign="Holstebro" outsign="Holstebro"/>
+<align out="a172" type="" in="b150" creator="0" insign="Århus" outsign="Århus"/>
+<align out="a170" type="" in="b148" creator="0" insign="Odense" outsign="Odense"/>
+<align out="a169" type="" in="b147" creator="0" insign="," outsign=","/>
+<align out="a171" type="" in="b149" creator="0" insign="," outsign=","/>
+<align out="a175" type="" in="b153" creator="0" insign="y" outsign="og"/>
+<align out="a173" type="" in="b151" creator="0" insign="," outsign=","/>
+<align out="a177" type="" in="b155" creator="0" insign="." outsign="."/>
+<align out="a180" type="" in="b158" creator="0" insign="Bajo" outsign="Under"/>
+<align out="a181" type="s" in="b159" creator="0" insign="el" outsign="overskriften"/>
+<align out="a181" type="" in="b160" creator="0" insign="título" outsign="overskriften"/>
+<align out="a182" type="" in="b161" creator="0" insign="Kystland" outsign="Kystland"/>
+<align out="a183 a184 a185" type="" in="b162" creator="0" insign="ofrece" outsign="byder hun på"/>
+<align out="a186" type="" in="b163" creator="0" insign="un" outsign="en"/>
+<align out="a187" type="" in="b164" creator="0" insign="repertorio" outsign="blanding"/>
+<align out="a188" type="" in="b165" creator="0" insign="de" outsign="af"/>
+<align out="a189" type="" in="b166" creator="0" insign="himnos" outsign="hymner"/>
+<align out="a190" type="" in="b167" creator="0" insign="," outsign=","/>
+<align out="a191" type="" in="b168" creator="0" insign="salmos" outsign="salmer"/>
+<align out="a192" type="" in="b169" creator="0" insign="y" outsign="og"/>
+<align out="a193" type="" in="b170" creator="0" insign="nuevas" outsign="nyere"/>
+<align out="a194" type="" in="b171" creator="0" insign="canciones" outsign="sange"/>
+<align out="a195" type="" in="b172" creator="0" insign="acompañada" outsign="akkompagneret"/>
+<align out="a196" type="" in="b173" creator="0" insign="de" outsign="af"/>
+<align out="a197" type="" in="b174" creator="0" insign="un" outsign="en"/>
+<align out="a198" type="" in="b175" creator="0" insign="cuarteto" outsign="kvartet"/>
+<align out="a199" type="" in="b176 b177" creator="0" insign="integrado por" outsign="på"/>
+<align out="a200" type="" in="b178" creator="0" insign="flauta" outsign="fløjte"/>
+<align out="a202" type="" in="b180" creator="0" insign="contrabajo" outsign="kontrabass"/>
+<align out="a201" type="" in="b179" creator="0" insign="," outsign=","/>
+<align out="a204" type="" in="b182" creator="0" insign="violonchelo" outsign="cello"/>
+<align out="a205" type="" in="b183" creator="0" insign="y" outsign="og"/>
+<align out="a206" type="" in="b184" creator="0" insign="sintetizador" outsign="synthesizer"/>
+<align out="a207" type="" in="b185" creator="0" insign="." outsign="."/>
+<align out="a212" type="s" in="b190" creator="0" insign="El" outsign="Koncerten"/>
+<align out="a212" type="" in="b191" creator="0" insign="concierto" outsign="Koncerten"/>
+<align out="a213" type="" in="b192" creator="0" insign="de" outsign="i"/>
+<align out="a214" type="" in="b193" creator="0" insign="Roskilde" outsign="Roskilde"/>
+<align out="a203" type="" in="b181" creator="0" insign="," outsign=","/>
+<align out="a215 a216" type="" in="b194 b195" creator="0" insign="se diferencia" outsign="adskiller sig"/>
+<align out="a217" type="" in="b196" creator="0" insign="de" outsign="fra"/>
+<align out="a218" type="" in="b197" creator="0" insign="los" outsign="de"/>
+<align out="a219" type="" in="b199" creator="0" insign="cinco" outsign="fem"/>
+<align out="a220" type="" in="b198" creator="0" insign="otros" outsign="øvrige"/>
+<align out="a222 a223" type="" in="b200 b201" creator="0" insign="en que" outsign="ved at"/>
+<align out="a224" type="n/s" in="b202" creator="0" insign="los" outsign="overskuddet"/>
+<align out="a224" type="" in="b203" creator="0" insign="dividendos" outsign="overskuddet"/>
+<align out="a225" type="" in="b204" creator="0" insign="del" outsign="fra"/>
+<align out="a226" type="s" in="b204" creator="0" insign="del" outsign="arrangementet"/>
+<align out="a226" type="" in="b205" creator="0" insign="evento" outsign="arrangementet"/>
+<align out="a227 a228" type="" in="b206 b207 b208" creator="0" insign="serán donado a" outsign="går til"/>
+<align out="a229" type="" in="b209" creator="0" insign="un" outsign="et"/>
+<align out="a230" type="" in="b210 b211 b212 b213" creator="0" insign="proyecto para el SIDA" outsign="AIDS-projekt"/>
+<align out="a231" type="" in="b214" creator="0" insign="en" outsign="i"/>
+<align out="a232" type="" in="b215" creator="0" insign="Tanzania" outsign="Tanzania"/>
+<align out="a233" type="" in="b216" creator="0" insign="." outsign="."/>
+<align out="a236 a237 a238" type="" in="b219 b220 b221 b222 b223" creator="0" insign="La iniciativa está apoyada por" outsign="Bag initiativet står"/>
+<align out="a241" type="" in="b225 b226" creator="0" insign="consejo parroquial" outsign="menighedsråd"/>
+<align out="a242" type="" in="b233" creator="0" insign="y" outsign="og"/>
+<align out="a243" type="" in="b234" creator="0" insign="varios" outsign="flere"/>
+<align out="a244" type="" in="b236" creator="0" insign="privados" outsign="private"/>
+<align out="a245" type="" in="b235" creator="0" insign="patrocinadores" outsign="sponsorer"/>
+<align out="a246" type="" in="b237" creator="0" insign="." outsign="."/>
+<align out="a239 a240" type="s" in="b224 b227 b228" creator="0" insign="el de la" outsign="Roskilde Domsogns"/>
+<align out="a239 a240" type="" in="b229 b230 b231 b232" creator="0" insign="parroquia catedralicia de Roskilde" outsign="Roskilde Domsogns"/>
+</DTAGalign>
