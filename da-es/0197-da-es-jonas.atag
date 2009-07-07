@@ -1,0 +1,164 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0197-da.tag" sign="_input"/>
+<alignFile key="b" href="../es/0197-es-tagged.tag" sign="_input"/>
+<align out="a43 a44 a45" type="" in="b2" creator="0" insign="Son" outsign="Det er nogle"/>
+<align out="a48" type="" in="b3" creator="0" insign="informaciones" outsign="oplysninger"/>
+<align out="a47" type="" in="b5" creator="0" insign="gratas." outsign="glædelige"/>
+<align out="a49" type="" in="b5" creator="0" insign="gratas." outsign="."/>
+<align out="a53" type="" in="b8" creator="0" insign="porqué" outsign="hvorfor"/>
+<align out="a57" type="" in="b11" creator="0" insign="político" outsign="politiker"/>
+<align out="a54 a55" type="" in="b9 b12 b13" creator="0" insign="yo tengo que" outsign="skal jeg"/>
+<align out="a61" type="s" in="b16" creator="0" insign="la" outsign="pressen"/>
+<align out="a61" type="" in="b17" creator="0" insign="prensa" outsign="pressen"/>
+<align out="a63" type="" in="b22" creator="0" insign="declaró" outsign="sagde"/>
+<align out="a58 a59 a60" type="f" in="b14 b15" creator="0" insign="enterarme por" outsign="få dem fra"/>
+<align out="a46" type="" in="b4" creator="-100" insign="muy" outsign="meget"/>
+<align out="a50" type="" in="b19" creator="-100" insign="</s>" outsign="</s>"/>
+<align out="a51" type="" in="b20" creator="-100" insign="<s>" outsign="<s>"/>
+<align out="a56" type="" in="b10" creator="-100" insign="como" outsign="som"/>
+<align out="a62" type="" in="b21" creator="-100" insign="," outsign=","/>
+<align out="a52" type="" in="b7" creator="-100" insign="Pero" outsign="Men"/>
+<align out="a64" type="s" in="b23" creator="0" insign="la" outsign="ophavskvinden"/>
+<align out="a64" type="" in="b24" creator="0" insign="autora" outsign="ophavskvinden"/>
+<align out="a65 a66" type="" in="b25" creator="0" insign="del" outsign="til den"/>
+<align out="a67 a68" type="" in="b26" creator="0" insign="reciente" outsign="seneste tids"/>
+<align out="a69" type="" in="b27" creator="0" insign="debate" outsign="debat"/>
+<align out="a70" type="" in="b28" creator="0" insign="sobre" outsign="om"/>
+<align out="a71" type="s" in="b29" creator="0" insign="el" outsign="værdien"/>
+<align out="a71" type="" in="b30" creator="0" insign="valor" outsign="værdien"/>
+<align out="a72" type="" in="b31" creator="0" insign="de" outsign="af"/>
+<align out="a73" type="s" in="b32" creator="0" insign="los" outsign="hjerte-transplantationer"/>
+<align out="a73" type="hjerte=" in="b35" creator="0" insign="corazón" outsign="hjerte-transplantationer"/>
+<align out="a73" type="transplantationer=" in="b33" creator="0" insign="transplantes" outsign="hjerte-transplantationer"/>
+<align out="a73" type="" in="b33 b34 b35" creator="0" insign="transplantes de corazón" outsign="hjerte-transplantationer"/>
+<align out="a75" type="" in="b36" creator="0" insign="cuando" outsign="da"/>
+<align out="a76 a77" type="" in="b37 b38" creator="0" insign="Berlingske Tidende" outsign="Berlingske Tidende"/>
+<align out="a78" type="" in="b41" creator="0" insign="ayer" outsign="i_går"/>
+<align out="a80" type="" in="b42" creator="0" insign="un" outsign="en"/>
+<align out="a81" type="" in="b43" creator="0" insign="nuevo" outsign="ny"/>
+<align out="a82" type="" in="b44" creator="0" insign="informe" outsign="opgørelse"/>
+<align out="a79 a83 a84 a85" type="" in="b39 b40" creator="0" insign="le leyó" outsign="læste op for hende"/>
+<align out="a86" type="" in="b45" creator="0" insign="." outsign="."/>
+<align out="a91" type="s" in="b50" creator="0" insign="El" outsign="Opgørelsen"/>
+<align out="a91" type="" in="b51" creator="0" insign="informe" outsign="Opgørelsen"/>
+<align out="a92" type="" in="b52" creator="0" insign="," outsign=","/>
+<align out="a93" type="" in="b53" creator="0" insign="que" outsign="der"/>
+<align out="a94" type="" in="b54" creator="0" insign="incluye" outsign="dækker"/>
+<align out="a95" type="" in="b55" creator="0" insign="los" outsign="de"/>
+<align out="a96" type="" in="b56" creator="0" insign="27" outsign="27"/>
+<align out="a97" type="transplantationer=" in="b57" creator="0" insign="transplantes" outsign="hjerte-transplantationer"/>
+<align out="a97" type="hjerte=" in="b59" creator="0" insign="corazón" outsign="hjerte-transplantationer"/>
+<align out="a97" type="" in="b57 b58 b59" creator="0" insign="transplantes de corazón" outsign="hjerte-transplantationer"/>
+<align out="a98" type="" in="b60" creator="0" insign="de" outsign="på"/>
+<align out="a99" type="" in="b61" creator="0" insign="Rigshospitalet" outsign="Rigshospitalet"/>
+<align out="a100 a104 a105 a106 a107" type="" in="b62 b63 b64 b65 b66" creator="0" insign="realizados en un año a&nbsp;partir&nbsp;del" outsign="fra og et år frem"/>
+<align out="a101 a102 a103" type="" in="b67 b68 b69 b70 b71" creator="0" insign="1 de septiembre de 1990" outsign="1. september 1990"/>
+<align out="a108" type="" in="b72" creator="0" insign="," outsign=","/>
+<align out="a107" type="" in="b72" creator="0" insign="," outsign="frem"/>
+<align out="a110" type="" in="b74" creator="0" insign="justamente" outsign="netop"/>
+<align out="a112" type="" in="b75 b76" creator="0" insign="lo que" outsign="hvad"/>
+<align out="a115" type="" in="b79" creator="0" insign="(" outsign="("/>
+<align out="a116" type="" in="b80" creator="0" insign="S" outsign="S"/>
+<align out="a117" type="" in="b81" creator="0" insign=")" outsign=")"/>
+<align out="a113 a114" type="" in="b77 b78" creator="0" insign="Conny Dideriksen" outsign="Conny Dideriksen"/>
+<align out="a118" type="" in="b82 b83 b84" creator="0" insign="en calidad de" outsign="som"/>
+<align out="a119" type="" in="b85" creator="0" insign="presidenta" outsign="formand"/>
+<align out="a120" type="" in="b86" creator="0" insign="del" outsign="for"/>
+<align out="a121 a122" type="s" in="b86 b90 b91" creator="0" insign="del de la" outsign="Frederiksborg Amts"/>
+<align out="a123" type="" in="b87 b88 b89" creator="0" insign="comité de sanidad" outsign="sundhedsudvalg"/>
+<align out="a121 a122" type="" in="b92 b93 b94" creator="0" insign="región de Frederiksborg" outsign="Frederiksborg Amts"/>
+<align out="a126" type="s" in="b97" creator="0" insign="al" outsign="Sundhedsministeriet"/>
+<align out="a126" type="ministerie=" in="b98" creator="0" insign="ministerio" outsign="Sundhedsministeriet"/>
+<align out="a126" type="sundhed=" in="b100" creator="0" insign="Sanidad" outsign="Sundhedsministeriet"/>
+<align out="a126" type="" in="b98 b99 b100" creator="0" insign="ministerio de Sanidad" outsign="Sundhedsministeriet"/>
+<align out="a109" type="" in="b73" creator="0" insign="es" outsign="er"/>
+<align out="a124 a125 a127 a128 a129" type="" in="b95 b96 b97" creator="0" insign="había pedido al" outsign="har bedt om at skaffe"/>
+<align out="a130" type="" in="b101" creator="0" insign="." outsign="."/>
+<align out="a133 a134" type="" in="b105 b106 b107" creator="0" insign="lo ha conseguido" outsign="Det lykkedes"/>
+<align out="a135" type="" in="b104" creator="0" insign="No" outsign="ikke"/>
+<align out="a136" type="" in="b108" creator="0" insign="," outsign=","/>
+<align out="a137" type="" in="b109" creator="0" insign="y" outsign="og"/>
+<align out="a138 a139" type="" in="b110 b111" creator="0" insign="se muestra" outsign="hun er"/>
+<align out="a140" type="" in="b112" creator="0" insign="sorprendida" outsign="overrasket"/>
+<align out="a141 a143" type="" in="b113 b114" creator="0" insign="de que" outsign="over at"/>
+<align out="a144 a146" type="" in="b116" creator="0" insign="llegue" outsign="den kommer"/>
+<align out="a145" type="" in="b115" creator="0" insign="ahora" outsign="nu"/>
+<align out="a147" type="" in="b117" creator="0" insign="directamente" outsign="direkte"/>
+<align out="a150" type="" in="b118" creator="0" insign="a" outsign="til"/>
+<align out="a151" type="s" in="b119" creator="0" insign="la" outsign="pressen"/>
+<align out="a151" type="" in="b120" creator="0" insign="prensa" outsign="pressen"/>
+<align out="a148" type="" in="b121" creator="0" insign="desde" outsign="fra"/>
+<align out="a149" type="" in="b122" creator="0" insign="Rigshospitalet" outsign="Rigshospitalet"/>
+<align out="a152" type="" in="b123" creator="0" insign="." outsign="."/>
+<align out="a158" type="s" in="b130" creator="0" insign="la" outsign="operationen"/>
+<align out="a158" type="" in="b131" creator="0" insign="operación" outsign="operationen"/>
+<align out="a159" type="" in="b135" creator="0" insign="tenían" outsign="havde"/>
+<align out="a160" type="" in="b132" creator="0" insign="todos" outsign="alle"/>
+<align out="a161" type="d" in="b133" creator="0" insign="los" outsign="patienter"/>
+<align out="a161" type="" in="b134" creator="0" insign="pacientes" outsign="patienter"/>
+<align out="a162" type="" in="b136" creator="0" insign="una" outsign="en"/>
+<align out="a164" type="" in="b137 b138 b139" creator="0" insign="esperanza de vida" outsign="levetid"/>
+<align out="a165 a166 a167 a168" type="" in="b140 b141 b142 b143" creator="0" insign="inferior a un año" outsign="på under et år"/>
+<align out="a169" type="" in="b144" creator="0" insign="." outsign="."/>
+<align out="a163" type="" in="a163" creator="0" insign="forventet" outsign="forventet"/>
+<align out="a157" type="" in="b128 b129" creator="0" insign="Antes de" outsign="Inden"/>
+<align out="a172 a173" type="" in="b147 b148 b149 b150" creator="0" insign="Se trataba de pacientes" outsign="De var"/>
+<align out="a174" type="f" in="b151 b152 b153 b154" creator="0" insign="de edades comprendidas entre" outsign="fra"/>
+<align out="a175" type="" in="b155 b156" creator="0" insign="los 10" outsign="10"/>
+<align out="a178" type="" in="b160" creator="0" insign="años" outsign="år"/>
+<align out="a176" type="f" in="b157" creator="0" insign="y" outsign="til"/>
+<align out="a177" type="" in="b158 b159" creator="0" insign="los 55" outsign="55"/>
+<align out="a179" type="" in="b162" creator="0" insign="con" outsign="med"/>
+<align out="a180" type="" in="b163" creator="0" insign="una" outsign="en"/>
+<align out="a181" type="" in="b164 b165 b166" creator="0" insign="media de edad" outsign="gennemsnitsalder"/>
+<align out="a182" type="" in="b167" creator="0" insign="de" outsign="på"/>
+<align out="a183" type="" in="b168 b169" creator="0" insign="44 años" outsign="44"/>
+<align out="a184" type="" in="b170" creator="0" insign="." outsign="."/>
+<align out="a189 a190 a191" type="" in="b175 b176" creator="0" insign="La mayoría" outsign="Flertallet af dem"/>
+<align out="a192" type="" in="b177" creator="0" insign="eran" outsign="var"/>
+<align out="a194" type="" in="b180" creator="0" insign="y" outsign="og"/>
+<align out="a196" type="" in="b178" creator="0" insign="trabajadores" outsign="arbejdere"/>
+<align out="a193" type="" in="b179" creator="0" insign="cualificados" outsign="faglærte"/>
+<align out="a195" type="" in="b181 b182" creator="0" insign="no cualificados" outsign="ufaglærte"/>
+<align out="a197" type="" in="b183" creator="0" insign="." outsign="."/>
+<align out="a200" type="" in="b186" creator="0" insign="Cuatro" outsign="Fire"/>
+<align out="a201" type="" in="b187" creator="0" insign="murieron" outsign="døde"/>
+<align out="a202 a203 a204 a205" type="" in="b188 b189 b190 b191 b192 b193 b194" creator="0" insign="en un espacio de un año después&nbsp;de" outsign="inden et år efter"/>
+<align out="a206" type="s" in="b195" creator="0" insign="la" outsign="operationen"/>
+<align out="a206" type="" in="b196" creator="0" insign="operación" outsign="operationen"/>
+<align out="a207" type="" in="b197" creator="0" insign="," outsign=","/>
+<align out="a208" type="" in="b198" creator="0" insign="pero" outsign="men"/>
+<align out="a209 a210" type="" in="b199 b200" creator="0" insign="el resto" outsign="de øvrige"/>
+<align out="a211 a212 a213 a214 a215 a216 a217" type="mcn" in="b201 b202 b203 b204" creator="0" insign="registraron una clara mejora" outsign="havde det alle meget bedre end før"/>
+<align out="a218" type="" in="b205" creator="0" insign="," outsign=","/>
+<align out="a219" type="" in="b206" creator="0" insign="explica" outsign="fortæller"/>
+<align out="a222" type="" in="b207" creator="0" insign="Jan" outsign="Jan"/>
+<align out="a223" type="" in="b208" creator="0" insign="Aldershvile" outsign="Aldershvile"/>
+<align out="a220 a221" type="" in="b210 b211" creator="0" insign="médico interno" outsign="første reservelæge"/>
+<align out="a224 a225" type="" in="b212" creator="0" insign="del" outsign="fra den"/>
+<align out="a226 a227" type="" in="b213 b214 b215" creator="0" insign="departamento de cardiología" outsign="medicinske hjerteafdeling"/>
+<align out="a228" type="" in="b216" creator="0" insign="de" outsign="på"/>
+<align out="a229" type="" in="b217" creator="0" insign="Rigshospitalet" outsign="Rigshospitalet"/>
+<align out="a230" type="" in="b218" creator="0" insign="." outsign="."/>
+<align out="a238 a239" type="" in="b223" creator="0" insign="Junto&nbsp;con" outsign="sammen med"/>
+<align out="a240" type="d" in="b224" creator="0" insign="la" outsign="socialrådgiver"/>
+<align out="a240" type="" in="b225 b226" creator="0" insign="asistente social" outsign="socialrådgiver"/>
+<align out="a241 a242" type="" in="b227 b228" creator="0" insign="Gerda Kirchhoff" outsign="Gerda Kirchhoff"/>
+<align out="a235 a236 a244 a245" type="" in="b230 b231" creator="0" insign="ha dirigido" outsign="Han har stået for"/>
+<align out="a246" type="s" in="b232" creator="0" insign="el" outsign="undersøgelsen"/>
+<align out="a246" type="" in="b233" creator="0" insign="estudio" outsign="undersøgelsen"/>
+<align out="a247" type="" in="b234" creator="0" insign="de" outsign="af"/>
+<align out="a248" type="" in="b235" creator="0" insign="los" outsign="de"/>
+<align out="a249" type="" in="b236" creator="0" insign="23" outsign="23"/>
+<align out="a243" type="" in="b229" creator="0" insign="," outsign=","/>
+<align out="a251" type="" in="b237" creator="0" insign="pacientes" outsign="patienter"/>
+<align out="a250" type="" in="b238" creator="0" insign="supervivientes" outsign="overlevende"/>
+<align out="a252" type="" in="b239" creator="0" insign="(" outsign="("/>
+<align out="a253" type="" in="b240" creator="0" insign="20" outsign="20"/>
+<align out="a254" type="" in="b241" creator="0" insign="hombres" outsign="mænd"/>
+<align out="a255" type="" in="b242" creator="0" insign="y" outsign="og"/>
+<align out="a256" type="" in="b243" creator="0" insign="3" outsign="tre"/>
+<align out="a257" type="" in="b244" creator="0" insign="mujeres" outsign="kvinder"/>
+<align out="a258" type="" in="b245" creator="0" insign=")." outsign=")"/>
+<align out="a259" type="" in="b245" creator="0" insign=")." outsign="."/>
+</DTAGalign>
