@@ -4,7 +4,7 @@
 echo -n "Enter you user-name, (e.g. mwh.isv): "
 read user
 # user=mwh.isv
-home=~$user
+home=~
 echo $home
 svnpasswd=$home/.svnpasswd
 svnuser=$home/.svnuser
