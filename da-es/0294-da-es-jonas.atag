@@ -175,12 +175,12 @@
 <align out="a259" type="" in="b244" creator="0" insign=":" outsign=":"/>
 <align out="a261" type="" in="b246" creator="0" insign="." outsign="."/>
 <align out="a260" type="" in="b245" creator="0" insign="INOCENTE" outsign="IKKE-skyldig"/>
-<align out="a62" type="" in="b30" creator="-100" insign="<p>" outsign="<p>"/>
 <align out="a61" type="" in="b29" creator="-100" insign="</p>" outsign="</p>"/>
+<align out="a62" type="" in="b30" creator="-100" insign="<p>" outsign="<p>"/>
 <align out="a51" type="" in="b17" creator="-100" insign="Nerma" outsign="Nerma"/>
 <align out="a53" type="" in="b19" creator="-100" insign="tres" outsign="tre"/>
-<align out="a71" type="" in="b38" creator="-100" insign="</s>" outsign="</s>"/>
-<align out="a60" type="" in="b28" creator="-100" insign="</s>" outsign="</s>"/>
 <align out="a72" type="" in="b39" creator="-100" insign="<s>" outsign="<s>"/>
 <align out="a63" type="" in="b31" creator="-100" insign="<s>" outsign="<s>"/>
+<align out="a60" type="" in="b28" creator="-100" insign="</s>" outsign="</s>"/>
+<align out="a71" type="" in="b38" creator="-100" insign="</s>" outsign="</s>"/>
 </DTAGalign>
