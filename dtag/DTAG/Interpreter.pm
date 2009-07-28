@@ -399,13 +399,21 @@ my $query_grammar = q{
 								{ my $obj = FindEXIST->new($item[3], 
 									FindNOT->new($item[7])); $obj->{'neg'} = 1;
 									$obj }
+			| 'not' blanks expr	{ FindNOT->new($item[3]) }
 			| '!' blanks expr	{ FindNOT->new($item[3]) }
+			| sexpr blanks 'and' blanks expr
+								{ FindAND->new($item[1], $item[5]) }
 			| sexpr blanks ',' blanks expr
 								{ FindAND->new($item[1], $item[5]) }
 			| sexpr blanks '&' blanks expr	
 								{ FindAND->new($item[1], $item[5]) }
+			| sexpr blanks 'or' blanks expr
+								{ FindOR->new($item[1], $item[5]) }
 			| sexpr blanks '|' blanks expr
 								{ FindOR->new($item[1], $item[5]) }
+			| sexpr blanks '->' blanks expr	
+								{ FindOR->new(FindNOT->new($item[1]), 
+									$item[5])}
 			| sexpr blanks '=>' blanks expr	
 								{ FindOR->new(FindNOT->new($item[1]), 
 									$item[5])}

@@ -69,7 +69,7 @@ layout -estyles \
 		$newborn, $dying, $dead]
 
 # Calculating the placement of an edge (bottom=1 or top=0)
-layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out())
+layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out()) || (($G->node($e->in())->var('estyles') || "") =~ /bottom/)
 
 # Definition of different styles
 style title -label -fonttype bold
@@ -109,15 +109,15 @@ macro greek layout -graph -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold 
 macro greekall layout -pssetup "true (grk) /GreekTimesPlain /GreekTimesBold /GreekTimesItalic /GreekTimesBoldItalic createfontfamily setfontfamily setupfont"
 macro latin layout -graph -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
 macro latinall layout -pssetup "true (ptm) /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic createfontfamily setfontfamily setupfont"
-macro es cd ~/cdt/es
-macro it cd ~/cdt/cdt/it
-macro dait cd ~/cdt/da-it
-macro daes cd ~/cdt/da-es
+macro es cd /home/cdt/cdt/es
+macro it cd /home/cdt/cdt/it
+macro dait cd /home/cdt/cdt/da-it
+macro daes cd /home/cdt/cdt/da-es
 macro commit !~/cdt/tools/dtag-commit
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
-macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
-macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script ~/.script
+macro opentask !~/cdt/tools/dtag-opentask ;; script /home/cdt/.script 
+macro closetask save ;; !~/cdt/tools/dtag-closetask ;; script /home/cdt/.script
 macro setname !~/cdt/tools/dtag-setname
 macro tasks !~/cdt/tools/dtag-tasks
 macro manual !firefox file:///home/cdt/web/www.treebank.dk/index.html &
@@ -128,7 +128,7 @@ macro agreement !~/cdt/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff
 macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
 macro ddt !openoffice /home/cdt/web/www.treebank.dk/ddt-manual.odt &
 macro ddtpdf !acroread /home/cdt/web/www.treebank.dk/ddt-manual.pdf &
-macro corpusda corpus ~/cdt/da/*.tag
+macro corpusda corpus /home/cdt/cdt/da/*.tag
 macro cdt cd ~/cdt/{ARGS}
 macro discourse1 style discourse -label -color black -arc -color black -arclabel -color black ;; style default -label -color gray80 -arc -color gray80 -arclabel -color gray80
 macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -ps "/dAs 1 def 1 setlinewidth" -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -ps "5 setfontsize setupfont" -arc -color gray80 -ps "0.1 setlinewidth /dAs 0.5 def" -arclabel -ps "4 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
@@ -152,13 +152,16 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj tobj vobj
 
 # Adjunct relations replacing "mod" (Lotte's list)
-etypes -adj add agent att ben bg cause comp comp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond prec prg reas source space struct succ time
+etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond prec prg reas source space struct succ time
 
 # Other adjunct relations
 etypes -add -adj + appa appr attr attrd attrr conj coord correl fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
-etypes -add -adj about adjuncts class concom const discmark exem exp mod modo modp modr path relp relpa resem rest spec xpl
+etypes -add -adj about class const exem exp func mod modo modp modr path relp relpa resem rest spec xpl
+
+# Deleted by Lotte
+# etypes -add adjuncts concom discmark
 
 # Discourse relations 
 etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ REP INTACT:attn
