@@ -34,7 +34,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="bar" msd="NC" tag="NOM" in="-1:nobj" out="">bar</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|1:preds|10:pnct|18:&3a;ELAB&3a;exp|27:CONS">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|1:preds|10:pnct|18:;ELAB&3a;exp|27:CONS&3a;prg">è</W>
 <W lemma="buio" msd="AN" tag="ADJ" in="-1:preds" out="2:conj|4:conj">buio</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">lungo</W>
@@ -52,7 +52,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-2:attrr" out="1:nobj">in</W>
 <W lemma="abito" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">abiti</W>
 <W lemma="aderente" msd="AN" tag="ADJ" in="-1:attrr" out="">aderenti</W>
-<W lemma="circolare" msd="VADR" tag="VER&3a;pres" in="-18:&3a;ELAB&3a;exp" out="-7:subj|1:dir|8:pnct">circolano</W>
+<W lemma="circolare" msd="VADR" tag="VER&3a;pres" in="-18:;ELAB&3a;exp" out="-7:subj|1:dir|8:pnct">circolano</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">gli</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj|-14:coref-var" out="1:attrr">uomini</W>
@@ -61,7 +61,7 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="cravatta" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">cravatta</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-27:CONS" out="1:prg|2:dobj|6:pnct|9:ELAB&3a;exp">E'</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-27:CONS&3a;prg" out="1:prg|2:dobj|6:pnct|9:ELAB&3a;exp">E'</W>
 <W lemma="chiaramente" msd="RG" tag="ADV" in="-1:prg" out="">chiaramente</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="1:nobj|5:assoc-loc">un</W>
 <W lemma="locale" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">locale</W>
@@ -80,7 +80,7 @@
 <W lemma="coca" msd="NC" tag="NOM" in="1:nobj" out="">Coca</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:nobj" out="-1:nobj">Cola</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]|2:[subj]|-10:JOINT" out="1:vobj|30:pnct|35:+JOINT">Ho</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-10:JOINT|1:[subj]|2:[subj]" out="1:vobj|30:pnct|35:+JOINT">Ho</W>
 <W lemma="sentire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:vobj">sentito</W>
 <W lemma="dire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:dobj">dire</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="8:vobj|17:appa">che</W>
