@@ -10,6 +10,11 @@ da-es.alex:
 	 tools/giza2alex da es
 	 cp tmp/da-es.alex da-es/da-es.alex
 
+todo.da: 
+	ls it/*-auto.tag it/*-tagged.tag | sed -e 's/it-auto.tag//g' -e 's/it-tagged.tag//g' -e 's/it/da/g' \
+		| xargs -I FILE echo -e FILEda-disc.tag \
+		| ./tools/assign-tasks iorn+morten+lotte morten lotte morten lotte morten lotte 
+
 todo.it: 
 	ls it/*-auto.tag it/*-tagged.tag | sed -e 's/it-auto.tag//g' -e 's/it-tagged.tag//g' \
 		| xargs -I FILE echo -e da-FILEda-it-auto.atag FILEit-auto.tag \
