@@ -5299,6 +5299,7 @@ sub cmd_save {
 		$ftype = '-match' if ($fname =~ /\.match$/);
 		$ftype = '-conll' if ($fname =~ /\.conll$/);
 		$ftype = '-osdt' if ($fname =~ /\.osdt$/);
+		$ftype = '-table' if ($fname =~ /\.table$/);
 	}
 
 	# Save file
@@ -5318,6 +5319,8 @@ sub cmd_save {
 		$self->cmd_save_matches($fname);
 	} elsif ($ftype eq '-osdt') {
 		$self->cmd_save_osdt($graph, $fname);
+	} elsif ($ftype eq '-table') {
+		$self->cmd_save_table($graph, $fname);
 	}
 
 	# Return
@@ -5585,7 +5588,6 @@ sub cmd_save_conll {
 		} 
 		
 		if ($rightboundary <= $i) {
-		#if ($input =~ /^<\/s>/ || $rightboundary <= $i) {
 			$line = 0;
 			$boundaries->{$i} = 1;
 		}
@@ -5871,6 +5873,48 @@ sub cmd_save_osdt {
 
 	# Mark graph as being unmodified
 	$graph->mtime(undef);
+
+	# Return
+	return 1;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_save_table.pl
+## ------------------------------------------------------------
+
+sub cmd_save_table {
+	my $self = shift;
+	my $graph = shift;
+	my $file = shift || "";
+
+	# Update tag file name
+	$graph->file($file) if ($file);
+	$file = $graph->file();
+
+	# Check whether file name exists
+    if (! $file) {
+		error("cannot save: no name specified for file")
+			if ($graph->mtime());
+		return 1;
+	}
+					
+	# Create tables
+	Node->use_color(0);
+	my ($nodes, $edges) = $graph->print_tables();
+
+	# Open tag file
+	open(XML, "> $file.nodes") 
+		|| return error("cannot open table file for writing: $file.nodes");
+	print XML $nodes;
+	close(XML);
+	open(XML, "> $file.edges") 
+		|| return error("cannot open table file for writing: $file.edges");
+	print XML $edges;
+	close(XML);
+
+	print "saved table files $file.nodes and $file.tables\n" 
+		if (! $self->quiet());
 
 	# Return
 	return 1;

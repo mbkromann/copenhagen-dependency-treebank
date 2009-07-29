@@ -2111,6 +2111,70 @@ sub print_osdt {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/print_tables.pl
+## ------------------------------------------------------------
+
+sub print_tables {
+	my $self = shift;
+	my $nodecount = 0;
+	my $nodes2id = {};
+
+	# Find node features
+	my $vars = [sort(keys(%{$self->vars()}))];
+
+	# Write nodes line by line
+	my $sent = 0;
+	my $nodes = "\"" . join("\"\t\"", "node", "sentence", "token", 
+		(map {my $v = $_; $v =~ s/	/\&\#11;/g; 
+			$v =~ s/"/\&quot;/g; $v} @$vars)) . "\"\n";
+	for (my $n = 0; $n < $self->size(); ++$n) {
+		my $N = $self->node($n);
+		if (! $N->comment()) {
+			$nodes2id->{$n} = $nodecount++;
+			$nodes .= $nodes2id->{$n} . "\t" . $sent . "\t" . $N->input();
+			for (my $i = 0; $i <= $#$vars; ++$i) {
+				my $value = $N->var($vars->[$i]);
+				if (defined($value)) {
+					$value =~ s/	/\&\#11;/g;
+					$value =~ s/"/\&quot;/g;
+					$nodes .= "\t\"$value\"";
+				} else {
+					$nodes .= "\t";
+				}
+			}
+			$nodes .= "\n";
+		} elsif ($N->input() =~ /^\s*<[sS]>\s*$/) {
+			++$sent;
+		}
+	}
+
+	# Process edges
+	my $edges = "\"in\"\t\"out\"\t\"label\"\t\"primary\"\n";
+	for (my $i = 0; $i < $self->size(); ++$i) {
+		my $N = $self->node($i);
+		if (! $N->comment()) {
+			# Process in-edges at node
+			foreach my $e (@{$N->in()}) {
+				my $nin = $nodes2id->{$e->in()};
+				my $nout = $nodes2id->{$e->out()};
+				my $type = $e->type();
+				$type =~ s/	/\&\#11;/g;
+				$type =~ s/"/\&quot;/g;
+				$edges .= 
+					$nin . "\t" . $nout 
+						. "\t\"" . $type . "\""
+						. "\t" . ($self->is_dependent($e) ? "T" : "F")
+						. "\n";
+			}
+		}
+	}
+
+	# Return
+	return ($nodes, $edges);
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/print_tag.pl
 ## ------------------------------------------------------------
 
