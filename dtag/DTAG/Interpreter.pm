@@ -834,6 +834,7 @@ sub cmd_align {
 	my $to = shift;
 	my $creator = shift || 0;
 	my $node_check = defined($_[0]) ? shift : 1;
+	my $lineno = shift || -1;
 
 	# Find first two keys
 	my ($key1, $key2) = sort(keys(%{$alignment->{'graphs'}}));
@@ -848,6 +849,7 @@ sub cmd_align {
 	$edge->out($out);
 	$edge->type($type || "");
 	$edge->creator($creator);
+	$edge->var("lineno", $lineno);
 	
 	# Add edge to alignment, if $edge is legal
 	if (defined($inkey) && defined($outkey) && defined($out) && defined($in)) {
@@ -3011,6 +3013,7 @@ sub cmd_load_atag {
 	open("ATAG", "< $file") 
 		|| return error("cannot open atag-file for reading: $file");
 	$self->{'viewer'} = 0;
+	my $lineno = 0;
     while (my $line = <ATAG>) {
         chomp($line);
 
@@ -3040,7 +3043,7 @@ sub cmd_load_atag {
 			# Add graph to alignment
 			$alignment->add_graph($key, $graph);
 		} elsif ( $line =~
-				/^<align out="([^"]+)" type="([^"]*)" in="([^"]+)" creator="(-[0-9]+)".*\/>$/ 
+				/^<align out="([^"]+)" type="([^"]*)" in="([^"]+)" creator="([0-9-]+)".*\/>$/ 
 			|| $line =~
 				/^<align out="([^"]+)" type="([^"]*)" in="([^"]+)".*\/>$/ ) {
 			# Create alignment edge
@@ -3054,7 +3057,7 @@ sub cmd_load_atag {
 			$in =~ s/ /+/g;
 
 			# Create edge
-			$self->cmd_align($alignment, $out, $type, $in, $creator, 0);
+			$self->cmd_align($alignment, $out, $type, $in, $creator, 0, $lineno);
 		} elsif ($line =~ /^<compound node=\"([^"]+)">(.*)<\/compound>$/) {
 			$alignment->{'compounds'}{$1} = $2;
 		} elsif ($line =~ /<\/?DTAGalign>/) {
@@ -3062,6 +3065,7 @@ sub cmd_load_atag {
 		} else {
 			print "ignored: $line\n" if (! $self->quiet());
 		}
+		$lineno++;
 	}
 
 	# Close ATAG file
@@ -5885,24 +5889,64 @@ sub cmd_save_osdt {
 
 sub cmd_save_table {
 	my $self = shift;
-	my $graph = shift;
+	my $ograph = shift;
 	my $file = shift || "";
 
-	# Update tag file name
-	$graph->file($file) if ($file);
-	$file = $graph->file();
-
-	# Check whether file name exists
+	# Check whether table file name exists
     if (! $file) {
-		error("cannot save: no name specified for file")
-			if ($graph->mtime());
+		error("cannot save: no name specified for table file");
 		return 1;
 	}
-					
-	# Create tables
-	Node->use_color(0);
-	my ($nodes, $edges) = $graph->print_tables();
 
+	# Create list of graph files to put into the table
+	my @files = @_;
+	@files = (undef) 
+		if (! @files);
+
+	# Global attributes
+	my ($nodeattributes, $edgeattributes) = (["id"], ["in", "out"]);
+	push @$nodeattributes, "file", "line";
+	my $globalvars = {};
+
+	# Process files
+	my ($nodes, $edges, $nodecount) = ("", "", 1);
+	foreach my $gfile (@files) {
+		# Load graph for file
+		my $graph;
+		if (defined($gfile)) {
+			# Load file
+			$self->cmd_load($self->graph(), undef, $gfile);
+			$graph = $self->graph();
+			if (! defined($graph)) {
+				error("Could not find graph file " . $gfile);
+				next();
+			}
+		} else {
+			# Undefined name: use old graph
+			$graph = $ograph;
+		}
+
+		# Set file name
+		$globalvars->{"node:file"} = $graph->file();
+
+		# Create graph tables
+		my ($nacount, $eacount) = (scalar(@$nodeattributes), scalar(@$edgeattributes));
+		my ($gnodes, $gedges, $gnodecount) 
+			= $graph->print_tables($nodecount, $nodeattributes, $edgeattributes, $globalvars);
+
+		# Update tables
+        $nodes = DTAG::Alignment::add_na_columns($nodes, scalar(@$nodeattributes) - $nacount);
+		$edges = DTAG::Alignment::add_na_columns($edges, scalar(@$edgeattributes) - $eacount);
+		$nodes .= $gnodes;
+		$edges .= $gedges;
+		$nodecount = $gnodecount;
+		print $gfile . ": " . $nodecount . "\n";
+	}
+
+	# Add headers
+	$nodes = "\"" . join("\"\t\"", @$nodeattributes) . "\"\n" . $nodes;
+	$edges = "\"" . join("\"\t\"", @$edgeattributes) . "\"\n" . $edges;
+							 
 	# Open tag file
 	open(XML, "> $file.nodes") 
 		|| return error("cannot open table file for writing: $file.nodes");
@@ -5913,7 +5957,7 @@ sub cmd_save_table {
 	print XML $edges;
 	close(XML);
 
-	print "saved table files $file.nodes and $file.tables\n" 
+	print "saved table files $file.nodes and $file.edges\n" 
 		if (! $self->quiet());
 
 	# Return
@@ -7328,7 +7372,11 @@ sub do {
 
 		# Save: save [$file]
 		$success = $self->cmd_save($graph, $2, $3)
-			if ($cmd =~ /^\s*save\s*(\s+(-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll)\s+)?(\S*)\s*$/);
+			if ($cmd =~ /^\s*save\s*(\s+(-lex|-tag|-atag|-alex|-xml|-malt|-match|-conll|-table)\s+)?(\S*)\s*$/);
+
+		# Save: save -corpus $tablefile
+		$success = $self->cmd_save_table($graph, $1, @{$self->{'corpus'}})
+			if ($cmd =~ /^\s*save\s+-corpus\s*(\S+)\s*$/);
 
 		# Script: script [$file]
 		$success = $self->cmd_script($graph, $1)

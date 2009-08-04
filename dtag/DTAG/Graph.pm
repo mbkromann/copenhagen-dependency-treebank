@@ -2116,63 +2116,112 @@ sub print_osdt {
 
 sub print_tables {
 	my $self = shift;
-	my $nodecount = 0;
-	my $nodes2id = {};
+	my $nodecount = shift || 0;
+	my $nodeattributes = shift || [];
+	my $edgeattributes = shift || [];
+	my $globalvars = shift || {};
+	my $nodes2id = shift || {};
+	my $prefix = shift || "";
 
-	# Find node features
-	my $vars = [sort(keys(%{$self->vars()}))];
+	# Add node variables to node attribute list
+	add_attributes($nodeattributes, "id", "line", "sentence", "token", sort(keys(%{$self->vars()})));
+
+	# Add file name
+	$globalvars->{'node:file'} = $self->file()
+		if ($self->file());
 
 	# Write nodes line by line
 	my $sent = 0;
-	my $nodes = "\"" . join("\"\t\"", "node", "sentence", "token", 
-		(map {my $v = $_; $v =~ s/	/\&\#11;/g; 
-			$v =~ s/"/\&quot;/g; $v} @$vars)) . "\"\n";
+	my $nodes = "";
 	for (my $n = 0; $n < $self->size(); ++$n) {
 		my $N = $self->node($n);
 		if (! $N->comment()) {
-			$nodes2id->{$n} = $nodecount++;
-			$nodes .= $nodes2id->{$n} . "\t" . $sent . "\t" . $N->input();
-			for (my $i = 0; $i <= $#$vars; ++$i) {
-				my $value = $N->var($vars->[$i]);
-				if (defined($value)) {
-					$value =~ s/	/\&\#11;/g;
-					$value =~ s/"/\&quot;/g;
-					$nodes .= "\t\"$value\"";
-				} else {
-					$nodes .= "\t";
-				}
-			}
-			$nodes .= "\n";
+			# Compute node ids and attributes
+			$nodes2id->{$prefix . $n} = $nodecount++;
+			my $input = $N->input();
+			$globalvars->{'node:id'} = $nodes2id->{$prefix . $n};
+			$globalvars->{'node:line'} = $n;
+			$globalvars->{'node:sentence'} = $sent;
+			$globalvars->{'node:token'} = $input;
+
+			# Create node table row
+			$nodes .= create_R_table_row($nodeattributes, $N, $globalvars, 'node:');
 		} elsif ($N->input() =~ /^\s*<[sS]>\s*$/) {
 			++$sent;
 		}
 	}
 
-	# Process edges
-	my $edges = "\"in\"\t\"out\"\t\"label\"\t\"primary\"\n";
+	# Add edge variables to edge attribute list
+	add_attributes($edgeattributes, "in", "out", "label", "primary");
+
+	# Write edges line by line
+	my $edges = "";
 	for (my $i = 0; $i < $self->size(); ++$i) {
 		my $N = $self->node($i);
 		if (! $N->comment()) {
 			# Process in-edges at node
 			foreach my $e (@{$N->in()}) {
-				my $nin = $nodes2id->{$e->in()};
-				my $nout = $nodes2id->{$e->out()};
-				my $type = $e->type();
-				$type =~ s/	/\&\#11;/g;
-				$type =~ s/"/\&quot;/g;
-				$edges .= 
-					$nin . "\t" . $nout 
-						. "\t\"" . $type . "\""
-						. "\t" . ($self->is_dependent($e) ? "T" : "F")
-						. "\n";
+				# Find attributes
+				$globalvars->{'edge:in'} = $nodes2id->{$prefix . $e->in()};
+				$globalvars->{'edge:out'} = $nodes2id->{$prefix . $e->out()};
+				$globalvars->{'edge:label'} = $e->type();
+				$globalvars->{'edge:primary'} = $self->is_dependent($e) ? "TRUE" : "FALSE";
+				
+				# Create edge table row
+				$edges .= create_R_table_row($edgeattributes, $e, $globalvars, 'edge:')
+					if (defined($globalvars->{'edge:in'}) && defined($globalvars->{'edge:out'})); 
 			}
 		}
 	}
 
 	# Return
-	return ($nodes, $edges);
+	return ($nodes, $edges, $nodecount, $nodeattributes, $edgeattributes);
 }
 
+sub quote_R {
+	my $s = shift;
+
+	# Do not quote numbers of booleans
+	return $s
+		if ($s =~ /^-?[0-9]+[.,]?[0-9]*$/);
+	return "T" if ($s eq "TRUE");
+	return "F" if ($s eq "FALSE");
+
+	# Rewrite strings
+	$s =~ s/&quot;/"/g;
+	$s =~ s/	/\\0x0b/g;
+	$s =~ s/"/""/g;
+	return "\"" . $s . "\"";
+}
+
+sub add_attributes {
+	my $attrs = shift;
+	foreach my $attr (@_) {
+		push @$attrs, $attr
+			if (! grep {$_ eq $attr} @$attrs);
+	}
+}
+
+
+sub create_R_table_row {
+	my ($attributes, $vars, $globalvars, $type) = @_;
+	my $row = "";
+
+	# Create table row
+	my $sep = "";
+	foreach my $attr (@$attributes) {
+		my $value = $globalvars->{$type . $attr};
+		$value = $vars->var($attr) if (! defined($value) && 
+			(! exists $globalvars->{$type . $attr}) &&
+			defined($vars));
+		$row .= defined($value) 
+			? $sep . quote_R($value)
+			: $sep . "NA";
+		$sep = "\t";
+	}
+	$row .= "\n";
+	return $row;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/print_tag.pl
