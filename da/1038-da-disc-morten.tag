@@ -143,7 +143,7 @@
 </p>
 <p>
 <s>
-<W gloss="Cut" lemma="skære" msd="VAM-=------" tag="VB" in="-61:+ELAB&3a;spec" out="1:dobj|2:pobj|4:pnct|5:conj|15:pnct|19:CONJ&3a;seq|24:CONJ&3a;seq|57:CONJ&3a;seq|81:+CONJ&3a;seq">Skær</W>
+<W gloss="Cut" lemma="skære" msd="VAM-=------" tag="VB" in="-61:+ELAB&3a;spec" out="1:dobj|2:pobj|4:pnct|5:conj|15:pnct|19:CONJ&3a;seq">Skær</W>
 <W gloss="the_fish" lemma="fisk" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">fisken</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
 <W gloss="cubes" lemma="tern" msd="NC[CN]PU==I" tag="NNP" in="-1:nobj" out="">tern</W>
@@ -162,12 +162,12 @@
 </s>
 <s>
 <W gloss="The_cabbage" lemma="kål" msd="NCCSU==D" tag="NN" in="1:subj" out="">Kålen</W>
-<W gloss="is_cooked" lemma="koge" msd="VADR=----P-" tag="VBD" in="-19:CONJ&3a;seq" out="-1:subj|1:pred|2:pnct">koges</W>
+<W gloss="is_cooked" lemma="koge" msd="VADR=----P-" tag="VBD" in="-19:CONJ&3a;seq" out="-1:subj|1:pred|2:pnct|5:CONJ&3a;seq">koges</W>
 <W gloss="tender" lemma="mør" msd="ANPCSU=IU" tag="JJ" in="-1:pred" out="">mør</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="The_sauce" lemma="sauce" msd="NCCSU==D" tag="NN" in="-24:CONJ&3a;seq" out="1:pnct|2:list|28:pnct">Saucen</W>
+<W gloss="The_sauce" lemma="sauce" msd="NCCSU==D" tag="NN" in="-5:CONJ&3a;seq" out="1:pnct|2:list|28:pnct|33:CONJ&3a;seq">Saucen</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="Steam" lemma="dampe" msd="VAM-=------" tag="VB" in="-2:list" out="1:dobj|2:mod|4:pnct|5:conj|8:pnct|9:conj|12:pnct|13:conj|17:pnct|18:conj|22:pnct|23:conj">Damp</W>
 <W gloss="the_leek_rings" lemma="porrering" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">porreringene</W>
@@ -200,7 +200,7 @@
 </p>
 <p>
 <s>
-<W gloss="Serve" lemma="anrette" msd="VAM-=------" tag="VB" in="-57:CONJ&3a;seq" out="1:dobj|2:mod|7:pnct|8:conj|14:coord|18:pnct">Anret</W>
+<W gloss="Serve" lemma="anrette" msd="VAM-=------" tag="VB" in="-33:CONJ&3a;seq" out="1:dobj|2:mod|7:pnct|8:conj|14:coord|18:pnct|24:+CONJ&3a;seq">Anret</W>
 <W gloss="the_fish_cubes" lemma="fiskestykke" msd="NCNPU==D" tag="NNP" in="-1:dobj" out="">fiskestykkerne</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-2:mod" out="1:pobj">sammen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -224,7 +224,7 @@
 <p>
 <s>
 <W gloss="perhaps" lemma="eventuel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">Evt.</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-81:+CONJ&3a;seq" out="-1:mod|1:subj|2:vobj|7:pnct">kan</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-24:+CONJ&3a;seq" out="-1:mod|1:subj|2:vobj|7:pnct">kan</W>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="to_offer" lemma="servere" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:[subj]|3:dobj|4:pobj">serverer</W>
 <W gloss="baked_in_butter" lemma="smørbagt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:mod" out="">smørbagte</W>

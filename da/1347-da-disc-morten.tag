@@ -97,7 +97,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="force" lemma="kraft" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kraft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-55:ELAB&3a;exp/fx" out="-6:mod|1:subj|2:mod|3:vobj|22:pnct|26:CONS/(derfor)">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-55:ELAB&3a;exp/fx" out="-6:mod|1:subj|2:mod|3:vobj|22:pnct|26:CONS&3a;dir/(derfor)">vil</W>
 <W gloss="one" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|2:[subj]|3:[subj]" out="">man</W>
 <W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="-2:mod" out="">f.eks.</W>
 <W gloss="be_able_to" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:vobj|12:mod">kunne</W>
@@ -123,7 +123,7 @@
 </s>
 <s>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="means" lemma="betyde" msd="VADR=----A-" tag="VBD" in="-26:CONS/(derfor)" out="-1:subj|1:pnct|2:dobj|37:pnct|43:+CAUSE&3a;reas">betyder</W>
+<W gloss="means" lemma="betyde" msd="VADR=----A-" tag="VBD" in="-26:CONS&3a;dir/(derfor)" out="-1:subj|1:pnct|2:dobj|37:pnct|43:+CAUSE&3a;reas">betyder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="23:vobj">at</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="22:subj|23:[subj]" out="1:nobj|2:pnct|3:ref|5:rel">en</W>

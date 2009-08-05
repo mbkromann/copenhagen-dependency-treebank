@@ -113,7 +113,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="are" lemma="dreje" msd="VADR=----A-" tag="VBD" in="-6:ELAB&3a;exp" out="-1:subj|1:dobj|2:pobj|5:coord|15:pnct|27:CONS">drejer</W>
+<W gloss="are" lemma="dreje" msd="VADR=----A-" tag="VBD" in="-6:ELAB&3a;exp" out="-1:subj|1:dobj|2:pobj|5:coord|15:pnct|27:CONS&3a;dir">drejer</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">om</W>
 <W gloss="240" lemma="240" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">240</W>
@@ -140,7 +140,7 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:vobj|2:pnct">er</W>
 <W gloss="preserved" lemma="frede" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:vobj" out="-3:[subj]">fredede</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-27:CONS" out="-9:mod|1:subj|2:vobj|9:pnct">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-27:CONS&3a;dir" out="-9:mod|1:subj|2:vobj|9:pnct">vil</W>
 <W gloss="Amager" lemma="Amager" msd="NP--U==-" tag="NNP" in="-1:subj|1:[subj]" out="">Amager</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">have</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:mod">en</W>

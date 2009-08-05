@@ -44,8 +44,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W gloss="At" lemma="i" msd="SP" tag="IN" in="2:mod" out="1:nobj">I</W>
 <W gloss="the_moment" lemma="øjeblik" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">øjeblikket</W>
-<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|-3:pnct|1:subj|2:vobj|8:pnct|9:coord|18:pnct">må</W>
-<W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:subj|1:[subj]" out="22:CONTR&3a;dir/men/ATTR">folk</W>
+<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|-3:pnct|1:subj|2:vobj|8:pnct|9:coord|18:pnct|23:CONTR&3a;dir/men/ATTR">må</W>
+<W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:subj|1:[subj]" out="">folk</W>
 <W gloss="pay" lemma="betale" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:pobj">betale</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:dobj" out="">mig</W>
 <W gloss="out_of" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">af</W>
@@ -67,7 +67,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="8:qobj" out="7:pnct">Men</W>
 <W gloss="this_way" lemma="sådan" msd="RGU" tag="RP" in="4:pred" out="">sådan</W>
-<W gloss="need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="-22:CONTR&3a;dir/men/ATTR" out="1:subj|2:mod|3:vobj|4:pnct|19:+JUST/ATTR">behøver</W>
+<W gloss="need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="-23:CONTR&3a;dir/men/ATTR" out="1:subj|2:mod|3:vobj|4:pnct|19:+JUST/ATTR">behøver</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|2:[subj]" out="">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:pred|-2:[subj]">være</W>
@@ -160,7 +160,7 @@
 </s>
 <s>
 <W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:mod" out="">Desværre</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:CONC/(selvom)/ATTR" out="-1:mod|1:subj|2:mod|3:pred|4:pnct|11:coord|17:pnct|22:DESCR&3a;eval/ATTR">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:CONC/(selvom)/ATTR" out="-1:mod|1:subj|2:mod|3:pred|4:pnct|11:coord|17:pnct|22:CONTR&3a;prg/men/ATTR">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="4:ref|5:rel">det</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-2:mod" out="">jo</W>
 <W gloss="the_municipalities" lemma="kommune" msd="NCCPU==D" tag="NNP" in="-3:pred" out="">kommunerne</W>
@@ -180,9 +180,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="17:pnct">Men</W>
+<W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="17:pnct">Men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-22:DESCR&3a;eval/ATTR" out="-1:subj|2:pred|3:pnct|4:mod">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-22:CONTR&3a;prg/men/ATTR" out="-1:subj|2:pred|3:pnct|4:mod|-2:coord">er</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
 <W gloss="short-sighted" lemma="kortsigtet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:pred" out="-1:mod">kortsigtet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

@@ -158,7 +158,7 @@
 <W gloss="film_companies" lemma="filmselskab" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="1:coord">filmselskaber</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="movie_theatres" lemma="biograf" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">biografer</W>
-<W gloss="provides" lemma="sørge" msd="VADR=----A-" tag="VBD" in="-20:ELAB&3a;exp" out="-5:subj|1:pobj|16:pnct|17:coord|28:pnct|42:CONS/altså">sørger</W>
+<W gloss="provides" lemma="sørge" msd="VADR=----A-" tag="VBD" in="-20:ELAB&3a;exp" out="-5:subj|1:pobj|16:pnct|17:coord|28:pnct|42:CONS&3a;dir/altså">sørger</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="introduce" lemma="præsentere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:pobj">præsentere</W>
@@ -200,7 +200,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="film_review" lemma="film-anmeldelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">film-anmeldelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="is_due_to" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="-42:CONS/altså" out="-11:mod|1:subj|2:mod|3:mod|4:dobj|5:pnct|6:mod|19:pnct">skyldes</W>
+<W gloss="is_due_to" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="-42:CONS&3a;dir/altså" out="-11:mod|1:subj|2:mod|3:mod|4:dobj|5:pnct|6:mod|19:pnct">skyldes</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-2:mod" out="">altså</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:mod" out="">ikke</W>

@@ -99,7 +99,7 @@
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:numa" out="1:mod">et</W>
 <W gloss="half" lemma="halv" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">halvt</W>
 <W gloss="years" lemma="år" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">år</W>
-<W gloss="will_have_to" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-35:+TIME&3a;succ/om" out="-5:mod|1:subj|6:vobj|9:pnct|10:mod|15:pnct|20:CONS/dermed">må</W>
+<W gloss="will_have_to" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-35:+TIME&3a;succ/om" out="-5:mod|1:subj|6:vobj|9:pnct|10:mod|15:pnct|20:CONS&3a;prg/dermed">må</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj|5:[subj]" out="1:mod|2:nobj">en</W>
 <W gloss="significant" lemma="betydelig" msd="ANPCSU=IU" tag="JJ" in="-1:mod" out="">betydelig</W>
 <W gloss="portion" lemma="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
@@ -117,9 +117,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|14:pnct">Og</W>
+<W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="14:pnct">Og</W>
 <W gloss="thus" lemma="dermed" msd="RGU" tag="RP" in="1:mod" out="">dermed</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj|-20:CONS/dermed" out="-1:mod|1:subj|8:pred|26:+CONS/(derfor)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:CONS&3a;prg/dermed" out="-1:mod|1:subj|8:pred|-2:coord|26:+CONS&3a;dir/(derfor)">er</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:mod|2:nobj">en</W>
 <W gloss="exciting" lemma="spændende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:mod" out="">spændende</W>
 <W gloss="story" lemma="historie" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">historie</W>
@@ -145,7 +145,7 @@
 <s>
 <W gloss="The_DSB's" lemma="DSB" msd="NP--G==-" tag="NNP" in="2:subj" out="1:possd">DSBs</W>
 <W gloss="ship_division" lemma="rederi-division" msd="NCCSU==I" tag="NN" in="-1:possd" out="">rederi-division</W>
-<W gloss="the_leader" lemma="lede" msd="VADR=----A-" tag="VBD" in="-26:+CONS/(derfor)" out="-2:subj|-7:+PREPAR|1:pobj|4:mod|10:pnct|11:mod|24:pnct">leder</W>
+<W gloss="the_leader" lemma="lede" msd="VADR=----A-" tag="VBD" in="-26:+CONS&3a;dir/(derfor)" out="-2:subj|-7:+PREPAR|1:pobj|4:mod|10:pnct|11:mod|24:pnct">leder</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">efter</W>
 <W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">nye</W>
 <W gloss="markets" lemma="marked" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:mod">markeder</W>
