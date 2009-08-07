@@ -131,7 +131,6 @@
 <align out="a183" type="s" in="b133" creator="0" insign="nella" outsign="venteliste"/>
 <align out="a183" type="" in="b134 b135 b136" creator="0" insign="lista d' attesa" outsign="venteliste"/>
 <align out="a182" type="s" in="b137" creator="0" insign="del" outsign="boligministeriets"/>
-<align out="a179 a180 a184" type="" in="b132 b146" creator="0" insign="è da" outsign="har været i"/>
 <align out="a171" type="" in="b126" creator="-1" insign="succeda" outsign="ske"/>
 <align out="a172" type="" in="b127" creator="-1" insign="qualcosa" outsign="noget"/>
 <align out="a173" type="" in="b128" creator="-1" insign="." outsign="."/>
@@ -181,7 +180,6 @@
 <align out="a236" type="" in="b198" creator="0" insign="delle" outsign="over"/>
 <align out="a237" type="s" in="b198" creator="0" insign="delle" outsign="andelsboligerne"/>
 <align out="a237" type="" in="b199 b200 b201" creator="0" insign="abitazioni in cooperativa" outsign="andelsboligerne"/>
-<align out="a240 a241" type="fn" in="b204" creator="0" insign="statuto" outsign="række vedtægter"/>
 <align out="a243" type="s" in="b206" creator="0" insign="la" outsign="bofællesskabet"/>
 <align out="a243" type="" in="b207 b208" creator="0" insign="comunità residenziale" outsign="bofællesskabet"/>
 <align out="a234 a235" type="f" in="b196 b197" creator="0" insign="progetto iniziale" outsign="grov skitse"/>
@@ -193,4 +191,8 @@
 <align out="a57" type="n" in="b17" creator="0" insign="nuovi" outsign="nye"/>
 <align out="a58" type="n" in="b18 b19 b20" creator="0" insign="appartamenti in cooperativa" outsign="andelsbolig"/>
 <align out="a110" type="s" in="b60" creator="0" insign="una" outsign="del"/>
+<align out="a179 a180" type="" in="b132" creator="0" insign="è" outsign="har været"/>
+<align out="a184" type="" in="b146" creator="0" insign="da" outsign="i"/>
+<align out="a240" type="" in="a240" creator="0" insign="række" outsign="række"/>
+<align out="a241" type="n" in="b204" creator="0" insign="statuto" outsign="vedtægter"/>
 </DTAGalign>

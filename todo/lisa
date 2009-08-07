@@ -106,69 +106,6 @@
 [*] da-it/1497-da-it-lisa.atag
 
 
-[ ] da-it/0244-da-it-lisa.atag
-[ ] it/0244-it-lisa.tag
-[ ] da-it/0431-da-it-lisa.atag
-[ ] it/0431-it-lisa.tag
-[ ] da-it/0593-da-it-lisa.atag
-[ ] it/0593-it-lisa.tag
-[ ] da-it/0781-da-it-lisa.atag
-[ ] it/0781-it-lisa.tag
-[ ] da-it/1014-da-it-lisa.atag
-[ ] it/1014-it-lisa.tag
-[ ] da-it/1035-da-it-lisa.atag
-[ ] it/1035-it-lisa.tag
-[ ] da-it/1390-da-it-lisa.atag
-[ ] it/1390-it-lisa.tag
-
-[ ] da-it/0152-da-it-lisa.atag
-[ ] da-it/0212-da-it-lisa.atag
-[ ] da-it/0235-da-it-lisa.atag
-[ ] da-it/0260-da-it-lisa.atag
-[ ] da-it/0339-da-it-lisa.atag
-[ ] it/0339-it-lisa.tag
-[ ] it/0351-it-lisa.tag
-[ ] it/0376-it-lisa.tag
-[ ] it/0426-it-lisa.tag
-[ ] it/0428-it-lisa.tag
-[ ] da-it/0596-da-it-lisa.atag
-[ ] da-it/0607-da-it-lisa.atag
-[ ] da-it/0643-da-it-lisa.atag
-[ ] da-it/0647-da-it-lisa.atag
-[ ] da-it/0685-da-it-lisa.atag
-[ ] it/0685-it-lisa.tag
-[ ] it/0705-it-lisa.tag
-[ ] it/0729-it-lisa.tag
-[ ] it/0780-it-lisa.tag
-[ ] it/0783-it-lisa.tag
-[ ] da-it/0800-da-it-lisa.atag
-[ ] da-it/0805-da-it-lisa.atag
-[ ] da-it/0848-da-it-lisa.atag
-[ ] da-it/0866-da-it-lisa.atag
-[ ] da-it/0876-da-it-lisa.atag
-[ ] it/0876-it-lisa.tag
-[ ] it/0881-it-lisa.tag
-[ ] it/0915-it-lisa.tag
-[ ] it/0939-it-lisa.tag
-[ ] it/0960-it-lisa.tag
-[ ] da-it/0998-da-it-lisa.atag
-[ ] da-it/1043-da-it-lisa.atag
-[ ] da-it/1054-da-it-lisa.atag
-[ ] da-it/1057-da-it-lisa.atag
-[ ] da-it/1077-da-it-lisa.atag
-[ ] it/1077-it-lisa.tag
-[ ] it/1090-it-lisa.tag
-[ ] it/1127-it-lisa.tag
-[ ] it/1144-it-lisa.tag
-[ ] it/1227-it-lisa.tag
-[ ] da-it/1250-da-it-lisa.atag
-[ ] da-it/1337-da-it-lisa.atag
-[ ] da-it/1398-da-it-lisa.atag
-[ ] da-it/1420-da-it-lisa.atag
-[ ] da-it/1497-da-it-lisa.atag
-[ ] it/1497-it-lisa.tag
-[ ] it/1536-it-lisa.tag
-
 # New tasks replacing wrongly assigned tasks
 [ ] da-it/0152-da-it-lisa.atag
 [ ] it/0152-it-lisa.tag
@@ -216,20 +153,6 @@
 [ ] it/1398-it-lisa.tag
 [ ] da-it/1497-da-it-lisa.atag
 [ ] it/1497-it-lisa.tag
-
-# Tasks that should be revised because of revised translation
-
-[ ] da-it/0339-da-it-lisa.atag
-[ ] it/0339-it-lisa.tag
-[ ] da-it/0800-da-it-lisa.atag
-[ ] it/0800-it-lisa.tag
-[ ] da-it/0915-da-it-lisa.atag
-[ ] da-it/0960-da-it-lisa.atag
-[ ] da-it/0998-da-it-lisa.atag
-[ ] it/0998-it-lisa.tag
-[ ] da-it/1077-da-it-lisa.atag
-[ ] da-it/1497-da-it-lisa.atag
-
 
 
 # Assign-tasks added new files on Fri Apr 24 10:55:54 CEST 2009
@@ -612,3 +535,53 @@
 [ ] it/1545-it-lisa.tag
 [ ] da-it/1547-da-it-lisa.atag
 [ ] it/1547-it-lisa.tag
+
+
+# Tasks that are possibly assigned incorrectly -- please contact Matthias
+[ ] da-it/0152-da-it-lisa.atag
+[ ] da-it/0212-da-it-lisa.atag
+[ ] da-it/0235-da-it-lisa.atag
+[ ] da-it/0260-da-it-lisa.atag
+[ ] da-it/0339-da-it-lisa.atag
+[ ] it/0339-it-lisa.tag
+[ ] it/0351-it-lisa.tag
+[ ] it/0376-it-lisa.tag
+[ ] it/0426-it-lisa.tag
+[ ] it/0428-it-lisa.tag
+[ ] da-it/0596-da-it-lisa.atag
+[ ] da-it/0607-da-it-lisa.atag
+[ ] da-it/0643-da-it-lisa.atag
+[ ] da-it/0647-da-it-lisa.atag
+[ ] da-it/0685-da-it-lisa.atag
+[ ] it/0685-it-lisa.tag
+[ ] it/0705-it-lisa.tag
+[ ] it/0729-it-lisa.tag
+[ ] it/0780-it-lisa.tag
+[ ] it/0783-it-lisa.tag
+[ ] da-it/0800-da-it-lisa.atag
+[ ] da-it/0805-da-it-lisa.atag
+[ ] da-it/0848-da-it-lisa.atag
+[ ] da-it/0866-da-it-lisa.atag
+[ ] da-it/0876-da-it-lisa.atag
+[ ] it/0876-it-lisa.tag
+[ ] it/0881-it-lisa.tag
+[ ] it/0915-it-lisa.tag
+[ ] it/0939-it-lisa.tag
+[ ] it/0960-it-lisa.tag
+[ ] da-it/0998-da-it-lisa.atag
+[ ] da-it/1043-da-it-lisa.atag
+[ ] da-it/1054-da-it-lisa.atag
+[ ] da-it/1057-da-it-lisa.atag
+[ ] da-it/1077-da-it-lisa.atag
+[ ] it/1077-it-lisa.tag
+[ ] it/1090-it-lisa.tag
+[ ] it/1127-it-lisa.tag
+[ ] it/1144-it-lisa.tag
+[ ] it/1227-it-lisa.tag
+[ ] da-it/1250-da-it-lisa.atag
+[ ] da-it/1337-da-it-lisa.atag
+[ ] da-it/1398-da-it-lisa.atag
+[ ] da-it/1420-da-it-lisa.atag
+[ ] da-it/1497-da-it-lisa.atag
+[ ] it/1497-it-lisa.tag
+[ ] it/1536-it-lisa.tag

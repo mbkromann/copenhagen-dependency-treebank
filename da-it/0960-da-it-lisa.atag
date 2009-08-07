@@ -42,7 +42,6 @@
 <align out="a127" type="" in="b88" creator="-1" insign="un" outsign="et"/>
 <align out="a140" type="s" in="b103" creator="0" insign="la" outsign="hånden"/>
 <align out="a140" type="" in="b104" creator="0" insign="mano" outsign="hånden"/>
-<align out="a141 a142 a143" type="f" in="b109 b110" creator="0" insign="è incerta" outsign="ryster en kende"/>
 <align out="a148" type="" in="b117" creator="0" insign="e" outsign="og"/>
 <align out="b101" type="" in="b101" creator="0" insign="ecco" outsign="ecco"/>
 <align out="b102" type="" in="b102" creator="0" insign="che" outsign="che"/>
@@ -144,11 +143,9 @@
 <align out="a71" type="" in="b31" creator="-1" insign="," outsign=","/>
 <align out="a67" type="" in="b27" creator="-1" insign="è" outsign="er"/>
 <align out="a91 a92 a93 a94 a95" type="f" in="b51 b52 b53" creator="0" insign="nel momento decisionale" outsign="når dette kryds skal sættes"/>
-<align out="a103 a104 a105" type="f" in="b56 b57" creator="0" insign="nel caso" outsign="i forbindelse med"/>
 <align out="a98 a99" type="f" in="b55" creator="0" insign="come" outsign="ikke mindst"/>
 <align out="a68" type="" in="b28" creator="0" insign="l'" outsign="det"/>
 <align out="a66" type="" in="b26" creator="0" insign="Questo" outsign="Sådan"/>
-<align out="a79 a80" type="" in="b38 b39 b40" creator="0" insign="la maggior parte" outsign="de fleste"/>
 <align out="a115" type="s" in="b75" creator="0" insign="del" outsign="Maastricht-aftalerne"/>
 <align out="a115" type="n" in="b76 b77 b78" creator="0" insign="trattato di Maastricht" outsign="Maastricht-aftalerne"/>
 <align out="a110" type="" in="b65 b66" creator="0" insign="In effetti" outsign="For"/>
@@ -167,8 +164,6 @@
 <align out="a144" type="" in="b111" creator="0" insign="," outsign=","/>
 <align out="a151" type="ds" in="b121" creator="0" insign="un" outsign="den"/>
 <align out="a152" type="" in="b123" creator="0" insign="storico" outsign="historiske"/>
-<align out="a153" type="n" in="b122" creator="0" insign="evento" outsign="udvikling"/>
-<align out="a154 a155 a156 a157" type="" in="b125 b126 b127" creator="0" insign="viene ridotta ad" outsign="er kogt ned til"/>
 <align out="a201" type="f" in="b183" creator="0" insign="invece" outsign="alligevel"/>
 <align out="a150" type="" in="b120" creator="-1" insign="di" outsign="for"/>
 <align out="a199" type="f" in="b179" creator="0" insign="Se" outsign="Når"/>
@@ -183,4 +178,12 @@
 <align out="a218" type="" in="a218" creator="0" insign="," outsign=","/>
 <align out="a216" type="f" in="b196" creator="-1" insign="," outsign="og"/>
 <align out="a213 a214" type="" in="b193" creator="-1" insign="sono" outsign="det er"/>
+<align out="a79 a80" type="n" in="b38 b39 b40" creator="0" insign="la maggior parte" outsign="de fleste"/>
+<align out="a103 a104 a105" type="f" in="b56 b57 b58" creator="0" insign="nel caso del" outsign="i forbindelse med"/>
+<align out="a141" type="" in="b109 b110" creator="0" insign="è incerta" outsign="ryster"/>
+<align out="a142" type="" in="a142" creator="0" insign="en" outsign="en"/>
+<align out="a143" type="" in="a143" creator="0" insign="kende" outsign="kende"/>
+<align out="a153" type="f" in="b122" creator="0" insign="evento" outsign="udvikling"/>
+<align out="a154 a155 a156" type="" in="b125 b126" creator="0" insign="viene ridotta" outsign="er kogt ned"/>
+<align out="a157" type="" in="b127" creator="0" insign="ad" outsign="til"/>
 </DTAGalign>

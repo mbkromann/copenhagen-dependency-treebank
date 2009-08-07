@@ -176,9 +176,14 @@
 <align out="a234" type="" in="b164" creator="-1" insign="fragole" outsign="jordbær"/>
 <align out="a232" type="" in="b166" creator="-1" insign="o" outsign="eller"/>
 <align out="a250" type="f" in="b177" creator="0" insign="Agnello" outsign="lammebov"/>
-<align out="a96 a98 a101 a102 a103 a104 a105" type="f+mvg" in="b57" creator="0" insign="unendovi" outsign="pisk i indtil alt er godt blandet"/>
 <align out="a127" type="" in="b77" creator="0" insign="all'" outsign="i"/>
 <align out="a192" type="ds" in="b133" creator="0" insign="dell'" outsign="fedtstof"/>
 <align out="a192" type="lv" in="b134 b135 b136" creator="0" insign="olio o burro-" outsign="fedtstof"/>
 <align out="a223" type="" in="b161" creator="0" insign="," outsign=","/>
+<align out="a96 a98" type="" in="b57" creator="0" insign="unendovi" outsign="pisk i"/>
+<align out="a101" type="" in="a101" creator="0" insign="indtil" outsign="indtil"/>
+<align out="a102" type="" in="a102" creator="0" insign="alt" outsign="alt"/>
+<align out="a103" type="" in="a103" creator="0" insign="er" outsign="er"/>
+<align out="a104" type="" in="a104" creator="0" insign="godt" outsign="godt"/>
+<align out="a105" type="" in="a105" creator="0" insign="blandet" outsign="blandet"/>
 </DTAGalign>
