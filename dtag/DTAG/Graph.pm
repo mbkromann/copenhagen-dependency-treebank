@@ -2137,7 +2137,7 @@ sub print_tables {
 		my $N = $self->node($n);
 		if (! $N->comment()) {
 			# Compute node ids and attributes
-			$nodes2id->{$prefix . $n} = $nodecount++;
+			$nodes2id->{$prefix . $n} = $prefix . $nodecount++;
 			my $input = $N->input();
 			$globalvars->{'node:id'} = $nodes2id->{$prefix . $n};
 			$globalvars->{'node:line'} = $n;

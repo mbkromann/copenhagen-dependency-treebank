@@ -44,6 +44,7 @@ layout -nstyles ["default", \
 	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$n->in()}) > 1 \
 		?  "manygoverror" : ""),\
 	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
+	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->var('styles') || ""), \
 	split('\|', $n->var('styles') || ""), \
 	($l eq "sdeps" ? "redlbl" : "")]
 
@@ -101,6 +102,8 @@ style edgeconflict -arclabel -color red -fonttype bold
 #style default -label -color gray -arc -color yellow -arclabel -color cyan
 style default -label -color black -arc -color black -arclabel -color black
 style discourse -arc -color darkgreen -arclabel -color darkgreen
+style small -label -ps "7 setfontsize setupfont"
+style tiny -label -ps "5 setfontsize setupfont"
 
 # Macros for greek and latin text
 #macro russian layout -graph -pssetup "true (rus) /Cyrillic /Cyrillic /Cyrillic-Ital /Cyrillic-Ital createfontfamily setfontfamily setupfont"
@@ -168,6 +171,9 @@ etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CO
 
 # Anaphoric relations
 etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+
+# Morphological relations
+etypes -add -adj origin interfix PRED:agent dobj.patient
 
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]

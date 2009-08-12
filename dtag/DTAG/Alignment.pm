@@ -1677,6 +1677,7 @@ sub print_tables {
 	# Convert dependency graphs in alignment
 	my ($nodes, $edges) = ("", "");
 	my @keys = sort(keys(%{$self->graphs()}));
+	my $keysstring = $prefix . join("", @keys);
 	foreach my $key (sort(keys(%{$self->graphs()}))) {
 		# Count node and edge attributes
 		my $nacount = scalar(@$nodeattributes);
@@ -1690,7 +1691,7 @@ sub print_tables {
 		# Compute dependency graph tables
 		my ($gnodes, $gedges, $gnodecount) = $graph->print_tables($nodecount, 
 			$nodeattributes, $edgeattributes, $globalvars, $nodes2id,
-			$prefix . ".$key");
+			$prefix . "$key");
 
 		# Update tables
 		$nodes = add_na_columns($nodes, scalar(@$nodeattributes) - $nacount);
@@ -1710,14 +1711,14 @@ sub print_tables {
 	foreach my $aedge (@{$self->edges()}) {
 		# Decompose alignment edge
 		my ($inkey, $outkey) = ($aedge->inkey(), $aedge->outkey());
-		my ($inprefix, $outprefix) = ($prefix . "." . $inkey, $prefix . "." . $outkey);
+		my ($inprefix, $outprefix) = ($prefix . $inkey, $prefix . $outkey);
 		my ($ingraph, $outgraph) = ($self->graph($inkey), $self->graph($outkey));
 		my $innodes = $aedge->inArray();
 		my $outnodes = $aedge->outArray();
 
 		# Set variable values
 		$globalvars->{'node:key'} = "$outkey->$inkey";
-		$globalvars->{'node:id'} = $nodecount;
+		$globalvars->{'node:id'} = $keysstring . $nodecount;
 		$globalvars->{'node:line'} = $aedge->var("lineno");
 		$globalvars->{'node:sentence'} = undef;
 		$globalvars->{'node:token'} = undef;
