@@ -1754,6 +1754,19 @@ sub cmd_del {
 		#$self->cmd_edel($graph, $nodeinr);
 	}
 
+	# Delete range if relevant
+	if ($nodeinr =~ /^([+-]?[0-9]+)\.\.([+-]?[0-9]+)/) {
+		my $first = $1;
+		my $last = $2;
+		if ($first < $last) {
+			for (my $i = $last; $i >= $first; --$i) {
+				$self->cmd_del($graph, $i);
+			}
+		}
+		return 1;
+	}
+
+
 	# Apply offset
 	my $nodein = defined($nodeinr) ? $nodeinr + $graph->offset() : undef;
 	my $nodeout = defined($nodeoutr) ? $nodeoutr + $graph->offset() : undef;
@@ -7125,14 +7138,15 @@ sub do {
 		$success = $self->cmd_corpus($1) 
 			if ($cmd =~ /^\s*corpus(\s+.*)?$/);
 
-		# Delete node/edge/alignment edge: del $node [$etype $node]
+		# Delete node/edge/alignment edge: del $node[-$node] [$etype $node]
 		#	"del 12"
 		#	"del 12 land 13"
 		# 	"del a12"
-		$success = $self->cmd_del($graph, $1, $2, $3) 
+		#	"del 12..27"
+		$success = $self->cmd_del($graph, $1, $3, $4) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
-				$cmd =~ /^\s*del\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
-				$cmd =~ /^\s*del\s+([+-]?[0-9]+)\s*$/));
+				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+))\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
+				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+))\s*$/));
 		$success = $self->cmd_del_align($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
 				$cmd =~ /^\s*del\s+([a-z]-?[0-9]+)\s*$/);
