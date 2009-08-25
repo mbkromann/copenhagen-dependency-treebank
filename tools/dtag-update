@@ -21,6 +21,18 @@ if [ -z "$name" ] ; then
 	exit 1
 fi
 
+# Copy latest dtagrc file if it exists
+dtagrc=~/.dtagrc
+ndtagrc=~/cdt/install/dtagrc/$name
+if [ -f $ndtagrc ] ; then
+	if ! diff -q $ndtagrc $dtagrc >/dev/null ; then 
+		echo Copied $ndtagrc to $dtagrc
+		cp $ndtagrc $dtagrc
+	fi
+else
+	echo "Did not find any dtagrc file $ndtagrc"
+fi
+
 # Add new tasks to user's task list
 if ! cd ~/cdt/todo ; then
 	echo "Cannot find cdt/todo directory. Please contact Matthias."

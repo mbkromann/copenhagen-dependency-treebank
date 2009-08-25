@@ -1,0 +1,4 @@
+cdt da-it
+alignment ../da/0001-da.tag ../it/0001-it-auto.tag
+autoalign da-it-small.alex
+close -all
