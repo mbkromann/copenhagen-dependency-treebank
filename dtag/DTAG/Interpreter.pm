@@ -5019,10 +5019,10 @@ sub cmd_print {
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
 		my $cmd = $iconv . " $tmpfile > $tmpfile2";
-		system("cp $tmpfile $tmpfile2");
-		system($cmd);
-		system("rm $tmpfile");
-		system("mv $tmpfile2 $file");
+		mysystem("cp $tmpfile $tmpfile2");
+		mysystem($cmd);
+		mysystem("rm $tmpfile");
+		mysystem("mv $tmpfile2 $file");
 		print "printed $file\n";
 	}
 
@@ -5030,6 +5030,11 @@ sub cmd_print {
 	return 1;
 }
 
+sub mysystem {
+	my $cmd = shift;
+	system($cmd);
+	print $cmd, " (error: $!)\n";
+}
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_pstep.pl
 ## ------------------------------------------------------------
