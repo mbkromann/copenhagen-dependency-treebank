@@ -1,0 +1,2441 @@
+<DTAGalex lang1="" lang2="">
+<alex pos="1432" neg="0" out="," type="" in=","/>
+<alex pos="840" neg="0" out="." type="" in="."/>
+<alex pos="276" neg="0" out="&quot;" type="" in="&quot;"/>
+<alex pos="253" neg="0" out="og" type="" in="e"/>
+<alex pos="145" neg="0" out="di" type="" in="di"/>
+<alex pos="131" neg="0" out="ikke" type="" in="non"/>
+<alex pos="102" neg="0" out="at" type="" in="che"/>
+<alex pos="99" neg="0" out="en" type="" in="un"/>
+<alex pos="94" neg="0" out="i" type="" in="in"/>
+<alex pos="84" neg="0" out="er" type="" in="è"/>
+<alex pos="70" neg="0" out="en" type="" in="una"/>
+<alex pos="67" neg="0" out="at" type="" in="at"/>
+<alex pos="66" neg="0" out="che" type="" in="che"/>
+<alex pos="63" neg="0" out="i" type="" in="i"/>
+<alex pos="61" neg="0" out="e" type="" in="e"/>
+<alex pos="60" neg="0" out="i" type="" in="nel"/>
+<alex pos="59" neg="0" out="for" type="" in="per"/>
+<alex pos="53" neg="0" out="med" type="" in="con"/>
+<alex pos="51" neg="0" out="et" type="" in="un"/>
+<alex pos="50" neg="0" out="der" type="" in="che"/>
+<alex pos="48" neg="0" out="og" type="" in="og"/>
+<alex pos="44" neg="0" out=":" type="" in=":"/>
+<alex pos="44" neg="0" out="og" type="" in="ed"/>
+<alex pos="43" neg="0" out=" - " type="" in=" - "/>
+<alex pos="42" neg="0" out="af" type="" in="af"/>
+<alex pos="40" neg="0" out=" - " type="" in="&quot;"/>
+<alex pos="40" neg="0" out="?" type="" in="?"/>
+<alex pos="39" neg="0" out="." type="f" in=","/>
+<alex pos="39" neg="0" out="år" type="" in="anni"/>
+<alex pos="38" neg="0" out="men" type="" in="ma"/>
+<alex pos="37" neg="0" out="man" type="" in="si"/>
+<alex pos="37" neg="0" out="af" type="" in="di"/>
+<alex pos="35" neg="0" out="to" type="" in="due"/>
+<alex pos="35" neg="0" out="i" type="" in="a"/>
+<alex pos="34" neg="0" out=" - " type="" in=","/>
+<alex pos="33" neg="0" out="er" type="" in="sono"/>
+<alex pos="32" neg="0" out="har" type="" in="ha"/>
+<alex pos="30" neg="0" out="det" type="" in="det"/>
+<alex pos="29" neg="0" out="." type="f" in=";"/>
+<alex pos="29" neg="0" out="på" type="" in="di"/>
+<alex pos="29" neg="0" out="eller" type="" in="o"/>
+<alex pos="28" neg="0" out="in" type="" in="in"/>
+<alex pos="28" neg="0" out="der" type="" in="der"/>
+<alex pos="28" neg="0" out="at" type="" in="di"/>
+<alex pos="27" neg="0" out="la" type="" in="la"/>
+<alex pos="27" neg="0" out="i" type="" in="di"/>
+<alex pos="27" neg="0" out="et" type="" in="una"/>
+<alex pos="26" neg="0" out="er" type="" in="er"/>
+<alex pos="25" neg="0" out="på" type="" in="på"/>
+<alex pos="23" neg="0" out="som" type="" in="come"/>
+<alex pos="23" neg="0" out="om" type="" in="om"/>
+<alex pos="22" neg="0" out="til" type="" in="per"/>
+<alex pos="22" neg="0" out="per" type="" in="per"/>
+<alex pos="22" neg="0" out="på" type="" in="in"/>
+<alex pos="22" neg="0" out="a" type="" in="a"/>
+<alex pos="21" neg="0" out="il" type="" in="il"/>
+<alex pos="21" neg="0" out="har" type="" in="hanno"/>
+<alex pos="21" neg="0" out="en" type="" in="en"/>
+<alex pos="21" neg="0" out="af" type="" in="dei"/>
+<alex pos="20" neg="0" out="una" type="" in="una"/>
+<alex pos="20" neg="0" out=" - " type="" in="-"/>
+<alex pos="20" neg="0" out="til" type="" in="til"/>
+<alex pos="20" neg="0" out="de" type="" in="i"/>
+<alex pos="20" neg="0" out="den" type="" in="il"/>
+<alex pos="19" neg="0" out="da" type="" in="da"/>
+<alex pos="18" neg="0" out="som" type="" in="som"/>
+<alex pos="18" neg="0" out="den" type="" in="den"/>
+<alex pos="18" neg="0" out="af" type="" in="della"/>
+<alex pos="17" neg="0" out=")" type="" in=")"/>
+<alex pos="17" neg="0" out="(" type="" in="("/>
+<alex pos="17" neg="0" out="si" type="" in="si"/>
+<alex pos="17" neg="0" out="Og" type="" in="E"/>
+<alex pos="16" neg="0" out="un" type="" in="un"/>
+<alex pos="16" neg="0" out="om" type="" in="di"/>
+<alex pos="16" neg="0" out="også" type="" in="anche"/>
+<alex pos="16" neg="0" out="med" type="" in="med"/>
+<alex pos="16" neg="0" out="i" type="" in="nella"/>
+<alex pos="16" neg="0" out="for" type="" in="di"/>
+<alex pos="16" neg="0" out="del" type="" in="del"/>
+<alex pos="16" neg="0" out="af" type="" in="delle"/>
+<alex pos="15" neg="0" out="var" type="" in="era"/>
+<alex pos="15" neg="0" out="=" type="" in="="/>
+<alex pos="15" neg="0" out="siger" type="" in="afferma"/>
+<alex pos="15" neg="0" out="Se" type="" in="Se"/>
+<alex pos="15" neg="0" out="så" type="" in="så"/>
+<alex pos="15" neg="0" out="for" type="" in="for"/>
+<alex pos="15" neg="0" out="år" type="" in="anno"/>
+<alex pos="14" neg="0" out="," type="f" in="."/>
+<alex pos="14" neg="0" out="siger" type="" in="dice"/>
+<alex pos="14" neg="0" out="Og" type="" in="Og"/>
+<alex pos="14" neg="0" out="også" type="" in="også"/>
+<alex pos="14" neg="0" out="kun" type="" in="solo"/>
+<alex pos="14" neg="0" out="kr." type="" in="corone"/>
+<alex pos="14" neg="0" out="kan" type="" in="può"/>
+<alex pos="14" neg="0" out="Et" type="" in="Un"/>
+<alex pos="14" neg="0" out="en" type="d" in="il"/>
+<alex pos="14" neg="0" out="de" type="" in="gli"/>
+<alex pos="14" neg="0" out="alle" type="" in="tutti"/>
+<alex pos="14" neg="0" out="af" type="" in="del"/>
+<alex pos="13" neg="0" out="." type="f" in=":"/>
+<alex pos="13" neg="0" out="til" type="" in="a"/>
+<alex pos="13" neg="0" out="kroner" type="" in="corone"/>
+<alex pos="13" neg="0" out="kan" type="" in="possono"/>
+<alex pos="13" neg="0" out="han" type="" in="lui"/>
+<alex pos="13" neg="0" out="den" type="" in="la"/>
+<alex pos="13" neg="0" out="at" type="" in="a"/>
+<alex pos="12" neg="0" out="som" type="" in="che"/>
+<alex pos="12" neg="0" out="så" type="" in="così"/>
+<alex pos="12" neg="0" out="samarbejdet" type="" in="collaborazione"/>
+<alex pos="12" neg="0" out="nu" type="" in="nu"/>
+<alex pos="12" neg="0" out="ne" type="" in="ne"/>
+<alex pos="12" neg="0" out="mere" type="" in="più"/>
+<alex pos="12" neg="0" out="Men" type="" in="Ma"/>
+<alex pos="12" neg="0" out="man" type="" in="man"/>
+<alex pos="12" neg="0" out="Lars" type="" in="Lars"/>
+<alex pos="12" neg="0" out="København" type="" in="Copenaghen"/>
+<alex pos="12" neg="0" out="i" type="" in="per"/>
+<alex pos="12" neg="0" out="i" type="" in="nei"/>
+<alex pos="12" neg="0" out="i" type="" in="della"/>
+<alex pos="12" neg="0" out="hun" type="" in="lei"/>
+<alex pos="12" neg="0" out="her" type="" in="qui"/>
+<alex pos="12" neg="0" out="è" type="" in="è"/>
+<alex pos="12" neg="0" out="Det" type="" in="Det"/>
+<alex pos="12" neg="0" out="danske" type="" in="danesi"/>
+<alex pos="12" neg="0" out="af" type="" in="da"/>
+<alex pos="11" neg="0" out="solo" type="" in="solo"/>
+<alex pos="11" neg="0" out="skal" type="" in="devono"/>
+<alex pos="11" neg="0" out="millioner" type="" in="milioni"/>
+<alex pos="11" neg="0" out="Jensen" type="" in="Jensen"/>
+<alex pos="11" neg="0" out="jeg" type="" in="io"/>
+<alex pos="11" neg="0" out="et" type="" in="et"/>
+<alex pos="11" neg="0" out="Erik" type="" in="Erik"/>
+<alex pos="11" neg="0" out="de" type="" in="le"/>
+<alex pos="11" neg="0" out="de" type="" in="de"/>
+<alex pos="11" neg="0" out="Det" type="" in="Questo"/>
+<alex pos="11" neg="0" out="der" type="" in="c'"/>
+<alex pos="11" neg="0" out="del" type="" in="parte"/>
+<alex pos="11" neg="0" out="dei" type="" in="dei"/>
+<alex pos="10" neg="0" out="være" type="" in="essere"/>
+<alex pos="10" neg="0" out="uden" type="" in="senza"/>
+<alex pos="10" neg="0" out="sidste" type="" in="scorso"/>
+<alex pos="10" neg="0" out="se" type="" in="se"/>
+<alex pos="10" neg="0" out="og" type="f" in=","/>
+<alex pos="10" neg="0" out="non" type="" in="non"/>
+<alex pos="10" neg="0" out="Kina" type="" in="Cina"/>
+<alex pos="10" neg="0" out="har" type="" in="har"/>
+<alex pos="10" neg="0" out="fordi" type="" in="perché"/>
+<alex pos="10" neg="0" out="efter" type="" in="dopo"/>
+<alex pos="10" neg="0" out="de" type="" in="dei"/>
+<alex pos="10" neg="0" out="det" type="" in="questo"/>
+<alex pos="10" neg="0" out="al" type="" in="al"/>
+<alex pos="10" neg="0" out="af" type="" in="per"/>
+<alex pos="9" neg="0" out="uger" type="" in="settimane"/>
+<alex pos="9" neg="0" out="..." type="" in="..."/>
+<alex pos="9" neg="0" out="tre" type="" in="tre"/>
+<alex pos="9" neg="0" out="Trangeled" type="" in="Trangeled"/>
+<alex pos="9" neg="0" out="til" type="" in="in"/>
+<alex pos="9" neg="0" out="til" type="" in="di"/>
+<alex pos="9" neg="0" out="stadig" type="" in="ancora"/>
+<alex pos="9" neg="0" out="skal" type="" in="deve"/>
+<alex pos="9" neg="0" out="questo" type="" in="questo"/>
+<alex pos="9" neg="0" out="på" type="" in="ad"/>
+<alex pos="9" neg="0" out="om" type="" in="se"/>
+<alex pos="9" neg="0" out="når" type="" in="quando"/>
+<alex pos="9" neg="0" out="Men" type="" in="Men"/>
+<alex pos="9" neg="0" out="mange" type="" in="molti"/>
+<alex pos="9" neg="0" out="loro" type="" in="loro"/>
+<alex pos="9" neg="0" out="kvm." type="" in="metri quadrati"/>
+<alex pos="9" neg="0" out="John" type="" in="John"/>
+<alex pos="9" neg="0" out="i" type="" in="ad"/>
+<alex pos="9" neg="0" out="i_går" type="" in="ieri"/>
+<alex pos="9" neg="0" out="godt" type="" in="buon"/>
+<alex pos="9" neg="0" out="Det er" type="" in="È"/>
+<alex pos="9" neg="0" out="derfor" type="" in="perciò"/>
+<alex pos="8" neg="0" out="var" type="" in="erano"/>
+<alex pos="8" neg="0" out="to" type="" in="2"/>
+<alex pos="8" neg="0" out="så" type="" in="poi"/>
+<alex pos="8" neg="0" out="nu" type="" in="adesso"/>
+<alex pos="8" neg="0" out="mod" type="" in="contro"/>
+<alex pos="8" neg="0" out="meget" type="" in="meget"/>
+<alex pos="8" neg="0" out="med" type="" in="di"/>
+<alex pos="8" neg="0" out="jo" type="" in="jo"/>
+<alex pos="8" neg="0" out="Ja" type="" in="Sì"/>
+<alex pos="8" neg="0" out="i" type="wo" in="Nel"/>
+<alex pos="8" neg="0" out="i" type="" in="nell'"/>
+<alex pos="8" neg="0" out="i" type="" in="del"/>
+<alex pos="8" neg="0" out="hvor" type="" in="in cui"/>
+<alex pos="8" neg="0" out="helt" type="" in="helt"/>
+<alex pos="8" neg="0" out="hele" type="" in="hele"/>
+<alex pos="8" neg="0" out="havde" type="" in="aveva"/>
+<alex pos="8" neg="0" out="già" type="" in="già"/>
+<alex pos="8" neg="0" out="f.eks." type="" in="per es ."/>
+<alex pos="8" neg="0" out="er" type="" in="ha"/>
+<alex pos="8" neg="0" out="direktør" type="" in="direttore"/>
+<alex pos="8" neg="0" out="det er" type="" in="è"/>
+<alex pos="8" neg="0" out="der" type="" in="ci"/>
+<alex pos="8" neg="0" out="della" type="" in="della"/>
+<alex pos="8" neg="0" out="Danmark" type="" in="Danimarca"/>
+<alex pos="8" neg="0" out="cirka" type="" in="circa"/>
+<alex pos="8" neg="0" out="allora" type="" in="allora"/>
+<alex pos="8" neg="0" out="allerede" type="" in="già"/>
+<alex pos="8" neg="0" out="ad" type="" in="ad"/>
+<alex pos="8" neg="0" out="30" type="" in="30"/>
+<alex pos="8" neg="0" out="20" type="" in="20"/>
+<alex pos="7" neg="0" out="vi er" type="" in="siamo"/>
+<alex pos="7" neg="0" out="til" type="" in="alla"/>
+<alex pos="7" neg="0" out="til" type="" in="all'"/>
+<alex pos="7" neg="0" out="Thomsen" type="" in="Thomsen"/>
+<alex pos="7" neg="0" out="Svend" type="" in="Svend"/>
+<alex pos="7" neg="0" out="som" type="" in="di"/>
+<alex pos="7" neg="0" out="sin" type="" in="sin"/>
+<alex pos="7" neg="0" out="samt" type="" in="e"/>
+<alex pos="7" neg="0" out="samarbejde" type="" in="collaborazione"/>
+<alex pos="7" neg="0" out="quello" type="" in="quello"/>
+<alex pos="7" neg="0" out="partier" type="" in="partiti"/>
+<alex pos="7" neg="0" out="Og" type="" in="e"/>
+<alex pos="7" neg="0" out="noget" type="" in="noget"/>
+<alex pos="7" neg="0" out="Men" type="" in="ma"/>
+<alex pos="7" neg="0" out="mellem" type="" in="tra"/>
+<alex pos="7" neg="0" out="mand" type="" in="uomo"/>
+<alex pos="7" neg="0" out="juni" type="" in="giugno"/>
+<alex pos="7" neg="0" out="invece" type="" in="invece"/>
+<alex pos="7" neg="0" out="inoltre" type="" in="inoltre"/>
+<alex pos="7" neg="0" out="ikke" type="" in="Non"/>
+<alex pos="7" neg="0" out="hvis" type="" in="se"/>
+<alex pos="7" neg="0" out="gange" type="" in="volte"/>
+<alex pos="7" neg="0" out="fra" type="" in="dal"/>
+<alex pos="7" neg="0" out="første" type="" in="primi"/>
+<alex pos="7" neg="0" out="første" type="" in="prima"/>
+<alex pos="7" neg="0" out="et" type="" in="uno"/>
+<alex pos="7" neg="0" out="er" type="" in="siano"/>
+<alex pos="7" neg="0" out="er det" type="" in="è"/>
+<alex pos="7" neg="0" out="En" type="" in="Un"/>
+<alex pos="7" neg="0" out="Efter" type="" in="Dopo"/>
+<alex pos="7" neg="0" out="det" type="" in="la"/>
+<alex pos="7" neg="0" out="deres" type="" in="deres"/>
+<alex pos="7" neg="0" out="con" type="" in="con"/>
+<alex pos="7" neg="0" out="circa" type="" in="circa"/>
+<alex pos="7" neg="0" out="cioè" type="" in="cioè"/>
+<alex pos="7" neg="0" out="andre" type="" in="altri"/>
+<alex pos="7" neg="0" out="anche" type="" in="anche"/>
+<alex pos="7" neg="0" out="25" type="" in="25"/>
+<alex pos="7" neg="0" out="1" type="" in="1"/>
+<alex pos="7" neg="0" out="1992" type="" in="1992"/>
+<alex pos="6" neg="0" out="!" type="" in="!"/>
+<alex pos="6" neg="0" out="To" type="" in="Due"/>
+<alex pos="6" neg="0" out="Tholstrup" type="" in="Tholstrup"/>
+<alex pos="6" neg="0" out="TEBA's" type="" in="TEBA"/>
+<alex pos="6" neg="0" out="tæt" type="" in="vicino"/>
+<alex pos="6" neg="0" out="stesso" type="" in="stesso"/>
+<alex pos="6" neg="0" out="som" type="" in="cui"/>
+<alex pos="6" neg="0" out="sit" type="" in="sit"/>
+<alex pos="6" neg="0" out="sine" type="" in="sue"/>
+<alex pos="6" neg="0" out="sammen" type="" in="insieme"/>
+<alex pos="6" neg="0" out="samlever" type="" in="convivente"/>
+<alex pos="6" neg="0" out="samarbejdet" type="s" in="la"/>
+<alex pos="6" neg="0" out="råd" type="" in="cosiglio"/>
+<alex pos="6" neg="0" out="Pia" type="" in="Pia"/>
+<alex pos="6" neg="0" out="på" type="" in="nella"/>
+<alex pos="6" neg="0" out="overskridelsen" type="" in="superamento"/>
+<alex pos="6" neg="0" out="om" type="" in="al"/>
+<alex pos="6" neg="0" out="om_end" type="" in="anche se"/>
+<alex pos="6" neg="0" out="Også" type="" in="Anche"/>
+<alex pos="6" neg="0" out="nye" type="" in="nuovi"/>
+<alex pos="6" neg="0" out="Niels" type="" in="Niels"/>
+<alex pos="6" neg="0" out="min" type="" in="mia"/>
+<alex pos="6" neg="0" out="måske" type="" in="måske"/>
+<alex pos="6" neg="0" out="Man" type="" in="Si"/>
+<alex pos="6" neg="0" out="le" type="" in="le"/>
+<alex pos="6" neg="0" out="Leer" type="" in="Leer"/>
+<alex pos="6" neg="0" out="landet" type="" in="paese"/>
+<alex pos="6" neg="0" out="Kjærsgaard" type="" in="Kjærsgaard"/>
+<alex pos="6" neg="0" out="Karo" type="" in="Karo"/>
+<alex pos="6" neg="0" out="kan" type="" in="kan"/>
+<alex pos="6" neg="0" out="i" type="" in="nelle"/>
+<alex pos="6" neg="0" out="interesse" type="" in="interesse"/>
+<alex pos="6" neg="0" out="godt" type="" in="godt"/>
+<alex pos="6" neg="0" out="fra" type="" in="fra"/>
+<alex pos="6" neg="0" out="fra" type="" in="da"/>
+<alex pos="6" neg="0" out="Foto" type="" in="Foto"/>
+<alex pos="6" neg="0" out="for" type="" in="del"/>
+<alex pos="6" neg="0" out="fortsatte" type="" in="continuò"/>
+<alex pos="6" neg="0" out="FLS" type="" in="FLS"/>
+<alex pos="6" neg="0" out="Faktisk" type="" in="In realtà"/>
+<alex pos="6" neg="0" out="fængsel" type="" in="carcere"/>
+<alex pos="6" neg="0" out="fælles" type="" in="comuni"/>
+<alex pos="6" neg="0" out="Eva" type="" in="Eva"/>
+<alex pos="6" neg="0" out="EF-landene" type="" in="paesi membri della CEE"/>
+<alex pos="6" neg="0" out="due" type="" in="due"/>
+<alex pos="6" neg="0" out="det" type="" in="questa"/>
+<alex pos="6" neg="0" out="deres" type="" in="loro"/>
+<alex pos="6" neg="0" out="Danmarks" type="" in="Danimarca"/>
+<alex pos="6" neg="0" out="come" type="" in="come"/>
+<alex pos="6" neg="0" out="Bred" type="" in="Bred"/>
+<alex pos="6" neg="0" out="bøde" type="" in="multa"/>
+<alex pos="6" neg="0" out="blandt" type="" in="fra"/>
+<alex pos="6" neg="0" out="bedste" type="" in="migliore"/>
+<alex pos="6" neg="0" out="ansigt" type="" in="volto"/>
+<alex pos="6" neg="0" out="af" type="" in="fra"/>
+<alex pos="6" neg="0" out="afgørende" type="" in="decisivo"/>
+<alex pos="6" neg="0" out="ægtefælle" type="" in="coniuge"/>
+<alex pos="5" neg="0" out="vores" type="" in="nostra"/>
+<alex pos="5" neg="0" out="vi" type="" in="vi"/>
+<alex pos="5" neg="0" out="verden" type="" in="mondo"/>
+<alex pos="5" neg="0" out="ved" type="" in="ved"/>
+<alex pos="5" neg="0" out="var" type="" in="var"/>
+<alex pos="5" neg="0" out="." type="" in=";"/>
+<alex pos="5" neg="0" out="." type="" in=","/>
+<alex pos="5" neg="0" out=" - " type="f" in=","/>
+<alex pos="5" neg="0" out="tipo" type="" in="tipo"/>
+<alex pos="5" neg="0" out="succes" type="" in="successo"/>
+<alex pos="5" neg="0" out="sua" type="" in="sua"/>
+<alex pos="5" neg="0" out="spørgsmål" type="" in="aspetto"/>
+<alex pos="5" neg="0" out="skal" type="" in="skal"/>
+<alex pos="5" neg="0" out="sidste" type="" in="ultimi"/>
+<alex pos="5" neg="0" out="selv" type="" in="selv"/>
+<alex pos="5" neg="0" out="Så" type="" in="Så"/>
+<alex pos="5" neg="0" out="&quot;" type="" in="&gt;&gt;"/>
+<alex pos="5" neg="0" out="quanto" type="" in="quanto"/>
+<alex pos="5" neg="0" out="problemer" type="" in="problemi"/>
+<alex pos="5" neg="0" out="Poul" type="" in="Poul"/>
+<alex pos="5" neg="0" out="politikere" type="" in="politici"/>
+<alex pos="5" neg="0" out="periode" type="" in="periodo"/>
+<alex pos="5" neg="0" out="pensionister" type="" in="pensionati"/>
+<alex pos="5" neg="0" out="på" type="" in="per"/>
+<alex pos="5" neg="0" out="på" type="" in="nell'"/>
+<alex pos="5" neg="0" out="pasta" type="" in="pasta"/>
+<alex pos="5" neg="0" out="par" type="" in="paio"/>
+<alex pos="5" neg="0" out="omkring" type="" in="circa"/>
+<alex pos="5" neg="0" out="nu" type="" in="ora"/>
+<alex pos="5" neg="0" out="Nu" type="" in="Nu"/>
+<alex pos="5" neg="0" out="Nielsen" type="" in="Nielsen"/>
+<alex pos="5" neg="0" out="mig" type="" in="me"/>
+<alex pos="5" neg="0" out="l'" type="" in="l'"/>
+<alex pos="5" neg="0" out="lige" type="" in="lige"/>
+<alex pos="5" neg="0" out="landets" type="" in="paese"/>
+<alex pos="5" neg="0" out="lægemidler" type="" in="medicinali"/>
+<alex pos="5" neg="0" out="kvm-udgiften" type="" in="spese per metro quadrato"/>
+<alex pos="5" neg="0" out="kvinder" type="" in="donne"/>
+<alex pos="5" neg="0" out="kinderne" type="" in="guance"/>
+<alex pos="5" neg="0" out="kilo" type="" in="chili"/>
+<alex pos="5" neg="0" out="kende" type="" in="conoscere"/>
+<alex pos="5" neg="0" out="Jørgen" type="" in="Jørgen"/>
+<alex pos="5" neg="0" out="I" type="" in="Nel"/>
+<alex pos="5" neg="0" out="I" type="" in="I"/>
+<alex pos="5" neg="0" out="Hvis" type="" in="Se"/>
+<alex pos="5" neg="0" out="husleje" type="" in="affitto"/>
+<alex pos="5" neg="0" out="Hun har" type="" in="ha"/>
+<alex pos="5" neg="0" out="Her" type="" in="Qui"/>
+<alex pos="5" neg="0" out="hende" type="" in="lei"/>
+<alex pos="5" neg="0" out="Han" type="" in="Egli"/>
+<alex pos="5" neg="0" out="hans" type="" in="sua"/>
+<alex pos="5" neg="0" out="grøntsager" type="" in="verdure"/>
+<alex pos="5" neg="0" out="grænsebeløb" type="f" in="soglia limite"/>
+<alex pos="5" neg="0" out="godt" type="" in="bene"/>
+<alex pos="5" neg="0" out="Flemming" type="" in="Flemming"/>
+<alex pos="5" neg="0" out="fælles" type="" in="comune"/>
+<alex pos="5" neg="0" out="en" type="" in="uno"/>
+<alex pos="5" neg="0" out="dommen" type="" in="sentenza"/>
+<alex pos="5" neg="0" out="din" type="" in="din"/>
+<alex pos="5" neg="0" out="din" type="f" in="del richiedente"/>
+<alex pos="5" neg="0" out="det" type="" in="lo"/>
+<alex pos="5" neg="0" out="den" type="" in="questa"/>
+<alex pos="5" neg="0" out="den" type="" in="del"/>
+<alex pos="5" neg="0" out="denne" type="" in="questo"/>
+<alex pos="5" neg="0" out="delle" type="" in="delle"/>
+<alex pos="5" neg="0" out="Da" type="" in="Quando"/>
+<alex pos="5" neg="0" out="c'" type="" in="c'"/>
+<alex pos="5" neg="0" out="così" type="" in="così"/>
+<alex pos="5" neg="0" out="blot" type="" in="solo"/>
+<alex pos="5" neg="0" out="blev" type="" in="sono stati"/>
+<alex pos="5" neg="0" out="blev" type="" in="è stato"/>
+<alex pos="5" neg="0" out="behandlet" type="" in="trattata"/>
+<alex pos="5" neg="0" out="Begge" type="" in="Entrambi"/>
+<alex pos="5" neg="0" out="begge" type="" in="entrambi"/>
+<alex pos="5" neg="0" out="års" type="" in="anno"/>
+<alex pos="5" neg="0" out="Århus" type="" in="Århus"/>
+<alex pos="5" neg="0" out="anden" type="" in="altro"/>
+<alex pos="5" neg="0" out="ancora" type="" in="ancora"/>
+<alex pos="5" neg="0" out="alla" type="" in="alla"/>
+<alex pos="5" neg="0" out="af" type="" in="dell'"/>
+<alex pos="5" neg="0" out="aften" type="" in="sera"/>
+<alex pos="5" neg="0" out="1992" type="ds" in="Nel"/>
+<alex pos="5" neg="0" out="1987" type="" in="1987"/>
+<alex pos="4" neg="0" out="vore" type="" in="nostri"/>
+<alex pos="4" neg="0" out="Vi" type="" in="Vi"/>
+<alex pos="4" neg="0" out="visse" type="" in="certi"/>
+<alex pos="4" neg="0" out="vel" type="" in="vel"/>
+<alex pos="4" neg="0" out="vand" type="" in="acqua"/>
+<alex pos="4" neg="0" out="være" type="" in="være"/>
+<alex pos="4" neg="0" out="Un" type="" in="Un"/>
+<alex pos="4" neg="0" out="under" type="" in="sotto"/>
+<alex pos="4" neg="0" out="Ugemagasinet" type="" in="Ugemagasinet"/>
+<alex pos="4" neg="0" out="udenlandske" type="" in="stranieri"/>
+<alex pos="4" neg="0" out="?" type="" in="?”"/>
+<alex pos="4" neg="0" out="," type="" in=":"/>
+<alex pos="4" neg="0" out="," type="f" in=";"/>
+<alex pos="4" neg="0" out="," type="f" in="-"/>
+<alex pos="4" neg="0" out="tra" type="" in="tra"/>
+<alex pos="4" neg="0" out="ti" type="" in="dieci"/>
+<alex pos="4" neg="0" out="til" type="" in="verso"/>
+<alex pos="4" neg="0" out="til" type="" in="fino a"/>
+<alex pos="4" neg="0" out="til" type="" in="del"/>
+<alex pos="4" neg="0" out="til" type="" in="allo"/>
+<alex pos="4" neg="0" out="tid" type="" in="tempo"/>
+<alex pos="4" neg="0" out="tab" type="" in="perdita"/>
+<alex pos="4" neg="0" out="store" type="" in="grandi"/>
+<alex pos="4" neg="0" out="Steen" type="" in="Steen"/>
+<alex pos="4" neg="0" out="spurgte" type="" in="chiese"/>
+<alex pos="4" neg="0" out="Spanien" type="" in="Spagna"/>
+<alex pos="4" neg="0" out="sit" type="s" in="il"/>
+<alex pos="4" neg="0" out="sit" type="" in="suo"/>
+<alex pos="4" neg="0" out="sin" type="" in="propria"/>
+<alex pos="4" neg="0" out="siden" type="" in="fa"/>
+<alex pos="4" neg="0" out="selv_om" type="" in="pur"/>
+<alex pos="4" neg="0" out="sæt" type="" in="set"/>
+<alex pos="4" neg="0" out="rolle" type="" in="ruolo"/>
+<alex pos="4" neg="0" out="&quot;" type="" in="&lt;&lt;"/>
+<alex pos="4" neg="0" out="pr." type="" in="per"/>
+<alex pos="4" neg="0" out="proprio" type="" in="proprio"/>
+<alex pos="4" neg="0" out="Portugal" type="" in="Portogallo"/>
+<alex pos="4" neg="0" out="Pforzheim" type="" in="Pforzheim"/>
+<alex pos="4" neg="0" out="Per" type="" in="Per"/>
+<alex pos="4" neg="0" out="på" type="" in="sulle"/>
+<alex pos="4" neg="0" out="på" type="" in="a"/>
+<alex pos="4" neg="0" out="over" type="" in="della"/>
+<alex pos="4" neg="0" out="over" type="" in="del"/>
+<alex pos="4" neg="0" out="om" type="" in="sulla"/>
+<alex pos="4" neg="0" out="om" type="" in="per"/>
+<alex pos="4" neg="0" out="om" type="f" in="per quanto riguarda"/>
+<alex pos="4" neg="0" out="og" type="" in="che"/>
+<alex pos="4" neg="0" out="og" type="f" in="o"/>
+<alex pos="4" neg="0" out="ny" type="" in="nuovo"/>
+<alex pos="4" neg="0" out="Nu" type="" in="ora"/>
+<alex pos="4" neg="0" out="navne" type="" in="nomi"/>
+<alex pos="4" neg="0" out="når" type="" in="qualora"/>
+<alex pos="4" neg="0" out="muskler" type="" in="muscoli"/>
+<alex pos="4" neg="0" out="min" type="" in="mio"/>
+<alex pos="4" neg="0" out="men" type="" in="però"/>
+<alex pos="4" neg="0" out="men" type="" in="men"/>
+<alex pos="4" neg="0" out="mellem" type="" in="fra"/>
+<alex pos="4" neg="0" out="meget" type="" in="molto"/>
+<alex pos="4" neg="0" out="med" type="" in="a"/>
+<alex pos="4" neg="0" out="ma" type="" in="ma"/>
+<alex pos="4" neg="0" out="maggiori" type="" in="maggiori"/>
+<alex pos="4" neg="0" out="mænd" type="" in="uomini"/>
+<alex pos="4" neg="0" out="luder" type="" in="prostituta"/>
+<alex pos="4" neg="0" out="lo" type="" in="lo"/>
+<alex pos="4" neg="0" out="lidt" type="" in="lidt"/>
+<alex pos="4" neg="0" out="let" type="" in="lievemente"/>
+<alex pos="4" neg="0" out="La" type="" in="La"/>
+<alex pos="4" neg="0" out="lange" type="" in="lange"/>
+<alex pos="4" neg="0" out="lande" type="" in="paesi"/>
+<alex pos="4" neg="0" out="kvm-udgiften" type="sn" in="delle"/>
+<alex pos="4" neg="0" out="kvadratmeter" type="" in="metri quadrati"/>
+<alex pos="4" neg="0" out="kommende" type="" in="futura"/>
+<alex pos="4" neg="0" out="Københavns" type="" in="Copenaghen"/>
+<alex pos="4" neg="0" out="kan" type="" in="possano"/>
+<alex pos="4" neg="0" out="Jørgensen" type="" in="Jørgensen"/>
+<alex pos="4" neg="0" out="jægere" type="" in="cacciatori"/>
+<alex pos="4" neg="0" out="i" type="" in="degli"/>
+<alex pos="4" neg="0" out="ingen" type="" in="non"/>
+<alex pos="4" neg="0" out="ind" type="" in="ind"/>
+<alex pos="4" neg="0" out="Il" type="" in="Il"/>
+<alex pos="4" neg="0" out="hun" type="" in="hun"/>
+<alex pos="4" neg="0" out="hørt" type="" in="sentito"/>
+<alex pos="4" neg="0" out="Hjorth" type="" in="Hjorth"/>
+<alex pos="4" neg="0" out="hele" type="" in="tutta"/>
+<alex pos="4" neg="0" out="ha" type="" in="ha"/>
+<alex pos="4" neg="0" out="hans" type="" in="suo"/>
+<alex pos="4" neg="0" out="guldsmed" type="" in="orafo"/>
+<alex pos="4" neg="0" out="g" type="" in="gr ."/>
+<alex pos="4" neg="0" out="gang" type="" in="volta"/>
+<alex pos="4" neg="0" out="frisk" type="" in="fresca"/>
+<alex pos="4" neg="0" out="fra" type="" in="dell'"/>
+<alex pos="4" neg="0" out="fortæller" type="" in="dice"/>
+<alex pos="4" neg="0" out="forældre" type="" in="genitori"/>
+<alex pos="4" neg="0" out="flere" type="" in="più"/>
+<alex pos="4" neg="0" out="flere" type="" in="flere"/>
+<alex pos="4" neg="0" out="fire" type="" in="quattro"/>
+<alex pos="4" neg="0" out="fatto" type="" in="fatto"/>
+<alex pos="4" neg="0" out="E" type="" in="E"/>
+<alex pos="4" neg="0" out="et" type="d" in="il"/>
+<alex pos="4" neg="0" out="er vi" type="" in="siamo"/>
+<alex pos="4" neg="0" out="er" type="f" in="significa"/>
+<alex pos="4" neg="0" out="end" type="" in="di"/>
+<alex pos="4" neg="0" out="eller" type="" in="né"/>
+<alex pos="4" neg="0" out="dog" type="" in="comunque"/>
+<alex pos="4" neg="0" out="di prendere" type="" in="di prendere"/>
+<alex pos="4" neg="0" out="din" type="s" in="del"/>
+<alex pos="4" neg="0" out="dig" type="" in="ti"/>
+<alex pos="4" neg="0" out="de" type="s" in="delle"/>
+<alex pos="4" neg="0" out="de" type="" in="nei"/>
+<alex pos="4" neg="0" out="De" type="" in="I"/>
+<alex pos="4" neg="0" out="de" type="f" in="si"/>
+<alex pos="4" neg="0" out="det" type="" in="quello"/>
+<alex pos="4" neg="0" out="det" type="" in="il"/>
+<alex pos="4" neg="0" out="Der" type="" in="Ci"/>
+<alex pos="4" neg="0" out="derimod" type="" in="invece"/>
+<alex pos="4" neg="0" out="Derfor" type="" in="Per questa ragione"/>
+<alex pos="4" neg="0" out="den" type="" in="lo"/>
+<alex pos="4" neg="0" out="den" type="" in="della"/>
+<alex pos="4" neg="0" out="da" type="" in="quando"/>
+<alex pos="4" neg="0" out="dansk" type="" in="danese"/>
+<alex pos="4" neg="0" out="danskere" type="" in="danesi"/>
+<alex pos="4" neg="0" out="dal" type="" in="dal"/>
+<alex pos="4" neg="0" out="dage" type="" in="giorni"/>
+<alex pos="4" neg="0" out="dagen" type="" in="giorno"/>
+<alex pos="4" neg="0" out="comunque" type="" in="comunque"/>
+<alex pos="4" neg="0" out="Cheese" type="" in="Cheese"/>
+<alex pos="4" neg="0" out="bryst" type="" in="petto"/>
+<alex pos="4" neg="0" out="boligydelse" type="n" in="contributi"/>
+<alex pos="4" neg="0" out="blot" type="" in="blot"/>
+<alex pos="4" neg="0" out="blive" type="" in="essere"/>
+<alex pos="4" neg="0" out="blev" type="" in="blev"/>
+<alex pos="4" neg="0" out="blandt" type="" in="tra"/>
+<alex pos="4" neg="0" out="blandt_andet" type="" in="tra l' altro"/>
+<alex pos="4" neg="0" out="at se" type="" in="vedere"/>
+<alex pos="4" neg="0" out="at have" type="" in="aver"/>
+<alex pos="4" neg="0" out="Arbejdsgruppen" type="s" in="Il"/>
+<alex pos="4" neg="0" out="Arbejdsgruppen" type="" in="gruppo di lavoro"/>
+<alex pos="4" neg="0" out="ansvarlig" type="" in="responsabile"/>
+<alex pos="4" neg="0" out="andet" type="" in="altro"/>
+<alex pos="4" neg="0" out="Amager" type="" in="Amager"/>
+<alex pos="4" neg="0" out="altid" type="" in="sempre"/>
+<alex pos="4" neg="0" out="almeno" type="" in="almeno"/>
+<alex pos="4" neg="0" out="alle" type="" in="alle"/>
+<alex pos="4" neg="0" out="ældre" type="" in="anziani"/>
+<alex pos="4" neg="0" out="Aalborg" type="" in="Aalborg"/>
+<alex pos="4" neg="0" out="1996" type="" in="1996"/>
+<alex pos="4" neg="0" out="100" type="" in="100"/>
+<alex pos="3" neg="0" out="weekend" type="" in="fine settimana"/>
+<alex pos="3" neg="0" out="weekend'er" type="" in="fine settimana"/>
+<alex pos="3" neg="0" out="vundet" type="" in="vinto"/>
+<alex pos="3" neg="0" out="V" type="" in="V"/>
+<alex pos="3" neg="0" out="vores" type="" in="nostro"/>
+<alex pos="3" neg="0" out="vi" type="" in="noi"/>
+<alex pos="3" neg="0" out="vitaminer" type="" in="vitamine"/>
+<alex pos="3" neg="0" out="vis" type="" in="modo"/>
+<alex pos="3" neg="0" out="visto che" type="" in="visto che"/>
+<alex pos="3" neg="0" out="visse" type="f" in="quelli"/>
+<alex pos="3" neg="0" out="Vi skal" type="" in="Dobbiamo"/>
+<alex pos="3" neg="0" out="virker" type="" in="funzionano"/>
+<alex pos="3" neg="0" out="violazione" type="" in="violazione"/>
+<alex pos="3" neg="0" out="ville han være" type="" in="sarebbe"/>
+<alex pos="3" neg="0" out="Vil du" type="" in="Vorresti"/>
+<alex pos="3" neg="0" out="vil du" type="" in="vorresti"/>
+<alex pos="3" neg="0" out="vildt" type="" in="selvaggina"/>
+<alex pos="3" neg="0" out="vil blive" type="" in="sarà"/>
+<alex pos="3" neg="0" out="vil anbefale" type="" in="consiglierebbe"/>
+<alex pos="3" neg="0" out="Vi begyndte" type="" in="Abbiamo avviato"/>
+<alex pos="3" neg="0" out="Vest" type="" in="Vest"/>
+<alex pos="3" neg="0" out="vero" type="" in="vero"/>
+<alex pos="3" neg="0" out="Venstres" type="" in="Venstre"/>
+<alex pos="3" neg="0" out="vellidt" type="" in="stimato"/>
+<alex pos="3" neg="0" out="ved" type="" in="dal"/>
+<alex pos="3" neg="0" out="ved" type="" in="attraverso"/>
+<alex pos="3" neg="0" out="ved" type="" in="alle"/>
+<alex pos="3" neg="0" out="ved" type="" in="alla"/>
+<alex pos="3" neg="0" out="var" type="" in="sono stati"/>
+<alex pos="3" neg="0" out="var" type="" in="siamo stati"/>
+<alex pos="3" neg="0" out="var" type="" in="fosse"/>
+<alex pos="3" neg="0" out="var" type="" in="è stato"/>
+<alex pos="3" neg="0" out="Varehus" type="" in="Varehus"/>
+<alex pos="3" neg="0" out="vand" type="" in="l’acqua"/>
+<alex pos="3" neg="0" out="vagt" type="" in="guardia"/>
+<alex pos="3" neg="0" out="væsen" type="" in="carattere"/>
+<alex pos="3" neg="0" out="vælge" type="" in="scegliere"/>
+<alex pos="3" neg="0" out="Unix" type="" in="Unix"/>
+<alex pos="3" neg="0" out="Unionstraktaten" type="s" in="nel"/>
+<alex pos="3" neg="0" out="Unionstraktaten" type="" in="Trattato"/>
+<alex pos="3" neg="0" out="under" type="" in="under"/>
+<alex pos="3" neg="0" out="under" type="" in="durante"/>
+<alex pos="3" neg="0" out="undersøge" type="" in="indagare"/>
+<alex pos="3" neg="0" out="under alle omstændigheder" type="" in="in ogni caso"/>
+<alex pos="3" neg="0" out="ulovlig" type="" in="illegale"/>
+<alex pos="3" neg="0" out="ukendt" type="mcn" in="una sconosciuta"/>
+<alex pos="3" neg="0" out="uge" type="" in="settimana"/>
+<alex pos="3" neg="0" out="uger" type="" in="Settimane"/>
+<alex pos="3" neg="0" out="uforsvarlig" type="" in="irresponsabile"/>
+<alex pos="3" neg="0" out="udviklingen" type="s" in="lo"/>
+<alex pos="3" neg="0" out="udviklingen" type="" in="sviluppo"/>
+<alex pos="3" neg="0" out="udstillingsvindue" type="" in="vetrina"/>
+<alex pos="3" neg="0" out="Udsigt" type="" in="Vista"/>
+<alex pos="3" neg="0" out="udsalgsperioden" type="s" in="nel"/>
+<alex pos="3" neg="0" out="udsalgsperioden" type="" in="periodo delle svendite"/>
+<alex pos="3" neg="0" out="udløbet" type="" in="conclusione"/>
+<alex pos="3" neg="0" out="udgør" type="" in="costituiscono"/>
+<alex pos="3" neg="0" out="udenlandske" type="" in="straniere"/>
+<alex pos="3" neg="0" out="." type="" in="no."/>
+<alex pos="3" neg="0" out="," type="" in="e"/>
+<alex pos="3" neg="0" out="." type="" in=":"/>
+<alex pos="3" neg="0" out="," type="" in="-"/>
+<alex pos="3" neg="0" out="-" type="" in="-"/>
+<alex pos="3" neg="0" out="," type="f" in="e"/>
+<alex pos="3" neg="0" out="Tutto" type="" in="Tutto"/>
+<alex pos="3" neg="0" out="tutto" type="" in="tutto"/>
+<alex pos="3" neg="0" out="Trine" type="" in="Trine"/>
+<alex pos="3" neg="0" out="travle" type="" in="laboriosa"/>
+<alex pos="3" neg="0" out="trak" type="" in="trasse"/>
+<alex pos="3" neg="0" out="traktaten" type="" in="Trattato"/>
+<alex pos="3" neg="0" out="traktatens" type="" in="Trattato"/>
+<alex pos="3" neg="0" out="træningslejr" type="" in="campo di addestramento"/>
+<alex pos="3" neg="0" out="træder" type="" in="entrerà"/>
+<alex pos="3" neg="0" out="tøven" type="" in="esitazione"/>
+<alex pos="3" neg="0" out="to" type="" in="to"/>
+<alex pos="3" neg="0" out="tør" type="" in="oseranno"/>
+<alex pos="3" neg="0" out="torsdag" type="" in="giovedì"/>
+<alex pos="3" neg="0" out="Torben" type="" in="Torben"/>
+<alex pos="3" neg="0" out="topchefer" type="" in="alti dirigenti"/>
+<alex pos="3" neg="0" out="tøjforretninger" type="" in="negozi di abbigliamento"/>
+<alex pos="3" neg="0" out="tog hun rundt i" type="" in="ha percorso"/>
+<alex pos="3" neg="0" out="time" type="" in="ora"/>
+<alex pos="3" neg="0" out="til" type="" in="dalle"/>
+<alex pos="3" neg="0" out="til" type="" in="al"/>
+<alex pos="3" neg="0" out="til" type="" in="ai"/>
+<alex pos="3" neg="0" out="til" type="" in="ad"/>
+<alex pos="3" neg="0" out="tiltalt" type="" in="imputati"/>
+<alex pos="3" neg="0" out="tilskuddet" type="s" in="il"/>
+<alex pos="3" neg="0" out="tilskuddet" type="" in="contributo"/>
+<alex pos="3" neg="0" out="Tilfredsstillende" type="" in="soddisfacente"/>
+<alex pos="3" neg="0" out="tilfredse" type="" in="soddisfatti"/>
+<alex pos="3" neg="0" out="tilføjer" type="" in="aggiunge"/>
+<alex pos="3" neg="0" out="tilfælde" type="" in="caso"/>
+<alex pos="3" neg="0" out="tid" type="" in="periodo"/>
+<alex pos="3" neg="0" out="Thomas" type="" in="Thomas"/>
+<alex pos="3" neg="0" out="telt" type="" in="tenda"/>
+<alex pos="3" neg="0" out="tankefuldt" type="" in="pensierosa"/>
+<alex pos="3" neg="0" out="tallene" type="s" in="dei"/>
+<alex pos="3" neg="0" out="tale" type="" in="tale"/>
+<alex pos="3" neg="0" out="tænke" type="" in="pensare"/>
+<alex pos="3" neg="0" out="systemer" type="" in="sistemi"/>
+<alex pos="3" neg="0" out="synge" type="mvg" in="cantando"/>
+<alex pos="3" neg="0" out="Sydkina" type="" in="Cina meridionale"/>
+<alex pos="3" neg="0" out="svømmepølen" type="s" in="sulla"/>
+<alex pos="3" neg="0" out="svømmepølen" type="" in="piscina"/>
+<alex pos="3" neg="0" out="Sverige" type="" in="Svezia"/>
+<alex pos="3" neg="0" out="svarede" type="" in="rispose"/>
+<alex pos="3" neg="0" out="Svage" type="" in="Vaghe"/>
+<alex pos="3" neg="0" out="Susan" type="" in="Susan"/>
+<alex pos="3" neg="0" out="supplerer" type="" in="aggiunge"/>
+<alex pos="3" neg="0" out="sundhedstjenesten" type="s" in="il"/>
+<alex pos="3" neg="0" out="stue-arrest" type="" in="quarantena"/>
+<alex pos="3" neg="0" out="Straks efter" type="f" in="Poi"/>
+<alex pos="3" neg="0" out="stor" type="f" in="bel"/>
+<alex pos="3" neg="0" out="stort" type="" in="stort"/>
+<alex pos="3" neg="0" out="størrelse" type="" in="numero"/>
+<alex pos="3" neg="0" out="størrelse" type="" in="importo"/>
+<alex pos="3" neg="0" out="størrelse" type="" in="grandezza"/>
+<alex pos="3" neg="0" out="stormagasiner" type="" in="grandi magazzini"/>
+<alex pos="3" neg="0" out="store" type="" in="molto"/>
+<alex pos="3" neg="0" out="Storebælt" type="" in="Grande Belt"/>
+<alex pos="3" neg="0" out="stoppede" type="mvd" in="si è interrotto"/>
+<alex pos="3" neg="0" out="Stiftstidende" type="" in="Stiftstidende"/>
+<alex pos="3" neg="0" out="stat" type="" in="stato"/>
+<alex pos="3" neg="0" out="statsminister" type="" in="capo di governo"/>
+<alex pos="3" neg="0" out="statslige" type="" in="statali"/>
+<alex pos="3" neg="0" out="stærkt" type="f" in="molto"/>
+<alex pos="3" neg="0" out="sprog" type="" in="lingua"/>
+<alex pos="3" neg="0" out="spor" type="" in="tracce"/>
+<alex pos="3" neg="0" out="spørgsmål" type="" in="domande"/>
+<alex pos="3" neg="0" out="spis" type="" in="si deve mangiare"/>
+<alex pos="3" neg="0" out="spiller" type="" in="giocano"/>
+<alex pos="3" neg="0" out="søstre" type="" in="sorelle"/>
+<alex pos="3" neg="0" out="søsterfirma" type="" in="consorella"/>
+<alex pos="3" neg="0" out="søn" type="" in="figlio"/>
+<alex pos="3" neg="0" out="sono" type="" in="sono"/>
+<alex pos="3" neg="0" out="som" type="" in="quanto"/>
+<alex pos="3" neg="0" out="som" type="f" in="in quanto"/>
+<alex pos="3" neg="0" out="søges" type="" in="essere richiesti"/>
+<alex pos="3" neg="0" out="snylter" type="f" in="virus parassita"/>
+<alex pos="3" neg="0" out="smør" type="" in="burro"/>
+<alex pos="3" neg="0" out="smerte" type="" in="dolore"/>
+<alex pos="3" neg="0" out="slurk" type="" in="sorso"/>
+<alex pos="3" neg="0" out="skytsgud" type="" in="dio tutelare"/>
+<alex pos="3" neg="0" out="skuffede" type="" in="delusi"/>
+<alex pos="3" neg="0" out="skridt" type="" in="passo"/>
+<alex pos="3" neg="0" out="skjulte" type="" in="nascose"/>
+<alex pos="3" neg="0" out="skete" type="" in="è successo"/>
+<alex pos="3" neg="0" out="skattevæsenet" type="s" in="il"/>
+<alex pos="3" neg="0" out="skattevæsenet" type="" in="fisco"/>
+<alex pos="3" neg="0" out="skatteteknisk" type="" in="fiscale"/>
+<alex pos="3" neg="0" out="skattetekniske" type="" in="fiscali"/>
+<alex pos="3" neg="0" out="skattesvig" type="" in="frode fiscale"/>
+<alex pos="3" neg="0" out="skattefri" type="" in="esentasse"/>
+<alex pos="3" neg="0" out="skal" type="" in="dovrà"/>
+<alex pos="3" neg="0" out="skal" type="f" in="voglia"/>
+<alex pos="3" neg="0" out="skal føres videre" type="mvi" in="far proseguire"/>
+<alex pos="3" neg="0" out="Sinuhe" type="" in="Sinuhe"/>
+<alex pos="3" neg="0" out="sin" type="" in="suo"/>
+<alex pos="3" neg="0" out="sin" type="" in="proprio"/>
+<alex pos="3" neg="0" out="sine" type="s" in="delle"/>
+<alex pos="3" neg="0" out="sine" type="" in="suoi"/>
+<alex pos="3" neg="0" out="Simonsen" type="" in="Simonsen"/>
+<alex pos="3" neg="0" out="sikkert" type="" in="sicuramente"/>
+<alex pos="3" neg="0" out="sig" type="" in="sé"/>
+<alex pos="3" neg="0" out="siger" type="f" in="sottolinea"/>
+<alex pos="3" neg="0" out="siger han" type="" in="dice"/>
+<alex pos="3" neg="0" out="sidste" type="" in="ultima"/>
+<alex pos="3" neg="0" out="sidste" type="" in="passato"/>
+<alex pos="3" neg="0" out="siden" type="wo" in="Dopo"/>
+<alex pos="3" neg="0" out="Sheraton" type="" in="Sheraton"/>
+<alex pos="3" neg="0" out="Shanghai" type="" in="Shangai"/>
+<alex pos="3" neg="0" out="set" type="" in="visto"/>
+<alex pos="3" neg="0" out="sempre" type="" in="sempre"/>
+<alex pos="3" neg="0" out="selv_om" type="" in="anche se"/>
+<alex pos="3" neg="0" out="sekstant" type="" in="sestante"/>
+<alex pos="3" neg="0" out="Schiphol" type="" in="Schiphol"/>
+<alex pos="3" neg="0" out="Schiøtt" type="" in="Schiøtt"/>
+<alex pos="3" neg="0" out="så" type="" in="allora"/>
+<alex pos="3" neg="0" out="samt" type="" in="oltre a"/>
+<alex pos="3" neg="0" out="samt" type="f" in="e"/>
+<alex pos="3" neg="0" out="samtlige" type="" in="tutti"/>
+<alex pos="3" neg="0" out="samtidig" type="" in="contemporaneamente"/>
+<alex pos="3" neg="0" out="sammen" type="" in="sammen"/>
+<alex pos="3" neg="0" out="sammenslutning" type="" in="fusione"/>
+<alex pos="3" neg="0" out="sammensætning" type="" in="composizione"/>
+<alex pos="3" neg="0" out="samarbejdet" type="" in="collaborato"/>
+<alex pos="3" neg="0" out="såkaldte" type="" in="cosiddetta"/>
+<alex pos="3" neg="0" out="sagde du op" type="" in="ti sei licenziata"/>
+<alex pos="3" neg="0" out="sådan" type="" in="così"/>
+<alex pos="3" neg="0" out="Rushdie" type="" in="Rushdie"/>
+<alex pos="3" neg="0" out="RTZ" type="" in="RTZ"/>
+<alex pos="3" neg="0" out="Rothmann" type="" in="Rothmann"/>
+<alex pos="3" neg="0" out="Rothmanns" type="" in="Rothmann"/>
+<alex pos="3" neg="0" out="romantisk" type="" in="romantico"/>
+<alex pos="3" neg="0" out="rødvin" type="" in="vino rosso"/>
+<alex pos="3" neg="0" out="risikerer" type="" in="si rischia"/>
+<alex pos="3" neg="0" out="rigtigt" type="" in="veramente"/>
+<alex pos="3" neg="0" out="resulteret" type="" in="prodotto"/>
+<alex pos="3" neg="0" out="resultatet" type="s" in="il"/>
+<alex pos="3" neg="0" out="resultatet" type="" in="risultato"/>
+<alex pos="3" neg="0" out="republik" type="" in="Repubblica"/>
+<alex pos="3" neg="0" out="reformerne" type="s" in="dalle"/>
+<alex pos="3" neg="0" out="reformerne" type="" in="riforme"/>
+<alex pos="3" neg="0" out="Rasmussen" type="" in="Rasmussen"/>
+<alex pos="3" neg="0" out="rammer" type="n" in="cornice"/>
+<alex pos="3" neg="0" out="række" type="" in="serie"/>
+<alex pos="3" neg="0" out="rækker ud over" type="" in="sia in funzione al di fuori dei"/>
+<alex pos="3" neg="0" out="råd" type="" in="consigli"/>
+<alex pos="3" neg="0" out="qualche" type="" in="qualche"/>
+<alex pos="3" neg="0" out="pyramiden" type="s" in="alla"/>
+<alex pos="3" neg="0" out="pyramiden" type="" in="piramide"/>
+<alex pos="3" neg="0" out="pro-demokratiske" type="" in="in favore della democrazia"/>
+<alex pos="3" neg="0" out="private" type="" in="privati"/>
+<alex pos="3" neg="0" out="printplade-virksomhed" type="" in="ditta di elementi per circuiti elettronici"/>
+<alex pos="3" neg="0" out="prendere" type="" in="prendere"/>
+<alex pos="3" neg="0" out="P-pillerne" type="" in="le pillole contraccettive"/>
+<alex pos="3" neg="0" out="positivo" type="" in="positivo"/>
+<alex pos="3" neg="0" out="portneren" type="s" in="il"/>
+<alex pos="3" neg="0" out="portneren" type="" in="portiere"/>
+<alex pos="3" neg="0" out="politiske" type="" in="politici"/>
+<alex pos="3" neg="0" out="polarkulden" type="d" in="freddo polare"/>
+<alex pos="3" neg="0" out="poi" type="" in="poi"/>
+<alex pos="3" neg="0" out="plus" type="" in="insieme ad"/>
+<alex pos="3" neg="0" out="plejehjem" type="" in="casa di riposo"/>
+<alex pos="3" neg="0" out="plastic" type="" in="plastica"/>
+<alex pos="3" neg="0" out="plads" type="" in="posto"/>
+<alex pos="3" neg="0" out="plader" type="" in="tavolette"/>
+<alex pos="3" neg="0" out="piller" type="" in="pillole"/>
+<alex pos="3" neg="0" out="pige" type="" in="ragazza"/>
+<alex pos="3" neg="0" out="persone" type="" in="persone"/>
+<alex pos="3" neg="0" out="pengekassen" type="s" in="il"/>
+<alex pos="3" neg="0" out="pemmican" type="" in="pemmican"/>
+<alex pos="3" neg="0" out="Peking" type="" in="Pechino"/>
+<alex pos="3" neg="0" out="pct." type="" in="per cento"/>
+<alex pos="3" neg="0" out="pct.s" type="" in="per cento"/>
+<alex pos="3" neg="0" out="på" type="" in="sull'"/>
+<alex pos="3" neg="0" out="På" type="" in="Di"/>
+<alex pos="3" neg="0" out="på" type="" in="delle"/>
+<alex pos="3" neg="0" out="på" type="" in="con"/>
+<alex pos="3" neg="0" out="på" type="" in="alle"/>
+<alex pos="3" neg="0" out="på stedet" type="" in="immediatamente"/>
+<alex pos="3" neg="0" out="Pasta" type="" in="pasta"/>
+<alex pos="3" neg="0" out="passare" type="" in="passare"/>
+<alex pos="3" neg="0" out="partito" type="" in="partito"/>
+<alex pos="3" neg="0" out="partiers" type="" in="partiti"/>
+<alex pos="3" neg="0" out="parlare" type="" in="parlare"/>
+<alex pos="3" neg="0" out="parlamentari" type="" in="parlamentari"/>
+<alex pos="3" neg="0" out="Paragurth" type="" in="Paragurth"/>
+<alex pos="3" neg="0" out="Palle" type="" in="Palle"/>
+<alex pos="3" neg="0" out="pagamento" type="" in="pagamento"/>
+<alex pos="3" neg="0" out="påført" type="" in="causato alla"/>
+<alex pos="3" neg="0" out="over" type="" in="verso"/>
+<alex pos="3" neg="0" out="overtrædelse" type="" in="violazione"/>
+<alex pos="3" neg="0" out="Overstiger" type="" in="supera"/>
+<alex pos="3" neg="0" out="overstiger" type="" in="supera"/>
+<alex pos="3" neg="0" out="overstigende" type="mcn" in="superamento"/>
+<alex pos="3" neg="0" out="overstigende" type="" in="in più"/>
+<alex pos="3" neg="0" out="overskridelsen" type="s" in="tale"/>
+<alex pos="3" neg="0" out="overskridelsen" type="s" in="il"/>
+<alex pos="3" neg="0" out="os" type="" in="noi"/>
+<alex pos="3" neg="0" out="Osetrova" type="" in="Osetrova"/>
+<alex pos="3" neg="0" out="optaktsperiode" type="" in="fase preliminare"/>
+<alex pos="3" neg="0" out="optage" type="f" in="beccare"/>
+<alex pos="3" neg="0" out="oplevelse" type="oplevelse=esperienza" in="un’esperienza"/>
+<alex pos="3" neg="0" out="OPLÆSER" type="" in="ANNUNCIATORE"/>
+<alex pos="3" neg="0" out="om" type="" in="sulle"/>
+<alex pos="3" neg="0" out="om" type="" in="circa"/>
+<alex pos="3" neg="0" out="området" type="" in="zona"/>
+<alex pos="3" neg="0" out="omgåelse" type="" in="aggiramento"/>
+<alex pos="3" neg="0" out="omend" type="" in="sebbene"/>
+<alex pos="3" neg="0" out="Olsdorf" type="e" in="Olsdorff"/>
+<alex pos="3" neg="0" out="Oliver" type="" in="Oliver"/>
+<alex pos="3" neg="0" out="Olga" type="" in="Olga"/>
+<alex pos="3" neg="0" out="økonomiske" type="" in="economica"/>
+<alex pos="3" neg="0" out="øjeblik" type="" in="attimo"/>
+<alex pos="3" neg="0" out="og" type="f" in="poi"/>
+<alex pos="3" neg="0" out="også" type="" in="Anche"/>
+<alex pos="3" neg="0" out="ofte" type="" in="spesso"/>
+<alex pos="3" neg="0" out="ofrer" type="mvg+f" in="investendo"/>
+<alex pos="3" neg="0" out="nyt" type="" in="nuova"/>
+<alex pos="3" neg="0" out="nye" type="" in="nuove"/>
+<alex pos="3" neg="0" out="nyansat" type="" in="assunto da poco"/>
+<alex pos="3" neg="0" out="nr." type="" in="nr"/>
+<alex pos="3" neg="0" out="nok" type="" in="sicuramente"/>
+<alex pos="3" neg="0" out="nogle" type="f" in="poche"/>
+<alex pos="3" neg="0" out="noget" type="" in="qualcosa"/>
+<alex pos="3" neg="0" out="Nils" type="" in="Nils"/>
+<alex pos="3" neg="0" out="Nilens" type="s" in="l’acqua del"/>
+<alex pos="3" neg="0" out="Nilens" type="" in="Nilo"/>
+<alex pos="3" neg="0" out="nella" type="" in="nella"/>
+<alex pos="3" neg="0" out="Nej" type="" in="No"/>
+<alex pos="3" neg="0" out="nei" type="" in="nei"/>
+<alex pos="3" neg="0" out="negle" type="" in="unghie"/>
+<alex pos="3" neg="0" out="nedover" type="" in="sulla"/>
+<alex pos="3" neg="0" out="nedkæmpning" type="" in="repressione"/>
+<alex pos="3" neg="0" out="neanche" type="" in="neanche"/>
+<alex pos="3" neg="0" out="Når" type="" in="Quando"/>
+<alex pos="3" neg="0" out="når" type="" in="når"/>
+<alex pos="3" neg="0" out="nævnte" type="" in="sopraindicati"/>
+<alex pos="3" neg="0" out="musikbranchen" type="s" in="nel"/>
+<alex pos="3" neg="0" out="musikbranchen" type="" in="mondo della musica"/>
+<alex pos="3" neg="0" out="momento" type="" in="momento"/>
+<alex pos="3" neg="0" out="molto" type="" in="molto"/>
+<alex pos="3" neg="0" out="mod" type="" in="verso"/>
+<alex pos="3" neg="0" out="mit" type="" in="mio"/>
+<alex pos="3" neg="0" out="misforståelser" type="" in="fraintendimenti"/>
+<alex pos="3" neg="0" out="Min" type="" in="mio"/>
+<alex pos="3" neg="0" out="mine" type="" in="miei"/>
+<alex pos="3" neg="0" out="mineraler" type="" in="minerali"/>
+<alex pos="3" neg="0" out="million" type="" in="milione"/>
+<alex pos="3" neg="0" out="mig" type="" in="Mi"/>
+<alex pos="3" neg="0" out="mig" type="" in="mi"/>
+<alex pos="3" neg="0" out="Mie" type="" in="Mie"/>
+<alex pos="3" neg="0" out="mia." type="" in="miliardi"/>
+<alex pos="3" neg="0" out="mest" type="" in="più"/>
+<alex pos="3" neg="0" out="mere" type="" in="di più"/>
+<alex pos="3" neg="0" out="Men" type="" in="però"/>
+<alex pos="3" neg="0" out="mens" type="" in="mentre"/>
+<alex pos="3" neg="0" out="menige" type="" in="menige"/>
+<alex pos="3" neg="0" out="meget , meget fint" type="" in="ottimi"/>
+<alex pos="3" neg="0" out="med udgangspunkt i" type="mcg" in="considerando"/>
+<alex pos="3" neg="0" out="med" type="mcp" in="innaffiata di"/>
+<alex pos="3" neg="0" out="med" type="" in="per"/>
+<alex pos="3" neg="0" out="med" type="" in="alle"/>
+<alex pos="3" neg="0" out="med krav om" type="mcg" in="chiedendo"/>
+<alex pos="3" neg="0" out="med garanti" type="" in="di sicuro"/>
+<alex pos="3" neg="0" out="MEDARB" type="" in="COLLABORAT"/>
+<alex pos="3" neg="0" out="mavesår" type="" in="ulcera"/>
+<alex pos="3" neg="0" out="må være" type="f" in="dovrebbe"/>
+<alex pos="3" neg="0" out="Mauritz" type="" in="Mauritz"/>
+<alex pos="3" neg="0" out="må" type="" in="deve"/>
+<alex pos="3" neg="0" out="marked" type="" in="mercato"/>
+<alex pos="3" neg="0" out="markant" type="n" in="chiare"/>
+<alex pos="3" neg="0" out="man" type="" in="ci"/>
+<alex pos="3" neg="0" out="man skal" type="" in="è necessario"/>
+<alex pos="3" neg="0" out="man hefter" type="mcn" in="cauzionamento"/>
+<alex pos="3" neg="0" out="Mange" type="" in="Molti"/>
+<alex pos="3" neg="0" out="mange" type="f" in="più"/>
+<alex pos="3" neg="0" out="Mange" type="f" in="alcuni"/>
+<alex pos="3" neg="0" out="måneders" type="" in="mesi"/>
+<alex pos="3" neg="0" out="mand" type="" in="marito"/>
+<alex pos="3" neg="0" out="mandag" type="wo" in="lunedì"/>
+<alex pos="3" neg="0" out="mandagsvig" type="" in="abuso di mandato"/>
+<alex pos="3" neg="0" out="måltid" type="" in="cena"/>
+<alex pos="3" neg="0" out="madplan" type="" in="programma alimentare"/>
+<alex pos="3" neg="0" out="måder" type="" in="versioni"/>
+<alex pos="3" neg="0" out="Maastricht-Traktaten" type="" in="Trattato di Maastricht"/>
+<alex pos="3" neg="0" out="Luxor" type="" in="Luxor"/>
+<alex pos="3" neg="0" out="lukket" type="" in="chiuso"/>
+<alex pos="3" neg="0" out="loven" type="s" in="della"/>
+<alex pos="3" neg="0" out="loven" type="" in="legge"/>
+<alex pos="3" neg="0" out="Lo" type="" in="Lo"/>
+<alex pos="3" neg="0" out="løsning" type="" in="soluzione"/>
+<alex pos="3" neg="0" out="litri e litri d’acqua" type="" in="litri e litri d’acqua"/>
+<alex pos="3" neg="0" out="literflasker" type="f" in="bottiglie"/>
+<alex pos="3" neg="0" out="lille" type="" in="piccola"/>
+<alex pos="3" neg="0" out="Ligesom" type="" in="Allo stesso tempo"/>
+<alex pos="3" neg="0" out="lige præcis" type="" in="esattamente"/>
+<alex pos="3" neg="0" out="lidt" type="" in="un po'"/>
+<alex pos="3" neg="0" out="let" type="" in="facile"/>
+<alex pos="3" neg="0" out="lejligheden" type="s" in="nell'"/>
+<alex pos="3" neg="0" out="lejligheden" type="" in="appartamento"/>
+<alex pos="3" neg="0" out="lejlighedens" type="" in="appartamento"/>
+<alex pos="3" neg="0" out="leder" type="" in="leader"/>
+<alex pos="3" neg="0" out="lavede du" type="" in="facevi"/>
+<alex pos="3" neg="0" out="Larsen" type="" in="Larsen"/>
+<alex pos="3" neg="0" out="langt" type="" in="langt"/>
+<alex pos="3" neg="0" out="lang , lang" type="" in="assai lungo"/>
+<alex pos="3" neg="0" out="land" type="n" in="paesi"/>
+<alex pos="3" neg="0" out="landet" type="s" in="nel"/>
+<alex pos="3" neg="0" out="landet" type="s" in="del"/>
+<alex pos="3" neg="0" out="lanceringen" type="s" in="del"/>
+<alex pos="3" neg="0" out="lanceringen" type="" in="lancio"/>
+<alex pos="3" neg="0" out="læge" type="" in="medico"/>
+<alex pos="3" neg="0" out="Lægerne" type="" in="medici"/>
+<alex pos="3" neg="0" out="lægemidler" type="ds" in="i"/>
+<alex pos="3" neg="0" out="lægemiddelberedskab" type="lv" in="quelli"/>
+<alex pos="3" neg="0" out="lægemiddelberedskab" type="" in="sistema di pronto intervento medico"/>
+<alex pos="3" neg="0" out="lade den næste rejse" type="" in="lade den næste rejse"/>
+<alex pos="3" neg="0" out="KV-planen" type="s" in="del"/>
+<alex pos="3" neg="0" out="kvm." type="e" in="metro"/>
+<alex pos="3" neg="0" out="kvalitetssikring" type="" in="controllo di qualità"/>
+<alex pos="3" neg="0" out="kvalitetssikring" type="ds" in="il"/>
+<alex pos="3" neg="0" out="kunne vil" type="" in="potrà"/>
+<alex pos="3" neg="0" out="kunne" type="" in="essere in grado di"/>
+<alex pos="3" neg="0" out="kunne" type="" in="dovevano"/>
+<alex pos="3" neg="0" out="K" type="" in="K"/>
+<alex pos="3" neg="0" out="kristne" type="" in="kristne"/>
+<alex pos="3" neg="0" out="krigstidsforhold" type="" in="condizioni di guerra"/>
+<alex pos="3" neg="0" out="krigshandlinger" type="" in="azioni belliche"/>
+<alex pos="3" neg="0" out="kredse" type="" in="ambienti"/>
+<alex pos="3" neg="0" out="kraft" type="" in="vigore"/>
+<alex pos="3" neg="0" out="kort" type="" in="breve"/>
+<alex pos="3" neg="0" out="kører" type="" in="procede"/>
+<alex pos="3" neg="0" out="kontrakt" type="" in="contratto"/>
+<alex pos="3" neg="0" out="konge" type="" in="re"/>
+<alex pos="3" neg="0" out="konditor" type="" in="konditor"/>
+<alex pos="3" neg="0" out="konditori" type="" in="pasticceria"/>
+<alex pos="3" neg="0" out="kommunale" type="" in="comunali"/>
+<alex pos="3" neg="0" out="komme" type="" in="komme"/>
+<alex pos="3" neg="0" out="kollega" type="" in="collega"/>
+<alex pos="3" neg="0" out="kød" type="" in="carne"/>
+<alex pos="3" neg="0" out="knyttet" type="" in="legati"/>
+<alex pos="3" neg="0" out="km" type="" in="chilometri"/>
+<alex pos="3" neg="0" out="KL" type="" in="ORE"/>
+<alex pos="3" neg="0" out="Kineserne" type="s" in="I"/>
+<alex pos="3" neg="0" out="Kineserne" type="" in="cinesi"/>
+<alex pos="3" neg="0" out="Kina" type="lv" in="paese asiatico"/>
+<alex pos="3" neg="0" out="KILDE" type="" in="FONTE"/>
+<alex pos="3" neg="0" out="Kaufmann" type="" in="Kaufmann"/>
+<alex pos="3" neg="0" out="kan" type="" in="possa"/>
+<alex pos="3" neg="0" out="Jyderup" type="" in="Jyderup"/>
+<alex pos="3" neg="0" out="juridiske" type="" in="legali"/>
+<alex pos="3" neg="0" out="jungle" type="" in="giungla"/>
+<alex pos="3" neg="0" out="juli" type="" in="juli"/>
+<alex pos="3" neg="0" out="Jørgine" type="" in="Jørgine"/>
+<alex pos="3" neg="0" out="Johan" type="" in="Johan"/>
+<alex pos="3" neg="0" out="job" type="" in="lavoro"/>
+<alex pos="3" neg="0" out="jeg vil" type="" in="vorrei"/>
+<alex pos="3" neg="0" out="Jeg ved godt" type="" in="so"/>
+<alex pos="3" neg="0" out="jeg overlevede" type="mvi" in="sopravvivere per"/>
+<alex pos="3" neg="0" out="Jeg følte" type="" in="Sentivo"/>
+<alex pos="3" neg="0" out="Jeg er" type="" in="sono"/>
+<alex pos="3" neg="0" out="Jan" type="" in="Jan"/>
+<alex pos="3" neg="0" out="James" type="" in="James"/>
+<alex pos="3" neg="0" out="jævnlige" type="f" in="una maggior frequenza di"/>
+<alex pos="3" neg="0" out="jægere" type="ds" in="i"/>
+<alex pos="3" neg="0" out="Iver" type="" in="Iver"/>
+<alex pos="3" neg="0" out="i" type="wo" in="nel"/>
+<alex pos="3" neg="0" out="I" type="" in="Nella"/>
+<alex pos="3" neg="0" out="i" type="" in="negli"/>
+<alex pos="3" neg="0" out="i" type="" in="dentro"/>
+<alex pos="3" neg="0" out="i" type="" in="con"/>
+<alex pos="3" neg="0" out="i" type="f" in="riguardante"/>
+<alex pos="3" neg="0" out="i" type="f" in="con"/>
+<alex pos="3" neg="0" out="I/S" type="" in="società in nome collettivo"/>
+<alex pos="3" neg="0" out="isola" type="" in="isola"/>
+<alex pos="3" neg="0" out="Island" type="" in="Islanda"/>
+<alex pos="3" neg="0" out="I/S-fællesskaberne" type="s" in="le"/>
+<alex pos="3" neg="0" out="I/S-fællesskaberne" type="" in="società in nome collettivo"/>
+<alex pos="3" neg="0" out="især" type="" in="soprattutto"/>
+<alex pos="3" neg="0" out="især" type="" in="particolarmente"/>
+<alex pos="3" neg="0" out="I øjeblikket" type="" in="Attualmente"/>
+<alex pos="3" neg="0" out="infatti" type="" in="infatti"/>
+<alex pos="3" neg="0" out="indskød" type="" in="ha aggiunto"/>
+<alex pos="3" neg="0" out="indledte" type="" in="hanno iniziato"/>
+<alex pos="3" neg="0" out="indkomst" type="n" in="introiti"/>
+<alex pos="3" neg="0" out="indgivet" type="" in="inoltrato"/>
+<alex pos="3" neg="0" out="indgiver" type="" in="inoltrino"/>
+<alex pos="3" neg="0" out="igen" type="" in="igen"/>
+<alex pos="3" neg="0" out="igen" type="" in="di nuovo"/>
+<alex pos="3" neg="0" out="igennem" type="" in="attraverso"/>
+<alex pos="3" neg="0" out="Idag" type="" in="Oggi"/>
+<alex pos="3" neg="0" out="Hvor" type="" in="dove"/>
+<alex pos="3" neg="0" out="hvor" type="" in="dove"/>
+<alex pos="3" neg="0" out="hvor langt" type="" in="quanto"/>
+<alex pos="3" neg="0" out="hvordan" type="" in="modo con cui"/>
+<alex pos="3" neg="0" out="hvordan" type="" in="hvordan"/>
+<alex pos="3" neg="0" out="hvilket" type="" in="il che"/>
+<alex pos="3" neg="0" out="hvilken" type="" in="quale"/>
+<alex pos="3" neg="0" out="Hvad" type="" in="Cosa"/>
+<alex pos="3" neg="0" out="huslejens" type="" in="affitto"/>
+<alex pos="3" neg="0" out="hurtigt" type="" in="rapidamente"/>
+<alex pos="3" neg="0" out="Hun ved" type="" in="Sa"/>
+<alex pos="3" neg="0" out="hun" type="lv" in="Eva"/>
+<alex pos="3" neg="0" out="hun kan" type="" in="conosce"/>
+<alex pos="3" neg="0" out="hos" type="" in="presso"/>
+<alex pos="3" neg="0" out="hos" type="" in="in"/>
+<alex pos="3" neg="0" out="holdning" type="" in="orientamento"/>
+<alex pos="3" neg="0" out="holdning" type="" in="atteggiamento"/>
+<alex pos="3" neg="0" out="holder" type="" in="tiene"/>
+<alex pos="3" neg="0" out="Høj" type="" in="Høj"/>
+<alex pos="3" neg="0" out="Hmm" type="" in="Hum"/>
+<alex pos="3" neg="0" out="Hjorths" type="" in="Hjorth"/>
+<alex pos="3" neg="0" out="historisk" type="" in="storico"/>
+<alex pos="3" neg="0" out="herunder" type="" in="inclusi"/>
+<alex pos="3" neg="0" out="herunder også" type="f" in="senza tralasciare"/>
+<alex pos="3" neg="0" out="her" type="" in="her"/>
+<alex pos="3" neg="0" out="Herretøj" type="" in="Abiti da uomo"/>
+<alex pos="3" neg="0" out="hermetisk" type="" in="ermeticamente"/>
+<alex pos="3" neg="0" out="Hennes" type="" in="Hennes"/>
+<alex pos="3" neg="0" out="hende" type="" in="la"/>
+<alex pos="3" neg="0" out="helt" type="f" in="affatto"/>
+<alex pos="3" neg="0" out="heller ikke" type="" in="nemmeno"/>
+<alex pos="3" neg="0" out="havde" type="" in="ha avuto"/>
+<alex pos="3" neg="0" out="har varetaget" type="" in="abbiano svolto"/>
+<alex pos="3" neg="0" out="har" type="" in="sono"/>
+<alex pos="3" neg="0" out="har" type="" in="abbia"/>
+<alex pos="3" neg="0" out="har" type="f" in="trovano"/>
+<alex pos="3" neg="0" out="har" type="f" in="è"/>
+<alex pos="3" neg="0" out="han" type="lv" in="il ministro"/>
+<alex pos="3" neg="0" out="hans" type="" in="suoi"/>
+<alex pos="3" neg="0" out="hanen" type="s" in="dal"/>
+<alex pos="3" neg="0" out="hanen" type="" in="rubinetto"/>
+<alex pos="3" neg="0" out="ham" type="" in="lui"/>
+<alex pos="3" neg="0" out="Graversen" type="" in="Graversen"/>
+<alex pos="3" neg="0" out="Grænsebeløbet" type="s" in="la"/>
+<alex pos="3" neg="0" out="Grænsebeløbet" type="f" in="soglia limite"/>
+<alex pos="3" neg="0" out="gospel-sange" type="" in="gospel"/>
+<alex pos="3" neg="0" out="gøre" type="" in="fare"/>
+<alex pos="3" neg="0" out="gøre sig helt klart" type="" in="esser del tutto consapevoli"/>
+<alex pos="3" neg="0" out="gode" type="" in="di valore"/>
+<alex pos="3" neg="0" out="gode" type="" in="buoni"/>
+<alex pos="3" neg="0" out="gli" type="" in="gli"/>
+<alex pos="3" neg="0" out="glad" type="" in="felice"/>
+<alex pos="3" neg="0" out="gifte dig med mig" type="" in="sposarmi"/>
+<alex pos="3" neg="0" out="Gesner" type="" in="Gesner"/>
+<alex pos="3" neg="0" out="geografisk" type="" in="geografiche"/>
+<alex pos="3" neg="0" out="generation" type="" in="generazione"/>
+<alex pos="3" neg="0" out="gå" type="" in="gå"/>
+<alex pos="3" neg="0" out="gå" type="" in="andare"/>
+<alex pos="3" neg="0" out="ganske rigtig" type="" in="giustamente"/>
+<alex pos="3" neg="0" out="gået" type="" in="andate"/>
+<alex pos="3" neg="0" out="Gade" type="" in="Gade"/>
+<alex pos="3" neg="0" out="frifundet" type="" in="assolti"/>
+<alex pos="3" neg="0" out="frifindelse" type="" in="assoluzione"/>
+<alex pos="3" neg="0" out="fredstid" type="" in="periodo di pace"/>
+<alex pos="3" neg="0" out="fra" type="" in="dello"/>
+<alex pos="3" neg="0" out="fra" type="" in="della"/>
+<alex pos="3" neg="0" out="fra" type="" in="del"/>
+<alex pos="3" neg="0" out="fra" type="" in="da parte del"/>
+<alex pos="3" neg="0" out="Fra" type="" in="dai"/>
+<alex pos="3" neg="0" out="Frankenstein" type="" in="Frankenstein"/>
+<alex pos="3" neg="0" out="forventer" type="" in="prevede"/>
+<alex pos="3" neg="0" out="forurenet" type="" in="inquinato"/>
+<alex pos="3" neg="0" out="før" type="" in="prima"/>
+<alex pos="3" neg="0" out="for" type="" in="per quanto riguarda"/>
+<alex pos="3" neg="0" out="for" type="" in="della"/>
+<alex pos="3" neg="0" out="for" type="" in="degli"/>
+<alex pos="3" neg="0" out="for" type="" in="ai"/>
+<alex pos="3" neg="0" out="for" type="" in="a"/>
+<alex pos="3" neg="0" out="fortrinlige" type="" in="eccellente"/>
+<alex pos="3" neg="0" out="fortalte" type="" in="raccontava"/>
+<alex pos="3" neg="0" out="først" type="" in="già"/>
+<alex pos="3" neg="0" out="først og fremmest" type="" in="per prima"/>
+<alex pos="3" neg="0" out="første" type="" in="primo"/>
+<alex pos="3" neg="0" out="Forslaget" type="s" in="La"/>
+<alex pos="3" neg="0" out="Forslaget" type="" in="proposta"/>
+<alex pos="3" neg="0" out="forskellige" type="" in="forskellige"/>
+<alex pos="3" neg="0" out="forskellen" type="s" in="della"/>
+<alex pos="3" neg="0" out="forskellen" type="" in="differenza"/>
+<alex pos="3" neg="0" out="forsamlingshuse" type="" in="centri sociali"/>
+<alex pos="3" neg="0" out="forretningsfolk" type="f" in="investitori"/>
+<alex pos="3" neg="0" out="for_nylig" type="" in="recentemente"/>
+<alex pos="3" neg="0" out="formuen" type="sn" in="dei"/>
+<alex pos="3" neg="0" out="formuen" type="n" in="capitali"/>
+<alex pos="3" neg="0" out="for livet" type="f" in="indimenticabile"/>
+<alex pos="3" neg="0" out="for længst" type="" in="da molto tempo"/>
+<alex pos="3" neg="0" out="forhold" type="" in="paragone"/>
+<alex pos="3" neg="0" out="forhenværende" type="" in="ex"/>
+<alex pos="3" neg="0" out="forberedt" type="" in="preparati"/>
+<alex pos="3" neg="0" out="foran" type="" in="davanti alla"/>
+<alex pos="3" neg="0" out="forældrene" type="s" in="i"/>
+<alex pos="3" neg="0" out="forældrene" type="" in="genitori"/>
+<alex pos="3" neg="0" out="folk" type="" in="gente"/>
+<alex pos="3" neg="0" out="folk" type="f" in="membri"/>
+<alex pos="3" neg="0" out="folk" type="ds" in="la"/>
+<alex pos="3" neg="0" out="FLS'" type="" in="FLS"/>
+<alex pos="3" neg="0" out="FLS" type="d" in="La"/>
+<alex pos="3" neg="0" out="fleste" type="f" in="maggior parte"/>
+<alex pos="3" neg="0" out="fiskeriministeren" type="s" in="il"/>
+<alex pos="3" neg="0" out="fiskeriministeren" type="" in="ministro della pesca"/>
+<alex pos="3" neg="0" out="finansieret" type="" in="finanziato"/>
+<alex pos="3" neg="0" out="fik" type="" in="è stato condannato ad"/>
+<alex pos="3" neg="0" out="fik" type="" in="è stato condannato a"/>
+<alex pos="3" neg="0" out="Fernet" type="" in="Fernet"/>
+<alex pos="3" neg="0" out="fem" type="" in="5"/>
+<alex pos="3" neg="0" out="fedt" type="n" in="lipidi"/>
+<alex pos="3" neg="0" out="få" type="" in="ricevere"/>
+<alex pos="3" neg="0" out="få" type="" in="pochi"/>
+<alex pos="3" neg="0" out="få" type="f" in="venga"/>
+<alex pos="3" neg="0" out="Fast" type="" in="fisso"/>
+<alex pos="3" neg="0" out="fastlægger" type="" in="stabilisce"/>
+<alex pos="3" neg="0" out="fastansat" type="" in="assunta regolarmente"/>
+<alex pos="3" neg="0" out="far" type="" in="padre"/>
+<alex pos="3" neg="0" out="får" type="f" in="contrae"/>
+<alex pos="3" neg="0" out="Faraos" type="s" in="del"/>
+<alex pos="3" neg="0" out="Faraos" type="" in="faraone"/>
+<alex pos="3" neg="0" out="Fanø" type="" in="Fanø"/>
+<alex pos="3" neg="0" out="falkehovede" type="" in="testa di falcone"/>
+<alex pos="3" neg="0" out="fagmand" type="" in="esperto"/>
+<alex pos="3" neg="0" out="fængsler" type="" in="carceri"/>
+<alex pos="3" neg="0" out="fælles" type="" in="fælles"/>
+<alex pos="3" neg="0" out="fællesskabets" type="" in="forma coabitativa"/>
+<alex pos="3" neg="0" out="ét" type="" in="uno"/>
+<alex pos="3" neg="0" out="et skridt på vejen" type="f" in="un aiuto"/>
+<alex pos="3" neg="0" out="etablere" type="" in="costituire"/>
+<alex pos="3" neg="0" out="Ester" type="" in="Ester"/>
+<alex pos="3" neg="0" out="ER" type="" in="ER"/>
+<alex pos="3" neg="0" out="er" type="" in="consiste"/>
+<alex pos="3" neg="0" out="er" type="f" in="debba ritenersi"/>
+<alex pos="3" neg="0" out="Eriksen" type="" in="Eriksen"/>
+<alex pos="3" neg="0" out="er det" type="" in="sono"/>
+<alex pos="3" neg="0" out="er afsluttet" type="mvd" in="si concluda"/>
+<alex pos="3" neg="0" out="En" type="" in="Uno"/>
+<alex pos="3" neg="0" out="En" type="" in="Una"/>
+<alex pos="3" neg="0" out="En" type="" in="En"/>
+<alex pos="3" neg="0" out="en" type="en=un'" in="un’esperienza"/>
+<alex pos="3" neg="0" out="en-to" type="" in="una due"/>
+<alex pos="3" neg="0" out="enslydende" type="" in="concordi"/>
+<alex pos="3" neg="0" out="enlige" type="" in="singoli"/>
+<alex pos="3" neg="0" out="enkeltpersoner" type="" in="singole persone"/>
+<alex pos="3" neg="0" out="engelske" type="" in="inglese"/>
+<alex pos="3" neg="0" out="engagementer" type="" in="investimenti"/>
+<alex pos="3" neg="0" out="en finger" type="" in="en finger"/>
+<alex pos="3" neg="0" out="endnu" type="" in="ancora"/>
+<alex pos="3" neg="0" out="endnu længere" type="" in="ulteriormente"/>
+<alex pos="3" neg="0" out="emessa" type="" in="emessa"/>
+<alex pos="3" neg="0" out="Eller" type="" in="o"/>
+<alex pos="3" neg="0" out="ellers" type="" in="ellers"/>
+<alex pos="3" neg="0" out="eksperter" type="" in="esperti"/>
+<alex pos="3" neg="0" out="eksisterende" type="" in="esistente"/>
+<alex pos="3" neg="0" out="eksempel" type="" in="esempio"/>
+<alex pos="3" neg="0" out="ejer" type="" in="possiede"/>
+<alex pos="3" neg="0" out="ejer" type="" in="è proprietari del"/>
+<alex pos="3" neg="0" out="ejermæssigt" type="" in="dal punto di vista della proprietà"/>
+<alex pos="3" neg="0" out="ejendomsmægler" type="" in="agente immobiliare"/>
+<alex pos="3" neg="0" out="egentlige" type="" in="vere e proprie"/>
+<alex pos="3" neg="0" out="EF-medlemsland" type="n" in="paesi membri"/>
+<alex pos="3" neg="0" out="EF-landene" type="s" in="i"/>
+<alex pos="3" neg="0" out="een" type="" in="una"/>
+<alex pos="3" neg="0" out="Eefsen" type="" in="Eefsen"/>
+<alex pos="3" neg="0" out="ed" type="" in="ed"/>
+<alex pos="3" neg="0" out="economico" type="" in="economico"/>
+<alex pos="3" neg="0" out="EBM" type="e" in="FBM"/>
+<alex pos="3" neg="0" out="du" type="f" in="il richiedente"/>
+<alex pos="3" neg="0" out="drik" type="" in="bere"/>
+<alex pos="3" neg="0" out="dramatiske" type="" in="drammatica"/>
+<alex pos="3" neg="0" out="dommen" type="s" in="alla"/>
+<alex pos="3" neg="0" out="dollar" type="" in="dollari"/>
+<alex pos="3" neg="0" out="dog" type="wo" in="Tuttavia"/>
+<alex pos="3" neg="0" out="død" type="" in="morto"/>
+<alex pos="3" neg="0" out="dobbeltkrone" type="" in="doppia corona"/>
+<alex pos="3" neg="0" out="dl" type="" in="decilitro"/>
+<alex pos="3" neg="0" out="dit" type="f" in="dal richiedente"/>
+<alex pos="3" neg="0" out="distribueres ligeligt ud" type="" in="spargersi"/>
+<alex pos="3" neg="0" out="disse" type="" in="queste"/>
+<alex pos="3" neg="0" out="direkte" type="f" in="caldo"/>
+<alex pos="3" neg="0" out="din" type="s" in="l'"/>
+<alex pos="3" neg="0" out="din" type="s" in="i"/>
+<alex pos="3" neg="0" out="din" type="f" in="suo"/>
+<alex pos="3" neg="0" out="din" type="f" in="richiedente"/>
+<alex pos="3" neg="0" out="de" type="s" in="degli"/>
+<alex pos="3" neg="0" out="de" type="s" in="ai"/>
+<alex pos="3" neg="0" out="de" type="lv" in="i dirigenti cinesi"/>
+<alex pos="3" neg="0" out="De" type="" in="Le"/>
+<alex pos="3" neg="0" out="De" type="" in="i"/>
+<alex pos="3" neg="0" out="De" type="" in="gli"/>
+<alex pos="3" neg="0" out="de" type="" in="delle"/>
+<alex pos="3" neg="0" out="De" type="" in="De"/>
+<alex pos="3" neg="0" out="de" type="f" in="ogni"/>
+<alex pos="3" neg="0" out="Det vil hindre" type="" in="impedirebbe"/>
+<alex pos="3" neg="0" out="det" type="sn" in="delle"/>
+<alex pos="3" neg="0" out="Det" type="s" in="dal"/>
+<alex pos="3" neg="0" out="det" type="" in="l'"/>
+<alex pos="3" neg="0" out="DET" type="" in="Ciò"/>
+<alex pos="3" neg="0" out="dette" type="" in="questo"/>
+<alex pos="3" neg="0" out="de troede" type="" in="credevano"/>
+<alex pos="3" neg="0" out="Det nye" type="" in="La novità"/>
+<alex pos="3" neg="0" out="det fine tøj" type="n" in="gli abiti eleganti"/>
+<alex pos="3" neg="0" out="Det er" type="" in="E'"/>
+<alex pos="3" neg="0" out="det der kaldes for" type="" in="det der kaldes for"/>
+<alex pos="3" neg="0" out="desuden" type="wo" in="Inoltre"/>
+<alex pos="3" neg="0" out="Der" type="" in="c' è"/>
+<alex pos="3" neg="0" out="Der" type="" in="C'"/>
+<alex pos="3" neg="0" out="der tilsættes" type="mcp" in="aggiunte"/>
+<alex pos="3" neg="0" out="der skal indgå i" type="f+mvi" in="da utilizzarsi nel"/>
+<alex pos="3" neg="0" out="der indgives" type="mvp" in="inoltrata"/>
+<alex pos="3" neg="0" out="deres" type="s" in="il"/>
+<alex pos="3" neg="0" out="deres" type="lv" in="le svendite-"/>
+<alex pos="3" neg="0" out="deres" type="" in="proprio"/>
+<alex pos="3" neg="0" out="der er velegnet" type="mvp" in="indicati"/>
+<alex pos="3" neg="0" out="der er" type="" in="der er"/>
+<alex pos="3" neg="0" out="der er tilpasset" type="mvp" in="resi efficienti per"/>
+<alex pos="3" neg="0" out="den" type="s" in="al"/>
+<alex pos="3" neg="0" out="den" type="" in="alla"/>
+<alex pos="3" neg="0" out="Denne" type="" in="questa"/>
+<alex pos="3" neg="0" out="Den Himmelske Freds Plads" type="" in="Piazza Tienanmen"/>
+<alex pos="3" neg="0" out="den ene" type="d" in="uno"/>
+<alex pos="3" neg="0" out="dem" type="" in="loro"/>
+<alex pos="3" neg="0" out="dem" type="" in="li"/>
+<alex pos="3" neg="0" out="dem" type="" in="dem"/>
+<alex pos="3" neg="0" out="De har" type="" in="hanno"/>
+<alex pos="3" neg="0" out="daværende" type="" in="allora"/>
+<alex pos="3" neg="0" out="da" type="" in="nel momento in cui"/>
+<alex pos="3" neg="0" out="Da" type="" in="Da"/>
+<alex pos="3" neg="0" out="danske" type="" in="danese"/>
+<alex pos="3" neg="0" out="Danida" type="" in="Danida"/>
+<alex pos="3" neg="0" out="danese" type="" in="danese"/>
+<alex pos="3" neg="0" out="dagen" type="s" in="al"/>
+<alex pos="3" neg="0" out="Daells" type="" in="Daells"/>
+<alex pos="3" neg="0" out="dække" type="" in="coprire"/>
+<alex pos="3" neg="0" out="complessivi" type="" in="complessivi"/>
+<alex pos="3" neg="0" out="Cheops" type="" in="Cheope"/>
+<alex pos="3" neg="0" out="centrale" type="" in="centrali"/>
+<alex pos="3" neg="0" out="cement-fabrikker" type="" in="fabbriche di cemento"/>
+<alex pos="3" neg="0" out="Byretsdommer" type="" in="giudice del tribunale di primo grado"/>
+<alex pos="3" neg="0" out="byfester" type="" in="feste di paese"/>
+<alex pos="3" neg="0" out="bugnende" type="" in="traboccante"/>
+<alex pos="3" neg="0" out="Bruxelles" type="" in="Bruxelles"/>
+<alex pos="3" neg="0" out="bruttoetageareal" type="" in="superficie abitabile"/>
+<alex pos="3" neg="0" out="brugsret" type="" in="diritto all' usufrutto"/>
+<alex pos="3" neg="0" out="bror" type="" in="fratello"/>
+<alex pos="3" neg="0" out="Brohus" type="" in="Brohus"/>
+<alex pos="3" neg="0" out="Branca" type="" in="Branca"/>
+<alex pos="3" neg="0" out="bor" type="" in="vive"/>
+<alex pos="3" neg="0" out="bor" type="" in="abitiamo"/>
+<alex pos="3" neg="0" out="børn" type="" in="børn"/>
+<alex pos="3" neg="0" out="borgerlige" type="" in="liberali"/>
+<alex pos="3" neg="0" out="Boligydelsen" type="" in="contributi per l' affitto"/>
+<alex pos="3" neg="0" out="bolig" type="" in="appartamento"/>
+<alex pos="3" neg="0" out="boligs" type="" in="appartamento"/>
+<alex pos="3" neg="0" out="boligen" type="s" in="l'"/>
+<alex pos="3" neg="0" out="boligen" type="" in="edificio"/>
+<alex pos="3" neg="0" out="bofællesskab" type="" in="abitazione in cooperativa"/>
+<alex pos="3" neg="0" out="bofællesskabet" type="" in="comunità residenziale"/>
+<alex pos="3" neg="0" out="bliver" type="" in="è"/>
+<alex pos="3" neg="0" out="bliver" type="" in="bliver"/>
+<alex pos="3" neg="0" out="blev lagt" type="mvd" in="ha messo"/>
+<alex pos="3" neg="0" out="blev fundet frem" type="f" in="si sono indossati"/>
+<alex pos="3" neg="0" out="bl.a." type="" in="fra l’altro"/>
+<alex pos="3" neg="0" out="bistandsklient" type="f" in="disoccupata"/>
+<alex pos="3" neg="0" out="bil" type="" in="auto"/>
+<alex pos="3" neg="0" out="betyder" type="" in="significa"/>
+<alex pos="3" neg="0" out="betragtes" type="" in="vengono considerate"/>
+<alex pos="3" neg="0" out="betale" type="" in="pagare"/>
+<alex pos="3" neg="0" out="bestyrelsesmedlemmer" type="" in="membri del consiglio d' amministrazione"/>
+<alex pos="3" neg="0" out="Bestyrelsesformanden" type="s" in="Il"/>
+<alex pos="3" neg="0" out="Bestyrelsesformanden" type="" in="presidente"/>
+<alex pos="3" neg="0" out="bestyrelsesarbejde" type="" in="lavoro di membri"/>
+<alex pos="3" neg="0" out="beregningen" type="s" in="il"/>
+<alex pos="3" neg="0" out="beregningen" type="" in="calcolo"/>
+<alex pos="3" neg="0" out="beregnes" type="" in="viene calcolato"/>
+<alex pos="3" neg="0" out="beregnede" type="" in="calcolata"/>
+<alex pos="3" neg="0" out="benyttede" type="" in="abbiano impiegato"/>
+<alex pos="3" neg="0" out="Bemærk" type="f" in="Importante"/>
+<alex pos="3" neg="0" out="bemærkninger" type="" in="osservazioni"/>
+<alex pos="3" neg="0" out="Bella" type="" in="Bella"/>
+<alex pos="3" neg="0" out="behovet" type="" in="behovet"/>
+<alex pos="3" neg="0" out="behandlingen" type="s" in="nel"/>
+<alex pos="3" neg="0" out="behandles" type="" in="verrà trattata"/>
+<alex pos="3" neg="0" out="barn" type="" in="bambino"/>
+<alex pos="3" neg="0" out="bank- og sparekasseloven" type="" in="legge bancaria"/>
+<alex pos="3" neg="0" out="banken" type="s" in="alla"/>
+<alex pos="3" neg="0" out="Banken" type="" in="Banken"/>
+<alex pos="3" neg="0" out="banken" type="" in="banca"/>
+<alex pos="3" neg="0" out="bag" type="f" in="al"/>
+<alex pos="3" neg="0" out="både" type="" in="sia"/>
+<alex pos="3" neg="0" out="aver" type="" in="aver"/>
+<alex pos="3" neg="0" out=", at" type="" in=", at"/>
+<alex pos="3" neg="0" out="at" type="f" in="nel fatto che"/>
+<alex pos="3" neg="0" out="at sikre sig" type="" in="assicurarsi"/>
+<alex pos="3" neg="0" out="at han tilbød" type="mvi" in="offrire"/>
+<alex pos="3" neg="0" out="at arbejde" type="" in="lavorare"/>
+<alex pos="3" neg="0" out="asylansøgning" type="" in="domanda d’asilo"/>
+<alex pos="3" neg="0" out="asylansøgning" type="" in="domanda"/>
+<alex pos="3" neg="0" out="asylansøger" type="" in="rifugiato"/>
+<alex pos="3" neg="0" out="A/S" type="" in="A/S"/>
+<alex pos="3" neg="0" out="assunto" type="" in="assunto"/>
+<alex pos="3" neg="0" out="år" type="" in="år"/>
+<alex pos="3" neg="0" out="år" type="ds" in="l'"/>
+<alex pos="3" neg="0" out="arbejde" type="" in="impegno"/>
+<alex pos="3" neg="0" out="arbejdede jeg" type="" in="Ho lavorato"/>
+<alex pos="3" neg="0" out="april" type="" in="aprile"/>
+<alex pos="3" neg="0" out="ansøgning" type="" in="domanda"/>
+<alex pos="3" neg="0" out="ansøgningen" type="s" in="la"/>
+<alex pos="3" neg="0" out="ansøgningen" type="" in="domanda"/>
+<alex pos="3" neg="0" out="ansatte" type="mvi" in="aver assunto"/>
+<alex pos="3" neg="0" out="anlæg" type="" in="impianto"/>
+<alex pos="3" neg="0" out="andre" type="" in="andre"/>
+<alex pos="3" neg="0" out="andre" type="" in="altre"/>
+<alex pos="3" neg="0" out="Andersen" type="" in="Andersen"/>
+<alex pos="3" neg="0" out="andelsbofællesskaberne" type="s" in="le"/>
+<alex pos="3" neg="0" out="andelsbofællesskaberne" type="" in="abitazioni in cooperativa"/>
+<alex pos="3" neg="0" out="anbefaler" type="" in="raccomanda"/>
+<alex pos="3" neg="0" out="amtslige" type="" in="provinciali"/>
+<alex pos="3" neg="0" out="&amp;" type="e" in="&"/>
+<alex pos="3" neg="0" out="altså" type="" in="altså"/>
+<alex pos="3" neg="0" out="al pagamento di" type="" in="al pagamento di"/>
+<alex pos="3" neg="0" out="alle" type="" in="tutte"/>
+<alex pos="3" neg="0" out="alene" type="" in="da solo"/>
+<alex pos="3" neg="0" out="Akureyri" type="" in="Akureyri"/>
+<alex pos="3" neg="0" out="Akureyri  - " type="" in="Akureyri-"/>
+<alex pos="3" neg="0" out="aktiv" type="f" in="presente"/>
+<alex pos="3" neg="0" out="aktieselskabsloven" type="s" in="della"/>
+<alex pos="3" neg="0" out="aktieselskabsloven" type="" in="normativa in materia di società per azioni"/>
+<alex pos="3" neg="0" out="ajourføre" type="" in="aggiornare"/>
+<alex pos="3" neg="0" out="AGG" type="" in="AGG"/>
+<alex pos="3" neg="0" out="af" type="" in="dalle"/>
+<alex pos="3" neg="0" out="af" type="" in="dalla"/>
+<alex pos="3" neg="0" out="af" type="" in="con"/>
+<alex pos="3" neg="0" out="af" type="f" in="in"/>
+<alex pos="3" neg="0" out="af særlig grov karakter" type="f" in="grave"/>
+<alex pos="3" neg="0" out="af den konvention" type="" in="dell’accordo"/>
+<alex pos="3" neg="0" out="Ægypteren" type="" in="l’Egiziano"/>
+<alex pos="3" neg="0" out="Ægypten" type="" in="Egitto"/>
+<alex pos="3" neg="0" out="ægtepar" type="" in="coppie"/>
+<alex pos="3" neg="0" out="advokatfirmaet" type="s" in="dello"/>
+<alex pos="3" neg="0" out="advokatfirmaet" type="" in="studio legale"/>
+<alex pos="3" neg="0" out="Ad" type="" in="Ad"/>
+<alex pos="3" neg="0" out="adeguatamente" type="" in="adeguatamente"/>
+<alex pos="3" neg="0" out="93 1/3 %" type="" in="93,33%"/>
+<alex pos="3" neg="0" out="90.000" type="" in="90.000"/>
+<alex pos="3" neg="0" out="85" type="" in="85"/>
+<alex pos="3" neg="0" out="6" type="" in="6"/>
+<alex pos="3" neg="0" out="6." type="" in="6 ."/>
+<alex pos="3" neg="0" out="65" type="" in="65"/>
+<alex pos="3" neg="0" out="60" type="" in="60"/>
+<alex pos="3" neg="0" out="57 %" type="" in="57%"/>
+<alex pos="3" neg="0" out="50 %" type="" in="50%"/>
+<alex pos="3" neg="0" out="500" type="" in="500"/>
+<alex pos="3" neg="0" out="46" type="" in="46"/>
+<alex pos="3" neg="0" out="45" type="" in="45"/>
+<alex pos="3" neg="0" out="300" type="" in="300"/>
+<alex pos="3" neg="0" out="2" type="" in="2"/>
+<alex pos="3" neg="0" out="22." type="" in="22"/>
+<alex pos="3" neg="0" out="20-30" type="" in="20-30"/>
+<alex pos="3" neg="0" out="1." type="" in="primo"/>
+<alex pos="3" neg="0" out="1." type="" in="1"/>
+<alex pos="3" neg="0" out="1993" type="" in="1993"/>
+<alex pos="3" neg="0" out="1992" type="wo" in="1992"/>
+<alex pos="3" neg="0" out="1991" type="" in="1991"/>
+<alex pos="3" neg="0" out="1989" type="" in="1989"/>
+<alex pos="3" neg="0" out="1984" type="" in="1984"/>
+<alex pos="3" neg="0" out="1965" type="" in="1965"/>
+<alex pos="3" neg="0" out="1964" type="" in="1964"/>
+<alex pos="3" neg="0" out="1906" type="e" in="1909"/>
+<alex pos="3" neg="0" out="1600" type="" in="1600"/>
+<alex pos="3" neg="0" out="15" type="" in="15"/>
+<alex pos="3" neg="0" out="130.000" type="" in="130.000"/>
+<alex pos="3" neg="0" out="12" type="" in="12"/>
+<alex pos="3" neg="0" out="11 2/3 %" type="" in="11,66%"/>
+<alex pos="3" neg="0" out="10" type="" in="10"/>
+<alex pos="2" neg="0" out="Winther" type="" in="Winther"/>
+<alex pos="2" neg="0" out="W-7530" type="" in="W-7530"/>
+<alex pos="2" neg="0" out="V." type="" in="V"/>
+<alex pos="2" neg="0" out="vore" type="s" in="i"/>
+<alex pos="2" neg="0" out="Vi taler" type="" in="Parliamo"/>
+<alex pos="2" neg="0" out="Vi skal" type="f" in="sarà necessario"/>
+<alex pos="2" neg="0" out="vise" type="" in="mostrare"/>
+<alex pos="2" neg="0" out="viser" type="" in="mostra"/>
+<alex pos="2" neg="0" out="Virksomheden" type="" in="L’azienda"/>
+<alex pos="2" neg="0" out="virksomhedens" type="" in="nell’azienda"/>
+<alex pos="2" neg="0" out="vil være" type="" in="diventerà"/>
+<alex pos="2" neg="0" out="vil være" type="f" in="passerà"/>
+<alex pos="2" neg="0" out="vil" type="" in="intende"/>
+<alex pos="2" neg="0" out="ville hun gerne" type="" in="Ha preferito"/>
+<alex pos="2" neg="0" out="Vi kan fornemme" type="" in="abbiamo la netta impressione"/>
+<alex pos="2" neg="0" out="Vi har" type="" in="Abbiamo"/>
+<alex pos="2" neg="0" out="vi begyndte" type="" in="abbiamo incominciato"/>
+<alex pos="2" neg="0" out="via" type="" in="via"/>
+<alex pos="2" neg="0" out="Vesterbrogade" type="" in="Vesterbrogade"/>
+<alex pos="2" neg="0" out="verden" type="d+s" in="il mondo"/>
+<alex pos="2" neg="0" out="verdens" type="" in="mondo"/>
+<alex pos="2" neg="0" out="ventetiden" type="s" in="l'"/>
+<alex pos="2" neg="0" out="ventetiden" type="" in="attesa"/>
+<alex pos="2" neg="0" out="ventelisterne" type="s" in="delle"/>
+<alex pos="2" neg="0" out="ventelisterne" type="" in="liste d' attesa"/>
+<alex pos="2" neg="0" out="ventelisten" type="d" in="lista d' attesa"/>
+<alex pos="2" neg="0" out="vendt hjem fra" type="f" in="frequentato"/>
+<alex pos="2" neg="0" out="velvoksen" type="" in="ben cresciuto"/>
+<alex pos="2" neg="0" out="Vejle" type="" in="Vejle"/>
+<alex pos="2" neg="0" out="vejer" type="" in="pesa"/>
+<alex pos="2" neg="0" out="ved" type="" in="sa"/>
+<alex pos="2" neg="0" out="ved" type="" in="nel"/>
+<alex pos="2" neg="0" out="ved" type="" in="all'"/>
+<alex pos="2" neg="0" out="vedtægterne" type="s" in="gli"/>
+<alex pos="2" neg="0" out="vedtægterne" type="" in="statuti"/>
+<alex pos="2" neg="0" out="var" type="" in="ero"/>
+<alex pos="2" neg="0" out="var" type="" in="è"/>
+<alex pos="2" neg="0" out="vari" type="" in="vari"/>
+<alex pos="2" neg="0" out="varer" type="" in="prodotti"/>
+<alex pos="2" neg="0" out="valgte hun" type="" in="ha scelto"/>
+<alex pos="2" neg="0" out="Valby" type="" in="Valby"/>
+<alex pos="2" neg="0" out="vaflerne" type="s" in="le"/>
+<alex pos="2" neg="0" out="vaflerne" type="" in="cialde"/>
+<alex pos="2" neg="0" out="været" type="" in="stato"/>
+<alex pos="2" neg="0" out="vælgerne" type="s" in="gli"/>
+<alex pos="2" neg="0" out="vælgerne" type="" in="elettori"/>
+<alex pos="2" neg="0" out="vækst" type="" in="crescita"/>
+<alex pos="2" neg="0" out="USA" type="" in="Stati Uniti"/>
+<alex pos="2" neg="0" out="Unionstraktaten" type="s" in="il"/>
+<alex pos="2" neg="0" out="Unionstraktaten" type="" in="Trattato dell’Unione Europea"/>
+<alex pos="2" neg="0" out="unge" type="" in="giovani"/>
+<alex pos="2" neg="0" out="unge" type="" in="bambino"/>
+<alex pos="2" neg="0" out="unger" type="" in="bambini"/>
+<alex pos="2" neg="0" out="unger" type="ds" in="i"/>
+<alex pos="2" neg="0" out="under" type="" in="alle"/>
+<alex pos="2" neg="0" out="under" type="" in="al di sotto dei"/>
+<alex pos="2" neg="0" out="umiddelbart efter" type="" in="seguenti alle"/>
+<alex pos="2" neg="0" out="Uffe" type="" in="Uffe"/>
+<alex pos="2" neg="0" out="udvikling" type="" in="sviluppo"/>
+<alex pos="2" neg="0" out="udvidet" type="" in="ampliato"/>
+<alex pos="2" neg="0" out="UDSENDES" type="" in="TRASMETTERSI"/>
+<alex pos="2" neg="0" out="udsalgsuge" type="" in="settimana dei saldi"/>
+<alex pos="2" neg="0" out="udsalget" type="sn" in="i"/>
+<alex pos="2" neg="0" out="udmøntede sig" type="f" in="è culminato"/>
+<alex pos="2" neg="0" out="udledning" type="" in="emissione"/>
+<alex pos="2" neg="0" out="udgør" type="mvd" in="dall' è data"/>
+<alex pos="2" neg="0" out="udgivelsen" type="s" in="la"/>
+<alex pos="2" neg="0" out="udgivelsen" type="" in="pubblicazione"/>
+<alex pos="2" neg="0" out="ude" type="" in="fuori"/>
+<alex pos="2" neg="0" out="uden" type="" in="uden"/>
+<alex pos="2" neg="0" out="Tyskland" type="" in="Germania"/>
+<alex pos="2" neg="0" out="%" type="" in="per cento"/>
+<alex pos="2" neg="0" out="." type="" in="dice.Ho"/>
+<alex pos="2" neg="0" out="," type="" in="come"/>
+<alex pos="2" neg="0" out="( ? . )" type="" in="( ? . )"/>
+<alex pos="2" neg="0" out=";" type="" in=";"/>
+<alex pos="2" neg="0" out="," type="" in=";"/>
+<alex pos="2" neg="0" out="." type="f" in="e"/>
+<alex pos="2" neg="0" out="," type="f" in="a"/>
+<alex pos="2" neg="0" out=":" type="f" in="."/>
+<alex pos="2" neg="0" out="," type="f" in=":"/>
+<alex pos="2" neg="0" out=" - " type="f" in="."/>
+<alex pos="2" neg="0" out="tsk." type="" in="cucchiaino"/>
+<alex pos="2" neg="0" out="trattoria" type="" in="trattoria"/>
+<alex pos="2" neg="0" out="traktaten" type="s" in="nel"/>
+<alex pos="2" neg="0" out="traktatens" type="s" in="della"/>
+<alex pos="2" neg="0" out="trak på skuldrene" type="" in="alzò le spalle"/>
+<alex pos="2" neg="0" out="tradition" type="" in="tradizione"/>
+<alex pos="2" neg="0" out="To" type="" in="due"/>
+<alex pos="2" neg="0" out="tørret" type="" in="secca"/>
+<alex pos="2" neg="0" out="toptrænede" type="" in="alleatissimi"/>
+<alex pos="2" neg="0" out="ton" type="" in="tonnellate"/>
+<alex pos="2" neg="0" out="tøjforretningen" type="s" in="del"/>
+<alex pos="2" neg="0" out="tøjforretningen" type="" in="negozio di abiti"/>
+<alex pos="2" neg="0" out="Toiletter" type="" in="Bagni"/>
+<alex pos="2" neg="0" out="TOFTESKOV" type="" in="TOFTESKOV"/>
+<alex pos="2" neg="0" out="timer" type="" in="ore"/>
+<alex pos="2" neg="0" out="til" type="" in="in merito alla"/>
+<alex pos="2" neg="0" out="til" type="" in="dei"/>
+<alex pos="2" neg="0" out="til" type="" in="con"/>
+<alex pos="2" neg="0" out="tilsvarende" type="" in="dello stesso tipo"/>
+<alex pos="2" neg="0" out="tilsæt" type="" in="aggiungete"/>
+<alex pos="2" neg="0" out="Til lykke" type="" in="Congratulazioni"/>
+<alex pos="2" neg="0" out="til hinanden" type="" in="til hinanden"/>
+<alex pos="2" neg="0" out="tilfredshed" type="" in="apprezzamento"/>
+<alex pos="2" neg="0" out="til at" type="" in="per"/>
+<alex pos="2" neg="0" out="tidsmæssigt" type="f" in="tempi"/>
+<alex pos="2" neg="0" out="tidl." type="" in="ex"/>
+<alex pos="2" neg="0" out="tidligt" type="wo" in="In età relativamente giovane"/>
+<alex pos="2" neg="0" out="tidligere udarbejdede" type="f" in="attuali"/>
+<alex pos="2" neg="0" out="tidligere" type="" in="precedenti"/>
+<alex pos="2" neg="0" out="tidligere" type="" in="precedente"/>
+<alex pos="2" neg="0" out="tiden" type="s" in="i"/>
+<alex pos="2" neg="0" out="tiden" type="n" in="tempi"/>
+<alex pos="2" neg="0" out="Terp" type="" in="Terp"/>
+<alex pos="2" neg="0" out="tenutasi" type="" in="tenutasi"/>
+<alex pos="2" neg="0" out="tegnet" type="" in="disegnato"/>
+<alex pos="2" neg="0" out="TEBA's" type="s" in="Nel"/>
+<alex pos="2" neg="0" out="talte jeg" type="f" in="ho proposto"/>
+<alex pos="2" neg="0" out="tallene" type="f" in="risultati"/>
+<alex pos="2" neg="0" out="tale" type="" in="parlare"/>
+<alex pos="2" neg="0" out="tage" type="" in="trasferirsi"/>
+<alex pos="2" neg="0" out="tages der udgangspunkt i" type="" in="si parte dalla"/>
+<alex pos="2" neg="0" out="tage rundt" type="" in="andare in giro"/>
+<alex pos="2" neg="0" out="system" type="" in="system"/>
+<alex pos="2" neg="0" out="syntes" type="" in="sembra"/>
+<alex pos="2" neg="0" out="synge" type="mcn" in="cantante"/>
+<alex pos="2" neg="0" out="synger gerne med på samme sang" type="f" in="ha la stessa opinione"/>
+<alex pos="2" neg="0" out="sygehusvæsenet" type="s" in="il"/>
+<alex pos="2" neg="0" out="sygehusvæsenet" type="" in="sistema ospedaliero"/>
+<alex pos="2" neg="0" out="Sydkina" type="d" in="nella"/>
+<alex pos="2" neg="0" out="svende" type="f" in="orefici"/>
+<alex pos="2" neg="0" out="svendeprøver" type="" in="esami d' apprendistato"/>
+<alex pos="2" neg="0" out="svar" type="" in="risposta"/>
+<alex pos="2" neg="0" out="svarer" type="" in="rispondono"/>
+<alex pos="2" neg="0" out="svarede" type="f" in="disse"/>
+<alex pos="2" neg="0" out="svært" type="" in="difficile"/>
+<alex pos="2" neg="0" out="suo" type="" in="suo"/>
+<alex pos="2" neg="0" out="sundhedstyrelsen" type="s" in="la"/>
+<alex pos="2" neg="0" out="sundhedstyrelsen" type="" in="Direzione generale del servizio sanitario"/>
+<alex pos="2" neg="0" out="sundhedstjenesten" type="" in="servizio sanitario"/>
+<alex pos="2" neg="0" out="successivi" type="" in="successivi"/>
+<alex pos="2" neg="0" out="Subito" type="" in="Subito"/>
+<alex pos="2" neg="0" out="subire" type="" in="subire"/>
+<alex pos="2" neg="0" out="Stuer" type="" in="Stuer"/>
+<alex pos="2" neg="0" out="studenteroprør" type="n" in="manifestazioni studentesche"/>
+<alex pos="2" neg="0" out="stor" type="" in="grande"/>
+<alex pos="2" neg="0" out="største" type="" in="più grande"/>
+<alex pos="2" neg="0" out="større" type="f" in="grande"/>
+<alex pos="2" neg="0" out="Stig" type="" in="Stig"/>
+<alex pos="2" neg="0" out="stato" type="" in="stato"/>
+<alex pos="2" neg="0" out="stati" type="" in="stati"/>
+<alex pos="2" neg="0" out="starten" type="" in="inizio"/>
+<alex pos="2" neg="0" out="starte en produktion" type="f" in="prodotti entrare nel mercato con propri"/>
+<alex pos="2" neg="0" out="Ständige" type="" in="Ständige"/>
+<alex pos="2" neg="0" out="stadig" type="f+wo" in="Anche oggi"/>
+<alex pos="2" neg="0" out="spsk." type="" in="cucchiai"/>
+<alex pos="2" neg="0" out="sportsfolk" type="" in="sportivi"/>
+<alex pos="2" neg="0" out="spørgende" type="mcn" in="in tono interrogativo"/>
+<alex pos="2" neg="0" out="spist" type="f" in="fatto uso di"/>
+<alex pos="2" neg="0" out="specielt" type="" in="in particolare"/>
+<alex pos="2" neg="0" out="spanske" type="" in="spanske"/>
+<alex pos="2" neg="0" out="spændende" type="mcn" in="l' interessante"/>
+<alex pos="2" neg="0" out="sorta" type="" in="sorta"/>
+<alex pos="2" neg="0" out="sorta d'" type="" in="sorta d'"/>
+<alex pos="2" neg="0" out="sormontata" type="" in="sormontata"/>
+<alex pos="2" neg="0" out="SØNDAG" type="" in="SØNDAG"/>
+<alex pos="2" neg="0" out="SØNDAG's" type="" in="SØNDAG"/>
+<alex pos="2" neg="0" out="Som" type="" in="che"/>
+<alex pos="2" neg="0" out="sølv" type="" in="argento"/>
+<alex pos="2" neg="0" out="sølvtøjet" type="s" in="l'"/>
+<alex pos="2" neg="0" out="sølvtøjet" type="" in="argenteria"/>
+<alex pos="2" neg="0" out="Sølvsmedie" type="" in="Sølvsmedie"/>
+<alex pos="2" neg="0" out="søge" type="" in="cercare"/>
+<alex pos="2" neg="0" out="sødt" type="" in="accomodante"/>
+<alex pos="2" neg="0" out="Socialdemokratiet" type="s" in="il Partito Socialdemocratico"/>
+<alex pos="2" neg="0" out="Socialdemokratiet" type="s" in="il"/>
+<alex pos="2" neg="0" out="Socialdemokratiet" type="" in="Partito Socialdemocratico"/>
+<alex pos="2" neg="0" out="snart" type="" in="Presto"/>
+<alex pos="2" neg="0" out="smykke-" type="" in="orafa"/>
+<alex pos="2" neg="0" out="smykke" type="" in="gioiello"/>
+<alex pos="2" neg="0" out="Smykkekæden" type="" in="Smykkekæden"/>
+<alex pos="2" neg="0" out="små" type="" in="piccoli"/>
+<alex pos="2" neg="0" out="smagsstof" type="sn" in="delle"/>
+<alex pos="2" neg="0" out="slet" type="" in="slet"/>
+<alex pos="2" neg="0" out="skulle" type="" in="dovrebbero"/>
+<alex pos="2" neg="0" out="skulle nødigt" type="f" in="Sarebbe un peccato se"/>
+<alex pos="2" neg="0" out="skriv" type="" in="scrivete"/>
+<alex pos="2" neg="0" out="skriver" type="" in="scrive"/>
+<alex pos="2" neg="0" out="skrevet" type="" in="scritto"/>
+<alex pos="2" neg="0" out="skoler" type="" in="scuole"/>
+<alex pos="2" neg="0" out="skal" type="" in="dovranno"/>
+<alex pos="2" neg="0" out="skal tage sit udgangspunkt i" type="" in="si deve basare sulla"/>
+<alex pos="2" neg="0" out="skal der bruges" type="f" in="quello che conta"/>
+<alex pos="2" neg="0" out="skader" type="" in="danni"/>
+<alex pos="2" neg="0" out="sit partis" type="" in="sit partis"/>
+<alex pos="2" neg="0" out="sin" type="s" in="la"/>
+<alex pos="2" neg="0" out="sine" type="" in="sine"/>
+<alex pos="2" neg="0" out="Silius" type="" in="Silius"/>
+<alex pos="2" neg="0" out="siger" type="" in="ha detto"/>
+<alex pos="2" neg="0" out="siger de" type="" in="si dice.Ho"/>
+<alex pos="2" neg="0" out="sige det vil jeg ikke" type="f" in="non proprio"/>
+<alex pos="2" neg="0" out="sidste" type="ds" in="l'"/>
+<alex pos="2" neg="0" out="Siden" type="" in="Sin da quando"/>
+<alex pos="2" neg="0" out="siden" type="" in="dal"/>
+<alex pos="2" neg="0" out="settimanale" type="" in="settimanale"/>
+<alex pos="2" neg="0" out="serviceniveau" type="" in="serviceniveau"/>
+<alex pos="2" neg="0" out="senest" type="" in="al più tardi"/>
+<alex pos="2" neg="0" out="selv" type="" in="stesso"/>
+<alex pos="2" neg="0" out="selv" type="f" in="anche"/>
+<alex pos="2" neg="0" out="selveste" type="" in="stessa"/>
+<alex pos="2" neg="0" out="seks måneder lange" type="" in="semestrale"/>
+<alex pos="2" neg="0" out="Scout" type="" in="Scout"/>
+<alex pos="2" neg="0" out="Så" type="" in="Quindi"/>
+<alex pos="2" neg="0" out="så" type="f" in="di modo che"/>
+<alex pos="2" neg="0" out="Sankt Markus Nat" type="" in="La notte di San Marco"/>
+<alex pos="2" neg="0" out="samspillet" type="s" in="la"/>
+<alex pos="2" neg="0" out="samspillet" type="" in="collaborazione"/>
+<alex pos="2" neg="0" out="samme" type="" in="stesso"/>
+<alex pos="2" neg="0" out="sammen" type="" in="con"/>
+<alex pos="2" neg="0" out="samarbejdet" type="s" in="della"/>
+<alex pos="2" neg="0" out="samarbejdet" type="sd" in="una"/>
+<alex pos="2" neg="0" out="salt" type="" in="sale"/>
+<alex pos="2" neg="0" out="salget" type="s" in="la"/>
+<alex pos="2" neg="0" out="salget" type="" in="vendita"/>
+<alex pos="2" neg="0" out="så hurtigt" type="" in="ad un ritmo così rapido"/>
+<alex pos="2" neg="0" out="sagte latter" type="f" in="sorriso"/>
+<alex pos="2" neg="0" out="sagde" type="" in="rispose"/>
+<alex pos="2" neg="0" out="sagde" type="" in="disse"/>
+<alex pos="2" neg="0" out="sagde hun" type="" in="disse"/>
+<alex pos="2" neg="0" out="sågar" type="" in="perfino"/>
+<alex pos="2" neg="0" out="Så enkelt er det" type="" in="semplicemente"/>
+<alex pos="2" neg="0" out="sælges" type="" in="si vende"/>
+<alex pos="2" neg="0" out="russiske" type="" in="russi"/>
+<alex pos="2" neg="0" out="rundt om i" type="" in="in varie parti del"/>
+<alex pos="2" neg="0" out="rubrica" type="" in="rubrica"/>
+<alex pos="2" neg="0" out="rouge" type="" in="fard"/>
+<alex pos="2" neg="0" out="rouge" type="ds" in="il"/>
+<alex pos="2" neg="0" out="Rothmanns" type="s" in="del"/>
+<alex pos="2" neg="0" out="rollen" type="s" in="il"/>
+<alex pos="2" neg="0" out="rollen" type="" in="ruolo"/>
+<alex pos="2" neg="0" out="Røde" type="" in="Rosso"/>
+<alex pos="2" neg="0" out="Røde Kors" type="" in="Croce Rossa"/>
+<alex pos="2" neg="0" out="rispetto" type="" in="rispetto"/>
+<alex pos="2" neg="0" out="risici" type="" in="rischi"/>
+<alex pos="2" neg="0" out="rig" type="f" in="ampia"/>
+<alex pos="2" neg="0" out="Richard" type="" in="Richard"/>
+<alex pos="2" neg="0" out="ret" type="" in="ret"/>
+<alex pos="2" neg="0" out="restaureret" type="" in="restaurato"/>
+<alex pos="2" neg="0" out="restaurerede" type="" in="restaurato"/>
+<alex pos="2" neg="0" out="reserveret" type="" in="riservato"/>
+<alex pos="2" neg="0" out="repræsentanter" type="" in="rappresentanti"/>
+<alex pos="2" neg="0" out="Rensch" type="" in="Rensch"/>
+<alex pos="2" neg="0" out="Rejseskribenten" type="d" in="Cronista di viaggio"/>
+<alex pos="2" neg="0" out="rejser" type="" in="solleva"/>
+<alex pos="2" neg="0" out="regner vi med" type="" in="prevediamo"/>
+<alex pos="2" neg="0" out="regering" type="" in="governo"/>
+<alex pos="2" neg="0" out="regeringen" type="s" in="il governo"/>
+<alex pos="2" neg="0" out="regel" type="" in="norma"/>
+<alex pos="2" neg="0" out="reduceres" type="s" in="la"/>
+<alex pos="2" neg="0" out="reduceres" type="mcn" in="riduzione"/>
+<alex pos="2" neg="0" out="redaktion" type="" in="redazione"/>
+<alex pos="2" neg="0" out="realtà" type="" in="realtà"/>
+<alex pos="2" neg="0" out="RASMUSSEN" type="" in="RASMUSSEN"/>
+<alex pos="2" neg="0" out=": &quot;" type="" in=":&lt;&lt;"/>
+<alex pos="2" neg="0" out="qui" type="" in="qui"/>
+<alex pos="2" neg="0" out="quelle forme" type="" in="quelle forme"/>
+<alex pos="2" neg="0" out="quanto riguarda" type="" in="quanto riguarda"/>
+<alex pos="2" neg="0" out="pr." type="" in="l'"/>
+<alex pos="2" neg="0" out="proveniente" type="" in="proveniente"/>
+<alex pos="2" neg="0" out="programmet" type="" in="programma"/>
+<alex pos="2" neg="0" out="produktionen" type="s" in="la"/>
+<alex pos="2" neg="0" out="produktionen" type="" in="produzione"/>
+<alex pos="2" neg="0" out="produktchef" type="" in="capo produzione"/>
+<alex pos="2" neg="0" out="producere" type="" in="produrre"/>
+<alex pos="2" neg="0" out="private" type="" in="private"/>
+<alex pos="2" neg="0" out="private" type="" in="privatamente"/>
+<alex pos="2" neg="0" out="priserne" type="s" in="i"/>
+<alex pos="2" neg="0" out="priserne" type="" in="prezzi"/>
+<alex pos="2" neg="0" out="prima" type="" in="prima"/>
+<alex pos="2" neg="0" out="presenti" type="" in="presenti"/>
+<alex pos="2" neg="0" out="Preben" type="" in="Preben"/>
+<alex pos="2" neg="0" out="prævention" type="" in="prevenzione"/>
+<alex pos="2" neg="0" out="præmien" type="s" in="il"/>
+<alex pos="2" neg="0" out="præmien" type="" in="premio"/>
+<alex pos="2" neg="0" out="P-PILLER" type="" in="PILLOLE CONTRACCETTIVE"/>
+<alex pos="2" neg="0" out="P-piller" type="" in="pillole contraccettive"/>
+<alex pos="2" neg="0" out="P-piller" type="" in="pillole"/>
+<alex pos="2" neg="0" out="P-pillerne" type="s" in="delle"/>
+<alex pos="2" neg="0" out="P-pillerne" type="f" in="pillole"/>
+<alex pos="2" neg="0" out="Poststrasse" type="" in="Poststrasse"/>
+<alex pos="2" neg="0" out="porreringene" type="s" in="gli"/>
+<alex pos="2" neg="0" out="porreringene" type="" in="anelli di porro"/>
+<alex pos="2" neg="0" out="politikere" type="sd" in="i"/>
+<alex pos="2" neg="0" out="politicamente" type="" in="politicamente"/>
+<alex pos="2" neg="0" out="pludselig" type="" in="improvvisamente"/>
+<alex pos="2" neg="0" out="più" type="" in="più"/>
+<alex pos="2" neg="0" out="Piloten" type="" in="pilota"/>
+<alex pos="2" neg="0" out="Peter" type="" in="Peter"/>
+<alex pos="2" neg="0" out="personer" type="" in="persone"/>
+<alex pos="2" neg="0" out="Personality" type="" in="Personality"/>
+<alex pos="2" neg="0" out="persille" type="" in="prezzemolo"/>
+<alex pos="2" neg="0" out="per ottenere l' indennità di disoccupazione" type="" in="per ottenere l' indennità di disoccupazione"/>
+<alex pos="2" neg="0" out="pensionister" type="ds" in="i"/>
+<alex pos="2" neg="0" out="pengekassen" type="" in="portafoglio"/>
+<alex pos="2" neg="0" out="Pemmican" type="" in="pemmican"/>
+<alex pos="2" neg="0" out="Pemmican" type="ds" in="Il"/>
+<alex pos="2" neg="0" out="på" type="" in="sulla"/>
+<alex pos="2" neg="0" out="på" type="" in="sul"/>
+<alex pos="2" neg="0" out="på" type="" in="su"/>
+<alex pos="2" neg="0" out="på" type="" in="nel"/>
+<alex pos="2" neg="0" out="på" type="f" in="presso"/>
+<alex pos="2" neg="0" out="Pasta" type="ds" in="La"/>
+<alex pos="2" neg="0" out="passer" type="" in="va"/>
+<alex pos="2" neg="0" out="par" type="f" in="due"/>
+<alex pos="2" neg="0" out="Paris" type="" in="Parigi"/>
+<alex pos="2" neg="0" out="pakker" type="" in="confezioni"/>
+<alex pos="2" neg="0" out="pæn" type="f" in="gradevole"/>
+<alex pos="2" neg="0" out="pænt" type="" in="abbastanza bene"/>
+<alex pos="2" neg="0" out="pædagogernes" type="" in="personale educativo"/>
+<alex pos="2" neg="0" out="Ove" type="" in="Ove"/>
+<alex pos="2" neg="0" out="over" type="" in="più di"/>
+<alex pos="2" neg="0" out="over" type="" in="oltre"/>
+<alex pos="2" neg="0" out="overstigende" type="s" in="il"/>
+<alex pos="2" neg="0" out="OVERGANGSALDEREN" type="" in="LA MENOPAUSA"/>
+<alex pos="2" neg="0" out="o" type="" in="o"/>
+<alex pos="2" neg="0" out="Østeuropa" type="" in="Europa dell' est"/>
+<alex pos="2" neg="0" out="Østersøen" type="" in="Baltico"/>
+<alex pos="2" neg="0" out="Østergaard" type="" in="Østergaard"/>
+<alex pos="2" neg="0" out="Orwell" type="" in="Orwell"/>
+<alex pos="2" neg="0" out="Øresund" type="" in="Øresund"/>
+<alex pos="2" neg="0" out="Ørestaden" type="" in="Ørestad"/>
+<alex pos="2" neg="0" out="ora" type="" in="ora"/>
+<alex pos="2" neg="0" out="op" type="" in="op"/>
+<alex pos="2" neg="0" out="opført" type="" in="aperto"/>
+<alex pos="2" neg="0" out="operare" type="" in="operare"/>
+<alex pos="2" neg="0" out="ønsket" type="" in="voluto"/>
+<alex pos="2" neg="0" out="ønsker" type="" in="desiderano"/>
+<alex pos="2" neg="0" out="om" type="" in="su"/>
+<alex pos="2" neg="0" out="om" type="" in="del"/>
+<alex pos="2" neg="0" out="omsætningen" type="" in="fatturato"/>
+<alex pos="2" neg="0" out="området" type="s" in="nella"/>
+<alex pos="2" neg="0" out="Oluf" type="" in="Oluf"/>
+<alex pos="2" neg="0" out="OLSEN" type="" in="OLSEN"/>
+<alex pos="2" neg="0" out="Olsdorff" type="" in="Olsdorf"/>
+<alex pos="2" neg="0" out="Ole" type="" in="Ole"/>
+<alex pos="2" neg="0" out="økonomi" type="n" in="aspetti economici"/>
+<alex pos="2" neg="0" out="øjeblikket" type="" in="momento"/>
+<alex pos="2" neg="0" out="og" type="" in="in"/>
+<alex pos="2" neg="0" out="og så videre" type="" in="ecc"/>
+<alex pos="2" neg="0" out="occasione Per l'" type="" in="occasione Per l'"/>
+<alex pos="2" neg="0" out="OBS" type="" in="N . B ."/>
+<alex pos="2" neg="0" out="nyt" type="" in="nuovo"/>
+<alex pos="2" neg="0" out="nylig" type="" in="di recente"/>
+<alex pos="2" neg="0" out="Nye" type="" in="Nuovi"/>
+<alex pos="2" neg="0" out="nye" type="" in="nuova"/>
+<alex pos="2" neg="0" out="NUGA" type="" in="NUGA"/>
+<alex pos="2" neg="0" out="nr." type="" in="."/>
+<alex pos="2" neg="0" out="nr." type="ds" in="il"/>
+<alex pos="2" neg="0" out="not" type="" in="not"/>
+<alex pos="2" neg="0" out="Norge" type="" in="Norvegia"/>
+<alex pos="2" neg="0" out="nok" type="" in="nok"/>
+<alex pos="2" neg="0" out="noi" type="" in="noi"/>
+<alex pos="2" neg="0" out="nogle" type="" in="nogle"/>
+<alex pos="2" neg="0" out="nogle" type="" in="alcuni"/>
+<alex pos="2" neg="0" out="noget" type="" in="una cosa"/>
+<alex pos="2" neg="0" out="nogen" type="" in="nogen"/>
+<alex pos="2" neg="0" out="nobel" type="" in="distinto"/>
+<alex pos="2" neg="0" out="Nilen" type="s" in="il Nilo"/>
+<alex pos="2" neg="0" out="Nilen" type="s" in="il"/>
+<alex pos="2" neg="0" out="Nilen" type="" in="Nilo"/>
+<alex pos="2" neg="0" out="Nilen" type="" in="il Nilo"/>
+<alex pos="2" neg="0" out="né" type="" in="né"/>
+<alex pos="2" neg="0" out="netop" type="" in="appena"/>
+<alex pos="2" neg="0" out="nemlig" type="" in="nemlig"/>
+<alex pos="2" neg="0" out="nel" type="" in="nel"/>
+<alex pos="2" neg="0" out="nej" type="" in="no"/>
+<alex pos="2" neg="0" out="nedgang" type="mvf" in="perderemo"/>
+<alex pos="2" neg="0" out="navnet" type="" in="nome"/>
+<alex pos="2" neg="0" out="naturligvis" type="" in="naturalmente"/>
+<alex pos="2" neg="0" out="når" type="" in="se"/>
+<alex pos="2" neg="0" out="Når" type="" in="quando"/>
+<alex pos="2" neg="0" out="næsten" type="" in="quasi"/>
+<alex pos="2" neg="0" out="myndigheder" type="" in="autorità"/>
+<alex pos="2" neg="0" out="myndigheder" type="ds" in="le"/>
+<alex pos="2" neg="0" out="Musterausstellung" type="" in="Musterausstellung"/>
+<alex pos="2" neg="0" out="muskler" type="ds" in="i"/>
+<alex pos="2" neg="0" out="Munck" type="" in="Munck"/>
+<alex pos="2" neg="0" out="mulighederne" type="s" in="le"/>
+<alex pos="2" neg="0" out="mulighederne" type="" in="possibilità"/>
+<alex pos="2" neg="0" out="Moskva" type="" in="Mosca"/>
+<alex pos="2" neg="0" out="mor" type="" in="madre"/>
+<alex pos="2" neg="0" out="mon" type="" in="mon"/>
+<alex pos="2" neg="0" out="moden" type="" in="maturi"/>
+<alex pos="2" neg="0" out="mi" type="" in="mi"/>
+<alex pos="2" neg="0" out="mit" type="" in="mit"/>
+<alex pos="2" neg="0" out="mistet" type="" in="perso"/>
+<alex pos="2" neg="0" out="min" type="s" in="la"/>
+<alex pos="2" neg="0" out="min" type="s" in="del"/>
+<alex pos="2" neg="0" out="mine" type="s" in="dei"/>
+<alex pos="2" neg="0" out="mildt" type="" in="mite"/>
+<alex pos="2" neg="0" out="MikroData" type="" in="MikroData"/>
+<alex pos="2" neg="0" out="mezzi" type="" in="mezzi"/>
+<alex pos="2" neg="0" out="mere" type="" in="mere"/>
+<alex pos="2" neg="0" out="mere en" type="" in="più del"/>
+<alex pos="2" neg="0" out="mercato" type="" in="mercato"/>
+<alex pos="2" neg="0" out="men" type="" in="tuttavia"/>
+<alex pos="2" neg="0" out="Men" type="" in="Però"/>
+<alex pos="2" neg="0" out="mennesker" type="" in="uomini"/>
+<alex pos="2" neg="0" out="mennesker" type="" in="persone"/>
+<alex pos="2" neg="0" out="mennesker" type="ds" in="gli"/>
+<alex pos="2" neg="0" out="Mellon" type="" in="Mellon"/>
+<alex pos="2" neg="0" out="mellem" type="" in="dei"/>
+<alex pos="2" neg="0" out="mellemstatsligt" type="" in="fra stati"/>
+<alex pos="2" neg="0" out="meglio" type="" in="meglio"/>
+<alex pos="2" neg="0" out="med udregningen" type="mvf" in="quando si calcola"/>
+<alex pos="2" neg="0" out="med" type="" in="nel"/>
+<alex pos="2" neg="0" out="med overbevisning" type="mcp" in="convinto"/>
+<alex pos="2" neg="0" out="Med_hensyn_til" type="" in="Per"/>
+<alex pos="2" neg="0" out="med hende" type="" in="le"/>
+<alex pos="2" neg="0" out="mavesår" type="ds" in="l'"/>
+<alex pos="2" neg="0" out="må" type="" in="possono"/>
+<alex pos="2" neg="0" out="Ma" type="" in="Ma"/>
+<alex pos="2" neg="0" out="måtte være" type="f" in="eventuali"/>
+<alex pos="2" neg="0" out="måttet" type="" in="dovuto"/>
+<alex pos="2" neg="0" out="marketingchef" type="" in="responsabile del marketing"/>
+<alex pos="2" neg="0" out="marketingchef" type="ds" in="il"/>
+<alex pos="2" neg="0" out="markedskræfterne" type="s" in="delle"/>
+<alex pos="2" neg="0" out="markedskræfterne" type="" in="forze del mercato"/>
+<alex pos="2" neg="0" out="markedsføring" type="" in="promozione"/>
+<alex pos="2" neg="0" out="markedsføring" type="ds" in="nella"/>
+<alex pos="2" neg="0" out="marchen" type="s" in="la"/>
+<alex pos="2" neg="0" out="marchen" type="" in="traversata"/>
+<alex pos="2" neg="0" out="Mange" type="" in="Molte"/>
+<alex pos="2" neg="0" out="mange" type="" in="molte"/>
+<alex pos="2" neg="0" out="måned" type="" in="mese"/>
+<alex pos="2" neg="0" out="måneder" type="" in="mesi"/>
+<alex pos="2" neg="0" out="måneders" type="s" in="di"/>
+<alex pos="2" neg="0" out="mand" type="" in="mand"/>
+<alex pos="2" neg="0" out="Målet" type="" in="scopo"/>
+<alex pos="2" neg="0" out="make" type="" in="“make"/>
+<alex pos="2" neg="0" out="magistrato" type="" in="magistrato"/>
+<alex pos="2" neg="0" out="Madsen" type="" in="Madsen"/>
+<alex pos="2" neg="0" out="lysekrone" type="" in="lampadario"/>
+<alex pos="2" neg="0" out="LYKKE" type="" in="LYKKE"/>
+<alex pos="2" neg="0" out="lyder det" type="" in="affermano"/>
+<alex pos="2" neg="0" out="lufthavn" type="" in="aeroporto"/>
+<alex pos="2" neg="0" out="love" type="" in="love"/>
+<alex pos="2" neg="0" out="Loulou" type="" in="Loulou"/>
+<alex pos="2" neg="0" out="Løsningen" type="s" in="Il"/>
+<alex pos="2" neg="0" out="Løsningen" type="f" in="nome scelto"/>
+<alex pos="2" neg="0" out="London" type="" in="Londra"/>
+<alex pos="2" neg="0" out="liter" type="" in="litro"/>
+<alex pos="2" neg="0" out="lister" type="" in="liste"/>
+<alex pos="2" neg="0" out="lister" type="ds" in="le"/>
+<alex pos="2" neg="0" out="ligge" type="" in="annidare"/>
+<alex pos="2" neg="0" out="ligesom" type="" in="come"/>
+<alex pos="2" neg="0" out="lige efter hinanden" type="f" in="di seguito"/>
+<alex pos="2" neg="0" out="lettura" type="" in="lettura"/>
+<alex pos="2" neg="0" out="Lellinge kirke" type="ds" in="della"/>
+<alex pos="2" neg="0" out="lejlighed til" type="" in="possibilità di"/>
+<alex pos="2" neg="0" out="ledninger" type="" in="condutture"/>
+<alex pos="2" neg="0" out="La situazione è" type="" in="La situazione è"/>
+<alex pos="2" neg="0" out="lån" type="n" in="prestito"/>
+<alex pos="2" neg="0" out="lån" type="d" in="un"/>
+<alex pos="2" neg="0" out="lang" type="f" in="tutta"/>
+<alex pos="2" neg="0" out="langt" type="" in="molto"/>
+<alex pos="2" neg="0" out="långivning" type="" in="pratica irresponsabile ed illegale di concessione prestiti"/>
+<alex pos="2" neg="0" out="landet" type="s" in="la"/>
+<alex pos="2" neg="0" out="landet" type="lv" in="Danimarca"/>
+<alex pos="2" neg="0" out="la lettura" type="" in="la lettura"/>
+<alex pos="2" neg="0" out="lagre" type="" in="scorte"/>
+<alex pos="2" neg="0" out="lærlinge" type="" in="apprendisti"/>
+<alex pos="2" neg="0" out="lære" type="" in="imparare"/>
+<alex pos="2" neg="0" out="lærebøger" type="" in="libri di testo"/>
+<alex pos="2" neg="0" out="længe" type="" in="da molto"/>
+<alex pos="2" neg="0" out="lækkerierne" type="s" in="delle"/>
+<alex pos="2" neg="0" out="lækkerierne" type="f" in="specialità"/>
+<alex pos="2" neg="0" out="læger" type="" in="medici"/>
+<alex pos="2" neg="0" out="Lægerne" type="s" in="I"/>
+<alex pos="2" neg="0" out="lægerne" type="s" in="i"/>
+<alex pos="2" neg="0" out="lægerne" type="" in="medici"/>
+<alex pos="2" neg="0" out="lægemidler" type="" in="lægemidler"/>
+<alex pos="2" neg="0" out="lægemiddelproducenter" type="" in="produttori di medicinali"/>
+<alex pos="2" neg="0" out="lægemiddelproducenter" type="ds" in="i"/>
+<alex pos="2" neg="0" out="Lægemiddelberedskabet" type="lv" in="Tali strumenti"/>
+<alex pos="2" neg="0" out="KV-planen" type="" in="comune programma politico da parte dei due partiti V e K"/>
+<alex pos="2" neg="0" out="kvinder" type="d" in="le"/>
+<alex pos="2" neg="0" out="kvadratmeter" type="" in="metro quadrato"/>
+<alex pos="2" neg="0" out="kvadratcentimeter" type="" in="centimetri quadrati"/>
+<alex pos="2" neg="0" out="Kun" type="" in="Solo"/>
+<alex pos="2" neg="0" out="Kun" type="" in="solo"/>
+<alex pos="2" neg="0" out="kunstnersmykke" type="" in="gioiello d' arte"/>
+<alex pos="2" neg="0" out="kunne" type="" in="potrebbe"/>
+<alex pos="2" neg="0" out="kryptiske" type="" in="criptici"/>
+<alex pos="2" neg="0" out="kr." type="" in="kr."/>
+<alex pos="2" neg="0" out="Kro" type="" in="Kro"/>
+<alex pos="2" neg="0" out="krop" type="" in="corpo"/>
+<alex pos="2" neg="0" out="krisesituation" type="" in="situazione di crisi"/>
+<alex pos="2" neg="0" out="krisesituation" type="ds" in="La"/>
+<alex pos="2" neg="0" out="krigshandlinger" type="ds" in="alle"/>
+<alex pos="2" neg="0" out="kostede" type="f" in="perse"/>
+<alex pos="2" neg="0" out="korpussølvsmed" type="" in="argentiere"/>
+<alex pos="2" neg="0" out="korpussølvsmed" type="ds" in="all'"/>
+<alex pos="2" neg="0" out="konventionen" type="" in="l’accordo"/>
+<alex pos="2" neg="0" out="konstruktion" type="" in="forma"/>
+<alex pos="2" neg="0" out="konstruktioner" type="" in="forme"/>
+<alex pos="2" neg="0" out="konkurrence" type="" in="concorso"/>
+<alex pos="2" neg="0" out="konditoren" type="s" in="il"/>
+<alex pos="2" neg="0" out="konditoren" type="" in="pasticciere"/>
+<alex pos="2" neg="0" out="kommunerne" type="" in="comuni"/>
+<alex pos="2" neg="0" out="kommer" type="" in="arrivano"/>
+<alex pos="2" neg="0" out="komme på" type="" in="komme på"/>
+<alex pos="2" neg="0" out="Køge" type="" in="Køge"/>
+<alex pos="2" neg="0" out="københavnske" type="" in="di Copenaghen"/>
+<alex pos="2" neg="0" out="klarer" type="" in="ha risolto"/>
+<alex pos="2" neg="0" out="kinderne" type="s" in="sulle"/>
+<alex pos="2" neg="0" out="kinderne" type="s" in="dalle"/>
+<alex pos="2" neg="0" out="Kina" type="d" in="nel"/>
+<alex pos="2" neg="0" out="kilo barn" type="" in="chilo-bambini"/>
+<alex pos="2" neg="0" out="kemi" type="" in="kemi"/>
+<alex pos="2" neg="0" out="kan" type="" in="si possono"/>
+<alex pos="2" neg="0" out="kan" type="" in="sa"/>
+<alex pos="2" neg="0" out="Jubilæums-frimærke" type="n" in="Francobolli commemorativi"/>
+<alex pos="2" neg="0" out="Jubilæet" type="s" in="il"/>
+<alex pos="2" neg="0" out="Jubilæet" type="" in="giubileo"/>
+<alex pos="2" neg="0" out="Jo" type="" in="Sì"/>
+<alex pos="2" neg="0" out="jo" type="" in="effettivamente"/>
+<alex pos="2" neg="0" out="jo" type="f" in="in effetti"/>
+<alex pos="2" neg="0" out="jordbær" type="" in="fragole"/>
+<alex pos="2" neg="0" out="jer" type="" in="vi"/>
+<alex pos="2" neg="0" out="Jeg" type="" in="Ho"/>
+<alex pos="2" neg="0" out="Jeg føler" type="" in="sento"/>
+<alex pos="2" neg="0" out="jagt" type="" in="caccia"/>
+<alex pos="2" neg="0" out="jagt" type="ds" in="la"/>
+<alex pos="2" neg="0" out="jagten" type="" in="caccia"/>
+<alex pos="2" neg="0" out="Jafar" type="" in="Jafar"/>
+<alex pos="2" neg="0" out="i udlandet" type="" in="all’estero"/>
+<alex pos="2" neg="0" out="I" type="" in="In"/>
+<alex pos="2" neg="0" out="I" type="" in="DURANTE"/>
+<alex pos="2" neg="0" out="I" type="" in="Durante"/>
+<alex pos="2" neg="0" out="i" type="" in="dalle"/>
+<alex pos="2" neg="0" out="i" type="" in="all'"/>
+<alex pos="2" neg="0" out="i" type="" in="al"/>
+<alex pos="2" neg="0" out="i" type="f" in="A partire dal"/>
+<alex pos="2" neg="0" out="i stedet for" type="" in="in sostituzione delle"/>
+<alex pos="2" neg="0" out="i Spanien" type="" in="spagnola"/>
+<alex pos="2" neg="0" out="interesserede" type="" in="interessati"/>
+<alex pos="2" neg="0" out="interesserede" type="ds" in="gli"/>
+<alex pos="2" neg="0" out="Interessentskaberne" type="s" in="Le"/>
+<alex pos="2" neg="0" out="Interessentskaberne" type="" in="società in nome collettivo"/>
+<alex pos="2" neg="0" out="in quanto" type="" in="in quanto"/>
+<alex pos="2" neg="0" out="i nogle måneder" type="" in="i nogle måneder"/>
+<alex pos="2" neg="0" out="in modo" type="" in="in modo"/>
+<alex pos="2" neg="0" out="indvandrings- og asylpolitikken" type="" in="politiche sugli immigrati ed i rifugiati politici"/>
+<alex pos="2" neg="0" out="indkomster" type="sn" in="un"/>
+<alex pos="2" neg="0" out="indkomster" type="" in="introito"/>
+<alex pos="2" neg="0" out="ind i kemien her" type="f" in="tra di noi"/>
+<alex pos="2" neg="0" out="inden" type="" in="prima del"/>
+<alex pos="2" neg="0" out="inden" type="" in="prima"/>
+<alex pos="2" neg="0" out="indenrigsministeriet" type="wo" in="Ministero degli Interni"/>
+<alex pos="2" neg="0" out="indenrigsministeriet" type="s" in="Il"/>
+<alex pos="2" neg="0" out="indenrigsministeriet" type="s" in="il"/>
+<alex pos="2" neg="0" out="inden længe" type="" in="entro non molto"/>
+<alex pos="2" neg="0" out="inden for" type="" in="all’interno della"/>
+<alex pos="2" neg="0" out="i nærheden af" type="" in="nei paraggi dei"/>
+<alex pos="2" neg="0" out="immigrations- og asylpolitikken" type="s" in="la"/>
+<alex pos="2" neg="0" out="immigrations- og asylpolitikken" type="" in="politica sull’immigrazione e sull’asilo politico"/>
+<alex pos="2" neg="0" out="immigrations- og asylområdet" type="" in="immigrati e rifugiati politici"/>
+<alex pos="2" neg="0" out="i mejeribranchen" type="f" in="nell’ambiente"/>
+<alex pos="2" neg="0" out="i mange år" type="wo" in="per molto tempo"/>
+<alex pos="2" neg="0" out="illustratorer" type="" in="illustratori"/>
+<alex pos="2" neg="0" out="Illustration" type="" in="Illustrazione"/>
+<alex pos="2" neg="0" out="i lejligheden" type="" in="i lejligheden"/>
+<alex pos="2" neg="0" out="i_hvert_fald" type="wo" in="In ogni caso"/>
+<alex pos="2" neg="0" out="i_hvert_fald" type="" in="almeno"/>
+<alex pos="2" neg="0" out="igen" type="" in="più"/>
+<alex pos="2" neg="0" out="idrætshøjskole" type="" in="scuola di educazione fisica"/>
+<alex pos="2" neg="0" out="idet" type="" in="dal momento che"/>
+<alex pos="2" neg="0" out="ideal" type="" in="ideale"/>
+<alex pos="2" neg="0" out="I_dag" type="wo" in="Oggi"/>
+<alex pos="2" neg="0" out="IB" type="" in="IB"/>
+<alex pos="2" neg="0" out="I_år" type="" in="Quest’anno"/>
+<alex pos="2" neg="0" out="i Århus" type="" in="i Århus"/>
+<alex pos="2" neg="0" out="hvor" type="" in="hvor"/>
+<alex pos="2" neg="0" out="hvorfor" type="" in="perché"/>
+<alex pos="2" neg="0" out="hvordan" type="s" in="nel"/>
+<alex pos="2" neg="0" out="hvordan" type="" in="modalità di le"/>
+<alex pos="2" neg="0" out="hver" type="" in="ogni"/>
+<alex pos="2" neg="0" out="hvert" type="" in="ogni"/>
+<alex pos="2" neg="0" out="hvem" type="" in="chi"/>
+<alex pos="2" neg="0" out="hvad" type="" in="cosa"/>
+<alex pos="2" neg="0" out="hvad" type="" in="che"/>
+<alex pos="2" neg="0" out="husstandsindkomsten" type="sn" in="dei"/>
+<alex pos="2" neg="0" out="husstandsindkomsten" type="" in="introiti familiari"/>
+<alex pos="2" neg="0" out="husstandens" type="n" in="componenti della famiglia"/>
+<alex pos="2" neg="0" out="husstandens" type="" in="nucleo familiare"/>
+<alex pos="2" neg="0" out="husleje" type="ds" in="l'"/>
+<alex pos="2" neg="0" out="hurtig" type="" in="hurtig"/>
+<alex pos="2" neg="0" out="hun var" type="" in="hun var"/>
+<alex pos="2" neg="0" out="hun fungerede" type="f" in="si è trovata"/>
+<alex pos="2" neg="0" out="Hun fik" type="" in="ha avuto"/>
+<alex pos="2" neg="0" out="hundrede" type="" in="centinaia di"/>
+<alex pos="2" neg="0" out="hunde" type="" in="cani"/>
+<alex pos="2" neg="0" out="hunde" type="ds" in="i"/>
+<alex pos="2" neg="0" out="hun blev" type="" in="hun blev"/>
+<alex pos="2" neg="0" out="hun blev" type="" in="ha compiuto"/>
+<alex pos="2" neg="0" out="ho" type="" in="ho"/>
+<alex pos="2" neg="0" out="Honus" type="" in="Horus"/>
+<alex pos="2" neg="0" out="holdt" type="" in="effettuato"/>
+<alex pos="2" neg="0" out="historie" type="" in="storia"/>
+<alex pos="2" neg="0" out="herunder" type="f" in="tra l' altro"/>
+<alex pos="2" neg="0" out="Her" type="" in="In questa direzione"/>
+<alex pos="2" neg="0" out="Her" type="" in="Her"/>
+<alex pos="2" neg="0" out="her" type="f" in="in questa rubrica"/>
+<alex pos="2" neg="0" out="henseende" type="f" in="variabili"/>
+<alex pos="2" neg="0" out="henseende" type="dsn" in="le"/>
+<alex pos="2" neg="0" out="HENRY" type="" in="HENRY"/>
+<alex pos="2" neg="0" out="hende" type="" in="hende"/>
+<alex pos="2" neg="0" out="helt" type="" in="completamente"/>
+<alex pos="2" neg="0" out="helt så godt" type="" in="helt så godt"/>
+<alex pos="2" neg="0" out="Helle" type="" in="Helle"/>
+<alex pos="2" neg="0" out="Hellerup station" type="" in="stazione di Hellerup"/>
+<alex pos="2" neg="0" out="helbredet" type="d" in="salute"/>
+<alex pos="2" neg="0" out="hektar" type="" in="ettari"/>
+<alex pos="2" neg="0" out="HEERUP" type="" in="HEERUP"/>
+<alex pos="2" neg="0" out="Hav" type="" in="Mar"/>
+<alex pos="2" neg="0" out="havde" type="f" in="indetto ha"/>
+<alex pos="2" neg="0" out="har vi" type="" in="abbiamo"/>
+<alex pos="2" neg="0" out="har været" type="" in="è stata"/>
+<alex pos="2" neg="0" out="har" type="" in="è"/>
+<alex pos="2" neg="0" out="Harald" type="" in="Harald"/>
+<alex pos="2" neg="0" out="han vi gå hen" type="" in="andrà"/>
+<alex pos="2" neg="0" out="Han" type="lv" in="Jensen"/>
+<alex pos="2" neg="0" out="han" type="" in="han"/>
+<alex pos="2" neg="0" out="hans" type="s" in="nel"/>
+<alex pos="2" neg="0" out="hans" type="s" in="la"/>
+<alex pos="2" neg="0" out="Hans" type="" in="suo"/>
+<alex pos="2" neg="0" out="Hansen" type="" in="Hansen"/>
+<alex pos="2" neg="0" out="hanno" type="" in="hanno"/>
+<alex pos="2" neg="0" out="Han er" type="" in="è"/>
+<alex pos="2" neg="0" out="handel" type="" in="commercio"/>
+<alex pos="2" neg="0" out="ham" type="" in="lo"/>
+<alex pos="2" neg="0" out="ham" type="" in="gli"/>
+<alex pos="2" neg="0" out="Hamid" type="" in="Hamid"/>
+<alex pos="2" neg="0" out="Halfdan" type="" in="Halfdan"/>
+<alex pos="2" neg="0" out="hævdet af" type="mvf" in="sostiene"/>
+<alex pos="2" neg="0" out="hænder" type="" in="mani"/>
+<alex pos="2" neg="0" out="hænder" type="d" in="le"/>
+<alex pos="2" neg="0" out="guldsmed" type="ds" in="all'"/>
+<alex pos="2" neg="0" out="Guardando" type="" in="Guardando"/>
+<alex pos="2" neg="0" out="grupper" type="" in="gruppi"/>
+<alex pos="2" neg="0" out="gruppemøde" type="" in="incontro fra i rispettivi gruppi parlamentari"/>
+<alex pos="2" neg="0" out="grund" type="" in="ragione"/>
+<alex pos="2" neg="0" out="grunde" type="" in="motivi"/>
+<alex pos="2" neg="0" out="grønsagsbouillon" type="" in="brodo di verdura"/>
+<alex pos="2" neg="0" out="Grønland" type="" in="Groenlandia"/>
+<alex pos="2" neg="0" out="gospel-sange" type="s" in="dei"/>
+<alex pos="2" neg="0" out="gjorde lidt ekstra ud af det" type="" in="ci abbiamo messo un tocco in più"/>
+<alex pos="2" neg="0" out="GITTE" type="" in="GITTE"/>
+<alex pos="2" neg="0" out="giornale" type="" in="giornale"/>
+<alex pos="2" neg="0" out="Georg" type="" in="Georg"/>
+<alex pos="2" neg="0" out="Gentofte Kommune" type="" in="comune di Gentofte"/>
+<alex pos="2" neg="0" out="gå på gulvet" type="f" in="non avvenisse"/>
+<alex pos="2" neg="0" out="gang" type="" in="gang"/>
+<alex pos="2" neg="0" out="gangarealer" type="" in="corridoi"/>
+<alex pos="2" neg="0" out="gå den trælse gang til bistandskontoret" type="f" in="rassegnarsi a fare la fila al comune"/>
+<alex pos="2" neg="0" out="GAARN" type="" in="GAARN"/>
+<alex pos="2" neg="0" out="Fyens" type="" in="Fyens"/>
+<alex pos="2" neg="0" out="Fryland" type="" in="Fryland"/>
+<alex pos="2" neg="0" out="frontfigur" type="" in="dirigente"/>
+<alex pos="2" neg="0" out="frisklavet" type="" in="fresca"/>
+<alex pos="2" neg="0" out="Frifindelsen" type="s" in="L'"/>
+<alex pos="2" neg="0" out="Frifindelsen" type="" in="assoluzione"/>
+<alex pos="2" neg="0" out="fremtid" type="" in="futuro"/>
+<alex pos="2" neg="0" out="fremmedsprog" type="" in="lingua straniera"/>
+<alex pos="2" neg="0" out="fra" type="" in="degli"/>
+<alex pos="2" neg="0" out="fra" type="" in="dai"/>
+<alex pos="2" neg="0" out="forud" type="" in="prima"/>
+<alex pos="2" neg="0" out="forudsætninger" type="" in="presupposti"/>
+<alex pos="2" neg="0" out="Forude venter" type="f" in="si prevede"/>
+<alex pos="2" neg="0" out="foruden" type="" in="oltre ai"/>
+<alex pos="2" neg="0" out="før" type="" in="prima di"/>
+<alex pos="2" neg="0" out="for" type="" in="perché"/>
+<alex pos="2" neg="0" out="for" type="" in="delle"/>
+<alex pos="2" neg="0" out="for" type="" in="dei"/>
+<alex pos="2" neg="0" out="for" type="" in="al"/>
+<alex pos="2" neg="0" out="fortæller" type="" in="fortæller"/>
+<alex pos="2" neg="0" out="fortæller" type="" in="afferma"/>
+<alex pos="2" neg="0" out="fortæller hun" type="" in="fortæller hun"/>
+<alex pos="2" neg="0" out="forsvarets" type="s" in="della"/>
+<alex pos="2" neg="0" out="forsvarets" type="" in="Difesa"/>
+<alex pos="2" neg="0" out="først" type="" in="prima di tutto"/>
+<alex pos="2" neg="0" out="forskellige" type="" in="differenti"/>
+<alex pos="2" neg="0" out="for så vidt" type="f" in="direi"/>
+<alex pos="2" neg="0" out="forsamlingshuse" type="ds" in="nei"/>
+<alex pos="2" neg="0" out="forøgelse" type="mvi" in="aumentarne"/>
+<alex pos="2" neg="0" out="forøgelse" type="" in="aumento"/>
+<alex pos="2" neg="0" out="form" type="" in="forma"/>
+<alex pos="2" neg="0" out="forme" type="" in="forme"/>
+<alex pos="2" neg="0" out="formentlig" type="" in="probabilmente"/>
+<alex pos="2" neg="0" out="for meget" type="" in="troppo"/>
+<alex pos="2" neg="0" out="formand" type="f" in="capo del partito"/>
+<alex pos="2" neg="0" out="forma d'" type="" in="forma d'"/>
+<alex pos="2" neg="0" out="forløbe" type="" in="forløbe"/>
+<alex pos="2" neg="0" out="forhold" type="" in="rapporto"/>
+<alex pos="2" neg="0" out="forhindre" type="" in="impedire"/>
+<alex pos="2" neg="0" out="før du begyndte" type="mvi" in="prima di cominciare a"/>
+<alex pos="2" neg="0" out="fordoblet" type="" in="raddoppiato"/>
+<alex pos="2" neg="0" out="fordeles" type="" in="vengono distribuiti"/>
+<alex pos="2" neg="0" out="fordeles mellem" type="f+mvg" in="coinvolgendo"/>
+<alex pos="2" neg="0" out="forbundshæren" type="s" in="l'"/>
+<alex pos="2" neg="0" out="forbundshæren" type="" in="esercito federale"/>
+<alex pos="2" neg="0" out="forbudt" type="" in="proibito"/>
+<alex pos="2" neg="0" out="forbilledlig" type="" in="esemplare"/>
+<alex pos="2" neg="0" out="for at" type="" in="per"/>
+<alex pos="2" neg="0" out="folkeafstemning" type="" in="referendum"/>
+<alex pos="2" neg="0" out="føler sig" type="" in="si sente"/>
+<alex pos="2" neg="0" out="fødevaremesse" type="" in="fiera alimentare"/>
+<alex pos="2" neg="0" out="FLS'" type="s" in="dalla"/>
+<alex pos="2" neg="0" out="FLS" type="d" in="della"/>
+<alex pos="2" neg="0" out="floden" type="f" in="l’acqua"/>
+<alex pos="2" neg="0" out="flere" type="" in="altri"/>
+<alex pos="2" neg="0" out="fjerkræ" type="" in="pollame"/>
+<alex pos="2" neg="0" out="Fjenden" type="s" in="Il"/>
+<alex pos="2" neg="0" out="Fjenden" type="" in="nemico"/>
+<alex pos="2" neg="0" out="fjenden" type="" in="fjenden"/>
+<alex pos="2" neg="0" out="fisk" type="" in="pesce"/>
+<alex pos="2" neg="0" out="fint" type="" in="benissimo"/>
+<alex pos="2" neg="0" out="Finland" type="" in="Finlandia"/>
+<alex pos="2" neg="0" out="finder en plads" type="" in="viene inserita"/>
+<alex pos="2" neg="0" out="film" type="" in="film"/>
+<alex pos="2" neg="0" out="fik jeg fat i" type="f" in="cercai"/>
+<alex pos="2" neg="0" out="femten" type="" in="quindici"/>
+<alex pos="2" neg="0" out="fejret" type="" in="celebrato"/>
+<alex pos="2" neg="0" out="få" type="" in="riceverne"/>
+<alex pos="2" neg="0" out="få" type="" in="få"/>
+<alex pos="2" neg="0" out="fast ansættelse" type="" in="assunzione a tempo pieno"/>
+<alex pos="2" neg="0" out="fast ansættelse" type="ds" in="l'"/>
+<alex pos="2" neg="0" out="familie" type="" in="famiglia"/>
+<alex pos="2" neg="0" out="familier" type="" in="famiglie"/>
+<alex pos="2" neg="0" out="familien" type="" in="famiglia"/>
+<alex pos="2" neg="0" out="Familien brugte" type="" in="Familien brugte"/>
+<alex pos="2" neg="0" out="falkehovede" type="ds" in="la"/>
+<alex pos="2" neg="0" out="faldgruber" type="d" in="le insidie maggiori"/>
+<alex pos="2" neg="0" out="faktisk" type="" in="in realtà"/>
+<alex pos="2" neg="0" out="faktisk godt" type="" in="faktisk godt"/>
+<alex pos="2" neg="0" out="færdigretter" type="" in="già confezionati per l’uso piatti"/>
+<alex pos="2" neg="0" out="fængsler" type="ds" in="nelle"/>
+<alex pos="2" neg="0" out="facendo spettacoli ," type="" in="facendo spettacoli ,"/>
+<alex pos="2" neg="0" out="eventualità" type="" in="eventualità"/>
+<alex pos="2" neg="0" out="et" type="d" in="la"/>
+<alex pos="2" neg="0" out="er vi" type="" in="si è"/>
+<alex pos="2" neg="0" out="er" type="" in="siamo"/>
+<alex pos="2" neg="0" out="er" type="" in="sia"/>
+<alex pos="2" neg="0" out="er" type="" in="hanno"/>
+<alex pos="2" neg="0" out="er" type="f" in="costituisce"/>
+<alex pos="2" neg="0" out="erstatte" type="" in="sostituire"/>
+<alex pos="2" neg="0" out="Erling" type="" in="Erling"/>
+<alex pos="2" neg="0" out="er det" type="f" in="si fa"/>
+<alex pos="2" neg="0" out="Er der" type="f" in="avete"/>
+<alex pos="2" neg="0" out="era" type="" in="era"/>
+<alex pos="2" neg="0" out="è quello che" type="" in="è quello che"/>
+<alex pos="2" neg="0" out="en" type="f" in="sua"/>
+<alex pos="2" neg="0" out="en" type="ds" in="la"/>
+<alex pos="2" neg="0" out="ensomme" type="" in="solitario"/>
+<alex pos="2" neg="0" out="enhver" type="" in="qualsiasi"/>
+<alex pos="2" neg="0" out="enhver" type="" in="ogni"/>
+<alex pos="2" neg="0" out="England" type="" in="England"/>
+<alex pos="2" neg="0" out="engelske" type="" in="inglesi"/>
+<alex pos="2" neg="0" out="endnu" type="wo" in="Per il momento"/>
+<alex pos="2" neg="0" out="ender det" type="" in="ender det"/>
+<alex pos="2" neg="0" out="en ca." type="" in="en ca."/>
+<alex pos="2" neg="0" out="Eller" type="" in="oppure"/>
+<alex pos="2" neg="0" out="eller" type="" in="oppure"/>
+<alex pos="2" neg="0" out="Ellemann" type="" in="Ellemann"/>
+<alex pos="2" neg="0" out="ELKJÆR" type="" in="ELKJÆR"/>
+<alex pos="2" neg="0" out="Eksport" type="" in="Export"/>
+<alex pos="2" neg="0" out="eksemplar" type="" in="esemplare"/>
+<alex pos="2" neg="0" out="efter" type="" in="dell'"/>
+<alex pos="2" neg="0" out="EF-landene" type="s" in="I"/>
+<alex pos="2" neg="0" out="EF-landene" type="s" in="dai"/>
+<alex pos="2" neg="0" out="EF-landene" type="" in="paesi della CEE"/>
+<alex pos="2" neg="0" out="EF-fiskeriministermøde" type="" in="riunione fra i ministri della pesca della Comunità Europea"/>
+<alex pos="2" neg="0" out="EF-asylkonventionen" type="f" in="accordo sull’asilo politico"/>
+<alex pos="2" neg="0" out="EF-asylkonventionen" type="ds" in="un"/>
+<alex pos="2" neg="0" out="Ebeltoft" type="" in="Ebeltoft"/>
+<alex pos="2" neg="0" out="d'" type="" in="d'"/>
+<alex pos="2" neg="0" out="DSBs" type="" in="DSB"/>
+<alex pos="2" neg="0" out="dømte" type="mcnwo" in="Dopo la condanna"/>
+<alex pos="2" neg="0" out="dommeren" type="s" in="il"/>
+<alex pos="2" neg="0" out="dommeren" type="" in="giudice"/>
+<alex pos="2" neg="0" out="dommen" type="s" in="la"/>
+<alex pos="2" neg="0" out="dog" type="wo" in="comunque"/>
+<alex pos="2" neg="0" out="distributører" type="" in="distributori"/>
+<alex pos="2" neg="0" out="distributører" type="ds" in="i"/>
+<alex pos="2" neg="0" out="disken" type="s" in="al"/>
+<alex pos="2" neg="0" out="disken" type="" in="banco"/>
+<alex pos="2" neg="0" out="diplomater" type="" in="diplomatici"/>
+<alex pos="2" neg="0" out="din" type="s" in="il"/>
+<alex pos="2" neg="0" out="di certo" type="" in="di certo"/>
+<alex pos="2" neg="0" out="diamantindustri" type="" in="industria diamantiferi"/>
+<alex pos="2" neg="0" out="de" type="" in="negli"/>
+<alex pos="2" neg="0" out="DE" type="" in="DE"/>
+<alex pos="2" neg="0" out="det var underligt" type="mcadj" in="strano"/>
+<alex pos="2" neg="0" out="det" type="s" in="della"/>
+<alex pos="2" neg="0" out="det" type="s" in="dalla"/>
+<alex pos="2" neg="0" out="det" type="n" in="delle"/>
+<alex pos="2" neg="0" out="Det" type="lv" in="Le vendite"/>
+<alex pos="2" neg="0" out="Det" type="" in="questo"/>
+<alex pos="2" neg="0" out="det" type="" in="nella"/>
+<alex pos="2" neg="0" out="det" type="" in="dell'"/>
+<alex pos="2" neg="0" out="det" type="" in="del"/>
+<alex pos="2" neg="0" out="Det" type="" in="ciò"/>
+<alex pos="2" neg="0" out="det" type="f" in="La questione"/>
+<alex pos="2" neg="0" out="Det" type="f" in="il problema"/>
+<alex pos="2" neg="0" out="det" type="f" in="che"/>
+<alex pos="2" neg="0" out="det tog" type="" in="occupava"/>
+<alex pos="2" neg="0" out="det svarer til" type="" in="circa"/>
+<alex pos="2" neg="0" out="det skulle" type="" in="avrebbero dovuto"/>
+<alex pos="2" neg="0" out="Det siger sig selv" type="" in="Va da sé"/>
+<alex pos="2" neg="0" out="det med" type="f" in="la storia delle"/>
+<alex pos="2" neg="0" out="det hele" type="" in="tutto"/>
+<alex pos="2" neg="0" out="det er" type="" in="sarà"/>
+<alex pos="2" neg="0" out="Det er" type="" in="è"/>
+<alex pos="2" neg="0" out="Det er" type="" in="Det er"/>
+<alex pos="2" neg="0" out="Det er" type="f" in="cioè"/>
+<alex pos="2" neg="0" out="det bedste" type="" in="la cosa migliore"/>
+<alex pos="2" neg="0" out="desværre" type="wo" in="purtroppo"/>
+<alex pos="2" neg="0" out="Der" type="" in="Der"/>
+<alex pos="2" neg="0" out=", der" type="" in=", der"/>
+<alex pos="2" neg="0" out="Der" type="" in="ci"/>
+<alex pos="2" neg="0" out="Dernæst" type="" in="dopo"/>
+<alex pos="2" neg="0" out="dermed" type="" in="quindi"/>
+<alex pos="2" neg="0" out="dermed" type="" in="dermed"/>
+<alex pos="2" neg="0" out="der lukker op igen" type="mvi" in="a riprendere"/>
+<alex pos="2" neg="0" out="Derfor" type="" in="Per questo"/>
+<alex pos="2" neg="0" out="derfor" type="" in="derfor"/>
+<alex pos="2" neg="0" out="derfor" type="" in="Con queste premesse"/>
+<alex pos="2" neg="0" out="Deres" type="" in="vostre"/>
+<alex pos="2" neg="0" out="Deres" type="" in="Deres"/>
+<alex pos="2" neg="0" out="der bestyrer" type="mcn" in="direttore del"/>
+<alex pos="2" neg="0" out="der består af" type="" in="a base di"/>
+<alex pos="2" neg="0" out="den" type="s" in="sulla"/>
+<alex pos="2" neg="0" out="Den" type="" in="La"/>
+<alex pos="2" neg="0" out="Den" type="" in="la"/>
+<alex pos="2" neg="0" out="Den" type="" in="Den"/>
+<alex pos="2" neg="0" out="den" type="" in="dalla"/>
+<alex pos="2" neg="0" out="dens" type="" in="dens"/>
+<alex pos="2" neg="0" out="Dengang" type="" in="In quegli anni"/>
+<alex pos="2" neg="0" out="den eneste" type="" in="l’unica"/>
+<alex pos="2" neg="0" out="den aften" type="d" in="sera"/>
+<alex pos="2" neg="0" out="demokratiske" type="" in="democratico"/>
+<alex pos="2" neg="0" out="delineata" type="" in="delineata"/>
+<alex pos="2" neg="0" out="dejen" type="" in="impasto"/>
+<alex pos="2" neg="0" out="degli" type="" in="degli"/>
+<alex pos="2" neg="0" out="de er i slutningen af 40'erne" type="" in="si avvicinano alla cinquantina"/>
+<alex pos="2" neg="0" out="De dødes rige" type="" in="la “Valle dei Re e dei Nobili”"/>
+<alex pos="2" neg="0" out="december" type="" in="dicembre"/>
+<alex pos="2" neg="0" out="de bløde strimler" type="" in="de bløde strimler"/>
+<alex pos="2" neg="0" out="De_Beers-topfolk" type="" in="vertici della DE BEERS"/>
+<alex pos="2" neg="0" out="DA" type="" in="DA"/>
+<alex pos="2" neg="0" out="d’asilo" type="" in="d’asilo"/>
+<alex pos="2" neg="0" out="dare" type="" in="dare"/>
+<alex pos="2" neg="0" out="da quello" type="" in="da quello"/>
+<alex pos="2" neg="0" out="Danskheden" type="s" in="La"/>
+<alex pos="2" neg="0" out="Danskheden" type="" in="danesità"/>
+<alex pos="2" neg="0" out="Danskerne" type="" in="Noi danesi"/>
+<alex pos="2" neg="0" out="Danmark" type="s" in="la"/>
+<alex pos="2" neg="0" out="dal momento che" type="" in="dal momento che"/>
+<alex pos="2" neg="0" out="dai" type="" in="dai"/>
+<alex pos="2" neg="0" out="cui" type="" in="cui"/>
+<alex pos="2" neg="0" out="Crescent" type="" in="Crescent"/>
+<alex pos="2" neg="0" out="costituito" type="" in="costituito"/>
+<alex pos="2" neg="0" out="corte" type="" in="corte"/>
+<alex pos="2" neg="0" out="Clausen" type="" in="Clausen"/>
+<alex pos="2" neg="0" out="civilisationen" type="n" in="terre civili-"/>
+<alex pos="2" neg="0" out="civilforsvarsstyrelsen" type="s" in="la"/>
+<alex pos="2" neg="0" out="civilforsvarsstyrelsen" type="" in="Difesa civile"/>
+<alex pos="2" neg="0" out="cittadini" type="" in="cittadini"/>
+<alex pos="2" neg="0" out="chi" type="" in="chi"/>
+<alex pos="2" neg="0" out="chiedere" type="" in="chiedere"/>
+<alex pos="2" neg="0" out="Cheeses" type="" in="Cheese"/>
+<alex pos="2" neg="0" out="certo" type="" in="certo"/>
+<alex pos="2" neg="0" out="certa" type="" in="certa"/>
+<alex pos="2" neg="0" out="centret" type="s" in="nel"/>
+<alex pos="2" neg="0" out="Centret" type="s" in="del"/>
+<alex pos="2" neg="0" out="centret" type="" in="centro"/>
+<alex pos="2" neg="0" out="CENTENARY" type="" in="CENTENARY"/>
+<alex pos="2" neg="0" out="ca." type="" in="circa"/>
+<alex pos="2" neg="0" out="cand._jur." type="ds" in="l'"/>
+<alex pos="2" neg="0" out="campionaria" type="" in="campionaria"/>
+<alex pos="2" neg="0" out="Cairo-step" type="f" in="diarrea"/>
+<alex pos="2" neg="0" out="Cairo-step" type="ds" in="la"/>
+<alex pos="2" neg="0" out="byret" type="" in="tribunale di primo grado"/>
+<alex pos="2" neg="0" out="byfester" type="ds" in="alle"/>
+<alex pos="2" neg="0" out="byens" type="" in="città"/>
+<alex pos="2" neg="0" out="bruges" type="f" in="si può consumare"/>
+<alex pos="2" neg="0" out="brødproducent" type="" in="produttore di pane"/>
+<alex pos="2" neg="0" out="brev" type="n" in="lettere"/>
+<alex pos="2" neg="0" out="branchen" type="" in="settore"/>
+<alex pos="2" neg="0" out="børn" type="" in="figli"/>
+<alex pos="2" neg="0" out="børn" type="" in="bambini"/>
+<alex pos="2" neg="0" out="boligydelse" type="sn" in="dei"/>
+<alex pos="2" neg="0" out="Boligydelse" type="" in="contributi comunali per l' affitto"/>
+<alex pos="2" neg="0" out="boligydelse" type="" in="boligydelse"/>
+<alex pos="2" neg="0" out="Boligydelse" type="dsn" in="I"/>
+<alex pos="2" neg="0" out="Boligydelsen" type="sn" in="I"/>
+<alex pos="2" neg="0" out="Boligydelsen" type="sn" in="i"/>
+<alex pos="2" neg="0" out="boligydelsen" type="sn" in="dei"/>
+<alex pos="2" neg="0" out="Boligydelsen" type="s" in="L'"/>
+<alex pos="2" neg="0" out="Boligydelsen" type="" in="contributi"/>
+<alex pos="2" neg="0" out="boligydelsen" type="" in="contributi"/>
+<alex pos="2" neg="0" out="Boligydelsen" type="f" in="ammontare dei contributi"/>
+<alex pos="2" neg="0" out="bolig" type="" in="edificio"/>
+<alex pos="2" neg="0" out="bog" type="" in="libro"/>
+<alex pos="2" neg="0" out="bofællesskabet" type="s" in="la"/>
+<alex pos="2" neg="0" out="bofællesskabets" type="s" in="di la"/>
+<alex pos="2" neg="0" out="bofællesskabets" type="" in="coabitazione"/>
+<alex pos="2" neg="0" out="Bodil" type="" in="Bodil"/>
+<alex pos="2" neg="0" out="blot" type="" in="semplice"/>
+<alex pos="2" neg="0" out="blive" type="" in="blive"/>
+<alex pos="2" neg="0" out="blive lukket ind" type="mvd" in="introdursi"/>
+<alex pos="2" neg="0" out="blev ved med" type="" in="abbia continuato ad"/>
+<alex pos="2" neg="0" out="bl.a." type="" in="tra cui"/>
+<alex pos="2" neg="0" out="blandt_andet" type="wo" in="Fra gli altri"/>
+<alex pos="2" neg="0" out="Bjerregaard" type="" in="Bjerregaard"/>
+<alex pos="2" neg="0" out="bivirkninger" type="" in="effetti collaterali"/>
+<alex pos="2" neg="0" out="bistand" type="" in="sussidio di disoccupazione"/>
+<alex pos="2" neg="0" out="billedkunstner" type="" in="artista figurativo"/>
+<alex pos="2" neg="0" out="bestyrelsesmedlemmerne" type="" in="bestyrelsesmedlemmerne"/>
+<alex pos="2" neg="0" out="bestyrelsesformand" type="" in="presidente del consiglio d' amministrazione"/>
+<alex pos="2" neg="0" out="bestået" type="" in="superati"/>
+<alex pos="2" neg="0" out="bestående" type="f" in="a disposizione"/>
+<alex pos="2" neg="0" out="besparelser" type="" in="risparmi"/>
+<alex pos="2" neg="0" out="besluttet" type="" in="stabilito"/>
+<alex pos="2" neg="0" out="beskæftiger sig med" type="" in="se ne occupano"/>
+<alex pos="2" neg="0" out="berømt" type="" in="famoso"/>
+<alex pos="2" neg="0" out="Berlin" type="" in="Berlino"/>
+<alex pos="2" neg="0" out="ben" type="" in="ben"/>
+<alex pos="2" neg="0" out="Bente" type="" in="Bente"/>
+<alex pos="2" neg="0" out="bekendt" type="f" in="saperlo bene"/>
+<alex pos="2" neg="0" out="behandling" type="ds" in="la"/>
+<alex pos="2" neg="0" out="behandlingen" type="" in="trattare"/>
+<alex pos="2" neg="0" out="begge" type="" in="begge"/>
+<alex pos="2" neg="0" out="BEERS" type="" in="BEERS"/>
+<alex pos="2" neg="0" out="Bankens" type="" in="Bankens"/>
+<alex pos="2" neg="0" out="august" type="" in="agosto"/>
+<alex pos="2" neg="0" out="at vende tilbage" type="" in="tornare"/>
+<alex pos="2" neg="0" out="at" type="" in="il fatto che"/>
+<alex pos="2" neg="0" out="at" type="" in="da"/>
+<alex pos="2" neg="0" out="attuale" type="" in="attuale"/>
+<alex pos="2" neg="0" out="at spille" type="mvg" in="suonando"/>
+<alex pos="2" neg="0" out="at sælge" type="mcn" in="una vendita"/>
+<alex pos="2" neg="0" out="ATP" type="" in="ATP"/>
+<alex pos="2" neg="0" out="at prøve at se" type="f" in="capire"/>
+<alex pos="2" neg="0" out="at han sprang til" type="mvi" in="di aver colto l' occasione"/>
+<alex pos="2" neg="0" out="at få sig" type="" in="assicurarsi"/>
+<alex pos="2" neg="0" out="at få opbygget" type="mvg" in="creando"/>
+<alex pos="2" neg="0" out="at ansætte" type="" in="assumere"/>
+<alex pos="2" neg="0" out="asylpolitikken" type="sn" in="le"/>
+<alex pos="2" neg="0" out="år" type="ds" in="allo"/>
+<alex pos="2" neg="0" out="artikler" type="" in="articoli"/>
+<alex pos="2" neg="0" out="års" type="s" in="di"/>
+<alex pos="2" neg="0" out="årets" type="" in="anno"/>
+<alex pos="2" neg="0" out="arealgrænserne" type="s" in="dei"/>
+<alex pos="2" neg="0" out="arealgrænserne" type="" in="limiti di superficie"/>
+<alex pos="2" neg="0" out="arealer" type="" in="terreni"/>
+<alex pos="2" neg="0" out="Ardy" type="" in="Ardy"/>
+<alex pos="2" neg="0" out="Arbejdsgruppen" type="s" in="Il gruppo di lavoro"/>
+<alex pos="2" neg="0" out="arbejdsgruppens" type="" in="gruppo di lavoro"/>
+<alex pos="2" neg="0" out="arbejde" type="" in="opera"/>
+<alex pos="2" neg="0" out="arbejde" type="" in="lavorare"/>
+<alex pos="2" neg="0" out="arbejdet" type="sn" in="i"/>
+<alex pos="2" neg="0" out="applikationer" type="" in="applicazioni"/>
+<alex pos="2" neg="0" out="ansvaret" type="s" in="la"/>
+<alex pos="2" neg="0" out="ansvaret" type="" in="responsabilità"/>
+<alex pos="2" neg="0" out="ansøgning" type="n" in="domande"/>
+<alex pos="2" neg="0" out="ansatte" type="" in="dipendenti"/>
+<alex pos="2" neg="0" out="anklagemyndigheden" type="s" in="il"/>
+<alex pos="2" neg="0" out="anklagemyndigheden" type="" in="pubblico ministero"/>
+<alex pos="2" neg="0" out="anholdt" type="" in="arrestato"/>
+<alex pos="2" neg="0" out="andre" type="ds" in="gli"/>
+<alex pos="2" neg="0" out="anden" type="" in="seconda"/>
+<alex pos="2" neg="0" out="andelsboliger" type="" in="abitazioni in cooperativa"/>
+<alex pos="2" neg="0" out="andelsboliger" type="ds" in="sulle"/>
+<alex pos="2" neg="0" out="ammontare" type="" in="ammontare"/>
+<alex pos="2" neg="0" out="alt" type="" in="tutto"/>
+<alex pos="2" neg="0" out="alt" type="" in="alt"/>
+<alex pos="2" neg="0" out="alt" type="fn" in="le cose"/>
+<alex pos="2" neg="0" out="altså" type="" in="insomma"/>
+<alex pos="2" neg="0" out="altro" type="" in="altro"/>
+<alex pos="2" neg="0" out="altri" type="" in="altri"/>
+<alex pos="2" neg="0" out="altid" type="" in="di solito"/>
+<alex pos="2" neg="0" out="alternative" type="" in="alternativa"/>
+<alex pos="2" neg="0" out="alterkalk" type="" in="calice"/>
+<alex pos="2" neg="0" out="alle" type="" in="Tutti"/>
+<alex pos="2" neg="0" out="allesammen" type="" in="allesammen"/>
+<alex pos="2" neg="0" out="alene" type="" in="solo"/>
+<alex pos="2" neg="0" out="alcuna" type="" in="alcuna"/>
+<alex pos="2" neg="0" out="aktiv" type="" in="attivamente"/>
+<alex pos="2" neg="0" out="aktier" type="" in="azioni"/>
+<alex pos="2" neg="0" out="af" type="" in="sui"/>
+<alex pos="2" neg="0" out="af" type="" in="degli"/>
+<alex pos="2" neg="0" out="af" type="" in="dagli"/>
+<alex pos="2" neg="0" out="af" type="f" in="concernente"/>
+<alex pos="2" neg="0" out="aftagerland" type="" in="importatore"/>
+<alex pos="2" neg="0" out="afsnit" type="" in="paragrafo"/>
+<alex pos="2" neg="0" out="afgørende" type="" in="afgørende"/>
+<alex pos="2" neg="0" out="afføringen" type="n+s" in="le feci"/>
+<alex pos="2" neg="0" out="af det" type="" in="ne"/>
+<alex pos="2" neg="0" out="ægtefæller" type="" in="coniugi"/>
+<alex pos="2" neg="0" out="ægtefæller" type="ds" in="i"/>
+<alex pos="2" neg="0" out="administrerende" type="" in="amministrativo"/>
+<alex pos="2" neg="0" out="adgang" type="n" in="accessi"/>
+<alex pos="2" neg="0" out="adgang" type="dns" in="gli"/>
+<alex pos="2" neg="0" out="åbne" type="" in="aprire"/>
+<alex pos="2" neg="0" out="åbnede" type="" in="ha aperto"/>
+<alex pos="2" neg="0" out="abitabile" type="" in="abitabile"/>
+<alex pos="2" neg="0" out="9,5" type="" in="9,5"/>
+<alex pos="2" neg="0" out="93" type="ds" in="il"/>
+<alex pos="2" neg="0" out="700" type="" in="700"/>
+<alex pos="2" neg="0" out="55" type="" in="55"/>
+<alex pos="2" neg="0" out="49" type="" in="49"/>
+<alex pos="2" neg="0" out="40" type="" in="quarant'"/>
+<alex pos="2" neg="0" out="40 år" type="" in="la quarantina"/>
+<alex pos="2" neg="0" out="400" type="" in="400"/>
+<alex pos="2" neg="0" out="3" type="" in="tre"/>
+<alex pos="2" neg="0" out="35" type="" in="35"/>
+<alex pos="2" neg="0" out="2,8" type="" in="2,8"/>
+<alex pos="2" neg="0" out="225" type="" in="225"/>
+<alex pos="2" neg="0" out="200" type="" in="200"/>
+<alex pos="2" neg="0" out="2005" type="" in="2005"/>
+<alex pos="2" neg="0" out="19" type="" in="19"/>
+<alex pos="2" neg="0" out="1992" type="ds" in="nel"/>
+<alex pos="2" neg="0" out="1992" type="ds" in="dal"/>
+<alex pos="2" neg="0" out="1991" type="ds" in="del"/>
+<alex pos="2" neg="0" out="1965" type="ds" in="nel"/>
+<alex pos="2" neg="0" out="1964" type="ds" in="nel"/>
+<alex pos="2" neg="0" out="16" type="" in="16"/>
+<alex pos="2" neg="0" out="1,5" type="" in="1,5"/>
+<alex pos="2" neg="0" out="155.000" type="" in="155.000"/>
+<alex pos="2" neg="0" out="1505" type="" in="1505"/>
+<alex pos="2" neg="0" out="125" type="" in="125"/>
+<alex pos="2" neg="0" out="11" type="" in="11"/>
+<alex pos="2" neg="0" out="10 procent" type="" in="10%"/>
+<alex pos="2" neg="0" out="10 procent" type="ds" in="del"/>
+<alex pos="2" neg="0" out="1050" type="" in="1050"/>
+<alex pos="2" neg="0" out="100" type="" in="cento"/>
+<gap pos="179" type="in" width="1"/>
+<gap pos="57" type="in" width="2"/>
+<gap pos="25" type="in" width="3"/>
+<gap pos="13" type="in" width="4"/>
+<gap pos="2" type="in" width="5"/>
+<gap pos="2" type="in" width="6"/>
+<gap pos="3" type="in" width="7"/>
+<gap pos="2" type="in" width="9"/>
+<gap pos="1" type="in" width="12"/>
+<gap pos="1" type="in" width="17"/>
+<gap pos="1" type="in" width="32"/>
+<gap pos="1" type="in" width="64"/>
+<gap pos="181" type="out" width="1"/>
+<gap pos="61" type="out" width="2"/>
+<gap pos="39" type="out" width="3"/>
+<gap pos="12" type="out" width="4"/>
+<gap pos="11" type="out" width="5"/>
+<gap pos="5" type="out" width="6"/>
+<gap pos="6" type="out" width="7"/>
+<gap pos="2" type="out" width="8"/>
+<gap pos="2" type="out" width="12"/>
+<gap pos="1" type="out" width="13"/>
+<gap pos="2" type="out" width="15"/>
+<gap pos="1" type="out" width="17"/>
+<gap pos="1" type="out" width="20"/>
+</DTAGalex>
