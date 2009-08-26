@@ -22,7 +22,7 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = '1.0.0 (2009-06-29 10:06:04)';
+my $RELEASE = '1.0.0 (2009-08-26  9:45:00)';
 
 use strict;
 use File::Basename;
@@ -85,18 +85,16 @@ if (! $quiet) {
 }
 
 # Process rc-file
-my $rcfile = "";
-$rcfile = $DTAGHOME . "/.dtagrc" 
-	if ($DTAGHOME && -r $DTAGHOME . "/.dtagrc");
-$rcfile = $ENV{'HOME'} . "/.dtagrc"
-	if ($ENV{'HOME'} && -r $ENV{'HOME'} . "/.dtagrc");
-$rcfile = ".dtagrc" 
-	if (-r ".dtagrc");
 $inter->quiet(1);
-if ($rcfile && $init) {
-	print "Using rcfile $rcfile\n" if (! $quiet);
-	$inter->do("script $rcfile");
-} 
+if ($init) {
+	foreach my $rcfile (($DTAGHOME || "XXX") . "/.dtagrc", 
+			($ENV{'HOME'} || "XXX") . "/.dtagrc", ".dtagrc") {
+		if (-r $rcfile) {
+			print "Using rcfile $rcfile\n" if (! $quiet);
+			$inter->do("script $rcfile");
+		}
+	}
+}
 $inter->quiet($quiet);
 
 # Process command line arguments
