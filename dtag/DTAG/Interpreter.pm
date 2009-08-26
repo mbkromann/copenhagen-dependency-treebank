@@ -1275,8 +1275,9 @@ sub cmd_autoalign {
 				$self->{'graph'} = $currentgraph;
 
 				# Train new lexicon for alignment
-				my $sublexicon = $alexicon->new_sublexicon();
-				$sublexicon->train($alignment);
+				#my $sublexicon = $alexicon->new_sublexicon();
+				#$sublexicon->train($alignment);
+				$alexicon->train($alignment);
 			}
 		}
 	} elsif ($graph->alexicon()) {
@@ -5019,10 +5020,10 @@ sub cmd_print {
 		close(PSFILE);
 		my $iconv = $self->{'options'}{'iconv'} || 'cat';
 		my $cmd = $iconv . " $tmpfile > $tmpfile2";
-		mysystem("cp $tmpfile $tmpfile2");
-		mysystem($cmd);
-		mysystem("rm $tmpfile");
-		mysystem("mv $tmpfile2 $file");
+		system("cp $tmpfile $tmpfile2");
+		system($cmd);
+		system("rm $tmpfile");
+		system("mv $tmpfile2 $file");
 		print "printed $file\n";
 	}
 
@@ -5030,11 +5031,6 @@ sub cmd_print {
 	return 1;
 }
 
-sub mysystem {
-	my $cmd = shift;
-	system($cmd);
-	print $cmd, " (error: $!)\n";
-}
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_pstep.pl
 ## ------------------------------------------------------------
