@@ -5023,7 +5023,8 @@ sub cmd_print {
 		system("cp $tmpfile $tmpfile2");
 		system($cmd);
 		system("rm $tmpfile");
-		system("mv $tmpfile2 $file");
+		system("cp $tmpfile2 $file");
+		system("rm $tmpfile2");
 		print "printed $file\n";
 	}
 
