@@ -5025,7 +5025,6 @@ sub cmd_print {
 		system("rm $tmpfile");
 		system("cp $tmpfile2 $file");
 		system("rm $tmpfile2");
-		print "printed $file\n";
 	}
 
 	# Return
@@ -6419,63 +6418,31 @@ sub cmd_show_align {
 	my $args = (shift() || "") . " ";
 	my $option = shift() || "";
 
-	# Exit with error
-	error("command cmd_show_align is unimplemented");
-	return 1;
-
-	# Calculate ranges to show
-	my ($imin, $imax) = (-1, -1);
-	my $include = {};
-	my $exclude = {};
-
 	# Process argument string
 	while ($args !~ /^\s*$/) {
-		if ($args =~ s/^\s*([0-9]+)(-([0-9]+))?([^0-9])/$4/) {
+		my ($imin, $imax) = (-1, -1);
+		if ($args =~ s/^\s*([a-z])([0-9]+)(-([0-9]+))?([^0-9])/$5/) {
+			# Retrieve values
+			my $key = $1;
+			my $keygraph = $graph->graph($key);
+			next if (! $keygraph);
 			$imin = ($imin == -1) 
-				? $1 + $graph->offset() 
-				: min($imin, $1 + $graph->offset());
-			$imax = max($imax, $3 + $graph->offset()) if (defined($3));
-		} elsif ($args =~ s/^\s*([+-])([0-9]+)(-([0-9]+))?([^0-9])/$5/) {
-			my ($ie, $i1, $i2) = ($1, $2, $4 || $2);
-			$imin = min($imin, $i1 + $graph->offset()) if ($ie eq "+");
-			$imax = max($imax, $i2 + $graph->offset()) if ($ie eq "+");
+				? $2 + $graph->offset($key) 
+				: min($imin, $2 + $graph->offset($key));
+			$imax = max($imax, $4 + $graph->offset($key)) if (defined($4));
+			$imax = $graph->graph($key)->size()
+				if ($imax < 0);
+				
 
-			# Update include/exclude hash within $imin and $imax
-			my $i = $i1;
-			for(my $i = $i1; $i <= min($imax, $i2); ++$i) {
-				$include->{$i} = 1 if ($ie eq "+");
-				$exclude->{$i} = 1 if ($ie eq "-");
-			}
+			# Set values in graph
+			$graph->var("imin")->{$key} = $imin;
+			$graph->var("imax")->{$key} = $imax;
 		} else {
 			$args =~ s/^.//;
 		}
 	}
 
-	# Process all included nodes, if -yield or -component option is given
-	if ($option =~ /^-[cy]$/) {
-		# Process all include nodes
-		my $new = {};
-		foreach my $i (keys(%$include)) {
-			if ($option =~ /^-y/) {
-				$graph->yields($new, $i);
-			} elsif ($option =~ /^-c/) {
-				$graph->component($i, $new);
-			}
-		}
-
-		# Add all new include nodes to $include and update $imin and $imax
-		foreach my $i (keys(%$new)) {
-			$include->{$i} = 1;
-			$imin = ($imin == -1) ? $i : min($imin, $i);
-			$imax = max($imax, $i);
-		}
-	}
-
-	# Set new values of $imin and $imax in $graph, and redisplay
-	$graph->var('imin', $imin);
-	$graph->var('imax', $imax);
-	$graph->include(scalar(%$include) ? $include : undef);
-	$graph->exclude(scalar(%$exclude) ? $exclude : undef);
+	# Redisplay
 	$self->cmd_return($graph);
 
 	# Return
@@ -7425,7 +7392,7 @@ sub do {
 			$success = $self->cmd_show($graph, $5, $2);
 		}
 		if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
-			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[a-z][0-9]+)?)*)\s*$/) {
+			$cmd =~ /^\s*show(\s+(-c(omponent)?|-y(ield)?))?((\s+[+-]?[a-z][0-9]+(-[0-9]+)?)*)\s*$/) {
 			$success = $self->cmd_show_align($graph, $5, $2);
 		}
 
