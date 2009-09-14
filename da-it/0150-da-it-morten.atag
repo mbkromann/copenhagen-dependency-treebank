@@ -1,0 +1,193 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0150-da.tag" sign="_input"/>
+<alignFile key="b" href="../it/0150-it-tagged.tag" sign="_input"/>
+<align out="a47" type="s" in="b6 b7 b8" creator="0" insign="L' agenzia immobiliare" outsign="Ejendomsselskabet"/>
+<align out="a49" type="" in="b10" creator="0" insign="desidera" outsign="ønsker"/>
+<align out="a51" type="" in="b11" creator="0" insign="crescere" outsign="vokse"/>
+<align out="a50" type="" in="a50" creator="0" insign="at" outsign="at"/>
+<align out="a52" type="" in="a52" creator="0" insign="sig" outsign="sig"/>
+<align out="a53" type="" in="b12" creator="0" insign="ulteriormente" outsign="endnu"/>
+<align out="a54" type="" in="a54" creator="0" insign="større" outsign="større"/>
+<align out="b14 b15 b16" type="" in="b14 b15 b16" creator="0" insign="realizza questo obiettivo" outsign="realizza questo obiettivo"/>
+<align out="a60" type="s" in="b18 b19" creator="0" insign="la fusione" outsign="fusionen"/>
+<align out="a56" type="" in="a56" creator="0" insign="end" outsign="end"/>
+<align out="a57" type="" in="a57" creator="0" insign="det" outsign="det"/>
+<align out="a58" type="" in="a58" creator="0" insign="bliver" outsign="bliver"/>
+<align out="a59" type="" in="a59" creator="0" insign="efter" outsign="efter"/>
+<align out="a61" type="" in="a61" creator="0" insign="med" outsign="med"/>
+<align out="b17" type="" in="b17" creator="0" insign="con" outsign="con"/>
+<align out="a48" type="" in="b9" creator="-1" insign="Norden" outsign="Norden"/>
+<align out="a43" type="" in="b2" creator="-1" insign="(" outsign="("/>
+<align out="a46" type="" in="b5" creator="-1" insign=")" outsign=")"/>
+<align out="a55" type="f" in="b13" creator="-1" insign="e" outsign=","/>
+<align out="a44" type="" in="b3" creator="-1" insign="Seconda" outsign="2."/>
+<align out="a45" type="" in="b4" creator="-1" insign="edizione" outsign="udgave"/>
+<align out="a64" type="" in="b28 b29" creator="0" insign="gruppo Hafnia" outsign="Hafnia-koncernens"/>
+<align out="a65" type="n" in="b26" creator="0" insign="società" outsign="selskaber"/>
+<align out="a67" type="s" in="b31 b32" creator="0" insign="la Aktieselskabet" outsign="Aktieselskabet"/>
+<align out="a69" type="ds" in="b20 b21" creator="0" insign="il 15" outsign="15."/>
+<align out="a72" type="" in="b33" creator="0" insign="." outsign="."/>
+<align out="a68" type="" in="a68" creator="0" insign="af" outsign="af"/>
+<align out="a62" type="" in="b25" creator="0" insign="una" outsign="et"/>
+<align out="b24" type="" in="b24" creator="0" insign="con" outsign="con"/>
+<align out="a75" type="" in="b36" creator="0" insign="Le" outsign="De"/>
+<align out="a63" type="" in="b27" creator="0" insign="del" outsign="af"/>
+<align out="a64" type="s" in="b27" creator="0" insign="del" outsign="Hafnia-koncernens"/>
+<align out="a76" type="" in="b37" creator="0" insign="prime" outsign="første"/>
+<align out="a77" type="" in="b39" creator="0" insign="interessate" outsign="interesserede"/>
+<align out="a78" type="" in="b38" creator="0" insign="società" outsign="selskaber"/>
+<align out="a80" type="" in="b42" creator="0" insign="già" outsign="allerede"/>
+<align out="a83" type="" in="a83" creator="0" insign="," outsign=","/>
+<align out="a79 a81 a82" type="" in="b40 b41 b43 b44" creator="0" insign="si sono fatte avanti" outsign="har vist sig"/>
+<align out="a73" type="" in="b34" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a74" type="" in="b35" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a70" type="" in="b22" creator="-1" insign="aprile" outsign="april"/>
+<align out="a71" type="" in="b23" creator="-1" insign="1980" outsign="1980"/>
+<align out="a66" type="" in="b30" creator="-1" insign="," outsign=","/>
+<align out="b46" type="" in="b46" creator="0" insign="che" outsign="che"/>
+<align out="b54" type="" in="b54" creator="0" insign="di" outsign="di"/>
+<align out="a88" type="" in="b48 b49" creator="0" insign="ha annunciato" outsign="meddelte"/>
+<align out="a87" type="mcadv" in="b50 b51 b52 b53" creator="0" insign="in un comunicato ufficiale" outsign="officielt"/>
+<align out="a89" type="" in="b56" creator="0" insign="," outsign=","/>
+<align out="a91" type="s" in="b58 b59" creator="0" insign="l' unione" outsign="sammenlægningen"/>
+<align out="a93" type="s" in="b61 b62 b63 b64" creator="0" insign="la società di Hafnia" outsign="Hafnia-selskabet"/>
+<align out="a86" type="" in="b55" creator="-1" insign="ieri" outsign="i_går"/>
+<align out="a90" type="" in="b57" creator="-1" insign="che" outsign="at"/>
+<align out="a92" type="" in="b60" creator="-1" insign="con" outsign="med"/>
+<align out="a84" type="" in="b45" creator="-1" insign="dopo" outsign="efter"/>
+<align out="a85" type="" in="b47" creator="-1" insign="Norden" outsign="Norden"/>
+<align out="a95 a96 a97" type="e" in="b66 b67 b68 b69" creator="0" insign="in corso di negoziazione" outsign="forhandlet på plads"/>
+<align out="a105" type="" in="b77" creator="0" insign="e" outsign="og"/>
+<align out="a98" type="" in="b70" creator="0" insign="." outsign="."/>
+<align out="a107 a108 a109 a110" type="" in="b79 b80 b81 b82" creator="0" insign="lasciano le porte aperte" outsign="lader døren stå åben"/>
+<align out="a111" type="" in="b84" creator="0" insign="ad" outsign="for"/>
+<align out="b83" type="" in="b83" creator="0" insign="anche" outsign="anche"/>
+<align out="a94" type="" in="b65" creator="-1" insign="è" outsign="er"/>
+<align out="a100" type="" in="b72" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a99" type="" in="b71" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a102" type="" in="b74" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a101" type="" in="b73" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a104" type="" in="b76" creator="-1" insign="Hafnia" outsign="Hafnia"/>
+<align out="a112" type="" in="b85" creator="-1" insign="altri" outsign="andre"/>
+<align out="a115" type="" in="b88" creator="-1" insign="dice" outsign="siger"/>
+<align out="a103" type="" in="b75" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a114" type="" in="b86" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a106" type="" in="b78" creator="-1" insign="Norden" outsign="Norden"/>
+<align out="a113" type="" in="b87" creator="-1" insign="," outsign=","/>
+<align out="a118" type="" in="b91" creator="0" insign="," outsign=","/>
+<align out="a119" type="" in="a119" creator="0" insign="som" outsign="som"/>
+<align out="a120" type="" in="a120" creator="0" insign="er" outsign="er"/>
+<align out="a124" type="" in="b94 b95" creator="0" insign="società madre" outsign="moderselskab"/>
+<align out="a123" type="s" in="b93 b96" creator="0" insign="della di" outsign="Nordens"/>
+<align out="a123" type="" in="b97" creator="0" insign="Norden" outsign="Nordens"/>
+<align out="b98" type="" in="b98" creator="0" insign="," outsign=","/>
+<align out="a122" type="" in="b93" creator="0" insign="della" outsign="i"/>
+<align out="b111" type="" in="b111" creator="0" insign="," outsign=","/>
+<align out="a117" type="" in="b90" creator="-1" insign="Nygaard" outsign="Nygaard"/>
+<align out="a121" type="" in="b92" creator="-1" insign="direttore" outsign="direktør"/>
+<align out="a125" type="" in="b99" creator="-1" insign="Commercial" outsign="Commercial"/>
+<align out="a126" type="" in="b100" creator="-1" insign="Holding" outsign="Holding"/>
+<align out="a127" type="" in="b101" creator="-1" insign="International" outsign="International"/>
+<align out="a133" type="" in="b107" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a131" type="" in="b105" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a132" type="" in="b106" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a130" type="" in="b104" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a135" type="s" in="b109 b110" creator="-1" insign="la fusione" outsign="fusionen"/>
+<align out="a116" type="" in="b89" creator="-1" insign="Preben" outsign="Preben"/>
+<align out="a128" type="" in="b102" creator="-1" insign="A/S" outsign="A/S"/>
+<align out="a129" type="" in="b103" creator="-1" insign="." outsign="."/>
+<align out="a134" type="" in="b108" creator="-1" insign="Dopo" outsign="Efter"/>
+<align out="a137" type="" in="b112" creator="-1" insign="Hafnia" outsign="Hafnia"/>
+<align out="a136 a138" type="" in="b113 b114 b115 b116" creator="0" insign="avrà il controllo di" outsign="råder over"/>
+<align out="a140 a141" type="ds" in="b118 b119 b120" creator="0" insign="il 40 percento" outsign="40 procent"/>
+<align out="a142" type="" in="b121" creator="0" insign="delle" outsign="af"/>
+<align out="a143" type="" in="b122" creator="0" insign="azioni" outsign="aktierne"/>
+<align out="a143" type="s" in="b121" creator="0" insign="delle" outsign="aktierne"/>
+<align out="a146" type="" in="b125" creator="0" insign="," outsign=","/>
+<align out="a148" type="" in="b127" creator="0" insign="sarà" outsign="bliver"/>
+<align out="a150" type="" in="b130" creator="0" insign="superstite" outsign="fortsættende"/>
+<align out="a151" type="" in="b129" creator="0" insign="società" outsign="selskab"/>
+<align out="a139" type="" in="b117" creator="-1" insign="circa" outsign="ca."/>
+<align out="a144" type="" in="b123" creator="-1" insign="di" outsign="i"/>
+<align out="a154" type="" in="b133" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a155" type="" in="b134" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a156" type="" in="b135" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a153" type="" in="b132" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a145" type="" in="b124" creator="-1" insign="Norden" outsign="Norden"/>
+<align out="a149" type="" in="b128" creator="-1" insign="la" outsign="det"/>
+<align out="a147" type="" in="b126" creator="-1" insign="che" outsign="der"/>
+<align out="a152" type="" in="b131" creator="-1" insign="." outsign="."/>
+<align out="a157" type="" in="b136" creator="-1" insign="Ma" outsign="Men"/>
+<align out="a158 a159" type="" in="b139" creator="0" insign="è" outsign="det er"/>
+<align out="a160" type="s" in="b137 b138" creator="0" insign="l' intenzione" outsign="hensigten"/>
+<align out="a161" type="" in="a161" creator="0" insign="," outsign=","/>
+<align out="a163" type="" in="b145" creator="0" insign="Hafnia" outsign="Hafnias"/>
+<align out="a163" type="s" in="b141 b144" creator="0" insign="il di" outsign="Hafnias"/>
+<align out="a164" type="" in="b142 b143" creator="0" insign="pacchetto azionario" outsign="aktiepost"/>
+<align out="a165" type="" in="b147" creator="0" insign="successivamente" outsign="efterhånden"/>
+<align out="a167 a168 a169" type="" in="b148 b149 b150" creator="0" insign="ridotto fino al" outsign="drosles ned til"/>
+<align out="a166" type="" in="b146" creator="0" insign="sia" outsign="skal"/>
+<align out="a171" type="ds" in="b152 b150" creator="0" insign="percento al" outsign="procent"/>
+<align out="a169" type="" in="b150" creator="0" insign="al" outsign="til"/>
+<align out="a172 a173 a174" type="" in="b154 b155 b156 b157" creator="0" insign="a mano a mano" outsign="i takt med"/>
+<align out="b153" type="" in="b153" creator="0" insign="," outsign=","/>
+<align out="a175" type="" in="a175" creator="0" insign="," outsign=","/>
+<align out="a162" type="" in="b140" creator="-1" insign="che" outsign="at"/>
+<align out="a170" type="" in="b151" creator="-1" insign="25" outsign="25"/>
+<align out="a179 a180 a181 a182" type="f" in="b159 b160" creator="0" insign="si presenteranno" outsign="kommer inden for døren"/>
+<align out="a178" type="" in="b162" creator="0" insign="società" outsign="selskaber"/>
+<align out="a189" type="mcv" in="b168" creator="0" insign="previsto" outsign="hensigten"/>
+<align out="a190" type="" in="a190" creator="0" insign="," outsign=","/>
+<align out="a193 a194" type="" in="b171" creator="0" insign="abbia" outsign="skal have"/>
+<align out="a196" type="" in="b172" creator="0" insign="troppa" outsign="alt"/>
+<align out="a195 a197 a198 a199 a200 a201 a202 a203" type="" in="b173 b174 b175" creator="0" insign="voce in capitolo" outsign="et for stort ord at skulle have sagt"/>
+<align out="a191" type="" in="b169" creator="0" insign="che" outsign="at"/>
+<align out="a186 a187" type="" in="b167" creator="0" insign="è" outsign="Det er"/>
+<align out="a204" type="" in="b176" creator="0" insign="." outsign="."/>
+<align out="a177" type="" in="b161" creator="-1" insign="nuove" outsign="nye"/>
+<align out="a176" type="" in="b158" creator="-1" insign="che" outsign="at"/>
+<align out="a184" type="" in="b164" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a185" type="" in="b165" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a183" type="" in="b163" creator="-1" insign="." outsign="."/>
+<align out="a192" type="" in="b170" creator="-1" insign="Hafnia" outsign="Hafnia"/>
+<align out="a188" type="" in="b166" creator="-1" insign="Non" outsign="ikke"/>
+<align out="a207" type="" in="b186" creator="0" insign="futuri" outsign="Kommende"/>
+<align out="a208" type="" in="b187 b188 b189" creator="0" insign="partner della fusione" outsign="fusions-partnere"/>
+<align out="a208" type="ds" in="b185" creator="0" insign="i" outsign="fusions-partnere"/>
+<align out="a209 a210 a211 a212 a213 a214" type="f" in="b179 b180 b181 b182 b183 b184" creator="0" insign="Si cerca di non far scappare" outsign="skal ikke jages væk af skræk"/>
+<align out="b190" type="" in="b190" creator="0" insign="," outsign=","/>
+<align out="a220" type="" in="b198" creator="0" insign="controllo" outsign="kontrol"/>
+<align out="a219" type="" in="b199 b200" creator="0" insign="di altri" outsign="andres"/>
+<align out="a218" type="" in="b196" creator="0" insign="sottomessi" outsign="underlagt"/>
+<align out="a221" type="" in="b201" creator="0" insign="." outsign="."/>
+<align out="b192 b193" type="" in="b192 b193" creator="0" insign="potrebbero temere" outsign="potrebbero temere"/>
+<align out="a216" type="" in="b194" creator="0" insign="di" outsign="at"/>
+<align out="a215" type="" in="a215" creator="0" insign="for" outsign="for"/>
+<align out="b191" type="" in="b191" creator="0" insign="che" outsign="che"/>
+<align out="a218" type="" in="b197" creator="0" insign="al" outsign="underlagt"/>
+<align out="a219" type="s" in="b197" creator="0" insign="al" outsign="andres"/>
+<align out="a217" type="" in="b195" creator="-1" insign="essere" outsign="blive"/>
+<align out="b205" type="" in="b205" creator="0" insign="," outsign=","/>
+<align out="a225 a226 a227 a228" type="mvg" in="b206 b207 b208 b209 b210 b211" creator="0" insign="citando le parole di Preben Nygaard" outsign="med Preben Nygaards ord"/>
+<align out="a230" type="" in="b213" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a231" type="" in="b214" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a232" type="" in="b215" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a233" type="" in="b216" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a244" type="" in="b227" creator="-1" insign="altri" outsign="andre"/>
+<align out="a238" type="ds" in="b221" creator="-1" insign="la" outsign="en"/>
+<align out="a224" type="" in="b204" creator="-1" insign="Oppure" outsign="Eller"/>
+<align out="a234" type="" in="b217" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a235" type="" in="b218" creator="-1" insign="Se" outsign="Hvis"/>
+<align out="a236" type="" in="b219" creator="-1" insign="Hafnia" outsign="Hafnia"/>
+<align out="a229" type="" in="b212" creator="-1" insign=":" outsign=":"/>
+<align out="a240" type="" in="b223" creator="-1" insign="," outsign=","/>
+<align out="a237" type="" in="b220" creator="-1" insign="detiene" outsign="har"/>
+<align out="a239" type="" in="b222" creator="-1" insign="maggioranza" outsign="majoritet"/>
+<align out="a241 a242" type="" in="b224" creator="0" insign="potrebbe" outsign="kan det"/>
+<align out="b228" type="" in="b228" creator="0" insign="soggetti" outsign="soggetti"/>
+<align out="a243 a245 a246 a247 a248" type="f" in="b225 b226" creator="0" insign="far scappare" outsign="få til at blive væk"/>
+<align out="a252" type="" in="b234" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a251" type="" in="b230" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a249" type="" in="b229" creator="-1" insign="." outsign="."/>
+<align out="a250" type="" in="b232" creator="-1" insign="&quot;" outsign="&quot;"/>
+</DTAGalign>
