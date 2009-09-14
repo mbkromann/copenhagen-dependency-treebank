@@ -74,7 +74,9 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 		if [ -f "$HOME/cdt/$dir/$rfname-$name.tag" ] ; then
 			srcfile="$HOME/cdt/$dir/$rfname-$name.tag"
 		else 
-			srcfile=`du -s $rfname*.tag | sort -nr | head -1 | awk '{ print $2 }' | grep -v auto | grep -v tagged`
+			# Filter out auto and tagged files
+			#srcfile=`du -s $rfname*.tag | sort -nr | head -1 | awk '{ print $2 }' | grep -v auto | grep -v tagged`
+			srcfile=`du -s $rfname*.tag | sort -nr | head -1 | awk '{ print $2 }'`
 		fi
 
 		# Exit if no syntax-annotated file can be found
