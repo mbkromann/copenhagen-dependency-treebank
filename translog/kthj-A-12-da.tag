@@ -1,0 +1,151 @@
+<W cur="0" space="">Sygeplejerske</W>
+<W cur="14" space="\0020">får</W>
+<W cur="18" space="\0020">fire</W>
+<W cur="23" space="\0020">gange</W>
+<W cur="29" space="\0020">livstid</W>
+<W cur="37" space="\0020">for</W>
+<W cur="41" space="\0020">mord</W>
+<W cur="46" space="\000a">Sygeplejersken</W>
+<W cur="61" space="\0020">Colin</W>
+<W cur="67" space="\0020">Norris</W>
+<W cur="74" space="\0020">fik</W>
+<W cur="78" space="\0020">livstids</W>
+<W cur="87" space="\0020">fængsel</W>
+<W cur="95" space="\0020">i</W>
+<W cur="97" space="\0020">dag</W>
+<W cur="101" space="\0020">for</W>
+<W cur="105" space="\0020">at</W>
+<W cur="108" space="\0020">myrde</W>
+<W cur="114" space="\0020">fire</W>
+<W cur="119" space="\0020">af</W>
+<W cur="122" space="\0020">sine</W>
+<W cur="127" space="\0020">patienter</W>
+<W cur="136">.</W>
+<W cur="138" space="\0020">Den</W>
+<W cur="142" space="\0020">32-årige</W>
+<W cur="151" space="\0020">Norris</W>
+<W cur="157">,</W>
+<W cur="159" space="\0020">der</W>
+<W cur="163" space="\0020">kommer</W>
+<W cur="170" space="\0020">fra</W>
+<W cur="174" space="\0020">Glasgow</W>
+<W cur="181">,</W>
+<W cur="183" space="\0020">myrdede</W>
+<W cur="191" space="\0020">fire</W>
+<W cur="196" space="\0020">kvinder</W>
+<W cur="204" space="\0020">i</W>
+<W cur="206" space="\0020">2002</W>
+<W cur="211" space="\0020">ved</W>
+<W cur="215" space="\0020">at</W>
+<W cur="218" space="\0020">give</W>
+<W cur="223" space="\0020">dem</W>
+<W cur="227" space="\0020">store</W>
+<W cur="233" space="\0020">doser</W>
+<W cur="239" space="\0020">sovemedicin</W>
+<W cur="250">.</W>
+<W cur="252" space="\0020">I</W>
+<W cur="254" space="\0020">går</W>
+<W cur="258" space="\0020">blev</W>
+<W cur="263" space="\0020">han</W>
+<W cur="267" space="\0020">efter</W>
+<W cur="273" space="\0020">en</W>
+<W cur="276" space="\0020">langvarig</W>
+<W cur="286" space="\0020">retssag</W>
+<W cur="294" space="\0020">kendt</W>
+<W cur="300" space="\0020">skyldig</W>
+<W cur="308" space="\0020">i</W>
+<W cur="310" space="\0020">fire</W>
+<W cur="315" space="\0020">mord</W>
+<W cur="319">.</W>
+<W cur="322" space="\0020\0020">Han</W>
+<W cur="326" space="\0020">fik</W>
+<W cur="330" space="\0020">fire</W>
+<W cur="335" space="\0020">gange</W>
+<W cur="341" space="\0020">livstid</W>
+<W cur="348">,</W>
+<W cur="350" space="\0020">en</W>
+<W cur="353" space="\0020">livstidsdom</W>
+<W cur="365" space="\0020">for</W>
+<W cur="369" space="\0020">hvert</W>
+<W cur="375" space="\0020">mord</W>
+<W cur="379">.</W>
+<W cur="381" space="\0020">Han</W>
+<W cur="385" space="\0020">skal</W>
+<W cur="390" space="\0020">sidde</W>
+<W cur="396" space="\0020">mindst</W>
+<W cur="403" space="\0020">30</W>
+<W cur="406" space="\0020">år</W>
+<W cur="409" space="\0020">i</W>
+<W cur="411" space="\0020">fængsel</W>
+<W cur="418">.</W>
+<W cur="420" space="\0020">Politibetjent</W>
+<W cur="434" space="\0020">Chris</W>
+<W cur="440" space="\0020">Gregg</W>
+<W cur="446" space="\0020">udtalte</W>
+<W cur="454" space="\0020">at</W>
+<W cur="457" space="\0020">Norris</W>
+<W cur="464" space="\0020">havde</W>
+<W cur="470" space="\0020">opført</W>
+<W cur="477" space="\0020">sig</W>
+<W cur="481" space="\0020">underligt</W>
+<W cur="491" space="\0020">på</W>
+<W cur="494" space="\0020">hospitalet</W>
+<W cur="504">.</W>
+<W cur="506" space="\0020">Det</W>
+<W cur="510" space="\0020">var</W>
+<W cur="514" space="\0020">kun</W>
+<W cur="518" space="\0020">fordi</W>
+<W cur="524" space="\0020">hospitalspersonalet</W>
+<W cur="544" space="\0020">var</W>
+<W cur="548" space="\0020">opmærksomme</W>
+<W cur="560" space="\0020">på</W>
+<W cur="563" space="\0020">ham</W>
+<W cur="567" space="\0020">at</W>
+<W cur="570" space="\0020">han</W>
+<W cur="574" space="\0020">ikke</W>
+<W cur="579" space="\0020">begik</W>
+<W cur="585" space="\0020">flere</W>
+<W cur="591" space="\0020">mord</W>
+<W cur="595">.</W>
+<W cur="597" space="\0020">Ifølge</W>
+<W cur="604" space="\0020">politiet</W>
+<W cur="613" space="\0020">er</W>
+<W cur="616" space="\0020">motivet</W>
+<W cur="624" space="\0020">for</W>
+<W cur="628" space="\0020">mordene</W>
+<W cur="636" space="\0020">at</W>
+<W cur="639" space="\0020">Norris</W>
+<W cur="646" space="\0020">ikke</W>
+<W cur="651" space="\0020">kunne</W>
+<W cur="657" space="\0020">lide</W>
+<W cur="662" space="\0020">at</W>
+<W cur="665" space="\0020">arbejde</W>
+<W cur="673" space="\0020">med</W>
+<W cur="677" space="\0020">ældre</W>
+<W cur="683" space="\0020">mennesker</W>
+<W cur="692">.</W>
+<W cur="694" space="\0020">Alle</W>
+<W cur="699" space="\0020">hans</W>
+<W cur="704" space="\0020">ofre</W>
+<W cur="709" space="\0020">var</W>
+<W cur="713" space="\0020">ældre</W>
+<W cur="719" space="\0020">kvinder</W>
+<W cur="727" space="\0020">der</W>
+<W cur="731" space="\0020">var</W>
+<W cur="735" space="\0020">svage</W>
+<W cur="741" space="\0020">pga</W>
+<W cur="744">.</W>
+<W cur="746" space="\0020">hjerteproblemer</W>
+<W cur="761">.</W>
+<W cur="763" space="\0020">Alle</W>
+<W cur="768" space="\0020">kunne</W>
+<W cur="774" space="\0020">betragtes</W>
+<W cur="784" space="\0020">som</W>
+<W cur="788" space="\0020">en</W>
+<W cur="791" space="\0020">byrde</W>
+<W cur="797" space="\0020">for</W>
+<W cur="801" space="\0020">de</W>
+<W cur="804" space="\0020">ansatte</W>
+<W cur="812" space="\0020">på</W>
+<W cur="815" space="\0020">hospitalet</W>
+<W cur="825">.</W>

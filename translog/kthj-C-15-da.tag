@@ -1,0 +1,145 @@
+<W cur="0" space="">Spielberg</W>
+<W cur="10" space="\0020">giver</W>
+<W cur="16" space="\0020">Beijing</W>
+<W cur="24" space="\0020">det</W>
+<W cur="28" space="\0020">røde</W>
+<W cur="33" space="\0020">kort</W>
+<W cur="38" space="\0020">over</W>
+<W cur="43" space="\0020">Dafur</W>
+<W cur="49" space="\000a">I</W>
+<W cur="51" space="\0020">en</W>
+<W cur="54" space="\0020">handling</W>
+<W cur="62">,</W>
+<W cur="64" space="\0020">som</W>
+<W cur="68" space="\0020">sikkert</W>
+<W cur="76" space="\0020">vil</W>
+<W cur="80" space="\0020">støde</W>
+<W cur="86" space="\0020">den</W>
+<W cur="90" space="\0020">kinesiske</W>
+<W cur="100" space="\0020">regering</W>
+<W cur="108">,</W>
+<W cur="110" space="\0020">træk</W>
+<W cur="115" space="\0020">Steven</W>
+<W cur="122" space="\0020">Spielberg</W>
+<W cur="132" space="\0020">sig</W>
+<W cur="136" space="\0020">fra</W>
+<W cur="140" space="\0020">Olympiaden</W>
+<W cur="151" space="\0020">i</W>
+<W cur="153" space="\0020">Beijing</W>
+<W cur="161" space="\0020">i</W>
+<W cur="163" space="\0020">protest</W>
+<W cur="171" space="\0020">mod</W>
+<W cur="175" space="\0020">Kinas</W>
+<W cur="181" space="\0020">støtte</W>
+<W cur="188" space="\0020">til</W>
+<W cur="192" space="\0020">Sudans</W>
+<W cur="199" space="\0020">politik</W>
+<W cur="207" space="\0020">i</W>
+<W cur="209" space="\0020">Dafur</W>
+<W cur="214">.</W>
+<W cur="216" space="\0020">Hans</W>
+<W cur="221" space="\0020">tilbagetrækning</W>
+<W cur="237" space="\0020">kommer</W>
+<W cur="244" space="\0020">i</W>
+<W cur="246" space="\0020">kølvandet</W>
+<W cur="256" space="\0020">på</W>
+<W cur="258">,</W>
+<W cur="260" space="\0020">at</W>
+<W cur="263" space="\0020">kampene</W>
+<W cur="271" space="\0020">tog</W>
+<W cur="275" space="\0020">til</W>
+<W cur="279" space="\0020">igen</W>
+<W cur="284" space="\0020">i</W>
+<W cur="286" space="\0020">Dafur</W>
+<W cur="292" space="\0020">og</W>
+<W cur="295" space="\0020">vil</W>
+<W cur="299" space="\0020">gøre</W>
+<W cur="304" space="\0020">Kina</W>
+<W cur="309" space="\0020">pinlig</W>
+<W cur="316" space="\0020">,</W>
+<W cur="318" space="\0020">som</W>
+<W cur="322" space="\0020">har</W>
+<W cur="326" space="\0020">forsøgt</W>
+<W cur="334" space="\0020">at</W>
+<W cur="337" space="\0020">hindre</W>
+<W cur="344" space="\0020">den</W>
+<W cur="348" space="\0020">negative</W>
+<W cur="357" space="\0020">skænderi</W>
+<W cur="366" space="\0020">fra</W>
+<W cur="370" space="\0020">at</W>
+<W cur="373" space="\0020">have</W>
+<W cur="378" space="\0020">stærke</W>
+<W cur="385" space="\0020">bånd</W>
+<W cur="390" space="\0020">til</W>
+<W cur="394" space="\0020">den</W>
+<W cur="398" space="\0020">sudanesiske</W>
+<W cur="410" space="\0020">regering</W>
+<W cur="418">.</W>
+<W cur="420" space="\0020">Kina</W>
+<W cur="425" space="\0020">som</W>
+<W cur="429" space="\0020">har</W>
+<W cur="433" space="\0020">omfattende</W>
+<W cur="444" space="\0020">investeringer</W>
+<W cur="458" space="\0020">i</W>
+<W cur="460" space="\0020">den</W>
+<W cur="464" space="\0020">sudanesiske</W>
+<W cur="476" space="\0020">olieindutri</W>
+<W cur="487">,</W>
+<W cur="489" space="\0020">har</W>
+<W cur="493" space="\0020">stadig</W>
+<W cur="500" space="\0020">tætte</W>
+<W cur="506" space="\0020">bånd</W>
+<W cur="511" space="\0020">med</W>
+<W cur="515" space="\0020">regeringen</W>
+<W cur="525">,</W>
+<W cur="527" space="\0020">som</W>
+<W cur="531" space="\0020">inkludere</W>
+<W cur="541" space="\0020">en</W>
+<W cur="544" space="\0020">minister</W>
+<W cur="553" space="\0020">anklaget</W>
+<W cur="562" space="\0020">for</W>
+<W cur="566" space="\0020">menneskerettighedkrænkelser</W>
+<W cur="594" space="\0020">af</W>
+<W cur="597" space="\0020">den</W>
+<W cur="601" space="\0020">Internationale</W>
+<W cur="616" space="\0020">Krigs</W>
+<W cur="622" space="\0020">Domstol</W>
+<W cur="630" space="\0020">i</W>
+<W cur="632" space="\0020">Den</W>
+<W cur="636" space="\0020">Hague</W>
+<W cur="641">.</W>
+<W cur="643" space="\0020">Selvom</W>
+<W cur="650" space="\0020">Speilberg</W>
+<W cur="660" space="\0020">understreger</W>
+<W cur="673" space="\0020">at</W>
+<W cur="676" space="\0020">Khartoum</W>
+<W cur="685" space="\0020">har</W>
+<W cur="689" space="\0020">størstedelen</W>
+<W cur="702" space="\0020">af</W>
+<W cur="705" space="\0020">ansvaret</W>
+<W cur="714" space="\0020">for</W>
+<W cur="718" space="\0020">de</W>
+<W cur="721" space="\0020">stadigt</W>
+<W cur="729" space="\0020">fortsatte</W>
+<W cur="739" space="\0020">krænkelser</W>
+<W cur="749">,</W>
+<W cur="751" space="\0020">fastholder</W>
+<W cur="762" space="\0020">han</W>
+<W cur="765">,</W>
+<W cur="767" space="\0020">at</W>
+<W cur="770" space="\0020">det</W>
+<W cur="774" space="\0020">internationale</W>
+<W cur="789" space="\0020">samfund</W>
+<W cur="796">,</W>
+<W cur="798" space="\0020">og</W>
+<W cur="801" space="\0020">især</W>
+<W cur="806" space="\0020">Kina</W>
+<W cur="810">,</W>
+<W cur="812" space="\0020">burde</W>
+<W cur="818" space="\0020">gøre</W>
+<W cur="823" space="\0020">mere</W>
+<W cur="828" space="\0020">for</W>
+<W cur="832" space="\0020">at</W>
+<W cur="835" space="\0020">ende</W>
+<W cur="840" space="\0020">lidelserne</W>
+<W cur="850">.</W>

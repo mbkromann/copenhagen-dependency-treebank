@@ -1,0 +1,156 @@
+<W cur="0" space="">Familier</W>
+<W cur="9" space="\0020">ramt</W>
+<W cur="14" space="\0020">af</W>
+<W cur="17" space="\0020">stigning</W>
+<W cur="26" space="\0020">i</W>
+<W cur="28" space="\0020">leveomkostninger</W>
+<W cur="46" space="\000a\000a">Britiske</W>
+<W cur="55" space="\0020">familier</W>
+<W cur="64" space="\0020">må</W>
+<W cur="67" space="\0020">hoste</W>
+<W cur="73" space="\0020">op</W>
+<W cur="76" space="\0020">med</W>
+<W cur="80" space="\0020">£</W>
+<W cur="82" space="\0020">1000</W>
+<W cur="87" space="\0020">ekstra</W>
+<W cur="94" space="\0020">om</W>
+<W cur="97" space="\0020">året</W>
+<W cur="101">,</W>
+<W cur="103" space="\0020">da</W>
+<W cur="106" space="\0020">fødevare-</W>
+<W cur="116" space="\0020">og</W>
+<W cur="119" space="\0020">brændstofpriser</W>
+<W cur="135" space="\0020">stiger</W>
+<W cur="142" space="\0020">hurtigere</W>
+<W cur="152" space="\0020">end</W>
+<W cur="156" space="\0020">de</W>
+<W cur="159" space="\0020">har</W>
+<W cur="163" space="\0020">gjort</W>
+<W cur="169" space="\0020">i</W>
+<W cur="171" space="\0020">17</W>
+<W cur="174" space="\0020">år</W>
+<W cur="176">.</W>
+<W cur="178" space="\0020">Priserne</W>
+<W cur="187" space="\0020">i</W>
+<W cur="189" space="\0020">supermarkederne</W>
+<W cur="205" space="\0020">er</W>
+<W cur="208" space="\0020">steget</W>
+<W cur="215" space="\0020">med</W>
+<W cur="219" space="\0020">en</W>
+<W cur="222" space="\0020">alarmerende</W>
+<W cur="234" space="\0020">fart</W>
+<W cur="239" space="\0020">i</W>
+<W cur="241" space="\0020">løbet</W>
+<W cur="247" space="\0020">af</W>
+<W cur="250" space="\0020">det</W>
+<W cur="254" space="\0020">sidste</W>
+<W cur="261" space="\0020">år</W>
+<W cur="263">.</W>
+<W cur="265" space="\0020">Analytikerne</W>
+<W cur="278" space="\0020">har</W>
+<W cur="282" space="\0020">advaret</W>
+<W cur="290" space="\0020">om</W>
+<W cur="292">,</W>
+<W cur="294" space="\0020">at</W>
+<W cur="297" space="\0020">priserne</W>
+<W cur="306" space="\0020">vil</W>
+<W cur="310" space="\0020">stige</W>
+<W cur="316" space="\0020">endnu</W>
+<W cur="322" space="\0020">mere</W>
+<W cur="326">,</W>
+<W cur="328" space="\0020">hvilket</W>
+<W cur="336" space="\0020">vil</W>
+<W cur="340" space="\0020">gøre</W>
+<W cur="345" space="\0020">det</W>
+<W cur="349" space="\0020">svært</W>
+<W cur="355" space="\0020">for</W>
+<W cur="359" space="\0020">den</W>
+<W cur="363" space="\0020">engelske</W>
+<W cur="372" space="\0020">nationalbank</W>
+<W cur="385" space="\0020">at</W>
+<W cur="388" space="\0020">lade</W>
+<W cur="393" space="\0020">renterne</W>
+<W cur="402" space="\0020">falde</W>
+<W cur="407">,</W>
+<W cur="409" space="\0020">da</W>
+<W cur="412" space="\0020">banken</W>
+<W cur="419" space="\0020">kæmper</W>
+<W cur="426" space="\0020">for</W>
+<W cur="430" space="\0020">at</W>
+<W cur="433" space="\0020">holde</W>
+<W cur="439" space="\0020">inflationen</W>
+<W cur="451" space="\0020">og</W>
+<W cur="454" space="\0020">økonomien</W>
+<W cur="464" space="\0020">under</W>
+<W cur="470" space="\0020">kontrol</W>
+<W cur="477">.</W>
+<W cur="479" space="\0020">For</W>
+<W cur="483" space="\0020">at</W>
+<W cur="486" space="\0020">gøre</W>
+<W cur="491" space="\0020">det</W>
+<W cur="495" space="\0020">endnu</W>
+<W cur="501" space="\0020">værre</W>
+<W cur="506">,</W>
+<W cur="508" space="\0020">eskalerer</W>
+<W cur="518" space="\0020">priserne</W>
+<W cur="527" space="\0020">langt</W>
+<W cur="533" space="\0020">hurtigere</W>
+<W cur="543" space="\0020">end</W>
+<W cur="547" space="\0020">lønstigningerne</W>
+<W cur="562">,</W>
+<W cur="564" space="\0020">især</W>
+<W cur="569" space="\0020">lønstigninger</W>
+<W cur="583" space="\0020">blandt</W>
+<W cur="590" space="\0020">sygeplejersker</W>
+<W cur="605" space="\0020">og</W>
+<W cur="608" space="\0020">andet</W>
+<W cur="614" space="\0020">professionelt</W>
+<W cur="628" space="\0020">plejepersonale</W>
+<W cur="642">,</W>
+<W cur="644" space="\0020">som</W>
+<W cur="648" space="\0020">har</W>
+<W cur="652" space="\0020">lidt</W>
+<W cur="657" space="\0020">under</W>
+<W cur="663" space="\0020">regeringens</W>
+<W cur="675" space="\0020">insisteren</W>
+<W cur="686" space="\0020">på</W>
+<W cur="689" space="\0020">at</W>
+<W cur="692" space="\0020">dem</W>
+<W cur="696" space="\0020">i</W>
+<W cur="698" space="\0020">den</W>
+<W cur="702" space="\0020">offentlige</W>
+<W cur="713" space="\0020">sektor</W>
+<W cur="720" space="\0020">skal</W>
+<W cur="725" space="\0020">have</W>
+<W cur="730" space="\0020">lønstigninger</W>
+<W cur="743">,</W>
+<W cur="745" space="\0020">der</W>
+<W cur="749" space="\0020">ligger</W>
+<W cur="756" space="\0020">under</W>
+<W cur="762" space="\0020">inflationen</W>
+<W cur="773">.</W>
+<W cur="775" space="\0020">Ud</W>
+<W cur="778" space="\0020">over</W>
+<W cur="783" space="\0020">brændstof</W>
+<W cur="793" space="\0020">og</W>
+<W cur="796" space="\0020">fødevarer</W>
+<W cur="806" space="\0020">stiger</W>
+<W cur="813" space="\0020">elektricitetsregningerne</W>
+<W cur="838" space="\0020">også</W>
+<W cur="843" space="\0020">med</W>
+<W cur="847" space="\0020">stor</W>
+<W cur="852" space="\0020">hast</W>
+<W cur="856">.</W>
+<W cur="858" space="\0020">Fem</W>
+<W cur="862" space="\0020">ud</W>
+<W cur="865" space="\0020">af</W>
+<W cur="868" space="\0020">de</W>
+<W cur="871" space="\0020">seks</W>
+<W cur="876" space="\0020">største</W>
+<W cur="884" space="\0020">udbydere</W>
+<W cur="893" space="\0020">har</W>
+<W cur="897" space="\0020">forhøjet</W>
+<W cur="906" space="\0020">deres</W>
+<W cur="912" space="\0020">kunders</W>
+<W cur="920" space="\0020">regninger</W>
+<W cur="929">.</W>

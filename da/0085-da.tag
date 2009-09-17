@@ -240,10 +240,10 @@
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:pobj" out="1:nobj">end</W>
 <W gloss="the_dog" lemma="hund" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hunden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
-<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 </s>
 <s>
-<W gloss="Look" lemma="se" msd="VAM-=------" tag="VB" in="9:qobj" out="-3:pnct|1:voc|2:pnct|3:conj|8:pnct">Se</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="Look" lemma="se" msd="VAM-=------" tag="VB" in="9:qobj" out="-1:pnct|1:voc|2:pnct|3:conj|8:pnct">Se</W>
 <W gloss="mother" lemma="mor" msd="NCCSU==I" tag="NN" in="-1:voc" out="">mor</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:conj" out="1:subj|2:neg|3:pred|4:pnct">er</W>
