@@ -40,8 +40,8 @@ fi
 
 # Upload files
 echo "Uploading files to CDT repository"
-pwd
-echo svn ci -m "Automatic update by $name" --username `cat "$HOME"/.svnuser` --password `cat "$HOME"/.svnpasswd`
+#pwd
+#echo svn ci -m "Automatic update by $name" --username `cat "$HOME"/.svnuser` --password `cat "$HOME"/.svnpasswd`
 svn ci -m "Automatic update by $name" --username `cat "$HOME"/.svnuser` --password `cat "$HOME"/.svnpasswd`
 
 
