@@ -18,7 +18,7 @@ if [ -f tools/dtag-update ] ; then
 fi
 
 # Add all .tag or .atag files in figs directory
-svn add figs/*.{tag,atag}
+svn add `svn status figs | egrep '\.(tag|atag)$' | awk '{ print $2 }'`
 
 if [ ! -z "$name" ] ; then
 	# Resolve all conflicts: we assume that the local copy of any file that
