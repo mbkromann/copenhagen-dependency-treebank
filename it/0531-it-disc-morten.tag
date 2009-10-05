@@ -46,7 +46,7 @@
 <W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-26:[subj]|1:dobj">fatto</W>
 <W lemma="ricorso" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;dobj">ricorso</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">contro</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|223:coref-id|30:+ELAB&3a;part">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|30:+ELAB&3a;part|223:coref-id">la</W>
 <W lemma="sentenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">sentenza</W>
 <W lemma="emettere" msd="VAP" tag="VER&3a;pper" in="-1:attrr" out="1:pobj">emessa</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dal</W>
@@ -187,7 +187,7 @@
 <W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">consiglio</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">d'</W>
 <W lemma="amministrazione" msd="NC" tag="NOM" in="-1:nobj" out="">amministrazione</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-63:+CONJ/(e)" out="-6:subj|1:vobj|3:pnct|42:coref-res|20:CONC/tuttavia/ATTR">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-63:+CONJ/(e)" out="-6:subj|1:vobj|3:pnct|20:CONC/tuttavia/ATTR|42:coref-res">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:vobj">stati</W>
 <W lemma="assolvere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-8:[subj]">assolti</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

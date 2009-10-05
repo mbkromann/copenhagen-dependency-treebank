@@ -65,7 +65,7 @@
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj|7:[subj]" out="">si</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;futu" in="-30:ELAB&3a;exem/p.es" out="-1:subj|-7:time|2:ext|6:vobj|17:pnct|18:cause|30:pnct|31:coref-res|32:CONS/(perciò)">potrà</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;futu" in="-30:ELAB&3a;exem/p.es" out="-1:subj|-7:time|2:ext|6:vobj|17:pnct|18:cause|30:pnct|31:coref-res|32:CONS&3a;dir/(perciò)">potrà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:ext" out="-1:pnct|1:nobj|3:pnct">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
@@ -97,7 +97,7 @@
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paesi</W>
 <W lemma="." msd="XP" tag="SENT" in="-30:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-31:coref-res|1:subj" out="">Questo</W>
-<W lemma="significare" msd="VADR" tag="VER&3a;pres" in="-32:CONS/(perciò)" out="-1:subj|1:dobj|47:+CAUSE&3a;reas">significa</W>
+<W lemma="significare" msd="VADR" tag="VER&3a;pres" in="-32:CONS&3a;dir/(perciò)" out="-1:subj|1:dobj|47:+CAUSE&3a;reas">significa</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="22:vobj">che</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="5:[subj]|21:subj|29:[subj]|31:[subj]|35:[subj]" out="1:nobj|7:coref">un</W>
 <W lemma="rifugiato" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|2:relr">rifugiato</W>
@@ -144,7 +144,7 @@
 <W lemma="qui" msd="RG" tag="ADV" in="-1:loc" out="">qui</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:coref-res|1:subj" out="">Ciò</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-47:+CAUSE&3a;reas" out="-1:subj|1:preds|21:pnct|23:coref-res|26:CONTR&3a;prg/però">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-47:+CAUSE&3a;reas" out="-1:subj|1:preds|21:pnct|23:coref-res|26:CONC/però">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">risultato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:attrr" out="1:attrr">dell’accordo</W>
@@ -170,7 +170,7 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-23:coref-res|3:subj" out="-1:degr">questo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:contr" out="">però</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-26:CONTR&3a;prg/però" out="-1:neg|-3:subj|-2:contr|1:neg|2:pobj|10:pnct|15:ELAB&3a;exp">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-26:CONC/però" out="-1:neg|-3:subj|-2:contr|1:neg|2:pobj|10:pnct|15:ELAB&3a;exp">ha</W>
 <W lemma="niente" msd="RG" tag="ADV" in="-1:neg" out="">niente</W>
 <W lemma="a" msd="SP" tag="PRE" in="-2:pobj" out="2:vobj">a</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="1:dobj" out="2:pobj">che</W>

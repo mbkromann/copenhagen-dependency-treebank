@@ -65,7 +65,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="2:subj|3:[subj]" out="1:nobj">Noi</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:nobj" out="">danesi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="21:qobj|-11:CAUSE&3a;reas/(perché)/ATTR" out="-2:subj|1:vobj|14:conj|20:pnct">siamo</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;reas/(perché)/ATTR" out="-2:subj|1:vobj|14:conj|20:pnct">siamo</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:preds|10:pnct">stati</W>
 <W lemma="fra" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj|5:[subj]" out="2:nobj|4:pobj">i</W>
@@ -86,7 +86,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="riprendere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]">riprendere</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-20:pnct" out="">"</W>
-<W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="-55:+ELAB&3a;exp/ATTR" out="-21:qobj|2:subj|7:pnct|9:CONJ/(e)/ATTR">afferma</W>
+<W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="-55:+ELAB&3a;exp/ATTR" out="2:subj|7:pnct|9:CONJ/(e)/ATTR">afferma</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Oliver</W>
 <W lemma="Jensen" msd="NP" tag="NPR" in="-2:subj" out="-1:namef|1:attrr|6:coref-var">Jensen</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="1:nobj">della</W>
@@ -116,7 +116,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">Ci</W>
-<W lemma="aspettare" msd="VADR" tag="VER&3a;pres" in="-21:+CONS/(perciò)/ATTR" out="-2:pnct|-1:robj|1:degr|2:pobj|4:pnct|5:conc|14:pnct|18:CONTR&3a;prg/men/ATTR">aspettiamo</W>
+<W lemma="aspettare" msd="VADR" tag="VER&3a;pres" in="-21:+CONS/(perciò)/ATTR" out="-2:pnct|-1:robj|1:degr|2:pobj|4:pnct|5:conc|14:pnct|18:CONTR&3a;prg/ma/ATTR">aspettiamo</W>
 <W lemma="molto" msd="RG" tag="ADV" in="-1:degr" out="">molto</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-2:pobj" out="1:nobj|8:coref">dalle</W>
 <W lemma="riforma" msd="NC" tag="NOM" in="-1:nobj" out="">riforme</W>
@@ -134,7 +134,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="interessante" msd="AN" tag="ADJ" in="-1:nobj" out="">interessante</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-18:CONTR&3a;prg/men/ATTR" out="-2:subj|-3:coord|1:preds|6:vobj|17:pnct|18:pnct|21:+ELAB&3a;exp">sarà</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-18:CONTR&3a;prg/ma/ATTR" out="-2:subj|-3:coord|1:preds|6:vobj|17:pnct|18:pnct|21:+ELAB&3a;exp">sarà</W>
 <W lemma="vedere" msd="VAF" tag="VER&3a;infi" in="-1:preds" out="1:dobj">vedere</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:dobj|4:[dobj]" out="">quanto</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">i</W>

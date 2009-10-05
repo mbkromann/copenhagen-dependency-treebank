@@ -103,7 +103,7 @@
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attrd" out="">nuove</W>
 <W lemma="terapia" msd="NC" tag="NOM" in="2:subj" out="-1:attrd|1:attrr">terapie</W>
 <W lemma="innovativo" msd="AN" tag="ADJ" in="-1:attrr" out="">innovative</W>
-<W lemma="contribuire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-2:subj|1:pobj|9:conc|34:+ELAB&3a;exem/(p.es)">contribuiscono</W>
+<W lemma="contribuire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-2:subj|1:pobj|9:conc|34:+ELAB&3a;exem">contribuiscono</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="ridurre" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">ridurre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
@@ -137,7 +137,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="3:subj" out="2:nobj">Un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attrd" out="">buon</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">esempio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exem/(p.es)" out="-3:subj|1:vobj|7:pnct|23:&3a;ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exem" out="-3:subj|1:vobj|7:pnct|23:&3a;ELAB&3a;exp">è</W>
 <W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:pobj">costituito</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dai</W>
 <W lemma="trattamento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|7:coref-res">trattamenti</W>
@@ -183,7 +183,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj" out="1:nobj">del</W>
 <W lemma="trattamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">trattamento</W>
 <W lemma="terapeutico" msd="AN" tag="ADJ" in="-1:attrr" out="">terapeutico</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-23:;CONTR&3a;dir/(ma)" out="-6:subj|-12:time|1:vobj|5:pnct|6:cons|13:pnct|15:coref-res|17:CONJ/a&7c;questo">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-23:;CONTR&3a;dir/(ma)" out="-6:subj|-12:time|1:vobj|5:pnct|6:cons|13:pnct|15:coref-res|17:CONJ">è</W>
 <W lemma="scendere&7c;scernere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:pobj">sceso</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">220</W>
@@ -200,7 +200,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="3:pobj" out="1:nobj">A</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-15:coref-res|-1:nobj" out="">questo</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="aggiungere" msd="VADR" tag="VER&3a;pres" in="-17:CONJ/a&7c;questo" out="-1:robj|-3:pobj|1:dobj|12:pnct">aggiungono</W>
+<W lemma="aggiungere" msd="VADR" tag="VER&3a;pres" in="-17:CONJ" out="-1:robj|-3:pobj|1:dobj|12:pnct">aggiungono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="risparmio" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">risparmi</W>
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-1:attrr" out="3:pobj">dovuti</W>

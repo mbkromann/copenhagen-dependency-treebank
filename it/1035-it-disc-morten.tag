@@ -18,7 +18,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="coabitazione" msd="NC" tag="NOM" in="-1:nobj" out="">coabitazione</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="17:JUST" out="-20:subj|1:preds|15:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="17:CONSOL&3a;just" out="-20:subj|1:preds|15:pnct">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj|6:appr|15:coref">l'</W>
 <W lemma="avvocato" msd="NC" tag="NOM" in="-1:nobj" out="2:conj|6:attrr">avvocato</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -35,7 +35,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Copenaghen</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="egli" msd="PP" tag="PRO&3a;pers" in="-15:coref|1:subj" out="">Egli</W>
-<W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-17:JUST|1:dobj|24:pnct">afferma</W>
+<W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:dobj|24:pnct|-17:CONSOL&3a;just">afferma</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="2:preds|12:subj">sono</W>
 <W lemma="soprattutto" msd="RG" tag="ADV" in="1:degr" out="">soprattutto</W>
@@ -61,7 +61,7 @@
 <W lemma="maggiore" msd="AN" tag="ADJ" in="-1:attrr" out="">maggiori</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:expl" out="">Ci</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-7:CAUSE&3a;reas/(perché)" out="-1:expl|2:subj|9:relr|25:pnct|29:CONJ/(allo&7c;stesso&7c;tempo)|52:+ELAB&3a;exp">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-7:CAUSE&3a;reas/(perché)" out="-1:expl|2:subj|9:relr|25:pnct|52:+ELAB&3a;exp|29:CONJ">sono</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="1:attrd" out="">chiare</W>
 <W lemma="differenza" msd="NC" tag="NOM" in="-2:subj" out="-1:attrd|1:attrr">differenze</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="1:nobj">nel</W>
@@ -90,7 +90,7 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="3:time" out="2:nobj">Allo</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attrd" out="">stesso</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">tempo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-29:CONJ/(allo&7c;stesso&7c;tempo)" out="-3:time|1:preds|2:subj|17:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-29:CONJ" out="-3:time|1:preds|2:subj|17:pnct">è</W>
 <W lemma="necessario" msd="AN" tag="ADJ" in="-1:preds" out="">necessario</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-2:subj" out="3:preds">esser</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:degr" out="1:nobj">del</W>
@@ -164,7 +164,7 @@
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">Si</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-7:CONTR&3a;dir/invece" out="-1:subj|2:struct|4:preds|29:pnct|39:CONJ/e/ATTR">è</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="invece" msd="RG" tag="ADV" in="-2:struct" out="1:pnct|-1:pnct">invece</W>
+<W lemma="invece" msd="RG" tag="ADV" in="-2:struct" out="-1:pnct|1:pnct">invece</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="proprietario" msd="NC" tag="NOM" in="-4:preds" out="1:pobj&3a;arg">proprietari</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
