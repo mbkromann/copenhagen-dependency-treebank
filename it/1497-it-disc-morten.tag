@@ -65,7 +65,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="coalizione" msd="NC" tag="NOM" in="-1:nobj" out="">coalizione</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-24:CAUSE/expl" out="-5:subj|-1:neg|1:dobj|4:pnct|11:conj|30:CAUSE&3a;reas/(perché)|24:JUST">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-24:CAUSE/expl" out="-5:subj|-1:neg|1:dobj|4:pnct|11:conj|30:CAUSE&3a;reas/(perché)|24:CAUSE&3a;expl/infatti">era</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">fatto</W>
 <W lemma="temporaneo" msd="AN" tag="ADJ" in="-1:attrr" out="">temporaneo</W>
@@ -85,12 +85,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">oggi.(</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="2:vobj|8:pnct|9:pnct">Come</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:subj" out="">tutti</W>
-<W lemma="sapere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|2:prg|4:vobj">sanno</W>
+<W lemma="sapere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|2:prg">sanno</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="-2:prg" out="-1:pnct|1:pnct">infatti</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-4:vobj|1:[subj]|-24:JUST" out="1:vobj">potrebbe</W>
-<W lemma="ripresentare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]">ripresentarsi</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-24:CAUSE&3a;expl/infatti" out="1:vobj">potrebbe</W>
+<W lemma="ripresentare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">ripresentarsi</W>
 <W lemma=")" msd="XP" tag="PON" in="-8:pnct" out="">)</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-32:coref|2:subj" out="1:nobj|76:coref">Questo</W>
