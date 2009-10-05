@@ -9,7 +9,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attrd" out="">Fyens</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:conj" out="-1:attrd|-2:coord">Stiftstidende</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
-<W lemma="istituire" msd="VADR" tag="VER&3a;futu" in="" out="-11:subj|1:dobj|4:loc|6:pnct|15:pnct|106:assoc-const|37:+ELAB&3a;exp/ATTR1">istituiranno</W>
+<W lemma="istituire" msd="VADR" tag="VER&3a;futu" in="" out="-11:subj|1:dobj|4:loc|6:pnct|15:pnct|37:+ELAB&3a;exp/ATTR1|106:assoc-const">istituiranno</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|159:+ELAB&3a;exp">una</W>
 <W lemma="redazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|5:ref|6:relr|111:attrr|156:coref-id">redazione</W>
 <W lemma="comune" msd="AN" tag="ADJ" in="-1:attrr" out="">comune</W>
@@ -169,13 +169,13 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">La</W>
 <W lemma="redazione" msd="NC" tag="NOM" in="-1:nobj|-156:coref-id" out="1:attrr">redazione</W>
 <W lemma="comune" msd="AN" tag="ADJ" in="-1:attrr" out="">comune</W>
-<W lemma="sorgere" msd="VADR" tag="VER&3a;futu" in="-159:+ELAB&3a;exp" out="-3:subj|1:man|9:pnct|18:bg">sorgerà</W>
+<W lemma="sorgere" msd="VADR" tag="VER&3a;futu" in="-159:+ELAB&3a;exp" out="-3:subj|1:man|9:pnct">sorgerà</W>
 <W lemma="utilizzare" msd="VAG" tag="VER&3a;geru" in="-1:man" out="1:dobj">utilizzando</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">delle</W>
 <W lemma="struttura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">strutture</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj|12:;ELAB&3a;exp">Den</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj|12:&3a;ELAB&3a;exp">Den</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attrd" out="">Bergske</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">Nyhedstjeneste</W>
 <W lemma=";" msd="XP" tag="PON" in="-9:pnct" out="">;</W>
@@ -187,7 +187,7 @@
 <W lemma="infatti" msd="RG" tag="ADV" in="3:prg" out="-1:pnct|1:pnct">infatti</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-18:bg|-12:;ELAB&3a;exp" out="-3:prg|-1:subj|-8:time|1:vobj|14:pnct|15:pnct|16:source|28:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-12:&3a;ELAB&3a;exp" out="-3:prg|-1:subj|-8:time|1:vobj|14:pnct|15:pnct|16:source|28:pnct">è</W>
 <W lemma="dichiarare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj">dichiarato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="fallimento" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj">fallimento</W>

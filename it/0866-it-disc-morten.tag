@@ -99,7 +99,7 @@
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">partito</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:appr" out="1:attrd">Popolare</W>
 <W lemma="socialista" msd="AN" tag="ADJ" in="-1:attrd" out="">socialista</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|8:pnct|9:bg|17:pnct|19:conj">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|8:pnct|9:bg|17:pnct">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="serbatoio" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">serbatoio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
@@ -118,7 +118,7 @@
 <W lemma="cambiamento" msd="NC" tag="NOM" in="-1:nobj" out="">cambiamento</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-17:pnct" out="">"</W>
 <W lemma=";" msd="XP" tag="PON" in="-26:pnct" out="">;</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-19:conj|-27:;CONJ/inoltre/ATTR1" out="1:struct|2:vobj|60:+CONJ/(e)/ATTR1">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-27:;CONJ/inoltre/ATTR1" out="1:struct|2:vobj|60:+CONJ/(e)/ATTR1">ha</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-1:struct" out="">inoltre</W>
 <W lemma="definire" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:dobj">definito</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|69:coref-id" out="1:nobj">il</W>
