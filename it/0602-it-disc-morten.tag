@@ -1,14 +1,14 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:neg" out="">“Nemmeno</W>
-<W lemma="io" msd="PP" tag="PRO&3a;pers" in="" out="-1:neg|1:pnct|2:CONS/(quindi)/ATTR1">io</W>
+<W lemma="io" msd="PP" tag="PRO&3a;pers" in="" out="-1:neg|1:pnct|2:CONS&3a;prg/(quindi)/ATTR1">io</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
-<W lemma="andare" msd="VADR" tag="VER&3a;pres" in="4:qobj|-2:CONS/(quindi)/ATTR1" out="1:dir">Andiamo</W>
+<W lemma="andare" msd="VADR" tag="VER&3a;pres" in="-2:CONS&3a;prg/(quindi)/ATTR1" out="1:dir">Andiamo</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">a</W>
 <W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">casa</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:attrr" out="">tua”</W>
-<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="" out="-4:qobj|1:subj|2:pnct|3:+DESCR&3a;qual">disse</W>
-<W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:subj" out="">lei</W>
+<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="" out="1:subj|2:pnct">disse</W>
+<W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:subj" out="2:+DESCR&3a;qual">lei</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
-<W lemma="era" msd="NC" tag="NOM" in="-3:+DESCR&3a;qual" out="1:preds|7:pnct|10:ELAB&3a;exem">Era</W>
+<W lemma="era" msd="NC" tag="NOM" in="-2:+DESCR&3a;qual" out="1:preds|7:pnct|10:ELAB&3a;exem">Era</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">diversa</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">da</W>
 <W lemma="come" msd="SP" tag="PRE" in="-1:nobj" out="2:vobj">come</W>
@@ -18,7 +18,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="2:loc" out="1:nobj">Nel</W>
 <W lemma="taxi" msd="NC" tag="NOM" in="-1:nobj" out="">taxi</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-10:ELAB&3a;exem" out="-2:loc|1:dobj|4:loc|14:conj|22:+CONJ/(e)/ATTR2">appoggiò</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-10:ELAB&3a;exem" out="-2:loc|1:dobj|4:loc|14:conj|22:+JOINT/ATTR2">appoggiò</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attrd" out="">suo</W>
 <W lemma="capo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">capo</W>
@@ -40,7 +40,7 @@
 <W lemma="stare" msd="VADA" tag="VER&3a;impf" in="-4:vobj" out="-1:neg|-3:subj|1:man">stavano</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:man" out="">così</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-22:+CONJ/(e)/ATTR2" out="1:dobj|23:pnct|26:QUEST&3a;query/ATTR2">“Siamo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-22:+JOINT/ATTR2" out="1:dobj|23:pnct|26:QUEST&3a;query/ATTR2">“Siamo</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj|2:ref|7:relr">due</W>
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="">persone</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|5:subj|6:[subj]" out="">che</W>

@@ -69,8 +69,8 @@
 <W lemma="adesso" msd="RG" tag="ADV" in="-1:time" out="">adesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">C'</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:CAUSE&3a;reas/(perché)/ATTR1" out="-1:expl|1:subj|7:pnct|8:pnct|35:ELAB&3a;spec/ATTR1">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:subj" out="1:nobj">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:CAUSE&3a;reas/(perché)/ATTR1" out="-1:expl|1:subj|7:pnct|8:pnct">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:subj" out="1:nobj|32:+ELAB&3a;exp/ATTR1">una</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|3:relr">cosa</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:dobj" out="">che</W>
 <W lemma="ti" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">ti</W>
@@ -102,16 +102,16 @@
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="importante" msd="AN" tag="ADJ" in="-2:attrr" out="-1:degr">importante</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="2:REP" out="1:pnct">Vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-32:+ELAB&3a;exp/ATTR1" out="1:pnct|2:REP">Vorresti</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-35:ELAB&3a;spec/ATTR1|7:+QUEST&3a;probl/ATTR1" out="-25:INTACT&3a;attn/sì/ATTR2|-20:CONC/ATTR1|-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|10:+CONJ/(e)/ATTR2">vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-2:REP" out="-25:INTACT&3a;attn/sì/ATTR2|-20:CONC/ATTR1|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|10:+CONJ/(e)/ATTR2|7:+QUEST&3a;probl/ATTR2">vorresti</W>
 <W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">sposarmi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="trino" msd="AN" tag="ADJ" in="-3:voc" out="8:coref">Trine</W>
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-5:pnct" out="">"</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="sì" msd="RG" tag="ADV" in="3:qobj" out="-1:pnct|-7:+QUEST&3a;probl/ATTR1|1:pnct|2:pnct">Sì</W>
+<W lemma="sì" msd="RG" tag="ADV" in="3:qobj|-7:+QUEST&3a;probl/ATTR2" out="-1:pnct|1:pnct|2:pnct">Sì</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:+CONJ/(e)/ATTR2" out="-3:qobj|1:subj|2:man|4:pnct|11:CONJ/e">rispose</W>
@@ -134,7 +134,7 @@
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj|-8:coref" out="12:coref">sé</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="8:qobj" out="-1:pnct|1:nobj|4:time|6:pnct|7:pnct">Un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="8:qobj" out="-1:pnct|1:nobj|4:time|6:pnct|7:pnct|15:+QUEST&3a;probl/ATTR2">Un</W>
 <W lemma="matrimonio" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">matrimonio</W>
 <W lemma="veramente" msd="RG" tag="ADV" in="1:degr" out="">veramente</W>
 <W lemma="romantico" msd="AN" tag="ADJ" in="-2:attrr" out="-1:degr">romantico</W>
@@ -149,7 +149,7 @@
 <W lemma="interrogativo" msd="AN" tag="ADJ" in="-1:attrr" out="">interrogativo</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:qobj" out="-1:pnct|1:pnct|2:pnct">Hum</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:qobj|-15:+QUEST&3a;probl/ATTR2" out="-1:pnct|1:pnct|2:pnct">Hum</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-28:coref|1:subj" out="3:coref">lei</W>

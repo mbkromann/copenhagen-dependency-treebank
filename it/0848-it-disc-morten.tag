@@ -68,7 +68,7 @@
 <W lemma="danese" msd="AN" tag="ADJ" in="-2:attrr" out="">danese</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:attrr" out="1:nobj">dei</W>
 <W lemma="trasporto" msd="NC" tag="NOM" in="-1:nobj" out="">trasporti</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-37:+TIME&3a;succ/tra" out="-11:subj|-14:time|1:vobj|5:pnct|12:vobj|22:pnct|19:&3a;CONS/(perciò)">dovrà</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-37:+TIME&3a;succ/tra" out="-11:subj|-14:time|1:vobj|5:pnct|12:vobj|22:pnct|19:&3a;CONS&3a;dir/(perciò)">dovrà</W>
 <W lemma="cercare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-12:[subj]|1:pobj">cercare</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">dei</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attrd" out="">nuovi</W>
@@ -80,14 +80,14 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="2:nobj">del</W>
 <W lemma="grande" msd="NC" tag="NOM" in="1:attrd" out="">Grande</W>
 <W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attrd">Belt</W>
-<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="-12:vobj" out="-5:subj|-6:time|1:preds|3:pnct|7:cons">diventerà</W>
+<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="-12:vobj" out="-5:subj|-6:time|1:preds|3:pnct">diventerà</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="3:subj" out="1:nobj">una</W>
 <W lemma="vicenda" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">vicenda</W>
 <W lemma="emozionante" msd="AN" tag="ADJ" in="-1:attrr" out="">emozionante</W>
-<W lemma="entrare" msd="VADR" tag="VER&3a;futu" in="-7:cons|-19:&3a;CONS/(perciò)" out="-3:subj|1:pobj|22:+CONS/(quindi)">entrerà</W>
+<W lemma="entrare" msd="VADR" tag="VER&3a;futu" in="-19:&3a;CONS&3a;dir/(perciò)" out="-3:subj|1:pobj|22:+CONS&3a;dir/(quindi)">entrerà</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">nella</W>
 <W lemma="storia" msd="NC" tag="NOM" in="-1:nobj" out="">storia</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
@@ -109,7 +109,7 @@
 <W lemma="mercantile" msd="AN" tag="ADJ" in="-1:attrr" out="">mercantile</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attrr" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">DSB</W>
-<W lemma="ricerca" msd="NC" tag="NOM" in="-22:+CONS/(quindi)" out="-5:subj|1:dobj|3:loc|10:pnct|11:cause|48:pnct|-9:+PREPAR">ricerca</W>
+<W lemma="ricerca" msd="NC" tag="NOM" in="-22:+CONS&3a;dir/(quindi)" out="-5:subj|-9:+PREPAR|1:dobj|3:loc|10:pnct|11:cause|48:pnct">ricerca</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">nuovi</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercati</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-3:loc" out="1:nobj">nelle</W>
@@ -161,7 +161,7 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-33:coref-res|3:subj" out="1:nobj">Questa</W>
 <W lemma="prognosi" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">prognosi</W>
 <W lemma="fosco" msd="AN" tag="ADJ" in="-1:attrr" out="">fosca</W>
-<W lemma="deriva" msd="NC" tag="NOM" in="-36:+ELAB&3a;exp" out="-3:subj|1:pobj|38:pnct|47:CONS/quindi">deriva</W>
+<W lemma="deriva" msd="NC" tag="NOM" in="-36:+ELAB&3a;exp" out="-3:subj|1:pobj|38:pnct|47:CONS&3a;dir/quindi">deriva</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dall'</W>
 <W lemma="attivazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|6:loc">attivazione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">delle</W>
@@ -208,6 +208,6 @@
 <W lemma="traghetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">traghetti</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">DSB</W>
-<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="-47:CONS/quindi" out="-7:subj|-8:cons|1:preds|2:pnct">diventerà</W>
+<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="-47:CONS&3a;dir/quindi" out="-7:subj|-8:cons|1:preds|2:pnct">diventerà</W>
 <W lemma="superfluo" msd="AN" tag="ADJ" in="-1:preds" out="">superflua</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
