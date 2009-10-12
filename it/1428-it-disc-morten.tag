@@ -1,6 +1,6 @@
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="2:subj|3:[subj]|4:[subj]|26:[subj]|29:[subj]|32:[subj]" out="">Ci</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="2:robj" out="">si</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="38:QUEST&3a;probl" out="-2:subj|1:vobj|3:loc|37:pnct">può</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|1:vobj|3:loc|37:pnct|38:QUEST&3a;probl">può</W>
 <W lemma="lasciare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:robj|-3:[subj]|1:vobj">lasciar</W>
 <W lemma="sedurre" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|6:man|9:pnct|10:fpreds|22:concom">sedurre</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-3:loc" out="1:nobj">nel</W>
@@ -38,7 +38,7 @@
 <W lemma="provocatore" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">provocatore</W>
 <W lemma="pop" msd="AN" tag="ADJ" in="-1:attrr" out="">pop</W>
 <W lemma="?" msd="XP" tag="SENT" in="-37:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:pnct|-38:QUEST&3a;probl|9:JUST">Sì</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-38:QUEST&3a;probl" out="1:pnct|9:CONSOL&3a;just">Sì</W>
 <W lemma="!" msd="XP" tag="SENT" in="-1:pnct" out="">!</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Carsten</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="6:subj" out="-1:namef|10:coref&3a;pro|20:coref&3a;pro">Bo</W>
@@ -47,11 +47,11 @@
 <W lemma="per" msd="SP" tag="PRE" in="3:goal" out="-1:focal|-2:pnct|1:vobj|2:pnct">per</W>
 <W lemma="precisare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">precisare</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-9:JUST" out="-6:subj|-3:goal|1:dobj|3:pnct|4:conj|14:conj|21:pnct|4:;CONJ/(e)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-9:CONSOL&3a;just" out="-6:subj|-3:goal|1:dobj|3:pnct|4:;CONJ/(e)|14:conj|21:pnct">ha</W>
 <W lemma="@card@" msd="XP" tag="PON" in="-1:dobj" out="1:nobj">33</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj|-10:coref&3a;pro|-4:;CONJ/(e)" out="1:preds|9:pnct|54:CONJ/(e)">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-10:coref&3a;pro|-4:;CONJ/(e)" out="1:preds|9:pnct|54:CONJ/(e)">è</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj&3a;arg">figlio</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj&3a;arg" out="1:nobj">dell’ex</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|5:appr">ministro</W>
@@ -105,7 +105,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="proprio" msd="AN" tag="ADJ" in="1:attrd" out="">propria</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">volontà</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:[subj]|2:[subj]|-54:CONJ/(e)" out="-4:man|-35:fpreds|1:vobj|17:conj">è</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-54:CONJ/(e)|1:[subj]|2:[subj]" out="-4:man|-35:fpreds|1:vobj|17:conj">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:vobj">stato</W>
 <W lemma="definire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:preds">definito</W>
 <W compound="lo" lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="2:nobj|7:conj">il</W>

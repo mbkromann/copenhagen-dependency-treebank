@@ -40,7 +40,7 @@
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">mi</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:+CONJ/(e)" out="-1:iobj|-4:subj|1:vobj|6:xpl|215:+ELAB&3a;exp">ha</W>
 <W lemma="dare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:dobj">dato</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|88:ELAB&3a;spec">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|88:ELAB&3a;exp">la</W>
 <W lemma="ricetta" msd="NC" tag="NOM" in="-1:nobj" out="">ricetta</W>
 <W lemma="e" msd="CS" tag="CON" in="2:discmark" out="">e</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj" out="5:appa">questi</W>
@@ -128,7 +128,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-123:coref-var" out="1:nobj|111:coref-id">il</W>
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;spec" out="1:dobj|3:man|5:pnct|6:conj|22:CONJ&3a;seq">tagliate</W>
+<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;exp" out="1:dobj|3:man|5:pnct|6:conj|22:CONJ&3a;seq">tagliate</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="pesce" msd="NC" tag="NOM" in="-1:nobj" out="">pesce</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:man" out="1:nobj">a</W>
@@ -158,7 +158,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="salsa" msd="NC" tag="NOM" in="-1:nobj" out="">salsa</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="1:man|3:dobj|7:loc|11:pnct|13:conj|-4:goal|45:CONJ&3a;seq">cuocete</W>
+<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="-4:goal|1:man|3:dobj|7:loc|11:pnct|13:conj|45:CONJ&3a;seq">cuocete</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="vapore" msd="NC" tag="NOM" in="-1:nobj" out="">vapore</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-67:coref-var|-3:dobj" out="1:nobj|10:coref">gli</W>
@@ -234,7 +234,7 @@
 <W lemma="se" msd="PR" tag="PRO&3a;refl" in="1:cond" out="">Se</W>
 <W lemma="volere" msd="VADR" tag="VER&3a;pres" in="2:cond" out="-1:cond|1:pnct">volete</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-31:CONJ/(e)" out="1:vobj|-2:cond">potete</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-31:CONJ/(e)" out="-2:cond|1:vobj">potete</W>
 <W lemma="accompagnare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|3:pobj|12:pnct">accompagnare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-111:coref-id" out="1:nobj">il</W>
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
