@@ -33,7 +33,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:discmark" out="">Ma</W>
 <W lemma="dove" msd="RG" tag="ADV" in="1:lobj" out="">dove</W>
-<W lemma="andare" msd="VADR" tag="VER&3a;futu" in="3:qobj|-8:[+CONJ/(e)/ATTR2]" out="-3:pnct|-10:[subj]|-2:discmark|-1:lobj|1:pnct|2:pnct|8:[+QUEST&3a;probl/ATTR1]">andrà</W>
+<W lemma="andare" msd="VADR" tag="VER&3a;futu" in="-8:[+CONJ/(e)/ATTR2]|3:qobj" out="-3:pnct|-10:[subj]|-2:discmark|-1:lobj|1:pnct|2:pnct|8:[+QUEST&3a;probl/ATTR1]">andrà</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="chiedere" msd="VADA" tag="VER&3a;remo" in="-25:*+CONJ/(e)/ATTR2" out="-3:qobj|1:subj|3:pnct|5:*+CONJ/(e)/ATTR1">chiese</W>
@@ -41,13 +41,13 @@
 <W lemma="pensieroso" msd="AN" tag="ADJ" in="-1:fpreds" out="">pensierosa</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="12:coref">Flemming</W>
-<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:*+CONJ/(e)/ATTR1" out="-1:subj|1:dobj|3:pnct|6:[+CAUSE/(perché)/ATTR1]|10:*+CONJ/(e)/ATTR1">alzò</W>
+<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:*+CONJ/(e)/ATTR1" out="-1:subj|1:dobj|3:pnct|10:*+CONJ/(e)/ATTR1|6:[+CONJ/(e)/ATTR1]">alzò</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="spalla" msd="NC" tag="NOM" in="-1:nobj" out="">spalle</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="presto" msd="RG" tag="ADV" in="1:time" out="">Presto</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="4:qobj|-6:[+CAUSE/(perché)/ATTR1]" out="-2:pnct|-1:time|1:vobj|2:pnct|3:pnct|11:conj|16:coref|18:²coref-res|18:CONS&3a;prg/(perciò)/ATTR1">sarà</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="4:qobj|-6:[+CONJ/(e)/ATTR1]" out="-2:pnct|-1:time|1:vobj|2:pnct|3:pnct|11:conj|16:coref|18:²coref-res|18:CONS&3a;prg/(perciò)/ATTR1">sarà</W>
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">arrestato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -102,16 +102,16 @@
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="importante" msd="AN" tag="ADJ" in="-2:attrr" out="-1:degr">importante</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="2:REP" out="1:pnct|-18:CONC/ATTR1">Vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="2:REP" out="-18:CONC/ATTR1|1:pnct">Vorresti</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-34:ELAB&3a;exp/ATTR1" out="1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|-2:REP|10:*+QUEST&3a;probl/ATTR2|7:[+QUEST&3a;probl/ATTR2]">vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-34:ELAB&3a;exp/ATTR1" out="-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|7:[+QUEST&3a;probl/ATTR2]|10:*+QUEST&3a;probl/ATTR2">vorresti</W>
 <W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">sposarmi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="trino" msd="AN" tag="ADJ" in="-3:voc" out="8:coref">Trine</W>
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-5:pnct" out="">"</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="sì" msd="RG" tag="ADV" in="3:qobj|-7:[+QUEST&3a;probl/ATTR2]" out="-1:pnct|1:pnct|2:pnct|23:[+ELAB&3a;exp/ATTR1]">Sì</W>
+<W lemma="sì" msd="RG" tag="ADV" in="-7:[+QUEST&3a;probl/ATTR2]|3:qobj" out="-1:pnct|1:pnct|2:pnct|23:[+ELAB&3a;exp/ATTR1]">Sì</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:*+QUEST&3a;probl/ATTR2" out="-3:qobj|1:subj|2:man|4:pnct|11:CONJ/e">rispose</W>
@@ -134,7 +134,7 @@
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj|-8:coref" out="12:coref">sé</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="8:qobj|-23:[+ELAB&3a;exp/ATTR1]" out="-1:pnct|1:nobj|4:time|6:pnct|7:pnct|15:[+QUEST&3a;probl/ATTR2]">Un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-23:[+ELAB&3a;exp/ATTR1]|8:qobj" out="-1:pnct|1:nobj|4:time|6:pnct|7:pnct|15:[+QUEST&3a;probl/ATTR2]">Un</W>
 <W lemma="matrimonio" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">matrimonio</W>
 <W lemma="veramente" msd="RG" tag="ADV" in="1:degr" out="">veramente</W>
 <W lemma="romantico" msd="AN" tag="ADJ" in="-2:attrr" out="-1:degr">romantico</W>

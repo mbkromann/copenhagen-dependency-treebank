@@ -42,7 +42,7 @@
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="felt" lemma="føle" msd="VADA=----A-" tag="VBD" in="11:qobj" out="-1:subj|-2:pnct|1:pnct|2:dobj|16:conj">følte</W>
+<W gloss="felt" lemma="føle" msd="VADA=----A-" tag="VBD" in="11:qobj" out="-1:subj|-2:pnct|1:pnct|2:dobj|16:[CONS&3a;prg/derfor/ATTR1]">følte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="everything" lemma="al" msd="ANPNSU=[DI]U" tag="JJ" in="2:subj" out="">alt</W>
@@ -53,12 +53,12 @@
 <W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:vobj|2:pnct">skulle</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[preds]">være</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-11:qobj|1:subj|2:pnct|24:pnct|37:+CONJ/(og)/ATTR2">fortsatte</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-11:qobj|1:subj|2:pnct|24:pnct|5:CONS&3a;prg/derfor/ATTR1*">fortsatte</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
-<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">derfor</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-16:conj" out="-2:pnct|-1:mod|1:subj|2:dobj">fik</W>
+<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-16:[CONS&3a;prg/derfor/ATTR1]|-5:CONS&3a;prg/derfor/ATTR1*" out="-2:pnct|1:subj|2:dobj|-1:cause">fik</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="addressed" lemma="fat" msd="RGU" tag="RP" in="-2:dobj" out="1:pobj">fat</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
@@ -71,7 +71,7 @@
 <W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|3:vobj">set</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj|2:[subj]|3:[subj]" out="1:nobj">en</W>
 <W gloss="man" lemma="mand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mand</W>
-<W gloss="being" lemma="blive" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:vobj">blive</W>
+<W gloss="being" lemma="blive" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:vobj|15:[CONJ/(og)/ATTR2]|19:*CONJ/(og)/ATTR2">blive</W>
 <W gloss="shut" lemma="lukke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">lukket</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
@@ -86,11 +86,11 @@
 <W gloss="Where" lemma="hvor" msd="RGU" tag="RP" in="4:lobj" out="">Hvor</W>
 <W gloss="I_wonder" lemma="mon" msd="RGU" tag="RP" in="2:mod" out="">mon</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
-<W gloss="we" lemma="vi" msd="XX" tag="FW" in="4:qobj" out="-2:mod|-1:subj|-4:pnct|1:vobj|3:pnct">vi</W>
+<W gloss="we" lemma="vi" msd="XX" tag="FW" in="4:qobj|-15:[CONJ/(og)/ATTR2]" out="-2:mod|-1:subj|-4:pnct|1:vobj|3:pnct|13:[QUEST&3a;probl/ATTR1]">vi</W>
 <W gloss="do_go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-4:lobj|1:avobj">gå</W>
 <W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-1:avobj" out="">hen</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-3:pnct" out="">?</W>
-<W gloss="asked" lemma="spørge" msd="VADA=----A-" tag="VBD" in="-37:+CONJ/(og)/ATTR2" out="-4:qobj|1:subj|2:mod|3:pnct|9:+CONJ/(og)">spurgte</W>
+<W gloss="asked" lemma="spørge" msd="VADA=----A-" tag="VBD" in="-19:*CONJ/(og)/ATTR2" out="-4:qobj|1:subj|2:mod|3:pnct|9:*QUEST&3a;probl/ATTR1">spurgte</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="thoughtfully" lemma="tankefuld" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">tankefuldt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -99,7 +99,7 @@
 <p>
 <s>
 <W gloss="Flemming" lemma="Flemming" msd="NP--U==-" tag="NNP" in="1:subj" out="">Flemming</W>
-<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-9:+CONJ/(og)" out="-1:subj|1:pobj|3:pnct|15:+CONJ/(og)/ATTR1">trak</W>
+<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-9:*QUEST&3a;probl/ATTR1|-13:[QUEST&3a;probl/ATTR1]" out="-1:subj|1:pobj|3:pnct|15:*+ELAB&3a;exp/ATTR1|10:[+ELAB&3a;exp/ATTR1]">trak</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="shoulders" lemma="skulder" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">skuldrene</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -109,12 +109,12 @@
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">Han</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-1:subj|-2:pnct|1:mod|2:vobj|4:pnct|11:coord|26:CONTR&3a;prg/men/ATTR1">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="5:qobj|-10:[+ELAB&3a;exp/ATTR1]" out="-1:subj|-2:pnct|1:mod|2:vobj|4:pnct|11:coord|26:CONTR&3a;prg/men/ATTR1">vil</W>
 <W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="-1:mod" out="">snart</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">blive</W>
 <W gloss="arrested" lemma="anholde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]">anholdt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-15:+CONJ/(og)/ATTR1" out="-5:qobj|1:subj|2:mod|4:pnct|17:pnct">sagde</W>
+<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-15:*+ELAB&3a;exp/ATTR1" out="-5:qobj|1:subj|2:mod|4:pnct|17:pnct">sagde</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>
 <W gloss="conviction" lemma="overbevisning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">overbevisning</W>
@@ -125,8 +125,8 @@
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:mod|3:vobj">vil</W>
 <W gloss="probably" lemma="sikker" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">sikkert</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:mod" out="">også</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pred">være</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:pred" out="1:mod|2:mod">det</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:preds">være</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:preds" out="1:mod|2:mod">det</W>
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:mod" out="">bedste</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="1:mod">ham</W>
@@ -144,8 +144,8 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CAUSE&3a;expl/(nemlig)/ATTR1" out="-1:expl|1:dobj|8:pnct|14:INTACT&3a;attn|51:ELAB&3a;spec/ATTR1">er</W>
-<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj|6:[nobj]" out="1:pnct|3:rel">noget</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CAUSE&3a;expl/(nemlig)/ATTR1" out="-1:expl|1:dobj|8:pnct|14:INTACT&3a;attn/ATTR2">er</W>
+<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj|6:[nobj]" out="1:pnct|3:rel|50:+ELAB&3a;spec/ATTR1">noget</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="want" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">vil</W>
@@ -158,7 +158,7 @@
 <p>
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
-<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="-14:INTACT&3a;attn" out="-1:pnct|1:pnct">Ja</W>
+<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="-14:INTACT&3a;attn/ATTR2" out="-1:pnct|1:pnct">Ja</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-1:pnct" out="">?</W>
 </s>
 </p>
@@ -192,10 +192,10 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Would" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:pnct|3:REP">Vil</W>
+<W gloss="Would" lemma="ville" msd="VADR=----A-" tag="VBD" in="3:REP" out="1:subj|2:pnct">Vil</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj" out="">du</W>
 <W gloss="..." lemma="..." msd="XP" tag="..." in="-2:pnct" out="">...</W>
-<W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="-51:ELAB&3a;spec/ATTR1|-3:REP|14:+QUEST&3a;probl/ATTR2" out="-29:CONC/(skønt)/ATTR1|1:subj|2:vobj|6:pnct|7:voc|8:pnct|16:+CONJ/(og)/ATTR2">vil</W>
+<W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="-50:+ELAB&3a;spec/ATTR1" out="-29:CONC/(skønt)/ATTR1|1:subj|2:vobj|6:pnct|7:voc|8:pnct|-3:REP|14:[+QUEST&3a;probl/ATTR2]|16:*+QUEST&3a;probl/ATTR2">vil</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">du</W>
 <W gloss="poisons" lemma="gifte" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:pobj">gifte</W>
 <W gloss="you" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:dobj" out="">dig</W>
@@ -209,9 +209,9 @@
 <p>
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
-<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="2:qobj" out="-1:pnct|-14:+QUEST&3a;probl/ATTR2|1:pnct">Ja</W>
+<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="2:qobj|-14:[+QUEST&3a;probl/ATTR2]" out="-1:pnct|1:pnct|29:[+ELAB&3a;exp/ATTR1]">Ja</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="replied" lemma="svare" msd="VADA=----A-" tag="VBD" in="-16:+CONJ/(og)/ATTR2" out="-2:qobj|1:subj|2:mod|4:pnct|12:CONJ/og">svarede</W>
+<W gloss="replied" lemma="svare" msd="VADA=----A-" tag="VBD" in="-16:*+QUEST&3a;probl/ATTR2" out="-2:qobj|1:subj|2:mod|4:pnct|12:CONJ/og&amp;CONS&3a;prg/(derfor)">svarede</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-2:mod" out="1:nobj">uden</W>
 <W gloss="hesitation" lemma="tøve" msd="VAG-=SCI--U" tag="VBG" in="-1:nobj" out="">tøven</W>
@@ -223,7 +223,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">en</W>
 <W gloss="gentle" lemma="sagte" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:mod" out="">sagte</W>
 <W gloss="laughter" lemma="latter" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">latter</W>
-<W gloss="pulled" lemma="trække" msd="VADA=----A-" tag="VBD" in="-12:CONJ/og" out="-4:mod|-5:coord|1:subj|2:dobj|6:lobj|20:+CONJ/(og)/ATTR1">trak</W>
+<W gloss="pulled" lemma="trække" msd="VADA=----A-" tag="VBD" in="-12:CONJ/og&amp;CONS&3a;prg/(derfor)" out="-4:mod|-5:coord|1:subj|2:dobj|6:lobj|20:*+ELAB&3a;exp/ATTR1">trak</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-2:dobj" out="">hende</W>
 <W gloss="close" lemma="tæt" msd="ANP---=-R" tag="JJ" in="3:mod" out="1:pnct">tæt</W>
@@ -238,12 +238,12 @@
 <p>
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
-<W gloss="A" lemma="en" msd="PI-NSU--U" tag="DT" in="5:qobj" out="-1:pnct|1:mod|2:mod|3:nobj|4:pnct">Et</W>
+<W gloss="A" lemma="en" msd="PI-NSU--U" tag="DT" in="5:qobj|-29:[+ELAB&3a;exp/ATTR1]" out="-1:pnct|1:mod|2:mod|3:nobj|4:pnct|14:[+QUEST&3a;probl/ATTR2]">Et</W>
 <W gloss="real" lemma="rigtig" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">rigtigt</W>
 <W gloss="romantic" lemma="romantisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:mod" out="">romantisk</W>
 <W gloss="Christmas_wedding" lemma="julebryllup" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">julebryllup</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-4:pnct" out="">?</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="-20:+CONJ/(og)/ATTR1" out="-5:qobj|1:subj|2:mod|3:pnct|12:CONJ/(og)/ATTR2">fortsatte</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="-20:*+ELAB&3a;exp/ATTR1" out="-5:qobj|1:subj|2:mod|3:pnct|9:+QUEST&3a;probl/ATTR2">fortsatte</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="questioningly" lemma="spørge" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-2:mod" out="">spørgende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -252,10 +252,10 @@
 <p>
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
-<W gloss="Hmm" lemma="hmm" msd="I=" tag="UH" in="3:qobj" out="-1:pnct|1:pnct">Hmm</W>
+<W gloss="Hmm" lemma="hmm" msd="I=" tag="UH" in="-14:[+QUEST&3a;probl/ATTR2]|-9:+QUEST&3a;probl/ATTR2" out="-1:pnct|1:pnct|3:CONJ/(og)">Hmm</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
-<W gloss="hid" lemma="skjule" msd="VADA=----A-" tag="VBD" in="-12:CONJ/(og)/ATTR2" out="-1:subj|-3:qobj|1:mod|7:dobj|9:mod|12:pnct">skjulte</W>
+<W gloss="hid" lemma="skjule" msd="VADA=----A-" tag="VBD" in="-3:CONJ/(og)" out="-1:subj|1:mod|7:dobj|9:mod|12:pnct">skjulte</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:pobj">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">en</W>
 <W gloss="slight" lemma="let" msd="ANP[CN]SU=IU" tag="JJ" in="-1:mod" out="">let</W>
