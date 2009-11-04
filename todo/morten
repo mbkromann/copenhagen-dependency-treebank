@@ -124,7 +124,7 @@
 [*] da/1347-da-disc-morten.tag
 [*] da/1408-da-disc-morten.tag
 [*] da/1497-da-disc-morten.tag
-[ ] it/0531-it-disc-morten.tag
+[*] it/0531-it-disc-morten.tag
 [*] it/0602-it-disc-morten.tag
 [*] it/0848-it-disc-morten.tag
 [*] it/0915-it-disc-morten.tag
@@ -135,22 +135,22 @@
 [*] it/1497-it-disc-morten.tag
 
 # Added discourse tasks on Mon May  4 10:01:08 CEST 2009
-[*] da/0235-da-disc-morten.tag
-[*] da/0593-da-disc-morten.tag
-[*] da/0596-da-disc-morten.tag
-[*] da/0620-da-disc-morten.tag
-[*] da/0647-da-disc-morten.tag
-[*] da/0781-da-disc-morten.tag
-[*] da/0783-da-disc-morten.tag
-[*] da/0800-da-disc-morten.tag
-[*] da/0866-da-disc-morten.tag
-[*] da/0960-da-disc-morten.tag
-[*] da/1014-da-disc-morten.tag
-[*] da/1038-da-disc-morten.tag
-[*] da/1043-da-disc-morten.tag
-[*] da/1337-da-disc-morten.tag
-[*] da/1420-da-disc-morten.tag
-[*] da/1428-da-disc-morten.tag
+[ ] da/0235-da-disc-morten.tag
+[ ] da/0593-da-disc-morten.tag
+[ ] da/0596-da-disc-morten.tag
+[ ] da/0620-da-disc-morten.tag
+[ ] da/0647-da-disc-morten.tag
+[ ] da/0781-da-disc-morten.tag
+[ ] da/0783-da-disc-morten.tag
+[ ] da/0800-da-disc-morten.tag
+[ ] da/0866-da-disc-morten.tag
+[ ] da/0960-da-disc-morten.tag
+[ ] da/1014-da-disc-morten.tag
+[ ] da/1038-da-disc-morten.tag
+[ ] da/1043-da-disc-morten.tag
+[ ] da/1337-da-disc-morten.tag
+[ ] da/1420-da-disc-morten.tag
+[ ] da/1428-da-disc-morten.tag
 
 # Added discourse tasks on Mon May  4 10:01:08 CEST 2009
 [*] it/0235-it-disc-morten.tag
@@ -169,6 +169,136 @@
 [*] it/1337-it-disc-morten.tag
 [*] it/1420-it-disc-morten.tag
 [*] it/1428-it-disc-morten.tag
+
+[ ] da/0001-da-disc.tag
+[ ] da/0001-da-disc.tag
+[ ] da/0008-da-disc.tag
+[ ] da/0042-da-disc.tag
+[ ] da/0061-da-disc.tag
+[ ] da/0065-da-disc.tag
+[ ] da/0086-da-disc.tag
+[ ] da/0091-da-disc.tag
+[ ] da/0096-da-disc.tag
+[ ] da/0097-da-disc.tag
+[ ] da/0102-da-disc.tag
+[ ] da/0104-da-disc.tag
+[ ] da/0107-da-disc.tag
+[ ] da/0112-da-disc.tag
+[ ] da/0114-da-disc.tag
+[ ] da/0133-da-disc.tag
+[ ] da/0138-da-disc.tag
+[ ] da/0140-da-disc.tag
+[ ] da/0143-da-disc.tag
+[ ] da/0148-da-disc.tag
+[ ] da/0151-da-disc.tag
+[ ] da/0152-da-disc.tag
+[ ] da/0159-da-disc.tag
+[ ] da/0174-da-disc.tag
+[ ] da/0178-da-disc.tag
+[ ] da/0182-da-disc.tag
+[ ] da/0184-da-disc.tag
+[ ] da/0187-da-disc.tag
+[ ] da/0188-da-disc.tag
+[ ] da/0190-da-disc.tag
+[ ] da/0197-da-disc.tag
+[ ] da/0211-da-disc.tag
+[ ] da/0212-da-disc.tag
+[ ] da/0215-da-disc.tag
+[ ] da/0235-da-disc.tag
+[ ] da/0237-da-disc.tag
+[ ] da/0244-da-disc.tag
+[ ] da/0245-da-disc.tag
+[ ] da/0258-da-disc.tag
+[ ] da/0260-da-disc.tag
+[ ] da/0262-da-disc.tag
+[ ] da/0264-da-disc.tag
+[ ] da/0268-da-disc.tag
+[ ] da/0272-da-disc.tag
+[ ] da/0278-da-disc.tag
+[ ] da/0285-da-disc.tag
+[ ] da/0298-da-disc.tag
+
+[ ] it/0001-it-disc.tag
+[ ] it/0001-it-disc.tag
+[ ] it/0005-it-disc.tag
+[ ] it/0008-it-disc.tag
+[ ] it/0029-it-disc.tag
+[ ] it/0042-it-disc.tag
+[ ] it/0043-it-disc.tag
+[ ] it/0061-it-disc.tag
+[ ] it/0065-it-disc.tag
+[ ] it/0079-it-disc.tag
+[ ] it/0086-it-disc.tag
+[ ] it/0090-it-disc.tag
+[ ] it/0091-it-disc.tag
+[ ] it/0093-it-disc.tag
+[ ] it/0096-it-disc.tag
+[ ] it/0097-it-disc.tag
+[ ] it/0101-it-disc.tag
+[ ] it/0102-it-disc.tag
+[ ] it/0103-it-disc.tag
+[ ] it/0104-it-disc.tag
+[ ] it/0104-it-disc.tag
+[ ] it/0107-it-disc.tag
+[ ] it/0112-it-disc.tag
+[ ] it/0113-it-disc.tag
+[ ] it/0114-it-disc.tag
+[ ] it/0119-it-disc.tag
+[ ] it/0133-it-disc.tag
+[ ] it/0134-it-disc.tag
+[ ] it/0138-it-disc.tag
+[ ] it/0140-it-disc.tag
+[ ] it/0141-it-disc.tag
+[ ] it/0143-it-disc.tag
+[ ] it/0144-it-disc.tag
+[ ] it/0148-it-disc.tag
+[ ] it/0150-it-disc.tag
+[ ] it/0151-it-disc.tag
+[ ] it/0152-it-disc.tag
+[ ] it/0152-it-disc.tag
+[ ] it/0159-it-disc.tag
+[ ] it/0169-it-disc.tag
+[ ] it/0174-it-disc.tag
+[ ] it/0176-it-disc.tag
+[ ] it/0178-it-disc.tag
+[ ] it/0182-it-disc.tag
+[ ] it/0184-it-disc.tag
+[ ] it/0184-it-disc.tag
+[ ] it/0187-it-disc.tag
+[ ] it/0187-it-disc.tag
+[ ] it/0188-it-disc.tag
+[ ] it/0188-it-disc.tag
+[ ] it/0190-it-disc.tag
+[ ] it/0191-it-disc.tag
+[ ] it/0197-it-disc.tag
+[ ] it/0204-it-disc.tag
+[ ] it/0211-it-disc.tag
+[ ] it/0212-it-disc.tag
+[ ] it/0212-it-disc.tag
+[ ] it/0215-it-disc.tag
+[ ] it/0229-it-disc.tag
+[ ] it/0235-it-disc.tag
+[ ] it/0235-it-disc.tag
+[ ] it/0237-it-disc.tag
+[ ] it/0244-it-disc.tag
+[ ] it/0244-it-disc.tag
+[ ] it/0245-it-disc.tag
+[ ] it/0257-it-disc.tag
+[ ] it/0258-it-disc.tag
+[ ] it/0259-it-disc.tag
+[ ] it/0260-it-disc.tag
+[ ] it/0260-it-disc.tag
+[ ] it/0262-it-disc.tag
+[ ] it/0264-it-disc.tag
+[ ] it/0265-it-disc.tag
+[ ] it/0268-it-disc.tag
+[ ] it/0269-it-disc.tag
+[ ] it/0272-it-disc.tag
+[ ] it/0273-it-disc.tag
+[ ] it/0278-it-disc.tag
+[ ] it/0285-it-disc.tag
+[ ] it/0294-it-disc.tag
+[ ] it/0298-it-disc.tag
 
 # Assign-tasks added new files on Fri Apr 24 10:55:54 CEST 2009
 
@@ -550,87 +680,7 @@
 
 # Assign-tasks added new files on Tue Jun 30 14:38:10 CEST 2009
 
-[ ] it/0001-it-disc.tag
-[ ] it/0001-it-disc.tag
-[ ] it/0005-it-disc.tag
-[ ] it/0008-it-disc.tag
-[ ] it/0029-it-disc.tag
-[ ] it/0042-it-disc.tag
-[ ] it/0043-it-disc.tag
-[ ] it/0061-it-disc.tag
-[ ] it/0065-it-disc.tag
-[ ] it/0079-it-disc.tag
-[ ] it/0086-it-disc.tag
-[ ] it/0090-it-disc.tag
-[ ] it/0091-it-disc.tag
-[ ] it/0093-it-disc.tag
-[ ] it/0096-it-disc.tag
-[ ] it/0097-it-disc.tag
-[ ] it/0101-it-disc.tag
-[ ] it/0102-it-disc.tag
-[ ] it/0103-it-disc.tag
-[ ] it/0104-it-disc.tag
-[ ] it/0104-it-disc.tag
-[ ] it/0107-it-disc.tag
-[ ] it/0112-it-disc.tag
-[ ] it/0113-it-disc.tag
-[ ] it/0114-it-disc.tag
-[ ] it/0119-it-disc.tag
-[ ] it/0133-it-disc.tag
-[ ] it/0134-it-disc.tag
-[ ] it/0138-it-disc.tag
-[ ] it/0140-it-disc.tag
-[ ] it/0141-it-disc.tag
-[ ] it/0143-it-disc.tag
-[ ] it/0144-it-disc.tag
-[ ] it/0148-it-disc.tag
-[ ] it/0150-it-disc.tag
-[ ] it/0151-it-disc.tag
-[ ] it/0152-it-disc.tag
-[ ] it/0152-it-disc.tag
-[ ] it/0159-it-disc.tag
-[ ] it/0169-it-disc.tag
-[ ] it/0174-it-disc.tag
-[ ] it/0176-it-disc.tag
-[ ] it/0178-it-disc.tag
-[ ] it/0182-it-disc.tag
-[ ] it/0184-it-disc.tag
-[ ] it/0184-it-disc.tag
-[ ] it/0187-it-disc.tag
-[ ] it/0187-it-disc.tag
-[ ] it/0188-it-disc.tag
-[ ] it/0188-it-disc.tag
-[ ] it/0190-it-disc.tag
-[ ] it/0191-it-disc.tag
-[ ] it/0197-it-disc.tag
-[ ] it/0204-it-disc.tag
-[ ] it/0211-it-disc.tag
-[ ] it/0212-it-disc.tag
-[ ] it/0212-it-disc.tag
-[ ] it/0215-it-disc.tag
-[ ] it/0229-it-disc.tag
-[ ] it/0235-it-disc.tag
-[ ] it/0235-it-disc.tag
-[ ] it/0237-it-disc.tag
-[ ] it/0244-it-disc.tag
-[ ] it/0244-it-disc.tag
-[ ] it/0245-it-disc.tag
-[ ] it/0257-it-disc.tag
-[ ] it/0258-it-disc.tag
-[ ] it/0259-it-disc.tag
-[ ] it/0260-it-disc.tag
-[ ] it/0260-it-disc.tag
-[ ] it/0262-it-disc.tag
-[ ] it/0264-it-disc.tag
-[ ] it/0265-it-disc.tag
-[ ] it/0268-it-disc.tag
-[ ] it/0269-it-disc.tag
-[ ] it/0272-it-disc.tag
-[ ] it/0273-it-disc.tag
-[ ] it/0278-it-disc.tag
-[ ] it/0285-it-disc.tag
-[ ] it/0294-it-disc.tag
-[ ] it/0298-it-disc.tag
+
 [ ] it/0300-it-disc.tag
 [ ] it/0303-it-disc.tag
 [ ] it/0306-it-disc.tag
@@ -1040,53 +1090,7 @@
 
 # Assign-tasks added new files on Tue Jul 28 13:38:44 CEST 2009
 
-[ ] da/0001-da-disc.tag
-[ ] da/0001-da-disc.tag
-[ ] da/0008-da-disc.tag
-[ ] da/0042-da-disc.tag
-[ ] da/0061-da-disc.tag
-[ ] da/0065-da-disc.tag
-[ ] da/0086-da-disc.tag
-[ ] da/0091-da-disc.tag
-[ ] da/0096-da-disc.tag
-[ ] da/0097-da-disc.tag
-[ ] da/0102-da-disc.tag
-[ ] da/0104-da-disc.tag
-[ ] da/0107-da-disc.tag
-[ ] da/0112-da-disc.tag
-[ ] da/0114-da-disc.tag
-[ ] da/0133-da-disc.tag
-[ ] da/0138-da-disc.tag
-[ ] da/0140-da-disc.tag
-[ ] da/0143-da-disc.tag
-[ ] da/0148-da-disc.tag
-[ ] da/0151-da-disc.tag
-[ ] da/0152-da-disc.tag
-[ ] da/0159-da-disc.tag
-[ ] da/0174-da-disc.tag
-[ ] da/0178-da-disc.tag
-[ ] da/0182-da-disc.tag
-[ ] da/0184-da-disc.tag
-[ ] da/0187-da-disc.tag
-[ ] da/0188-da-disc.tag
-[ ] da/0190-da-disc.tag
-[ ] da/0197-da-disc.tag
-[ ] da/0211-da-disc.tag
-[ ] da/0212-da-disc.tag
-[ ] da/0215-da-disc.tag
-[ ] da/0235-da-disc.tag
-[ ] da/0237-da-disc.tag
-[ ] da/0244-da-disc.tag
-[ ] da/0245-da-disc.tag
-[ ] da/0258-da-disc.tag
-[ ] da/0260-da-disc.tag
-[ ] da/0262-da-disc.tag
-[ ] da/0264-da-disc.tag
-[ ] da/0268-da-disc.tag
-[ ] da/0272-da-disc.tag
-[ ] da/0278-da-disc.tag
-[ ] da/0285-da-disc.tag
-[ ] da/0298-da-disc.tag
+
 [ ] da/0303-da-disc.tag
 [ ] da/0306-da-disc.tag
 [ ] da/0307-da-disc.tag

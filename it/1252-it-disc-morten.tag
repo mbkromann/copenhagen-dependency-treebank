@@ -95,7 +95,7 @@
 <W lemma="Pechino" msd="NP" tag="NPR" in="-1:nobj" out="">Pechino</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="Jensen" msd="NP" tag="NPR" in="-6:coref-var|1:subj" out="">Jensen</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-9:CONJ/(e)/ATTR" out="-1:subj|1:dobj|8:vobj|18:pnct|21:+CONS/(perciò)/ATTR">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-9:CONJ/(e)/ATTR" out="-1:subj|1:dobj|8:vobj|18:pnct|21:+CONS&3a;prg/(perciò)/ATTR">dice</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="6:subj" out="1:nobj|3:loc">lo</W>
 <W lemma="sviluppo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">sviluppo</W>
@@ -116,7 +116,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">Ci</W>
-<W lemma="aspettare" msd="VADR" tag="VER&3a;pres" in="-21:+CONS/(perciò)/ATTR" out="-2:pnct|-1:robj|1:degr|2:pobj|4:pnct|5:conc|14:pnct|18:CONTR&3a;prg/ma/ATTR">aspettiamo</W>
+<W lemma="aspettare" msd="VADR" tag="VER&3a;pres" in="-21:+CONS&3a;prg/(perciò)/ATTR" out="-2:pnct|-1:robj|1:degr|2:pobj|4:pnct|5:conc|14:pnct|18:CONTR&3a;prg/ma/ATTR">aspettiamo</W>
 <W lemma="molto" msd="RG" tag="ADV" in="-1:degr" out="">molto</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-2:pobj" out="1:nobj|8:coref">dalle</W>
 <W lemma="riforma" msd="NC" tag="NOM" in="-1:nobj" out="">riforme</W>
