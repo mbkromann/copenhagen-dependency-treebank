@@ -132,7 +132,7 @@
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attrd" out="">primo</W>
 <W lemma="luogo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">luogo</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="24:qobj" out="-4:struct|-5:pnct|1:vobj|4:subj|10:pnct|22:pnct|23:pnct">deve</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="24:qobj" out="-4:struct|-5:pnct|1:vobj|4:subj|10:pnct|22:pnct|23:pnct|15:;TIME&3a;succ/dopo/ATTR2">deve</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:preds">essere</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="1:degr" out="">completamente</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">chiaro</W>
@@ -147,7 +147,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:appr">di</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="">che</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="" out="1:dobj">prevedo</W>
+<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-15:;TIME&3a;succ/dopo/ATTR2" out="1:dobj">prevedo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:vobj">che</W>
 <W lemma="in" msd="SP" tag="PRE" in="4:time" out="1:nobj">in</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>

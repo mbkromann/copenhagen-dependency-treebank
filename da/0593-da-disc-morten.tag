@@ -56,14 +56,14 @@
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-2:coord" out="1:conj">eller</W>
 <W gloss="both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="-1:conj" out="1:nobj">begge</W>
 <W gloss="spouses" lemma="ægtefælle" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ægtefæller</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-6:mod|-5:subj|1:pred">er</W>
-<W gloss="pensioners" lemma="pensionist" msd="NCCPU==I" tag="NNP" in="-1:pred" out="">pensionister</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-6:mod|-5:subj|1:preds">er</W>
+<W gloss="pensioners" lemma="pensionist" msd="NCCPU==I" tag="NNP" in="-1:preds" out="">pensionister</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="The_rent_allowance" lemma="boligydelse" msd="NCCSU==D" tag="NN" in="1:subj" out="">Boligydelsen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONJ/(og)" out="-1:subj|1:pred|2:pnct|8:+CONJ/(og)">er</W>
-<W gloss="tax-free" lemma="skattefri" msd="ANPCSU=IU" tag="JJ" in="-1:pred" out="">skattefri</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONJ/(og)" out="-1:subj|2:pnct|8:+CONJ/(og)|1:preds">er</W>
+<W gloss="tax-free" lemma="skattefri" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">skattefri</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>
@@ -71,9 +71,9 @@
 <s>
 <W gloss="The_rent_allowance" lemma="boligydelse" msd="NCCSU==D" tag="NN" in="1:subj" out="">Boligydelsen</W>
 <W gloss="is_calculated" lemma="beregne" msd="VADR=----P-" tag="VBD" in="-8:+CONJ/(og)" out="-1:subj|1:mod|17:pnct|24:ELAB&3a;exp">beregnes</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|2:pred">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|2:preds">med</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">udgangspunkt</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pred" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj">i</W>
 <W gloss="the_rent" lemma="husleje" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:pnct|3:conj|5:pnct|6:conj|8:coord">huslejens</W>
 <W gloss="size" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="">størrelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -98,14 +98,14 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj">udgangspunkt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|7:ELAB&3a;exp">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|7:ELAB&3a;exp&7c;DESCR&3a;qual">det</W>
 <W gloss="so-called" lemma="såkaldt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">såkaldte</W>
 <W gloss="threshold_amount" lemma="grænsebeløb" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">grænsebeløb</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="The_threshold_amount" lemma="grænsebeløb" msd="NCNSU==D" tag="NN" in="1:subj" out="">Grænsebeløbet</W>
-<W gloss="is" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="-7:ELAB&3a;exp" out="-1:subj|1:mod|12:mod|14:dobj|19:pnct">udgør</W>
+<W gloss="is" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="-7:ELAB&3a;exp&7c;DESCR&3a;qual" out="-1:subj|1:mod|12:mod|14:dobj|19:pnct">udgør</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W gloss="incomes" lemma="indkomst" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|4:rel">indkomster</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -148,7 +148,7 @@
 </p>
 <p>
 <s>
-<W gloss="Note" lemma="bemærke" msd="VAM-=------" tag="VB" in="-20:+ELAB&3a;exp" out="1:pnct|2:dobj|33:pnct|43:CONJ/(og)">Bemærk</W>
+<W gloss="Note" lemma="bemærke" msd="VAM-=------" tag="VB" in="-20:+ELAB&3a;exp" out="1:pnct|2:dobj|33:pnct">Bemærk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="15:vobj">at</W>
 <W gloss="exceeds" lemma="overstige" msd="VADR=----A-" tag="VBD" in="14:mod" out="1:subj|4:dobj|6:pnct|7:coord">overstiger</W>
@@ -165,7 +165,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
 <W gloss="the_apartment" lemma="lejlighed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">lejligheden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-15:vobj" out="-14:mod|1:subj|2:mod|8:vobj">får</W>
+<W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-15:vobj" out="-14:mod|1:subj|2:mod|8:vobj|26:CONJ/(og)">får</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|7:[subj]" out="">du</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">de</W>
@@ -191,7 +191,7 @@
 <W gloss="85" lemma="85" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">85</W>
 <W gloss="sq.m." lemma="kvadratmeter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kvm.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="will_be_reduced" lemma="reducere" msd="VADR=----P-" tag="VBD" in="-43:CONJ/(og)" out="-7:mod|1:subj|3:pobj|8:mod|12:pnct|43:CONJ/(og)">reduceres</W>
+<W gloss="will_be_reduced" lemma="reducere" msd="VADR=----P-" tag="VBD" in="-26:CONJ/(og)" out="-7:mod|1:subj|3:pobj|8:mod|12:pnct|43:CONJ/(og)">reduceres</W>
 <W gloss="your" lemma="din" msd="PO2CSUSNU" tag="PRP$" in="-1:subj" out="1:possd">din</W>
 <W gloss="rent_allowance" lemma="boligydelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="">boligydelse</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>

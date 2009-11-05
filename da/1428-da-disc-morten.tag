@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="45:QUEST&3a;probl" out="1:subj|2:vobj|40:pnct">Kan</W>
+<W gloss="Can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|40:pnct|45:QUEST&3a;probl">Kan</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]|2:[subj]" out="">man</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:vobj">blive</W>
 <W gloss="seduced" lemma="forføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod|4:mod|8:pnct|9:mod">forført</W>
@@ -86,7 +86,7 @@
 </p>
 <p>
 <s>
-<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="" out="1:pnct|-45:QUEST&3a;probl|8:JUST">Ja</W>
+<W gloss="Yes" lemma="ja" msd="I=" tag="UH" in="-45:QUEST&3a;probl" out="1:pnct|8:CONSOL&3a;just">Ja</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-1:pnct" out="">!</W>
 </s>
 </p>
@@ -94,7 +94,7 @@
 <s>
 <W gloss="Carsten" lemma="Carsten" msd="NP--U==-" tag="NNP" in="1:namef" out="">Carsten</W>
 <W gloss="Bo" lemma="Bo" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Bo</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:JUST" out="-1:subj|1:pnct|2:mod|9:pred|10:pnct|14:CONJ/(og)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:CONSOL&3a;just" out="-1:subj|1:pnct|2:mod|10:pnct|14:CONJ/(og)|9:preds">er</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="2:nobj|4:pnct">for</W>
 <W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">god</W>
@@ -103,13 +103,13 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="33" lemma="33" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">33</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-9:pred" out="-2:mod">gammel</W>
+<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-9:preds" out="-2:mod">gammel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:CONJ/(og)" out="-1:subj|1:pred|13:pnct|16:CONJ/(og)">er</W>
-<W gloss="son" lemma="søn" msd="NCCSU==I" tag="NN" in="-1:pred" out="1:pobj|6:pnct|7:conj|8:pnct|9:conj|10:coord">søn</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:CONJ/(og)" out="-1:subj|13:pnct|16:CONJ/(og)|1:preds">er</W>
+<W gloss="son" lemma="søn" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj|6:pnct|7:conj|8:pnct|9:conj|10:coord">søn</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="4:nobj">af</W>
 <W gloss="former" lemma="tidlig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:mod" out="">tidligere</W>
 <W gloss="Minister_for_Industry" lemma="industriminister" msd="NCCSU==I" tag="NN" in="2:title" out="-1:mod">industriminister</W>
@@ -127,10 +127,10 @@
 <W gloss="Hovedmanden" lemma="hovedmand" msd="NCCSU==D" tag="NN" in="-16:CONJ/(og)" out="1:mod|21:pnct|25:CONJ/(og)">Hovedmanden</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="groups" lemma="gruppe" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:mod">grupper</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="2:nobj|3:pred">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="2:nobj|3:preds">med</W>
 <W gloss="cryptic" lemma="kryptisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">kryptiske</W>
 <W gloss="names" lemma="navn" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:mod">navne</W>
-<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-3:pred" out="1:nobj">som</W>
+<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-3:preds" out="1:nobj">som</W>
 <W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:mod|3:pnct|4:conj|7:coord">40</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="fever" lemma="feber" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">feber</W>
@@ -167,12 +167,12 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|6:pnct">Men</W>
+<W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="6:pnct">Men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-2:conj|-20:CONTR&3a;prg/men" out="-1:subj|1:dobj|2:mod|3:pred|15:ELAB&3a;exp/ATTR">gør</W>
+<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-20:CONTR&3a;prg/men" out="-1:subj|1:dobj|2:mod|15:ELAB&3a;exp/ATTR|-2:coord|3:preds">gør</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="sgu'" lemma="sgu'" msd="RGU" tag="RP" in="-2:mod" out="">sgu'</W>
-<W gloss="mad" lemma="sur" msd="ANPCSU=IU" tag="JJ" in="-3:pred" out="">sur</W>
+<W gloss="mad" lemma="sur" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="">sur</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 </p>
@@ -180,8 +180,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="am" lemma="være" msd="VADR=----A-" tag="VBD" in="4:qobj" out="-1:subj|-2:pnct|1:pred|2:pnct|3:pnct">er</W>
-<W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:pred" out="">mig</W>
+<W gloss="am" lemma="være" msd="VADR=----A-" tag="VBD" in="4:qobj" out="-1:subj|-2:pnct|2:pnct|3:pnct|1:preds">er</W>
+<W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:preds" out="">mig</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-2:pnct" out="">!</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W gloss="insists" lemma="insistere" msd="VADR=----A-" tag="VBD" in="-15:ELAB&3a;exp/ATTR" out="-4:qobj|1:subj|2:mod|9:pnct|10:mod|59:pnct">insisterer</W>

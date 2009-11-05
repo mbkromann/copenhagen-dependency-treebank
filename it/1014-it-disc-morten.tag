@@ -185,7 +185,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-36:pnct" out="">.</W>
 <W lemma="insomma" msd="RG" tag="ADV" in="2:prg" out="">Insomma</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">io</W>
-<W lemma="pensare" msd="VADR" tag="VER&3a;pres" in="25:qobj|-51:CONS&3a;prg/insomma/ATTR" out="-1:subj|-2:prg|1:dobj">penso</W>
+<W lemma="pensare" msd="VADR" tag="VER&3a;pres" in="-51:CONS&3a;prg/insomma/ATTR" out="-1:subj|-2:prg|1:dobj">penso</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:dobj|4:cond">sia</W>
 <W lemma="colpa" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;subj">colpa</W>
@@ -210,7 +210,7 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="">giorno</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-15:pnct" out="">"</W>
-<W lemma="concludere" msd="VADR" tag="VER&3a;pres" in="-122:+CONJ/(e)/ATTR" out="-25:qobj|1:subj|3:pnct">conclude</W>
+<W lemma="concludere" msd="VADR" tag="VER&3a;pres" in="-122:+CONJ/(e)/ATTR" out="1:subj|3:pnct">conclude</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj|-121:coref" out="1:appr">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:appr" out="">Munck</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

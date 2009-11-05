@@ -155,7 +155,7 @@
 <p>
 <s>
 <W gloss="Culture" lemma="kultur" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]" out="">Kulturen</W>
-<W gloss="is_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-48:+CONJ/også" out="-1:subj|1:mod|2:vobj|5:pnct|10:ELAB&3a;exp|62:+CONJ/og">skal</W>
+<W gloss="is_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-48:+CONJ/også" out="-1:subj|1:mod|2:vobj|5:pnct|62:+CONJ/og|10:ELAB&3a;exem">skal</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
 <W gloss="ensured" lemma="tilgodese" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod">tilgodeses</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
@@ -165,7 +165,7 @@
 <s>
 <W gloss="Ny" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">Ny</W>
 <W gloss="Tøjhusgrunden" lemma="tøjhusgrund" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="-1:mod">Tøjhusgrunden</W>
-<W gloss="is_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-10:ELAB&3a;exp" out="-1:subj|1:mod|3:vobj|11:pnct|15:CONJ/desuden">skal</W>
+<W gloss="is_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-10:ELAB&3a;exem" out="-1:subj|1:mod|3:vobj|11:pnct|15:CONJ/desuden">skal</W>
 <W gloss="as_soon_as" lemma="snarest" msd="RGU" tag="RP" in="-1:mod" out="1:mod">snarest</W>
 <W gloss="possible" lemma="mulig" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">muligt</W>
 <W gloss="developed" lemma="bebygge" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pnct|3:mod">bebygges</W>
@@ -190,8 +190,8 @@
 <W gloss="field" lemma="område" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">område</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Ørestaden" lemma="Ørestaden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ørestaden</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-10:vobj" out="-9:[subj]|1:pred">være</W>
-<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:pred" out="1:nobj">et</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-10:vobj" out="-9:[subj]|1:preds">være</W>
+<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
 <W gloss="exhibition_area" lemma="udstillingsområde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">udstillingsområde</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
@@ -215,9 +215,9 @@
 </p>
 <p>
 <s>
-<W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|7:pnct">Og</W>
+<W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="7:pnct">Og</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="-2:conj|-62:+CONJ/og" out="-1:mod|1:subj|2:mod|3:dobj|9:ELAB&3a;spec">får</W>
+<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="-62:+CONJ/og" out="-1:mod|1:subj|2:mod|3:dobj|-2:coord|9:ELAB&3a;exp">får</W>
 <W gloss="Amager" lemma="Amager" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Amager</W>
 <W gloss="finally" lemma="endelig" msd="RGU" tag="RP" in="-2:mod" out="">endelig</W>
 <W gloss="its" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-3:dobj" out="1:possd">sine</W>
@@ -226,7 +226,7 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">Der</W>
-<W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-9:ELAB&3a;spec" out="-1:expl|1:vobj|4:pnct|12:ELAB&3a;part|31:ELAB&3a;part">skal</W>
+<W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-9:ELAB&3a;exp" out="-1:expl|1:vobj|4:pnct|12:ELAB&3a;part|31:ELAB&3a;part">skal</W>
 <W gloss="laid" lemma="anlægge" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj">anlægges</W>
 <W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">to</W>
 <W gloss="lines" lemma="bane" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">baner</W>

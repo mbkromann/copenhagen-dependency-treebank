@@ -108,7 +108,7 @@
 <W lemma="quadrato" msd="AN" tag="ADJ" in="-1:attrr" out="">quadrati</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:assoc-loc|1:subj" out="">Ørestad</W>
-<W lemma="dare" msd="VADR" tag="VER&3a;futu" in="-14:+CONJ/inoltre" out="-1:subj|2:struct|4:dobj|5:iobj|7:pnct|13:ELAB&3a;exem|71:+JOINT|44:ELAB&3a;exem">darà</W>
+<W lemma="dare" msd="VADR" tag="VER&3a;futu" in="-14:+CONJ/inoltre" out="-1:subj|2:struct|4:dobj|5:iobj|7:pnct|13:ELAB&3a;exem|71:+JOINT|44:CONJ">darà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-2:struct" out="-1:pnct|1:pnct">inoltre</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
@@ -152,7 +152,7 @@
 <W lemma="nord" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">nord</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Ørestad</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-44:ELAB&3a;exem" out="-13:struct|-11:subj|1:vobj|6:pnct">sarà</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-44:CONJ" out="-13:struct|-11:subj|1:vobj|6:pnct">sarà</W>
 <W lemma="utilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-12:[subj]|1:goal">utilizzato</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:vobj">per</W>
 <W lemma="organizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-14:[subj]|1:nobj">organizzare</W>
