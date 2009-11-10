@@ -1500,6 +1500,184 @@ sub cmd_autoreplace {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_autotag.pl
+## ------------------------------------------------------------
+
+sub cmd_autotag {
+	my $self = shift;
+	my $graph = shift;
+	my $tag = shift;
+	my $files = shift || "";
+	#print "autotag: tag=\"$tag\" files=\"$files\"\n";
+	
+	# Check that $graph is a dependency graph
+	if (! UNIVERSAL::isa($graph, 'DTAG::Graph')) {
+		error("no active graph");
+		return 1;
+	}
+
+	# Turn off autotagger if argument is "-off"
+	if ($files =~ /^\s*-off\s*$/) {
+		$graph->var('autotagvar', undef);
+		return 1;
+	} else {
+		$graph->var('autotagvar', $tag);
+	}
+
+	# Set new variable
+	$self->cmd_vars($graph, $tag);
+
+	# If first file argument is "-default" and an autotag lexicon already
+	# exists, then drop given files
+	my $lexicons = $self->var('autotaglex') || {};
+	$self->var('autotaglex', $lexicons);
+	$lexicons->{$tag} = $lexicons->{$tag} || {};
+	if ($files !~ /^\s*-default\s+/) {
+		my $lexicon = {};
+		$lexicons->{$tag} = $lexicon;
+
+		# Save current graph and viewer
+		my $currentgraph = $self->{'graph'};
+		$graph->mtime(1);
+		my $viewer = $self->var('viewer');
+		$self->var('viewer', 0);
+
+		# Create new tag lexicon
+		inform("Training autotagger. Please wait.");
+		foreach my $file (glob($files)) {
+			# Load file
+			if ($file =~ /.tag$/) {
+				# Graph
+				$self->cmd_load_tag($graph, $file);
+				my $ngraph = $self->graph();
+				$self->{'graph'} = $currentgraph;
+
+				# Train new lexicon for alignment
+				for (my $i = 0; $i < $ngraph->size(); ++$i) {
+					my $node = $ngraph->node($i);
+					my $tagvalue = $node->var($tag);
+					$self->cmd_autotag_addkeys($node->input(),
+						$tagvalue, $tag, $lexicon);
+
+					my $key = $node->input();
+					if (defined($key) && defined($tagvalue)) {
+						if (! exists $lexicon->{$key}) {
+							$lexicon->{$key} = {};
+						}
+						$lexicon->{$key}{$tagvalue} += 1;
+					}
+				}
+			}
+		}
+	}
+	
+	# Find last tagged position
+	my $pos = -1;
+	for (my $i = $graph->size() - 1; $i >= 0; --$i) {
+		my $node = $graph->node($i);
+		if (defined($node->var($tag))) {
+			$pos = $i + 1;
+			last;
+		}
+	}
+
+
+	# Autotag edges
+	$graph->var('autotagpos', $pos);
+	$self->var('viewer', $viewer);
+	$interpreter->cmd_autotag_next($graph);
+	
+	# Print help
+	print "Autotagging commands:\n";
+	print "    \"<\$label\": set label for current word replacing #N strings\n";
+	print "    \"autotag -off\": stop autotagger\n";
+	print "    \"autotag -pos N\": move to word N\n";
+	print "    \"oshown N\": display graph from word N\n";
+
+	# Return
+	return 1;
+}
+
+sub cmd_autotag_addkey {
+	my ($self, $key, $value, $lexicon) = @_;
+	if (defined($key) && defined($value)) {
+		if (! exists $lexicon->{$key}) {
+			$lexicon->{$key} = {};
+		}
+		$lexicon->{$key}{$value} += 1;
+	}
+}	
+
+sub cmd_autotag_addkeys {
+	my ($self, $key, $value, $feature, $lexicon) = @_;
+	$lexicon = $self->var('autotaglex')->{$feature}
+		if (! defined($lexicon));
+	$self->cmd_autotag_addkey($node->input(), $tagvalue, $lexicon);
+	$self->cmd_autotag_addkey("_lc_:" . lc($node->input()),
+		$tagvalue, $lexicon);
+}	
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_autotag_next.pl
+## ------------------------------------------------------------
+
+sub cmd_autotag_next {
+	my $self = shift;
+	my $graph = shift;
+	my $value = shift;
+
+	# Find autotag variable
+	my $var = $graph->var('autotagvar');
+	if (! defined($var)) {
+		error("Autotagging is turned off. Please use \"autotag \$var \$files\" to turn it on");
+		return;
+	}
+
+	# Set current value if value is defined
+	my $pos = $graph->var('autotagpos');
+	if (defined($value)) {
+		# Find current position
+		my $node = $graph->node($pos);
+
+		# Determine if user specified value or value id
+		if (defined($node)) {
+			if ($value =~ /^\#([0-9]+)\s*$/) {
+				$value = $graph->var('autotagvalues')->[$1];
+			} 
+			if (defined($value)) {
+			$node->var($var, $value)
+		}
+	}
+
+	# Find next untagged node
+	my $node;
+	for (my $i = $pos + 1; $i < $graph->size(); ++$i) {
+		$node = $graph->node($i);
+		if (defined($node) && ! $node->comment()) {
+			$pos = $i;
+			last;
+		}
+	}
+
+	# Exit if we reached end of graph
+	if ($pos >= $graph->size() || ! defined($node)) {
+		inform("Autotagger reached end of graph");
+		return;
+	}
+
+	# Save position	
+	$graph->var('autotagpos', $pos);
+	
+	# Print out previous matches
+
+	# Print out context
+	my $offset = $graph->offset();
+	printf("% 5s: %-20s %s\n", 
+		($offset > 0 && $pos >= $offset ?  "+" : "") . ($pos - $offset),
+		$node->input() || "", $node->var($var, $value) || "");
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_cd.pl
 ## ------------------------------------------------------------
 
@@ -7090,6 +7268,12 @@ sub do {
 		# Replace: autoreplace [-corpus] $rel1 $rel2 ...
 		$success = $self->cmd_autoreplace($graph, $1, $2)
 			if ($cmd =~ /^\s*autoreplace\s+(-corpus\s+)?(.*)$/);
+
+		# Autotag: autotag $tag $filepattern
+		$success = $self->cmd_autotag($graph, $1, $2)
+			if ($cmd =~ /^\s*autotag\s+(\S+)\s*(.*)$/);
+		$success = $self->cmd_autotag_next($graph, $1)
+			if ($cmd =~ /^<(.*)$/);
 
 		# Change directory: cd $dir
 		$success = $self->cmd_cd($1)

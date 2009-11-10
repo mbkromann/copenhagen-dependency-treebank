@@ -2,7 +2,7 @@
 corpus /opt/cdt/*/*.tag
 
 # Define variables
-vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c
+vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c omorph:o
 
 # --------------------
 # LAYOUT
@@ -12,7 +12,7 @@ vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c
 layout -clear
 
 # Variables that must be include the graph
-layout -vars /stream:.*/|compound|cat|msd|lexeme|gloss|sdeps|_position
+layout -vars /stream:.*/|compound|cat|msd|lexeme|omorph|gloss|sdeps|_position
 
 # Regular expressions that must be applied to individual variables
 layout -var msd s/(..).*/$1/
