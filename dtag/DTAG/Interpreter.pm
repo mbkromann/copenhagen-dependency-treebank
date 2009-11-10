@@ -1585,7 +1585,7 @@ sub cmd_autotag {
 	# Autotag edges
 	$graph->var('autotagpos', $pos);
 	$self->var('viewer', $viewer);
-	$interpreter->cmd_autotag_next($graph);
+	$self->cmd_autotag_next($graph);
 	
 	# Print help
 	print "Autotagging commands:\n";
@@ -1612,10 +1612,22 @@ sub cmd_autotag_addkeys {
 	my ($self, $key, $value, $feature, $lexicon) = @_;
 	$lexicon = $self->var('autotaglex')->{$feature}
 		if (! defined($lexicon));
-	$self->cmd_autotag_addkey($node->input(), $tagvalue, $lexicon);
-	$self->cmd_autotag_addkey("_lc_:" . lc($node->input()),
-		$tagvalue, $lexicon);
+	$self->cmd_autotag_addkey($key, $value, $lexicon);
+	$self->cmd_autotag_addkey("_lc_:" . lc($key), $value, $lexicon);
 }	
+
+sub cmd_autotag_lookup {
+	# Parameters
+	my ($self, $key, $feature, $lexicon) = @_;
+	$lexicon = $self->var('autotaglex')->{$feature}
+		if (! defined($lexicon));
+
+	# Lookup
+	my $matches = [];
+	push @$matches,
+		$lexicon->{$key};
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_autotag_next.pl
@@ -1634,10 +1646,11 @@ sub cmd_autotag_next {
 	}
 
 	# Set current value if value is defined
+	my $node;
 	my $pos = $graph->var('autotagpos');
 	if (defined($value)) {
 		# Find current position
-		my $node = $graph->node($pos);
+		$node = $graph->node($pos);
 
 		# Determine if user specified value or value id
 		if (defined($node)) {
@@ -1645,12 +1658,12 @@ sub cmd_autotag_next {
 				$value = $graph->var('autotagvalues')->[$1];
 			} 
 			if (defined($value)) {
-			$node->var($var, $value)
+				$node->var($var, $value);
+			}
 		}
 	}
 
 	# Find next untagged node
-	my $node;
 	for (my $i = $pos + 1; $i < $graph->size(); ++$i) {
 		$node = $graph->node($i);
 		if (defined($node) && ! $node->comment()) {

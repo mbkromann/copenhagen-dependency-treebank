@@ -863,7 +863,7 @@ sub is_adjunct {
 	# Remove edge decorations
 	$type =~ s/^[:;+]//g;
 	$type =~ s/^[¹²³^]+//g;
-    $type =~ s/^¤//g;
+    $type =~ s/^\¤//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
 	$type =~ s/\/.*$//g;
@@ -910,7 +910,7 @@ sub is_complement {
 	# Remove edge decorations
 	$type =~ s/^[:;+]//g;
 	$type =~ s/^[¹²³^]+//g;
-	$type =~ s/^¤//g;
+	$type =~ s/^\¤//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
     $type =~ s/\/.*$//g;
