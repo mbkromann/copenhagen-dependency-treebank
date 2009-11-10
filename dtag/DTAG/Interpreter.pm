@@ -7322,9 +7322,11 @@ sub do {
 				$cmd =~ /^\s*del\s+([a-z]-?[0-9]+)\s*$/);
 		if ($cmd =~ /^\s*del\s+-on\s*$/) {
 			$success = 1;
+			print "Turning node deletion on\n";
 			$graph->{'block_nodedel'} = 0;
 		}
 		if ($cmd =~ /^\s*del\s+-off\s*$/) {
+			print "Turning node deletion off\n";
 			$success = 1;
 			$graph->{'block_nodedel'} = 1;
 		}

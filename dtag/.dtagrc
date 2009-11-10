@@ -163,10 +163,10 @@ etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr
 etypes -add -adj + appa appr attr attrd attrr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
-etypes -add -adj about class const exem exp func mod modo modp modr path relp relpa resem rest spec xpl
+etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl
 
 # Deleted by Lotte
-# etypes -add adjuncts concom discmark
+# etypes -add adjuncts discmark
 
 # Discourse relations 
 etypes -add -adj CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec INSTR JOINT JUST PREPAR QUEST QUEST:probl QUEST:query SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ REP INTACT:attn
