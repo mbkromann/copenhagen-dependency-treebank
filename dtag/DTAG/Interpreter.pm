@@ -1581,18 +1581,18 @@ sub cmd_autotag {
 		}
 	}
 
-
-	# Autotag edges
-	$graph->var('autotagpos', $pos);
-	$self->var('viewer', $viewer);
-	$self->cmd_autotag_next($graph);
-	
 	# Print help
 	print "Autotagging commands:\n";
-	print "    \"<\$label\": set label for current word replacing #N strings\n";
+	print "    \"<\$label\": set label for current word with replacement of #\$n shortcuts\n";
+	print "    \"\$pos<\$label\": set label for word \$pos with replacement of #\$n shortcuts\n";
 	print "    \"autotag -off\": stop autotagger\n";
-	print "    \"autotag -pos N\": move to word N\n";
-	print "    \"oshown N\": display graph from word N\n";
+	print "    \"autotag -pos \$pos\": move to word \$pos\n";
+	print "    \"autotag -offset \$pos\": set offset to \$pos\n";
+
+	# Autotag edges
+	$graph->var('autotagpos', $pos - 1);
+	$self->var('viewer', $viewer);
+	$self->cmd_autotag_next($graph);
 
 	# Return
 	return 1;
@@ -1607,6 +1607,7 @@ sub cmd_autotag_addkey {
 		$lexicon->{$key}{$value} += 1;
 	}
 }	
+
 
 sub cmd_autotag_addkeys {
 	my ($self, $key, $value, $feature, $lexicon) = @_;
@@ -1623,11 +1624,24 @@ sub cmd_autotag_lookup {
 		if (! defined($lexicon));
 
 	# Lookup
-	my $matches = [];
-	push @$matches,
-		$lexicon->{$key};
+	my $matches = {};
+	my $hashes = [$lexicon->{$key}, $lexicon->{"_lc_:" . lc($key)}];
+	foreach my $hash (@$hashes) {
+		if (defined($hash)) {
+			foreach my $key (keys(%$hash)) {
+				$matches->{$key} += $hash->{$key};
+			}
+		}
+	}
+
+	# Return matches
+	return($matches);
 }
 
+sub autotag_off {
+	my ($self, $graph) = @_;
+	$graph->var('autotagvar', undef);
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_autotag_next.pl
@@ -1654,11 +1668,19 @@ sub cmd_autotag_next {
 
 		# Determine if user specified value or value id
 		if (defined($node)) {
-			if ($value =~ /^\#([0-9]+)\s*$/) {
-				$value = $graph->var('autotagvalues')->[$1];
+			# Process shortcuts
+			if ($value =~ /\#/) {
+				my $shortcuts = $graph->var('autotagshortcuts');
+				for (my $i = 0; $i <= $#$shortcuts; ++$i) {
+					my $shortcut = $shortcuts->[$i];
+					$value =~ s/\#$i(?![0-9])/$shortcut/g;
+				}
 			} 
+
+			# Set new value
 			if (defined($value)) {
 				$node->var($var, $value);
+				$self->cmd_autotag_addkeys($node->input(), $value, $var); 
 			}
 		}
 	}
@@ -1681,13 +1703,81 @@ sub cmd_autotag_next {
 	# Save position	
 	$graph->var('autotagpos', $pos);
 	
-	# Print out previous matches
+	# Lookup word in lexicon, and add in most frequent first order
+	my $shortcuts = [];
+	my $hash = $self->cmd_autotag_lookup($node->input(), $var);
+	my $hicount = 0;
+	foreach my $value (sort {$hash->{$b} <=> $hash->{$a}} keys(%$hash)) {
+		$hicount = $hash->{$value}
+			if ($hash->{$value} > $hicount);
+		if ($hash->{$value} > $hicount / 20 && $#$shortcuts < 15) {
+			push @$shortcuts, $value
+				if (! grep {$value eq $_} @$shortcuts);
+		}
+	}
+
+	# Find default shortcut (lemma or input by default)
+	my $defaultshortcutfield = $graph->var('autotagshortcut_default') ||
+		["lemma", "_input"];
+	foreach my $field (@$defaultshortcutfield) {
+		my $value = ($field eq "_input") ? $node->input() : $node->var($field);
+		if (defined($value)) {
+			push @$shortcuts, $value
+				if (! grep {$value eq $_} @$shortcuts);
+			last;
+		}
+	}
+
+	# Left and right context parameters
+	my $wordsep = "\n       ";
+	my $maxchars = 60;
+	my $maxcount = 5;
+
+	# Find left and right context
+	my $lcontext = [];
+	for (my $i = $pos - 1; $i >= 0 && scalar(@$lcontext) < $maxcount; --$i) {
+		if (! $graph->node($i)->comment()) {
+			unshift @$lcontext, $i;
+		}
+	}
+
+	# Find right context
+	my $rcontext = [];
+	for (my $i = $pos + 1; $i < $graph->size() 
+			&& scalar(@$rcontext) < $maxcount; ++$i) {
+		if (! $graph->node($i)->comment()) {
+			push @$rcontext, $i;
+		}
+	}
 
 	# Print out context
+	foreach my $cpos (@$lcontext, $pos, @$rcontext) {
+		autotag_next_print_node($graph, $cpos, $var, 
+			($cpos == $pos) ? "*" : " ");
+	}
+
+	# Print out shortcuts
+	$graph->var('autotagshortcuts', $shortcuts);
+	for (my $i = 0; $i <= $#$shortcuts; ++$i) {
+		print "#$i: " . $shortcuts->[$i] . "\n";
+	}
+}
+
+sub autotag_next_print_node {
+	my ($graph, $pos, $var, $mark) = @_;
 	my $offset = $graph->offset();
-	printf("% 5s: %-20s %s\n", 
+	my $node = $graph->node($pos);
+	printf("%1s % 5s: %-20s %s\n", 
+		$mark, 
 		($offset > 0 && $pos >= $offset ?  "+" : "") . ($pos - $offset),
-		$node->input() || "", $node->var($var, $value) || "");
+		$node->input() || "", $var . "=" . ($node->var($var) || ""));
+}
+
+sub autotag_setpos {
+	my ($self, $graph, $pos, $prev) = @_;
+	my $offset = $graph->offset();
+	$pos = $offset + $pos;
+	$graph->var('autotagpos', $prev ? $pos - 1 : $pos);
 }
 
 ## ------------------------------------------------------------
@@ -7283,11 +7373,31 @@ sub do {
 			if ($cmd =~ /^\s*autoreplace\s+(-corpus\s+)?(.*)$/);
 
 		# Autotag: autotag $tag $filepattern
-		$success = $self->cmd_autotag($graph, $1, $2)
-			if ($cmd =~ /^\s*autotag\s+(\S+)\s*(.*)$/);
-		$success = $self->cmd_autotag_next($graph, $1)
-			if ($cmd =~ /^<(.*)$/);
+		if ($cmd =~ /^\s*autotag\s+-pos\s+([+-]?[0-9]+)\s*$/) {
+			$self->autotag_setpos($graph, $1, -1);
+			$self->cmd_autotag_next($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+-offset\s+([+-])?([0-9]+)\s*$/) {
+			$self->cmd_offset($graph, $1, $2);
+			my $pos = ($graph->var('autotagpos') || 0) - 1;
+			$graph->var('autotagpos', $pos);
+			$self->cmd_autotag_next($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+-off\s*$/) {
+			$self->autotag_off($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+(\S+)\s*(.*)$/) {
+			$success = $self->cmd_autotag($graph, $1, $2);
+		}
 
+		# Autotag assignment: "<value" and "pos<value"
+		if ($cmd =~ /^<(.*)$/) {
+			$success = $self->cmd_autotag_next($graph, $1)
+		} elsif ($cmd =~ /^([+-]?[0-9]+)<(.*)$/) {
+			$self->autotag_setpos($graph, $1);
+			$success = $self->cmd_autotag_next($graph, $2);
+		}
+		
 		# Change directory: cd $dir
 		$success = $self->cmd_cd($1)
 			if ($cmd =~ /^\s*cd\s+(.*\S)\s*$/);
