@@ -11,7 +11,7 @@
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-7:[subj]">essere</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-10:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-11:pnct" out="">,</W>
-<W lemma="continuare" msd="VADA" tag="VER&3a;remo" in="" out="-12:qobj|1:subj|2:pnct|18:pnct|25:*+CONJ/(e)/ATTR2">continuò</W>
+<W lemma="continuare" msd="VADA" tag="VER&3a;remo" in="" out="-12:qobj|1:subj|2:pnct|18:pnct|25:+CONJ/(e)/ATTR2*">continuò</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:subj" out="">lui</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
@@ -36,12 +36,12 @@
 <W lemma="andare" msd="VADR" tag="VER&3a;futu" in="-8:[+CONJ/(e)/ATTR2]|3:qobj" out="-3:pnct|-10:[subj]|-2:discmark|-1:lobj|1:pnct|2:pnct|8:[+QUEST&3a;probl/ATTR1]">andrà</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
-<W lemma="chiedere" msd="VADA" tag="VER&3a;remo" in="-25:*+CONJ/(e)/ATTR2" out="-3:qobj|1:subj|3:pnct|5:*+CONJ/(e)/ATTR1">chiese</W>
+<W lemma="chiedere" msd="VADA" tag="VER&3a;remo" in="-25:+CONJ/(e)/ATTR2*" out="-3:qobj|1:subj|3:pnct|5:+QUEST&3a;probl/ATTR1*">chiese</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:subj" out="1:fpreds">lei</W>
 <W lemma="pensieroso" msd="AN" tag="ADJ" in="-1:fpreds" out="">pensierosa</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="12:coref">Flemming</W>
-<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:*+CONJ/(e)/ATTR1" out="-1:subj|1:dobj|3:pnct|6:[+CONJ/(e)/ATTR1]|10:*+CONJ/(e)/ATTR1">alzò</W>
+<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:+QUEST&3a;probl/ATTR1*" out="-1:subj|1:dobj|3:pnct|6:[+CONJ/(e)/ATTR1]|10:+ELAB&3a;exp/ATTR1*">alzò</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="spalla" msd="NC" tag="NOM" in="-1:nobj" out="">spalle</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
@@ -51,7 +51,7 @@
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">arrestato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:*+CONJ/(e)/ATTR1" out="-4:qobj|1:subj|3:pnct">rispose</W>
+<W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:+ELAB&3a;exp/ATTR1*" out="-4:qobj|1:subj|3:pnct">rispose</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:subj|-12:coref" out="1:fpreds">lui</W>
 <W lemma="convincere" msd="VAP" tag="VER&3a;pper" in="-1:fpreds" out="">convinto</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -104,7 +104,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="volere" msd="VA" tag="VER&3a;cond" in="2:REP" out="-18:CONC/ATTR1|1:pnct">Vorresti</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-34:ELAB&3a;exp/ATTR1" out="-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|7:[+QUEST&3a;probl/ATTR2]|10:*+QUEST&3a;probl/ATTR2">vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-34:ELAB&3a;exp/ATTR1" out="-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|7:[+QUEST&3a;probl/ATTR2]|10:+QUEST&3a;probl/ATTR2*">vorresti</W>
 <W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">sposarmi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="trino" msd="AN" tag="ADJ" in="-3:voc" out="8:coref">Trine</W>
@@ -114,7 +114,7 @@
 <W lemma="sì" msd="RG" tag="ADV" in="-7:[+QUEST&3a;probl/ATTR2]|3:qobj" out="-1:pnct|1:pnct|2:pnct|23:[+ELAB&3a;exp/ATTR1]">Sì</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:*+QUEST&3a;probl/ATTR2" out="-3:qobj|1:subj|2:man|4:pnct|11:CONJ/e">rispose</W>
+<W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="-10:+QUEST&3a;probl/ATTR2*" out="-3:qobj|1:subj|2:man|4:pnct|11:CONJ/e">rispose</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:subj|-8:coref" out="9:coref">lei</W>
 <W lemma="senza" msd="SP" tag="PRE" in="-2:man" out="1:nobj">senza</W>
 <W lemma="esitazione" msd="NC" tag="NOM" in="-1:nobj" out="">esitazione</W>
@@ -125,7 +125,7 @@
 <W lemma="sorriso" msd="NC" tag="NOM" in="-1:nobj" out="">sorriso</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="2:subj" out="8:coref">lui</W>
 <W lemma="la" msd="PP" tag="PRO&3a;pers" in="-9:coref|1:dobj" out="28:coref">la</W>
-<W lemma="trarre" msd="VADA" tag="VER&3a;remo" in="-11:CONJ/e" out="-5:man|-2:subj|-1:dobj|-6:coord|1:dir|2:pnct|4:dir|7:pnct|17:*+ELAB&3a;exp/ATTR1">trasse</W>
+<W lemma="trarre" msd="VADA" tag="VER&3a;remo" in="-11:CONJ/e" out="-5:man|-2:subj|-1:dobj|-6:coord|1:dir|2:pnct|4:dir|7:pnct|17:+ELAB&3a;exp/ATTR1*">trasse</W>
 <W lemma="vicino" msd="AN" tag="ADJ" in="-1:dir" out="">vicino</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
@@ -142,14 +142,14 @@
 <W lemma="natale" msd="AN" tag="ADJ" in="-1:nobj" out="">Natale</W>
 <W lemma="?" msd="XP" tag="SENT" in="-6:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-7:pnct" out="">"</W>
-<W lemma="continuare" msd="VADA" tag="VER&3a;remo" in="-17:*+ELAB&3a;exp/ATTR1" out="-8:qobj|1:subj|2:man|5:pnct|7:*+QUEST&3a;probl/ATTR2">continuò</W>
+<W lemma="continuare" msd="VADA" tag="VER&3a;remo" in="-17:+ELAB&3a;exp/ATTR1*" out="-8:qobj|1:subj|2:man|5:pnct|7:+QUEST&3a;probl/ATTR2">continuò</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:subj|-12:coref" out="19:coref">lui</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:man" out="1:nobj">in</W>
 <W lemma="tono" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">tono</W>
 <W lemma="interrogativo" msd="AN" tag="ADJ" in="-1:attrr" out="">interrogativo</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-7:*+QUEST&3a;probl/ATTR2|-15:[+QUEST&3a;probl/ATTR2]" out="-1:pnct|1:pnct|2:pnct|4:CONJ/(e)">Hum</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-15:[+QUEST&3a;probl/ATTR2]|-7:+QUEST&3a;probl/ATTR2" out="-1:pnct|1:pnct|2:pnct|4:CONJ/(e)">Hum</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-28:coref|1:subj" out="3:coref">lei</W>
