@@ -4,8 +4,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|5:[subj]|6:[subj]|7:[subj]" out="1:nobj">le</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="">cose</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-4:vobj" out="-3:subj|-1:neg|1:comp">erano</W>
-<W lemma="come" msd="PT" tag="PRO&3a;inter" in="-1:comp" out="1:vobj">come</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-4:vobj" out="-3:subj|-1:neg|1:preds">erano</W>
+<W lemma="come" msd="PT" tag="PRO&3a;inter" in="-1:preds" out="1:vobj">come</W>
 <W lemma="avere" msd="VA" tag="VER&3a;cond" in="-1:vobj" out="-5:[subj]|1:vobj">avrebbero</W>
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:vobj">dovuto</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-7:[subj]">essere</W>
@@ -41,13 +41,13 @@
 <W lemma="pensieroso" msd="AN" tag="ADJ" in="-1:fpreds" out="">pensierosa</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="12:coref">Flemming</W>
-<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:*+CONJ/(e)/ATTR1" out="-1:subj|1:dobj|3:pnct|10:*+CONJ/(e)/ATTR1|6:[+CONJ/(e)/ATTR1]">alzò</W>
+<W lemma="alzare" msd="VADA" tag="VER&3a;remo" in="-8:[+QUEST&3a;probl/ATTR1]|-5:*+CONJ/(e)/ATTR1" out="-1:subj|1:dobj|3:pnct|6:[+CONJ/(e)/ATTR1]|10:*+CONJ/(e)/ATTR1">alzò</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="spalla" msd="NC" tag="NOM" in="-1:nobj" out="">spalle</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="presto" msd="RG" tag="ADV" in="1:time" out="">Presto</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="4:qobj|-6:[+CONJ/(e)/ATTR1]" out="-2:pnct|-1:time|1:vobj|2:pnct|3:pnct|11:conj|16:coref|18:²coref-res|18:CONS&3a;prg/(perciò)/ATTR1">sarà</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-6:[+CONJ/(e)/ATTR1]|4:qobj" out="-2:pnct|-1:time|1:vobj|2:pnct|3:pnct|11:conj|16:coref|18:²coref-res|18:CONS&3a;prg/(perciò)/ATTR1">sarà</W>
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">arrestato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
