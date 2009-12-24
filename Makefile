@@ -2,6 +2,17 @@ export LANG=C
 
 none: 
 
+webmap:
+	rm -f tmp/webmap.tag
+	for lang in `echo da en it es` ; do \
+		cat $$lang/*.tag | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
+	done
+	dtag -e 'script /home/matthias/research/dtag/dtagrc' -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
+	make webmap.pngs
+
+webmap.pngs:
+	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then xmake $$f.png ; fi ; done
+
 da-it.alex: 
 	 tools/giza2alex da it
 	 cp tmp/da-it.alex da-it/da-it.alex
