@@ -7169,11 +7169,11 @@ sub cmd_webmap {
 		= @_;
 
 	$tagvar = 'msd' if (! defined($tagvar));
-	$wikidir = 'treebank.dk/cdt-map' if (! defined($wikidir ));
+	$wikidir = 'treebank.dk/map' if (! defined($wikidir ));
 	$exdir = $wikidir if (! defined($exdir ));
 	$termexcount = 10 if (! defined($termexcount ));
 	$excount = $termexcount if (! defined($excount));
-	$mincount = 5 if (! defined($mincount));
+	$mincount = 2 if (! defined($mincount));
 	$url = "" if (! defined($url));
 
 	# Debug

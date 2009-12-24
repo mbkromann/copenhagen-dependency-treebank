@@ -2832,7 +2832,7 @@ sub vars {
 sub wikidoc {
 	my $self = shift;
 	my $tagvar = shift || 'msd';
-	my $wikidir = shift || "treebank.dk/cdt-map";
+	my $wikidir = shift || "treebank.dk/map";
 	my $exdir = shift || $wikidir;
 	my $termexcount = shift || 10;
 	my $excount = shift || $termexcount;
@@ -2849,6 +2849,7 @@ sub wikidoc {
 	my $counts = {};
 
 	# Index edges in graph
+	my $words = 0;
 	$self->do_edges(sub 
 		{	# Read parameters
 			my $e = shift; 
@@ -2867,6 +2868,11 @@ sub wikidoc {
 			my $ow = $onode->input();
 			$iw = "" if ($i2 ne "U=");
 			$ow = "" if ($o2 ne "U=");
+
+			# Clean up edge type
+			$type =~ s/^[:;,+]//g;
+			$type =~ s/\/.*$//g;
+			$type =~ s/[¹²³]//g;
 
 			# Ignore edge if type or word classes are empty, if edge
 			# type starts with "<" or "[", or if edge type is on
@@ -2890,6 +2896,11 @@ sub wikidoc {
 			foreach my $c ($class, @super) {
 				++$counts->{$c};
 			}
+
+			# Print type
+			print $type . " ";
+			print "\n"
+				if ($words++ % 15 == 0);
 		}, $self, $tagvar);
 
 	# Find graph structure for all classes with at least $mincount instances
@@ -3299,14 +3310,15 @@ sub wikidoc_class {
 	my ($i2, $iw, $type, $o2, $ow, $lang) = @$instance;
 	$i2 =~ s/[^A-Za-z]//g;
 	$o2 =~ s/[^A-Za-z]//g;
-	$type =~ s/[^A-Za-z]//g;
+	$type =~ s/\|.*$//g;
+	$type =~ s/[^A-Za-z:]//g;
 	$iw =~ s/[^A-Za-z]//g; 
 	$ow =~ s/[^A-Za-z]//g;
 	$lang =~ s/[^A-Za-z]//g;
 
 	my $class = join("_", 
 		uc($i2) . uc($iw), 
-		lc($type),
+		$type,
 		uc($o2) . uc($ow),
 		$lang);
 	#print $class, "\n";
