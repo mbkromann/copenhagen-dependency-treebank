@@ -11,7 +11,11 @@ webmap:
 	make webmap.pngs
 
 webmap.pngs:
-	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then xmake $$f.png ; fi ; done
+	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then \
+		dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print /tmp/webmap.ps" -e "exit" ; \
+		ps2epsi /tmp/webmap.ps /tmp/webmap.eps ; \
+		pstoimg -antialias -scale 1.6 /tmp/webmap.eps -out $$f.png ; \
+	fi ; done
 
 da-it.alex: 
 	 tools/giza2alex da it
