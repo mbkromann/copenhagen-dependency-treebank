@@ -2,20 +2,32 @@ export LANG=C
 
 none: 
 
+export LANG=C
+
+none: 
+
+webmap.pngs:
+        cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then \
+                dtag -u -q -e 'layout -vars /stream:.*/|cat|msd|lexeme|gloss|id' -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
+
 webmap:
 	rm -f tmp/webmap.tag
 	for lang in `echo da en it es` ; do \
 		cat $$lang/*.tag | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
 	done
-	dtag -e 'script /home/matthias/research/dtag/dtagrc' -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
+	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
 	make webmap.pngs
+	cd treebank.dk ; lftp -f .upload
 
 webmap.pngs:
-	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then \
-		dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print /tmp/webmap.ps" -e "exit" ; \
-		ps2epsi /tmp/webmap.ps /tmp/webmap.eps ; \
-		pstoimg -antialias -scale 1.6 /tmp/webmap.eps -out $$f.png ; \
-	fi ; done
+	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
+		if [ ! -f $$f.png ] ; then \
+			dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
+            ps2epsi $$f.ps $$f.eps ; \
+            pstoimg -antialias -scale 1.6 $$f.eps -out $$f.png ; \
+            rm $$f.ps $$f.eps ; \
+        fi ; \
+	done
 
 da-it.alex: 
 	 tools/giza2alex da it
