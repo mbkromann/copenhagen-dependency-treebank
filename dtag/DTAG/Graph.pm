@@ -3370,11 +3370,11 @@ sub wikidoc_super_all {
 
 sub wikidoc_superw {
 	my $wclass = shift;
-	$wclass =~ /^([A-Z]*)([^A-Z]*)$/;
-	my ($tag, $word) = ($1, $2);
+	$wclass =~ /^([^.]*)(\.(.*))$/;
+	my ($tag, $word) = ($1, $3);
 
 	# Word present
-	return undef if (length($tag) == 0);
+	return "" if (length($tag) == 0);
 	return $tag if (length($word) != 0);
 	return "" if (length($tag) == 1);
 	return substr($tag, 0, 1);
