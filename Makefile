@@ -10,6 +10,9 @@ webmap:
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
 	make webmap.pngs
 
+webmap.clear: 
+	find -type f treebank.dk/map | xargs rm
+
 webmap.pngs:
 	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
 		if [ ! -f $$f.png ] ; then \
