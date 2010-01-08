@@ -23,11 +23,13 @@ webmap.pngs:
             rm $$f.ps $$f.eps ; \
         fi ; \
 	done
-	( for f in `ls treebank.dk/map/ex*.tag | sed -e 's/.tag$//g'` ; do \
-		if [ ! -f $f.png ] ; then echo $f ; fi ; \
-	done ) > treebank.dk/map/missing
-	cat treebank.dk/map/missing
+	make webmap.pngs.missing
 	cd treebank.dk ; lftp -f .upload
+
+webmap.pngs.missing:
+	( for f in `ls treebank.dk/map/ex*.tag | sed -e 's/.tag\$//g'` ; do \
+		if [ ! -f $$f.png ] ; then echo $$f ; fi ; \
+	done ) | tee treebank.dk/map/missing
 
 da-it.alex: 
 	 tools/giza2alex da it
