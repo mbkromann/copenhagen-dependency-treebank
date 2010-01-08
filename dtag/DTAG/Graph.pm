@@ -1748,6 +1748,16 @@ Return PostScript representation $postscript for graph.
 =cut
 
 
+sub addps {
+	my $s = shift;
+	while (@_) {
+		my $t = shift;
+		#print($t);
+		$s .= $t;
+	}
+	return($s);
+}
+
 sub postscript {
 	my $self = shift;
 	my $interpreter = shift;
@@ -1758,7 +1768,7 @@ sub postscript {
 	my $nodes = { };			# nodes in graph
 	my $streams = { };			# streams in graph
 	my $labels = { };			# labels in graph and their position
-	my $ps = "% Words and edges\n";
+	my $ps = addps("", "% Words and edges\n");
 	$self->{'psstyles'} = {};	# reset compiled styles
 	$self->{'psstyleno'} = 0;	# number of psstyles
 
@@ -1893,9 +1903,9 @@ sub postscript {
 			my $layout = $self->psstyle($interpreter, 'label',  $stylelist);
 
 			# Produce PostScript string
-			$ps .= psstr($val) . $layout . " ";
+			$ps = addps($ps, psstr($val) . $layout . " ");
 		}
-		$ps .= "word\n";
+		$ps = addps($ps, "word\n");
 
 		# Print in-edges of word, if out-word is in $nodes
 		my $bottom = 0;
@@ -1909,18 +1919,20 @@ sub postscript {
 					&$estyles($self, $e));
 				$llayout = 0 if ($alayout && ! $llayout);
 
-				$ps .= $nodes->{$e->in()} . " " 
+				$ps = addps($ps, $nodes->{$e->in()} . " " 
 					 . $nodes->{$e->out()} . " "
 					 . psstr($e->type())
-					 . $llayout . $alayout . " ";
+					 . $llayout . $alayout . " ");
 
 				# Find out whether the edge is top or bottom
 				if (&$pos($self, $e)) {
 					# Bottom edge (unless forced top)
-					$ps .= $forced_edget->{$e->in()} ? "edget\n" : "edgeb\n";
+					$ps = addps($ps, 
+						$forced_edget->{$e->in()} ? "edget\n" : "edgeb\n");
 				} else {
 					# Top edge (unless forced bottom)
-					$ps .= $forced_edgeb->{$e->in()} ? "edgeb\n" : "edget\n";
+					$ps = addps($ps,
+						$forced_edgeb->{$e->in()} ? "edgeb\n" : "edget\n");
 				} 
 
 				# Increment edge counter
@@ -2685,7 +2697,7 @@ sub subgraph {
 		$subgraph->node($positions->{$edge->in()})->var('styles', 'match');
 		$subgraph->node($positions->{$edge->out()})->var('styles', 'match');
 		$subgraph->node($positions->{$edge->in()})->var('estyles', 
-			'ematch:' . $edge->type());
+			'ematch:\Q' . $edge->type() . '\E');
 	}
 
 	# Set vars
