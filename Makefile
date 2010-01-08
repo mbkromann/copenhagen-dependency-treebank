@@ -11,7 +11,7 @@ webmap:
 	make webmap.pngs
 
 webmap.clear: 
-	find treebank.dk/map -type f | grep -v index.html | xargs rm
+	find treebank.dk/map -type f | grep -v index.html | xargs rm -f
 
 webmap.pngs:
 	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
