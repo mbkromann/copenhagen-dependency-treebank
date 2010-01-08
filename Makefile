@@ -6,10 +6,6 @@ export LANG=C
 
 none: 
 
-webmap.pngs:
-        cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do if [ ! -f $$f.png ] ; then \
-                dtag -u -q -e 'layout -vars /stream:.*/|cat|msd|lexeme|gloss|id' -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
-
 webmap:
 	rm -f tmp/webmap.tag
 	for lang in `echo da en it es` ; do \
