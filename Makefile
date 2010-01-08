@@ -1,6 +1,6 @@
 export LANG=C
 
-none: 
+none:  
 
 webmap:
 	rm -f tmp/webmap.tag
