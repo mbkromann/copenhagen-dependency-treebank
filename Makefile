@@ -18,7 +18,7 @@ webmap.pngs:
 	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
 		if [ ! -f $$f.png ] ; then \
 			dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
-            ps2epsi $$f.ps $$f.eps ; \
+            ps2eps -f -l $$f.ps ; \
             pstoimg -antialias -scale 1.6 $$f.eps -out $$f.png ; \
             rm $$f.ps $$f.eps ; \
         fi ; \
