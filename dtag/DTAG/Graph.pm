@@ -3370,8 +3370,8 @@ sub wikidoc_super_all {
 
 sub wikidoc_superw {
 	my $wclass = shift;
-	$wclass =~ /^([^.]*)(\.(.*))$/;
-	my ($tag, $word) = ($1, $3);
+	$wclass =~ /^([^.]*)(\.(.*))?$/;
+	my ($tag, $word) = ($1 || "", $3 || "");
 
 	# Word present
 	return "" if (length($tag) == 0);
