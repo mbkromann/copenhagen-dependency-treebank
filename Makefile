@@ -27,8 +27,8 @@ webmap.pngs:
 	cd treebank.dk ; lftp -f .upload
 
 webmap.pngs.missing:
-	( for f in `ls treebank.dk/map/ex*.tag | sed -e 's/.tag$$//g'` ; do \
-		if [ ! -f $$f.png ] ; then echo $$f ; fi ; \
+	( for f in `cd treebank.dk/map ; ls ex*.tag | sed -e 's/.tag$$//g'` ; do \
+		if [ ! -f treebank.dk/map/$$f.png ] ; then echo $$f ; fi ; \
 	done ) | tee treebank.dk/map/missing
 
 da-it.alex: 
