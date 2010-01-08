@@ -3179,8 +3179,10 @@ sub wikidoc {
 
 	sub classname {
 		my $cls = shift;
-		my @lst = split('_', $cls);
-		return join("", map {$_ || '_'} @lst);
+		$cls =~ s/:/./g;
+		return($cls);
+		#my @lst = split('_', $cls);
+		#return join("_", map {$_ || '_'} @lst);
 	}
 
 	sub wiki_url {
@@ -3329,9 +3331,9 @@ sub wikidoc_class {
 	$lang =~ s/[^A-Za-z]//g;
 
 	my $class = join("_", 
-		uc($i2) . uc($iw), 
+		($iw ? $i2 . "." . $iw : $i2), 
 		$type,
-		uc($o2) . uc($ow),
+		($ow ? $o2 . "." . $ow : $o2), 
 		$lang);
 	#print $class, "\n";
 	return $class;
