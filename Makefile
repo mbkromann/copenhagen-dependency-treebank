@@ -13,7 +13,6 @@ webmap:
 	done
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
 	make webmap.pngs
-	cd treebank.dk ; lftp -f .upload
 
 webmap.pngs:
 	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
@@ -24,6 +23,11 @@ webmap.pngs:
             rm $$f.ps $$f.eps ; \
         fi ; \
 	done
+	( for f in `ls treebank.dk/map/ex*.tag | sed -e 's/.tag$//g'` ; do \
+		if [ ! -f $f.png ] ; then echo $f ; fi ; \
+	done ) > treebank.dk/map/missing
+	cat treebank.dk/map/missing
+	cd treebank.dk ; lftp -f .upload
 
 da-it.alex: 
 	 tools/giza2alex da it
