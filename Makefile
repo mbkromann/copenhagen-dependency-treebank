@@ -2,10 +2,6 @@ export LANG=C
 
 none: 
 
-export LANG=C
-
-none: 
-
 webmap:
 	rm -f tmp/webmap.tag
 	for lang in `echo da en it es` ; do \
@@ -18,7 +14,7 @@ webmap.pngs:
 	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
 		if [ ! -f $$f.png ] ; then \
 			dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
-            ps2eps -f -l $$f.ps ; \
+            (echo "%!PS-Adobe-2.0" ; cat $$f.ps ) | ps2eps -f -l > $$f.eps ; \
             pstoimg -antialias -scale 1.6 $$f.eps -out $$f.png ; \
             rm $$f.ps $$f.eps ; \
         fi ; \
