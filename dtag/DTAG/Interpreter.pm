@@ -6766,7 +6766,8 @@ sub cmd_style {
 	my $self = shift;
 	my $graph = shift;
 	my $style = shift;
-	my $opt = shift() . " ";
+	my $opt = shift || "";
+	$opt .= " " if ($opt ne "");
 
 	# Clear styles
 	my $sparent = $self;
@@ -7675,8 +7676,14 @@ sub do {
 			if ($cmd =~ /^\s*save\s+-corpus\s*(\S+)\s*$/);
 
 		# Script: script [$file]
-		$success = $self->cmd_script($graph, $1)
-			if ($cmd =~ /^\s*script\s*(\S.*\S)\s*$/);
+		if ($cmd =~ /^\s*script\s+-q\s+(\S.*\S)\s*$/) {
+			my $quiet = $self->quiet();
+			$self->quiet(1);
+			$success = $self->cmd_script($graph, $1);
+			$self->quiet($quiet);
+		} elsif ($cmd =~ /^\s*script\s*(\S.*\S)\s*$/) {
+			$success = $self->cmd_script($graph, $1);
+		}
 
 		# Segment: segment $node [segment|segment|...] 
 		$success = $self->cmd_compound($graph, $1, $2, $3)
