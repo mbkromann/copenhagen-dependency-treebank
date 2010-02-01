@@ -3397,8 +3397,9 @@ sub words {
 	my $i1 = shift;
 	my $i2 = shift;
 	my $sep = shift || "";
-	my $maxlen = shift;
-	my $unicode = shift || 1;
+	my $number = shift;
+	my $unicode = shift;
+	$number = 1 if (! defined($number));
 
 	# Ensure $i1 and $i2 are set
 	$i1 = 0 if (! defined($i1));
@@ -3421,7 +3422,7 @@ sub words {
 					# Print entire text
 					$text .= superscript($i - $self->offset());
 					$lastten = $i - ($i % 10);
-				} else {
+				} elsif ($number) {
 					# Print only last digit
 					my $sup = superscript($i -$self->offset());
 					$text .= substr($sup, length($sup) - 1);
