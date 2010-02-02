@@ -8,6 +8,7 @@ webmap:
 		cat $$lang/*.tag | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
 	done
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
+	cd treebank.dk/maps; cp MapDep___.html index.html
 	make webmap.pngs
 
 webmap.clear: 
