@@ -1,0 +1,256 @@
+<p>
+<s>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">Die</W>
+<W lemma="fehlend" msd="AN" tag="ADJA" in="" out="">fehlenden</W>
+<W lemma="inner" msd="AN" tag="ADJA" in="" out="">inneren</W>
+<W lemma="Auseinandersetzung" msd="NC" tag="NN" in="" out="">Auseinandersetzungen</W>
+<W lemma="sehen" msd="VA" tag="VVFIN" in="" out="">sieht</W>
+<W lemma="er" msd="PP" tag="PPER" in="" out="">er</W>
+<W lemma="als" msd="CS" tag="KOKOM" in="" out="">als</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">das</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Adelsmerkmal</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
+<W lemma="an" msd="RG" tag="PTKVZ" in="" out="">an</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">Wir</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">haben</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
+<W lemma="Tradition" msd="NC" tag="NN" in="" out="">Tradition</W>
+<W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
+<W lemma="Konsens" msd="NC" tag="NN" in="" out="">Konsens</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="weitreichend" msd="AN" tag="ADJA" in="" out="">weitreichende</W>
+<W lemma="Einigung" msd="NC" tag="NN" in="" out="">Einigung</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">,,Ihr</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">seid</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
+<W lemma="Stamm" msd="NC" tag="NN" in="" out="">Stamm</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="außergewöhnlich" msd="AN" tag="ADJA" in="" out="">außergewöhnlicher</W>
+<W lemma="Einheit" msd="NC" tag="NN" in="" out="">Einheit</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="was" msd="PT" tag="PRELS" in="" out="">was</W>
+<W lemma="Volk" msd="NC" tag="NN" in="" out="">Volk</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="Kultur" msd="NC" tag="NN" in="" out="">Kultur</W>
+<W lemma="betreffen" msd="VA" tag="VVFIN" in="" out="">betrifft</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
+<W lemma="dasselbe" msd="PP" tag="PDS" in="" out="">dasselbe</W>
+<W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
+<W lemma="Gleichförmigkeit" msd="NC" tag="NN" in="" out="">Gleichförmigkeit</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="" out="">wie</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Molesworth</W>
+<W lemma="sie" msd="PP" tag="PPER" in="" out="">sie</W>
+<W lemma="beschreiben" msd="VAP" tag="VVPP" in="" out="">beschrieben</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hat</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="ihr" msd="PP" tag="PPER" in="" out="">Ihr</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">habt</W>
+<W lemma="jed" msd="PI" tag="PIDAT" in="" out="">jede</W>
+<W lemma="Menge" msd="NC" tag="NN" in="" out="">Menge</W>
+<W lemma="Phantasie" msd="NC" tag="NN" in="" out="">Phantasie</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="Genie" msd="NC" tag="NN" in="" out="">Genies</W>
+<W lemma="wie" msd="CS" tag="KOKOM" in="" out="">wie</W>
+<W lemma="z." msd="SP+P" tag="APPRART" in="" out="">z.</W>
+<W lemma="B." msd="NC" tag="NN" in="" out="">B.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="">Halfdan</W>
+<W lemma="Rasmussen" msd="NP" tag="NE" in="" out="">Rasmussen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
+<W lemma="ihr" msd="PP" tag="PPER" in="" out="">ihr</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">seid</W>
+<W lemma="alle" msd="PP" tag="PIS" in="" out="">alle</W>
+<W lemma="dänisch" msd="AN" tag="ADJD" in="" out="">dänisch</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="einig" msd="AN" tag="ADJD" in="" out="">einig</W>
+<W lemma="darin" msd="RG" tag="PAV" in="" out="">darin</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
+<W lemma="ihr" msd="PP" tag="PPER" in="" out="">ihr</W>
+<W lemma="dänisch" msd="AN" tag="ADJD" in="" out="">dänisch</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">seid</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
+<W lemma="mein" msd="PO" tag="PPOSAT" in="" out="">meinem</W>
+<W lemma="Land" msd="NC" tag="NN" in="" out="">Land</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="Schottland" msd="NP" tag="NE" in="" out="">Schottland</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="hingegen" msd="RG" tag="ADV" in="" out="">hingegen</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
+<W lemma="wir" msd="PP" tag="PPER" in="" out="">wir</W>
+<W lemma="viel" msd="PI" tag="PIDAT" in="" out="">viele</W>
+<W lemma="verschieden" msd="AN" tag="ADJA" in="" out="">verschiedene</W>
+<W lemma="Schotte&7c;Schotten" msd="NC" tag="NN" in="" out="">Schotten</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="für" msd="SP" tag="APPR" in="" out="">Für</W>
+<W lemma="James" msd="NP" tag="NE" in="" out="">James</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Mellon</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
+<W lemma="also" msd="RG" tag="ADV" in="" out="">also</W>
+<W lemma="hell" msd="AN" tag="ADJA" in="" out="">helle</W>
+<W lemma="Haar" msd="NC" tag="NN" in="" out="">Haare</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="hübsch" msd="AN" tag="ADJA" in="" out="">hübsche</W>
+<W lemma="Mädchen" msd="NC" tag="NN" in="" out="">Mädchen</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">urdänisch</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Dänentum</W>
+<W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="erst" msd="AN" tag="ADJA" in="" out="">erster</W>
+<W lemma="Linie" msd="NC" tag="NN" in="" out="">Linie</W>
+<W lemma="aus" msd="SP" tag="APPR" in="" out="">aus</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">dem</W>
+<W lemma="Wille" msd="NC" tag="NN" in="" out="">Willen</W>
+<W lemma="zur" msd="SP+P" tag="APPRART" in="" out="">zur</W>
+<W lemma="Zusammenarbeit" msd="NC" tag="NN" in="" out="">Zusammenarbeit</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="unser" msd="PO" tag="PPOSAT" in="" out="">unserer</W>
+<W lemma="einmalig" msd="AN" tag="ADJA" in="" out="">einmaligen</W>
+<W lemma="Sprache" msd="NC" tag="NN" in="" out="">Sprache</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="d" msd="PT" tag="PRELS" in="" out="">die</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Regel" msd="NC" tag="NN" in="" out="">Regel</W>
+<W lemma="für" msd="SP" tag="APPR" in="" out="">für</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
+<W lemma="übrig" msd="AN" tag="ADJA" in="" out="">übrigen</W>
+<W lemma="5" msd="AC" tag="CARD" in="" out="">5</W>
+<W lemma="Milliarde" msd="NC" tag="NN" in="" out="">Milliarden</W>
+<W lemma="Mensch" msd="NC" tag="NN" in="" out="">Menschen</W>
+<W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Welt" msd="NC" tag="NN" in="" out="">Welt</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">ein</W>
+<W lemma="Mysterium" msd="NC" tag="NN" in="" out="">Mysterium</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="" out="">,,Es</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="typisch" msd="AN" tag="ADJD" in="" out="">typisch</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="" out="">dass</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
+<W lemma="Genossenschaftsbewegung" msd="NC" tag="NN" in="" out="">Genossenschaftsbewegung</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="Dänemark" msd="NP" tag="NE" in="" out="">Dänemark</W>
+<W lemma="Erfolg" msd="NC" tag="NN" in="" out="">Erfolg</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="">hatte</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="aber" msd="CC" tag="KON" in="" out="">aber</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="Schottland" msd="NP" tag="NE" in="" out="">Schottland</W>
+<W lemma="mißglücken" msd="VA" tag="VVFIN" in="" out="">missglückte</W>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
+<W lemma="nicht" msd="RG" tag="PTKNEG" in="" out="">nicht</W>
+<W lemma="nur" msd="RG" tag="ADV" in="" out="">nur</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Wohlstandsstaat" msd="NC" tag="NN" in="" out="">Wohlstandsstaat</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="von" msd="SP" tag="APPR" in="" out="">von</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Internationalisierung" msd="NC" tag="NN" in="" out="">Internationalisierung</W>
+<W lemma="bedrohen" msd="VAP" tag="VVPP" in="" out="">bedroht</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
+<W lemma="Kultur" msd="NC" tag="NN" in="" out="">Kultur</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">ist</W>
+<W lemma="es" msd="PP" tag="PPER" in="" out="">es</W>
+<W lemma="ebenso" msd="RG" tag="ADV" in="" out="">ebenso</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">Das</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Dänentum</W>
+<W lemma="geraten" msd="VA" tag="VVFIN" in="" out="">gerät</W>
+<W lemma="unter" msd="SP" tag="APPR" in="" out="">unter</W>
+<W lemma="Druck" msd="NC" tag="NN" in="" out="">Druck</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>
+<p>
+<s>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="d" msd="PP" tag="PDS" in="" out="">Das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">sind</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
+<W lemma="Däne" msd="NC" tag="NN" in="" out="">Dänen</W>
+<W lemma="nun" msd="RG" tag="ADV" in="" out="">nun</W>
+<W lemma="immer" msd="RG" tag="ADV" in="" out="">immer</W>
+<W lemma="sein" msd="VAP" tag="VAPP" in="" out="">gewesen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="auch" msd="RG" tag="ADV" in="" out="">auch</W>
+<W lemma="vor" msd="SP" tag="APPR" in="" out="">vor</W>
+<W lemma="300" msd="AC" tag="CARD" in="" out="">300</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="" out="">Jahren</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="ich" msd="PP" tag="PPER" in="" out="">ich</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="">bin</W>
+<W lemma="also" msd="RG" tag="ADV" in="" out="">also</W>
+<W lemma="optimistisch" msd="AN" tag="ADJD" in="" out="">optimistisch</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="was" msd="PT" tag="PWS" in="" out="">was</W>
+<W lemma="ihr" msd="PP" tag="PPER" in="" out="">euch</W>
+<W lemma="betreffen" msd="VA" tag="VVFIN" in="" out="">betrifft</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+<W lemma="aber" msd="CC" tag="KON" in="" out="">Aber</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">die</W>
+<W lemma="Gefahr" msd="NC" tag="NN" in="" out="">Gefahr</W>
+<W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="">besteht</W>
+<W lemma="in" msd="SP" tag="APPR" in="" out="">in</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="Nivellierung" msd="NC" tag="NN" in="" out="">Nivellierung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="verschieden" msd="AN" tag="ADJA" in="" out="">verschiedenen</W>
+<W lemma="europäisch" msd="AN" tag="ADJA" in="" out="">europäischen</W>
+<W lemma="Kultur" msd="NC" tag="NN" in="" out="">Kulturen</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="" out="">eine</W>
+<W lemma="Art" msd="NC" tag="NN" in="" out="">Art</W>
+<W lemma="Amerikanisierung" msd="NC" tag="NN" in="" out="">Amerikanisierung</W>
+<W lemma="auf" msd="SP" tag="APPR" in="" out="">auf</W>
+<W lemma="Grund" msd="NC" tag="NN" in="" out="">Grund</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="neu" msd="AN" tag="ADJA" in="" out="">neuen</W>
+<W lemma="Marktlage" msd="NC" tag="NN" in="" out="">Marktlage</W>
+<W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="">der</W>
+<W lemma="allgemein" msd="AN" tag="ADJA" in="" out="">allgemeinen</W>
+<W lemma="Niederlassungsfreiheit" msd="NC" tag="NN" in="" out="">Niederlassungsfreiheit</W>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="" out="">"</W>
+<W lemma="," msd="XP" tag="$," in="" out="">,</W>
+<W lemma="fahren" msd="VA" tag="VVFIN" in="" out="">fährt</W>
+<W lemma="James" msd="NP" tag="NE" in="" out="">James</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="" out="">Mellon</W>
+<W lemma="fort" msd="RG" tag="PTKVZ" in="" out="">fort</W>
+<W lemma="." msd="XP" tag="$." in="" out="">.</W>
+</s>
+</p>

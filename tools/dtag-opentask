@@ -148,11 +148,18 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 
 			# Aparse file
 			if [ -f "$lang/$id-$lang-auto.tag" ] ; then
+				aparse="auto"
+			elif [ -f "$lang/$id-$lang-tagged.tag" ] ; then
+				aparse="tagged"
+			fi
+			aparse=""
+			
+			if [ ! -z "$aparse" ] ; then
 				echo "cd ~/cdt/$atagdir" >> ~/.script
-				echo "load ../$lang/$id-$lang-auto.tag" >> ~/.script
+				echo "load ../$lang/$id-$lang-$aparse.tag" >> ~/.script
 				echo "aparse $atagname" >> ~/.script
 				echo "cd ~/cdt/$dir" >> ~/.script
-				#echo "save $fname" >> ~/.script
+				echo "save $fname" >> ~/.script
 				echo "close -all" >> ~/.script
 			fi
 		fi
