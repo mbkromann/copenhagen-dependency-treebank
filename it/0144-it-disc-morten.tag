@@ -43,7 +43,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:conj" out="-1:coord|1:nobj">i</W>
 <W lemma="malato" msd="NC" tag="NOM" in="-1:nobj" out="">malati</W>
 <W lemma="rimanere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-5:subj|1:loc|3:pnct">rimangono</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj|8:DESCR&3a;qual&7c;eval">nelle</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj|8:DESCR">nelle</W>
 <W lemma="tenda" msd="NC" tag="NOM" in="-1:nobj" out="">tende</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 </s>
@@ -51,7 +51,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">Le</W>
 <W lemma="tenda" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">tende</W>
 <W lemma="verde" msd="AN" tag="ADJ" in="-1:attrr" out="">verdi</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-8:DESCR&3a;qual&7c;eval" out="-3:subj|1:preds|14:pnct">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-8:DESCR" out="-3:subj|1:preds|14:pnct">sono</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj|4:ref|6:relr">un</W>
 <W lemma="vecchio" msd="AN" tag="ADJ" in="1:attrd" out="">vecchio</W>

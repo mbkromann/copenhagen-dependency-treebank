@@ -82,7 +82,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
 <W lemma="ferro" msd="NC" tag="NOM" in="-1:nobj" out="">ferro</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-3:pnct" out="">"</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:CONJ/e/ATTR" out="-21:time|-6:subj|1:preds|5:pnct|7:coref-res|10:CONS&3a;prg&7c;dir/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:CONJ/e/ATTR" out="-21:time|-6:subj|1:preds|5:pnct|7:coref-res|10:CONS/ATTR">è</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
@@ -92,7 +92,7 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-7:coref-res|1:attrd" out="">questo</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">modo</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:subj" out="">si</W>
-<W lemma="creare" msd="VADR" tag="VER&3a;pres" in="-10:CONS&3a;prg&7c;dir/ATTR" out="-4:man|-1:subj|1:time|2:dobj|14:pnct|15:pnct">creano</W>
+<W lemma="creare" msd="VADR" tag="VER&3a;pres" in="-10:CONS/ATTR" out="-4:man|-1:subj|1:time|2:dobj|14:pnct|15:pnct">creano</W>
 <W lemma="costantemente" msd="RG" tag="ADV" in="-1:time" out="">costantemente</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:dobj" out="1:nobj">delle</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="-1:nobj" out="1:goal">condizioni</W>

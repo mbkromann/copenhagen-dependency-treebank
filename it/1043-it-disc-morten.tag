@@ -87,7 +87,7 @@
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">giorno</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:attrr" out="">stesso</W>
 <W lemma="con" msd="SP" tag="PRE" in="-4:man" out="1:nobj">con</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|14:DESCR&3a;qual&7c;eval|90:+ELAB&3a;exp">una</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|90:+ELAB&3a;exp|14:DESCR">una</W>
 <W lemma="proposta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|4:attrr">proposta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:about">legge</W>
@@ -101,7 +101,7 @@
 <W lemma="ideologico" msd="AN" tag="ADJ" in="-1:attrr" out="2:conj">ideologico</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="morale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">morale</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual&7c;eval" out="-7:subj|1:preds|3:conj|9:+ELAB&3a;exp/ATTR">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR" out="-7:subj|1:preds|3:conj|9:+ELAB&3a;exp/ATTR">sono</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="-1:preds" out="">evidenti</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-1:coord|1:vobj|5:pnct">possono</W>
