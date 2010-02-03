@@ -1,0 +1,14 @@
+KEY DIMENSION   DESCRIPTION
+p   postag      Part-of-speech tags
+s   syntax      Syntactic annotation
+m   morphology  Morphological annotation
+d   discourse   Discourse annotation
+a   alignment   Alignment
+
+KEY STATUS      DESCRIPTION
+    none        no annotation
+    auto        automatic annotation
+1   first       first-pass independent human annotation (before discussion)
+d   discussed   discussed with other annotators, possibly corrected
+f   final       final revision complete
+    outdated-X  outdated status X after annotation scheme has changed

@@ -1,0 +1,63 @@
+#!/usr/bin/perl
+
+# Define dimensions and shortcuts
+my $dimensions = {
+	"a" => "alignment",
+	"d" => "discourse",
+	"m" => "morphology",
+	"p" => "postag",
+	"s" => "syntax"};
+map {$dimensions->{$_} = $_} values(%$dimensions);
+
+# Define status values and shortcuts
+my $statuses = {
+	"1" => "first",
+	"d" => "discussed",
+	"f" => "final" };
+map {$statuses->{$_} = $_} 
+	("none", "auto", "outdated-final", "first", "discussed", "final"); 
+
+# Find file
+my $fname = shift(@ARGV);
+my $printusage = ! @ARGV;
+if ( ! -f $fname ) {
+	print "ERROR: unknown file $fname\n";
+	$printusage = 1;
+} else {
+	# Process arguments
+	my $newvalues = {};
+	while (@ARGV) {
+		my $arg = shift(@ARGV);
+		if ($arg =~ /^([^=]+)=([^=]+)$/) {
+			my $dimension = $dimensions->{$1};
+			my $status = $statuses->{$2};
+
+			# Check that dimension and status are legal
+			if (! defined($dimension)) {
+				print "ERROR: Illegal dimension $1\n";
+				$printusage = 1;
+			} elsif (! defined($status)) {
+				print "ERROR: Illegal status $2\n";
+				$printusage = 1;
+			} else {
+				print "  $dimension=$status\n";
+				`svn propset $dimension $status $fname`;
+			}
+		} else {
+			print "ERROR: Illegal dimension-status specification: $arg\n";
+			$printusage = 1;
+		}
+	}
+}
+
+# Print usage if necessary
+if ($printusage) {
+	print "\nUsage: setstatus dimension1=status1 dimension2=status2 ...\n";
+	print "Dimensions: a=alignment d=discourse m=morphology p=postag s=syntax\n";
+	print "Status values: 1=first d=discussed f=final none auto outdate-final\n"; 
+	exit 1;
+}
+
+# Print new status
+#`~/cdt/tools/dtag-status $fname`;
+

@@ -1,0 +1,77 @@
+#!/usr/bin/perl
+
+my $statusvalues = ["none", "auto", "outdated-final", "first", "discussed", "final"]; 
+my $dim;
+my $status = {};
+
+# Compile status for all files
+while (my $line = <>) {
+	chomp($line);
+	if ($line =~ /^Properties on '([^-]*-[^-.]*)[-.].*tag'/) {
+		$file = $1;
+	}
+	if ($line =~ /^Properties on '([^-]*-[^-.]*-[^-.]*)[-.].*atag'/) {
+		$file = $1;
+	}
+	if ($line =~ /^  ([^ ].*)$/) {
+		$dim = $1;
+	}
+	if ($line =~ /^    ([^ ].*)$/) {
+		my $s = $1;
+		$status->{$file} = {}
+			if (! exists $status->{$file});
+		my $newstatus = status2int($s);
+		my $oldstatus = $status->{$file}{$dim} || 0;
+		$status->{$file}{$dim} = $newstatus
+			if ($newstatus >= $oldstatus);
+		#print "$file $dim $s $newstatus\n";
+	}
+}
+
+# Count number of files with different status for each dimension and
+# language
+my $counts = {};
+foreach my $file (keys(%$status)) {
+	#print "$file\n";
+	$file =~ /^[0-9]*-(.*)$/;
+	my $dir = $1;
+	$counts->{$dir} = {}
+		if (! exists $counts->{$dir});
+	foreach my $dim (keys(%{$status->{$file}})) {
+		my $s = $status->{$file}{$dim};
+		$counts->{$dir}{$dim} = []
+			if (! exists $counts->{$dir}{$dim});
+		$counts->{$dir}{$dim}[$s] += 1;
+	}
+}
+
+# Print table
+my $hfield = "%20s";
+my $vfield = "%12s";
+foreach my $dir (sort(keys(%$counts))) {
+	print "\n\n=== $dir ===\n\n";
+
+	# Print dimension headers
+	my $dimensions = [sort(keys(%{$counts->{$dir}}))];
+	printf($hfield, "");
+	print join("", map {sprintf($vfield, $_)} @$dimensions), "\n";
+	my $i = 0;
+	for (my $row = 0; $row <= $#$statusvalues; ++$row) {
+		printf($hfield, $statusvalues->[$row]);
+		foreach my $dim (@$dimensions) {
+			printf($vfield, $counts->{$dir}{$dim}[$row]);
+		}
+		print "\n";
+	}
+}
+
+# Subroutines
+sub status2int {
+	my $status = shift;
+	for (my $i = 0; $i < @$statusvalues; ++$i) {
+		return $i
+			if ($status eq $statusvalues->[$i]);
+	}
+	return -1;
+}
+

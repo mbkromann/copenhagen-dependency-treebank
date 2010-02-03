@@ -1,0 +1,4 @@
+#!/bin/bash
+
+lpr $1
+

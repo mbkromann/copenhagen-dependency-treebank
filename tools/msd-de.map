@@ -1,0 +1,53 @@
+$,	XP	Comma
+$.	XP	Period
+$(	XP	Ohter punctuation
+ADJA	AN	Attributive adjective
+ADJD	AN	Predicative or adverbial adjective
+ADV	RG	Adverb
+APPO	SP	Postposition
+APPR	SP	Preposition / left circumposition
+APPRART	SP+P	Preposition with fused article
+APZR	SP	Right circumposition
+ART	P[ID]	Definite or indefinite article
+CARD	AC	Cardinal number
+FM	XF	Foreign language material
+ITJ	I=	Interjection
+KOKOM	CS	Comparative conjunction
+KON	CC	Coordinating conjunction
+KOUI	CS	Subjunction with zu+inf
+KOUS	CS	Subjunction with clause
+NE	NP	Proper noun
+NN	NC	Common noun
+PAV	RG	Pronominal adverb
+PDAT	PD	Attributive pronoun
+PDS	PP	Substituting pronoun
+PIAT	PI	Attributing indef. pronoun
+PIDAT	PI	PIAT allowing determiner
+PIS	PP	Substituting indef. pronoun
+PPER	PP	Personal pronoun
+PPOSAT	PO	Attributive possessive pronoun
+PPOSS	PO	Substitituting possessive pronoun
+PRELAT	PT	Attributive relative pronoun
+PRELS	PT	Substituting relative pronoun
+PRF	PR	Reflexive personal pronoun
+PTKA	RG	Particle with adjective or adverb
+PTKANT	RG	Reply particle
+PTKNEG	RG	Negation particle
+PTKVZ	RG	Separated verb particle
+PTKZU	U=	"zu" preceding infinitive
+PWAT	PT	Attributing interrogative pronoun
+PWAV	PT	Adverbial interrogative/relative pronoun
+PWS	PT	Substituting interrogative pronoun
+TRUNC	XA	Truncated word
+VAFIN	VA	Auxiliary, finite
+VAINF	VAF	Auxiliary, infinitive
+VAPP	VAP	Auxiliary, past participle
+VMFIN	VA	Modal, finite
+VMINF	VAF	Modal, infinitive
+VMPP	VAP	Modal, past participle
+VVFIN	VA	Full verb, finite
+VVIMP	VAM	Full verb, imperative
+VVINF	VAF	Full verb, infinitive
+VVIZU	VAF	Full verb, zu-infinitive
+VVPP	VAP	Full verb, past participle
+XY	XS	Non-word

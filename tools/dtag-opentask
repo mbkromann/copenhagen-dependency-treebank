@@ -170,6 +170,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 		echo "cd ~/cdt/$dir"
 		echo "load $fname" >> ~/.script
 		echo "del -off" >> ~/.script
+		echo "status" >> ~/.script
 	else
 		echo "ERROR: cannot find file $file"
 	fi

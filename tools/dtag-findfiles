@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+
+# Define dimensions and shortcuts
+my $dimensions = {
+	"a" => "alignment",
+	"d" => "discourse",
+	"m" => "morphology",
+	"p" => "postag",
+	"s" => "syntax"};
+map {$dimensions->{$_} = $_} values(%$dimensions);
+
+# Define status values and shortcuts
+my $statuses = {
+	"1" => "first",
+	"d" => "discussed",
+	"f" => "final" };
+map {$statuses->{$_} = $_} 
+	("none", "auto", "outdated-final", "first", "discussed", "final"); 
+
+# Find dimension and status
+my $fspec = shift(@ARGV);
+$fspec =~ /([^=]*)=([^=]*)/;
+my $dimension = $dimensions->{$1};
+my $status = $statuses->{$2};
+my $args = join(" ", @ARGV);
+if (! $args) {
+	$args = "*.tag *.atag";
+}
+print "Files with status \"$status\" for dimension \"$dimension\":\n";
+if (defined($dimension) && defined($status)) {
+	my $files=`svn propget $dimension $args 2>/dev/null | grep $status | awk '{ print \$1 }' | sed -e 's/[^0-9]*//g' | tr '\n' ' '`;
+	print $files . "\n";
+} else {
+    print "\nUsage: findfiles dimension=status\n";
+    print "Dimensions: a=alignment d=discourse m=morphology p=postag s=syntax\n";
+    print "Status values: 1=first d=discussed f=final none auto outdate-final\n";
+    exit(1);
+}
+
+
+
+

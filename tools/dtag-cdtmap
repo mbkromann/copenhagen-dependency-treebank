@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Download maps
+firefox http://www.treebank.dk/map/MapDep.html &
+

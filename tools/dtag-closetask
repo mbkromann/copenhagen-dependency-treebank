@@ -8,6 +8,11 @@ if [ -z "$name" ] ; then
     exit 0
 fi
 
+if ! ~/cdt/tools/dtag-setstatus $* ; then
+	echo -e "\nERROR: You forgot to update the annotation status!";
+	exit 1;
+fi
+
 # Find first task
 todo="todo/$name"
 cd "$HOME"/cdt

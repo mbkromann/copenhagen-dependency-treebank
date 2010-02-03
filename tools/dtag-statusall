@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Directories
+if [ $# == 0 ] ; then
+	directories="da de en es it da-en da-de da-es da-it"
+else
+	directories=""
+	while [ $# -gt 0 ] ; do
+		directories="$directories $1"
+		shift
+	done
+fi
+
+cd ~/cdt
+for d in `echo $directories` ; do
+	(cd $d ; svn proplist -v *.{tag,atag} 2>/dev/null) | /usr/bin/perl ~/cdt/tools/props2table 
+done
+
+

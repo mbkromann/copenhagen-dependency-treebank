@@ -3,7 +3,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="" out="">In</W>
 <W lemma="Wahrheit" msd="NC" tag="NN" in="" out="">Wahrheit</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="">gab</W>
-<W lemma="es" msd="PP" tag="PPER" in="" out="1:dobj|6:time|12:pnct|13:coord|46:pnct|5:pnct">es</W>
+<W lemma="es" msd="PP" tag="PPER" in="" out="1:dobj|5:pnct|6:time|12:pnct|13:coord|46:pnct">es</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:dobj" out="1:attr|2:attr|3:nobj">eine</W>
 <W lemma="historisch" msd="AN" tag="ADJA" in="-1:attr" out="">historische</W>
 <W lemma="gemeinsam" msd="AN" tag="ADJA" in="-2:attr" out="">gemeinsame</W>
@@ -71,7 +71,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:pnct|1:pred" out="">,,Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-16:xpl" out="-1:pnct|-1:pred|1:subj|2:eval|5:neg|4:time|6:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-16:xpl" out="-1:pnct|-1:pred|1:subj|2:eval|4:time|5:neg|6:pnct">ist</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj" out="">sie</W>
 <W lemma="eigentlich" msd="RG" tag="ADV" in="-2:eval" out="">eigentlich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="2:neg" out="">auch</W>
@@ -91,7 +91,7 @@
 <W lemma="Periode" msd="NC" tag="NN" in="-3:nobj" out="">Periode</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="wo" msd="PT" tag="PWAV" in="-5:ref|8:time" out="">wo</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="7:subj|6:[subj]" out="2:nobj|1:possd">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="6:[subj]|7:subj" out="1:possd|2:nobj">die</W>
 <W lemma="Mitglied" msd="NC" tag="NN" in="-1:possd" out="">Mitglieder</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="-2:nobj" out="1:nobj">beider</W>
 <W lemma="Partei" msd="NC" tag="NN" in="-1:nobj" out="">Parteien</W>
@@ -190,7 +190,7 @@
 <W lemma="Montag" msd="NC" tag="NN" in="" out="">Montag</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="2:loc" out="1:nobj">zum</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">EF-Fischereiministertreffen</W>
-<W lemma="in" msd="SP" tag="APPR" in="-6:pred" out="1:nobj|-2:loc">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-6:pred" out="-2:loc|1:nobj">in</W>
 <W lemma="Brüssel" msd="NP" tag="NE" in="-1:nobj" out="">Brüssel</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>

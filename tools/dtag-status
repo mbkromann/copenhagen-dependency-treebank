@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file=$1
+if [ ! -f $file ] ; then
+	echo "ERROR: unknown file $file";
+	exit 1;
+fi
+
+svn proplist -v $file | tr '\n' '%' | sed -e 's/%  \([^ ]\)/\n  \1/g' -e 's/%    /: /g' | sed -e 's/%/\n/g' -e "s/Properties on '//g" -e "s/'//g"
+
