@@ -152,7 +152,6 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 			elif [ -f "$lang/$id-$lang-tagged.tag" ] ; then
 				aparse="tagged"
 			fi
-			aparse=""
 			
 			if [ ! -z "$aparse" ] ; then
 				echo "cd ~/cdt/$atagdir" >> ~/.script
