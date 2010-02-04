@@ -3,12 +3,12 @@
 2. Write down your Google username and Google code password by logging
 in via this link (eg, from Windows):
 
-	http://code.google.com/hosting/settings
+    http://code.google.com/hosting/settings
 
-3. Login as cdt
+3. Login as cdt (or your normal user name) in Ubuntu
 
 4. Open a terminal from the menu "Applications :: Accessories ::
-Terminal" (in the top-left corner of the screen). 
+Terminal" (in the top-left corner of the screen).
 
 5. Change to root by typing "sudo su" in the terminal and typing your
 password. If that doesn't work, type "su -" and enter the root
@@ -16,16 +16,22 @@ password. The prompt should now end with "#" instead of "$".
 
 6. Download the install script
 
-	wget http://www.buch-kromann.dk/cdt/install-root.sh
+    wget http://www.buch-kromann.dk/cdt/install-root.sh
 
 7. Execute the install script
 
-	sh install-root.sh
+    sh install-root.sh
+
+The script may take some time.
 
 8. When the root install script has finished, logout as root by typing
-"exit" in the terminal. 
+"exit" in the terminal.
 
 9. Execute the second install script by typing "sh install.sh" in the
 terminal. Enter your Google code username and password when prompted.
+The script may take some time.
+
+10. You should now be able to open dtag by clicking on the dtag icon
+on your desktop.
 
 
