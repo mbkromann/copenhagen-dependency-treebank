@@ -44,6 +44,11 @@ todo.da:
 		| xargs -I FILE echo -e FILEda-disc.tag \
 		| ./tools/assign-tasks iorn+morten+lotte morten lotte morten lotte morten lotte 
 
+todo.de: 
+	ls de/*-auto.tag de/*-tagged.tag | sed -e 's/de-auto.tag//g' -e 's/de-tagged.tag//g' \
+		| xargs -I FILE echo -e da-FILEda-de-auto.atag FILEde-tagged.tag \
+		| ./tools/assign-tasks per+morten morten morten morten morten morten morten morten morten 
+
 todo.it: 
 	ls it/*-auto.tag it/*-tagged.tag | sed -e 's/it-auto.tag//g' -e 's/it-tagged.tag//g' \
 		| xargs -I FILE echo -e da-FILEda-it-auto.atag FILEit-auto.tag \
