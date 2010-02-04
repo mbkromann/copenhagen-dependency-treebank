@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # Settings
-user=cdt
+user=$USER
 home=/home/$user
 svnpasswd=$home/.svnpasswd
 svnuser=$home/.svnuser
+cdtuser=$home/.cdtname
 cdtdir=$home/cdt
 installdir=$cdtdir/install
 
@@ -12,12 +13,18 @@ installdir=$cdtdir/install
 if [ ! -f $svnuser ] ; then
 	echo "Enter your user name and password. Please be very careful when typing!"
 	echo -n "Google code username (email): "
-	read user
-	echo $user > $svnuser
+	read guser
+	echo $guser > $svnuser
+
 	echo -n "Google code password: "
-	read passwd
-	echo $passwd > $svnpasswd
-	chown $user $svnuser $svnpasswd
+	read gpasswd
+	echo $gpasswd > $svnpasswd
+
+	echo -n "CDT user name (eg, morten): "
+	read name
+	echo $name > $cdtuser
+
+	#chown $user $svnuser $svnpasswd
 fi
 
 # Get user and password
@@ -43,10 +50,4 @@ fi
 if ps aux | grep xfce | grep -v grep ; then
 	echo "XFCE desktop (eg, Xubuntu): copying XFCE desktop icons"
 fi
-
-# Extract dtag archive
-echo
-echo "Please log in as root and execute the following command:"
-echo "    sh $installdir/install-root.sh"
-
 

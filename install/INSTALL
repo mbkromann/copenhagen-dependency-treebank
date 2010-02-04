@@ -1,28 +1,31 @@
 1. Install Ubuntu with cdt as user
 
-2. Login as cdt and download install script
+2. Write down your Google username and Google code password by logging
+in via this link (eg, from Windows):
 
-	wget http://www.buch-kromann.dk/cdt/install.sh
+	http://code.google.com/hosting/settings
 
-3. Execute install script
+3. Login as cdt
 
-	sh install.sh
+4. Open a terminal from the menu "Applications :: Accessories ::
+Terminal" (in the top-left corner of the screen). 
 
-4. Follow instructions in install script
+5. Change to root by typing "sudo su" in the terminal and typing your
+password. If that doesn't work, type "su -" and enter the root
+password. The prompt should now end with "#" instead of "$".
 
-5. Make boot floppy if necessary
+6. Download the install script
+
+	wget http://www.buch-kromann.dk/cdt/install-root.sh
+
+7. Execute the install script
+
+	sh install-root.sh
+
+8. When the root install script has finished, logout as root by typing
+"exit" in the terminal. 
+
+9. Execute the second install script by typing "sh install.sh" in the
+terminal. Enter your Google code username and password when prompted.
 
 
-BACKING UP DRIVE
-
-
-6. Copy file system to harddisk with rsync
-
-
-RESTORING COPY ON NEW DRIVE
-
-7. Create ext3 and swap partitions on target drive
-
-9. Copy file system back to harddisk with rsync
-
-10. Set volume ids for / and swap
