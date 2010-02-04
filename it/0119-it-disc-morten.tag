@@ -257,7 +257,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="dovere" msd="VADA" tag="VER&3a;impf" in="1:[subj]|-19:CONJ/(e)" out="1:vobj|9:pnct|10:time|14:pnct">Doveva</W>
+<W lemma="dovere" msd="VADA" tag="VER&3a;impf" in="-19:CONJ/(e)|1:[subj]" out="1:vobj|9:pnct|10:time|14:pnct">Doveva</W>
 <W lemma="andare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:lobj">andare</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:lobj" out="1:nobj">ad</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>
