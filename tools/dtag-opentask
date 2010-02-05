@@ -109,7 +109,7 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 
 	# Aparse the file if it contains no dependency edges
 	if [ -f "$HOME/cdt/$dir/$fname" ] ; then
-	        cd "$HOME"/cdt
+	        cd "$HOME"/cdt/$dir
 		if egrep 'in="[^"]' $fname > /dev/null ; then
 			echo "File contains dependency edges"
 		else 
