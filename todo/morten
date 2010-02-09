@@ -8,13 +8,11 @@
 [*] de/1035-de-morten.tag
 [*] de/1347-de-morten.tag
 [*] de/0781-de-morten.tag
-
 [*] it/0204-it-disc-morten.tag
-
-[ ] da-de/0005-da-de-morten.atag
-[ ] da-de/0008-da-de-morten.atag
-[ ] da-de/0029-da-de-morten.atag
-[ ] da-de/0042-da-de-morten.atag
+[*] da-de/0005-da-de-morten.atag
+[*] da-de/0008-da-de-morten.atag
+[*] da-de/0029-da-de-morten.atag
+[*] da-de/0042-da-de-morten.atag
 [ ] da-de/0043-da-de-morten.atag
 [ ] da-de/0061-da-de-morten.atag
 [ ] da-de/0065-da-de-morten.atag
@@ -2926,11 +2924,11 @@
 
 [ ] da-de/0005-da-de-morten.atag
 [ ] de/0005-de-morten.tag
-[ ] da-de/0008-da-de-morten.atag
+[*] da-de/0008-da-de-morten.atag
 [ ] de/0008-de-morten.tag
-[ ] da-de/0029-da-de-morten.atag
+[*] da-de/0029-da-de-morten.atag
 [ ] de/0029-de-morten.tag
-[ ] da-de/0042-da-de-morten.atag
+[*] da-de/0042-da-de-morten.atag
 [ ] de/0042-de-morten.tag
 [ ] da-de/0043-da-de-morten.atag
 [ ] de/0043-de-morten.tag
