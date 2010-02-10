@@ -1,4 +1,96 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0043-da.tag" sign="_input"/>
 <alignFile key="b" href="../de/0043-de-tagged.tag" sign="_input"/>
-<DTAGalign>
+<align out="a44 a45" type="" in="b3" creator="0" insign="ZWEIMAL" outsign="TO GANGE"/>
+<align out="a43" type="" in="b2 b4 b5" creator="0" insign="TREFFEN AUF EINANDER" outsign="MØDES"/>
+<align out="a52" type="" in="b10" creator="0" insign="Wie" outsign="som"/>
+<align out="a53" type="" in="b11" creator="0" insign="gesagt" outsign="nævnt"/>
+<align out="a51" type="" in="b12" creator="0" insign="beginnt" outsign="indledes"/>
+<align out="a50" type="s" in="b13 b14" creator="0" insign="die Saison" outsign="Sæsonen"/>
+<align out="a54" type="" in="b16 b17" creator="0" insign="16 ." outsign="16."/>
+<align out="a55" type="" in="b18" creator="0" insign="März" outsign="marts"/>
+<align out="b15" type="" in="b15" creator="0" insign="am" outsign="am"/>
+<align out="a57" type="s" in="b20 b21" creator="0" insign="dem Spiel" outsign="opgøret"/>
+<align out="a58" type="" in="a58" creator="0" insign="mellem" outsign="mellem"/>
+<align out="a62" type="" in="b25" creator="0" insign="," outsign=","/>
+<align out="a47" type="" in="b7" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a49" type="" in="b9" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a46" type="" in="b6" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a48" type="" in="b8" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a59" type="" in="b22" creator="-1" insign="AGF" outsign="AGF"/>
+<align out="a61" type="" in="b24" creator="-1" insign="Brøndby" outsign="Brøndby"/>
+<align out="a56" type="" in="b19" creator="-1" insign="mit" outsign="med"/>
+<align out="a60" type="" in="b23" creator="-1" insign="gegen" outsign="og"/>
+<align out="a64" type="s" in="b26 b27" creator="0" insign="am Tag" outsign="dagen"/>
+<align out="a65" type="" in="b28" creator="0" insign="darauf" outsign="efter"/>
+<align out="a66" type="" in="b29" creator="0" insign="folgen" outsign="følger"/>
+<align out="a67" type="s" in="b30 b31" creator="0" insign="die Spiele" outsign="kampene"/>
+<align out="a63" type="" in="a63" creator="0" insign="og" outsign="og"/>
+<align out="a70" type="" in="b34" creator="0" insign="," outsign=","/>
+<align out="a71" type="" in="b35 b36" creator="0" insign="B 1903-Silkeborg" outsign="B_1903-Silkeborg"/>
+<align out="a72" type="" in="b37" creator="0" insign="," outsign=","/>
+<align out="a68" type="" in="b32" creator="0" insign=":" outsign=":"/>
+<align out="a83" type="" in="b48" creator="0" insign="Mannschaften" outsign="hold"/>
+<align out="a85" type="s" in="b49 b50" creator="0" insign="der Superliga" outsign="Superligaen"/>
+<align out="a84" type="" in="a84" creator="0" insign="i" outsign="i"/>
+<align out="a69" type="" in="b33" creator="-1" insign="Ikast-Lyngby" outsign="Ikast-Lyngby"/>
+<align out="a73" type="" in="b38" creator="-1" insign="AaB-Vejle" outsign="AaB-Vejle"/>
+<align out="a75" type="" in="b40" creator="-1" insign="FremOB" outsign="FremOB"/>
+<align out="a77" type="" in="b42" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a79" type="" in="b44" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a78" type="" in="b43" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a80" type="" in="b45" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a76" type="" in="b41" creator="-1" insign="." outsign="."/>
+<align out="a82" type="" in="b47" creator="-1" insign="10" outsign="10"/>
+<align out="a74" type="" in="b39" creator="-1" insign="und" outsign="og"/>
+<align out="a81" type="" in="b46" creator="-1" insign="Die" outsign="De"/>
+<align out="a90 a91 a92 a93" type="" in="b52 b53" creator="0" insign="im Frühjahr" outsign="i løbet af foråret"/>
+<align out="a86 a87" type="" in="b51 b55 b56" creator="0" insign="treffen auf einander" outsign="skal mødes"/>
+<align out="a94" type="" in="b57" creator="0" insign="," outsign=","/>
+<align out="a95" type="" in="a95" creator="0" insign="og" outsign="og"/>
+<align out="a100" type="" in="b62" creator="0" insign="Runden" outsign="runder"/>
+<align out="a99" type="" in="b61" creator="-1" insign="18" outsign="18"/>
+<align out="a101" type="" in="b69" creator="-1" insign="mit" outsign="med"/>
+<align out="a88 a89" type="" in="b54" creator="-1" insign="zweimal" outsign="to gange"/>
+<align out="a96" type="" in="b58" creator="-1" insign="das" outsign="det"/>
+<align out="a97" type="" in="b59" creator="-1" insign="führt" outsign="giver"/>
+<align out="a98" type="f" in="b60" creator="0" insign="zu" outsign="således"/>
+<align out="a106" type="" in="b63" creator="0" insign="," outsign=","/>
+<align out="a108" type="d" in="b70 b71" creator="0" insign="folgendem Programm" outsign="programmet"/>
+<align out="a102" type="mcv" in="b72 b73" creator="0" insign="abgeschlossen werden" outsign="afslutning"/>
+<align out="a112" type="" in="b74" creator="0" insign=":" outsign=":"/>
+<align out="a103" type="" in="b65" creator="0" insign="am" outsign="den"/>
+<align out="a104" type="" in="b66 b67" creator="0" insign="23 ." outsign="23."/>
+<align out="a105" type="" in="b68" creator="0" insign="Juni" outsign="juni"/>
+<align out="b64" type="" in="b64" creator="0" insign="die" outsign="die"/>
+<align out="a107" type="" in="a107" creator="0" insign="hvor" outsign="hvor"/>
+<align out="a109 a110 a111" type="" in="a109 a110 a111" creator="0" insign="ser således ud" outsign="ser således ud"/>
+<align out="a117" type="" in="b79" creator="-1" insign="Lyngby-Brøndby" outsign="Lyngby-Brøndby"/>
+<align out="a113" type="" in="b75" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a115" type="" in="b77" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a114" type="" in="b76" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a116" type="" in="b78" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a119" type="" in="b81" creator="-1" insign="Silkeborg-AGF" outsign="Silkeborg-AGF"/>
+<align out="a121" type="" in="b83" creator="-1" insign="Vejle-Ikast" outsign="Vejle-Ikast"/>
+<align out="a123" type="" in="b85" creator="-1" insign="Frem-B" outsign="Frem-B"/>
+<align out="a124" type="" in="b86" creator="-1" insign="1903" outsign="1903"/>
+<align out="a125" type="" in="b87" creator="-1" insign="und" outsign="og"/>
+<align out="a118" type="" in="b80" creator="-1" insign="," outsign=","/>
+<align out="a120" type="" in="b82" creator="-1" insign="," outsign=","/>
+<align out="a122" type="" in="b84" creator="-1" insign="," outsign=","/>
+<align out="a146" type="" in="b102 b103" creator="0" insign="26 ." outsign="26."/>
+<align out="a147" type="" in="b104" creator="0" insign="Januar" outsign="januar"/>
+<align out="a148" type="" in="b116" creator="0" insign="." outsign="."/>
+<align out="a141" type="" in="b107" creator="0" insign="Stellung" outsign="stilling"/>
+<align out="a140" type="" in="b97" creator="0" insign="erst" outsign="først"/>
+<align out="a139" type="s" in="b94 b95" creator="0" insign="Der Ligaverein" outsign="Divisionsforeningen"/>
+<align out="a144" type="s" in="b99 b100" creator="0" insign="der Generalversammlung" outsign="generalforsamlingen"/>
+<align out="a143" type="" in="b98" creator="0" insign="in" outsign="på"/>
+<align out="a126" type="" in="b88" creator="-100" insign="AaB-OB" outsign="AaB-OB"/>
+<align out="a145" type="" in="b101" creator="-100" insign="am" outsign="den"/>
+<align out="a131" type="" in="b93" creator="-100" insign="<s>" outsign="<s>"/>
+<align out="a130" type="" in="b92" creator="-100" insign="<p>" outsign="<p>"/>
+<align out="a128" type="" in="b90" creator="-100" insign="</s>" outsign="</s>"/>
+<align out="a129" type="" in="b91" creator="-100" insign="</p>" outsign="</p>"/>
+<align out="a127" type="" in="b89" creator="-100" insign="." outsign="."/>
+</DTAGalign>
