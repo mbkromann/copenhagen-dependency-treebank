@@ -1,0 +1,181 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0079-da.tag" sign="_input"/>
+<alignFile key="b" href="../de/0079-de-tagged.tag" sign="_input"/>
+<align out="a46" type="" in="b5" creator="0" insign="hat" outsign="har"/>
+<align out="a52" type="" in="b9" creator="0" insign="mich" outsign="mig"/>
+<align out="a48" type="" in="b6" creator="0" insign="seinen" outsign="sin"/>
+<align out="a49" type="" in="b7" creator="0" insign="Pimmel" outsign="tissemand"/>
+<align out="a47 a50" type="" in="b10" creator="0" insign="gesteckt" outsign="stukket op"/>
+<align out="a55" type="" in="b13" creator="0" insign="teilte" outsign="meddelte"/>
+<align out="a56" type="" in="b14" creator="0" insign="ein" outsign="en"/>
+<align out="a57" type="" in="b15" creator="0" insign="geisteskrankes" outsign="åndssvag"/>
+<align out="a58" type="" in="b16" creator="0" insign="Mädchen" outsign="pige"/>
+<align out="a59" type="" in="b17" creator="0" insign="über" outsign="via"/>
+<align out="a60" type="d" in="b18 b19" creator="0" insign="die Buchstabiertafel" outsign="staveplade"/>
+<align out="b20" type="" in="b20" creator="0" insign="mit" outsign="mit"/>
+<align out="a61" type="" in="b21" creator="0" insign="," outsign=","/>
+<align out="a62" type="" in="a62" creator="0" insign="og" outsign="og"/>
+<align out="a44" type="" in="b3" creator="-1" insign="Mein" outsign="Min"/>
+<align out="a45" type="" in="b4" creator="-1" insign="Vater" outsign="far"/>
+<align out="a53" type="" in="b11" creator="-1" insign="," outsign=","/>
+<align out="a51" type="" in="b8" creator="-1" insign="in" outsign="i"/>
+<align out="a43" type="" in="b2" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a54" type="" in="b12" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a63" type="" in="b22" creator="0" insign="was" outsign="det"/>
+<align out="a64 a65" type="" in="b30 b23" creator="0" insign="führte zu" outsign="resulterede i"/>
+<align out="a66" type="" in="b24" creator="0" insign="einer" outsign="en"/>
+<align out="a67" type="" in="b25" creator="0" insign="Anzeige" outsign="politianmeldelse"/>
+<align out="a68" type="" in="b26" creator="0" insign="gegen" outsign="mod"/>
+<align out="a69" type="" in="b27" creator="0" insign="die" outsign="de"/>
+<align out="a70" type="" in="b28" creator="0" insign="unschuldigen" outsign="uskyldige"/>
+<align out="a71" type="" in="b29" creator="0" insign="Eltern" outsign="forældre"/>
+<align out="a72" type="" in="b31" creator="0" insign="." outsign="."/>
+<align out="a75" type="s" in="b32 b33" creator="0" insign="Die Eltern" outsign="Forældrene"/>
+<align out="a79" type="" in="b36" creator="0" insign="verurteilt" outsign="dømt"/>
+<align out="a78" type="" in="b35" creator="0" insign="nicht" outsign="ikke"/>
+<align out="a76" type="" in="b34" creator="0" insign="wurden" outsign="blev"/>
+<align out="a77" type="" in="a77" creator="0" insign="heller" outsign="heller"/>
+<align out="a81" type="" in="b39" creator="0" insign="aber" outsign="men"/>
+<align out="a82" type="" in="b38" creator="0" insign="musste" outsign="måtte"/>
+<align out="a84" type="" in="b41" creator="-1" insign="ein" outsign="en"/>
+<align out="a80" type="" in="b37" creator="-1" insign="," outsign=","/>
+<align out="a83" type="" in="b40" creator="0" insign="durch" outsign="igennem"/>
+<align out="a85" type="" in="b42" creator="0" insign="nervenaufreibendes" outsign="opslidende"/>
+<align out="a86" type="" in="b43" creator="0" insign="Verfahren" outsign="sag"/>
+<align out="a87" type="" in="b44" creator="0" insign="." outsign="."/>
+<align out="a92" type="s" in="b49 b53" creator="0" insign="Der Bericht" outsign="Rapporten"/>
+<align out="a97" type="" in="b50 b51" creator="0" insign="800 000" outsign="800.000"/>
+<align out="a94 a95 a96" type="mcadj" in="b52" creator="0" insign="teure" outsign="der har kostet"/>
+<align out="a93" type="" in="a93" creator="0" insign="," outsign=","/>
+<align out="a98" type="" in="a98" creator="0" insign="," outsign=","/>
+<align out="a106" type="" in="b55" creator="0" insign="nach" outsign="efter"/>
+<align out="a108" type="" in="b57" creator="0" insign="heftigen" outsign="voldsom"/>
+<align out="a109" type="" in="b58" creator="0" insign="Debatte" outsign="debat"/>
+<align out="a99" type="" in="b54" creator="0" insign="wurde" outsign="er"/>
+<align out="a111" type="" in="b60" creator="0" insign="," outsign=","/>
+<align out="a88" type="" in="b45" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a91" type="" in="b48" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a89" type="" in="b46" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a90" type="" in="b47" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a107" type="" in="b56" creator="-1" insign="einer" outsign="en"/>
+<align out="a110" type="" in="b59" creator="0" insign="darüber" outsign="om"/>
+<align out="a112" type="" in="b61" creator="0" insign="ob" outsign="hvorvidt"/>
+<align out="a113" type="s" in="b62 b63" creator="0" insign="die Buchstabiertafel" outsign="stavepladen"/>
+<align out="a114" type="" in="b79" creator="0" insign="ist" outsign="var"/>
+<align out="a115" type="" in="b64" creator="0" insign="Humbug" outsign="fup"/>
+<align out="a116" type="" in="b65" creator="0" insign="oder" outsign="eller"/>
+<align out="a117" type="" in="b66" creator="0" insign="ein" outsign="et"/>
+<align out="a118" type="" in="b67" creator="0" insign="wertvolles" outsign="værdifuldt"/>
+<align out="a119 a120 a121 a122" type="" in="b68" creator="0" insign="Kommunikationsmittel" outsign="middel til at kommunikere"/>
+<align out="a100 a101 a102" type="f" in="b84 b85 b86" creator="0" insign="in Auftrag gegeben" outsign="bestilt og betalt"/>
+<align out="a103" type="" in="b81" creator="0" insign="vom" outsign="af"/>
+<align out="a105" type="" in="b82" creator="0" insign="Kreistag" outsign="Amtsråd"/>
+<align out="a104" type="s" in="b81 b83" creator="0" insign="vom Kopenhagen" outsign="Københavns"/>
+<align out="b80" type="" in="b80" creator="0" insign="," outsign=","/>
+<align out="a123" type="" in="b69" creator="0" insign="mit" outsign="med"/>
+<align out="a124" type="" in="b70" creator="0" insign="den" outsign="de"/>
+<align out="a125" type="" in="b71" creator="0" insign="sog." outsign="såkaldt"/>
+<align out="a127" type="" in="b73" creator="0" insign="weitgehend" outsign="vidtgående"/>
+<align out="a128" type="" in="b74" creator="0" insign="physisch" outsign="fysisk"/>
+<align out="a129" type="" in="b75" creator="0" insign="und" outsign="og"/>
+<align out="a130" type="" in="b76" creator="0" insign="psychisch" outsign="psykisk"/>
+<align out="a131" type="" in="b77" creator="0" insign="Behinderten" outsign="handicappede"/>
+<align out="a136" type="" in="b90" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a137" type="" in="b91" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a135" type="" in="b89" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a134" type="" in="b88" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a133" type="" in="b87" creator="-1" insign="." outsign="."/>
+<align out="a126" type="" in="b72" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a132" type="" in="b78" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a139" type="" in="b93" creator="0" insign="GEFÜHRTER" outsign="FØRT"/>
+<align out="a140" type="" in="b94" creator="0" insign="HAND" outsign="HÅND"/>
+<align out="a147" type="" in="b99" creator="0" insign="Buchstabiertafeln" outsign="staveplader"/>
+<align out="a148" type="" in="b100 b115" creator="0" insign="wurden eingesetzt" outsign="begyndte"/>
+<align out="a154" type="" in="b108" creator="0" insign="Krankenhausabteilung" outsign="sygehusafdeling"/>
+<align out="a152 a153" type="s" in="b107 b109 b110 b111" creator="0" insign="der des Kreises Kopenhagen" outsign="Københavns Amts"/>
+<align out="a158" type="e" in="b103" creator="0" insign="Vagdehuse" outsign="Vangedehuse"/>
+<align out="a150" type="s" in="b102" creator="0" insign="im" outsign="M-huset"/>
+<align out="a149" type="" in="b102" creator="0" insign="im" outsign="i"/>
+<align out="a150" type="" in="b104 b105" creator="0" insign="Haus M" outsign="M-huset"/>
+<align out="b106" type="" in="b106" creator="0" insign="," outsign=","/>
+<align out="a157" type="" in="a157" creator="0" insign="," outsign=","/>
+<align out="a159" type="" in="a159" creator="0" insign="," outsign=","/>
+<align out="a155" type="" in="b112" creator="0" insign="für" outsign="for"/>
+<align out="a156" type="" in="b113 b114" creator="0" insign="mehrfach Behinderte" outsign="multihandicappede"/>
+<align out="a151" type="" in="a151" creator="0" insign="i" outsign="i"/>
+<align out="b101" type="" in="b101" creator="0" insign="zunächst" outsign="zunächst"/>
+<align out="a145 a146" type="" in="a145 a146" creator="0" insign="Brugen af" outsign="Brugen af"/>
+<align out="a138" type="" in="b92" creator="-1" insign="MIT" outsign="MED"/>
+<align out="a143" type="" in="b97" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a141" type="" in="b95" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a144" type="" in="b98" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a142" type="" in="b96" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a161 a162" type="" in="b117 b118 b123" creator="0" insign="haben sich ausgeweitet" outsign="bredte sig"/>
+<align out="a166" type="" in="b122" creator="0" insign="Institutionen" outsign="institutioner"/>
+<align out="a167" type="" in="b124" creator="0" insign="." outsign="."/>
+<align out="a163" type="" in="b119" creator="0" insign="später" outsign="efterhånden"/>
+<align out="a164" type="" in="b120" creator="0" insign="auf" outsign="til"/>
+<align out="a165" type="" in="b121" creator="0" insign="andere" outsign="andre"/>
+<align out="a170" type="s" in="b125 b126" creator="0" insign="Der Kreis" outsign="Amtet"/>
+<align out="a171" type="" in="b127" creator="0" insign="schätzt" outsign="skønner"/>
+<align out="a160" type="" in="b116" creator="-1" insign="und" outsign="og"/>
+<align out="a172" type="" in="b128" creator="-1" insign="," outsign=","/>
+<align out="a176" type="" in="b132" creator="-1" insign="100" outsign="100"/>
+<align out="a173" type="" in="b129" creator="-1" insign="dass" outsign="at"/>
+<align out="a174" type="" in="b130" creator="-1" insign="bis" outsign="op"/>
+<align out="a175" type="" in="b131" creator="-1" insign="zu" outsign="mod"/>
+<align out="a177" type="" in="b133" creator="0" insign="Behinderte" outsign="handicappede"/>
+<align out="a182" type="ds" in="b134 b135" creator="0" insign="diese Buchstabiertafeln" outsign="staveplader"/>
+<align out="a178" type="" in="b137" creator="0" insign="haben" outsign="har"/>
+<align out="a179" type="" in="b136" creator="0" insign="benutzt" outsign="brugt"/>
+<align out="a180" type="" in="b138" creator="0" insign="oder" outsign="eller"/>
+<align out="a181" type="" in="b139" creator="0" insign="benutzen" outsign="bruger"/>
+<align out="a183" type="" in="b140" creator="0" insign="." outsign="."/>
+<align out="a188 a189" type="ds" in="b145" creator="0" insign="Behinderte" outsign="De handicappede"/>
+<align out="a191" type="" in="b147" creator="0" insign="die" outsign="der"/>
+<align out="a192 a194" type="" in="b148" creator="0" insign="keine" outsign="ikke noget"/>
+<align out="a195" type="" in="b149" creator="0" insign="Sprache" outsign="sprog"/>
+<align out="a201" type="" in="b155" creator="-1" insign="oder" outsign="eller"/>
+<align out="a193" type="" in="b150" creator="-1" insign="haben" outsign="har"/>
+<align out="a199" type="" in="b153" creator="-1" insign="mit" outsign="med"/>
+<align out="a190" type="" in="b146" creator="-1" insign="," outsign=","/>
+<align out="a196" type="" in="b151" creator="-1" insign="," outsign=","/>
+<align out="a207" type="" in="b161" creator="-1" insign="," outsign=","/>
+<align out="a200" type="" in="b154" creator="-1" insign="zwei" outsign="to"/>
+<align out="a202" type="" in="b156" creator="-1" insign="mehr" outsign="flere"/>
+<align out="a203" type="" in="b157" creator="-1" insign="Pädagogen" outsign="pædagoger"/>
+<align out="a197" type="" in="b152" creator="0" insign="sitzen" outsign="sidder"/>
+<align out="a198" type="" in="a198" creator="0" insign="sammen" outsign="sammen"/>
+<align out="a204 a205" type="" in="b158" creator="0" insign="vor" outsign="over for"/>
+<align out="a206" type="ds" in="b159 b160" creator="0" insign="einer Buchstabiertafel" outsign="stavepladen"/>
+<align out="a212" type="" in="b166" creator="-1" insign="und" outsign="og"/>
+<align out="a225" type="" in="b174" creator="-1" insign="ein" outsign="en"/>
+<align out="a217" type="" in="b171" creator="-1" insign="." outsign="."/>
+<align out="a208" type="" in="b162" creator="-1" insign="die" outsign="der"/>
+<align out="a209" type="" in="b170" creator="0" insign="besteht" outsign="består"/>
+<align out="a216" type="" in="b169" creator="0" insign="Symbolen" outsign="symboler"/>
+<align out="a215" type="" in="b168" creator="0" insign="anderen" outsign="andre"/>
+<align out="a213 a214" type="" in="b167" creator="0" insign="einigen" outsign="nogle få"/>
+<align out="a210" type="" in="b163" creator="0" insign="aus" outsign="af"/>
+<align out="a211" type="s" in="b164 b165" creator="0" insign="dem Alphabet" outsign="alfabetet"/>
+<align out="a220 a221 a222 a223" type="mcadv" in="b172" creator="0" insign="Unterstützend" outsign="For at give støtte"/>
+<align out="a224" type="" in="b173" creator="0" insign="führt" outsign="fører"/>
+<align out="a226" type="" in="b175" creator="0" insign="Pädagoge" outsign="pædagog"/>
+<align out="a227" type="" in="b176" creator="0" insign="die" outsign="den"/>
+<align out="a229" type="" in="b177" creator="0" insign="Hand" outsign="hånd"/>
+<align out="a228" type="s" in="b176 b178 b179" creator="0" insign="die des Behinderten" outsign="handicappedes"/>
+<align out="a230" type="" in="b180" creator="0" insign="über" outsign="over"/>
+<align out="a234" type="s" in="b185 b186" creator="0" insign="der Betroffene" outsign="klienten"/>
+<align out="a235" type="" in="b193" creator="0" insign="deutet" outsign="peger"/>
+<align out="a239" type="" in="b190" creator="0" insign="auf" outsign="på"/>
+<align out="a240" type="" in="b191 b192" creator="0" insign="der Platte" outsign="pladen"/>
+<align out="a238" type="" in="b189" creator="0" insign="Zeichen" outsign="tegn"/>
+<align out="a236" type="" in="b187" creator="0" insign="auf" outsign="på"/>
+<align out="a231" type="s" in="b181 b182" creator="-1" insign="die Buchstabiertafel" outsign="stavepladen"/>
+<align out="a237" type="" in="b188" creator="-1" insign="ein" outsign="et"/>
+<align out="a232" type="" in="b183" creator="-1" insign="," outsign=","/>
+<align out="a233" type="" in="b184" creator="-1" insign="bis" outsign="indtil"/>
+<align out="a242" type="" in="b195" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a243" type="" in="b196" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a241" type="" in="b194" creator="-1" insign="." outsign="."/>
+</DTAGalign>
