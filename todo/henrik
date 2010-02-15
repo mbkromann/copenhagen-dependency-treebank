@@ -18,9 +18,9 @@
 
 # Assign-tasks added new files on Fri Apr 24 11:00:14 CEST 2009
 
-[ ] da-es/0001-da-es-henrik.atag
-[ ] es/0001-es-henrik.tag
-[ ] da-es/0096-da-es-henrik.atag
+[*] da-es/0001-da-es-henrik.atag
+[*] es/0001-es-henrik.tag
+[*] da-es/0096-da-es-henrik.atag
 [ ] es/0096-es-henrik.tag
 [ ] da-es/0134-da-es-henrik.atag
 [ ] es/0134-es-henrik.tag

@@ -1,4 +1,21 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0001-da.tag" sign="_input"/>
 <alignFile key="b" href="../es/0001-es-tagged.tag" sign="_input"/>
-<DTAGalign>
+<align out="a44" type="" in="b6" creator="-100" insign="conocidos" outsign="kendte"/>
+<align out="a45" type="" in="b8" creator="-100" insign="rusos" outsign="russiske"/>
+<align out="a56" type="" in="b16" creator="-100" insign="Rusia" outsign="Rusland"/>
+<align out="a57" type="" in="b18" creator="-100" insign="puede" outsign="kan"/>
+<align out="a58" type=" ! " in="b19" creator="-100" insign="avanzar" outsign="udvikles"/>
+<align out="a46" type="" in="b7" creator="-100" insign="historiadores" outsign="historikere"/>
+<align out="a49" type="" in="b12" creator="-100" insign="e" outsign="og"/>
+<align out="a47" type="" in="b10" creator="-100" insign="Andronik" outsign="Andronik"/>
+<align out="a48" type="" in="b11" creator="-100" insign="Mirganjan" outsign="Mirganjan"/>
+<align out="a50" type="" in="b13" creator="-100" insign="Igor" outsign="Igor"/>
+<align out="a51" type="" in="b14" creator="-100" insign="Klamkin" outsign="Klamkin"/>
+<align out="a59" type="" in="b20" creator="-100" insign="sin" outsign="uden"/>
+<align out="a52" type="" in="b2 b3 b4" creator="-100" insign="En opinión de" outsign="tror"/>
+<align out="a60" type="" in="b21" creator="-100" insign="una" outsign="en"/>
+<align out="a43" type="" in="b5" creator="-100" insign="dos" outsign="To"/>
+<align out="a53" type="" in="b17" creator="-100" insign="no" outsign="ikke"/>
+<align out="a54" type="" in="b15" creator="-100" insign="," outsign=","/>
+</DTAGalign>
