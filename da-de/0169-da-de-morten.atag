@@ -1,0 +1,185 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0169-da.tag" sign="_input"/>
+<alignFile key="b" href="../de/0169-de-tagged.tag" sign="_input"/>
+<align out="a43" type="" in="b2" creator="0" insign="In" outsign="I"/>
+<align out="a44" type="" in="b3" creator="0" insign="den" outsign="de"/>
+<align out="a45" type="" in="b4" creator="0" insign="letzten" outsign="sidste"/>
+<align out="a46" type="" in="b5" creator="0" insign="sechs" outsign="seks"/>
+<align out="a47" type="" in="b6" creator="0" insign="Jahren" outsign="år"/>
+<align out="a48" type="" in="b7" creator="0" insign="wurde" outsign="har"/>
+<align out="a49" type="" in="b8" creator="0" insign="sie" outsign="hun"/>
+<align out="a53" type="" in="b9" creator="0" insign="bei" outsign="hos"/>
+<align out="a50 a51 a52" type="" in="b11" creator="0" insign="behandelt" outsign="været i behandling"/>
+<align out="a60 a61" type="" in="b16" creator="0" insign="ging" outsign="er gået"/>
+<align out="a59" type="" in="b17" creator="0" insign="es" outsign="det"/>
+<align out="a62" type="" in="b18" creator="0" insign="gut" outsign="godt"/>
+<align out="a63 a64 a65" type="" in="b13 b14 b15" creator="0" insign="Über lange Zeit" outsign="i lange perioder"/>
+<align out="a54" type="" in="b10" creator="-1" insign="Lænken" outsign="Lænken"/>
+<align out="a55" type="" in="b12" creator="-1" insign="." outsign="."/>
+<align out="a58" type="" in="a58" creator="0" insign="Og" outsign="Og"/>
+<align out="a66" type="" in="b19" creator="0" insign="," outsign=","/>
+<align out="a86" type="" in="b38" creator="-1" insign="bei" outsign="hos"/>
+<align out="a70" type="" in="b23" creator="-1" insign="sie" outsign="hun"/>
+<align out="a81" type="" in="b32" creator="-1" insign="sie" outsign="hun"/>
+<align out="a76" type="" in="b29" creator="-1" insign="." outsign="."/>
+<align out="a87" type="" in="b39" creator="-1" insign="Lænken" outsign="Lænken"/>
+<align out="a67" type="" in="b20" creator="-1" insign="aber" outsign="men"/>
+<align out="a68" type="" in="b21" creator="-1" insign="zwischendurch" outsign="indimellem"/>
+<align out="a69" type="" in="b22" creator="-1" insign="ist" outsign="er"/>
+<align out="a79" type="" in="b30" creator="-1" insign="Heute" outsign="I_dag"/>
+<align out="a80" type="" in="b31" creator="-1" insign="hat" outsign="er"/>
+<align out="a73" type="" in="a73" creator="0" insign="tilbage" outsign="tilbage"/>
+<align out="a71 a72 a74" type="" in="b28 b24 b25" creator="0" insign="erlegen der Verführung" outsign="blevet lokket til"/>
+<align out="a75" type="s" in="b26 b27" creator="0" insign="der Flasche" outsign="flasken"/>
+<align out="a83" type="" in="b36" creator="0" insign="und" outsign="og"/>
+<align out="a82" type="f" in="b33 b34 b35" creator="0" insign="die Oberhand gewonnen" outsign="ovenpå"/>
+<align out="a84" type="" in="b37" creator="0" insign="arbeitet" outsign="arbejder"/>
+<align out="a85" type="" in="b40" creator="0" insign="freiwillig" outsign="frivilligt"/>
+<align out="a88" type="" in="b41" creator="0" insign="als" outsign="som"/>
+<align out="a95" type="" in="b48" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a96" type="" in="b49" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a102" type="" in="b56" creator="-1" insign="Johansen" outsign="Johansen"/>
+<align out="a97" type="" in="b50" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a94" type="" in="b47" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a101" type="" in="b55" creator="-1" insign="Palle" outsign="Palle"/>
+<align out="a93" type="" in="b46" creator="-1" insign="." outsign="."/>
+<align out="a89" type="" in="b42" creator="-1" insign="Kontaktperson" outsign="kontaktperson"/>
+<align out="a90" type="" in="b43" creator="-1" insign="für" outsign="for"/>
+<align out="a91" type="" in="b44" creator="-1" insign="andere" outsign="andre"/>
+<align out="a92" type="" in="b45" creator="-1" insign="Alkoholiker" outsign="alkoholikere"/>
+<align out="a108" type="" in="b60" creator="-1" insign="heute" outsign="i_dag"/>
+<align out="a109" type="" in="b61" creator="-1" insign="51" outsign="51"/>
+<align out="a111" type="" in="b64" creator="-1" insign="und" outsign="og"/>
+<align out="a117" type="" in="b68" creator="-1" insign="1984" outsign="1984"/>
+<align out="a103" type="" in="b57" creator="-1" insign="." outsign="."/>
+<align out="a113" type="" in="b66" creator="-1" insign="." outsign="."/>
+<align out="a107" type="" in="b59" creator="-1" insign="ist" outsign="er"/>
+<align out="a106" type="" in="b58" creator="-1" insign="Er" outsign="Han"/>
+<align out="a112" type="" in="b65" creator="-1" insign="Frührentner" outsign="førtidspensionist"/>
+<align out="a116" type="" in="b67" creator="-1" insign="Seit" outsign="Siden"/>
+<align out="a98" type="" in="b51" creator="0" insign="Das" outsign="Det"/>
+<align out="a99" type="" in="b52" creator="0" insign="gleiche" outsign="samme"/>
+<align out="a100" type="f" in="b53 b54" creator="0" insign="gilt für" outsign="gør"/>
+<align out="a110" type="" in="b62" creator="0" insign="Jahre" outsign="år"/>
+<align out="b63" type="" in="b63" creator="0" insign="alt" outsign="alt"/>
+<align out="a129" type="" in="b78 b79" creator="0" insign="&amp ;" outsign="&amp;"/>
+<align out="a121" type="" in="b81" creator="0" insign="getrunken" outsign="drukket"/>
+<align out="a120" type="" in="b72" creator="0" insign="nicht" outsign="ikke"/>
+<align out="a122 a123 a124" type="" in="b71 b73 b74" creator="0" insign="noch einmal eine" outsign="så meget som"/>
+<align out="a126" type="" in="b75" creator="0" insign="Schokoladenflasche" outsign="chokoladeflaske"/>
+<align out="a127" type="" in="b76" creator="0" insign="von" outsign="fra"/>
+<align out="a125" type="" in="b74" creator="0" insign="eine" outsign="en"/>
+<align out="a134" type="" in="b83" creator="-1" insign="Aber" outsign="Men"/>
+<align out="a128" type="" in="b77" creator="-1" insign="Galle" outsign="Galle"/>
+<align out="a130" type="" in="b80" creator="-1" insign="Jessen" outsign="Jessen"/>
+<align out="a119" type="" in="b70" creator="-1" insign="er" outsign="han"/>
+<align out="a139" type="" in="b86" creator="-1" insign="er" outsign="han"/>
+<align out="a131" type="" in="b82" creator="-1" insign="." outsign="."/>
+<align out="a118" type="" in="b69" creator="-1" insign="hat" outsign="har"/>
+<align out="a135" type="" in="b84" creator="0" insign="vorher" outsign="før"/>
+<align out="a138" type="" in="b85" creator="0" insign="war" outsign="var"/>
+<align out="a136 a137" type="" in="a136 a137" creator="0" insign="den tid" outsign="den tid"/>
+<align out="a144" type="" in="b89" creator="0" insign="20" outsign="tyve"/>
+<align out="b91" type="" in="b91" creator="0" insign="lang" outsign="lang"/>
+<align out="a142" type="" in="a142" creator="0" insign="i" outsign="i"/>
+<align out="a145" type="" in="b90" creator="0" insign="Jahre" outsign="år"/>
+<align out="a143" type="" in="b87 b88" creator="0" insign="mehr als" outsign="over"/>
+<align out="a140" type="" in="b92" creator="0" insign="eingefleischter" outsign="inkarneret"/>
+<align out="a141" type="" in="b93" creator="0" insign="Alkoholiker" outsign="alkoholiker"/>
+<align out="a146" type="" in="b94" creator="-1" insign="." outsign="."/>
+<align out="a156" type="" in="b106" creator="0" insign="." outsign="."/>
+<align out="a150 a151" type="" in="b100 b101 b102" creator="0" insign="zum ersten Mal" outsign="første gang"/>
+<align out="a149" type="" in="b105" creator="0" insign="eingeliefert" outsign="Indlagt"/>
+<align out="a154" type="" in="b95" creator="0" insign="Mit" outsign="som"/>
+<align out="a155" type="" in="b96 b97" creator="0" insign="27 Jahren" outsign="27-årig"/>
+<align out="a152" type="" in="b103" creator="0" insign="im" outsign="med"/>
+<align out="a153" type="" in="b104" creator="0" insign="Delirium" outsign="delirium"/>
+<align out="b98 b99" type="" in="b98 b99" creator="0" insign="wurde er" outsign="wurde er"/>
+<align out="a162" type="s" in="b112 b113" creator="0" insign="Der Missbrauch" outsign="Misbruget"/>
+<align out="a163" type="" in="b114 b115 b117" creator="0" insign="stellt sich ein" outsign="kom"/>
+<align out="a164" type="" in="b116" creator="0" insign="schleichend" outsign="snigende"/>
+<align out="a161" type="" in="b111" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a160" type="" in="b110" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a158" type="" in="b108" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a157" type="" in="b107" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a159" type="" in="b109" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a165" type="" in="b118" creator="-1" insign="," outsign=","/>
+<align out="a171 a172 a173 a174 a175 a176 a177" type="" in="b123 b124 b125 b126 b127 b128" creator="0" insign="von einem Tag auf den anderen" outsign="fra den ene dag til den anden"/>
+<align out="b129" type="" in="b129" creator="0" insign="zum" outsign="zum"/>
+<align out="a169" type="" in="b122" creator="-1" insign="nicht" outsign="ikke"/>
+<align out="a181" type="" in="b132" creator="-1" insign="Es" outsign="Det"/>
+<align out="a170" type="" in="b130" creator="-1" insign="Alkoholiker" outsign="alkoholiker"/>
+<align out="a167" type="" in="b120" creator="-1" insign="man" outsign="man"/>
+<align out="a178" type="" in="b131" creator="-1" insign="." outsign="."/>
+<align out="a166" type="" in="b119" creator="-1" insign="denn" outsign="for"/>
+<align out="a168" type="" in="b121" creator="-1" insign="wird" outsign="bliver"/>
+<align out="a202" type="" in="b149" creator="0" insign="." outsign="."/>
+<align out="a187" type="" in="b138" creator="0" insign="auf" outsign="på"/>
+<align out="a188" type="s" in="b139 b140" creator="0" insign="der Arbeit" outsign="arbejdet"/>
+<align out="a182" type="" in="b133 b141" creator="0" insign="fing an" outsign="begyndte"/>
+<align out="a185" type="" in="b136" creator="0" insign="paar" outsign="par"/>
+<align out="a186" type="" in="b137" creator="0" insign="Bier" outsign="bajere"/>
+<align out="a184" type="" in="b135" creator="0" insign="ein" outsign="et"/>
+<align out="a183" type="" in="b134" creator="0" insign="mit" outsign="med"/>
+<align out="a189" type="" in="a189" creator="0" insign="," outsign=","/>
+<align out="a192" type="" in="b143" creator="0" insign="plötzlich" outsign="pludselig"/>
+<align out="a195 a197 a198" type="" in="b144" creator="0" insign="hatte" outsign="begyndte at få"/>
+<align out="a196" type="" in="b145" creator="0" insign="ich" outsign="jeg"/>
+<align out="a199 a200 a201" type="" in="b147 b148" creator="0" insign="morgens Abstinenzprobleme" outsign="abstinenser fra morgenstunden"/>
+<align out="a191 a193 a194" type="" in="b146" creator="0" insign="schon" outsign="så en dag"/>
+<align out="a190" type="" in="b142" creator="-1" insign="und" outsign="og"/>
+<align out="a205" type="" in="b150 b151" creator="0" insign="Am Ende" outsign="Til_sidst"/>
+<align out="a206" type="" in="b152" creator="0" insign="konnte" outsign="kunne"/>
+<align out="a208" type="" in="b162" creator="0" insign="trinken" outsign="drikke"/>
+<align out="a213" type="" in="b160" creator="0" insign="normale" outsign="almindelige"/>
+<align out="a214" type="" in="b161" creator="0" insign="Bier" outsign="øl"/>
+<align out="a215 a216 a217" type="" in="b154 b155" creator="0" insign="pro Tag" outsign="på et døgn"/>
+<align out="a209" type="" in="b156" creator="0" insign="zwischen" outsign="mellem"/>
+<align out="a207" type="" in="b153" creator="-1" insign="ich" outsign="jeg"/>
+<align out="a222" type="" in="b167" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a221" type="" in="b166" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a220" type="" in="b165" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a223" type="" in="b168" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a226" type="" in="b171" creator="-1" insign="andere" outsign="andre"/>
+<align out="a227" type="" in="b172" creator="-1" insign="hat" outsign="har"/>
+<align out="a210" type="" in="b157" creator="-1" insign="50" outsign="50"/>
+<align out="a211" type="" in="b158" creator="-1" insign="und" outsign="og"/>
+<align out="a212" type="" in="b159" creator="-1" insign="70" outsign="70"/>
+<align out="a218" type="" in="b163" creator="-1" insign="." outsign="."/>
+<align out="a219" type="" in="b164" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a228" type="" in="b173" creator="-1" insign="Palle" outsign="Palle"/>
+<align out="a224" type="" in="b169" creator="-1" insign="Wie" outsign="Som"/>
+<align out="a225" type="" in="b170" creator="-1" insign="viele" outsign="mange"/>
+<align out="a230" type="" in="b179" creator="0" insign="gefunden" outsign="fået"/>
+<align out="a231" type="" in="b177" creator="0" insign="neue" outsign="nye"/>
+<align out="a232" type="" in="b178" creator="0" insign="Freunde" outsign="venner"/>
+<align out="a235" type="" in="b180" creator="0" insign="." outsign="."/>
+<align out="a246" type="s" in="b188 b189" creator="0" insign="der Poliklinik" outsign="ambulatoriet"/>
+<align out="a245" type="" in="a245" creator="0" insign="med" outsign="med"/>
+<align out="a244" type="s" in="b186 b187" creator="0" insign="der Ziele" outsign="formålene"/>
+<align out="a243" type="" in="b186" creator="0" insign="der" outsign="af"/>
+<align out="a242" type="" in="b185" creator="0" insign="eines" outsign="ét"/>
+<align out="a241" type="" in="b182" creator="0" insign="genau" outsign="netop"/>
+<align out="a248" type="" in="b191" creator="0" insign="erklärt" outsign="forklarer"/>
+<align out="a249" type="s" in="b192 b193" creator="0" insign="der Psychiater" outsign="psykiater"/>
+<align out="a239" type="" in="b183" creator="-1" insign="das" outsign="det"/>
+<align out="a240" type="" in="b184" creator="-1" insign="ist" outsign="er"/>
+<align out="a233" type="" in="b175" creator="-1" insign="bei" outsign="hos"/>
+<align out="a238" type="" in="b181" creator="-1" insign="Und" outsign="Og"/>
+<align out="a229" type="" in="b174" creator="-1" insign="Johansen" outsign="Johansen"/>
+<align out="a247" type="" in="b190" creator="-1" insign="," outsign=","/>
+<align out="a234" type="" in="b176" creator="-1" insign="Lænken" outsign="Lænken"/>
+<align out="a255" type="" in="b203" creator="0" insign="Wache" outsign="vagt"/>
+<align out="a256" type="" in="b199" creator="0" insign="zwei" outsign="to"/>
+<align out="a257" type="" in="b200" creator="0" insign="Abenden" outsign="aftener"/>
+<align out="a258 a259" type="" in="b201 b202" creator="0" insign="pro Woche" outsign="om ugen"/>
+<align out="b198" type="" in="b198" creator="0" insign="an" outsign="an"/>
+<align out="a251" type="" in="b195" creator="-1" insign="Eplov" outsign="Eplov"/>
+<align out="a261" type="" in="b206" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a262" type="" in="b207" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a254" type="" in="b204" creator="-1" insign="hat" outsign="har"/>
+<align out="a250" type="" in="b194" creator="-1" insign="Lars" outsign="Lars"/>
+<align out="a260" type="" in="b205" creator="-1" insign=":" outsign=":"/>
+<align out="a252" type="" in="b196" creator="-1" insign="," outsign=","/>
+<align out="a253" type="" in="b197" creator="-1" insign="der" outsign="der"/>
+</DTAGalign>

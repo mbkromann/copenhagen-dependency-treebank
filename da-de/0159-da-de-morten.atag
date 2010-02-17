@@ -1,0 +1,202 @@
+<DTAGalign>
+<alignFile key="a" href="../da/0159-da.tag" sign="_input"/>
+<alignFile key="b" href="../de/0159-de-tagged.tag" sign="_input"/>
+<align out="a48 a49" type="ds" in="b6 b7" creator="0" insign="das Mozart-Jahr" outsign="Mozart år"/>
+<align out="a50" type="" in="b4 b5" creator="0" insign="dieses Jahr" outsign="i_år"/>
+<align out="a43 a44" type="" in="b2" creator="0" insign="Außerdem" outsign="Og så"/>
+<align out="a45" type="" in="b3" creator="0" insign="ist" outsign="er"/>
+<align out="a47" type="" in="a47" creator="0" insign="jo" outsign="jo"/>
+<align out="a46" type="" in="a46" creator="0" insign="det" outsign="det"/>
+<align out="a54" type="s" in="b9 b10" creator="0" insign="Die Kunsthalle" outsign="Kunsthallen"/>
+<align out="a55" type="" in="b11" creator="0" insign="begeht" outsign="markerer"/>
+<align out="a56" type="s" in="b12 b13" creator="0" insign="das Jubiläum" outsign="jubilæet"/>
+<align out="a60" type="" in="b17" creator="0" insign="cm" outsign="centimeter"/>
+<align out="a61" type="" in="b18" creator="0" insign="hohen" outsign="høj"/>
+<align out="a62" type="" in="b19" creator="0" insign="Bronzefigur" outsign="bronze-figur"/>
+<align out="a63" type="" in="b20" creator="0" insign="des" outsign="af"/>
+<align out="a64" type="" in="b21" creator="0" insign="Komponisten" outsign="komponisten"/>
+<align out="a57" type="" in="b14" creator="-1" insign="mit" outsign="med"/>
+<align out="a58" type="" in="b15" creator="-1" insign="einer" outsign="en"/>
+<align out="a59" type="" in="b16" creator="-1" insign="90" outsign="90"/>
+<align out="a51" type="" in="b8" creator="-1" insign="." outsign="."/>
+<align out="a65" type="" in="b22" creator="0" insign="als" outsign="som"/>
+<align out="a66" type="" in="b23" creator="0" insign="Jungen" outsign="dreng"/>
+<align out="a68" type="" in="b30" creator="0" insign="geschätzt" outsign="vurderet"/>
+<align out="b31" type="" in="b31" creator="0" insign="wird" outsign="wird"/>
+<align out="b25" type="" in="b25" creator="0" insign="die" outsign="die"/>
+<align out="a69" type="" in="b26" creator="0" insign="auf" outsign="til"/>
+<align out="a70" type="" in="b27 b28" creator="0" insign="50 000" outsign="50.000"/>
+<align out="a71" type="" in="b29" creator="0" insign="kr" outsign="kr."/>
+<align out="a72" type="" in="b32" creator="0" insign="." outsign="."/>
+<align out="a67" type="" in="b24" creator="0" insign="," outsign=","/>
+<align out="a75" type="s" in="b33 b34" creator="0" insign="Die Skulptur" outsign="Skulpturen"/>
+<align out="a78" type="" in="b36" creator="0" insign="von" outsign="af"/>
+<align out="a82" type="" in="a82" creator="0" insign="," outsign=","/>
+<align out="a83" type="" in="b40" creator="0" insign="und" outsign="og"/>
+<align out="a84" type="s" in="b41 b42" creator="0" insign="die Glyptotek" outsign="Glyptoteket"/>
+<align out="a76" type="" in="b35" creator="-1" insign="ist" outsign="er"/>
+<align out="a79" type="" in="b37" creator="-1" insign="Louis" outsign="Louis"/>
+<align out="a80" type="" in="b38" creator="-1" insign="Ernest" outsign="Ernest"/>
+<align out="a81" type="" in="b39" creator="-1" insign="Barrias" outsign="Barrias"/>
+<align out="a77" type="" in="a77" creator="0" insign="signeret" outsign="signeret"/>
+<align out="a85" type="" in="b43" creator="0" insign="hat" outsign="har"/>
+<align out="a86" type="" in="b44" creator="0" insign="eine" outsign="en"/>
+<align out="a87" type="" in="b45" creator="0" insign="ähnliche" outsign="lignende"/>
+<align out="a88" type="" in="b46" creator="0" insign="aus" outsign="i"/>
+<align out="a89" type="" in="b47" creator="0" insign="Marmor" outsign="marmor"/>
+<align out="a90" type="" in="b48" creator="-1" insign="." outsign="."/>
+<align out="a93" type="" in="b49" creator="0" insign="Nicht" outsign="Ikke"/>
+<align out="a94" type="" in="b50" creator="0" insign="viel" outsign="meget"/>
+<align out="a95" type="" in="b51" creator="0" insign="Fußbodenplatz" outsign="gulvplads"/>
+<align out="b52" type="" in="b52" creator="0" insign="." outsign="."/>
+<align out="a96" type="" in="b53 b54" creator="0" insign="Auch wenn" outsign="Selv_om"/>
+<align out="a97" type="s" in="b55 b56" creator="0" insign="die Kunsthalle" outsign="Kunsthallen"/>
+<align out="a105" type="" in="b67" creator="-1" insign="," outsign=","/>
+<align out="a100" type="" in="b59" creator="-1" insign="in" outsign="til"/>
+<align out="a103" type="" in="b62" creator="-1" insign="in" outsign="i"/>
+<align out="a101" type="" in="b60" creator="-1" insign="geräumige" outsign="rummelige"/>
+<align out="a102" type="" in="b61" creator="-1" insign="Räumlichkeiten" outsign="lokaler"/>
+<align out="a98" type="" in="b57 b58" creator="0" insign="vor Kurzem" outsign="for_nylig"/>
+<align out="a104" type="ds" in="b63 b64" creator="0" insign="der Gothersgade" outsign="Gothersgade"/>
+<align out="a99" type="" in="b65 b66" creator="0" insign="umgezogen ist" outsign="flyttede"/>
+<align out="a106" type="" in="b68" creator="0" insign="gibt" outsign="er"/>
+<align out="a107" type="" in="b69" creator="0" insign="es" outsign="der"/>
+<align out="a108" type="" in="b71" creator="0" insign="allzu" outsign="stadig"/>
+<align out="a111" type="" in="b73" creator="0" insign="Fußbodenfläche" outsign="gulvplads"/>
+<align out="a112 a113 a114 a115" type="" in="a112 a113 a114 a115" creator="0" insign="at skeje ud på" outsign="at skeje ud på"/>
+<align out="a118 a119 a122 a123" type="" in="b76" creator="0" insign="begrenzt" outsign="lægger sin begrænsning på"/>
+<align out="a120" type="" in="b80" creator="0" insign="ganz" outsign="helt"/>
+<align out="a121" type="" in="b81" creator="0" insign="natürliche" outsign="naturlige"/>
+<align out="a124 a125 a126" type="s" in="b77 b78" creator="0" insign="das Möbelangebot" outsign="udbuddet af møbler"/>
+<align out="b79" type="" in="b79" creator="0" insign="auf" outsign="auf"/>
+<align out="b82 b83 b84" type="" in="b82 b83 b84" creator="0" insign="Art und Weise" outsign="Art und Weise"/>
+<align out="a110" type="" in="b72" creator="-1" insign="viel" outsign="meget"/>
+<align out="a109" type="" in="b70" creator="-1" insign="nicht" outsign="ikke"/>
+<align out="a127" type="" in="b85" creator="-1" insign="." outsign="."/>
+<align out="a116" type="" in="b74" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a117" type="" in="b75" creator="-1" insign="das" outsign="det"/>
+<align out="a131" type="" in="b86" creator="0" insign="Hier" outsign="her"/>
+<align out="a132" type="s" in="b87" creator="0" insign="gilt" outsign="er"/>
+<align out="a130" type="" in="a130" creator="0" insign="Så" outsign="Så"/>
+<align out="a134" type="f" in="b88" creator="0" insign=":" outsign=","/>
+<align out="a133" type="" in="b89" creator="0" insign="klein" outsign="lidt"/>
+<align out="a135" type="" in="b90" creator="0" insign="aber" outsign="men"/>
+<align out="a136" type="" in="b91" creator="0" insign="fein" outsign="flot"/>
+<align out="a146" type="" in="b100" creator="-1" insign="Mathias" outsign="Mathias"/>
+<align out="a147" type="" in="b101" creator="-1" insign="Ortmanns" outsign="Ortmanns"/>
+<align out="a137" type="" in="b92" creator="-1" insign="." outsign="."/>
+<align out="a149" type="" in="b102" creator="-1" insign="." outsign="."/>
+<align out="a140" type="" in="b93 b94" creator="0" insign="Z. B." outsign="F.eks."/>
+<align out="a141 a142" type="" in="b95" creator="0" insign="einige" outsign="et par"/>
+<align out="a143" type="" in="b96" creator="0" insign="dänische" outsign="danske"/>
+<align out="a144" type="" in="b97" creator="0" insign="Rokkoko-Kommoden" outsign="rokoko-kommoder"/>
+<align out="a145" type="" in="b98" creator="0" insign="im" outsign="i"/>
+<align out="a148" type="" in="b99" creator="0" insign="Stil" outsign="stil"/>
+<align out="a155" type="" in="b106" creator="-1" insign="aus" outsign="i"/>
+<align out="a157" type="" in="b108" creator="-1" insign="mit" outsign="med"/>
+<align out="a154" type="" in="b105" creator="-1" insign="," outsign=","/>
+<align out="a152" type="" in="b103" creator="-1" insign="Die" outsign="Den"/>
+<align out="a153" type="" in="b104" creator="-1" insign="eine" outsign="ene"/>
+<align out="a156" type="" in="b107" creator="-1" insign="Nussbaum" outsign="nøddetræ"/>
+<align out="a158" type="" in="b109" creator="-1" insign="geschwungenen" outsign="svungne"/>
+<align out="a159" type="" in="b110" creator="-1" insign="Seiten" outsign="sider"/>
+<align out="a160 a161" type="" in="a160 a161" creator="0" insign="og front" outsign="og front"/>
+<align out="a163" type="" in="b112" creator="0" insign="wird" outsign="er"/>
+<align out="a166" type="" in="b114 b115" creator="0" insign="35 000" outsign="35.000"/>
+<align out="a168" type="" in="b118" creator="0" insign="," outsign=","/>
+<align out="a162" type="" in="b111" creator="0" insign="," outsign=","/>
+<align out="a169" type="" in="b119 b120" creator="0" insign="u. A." outsign="blandt_andet"/>
+<align out="a170" type="" in="b121" creator="0" insign="weil" outsign="fordi"/>
+<align out="a171" type="s" in="b122 b123" creator="0" insign="das Unterteil" outsign="underdelen"/>
+<align out="a173 a174 a175" type="" in="b124 b125" creator="0" insign="jüngeren Datums" outsign="af nyere dato"/>
+<align out="a165" type="" in="b113" creator="-1" insign="auf" outsign="til"/>
+<align out="a167" type="" in="b116" creator="-1" insign="kr" outsign="kr."/>
+<align out="a179" type="" in="b128" creator="-1" insign="Die" outsign="Den"/>
+<align out="a164" type="" in="b117" creator="-1" insign="geschätzt" outsign="vurderet"/>
+<align out="a172" type="" in="b126" creator="-1" insign="ist" outsign="er"/>
+<align out="a176" type="" in="b127" creator="-1" insign="." outsign="."/>
+<align out="a180" type="" in="b129" creator="0" insign="andere" outsign="anden"/>
+<align out="a181" type="" in="b130" creator="0" insign="Kommode" outsign="kommode"/>
+<align out="a182" type="" in="b131" creator="0" insign="wurde" outsign="er"/>
+<align out="a184" type="" in="b133" creator="-1" insign="ganz" outsign="helt"/>
+<align out="a192" type="" in="b141" creator="-1" insign="aus" outsign="i"/>
+<align out="a193" type="" in="b142" creator="-1" insign="Nussbaum" outsign="nøddetræ"/>
+<align out="a201" type="" in="b150" creator="-1" insign="kr" outsign="kr."/>
+<align out="a190" type="" in="b140" creator="-1" insign="ist" outsign="er"/>
+<align out="a183" type="" in="b132" creator="-1" insign="nicht" outsign="ikke"/>
+<align out="a197" type="" in="b145" creator="-1" insign="und" outsign="og"/>
+<align out="a188" type="" in="b137" creator="-1" insign="," outsign=","/>
+<align out="a194" type="" in="b143" creator="-1" insign="," outsign=","/>
+<align out="a185" type="" in="b134" creator="-1" insign="so" outsign="så"/>
+<align out="a186" type="" in="b135" creator="-1" insign="stark" outsign="hårdt"/>
+<align out="a187" type="" in="b136" creator="-1" insign="restauriert" outsign="restaureret"/>
+<align out="a191" type="" in="b138" creator="0" insign="auch" outsign="også"/>
+<align out="a189" type="" in="b139" creator="0" insign="sie" outsign="den"/>
+<align out="a195" type="" in="a195" creator="0" insign="ligeknækket" outsign="ligeknækket"/>
+<align out="b144" type="" in="b144" creator="0" insign="..." outsign="..."/>
+<align out="a196" type="" in="a196" creator="0" insign="," outsign=","/>
+<align out="a198" type="f" in="b146" creator="0" insign="ist" outsign="står"/>
+<align out="a199" type="" in="b147" creator="0" insign="für" outsign="til"/>
+<align out="a200" type="" in="b148 b149" creator="0" insign="60 000" outsign="60.000"/>
+<align out="b151 b152" type="" in="b151 b152" creator="0" insign="zu haben" outsign="zu haben"/>
+<align out="a207" type="" in="b158" creator="0" insign="Holzschnitt" outsign="Træsnit"/>
+<align out="a209" type="" in="b160" creator="0" insign="Kunstindustrie" outsign="kunstindustri"/>
+<align out="a211" type="" in="b162" creator="0" insign="Papierschnitte" outsign="papirklip"/>
+<align out="a215" type="" in="b168" creator="0" insign="fast" outsign="næsten"/>
+<align out="a217" type="" in="b170" creator="0" insign="ganze" outsign="hel"/>
+<align out="a218" type="" in="b171" creator="0" insign="Langseite" outsign="langvæg"/>
+<align out="a214" type="" in="b165 b166 b167 b172" creator="0" insign="breiten sich über aus" outsign="optager"/>
+<align out="a205" type="" in="b156" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a204" type="" in="b155" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a213" type="" in="b164" creator="-1" insign="Japan" outsign="Japan"/>
+<align out="a216" type="" in="b169" creator="-1" insign="eine" outsign="en"/>
+<align out="a203" type="" in="b154" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a206" type="" in="b157" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a210" type="" in="b161" creator="-1" insign="und" outsign="og"/>
+<align out="a208" type="f" in="b153" creator="-1" insign="." outsign=","/>
+<align out="a219" type="" in="b173" creator="-1" insign="." outsign="."/>
+<align out="a202" type="f" in="b159" creator="-1" insign="," outsign="."/>
+<align out="a212" type="" in="b163" creator="-1" insign="aus" outsign="fra"/>
+<align out="a224" type="" in="b176 b177 b178" creator="0" insign="Dinge aus Japan" outsign="japan-ting"/>
+<align out="a222" type="" in="b174" creator="0" insign="Die" outsign="De"/>
+<align out="a223" type="" in="b175" creator="0" insign="vielen" outsign="mange"/>
+<align out="a225" type="" in="b179" creator="0" insign="stammen" outsign="stammer"/>
+<align out="a226" type="" in="b180" creator="0" insign="von" outsign="fra"/>
+<align out="a227" type="" in="b182" creator="0" insign="kürzlich" outsign="nyligt"/>
+<align out="a228" type="" in="b183" creator="0" insign="verstorbenen" outsign="afdøde"/>
+<align out="a228" type="ds" in="b181" creator="0" insign="dem" outsign="afdøde"/>
+<align out="a235" type="" in="b189" creator="0" insign="Sammler" outsign="samler"/>
+<align out="a239" type="" in="b193" creator="0" insign="Dozent" outsign="lektor"/>
+<align out="a230" type="" in="b185" creator="-1" insign="Holm" outsign="Holm"/>
+<align out="a229" type="" in="b184" creator="-1" insign="Poul" outsign="Poul"/>
+<align out="a231" type="" in="b186" creator="-1" insign="Olsen" outsign="Olsen"/>
+<align out="a238" type="" in="b192" creator="-1" insign="und" outsign="og"/>
+<align out="a233" type="" in="b188" creator="-1" insign="der" outsign="der"/>
+<align out="a232" type="" in="b187" creator="-1" insign="," outsign=","/>
+<align out="a236" type="" in="b190" creator="-1" insign="," outsign=","/>
+<align out="a237" type="" in="b191" creator="-1" insign="Bildhauer" outsign="billedhugger"/>
+<align out="a234" type="" in="b197" creator="0" insign="war" outsign="var"/>
+<align out="a240" type="" in="b194" creator="0" insign="an" outsign="ved"/>
+<align out="a241" type="s" in="b195 b196" creator="0" insign="der Kunstakademie" outsign="Kunstakademiet"/>
+<align out="a245" type="s" in="b199 b200 b201 b202 b203" creator="0" insign="Die Schätzungen für die Holzschnitte" outsign="Træsnits-vurderingerne"/>
+<align out="a246" type="f" in="b204" creator="0" insign="gehen" outsign="spænder"/>
+<align out="a250" type="" in="b208" creator="0" insign="für" outsign="for"/>
+<align out="a247" type="" in="b205" creator="-1" insign="von" outsign="fra"/>
+<align out="a249" type="" in="b207" creator="-1" insign="kr" outsign="kr."/>
+<align out="a242" type="" in="b198" creator="-1" insign="." outsign="."/>
+<align out="a248" type="" in="b206" creator="-1" insign="500" outsign="500"/>
+<align out="a251" type="" in="b209" creator="0" insign="ein" outsign="et"/>
+<align out="a252" type="" in="b210 b211" creator="0" insign="nicht signiertes" outsign="usigneret"/>
+<align out="a253" type="" in="b213" creator="0" insign="bis" outsign="til"/>
+<align out="a254" type="" in="b214 b215" creator="0" insign="4 000" outsign="4.000"/>
+<align out="b212" type="" in="b212" creator="0" insign="Exemplar" outsign="Exemplar"/>
+<align out="a255" type="" in="b216" creator="-1" insign="für" outsign="for"/>
+<align out="a258" type="" in="b219" creator="-1" insign="von" outsign="af"/>
+<align out="a262" type="" in="b223" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a263" type="" in="b224" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a261" type="" in="b222" creator="-1" insign="." outsign="."/>
+<align out="a260" type="" in="b221" creator="-1" insign="VI" outsign="VI"/>
+<align out="a256" type="" in="b217" creator="-1" insign="eine" outsign="et"/>
+<align out="a257" type="" in="b218" creator="-1" insign="Arbeit" outsign="arbejde"/>
+<align out="a259" type="e" in="b220" creator="0" insign="Toyokumi" outsign="Toyokuni"/>
+</DTAGalign>

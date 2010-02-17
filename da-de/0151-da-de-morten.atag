@@ -1,4 +1,219 @@
 <DTAGalign>
 <alignFile key="a" href="../da/0151-da.tag" sign="_input"/>
 <alignFile key="b" href="../de/0151-de-tagged.tag" sign="_input"/>
-<DTAGalign>
+<align out="a43" type="" in="b2" creator="0" insign="Zwei" outsign="To"/>
+<align out="a44 a45" type="" in="b3" creator="0" insign="Publikumsmagneten" outsign="publikumsmæssige magneter"/>
+<align out="a47" type="" in="b5" creator="0" insign="die" outsign="som"/>
+<align out="a48" type="" in="b6" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a49" type="" in="b7" creator="0" insign="jeder" outsign="hver"/>
+<align out="a50" type="" in="b8" creator="0" insign="auf" outsign="på"/>
+<align out="a51" type="" in="b9" creator="0" insign="seine" outsign="sin"/>
+<align out="a52" type="" in="b10" creator="0" insign="Art" outsign="måde"/>
+<align out="a53" type="" in="b11" creator="0" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a46" type="" in="b4" creator="0" insign="," outsign=","/>
+<align out="a55" type="" in="b12" creator="0" insign="das" outsign="det"/>
+<align out="a54" type="f" in="b15" creator="0" insign="kennzeichnen" outsign="tegner"/>
+<align out="a61" type="" in="b18" creator="0" insign="französische" outsign="Fransk"/>
+<align out="a62" type="ds" in="b17 b19" creator="0" insign="Der Cocktail" outsign="cocktail"/>
+<align out="a63" type="" in="b20" creator="-1" insign="Place" outsign="Place"/>
+<align out="a64" type="" in="b21" creator="-1" insign="Clichy" outsign="Clichy"/>
+<align out="a56" type="" in="b13" creator="-1" insign="moderne" outsign="moderne"/>
+<align out="a57" type="" in="b14" creator="-1" insign="Paris" outsign="Paris"/>
+<align out="a58" type="" in="b16" creator="-1" insign="." outsign="."/>
+<align out="a65" type="" in="b22" creator="0" insign="ist" outsign="er"/>
+<align out="a66" type="" in="b23" creator="0" insign="ein" outsign="en"/>
+<align out="a67" type="" in="b24" creator="0" insign="großartiger" outsign="flot"/>
+<align out="a68" type="" in="b25" creator="0" insign="und" outsign="og"/>
+<align out="a69" type="" in="b26" creator="0" insign="dekorativer" outsign="dekorativ"/>
+<align out="a75" type="" in="b30" creator="0" insign="könnte" outsign="kunne"/>
+<align out="a77" type="ds" in="b31 b32" creator="0" insign="die Hintergrundkulisse" outsign="baggrunds-kulisse"/>
+<align out="a78" type="" in="b33" creator="0" insign="zu" outsign="i"/>
+<align out="a79" type="ds" in="b36" creator="0" insign="Film" outsign="en"/>
+<align out="a80 a81 a82" type="" in="b34" creator="0" insign="jedem" outsign="hvilken som helst"/>
+<align out="a83" type="" in="b35" creator="0" insign="französischen" outsign="fransk"/>
+<align out="a76" type="f" in="b37" creator="0" insign="abgeben" outsign="være"/>
+<align out="a86" type="" in="b39" creator="0" insign="Krimi" outsign="kriminalfilm"/>
+<align out="a84" type="" in="b36" creator="0" insign="Film" outsign="film"/>
+<align out="a85" type="" in="b38" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a71" type="" in="b28" creator="-1" insign="." outsign="."/>
+<align out="a70" type="" in="b27" creator="-1" insign="Platz" outsign="plads"/>
+<align out="a74" type="" in="b29" creator="-1" insign="Er" outsign="Den"/>
+<align out="a87" type="" in="b40" creator="0" insign="," outsign=","/>
+<align out="a88 a89" type="" in="b41" creator="0" insign="Psychothriller" outsign="psykologisk thriller"/>
+<align out="a98 a99" type="" in="b50" creator="0" insign="Außerhalb" outsign="Uden for"/>
+<align out="a102" type="s" in="b53 b54" creator="0" insign="der Platz" outsign="pladsen"/>
+<align out="a104" type="" in="b56 b57" creator="0" insign="am besten" outsign="bedst"/>
+<align out="a109" type="" in="b61" creator="0" insign="saftigen" outsign="saftige"/>
+<align out="a110" type="" in="b62" creator="0" insign="Roman" outsign="roman"/>
+<align out="a96" type="" in="b48" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a97" type="" in="b49" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a94" type="" in="b46" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a95" type="" in="b47" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a101" type="" in="b52" creator="-1" insign="ist" outsign="er"/>
+<align out="a108" type="" in="b60" creator="-1" insign="Millers" outsign="Millers"/>
+<align out="a93" type="" in="b45" creator="-1" insign="." outsign="."/>
+<align out="a107" type="" in="b59" creator="-1" insign="Henry" outsign="Henry"/>
+<align out="a90" type="" in="b42" creator="-1" insign="oder" outsign="eller"/>
+<align out="a91" type="" in="b43" creator="-1" insign="kitschiger" outsign="smeltende"/>
+<align out="a92" type="" in="b44" creator="-1" insign="Liebesfilm" outsign="kærlighedsfilm"/>
+<align out="a100" type="" in="b51" creator="-1" insign="Frankreichs" outsign="Frankrig"/>
+<align out="a103" type="" in="b55" creator="-1" insign="vielleicht" outsign="måske"/>
+<align out="a106" type="" in="b58" creator="0" insign="durch" outsign="fra"/>
+<align out="a105" type="" in="b69" creator="0" insign="bekannt" outsign="kendt"/>
+<align out="a112" type="" in="b64" creator="-1" insign="Stille" outsign="Stille"/>
+<align out="a117" type="" in="b70" creator="-1" insign="," outsign=","/>
+<align out="a111" type="" in="b63" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a116" type="" in="b68" creator="-1" insign="&quot;" outsign="&quot;"/>
+<align out="a115" type="" in="b67" creator="-1" insign="Clichy" outsign="Clichy"/>
+<align out="a114" type="" in="b66" creator="-1" insign="in" outsign="i"/>
+<align out="a113" type="" in="b65" creator="0" insign="Tage" outsign="dage"/>
+<align out="a118" type="" in="b71 b72" creator="0" insign="in dem" outsign="hvor"/>
+<align out="a119" type="lv" in="b73" creator="0" insign="Miller" outsign="han"/>
+<align out="a123" type="" in="b76" creator="0" insign="Boheme-Leben" outsign="boheme-liv"/>
+<align out="a122" type="" in="b75" creator="0" insign="sein" outsign="sit"/>
+<align out="a121" type="" in="b74" creator="0" insign="über" outsign="om"/>
+<align out="a127" type="" in="b80" creator="0" insign="Zuhältern" outsign="alfonser"/>
+<align out="a128" type="" in="a128" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a130" type="" in="b82" creator="0" insign="Künstlern" outsign="kunstnere"/>
+<align out="a131 a132 a133" type="" in="b83 b84" creator="0" insign="aller Art" outsign="af enhver art"/>
+<align out="a134" type="" in="a134" creator="0" insign="&nbsp;-&nbsp;" outsign="&nbsp;-&nbsp;"/>
+<align out="a136" type="" in="b86" creator="0" insign="den" outsign="de"/>
+<align out="a137" type="" in="b87" creator="0" insign="hektischen" outsign="hektiske"/>
+<align out="a126" type="f" in="b79" creator="-1" insign="," outsign="og"/>
+<align out="a129" type="" in="b81" creator="-1" insign="und" outsign="og"/>
+<align out="a135" type="" in="b85" creator="-1" insign="in" outsign="i"/>
+<align out="a124" type="" in="b77" creator="-1" insign="mit" outsign="mellem"/>
+<align out="a125" type="" in="b78" creator="-1" insign="Huren" outsign="ludere"/>
+<align out="a120" type="" in="b92" creator="0" insign="erzählt" outsign="fortæller"/>
+<align out="a138" type="" in="b88" creator="0" insign="und" outsign="og"/>
+<align out="a139" type="" in="b89" creator="0" insign="chaotischen" outsign="kaotiske"/>
+<align out="a140" type="" in="b90 b91" creator="0" insign="30er Jahren" outsign="1930'ere"/>
+<align out="a155" type="" in="b109" creator="0" insign="." outsign="."/>
+<align out="a154" type="" in="b108" creator="0" insign="mehr" outsign="mere"/>
+<align out="a153" type="" in="b107" creator="0" insign="viel" outsign="meget"/>
+<align out="a146" type="" in="b99" creator="0" insign="für" outsign="For"/>
+<align out="a147" type="ds" in="b100 b101" creator="0" insign="die Pariser" outsign="parisere"/>
+<align out="a148" type="f" in="b102" creator="0" insign="bedeutet" outsign="repræsenterer"/>
+<align out="a149 a150" type="ds" in="b103 b104 b105" creator="0" insign="der Place Clichy" outsign="Place Clichy"/>
+<align out="a152" type="" in="a152" creator="0" insign="noget" outsign="noget"/>
+<align out="a151" type="" in="b106" creator="0" insign="noch" outsign="imidlertid"/>
+<align out="b98" type="" in="b98" creator="0" insign="Aber" outsign="Aber"/>
+<align out="a158" type="" in="b112" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a144" type="" in="b96" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a159" type="" in="b113" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a145" type="" in="b97" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a156" type="" in="b110" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a142" type="" in="b94" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a157" type="" in="b111" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a143" type="" in="b95" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a141" type="" in="b93" creator="-1" insign="." outsign="."/>
+<align out="a161" type="" in="b115" creator="-1" insign="," outsign=","/>
+<align out="a160" type="" in="b114" creator="-1" insign="Bars" outsign="Barer"/>
+<align out="a175" type="" in="b128" creator="0" insign="Mädchen" outsign="piger"/>
+<align out="a174" type="" in="b127" creator="0" insign="leichtlebige" outsign="letlevende"/>
+<align out="a173" type="" in="b126" creator="0" insign="selbstverständlich" outsign="selvfølgelig"/>
+<align out="a172" type="" in="a172" creator="0" insign="så" outsign="så"/>
+<align out="a177" type="" in="b130 b131 b132" creator="0" insign="vermischen sich zu" outsign="skaber"/>
+<align out="a178" type="" in="b133" creator="0" insign="einem" outsign="en"/>
+<align out="a179" type="" in="b134" creator="0" insign="Cocktail" outsign="cocktail"/>
+<align out="a171" type="" in="b125" creator="-1" insign="und" outsign="og"/>
+<align out="a170" type="" in="b124" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a176" type="" in="b129" creator="-1" insign="-" outsign="&nbsp;-&nbsp;"/>
+<align out="a163" type="" in="b117" creator="-1" insign="," outsign=","/>
+<align out="a165" type="" in="b119" creator="-1" insign="," outsign=","/>
+<align out="a167" type="" in="b121" creator="-1" insign="," outsign=","/>
+<align out="a180" type="" in="b135" creator="-1" insign="," outsign=","/>
+<align out="a162" type="" in="b116" creator="-1" insign="Restaurants" outsign="restauranter"/>
+<align out="a164" type="" in="b118" creator="-1" insign="Kinos" outsign="biografer"/>
+<align out="a166" type="" in="b120" creator="-1" insign="Theater" outsign="teatre"/>
+<align out="a168" type="" in="b122" creator="-1" insign="hektisches" outsign="travlt"/>
+<align out="a169" type="" in="b123" creator="-1" insign="Geschäftsleben" outsign="forretningsliv"/>
+<align out="a198" type="" in="b150" creator="0" insign="." outsign="."/>
+<align out="a183" type="" in="b140" creator="0" insign="könnte" outsign="kan"/>
+<align out="a184" type="" in="b139" creator="0" insign="sein" outsign="være"/>
+<align out="a182" type="" in="b138" creator="0" insign="nicht" outsign="ikke"/>
+<align out="a181" type="" in="b136" creator="0" insign="der" outsign="som"/>
+<align out="a186 a185" type="" in="b137" creator="0" insign="französischer" outsign="fransk mere"/>
+<align out="a187" type="" in="a187" creator="0" insign="," outsign=","/>
+<align out="a191 a192 a193 a194 a195" type="" in="b146 b147 b148 b149" creator="0" insign="kaum besser finden kann" outsign="næppe finder bedre noget sted"/>
+<align out="a201" type="" in="b153" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a203" type="" in="b155" creator="-1" insign="Ein" outsign="En"/>
+<align out="a200" type="" in="b152" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a199" type="" in="b151" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a202" type="" in="b154" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a188" type="" in="b141" creator="-1" insign="und" outsign="og"/>
+<align out="a190" type="" in="b143" creator="-1" insign="man" outsign="man"/>
+<align out="a196" type="" in="b144" creator="-1" insign="in" outsign="i"/>
+<align out="a197" type="" in="b145" creator="-1" insign="Paris" outsign="Paris"/>
+<align out="a189" type="" in="b142" creator="-1" insign="den" outsign="som"/>
+<align out="a204" type="" in="b156" creator="0" insign="interessanter" outsign="spændende"/>
+<align out="a205" type="" in="b157" creator="0" insign="Abend" outsign="aften"/>
+<align out="a206" type="" in="b158" creator="0" insign="im" outsign="i"/>
+<align out="a208" type="" in="b159" creator="0" insign="Nachtleben" outsign="natteliv"/>
+<align out="a207" type="s" in="b158 b160 b161" creator="0" insign="im von Paris" outsign="Paris'"/>
+<align out="a213" type="" in="b162" creator="0" insign="beginnt" outsign="indledes"/>
+<align out="a209" type="" in="a209" creator="0" insign="kan" outsign="kan"/>
+<align out="a210 a211 a212" type="" in="b163" creator="0" insign="vorzugsweise" outsign="med stor fordel"/>
+<align out="a214" type="" in="b164" creator="0" insign="mit" outsign="med"/>
+<align out="a219" type="" in="b169" creator="0" insign="der" outsign="af"/>
+<align out="a222" type="" in="b170" creator="0" insign="vielen" outsign="mange"/>
+<align out="a223" type="" in="b171" creator="0" insign="hervorragenden" outsign="fremragende"/>
+<align out="a220 a221" type="s" in="b169 b174 b175" creator="0" insign="der Place Clichy" outsign="Place Clichys"/>
+<align out="a217" type="" in="b167" creator="-1" insign="in" outsign="på"/>
+<align out="a215" type="" in="b165" creator="-1" insign="einem" outsign="en"/>
+<align out="a218" type="" in="b168" creator="-1" insign="einem" outsign="en"/>
+<align out="a216" type="" in="b166" creator="-1" insign="Abendessen" outsign="middag"/>
+<align out="b173" type="" in="b173" creator="0" insign="am" outsign="am"/>
+<align out="a231" type="" in="b182" creator="0" insign="Klopse" outsign="boller"/>
+<align out="a232" type="" in="b183" creator="0" insign="mit" outsign="på"/>
+<align out="a233" type="s" in="b184 b185" creator="0" insign="der Suppe" outsign="suppen"/>
+<align out="a239" type="" in="b191" creator="0" insign="Die" outsign="Dem"/>
+<align out="a230" type="" in="b181" creator="-1" insign="Pikante" outsign="Pikante"/>
+<align out="a247" type="" in="b198" creator="-1" insign="Boulevard" outsign="Boulevard"/>
+<align out="a224" type="" in="b172" creator="-1" insign="Restaurants" outsign="restauranter"/>
+<align out="a234" type="" in="b186" creator="-1" insign="?" outsign="?"/>
+<align out="a229" type="" in="b180" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a238" type="" in="b190" creator="-1" insign="<s>" outsign="<s>"/>
+<align out="a237" type="" in="b189" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a228" type="" in="b179" creator="-1" insign="<p>" outsign="<p>"/>
+<align out="a236" type="" in="b188" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a227" type="" in="b178" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a226" type="" in="b177" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a235" type="" in="b187" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a225" type="" in="b176" creator="-1" insign="." outsign="."/>
+<align out="a242" type="" in="b194" creator="-1" insign="," outsign=","/>
+<align out="a241" type="" in="b193" creator="-1" insign="man" outsign="man"/>
+<align out="a244" type="" in="b196" creator="-1" insign="man" outsign="man"/>
+<align out="a248" type="" in="b199" creator="-1" insign="de" outsign="de"/>
+<align out="a240" type="" in="b192" creator="-1" insign="bekommt" outsign="får"/>
+<align out="a243" type="" in="b195" creator="-1" insign="wenn" outsign="hvis"/>
+<align out="a252" type="" in="b204" creator="-1" insign="Pigalle" outsign="Pigalle"/>
+<align out="a255" type="" in="b207" creator="-1" insign="Blanche" outsign="Blanche"/>
+<align out="a249" type="" in="b200" creator="-1" insign="Clichy" outsign="Clichy"/>
+<align out="a253" type="" in="b205" creator="-1" insign="und" outsign="og"/>
+<align out="a260" type="" in="b212" creator="-1" insign="und" outsign="og"/>
+<align out="a256" type="" in="b209" creator="-1" insign="," outsign=","/>
+<align out="a251" type="" in="b203" creator="-1" insign="Place" outsign="Place"/>
+<align out="a254" type="" in="b206" creator="-1" insign="Place" outsign="Place"/>
+<align out="a245 a246" type="" in="b208" creator="0" insign="folgt" outsign="fortsætter ad"/>
+<align out="a250" type="" in="b201 b202" creator="0" insign="in Richtung" outsign="mod"/>
+<align out="a247" type="ds" in="b197" creator="0" insign="dem" outsign="Boulevard"/>
+<align out="a257" type="" in="b210" creator="0" insign="wo" outsign="hvor"/>
+<align out="a261" type="" in="b213" creator="0" insign="Striptease-Shows" outsign="strip-tease-shows"/>
+<align out="a264" type="s" in="b214 b216" creator="0" insign="die Nacht" outsign="natten"/>
+<align out="a259" type="" in="b211" creator="0" insign="Nachtclubs" outsign="natklubber"/>
+<align out="a267" type="" in="b225" creator="0" insign="bieten" outsign="tilbyder"/>
+<align out="a270" type="" in="b223" creator="0" insign="jeden" outsign="enhver"/>
+<align out="a271" type="" in="b224" creator="0" insign="Geschmack" outsign="smag"/>
+<align out="a262" type="" in="b219" creator="0" insign="laufen" outsign="kører"/>
+<align out="a265" type="" in="b217" creator="0" insign="hindurch" outsign="igennem"/>
+<align out="a263" type="" in="b218" creator="0" insign="ununterbrochen" outsign="uafbrudt"/>
+<align out="a258" type="" in="a258" creator="0" insign="kontante" outsign="kontante"/>
+<align out="b215" type="" in="b215" creator="0" insign="ganze" outsign="ganze"/>
+<align out="a268" type="" in="b221" creator="0" insign="etwas" outsign="noget"/>
+<align out="a266" type="" in="b220" creator="-1" insign="und" outsign="og"/>
+<align out="a274" type="" in="b228" creator="-1" insign="</p>" outsign="</p>"/>
+<align out="a273" type="" in="b227" creator="-1" insign="</s>" outsign="</s>"/>
+<align out="a269" type="" in="b222" creator="-1" insign="für" outsign="for"/>
+<align out="a272" type="" in="b226" creator="-1" insign="." outsign="."/>
+</DTAGalign>
