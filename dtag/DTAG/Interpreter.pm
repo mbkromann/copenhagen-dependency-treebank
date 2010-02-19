@@ -1876,6 +1876,37 @@ sub cmd_close {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_cmdlog.pl
+## ------------------------------------------------------------
+
+sub cmd_cmdlog {
+	my $self = shift;
+	my $file = shift;
+
+	# Insert user name
+	my $user = $self->var("user") || "none";
+	if ($file =~ /{USER}/) {
+		$file =~ s/{USER}/$user/g;
+	}
+
+	# Open file for appending
+	my $fh;
+	my $date = `date +'%Y.%m.%d-%H.%M'` || "???";
+	chomp($date);
+	$file = $file . "-$date";
+	if (open($fh, ">>", $file)) {
+		autoflush $fh 1;
+		$self->var("cmdlog", $fh);
+		$self->var("cmdlog.time0", time());
+		print $fh "# open cmdlog: $date\n";
+		return 1;
+	}
+
+	error("Cannot open file $file for appending");
+	return 0;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_comment.pl
 ## ------------------------------------------------------------
 
@@ -2683,6 +2714,15 @@ sub cmd_exit {
 	# Delete follow files
 	unlink($graph->fpsfile()) if ($graph && $graph->fpsfile());
 	unlink($self->fpsfile()) if ($self && $self->fpsfile());
+
+	# Close cmdlog
+	my $cmdlog = $self->var("cmdlog");
+	if (defined($cmdlog)) {
+	 	print $cmdlog "\n# close cmdlog: " 
+			. (`date +'%Y.%m.%d-%H.%M'` || "???") . "\n";
+		close($cmdlog);
+		$self->var("cmdlog", undef);
+	}
 
 	# Exit
 	exit();
@@ -7013,6 +7053,28 @@ sub cmd_undiff {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_user.pl
+## ------------------------------------------------------------
+
+sub cmd_user {
+	my $self = shift;
+	my $user = shift;
+
+	if ($user =~ /^-f\s+(\S+)\s*$/) {
+		my $userfile = $1;
+		if ( -r $userfile) {
+			my $username = `cat $userfile` || "none";
+			chomp($username);
+			$self->var("user", $username);
+		}
+	} elsif ($user =~ /^\s*(\S+)\s*$/) {
+		$self->var("user", $user);
+	}
+	print "User: " . $self->var("user") . "\n";
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_vars.pl
 ## ------------------------------------------------------------
 
@@ -7278,6 +7340,13 @@ sub do {
 	my $success = undef;
 	my $graph = $self->graph();
 
+	# Log command
+	my $cmdlog = $self->var("cmdlog");
+	if (defined($cmdlog) && ! $self->quiet()) {
+		my $time = time() - ($self->var("cmdlog.time0") || 0);
+		print $cmdlog "$time:\t$cmdstr\n";
+	}
+
 	# ---------- COMMANDS IN SORTED ORDER ----------
 
 	# Find list of commands to process
@@ -7422,6 +7491,10 @@ sub do {
 		# Close: close
 		$success = $self->cmd_close($graph, $2)
 			if ($cmd =~ /^\s*close(\s+(-all))?\s*$/);
+
+		# Command log: cmdlog $file
+		$success = $self->cmd_cmdlog($1)
+			if ($cmd =~ /^\s*cmdlog\s+(.*\S)\s*$/);
 
 		# Comment: comment $pos $dtag_code
 		$success = $self->cmd_comment($graph, $1, $2) 
@@ -7582,7 +7655,6 @@ sub do {
 			if ($cmd =~ /^\s*move\s+([0-9]+)\s+([0-9]+)\s*$/);
 
 		# Multiedit: multiedit $node1-$node2 ...
-
 
 		# New: new (create new graph)
 		$success = $self->cmd_new()
@@ -7763,6 +7835,10 @@ sub do {
 		# Unix shell: unix $cmd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*unix\s+(.*)$/);
+
+		# User name: user [-f $file] $name
+		$success = $self->cmd_user($1) 
+			if ($cmd =~ /^\s*user\s+(.*\S)\s*$/);
 
 		# Vars: vars [+$var[:$abbrev]] [-$var] ... 
 		#	var +gloss:g +lexeme:x -glss

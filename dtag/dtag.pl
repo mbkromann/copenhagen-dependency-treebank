@@ -22,7 +22,7 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = '1.0.0 (2010-02-19 11:11:14)';
+my $RELEASE = '1.0.1 (2010-02-19 12:15:14)';
 
 use strict;
 use File::Basename;
@@ -80,7 +80,7 @@ foreach my $arg (@ARGV) {
 $inter->quiet($quiet);
 if (! $quiet) {
 	print "Welcome to DTAG dependency tagger v. $RELEASE\n";
-	print "Copyright (c) 2002-2009 Matthias Buch-Kromann\n";
+	print "Copyright (c) 2002-2010 Matthias Buch-Kromann\n";
 	print "Using DTAG directory $DTAGHOME\n";
 }
 
@@ -96,6 +96,7 @@ if ($init) {
 	}
 }
 $inter->quiet($quiet);
+$inter->var("user", "none");
 
 # Process command line arguments
 while (@ARGV) {

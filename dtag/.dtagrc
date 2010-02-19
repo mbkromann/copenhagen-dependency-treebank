@@ -192,3 +192,6 @@ etypes -add -adj origin interfix PRED:agent dobj.patient
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 etypes -land land xland \n\n
 
+# Command log
+user -f /home/cdt/.cdtname
+cmdlog /home/cdt/cdt/logs/{USER}
