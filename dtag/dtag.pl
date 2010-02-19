@@ -22,7 +22,7 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = '1.0.0 (2010-02-03 16:27:26)';
+my $RELEASE = '1.0.0 (2010-02-19  9:11:01)';
 
 use strict;
 use File::Basename;

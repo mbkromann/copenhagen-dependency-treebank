@@ -150,6 +150,7 @@ macro discourse discourse2
 macro syntax style discourse -label -color darkgreen -arc -color darkgreen -arclabel -color darkgreen ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def"
 syntax
 macro reset script -q ~/cdt/dtag/.dtagrc
+macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag -matches -default morph *.tag
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &

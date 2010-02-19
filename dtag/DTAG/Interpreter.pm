@@ -1508,6 +1508,7 @@ sub cmd_autotag {
 	my $graph = shift;
 	my $tag = shift;
 	my $files = shift || "";
+	my $matches = shift || 0;
 	#print "autotag: tag=\"$tag\" files=\"$files\"\n";
 	
 	# Check that $graph is a dependency graph
@@ -1523,6 +1524,10 @@ sub cmd_autotag {
 	} else {
 		$graph->var('autotagvar', $tag);
 	}
+
+	# Specify matches
+	$graph->var('autotagmatches', 
+		$matches ? $graph->matches($self) : undef);
 
 	# Set new variable
 	$self->cmd_vars($graph, $tag);
@@ -1686,9 +1691,11 @@ sub cmd_autotag_next {
 	}
 
 	# Find next untagged node
+	my $matches = $graph->var('autotagmatches');
 	for (my $i = $pos + 1; $i < $graph->size(); ++$i) {
 		$node = $graph->node($i);
-		if (defined($node) && ! $node->comment()) {
+		if (defined($node) && ! $node->comment()
+			&& (! defined($matches) || $matches->{$i})) {
 			$pos = $i;
 			last;
 		}
@@ -1745,7 +1752,8 @@ sub cmd_autotag_next {
 	my $rcontext = [];
 	for (my $i = $pos + 1; $i < $graph->size() 
 			&& scalar(@$rcontext) < $maxcount; ++$i) {
-		if (! $graph->node($i)->comment()) {
+		my $node = $graph->node($i);
+	    if (defined($node) && ! $graph->node($i)->comment()) {
 			push @$rcontext, $i;
 		}
 	}
@@ -7391,8 +7399,8 @@ sub do {
 		} elsif ($cmd =~ /^\s*autotag\s+-off\s*$/) {
 			$self->autotag_off($graph);
 			$success = 1;
-		} elsif ($cmd =~ /^\s*autotag\s+(\S+)\s*(.*)$/) {
-			$success = $self->cmd_autotag($graph, $1, $2);
+		} elsif ($cmd =~ /^\s*autotag\s+((-matches)\s+)?(\S+)\s*(.*)$/) {
+			$success = $self->cmd_autotag($graph, $3, $4, $2);
 		}
 
 		# Autotag assignment: "<value" and "pos<value"
@@ -7485,7 +7493,7 @@ sub do {
 
 		# Find: find $pattern
 		$success = $self->cmd_find($graph, $1) 
-			if ($cmd =~ /^\s*find\s+(.*)$/);
+			if ($cmd =~ /^\s*find\s+(.*\S)\s*$/);
 
 		# Follow: follow [$file]
 		$success = $self->cmd_follow($graph, $1)
@@ -7796,6 +7804,7 @@ sub do {
 			my $fname = $graph->file() || "UNTITLED";
 			$cmd2 =~ s/{FILE}/$fname/g;
 			if ($cmd) {
+			
 				$self->do($cmd2);
 				$success = 1;
 			}
