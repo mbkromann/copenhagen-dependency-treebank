@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="9:subj" out="1:attr|2:attr|3:nobj|5:appr">To</W>
-<W gloss="well-known" lemma="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kendte</W>
-<W gloss="Russian" lemma="russisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">russiske</W>
+<W gloss="well-known" lemma="kendt" morph="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kendte</W>
+<W gloss="Russian" lemma="russisk" morph="russisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">russiske</W>
 <W gloss="historians" lemma="historiker" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">historikere</W>
 <W gloss="Andronik" lemma="Andronik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Andronik</W>
 <W gloss="Mirganjan" lemma="Mirganjan" msd="NP--U==-" tag="NNP" in="-5:appr" out="-1:namef|1:coord">Mirganjan</W>
@@ -153,7 +153,7 @@
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="13:pnct" out="">"</W>
 <W gloss="Precisely" lemma="netop" msd="RGU" tag="RP" in="1:eval" out="">Netop</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="11:cause" out="4:vobj|-1:eval">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="11:cause" out="-1:eval|4:vobj">fordi</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="even" lemma="end" msd="RGU" tag="RP" in="1:mod" out="">end</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:mod">ikke</W>
@@ -228,7 +228,7 @@
 <W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|-4:dobj">set</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="2:conj">og</W>
 <W gloss="unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:att" out="">desværre</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-6:[subj]|1:vobj|-1:att">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-6:[subj]|-1:att|1:vobj">vil</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:pobj">komme</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

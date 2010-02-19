@@ -50,9 +50,9 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="The_debate" lemma="debat" msd="NCCSU==D" tag="NN" in="5:subj|7:[subj]" out="1:pobj">Debatten</W>
+<W gloss="The_debate" lemma="debat" morph="debat" msd="NCCSU==D" tag="NN" in="5:subj|7:[subj]" out="1:pobj">Debatten</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
-<W gloss="foreigners" lemma="udlænding" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:loc">udlændinge</W>
+<W gloss="foreigners" lemma="udlænding" morph="udlænding" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:loc">udlændinge</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:neg|2:vobj|7:pnct">må</W>
@@ -68,7 +68,7 @@
 <p>
 <s>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="1:subj|6:vobj|11:pnct|-1:cause">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|6:vobj|11:pnct">skal</W>
 <W gloss="the_leaders" lemma="leder" msd="NCCPU==D" tag="NNP" in="-1:subj|5:[subj]" out="1:pobj">lederne</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
@@ -199,7 +199,7 @@
 </s>
 <s>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
-<W gloss="drive" lemma="køre" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:time|5:dobj|43:pnct|-1:cause">kører</W>
+<W gloss="drive" lemma="køre" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|2:time|5:dobj|43:pnct">kører</W>
 <W gloss="DSU" lemma="DSU" msd="NP--U==-" tag="NNP" in="-1:subj" out="">DSU</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">disse</W>
