@@ -1509,7 +1509,7 @@ sub cmd_autotag {
 	my $tag = shift;
 	my $files = shift || "";
 	my $matches = shift || 0;
-	#print "autotag: tag=\"$tag\" files=\"$files\"\n";
+	print "autotag: tag=\"$tag\" matches=\"$matches\" files=\"$files\"\n";
 	
 	# Check that $graph is a dependency graph
 	if (! UNIVERSAL::isa($graph, 'DTAG::Graph')) {
@@ -1536,8 +1536,8 @@ sub cmd_autotag {
 	# exists, then drop given files
 	my $lexicons = $self->var('autotaglex') || {};
 	$self->var('autotaglex', $lexicons);
-	$lexicons->{$tag} = $lexicons->{$tag} || {};
-	if ($files !~ /^\s*-default\s+/) {
+	if (! ($files =~ /^\s*-default\s+/ && defined($lexicons->{$tag}))) {
+		$lexicons->{$tag} = $lexicons->{$tag} || {};
 		my $lexicon = {};
 		$lexicons->{$tag} = $lexicon;
 
@@ -7399,8 +7399,8 @@ sub do {
 		} elsif ($cmd =~ /^\s*autotag\s+-off\s*$/) {
 			$self->autotag_off($graph);
 			$success = 1;
-		} elsif ($cmd =~ /^\s*autotag\s+((-matches)\s+)?(\S+)\s*(.*)$/) {
-			$success = $self->cmd_autotag($graph, $3, $4, $2);
+		} elsif ($cmd =~ /^\s*autotag\s+(\S+)(\s+(-matches))?(\s+(.*\S))?\s+$/) {
+			$success = $self->cmd_autotag($graph, $1, $5, $3);
 		}
 
 		# Autotag assignment: "<value" and "pos<value"
