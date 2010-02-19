@@ -1509,7 +1509,7 @@ sub cmd_autotag {
 	my $tag = shift;
 	my $files = shift || "";
 	my $matches = shift || 0;
-	print "autotag: tag=\"$tag\" matches=\"$matches\" files=\"$files\"\n";
+	#print "autotag: tag=\"$tag\" matches=\"$matches\" files=\"$files\"\n";
 	
 	# Check that $graph is a dependency graph
 	if (! UNIVERSAL::isa($graph, 'DTAG::Graph')) {
