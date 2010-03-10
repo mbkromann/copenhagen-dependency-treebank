@@ -857,6 +857,9 @@ sub is_adjunct {
 	# Return 1 if edge is an adjunct edge 
 	my $type = "" . ((ref($edge) ? $edge->type() : $edge) || "");
 
+	# Return 1 if edge is '+'
+	return 1 if ($type eq "+");
+
 	# Return 0 if edge is a landing edge
 	return 0 if ($self->is_landing($edge));
 

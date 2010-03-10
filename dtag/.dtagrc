@@ -168,10 +168,10 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj tobj vobj
 
 # Adjunct relations replacing "mod" (Lotte's list)
-etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond prec prg reas source space struct succ time
+etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond poss prec prg reas source space struct succ time
 
 # Other adjunct relations
-etypes -add -adj + appa appr attr attrd attrr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
+etypes -add -adj appa + appr attr attrd attrr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
 etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl
