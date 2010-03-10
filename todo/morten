@@ -1,3 +1,35 @@
+# Indsæt "*" når annotationen er afsluttet
+[*] it/1347-it-morten.tag
+[*] it/0502-it-morten.tag
+[*] it/0104-it-morten.tag
+[*] it/0184-it-morten.tag
+[*] it/0306-it-morten.tag
+[*] it/0421-it-morten.tag
+[ ] it/0531-it-morten.tag
+[ ] it/0620-it-morten.tag
+[ ] it/0863-it-morten.tag
+[ ] it/1252-it-morten.tag
+[ ] it/1383-it-morten.tag
+[ ] it/1428-it-morten.tag
+[*] it/0104-it-morten.tag
+[*] it/0306-it-morten.tag
+
+[*] da-it/0187-da-it-morten.atag
+[*] it/0187-it-morten.tag
+[*] da-it/0307-da-it-morten.atag
+[*] it/0307-it-morten.tag
+[*] da-it/0593-da-it-morten.atag
+[*] it/0593-it-morten.tag
+[*] da-it/0675-da-it-morten.atag
+[*] it/0675-it-morten.tag
+[*] da-it/0956-da-it-morten.atag
+[*] it/0956-it-morten.tag
+[*] da-it/1035-da-it-morten.atag
+[*] it/1035-it-morten.tag
+[*] da-it/1241-da-it-morten.atag
+[*] it/1241-it-morten.tag
+[*] da-it/1429-da-it-morten.atag
+[*] it/1429-it-morten.tag
 [*] da-de/0005-da-de-morten.atag
 [*] de/0005-de-morten.tag
 [*] da-de/0008-da-de-morten.atag
