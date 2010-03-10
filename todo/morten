@@ -5,31 +5,32 @@
 [*] it/0184-it-morten.tag
 [*] it/0306-it-morten.tag
 [*] it/0421-it-morten.tag
-[ ] it/0531-it-morten.tag
-[ ] it/0620-it-morten.tag
-[ ] it/0863-it-morten.tag
-[ ] it/1252-it-morten.tag
-[ ] it/1383-it-morten.tag
-[ ] it/1428-it-morten.tag
+[*] it/0531-it-morten.tag
+[*] it/0620-it-morten.tag
+[*] it/0863-it-morten.tag
+[*] it/1252-it-morten.tag
+[*] it/1383-it-morten.tag
+[*] it/1428-it-morten.tag
 [*] it/0104-it-morten.tag
 [*] it/0306-it-morten.tag
-
-[*] da-it/0187-da-it-morten.atag
 [*] it/0187-it-morten.tag
-[*] da-it/0307-da-it-morten.atag
-[*] it/0307-it-morten.tag
-[*] da-it/0593-da-it-morten.atag
-[*] it/0593-it-morten.tag
-[*] da-it/0675-da-it-morten.atag
-[*] it/0675-it-morten.tag
-[*] da-it/0956-da-it-morten.atag
-[*] it/0956-it-morten.tag
-[*] da-it/1035-da-it-morten.atag
-[*] it/1035-it-morten.tag
-[*] da-it/1241-da-it-morten.atag
-[*] it/1241-it-morten.tag
-[*] da-it/1429-da-it-morten.atag
-[*] it/1429-it-morten.tag
+[ ] it/0307-it-morten.tag
+[ ] it/0593-it-morten.tag
+[ ] it/0675-it-morten.tag
+[ ] it/0956-it-morten.tag
+[ ] it/1035-it-morten.tag
+[ ] it/1241-it-morten.tag
+[ ] it/1429-it-morten.tag
+[*] it/0187-it-morten.tag
+[ ] it/0307-it-morten.tag
+[ ] it/0593-it-morten.tag
+[ ] it/0675-it-morten.tag
+[ ] it/0956-it-morten.tag
+[ ] it/1035-it-morten.tag
+[ ] it/1241-it-morten.tag
+[ ] it/1429-it-morten.tag
+
+Tysk annotation:
 [*] da-de/0005-da-de-morten.atag
 [*] de/0005-de-morten.tag
 [*] da-de/0008-da-de-morten.atag
@@ -150,6 +151,8 @@
 [*] da-de/0182-da-de-morten.atag
 [*] da-de/0184-da-de-morten.atag
 [*] da-de/0005-da-de-morten.atag
+
+Tyske tekster:
 [*] de/0005-de-morten.tag
 [*] da-de/0008-da-de-morten.atag
 [*] de/0008-de-morten.tag
@@ -971,38 +974,9 @@
 [ ] de/1546-de-morten.tag
 [ ] da-de/1547-da-de-morten.atag
 [ ] de/1547-de-morten.tag
+----------------------------------------
 
-[ ] da-de/0187-da-de-morten.atag
-[ ] da-de/0188-da-de-morten.atag
-[ ] da-de/0190-da-de-morten.atag
-[ ] da-de/0191-da-de-morten.atag
-[ ] da-de/0197-da-de-morten.atag
-[ ] da-de/0204-da-de-morten.atag
-[ ] da-de/0211-da-de-morten.atag
-[ ] da-de/0212-da-de-morten.atag
-[ ] da-de/0215-da-de-morten.atag
-[ ] da-de/0229-da-de-morten.atag
-[ ] da-de/0235-da-de-morten.atag
-[ ] da-de/0237-da-de-morten.atag
-[ ] da-de/0244-da-de-morten.atag
-[ ] da-de/0245-da-de-morten.atag
-[ ] da-de/0257-da-de-morten.atag
-[ ] da-de/0258-da-de-morten.atag
-[ ] da-de/0259-da-de-morten.atag
-[ ] da-de/0260-da-de-morten.atag
-[ ] da-de/0262-da-de-morten.atag
-[ ] da-de/0264-da-de-morten.atag
-[ ] da-de/0265-da-de-morten.atag
-[ ] da-de/0268-da-de-morten.atag
-[ ] da-de/0269-da-de-morten.atag
-[ ] da-de/0272-da-de-morten.atag
-[ ] da-de/0273-da-de-morten.atag
-[ ] da-de/0278-da-de-morten.atag
-[ ] da-de/0285-da-de-morten.atag
-[ ] da-de/0294-da-de-morten.atag
-[ ] da-de/0298-da-de-morten.atag
-
-# Diskursannotation til speciale
+# Diskursannotation fra speciale
 
 [*] da/0001-da-disc-morten.tag
 [*] da/0005-da-disc-morten.tag
@@ -1085,6 +1059,7 @@
 [*] da/1428-da-disc-morten.tag
 [*] da/1497-da-disc-morten.tag
 
+Italienske tekster fra korpus 3:
 [*] it/0001-it-disc-morten.tag
 [*] it/0005-it-disc-morten.tag
 [*] it/0008-it-disc-morten.tag
@@ -1166,13 +1141,12 @@
 [*] it/1428-it-disc-morten.tag
 [*] it/1497-it-disc-morten.tag
 
-# Indsæt "*" når annotationen er afsluttet
+Italienske tekster fra korpus 1+2:
 [*] da-it/0502-da-it-morten.atag
 [*] it/1347-it-morten.tag
 [*] it/0502-it-morten.tag
 [*] da-it/0502-da-it-morten.atag
 [*] da-it/1347-da-it-morten.atag
-
 [*] da-it/0104-da-it-morten.atag
 [*] it/0104-it-morten.tag
 [*] da-it/0184-da-it-morten.atag
@@ -1193,13 +1167,10 @@
 [*] it/1383-it-morten.tag
 [*] da-it/1428-da-it-morten.atag
 [*] it/1428-it-morten.tag
-
 [*] da-it/0104-da-it-morten.atag
 [*] it/0104-it-morten.tag
 [*] da-it/0306-da-it-morten.atag
 [*] it/0306-it-morten.tag
-
-
 [*] da-it/0187-da-it-morten.atag
 [*] it/0187-it-morten.tag
 [*] da-it/0307-da-it-morten.atag
@@ -1217,7 +1188,7 @@
 [*] da-it/1429-da-it-morten.atag
 [*] it/1429-it-morten.tag
 
-# New tasks replacing wrongly assigned tasks
+Flere italienske tekster:
 [*] da-it/0152-da-it-morten.atag
 [*] it/0152-it-morten.tag
 [*] da-it/0212-da-it-morten.atag
@@ -2538,7 +2509,7 @@
 
 
 [ ] da-it/0187-da-it-morten.atag
-[ ] it/0187-it-morten.tag
+[*] it/0187-it-morten.tag
 [ ] da-it/0307-da-it-morten.atag
 [ ] it/0307-it-morten.tag
 [ ] da-it/0593-da-it-morten.atag

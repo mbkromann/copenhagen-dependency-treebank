@@ -122,7 +122,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj|-57:coref-id|2:[subj]" out="-1:namef|2:attrr|61:coref-id">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="ritornare" msd="VAP" tag="VER&3a;pper" in="-2:attrr" out="-1:pnct|1:time&3a;prec|2:space&3a;dir|-2:[subj]">ritornato</W>
+<W lemma="ritornare" msd="VAP" tag="VER&3a;pper" in="-2:attrr" out="-1:pnct|-2:[subj]|1:time&3a;prec|2:space&3a;dir">ritornato</W>
 <W lemma="ieri" msd="RG" tag="ADV" in="-1:time&3a;prec" out="">ieri</W>
 <W lemma="da" msd="SP" tag="PRE" in="-2:space&3a;dir" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:appa">NUGA</W>
@@ -181,7 +181,7 @@
 <W lemma="Finlandia" msd="NP" tag="NPR" in="-4:conj" out="-1:coord">Finlandia</W>
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|-61:coref-id" out="-1:namef">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-61:coref-id|1:subj" out="-1:namef">Bred</W>
 <W lemma="credere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-1:subj|-3:coord|1:dobj|12:pnct">crede</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="perfino" msd="RG" tag="ADV" in="1:prg&3a;focal" out="">perfino</W>

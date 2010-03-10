@@ -27,7 +27,7 @@
 <W _compound="1" compound="¹ritornar²ci" lemma="ritornare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²space&3a;dir¹" out="-5:[subj]|0:²space&3a;dir¹">ritornarci</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="1:time&3a;cont" out="">Oggi</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="2:[subj]" out="-1:time&3a;cont|1:time|2:vobj|5:cause&3a;reas|26:pnct|3:time&3a;ext">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="2:[subj]" out="-1:time&3a;cont|1:time|2:vobj|3:time&3a;ext|5:cause&3a;reas|26:pnct">sarebbe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:time" out="">già</W>
 <W lemma="morire" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-2:[subj]">morto</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:time&3a;ext" out="1:nobj">più</W>

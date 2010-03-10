@@ -149,7 +149,7 @@
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">risultato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj" out="1:attrr">dell’accordo</W>
 <W lemma="elaborare" msd="VAP" tag="VER&3a;pper" in="-1:attrr" out="1:pobj|6:space&3a;loc">elaborato</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|7:coref|3:poss">dai</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|3:poss|7:coref">dai</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">paesi</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:attrr#" out="">membri</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:poss" out="1:nobj">della</W>
@@ -157,7 +157,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:space&3a;loc" out="1:pobj">all’interno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">della</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-7:coref|1:possr" out="">loro</W>
-<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="1:struct&3a;bg|-1:possr">collaborazione</W>
+<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:possr|1:struct&3a;bg">collaborazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:struct&3a;bg" out="1:nobj">per</W>
 <W lemma="quanto" msd="PI" tag="PRO&3a;indef" in="-1:nobj|1:[subj]" out="1:relr">quanto</W>
 <W lemma="riguardare" msd="VADR" tag="VER&3a;pres" in="-1:relr" out="-1:[subj]|1:nobj">riguarda</W>
