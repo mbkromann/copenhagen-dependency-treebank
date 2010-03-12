@@ -19,18 +19,16 @@
 [*] it/0675-it-morten.tag
 [*] it/0956-it-morten.tag
 [*] it/1035-it-morten.tag
-[ ] it/1241-it-morten.tag
-[ ] it/1429-it-morten.tag
+[*] it/1241-it-morten.tag
+[*] it/1429-it-morten.tag
 [*] it/0187-it-morten.tag
 [*] it/0307-it-morten.tag
 [*] it/0593-it-morten.tag
 [*] it/0675-it-morten.tag
 [*] it/0956-it-morten.tag
 [*] it/1035-it-morten.tag
-[ ] it/1241-it-morten.tag
-[ ] it/1429-it-morten.tag
-
-Tysk annotation:
+[*] it/1241-it-morten.tag
+[*] it/1429-it-morten.tag
 [*] da-de/0005-da-de-morten.atag
 [*] de/0005-de-morten.tag
 [*] da-de/0008-da-de-morten.atag
@@ -151,8 +149,6 @@ Tysk annotation:
 [*] da-de/0182-da-de-morten.atag
 [*] da-de/0184-da-de-morten.atag
 [*] da-de/0005-da-de-morten.atag
-
-Tyske tekster:
 [*] de/0005-de-morten.tag
 [*] da-de/0008-da-de-morten.atag
 [*] de/0008-de-morten.tag
@@ -195,11 +191,11 @@ Tyske tekster:
 [*] da-de/0114-da-de-morten.atag
 [*] de/0114-de-morten.tag
 [*] da-de/0119-da-de-morten.atag
-[ ] de/0119-de-morten.tag
+[*] de/0119-de-morten.tag
 [*] da-de/0133-da-de-morten.atag
-[ ] de/0133-de-morten.tag
+[*] de/0133-de-morten.tag
 [*] da-de/0134-da-de-morten.atag
-[ ] de/0134-de-morten.tag
+[*] de/0134-de-morten.tag
 [*] da-de/0138-da-de-morten.atag
 [ ] de/0138-de-morten.tag
 [*] da-de/0140-da-de-morten.atag
@@ -2521,9 +2517,9 @@ Flere italienske tekster:
 [ ] da-it/1035-da-it-morten.atag
 [*] it/1035-it-morten.tag
 [ ] da-it/1241-da-it-morten.atag
-[ ] it/1241-it-morten.tag
+[*] it/1241-it-morten.tag
 [ ] da-it/1429-da-it-morten.atag
-[ ] it/1429-it-morten.tag
+[*] it/1429-it-morten.tag
 
 [ ] da-it/0152-da-it-morten.atag
 [ ] it/0152-it-morten.tag
@@ -3918,7 +3914,7 @@ Flere italienske tekster:
 [*] da-de/0133-da-de-morten.atag
 [ ] de/0133-de-morten.tag
 [*] da-de/0134-da-de-morten.atag
-[ ] de/0134-de-morten.tag
+[*] de/0134-de-morten.tag
 [*] da-de/0138-da-de-morten.atag
 [ ] de/0138-de-morten.tag
 [*] da-de/0140-da-de-morten.atag
