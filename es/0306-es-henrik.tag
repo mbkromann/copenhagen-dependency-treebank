@@ -1,7 +1,7 @@
 <W lemma="si" msd="CSUBX" in="6:cond" out="1:vobj">Si</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj|4:pnct">hay</W>
-<W lemma="problema" msd="NC" in="-1:dobj" out="1:pobj:about|6:assoc">problemas</W>
-<W lemma="de" msd="PREP" in="-1:pobj:about" out="1:nobj">de</W>
+<W lemma="problema" msd="NC" in="-1:dobj" out="1:pobj&3a;about|6:assoc">problemas</W>
+<W lemma="de" msd="PREP" in="-1:pobj&3a;about" out="1:nobj">de</W>
 <W lemma="salud" msd="NC" in="-1:nobj" out="">salud</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="escriba" msd="NC" in="" out="-6:cond|1:iobj|25:assoc-scope">escriba</W>
@@ -20,8 +20,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:list" out="">V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:degr" out="">Sólo</W>
 <W lemma="el" msd="ART" in="-13:coref-id|7:subj" out="-1:degr|1:nobj|18:coref-id|18:coref-id">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:origin">médicos</W>
-<W lemma="de" msd="PREP" in="-1:pobj:origin" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;origin">médicos</W>
+<W lemma="de" msd="PREP" in="-1:pobj&3a;origin" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:coref-var" out="1:nobj|3:appr">la</W>
 <W lemma="revista" msd="NC" in="-1:nobj" out="1:attrr#">revista</W>
 <W lemma="semanal" msd="ADJ" in="-1:attrr#" out="">semanal</W>
@@ -34,7 +34,7 @@
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:pnct|2:pnct|8:xpl">¡Note</W>
 <W lemma="!" msd="FS" in="-1:pnct" out="">!</W>
-<W lemma=":" msd="COLON" in="-2:pnct" out="">:</W>
+<W lemma="&3a;" msd="COLON" in="-2:pnct" out="">:</W>
 <W lemma="lamentable" msd="ADV" in="5:prg" out="1:pnct">Lamentablemente</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-18:coref-id|-18:coref-id|3:subj|4:[subj]" out="1:nobj|44:coref-id">los</W>
@@ -75,8 +75,8 @@
 <W lemma="implicar" msd="VLfin" in="-2:conj" out="-1:subj|1:dobj">implica</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="largo" msd="ADJ" in="1:attrd" out="">larga</W>
-<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attrd|1:pobj:arg">serie</W>
-<W lemma="de" msd="PREP" in="-1:pobj:arg" out="1:nobj">de</W>
+<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attrd|1:pobj&3a;arg">serie</W>
+<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="pregunta" msd="NC" in="-1:nobj" out="6:rel|12:mod">preguntas</W>
 <W lemma="a" msd="PREP" in="5:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
@@ -100,7 +100,7 @@
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attrr#" out="">anticonceptivas</W>
 <W lemma="." msd="FS" in="-28:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:pnct|3:list">Ilustración</W>
-<W lemma=":" msd="COLON" in="-1:pnct" out="">:</W>
+<W lemma="&3a;" msd="COLON" in="-1:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Ole</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:list" out="-1:namef">Clausen</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="5:coref">Bodil</W>
@@ -138,8 +138,8 @@
 <W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj">causa</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj|-7:coref" out="1:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj:arg">oposición</W>
-<W lemma="al" msd="PAL" in="-1:pobj:arg" out="1:nobj">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj&3a;arg">oposición</W>
+<W lemma="al" msd="PAL" in="-1:pobj&3a;arg" out="1:nobj">al</W>
 <W lemma="aborto" msd="NC" in="-1:nobj" out="">aborto</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="esto~es" msd="ADV" in="-26:coref-res" out="1:pred">Esto es</W>
@@ -170,8 +170,8 @@
 <W lemma="l" msd="PPX" in="-1:nobj|-5:coref" out="12:coref-id">ella</W>
 <W lemma="sobre" msd="PREP" in="-3:pobj" out="1:nobj">sobre</W>
 <W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj|4:contr">otro</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj:func#">método</W>
-<W lemma="de" msd="PREP" in="-1:pobj:func#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">método</W>
+<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">prevención</W>
 <W lemma="en~lugar~de" msd="PREP" in="-4:contr" out="1:nobj">en lugar de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-30:coref-id" out="1:nobj">las</W>

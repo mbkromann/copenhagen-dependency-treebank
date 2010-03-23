@@ -36,7 +36,7 @@
 <W lemma="bien" msd="ADV" in="-1:man" out="">bien</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="como" msd="CSUBX" in="-3:ref|1:comp" out="">como</W>
-<W lemma="solar|soler" msd="VLfin" in="-4:relr" out="-1:comp|1:vobj|2:loc|5:pnct">solemos</W>
+<W lemma="solar&7c;soler" msd="VLfin" in="-4:relr" out="-1:comp|1:vobj|2:loc|5:pnct">solemos</W>
 <W lemma="decir" msd="VLinf" in="-1:vobj" out="">decir</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:loc|2:coref" out="1:loc">aquÃ­</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
@@ -134,7 +134,7 @@
 <W lemma="creer" msd="VLinf" in="-1:vobj" out="1:dobj">creer</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-45:coref|1:subj" out="">tÃº</W>
-<W lemma="erar|ser" msd="VLfin" in="-2:vobj" out="-1:subj|1:preds">eras</W>
+<W lemma="erar&7c;ser" msd="VLfin" in="-2:vobj" out="-1:subj|1:preds">eras</W>
 <W lemma="mío" msd="PPO" in="-1:preds" out="1:nobj">mi</W>
 <W lemma="padre" msd="NC" in="-1:nobj" out="">padre</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>

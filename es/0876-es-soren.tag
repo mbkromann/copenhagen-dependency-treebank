@@ -23,7 +23,7 @@
 <W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:const">azúcar</W>
 <W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
-<W lemma="vaina|vainilla" msd="NC" in="-1:nobj" out="">vainilla</W>
+<W lemma="vaina&7c;vainilla" msd="NC" in="-1:nobj" out="">vainilla</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="un" msd="ART" in="-17:conj" out="-1:coord|1:nobj">una</W>
 <W lemma="pizcar" msd="VLfin" in="-1:nobj" out="1:const">pizca</W>
@@ -81,7 +81,7 @@
 <W lemma="@card@" msd="CARD" in="1:ext" out="">125</W>
 <W lemma="g" msd="ALFS" in="-2:nobj" out="-1:ext|1:const">g</W>
 <W lemma="de" msd="PREP" in="-1:const" out="">de</W>
-<W lemma="manteca|mantequilla" msd="NC" in="" out="1:attrr">mantequilla</W>
+<W lemma="manteca&7c;mantequilla" msd="NC" in="" out="1:attrr">mantequilla</W>
 <W lemma="templar" msd="VLadj" in="-1:attrr" out="2:conj">templada</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:conj" out="-1:coord">derretida</W>
@@ -185,8 +185,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">fría</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Sábado</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:pobj:arg#">Paleta</W>
-<W lemma="de" msd="PREP" in="-1:pobj:arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:pobj&3a;arg#">Paleta</W>
+<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
 <W lemma="cordero" msd="NC" in="-1:nobj" out="1:predo">cordero</W>
 <W lemma="rellenar" msd="VLfin" in="-1:predo" out="1:loc">rellena</W>
 <W lemma="al" msd="PAL" in="-1:loc" out="1:nobj">al</W>
