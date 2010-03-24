@@ -1,9 +1,9 @@
 # Indsæt "*" når annotationen er afsluttet
 [*] da/0104-da-disc.tag
-[ ] de/0104-de-morten.tag
-[ ] it/0104-it-morten.tag
+[*] de/0104-de-morten.tag
+[*] it/0104-it-morten.tag
 [*] da/0184-da-disc.tag
-[ ] de/0184-de-morten.tag
+[*] de/0184-de-morten.tag
 [ ] it/0184-it-morten.tag
 [*] da/0187-da-disc.tag
 [ ] de/0187-de-morten.tag
@@ -89,7 +89,36 @@
 [*] da/1429-da-disc.tag
 [ ] de/1429-de-morten.tag
 [ ] it/1429-it-morten.tag
-
+[ ] da-de/0104-da-de-morten.atag
+[ ] da-de/0184-da-de-morten.atag
+[ ] da-de/0187-da-de-morten.atag
+[ ] da-de/0188-da-de-morten.atag
+[ ] da-de/0244-da-de-morten.atag
+[ ] da-de/0306-da-de-morten.atag
+[ ] da-de/0307-da-de-morten.atag
+[ ] da-de/0388-da-de-morten.atag
+[ ] da-de/0421-da-de-morten.atag
+[ ] da-de/0431-da-de-morten.atag
+[ ] da-de/0502-da-de-morten.atag
+[ ] da-de/0531-da-de-morten.atag
+[ ] da-de/0593-da-de-morten.atag
+[ ] da-de/0602-da-de-morten.atag
+[ ] da-de/0620-da-de-morten.atag
+[ ] da-de/0675-da-de-morten.atag
+[ ] da-de/0781-da-de-morten.atag
+[ ] da-de/0863-da-de-morten.atag
+[ ] da-de/0956-da-de-morten.atag
+[ ] da-de/1014-da-de-morten.atag
+[ ] da-de/1035-da-de-morten.atag
+[ ] da-de/1038-da-de-morten.atag
+[ ] da-de/1241-da-de-morten.atag
+[ ] da-de/1252-da-de-morten.atag
+[ ] da-de/1347-da-de-morten.atag
+[ ] da-de/1383-da-de-morten.atag
+[ ] da-de/1390-da-de-morten.atag
+[ ] da-de/1408-da-de-morten.atag
+[ ] da-de/1428-da-de-morten.atag
+[ ] da-de/1429-da-de-morten.atag
 
 
 
@@ -101,7 +130,7 @@
 [*] it/0800-it-disc-morten.tag
 [*] it/1347-it-morten.tag
 [ ] it/0502-it-morten.tag
-[ ] it/0104-it-morten.tag
+[*] it/0104-it-morten.tag
 [*] it/0184-it-morten.tag
 [*] it/0306-it-morten.tag
 [*] it/0421-it-morten.tag
@@ -327,7 +356,7 @@
 [*] da-de/0182-da-de-morten.atag
 [ ] de/0182-de-morten.tag
 [*] da-de/0184-da-de-morten.atag
-[ ] de/0184-de-morten.tag
+[*] de/0184-de-morten.tag
 [ ] da-de/0187-da-de-morten.atag
 [ ] de/0187-de-morten.tag
 [ ] da-de/0188-da-de-morten.atag
@@ -4046,7 +4075,7 @@ Flere italienske tekster:
 [*] da-de/0182-da-de-morten.atag
 [ ] de/0182-de-morten.tag
 [*] da-de/0184-da-de-morten.atag
-[ ] de/0184-de-morten.tag
+[*] de/0184-de-morten.tag
 [ ] da-de/0187-da-de-morten.atag
 [ ] de/0187-de-morten.tag
 [ ] da-de/0188-da-de-morten.atag
