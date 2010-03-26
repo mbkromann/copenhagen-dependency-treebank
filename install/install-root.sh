@@ -1,6 +1,14 @@
 #!/bin/bash
 
-user=cdt
+user=$1
+if [ -z "$user" ] ; then
+	user=$SUDO_USER
+fi
+if [ -z "$user" ] ; then
+	echo "ERROR: Cannot guess your username."
+	echo "Please specify it with 'sh install-root.sh <username>'"
+	exit 1
+fi
 home=/home/$user
 cdtdir=$home/cdt
 installdir=$cdtdir/install
@@ -32,12 +40,13 @@ ln -s /opt/dtag/dtag /usr/local/bin/dtag
 # Ask user to download and install debian packages
 cd /tmp
 wget http://www.buch-kromann.dk/cdt/packages.txt
-wget http://www.buch-kromann.dk/cdt/install.sh
 apt-get update
 dpkg --set-selections < packages.txt
 apt-get dselect-upgrade
 
 # Further instructions
-echo "Please logout as root by typing \"exit\"."
-echo "Then run the command \"sh install.sh\".\"
+cd $home
+wget http://www.buch-kromann.dk/cdt/install.sh
+echo "Please logout as root by typing 'exit'."
+echo "Then run the command 'sh install.sh'."
 
