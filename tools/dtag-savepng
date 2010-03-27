@@ -26,6 +26,6 @@ pngfile=`echo $pngfile".png"`
 # Converting output to PDF
 echo PNG file saved as $pngfile
 ps2epsi $psfile $epsfile
-pstoimg -transparent -antialias -scale 3 $epsfile -out $pngfile
+pstoimg -transparent -antialias -scale 10 $epsfile -out $pngfile
 rm $epsfile
 
