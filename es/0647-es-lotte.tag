@@ -21,10 +21,10 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
-<W lemma="no" msd="NEG" in="3:correl" out="">no</W>
-<W lemma="haber~que" msd="VMfin" in="" out="-24:cond|1:vobj|4:pnct">hay que</W>
+<W lemma="no" msd="NEG" in="1:neg" out="">no</W>
+<W lemma="haber~que" msd="VMfin" in="" out="-24:cond|1:vobj|4:pnct|-1:neg">hay que</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:vobj" out="2:conj">asombrarse</W>
-<W lemma="ni" msd="CCNEG" in="1:coord" out="-3:correl">ni</W>
+<W lemma="ni" msd="CCNEG" in="1:coord" out="">ni</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-2:conj" out="-1:coord">asustarse</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="dicho" msd="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref">Dichos</W>
@@ -77,10 +77,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
-<W lemma="haber" msd="VHfin" in="" out="-7:subj|1:vobj|3:man|6:cause">ha</W>
+<W lemma="haber" msd="VHfin" in="" out="-7:subj|1:vobj|6:cause|3:time">ha</W>
 <W lemma="perder" msd="VLadj" in="-1:vobj" out="-8:[subj]|1:dobj">perdido</W>
 <W lemma="importancia" msd="NC" in="-1:dobj" out="">importancia</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-3:man" out="">momentÃ¡neamente</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-3:time" out="">momentÃ¡neamente</W>
 <W lemma="." msd="FS" in="-24:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">No</W>
 <W lemma="porque" msd="CSUBX" in="-6:cause" out="-1:neg|3:vobj">porque</W>
@@ -135,7 +135,7 @@
 <W lemma="suyo" msd="PPO" in="-1:dobj|-7:coref" out="1:nobj|36:coref">su</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
-<W lemma="por~lo~tanto" msd="CSUBF" in="20:prg" out="1:pnct">Por lo tanto</W>
+<W lemma="por~lo~tanto" msd="CSUBF" in="20:cause" out="1:pnct">Por lo tanto</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="si" msd="CSUBX" in="18:cond" out="5:vobj">si</W>
 <W lemma="de" msd="PREP" in="4:ext" out="">de</W>
@@ -155,7 +155,7 @@
 <W lemma="este" msd="DM" in="-9:coref-res|3:subj" out="">esto</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">no</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="deber" msd="VLfin" in="" out="-3:subj|-2:neg|-1:robj|-20:prg|-18:cond|1:pobj|6:pnct|7:conc|18:coref-res|20:pnct">debe</W>
+<W lemma="deber" msd="VLfin" in="" out="-3:subj|-2:neg|-1:robj|-18:cond|1:pobj|6:pnct|7:conc|18:coref-res|20:pnct|-20:cause">debe</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">falta</W>

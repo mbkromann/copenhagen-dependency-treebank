@@ -9,8 +9,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">“Los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">médicos”</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="13:coref-id">Ugemagasinet</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="">SØNDAG</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:appr|13:coref-id">Ugemagasinet</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:appr" out="">SØNDAG</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Vesterbrogade</W>
 <W lemma="@card@" msd="CODE" in="" out="">16</W>
@@ -23,8 +23,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:other">médicos</W>
 <W lemma="de" msd="PREP" in="-1:other" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:coref-id" out="1:nobj|3:appr">la</W>
-<W lemma="revista" msd="NC" in="-1:nobj" out="1:attrr">revista</W>
-<W lemma="semanal" msd="ADJ" in="-1:attrr" out="">semanal</W>
+<W lemma="revista" msd="NC" in="-1:nobj" out="1:attr#">revista</W>
+<W lemma="semanal" msd="ADJ" in="-1:attr#" out="">semanal</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:appr" out="">SØNDAG</W>
 <W lemma="tener" msd="VLfin" in="" out="-8:ext|-7:subj|1:dobj|5:pnct">tienen</W>
 <W lemma="permiso" msd="NC" in="-1:dobj" out="1:pobj">permiso</W>
@@ -46,8 +46,8 @@
 <W lemma="respuesta" msd="NC" in="-1:nobj" out="1:attrr">respuesta</W>
 <W lemma="personal" msd="NC" in="-1:attrr" out="">personal</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attrr|2:time|5:pnct|11:coref-id">¿PÍLDORAS</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:attrr" out="">ANTICONCEPTIVAS</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attr#|2:time|5:pnct|11:coref-id">¿PÍLDORAS</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:attr#" out="">ANTICONCEPTIVAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:time" out="1:nobj">EN</W>
 <W lemma="La" msd="NP" in="-1:nobj" out="1:nobj">LA</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">MENOPAUSIA</W>
@@ -96,8 +96,8 @@
 <W lemma="poder" msd="VMfin" in="-3:vobj" out="-2:subj|1:vobj">pueden</W>
 <W lemma="reemplazar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">reemplazar</W>
 <W lemma="el" msd="ART" in="-1:dobj|-38:coref-id" out="1:nobj|15:coref-id">las</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">píldoras</W>
-<W lemma="anticonceptivo" msd="ADJ" in="-1:attrr" out="">anticonceptivas</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr#">píldoras</W>
+<W lemma="anticonceptivo" msd="ADJ" in="-1:attr#" out="">anticonceptivas</W>
 <W lemma="." msd="FS" in="-26:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:pnct|3:arg">Ilustración</W>
 <W lemma="&3a;" msd="COLON" in="-1:pnct" out="">:</W>
@@ -116,8 +116,8 @@
 <W lemma="mucho" msd="QU" in="1:attrd" out="">muchos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attrd">años</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
-<W lemma="tener" msd="VLfin" in="-8:coref" out="1:nobj|4:time|8:pnct|10:coref|25:pnct">Tuvo</W>
-<W lemma="3" msd="CARD" in="-1:nobj" out="1:nobj">3</W>
+<W lemma="tener" msd="VLfin" in="-8:coref" out="1:dobj|4:time|8:pnct|10:coref|25:pnct">Tuvo</W>
+<W lemma="3" msd="CARD" in="-1:dobj" out="1:nobj">3</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">niños</W>
 <W lemma="seguir" msd="VLadj" in="-1:attrr" out="">seguidos</W>
 <W lemma="a" msd="PREP" in="-4:time" out="1:nobj">a</W>
@@ -148,8 +148,8 @@
 <W lemma="cual" msd="REL" in="" out="">cual</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-9:coref" out="1:dobj|7:coref">eligió</W>
 <W lemma="el" msd="ART" in="-1:dobj|-37:coref-id" out="1:nobj|4:ref|7:relpa|27:coref-id">las</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">píldoras</W>
-<W lemma="anticonceptivo" msd="ADJ" in="-1:attrr" out="">anticonceptivas</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr#">píldoras</W>
+<W lemma="anticonceptivo" msd="ADJ" in="-1:attr#" out="">anticonceptivas</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="que" msd="CQUE" in="-4:ref|3:subj" out="">que</W>
 <W lemma="en" msd="PREP" in="2:loc" out="1:nobj">en</W>
@@ -162,8 +162,8 @@
 <W lemma="secundario" msd="ADJ" in="-1:attrr" out="">secundarios</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="cuando" msd="CSUBX" in="4:time" out="1:vobj">Cuando</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj|-9:coref" out="1:nobj|5:coref">cumplió</W>
-<W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">40</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj|-9:coref" out="1:dobj|5:coref">cumplió</W>
+<W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">40</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:time|1:pobj|3:pobj|12:pnct|36:pnct">hablé</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>

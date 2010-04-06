@@ -33,8 +33,8 @@
 <W lemma="cabalgar" msd="VLinf" in="-1:vobj" out="">cabalgar</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
-<W lemma="en~general" msd="ADV" in="1:prg" out="">en general</W>
-<W lemma="haber~que" msd="VMfin" in="-21:conj" out="-2:coord|-1:prg|1:vobj">hay que</W>
+<W lemma="en~general" msd="ADV" in="1:other" out="">en general</W>
+<W lemma="haber~que" msd="VMfin" in="-21:conj" out="-2:coord|1:vobj|-1:other">hay que</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:dobj">haber</W>
 <W lemma="acceso" msd="NC" in="-1:dobj" out="1:attrr|4:conj|31:coref-id">acceso</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">público</W>
@@ -62,10 +62,10 @@
 <W lemma="bosque" msd="NC" in="-1:nobj" out="">bosques</W>
 <W lemma="privado" msd="ADJ" in="-5:attrr" out="">privados</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="haber" msd="VHfin" in="-9:vobj" out="-8:loc|-1:neg|1:dobj|3:loc|9:pnct">hay</W>
+<W lemma="haber" msd="VHfin" in="-9:vobj" out="-8:loc|-1:neg|1:dobj|9:pnct|3:pobj">hay</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:nobj">ningún</W>
 <W lemma="problema" msd="NC" in="-1:nobj" out="">problema</W>
-<W lemma="entre" msd="PREP" in="-3:loc" out="1:nobj">entre</W>
+<W lemma="entre" msd="PREP" in="-3:pobj" out="1:nobj">entre</W>
 <W lemma="acceso" msd="NC" in="-1:nobj" out="1:attrr|3:conj">acceso</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr|-31:coref-id" out="">público</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
@@ -128,9 +128,9 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="terreno" msd="NC" in="-1:nobj" out="">terrenos</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-6:vobj" out="-5:subj|-6:loc|1:preds|2:goal|6:pnct">están</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-6:vobj" out="-5:subj|-6:loc|1:preds|6:pnct|2:ben">están</W>
 <W lemma="alquilar" msd="VLadj" in="-1:preds" out="">alquilados</W>
-<W lemma="para" msd="PREP" in="-2:goal" out="1:nobj">para</W>
+<W lemma="para" msd="PREP" in="-2:ben" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj|-30:coref-var" out="1:nobj|2:attrr|14:coref-var">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="privado" msd="ADJ" in="-2:attrr" out="">privada</W>
@@ -147,8 +147,8 @@
 <W lemma="al~mismo~tiempo" msd="ADV" in="4:struct" out="">al mismo tiempo</W>
 <W lemma="el" msd="ART" in="-14:coref-var|3:subj" out="1:nobj|20:assoc-agent|66:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="1:other" out="">también</W>
-<W lemma="tener" msd="VLfin" in="-12:conj" out="-5:coord|-4:struct|-3:subj|-1:other|1:dobj|9:pnct|10:cause|32:pnct">tiene</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="1:add" out="">también</W>
+<W lemma="tener" msd="VLfin" in="-12:conj" out="-5:coord|-4:struct|-3:subj|1:dobj|9:pnct|10:cause|32:pnct|-1:add">tiene</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|3:attrr">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="3:pobj">relación</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
@@ -168,12 +168,12 @@
 <W lemma="cazador" msd="NC" in="-1:dobj|-20:assoc-agent" out="">cazadores</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="comer" msd="VLfin" in="-7:conj" out="-1:robj|2:dobj|5:concom">come</W>
+<W lemma="comer" msd="VLfin" in="-7:conj" out="-1:robj|2:dobj|5:cons">come</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attrd" out="">más</W>
 <W lemma="carne" msd="NC" in="-2:dobj" out="-1:attrd|1:const#">carne</W>
 <W lemma="de" msd="PREP" in="-1:const#" out="1:nobj">de</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
-<W lemma="lograr" msd="VLadj" in="-5:concom" out="1:man|3:dobj">logrando</W>
+<W lemma="lograr" msd="VLadj" in="-5:cons" out="1:man|3:dobj">logrando</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:man" out="">así</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:dobj" out="-1:degr|1:cause">alegría</W>
@@ -214,13 +214,13 @@
 <W lemma="el" msd="ART" in="-66:coref-id|3:subj" out="1:nobj|28:coref-id">la</W>
 <W lemma="caza" msd="NC" in="-1:nobj" out="">caza</W>
 <W lemma="se" msd="SE" in="" out="">se</W>
-<W lemma="vendar&7c;vender" msd="VLfin" in="-19:conj" out="-4:coord|-3:subj|1:pobj|6:ben">vende</W>
+<W lemma="vendar&7c;vender" msd="VLfin" in="-19:conj" out="-4:coord|-3:subj|1:pobj|6:other">vende</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj|2:attrr">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">círculo</W>
 <W lemma="limitar" msd="VLadj" in="-2:attrr" out="">limitado</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="a" msd="PREP" in="-6:ben" out="-1:pnct|1:nobj|5:pnct">a</W>
+<W lemma="a" msd="PREP" in="-6:other" out="-1:pnct|1:nobj|5:pnct">a</W>
 <W lemma="beneficio" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">beneficio</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;subj" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:attrr">Tesoro</W>
@@ -233,9 +233,9 @@
 <W lemma="volver" msd="VLfin" in="-35:conj" out="-4:coord|-3:subj|-1:robj|1:preds">vuelve</W>
 <W lemma="distanciar" msd="VLadj" in="-1:preds" out="1:pobj">distanciada</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:attrd|2:loc|5:pnct|6:appa">lo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrd" out="">más</W>
-<W lemma="natural" msd="ADJ" in="-2:loc" out="1:loc">natural</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="5:pnct|6:appa|2:nobj">lo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
+<W lemma="natural" msd="ADJ" in="-2:nobj" out="1:loc|-1:degr">natural</W>
 <W lemma="del" msd="PDEL" in="-1:loc" out="1:nobj">del</W>
 <W lemma="mundo" msd="NC" in="-1:nobj" out="">mundo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:pnct" out="">–</W>

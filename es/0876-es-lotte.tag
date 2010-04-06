@@ -98,14 +98,14 @@
 <W lemma="nata" msd="NC" in="-1:nobj" out="1:attrr">nata</W>
 <W lemma="batir" msd="VLadj" in="-1:attrr" out="">batida</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
-<W lemma="cubrir" msd="VLinf" in="" out="2:conj|4:dobj|6:time|9:pnct">Cubrir</W>
+<W lemma="cubrir" msd="VLinf" in="" out="2:conj|4:dobj|9:pnct">Cubrir</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="dejar" msd="VLinf" in="-2:conj" out="-1:coord|1:vobj">dejar</W>
+<W lemma="dejar" msd="VLinf" in="-2:conj" out="-1:coord|1:vobj|5:time">dejar</W>
 <W lemma="reposar" msd="VLinf" in="-1:vobj" out="">reposar</W>
 <W lemma="el" msd="ART" in="-4:dobj" out="1:nobj|7:coref">la</W>
 <W lemma="masa" msd="NC" in="-1:nobj" out="">masa</W>
-<W lemma="por~lo~menos" msd="ADV" in="-6:time" out="1:nobj">por lo menos</W>
-<W lemma="1" msd="CARD" in="-1:nobj" out="1:nobj">1</W>
+<W lemma="por~lo~menos" msd="ADV" in="1:degr" out="">por lo menos</W>
+<W lemma="1" msd="CARD" in="-5:time" out="1:nobj|-1:degr">1</W>
 <W lemma="hora" msd="NC" in="-1:nobj" out="">hora</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:struct" out="">También</W>
@@ -165,8 +165,8 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="servir" msd="VLfin" in="-12:conj|-44:coref" out="-2:coord|-1:robj|1:preds|7:pnct">sirven</W>
-<W lemma="dorado" msd="ADJ" in="-1:preds" out="2:conj">dorados</W>
+<W lemma="servir" msd="VLfin" in="-12:conj|-44:coref" out="-2:coord|-1:robj|7:pnct|1:fpreds">sirven</W>
+<W lemma="dorado" msd="ADJ" in="-1:fpreds" out="2:conj">dorados</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:conj" out="-1:coord|3:conj">crujientes</W>
 <W lemma="," msd="CM" in="1:coord" out="">,</W>
