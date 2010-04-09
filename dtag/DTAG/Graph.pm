@@ -126,6 +126,10 @@ sub abbr2var {
 
 	# Return 'estyles' unchanged
 	return 'estyles' if ($abbr eq 'estyles');
+	if ($self->{'vars.sloppy'}) {
+		$self->vars()->{$abbr} = $abbr;
+		return $abbr;
+	}
 
 	# Not found
 	return undef;

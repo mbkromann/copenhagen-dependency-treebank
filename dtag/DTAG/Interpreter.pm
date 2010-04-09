@@ -53,7 +53,7 @@ use Term::ReadKey;
 use Data::Dumper;
 use Parse::RecDescent;
 use XML::Writer;
-#use XML::Parser;
+use XML::Parser;
 use PerlIO;
 use IO qw(File);
 use File::Basename;
@@ -1822,6 +1822,8 @@ sub cmd_clear {
 	} elsif ($type eq '-edges') {
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph')) {
 			$graph->clear_edges();
+		} elsif (UNIVERSAL::isa($graph, 'DTAG::Alignment')) {
+			$graph->erase_all();
 		}
 	} else {
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph')) {
@@ -3362,7 +3364,7 @@ sub cmd_load_atag {
 
 		# Process file
 		if ($line =~ 
-				/^<alignFile key="([a-z])" href="([^"]*)" sign="([^"]*)"\/>$/) {
+				/^<alignFile key="([a-z])" href="([^"]*)".*\/>$/) {
 			# <alignFile> tag
 			my $key = $1;
 			my $afile = $2;
@@ -3883,7 +3885,7 @@ sub cmd_load_tiger {
 		if (!  $self->quiet());
 
 	# Head edge
-	my $HEADEDGE = "--";
+	my $HEADEDGE = "--??";
 
 	# Determine whether graph is a dependency graph
 	my $vars = {};
@@ -4708,6 +4710,10 @@ sub cmd_offset {
 	my $graph = shift;
 	my $sign = shift || "+";
 	my $number = shift || "0";
+
+	if ($number eq "end") {
+		$number = $graph->size();
+	}
 
 	# Set new offset
 	if ($sign eq "+") {
@@ -7112,8 +7118,10 @@ sub cmd_vars {
 	}
 
 	# Print variables
-	print "variables: " . join(", ", @vars). "\n"
-		if (! $self->quiet() || $print);
+	if (! $self->quiet() || $print) {
+		print "variables: " . join(", ", @vars). "\n";
+		print "current graph is " . ($graph->{'vars.sloppy'} ? "sloppy" : "strict" ) . " with respect to unseen variables\n";
+	}
 
 	return 1;
 }
@@ -7511,8 +7519,8 @@ sub do {
 		#	"del 12..27"
 		$success = $self->cmd_del($graph, $1, $3, $4) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') && (
-				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+))\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
-				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+))\s*$/));
+				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+)?)\s+(\S+)\s+([+-]?[0-9]+)\s*$/ ||
+				$cmd =~ /^\s*del\s+([+-]?[0-9]+(\.\.[+-]?[0-9]+)?)\s*$/));
 		$success = $self->cmd_del_align($graph, $1) 
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment') &&
 				$cmd =~ /^\s*del\s+([a-z]-?[0-9]+)\s*$/);
@@ -7679,14 +7687,13 @@ sub do {
 		# Offset: offset [=+-]$offset
 		$success = $self->cmd_offset($graph, $2, $3)
 			if (UNIVERSAL::isa($graph, 'DTAG::Graph') 
-				&& $cmd =~ /^\s*offset(\s+([-+=])?([0-9]+))?\s*$/);
+				&& $cmd =~ /^\s*offset(\s+([-+=])?([0-9]+|end))?\s*$/);
 		$success = $self->cmd_offset_align($graph, $1)
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment')
 				&& $cmd =~ /^\s*offset((\s+([-+=])?([a-z]-?[0-9]+))*)\s*$/);
 		$success = $self->cmd_offset_align($graph, "auto")
 			if (UNIVERSAL::isa($graph, 'DTAG::Alignment')
 				&& $cmd =~ /^\s*offset\s+-auto\s*$/);
-
 
 		# ok: ok
 		$success = $self->cmd_ok($graph) 
@@ -7842,8 +7849,17 @@ sub do {
 
 		# Vars: vars [+$var[:$abbrev]] [-$var] ... 
 		#	var +gloss:g +lexeme:x -glss
-		$success = $self->cmd_vars($graph, $2) 
-			if ($cmd =~ /^\s*vars(\s+)?(.*)?\s*$/);
+		if ($cmd =~ /^\s*vars\s+-sloppy\s*$/) {
+			$graph->{'vars.sloppy'} = 1;
+			$self->cmd_vars($graph, "");
+			$success = 1;
+		} elsif ($cmd =~ /^\s*vars\s+-strict\s*$/) {
+			$graph->{'vars.sloppy'} = 0;
+			$self->cmd_vars($graph, "");
+			$success = 1;
+		} elsif ($cmd =~ /^\s*vars(\s+)?(.*)?\s*$/) {
+			$success = $self->cmd_vars($graph, $2) 
+		}
 
 		# View: view
 		$success = $self->cmd_view($graph, $1, $1) 

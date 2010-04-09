@@ -41,7 +41,7 @@ layout -nstyles ["default", \
 	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
 	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
 		?  "nogoverror" : ""),\
-	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$n->in()}) > 1 \
+	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->var("diff")} @{$n->in()}) > 1 \
 		?  "manygoverror" : ""),\
 	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
 	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->var('styles') || ""), \
@@ -102,7 +102,7 @@ style edgeconflict -arclabel -color red -fonttype bold
 #style discourse -label -color green -arc -color green -arclabel -color green
 #style default -label -color gray -arc -color yellow -arclabel -color cyan
 style default -label -color black -arc -color black -arclabel -color black
-style discourse -arc -color darkgreen -arclabel -color darkgreen
+style discourse -arc -color darkgreen -ps "[5 2] 0 setdash 2 setlinewidth" -arclabel -color darkgreen -fonttype bold -label -fonttype bold
 style small -label -ps "7 setfontsize setupfont"
 style tiny -label -ps "5 setfontsize setupfont"
 
@@ -131,6 +131,7 @@ macro status !~/cdt/tools/dtag-status {FILE}
 macro statusall !~/cdt/tools/dtag-statusall {ARGS}
 macro setstatus !~/cdt/tools/dtag-setstatus {FILE} {ARGS}
 macro findfiles !~/cdt/tools/dtag-findfiles {ARGS}
+macro savepdfnotitle title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
 macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
 macro saveeps title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-saveeps /tmp/x.ps {ARGS} {FILE}
 macro savepng title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepng /tmp/x.ps {ARGS} {FILE}
@@ -147,10 +148,13 @@ macro discourse2 style discourse -label -color black -ps "10 setfontsize setupfo
 macro discourse3 style discourse -label -color black -ps "10 setfontsize setupfont" -arc -color black -ps "/dAs 1 def 1 setlinewidth" -arclabel -ps "8 setfontsize setupfont" -color black ;; style default -label -ps "6 setfontsize setupfont" -arc -color gray80 -ps "0.1 setlinewidth /dAs 0.5 def" -arclabel -ps "5 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
 macro discourse4 style discourse -label -color black -ps "10 setfontsize 1 setfontstyle setupfont" -arc -color black -ps "/dAs 1 def 1.5 setlinewidth" -arclabel -ps "8 setfontsize 1 setfontstyle setupfont" -color black ;; style default -label -ps "7 setfontsize setupfont" -arc -ps "0.3 setlinewidth /dAs 0.5 def" -arclabel -ps "6 setfontsize setupfont" ;; layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def"
 macro discourse discourse2
-macro syntax style discourse -label -color darkgreen -arc -color darkgreen -arclabel -color darkgreen ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def"
+macro syntax style discourse -label -color darkgreen -fonttype bold -arc -color darkgreen -arclabel -color darkgreen -fonttype bold ;; style default -label -color black -arc -color black -arclabel -color black ;; layout -pssetup "/dA 10 def" ;; layout -vars /stream:.*/|compound|cat|msd|lexeme|gloss|sdeps|_position
+macro morphology syntax ;; layout -vars /stream:.*/|compound|cat|msd|lexeme|morph|gloss|sdeps|_position
 syntax
 macro reset script -q ~/cdt/dtag/.dtagrc
 macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag
+macro ptb layout -pos 0 ;; layout -vars cat|/stream:.*/|pos ;; layout -nstyles 0 ;; layout -estyles 0
+
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
@@ -174,19 +178,22 @@ etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr
 etypes -add -adj appa + appr attr attrd attrr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
-etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl
+etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl intact
 
 # Deleted by Lotte
 # etypes -add adjuncts discmark
 
 # Discourse relations 
-etypes -add -adj ANSW CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DIREC DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec EXPR INSTR JOINT JUST QUEST STRUCT STRUCT:rep STRUCT:prep SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ INTACT:attn
+etypes -add -adj ANSW CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DIREC DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec EXPR INSTR JOINT JUST QUEST STRUCT STRUCT:rep STRUCT:prep SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ INTACT:attn INTACT:inter INTACT
 
 # Anaphoric relations
 etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
 
 # Morphological relations
-etypes -add -adj origin interfix PRED:agent dobj.patient
+etypes -add -adj origin interfix PRED:agent dobj.patient 
+
+# Dummy path
+etypes -add -adj ... 
 
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
