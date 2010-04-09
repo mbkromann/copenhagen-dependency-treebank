@@ -38,6 +38,7 @@ layout -stream $n->var('speaker')
 
 # How to compute the style associated with a node or label
 layout -nstyles ["default", \
+	($n->var("msd") =~ /^V/ && ! scalar(grep {$_->type() =~ /subj/} @{$n->out()}) ? "nosubjerror" : ""),\
 	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
 	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
 		?  "nogoverror" : ""),\
@@ -97,6 +98,7 @@ style secondary -arc -ps "[1 4] 0 setdash"
 style error -label -color red
 style nogoverror -label -color blue -fonttype bold
 style manygoverror -label -color red -fonttype bold
+style nosubjerror -label -color red -fonttype bold
 style unknownetypeerror  -arclabel -color red -fonttype bold -arc -ps "0 0 0 setrgbcolor"
 style edgeconflict -arclabel -color red -fonttype bold
 #style discourse -label -color green -arc -color green -arclabel -color green
