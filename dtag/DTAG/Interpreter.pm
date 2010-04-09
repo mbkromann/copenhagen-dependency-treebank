@@ -4641,6 +4641,36 @@ sub cmd_noedge {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_noerror.pl
+## ------------------------------------------------------------
+
+sub cmd_noerror {
+	my $self = shift;
+	my $graph = shift;
+	my $noder = shift;
+	my $error = shift;
+	$error = "" if (! defined($error));
+
+	# Apply offset
+	my $node = defined($noder) ? $noder + $graph->offset() : undef;
+
+	# Find node 
+	my $N = $graph->node($node);
+
+	# Errors: non-existent node, or comment node
+	return error("Non-existent node: $noder") if (! $N);
+	return error("Node $noder is a comment node.") if ($N->comment());
+
+	# Set values for all given variable-value pairs
+	$graph->vars()->{"_noerror"} = undef;
+	$N->var("_noerror", ":" . $error . ":");
+	$graph->mtime(1);
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_note.pl
 ## ------------------------------------------------------------
 
@@ -7667,6 +7697,10 @@ sub do {
 		# New: new (create new graph)
 		$success = $self->cmd_new()
 			if ($cmd =~ /^\s*new\s*$/);
+
+		# Noerror: mark noerror $2 for node $1 
+		$success = $self->cmd_noerror($graph, $1, $3)
+			if ($cmd =~ /^\s*noerror\s+([+-]?[0-9]+)(\s+(\S+))?\s*$/);
 
 		# Next: next ... (shorthand for "goto next...")
 		$success = $self->cmd_goto($cmd)
