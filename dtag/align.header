@@ -106,32 +106,32 @@ get {dup 5 index 3 index get ge {pop pop exit} if dup nodes exch get
 dup 5 get pageheight div cvi 4 index ne {pop pop pop exit} if drawnode
 1 add 3 index 2 index 2 index put} loop} for pop 3 -1 roll pop
 showpage grestore} for pop pop} def /drawnode {2 index 0 eq {1} {2
-index dimension 1 sub eq {0} {0.5} ifelse} ifelse exch dup dup 0 get
-exch 1 get tfont setfont {dup stringwidth pop 9 index dup 7 index 2
-mul dup 1 add 3 1 roll get 3 1 roll get 1 index sub 3 -1 roll sub 4
-index mul add 2 index 5 get neg moveto show} format 2 get exch pop dup
-null eq {pop []} if {dup edge2nodes 1e10 exch {dup nodes exch get 5
-get pageheight div cvi 6 index eq {min} {pop} ifelse} forall 2 index
-eq {drawedge} {pop} ifelse} forall} def /drawedge {aload pop efont
+index dimension 1 sub eq {0} {0.5} ifelse} ifelse /_align exch def
+/_node exch def _align _node dup dup 0 get exch 1 get tfont setfont
+{dup stringwidth pop 9 index dup 7 index 2 mul dup 1 add 3 1 roll get
+3 1 roll get 1 index sub 3 -1 roll sub 4 index mul add 2 index 5 get
+neg moveto show} format pop pop _align _node 2 get exch pop dup null
+eq {pop []} if {dup edge2nodes 1e10 exch {dup nodes exch get 5 get
+pageheight div cvi 6 index eq {min} {pop} ifelse} forall 2 index eq
+{drawedge} {pop} ifelse} forall} def /drawedge {aload pop efont
 setfont {2 index enodes_dim 2 index enodes_dim lt 4 -1 roll 1 index
 node_cluster 5 -1 roll 3 index not node_cluster dup 3 index add 2 div
 2 index 5 index add 2 div exch 6 2 roll moveto lineto gsave [] 0
 setdash currentlinewidth 3 mul setlinewidth 1 setgray stroke grestore
-0.5 setgray stroke moveto pop dup stringwidth pop 2 div neg delbly
-rmoveto bgshow} format} def /bgshow {dup () eq {pop} {gsave dup
-stringwidth pop dboxx neg 0 rmoveto 0 dboxy1 rlineto dup dboxx 2 mul
-add 0 rlineto 0 dboxy2 dboxy1 sub rlineto neg dboxx 2 mul sub 0
-rlineto closepath bgcolor setrgbcolor fill grestore show} ifelse} def
-/node_cluster {exch dup type /arraytype eq {[ 3 1 roll {1 index exch
-nodepos 3 -1 roll} forall 0 counttomark 2 sub 2 div dup 1 1 3 -1 roll
-{2 mul 1 add index 3 -1 roll add exch} for dup 3 1 roll div 4 index 3
-index dew exch not {neg} if add exch 3 -1 roll cvi {1 index 1 index
-moveto 5 -2 roll lineto} repeat 4 2 roll pop pop} {nodepos} ifelse}
-def /nodepos {dup nodes exch get 5 get exch node2dim 3 -1 roll {2 mul
-1 add columns exch get dex add exch neg dey add} {2 mul columns exch
-get dex sub exch neg dey add} ifelse} def /enodes_dim {dup type
-/arraytype eq {0 get} if node2dim} def /draw {compute_components
-ylayout xlayout drawpages} def 
+stroke moveto pop dup stringwidth pop 2 div neg delbly rmoveto bgshow}
+format} def /bgshow {dup () eq {pop} {gsave dup stringwidth pop dboxx
+neg 0 rmoveto 0 dboxy1 rlineto dup dboxx 2 mul add 0 rlineto 0 dboxy2
+dboxy1 sub rlineto neg dboxx 2 mul sub 0 rlineto closepath bgcolor
+setrgbcolor fill grestore show} ifelse} def /node_cluster {exch dup
+type /arraytype eq {[ 3 1 roll {1 index exch nodepos 3 -1 roll} forall
+0 counttomark 2 sub 2 div dup 1 1 3 -1 roll {2 mul 1 add index 3 -1
+roll add exch} for dup 3 1 roll div 4 index 3 index dew exch not {neg}
+if add exch 3 -1 roll cvi {1 index 1 index moveto 5 -2 roll lineto}
+repeat 4 2 roll pop pop} {nodepos} ifelse} def /nodepos {dup nodes
+exch get 5 get exch node2dim 3 -1 roll {2 mul 1 add columns exch get
+dex add exch neg dey add} {2 mul columns exch get dex sub exch neg dey
+add} ifelse} def /enodes_dim {dup type /arraytype eq {0 get} if
+node2dim} def /draw {compute_components ylayout xlayout drawpages} def 
 
 
 %% 2. Graph specification
