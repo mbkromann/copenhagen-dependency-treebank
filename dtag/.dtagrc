@@ -38,7 +38,7 @@ layout -stream $n->var('speaker')
 
 # How to compute the style associated with a node or label
 layout -nstyles ["default", \
-	($n->var("msd") =~ /^V/ && ! scalar(grep {$_->type() =~ /subj/} @{$n->out()}) && ($n->var("_noerror") || "") !~ /:nosubj:/ ? "nosubjerror" : ""),\
+	($n->var("msd") =~ /^V/ && scalar(grep {$_->type() =~ /vobj/} @{$n->in()}) && ! scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) && ($n->var("_noerror") || "") !~ /:nosubj:/ ? "nosubjerror" : ""),\
 	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
 	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
 		?  "nogoverror" : ""),\
@@ -137,6 +137,7 @@ macro savepdfnotitle title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf
 macro savepdf title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepdf /tmp/x.ps {ARGS} {FILE}
 macro saveeps title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-saveeps /tmp/x.ps {ARGS} {FILE}
 macro savepng title -off ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-savepng /tmp/x.ps {ARGS} {FILE}
+macro nosubj noerror {ARGS} nosubj
 macro lpr title -auto ;; print /tmp/x.ps ;; !~/cdt/tools/dtag-lpr /tmp/x.ps
 macro agreement !~/cdt/tools/dtag-agreement {ARGS} ;; load /tmp/cdtA.tag ;; diff /tmp/cdtB.tag ;; agreementdiff
 macro agreementdiff load /tmp/cdtA.tag;;diff /tmp/cdtB.tag
