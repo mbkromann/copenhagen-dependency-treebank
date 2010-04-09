@@ -116,7 +116,7 @@ eq {drawedge} {pop} ifelse} forall} def /drawedge {aload pop efont
 setfont {2 index enodes_dim 2 index enodes_dim lt 4 -1 roll 1 index
 node_cluster 5 -1 roll 3 index not node_cluster dup 3 index add 2 div
 2 index 5 index add 2 div exch 6 2 roll moveto lineto gsave [] 0
-setdash currentlinewidth 5 mul setlinewidth 1 setgray stroke grestore
+setdash currentlinewidth 3 mul setlinewidth 1 setgray stroke grestore
 0.5 setgray stroke moveto pop dup stringwidth pop 2 div neg delbly
 rmoveto bgshow} format} def /bgshow {dup () eq {pop} {gsave dup
 stringwidth pop dboxx neg 0 rmoveto 0 dboxy1 rlineto dup dboxx 2 mul
