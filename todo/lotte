@@ -1,4 +1,5 @@
-[ ] en/1077-en.tag
+[ ] en/1252-en.tag
+[ ] en/1420-en.tag
 
 [*] en/0104-en.tag
 [ ] da/0104-da.tag
@@ -70,7 +71,7 @@
 [ ] en/1241-en.tag
 [ ] es/1241-es-soren.tag
 [ ] da/1252-da.tag
-[ ] en/1252-en.tag
+
 [*] es/1252-es-lotte.tag
 [ ] da/1347-da.tag
 [ ] en/1347-en.tag
@@ -185,7 +186,7 @@
 [ ] en/1057-en-auto.tag
 [ ] es/1057-es-jonas.tag
 [ ] da/1077-da.tag
-
+[*] en/1077-en.tag
 [*] es/1077-es-lotte.tag
 [ ] da/1090-da.tag
 [ ] en/1090-en.tag
@@ -209,7 +210,7 @@
 [ ] en/1398-en.tag
 [ ] es/1398-es-soren.tag
 [ ] da/1420-da.tag
-[ ] en/1420-en.tag
+
 [*] es/1420-es-lotte.tag
 [ ] da/1497-da.tag
 [ ] en/1497-en-auto.tag
