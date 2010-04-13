@@ -2710,6 +2710,82 @@ sub cmd_etypes {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_ex.pl
+## ------------------------------------------------------------
+
+sub cmd_ex {
+	my $self = shift;
+	my $graph = shift;
+	my $spec = shift;
+	$spec = "" if (! defined($spec));
+
+	# Create new graph
+	my $offset = -1;
+	if ($spec =~ /^-add\s+/) {
+		$spec =~ s/^-add\s+//g;
+	} else {
+		$self->do("new");
+		$graph = $self->graph();
+	}
+
+	# Create graph from specification
+	my $nodes = 0;
+	my $edges = [];
+	my $features = 0;
+	while (length($spec) > 0) {
+		if ($spec =~ s/^-title="([^"]*)"\s+//) {
+			# Title
+			$graph->title($1);
+		} elsif ($spec =~ s/^(\S+)\s*//) {
+			# Parse node specification
+			my $nespec = $1;
+			$nespec =~ /^([^<>]+)(<(.*)>)?$/;
+			print "node: $nespec\n";
+			my $nodespec = $1;
+			my $edgespec = defined($3) ? $3 : "";
+			my $labels = [split(/\|/, $nodespec)];
+
+			# Create node
+			my $cmd = "node " . $labels->[0];
+			for (my $i = 1; $i < $#$labels; ++$i) {
+				if ($i > $features) {
+					$self->do("vars f$i");
+					++$features;
+				}
+				$cmd .= " f$i=\"" . $labels->[$i] . "\"";
+			}
+			$self->do($cmd);
+			++$nodes;
+
+			# Parse edge specification
+			foreach my $edge (split(/,/, $edgespec)) {
+				$edge =~ /^([0-9]+):(.*)$/;
+				my $e = "edge " . ($nodes - 1) . " $2 "
+					. ($1 - 1);
+				print "edge: $e\n";
+				push @$edge, $e;
+			}
+		} else {
+			# Ignore garbage tokens
+			$spec =~ s/(\S*)//;
+			warning("Couldn't parse $1");
+			$spec =~ s/^\s+//;
+		}
+	}
+
+	# Create edges
+	foreach my $edge (@$edges) {
+		$self->do($edge);
+	}
+
+	# Update display
+	$self->cmd_return();
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_exit.pl
 ## ------------------------------------------------------------
 
@@ -7884,6 +7960,10 @@ sub do {
 		#	"edit 12 in=12:subj|13:land"
 		$success = $self->cmd_edit($graph, $1, $2) 
 			if ($cmd =~ /^\s*edit\s+([+-]?[0-9]+)\s*(.*)\s*$/);
+
+		# Example: ex $specification
+		$success = $self->cmd_ex($graph, $1) 
+			if ($cmd =~ /^\s*ex\s+(.*)$/);
 
 		# Exit: exit 
 		#     : quit

@@ -1826,6 +1826,7 @@ sub postscript {
 		push @newvars, $var
 			if (regexp_match($regexps, $var));
 	}
+	print "vars: " . join(" ", @newvars) . "\n";
 
 	# Find nodes, streams, and variables to include in graph using
 	# nhide, $imin, and $imax, and number words consecutively from 0
@@ -1880,6 +1881,7 @@ sub postscript {
 		$labels->{$l} = $L++;
 		push @sorted, $l;
 	}
+	print "sorted: " . join(" ", @sorted) . "\n";
 	return DTAG::Interpreter::error("illegal number of variables: $L") 
 		if ($L == 0);
 
@@ -1986,6 +1988,7 @@ sub postscript {
 sub regexp_match {
 	my $regexps = shift;
 	my $s = shift;
+	$s = "" if (! defined($s));
 
 	my $i = 0;
 	foreach my $regexp (@$regexps) {
