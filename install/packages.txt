@@ -1,5 +1,5 @@
 latex2html					install
-libmldbm-perl                   install
+libmldbm-perl                 			install
 lftp						install
 libexpat1					install
 libhtml-parser-perl				install
@@ -23,4 +23,6 @@ libxml2						install
 libxml2-utils					install
 readline-common					install
 subversion					install
-gv							install
+gv						install
+libtext-csv-xs-perl				install
+

@@ -27,7 +27,7 @@ if [ -d $updates ] ; then
 		logfile=~/cdt-all/trunk/install/logs/$user-$f.log
 		if [ ! -f ".$f.done" ] ; then
 			echo "Applying update $f"
-			bash $f.sh 2>&1 | tee $logfile && touch ".$f.done" 
+			( bash $f.sh 2>&1 && touch ".$f.done" ) | tee $logfile  
 			echo $f > .last
 			svn add $logfile
 		fi
