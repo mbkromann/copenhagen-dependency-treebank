@@ -46,10 +46,10 @@
 [*] it/0431-it-lisa.tag
 [*] da/0502-da-disc.tag
 [*] de/0502-de-morten.tag
-[ ] it/0502-it-morten.tag
+[*] it/0502-it-morten.tag
 [*] da/0531-da-disc.tag
-[ ] de/0531-de-morten.tag
-[ ] it/0531-it-morten.tag
+[*] de/0531-de-morten.tag
+[*] it/0531-it-morten.tag
 [*] da/0593-da-disc.tag
 [ ] de/0593-de-morten.tag
 [ ] it/0593-it-morten.tag
@@ -144,7 +144,7 @@
 [*] da/0800-da-disc.tag
 [*] it/0800-it-disc-morten.tag
 [*] it/1347-it-morten.tag
-[ ] it/0502-it-morten.tag
+[*] it/0502-it-morten.tag
 [*] it/0104-it-morten.tag
 [*] it/0184-it-morten.tag
 [*] it/0306-it-morten.tag
