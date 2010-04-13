@@ -183,11 +183,11 @@
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|3:subj" out="1:neg">die</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
-<W lemma="zudecken" msd="VAP" tag="VVPP" in="1:preds" out="">zugedeckt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-3:subj|-1:preds|1:pnct">sind</W>
+<W lemma="zudecken" msd="VAP" tag="VVPP" in="1:preds|1:preds" out="">zugedeckt</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-3:subj|-1:preds|1:pnct|-1:preds">sind</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-8:subj|1:preds|4:pnct">sind</W>
-<W lemma="blau" msd="AN" tag="ADJD" in="-1:preds" out="1:reas">blau</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-8:subj|1:preds|4:pnct|1:preds">sind</W>
+<W lemma="blau" msd="AN" tag="ADJD" in="-1:preds|-1:preds" out="1:reas">blau</W>
 <W lemma="vor" msd="SP" tag="APPR" in="-1:reas" out="1:nobj">vor</W>
 <W lemma="Kälte" msd="NC" tag="NN" in="-1:nobj" out="">Kälte</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>

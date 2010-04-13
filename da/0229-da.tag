@@ -53,12 +53,12 @@
 <W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="-1:degr">lige</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="-1:degr|2:pobj">så</W>
-<W gloss="highly" lemma="høj" msd="ANP---=-R" tag="JJ" in="-8:degr" out="-1:degr|3:coord">højt</W>
+<W gloss="highly" lemma="høj" msd="ANP---=-R" tag="JJ" in="-8:degr" out="-1:degr|5:conj">højt</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="the_taste" lemma="smag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">smagen</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:degr" out="">langt</W>
-<W gloss="higher" lemma="høj" msd="ANC---=-R" tag="JJR" in="-2:conj" out="-1:degr|1:pobj">højere</W>
+<W gloss="higher" lemma="høj" msd="ANC---=-R" tag="JJR" in="-5:conj" out="-1:degr|1:pobj|-2:coord">højere</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:pobj" out="1:nobj">end</W>
 <W gloss="fear" lemma="angst" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">angsten</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -67,16 +67,16 @@
 </s>
 <s>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="4:other" out="">såvel</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="18:subj" out="1:attr|2:nobj|3:coord">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="18:subj" out="1:attr|2:nobj|4:conj">den</W>
 <W gloss="Swedish" lemma="svensk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">svenske</W>
 <W gloss="legislation" lemma="lovgivning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">lovgivning</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:coord" out="-4:other|1:conj">som</W>
-<W gloss="the_concept" lemma="koncept" msd="NCNSU==D" tag="NN" in="-1:conj" out="1:loc">konceptet</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-4:other">som</W>
+<W gloss="the_concept" lemma="koncept" msd="NCNSU==D" tag="NN" in="-4:conj" out="1:loc|-1:coord">konceptet</W>
 <W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-1:loc" out="1:nobj">bag</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj|8:[dobj]" out="2:nobj|4:pnct|7:rel">de</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Kronkycklinger" lemma="Kronkycklinger" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Kronkycklinger</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="the_poultry_producer" lemma="fjerkræproducent" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="1:appr">fjerkræproducenten</W>
 <W gloss="Kronfågel" lemma="Kronfågel" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Kronfågel</W>
@@ -120,9 +120,9 @@
 <s>
 <W gloss="The_difference" lemma="forskel" msd="NCCSU==D" tag="NN" in="8:subj|9:[subj]" out="1:pobj">Forskellen</W>
 <W gloss="between" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="4:nobj">på</W>
-<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="3:attr" out="1:coord">dansk</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="Swedish" lemma="svensk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:conj" out="">svensk</W>
+<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="3:attr" out="2:conj">dansk</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Swedish" lemma="svensk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">svensk</W>
 <W gloss="production" lemma="produktion" msd="NCCSU==I" tag="NN" in="-4:nobj" out="-3:attr|1:pobj">produktion</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="chicken" lemma="kylling" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kyllinger</W>
@@ -239,7 +239,7 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
 <W gloss="the_animals" lemma="dyrernes" msd="XX" tag="FW" in="-1:nobj" out="1:possd">dyrernes</W>
 <W gloss="thriving" lemma="trivsel" msd="NCCSU==I" tag="NN" in="-1:possd" out="">trivsel</W>
-<W gloss="." lemma=":" msd="XP" tag=":" in="-10:pnct" out="">:</W>
+<W gloss="." lemma="&3a;" msd="XP" tag="&3a;" in="-10:pnct" out="">:</W>
 </s>
 </p>
 </div1>

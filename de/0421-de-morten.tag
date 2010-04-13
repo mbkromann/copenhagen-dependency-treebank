@@ -14,11 +14,11 @@
 <W lemma="fragen" msd="VA" tag="VVFIN" in="" out="-11:qobj|1:subj|3:conj|8:pnct">fragte</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="bleiben" msd="VA" tag="VVFIN" in="-3:conj" out="-1:coord|4:preds">blieb</W>
+<W lemma="bleiben" msd="VA" tag="VVFIN" in="-3:conj" out="-1:coord|4:preds|4:preds">blieb</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:@loc" out="2:nobj">in</W>
 <W lemma="gehörig" msd="AN" tag="ADJA" in="1:attr" out="">gehörigem</W>
 <W lemma="Abstand" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Abstand</W>
-<W lemma="stehen" msd="VAF" tag="VVINF" in="-4:preds" out="-3:@loc">stehen</W>
+<W lemma="stehen" msd="VAF" tag="VVINF" in="-4:preds|-4:preds" out="-3:@loc">stehen</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:[arg]|3:subj|5:[subj]|6:[subj]" out="1:attr|2:possd">Arnaltas</W>
 <W lemma="lodernd" msd="AN" tag="ADJA" in="-1:attr" out="">lodernder</W>
@@ -72,16 +72,16 @@
 <p>
 <s>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj|15:[subj]" out="">Sie</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:hab|3:preds|7:conj|15:pnct">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:hab|3:preds|7:conj|15:pnct|3:preds">war</W>
 <W lemma="immer" msd="RG" tag="ADV" in="-1:hab" out="1:avobj">immer</W>
 <W lemma="noch" msd="RG" tag="ADV" in="-1:avobj" out="">noch</W>
-<W lemma="außer" msd="SP" tag="APPR" in="-3:preds" out="1:nobj">außer</W>
+<W lemma="außer" msd="SP" tag="APPR" in="-3:preds|-3:preds" out="1:nobj">außer</W>
 <W lemma="Atem" msd="NC" tag="NN" in="-1:nobj" out="">Atem</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="7:nobj">es</W>
-<W lemma="fallen" msd="VA" tag="VVFIN" in="-7:conj" out="-2:coord|-1:subj|1:iobj|2:preds|3:pnct">fiel</W>
+<W lemma="fallen" msd="VA" tag="VVFIN" in="-7:conj" out="-2:coord|-1:subj|1:iobj|2:preds|3:pnct|2:preds">fiel</W>
 <W lemma="ihr" msd="PP" tag="PPER" in="-1:iobj" out="">ihr</W>
-<W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds" out="">schwer</W>
+<W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds|-2:preds" out="">schwer</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:dobj" out="1:²nobj|1:¹attr">die</W>
 <W compound="¹rechten²Worte" lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NN" in="-1:²nobj|-1:¹attr" out="">rechtenWorte</W>
@@ -101,8 +101,8 @@
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|4:[subj]|5:[subj]|11:[subj]|16:[subj]" out="">sie</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="gerade" msd="AN" tag="ADJD" in="-3:eval" out="">gerade</W>
-<W lemma="stark" msd="AN" tag="ADJD" in="1:preds" out="">stark</W>
-<W lemma="machen" msd="VAF" tag="VVINF" in="1:vobj" out="-4:[subj]|-3:dobj|-1:preds">machen</W>
+<W lemma="stark" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">stark</W>
+<W lemma="machen" msd="VAF" tag="VVINF" in="1:vobj" out="-4:[subj]|-3:dobj|-1:preds|-1:preds">machen</W>
 <W lemma="müssen" msd="VAF" tag="VMINF" in="-6:vobj" out="-1:vobj|-5:[subj]">müssen</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="-8:goal" out="3:nobj">um</W>

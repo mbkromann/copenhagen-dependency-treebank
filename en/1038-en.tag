@@ -6,9 +6,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="6:nobj">the</W>
 <W msd="NC=S" tag="NN" in="5:mod" out="1:mod">fricassee</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">pike</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">trout</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">pike</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">trout</W>
 <W msd="NC=S" tag="NN" in="-6:nobj" out="-5:mod">dish</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Madsen</W>
@@ -52,8 +52,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ingredients</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:pnct|2:pred|56:pnct">are</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
-<W msd="AC" tag="CD" in="-2:pred" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|14:pnct|15:conj|19:pnct|20:conj|24:pnct|25:conj|29:pnct|30:conj|36:pnct|37:conj|42:pnct|43:conj|47:pnct|48:conj|50:coord">400g</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="AC" tag="CD" in="-2:pred" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|14:pnct|15:conj|19:pnct|20:conj|24:pnct|25:conj|29:pnct|30:conj|36:pnct|37:conj|42:pnct|43:conj|47:pnct|48:conj|51:conj">400g</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">pike</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">filet</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -103,10 +103,10 @@
 <W msd="XP" tag="," in="-47:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-48:conj" out="1:nobj">200g</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">butter</W>
-<W msd="CC" tag="CC" in="-50:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="1:coord">salt</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">pepper</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-51:conj" out="-1:coord|2:conj">salt</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">pepper</W>
 <W msd="XP" tag="." in="-56:pnct" out="">.</W>
 </s>
 <s>
@@ -142,7 +142,7 @@
 <s>
 <W msd="PD" tag="DT" in="" out="1:nobj|2:pnct|3:list|30:pnct">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sauce</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="-3:list" out="1:dobj|4:mod|7:pnct|8:conj|10:pnct|11:conj|14:pnct|15:conj|19:pnct|20:conj|23:pnct|24:conj">Steam</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">leek</W>
@@ -159,9 +159,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bouillon</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-15:conj" out="1:dobj">add</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="1:coord">vinegar</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">mustard</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">vinegar</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">mustard</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-20:conj" out="1:mod">stir</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -173,16 +173,16 @@
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|4:mod|10:pnct|11:conj|20:coord|26:pnct">Serve</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|4:mod|10:pnct|11:conj|26:pnct|21:conj">Serve</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">fish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">cubes</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|4:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cabbage</W>
-<W msd="CC" tag="CC" in="-2:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">leek</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">rings</W>
+<W msd="NC=P" tag="NNS" in="-4:conj" out="-1:mod|-2:coord">rings</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-11:conj" out="1:dobj|6:lobj">pour</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:mod">a</W>
@@ -193,8 +193,8 @@
 <W msd="SP" tag="IN" in="-6:lobj" out="1:nobj">over</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fish</W>
-<W msd="CC" tag="CC" in="-20:coord" out="1:conj">and</W>
-<W msd="VADR" tag="VBP" in="-1:conj" out="1:dobj|3:lobj">sprinkle</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADR" tag="VBP" in="-21:conj" out="1:dobj|3:lobj|-1:coord">sprinkle</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ham</W>
 <W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">on</W>
@@ -241,7 +241,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">places</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-5:vobj" out="-6:[subj]|1:pred">been</W>
-<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|4:pnct|5:conj|9:coord">at</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|4:pnct|5:conj|10:conj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod">Pakhuset</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Esbjerg</W>
@@ -250,8 +250,8 @@
 <W msd="NP=S" tag="NNP" in="-1:name" out="1:mod">Plaza</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
-<W msd="CC" tag="CC" in="-9:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">at</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-10:conj" out="1:nobj|-1:coord">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Henne</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Kirkeby</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Inn</W>

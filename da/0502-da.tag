@@ -114,11 +114,11 @@
 <p>
 <s>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="eat" lemma="spise" msd="VAM-=------" tag="VB" in="" out="-1:mod|1:mod|2:dobj|3:coord|8:pnct">spis</W>
+<W gloss="eat" lemma="spise" msd="VAM-=------" tag="VB" in="" out="-1:mod|1:mod|2:dobj|8:pnct|4:conj">spis</W>
 <W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="-1:mod" out="">aldrig</W>
 <W gloss="vegetables" lemma="grøntsag" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="">grøntsager</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-3:coord" out="1:conj">eller</W>
-<W gloss="drink" lemma="drikke" msd="VAM-=------" tag="VB" in="-1:conj" out="1:dobj">drik</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="drink" lemma="drikke" msd="VAM-=------" tag="VB" in="-4:conj" out="1:dobj|-1:coord">drik</W>
 <W gloss="water" lemma="vand" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:mod">vand</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="the_faucet" lemma="hane" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hanen</W>
@@ -220,9 +220,9 @@
 <W gloss="is_represented" lemma="fremstille" msd="VADR=----P-" tag="VBD" in="" out="-9:subj|1:mod|2:pobj|6:pnct">fremstilles</W>
 <W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:mod" out="">ofte</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
-<W gloss="head_of_a_falcon" lemma="falkehovede" msd="XX" tag="FW" in="-1:nobj" out="1:coord">falkehovede</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="double_crown" lemma="dobbeltkrone" msd="NCCSU==I" tag="NN" in="-1:conj" out="">dobbeltkrone</W>
+<W gloss="head_of_a_falcon" lemma="falkehovede" msd="XX" tag="FW" in="-1:nobj" out="2:conj">falkehovede</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="double_crown" lemma="dobbeltkrone" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">dobbeltkrone</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 </p>
@@ -260,15 +260,15 @@
 <s>
 <W gloss="View" lemma="udsigt" msd="NCCSU==I" tag="NN" in="" out="1:mod|11:pnct">Udsigt</W>
 <W gloss="over" lemma="nedover" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:mod">nedover</W>
-<W gloss="the_swimming_pool" lemma="svømmepøl" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:coord">svømmepølen</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="the_Nile" lemma="Nilen" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Nilen</W>
+<W gloss="the_swimming_pool" lemma="svømmepøl" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:conj">svømmepølen</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_Nile" lemma="Nilen" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Nilen</W>
 <W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-4:mod" out="2:nobj">mod</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:nobj" out="-1:pnct|1:mod|2:possd|3:pnct">De</W>
 <W gloss="dead." lemma="død" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:mod" out="">dødes</W>
 <W gloss="kingdom" lemma="rige" msd="NCNSU==I" tag="NN" in="-2:possd" out="">rige</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 </p>

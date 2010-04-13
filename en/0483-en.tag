@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="20:qobj" out="-1:subj|-2:pnct|1:dobj|18:pnct|19:pnct">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
@@ -20,7 +20,7 @@
 <W msd="NC=S" tag="NN" in="-1:coord" out="">service</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:mod">obligations</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-19:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-20:qobj|4:subj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Holger</W>
@@ -54,9 +54,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|6:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">sale</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">wine</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">beer</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">wine</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">beer</W>
 <W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">south</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -73,7 +73,7 @@
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="9:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="8:mod" out="1:nobj|4:pnct">Before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">duty</W>
@@ -87,9 +87,9 @@
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:mod">3.25</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:<dobj>|2:<mod>">and</W>
-<W msd="AC" tag="CD" in="-1:<dobj>" out="">1.25</W>
-<W msd="SP" tag="IN" in="-2:<mod>" out="1:nobj">in</W>
+<W msd="CC" tag="CC" in="-5:coord" out="1:&lt;dobj&gt;|2:&lt;mod&gt;">and</W>
+<W msd="AC" tag="CD" in="-1:&lt;dobj&gt;" out="">1.25</W>
+<W msd="SP" tag="IN" in="-2:&lt;mod&gt;" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -109,9 +109,9 @@
 <W msd="AC" tag="CD" in="-2:pred" out="">2.25</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:<pred>|2:<mod>">and</W>
-<W msd="AC" tag="CD" in="-1:<pred>" out="">1.25</W>
-<W msd="SP" tag="IN" in="-2:<mod>" out="1:nobj">in</W>
+<W msd="CC" tag="CC" in="-5:coord" out="1:&lt;pred&gt;|2:&lt;mod&gt;">and</W>
+<W msd="AC" tag="CD" in="-1:&lt;pred&gt;" out="">1.25</W>
+<W msd="SP" tag="IN" in="-2:&lt;mod&gt;" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -123,9 +123,9 @@
 <W msd="PT" tag="WDT" in="-4:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:pobj">applies</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">beer</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">wine</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">beer</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">wine</W>
 <W msd="VA" tag="MD" in="24:qobj" out="-10:subj|1:vobj|12:pnct|13:mod|22:pnct|23:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">reduce</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="1:possd">Danes'</W>
@@ -149,7 +149,7 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">great</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">quantities</W>
 <W msd="XP" tag="," in="-22:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-23:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-23:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-24:qobj|4:subj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="3:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Holger</W>
@@ -165,9 +165,9 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">price</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">difference</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">spirits</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">cigarettes</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">spirits</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">cigarettes</W>
 <W msd="VA" tag="MD" in="-8:vobj" out="-7:subj|1:mod|2:vobj|8:pnct|9:mod">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-9:[subj]|1:vobj">be</W>
@@ -192,8 +192,8 @@
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Discount</W>
-<W msd="NC=S" tag="NN" in="" out="-1:mod|1:<mod>|4:pnct">beer</W>
-<W msd="SP" tag="IN" in="-1:<mod>" out="2:nobj">at</W>
+<W msd="NC=S" tag="NN" in="" out="-1:mod|1:&lt;mod&gt;|4:pnct">beer</W>
+<W msd="SP" tag="IN" in="-1:&lt;mod&gt;" out="2:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:mod">1.04</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -220,7 +220,7 @@
 <W msd="SP" tag="IN" in="-1:part" out="">in</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:avobj">at</W>
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
-<W msd="AC" tag="CD" in="-4:dobj" out="-2:mod|1:nobj|4:pnct|5:conj|9:pnct|10:coord">110</W>
+<W msd="AC" tag="CD" in="-4:dobj" out="-2:mod|1:nobj|4:pnct|5:conj|9:pnct|11:conj">110</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">liters</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">beer</W>
@@ -230,8 +230,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wine</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-10:coord" out="1:conj">and</W>
-<W msd="AC" tag="CD" in="-1:conj" out="1:nobj">20</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="AC" tag="CD" in="-11:conj" out="1:nobj|-1:coord">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">liters</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">fortified</W>

@@ -97,9 +97,9 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:mod" out="2:nobj">for</W>
 <W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:mod" out="">omkring</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="-1:mod|2:nobj">en</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="thou" lemma="tusse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">tusse</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W gloss="as" lemma="idet" msd="CS" tag="IN" in="-17:mod" out="3:vobj">idet</W>
 <W gloss="Scania_cars" lemma="Scania-bil" msd="NCCPG==D" tag="NNP" in="2:subj|3:[subj]" out="1:possd">Scania-bilernes</W>
@@ -172,12 +172,12 @@
 <W gloss="month's" lemma="måned" msd="NCCSG==I" tag="NN" in="-1:nobj" out="">måneds</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:possd" out="">tid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-6:nobj" out="1:vobj">at</W>
-<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|4:coord">krydse</W>
+<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|5:conj">krydse</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W gloss="the_ice_cap" lemma="iskalot" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">iskalotten</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="reach" lemma="nå" msd="VAF-=----A-" tag="VB" in="-1:conj" out="1:dobj">nå</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="reach" lemma="nå" msd="VAF-=----A-" tag="VB" in="-5:conj" out="1:dobj|-1:coord">nå</W>
 <W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:mod|2:possd">sit</W>
 <W gloss="polar" lemma="polar" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">polare</W>
 <W gloss="goal" lemma="mål" msd="NCNSU==I" tag="NN" in="-2:possd" out="">mål</W>
@@ -202,9 +202,9 @@
 <W gloss="belt-driven" lemma="bæltetrukket" msd="ANP[CN]SU=IU" tag="JJ" in="-1:mod" out="">bæltetrukket</W>
 <W gloss="snowmobile" lemma="snemobil" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">snemobil</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:mod" out="1:nobj">med</W>
-<W gloss="food" lemma="forplejning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">forplejning</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="supplies" lemma="forsyning" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">forsyninger</W>
+<W gloss="food" lemma="forplejning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">forplejning</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="supplies" lemma="forsyning" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">forsyninger</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>

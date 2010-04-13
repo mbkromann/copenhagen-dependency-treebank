@@ -7,9 +7,9 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|15:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">made</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:coord|3:nobj|4:pnct">another</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANC" tag="JJR" in="-1:conj" out="">smaller</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="3:nobj|4:pnct|2:conj">another</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">smaller</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">rocket</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -24,7 +24,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">Both</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">engines</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:pred|14:pnct|15:coord|39:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:pred|14:pnct|39:pnct|35:conj">are</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:coord">4-cylinder</W>
 <W msd="SP" tag="IN" in="-1:coord" out="">with</W>
 <W msd="ANP" tag="JJ" in="3:mod" out="">water-cooled</W>
@@ -38,14 +38,14 @@
 <W msd="VADA" tag="VBD" in="" out="">ventilated</W>
 <W msd="NC=S" tag="NN" in="" out="">cylinder</W>
 <W msd="VADR" tag="VBZ" in="" out="">heads</W>
-<W msd="XP" tag=":" in="-14:pnct" out="">;</W>
-<W msd="CC" tag="CC" in="-15:coord" out="1:pnct|20:conj">but</W>
+<W msd="XP" tag="&3a;" in="-14:pnct" out="">;</W>
+<W msd="CC" tag="CC" in="20:coord" out="1:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="6:[mod]|18:mod" out="6:rel">whereas</W>
 <W msd="PD" tag="DT" in="5:subj" out="2:mod|4:nobj">the</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="-1:pnct|1:pnct">little</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="">RSs</W>
 <W msd="VADR" tag="VBP" in="-6:rel" out="-6:[mod]|-5:subj|2:lobj|4:pnct">have</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
@@ -59,7 +59,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">Cosworth</W>
 <W msd="NC=S" tag="NN" in="" out="">cylinder</W>
 <W msd="VADR" tag="VBZ" in="" out="">heads</W>
-<W msd="VADR" tag="VBZ" in="-20:conj" out="-18:mod|-7:subj|1:dobj|3:lobj">has</W>
+<W msd="VADR" tag="VBZ" in="-35:conj" out="-18:mod|-7:subj|1:dobj|3:lobj|-20:coord">has</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">engine</W>
 <W msd="NC=S" tag="NN" in="-3:lobj" out="">lengthwise</W>
@@ -81,15 +81,15 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">equally</W>
 <W msd="ANP" tag="JJ" in="2:mod" out="-1:mod">large</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cylinder</W>
-<W msd="NC=P" tag="NNS" in="-5:dobj" out="-1:mod|-2:mod|1:coord|4:pnct">bores</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-5:dobj" out="-1:mod|-2:mod|4:pnct|3:conj">bores</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">piston</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">strokes</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">strokes</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Cosworth</W>
 <W msd="NC=S" tag="NN" in="" out="">engine</W>
-<W msd="VADR" tag="VBZ" in="" out="-23:mod|1:pred|13:coord|24:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-23:mod|1:pred|24:pnct|16:conj">is</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:pnct|4:mod">over-quadratic</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cylinder</W>
@@ -102,17 +102,17 @@
 <W msd="NC=S" tag="NN" in="" out="">piston</W>
 <W msd="NC=S" tag="NN" in="" out="">stroke</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-13:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:mod|-1:subj|1:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-16:conj" out="-2:mod|-1:subj|1:vobj|-3:coord">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">equipped</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:name|2:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Garrett</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:coord">turbocharger</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">intercooler</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="2:conj">turbocharger</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">intercooler</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
@@ -136,11 +136,11 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:pobj">distribution</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
 <W msd="AC" tag="CD" in="" out="">34</W>
-<W msd="XP" tag=":" in="" out="">:</W>
+<W msd="XP" tag="&3a;" in="" out="">:</W>
 <W msd="AC" tag="CD" in="" out="">66</W>
-<W msd="NC=S" tag="NN" in="-8:pred" out="1:coord">front</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="RB" in="-1:conj" out="">back</W>
+<W msd="NC=S" tag="NN" in="-8:pred" out="2:conj">front</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">back</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
@@ -166,20 +166,20 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="18:mod" out="1:pobj">apart</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:pnct|3:mod|4:nobj|5:pnct|6:mod|9:pnct|10:conj|12:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:pnct|3:mod|4:nobj|5:pnct|6:mod|9:pnct|10:conj|13:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">horrible</W>
-<W msd="XP" tag="&quot;" in="-2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-3:mod" out="">Dutch</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">extension</W>
-<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cosworth</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-10:conj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">transmission</W>
-<W msd="CC" tag="CC" in="-12:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="2:nobj">certain</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-13:conj" out="2:nobj|-1:coord">certain</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">equipment</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">details</W>
 <W msd="VADR" tag="VBZ" in="" out="-25:subj|-18:mod|1:pred|33:pnct">is</W>

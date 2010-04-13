@@ -72,9 +72,9 @@
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:mod|2:dobj|5:pred|8:mod">are</W>
 <W msd="PD" tag="DT" in="-1:mod" out="">no</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="1:coord">beggars</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">homeless</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="2:conj">beggars</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">homeless</W>
 <W msd="SP" tag="IN" in="-5:pred" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
@@ -92,10 +92,10 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:lobj">places</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">EC</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Europe</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:coord">Europe</W>
 <W msd="SP" tag="IN" in="" out="">on</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">whole</W>
@@ -122,7 +122,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|2:pnct|10:pnct">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">ask</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="PT" tag="WP" in="6:nobj" out="">What</W>
 <W msd="VADR" tag="VBP" in="" out="1:subj|1:[subj]">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|-1:[subj]|1:[subj]|1:[subj]" out="">we</W>
@@ -221,9 +221,9 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">outside</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:ref|5:rel">the</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">wall</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]|3:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>

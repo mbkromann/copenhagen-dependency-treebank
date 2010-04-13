@@ -47,16 +47,16 @@
 <W gloss="agreement" lemma="aftale" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">aftale</W>
 <W gloss="entered_into" lemma="indgå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:mod" out="-3:[subj]|1:pobj">indgået</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="Northern_Jutland" lemma="Nordjylland" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|2:coord">Nordjyllands</W>
+<W gloss="Northern_Jutland" lemma="Nordjylland" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|3:conj">Nordjyllands</W>
 <W gloss="County" lemma="amt" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Amt</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="the_Morticians" lemma="bedemand" msd="NCCPG==D" tag="NNP" in="-1:conj" out="1:possd">Bedemændenes</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_Morticians" lemma="bedemand" msd="NCCPG==D" tag="NNP" in="-3:conj" out="1:possd|-1:coord">Bedemændenes</W>
 <W gloss="National_Association" lemma="landsforening" msd="NCCSG==I" tag="NN" in="-1:possd" out="1:mod|2:possd">Landsforenings</W>
 <W gloss="Northern_Jutland" lemma="nordjysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">nordjyske</W>
 <W gloss="ward" lemma="kreds" msd="NCCSU==I" tag="NN" in="-2:possd" out="">kreds</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-13:mod|1:subj|2:mod|3:vobj|26:pnct">har</W>
 <W gloss="the_porters" lemma="portør" msd="NCCPU==D" tag="NNP" in="-1:subj|2:[subj]|6:[subj]" out="">portørerne</W>
-<W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="-2:mod" out="">nemlig</W>
+<W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-2:mod" out="">nemlig</W>
 <W gloss="had" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:dobj">haft</W>
 <W gloss="allowed" lemma="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:dobj" out="1:pobj">lov</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -141,7 +141,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|4:[subj]" out="1:mod|2:nobj">De</W>
 <W gloss="other" lemma="øvrig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">øvrige</W>
 <W gloss="porters" lemma="portør" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">portører</W>
@@ -183,16 +183,16 @@
 <W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-2:mod" out="">vel</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|-4:pred|2:dobj">været</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="1:mod" out="">mellem</W>
-<W gloss="3,000" lemma="3.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:mod|1:coord|3:nobj|4:mod">3.000</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="5,000" lemma="5.000" msd="AC---U=--" tag="CD" in="-1:conj" out="1:[nobj]">5.000</W>
+<W gloss="3,000" lemma="3.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:mod|3:nobj|4:mod|2:conj">3.000</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="5,000" lemma="5.000" msd="AC---U=--" tag="CD" in="-2:conj" out="1:[nobj]|-1:coord">5.000</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-3:nobj|-1:[nobj]" out="">kr.</W>
 <W gloss="net" lemma="netto" msd="RGU" tag="RP" in="-4:mod" out="">netto</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-11:pobj" out="1:nobj">til</W>
 <W gloss="the_head_porter" lemma="overportør" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:mod">overportøren</W>
 <W gloss="himself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:mod" out="">selv</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-15:qobj|3:subj|4:pobj|6:pnct">siger</W>
 <W gloss="hospital_director" lemma="sygehusdirektør" msd="NCCSU==I" tag="NN" in="2:title" out="">sygehusdirektør</W>
 <W gloss="Karl" lemma="Karl" msd="NP--U==-" tag="NNP" in="1:namef" out="">Karl</W>
@@ -204,17 +204,17 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="11:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
 <W gloss="whether" lemma="om" msd="CS" tag="IN" in="10:subj" out="2:vobj">Om</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj">er</W>
 <W gloss="speech" lemma="tale" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">tale</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
-<W gloss="3,000" lemma="3.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:coord">3.000</W>
+<W gloss="3,000" lemma="3.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|4:conj">3.000</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-2:coord" out="2:conj">eller</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="2:coord" out="">eller</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="1:numm" out="">tre</W>
-<W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:numm">millioner</W>
+<W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-4:conj" out="-1:numm|-2:coord">millioner</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:pnct|-10:subj|1:mod|2:mod|5:pred|6:pnct">er</W>
 <W gloss="However" lemma="dog" msd="RGU" tag="RP" in="-1:mod" out="">dog</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="2:avobj">for</W>

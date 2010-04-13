@@ -108,10 +108,10 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">han</W>
-<W gloss="jumped" lemma="springe" morph="springe" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|2:coord">sprang</W>
+<W gloss="jumped" lemma="springe" morph="springe" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|3:conj">sprang</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-1:lobj" out="">til</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="hiring" lemma="ansætte" morph="ansætte" msd="VADA=----A-" tag="VBD" in="-1:conj" out="-4:[subj]|2:dobj">ansatte</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="hiring" lemma="ansætte" morph="ansætte" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|2:dobj|-1:coord">ansatte</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="no" lemma="nummer" morph="nummer" msd="NCNSU==I" tag="NN" in="-2:dobj" out="-1:pnct|1:nobj|2:pnct|3:pnct|4:ref|8:rel">nr.</W>
 <W gloss="46" lemma="46" msd="AC---U=--" tag="CD" in="-1:nobj" out="">46</W>
@@ -159,14 +159,14 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|8:[subj]" out="">Hun</W>
-<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-9:CAUSE/(for)" out="-1:subj|1:dobj|6:coord|13:pnct|14:pnct">har</W>
+<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-9:CAUSE/(for)" out="-1:subj|1:dobj|13:pnct|14:pnct|7:conj">har</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:mod|4:nobj">et</W>
-<W gloss="gentle" lemma="mild" morph="mild" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="1:coord">mildt</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="sweet" lemma="sød" morph="sød" msd="ANPNSU=IU" tag="JJ" in="-1:conj" out="">sødt</W>
+<W gloss="gentle" lemma="mild" morph="mild" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="2:conj">mildt</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="sweet" lemma="sød" morph="sød" msd="ANPNSU=IU" tag="JJ" in="-2:conj" out="-1:coord">sødt</W>
 <W gloss="nature" lemma="væsen" morph="væsen" msd="NCNSU==I" tag="NN" in="-4:nobj" out="">væsen</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-6:coord" out="1:conj">og</W>
-<W gloss="suits" lemma="passe" morph="passe" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-8:[subj]|1:mod|2:lobj">passer</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="suits" lemma="passe" morph="passe" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-8:[subj]|1:mod|2:lobj|-1:coord">passer</W>
 <W gloss="well" lemma="fin" morph="fin" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">fint</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">ind</W>
 <W gloss="with" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>

@@ -113,7 +113,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DDR</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">equipment</W>
-<W msd="VADR" tag="VBP" in="" out="-4:mod|-3:subj|1:pred|7:pnct|8:coord|35:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:mod|-3:subj|1:pred|7:pnct|35:pnct|31:conj">are</W>
 <W msd="NC=S" tag="NN" in="-1:pred" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
@@ -121,7 +121,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">NATO</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">army</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-8:coord" out="23:conj">and</W>
+<W msd="CC" tag="CC" in="23:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="22:mod" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
@@ -144,7 +144,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">threat</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="U=" tag="EX" in="-1:nobj" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-23:conj" out="-4:subj|-22:mod|1:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-31:conj" out="-4:subj|-22:mod|1:vobj|-23:coord">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">assessed</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:pred">as</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="">hypothetical</W>
@@ -198,10 +198,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">connection</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="4:nobj">with</W>
 <W msd="ANP" tag="JJ" in="3:mod" out="">international</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">crisis</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod|-3:mod|-2:pnct|1:pnct">management</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>

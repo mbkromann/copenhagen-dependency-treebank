@@ -41,8 +41,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj|21:coref-var">der</W>
 <W lemma="Nil" msd="NP" tag="NE" in="-1:nobj" out="">Nil</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="4:nobj">so</W>
-<W lemma="verunreinigen" msd="VAP" tag="VVPP" in="1:preds" out="-1:degr">verunreinigt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds|1:pnct">ist</W>
+<W lemma="verunreinigen" msd="VAP" tag="VVPP" in="1:preds|1:preds" out="-1:degr">verunreinigt</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds|1:pnct|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="2:vobj">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">man</W>
@@ -131,7 +131,7 @@
 <W lemma="zweit" msd="AN" tag="ADJA" in="-1:attr" out="">zweiter</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="-2:attr" out="">guter</W>
 <W lemma="Rat" msd="NC" tag="NN" in="-3:nobj" out="">Rat</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:subj|1:pnct|8:preds|10:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:subj|1:pnct|8:preds|10:pnct|8:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:[subj]|7:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="nah" msd="AN" tag="ADJA" in="-1:attr" out="">nächste</W>
@@ -139,7 +139,7 @@
 <W lemma="nach" msd="SP" tag="APPR" in="2:@dir" out="1:nobj">nach</W>
 <W lemma="Ägypten" msd="NP" tag="NE" in="-1:nobj" out="">Ägypten</W>
 <W lemma="gehen" msd="VAF" tag="VVINF" in="2:vobj" out="-2:@dir|-5:[subj]">gehen</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-8:preds" out="1:vobj">zu</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="-8:preds|-8:preds" out="1:vobj">zu</W>
 <W lemma="lassen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:vobj|-7:dobj|-13:[subj]">lassen</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="">Es</W>

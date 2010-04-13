@@ -92,9 +92,9 @@
 <W gloss="purpose" lemma="formål" msd="NCNSU==I" tag="NN" in="-1:possd" out="">formål</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="5:mod" out="1:nobj">i</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod">det</W>
-<W gloss="large" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="1:coord">store</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:conj" out="">hele</W>
+<W gloss="large" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="2:conj">store</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="-1:coord">hele</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-5:mod|-7:subj|1:vobj">er</W>
 <W gloss="disappeared" lemma="forsvinde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:mod">forsvundet</W>
 <W gloss="along" lemma="sammen" msd="RGU" tag="RP" in="-1:mod" out="1:pobj">sammen</W>
@@ -131,14 +131,14 @@
 </s>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
-<W gloss="part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:pobj|6:pnct|7:coord|30:pnct">indgår</W>
+<W gloss="part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:pobj|6:pnct|30:pnct|24:conj">indgår</W>
 <W gloss="the_DDR_equipment" lemma="DDR-materiel" msd="NCNSU==D" tag="NN" in="-1:subj" out="">DDR-materiellet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">den</W>
 <W gloss="German" lemma="tysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">tyske</W>
 <W gloss="NATO_army" lemma="NATO-hær" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">NATO-hær</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="17:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="17:coord" out="">og</W>
 <W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="16:xtop" out="3:vobj|15:ref">selv_om</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="2:expl|3:[expl]" out="">der</W>
 <W gloss="continues_to" lemma="fortsat" msd="RGU" tag="RP" in="1:mod" out="">fortsat</W>
@@ -155,7 +155,7 @@
 <W gloss="East_Germany" lemma="Østtyskland" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Østtyskland</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-15:ref|1:mod" out="">så</W>
-<W gloss="is_assessed" lemma="vurdere" msd="VADR=----P-" tag="VBD" in="-17:conj" out="-16:xtop|-1:mod|1:subj|3:pobj">vurderes</W>
+<W gloss="is_assessed" lemma="vurdere" msd="VADR=----P-" tag="VBD" in="-24:conj" out="-16:xtop|-1:mod|1:subj|3:pobj|-17:coord">vurderes</W>
 <W gloss="the_threat" lemma="trussel" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:mod">truslen</W>
 <W gloss="from_this" lemma="herfra" msd="RGU" tag="RP" in="-1:mod" out="">herfra</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:pobj" out="1:vobj">som</W>
@@ -202,9 +202,9 @@
 <W gloss="connection" lemma="forbindelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">forbindelse</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">med</W>
 <W gloss="international" lemma="international" msd="ANPCSU=IU" tag="JJ" in="2:mod" out="">international</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="crisis_management" lemma="krisestyring" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-2:mod|-1:pnct|1:pnct">krisestyring</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 </p>

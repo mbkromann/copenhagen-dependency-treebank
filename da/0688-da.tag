@@ -47,7 +47,7 @@
 <W gloss="Skandia_drama_is" lemma="Skandia-drama" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Skandia-dramaet</W>
 <W gloss="Baltica" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-4:lobj|1:subj|2:pnct">står</W>
 <W gloss="." lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Baltica</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="director" lemma="administrere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:mod" out="">Administrerende</W>
@@ -60,16 +60,16 @@
 <W gloss="are" lemma="der" msd="U=" tag="WDT" in="2:expl" out="">der</W>
 <W gloss="negotiations" lemma="hverken" msd="RGU" tag="RP" in="3:mod" out="">hverken</W>
 <W gloss="neither" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:expl|1:dobj|8:mod">er</W>
-<W gloss="nor" lemma="forhandling" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:coord|3:pobj">forhandlinger</W>
-<W gloss="explorations" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="-3:mod|1:conj">eller</W>
-<W gloss="surveys" lemma="sondering" msd="NCCPU==I" tag="NNP" in="-1:conj" out="1:[pobj]">sonderinger</W>
+<W gloss="nor" lemma="forhandling" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="3:pobj|2:conj">forhandlinger</W>
+<W gloss="explorations" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-3:mod">eller</W>
+<W gloss="surveys" lemma="sondering" msd="NCCPU==I" tag="NNP" in="-2:conj" out="1:[pobj]|-1:coord">sonderinger</W>
 <W gloss="Baltica" lemma="mellem" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="1:nobj">mellem</W>
-<W gloss="and" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:coord">Baltica</W>
-<W gloss="Skandia" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="at" lemma="Skandia" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Skandia</W>
+<W gloss="and" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Baltica</W>
+<W gloss="Skandia" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="at" lemma="Skandia" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Skandia</W>
 <W gloss="the" lemma="i" msd="SP" tag="IN" in="-8:mod" out="1:nobj">i</W>
 <W gloss="moment_." lemma="øjeblik" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">øjeblikket</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="once" lemma="Skandia" msd="NP--U==-" tag="NNP" in="1:subj|3:[subj]" out="">Skandia</W>
@@ -80,7 +80,7 @@
 <W gloss="with" lemma="giftermål" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">giftermål</W>
 <W gloss="Baltica" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="." lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Baltica</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 </p>
 <p>
@@ -104,9 +104,9 @@
 <W gloss="namely" lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="," lemma="nemlig" msd="RGU" tag="RP" in="1:mod" out="">nemlig</W>
 <W gloss="Baltica" lemma="mellem" msd="SP" tag="IN" in="-7:pobj" out="-1:mod|1:nobj">mellem</W>
-<W gloss="and" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:coord">Baltica</W>
-<W gloss="Hafnia" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="on" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Hafnia</W>
+<W gloss="and" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Baltica</W>
+<W gloss="Hafnia" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="on" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Hafnia</W>
 <W gloss="the" lemma="om" msd="SP" tag="IN" in="-11:pobj" out="1:nobj">om</W>
 <W gloss="large" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:pnct|4:ref|6:rel">den</W>
 <W gloss="shareholdings" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">store</W>
@@ -117,7 +117,7 @@
 <W gloss="in" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|-2:dobj|1:mod">har</W>
 <W gloss="Baltica" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="." lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Baltica</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 </p>
 <p>
@@ -125,15 +125,15 @@
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">Umiddelbart</W>
 <W gloss="Christmas" lemma="før" msd="SP" tag="IN" in="2:mod" out="-1:tobj|1:nobj">før</W>
 <W gloss="," lemma="jul" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">jul</W>
-<W gloss="entered" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|1:expl|2:vobj|15:pnct|16:coord|29:pnct">var</W>
+<W gloss="entered" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|1:expl|2:vobj|15:pnct|29:pnct|18:conj">var</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|1:[expl]" out="">der</W>
 <W gloss="into_between" lemma="indgå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[expl]|1:dobj">indgået</W>
 <W gloss="ent" lemma="ent" msd="XX" tag="FW" in="-1:dobj" out="1:nobj">ent</W>
 <W gloss="was" lemma="aftale" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj|5:pobj">aftale</W>
 <W gloss="Hafnia" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="and" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:coord">Hafnia</W>
-<W gloss="Baltica" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="on" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Baltica</W>
+<W gloss="and" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Hafnia</W>
+<W gloss="Baltica" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="on" lemma="Baltica" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Baltica</W>
 <W gloss="selling" lemma="om" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">om</W>
 <W gloss="the" lemma="afhændelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">afhændelse</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -141,9 +141,9 @@
 <W gloss="shareholdings" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">store</W>
 <W gloss="," lemma="aktiepost" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">aktiepost</W>
 <W gloss="but" lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W gloss="Hafnia" lemma="men" msd="CC" tag="CC" in="-16:coord" out="2:conj">men</W>
+<W gloss="Hafnia" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="would" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="1:subj|3:[subj]" out="">Hafnia</W>
-<W gloss="not" lemma="ville" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:vobj">ville</W>
+<W gloss="not" lemma="ville" msd="VADA=----A-" tag="VBD" in="-18:conj" out="-1:subj|1:mod|2:vobj|-2:coord">ville</W>
 <W gloss="accept" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="Skandia" lemma="anerkende" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:pobj">anerkende</W>
 <W gloss="as" lemma="Skandia" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Skandia</W>
@@ -154,7 +154,7 @@
 <W gloss="of" lemma="fjerdedel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">fjerdedel</W>
 <W gloss="the" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Baltica_shares_." lemma="Baltica-aktie" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">Baltica-aktierne</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-29:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="the" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
@@ -163,12 +163,12 @@
 <W gloss="fell" lemma="aftale" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">aftale</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:mod" out="1:nobj">på</W>
 <W gloss="floor" lemma="gulv" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">gulvet</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="And" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="And" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="we" lemma="og" msd="CC" tag="CC" in="9:qobj" out="-1:pnct|2:conj|7:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|2:mod|3:dobj|6:pnct">har</W>
@@ -176,7 +176,7 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
 <W gloss="purchasers" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-3:dobj" out="1:nobj">andre</W>
 <W gloss="," lemma="køber" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">købere</W>
-<W gloss="says" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
+<W gloss="says" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="Peter" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-9:qobj|2:subj|19:pnct">siger</W>
 <W gloss="Christoffersen" lemma="Peter" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peter</W>
@@ -191,13 +191,13 @@
 <W gloss="been" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
 <W gloss="not" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">har</W>
 <W gloss="out" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pred">været</W>
-<W gloss="to" lemma="ude" msd="RGU" tag="RP" in="-1:pred" out="1:coord">ude</W>
-<W gloss="&quot;" lemma="og" msd="CC" tag="CC" in="-1:coord" out="2:conj">og</W>
-<W gloss="scan" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
-<W gloss="&quot;" lemma="scanne" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:pnct|1:pnct|2:dobj">scanne</W>
-<W gloss="the" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="to" lemma="ude" msd="RGU" tag="RP" in="-1:pred" out="3:conj">ude</W>
+<W gloss="&amp;quot;" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
+<W gloss="scan" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="scanne" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:pnct|1:pnct|2:dobj|-2:coord">scanne</W>
+<W gloss="the" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="market_." lemma="marked" msd="NCNSU==D" tag="NN" in="-2:dobj" out="">markedet</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 </p>
 <p>
@@ -228,7 +228,7 @@
 <W gloss="sentence" lemma="punktum" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">punktum</W>
 <W gloss="Christmas" lemma="før" msd="SP" tag="IN" in="-4:mod" out="1:nobj">før</W>
 <W gloss="." lemma="jul" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">jul</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 </p>
 <p>
@@ -250,7 +250,7 @@
 <W gloss="abroad" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="abroad" lemma="udland" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">udlandet</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="sale" lemma="en" msd="PI-NSU--U" tag="DT" in="" out="1:nobj|2:ref|3:rel|13:pnct">Et</W>
@@ -266,7 +266,7 @@
 <W gloss="for" lemma="730" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:mod">730</W>
 <W gloss="the" lemma="for" msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W gloss="Baltica_Holding_shares_." lemma="Baltica_Holding-aktie" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">Baltica_Holding-aktierne</W>
-<W gloss="</s>" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
+<W gloss="&lt;/s&gt;" lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
 </div1>

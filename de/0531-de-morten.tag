@@ -6,8 +6,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:nobj" out="1:loc">Topchefs</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj|103:coref-var">der</W>
-<W lemma="6." msd="AN" tag="ADJA" in="1:attrd" out="">6.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="-1:attrd">Juli-Bank</W>
+<W lemma="6." msd="AN" tag="ADJA" in="1:attr" out="">6.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Juli-Bank</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-9:appa" out="1:nobj|4:appr|6:conj|10:pnct|38:coref-id">der</W>
 <W lemma="Vorstandsvorsitzende" msd="NC" tag="NN" in="-1:nobj" out="">Vorstandsvorsitzende</W>
@@ -172,11 +172,11 @@
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="-28:coref-prg|2:subj" out="1:nobj">Der</W>
 <W lemma="Freispruch" msd="NC" tag="NN" in="-1:nobj" out="">Freispruch</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="22:qobj" out="-2:subj|1:man|4:preds|6:pobj">sei</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="22:qobj" out="-2:subj|1:man|4:preds|6:pobj|4:preds">sei</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:man" out="2:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:neg" out="">keinster</W>
 <W lemma="Weise" msd="NC" tag="NN" in="-2:nobj" out="-1:neg">Weise</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-4:preds" out="1:nobj">eine</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-4:preds|-4:preds" out="1:nobj">eine</W>
 <W lemma="Bescheinigung" msd="NC" tag="NN" in="-1:nobj" out="">Bescheinigung</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="-6:pobj" out="1:pnct|2:dobj">dafür</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>

@@ -48,12 +48,12 @@
 <div1 type=external>
 <p>
 <s>
-<W gloss="EMPL" lemma="MEDARB" msd="XX" tag="FW" in="" out="1:coord|3:conj">MEDARB</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="jss" lemma="jss" msd="XX" tag="FW" in="-1:conj" out="">jss</W>
-<W gloss="SOURCE" lemma="kilde" msd="NCCSU==I" tag="NN" in="-3:conj" out="1:coord">KILDE</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="afp" lemma="afp" msd="XX" tag="FW" in="-1:conj" out="">afp</W>
+<W gloss="EMPL" lemma="MEDARB" msd="XX" tag="FW" in="" out="3:conj|2:conj">MEDARB</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="jss" lemma="jss" msd="XX" tag="FW" in="-2:conj" out="-1:coord">jss</W>
+<W gloss="SOURCE" lemma="kilde" msd="NCCSU==I" tag="NN" in="-3:conj" out="2:conj">KILDE</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="afp" lemma="afp" msd="XX" tag="FW" in="-2:conj" out="-1:coord">afp</W>
 <W gloss="TO_BE_BROADCAST" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="7:mod|10:conj">UDSENDES</W>
 </s>
 </p>
@@ -61,9 +61,9 @@
 <div1 type=external>
 <p>
 <s>
-<W gloss="at_noon" lemma="klokke" msd="NCCSU==D" tag="NN" in="-7:mod" out="1:coord">KL</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="5_:_00pm" lemma="17" msd="AC---U=--" tag="CD" in="-1:conj" out="">17</W>
+<W gloss="at_noon" lemma="klokke" msd="NCCSU==D" tag="NN" in="-7:mod" out="2:conj">KL</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="5_&3a;_00pm" lemma="17" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">17</W>
 <W gloss="READER" lemma="oplæser" msd="NCCSU==I" tag="NN" in="-10:conj" out="1:coord">OPLÆSER</W>
 <W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="">=</W>
 </s>
@@ -82,12 +82,12 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="2:subj|3:[subj]|7:[subj]" out="1:possd">hans</W>
 <W gloss="forces" lemma="styrke" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">styrker</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|4:coord">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|5:conj">er</W>
 <W gloss="placed" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">sat</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="alert" lemma="alarmberedskab" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">alarmberedskab</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-7:[subj]|1:pred">er</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-7:[subj]|1:pred|-1:coord">er</W>
 <W gloss="ready" lemma="parat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="1:pobj">parat</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -139,9 +139,9 @@
 <div1 type=external>
 <p>
 <s>
-<W gloss="GROSS" lemma="brutto" msd="RGU" tag="RP" in="" out="1:coord">BRUTTO</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="00_:_18" lemma="00:18" msd="AC---U=--" tag="CD" in="-1:conj" out="">00:18</W>
+<W gloss="GROSS" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="00_&3a;_18" lemma="00&3a;18" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:18</W>
 </s>
 </p>
 </div1>
@@ -155,12 +155,12 @@
 <div1 type=external>
 <p>
 <s>
-<W gloss="EMPL" lemma="MEDARB" msd="XX" tag="FW" in="" out="1:coord|3:conj">MEDARB</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="CEG" lemma="CEG" msd="NP--U==-" tag="NNP" in="-1:conj" out="">CEG</W>
-<W gloss="SOURCE" lemma="kilde" msd="NCCSU==I" tag="NN" in="-3:conj" out="1:coord">KILDE</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="div" lemma="diverse" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:conj" out="">div.</W>
+<W gloss="EMPL" lemma="MEDARB" msd="XX" tag="FW" in="" out="3:conj|2:conj">MEDARB</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="CEG" lemma="CEG" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">CEG</W>
+<W gloss="SOURCE" lemma="kilde" msd="NCCSU==I" tag="NN" in="-3:conj" out="2:conj">KILDE</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="div" lemma="diverse" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">div.</W>
 </s>
 </p>
 </div1>
@@ -168,12 +168,12 @@
 <p>
 <s>
 <W gloss="TO_BE_BROADCAST" lemma="udsende" msd="VADR=----P-" tag="VBD" in="" out="1:mod|4:conj">UDSENDES</W>
-<W gloss="at_noon" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:mod" out="1:coord">KL</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="4_:_30pm" lemma="1630" msd="AC---U=--" tag="CD" in="-1:conj" out="">1630</W>
-<W gloss="READER" lemma="oplæser" msd="NCCSU==I" tag="NN" in="-4:conj" out="1:coord">OPLÆSER</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="CEG" lemma="CEG" msd="NP--U==-" tag="NNP" in="-1:conj" out="">CEG</W>
+<W gloss="at_noon" lemma="klokke" msd="NCCSU==D" tag="NN" in="-1:mod" out="2:conj">KL</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="4_&3a;_30pm" lemma="1630" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">1630</W>
+<W gloss="READER" lemma="oplæser" msd="NCCSU==I" tag="NN" in="-4:conj" out="2:conj">OPLÆSER</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="CEG" lemma="CEG" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">CEG</W>
 </s>
 </p>
 </div1>
@@ -227,18 +227,18 @@
 <div1 type=external>
 <p>
 <s>
-<W gloss="GROSS" lemma="brutto" msd="RGU" tag="RP" in="" out="1:coord">BRUTTO</W>
-<W gloss="=" lemma="=" msd="XS" tag="SYM" in="-1:coord" out="1:conj">=</W>
-<W gloss="00_:_14" lemma="00:14" msd="AC---U=--" tag="CD" in="-1:conj" out="">00:14</W>
+<W gloss="GROSS" lemma="brutto" msd="RGU" tag="RP" in="" out="2:conj">BRUTTO</W>
+<W gloss="=" lemma="=" msd="XS" tag="SYM" in="1:coord" out="">=</W>
+<W gloss="00_&3a;_14" lemma="00&3a;14" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord">00:14</W>
 </s>
 </p>
 </div1>
 <div1 type=main>
 <p>
 <s>
-<W gloss="Food" lemma="mad" msd="NCCSU==I" tag="NN" in="4:subj" out="1:coord">Mad</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="other" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:conj" out="1:nobj">anden</W>
+<W gloss="Food" lemma="mad" msd="NCCSU==I" tag="NN" in="4:subj" out="2:conj">Mad</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="other" lemma="anden" msd="PI-CSU--U" tag="DT" in="-2:conj" out="1:nobj|-1:coord">anden</W>
 <W gloss="help" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hjælp</W>
 <W gloss="is_streaming" lemma="strømme" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|2:pobj|7:pnct">strømmer</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>

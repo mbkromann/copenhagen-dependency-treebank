@@ -23,9 +23,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">need</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">innovation</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">change</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">innovation</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">change</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-16:conj" out="-15:mod|-1:subj|1:vobj">will</W>
@@ -70,24 +70,24 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="4:subj|6:[subj]" out="1:coord">Research</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="4:subj|6:[subj]" out="3:conj">Research</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">development</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">programs</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|1:mod|2:vobj|7:coord|18:pnct">are</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">programs</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|1:mod|2:vobj|18:pnct|13:conj">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:mod">established</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">on</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">relatively</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="-1:mod">short</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">notice</W>
-<W msd="CC" tag="CC" in="-7:coord" out="6:conj">and</W>
+<W msd="CC" tag="CC" in="6:coord" out="">and</W>
 <W msd="PO" tag="PRP$" in="5:subj|6:[subj]" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">lifespan</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
-<W msd="VADR" tag="VBZ" in="-6:conj" out="-5:subj|-3:mod|1:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-13:conj" out="-5:subj|-3:mod|1:vobj|-6:coord">is</W>
 <W msd="ANP" tag="JJ" in="-1:vobj" out="-6:[subj]|1:pobj">limited</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="1:nobj">four-five</W>
@@ -99,7 +99,7 @@
 <W msd="RG" tag="RP" in="1:mod" out="">up</W>
 <W msd="CS" tag="IN" in="-2:mod" out="-1:mod|1:avobj">until</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">now</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:dobj|9:coord|14:pnct">indicates</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:dobj|14:pnct|11:conj">indicates</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="3:pobj">chances</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pred">are</W>
@@ -108,9 +108,9 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">follow-up</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">programs</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-9:coord" out="2:conj">but</W>
+<W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:expl|1:dobj">is</W>
+<W msd="VADR" tag="VBZ" in="-11:conj" out="-1:expl|1:dobj|-2:coord">is</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">certainty</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -119,9 +119,9 @@
 <W msd="PD" tag="DT" in="6:subj|11:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">decision</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:nobj">to</W>
-<W msd="VAF" tag="VB" in="-1:nobj" out="1:coord">stop</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">or</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="">continue</W>
+<W msd="VAF" tag="VB" in="-1:nobj" out="2:conj">stop</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="VAF" tag="VB" in="-2:conj" out="-1:coord">continue</W>
 <W msd="VA" tag="MD" in="" out="-6:subj|1:mod|5:vobj|24:pnct">will</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
@@ -149,7 +149,7 @@
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="13:subj" out="1:pobj|8:coord">Uncertainty</W>
+<W msd="NC=S" tag="NN" in="13:subj" out="1:pobj|10:conj">Uncertainty</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">time</W>
@@ -157,9 +157,9 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">programs</W>
-<W msd="CC" tag="CC" in="-8:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">inexpedient</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod|1:pobj">forms</W>
+<W msd="NC=P" tag="NNS" in="-10:conj" out="-1:mod|1:pobj|-2:coord">forms</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">financing</W>
 <W msd="NC=S" tag="NN" in="13:qobj" out="-13:subj|1:dobj|5:pred|10:pnct">make</W>
@@ -211,10 +211,10 @@
 <W msd="VAP" tag="VBN" in="-4:pred" out="-1:mod">known</W>
 <W msd="SP" tag="IN" in="-5:mod" out="2:nobj">outside</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">research</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:coord">circles</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|3:conj">circles</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">affiliated</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">businesses</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">businesses</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>

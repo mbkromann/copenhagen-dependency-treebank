@@ -11,10 +11,10 @@
 <s>
 <W msd="VAP" tag="VBN" in="" out="1:pobj|6:pnct">Calculated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">quantity</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="3:conj">quantity</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="SP" tag="IN" in="" out="">in</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="">price</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord">price</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -245,14 +245,14 @@
 <W msd="CS" tag="IN" in="-2:mod" out="">as</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">whole</W>
-<W msd="VADR" tag="VBZ" in="-12:rel" out="-5:subj|1:vobj|4:coord">has</W>
+<W msd="VADR" tag="VBZ" in="-12:rel" out="-5:subj|1:vobj|7:conj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:dobj|-6:[subj]|1:mod">entered</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">since</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1988</W>
-<W msd="CC" tag="CC" in="-4:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PT" tag="WRB" in="-17:ref|2:mod" out="">where</W>
 <W msd="AC" tag="CD" in="1:subj" out="">1991</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:mod|-1:subj|4:mod">is</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-2:mod|-1:subj|4:mod|-3:coord">is</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">reference</W>
 <W msd="NC=S" tag="NN" in="" out="">point</W>

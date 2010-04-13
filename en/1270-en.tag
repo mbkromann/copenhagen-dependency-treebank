@@ -54,15 +54,15 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|10:[subj]|13:[subj]" out="1:nobj">Both</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">operations</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|7:coord|14:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|14:pnct|8:conj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">take</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">place</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">outpatient</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">basis</W>
-<W msd="CC" tag="CC" in="-7:coord" out="1:conj">and</W>
-<W msd="VADR" tag="VBP" in="-1:conj" out="-10:[subj]|1:mod|2:mod|3:vobj">do</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADR" tag="VBP" in="-8:conj" out="-10:[subj]|1:mod|2:mod|3:vobj|-1:coord">do</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">necessarily</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-13:[subj]|2:dobj">require</W>
@@ -174,7 +174,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cushion</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-15:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-15:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-16:qobj|1:subj|4:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:mod|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">orthopaedic</W>

@@ -46,15 +46,15 @@
 <W msd="ANP" tag="JJ" in="" out="">top</W>
 <W msd="NC=P" tag="NNS" in="" out="">clubs</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-7:appa" out="1:pnct|2:conj|3:coord">Besiktas</W>
+<W msd="NP=S" tag="NNP" in="-7:appa" out="1:pnct|2:conj|4:conj">Besiktas</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Fenerbache</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">or</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Galatasaray</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Galatasaray</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj">don't</W>
 <W msd="NC=S" tag="NN" in="" out="">put</W>
@@ -66,7 +66,7 @@
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="NC=P" tag="NNS" in="" out="">rumours</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="2:subj|3:pobj|5:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Olson</W>
@@ -75,7 +75,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|15:pnct">are</W>
 <W msd="SP" tag="IN" in="" out="">in</W>
@@ -85,10 +85,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|5:nobj|7:mod">the</W>
 <W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="-1:mod">hectic</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">trading</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod|-2:pnct|1:pnct">period</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-7:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Turkish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">football</W>
@@ -135,9 +135,9 @@
 <W msd="NC=S" tag="NN" in="7:mod" out="-1:mod|1:pnct">weekend</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="5:subj" out="1:possd">my</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:coord">club-</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">roommate</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="2:conj">club-</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">roommate</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">suddenly</W>
 <W msd="VADA" tag="VBD" in="" out="-7:mod|-5:subj|-1:mod|2:dobj|9:pnct">asked</W>
 <W msd="PP" tag="PRP" in="" out="">me</W>
@@ -189,7 +189,7 @@
 <W msd="CC" tag="CC" in="" out="1:conj|28:pnct">But</W>
 <W msd="PP" tag="PRP" in="-1:conj" out="1:vobj">I</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="1:pnct">said</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PO" tag="PRP$" in="3:subj|4:[subj]|6:[subj]" out="1:mod|2:possd">My</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">fixed</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">standpoint</W>
@@ -214,5 +214,5 @@
 <W msd="ANP" tag="JJ" in="" out="">happy</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="AC" tag="CD" in="" out="">be.</W>
-<W msd="XP" tag="&quot;" in="-28:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-28:pnct" out="">"</W>
 </s>

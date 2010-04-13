@@ -107,20 +107,20 @@
 <W msd="PO" tag="PRP$" in="-1:dobj" out="2:possd">their</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">visa</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="-1:mod">policies</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:vobj|2:coord">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:vobj|4:conj">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-11:[subj]">growing</W>
-<W msd="CC" tag="CC" in="-2:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:mod|1:subj|6:pnct|11:xpl">is</W>
+<W msd="VADR" tag="VBZ" in="-4:conj" out="-1:mod|1:subj|6:pnct|11:xpl|-2:coord">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bitterness</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">among</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">ordinary</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="-1:mod">Croatians</W>
-<W msd="XP" tag=":" in="-6:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="-11:xpl" out="-2:pnct|-1:subj|1:pred|10:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:pred" out="1:nobj">in</W>
@@ -143,9 +143,9 @@
 <W msd="PI" tag="DT" in="-1:pred" out="1:nobj|2:mod">a</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">opportunities</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">or</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">prospects</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">opportunities</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">prospects</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -160,7 +160,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Palestinians</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-11:qobj|2:subj|10:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Darko</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Richter</W>
@@ -198,21 +198,21 @@
 <W msd="ANP" tag="JJ" in="-2:pred" out="">independent</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">last</W>
 <W msd="NC=S" tag="NN" in="-4:mod" out="-1:mod">year</W>
-<W msd="XP" tag=":" in="-17:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-17:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">We</W>
 <W msd="VA" tag="MD" in="-22:xpl" out="-2:pnct|-1:subj|2:mod|3:vobj|10:pnct">can</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">no</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">longer</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:pobj">live</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">airlifts</W>
-<W msd="CC" tag="CC" in="-1:coord" out="3:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="4:conj">airlifts</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">emergency</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">aid</W>
-<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod">convoys</W>
+<W msd="NC=P" tag="NNS" in="-4:conj" out="-1:mod|-3:coord">convoys</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -220,7 +220,7 @@
 <W msd="PP" tag="PRP" in="-1:iobj" out="">us</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="">weapons</W>
 <W msd="XP" tag="." in="-3:pnct" out="">!</W>
-<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
 </s>
 <s>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|2:subj|3:pnct">says</W>

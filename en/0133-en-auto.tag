@@ -57,7 +57,7 @@
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="">The</W>
 <W msd="NC=P" tag="NNS" in="" out="">terms</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
@@ -85,7 +85,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Navy</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="" out="-22:qobj|5:subj|10:pnct">reports</W>
 <W msd="ANP" tag="JJ" in="" out="">senior</W>
 <W msd="NC=S" tag="NN" in="" out="">grade</W>
@@ -111,9 +111,9 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:coord">QUICK</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">AND</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">EXPENSIVE</W>
+<W msd="NP=S" tag="NNP" in="" out="2:conj">QUICK</W>
+<W msd="CC" tag="CC" in="1:coord" out="">AND</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">EXPENSIVE</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
@@ -168,7 +168,7 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|3:pnct|5:xpl">are</W>
 <W msd="ANP" tag="RB" in="" out="">awfully</W>
 <W msd="ANP" tag="RB" in="" out="">fast</W>
-<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="-5:xpl" out="-1:subj|1:vobj|6:pnct|7:mod|23:pnct">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:lobj">run</W>
@@ -226,7 +226,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|-2:mod|1:vobj|12:coord|23:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|-2:mod|1:vobj|23:pnct|13:conj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:mod|7:mod">built</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -238,16 +238,16 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Aalborg</W>
 <W msd="NP=S" tag="NNP" in="" out="">Dockyard</W>
-<W msd="CC" tag="CC" in="-12:coord" out="1:conj">and</W>
-<W msd="VADR" tag="VBZ" in="-1:conj" out="-17:[subj]|1:mod|2:vobj">has</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADR" tag="VBZ" in="-13:conj" out="-17:[subj]|1:mod|2:vobj|-1:coord">has</W>
 <W msd="CS" tag="IN" in="-1:mod" out="">since</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-19:[subj]|1:mod|2:lobj">sailed</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">faithfully</W>
 <W msd="U=" tag="TO" in="-2:lobj" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Faeroe</W>
-<W msd="NP=P" tag="NNPS" in="" out="1:coord">Islands</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Greenland</W>
+<W msd="NP=P" tag="NNPS" in="" out="2:conj">Islands</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Greenland</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>

@@ -63,10 +63,10 @@
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-6:ref|5:subj" out="">der</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="4:neg" out="">nicht</W>
-<W lemma="Bestandteil" msd="NC" tag="NN" in="3:preds" out="1:poss&3a;apart">Bestandteil</W>
+<W lemma="Bestandteil" msd="NC" tag="NN" in="3:preds|3:preds" out="1:poss&3a;apart">Bestandteil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:poss&3a;apart" out="1:nobj">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Ørestaden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-11:relr" out="-5:subj|-4:neg|-3:preds|1:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-11:relr" out="-5:subj|-4:neg|-3:preds|1:pnct|-3:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-13:subj|3:vobj|4:pnct">wird</W>
 <W lemma="unter" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">unter</W>

@@ -79,18 +79,18 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
-<W lemma="d" msd="PP" tag="PDS" in="1:subj|-7:coref-res" out="">Das</W>
+<W lemma="d" msd="PP" tag="PDS" in="-7:coref-res|1:subj" out="">Das</W>
 <W lemma="bedeuten" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:subj|1:pnct|2:dobj|8:pnct">bedeutet</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="5:vobj">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="4:subj" out="">man</W>
 <W lemma="ständig" msd="AN" tag="ADJD" in="3:ext" out="">ständig</W>
-<W lemma="unter" msd="SP" tag="APPR" in="2:preds" out="1:nobj">unter</W>
+<W lemma="unter" msd="SP" tag="APPR" in="2:preds|2:preds" out="1:nobj">unter</W>
 <W lemma="Druck" msd="NC" tag="NN" in="-1:nobj" out="">Druck</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-3:ext|-2:preds|3:coref-res">steht</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-3:ext|-2:preds|3:coref-res|-2:preds">steht</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">Und</W>
-<W lemma="d" msd="PP" tag="PDS" in="1:subj|3:[subj]|-3:coref-res" out="">das</W>
+<W lemma="d" msd="PP" tag="PDS" in="-3:coref-res|1:subj|3:[subj]" out="">das</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="5:qobj" out="-2:coord|-1:subj|1:neg|2:vobj|3:pnct|4:pnct">ist</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="aushalten" msd="VAF" tag="VVIZU" in="-2:vobj" out="-3:[subj]">auszuhalten</W>
@@ -220,10 +220,10 @@
 <W lemma="Kr." msd="NC" tag="NN" in="-1:nobj" out="">kr.</W>
 <W lemma="zahlen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-6:pobj|-2:dobj|2:coref-res">zahlt</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
-<W lemma="d" msd="PP" tag="PDS" in="1:subj|-2:coref-res" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|8:xpl">ist</W>
+<W lemma="d" msd="PP" tag="PDS" in="-2:coref-res|1:subj" out="">Das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|8:xpl|2:preds">ist</W>
 <W lemma="ziemlich" msd="AN" tag="ADJD" in="1:degr" out="">ziemlich</W>
-<W lemma="ungerecht" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr">ungerecht</W>
+<W lemma="ungerecht" msd="AN" tag="ADJD" in="-2:preds|-2:preds" out="-1:degr">ungerecht</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-3:pnct" out="">:</W>
 <W lemma="an" msd="SP" tag="APPR" in="4:time" out="1:nobj">an</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj">einem</W>

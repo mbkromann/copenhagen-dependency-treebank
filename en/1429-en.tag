@@ -4,11 +4,11 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">BTCC</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="5:subj|6:[subj]|8:[subj]|9:[subj]" out="1:pnct|2:conj|3:coord">Ford</W>
+<W msd="NP=S" tag="NNP" in="5:subj|6:[subj]|8:[subj]|9:[subj]" out="1:pnct|2:conj|4:conj">Ford</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Volkswagen</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Renault</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Renault</W>
 <W msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|12:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">expected</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -24,7 +24,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="11:subj|13:[subj]" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:pnct|8:conj|9:coord">BMW</W>
+<W msd="NP=S" tag="NNP" in="11:subj|13:[subj]" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:pnct|8:conj|10:conj">BMW</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Toyota</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -33,8 +33,8 @@
 <W msd="NP=S" tag="NNP" in="-6:conj" out="">Peugeot</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="">Mazda</W>
-<W msd="CC" tag="CC" in="-9:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Nissan</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-10:conj" out="-1:coord">Nissan</W>
 <W msd="VADR" tag="VBP" in="" out="-11:subj|1:mod|2:vobj|24:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-13:[subj]|1:pobj">involved</W>
@@ -84,30 +84,30 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">team's</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="">V8s</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-22:subj|1:vobj|21:coord|49:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-22:subj|1:vobj|49:pnct|23:conj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-23:[subj]|1:iobj|10:dobj">informed</W>
 <W msd="PO" tag="PRP$" in="-1:iobj" out="1:possd|2:pnct|3:appa">its</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">drivers</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
-<W msd="NP=S" tag="NNP" in="-3:appa" out="1:pnct|2:conj|3:coord|5:pnct">Stuck</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="NP=S" tag="NNP" in="-3:appa" out="1:pnct|2:conj|5:pnct|4:conj">Stuck</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Jelinski</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Biela</W>
-<W msd="XP" tag=":" in="-5:pnct" out="">-</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Biela</W>
+<W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-10:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pred|7:pnct">are</W>
 <W msd="U=" tag="TO" in="-1:pred" out="2:vobj">to</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-4:[subj]|-1:pnct|1:dobj|3:pnct">stroke</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">horse</W>
-<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-21:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj|2:[subj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-23:conj" out="-1:subj|1:vobj|-2:coord">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj|3:pobj">interpreted</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">observers</W>
@@ -115,16 +115,16 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">meaning</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|10:[subj]|11:[subj]" out="">Audi</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|5:coord">will</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|9:conj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred|2:mod">be</W>
 <W msd="ANP" tag="RB" in="-1:pred" out="">back</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1993</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:pnct|4:conj">and</W>
+<W msd="CC" tag="CC" in="4:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-4:conj" out="-10:[subj]|-2:mod|1:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-10:[subj]|-2:mod|1:vobj|-4:coord">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:iobj|4:dobj">asked</W>
 <W msd="PD" tag="DT" in="-1:iobj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">drivers</W>

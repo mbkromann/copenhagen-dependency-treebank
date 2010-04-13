@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:pred|14:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
@@ -51,7 +51,7 @@
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:dobj">have</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">subsidiaries</W>
-<W msd="XP" tag="&quot;" in="-33:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
 <s>
@@ -124,9 +124,9 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|5:pobj">purchase</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">foreign</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|1:coord">stocks</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">bonds</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|2:conj">stocks</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">bonds</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="3:nobj">for</W>
 <W msd="RG" tag="RP" in="2:mod" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:[nobj]">to</W>

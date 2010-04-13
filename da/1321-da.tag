@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="think" lemma="synes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|-2:pnct|1:pnct|3:vobj|16:pnct">synes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -71,7 +71,7 @@
 <W gloss="proud" lemma="stolt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="1:pobj">stolt</W>
 <W gloss="of" lemma="over" msd="SP" tag="IN" in="-1:pobj" out="">over</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-9:qobj|1:subj|8:pnct">siger</W>
 <W gloss="the_chairman" lemma="formand" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:pobj|4:pnct|6:appa">formanden</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
@@ -145,8 +145,8 @@
 <p>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|9:[subj]" out="">Han</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:pnct|3:mod|8:vobj|12:pnct|13:coord|35:pnct">er</W>
-<W gloss=":" lemma="nemlig" msd="RGU" tag="RP" in="-1:mod" out="">nemlig</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:pnct|3:mod|8:vobj|12:pnct|35:pnct|15:conj">er</W>
+<W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:mod" out="">nemlig</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="like" lemma="ligesom" msd="CS" tag="IN" in="-3:mod" out="1:nobj|4:pnct">ligesom</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">alle</W>
@@ -158,9 +158,9 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
 <W gloss="insurance" lemma="forsikring" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">forsikringer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-13:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|10:[nobj]" out="7:rel">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:pred|3:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:subj|1:mod|2:pred|3:pnct|-2:coord">er</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="small_change" lemma="småpenge" msd="NCCPU==I" tag="NNP" in="-2:pred" out="">småpenge</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -185,8 +185,8 @@
 </p>
 <p>
 <s>
-<W gloss="THE_LICENSE" lemma="certifikat" msd="NCNSU==D" tag="NN" in="" out="1:<pred>">CERTIFIKATET</W>
-<W gloss="INSURED" lemma="forsikre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:<pred>" out="">FORSIKRET</W>
+<W gloss="THE_LICENSE" lemma="certifikat" msd="NCNSU==D" tag="NN" in="" out="1:&lt;pred&gt;">CERTIFIKATET</W>
+<W gloss="INSURED" lemma="forsikre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:&lt;pred&gt;" out="">FORSIKRET</W>
 </s>
 </p>
 <p>
@@ -214,11 +214,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="is_called" lemma="hedde" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:dobj">hedder</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="loss" lemma="loss" msd="XF" tag="FW" in="-2:dobj" out="-1:pnct|1:pobj|3:pnct|5:modp">loss</W>
 <W gloss="of" lemma="of" msd="XF" tag="FW" in="-1:pobj" out="1:nobj">of</W>
 <W gloss="licence" lemma="license" msd="XF" tag="FW" in="-1:nobj" out="">license</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W gloss="loss" lemma="tab" msd="NCNSU==I" tag="NN" in="-5:modp" out="-1:pnct|1:pobj|3:pnct">tab</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

@@ -59,9 +59,9 @@
 <W gloss="upcoming" lemma="forestående" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">forestående</W>
 <W gloss="exchange_of_spies" lemma="spionudveksling" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">spionudveksling</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="East" lemma="øst" msd="NC[CN][SP]U==I" tag="NN" in="-1:nobj" out="1:coord">Øst</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="West" lemma="vest" msd="NC[CN][SP]U==I" tag="NN" in="-1:conj" out="">Vest</W>
+<W gloss="East" lemma="øst" msd="NC[CN][SP]U==I" tag="NN" in="-1:nobj" out="2:conj">Øst</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="West" lemma="vest" msd="NC[CN][SP]U==I" tag="NN" in="-2:conj" out="-1:coord">Vest</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-8:ref|1:subj" out="">som</W>
 <W gloss="is_believed" lemma="mene" msd="VADR=----P-" tag="VBD" in="-9:rel" out="-1:subj|1:dobj|8:pnct">menes</W>
@@ -73,7 +73,7 @@
 <W gloss="Anatoly" lemma="Anatolij" msd="NP--U==-" tag="NNP" in="1:namef" out="">Anatolij</W>
 <W gloss="Sharansky" lemma="Sjtjaranskij" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Sjtjaranskij</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-18:subj|2:vobj|12:pnct|1:epi">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-18:subj|1:epi|2:vobj|12:pnct">vil</W>
 <W gloss="perhaps" lemma="muligvis" msd="RGU" tag="RP" in="-1:epi" out="">muligvis</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-20:[subj]|1:dobj|2:tobj|3:cause">finde</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">sted</W>
@@ -100,7 +100,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
 <W gloss="the_exchange" lemma="udveksling" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="">udvekslingen</W>
 <W gloss="perhaps" lemma="muligvis" msd="RGU" tag="RP" in="1:epi" out="">muligvis</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:epi">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:epi|1:vobj">vil</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:tobj">finde</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">sted</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-2:tobj" out="1:contr">i_dag</W>
@@ -150,15 +150,15 @@
 <s>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="5:loc" out="2:nobj">I</W>
 <W gloss="biting" lemma="bide" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">bidende</W>
-<W gloss="cold" lemma="kulde" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:coord">kulde</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="snow" lemma="sne" msd="NCCSU==I" tag="NN" in="-1:conj" out="">sne</W>
+<W gloss="cold" lemma="kulde" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|2:conj">kulde</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="snow" lemma="sne" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">sne</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-5:loc|2:subj|11:time|15:vobj|22:pnct">har</W>
 <W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
 <W gloss="hundred" lemma="hundrede" msd="NCNSU==I" tag="NN" in="-2:subj|13:[subj]" out="-1:degr|1:nobj|4:dir">hundrede</W>
-<W gloss="photographers" lemma="fotograf" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:coord">fotografer</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="journalists" lemma="journalist" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">journalister</W>
+<W gloss="photographers" lemma="fotograf" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj">fotografer</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="journalists" lemma="journalist" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">journalister</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:dir" out="1:nobj">fra</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="the_long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lang</W>
@@ -199,9 +199,9 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="spies" lemma="spion" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">spioner</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">mellem</W>
-<W gloss="East" lemma="øst" msd="NC[CN][SP]U==I" tag="NN" in="-1:nobj" out="1:coord">øst</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="West" lemma="vest" msd="NC[CN][SP]U==I" tag="NN" in="-1:conj" out="">vest</W>
+<W gloss="East" lemma="øst" msd="NC[CN][SP]U==I" tag="NN" in="-1:nobj" out="2:conj">øst</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="West" lemma="vest" msd="NC[CN][SP]U==I" tag="NN" in="-2:conj" out="-1:coord">vest</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 </p>

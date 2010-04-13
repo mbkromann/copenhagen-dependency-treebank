@@ -9,9 +9,9 @@
 <W msd="ANP" tag="JJ" in="-1:pred" out="">correct</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="9:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">child</W>
-<W msd="NC=P" tag="NNS" in="7:subj|8:[subj]" out="-1:mod|1:coord">benefits</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="1:mod">supplements</W>
+<W msd="NC=P" tag="NNS" in="7:subj|8:[subj]" out="-1:mod|2:conj">benefits</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="1:mod|-1:coord">supplements</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">families</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
@@ -104,7 +104,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:dobj|11:pnct|12:coord|22:pnct">requires</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:dobj|11:pnct|22:pnct|17:conj">requires</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="-1:mod">high</W>
 <W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:mod">grades</W>
@@ -116,12 +116,12 @@
 <W msd="ANC" tag="JJR" in="-1:mod" out="">higher</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">educations</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-12:coord" out="5:conj">and</W>
+<W msd="CC" tag="CC" in="5:coord" out="">and</W>
 <W msd="PI" tag="DT" in="4:subj" out="1:mod|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">low</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">grade</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">average</W>
-<W msd="VADR" tag="VBZ" in="-5:conj" out="-4:subj|1:mod|2:mod|3:pred">is</W>
+<W msd="VADR" tag="VBZ" in="-17:conj" out="-4:subj|1:mod|2:mod|3:pred|-5:coord">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">really</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:pred" out="1:nobj">worth</W>
@@ -182,7 +182,7 @@
 <W msd="PD" tag="DT" in="20:subj|21:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">rule</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="12:vobj">that</W>
-<W msd="XP" tag=":" in="11:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="11:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="10:mod" out="1:nobj|8:pnct">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">parent</W>
@@ -191,7 +191,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">student</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">over</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">17</W>
-<W msd="XP" tag=":" in="-8:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-12:vobj" out="-1:subj|-10:mod|-11:pnct|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:vobj">have</W>
@@ -203,7 +203,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|1:lobj">done</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">away</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">with</W>
-<W msd="XP" tag=":" in="-4:pnct" out="">;</W>
+<W msd="XP" tag="&3a;" in="-4:pnct" out="">;</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rule</W>
 <W msd="VA" tag="MD" in="-34:conj" out="-2:subj|1:vobj">could</W>

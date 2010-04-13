@@ -117,8 +117,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|4:[subj]" out="1:nobj">Das</W>
 <W lemma="Waffeleise&7c;Waffeleisen" msd="NC" tag="NN" in="-1:nobj" out="">Waffeleisen</W>
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-2:subj|2:vobj|3:pnct">muss</W>
-<W lemma="warm" msd="AN" tag="ADJD" in="1:preds" out="">warm</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="-2:vobj" out="-1:preds|-4:[subj]">sein</W>
+<W lemma="warm" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">warm</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="-2:vobj" out="-1:preds|-4:[subj]|-1:preds">sein</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="5:subj|7:[subj]|9:[subj]" out="3:attr|4:nobj|13:coref">Ein</W>
 <W lemma="mit" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">mit</W>

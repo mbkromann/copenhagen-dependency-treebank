@@ -45,10 +45,10 @@
 <W msd="PT" tag="WDT" in="-4:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|4:dobj|6:mod">produces</W>
 <W msd="ANP" tag="JJ" in="3:mod" out="">sharp</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">killer</W>
 <W msd="NC=P" tag="NNS" in="-4:dobj" out="-1:mod|-3:mod|-2:pnct|1:pnct">crystals</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-6:mod" out="">into</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">tobacco</W>
@@ -127,9 +127,9 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="1:pobj">production</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">plastic</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">nylon</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">plastic</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">nylon</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
@@ -188,14 +188,14 @@
 <W msd="NC=S" tag="NN" in="" out="1:ref|2:rel">grain</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|6:coord">draw</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|7:conj">draw</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">nitrogen</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>
-<W msd="CC" tag="CC" in="-6:coord" out="1:conj">and</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="1:pobj">flourish</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAF" tag="VB" in="-7:conj" out="1:pobj|-1:coord">flourish</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">without</W>
 <W msd="ANP" tag="JJ" in="" out="">artificial</W>
 <W msd="NC=S" tag="NN" in="" out="">fertiliser</W>

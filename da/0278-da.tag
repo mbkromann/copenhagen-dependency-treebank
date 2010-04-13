@@ -78,7 +78,7 @@
 </s>
 <s>
 <W gloss="Photo" lemma="foto" msd="NCNSU==I" tag="NN" in="" out="1:pnct|3:list|4:pnct">Foto</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="Jan" lemma="Jan" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jan</W>
 <W gloss="Knudsen" lemma="Knudsen" msd="NP--U==-" tag="NNP" in="-3:list" out="-1:namef">Knudsen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -117,9 +117,9 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="getting" lemma="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">skaffe</W>
-<W gloss="coaches" lemma="træner" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:coord">trænere</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="players" lemma="spiller" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">spillere</W>
+<W gloss="coaches" lemma="træner" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="2:conj">trænere</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="players" lemma="spiller" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">spillere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:cause|1:subj|7:vobj">vil</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:subj|6:[subj]" out="1:nobj">et</W>
@@ -247,13 +247,13 @@
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|7:[subj]|11:[subj]" out="">Jeg</W>
-<W gloss="coach" lemma="træne" msd="VADR=----A-" tag="VBD" in="18:qobj" out="-1:subj|-2:pnct|1:dobj|3:loc|5:coord|17:pnct">træner</W>
+<W gloss="coach" lemma="træne" msd="VADR=----A-" tag="VBD" in="18:qobj" out="-1:subj|-2:pnct|1:dobj|3:loc|17:pnct|6:conj">træner</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">et</W>
 <W gloss="female_team" lemma="damehold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">damehold</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="Nakskov" lemma="Nakskov" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nakskov</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="1:conj">og</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-7:[subj]|1:time|4:vobj">har</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|1:time|4:vobj|-1:coord">har</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-1:possd" out="">tid</W>

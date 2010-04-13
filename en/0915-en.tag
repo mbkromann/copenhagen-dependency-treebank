@@ -45,10 +45,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ulcers</W>
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">without</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">surgical</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:coord">intervention</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|3:conj">intervention</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">sick</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="-1:mod">leave</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod|-2:coord">leave</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">medicinal</W>
 <W msd="NC=S" tag="NN" in="-17:conj" out="-1:mod|1:pobj">treatment</W>
@@ -126,18 +126,18 @@
 <W msd="ANP" tag="RB" in="2:mod" out="">still</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|2:pred">be</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="-2:mod">more</W>
-<W msd="ANP" tag="JJ" in="-2:pred" out="-1:mod|1:mod|5:coord">expensive</W>
+<W msd="ANP" tag="JJ" in="-2:pred" out="-1:mod|1:mod|11:conj">expensive</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:coord">develop</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">market</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:pnct|2:mod|4:mod|6:conj">and</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:conj">develop</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">market</W>
+<W msd="CC" tag="CC" in="6:coord" out="1:pnct|2:mod|4:mod">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="">also</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-6:conj" out="-1:mod|1:mod">expensive</W>
+<W msd="ANP" tag="JJ" in="-11:conj" out="-1:mod|1:mod|-6:coord">expensive</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">buy</W>
 <W msd="XP" tag="." in="-42:pnct" out="">.</W>
@@ -178,9 +178,9 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">expenses</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">doctors</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">hospitals</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">doctors</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">hospitals</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>

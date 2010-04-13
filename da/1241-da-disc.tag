@@ -70,9 +70,9 @@
 <W gloss="television" lemma="tv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">tv</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-4:mod" out="8:vobj">ligesom</W>
-<W gloss="AC/DC" lemma="AC/DC" msd="NP--U==-" tag="NNP" in="7:subj" out="1:coord">AC/DC</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:conj" out="1:pnct|2:mod|3:nobj|4:pnct">andre</W>
+<W gloss="AC/DC" lemma="AC/DC" msd="NP--U==-" tag="NNP" in="7:subj" out="2:conj">AC/DC</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-2:conj" out="1:pnct|2:mod|3:nobj|4:pnct|-1:coord">andre</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="greatest" lemma="greatest" msd="XF" tag="FW" in="-2:mod" out="">greatest</W>
 <W gloss="hits" lemma="hits" msd="XF" tag="FW" in="-3:nobj" out="">hits</W>
@@ -203,10 +203,10 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="I'm" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|6:mod">har</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|2:coord">to</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|3:conj">to</W>
 <W gloss="hats" lemma="kasket" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kasketter</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:conj" out="1:nobj">to</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-3:conj" out="1:nobj|-1:coord">to</W>
 <W gloss="arithmetic" lemma="regnestykke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">regnestykker</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-6:mod" out="1:nobj">i</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>

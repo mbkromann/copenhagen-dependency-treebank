@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:pred|3:pnct|16:pnct">er</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
@@ -94,7 +94,7 @@
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:dobj">har</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">danske</W>
 <W gloss="subsidiaries" lemma="datterselskab" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:mod">datterselskaber</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-32:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-32:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
 </p>
@@ -163,9 +163,9 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="purchase" lemma="købe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|5:pobj">købe</W>
 <W gloss="foreign" lemma="udenlandsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">udenlandske</W>
-<W gloss="stocks" lemma="aktie" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:mod|1:coord">aktier</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="bonds" lemma="obligation" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">obligationer</W>
+<W gloss="stocks" lemma="aktie" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:mod|2:conj">aktier</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="bonds" lemma="obligation" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">obligationer</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:pobj" out="3:nobj">for</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="2:mod" out="1:mod">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:[nobj]">til</W>

@@ -2,7 +2,7 @@
 <W msd="PD" tag="DT" in="3:subj|12:[subj]" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">countries</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:pnct|2:mod|9:vobj|22:pnct|23:coord|60:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:pnct|2:mod|9:vobj|22:pnct|60:pnct|26:conj">have</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:mod" out="3:vobj|6:pnct">as</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Pia</W>
@@ -20,15 +20,15 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="SP" tag="IN" in="-7:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="4:nobj">the</W>
-<W msd="NC=S" tag="NN" in="3:mod" out="1:coord">immigration</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">asylum</W>
+<W msd="NC=S" tag="NN" in="3:mod" out="2:conj">immigration</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">asylum</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-3:mod">policy</W>
 <W msd="XP" tag="," in="-22:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-23:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">collaboration</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|1:pnct|2:mod|6:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-26:conj" out="-2:subj|1:pnct|2:mod|6:vobj|-3:coord">has</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|3:pnct">among</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
@@ -124,9 +124,9 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-5:nobj" out="-3:mod|1:coord">Portugal</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">or</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Spain</W>
+<W msd="NP=S" tag="NNP" in="-5:nobj" out="-3:mod|2:conj">Portugal</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Spain</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-19:vobj" out="-18:subj|1:mod|6:mod|7:vobj">cannot</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:vobj">as</W>
@@ -137,11 +137,11 @@
 <W msd="ANP" tag="RB" in="-6:mod" out="">simply</W>
 <W msd="VAF" tag="VB" in="-7:vobj" out="-25:[subj]|1:dobj">decide</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|1:lobj|3:coord">come</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|1:lobj|4:conj">come</W>
 <W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="VADR" tag="VBP" in="-1:conj" out="-31:[subj]|1:dobj|4:vobj">have</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADR" tag="VBP" in="-4:conj" out="-31:[subj]|1:dobj|4:vobj|-1:coord">have</W>
 <W msd="PI" tag="DT" in="-1:dobj|3:[dobj]" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">asylum</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">application</W>
@@ -176,9 +176,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">area</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">immigration</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">asylum</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">immigration</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">asylum</W>
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
@@ -210,10 +210,10 @@
 <W msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">existence</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">on</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">immigration</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="3:conj">immigration</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">asylum</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="-1:mod">policy</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod|-2:coord">policy</W>
 <W msd="VA" tag="MD" in="-11:vobj" out="-10:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj|3:lobj">find</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -228,18 +228,18 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:mod|2:dobj|6:pnct|7:coord|29:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:mod|2:dobj|6:pnct|29:pnct|11:conj">is</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">still</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">inter-state</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">co-operation</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-7:coord" out="4:conj">but</W>
+<W msd="CC" tag="CC" in="4:coord" out="">but</W>
 <W msd="PD" tag="DT" in="3:subj|3:[subj]" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">countries</W>
-<W msd="VADR" tag="VBP" in="-4:conj" out="-3:subj|-3:[subj]|1:mod|2:vobj">have</W>
+<W msd="VADR" tag="VBP" in="-11:conj" out="-3:subj|-3:[subj]|1:mod|2:vobj|-4:coord">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="1:dobj">expressed</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>

@@ -101,10 +101,10 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
-<W gloss="Hafnia" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="3:subj" out="1:coord">Hafnia</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="Norden" lemma="Norden" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Norden</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W gloss="Hafnia" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj">Hafnia</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Norden" lemma="Norden" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Norden</W>
 <W gloss="seems" lemma="lade" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-3:subj|-4:pnct|1:dobj|2:vobj|6:pnct|7:pnct">lader</W>
 <W gloss="the_door" lemma="dør" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]" out="">døren</W>
 <W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pred|2:ben">stå</W>
@@ -112,7 +112,7 @@
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
 <W gloss="others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="">andre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-8:qobj|2:subj|14:pnct">siger</W>
 <W gloss="Preben" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Nygaard" lemma="Nygaard" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Nygaard</W>
@@ -227,12 +227,12 @@
 <W gloss="Preben" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Nygaard's" lemma="Nygaard" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd|2:pnct|14:xpl">Nygaards</W>
 <W gloss="words" lemma="ord" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">ord</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="6:cond" out="2:vobj">Hvis</W>
 <W gloss="Hafnia" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="1:subj" out="">Hafnia</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|3:pnct">har</W>
@@ -248,7 +248,7 @@
 <W gloss="stay" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pred">blive</W>
 <W gloss="away." lemma="væk" msd="RGU" tag="RP" in="-1:pred" out="">væk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 </s>
 </p>
 </div1>

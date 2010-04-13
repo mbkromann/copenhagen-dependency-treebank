@@ -127,7 +127,7 @@
 <W lemma="entscheiden" msd="VAP" tag="VVPP" in="-2:vobj" out="-2:[subj]|2:dobj">entschieden</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="4:vobj">ob</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:[subj]|3:subj|15:[subj]|16:[subj]|-80:coref-var" out="1:nobj">das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-80:coref-var|2:[subj]|3:subj|15:[subj]|16:[subj]" out="1:nobj">das</W>
 <W lemma="Turnier" msd="NC" tag="NN" in="-1:nobj" out="">Turnier</W>
 <W lemma="umdrehen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:[subj]">umgedreht</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-1:vobj|1:pnct|2:cons|20:coref">wird</W>
@@ -149,9 +149,9 @@
 </p>
 <p>
 <s>
-<W lemma="sein" msd="VA" tag="VAFIN" in="4:cond" out="1:subj|2:preds">Ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="4:cond" out="1:subj|2:preds|2:preds">Ist</W>
 <W lemma="d" msd="PP" tag="PDS" in="-1:subj|-20:coref" out="">das</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds|-2:preds" out="1:nobj">der</W>
 <W lemma="Fall" msd="NC" tag="NN" in="-1:nobj" out="">Fall</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:cond|1:subj|8:vobj|9:pnct">wird</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|7:[subj]" out="1:attr|2:nobj|23:coref-var">der</W>
@@ -177,7 +177,7 @@
 <W lemma="erreichen" msd="VAP" tag="VVPP" in="-4:vobj" out="-4:[subj]">erreicht</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="denn" msd="CC" tag="KON" in="-6:cause&3a;reas" out="3:vobj">denn</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:subj|-23:coref-var" out="1:nobj|63:coref-var">das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-23:coref-var|2:subj" out="1:nobj|63:coref-var">das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">DM-Gold</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="-3:vobj" out="-2:subj|1:pnct|2:prg&3a;eval|6:dobj">gibt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>

@@ -44,13 +44,13 @@
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="" out="-1:pnct|2:vobj|11:pnct">hvis</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|4:dobj|5:coord">kommer</W>
-<W gloss="bloody" lemma="blodig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:mod" out="1:coord">blodige</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="coffee-ground-like" lemma="kaffegrumsligende" msd="XX" tag="FW" in="-1:conj" out="">kaffegrumsligende</W>
+<W gloss="bloody" lemma="blodig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:mod" out="2:conj">blodige</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="coffee-ground-like" lemma="kaffegrumsligende" msd="XX" tag="FW" in="-2:conj" out="-1:coord">kaffegrumsligende</W>
 <W gloss="vomiting" lemma="opkastning" msd="NCCPU==I" tag="NNP" in="-4:dobj" out="-3:mod">opkastninger</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-5:coord" out="1:<dobj>|2:<lobj>">eller</W>
-<W gloss="traces_of_blood" lemma="blodspor" msd="NCNPU==I" tag="NNP" in="-1:<dobj>" out="">blodspor</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:<lobj>" out="1:nobj">i</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-5:coord" out="1:&lt;dobj&gt;|2:&lt;lobj&gt;">eller</W>
+<W gloss="traces_of_blood" lemma="blodspor" msd="NCNPU==I" tag="NNP" in="-1:&lt;dobj&gt;" out="">blodspor</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:&lt;lobj&gt;" out="1:nobj">i</W>
 <W gloss="the_stool" lemma="afføring" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">afføringen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -153,16 +153,16 @@
 <W gloss="be_done" lemma="ske" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod">ske</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="analyzing" lemma="analysere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:coord">analysere</W>
+<W gloss="analyzing" lemma="analysere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|9:conj">analysere</W>
 <W gloss="one's" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sine</W>
 <W gloss="eating_habits" lemma="kostvane" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">kostvaner</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="6:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="6:coord" out="">og</W>
 <W gloss="with" lemma="ved" msd="SP" tag="IN" in="5:mod" out="1:nobj">ved</W>
 <W gloss="help" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">hjælp</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="calorie_table" lemma="kalorietabel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kalorietabel</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-6:conj" out="-5:mod|1:lobj|12:coord">finde</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-5:mod|1:lobj|-6:coord|14:conj">finde</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">de</W>
@@ -174,9 +174,9 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="calories" lemma="kalorie" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kalorier</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-12:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="thereafter" lemma="derefter" msd="RGU" tag="RP" in="1:mod" out="">derefter</W>
-<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:mod|1:dobj">undgå</W>
+<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-14:conj" out="-1:mod|1:dobj|-2:coord">undgå</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
@@ -208,7 +208,7 @@
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:subj|1:mod|2:vobj">vil</W>
 <W gloss="easily" lemma="let" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">let</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-5:[subj]|1:vobj">kunne</W>
-<W gloss="remove" lemma="fjerne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|4:dobj|6:mod|10:coord">fjerne</W>
+<W gloss="remove" lemma="fjerne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|4:dobj|6:mod|12:conj">fjerne</W>
 <W gloss="three-four" lemma="tre-fire" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">tre-fire</W>
 <W gloss="times" lemma="gang" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">gange</W>
 <W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:mod" out="-2:mod">så</W>
@@ -218,9 +218,9 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">den</W>
 <W gloss="daily" lemma="daglig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">daglige</W>
 <W gloss="diet_plan" lemma="kostplan" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">kostplan</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-10:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="thereby" lemma="derved" msd="RGU" tag="RP" in="1:mod" out="">derved</W>
-<W gloss="achieve" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:mod|-18:[subj]|1:dobj">opnå</W>
+<W gloss="achieve" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-12:conj" out="-1:mod|-18:[subj]|1:dobj|-2:coord">opnå</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:mod|2:nobj">et</W>
 <W gloss="monthly" lemma="månedlig" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">månedligt</W>
 <W gloss="weight_loss" lemma="vægttab" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">vægttab</W>

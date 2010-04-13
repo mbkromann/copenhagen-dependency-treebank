@@ -1,34 +1,34 @@
 <W lemma="oggi" msd="RG" tag="ADV" in="3:time" out="1:pnct">Oggi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|1:preds|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
-<W lemma="volto" morph="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">volto</W>
-<W lemma="stimare" morph="stimare +to/DEVERB&3a;pas.part" msd="VAP" tag="VER&3a;pper" in="-1:attrr" out="">stimato</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|1:preds|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="volto" morph="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
+<W lemma="stimare" morph="stimare +to/DEVERB&3a;pas.part" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">stimato</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-4:loc" out="1:nobj">al</W>
-<W lemma="banco" morph="banco" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">banco</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="2:nobj">della</W>
-<W lemma="laborioso" morph="lavoro laborioso/DENOM&3a;disp" msd="AN" tag="ADJ" in="1:attrd" out="">laboriosa</W>
-<W lemma="pasticceria" morph="pasticcerie +a/NOPRED&3a;loc pasticcio +erie/NOPRED&3a;agent" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:attrr|5:loc">pasticceria</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="2:nobj">di</W>
+<W lemma="banco" morph="banco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">banco</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="2:nobj">della</W>
+<W lemma="laborioso" morph="lavoro laborioso/DENOM&3a;disp" msd="AN" tag="ADJ" in="1:attr" out="">laboriosa</W>
+<W lemma="pasticceria" morph="pasticcerie +a/NOPRED&3a;loc pasticcio +erie/NOPRED&3a;agent" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|5:loc">pasticceria</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" morph="Lars" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" morph="Hjorth" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Hjorth</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:loc" out="-1:pnct|1:nobj|4:pnct">alla</W>
-<W lemma="stazione" morph="stazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">stazione</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
+<W lemma="stazione" morph="stazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">stazione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" morph="Hellerup" msd="NC" tag="NOM" in="-1:nobj" out="">Hellerup</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="conoscere" morph="conoscere" msd="VADR" tag="VER&3a;pres" in="-19:conj" out="-1:coord|2:dobj">conosce</W>
 <W lemma="tutto" morph="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
-<W lemma="nome" morph="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">nomi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr" out="1:nobj">delle</W>
+<W lemma="nome" morph="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">nomi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">delle</W>
 <W lemma="specialità" morph="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">specialità</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nella</W>
-<W lemma="vetrina" morph="vetro +ina/NOPRED&3a;script" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">vetrina</W>
-<W lemma="traboccare" morph="traboccare +nte/DEVERB&3a;act.pure" msd="VAG" tag="VER&3a;ppre" in="-1:attrr" out="">traboccante</W>
+<W lemma="vetrina" morph="vetro +ina/NOPRED&3a;script" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">vetrina</W>
+<W lemma="traboccare" morph="traboccare +nte/DEVERB&3a;act.pure" msd="VAG" tag="VER&3a;ppre" in="-1:attr" out="">traboccante</W>
 <W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="sapere" morph="sapere" msd="VADR" tag="VER&3a;pres" in="9:qobj" out="-1:pnct|2:dobj|7:pnct">Sa</W>
@@ -42,8 +42,8 @@
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>
 <W lemma="aggiungere" morph="aggiungere" msd="VADR" tag="VER&3a;pres" in="-39:+CONJ/(e)/ATTR1" out="-9:qobj|-1:pnct|1:subj|6:pnct|11:+CONJ/(e)">aggiunge</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:subj" out="1:nobj">un</W>
-<W lemma="collega" morph="collega" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">collega</W>
-<W lemma="assumere" morph="assumere" msd="VAP" tag="VER&3a;pper" in="-1:attrr" out="1:time">assunto</W>
+<W lemma="collega" morph="collega" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">collega</W>
+<W lemma="assumere" morph="assumere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:time">assunto</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:time" out="1:nobj">da</W>
 <W lemma="poco" msd="RG" tag="ADV" in="-1:nobj" out="">poco</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
@@ -79,8 +79,8 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="scuola" morph="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">scuola</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
-<W lemma="educazione" morph="educazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">educazione</W>
-<W lemma="fisico" morph="fisico" msd="AN" tag="ADJ" in="-1:attrr" out="">fisica</W>
+<W lemma="educazione" morph="educazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">educazione</W>
+<W lemma="fisico" morph="fisico" msd="AN" tag="ADJ" in="-1:attr" out="">fisica</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="avere" morph="avere" msd="VADA" tag="VER&3a;impf" in="-16:relr" out="-12:pnct|-9:time|-11:subj|1:vobj">aveva</W>
 <W lemma="dovere" morph="dovere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-12:[subj]|1:vobj">dovuto</W>
@@ -99,8 +99,8 @@
 <W lemma="disoccupazione" morph="occupazione -dis/NEG&3a;oppo occupare +zione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-46:pnct" out="">.</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="24:+PREPAR" out="1:nobj">Un</W>
-<W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">lavoro</W>
-<W lemma="fisso" morph="fisso" msd="AN" tag="ADJ" in="-1:attrr" out="">fisso</W>
+<W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">lavoro</W>
+<W lemma="fisso" morph="fisso" msd="AN" tag="ADJ" in="-1:attr" out="">fisso</W>
 <W lemma="." msd="XP" tag="SENT" in="-50:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">Ci</W>
@@ -110,8 +110,8 @@
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
 <W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="-4:;CAUSE&3a;reas/(perché)/ATTR2" out="1:dobj|7:conj|13:pnct">ha</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="carattere" morph="carattere" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">carattere</W>
-<W lemma="accomodante" morph="accomodare +nte/DEVERB&3a;act.pure" msd="AN" tag="ADJ" in="-1:attrr" out="2:conj">accomodante</W>
+<W lemma="carattere" morph="carattere" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">carattere</W>
+<W lemma="accomodante" morph="accomodare +nte/DEVERB&3a;act.pure" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">accomodante</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="mite" morph="mite" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">mite</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -127,8 +127,8 @@
 <W lemma="pasticciere" morph="pasticcio +ere/NOPRED&3a;agent" msd="NC" tag="NOM" in="-1:nobj" out="">pasticciere</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W compound="Il" lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="2:nobj">I</W>
-<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attrd" out="">suo</W>
-<W lemma="apprezzamento" morph="apprezzare +mento/PRED&3a;core" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">apprezzamento</W>
+<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">suo</W>
+<W lemma="apprezzamento" morph="apprezzare +mento/PRED&3a;core" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">apprezzamento</W>
 <W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-7:+CONJ/(e)" out="-3:subj|1:vobj|13:pnct|15:ELAB&3a;exp|47:pnct">è</W>
 <W lemma="culminare" morph="culminare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:time|2:man">culminato</W>
 <W lemma="recentemente" msd="RG" tag="ADV" in="-1:time" out="">recentemente</W>
@@ -137,11 +137,11 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="">l'</W>
 <W lemma="assunzione" morph="assumere +zione/PRED&3a;core" msd="NC" tag="NOM" in="-3:nobj" out="1:attrr#">assunzione</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">a</W>
-<W lemma="tempo" morph="tempo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">tempo</W>
-<W lemma="pieno" morph="pieno" msd="AN" tag="ADJ" in="-1:attrr" out="">pieno</W>
+<W lemma="tempo" morph="tempo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">tempo</W>
+<W lemma="pieno" morph="pieno" msd="AN" tag="ADJ" in="-1:attr" out="">pieno</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-6:iobj" out="2:nobj">alla</W>
-<W lemma="ex" morph="ex" msd="AN" tag="ADJ" in="1:attrd" out="">ex</W>
-<W lemma="disoccupato" morph="occupato -dis/NEG&3a;oppo occupare +to/PRED&3a;agent" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd">disoccupata</W>
+<W lemma="ex" morph="ex" msd="AN" tag="ADJ" in="1:attr" out="">ex</W>
+<W lemma="disoccupato" morph="occupato -dis/NEG&3a;oppo occupare +to/PRED&3a;agent" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">disoccupata</W>
 <W lemma="." msd="XP" tag="SENT" in="-13:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj" out="">Questo</W>
 <W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-15:ELAB&3a;exp" out="-1:subj|1:vobj|22:pnct|56:+CONJ/(e)/ATTR3">è</W>
@@ -154,25 +154,25 @@
 <W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:time|-1:robj|1:vobj|16:time">è</W>
 <W lemma="interrompere" morph="rompere -inter/MOD&3a;rel" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj">interrotto</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="contributo" morph="contribuire +to/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">contributo</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
+<W lemma="contributo" morph="contribuire +to/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">contributo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="@card@" morph="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|2:ext">30</W>
 <W lemma="corona" morph="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:ext" out="1:nobj">l'</W>
-<W lemma="ora" morph="ora" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">ora</W>
-<W lemma="da" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">da</W>
+<W lemma="ora" morph="ora" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ora</W>
+<W lemma="da" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">da</W>
 <W lemma="parte" morph="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="comune" morph="comune" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">comune</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attrr" out="1:nobj">di</W>
+<W lemma="comune" morph="comune" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">comune</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Gentofte</W>
 <W lemma="," msd="XP" tag="PON" in="-22:pnct" out="">,</W>
 <W lemma="a" msd="SP" tag="PRE" in="-16:time" out="1:nobj">a</W>
 <W lemma="conclusione" morph="concludere +sione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">conclusione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
-<W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|2:attrr">lavoro</W>
-<W lemma="semestrale" morph="semestre +ale/DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-1:attrr" out="">semestrale</W>
-<W lemma="offrire" morph="offrire" msd="VAP" tag="VER&3a;pper" in="-2:attrr" out="1:iobj">offerto</W>
+<W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">lavoro</W>
+<W lemma="semestrale" morph="semestre +ale/DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-1:attr" out="">semestrale</W>
+<W lemma="offrire" morph="offrire" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:iobj">offerto</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:iobj" out="2:nobj">a</W>
 <W lemma="Eva" msd="NP" tag="NPR" in="1:namef" out="">Eva</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Rothmann</W>
@@ -188,8 +188,8 @@
 <W lemma="assumere" morph="assumere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:man">assunta</W>
 <W lemma="regolarmente" msd="RG" tag="ADV" in="-1:man" out="">regolarmente</W>
 <W lemma=";" msd="XP" tag="PON" in="-7:pnct" out="">;</W>
-<W lemma="essere&7c;sonare" morph="essere" msd="VADR" tag="VER&3a;pres" in="-8:;CONJ/(e)/ATTR3|4:[subj]" out="1:preds">sono</W>
-<W lemma="felice" morph="felice" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">felice</W>
+<W lemma="essere&7c;sonare" morph="essere" msd="VADR" tag="VER&3a;pres" in="-8:;CONJ/(e)/ATTR3|4:[subj]" out="1:preds|1:preds">sono</W>
+<W lemma="felice" morph="felice" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">felice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" morph="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|-4:[subj]|2:nobj">aver</W>

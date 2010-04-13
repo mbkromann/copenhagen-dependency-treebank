@@ -30,7 +30,7 @@
 <W lemma="Eltern" msd="NC" tag="NN" in="-2:nobj" out="">Eltern</W>
 <W lemma="führen" msd="VA" tag="VVFIN" in="-17:relelab" out="-8:subj|-7:pobj">führte</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:subj|4:[subj]|6:[subj]|-5:coref-var" out="1:nobj">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-5:coref-var|2:subj|4:[subj]|6:[subj]" out="1:nobj">Die</W>
 <W lemma="Eltern" msd="NC" tag="NN" in="-1:nobj" out="">Eltern</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|1:neg|2:vobj|5:struct&3a;contr|10:pnct">wurden</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
@@ -60,9 +60,9 @@
 <W lemma="darüber" msd="RG" tag="PAV" in="-3:pobj" out="2:dobj">darüber</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="18:vobj">ob</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="17:subj|-44:coref-id" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-44:coref-id|17:subj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Buchstabiertafel</W>
-<W lemma="Humbug" msd="NC" tag="NN" in="15:preds" out="2:conj">Humbug</W>
+<W lemma="Humbug" msd="NC" tag="NN" in="15:preds|15:preds" out="2:conj">Humbug</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:conj" out="-1:coord|1:attr|2:nobj|3:pobj">ein</W>
 <W lemma="wertvoll" msd="AN" tag="ADJA" in="-1:attr" out="">wertvolles</W>
@@ -77,7 +77,7 @@
 <W lemma="psychisch" msd="AN" tag="ADJD" in="-2:conj" out="-1:coord">psychisch</W>
 <W lemma="Behinderte" msd="NC" tag="NN" in="-7:nobj" out="-5:pnct|-3:attr|1:pnct">Behinderten</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-18:vobj" out="-17:subj|-15:preds|1:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-18:vobj" out="-17:subj|-15:preds|1:pnct|-15:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="vom" msd="SP+P" tag="APPRART" in="5:pobj" out="1:nobj">vom</W>
 <W lemma="Kreistag" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Kreistag</W>
@@ -97,7 +97,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:subj|16:[subj]|18:[subj]|24:[subj]|-31:coref-var" out="35:coref-var">Buchstabiertafeln</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-31:coref-var|1:subj|16:[subj]|18:[subj]|24:[subj]" out="35:coref-var">Buchstabiertafeln</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|1:time|2:space&3a;loc|15:vobj|17:conj">wurden</W>
 <W lemma="zunächst" msd="RG" tag="ADV" in="-1:time" out="">zunächst</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc" out="1:nobj">im</W>
@@ -123,7 +123,7 @@
 <W lemma="Institution" msd="NC" tag="NN" in="-2:nobj" out="">Institutionen</W>
 <W lemma="ausweiten" msd="VAP" tag="VVPP" in="-6:vobj" out="-3:space&3a;dir|-24:[subj]">ausgeweitet</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:subj|-16:coref-var" out="1:nobj">Der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-16:coref-var|2:subj" out="1:nobj">Der</W>
 <W lemma="Kreis" msd="NC" tag="NN" in="-1:nobj" out="">Kreis</W>
 <W lemma="schätzen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:pnct|2:dobj|13:pnct">schätzt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -132,7 +132,7 @@
 <W lemma="zu" msd="SP" tag="APPR" in="1:degr" out="-1:degr">zu</W>
 <W lemma="100" msd="AC" tag="CARD" in="4:[subj]|5:subj|7:[subj]" out="-1:degr|1:nobj">100</W>
 <W lemma="Behinderte" msd="NC" tag="NN" in="-1:nobj" out="12:coref">Behinderte</W>
-<W lemma="dies" msd="PD" tag="PDAT" in="5:dobj|-35:coref-var" out="1:nobj|25:coref-id">diese</W>
+<W lemma="dies" msd="PD" tag="PDAT" in="-35:coref-var|5:dobj" out="1:nobj|25:coref-id">diese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Buchstabiertafeln</W>
 <W lemma="benutzen" msd="VAP" tag="VVPP" in="1:vobj" out="-4:[subj]">benutzt</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-8:vobj" out="-5:subj|-1:vobj|2:conj">haben</W>
@@ -143,7 +143,7 @@
 </p>
 <p>
 <s>
-<W lemma="Behinderte" msd="NC" tag="NN" in="7:subj|-12:coref" out="1:pnct|2:ref|5:relr|33:coref-id">Behinderte</W>
+<W lemma="Behinderte" msd="NC" tag="NN" in="-12:coref|7:subj" out="1:pnct|2:ref|5:relr|33:coref-id">Behinderte</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|3:subj" out="1:attr|2:nobj">die</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="-1:attr" out="">keine</W>

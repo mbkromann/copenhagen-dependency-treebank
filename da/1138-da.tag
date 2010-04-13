@@ -157,10 +157,10 @@
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">uden</W>
 <W gloss="increase" lemma="udvidelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">udvidelse</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="business" lemma="virksomhed" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd|2:coord">virksomhedernes</W>
+<W gloss="business" lemma="virksomhed" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd|3:conj">virksomhedernes</W>
 <W gloss="machinery" lemma="maskinpark" msd="NCCSU==I" tag="NN" in="-1:possd" out="">maskinpark</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="the_number" lemma="antal" msd="NCNSU==D" tag="NN" in="-1:conj" out="1:pobj">antallet</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_number" lemma="antal" msd="NCNSU==D" tag="NN" in="-3:conj" out="1:pobj|-1:coord">antallet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="employees" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:nobj" out="">ansatte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
@@ -237,9 +237,9 @@
 <W gloss="stocks" lemma="lager" msd="NCNPU==D" tag="NNP" in="-1:subj" out="1:pobj">lagrene</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="2:mod" out="">såvel</W>
-<W gloss="raw_goods" lemma="råvare" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="1:coord">råvarer</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:coord" out="-2:mod|1:conj">som</W>
-<W gloss="finished_goods" lemma="færdigvare" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">færdigvarer</W>
+<W gloss="raw_goods" lemma="råvare" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="2:conj">råvarer</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-2:mod">som</W>
+<W gloss="finished_goods" lemma="færdigvare" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">færdigvarer</W>
 <W gloss="somewhat" lemma="nogen" msd="PI-NSU--U" tag="DT" in="1:mod" out="">noget</W>
 <W gloss="above" lemma="over" msd="SP" tag="IN" in="-8:lobj" out="-1:mod|1:nobj">over</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>

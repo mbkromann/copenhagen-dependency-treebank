@@ -41,9 +41,9 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">actually</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:pobj">constructed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">protons</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">neutrons</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">protons</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">neutrons</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
@@ -54,11 +54,11 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:pobj">interest</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">in</W>
-<W msd="PT" tag="WRB" in="-1:nobj|5:[mod]" out="5:rel|12:coord">how</W>
+<W msd="PT" tag="WRB" in="-1:nobj|5:[mod]" out="5:rel|13:conj">how</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:nobj">these</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">protons</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">neutrons</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">protons</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">neutrons</W>
 <W msd="VADA" tag="VBD" in="-5:rel" out="-5:[mod]|-4:subj|1:vobj|6:pnct">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part|2:mod">held</W>
 <W msd="ANP" tag="RB" in="-1:part" out="">together</W>
@@ -66,8 +66,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">core</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-12:coord" out="1:conj">and</W>
-<W msd="PT" tag="WRB" in="-1:conj|2:[mod]" out="2:rel">how</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PT" tag="WRB" in="2:[mod]|-13:conj" out="2:rel|-1:coord">how</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-2:[mod]|-1:subj|1:lobj">move</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:mod">around</W>
@@ -113,7 +113,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">satisfactory</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">account</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|10:coord">of</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|12:conj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">number</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -123,9 +123,9 @@
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:vobj|2:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[dobj]|-2:[subj]">made</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-10:coord" out="1:mod|2:conj">but</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:mod">but</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
-<W msd="SP" tag="IN" in="-2:conj" out="1:nobj">for</W>
+<W msd="SP" tag="IN" in="-12:conj" out="1:nobj|-2:coord">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pobj">all</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
@@ -211,10 +211,10 @@
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:expl|-5:[dobj]">are</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:dobj|6:pred|7:mod">hold</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|3:conj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">neutrons</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-3:conj" out="1:nobj|-1:coord">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">protons</W>
 <W msd="ANP" tag="RB" in="-6:pred" out="">together</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>

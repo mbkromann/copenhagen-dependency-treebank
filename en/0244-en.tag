@@ -147,7 +147,7 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=P" tag="NNS" in="" out="1:pnct|2:conj|3:pnct|4:conj|7:pnct|8:coord|11:pnct">Toilets</W>
+<W msd="NC=P" tag="NNS" in="" out="1:pnct|2:conj|3:pnct|4:conj|7:pnct|11:pnct|10:conj">Toilets</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="">hallways</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -155,9 +155,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">teachers'</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">lounge</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-8:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
-<W msd="ANP" tag="RB" in="-2:conj" out="-1:mod">on</W>
+<W msd="ANP" tag="RB" in="-10:conj" out="-1:mod|-2:coord">on</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>

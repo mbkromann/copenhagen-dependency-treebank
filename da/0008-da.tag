@@ -60,7 +60,7 @@
 <s>
 <hi>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
-<W gloss="are_moving" lemma="rykke" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:lobj|-1:time">rykker</W>
+<W gloss="are_moving" lemma="rykke" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:lobj">rykker</W>
 <W gloss="the_Social_Grundtvigians" lemma="social-grundtvigianer" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">social-grundtvigianerne</W>
 <W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-2:lobj" out="">ind</W>
 </hi>
@@ -92,13 +92,13 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was_called" lemma="hedde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pnct|4:coord|26:pnct">hed</W>
+<W gloss="was_called" lemma="hedde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pnct|26:pnct|6:conj">hed</W>
 <W gloss="the_Office" lemma="kontor" msd="NCNSG==D" tag="NN" in="-1:dobj" out="1:possd">Kontorets</W>
 <W gloss="Bodega" lemma="bodega" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Bodega</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:pred">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-1:subj|1:neg|2:pred|-2:coord">var</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:pred|6:[mod]" out="1:nobj|2:pnct|4:rel">et</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">sted</W>
@@ -211,10 +211,10 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:pred|20:pnct">var</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
-<W gloss="candidate" lemma="kandidat" msd="NCCSU==I" tag="NN" in="-2:pred" out="1:pobj|2:coord">kandidat</W>
+<W gloss="candidate" lemma="kandidat" msd="NCCSU==I" tag="NN" in="-2:pred" out="1:pobj|3:conj">kandidat</W>
 <W gloss="-" lemma="for-" msd="XX" tag="FW" in="-1:pobj" out="6:nobj">for-</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:conj" out="1:pobj">en</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:conj" out="1:pobj|-1:coord">en</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_initiators" lemma="initiativtager" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:pobj">initiativtagerne</W>
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:[nobj]">til</W>

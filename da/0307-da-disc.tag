@@ -52,9 +52,9 @@
 <W gloss="correct" lemma="rigtig" msd="ANPNSU=IU" tag="JJ" in="-1:pred" out="">rigtigt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="4:vobj">at</W>
-<W gloss="child_benefits" lemma="børnetilskud" msd="NCNSU==I" tag="NN" in="3:subj" out="1:coord">børnetilskud</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="supplements_for_families_with_children" lemma="børnefamilieydelse" msd="NCCSU==I" tag="NN" in="-1:conj" out="">børnefamilieydelse</W>
+<W gloss="child_benefits" lemma="børnetilskud" msd="NCNSU==I" tag="NN" in="3:subj" out="2:conj">børnetilskud</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="supplements_for_families_with_children" lemma="børnefamilieydelse" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">børnefamilieydelse</W>
 <W gloss="fall" lemma="falde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:part">falder</W>
 <W gloss="apart" lemma="bort" msd="RGU" tag="RP" in="-1:part" out="">bort</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -132,7 +132,7 @@
 </s>
 <s>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="requires" lemma="kræve" msd="VADR=----P-" tag="VBD" in="" out="-1:expl|3:dobj|4:goal|13:pnct|14:coord|25:pnct">kræves</W>
+<W gloss="requires" lemma="kræve" msd="VADR=----P-" tag="VBD" in="" out="-1:expl|3:dobj|4:goal|13:pnct|25:pnct|18:conj">kræves</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
 <W gloss="high" lemma="høj" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">høje</W>
 <W gloss="grades" lemma="karakter" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr">karakterer</W>
@@ -146,11 +146,11 @@
 <W gloss="higher" lemma="høj" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">højere</W>
 <W gloss="educations" lemma="uddannelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">uddannelser</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-14:coord" out="4:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="4:coord" out="">og</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">en</W>
 <W gloss="low" lemma="lav" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lav</W>
 <W gloss="studentereksamenskarakter" lemma="studentereksamenskarakter" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">studentereksamenskarakter</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:subj|1:eval|6:pred">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-18:conj" out="-3:subj|1:eval|6:pred|-4:coord">er</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:eval" out="2:avobj">for</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
 <W gloss="far" lemma="vidt" msd="RGU" tag="RP" in="-2:avobj" out="-1:degr">vidt</W>

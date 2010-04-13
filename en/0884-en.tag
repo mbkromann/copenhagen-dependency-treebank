@@ -47,11 +47,11 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|7:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">voting</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|11:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:tobj|3:coord">begin</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:tobj|4:conj">begin</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Monday</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="-7:[subj]|1:tobj">end</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-4:conj" out="-7:[subj]|1:tobj|-1:coord">end</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod">Wednesday</W>
 <W msd="PD" tag="DT" in="-1:mod" out="1:mod|2:nobj">the</W>
@@ -204,16 +204,16 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="3:subj" out="1:coord">Buses</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">trains</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|2:pnct|3:coord|16:pnct">ran</W>
+<W msd="NP=S" tag="NNP" in="3:subj" out="2:conj">Buses</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">trains</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|2:pnct|16:pnct|6:conj">ran</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">again</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-3:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">garbage</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod">men</W>
-<W msd="VAP" tag="VBN" in="-3:conj" out="-1:subj|1:part|2:dobj">set</W>
+<W msd="VAP" tag="VBN" in="-6:conj" out="-1:subj|1:part|2:dobj|-3:coord">set</W>
 <W msd="SP" tag="IN" in="-1:part" out="">about</W>
 <W msd="VAG" tag="VBG" in="-2:dobj" out="1:dobj|5:mod">removing</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

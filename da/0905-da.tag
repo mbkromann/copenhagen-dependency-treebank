@@ -179,9 +179,9 @@
 <W gloss="rock_blasts" lemma="rock-udladning" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">rock-udladninger</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-11:mod" out="1:nobj">på</W>
 <W gloss="debut" lemma="debut" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:appr|4:mod">debuten</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Shine" lemma="Shine" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:pnct|1:pnct">Shine</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:mod" out="1:nobj">fra</W>
 <W gloss="1990," lemma="1990" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1990</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-18:pnct" out="">,</W>
@@ -207,10 +207,10 @@
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|6:vobj|7:pnct">er</W>
 <W gloss="follow-up" lemma="opfølger" msd="NCCSU==D" tag="NN" in="-1:subj|5:[subj]" out="3:appr">opfølgeren</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Electric" lemma="Electric" msd="NP--U==-" tag="NNP" in="1:mod" out="">Electric</W>
 <W gloss="Eel" lemma="Eel" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:mod|-2:pnct|1:pnct">Eel</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="issued" lemma="udsende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]">udsendt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -228,12 +228,12 @@
 <W gloss="drive" lemma="drive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[mod]|1:dobj|2:mod">drive</W>
 <W gloss="rock" lemma="rock" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">rock</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
-<W gloss="welfare_assistance" lemma="bistandshjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|3:conj|4:coord">bistandshjælp</W>
+<W gloss="welfare_assistance" lemma="bistandshjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|3:conj|5:conj">bistandshjælp</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="blind" lemma="blind" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">blind</W>
 <W gloss="faith" lemma="tro" msd="NCCSU==I" tag="NN" in="-3:conj" out="-1:mod">tro</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="brotherhood" lemma="broderskab" msd="NCNSU==I" tag="NN" in="-1:conj" out="">broderskab</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="brotherhood" lemma="broderskab" msd="NCNSU==I" tag="NN" in="-5:conj" out="-1:coord">broderskab</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 </p>
@@ -242,14 +242,14 @@
 <W gloss="Fielfraz" lemma="Fielfraz" msd="NP--U==-" tag="NNP" in="1:subj" out="">Fielfraz</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|15:pnct">er</W>
 <W gloss="skewed" lemma="skæv" msd="ANPCSU=IU" tag="JJ" in="-1:pred" out="1:mod">skæv</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:pnct|6:coord">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:pnct|7:conj">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:mod|2:possd">sin</W>
 <W gloss="rock_music" lemma="rockmusikalsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">rockmusikalske</W>
 <W gloss="skridtgang" lemma="skridtgang" msd="NCCSU==I" tag="NN" in="-2:possd" out="">skridtgang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="1:mod" out="">såvel</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-6:coord" out="-1:mod|1:conj">som</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:conj" out="1:nobj">i</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-1:mod">som</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-7:conj" out="1:nobj|-1:coord">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:mod|2:pnct|3:mod|4:possd">sin</W>
 <W gloss="defiant" lemma="trodsig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">trodsige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

@@ -10,7 +10,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj|152:coref-var">den</W>
 <W lemma="Sozialbehörde" msd="NC" tag="NN" in="-1:nobj" out="">Sozialbehörden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|8:preds|24:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|8:preds|24:pnct|8:preds">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:attr|3:nobj|28:coref-var">die</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleine</W>
 <W lemma="dreijährig" msd="AN" tag="ADJA" in="-2:attr" out="">dreijährige</W>
@@ -18,7 +18,7 @@
 <W lemma="wieder" msd="RG" tag="ADV" in="-5:time&3a;ext" out="">wieder</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
 <W lemma="legal" msd="AN" tag="ADJD" in="-7:man" out="-1:degr">legal</W>
-<W lemma="bei" msd="SP" tag="APPR" in="-8:preds" out="1:nobj">bei</W>
+<W lemma="bei" msd="SP" tag="APPR" in="-8:preds|-8:preds" out="1:nobj">bei</W>
 <W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:conj|25:coref-id">Ihrer</W>
 <W lemma="Mutter" msd="NC" tag="NN" in="-1:possd" out="">Mutter</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
@@ -96,7 +96,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="14:coref-id">Pernille</W>
 <W lemma="gewinnen" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:dobj|-6:[subj]">gewonnen</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="3:subj|5:[subj]|-47:coref-id" out="1:nobj|90:coref-var">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-47:coref-id|3:subj|5:[subj]" out="1:nobj|90:coref-var">die</W>
 <W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Gemeinde</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Ejby</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-10:conj" out="-3:subj|2:vobj|3:pnct">hat</W>
@@ -172,7 +172,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:attr" out="">Østre</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:possr" out="-1:attr">Landsret</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:coord|-5:dobj|5:vobj|6:pnct">haben</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="4:dobj|-39:coref-prg" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-39:coref-prg|4:dobj" out="1:nobj">die</W>
 <W lemma="Untersuchungshaft" msd="NC" tag="NN" in="-1:nobj" out="">Untersuchungshaft</W>
 <W lemma="schnell" msd="AN" tag="ADJD" in="1:man" out="">schnell</W>
 <W lemma="einstimmig" msd="AN" tag="ADJD" in="1:man" out="-1:man">einstimmig</W>

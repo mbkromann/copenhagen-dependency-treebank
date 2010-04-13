@@ -10,7 +10,7 @@
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:dobj|3:pnct">require</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">international</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="-1:mod">co-operation</W>
-<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="" out="">environmental</W>
 <W msd="NC=P" tag="NNS" in="" out="1:pnct|2:mod">problems</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -74,18 +74,18 @@
 <W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|3:nobj|15:pnct">support</W>
 <W msd="VAP" tag="VBN" in="2:mod" out="">expanded</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">international</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:mod|1:pnct|2:coord">co-operation</W>
+<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:mod|1:pnct|4:conj">co-operation</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:mod|2:conj">but</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:mod">but</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
-<W msd="PI" tag="DT" in="-2:conj" out="1:mod|6:nobj">a</W>
+<W msd="PI" tag="DT" in="-4:conj" out="1:mod|6:nobj|-2:coord">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">supranational</W>
-<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="3:mod" out="">United</W>
 <W msd="NP=P" tag="NNPS" in="" out="">States</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="NP=S" tag="NNP" in="-6:nobj" out="-4:pnct|-3:mod|1:pnct">Europe</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -110,7 +110,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">premises</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">democracy</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:pred|12:pnct|13:coord|29:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:pred|12:pnct|29:pnct|20:conj">is</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">popular</W>
 <W msd="NC=S" tag="NN" in="-2:pred" out="-1:mod|1:mod">control</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:pnct|6:nobj">through</W>
@@ -123,14 +123,14 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">critical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">press</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-13:coord" out="7:conj">but</W>
+<W msd="CC" tag="CC" in="7:coord" out="">but</W>
 <W msd="SP" tag="IN" in="6:mod" out="">with</W>
 <W msd="PI" tag="DT" in="" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">lot</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">languages</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-6:mod|-1:subj|1:pred">is</W>
+<W msd="VADR" tag="VBZ" in="-20:conj" out="-6:mod|-1:subj|1:pred|-7:coord">is</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="">difficult</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">form</W>
@@ -165,8 +165,8 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct">student</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-10:list" out="">Værløse</W>
-<W msd="XP" tag=":" in="-11:pnct" out="">:</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&3a;" in="-11:pnct" out="">:</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-14:qobj" out="-2:pnct|-1:subj|1:dobj">think</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="6:vobj">that</W>
@@ -190,11 +190,11 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:nobj|2:pnct|3:coord|7:coord">study</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">engineering</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:<mod>|2:<dobj>|3:pnct">or</W>
-<W msd="ANP" tag="RB" in="-1:<mod>" out="">maybe</W>
-<W msd="NC=S" tag="NN" in="-2:<dobj>" out="">chemistry</W>
-<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
+<W msd="CC" tag="CC" in="-3:coord" out="1:&lt;mod&gt;|2:&lt;dobj&gt;|3:pnct">or</W>
+<W msd="ANP" tag="RB" in="-1:&lt;mod&gt;" out="">maybe</W>
+<W msd="NC=S" tag="NN" in="-2:&lt;dobj&gt;" out="">chemistry</W>
+<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="-7:coord" out="">and</W>
 <W msd="VA" tag="MD" in="" out="">will</W>
 <W msd="VAF" tag="VB" in="" out="1:dobj|5:mod">take</W>

@@ -41,9 +41,9 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Luftsteg" lemma="luftsteg" msd="NCCSU==I" tag="NN" in="" out="1:coord|3:pnct">Luftsteg</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="vindfrikadeller" lemma="vindfrikadelle" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">vindfrikadeller</W>
+<W gloss="Luftsteg" lemma="luftsteg" msd="NCCSU==I" tag="NN" in="" out="3:pnct|2:conj">Luftsteg</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="vindfrikadeller" lemma="vindfrikadelle" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">vindfrikadeller</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-3:pnct" out="">!</W>
 </s>
 </p>
@@ -70,11 +70,11 @@
 <W gloss="necessary" lemma="nødvendig" msd="ANPNSU=IU" tag="JJ" in="-2:pred" out="">nødvendigt</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|5:[subj]" out="">de</W>
-<W gloss="profile" lemma="profilere" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|3:coord">profilerer</W>
+<W gloss="profile" lemma="profilere" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|4:conj">profilerer</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">deres</W>
 <W gloss="position" lemma="holdning" msd="NCCSU==I" tag="NN" in="-1:possd" out="">holdning</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="make_concrete" lemma="konkretisere" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-5:[subj]|1:pnct|2:dobj">konkretiserer</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="make_concrete" lemma="konkretisere" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|1:pnct|2:dobj|-1:coord">konkretiserer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="why" lemma="hvorfor" msd="RGU" tag="RP" in="-2:dobj|3:[mod]" out="3:rel">hvorfor</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="2:subj" out="">de</W>
@@ -111,10 +111,10 @@
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-1:subj|1:vobj">skal</W>
 <W gloss="learn" lemma="lære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">lære</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="deal_with" lemma="omgås" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:coord">omgås</W>
+<W gloss="deal_with" lemma="omgås" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:conj">omgås</W>
 <W gloss="each_other" lemma="hinanden" msd="PC--PU---" tag="PP" in="-1:dobj" out="">hinanden</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:conj" out="-7:[subj]|1:dobj">tage</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-7:[subj]|1:dobj|-1:coord">tage</W>
 <W gloss="consideration" lemma="hensyn" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">hensyn</W>
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">de</W>

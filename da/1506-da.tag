@@ -164,12 +164,12 @@
 <p>
 <s>
 <W gloss="The_Liberals" lemma="venstre" msd="NCNSU==I" tag="NN" in="1:subj|2:[subj]|6:[subj]" out="">Venstre</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|4:coord|12:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|12:pnct|5:conj">kan</W>
 <W gloss="muster" lemma="mønstre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">mønstre</W>
 <W gloss="32" lemma="32" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">32</W>
 <W gloss="mandates" lemma="mandat" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mandater</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-6:[subj]|1:mod|2:mod|3:pred">er</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|1:mod|2:mod|3:pred|-1:coord">er</W>
 <W gloss="thus" lemma="dermed" msd="RGU" tag="RP" in="-1:mod" out="">dermed</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-2:mod" out="">stadig</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-3:pred" out="1:mod|2:mod|3:nobj">det</W>
@@ -205,12 +205,12 @@
 </s>
 <s>
 <W gloss="The_party" lemma="parti" msd="NCNSU==D" tag="NN" in="1:subj|6:[subj]" out="">Partiet</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:lobj|4:coord|8:pnct">går</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:lobj|8:pnct|5:conj">går</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">to</W>
 <W gloss="mandates" lemma="mandat" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mandater</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:lobj" out="-2:mod">frem</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-6:[subj]|1:mod|2:dobj">har</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|1:mod|2:dobj|-1:coord">har</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-1:mod" out="">i_dag</W>
 <W gloss="eight" lemma="otte" msd="AC---U=--" tag="CD" in="-2:dobj" out="">otte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -240,7 +240,7 @@
 </s>
 <s>
 <W gloss="CD" lemma="CD" msd="NP--U==-" tag="NNP" in="1:subj" out="">CD</W>
-<W gloss="lose" lemma="miste" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:mod|8:pnct|9:coord|22:pnct">mister</W>
+<W gloss="lose" lemma="miste" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:mod|8:pnct|22:pnct|11:conj">mister</W>
 <W gloss="0.7" lemma="0,7" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">0,7</W>
 <W gloss="percent" lemma="procent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">procent</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -249,9 +249,9 @@
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:mod" out="">sidste</W>
 <W gloss="straw_poll" lemma="prøvevalg" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:mod">prøvevalg</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-9:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_party" lemma="parti" msd="NCNSU==D" tag="NN" in="1:subj" out="">partiet</W>
-<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|7:pred">er</W>
+<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-1:subj|1:mod|7:pred|-2:coord">er</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="2:nobj">med</W>
 <W gloss="a_total_of" lemma="ialt" msd="RGU" tag="RP" in="1:mod" out="">ialt</W>
 <W gloss="3.8" lemma="3,8" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:nobj">3,8</W>

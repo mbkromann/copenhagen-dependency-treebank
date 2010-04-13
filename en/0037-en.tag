@@ -7,9 +7,9 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">rivals</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Dansk</W>
-<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:mod|1:coord">Supermarked</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Aldi</W>
+<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:mod|2:conj">Supermarked</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Aldi</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">financial</W>
 <W msd="NC=P" tag="NNS" in="-9:dobj" out="-1:mod">problems</W>
 <W msd="U=" tag="TO" in="-13:nobj" out="1:vobj">to</W>
@@ -38,7 +38,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">Customers</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|13:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred">be</W>
@@ -68,7 +68,7 @@
 <W msd="VA" tag="MD" in="4:qobj" out="-1:subj|-9:mod|1:vobj|2:pnct|3:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">follow</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:qobj|1:subj|4:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">FDB</W>

@@ -1,9 +1,9 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Mai</W>
-<W msd="NP=S" tag="NNP" in="4:subj" out="-1:namef|1:coord">Buch</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="4:subj" out="-1:namef|3:conj">Buch</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Boel</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:namef">Jørgensen</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Jørgensen</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:dobj|3:pobj|14:pnct">knew</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
@@ -133,7 +133,7 @@
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Environment</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:mod|10:coord|27:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:mod|27:pnct|11:conj">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">actually</W>
 <W msd="VAP" tag="VBN" in="" out="-12:[subj]">educated</W>
 <W msd="CS" tag="IN" in="" out="">as</W>
@@ -143,8 +143,8 @@
 <W msd="XP" tag="." in="" out="">.</W>
 </s>
 <s>
-<W msd="CC" tag="CC" in="-10:coord" out="1:conj">and</W>
-<W msd="VADA" tag="VBD" in="-1:conj" out="-21:[subj]|1:nobj|11:pobj">left</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADA" tag="VBD" in="-11:conj" out="-21:[subj]|1:nobj|11:pobj|-1:coord">left</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|5:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">position</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="">as</W>
@@ -182,9 +182,9 @@
 <W msd="U=" tag="TO" in="" out="1:vobj|6:coord|15:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:dobj">study</W>
 <W msd="PD" tag="DT" in="2:mod" out="">both</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="1:coord">sociology</W>
-<W msd="CC" tag="CC" in="-1:coord" out="-2:mod|1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">philosophy</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="2:conj">sociology</W>
+<W msd="CC" tag="CC" in="1:coord" out="-2:mod">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">philosophy</W>
 <W msd="CC" tag="CC" in="-6:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="" out="-10:[subj]">write</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
@@ -197,21 +197,21 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="5:subj" out="1:coord">Organisation</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="5:subj" out="3:conj">Organisation</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">personnel</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">relations</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">relations</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quickly</W>
 <W msd="VADA" tag="VBD" in="" out="-5:subj|-1:mod">emerged</W>
-<W msd="CS" tag="IN" in="" out="1:pred|4:pnct|5:coord|16:pnct">as</W>
+<W msd="CS" tag="IN" in="" out="1:pred|4:pnct|16:pnct|8:conj">as</W>
 <W msd="PO" tag="PRP$" in="-1:pred" out="1:mod|2:possd">her</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">preferred</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">field</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-5:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interest</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|1:dobj|2:vobj">made</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-2:subj|1:dobj|2:vobj|-3:coord">made</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="3:pobj">drop</W>
 <W msd="ANP" tag="JJ" in="" out="">central</W>

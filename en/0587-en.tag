@@ -39,11 +39,11 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">world's</W>
 <W msd="ANS" tag="JJS" in="-2:mod" out="">best</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">environmental</W>
-<W msd="NC=S" tag="NN" in="-4:possd" out="-1:mod|1:coord">law</W>
-<W msd="CC" tag="CC" in="-1:coord" out="3:conj">and</W>
+<W msd="NC=S" tag="NN" in="-4:possd" out="-1:mod|4:conj">law</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">water</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="-1:mod">environmental</W>
-<W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod">plan</W>
+<W msd="NC=S" tag="NN" in="-4:conj" out="-1:mod|-3:coord">plan</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
@@ -60,9 +60,9 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="-9:conj" out="-1:subj|2:dobj">have</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">grassroots</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|1:coord">movements</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|2:conj">movements</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-2:conj" out="1:nobj|-1:coord">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">right</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:mod|3:pobj">express</W>
@@ -78,10 +78,10 @@
 <W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:mod|3:pred">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">great</W>
-<W msd="NC=P" tag="NNS" in="-3:pred" out="-1:mod|1:coord">consumers</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:mod|2:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-3:pred" out="-1:mod|3:conj">consumers</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:mod">and</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">thereby</W>
-<W msd="PI" tag="DT" in="-2:conj" out="1:mod|2:nobj">a</W>
+<W msd="PI" tag="DT" in="-3:conj" out="1:mod|2:nobj|-2:coord">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">great</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">burden</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -97,13 +97,13 @@
 <W msd="PO" tag="PRP$" in="11:subj" out="1:possd|2:mod">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">coastline</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:conj|5:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:conj|6:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">Baltic</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-3:conj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Belts</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-6:conj" out="1:nobj|-1:coord">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kattegat</W>
 <W msd="VADR" tag="VBZ" in="-12:vobj" out="-11:subj|2:pred|3:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
@@ -118,10 +118,10 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">much</W>
 <W msd="ANC" tag="JJR" in="-5:mod" out="-1:mod|1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">any</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">any</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pole</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="PD" tag="DT" in="-1:conj" out="2:nobj">any</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="PD" tag="DT" in="-3:conj" out="2:nobj|-1:coord">any</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Soviet</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">citizen</W>
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
@@ -216,7 +216,7 @@
 <W msd="ANP" tag="JJ" in="-2:mod" out="">environmental</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">education</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">project</W>
-<W msd="XP" tag=":" in="-5:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-5:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="-6:appa" out="3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Baltic</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">Sea</W>

@@ -70,9 +70,9 @@
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-4:mod" out="2:vobj">når</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="came_to" lemma="gælde" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">gjaldt</W>
-<W gloss="cost-effectiveness" lemma="omkostnings-effektivitet" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:coord|3:mod">omkostnings-effektivitet</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="core_earnings" lemma="basisindtjening" msd="NCCSU==I" tag="NN" in="-1:conj" out="">basisindtjening</W>
+<W gloss="cost-effectiveness" lemma="omkostnings-effektivitet" msd="NCCSU==I" tag="NN" in="-1:dobj" out="3:mod|2:conj">omkostnings-effektivitet</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="core_earnings" lemma="basisindtjening" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">basisindtjening</W>
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-3:mod" out="1:nobj">pr.</W>
 <W gloss="employee" lemma="medarbejder" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">medarbejder</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -94,7 +94,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|8:[nobj]" out="6:rel">Det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:qobj" out="-1:subj|-2:pnct|1:mod|2:pred|3:pnct|9:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
@@ -105,7 +105,7 @@
 <W gloss="invest" lemma="satse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">satse</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="-8:[nobj]">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-10:qobj|1:subj|2:pnct">siger</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -140,7 +140,7 @@
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-12:vobj" out="-11:subj|-10:mod|1:pnct|2:dobj">siger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:pred|2:pnct|41:pnct">er</W>
 <W gloss="strange" lemma="forunderlig" msd="ANPNSU=IU" tag="JJ" in="-1:pred" out="">forunderligt</W>
@@ -183,7 +183,7 @@
 <W gloss="mega-banks" lemma="megabank" msd="NCCPU==D" tag="NNP" in="1:subj" out="">megabankerne</W>
 <W gloss="use" lemma="bruge" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:dobj">bruger</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-68:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-41:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-41:pnct" out="">"</W>
 </s>
 <s>
 <W gloss="Annual_meeting" lemma="årsmøde" msd="NCNSU==I" tag="NN" in="" out="">Årsmøde</W>
@@ -216,9 +216,9 @@
 </p>
 <p>
 <s>
-<W gloss="The_chairman" lemma="formand" msd="NCCSU==D" tag="NN" in="11:subj|14:[subj]" out="1:coord|6:pnct|9:appa">Formanden</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="bank_director" lemma="bankdirektør" msd="NCCSU==D" tag="NN" in="-1:conj" out="1:pobj">bankdirektøren</W>
+<W gloss="The_chairman" lemma="formand" msd="NCCSU==D" tag="NN" in="11:subj|14:[subj]" out="6:pnct|9:appa|2:conj">Formanden</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="bank_director" lemma="bankdirektør" msd="NCCSU==D" tag="NN" in="-2:conj" out="1:pobj|-1:coord">bankdirektøren</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="Salling" lemma="Salling" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Salling</W>
 <W gloss="Bank" lemma="bank" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Bank</W>
@@ -247,7 +247,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="9:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="8:mod" out="3:vobj">Hvis</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj" out="">vi</W>
 <W gloss="always" lemma="altid" msd="RGU" tag="RP" in="1:mod" out="">altid</W>
@@ -261,7 +261,7 @@
 <W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="-2:mod" out="">aldrig</W>
 <W gloss="in_front" lemma="foran" msd="RGU" tag="RP" in="-3:lobj" out="">foran</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|3:subj|4:pnct">siger</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Poul</W>
 <W gloss="Erik" lemma="Erik" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Erik</W>

@@ -92,7 +92,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Otherwise" lemma="ellers" msd="RGU" tag="RP" in="1:mod" out="">Ellers</W>
 <W gloss="would_have" lemma="være" msd="VADA=----A-" tag="VBD" in="8:qobj" out="-1:mod|-2:pnct|1:subj|2:vobj|6:pnct|7:pnct">var</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|1:[subj]|2:[subj]" out="">jeg</W>
@@ -101,7 +101,7 @@
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:mod" out="">med</W>
 <W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:lobj" out="">ned</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
 <W gloss="explained" lemma="forklare" msd="VADA=----A-" tag="VBD" in="" out="-8:qobj|1:subj|2:pnct">forklarede</W>
 <W gloss="Samsel" lemma="Samsel" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Samsel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -193,11 +193,11 @@
 <W gloss="ship" lemma="skib" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">skib</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:mod" out="">bl.a.</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-9:mod" out="-1:mod|1:mod|2:nobj|3:coord">to</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-9:mod" out="-1:mod|1:mod|2:nobj|4:conj">to</W>
 <W gloss="empty" lemma="tom" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">tomme</W>
 <W gloss="life_rafts" lemma="redningsflåde" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">redningsflåder</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:conj" out="1:nobj">en</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-4:conj" out="1:nobj|-1:coord">en</W>
 <W gloss="lifeboat" lemma="redningsbåd" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">redningsbåd</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
@@ -224,9 +224,9 @@
 </p>
 <p>
 <s>
-<W gloss="Skipper" lemma="skipper" msd="NCCSU==I" tag="NN" in="5:subj" out="1:coord|3:mod">Skipper</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="mates" lemma="styrmand" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">styrmænd</W>
+<W gloss="Skipper" lemma="skipper" msd="NCCSU==I" tag="NN" in="5:subj" out="3:mod|2:conj">Skipper</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="mates" lemma="styrmand" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">styrmænd</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:mod" out="1:nobj">på</W>
 <W gloss="Isafold" lemma="Isafold" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Isafold</W>
 <W gloss="met" lemma="mødes" msd="VEDA=----A-" tag="VBD" in="" out="-5:subj|1:mod|2:mod|4:pobj|9:pnct">mødtes</W>
@@ -235,9 +235,9 @@
 <W gloss="Hirtshals" lemma="Hirtshals" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Hirtshals</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">med</W>
 <W gloss="the_shipping_company's" lemma="rederi" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">rederiets</W>
-<W gloss="attorney" lemma="advokat" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:coord">advokat</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="insurance_representatives" lemma="forsikringsrepræsentant" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">forsikringsrepræsentanter</W>
+<W gloss="attorney" lemma="advokat" msd="NCCSU==I" tag="NN" in="-1:possd" out="2:conj">advokat</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="insurance_representatives" lemma="forsikringsrepræsentant" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">forsikringsrepræsentanter</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>

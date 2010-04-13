@@ -70,9 +70,9 @@
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">give</W>
 <W gloss="impression" lemma="indtryk" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">indtryk</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="overview" lemma="overblik" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:coord">overblik</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="assurance" lemma="sikkerhed" msd="NCCSU==I" tag="NN" in="-1:conj" out="">sikkerhed</W>
+<W gloss="overview" lemma="overblik" msd="NCNSU==I" tag="NN" in="-1:nobj" out="2:conj">overblik</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="assurance" lemma="sikkerhed" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">sikkerhed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-9:mod" out="2:vobj">hvis</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
@@ -116,9 +116,9 @@
 <W gloss="put" lemma="sætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">sætte</W>
 <W gloss="yourself" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:dobj" out="">dig</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
-<W gloss="teacher" lemma="lærer" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:coord|3:possd">lærers</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="censor" lemma="censor" msd="NCCSG==I" tag="NN" in="-1:conj" out="1:[possd]">censors</W>
+<W gloss="teacher" lemma="lærer" msd="NCCSG==I" tag="NN" in="-1:nobj" out="3:possd|2:conj">lærers</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="censor" lemma="censor" msd="NCCSG==I" tag="NN" in="-2:conj" out="1:[possd]|-1:coord">censors</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-3:possd|-1:[possd]" out="">sted</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -194,21 +194,21 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Teachers" lemma="lærer" msd="NCCSU==I" tag="NN" in="3:subj|4:[subj]" out="1:coord">Lærer</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="censors" lemma="censor" msd="NCCSU==I" tag="NN" in="-1:conj" out="">censor</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|5:coord|29:pnct">kan</W>
+<W gloss="Teachers" lemma="lærer" msd="NCCSU==I" tag="NN" in="3:subj|4:[subj]" out="2:conj">Lærer</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="censors" lemma="censor" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">censor</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|29:pnct|7:conj">kan</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:aobj">have</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="the_same" lemma="ligesådan" msd="RGU" tag="RP" in="-2:aobj" out="">ligesådan</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|2:mod|5:vobj">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:mod|1:subj|2:mod|5:vobj|-2:coord">skal</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|4:[subj]" out="">du</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-2:mod" out="1:coord">først</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-1:conj" out="">fremmest</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-2:mod" out="2:conj">først</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
 <W gloss="exert" lemma="øve" msd="VAF-=----A-" tag="VB" in="-5:vobj" out="-4:[subj]|1:dobj|2:pobj">øve</W>
 <W gloss="you" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:dobj" out="">dig</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
@@ -242,7 +242,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="spot" lemma="finde" msd="VAM-=------" tag="VB" in="" out="1:avobj|13:coord|28:pnct">Find</W>
+<W gloss="spot" lemma="finde" msd="VAM-=------" tag="VB" in="" out="1:avobj|28:pnct|14:conj">Find</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">af</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -255,8 +255,8 @@
 <W gloss="are_asking" lemma="forlange" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-5:[dobj]|1:pobj">forlanger</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="you" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:nobj" out="">dig</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-13:coord" out="1:conj">og</W>
-<W gloss="let" lemma="lade" msd="VAM-=------" tag="VB" in="-1:conj" out="1:vobj|7:pnct|8:mod">lad</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="let" lemma="lade" msd="VAM-=------" tag="VB" in="-14:conj" out="1:vobj|7:pnct|8:mod|-1:coord">lad</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">være</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

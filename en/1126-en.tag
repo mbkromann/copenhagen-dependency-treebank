@@ -37,10 +37,10 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pobj">came</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord|4:mod">cost-effectiveness</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="4:mod|3:conj">cost-effectiveness</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">core</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">earnings</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">earnings</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">per</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">employee</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -69,7 +69,7 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="1:subj|8:[nobj]" out="5:rel">That</W>
 <W msd="VADR" tag="VBZ" in="11:qobj" out="-2:pnct|-1:subj|1:mod|2:pred|8:pnct|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
@@ -80,7 +80,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj">concentrate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-8:[nobj]">on</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-11:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -117,7 +117,7 @@
 <W msd="NP=P" tag="NNPS" in="-6:appa" out="1:pnct">Finans</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-13:dobj" out="3:vobj">that</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:pred|41:pnct|42:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="">strange</W>
@@ -161,7 +161,7 @@
 <W msd="NC=P" tag="NNS" in="1:subj" out="">mega-banks</W>
 <W msd="VADR" tag="VBP" in="-4:rel" out="-2:dobj|-1:subj">use</W>
 <W msd="XP" tag="," in="-41:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-42:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-42:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Annual</W>
 <W msd="NC=S" tag="NN" in="" out="-1:mod">meeting</W>
 </s>
@@ -199,10 +199,10 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="18:subj|20:[subj]|24:[subj]" out="1:nobj|8:pnct|11:appa">The</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">chairman</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="3:conj">chairman</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bank</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="-1:mod|1:pobj">director</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod|1:pobj|-2:coord">director</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:nobj">Salling</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bank</W>
@@ -233,7 +233,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="12:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:mod" out="3:vobj">If</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">always</W>
@@ -250,7 +250,7 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="">ahead</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-6:qobj|3:subj|4:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Poul</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erik</W>

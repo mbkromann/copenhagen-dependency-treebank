@@ -18,7 +18,7 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
 <W msd="VADR" tag="VBZ" in="19:qobj" out="-3:pnct|-2:subj|1:pred|16:pnct|17:pnct">is</W>
@@ -38,7 +38,7 @@
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">than</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-19:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -67,7 +67,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="33:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="33:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="32:xtop" out="5:vobj|29:ref">If</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">suspension</W>
@@ -112,7 +112,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">worsened</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-14:qobj|-1:subj|1:pnct">says</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -126,8 +126,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:title|-1:namef">Straarup</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:pobj|-1:subj|1:pnct|13:qobj">says</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
-<W msd="XP" tag="&quot;" in="11:pnct" out="">"</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="10:subj" out="1:nobj|2:possd">Copenhagen</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">County's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="1:nobj">supposition</W>
@@ -141,7 +141,7 @@
 <W msd="VADR" tag="VBZ" in="-13:qobj" out="-11:pnct|-10:subj|2:pred|2:pnct#|3:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">totally</W>
 <W msd="ANP" tag="JJ" in="-2:pred|-2:pnct#" out="-1:mod">groundless.</W>
-<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]" out="1:nobj">The</W>
@@ -167,12 +167,12 @@
 </s>
 <s>
 <W msd="SP" tag="IN" in="1:namef" out="">Per</W>
-<W msd="NP=S" tag="NNP" in="6:subj" out="-1:namef|1:coord">Kaalund</W>
-<W msd="CC" tag="CC" in="-1:coord" out="4:conj">and</W>
+<W msd="NP=S" tag="NNP" in="6:subj" out="-1:namef|5:conj">Kaalund</W>
+<W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">County</W>
 <W msd="NP=S" tag="NNP" in="2:title" out="-1:mod">Manager</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bo</W>
-<W msd="NP=S" tag="NNP" in="-4:conj" out="-2:title|-1:namef">Smith</W>
+<W msd="NP=S" tag="NNP" in="-5:conj" out="-2:title|-1:namef|-4:coord">Smith</W>
 <W msd="VAF" tag="VB" in="" out="-6:subj|1:mod|4:dobj|15:pnct">reject</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
@@ -191,7 +191,7 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="15:qobj" out="-2:pnct|-1:subj|1:pred|13:pnct|14:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:pred" out="2:mod|3:nobj|5:ref|9:rel">a</W>
@@ -207,7 +207,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">influence</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-15:qobj|1:subj|2:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Kaalund</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -236,9 +236,9 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="25:qobj" out="-2:pnct|-1:subj|1:dobj|2:pobj|9:pnct|10:coord|23:pnct|24:pnct">provided</W>
+<W msd="VADA" tag="VBD" in="25:qobj" out="-2:pnct|-1:subj|1:dobj|2:pobj|9:pnct|23:pnct|24:pnct|12:conj">provided</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">advice</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:part|2:dobj">taking</W>
@@ -248,9 +248,9 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">loan</W>
 <W msd="PP" tag="PRP" in="-3:mod" out="">itself</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-10:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:dobj">proposed</W>
+<W msd="VADA" tag="VBD" in="-12:conj" out="-1:subj|1:dobj|-2:coord">proposed</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">county</W>
@@ -262,7 +262,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Merchant</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Bank</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-24:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-25:qobj|3:subj|13:pnct">says</W>
 <W msd="NC=S" tag="NN" in="2:title" out="">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Eigil</W>

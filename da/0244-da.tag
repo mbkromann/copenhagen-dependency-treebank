@@ -188,15 +188,15 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Toilets" lemma="toilet" msd="NCNPU==I" tag="NNP" in="" out="1:pnct|2:conj|3:pnct|4:conj|6:coord|9:pnct">Toiletter</W>
+<W gloss="Toilets" lemma="toilet" msd="NCNPU==I" tag="NNP" in="" out="1:pnct|2:conj|3:pnct|4:conj|9:pnct|8:conj">Toiletter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="gangarealer" lemma="gangareal" msd="NCNPU==I" tag="NNP" in="-2:conj" out="">gangarealer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="pædagogernes" lemma="pædagog" msd="NCCPG==D" tag="NNP" in="-4:conj" out="1:possd">pædagogernes</W>
 <W gloss="the_-_kitchen" lemma="the-køkken" msd="NCNSU==I" tag="NN" in="-1:possd" out="">the-køkken</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-6:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="on" lemma="videre" msd="RGU" tag="RP" in="-2:conj" out="-1:degr">videre</W>
+<W gloss="on" lemma="videre" msd="RGU" tag="RP" in="-8:conj" out="-1:degr|-2:coord">videre</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>

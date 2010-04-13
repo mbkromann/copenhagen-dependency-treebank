@@ -150,9 +150,9 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">life</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|6:nobj|7:mod">a</W>
-<W msd="AC" tag="CD" in="-1:mod" out="1:coord|4:nobj">four</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="PI" tag="DT" in="-1:conj" out="1:mod">a</W>
+<W msd="AC" tag="CD" in="-1:mod" out="4:nobj|2:conj">four</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PI" tag="DT" in="-2:conj" out="1:mod|-1:coord">a</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">half</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">room</W>
 <W msd="NC=S" tag="NN" in="-6:nobj" out="">apartment</W>
@@ -166,11 +166,11 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">near</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">Næstved</W>
 <W msd="VADA" tag="VBD" in="" out="-3:subj|1:vobj|12:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj|3:coord">taken</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj|4:conj">taken</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">him</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="VAP" tag="VBN" in="-1:conj" out="-8:[subj]|1:pobj">sold</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAP" tag="VBN" in="-4:conj" out="-8:[subj]|1:pobj|-1:coord">sold</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">trustees</W>
@@ -198,12 +198,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|6:[subj]" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|3:pnct|4:coord|18:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|3:pnct|18:pnct|5:conj">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">employed</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">but</W>
-<W msd="VADR" tag="VBZ" in="-1:conj" out="-6:[subj]|1:mod|3:dobj|8:pobj">receives</W>
+<W msd="CC" tag="CC" in="1:coord" out="">but</W>
+<W msd="VADR" tag="VBZ" in="-5:conj" out="-6:[subj]|1:mod|3:dobj|8:pobj|-1:coord">receives</W>
 <W msd="PD" tag="DT" in="-1:mod" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">month</W>
 <W msd="PI" tag="DT" in="-3:dobj" out="1:nobj">an</W>

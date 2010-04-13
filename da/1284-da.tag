@@ -47,9 +47,9 @@
 </p>
 <p>
 <s>
-<W gloss="Swedish" lemma="svensk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:mod" out="1:coord">Svenske</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="Norwegian" lemma="norsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:conj" out="">norske</W>
+<W gloss="Swedish" lemma="svensk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:mod" out="2:conj">Svenske</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Norwegian" lemma="norsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">norske</W>
 <W gloss="newspapers" lemma="avis" msd="NCCPU==I" tag="NNP" in="1:subj" out="-3:mod">aviser</W>
 <W gloss="felt" lemma="mene" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:dobj|18:pnct">mente</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:mod" out="">i_går</W>
@@ -105,7 +105,7 @@
 <W gloss="said" lemma="sige" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pnct|2:dobj">sagt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="8:vobj">at</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
 <W gloss="the" lemma="den" msd="PP3CSU-NU" tag="PRP" in="6:subj" out="1:ref|2:rel">den</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:ref|1:subj" out="">som</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:pred|2:mod">er</W>
@@ -117,12 +117,12 @@
 <W gloss="else" lemma="anden" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="">andet</W>
 <W gloss="tomorrow." lemma="i_morgen" msd="RGU" tag="RP" in="-3:mod" out="">i_morgen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="3:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W gloss="This" lemma="den" msd="PD-CSU--U" tag="DT" in="2:subj|8:[subj]" out="1:nobj">Den</W>
 <W gloss="statement" lemma="udtalelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">udtalelse</W>
 <W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|-3:pnct|1:mod|6:vobj|20:pnct">er</W>
@@ -216,7 +216,7 @@
 <W gloss="anything" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="">noget</W>
 <W gloss="wrong" lemma="gal" msd="ANPNSU=IU" tag="JJ" in="-2:aobj" out="">galt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-31:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-31:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-32:qobj|6:subj|7:pnct">siger</W>
 <W gloss="PR_head" lemma="informationschef" msd="NCCSU==I" tag="NN" in="5:title" out="1:pobj|3:pnct">informationschef</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
@@ -234,9 +234,9 @@
 <W gloss="managers" lemma="chef" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">chefer</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="2:nobj">i</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="2:mod" out="">både</W>
-<W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-2:nobj" out="1:coord">Danmark</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="-2:mod|1:conj">og</W>
-<W gloss="Sweden" lemma="Sverige" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Sverige</W>
+<W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-2:nobj" out="2:conj">Danmark</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-2:mod">og</W>
+<W gloss="Sweden" lemma="Sverige" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Sverige</W>
 <W gloss="do_understand" lemma="forstå" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|2:mod|3:pnct|4:dobj|8:pnct">forstår</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="-1:mod">ikke</W>
@@ -245,7 +245,7 @@
 <W gloss="the_rumour" lemma="rygte" msd="NCNSU==D" tag="NN" in="1:subj" out="">rygtet</W>
 <W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:lobj">kommer</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="-3:[nobj]">fra</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-8:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
 </s>
 </p>
 </div1>

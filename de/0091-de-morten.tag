@@ -89,7 +89,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="10:pnct" out="">"</W>
-<W lemma="dies" msd="PD" tag="PDAT" in="9:subj|-35:coref-res" out="1:attr|2:nobj">Diese</W>
+<W lemma="dies" msd="PD" tag="PDAT" in="-35:coref-res|9:subj" out="1:attr|2:nobj">Diese</W>
 <W lemma="eiskalt" msd="AN" tag="ADJA" in="-1:attr" out="">eiskalte</W>
 <W lemma="Vernunftehe" msd="NC" tag="NN" in="-2:nobj" out="1:pobj">Vernunftehe</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
@@ -98,8 +98,8 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj">der</W>
 <W lemma="Branche" msd="NC" tag="NN" in="-1:nobj" out="">Branche</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:pnct|-9:subj|1:preds|3:pnct|60:coref">ist</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-1:preds" out="1:nobj">zu</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:pnct|-9:subj|1:preds|3:pnct|60:coref|1:preds">ist</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="-1:preds|-1:preds" out="1:nobj">zu</W>
 <W lemma="kritisieren" msd="VAF" tag="VVINF" in="-1:nobj" out="">kritisieren</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="49:qobj" out="1:nobj|4:pnct|6:ref|12:relr|48:pnct">Die</W>
@@ -112,9 +112,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj|72:coref-id">die</W>
 <W lemma="Rockmusik" msd="NC" tag="NN" in="-1:nobj" out="">Rockmusik</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
-<W lemma="zu" msd="SP" tag="APPR" in="2:preds" out="1:nobj">zu</W>
+<W lemma="zu" msd="SP" tag="APPR" in="2:preds|2:preds" out="1:nobj">zu</W>
 <W lemma="Tod" msd="NC" tag="NN" in="-1:nobj" out="">Tode</W>
-<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-2:preds|-7:man|1:pnct|2:cause&3a;reas">siegt</W>
+<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-2:preds|-7:man|1:pnct|2:cause&3a;reas|-2:preds">siegt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="indem" msd="CS" tag="KOUS" in="-2:cause&3a;reas" out="6:vobj">indem</W>
 <W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
@@ -127,10 +127,10 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="6:vobj">dass</W>
 <W lemma="kein" msd="PP" tag="PIS" in="5:subj" out="">keiner</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="4:time" out="">mehr</W>
-<W lemma="in" msd="SP" tag="APPR" in="3:preds" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:preds|3:preds" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Lage" msd="NC" tag="NN" in="-1:nobj" out="5:nobj">Lage</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-4:time|-3:preds|1:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-4:time|-3:preds|1:pnct|-3:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="2:avobj" out="4:dobj">daran</W>
@@ -158,7 +158,7 @@
 </p>
 <p>
 <s>
-<W lemma="davon" msd="RG" tag="PAV" in="1:pobj|-60:coref" out="">DAVON</W>
+<W lemma="davon" msd="RG" tag="PAV" in="-60:coref|1:pobj" out="">DAVON</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:pobj|1:subj|2:space&3a;loc|5:dobj|6:pnct">gibt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc" out="1:nobj">im</W>
@@ -181,7 +181,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="3:pnct" out="">"</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:subj|-72:coref-id" out="1:nobj">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-72:coref-id|2:subj" out="1:nobj">Die</W>
 <W lemma="Rockmusik" msd="NC" tag="NN" in="-1:nobj" out="">ROCKMUSIK</W>
 <W lemma="definieren" msd="VA" tag="VVFIN" in="-12:xpl" out="-3:pnct|-2:subj|1:robj|2:space&3a;loc|4:pobj|7:pnct|35:pnct">definiert</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
@@ -221,9 +221,9 @@
 <W lemma="." msd="XP" tag="$." in="-35:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namef" out="">C.V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-1:namef">Jørgensen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|2:preds|5:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|2:preds|5:pnct|2:preds">ist</W>
 <W lemma="also" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">also</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-2:preds" out="1:attr|2:nobj">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-2:preds|-2:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="lausig" msd="AN" tag="ADJA" in="-1:attr" out="">lausiger</W>
 <W lemma="Rockmusiker" msd="NC" tag="NN" in="-2:nobj" out="">Rockmusiker</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>

@@ -148,7 +148,7 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:ref|1:rel">Those</W>
 <W msd="VAG" tag="VBG" in="-1:ref|-1:rel" out="">surviving</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:pred|17:pnct">are</W>
-<W msd="NP=S" tag="NNP" in="-1:pred" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|12:pnct|13:coord">Esbjerg-Fanø</W>
+<W msd="NP=S" tag="NNP" in="-1:pred" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|12:pnct|15:conj">Esbjerg-Fanø</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Bøjden-Fynshav</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -161,9 +161,9 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="VAP" tag="VBN" in="-5:mod" out="-5:[subj]|-2:mod|-1:mod">reduced</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-13:coord" out="1:mod|2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:mod">and</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">finally</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="">Gedser-Warnemünde</W>
+<W msd="NP=S" tag="NNP" in="-15:conj" out="-2:coord">Gedser-Warnemünde</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -196,15 +196,15 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">consequences</W>
 <W msd="VA" tag="MD" in="" out="-2:subj">will</W>
 <W msd="VAF" tag="VB" in="" out="1:pobj|25:pnct">emerge</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="8:pnct|9:conj|16:coord">for</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="8:pnct|9:conj|17:conj">for</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Great</W>
 <W msd="NP=S" tag="NNP" in="" out="1:mod">Belt</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:conj|2:coord">1996,</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:conj|3:conj">1996,</W>
 <W msd="AC" tag="CD" in="-1:conj" out="">1997</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="AC" tag="CD" in="-1:conj|-8:pnct" out="">1998,</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="AC" tag="CD" in="-8:pnct|-3:conj" out="-1:coord">1998,</W>
 <W msd="SP" tag="IN" in="-9:conj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Sound</W>
@@ -212,8 +212,8 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="1:nobj">year</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">2000</W>
-<W msd="CC" tag="CC" in="-16:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="">in</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-17:conj" out="-1:coord">in</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="1:mod">Baltic</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">in</W>

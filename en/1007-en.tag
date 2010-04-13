@@ -81,13 +81,13 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">law</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:dobj|17:pnct">promotes</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj|3:mod|5:coord">a</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj|3:mod|6:conj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">clear</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">placement</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">responsibility</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="1:nobj|2:ref|4:rel">the</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-6:conj" out="1:nobj|2:ref|4:rel|-1:coord">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">self-government</W>
 <W msd="SP" tag="IN" in="-2:ref|4:dobj" out="">that</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
@@ -127,18 +127,18 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="3:mod" out="1:coord">First</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">foremost</W>
+<W msd="NP=S" tag="NNP" in="3:mod" out="2:conj">First</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">foremost</W>
 <W msd="U=" tag="TO" in="" out="-3:mod|1:vobj|9:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">increase</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">quality</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">teaching</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">research</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord">research</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -194,12 +194,12 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">individual</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">educational</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">institutions</W>
-<W msd="U=" tag="TO" in="-10:nobj" out="1:vobj|4:coord">to</W>
+<W msd="U=" tag="TO" in="-10:nobj" out="1:vobj|5:conj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">set</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">entry</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">requirements</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">and</W>
-<W msd="U=" tag="TO" in="-1:conj" out="1:vobj">to</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="U=" tag="TO" in="-5:conj" out="1:vobj|-1:coord">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">ensure</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:mod|3:nobj">an</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">ever</W>
@@ -238,9 +238,9 @@
 <W msd="ANP" tag="JJ" in="-3:pred" out="">possible</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:pobj">educate</W>
-<W msd="ANC" tag="JJR" in="-1:dobj" out="1:coord">more</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANC" tag="JJR" in="-1:conj" out="">more</W>
+<W msd="ANC" tag="JJR" in="-1:dobj" out="2:conj">more</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">more</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">same</W>

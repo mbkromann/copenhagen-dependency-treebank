@@ -12,10 +12,10 @@
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="mit" msd="SP" tag="APPR" in="2:man" out="1:nobj">Mit</W>
 <W lemma="Verspätung" msd="NC" tag="NN" in="-1:nobj" out="">Verspätung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:man|1:subj|3:preds|4:pnct|23:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:man|1:subj|3:preds|4:pnct|23:pnct|3:preds">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|4:ref|21:relr">ein</W>
 <W lemma="Programm" msd="NC" tag="NN" in="-1:nobj" out="">Programm</W>
-<W lemma="fertig" msd="RG" tag="PTKVZ" in="-3:preds" out="">fertig</W>
+<W lemma="fertig" msd="RG" tag="PTKVZ" in="-3:preds|-3:preds" out="">fertig</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:ref|16:[subj]|17:subj" out="">das</W>
 <W lemma="Kunde" msd="NC" tag="NN" in="15:dobj" out="">Kunden</W>
@@ -43,9 +43,9 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|5:[subj]" out="1:nobj">Die</W>
 <W lemma="Europäer" msd="NC" tag="NN" in="-1:nobj" out="">Europäer</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-2:subj|3:vobj|8:coref-res">sollten</W>
-<W lemma="intelligent" msd="AN" tag="ADJD" in="2:preds" out="1:degr">intelligent</W>
+<W lemma="intelligent" msd="AN" tag="ADJD" in="2:preds|2:preds" out="1:degr">intelligent</W>
 <W lemma="genug" msd="RG" tag="ADV" in="-1:degr" out="">genug</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="-3:vobj" out="-5:[subj]|-2:preds">sein</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="-3:vobj" out="-5:[subj]|-2:preds|-2:preds">sein</W>
 </s>
 </p>
 <p>
@@ -192,8 +192,8 @@
 <W lemma="für" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Programmierung" msd="NC" tag="NN" in="-1:nobj" out="">Programmierung</W>
-<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds" out="-3:pobj">verantwortlich</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-7:relr" out="-5:subj|-1:preds">ist</W>
+<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-3:pobj">verantwortlich</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-7:relr" out="-5:subj|-1:preds|-1:preds">ist</W>
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
 </s>
 </p>

@@ -11,10 +11,10 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">raw</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:mod">oil</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:pred">is</W>
-<W msd="PI" tag="DT" in="-1:pred" out="1:nobj|2:coord">a</W>
+<W msd="PI" tag="DT" in="-1:pred" out="1:nobj|3:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blend</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">pure</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-1:coord">pure</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -73,12 +73,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]|7:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|4:coord|15:pnct">collect</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|15:pnct|5:conj">collect</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">tiny</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">bit</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">and</W>
-<W msd="VA" tag="MD" in="-1:conj" out="-6:[subj]|1:vobj">will</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VA" tag="MD" in="-5:conj" out="-6:[subj]|1:vobj|-1:coord">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:pred">be</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -100,9 +100,9 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|-7:mod|1:vobj|7:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:dobj|5:vobj">see</W>
-<W msd="ANC" tag="JJR" in="3:mod" out="1:coord">thicker</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANC" tag="JJR" in="-1:conj" out="">thicker</W>
+<W msd="ANC" tag="JJR" in="3:mod" out="2:conj">thicker</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">thicker</W>
 <W msd="NC=S" tag="NN" in="-4:dobj|1:[subj]" out="-3:mod">fluid</W>
 <W msd="VAF" tag="VB" in="-5:vobj" out="-1:[subj]">evaporate</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>

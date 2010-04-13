@@ -18,20 +18,20 @@
 <W msd="PP" tag="PRP" in="-1:nobj" out="">I</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">applicants</W>
-<W msd="VADR" tag="VBP" in="" out="-5:mod|-1:subj|1:vobj|6:pnct|7:coord|18:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-5:mod|-1:subj|1:vobj|6:pnct|18:pnct|13:conj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">assessed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="2:possd">their</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">grade</W>
 <W msd="ANP" tag="JJ" in="-2:possd" out="-1:mod">average</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-7:coord" out="6:conj">and</W>
+<W msd="CC" tag="CC" in="6:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="5:mod" out="">here</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">deadline</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">application</W>
-<W msd="VADR" tag="VBZ" in="-6:conj" out="-5:mod|-4:subj|1:mod">expires</W>
+<W msd="VADR" tag="VBZ" in="-13:conj" out="-5:mod|-4:subj|1:mod|-6:coord">expires</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">on</W>
 <W msd="AC" tag="CD" in="1:mod" out="">1</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:nobj">July</W>
@@ -49,14 +49,14 @@
 <W msd="NC=P" tag="NNS" in="-3:possd" out="">qualifications</W>
 <W msd="VADR" tag="VBP" in="" out="-8:mod|-4:subj|1:vobj|13:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]">assessed</W>
-<W msd="XP" tag=":" in="-6:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-10:modp" out="-3:mod|1:mod">residence</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:coord">abroad</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">or</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">at</W>
+<W msd="ANP" tag="RB" in="-1:mod" out="2:conj">abroad</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="SP" tag="IN" in="-2:conj" out="1:nobj|-1:coord">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">high</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">school</W>
@@ -80,7 +80,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="12:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:mod" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|7:pnct">are</W>
@@ -131,16 +131,16 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|-4:[dobj]|1:pnct">have</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-12:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|1:subj|13:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="2:nobj|9:pnct|11:appa">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Deputy</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:pobj">Head</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="4:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="3:mod" out="1:coord">Administration</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Services</W>
+<W msd="NP=S" tag="NNP" in="3:mod" out="2:conj">Administration</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Services</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="-3:mod">Secretariat</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Merethe</W>
@@ -164,7 +164,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|4:list">Graphics</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Grade</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">point</W>
 <W msd="ANP" tag="JJ" in="-4:list" out="-1:mod|1:mod">average</W>

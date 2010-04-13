@@ -128,9 +128,9 @@
 <W gloss="surprise" lemma="overraskelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">overraskelse</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:mod|2:pred|6:pnct">er</W>
 <W gloss="Likewise" lemma="ligeledes" msd="RGU" tag="RP" in="-1:mod" out="">ligeledes</W>
-<W gloss="radio" lemma="radio" msd="NCCSG==D" tag="NN" in="-2:pred" out="1:coord|3:possd">radioens</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="television" lemma="TVs" msd="NCNSG==I" tag="NN" in="-1:conj" out="1:[possd]">TVs</W>
+<W gloss="radio" lemma="radio" msd="NCCSG==D" tag="NN" in="-2:pred" out="3:possd|2:conj">radioens</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="television" lemma="TVs" msd="NCNSG==I" tag="NN" in="-2:conj" out="1:[possd]|-1:coord">TVs</W>
 <W gloss="election_broadcasts" lemma="valgudsendelse" msd="NCCPU==I" tag="NNP" in="-3:possd|-1:[possd]" out="">valgudsendelser</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -144,9 +144,9 @@
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:dobj" out="1:nobj|2:mod">samme</W>
 <W gloss="air_time" lemma="sendetid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sendetid</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
-<W gloss="television" lemma="tv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:coord">TV</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="radio" lemma="radio" msd="NCCSU==I" tag="NN" in="-1:conj" out="">radio</W>
+<W gloss="television" lemma="tv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="2:conj">TV</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="radio" lemma="radio" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">radio</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="understands" lemma="forstå" msd="VADR=----A-" tag="VBD" in="" out="-13:dobj|1:subj|7:mod|8:pnct">forstår</W>
 <W gloss="the_majority" lemma="flertal" msd="NCNSU==D" tag="NN" in="-1:subj" out="1:pobj">flertallet</W>
@@ -159,9 +159,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Minute" lemma="minut-" msd="XX" tag="FW" in="6:dobj" out="1:coord">Minut-</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="second_democracy" lemma="sekunddemokrati" msd="NCNSU==I" tag="NN" in="-1:conj" out="">sekunddemokrati</W>
+<W gloss="Minute" lemma="minut-" msd="XX" tag="FW" in="6:dobj" out="2:conj">Minut-</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="second_democracy" lemma="sekunddemokrati" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">sekunddemokrati</W>
 <W gloss="is" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:mod|3:vobj|4:pnct">bliver</W>
 <W gloss="it" lemma="denne" msd="PD-NSU--U" tag="DT" in="-1:subj|2:[subj]" out="">dette</W>
 <W gloss="contemptuous" lemma="hånlig" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">hånligt</W>
@@ -206,7 +206,7 @@
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="1:mod" out="">hvad</W>
 <W gloss="either" lemma="enten" msd="CS" tag="IN" in="-6:mod" out="-1:mod|2:vobj">enten</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|14:coord">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|16:conj">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:pred" out="2:mod|3:nobj|4:pnct|5:ref|7:rel">et</W>
 <W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
 <W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:mod" out="-1:mod">nyt</W>
@@ -220,14 +220,14 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Parliament" lemma="parlament" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">parlamentet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-14:coord" out="2:conj">eller</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="2:coord" out="">eller</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:pred">er</W>
-<W gloss="the_country's" lemma="land" msd="NCNSG==D" tag="NN" in="-1:pred" out="1:mod|2:possd|3:coord">landets</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-16:conj" out="-1:subj|1:pred|-2:coord">er</W>
+<W gloss="the_country's" lemma="land" msd="NCNSG==D" tag="NN" in="-1:pred" out="1:mod|2:possd|4:conj">landets</W>
 <W gloss="biggest" lemma="stor" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:mod" out="">største</W>
 <W gloss="party" lemma="parti" msd="NCNSU==I" tag="NN" in="-2:possd" out="">parti</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-3:coord" out="1:conj">eller</W>
-<W gloss="the_governing_party" lemma="regeringsparti" msd="NCNSU==D" tag="NN" in="-1:conj" out="">regeringspartiet</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="the_governing_party" lemma="regeringsparti" msd="NCNSU==D" tag="NN" in="-4:conj" out="-1:coord">regeringspartiet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 </p>
@@ -246,9 +246,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="3:mod" out="">både</W>
 <W gloss="in" lemma="hos" msd="SP" tag="IN" in="-7:appa" out="1:nobj">hos</W>
-<W gloss="the_CDU" lemma="CDU" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:coord">CDU</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="-3:mod|1:conj">og</W>
-<W gloss="the_SPD" lemma="SPD" msd="NP--U==-" tag="NNP" in="-1:conj" out="">SPD</W>
+<W gloss="the_CDU" lemma="CDU" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">CDU</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-3:mod">og</W>
+<W gloss="the_SPD" lemma="SPD" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">SPD</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -276,10 +276,10 @@
 <W gloss="the" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="election" lemma="valg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">valg</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-9:coord" out="1:<subj>|3:<dobj>">og</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:<subj>" out="1:mod">det</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="-9:coord" out="1:&lt;subj&gt;|3:&lt;dobj&gt;">og</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:&lt;subj&gt;" out="1:mod">det</W>
 <W gloss="smallest" lemma="lille" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:mod" out="">mindste</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-3:<dobj>" out="1:nobj">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-3:&lt;dobj&gt;" out="1:nobj">de</W>
 <W gloss="fewest" lemma="få" msd="ANS[CN]PU=DU" tag="JJS" in="-1:nobj" out="">færreste</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

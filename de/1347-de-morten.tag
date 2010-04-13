@@ -40,8 +40,8 @@
 <W lemma="Behandlung" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Behandlung</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj|4:pnct|5:ref|10:relr|32:coref-var">eines</W>
 <W lemma="Asylantrag" msd="NC" tag="NN" in="-1:nobj" out="">Asylantrags</W>
-<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds" out="-5:pobj">verantwortlich</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-8:relr" out="-1:preds">ist</W>
+<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-5:pobj">verantwortlich</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-8:relr" out="-1:preds|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-5:ref|4:[subj]|5:subj" out="">der</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:space&3a;loc" out="1:nobj">in</W>
@@ -129,8 +129,8 @@
 <p>
 <s>
 <W lemma="d" msd="PP" tag="PDS" in="-12:coref-res|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|1:preds|5:pnct|19:pnct|21:CONC/aber">ist</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj">das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|1:preds|5:pnct|19:pnct|21:CONC/aber|1:preds">ist</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="1:nobj">das</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Ergebnis</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-81:coref-id|-1:pobj&3a;arg" out="1:possr|3:ref|15:relr">der</W>
 <W lemma="Konvention" msd="NC" tag="NN" in="-1:possr" out="">Konvention</W>
@@ -159,14 +159,14 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="-4:nobj" out="1:vobj">zu</W>
 <W lemma="tun" msd="VAF" tag="VVINF" in="-1:vobj" out="-4:pobj">tun</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="2:space&3a;loc|1:attr">Das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:attr|2:space&3a;loc">Das</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">Neue</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc|-7:coref-id" out="1:nobj|18:coref-var">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Unionstraktat</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|19:pnct|21:CONJ/(und)">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|19:pnct|21:CONJ/(und)|2:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="16:vobj">dass</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-26:coref-var|15:subj" out="3:nobj|2:attr">die</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-2:preds|-2:preds" out="16:vobj">dass</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-26:coref-var|15:subj" out="2:attr|3:nobj">die</W>
 <W lemma="schon" msd="RG" tag="ADV" in="1:time&3a;prec" out="">schon</W>
 <W lemma="existierend" msd="AN" tag="ADJA" in="-2:attr" out="-1:time&3a;prec">existierende</W>
 <W lemma="Zusammenarbeit" msd="NC" tag="NN" in="-3:nobj" out="1:pobj">Zusammenarbeit</W>
@@ -190,7 +190,7 @@
 <W lemma="vor" msd="SP" tag="APPR" in="-1:time&3a;prec" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:dobj" out="1:nobj">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Rede</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="2:nobj|1:attr">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:attr|2:nobj">von</W>
 <W lemma="zwischenstaatlich" msd="AN" tag="ADJA" in="-1:attr" out="">zwischenstaatlicher</W>
 <W lemma="Zusammenarbeit" msd="NC" tag="NN" in="-2:nobj" out="">Zusammenarbeit</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
@@ -203,7 +203,7 @@
 <W lemma="jetzt" msd="RG" tag="ADV" in="9:time&3a;succ" out="">jetzt</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="8:comp" out="1:nobj">als</W>
 <W lemma="Frage" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Frage</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="2:nobj|1:attr">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:attr|2:nobj">von</W>
 <W lemma="gemeinsam" msd="AN" tag="ADJA" in="-1:attr" out="">gemeinsamem</W>
 <W lemma="Interesse" msd="NC" tag="NN" in="-2:nobj" out="">Interesse</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:space&3a;dir" out="1:nobj">in</W>

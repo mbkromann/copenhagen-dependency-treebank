@@ -47,15 +47,15 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|6:coord|31:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|31:pnct|8:conj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pred">called</W>
 <W msd="PD" tag="DT" in="-1:pred" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Office</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Bodega</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-6:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:pred">was</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|1:mod|2:pred|-2:coord">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
 <W msd="PI" tag="DT" in="-2:pred|6:[mod]" out="1:nobj|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
@@ -95,7 +95,7 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="13:qobj" out="-1:pnct|2:conj|10:pnct|11:pnct">But</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:expl|1:dobj">is</W>
@@ -107,7 +107,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">things</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|-1:subj|1:pnct">stresses</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -159,12 +159,12 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:pred|21:pnct">was</W>
-<W msd="PI" tag="DT" in="-1:pred" out="1:nobj|3:pnct|4:coord">a</W>
+<W msd="PI" tag="DT" in="-1:pred" out="1:nobj|3:pnct|5:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">candidate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="6:nobj">for</W>
-<W msd="XP" tag=":" in="-3:pnct" out="">-</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">and</W>
-<W msd="PI" tag="DT" in="-1:conj" out="1:nobj">an</W>
+<W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PI" tag="DT" in="-5:conj" out="1:nobj|-1:coord">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">initiator</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:[nobj]">of</W>
 <W msd="PD" tag="DT" in="-1:[nobj]|-6:nobj" out="2:mod|3:nobj|4:ref|5:rel">the</W>

@@ -16,9 +16,9 @@
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="-1:mod">Science</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">answer</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:coord">this</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="1:nobj">many</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:conj">this</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="1:nobj|-1:coord">many</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">questions</W>
 <W msd="PD" tag="DT" in="" out="1:nobj">the</W>
@@ -61,16 +61,16 @@
 <W msd="NC=S" tag="NN" in="" out="-1:mod|1:mod">section</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">exciting</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:coord">discoveries</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|3:conj">discoveries</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">research</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod|1:mod">results</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|1:mod|-2:coord">results</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:conj|3:coord">medicine</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:conj|4:conj">medicine</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="">technology</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">science</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-4:conj" out="-1:coord">science</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">CAVE</W>
@@ -94,13 +94,13 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hunt</W>
-<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|5:coord">in</W>
+<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|6:conj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">honour</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">gods</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="CS" tag="IN" in="-1:conj" out="1:nobj">as</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="CS" tag="IN" in="-6:conj" out="1:nobj|-1:coord">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">help</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">for</W>
@@ -196,11 +196,11 @@
 <W msd="CS" tag="IN" in="-8:mod" out="2:vobj">so</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|6:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:mod|3:coord">follow</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:mod|4:conj">follow</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">constantly</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="-6:[subj]|1:dobj">obtain</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAF" tag="VB" in="-4:conj" out="-6:[subj]|1:dobj|-1:coord">obtain</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:ref|2:rel">knowledge</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">can</W>
@@ -227,9 +227,9 @@
 <W msd="VAP" tag="VBN" in="-1:rel" out="-1:[subj]|1:mod">created</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:coord|4:nobj">billion</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="PI" tag="DT" in="-1:conj" out="1:nobj">a</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="4:nobj|2:conj">billion</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PI" tag="DT" in="-2:conj" out="1:nobj|-1:coord">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">half</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">years</W>
 </s>

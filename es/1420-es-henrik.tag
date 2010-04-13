@@ -1,6 +1,6 @@
 <W lemma="el" msd="ART" in="3:subj|4:[subj]" out="2:nobj">Las</W>
-<W lemma="nuevo" msd="ADJ" in="1:attrd" out="">nuevas</W>
-<W lemma="empresa" msd="NC" in="-2:nobj" out="-1:attrd">empresas</W>
+<W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevas</W>
+<W lemma="empresa" msd="NC" in="-2:nobj" out="-1:attr">empresas</W>
 <W lemma="deber" msd="VMfin" in="" out="-3:subj|1:vobj|2:degr|19:pnct">deben</W>
 <W lemma="situarse" msd="VCLI" in="-1:vobj" out="-4:[subj]|2:pobj">situarse</W>
 <W lemma="principalmente" msd="ADV" in="-2:degr" out="">principalmente</W>
@@ -18,8 +18,8 @@
 <W lemma="posibilidad" msd="NC" in="-1:dobj" out="1:pobj&3a;arg">posibilidades</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">edificación</W>
-<W lemma="intenso" msd="ADJ" in="-1:attrr" out="">intensa</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">edificación</W>
+<W lemma="intenso" msd="ADJ" in="-1:attr" out="">intensa</W>
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="3:contr" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
@@ -79,8 +79,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;pos#" out="1:nobj">de</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
 <W lemma="de" msd="PREP" in="-3:degr" out="2:nobj">de</W>
-<W lemma="grande" msd="ADJ" in="1:attrd" out="">gran</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attrd">tamaño</W>
+<W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr">tamaño</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
 <W lemma="junto" msd="ADJ" in="9:other" out="1:nobj">Junto</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="4:relpa">Kalvebodkilerne</W>
@@ -143,19 +143,19 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">Ørestaden</W>
 <W lemma="deber" msd="VMfin" in="" out="-12:subj|-14:struct|1:vobj|6:pnct">debe</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds" out="1:nobj|9:assoc-const">una</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds|1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj|9:assoc-const">una</W>
 <W lemma="zona" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">zona</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
 <W lemma="exposicin" msd="NC" in="-1:nobj" out="">exposiciones</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">Los</W>
-<W lemma="partido" msd="NC" in="-1:nobj" out="1:attrr">partidos</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">políticos</W>
+<W lemma="partido" msd="NC" in="-1:nobj" out="1:attr">partidos</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">políticos</W>
 <W lemma="sugerir" msd="VLfin" in="" out="-3:subj|1:dobj|4:bg|15:pnct">sugieren</W>
 <W lemma="un" msd="ART" in="-1:dobj|-9:assoc-const" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr">exposición</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr" out="">báltica</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">exposición</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">báltica</W>
 <W lemma="en" msd="PREP" in="-4:bg" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">relación</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
@@ -190,8 +190,8 @@
 <W lemma="de" msd="CSUBI" in="-1:pobj&3a;pos" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:nobj" out="">Østamager</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|1:preds|3:conj">será</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="">subterránea</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|1:preds|3:conj|1:preds">será</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="">subterránea</W>
 <W lemma="y" msd="CC" in="1:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:conj" out="-1:coord|1:dir|3:pnct">irá</W>
 <W lemma="hasta" msd="PREP" in="-1:dir" out="1:nobj">hasta</W>

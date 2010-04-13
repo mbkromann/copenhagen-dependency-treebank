@@ -75,7 +75,7 @@
 <W lemma="mismo" msd="ADJ" in="-1:nobj" out="">mismo</W>
 <W lemma="para" msd="PREP" in="" out="">para</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Jørgen</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:loc|-1:namef">Fallesen</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:namef|1:loc">Fallesen</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Almind</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
@@ -85,7 +85,7 @@
 <W lemma="por~lo~menos" msd="ADV" in="3:eval" out="">por lo menos</W>
 <W lemma="cuando" msd="CSUBX" in="-18:time" out="2:vobj">cuando</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="comparar" msd="VLfin" in="-2:vobj" out="-1:robj|1:subj|-3:eval">compara</W>
+<W lemma="comparar" msd="VLfin" in="-2:vobj" out="-1:robj|-3:eval|1:subj">compara</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
 <W lemma="tirar" msd="VLadj" in="-1:nobj" out="">tirada</W>
 <W lemma="." msd="FS" in="" out="">.</W>
@@ -109,21 +109,21 @@
 <W lemma="reconocer" msd="VLfin" in="-1:vobj" out="1:qobj">reconoce</W>
 <W lemma="que" msd="CQUE" in="-1:qobj" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:neg" out="">“no</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">número</W>
 <W lemma="para" msd="PREP" in="" out="">para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">vanagloriarse,”</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:add" out="">también</W>
-<W lemma="ser" msd="VSfin" in="-17:conj" out="-10:conc|-1:add|-11:coord|2:subj|1:preds">es</W>
-<W lemma="cierto" msd="ADJ" in="-1:preds" out="">cierto</W>
+<W lemma="ser" msd="VSfin" in="-17:conj" out="-10:conc|-1:add|-11:coord|1:preds|2:subj|1:preds">es</W>
+<W lemma="cierto" msd="ADJ" in="-1:preds|-1:preds" out="">cierto</W>
 <W lemma="que" msd="CQUE" in="-2:subj" out="4:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="3:subj" out="1:nobj">“los</W>
 <W lemma="quince" msd="CARD" in="-1:nobj" out="">quince</W>
 <W lemma="tampoco" msd="ADV" in="1:neg" out="">tampoco</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|2:preds">son</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|2:preds|2:preds">son</W>
 <W lemma="nada" msd="QU" in="" out="">nada</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds" out="">despreciable.“</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds|-2:preds" out="">despreciable.“</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="3:eval" out="">A pesar de</W>
 <W lemma="todo" msd="QU" in="" out="">todo</W>
 <W lemma="," msd="CM" in="" out="">,</W>
@@ -183,15 +183,15 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Parzival</W>
 <W lemma="como" msd="CSUBX" in="" out="1:nobj">como</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:relr|1:ref">artículo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:ref|2:relr">artículo</W>
 <W lemma="que" msd="CQUE" in="-1:ref|1:subj" out="">que</W>
-<W lemma="dar" msd="VLfin" in="-2:relr" out="1:dobj|-1:subj">da</W>
+<W lemma="dar" msd="VLfin" in="-2:relr" out="-1:subj|1:dobj">da</W>
 <W lemma="provecho" msd="NC" in="-1:dobj" out="1:attr">provecho</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">económico</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-10:pnct" out="">–</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:time" out="">todavía</W>
-<W lemma="vendar&7c;vender" msd="VLfin" in="-13:conj" out="1:dobj|4:ext|-1:time|-2:coord">vende</W>
+<W lemma="vendar&7c;vender" msd="VLfin" in="-13:conj" out="-1:time|-2:coord|1:dobj|4:ext">vende</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">unos</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">75</W>
 <W lemma="ejemplar" msd="ADJ" in="-1:nobj" out="">ejemplares</W>

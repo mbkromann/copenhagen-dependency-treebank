@@ -48,9 +48,9 @@
 <W gloss="rivals" lemma="rival" msd="NCCPU==D" tag="NNP" in="-1:iobj" out="1:loc">rivalerne</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:loc" out="2:nobj">i</W>
 <W gloss="Dansk" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Dansk</W>
-<W gloss="Supermarked" lemma="supermarked" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:coord">Supermarked</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="Aldi" lemma="Aldi" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Aldi</W>
+<W gloss="Supermarked" lemma="supermarked" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr|2:conj">Supermarked</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Aldi" lemma="Aldi" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Aldi</W>
 <W gloss="financial" lemma="finansiel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">finansielle</W>
 <W gloss="problems" lemma="problem" msd="NCNPU==I" tag="NNP" in="-8:dobj" out="-1:attr">problemer</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-12:nobj" out="1:vobj">at</W>
@@ -138,7 +138,7 @@
 </s>
 <s>
 <W gloss="Also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">Også</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="" out="1:nobj|4:pnct|-1:add">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="" out="-1:add|1:nobj|4:pnct">i</W>
 <W gloss="FDB's" lemma="FDB" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:attr|2:possd">FDB's</W>
 <W gloss="own" lemma="egen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">egne</W>
 <W gloss="ranks" lemma="række" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">rækker</W>
@@ -178,7 +178,7 @@
 </s>
 <s>
 <W gloss="In_addition" lemma="desuden" msd="RGU" tag="RP" in="1:add" out="">Desuden</W>
-<W gloss="predicts" lemma="forudse" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:pnct|3:dobj|14:pnct|-1:add">forudser</W>
+<W gloss="predicts" lemma="forudse" msd="VADR=----A-" tag="VBD" in="" out="-1:add|1:subj|2:pnct|3:dobj|14:pnct">forudser</W>
 <W gloss="FDB" lemma="FDB" msd="NP--U==-" tag="NNP" in="-1:subj" out="">FDB</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="5:vobj">at</W>

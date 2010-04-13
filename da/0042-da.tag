@@ -70,11 +70,11 @@
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:attr" out="">politiske</W>
 <W gloss="areas" lemma="område" msd="NCNPU==I" tag="NNP" in="-4:nobj" out="">områder</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-6:pnct" out=""> - </W>
-<W gloss="education" lemma="uddannelse" msd="NCCSU==I" tag="NN" in="-7:appa" out="1:pnct|2:conj|3:coord">uddannelse</W>
+<W gloss="education" lemma="uddannelse" msd="NCCSU==I" tag="NN" in="-7:appa" out="1:pnct|2:conj|4:conj">uddannelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="labour_market" lemma="arbejdsmarked" msd="NCNSU==I" tag="NN" in="-2:conj" out="">arbejdsmarked</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="taxes" lemma="skat" msd="NCCSU==I" tag="NN" in="-1:conj" out="">skat</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="taxes" lemma="skat" msd="NCCSU==I" tag="NN" in="-4:conj" out="-1:coord">skat</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 </p>
@@ -120,9 +120,9 @@
 <W gloss="are_assured" lemma="sikre" msd="VADR=----P-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj|6:loc|8:pnct">sikres</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="low" lemma="lav" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lav</W>
-<W gloss="wage" lemma="løn-" msd="XX" tag="FW" in="-2:nobj" out="1:coord">løn-</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="cost_developments" lemma="omkostningsudvikling" msd="NCCSU==I" tag="NN" in="-1:conj" out="">omkostningsudvikling</W>
+<W gloss="wage" lemma="løn-" msd="XX" tag="FW" in="-2:nobj" out="2:conj">løn-</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="cost_developments" lemma="omkostningsudvikling" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">omkostningsudvikling</W>
 <W gloss="in" lemma="ved" msd="SP" tag="IN" in="-6:loc" out="1:nobj">ved</W>
 <W gloss="the_collective_bargaining_agreements" lemma="overenskomst" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">overenskomsterne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -185,9 +185,9 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="6:subj|7:[subj]" out="1:nobj">en</W>
 <W gloss="reduction" lemma="nedsættelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">nedsættelse</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">moms</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">afgifter</W>
+<W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">moms</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">afgifter</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|1:vobj">kan</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:pred">være</W>
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:pred" out="1:pobj">med</W>
@@ -211,15 +211,15 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="doubt" lemma="tvivle" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-1:subj|-2:pnct|3:pobj|24:pnct|2:epi">tvivler</W>
+<W gloss="doubt" lemma="tvivle" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-1:subj|-2:pnct|2:epi|3:pobj|24:pnct">tvivler</W>
 <W gloss="Honestly" lemma="oprigtig" msd="ANP---=-R" tag="JJ" in="1:man" out="">oprigtig</W>
 <W gloss="speaking" lemma="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:epi" out="-1:man">talt</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
-<W gloss="firms" lemma="virksomhed" msd="NCCPU==I" tag="NNP" in="3:subj|4:[subj]" out="1:coord">virksomheder</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="businesses" lemma="forretning" msd="NCCPU==D" tag="NNP" in="-1:conj" out="">forretningerne</W>
+<W gloss="firms" lemma="virksomhed" msd="NCCPU==I" tag="NNP" in="3:subj|4:[subj]" out="2:conj">virksomheder</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="businesses" lemma="forretning" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">forretningerne</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">vil</W>
 <W gloss="lower" lemma="nedsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:other">nedsætte</W>
 <W gloss="prices" lemma="pris" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">priserne</W>
@@ -231,9 +231,9 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:comp|1:vobj|5:pnct">ville</W>
 <W gloss="lower" lemma="nedsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">nedsætte</W>
-<W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:coord">moms</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">afgifter</W>
+<W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:conj">moms</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">afgifter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-25:qobj|2:subj|3:pnct">siger</W>

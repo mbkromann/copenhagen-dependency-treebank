@@ -1,5 +1,5 @@
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:mod|2:vobj|13:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
@@ -44,7 +44,7 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="">particularly</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]">agree</W>
 <W msd="XP" tag="," in="-25:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-26:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-26:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-27:qobj|2:subj|3:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Uffe</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Ellemann-Jensen</W>
@@ -79,7 +79,7 @@
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:mod|2:vobj|20:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
@@ -107,15 +107,15 @@
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">There</W>
 <W msd="VA" tag="MD" in="" out="-1:expl|1:vobj|14:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj">be</W>
-<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:ref|5:rel|7:coord">areas</W>
+<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:ref|5:rel|8:conj">areas</W>
 <W msd="PT" tag="WRB" in="-1:ref|4:mod" out="">where</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:mod|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">Nordic</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">countries</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-4:mod|-3:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]">co-operate</W>
-<W msd="CC" tag="CC" in="-7:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="1:ref|3:rel">areas</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-8:conj" out="1:ref|3:rel|-1:coord">areas</W>
 <W msd="PT" tag="WRB" in="-1:ref|2:mod" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-2:mod|-1:subj">cannot</W>
@@ -170,11 +170,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">opportunity</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">unite</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="1:coord">heart</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">brain</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">heart</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">brain</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-9:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|1:subj|13:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="3:nobj|9:pnct|11:appa">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Social</W>

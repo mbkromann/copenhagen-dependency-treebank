@@ -160,8 +160,8 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="attraverso" msd="SP" tag="PRE" in="-11:man" out="1:nobj">attraverso</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="pratica" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr|4:pobj">pratica</W>
-<W lemma="irresponsabile" msd="AN" tag="ADJ" in="-1:attrr" out="2:conj">irresponsabile</W>
+<W lemma="pratica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|4:pobj">pratica</W>
+<W lemma="irresponsabile" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">irresponsabile</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="illegale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">illegale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-4:pobj" out="1:nobj">di</W>
@@ -245,8 +245,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="">membri</W>
 <W lemma="in" msd="SP" tag="PRE" in="-6:man" out="1:nobj">in</W>
-<W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr">modo</W>
-<W lemma="esemplare" msd="AN" tag="ADJ" in="-1:attrr" out="">esemplare</W>
+<W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">modo</W>
+<W lemma="esemplare" msd="AN" tag="ADJ" in="-1:attr" out="">esemplare</W>
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="6:coord" out="">e</W>
 <W lemma="di" msd="SP" tag="PRE" in="5:epi" out="1:nobj">di</W>

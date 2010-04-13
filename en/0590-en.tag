@@ -9,11 +9,11 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|10:mod">appeal</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="1:mod">decisions</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:conj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">district</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">council</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="2:nobj">the</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-4:conj" out="2:nobj|-1:coord">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">county</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">council</W>
 <W msd="U=" tag="TO" in="-10:mod" out="1:nobj">to</W>
@@ -22,9 +22,9 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pred">are</W>
-<W msd="NC=S" tag="NN" in="-1:pred" out="1:coord">material</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="3:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:pred" out="2:conj">material</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-2:conj" out="3:nobj|-1:coord">of</W>
 <W msd="ANP" tag="JJ" in="2:mod" out="">general</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">public</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod|-2:mod">importance</W>
@@ -97,10 +97,10 @@
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="1:mod">decisions</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="1:pobj">pursuant</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:coord">this</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">law</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="1:mod">rules</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="1:mod|-1:coord">rules</W>
 <W msd="VADA" tag="VBD" in="-1:mod" out="1:mod">established</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="1:pobj">pursuant</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -113,10 +113,10 @@
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">6</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
 <W msd="CS" tag="IN" in="-3:mod" out="-2:tobj|5:vobj">after</W>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|3:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decision</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">ruling</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord">ruling</W>
 <W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]">reported</W>
@@ -124,10 +124,10 @@
 </s>
 <s>
 <W msd="CS" tag="IN" in="18:mod" out="5:vobj">If</W>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|3:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decision</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">or</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">ruling</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord">ruling</W>
 <W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:vobj|4:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:mod">promulgated</W>

@@ -34,21 +34,21 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|2:list">Photo</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="VADA" tag="VBD" in="-2:list" out="">WINNIFRED</W>
 </s>
 <s>
-<W msd="XP" tag=":" in="4:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Sometimes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="9:qobj" out="-4:pnct|-3:mod|-1:subj|1:pred|2:pnct|3:coord|8:pnct">get</W>
+<W msd="VADR" tag="VBP" in="9:qobj" out="-4:pnct|-3:mod|-1:subj|1:pred|2:pnct|8:pnct|6:conj">get</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="">over-stressed</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-3:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PI" tag="DT" in="2:subj|3:[subj]" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">appointment</W>
-<W msd="VA" tag="MD" in="-3:conj" out="-2:subj|1:vobj">might</W>
+<W msd="VA" tag="MD" in="-6:conj" out="-2:subj|1:vobj|-3:coord">might</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]">slip</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-9:qobj|1:subj|6:pnct">says</W>
@@ -95,10 +95,10 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="3:mod" out="">Both</W>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:nobj|2:coord">the</W>
+<W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:nobj|3:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">photographer</W>
-<W msd="CC" tag="CC" in="-2:coord" out="-3:mod|1:conj">and</W>
-<W msd="PP" tag="PRP" in="-1:conj" out="">I</W>
+<W msd="CC" tag="CC" in="1:coord" out="-3:mod">and</W>
+<W msd="PP" tag="PRP" in="-3:conj" out="-1:coord">I</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:vobj|7:pnct">were</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-5:[subj]|1:lobj|5:mod">looking</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">forward</W>
@@ -152,11 +152,11 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag=":" in="2:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:pred|4:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:pnct|2:conj">terrible</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="">terrible</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -233,7 +233,7 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag=":" in="1:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:[subj]" out="-1:pnct|1:vobj|3:pnct|4:conj|8:pnct">What's</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:part">going</W>
 <W msd="SP" tag="IN" in="-1:part" out="">on</W>
@@ -247,14 +247,14 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">You</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">really</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:dobj|4:pnct|5:coord|12:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:dobj|4:pnct|12:pnct|7:conj">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">forgive</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-5:coord" out="2:conj">but</W>
+<W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:mod|2:vobj">have</W>
+<W msd="VADR" tag="VBP" in="-7:conj" out="-1:subj|1:mod|2:vobj|-2:coord">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">completely</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">forgotten</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>

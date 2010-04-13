@@ -20,15 +20,15 @@
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="">Especially</W>
 <W msd="SP" tag="IN" in="14:mod" out="-1:mod|1:nobj">within</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord|3:pnct|4:ref|4:rel">food</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">drinks</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="3:pnct|4:ref|4:rel|2:conj">food</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">drinks</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-4:ref|-4:rel" out="1:dobj|5:pnct">including</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="1:coord">sugar</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="3:conj">sugar</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">alcohol</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">factories</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">factories</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="">earnings</W>
@@ -85,9 +85,9 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nutrio</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="3:subj" out="1:coord">Food</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">drinks</W>
+<W msd="NP=S" tag="NNP" in="3:subj" out="2:conj">Food</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">drinks</W>
 <W msd="VADR" tag="VBP" in="" out="-3:subj|2:dobj|9:pnct">constitute</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:mod|1:nobj">40</W>
@@ -224,11 +224,11 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Paper</W>
-<W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:mod|-1:nobj|3:coord">Packaging</W>
+<W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:mod|-1:nobj|4:conj">Packaging</W>
 <W msd="ANP" tag="RB" in="" out="">as</W>
 <W msd="ANP" tag="RB" in="" out="">well</W>
-<W msd="CS" tag="IN" in="-3:coord" out="1:conj">as</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="1:possd">Rackmann's</W>
+<W msd="CS" tag="IN" in="1:coord" out="">as</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="1:possd|-1:coord">Rackmann's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">Factories</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>

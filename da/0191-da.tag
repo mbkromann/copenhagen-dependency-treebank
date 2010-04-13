@@ -95,12 +95,12 @@
 <W gloss="considers" lemma="betragte" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-2:subj|-3:[mod]|1:dobj|3:pobj">betragter</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="1:focal">sig</W>
 <W gloss="even" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:focal" out="">selv</W>
-<W gloss="considers" lemma="som" msd="U=" tag="WDT" in="-3:pobj" out="1:pred|4:coord">som</W>
+<W gloss="considers" lemma="som" msd="U=" tag="WDT" in="-3:pobj" out="1:pred|5:conj">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:attr|2:nobj">en</W>
 <W gloss="profit-oriented" lemma="profitorienteret" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">profitorienteret</W>
 <W gloss="business" lemma="erhvervsvirksomhed" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">erhvervsvirksomhed</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-4:coord" out="1:conj">eller</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:conj" out="1:pred">som</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-5:conj" out="1:pred|-1:coord">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:nobj">en</W>
 <W gloss="mediator" lemma="formidler" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">formidler</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -108,9 +108,9 @@
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="the_people" lemma="befolkning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">befolkningen</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
-<W gloss="cancer_research" lemma="kræftforskning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">kræftforskning</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="patient_support" lemma="patientstøtte" msd="NCCSU==I" tag="NN" in="-1:conj" out="">patientstøtte</W>
+<W gloss="cancer_research" lemma="kræftforskning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">kræftforskning</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="patient_support" lemma="patientstøtte" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">patientstøtte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
 </p>
@@ -220,7 +220,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-5:cons" out="2:vobj">så</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|2:dobj|1:eval">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:eval|2:dobj">bliver</W>
 <W gloss="always" lemma="immervæk" msd="RGU" tag="RP" in="-1:eval" out="">immervæk</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="2:nobj">et</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

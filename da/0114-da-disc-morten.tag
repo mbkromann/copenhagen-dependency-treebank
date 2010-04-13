@@ -114,8 +114,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:dobj" out="3:vobj">at</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:preds|16:pnct|17:pnct">er</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:preds" out="1:pobj">op</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:preds|16:pnct|17:pnct|1:preds">er</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:preds|-1:preds" out="1:pobj">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="judge" lemma="dommer" morph="dømme dommer/PRED&3a;agent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dommer</W>
@@ -150,11 +150,11 @@
 <W gloss="Youth_Housing" lemma="Ungbo" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Ungbo</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">har</W>
 <W gloss="committed" lemma="begå" morph="gå -be/TRANS" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|6:other">begået</W>
-<W gloss="betrayal_of_mandates" lemma="mandatsvig" morph="svig -mandat/type svige /PRED&3a;core" msd="NC[CN]SU==I" tag="NNS" in="-1:dobj" out="1:pnct|2:conj|3:coord">mandatsvig</W>
+<W gloss="betrayal_of_mandates" lemma="mandatsvig" morph="svig -mandat/type svige /PRED&3a;core" msd="NC[CN]SU==I" tag="NNS" in="-1:dobj" out="1:pnct|2:conj|4:conj">mandatsvig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="embezzlement" lemma="underslæb" morph="slæb -under/LOC&3a;pos slæbe /PRED&3a;core" msd="NCNSU==I" tag="NN" in="-2:conj" out="">underslæb</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="fraud" lemma="bedrageri" morph="bedrage +ri/PRED&3a;core drage -be/TRANS" msd="NCNSU==I" tag="NN" in="-1:conj" out="">bedrageri</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="fraud" lemma="bedrageri" morph="bedrage +ri/PRED&3a;core drage -be/TRANS" msd="NCNSU==I" tag="NN" in="-4:conj" out="-1:coord">bedrageri</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-6:other" out="1:nobj">i</W>
 <W gloss="connection" lemma="forbindelse" morph="forbinde +lse/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">forbindelse</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -219,10 +219,10 @@
 <W gloss="part" lemma="del" morph="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Youth_Housing's" lemma="Ungbo" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Ungbos</W>
-<W gloss="1,600" lemma="1.600" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj|2:coord">1.600</W>
+<W gloss="1,600" lemma="1.600" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj|3:conj">1.600</W>
 <W gloss="youth_residences" lemma="ungdomsbolig" morph="bolig -[ungdom]s/arg bo +lig/PRED&3a;loc ung +dom/QUAL" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ungdomsboliger</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="2,200" lemma="2.200" msd="AC---U=--" tag="CD" in="-1:conj" out="1:nobj">2.200</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="2,200" lemma="2.200" msd="AC---U=--" tag="CD" in="-3:conj" out="-1:coord|1:nobj">2.200</W>
 <W gloss="hybler" lemma="hybel" morph="hybel" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">hybler</W>
 <W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-44:CONS&3a;dir/(derfor)" out="-10:subj|1:vobj|4:pnct|11:CONJ/(og)">er</W>
 <W gloss="threatened" lemma="true" morph="true" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-11:[subj]|1:pobj">truet</W>
@@ -235,12 +235,12 @@
 <W gloss="employees" lemma="ansætte" morph="sætte -an/LOC&3a;pos" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">ansatte</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:loc" out="1:nobj">på</W>
 <W gloss="the_main_office" lemma="hovedkontor" morph="kontor -hoved/GRAD&3a;qual" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedkontoret</W>
-<W gloss="risk" lemma="risikere" morph="risiko +ere/DER&3a;nv" msd="VADR=----A-" tag="VBD" in="-11:CONJ/(og)" out="-4:subj|1:dobj|3:pnct|4:coord|21:pnct">risikerer</W>
+<W gloss="risk" lemma="risikere" morph="risiko +ere/DER&3a;nv" msd="VADR=----A-" tag="VBD" in="-11:CONJ/(og)" out="-4:subj|1:dobj|3:pnct|17:conj|21:pnct">risikerer</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="pink_slip" lemma="fyreseddel" morph="seddel -fyre/func" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fyreseddel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="13:conj">og</W>
-<W gloss="many" lemma="mange" morph="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="12:subj" out="1:nobj|2:pnct|3:conj|5:pnct|6:conj|7:pnct|8:conj|10:coord">mange</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="13:coord" out="">og</W>
+<W gloss="many" lemma="mange" morph="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="12:subj" out="1:nobj|2:pnct|3:conj|5:pnct|6:conj|7:pnct|8:conj|11:conj">mange</W>
 <W gloss="renters" lemma="lejer" morph="leje +r/PRED&3a;recip" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lejere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="several" lemma="mange" morph="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-3:conj" out="1:nobj">flere</W>
@@ -250,12 +250,12 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-8:conj" out="1:nobj">en</W>
 <W gloss="bank" lemma="bank" morph="bank" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bank</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-10:coord" out="1:conj">og</W>
-<W gloss="the_state" lemma="stat" morph="stat" msd="NCCSU==D" tag="NN" in="-1:conj" out="">staten</W>
-<W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:subj|1:attr|2:dobj|3:preds">har</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_state" lemma="stat" morph="stat" msd="NCCSU==D" tag="NN" in="-11:conj" out="-1:coord">staten</W>
+<W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-17:conj" out="-12:subj|-13:coord|1:attr|2:dobj|3:preds|3:preds">har</W>
 <W gloss="all" lemma="al" morph="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">alle</W>
 <W gloss="money" lemma="penge" morph="penge" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="">penge</W>
-<W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-3:preds" out="">til_gode</W>
+<W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-3:preds|-3:preds" out="">til_gode</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 </p>

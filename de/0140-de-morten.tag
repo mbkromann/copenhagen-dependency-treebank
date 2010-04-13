@@ -51,7 +51,7 @@
 <W lemma="haben" msd="VAF" tag="VAINF" in="-5:vobj" out="-1:vobj|-6:[subj]">haben</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="11:vobj">dass</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="9:[subj]|10:subj|-43:coref-id" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-43:coref-id|9:[subj]|10:subj" out="1:nobj">die</W>
 <W lemma="Plan" msd="NC" tag="NN" in="-1:nobj" out="">Pläne</W>
 <W lemma="zu" msd="SP" tag="APPR" in="7:pobj" out="1:nobj">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:conj">einer</W>
@@ -76,16 +76,16 @@
 <p>
 <s>
 <W lemma="außer" msd="SP" tag="APPR" in="7:add" out="4:nobj|6:pnct">Außer</W>
-<W lemma="Zufluchtsort" msd="NC" tag="NN" in="4:preds" out="">Zufluchtsort</W>
+<W lemma="Zufluchtsort" msd="NC" tag="NN" in="4:preds|4:preds" out="">Zufluchtsort</W>
 <W lemma="für" msd="SP" tag="APPR" in="3:pobj" out="1:nobj">für</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">,,Chlorophyll-Touristen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-4:nobj" out="1:vobj">zu</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="-1:vobj" out="-4:preds|-3:pobj">sein</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="-1:vobj" out="-4:preds|-3:pobj|-4:preds">sein</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-7:add|2:subj|3:preds|5:pobj|7:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-7:add|2:subj|3:preds|5:pobj|7:pnct|3:preds">ist</W>
 <W lemma="Robinson" msd="NP" tag="NE" in="1:namef" out="">Robinson</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:subj|-74:coref-var" out="-1:namef|21:coref-var">Crusoe</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="1:nobj">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds|-3:preds" out="1:nobj">ein</W>
 <W lemma="Paradies" msd="NC" tag="NN" in="-1:nobj" out="">Paradies</W>
 <W lemma="für" msd="SP" tag="APPR" in="-5:pobj" out="1:nobj">für</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Hummerliebhaber</W>
@@ -177,10 +177,10 @@
 <W lemma="infolge" msd="SP" tag="APPR" in="6:source" out="1:nobj">infolge</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Hummerfischer</W>
-<W lemma="Robinson" msd="NP" tag="NE" in="3:preds" out="1:attr|2:possd">Robinsons</W>
+<W lemma="Robinson" msd="NP" tag="NE" in="3:preds|3:preds" out="1:attr|2:possd">Robinsons</W>
 <W lemma="eigen" msd="AN" tag="ADJA" in="-1:attr" out="">eigenes</W>
 <W lemma="Werk" msd="NC" tag="NN" in="-2:possd" out="">Werk</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-12:relr" out="-7:subj|-6:source|-3:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-12:relr" out="-7:subj|-6:source|-3:preds|-3:preds">sind</W>
 <W lemma="." msd="XP" tag="$." in="-27:pnct" out="">.</W>
 </s>
 </p>

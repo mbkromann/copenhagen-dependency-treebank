@@ -66,10 +66,10 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="1:coord">Hafnia</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Norden</W>
+<W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
+<W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="2:conj">Hafnia</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Norden</W>
 <W msd="VADR" tag="VBP" in="9:qobj" out="-4:pnct|-3:subj|1:vobj|7:pnct|8:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:dobj|3:pred">leaving</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -78,7 +78,7 @@
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-9:qobj|2:subj|15:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Nygaard</W>
@@ -197,10 +197,10 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:possd|2:pnct|13:xpl">Nygaard's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">words</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="8:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="8:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="7:mod" out="2:vobj">If</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Hafnia</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj|3:pnct">has</W>
@@ -213,5 +213,5 @@
 <W msd="NC=P" tag="NNS" in="-1:dobj|1:[subj]" out="">others</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:lobj">stay</W>
 <W msd="AC" tag="CD" in="-1:lobj|-4:pnct#" out="">away.</W>
-<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 </s>

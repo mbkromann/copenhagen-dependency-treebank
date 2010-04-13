@@ -45,13 +45,13 @@
 <W gloss="clubs" lemma="klub" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">klubber</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj|7:[subj]" out="">der</W>
-<W gloss="sell" lemma="sælge" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:part|2:pobj|4:coord|13:pnct">sælger</W>
+<W gloss="sell" lemma="sælge" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:part|2:pobj|13:pnct|6:conj">sælger</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:part" out="">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">af</W>
 <W gloss="publikumsidolerne" lemma="publikumsidol" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">publikumsidolerne</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|-7:[subj]|1:dobj">har</W>
+<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:mod|-7:[subj]|1:dobj|-2:coord">har</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:dobj" out="1:mod">nok</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:mod" out="1:vobj">at</W>
 <W gloss="welcome" lemma="byde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|2:mod">byde</W>
@@ -94,7 +94,7 @@
 <W gloss="relevant" lemma="relevant" msd="ANP[CN]SU=IU" tag="JJ" in="-3:pred" out="1:pobj">relevant</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="additional_question" lemma="tillægsspørgsmål" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|6:xpl">tillægsspørgsmålet</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 </p>
 <p>
@@ -137,9 +137,9 @@
 <W gloss="athletic" lemma="sportslig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">sportslige</W>
 <W gloss="bruises" lemma="skramme" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">skrammer</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:pred" out="2:nobj">fra</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="clash" lemma="sammenstød" msd="NCNSU==D" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct|2:pobj|6:mod">sammenstødet</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="Glasgow" lemma="Glasgow" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj|2:possd">Glasgow</W>
 <W gloss="Rangers'" lemma="Rangers" msd="NP--G==-" tag="NNP" in="-1:nobj" out="">Rangers'</W>
@@ -163,10 +163,10 @@
 <W gloss="at" lemma="til" msd="SP" tag="IN" in="-5:mod" out="1:nobj">til</W>
 <W gloss="prices" lemma="pris" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:mod">priser</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:mod" out="1:nobj">mellem</W>
-<W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:coord">100</W>
+<W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|3:conj">100</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
-<W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="-1:conj" out="1:nobj">500</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="-3:conj" out="1:nobj|-1:coord">500</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="14" lemma="14" msd="AC---U=--" tag="CD" in="2:tobj" out="1:nobj">14</W>
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
@@ -185,7 +185,7 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
 <W gloss="is_being_moved" lemma="flytte" msd="VADR=----P-" tag="VBD" in="15:qobj" out="-1:expl|-2:pnct|1:lobj|4:mod|14:pnct">flyttes</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">fra</W>
@@ -194,14 +194,14 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:iobj|7:dobj">give</W>
-<W gloss="the_players" lemma="spiller" msd="NCCPU==D" tag="NNP" in="-1:iobj" out="1:pnct|2:conj|3:coord">spillerne</W>
+<W gloss="the_players" lemma="spiller" msd="NCCPU==D" tag="NNP" in="-1:iobj" out="1:pnct|2:conj|4:conj">spillerne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="the_press" lemma="presse" msd="NCCSU==D" tag="NN" in="-2:conj" out="">pressen</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="spectators" lemma="tilskuer" msd="NCCPU==D" tag="NNP" in="-1:conj" out="">tilskuerne</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="spectators" lemma="tilskuer" msd="NCCPU==D" tag="NNP" in="-4:conj" out="-1:coord">tilskuerne</W>
 <W gloss="optimal" lemma="optimal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">optimale</W>
 <W gloss="conditions" lemma="forhold" msd="NCNPU==I" tag="NNP" in="-7:dobj" out="-1:mod">forhold</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-14:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
 <W gloss="states" lemma="oplyse" msd="VADR=----A-" tag="VBD" in="" out="-15:qobj|2:subj|3:pnct">oplyser</W>
 <W gloss="Claus" lemma="Claus" msd="NP--U==-" tag="NNP" in="1:namef" out="">Claus</W>
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Nielsen</W>
@@ -246,9 +246,9 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">for</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
-<W gloss="entertainment_value" lemma="underholdningsværdi" msd="NCCSU==I" tag="NN" in="3:subj" out="1:coord">underholdningsværdi</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="excitement_factor" lemma="spændingsmoment" msd="NCNSU==I" tag="NN" in="-1:conj" out="">spændingsmoment</W>
+<W gloss="entertainment_value" lemma="underholdningsværdi" msd="NCCSU==I" tag="NN" in="3:subj" out="2:conj">underholdningsværdi</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="excitement_factor" lemma="spændingsmoment" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">spændingsmoment</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:pred|6:mod">er</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pred" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

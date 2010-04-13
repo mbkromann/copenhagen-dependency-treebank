@@ -24,10 +24,10 @@
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:pred|6:pnct">was</W>
-<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|2:coord">in</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|3:conj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1976</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">in</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-3:conj" out="1:nobj|-1:coord">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1985</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -55,14 +55,14 @@
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Life</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Guard</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|3:pnct|4:coord|10:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|3:pnct|10:pnct|7:conj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">play</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Tafelmusik</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-4:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Lancers</W>
-<W msd="VA" tag="MD" in="-3:conj" out="-2:subj|1:vobj">will</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-2:subj|1:vobj|-3:coord">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">danced</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
@@ -92,10 +92,10 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Crown</W>
 <W msd="NP=S" tag="NNP" in="1:title" out="-1:mod">Prince</W>
-<W msd="NP=S" tag="NNP" in="25:subj|27:[subj]" out="-1:title|1:coord|4:pnct|5:ref|6:rel">Frederik</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="25:subj|27:[subj]" out="-1:title|4:pnct|5:ref|6:rel|3:conj">Frederik</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:title" out="">Prince</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:title">Joachim</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:title|-2:coord">Joachim</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-5:ref|1:subj" out="">who</W>
 <W msd="VADR" tag="VBP" in="-6:rel" out="-1:subj|1:lobj|2:mod|4:mod">return</W>
@@ -162,17 +162,17 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">ballet</W>
 <W msd="NC=P" tag="NNS" in="-4:subj|-3:[subj]|-2:[subj]" out="-1:mod|2:appr|6:pnct|8:conj|16:pnct|18:conj">dancers</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Alexander</W>
-<W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|1:coord">Kølpin</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|3:conj">Kølpin</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Rose</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:namef">Gad</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Gad</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">opera</W>
-<W msd="NC=S" tag="NN" in="-8:conj" out="-1:mod|2:appr|3:coord">singer</W>
+<W msd="NC=S" tag="NN" in="-8:conj" out="-1:mod|2:appr|4:conj">singer</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Guido</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef">Paevatalu</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="PO" tag="PRP$" in="-1:conj" out="1:possd|3:appr">his</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PO" tag="PRP$" in="-4:conj" out="1:possd|3:appr|-1:coord">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">wife</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Susanne</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:namef">Rolind</W>
@@ -186,7 +186,7 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Theatre</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-7:ref|1:subj|2:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-8:rel" out="-1:subj|1:vobj|20:pnct|21:coord">has</W>
+<W msd="VADR" tag="VBZ" in="-8:rel" out="-1:subj|1:vobj|20:pnct|22:conj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod|4:mod|7:mod">worked</W>
 <W msd="PI" tag="DT" in="-1:mod" out="1:mod|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">great</W>
@@ -201,14 +201,14 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="1:pobj">scenography</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:pnct|2:nobj|3:pnct">A</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Folk</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">Tale</W>
-<W msd="XP" tag="&quot;" in="-3:pnct" out="">"</W>
-<W msd="XP" tag=":" in="-20:pnct" out="">;</W>
-<W msd="CC" tag="CC" in="-21:coord" out="1:conj">nor</W>
-<W msd="VADR" tag="VBZ" in="-1:conj" out="1:subj|2:mod|5:vobj">has</W>
+<W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
+<W msd="XP" tag="&3a;" in="-20:pnct" out="">;</W>
+<W msd="CC" tag="CC" in="1:coord" out="">nor</W>
+<W msd="VADR" tag="VBZ" in="-22:conj" out="1:subj|2:mod|5:vobj|-1:coord">has</W>
 <W msd="NP=S" tag="NNP" in="-1:subj|4:[subj]" out="">Margrethe</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
@@ -219,10 +219,10 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-3:appa" out="2:appr">scenographers</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
-<W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|1:coord">Juhl</W>
-<W msd="CC" tag="CC" in="-1:coord" out="3:conj">and</W>
+<W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|4:conj">Juhl</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jens</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="-1:namef">Jacob</W>
-<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef">Worsaae</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:namef|-3:coord">Worsaae</W>
 <W msd="XP" tag="." in="-68:pnct" out="">.</W>
 </s>

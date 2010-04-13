@@ -163,9 +163,9 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="purchase" lemma="købe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|5:pobj">købe</W>
 <W gloss="foreign" lemma="udenlandsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">udenlandske</W>
-<W gloss="stocks" lemma="aktie" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:mod|1:coord">aktier</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="bonds" lemma="obligation" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">obligationer</W>
+<W gloss="stocks" lemma="aktie" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:mod|2:conj">aktier</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="bonds" lemma="obligation" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">obligationer</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:pobj" out="3:nobj">for</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="2:mod" out="1:mod">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:[nobj]">til</W>

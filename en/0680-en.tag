@@ -14,13 +14,13 @@
 <W msd="SP" tag="IN" in="-6:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">international</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">law</W>
-<W msd="VADA" tag="VBD" in="" out="-15:mod|-13:subj|1:pnct|2:coord|25:pnct">ended</W>
+<W msd="VADA" tag="VBD" in="" out="-15:mod|-13:subj|1:pnct|25:pnct|6:conj">ended</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-2:coord" out="4:conj">and</W>
+<W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="1:mod|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">old</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Yugoslavia</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-3:subj|1:dobj|3:mod">ceased</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-3:subj|1:dobj|3:mod|-4:coord">ceased</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]">exist</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
@@ -53,14 +53,14 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">likewise</W>
 <W msd="VAP" tag="VBN" in="" out="-10:subj|-1:mod|1:dobj|4:mod|5:pnct">recognised</W>
-<W msd="NP=S" tag="NNP" in="-1:dobj" out="1:coord">Croatia</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Slovenia</W>
+<W msd="NP=S" tag="NNP" in="-1:dobj" out="2:conj">Croatia</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Slovenia</W>
 <W msd="NC=S" tag="NN" in="-4:mod" out="">yesterday</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="11:qobj" out="-1:pnct|2:conj|9:pnct|10:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj|3:vobj">let</W>
@@ -71,7 +71,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">dirty</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">work</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-11:qobj|1:subj|4:pnct|5:mod|28:pnct">commented</W>
 <W msd="PI" tag="DT" in="-1:subj" out="1:mod|2:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Croatian</W>
@@ -81,11 +81,11 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">champagne</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">corks</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|1:lobj|4:coord">flew</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|1:lobj|12:conj">flew</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>
-<W msd="CC" tag="CC" in="-4:coord" out="8:conj">and</W>
+<W msd="CC" tag="CC" in="8:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="7:subj" out="1:mod|2:possd|3:pnct|5:appa">Bonn's</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">special</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">envoy</W>
@@ -93,7 +93,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Klaus-Peter</W>
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-1:namef|1:pnct">Klaiber</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAP" tag="VBN" in="-8:conj" out="-7:subj|1:dobj|2:pobj">exchanged</W>
+<W msd="VAP" tag="VBN" in="-12:conj" out="-7:subj|1:dobj|2:pobj|-8:coord">exchanged</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">handshakes</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd|3:appr">Croatia's</W>
@@ -126,11 +126,11 @@
 <W msd="ANP" tag="JJ" in="-2:mod" out="1:mod|8:pnct">such</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:nobj">as</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Great</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:pnct|2:conj|3:coord">Britain</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:pnct|2:conj|4:conj">Britain</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">France</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Greece</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Greece</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="U=" tag="TO" in="-16:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">recognise</W>
@@ -141,7 +141,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="1:vobj">Nor</W>
-<W msd="VADA" tag="VBD" in="-1:vobj" out="1:subj|2:mod|6:pred|7:pnct|8:coord|42:pnct">was</W>
+<W msd="VADA" tag="VBD" in="-1:vobj" out="1:subj|2:mod|6:pred|7:pnct|42:pnct|17:conj">was</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Denmark</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -149,7 +149,7 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">especially</W>
 <W msd="ANP" tag="JJ" in="-6:pred" out="-1:mod">enthusiastic</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-8:coord" out="9:conj">and</W>
+<W msd="CC" tag="CC" in="9:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="8:mod" out="">yesterday</W>
 <W msd="PD" tag="DT" in="7:subj" out="1:nobj|5:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Ministry</W>
@@ -158,14 +158,14 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Affairs</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-8:mod|-7:subj|1:dobj">avoided</W>
+<W msd="VADA" tag="VBD" in="-17:conj" out="-8:mod|-7:subj|1:dobj|-9:coord">avoided</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="1:dobj|3:lobj|7:mod">sending</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ambassador</W>
 <W msd="U=" tag="TO" in="-3:lobj" out="1:nobj">to</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:coord">Croatia</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Slovenia</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Croatia</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Slovenia</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:ref|4:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">same</W>
@@ -187,16 +187,16 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="14:subj" out="1:nobj|6:mod|11:pnct">The</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:coord">satisfaction</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj|2:pnct">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">self-satisfaction</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|3:conj">satisfaction</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
+<W msd="CC" tag="CC" in="1:coord" out="2:pnct">and</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-1:coord">self-satisfaction</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NP=P" tag="NNPS" in="-1:nobj" out="1:coord">Croatians</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=P" tag="NNPS" in="-1:conj" out="">Slovenians</W>
+<W msd="NP=P" tag="NNPS" in="-1:nobj" out="2:conj">Croatians</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=P" tag="NNPS" in="-2:conj" out="-1:coord">Slovenians</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -224,14 +224,14 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">extensive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">praise</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:coord">his</W>
+<W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|3:conj">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">country</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="PO" tag="PRP$" in="-1:conj" out="1:pnct|2:mod|5:possd|6:pnct">its</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="1:coord">successful</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">realistic</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PO" tag="PRP$" in="-3:conj" out="1:pnct|2:mod|5:possd|6:pnct|-1:coord">its</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
+<W msd="ANP" tag="JJ" in="-2:mod" out="2:conj">successful</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">realistic</W>
 <W msd="AC" tag="CD" in="-5:possd|-15:pnct#" out="">policies.</W>
-<W msd="XP" tag="&quot;" in="-6:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
 </s>

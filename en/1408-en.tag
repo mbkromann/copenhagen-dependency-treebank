@@ -44,9 +44,9 @@
 <W msd="VADR" tag="VBZ" in="" out="-9:lobj|-6:subj|1:vobj|27:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-7:[subj]|1:dobj">endorsing</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:mod|4:nobj">the</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:mod" out="-1:pnct|1:pnct">official</W>
-<W msd="XP" tag="&quot;" in="-1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="1:nobj">viewpoint</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
@@ -60,9 +60,9 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">seen</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">whether</W>
-<W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="1:coord">France</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">England</W>
+<W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="2:conj">France</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">England</W>
 <W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">approve</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
@@ -125,10 +125,10 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="3:mod" out="">Either</W>
-<W msd="NC=S" tag="NN" in="6:qobj" out="1:pred|2:coord|5:pnct">we're</W>
+<W msd="NC=S" tag="NN" in="6:qobj" out="1:pred|5:pnct|3:conj">we're</W>
 <W msd="SP" tag="IN" in="-1:pred" out="">out</W>
-<W msd="CC" tag="CC" in="-2:coord" out="-3:mod|1:conj">or</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="1:pred">we're</W>
+<W msd="CC" tag="CC" in="1:coord" out="-3:mod">or</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="1:pred|-1:coord">we're</W>
 <W msd="SP" tag="IN" in="-1:pred" out="">in</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-6:qobj|2:subj|3:pnct">says</W>
@@ -189,17 +189,17 @@
 </s>
 <s>
 <W msd="CS" tag="IN" in="" out="1:pnct|5:xpl">Because</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">referendum</W>
-<W msd="VADR" tag="VBZ" in="-5:xpl" out="-3:subj|2:pred|3:pnct|4:coord|14:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-5:xpl" out="-3:subj|2:pred|3:pnct|14:pnct|6:conj">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">legally</W>
 <W msd="ANP" tag="JJ" in="-2:pred" out="-1:mod">binding</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-4:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Denmark</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:mod|2:pred">is</W>
+<W msd="VADR" tag="VBZ" in="-6:conj" out="-1:subj|1:mod|2:pred|-2:coord">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">therefore</W>
 <W msd="NC=S" tag="NN" in="-2:pred" out="1:pobj">incapable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

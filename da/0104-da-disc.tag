@@ -46,9 +46,9 @@
 <W gloss="joint" lemma="fælles" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">fælles</W>
 <W gloss="group_meetings" lemma="gruppemøde" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pobj">gruppemøder</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="V" lemma="V" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:coord">V</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="K" lemma="K" msd="NP--U==-" tag="NNP" in="-1:conj" out="">K</W>
+<W gloss="V" lemma="V" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">V</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="K" lemma="K" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">K</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:neg|3:pred|4:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
@@ -59,7 +59,7 @@
 <p>
 <s>
 <W gloss="In_fact" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="1:eval" out="">Faktisk</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:eval|1:expl|2:vobj|14:pnct|15:coord|47:pnct">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:eval|1:expl|2:vobj|14:pnct|47:pnct|18:conj">blev</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|1:[expl]" out="">der</W>
 <W gloss="held" lemma="holde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[expl]|1:dobj|5:time|10:time">holdt</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj">et</W>
@@ -74,10 +74,10 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-10:time" out="1:nobj">i</W>
 <W gloss="1964," lemma="1964" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1964</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-15:coord" out="3:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:time" out="1:nobj">i</W>
 <W gloss="1965," lemma="1965" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1965</W>
-<W gloss="cost" lemma="koste" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-2:time|1:subj|2:iobj|11:dobj|16:pnct">kostede</W>
+<W gloss="cost" lemma="koste" msd="VADA=----A-" tag="VBD" in="-18:conj" out="-2:time|1:subj|2:iobj|11:dobj|16:pnct|-3:coord">kostede</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="16:nobj">det</W>
 <W gloss="the_Liberal_Party" lemma="venstre" msd="NCNSG==I" tag="NN" in="-2:iobj" out="1:attr|2:possd|3:pnct|7:appa">Venstres</W>
 <W gloss="at_that_time" lemma="daværende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">daværende</W>
@@ -168,9 +168,9 @@
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:loc|3:subj|6:vobj|11:pnct">kunne</W>
 <W gloss="regular" lemma="jævnlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:attr" out="">jævnlige</W>
 <W gloss="joint" lemma="fælles" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">fælles</W>
-<W gloss="the_group_," lemma="gruppe-" msd="XX" tag="FW" in="-3:subj|3:[subj]" out="-2:attr|-1:attr|1:coord">gruppe-</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="hovedbestyrelsesmøder" lemma="hovedbestyrelsesmøde" msd="NCNPU==I" tag="NNP" in="-1:conj" out="">hovedbestyrelsesmøder</W>
+<W gloss="the_group_," lemma="gruppe-" msd="XX" tag="FW" in="-3:subj|3:[subj]" out="-2:attr|-1:attr|2:conj">gruppe-</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="hovedbestyrelsesmøder" lemma="hovedbestyrelsesmøde" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">hovedbestyrelsesmøder</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="-3:[subj]|1:pred">være</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:pred" out="1:nobj|2:loc">et</W>
 <W gloss="step" lemma="skridt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">skridt</W>

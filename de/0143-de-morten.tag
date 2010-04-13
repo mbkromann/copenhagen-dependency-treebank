@@ -77,9 +77,9 @@
 <W lemma="von" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">von</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-6:ref|-1:nobj" out="">denen</W>
 <W lemma="ein" msd="PP" tag="PIS" in="3:[subj]|4:subj" out="-2:pobj">eine</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="2:preds" out="1:nobj">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="2:preds|2:preds" out="1:nobj">ein</W>
 <W lemma="Jurist" msd="NC" tag="NN" in="-1:nobj" out="">Jurist</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-2:preds|-3:[subj]">sein</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-2:preds|-3:[subj]|-2:preds">sein</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-11:relelab" out="-1:vobj|-4:subj">soll</W>
 <W lemma="." msd="XP" tag="$." in="-25:pnct" out="">.</W>
 </s>
@@ -118,11 +118,11 @@
 <W lemma="und" msd="CC" tag="KON" in="7:coord" out="">und</W>
 <W lemma="von" msd="SP" tag="APPR" in="5:pobj" out="1:nobj">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-12:ref|-1:nobj" out="">dem</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="4:subj|-85:coref-var" out="1:nobj|8:coref">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-85:coref-var|4:subj" out="1:nobj|8:coref">die</W>
 <W lemma="Spieler" msd="NC" tag="NN" in="-1:nobj" out="">Spieler</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="2:preds" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="2:preds|2:preds" out="1:nobj">der</W>
 <W lemma="Meinung" msd="NC" tag="NN" in="-1:nobj" out="-5:pobj|3:nobj">Meinung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-7:coord|-4:subj|-2:preds|1:pnct">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-7:coord|-4:subj|-2:preds|1:pnct|-2:preds">sind</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="5:vobj">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="-20:coref|4:subj" out="">es</W>
@@ -165,13 +165,13 @@
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">neue</W>
 <W lemma="Vertrag" msd="NC" tag="NN" in="4:subj" out="-1:attr">Verträge</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="">nicht</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="2:preds" out="1:vobj">zu</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="2:preds|2:preds" out="1:vobj">zu</W>
 <W lemma="vermeiden" msd="VAF" tag="VVINF" in="-1:vobj" out="">vermeiden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-4:subj|-3:neg|-2:preds|3:conc">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-4:subj|-3:neg|-2:preds|3:conc|-2:preds">sind</W>
 <W lemma="-" msd="XP" tag="$(" in="2:pnct" out="">-</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-3:conc" out="-1:add|-2:pnct|5:vobj|6:pnct">wenn</W>
-<W lemma="beide" msd="PI" tag="PIDAT" in="4:subj|-114:coref-var" out="1:nobj|7:coref-var">beide</W>
+<W lemma="beide" msd="PI" tag="PIDAT" in="-114:coref-var|4:subj" out="1:nobj|7:coref-var">beide</W>
 <W lemma="Verein" msd="NC" tag="NN" in="-1:nobj" out="">Vereine</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="2:pobj" out="1:nobj">zum</W>
 <W lemma="Warte&7c;Warten" msd="NC" tag="NN" in="-1:nobj" out="">Warten</W>

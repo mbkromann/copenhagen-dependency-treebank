@@ -11,8 +11,8 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="4:vobj">dass</W>
 <W lemma="gewiß" msd="AN" tag="ADJA" in="1:attr" out="">gewisse</W>
 <W lemma="Ding" msd="NC" tag="NN" in="2:subj" out="-1:attr">Dinge</W>
-<W lemma="Kunst" msd="NC" tag="NN" in="1:preds" out="2:pnct|4:conj|6:conj">Kunst</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-2:subj|-1:preds|6:pnct|7:&lt;subj&gt;|8:neg">sind</W>
+<W lemma="Kunst" msd="NC" tag="NN" in="1:preds|1:preds" out="2:pnct|4:conj|6:conj">Kunst</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-2:subj|-1:preds|6:pnct|7:&lt;subj&gt;|8:neg|-1:preds">sind</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="ernst" msd="AN" tag="ADJA" in="1:attr" out="">ernste</W>
 <W lemma="Musik" msd="NC" tag="NN" in="-4:conj" out="-1:attr">Musik</W>
@@ -25,8 +25,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="1:subj|4:[subj]" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|3:vobj|4:pnct|5:cond|25:pnct">wäre</W>
 <W lemma="eindeutig" msd="AN" tag="ADJD" in="1:prg&3a;att" out="">eindeutig</W>
-<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds" out="-1:prg&3a;att">sinnvoller</W>
-<W lemma="sein" msd="VAP" tag="VAPP" in="-3:vobj" out="-1:preds|-4:[subj]">gewesen</W>
+<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-1:prg&3a;att">sinnvoller</W>
+<W lemma="sein" msd="VAP" tag="VAPP" in="-3:vobj" out="-1:preds|-4:[subj]|-1:preds">gewesen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-5:cond" out="3:vobj">wenn</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:[subj]|2:subj" out="">wir</W>
@@ -35,8 +35,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="3:vobj">dass</W>
 <W lemma="Kultur" msd="NC" tag="NN" in="2:subj" out="">Kultur</W>
-<W lemma="vielseitig" msd="AN" tag="ADJD" in="1:preds" out="">vielseitig</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:preds|1:pnct|2:man">ist</W>
+<W lemma="vielseitig" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">vielseitig</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:preds|1:pnct|2:man|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="anfangen" msd="VAP" tag="VVPP" in="-2:man" out="1:pobj">angefangen</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj|3:pobj">von</W>
@@ -93,12 +93,12 @@
 <W lemma="kein" msd="PP" tag="PIS" in="3:subj" out="1:pobj">keiner</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:nobj" out="">uns</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:cause&3a;reas|-3:subj|1:time&3a;ext|5:preds|8:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:cause&3a;reas|-3:subj|1:time&3a;ext|5:preds|8:pnct|5:preds">ist</W>
 <W lemma="24" msd="AC" tag="CARD" in="-1:time&3a;ext" out="1:nobj">24</W>
 <W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Stunden</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-5:preds" out="2:nobj">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-5:preds|-5:preds" out="2:nobj">ein</W>
 <W lemma="intellektuell" msd="AN" tag="ADJA" in="1:attr" out="">intellektuelles</W>
 <W lemma="Tier" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Tier</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
@@ -114,8 +114,8 @@
 <W lemma="wir" msd="PP" tag="PPER" in="4:[subj]|5:subj" out="">wir</W>
 <W lemma="weiterhin" msd="RG" tag="ADV" in="4:time&3a;ext" out="">weiterhin</W>
 <W lemma="vollwertig" msd="AN" tag="ADJA" in="1:attr" out="">vollwertige</W>
-<W lemma="Mensch" msd="NC" tag="NN" in="1:preds" out="-1:attr">Menschen</W>
-<W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-4:[subj]|-1:preds">sein</W>
+<W lemma="Mensch" msd="NC" tag="NN" in="1:preds|1:preds" out="-1:attr">Menschen</W>
+<W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-4:[subj]|-1:preds|-1:preds">sein</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj|-4:time&3a;ext">wollen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
@@ -149,9 +149,9 @@
 <W lemma="Programmangebot" msd="NC" tag="NN" in="-1:nobj" out="">Programmangebots</W>
 <W lemma="behandeln" msd="VAF" tag="VVINF" in="-7:conj" out="-6:coord|-5:pobj">behandeln</W>
 <W lemma="." msd="XP" tag="$." in="-25:pnct" out="">.</W>
-<W lemma="d" msd="PP" tag="PDS" in="1:subj|-26:coref-res" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct">ist</W>
-<W lemma="übel" msd="AN" tag="ADJD" in="-1:preds" out="">übel</W>
+<W lemma="d" msd="PP" tag="PDS" in="-26:coref-res|1:subj" out="">Das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct|1:preds">ist</W>
+<W lemma="übel" msd="AN" tag="ADJD" in="-1:preds|-1:preds" out="">übel</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
 </s>
 </p>

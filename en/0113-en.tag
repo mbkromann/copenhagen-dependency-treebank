@@ -38,7 +38,7 @@
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">author</W>
-<W msd="XP" tag=":" in="-7:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="2:subj|4:[subj]" out="1:nobj">Munksgaard</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">publishers</W>
 <W msd="VADR" tag="VBZ" in="-10:xpl" out="-2:subj|1:mod|2:vobj|27:pnct">has</W>
@@ -50,12 +50,12 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|8:pnct|9:ref|10:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:appr">book</W>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:pnct|1:pnct|3:conj|4:pnct">Justice</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Not</W>
 <W msd="NP=S" tag="NNP" in="-3:conj" out="-1:mod">Vengeance</W>
-<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-9:ref|1:subj|2:[subj]|7:[subj]" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-10:rel" out="-1:subj|1:vobj">is</W>
@@ -94,9 +94,9 @@
 <W msd="VA" tag="MD" in="-5:rel" out="-1:subj|1:vobj">might</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:dobj|-2:[subj]|1:pnct">believe</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="-8:pred" out="1:coord">negative</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">hateful</W>
+<W msd="ANP" tag="JJ" in="-8:pred" out="2:conj">negative</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">hateful</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -112,18 +112,18 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">foreword</W>
-<W msd="XP" tag=":" in="-4:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="-8:xpl" out="-1:pnct|1:mod|2:pred|4:pnct|5:coord|24:pnct#|25:pnct">I'm</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
+<W msd="NP=S" tag="NNP" in="-8:xpl" out="-1:pnct|1:mod|2:pred|4:pnct|24:pnct#|25:pnct|7:conj">I'm</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="PI" tag="DT" in="-2:pred" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">optimist</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-5:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj">believe</W>
+<W msd="VADR" tag="VBP" in="-7:conj" out="-1:subj|1:dobj|-2:coord">believe</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">intolerance</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pred|7:mod|10:pnct|13:conj">is</W>
@@ -136,12 +136,12 @@
 <W msd="SP" tag="IN" in="-7:mod" out="-1:mod|2:nobj">for</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">limited</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">periods</W>
-<W msd="XP" tag=":" in="-10:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">ultimately</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">tolerance</W>
 <W msd="VA" tag="MD" in="-13:conj" out="-2:mod|-1:subj|1:vobj">will</W>
 <W msd="AC" tag="CD" in="-1:vobj|-24:pnct#" out="-2:[subj]">prevail.</W>
-<W msd="XP" tag="&quot;" in="-25:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj" out="2:vobj">That</W>

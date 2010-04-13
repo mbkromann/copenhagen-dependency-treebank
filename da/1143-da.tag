@@ -41,9 +41,9 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Dogs" lemma="hund" msd="NCCPU==I" tag="NNP" in="" out="1:coord">Hunde</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="atomic_fuel" lemma="atombrændsel" msd="NCNSU==I" tag="NN" in="-1:conj" out="">atombrændsel</W>
+<W gloss="Dogs" lemma="hund" msd="NCCPU==I" tag="NNP" in="" out="2:conj">Hunde</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="atomic_fuel" lemma="atombrændsel" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">atombrændsel</W>
 </s>
 </p>
 <p>
@@ -142,11 +142,11 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_collaboration" lemma="samarbejde" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">samarbejdet</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:coord">Det</W>
+<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|4:conj">Det</W>
 <W gloss="royal" lemma="kongelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">kgl.</W>
 <W gloss="Kapel" lemma="kapel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Kapel</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="Cristofoli" lemma="Christofoli" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Christofoli</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Cristofoli" lemma="Christofoli" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord">Christofoli</W>
 <W gloss="discussed" lemma="omtale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:vobj" out="-9:[subj]|1:mod">omtalt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="3:nobj">i</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
@@ -162,7 +162,7 @@
 <W gloss="the_Orchestra" lemma="kapel" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Kapellet</W>
 <W gloss="deeply" lemma="dyb" msd="ANP---=-R" tag="JJ" in="-4:mod" out="">dybt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="since" lemma="da" msd="CS" tag="IN" in="-6:mod" out="2:vobj|16:coord">da</W>
+<W gloss="since" lemma="da" msd="CS" tag="IN" in="-6:mod" out="2:vobj|17:conj">da</W>
 <W gloss="it" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj">er</W>
 <W gloss="speech" lemma="tale" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">tale</W>
@@ -178,8 +178,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_time" lemma="tid" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">tiden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-16:coord" out="1:conj">og</W>
-<W gloss="since" lemma="da" msd="CS" tag="IN" in="-1:conj" out="2:vobj">da</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="since" lemma="da" msd="CS" tag="IN" in="-17:conj" out="2:vobj|-1:coord">da</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="9:nobj">det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|5:mod">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="2:mod|3:nobj">en</W>
@@ -222,9 +222,9 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:vobj">har</W>
 <W gloss="done" lemma="udføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-4:dobj|1:mod">udført</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
-<W gloss="head" lemma="chef" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord|3:pobj">chef</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="conductor" lemma="dirigent" msd="NCCSU==I" tag="NN" in="-1:conj" out="1:[pobj]">dirigent</W>
+<W gloss="head" lemma="chef" msd="NCCSU==I" tag="NN" in="-1:nobj" out="3:pobj|2:conj">chef</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="conductor" lemma="dirigent" msd="NCCSU==I" tag="NN" in="-2:conj" out="1:[pobj]|-1:coord">dirigent</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="1:nobj">for</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">Den</W>
 <W gloss="Jutland" lemma="jysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">jyske</W>

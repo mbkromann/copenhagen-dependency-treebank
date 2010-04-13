@@ -57,7 +57,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">REVENGE</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|3:pobj|6:mod|12:pnct">took</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">some</W>
@@ -120,7 +120,7 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]">lose</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-4:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-5:qobj|2:subj|3:pnct">stressed</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef">Bank</W>
@@ -159,10 +159,10 @@
 <s>
 <W msd="PD" tag="DT" in="3:mod" out="">Both</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Steen</W>
-<W msd="NP=S" tag="NNP" in="4:subj|6:[subj]" out="-1:namef|1:coord">Secher</W>
-<W msd="CC" tag="CC" in="-1:coord" out="-3:mod|2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="4:subj|6:[subj]" out="-1:namef|3:conj">Secher</W>
+<W msd="CC" tag="CC" in="2:coord" out="-3:mod">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:namef">Seier</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Seier</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|1:mod|2:vobj|6:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:pobj">concentrate</W>
@@ -183,10 +183,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">yachtsmen</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
-<W msd="NP=S" tag="NNP" in="" out="-1:namef|-5:err|1:coord|4:err|6:err">Bendix</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NP=S" tag="NNP" in="" out="-1:namef|-5:err|4:err|6:err|3:conj">Bendix</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jacob</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:namef">Grønbech</W>
+<W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Grønbech</W>
 <W msd="SP" tag="IN" in="-4:err" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">board</W>
 <W msd="XP" tag="." in="-6:err" out="">.</W>

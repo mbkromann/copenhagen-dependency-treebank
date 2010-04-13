@@ -112,13 +112,13 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="I=" tag="UH" in="7:qobj" out="-1:pnct|1:pnct|2:conj|5:pnct">Oh</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="-2:conj" out="1:possd|2:pnct">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">children</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-7:qobj|-1:subj|1:pnct">cried</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -148,17 +148,17 @@
 <W msd="ANP" tag="JJ" in="1:mod?" out="">new</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod?">bureau</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:dobj|14:pnct">reported</W>
-<W msd="SP" tag="IN" in="-1:dobj" out="3:vobj|6:coord">that</W>
+<W msd="SP" tag="IN" in="-1:dobj" out="3:vobj|10:conj">that</W>
 <W msd="AC" tag="CD" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">517</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">injured</W>
-<W msd="CC" tag="CC" in="-6:coord" out="4:conj">and</W>
+<W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="AC" tag="CD" in="3:subj|4:[subj]|5:[subj]" out="1:pobj">251</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-3:subj|1:vobj">had</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-3:subj|1:vobj|-4:coord">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]">hospitalized</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>

@@ -62,13 +62,13 @@
 <W gloss="teachers" lemma="lærer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lærere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="Hanne" lemma="Hanne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Hanne</W>
-<W gloss="Heimann" lemma="Heimann" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct|3:conj|4:coord|7:pnct">Heimann</W>
+<W gloss="Heimann" lemma="Heimann" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct|3:conj|7:pnct|6:conj">Heimann</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Merete" lemma="Merete" msd="NP--U==-" tag="NNP" in="1:namef" out="">Merete</W>
 <W gloss="Faurschou" lemma="Faurschou" msd="NP--U==-" tag="NNP" in="-3:conj" out="-1:namef">Faurschou</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Nanna" lemma="Nanna" msd="NP--U==-" tag="NNP" in="1:namef" out="">Nanna</W>
-<W gloss="Carlsen" lemma="Carlsen" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:namef">Carlsen</W>
+<W gloss="Carlsen" lemma="Carlsen" msd="NP--U==-" tag="NNP" in="-6:conj" out="-1:namef|-2:coord">Carlsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="about" lemma="omkring" msd="SP" tag="IN" in="-15:pobj" out="1:nobj">omkring</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj|5:[dobj]" out="1:nobj|2:pnct|4:rel">det</W>
@@ -103,12 +103,12 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|33:pnct">Men</W>
 <W gloss="Nanna" lemma="Nanna" msd="NP--U==-" tag="NNP" in="1:subj" out="">Nanna</W>
-<W gloss="backs" lemma="bakke" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|2:part|3:coord">bakker</W>
+<W gloss="backs" lemma="bakke" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|2:part|5:conj">bakker</W>
 <W gloss="the_call" lemma="opfordring" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">opfordringen</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:part" out="">op</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="4:nobj">det</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:vobj|2:pnct">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:subj|1:vobj|2:pnct|-2:coord">skal</W>
 <W gloss="be_mentioned" lemma="nævne" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]">nævnes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="2:vobj">at</W>
@@ -148,14 +148,14 @@
 <W gloss="grade" lemma="klasse" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">klasse</W>
 <W gloss="are_based" lemma="bygge" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|2:pobj|25:pnct">bygger</W>
 <W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="7:mod" out="">dels</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|5:pnct|6:coord">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|5:pnct|7:conj">på</W>
 <W gloss="the_students'" lemma="elev" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd">elevernes</W>
-<W gloss="desires" lemma="ønske" msd="NCNPU==I" tag="NNP" in="-1:possd" out="1:coord">ønsker</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="expectations" lemma="forventning" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">forventninger</W>
+<W gloss="desires" lemma="ønske" msd="NCNPU==I" tag="NNP" in="-1:possd" out="2:conj">ønsker</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="expectations" lemma="forventning" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">forventninger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="-6:coord" out="-7:mod|1:conj">dels</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:conj" out="1:nobj">på</W>
+<W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="1:coord" out="-7:mod">dels</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-7:conj" out="1:nobj|-1:coord">på</W>
 <W gloss="the_teachers'" lemma="lærer" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd">lærernes</W>
 <W gloss="conceptions" lemma="forestilling" msd="NCCPU==I" tag="NNP" in="-1:possd" out="1:pobj">forestillinger</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">om</W>
@@ -210,7 +210,7 @@
 <W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:mod" out="">ofte</W>
 <W gloss="tabled" lemma="stille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">stillet</W>
 <W gloss="the_question" lemma="spørgsmål" msd="NCNSU==D" tag="NN" in="-1:dobj" out="1:pnct|3:xpl">spørgsmålet</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="What" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="4:nobj" out="">Hvad</W>
 <W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="1:subj|2:vobj|4:pnct">skal</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|1:[subj]" out="">det</W>
@@ -222,7 +222,7 @@
 <p>
 <s>
 <W gloss="In_addition" lemma="desuden" msd="RGU" tag="RP" in="1:mod" out="">Desuden</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|8:pred|9:pnct|10:coord|15:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|8:pred|9:pnct|15:pnct|12:conj">er</W>
 <W gloss="the_student_group" lemma="elevgruppe" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:mod">elevgruppen</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:mod" out="2:nobj">på</W>
 <W gloss="Ny" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">Ny</W>
@@ -232,12 +232,12 @@
 <W gloss="creatively" lemma="kreativ" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:mod">kreativt</W>
 <W gloss="oriented" lemma="orientere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:pred" out="-1:mod">orienteret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-10:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_teachers" lemma="lærer" msd="NCCPU==D" tag="NNP" in="1:subj" out="">lærerne</W>
-<W gloss="write" lemma="skrive" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod">skriver</W>
+<W gloss="write" lemma="skrive" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|1:mod|-2:coord">skriver</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_letter" lemma="brev" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">brevet</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-15:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-15:pnct" out="">:</W>
 </s>
 </p>
 </div1>

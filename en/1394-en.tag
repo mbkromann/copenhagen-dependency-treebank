@@ -65,12 +65,12 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|2:[subj]|7:[subj]" out="">who</W>
 <W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:mod|4:coord">slung</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:mod|5:conj">slung</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">against</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">windshield</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">and</W>
-<W msd="VAP" tag="VBN" in="-1:conj" out="-7:[subj]|1:mod">killed</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAP" tag="VBN" in="-5:conj" out="-7:[subj]|1:mod|-1:coord">killed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">spot</W>
@@ -142,7 +142,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">garden</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pred|10:coord|18:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pred|18:pnct|13:conj">is</W>
 <W msd="ANP" tag="JJ" in="-1:pred" out="1:mod|4:pobj">well-known</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -152,10 +152,10 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="-1:mod">beautiful</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">landscaping</W>
-<W msd="CC" tag="CC" in="-10:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lilies</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:subj|1:mod|2:pred">are</W>
+<W msd="VADR" tag="VBP" in="-13:conj" out="-2:subj|1:mod|2:pred|-3:coord">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="SP" tag="IN" in="-2:pred" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">full</W>

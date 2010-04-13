@@ -143,12 +143,12 @@
 <W gloss="Encyclopaedia" lemma="encyklopædi" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">Encyklopædi</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="comments" lemma="kommentere" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:pnct|10:xpl">kommenterer</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-1:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="4:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
 <W gloss="With" lemma="med" msd="SP" tag="IN" in="3:mod" out="1:nobj">Med</W>
 <W gloss="our" lemma="vores" msd="PO1NSUPNF" tag="PRP$" in="-1:nobj" out="1:possd">vort</W>
 <W gloss="lexicon" lemma="leksikon" msd="NCNSU==I" tag="NN" in="-1:possd" out="">leksikon</W>
@@ -156,13 +156,13 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-2:dobj" out="">os</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="6:mod" out="">såvel</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="1:nobj|5:coord">til</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="1:nobj|6:conj">til</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="2:mod|3:nobj">den</W>
 <W gloss="highly" lemma="høj" msd="ANP---=-R" tag="JJ" in="1:mod" out="">højt</W>
 <W gloss="educated" lemma="uddanne" msd="VAPA=S[CN]DA-U" tag="VBN" in="-2:mod" out="-1:mod">uddannede</W>
 <W gloss="academic" lemma="akademiker" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">akademiker</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-5:coord" out="-6:mod|1:conj">som</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:conj" out="1:nobj">til</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-6:mod">som</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-6:conj" out="1:nobj|-1:coord">til</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">den</W>
 <W gloss="broad" lemma="bred" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">brede</W>
 <W gloss="people" lemma="befolkning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">befolkning</W>
@@ -184,7 +184,7 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|2:dobj|13:coord|22:pnct">ønsker</W>
+<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|2:dobj|22:pnct|15:conj">ønsker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="1:subj|2:[subj]" out="">folk</W>
@@ -197,15 +197,15 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the_encyclopaedia" lemma="encyklopædi" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">encyklopædien</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-13:coord" out="2:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">derfor</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|2:vobj">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:mod|1:subj|2:vobj|-2:coord">vil</W>
 <W gloss="the_articles" lemma="artikel" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">artiklerne</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:pred">blive</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="2:mod" out="">både</W>
-<W gloss="competent" lemma="kvalificere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:pred" out="1:coord">kvalificerede</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="-2:mod|1:conj">og</W>
-<W gloss="comprehensible" lemma="forståelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:conj" out="">forståelige</W>
+<W gloss="competent" lemma="kvalificere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:pred" out="2:conj">kvalificerede</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-2:mod">og</W>
+<W gloss="comprehensible" lemma="forståelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">forståelige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
@@ -231,7 +231,7 @@
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:pred" out="1:mod">det</W>
 <W gloss="best." lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:mod" out="">bedste</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-21:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 </s>
 </p>
 </div1>

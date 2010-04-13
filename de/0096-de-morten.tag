@@ -107,11 +107,11 @@
 <W lemma="verarbeiten" msd="VAF" tag="VVINF" in="1:vobj" out="-1:vobj|-6:[subj]">verarbeiten</W>
 <W lemma="können" msd="VAF" tag="VMINF" in="-8:vobj" out="-7:subj|-1:vobj|-3:man">können</W>
 <W lemma="." msd="XP" tag="$." in="-26:pnct" out="">.</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|2:dobj|3:prg&3a;eval|4:preds|6:pnct|28:pnct">Sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|2:dobj|3:prg&3a;eval|4:preds|6:pnct|28:pnct|4:preds">Sind</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj" out="">Sie</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-2:dobj" out="">sich</W>
 <W lemma="darüber" msd="RG" tag="PAV" in="-3:prg&3a;eval" out="">darüber</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-4:preds" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-4:preds|-4:preds" out="1:nobj">im</W>
 <W lemma="Klar&7c;Klare" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Klaren</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="20:vobj">dass</W>
@@ -155,10 +155,10 @@
 <W lemma="Leute" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Leute</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="-1:pobj" out="1:nobj">wie</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:nobj" out="">Sie</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|3:preds|3:preds">ist</W>
 <W lemma="unser" msd="PO" tag="PPOSAT" in="-1:subj" out="1:nobj">unsere</W>
 <W lemma="Gesellschaft" msd="NC" tag="NN" in="-1:nobj" out="">Gesellschaft</W>
-<W lemma="zu" msd="SP" tag="APPR" in="-3:preds" out="1:nobj">zu</W>
+<W lemma="zu" msd="SP" tag="APPR" in="-3:preds|-3:preds" out="1:nobj">zu</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="-8:pobj">gut.</W>
 <W lemma="Kehre&7c;Kehren" msd="NC" tag="NN" in="39:qobj" out="1:subj|4:part|5:pnct|13:vobj|37:pnct|38:pnct">Kehren</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj" out="">Sie</W>

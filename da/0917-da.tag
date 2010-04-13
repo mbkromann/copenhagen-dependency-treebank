@@ -60,16 +60,16 @@
 <W gloss="Especially" lemma="især" msd="RGU" tag="RP" in="1:mod" out="">Især</W>
 <W gloss="in" lemma="inden" msd="RGU" tag="RP" in="13:mod" out="-1:mod|1:pobj">inden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W gloss="food" lemma="føde-" msd="XX" tag="FW" in="-1:nobj" out="1:coord|3:pnct|4:ref|5:rel">føde-</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="drinks" lemma="drikkevarer" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">drikkevarer</W>
+<W gloss="food" lemma="føde-" msd="XX" tag="FW" in="-1:nobj" out="3:pnct|4:ref|5:rel|2:conj">føde-</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="drinks" lemma="drikkevarer" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">drikkevarer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
 <W gloss="including" lemma="omfatte" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|2:dobj|5:pnct">omfatter</W>
 <W gloss="both" lemma="såvel" msd="RGU" tag="RP" in="2:mod" out="">såvel</W>
-<W gloss="sugar" lemma="sukker-" msd="XX" tag="FW" in="-2:dobj" out="1:coord">sukker-</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:coord" out="-2:mod|1:conj">som</W>
-<W gloss="alcohol_factories" lemma="spritfabrik" msd="NCCPU==D" tag="NNP" in="-1:conj" out="">spritfabrikkerne</W>
+<W gloss="sugar" lemma="sukker-" msd="XX" tag="FW" in="-2:dobj" out="2:conj">sukker-</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-2:mod">som</W>
+<W gloss="alcohol_factories" lemma="spritfabrik" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">spritfabrikkerne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-13:mod|1:subj|2:vobj|9:pnct">har</W>
 <W gloss="the_earnings_trend" lemma="indtjeningsudvikling" msd="NCCSU==D" tag="NN" in="-1:subj|1:[subj]" out="">indtjeningsudviklingen</W>
@@ -120,9 +120,9 @@
 </p>
 <p>
 <s>
-<W gloss="Food" lemma="føde-" msd="XX" tag="FW" in="3:subj" out="1:coord">Føde-</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="drinks" lemma="drikkevarer" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">drikkevarer</W>
+<W gloss="Food" lemma="føde-" msd="XX" tag="FW" in="3:subj" out="2:conj">Føde-</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="drinks" lemma="drikkevarer" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">drikkevarer</W>
 <W gloss="constitute" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:dobj|7:pnct">udgør</W>
 <W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:mod" out="">ca.</W>
 <W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:mod|1:nobj">40</W>
@@ -250,9 +250,9 @@
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="4:mod" out="">såvel</W>
 <W gloss="Danish" lemma="Danish" msd="NP--U==-" tag="NNP" in="2:mod" out="">Danish</W>
 <W gloss="Paper" lemma="Paper" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Paper</W>
-<W gloss="Packaging" lemma="Packaging" msd="NP--U==-" tag="NNP" in="-4:nobj" out="-1:nobj|-2:mod|1:coord">Packaging</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:coord" out="-4:mod|1:conj">som</W>
-<W gloss="Rackmann's" lemma="Rackmann" msd="NP--G==-" tag="NNP" in="-1:conj" out="1:possd">Rackmanns</W>
+<W gloss="Packaging" lemma="Packaging" msd="NP--U==-" tag="NNP" in="-4:nobj" out="-1:nobj|-2:mod|2:conj">Packaging</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-4:mod">som</W>
+<W gloss="Rackmann's" lemma="Rackmann" msd="NP--G==-" tag="NNP" in="-2:conj" out="1:possd|-1:coord">Rackmanns</W>
 <W gloss="Factories" lemma="Fabriker" msd="XX" tag="FW" in="-1:possd" out="">Fabriker</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>

@@ -9,34 +9,34 @@
 <W msd="NC=P" tag="NNS" in="" out="-1:mod">residences</W>
 <W msd="SP" tag="IN" in="" out="">in</W>
 <W msd="PD" tag="DT" in="-5:err" out="">each</W>
-<W msd="CC" tag="CC" in="-6:coord" out="4:<nobj>|6:<pred>">and</W>
+<W msd="CC" tag="CC" in="-6:coord" out="4:&lt;nobj&gt;|6:&lt;pred&gt;">and</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">maximum</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
-<W msd="AC" tag="CD" in="-4:<nobj>" out="1:nobj">six</W>
+<W msd="AC" tag="CD" in="-4:&lt;nobj&gt;" out="1:nobj">six</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">persons</W>
-<W msd="SP" tag="IN" in="-6:<pred>" out="1:nobj">in</W>
+<W msd="SP" tag="IN" in="-6:&lt;pred&gt;" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">residence</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=P" tag="NNS" in="" out="1:mod|4:coord|29:pnct">Prices</W>
+<W msd="NC=P" tag="NNS" in="" out="1:mod|29:pnct|9:conj">Prices</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:nobj">1,095</W>
-<W msd="CC" tag="CC" in="-4:coord" out="5:conj">and</W>
+<W msd="CC" tag="CC" in="5:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="4:pred" out="1:mod">included</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
-<W msd="VADR" tag="VBZ" in="-5:conj" out="-4:pred">is</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-4:pred|-5:coord">is</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="1:mod|5:pnct|9:pnct|10:conj|13:coord">bus</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:coord">Funen</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Jutland</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Funen</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Jutland</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="" out="">crossing</W>
 <W msd="SP" tag="IN" in="" out="1:mod">from</W>
@@ -77,14 +77,14 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="U=" tag="TO" in="" out="1:nobj|3:coord|9:pnct">To</W>
+<W msd="U=" tag="TO" in="" out="1:nobj|9:pnct|4:conj">To</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Gausdal</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Høifjellshotell</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="U=" tag="TO" in="-1:conj" out="1:nobj">to</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:coord">Kampsæter</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="1:nobj">Ruten</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="U=" tag="TO" in="-4:conj" out="1:nobj|-1:coord">to</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">Kampsæter</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="1:nobj|-1:coord">Ruten</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fjellstue</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -92,12 +92,12 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">trips</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:pred|12:pnct">are</W>
-<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|2:pred|4:coord">with</W>
+<W msd="SP" tag="IN" in="-1:pred" out="1:nobj|2:pred|5:conj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">DFDS</W>
 <W msd="U=" tag="TO" in="-2:pred" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Oslo</W>
-<W msd="CC" tag="CC" in="-4:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">by</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-5:conj" out="1:nobj|-1:coord">by</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bus</W>
 <W msd="SP" tag="IN" in="" out="">from</W>
 <W msd="U=" tag="EX" in="" out="1:pobj">there</W>
@@ -132,9 +132,9 @@
 <W msd="ANP" tag="JJ" in="" out="">double</W>
 <W msd="NC=S" tag="NN" in="" out="1:mod">room</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:coord">bath</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">toilet</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">bath</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">toilet</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -165,18 +165,18 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|-5:mod|1:lobj|7:mod|10:pnct">stay</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="">in</W>
 <W msd="PI" tag="DT" in="" out="1:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:nobj" out="1:coord">three-</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">or</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">four-bunk</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="2:conj">three-</W>
+<W msd="CC" tag="CC" in="1:coord" out="">or</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">four-bunk</W>
 <W msd="NC=S" tag="NN" in="" out="">cabin</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">boat</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-19:coord" out="3:<mod>">and</W>
+<W msd="CC" tag="CC" in="-19:coord" out="3:&lt;mod&gt;">and</W>
 <W msd="ANC" tag="RBR" in="" out="">more</W>
 <W msd="ANP" tag="JJ" in="" out="">expensive</W>
-<W msd="CS" tag="IN" in="-3:<mod>" out="1:pnct|6:vobj">if</W>
+<W msd="CS" tag="IN" in="-3:&lt;mod&gt;" out="1:pnct|6:vobj">if</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
@@ -238,12 +238,12 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">ski</W>
 <W msd="NC=P" tag="NNS" in="-8:nobj|-4:[nobj]" out="-1:mod">resorts</W>
 <W msd="SP" tag="IN" in="-9:mod" out="1:nobj">in</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:coord">Austria</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">Austria</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">France</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-4:conj" out="">Switzerland</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Italy</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-6:conj" out="-1:coord">Italy</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>

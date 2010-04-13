@@ -99,11 +99,11 @@
 <s>
 <W gloss="Both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="2:subj|3:[subj]|6:[subj]" out="1:nobj">Begge</W>
 <W gloss="operations" lemma="operation" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">operationer</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:vobj|3:coord|9:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:vobj|9:pnct|4:conj">kan</W>
 <W gloss="take_place" lemma="foregå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod">foregå</W>
 <W gloss="on_an_outpatient_basis" lemma="ambulant" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">ambulant</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="do_require" lemma="kræve" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-6:[subj]|1:mod|2:mod|3:mod|4:dobj">kræver</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="do_require" lemma="kræve" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-6:[subj]|1:mod|2:mod|3:mod|4:dobj|-1:coord">kræver</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-1:mod" out="">altså</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
 <W gloss="necessarily" lemma="nødvendigvis" msd="RGU" tag="RP" in="-3:mod" out="">nødvendigvis</W>
@@ -216,7 +216,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="cushion" lemma="pølle" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pølle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-17:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-17:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-18:qobj|1:subj|2:pnct">siger</W>
 <W gloss="the_orthopaedic_surgeon" lemma="ortopædkirurg" msd="NCCSU==D" tag="NN" in="-1:subj" out="">ortopædkirurgen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>

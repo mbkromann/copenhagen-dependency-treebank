@@ -117,7 +117,7 @@
 </s>
 <s>
 <W gloss="In_fact" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="1:eval" out="">Faktisk</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:time|3:vobj|21:pnct|-1:eval">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|1:subj|2:time|3:vobj|21:pnct">har</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">han</W>
 <W gloss="this_year" lemma="i_år" msd="RGU" tag="RP" in="-2:time" out="">i_år</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:pred">været</W>
@@ -227,9 +227,9 @@
 <W gloss="flirted" lemma="flirte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:degr|2:pobj">flirtet</W>
 <W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">lidt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
-<W gloss="art" lemma="malerkunst" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">malerkunst</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="journalism" lemma="journalistik" msd="NCCSU==I" tag="NN" in="-1:conj" out="">journalistik</W>
+<W gloss="art" lemma="malerkunst" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">malerkunst</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="journalism" lemma="journalistik" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">journalistik</W>
 <W gloss="gave" lemma="sætte" msd="VADA=----A-" tag="VBD" in="" out="-9:time|1:subj|2:dobj|4:pobj|6:goal|14:pnct">satte</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:dobj" out="1:focal">sig</W>

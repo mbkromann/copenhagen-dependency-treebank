@@ -25,11 +25,11 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-1:vobj|2:coref-res">würde</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="-2:coref-res|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|4:preds|6:pnct">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|4:preds|6:pnct|4:preds">war</W>
 <W lemma="unter" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">unter</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pnct">,,Kunden</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-4:preds" out="1:vobj">zu</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="-4:preds|-4:preds" out="1:vobj">zu</W>
 <W lemma="verstehen" msd="VAF" tag="VVINF" in="-1:vobj" out="-4:pobj">verstehen</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="3:time&3a;cont" out="2:nobj">Am</W>
@@ -61,8 +61,8 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:vobj">würdest</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="-5:coref-id|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="6:qobj" out="-1:subj|1:preds|4:pnct|5:pnct">ist</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds" out="2:nobj">ein</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="6:qobj" out="-1:subj|1:preds|4:pnct|5:pnct|1:preds">ist</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="2:nobj">ein</W>
 <W lemma="blöd" msd="AN" tag="ADJA" in="1:attr" out="">blödes</W>
 <W lemma="Telefon" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Telefon</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
@@ -155,8 +155,8 @@
 <W lemma="mein" msd="PO" tag="PPOSAT" in="2:subj|4:[subj]|5:[subj]" out="1:possd">Meine</W>
 <W lemma="Frau" msd="NC" tag="NN" in="-1:possd" out="">Frau</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-2:subj|3:vobj|6:conj">hätte</W>
-<W lemma="mißtrauisch" msd="AN" tag="ADJD" in="1:preds" out="">misstrauisch</W>
-<W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:preds|-4:[subj]">werden</W>
+<W lemma="mißtrauisch" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">misstrauisch</W>
+<W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:preds|-4:[subj]|-1:preds">werden</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-3:vobj" out="-1:vobj|-5:[subj]">können</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj|14:coref" out="">es</W>

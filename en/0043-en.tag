@@ -17,9 +17,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|7:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">showdown</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">between</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:coord">AGF</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">Brøndby</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">AGF</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Brøndby</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-7:mod" out="3:mod|4:pobj">followed</W>
 <W msd="PD" tag="DT" in="2:mod" out="1:nobj">the</W>
@@ -28,15 +28,15 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">games</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">between</W>
-<W msd="XP" tag=":" in="-1:pnct" out="">:</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pnct|3:conj|4:pnct|5:conj|6:coord">Ikast-Lyngby</W>
+<W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pnct|3:conj|4:pnct|5:conj|7:conj">Ikast-Lyngby</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:err" out="">B</W>
 <W msd="AC" tag="CD" in="-3:conj" out="-1:err">1903-Silkeborg</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-5:conj" out="">AaB-Vejle</W>
-<W msd="CC" tag="CC" in="-6:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">FremOB</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-7:conj" out="-1:coord">FremOB</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
 <s>
@@ -47,16 +47,16 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Super</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">League</W>
-<W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|6:pnct|7:coord|40:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|6:pnct|40:pnct|9:conj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:mod">meet</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:mod">twice</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">spring</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-7:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">this</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:mod|2:vobj">will</W>
+<W msd="VA" tag="MD" in="-9:conj" out="-1:subj|1:mod|2:vobj|-2:coord">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">then</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">provide</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj|2:mod">18</W>
@@ -74,10 +74,10 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:pred|3:pnct|6:xpl">look</W>
 <W msd="SP" tag="IN" in="-1:pred" out="1:nobj">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
-<W msd="XP" tag=":" in="-3:pnct" out="">:</W>
+<W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="-6:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|8:coord">Lyngby-Brøndby</W>
+<W msd="NP=S" tag="NNP" in="-6:xpl" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|9:conj">Lyngby-Brøndby</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Silkeborg-AGF</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -85,8 +85,8 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-6:conj" out="1:nobj">Frem-B</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1903</W>
-<W msd="CC" tag="CC" in="-8:coord" out="1:conj">and</W>
-<W msd="NP=S" tag="NNP" in="-1:conj" out="">AaB-OB</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NP=S" tag="NNP" in="-9:conj" out="-1:coord">AaB-OB</W>
 <W msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
 <s>

@@ -158,13 +158,13 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Oh" lemma="åh" msd="I=" tag="UH" in="6:qobj" out="-1:pnct|1:pnct|2:conj|5:pnct">Åh</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="my" lemma="min" msd="PO1[CN]PUSNU" tag="PRP$" in="-2:conj" out="1:possd|2:pnct">mine</W>
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">børn</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-5:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="cried" lemma="råbe" msd="VADA=----A-" tag="VBD" in="" out="-6:qobj|1:subj|2:pnct">råbte</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -194,15 +194,15 @@
 <W gloss="agency" lemma="nyhedsbureau" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">nyhedsbureau</W>
 <W gloss="reported" lemma="meddele" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:pnct|2:dobj|19:pnct">meddelte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj|7:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj|8:conj">at</W>
 <W gloss="517" lemma="517" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="1:nobj">517</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|3:pnct">var</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pred">blevet</W>
 <W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">kvæstet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="1:conj">og</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:conj" out="4:vobj">at</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:conj" out="4:vobj|-1:coord">at</W>
 <W gloss="251" lemma="251" msd="AC---U=--" tag="CD" in="3:subj|4:[subj]|5:[subj]" out="1:pobj">251</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>

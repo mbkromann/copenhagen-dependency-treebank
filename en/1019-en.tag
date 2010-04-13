@@ -1,7 +1,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="3:xtop" out="1:possd|2:pnct|4:ref">Your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">precision</W>
-<W msd="XP" tag=":" in="-2:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:xtop|1:expl|2:dobj|14:pnct">is</W>
 <W msd="ANP" tag="RB" in="-4:ref|-1:expl" out="">there</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:mod|5:ref|7:rel">something</W>
@@ -19,7 +19,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">?</W>
 </s>
 <s>
-<W msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|1:pnct|8:conj">No</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="2:[dobj]|6:subj" out="2:rel">what</W>
@@ -63,7 +63,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|7:pnct|8:coord|15:pnct">am</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|7:pnct|15:pnct|10:conj">am</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">employed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -71,9 +71,9 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Forest</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">District</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-8:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:vobj">have</W>
+<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|1:vobj|-2:coord">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">gone</W>
 <W msd="U=" tag="TO" in="-1:lobj" out="2:nobj">to</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">forestry</W>
@@ -96,7 +96,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]|12:[subj]|17:[subj]|24:[subj]|25:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:pobj|3:mod|6:pnct|7:conj|10:pnct|11:conj|15:pnct|16:conj|22:coord|33:pnct">go</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:pobj|3:mod|6:pnct|7:conj|10:pnct|11:conj|15:pnct|16:conj|33:pnct|23:conj">go</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">work</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
@@ -108,9 +108,9 @@
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="">trees</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-11:conj" out="-12:[subj]|1:dobj">maintain</W>
-<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:coord">tables</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">benches</W>
+<W msd="NC=P" tag="NNS" in="-1:dobj" out="2:conj">tables</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">benches</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-16:conj" out="-17:[subj]|1:dobj">cut</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
@@ -118,8 +118,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">plantations</W>
-<W msd="CC" tag="CC" in="-22:coord" out="1:conj">and</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="-24:[subj]|1:vobj">help</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAF" tag="VB" in="-23:conj" out="-24:[subj]|1:vobj|-1:coord">help</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-25:[subj]|1:dobj">select</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:ref|3:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">trees</W>
@@ -166,22 +166,22 @@
 <W msd="ANP" tag="RB" in="-1:lobj" out="">here</W>
 <W msd="ANP" tag="RB" in="-2:avobj" out="">alone</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">with</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:pnct|3:conj|5:coord">six</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:pnct|3:conj|6:conj">six</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sheep</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-3:conj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hens</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="PI" tag="DT" in="-1:conj" out="1:mod|2:mod|3:nobj">a</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PI" tag="DT" in="-6:conj" out="1:mod|2:mod|3:nobj|-1:coord">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">German</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">wire-haired</W>
 <W msd="ANC" tag="JJR" in="-3:nobj" out="">terrier</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="4:subj" out="1:coord">Mother</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="">father</W>
+<W msd="NP=S" tag="NNP" in="4:subj" out="2:conj">Mother</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">father</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">also</W>
 <W msd="VAF" tag="VB" in="" out="-1:mod|-4:subj|1:dobj|2:pnct">play</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">golf</W>
@@ -221,11 +221,11 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|6:[subj]" out="">They</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">always</W>
-<W msd="ANP" tag="RB" in="" out="-2:subj|-1:mod|1:dobj|2:part|3:coord|6:pnct">back</W>
+<W msd="ANP" tag="RB" in="" out="-2:subj|-1:mod|1:dobj|2:part|6:pnct|4:conj">back</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="RG" tag="RP" in="-2:part" out="">up</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="-6:[subj]|1:dobj">help</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAF" tag="VB" in="-4:conj" out="-6:[subj]|1:dobj|-1:coord">help</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

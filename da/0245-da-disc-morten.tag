@@ -73,7 +73,7 @@
 <W gloss="demonstrated" lemma="påvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">påvist</W>
 <W gloss="the_neutron" lemma="neutron" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">neutronen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="doubted" lemma="tvivle" msd="VADA=----A-" tag="VBD" in="-29:+ELAB&3a;exp" out="-7:time|1:subj|2:neg|3:time|4:pobj|15:pnct|21:+CONS&3a;dir/(derfor)|-16:+PREPAR">tvivlede</W>
+<W gloss="doubted" lemma="tvivle" msd="VADA=----A-" tag="VBD" in="-29:+ELAB&3a;exp" out="-7:time|-16:+PREPAR|1:subj|2:neg|3:time|4:pobj|15:pnct|21:+CONS&3a;dir/(derfor)">tvivlede</W>
 <W gloss="people" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-3:time" out="">længere</W>
@@ -85,9 +85,9 @@
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:other|1:vobj">var</W>
 <W gloss="constructed" lemma="opbygge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">opbygget</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="protons" lemma="proton" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:coord">protoner</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="neutrons" lemma="neutron" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">neutroner</W>
+<W gloss="protons" lemma="proton" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj">protoner</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="neutrons" lemma="neutron" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">neutroner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
@@ -101,19 +101,19 @@
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="for" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">for</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-2:nobj|5:[mod]" out="5:rel|11:coord">hvordan</W>
+<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-2:nobj|5:[mod]" out="5:rel|12:conj">hvordan</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="4:subj|5:[subj]" out="1:nobj">disse</W>
-<W gloss="protons" lemma="proton" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:coord">protoner</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="neutrons" lemma="neutron" msd="NCCPU==I" tag="NNP" in="-1:conj" out="">neutroner</W>
+<W gloss="protons" lemma="proton" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj">protoner</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="neutrons" lemma="neutron" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">neutroner</W>
 <W gloss="were" lemma="blive" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-4:subj|-5:[mod]|1:vobj|5:pnct">bliver</W>
 <W gloss="held" lemma="holde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part|2:loc">holdt</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-1:part" out="">sammen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the_core" lemma="kerne" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kernen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-11:coord" out="1:conj">og</W>
-<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-1:conj|2:[mod]" out="2:rel">hvordan</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-12:conj|2:[mod]" out="-1:coord|2:rel">hvordan</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="moving" lemma="bevæge" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj|2:lobj">bevæger</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
@@ -144,7 +144,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="31:pnct">Men</W>
 <W gloss="we" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">man</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-13:CONTR&3a;dir/men" out="-1:subj|1:vobj|-2:coord|35:+CONJ/(og)">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-13:CONTR&3a;dir/men" out="-1:subj|-2:coord|1:vobj|35:+CONJ/(og)">har</W>
 <W gloss="constructed" lemma="opstille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj">opstillet</W>
 <W gloss="various" lemma="forskellig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">forskellige</W>
 <W gloss="models_of_the_nucleus" lemma="kernemodel" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|1:pnct|2:ref|6:rel">kernemodeller</W>
@@ -157,7 +157,7 @@
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:man|2:dobj">gøre</W>
 <W gloss="satisfactory" lemma="tilfredsstille" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:man" out="">tilfredsstillende</W>
 <W gloss="prepared" lemma="rede" msd="NC[CN][SP]U==[DI]" tag="NN" in="-2:dobj" out="1:pobj">rede</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|11:coord">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|13:conj">for</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="number" lemma="række" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">række</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -168,9 +168,9 @@
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj|2:pnct">har</W>
 <W gloss="made" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-5:[dobj]">gjort</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="but" lemma="men" msd="CC" tag="CC" in="-11:coord" out="1:neg|2:conj">men</W>
+<W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="1:neg">men</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:conj" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-13:conj" out="-2:coord|1:nobj">for</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="1:nobj">dem</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>
@@ -250,16 +250,16 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:nobj|2:[preds]" out="2:rel|3:pobj">hvad</W>
 <W gloss="there" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:ref|6:rel">det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|3:pnct|-2:[preds]">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[preds]|3:pnct">er</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">for</W>
 <W gloss="forces" lemma="kraft" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kræfter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-5:ref|1:subj" out="">der</W>
-<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|5:loc|4:preds">holder</W>
-<W gloss="the_neutrons" lemma="neutron" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="1:coord">neutronerne</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="the_protons" lemma="proton" msd="NCCPU==D" tag="NNP" in="-1:conj" out="">protonerne</W>
-<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:preds" out="">sammen</W>
+<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|4:preds|5:loc|4:preds">holder</W>
+<W gloss="the_neutrons" lemma="neutron" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="2:conj">neutronerne</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_protons" lemma="proton" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">protonerne</W>
+<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:preds|-4:preds" out="">sammen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:loc" out="1:nobj">i</W>
 <W gloss="the_nucleus" lemma="kerne" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kernen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>

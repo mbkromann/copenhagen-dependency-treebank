@@ -75,13 +75,13 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="pharmaceuticals" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:mod">lægemidler</W>
 <W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
-<W gloss="Kodimagnyl" lemma="Kodimagnyl" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:coord">Kodimagnyl</W>
+<W gloss="Kodimagnyl" lemma="Kodimagnyl" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">Kodimagnyl</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Treo" lemma="Treo" msd="NP--U==-" tag="NNP" in="-2:conj" out="">Treo</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="Panodil" lemma="Panodil" msd="NP--U==-" tag="NNP" in="-4:conj" out="">Panodil</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="1:conj">og</W>
-<W gloss="Pamol" lemma="Pamol" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Pamol</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="Pamol" lemma="Pamol" msd="NP--U==-" tag="NNP" in="-6:conj" out="-1:coord">Pamol</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:mod|3:pred|21:pnct">er</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="3:nobj">så</W>
@@ -108,17 +108,17 @@
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="1:subj" out="">Folk</W>
 <W gloss="eat" lemma="spise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|3:dobj|4:pobj|12:pnct">spiser</W>
 <W gloss="now" lemma="efterhånden" msd="RGU" tag="RP" in="-1:mod" out="">efterhånden</W>
 <W gloss="pain" lemma="smertestillende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:mod" out="">smertestillende</W>
 <W gloss="drugs" lemma="medicin" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:mod">medicin</W>
-<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-4:pobj" out="2:nobj|3:coord">som</W>
+<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-4:pobj" out="2:nobj|4:conj">som</W>
 <W gloss="syrlige" lemma="syrlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">syrlige</W>
 <W gloss="drops" lemma="drops" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:mod">drops</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-3:coord" out="1:conj">eller</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:conj" out="1:nobj">som</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:conj" out="1:nobj|-1:coord">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="kind" lemma="slags" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">slags</W>
 <W gloss="diet_supplement" lemma="kosttilskud" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kosttilskud</W>
@@ -137,7 +137,7 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:mod" out="">ikke</W>
 <W gloss="harmless" lemma="ufarlig" msd="ANPNSU=IU" tag="JJ" in="-4:pred" out="">ufarligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-12:qobj|2:subj|3:pnct|4:mod|24:pnct">siger</W>
 <W gloss="Niels" lemma="Niels" msd="NP--U==-" tag="NNP" in="1:namef" out="">Niels</W>
 <W gloss="Agdal" lemma="Agdal" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Agdal</W>
@@ -185,11 +185,11 @@
 <W gloss="active" lemma="aktiv" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">aktivt</W>
 <W gloss="substances" lemma="stof" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">stof</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
-<W gloss="Acetylsalicylic_acid" lemma="acetylsalicylsyre" msd="NCCSU==I" tag="NN" in="-5:modp" out="1:coord|3:pnct">Acetylsalicylsyre</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="Paracetamol" lemma="Paracetamol" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Paracetamol</W>
+<W gloss="Acetylsalicylic_acid" lemma="acetylsalicylsyre" msd="NCCSU==I" tag="NN" in="-5:modp" out="3:pnct|2:conj">Acetylsalicylsyre</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="Paracetamol" lemma="Paracetamol" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Paracetamol</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="1:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="11:qobj" out="-1:pnct|3:conj|10:pnct">og</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="2:subj|3:[subj]" out="1:nobj">den</W>
 <W gloss="quantity" lemma="mængde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mængde</W>
@@ -200,7 +200,7 @@
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="abuse" lemma="misbrug" msd="NC[CN]SU==I" tag="NNS" in="-1:nobj" out="">misbrug</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-10:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-24:conj" out="-11:qobj|2:subj">siger</W>
 <W gloss="Niels" lemma="Niels" msd="NP--U==-" tag="NNP" in="1:namef" out="">Niels</W>
 <W gloss="Agdal" lemma="Agdal" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Agdal</W>
@@ -237,15 +237,15 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">Der</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:expl|1:vobj|4:pnct|5:coord|18:pnct">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:expl|1:vobj|4:pnct|18:pnct|8:conj">blev</W>
 <W gloss="sold" lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[expl]|1:dobj">solgt</W>
 <W gloss="31,632" lemma="31.632" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">31.632</W>
 <W gloss="tablets" lemma="tablet" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tabletter</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="3:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="2:subj" out="1:nobj">flere</W>
 <W gloss="pharmacies" lemma="apotek" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">apoteker</W>
-<W gloss="declared" lemma="tilkendegive" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-2:subj|1:pnct|2:dobj">tilkendegav</W>
+<W gloss="declared" lemma="tilkendegive" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-2:subj|1:pnct|2:dobj|-3:coord">tilkendegav</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="3:subj" out="">de</W>

@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|5:[subj]|12:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|2:mod|3:pnct|4:conj|10:coord|21:pnct">pick</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|2:mod|3:pnct|4:conj|21:pnct|11:conj">pick</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">gently</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -10,8 +10,8 @@
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">hats</W>
-<W msd="CC" tag="CC" in="-10:coord" out="1:conj">and</W>
-<W msd="VAP" tag="VBN" in="-1:conj" out="-12:[subj]|1:dobj|3:pobj">set</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAP" tag="VBN" in="-11:conj" out="-12:[subj]|1:dobj|3:pobj|-1:coord">set</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">teeth</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">into</W>
@@ -25,24 +25,24 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|4:pnct|5:coord|14:pnct">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:coord">crisp</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">delicious</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|4:pnct|14:pnct|8:conj">is</W>
+<W msd="ANP" tag="JJ" in="-1:pred" out="2:conj">crisp</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">delicious</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-5:coord" out="3:conj">and</W>
+<W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">taste</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|1:pred">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:pnct|2:conj|3:coord">gentle</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-2:subj|1:pred|-3:coord">is</W>
+<W msd="ANP" tag="JJ" in="-1:pred" out="1:pnct|2:conj|4:conj">gentle</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="">nutty</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">fresh</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-4:conj" out="-1:coord">fresh</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="XP" tag=":" in="4:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="4:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">ink</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">cap</W>
@@ -55,15 +55,15 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:pnct|3:title">Knudsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">associate</W>
-<W msd="NC=S" tag="NN" in="-3:title" out="-1:mod|1:pobj|7:coord">professor</W>
+<W msd="NC=S" tag="NN" in="-3:title" out="-1:mod|1:pobj|8:conj">professor</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Botanical</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Museum</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
-<W msd="CC" tag="CC" in="-7:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="1:pobj">author</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-8:conj" out="1:pobj|-1:coord">author</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:possd|3:pnct|4:ref|5:rel">Politiken's</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Mushroom</W>
@@ -74,10 +74,10 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod">printed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:coord">four</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|3:conj">four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">editions</W>
-<W msd="CC" tag="CC" in="-2:coord" out="1:conj">and</W>
-<W msd="AC" tag="CD" in="-1:conj" out="1:nobj|2:mod">26,000</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="AC" tag="CD" in="-3:conj" out="1:nobj|2:mod|-1:coord">26,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">copies</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
@@ -86,7 +86,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Knudsen</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|7:pnct|8:coord|35:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|7:pnct|35:pnct|10:conj">is</W>
 <W msd="AC" tag="CD" in="-1:pred" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod|3:possd">Denmark's</W>
@@ -94,9 +94,9 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">mushroom</W>
 <W msd="NC=P" tag="NNS" in="-3:possd" out="-1:mod">experts</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-8:coord" out="2:conj">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:vobj|16:pnct">have</W>
+<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|1:vobj|16:pnct|-2:coord">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:iobj|2:dobj|16:mod">invited</W>
 <W msd="PP" tag="PRP" in="-1:iobj|2:[subj]" out="">him</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
@@ -125,21 +125,21 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|6:mod|14:coord|48:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:pred|6:mod|48:pnct|24:conj">is</W>
 <W msd="PD" tag="DT" in="-1:pred" out="2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">high</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:pobj">season</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">mushrooms</W>
-<W msd="SP" tag="IN" in="-6:mod" out="1:nobj|5:coord">at</W>
+<W msd="SP" tag="IN" in="-6:mod" out="1:nobj|6:conj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">end</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">September</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">in</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-6:conj" out="1:nobj|-1:coord">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">October</W>
-<W msd="CC" tag="CC" in="-14:coord" out="1:pnct|10:conj">and</W>
+<W msd="CC" tag="CC" in="10:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|6:pnct">during</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:mod">our</W>
@@ -149,7 +149,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">woods</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-10:conj" out="-8:mod|-1:subj|1:dobj">meet</W>
+<W msd="VADR" tag="VBP" in="-24:conj" out="-8:mod|-1:subj|1:dobj|-10:coord">meet</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj|2:pnct|3:ref|13:rel">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -178,18 +178,18 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">mushrooms</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:vobj|2:mod|6:pnct|7:coord|15:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:vobj|2:mod|6:pnct|15:pnct|11:conj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">found</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">every</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">wood</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-7:coord" out="4:conj">but</W>
+<W msd="CC" tag="CC" in="4:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="3:mod" out="">naturally</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">some</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">places</W>
-<W msd="VADR" tag="VBP" in="-4:conj" out="-3:mod|-2:subj|1:pred">are</W>
+<W msd="VADR" tag="VBP" in="-11:conj" out="-3:mod|-2:subj|1:pred|-4:coord">are</W>
 <W msd="ANC" tag="JJR" in="-1:pred" out="1:pobj">better</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
@@ -201,7 +201,7 @@
 <W msd="NP=S" tag="NNP" in="" out="-1:mod|-2:mod">YEAR</W>
 </s>
 <s>
-<W msd="XP" tag=":" in="1:pnct" out="">-</W>
+<W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|3:conj|12:pnct">And</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
@@ -232,9 +232,9 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">summer</W>
 <W msd="VADA" tag="VBD" in="-10:rel" out="-3:mod|-2:subj|1:pred|4:pnct|5:mod|10:pnct">was</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:coord">dry</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="ANP" tag="JJ" in="-1:conj" out="">warm</W>
+<W msd="ANP" tag="JJ" in="-1:pred" out="2:conj">dry</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">warm</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-5:mod" out="1:pobj">followed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>

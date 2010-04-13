@@ -5,9 +5,9 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gheorge</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Funar</W>
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:pred|23:pnct">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:coord">surprising</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=S" tag="NN" in="-1:conj" out="1:pobj">evidence</W>
+<W msd="ANP" tag="JJ" in="-1:pred" out="2:conj">surprising</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="1:pobj|-1:coord">evidence</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:ref|5:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">great</W>
@@ -16,13 +16,13 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">still</W>
 <W msd="VADR" tag="VBZ" in="-5:rel" out="-2:subj|-1:mod|1:mod">exists</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">between</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod|3:mod|4:possd|5:coord">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod|3:mod|4:possd|6:conj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">country's</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">large</W>
 <W msd="ANP" tag="JJ" in="-3:mod" out="">Hungarian</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="">minority</W>
-<W msd="CC" tag="CC" in="-5:coord" out="1:conj">and</W>
-<W msd="PD" tag="DT" in="-1:conj" out="1:nobj">the</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="PD" tag="DT" in="-6:conj" out="1:nobj|-1:coord">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">rest</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -75,7 +75,7 @@
 <W msd="ANP" tag="JJ" in="-2:pred" out="">Hungarian</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-8:lobj|-19:pnct#" out="">back.</W>
-<W msd="XP" tag="&quot;" in="10:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="10:pnct" out="">"</W>
 </s>
 <s>
 <W msd="CS" tag="IN" in="7:mod" out="2:vobj">If</W>
@@ -93,7 +93,7 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Yugoslavian</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">condition</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="XP" tag="&quot;" in="-8:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-9:qobj|1:subj|2:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Funar</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -217,7 +217,7 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">23</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
-<W msd="XP" tag=":" in="-4:pnct" out="">;</W>
+<W msd="XP" tag="&3a;" in="-4:pnct" out="">;</W>
 <W msd="CS" tag="IN" in="-5:mod" out="10:vobj">while</W>
 <W msd="PD" tag="DT" in="9:subj|10:[subj]|11:[subj]" out="1:mod|3:nobj|5:appr|7:mod|8:possd">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">former</W>

@@ -90,9 +90,9 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="9:mod" out="1:nobj">I</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="2:mod|5:possd">sin</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
-<W gloss="straightforward" lemma="redelig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:mod" out="-1:mod|1:coord">redelige</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="objective" lemma="objektiv" msd="ANP[CN]SU=DU" tag="JJ" in="-1:conj" out="">objektive</W>
+<W gloss="straightforward" lemma="redelig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:mod" out="-1:mod|2:conj">redelige</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="objective" lemma="objektiv" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="-1:coord">objektive</W>
 <W gloss="charge" lemma="retsbelæring" msd="NCCSU==I" tag="NN" in="-5:possd" out="1:pobj">retsbelæring</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_jury" lemma="nævning" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">nævningene</W>
@@ -113,12 +113,12 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="bar" lemma="bære" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[lobj]|1:lobj|2:pnct">bar</W>
 <W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-1:lobj" out="">hen</W>
-<W gloss=":" lemma=":" msd="XP" tag=":" in="-2:pnct" out="">:</W>
+<W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_evidence" lemma="bevis" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">Beviset</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:xpl" out="-1:subj|-2:pnct|1:vobj|12:pnct">skal</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:pred">være</W>
@@ -189,7 +189,7 @@
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
 <W gloss="few." lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:mod">få</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
-<W gloss="&quot;" lemma="&quot;" msd="XP" tag="&quot;" in="-7:pnct" out="">"</W>
+<W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
 </s>
 </p>
 <p>
@@ -204,11 +204,11 @@
 <W gloss="the_jury's" lemma="nævning" msd="NCCPG==D" tag="NNP" in="-1:pred" out="1:possd">nævningenes</W>
 <W gloss="task" lemma="opgave" msd="NCCSU==I" tag="NN" in="-1:possd" out="">opgave</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
-<W gloss="solve" lemma="opklare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:coord">opklare</W>
+<W gloss="solve" lemma="opklare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:conj">opklare</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="murder_mystery" lemma="mordgåde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mordgåde</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-3:coord" out="1:conj">eller</W>
-<W gloss="tie_up" lemma="samle" msd="VAF-=----A-" tag="VB" in="-1:conj" out="1:dobj">samle</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="tie_up" lemma="samle" msd="VAF-=----A-" tag="VB" in="-4:conj" out="1:dobj|-1:coord">samle</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:dobj|8:[dobj]" out="1:nobj|4:pnct|7:rel">alle</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">de</W>
 <W gloss="loose" lemma="løs" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">løse</W>
@@ -223,9 +223,9 @@
 </p>
 <p>
 <s>
-<W gloss="CIRCUMSTANCIAL_EVIDENCE" lemma="indicium" msd="NCNPU==D" tag="NNP" in="" out="2:<pred>">INDICIERNE</W>
+<W gloss="CIRCUMSTANCIAL_EVIDENCE" lemma="indicium" msd="NCNPU==D" tag="NNP" in="" out="2:&lt;pred&gt;">INDICIERNE</W>
 <W gloss="TOO" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">FOR</W>
-<W gloss="WEAK" lemma="svag" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:<pred>" out="-1:mod">SVAGE</W>
+<W gloss="WEAK" lemma="svag" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:&lt;pred&gt;" out="-1:mod">SVAGE</W>
 </s>
 </p>
 <p>

@@ -18,26 +18,26 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="VAG" tag="VBG" in="" out="">shelling</W>
 <W msd="VADA" tag="VBD" in="-7:vobj" out="2:pred">was</W>
-<W msd="XP" tag="&quot;" in="2:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="TO" in="-2:pred" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:pnct|1:dobj|6:coord|11:pnct">end</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:pnct|1:dobj|11:pnct|7:conj">end</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">fight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">over</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">Bala</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Hissar</W>
-<W msd="CC" tag="CC" in="-6:coord" out="1:conj">and</W>
-<W msd="VAF" tag="VB" in="-1:conj" out="1:dobj">destroy</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VAF" tag="VB" in="-7:conj" out="1:dobj|-1:coord">destroy</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="2:possd">Hekmatyar's</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">antiaircraft</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">artillery</W>
-<W msd="XP" tag="&quot;" in="-11:pnct" out="">"</W>
+<W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="2:subj|11:[subj]" out="1:possd">Hekmatyar's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">forces</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:dobj|8:coord|18:pnct">stormed</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:dobj|18:pnct|9:conj">stormed</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|3:mod">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">police</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">station</W>
@@ -45,8 +45,8 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">presidential</W>
 <W msd="NC=S" tag="NN" in="" out="">palace</W>
-<W msd="CC" tag="CC" in="-8:coord" out="1:conj">and</W>
-<W msd="VADA" tag="VBD" in="-1:conj" out="-11:[subj]|1:dobj|7:mod">shelled</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-11:[subj]|1:dobj|7:mod|-1:coord">shelled</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:mod|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">southeastern</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
@@ -75,7 +75,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Masood</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|8:pnct|9:coord|13:pnct">had</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|8:pnct|13:pnct|11:conj">had</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">apparent</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:pobj">control</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
@@ -84,9 +84,9 @@
 <W msd="SP" tag="IN" in="-2:pobj" out="">of</W>
 <W msd="NP=S" tag="NNP" in="" out="">Kabul</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-9:coord" out="2:conj">but</W>
+<W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">electricity</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:vobj">was</W>
+<W msd="VADA" tag="VBD" in="-11:conj" out="-1:subj|1:vobj|-2:coord">was</W>
 <W msd="ANP" tag="RB" in="-1:vobj" out="-2:[subj]">out</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
@@ -99,10 +99,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-5:mod" out="5:vobj">as</W>
-<W msd="NC=P" tag="NNS" in="4:subj" out="1:coord">rockets</W>
-<W msd="CC" tag="CC" in="-1:coord" out="2:conj">and</W>
+<W msd="NC=P" tag="NNS" in="4:subj" out="3:conj">rockets</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">shell</W>
-<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:mod">fragments</W>
+<W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">fragments</W>
 <W msd="VADA" tag="VBD" in="-5:vobj" out="-4:subj|1:mod">flew</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">around</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -166,9 +166,9 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">several</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">dozen</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:coord">trucks</W>
-<W msd="CC" tag="CC" in="-1:coord" out="1:conj">and</W>
-<W msd="NC=P" tag="NNS" in="-1:conj" out="">cars</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">trucks</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">cars</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-11:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct">was</W>

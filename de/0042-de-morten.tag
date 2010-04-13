@@ -46,7 +46,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj|8:[subj]" out="">,,Ich</W>
-<W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|7:vobj|8:pnct|22:pnct|14:goal">möchte</W>
+<W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|7:vobj|8:pnct|14:goal|22:pnct">möchte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">die</W>
 <W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Verhandlungen</W>
 <W lemma="um" msd="SP" tag="APPR" in="-1:pobj&3a;dobj" out="1:nobj">um</W>
@@ -58,7 +58,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="3:dobj" out="1:nobj">das</W>
 <W lemma="Eis" msd="NC" tag="NN" in="-1:nobj" out="">Eis</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
-<W lemma="brechen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|-3:dobj">brechen</W>
+<W lemma="brechen" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj|1:pnct">brechen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="um" msd="CS" tag="KOUI" in="-14:goal" out="6:nobj">um</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="6:dobj" out="1:loc">Ergebnisse</W>
@@ -164,9 +164,9 @@
 <s>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-59:coref-id|1:subj" out="-1:namef|66:coref-id">Dyremose</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|2:preds|4:pnct|24:pnct">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|2:preds|4:pnct|24:pnct|2:preds">ist</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds|-2:preds" out="1:nobj">der</W>
 <W lemma="Auffassung" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Auffassung</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="10:vobj">dass</W>

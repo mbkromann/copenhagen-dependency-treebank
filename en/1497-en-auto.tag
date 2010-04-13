@@ -135,7 +135,7 @@
 <W msd="NP=S" tag="NNP" in="" out="">HEAD</W>
 <W msd="SP" tag="IN" in="" out="">OF</W>
 <W msd="NC=S" tag="NN" in="" out="">GOVERNMENT</W>
-<W msd="VADR" tag="VBZ" in="" out="1:dobj|9:pnct|10:coord|25:pnct">bears</W>
+<W msd="VADR" tag="VBZ" in="" out="1:dobj|9:pnct|25:pnct|16:conj">bears</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:possd">a</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">great</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="1:pobj">deal</W>
@@ -145,13 +145,13 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="-10:coord" out="6:conj">but</W>
+<W msd="CC" tag="CC" in="6:coord" out="">but</W>
 <W msd="PI" tag="DT" in="5:subj|10:[subj]|11:[subj]|13:[subj]" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">couple</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">factors</W>
-<W msd="VA" tag="MD" in="-6:conj" out="-5:subj|1:pnct|2:mod|3:pnct|4:mod">should</W>
+<W msd="VA" tag="MD" in="-16:conj" out="-5:subj|1:pnct|2:mod|3:pnct|4:mod|-6:coord">should</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">however</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -231,11 +231,11 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">decisively</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:mod">alter</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">expectations</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj|3:coord">in</W>
+<W msd="SP" tag="IN" in="-2:mod" out="1:nobj|4:conj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">population</W>
-<W msd="CC" tag="CC" in="-3:coord" out="1:conj">and</W>
-<W msd="SP" tag="IN" in="-1:conj" out="1:nobj">in</W>
+<W msd="CC" tag="CC" in="1:coord" out="">and</W>
+<W msd="SP" tag="IN" in="-4:conj" out="1:nobj|-1:coord">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">business</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
