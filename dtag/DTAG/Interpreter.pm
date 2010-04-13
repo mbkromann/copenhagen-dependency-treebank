@@ -52,6 +52,7 @@ use Term::ReadLine;
 use Term::ReadKey;
 use Data::Dumper;
 use Parse::RecDescent;
+use LWP::Simple;
 use XML::Writer;
 use XML::Parser;
 use PerlIO;
@@ -80,6 +81,26 @@ sub catch_signal {
 	die "DTAG: detected signal $signame\n";
 }
 $SIG{INT} = \&catch_signal;
+
+# Fields in relation names
+# Relation = [$shortname, $longname, 
+#   @immediateparents, @transitiveparents, @immediatechildren,
+#   $shortdescription, $longdescription, $examples,
+#   $supertypes, $lineno, $see]
+my $REL_SNAME = 0;
+my $REL_LNAME = 1;
+my $REL_IPARENTS = 2;
+my $REL_TPARENTS = 3;
+my $REL_ICHILDREN = 4;
+my $REL_SDESCR = 5;
+my $REL_LDESCR = 6;
+my $REL_EX = 7;
+my $REL_DEPRECATED = 8;
+my $REL_STYPES = 9;
+my $REL_LINENO = 10;
+my $REL_CHILDCNT = 11;
+my $REL_TCHILDCNT = 12;
+my $REL_SEE = 13;
 
 
 ## ------------------------------------------------------------
@@ -5526,6 +5547,265 @@ sub cmd_relations {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_relhelp.pl
+## ------------------------------------------------------------
+
+sub cmd_relhelp {
+	my $self = shift;
+	my $graph = shift;
+	my $name = shift;
+
+	# Find relation name
+	my $relsetname = $graph->var("relset") || $self->var("relset");
+	my $relset = $self->var("relsets")->{$relsetname} || undef;
+	if (! defined($relset)) {
+		error("Current graph has no associated relation set"
+			. " (see relset command)");
+		return 1;
+	} 
+
+	# Retrieve relation from relset
+	my $relation = $relset->{$name};
+	if (! defined($relation)) {
+		error("Relation $name undefined in current relset!");
+		return 0;
+	}
+
+	my ($sname, $lname, $iparents, $tparents,
+			$ichildren, $sdescr, $ldescr, $ex, $deprecated,
+			$lineno, $see) 
+		= map {$relation->[$_]} 
+			($REL_SNAME, $REL_LNAME, $REL_IPARENTS, $REL_TPARENTS,
+			$REL_ICHILDREN, $REL_SDESCR, $REL_LDESCR, $REL_EX,
+			$REL_DEPRECATED, $REL_LINENO, $REL_SEE);
+	
+	# Print help information for relation
+	print "\n$sname = $sdescr"
+		. ($sname ne $lname ? " (long name: $lname)" : "") 
+		. " [row $lineno]\n";
+	print "\nDEFINITION: $ldescr\n" if (defined($ldescr));
+	print "\nEXAMPLES: $ex\n" if (defined($ex));
+	if ($name ne $sname && $name ne $lname) {
+		print "\nTHE RELATION $name IS DEPRECATED!\n";
+	}
+
+	print "\nSUPER TYPES:\n" .
+		join("", map {countname($relset, $_)}
+			sort(keys(%$iparents))) . "\n" if (defined($iparents) &&
+			%$iparents);
+	print "SUBTYPES:\n" .
+		join("", map {countname($relset, $_)} 
+			sort(keys(%$ichildren))) . "\n" if (defined($ichildren) &&
+			%$ichildren);
+	my $seealso = [split(/\s+/, $see || "")];
+	print "SEE ALSO:\n" .
+		join("", map {countname($relset, $_)} 
+			@$seealso) . "\n" if (@$seealso);
+
+	# Return
+	return 1;
+}
+
+sub countname {
+	my $relset = shift;
+	my $name = shift;
+	my $count = $relset->{$name}->[$REL_TCHILDCNT];
+	my $descr = $relset->{$name}->[$REL_SDESCR];
+	return "    $name = $descr" . ($count == 0 ? "" : " ($count)") .  "\n";
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_relhelpsearch.pl
+## ------------------------------------------------------------
+
+sub cmd_relhelpsearch {
+	my $self = shift;
+	my $graph = shift;
+	my $regex = shift;
+
+	# Find relation name
+	my $relsetname = $graph->var("relset") || $self->var("relset");
+	my $relset = $self->var("relsets")->{$relsetname} || undef;
+	if (! defined($relset)) {
+		error("Current graph has no associated relation set"
+			. " (see relset command)");
+		return 1;
+	} 
+
+	# Find all relations where a field matches regex
+	my $match = sub {
+		my $s = shift;
+		$s =~ /$regex/;
+	};
+
+	# Find matching relations
+	my $matches = [];
+	foreach my $relation (sort(keys(%$relset))) {
+		my $list = $relset->{$relation};
+		if (ref($list) eq "ARRAY" && $list->[$REL_SNAME] eq $relation) {
+			my $s = join("	", map {defined($_) ? $_ : ""} @$list);
+			push @$matches, $relation 
+				if (&$match($s));
+		}
+	}
+
+	# Print matches
+	print "\nMATCHES:\n"
+		. join("", map {countname($relset, $_)}
+			@$matches) . "\n";
+
+	# Return
+	return 1;
+}
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_relset.pl
+## ------------------------------------------------------------
+
+sub cmd_relset {
+	my $self = shift;
+	my $graph = shift;
+	my $name = shift;
+	my $file = shift;
+
+	# Print current relset if no file is given
+	if (! defined($name)) {
+		print "Current relset: " . $self->var("relset") . "\n";
+		return 1;
+	} 
+
+	if (! defined($file)) {
+		if (! exists $self->var("relsets")->{$name}) {
+			print "Unknown relset: $name\n";
+			return 1;
+		}
+		print "Current relset: " . $self->var("relset", $name) . "\n";
+		$graph->var("relset", $name);
+		return 1;
+	}
+
+	# Open csv file (replacing ~ with home dir)
+	if ($file =~ /^https?:\/\//) {
+		my $s = get($file);
+		if (! defined($s)) {
+			$s = "";
+			error("Failed to download URL-resource $file");
+		}
+		open("CSV", "<:encoding(utf8)", \$s);
+	} else {
+		$file =~ s/^~/$ENV{HOME}/g;
+		open("CSV", "<:encoding(utf8)", $file)
+			|| return error("cannot open csv-file for reading: $file $!");
+	}
+	CORE::binmode("CSV", $self->binmode()) if ($self->binmode());
+	print "Loading relation set \"$name\" from $file\n";
+	
+	# Create relations object
+	my $relations = {"name" => $name, "file" => $file};
+	
+	# Read relationse Text::CSV_XS;
+	require Text::CSV_XS;
+	my $csv = Text::CSV_XS->new({
+		'binary' => 1
+		}) or error("Cannot use CSV: " . Text::CSV->error_diag());
+	my $classes = [];
+
+	# Skip first line
+	$csv->getline("CSV");
+	my $lineno = 1;
+	while (my $row = $csv->getline("CSV")) {
+		# Read line from relations CSV file
+		++$lineno;
+
+		# Read fields
+		my ($comment, $shortname, $longname, $deprecatednames, 
+			$supertypes, $shortdescription, $longdescription, $seealso, 
+			$examples) =
+			@$row;
+		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
+
+		# Skip line if short name or long name are undefined
+		next if (! (defined($shortname) && defined($longname)));
+
+		# Create relation object
+		my $relation = [$shortname, $longname, 
+			undef, {}, {},
+			$shortdescription, $longdescription, $examples,
+			$deprecatednames, $supertypes, $lineno, 0, 0, $seealso];
+		
+		# Add relation to relations table under its different names
+		push @$classes, $shortname, $longname;
+		$relations->{$shortname} = $relation;
+		$relations->{$longname} = $relation;
+		map {$relations->{$_} = $relation
+		 	if (! exists $relations->{$_}); push @$classes, $_} 
+				split(/\s+/, $deprecatednames);
+	}
+	close(CSV);
+
+	# Compile relation hierarchy
+	foreach my $relation (@$classes) {
+		add_relation_nodes($relations, $relation);
+	}
+
+	# Save relations
+	$self->var("relsets")->{$name} = $relations;
+	$self->var("relset", $name);
+	$graph->var("relset", $name);
+
+	# Return
+	return 1;
+}
+
+# Return short name for relation
+sub add_relation_nodes {
+	my $relations = shift;
+	my $relation = shift;
+	my $nesting = shift || 0;
+
+	# Do nothing if relation does not exist
+	return undef if (! exists $relations->{$relation});
+
+	# Find short name for type
+	my $rellist = $relations->{$relation};
+	
+	# Return short name if parent types already defined
+	my $name = $rellist->[$REL_SNAME];
+	return $name if (defined($rellist->[$REL_IPARENTS]));
+
+	# Find short names for immediate parents, making sure that they
+	# have been added as relations first
+	my $iparents = $rellist->[$REL_IPARENTS] = {};
+	foreach my $parent (split(/\s+/, $rellist->[$REL_STYPES] || "")) {
+		# Make sure that parent exists
+		my $pshort = add_relation_nodes($relations, $parent, $nesting + 1);
+		next if (! (defined($pshort) && $pshort ne ""));
+
+		# Add parent to relation's iparents
+		$rellist->[$REL_IPARENTS]{$pshort} = 1;
+
+		# Add relation to parent's child relations
+		my $plist = $relations->{$pshort};
+		$plist->[$REL_ICHILDREN]->{$name} = 1;
+
+		# Increment count for parent
+		$relations->{$pshort}[$REL_CHILDCNT]++;
+
+		# Add all parent's tparents to this relations' tparents
+		my $tparents = $rellist->[$REL_TPARENTS];
+		map {	$tparents->{$_} = 1; 
+				$relations->{$_}[$REL_TCHILDCNT]++;
+			} ($pshort, keys(%{$plist->[$REL_TPARENTS]}));
+	}
+
+	# Return short name
+	#print "$name: " . dumper($rellist) . "\n";
+	return $name;
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_replace.pl
 ## ------------------------------------------------------------
 
@@ -7441,6 +7721,14 @@ sub do {
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*!\s*(.*)$/);
 
+		# Help search relation command: ??$relation
+		$success = $self->cmd_relhelpsearch($graph, $1) 
+			if ($cmd =~ /^\s*\?\?(\S+)\s*$/);
+
+		# Help relation command: ?$relation
+		$success = $self->cmd_relhelp($graph, $1) 
+			if ($cmd =~ /^\s*\?([^?]\S+)\s*$/);
+
 		# UNIX commands recognized by DTAG: ls mkdir rmdir rm pwd
 		$success = $self->cmd_shell($1)
 			if ($cmd =~ /^\s*((mkdir|rmdir|rm|pwd)(\s+.*)?)$/);
@@ -7787,6 +8075,10 @@ sub do {
 		# Relations: relations
 		$success = $self->cmd_relations($graph, $2)
 			if ($cmd =~ /^\s*relations\s*(\s+([^ ]*))?$/);
+
+		# Reltable: relset $name [$csvfile]
+		$success = $self->cmd_relset($graph, $2, $4) 
+			if ($cmd =~ /^\s*relset(\s+(\S+))?(\s+(\S+))?\s*$/);
 
 		# Resume: resume
 		$success = $self->cmd_resume($2)
@@ -8387,6 +8679,7 @@ sub new {
 	$self->interactive(1);
 	$self->var("tag_segment_ends", sub { $_[0] =~ /<\/[sS]>/ });
 	$self->var("todo", []);
+	$self->var("relsets", {});
 
 	# Create empty graph
 	$self->{'graphs'} = [DTAG::Graph->new($self)];

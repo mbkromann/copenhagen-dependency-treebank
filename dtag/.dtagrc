@@ -167,6 +167,10 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 #option post-print
 
 # Edge types
+macro cdtrels relset cdt http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv 
+cdtrels
+
+# Edge types
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
 
