@@ -1,6 +1,6 @@
-Tekst 0531
-<W msd="1" in="" out="1:ELAB|3:CAUSE">...wanted...</W>
-<W msd="2" in="-1:ELAB" out="1:...">...tried...</W>
-<W msd="3" in="-1:..." out="2:ELAB">basil</W>
-<W msd="4" in="-3:CAUSE" out="">...because...</W>
-<W msd="5" in="-2:ELAB" out="">...would...</W>
+<!-- <dtag>layout -vars /stream:.*/|_position</dtag> -->
+<W in="" out="1:conj|3:cause">...wanted...</W>
+<W in="-1:conj" out="1:...">...tried...</W>
+<W in="-1:..." out="2:ELAB&3a;exp">some(basil)</W>
+<W in="-3:cause" out="">because...</W>
+<W in="-2:ELAB&3a;exp" out="">...would...</W>

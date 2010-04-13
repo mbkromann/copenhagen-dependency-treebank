@@ -1,6 +1,4 @@
-Tekst 0531
-<W msd="1" in="1:qobj" out="4:COND/ATTR">...I\'ll...</W>
-<W msd="2" in="" out="-1:qobj|1:subj">promised</W>
-<W msd="3" in="-1:subj" out="1:relpa">...one...</W>
-<W msd="4" in="-1:relpa" out="">...gave...</W>
-<W msd="5" in="-4:COND/ATTR" out="">...stay...</W>
+<!-- <dtag>layout -vars /stream:.*/|_position</dtag> -->
+<W in="1:qobj" out="2:COND">...I'll(be)...</W>
+<W in="" out="-1:qobj">promised...</W>
+<W in="-2:COND" out="">As-long-as...</W>

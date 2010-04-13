@@ -27,7 +27,7 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="3:subj|5:[subj]|-12:assoc-const" out="1:attr|2:nobj">The</W>
+<W msd="PD" tag="DT" in="-12:assoc-const|3:subj|5:[subj]" out="1:attr|2:nobj">The</W>
 <W msd="VAG" tag="VBG" in="-1:attr" out="">prosecuting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">authority</W>
 <W msd="VADR" tag="VBZ" in="-22:CONJ/(and)" out="-3:subj|1:add|2:vobj|7:pnct">has</W>
@@ -65,7 +65,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="3:subj|-61:coref-var" out="1:nobj">The</W>
+<W msd="PD" tag="DT" in="-61:coref-var|3:subj" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:possd">bank's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">director</W>
 <W msd="VADA" tag="VBD" in="-23:CONJ/(and)" out="-3:subj|1:dobj|11:pnct">received</W>
@@ -82,3 +82,6 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
+<!-- <dtag>discourse4</dtag> -->
+<!-- <dtag>layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def /dL 0 def"</dtag> -->
+<!-- <dtag>layout -pssetup "/dA 5 def /dW 0 def /dWr 0.2 def /dL 0 def"</dtag> -->
