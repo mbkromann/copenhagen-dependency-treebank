@@ -21,7 +21,7 @@
 [*] de/0307-de-morten.tag
 [*] it/0307-it-morten.tag
 [*] da/0388-da-disc.tag
-[ ] de/0388-de-morten.tag
+[*] de/0388-de-morten.tag
 [*] it/0388-it-lisa.tag
 [*] da/0647-da-disc.tag
 [*] de/0647-de-morten.tag
@@ -38,17 +38,14 @@
 [*] da/1420-da-disc.tag
 [*] de/1420-de-morten.tag
 [*] it/1420-it-morten.tag
-
-
-
 [*] da/0421-da-disc.tag
-[ ] de/0421-de-morten.tag
-[ ] it/0421-it-morten.tag
+[*] de/0421-de-morten.tag
+[*] it/0421-it-morten.tag
 [*] da/0431-da-disc.tag
-[ ] de/0431-de-morten.tag
-[ ] it/0431-it-morten.tag
+[*] de/0431-de-morten.tag
+[*] it/0431-it-lisa.tag
 [*] da/0502-da-disc.tag
-[ ] de/0502-de-morten.tag
+[*] de/0502-de-morten.tag
 [ ] it/0502-it-morten.tag
 [*] da/0531-da-disc.tag
 [ ] de/0531-de-morten.tag
@@ -498,7 +495,7 @@
 [ ] da-de/0416-da-de-morten.atag
 [ ] de/0416-de-morten.tag
 [ ] da-de/0421-da-de-morten.atag
-[ ] de/0421-de-morten.tag
+[*] de/0421-de-morten.tag
 [ ] da-de/0422-da-de-morten.atag
 [ ] de/0422-de-morten.tag
 [ ] da-de/0426-da-de-morten.atag
@@ -506,7 +503,7 @@
 [ ] da-de/0428-da-de-morten.atag
 [ ] de/0428-de-morten.tag
 [ ] da-de/0431-da-de-morten.atag
-[ ] de/0431-de-morten.tag
+[*] de/0431-de-morten.tag
 [ ] da-de/0434-da-de-morten.atag
 [ ] de/0434-de-morten.tag
 [ ] da-de/0438-da-de-morten.atag
@@ -544,7 +541,7 @@
 [ ] da-de/0500-da-de-morten.atag
 [ ] de/0500-de-morten.tag
 [ ] da-de/0502-da-de-morten.atag
-[ ] de/0502-de-morten.tag
+[*] de/0502-de-morten.tag
 [ ] da-de/0507-da-de-morten.atag
 [ ] de/0507-de-morten.tag
 [ ] da-de/0510-da-de-morten.atag
@@ -4217,7 +4214,7 @@ Flere italienske tekster:
 [ ] da-de/0416-da-de-morten.atag
 [ ] de/0416-de-morten.tag
 [ ] da-de/0421-da-de-morten.atag
-[ ] de/0421-de-morten.tag
+[*] de/0421-de-morten.tag
 [ ] da-de/0422-da-de-morten.atag
 [ ] de/0422-de-morten.tag
 [ ] da-de/0426-da-de-morten.atag
@@ -4225,7 +4222,7 @@ Flere italienske tekster:
 [ ] da-de/0428-da-de-morten.atag
 [ ] de/0428-de-morten.tag
 [ ] da-de/0431-da-de-morten.atag
-[ ] de/0431-de-morten.tag
+[*] de/0431-de-morten.tag
 [ ] da-de/0434-da-de-morten.atag
 [ ] de/0434-de-morten.tag
 [ ] da-de/0438-da-de-morten.atag
@@ -4263,7 +4260,7 @@ Flere italienske tekster:
 [ ] da-de/0500-da-de-morten.atag
 [ ] de/0500-de-morten.tag
 [ ] da-de/0502-da-de-morten.atag
-[ ] de/0502-de-morten.tag
+[*] de/0502-de-morten.tag
 [ ] da-de/0507-da-de-morten.atag
 [ ] de/0507-de-morten.tag
 [ ] da-de/0510-da-de-morten.atag
