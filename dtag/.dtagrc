@@ -1,5 +1,5 @@
 # Set corpus
-corpus /opt/cdt/*/*.tag
+corpus /opt/cdt/{da,de,en,es,it}/*.tag
 
 # Define variables
 vars msd:m lemma:l gloss:g speaker:s lexeme:x sdeps:d compound:c omorph:o
@@ -185,7 +185,7 @@ etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr
 etypes -add -adj appa + appr attr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
-etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl intact
+etypes -add -adj about class concom const exem exp func path relp relpa resem rest spec xpl intact
 
 # Deleted by Lotte
 # etypes -add adjuncts discmark
