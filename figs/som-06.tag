@@ -2,8 +2,8 @@
 <W gloss="wanted-to" msd="VA" in="" out="-1:subj|1:vobj|2:pnct|3:mod">ville</W>
 <W gloss="dance" msd="VA" in="-1:vobj" out="-2:[subj]">danse</W>
 <W gloss="," msd="XP" in="-2:pnct" out="">,</W>
-<W gloss="before" msd="RG" in="-3:mod" out="3:coord">før</W>
+<W gloss="before" msd="RG" in="-3:mod" out="4:conj">før</W>
 <W gloss="as" msd="RG" in="2:mod" out="1:aobj">så</W>
 <W gloss="well" msd="AN" in="-1:aobj" out="">vel</W>
-<W gloss="as" msd="U" in="-3:coord" out="-2:mod|1:conj">som</W>
-<W gloss="now" msd="RG" in="-1:conj" out="">nu</W>
+<W gloss="as" msd="U" in="1:coord" out="-2:mod">som</W>
+<W gloss="now" msd="RG" in="-4:conj" out="-1:coord">nu</W>

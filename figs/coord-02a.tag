@@ -1,6 +1,6 @@
-<W gloss="apples" msd="NC" in="" out="1:coord|3:pnct|4:coord">æbler</W>
-<W gloss="and" msd="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="pears" msd="NC" in="-1:conj" out="">pærer</W>
+<W gloss="apples" msd="NC" in="" out="3:pnct|2:conj|5:conj">æbler</W>
+<W gloss="and" msd="CC" in="1:coord" out="">og</W>
+<W gloss="pears" msd="NC" in="-2:conj" out="-1:coord">pærer</W>
 <W gloss="," msd="XP" in="-3:pnct" out="">,</W>
-<W gloss="or" msd="CC" in="-4:coord" out="1:conj">eller</W>
-<W gloss="tomatoes" msd="NC" in="-1:conj" out="">tomater</W>
+<W gloss="or" msd="CC" in="1:coord" out="">eller</W>
+<W gloss="tomatoes" msd="NC" in="-5:conj" out="-1:coord">tomater</W>

@@ -1,10 +1,10 @@
-<W gloss="yes" msd="I" speaker="A" in="" out="1:mod|2:coord">ja~</W>
+<W gloss="yes" msd="I" speaker="A" in="" out="1:mod|6:conj">ja~</W>
 <W gloss="(pause)" msd="XX" speaker="A" in="-1:mod" out="">££</W>
-<W gloss="but" msd="CC" speaker="A" in="-2:coord" out="4:conj">men</W>
+<W gloss="but" msd="CC" speaker="A" in="4:coord" out="">men</W>
 <W gloss="I" msd="PP" speaker="1" in="2:subj" out="">jeg</W>
 <W gloss="it" msd="PP" speaker="A" in="2:subj" out="">det</W>
 <W gloss="stay" msd="VA" speaker="1" in="" out="-2:subj|3:dobj|5:mod|6:mod">opholder</W>
-<W gloss="is" msd="VA" speaker="A" in="-4:conj" out="-2:subj|1:mod|3:preds">er</W>
+<W gloss="is" msd="VA" speaker="A" in="-6:conj" out="-2:subj|1:mod|3:preds|-4:coord">er</W>
 <W gloss="yes" msd="I" speaker="A" in="-1:mod" out="">jo</W>
 <W gloss="me" msd="PP" speaker="1" in="-3:dobj" out="">mig</W>
 <W gloss="it" msd="PP" speaker="A" in="-3:preds" out="">det</W>

@@ -1,9 +1,9 @@
-<W gloss="Cake" msd="NC" in="5:nobj" out="7:coord">Kage</W>
-<W gloss="is" msd="VA" in="" out="1:subj|5:pnct|3:preds">er</W>
+<W gloss="Cake" msd="NC" in="5:nobj" out="8:conj">Kage</W>
+<W gloss="is" msd="VA" in="" out="1:subj|3:preds|5:pnct">er</W>
 <W gloss="she" msd="PP" in="-1:subj" out="">hun</W>
 <W gloss="really" msd="AN" in="1:mod" out="">rigtig</W>
 <W gloss="fond" msd="AN" in="-3:preds" out="-1:mod|1:pobj">glad</W>
 <W gloss="of" msd="SP" in="-1:pobj" out="-5:nobj">for</W>
 <W gloss="," msd="XP" in="-5:pnct" out="">,</W>
-<W gloss="and" msd="CC" in="-7:coord" out="1:conj">og</W>
-<W gloss="chocolate" msd="NC" in="-1:conj" out="">chokolade</W>
+<W gloss="and" msd="CC" in="1:coord" out="">og</W>
+<W gloss="chocolate" msd="NC" in="-8:conj" out="-1:coord">chokolade</W>

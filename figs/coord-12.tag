@@ -4,6 +4,6 @@
 <W gloss="become" msd="VA" in="-2:vobj" out="-3:[subj]|1:preds">blive</W>
 <W gloss="dependent" msd="AN" in="-1:preds" out="1:pobj">afhængigt</W>
 <W gloss="on" msd="SP" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="U.S.A" msd="NP" in="-1:nobj" out="1:coord">USA</W>
-<W gloss="or" msd="CC" in="-1:coord" out="-5:mod|1:conj">eller</W>
-<W gloss="Russia" msd="NP" in="-1:conj" out="">Rusland</W>
+<W gloss="U.S.A" msd="NP" in="-1:nobj" out="2:conj">USA</W>
+<W gloss="or" msd="CC" in="1:coord" out="-5:mod">eller</W>
+<W gloss="Russia" msd="NP" in="-2:conj" out="-1:coord">Rusland</W>

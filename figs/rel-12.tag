@@ -12,6 +12,6 @@
 <W gloss="are" msd="VA" in="-8:rel" out="-3:subj|-2:mod|1:vobj">er</W>
 <W gloss="surrounded" msd="VA" in="-1:vobj" out="1:pobj">omgivet</W>
 <W gloss="by" msd="SP" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="parents" msd="NC" in="-1:nobj" out="1:coord">forældre</W>
-<W gloss="and" msd="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="friends" msd="NC" in="-1:conj" out="">kammerater</W>
+<W gloss="parents" msd="NC" in="-1:nobj" out="2:conj">forældre</W>
+<W gloss="and" msd="CC" in="1:coord" out="">og</W>
+<W gloss="friends" msd="NC" in="-2:conj" out="-1:coord">kammerater</W>

@@ -5,6 +5,6 @@
 <W gloss="in" msd="SP" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="oven-the" msd="NC" in="-1:nobj" out="">ovnen</W>
 <W gloss="," msd="XP" in="-5:pnct" out="">,</W>
-<W gloss="browned" msd="VA" in="-6:modo" out="1:coord">brunet</W>
-<W gloss="and" msd="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="cut-up" msd="VA" in="-1:conj" out="">parteret</W>
+<W gloss="browned" msd="VA" in="-6:modo" out="2:conj">brunet</W>
+<W gloss="and" msd="CC" in="1:coord" out="">og</W>
+<W gloss="cut-up" msd="VA" in="-2:conj" out="-1:coord">parteret</W>
