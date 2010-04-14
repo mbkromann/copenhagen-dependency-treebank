@@ -151,10 +151,10 @@
 <W gloss="period" lemma="periode" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">periode</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-6:ref|5:time" out="">hvor</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|5:[subj]|9:[subj]" out="1:nobj">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|5:[subj]|9:[subj]" out="1:nobj|3:possd&3a;const">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
-<W gloss="parties" lemma="parti" msd="NCNPG==I" tag="NNP" in="-1:nobj" out="1:possd&3a;const">partiers</W>
-<W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:possd&3a;const" out="">folk</W>
+<W gloss="parties" lemma="parti" msd="NCNPG==I" tag="NNP" in="-1:nobj" out="">partiers</W>
+<W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-3:possd&3a;const" out="">folk</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-4:subj|-5:time|1:vobj">kan</W>
 <W gloss="teach" lemma="lære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|3:nobj">lære</W>
 <W gloss="each_other's" lemma="hinanden" msd="PC--PG---" tag="PP" in="-1:dobj" out="1:possd&3a;const">hinandens</W>
@@ -212,7 +212,7 @@
 <s>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="2:subj|4:[subj]" out="1:other">Det</W>
 <W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:other" out="">hele</W>
-<W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="15:qobj" out="-2:subj|2:vobj|5:pnct|6:cause|14:pnct|1:att">skulle</W>
+<W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="15:qobj" out="-2:subj|1:att|2:vobj|5:pnct|6:cause|14:pnct">skulle</W>
 <W gloss="hate" lemma="nødigt" msd="RGU" tag="RP" in="-1:att" out="">nødigt</W>
 <W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-4:[subj]|1:lobj">gå</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
