@@ -48,8 +48,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:subj" out="1:nobj">mange</W>
 <W gloss="Danes" lemma="dansker" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">danskere</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:pred|11:pnct">er</W>
-<W gloss="willing" lemma="villig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="1:pobj">villige</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|11:pnct|1:preds">er</W>
+<W gloss="willing" lemma="villig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">villige</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="pay" lemma="betale" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:pobj">betale</W>
@@ -76,12 +76,12 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="8:vobj">at</W>
-<W gloss="the_Danes'" lemma="dansker" msd="NCCPG==D" tag="NNP" in="7:subj|8:[subj]" out="1:mod|2:possd">danskernes</W>
-<W gloss="increased" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:mod" out="">større</W>
+<W gloss="the_Danes'" lemma="dansker" msd="NCCPG==D" tag="NNP" in="7:subj|8:[subj]" out="1:attr|2:possd">danskernes</W>
+<W gloss="increased" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">større</W>
 <W gloss="purchases" lemma="indkøb" msd="NCNPU==I" tag="NNP" in="-2:possd" out="1:pobj">indkøb</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
-<W gloss="durable" lemma="langvarig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">langvarige</W>
-<W gloss="consumer_goods" lemma="forbrugsgode" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:mod">forbrugsgoder</W>
+<W gloss="durable" lemma="langvarig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">langvarige</W>
+<W gloss="consumer_goods" lemma="forbrugsgode" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">forbrugsgoder</W>
 <W gloss="fully" lemma="til_fulde" msd="RGU" tag="RP" in="1:mod" out="">til_fulde</W>
 <W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="-8:vobj" out="-1:mod|-7:subj|1:vobj">ventes</W>
 <W gloss="to_be_compensated" lemma="kompensere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:pobj">kompenseret</W>
@@ -100,9 +100,9 @@
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-11:mod" out="1:nobj">som</W>
 <W gloss="consequence" lemma="konsekvens" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">konsekvens</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:mod|3:nobj">de</W>
-<W gloss="recent" lemma="nylig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">nylige</W>
-<W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:mod" out="">danske</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">de</W>
+<W gloss="recent" lemma="nylig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">nylige</W>
+<W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">danske</W>
 <W gloss="duty_reductions" lemma="afgiftsnedsættelse" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">afgiftsnedsættelser</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
@@ -128,10 +128,10 @@
 <W gloss="the_reduction_in_duty" lemma="afgiftsnedsættelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:mod">afgiftsnedsættelsen</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="October" lemma="oktober" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">oktober</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|2:mod|3:pred|4:mod|6:coord|10:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|2:mod|4:mod|6:coord|10:pnct|3:preds">er</W>
 <W gloss="the_price" lemma="pris" msd="NCCSU==D" tag="NN" in="-1:subj" out="">prisen</W>
 <W gloss="typically" lemma="typisk" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">typisk</W>
-<W gloss="2.25" lemma="2,25" msd="AC---U=--" tag="CD" in="-3:pred" out="">2,25</W>
+<W gloss="2.25" lemma="2,25" msd="AC---U=--" tag="CD" in="-3:preds" out="">2,25</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-6:coord" out="1:&lt;pred&gt;|2:&lt;mod&gt;">og</W>
@@ -141,8 +141,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="9:subj|10:[subj]" out="1:mod|2:nobj|3:ref|4:rel">Den</W>
-<W gloss="smaller" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:mod" out="">mindre</W>
+<W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="9:subj|10:[subj]" out="1:attr|2:nobj|3:ref|4:rel">Den</W>
+<W gloss="smaller" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">mindre</W>
 <W gloss="price_difference" lemma="prisforskel" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">prisforskel</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">som</W>
 <W gloss="applies" lemma="gælde" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|2:dobj">gælder</W>
@@ -168,8 +168,8 @@
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|5:pnct">kan</W>
 <W gloss="be_done" lemma="ske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod">ske</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="2:nobj">i</W>
-<W gloss="great" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">store</W>
-<W gloss="quantities" lemma="mængde" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:mod">mængder</W>
+<W gloss="great" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
+<W gloss="quantities" lemma="mængde" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">mængder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-22:qobj|4:subj|5:pnct">siger</W>
@@ -222,8 +222,8 @@
 </p>
 <p>
 <s>
-<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:mod|2:nobj">De</W>
-<W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">nye</W>
+<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">De</W>
+<W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">nye</W>
 <W gloss="rules" lemma="regel" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">regler</W>
 <W gloss="mean" lemma="betyde" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:mod|2:pnct|3:dobj|22:pnct">betyder</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:mod" out="">bl.a.</W>
@@ -244,7 +244,7 @@
 <W gloss="liters" lemma="liter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:nobj">liter</W>
 <W gloss="wine" lemma="vin" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">vin</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-8:conj" out="1:nobj|-1:coord">20</W>
+<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-8:conj" out="-1:coord|1:nobj">20</W>
 <W gloss="liters" lemma="liter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:nobj">liter</W>
 <W gloss="fortified_wine" lemma="hedvin" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hedvin</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>

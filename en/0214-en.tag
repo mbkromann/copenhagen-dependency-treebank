@@ -11,8 +11,8 @@
 <W msd="AC" tag="CD" in="-1:nobj|-1:pnct#" out="">1972,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="" out="-11:mod|-1:subj|-8:mod|-4:mod|1:dobj|4:pobj|6:pnct">earmarked</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:mod|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">first</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:nobj|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">millions</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">biotechnology</W>
@@ -20,8 +20,8 @@
 </s>
 <s>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj|5:pnct">In</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="1:nobj">subsequent</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="1:nobj">subsequent</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">10</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -33,8 +33,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">given</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">individual</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|3:conj">projects</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">individual</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="3:conj|-1:attr">projects</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">research</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod|-2:coord">institutes</W>
@@ -86,8 +86,8 @@
 </s>
 <s>
 <W msd="SP" tag="IN" in="7:mod" out="2:nobj|3:pnct">In</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">recent</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">years</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">recent</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">years</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="ANP" tag="JJ" in="1:numm" out="">600-1,000</W>
@@ -115,11 +115,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">proposal</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">parliamentary</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:pobj">resolution</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">parliamentary</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|-1:attr">resolution</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">biotechnological</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">biotechnological</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="3:conj">research</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">development</W>
@@ -127,8 +127,8 @@
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-16:mod" out="-16:[subj]|1:mod|5:pobj">introduced</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod|1:pnct#|2:nobj|2:pnct#">March</W>
-<W msd="AC" tag="CD" in="-1:mod|-1:pnct#" out="">21,</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct#|2:nobj|2:pnct#|1:attr">March</W>
+<W msd="AC" tag="CD" in="-1:pnct#|-1:attr" out="">21,</W>
 <W msd="AC" tag="CD" in="-2:nobj|-2:pnct#" out="">1986,</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="2:nobj">by</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jytte</W>
@@ -151,12 +151,12 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]|8:[subj]" out="-3:mod|1:mod|3:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">German</W>
+<W msd="PD" tag="DT" in="4:subj|5:[subj]|8:[subj]" out="-3:mod|3:nobj|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">German</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">support</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">programmes</W>
 <W msd="VADR" tag="VBP" in="-9:vobj" out="-4:subj|1:vobj|26:pnct">seem</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part|4:mod|3:conj">drawn</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part|3:conj|4:mod">drawn</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="-3:conj" out="-8:[subj]|-1:coord">distributed</W>
@@ -173,14 +173,14 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Technology</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="4:mod" out="2:conj">private</W>
+<W msd="ANP" tag="JJ" in="4:attr" out="2:conj">private</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">public</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">research</W>
-<W msd="NC=S" tag="NN" in="-11:conj" out="-1:mod|-4:mod">institutes</W>
+<W msd="NC=S" tag="NN" in="-11:conj" out="-1:mod|-4:attr">institutes</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">industrial</W>
-<W msd="NC=P" tag="NNS" in="-14:conj" out="-1:mod|-2:coord">interests</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">industrial</W>
+<W msd="NC=P" tag="NNS" in="-14:conj" out="-2:coord|-1:attr">interests</W>
 <W msd="XP" tag="," in="-26:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Danish</W>
@@ -188,15 +188,15 @@
 <W msd="VADR" tag="VBZ" in="" out="-39:mod|-3:subj|1:vobj|16:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod|5:pobj">characterised</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">high</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">high</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">degree</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="5:nobj">by</W>
-<W msd="ANP" tag="JJ" in="4:mod" out="3:conj">public</W>
+<W msd="ANP" tag="JJ" in="4:attr" out="3:conj">public</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">particularly</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:mod|-2:coord">parliamentary</W>
-<W msd="NC=S" tag="NN" in="-5:nobj" out="-4:mod|1:pobj">participation</W>
+<W msd="NC=S" tag="NN" in="-5:nobj" out="1:pobj|-4:attr">participation</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">decision-making</W>
@@ -210,8 +210,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">motion</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">by</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">parliamentary</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">parliamentary</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">resolution</W>
 <W msd="CS" tag="IN" in="-7:mod" out="1:nobj">after</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">a</W>

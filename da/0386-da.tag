@@ -127,11 +127,11 @@
 <W gloss="the_night" lemma="nat" msd="NCCSU==D" tag="NN" in="1:tobj" out="">natten</W>
 <W gloss="before" lemma="før" msd="RGU" tag="RP" in="1:time" out="-1:tobj">før</W>
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-1:time|1:vobj">havde</W>
-<W gloss="made" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj|4:pred">gjort</W>
+<W gloss="made" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj|4:preds">gjort</W>
 <W gloss="roads" lemma="vej" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="2:conj">veje</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="togskinner" lemma="togskinne" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">togskinner</W>
-<W gloss="impassable" lemma="ufremkommelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:pred" out="">ufremkommelige</W>
+<W gloss="impassable" lemma="ufremkommelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:preds" out="">ufremkommelige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -181,7 +181,7 @@
 <W gloss="may" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pobj|3:conj">måtte</W>
 <W gloss="by" lemma="af" msd="RGU" tag="RP" in="-1:pobj" out="">af</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="walk" lemma="gå" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-4:[subj]|1:lobj|-1:coord">gå</W>
+<W gloss="walk" lemma="gå" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj">gå</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:lobj" out="1:nobj">et</W>
 <W gloss="piece" lemma="stykke" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">stykke</W>
 <W gloss="path" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">vej</W>
@@ -212,7 +212,7 @@
 <W gloss="seven-year_old" lemma="syv-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:time">syv-årige</W>
 <W gloss="offspring" lemma="pode" msd="NCCSU==I" tag="NN" in="-3:possd" out="">pode</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="answered" lemma="svare" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-5:subj|1:time|2:pnct|4:qobj|-6:coord">svarede</W>
+<W gloss="answered" lemma="svare" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-5:subj|-6:coord|1:time|2:pnct|4:qobj">svarede</W>
 <W gloss="immediately" lemma="straks" msd="RGU" tag="RP" in="-1:time" out="">straks</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

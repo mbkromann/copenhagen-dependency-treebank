@@ -1,7 +1,7 @@
 <W gloss="It" msd="PD" in="1:subj" out="">Det</W>
-<W gloss="was" msd="VA" in="" out="-1:subj|1:pred">var</W>
-<W gloss="a" msd="PI" in="-1:pred" out="1:mod|3:nobj">en</W>
-<W gloss="good" msd="AN" in="-1:mod" out="1:mod">god</W>
+<W gloss="was" msd="VA" in="" out="-1:subj|1:preds">var</W>
+<W gloss="a" msd="PI" in="-1:preds" out="1:attr|3:nobj">en</W>
+<W gloss="good" msd="AN" in="-1:attr" out="1:mod">god</W>
 <W gloss="enough" msd="AN" in="-1:mod" out="2:pobj">nok</W>
 <W gloss="idea" msd="NC" in="-3:nobj" out="">ide</W>
 <W gloss="to" msd="SP" in="-2:pobj" out="1:nobj">til</W>

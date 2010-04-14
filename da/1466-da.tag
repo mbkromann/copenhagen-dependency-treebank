@@ -101,8 +101,8 @@
 <W gloss="electric_side_view_mirrors" lemma="el-sidespejl" msd="NCNPU==I" tag="NNP" in="-6:conj" out="">el-sidespejle</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="central_locking_system" lemma="centrallås" msd="NCCSU==I" tag="NN" in="-8:conj" out="-1:coord">centrallås</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:pred|2:pnct">er</W>
-<W gloss="standard" lemma="standard" msd="NCCSU==I" tag="NN" in="-1:pred" out="">standard</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|2:pnct|1:preds">er</W>
+<W gloss="standard" lemma="standard" msd="NCCSU==I" tag="NN" in="-1:preds" out="">standard</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>
@@ -126,22 +126,22 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="is_focus" lemma="focusere" msd="VADR=----P-" tag="VBD" in="-2:vobj" out="-1:expl|1:pobj|8:pnct">focuseres</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:mod|3:nobj">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">det</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
-<W gloss="close" lemma="nær" msd="ANP[CN]SU=DU" tag="JJ" in="-2:mod" out="-1:mod">nære</W>
+<W gloss="close" lemma="nær" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:mod">nære</W>
 <W gloss="relationship" lemma="forhold" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="VW" lemma="VW" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">VW</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|2:pred|5:pnct|22:pnct|8:conj">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|5:pnct|8:conj|22:pnct|2:preds">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="1:mod|2:nobj">en</W>
-<W gloss="Spanish" lemma="spansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:mod" out="">spansk</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
+<W gloss="Spanish" lemma="spansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">spansk</W>
 <W gloss="car" lemma="bil" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bil</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|3:[subj]" out="">den</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|1:mod|2:vobj|-2:coord">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:mod|2:vobj">skal</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
 <W gloss="prove" lemma="bevise" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pnct|2:dobj">bevise</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -173,12 +173,12 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="engine" lemma="motor" msd="NCCSU==I" tag="NN" in="" out="1:list|3:list|8:pnct|5:conj">Motor</W>
+<W gloss="engine" lemma="motor" msd="NCCSU==I" tag="NN" in="" out="1:list|3:list|5:conj|8:pnct">Motor</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:list" out="1:nobj">på</W>
 <W gloss="-" lemma="tværs" msd="RGU" tag="RP" in="-1:nobj" out="">tværs</W>
 <W gloss="in_front" lemma="foran" msd="RGU" tag="RP" in="-3:list" out="">foran</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="features" lemma="træk" msd="NCNSU==I" tag="NN" in="-5:conj" out="1:mod|-1:coord">træk</W>
+<W gloss="features" lemma="træk" msd="NCNSU==I" tag="NN" in="-5:conj" out="-1:coord|1:mod">træk</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="forhjulene" lemma="forhjul" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">forhjulene</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -199,8 +199,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Max" lemma="maksimal" msd="ANPNSU=IU" tag="JJ" in="1:mod" out="">Maks.</W>
-<W gloss="torque" lemma="drejningsmoment" msd="NCNSU==I" tag="NN" in="" out="-1:mod|1:pnct|2:xpl|7:pnct">drejningsmoment</W>
+<W gloss="Max" lemma="maksimal" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">Maks.</W>
+<W gloss="torque" lemma="drejningsmoment" msd="NCNSU==I" tag="NN" in="" out="-1:attr|1:pnct|2:xpl|7:pnct">drejningsmoment</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="166" lemma="166" msd="AC---U=--" tag="CD" in="-2:xpl" out="1:nobj|2:mod">166</W>
 <W gloss="Nm" lemma="Nm" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nm</W>
@@ -210,8 +210,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Electronic" lemma="elektronisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:mod" out="">Elektronisk</W>
-<W gloss="injection" lemma="indsprøjtning" msd="NCCSU==I" tag="NN" in="" out="-1:mod|1:pnct">indsprøjtning</W>
+<W gloss="Electronic" lemma="elektronisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Elektronisk</W>
+<W gloss="injection" lemma="indsprøjtning" msd="NCCSU==I" tag="NN" in="" out="-1:attr|1:pnct">indsprøjtning</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -225,16 +225,16 @@
 <s>
 <W gloss="BRAKES" lemma="bremse" msd="NCCPU==I" tag="NNP" in="" out="1:pnct|3:xpl|8:pnct">BREMSER</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W gloss="Ventilated" lemma="ventilleret" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">Ventillerede</W>
-<W gloss="disc" lemma="skive" msd="NCCPU==I" tag="NNP" in="-3:xpl" out="-1:mod|1:mod|3:conj">skiver</W>
+<W gloss="Ventilated" lemma="ventilleret" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Ventillerede</W>
+<W gloss="disc" lemma="skive" msd="NCCPU==I" tag="NNP" in="-3:xpl" out="-1:attr|1:mod|3:conj">skiver</W>
 <W gloss="front" lemma="for" msd="RGU" tag="RP" in="-1:mod" out="">for</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="disc" lemma="skive" msd="NCCPU==I" tag="NNP" in="-3:conj" out="1:mod|-1:coord">skiver</W>
+<W gloss="disc" lemma="skive" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:coord|1:mod">skiver</W>
 <W gloss="back" lemma="bag" msd="RGU" tag="RP" in="-1:mod" out="">bag</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="MEASUREMENT" lemma="mål" msd="NCNSU==I" tag="NN" in="" out="3:pnct|4:xpl|8:pnct|2:conj">MÅL</W>
+<W gloss="MEASUREMENT" lemma="mål" msd="NCNSU==I" tag="NN" in="" out="2:conj|3:pnct|4:xpl|8:pnct">MÅL</W>
 <W gloss="AND" lemma="og" msd="CC" tag="CC" in="1:coord" out="">OG</W>
 <W gloss="WEIGHT" lemma="vægt" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">VÆGT</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
@@ -260,7 +260,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="WHEELS" lemma="hjul" msd="NCNPU==I" tag="NNP" in="" out="3:pnct|4:xpl|6:pnct|2:conj">HJUL</W>
+<W gloss="WHEELS" lemma="hjul" msd="NCNPU==I" tag="NNP" in="" out="2:conj|3:pnct|4:xpl|6:pnct">HJUL</W>
 <W gloss="AND" lemma="og" msd="CC" tag="CC" in="1:coord" out="">OG</W>
 <W gloss="RIM" lemma="fælg" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">FÆLGE</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>

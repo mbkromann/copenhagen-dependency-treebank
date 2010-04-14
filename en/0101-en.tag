@@ -5,7 +5,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:expl|1:dobj|20:pnct|10:conj">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:expl|1:dobj|10:conj|20:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="3:nobj">a</W>
 <W msd="NC=S" tag="NN" in="2:mod" out="">team</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">time</W>
@@ -15,11 +15,11 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Ariostea</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-3:mod|-1:subj|1:pobj|-5:coord">triumphed</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|3:pred">with</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-3:mod|-1:subj|-5:coord|1:pobj">triumphed</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|3:preds">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">victory</W>
-<W msd="SP" tag="IN" in="-3:pred" out="1:nobj">of</W>
+<W msd="SP" tag="IN" in="-3:preds" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod">41.23</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">minutes</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
@@ -29,8 +29,8 @@
 </s>
 <s>
 <W msd="SP" tag="IN" in="3:mod" out="2:nobj">In</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">second</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">place</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">second</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">place</W>
 <W msd="VADA" tag="VBD" in="" out="-3:mod|1:subj|8:mod|10:pnct">came</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="1:mod">Castorama</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">with</W>
@@ -65,24 +65,24 @@
 <s>
 <W msd="AC" tag="CD" in="-4:nobj" out="">seven</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="-19:conj" out="-7:mod|-1:pnct|1:pnct|2:mod|-12:coord">Z</W>
+<W msd="NP=S" tag="NNP" in="-19:conj" out="-7:mod|-1:pnct|-12:coord|1:pnct|2:mod">Z</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Lemond</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="2:subj" out="1:mod">The</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">next</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:pred|12:pnct">were</W>
-<W msd="NP=S" tag="NNP" in="-1:pred" out="1:pnct|3:conj|4:pnct|5:conj|7:conj">Motorola</W>
+<W msd="PD" tag="DT" in="2:subj" out="1:attr">The</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">next</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|12:pnct|1:preds">were</W>
+<W msd="NP=S" tag="NNP" in="-1:preds" out="1:pnct|3:conj|4:pnct|5:conj|7:conj">Motorola</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Gatorade-Chateau</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:mod">d'Ax</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-5:conj" out="">Banesto</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NP=S" tag="NNP" in="-7:conj" out="1:mod|-1:coord">Amaya</W>
+<W msd="NP=S" tag="NNP" in="-7:conj" out="-1:coord|1:mod">Amaya</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">with</W>
 <W msd="SP" tag="IN" in="1:namef" out="">Per</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Pedersen</W>
@@ -90,7 +90,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|37:pnct|29:conj">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|29:conj|37:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">thought</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="5:vobj">that</W>
@@ -101,8 +101,8 @@
 <W msd="VA" tag="MD" in="-5:vobj" out="-4:subj|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj">achieve</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|3:pnct|5:ref|7:rel">a</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">top</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">placement</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">top</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">placement</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">by</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-5:ref" out="">which</W>
@@ -112,19 +112,19 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="RG" tag="RP" in="-2:lobj" out="-1:mod|1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">overall</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">overall</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">position</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|7:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">team</W>
-<W msd="VADA" tag="VBD" in="-29:conj" out="-2:subj|2:dobj|-3:coord|5:conj">had</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">bad</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:mod">luck</W>
+<W msd="VADA" tag="VBD" in="-29:conj" out="-2:subj|-3:coord|2:dobj|5:conj">had</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">bad</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">luck</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">never</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-7:[subj]|-1:mod|1:dobj|-2:coord">found</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-7:[subj]|-1:mod|-2:coord|1:dobj">found</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">rhythm</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
@@ -132,15 +132,15 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:subj" out="">Many</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|2:dobj|3:pnct">had</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">bad</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:mod">luck</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">bad</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">luck</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Alcala</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:mod|18:pnct|10:conj">had</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">flat</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:mod|10:conj|18:pnct">had</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">flat</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">tire</W>
 <W msd="CS" tag="IN" in="-4:mod" out="1:nobj">after</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">five</W>
@@ -148,9 +148,9 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Greg</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Lemond</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|1:dobj|4:mod|-3:coord">had</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">flat</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|-3:coord|1:dobj|4:mod">had</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">flat</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">tire</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:nobj">after</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">only</W>
@@ -192,11 +192,11 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">abilities</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|4:mod">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">last</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|4:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">curve</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-4:mod" out="-1:mod|1:nobj">700</W>
+<W msd="AC" tag="CD" in="-4:attr" out="-1:mod|1:nobj">700</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">metres</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -208,13 +208,13 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Rolf</W>
 <W msd="NP=S" tag="NNP" in="3:subj" out="-1:namef|2:possd">Sørensen's</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">back</W>
-<W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">wheel</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-3:subj|1:pnct|14:pnct|4:conj">slipped</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">back</W>
+<W msd="NC=S" tag="NN" in="-2:possd" out="-1:attr">wheel</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-3:subj|1:pnct|4:conj|14:pnct">slipped</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:mod">he</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-1:subj|1:pnct|-2:coord">crashed</W>
+<W msd="VADA" tag="VBD" in="-4:conj" out="-1:subj|-2:coord|1:pnct">crashed</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-3:mod" out="3:dobj|6:mod">pulling</W>
 <W msd="PD" tag="DT" in="3:mod" out="">both</W>

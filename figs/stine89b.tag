@@ -1,12 +1,12 @@
-<W gloss="Marie" msd="NP" in="9:subj" out="2:mod|1:pnct">Marie</W>
+<W gloss="Marie" msd="NP" in="9:subj" out="1:pnct|2:mod">Marie</W>
 <W gloss="," msd="XP" in="-1:pnct" out="">,</W>
 <W gloss="to" msd="SP" in="-2:mod|5:[pobj]" out="1:nobj|3:rel">for</W>
 <W gloss="who" msd="PT" in="-1:nobj" out="">hvem</W>
 <W gloss="Peter" msd="NP" in="1:subj" out="">Peter</W>
 <W gloss="has" msd="VA" in="-3:rel" out="-1:subj|2:dobj|3:pnct">har</W>
-<W gloss="great" msd="AN" in="1:mod" out="">stor</W>
-<W gloss="importance" msd="NC" in="-2:dobj" out="-1:mod|-5:[pobj]">betydning</W>
+<W gloss="great" msd="AN" in="1:attr" out="">stor</W>
+<W gloss="importance" msd="NC" in="-2:dobj" out="-5:[pobj]|-1:attr">betydning</W>
 <W gloss="," msd="XP" in="-3:pnct" out="">,</W>
-<W gloss="is" msd="VA" in="" out="-9:subj|1:pred">er</W>
-<W gloss="89" msd="AC" in="-1:pred" out="1:nobj">89</W>
+<W gloss="is" msd="VA" in="" out="-9:subj|1:preds">er</W>
+<W gloss="89" msd="AC" in="-1:preds" out="1:nobj">89</W>
 <W gloss="years" msd="NC" in="-1:nobj" out="">år</W>

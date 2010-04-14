@@ -116,7 +116,7 @@
 <W lemma="mucho" msd="QU" in="-1:nobj" out="1:nobj">muchos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
-<W lemma="tener" msd="VLfin" in="-8:coref" out="1:dobj|3:fpredo|4:time|8:pnct|10:conj|10:coref|25:pnct|26:coref-res|14:conj">Tuvo</W>
+<W lemma="tener" msd="VLfin" in="-8:coref" out="1:dobj|3:fpredo|4:time|8:pnct|10:conj|10:coref|14:conj|25:pnct|26:coref-res">Tuvo</W>
 <W lemma="3" msd="CARD" in="-1:dobj" out="1:nobj">3</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">niños</W>
 <W lemma="seguir" msd="VLadj" in="-3:fpredo" out="">seguidos</W>
@@ -130,10 +130,10 @@
 <W lemma="tener" msd="VLinf" in="-1:vobj" out="1:dobj">tener</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="">más</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:coref|-14:conj" out="1:vobj|4:cause|7:coref|16:coref|-1:coord">quería</W>
-<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:pred">estar</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:coref|-14:conj" out="-1:coord|1:vobj|4:cause|7:coref|16:coref">quería</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds">estar</W>
 <W lemma="completamente" msd="ADV" in="1:degr" out="">completamente</W>
-<W lemma="seguro" msd="ADJ" in="-2:pred" out="-1:degr">segura</W>
+<W lemma="seguro" msd="ADJ" in="-2:preds" out="-1:degr">segura</W>
 <W lemma="a" msd="PREP" in="-4:cause" out="1:nobj">a</W>
 <W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj">causa</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
@@ -142,8 +142,8 @@
 <W lemma="al" msd="PAL" in="-1:pobj&3a;arg" out="1:nobj">al</W>
 <W lemma="aborto" msd="NC" in="-1:nobj" out="">aborto</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
-<W lemma="esto~es" msd="ADV" in="-26:coref-res" out="1:pred">Esto es</W>
-<W lemma="por" msd="PREP" in="-1:pred" out="1:nobj|3:rel">por</W>
+<W lemma="esto~es" msd="ADV" in="-26:coref-res" out="1:preds">Esto es</W>
+<W lemma="por" msd="PREP" in="-1:preds" out="1:nobj|3:rel">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|30:coref-id">lo</W>
 <W lemma="cual" msd="REL" in="-1:nobj" out="">cual</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:rel|-16:coref" out="1:dobj|7:coref|14:pnct">eligió</W>
@@ -157,7 +157,7 @@
 <W lemma="funcionar" msd="VLfin" in="-7:rel" out="-3:subj|-2:loc|1:man">funcionaban</W>
 <W lemma="bien" msd="ADV" in="-1:man" out="2:conj">bien</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="sin" msd="PREP" in="-2:conj" out="1:nobj|-1:coord">sin</W>
+<W lemma="sin" msd="PREP" in="-2:conj" out="-1:coord|1:nobj">sin</W>
 <W lemma="efecto" msd="NC" in="-1:nobj|-11:assoc-scope" out="1:attrr#">efectos</W>
 <W lemma="secundario" msd="ADJ" in="-1:attrr#" out="">secundarios</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
@@ -165,7 +165,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj|-9:coref" out="1:dobj|5:coref">cumplió</W>
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">40</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:time|1:pobj|3:pobj|12:pnct|36:pnct|17:conj|20:conj">hablé</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:time|1:pobj|3:pobj|12:pnct|17:conj|20:conj|36:pnct">hablé</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="l" msd="PPX" in="-1:nobj|-5:coref" out="12:coref-id">ella</W>
 <W lemma="sobre" msd="PREP" in="-3:pobj" out="1:nobj">sobre</W>
@@ -182,10 +182,10 @@
 <W lemma="l" msd="PPX" in="-12:coref-id|3:subj" out="">ella</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">no</W>
 <W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
-<W lemma="desear" msd="VLfin" in="-17:conj" out="-1:dobj|-3:subj|-2:neg|1:degr|3:coref|11:coref-res|-4:coord">deseaba</W>
+<W lemma="desear" msd="VLfin" in="-17:conj" out="-1:dobj|-3:subj|-2:neg|-4:coord|1:degr|3:coref|11:coref-res">deseaba</W>
 <W lemma="en~absoluto" msd="ADV" in="-1:degr" out="">en absoluto</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-3:coref|-20:conj" out="1:avobj|4:dobj|-1:coord">tomó</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-3:coref|-20:conj" out="-1:coord|1:avobj|4:dobj">tomó</W>
 <W lemma="por" msd="PREP" in="-1:avobj" out="1:nobj">por</W>
 <W lemma="cuenta" msd="NC" in="-1:nobj" out="1:attr">cuenta</W>
 <W lemma="propio" msd="ADJ" in="-1:attr" out="">propia</W>

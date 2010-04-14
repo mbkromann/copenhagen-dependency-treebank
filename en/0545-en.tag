@@ -8,16 +8,16 @@
 <s>
 <W msd="U=" tag="TO" in="" out="1:vobj|18:pnct">To</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">describe</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:mod|2:nobj|3:mod|8:conj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">magnetic</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:nobj|3:mod|8:conj|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">magnetic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">field</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">around</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">an</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">electronic</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">an</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">electronic</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="">current</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="PD" tag="DT" in="-8:conj" out="1:mod|2:nobj|3:mod|-1:coord">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">electronic</W>
+<W msd="PD" tag="DT" in="-8:conj" out="-1:coord|2:nobj|3:mod|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">electronic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">field</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">around</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:mod">a</W>
@@ -30,10 +30,10 @@
 <W msd="NP=S" tag="NNP" in="" out="">Apparatus</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Voltage</W>
-<W msd="NC=S" tag="NN" in="" out="-1:mod|2:modp|6:pnct|7:conj|8:pnct|10:conj|11:pnct|13:conj|14:pnct|16:conj|17:pnct|18:conj|32:pnct|34:conj|35:pnct|37:conj|40:pnct|39:conj">source</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Voltage</W>
+<W msd="NC=S" tag="NN" in="" out="2:modp|6:pnct|7:conj|8:pnct|10:conj|11:pnct|13:conj|14:pnct|16:conj|17:pnct|18:conj|32:pnct|34:conj|35:pnct|37:conj|39:conj|40:pnct|-1:attr">source</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
-<W msd="NP=S" tag="NNP" in="-2:modp" out="-1:pnct|3:pnct|2:conj">AC</W>
+<W msd="NP=S" tag="NNP" in="-2:modp" out="-1:pnct|2:conj|3:pnct">AC</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">DC</W>
 <W msd="XP" tag=")" in="-3:pnct" out="">)</W>
@@ -46,12 +46,12 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">bar</W>
 <W msd="NC=S" tag="NN" in="-13:conj" out="-1:mod">magnet</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">sensitive</W>
-<W msd="NC=S" tag="NN" in="-16:conj" out="-1:mod">voltmeter</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">sensitive</W>
+<W msd="NC=S" tag="NN" in="-16:conj" out="-1:attr">voltmeter</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="-18:conj" out="2:modp">coils</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
-<W msd="AC" tag="CD" in="-2:modp" out="-1:pnct|1:nobj|2:pnct|3:conj|11:pnct|9:conj">200</W>
+<W msd="AC" tag="CD" in="-2:modp" out="-1:pnct|1:nobj|2:pnct|3:conj|9:conj|11:pnct">200</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">wind.</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-3:conj" out="1:nobj">400</W>
@@ -60,7 +60,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="AC" tag="CD" in="-9:conj" out="1:nobj|-1:coord">1600</W>
+<W msd="AC" tag="CD" in="-9:conj" out="-1:coord|1:nobj">1600</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">wind.</W>
 <W msd="XP" tag=")" in="-11:pnct" out="">)</W>
 <W msd="XP" tag="," in="-32:pnct" out="">,</W>
@@ -82,8 +82,8 @@
 <s>
 <W msd="NC=P" tag="NNS" in="" out="1:pobj|4:pnct">Induction</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">magnetic</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">fields</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">magnetic</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">fields</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 </s>
 <s>
@@ -114,21 +114,21 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="" out="1:part|2:dobj|8:pnct|5:conj">Turn</W>
+<W msd="NC=S" tag="NN" in="" out="1:part|2:dobj|5:conj|8:pnct">Turn</W>
 <W msd="SP" tag="IN" in="-1:part" out="">on</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">current</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="1:dobj|-1:coord">observe</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-1:coord|1:dobj">observe</W>
 <W msd="PT" tag="WP" in="-1:dobj" out="1:ref|1:rel">what</W>
 <W msd="VADR" tag="VBZ" in="-1:ref|-1:rel" out="">happens</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="" out="1:dobj|6:pnct|5:conj">Switch</W>
+<W msd="NC=S" tag="NN" in="" out="1:dobj|5:conj|6:pnct">Switch</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">current</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">direction</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">current</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">direction</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-5:conj" out="-1:coord">observe</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
@@ -152,8 +152,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">strength</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">magnetic</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">fields</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">magnetic</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">fields</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
@@ -177,8 +177,8 @@
 <s>
 <W msd="NC=P" tag="NNS" in="" out="1:pobj|4:pnct">Induction</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">electronic</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">fields</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">electronic</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">fields</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 </s>
 <s>
@@ -194,7 +194,7 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|15:pnct|9:conj">Move</W>
+<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|9:conj|15:pnct">Move</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">magnet</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
@@ -203,7 +203,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wire</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-9:conj" out="1:dobj|-1:coord">observe</W>
+<W msd="VAF" tag="VB" in="-9:conj" out="-1:coord|1:dobj">observe</W>
 <W msd="PT" tag="WP" in="-1:dobj|1:[subj]" out="1:rel">what</W>
 <W msd="VADR" tag="VBZ" in="-1:rel" out="-1:[subj]|1:pobj">happens</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -241,7 +241,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="">voltmeter</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="PD" tag="DT" in="-5:conj" out="1:nobj|-1:coord">the</W>
+<W msd="PD" tag="DT" in="-5:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">magnets</W>
 <W msd="CS" tag="IN" in="-8:pobj" out="1:obl">as</W>
 <W msd="SP" tag="IN" in="-1:obl" out="1:nobj">in</W>
@@ -256,15 +256,15 @@
 <W msd="NC=P" tag="NNS" in="" out="">Results</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Magnetic</W>
-<W msd="NC=P" tag="NNS" in="" out="-1:mod|1:pnct">fields</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Magnetic</W>
+<W msd="NC=P" tag="NNS" in="" out="1:pnct|-1:attr">fields</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:dobj|8:pnct">Describe</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj|3:mod">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">magnetic</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">field</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">magnetic</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">field</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">around</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:nobj">a</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">conducting</W>
@@ -273,8 +273,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:dobj|16:pnct">Describe</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:mod|2:nobj|3:mod">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">experimental</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="2:nobj|3:mod|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">experimental</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">procedure</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>
@@ -286,7 +286,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">strength</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">magnetic</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">field</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">magnetic</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">field</W>
 <W msd="XP" tag="&3a;" in="-16:pnct" out="">:</W>
 </s>

@@ -56,8 +56,8 @@
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="6:subj|7:[subj]|8:[subj]" out="1:nobj">alle</W>
 <W gloss="trucks" lemma="lastbil" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lastbiler</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="4:mod" out="2:nobj">fra</W>
-<W gloss="1," lemma="1." msd="AO---U=--" tag="JJ" in="1:mod" out="">1.</W>
-<W gloss="January" lemma="januar" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:mod|1:nobj">januar</W>
+<W gloss="1," lemma="1." msd="AO---U=--" tag="JJ" in="1:attr" out="">1.</W>
+<W gloss="January" lemma="januar" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:nobj">januar</W>
 <W gloss="1994," lemma="1994" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1994</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-4:mod|1:vobj|6:pnct|7:mod">skal</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">være</W>
@@ -71,10 +71,10 @@
 <W gloss="maximum" lemma="maksimal" msd="ANP---=-R" tag="JJ" in="1:mod" out="">maksimalt</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:expl|-1:mod|1:vobj">kan</W>
 <W gloss="be_driven" lemma="køre" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-3:[expl]|1:mod">køres</W>
-<W gloss="at" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|3:pred">med</W>
+<W gloss="at" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|3:preds">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="top_speed" lemma="topfart" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">topfart</W>
-<W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:pred" out="1:nobj">på</W>
+<W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:preds" out="1:nobj">på</W>
 <W gloss="85" lemma="85" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">85</W>
 <W gloss="km/h" lemma="km/t." msd="XA" tag="XA" in="-1:nobj" out="">km/t.</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-28:pnct" out="">.</W>
@@ -117,8 +117,8 @@
 </p>
 <p>
 <s>
-<W gloss="Cold" lemma="kold" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">Kold</W>
-<W gloss="MC_trip" lemma="MC-tur" msd="NCCSU==I" tag="NN" in="" out="-1:mod">MC-tur</W>
+<W gloss="Cold" lemma="kold" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">Kold</W>
+<W gloss="MC_trip" lemma="MC-tur" msd="NCCSU==I" tag="NN" in="" out="-1:attr">MC-tur</W>
 </s>
 </p>
 <p>
@@ -126,13 +126,13 @@
 <W gloss="Shinji" lemma="Shinji" msd="NP--U==-" tag="NNP" in="1:namef" out="">Shinji</W>
 <W gloss="Kazama" lemma="Kazama" msd="NP--U==-" tag="NNP" in="5:subj|9:[subj]" out="-1:namef|1:pnct|3:mod">Kazama</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="41-year_old" lemma="41-årig" msd="ANPCSU=IU" tag="JJ" in="1:mod" out="">41-årig</W>
-<W gloss="Japanese" lemma="japaner" msd="NCCSU==I" tag="NN" in="-3:mod" out="-1:mod|1:pnct">japaner</W>
+<W gloss="41-year_old" lemma="41-årig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">41-årig</W>
+<W gloss="Japanese" lemma="japaner" msd="NCCSU==I" tag="NN" in="-3:mod" out="-1:attr|1:pnct">japaner</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:mod|4:vobj|9:pnct">har</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod">den</W>
-<W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:mod" out="">første</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr">den</W>
+<W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="walked" lemma="køre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-9:[subj]|1:mod|3:lobj">kørt</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="motorcycle" lemma="motorcykel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">motorcykel</W>
@@ -156,8 +156,8 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:pred|3:pnct">var</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pred" out="1:nobj">i</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:preds">var</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="1:nobj">i</W>
 <W gloss="1987" lemma="1987" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1987</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
@@ -177,9 +177,9 @@
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W gloss="the_ice_cap" lemma="iskalot" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">iskalotten</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="reach" lemma="nå" msd="VAF-=----A-" tag="VB" in="-5:conj" out="1:dobj|-1:coord">nå</W>
-<W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:mod|2:possd">sit</W>
-<W gloss="polar" lemma="polar" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">polare</W>
+<W gloss="reach" lemma="nå" msd="VAF-=----A-" tag="VB" in="-5:conj" out="-1:coord|1:dobj">nå</W>
+<W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">sit</W>
+<W gloss="polar" lemma="polar" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">polare</W>
 <W gloss="goal" lemma="mål" msd="NCNSU==I" tag="NN" in="-2:possd" out="">mål</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
@@ -198,8 +198,8 @@
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|10:pnct">blev</W>
 <W gloss="escorted" lemma="ledsage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">ledsaget</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:mod">en</W>
-<W gloss="belt-driven" lemma="bæltetrukket" msd="ANP[CN]SU=IU" tag="JJ" in="-1:mod" out="">bæltetrukket</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">en</W>
+<W gloss="belt-driven" lemma="bæltetrukket" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">bæltetrukket</W>
 <W gloss="snowmobile" lemma="snemobil" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">snemobil</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:mod" out="1:nobj">med</W>
 <W gloss="food" lemma="forplejning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">forplejning</W>
@@ -216,9 +216,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-5:mod" out="2:vobj">når</W>
 <W gloss="the_frost" lemma="frost" msd="NCCSU==D" tag="NN" in="1:subj" out="">frosten</W>
-<W gloss="made" lemma="gøre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:pred">gjorde</W>
+<W gloss="made" lemma="gøre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:preds">gjorde</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="2:nobj">det</W>
-<W gloss="easier" lemma="let" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:pred" out="">lettere</W>
+<W gloss="easier" lemma="let" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:preds" out="">lettere</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
 <W gloss="force" lemma="forcere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">forcere</W>
 <W gloss="the_terrain" lemma="terræn" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">terrænet</W>
@@ -232,10 +232,10 @@
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">have</W>
 <W gloss="help" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">hjælp</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:mod" out="1:nobj">på</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="3:mod|4:nobj">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="3:attr|4:nobj">den</W>
 <W gloss="2,000" lemma="2.000" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">2.000</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
-<W gloss="long" lemma="lang" msd="ANP[CN]SU=DU" tag="JJ" in="-3:mod" out="-2:mod">lange</W>
+<W gloss="long" lemma="lang" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="-2:mod">lange</W>
 <W gloss="trip" lemma="trip" msd="XF" tag="FW" in="-4:nobj" out="">trip</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>

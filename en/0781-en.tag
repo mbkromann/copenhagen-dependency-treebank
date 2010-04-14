@@ -1,12 +1,12 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:pred|14:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|14:pnct|2:preds">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
-<W msd="ANP" tag="JJ" in="-2:pred" out="-1:mod">clear</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">clear</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
-<W msd="NC=P" tag="NNS" in="2:subj|3:[subj]" out="1:mod">investments</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">abroad</W>
+<W msd="NC=P" tag="NNS" in="2:subj|3:[subj]" out="1:attr">investments</W>
+<W msd="ANP" tag="RB" in="-1:attr" out="">abroad</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod|3:mod">rise</W>
 <W msd="PI" tag="DT" in="-1:mod" out="1:nobj">a</W>
@@ -28,8 +28,8 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-6:mod" out="2:vobj">so</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pred">is</W>
-<W msd="PT" tag="WRB" in="-1:pred" out="7:vobj">why</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
+<W msd="PT" tag="WRB" in="-1:preds" out="7:vobj">why</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">some</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
@@ -45,18 +45,18 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">stocks</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">foreign</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:ref|2:rel">companies</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">foreign</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|1:ref|2:rel">companies</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:dobj">have</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Danish</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">subsidiaries</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">subsidiaries</W>
 <W msd="XP" tag="&amp;quot;" in="-33:pnct" out="">"</W>
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">ATP</W>
-<W msd="NC=S" tag="NN" in="2:title" out="-1:mod">director</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">ATP</W>
+<W msd="NC=S" tag="NN" in="2:title" out="-1:attr">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Palle</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef|-2:title">Simonsen</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|4:dobj|5:pnct|6:mod|15:pnct">will</W>
@@ -71,17 +71,17 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj">comment</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">on</W>
-<W msd="ANP" tag="JJ" in="2:mod" out="">future</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">future</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">investment</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:mod">strategy</W>
+<W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod|-2:attr">strategy</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|26:pnct">realises</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="6:vobj">that</W>
-<W msd="PD" tag="DT" in="5:subj|6:[subj]|7:[subj]" out="1:mod|2:nobj|3:mod">every</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">little</W>
+<W msd="PD" tag="DT" in="5:subj|6:[subj]|7:[subj]" out="1:attr|2:nobj|3:mod">every</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">movement</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">ATP</W>
@@ -90,15 +90,15 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:mod|2:pobj|7:mod">followed</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">closely</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">by</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">stock</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">market</W>
 <W msd="CS" tag="IN" in="-7:mod" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:mod|3:possd">ATP's</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="2:attr|3:possd">ATP's</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:mod">large</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">large</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="1:pobj">significance</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
@@ -123,8 +123,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:pobj">resolution</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|5:pobj">purchase</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">foreign</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|2:conj">stocks</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">foreign</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr|2:conj">stocks</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">bonds</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="3:nobj">for</W>
@@ -144,8 +144,8 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">commit</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">any</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">particular</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">any</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">particular</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">percentage</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Palle</W>
@@ -160,13 +160,13 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="VA" tag="MD" in="-5:vobj" out="-4:subj|-3:mod|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|8:pobj">have</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="2:mod|3:nobj">a</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">significantly</W>
-<W msd="ANC" tag="JJR" in="-2:mod" out="-1:mod">larger</W>
+<W msd="ANC" tag="JJR" in="-2:attr" out="-1:mod">larger</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">share</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">foreign</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">securities</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">foreign</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">securities</W>
 <W msd="SP" tag="IN" in="-8:pobj" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">holdings</W>
@@ -177,17 +177,17 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|26:pnct">believes</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pred|4:mod">is</W>
-<W msd="PI" tag="DT" in="-1:pred" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">natural</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|4:mod|1:preds">is</W>
+<W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">natural</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">development</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:ref|4:rel">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">capital</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">market</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:pred">is</W>
-<W msd="SP" tag="IN" in="-1:pred" out="1:nobj">on</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:preds">is</W>
+<W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">towards</W>
@@ -198,7 +198,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">barriers</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">across</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">national</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">boundaries</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">national</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">boundaries</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>

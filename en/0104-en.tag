@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="-1:pobj&3a;dobj.patient" out="3:nobj">for</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">joint</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;subj.agent#" out="">group</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|1:pobj|-1:noun&3a;subj.agent#">meetings</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:noun&3a;subj.agent#|1:pobj">meetings</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">between</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">V</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -188,11 +188,11 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|5:nobj">shame</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="1:mod|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">whole</W>
+<W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="2:nobj|1:attr">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">thing</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:part|-4:[subj]">fall</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:part">fall</W>
 <W msd="SP" tag="IN" in="-1:part" out="">through</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-12:reas" out="3:vobj">because</W>
@@ -231,7 +231,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="5:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:noun&3a;const" out="">EC</W>
-<W msd="NP=S" tag="NNP" in="3:noun&3a;subj.agent#" out="1:pobj&3a;arg#|-1:noun&3a;const">Minister</W>
+<W msd="NP=S" tag="NNP" in="3:noun&3a;subj.agent#" out="-1:noun&3a;const|1:pobj&3a;arg#">Minister</W>
 <W msd="SP" tag="IN" in="-1:pobj&3a;arg#" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fisheries</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-3:noun&3a;subj.agent#">meeting</W>

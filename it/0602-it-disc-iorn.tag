@@ -8,7 +8,7 @@
 <W lemma="dire" msd="VADA" tag="VER&3a;remo" in="" out="-4:qobj|1:subj|2:pnct">disse</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:subj" out="">lei</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
-<W lemma="era" msd="NC" tag="NOM" in="" out="7:pnct|1:preds">Era</W>
+<W lemma="era" msd="NC" tag="NOM" in="" out="1:preds|7:pnct">Era</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">diversa</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">da</W>
 <W lemma="come" msd="SP" tag="PRE" in="-1:nobj" out="2:vobj">come</W>
@@ -59,8 +59,8 @@
 <W lemma="fare" msd="VAG" tag="VER&3a;geru" in="-1:vobj" out="">facendo</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-5:vobj" out="-4:subj|1:preds">fosse</W>
 <W lemma="qualcosa" msd="PI" tag="PRO&3a;indef" in="-1:preds" out="1:attr">qualcosa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:pred">di</W>
-<W lemma="segreto" msd="NC" tag="NOM" in="-1:pred" out="2:conj">segreto</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:preds">di</W>
+<W lemma="segreto" msd="NC" tag="NOM" in="-1:preds" out="2:conj">segreto</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="proibito" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">proibito</W>
 <W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>

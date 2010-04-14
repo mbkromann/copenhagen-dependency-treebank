@@ -1,7 +1,7 @@
 <W gloss="I" msd="PP" in="1:subj" out="">Jeg</W>
-<W gloss="am" msd="VA" in="5:vobj" out="-1:subj|1:pred|4:pnct">er</W>
-<W gloss="a" msd="PI" in="-1:pred" out="1:mod|2:nobj">en</W>
-<W gloss="nice" msd="AN" in="-1:mod" out="">sød</W>
+<W gloss="am" msd="VA" in="5:vobj" out="-1:subj|4:pnct|1:preds">er</W>
+<W gloss="a" msd="PI" in="-1:preds" out="1:attr|2:nobj">en</W>
+<W gloss="nice" msd="AN" in="-1:attr" out="">sød</W>
 <W gloss="boy" msd="NC" in="-2:nobj" out="">dreng</W>
 <W gloss="," msd="XP" in="-4:pnct" out="">,</W>
 <W gloss="thinks" msd="VE" in="" out="-5:vobj|1:subj">synes</W>

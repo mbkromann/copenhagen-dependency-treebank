@@ -1,9 +1,9 @@
 <W gloss="I" msd="PP" speaker="1" in="2:rep" out="1:mod">Jeg</W>
 <W gloss="(laughs)" msd="XX" speaker="1" in="-1:mod" out="">(ler)</W>
 <W gloss="I" msd="PP" speaker="1" in="1:subj" out="-2:rep">jeg</W>
-<W gloss="thought" msd="VA" speaker="1" in="" out="2:vobj|-1:subj|5:mod">syntes</W>
+<W gloss="thought" msd="VA" speaker="1" in="" out="-1:subj|2:vobj|5:mod">syntes</W>
 <W gloss="it" msd="PP" speaker="1" in="1:subj" out="">det</W>
-<W gloss="was" msd="VA" speaker="1" in="-2:vobj" out="-1:subj|2:pred">var</W>
+<W gloss="was" msd="VA" speaker="1" in="-2:vobj" out="-1:subj|2:preds">var</W>
 <W gloss="so" msd="RG" speaker="1" in="1:mod" out="">så</W>
-<W gloss="silly" msd="AN" speaker="1" in="-2:pred" out="-1:mod">fjollet</W>
+<W gloss="silly" msd="AN" speaker="1" in="-2:preds" out="-1:mod">fjollet</W>
 <W gloss="right" msd="RG" speaker="1" in="-5:mod" out="">ik'</W>

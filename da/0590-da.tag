@@ -50,17 +50,17 @@
 <W gloss="The_Danish_Consumer_Council" lemma="forbrugerråd" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">Forbrugerrådet</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|15:pnct">kan</W>
 <W gloss="appeal" lemma="påklage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|5:mod">påklage</W>
-<W gloss="a_council" lemma="kommunalbestyrelse" msd="NCCSG==D" tag="NN" in="-1:dobj" out="3:possd|2:conj">kommunalbestyrelsens</W>
+<W gloss="a_council" lemma="kommunalbestyrelse" msd="NCCSG==D" tag="NN" in="-1:dobj" out="2:conj|3:possd">kommunalbestyrelsens</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the_county_council" lemma="amtsråd" msd="NCNSG==D" tag="NN" in="-2:conj" out="1:[possd]|-1:coord">amtsrådets</W>
+<W gloss="the_county_council" lemma="amtsråd" msd="NCNSG==D" tag="NN" in="-2:conj" out="-1:coord|1:[possd]">amtsrådets</W>
 <W gloss="decisions" lemma="afgørelse" msd="NCCPU==I" tag="NNP" in="-3:possd|-1:[possd]" out="">afgørelser</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-5:mod|5:[mod]" out="1:nobj|3:pnct|5:rel">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="extent" lemma="omfang" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">omfang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-5:[mod]|1:pred">er</W>
-<W gloss="material" lemma="væsentlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="2:conj">væsentlige</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-5:[mod]|1:preds">er</W>
+<W gloss="material" lemma="væsentlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="2:conj">væsentlige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="principle" lemma="principiel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">principielle</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -76,8 +76,8 @@
 </hi>
 </s>
 <s>
-<W gloss="Local" lemma="lokal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">Lokale</W>
-<W gloss="associations" lemma="forening" msd="NCCPU==I" tag="NNP" in="10:subj|11:[subj]" out="-1:mod|1:pnct|2:ref|3:rel|9:pnct">foreninger</W>
+<W gloss="Local" lemma="lokal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Lokale</W>
+<W gloss="associations" lemma="forening" msd="NCCPU==I" tag="NNP" in="10:subj|11:[subj]" out="-1:attr|1:pnct|2:ref|3:rel|9:pnct">foreninger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:dobj|4:pobj">har</W>
@@ -111,8 +111,8 @@
 </hi>
 </s>
 <s>
-<W gloss="Local" lemma="lokal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">Lokale</W>
-<W gloss="divisions" lemma="afdeling" msd="NCCPU==I" tag="NNP" in="12:subj|14:[subj]" out="-1:mod|1:mod">afdelinger</W>
+<W gloss="Local" lemma="lokal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Lokale</W>
+<W gloss="divisions" lemma="afdeling" msd="NCCPU==I" tag="NNP" in="12:subj|14:[subj]" out="-1:attr|1:mod">afdelinger</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">de</W>
 <W gloss="organizations" lemma="organisation" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">organisationer</W>
@@ -152,7 +152,7 @@
 <W gloss="pursuant_to" lemma="efter" msd="SP" tag="IN" in="-3:mod" out="1:nobj">efter</W>
 <W gloss="this_law" lemma="lov" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:conj">loven</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:conj" out="1:nobj|2:pnct|3:ref|4:rel|-1:coord">de</W>
+<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:conj" out="-1:coord|1:nobj|2:pnct|3:ref|4:rel">de</W>
 <W gloss="rules" lemma="regel" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">regler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
@@ -250,8 +250,8 @@
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="3:mod" out="1:nobj">under</W>
 <W gloss="what" lemma="hvilken" msd="PT-CSU--U" tag="WDT" in="-4:ref|-1:nobj" out="">hvilken</W>
 <W gloss="the_property" lemma="ejendom" msd="NCCSU==D" tag="NN" in="1:subj" out="">ejendommen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|-3:mod|1:pred">er</W>
-<W gloss="located" lemma="beliggende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:pred" out="">beliggende</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|-3:mod|1:preds">er</W>
+<W gloss="located" lemma="beliggende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">beliggende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 </p>
@@ -284,11 +284,11 @@
 </s>
 <s>
 <W gloss="The_Environmental_Board_of_Appeal" lemma="miljøklagenævn" msd="NCNSU==D" tag="NN" in="1:subj" out="">Miljøklagenævnet</W>
-<W gloss="shall_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|5:mod|13:pnct">er</W>
-<W gloss="appellate_instance" lemma="klagemyndighed" msd="NCCSU==I" tag="NN" in="-1:pred" out="1:pobj">klagemyndighed</W>
+<W gloss="shall_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|5:mod|13:pnct|1:preds">er</W>
+<W gloss="appellate_instance" lemma="klagemyndighed" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj">klagemyndighed</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W gloss="administrative" lemma="administrativ" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">administrative</W>
-<W gloss="decisions" lemma="afgørelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:mod">afgørelser</W>
+<W gloss="administrative" lemma="administrativ" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">administrative</W>
+<W gloss="decisions" lemma="afgørelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">afgørelser</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-5:mod|5:[mod]" out="1:nobj|3:pnct|5:rel">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="extent" lemma="omfang" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">omfang</W>

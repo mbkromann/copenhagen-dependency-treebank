@@ -1,8 +1,8 @@
 <W lemma="alguno" msd="QU" in="2:subj" out="1:nobj">Algunos</W>
 <W lemma="avin" msd="NC" in="-1:nobj" out="">aviones</W>
 <W lemma="volar" msd="VLfin" in="" out="-2:subj|2:man|10:pnct">volaban</W>
-<W lemma="tan" msd="ADV" in="1:mod" out="">tan</W>
-<W lemma="bajo" msd="PREP" in="-2:man" out="-1:mod">bajo</W>
+<W lemma="tan" msd="ADV" in="1:attr" out="">tan</W>
+<W lemma="bajo" msd="PREP" in="-2:man" out="-1:attr">bajo</W>
 <W lemma="que" msd="CQUE" in="" out="6:vobj">que</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">las</W>
 <W lemma="cadena" msd="NC" in="-1:nobj" out="1:pobj&3a;other#">cadenas</W>
@@ -39,7 +39,7 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="salto" msd="NC" in="-1:nobj" out="">salto</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="era" msd="VEfin" in="" out="-1:pnct|2:pnct|1:preds">era</W>
+<W lemma="era" msd="VEfin" in="" out="-1:pnct|1:preds|2:pnct">era</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:preds" out="2:ref|3:relpa">Silius</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj|14:[subj]" out="">que</W>
@@ -79,7 +79,7 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
 <W lemma="o" msd="ALFS" in="" out="">o</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:pnct|3:pnct|5:conj|10:pnct|1:preds">son</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:pnct|1:preds|3:pnct|5:conj|10:pnct">son</W>
 <W lemma="agente" msd="NC" in="-1:preds" out="1:attr">agentes</W>
 <W lemma="ingls" msd="ADJ" in="-1:attr" out="">ingleses</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -95,7 +95,7 @@
 <W lemma="cansar" msd="VLadj" in="-1:preds" out="">cansado</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="1:pnct" out="">-</W>
-<W lemma="ser" msd="VSfin" in="5:dobj" out="-1:pnct|4:pnct|1:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="5:dobj" out="-1:pnct|1:preds|4:pnct">Es</W>
 <W lemma="parte" msd="NC" in="-1:preds" out="1:pobj&3a;arg">parte</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>

@@ -133,11 +133,11 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:ext|4:mod|6:prec|11:pnct">Stir</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:ext|6:prec|11:pnct|4:attr">Stir</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">batter</W>
 <W msd="ANP" tag="RB" in="-3:ext" out="2:err">again</W>
-<W msd="ANP" tag="RB" in="-4:mod" out="">lightly</W>
+<W msd="ANP" tag="RB" in="-4:attr" out="">lightly</W>
 <W msd="ANP" tag="RB" in="-2:err" out="">again</W>
 <W msd="CS" tag="IN" in="-6:prec" out="3:vobj">before</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
@@ -157,7 +157,7 @@
 <s>
 <W msd="CS" tag="IN" in="6:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">Teflon-coated</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">you</W>

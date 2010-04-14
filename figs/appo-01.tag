@@ -6,6 +6,6 @@
 <W gloss="800" msd="AC" in="-1:nobj" out="1:nobj">800</W>
 <W gloss="pages" msd="NC" in="-1:nobj" out="">sider</W>
 <W gloss="," msd="XP" in="-5:pnct" out="">,</W>
-<W gloss="was" msd="VA" in="" out="-8:subj|1:pred|2:pnct">var</W>
-<W gloss="long" msd="AN" in="-1:pred" out="">lang</W>
+<W gloss="was" msd="VA" in="" out="-8:subj|2:pnct|1:preds">var</W>
+<W gloss="long" msd="AN" in="-1:preds" out="">lang</W>
 <W gloss="." msd="XP" in="-2:pnct" out="">.</W>

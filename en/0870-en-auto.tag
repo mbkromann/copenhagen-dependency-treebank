@@ -1,8 +1,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Union</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pred|15:pnct">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:pobj">good</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|15:pnct|1:preds">is</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">solving</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="1:ref|2:rel">problems</W>
@@ -73,13 +73,13 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">definitely</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|3:nobj|15:pnct">support</W>
 <W msd="VAP" tag="VBN" in="2:mod" out="">expanded</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">international</W>
-<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:mod|1:pnct|4:conj">co-operation</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">international</W>
+<W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:attr|1:pnct|4:conj">co-operation</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="1:mod">but</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
-<W msd="PI" tag="DT" in="-4:conj" out="1:mod|6:nobj|-2:coord">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">supranational</W>
+<W msd="PI" tag="DT" in="-4:conj" out="-2:coord|1:attr|6:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">supranational</W>
 <W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="3:mod" out="">United</W>
 <W msd="NP=P" tag="NNPS" in="" out="">States</W>
@@ -110,17 +110,17 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">premises</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">democracy</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:pred|12:pnct|29:pnct|20:conj">is</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">popular</W>
-<W msd="NC=S" tag="NN" in="-2:pred" out="-1:mod|1:mod">control</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|12:pnct|20:conj|29:pnct|2:preds">is</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">popular</W>
+<W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr|1:mod">control</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:pnct|6:nobj">through</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="" out="">among</W>
 <W msd="ANP" tag="JJ" in="" out="">other</W>
 <W msd="NC=P" tag="NNS" in="" out="1:pnct">things</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PI" tag="DT" in="-6:nobj" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">critical</W>
+<W msd="PI" tag="DT" in="-6:nobj" out="1:attr|2:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">critical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">press</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="7:coord" out="">but</W>
@@ -130,8 +130,8 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">languages</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-20:conj" out="-6:mod|-1:subj|1:pred|-7:coord">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="">difficult</W>
+<W msd="VADR" tag="VBZ" in="-20:conj" out="-6:mod|-1:subj|-7:coord|1:preds">is</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">difficult</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">form</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="">an</W>
@@ -203,8 +203,8 @@
 <W msd="PO" tag="PRP$" in="" out="">my</W>
 <W msd="NC=S" tag="NN" in="" out="">education</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">another</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">European</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">another</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">European</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">country</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

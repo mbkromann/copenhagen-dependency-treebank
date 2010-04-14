@@ -61,13 +61,13 @@
 </s>
 <s>
 <W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:eval" out="">Alligevel</W>
-<W gloss="sit" lemma="sidde" msd="VADR=----A-" tag="VBD" in="22:qobj" out="-1:eval|1:subj|2:other|21:pnct|6:conj">sidder</W>
+<W gloss="sit" lemma="sidde" msd="VADR=----A-" tag="VBD" in="22:qobj" out="-1:eval|1:subj|2:other|6:conj|21:pnct">sidder</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|5:[subj]" out="">vi</W>
 <W gloss="meeting" lemma="møde" msd="NCNSU==I" tag="NN" in="-2:other" out="1:other">møde</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:other" out="1:nobj">efter</W>
 <W gloss="meeting" lemma="møde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">møde</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="give" lemma="give" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:[subj]|2:dobj|3:pobj|-1:coord">giver</W>
+<W gloss="give" lemma="give" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:[subj]|-1:coord|2:dobj|3:pobj">giver</W>
 <W gloss="binding" lemma="binde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">bindende</W>
 <W gloss="authority" lemma="mandat" msd="NCNSU==I" tag="NN" in="-2:dobj" out="-1:attr">mandat</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
@@ -147,10 +147,10 @@
 <W gloss="advanced" lemma="avanceret" msd="ANP[CN]SU=IU" tag="JJ" in="1:cause" out="">avanceret</W>
 <W gloss="equipment" lemma="udstyr" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:cause">udstyr</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:comp" out="1:vobj">som</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:pred">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds">var</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
-<W gloss="export_slaughterhouses" lemma="eksportslagteri" msd="NCNPU==I" tag="NNP" in="-3:pred" out="-1:attr">eksportslagterier</W>
+<W gloss="export_slaughterhouses" lemma="eksportslagteri" msd="NCNPU==I" tag="NNP" in="-3:preds" out="-1:attr">eksportslagterier</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -215,11 +215,11 @@
 <W gloss="Duetoft" lemma="Duetoft" msd="NP--U==-" tag="NNP" in="13:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Duetoft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|5:[subj]" out="">der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:pred|9:pnct|4:conj">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:conj|9:pnct|2:preds">er</W>
 <W gloss="declared" lemma="erklære" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">erklæret</W>
-<W gloss="super-European" lemma="supereuropæer" msd="NCCSU==I" tag="NN" in="-2:pred" out="-1:attr">supereuropæer</W>
+<W gloss="super-European" lemma="supereuropæer" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">supereuropæer</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|1:dobj|3:lobj|-1:coord">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:dobj|3:lobj">har</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="past" lemma="fortid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fortid</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">i</W>

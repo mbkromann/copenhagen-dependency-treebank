@@ -1,7 +1,7 @@
 <s>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct">On</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">other</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hand</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
@@ -11,7 +11,7 @@
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|3:conj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Germans</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="PD" tag="DT" in="-3:conj" out="1:nobj|-1:coord">the</W>
+<W msd="PD" tag="DT" in="-3:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Spaniards</W>
 <W msd="VADA" tag="VBD" in="-6:vobj" out="-5:subj|1:mod|2:mod|3:pnct|4:mod">spoke</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">together</W>
@@ -26,8 +26,8 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="1:mod" out="">Not</W>
-<W msd="PD" tag="PDT" in="3:subj|5:[subj]" out="-1:mod|1:nobj">all</W>
+<W msd="ANP" tag="RB" in="1:attr" out="">Not</W>
+<W msd="PD" tag="PDT" in="3:subj|5:[subj]" out="-1:attr|1:nobj">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">buttons</W>
 <W msd="VADR" tag="VBP" in="" out="-3:subj|1:mod|2:vobj|3:pnct">are</W>
@@ -51,8 +51,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Toledo</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|1:pred|2:lobj|5:pnct">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="">well-placed</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|2:lobj|5:pnct|1:preds">is</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">well-placed</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">class</W>
@@ -64,19 +64,19 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">ABS</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">electric</W>
-<W msd="NC=P" tag="NNS" in="-5:conj" out="-1:mod">windows</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">electric</W>
+<W msd="NC=P" tag="NNS" in="-5:conj" out="-1:attr">windows</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="3:mod" out="">electric</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">side</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">view</W>
 <W msd="VADR" tag="VBZ" in="-10:conj" out="-3:mod|-1:mod">mirrors</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="ANP" tag="JJ" in="2:mod" out="">central</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">central</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">locking</W>
-<W msd="NC=S" tag="NN" in="-14:conj" out="-2:mod|-1:mod|-3:coord">system</W>
-<W msd="VADR" tag="VBP" in="" out="-15:subj|1:pred|2:pnct">are</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="">standard</W>
+<W msd="NC=S" tag="NN" in="-14:conj" out="-1:mod|-3:coord|-2:attr">system</W>
+<W msd="VADR" tag="VBP" in="" out="-15:subj|2:pnct|1:preds">are</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">standard</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
@@ -105,21 +105,21 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">focus</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">very</W>
-<W msd="NC=S" tag="NN" in="-2:mod" out="-1:mod">close</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">very</W>
+<W msd="NC=S" tag="NN" in="-2:mod" out="-1:attr">close</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">relationship</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">VW</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:subj|1:pred|4:pnct|19:pnct|7:conj">is</W>
-<W msd="PI" tag="DT" in="-1:pred" out="1:mod|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">Spanish</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:subj|4:pnct|7:conj|19:pnct|1:preds">is</W>
+<W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">Spanish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">car</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-1:subj|1:mod|2:vobj|-2:coord">must</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-2:coord|1:mod|2:vobj">must</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">prove</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
@@ -148,8 +148,8 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Transverse</W>
-<W msd="NC=S" tag="NN" in="" out="-1:mod|1:list|7:pnct|6:conj">engine</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Transverse</W>
+<W msd="NC=S" tag="NN" in="" out="-1:attr|1:list|6:conj|7:pnct">engine</W>
 <W msd="SP" tag="IN" in="-1:list" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">front</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
@@ -189,8 +189,8 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Electronic</W>
-<W msd="NC=S" tag="NN" in="" out="-1:mod|1:pnct">injection</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Electronic</W>
+<W msd="NC=S" tag="NN" in="" out="-1:attr|1:pnct">injection</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -205,16 +205,16 @@
 <s>
 <W msd="NC=P" tag="NNS" in="" out="1:pnct|3:xpl|8:pnct">BRAKES</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Ventilated</W>
-<W msd="NC=S" tag="NN" in="-3:xpl" out="-1:mod|1:mod|3:conj">disc</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Ventilated</W>
+<W msd="NC=S" tag="NN" in="-3:xpl" out="-1:attr|1:mod|3:conj">disc</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">front</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="-3:conj" out="1:mod|-1:coord">disc</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">back</W>
+<W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord|1:attr">disc</W>
+<W msd="ANP" tag="RB" in="-1:attr" out="">back</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="3:pnct|4:xpl|8:pnct|2:conj">MEASUREMENT</W>
+<W msd="NP=S" tag="NNP" in="" out="2:conj|3:pnct|4:xpl|8:pnct">MEASUREMENT</W>
 <W msd="CC" tag="CC" in="1:coord" out="">AND</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">WEIGHT</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
@@ -233,22 +233,22 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="2:mod" out="">Permitted</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">total</W>
-<W msd="NC=S" tag="NN" in="" out="-1:mod|-2:mod|1:pnct|2:xpl|4:pnct">weight</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">Permitted</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">total</W>
+<W msd="NC=S" tag="NN" in="" out="-2:attr|-1:attr|1:pnct|2:xpl|4:pnct">weight</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:xpl" out="1:nobj">1495</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kg</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="3:pnct|5:xpl|7:pnct|2:conj">WHEELS</W>
+<W msd="NP=S" tag="NNP" in="" out="2:conj|3:pnct|5:xpl|7:pnct">WHEELS</W>
 <W msd="CC" tag="CC" in="1:coord" out="">AND</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">RIM</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Steel</W>
-<W msd="NC=P" tag="NNS" in="-5:xpl" out="-1:mod|1:mod">rims</W>
-<W msd="AC" tag="CD" in="-1:mod" out="">6Jx14</W>
+<W msd="NC=P" tag="NNS" in="-5:xpl" out="-1:mod|1:attr">rims</W>
+<W msd="AC" tag="CD" in="-1:attr" out="">6Jx14</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -261,8 +261,8 @@
 <s>
 <W msd="NC=S" tag="NN" in="" out="1:pnct|3:xpl|7:pnct">PERFORMANCE</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Top</W>
-<W msd="NC=S" tag="NN" in="-3:xpl" out="-1:mod|1:pnct|2:xpl">speed</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Top</W>
+<W msd="NC=S" tag="NN" in="-3:xpl" out="-1:attr|1:pnct|2:xpl">speed</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:xpl" out="1:nobj">196</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">km/h</W>

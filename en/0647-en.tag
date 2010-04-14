@@ -44,10 +44,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">men</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|1:att|3:pred|7:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|1:att|7:pnct|3:preds">are</W>
 <W msd="ANP" tag="JJ" in="-1:att" out="">simply</W>
 <W msd="NC=S" tag="NN" in="" out="">film</W>
-<W msd="NC=P" tag="NNS" in="-3:pred" out="3:conj">reviewers</W>
+<W msd="NC=P" tag="NNS" in="-3:preds" out="3:conj">reviewers</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:degr" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:degr|-2:coord">harmless</W>
@@ -60,7 +60,7 @@
 <W msd="ANP" tag="JJ" in="-3:attr" out="">aimless</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="">behaviour</W>
 <W msd="NC=S" tag="NN" in="-5:time" out="">today</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|13:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:preds|13:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">due</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -68,7 +68,7 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|3:ben|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:preds|3:ben">is</W>
 <W msd="ANP" tag="RB" in="1:degr" out="">highly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">unusual</W>
 <W msd="SP" tag="IN" in="-3:ben" out="1:nobj">for</W>
@@ -121,8 +121,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="" out="">movie</W>
 <W msd="NC=P" tag="NNS" in="-6:conj" out="-2:coord">theatres</W>
-<W msd="VADR" tag="VBP" in="" out="-7:subj|1:pred|20:pnct|25:conj|33:pnct">make</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="1:nobj">sure</W>
+<W msd="VADR" tag="VBP" in="" out="-7:subj|20:pnct|25:conj|33:pnct|1:preds">make</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">sure</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|3:loc">introduce</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">new</W>
@@ -169,7 +169,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">review</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-12:cond|1:reas|7:pnct|8:conc|26:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-12:cond|1:reas|2:preds|7:pnct|8:conc|26:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:reas" out="">thus</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="2:pobj">due</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
@@ -184,7 +184,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:subj|-4:att|3:ben|6:cond|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:subj|-4:att|2:preds|3:ben|6:cond">is</W>
 <W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">convenient</W>
 <W msd="SP" tag="IN" in="-3:ben" out="1:nobj">for</W>

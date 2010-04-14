@@ -7,7 +7,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mother</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|5:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|2:preds|5:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|2:conj">slim</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -128,7 +128,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|8:pnct|11:conj|12:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|2:preds|8:pnct|11:conj|12:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">woman</W>
@@ -199,8 +199,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">forced</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:pred|2:other">keep</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="">silent</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|2:other|1:preds">keep</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">silent</W>
 <W msd="SP" tag="IN" in="-2:other" out="1:nobj">about</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">truth</W>
@@ -216,7 +216,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|11:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|11:pnct">was</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="1:pobj">simpler</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|2:pnct|7:conj">for</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="">her</W>

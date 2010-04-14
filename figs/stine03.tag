@@ -5,7 +5,7 @@
 <W gloss="has" msd="VA" in="-3:rel" out="-2:subj|-1:mod|1:vobj|2:pnct">har</W>
 <W gloss="been" msd="VA" in="-1:vobj" out="-4:[pred]">været</W>
 <W gloss="," msd="XP" in="-2:pnct" out="">,</W>
-<W gloss="is" msd="VA" in="" out="-6:subj|1:pred">er</W>
-<W gloss="impossible" msd="AN" in="-1:pred" out="1:mod">umuligt</W>
+<W gloss="is" msd="VA" in="" out="-6:subj|1:preds">er</W>
+<W gloss="impossible" msd="AN" in="-1:preds" out="1:mod">umuligt</W>
 <W gloss="to" msd="U=" in="-1:mod" out="1:vobj">at</W>
 <W gloss="say" msd="VA" in="-1:vobj" out="">sige</W>

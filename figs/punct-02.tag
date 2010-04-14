@@ -4,6 +4,6 @@
 <W gloss="," msd="XP" in="-1:pnct" out="">,</W>
 <W gloss="because" msd="CS" in="-2:mod" out="2:vobj">fordi</W>
 <W gloss="he" msd="PP" in="1:subj" out="">han</W>
-<W gloss="was" msd="VA" in="-2:vobj" out="-1:subj|1:pred">var</W>
-<W gloss="happy" msd="AN" in="-1:pred" out="">glad</W>
+<W gloss="was" msd="VA" in="-2:vobj" out="-1:subj|1:preds">var</W>
+<W gloss="happy" msd="AN" in="-1:preds" out="">glad</W>
 <W gloss="." msd="XP" in="-8:pnct" out="">.</W>

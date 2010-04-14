@@ -27,8 +27,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">New</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Danish</W>
-<W msd="NC=P" tag="NNS" in="1:subj" out="-2:mod|-1:mod">eels</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
+<W msd="NC=P" tag="NNS" in="1:subj" out="-2:mod|-1:attr">eels</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|2:dobj|14:&lt;subj&gt;|18:&lt;dobj&gt;|19:pnct">cost</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:nobj|1:mod|6:conj">85</W>
@@ -91,12 +91,12 @@
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:nobj|1:mod">60</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">per</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kg</W>
-<W msd="VADR" tag="VBZ" in="" out="1:pred|15:pnct|5:conj">is</W>
-<W msd="ANP" tag="JJ" in="-1:pred" out="">Danish</W>
+<W msd="VADR" tag="VBZ" in="" out="5:conj|15:pnct|1:preds">is</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">Danish</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">butcher</W>
-<W msd="VADR" tag="VBZ" in="-5:conj" out="-2:subj|1:dobj|2:vobj|-3:coord">suggests</W>
+<W msd="VADR" tag="VBZ" in="-5:conj" out="-2:subj|-3:coord|1:dobj|2:vobj">suggests</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[dobj]|3:[subj]" out="">it</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[dobj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:modo">served</W>
@@ -138,8 +138,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-1:subj|1:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">taste</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:mod|2:mod|3:nobj|7:appr|9:mod|10:mod|12:mod">the</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">elegant</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:mod|3:nobj|7:appr|9:mod|10:mod|12:mod">the</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">elegant</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">English</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">cheddar</W>
 <W msd="XP" tag="." in="" out="">.</W>
@@ -159,16 +159,16 @@
 <W msd="NP=S" tag="NNP" in="" out="1:dobj|2:mod|5:mod|8:pnct">Serve</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">thin</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">slices</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">thin</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">slices</W>
 <W msd="SP" tag="IN" in="-5:mod" out="2:nobj">with</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">fresh</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">sage</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">fresh</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">sage</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:mod" out="">Danish</W>
-<W msd="NC=S" tag="NN" in="1:subj" out="-1:mod">cheddar</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
+<W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">cheddar</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:subj|2:dobj|5:pnct">costs</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:nobj|1:mod">7.95</W>
@@ -196,8 +196,8 @@
 <W msd="NC=S" tag="NN" in="" out="1:dobj|2:mod|5:pobj|10:coord|17:pnct">Use</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">thin</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">flakes</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">thin</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">flakes</W>
 <W msd="CS" tag="IN" in="-5:pobj" out="1:nobj">as</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">gratin</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

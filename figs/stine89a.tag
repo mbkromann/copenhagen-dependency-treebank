@@ -1,9 +1,9 @@
 <W gloss="House-the" msd="NC" in="1:subj" out="">Huset</W>
-<W gloss="is" msd="VA" in="" out="-1:subj|1:pred|2:mod">er</W>
-<W gloss="open" msd="AN" in="-1:pred" out="">åbent</W>
+<W gloss="is" msd="VA" in="" out="-1:subj|2:mod|1:preds">er</W>
+<W gloss="open" msd="AN" in="-1:preds" out="">åbent</W>
 <W gloss="in" msd="SP" in="-2:mod|4:[mod]" out="1:nobj|4:rel">i</W>
 <W gloss="the" msd="PD" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="extent" msd="NC" in="-1:nobj" out="">omfang</W>
 <W gloss="resources" msd="NC" in="1:subj" out="">ressourcerne</W>
-<W gloss="allow" msd="VA" in="-4:rel" out="-1:subj|1:dobj|-4:[mod]">tillader</W>
+<W gloss="allow" msd="VA" in="-4:rel" out="-1:subj|-4:[mod]|1:dobj">tillader</W>
 <W gloss="it" msd="PP" in="-1:dobj" out="">det</W>

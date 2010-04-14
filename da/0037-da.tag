@@ -81,8 +81,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Customers" lemma="kunde" msd="NCCPU==D" tag="NNP" in="1:subj|2:[subj]" out="">Kunderne</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:vobj|14:pnct">skal</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred">være</W>
-<W gloss="sure" lemma="sikker" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="1:pobj">sikre</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">være</W>
+<W gloss="sure" lemma="sikker" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">sikre</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="3:vobj">at</W>
@@ -162,8 +162,8 @@
 <W gloss="received" lemma="få" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-4:[subj]|1:dobj">fået</W>
 <W gloss="allowed" lemma="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:dobj" out="1:nobj">lov</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pred">blive</W>
-<W gloss="Super-Brugsens" lemma="Super-Brugs" msd="NCCPU==I" tag="NNP" in="-1:pred" out="">Super-Brugser</W>
+<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">blive</W>
+<W gloss="Super-Brugsens" lemma="Super-Brugs" msd="NCCPU==I" tag="NNP" in="-1:preds" out="">Super-Brugser</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>

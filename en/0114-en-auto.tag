@@ -59,8 +59,8 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">literally</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|2:dobj|8:pobj">taking</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Youth</W>
-<W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:mod|1:mod|2:possd|3:pnct|5:appa">Housing's</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">former</W>
+<W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:mod|1:attr|2:possd|3:pnct|5:appa">Housing's</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">former</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">chairman</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Torben</W>
@@ -88,8 +88,8 @@
 <W msd="SP" tag="IN" in="-7:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:pred|15:pnct#|16:pnct">is</W>
-<W msd="RG" tag="RP" in="-1:pred" out="1:pobj">up</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|15:pnct#|16:pnct|1:preds">is</W>
+<W msd="RG" tag="RP" in="-1:preds" out="1:pobj">up</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">judge</W>
@@ -179,9 +179,9 @@
 <W msd="VADR" tag="VBZ" in="" out="-20:mod|-3:mod|1:expl|1:vobj|18:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:expl|-1:vobj" out="-3:dobj|1:mod">passed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">without</W>
-<W msd="ANP" tag="JJ" in="2:mod" out="">new</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">incriminating</W>
-<W msd="NC=P" tag="NNS" in="1:subj|1:[subj]" out="-2:mod|-1:mod|3:pobj">revelations</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="">new</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">incriminating</W>
+<W msd="NC=P" tag="NNS" in="1:subj|1:[subj]" out="-2:attr|-1:attr|3:pobj">revelations</W>
 <W msd="VAG" tag="VBG" in="" out="-1:subj|-1:[subj]">turning</W>
 <W msd="RG" tag="RP" in="" out="">up</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="4:nobj">about</W>
@@ -190,15 +190,15 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Youth</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj|1:[nobj]" out="-1:mod">Housing</W>
 <W msd="VADA" tag="VBD" in="-3:nobj" out="-1:[nobj]">ran</W>
-<W msd="PO" tag="PRP$" in="" out="1:mod">its</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">non-profit</W>
+<W msd="PO" tag="PRP$" in="" out="1:attr">its</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">non-profit</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">leasehold</W>
 <W msd="NC=S" tag="NN" in="" out="-1:mod">business</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PI" tag="DT" in="12:subj|13:[subj]" out="1:mod|2:nobj">A</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">large</W>
+<W msd="PI" tag="DT" in="12:subj|13:[subj]" out="1:attr|2:nobj">A</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Youth</W>
@@ -207,7 +207,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">youth</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">residences</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="AC" tag="CD" in="-4:conj" out="1:nobj|-1:coord">2,200</W>
+<W msd="AC" tag="CD" in="-4:conj" out="-1:coord|1:nobj">2,200</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lodgings</W>
 <W msd="VADR" tag="VBP" in="" out="-12:subj|1:vobj|6:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:pobj">threatened</W>
@@ -244,7 +244,7 @@
 <W msd="PI" tag="DT" in="-11:conj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bank</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="PD" tag="DT" in="-14:conj" out="1:nobj|-1:coord">the</W>
+<W msd="PD" tag="DT" in="-14:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">state</W>
 <W msd="PD" tag="DT" in="1:mod" out="">all</W>
 <W msd="VADR" tag="VBP" in="" out="-17:subj|-1:mod">are</W>

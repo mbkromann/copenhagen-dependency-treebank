@@ -3,7 +3,7 @@
 <W gloss="destroyed" msd="VA" in="-2:vobj" out="-1:subj|1:dobj">ødelagde</W>
 <W gloss="his" msd="PO" in="-1:dobj" out="1:possd">hans</W>
 <W gloss="Picasso" msd="NP" in="-1:possd" out="">Picasso</W>
-<W gloss="made" msd="VA" in="" out="-5:subj|1:dobj|3:pred">gjorde</W>
+<W gloss="made" msd="VA" in="" out="-5:subj|1:dobj|3:preds">gjorde</W>
 <W gloss="him" msd="PP" in="-1:dobj" out="">ham</W>
 <W gloss="very" msd="RG" in="1:mod" out="">meget</W>
-<W gloss="angry" msd="AN" in="-3:pred" out="-1:mod">vred</W>
+<W gloss="angry" msd="AN" in="-3:preds" out="-1:mod">vred</W>

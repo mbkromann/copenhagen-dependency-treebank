@@ -73,7 +73,7 @@
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="half_kilo" lemma="halvkg" msd="XX" tag="FW" in="-1:nobj" out="">halvkg</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="-5:conj" out="1:nobj|2:other|-1:coord">30</W>
+<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="-5:conj" out="-1:coord|1:nobj|2:other">30</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="a_piece" lemma="styk" msd="NCNSU==I" tag="NN" in="-2:other" out="">stk.</W>
 <W gloss="3" lemma="3" msd="AC---U=--" tag="CD" in="-9:&lt;subj&gt;" out="1:nobj">3</W>
@@ -121,11 +121,11 @@
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kg" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kg</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|1:pred|13:pnct|4:conj">er</W>
-<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">dansk</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|4:conj|13:pnct|1:preds">er</W>
+<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">dansk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_butcher" lemma="slagter" msd="NCCSU==D" tag="NN" in="1:subj" out="">slagteren</W>
-<W gloss="suggests" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-1:subj|1:dobj|2:vobj|-2:coord">foreslår</W>
+<W gloss="suggests" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-1:subj|-2:coord|1:dobj|2:vobj">foreslår</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:dobj|1:[dobj]|2:[subj]" out="">den</W>
 <W gloss="be_served" lemma="servere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[dobj]|1:modo">serveret</W>
 <W gloss="fried" lemma="stege" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:modo" out="-2:[subj]|1:man">stegt</W>

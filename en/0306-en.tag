@@ -120,7 +120,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Bodil</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|4:pnct">is</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">49</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod">old</W>
@@ -196,8 +196,8 @@
 <s>
 <W msd="PT" tag="WRB" in="5:time" out="2:vobj">When</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|1:pnct#">turned</W>
-<W msd="AC" note="skal adskilles" tag="CD" in="-1:pred|-1:pnct#" out="">40,</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct#|1:preds">turned</W>
+<W msd="AC" note="skal adskilles" tag="CD" in="-1:pnct#|-1:preds" out="">40,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-5:time|1:pobj|3:pobj|14:pnct|17:conj|24:pnct">spoke</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

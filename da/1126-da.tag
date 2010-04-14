@@ -45,32 +45,32 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_Savings_Bank_Association" lemma="sparekasseforening" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Sparekasseforeningens</W>
 <W gloss="annual_report" lemma="årsberetning" msd="NCCSU==I" tag="NN" in="-1:possd" out="">årsberetning</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|1:pnct|2:pred|12:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|1:pnct|12:pnct|2:preds">var</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:pred" out="2:vobj">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="2:vobj">at</W>
 <W gloss="bank_employees" lemma="bankansat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj" out="">bankansatte</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pred|2:mod">var</W>
-<W gloss="inefficient" lemma="ineffektiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:pred" out="">ineffektive</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|1:preds">var</W>
+<W gloss="inefficient" lemma="ineffektiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">ineffektive</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="relation" lemma="forhold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
-<W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:mod|2:possd">deres</W>
-<W gloss="foreign" lemma="udenlandsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">udenlandske</W>
+<W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">deres</W>
+<W gloss="foreign" lemma="udenlandsk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">udenlandske</W>
 <W gloss="colleagues" lemma="kollega" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">kolleger</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:mod|2:nobj">De</W>
-<W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">danske</W>
+<W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">De</W>
+<W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="banks" lemma="bank" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">banker</W>
 <W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:dobj|3:pnct|4:mod|12:pnct">fik</W>
-<W gloss="poor" lemma="dårlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">dårlige</W>
-<W gloss="grades" lemma="karakter" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:mod">karakterer</W>
+<W gloss="poor" lemma="dårlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">dårlige</W>
+<W gloss="grades" lemma="karakter" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">karakterer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-4:mod" out="2:vobj">når</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="came_to" lemma="gælde" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">gjaldt</W>
-<W gloss="cost-effectiveness" lemma="omkostnings-effektivitet" msd="NCCSU==I" tag="NN" in="-1:dobj" out="3:mod|2:conj">omkostnings-effektivitet</W>
+<W gloss="cost-effectiveness" lemma="omkostnings-effektivitet" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:conj|3:mod">omkostnings-effektivitet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="core_earnings" lemma="basisindtjening" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">basisindtjening</W>
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-3:mod" out="1:nobj">pr.</W>
@@ -82,10 +82,10 @@
 <s>
 <W gloss="For" lemma="for" msd="SP" tag="IN" in="2:mod" out="1:nobj">For</W>
 <W gloss="Bastrup" lemma="Bastrup" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Bastrup</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|3:pred|7:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|7:pnct|3:preds">er</W>
 <W gloss="the_Savings_Bank_Association" lemma="sparekasseforening" msd="NCCSG==D" tag="NN" in="-1:subj" out="1:possd">Sparekasseforeningens</W>
 <W gloss="message" lemma="budskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">budskab</W>
-<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:pred" out="1:nobj">et</W>
+<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:preds" out="1:nobj">et</W>
 <W gloss="expression" lemma="udtryk" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">udtryk</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_logic_of_economy_of_scale" lemma="stordriftslogik" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">stordriftslogik</W>
@@ -96,9 +96,9 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|8:[nobj]" out="6:rel">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:qobj" out="-1:subj|-2:pnct|1:mod|2:pred|3:pnct|9:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:qobj" out="-1:subj|-2:pnct|1:mod|3:pnct|9:pnct|2:preds">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
-<W gloss="what" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-2:pred" out="">det</W>
+<W gloss="what" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-2:preds" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="need_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:vobj|3:pnct">skal</W>
@@ -131,8 +131,8 @@
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="interview" lemma="interview" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">interview</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:mod|2:possd|3:pnct|4:appa">de</W>
-<W gloss="bank_employees'" lemma="bankansat" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:mod" out="">bankansattes</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:possd|3:pnct|4:appa">de</W>
+<W gloss="bank_employees'" lemma="bankansat" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:attr" out="">bankansattes</W>
 <W gloss="professional_magazine" lemma="fagblad" msd="NCNSU==I" tag="NN" in="-2:possd" out="">fagblad</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="Finans" lemma="Finans" msd="NP--U==-" tag="NNP" in="-4:appa" out="1:pnct">Finans</W>
@@ -142,16 +142,16 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:pred|2:pnct|41:pnct">er</W>
-<W gloss="strange" lemma="forunderlig" msd="ANPNSU=IU" tag="JJ" in="-1:pred" out="">forunderligt</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|2:pnct|41:pnct|1:preds">er</W>
+<W gloss="strange" lemma="forunderlig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">forunderligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="22:vobj">at</W>
 <W gloss="Denmark's" lemma="Danmark" msd="NP--G==-" tag="NNP" in="21:subj|23:[subj]" out="1:possd|2:pnct|3:ref|4:rel">Danmarks</W>
 <W gloss="Savings_Bank_Association" lemma="sparekasseforening" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Sparekasseforening</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:pred">er</W>
-<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:nobj">en</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds">er</W>
+<W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="interest_organisation" lemma="interesseorganisation" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">interesseorganisation</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:rel">et</W>
@@ -164,8 +164,8 @@
 <W gloss="exceptions" lemma="undtagelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">undtagelser</W>
 <W gloss="consists" lemma="bestå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-4:mod|1:pobj|4:pnct">består</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
-<W gloss="small" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:mod" out="">små</W>
-<W gloss="financial_institutes" lemma="pengeinstitut" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:mod">pengeinstitutter</W>
+<W gloss="small" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">små</W>
+<W gloss="financial_institutes" lemma="pengeinstitut" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">pengeinstitutter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="chooses" lemma="vælge" msd="VADR=----A-" tag="VBD" in="-22:vobj" out="-21:subj|1:dobj">vælger</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
@@ -204,8 +204,8 @@
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="6:mod" out="1:nobj">på</W>
 <W gloss="the_provincial_bank_association's" lemma="provinsbankforening" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:mod">provinsbankforeningens</W>
 <W gloss="annual_meeting" lemma="årsmøde" msd="NCNSU==I" tag="NN" in="-1:possd" out="">årsmøde</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:mod|2:nobj">den</W>
-<W gloss="17" lemma="17." msd="AO---U=--" tag="JJ" in="-1:mod" out="">17.</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:attr|2:nobj">den</W>
+<W gloss="17" lemma="17." msd="AO---U=--" tag="JJ" in="-1:attr" out="">17.</W>
 <W gloss="September" lemma="september" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">september</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-6:mod|-7:subj|1:vobj">vil</W>
 <W gloss="support" lemma="understøtte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">understøtte</W>
@@ -216,9 +216,9 @@
 </p>
 <p>
 <s>
-<W gloss="The_chairman" lemma="formand" msd="NCCSU==D" tag="NN" in="11:subj|14:[subj]" out="6:pnct|9:appa|2:conj">Formanden</W>
+<W gloss="The_chairman" lemma="formand" msd="NCCSU==D" tag="NN" in="11:subj|14:[subj]" out="2:conj|6:pnct|9:appa">Formanden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="bank_director" lemma="bankdirektør" msd="NCCSU==D" tag="NN" in="-2:conj" out="1:pobj|-1:coord">bankdirektøren</W>
+<W gloss="bank_director" lemma="bankdirektør" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord|1:pobj">bankdirektøren</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="Salling" lemma="Salling" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Salling</W>
 <W gloss="Bank" lemma="bank" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Bank</W>
@@ -237,8 +237,8 @@
 <W gloss="tell" lemma="fortælle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">fortælle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:mod|2:nobj">en</W>
-<W gloss="local" lemma="lokal" msd="ANPCSU=IU" tag="JJ" in="-1:mod" out="">lokal</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">en</W>
+<W gloss="local" lemma="lokal" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lokal</W>
 <W gloss="gamble" lemma="satsning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">satsning</W>
 <W gloss="gives" lemma="give" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:dobj">giver</W>
 <W gloss="off" lemma="pote" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">pote</W>
