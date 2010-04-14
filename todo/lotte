@@ -1,6 +1,10 @@
 [*] es/0104-es-lotte.tag
-[ ] en/0104-en.tag
-[ ] da/0104-da.tag
+[*] en/0104-en.tag
+[*] da/0104-da.tag
+[*] es/0306-es-lotte.tag
+[ ] en/0306-en.tag
+[ ] da/0306-da.tag
+
 
 [*] en/1252-en.tag
 [ ] en/1420-en.tag
@@ -19,9 +23,7 @@
 [ ] da/0244-da.tag
 [ ] en/0244-en.tag
 [ ] es/0244-es-lotte.tag
-[*] en/0306-en.tag
-[ ] da/0306-da.tag
-[*] es/0306-es-lotte.tag
+
 [ ] da/0307-da.tag
 [ ] en/0307-en.tag
 [ ] es/0307-es-jonas.tag
