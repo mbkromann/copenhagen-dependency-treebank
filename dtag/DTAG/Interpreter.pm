@@ -1285,14 +1285,14 @@ sub cmd_as_example {
 	# Number nodes
 	my $nodes = {};
 	my $nodecnt = 0;
-	foreach my $i (sort(keys(%$range))) {
+	foreach my $i (sort {$a <=> $b} keys(%$range)) {
 		$nodes->{$i} = ++$nodecnt;
 	}
 
 	# Process nodes and in-edges
 	my $s = "";
 	my @vars = split(/\|/, $varspec);
-	foreach my $i (sort(keys(%$range))) {
+	foreach my $i (sort {$a <=> $b} keys(%$range)) {
 		# Process features
 		my $node = $graph->node($i);
 		if (! $node->comment()) {
