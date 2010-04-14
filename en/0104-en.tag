@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="10:subj" out="1:nobj">The</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">proposal</W>
-<W msd="SP" tag="IN" in="" out="3:nobj">for</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj.patient">proposal</W>
+<W msd="SP" tag="IN" in="-1:pobj&3a;dobj.patient" out="3:nobj">for</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">joint</W>
 <W msd="NC=S" tag="NN" in="" out="">group</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|1:pobj">meetings</W>
@@ -9,7 +9,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:conj">V</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">K</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:neg|3:preds|4:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:neg|3:preds|3:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
 <W msd="ANP" tag="JJ" in="-3:preds|-3:preds" out="-1:degr">new</W>
@@ -78,7 +78,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:neg|2:preds|3:time|9:pnct|14:xpl|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:neg|2:preds|2:preds|3:time|9:pnct|14:xpl">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds|-2:preds" out="2:pobj">ripe</W>
 <W msd="ANP" tag="RB" in="-3:time" out="">then</W>
@@ -223,7 +223,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fanø</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-10:succ|1:preds|3:time|12:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-10:succ|1:preds|1:preds|3:time|12:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds|-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Brussels</W>
 <W msd="SP" tag="IN" in="-3:time" out="1:nobj">on</W>
