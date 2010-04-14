@@ -45,8 +45,8 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">01</W>
 <W lemma="@card@" msd="XP" tag="PON" in="-1:nobj" out="">:38</W>
 <W lemma="Baghdad" msd="NP" tag="NPR" in="1:subj" out="">Baghdad</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-22:+TIME&3a;succ" out="-4:time|-1:subj|1:preds|4:pnct|36:+ELAB&3a;exp/ATTR1|165:+TIME&3a;succ|1:preds">era</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj|9:coref">una</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-22:+TIME&3a;succ" out="-4:time|-1:subj|4:pnct|36:+ELAB&3a;exp/ATTR1|165:+TIME&3a;succ|1:preds">era</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj|9:coref">una</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">città</W>
 <W lemma="morto" msd="AN" tag="ADJ" in="-1:attr" out="">morta</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
@@ -57,17 +57,17 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-9:coref|2:subj" out="1:nobj">La</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="">città</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="24:qobj" out="-3:pnct|-2:subj|2:preds|3:pnct|8:CONJ/(e)/ATTR1|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="24:qobj" out="-3:pnct|-2:subj|3:pnct|8:CONJ/(e)/ATTR1|2:preds">è</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="1:man" out="">completamente</W>
-<W lemma="buio" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:man">buia</W>
+<W lemma="buio" msd="AN" tag="ADJ" in="-2:preds" out="-1:man">buia</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="silenzio" msd="NC" tag="NOM" in="-1:nobj" out="">silenzio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ/(e)/ATTR1" out="-2:subj|2:preds|3:pnct|9:CONJ/(e)/ATTR1|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ/(e)/ATTR1" out="-2:subj|3:pnct|9:CONJ/(e)/ATTR1|2:preds">è</W>
 <W lemma="quasi" msd="RG" tag="ADV" in="1:man" out="">quasi</W>
-<W lemma="assordare" msd="VAG" tag="VER&3a;ppre" in="-2:preds|-2:preds" out="-1:man">assordante</W>
+<W lemma="assordare" msd="VAG" tag="VER&3a;ppre" in="-2:preds" out="-1:man">assordante</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -94,17 +94,17 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-13:+JOINT/ATTR1" out="-1:pnct|1:vobj|2:preds|6:pnct|9:CAUSE&3a;expl/(infatti)/ATTR1|2:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-13:+JOINT/ATTR1" out="-1:pnct|1:vobj|6:pnct|9:CAUSE&3a;expl/(infatti)/ATTR1|2:preds">È</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">stato</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:preds|-2:preds" out="1:nobj">un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:preds" out="1:nobj">un</W>
 <W lemma="attacco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">attacco</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">a</W>
 <W lemma="sorpresa" msd="NC" tag="NOM" in="-1:nobj" out="">sorpresa</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-9:CAUSE&3a;expl/(infatti)/ATTR1" out="1:preds|2:dobj|14:pnct|1:preds">È</W>
-<W lemma="incredibile" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">incredibile</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-9:CAUSE&3a;expl/(infatti)/ATTR1" out="2:dobj|14:pnct|1:preds">È</W>
+<W lemma="incredibile" msd="AN" tag="ADJ" in="-1:preds" out="">incredibile</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]|5:[subj]" out="1:nobj">la</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="">città</W>
@@ -142,9 +142,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">l'</W>
 <W lemma="attacco" msd="NC" tag="NOM" in="-1:nobj" out="">attacco</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:conj" out="-2:subj|-3:coord|1:vobj|7:pnct">è</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|2:preds|2:preds">stato</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|2:preds">stato</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:attr" out="">molto</W>
-<W lemma="preciso" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:attr|1:loc">preciso</W>
+<W lemma="preciso" msd="AN" tag="ADJ" in="-2:preds" out="-1:attr|1:loc">preciso</W>
 <W lemma="su" msd="SP" tag="PRE" in="-1:loc" out="2:nobj">su</W>
 <W lemma="alcuno" msd="PI" tag="PRO&3a;indef" in="1:attr" out="">alcuni</W>
 <W lemma="bersaglio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">bersagli</W>
@@ -252,8 +252,8 @@
 </s>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:ELAB&3a;exp/ATTR2" out="1:vobj|6:time|7:pnct|12:CONJ/(e)/ATTR2">È</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:preds|1:preds">stato</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">l'</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:preds">stato</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">l'</W>
 <W lemma="attacco" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">attacco</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="pesante" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">pesante</W>

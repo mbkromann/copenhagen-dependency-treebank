@@ -47,8 +47,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Ellemann</W>
 <W lemma=")" msd="XP" tag="PON" in="-3:pnct" out="">)</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-1:robj|-11:subj|1:preds|2:time|5:pnct|6:comp|1:preds">sente</W>
-<W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">impotente</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-1:robj|-11:subj|2:time|5:pnct|6:comp|1:preds">sente</W>
+<W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds" out="">impotente</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj">nel</W>
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj|-10:assoc-scope" out="1:attr|7:coref-var">momento</W>
 <W lemma="decisionale" msd="AN" tag="ADJ" in="-1:attr" out="">decisionale</W>
@@ -67,8 +67,8 @@
 <W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="">effetti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="chi" msd="PT" tag="PRO&3a;rela" in="1:subj" out="">chi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:prg|-1:subj|1:preds|21:pnct|1:preds">è</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:prg|-1:subj|21:pnct|1:preds">è</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹capir²ci" lemma="capire" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|2:²ref|0:²dobj¹" out="1:man|2:dobj|0:²dobj¹">capirci</W>
@@ -91,8 +91,8 @@
 <W lemma="?" msd="XP" tag="SENT" in="-21:pnct" out="">?</W>
 <W lemma="nessuno" msd="AN" tag="ADJ" in="2:subj" out="">Nessuno</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-1:robj|1:preds|4:pnct|5:cause|6:coref-res|1:preds">sente</W>
-<W lemma="sicuro" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">sicuro</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-1:robj|4:pnct|5:cause|6:coref-res|1:preds">sente</W>
+<W lemma="sicuro" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">sicuro</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹saper²ne" lemma="sapere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-21:²ref|0:²dobj¹" out="0:²dobj¹">saperne</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
@@ -107,8 +107,8 @@
 <W lemma="impugnare" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:dobj">impugna</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="matita" msd="NC" tag="NOM" in="-1:nobj" out="">matita</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:cons" out="-6:subj|-8:prg|1:preds|2:pnct|16:conj|25:pnct|1:preds">è</W>
-<W lemma="incerto" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="2:time">incerta</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:cons" out="-6:subj|-8:prg|2:pnct|16:conj|25:pnct|1:preds">è</W>
+<W lemma="incerto" msd="AN" tag="ADJ" in="-1:preds" out="2:time">incerta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj|4:pnct">nel</W>
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">momento</W>
@@ -123,8 +123,8 @@
 <W lemma="evento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">evento</W>
 <W lemma="storico" msd="AN" tag="ADJ" in="-1:attr" out="">storico</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-16:conj" out="-8:coord|-7:subj|1:preds|1:preds">viene</W>
-<W lemma="ridurre" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:pobj">ridotta</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-16:conj" out="-8:coord|-7:subj|1:preds">viene</W>
+<W lemma="ridurre" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">ridotta</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|73:coref-id">crocetta</W>
@@ -184,8 +184,8 @@
 <W lemma="invece" msd="RG" tag="ADV" in="3:contr" out="1:pnct">invece</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-1:robj|-6:subj|-3:contr|1:preds|2:pnct|3:conj|15:pnct|1:preds">sentono</W>
-<W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">impotenti</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-1:robj|-6:subj|-3:contr|2:pnct|3:conj|15:pnct|1:preds">sentono</W>
+<W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds" out="">impotenti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-10:cond|1:cause">è</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-1:cause" out="3:vobj">perché</W>
@@ -202,8 +202,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-73:coref-id|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">crocetta</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct|1:preds">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|5:pnct|6:vobj|13:pnct|1:preds">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="sorta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">sorta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="illusione" msd="NC" tag="NOM" in="-1:nobj" out="">illusione</W>

@@ -114,8 +114,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:dobj" out="3:vobj">at</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:preds|16:pnct|17:pnct|1:preds">er</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:preds|-1:preds" out="1:pobj">op</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|16:pnct|17:pnct|1:preds">er</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:preds" out="1:pobj">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="judge" lemma="dommer" morph="dømme dommer/PRED&3a;agent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dommer</W>
@@ -252,10 +252,10 @@
 <W gloss="bank" lemma="bank" morph="bank" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bank</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_state" lemma="stat" morph="stat" msd="NCCSU==D" tag="NN" in="-11:conj" out="-1:coord">staten</W>
-<W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-17:conj" out="-12:subj|-13:coord|1:attr|2:dobj|3:preds|3:preds">har</W>
+<W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-17:conj" out="-12:subj|-13:coord|1:attr|2:dobj|3:preds">har</W>
 <W gloss="all" lemma="al" morph="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">alle</W>
 <W gloss="money" lemma="penge" morph="penge" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="">penge</W>
-<W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-3:preds|-3:preds" out="">til_gode</W>
+<W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-3:preds" out="">til_gode</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 </p>

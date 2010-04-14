@@ -187,8 +187,8 @@
 <W lemma="perfino" msd="RG" tag="ADV" in="1:focal" out="">perfino</W>
 <W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;pres" in="2:subj" out="-1:focal|1:focal">l’Italia</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stessa</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VER&3a;infi" in="-4:vobj" out="-2:subj|1:preds|1:preds">diventerà</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="2:nobj">un</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VER&3a;infi" in="-4:vobj" out="-2:subj|1:preds">diventerà</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="2:nobj">un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attr" out="">buon</W>
 <W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">importatore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>

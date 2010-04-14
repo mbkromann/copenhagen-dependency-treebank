@@ -52,9 +52,9 @@
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="1:loc" out="">her</W>
 <W gloss="triumphed" lemma="triumfere" morph="triumf +ere/DER&3a;nv" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-1:loc|-2:coord|1:subj|2:pobj|145:+ELAB&3a;exp">triumferede</W>
 <W gloss="Ariostea" lemma="Ariostea" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Ariostea</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:preds|2:preds">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:preds">med</W>
 <W gloss="victory" lemma="sejr" morph="sejr" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sejr</W>
-<W gloss="of" lemma="i" msd="SP" tag="IN" in="-2:preds|-2:preds" out="1:nobj">i</W>
+<W gloss="of" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj">i</W>
 <W gloss="41.23" lemma="41,23" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:other">41,23</W>
 <W gloss="minutes" lemma="minut" morph="minut" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">minut</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:other" out="1:nobj">for</W>
@@ -105,8 +105,8 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:other">De</W>
 <W gloss="next" lemma="næste" morph="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:other" out="">næste</W>
-<W gloss="were" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-26:+CONJ&3a;seq" out="-2:subj|1:preds|11:pnct|17:+CONJ/(og)|1:preds">var</W>
-<W gloss="Motorola" lemma="Motorola" msd="NP--U==-" tag="NNP" in="-1:preds|-1:preds" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">Motorola</W>
+<W gloss="were" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-26:+CONJ&3a;seq" out="-2:subj|11:pnct|17:+CONJ/(og)|1:preds">var</W>
+<W gloss="Motorola" lemma="Motorola" msd="NP--U==-" tag="NNP" in="-1:preds" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">Motorola</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Gatorade-Chateau_d'Ax" lemma="Gatorade-Chateau_d'Ax" msd="NP--U==-" tag="NNP" in="-2:conj" out="">Gatorade-Chateau_d'Ax</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

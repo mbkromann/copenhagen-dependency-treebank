@@ -69,10 +69,10 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Ester</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="-1:namef">Brohus</W>
 <W lemma="no" msd="NEG" in="1:neg" out="2:degr">no</W>
-<W lemma="ser" msd="VSfin" in="" out="-5:prg|-2:subj|-1:neg|3:preds|4:pnct|3:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-5:prg|-2:subj|-1:neg|4:pnct|3:preds">es</W>
 <W lemma="del" msd="PDEL" in="-2:degr" out="">del</W>
 <W lemma="todo" msd="QU" in="" out="">todo</W>
-<W lemma="desconocida" msd="NC" in="-3:preds|-3:preds" out="">desconocida</W>
+<W lemma="desconocida" msd="NC" in="-3:preds" out="">desconocida</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="mucho" msd="QU" in="3:subj|4:[subj]" out="1:nobj">Muchos</W>
 <W lemma="dans" msd="ADJ" in="-1:nobj" out="">daneses</W>
@@ -138,8 +138,8 @@
 <W lemma="gente" msd="NC" in="-1:nobj" out="">gente</W>
 <W lemma="pensar" msd="VLfin" in="" out="-2:subj|1:dobj|15:pnct">pensaba</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
-<W lemma="era" msd="VEfin" in="-1:vobj" out="1:preds|1:preds">era</W>
-<W lemma="raro" msd="ADJ" in="-1:preds|-1:preds" out="1:subj">raro</W>
+<W lemma="era" msd="VEfin" in="-1:vobj" out="1:preds">era</W>
+<W lemma="raro" msd="ADJ" in="-1:preds" out="1:subj">raro</W>
 <W lemma="que" msd="CQUE" in="-1:subj" out="1:vobj">que</W>
 <W lemma="continuar" msd="VLfin" in="-1:vobj" out="1:vobj|5:time">continuara</W>
 <W lemma="andar" msd="VLadj" in="-1:vobj" out="1:pobj">andando</W>
@@ -153,9 +153,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="" out="">Pero</W>
-<W lemma="estar" msd="VLfin" in="" out="2:preds|3:pnct|2:preds">estamos</W>
+<W lemma="estar" msd="VLfin" in="" out="3:pnct|2:preds">estamos</W>
 <W lemma="muy" msd="ADV" in="1:ext" out="">muy</W>
-<W lemma="unir" msd="VLadj" in="-2:preds|-2:preds" out="-1:ext">unidos</W>
+<W lemma="unir" msd="VLadj" in="-2:preds" out="-1:ext">unidos</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="mo" msd="PPO" in="4:subj" out="1:nobj|3:conj">Mi</W>
 <W lemma="maridar" msd="VLfin" in="-1:nobj" out="">marido</W>

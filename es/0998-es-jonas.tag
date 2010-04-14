@@ -71,7 +71,7 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:attr">año</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="">pasado.”</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-17:coref-prg|10:preds|10:preds" out="1:pnct|2:conc">“Satisfactorio</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-17:coref-prg|10:preds" out="1:pnct|2:conc">“Satisfactorio</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="aunque" msd="CSUBX" in="-2:conc" out="">aunque</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
@@ -81,7 +81,7 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:bobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:bobj" out="1:attr">año</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:attr" out="">pasado,”</W>
-<W lemma="ser" msd="VSfin" in="" out="-10:preds|1:subj|32:pnct|-10:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:subj|32:pnct|-10:preds">es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="comentario" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">comentario</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
@@ -148,10 +148,10 @@
 <W lemma="y" msd="CC" in="3:struct" out="">Y</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="">sí</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="estar" msd="VLfin" in="" out="-3:struct|1:prg|3:preds|4:pnct|3:preds">estamos</W>
+<W lemma="estar" msd="VLfin" in="" out="-3:struct|1:prg|4:pnct|3:preds">estamos</W>
 <W lemma="de~hecho" msd="ADV" in="-1:prg" out="">de hecho</W>
 <W lemma="muy" msd="ADV" in="" out="">muy</W>
-<W lemma="contento" msd="ADJ" in="-3:preds|-3:preds" out="">contentos</W>
+<W lemma="contento" msd="ADJ" in="-3:preds" out="">contentos</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="tener" msd="VLfin" in="24:dobj" out="1:dobj|4:conc|14:pnct|16:conj">Tuvimos</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">un</W>
@@ -174,9 +174,9 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="ese" msd="DM" in="2:subj" out="1:nobj">ese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">año</W>
-<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|2:preds|2:preds">fue</W>
+<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|2:preds">fue</W>
 <W lemma="realmente" msd="ADV" in="1:degr" out="">realmente</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">buenísimo,”</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds" out="-1:degr">buenísimo,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-24:dobj|1:subj|7:pnct">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="jefe" msd="NC" in="-1:nobj" out="1:pobj&3a;arg|4:appr">jefe</W>

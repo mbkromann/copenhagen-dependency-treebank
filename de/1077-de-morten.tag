@@ -3,9 +3,9 @@
 <W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Argumentation" msd="NC" tag="NN" in="-1:nobj" out="">Argumentation</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|2:preds|3:pnct|6:xpl|10:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|3:pnct|6:xpl|10:pnct|2:preds">ist</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
-<W lemma="klar" msd="AN" tag="ADJD" in="-2:preds|-2:preds" out="-1:degr">klar</W>
+<W lemma="klar" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr">klar</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj|5:[subj]" out="1:nobj">der</W>
 <W lemma="Staat" msd="NC" tag="NN" in="-1:nobj" out="">Staat</W>
@@ -42,10 +42,10 @@
 <W lemma="kontrollieren" msd="VAF" tag="VVINF" in="-4:vobj" out="-5:[subj]|-2:dobj">kontrollieren</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:conc|3:preds|4:pnct|24:pnct|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:conc|4:pnct|24:pnct|3:preds">ist</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="-1:conc" out="">jedoch</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
-<W lemma="klar" msd="AN" tag="ADJD" in="-3:preds|-3:preds" out="-1:degr">klar</W>
+<W lemma="klar" msd="AN" tag="ADJD" in="-3:preds" out="-1:degr">klar</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-6:nobj" out="18:vobj">dass</W>
 <W lemma="es" msd="PP" tag="PPER" in="17:expl" out="">es</W>
@@ -200,8 +200,8 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|4:subj" out="">die</W>
 <W lemma="doch" msd="RG" tag="ADV" in="3:att" out="">doch</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">so</W>
-<W lemma="natürlich" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-1:degr">natürlich</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-7:relr" out="-3:att|-1:preds|-4:subj|1:pnct|-1:preds">ist</W>
+<W lemma="natürlich" msd="AN" tag="ADJD" in="1:preds" out="-1:degr">natürlich</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-7:relr" out="-3:att|-4:subj|1:pnct|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="entfremden" msd="VAP" tag="VVPP" in="-10:vobj" out="-12:[subj]|-9:dobj">entfremdet</W>
 <W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>

@@ -49,8 +49,8 @@
 <W lemma="proprio" msd="AN" tag="ADJ" in="-3:degr" out="-1:neg|1:pnct">proprio</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-10:coref-res|1:subj" out="">Questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:preds|6:²pnct|6:¹relr|1:preds">è</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-1:preds|-1:preds" out="1:ref">quello</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|6:²pnct|6:¹relr|1:preds">è</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-1:preds" out="1:ref">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|4:dobj¹" out="">che</W>
 <W lemma="di" msd="SP" tag="PRE" in="3:prg¹" out="1:nobj">di</W>
 <W lemma="solito" msd="NC" tag="NOM" in="-1:nobj" out="">solito</W>
@@ -85,8 +85,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Ester</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="-1:namef|8:ref">Brohus</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-5:prg|-1:neg|-2:subj|1:preds|3:pnct|1:preds">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-5:prg|-1:neg|-2:subj|3:pnct|1:preds">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="sconosciuto" msd="NC" tag="NOM" in="-1:nobj" out="">sconosciuta</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="3:subj" out="1:nobj">Molti</W>
@@ -149,8 +149,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="ad" msd="SP" tag="PRE" in="2:iobj" out="1:nobj">Ad</W>
 <W lemma="alcuno" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">alcuni</W>
-<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-3:pnct|-2:iobj|1:preds|2:dobj|21:conj|1:preds">sembra</W>
-<W lemma="strano" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">strano</W>
+<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-3:pnct|-2:iobj|2:dobj|21:conj|1:preds">sembra</W>
+<W lemma="strano" msd="AN" tag="ADJ" in="-1:preds" out="">strano</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:dobj" out="2:vobj">che</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="1:subj|2:[subj]|4:[subj]" out="">io</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:vobj|14:pnct">abbia</W>
@@ -170,9 +170,9 @@
 <W lemma="," msd="XP" tag="PON" in="-14:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">noi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-21:conj" out="-2:coord|-1:subj|2:preds|3:pnct|2:preds">siamo</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-21:conj" out="-2:coord|-1:subj|3:pnct|2:preds">siamo</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
-<W lemma="legato" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">legati</W>
+<W lemma="legato" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">legati</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">Anche</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="6:time" out="-1:focal|1:pnct">oggi</W>

@@ -47,10 +47,10 @@
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:mod" out="2:vobj">som</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="">det</W>
 <W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|5:pnct">må</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:iobj|3:preds|3:preds">være</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:iobj|3:preds">være</W>
 <W gloss="Pia" lemma="Pia" msd="NP--U==-" tag="NNP" in="1:namef" out="">Pia</W>
 <W gloss="Kjærsgaard" lemma="Kjærsgaard" msd="NP--U==-" tag="NNP" in="-2:iobj" out="-1:namef">Kjærsgaard</W>
-<W gloss="we_know" lemma="bekendt" msd="ANP[CN]SU=IU" tag="JJ" in="-3:preds|-3:preds" out="">bekendt</W>
+<W gloss="we_know" lemma="bekendt" msd="ANP[CN]SU=IU" tag="JJ" in="-3:preds" out="">bekendt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-10:mod" out="1:nobj">i</W>
 <W gloss="a_number_of" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
@@ -75,8 +75,8 @@
 <W gloss="which" lemma="hvilken" msd="PT-CSU--U" tag="WDT" in="-2:dobj" out="1:nobj|2:ref|3:rel">hvilken</W>
 <W gloss="state" lemma="stat" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">stat</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:preds|1:preds">er</W>
-<W gloss="responsible" lemma="ansvarlig" msd="ANPCSU=IU" tag="JJ" in="-1:preds|-1:preds" out="1:pobj">ansvarlig</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:preds">er</W>
+<W gloss="responsible" lemma="ansvarlig" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">ansvarlig</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_handling" lemma="behandling" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">behandlingen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -166,8 +166,8 @@
 <p>
 <s>
 <W gloss="THAT" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">DET</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-43:+CAUSE&3a;reas" out="-1:subj|1:preds|18:pnct|23:CONTR&3a;prg/men|1:preds">bliver</W>
-<W gloss="the_result" lemma="resultat" msd="NCNSU==D" tag="NN" in="-1:preds|-1:preds" out="1:pobj">resultatet</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-43:+CAUSE&3a;reas" out="-1:subj|18:pnct|23:CONTR&3a;prg/men|1:preds">bliver</W>
+<W gloss="the_result" lemma="resultat" msd="NCNSU==D" tag="NN" in="-1:preds" out="1:pobj">resultatet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:rel">den</W>
 <W gloss="convention" lemma="konvention" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">konvention</W>
@@ -202,9 +202,9 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">nye</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="the_Union_Treaty" lemma="unionstraktat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Unionstraktaten</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|18:pnct|22:CONC/(dog)|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|18:pnct|22:CONC/(dog)|2:preds">er</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds|-2:preds" out="9:vobj">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="9:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="8:subj" out="2:mod|3:nobj">det</W>
 <W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="1:mod" out="">allerede</W>
 <W gloss="in_existence" lemma="eksistere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:mod" out="-1:mod">eksisterende</W>

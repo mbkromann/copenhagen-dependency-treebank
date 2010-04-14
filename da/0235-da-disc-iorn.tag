@@ -85,8 +85,8 @@
 </s>
 <s>
 <W gloss="The_bar" lemma="bar" msd="NCCSU==D" tag="NN" in="1:subj" out="">Baren</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:DESCR&3a;qual" out="-1:subj|1:preds|8:pnct|18:CONJ/(og)|1:preds">er</W>
-<W gloss="dark" lemma="mørk" msd="ANPCSU=IU" tag="JJ" in="-1:preds|-1:preds" out="2:conj|4:conj">mørk</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:DESCR&3a;qual" out="-1:subj|8:pnct|18:CONJ/(og)|1:preds">er</W>
+<W gloss="dark" lemma="mørk" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="2:conj|4:conj">mørk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="oblong" lemma="aflang" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">aflang</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -112,9 +112,9 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CONS&3a;prg" out="-1:subj|1:epi|2:preds|4:pnct|8:CAUSE&3a;expl/(nemlig)|20:JOINT|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CONS&3a;prg" out="-1:subj|1:epi|4:pnct|8:CAUSE&3a;expl/(nemlig)|20:JOINT|2:preds">er</W>
 <W gloss="definitely" lemma="afgjort" msd="ANP---=-R" tag="JJ" in="-1:epi" out="">afgjort</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds|-2:preds" out="1:nobj">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:nobj">en</W>
 <W gloss="hooker_bar" lemma="luderbar" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">luderbar</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>

@@ -176,8 +176,8 @@
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
 <W lemma="consejo" msd="NC" in="-1:nobj" out="1:attr">consejo</W>
 <W lemma="administrativo" msd="ADJ" in="-1:attr" out="">administrativo</W>
-<W lemma="ser" msd="VSfin" in="" out="-6:subj|1:preds|2:pnct|1:preds">fueron</W>
-<W lemma="liberar" msd="VLadj" in="-1:preds|-1:preds" out="">liberados</W>
+<W lemma="ser" msd="VSfin" in="" out="-6:subj|2:pnct|1:preds">fueron</W>
+<W lemma="liberar" msd="VLadj" in="-1:preds" out="">liberados</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="de" msd="PREP" in="10:struct" out="1:nobj|3:pnct">De</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">todas</W>
@@ -212,9 +212,9 @@
 <W lemma="suyo" msd="PPO" in="3:subj|29:dobj" out="1:nobj">Su</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">liberación</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="significar" msd="VLfin" in="" out="-4:pnct|-3:subj|-1:neg|1:degr|2:preds|18:pnct|25:pnct|2:preds">significa</W>
+<W lemma="significar" msd="VLfin" in="" out="-4:pnct|-3:subj|-1:neg|1:degr|18:pnct|25:pnct|2:preds">significa</W>
 <W lemma="en~absoluto" msd="ADV" in="-1:degr" out="">en absoluto</W>
-<W lemma="un" msd="ART" in="-2:preds|-2:preds" out="1:nobj">una</W>
+<W lemma="un" msd="ART" in="-2:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj?">afirmación</W>
 <W lemma="de" msd="PREP" in="-1:pobj?" out="">de</W>
 <W lemma="que" msd="CQUE" in="" out="1:vobj">que</W>
@@ -232,10 +232,10 @@
 <W lemma="ejemplar" msd="ADJ" in="-1:attr" out="">ejemplar</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-18:pnct" out="">–</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="6:dobj" out="-1:neg|1:degr|3:preds|3:preds">es</W>
+<W lemma="ser" msd="VSfin" in="6:dobj" out="-1:neg|1:degr|3:preds">es</W>
 <W lemma="para" msd="PREP" in="-1:degr" out="1:nobj">para</W>
 <W lemma="nada" msd="QU" in="-1:nobj" out="">nada</W>
-<W lemma="el" msd="ART" in="-3:preds|-3:preds" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="-3:preds" out="1:nobj">el</W>
 <W lemma="caso" msd="NC" in="-1:nobj" out="">caso</W>
 <W lemma="," msd="CM" in="-25:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-29:dobj|-6:dobj|1:subj|3:loc&3a;other|9:pnct">ratificó</W>

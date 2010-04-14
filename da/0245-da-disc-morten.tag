@@ -255,11 +255,11 @@
 <W gloss="forces" lemma="kraft" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kræfter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-5:ref|1:subj" out="">der</W>
-<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|4:preds|5:loc|4:preds">holder</W>
+<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|5:loc|4:preds">holder</W>
 <W gloss="the_neutrons" lemma="neutron" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="2:conj">neutronerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_protons" lemma="proton" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">protonerne</W>
-<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:preds|-4:preds" out="">sammen</W>
+<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:preds" out="">sammen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:loc" out="1:nobj">i</W>
 <W gloss="the_nucleus" lemma="kerne" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kernen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>

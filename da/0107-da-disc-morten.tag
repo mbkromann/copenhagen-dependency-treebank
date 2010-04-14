@@ -147,10 +147,10 @@
 <W gloss="advanced" lemma="avanceret" morph="avancere +t/DEVERB&3a;act.pure" msd="ANP[CN]SU=IU" tag="JJ" in="1:cause" out="">avanceret</W>
 <W gloss="equipment" lemma="udstyr" morph="udstyre /PRED&3a;core styre -ud/ASPEC&3a;term" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:cause">udstyr</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:comp" out="1:vobj">som</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds|3:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds">var</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="large" lemma="stor" morph="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
-<W gloss="export_slaughterhouses" lemma="eksportslagteri" morph="slagteri -eksport/func eksportere /PRED&3a;core slagte +ri/PRED&3a;loc" msd="NCNPU==I" tag="NNP" in="-3:preds|-3:preds" out="-1:attr">eksportslagterier</W>
+<W gloss="export_slaughterhouses" lemma="eksportslagteri" morph="slagteri -eksport/func eksportere /PRED&3a;core slagte +ri/PRED&3a;loc" msd="NCNPU==I" tag="NNP" in="-3:preds" out="-1:attr">eksportslagterier</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -215,9 +215,9 @@
 <W gloss="Duetoft" lemma="Duetoft" msd="NP--U==-" tag="NNP" in="13:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Duetoft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|5:[subj]" out="">der</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:preds|4:conj|9:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:conj|9:pnct|2:preds">er</W>
 <W gloss="declared" lemma="erklære" morph="erklære" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">erklæret</W>
-<W gloss="super-European" lemma="supereuropæer" morph="europæer -super/GRAD&3a;qual Europa +æer/DENOM&3a;rel.deono.place" msd="NCCSU==I" tag="NN" in="-2:preds|-2:preds" out="-1:attr">supereuropæer</W>
+<W gloss="super-European" lemma="supereuropæer" morph="europæer -super/GRAD&3a;qual Europa +æer/DENOM&3a;rel.deono.place" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">supereuropæer</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:dobj|3:lobj">har</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>

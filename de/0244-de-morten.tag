@@ -34,8 +34,8 @@
 <W lemma="aufnehmen" msd="VA" tag="VVFIN" in="-7:vobj" out="-6:subj|-5:dobj|-3:dir">aufnimmt</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">So</W>
-<W lemma="einfach" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-1:degr">einfach</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|1:subj|2:pnct|-1:preds">ist</W>
+<W lemma="einfach" msd="AN" tag="ADJD" in="1:preds" out="-1:degr">einfach</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|2:pnct|-1:preds">ist</W>
 <W lemma="d" msd="PP" tag="PDS" in="-1:subj" out="">das</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
@@ -80,9 +80,9 @@
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-6:nobj" out="4:vobj">dass</W>
 <W lemma="d" msd="PP" tag="PDS" in="3:subj" out="">das</W>
-<W lemma="kein" msd="PI" tag="PIAT" in="2:preds|2:preds" out="1:nobj">kein</W>
+<W lemma="kein" msd="PI" tag="PIAT" in="2:preds" out="1:nobj">kein</W>
 <W lemma="Grund" msd="NC" tag="NN" in="-1:nobj" out="5:nobj">Grund</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-2:preds|1:pnct|-2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|1:pnct|-2:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:dobj" out="1:possd">TEBAs</W>
 <W lemma="Areal" msd="NC" tag="NN" in="-1:possd" out="">Areal</W>
@@ -169,8 +169,8 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-6:subj|-1:vobj|-5:eval|1:pnct">werden</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:preds|5:pnct|1:preds">macht</W>
-<W lemma="9,5" msd="AC" tag="CARD" in="-1:preds|-1:preds" out="1:nobj">9,5</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="" out="-1:subj|5:pnct|1:preds">macht</W>
+<W lemma="9,5" msd="AC" tag="CARD" in="-1:preds" out="1:nobj">9,5</W>
 <W lemma="Kilo" msd="NC" tag="NN" in="-1:nobj" out="1:other">Kilo</W>
 <W lemma="per" msd="SP" tag="APPR" in="-1:other" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">m2</W>

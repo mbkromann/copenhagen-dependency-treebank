@@ -31,8 +31,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">I</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="robusto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr">robusti</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:preds|5:pnct|11:conj|1:preds">sono</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:preds|-1:preds" out="1:nobj">alla</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|5:pnct|11:conj|1:preds">sono</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:preds" out="1:nobj">alla</W>
 <W lemma="ricerca" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">ricerca</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
 <W lemma="provvista" msd="NC" tag="NOM" in="-1:nobj" out="">provviste</W>
@@ -51,8 +51,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">Le</W>
 <W lemma="tenda" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">tende</W>
 <W lemma="verde" msd="AN" tag="ADJ" in="-1:attr" out="">verdi</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:preds|14:pnct|1:preds">sono</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">di</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|14:pnct|1:preds">sono</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj|4:ref|6:relr">un</W>
 <W lemma="vecchio" msd="AN" tag="ADJ" in="1:attr" out="">vecchio</W>
 <W lemma="modello" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">modello</W>
@@ -152,8 +152,8 @@
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">Anche</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="-1:focal|1:nobj">lo</W>
 <W lemma="zio" msd="NC" tag="NOM" in="-1:nobj" out="">zio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|4:pnct|1:preds">è</W>
-<W lemma="prossimo" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">prossimo</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|4:pnct|1:preds">è</W>
+<W lemma="prossimo" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">prossimo</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">alla</W>
 <W lemma="morta&7c;morte&7c;morto" msd="NC" tag="NOM" in="-1:nobj" out="">morte</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
@@ -209,8 +209,8 @@
 <W lemma="pianto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">pianto</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="-1:nobj" out="">bambino</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:preds|1:preds">è</W>
-<W lemma="straziante" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">straziante</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:preds">è</W>
+<W lemma="straziante" msd="AN" tag="ADJ" in="-1:preds" out="">straziante</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
 </s>
 <s>
@@ -222,8 +222,8 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:relpa" out="-1:subj|1:vobj|2:pnct">sono</W>
 <W lemma="scoprire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]">scoperti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-8:subj|1:preds|4:pnct|1:preds">sono</W>
-<W lemma="cianotico" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:cause">cianotici</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-8:subj|4:pnct|1:preds">sono</W>
+<W lemma="cianotico" msd="AN" tag="ADJ" in="-1:preds" out="1:cause">cianotici</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:cause" out="1:nobj">dal</W>
 <W lemma="freddo" msd="NC" tag="NOM" in="-1:nobj" out="">freddo</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>

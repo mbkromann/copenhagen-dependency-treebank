@@ -20,8 +20,8 @@
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="-14:assoc-scope|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">solución</W>
-<W lemma="era" msd="VEfin" in="" out="-2:subj|1:preds|2:pnct|7:conj|1:preds">era</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="">“Personality”</W>
+<W lemma="era" msd="VEfin" in="" out="-2:subj|2:pnct|7:conj|1:preds">era</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">“Personality”</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-20:assoc-scope|3:xtop" out="1:nobj|2:ref">el</W>
@@ -46,8 +46,8 @@
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Moscú</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="estar" msd="VLfin" in="" out="1:preds|4:struct|11:subj|26:pnct|1:preds">Estaban</W>
-<W lemma="presente" msd="ADJ" in="-1:preds|-1:preds" out="">presentes</W>
+<W lemma="estar" msd="VLfin" in="" out="4:struct|11:subj|26:pnct|1:preds">Estaban</W>
+<W lemma="presente" msd="ADJ" in="-1:preds" out="">presentes</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">además</W>
 <W lemma="de" msd="PREP" in="-4:struct" out="-2:pnct|1:nobj|6:pnct">de</W>
@@ -211,8 +211,8 @@
 <W lemma="nuevo" msd="ADJ" in="2:attr" out="">Nuevos</W>
 <W lemma="oficial" msd="ADJ" in="1:attrd#" out="12:coref-var">oficiales</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:attrd#|-2:attr">herreros</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:preds|2:subj|7:time|9:pnct|1:preds">Fueron</W>
-<W lemma="aprobar" msd="VLadj" in="-1:preds|-1:preds" out="">aprobadas</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="" out="2:subj|7:time|9:pnct|1:preds">Fueron</W>
+<W lemma="aprobar" msd="VLadj" in="-1:preds" out="">aprobadas</W>
 <W lemma="dos" msd="CARD" in="-2:subj" out="1:nobj">dos</W>
 <W lemma="prueba" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">pruebas</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="2:nobj">de</W>
@@ -223,8 +223,8 @@
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="ambo" msd="QU" in="-12:coref-var|2:subj" out="1:nobj">Ambos</W>
 <W lemma="aprendiz" msd="NC" in="-1:nobj" out="">aprendices</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|12:pnct|1:preds">fueron</W>
-<W lemma="instruir" msd="VLadj" in="-1:preds|-1:preds" out="1:loc">instruidos</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|12:pnct|1:preds">fueron</W>
+<W lemma="instruir" msd="VLadj" in="-1:preds" out="1:loc">instruidos</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:pobj&3a;poss">platería</W>

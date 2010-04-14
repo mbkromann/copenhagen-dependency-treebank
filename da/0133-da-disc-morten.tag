@@ -55,8 +55,8 @@
 <W gloss="sail" lemma="sejle" morph="sejl +e/DER&3a;nv" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj">sejle</W>
 <W gloss="further" lemma="videre" msd="RGU" tag="RP" in="-1:lobj" out="">videre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-14:subj|1:preds|30:pnct|57:+ELAB&3a;exp/ATTR|1:preds">er</W>
-<W gloss="the_submarine" lemma="ubåd" morph="båd -u/func" msd="NCCSU==D" tag="NN" in="-1:preds|-1:preds" out="1:appr|5:ref|8:rel">ubåden</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-14:subj|30:pnct|57:+ELAB&3a;exp/ATTR|1:preds">er</W>
+<W gloss="the_submarine" lemma="ubåd" morph="båd -u/func" msd="NCCSU==D" tag="NN" in="-1:preds" out="1:appr|5:ref|8:rel">ubåden</W>
 <W gloss="Killer_Whale" lemma="spækhugger" morph="hugger -spæk/OTHER hugge +r/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="-1:appr" out="1:pnct|2:appa">Spækhuggeren</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="S327," lemma="S327" msd="XR" tag="SYM" in="-2:appa" out="1:pnct">S327</W>
@@ -73,8 +73,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">til</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:other" out="">også</W>
-<W gloss="been" lemma="være" morph="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:conj" out="-12:[subj]|-4:other|-1:other|-5:coord|1:preds|4:other|1:preds">været</W>
-<W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-1:preds|-1:preds" out="1:other">ude</W>
+<W gloss="been" lemma="være" morph="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:conj" out="-12:[subj]|-4:other|-1:other|-5:coord|4:other|1:preds">været</W>
+<W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-1:preds" out="1:other">ude</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_Atlantic" lemma="Atlanten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Atlanten</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:other" out="1:nobj">som</W>
@@ -126,11 +126,11 @@
 <p>
 <s>
 <W gloss="Holmen" lemma="holm" morph="holm" msd="NCCSU==D" tag="NN" in="1:subj" out="">Holmen</W>
-<W gloss="will_be" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-9:+ELAB&3a;exp&7c;CONJ/også" out="-1:subj|1:eval|2:other|3:time|4:preds|6:pnct|4:preds">er</W>
+<W gloss="will_be" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-9:+ELAB&3a;exp&7c;CONJ/også" out="-1:subj|1:eval|2:other|3:time|6:pnct|4:preds">er</W>
 <W gloss="Actually" lemma="såmænd" msd="RGU" tag="RP" in="-1:eval" out="">såmænd</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:other" out="">også</W>
 <W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="-3:time" out="">snart</W>
-<W gloss="for" lemma="til" msd="SP" tag="IN" in="-4:preds|-4:preds" out="1:nobj">til</W>
+<W gloss="for" lemma="til" msd="SP" tag="IN" in="-4:preds" out="1:nobj">til</W>
 <W gloss="sale" lemma="salg" morph="sælge salg/PRED&3a;core" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">salg</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -179,8 +179,8 @@
 </s>
 <s>
 <W gloss="They" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-32:DESCR&3a;qual" out="-1:subj|1:preds|4:pnct|6:&3a;CAUSE&3a;expl/(nemlig)|29:CONTR&3a;dir/men|1:preds">er</W>
-<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:preds|-1:preds" out="1:attr|2:nobj">nogle</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-32:DESCR&3a;qual" out="-1:subj|4:pnct|6:&3a;CAUSE&3a;expl/(nemlig)|29:CONTR&3a;dir/men|1:preds">er</W>
+<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">nogle</W>
 <W gloss="rapid" lemma="hurtig" morph="hurtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">hurtige</W>
 <W gloss="svende" lemma="svend" morph="svend" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">svende</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
@@ -196,11 +196,11 @@
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
 <W gloss="equipped" lemma="udstyre" morph="styre -ud/ASPEC&3a;term" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">udstyret</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj|4:preds|4:preds">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj|4:preds">med</W>
 <W gloss="a_total_of" lemma="i_alt" msd="RGU" tag="RP" in="1:other" out="">i_alt</W>
 <W gloss="12,750" lemma="12.750" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:other|1:nobj">12.750</W>
 <W gloss="HP" lemma="hestekraft" morph="kraft -hest[e]/poss" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">HK</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:preds|-4:preds" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:preds" out="1:nobj">på</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>
 <W gloss="gas_turbine_engines" lemma="gasturbinemotor" morph="motor -gasturbine/const turbine -gas/type" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">gasturbinemotorer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
@@ -208,12 +208,12 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="9:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="3:nobj">det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-29:CONTR&3a;dir/men" out="-1:subj|-2:coord|1:preds|1:preds">er</W>
-<W gloss="expensive" lemma="dyr" morph="dyr" msd="ANPNSU=IU" tag="JJ" in="-1:preds|-1:preds" out="">dyrt</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-29:CONTR&3a;dir/men" out="-1:subj|-2:coord|1:preds">er</W>
+<W gloss="expensive" lemma="dyr" morph="dyr" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">dyrt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
-<W gloss="keep" lemma="holde" morph="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:preds|2:preds">holde</W>
+<W gloss="keep" lemma="holde" morph="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:preds">holde</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds|-2:preds" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj">i</W>
 <W gloss="pace" lemma="fart" morph="fart" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fart</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -221,11 +221,11 @@
 <p>
 <s>
 <W gloss="Finally" lemma="endelig" msd="RGU" tag="RP" in="1:struct" out="">Endelig</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-75:+CONJ/også" out="-1:struct|1:other|2:subj|4:preds|6:pnct|10:ELAB&3a;exp&7c;CONJ/også|4:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-75:+CONJ/også" out="-1:struct|1:other|2:subj|6:pnct|10:ELAB&3a;exp&7c;CONJ/også|4:preds">er</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:other" out="">også</W>
 <W gloss="the_patrol_vessel" lemma="inspektionsskib" morph="skib -[inspektion]s/func inspicere +spektion/PRED&3a;core" msd="NCNSU==D" tag="NN" in="-2:subj" out="1:appr">inspektionsskibet</W>
 <W gloss="Fylla" lemma="Fylla" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Fylla</W>
-<W gloss="for" lemma="til" msd="SP" tag="IN" in="-4:preds|-4:preds" out="1:nobj">til</W>
+<W gloss="for" lemma="til" msd="SP" tag="IN" in="-4:preds" out="1:nobj">til</W>
 <W gloss="sale" lemma="salg" morph="sælge salg/PRED&3a;core" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">salg</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

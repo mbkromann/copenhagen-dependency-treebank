@@ -1,7 +1,7 @@
 <p>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="21:qobj" out="1:preds|4:pnct|14:CONTR&3a;prg/ma/ATTR1|1:preds">Sono</W>
-<W lemma="notizia" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="2:attr|14:²coref">notizie</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="21:qobj" out="4:pnct|14:CONTR&3a;prg/ma/ATTR1|1:preds">Sono</W>
+<W lemma="notizia" msd="NC" tag="NOM" in="-1:preds" out="2:attr|14:²coref">notizie</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
 <W lemma="positivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">positive</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
@@ -81,9 +81,9 @@
 <W lemma="settembre" msd="NC" tag="NOM" in="1:nobj" out="-1:nobj">settembre</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-3:nobj" out="-1:nobj">1990</W>
 <W lemma="," msd="XP" tag="PON" in="-18:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exp" out="-23:subj|1:man|2:preds|27:pnct|31:CONTR&3a;dir/(ma)|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exp" out="-23:subj|1:man|27:pnct|31:CONTR&3a;dir/(ma)|2:preds">è</W>
 <W lemma="esattamente" msd="RG" tag="ADV" in="-1:man" out="">esattamente</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:preds|-2:preds" out="1:nobj">quella</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:preds" out="1:nobj">quella</W>
 <W lemma="richiedere" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="1:pobj|7:iobj">richiesta</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Conny</W>
@@ -179,8 +179,8 @@
 <W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">parte</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-38:coref|-1:nobj" out="">loro</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="26:qobj" out="-5:subj|1:preds|5:pnct|9:ELAB&3a;part|1:preds">erano</W>
-<W lemma="operare" msd="VADA" tag="VER&3a;remo" in="-1:preds|-1:preds" out="1:attrr#">operai</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="26:qobj" out="-5:subj|5:pnct|9:ELAB&3a;part|1:preds">erano</W>
+<W lemma="operare" msd="VADA" tag="VER&3a;remo" in="-1:preds" out="1:attrr#">operai</W>
 <W lemma="specializzato" msd="AN" tag="ADJ" in="-1:attrr#" out="2:conj">specializzati</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="non" msd="RG" tag="ADV" in="-2:conj" out="-1:coord">non</W>
@@ -188,8 +188,8 @@
 </s>
 <s>
 <W lemma="quattro" msd="AN" tag="ADJ" in="1:subj" out="">Quattro</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:ELAB&3a;part" out="-1:subj|1:preds|7:pnct|12:conj|1:preds">sono</W>
-<W lemma="decedere" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:time">deceduti</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:ELAB&3a;part" out="-1:subj|7:pnct|12:conj|1:preds">sono</W>
+<W lemma="decedere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:time">deceduti</W>
 <W lemma="entro" msd="SP" tag="PRE" in="-1:time" out="1:nobj">entro</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">anno</W>

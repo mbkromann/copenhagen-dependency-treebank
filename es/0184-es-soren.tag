@@ -66,8 +66,8 @@
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Cheese</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct|9:coord|10:vobj|36:pnct|1:preds">es</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="2:nobj">el</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|8:pnct|9:coord|10:vobj|36:pnct|1:preds">es</W>
+<W lemma="el" msd="ART" in="-1:preds" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:attr" out="">único</W>
 <W lemma="productor" msd="ADJ" in="-2:nobj" out="-1:attr|1:attr|2:pobj&3a;dobj#">productor</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="">danés</W>
@@ -151,9 +151,9 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Exportación</W>
 <W lemma="La" msd="NP" in="2:subj" out="1:nobj">La</W>
 <W lemma="pasta" msd="NC" in="-1:nobj" out="">pasta</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|2:preds|11:pnct|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|11:pnct|2:preds">es</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:prg" out="">todavía</W>
-<W lemma="un" msd="ART" in="-2:preds|-2:preds" out="-1:prg|2:nobj">una</W>
+<W lemma="un" msd="ART" in="-2:preds" out="-1:prg|2:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">pequeña</W>
 <W lemma="parte" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg#">parte</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
@@ -201,8 +201,8 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="">que</W>
 <W lemma="hasta" msd="PREP" in="-2:other" out="">hasta</W>
 <W lemma="Italia" msd="NP" in="1:subj" out="">Italia</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:vobj" out="-1:subj|1:preds|1:preds">será</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="2:nobj">una</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:vobj" out="-1:subj|1:preds">será</W>
+<W lemma="un" msd="ART" in="-1:preds" out="2:nobj">una</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">buena</W>
 <W lemma="receptor" msd="ADJ" in="-2:nobj" out="-1:attr|1:pobj">receptora</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:possd">de</W>

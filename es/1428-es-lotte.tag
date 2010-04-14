@@ -1,7 +1,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:subj|2:vobj|46:pnct">¿Puede</W>
 <W lemma="uno" msd="CARD" in="-1:subj|1:[subj]" out="">uno</W>
-<W lemma="ser" msd="NC" in="-2:vobj" out="-1:[subj]|1:preds|2:dir|5:other|10:time|1:preds">ser</W>
-<W lemma="seducir" msd="VLadj" in="-1:preds|-1:preds" out="">seducido</W>
+<W lemma="ser" msd="NC" in="-2:vobj" out="-1:[subj]|2:dir|5:other|10:time|1:preds">ser</W>
+<W lemma="seducir" msd="VLadj" in="-1:preds" out="">seducido</W>
 <W lemma="al" msd="PAL" in="-2:dir" out="1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:nobj">Kongens</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Have</W>
@@ -58,8 +58,8 @@
 <W lemma="@card@" msd="CARD" in="-6:dobj" out="1:nobj">33</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-8:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="-10:coref" out="1:preds|16:pnct|42:coref|1:preds">Es</W>
-<W lemma="hijo" msd="NC" in="-1:preds|-1:preds" out="1:pobj&3a;arg|9:conj|11:conj|14:conj">hijo</W>
+<W lemma="ser" msd="VSfin" in="-10:coref" out="16:pnct|42:coref|1:preds">Es</W>
+<W lemma="hijo" msd="NC" in="-1:preds" out="1:pobj&3a;arg|9:conj|11:conj|14:conj">hijo</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="2:nobj">del</W>
 <W lemma="anterior" msd="ADJ" in="1:attr" out="">anterior</W>
 <W lemma="ministro" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg|4:appr">ministro</W>
@@ -129,8 +129,8 @@
 <W lemma="rabia" msd="NC" in="-2:dobj" out="-1:attr">rabia</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-5:coref|1:subj" out="4:coref">“¡Yo</W>
-<W lemma="ser" msd="VLfin" in="3:qobj" out="-1:subj|1:preds|2:pnct|1:preds">soy</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds|-1:preds" out="">yo!”</W>
+<W lemma="ser" msd="VLfin" in="3:qobj" out="-1:subj|2:pnct|1:preds">soy</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds" out="">yo!”</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="insistir" msd="VLfin" in="-4:coref" out="-3:qobj|1:loc|9:pnct|10:time|11:coref|15:comp|61:pnct">insiste</W>
 <W lemma="bajo" msd="PREP" in="-1:loc" out="1:nobj">bajo</W>

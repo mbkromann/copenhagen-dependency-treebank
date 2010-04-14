@@ -157,10 +157,10 @@
 <p>
 <s>
 <W lemma="davon" msd="RG" tag="PAV" in="-6:coref|1:subj" out="">Davon</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|3:preds|5:pnct|3:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|5:pnct|3:preds">war</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">jedoch</W>
 <W lemma="keineswegs" msd="RG" tag="ADV" in="1:neg" out="">keineswegs</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-3:preds|-3:preds" out="-1:neg|1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="-1:neg|1:nobj">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="-1:nobj" out="">Rede</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="1:time&3a;cont" out="">Jetzt</W>

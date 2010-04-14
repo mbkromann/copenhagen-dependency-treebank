@@ -137,8 +137,8 @@
 <W lemma="col" msd="NC" in="-1:nobj" out="">col</W>
 <W lemma="hasta" msd="PREP" in="-3:time" out="">hasta</W>
 <W lemma="que" msd="CQUE" in="" out="1:nobj">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:preds|1:preds">esté</W>
-<W lemma="tierno" msd="ADJ" in="-1:preds|-1:preds" out="">tierna</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:preds">esté</W>
+<W lemma="tierno" msd="ADJ" in="-1:preds" out="">tierna</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="salsa" msd="NC" in="" out="">Salsa</W>
 <W lemma="&3a;" msd="COLON" in="" out="">:</W>
@@ -223,8 +223,8 @@
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">31</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
-<W lemma="ser" msd="VSfin" in="" out="-7:subj|1:preds|6:pnct|1:preds">es</W>
-<W lemma="titulado" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">titulado</W>
+<W lemma="ser" msd="VSfin" in="" out="-7:subj|6:pnct|1:preds">es</W>
+<W lemma="titulado" msd="ADJ" in="-1:preds" out="1:pobj">titulado</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:nobj">Hovborg</W>

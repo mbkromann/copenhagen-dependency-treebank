@@ -91,9 +91,9 @@
 <W lemma="sopra" msd="AN" tag="ADJ" in="-2:loc" out="-1:focal">sopra</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-19:coref|1:dobj" out="">Ne</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-1:dobj|2:preds|3:pnct|4:pnct|5:pnct|2:preds">sarai</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-1:dobj|3:pnct|4:pnct|5:pnct|2:preds">sarai</W>
 <W lemma="ben" msd="RG" tag="ADV" in="1:degr" out="">ben</W>
-<W lemma="stanco" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">stanco</W>
+<W lemma="stanco" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">stanco</W>
 <W lemma="!" msd="XP" tag="SENT" in="-3:pnct" out="">!</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
@@ -119,8 +119,8 @@
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-2:loc" out="1:nobj">sui</W>
 <W lemma="binario" msd="NC" tag="NOM" in="-1:nobj" out="">binari</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-5:pnct" out="">:</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="1:preds|1:preds">è</W>
-<W lemma="proibire" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="">proibito</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="1:preds">è</W>
+<W lemma="proibire" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">proibito</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-8:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="4:pnct" out="">"</W>

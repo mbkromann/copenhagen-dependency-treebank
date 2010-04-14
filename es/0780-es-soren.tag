@@ -1,8 +1,8 @@
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">El</W>
 <W lemma="importe" msd="NC" in="-1:nobj|2:[subj]" out="">importe</W>
 <W lemma="poder" msd="VMfin" in="" out="-2:subj|1:vobj|7:conj">puede</W>
-<W lemma="parecer" msd="VLinf" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|1:preds">parecer</W>
-<W lemma="grande" msd="ADJ" in="-1:preds|-1:preds" out="">grande</W>
+<W lemma="parecer" msd="VLinf" in="-1:vobj" out="-2:[subj]|2:pnct|1:preds">parecer</W>
+<W lemma="grande" msd="ADJ" in="-1:preds" out="">grande</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="3:coord" out="">pero</W>
 <W lemma="en~realidad" msd="ADV" in="2:prg" out="">en realidad</W>

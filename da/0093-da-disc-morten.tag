@@ -51,7 +51,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="social" lemma="social" morph="social" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">sociale</W>
 <W gloss="authorities" lemma="myndighed" morph="myndig +hed/QUAL" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">myndigheder</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|8:preds|25:pnct|31:+CAUSE&3a;expl/nemlig|8:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|25:pnct|31:+CAUSE&3a;expl/nemlig|8:preds">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="little" lemma="lille" morph="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="three-year_old" lemma="tre-årig" morph="årig -tre/DENUM&3a;ord år +ig/DENOM&3a;poss" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">tre-årige</W>
@@ -59,7 +59,7 @@
 <W gloss="once_again" lemma="atter" msd="RGU" tag="RP" in="-5:other" out="">atter</W>
 <W gloss="quite" lemma="hel" morph="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
 <W gloss="legally" lemma="legal" morph="legal" msd="ANP---=-R" tag="JJ" in="-7:man" out="-1:degr">legalt</W>
-<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-8:preds|-8:preds" out="1:pobj">sammen</W>
+<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-8:preds" out="1:pobj">sammen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd|2:pnct|4:appa|9:conj">sin</W>
 <W gloss="mother" lemma="mor" morph="moder mor/NOPRED&3a;other" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mor</W>
@@ -141,9 +141,9 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="8:vobj">Det</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-13:DESCR&3a;eval/ATTR" out="-1:subj|1:att|2:preds|3:pnct|16:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-13:DESCR&3a;eval/ATTR" out="-1:subj|1:att|3:pnct|16:pnct|2:preds">var</W>
 <W gloss="truly" lemma="sandelig" msd="RGU" tag="RP" in="-1:att" out="">sandelig</W>
-<W gloss="good" lemma="god" morph="god" msd="ANPNSU=IU" tag="JJ" in="-2:preds|-2:preds" out="">godt</W>
+<W gloss="good" lemma="god" morph="god" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">godt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj|6:[subj]" out="">vi</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>

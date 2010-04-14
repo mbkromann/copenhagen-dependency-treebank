@@ -149,9 +149,9 @@
 </p>
 <p>
 <s>
-<W lemma="sein" msd="VA" tag="VAFIN" in="4:cond" out="1:subj|2:preds|2:preds">Ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="4:cond" out="1:subj|2:preds">Ist</W>
 <W lemma="d" msd="PP" tag="PDS" in="-1:subj|-20:coref" out="">das</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds|-2:preds" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds" out="1:nobj">der</W>
 <W lemma="Fall" msd="NC" tag="NN" in="-1:nobj" out="">Fall</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:cond|1:subj|8:vobj|9:pnct">wird</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|7:[subj]" out="1:attr|2:nobj|23:coref-var">der</W>

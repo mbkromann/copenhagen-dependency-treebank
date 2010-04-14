@@ -21,9 +21,9 @@
 <W in="-20:nobj" out="-1:pnct|1:pnct">K</W>
 <W in="-1:pnct" out="">)</W>
 <W in="1:neg" out="">non</W>
-<W in="" out="-23:subj|-1:neg|2:preds|3:pnct|2:preds">è</W>
+<W in="" out="-23:subj|-1:neg|3:pnct|2:preds">è</W>
 <W in="1:degr" out="">affatto</W>
-<W in="-2:preds|-2:preds" out="-1:degr">nuova</W>
+<W in="-2:preds" out="-1:degr">nuova</W>
 <W in="-3:pnct" out="">.</W>
 <W in="" out="1:nobj|3:time|5:pnct">In</W>
 <W in="-1:nobj" out="">realtà</W>
@@ -99,9 +99,9 @@
 <W in="3:subj" out="1:nobj">i</W>
 <W in="-1:nobj" out="">tempi</W>
 <W in="1:neg" out="">non</W>
-<W in="" out="-6:loc|-3:subj|-1:neg|2:preds|8:pnct|11:conj|14:pnct|2:preds">erano</W>
+<W in="" out="-6:loc|-3:subj|-1:neg|8:pnct|11:conj|14:pnct|2:preds">erano</W>
 <W in="1:degr" out="">ancora</W>
-<W in="-2:preds|-2:preds" out="-1:degr|1:pobj">maturi</W>
+<W in="-2:preds" out="-1:degr|1:pobj">maturi</W>
 <W in="-1:pobj" out="1:nobj">per</W>
 <W in="-1:nobj" out="1:nobj">un</W>
 <W in="-1:nobj" out="2:attr">passo</W>
@@ -120,8 +120,8 @@
 <W in="-1:attr" out="">prima</W>
 <W in="-2:attr" out="1:nobj">di</W>
 <W in="-1:nobj" out="">tutto</W>
-<W in="" out="-6:loc|1:preds|2:vobj|15:conj|19:pnct|1:preds">sarà</W>
-<W in="-1:preds|-1:preds" out="">necessario</W>
+<W in="" out="-6:loc|2:vobj|15:conj|19:pnct|1:preds">sarà</W>
+<W in="-1:preds" out="">necessario</W>
 <W in="-2:vobj" out="1:man|2:dobj">passare</W>
 <W in="-1:man" out="">attraverso</W>
 <W in="-2:dobj" out="1:nobj">un</W>

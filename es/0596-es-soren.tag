@@ -199,8 +199,8 @@
 <W lemma="grupo" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">grupo</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
-<W lemma="ser" msd="VSfin" in="-9:vobj" out="-8:subj|1:preds|2:time|1:preds">sea</W>
-<W lemma="terminar" msd="VLadj" in="-1:preds|-1:preds" out="">terminada</W>
+<W lemma="ser" msd="VSfin" in="-9:vobj" out="-8:subj|2:time|1:preds">sea</W>
+<W lemma="terminar" msd="VLadj" in="-1:preds" out="">terminada</W>
 <W lemma="antes" msd="ADV" in="-2:time" out="1:tobj">antes</W>
 <W lemma="del" msd="PDEL" in="-1:tobj" out="1:nobj">del</W>
 <W lemma="1" msd="CARD" in="-1:nobj" out="1:pobj&3a;dobj#">1</W>

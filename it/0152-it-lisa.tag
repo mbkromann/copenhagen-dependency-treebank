@@ -13,8 +13,8 @@
 <W lemma="versione" msd="NC" tag="NOM" in="-1:nobj" out="">versioni</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-14:ref|1:subj" out="">questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:xtop|-1:subj|1:preds|4:pnct|1:preds">è</W>
-<W lemma="quanto" msd="RG" tag="ADV" in="-1:preds|-1:preds" out="2:vobj">quanto</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:xtop|-1:subj|4:pnct|1:preds">è</W>
+<W lemma="quanto" msd="RG" tag="ADV" in="-1:preds" out="2:vobj">quanto</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
 <W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj">prevede</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
@@ -77,8 +77,8 @@
 <W lemma="sera" msd="NC" tag="NOM" in="-3:appa" out="1:ref|2:relr">sera</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:subj" out="">che</W>
 <W lemma="credere" msd="VADA" tag="VER&3a;impf" in="-2:relr" out="1:vobj">credevano</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-1:vobj" out="-2:subj|1:preds|1:preds">fosse</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">l'</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-1:vobj" out="-2:subj|1:preds">fosse</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">l'</W>
 <W lemma="ultimo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ultima</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">in</W>
 <W lemma="terra" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">terre</W>
@@ -131,10 +131,10 @@
 <W lemma="visto" msd="CS" tag="CON" in="-10:cause" out="1:dobj">visto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:vobj">che</W>
 <W lemma="ora" msd="RG" tag="ADV" in="4:time" out="">ora</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="3:preds|3:preds" out="1:ref|2:relr">quello</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="3:preds" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
 <W lemma="conta" msd="NC" tag="NOM" in="-2:relr" out="-1:subj">conta</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-4:time|-3:preds|1:subj|-3:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-4:time|1:subj|-3:preds">sono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">i</W>
 <W lemma="muscolo" msd="NC" tag="NOM" in="-1:nobj" out="">muscoli</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>

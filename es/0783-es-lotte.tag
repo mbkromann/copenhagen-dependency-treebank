@@ -68,8 +68,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">ámbitos</W>
 <W lemma="que" msd="CQUE" in="-2:ref|2:subj" out="">que</W>
 <W lemma="nosotros" msd="PPX" in="1:iobj" out="">nos</W>
-<W lemma="salar" msd="VLfin" in="-4:relr" out="-2:subj|-1:iobj|1:preds|1:preds">sale</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds|-1:preds" out="1:vobj">difícil</W>
+<W lemma="salar" msd="VLfin" in="-4:relr" out="-2:subj|-1:iobj|1:preds">sale</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds" out="1:vobj">difícil</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="">cubrir,”</W>
 <W lemma="decir" msd="VLfin" in="-27:coref" out="-14:qobj|2:concom|24:pnct">dice</W>
 <W lemma="," msd="CM" in="" out="">,</W>
@@ -154,8 +154,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef|2:ref|3:relpa">Zanchetta</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-3:relpa" out="-1:subj|1:preds|1:preds">es</W>
-<W lemma="director" msd="NC" in="-1:preds|-1:preds" out="1:attr|2:pobj&3a;arg">director</W>
+<W lemma="ser" msd="VSfin" in="-3:relpa" out="-1:subj|1:preds">es</W>
+<W lemma="director" msd="NC" in="-1:preds" out="1:attr|2:pobj&3a;arg">director</W>
 <W lemma="gerente" msd="NC" in="-1:attr" out="">gerente</W>
 <W lemma="de" msd="PREP" in="-2:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-61:coref" out="1:nobj">Århus</W>
@@ -179,8 +179,8 @@
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:coref|2:subj" out="10:coref|19:assoc-agent">Éste</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|-1:robj|1:preds|3:time|7:comp|15:cause|25:pnct|1:preds">declaró</W>
-<W lemma="en" msd="PREP" in="-1:preds|-1:preds" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|-1:robj|3:time|7:comp|15:cause|25:pnct|1:preds">declaró</W>
+<W lemma="en" msd="PREP" in="-1:preds" out="1:nobj">en</W>
 <W lemma="quebrar" msd="VLfin" in="-1:nobj" out="">quiebra</W>
 <W lemma="ayer" msd="ADV" in="-3:time" out="">ayer</W>
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>

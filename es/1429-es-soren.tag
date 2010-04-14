@@ -32,8 +32,8 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="Nissan" msd="NP" in="-10:conj" out="-1:coord">Nissan</W>
 <W lemma="ya" msd="ADV" in="1:time" out="">ya</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-1:time|-12:subj|1:preds|7:pnct|22:pnct|1:preds">están</W>
-<W lemma="involucrar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">involucradas</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-1:time|-12:subj|7:pnct|22:pnct|1:preds">están</W>
+<W lemma="involucrar" msd="VLadj" in="-1:preds" out="1:pobj">involucradas</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="serie" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|4:conj">serie</W>
@@ -100,8 +100,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:nobj" out="">calma”</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="ser" msd="VSfin" in="-6:conj" out="-1:coord|1:preds|1:preds">es</W>
-<W lemma="interpretar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj|4:comp|7:fpreds">interpretado</W>
+<W lemma="ser" msd="VSfin" in="-6:conj" out="-1:coord|1:preds">es</W>
+<W lemma="interpretar" msd="VLadj" in="-1:preds" out="1:pobj|4:comp|7:fpreds">interpretado</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="observador" msd="NC" in="-1:nobj" out="">observadores</W>
@@ -168,8 +168,8 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-10:ref|2:subj" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-12:relelab" out="-2:subj|1:preds|4:pnct|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="-12:relelab" out="-2:subj|4:pnct|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">récord</W>
 <W lemma="mundial" msd="ADJ" in="-1:attrr#" out="">mundial</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>

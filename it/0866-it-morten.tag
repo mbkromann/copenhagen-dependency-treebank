@@ -99,8 +99,8 @@
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">partito</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:appr" out="1:attr">Popolare</W>
 <W lemma="socialista" msd="AN" tag="ADJ" in="-1:attr" out="">socialista</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|8:pnct|9:bg|17:pnct|19:conj|1:preds">è</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">il</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|8:pnct|9:bg|17:pnct|19:conj|1:preds">è</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="serbatoio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">serbatoio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="intellettuale" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">intellettuale</W>
@@ -219,8 +219,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-26:coref-id|2:subj|3:[subj]" out="1:nobj">il</W>
 <W lemma="governo" msd="NC" tag="NOM" in="-1:nobj" out="">governo</W>
 <W lemma="essere" msd="VA" tag="VER&3a;cond" in="-5:vobj" out="-4:time|-2:subj|1:vobj">sarebbe</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:preds|1:preds">stato</W>
-<W lemma="costringere" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:pobj">costretto</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:preds">stato</W>
+<W lemma="costringere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">costretto</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">a</W>
 <W compound="¹ritirar²si" lemma="ritirare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²robj¹" out="0:²robj¹">ritirarsi</W>
 <W lemma="." msd="XP" tag="SENT" in="-13:pnct" out="">.</W>

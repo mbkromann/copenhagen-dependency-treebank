@@ -165,9 +165,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">La</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostra</W>
 <W lemma="società" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">società</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:pnct|-3:subj|2:preds|8:pnct|46:qobj|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:pnct|-3:subj|8:pnct|46:qobj|2:preds">è</W>
 <W lemma="troppo" msd="RG" tag="ADV" in="1:degr" out="">troppo</W>
-<W lemma="tenero" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr|1:man">tenera</W>
+<W lemma="tenero" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:man">tenera</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="1:comp">persone</W>
@@ -183,8 +183,8 @@
 <W lemma="venuto" msd="NC" tag="NOM" in="-1:vobj" out="-1:[subj]">venuto</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-7:cause" out="-1:neg|1:preds|1:preds">siamo</W>
-<W lemma="interessare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:pobj">interessati</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-7:cause" out="-1:neg|1:preds">siamo</W>
+<W lemma="interessare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">interessati</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:nobj">dare</W>
 <W lemma="accoglienza" msd="NC" tag="NOM" in="-1:nobj" out="1:iobj">accoglienza</W>

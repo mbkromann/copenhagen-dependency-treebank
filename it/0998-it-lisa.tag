@@ -68,8 +68,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|1:preds|2:pnct|10:pnct|1:preds">è</W>
-<W lemma="soddisfacente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="5:degr">soddisfacente</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|2:pnct|10:pnct|1:preds">è</W>
+<W lemma="soddisfacente" msd="AN" tag="ADJ" in="-1:preds" out="5:degr">soddisfacente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="3:conc" out="1:cond">anche</W>
 <W lemma="se" msd="CS" tag="CON" in="-1:cond" out="">se</W>

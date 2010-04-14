@@ -1,9 +1,9 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj" out="">,,Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|17:pnct|24:CONTR&3a;prg/aber/ATTR|63:+DESCR&3a;eval|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|3:pnct|17:pnct|24:CONTR&3a;prg/aber/ATTR|63:+DESCR&3a;eval|2:preds">ist</W>
 <W lemma="völlig" msd="AN" tag="ADJD" in="1:degr" out="">völlig</W>
-<W lemma="klar" msd="AN" tag="ADJD" in="-2:preds|-2:preds" out="-1:degr|2:dobj">klar</W>
+<W lemma="klar" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr|2:dobj">klar</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="12:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="10:[subj]|11:subj" out="1:nobj|2:space&3a;loc">die</W>
@@ -78,8 +78,8 @@
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj">soll</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="er&7c;es" msd="PP" tag="PPER" in="-14:coref|1:iobj" out="">Ihm</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-14:CAUSE&3a;expl/(nämlich)" out="-1:iobj|1:preds|2:pnct|3:dobj|31:+CONJ/(und)/ATTR|1:preds">ist</W>
-<W lemma="klar" msd="AN" tag="ADJD" in="-1:preds|-1:preds" out="23:pnct">klar</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-14:CAUSE&3a;expl/(nämlich)" out="-1:iobj|2:pnct|3:dobj|31:+CONJ/(und)/ATTR|1:preds">ist</W>
+<W lemma="klar" msd="AN" tag="ADJD" in="-1:preds" out="23:pnct">klar</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="8:vobj">dass</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="6:[subj]|7:subj|7:[subj]" out="1:attr|2:nobj">jede</W>
@@ -169,24 +169,24 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="-14:vobj" out="-13:subj|-1:vobj|-12:time&3a;succ">wird</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
 <W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-24:+CONJ/(und)/ATTR" out="-1:subj|1:preds|3:pnct|4:dobj|1:preds">ist</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="1:nobj">der</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-24:+CONJ/(und)/ATTR" out="-1:subj|3:pnct|4:dobj|1:preds">ist</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj">der</W>
 <W lemma="Auffassung" msd="NC" tag="NN" in="-1:nobj" out="16:pnct|26:pnct">Auffassung</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:dobj" out="5:vobj">dass</W>
 <W lemma="d" msd="PP" tag="PDS" in="4:subj" out="">das</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="3:preds|3:preds" out="1:attr|2:nobj">eine</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="3:preds" out="1:attr|2:nobj">eine</W>
 <W lemma="natürlich" msd="AN" tag="ADJA" in="-1:attr" out="">natürliche</W>
 <W lemma="Entwicklung" msd="NC" tag="NN" in="-2:nobj" out="2:pobj">Entwicklung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-3:preds|4:pnct|-3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|4:pnct|-3:preds">ist</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:ref|6:relr">einem</W>
 <W lemma="Kapitalmarkt" msd="NC" tag="NN" in="-1:nobj" out="">Kapitalmarkt</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|3:subj" out="">der</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="2:preds|2:preds" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="2:preds" out="1:nobj">im</W>
 <W lemma="Begriff" msd="NC" tag="NN" in="-1:nobj" out="">Begriff</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relr" out="-3:subj|-2:preds|10:vobj|-2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relr" out="-3:subj|10:vobj|-2:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-16:pnct" out="">,</W>
 <W lemma="jed" msd="PI" tag="PIDAT" in="8:dobj" out="1:nobj">jede</W>
 <W lemma="Form" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Form</W>

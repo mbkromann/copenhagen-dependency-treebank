@@ -40,8 +40,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">31</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="-4:-kongruens">hectáreas</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-6:vobj" out="1:preds|2:cause|1:preds">serán</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="">eximidas</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-6:vobj" out="2:cause|1:preds">serán</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">eximidas</W>
 <W lemma="por" msd="PREP" in="-2:cause" out="1:nobj">por</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:nobj" out="1:pobj">consideración</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
@@ -87,8 +87,8 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="que" msd="CQUE" in="-2:ref|2:subj" out="">que</W>
 <W lemma="hoy" msd="ADV" in="1:time" out="">hoy</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-4:relpa" out="-2:subj|-1:time|1:preds|2:pnct|1:preds">están</W>
-<W lemma="proteger" msd="VLadj" in="-1:preds|-1:preds" out="">protegidos</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-4:relpa" out="-2:subj|-1:time|2:pnct|1:preds">están</W>
+<W lemma="proteger" msd="VLadj" in="-1:preds" out="">protegidos</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="81:coref-id">Amager</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:dobj|8:other|10:pnct">tendrá</W>
@@ -143,8 +143,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">Ørestaden</W>
 <W lemma="deber" msd="VMfin" in="" out="-14:struct|-12:subj|1:vobj|6:pnct">debe</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="zona" msd="NC" in="-1:nobj" out="1:goal#">zona</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
 <W lemma="exposicin" msd="NC" in="-1:nobj" out="">exposiciones</W>
@@ -190,8 +190,8 @@
 <W lemma="de" msd="CSUBI" in="-1:loc" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:nobj|-17:coref-part" out="">Østamager</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|1:preds|3:conj|6:pnct|1:preds">será</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="">subterránea</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|3:conj|6:pnct|1:preds">será</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="">subterránea</W>
 <W lemma="y" msd="CC" in="1:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:conj" out="-1:coord|1:dir">irá</W>
 <W lemma="hasta" msd="PREP" in="-1:dir" out="1:nobj">hasta</W>

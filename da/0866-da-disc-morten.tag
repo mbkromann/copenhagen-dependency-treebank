@@ -101,11 +101,11 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="3:vobj">at</W>
 <W gloss="the_people" lemma="befolkning" msd="NCCSU==D" tag="NN" in="2:subj" out="">befolkningen</W>
 <W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="1:mod" out="">allerede</W>
-<W gloss="having_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|4:preds|4:preds">er</W>
+<W gloss="having_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|4:preds">er</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="3:mod" out="2:conj">godt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="thoroughly" lemma="grundig" msd="ANP---=-R" tag="JJ" in="-2:conj" out="-1:coord">grundigt</W>
-<W gloss="vaccinated" lemma="vaccinere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:preds|-4:preds" out="-3:mod|1:pobj">vaccineret</W>
+<W gloss="vaccinated" lemma="vaccinere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:preds" out="-3:mod|1:pobj">vaccineret</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">mod</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="3:mod" out="">både</W>
 <W gloss="Uffe" lemma="Uffe" msd="NP--U==-" tag="NNP" in="1:namef" out="">Uffe</W>
@@ -117,9 +117,9 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR1" out="-1:mod|1:subj|2:preds|3:pnct|4:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR1" out="-1:mod|1:subj|3:pnct|4:pnct|2:preds">er</W>
 <W gloss="‘_no’" lemma="nej" msd="NCNSU==D" tag="NN" in="-1:subj" out="">nej'et</W>
-<W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:preds|-2:preds" out="">hjemme</W>
+<W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:preds" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
 <W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-79:+CONJ/(og)/ATTR1" out="-48:qobj|2:subj|3:pnct|13:+CONJ/(og)/ATTR1">mente</W>
@@ -141,8 +141,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="SF" lemma="SF" msd="NP--U==-" tag="NNP" in="1:subj" out="">SF</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:preds|4:pnct|5:mod|11:pnct|1:preds">er</W>
-<W gloss="the_whole_of" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:preds|-1:preds" out="1:nobj|2:possd">hele</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|4:pnct|5:mod|11:pnct|1:preds">er</W>
+<W gloss="the_whole_of" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:preds" out="1:nobj|2:possd">hele</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--G==-" tag="NNP" in="-1:nobj" out="">Danmarks</W>
 <W gloss="think_tank" lemma="tænketank" msd="NCCSU==I" tag="NN" in="-2:possd" out="">tænketank</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

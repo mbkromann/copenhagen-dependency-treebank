@@ -2,8 +2,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-1:neg|-3:subj|1:preds|6:pnct|1:preds">sea</W>
-<W lemma="capaz" msd="ADJ" in="-1:preds|-1:preds" out="1:vobj">capaz</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-1:neg|-3:subj|6:pnct|1:preds">sea</W>
+<W lemma="capaz" msd="ADJ" in="-1:preds" out="1:vobj">capaz</W>
 <W lemma="realizar" msd="VLinf" in="-1:vobj" out="1:dobj">realizar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">las</W>
 <W lemma="medición" msd="NC" in="-1:nobj" out="1:attr">mediciones</W>
@@ -99,8 +99,8 @@
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-3:ref|1:subj|2:[subj]" out="">que</W>
 <W lemma="deber" msd="VMfin" in="-4:relr" out="-1:subj|1:vobj">debe</W>
-<W lemma="estar" msd="VEinf" in="-1:vobj" out="-2:[subj]|1:preds|8:conj|1:preds">estar</W>
-<W lemma="disponible" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">disponible</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="-2:[subj]|8:conj|1:preds">estar</W>
+<W lemma="disponible" msd="ADJ" in="-1:preds" out="1:pobj">disponible</W>
 <W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="autoridad" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">autoridades</W>

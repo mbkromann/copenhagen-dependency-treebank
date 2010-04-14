@@ -27,8 +27,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-23:ELAB&3a;rest" out="1:preds|8:pnct|1:preds">Era</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-11:coref-res|-1:preds|-1:preds" out="1:ref|2:relr">quello</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-23:ELAB&3a;rest" out="8:pnct|1:preds">Era</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-11:coref-res|-1:preds" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:dobj" out="">che</W>
 <W lemma="intendere" msd="VADA" tag="VER&3a;impf" in="-2:relr" out="-1:dobj|1:pobj">intendevano</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">con</W>
@@ -63,8 +63,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:DESCR&3a;eval" out="1:preds|4:pnct|5:pnct|1:preds">È</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:DESCR&3a;eval" out="4:pnct|5:pnct|1:preds">È</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="telefono" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">telefono</W>
 <W lemma="strano" msd="AN" tag="ADJ" in="-1:attr" out="">strano</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
@@ -269,8 +269,8 @@
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="prima" msd="CS" tag="CON" in="-10:time" out="1:dobj">prima</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
-<W lemma="fare" msd="VADA" tag="VER&3a;cimp" in="-1:vobj" out="1:preds|1:preds">facesse</W>
-<W lemma="buio" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="">buio</W>
+<W lemma="fare" msd="VADA" tag="VER&3a;cimp" in="-1:vobj" out="1:preds">facesse</W>
+<W lemma="buio" msd="NC" tag="NOM" in="-1:preds" out="">buio</W>
 <W lemma="." msd="XP" tag="SENT" in="-14:pnct" out="">.</W>
 </s>
 </p>

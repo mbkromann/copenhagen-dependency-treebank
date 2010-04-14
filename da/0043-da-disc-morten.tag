@@ -99,9 +99,9 @@
 <W gloss="so" lemma="således" msd="RGU" tag="RP" in="-1:cons" out="">således</W>
 <W gloss="18" lemma="18" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj">18</W>
 <W gloss="rounds" lemma="runde" morph="rund -e/QUAL" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">runder</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:preds|2:preds">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:preds">med</W>
 <W gloss="finish" lemma="afslutning" morph="afslutte /PRED&3a;core slutte -af/ASPEC&3a;term" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afslutning</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:preds|-2:preds" out="1:nobj|2:nobj|3:pnct|4:ref|6:rel">den</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:preds" out="1:nobj|2:nobj|3:pnct|4:ref|6:rel">den</W>
 <W gloss="23," lemma="23." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">23.</W>
 <W gloss="June" lemma="juni" morph="Juno juni/NOPRED&3a;other" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">juni</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -176,9 +176,9 @@
 </p>
 <p>
 <s>
-<W gloss="is" lemma="blive" morph="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:preds|2:preds">Bliver</W>
+<W gloss="is" lemma="blive" morph="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:preds">Bliver</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
-<W gloss="the_case" lemma="tilfælde" morph="tilfælde" msd="NCNSU==D" tag="NN" in="-2:preds|-2:preds" out="">tilfældet</W>
+<W gloss="the_case" lemma="tilfælde" morph="tilfælde" msd="NCNSU==D" tag="NN" in="-2:preds" out="">tilfældet</W>
 <W gloss="will_be_chosen" lemma="kåre" morph="kåre" msd="VADR=----P-" tag="VBD" in="-20:+CONS&3a;dir/(så)&7c;CONJ/(og)" out="-3:cond|1:subj|3:time|6:pnct|11:+¤conc|50:+DISJ/(eller)">kåres</W>
 <W gloss="the_year's" lemma="år" morph="år" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">årets</W>
 <W gloss="Danish_champion" lemma="danmarksmester" morph="mester -[danmark]s/poss" msd="NCCSU==I" tag="NN" in="-1:possd" out="">danmarksmester</W>

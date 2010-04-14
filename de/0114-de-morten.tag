@@ -140,8 +140,8 @@
 <W lemma="und" msd="CC" tag="KON" in="" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="" out="">des</W>
 <W lemma="Betrug" msd="NC" tag="NN" in="" out="">Betrugs</W>
-<W lemma="schuldig" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">schuldig</W>
-<W lemma="machen" msd="VAP" tag="VVPP" in="1:vobj" out="-19:dobj|-1:preds|-21:[subj]|-1:preds">gemacht</W>
+<W lemma="schuldig" msd="AN" tag="ADJD" in="1:preds" out="">schuldig</W>
+<W lemma="machen" msd="VAP" tag="VVPP" in="1:vobj" out="-19:dobj|-21:[subj]|-1:preds">gemacht</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-23:vobj" out="-22:subj|-1:vobj|-19:other">hat</W>
 <W lemma="." msd="XP" tag="$." in="-36:pnct" out="">.</W>
 </s>

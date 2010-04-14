@@ -56,14 +56,14 @@
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="-3:conj" out="-1:coord|1:nobj">begge</W>
 <W gloss="spouses" lemma="ægtefælle" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ægtefæller</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-6:mod|-5:subj|1:preds|1:preds">er</W>
-<W gloss="pensioners" lemma="pensionist" msd="NCCPU==I" tag="NNP" in="-1:preds|-1:preds" out="">pensionister</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-6:mod|-5:subj|1:preds">er</W>
+<W gloss="pensioners" lemma="pensionist" msd="NCCPU==I" tag="NNP" in="-1:preds" out="">pensionister</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="The_rent_allowance" lemma="boligydelse" msd="NCCSU==D" tag="NN" in="1:subj" out="">Boligydelsen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONJ/(og)" out="-1:subj|1:preds|2:pnct|8:+CONJ/(og)|1:preds">er</W>
-<W gloss="tax-free" lemma="skattefri" msd="ANPCSU=IU" tag="JJ" in="-1:preds|-1:preds" out="">skattefri</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONJ/(og)" out="-1:subj|2:pnct|8:+CONJ/(og)|1:preds">er</W>
+<W gloss="tax-free" lemma="skattefri" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">skattefri</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>

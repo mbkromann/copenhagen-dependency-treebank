@@ -95,15 +95,15 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj|7:conj">at</W>
 <W gloss="the_company" lemma="selskab" msd="NCNSU==D" tag="NN" in="1:subj" out="">selskabet</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|3:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|2:preds">er</W>
 <W gloss="financially" lemma="økonomisk" msd="ANP---=-R" tag="JJ" in="1:attr" out="">økonomisk</W>
-<W gloss="sound" lemma="sund" msd="ANPNSU=IU" tag="JJ" in="-2:preds|-2:preds" out="-1:attr">sundt</W>
+<W gloss="sound" lemma="sund" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:attr">sundt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-7:conj" out="-1:coord|2:vobj">at</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|1:preds">er</W>
-<W gloss="affluent" lemma="formuende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="">formuende</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">er</W>
+<W gloss="affluent" lemma="formuende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">formuende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -156,8 +156,8 @@
 <W gloss="extraordinary" lemma="ekstraordinær" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ekstraordinær</W>
 <W gloss="general_meeting" lemma="generalforsamling" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">generalforsamling</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-1:neg|1:preds|1:preds">er</W>
-<W gloss="topical" lemma="aktuel" msd="ANPCSU=IU" tag="JJ" in="-1:preds|-1:preds" out="">aktuel</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-1:neg|1:preds">er</W>
+<W gloss="topical" lemma="aktuel" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">aktuel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -204,8 +204,8 @@
 <p>
 <s>
 <W gloss="The_shareholder_group" lemma="aktionærgruppe" msd="NCCSU==D" tag="NN" in="1:subj" out="">Aktionærgruppen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+ELAB&3a;exp" out="-1:subj|-10:+PREPAR|1:preds|25:comp|37:pnct|44:CONJ/og|1:preds">er</W>
-<W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds|-1:preds" out="1:pobj">utilfreds</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+ELAB&3a;exp" out="-1:subj|-10:+PREPAR|25:comp|37:pnct|44:CONJ/og|1:preds">er</W>
+<W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="5:vobj">at</W>

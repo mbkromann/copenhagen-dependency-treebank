@@ -57,8 +57,8 @@
 <W gloss="Danish" lemma="dansk" morph="Danmark +sk/DENOM&3a;rel.deono.place" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="division_players" lemma="divisionsspiller" morph="spiller -[division]s/type spille +r/PRED&3a;agent spil +le/DER&3a;nv" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">divisionsspillere</W>
 <W gloss="have" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-13:+CAUSE&3a;expl/(nemlig)" out="-3:subj|1:vobj|13:pnct|16:conj|33:pnct|39:+CONS&3a;dir/(derfor)">er</W>
-<W gloss="been" lemma="blive" morph="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds|1:preds">blevet</W>
-<W gloss="agree" lemma="enig" morph="enig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="1:pobj|3:pobj">enige</W>
+<W gloss="been" lemma="blive" morph="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds">blevet</W>
+<W gloss="agree" lemma="enig" morph="enig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj|3:pobj">enige</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_Division_Association" lemma="divisionsforening" morph="forening -[division]s/func forene +ing/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Divisionsforeningen</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">om</W>
@@ -113,8 +113,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="you" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>
 <W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-6:modp" out="-3:subj|1:vobj">skal</W>
-<W gloss="be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds|1:preds">være</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds|-1:preds" out="1:nobj">en</W>
+<W gloss="be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">være</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="lawyer" lemma="jurist" morph="jura +ist/NOPRED&3a;agent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">jurist</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>

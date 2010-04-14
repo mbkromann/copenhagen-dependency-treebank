@@ -58,8 +58,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="sicuramente" msd="RG" tag="ADV" in="1:prg" out="">sicuramente</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-11:conj" out="-3:pnct|-1:prg|-2:coord|1:preds|4:ben|6:pnct|1:preds">sarebbe</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">la</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-11:conj" out="-3:pnct|-1:prg|-2:coord|4:ben|6:pnct|1:preds">sarebbe</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">cosa</W>
 <W lemma="migliore" msd="AN" tag="ADJ" in="-1:attr" out="">migliore</W>
 <W lemma="per" msd="SP" tag="PRE" in="-4:ben" out="1:nobj">per</W>
@@ -95,9 +95,9 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-5:coref-res|2:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-2:subj|-1:neg|-3:coord|1:time|2:preds|6:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-2:subj|-1:neg|-3:coord|1:time|6:pnct|2:preds">è</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds|-2:preds" out="1:nobj">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">cosa</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="importante" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">importante</W>

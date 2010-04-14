@@ -37,11 +37,11 @@
 <W lemma="atascar" msd="VLadj" in="" out="">atascado</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="pero" msd="CCAD" in="1:diskmark" out="">PERO</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:diskmark|1:ext|4:preds|11:pnct|4:preds">fue</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:diskmark|1:ext|11:pnct|4:preds">fue</W>
 <W lemma="un" msd="ART" in="-1:ext" out="1:nobj">una</W>
 <W lemma="vez" msd="NC" in="-1:nobj" out="1:degr">vez</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:degr" out="">más</W>
-<W lemma="un" msd="ART" in="-4:preds|-4:preds" out="1:nobj">un</W>
+<W lemma="un" msd="ART" in="-4:preds" out="1:nobj">un</W>
 <W lemma="error" msd="NC" in="-1:nobj" out="1:attr|2:pobj">error</W>
 <W lemma="fatal" msd="ADJ" in="-1:attr" out="">fatal</W>
 <W lemma="por~parte~de" msd="PREP" in="-2:pobj" out="1:nobj">por parte de</W>
@@ -57,8 +57,8 @@
 <W lemma="cuatro" msd="CARD" in="-1:nobj" out="1:nobj">CUATRO</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">HOJAS</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="era" msd="VEfin" in="" out="-8:subj|-1:neg|1:preds|3:pnct|1:preds">era</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="era" msd="VEfin" in="" out="-8:subj|-1:neg|3:pnct|1:preds">era</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">efímera</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="bajo" msd="PREP" in="4:loc&3a;met" out="2:nobj">Bajo</W>
@@ -98,8 +98,8 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="suyo" msd="PPO" in="" out="">su</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">formación</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:struct|-1:subj|1:preds|1:preds">significó</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="1:nobj">el</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:struct|-1:subj|1:preds">significó</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:nobj">el</W>
 <W lemma="comienzo" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj|61:fpredo">comienzo</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">una</W>
@@ -140,8 +140,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">LOS</W>
 <W lemma="cuatro" msd="CARD" in="-1:nobj" out="1:nobj">cuatro</W>
 <W lemma="partido" msd="NC" in="-1:nobj" out="">partidos</W>
-<W lemma="estar" msd="VLfin" in="" out="-3:subj|1:preds|6:time|11:pnct|1:preds">estaban</W>
-<W lemma="de" msd="PREP" in="-1:preds|-1:preds" out="1:nobj">de</W>
+<W lemma="estar" msd="VLfin" in="" out="-3:subj|6:time|11:pnct|1:preds">estaban</W>
+<W lemma="de" msd="PREP" in="-1:preds" out="1:nobj">de</W>
 <W lemma="acuerdo" msd="NC" in="-1:nobj" out="1:pobj">acuerdo</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="mucho" msd="QU" in="-1:nobj" out="1:nobj">muchas</W>
@@ -168,8 +168,8 @@
 <W lemma="esencial" msd="ADJ" in="-1:attr" out="">esencial</W>
 <W lemma="de" msd="PREP" in="-2:pobj" out="1:nobj">de</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="">esto</W>
-<W lemma="era" msd="VEfin" in="" out="-5:subj|1:preds|39:pnct|1:preds">era</W>
-<W lemma="que" msd="CQUE" in="-1:preds|-1:preds" out="2:vobj">que</W>
+<W lemma="era" msd="VEfin" in="" out="-5:subj|39:pnct|1:preds">era</W>
+<W lemma="que" msd="CQUE" in="-1:preds" out="2:vobj">que</W>
 <W lemma="todo" msd="QU" in="1:subj" out="">todos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:vobj" out="-1:subj|1:dobj">teníamos</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>

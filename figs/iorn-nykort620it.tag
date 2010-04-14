@@ -17,7 +17,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:discmark" out="">Ma</W>
 <W lemma="dove" msd="RG" tag="ADV" in="1:lobj" out="">dove</W>
-<W lemma="andare" msd="VADR" tag="VER&3a;futu" in="-18:JOINT|3:qobj" out="-3:pnct|-1:lobj|1:pnct|2:pnct|-2:discmark">andrà</W>
+<W lemma="andare" msd="VADR" tag="VER&3a;futu" in="-18:JOINT|3:qobj" out="-3:pnct|-1:lobj|-2:discmark|1:pnct|2:pnct">andrà</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="chiedere" msd="VADA" tag="VER&3a;remo" in="-9:+CONJ/(e)/ATTR2" out="-3:qobj|1:subj|3:pnct|5:+CONJ/(e)">chiese</W>
@@ -70,7 +70,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="2:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|2:preds|6:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|6:pnct|2:preds">è</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">cosa</W>

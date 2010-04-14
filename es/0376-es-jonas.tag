@@ -41,8 +41,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:man" out="">así</W>
 <W lemma="que" msd="CQUE" in="" out="1:vobj">que</W>
 <W lemma="querer" msd="VLfin" in="-1:vobj" out="1:vobj">quieren</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="parte" msd="NC" in="-1:preds|-1:preds" out="1:pobj&3a;arg">parte</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="parte" msd="NC" in="-1:preds" out="1:pobj&3a;arg">parte</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cooperativo" msd="ADJ" in="-1:nobj" out="">cooperativa</W>
@@ -59,8 +59,8 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">la</W>
 <W lemma="cooperativo" msd="ADJ" in="-1:nobj" out="">cooperativa</W>
-<W lemma="formar" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds|1:preds">forme</W>
-<W lemma="parte" msd="NC" in="-1:preds|-1:preds" out="1:pobj">parte</W>
+<W lemma="formar" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds">forme</W>
+<W lemma="parte" msd="NC" in="-1:preds" out="1:pobj">parte</W>
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="cupo" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">cupo</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
@@ -86,8 +86,8 @@
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="para" msd="CSUBI" in="-11:pobj" out="2:vobj">para</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="estar" msd="VEinf" in="-2:vobj" out="1:preds|2:time|6:pnct|1:preds">estar</W>
-<W lemma="terminar" msd="VLadj" in="-1:preds|-1:preds" out="">terminada</W>
+<W lemma="estar" msd="VEinf" in="-2:vobj" out="2:time|6:pnct|1:preds">estar</W>
+<W lemma="terminar" msd="VLadj" in="-1:preds" out="">terminada</W>
 <W lemma="en" msd="PREP" in="-2:time" out="1:nobj">en</W>
 <W lemma="diciembre" msd="NMON" in="-1:nobj" out="">diciembre</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
@@ -123,8 +123,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="ahora" msd="ADV" in="1:time" out="">Ahora</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:time|1:preds|5:pnct|1:preds">es</W>
-<W lemma="tiempo" msd="NC" in="-1:preds|-1:preds" out="1:pobj">tiempo</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:time|5:pnct|1:preds">es</W>
+<W lemma="tiempo" msd="NC" in="-1:preds" out="1:pobj">tiempo</W>
 <W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
 <W lemma="ver" msd="VLinf" in="-1:vobj" out="1:dobj?">ver</W>
 <W lemma="resultado" msd="NC" in="-1:dobj?" out="">resultados</W>

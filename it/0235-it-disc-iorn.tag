@@ -34,8 +34,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="bar" msd="NC" tag="NOM" in="-1:nobj" out="">bar</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|1:preds|10:pnct|18:;ELAB&3a;exp|27:CONS&3a;prg|1:preds">è</W>
-<W lemma="buio" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="2:conj|4:conj">buio</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|10:pnct|18:;ELAB&3a;exp|27:CONS&3a;prg|1:preds">è</W>
+<W lemma="buio" msd="AN" tag="ADJ" in="-1:preds" out="2:conj|4:conj">buio</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">lungo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>

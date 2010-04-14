@@ -51,8 +51,8 @@
 <W lemma="@card@" msd="XP" tag="PON" in="-1:dobj" out="1:nobj">33</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="1:preds|9:pnct|1:preds">è</W>
-<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="1:pobj&3a;arg">figlio</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="9:pnct|1:preds">è</W>
+<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj&3a;arg">figlio</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj&3a;arg" out="1:nobj">dell’ex</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|5:appr">ministro</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">per</W>
@@ -61,8 +61,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="Jensen" msd="NP" tag="NPR" in="-5:appr" out="-2:namef">Jensen</W>
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:conj" out="1:preds|1:preds">è</W>
-<W lemma="poeta" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="1:pnct|2:conj|5:conj">poeta</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:conj" out="1:preds">è</W>
+<W lemma="poeta" msd="NC" tag="NOM" in="-1:preds" out="1:pnct|2:conj|5:conj">poeta</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="cantante" msd="NC" tag="NOM" in="-2:conj" out="1:attr">cantante</W>
 <W lemma="pop" msd="AN" tag="ADJ" in="-1:attr" out="">pop</W>
@@ -107,8 +107,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">volontà</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:[subj]|2:[subj]" out="-4:man|-35:fpreds|1:vobj|17:conj">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:vobj">stato</W>
-<W lemma="definire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:preds|1:preds">definito</W>
-<W compound="lo" lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="2:nobj|7:conj">il</W>
+<W lemma="definire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:preds">definito</W>
+<W compound="lo" lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="2:nobj|7:conj">il</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steffen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|1:attr">Brandt</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">degli</W>
@@ -129,8 +129,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:space&3a;dir" out="-2:degr">giù</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">“Io</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|1:preds|2:pnct|1:preds">sono</W>
-<W lemma="io" msd="PP" tag="PRO&3a;pers" in="-1:preds|-1:preds" out="">io</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|2:pnct|1:preds">sono</W>
+<W lemma="io" msd="PP" tag="PRO&3a;pers" in="-1:preds" out="">io</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:pnct" out="">!”</W>
 <W lemma="insistere" msd="VADR" tag="VER&3a;pres" in="" out="-3:qobj|1:subj|2:space&3a;loc|6:pnct|7:fpreds|61:pnct">insiste</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:subj" out="">Carsten</W>

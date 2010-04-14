@@ -52,8 +52,8 @@
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="2:subj" out="1:nobj">“Los</W>
 <W lemma="chino" msd="ADJ" in="-1:nobj" out="">chinos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="30:xtop" out="-2:subj|1:preds|7:pnct|1:preds">están</W>
-<W lemma="decepcionar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">decepcionados</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="30:xtop" out="-2:subj|7:pnct|1:preds">están</W>
+<W lemma="decepcionar" msd="VLadj" in="-1:preds" out="1:pobj">decepcionados</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="postura" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">postura</W>
@@ -75,8 +75,8 @@
 <W lemma="en~cambio" msd="ADV" in="3:prg" out="1:pnct">en cambio</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="ahora" msd="ADV" in="1:time" out="">ahora</W>
-<W lemma="ser" msd="VLfin" in="-13:conj" out="-4:coord|-3:prg|-1:time|1:preds|1:preds">somos</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="1:nobj">los</W>
+<W lemma="ser" msd="VLfin" in="-13:conj" out="-4:coord|-3:prg|-1:time|1:preds">somos</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">últimos</W>
 <W lemma="en" msd="PREP" in="" out="">en</W>
 <W lemma="volver" msd="VLinf" in="" out="1:dir">volver</W>
@@ -120,8 +120,8 @@
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-7:comp" out="">aún</W>
 <W lemma="cuando" msd="CSUBX" in="-8:time" out="1:vobj">cuando</W>
-<W lemma="estar" msd="VLfin" in="-1:vobj" out="1:preds|1:preds">estamos</W>
-<W lemma="preparar" msd="VLadj" in="-1:preds|-1:preds" out="1:cons">preparados</W>
+<W lemma="estar" msd="VLfin" in="-1:vobj" out="1:preds">estamos</W>
+<W lemma="preparar" msd="VLadj" in="-1:preds" out="1:cons">preparados</W>
 <W lemma="para" msd="PREP" in="-1:cons" out="3:vobj">para</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
@@ -129,8 +129,8 @@
 <W lemma="gradualmente" msd="ADV" in="-1:man" out="">gradualmente</W>
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="1:discmark" out="">Pero</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:discmark|1:preds|2:subj|1:preds">es</W>
-<W lemma="interesante" msd="ADJ" in="-1:preds|-1:preds" out="">interesante</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:discmark|2:subj|1:preds">es</W>
+<W lemma="interesante" msd="ADJ" in="-1:preds" out="">interesante</W>
 <W lemma="ver" msd="VLinf" in="-2:subj" out="1:dobj">ver</W>
 <W lemma="hasta" msd="PREP" in="-1:dobj" out="2:nobj|4:vobj">hasta</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">qué</W>
@@ -145,8 +145,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">mercado.”</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="">FLS</W>
 <W lemma="haber" msd="VHfin" in="" out="-1:subj|1:vobj|3:loc|5:time|8:conj|18:pnct">ha</W>
-<W lemma="estar" msd="VE" in="-1:vobj" out="-2:[subj]|1:preds|1:preds">estado</W>
-<W lemma="activo" msd="ADJ" in="-1:preds|-1:preds" out="">activa</W>
+<W lemma="estar" msd="VE" in="-1:vobj" out="-2:[subj]|1:preds">estado</W>
+<W lemma="activo" msd="ADJ" in="-1:preds" out="">activa</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="China" msd="NP" in="-1:nobj" out="">China</W>
 <W lemma="desde" msd="PREP" in="-5:time" out="1:nobj">desde</W>

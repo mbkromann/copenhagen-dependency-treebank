@@ -105,8 +105,8 @@
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="14:xtop" out="13:ref">når</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="2:subj" out="1:possd">deres</W>
 <W gloss="representatives" lemma="repræsentant" morph="repræsentere /PRED&3a;agent" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">repræsentanter</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="11:conj" out="-2:subj|-4:coord|1:preds|9:pnct|1:preds">er</W>
-<W gloss="ready" lemma="parat" morph="parat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="1:pobj">parate</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="11:conj" out="-2:subj|-4:coord|9:pnct|1:preds">er</W>
+<W gloss="ready" lemma="parat" morph="parat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">parate</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="go" lemma="gå" morph="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">gå</W>
@@ -164,9 +164,9 @@
 <W gloss="civil" lemma="civil" morph="civil" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">civilt</W>
 <W gloss="society" lemma="samfund" morph="samfund" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">samfund</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="are" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-15:qobj" out="-13:pnct|-11:cause|1:subj|2:preds|4:pnct|11:CAUSE&3a;reas/(fordi)/ATTR|2:preds">var</W>
+<W gloss="are" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-15:qobj" out="-13:pnct|-11:cause|1:subj|4:pnct|11:CAUSE&3a;reas/(fordi)/ATTR|2:preds">var</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
-<W gloss="against" lemma="imod" msd="SP" tag="IN" in="-2:preds|-2:preds" out="1:nobj">imod</W>
+<W gloss="against" lemma="imod" msd="SP" tag="IN" in="-2:preds" out="1:nobj">imod</W>
 <W gloss="the_Duma" lemma="folkekongres" morph="kongres -[folk]e/agent" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Folkekongressen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -194,18 +194,18 @@
 </s>
 <s>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-9:CAUSE&3a;reas/pga/ATTR" out="-1:subj|2:neg|3:preds|6:pnct|3:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-9:CAUSE&3a;reas/pga/ATTR" out="-1:subj|2:neg|6:pnct|3:preds">var</W>
 <W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:degr">ikke</W>
-<W gloss="på_grund_af" lemma="på_grund_af" msd="SP" tag="IN" in="-3:preds|-3:preds" out="1:nobj">på_grund_af</W>
+<W gloss="på_grund_af" lemma="på_grund_af" msd="SP" tag="IN" in="-3:preds" out="1:nobj">på_grund_af</W>
 <W gloss="its_life" lemma="apparat" morph="apparat" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">apparatets</W>
 <W gloss="shackles" lemma="lænke" morph="lænke" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">lænker</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Illusions" lemma="illusion" morph="illudere +sion/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Illusioner</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-19:CONJ/(og)/ATTR" out="-1:subj|1:preds|2:pnct|6:CAUSE&3a;reas/(fordi)/ATTR|1:preds">er</W>
-<W gloss="dangerous" lemma="farlig" morph="farlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="">farlige</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-19:CONJ/(og)/ATTR" out="-1:subj|2:pnct|6:CAUSE&3a;reas/(fordi)/ATTR|1:preds">er</W>
+<W gloss="dangerous" lemma="farlig" morph="farlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">farlige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>

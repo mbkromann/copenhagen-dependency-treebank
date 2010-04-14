@@ -59,9 +59,9 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">población</W>
 <W lemma="ya" msd="ADV" in="1:time" out="">ya</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-4:vobj" out="-3:subj|-1:time|2:preds|2:preds">esté</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-4:vobj" out="-3:subj|-1:time|2:preds">esté</W>
 <W lemma="totalmente" msd="ADV" in="1:degr" out="">totalmente</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr|1:pobj">“vacunada”</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds" out="-1:degr|1:pobj">“vacunada”</W>
 <W lemma="contra" msd="PREP" in="-1:pobj" out="2:nobj">contra</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Uffe</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:nobj" out="-1:namef|3:conj">Ellemann</W>
@@ -91,8 +91,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:bg|1:dobj">destacó</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:subj" out="">“SF</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:subj|1:preds|7:pnct|8:bg|12:pnct|1:preds">es</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="1:nobj">el</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:subj|7:pnct|8:bg|12:pnct|1:preds">es</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:nobj">el</W>
 <W lemma="tanque" msd="NC" in="-1:nobj" out="1:pobj&3a;goal#|3:pobj&3a;arg">tanque</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;goal#" out="1:nobj">de</W>
 <W lemma="idea" msd="NC" in="-1:nobj" out="">ideas</W>
@@ -165,8 +165,8 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="gobierno" msd="NC" in="-1:nobj" out="">gobierno</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:vobj" out="-2:subj|1:preds|10:conj|1:preds">“está</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">impregnado</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:vobj" out="-2:subj|10:conj|1:preds">“está</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="1:pobj">impregnado</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">escándalos</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
@@ -177,8 +177,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">política</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-10:conj" out="-5:coord|-4:source|1:vobj|4:time">debería</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj">haber</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds|1:preds">sido</W>
-<W lemma="derribar" msd="VLadj" in="-1:preds|-1:preds" out="">derribado</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds">sido</W>
+<W lemma="derribar" msd="VLadj" in="-1:preds" out="">derribado</W>
 <W lemma="hacer" msd="VLfin" in="-4:time" out="2:nobj">hace</W>
 <W lemma="mucho" msd="QU" in="1:degr" out="">mucho</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:degr">tiempo”</W>
@@ -188,8 +188,8 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="gobierno" msd="NC" in="-1:nobj" out="">gobierno</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds|1:preds">estará</W>
-<W lemma="forzar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">forzado</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds">estará</W>
+<W lemma="forzar" msd="VLadj" in="-1:preds" out="1:pobj">forzado</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="dimitir" msd="VLinf" in="-1:nobj" out="1:time">dimitir</W>
 <W lemma="el" msd="ART" in="-1:time" out="2:nobj">el</W>

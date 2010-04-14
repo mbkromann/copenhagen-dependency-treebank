@@ -85,9 +85,9 @@
 <W lemma="terapeutico" msd="AN" tag="ADJ" in="-1:attr" out="">terapeutici</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-12:subj|-1:neg|2:preds|6:pnct|8:conc|48:pnct|2:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-12:subj|-1:neg|6:pnct|8:conc|48:pnct|2:preds">sono</W>
 <W lemma="immediatamente" msd="RG" tag="ADV" in="1:attr" out="">immediatamente</W>
-<W lemma="visibile" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:attr|1:loc">visibili</W>
+<W lemma="visibile" msd="AN" tag="ADJ" in="-2:preds" out="-1:attr|1:loc">visibili</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nei</W>
 <W lemma="bilancio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">bilanci</W>
 <W lemma="nazionale" msd="AN" tag="ADJ" in="-1:attr" out="">nazionali</W>

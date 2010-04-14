@@ -131,9 +131,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="">más</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:conj|-4:coref" out="-1:coord|1:vobj|6:cause|7:coref">quería</W>
-<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds|2:preds">estar</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds">estar</W>
 <W lemma="completamente" msd="ADV" in="1:degr" out="">completamente</W>
-<W lemma="seguro" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">segura</W>
+<W lemma="seguro" msd="ADJ" in="-2:preds" out="-1:degr">segura</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="causa" msd="NC" in="" out="">causa</W>
 <W lemma="de" msd="PREP" in="-6:cause" out="1:nobj">de</W>

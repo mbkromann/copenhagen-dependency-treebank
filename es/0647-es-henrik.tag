@@ -29,8 +29,8 @@
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="dicho" msd="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref|25:coref">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct|1:preds">son</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="1:about#|6:conj|30:assoc-scope">crÃ­ticos</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|8:pnct|1:preds">son</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:about#|6:conj|30:assoc-scope">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
@@ -50,11 +50,11 @@
 <W lemma="que" msd="CQUE" in="-1:nobj" out="3:vobj">que</W>
 <W lemma="este" msd="DM" in="2:subj" out="1:nobj">este</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">dÃ­a</W>
-<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|1:ben|4:preds|4:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|1:ben|4:preds">es</W>
 <W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
 <W lemma="él" msd="PPX" in="-1:nobj|-25:coref" out="">ellos</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
-<W lemma="excepcional" msd="ADJ" in="-4:preds|-4:preds" out="-1:degr">excepcional</W>
+<W lemma="excepcional" msd="ADJ" in="-4:preds" out="-1:degr">excepcional</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="1:neg" out="2:neg">No</W>
 <W lemma="haber" msd="VHfin" in="" out="-1:neg|3:dobj|5:loc|9:pnct|10:ref|10:cause|20:relelab|24:pnct">hay</W>
@@ -164,9 +164,9 @@
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="aunque" msd="CSUBX" in="-7:conc" out="2:vobj">aunque</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:prg" out="">lÃ³gicamente</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:prg|2:preds|3:ben|6:subj|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:prg|3:ben|6:subj|2:preds">es</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr">cÃ³modo</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds" out="-1:degr">cÃ³modo</W>
 <W lemma="para" msd="PREP" in="-3:ben" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj|-22:assoc-scope" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">crÃ­ticos</W>

@@ -70,7 +70,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="2:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|2:preds|6:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|6:pnct|2:preds">è</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">cosa</W>
@@ -84,7 +84,7 @@
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-5:pnct" out="">"</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="sì" msd="RG" tag="ADV" in="3:qobj|-7:QUEST&3a;probl/ATTR2" out="-1:pnct|1:pnct|2:pnct">Sì</W>
+<W lemma="sì" msd="RG" tag="ADV" in="-7:QUEST&3a;probl/ATTR2|3:qobj" out="-1:pnct|1:pnct|2:pnct">Sì</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="rispondere" msd="VADA" tag="VER&3a;remo" in="" out="-3:qobj|1:subj|2:man|4:pnct|11:CONJ/e">rispose</W>

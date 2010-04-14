@@ -5,8 +5,8 @@
 <W lemma="rock" msd="NC" tag="NOM" in="-1:attr" out="">rock</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-2:attr" out="">danesi</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="5:qobj" out="-5:subj|-1:neg|1:preds|4:pnct|1:preds">sono</W>
-<W lemma="capace" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">capaci</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="5:qobj" out="-5:subj|-1:neg|4:pnct|1:preds">sono</W>
+<W lemma="capace" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">capaci</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="esprimere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">esprimersi</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
@@ -138,17 +138,17 @@
 <W lemma="tanto" msd="RG" tag="ADV" in="-4:degr" out="1:dobj">tanto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="nessuno" msd="PI" tag="PRO&3a;indef" in="1:subj" out="">nessuno</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|3:preds|7:ref|8:relelab|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|7:ref|8:relelab|3:preds">è</W>
 <W lemma="assolutamente" msd="RG" tag="ADV" in="1:man" out="">assolutamente</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="-1:man">più</W>
-<W lemma="in" msd="SP" tag="PRE" in="-3:preds|-3:preds" out="-1:degr|1:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-3:preds" out="-1:degr|1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="ricordare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">ricordare</W>
 <W lemma="quale" msd="PT" tag="PRO&3a;inter" in="-7:ref|1:subj" out="">quale</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-8:relelab" out="-1:subj|1:time|2:preds|2:preds">fosse</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-8:relelab" out="-1:subj|1:time|2:preds">fosse</W>
 <W lemma="inizialmente" msd="RG" tag="ADV" in="-1:time" out="">inizialmente</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds|-2:preds" out="1:nobj|3:conj">lo</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj|3:conj">lo</W>
 <W lemma="scopo" msd="NC" tag="NOM" in="-1:nobj" out="">scopo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:conj" out="-1:coord|1:nobj">il</W>
@@ -246,8 +246,8 @@
 <W lemma="quindi" msd="RG" tag="ADV" in="3:cons" out="">quindi</W>
 <W lemma="come" msd="SP" tag="PRE" in="2:comp" out="1:nobj">come</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">rocchettaro</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|-2:comp|-3:cons|1:preds|2:pnct|11:coref-res|1:preds">è</W>
-<W lemma="scarso" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">scarso</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|-2:comp|-3:cons|2:pnct|11:coref-res|1:preds">è</W>
+<W lemma="scarso" msd="AN" tag="ADJ" in="-1:preds" out="">scarso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 </s>
 <s>

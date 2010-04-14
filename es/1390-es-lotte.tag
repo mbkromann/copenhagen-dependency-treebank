@@ -1,7 +1,7 @@
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj|43:coref-id">La</W>
 <W lemma="meta" msd="NC" in="-1:nobj" out="">meta</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|4:other|40:pnct|1:preds">es</W>
-<W lemma="que" msd="CQUE" in="-1:preds|-1:preds" out="14:vobj">que</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|4:other|40:pnct|1:preds">es</W>
+<W lemma="que" msd="CQUE" in="-1:preds" out="14:vobj">que</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">además</W>
 <W lemma="de" msd="PREP" in="-4:other" out="-2:pnct|1:vobj|9:pnct">de</W>
@@ -43,8 +43,8 @@
 <W lemma="." msd="FS" in="-40:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-43:coref-id|2:subj" out="1:nobj">“La</W>
 <W lemma="meta" msd="NC" in="-1:nobj" out="">meta</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|20:pnct|1:preds">es</W>
-<W lemma="que" msd="CQUE" in="-1:preds|-1:preds" out="11:vobj">que</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|20:pnct|1:preds">es</W>
+<W lemma="que" msd="CQUE" in="-1:preds" out="11:vobj">que</W>
 <W lemma="el" msd="ART" in="-11:coref-part|10:subj" out="1:nobj">las</W>
 <W lemma="clase" msd="NC" in="-1:nobj" out="1:attr|2:pobj&3a;arg">clases</W>
 <W lemma="superior" msd="ADJ" in="-1:attr" out="">superiores</W>
@@ -87,9 +87,9 @@
 <W lemma="yo" msd="PPX" in="2:subj|3:[subj]" out="1:focal|17:coref">Yo</W>
 <W lemma="mismo" msd="ADJ" in="-1:focal" out="">mismo</W>
 <W lemma="haber" msd="VLfin" in="" out="-2:subj|1:vobj|5:man|26:pnct">he</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="-3:[subj]|2:preds|2:preds">sido</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="-3:[subj]|2:preds">sido</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
-<W lemma="afortunar" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr">afortunado</W>
+<W lemma="afortunar" msd="VLadj" in="-2:preds" out="-1:degr">afortunado</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="con" msd="PREP" in="-5:man" out="-1:pnct|1:nobj|8:pnct">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -115,8 +115,8 @@
 <W lemma="." msd="FS" in="-26:pnct" out="">.</W>
 <W lemma="y" msd="CC" in="2:struct" out="">Y</W>
 <W lemma="ambo" msd="QU" in="-5:coref|1:subj" out="17:coref">ambos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:subj|-2:struct|1:preds|5:conj|8:pnct|1:preds">están</W>
-<W lemma="lleno" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">llenos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:subj|-2:struct|5:conj|8:pnct|1:preds">están</W>
+<W lemma="lleno" msd="ADJ" in="-1:preds" out="1:pobj">llenos</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="empujar" msd="VLfin" in="-1:nobj" out="">empuje</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>

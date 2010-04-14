@@ -1,5 +1,5 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:preds|35:pnct|1:preds">È</W>
-<W lemma="necessario" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:dobj">necessario</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="35:pnct|1:preds">È</W>
+<W lemma="necessario" msd="AN" tag="ADJ" in="-1:preds" out="1:dobj">necessario</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj|4:conj">che</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:expl" out="">ci</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:expl">sia</W>
@@ -20,8 +20,8 @@
 <W lemma="funzionare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]">funzionare</W>
 <W lemma=";" msd="XP" tag="PON" in="-2:pnct" out="">;</W>
 <W lemma="perciò" msd="RG" tag="ADV" in="-3:cause&3a;reas" out="1:vobj">perciò</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds|1:preds">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:dobj">condizione</W>
 <W lemma="imprescindibile" msd="AN" tag="ADJ" in="-1:attr" out="">imprescindibile</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:dobj" out="7:vobj">che</W>
@@ -31,8 +31,8 @@
 <W lemma="profondo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">profondi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:pos" out="1:nobj">del</W>
 <W lemma="terreno" msd="NC" tag="NOM" in="-1:nobj" out="">terreno</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-7:vobj" out="-6:subj|1:preds|1:preds">siano</W>
-<W lemma="solido" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="">solidi</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-7:vobj" out="-6:subj|1:preds">siano</W>
+<W lemma="solido" msd="NC" tag="NOM" in="-1:preds" out="">solidi</W>
 <W lemma="." msd="XP" tag="SENT" in="-35:pnct" out="">.</W>
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="5:fpreds" out="1:struct&3a;contr|2:pnct">Detto</W>
 <W lemma="altrimenti" msd="RG" tag="ADV" in="-1:struct&3a;contr" out="">altrimenti</W>
@@ -42,8 +42,8 @@
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="" out="-2:neg|-1:subj|-5:fpreds|1:vobj|20:pnct">può</W>
 <W lemma="credere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:dobj">credere</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:preds|1:preds">sia</W>
-<W lemma="sufficiente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:vobj">sufficiente</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:preds">sia</W>
+<W lemma="sufficiente" msd="AN" tag="ADJ" in="-1:preds" out="1:vobj">sufficiente</W>
 <W lemma="mettere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|10:conj">mettere</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="cerotto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">cerotto</W>
@@ -130,8 +130,8 @@
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">mi</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-28:conj" out="-7:subj|-1:iobj|-8:coord|1:dobj">dice</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds|23:coref-prg|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj|4:coref">un</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="23:coref-prg|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj|4:coref">un</W>
 <W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:appr">caso</W>
 <W lemma="veramente" msd="RG" tag="ADV" in="1:degr" out="">veramente</W>
 <W lemma="eccezionale" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">eccezionale</W>
@@ -140,8 +140,8 @@
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="-1:nobj|-2:ref" out="">cui</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-44:coref-id|2:subj" out="1:nobj|31:coref-id">le</W>
 <W lemma="conduttura" msd="NC" tag="NOM" in="-1:nobj" out="">condutture</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-5:relr" out="-2:subj|-4:space&3a;loc|1:preds|1:preds">siano</W>
-<W lemma="collocare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:man">collocate</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-5:relr" out="-2:subj|-4:space&3a;loc|1:preds">siano</W>
+<W lemma="collocare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:man">collocate</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:man" out="1:nobj">in</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:man&3a;comp">modo</W>
 <W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>

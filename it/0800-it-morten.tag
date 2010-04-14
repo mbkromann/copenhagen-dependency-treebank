@@ -188,8 +188,8 @@
 <W lemma="assumere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:man">assunta</W>
 <W lemma="regolarmente" msd="RG" tag="ADV" in="-1:man" out="">regolarmente</W>
 <W lemma=";" msd="XP" tag="PON" in="-7:pnct" out="">;</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-8:conj|4:[subj]" out="1:preds|1:preds">sono</W>
-<W lemma="felice" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">felice</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-8:conj|4:[subj]" out="1:preds">sono</W>
+<W lemma="felice" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">felice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|-4:[subj]|2:nobj">aver</W>

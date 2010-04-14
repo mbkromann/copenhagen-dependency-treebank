@@ -29,8 +29,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:dobj" out="-1:degr|1:nobj">i</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|2:relr">bambini</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-2:relr" out="-1:subj|1:preds|1:preds">erano</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-2:relr" out="-1:subj|1:preds">erano</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="lista" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">lista</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">d'</W>
 <W lemma="attesa" msd="NC" tag="NOM" in="-1:nobj" out="">attesa</W>

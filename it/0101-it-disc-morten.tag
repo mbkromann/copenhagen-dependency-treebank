@@ -102,8 +102,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Jesper</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|15:coref-var">Skibby</W>
 <W lemma="essere" msd="VA" tag="VER&3a;cond" in="-5:vobj" out="-4:subj|1:vobj|12:cause">sarebbe</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:preds|1:preds">stato</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:preds">stato</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="ottenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">ottenere</W>

@@ -131,9 +131,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="">más</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-4:conj" out="-1:coord|1:vobj">quería</W>
-<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds|2:preds">estar</W>
+<W lemma="estar" msd="VEinf" in="-1:vobj" out="2:preds">estar</W>
 <W lemma="completamente" msd="ADV" in="1:degr" out="">completamente</W>
-<W lemma="seguro" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">segura</W>
+<W lemma="seguro" msd="ADJ" in="-2:preds" out="-1:degr">segura</W>
 <W lemma="a" msd="PREP" in="-8:cause" out="1:nobj">a</W>
 <W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj">causa</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
@@ -193,8 +193,8 @@
 <W lemma="eventual" msd="ADJ" in="1:attr" out="">eventuales</W>
 <W lemma="riesgo" msd="NC" in="-2:nobj" out="-1:attr|1:ref|3:relr">riesgos</W>
 <W lemma="que" msd="CQUE" in="-1:ref|2:subj" out="">que</W>
-<W lemma="este" msd="DM" in="-11:coref-res|1:preds|1:preds" out="">esto</W>
-<W lemma="significar" msd="VLfin" in="-3:relr" out="-1:preds|-2:subj|1:pobj|-1:preds">significaba</W>
+<W lemma="este" msd="DM" in="-11:coref-res|1:preds" out="">esto</W>
+<W lemma="significar" msd="VLfin" in="-3:relr" out="-2:subj|1:pobj|-1:preds">significaba</W>
 <W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="2:pobj&3a;?">mujeres</W>
 <W lemma="grande" msd="ADJ" in="2:degr" out="">mayores</W>

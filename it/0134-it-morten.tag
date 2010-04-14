@@ -94,8 +94,8 @@
 <W lemma="giocatore" msd="NC" tag="NOM" in="-1:nobj" out="">giocatori</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="forse" msd="RG" tag="ADV" in="1:prg" out="">forse</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-16:cond|-1:prg|1:preds|2:time|9:pnct|1:preds">sarà</W>
-<W lemma="possibile" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="3:¹dobj">possibile</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-16:cond|-1:prg|2:time|9:pnct|1:preds">sarà</W>
+<W lemma="possibile" msd="AN" tag="ADJ" in="-1:preds" out="3:¹dobj">possibile</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:time" out="1:nobj">in</W>
 <W lemma="seguito" msd="NC" tag="NOM" in="-1:nobj" out="">seguito</W>
 <W compound="¹concordar²ci" lemma="concordare" msd="VAF" tag="VER&3a;infi" in="-3:¹dobj|0:²iobj¹" out="1:pobj¹|0:²iobj¹">concordarci</W>
@@ -244,9 +244,9 @@
 <W lemma="in" msd="SP" tag="PRE" in="-2:man" out="1:nobj">in</W>
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
 <W lemma="," msd="XP" tag="PON" in="-15:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-21:subj|1:man|2:preds|8:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-21:subj|1:man|8:pnct|2:preds">è</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="-1:man" out="">completamente</W>
-<W lemma="d'" msd="SP" tag="PRE" in="-2:preds|-2:preds" out="1:nobj">d'</W>
+<W lemma="d'" msd="SP" tag="PRE" in="-2:preds" out="1:nobj">d'</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">accordo</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj">il</W>

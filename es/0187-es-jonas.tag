@@ -5,8 +5,8 @@
 <W lemma="mundo" msd="NC" in="" out="1:ref|2:relr">mundo</W>
 <W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>
 <W lemma="haber" msd="VHfin" in="-2:relr" out="1:vobj">ha</W>
-<W lemma="estar" msd="VE" in="-1:vobj" out="1:preds|1:preds">estado</W>
-<W lemma="acostumbrar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">acostumbrado</W>
+<W lemma="estar" msd="VE" in="-1:vobj" out="1:preds">estado</W>
+<W lemma="acostumbrar" msd="VLadj" in="-1:preds" out="1:pobj">acostumbrado</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="crecimiento" msd="NC" in="-1:nobj" out="">crecimiento</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">–</W>
@@ -143,16 +143,16 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">rol</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Unix</W>
-<W lemma="ser" msd="VSfin" in="" out="-4:subj|1:preds|4:pnct|1:preds">es</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="1:pobj&3a;nobj">el</W>
+<W lemma="ser" msd="VSfin" in="" out="-4:subj|4:pnct|1:preds">es</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:pobj&3a;nobj">el</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;nobj" out="1:nobj">de</W>
 <W lemma="servidor" msd="NC" in="-1:nobj" out="">servidor</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="y" msd="CC" in="" out="">Y</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="">Unix</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|-1:neg|1:preds|6:pnct|13:pnct|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|-1:neg|6:pnct|13:pnct|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="reemplazo" msd="NC" in="-1:nobj" out="1:pobj">reemplazo</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="sistema" msd="NC" in="-1:nobj" out="1:attr">sistemas</W>
@@ -161,8 +161,8 @@
 <W lemma="sino" msd="CCAD" in="" out="2:vobj">sino</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="tener~que" msd="VMfin" in="-2:vobj" out="1:vobj">tiene que</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="suplemento" msd="NC" in="-1:nobj" out="">suplemento</W>
 <W lemma="." msd="FS" in="-13:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">La</W>

@@ -143,8 +143,8 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 <W lemma="entrambi" msd="AN" tag="ADJ" in="-21:coref|-69:coref|1:subj" out="">Entrambi</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:preds|24:pnct|1:preds">sono</W>
-<W lemma="imputare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:pobj">imputati</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|24:pnct|1:preds">sono</W>
+<W lemma="imputare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">imputati</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">per</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj">aver</W>
 <W lemma="causare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:iobj|3:dobj|11:man">causato</W>
@@ -188,8 +188,8 @@
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">d'</W>
 <W lemma="amministrazione" msd="NC" tag="NOM" in="-1:nobj" out="">amministrazione</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-6:subj|1:vobj|3:pnct|41:coref-res">sono</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:preds|1:preds">stati</W>
-<W lemma="assolvere" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="-8:[subj]">assolti</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:preds">stati</W>
+<W lemma="assolvere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="-8:[subj]">assolti</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="tuttavia" msd="RG" tag="ADV" in="16:conc" out="1:pnct">Tuttavia</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>

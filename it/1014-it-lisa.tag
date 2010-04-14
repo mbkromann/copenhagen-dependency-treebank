@@ -134,8 +134,8 @@
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="">economici</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:discmark" out="">Ma</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:discmark|1:preds|6:pnct|7:cause|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:discmark|6:pnct|7:cause|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="3:attr">modo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:prg" out="1:nobj">del</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="-1:nobj" out="">tutto</W>
@@ -180,8 +180,8 @@
 <W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">case</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="riposo" msd="NC" tag="NOM" in="-1:nobj" out="">riposo</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|-7:coord|1:preds|1:preds">sono</W>
-<W lemma="strapieno" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">strapiene</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|-7:coord|1:preds">sono</W>
+<W lemma="strapieno" msd="AN" tag="ADJ" in="-1:preds" out="">strapiene</W>
 <W lemma="." msd="XP" tag="SENT" in="-36:pnct" out="">.</W>
 <W lemma="insomma" msd="RG" tag="ADV" in="2:prg" out="">Insomma</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">io</W>
@@ -199,8 +199,8 @@
 <W lemma="ospedale" msd="NC" tag="NOM" in="-1:nobj" out="2:coref">ospedale</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="vi" msd="PR" tag="PRO&3a;refl" in="-2:coref|1:loc" out="">vi</W>
-<W lemma="rimanere" msd="VADR" tag="VER&3a;cpre" in="-5:conj" out="-2:coord|-1:loc|1:preds|1:preds">rimangano</W>
-<W lemma="parcheggiare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:pobj">parcheggiati</W>
+<W lemma="rimanere" msd="VADR" tag="VER&3a;cpre" in="-5:conj" out="-2:coord|-1:loc|1:preds">rimangano</W>
+<W lemma="parcheggiare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">parcheggiati</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="costo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">costo</W>

@@ -70,8 +70,8 @@
 <W lemma="affatto" msd="RG" tag="ADV" in="-2:degr" out="">affatto</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nonostante" msd="SP" tag="PRE" in="-3:conc" out="1:vobj">nonostante</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:preds|3:conj|1:preds">sia</W>
-<W lemma="danese" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">danese</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="3:conj|1:preds">sia</W>
+<W lemma="danese" msd="AN" tag="ADJ" in="-1:preds" out="">danese</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="scrivere" msd="VADR" tag="VER&3a;cpre" in="-3:conj" out="-1:coord|1:ben">scriva</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:ben" out="1:nobj">per</W>

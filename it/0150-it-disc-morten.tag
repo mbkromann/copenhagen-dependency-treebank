@@ -63,8 +63,8 @@
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">società</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Hafnia</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:vobj" out="-7:subj|1:preds|1:preds">è</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:vobj" out="-7:subj|1:preds">è</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="corso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">corso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
 <W lemma="negoziazione" msd="NC" tag="NOM" in="-1:nobj" out="">negoziazione</W>
@@ -125,8 +125,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:ref|3:relpa">Norden</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|1:subj" out="">che</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-3:relpa" out="-1:subj|1:preds|1:preds">sarà</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">la</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-3:relpa" out="-1:subj|1:preds">sarà</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">la</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="superstite" msd="AN" tag="ADJ" in="-1:attr" out="">superstite</W>
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
@@ -137,8 +137,8 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="intenzione" msd="NC" tag="NOM" in="-1:nobj" out="">intenzione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:+CONTR&3a;dir/ma" out="-3:coord|-2:subj|1:preds|24:pnct|28:CAUSE&3a;reas/(perché)|1:preds">è</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:preds|-1:preds" out="6:vobj">che</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:+CONTR&3a;dir/ma" out="-3:coord|-2:subj|24:pnct|28:CAUSE&3a;reas/(perché)|1:preds">è</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:preds" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|7:[subj]" out="1:nobj">il</W>
 <W lemma="pacchetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pacchetto</W>
 <W lemma="azionario" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj&3a;dobj">azionario</W>

@@ -76,8 +76,8 @@
 <W lemma="volver" msd="VLadj" in="-1:vobj" out="-10:[subj]|3:vobj">volviendo</W>
 <W lemma="de~nuevo" msd="ADV" in="-2:other" out="">de nuevo</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
-<W lemma="ser" msd="VSinf" in="-3:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="ser" msd="VSinf" in="-3:vobj" out="1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">cuestión</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj|3:conj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">ideología</W>
@@ -117,8 +117,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attr" out="2:conj">ideológicas</W>
 <W lemma="/" msd="SLASH" in="1:coord" out="">/</W>
 <W lemma="moral" msd="ADJ" in="-2:conj" out="-1:coord">morales</W>
-<W lemma="quedar" msd="VLfin" in="" out="-5:subj|1:preds|5:conj|1:preds">quedan</W>
-<W lemma="claro" msd="ADJ" in="-1:preds|-1:preds" out="">claras</W>
+<W lemma="quedar" msd="VLfin" in="" out="-5:subj|5:conj|1:preds">quedan</W>
+<W lemma="claro" msd="ADJ" in="-1:preds" out="">claras</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="en" msd="PREP" in="2:man" out="1:nobj">en</W>
 <W lemma="resumen" msd="NC" in="-1:nobj" out="">resumen</W>

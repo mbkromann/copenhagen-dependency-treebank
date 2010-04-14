@@ -164,9 +164,9 @@
 <s>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-59:coref-id|1:subj" out="-1:namef|66:coref-id">Dyremose</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|2:preds|4:pnct|24:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|4:pnct|24:pnct|2:preds">ist</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds|-2:preds" out="1:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:preds" out="1:nobj">der</W>
 <W lemma="Auffassung" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Auffassung</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="10:vobj">dass</W>

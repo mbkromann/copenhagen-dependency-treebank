@@ -34,17 +34,17 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">día</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:subj" out="">él</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:time|-1:subj|-2:pnct|1:preds|4:pnct|5:cause|8:vobj|31:pnct|1:preds">estaría</W>
-<W lemma="muerto" msd="ADJ" in="-1:preds|-1:preds" out="2:fpreds">muerto</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:time|-1:subj|-2:pnct|4:pnct|5:cause|8:vobj|31:pnct|1:preds">estaría</W>
+<W lemma="muerto" msd="ADJ" in="-1:preds" out="2:fpreds">muerto</W>
 <W lemma="varios" msd="QU" in="1:numm" out="">varias</W>
 <W lemma="vez" msd="NC" in="-2:fpreds" out="-1:numm">veces</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="ya~que" msd="CSUBF" in="-5:cause" out="">ya que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Nilo</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:vobj" out="-2:subj|2:preds|3:cons|6:vobj|2:preds">está</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:vobj" out="-2:subj|3:cons|6:vobj|2:preds">está</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
-<W lemma="contaminar" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr">contaminado</W>
+<W lemma="contaminar" msd="VLadj" in="-2:preds" out="-1:degr">contaminado</W>
 <W lemma="que" msd="CQUE" in="-3:cons" out="">que</W>
 <W lemma="si" msd="CSUBX" in="2:cond" out="">si</W>
 <W lemma="se" msd="SE" in="1:subj" out="">se</W>
@@ -108,7 +108,7 @@
 <W lemma="llamar" msd="VLfin" in="-3:relr" out="-2:dobj|-1:subj|1:predo">llama</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:predo" out="">“Cairo-step”</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
-<W lemma="un" msd="ART" in="10:preds|10:preds" out="2:nobj">Un</W>
+<W lemma="un" msd="ART" in="10:preds" out="2:nobj">Un</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">buen</W>
 <W lemma="consejo" msd="NC" in="-2:nobj" out="-1:attr">consejo</W>
 <W lemma="," msd="CM" in="7:pnct" out="">,</W>
@@ -118,7 +118,7 @@
 <W lemma="yo" msd="PPX" in="1:subj" out="">yo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj">sobreviví</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="ser" msd="VSfin" in="" out="-10:preds|-7:pnct|-1:pnct|-6:prg|1:subj|6:loc|18:pnct|-10:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-7:pnct|-1:pnct|-6:prg|1:subj|6:loc|18:pnct|-10:preds">es</W>
 <W lemma="tomar" msd="VLinf" in="-1:subj" out="2:dobj">tomar</W>
 <W lemma="dos" msd="CARD" in="1:numm" out="">dos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:dobj" out="-1:numm|1:pobj&3a;arg">píldoras</W>
@@ -140,8 +140,8 @@
 <W lemma="otro" msd="QU" in="3:subj" out="2:nobj">Otro</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">buen</W>
 <W lemma="consejo" msd="NC" in="-2:nobj" out="-1:attr">consejo</W>
-<W lemma="ser" msd="VSfin" in="" out="-3:subj|1:preds|5:vobj|8:pnct|1:preds">es</W>
-<W lemma="que" msd="CQUE" in="-1:preds|-1:preds" out="1:nobj">que</W>
+<W lemma="ser" msd="VSfin" in="" out="-3:subj|5:vobj|8:pnct|1:preds">es</W>
+<W lemma="que" msd="CQUE" in="-1:preds" out="1:nobj">que</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">próximo</W>
 <W lemma="viaje" msd="NC" in="-2:nobj" out="-1:attr">viaje</W>
@@ -149,8 +149,8 @@
 <W lemma="a" msd="PREP" in="-1:dir" out="1:nobj">a</W>
 <W lemma="Egipto" msd="NP" in="-1:nobj" out="">Egipto</W>
 <W lemma="." msd="FS" in="-8:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="" out="1:preds|7:pnct|1:preds">Es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="ser" msd="VSfin" in="" out="7:pnct|1:preds">Es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="experiencia" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">experiencia</W>
 <W lemma="para" msd="PREP" in="-1:pobj&3a;arg" out="1:ext">para</W>
 <W lemma="todo" msd="QU" in="-1:ext" out="1:nobj">toda</W>

@@ -12,8 +12,8 @@
 <W lemma="decir" msd="VLfin" in="" out="-7:dobj|1:subj|2:pnct">dijo</W>
 <W lemma="él" msd="PPX" in="-1:subj" out="">ella</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
-<W lemma="era" msd="VEfin" in="" out="1:preds|7:pnct|1:preds">Era</W>
-<W lemma="distinto" msd="ADJ" in="-1:preds|-1:preds" out="">distinta</W>
+<W lemma="era" msd="VEfin" in="" out="7:pnct|1:preds">Era</W>
+<W lemma="distinto" msd="ADJ" in="-1:preds" out="">distinta</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
 <W lemma="el" msd="ART" in="" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
@@ -42,8 +42,8 @@
 <W lemma="vez" msd="NC" in="-1:nobj" out="">vez</W>
 <W lemma="que" msd="CQUE" in="-3:dobj" out="2:vobj">que</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="era" msd="VEfin" in="-2:vobj" out="-1:neg|1:preds|1:preds">era</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="">asÃ­</W>
+<W lemma="era" msd="VEfin" in="-2:vobj" out="-1:neg|1:preds">era</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">asÃ­</W>
 <W lemma="." msd="FS" in="-20:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:loc" out="">AquÃ­</W>
@@ -64,8 +64,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:ref|2:relr">lo</W>
 <W lemma="que" msd="CQUE" in="-1:ref|1:dobj" out="">que</W>
 <W lemma="hacer" msd="VLfin" in="-2:relr" out="-1:dobj">hacemos</W>
-<W lemma="fuera" msd="PREP" in="" out="-3:subj|1:preds|1:preds">fuera</W>
-<W lemma="algo" msd="QU" in="-1:preds|-1:preds" out="1:nobj">algo</W>
+<W lemma="fuera" msd="PREP" in="" out="-3:subj|1:preds">fuera</W>
+<W lemma="algo" msd="QU" in="-1:preds" out="1:nobj">algo</W>
 <W lemma="secreto" msd="NC" in="-1:nobj" out="2:conj">secreto</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="prohibir" msd="VLadj" in="-2:conj" out="-1:coord">prohibido</W>
@@ -145,8 +145,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj" out="1:dobj">descubrÃ­</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds|1:preds">es</W>
-<W lemma="ese" msd="DM" in="-1:preds|-1:preds" out="3:ref|5:relr">eso</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds">es</W>
+<W lemma="ese" msd="DM" in="-1:preds" out="3:ref|5:relr">eso</W>
 <W lemma="de" msd="PREP" in="4:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="">lo</W>
 <W lemma="que" msd="CQUE" in="-3:ref|2:dobj" out="">que</W>
@@ -170,6 +170,6 @@
 <W lemma="," msd="CM" in="-13:pnct" out="">,</W>
 <W lemma="entonces" msd="ADV" in="2:mod?" out="">entonces</W>
 <W lemma="todo" msd="QU" in="1:subj" out="">todo</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-15:vobj" out="-1:subj|-2:mod?|-14:cond|1:preds|1:preds">estarÃ­a</W>
-<W lemma="bien" msd="ADV" in="-1:preds|-1:preds" out="">bien</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-15:vobj" out="-1:subj|-2:mod?|-14:cond|1:preds">estarÃ­a</W>
+<W lemma="bien" msd="ADV" in="-1:preds" out="">bien</W>
 <W lemma="." msd="FS" in="-18:pnct" out="">.</W>

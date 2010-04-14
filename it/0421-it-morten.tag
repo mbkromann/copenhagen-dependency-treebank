@@ -77,8 +77,8 @@
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-2:subj|1:time|2:vobj|5:goal|12:pnct">era</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:time" out="">già</W>
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-4:[subj]|1:vobj">dovuta</W>
-<W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|-4:dobj|1:preds|1:preds">farsi</W>
-<W lemma="forte" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">forte</W>
+<W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|-4:dobj|1:preds">farsi</W>
+<W lemma="forte" msd="AN" tag="ADJ" in="-1:preds" out="">forte</W>
 <W lemma="per" msd="SP" tag="PRE" in="-5:goal" out="1:vobj">per</W>
 <W lemma="ricevere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:dobj|3:man">ricevere</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
@@ -122,8 +122,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAP" tag="VER&3a;pper" in="-22:coref-prg|2:subj|3:[subj]" out="">l’invito</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:iobj" out="">le</W>
 <W lemma="essere" msd="VA" tag="VER&3a;cond" in="" out="-2:subj|-13:cond|1:vobj|3:pnct|5:goal|8:pnct">sarebbe</W>
-<W lemma="apparire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|-2:iobj|1:preds|1:preds">apparso</W>
-<W lemma="divertente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">divertente</W>
+<W lemma="apparire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|-2:iobj|1:preds">apparso</W>
+<W lemma="divertente" msd="AN" tag="ADJ" in="-1:preds" out="">divertente</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>
 <W lemma="per" msd="SP" tag="PRE" in="-5:goal" out="-1:add|1:vobj">per</W>

@@ -1,6 +1,6 @@
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="2:preds|3:subj|15:pnct|2:preds">“Está</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="3:subj|15:pnct|2:preds">“Está</W>
 <W lemma="totalmente" msd="ADV" in="1:degr" out="">totalmente</W>
-<W lemma="claro" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">claro</W>
+<W lemma="claro" msd="ADJ" in="-2:preds" out="-1:degr">claro</W>
 <W lemma="que" msd="CQUE" in="-3:subj" out="6:vobj">que</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">las</W>
 <W lemma="inversin" msd="NC" in="-1:nobj" out="1:loc">inversiones</W>
@@ -61,8 +61,8 @@
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="para" msd="PREP" in="2:ben" out="1:nobj">Para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">él</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-2:ben|1:preds|2:subj|31:pnct|1:preds">está</W>
-<W lemma="claro" msd="ADJ" in="-1:preds|-1:preds" out="">claro</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-2:ben|2:subj|31:pnct|1:preds">está</W>
+<W lemma="claro" msd="ADJ" in="-1:preds" out="">claro</W>
 <W lemma="que" msd="CQUE" in="-2:subj" out="8:vobj">que</W>
 <W lemma="cada" msd="QU" in="7:subj" out="2:nobj">cada</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">pequeño</W>
@@ -154,8 +154,8 @@
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
 <W lemma="pensar" msd="VLfin" in="" out="1:dobj|11:pnct|30:pnct">Piensa</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
-<W lemma="ser" msd="VSfin" in="-1:vobj" out="1:preds|4:loc|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="-1:vobj" out="4:loc|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="desarrollo" msd="NC" in="-1:nobj" out="1:attr">desarrollo</W>
 <W lemma="natural" msd="ADJ" in="-1:attr" out="">natural</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>

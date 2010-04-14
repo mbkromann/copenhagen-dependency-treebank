@@ -74,8 +74,8 @@
 <W lemma="el" msd="ART" in="-13:coref-part|3:subj" out="1:nobj|8:coref">el</W>
 <W lemma="municipio" msd="NC" in="-1:nobj" out="">municipio</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|1:preds|4:pnct|1:preds">es</W>
-<W lemma="capaz" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">capaz</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|4:pnct|1:preds">es</W>
+<W lemma="capaz" msd="ADJ" in="-1:preds" out="1:pobj">capaz</W>
 <W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
 <W lemma="hacerlo" msd="VCLI" in="-1:vobj" out="">hacerlo</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
@@ -174,8 +174,8 @@
 <W lemma="residencia" msd="NC" in="-1:nobj" out="1:ben">residencias</W>
 <W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
 <W lemma="anciano" msd="NC" in="-1:nobj" out="">ancianos</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-11:conj" out="-5:coord|-4:subj|1:preds|1:preds">están</W>
-<W lemma="lleno" msd="ADJ" in="-1:preds|-1:preds" out="">llenas</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-11:conj" out="-5:coord|-4:subj|1:preds">están</W>
+<W lemma="lleno" msd="ADJ" in="-1:preds" out="">llenas</W>
 <W lemma="." msd="FS" in="-20:pnct" out="">.</W>
 <W lemma="dicho" msd="QU" in="4:prg" out="1:man|2:pnct">Dicho</W>
 <W lemma="crudo" msd="ADV" in="-1:man" out="">crudamente</W>
@@ -185,8 +185,8 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="-57:coref|2:subj" out="1:nobj">los</W>
 <W lemma="municipio" msd="NC" in="-1:nobj" out="">municipios</W>
-<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|1:preds|1:preds">son</W>
-<W lemma="culpable" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">culpables</W>
+<W lemma="ser" msd="VSfin" in="-3:vobj" out="-2:subj|1:preds">son</W>
+<W lemma="culpable" msd="ADJ" in="-1:preds" out="1:pobj">culpables</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="-44:coref-id|2:subj" out="1:nobj">los</W>

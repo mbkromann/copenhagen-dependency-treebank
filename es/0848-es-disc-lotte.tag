@@ -78,8 +78,8 @@
 <W lemma="puente" msd="NC" in="-1:nobj" out="1:loc">puente</W>
 <W lemma="de" msd="PREP" in="-1:loc" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Storebælt</W>
-<W lemma="ser" msd="VSfin" in="-5:vobj" out="-4:subj|1:preds|1:preds">sea</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="ser" msd="VSfin" in="-5:vobj" out="-4:subj|1:preds">sea</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="realidad" msd="NC" in="-1:nobj" out="">realidad</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="y" msd="CC" in="4:struct" out="">Y</W>
@@ -94,8 +94,8 @@
 <W lemma="historia" msd="NC" in="-2:nobj" out="">historia</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-4:vobj" out="-3:subj|1:loc">está</W>
 <W lemma="a~punto~de" msd="PREP" in="-1:loc" out="1:vobj">a punto de</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj|-5:[subj]" out="1:preds|1:preds">ser</W>
-<W lemma="historia" msd="NC" in="-1:preds|-1:preds" out="">historia</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj|-5:[subj]" out="1:preds">ser</W>
+<W lemma="historia" msd="NC" in="-1:preds" out="">historia</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="cinco" msd="CARD" in="4:subj" out="1:nobj|25:coref">Cinco</W>
 <W lemma="ruta" msd="NC" in="-1:nobj" out="1:other">rutas</W>
@@ -128,8 +128,8 @@
 <W lemma="actual" msd="ADJ" in="1:attr" out="">actuales</W>
 <W lemma="@card@" msd="CARD" in="-2:nobj" out="-1:attr|1:nobj">10</W>
 <W lemma="ruta" msd="NC" in="-1:nobj" out="">rutas</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-10:vobj" out="-9:time|-6:subj|1:preds|1:preds">seguirán</W>
-<W lemma="intacto" msd="ADJ" in="-1:preds|-1:preds" out="">intactas</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-10:vobj" out="-9:time|-6:subj|1:preds">seguirán</W>
+<W lemma="intacto" msd="ADJ" in="-1:preds" out="">intactas</W>
 <W lemma="." msd="FS" in="-23:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="-9:coref" out="">Las</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
@@ -213,7 +213,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;poss">ferries</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">DSB</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:struct|-8:subj|1:preds|3:pnct|1:preds">estarán</W>
-<W lemma="de" msd="PREP" in="-1:preds|-1:preds" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:struct|-8:subj|3:pnct|1:preds">estarán</W>
+<W lemma="de" msd="PREP" in="-1:preds" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">más</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>

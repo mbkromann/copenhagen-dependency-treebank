@@ -5,8 +5,8 @@
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="aspettare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-1:robj|1:dobj|17:pnct">aspetta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
-<W lemma="vedere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:preds|7:dobj|1:preds">vedere</W>
-<W lemma="impegnare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:space&3a;loc">impegnate</W>
+<W lemma="vedere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="7:dobj|1:preds">vedere</W>
+<W lemma="impegnare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:space&3a;loc">impegnate</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:space&3a;loc" out="1:nobj">nel</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:time">racing</W>
 <W lemma="britannico" msd="AN" tag="ADJ" in="-1:attr" out="">britannico</W>
@@ -174,8 +174,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-25:coref-id|2:subj" out="1:nobj|22:coref-id">L'</W>
 <W lemma="auto" msd="NC" tag="NOM" in="-1:nobj" out="">auto</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|12:pnct|13:ref|15:relelab|19:pnct|26:assoc-const|1:preds">è</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|12:pnct|13:ref|15:relelab|19:pnct|26:assoc-const|1:preds">è</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="3:nobj|5:man&3a;inst">fare</W>
@@ -189,8 +189,8 @@
 <W lemma="," msd="XP" tag="PON" in="-12:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-13:ref|2:nobj" out="">il</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="1:subj" out="">che</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:relelab" out="-1:subj|-2:nobj|1:preds|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:relelab" out="-1:subj|-2:nobj|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="record" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">record</W>
 <W lemma="mondiale" msd="AN" tag="ADJ" in="-1:attr" out="">mondiale</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>

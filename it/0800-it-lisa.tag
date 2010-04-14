@@ -13,8 +13,8 @@
 <W lemma="pasticceria" msd="NC" tag="NOM" in="" out="">pasticceria</W>
 =======
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-15:time|1:preds|20:conj|29:pnct|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-15:time|20:conj|29:pnct|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
 <W lemma="stimare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">stimato</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">al</W>
@@ -268,9 +268,9 @@
 <<<<<<< .mine
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="">sono</W>
 =======
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="2:preds|2:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="2:preds">sono</W>
 >>>>>>> .r507
-<W lemma="felice" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="1:pobj">felice</W>
+<W lemma="felice" msd="AN" tag="ADJ" in="-2:preds" out="1:pobj">felice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|1:time|2:dobj">aver</W>

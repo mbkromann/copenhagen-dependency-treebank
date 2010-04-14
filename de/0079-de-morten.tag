@@ -62,7 +62,7 @@
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="18:vobj">ob</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-44:coref-id|17:subj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Buchstabiertafel</W>
-<W lemma="Humbug" msd="NC" tag="NN" in="15:preds|15:preds" out="2:conj">Humbug</W>
+<W lemma="Humbug" msd="NC" tag="NN" in="15:preds" out="2:conj">Humbug</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:conj" out="-1:coord|1:attr|2:nobj|3:pobj">ein</W>
 <W lemma="wertvoll" msd="AN" tag="ADJA" in="-1:attr" out="">wertvolles</W>
@@ -77,7 +77,7 @@
 <W lemma="psychisch" msd="AN" tag="ADJD" in="-2:conj" out="-1:coord">psychisch</W>
 <W lemma="Behinderte" msd="NC" tag="NN" in="-7:nobj" out="-5:pnct|-3:attr|1:pnct">Behinderten</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-18:vobj" out="-17:subj|-15:preds|1:pnct|-15:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-18:vobj" out="-17:subj|1:pnct|-15:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="vom" msd="SP+P" tag="APPRART" in="5:pobj" out="1:nobj">vom</W>
 <W lemma="Kreistag" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Kreistag</W>

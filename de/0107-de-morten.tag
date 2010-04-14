@@ -184,8 +184,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:ref|3:subj|11:[subj]" out="">der</W>
 <W lemma="erklärt" msd="AN" tag="ADJA" in="1:attr" out="">erklärter</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:preds|1:preds" out="-1:attr">Supereuropäer</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:relpa" out="-3:subj|-1:preds|9:conj|-1:preds">ist</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:preds" out="-1:attr">Supereuropäer</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:relpa" out="-3:subj|9:conj|-1:preds">ist</W>
 <W lemma="und" msd="CC" tag="KON" in="8:coord" out="">und</W>
 <W lemma="auf" msd="SP" tag="APPR" in="5:pobj" out="1:nobj">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">eine</W>

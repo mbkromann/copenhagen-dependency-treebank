@@ -230,8 +230,8 @@
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj" out="">du</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-31:&3a;ELAB&3a;exem/ATTR2" out="-4:subj|1:preds|1:preds">er</W>
-<W gloss="the_text" lemma="tekst" morph="tekst" msd="NCCSU==D" tag="NN" in="-1:preds|-1:preds" out="1:loc">teksten</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-31:&3a;ELAB&3a;exem/ATTR2" out="-4:subj|1:preds">er</W>
+<W gloss="the_text" lemma="tekst" morph="tekst" msd="NCCSU==D" tag="NN" in="-1:preds" out="1:loc">teksten</W>
 <W gloss="above" lemma="over" msd="SP" tag="IN" in="-1:loc" out="1:nobj">over</W>
 <W gloss="the_images" lemma="billede" morph="billede" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="1:pobj">billederne</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
@@ -249,9 +249,9 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:vobj">Det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-1:subj|-2:pnct|2:preds|14:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-1:subj|-2:pnct|14:pnct|2:preds">er</W>
 <W gloss="first" lemma="første" morph="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">første</W>
-<W gloss="time" lemma="gang" morph="gang" msd="NCCSU==I" tag="NN" in="-2:preds|-2:preds" out="-1:attr|1:pnct">gang</W>
+<W gloss="time" lemma="gang" morph="gang" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr|1:pnct">gang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-1:subj|1:vobj|8:pnct">har</W>

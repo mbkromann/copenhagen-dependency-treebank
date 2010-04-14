@@ -68,8 +68,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|1:preds|2:pnct|4:conc|10:pnct|1:preds">è</W>
-<W lemma="soddisfacente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">soddisfacente</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|2:pnct|4:conc|10:pnct|1:preds">è</W>
+<W lemma="soddisfacente" msd="AN" tag="ADJ" in="-1:preds" out="">soddisfacente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
 <W lemma="se" msd="CS" tag="CON" in="-4:conc" out="-1:focal|2:nobj">se</W>
@@ -151,8 +151,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="3:prg" out="1:nobj">in</W>
 <W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="">effetti</W>
 <W lemma="ne" msd="RG" tag="ADV" in="1:pobj" out="6:coref-res">ne</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-4:coord|-3:prg|-1:pobj|1:preds|2:pnct|1:preds">siamo</W>
-<W lemma="soddisfare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="">soddisfatti</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-4:coord|-3:prg|-1:pobj|2:pnct|1:preds">siamo</W>
+<W lemma="soddisfare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">soddisfatti</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">Le</W>
 <W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="">vendite</W>
@@ -177,9 +177,9 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-5:ref|2:subj" out="">che</W>
 <W lemma="però" msd="RG" tag="ADV" in="1:contr" out="">però</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-7:relpa|1:[subj]" out="-3:pnct|-2:subj|-1:contr|1:vobj">sono</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:preds|2:preds">stati</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:preds">stati</W>
 <W lemma="effettivamente" msd="RG" tag="ADV" in="1:degr" out="">effettivamente</W>
-<W lemma="ottimo" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">ottimi</W>
+<W lemma="ottimo" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">ottimi</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-61:pnct" out="">"</W>
 <W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-25:qobj|1:subj|8:pnct">afferma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>

@@ -28,8 +28,8 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="resultado" msd="NC" in="-1:nobj" out="">resultado</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|5:pnct|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|5:pnct|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="libro" msd="NC" in="-1:nobj" out="2:attr|4:ref|6:relr">libro</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
 <W lemma="elegante" msd="ADJ" in="-2:attr" out="-1:degr">elegante</W>
@@ -182,8 +182,8 @@
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="el" msd="ART" in="2:subj" out="">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">británicos</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|1:preds">son</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="">los</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds">son</W>
+<W lemma="el" msd="ART" in="-1:preds" out="">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-1:degr">irremediables</W>
 <W lemma="." msd="FS" in="" out="">.</W>

@@ -172,8 +172,8 @@
 <p>
 <s>
 <W lemma="infatti" msd="RG" tag="ADV" in="1:prg" out="">Infatti</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:+CAUSE&3a;expl/infatti" out="-1:prg|1:preds|24:pnct|1:preds">era</W>
-<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="3:conj|9:ben">candidato</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:+CAUSE&3a;expl/infatti" out="-1:prg|24:pnct|1:preds">era</W>
+<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="3:conj|9:ben">candidato</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="uno" msd="PI" tag="DET&3a;indef" in="-3:conj" out="-1:coord|-2:pnct|1:attr|5:pnct">uno</W>
@@ -224,8 +224,8 @@
 </s>
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="1:time" out="">Ora</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-37:+ELAB&3a;exp" out="-1:time|-19:CONTR&3a;dir|1:preds|4:pnct|8:¤struct&3a;bg|1:preds">sono</W>
-<W lemma="sette" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">sette</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-37:+ELAB&3a;exp" out="-1:time|-19:CONTR&3a;dir|4:pnct|8:¤struct&3a;bg|1:preds">sono</W>
+<W lemma="sette" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">sette</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="sei" msd="AN" tag="ADJ" in="-1:nobj" out="">sei</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>

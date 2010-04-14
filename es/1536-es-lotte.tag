@@ -81,8 +81,8 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="que" msd="CQUE" in="-7:conj" out="-1:coord|2:vobj">que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="ver" msd="VLfin" in="-2:vobj|-8:coref" out="-1:robj|1:preds|1:preds">vio</W>
-<W lemma="obligar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">obligado</W>
+<W lemma="ver" msd="VLfin" in="-2:vobj|-8:coref" out="-1:robj|1:preds">vio</W>
+<W lemma="obligar" msd="VLadj" in="-1:preds" out="1:pobj">obligado</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="regresar" msd="VLinf" in="-1:vobj" out="1:pobj|3:goal">regresar</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
@@ -196,7 +196,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-65:assoc-const" out="1:nobj">los</W>
 <W lemma="motor" msd="NC" in="-1:nobj" out="">motores</W>
-<W lemma="era" msd="VEfin" in="" out="-8:subj|1:preds|2:time|3:pnct|1:preds">era</W>
-<W lemma="desconocer" msd="VLadj" in="-1:preds|-1:preds" out="">desconocida</W>
+<W lemma="era" msd="VEfin" in="" out="-8:subj|2:time|3:pnct|1:preds">era</W>
+<W lemma="desconocer" msd="VLadj" in="-1:preds" out="">desconocida</W>
 <W lemma="anoche" msd="ADV" in="-2:time" out="">anoche</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>

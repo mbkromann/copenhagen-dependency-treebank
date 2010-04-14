@@ -11,8 +11,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:subj" out="1:pnct">Ã©l</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="-" msd="DASH" in="-3:pnct" out="">-</W>
-<W lemma="ese" msd="DM" in="1:preds|1:preds" out="">esa</W>
-<W lemma="ser" msd="VSfin" in="-5:qobj" out="-1:preds|1:subj|-1:preds">es</W>
+<W lemma="ese" msd="DM" in="1:preds" out="">esa</W>
+<W lemma="ser" msd="VSfin" in="-5:qobj" out="1:subj|-1:preds">es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:ref|4:relr">razÃ³n</W>
 <W lemma="por" msd="PREP" in="-1:ref|3:cause" out="1:nobj">por</W>
@@ -50,8 +50,8 @@
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="2:pnct" out="">-</W>
 <W lemma="pronto" msd="ADV" in="1:time" out="">Pronto</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="3:qobj" out="-2:pnct|-1:time|1:preds|1:preds">serÃ¡</W>
-<W lemma="detener" msd="VLadj" in="-1:preds|-1:preds" out="">detenido</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="3:qobj" out="-2:pnct|-1:time|1:preds">serÃ¡</W>
+<W lemma="detener" msd="VLadj" in="-1:preds" out="">detenido</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="decir" msd="VLfin" in="" out="-3:qobj|-1:pnct|1:subj|2:man|4:pnct|8:qobj|15:pnct">dijo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:subj" out="">Ã©l</W>
@@ -61,9 +61,9 @@
 <W lemma="-" msd="DASH" in="3:pnct" out="">-</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="ese" msd="DM" in="1:subj" out="">eso</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:qobj" out="-3:pnct|-2:coord|-1:subj|1:prg|2:preds|4:pobj|2:preds">serÃ¡</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:qobj" out="-3:pnct|-2:coord|-1:subj|1:prg|4:pobj|2:preds">serÃ¡</W>
 <W lemma="por~cierto" msd="ADV" in="-1:prg" out="">por cierto</W>
-<W lemma="él" msd="PPO" in="-2:preds|-2:preds" out="1:attr">lo</W>
+<W lemma="él" msd="PPO" in="-2:preds" out="1:attr">lo</W>
 <W lemma="bueno" msd="ADJ" in="-1:attr" out="">mejor</W>
 <W lemma="para" msd="PREP" in="-4:pobj" out="1:nobj">para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">Ã©l</W>
@@ -98,9 +98,9 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="-2:coord" out="">pero</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-1:neg|1:prg|2:preds|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-1:neg|1:prg|2:preds">es</W>
 <W lemma="siempre" msd="ADV" in="-1:prg" out="">siempre</W>
-<W lemma="ese" msd="DM" in="-2:preds|-2:preds" out="">eso</W>
+<W lemma="ese" msd="DM" in="-2:preds" out="">eso</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
 <W lemma="el" msd="ART" in="" out="1:ref|3:relr">lo</W>
 <W lemma="que" msd="CQUE" in="-1:ref" out="">que</W>

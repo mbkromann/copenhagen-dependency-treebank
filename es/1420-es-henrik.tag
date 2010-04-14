@@ -143,8 +143,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">Ørestaden</W>
 <W lemma="deber" msd="VMfin" in="" out="-12:subj|-14:struct|1:vobj|6:pnct">debe</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj|9:assoc-const">una</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj|9:assoc-const">una</W>
 <W lemma="zona" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">zona</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
 <W lemma="exposicin" msd="NC" in="-1:nobj" out="">exposiciones</W>
@@ -190,8 +190,8 @@
 <W lemma="de" msd="CSUBI" in="-1:pobj&3a;pos" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:nobj" out="">Østamager</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|1:preds|3:conj|1:preds">será</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="">subterránea</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|3:conj|1:preds">será</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="">subterránea</W>
 <W lemma="y" msd="CC" in="1:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:conj" out="-1:coord|1:dir|3:pnct">irá</W>
 <W lemma="hasta" msd="PREP" in="-1:dir" out="1:nobj">hasta</W>

@@ -81,8 +81,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-24:assoc-const|3:subj" out="1:nobj|84:assoc-const">il</W>
 <W lemma="complesso" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">complesso</W>
 <W lemma="abitativo" msd="AN" tag="ADJ" in="-1:attr" out="">abitativo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-4:vobj" out="-3:subj|1:preds|1:preds">sia</W>
-<W lemma="pronto" msd="I=" tag="INT" in="-1:preds|-1:preds" out="1:time">pronto</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-4:vobj" out="-3:subj|1:preds">sia</W>
+<W lemma="pronto" msd="I=" tag="INT" in="-1:preds" out="1:time">pronto</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:time" out="2:nobj">per</W>
 <W lemma="dicembre" msd="NC" tag="NOM" in="1:nobj" out="">dicembre</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:nobj">1987</W>

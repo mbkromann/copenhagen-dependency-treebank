@@ -72,9 +72,9 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="1:nobj|12:assoc-const">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="2:preds|2:preds">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="2:preds">Cheese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|8:pnct|11:conj">è</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="1:nobj|3:fpred">l’unica</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds" out="1:nobj|3:fpred">l’unica</W>
 <W lemma="azienda" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">azienda</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
 <W lemma="produttore" msd="AN" tag="ADJ" in="-3:fpred" out="1:pobj&3a;dobj">produttrice</W>
@@ -185,10 +185,10 @@
 <W lemma="credere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-1:subj|1:dobj|12:pnct">crede</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="perfino" msd="RG" tag="ADV" in="1:focal" out="">perfino</W>
-<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;pres" in="2:subj" out="-1:focal|1:focal|3:preds|3:preds">l’Italia</W>
+<W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;pres" in="2:subj" out="-1:focal|1:focal|3:preds">l’Italia</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stessa</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VER&3a;infi" in="-4:vobj" out="-2:subj">diventerà</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-3:preds|-3:preds" out="2:nobj">un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-3:preds" out="2:nobj">un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attr" out="">buon</W>
 <W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">importatore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="2:nobj">dei</W>

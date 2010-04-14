@@ -103,8 +103,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Sissel</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|23:coref-var">Kyrkjebø</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-36:CONTR&3a;prg/ma" out="-17:coord|-16:source|-3:ben|1:vobj|3:subj|17:pnct|37:+CONJ/inoltre">è</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:preds|2:[subj]|1:preds">stata</W>
-<W lemma="decisivo" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">decisiva</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:[subj]|1:preds">stata</W>
+<W lemma="decisivo" msd="AN" tag="ADJ" in="-1:preds" out="">decisiva</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:subj|-2:[subj]" out="1:nobj|8:pnct|9:ref|10:relpa">la</W>
 <W lemma="gratificazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">gratificazione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
@@ -130,8 +130,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:ref|3:subj" out="1:nobj">la</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="1:nobj">cui</W>
 <W lemma="voce" msd="NC" tag="NOM" in="-1:nobj" out="">voce</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="9:relelab" out="-3:subj|1:preds|8:pnct|1:preds">è</W>
-<W lemma="limpido" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:comp">limpida</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="9:relelab" out="-3:subj|8:pnct|1:preds">è</W>
+<W lemma="limpido" msd="AN" tag="ADJ" in="-1:preds" out="1:comp">limpida</W>
 <W lemma="come" msd="CS" tag="CON" in="-1:comp" out="1:nobj">come</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="aria" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">aria</W>

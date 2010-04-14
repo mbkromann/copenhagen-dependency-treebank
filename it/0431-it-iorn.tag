@@ -22,10 +22,10 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="1:nobj">Il</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">nome</W>
 <W lemma="scegliere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">scelto</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|3:preds|8:conj|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|8:conj|3:preds">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]">stato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:preds|-3:preds" out="-1:pnct|1:pnct">Personality</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:preds" out="-1:pnct|1:pnct">Personality</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="ed" msd="CS" tag="CON" in="3:coord" out="">ed</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-19:assoc-const|2:subj|3:[subj]|4:[subj]" out="1:nobj">il</W>

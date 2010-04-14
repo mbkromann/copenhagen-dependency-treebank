@@ -26,9 +26,9 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
 <W lemma="drogar" msd="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="" out="1:prg|2:preds|7:pnct|10:vobj|2:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:prg|7:pnct|10:vobj|2:preds">Es</W>
 <W lemma="casi" msd="ADV" in="-1:prg" out="">casi</W>
-<W lemma="el" msd="ART" in="-2:preds|-2:preds" out="1:nobj">el</W>
+<W lemma="el" msd="ART" in="-2:preds" out="1:nobj">el</W>
 <W lemma="doble" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">doble</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">año</W>
@@ -86,8 +86,8 @@
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">víctimas</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:vobj">habían</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds|1:preds">sido</W>
-<W lemma="consumidor" msd="NC" in="-1:preds|-1:preds" out="1:pobj&3a;dobj|4:time">consumidores</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds">sido</W>
+<W lemma="consumidor" msd="NC" in="-1:preds" out="1:pobj&3a;dobj|4:time">consumidores</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
 <W lemma="drogar" msd="VLfin" in="-1:nobj" out="1:attrr&3a;dobj#">drogas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr&3a;dobj#" out="">euforizantes</W>

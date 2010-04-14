@@ -85,14 +85,14 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="varco" msd="NC" tag="NOM" in="-1:nobj" out="">varco</W>
 <W lemma="." msd="XP" tag="SENT" in="-41:pnct" out="">.</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj|7:preds|18:appa|7:preds">La</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj|18:appa|7:preds">La</W>
 <W lemma="notte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">notte</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="San" msd="NP" tag="NPR" in="-1:nobj" out="1:nobj">San</W>
 <W lemma="marco" msd="NC" tag="NOM" in="-1:nobj" out="">Marco</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="" out="-5:subj|1:vobj|41:pnct">può</W>
 <W lemma="considerare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">considerarsi</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-7:preds|-7:preds" out="2:nobj|17:cause">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-7:preds" out="2:nobj|17:cause">il</W>
 <W lemma="migliore" msd="AN" tag="ADJ" in="1:attr" out="">migliore</W>
 <W lemma="romanzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj|13:assoc-scope|26:assoc-agent|36:coref-id">romanzo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="2:nobj">di</W>

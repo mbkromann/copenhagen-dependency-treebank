@@ -2,9 +2,9 @@
 <W msd="CC" tag="CC" in="" out="88:pnct">But</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">argument</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:preds|3:pnct|6:xpl|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|3:pnct|6:xpl|2:preds">is</W>
 <W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
-<W msd="ANP" tag="JJ" in="-2:preds|-2:preds" out="-1:degr">clear</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">clear</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">state</W>
@@ -43,9 +43,9 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="2:loc" out="">here</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-1:subj|-2:loc|-3:coord|2:preds|30:conj|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-1:subj|-2:loc|-3:coord|30:conj|2:preds">is</W>
 <W msd="ANP" tag="RB" in="2:degr" out="">entirely</W>
-<W msd="ANP" tag="JJ" in="-2:preds|-2:preds" out="">clear</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="">clear</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="-2:degr|1:pnct|9:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="7:loc" out="2:nobj|5:pnct">in</W>
@@ -186,8 +186,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pnct">hand</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:ref|17:relr">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-10:loc|-6:contr|1:preds|21:conj|37:conj|48:pnct|1:preds">is</W>
-<W msd="PD" tag="DT" in="-1:preds|-1:preds" out="1:nobj">the</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-10:loc|-6:contr|21:conj|37:conj|48:pnct|1:preds">is</W>
+<W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:possd&3a;const">state's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd&3a;const" out="">people</W>
 <W msd="PT" tag="WP" in="-5:ref|12:subj" out="1:pnct">who</W>

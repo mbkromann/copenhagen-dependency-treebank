@@ -65,8 +65,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">i</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">suoi</W>
 <W lemma="rappresentante" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">rappresentanti</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-5:coord|1:preds|10:pnct|1:preds">sono</W>
-<W lemma="pronto" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">pronti</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-5:coord|10:pnct|1:preds">sono</W>
+<W lemma="pronto" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">pronti</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="saltare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj|3:iobj">saltare</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">alla</W>
@@ -82,8 +82,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="ferro" msd="NC" tag="NOM" in="-1:nobj" out="">ferro</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-3:pnct" out="">"</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-21:time|-6:subj|1:preds|5:pnct|7:coref-res|1:preds">è</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-21:time|-6:subj|5:pnct|7:coref-res|1:preds">è</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹fermar²li" lemma="fermare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">fermarli</W>
@@ -123,8 +123,8 @@
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="civile" msd="AN" tag="ADJ" in="-1:attr" out="">civile</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:qobj" out="-12:pnct|-10:cause|1:preds|5:pnct|1:preds">eravamo</W>
-<W lemma="contrario" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">contrari</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:qobj" out="-12:pnct|-10:cause|5:pnct|1:preds">eravamo</W>
+<W lemma="contrario" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">contrari</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="congresso" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Congresso</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:attr" out="">popolare</W>
@@ -137,8 +137,8 @@
 <W lemma="democrazia" msd="NC" tag="NOM" in="-1:nobj" out="">democrazia</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-8:bg|-1:neg|1:preds|8:pnct|1:preds">era</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-8:bg|-1:neg|8:pnct|1:preds">era</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹dar²ci" lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²iobj" out="1:dobj¹|0:²iobj">darci</W>
@@ -149,8 +149,8 @@
 <W lemma="obiettivamente" msd="RG" tag="ADV" in="3:man" out="1:pnct">Obiettivamente</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-3:man|-1:neg|1:preds|5:pnct|1:preds">era</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-3:man|-1:neg|5:pnct|1:preds">era</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹far²lo" lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">farlo</W>
@@ -168,8 +168,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|5:[subj]|9:[subj]" out="1:nobj">Le</W>
 <W lemma="illusione" msd="NC" tag="NOM" in="-1:nobj" out="">illusioni</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|2:pnct|3:conj|7:conj|16:appa|30:pnct|31:pnct|1:preds">sono</W>
-<W lemma="pericoloso" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">pericolose</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:pnct|3:conj|7:conj|16:appa|30:pnct|31:pnct|1:preds">sono</W>
+<W lemma="pericoloso" msd="AN" tag="ADJ" in="-1:preds" out="">pericolose</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="alimentare" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-5:[subj]|1:dobj">alimentano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">lo</W>

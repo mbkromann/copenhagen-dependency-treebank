@@ -98,9 +98,9 @@
 <W lemma="trabajo" msd="NC" in="" out="1:attrr#">Trabajo</W>
 <W lemma="fijo" msd="ADJ" in="-1:attrr#" out="1:pnct">fijo</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="2:preds|3:pobj|5:pnct|2:preds">“Estamos</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="3:pobj|5:pnct|2:preds">“Estamos</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
-<W lemma="contento" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">contentos</W>
+<W lemma="contento" msd="ADJ" in="-2:preds" out="-1:degr">contentos</W>
 <W lemma="con" msd="PREP" in="-3:pobj" out="1:nobj">con</W>
 <W lemma="l" msd="PPX" in="-1:nobj" out="">ella</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>

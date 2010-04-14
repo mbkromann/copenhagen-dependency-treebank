@@ -44,8 +44,8 @@
 <W lemma="quale" msd="PT" tag="PRO&3a;rela" in="-1:dobj|3:[subj]" out="1:nobj|2:vobj">quale</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="">stato</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="1:vobj">debba</W>
-<W lemma="ritenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:preds|1:preds">ritenersi</W>
-<W lemma="responsabile" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:bg">responsabile</W>
+<W lemma="ritenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:preds">ritenersi</W>
+<W lemma="responsabile" msd="AN" tag="ADJ" in="-1:preds" out="1:bg">responsabile</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:bg" out="1:nobj">nel</W>
 <W lemma="trattare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">trattare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>

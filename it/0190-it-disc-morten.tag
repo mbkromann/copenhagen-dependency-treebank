@@ -11,9 +11,9 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-11:time|-2:subj|2:preds|6:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-11:time|-2:subj|6:pnct|2:preds">è</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="1:degr" out="">ancora</W>
-<W lemma="migliore" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr|1:pobj">migliore</W>
+<W lemma="migliore" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:pobj">migliore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">degli</W>
 <W lemma="spicchio&7c;spicco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">spicchi</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">freschi</W>
@@ -37,8 +37,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
-<W lemma="fa" msd="RG" tag="ADV" in="-3:vobj" out="-2:subj|1:preds|5:coref-res|1:preds">fa</W>
-<W lemma="bene" msd="RG" tag="ADV" in="-1:preds|-1:preds" out="">bene</W>
+<W lemma="fa" msd="RG" tag="ADV" in="-3:vobj" out="-2:subj|5:coref-res|1:preds">fa</W>
+<W lemma="bene" msd="RG" tag="ADV" in="-1:preds" out="">bene</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 </s>
 <s>
@@ -61,9 +61,9 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">20</W>
 <W lemma="mese" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">mesi</W>
 <W lemma="risultare" msd="VADR" tag="VER&3a;pres" in="-17:CONTR&3a;dir/ma/ATTR1" out="-11:coord|-10:subj|1:vobj|4:pnct">risulta</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:preds|2:preds">essere</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:preds">essere</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="1:degr" out="">ancora</W>
-<W lemma="migliore" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">migliore</W>
+<W lemma="migliore" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">migliore</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="-47:+CONJ/(e)/ATTR1" out="-34:qobj|1:subj|39:+CONJ/(e)/ATTR">sostengono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj|6:appr">i</W>

@@ -37,8 +37,8 @@
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-6:conj" out="1:dobj">dice</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds|1:preds">è</W>
-<W lemma="necessario" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:vobj">necessario</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds">è</W>
+<W lemma="necessario" msd="AN" tag="ADJ" in="-1:preds" out="1:vobj">necessario</W>
 <W lemma="difendere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">difendere</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="terra" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">terra</W>
@@ -88,9 +88,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:dobj" out="-1:focal|1:nobj">l'</W>
 <W lemma="avversario" msd="NC" tag="NOM" in="-1:nobj" out="">avversario</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="" out="2:preds|3:pnct|2:preds">Fosse</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="" out="3:pnct|2:preds">Fosse</W>
 <W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>
-<W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">semplice</W>
+<W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">semplice</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="">nemico</W>
@@ -179,8 +179,8 @@
 <W lemma="rispondere" msd="VADR" tag="VER&3a;pres" in="" out="2:cond|5:pnct|8:conj|15:pnct">Risponde</W>
 >>>>>>> .r507
 <W lemma="quando" msd="CS" tag="CON" in="-2:cond" out="1:vobj">quando</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds|1:preds">viene</W>
-<W lemma="interpellare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="">interpellato</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds">viene</W>
+<W lemma="interpellare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">interpellato</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:subj" out="">si</W>
@@ -225,7 +225,7 @@
 <W lemma="patrio" msd="AN" tag="ADJ" in="-1:nobj" out="">patria</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-3:dobj" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:preds|1:preds">viene</W>
-<W lemma="richiedere" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="">richiesto</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:preds">viene</W>
+<W lemma="richiedere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">richiesto</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-18:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>

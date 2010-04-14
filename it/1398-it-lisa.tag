@@ -1,7 +1,7 @@
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">Molto</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="-1:degr">più</W>
-<W lemma="preoccupante" msd="AN" tag="ADJ" in="1:preds|1:preds" out="-1:degr">preoccupante</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:preds|1:subj|4:pnct|21:pnct|-1:preds">è</W>
+<W lemma="preoccupante" msd="AN" tag="ADJ" in="1:preds" out="-1:degr">preoccupante</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="1:subj|4:pnct|21:pnct|-1:preds">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj|4:appa|48:coref-res">l'</W>
 <W lemma="agguato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">agguato</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">bosniaco</W>
@@ -142,12 +142,12 @@
 <W lemma="punto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">punto</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="vista" msd="NC" tag="NOM" in="-1:nobj" out="">vista</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|2:prg|5:preds|9:pnct|38:pnct|5:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|2:prg|9:pnct|38:pnct|5:preds">è</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>
 <W lemma="comprensibilmente" msd="RG" tag="ADV" in="-2:prg" out="-1:pnct|1:pnct">comprensibilmente</W>
 <W lemma="-" msd="XP" tag="PON" in="-1:pnct" out="">-</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="1:focal" out="">ancora</W>
-<W lemma="secondario" msd="AN" tag="ADJ" in="-5:preds|-5:preds" out="-1:focal|1:pobj">secondario</W>
+<W lemma="secondario" msd="AN" tag="ADJ" in="-5:preds" out="-1:focal|1:pobj">secondario</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="partigiano" msd="NC" tag="NOM" in="-1:nobj" out="2:ref|3:relr">partigiani</W>

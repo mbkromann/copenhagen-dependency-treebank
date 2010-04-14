@@ -10,7 +10,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj|152:coref-var">den</W>
 <W lemma="Sozialbehörde" msd="NC" tag="NN" in="-1:nobj" out="">Sozialbehörden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|8:preds|24:pnct|8:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|24:pnct|8:preds">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:attr|3:nobj|28:coref-var">die</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleine</W>
 <W lemma="dreijährig" msd="AN" tag="ADJA" in="-2:attr" out="">dreijährige</W>
@@ -18,7 +18,7 @@
 <W lemma="wieder" msd="RG" tag="ADV" in="-5:time&3a;ext" out="">wieder</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
 <W lemma="legal" msd="AN" tag="ADJD" in="-7:man" out="-1:degr">legal</W>
-<W lemma="bei" msd="SP" tag="APPR" in="-8:preds|-8:preds" out="1:nobj">bei</W>
+<W lemma="bei" msd="SP" tag="APPR" in="-8:preds" out="1:nobj">bei</W>
 <W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:conj|25:coref-id">Ihrer</W>
 <W lemma="Mutter" msd="NC" tag="NN" in="-1:possd" out="">Mutter</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>

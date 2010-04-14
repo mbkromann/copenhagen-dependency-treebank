@@ -10,8 +10,8 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="K" msd="ALFS" in="-2:conj" out="-1:coord">K</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="" out="-12:subj|-1:neg|1:preds|4:pnct|1:preds">es</W>
-<W lemma="algo" msd="QU" in="-1:preds|-1:preds" out="2:attr">algo</W>
+<W lemma="ser" msd="VSfin" in="" out="-12:subj|-1:neg|4:pnct|1:preds">es</W>
+<W lemma="algo" msd="QU" in="-1:preds" out="2:attr">algo</W>
 <W lemma="tan" msd="ADV" in="1:degr" out="">tan</W>
 <W lemma="novedoso" msd="ADJ" in="-2:attr" out="-1:degr">novedoso</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
@@ -61,8 +61,8 @@
 <W lemma="cuando" msd="CSUBX" in="-20:time" out="3:vobj">cuando</W>
 <W lemma="directamente" msd="ADV" in="2:man" out="">directamente</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:vobj" out="-2:man|-1:robj|1:preds|9:pnct|1:preds">mostró</W>
-<W lemma="partidario" msd="NC" in="-1:preds|-1:preds" out="1:pobj&3a;arg">partidario</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:vobj" out="-2:man|-1:robj|9:pnct|1:preds">mostró</W>
+<W lemma="partidario" msd="NC" in="-1:preds" out="1:pobj&3a;arg">partidario</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">fusión</W>
@@ -77,8 +77,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">los</W>
 <W lemma="tiempo" msd="NC" in="-1:nobj" out="">tiempos</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="estar" msd="VLfin" in="-10:coref" out="-3:subj|-1:neg|-6:time|1:preds|11:pnct|1:preds">estaban</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="2:nobj">lo</W>
+<W lemma="estar" msd="VLfin" in="-10:coref" out="-3:subj|-1:neg|-6:time|11:pnct|1:preds">estaban</W>
+<W lemma="el" msd="ART" in="-1:preds" out="2:nobj">lo</W>
 <W lemma="suficientemente" msd="ADV" in="1:degr" out="2:pobj">suficientemente</W>
 <W lemma="maduro" msd="ADJ" in="-2:nobj" out="-1:degr">maduros</W>
 <W lemma="como" msd="ADV" in="-2:pobj" out="1:pobj">como</W>
@@ -135,8 +135,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
 <W lemma="directivo" msd="NC" in="-1:nobj" out="">directivos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|-12:man|1:vobj|5:pnct|6:coref-res">podrían</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="paso" msd="NC" in="-1:nobj" out="1:attr">paso</W>
 <W lemma="adelante" msd="ADV" in="-1:attr" out="">adelante</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>

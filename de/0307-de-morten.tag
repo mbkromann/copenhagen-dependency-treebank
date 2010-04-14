@@ -45,10 +45,10 @@
 <W lemma="während" msd="CS" tag="KOUS" in="-21:time" out="6:vobj">während</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj">die</W>
 <W lemma="Tochter" msd="NC" tag="NN" in="-1:nobj" out="">Tochter</W>
-<W lemma="in" msd="SP" tag="APPR" in="3:preds|3:preds" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:preds" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Ausbildung" msd="NC" tag="NN" in="-1:nobj" out="">Ausbildung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-3:preds|-3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-3:preds">ist</W>
 <W lemma="." msd="XP" tag="$." in="-28:pnct" out="">.</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:conc" out="">Aber</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">nur</W>
@@ -69,10 +69,10 @@
 <W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="">dafür</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-2:neg|-1:pobj|1:pnct">seid</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:time|1:subj|2:epi|3:preds|6:pnct|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:time|1:subj|2:epi|6:pnct|3:preds">ist</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="-2:epi" out="">wohl</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-3:preds|-3:preds" out="1:attr|2:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="1:attr|2:nobj">die</W>
 <W lemma="richtig" msd="AN" tag="ADJA" in="-1:attr" out="">richtigste</W>
 <W lemma="Lösung" msd="NC" tag="NN" in="-2:nobj" out="">Lösung</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
@@ -89,10 +89,10 @@
 <W lemma="vor" msd="SP" tag="APPR" in="-3:prec" out="1:nobj">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Abitur" msd="NC" tag="NN" in="-1:nobj" out="">Abitur</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="3:preds|3:preds" out="1:attr|2:nobj">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="3:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="wichtig" msd="AN" tag="ADJA" in="-1:attr" out="">wichtiges</W>
 <W lemma="Schuljahr" msd="NC" tag="NN" in="-2:nobj" out="">Schuljahr</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-10:vobj" out="-9:subj|-3:preds|-3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-10:vobj" out="-9:subj|-3:preds">ist</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="für" msd="SP" tag="APPR" in="8:goal" out="1:nobj">Für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
@@ -110,18 +110,18 @@
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="insofern" msd="RG" tag="ADV" in="1:eval" out="">insofern</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-2:coord|-1:eval|1:subj|6:preds|6:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-2:coord|-1:eval|1:subj|6:preds">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:nobj">eine</W>
 <W lemma="niedrig" msd="AN" tag="ADJA" in="-1:attr" out="">niedrige</W>
 <W lemma="Abiturnote" msd="NC" tag="NN" in="-2:nobj" out="">Abiturnote</W>
 <W lemma="sehr" msd="RG" tag="ADV" in="1:degr" out="">sehr</W>
 <W lemma="wenig" msd="RG" tag="ADV" in="1:degr" out="-1:degr">wenig</W>
-<W lemma="wert" msd="AN" tag="ADJD" in="-6:preds|-6:preds" out="-1:degr">wert</W>
+<W lemma="wert" msd="AN" tag="ADJD" in="-6:preds" out="-1:degr">wert</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="2:subj" out="1:man">Das</W>
 <W lemma="alleine" msd="RG" tag="ADV" in="-1:man" out="">alleine</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|7:pnct|1:preds">ist</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="1:attr|2:nobj">ein</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|7:pnct|1:preds">ist</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="unglaublich" msd="AN" tag="ADJA" in="-1:attr" out="">unglaublicher</W>
 <W lemma="Druck" msd="NC" tag="NN" in="-2:nobj" out="1:other">Druck</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:other" out="1:nobj">für</W>
@@ -133,9 +133,9 @@
 <p>
 <s>
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">Deshalb</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="-1:reas|1:subj|2:preds|3:pnct|22:pnct|2:preds">fällt</W>
+<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="-1:reas|1:subj|3:pnct|22:pnct|2:preds">fällt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="7:nobj">es</W>
-<W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds|-2:preds" out="">schwer</W>
+<W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds" out="">schwer</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="5:dobj" out="1:nobj">eine</W>
 <W lemma="Lösung" msd="NC" tag="NN" in="-1:nobj" out="2:pobj">Lösung</W>

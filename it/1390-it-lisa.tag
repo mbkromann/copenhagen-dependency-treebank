@@ -67,8 +67,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
 <W lemma="e" msd="CS" tag="CON" in="2:discmark" out="">E</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-18:coref-res|1:subj" out="">questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-2:discmark|1:preds|3:cond|17:pnct|1:preds">è</W>
-<W lemma="possibile" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">possibile</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-2:discmark|3:cond|17:pnct|1:preds">è</W>
+<W lemma="possibile" msd="AN" tag="ADJ" in="-1:preds" out="">possibile</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:focal" out="">solo</W>
 <W lemma="se" msd="CS" tag="CON" in="-3:cond" out="-1:focal|6:vobj">se</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="5:subj" out="2:attr">noi</W>
@@ -88,9 +88,9 @@
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="2:subj" out="1:focal">Io</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stesso</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:vobj|35:pnct">sono</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:preds|2:preds">stato</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:preds">stato</W>
 <W lemma="così" msd="RG" tag="ADV" in="1:degr" out="2:cons">così</W>
-<W lemma="fortunato" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">fortunato</W>
+<W lemma="fortunato" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">fortunato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:cons" out="10:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="grazia" msd="NC" tag="NOM" in="8:bg" out="-1:pnct|1:pobj|7:pnct">grazie</W>
@@ -143,8 +143,8 @@
 <W lemma="," msd="XP" tag="PON" in="-15:pnct" out="">,</W>
 <W lemma="però" msd="RG" tag="ADV" in="2:coord" out="">però</W>
 <W lemma="adesso" msd="RG" tag="ADV" in="1:time" out="">adesso</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-18:conj" out="-1:time|-2:coord|1:preds|5:conj|1:preds">son</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:preds|-1:preds" out="1:nobj">della</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-18:conj" out="-1:time|-2:coord|5:conj|1:preds">son</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:preds" out="1:nobj">della</W>
 <W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="">partita</W>
 <W lemma="ed" msd="CS" tag="CON" in="2:coord" out="">ed</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">io</W>

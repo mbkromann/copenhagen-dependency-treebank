@@ -34,8 +34,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-25:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Hamid</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj|4:[subj]" out="-1:namef">Jafar</W>
-<W lemma="era" msd="NC" tag="NOM" in="" out="-1:subj|1:preds|13:pnct|19:conj|46:pnct|1:preds">era</W>
-<W lemma="ansioso" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">ansioso</W>
+<W lemma="era" msd="NC" tag="NOM" in="" out="-1:subj|13:pnct|19:conj|46:pnct|1:preds">era</W>
+<W lemma="ansioso" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">ansioso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="mostrare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|1:iobj|4:dobj">mostrare</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:iobj" out="1:nobj">agli</W>
@@ -164,8 +164,8 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">a</W>
 <W lemma="Londra" msd="NP" tag="NPR" in="-1:nobj" out="">Londra</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-5:conj" out="-1:coord|1:preds|9:pnct|1:preds">è</W>
-<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="1:attr">figlio</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-5:conj" out="-1:coord|9:pnct|1:preds">è</W>
+<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:attr">figlio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="ex" msd="AN" tag="ADJ" in="1:attr" out="">ex</W>

@@ -74,8 +74,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-8:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds|1:preds">are</W>
-<W msd="SP" tag="IN" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds">are</W>
+<W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">late</W>
 <W msd="AC" tag="CD" in="-2:possd" out="">40s</W>
@@ -120,10 +120,10 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Bodil</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|4:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|3:preds">is</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">49</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="JJ" in="-3:preds|-3:preds" out="-2:mod">old</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod">old</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

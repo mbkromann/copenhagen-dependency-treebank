@@ -8,9 +8,9 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:expl" out="">ci</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj|1:[subj]" out="-1:expl|1:vobj">siano</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:preds|2:preds">stati</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:preds">stati</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:degr" out="">molti</W>
-<W lemma="morte&7c;morto" msd="NC" tag="NOM" in="-2:preds|-2:preds" out="-1:degr">morti</W>
+<W lemma="morte&7c;morto" msd="NC" tag="NOM" in="-2:preds" out="-1:degr">morti</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-11:pnct" out="">"</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="-12:qobj|1:vobj|2:subj|8:pnct">ha</W>
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]">detto</W>
@@ -194,7 +194,7 @@
 <W lemma="problema" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">problemi</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">al</W>
 <W lemma="motore" msd="NC" tag="NOM" in="-1:nobj" out="">motore</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-7:time|-6:subj|1:time|2:preds|3:pnct|2:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-7:time|-6:subj|1:time|3:pnct|2:preds">era</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="-1:time" out="">ancora</W>
-<W lemma="sconoscere" msd="VAP" tag="VER&3a;pper" in="-2:preds|-2:preds" out="">sconosciuto</W>
+<W lemma="sconoscere" msd="VAP" tag="VER&3a;pper" in="-2:preds" out="">sconosciuto</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

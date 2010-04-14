@@ -123,8 +123,8 @@
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-22:CONC/(dog)" out="-1:subj|1:time|2:other|3:vobj|9:pnct|23:+ELAB&3a;exp/ATTR">er</W>
 <W gloss="the_provisional" lemma="foreløbig" msd="ANP---=-R" tag="JJ" in="-1:time" out="">foreløbig</W>
 <W gloss="only" lemma="blot" msd="RGU" tag="RP" in="-2:other" out="">blot</W>
-<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds|1:preds">blevet</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:preds|-1:preds" out="1:nobj">til</W>
+<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds">blevet</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:attr|2:nobj">par</W>
 <W gloss="used" lemma="brugt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">brugte</W>
@@ -205,11 +205,11 @@
 <W gloss="nicely" lemma="pæn" msd="ANP---=-R" tag="JJ" in="-1:man" out="">pænt</W>
 <W gloss="the_world" lemma="verden" msd="NCCSU==I" tag="NN" in="1:nobj" out="">verden</W>
 <W gloss="around" lemma="over" msd="SP" tag="IN" in="-3:loc" out="-1:nobj">over</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|4:preds|4:preds">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|4:preds">med</W>
 <W gloss="Japan" lemma="Japan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Japan</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Australia" lemma="Australien" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Australien</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:preds|-4:preds" out="1:nobj">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:preds" out="1:nobj">som</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="largest" lemma="stor" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">største</W>
 <W gloss="purchasers" lemma="aftager" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="1:pobj">aftagere</W>
@@ -224,9 +224,9 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="42:qobj" out="-1:subj|-2:pnct|1:other|2:preds|4:other|33:goal|41:pnct|2:preds">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="42:qobj" out="-1:subj|-2:pnct|1:other|4:other|33:goal|41:pnct|2:preds">var</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:other" out="">jo</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds|-2:preds" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj">i</W>
 <W gloss="the_US" lemma="USA" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">USA</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:other" out="1:nobj">på</W>
 <W gloss="such" lemma="sådan" msd="ANPCSU=IU" tag="JJ" in="-1:nobj" out="1:nobj|3:pnct|4:ref|6:rel">sådan</W>

@@ -1,7 +1,7 @@
-<W lemma="&lt;unknown&gt;" msd="NC" in="3:preds|3:preds" out="1:pobj">Así</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="3:preds" out="1:pobj">Así</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="preocupante" msd="ADJ" in="-1:nobj" out="">preocupante</W>
-<W lemma="ser" msd="VSfin" in="" out="-3:preds|1:subj|4:pnct|22:pnct|-3:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:subj|4:pnct|22:pnct|-3:preds">es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
 <W lemma="emboscar" msd="VLadj" in="-1:nobj" out="1:attr|3:loc">emboscada</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:attr" out="">bosnia</W>
@@ -62,8 +62,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">ejército</W>
 <W lemma="federal" msd="ADJ" in="-1:attrr#" out="">federal</W>
-<W lemma="ser" msd="VSfin" in="" out="-7:loc|-3:subj|1:preds|35:pnct|1:preds">es</W>
-<W lemma="culpable" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">culpable</W>
+<W lemma="ser" msd="VSfin" in="" out="-7:loc|-3:subj|35:pnct|1:preds">es</W>
+<W lemma="culpable" msd="ADJ" in="-1:preds" out="1:pobj">culpable</W>
 <W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj">haber</W>
 <W lemma="provocar" msd="VLadj" in="-1:vobj" out="1:dobj">provocado</W>
@@ -106,8 +106,8 @@
 <W lemma="federal" msd="ADJ" in="-1:attrr#" out="">federal</W>
 <W lemma="parecer" msd="VLfin" in="" out="-6:discmark|-5:time|-4:loc|1:subj|37:pnct">parece</W>
 <W lemma="que" msd="CQUE" in="-1:subj" out="1:vobj">que</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:vobj" out="1:preds|1:preds">están</W>
-<W lemma="consciente" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">conscientes</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:vobj" out="1:preds">están</W>
+<W lemma="consciente" msd="ADJ" in="-1:preds" out="1:pobj">conscientes</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="11:vobj">que</W>
 <W lemma="el" msd="ART" in="10:subj|11:[subj]" out="1:nobj">los</W>

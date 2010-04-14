@@ -58,12 +58,12 @@
 <W lemma="durante" msd="SP" tag="PRE" in="3:time" out="1:nobj">durante</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="convenzione" msd="NC" tag="NOM" in="-1:nobj|-49:coref-id" out="25:assoc|46:assoc">Convenzione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|-3:time|2:prg|5:preds|12:pnct|5:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|-3:time|2:prg|12:pnct|5:preds">è</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:prg" out="-1:pnct|1:nobj|2:pnct">nel</W>
 <W lemma="concreto" msd="AN" tag="ADJ" in="-1:nobj" out="">concreto</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-5:preds|-5:preds" out="1:pobj">quello</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-5:preds" out="1:pobj">quello</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="mettere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:loc">mettersi</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>

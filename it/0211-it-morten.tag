@@ -167,8 +167,8 @@
 <W lemma="da" msd="SP" tag="PRE" in="3:time" out="2:nobj">da</W>
 <W lemma="molto" msd="AN" tag="ADJ" in="1:degr" out="">molto</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-2:nobj" out="-1:degr">tempo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-18:subj|-3:time|1:preds|6:pnct|1:preds">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-18:subj|-3:time|6:pnct|1:preds">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="priorità" msd="NC" tag="NOM" in="-1:nobj" out="1:ext">priorità</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">i</W>

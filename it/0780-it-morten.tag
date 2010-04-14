@@ -1,7 +1,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="sommo" msd="AN" tag="ADJ" in="-1:nobj" out="">somma</W>
-<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|2:pnct|7:conj|46:pnct|1:preds">sembra</W>
-<W lemma="alto" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">alta</W>
+<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:pnct|7:conj|46:pnct|1:preds">sembra</W>
+<W lemma="alto" msd="AN" tag="ADJ" in="-1:preds" out="">alta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="4:coord" out="">ma</W>
 <W lemma="in" msd="SP" tag="PRE" in="3:prg" out="1:nobj">in</W>
@@ -148,8 +148,8 @@
 <W lemma="se" msd="CS" tag="CON" in="-2:dobj" out="3:vobj">se</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">la</W>
 <W lemma="sede" msd="NC" tag="NOM" in="-1:nobj" out="">sede</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-3:vobj" out="-2:subj|1:preds|1:preds">sarà</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="2:conj">Valby</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-3:vobj" out="-2:subj|1:preds">sarà</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:preds" out="2:conj">Valby</W>
 <W lemma="oppure" msd="CS" tag="CON" in="1:coord" out="">oppure</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:conj" out="-1:coord|1:ref|5:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|4:subj" out="">che</W>

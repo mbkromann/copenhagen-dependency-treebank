@@ -40,7 +40,7 @@
 <W lemma="convincere" msd="VAP" tag="VER&3a;pper" in="-1:fpreds" out="">convinto</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:¹pnct" out="">"</W>
-<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-9:²coref-res|-9:CONS&3a;prg/(perciò)/ATTR1|9:²dobj¹" out="1:time¹|2:pnct¹|4:CAUSE&3a;reas/(perché)/ATTR1|9:²dobj¹|-1:¹pnct">Dimentichiamolo</W>
+<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-9:²coref-res|-9:CONS&3a;prg/(perciò)/ATTR1" out="-1:¹pnct|1:time¹|2:pnct¹|4:CAUSE&3a;reas/(perché)/ATTR1">Dimentichiamolo</W>
 <W lemma="adesso" msd="RG" tag="ADV" in="-1:time¹" out="">adesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct¹" out="">.</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">C'</W>
@@ -70,7 +70,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="2:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|2:preds|6:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|6:pnct|2:preds">è</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">cosa</W>
@@ -78,7 +78,7 @@
 <W lemma="importante" msd="AN" tag="ADJ" in="-2:attrr" out="-1:degr">importante</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="volere" msd="VA" tag="VER&3a;cond" in="-32:+ELAB&3a;exp/(cioè)/ATTR1|7:QUEST&3a;probl/ATTR2" out="-18:CONC|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|10:+CONJ/(e)/ATTR2">Vorresti</W>
-<W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|9:²dobj¹" out="9:²dobj¹">sposarmi</W>
+<W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj" out="">sposarmi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="trino" msd="AN" tag="ADJ" in="-3:voc" out="8:coref">Trine</W>
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>

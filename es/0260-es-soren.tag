@@ -32,8 +32,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">ocupaciÃ³n</W>
 <W lemma="suplementario" msd="ADJ" in="-1:attrr&3a;dobj#" out="">suplementaria</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|1:vobj|4:cause|6:vobj|10:pnct">podrÃ­a</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="el" msd="ART" in="-1:preds|-1:preds" out="1:nobj">la</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="el" msd="ART" in="-1:preds" out="1:nobj">la</W>
 <W lemma="felicidad" msd="NC" in="-1:nobj" out="">felicidad</W>
 <W lemma="si" msd="CSUBX" in="-4:cause" out="">si</W>
 <W lemma="se" msd="SE" in="1:subj" out="">se</W>
@@ -53,8 +53,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:dobj" out="-1:numm">aÃ±os</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="haber" msd="VLfin" in="-4:vobj" out="1:vobj|6:coord">he</W>
-<W lemma="estado" msd="NC" in="-1:vobj" out="1:preds|1:preds">estado</W>
-<W lemma="desempleado" msd="NC" in="-1:preds|-1:preds" out="1:time">desempleado</W>
+<W lemma="estado" msd="NC" in="-1:vobj" out="1:preds">estado</W>
+<W lemma="desempleado" msd="NC" in="-1:preds" out="1:time">desempleado</W>
 <W lemma="durante" msd="PREP" in="-1:time" out="2:nobj">durante</W>
 <W lemma="2" msd="CARD" in="1:numm" out="">2</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:nobj" out="-1:numm">aÃ±os</W>
@@ -65,8 +65,8 @@
 <W lemma="oficinista" msd="NC" in="-1:nobj" out="">oficinista</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
 <W lemma="cuando" msd="CSUBX" in="3:time" out="">Cuando</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="2:vobj" out="1:preds|1:preds">quedÃ©</W>
-<W lemma="desempleado" msd="NC" in="-1:preds|-1:preds" out="">desempleado</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="2:vobj" out="1:preds">quedÃ©</W>
+<W lemma="desempleado" msd="NC" in="-1:preds" out="">desempleado</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="-3:time|-2:vobj|1:vp#|5:coord|7:vobj|16:pnct">comencÃ©</W>
 <W lemma="a" msd="PREP" in="-1:vp#" out="1:vobj">a</W>
 <W lemma="hacer" msd="VLinf" in="-1:vobj" out="2:dobj">hacer</W>
@@ -138,16 +138,16 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:title" out="">A/S</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:appa" out="-1:title">Bladkompagniet</W>
 <W lemma="y" msd="CC" in="-9:coord" out="">y</W>
-<W lemma="estar" msd="VLfin" in="" out="2:preds|3:cause|12:pnct|2:preds">estaba</W>
+<W lemma="estar" msd="VLfin" in="" out="3:cause|12:pnct|2:preds">estaba</W>
 <W lemma="realmente" msd="ADV" in="1:prg" out="">realmente</W>
-<W lemma="contento" msd="ADJ" in="-2:preds|-2:preds" out="-1:prg">contento</W>
+<W lemma="contento" msd="ADJ" in="-2:preds" out="-1:prg">contento</W>
 <W lemma="ya~que" msd="CSUBF" in="-3:cause" out="">ya que</W>
 <W lemma="todo" msd="QU" in="3:time" out="1:nobj">toda</W>
 <W lemma="mío" msd="PPO" in="-1:nobj" out="1:possd">mi</W>
 <W lemma="vida" msd="NC" in="-1:possd" out="">vida</W>
 <W lemma="haber" msd="VLfin" in="" out="-3:time|1:vobj">he</W>
-<W lemma="estado" msd="NC" in="-1:vobj" out="1:preds|1:preds">estado</W>
-<W lemma="acostumbrar" msd="VLadj" in="-1:preds|-1:preds" out="1:objmarkør">acostumbrado</W>
+<W lemma="estado" msd="NC" in="-1:vobj" out="1:preds">estado</W>
+<W lemma="acostumbrar" msd="VLadj" in="-1:preds" out="1:objmarkør">acostumbrado</W>
 <W lemma="a" msd="PREP" in="-1:objmarkør" out="1:nobj">a</W>
 <W lemma="trabajar" msd="VLinf" in="-1:nobj" out="">trabajar</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
@@ -175,8 +175,8 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="-10:coord" out="">y</W>
 <W lemma="yo" msd="PPX" in="1:subj" out="">yo</W>
-<W lemma="estar" msd="VLfin" in="-12:vobj" out="-1:subj|1:preds|2:pobj|3:vobj|11:pnct|1:preds">estaba</W>
-<W lemma="ansioso" msd="ADJ" in="-1:preds|-1:preds" out="">ansioso</W>
+<W lemma="estar" msd="VLfin" in="-12:vobj" out="-1:subj|2:pobj|3:vobj|11:pnct|1:preds">estaba</W>
+<W lemma="ansioso" msd="ADJ" in="-1:preds" out="">ansioso</W>
 <W lemma="por" msd="PREP" in="-2:pobj" out="">por</W>
 <W lemma="ver" msd="VLinf" in="-3:vobj" out="1:ext">ver</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:ext" out="">cuÃ¡nto</W>

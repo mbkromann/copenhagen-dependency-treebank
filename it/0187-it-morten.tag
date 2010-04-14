@@ -150,8 +150,8 @@
 <W lemma="Unix" msd="NP" tag="NPR" in="-18:coref-id|3:subj" out="">Unix</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="2:add" out="">inoltre</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|-1:neg|-2:add|1:preds|6:pnct|10:pnct|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj|7:conj">un</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|-1:neg|-2:add|6:pnct|10:pnct|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj|7:conj">un</W>
 <W lemma="sostituto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">sostituto</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="2:nobj">di</W>
 <W lemma="precedente" msd="AN" tag="ADJ" in="1:attr" out="">precedenti</W>

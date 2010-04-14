@@ -127,9 +127,9 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">vi</W>
 <W gloss="perhaps" lemma="måske" msd="RGU" tag="RP" in="-2:epi" out="">måske</W>
 <W gloss="afterwards" lemma="bagefter" msd="RGU" tag="RP" in="-3:time" out="">bagefter</W>
-<W gloss="speech" lemma="tale" morph="tale" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:dobj|2:preds|3:pobj|2:preds">tale</W>
+<W gloss="speech" lemma="tale" morph="tale" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:dobj|3:pobj|2:preds">tale</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
-<W gloss="til_rette" lemma="til_rette" msd="RGU" tag="RP" in="-2:preds|-2:preds" out="">til_rette</W>
+<W gloss="til_rette" lemma="til_rette" msd="RGU" tag="RP" in="-2:preds" out="">til_rette</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="2:nobj">om</W>
 <W gloss="extraordinary" lemma="ekstraordinær" morph="ordinær -ekstra/GRAD&3a;qual" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ekstraordinær</W>
 <W gloss="payment" lemma="betaling" morph="betale +ing/PRED&3a;core tale -be/TRANS" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|4:ELAB&3a;rest/ATTR1">betaling</W>
@@ -248,8 +248,8 @@
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="19:subj" out="-1:namef|-2:attr|1:pnct|2:ref|3:rel">Nielsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:preds|1:preds">er</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:preds|-1:preds" out="1:nobj">af</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:preds">er</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:preds" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">de</W>
 <W gloss="most" lemma="meget" morph="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
 <W gloss="energetic" lemma="energisk" morph="energi +sk/DENOM&3a;disp" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">energiske</W>
@@ -264,9 +264,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="in_force" lemma="gælde" morph="gælde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">gældende</W>
 <W gloss="riders" lemma="tillægskontrakt" morph="kontrakt -[tillæg]s/type lægge til tillæg/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="">tillægskontrakter</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-113:+CONJ/(og)/ATTR3" out="-19:subj|-26:+PREPAR|2:preds|7:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-113:+CONJ/(og)/ATTR3" out="-19:subj|-26:+PREPAR|7:pnct|2:preds">er</W>
 <W gloss="quite" lemma="hel" morph="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:preds|-2:preds" out="-1:degr|1:nobj">på</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:preds" out="-1:degr|1:nobj">på</W>
 <W gloss="approach" lemma="linie" morph="linie" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">linie</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>

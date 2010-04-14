@@ -49,8 +49,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|-2:coord|1:preds|2:pnct|1:preds">er</W>
-<W gloss="clear" lemma="tydelig" msd="ANPNSU=IU" tag="JJ" in="-1:preds|-1:preds" out="">tydeligt</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|-2:coord|2:pnct|1:preds">er</W>
+<W gloss="clear" lemma="tydelig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">tydeligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="2:vobj">at</W>
 <W gloss="the_positions" lemma="stilling" msd="NCCPU==D" tag="NNP" in="1:subj" out="">stillingerne</W>
@@ -114,13 +114,13 @@
 <W gloss="number" lemma="række" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:attr|2:nobj">række</W>
 <W gloss="traditional" lemma="traditionel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">traditionelle</W>
 <W gloss="theories" lemma="antagelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">antagelser</W>
-<W gloss="are" lemma="blive" msd="VADR=----A-" tag="VBD" in="-23:+CONJ/(og)" out="-4:subj|1:preds|2:pnct|4:&3a;ELAB&3a;exem/fx|1:preds">bliver</W>
-<W gloss="confirmed" lemma="bekræfte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds|-1:preds" out="">bekræftet</W>
+<W gloss="are" lemma="blive" msd="VADR=----A-" tag="VBD" in="-23:+CONJ/(og)" out="-4:subj|2:pnct|4:&3a;ELAB&3a;exem/fx|1:preds">bliver</W>
+<W gloss="confirmed" lemma="bekræfte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">bekræftet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:&3a;ELAB&3a;exem/fx" out="-1:subj|1:ex|2:preds|3:pnct|17:pnct|22:ELAB&3a;part/bl.a|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:&3a;ELAB&3a;exem/fx" out="-1:subj|1:ex|3:pnct|17:pnct|22:ELAB&3a;part/bl.a|2:preds">er</W>
 <W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="-1:ex" out="">f.eks.</W>
-<W gloss="clear" lemma="tydelig" msd="ANPNSU=IU" tag="JJ" in="-2:preds|-2:preds" out="">tydeligt</W>
+<W gloss="clear" lemma="tydelig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">tydeligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-5:nobj|5:[mod]" out="5:rel">hvordan</W>
 <W gloss="the_bladder" lemma="urinblære" msd="NCCSU==D" tag="NN" in="4:subj" out="">urinblæren</W>
@@ -173,7 +173,7 @@
 </s>
 <s>
 <W gloss="so" lemma="således" msd="RGU" tag="RP" in="1:other" out="">Således</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:CONS&3a;dir/således" out="-1:other|1:subj|8:preds|9:time|11:pnct|15:CONJ/desuden|8:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:CONS&3a;dir/således" out="-1:other|1:subj|9:time|11:pnct|15:CONJ/desuden|8:preds">er</W>
 <W gloss="the_vagina's" lemma="vagina" msd="NCCSG==I" tag="NN" in="-1:subj" out="1:possd|2:pnct|3:other">vaginas</W>
 <W gloss="walls" lemma="væg" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">vægge</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
@@ -181,7 +181,7 @@
 <W gloss="forvæggen" lemma="forvæg" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">forvæggen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="passive" lemma="passiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-8:preds|-8:preds" out="-1:degr">passive</W>
+<W gloss="passive" lemma="passiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-8:preds" out="-1:degr">passive</W>
 <W gloss="during" lemma="under" msd="SP" tag="IN" in="-9:time" out="1:nobj">under</W>
 <W gloss="intercourse" lemma="samleje" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">samlejet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>

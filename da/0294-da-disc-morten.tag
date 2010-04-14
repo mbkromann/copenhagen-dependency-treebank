@@ -104,8 +104,8 @@
 <s>
 <W gloss="the_jurors" lemma="nævning" msd="NCCPG==D" tag="NNP" in="2:subj|5:[subj]" out="1:possd|38:ELAB&3a;part">Nævningernes</W>
 <W gloss="mines" lemma="mine" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">miner</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-26:+DESCR&3a;qual" out="-2:subj|1:preds|30:pnct|1:preds">var</W>
-<W gloss="sombre" lemma="dyster" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="2:conj">dystre</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-26:+DESCR&3a;qual" out="-2:subj|30:pnct|1:preds">var</W>
+<W gloss="sombre" lemma="dyster" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="2:conj">dystre</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="characterised" lemma="præge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-5:[subj]|-1:coord|1:pobj">præget</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -186,7 +186,7 @@
 <p>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="find" lemma="finde" msd="VADR=----A-" tag="VBD" in="7:qobj" out="-1:subj|1:dobj|5:pnct|6:pnct|11:preds|34:pnct|11:preds">finder</W>
+<W gloss="find" lemma="finde" msd="VADR=----A-" tag="VBD" in="7:qobj" out="-1:subj|1:dobj|5:pnct|6:pnct|34:pnct|11:preds">finder</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:other|3:appr">den</W>
 <W gloss="accused" lemma="anklage" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:other" out="">anklagede</W>
 <W gloss="Brian" lemma="Brian" msd="NP--U==-" tag="NNP" in="1:namef" out="">Brian</W>
@@ -197,7 +197,7 @@
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="solemnly" lemma="højtidelig" msd="ANP---=-R" tag="JJ" in="-2:man" out="">højtideligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="NOT_guilty" lemma="ikke-skyldig" msd="ANPCSU=IU" tag="JJ" in="-11:preds|-11:preds" out="1:pobj|4:pnct|5:conj|10:pnct|11:conj|16:pnct|17:conj">IKKE-skyldig</W>
+<W gloss="NOT_guilty" lemma="ikke-skyldig" msd="ANPCSU=IU" tag="JJ" in="-11:preds" out="1:pobj|4:pnct|5:conj|10:pnct|11:conj|16:pnct|17:conj">IKKE-skyldig</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="count" lemma="anklagepunkt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">anklagepunkt</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="">et</W>

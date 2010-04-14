@@ -33,8 +33,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">la</W>
 <W lemma="tendenza" msd="NC" tag="NOM" in="-1:nobj" out="">tendenza</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:vobj">è</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:preds|4:nobj|1:preds">essere</W>
-<W lemma="tonico" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="2:conj">tonici</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="4:nobj|1:preds">essere</W>
+<W lemma="tonico" msd="AN" tag="ADJ" in="-1:preds" out="2:conj">tonici</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="sportivo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">sportivi</W>
 <W lemma="senza" msd="SP" tag="PRE" in="-4:nobj" out="1:nobj">senza</W>

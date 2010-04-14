@@ -78,8 +78,8 @@
 <W lemma="de" msd="PREP" in="-2:pobj&3a;about" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">negociación</W>
 <W lemma="que" msd="CQUE" in="-6:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-7:relr" out="-1:subj|1:preds|7:pnct|1:preds">es</W>
-<W lemma="compartir" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">compartido</W>
+<W lemma="ser" msd="VSfin" in="-7:relr" out="-1:subj|7:pnct|1:preds">es</W>
+<W lemma="compartir" msd="VLadj" in="-1:preds" out="1:pobj">compartido</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="partido" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">partidos</W>
@@ -191,9 +191,9 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">referéndum</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="">danés</W>
-<W lemma="ser" msd="VSfin" in="" out="-3:subj|2:preds|9:conj|18:pnct|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-3:subj|9:conj|18:pnct|2:preds">es</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:man" out="">jurídicamente</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds|-2:preds" out="-1:man">vinculante</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds" out="-1:man">vinculante</W>
 <W lemma="y" msd="CC" in="6:coord" out="">y</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="en~consecuencia" msd="ADV" in="4:cause" out="-1:pnct|1:pnct">en consecuencia</W>

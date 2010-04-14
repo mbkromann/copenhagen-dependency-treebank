@@ -49,10 +49,10 @@
 <W gloss="soldiers" lemma="soldat" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">soldater</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-2:subj|-3:loc|1:vobj|6:pnct">var</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">blevet</W>
-<W gloss="stoned" lemma="stene" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|2:conj|3:preds|3:preds">stenet</W>
+<W gloss="stoned" lemma="stene" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|2:conj|3:preds">stenet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="beaten" lemma="tæve" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-6:[subj]|-1:coord|1:[preds]">tævet</W>
-<W gloss="to_death" lemma="ihjel" msd="RGU" tag="RP" in="-3:preds|-1:[preds]|-3:preds" out="">ihjel</W>
+<W gloss="to_death" lemma="ihjel" msd="RGU" tag="RP" in="-1:[preds]|-3:preds" out="">ihjel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-13:loc|1:subj|4:vobj|11:pnct|16:CONJ/(og)">var</W>
 <W gloss="60" lemma="60" msd="AC---U=--" tag="CD" in="-1:subj|3:[subj]|4:[subj]" out="1:attr|2:nobj">60</W>
@@ -208,8 +208,8 @@
 <W gloss="seemed" lemma="synes" msd="VEDA=----A-" tag="VBD" in="26:qobj" out="-2:loc|1:expl|2:dobj|5:pnct|6:conc">syntes</W>
 <W gloss="it" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|1:preds">være</W>
-<W gloss="quieter" lemma="rolig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds|-1:preds" out="">roligere</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">være</W>
+<W gloss="quieter" lemma="rolig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">roligere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-6:conc" out="7:vobj">selv_om</W>
 <W gloss="soldiers" lemma="soldat" msd="NCCPU==I" tag="NNP" in="6:subj" out="1:loc">soldater</W>

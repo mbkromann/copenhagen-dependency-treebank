@@ -72,8 +72,8 @@
 <W lemma="punto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">punto</W>
 <W lemma="cominciare" msd="VADA" tag="VER&3a;remo" in="-9:conj" out="-5:coord|-4:time|1:pobj">cominciò</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">ad</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:preds|1:preds">essere</W>
-<W lemma="difficile" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:vobj">difficile</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:preds">essere</W>
+<W lemma="difficile" msd="AN" tag="ADJ" in="-1:preds" out="1:vobj">difficile</W>
 <W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:nobj">fare</W>
 <W lemma="cambio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">cambio</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">tra</W>
@@ -155,9 +155,9 @@
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro-</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-14:subj|-1:robj|2:preds|18:pnct|2:preds">sente</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-14:subj|-1:robj|18:pnct|2:preds">sente</W>
 <W lemma="meno" msd="RG" tag="ADV" in="1:degr" out="">meno</W>
-<W lemma="colpevole" msd="NC" tag="NOM" in="-2:preds|-2:preds" out="-1:degr|1:concom">colpevole</W>
+<W lemma="colpevole" msd="NC" tag="NOM" in="-2:preds" out="-1:degr|1:concom">colpevole</W>
 <W lemma="andare" msd="VAG" tag="VER&3a;geru" in="-1:concom" out="1:pobj|3:pobj">andando</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="letto" msd="NC" tag="NOM" in="-1:nobj" out="">letto</W>

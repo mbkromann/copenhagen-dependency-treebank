@@ -19,9 +19,9 @@
 <W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">ABBA</W>
 <W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|6:pnct|7:coord|16:pnct">ha</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="-4:[subj]|2:preds|2:preds">sido</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="-4:[subj]|2:preds">sido</W>
 <W lemma="masivo" msd="ADV" in="1:degr" out="">masivamente</W>
-<W lemma="anunciar" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr|1:loc">anunciado</W>
+<W lemma="anunciar" msd="VLadj" in="-2:preds" out="-1:degr|1:loc">anunciado</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">televisión</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
@@ -110,9 +110,9 @@
 <W lemma="." msd="FS" in="-8:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="2:discmark" out="">Pero</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="">Fryland</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:discmark|-1:subj|1:other|2:preds|37:pnct|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:discmark|-1:subj|1:other|37:pnct|2:preds">es</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:other" out="">también</W>
-<W lemma="director" msd="NC" in="-2:preds|-2:preds" out="1:pobj&3a;arg">director</W>
+<W lemma="director" msd="NC" in="-2:preds" out="1:pobj&3a;arg">director</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="2:appa">Polygram</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="1:pnct" out="">–</W>
@@ -163,8 +163,8 @@
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="2:discmark" out="">Pero</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:other" out="">también</W>
-<W lemma="ser" msd="VSfin" in="12:qobj" out="-2:discmark|-1:other|1:preds|1:preds">es</W>
-<W lemma="mo" msd="PPO" in="-1:preds|-1:preds" out="1:possd">mi</W>
+<W lemma="ser" msd="VSfin" in="12:qobj" out="-2:discmark|-1:other|1:preds">es</W>
+<W lemma="mo" msd="PPO" in="-1:preds" out="1:possd">mi</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="2:attr|3:subj">opinión</W>
 <W lemma="totalmente" msd="ADV" in="1:degr" out="">totalmente</W>
 <W lemma="personal" msd="ADJ" in="-2:attr" out="-1:degr">personal</W>
@@ -173,8 +173,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">publicidades</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">televisión</W>
-<W lemma="ser" msd="VSfin" in="-5:vobj" out="-4:subj|1:preds|1:preds">son</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="">perjudiciales,”</W>
+<W lemma="ser" msd="VSfin" in="-5:vobj" out="-4:subj|1:preds">son</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">perjudiciales,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-12:qobj|1:subj|2:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:subj" out="">él</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>

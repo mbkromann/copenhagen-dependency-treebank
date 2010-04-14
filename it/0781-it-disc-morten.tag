@@ -1,8 +1,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|3:preds|17:pnct|21:CONTR&3a;prg/ma/ATTR|50:+DESCR&3a;eval|3:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|17:pnct|21:CONTR&3a;prg/ma/ATTR|50:+DESCR&3a;eval|3:preds">È</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:degr" out="1:nobj">del</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="-1:nobj" out="">tutto</W>
-<W lemma="evidente" msd="AN" tag="ADJ" in="-3:preds|-3:preds" out="-2:degr|1:appr">evidente</W>
+<W lemma="evidente" msd="AN" tag="ADJ" in="-3:preds" out="-2:degr|1:appr">evidente</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="2:vobj">che</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:expl|1:[expl]" out="">ci</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-2:vobj" out="-1:expl|-1:[expl]|1:dobj">sarà</W>
@@ -60,9 +60,9 @@
 <W lemma="investimento" msd="NC" tag="NOM" in="-1:nobj" out="">investimento</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="egli" msd="PP" tag="PRO&3a;pers" in="-18:coref-var|1:subj" out="">Egli</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl/(infatti)" out="-1:subj|2:preds|33:pnct|36:+CONJ/(e)/ATTR|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl/(infatti)" out="-1:subj|33:pnct|36:+CONJ/(e)/ATTR|2:preds">è</W>
 <W lemma="ben" msd="RG" tag="ADV" in="1:degr" out="">ben</W>
-<W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr|1:dobj">consapevole</W>
+<W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:dobj">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:dobj" out="11:vobj">che</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="1:attr" out="">qualsiasi</W>
 <W lemma="mossa" msd="NC" tag="NOM" in="9:subj|10:[subj]" out="-1:attr|1:pobj&3a;subj|7:attr">mossa</W>

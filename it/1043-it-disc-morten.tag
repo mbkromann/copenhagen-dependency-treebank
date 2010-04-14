@@ -101,8 +101,8 @@
 <W lemma="ideologico" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">ideologico</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="morale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">morale</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR" out="-7:subj|1:preds|3:conj|9:+ELAB&3a;exp/ATTR|1:preds">sono</W>
-<W lemma="evidente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">evidenti</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR" out="-7:subj|3:conj|9:+ELAB&3a;exp/ATTR|1:preds">sono</W>
+<W lemma="evidente" msd="AN" tag="ADJ" in="-1:preds" out="">evidenti</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-1:coord|1:vobj|5:pnct">possono</W>
 <W lemma="spiegare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-11:[subj]|1:man|2:man">spiegarsi</W>
@@ -141,8 +141,8 @@
 <W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-9:CONS&3a;prg/ATTR" out="1:dobj|7:pnct|24:CONSOL&3a;just/ATTR">Riteniamo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj|2:coref" out="">questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:preds|1:preds">sia</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="-2:coref|1:nobj">il</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:preds">sia</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="-2:coref|1:nobj">il</W>
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">momento</W>
 <W lemma="adatto" msd="AN" tag="ADJ" in="-1:attr" out="">adatto</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>

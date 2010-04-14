@@ -98,17 +98,17 @@
 <p>
 <s>
 <W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:mod" out="">Alligevel</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-49:+CONTR&3a;prg/alligevel" out="-1:mod|1:subj|6:mod|7:preds|20:pnct|28:CAUSE&3a;reas/for|7:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-49:+CONTR&3a;prg/alligevel" out="-1:mod|1:subj|6:mod|20:pnct|28:CAUSE&3a;reas/for|7:preds">er</W>
 <W gloss="the_debate" lemma="debat" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:pobj">debatten</W>
 <W gloss="on" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="Denmark's" lemma="Danmark" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:mod|2:possd">Danmarks</W>
 <W gloss="economic" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">økonomiske</W>
 <W gloss="policy" lemma="politik" msd="NCCSU==I" tag="NN" in="-2:possd" out="">politik</W>
 <W gloss="once_again" lemma="på_ny" msd="RGU" tag="RP" in="-6:mod" out="">på_ny</W>
-<W gloss="by" lemma="ved" msd="SP" tag="IN" in="-7:preds|-7:preds" out="1:nobj">ved</W>
+<W gloss="by" lemma="ved" msd="SP" tag="IN" in="-7:preds" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|1:preds">blive</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds|-1:preds" out="1:nobj">et</W>
+<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">blive</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
 <W gloss="question" lemma="spørgsmål" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">spørgsmål</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="ideology" lemma="ideologi" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">ideologi</W>
@@ -146,8 +146,8 @@
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|6:[subj]|8:[subj]" out="1:mod|2:nobj">De</W>
 <W gloss="ideological_/_moral" lemma="ideologisk/moralske" msd="XX" tag="FW" in="-1:mod" out="">ideologisk/moralske</W>
 <W gloss="differences" lemma="forskel" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">forskelle</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR" out="-3:subj|1:preds|3:conj|12:+ELAB&3a;exp/ATTR|1:preds">er</W>
-<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="">tydelige</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR" out="-3:subj|3:conj|12:+ELAB&3a;exp/ATTR|1:preds">er</W>
+<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">tydelige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-6:[subj]|-1:coord|1:mod|2:vobj">kan</W>
 <W gloss="square" lemma="firkantet" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">firkantet</W>
@@ -163,8 +163,8 @@
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="-1:subj|1:mod|2:vobj|11:pnct|15:CAUSE&3a;expl/(nemlig)/ATTR">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds|2:dobj|1:preds">være</W>
-<W gloss="we_know" lemma="bekendt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds|-1:preds" out="">bekendt</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj|1:preds">være</W>
+<W gloss="we_know" lemma="bekendt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">bekendt</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="let" lemma="lade" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:mod|4:vobj">lade</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj|3:[subj]" out="1:mod">de</W>

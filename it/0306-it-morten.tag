@@ -144,8 +144,8 @@
 <W compound="¹desiderando²ne" lemma="desiderare" msd="VAG" tag="VER&3a;geru" in="-7:²coref|1:²nobj|8:¹[subj]|8:¹reas" out="-2:pnct|-1:neg|1:dobj|3:conj|7:pnct">desiderandone</W>
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="-1:dobj" out="-1:²nobj">altri</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
-<W lemma="essere" msd="VAG" tag="VER&3a;geru" in="-3:conj|5:[subj]" out="-1:coord|1:preds|1:preds">essendo</W>
-<W lemma="contrario" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">contraria</W>
+<W lemma="essere" msd="VAG" tag="VER&3a;geru" in="-3:conj|5:[subj]" out="-1:coord|1:preds">essendo</W>
+<W lemma="contrario" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">contraria</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">all'</W>
 <W lemma="aborto" msd="NC" tag="NOM" in="-1:nobj" out="">aborto</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>

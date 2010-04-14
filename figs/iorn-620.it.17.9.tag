@@ -70,7 +70,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="2:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|2:preds|6:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-3:coord|-2:subj|-1:neg|1:time|6:pnct|2:preds">è</W>
 <W lemma="sempre" msd="RG" tag="ADV" in="-1:time" out="">sempre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="2:attrr">cosa</W>

@@ -146,8 +146,8 @@
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|6:[subj]|8:[subj]" out="1:mod|2:nobj">De</W>
 <W gloss="ideological_/_moral" lemma="ideologisk/moralske" msd="XX" tag="FW" in="-1:mod" out="">ideologisk/moralske</W>
 <W gloss="differences" lemma="forskel" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">forskelle</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR&3a;qual&7c;DESCR&3a;eval" out="-3:subj|1:preds|3:conj|12:+ELAB&3a;exp/ATTR|1:preds">er</W>
-<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds|-1:preds" out="">tydelige</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:DESCR&3a;qual&7c;DESCR&3a;eval" out="-3:subj|3:conj|12:+ELAB&3a;exp/ATTR|1:preds">er</W>
+<W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">tydelige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-6:[subj]|-1:coord|1:mod|2:vobj">kan</W>
 <W gloss="square" lemma="firkantet" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">firkantet</W>

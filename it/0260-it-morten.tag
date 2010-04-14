@@ -14,8 +14,8 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="3:subj" out="1:nobj">un</W>
 <W lemma="disoccupato" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupato</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-1:robj|1:preds|2:cause|5:pnct|1:preds">sente</W>
-<W lemma="ridicolo" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">ridicolo</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-1:robj|2:cause|5:pnct|1:preds">sente</W>
+<W lemma="ridicolo" msd="AN" tag="ADJ" in="-1:preds" out="">ridicolo</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-2:cause" out="1:vobj">perché</W>
 <W lemma="desiderare" msd="VADR" tag="VER&3a;pres" in="-1:vobj|1:[subj]" out="1:vobj">desidera</W>
 <W lemma="lavorare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]">lavorare</W>
@@ -49,8 +49,8 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">42</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-4:conj" out="1:preds|1:preds">sono</W>
-<W lemma="disoccupare" msd="VAP" tag="VER&3a;pper" in="-1:preds|-1:preds" out="1:time">disoccupata</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-4:conj" out="1:preds">sono</W>
+<W lemma="disoccupare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:time">disoccupata</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:time" out="1:nobj">da</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="">due</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -193,6 +193,6 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">il</W>
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="">risultato</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:discmark|-2:subj|1:vobj|3:pnct">è</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:preds|1:preds">stato</W>
-<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:preds|-1:preds" out="">questo</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:preds">stato</W>
+<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:preds" out="">questo</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>

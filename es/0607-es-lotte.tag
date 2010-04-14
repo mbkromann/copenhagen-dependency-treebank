@@ -24,8 +24,8 @@
 <W lemma="el" msd="ART" in="-5:coref-id|3:subj" out="1:nobj|51:coref-id">las</W>
 <W lemma="heces" msd="NC" in="-1:nobj" out="">heces</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="volver" msd="VLfin" in="-4:vobj" out="-3:subj|-1:robj|-5:discmark|1:preds|3:pnct|1:preds">vuelven</W>
-<W lemma="color" msd="NC" in="-1:preds|-1:preds" out="1:attr">color</W>
+<W lemma="volver" msd="VLfin" in="-4:vobj" out="-3:subj|-1:robj|-5:discmark|3:pnct|1:preds">vuelven</W>
+<W lemma="color" msd="NC" in="-1:preds" out="1:attr">color</W>
 <W lemma="negro" msd="ADJ" in="-1:attr" out="">negro</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:vobj">...si</W>
@@ -37,8 +37,8 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-6:conc" out="2:vobj">aún</W>
 <W lemma="cuando" msd="CSUBX" in="1:time" out="3:pnct">cuando</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj|-6:coref" out="-1:time|1:preds|1:preds">sean</W>
-<W lemma="leve" msd="ADJ" in="-1:preds|-1:preds" out="">leves</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj|-6:coref" out="-1:time|1:preds">sean</W>
+<W lemma="leve" msd="ADJ" in="-1:preds" out="">leves</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="durante" msd="PREP" in="-11:time" out="4:nobj|7:pnct">durante</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">más</W>
@@ -84,8 +84,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="2:nobj">lo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
 <W lemma="importante" msd="ADJ" in="-2:nobj" out="-1:degr">importante</W>
-<W lemma="ser" msd="VSfin" in="" out="-3:subj|-5:struct|1:preds|15:pnct|1:preds">es</W>
-<W lemma="realizar" msd="VLinf" in="-1:preds|-1:preds" out="1:dobj|15:coref-res">realizar</W>
+<W lemma="ser" msd="VSfin" in="" out="-3:subj|-5:struct|15:pnct|1:preds">es</W>
+<W lemma="realizar" msd="VLinf" in="-1:preds" out="1:dobj|15:coref-res">realizar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="cambio" msd="NC" in="-1:nobj" out="1:pobj">cambio</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
@@ -125,9 +125,9 @@
 <W lemma="el" msd="ART" in="-11:dobj" out="1:nobj|2:ref|3:relr">los</W>
 <W lemma="alimento" msd="NC" in="-1:nobj" out="">alimentos</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|2:preds|5:pnct|2:preds">son</W>
+<W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|5:pnct|2:preds">son</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">más</W>
-<W lemma="rico" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr|1:other">ricos</W>
+<W lemma="rico" msd="ADJ" in="-2:preds" out="-1:degr|1:other">ricos</W>
 <W lemma="en" msd="PREP" in="-1:other" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>

@@ -1,8 +1,8 @@
 <W lemma="querido" msd="NC" in="" out="">Queridos</W>
 <W lemma="profundo" msd="ADV" in="" out="">profundamente</W>
 <W lemma="confundir" msd="VLadj" in="" out="">confundidos</W>
-<W lemma="ser" msd="VSfin" in="" out="1:preds|2:nobj|1:preds">Es</W>
-<W lemma="cierto" msd="ADJ" in="-1:preds|-1:preds" out="12:pnct">cierto</W>
+<W lemma="ser" msd="VSfin" in="" out="2:nobj|1:preds">Es</W>
+<W lemma="cierto" msd="ADJ" in="-1:preds" out="12:pnct">cierto</W>
 <W lemma="que" msd="CQUE" in="-2:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="9:subj" out="1:nobj|5:conj">el</W>
 <W lemma="subsidio" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">subsidio</W>
@@ -53,19 +53,19 @@
 <W lemma="real" msd="ADJ" in="-1:attr" out="">real</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="aunque" msd="CSUBX" in="1:conc" out="">Aunque</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:conc|1:preds|3:pnct|10:pnct|1:preds">estÃ©is</W>
-<W lemma="en" msd="PREP" in="-1:preds|-1:preds" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:conc|3:pnct|10:pnct|1:preds">estÃ©is</W>
+<W lemma="en" msd="PREP" in="-1:preds" out="1:nobj">en</W>
 <W lemma="contra" msd="PREP" in="-1:nobj" out="">contra</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
-<W lemma="ser" msd="VSfin" in="" out="1:prg|2:preds|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:prg|2:preds">es</W>
 <W lemma="probablemente" msd="ADV" in="-1:prg" out="">probablemente</W>
-<W lemma="el" msd="ART" in="-2:preds|-2:preds" out="">la</W>
+<W lemma="el" msd="ART" in="-2:preds" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="2:attr">soluciÃ³n</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:mod" out="">mÃ¡s</W>
 <W lemma="acertar" msd="VLadj" in="-2:attr" out="-1:mod">acertada</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="" out="1:preds|5:cause|14:pnct|1:preds">Es</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">difÃ­cil</W>
+<W lemma="ser" msd="VSfin" in="" out="5:cause|14:pnct|1:preds">Es</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj">difÃ­cil</W>
 <W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">jÃ³venes</W>
@@ -75,9 +75,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">aÃ±o</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
 <W lemma="instituto" msd="NC" in="-1:nobj" out="">instituto</W>
-<W lemma="ser" msd="VSfin" in="" out="-5:subj|2:preds|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-5:subj|2:preds">es</W>
 <W lemma="muy" msd="ADV" in="1:mod" out="">muy</W>
-<W lemma="importante" msd="ADJ" in="-2:preds|-2:preds" out="-1:mod">importante</W>
+<W lemma="importante" msd="ADJ" in="-2:preds" out="-1:mod">importante</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
 <W lemma="exigir" msd="VLfin" in="" out="-1:robj|3:subj|4:goal|14:pnct|21:conj|25:pnct">exigen</W>
@@ -85,8 +85,8 @@
 <W lemma="alto" msd="ADJ" in="1:attr" out="-1:mod">altas</W>
 <W lemma="calificación" msd="NC" in="-3:subj" out="-1:attr">calificaciones</W>
 <W lemma="para" msd="CSUBI" in="-4:goal" out="1:nobj">para</W>
-<W lemma="ser" msd="VSinf" in="-1:nobj" out="1:preds|1:preds">ser</W>
-<W lemma="admitir" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj">admitidos</W>
+<W lemma="ser" msd="VSinf" in="-1:nobj" out="1:preds">ser</W>
+<W lemma="admitir" msd="VLadj" in="-1:preds" out="1:pobj">admitidos</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="">en</W>
 <W lemma="el" msd="ART" in="" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg">mayorÃ­a</W>
@@ -107,8 +107,8 @@
 <W lemma="valor" msd="NC" in="-3:dobj" out="">valor</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="este" msd="DM" in="1:subj" out="">Esto</W>
-<W lemma="significar" msd="VLfin" in="" out="-1:subj|1:preds|4:pobj|7:pnct|1:preds">significa</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="2:nobj">una</W>
+<W lemma="significar" msd="VLfin" in="" out="-1:subj|4:pobj|7:pnct|1:preds">significa</W>
+<W lemma="un" msd="ART" in="-1:preds" out="2:nobj">una</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr">presiÃ³n</W>
 <W lemma="para" msd="PREP" in="-4:pobj" out="1:nobj">para</W>
@@ -116,8 +116,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">jÃ³venes</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="por" msd="PREP" in="1:(cons)" out="">Por</W>
-<W lemma="esto~es" msd="ADV" in="" out="-1:(cons)|1:preds|15:pnct|1:preds">esto es</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds|-1:preds" out="1:nobj">difÃ­cil</W>
+<W lemma="esto~es" msd="ADV" in="" out="-1:(cons)|15:pnct|1:preds">esto es</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:nobj">difÃ­cil</W>
 <W lemma="ver" msd="VLinf" in="-1:nobj" out="1:predo|3:dobj">ver</W>
 <W lemma="como" msd="CSUBX" in="-1:predo" out="1:nobj">como</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">soluciÃ³n</W>

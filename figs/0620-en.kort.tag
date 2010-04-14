@@ -6,7 +6,7 @@
 <W msd="NC=S" tag="NN" in="1:subj" out="">everything</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="CS" tag="IN" in="-2:preds|3:[preds]" out="2:rel">as</W>
+<W msd="CS" tag="IN" in="3:[preds]|-2:preds" out="2:rel">as</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[preds]">be</W>

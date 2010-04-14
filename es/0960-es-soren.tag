@@ -11,9 +11,9 @@
 <W lemma="individual" msd="ADJ" in="-1:attr" out="">individuales</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="3:subj" out="">que</W>
-<W lemma="colectivo" msd="ADV" in="2:preds|2:preds" out="">colectivamente</W>
+<W lemma="colectivo" msd="ADV" in="2:preds" out="">colectivamente</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="decidir" msd="VLfin" in="-13:relr" out="-3:subj|-1:robj|-2:preds|4:conj|-2:preds">decide</W>
+<W lemma="decidir" msd="VLfin" in="-13:relr" out="-3:subj|-1:robj|4:conj|-2:preds">decide</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="con" msd="PREP" in="2:inst" out="1:nobj">con</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="">esto</W>
@@ -21,8 +21,8 @@
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="autoridad" msd="NC" in="-1:nobj" out="">autoridad</W>
 <W lemma="." msd="FS" in="-22:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="1:preds|1:preds" out="8:conj">Así</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:preds|1:subj|4:pnct|44:pnct|-1:preds">es</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="1:preds" out="8:conj">Así</W>
+<W lemma="ser" msd="VSfin" in="" out="1:subj|4:pnct|44:pnct|-1:preds">es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="ideal" msd="ADJ" in="-1:nobj" out="1:attr">ideal</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="">democrático</W>
@@ -44,8 +44,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-6:appa" out="-5:pnct|-1:namef|-4:prg|1:pnct">Ellemann</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:pnct" out="">–</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="sentar&7c;sentir" msd="VLfin" in="-14:vobj" out="-13:subj|-1:robj|1:preds|2:time|10:pnct|1:preds">sienten</W>
-<W lemma="impotente" msd="ADJ" in="-1:preds|-1:preds" out="">impotentes</W>
+<W lemma="sentar&7c;sentir" msd="VLfin" in="-14:vobj" out="-13:subj|-1:robj|2:time|10:pnct|1:preds">sienten</W>
+<W lemma="impotente" msd="ADJ" in="-1:preds" out="">impotentes</W>
 <W lemma="a" msd="PREP" in="-2:time" out="">a</W>
 <W lemma="el" msd="ART" in="" out="">la</W>
 <W lemma="hora" msd="NC" in="" out="">hora</W>
@@ -107,14 +107,14 @@
 <W lemma="de" msd="PREP" in="3:man" out="1:nobj">de</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="modo" msd="NC" in="-1:nobj" out="">modo</W>
-<W lemma="ser" msd="NC" in="-6:conj" out="-4:coord|-3:man|1:preds|1:preds">ser</W>
-<W lemma="responsable" msd="ADJ" in="-1:preds|-1:preds" out="1:pobj">responsable</W>
+<W lemma="ser" msd="NC" in="-6:conj" out="-4:coord|-3:man|1:preds">ser</W>
+<W lemma="responsable" msd="ADJ" in="-1:preds" out="1:pobj">responsable</W>
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="desarrollo" msd="NC" in="-1:nobj" out="1:attr|2:ref|3:relr">desarrollo</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">histórico</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:relr" out="-1:subj|1:preds|1:preds">está</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds|-1:preds" out="1:loc">implícito</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:relr" out="-1:subj|1:preds">está</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds" out="1:loc">implícito</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cruz" msd="NC" in="-1:nobj" out="1:ref|2:relr">cruz</W>
@@ -147,8 +147,8 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="historia" msd="NC" in="-1:nobj" out="">historia</W>
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
-<W lemma="sonar" msd="VLfin" in="" out="1:preds|6:conj|1:preds">Suena</W>
-<W lemma="poderoso" msd="ADJ" in="-1:preds|-1:preds" out="">poderoso</W>
+<W lemma="sonar" msd="VLfin" in="" out="6:conj|1:preds">Suena</W>
+<W lemma="poderoso" msd="ADJ" in="-1:preds" out="">poderoso</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
 <W lemma="por" msd="PREP" in="3:cause" out="">por</W>
 <W lemma="ese" msd="DM" in="" out="">eso</W>
@@ -202,9 +202,9 @@
 <W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">votación</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="volver" msd="VLfin" in="-13:relr" out="-1:robj|-8:subj|-11:coord|-10:prg|2:preds|3:pnct|4:cause|2:preds">vuelve</W>
+<W lemma="volver" msd="VLfin" in="-13:relr" out="-1:robj|-8:subj|-11:coord|-10:prg|3:pnct|4:cause|2:preds">vuelve</W>
 <W lemma="algo" msd="QU" in="1:degr" out="">algo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds|-2:preds" out="-1:degr">ilusoria</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds" out="-1:degr">ilusoria</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:pnct" out="">–</W>
 <W lemma="ya~que" msd="CSUBF" in="-4:cause" out="1:vobj">ya que</W>
 <W lemma="ser" msd="VSfin" in="-1:vobj" out="1:degr|3:subj|12:pnct">es</W>

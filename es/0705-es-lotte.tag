@@ -109,21 +109,21 @@
 <W lemma="reconocer" msd="VLfin" in="-1:vobj" out="1:qobj">reconoce</W>
 <W lemma="que" msd="CQUE" in="-1:qobj" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:neg" out="">“no</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds|1:preds">es</W>
-<W lemma="un" msd="ART" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:neg|1:preds">es</W>
+<W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">número</W>
 <W lemma="para" msd="PREP" in="" out="">para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">vanagloriarse,”</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:add" out="">también</W>
-<W lemma="ser" msd="VSfin" in="-17:conj" out="-10:conc|-1:add|-11:coord|1:preds|2:subj|1:preds">es</W>
-<W lemma="cierto" msd="ADJ" in="-1:preds|-1:preds" out="">cierto</W>
+<W lemma="ser" msd="VSfin" in="-17:conj" out="-10:conc|-1:add|-11:coord|2:subj|1:preds">es</W>
+<W lemma="cierto" msd="ADJ" in="-1:preds" out="">cierto</W>
 <W lemma="que" msd="CQUE" in="-2:subj" out="4:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="3:subj" out="1:nobj">“los</W>
 <W lemma="quince" msd="CARD" in="-1:nobj" out="">quince</W>
 <W lemma="tampoco" msd="ADV" in="1:neg" out="">tampoco</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|2:preds|2:preds">son</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|2:preds">son</W>
 <W lemma="nada" msd="QU" in="" out="">nada</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds|-2:preds" out="">despreciable.“</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:preds" out="">despreciable.“</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="3:eval" out="">A pesar de</W>
 <W lemma="todo" msd="QU" in="" out="">todo</W>
 <W lemma="," msd="CM" in="" out="">,</W>

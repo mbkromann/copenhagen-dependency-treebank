@@ -189,8 +189,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="fees" lemma="afgift" morph="give -af/ASPEC&3a;term -ft/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">afgifter</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|1:vobj">kan</W>
-<W gloss="be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:preds|1:preds">være</W>
-<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:preds|-1:preds" out="1:pobj">med</W>
+<W gloss="be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:preds">være</W>
+<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:preds" out="1:pobj">med</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="assure" lemma="sikre" morph="sikre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">sikre</W>

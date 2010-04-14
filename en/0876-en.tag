@@ -88,8 +88,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">whites</W>
 <W msd="CS" tag="IN" in="-3:dur" out="2:vobj">until</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds|1:preds">are</W>
-<W msd="ANP" tag="JJ" in="-1:preds|-1:preds" out="">stiff</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds">are</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">stiff</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-8:conj" out="-1:coord|1:dobj|2:pobj">fold</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
@@ -150,15 +150,15 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">iron</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|3:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|1:preds">be</W>
-<W msd="ANP" tag="JJ" in="-1:preds|-1:preds" out="">hot</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds">be</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">hot</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
 <W msd="CS" tag="IN" in="6:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|2:pnct|1:preds">is</W>
-<W msd="ANP" tag="JJ" in="-1:preds|-1:preds" out="">Teflon-coated</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:pnct|1:preds">is</W>
+<W msd="ANP" tag="JJ" in="-1:preds" out="">Teflon-coated</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|-6:cond|1:mod|2:vobj|15:pnct">do</W>

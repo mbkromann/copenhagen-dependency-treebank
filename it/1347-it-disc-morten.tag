@@ -43,9 +43,9 @@
 <W lemma="stabilire" msd="VADR" tag="VER&3a;pres" in="-4:relr" out="-1:subj|1:dobj">stabilisce</W>
 <W lemma="quale" msd="PT" tag="PRO&3a;rela" in="-1:dobj|3:[subj]" out="1:nobj|2:vobj">quale</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="">stato</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="1:vobj|2:preds|2:preds">debba</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="1:vobj|2:preds">debba</W>
 <W lemma="ritenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]">ritenersi</W>
-<W lemma="responsabile" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="1:bg">responsabile</W>
+<W lemma="responsabile" msd="AN" tag="ADJ" in="-2:preds" out="1:bg">responsabile</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:bg" out="1:nobj">nel</W>
 <W lemma="trattare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">trattare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
@@ -144,8 +144,8 @@
 <W lemma="qui" msd="RG" tag="ADV" in="-1:loc" out="">qui</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:coref-res|1:subj" out="">Ciò</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-47:+CAUSE&3a;reas" out="-1:subj|1:preds|21:pnct|23:coref-res|26:CONC/però|1:preds">è</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:nobj">il</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-47:+CAUSE&3a;reas" out="-1:subj|21:pnct|23:coref-res|26:CONC/però|1:preds">è</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">risultato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:attr" out="1:attr">dell’accordo</W>
 <W lemma="elaborare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj|6:loc">elaborato</W>

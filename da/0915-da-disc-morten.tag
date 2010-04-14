@@ -128,10 +128,10 @@
 <W gloss="therapeutic" lemma="terapeutisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">terapeutiske</W>
 <W gloss="progress" lemma="fremskridt" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">fremskridt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+CONC/(dog)" out="-15:subj|1:mod|2:mod|3:preds|4:mod|8:pnct|13:CONTR&3a;dir/men|3:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+CONC/(dog)" out="-15:subj|1:mod|2:mod|4:mod|8:pnct|13:CONTR&3a;dir/men|3:preds">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">umiddelbart</W>
-<W gloss="visible" lemma="synlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds|-3:preds" out="">synlige</W>
+<W gloss="visible" lemma="synlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="">synlige</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj">det</W>
 <W gloss="general" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="">store</W>
@@ -164,10 +164,10 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:mod" out="1:nobj">i</W>
 <W gloss="the_future" lemma="fremtid" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">fremtiden</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-4:subj|-2:mod|-3:mod|1:vobj">vil</W>
-<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|3:preds|3:preds">blive</W>
+<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|3:preds">blive</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:mod" out="">stadig</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:mod" out="-1:mod">mere</W>
-<W gloss="expensive" lemma="kostbar" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds|-3:preds" out="-1:mod|1:mod|8:conj">kostbare</W>
+<W gloss="expensive" lemma="kostbar" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:mod|1:mod|8:conj">kostbare</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:mod" out="1:vobj">at</W>
 <W gloss="develop" lemma="udvikle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj">udvikle</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -187,8 +187,8 @@
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-1:mod" out="">godt</W>
 <W gloss="example" lemma="eksempel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">eksempel</W>
 <W gloss="of_this" lemma="herpå" msd="RGU" tag="RP" in="-1:pobj" out="">herpå</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-38:+ELAB&3a;exem/(fx)" out="-4:subj|1:preds|6:pnct|15:ELAB&3a;exp|1:preds">er</W>
-<W gloss="marketing" lemma="markedsføring" msd="NCCSU==I" tag="NN" in="-1:preds|-1:preds" out="1:pobj">markedsføring</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-38:+ELAB&3a;exem/(fx)" out="-4:subj|6:pnct|15:ELAB&3a;exp|1:preds">er</W>
+<W gloss="marketing" lemma="markedsføring" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj">markedsføring</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:pobj">lægemidler</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>

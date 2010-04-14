@@ -18,9 +18,9 @@
 <W lemma="po'" msd="RG" tag="ADV" in="-1:nobj" out="">po'</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:man" out="-2:degr|1:nobj">in</W>
 <W lemma="ritardo" msd="NC" tag="NOM" in="-1:nobj" out="">ritardo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:man|1:cont|2:preds|4:subj|34:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:man|1:cont|4:subj|34:pnct|2:preds">è</W>
 <W lemma="ora" msd="RG" tag="ADV" in="-1:cont" out="">ora</W>
-<W lemma="a" msd="SP" tag="PRE" in="-2:preds|-2:preds" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-2:preds" out="1:nobj">a</W>
 <W lemma="disposizione" msd="NC" tag="NOM" in="-1:nobj" out="">disposizione</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-4:subj" out="1:nobj">un</W>
 <W lemma="programma" msd="NC" tag="NOM" in="-1:nobj" out="1:goal">programma</W>
@@ -56,8 +56,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">Gli</W>
 <W lemma="europeo" msd="AN" tag="ADJ" in="-1:nobj" out="">europei</W>
 <W lemma="dovere" msd="VA" tag="VER&3a;cond" in="" out="-2:subj|1:vobj|4:pnct|5:coref-res">dovrebbero</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:preds|1:preds">essere</W>
-<W lemma="intelligente" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:degr">intelligenti</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:preds">essere</W>
+<W lemma="intelligente" msd="AN" tag="ADJ" in="-1:preds" out="1:degr">intelligenti</W>
 <W lemma="abbastanza" msd="RG" tag="ADV" in="-1:degr" out="">abbastanza</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-5:coref-res|3:xtop" out="2:ref">Questo</W>

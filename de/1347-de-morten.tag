@@ -40,8 +40,8 @@
 <W lemma="Behandlung" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Behandlung</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj|4:pnct|5:ref|10:relr|32:coref-var">eines</W>
 <W lemma="Asylantrag" msd="NC" tag="NN" in="-1:nobj" out="">Asylantrags</W>
-<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-5:pobj">verantwortlich</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-8:relr" out="-1:preds|-1:preds">ist</W>
+<W lemma="verantwortlich" msd="AN" tag="ADJD" in="1:preds" out="-5:pobj">verantwortlich</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-8:relr" out="-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-5:ref|4:[subj]|5:subj" out="">der</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:space&3a;loc" out="1:nobj">in</W>
@@ -129,8 +129,8 @@
 <p>
 <s>
 <W lemma="d" msd="PP" tag="PDS" in="-12:coref-res|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|1:preds|5:pnct|19:pnct|21:CONC/aber|1:preds">ist</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="1:nobj">das</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|5:pnct|19:pnct|21:CONC/aber|1:preds">ist</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj">das</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Ergebnis</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-81:coref-id|-1:pobj&3a;arg" out="1:possr|3:ref|15:relr">der</W>
 <W lemma="Konvention" msd="NC" tag="NN" in="-1:possr" out="">Konvention</W>
@@ -163,9 +163,9 @@
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">Neue</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc|-7:coref-id" out="1:nobj|18:coref-var">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Unionstraktat</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|19:pnct|21:CONJ/(und)|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|19:pnct|21:CONJ/(und)|2:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="dass" msd="CS" tag="KOUS" in="-2:preds|-2:preds" out="16:vobj">dass</W>
+<W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="16:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-26:coref-var|15:subj" out="2:attr|3:nobj">die</W>
 <W lemma="schon" msd="RG" tag="ADV" in="1:time&3a;prec" out="">schon</W>
 <W lemma="existierend" msd="AN" tag="ADJA" in="-2:attr" out="-1:time&3a;prec">existierende</W>

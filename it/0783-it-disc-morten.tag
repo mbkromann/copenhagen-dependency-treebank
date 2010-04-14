@@ -133,9 +133,9 @@
 <W lemma="luogo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">luogo</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="24:qobj" out="-4:struct|-5:pnct|1:vobj|4:subj|10:pnct|15:;TIME&3a;succ/dopo/ATTR2|22:pnct|23:pnct">deve</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:preds|2:preds">essere</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:preds">essere</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="1:degr" out="">completamente</W>
-<W lemma="chiaro" msd="AN" tag="ADJ" in="-2:preds|-2:preds" out="-1:degr">chiaro</W>
+<W lemma="chiaro" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">chiaro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:subj" out="1:nobj">il</W>
 <W lemma="quadro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">quadro</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="3:nobj">della</W>

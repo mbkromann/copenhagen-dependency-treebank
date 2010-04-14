@@ -81,8 +81,8 @@
 <W lemma="visitar" msd="VLfin" in="-1:nobj" out="">visita</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">No</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:neg|1:preds|2:pnct|1:preds">es</W>
-<W lemma="cierto" msd="ADJ" in="-1:preds|-1:preds" out="">cierto</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:neg|2:pnct|1:preds">es</W>
+<W lemma="cierto" msd="ADJ" in="-1:preds" out="">cierto</W>
 <W lemma="?" msd="FS" in="-2:pnct" out="">?</W>
 <W lemma="Peter" msd="NP" in="2:subj|6:[subj]" out="">Peter</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>

@@ -74,9 +74,9 @@
 <W lemma="mentre" msd="CS" tag="CON" in="-8:time" out="3:vobj">mentre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:assoc-scope|2:subj" out="1:nobj">i</W>
 <W lemma="proprietario" msd="NC" tag="NOM" in="-1:nobj" out="">proprietari</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-3:vobj" out="-2:subj|2:preds|3:pnct|2:preds">erano</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-3:vobj" out="-2:subj|3:pnct|2:preds">erano</W>
 <W lemma="fuori" msd="SP" tag="PRE" in="1:man" out="">fuori</W>
-<W lemma="casa" msd="NC" tag="NOM" in="-2:preds|-2:preds" out="-1:man">casa</W>
+<W lemma="casa" msd="NC" tag="NOM" in="-2:preds" out="-1:man">casa</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="dopo" msd="SP" tag="PRE" in="18:time" out="1:vobj|11:pnct">Dopo</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj|11:[subj]">aver</W>
@@ -144,8 +144,8 @@
 <W lemma="visto" msd="CS" tag="CON" in="-18:cause" out="1:dobj">visto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-18:coref|1:pobj" out="">ne</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:pobj|1:preds|1:preds">sono</W>
-<W lemma="vittima" msd="NC" tag="NOM" in="-1:preds|-1:preds" out="1:man">vittima</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:pobj|1:preds">sono</W>
+<W lemma="vittima" msd="NC" tag="NOM" in="-1:preds" out="1:man">vittima</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:man" out="2:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">ugual</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:nobj">modo</W>

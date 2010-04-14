@@ -23,9 +23,9 @@
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">nome</W>
 <W lemma="scegliere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">scelto</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|8:conj">è</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|2:preds|2:preds">stato</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|2:preds">stato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:preds|-2:preds" out="-1:pnct|1:pnct">Personality</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:preds" out="-1:pnct|1:pnct">Personality</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="ed" msd="CS" tag="CON" in="3:coord" out="">ed</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-19:assoc-const|2:subj|3:[subj]|4:[subj]" out="1:nobj">il</W>
@@ -142,8 +142,8 @@
 <W lemma="catena" msd="NC" tag="NOM" in="-1:nobj" out="">catena</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="">Smykkekæden</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:preds|7:pnct|1:preds">È</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds|-1:preds" out="1:possr&3a;subj|3:nobj">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="7:pnct|1:preds">È</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:possr&3a;subj|3:nobj">la</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-21:coref|-1:possr&3a;subj" out="">sua</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">prima</W>
 <W lemma="opera" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:pobj&3a;const">opera</W>

@@ -8,8 +8,8 @@
 <W lemma="Dschungel" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Dschungel</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:possr">von</W>
 <W lemma="Wohngemeinschaft" msd="NC" tag="NN" in="-1:possr" out="25:assoc-const">Wohngemeinschaften</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="20:CONSOL&3a;just" out="-8:subj|1:preds|14:pnct|1:preds">ist</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds|-1:preds" out="1:nobj|3:appr">der</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="20:CONSOL&3a;just" out="-8:subj|14:pnct|1:preds">ist</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj|3:appr">der</W>
 <W lemma="Makler" msd="NC" tag="NN" in="-1:nobj" out="">Makler</W>
 <W lemma="Svend" msd="NP" tag="NE" in="1:namef" out="">Svend</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:title|15:coref|96:coref-id">Trangeled</W>
@@ -75,8 +75,8 @@
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:iobj" out="">sich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="3:struct&3a;add" out="">auch</W>
 <W lemma="völlig" msd="AN" tag="ADJD" in="1:degr" out="">völlig</W>
-<W lemma="klar" msd="AN" tag="ADJD" in="1:preds|1:preds" out="-1:degr">klar</W>
-<W lemma="machen" msd="VAF" tag="VVINF" in="-5:vobj" out="-6:[subj]|-4:iobj|-3:struct&3a;add|-1:preds|1:pnct|2:dobj|-1:preds">machen</W>
+<W lemma="klar" msd="AN" tag="ADJD" in="1:preds" out="-1:degr">klar</W>
+<W lemma="machen" msd="VAF" tag="VVINF" in="-5:vobj" out="-6:[subj]|-4:iobj|-3:struct&3a;add|1:pnct|2:dobj|-1:preds">machen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wie" msd="CS" tag="KOUS" in="-2:dobj|7:[man]" out="7:relr">wie</W>
 <W lemma="man" msd="PP" tag="PIS" in="6:subj" out="">man</W>

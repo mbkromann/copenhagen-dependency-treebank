@@ -40,9 +40,9 @@
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj|53:coref">Los</W>
 <W lemma="europeo" msd="NC" in="-1:nobj" out="">europeos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:vobj|4:pnct|5:coref-res|39:coref-res">deberían</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="-3:[subj]|2:preds|2:preds">ser</W>
+<W lemma="ser" msd="VSinf" in="-1:vobj" out="-3:[subj]|2:preds">ser</W>
 <W lemma="suficientemente" msd="ADV" in="1:degr" out="">suficientemente</W>
-<W lemma="inteligente" msd="ADJ" in="-2:preds|-2:preds" out="-1:degr">inteligentes</W>
+<W lemma="inteligente" msd="ADJ" in="-2:preds" out="-1:degr">inteligentes</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="ser" msd="VSfin" in="-5:coref-res" out="1:subj|13:pnct">Es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>

@@ -123,17 +123,17 @@
 <s>
 <W gloss="In_addition_to" lemma="foruden" msd="SP" tag="IN" in="9:add" out="1:nobj">Foruden</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="being" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|3:pobj|1:preds">være</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds|-1:preds" out="1:nobj">et</W>
+<W gloss="being" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="3:pobj|1:preds">være</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
 <W gloss="draw" lemma="tilløbsstykke" morph="stykke -[tilløb]s/type løbe til tilløb/PRED&3a;core" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">tilløbsstykke</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="2:nobj">for</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="chlorophyll_tourists" lemma="klorofyl-turist" morph="turist -klorofyl/type tur +ist/NOPRED&3a;agent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">klorofyl-turister</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-77:+ELAB&3a;exp" out="-9:add|2:subj|3:preds|5:pobj|12:pnct|16:CONJ/(og)|3:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-77:+ELAB&3a;exp" out="-9:add|2:subj|5:pobj|12:pnct|16:CONJ/(og)|3:preds">er</W>
 <W gloss="Robinson" lemma="Robinson" msd="NP--U==-" tag="NNP" in="1:namef" out="">Robinson</W>
 <W gloss="Crusoe" lemma="Crusoe" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Crusoe</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:preds|-3:preds" out="1:nobj">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:preds" out="1:nobj">et</W>
 <W gloss="paradise" lemma="paradis" morph="paradis" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">paradis</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">for</W>
 <W gloss="those" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="1:pnct|2:ref|3:rel">dem</W>
@@ -146,8 +146,8 @@
 </s>
 <s>
 <W gloss="The_primary_income" lemma="hovedindkomst" morph="indkomst -hoved/GRAD&3a;qual komme ind indkomst/PRED&3a;core" msd="NCCSU==D" tag="NN" in="1:subj" out="">Hovedindkomsten</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-16:CONJ/(og)" out="-1:subj|1:preds|15:pnct|41:+JOINT|1:preds">er</W>
-<W gloss="fisheries" lemma="fiskeri" morph="fiske +ri/PRED&3a;result fisk +e/DER&3a;nv" msd="NCNSU==I" tag="NN" in="-1:preds|-1:preds" out="1:pobj">fiskeri</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-16:CONJ/(og)" out="-1:subj|15:pnct|41:+JOINT|1:preds">er</W>
+<W gloss="fisheries" lemma="fiskeri" morph="fiske +ri/PRED&3a;result fisk +e/DER&3a;nv" msd="NCNSU==I" tag="NN" in="-1:preds" out="1:pobj">fiskeri</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:ref|5:rel">den</W>
 <W gloss="clawless" lemma="kloløs" morph="løs -klo/ABOUT" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">kloløse</W>
@@ -231,8 +231,8 @@
 <W gloss="according_to" lemma="ifølge" msd="SP" tag="IN" in="2:source" out="1:nobj">ifølge</W>
 <W gloss="the_lobster_fishermen" lemma="hummerfisker" morph="fisker -hummer/func fiske +r/PRED&3a;agent fisk +e/DER&3a;nv" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hummerfiskeren</W>
 <W gloss="were_supposed_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-3:subj|-2:source|1:vobj">skulle</W>
-<W gloss="have_been" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds|1:preds">være</W>
-<W gloss="Robinson's" lemma="Robinson" msd="NP--G==-" tag="NNP" in="-1:preds|-1:preds" out="1:attr|2:possd">Robinsons</W>
+<W gloss="have_been" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">være</W>
+<W gloss="Robinson's" lemma="Robinson" msd="NP--G==-" tag="NNP" in="-1:preds" out="1:attr|2:possd">Robinsons</W>
 <W gloss="own" lemma="egen" morph="egen" msd="ANPNSU=[DI]U" tag="JJ" in="-1:attr" out="">eget</W>
 <W gloss="work" lemma="værk" morph="værk" msd="NCNSU==I" tag="NN" in="-2:possd" out="">værk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>

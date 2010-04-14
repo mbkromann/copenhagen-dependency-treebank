@@ -30,8 +30,8 @@
 <W lemma="mineral" msd="NC" in="-6:conj" out="-1:coord">minerales</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-8:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-9:relpa" out="-1:subj|1:preds|13:pnct|15:conj|1:preds">son</W>
-<W lemma="apropiado" msd="ADJ" in="-1:preds|-1:preds" out="2:pobj|6:loc">apropiadas</W>
+<W lemma="ser" msd="VSfin" in="-9:relpa" out="-1:subj|13:pnct|15:conj|1:preds">son</W>
+<W lemma="apropiado" msd="ADJ" in="-1:preds" out="2:pobj|6:loc">apropiadas</W>
 <W lemma="tanto" msd="ADV" in="3:correl" out="">tanto</W>
 <W lemma="para" msd="PREP" in="-2:pobj" out="1:nobj">para</W>
 <W lemma="perro" msd="NC" in="-1:nobj" out="2:conj">perros</W>
@@ -78,8 +78,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:man" out="">según</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-17:coref" out="-1:man|1:vobj|22:coref">habían</W>
 <W lemma="entender" msd="VLadj" in="-1:vobj" out="">entendido</W>
-<W lemma="era" msd="VEfin" in="-6:relr" out="-6:subj|-4:subj|1:preds|3:loc|6:pnct|19:pnct|1:preds">era</W>
-<W lemma="suyo" msd="PPO" in="-1:preds|-1:preds" out="1:nobj">su</W>
+<W lemma="era" msd="VEfin" in="-6:relr" out="-6:subj|-4:subj|3:loc|6:pnct|19:pnct|1:preds">era</W>
+<W lemma="suyo" msd="PPO" in="-1:preds" out="1:nobj">su</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">última</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>

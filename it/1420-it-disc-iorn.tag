@@ -15,8 +15,8 @@
 <W lemma="Center" msd="NP" tag="NPR" in="-1:nobj" out="">Center</W>
 <W lemma="," msd="XP" tag="PON" in="-12:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:discmark" out="">e</W>
-<W lemma="cioè" msd="RG" tag="ADV" in="-9:elab" out="-1:discmark|1:preds|10:pnct|1:preds">cioè</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">una</W>
+<W lemma="cioè" msd="RG" tag="ADV" in="-9:elab" out="-1:discmark|10:pnct|1:preds">cioè</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="zona" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|3:relr">zona</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:subj" out="">che</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
@@ -63,8 +63,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Ørestad</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-60:+JOINT" out="-16:subj|1:vobj|4:pnct|6:conj|21:coref-res|33:CONS">deve</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-17:[subj]|1:vobj">essere</W>
-<W lemma="lasciare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-18:[subj]|1:preds|1:preds">lasciata</W>
-<W lemma="intatto" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="">intatta</W>
+<W lemma="lasciare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-18:[subj]|1:preds">lasciata</W>
+<W lemma="intatto" msd="AN" tag="ADJ" in="-1:preds" out="">intatta</W>
 <W lemma=";" msd="XP" tag="PON" in="-4:pnct" out="">;</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
 <W lemma="trattare" msd="VADR" tag="VER&3a;pres" in="-6:conj" out="-1:robj|1:pobj|12:pnct">tratta</W>

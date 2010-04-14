@@ -82,8 +82,8 @@
 <W lemma="carattere" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">carattere</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="-1:attr" out="">diverso</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-9:cond|-28:cond|-59:cond|-84:cond|1:preds|20:man|42:pnct|1:preds">E'</W>
-<W lemma="essenziale" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:vobj">essenziale</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-9:cond|-28:cond|-59:cond|-84:cond|20:man|42:pnct|1:preds">E'</W>
+<W lemma="essenziale" msd="AN" tag="ADJ" in="-1:preds" out="1:vobj">essenziale</W>
 <W lemma="modificare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:prg|4:dobj">modificare</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="innanzitutto" msd="RG" tag="ADV" in="-2:prg" out="-1:pnct|1:pnct">innanzitutto</W>
@@ -143,8 +143,8 @@
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="">persone</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:prg" out="1:nobj">in</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:vobj" out="-7:subj|-2:prg|1:preds|9:pnct|10:cons|22:pnct|1:preds">è</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:preds|-1:preds" out="1:nobj">in</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:vobj" out="-7:subj|-2:prg|9:pnct|10:cons|22:pnct|1:preds">è</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W compound="¹eliminar²ne" lemma="eliminare" msd="VAF" tag="VER&3a;infi" in="-1:vobj|-15:²assoc|0:²pobj¹" out="2:nobj|0:²pobj¹">eliminarne</W>

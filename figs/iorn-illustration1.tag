@@ -21,7 +21,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:appa" out="-1:pnct|1:pnct">K</W>
 <W lemma=")" msd="XP" tag="PON" in="-1:pnct" out="">)</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:neg">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-23:subj|-1:neg|2:preds|3:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-23:subj|-1:neg|3:pnct|2:preds">è</W>
 <W lemma="affatto" msd="RG" tag="ADV" in="-2:neg" out="">affatto</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="-2:preds" out="">nuova</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

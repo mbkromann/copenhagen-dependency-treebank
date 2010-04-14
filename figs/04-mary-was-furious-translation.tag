@@ -5,7 +5,7 @@
 <W id="4" mѕd="N" in="-1:nobj" out="">trigger</W>
 <W id="5" mѕd="Pnct" in="-3:pnct" out="">.</W>
 <W id="6" mѕd="N" in="1:subj" out="">It</W>
-<W id="7" mѕd="V" in="-5:CAUSE&3a;reas/(because)" out="-1:subj|2:preds|3:pnct">was</W>
+<W id="7" mѕd="V" in="-5:CAUSE&3a;reas/(because)" out="-1:subj|3:pnct|2:preds">was</W>
 <W id="8" mѕd="N" in="1:func#" out="">payback</W>
 <W id="9" mѕd="N" in="-2:preds" out="-1:func#">time</W>
 <W id="10" mѕd="Pnct" in="-3:pnct" out="">.</W>

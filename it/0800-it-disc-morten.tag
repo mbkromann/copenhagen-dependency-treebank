@@ -1,8 +1,8 @@
 <W lemma="oggi" msd="RG" tag="ADV" in="3:time" out="1:pnct">Oggi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|1:preds|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1|1:preds">è</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds|-1:preds" out="1:nobj">un</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1|1:preds">è</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="volto" morph="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
 <W lemma="stimare" morph="stimare +to/DEVERB&3a;pas.part" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">stimato</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-4:loc" out="1:nobj">al</W>
@@ -188,8 +188,8 @@
 <W lemma="assumere" morph="assumere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:man">assunta</W>
 <W lemma="regolarmente" msd="RG" tag="ADV" in="-1:man" out="">regolarmente</W>
 <W lemma=";" msd="XP" tag="PON" in="-7:pnct" out="">;</W>
-<W lemma="essere&7c;sonare" morph="essere" msd="VADR" tag="VER&3a;pres" in="-8:;CONJ/(e)/ATTR3|4:[subj]" out="1:preds|1:preds">sono</W>
-<W lemma="felice" morph="felice" msd="AN" tag="ADJ" in="-1:preds|-1:preds" out="1:pobj">felice</W>
+<W lemma="essere&7c;sonare" morph="essere" msd="VADR" tag="VER&3a;pres" in="-8:;CONJ/(e)/ATTR3|4:[subj]" out="1:preds">sono</W>
+<W lemma="felice" morph="felice" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">felice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" morph="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|-4:[subj]|2:nobj">aver</W>

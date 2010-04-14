@@ -159,8 +159,8 @@
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|3:loc" out="">hvor</W>
 <W gloss="eager" lemma="ivrig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">ivrige</W>
 <W gloss="volunteers" lemma="frivillig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj" out="-1:attr">frivillige</W>
-<W gloss="stand" lemma="stå" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-3:loc|1:preds|2:man|1:preds">står</W>
-<W gloss="ready" lemma="parat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds|-1:preds" out="">parat</W>
+<W gloss="stand" lemma="stå" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-3:loc|2:man|1:preds">står</W>
+<W gloss="ready" lemma="parat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">parat</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:man" out="1:nobj">med</W>
 <W gloss="cups" lemma="kop" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj|3:pnct|4:ref|6:rel">kopper</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

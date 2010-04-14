@@ -4,13 +4,13 @@
 <W lemma="un" msd="ART" in="-3:appa" out="1:nobj|2:pnct">un</W>
 <W lemma="labrador" msd="NC" in="-1:nobj" out="">labrador</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="ser" msd="VSfin" in="" out="-6:subj|2:preds|3:pnct|2:preds">fue</W>
+<W lemma="ser" msd="VSfin" in="" out="-6:subj|3:pnct|2:preds">fue</W>
 <W lemma="bien" msd="ADV" in="1:degr" out="">bien</W>
-<W lemma="alimentar" msd="VLadj" in="-2:preds|-2:preds" out="-1:degr|3:coref">alimentado</W>
+<W lemma="alimentar" msd="VLadj" in="-2:preds" out="-1:degr|3:coref">alimentado</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="2:struct" out="">También</W>
-<W lemma="l" msd="PPO" in="-3:coref|1:preds|1:preds" out="">lo</W>
-<W lemma="ser" msd="VSfin" in="7:qobj" out="-2:struct|-1:preds|1:subj|-1:preds">fue</W>
+<W lemma="l" msd="PPO" in="-3:coref|1:preds" out="">lo</W>
+<W lemma="ser" msd="VSfin" in="7:qobj" out="-2:struct|1:subj|-1:preds">fue</W>
 <W lemma="el" msd="ART" in="-1:subj" out="2:nobj">el</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
 <W lemma="perro" msd="NC" in="-2:nobj" out="-1:attr|1:attr">perro</W>
@@ -82,8 +82,8 @@
 <W lemma="mientras" msd="CSUBX" in="-7:time" out="3:vobj">mientras</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-5:assoc-scope" out="">dueños</W>
-<W lemma="estar" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds|1:preds">estaban</W>
-<W lemma="fuera" msd="ADV" in="-1:preds|-1:preds" out="">fuera</W>
+<W lemma="estar" msd="VLfin" in="-3:vobj" out="-2:subj|1:preds">estaban</W>
+<W lemma="fuera" msd="ADV" in="-1:preds" out="">fuera</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="con" msd="PREP" in="10:man" out="2:nobj|5:pnct">Con</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">jugosos</W>
@@ -95,8 +95,8 @@
 <W lemma="perro" msd="NC" in="-1:nobj" out="">perros</W>
 <W lemma="de" msd="PREP" in="1:goal#" out="1:nobj">de</W>
 <W lemma="guardia" msd="NC" in="-1:nobj" out="-1:goal#">guardia</W>
-<W lemma="ser" msd="VSfin" in="" out="-10:man|-4:subj|1:preds|2:pnct|3:cons|22:pnct|1:preds">fueron</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds|-1:preds" out="">tranquilizados</W>
+<W lemma="ser" msd="VSfin" in="" out="-10:man|-4:subj|2:pnct|3:cons|22:pnct|1:preds">fueron</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">tranquilizados</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="de~modo~que" msd="CSUBF" in="-3:cons" out="5:vobj">de modo que</W>
 <W lemma="el" msd="ART" in="-26:assoc-agent|4:subj|5:[subj]" out="2:nobj">los</W>
@@ -191,8 +191,8 @@
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>
 <W lemma="cuyo" msd="REL" in="-6:coref|2:subj" out="1:nobj">cuyo</W>
 <W lemma="domicilio" msd="NC" in="-1:nobj" out="">domicilio</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|-3:pnct|1:preds|3:loc|5:pnct|1:preds">es</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:preds|-1:preds" out="1:numm">Søterrassen</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|-3:pnct|3:loc|5:pnct|1:preds">es</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="-1:preds" out="1:numm">Søterrassen</W>
 <W lemma="7" msd="CARD" in="-1:numm" out="">7</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Holte</W>
@@ -242,8 +242,8 @@
 <W lemma="haber" msd="VHfin" in="" out="-11:loc|-1:subj|1:vobj|11:pnct">ha</W>
 <W lemma="declarar" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:vobj">declarado</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj">haber</W>
-<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds|1:preds">sido</W>
-<W lemma="robar" msd="VLadj" in="-1:preds|-1:preds" out="1:pobj&3a;dobj">robado</W>
+<W lemma="ser" msd="VS" in="-1:vobj" out="1:preds">sido</W>
+<W lemma="robar" msd="VLadj" in="-1:preds" out="1:pobj&3a;dobj">robado</W>
 <W lemma="por" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">por</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="total" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg">total</W>

@@ -1,7 +1,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="2:subj" out="1:nobj">”Su</W>
 <W lemma="esperanza" msd="NC" in="-1:nobj" out="">esperanza</W>
-<W lemma="ser" msd="VSfin" in="28:qobj" out="-2:subj|1:preds|1:preds">es</W>
-<W lemma="que" msd="CQUE" in="-1:preds|-1:preds" out="4:vobj|10:conj">que</W>
+<W lemma="ser" msd="VSfin" in="28:qobj" out="-2:subj|1:preds">es</W>
+<W lemma="que" msd="CQUE" in="-1:preds" out="4:vobj|10:conj">que</W>
 <W lemma="mucho" msd="QU" in="3:subj|4:[subj]" out="1:nobj">muchas</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="">personas</W>
 <W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
@@ -46,12 +46,12 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Brookings</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:appa" out="-1:namef">Institution</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
-<W lemma="otro" msd="QU" in="5:preds|5:preds" out="1:nobj">Otra</W>
+<W lemma="otro" msd="QU" in="5:preds" out="1:nobj">Otra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:loc">misión</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">convención</W>
-<W lemma="ser" msd="VSfin" in="" out="-5:preds|1:prg|2:subj|6:pnct|-5:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:prg|2:subj|6:pnct|-5:preds">es</W>
 <W lemma="simplemente" msd="ADV" in="-1:prg" out="">simplemente</W>
 <W lemma="mantenerse" msd="VCLI" in="-2:subj" out="1:loc">mantenerse</W>
 <W lemma="cerca" msd="ADV" in="-1:loc" out="">cerca</W>
@@ -113,16 +113,16 @@
 <W lemma="para" msd="PREP" in="-1:cause" out="2:vobj">para</W>
 <W lemma="al~menos" msd="ADV" in="1:prg" out="">al menos</W>
 <W lemma="intentar" msd="VLinf" in="-2:vobj" out="-1:prg|1:vobj">intentar</W>
-<W lemma="ser" msd="NC" in="-1:vobj" out="1:preds|1:preds">ser</W>
-<W lemma="nominar" msd="VLadj" in="-1:preds|-1:preds" out="1:time">nominado</W>
+<W lemma="ser" msd="NC" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="nominar" msd="VLadj" in="-1:preds" out="1:time">nominado</W>
 <W lemma="en" msd="PREP" in="-1:time" out="1:nobj">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1996</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="cuatro" msd="CARD" in="2:subj" out="1:nobj">Cuatro</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|2:preds|3:pnct|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|3:pnct|2:preds">es</W>
 <W lemma="mucho" msd="QU" in="1:degr" out="">mucho</W>
-<W lemma="tiempo" msd="NC" in="-2:preds|-2:preds" out="-1:degr">tiempo</W>
+<W lemma="tiempo" msd="NC" in="-2:preds" out="-1:degr">tiempo</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="" out="">y</W>
 <W lemma="con" msd="PREP" in="" out="1:nobj">con</W>

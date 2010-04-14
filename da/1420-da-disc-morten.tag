@@ -190,8 +190,8 @@
 <W gloss="field" lemma="område" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">område</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Ørestaden" lemma="Ørestaden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ørestaden</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-10:vobj" out="-9:[subj]|1:preds|1:preds">være</W>
-<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds|-1:preds" out="1:nobj">et</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-10:vobj" out="-9:[subj]|1:preds">være</W>
+<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
 <W gloss="exhibition_area" lemma="udstillingsområde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">udstillingsområde</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
