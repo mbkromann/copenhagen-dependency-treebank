@@ -5779,16 +5779,16 @@ sub cmd_relhelp {
 	# Examples
 	if (defined($ex)) {
 		# Print examples on screen
-		print "\nEXAMPLES: $ex\n\n";
+		print "\nEXAMPLES:\n";
 
 		# Create example graph
 		$ex =~ s/([^\n])\n([^\n])/$1 $2/g;
 		my @examples = split("\n+", $ex);
+		print "\t" . join("\n\n\t", @examples) . "\n\n";
 		$self->cmd_example($graph, shift(@examples), 1);
 		my $egraph = $self->graph();
 		foreach my $example (@examples) {
 			$self->cmd_example($egraph, "-add " . $example, 1);
-
 		}
 
 		# Create viewer for example graph if non-existent
