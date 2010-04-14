@@ -1826,7 +1826,7 @@ sub postscript {
 		push @newvars, $var
 			if (regexp_match($regexps, $var));
 	}
-	print "vars: " . join(" ", @newvars) . "\n";
+	#print "vars: " . join(" ", @newvars) . "\n";
 
 	# Find nodes, streams, and variables to include in graph using
 	# nhide, $imin, and $imax, and number words consecutively from 0
@@ -1881,7 +1881,7 @@ sub postscript {
 		$labels->{$l} = $L++;
 		push @sorted, $l;
 	}
-	print "sorted: " . join(" ", @sorted) . "\n";
+	#print "sorted: " . join(" ", @sorted) . "\n";
 	return DTAG::Interpreter::error("illegal number of variables: $L") 
 		if ($L == 0);
 
@@ -3820,6 +3820,48 @@ sub print {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/Edge/svar.pl
+## ------------------------------------------------------------
+
+=item $edge->var($var, $value) = $value
+
+Get/set value $value for variable $var in edge.
+
+=cut
+
+sub svar {
+	my $self = shift;
+	my $var = shift;
+	my $vars = $self->vars();
+
+	# Supply new value
+	if (@_) {
+		my $value = shift;
+
+		# Add variable, if non-existent
+		if ($vars !~ /§$var=/) {
+			$vars .= "$var=$value§";
+		} else {
+			# Replace variable value
+			$vars =~ s/§$var=[^§]*§/§$var=$value§/;
+		}
+
+		# Return value
+		$self->vars($vars);
+		return defined($value) ? $value : "";
+	}
+
+	# Dirty Perl hack needed to reset $1 to ""
+	my $e = "";
+	$e =~ /^(\s*)$/;
+
+	# Find existing value
+	$vars =~ /§$var=([^§]*)§/;
+	return defined($1) ? $1 : "";
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/Edge/type.pl
 ## ------------------------------------------------------------
 
@@ -4275,6 +4317,30 @@ sub stream {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/Node/svar.pl
+## ------------------------------------------------------------
+
+=item $node->svar($var, $value) = $value
+
+Get/set value $value associated with variable $var at $node. Returns
+"" instead of undef.
+
+=cut
+
+sub svar {
+	my $self = shift;
+	my $var = shift;
+
+	# Write new value
+	$self->{$var} = shift if (@_);
+
+	# Return value
+	my $val = $self->{$var};
+	return defined($val) ? $val : "";
+}
+	
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/Node/time0.pl
 ## ------------------------------------------------------------
 
@@ -4360,7 +4426,7 @@ sub varstr {
 	my $var = shift;
 
 	# Write new value
-	$self->{$var} = eval(shift) if (@_);
+	$self->{$var} = shift if (@_);
 
 	# Return value
 	return dumpstr($self->{$var});

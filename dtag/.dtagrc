@@ -34,19 +34,19 @@ layout -ehide \
 	$s && (($s1 && (abs($s) < $s1)) || ($s2 && ($s > $s2)))
 
 # How to compute the stream name associated with a node
-layout -stream $n->var('speaker')
+layout -stream $n->svar('speaker')
 
 # How to compute the style associated with a node or label
 layout -nstyles ["default", \
-	($n->var("msd") =~ /^V/ && scalar(grep {$_->type() =~ /vobj/} @{$n->in()}) && ! scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) && ($n->var("_noerror") || "") !~ /:nosubj:/ ? "nosubjerror" : ""),\
+	($n->svar("msd") =~ /^V/ && scalar(grep {$_->type() =~ /vobj/} @{$n->in()}) && ! scalar(grep {$_->type() =~ /(subj|expl)/} @{$n->out()}) && ($n->svar("_noerror") || "") !~ /:nosubj:/ ? "nosubjerror" : ""),\
 	(scalar(grep {$_->type() =~ /[A-Z]/} @{$n->in()}) ? "discourse" : ""),\
 	(scalar(grep {$G->is_dependent($_)} @{$n->in()}) == 0 \
 		?  "nogoverror" : ""),\
-	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->var("diff")} @{$n->in()}) > 1 \
+	(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out() && $_->svar("diff")} @{$n->in()}) > 1 \
 		?  "manygoverror" : ""),\
-	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->var('speaker') || 0): 0,\
-	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->var('styles') || ""), \
-	split('\|', $n->var('styles') || ""), \
+	($l =~ /^stream:.*$/) ? 'speaker:' .  ($n->svar('speaker') || 0): 0,\
+	map {my $s = $_; $s =~ s/^$l://g; $s} split('\|', $n->svar('styles') || ""), \
+	split('\|', $n->svar('styles') || ""), \
 	($l eq "sdeps" ? "redlbl" : "")]
 
 # How to compute the style associated with an edge
@@ -60,19 +60,19 @@ layout -estyles \
 	my $dying = ($s && $s2 && ($s == $s2)) ? "dying" : ""; \
 	my $dead = ($s1 && $s2 && ($s < $s1 || $s > $s2 || $s < 1)) ? "dead" : "";\
 	[	"default", \
-		'speaker:' . ($G->node($e->in())->var('speaker') || 0),\
+		'speaker:' . ($G->node($e->in())->svar('speaker') || 0),\
 		$discourse, \
 		($G->is_known_edge($e) ? "" : "unknownetypeerror"),\
 		(scalar(grep {$G->is_dependent($_) && $_->in() != $_->out()} @{$G->node($e->in())->in()}) > 1 \
 			?  "edgeconflict" : ""),\
-		split('\|', $G->node($e->in())->var('styles') || ""),\
+		split('\|', $G->node($e->in())->svar('styles') || ""),\
 		map {split(':', $_)} \
 			(grep {$_ =~ /^[^:]*:(.*)$/; $etype =~ /\Q$1\E/} \
-				split('\|', $G->node($e->in())->var('estyles') || "")),\
+				split('\|', $G->node($e->in())->svar('estyles') || "")),\
 		$newborn, $dying, $dead]
 
 # Calculating the placement of an edge (bottom=1 or top=0)
-layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out()) || (($G->node($e->in())->var('estyles') || "") =~ /bottom/)
+layout -pos  (! $G->is_dependent($e)) || ($e->in() == $e->out()) || (($G->node($e->in())->svar('estyles') || "") =~ /bottom/)
 
 # Definition of different styles
 style title -label -fonttype bold
@@ -157,6 +157,7 @@ syntax
 macro reset script -q ~/cdt/dtag/.dtagrc
 macro autotagm find $X[msd] =~ /^(NC|V|AN)/ ;; autotag morph -matches -default *.tag
 macro ptb layout -pos 0 ;; layout -vars cat|/stream:.*/|pos ;; layout -nstyles 0 ;; layout -estyles 0
+macro hostname !echo "$USER@"`ifconfig eth0 | grep "inet addr" | awk -F":" '{ print $2}' | awk '{ print $1}'`" ("`hostname`")"
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
@@ -181,7 +182,7 @@ etypes -comp aobj avobj dobj expl fobj iobj lobj nobj numa numm part pobj pobj:a
 etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond poss prec prg reas source space struct succ time
 
 # Other adjunct relations
-etypes -add -adj appa + appr attr attrd attrr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
+etypes -add -adj appa + appr attr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
 etypes -add -adj about class concom const exem exp func mod modo modp modr path relp relpa resem rest spec xpl intact
@@ -208,3 +209,4 @@ etypes -land land xland \n\n
 # Command log
 user -f /home/cdt/.cdtname
 cmdlog /home/cdt/cdt/logs/{USER}
+

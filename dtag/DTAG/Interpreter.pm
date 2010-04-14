@@ -1244,6 +1244,84 @@ sub post_process_dlabels {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_as_example.pl
+## ------------------------------------------------------------
+
+sub cmd_as_example {
+	my $self = shift;
+	my $graph = shift;
+	my $varspec = shift || "";
+	my $rangespec = shift || "=0..=" . $graph->size();
+
+	# Only applies to dependency graphs
+	if (! $graph->isa("DTAG::Graph")) {
+		error("current graph is not a dependency graph");
+		return 1;
+	}
+
+	# Process range specification
+	my $range = {};
+	my $offset = $graph->offset();
+	while ($rangespec ne "") {
+		if ($rangespec =~ s/^\s*([-+=]?)([0-9]+)\.\.([-+=]?)([0-9]+)\b//) {
+			my $i1 = ($1 eq "=") ? $2 : $offset + "$1$2";
+			my $i2 = ($3 eq "=") ? $4 : $offset + "$3$4";
+			for (my $i = $i1; $i <= $i2; ++$i) {
+				$range->{$i} = 1
+					if ($i >= 0 && $i < $graph->size() 
+						&& ! $graph->node($i)->comment())
+			}
+		} elsif ($rangespec =~ s/^\s*([-+=]?)([0-9]+)\b//) {
+			my $i = ($1 eq "=") ? $2 : $offset + $2;
+			$range->{$i} = 1
+				if ($i >= 0 && $i < $graph->size() 
+					&& ! $graph->node($i)->comment())
+		} else {
+			$rangespec =~ s/^\s+//g;
+			$rangespec =~ s/^\S+//g;
+		}
+	}
+
+	# Number nodes
+	my $nodes = {};
+	my $nodecnt = 0;
+	foreach my $i (sort(keys(%$range))) {
+		$nodes->{$i} = ++$nodecnt;
+	}
+
+	# Process nodes and in-edges
+	my $s = "";
+	my @vars = split(/\|/, $varspec);
+	foreach my $i (sort(keys(%$range))) {
+		# Process features
+		my $node = $graph->node($i);
+		if (! $node->comment()) {
+			my @strings = ($node->input());
+			foreach my $var (@vars) {
+				push @strings, $node->svar($var);
+			}
+			$s .= join("|", @strings);
+
+			# Process in-edges
+			my @edges = ();
+			foreach my $e (@{$node->in()}) {
+				my $out = $nodes->{$e->out()};
+				my $type = $e->type();
+				push @edges, "$out:$type"
+					if ($out);
+			}
+			$s .= "<" . join(",", @edges) . ">"
+				if (@edges);
+		}
+		$s .= " ";
+	}
+
+	# Print string
+	print "\n" . $s . "\n\n";
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_autoalign.pl
 ## ------------------------------------------------------------
 
@@ -2710,44 +2788,51 @@ sub cmd_etypes {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmd_ex.pl
+##  auto-inserted from: Interpreter/cmd_example.pl
 ## ------------------------------------------------------------
 
-sub cmd_ex {
+sub cmd_example {
 	my $self = shift;
 	my $graph = shift;
 	my $spec = shift;
+	my $nopos = shift;
 	$spec = "" if (! defined($spec));
 
 	# Create new graph
 	my $offset = -1;
 	if ($spec =~ /^-add\s+/) {
 		$spec =~ s/^-add\s+//g;
+		my $node = Node->new();
+		$node->input("\n");
+		$graph->node_add($graph->size(), $node);
+		$graph->offset($graph->size());
 	} else {
 		$self->do("new");
 		$graph = $self->graph();
 	}
 
 	# Create graph from specification
+	my $quiet = $self->quiet();
+	$self->quiet(1);
 	my $nodes = 0;
 	my $edges = [];
 	my $features = 0;
+	my $title = "";
 	while (length($spec) > 0) {
-		if ($spec =~ s/^-title="([^"]*)"\s+//) {
+		if ($spec =~ s/^-title="(.*)"\s*//) {
 			# Title
-			$graph->title($1);
+			$title = $1;
 		} elsif ($spec =~ s/^(\S+)\s*//) {
 			# Parse node specification
 			my $nespec = $1;
 			$nespec =~ /^([^<>]+)(<(.*)>)?$/;
-			print "node: $nespec\n";
 			my $nodespec = $1;
 			my $edgespec = defined($3) ? $3 : "";
 			my $labels = [split(/\|/, $nodespec)];
 
 			# Create node
 			my $cmd = "node " . $labels->[0];
-			for (my $i = 1; $i < $#$labels; ++$i) {
+			for (my $i = 1; $i <= $#$labels; ++$i) {
 				if ($i > $features) {
 					$self->do("vars f$i");
 					++$features;
@@ -2762,8 +2847,7 @@ sub cmd_ex {
 				$edge =~ /^([0-9]+):(.*)$/;
 				my $e = "edge " . ($nodes - 1) . " $2 "
 					. ($1 - 1);
-				print "edge: $e\n";
-				push @$edge, $e;
+				push @$edges, $e;
 			}
 		} else {
 			# Ignore garbage tokens
@@ -2778,8 +2862,23 @@ sub cmd_ex {
 		$self->do($edge);
 	}
 
+	# Set layout of nodes
+	my @features = sort(keys(%{$graph->vars()}));
+	push @features, "_position" if (! $nopos);
+	my $cmd = "layout -graph -vars /stream:.*/|" 
+		. join("|", @features);
+	$self->do("inline 0 #$title") if ($title ne "");
+	$self->do($cmd);
+	if ($title ne "") {
+		$self->do("node x");
+		my $titlenode = $graph->node($graph->size()-1);
+		$titlenode->input('    "' . $title . '"');
+	}
+
 	# Update display
 	$self->cmd_return();
+	$self->quiet($quiet);
+	$graph->offset(0);
 
 	# Return
 	return 1;
@@ -3267,7 +3366,7 @@ sub cmd_layout {
 	} elsif ($opt =~ /^-var\s+(\S+)\s+(.*)$/) {
 		# var: -var $var $regexp
 		$lparent->{'layout'}{'var'}{$1} 
-			= eval("sub {my \$v = \"\" . shift(); \$v =~ $2; \$v}");
+			= eval("sub {my \$v = shift(); \$v = \"\" if (!  defined(\$v)); \$v =~ $2; \$v}");
 	} elsif ($opt =~ /^-stream\s+(.*)$/) {
 		# stream: -stream $code
 		$lparent->{'layout'}{'stream'} 
@@ -5660,7 +5759,6 @@ sub cmd_relhelp {
 		. ($sname ne $lname ? " (long name: $lname)" : "") 
 		. " [row $lineno]\n";
 	print "\nDEFINITION: $ldescr\n" if (defined($ldescr));
-	print "\nEXAMPLES: $ex\n" if (defined($ex));
 	if ($name ne $sname && $name ne $lname) {
 		print "\nTHE RELATION $name IS DEPRECATED!\n";
 	}
@@ -5678,6 +5776,37 @@ sub cmd_relhelp {
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
 
+	# Examples
+	if (defined($ex)) {
+		# Print examples on screen
+		print "\nEXAMPLES: $ex\n\n";
+
+		# Create example graph
+		$ex =~ s/([^\n])\n([^\n])/$1 $2/g;
+		my @examples = split("\n+", $ex);
+		$self->cmd_example($graph, shift(@examples), 1);
+		my $egraph = $self->graph();
+		foreach my $example (@examples) {
+			$self->cmd_example($egraph, "-add " . $example, 1);
+
+		}
+
+		# Create viewer for example graph if non-existent
+		$egraph->mtime("");
+		$egraph->var("example", 1);
+		if (! $self->var("exfpsfile")) {
+			$self->do("viewer");
+		} else { 
+			$egraph->fpsfile($self->var("exfpsfile"));
+			$self->cmd_return()
+		}
+
+		# Close example graph
+		if ($egraph->var("example")) {
+			$self->cmd_close($egraph);
+		}
+	}
+
 	# Return
 	return 1;
 }
@@ -5687,6 +5816,8 @@ sub countname {
 	my $name = shift;
 	my $count = $relset->{$name}->[$REL_TCHILDCNT];
 	my $descr = $relset->{$name}->[$REL_SDESCR];
+	$count = "" if (! defined($count));
+	$descr = "" if (! defined($descr));
 	return "    $name = $descr" . ($count == 0 ? "" : " ($count)") .  "\n";
 }
 
@@ -7610,8 +7741,12 @@ sub cmd_viewer {
 	# Specify new follow file
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
-	$self->fpsfile($fpsfile);
 	$graph->fpsfile($fpsfile);
+	if ($graph->var("example")) {
+		$self->var("exfpsfile", $fpsfile);
+	} else {
+		$self->fpsfile($fpsfile);
+	}
 
 	# Update graph and viewer
 	$self->{'viewer'} = 1;
@@ -7839,6 +7974,10 @@ sub do {
 		$success = $self->cmd_aparse($graph, $2, $1)
 			if ($cmd =~ /^\s*aparse\s+-(\S+)\s+(\S+)\s*$/);
 
+		# As.example: as.example [$vars] [$from] [$to]
+		$success = $self->cmd_as_example($graph, $2, $4)
+			if ($cmd =~ /^\s*as.example\s*(\s+([^-+0-9]\S+))?(\s+(.*))?\s*$/);
+
 		# Autoalign: autoalign $alexicon
 		$success = $self->cmd_autoalign($graph, $2)
 			if ($cmd =~ /^\s*autoalign\s*(\s+(.+))?\s*$/);
@@ -7962,8 +8101,8 @@ sub do {
 			if ($cmd =~ /^\s*edit\s+([+-]?[0-9]+)\s*(.*)\s*$/);
 
 		# Example: ex $specification
-		$success = $self->cmd_ex($graph, $1) 
-			if ($cmd =~ /^\s*ex\s+(.*)$/);
+		$success = $self->cmd_example($graph, $1) 
+			if ($cmd =~ /^\s*example\s+(.*)$/);
 
 		# Exit: exit 
 		#     : quit
@@ -8002,9 +8141,6 @@ sub do {
 		# Inalign: inalign 
 		$success = $self->cmd_inalign($graph, $1, $2)
 			if ($cmd =~ /^\s*inalign\s+([0-9+]+)\s+([0-9+]+)\s*$/);
-
-		$success = $self->cmd_inline($graph, $1, $2) 
-			if ($cmd =~ /^\s*inline\s+([0-9]+)\s+(.*)$/);
 
 		# Inline: inline $pos $dtag_code
 		$success = $self->cmd_inline($graph, $1, $2) 
