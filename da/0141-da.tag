@@ -41,13 +41,13 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="6:time" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="6:succ" out="1:nobj">Efter</W>
 <W gloss="the_national_&amp;quot;_A_&amp;quot;_team's" lemma="A-landshold" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd|2:loc|4:time">A-landsholdets</W>
 <W gloss="practice" lemma="træning" msd="NCCSU==I" tag="NN" in="-1:possd" out="">træning</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="Nyborg" lemma="Nyborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nyborg</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-4:time" out="">i_går</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-6:time|4:subj|5:degr|6:vobj|25:pnct">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="4:subj|5:degr|6:vobj|25:pnct|-6:succ">havde</W>
 <W gloss="national_coach" lemma="landstræner" msd="NCCSU==I" tag="NN" in="3:title" out="">landstræner</W>
 <W gloss="Richard" lemma="Richard" msd="NP--U==-" tag="NNP" in="2:namef" out="">Richard</W>
 <W gloss="Møller" lemma="Møller" msd="NP--U==-" tag="NNP" in="1:namel" out="">Møller</W>
@@ -115,10 +115,10 @@
 <W gloss="games" lemma="kamp" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kampe</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj|2:pnct|3:time">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj|2:pnct|3:dur">har</W>
 <W gloss="played" lemma="spille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-6:[dobj]">spillet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-3:time" out="2:vobj">siden</W>
+<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-3:dur" out="2:vobj">siden</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:pobj">kom</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>

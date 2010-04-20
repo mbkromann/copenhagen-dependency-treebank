@@ -117,8 +117,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:preds" out="4:vobj">at</W>
 <W gloss="sex" lemma="sex" msd="NCCSU==I" tag="NN" in="3:subj" out="">sex</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
-<W gloss="any_more" lemma="længe" msd="RGC" tag="RP" in="1:time" out="">længere</W>
-<W gloss="interests" lemma="interessere" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|-1:time|1:dobj">interesserer</W>
+<W gloss="any_more" lemma="længe" msd="RGC" tag="RP" in="1:dur" out="">længere</W>
+<W gloss="interests" lemma="interessere" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|1:dobj|-1:dur">interesserer</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

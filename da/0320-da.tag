@@ -46,8 +46,8 @@
 <W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-3:lobj" out="2:conj">ind</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="visit" lemma="besøge" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-4:[subj]|-1:coord|1:dobj">besøge</W>
-<W gloss="Magnild" lemma="Magnild" msd="NP--U==-" tag="NNP" in="-1:dobj" out="1:dir">Magnild</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:dir" out="1:nobj">fra</W>
+<W gloss="Magnild" lemma="Magnild" msd="NP--U==-" tag="NNP" in="-1:dobj" out="1:other">Magnild</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="Chatline" lemma="træfpunkt" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Træfpunktet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="asks" lemma="spørge" msd="VADR=----A-" tag="VBD" in="" out="-10:qobj|1:subj|2:pnct">spørger</W>
@@ -168,8 +168,8 @@
 </s>
 <s>
 <W gloss="Maja" lemma="Maja" msd="NP--U==-" tag="NNP" in="1:subj" out="">Maja</W>
-<W gloss="lifts" lemma="løfte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:dobj|3:pnct">løfter</W>
-<W gloss="momentarily" lemma="midlertidig" msd="ANP---=-R" tag="JJ" in="-1:time" out="">midlertidigt</W>
+<W gloss="lifts" lemma="løfte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:dobj|3:pnct|1:dur">løfter</W>
+<W gloss="momentarily" lemma="midlertidig" msd="ANP---=-R" tag="JJ" in="-1:dur" out="">midlertidigt</W>
 <W gloss="gaze" lemma="blik" msd="NCNSU==D" tag="NN" in="-2:dobj" out="">blikket</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>

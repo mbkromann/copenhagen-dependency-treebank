@@ -230,13 +230,13 @@
 </s>
 <s>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">Man</W>
-<W gloss="get" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|6:cause|12:pnct">bliver</W>
+<W gloss="get" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|6:reas|12:pnct">bliver</W>
 <W gloss="cared" lemma="pusle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:degr|3:pobj">puslet</W>
 <W gloss="additional" lemma="ekstra" msd="ANP---=-R" tag="JJ" in="1:degr" out="">ekstra</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:degr" out="-1:degr">meget</W>
 <W gloss="on_the" lemma="om" msd="RGU" tag="RP" in="-3:pobj" out="">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:cause" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:reas" out="2:vobj">fordi</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:other|2:dobj">er</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:other" out="">jo</W>

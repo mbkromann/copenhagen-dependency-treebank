@@ -87,7 +87,7 @@
 <p>
 <s>
 <W gloss="Thus" lemma="dermed" msd="RGU" tag="RP" in="1:struct" out="">Dermed</W>
-<W gloss="is_taking" lemma="tage" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|3:man|4:dobj|10:pobj|12:pnct|13:cause">tager</W>
+<W gloss="is_taking" lemma="tage" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|3:man|4:dobj|10:pobj|12:pnct|13:struct">tager</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="literal" lemma="bogstavelig" msd="ANP---=-R" tag="JJ" in="1:man" out="">bogstavelig</W>
 <W gloss="spoken" lemma="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:man" out="-1:man">talt</W>
@@ -100,7 +100,7 @@
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-10:pobj" out="1:nobj">på</W>
 <W gloss="word" lemma="ord" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">ordet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W gloss="since" lemma="idet" msd="CS" tag="IN" in="-13:cause" out="7:vobj">idet</W>
+<W gloss="since" lemma="idet" msd="CS" tag="IN" in="-13:struct" out="7:vobj">idet</W>
 <W gloss="the_vice_chairman" lemma="næstformand" msd="NCCSU==D" tag="NN" in="6:subj" out="1:loc">næstformanden</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -174,7 +174,7 @@
 </p>
 <p>
 <s>
-<W gloss="Since" lemma="siden" msd="CS" tag="IN" in="16:time" out="6:vobj">Siden</W>
+<W gloss="Since" lemma="siden" msd="CS" tag="IN" in="16:succ" out="6:vobj">Siden</W>
 <W gloss="Youth_Housing" lemma="Ungbo" msd="NP--U==-" tag="NNP" in="5:subj" out="">Ungbo</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="4:time" out="1:nobj|3:part">for</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>
@@ -190,7 +190,7 @@
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:numm|1:nobj">mill.</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-16:time|1:expl|2:neg|3:vobj|21:pnct">er</W>
+<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-16:succ|1:expl|2:neg|3:vobj|21:pnct">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|2:[expl]" out="">der</W>
 <W gloss="hardly" lemma="næppe" msd="RGU" tag="RP" in="-2:neg" out="">næppe</W>
 <W gloss="passed" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|1:dobj|3:other">gået</W>
@@ -231,8 +231,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="150" lemma="150" msd="AC---U=--" tag="CD" in="4:subj" out="1:mod|2:loc">150</W>
-<W gloss="employees" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">ansatte</W>
+<W gloss="150" lemma="150" msd="AC---U=--" tag="CD" in="4:subj" out="2:loc|1:other">150</W>
+<W gloss="employees" lemma="ansætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:other" out="">ansatte</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:loc" out="1:nobj">på</W>
 <W gloss="the_main_office" lemma="hovedkontor" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedkontoret</W>
 <W gloss="risk" lemma="risikere" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:dobj|3:pnct|17:conj|21:pnct">risikerer</W>

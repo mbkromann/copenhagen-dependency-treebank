@@ -109,8 +109,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">kan</W>
-<W gloss="remember" lemma="huske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-4:[dobj]|1:time">huske</W>
-<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:time" out="3:other">i</W>
+<W gloss="remember" lemma="huske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-4:[dobj]|1:dur">huske</W>
+<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:dur" out="3:other">i</W>
 <W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">lang</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="1:tobj" out="-1:attr">tid</W>
 <W gloss="afterwards" lemma="efter" msd="RGU" tag="RP" in="-3:other" out="-1:tobj">efter</W>

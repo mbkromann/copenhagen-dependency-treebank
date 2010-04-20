@@ -123,10 +123,10 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|37:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:other|1:subj|2:other|3:time|6:vobj">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:other|1:subj|2:other|6:vobj|3:prec">skal</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|5:[subj]|6:[subj]" out="">de</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:other" out="">ellers</W>
-<W gloss="before" lemma="inden" msd="SP" tag="IN" in="-3:time" out="2:nobj">inden</W>
+<W gloss="before" lemma="inden" msd="SP" tag="IN" in="-3:prec" out="2:nobj">inden</W>
 <W gloss="3," lemma="3." msd="AO---U=--" tag="JJ" in="1:nobj" out="">3.</W>
 <W gloss="May" lemma="maj" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:nobj">maj</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="-5:[subj]|1:vobj">have</W>
@@ -166,7 +166,7 @@
 <W gloss="For" lemma="for" msd="SP" tag="IN" in="3:ben" out="1:nobj">For</W>
 <W gloss="the_negotiation_climate" lemma="forhandlingsklima" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">forhandlingsklimaets</W>
 <W gloss="sake" lemma="skyld" msd="NCCSU==I" tag="NN" in="-1:possd" out="">skyld</W>
-<W gloss="is_encouraging" lemma="opfordre" msd="VADR=----A-" tag="VBD" in="" out="-3:ben|1:subj|2:dobj|3:pobj|13:pnct|14:time|18:pnct">opfordrer</W>
+<W gloss="is_encouraging" lemma="opfordre" msd="VADR=----A-" tag="VBD" in="" out="-3:ben|1:subj|2:dobj|3:pobj|13:pnct|18:pnct|14:dur">opfordrer</W>
 <W gloss="the_Division_Association" lemma="divisionsforening" msd="NCCSU==D" tag="NN" in="-1:subj" out="">Divisionsforeningen</W>
 <W gloss="clubs" lemma="klub" msd="NCCPU==D" tag="NNP" in="-2:dobj|3:[subj]" out="">klubberne</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
@@ -180,7 +180,7 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">nye</W>
 <W gloss="contracts" lemma="kontrakt" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">kontrakter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="as_long_as" lemma="sålænge" msd="RGU" tag="RP" in="-14:time" out="2:vobj">sålænge</W>
+<W gloss="as_long_as" lemma="sålænge" msd="RGU" tag="RP" in="-14:dur" out="2:vobj">sålænge</W>
 <W gloss="the_negotiations" lemma="forhandling" msd="NCCPU==D" tag="NNP" in="1:subj" out="">forhandlingerne</W>
 <W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:avobj">står</W>
 <W gloss="in" lemma="på" msd="RGU" tag="RP" in="-1:avobj" out="">på</W>

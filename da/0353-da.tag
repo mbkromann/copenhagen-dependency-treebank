@@ -75,8 +75,8 @@
 <p>
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
-<W gloss="Why" lemma="hvorfor" msd="RGU" tag="RP" in="1:cause" out="">Hvorfor</W>
-<W gloss="is_called" lemma="hedde" msd="VADR=----A-" tag="VBD" in="4:qobj" out="-2:pnct|-1:cause|1:subj|2:dobj|3:pnct">hedder</W>
+<W gloss="Why" lemma="hvorfor" msd="RGU" tag="RP" in="1:reas" out="">Hvorfor</W>
+<W gloss="is_called" lemma="hedde" msd="VADR=----A-" tag="VBD" in="4:qobj" out="-2:pnct|-1:reas|1:subj|2:dobj|3:pnct">hedder</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:subj" out="">den</W>
 <W gloss="Scraggly" lemma="Pjuske" msd="NP--U==-" tag="NNP" in="-2:dobj" out="">Pjuske</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-3:pnct" out="">?</W>

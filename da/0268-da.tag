@@ -40,10 +40,10 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:other|2:nobj|3:dir">Den</W>
+<W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:other|2:nobj|3:other">Den</W>
 <W gloss="8-year_old" lemma="8-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:other" out="">8-årige</W>
 <W gloss="boy" lemma="knægt" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">knægt</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-3:dir" out="1:nobj">fra</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-3:other" out="1:nobj">fra</W>
 <W gloss="Thorning" lemma="Thorning" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Thorning</W>
 <W gloss="lax" lemma="slippe" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|1:pobj|3:pobj|9:pnct">slap</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
@@ -72,9 +72,9 @@
 <s>
 <W gloss="Morten" lemma="Morten" msd="NP--U==-" tag="NNP" in="1:subj" out="">Morten</W>
 <W gloss="fell" lemma="styrte" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:lobj">styrtede</W>
-<W gloss="25" lemma="25" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">25</W>
+<W gloss="25" lemma="25" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">25</W>
 <W gloss="metres" lemma="meter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">meter</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="-2:mod|1:other">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="1:other|-2:other">ned</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="well" lemma="brønd" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">brønd</W>
@@ -124,9 +124,9 @@
 <W gloss="Søren" lemma="Søren" msd="NP--U==-" tag="NNP" in="1:namef" out="">Søren</W>
 <W gloss="Hansen" lemma="Hansen" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Hansen</W>
 <W gloss="hoisted" lemma="hejse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|3:lobj|6:goal">hejst</W>
-<W gloss="25" lemma="25" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">25</W>
+<W gloss="25" lemma="25" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">25</W>
 <W gloss="metres" lemma="meter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">meter</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="-2:mod|1:other">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="1:other|-2:other">ned</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_depths" lemma="dyb" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">dybet</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-6:goal" out="1:nobj">for</W>
@@ -143,9 +143,9 @@
 <p>
 <s>
 <W gloss="Here" lemma="her" msd="RGU" tag="RP" in="7:preds" out="3:loc">Her</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">to</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">to</W>
 <W gloss="metres" lemma="meter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">meter</W>
-<W gloss="below" lemma="under" msd="SP" tag="IN" in="-3:loc" out="-2:mod|3:nobj">under</W>
+<W gloss="below" lemma="under" msd="SP" tag="IN" in="-3:loc" out="3:nobj|-2:other">under</W>
 <W gloss="rescue_worker" lemma="redder" msd="NCCSU==I" tag="NN" in="2:title" out="">redder</W>
 <W gloss="Søren" lemma="Søren" msd="NP--U==-" tag="NNP" in="1:namef" out="">Søren</W>
 <W gloss="Hansen" lemma="Hansen" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-2:title|-1:namef">Hansen</W>
@@ -164,11 +164,11 @@
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
 <W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:vobj">er</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:subj|1:[subj]" out="">den</W>
-<W gloss="covered" lemma="dække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:pobj|2:agent|4:man">dækket</W>
+<W gloss="covered" lemma="dække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:pobj|2:agent|4:inst">dækket</W>
 <W gloss="over" lemma="til" msd="RGU" tag="RP" in="-1:pobj" out="">til</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:agent" out="1:nobj">af</W>
 <W gloss="the_municipality" lemma="kommune" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kommunen</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:man" out="2:nobj">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:inst" out="2:nobj">med</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="1:numm" out="">flere</W>
 <W gloss="hundred" lemma="hundrede" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:numm|1:nobj">hundrede</W>
 <W gloss="kilos" lemma="kilo" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:nobj">kilo</W>
@@ -192,8 +192,8 @@
 <div1 type=caption>
 <p>
 <s>
-<W gloss="The_mini-miniput_player" lemma="mini-miniput-spiller" msd="NCCSU==D" tag="NN" in="3:subj|5:[subj]|8:[subj]" out="1:dir">Mini-miniput-spilleren</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:dir" out="1:nobj">fra</W>
+<W gloss="The_mini-miniput_player" lemma="mini-miniput-spiller" msd="NCCSU==D" tag="NN" in="3:subj|5:[subj]|8:[subj]" out="1:other">Mini-miniput-spilleren</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="Thorning" lemma="Thorning" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Thorning</W>
 <W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:other|2:vobj|8:pnct">skal</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:other" out="">nok</W>

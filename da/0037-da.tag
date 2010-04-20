@@ -125,8 +125,8 @@
 <W gloss="unpleasant" lemma="kedelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">kedelig</W>
 <W gloss="consequence" lemma="følge" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">følge</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:other" out="1:man">set</W>
-<W gloss="from" lemma="med" msd="SP" tag="IN" in="-1:man" out="1:nobj">med</W>
+<W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:other" out="1:inst">set</W>
+<W gloss="from" lemma="med" msd="SP" tag="IN" in="-1:inst" out="1:nobj">med</W>
 <W gloss="the_industry's_eyes" lemma="brancheøje" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">brancheøjne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -184,9 +184,9 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="5:vobj">at</W>
 <W gloss="200" lemma="200" msd="AC---U=--" tag="CD" in="4:subj" out="1:nobj">200</W>
 <W gloss="jobs" lemma="job" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">job</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="2:cause" out="1:nobj">af</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="2:reas" out="1:nobj">af</W>
 <W gloss="savings_considerations" lemma="sparehensyn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">sparehensyn</W>
-<W gloss="chopped" lemma="skære" msd="VADR=----P-" tag="VBD" in="-5:vobj" out="-4:subj|-2:cause|1:avobj|2:loc">skæres</W>
+<W gloss="chopped" lemma="skære" msd="VADR=----P-" tag="VBD" in="-5:vobj" out="-4:subj|-2:reas|1:avobj|2:loc">skæres</W>
 <W gloss="apart" lemma="bort" msd="RGU" tag="RP" in="-1:avobj" out="">bort</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
@@ -197,8 +197,8 @@
 </p>
 <p>
 <s>
-<W gloss="Previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:time" out="">Tidligere</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|4:dobj|7:loc|9:pnct">havde</W>
+<W gloss="Previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:prec" out="">Tidligere</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="1:subj|4:dobj|7:loc|9:pnct|-1:prec">havde</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">de</W>
 <W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="Brugsens" lemma="brugs" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">Brugser</W>

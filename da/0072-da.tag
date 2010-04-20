@@ -248,14 +248,14 @@
 <s>
 <W gloss="Everybody" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj|2:[subj]" out="">Alle</W>
 <W gloss="wanted_to" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|12:pnct">ville</W>
-<W gloss="get" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:time">ha'</W>
+<W gloss="get" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:succ">ha'</W>
 <W gloss="hold" lemma="fat" msd="RGU" tag="RP" in="-1:dobj" out="1:pobj">fat</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Brøndby's" lemma="Brøndby" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|3:appr">Brøndbys</W>
 <W gloss="500-kampsjubilar" lemma="500-kampsjubilar" msd="NCCSU==I" tag="NN" in="-1:possd" out="">500-kampsjubilar</W>
 <W gloss="Bjarne" lemma="Bjarne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Bjarne</W>
 <W gloss="Jensen" lemma="Jensen" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Jensen</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-7:time" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-7:succ" out="1:nobj">efter</W>
 <W gloss="the_match" lemma="kamp" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:loc">kampen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Lyngby" lemma="Lyngby" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Lyngby</W>

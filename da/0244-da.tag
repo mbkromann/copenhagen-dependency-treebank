@@ -89,14 +89,14 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="9:vobj">at</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="3:[subj]|8:subj|9:[subj]" out="">de</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="7:dir" out="1:nobj">fra</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="7:other" out="1:nobj">fra</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="being" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|3:time|1:preds">være</W>
 <W gloss="45" lemma="45" msd="AC---U=--" tag="CD" in="-1:preds" out="1:nobj">45</W>
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">børn</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:time" out="1:nobj">i</W>
 <W gloss="1991," lemma="1991" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1991</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-7:dir|1:vobj">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-7:other|1:vobj">vil</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|3:time|1:preds">være</W>
 <W gloss="55" lemma="55" msd="AC---U=--" tag="CD" in="-1:preds" out="1:nobj">55</W>
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">børn</W>
@@ -127,8 +127,8 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:vobj">vil</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">blive</W>
-<W gloss="expanded" lemma="udvide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:cause">udvidet</W>
-<W gloss="for" lemma="af" msd="SP" tag="IN" in="-1:cause" out="1:nobj">af</W>
+<W gloss="expanded" lemma="udvide" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:reas">udvidet</W>
+<W gloss="for" lemma="af" msd="SP" tag="IN" in="-1:reas" out="1:nobj">af</W>
 <W gloss="that" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="reason" lemma="grund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">grund</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
