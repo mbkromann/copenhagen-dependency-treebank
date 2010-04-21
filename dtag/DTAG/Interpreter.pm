@@ -5841,7 +5841,8 @@ sub cmd_relhelp {
 		# Create viewer for example graph if non-existent
 		$egraph->mtime("");
 		$egraph->var("example", 1);
-		if (! $self->var("exfpsfile")) {
+		my $exfpsfile = $self->var("exfpsfile");
+		if (! ($exfpsfile && `ps axu | grep $exfpsfile | grep -v grep`)) {
 			$self->do("viewer");
 		} else { 
 			my $exfpsfile = $self->var("exfpsfile");
@@ -7822,7 +7823,6 @@ sub cmd_viewer {
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
 	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
-		print "Starting example viewer $fpsfile\n";
 		$self->var("exfpsfile", $fpsfile);
 		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
 			if (! $graph->var("example"));
