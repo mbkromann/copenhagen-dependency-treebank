@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="10:subj" out="1:nobj">The</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj.patient">proposal</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;dobj.patient" out="3:nobj">for</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="">proposal</W>
+<W msd="SP" tag="IN" in="" out="3:nobj">for</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">joint</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;subj.agent#" out="">group</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:noun&3a;subj.agent#|1:pobj">meetings</W>
