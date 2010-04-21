@@ -13,7 +13,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">catch</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">sight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj|11:[subj]" out="11:relr|1:pobj&3a;const">men</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj|11:[subj]" out="1:pobj&3a;const|11:relr">men</W>
 <W msd="SP" tag="IN" in="-1:pobj&3a;const" out="1:nobj|4:coord">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:attr" out="">sallow</W>
@@ -47,7 +47,7 @@
 <W msd="VADR" tag="VBP" in="" out="-4:subj|1:att|3:preds|7:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:att" out="">simply</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient#" out="">film</W>
-<W msd="NC=P" tag="NNS" in="-3:preds" out="3:conj|-1:noun&3a;dobj.patient#">reviewers</W>
+<W msd="NC=P" tag="NNS" in="-3:preds" out="-1:noun&3a;dobj.patient#|3:conj">reviewers</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:degr" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-3:conj" out="-1:degr|-2:coord">harmless</W>
@@ -124,13 +124,13 @@
 <W msd="VADR" tag="VBP" in="" out="-7:subj|1:preds|20:pnct|25:conj|33:pnct">make</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">sure</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|3:loc|-10:[subj]">introduce</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|2:dobj|3:loc">introduce</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">films</W>
 <W msd="SP" tag="IN" in="-3:loc" out="3:nobj">at</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">special</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="">press</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|1:pnct|8:prec|-1:noun&3a;func#">screenings</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:noun&3a;func#|1:pnct|8:prec">screenings</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="4:prg" out="1:nobj|3:pnct">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -151,7 +151,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:goal">time</W>
 <W msd="U=" tag="TO" in="-1:goal" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|-8:[subj]">do</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">do</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">work</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>

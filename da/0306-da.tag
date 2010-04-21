@@ -47,10 +47,10 @@
 <W gloss="health" lemma="helbred" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">helbredet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
-<W gloss="write" lemma="skrive" msd="VAM-=------" tag="VB" in="" out="-7:xtop|1:pobj|15:pnct|-1:other">skriv</W>
+<W gloss="write" lemma="skrive" msd="VAM-=------" tag="VB" in="" out="-7:xtop|-1:other|1:pobj|15:pnct">skriv</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">til</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="The_Doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct|2:pnct|5:pnct|8:pnct|3:other|6:other|9:other">Lægerne</W>
+<W gloss="The_Doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct|2:pnct|3:other|5:pnct|6:other|8:pnct|9:other">Lægerne</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="Weekly_Magazine" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="-3:other" out="1:appr">Ugemagasinet</W>
@@ -66,7 +66,7 @@
 </s>
 <s>
 <W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:other" out="">Kun</W>
-<W gloss="Weekly_Magazine's" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="3:subj|4:[subj]" out="1:appr|-1:other|2:poss&3a;origin">Ugemagasinet</W>
+<W gloss="Weekly_Magazine's" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="3:subj|4:[subj]" out="-1:other|1:appr|2:poss&3a;origin">Ugemagasinet</W>
 <W gloss="SUNDAY" lemma="søndag" msd="NCCSG==I" tag="NN" in="-1:appr" out="">SØNDAG's</W>
 <W gloss="doctors" lemma="læge" msd="NCCPU==I" tag="NNP" in="-2:poss&3a;origin" out="">læger</W>
 <W gloss="may" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct">må</W>
@@ -85,7 +85,7 @@
 <W gloss="take_upon" lemma="påtage" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:iobj|2:dobj">påtage</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
-<W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|-7:[subj]">give</W>
+<W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|2:dobj">give</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">private</W>
 <W gloss="response" lemma="svar" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:attr">svar</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -122,7 +122,7 @@
 <s>
 <W gloss="However" lemma="men" msd="CC" tag="CC" in="2:contr" out="">Men</W>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="raises" lemma="rejse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|-2:contr|18:pnct">rejser</W>
+<W gloss="raises" lemma="rejse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:contr|1:dobj|18:pnct">rejser</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|4:pnct|5:ref|7:rel">en</W>
 <W gloss="the_long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lang</W>
 <W gloss="series" lemma="række" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:noun&3a;apart">række</W>
@@ -171,7 +171,7 @@
 </s>
 <s>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|9:[subj]|13:[subj]|19:[subj]" out="">Hun</W>
-<W gloss="had" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:dobj|7:pnct|8:conj|12:conj|22:pnct|5:man">fik</W>
+<W gloss="had" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:dobj|5:man|7:pnct|8:conj|12:conj|22:pnct">fik</W>
 <W gloss="Early_on" lemma="tidlig" msd="ANP---=-R" tag="JJ" in="-1:time" out="">tidligt</W>
 <W gloss="3" lemma="3" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj">3</W>
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">børn</W>

@@ -83,7 +83,7 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:succ" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-1:subj|-2:succ|1:@dir|7:conj|2:dir">leaned</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-1:subj|-2:succ|1:@dir|2:dir|7:conj">leaned</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="">forward</W>
 <W msd="SP" tag="IN" in="-2:dir" out="1:nobj">towards</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr">the</W>

@@ -47,7 +47,7 @@
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">upon</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">themselves</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|-8:[subj]">provide</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">provide</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">private</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">response</W>
@@ -56,7 +56,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:noun&3a;dobj.patient#" out="">BIRTH</W>
 <W msd="NP=S" tag="NNP" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">CONTROL</W>
-<W msd="NP=S" tag="NNP" in="" out="1:dur|3:pnct|-1:noun&3a;func#">PILLS</W>
+<W msd="NP=S" tag="NNP" in="" out="-1:noun&3a;func#|1:dur|3:pnct">PILLS</W>
 <W msd="NP=S" tag="NNP" in="-1:dur" out="1:nobj">DURING</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">MENOPAUSE</W>
 <W msd="XP" tag="." in="-3:pnct" out="">?</W>
@@ -85,7 +85,7 @@
 <W msd="ANP" tag="RB" in="3:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="1:subj" out="">this</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|25:pnct|-3:contr">raises</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:contr|1:dobj|25:pnct">raises</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|5:pnct|6:ref|9:relr|17:exem">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj&3a;arg">series</W>
@@ -181,7 +181,7 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-3:reas|3:dobj|13:pnct">chose</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient" out="">birth</W>
 <W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient">control</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="1:pnct|2:ref|3:relpa|-1:noun&3a;func#">pills</W>
+<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:noun&3a;func#|1:pnct|2:ref|3:relpa">pills</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADR" tag="VBP" in="-3:relpa" out="-1:subj|1:vobj">have</W>

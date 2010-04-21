@@ -188,7 +188,7 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|5:nobj">shame</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="2:nobj|1:attr">the</W>
+<W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">thing</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
