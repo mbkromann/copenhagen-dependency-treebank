@@ -2590,7 +2590,8 @@ sub cmd_edge {
 
 	# Add edge(s) and mark graph as modified
 	foreach my $t (split(/\s+/, $etype)) {
-		$graph->edge_add(Edge->new($nodein, $nodeout, $t));
+		$graph->edge_add(Edge->new($nodein, $nodeout, $t))
+			if ($t !~ /^\s*$/);
 	}
 
 	# Update graph as modified
@@ -6073,6 +6074,7 @@ sub cmd_relsetpdf {
 	my $self = shift;
 	my $graph = shift;
 	my $filename = shift;
+	my $relations = shift || "ANY";
 
 	# Find relset, filename, and basename
 	my $relsetname = $graph->relsetname();
@@ -6085,11 +6087,22 @@ sub cmd_relsetpdf {
 	print "Creating directory $dir\n";
 	mkdir($dir);
 
+	# 
 	# Open filename
+	my $latex = "$dir/manual.tex";
+	my $figs = "$dir/fig-";
+	my $nfigs = 0;
+	
+	my $visited = {};	
 
 
 }
 
+sub print_relsetpdf_fig {
+	my $self = shift;
+	my $cmd = shift;
+	my $name = shift;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_replace.pl
@@ -7817,7 +7830,7 @@ sub cmd_view_align {
 sub cmd_viewer {
 	my $self = shift;
 	my $graph = shift;
-	my $option = shift;
+	my $option = shift || "";
 
 	# Specify new follow file
 	++$viewer;
@@ -7829,11 +7842,10 @@ sub cmd_viewer {
 	} else {
 		$self->fpsfile($fpsfile);
 	}
-	$graph->fpsfile($fpsfile);
-	$self->cmd_return($graph);
-
 	# Update graph and viewer
 	$self->{'viewer'} = 1;
+	$graph->fpsfile($fpsfile);
+	$self->cmd_return($graph);
 
 	# Call viewer on $fpsfile
 	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
