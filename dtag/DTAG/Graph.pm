@@ -2464,9 +2464,19 @@ sub rel_agovs {
 sub relset {
 	my $self = shift;
 	my $interpreter = $self->interpreter();
-	my $relsetname = shift || $self->var("relset") 
+	return $interpreter->var("relsets")->{
+		$self->relsetname(shift)} || {};
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/relsetname.pl
+## ------------------------------------------------------------
+
+sub relsetname {
+	my $self = shift;
+	my $interpreter = $self->interpreter();
+	return shift || $self->var("relset") 
 		|| $interpreter->var("relset");
-	return $interpreter->var("relsets")->{$relsetname} || {};
 }
 
 ## ------------------------------------------------------------

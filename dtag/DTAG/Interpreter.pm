@@ -5621,6 +5621,7 @@ sub cmd_print {
 		my $tmpfile2 = $file . ".final";
 		#open(PSFILE, ">:encoding(iso-8859-1)", $file . "~") 
 		#open(PSFILE, ">:utf8", $tmpfile) 
+		#print "Printing $tmpfile $tmpfile2 $file\n";
 		open(PSFILE, ">", $tmpfile) 
 			|| return error("cannot open file $file for printing!");
 		print PSFILE $ps;
@@ -5629,8 +5630,8 @@ sub cmd_print {
 		my $cmd = $iconv . " $tmpfile > $tmpfile2";
 		system("cp $tmpfile $tmpfile2");
 		system($cmd);
-		system("rm $tmpfile");
 		system("cp $tmpfile2 $file");
+		system("rm $tmpfile");
 		system("rm $tmpfile2");
 	}
 
@@ -5843,11 +5844,13 @@ sub cmd_relhelp {
 		if (! $self->var("exfpsfile")) {
 			$self->do("viewer");
 		} else { 
-			$egraph->fpsfile($self->var("exfpsfile"));
-			$self->cmd_return()
+			my $exfpsfile = $self->var("exfpsfile");
+			$egraph->fpsfile($exfpsfile);
 		}
+		$self->cmd_return($egraph);
 
 		# Close example graph
+		$self->var("examplegraph", $egraph);
 		if ($egraph->var("example")) {
 			$self->cmd_close($egraph);
 		}
@@ -6062,6 +6065,32 @@ sub add_relation_nodes {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_relsetpdf.pl
+## ------------------------------------------------------------
+
+sub cmd_relsetpdf {
+	my $self = shift;
+	my $graph = shift;
+	my $filename = shift;
+
+	# Find relset, filename, and basename
+	my $relsetname = $graph->relsetname();
+	$filename = "$relsetname-manual.pdf" if (! $filename);
+
+	# Create directory
+	my $dir = "$filename";
+	$dir =~ s/.pdf$//g;
+	$dir .= ".dir";
+	print "Creating directory $dir\n";
+	mkdir($dir);
+
+	# Open filename
+
+
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_replace.pl
 ## ------------------------------------------------------------
 
@@ -6190,8 +6219,9 @@ sub cmd_return {
 	$graph->update();
 
 	# Print follow file
-	$self->cmd_print($graph, undef, 1)
-		if ($self->{'viewer'});
+	if ($self->{'viewer'}) {
+		$self->cmd_print($graph, undef, 1);
+	}
 	return 1;
 }
 
@@ -7786,25 +7816,28 @@ sub cmd_view_align {
 sub cmd_viewer {
 	my $self = shift;
 	my $graph = shift;
+	my $option = shift;
 
 	# Specify new follow file
 	++$viewer;
 	my $fpsfile = "/tmp/dtag-$$-$viewer.ps";
-	$graph->fpsfile($fpsfile);
-	if ($graph->var("example")) {
+	if ($graph->var("example") || $option eq "-e" || $option eq "-example") {
+		print "Starting example viewer $fpsfile\n";
 		$self->var("exfpsfile", $fpsfile);
+		$graph = $self->var("examplegraph") || DTAG::Graph->new($self)
+			if (! $graph->var("example"));
 	} else {
 		$self->fpsfile($fpsfile);
 	}
+	$graph->fpsfile($fpsfile);
+	$self->cmd_return($graph);
 
 	# Update graph and viewer
 	$self->{'viewer'} = 1;
-	$self->cmd_return($graph);
 
 	# Call viewer on $fpsfile
 	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
 	$viewcmd =~ s/\$file/$fpsfile/g;
-	#print "viewer=", $viewcmd;
 	system($viewcmd);
 
 	# Set follow file for current graph
@@ -8472,8 +8505,8 @@ sub compound_autonumber {
 				$cmd =~ /^\s*view\s+([a-z][0-9]+)\s*$/);
 
 		# Viewer: viewer
-		$success = $self->cmd_viewer($graph) 
-			if ($cmd =~ /^\s*viewer\s*$/);
+		$success = $self->cmd_viewer($graph, $2) 
+			if ($cmd =~ /^\s*viewer(\s+(-e(xample)?))?\s*$/);
 
 		# Webmap
 		$success = $self->cmd_webmap($graph, $2)
