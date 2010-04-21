@@ -80,8 +80,8 @@ style xland -arc -color red
 style speaker:1 -label -fonttype bold -color blue -arclabel -color blue -arc -color blue
 style speaker:2 -label -fonttype bold -color green -arclabel -color green -arc -color green
 style speaker:A -label -fonttype bold -color red -arclabel -color red -arc -color red
-style match -label -fonttype bold -color red
-style ematch -arc -color red -arclabel -fonttype bold -color red
+style match -label -fonttype bold -color darkred
+style ematch -arc -color cyan -arclabel -fonttype bold -color darkred
 style red -label -color red -arclabel -color red -arc -color red -dash dot
 style redlbl -label -color red -fonttype bold
 style blue -label -color blue -arclabel -color blue -arc -color blue -ps "[1 1] 0 setdash"
@@ -171,40 +171,44 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 macro cdtrels relset cdt http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv 
 cdtrels
 
+# Automatic edge splitting (to allow multiple edges to be specified as
+# a single edge)
+edgesplit s/{/ {/g
+
 # Edge types
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#
 
 # Complement relations
-etypes -comp aobj avobj dobj expl fobj iobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj vobj
+#etypes -comp aobj avobj dobj expl fobj iobj nobj numa numm part pobj pobj:arg possd possr preds predo predf qobj robj subj vobj
 
 # Adjunct relations replacing "mod" (Lotte's list)
-etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond poss prec prg reas source space struct succ time
+#etypes -adj add agent att ben bg cause comp mcomp conc cond cons cont contr degr dir dur elab epi eval ex ext focal goal hab inst loc man neg other pcond poss prec prg reas source space struct succ time
 
 # Other adjunct relations
-etypes -add -adj appa + appr attr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
+#etypes -add -adj appa + appr attr conj coord correl discmark fpred fpredo fpreds list \n name namef namel part pnct rel relelab relr title voc xtop
 
 # Adjunct relations with unclear status (are they allowed/disallowed?)
-etypes -add -adj about class concom const exem exp func path relp relpa resem rest spec xpl intact
+#etypes -add -adj about class concom const exem exp func path relp relpa resem rest spec xpl intact
 
 # Deleted by Lotte
 # etypes -add adjuncts discmark
 
 # Discourse relations 
-etypes -add -adj ANSW CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DIREC DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec EXPR INSTR JOINT JUST QUEST STRUCT STRUCT:rep STRUCT:prep SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ INTACT:attn INTACT:inter INTACT
+#etypes -add -adj ANSW CAUSE CAUSE:expl CAUSE:goal CAUSE:reas CIRCUM CONC COND CONJ CONJ:seq CONS CONS:dir CONS:prg CONTR CONTR:dir CONTR:prg DESCR DESCR:eval DESCR:qual DIREC DISJ ELAB ELAB:class ELAB:exem ELAB:exp ELAB:part ELAB:rest ELAB:spec EXPR INSTR JOINT JUST QUEST STRUCT STRUCT:rep STRUCT:prep SUPPORT TIME TIME:cont TIME:hab TIME:prec TIME:succ INTACT:attn INTACT:inter INTACT
 
 # Anaphoric relations
-etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
+#etypes -ref ref coref coref-id coref-var coref-res coref-prg coref-part assoc assoc-cause assoc-const assoc-agent assoc-form assoc-scope assoc-loc
 
 # Morphological relations
-etypes -add -adj origin interfix PRED:agent dobj.patient 
+#etypes -add -adj origin interfix PRED:agent dobj.patient 
 
 # Dummy path
-etypes -add -adj ... 
+#etypes -add -adj ... 
 
 # etypes -gap <avobj> <dobj> <lobj> <mod> <nobj> <pobj:nobj> <pobj> <pred> <subj:pobj> <subj> <xpl>
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
-etypes -land land xland \n\n
+#etypes -land land xland \n\n
 
 # Command log
 user -f /home/cdt/.cdtname

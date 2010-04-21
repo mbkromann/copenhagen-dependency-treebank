@@ -49,7 +49,6 @@ require Encode;
 use strict;
 
 # Graph identifier
-my $graph_id = 0;
 my $DEFAULT_LOOKAHEAD = 50;
 
 # PostScript 
@@ -133,6 +132,17 @@ sub abbr2var {
 
 	# Not found
 	return undef;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/bindgraph.pl
+## ------------------------------------------------------------
+
+sub bindgraph {
+	my $self = shift;
+	my $bindings = shift;
+	my $key = shift || "G";
+	$bindings->{$key} = "G:" . $self->id();
 }
 
 ## ------------------------------------------------------------
@@ -793,18 +803,23 @@ sub governor {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Graph/graph_id.pl
+##  auto-inserted from: Graph/graph.pl
 ## ------------------------------------------------------------
 
-=item $graph->graph_id() = $id
-
-Return graph ID associated with graph.
-
-=cut
-
-sub graph_id {
+sub graph {
 	my $self = shift;
-	return '[G' . $self->{'graph_id'} . ']';
+	my $key = shift;
+	$key = "" if (! defined($key));
+	return ($key eq "") ? $self : undef;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/id.pl
+## ------------------------------------------------------------
+
+sub id {
+	my $self = shift;
+	return "G[" . $self->{'id'} . "]";
 }
 
 ## ------------------------------------------------------------
@@ -879,7 +894,10 @@ sub is_adjunct {
 	$type =~ s/\/ATTR[0-9]+//g;
 
 	# See if reduced edge matches adjunct
-	if (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
+	if ($self->interpreter->is_relset_etype($type, "ADJUNCT",
+			$self->relset())) {
+		return 1;
+	} elsif (grep {$type eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
 		return 1;
 	} elsif (grep {lc($type) eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
 		return 1;
@@ -926,15 +944,18 @@ sub is_complement {
 	$type =~ s/\/ATTR[0-9]+//g;
 
 	# See if it is known
-	if (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
+	if ($self->interpreter()->is_relset_etype($type, "COMPLEMENT",
+			$self->relset())) {
+		return 1;
+	} elsif (grep {$type eq $_} @{$self->etypes()->{'comp'}}) {
 		return 1;
 	} elsif (grep {lc($type) eq $_} @{$self->etypes()->{'comp'}}) {
 		return 1;
     } elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
         my ($head, $tail) = ($1, $3 || "");
         my $return = 1;
-        map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
-        return $self->is_complement($head) && $return;
+        map {$self->is_complement($_) || ($return = 0)} split(/:\./, $head);
+        return $self->is_complement($tail) && $return;
     } elsif ($type =~ /^([^:]+):([^:]+)$/) {
 		return $self->is_complement($1) && $self->is_dependent($2);
 	} elsif ($type =~ /^([^\|]+)\|(.*)$/) {
@@ -975,7 +996,10 @@ sub is_known_edge {
 
 
 	# Normalize edge
-	if ($self->is_dependent($type)) {
+	if ($self->interpreter()->is_relset_etype($type, "ANY",
+			$self->relset())) {
+		return 1;
+	} elsif ($self->is_dependent($type)) {
 		return 1;
 	} elsif ($type =~ /^\[(.*)\]$/) {
 		return $self->is_dependent($1) ? 1 : 0;
@@ -1010,6 +1034,26 @@ sub is_landing {
 	return 0;
 }
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/knode.pl
+## ------------------------------------------------------------
+
+=item $graph->knode($key, $pos) = $node
+
+Return node $node at node position $pos with key $key.
+
+=cut
+
+sub knode {
+	my $self = shift;
+	my $key = shift;
+	my $i = shift;
+
+	return (defined($i) && $i >= 0 && $key eq "") 
+		? $self->nodes()->[$i] 
+		: undef;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/kwic.pl
@@ -1364,7 +1408,7 @@ sub matches {
 	if ($inter) {
 		# Find list of matches
 		my $m = 
-			$inter->{'matches'}{$self->graph_id() || ""}
+			$inter->{'matches'}{$self->id() || ""}
 			|| $inter->{'matches'}{$self->file() || ""}
 			|| [];
 		my $irm = $inter->{'replace_match'};
@@ -1453,7 +1497,7 @@ sub new {
 		'format' => {},
 		'imin' => -1,
 		'imax' => -1,
-		'graph_id' => ++$graph_id,
+		'id' => ++$DTAG::Interpreter::graphid,
 		'lexstream' => {},
 		'inalign' => {},
 		'interpreter' => $interpreter
@@ -1908,7 +1952,7 @@ sub postscript {
 
 			# Find layout ID
 			my $stylelist = &$nstyles($self, $node, $lbl);
-			unshift @$stylelist, 'match' if ($matches->{$n});
+			push @$stylelist, 'match' if ($matches->{$n});
 			my $layout = $self->psstyle($interpreter, 'label',  $stylelist);
 
 			# Produce PostScript string
@@ -2051,10 +2095,11 @@ sub print_graph {
 	my $id = shift;
 	my $index = shift;
 	
-	return sprintf '%sG%-3d file=%s %s' . "\n" . '      %s' . "\n",
+	return sprintf '%sG%-3d file=%s (%s) %s' . "\n" . '      %s' . "\n",
 		($index - 1 == ($id || 0) ? '*' : ' '),
 		$index, 
 		($graph->file() || '*untitled*'),
+		$graph->id(),
 		($graph->mtime() ? 'modified ' : 'unmodified'),
 		'"' . $graph->text(' ', 60) . '"';
 }
@@ -2411,6 +2456,18 @@ sub rel_agovs {
 }
 
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Graph/relset.pl
+## ------------------------------------------------------------
+
+sub relset {
+	my $self = shift;
+	my $interpreter = $self->interpreter();
+	my $relsetname = shift || $self->var("relset") 
+		|| $interpreter->var("relset");
+	return $interpreter->var("relsets")->{$relsetname} || {};
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Graph/sdominates.pl

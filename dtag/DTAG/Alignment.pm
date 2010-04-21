@@ -215,6 +215,21 @@ sub auto_offset {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Alignment/bindgraph.pl
+## ------------------------------------------------------------
+
+sub bindgraph {
+	my $self = shift;
+	my $bindings = shift;
+	my $key = shift || "G";
+	my $graphs = $self->{'graphs'};
+	foreach my $akey (keys(%$graphs)) {
+		my $graph = $graphs->{$akey};
+		$graph->bindgraph($bindings, "$key$akey")
+	}
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Alignment/clear.pl
 ## ------------------------------------------------------------
 
@@ -534,6 +549,27 @@ sub erase_all {
 	$self->graphs($graphs);
 }
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Alignment/exclude.pl
+## ------------------------------------------------------------
+
+=item $graph->exclude($value) = $value
+
+Get/set exclude hash $value
+
+=cut
+
+sub exclude {
+	my $self = shift;
+
+	# Write new value
+	$self->{'_exclude'} = shift if (@_);
+
+	# Return value
+	return $self->{'_exclude'};
+}
+	
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Alignment/extract_translex.pl
@@ -860,22 +896,8 @@ sub fpsfile {
 sub graph {
 	my $self = shift;
 	my $key = shift;
+	$key = "" if (! defined($key));
 	return $self->{'graphs'}{$key};
-}
-
-## ------------------------------------------------------------
-##  auto-inserted from: Alignment/graph_id.pl
-## ------------------------------------------------------------
-
-=item $alignment->graph_id() = $id
-
-Return alignment ID associated with alignment graph.
-
-=cut
-
-sub graph_id {
-	my $self = shift;
-	return '[A' . $self->{'alignment_id'} . ']';
 }
 
 ## ------------------------------------------------------------
@@ -885,6 +907,15 @@ sub graph_id {
 sub graphs {
 	my $self = shift;
 	return $self->var('graphs', @_);
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Alignment/id.pl
+## ------------------------------------------------------------
+
+sub id {
+	my $self = shift;
+	return "A[" . $self->{'id'} . "]";
 }
 
 ## ------------------------------------------------------------
@@ -912,6 +943,27 @@ sub imin {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Alignment/include.pl
+## ------------------------------------------------------------
+
+=item $graph->include($value) = $value
+
+Get/set include hash $value
+
+=cut
+
+sub include {
+	my $self = shift;
+
+	# Write new value
+	$self->{'_include'} = shift if (@_);
+
+	# Return value
+	return $self->{'_include'};
+}
+	
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Alignment/int2node.pl
 ## ------------------------------------------------------------
 
@@ -932,6 +984,33 @@ sub int2str {
 	return ($int > 0 ? "a" : "b") . (abs($int) - 1), 
 }
 
+
+## ------------------------------------------------------------
+##  auto-inserted from: Alignment/interpreter.pl
+## ------------------------------------------------------------
+
+sub interpreter {
+	my $self = shift;
+	return $self->{'interpreter'};
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Alignment/knode.pl
+## ------------------------------------------------------------
+
+=item $alignment->knode($key, $pos) = $node
+
+Return node $node at node position $pos with key $key.
+
+=cut
+
+sub knode {
+	my $self = shift;
+	my $key = shift;
+	my $i = shift;
+	my $graph = $self->graph($key);
+	return defined($graph) ? $graph->knode("", $i) : undef;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Alignment/merge_alignments.pl
@@ -1069,11 +1148,13 @@ sub new {
 	# Create new object and find its class
 	my $proto = shift;
 	my $class = ref($proto) || $proto;
+	my $interpreter = shift;
 
 	# Create self: 
 	my $self = { 
-		'alignment_id' => ++$alignment_id,
+		'id' => ++$DTAG::Interpreter::graphid,
 		'compounds' => {},
+		'interpreter' => $interpreter
 	};
 
 	# Specify class for new object
@@ -1584,10 +1665,11 @@ sub print_graph {
 	my $id = shift;
 	my $index = shift;
 	
-	my $s = sprintf '%sA%-3d file=%s %s' . "\n",
+	my $s = sprintf '%sA%-3d file=%s (%s) %s' . "\n",
 		($index - 1 == ($id || 0) ? '*' : ' '),
 		$index, 
 		($self->file() || '*untitled*'),
+		$self->id(),
 		($self->mtime() ? 'modified ' : 'unmodified');
 	
 	foreach my $key (sort(keys(%{$self->{'graphs'}}))) {
