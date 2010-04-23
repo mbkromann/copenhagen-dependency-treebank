@@ -191,6 +191,7 @@ my $query_grammar = q{
 		| '-dump'		{{'dump' => 1}}
 		| '-parse'		{{'debug_parse' => 1}}
 		| '-dnf'		{{'debug_dnf' => 1}}
+		| '-yes'		{{'replace-all' => 1}}
 		| '-maxtime=' /[0-9]+/
 						{{'maxtime' => $item[2]}}
 		| '-maxmatch=' /[0-9]+/
@@ -3086,7 +3087,7 @@ sub cmd_find {
 	my $findfiles = $corpus ? $self->{'corpus'} : [$self->graph()->id()];
 	my $count = 0;
 	my $display = 1;
-	my $ask = $self->interactive();
+	my $ask = $self->interactive() && ! $options->{'replace-all'};
 	my $laststatus = time() - 1;
 	foreach my $f (@$findfiles) {
 		# Load new file from corpus, if this is a corpus search 

@@ -121,7 +121,7 @@ macro es cd ~/cdt/es
 macro it cd ~/cdt/it
 macro dait cd ~/cdt/da-it
 macro daes cd ~/cdt/da-es
-macro commit !~/cdt/tools/dtag-commit
+macro commit !~/cdt/tools/dtag-commit {ARGS}
 macro update !~/cdt/tools/dtag-update
 macro wiki !~/cdt/tools/dtag-wiki
 macro opentask !~/cdt/tools/dtag-opentask ;; script ~/.script 
