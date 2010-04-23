@@ -181,7 +181,7 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="15:qobj" out="1:expl|2:mod|3:vobj|13:pnct|14:pnct">har</W>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="-1:expl|2:[expl]" out="">der</W>
 <W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-2:mod" out="">vel</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|2:dobj|-4:preds">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|-4:preds|2:dobj">været</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="1:mod" out="">mellem</W>
 <W gloss="3,000" lemma="3.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:mod|2:conj|3:nobj|4:mod">3.000</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -215,7 +215,7 @@
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="2:coord" out="">eller</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="1:numm" out="">tre</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-4:conj" out="-1:numm|-2:coord">millioner</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:pnct|-10:subj|1:mod|2:mod|6:pnct|5:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:pnct|-10:subj|1:mod|2:mod|5:preds|6:pnct">er</W>
 <W gloss="However" lemma="dog" msd="RGU" tag="RP" in="-1:mod" out="">dog</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="2:avobj">for</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
@@ -225,7 +225,7 @@
 </s>
 <s>
 <W gloss="The_fact" lemma="sag" msd="NCCSU==D" tag="NN" in="1:subj" out="">Sagen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|11:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|2:preds|11:pnct">er</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="2:vobj">at</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
@@ -241,8 +241,8 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|15:pnct">Og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">jeg</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:vobj">kan</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|1:neg">kan</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="live" lemma="leve" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">leve</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

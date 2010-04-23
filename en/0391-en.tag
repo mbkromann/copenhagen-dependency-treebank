@@ -54,8 +54,8 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-6:mod" out="2:vobj">if</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:mod|2:dobj">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|2:dobj|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:dobj" out="">enough</W>
 <W msd="XP" tag="." in="-11:pnct" out="">?</W>
 <W msd="XP" tag="." in="-12:pnct?" out="">.</W>
@@ -69,7 +69,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">?</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:attr|3:attr|4:pnct|2:preds">She's</W>
+<W msd="NP=S" tag="NNP" in="" out="1:attr|2:preds|3:attr|4:pnct">She's</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">already</W>
 <W msd="ANP" tag="RB" in="-2:preds" out="">asleep</W>
 <W msd="ANP" tag="RB" in="-3:attr" out="">again</W>
@@ -142,7 +142,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">His</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">thoughts</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|8:pnct|9:mod|15:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|2:preds|8:pnct|9:mod|15:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:mod">the</W>
@@ -217,8 +217,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hospital</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Paris</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:mod|6:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|2:preds|6:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">worthy</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>

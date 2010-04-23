@@ -21,7 +21,7 @@
 <W msd="PI" tag="DT" in="3:subj" out="-2:numm|1:nobj">a</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">hundred</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ministers</W>
-<W msd="VADR" tag="VBP" in="" out="-16:mod|-3:subj|3:mod|5:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-16:mod|-3:subj|1:preds|3:mod|5:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
 <W msd="PD" tag="DT" in="-3:mod" out="1:nobj">this</W>
@@ -61,7 +61,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="7:qobj" out="-2:mod|-13:subj|6:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="7:qobj" out="-2:mod|-13:subj|3:preds|6:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">too</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod|2:conj">vague</W>
@@ -104,8 +104,8 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="">absolutely</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">not</W>
-<W msd="VAP" tag="VBN" in="-8:conj" out="-1:mod|-5:pnct|-6:pnct|-7:coord">done</W>
+<W msd="ANP" tag="RB" in="1:neg" out="-1:mod">not</W>
+<W msd="VAP" tag="VBN" in="-8:conj" out="-5:pnct|-6:pnct|-7:coord|-1:neg">done</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -201,7 +201,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|6:mod|12:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|6:mod|12:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|4:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">largest</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nuclear</W>

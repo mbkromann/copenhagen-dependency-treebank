@@ -128,8 +128,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">train</W>
-<W msd="VA" tag="MD" in="" out="-5:mod|-2:subj|1:mod|2:vobj|9:pnct|10:mod|22:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-5:mod|-2:subj|2:vobj|9:pnct|10:mod|22:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:lobj|2:mod">go</W>
 <W msd="ANP" tag="JJ" in="-1:lobj" out="">further</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>

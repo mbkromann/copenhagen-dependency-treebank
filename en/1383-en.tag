@@ -8,7 +8,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">level</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">activity</W>
-<W msd="VADR" tag="VBZ" in="" out="-9:mod|-4:subj|4:mod|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-9:mod|-4:subj|1:preds|4:mod|10:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod">easy</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">gauge</W>
@@ -34,7 +34,7 @@
 <W msd="NC=P" tag="NNS" in="-4:conj" out="-1:coord">tests</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-13:mod|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-13:mod|1:preds|2:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">active</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -43,7 +43,7 @@
 <W msd="ANP" tag="RB" in="-1:list" out="">not</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-4:mod|-1:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:mod|-1:subj|1:preds|2:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">inactive</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -69,7 +69,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">like</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj" out="">which</W>
-<W msd="VADR" tag="VBZ" in="-6:rel" out="-1:subj|1:dobj|10:pnct|2:preds">makes</W>
+<W msd="VADR" tag="VBZ" in="-6:rel" out="-1:subj|1:dobj|2:preds|10:pnct">makes</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="2:nobj">it</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">possible</W>
 <W msd="U=" tag="TO" in="-2:nobj" out="1:vobj">to</W>
@@ -96,7 +96,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">gauge</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">student</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:mod">activity</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|6:pnct">is</W>
 <W msd="RG" tag="RP" in="-1:preds" out="1:pobj">up</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
@@ -114,8 +114,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">institutions</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj|3:aobj">take</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">job</W>

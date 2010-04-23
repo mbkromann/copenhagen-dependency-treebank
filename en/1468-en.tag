@@ -3,7 +3,7 @@
 <W msd="VADR" tag="VBZ" in="-1:conj" out="1:pnct|3:qobj">says</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="-3:qobj" out="-1:pnct|2:pnct#|3:pnct|2:preds">It's</W>
+<W msd="NP=S" tag="NNP" in="-3:qobj" out="-1:pnct|2:pnct#|2:preds|3:pnct">It's</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">steady</W>
 <W msd="AC" tag="CD" in="-2:pnct#|-2:preds" out="-1:mod">work.</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
@@ -20,7 +20,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr">the</W>
 <W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">practical</W>
@@ -172,8 +172,8 @@
 <W msd="NP=S" tag="NNP" in="1:title" out="">Marshal</W>
 <W msd="NP=S" tag="NNP" in="-8:appa" out="-1:title|1:pnct">Tito</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-24:conj" out="-23:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-24:conj" out="-23:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-25:[subj]|1:pobj|3:dobj">take</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">consideration</W>
@@ -223,7 +223,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">UN</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">soldiers</W>
 <W msd="VADR" tag="VBP" in="-10:rel" out="-4:subj|1:vobj">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:preds|2:mod">been</W>
 <W msd="NC=P" tag="NNS" in="-1:preds" out="-8:pobj">eyewitnesses</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">at</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">close</W>

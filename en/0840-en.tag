@@ -12,14 +12,14 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Council</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:mod|5:pobj|9:dobj|19:conj|29:pnct">appealed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|1:attr">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">moment</W>
 <W msd="U=" tag="TO" in="-5:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UN</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="U=" tag="TO" in="-9:dobj" out="-1:mod|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="U=" tag="TO" in="-9:dobj" out="1:vobj|-1:neg">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:pobj">put</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">boycott</W>
@@ -31,7 +31,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-19:conj" out="-23:[subj]|-2:mod|-4:coord|1:dobj">urged</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="7:vobj">that</W>
-<W msd="PI" tag="DT" in="6:subj|7:[subj]" out="2:nobj|1:attr">an</W>
+<W msd="PI" tag="DT" in="6:subj|7:[subj]" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">international</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">conference</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -86,7 +86,7 @@
 <W msd="SP" tag="IN" in="-5:pobj" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Belgrade</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">for</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">long</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
@@ -185,7 +185,7 @@
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|19:mod">sent</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">letters</W>
 <W msd="U=" tag="TO" in="-2:lobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:pnct|5:appa|8:conj|1:attr">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:appa|8:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">president</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -193,7 +193,7 @@
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-1:namef|1:pnct">Bush</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="PD" tag="DT" in="-8:conj" out="-1:coord|2:nobj|3:pnct|5:appa|1:attr">the</W>
+<W msd="PD" tag="DT" in="-8:conj" out="-1:coord|1:attr|2:nobj|3:pnct|5:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Russian</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">president</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

@@ -5,7 +5,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">group</W>
-<W msd="VADA" tag="VBD" in="" out="-6:pnct|-5:subj|12:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:pnct|-5:subj|1:preds|12:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">doubt</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
@@ -49,8 +49,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:preds">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:preds|1:neg">were</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:avobj">dealt</W>
@@ -92,7 +92,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">immigration</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">meetings</W>
-<W msd="VADA" tag="VBD" in="" out="6:subj|23:pnct|-8:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-8:preds|6:subj|23:pnct">were</W>
 <W msd="ANP" tag="RB" in="2:attr" out="">then</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Permanent</W>
 <W msd="NP=S" tag="NNP" in="3:title" out="-2:attr|-1:attr">Secretary</W>
@@ -157,7 +157,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Lundbæk</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|4:pnct|3:preds">seemed</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|3:preds|4:pnct">seemed</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:attr">a</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">little</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-2:mod">shaken</W>
@@ -196,8 +196,8 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hand</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-7:subj|-5:modp|1:mod|2:vobj|62:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-7:subj|-5:modp|2:vobj|62:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-9:[subj]|4:dobj">support</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Deputy</W>
 <W msd="NP=S" tag="NNP" in="2:title" out="-1:mod">Director</W>
@@ -230,7 +230,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">refugees</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="SP" tag="IN" in="-3:mod" out="3:nobj">for</W>

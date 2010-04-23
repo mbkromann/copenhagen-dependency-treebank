@@ -151,7 +151,7 @@
 <W gloss="conclude" lemma="indgå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">indgå</W>
 <W gloss="marriage" lemma="ægteskab" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">ægteskab</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-8:[subj]|-1:coord|2:time|1:preds">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-8:[subj]|-1:coord|1:preds|2:time">blev</W>
 <W gloss="toxin" lemma="gift" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">gift</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">august</W>
@@ -199,7 +199,7 @@
 <s>
 <W gloss="Lise" lemma="Lise" msd="NP--U==-" tag="NNP" in="1:namef" out="">Lise</W>
 <W gloss="Pedersen" lemma="Pedersen" msd="NP--U==-" tag="NNP" in="1:subj|4:[subj]" out="-1:namef">Pedersen</W>
-<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-29:ELAB&3a;exp" out="-1:subj|3:conj|5:pnct|9:conj|12:pnct|1:preds">blev</W>
+<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-29:ELAB&3a;exp" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|12:pnct">blev</W>
 <W gloss="pregnant" lemma="gravid" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">gravid</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="went" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj">rejste</W>
@@ -217,7 +217,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:time" out="1:nobj">I</W>
 <W gloss="the_same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>
 <W gloss="moment" lemma="øjeblik" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">øjeblik</W>
-<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:TIME&3a;cont" out="-3:time|1:subj|15:pnct|2:preds">blev</W>
+<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:TIME&3a;cont" out="-3:time|1:subj|2:preds|15:pnct">blev</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="2:nobj|4:pnct|5:appa">en</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
@@ -229,8 +229,8 @@
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|3:[subj]" out="">der</W>
 <W gloss="wishes" lemma="ønske" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:dobj">ønsker</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">gå</W>
-<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc">gå</W>
+<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="exile" lemma="landflygtighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">landflygtighed</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

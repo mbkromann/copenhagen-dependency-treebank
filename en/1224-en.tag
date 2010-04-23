@@ -34,7 +34,7 @@
 <W msd="NC=S" tag="NN" in="2:subj" out="">life</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">never</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:preds">became</W>
-<W msd="PD" tag="DT" in="10:[nobj]|-1:preds" out="1:attr|4:nobj|6:pnct|8:rel">the</W>
+<W msd="PD" tag="DT" in="-1:preds|10:[nobj]" out="1:attr|4:nobj|6:pnct|8:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">financial</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rubadub</W>
@@ -95,7 +95,7 @@
 <W msd="PT" tag="WRB" in="-5:ref|3:mod" out="">where</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pleasures</W>
-<W msd="VADR" tag="VBP" in="-8:rel" out="-3:mod|-2:subj|5:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-8:rel" out="-3:mod|-2:subj|1:preds|5:pnct">are</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -116,7 +116,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|7:[subj]" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|16:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj|5:conj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">invalidity</W>
@@ -143,8 +143,8 @@
 <W msd="ANC" tag="JJR" in="-1:mod" out="">more</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-8:[subj]|-1:coord|1:mod|2:pnct|21:conj">must</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-8:[subj]|-1:coord|2:pnct|21:conj|1:neg">must</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="18:coord" out="">and</W>
 <W msd="PO" tag="PRP$" in="17:subj|19:[subj]" out="1:possd|2:appr|3:ref|4:rel">his</W>
@@ -232,8 +232,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|8:mod|8:pnct#|9:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|8:mod|8:pnct#|9:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">fashionable</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">say</W>

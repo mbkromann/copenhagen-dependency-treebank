@@ -110,7 +110,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">be</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|3:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|3:mod">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">father</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">anyway</W>
@@ -159,12 +159,12 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-7:conj" out="-2:mod|-1:subj|-3:coord|2:mod|3:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="-7:conj" out="-2:mod|-1:subj|-3:coord|1:preds|2:mod|3:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">together</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="2:coord" out="1:mod">but</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:neg">but</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-12:conj" out="-2:coord|1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>

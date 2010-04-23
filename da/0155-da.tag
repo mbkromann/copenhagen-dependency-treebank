@@ -47,7 +47,7 @@
 <W gloss="small" lemma="lille" msd="ANP---=-R" tag="JJ" in="-2:other" out="-1:other">småt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="1:dur" out="">endnu</W>
-<W gloss="at" lemma="til" msd="SP" tag="IN" in="-5:other" out="1:nobj|-1:dur">til</W>
+<W gloss="at" lemma="til" msd="SP" tag="IN" in="-5:other" out="-1:dur|1:nobj">til</W>
 <W gloss="luxury_prices" lemma="luksuspris" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:appa">luksuspris</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="35" lemma="35" msd="AC---U=--" tag="CD" in="-2:appa" out="1:nobj|2:other">35</W>
@@ -121,8 +121,8 @@
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kg" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kg</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|1:pred|2:coord|13:pnct">er</W>
-<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">dansk</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|2:coord|13:pnct|1:preds">er</W>
+<W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">dansk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="2:conj">og</W>
 <W gloss="the_butcher" lemma="slagter" msd="NCCSU==D" tag="NN" in="1:subj" out="">slagteren</W>
 <W gloss="suggests" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|2:vobj">foreslår</W>

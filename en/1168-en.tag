@@ -147,8 +147,8 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Film</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Institute</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">boring</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">institution</W>
@@ -164,7 +164,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|24:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|24:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">secret</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="7:vobj">that</W>

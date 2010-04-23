@@ -79,8 +79,8 @@
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-5:nobj" out="">pige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-7:ref|2:subj" out="">der</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="did_have" lemma="have" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-1:mod|-2:subj|1:aobj|6:pnct">havde</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="did_have" lemma="have" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-2:subj|1:aobj|6:pnct|-1:neg">havde</W>
 <W gloss="easy" lemma="nem" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="1:pobj">nemt</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -101,7 +101,7 @@
 <W gloss="When" lemma="da" msd="CS" tag="IN" in="18:mod" out="3:vobj">Da</W>
 <W gloss="Andrew" lemma="Andrew" msd="NP--U==-" tag="NNP" in="1:namef" out="">Andrew</W>
 <W gloss="Morton" lemma="Morton" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Morton</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|13:mod|14:pnct|9:preds">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|9:preds|13:mod|14:pnct">fik</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj" out="2:possd">sin</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Diana" lemma="Diana" msd="NP--U==-" tag="NNP" in="-2:possd" out="-1:pnct|1:pnct|2:conj|5:pnct">Diana</W>
@@ -150,7 +150,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:ref|6:nobj" out="">som</W>
 <W gloss="Diana" lemma="Diana" msd="NP--U==-" tag="NNP" in="1:subj" out="">Diana</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|5:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:preds|5:pnct">var</W>
 <W gloss="part" lemma="led" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="2:conj|3:pobj">led</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="regret" lemma="ked" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord|1:[pobj]">ked</W>
@@ -158,7 +158,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:preds" out="">så</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-30:conj" out="-2:coord|1:subj|6:pnct|-1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-30:conj" out="-2:coord|-1:preds|1:subj|6:pnct">var</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:vobj">det</W>
 <W gloss="the_Buckingham_Mafia" lemma="Buckingham-mafia" msd="NCCSU==D" tag="NN" in="1:subj" out="">Buckingham-mafiaen</W>
 <W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pobj">gik</W>
@@ -207,7 +207,7 @@
 <W gloss="Major" lemma="major" msd="NCCSU==I" tag="NN" in="1:title" out="">Major</W>
 <W gloss="Hewitt" lemma="Hewitt" msd="NP--U==-" tag="NNP" in="-7:appa" out="-1:title|1:pnct">Hewitt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|5:pnct|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|3:preds|5:pnct">er</W>
 <W gloss="newest" lemma="ny" msd="ANS[CN][SP]U=DU" tag="JJS" in="2:attr" out="">nyeste</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="hit" lemma="hit" msd="NCNSU==I" tag="NN" in="-3:preds" out="-1:pnct|-2:attr|1:pnct">hit</W>

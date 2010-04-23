@@ -1,8 +1,8 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="10:ref|11:rel">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:mod|16:modp|37:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|2:preds|16:modp|37:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">officials</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -26,8 +26,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">another</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">context</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]|6:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-8:vobj" out="-1:subj|-4:mod|-7:mod|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-8:vobj" out="-1:subj|-4:mod|-7:mod|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:vobj">seem</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="">to</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:vobj">have</W>
@@ -53,7 +53,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|9:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|9:pnct">is</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod">uncertain</W>

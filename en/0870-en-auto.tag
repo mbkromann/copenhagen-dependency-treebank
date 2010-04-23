@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Union</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|15:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">solving</W>
@@ -37,8 +37,8 @@
 <W msd="CS" tag="IN" in="-6:mod" out="">if</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Eastern</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:mod">Europe</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="NC=S" tag="NN" in="" out="">part</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="PP" tag="PRP" in="" out="">it</W>
@@ -76,8 +76,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">international</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-2:mod|-1:attr|1:pnct|4:conj">co-operation</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CC" tag="CC" in="2:coord" out="1:mod">but</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:neg">but</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-4:conj" out="-2:coord|1:attr|6:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">supranational</W>
 <W msd="XP" tag="&amp;quot;" in="4:pnct" out="">"</W>
@@ -110,7 +110,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">premises</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">democracy</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|12:pnct|20:conj|29:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:preds|12:pnct|20:conj|29:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">popular</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr|1:mod">control</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:pnct|6:nobj">through</W>

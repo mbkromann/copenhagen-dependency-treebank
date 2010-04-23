@@ -194,8 +194,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="-33:[subj]|-1:mod|-2:coord|1:dobj">begin</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-33:[subj]|-2:coord|1:dobj|-1:neg">begin</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-35:[subj]|1:dobj|2:mod">create</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">chaos</W>

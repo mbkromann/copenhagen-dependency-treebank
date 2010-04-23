@@ -102,8 +102,8 @@
 <W gloss="Commons" lemma="fælled" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Fælled</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-6:ref|2:subj" out="">der</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="has_become_a_part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:mod|1:pobj|3:pnct">indgår</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="has_become_a_part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|1:pobj|3:pnct|-1:neg">indgår</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Ørestaden" lemma="Ørestaden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ørestaden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

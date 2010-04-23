@@ -159,10 +159,10 @@
 </s>
 <s>
 <W gloss="The_woman" lemma="kvinde" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">Kvinden</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:mod|3:vobj|8:pnct|13:conj|29:pnct">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:vobj|8:pnct|13:conj|29:pnct|2:neg">havde</W>
 <W gloss="even" lemma="end" msd="RGU" tag="RP" in="1:mod" out="">end</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="-1:mod">ikke</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|3:mod|1:preds">været</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds|3:mod">været</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="1:nobj">i</W>
 <W gloss="Odense" lemma="Odense" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Odense</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:mod" out="1:nobj">på</W>

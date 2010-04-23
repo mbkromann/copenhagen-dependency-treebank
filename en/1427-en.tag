@@ -1,8 +1,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">ANTHONY</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">HOPKINS</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:mod|6:pnct|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:mod|3:preds|6:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="2:conj">evil</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

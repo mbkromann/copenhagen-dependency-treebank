@@ -71,8 +71,8 @@
 <W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-5:mod" out="4:vobj">selv_om</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="3:expl|4:[expl]" out="">der</W>
 <W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="2:mod" out="">endnu</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-2:mod|-1:mod|1:vobj">har</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-2:mod|1:vobj|-1:neg">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[expl]|1:dobj">været</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">tid</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -143,7 +143,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="sleeping" lemma="sove" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">sove</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-12:subj|2:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-12:subj|1:preds|2:pnct">er</W>
 <W gloss="dead_tired" lemma="dødtræt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">dødtræt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -152,8 +152,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|3:pnct|4:mod|11:pnct|2:preds">er</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:preds|3:pnct|4:mod|11:pnct|1:neg">er</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="exaggerating" lemma="overdrevet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="">overdrevet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-4:mod" out="2:vobj">hvis</W>

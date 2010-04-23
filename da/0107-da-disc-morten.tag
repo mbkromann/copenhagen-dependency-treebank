@@ -215,14 +215,14 @@
 <W gloss="Duetoft" lemma="Duetoft" msd="NP--U==-" tag="NNP" in="13:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Duetoft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|5:[subj]" out="">der</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:conj|9:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:preds|4:conj|9:pnct">er</W>
 <W gloss="declared" lemma="erklære" morph="erklære" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">erklæret</W>
 <W gloss="super-European" lemma="supereuropæer" morph="europæer -super/GRAD&3a;qual Europa +æer/DENOM&3a;rel.deono.place" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">supereuropæer</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:dobj|3:lobj">har</W>
+<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:dobj|3:@loc">har</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="past" lemma="fortid" morph="tid -for/TIME&3a;prec" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fortid</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
 <W gloss="the_European_Parliament" lemma="EF-parlament" morph="parlament -EF/agent" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">EF-parlamentet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-34:ELAB&3a;exp" out="-13:subj|1:vobj|12:pnct">har</W>

@@ -76,15 +76,15 @@
 <W gloss="shaken" lemma="ryste" msd="VADA=----A-" tag="VBD" in="3:xtop" out="1:pnct|2:ref">rystede</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-2:ref|1:preds" out="">det</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:xtop|1:subj|-1:preds">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:xtop|-1:preds|1:subj">var</W>
 <W gloss="the_Germans" lemma="tysker" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">tyskerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|8:pnct">Og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:mod|3:preds">var</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:mod|3:preds|1:neg">var</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:mod" out="">kun</W>
 <W gloss="those" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-3:preds" out="1:mod">dem</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
@@ -104,7 +104,7 @@
 <W gloss="empty" lemma="tom" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="-1:mod">tom</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
-<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:expl|1:dobj|5:mod|3:preds">er</W>
+<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:expl|1:dobj|3:preds|5:mod">er</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:preds" out="1:nobj">på</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:ref|12:rel">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:pnct|23:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:preds|3:pnct|23:pnct">var</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-1:mod" out="">ellers</W>
 <W gloss="Bild" lemma="Bild" msd="NP--U==-" tag="NNP" in="-2:preds" out="">Bild</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -235,7 +235,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:ref|5:rel">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:pnct|6:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|6:pnct">var</W>
 <W gloss="the_sport" lemma="sport" msd="NCCSU==D" tag="NN" in="-1:preds" out="">sporten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>

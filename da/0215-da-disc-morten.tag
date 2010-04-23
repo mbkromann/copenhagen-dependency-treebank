@@ -143,9 +143,9 @@
 <W gloss="with" lemma="om" msd="SP" tag="IN" in="-5:pobj" out="-6:nobj">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-6:ref|1:subj" out="">som</W>
-<W gloss="took" lemma="finde" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:dobj|2:lobj|6:tobj">fandt</W>
+<W gloss="took" lemma="finde" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:dobj|6:tobj|2:@loc">fandt</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">sted</W>
-<W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
+<W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="Ingeniørhuset" lemma="ingeniørhus" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:loc">Ingeniørhuset</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">København</W>

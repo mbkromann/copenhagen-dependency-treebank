@@ -44,7 +44,7 @@
 <W gloss="Later" lemma="sen" msd="ANC---=-R" tag="JJR" in="3:succ" out="1:other">Senere</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="the_day" lemma="dag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">dagen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:expl|2:dobj|3:pnct|4:coord|16:pnct|-3:succ">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:succ|1:expl|2:dobj|3:pnct|4:coord|16:pnct">var</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="team_time_trial" lemma="hold-tidskørsel" msd="NCCSU==I" tag="NN" in="-2:dobj" out="">hold-tidskørsel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -52,9 +52,9 @@
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="1:loc" out="">her</W>
 <W gloss="triumphed" lemma="triumfere" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:loc|1:subj|2:pobj">triumferede</W>
 <W gloss="Ariostea" lemma="Ariostea" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Ariostea</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:pred">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:preds">med</W>
 <W gloss="victory" lemma="sejr" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sejr</W>
-<W gloss="of" lemma="i" msd="SP" tag="IN" in="-2:pred" out="1:nobj">i</W>
+<W gloss="of" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj">i</W>
 <W gloss="41.23" lemma="41,23" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:other|18:dur">41,23</W>
 <W gloss="minutes" lemma="minut" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">minut</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:other" out="1:nobj">for</W>
@@ -79,7 +79,7 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:succ" out="">Så</W>
-<W gloss="followed" lemma="følge" msd="VADA=----A-" tag="VBD" in="" out="1:subj|19:pnct|-1:succ">fulgte</W>
+<W gloss="followed" lemma="følge" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|19:pnct">fulgte</W>
 <W gloss="Panasonic" lemma="Panasonic" msd="NP--U==-" tag="NNP" in="-1:subj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:coord">Panasonic</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="PDM" lemma="PDM" msd="NP--U==-" tag="NNP" in="-2:conj" out="">PDM</W>
@@ -105,8 +105,8 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:other">De</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:other" out="">næste</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:pred|11:pnct">var</W>
-<W gloss="Motorola" lemma="Motorola" msd="NP--U==-" tag="NNP" in="-1:pred" out="1:pnct|2:conj|3:pnct|4:conj|5:coord">Motorola</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|11:pnct|1:preds">var</W>
+<W gloss="Motorola" lemma="Motorola" msd="NP--U==-" tag="NNP" in="-1:preds" out="1:pnct|2:conj|3:pnct|4:conj|5:coord">Motorola</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Gatorade-Chateau_d'Ax" lemma="Gatorade-Chateau_d'Ax" msd="NP--U==-" tag="NNP" in="-2:conj" out="">Gatorade-Chateau_d'Ax</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -167,7 +167,7 @@
 </s>
 <s>
 <W gloss="Alcala" lemma="Alcala" msd="NP--U==-" tag="NNP" in="1:subj" out="">Alcala</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|5:pnct|6:coord|15:pnct|2:succ">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:succ|5:pnct|6:coord|15:pnct">havde</W>
 <W gloss="a_flat_tire" lemma="punktering" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">punktering</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:succ" out="1:nobj">efter</W>
 <W gloss="five" lemma="fem" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">fem</W>

@@ -115,8 +115,8 @@
 <W msd="PT" tag="WDT" in="" out="">which</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">symptoms</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:mod">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="2:pobj">not</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="2:pobj">not</W>
 <W msd="VAF" tag="VB" in="" out="-4:[subj]|4:mod">appear</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="">until</W>
 <W msd="ANP" tag="JJ" in="2:tobj" out="1:nobj">many</W>

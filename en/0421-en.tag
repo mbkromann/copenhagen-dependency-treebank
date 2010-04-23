@@ -35,8 +35,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|8:[subj]|24:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|7:conj|39:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:vobj|7:conj|39:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">wait</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
@@ -78,7 +78,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|9:[subj]" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|6:conj|10:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:preds|6:conj|10:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">short</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -150,8 +150,8 @@
 <s>
 <W msd="CS" tag="IN" in="14:mod" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj|10:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|10:pnct|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:preds">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>

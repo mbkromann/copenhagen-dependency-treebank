@@ -31,7 +31,7 @@
 <s>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">There</W>
 <W msd="VA" tag="MD" in="" out="-1:expl|1:vobj|9:pnct|14:conj|21:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|5:mod|6:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:preds|5:mod|6:mod">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">bit</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -65,7 +65,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-2:coord|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:mod">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dry</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">everywhere</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -144,8 +144,8 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">gale</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|-2:subj|1:mod|2:vobj|3:pobj|5:pnct|11:conj|22:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|-2:subj|2:vobj|3:pobj|5:pnct|11:conj|22:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">expected</W>
 <W msd="CS" tag="IN" in="-3:pobj" out="1:nobj">until</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tonight</W>
@@ -253,8 +253,8 @@
 <W msd="PO" tag="PRP$" in="3:subj|5:[subj]" out="2:possd">his</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">draft</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">constitution</W>
-<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:mod|2:vobj">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:dobj">gather</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">enough</W>
 <W msd="VADR" tag="VBZ" in="-2:dobj" out="-1:mod">votes</W>

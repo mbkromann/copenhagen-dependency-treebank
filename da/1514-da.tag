@@ -241,8 +241,8 @@
 <W gloss="risked" lemma="risikere" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">risikerede</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="being" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">blive</W>
-<W gloss="thrown" lemma="kaste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:lobj|4:mod">kastet</W>
-<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="2:nobj">i</W>
+<W gloss="thrown" lemma="kaste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="4:mod|1:@loc">kastet</W>
+<W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="2:nobj">i</W>
 <W gloss="Thai" lemma="thailandsk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Thailandsk</W>
 <W gloss="jail" lemma="fængsel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">fængsel</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>

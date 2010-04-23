@@ -22,8 +22,8 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|2:conj|14:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj">have</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">precise</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|1:pobj">information</W>
@@ -45,7 +45,7 @@
 <W msd="PD" tag="DT" in="-2:dobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">ambush</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">attack</W>
-<W msd="VADR" tag="VBP" in="12:qobj" out="-8:subj|1:pnct|2:mod|9:pnct|10:pnct|4:preds">are</W>
+<W msd="VADR" tag="VBP" in="12:qobj" out="-8:subj|1:pnct|2:mod|4:preds|9:pnct|10:pnct">are</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">anyway</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

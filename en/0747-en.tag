@@ -52,8 +52,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">discovered</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="17:ref|18:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|4:mod|6:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|4:mod|6:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj|6:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hormone</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:avobj">at</W>

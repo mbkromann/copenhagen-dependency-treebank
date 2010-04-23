@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">temptation</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">great</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -45,7 +45,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">car</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">market</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">today</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:mod|-4:subj|4:pnct|5:mod|26:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:mod|-4:subj|1:preds|4:pnct|5:mod|26:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:possd">a</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">buyer's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">market</W>
@@ -147,8 +147,8 @@
 <W msd="CS" tag="IN" in="-2:list" out="3:vobj">because</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">diesel</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod">cars</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:subj|1:mod|2:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:subj|2:preds|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">at</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">small</W>
@@ -180,7 +180,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:possd">cars'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">share</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">today</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:mod|-1:mod|-5:subj|3:pnct|4:mod|10:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:mod|-1:mod|-5:subj|2:preds|3:pnct|4:mod|10:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">almost</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr">nil</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

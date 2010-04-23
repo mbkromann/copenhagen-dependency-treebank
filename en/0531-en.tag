@@ -207,8 +207,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-10:subj|1:mod|2:vobj|17:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-2:mod|-10:subj|2:vobj|17:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-12:[subj]|1:dobj">hide</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">fact</W>
@@ -216,8 +216,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:nobj" out="">board</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj">members</W>
-<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:mod|2:vobj">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:lobj|2:mod">go</W>
 <W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
@@ -230,7 +230,7 @@
 <W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">acquittal</W>
-<W msd="VADR" tag="VBZ" in="29:qobj" out="-3:pnct|-2:subj|1:mod|26:pnct|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="29:qobj" out="-3:pnct|-2:subj|1:mod|4:preds|26:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>

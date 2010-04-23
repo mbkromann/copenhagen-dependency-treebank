@@ -98,9 +98,9 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="did_sound" lemma="lyde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|5:pnct|3:preds">lød</W>
+<W gloss="did_sound" lemma="lyde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:preds|5:pnct|2:neg">lød</W>
 <W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:mod" out="">bare</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="like" lemma="som" msd="U=" tag="WDT" in="-3:preds" out="1:nobj">som</W>
 <W gloss="Chic" lemma="Chic" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Chic</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -153,8 +153,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|4:[subj]|10:[subj]|12:[subj]" out="">Vi</W>
-<W gloss="need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|2:mod|3:vobj|21:pnct">behøver</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:mod|3:vobj|21:pnct|1:neg">behøver</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="sell" lemma="sælge" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|2:dobj|4:pnct|6:conj">sælge</W>
 <W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="1:numm" out="">10</W>

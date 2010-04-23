@@ -11,7 +11,7 @@
 <W msd="NC=S" tag="NN" in="-1:mod" out="">market</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-12:pnct|-11:mod|-1:subj|2:pnct|3:mod|20:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-12:pnct|-11:mod|-1:subj|1:preds|2:pnct|3:mod|20:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">hard</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:mod" out="2:vobj">when</W>
@@ -140,7 +140,7 @@
 <W msd="NC=P" tag="NNS" in="" out="1:possd">people's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">children</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">really</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:mod|3:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:mod|1:preds|3:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">job</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -186,7 +186,7 @@
 <W msd="CS" tag="IN" in="-1:pobj|-1:pobj" out="1:dobj">after</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">children</W>
 <W msd="VADA" tag="VBD" in="-4:vobj" out="1:preds">was</W>
-<W msd="NC=S" tag="NN" in="10:[nobj]|-1:preds" out="2:rel">something</W>
+<W msd="NC=S" tag="NN" in="-1:preds|10:[nobj]" out="2:rel">something</W>
 <W msd="PP" tag="PRP" in="1:subj|5:[subj]" out="">you</W>
 <W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|1:lobj|3:coord">did</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
@@ -201,8 +201,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|1:mod|2:vobj|7:pnct|8:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|2:vobj|7:pnct|8:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">counted</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:preds">as</W>

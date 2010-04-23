@@ -42,7 +42,7 @@
 <W msd="PT" tag="WDT" in="-9:ref|3:subj" out="">which</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">clearly</W>
-<W msd="VADR" tag="VBZ" in="-12:rel" out="-3:subj|-2:pnct|-1:mod|1:dobj|10:pnct|2:preds">makes</W>
+<W msd="VADR" tag="VBZ" in="-12:rel" out="-3:subj|-2:pnct|-1:mod|1:dobj|2:preds|10:pnct">makes</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="6:nobj">it</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">illegal</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">for</W>
@@ -85,8 +85,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|19:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:mod|2:mod|5:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:mod|5:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">point</W>

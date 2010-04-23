@@ -10,7 +10,7 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">interest</W>
 <W msd="PT" tag="WDT" in="-6:nobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Europe</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-1:subj|7:mod|1:preds">become</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-1:subj|1:preds|7:mod">become</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|5:nobj">a</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">strong</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod|2:conj">political</W>
@@ -59,7 +59,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">unified</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="">Europe</W>
-<W msd="SP" tag="IN" in="-5:mod" out="1:nobj|9:coord|3:preds">with</W>
+<W msd="SP" tag="IN" in="-5:mod" out="1:nobj|3:preds|9:coord">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">EC</W>
 <W msd="CS" tag="IN" in="-3:preds" out="1:nobj">as</W>
@@ -136,8 +136,8 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:part|2:mod|3:mod">go</W>
 <W msd="ANP" tag="RB" in="-1:part" out="">down</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">well</W>

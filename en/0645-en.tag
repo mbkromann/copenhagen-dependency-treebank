@@ -2,8 +2,8 @@
 <W msd="PI" tag="DT" in="3:subj|5:[subj]" out="2:nobj">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">delivery</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">van</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trunk</W>
@@ -16,8 +16,8 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">delivery</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">van</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:mod|4:mod|23:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:subj|2:preds|4:mod|23:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trunk</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">like</W>
@@ -70,8 +70,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">ordinary</W>
 <W msd="NC=S" tag="NN" in="2:subj|4:[subj]" out="-1:attr|1:possd">homeowners'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">insurance</W>
-<W msd="VADR" tag="VBZ" in="16:qobj" out="-5:mod|-2:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="16:qobj" out="-5:mod|-2:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|4:dobj">cover</W>
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">special</W>
@@ -210,7 +210,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hand</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-6:mod|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-6:mod|1:preds|16:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">possible</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="11:vobj">that</W>
 <W msd="PD" tag="DT" in="10:subj|11:[subj]" out="1:nobj|2:ref|3:rel">the</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|4:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|2:preds|4:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">purely</W>
 <W msd="PI" tag="DT" in="-2:preds" out="-1:attr|1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">accident</W>
@@ -22,7 +22,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">Ask</W>
-<W msd="VADA" tag="VBD" in="" out="2:subj|12:pnct|-6:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:preds|2:subj|12:pnct">was</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ole</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Rønnow</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -113,7 +113,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-3:preds" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|9:pnct|12:conj|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|9:pnct|12:conj">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">easiest</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:mod">way</W>
@@ -125,7 +125,7 @@
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-12:conj" out="-1:subj|-2:coord|1:dobj|3:mod|2:preds">have</W>
+<W msd="VADR" tag="VBP" in="-12:conj" out="-1:subj|-2:coord|1:dobj|2:preds|3:mod">have</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">tugboats</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">nearby</W>
 <W msd="AC" tag="CD" in="-3:mod|-22:pnct#" out="">anyway.</W>
@@ -150,11 +150,11 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">route</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">manager</W>
-<W msd="VADA" tag="VBD" in="-7:rel" out="-3:subj|1:mod|2:vobj|3:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-7:rel" out="-3:subj|2:vobj|3:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:dobj|-5:[subj]">know</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:subj|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:subj|1:preds|10:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Urd</W>
@@ -242,7 +242,7 @@
 <W msd="CC" tag="CC" in="" out="9:conj|11:pnct">And</W>
 <W msd="PT" tag="WRB" in="8:mod" out="2:vobj">when</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">everything</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>

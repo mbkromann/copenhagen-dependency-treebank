@@ -83,7 +83,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="PD" tag="DT" in="1:mod" out="">no</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">vote</W>
-<W msd="VADR" tag="VBZ" in="8:qobj" out="-5:mod|-3:subj|4:pnct|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="8:qobj" out="-5:mod|-3:subj|1:preds|4:pnct|5:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bag</W>
@@ -110,7 +110,7 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">SF</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|9:pnct|10:mod|16:pnct#|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:preds|9:pnct|10:mod|16:pnct#|17:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">think</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">tank</W>
@@ -160,8 +160,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christian</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="-1:mod|-2:coord|1:possd">People's</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">Party</W>
-<W msd="VADR" tag="VBP" in="-11:vobj" out="-10:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-11:vobj" out="-10:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-12:[subj]|1:dobj|2:mod|3:pobj">say</W>
 <W msd="VAF" tag="VB" in="-1:dobj" out="">stop</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">soon</W>
@@ -206,7 +206,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">government</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:pnct|4:pnct|9:conj|21:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:pnct|1:preds|4:pnct|9:conj|21:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">rife</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">scandals</W>

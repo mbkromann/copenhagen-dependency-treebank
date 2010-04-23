@@ -137,8 +137,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:iobj|4:dobj">press</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Western</W>
 <W msd="NP=S" tag="NNP" in="-2:iobj|3:[subj]" out="-1:mod">Europe</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="U=" tag="TO" in="-4:dobj" out="-1:mod|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="U=" tag="TO" in="-4:dobj" out="1:vobj|-1:neg">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">deploy</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">572</W>
@@ -229,7 +229,7 @@
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Denmark</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">concerned</W>
-<W msd="VADR" tag="VBP" in="-27:conj" out="-18:mod|-17:subj|-5:mod|-19:coord|3:pnct|4:mod|7:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="-27:conj" out="-18:mod|-17:subj|-5:mod|-19:coord|2:preds|3:pnct|4:mod|7:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">particularly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">necessary</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

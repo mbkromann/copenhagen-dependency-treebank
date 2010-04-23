@@ -43,9 +43,9 @@
 <s>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:mod" out="1:nobj">Til</W>
 <W gloss="the_other_hand" lemma="gengæld" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gengæld</W>
-<W gloss="do_think" lemma="synes" msd="VEDR=----A-" tag="VBN" in="" out="-2:mod|1:subj|2:mod|3:pnct|7:vobj|17:pnct">synes</W>
+<W gloss="do_think" lemma="synes" msd="VEDR=----A-" tag="VBN" in="" out="-2:mod|1:subj|2:neg|3:pnct|7:vobj|17:pnct">synes</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="the_Germans" lemma="tysker" msd="NCCPU==D" tag="NNP" in="3:subj|4:[subj]" out="2:conj">tyskerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -83,11 +83,11 @@
 <p>
 <s>
 <W gloss="Equipment-wise" lemma="udstyrsmæssig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">Udstyrsmæssigt</W>
-<W gloss="places" lemma="placere" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|3:mod|4:lobj|6:pnct">placerer</W>
+<W gloss="places" lemma="placere" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|3:mod|6:pnct|4:@loc">placerer</W>
 <W gloss="Toledo" lemma="Toledo" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Toledo</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:dobj" out="">sig</W>
 <W gloss="well" lemma="fin" msd="ANP---=-R" tag="JJ" in="-3:mod" out="">fint</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">i</W>
 <W gloss="this_class" lemma="klasse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">klassen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -101,7 +101,7 @@
 <W gloss="electric_side_view_mirrors" lemma="el-sidespejl" msd="NCNPU==I" tag="NNP" in="-6:conj" out="">el-sidespejle</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="central_locking_system" lemma="centrallås" msd="NCCSU==I" tag="NN" in="-8:conj" out="-1:coord">centrallås</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|2:pnct|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:preds|2:pnct">er</W>
 <W gloss="standard" lemma="standard" msd="NCCSU==I" tag="NN" in="-1:preds" out="">standard</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -133,7 +133,7 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="VW" lemma="VW" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">VW</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|5:pnct|8:conj|22:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|2:preds|5:pnct|8:conj|22:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
 <W gloss="Spanish" lemma="spansk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">spansk</W>

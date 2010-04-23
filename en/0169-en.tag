@@ -6,7 +6,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="1:[subj]" out="-6:mod|1:vobj|6:pnct">she's</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-1:[subj]|3:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-1:[subj]|1:preds|3:mod">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">treatment</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
@@ -76,7 +76,7 @@
 <W msd="NC=S" tag="NN" in="3:mod" out="1:pnct">Today</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|8:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|3:preds|8:pnct">is</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">51</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod|2:conj">old</W>
@@ -90,8 +90,8 @@
 <W msd="CS" tag="IN" in="3:mod" out="1:nobj">Since</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1984,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|1:mod|2:vobj|13:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|2:vobj|13:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-3:[subj]|2:dobj">drunk</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">so</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="-1:mod">much</W>
@@ -112,7 +112,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-5:mod|-1:subj|4:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-5:mod|-1:subj|1:preds|4:mod">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">inveterate</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">alcoholic</W>
@@ -146,7 +146,7 @@
 <W msd="CS" tag="IN" in="-5:mod" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">don't</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:mod|1:preds">become</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">become</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">alcoholic</W>
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj|3:pobj">from</W>
@@ -238,7 +238,7 @@
 <W msd="NP=S" tag="NNP" in="-3:subj" out="-2:title|-1:namef|1:pnct|2:ref|3:rel">Eplov</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|3:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:preds|3:mod">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">duty</W>
 <W msd="AC" tag="CD" in="-3:mod" out="1:nobj|2:mod">two</W>

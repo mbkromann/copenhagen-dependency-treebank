@@ -24,9 +24,9 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:mod|13:pnct|14:mod|30:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:preds|13:pnct|14:mod|30:pnct|2:neg">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">possible</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">provide</W>

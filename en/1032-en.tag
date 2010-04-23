@@ -48,7 +48,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Seasonal</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">swings</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|46:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|46:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="2:pobj">due</W>
 <W msd="CC" tag="CC" in="22:mod" out="">either</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="2:dobj">to</W>
@@ -237,8 +237,8 @@
 <W msd="NC=P" tag="NNS" in="3:subj|5:[subj]" out="2:conj">Dairies</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">slaughterhouses</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:mod|2:vobj|21:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|2:vobj|21:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">possibility</W>

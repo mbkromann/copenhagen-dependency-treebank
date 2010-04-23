@@ -39,7 +39,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">connection</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|44:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|1:preds|44:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">worth</W>
 <W msd="VAG" tag="VBG" in="-3:nobj" out="1:nobj">remembering</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="24:vobj">that</W>
@@ -66,8 +66,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">fall's</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Super</W>
 <W msd="NP=S" tag="NNP" in="-3:possd" out="-1:mod">League</W>
-<W msd="VADA" tag="VBD" in="-24:vobj" out="-9:mod|-23:subj|1:mod|2:mod|4:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-24:vobj" out="-9:mod|-23:subj|2:mod|4:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
 <W msd="ANP" tag="JJ" in="-4:vobj" out="-27:[subj]|1:avobj">live</W>
@@ -203,8 +203,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">bunker</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Lyngbyvejen</W>
-<W msd="VADR" tag="VBP" in="-21:rel" out="-14:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-21:rel" out="-14:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-16:[subj]|-17:dobj">change</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>

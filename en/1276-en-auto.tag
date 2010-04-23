@@ -1,7 +1,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="4:conj|12:pnct">But</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="CS" tag="IN" in="2:mod" out="-1:mod|1:obl">before</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="CS" tag="IN" in="2:mod" out="1:obl|-1:neg">before</W>
 <W msd="AC" tag="CD" in="-1:obl" out="">1969</W>
 <W msd="VADA" tag="VBD" in="-4:conj" out="-2:mod|1:subj|2:vobj">did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">he</W>
@@ -15,9 +15,9 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|20:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:preds|20:pnct">was</W>
 <W msd="SP" tag="IN" in="" out="">in</W>
-<W msd="PD" tag="DT" in="16:[mod]|-2:preds" out="">that</W>
+<W msd="PD" tag="DT" in="-2:preds|16:[mod]" out="">that</W>
 <W msd="NC=S" tag="NN" in="" out="">year</W>
 <W msd="PO" tag="PRP$" in="14:subj" out="1:attr|2:possd|3:pnct|5:appa">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
@@ -44,7 +44,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Beatles'</W>
 <W msd="VADA" tag="VBD" in="" out="">hit</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|3:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:preds|3:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">success</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -112,8 +112,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Joe</W>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]" out="-1:namef">Cocker</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:vobj|25:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="9:pobj|10:mod">not</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|3:vobj|25:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="9:pobj|10:mod">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">really</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">get</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">the</W>
@@ -217,7 +217,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">notorious</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">film</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|8:pnct|20:conj|22:pnct|3:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|3:preds|8:pnct|20:conj|22:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">audacious</W>

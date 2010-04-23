@@ -121,7 +121,7 @@
 </s>
 <s>
 <W gloss="Public_health" lemma="folkesundhed" msd="NCCSU==D" tag="NN" in="1:subj" out="">Folkesundheden</W>
-<W gloss="suffers" lemma="lide" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|11:pnct|4:dur">lider</W>
+<W gloss="suffers" lemma="lide" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|4:dur|11:pnct">lider</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
 <W gloss="harm" lemma="skade" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">skade</W>
 <W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
@@ -147,10 +147,10 @@
 <W gloss="advanced" lemma="avanceret" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">avanceret</W>
 <W gloss="equipment" lemma="udstyr" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">udstyr</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:comp" out="1:vobj">som</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:pred">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds">var</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
-<W gloss="export_slaughterhouses" lemma="eksportslagteri" msd="NCNPU==I" tag="NNP" in="-3:pred" out="-1:attr">eksportslagterier</W>
+<W gloss="export_slaughterhouses" lemma="eksportslagteri" msd="NCNPU==I" tag="NNP" in="-3:preds" out="-1:attr">eksportslagterier</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -215,14 +215,14 @@
 <W gloss="Duetoft" lemma="Duetoft" msd="NP--U==-" tag="NNP" in="13:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Duetoft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|5:[subj]" out="">der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:pred|3:coord|9:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|3:coord|9:pnct|2:preds">er</W>
 <W gloss="declared" lemma="erklære" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">erklæret</W>
-<W gloss="super-European" lemma="supereuropæer" msd="NCCSU==I" tag="NN" in="-2:pred" out="-1:attr">supereuropæer</W>
+<W gloss="super-European" lemma="supereuropæer" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">supereuropæer</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:conj">og</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-5:[subj]|1:dobj|3:lobj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-1:conj" out="-5:[subj]|1:dobj|3:@loc">har</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="past" lemma="fortid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fortid</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
 <W gloss="the_European_Parliament" lemma="EF-parlament" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">EF-parlamentet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-13:subj|1:vobj|12:pnct">har</W>

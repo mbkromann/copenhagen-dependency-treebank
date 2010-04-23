@@ -4,8 +4,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:mod|1:dobj|12:pnct">relates</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|4:mod">sleep</W>
 <W msd="PD" tag="DT" in="3:tobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
@@ -41,7 +41,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|6:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:ref|3:rel">something</W>
 <W msd="PT" tag="WDT" in="-1:ref|2:subj" out="">that</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">never</W>
@@ -81,7 +81,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|4:mod|15:conj|57:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|4:mod|15:conj|57:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">five</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">camps</W>
@@ -159,8 +159,8 @@
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">help</W>
-<W msd="VADR" tag="VBZ" in="-11:vobj" out="-2:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-11:vobj" out="-2:subj|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">futile</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
@@ -178,7 +178,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">crown</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
-<W msd="VADR" tag="VBZ" in="-12:conj" out="-7:subj|-8:coord|4:pnct|5:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-12:conj" out="-7:subj|-8:coord|1:preds|4:pnct|5:mod">is</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="1:pobj">better</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">nothing</W>

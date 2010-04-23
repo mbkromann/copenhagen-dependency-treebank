@@ -116,9 +116,9 @@
 <W gloss="to" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_ship" lemma="skib" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">skibet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="by" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-7:dobj|-8:pnct|1:subj|2:mod|3:pnct">ved</W>
+<W gloss="by" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-7:dobj|-8:pnct|1:subj|3:pnct|2:neg">ved</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -138,7 +138,7 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="are_holding" lemma="holde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:dobj|6:pnct|4:preds">holder</W>
+<W gloss="are_holding" lemma="holde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:dobj|4:preds|6:pnct">holder</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:mod" out="">jo</W>
 <W gloss="actually" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">faktisk</W>
 <W gloss="the_crew" lemma="besætning" msd="NCCSU==D" tag="NN" in="-3:dobj" out="">besætningen</W>
@@ -149,8 +149,8 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|17:pnct|18:pnct">Men</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">jeg</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:vobj">kan</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|1:neg">kan</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="imagine" lemma="forestille" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:iobj|2:pnct|3:dobj">forestille</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:iobj" out="">mig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

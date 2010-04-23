@@ -116,8 +116,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|11:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="6:nobj">it</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:mod|2:vobj">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|2:vobj|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">assessed</W>
 <W msd="PT" tag="WRB" in="1:mod" out="">how</W>

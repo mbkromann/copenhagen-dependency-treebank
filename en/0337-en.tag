@@ -5,7 +5,7 @@
 <W msd="ANP" tag="RB" in="" out="1:pnct|2:vobj|6:pnct">So</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="-2:vobj" out="1:preds">that's</W>
-<W msd="PT" tag="WP" in="2:[pred]|-1:preds" out="2:rel">what</W>
+<W msd="PT" tag="WP" in="-1:preds|2:[pred]" out="2:rel">what</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|-2:[pred]">am</W>
 <W msd="XP" tag="." in="-6:pnct" out="">?</W>
@@ -66,7 +66,7 @@
 <s>
 <W msd="CS" tag="IN" in="" out="2:vobj|10:pnct">If</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|6:mod|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|3:preds|6:mod">is</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">any</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">energy</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="1:mod">left</W>
@@ -103,8 +103,8 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">face</W>
 <W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">unnecessarily</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:neg">unnecessarily</W>
 <W msd="ANP" tag="JJ" in="-11:modp" out="-1:mod|1:pnct">hard</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

@@ -70,7 +70,7 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|3:mod|4:pnct|5:&lt;mod&gt;|6:&lt;pred&gt;|8:pnct#|8:&lt;mod&gt;|9:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:preds|3:mod|4:pnct|5:&lt;mod&gt;|6:&lt;pred&gt;|8:pnct#|8:&lt;mod&gt;|9:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hero</W>
 <W msd="NC=S" tag="NN" in="-3:mod" out="">today</W>
@@ -162,8 +162,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">commission</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-13:conj" out="-12:mod|-1:expl|1:mod|3:dobj">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-13:conj" out="-12:mod|-1:expl|3:dobj|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">so</W>
 <W msd="ANP" tag="JJ" in="-3:dobj" out="-1:mod">much</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
@@ -199,8 +199,8 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="2:conj">Denmark</W>
 <W msd="CC" tag="CC" in="1:coord" out="-2:mod">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Sweden</W>
-<W msd="VADR" tag="VBP" in="" out="-8:subj|1:mod|2:vobj|9:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-8:subj|2:vobj|9:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">understand</W>
 <W msd="PT" tag="WRB" in="-1:dobj|5:[nobj]" out="3:rel">where</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>

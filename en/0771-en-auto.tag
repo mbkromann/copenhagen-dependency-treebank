@@ -59,8 +59,8 @@
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="NP=S" tag="NNP" in="-2:modp" out="-1:pnct|1:pnct">Cons.</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W msd="VA" tag="MD" in="" out="-4:subj|1:mod|2:vobj">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-4:subj|2:vobj|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:dobj|12:mod">amend</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">two-year</W>
@@ -197,7 +197,7 @@
 <W msd="NC=S" tag="NN" in="" out="">year</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="" out="-20:mod|-1:expl|1:mod|12:pnct|5:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-20:mod|-1:expl|1:mod|5:preds|12:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="" out="">quite</W>
 <W msd="PI" tag="DT" in="" out="">a</W>

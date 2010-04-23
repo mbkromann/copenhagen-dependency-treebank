@@ -155,7 +155,7 @@
 <p>
 <s>
 <W gloss="debut" lemma="debut" msd="NCCSU==I" tag="NN" in="1:preds" out="">Debut</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:mod|3:pnct|4:coord|13:pnct|14:mod|35:pnct|-1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:mod|3:pnct|4:coord|13:pnct|14:mod|35:pnct">er</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="far_from" lemma="langtfra" msd="RGU" tag="RP" in="-2:mod" out="">langtfra</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -225,8 +225,8 @@
 <W gloss="for" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">efter</W>
 <W gloss="love" lemma="kærlighed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kærligheden</W>
 <W gloss="ever" lemma="stadig" msd="RGU" tag="RP" in="1:mod" out="">stadig</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|1:lobj|4:conj|7:pnct">bor</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|4:conj|7:pnct|1:@loc">bor</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-10:[subj]|-1:coord|1:dobj|2:aobj">har</W>

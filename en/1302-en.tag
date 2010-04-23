@@ -43,7 +43,7 @@
 <W msd="ANP" tag="RB" in="1:tobj" out="">Shortly</W>
 <W msd="CS" tag="IN" in="9:mod" out="-1:tobj|2:vobj|7:pnct">after</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:mod">were</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">alone</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
@@ -199,14 +199,14 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="12:qobj" out="-2:pnct|-1:subj|10:pnct|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="12:qobj" out="-2:pnct|-1:subj|1:preds|10:pnct|11:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">pure</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">accident</W>
 <W msd="SP" tag="IN" in="-5:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">kill</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>

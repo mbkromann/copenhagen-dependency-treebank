@@ -18,8 +18,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="6:modp" out="1:nobj|5:pnct">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:vobj">order</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-1:mod|1:preds">become</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="1:preds|-1:neg">become</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">monotonous</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="" out="-9:subj|-6:modp|1:vobj|17:conj|23:pnct">must</W>

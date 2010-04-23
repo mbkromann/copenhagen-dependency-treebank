@@ -57,7 +57,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">ills</W>
 <W msd="XP" tag="," in="-21:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">thereby</W>
-<W msd="VAG" tag="VBG" in="-23:conj" out="-1:mod|4:dobj|2:preds">making</W>
+<W msd="VAG" tag="VBG" in="-23:conj" out="-1:mod|2:preds|4:dobj">making</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">extensively</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">superfluous</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">psychiatric</W>
@@ -87,8 +87,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">this</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">therapeutic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">progress</W>
-<W msd="VADR" tag="VBP" in="" out="-15:subj|1:mod|2:mod|4:mod|8:pnct|3:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-15:subj|2:mod|3:preds|4:mod|8:pnct|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">immediately</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">visible</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
@@ -148,7 +148,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">example</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|7:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|7:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">marketing</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

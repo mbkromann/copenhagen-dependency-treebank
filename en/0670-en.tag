@@ -180,8 +180,8 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">countries</W>
 <W msd="PT" tag="WDT" in="-7:ref|1:subj|4:[subj]|8:[subj]|10:[subj]" out="">that</W>
-<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|1:mod|2:mod|3:vobj|7:conj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|2:mod|3:vobj|7:conj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">mutually</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">recognize</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
@@ -214,7 +214,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">order</W>
-<W msd="VADR" tag="VBP" in="" out="-10:subj|16:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-10:subj|2:preds|16:pnct">are</W>
 <W msd="PD" tag="DT" in="8:mod" out="">both</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj|3:mod|8:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">evident</W>

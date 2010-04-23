@@ -42,10 +42,10 @@
 <p>
 <s>
 <W gloss="be_precluded" lemma="udelukke" msd="VAF-=----P-" tag="VB" in="1:vobj" out="2:[subj]">Udelukkes</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:vobj|1:subj|2:mod|3:mod|4:pnct|29:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:vobj|1:subj|2:mod|4:pnct|29:pnct|3:neg">kan</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|-2:[subj]" out="4:nobj">det</W>
 <W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:mod" out="">imidlertid</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="11:vobj">at</W>
 <W gloss="the_process_of_shifting" lemma="omstillingsproces" msd="NCCSU==D" tag="NN" in="10:subj|11:[subj]" out="1:pobj|9:pnct">omstillingsprocessen</W>
@@ -79,7 +79,7 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:mod" out="1:nobj">I</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="connection" lemma="forbindelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forbindelse</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:subj|36:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:subj|2:preds|36:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
 <W gloss="worth" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:preds" out="">værd</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
@@ -104,8 +104,8 @@
 <W gloss="the_fall's" lemma="efterår" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">efterårets</W>
 <W gloss="basic_game_in_Super_League" lemma="Superliga-grundspil" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Superliga-grundspil</W>
 <W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:mod" out="">slet</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="-1:mod">ikke</W>
-<W gloss="did_live" lemma="leve" msd="VADA=----A-" tag="VBD" in="-19:vobj" out="-1:mod|-18:subj|-5:mod|1:avobj">levede</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:mod">ikke</W>
+<W gloss="did_live" lemma="leve" msd="VADA=----A-" tag="VBD" in="-19:vobj" out="-18:subj|-5:mod|1:avobj|-1:neg">levede</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|3:possd|4:mod">de</W>
@@ -227,8 +227,8 @@
 <W gloss="Fuehrer_bunker" lemma="førerbunker" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">førerbunker</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:mod" out="1:nobj">på</W>
 <W gloss="Lyngbyvejen" lemma="Lyngbyvejen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Lyngbyvejen</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_change" lemma="ændre" msd="VADR=----A-" tag="VBD" in="-21:rel" out="-14:subj|-1:mod|-17:dobj">ændrer</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_change" lemma="ændre" msd="VADR=----A-" tag="VBD" in="-21:rel" out="-14:subj|-17:dobj|-1:neg">ændrer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 </p>

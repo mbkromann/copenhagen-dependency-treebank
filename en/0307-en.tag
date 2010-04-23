@@ -5,7 +5,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|13:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|13:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">correct</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="9:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">child</W>
@@ -77,7 +77,7 @@
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:mod|-1:subj|1:mod|5:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:mod|-1:subj|1:mod|2:preds|5:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">probably</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">best</W>
@@ -86,7 +86,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|5:pnct|6:mod|14:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|6:mod|14:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">difficult</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">young</W>
@@ -121,9 +121,9 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">low</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">grade</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">average</W>
-<W msd="VADR" tag="VBZ" in="-17:conj" out="-4:subj|-5:coord|1:mod|2:mod|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-17:conj" out="-4:subj|-5:coord|1:mod|3:preds|2:neg">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">really</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:nobj">worth</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">much</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
@@ -132,7 +132,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="">That</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:nobj">in</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">itself</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|-2:mod|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|-2:mod|1:preds|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">incredible</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">pressure</W>
@@ -146,7 +146,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|18:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|1:preds|18:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">difficult</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:pobj">see</W>

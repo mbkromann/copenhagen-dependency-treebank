@@ -167,8 +167,8 @@
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="4:subj" out="1:attr|2:nobj">Det</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">Danske</W>
 <W gloss="Film_Institute" lemma="filminstitut" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Filminstitut</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-1:mod|4:pnct|1:preds">er</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:preds|4:pnct|-1:neg">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="boring" lemma="kedelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">kedelig</W>
 <W gloss="institution" lemma="institution" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">institution</W>
@@ -183,7 +183,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|3:pnct|24:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:preds|3:pnct|24:pnct">er</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">ingen</W>
 <W gloss="secret" lemma="hemmelighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hemmelighed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -192,7 +192,7 @@
 <W gloss="films" lemma="film" msd="NCCPG==I" tag="NNP" in="2:subj|3:[subj]|11:[subj]|13:[subj]" out="-1:attr|1:possd">films</W>
 <W gloss="market_share" lemma="markedsandel" msd="NCCSU==I" tag="NN" in="-1:possd" out="">markedsandel</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-2:subj|1:vobj|9:conj">har</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|2:mod|1:preds">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds|2:mod">været</W>
 <W gloss="falling" lemma="falde" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">faldende</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>

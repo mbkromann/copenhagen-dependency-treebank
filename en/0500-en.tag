@@ -49,8 +49,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|-2:mod|1:mod|6:pnct|7:mod|17:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|-2:mod|2:preds|6:pnct|7:mod|17:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="AC" tag="CD" in="-2:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -58,7 +58,7 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-7:mod" out="2:vobj">since</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|3:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|3:mod">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">leave</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">during</W>
@@ -197,7 +197,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="PT" tag="WP" in="6:nobj" out="">What</W>
-<W msd="VADR" tag="VBZ" in="-4:xpl" out="1:subj|6:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-4:xpl" out="1:subj|2:preds|6:pnct">is</W>
 <W msd="PP" tag="PRP" in="-1:subj|2:[subj]|3:[subj]" out="">it</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
@@ -216,7 +216,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Ny</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:nobj">Holte</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">School</W>
-<W msd="VADR" tag="VBP" in="" out="-10:mod|-7:subj|3:pnct|7:conj|11:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-10:mod|-7:subj|2:preds|3:pnct|7:conj|11:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">creatively-oriented</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

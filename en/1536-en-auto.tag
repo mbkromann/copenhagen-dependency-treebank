@@ -104,7 +104,7 @@
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|18:mod|23:pnct">saw</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plane</W>
-<W msd="SP" tag="IN" in="-2:mod" out="5:pnct|9:&lt;pred&gt;|10:coord|3:preds">with</W>
+<W msd="SP" tag="IN" in="-2:mod" out="3:preds|5:pnct|9:&lt;pred&gt;|10:coord">with</W>
 <W msd="PO" tag="PRP$" in="" out="">its</W>
 <W msd="NC=S" tag="NN" in="" out="">nose</W>
 <W msd="VAG" tag="VBG" in="-3:preds" out="1:lobj">pointing</W>
@@ -147,8 +147,8 @@
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-8:conj" out="-2:mod|-1:subj|1:mod|2:vobj|4:pnct|8:conj">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-8:conj" out="-2:mod|-1:subj|2:vobj|4:pnct|8:conj|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">see</W>
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">more</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -218,7 +218,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">engine</W>
 <W msd="NC=P" tag="NNS" in="" out="">problems</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|4:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:preds|4:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">unknown</W>
 <W msd="ANP" tag="JJ" in="" out="">last</W>
 <W msd="NC=S" tag="NN" in="" out="">night</W>

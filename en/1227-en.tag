@@ -73,8 +73,8 @@
 <W msd="CC" tag="CC" in="" out="-1:pnct|3:conj|18:pnct">But</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">now</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-3:conj" out="-2:mod|-1:subj|1:mod|2:vobj|5:pnct|6:mod">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-3:conj" out="-2:mod|-1:subj|2:vobj|5:pnct|6:mod|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">get</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">penny</W>

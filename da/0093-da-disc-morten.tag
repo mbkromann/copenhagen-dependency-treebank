@@ -51,7 +51,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="social" lemma="social" morph="social" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">sociale</W>
 <W gloss="authorities" lemma="myndighed" morph="myndig +hed/QUAL" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">myndigheder</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|25:pnct|31:+CAUSE&3a;expl/nemlig|8:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|8:preds|25:pnct|31:+CAUSE&3a;expl/nemlig">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="little" lemma="lille" morph="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="three-year_old" lemma="tre-årig" morph="årig -tre/DENUM&3a;ord år +ig/DENOM&3a;poss" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">tre-årige</W>
@@ -141,7 +141,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="8:vobj">Det</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-13:DESCR&3a;eval/ATTR" out="-1:subj|1:att|3:pnct|16:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-13:DESCR&3a;eval/ATTR" out="-1:subj|1:att|2:preds|3:pnct|16:pnct">var</W>
 <W gloss="truly" lemma="sandelig" msd="RGU" tag="RP" in="-1:att" out="">sandelig</W>
 <W gloss="good" lemma="god" morph="god" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">godt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -171,12 +171,12 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:time" out="2:nobj">I</W>
 <W gloss="last" lemma="sidste" morph="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">sidste</W>
 <W gloss="week" lemma="uge" morph="uge" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">uge</W>
-<W gloss="sat" lemma="sidde" morph="sidde" msd="VADA=----A-" tag="VBD" in="-57:+CONJ/(og)" out="-3:time|1:subj|2:eval|3:mod|5:lobj|8:pnct|9:time|26:pnct|36:CONTR&3a;dir/men">sad</W>
+<W gloss="sat" lemma="sidde" morph="sidde" msd="VADA=----A-" tag="VBD" in="-57:+CONJ/(og)" out="-3:time|1:subj|2:eval|3:mod|8:pnct|9:time|26:pnct|36:CONTR&3a;dir/men|5:@loc">sad</W>
 <W gloss="the_grandfather" lemma="bedstefader" morph="fader -bedste/GRAD&3a;qual" msd="NCCSU==D" tag="NN" in="-1:subj|10:[subj]|11:[subj]|12:[subj]" out="">bedstefaderen</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:eval" out="">ellers</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-3:mod" out="1:nobj">to</W>
 <W gloss="days" lemma="dag" morph="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:@loc" out="1:nobj">i</W>
 <W gloss="Kolding" lemma="Kolding" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Kolding</W>
 <W gloss="jail" lemma="arrest" morph="arrestere PRED&3a;result" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">arrest</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>

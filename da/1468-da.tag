@@ -46,7 +46,7 @@
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:qobj" out="-1:subj|-2:pnct|3:pnct|4:pnct|2:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:qobj" out="-1:subj|-2:pnct|2:preds|3:pnct|4:pnct">er</W>
 <W gloss="steady" lemma="fast" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">fast</W>
 <W gloss="work." lemma="arbejde" msd="NCNSU==I" tag="NN" in="-2:preds" out="-1:attr">arbejde</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -64,7 +64,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct">er</W>
 <W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:mod" out="">mest</W>
 <W gloss="practical" lemma="praktisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:mod">praktisk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -133,7 +133,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
 <W gloss="once" lemma="engang" msd="RGU" tag="RP" in="1:mod" out="">engang</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|2:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:preds|2:pnct">var</W>
 <W gloss="Yugoslavia" lemma="Jugoslavien" msd="NP--U==-" tag="NNP" in="-1:preds" out="">Jugoslavien</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-23:subj|1:mod|2:vobj|26:pnct">er</W>
@@ -159,8 +159,8 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:pnct|4:mod|5:nobj">den</W>
 <W gloss="newly-proclaimed" lemma="nyudråbt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nyudråbte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="acknowledged" lemma="anerkende" msd="VAPA=S[CN]DA-U" tag="VBN" in="-4:mod" out="-1:mod">anerkendte</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="acknowledged" lemma="anerkende" msd="VAPA=S[CN]DA-U" tag="VBN" in="-4:mod" out="-1:neg">anerkendte</W>
 <W gloss="republic_of_Kreijna" lemma="Kreijna-republik" msd="NCCSU==I" tag="NN" in="-5:nobj" out="">Kreijna-republik</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
@@ -199,8 +199,8 @@
 <W gloss="Marshal" lemma="marskal" msd="NCCSU==I" tag="NN" in="1:title" out="">marskal</W>
 <W gloss="Tito" lemma="Tito" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:title|1:pnct">Tito</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="-19:conj" out="-18:subj|1:mod|2:dobj">tog</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="-19:conj" out="-18:subj|2:dobj|1:neg">tog</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="account" lemma="hensyn" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj">hensyn</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_population's" lemma="befolkning" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:attr|2:possd">befolkningens</W>
@@ -247,7 +247,7 @@
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="UN_soldiers" lemma="FN-soldat" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">FN-soldater</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-3:subj|1:vobj">har</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|3:mod|1:preds">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds|3:mod">været</W>
 <W gloss="eyewitnesses" lemma="øjenvidne" msd="NCNPU==I" tag="NNP" in="-1:preds" out="1:pobj">øjenvidner</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="-7:nobj">til</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:mod" out="2:nobj">på</W>

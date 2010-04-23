@@ -34,7 +34,7 @@
 <W msd="NC=P" tag="NNS" in="" out="">earnings</W>
 <W msd="NC=S" tag="NN" in="" out="">trend</W>
 <W msd="VADR" tag="VBZ" in="" out="-14:mod|1:vobj|10:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="2:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="1:preds|2:mod">been</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">satisfactory</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">despite</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">low</W>
@@ -153,8 +153,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">division</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Haderslev</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:mod|2:mod|3:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|2:mod|3:vobj|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-9:[subj]|1:dobj">achieved</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|4:ref">a</W>
@@ -201,8 +201,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|1:mod|2:vobj|29:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|2:vobj|29:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">prevented</W>
 <W msd="PD" tag="DT" in="8:subj|9:[subj]" out="1:nobj|3:pnct">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:possd|4:appa">company's</W>

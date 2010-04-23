@@ -133,7 +133,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:ext|6:prec|11:pnct|4:attr">Stir</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:ext|4:attr|6:prec|11:pnct">Stir</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">batter</W>
 <W msd="ANP" tag="RB" in="-3:ext" out="2:err">again</W>
@@ -161,8 +161,8 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">Teflon-coated</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:cond|1:mod|2:vobj|15:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:cond|2:vobj|15:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">need</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:inst|4:pnct">brush</W>

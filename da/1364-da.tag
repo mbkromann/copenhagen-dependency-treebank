@@ -70,7 +70,7 @@
 <W gloss="The_result" lemma="resultat" msd="NCNSU==D" tag="NN" in="3:subj" out="1:pobj">Resultatet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_conversation" lemma="samtale" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">samtalen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|10:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:preds|10:pnct">var</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">klar</W>
 <W gloss="warning" lemma="advarsel" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">advarsel</W>
@@ -123,8 +123,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-9:mod" out="3:vobj">idet</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]|20:[subj]|21:[subj]" out="">Wiese</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj|18:conj">har</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|18:conj|-1:neg">har</W>
 <W gloss="placed" lemma="lægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">lagt</W>
 <W gloss="conceal" lemma="skjul" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">skjul</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
@@ -199,7 +199,7 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Knasterne" lemma="knast" msd="NCCPU==D" tag="NNP" in="2:subj" out="-1:pnct|1:pnct">Knasterne</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|33:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:preds|33:pnct">var</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="examination" lemma="gennemgang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">gennemgang</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

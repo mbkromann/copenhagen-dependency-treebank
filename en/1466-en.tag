@@ -5,8 +5,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hand</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|1:mod|2:vobj|18:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|2:vobj|18:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|6:vobj">think</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj|3:conj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Germans</W>
@@ -51,7 +51,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Toledo</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|2:lobj|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|1:preds|2:lobj|5:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">well-placed</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
@@ -75,7 +75,7 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">central</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">locking</W>
 <W msd="NC=S" tag="NN" in="-14:conj" out="-1:mod|-3:coord|-2:attr">system</W>
-<W msd="VADR" tag="VBP" in="" out="-15:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-15:subj|1:preds|2:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">standard</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -112,7 +112,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">VW</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:subj|4:pnct|7:conj|19:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:subj|1:preds|4:pnct|7:conj|19:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Spanish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">car</W>

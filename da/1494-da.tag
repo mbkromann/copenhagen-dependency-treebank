@@ -63,7 +63,7 @@
 <s>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="2:mod" out="1:nobj">I</W>
 <W gloss="the_finale" lemma="finale" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">finalen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|2:subj|4:pnct|3:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|2:subj|3:preds|4:pnct">var</W>
 <W gloss="Jesper" lemma="Jesper" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jesper</W>
 <W gloss="Bank" lemma="Bank" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Bank</W>
 <W gloss="untouchable" lemma="urørlig" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="">urørlig</W>
@@ -131,8 +131,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
 <W gloss="trees" lemma="træ" msd="NCNPU==D" tag="NNP" in="2:subj" out="">træerne</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="grows" lemma="vokse" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:lobj">vokser</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="grows" lemma="vokse" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:lobj|-1:neg">vokser</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="heaven" lemma="himmel" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">himlen</W>
@@ -140,10 +140,10 @@
 </s>
 <s>
 <W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|3:mod|4:aobj|13:pnct">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|4:aobj|13:pnct|3:neg">har</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-3:mod" out="-1:mod">ikke</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="-1:mod">ikke</W>
 <W gloss="difficult" lemma="svær" msd="ANP---=-R" tag="JJ" in="-4:aobj" out="1:pobj">svært</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -177,7 +177,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|11:pnct|2:preds">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct|11:pnct">bliver</W>
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">sidste</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">gang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -229,7 +229,7 @@
 <W gloss="Beyond" lemma="udover" msd="RGU" tag="RP" in="3:mod" out="1:nobj">Udover</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">disse</W>
 <W gloss="yachtsmen" lemma="sejler" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">sejlere</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|2:subj|7:pnct|6:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|2:subj|6:preds|7:pnct">er</W>
 <W gloss="Jesper" lemma="Jesper" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jesper</W>
 <W gloss="Bendix" lemma="Bendix" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|3:conj">Bendix</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -246,7 +246,7 @@
 <p>
 <s>
 <W gloss="reserve" lemma="reserve" msd="NCCSU==I" tag="NN" in="1:preds" out="">Reserve</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="2:subj|3:pnct|-1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|2:subj|3:pnct">er</W>
 <W gloss="Jan" lemma="Jan" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jan</W>
 <W gloss="Feddersen" lemma="Feddersen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Feddersen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

@@ -82,7 +82,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:possd">board's</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">overall</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">assessment</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|20:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|20:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Sine</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Diemar</W>
@@ -92,8 +92,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">sharp</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">reprimand</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="VAG" tag="VBG" in="-2:nobj" out="-1:mod|1:vobj">having</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="VAG" tag="VBG" in="-2:nobj" out="1:vobj|-1:neg">having</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:pobj">acted</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">compliance</W>
@@ -146,8 +146,8 @@
 <W msd="VADR" tag="VBZ" in="-10:conj" out="-1:subj|-2:coord|1:dobj">acknowledges</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="">that</W>
 <W msd="PP" tag="PRP" in="1:subj|1:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-1:[subj]|1:mod">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-1:[subj]|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="NC=S" tag="NN" in="" out="1:nobj">contact</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">municipality</W>

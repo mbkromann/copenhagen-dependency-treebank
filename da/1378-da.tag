@@ -63,8 +63,8 @@
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">De</W>
 <W gloss="Good" lemma="god" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">gode</W>
 <W gloss="carbohydrates" lemma="kulhydrat" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">kulhydrater</W>
-<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-3:subj|1:lobj|15:pnct">findes</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-3:subj|15:pnct|1:@loc">findes</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="bread" lemma="brød" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|7:pnct|8:conj|9:pnct|10:conj|12:conj">brød</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="grains" lemma="korn" msd="NCNPU==I" tag="NNP" in="-2:conj" out="">korn</W>
@@ -143,8 +143,8 @@
 <W gloss="fatty_acids" lemma="fedtsyre" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">fedtsyrer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
-<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-5:rel" out="-1:subj|1:lobj">findes</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-5:rel" out="-1:subj|1:@loc">findes</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="dairy_products" lemma="mejeriprodukt" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj">mejeriprodukter</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="meat_products" lemma="kødvare" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">kødvarer</W>
@@ -171,16 +171,16 @@
 <s>
 <W gloss="Monomættede" lemma="monomættet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Monomættede</W>
 <W gloss="fatty_acids" lemma="fedtsyre" msd="NCCPU==I" tag="NNP" in="1:subj|8:[subj]" out="-1:attr">fedtsyrer</W>
-<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:mod|4:lobj|7:conj|26:pnct">findes</W>
+<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:mod|7:conj|26:pnct|4:@loc">findes</W>
 <W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:mod" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">i</W>
 <W gloss="olive_oil" lemma="olivenolie" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">olivenolie</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-8:[subj]|-1:coord|1:mod|2:preds">er</W>
 <W gloss="i_øvrigt" lemma="i_øvrigt" msd="RGU" tag="RP" in="-1:mod" out="">i_øvrigt</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="6:[nobj]|-2:preds" out="1:nobj|2:pnct|3:ref|4:rel">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:preds|6:[nobj]" out="1:nobj|2:pnct|3:ref|4:rel">den</W>
 <W gloss="fatty_acid" lemma="fedtsyre" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fedtsyre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
@@ -191,8 +191,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|3:mod" out="">hvor</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="2:err" out="">de</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="seems" lemma="forekomme" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:mod|-3:mod|-2:err|2:dobj">forekommer</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="seems" lemma="forekomme" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:mod|-2:err|-1:neg|2:dobj">forekommer</W>
 <W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:dobj" out="-1:mod|2:nobj">mange</W>
 <W gloss="heart_vessel" lemma="hjerte-kar" msd="NCNPU==I" tag="NNP" in="1:nobj" out="">hjerte-kar</W>

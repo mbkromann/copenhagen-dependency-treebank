@@ -58,11 +58,11 @@
 <W msd="PI" tag="DT" in="" out="1:nobj|2:pnct|4:mod|12:pnct">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">crime</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="4:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="4:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj|4:conj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">legal</W>
-<W msd="CC" tag="CC" in="1:coord" out="-4:mod">but</W>
+<W msd="CC" tag="CC" in="1:coord" out="-4:neg">but</W>
 <W msd="SP" tag="IN" in="-4:conj" out="-1:coord|1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">moral</W>
@@ -91,7 +91,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bridge</W>
 <W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="" out="-9:subj|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-9:subj|1:preds|5:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">modern</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">passion</W>
@@ -150,7 +150,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|9:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|9:pnct">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:possd|2:possd|3:pnct|4:conj">his</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">wife's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">cousin</W>
@@ -200,7 +200,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|10:[dobj]" out="7:rel">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|10:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">action</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>

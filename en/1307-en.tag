@@ -56,8 +56,8 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">It</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:mod|2:vobj|5:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|2:vobj|5:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:preds">sound</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Chic</W>

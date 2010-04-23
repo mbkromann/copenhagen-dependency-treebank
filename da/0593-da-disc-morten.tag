@@ -51,7 +51,7 @@
 <W gloss="couples" lemma="ægtepar" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord|1:pnct|2:ref|8:rel">ægtepar</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|6:mod" out="">hvor</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="3:conj|1:attr">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:attr|3:conj">den</W>
 <W gloss="one" lemma="ene" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">ene</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="-3:conj" out="-1:coord|1:nobj">begge</W>
@@ -98,7 +98,7 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj">udgangspunkt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:nobj|7:ELAB&3a;exp&7c;DESCR&3a;qual|1:attr">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|7:ELAB&3a;exp&7c;DESCR&3a;qual">det</W>
 <W gloss="so-called" lemma="såkaldt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">såkaldte</W>
 <W gloss="threshold_amount" lemma="grænsebeløb" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">grænsebeløb</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -110,8 +110,8 @@
 <W gloss="incomes" lemma="indkomst" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|4:rel">indkomster</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_exceed" lemma="overstige" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:mod|-2:subj|1:dobj|5:pnct">overstiger</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_exceed" lemma="overstige" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:neg|1:dobj|5:pnct">overstiger</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:mod|2:nobj">en</W>
 <W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="-1:mod" out="">ca.</W>
 <W gloss="130,000" lemma="130.000" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj">130.000</W>
@@ -160,15 +160,15 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:avobj|2:lobj|4:pnct">bor</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:avobj|4:pnct|2:@loc">bor</W>
 <W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="-1:avobj" out="">alene</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_apartment" lemma="lejlighed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">lejligheden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-15:vobj" out="-14:mod|1:subj|2:mod|8:vobj|26:CONJ/(og)">får</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|7:[subj]" out="">du</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:mod|2:nobj">20</W>
 <W gloss="exceed" lemma="overstige" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:mod" out="">overstigende</W>

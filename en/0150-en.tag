@@ -153,8 +153,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|14:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|14:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intent</W>
 <W msd="SP" tag="IN" in="-5:nobj" out="2:vobj">that</W>
@@ -173,8 +173,8 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">Future</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">merger</W>
 <W msd="NC=P" tag="NNS" in="1:subj|4:[subj]|5:[subj]" out="-1:mod|-2:attr">partners</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|6:mod|16:pnct|2:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:preds|6:mod|16:pnct|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:part">chased</W>

@@ -59,7 +59,7 @@
 <W msd="CC" tag="CC" in="21:qobj" out="-1:pnct|3:conj|19:pnct">But</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">means</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:subj|2:pnct|3:mod|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-2:subj|1:preds|2:pnct|3:mod">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">wrong</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-3:mod" out="4:vobj">since</W>
@@ -93,8 +93,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="-10:conj" out="-1:subj|-2:coord|1:mod">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-10:conj" out="-1:subj|-2:coord|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="" out="-3:[subj]">go</W>
 <W msd="SP" tag="IN" in="" out="">along</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">with</W>
@@ -120,8 +120,8 @@
 <W msd="NP=S" tag="NNP" in="3:subj|5:[subj]|7:[subj]" out="1:mod|2:nobj">Den</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
-<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:mod|2:vobj">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:conj">intervene</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-2:conj" out="-7:[subj]|-1:coord|2:dobj">save</W>

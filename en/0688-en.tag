@@ -5,7 +5,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Skandia</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">drama</W>
-<W msd="VADR" tag="VBZ" in="" out="1:subj|2:pnct|-6:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:preds|1:subj|2:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Baltica</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -44,8 +44,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Christoffersen</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|27:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|27:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">deny</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="4:mod|10:pobj|14:pobj">negotiations</W>
@@ -95,8 +95,8 @@
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Hafnia</W>
-<W msd="VA" tag="MD" in="-15:conj" out="-1:subj|-2:coord|1:mod|2:vobj">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-15:conj" out="-1:subj|-2:coord|2:vobj|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:pobj">accept</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Skandia</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
@@ -138,8 +138,8 @@
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-2:subj|-1:mod|1:dobj">adds</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:preds">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:mod">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="2:vobj">to</W>
@@ -173,8 +173,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="2:subj|4:[subj]" out="1:nobj">Hafnia-Baltica</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">negotiations</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">reach</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">conclusion</W>

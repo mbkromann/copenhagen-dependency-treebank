@@ -3,7 +3,7 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="-4:list" out="-2:pnct|-1:subj|4:pnct#|5:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-4:list" out="-2:pnct|-1:subj|2:preds|4:pnct#|5:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|2:conj">meaningless</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -12,8 +12,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|29:pnct|1:preds">is</W>
-<W msd="PD" tag="DT" in="8:[mod]|-1:preds" out="1:nobj|8:rel">the</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|29:pnct">is</W>
+<W msd="PD" tag="DT" in="-1:preds|8:[mod]" out="1:nobj|8:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="AC" tag="CD" in="6:subj" out="1:mod|2:nobj|3:mod">six</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">female</W>
@@ -161,7 +161,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="21:qobj" out="-1:subj|1:mod|15:conj|19:pnct|20:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="21:qobj" out="-1:subj|1:mod|2:preds|15:conj|19:pnct|20:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">modest</W>
 <W msd="CC" tag="CC" in="12:coord" out="1:pnct">and</W>
@@ -176,8 +176,8 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="">her</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADA" tag="VBD" in="-15:conj" out="-1:subj|-10:mod|-12:coord|1:mod|2:vobj">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-15:conj" out="-1:subj|-10:mod|-12:coord|2:vobj|1:neg">were</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:part">brushed</W>
 <W msd="RG" tag="RP" in="-1:part" out="">off</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>

@@ -31,7 +31,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|8:pnct">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">name</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj" out="">that</W>
@@ -44,7 +44,7 @@
 <s>
 <W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:pnct|10:mod|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|2:pnct|10:mod|15:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="-1:preds" out="">Gerhard</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj|2:[subj]" out="">who</W>
@@ -133,7 +133,7 @@
 <W msd="PT" tag="WRB" in="-1:dobj|3:[mod]" out="2:rel">how</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[mod]|-2:[subj]|2:vobj|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[mod]|-2:[subj]|1:preds|2:vobj">be</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">finally</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">edited</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -171,8 +171,8 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:mod|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|2:preds|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">possible</W>
 <W msd="XP" tag="." in="" out="">?</W>
 <W msd="XP" tag="." in="" out="">.</W>

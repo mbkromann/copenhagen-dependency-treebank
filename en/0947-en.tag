@@ -160,8 +160,8 @@
 <W msd="VAF" tag="VB" in="-9:conj" out="-11:[subj]|-1:coord|1:dobj">hear</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">whether</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
@@ -231,8 +231,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bjørn</W>
 <W msd="NP=S" tag="NNP" in="-7:appa" out="-2:title|-1:namef|1:pnct">Westh</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="-29:conj" out="-9:subj|-10:coord|1:mod|2:vobj">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-29:conj" out="-9:subj|-10:coord|2:vobj|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-11:[subj]|1:dobj">repeat</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">this</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>

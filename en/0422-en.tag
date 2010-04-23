@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">greenhouse</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|2:pnct|3:&lt;subj&gt;|5:&lt;vobj&gt;|6:pnct|8:conj|25:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|2:pnct|3:&lt;subj&gt;|5:&lt;vobj&gt;|6:pnct|8:conj|25:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">overgrown</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-3:&lt;subj&gt;|2:[subj]" out="1:nobj">the</W>
@@ -33,8 +33,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|1:mod|2:vobj|4:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|2:vobj|4:pnct|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:preds">been</W>
 <W msd="NP=S" tag="NNP" in="-1:preds" out="">Søren</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -59,8 +59,8 @@
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">escape</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|1:mod|2:vobj|5:pnct|8:conj|33:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|2:vobj|5:pnct|8:conj|33:pnct|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:dobj">been</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">escape</W>
@@ -133,8 +133,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|15:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|15:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">see</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">whether</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>

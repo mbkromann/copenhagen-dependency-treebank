@@ -5,7 +5,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Harremoës</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|1:preds|8:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:pobj">fill</W>
@@ -105,7 +105,7 @@
 <W msd="NP=S" tag="NNP" in="11:subj|12:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Harremoës</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|7:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Knight</W>
@@ -169,7 +169,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="6:mod">Harremoës</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|15:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|2:mod|3:pnct">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">yachtsman</W>
 <W msd="NC=S" tag="NN" in="-2:mod" out="">incarnate</W>
@@ -190,8 +190,8 @@
 <W msd="PO" tag="PRP$" in="3:subj|5:[subj]|7:[subj]" out="1:possd|2:appr">His</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">wife</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="">Hanne</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|2:vobj|19:conj|30:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|2:vobj|19:conj|30:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">like</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]">sail</W>

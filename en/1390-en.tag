@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">goal</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|45:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|45:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:pnct|16:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="14:mod" out="1:pobj|12:pnct">prior</W>
@@ -52,7 +52,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">goal</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|20:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|1:preds|20:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="13:vobj">that</W>
 <W msd="PD" tag="DT" in="12:subj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">major</W>
@@ -128,7 +128,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|11:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj|7:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:mod|6:conj|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:mod|2:preds|6:conj">are</W>
 <W msd="PD" tag="DT" in="-1:mod" out="">both</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">full</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -158,7 +158,7 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-15:conj" out="-2:mod|-1:subj|-3:coord|3:pnct|6:conj|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-15:conj" out="-2:mod|-1:subj|-3:coord|1:preds|3:pnct|6:conj">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">board</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -180,8 +180,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">in</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">road</W>
 <W msd="VAG" tag="VBG" in="-2:nobj" out="-1:mod">racing</W>
-<W msd="VADR" tag="VBZ" in="-6:vobj" out="-5:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-6:vobj" out="-5:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]">disappear</W>
 <W msd="XP" tag="," in="-40:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-41:pnct" out="">"</W>

@@ -53,8 +53,8 @@
 </s>
 <s>
 <W msd="PI" tag="DT" in="10:subj|11:[subj]" out="2:attr|3:nobj|7:pnct">A</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">inessential</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:neg">inessential</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">detail</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
@@ -108,7 +108,7 @@
 <s>
 <W msd="CS" tag="IN" in="9:mod" out="2:vobj">If</W>
 <W msd="AC" tag="CD" in="1:subj|3:[subj]" out="">one</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|5:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">believe</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -156,8 +156,8 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">circle</W>
-<W msd="VADR" tag="VBZ" in="-4:xpl" out="-2:subj|1:mod|4:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-4:xpl" out="-2:subj|2:preds|4:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PO" tag="PRP$" in="-2:preds" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">circle</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -175,8 +175,8 @@
 <W msd="SP" tag="IN" in="5:pobj" out="1:nobj">for</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-3:ref" out="">which</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:mod|2:vobj">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|2:vobj|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|-5:pobj">prepared</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

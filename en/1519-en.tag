@@ -93,8 +93,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">accident</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">investigation</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">group</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="5:vobj">that</W>
 <W msd="PD" tag="DT" in="4:subj" out="2:nobj|3:possd">the</W>
@@ -171,7 +171,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">collision</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|6:pnct|7:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:preds|6:pnct|7:mod">was</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="1:pobj">close</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="2:dobj">having</W>
@@ -227,7 +227,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">policemen</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj" out="">who</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|5:pnct|6:mod|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:preds|5:pnct|6:mod">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">near</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">leaking</W>

@@ -129,8 +129,8 @@
 <W gloss="front" lemma="for-" msd="XX" tag="FW" in="-1:nobj" out="1:coord">for-</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="back_seats" lemma="bagsæde" msd="NCNSU==I" tag="NN" in="-1:conj" out="">bagsæde</W>
-<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|1:pred|8:pnct">er</W>
-<W gloss="diminished" lemma="mindske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:pred" out="1:pobj">mindsket</W>
+<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|8:pnct|1:preds">er</W>
+<W gloss="diminished" lemma="mindske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="1:pobj">mindsket</W>
 <W gloss="by" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">med</W>
 <W gloss="respectively" lemma="henholdsvis" msd="RGU" tag="RP" in="1:other" out="">hhv.</W>
 <W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:other|1:coord|3:nobj">10</W>
@@ -176,8 +176,8 @@
 <W gloss="maks.-benstræk" lemma="maksimalt-benstræk" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">maks.-benstræk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:pred">er</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:pred" out="1:nobj|2:ben">en</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds">er</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj|2:ben">en</W>
 <W gloss="treat" lemma="lækkerbisken" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">lækkerbisken</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
 <W gloss="super-longlegged" lemma="super-langbenet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">super-langbenede</W>
@@ -205,10 +205,10 @@
 <W gloss="majority" lemma="flertal" msd="NCNSU==I" tag="NN" in="-1:possd" out="">flertal</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:other" out="1:nobj">i</W>
 <W gloss="total_roominess" lemma="total-rummelighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">total-rummelighed</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-4:subj|-2:other|3:pred">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-4:subj|-2:other|3:preds">er</W>
 <W gloss="1-2" lemma="1-2" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">1-2</W>
 <W gloss="classes" lemma="klasse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">klasser</W>
-<W gloss="larger" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:pred" out="-2:other">større</W>
+<W gloss="larger" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:preds" out="-2:other">større</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>

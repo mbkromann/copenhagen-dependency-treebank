@@ -57,7 +57,7 @@
 <hi>
 <W gloss="After" lemma="med" msd="SP" tag="IN" in="2:man" out="1:nobj">Med</W>
 <W gloss="delay" lemma="forsinkelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forsinkelse</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:man|1:subj|21:pnct|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:man|1:subj|3:preds|21:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:subj" out="1:nobj">et</W>
 <W gloss="program" lemma="program" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">program</W>
 <W gloss="ready" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="1:pobj">klar</W>
@@ -245,8 +245,8 @@
 <W gloss="Olsen" lemma="Olsen" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Olsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-5:ref|1:expl" out="">der</W>
-<W gloss="works" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:expl|1:lobj|6:pnct">arbejder</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="works" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:expl|6:pnct|1:@loc">arbejder</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:loc">et</W>
 <W gloss="office_supplies_firm" lemma="kontorvarefirma" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kontorvarefirma</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
@@ -265,7 +265,7 @@
 <W gloss="These" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:nobj">De</W>
 <W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">100</W>
 <W gloss="hours" lemma="time" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">timer</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:contr|6:pnct|3:preds">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:contr|3:preds|6:pnct">blev</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:contr" out="1:nobj">i</W>
 <W gloss="instead" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:preds" out="1:nobj">til</W>

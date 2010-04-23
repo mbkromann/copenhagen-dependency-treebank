@@ -49,15 +49,15 @@
 <W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="-1:other|1:nobj">500</W>
 <W gloss="bodies" lemma="lig" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">lig</W>
 <W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-2:subj|1:vobj">blev</W>
-<W gloss="found" lemma="finde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">fundet</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="found" lemma="finde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@loc">fundet</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="the_ruins" lemma="ruin" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:loc">ruinerne</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Erzincan" lemma="Erzincan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="4:loc">Erzincan</W>
 <W gloss="about" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
 <W gloss="575" lemma="575" msd="AC---U=--" tag="CD" in="2:other" out="-1:degr|1:nobj">575</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
-<W gloss="east" lemma="øst" msd="RGU" tag="RP" in="-4:loc" out="1:pobj|-2:other">øst</W>
+<W gloss="east" lemma="øst" msd="RGU" tag="RP" in="-4:loc" out="-2:other|1:pobj">øst</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="Ankara" lemma="Ankara" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ankara</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
@@ -66,10 +66,10 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:neg|3:pred|11:pnct|12:reas|24:pnct">var</W>
+<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:neg|11:pnct|12:reas|24:pnct|3:preds">var</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
-<W gloss="possible" lemma="mulig" msd="ANPNSU=IU" tag="JJ" in="-3:pred" out="">muligt</W>
+<W gloss="possible" lemma="mulig" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="">muligt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
 <W gloss="abandon" lemma="opgive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opgive</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
@@ -198,8 +198,8 @@
 <W gloss="517" lemma="517" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="1:nobj">517</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|3:pnct">var</W>
-<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pred">blevet</W>
-<W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:pred" out="">kvæstet</W>
+<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">blevet</W>
+<W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">kvæstet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="1:conj">og</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:conj" out="4:vobj">at</W>

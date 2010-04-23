@@ -55,7 +55,7 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="3:subj" out="">det</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="2:mod" out="1:nobj">for</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">mange</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|4:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|1:preds|4:pnct">er</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">det</W>
 <W gloss="pure" lemma="ren" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">rene</W>
 <W gloss="abuse" lemma="misbrug" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">misbrug</W>
@@ -82,7 +82,7 @@
 <W gloss="Panodil" lemma="Panodil" msd="NP--U==-" tag="NNP" in="-4:conj" out="">Panodil</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Pamol" lemma="Pamol" msd="NP--U==-" tag="NNP" in="-6:conj" out="-1:coord">Pamol</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:mod|21:pnct|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:mod|3:preds|21:pnct">er</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="3:nobj">så</W>
 <W gloss="great" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:mod|1:pnct">stort</W>
@@ -126,15 +126,15 @@
 </s>
 <s>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="12:qobj" out="-1:subj|2:pnct|3:mod|11:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="12:qobj" out="-1:subj|1:preds|2:pnct|3:mod|11:pnct">er</W>
 <W gloss="concerning" lemma="betænkelig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">betænkeligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-3:mod" out="2:vobj">for</W>
 <W gloss="over-the-counter_medicine" lemma="håndkøbsmedicin" msd="NCCSU==I" tag="NN" in="1:subj" out="">håndkøbsmedicin</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|3:mod|5:pnct|4:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|4:preds|5:pnct|3:neg">er</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="1:mod">nu</W>
 <W gloss="even" lemma="engang" msd="RGU" tag="RP" in="-1:mod" out="">engang</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
 <W gloss="harmless" lemma="ufarlig" msd="ANPNSU=IU" tag="JJ" in="-4:preds" out="">ufarligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
@@ -169,7 +169,7 @@
 <W gloss="half" lemma="halvdel" msd="NCCSU==D" tag="NN" in="3:subj" out="-1:mod|1:pobj">halvdelen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="these_cases" lemma="tilfælde" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">tilfældene</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:pnct|1:preds">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:preds|2:pnct">var</W>
 <W gloss="suicide" lemma="selvmord" msd="NCNPU==I" tag="NNP" in="-1:preds" out="">selvmord</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

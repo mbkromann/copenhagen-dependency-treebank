@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="9:nobj">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|25:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|25:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">recurrent</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">feature</W>
@@ -34,7 +34,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|19:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|1:preds|19:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">tired</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:vobj">being</W>
@@ -47,7 +47,7 @@
 <W msd="PT" tag="WDT" in="-3:ref|3:subj|6:[subj]|7:[subj]|8:[subj]" out="">which</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:nobj">by</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">definition</W>
-<W msd="VADR" tag="VBP" in="-6:rel" out="-3:subj|-2:mod|3:conj|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-6:rel" out="-3:subj|-2:mod|1:preds|3:conj">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">weak</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VA" tag="MD" in="-3:conj" out="-6:[subj]|-1:coord|1:vobj">must</W>
@@ -114,8 +114,8 @@
 <W msd="ANC" tag="JJR" in="-1:attr" out="">lower</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">secondary</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">school</W>
-<W msd="VADR" tag="VBP" in="-18:xpl" out="-12:subj|1:mod|2:vobj|8:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-18:xpl" out="-12:subj|2:vobj|8:pnct|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:dobj|5:mod">begun</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">education</W>
@@ -129,7 +129,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">immigrants</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|3:pnct|4:coord|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|1:preds|3:pnct|4:coord|11:pnct">is</W>
 <W msd="AC" tag="CD" in="-1:preds" out="1:nobj">41</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

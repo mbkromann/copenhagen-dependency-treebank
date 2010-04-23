@@ -28,7 +28,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rent</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">allowance</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">tax-free</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -98,12 +98,12 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">threshold</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">amount</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|10:mod|19:pnct|12:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|10:mod|12:preds|19:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:rel">incomes</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|3:dobj">exceed</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>

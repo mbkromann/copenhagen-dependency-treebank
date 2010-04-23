@@ -7,8 +7,8 @@
 <W msd="CS" tag="IN" in="-2:conj" out="3:vobj">because</W>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">I</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">still</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">understand</W>
 <W msd="PT" tag="WRB" in="-1:dobj|5:[mod]" out="1:mod|5:rel">how</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -169,7 +169,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Swedes</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|3:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|2:preds|3:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">incredible</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

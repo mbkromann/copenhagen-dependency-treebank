@@ -27,7 +27,7 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="IN" in="11:mod" out="1:nobj|7:pnct|3:preds">With</W>
+<W msd="SP" tag="IN" in="11:mod" out="1:nobj|3:preds|7:pnct">With</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pistol</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="1:pobj">aimed</W>
@@ -168,8 +168,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">bags</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="U=" tag="TO" in="-10:conj" out="-1:mod|-2:coord|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="U=" tag="TO" in="-10:conj" out="-2:coord|1:vobj|-1:neg">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-21:[subj]|1:lobj|2:pnct|3:mod">look</W>
 <W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -184,7 +184,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">shocked</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">driver</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|22:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|2:preds|22:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">just</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>

@@ -11,7 +11,7 @@
 <W msd="NC=S" tag="NN" in="3:mod" out="">yesterday</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">triumphantly</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-3:mod|-1:mod|1:dobj|3:coord|10:mod|2:preds">declared</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-3:mod|-1:mod|1:dobj|2:preds|3:coord|10:mod">declared</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">communism</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">dead</W>
 <W msd="CC" tag="CC" in="-3:coord" out="1:&lt;dobj&gt;|4:&lt;pred&gt;">and</W>
@@ -38,8 +38,8 @@
 <W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|-1:mod|1:dobj|12:pnct">warned</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:mod|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|2:vobj|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[expl]|1:dobj">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
@@ -121,7 +121,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stone</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:mod|1:preds">left</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds|2:mod">left</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">unturned</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">find</W>
@@ -184,7 +184,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|4:pnct|7:conj|18:pnct#|19:pnct|1:preds">am</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|4:pnct|7:conj|18:pnct#|19:pnct">am</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">good</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">health</W>

@@ -62,7 +62,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="26:qobj" out="-2:pnct|-1:subj|25:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="26:qobj" out="-2:pnct|-1:subj|1:preds|25:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:mod|2:nobj|7:rel">a</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">mystifying</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">case</W>
@@ -121,8 +121,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|2:mod|3:vobj|17:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:mod|3:vobj|17:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WP" in="-1:dobj" out="1:rel|2:ref">who</W>
@@ -162,8 +162,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="10:qobj" out="-1:subj|1:mod|2:vobj|2:vobj|4:pnct|8:pnct|9:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="10:qobj" out="-1:subj|2:vobj|2:vobj|4:pnct|8:pnct|9:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj|-2:vobj" out="-3:[subj]|1:nobj">think</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">so</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

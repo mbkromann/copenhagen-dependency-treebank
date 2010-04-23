@@ -9,8 +9,8 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ranks</W>
-<W msd="VADA" tag="VBD" in="" out="-9:subj|1:mod|2:vobj|25:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-9:subj|2:vobj|25:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-11:[subj]|1:dobj|7:pnct|8:mod">faze</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd|3:appr">her</W>
 <W msd="AC" tag="CD" in="-1:possd" out="1:nobj">two</W>
@@ -111,7 +111,7 @@
 <W msd="CS" tag="IN" in="-2:mod" out="2:vobj">before</W>
 <W msd="AC" tag="CD" in="1:subj|2:[subj]" out="">one</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|1:preds">judged</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|2:mod">judged</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">undignified</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">the</W>
@@ -143,8 +143,8 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-11:mod" out="2:vobj">because</W>
 <W msd="AC" tag="CD" in="1:subj|3:[subj]" out="">one</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:mod">display</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">oneself</W>
 <W msd="CS" tag="IN" in="-2:mod" out="1:nobj">as</W>

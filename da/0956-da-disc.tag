@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|23:conj|37:modp|72:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|3:pnct|23:conj|37:modp|72:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="precondition" lemma="forudsætning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forudsætning</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -65,7 +65,7 @@
 <W gloss="work" lemma="fungere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]">fungere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="7:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:subj|1:mod|5:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:subj|1:mod|2:preds|5:pnct">er</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:mod" out="">derfor</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">et</W>
 <W gloss="unconditional" lemma="ubetinget" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">ubetinget</W>
@@ -76,7 +76,7 @@
 <W gloss="deeper" lemma="dyb" msd="ANC---=-R" tag="JJR" in="1:mod" out="">dybere</W>
 <W gloss="lying" lemma="ligge" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:mod" out="-1:mod">liggende</W>
 <W gloss="layers_of_soil" lemma="jordlag" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">jordlag</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|2:pnct|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:preds|2:pnct">er</W>
 <W gloss="viable" lemma="bæredygtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">bæredygtige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="put" lemma="sige" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-37:modp" out="1:mod|5:pnct|7:conj">sagt</W>
@@ -86,8 +86,8 @@
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|3:[subj]|20:[subj]" out="">man</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:mod|2:vobj">kan</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|2:vobj|1:neg">kan</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="think" lemma="tro" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj|17:conj">tro</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -170,7 +170,7 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_construction_industry" lemma="byggebranche" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byggebranchen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-29:conj" out="-7:mod|1:subj|4:pnct|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-29:conj" out="-7:mod|1:subj|3:preds|4:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="4:nobj">det</W>
 <W gloss="very" lemma="uhyre" msd="ANP---=-R" tag="JJ" in="1:mod" out="">uhyre</W>
 <W gloss="rare" lemma="sjælden" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:mod">sjældent</W>

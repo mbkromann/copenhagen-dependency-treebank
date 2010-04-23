@@ -4,8 +4,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">shift</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">attitude</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:mod|31:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|2:preds|31:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="CS" tag="IN" in="-2:preds" out="2:vobj|13:conj">because</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|4:pnct">is</W>
@@ -98,8 +98,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">motivation</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">signing</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|1:mod|5:pnct|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|2:preds|5:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">difficult</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">find</W>
@@ -112,7 +112,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">political</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">leaders</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|21:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:preds|21:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|5:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">condition</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

@@ -71,8 +71,8 @@
 <W msd="NC=S" tag="NN" in="-7:nobj|-2:[nobj]" out="">sector</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="5:nobj">it</W>
-<W msd="VA" tag="MD" in="" out="-14:mod|-1:subj|1:mod|2:vobj|14:pnct|15:mod|24:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-14:mod|-1:subj|2:vobj|14:pnct|15:mod|24:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">possible</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>

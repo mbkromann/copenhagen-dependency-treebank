@@ -67,7 +67,7 @@
 <W gloss="included" lemma="med" msd="RGU" tag="RP" in="3:preds" out="1:mod">med</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_price" lemma="pris" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">prisen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:coord|1:subj|-3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:coord|-3:preds|1:subj">er</W>
 <W gloss="bus" lemma="bus" msd="NCCSU==I" tag="NN" in="-1:subj" out="1:mod|5:pnct|6:conj|8:pnct|9:conj|14:conj">bus</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Funen" lemma="Fyn" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Fyn</W>
@@ -121,8 +121,8 @@
 </s>
 <s>
 <W gloss="The_trips" lemma="rejse" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Rejserne</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|11:pnct|1:preds">er</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:preds" out="1:nobj|5:conj|2:preds">med</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|11:pnct">er</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:preds" out="1:nobj|2:preds|5:conj">med</W>
 <W gloss="DFDS" lemma="DFDS" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">DFDS</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:preds" out="1:nobj">til</W>
 <W gloss="Oslo" lemma="Oslo" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Oslo</W>
@@ -179,14 +179,14 @@
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="">Det</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|27:pnct">kan</W>
-<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:pnct|3:mod|15:coord|1:preds">blive</W>
+<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|3:mod|15:coord">blive</W>
 <W gloss="cheaper" lemma="billig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">billigere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:mod" out="3:vobj">hvis</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj" out="">man</W>
 <W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:mod" out="">f.eks.</W>
-<W gloss="stay" lemma="bo" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:lobj|6:mod|8:pnct">bor</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="4:nobj">i</W>
+<W gloss="stay" lemma="bo" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|6:mod|8:pnct|1:@loc">bor</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="4:nobj">i</W>
 <W gloss="three-" lemma="tre-" msd="XX" tag="FW" in="3:nobj" out="2:conj">tre-</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="four-bunk" lemma="firekøje" msd="NCCPG==I" tag="NNP" in="-2:conj" out="-1:coord">firekøjers</W>
@@ -201,8 +201,8 @@
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:mod" out="">f.eks.</W>
 <W gloss="want" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">vil</W>
-<W gloss="stay" lemma="bo" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">bo</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="stay" lemma="bo" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc">bo</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="the_hotel" lemma="hotel" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">hotellets</W>
 <W gloss="luxury_wing" lemma="luksusafdeling" msd="NCCSU==I" tag="NN" in="-1:possd" out="">luksusafdeling</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>

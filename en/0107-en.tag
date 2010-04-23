@@ -163,8 +163,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Market</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Committee</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-3:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-3:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj|3:mod">discover</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">consequences</W>
@@ -202,7 +202,7 @@
 <W msd="NP=S" tag="NNP" in="16:subj|17:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Duetoft</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|6:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|5:conj|12:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:preds|5:conj|12:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:mod|2:nobj">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">declared</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="">super-European</W>

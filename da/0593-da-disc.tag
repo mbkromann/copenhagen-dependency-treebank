@@ -62,7 +62,7 @@
 </s>
 <s>
 <W gloss="The_rent_allowance" lemma="boligydelse" msd="NCCSU==D" tag="NN" in="1:subj" out="">Boligydelsen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct">er</W>
 <W gloss="tax-free" lemma="skattefri" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">skattefri</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -110,8 +110,8 @@
 <W gloss="incomes" lemma="indkomst" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|4:rel">indkomster</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_exceed" lemma="overstige" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:mod|-2:subj|1:dobj|5:pnct">overstiger</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_exceed" lemma="overstige" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:neg|1:dobj|5:pnct">overstiger</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:mod|2:nobj">en</W>
 <W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="-1:mod" out="">ca.</W>
 <W gloss="130,000" lemma="130.000" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj">130.000</W>
@@ -160,9 +160,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:avobj|2:lobj|4:pnct">bor</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:avobj|4:pnct|2:@loc">bor</W>
 <W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="-1:avobj" out="">alene</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_apartment" lemma="lejlighed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">lejligheden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-15:vobj" out="-14:mod|1:subj|2:mod|8:vobj">får</W>

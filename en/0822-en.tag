@@ -29,8 +29,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">accepted</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj">have</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="ANC" tag="JJR" in="-2:dobj" out="-1:mod|1:nobj|2:mod">more</W>
@@ -52,7 +52,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAF" tag="VB" in="-4:vobj" out="-10:[subj]|2:pnct|3:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-4:vobj" out="-10:[subj]|1:preds|2:pnct|3:mod">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">accessible</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="3:vobj">so</W>
@@ -133,7 +133,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|11:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:preds|11:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:part">far</W>
 <W msd="SP" tag="IN" in="-1:part" out="">from</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">unusual</W>
@@ -164,7 +164,7 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-11:mod" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|4:mod|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|4:mod">is</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pnct|4:mod|8:nobj">difficult</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -205,14 +205,14 @@
 <W msd="SP" tag="IN" in="-5:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="8:nobj">it</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">advantage</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">leg</W>
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="4:mod|7:pnct|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:preds|4:mod|7:pnct">be</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="2:conj">longer</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">shorter</W>

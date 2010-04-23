@@ -34,7 +34,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="" out="-9:pnct|-8:mod|-1:subj|-4:mod|3:mod|11:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-9:pnct|-8:mod|-1:subj|-4:mod|2:preds|3:mod|11:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|4:pobj">grateful</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
@@ -49,7 +49,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|14:conj|27:pnct|3:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|3:preds|14:conj|27:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="SP" tag="IN" in="-3:preds" out="-1:mod|1:nobj">about</W>
@@ -100,8 +100,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">black-white</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:dobj">deserve</W>
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">better</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -139,7 +139,7 @@
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|2:conj|32:pnct">And</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|6:pnct|10:conj|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:preds|6:pnct|10:conj">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">general</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">attitude</W>

@@ -28,8 +28,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">statement</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">sportswriters</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|9:pnct|3:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|3:preds|9:pnct|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod|1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>

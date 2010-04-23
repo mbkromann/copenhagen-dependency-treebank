@@ -62,8 +62,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">outpatient</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">basis</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-8:conj" out="-10:[subj]|-1:coord|1:mod|2:mod|3:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-8:conj" out="-10:[subj]|-1:coord|2:mod|3:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">necessarily</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-13:[subj]|2:dobj">require</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bed</W>
@@ -77,7 +77,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">think</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|6:pnct">is</W>
 <W msd="CS" tag="IN" in="-1:preds" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen</W>
@@ -92,7 +92,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|12:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|12:pnct">is</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">likely</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>

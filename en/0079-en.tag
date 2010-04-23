@@ -156,8 +156,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">handicapped</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:mod|2:vobj|3:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|2:vobj|3:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]">speak</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="" out="-8:subj|1:mod|22:pnct">sit</W>

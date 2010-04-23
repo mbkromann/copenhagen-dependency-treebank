@@ -43,8 +43,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:mod|3:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:mod|3:preds|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:mod">those</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
@@ -63,7 +63,7 @@
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">empty</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-1:expl|1:dobj|6:mod|3:preds">was</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:expl|1:dobj|3:preds|6:mod">was</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">one</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:nobj">on</W>
@@ -132,7 +132,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|14:rel">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|32:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:preds|32:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
 <W msd="NP=S" tag="NNP" in="-2:preds" out="">Bild</W>
 <W msd="SP" tag="IN" in="-4:ref|10:subj" out="1:pnct">that</W>
@@ -205,7 +205,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|7:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sport</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj" out="">that</W>

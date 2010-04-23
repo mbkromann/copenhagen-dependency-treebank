@@ -51,7 +51,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="2:conj">og</W>
 <W gloss="social" lemma="social" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">sociale</W>
 <W gloss="authorities" lemma="myndighed" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:attr">myndigheder</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:succ|1:subj|5:other|7:man|8:pred|25:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:succ|1:subj|5:other|7:man|25:pnct|8:preds">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="little" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="three-year_old" lemma="tre-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">tre-årige</W>
@@ -59,7 +59,7 @@
 <W gloss="once_again" lemma="atter" msd="RGU" tag="RP" in="-5:other" out="">atter</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
 <W gloss="legally" lemma="legal" msd="ANP---=-R" tag="JJ" in="-7:man" out="-1:degr">legalt</W>
-<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-8:pred" out="1:pobj">sammen</W>
+<W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-8:preds" out="1:pobj">sammen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:coord">sin</W>
 <W gloss="mother" lemma="mor" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mor</W>
@@ -141,9 +141,9 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="8:vobj">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="17:qobj" out="-1:subj|1:att|2:pred|3:pnct|16:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="17:qobj" out="-1:subj|1:att|3:pnct|16:pnct|2:preds">var</W>
 <W gloss="truly" lemma="sandelig" msd="RGU" tag="RP" in="-1:att" out="">sandelig</W>
-<W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-2:pred" out="">godt</W>
+<W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">godt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj|6:[subj]" out="">vi</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
@@ -171,12 +171,12 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:time" out="2:nobj">I</W>
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:atttr" out="">sidste</W>
 <W gloss="week" lemma="uge" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:atttr">uge</W>
-<W gloss="sat" lemma="sidde" msd="VADA=----A-" tag="VBD" in="" out="-3:time|1:subj|2:eval|5:lobj|8:pnct|9:succ|26:pnct|3:other">sad</W>
+<W gloss="sat" lemma="sidde" msd="VADA=----A-" tag="VBD" in="" out="-3:time|1:subj|2:eval|3:other|5:@loc|8:pnct|9:succ|26:pnct">sad</W>
 <W gloss="the_grandfather" lemma="bedstefader" msd="NCCSU==D" tag="NN" in="-1:subj|10:[subj]|11:[subj]|12:[subj]" out="">bedstefaderen</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:eval" out="">ellers</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-3:other" out="1:nobj">to</W>
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:@loc" out="1:nobj">i</W>
 <W gloss="Kolding" lemma="Kolding" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Kolding</W>
 <W gloss="jail" lemma="arrest" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">arrest</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>

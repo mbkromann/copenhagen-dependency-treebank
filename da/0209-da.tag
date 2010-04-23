@@ -93,9 +93,9 @@
 <W gloss="sale" lemma="salg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:coord">salg</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
 <W gloss="distribution" lemma="distribution" msd="NCCSU==I" tag="NN" in="-1:conj" out="1:goal">distribution</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:goal" out="1:nobj|2:pred">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:goal" out="1:nobj|2:preds">med</W>
 <W gloss="sales" lemma="salg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">salg</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:pred" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:preds" out="1:nobj">for</W>
 <W gloss="mind" lemma="øje" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">øje</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -122,7 +122,7 @@
 <W gloss="research" lemma="forsøgs-" msd="XX" tag="FW" in="-1:nobj" out="1:coord">forsøgs-</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
 <W gloss="udviklingsøjemed" lemma="udviklingsøjemed" msd="NCNSU==I" tag="NN" in="-1:conj" out="">udviklingsøjemed</W>
-<W gloss="intends" lemma="agte" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|1:dobj|13:pnct|14:coord|-4:other">agter</W>
+<W gloss="intends" lemma="agte" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-4:other|1:dobj|13:pnct|14:coord">agter</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="undertake" lemma="foretage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj">foretage</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>

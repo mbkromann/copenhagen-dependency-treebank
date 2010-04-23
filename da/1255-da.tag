@@ -43,7 +43,7 @@
 <s>
 <W gloss="My" lemma="min" msd="PO1CSUSNU" tag="PRP$" in="2:subj" out="1:possd">Min</W>
 <W gloss="job" lemma="opgave" msd="NCCSU==I" tag="NN" in="-1:possd" out="">opgave</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|2:pnct|4:xpl|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:preds|2:pnct|4:xpl">var</W>
 <W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">klar</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
@@ -153,8 +153,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj|2:pnct|3:mod">var</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|2:pnct|3:mod|-1:neg">var</W>
 <W gloss="interested" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]">interesseret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-3:mod" out="5:vobj">idet</W>
@@ -200,7 +200,7 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
 <W gloss="believed" lemma="mene" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|12:pnct">mente</W>
 <W gloss="the_situation" lemma="situation" msd="NCCSU==D" tag="NN" in="1:subj" out="">situationen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|5:conj|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|3:pnct|5:conj">var</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="1:nobj">i</W>
 <W gloss="recovery" lemma="bedring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bedring</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|2:vobj|12:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|12:pnct|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WP" in="-1:dobj|1:[subj]" out="1:rel">what</W>
 <W msd="VADR" tag="VBZ" in="-1:rel" out="-1:[subj]|1:dobj|6:vobj">makes</W>
@@ -153,7 +153,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">cleverest</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">birds</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|4:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">homing</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">pigeon</W>

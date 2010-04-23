@@ -7,7 +7,7 @@
 <W msd="PT" tag="WRB" in="-3:mod" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">men</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:preds|2:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">along</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
@@ -134,7 +134,7 @@
 <W msd="PD" tag="DT" in="" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">session</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="1:preds|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">important</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
@@ -156,8 +156,8 @@
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="-5:mod" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:mod|14:pnct|15:ref|18:rel|3:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|3:preds|14:pnct|15:ref|18:rel|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">already</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:pobj">intimate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">with</W>
@@ -214,10 +214,10 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">latter</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:mod|8:pnct|6:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:mod|6:preds|8:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="4:nobj">for</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">immediately</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:neg">immediately</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">apparent</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:attr">reasons</W>
 <W msd="SP" tag="IN" in="-6:preds" out="1:nobj">on</W>

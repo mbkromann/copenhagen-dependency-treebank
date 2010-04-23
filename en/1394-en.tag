@@ -83,8 +83,8 @@
 <W msd="PD" tag="DT" in="3:subj|7:[subj]" out="2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">female</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">motorist</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:mod|3:mod|4:vobj|27:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|3:mod|4:vobj|27:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">straight</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="-1:mod">away</W>
 <W msd="VAF" tag="VB" in="-4:vobj" out="-7:[subj]|1:dobj|3:pobj">provide</W>
@@ -142,7 +142,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">garden</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|13:conj|18:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|13:conj|18:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod|4:pobj">well-known</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

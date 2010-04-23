@@ -35,7 +35,7 @@
 <W msd="CS" tag="IN" in="7:mod" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">arteries</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:preds|2:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">calcified</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">blood</W>
@@ -195,15 +195,15 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-2:subj|-3:coord|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-2:subj|-3:coord|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]">accumulate</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|25:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|6:pnct|7:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:preds|6:pnct|7:mod">is</W>
 <W msd="ANS" tag="JJS" in="-1:preds" out="">best</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">remove</W>

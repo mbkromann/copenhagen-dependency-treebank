@@ -75,7 +75,7 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:mod|-1:namef">Brix</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|15:mod|18:pnct#|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|1:preds|15:mod|18:pnct#">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">matter</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -120,7 +120,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="20:qobj" out="1:attr|9:conj|18:pnct|19:pnct|2:preds">I'm</W>
+<W msd="NP=S" tag="NNP" in="20:qobj" out="1:attr|2:preds|9:conj|18:pnct|19:pnct">I'm</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">not</W>
 <W msd="ANC" tag="JJR" in="-2:preds" out="1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:aobj">than</W>
@@ -149,8 +149,8 @@
 <W msd="PP" tag="PRP" in="3:subj|5:[subj]" out="2:conj">he</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Trine</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:dobj">have</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|1:pobj">faith</W>

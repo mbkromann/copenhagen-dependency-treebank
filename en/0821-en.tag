@@ -80,8 +80,8 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PT" tag="WRB" in="-7:ref|2:mod" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-2:mod|-1:subj|-3:coord|1:mod|2:vobj|7:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-2:mod|-1:subj|-3:coord|2:vobj|7:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|4:mod">see</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
@@ -93,7 +93,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sister</W>
-<W msd="VADR" tag="VBZ" in="" out="-23:mod|-5:subj|4:mod|7:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-23:mod|-5:subj|1:preds|4:mod|7:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:mod|2:nobj">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">fixed</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">point</W>
@@ -106,7 +106,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Objectively</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|1:preds|17:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>
 <W msd="PD" tag="DT" in="-4:nobj" out="2:vobj">that</W>
@@ -184,7 +184,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|6:[subj]" out="1:nobj">Every</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">woman</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:pnct|4:conj|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct|4:conj|11:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="8:nobj">like</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="5:pnct">and</W>

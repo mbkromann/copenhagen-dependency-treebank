@@ -109,8 +109,8 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="">Now</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:mod|1:mod|8:pnct|2:preds">it's</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:mod|2:preds|8:pnct|1:neg">it's</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj">want</W>
@@ -171,8 +171,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">God</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|11:[subj]|12:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-4:mod|1:mod|2:vobj|8:pnct|10:conj|24:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-4:mod|2:vobj|8:pnct|10:conj|24:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">followed</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">path</W>

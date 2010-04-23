@@ -146,8 +146,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">reason</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]|6:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:mod|3:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|3:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -221,13 +221,13 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|4:pnct|6:rel|14:mod|25:pnct|3:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|3:preds|4:pnct|6:rel|14:mod|25:pnct">was</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">yesterday</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]">declared</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="2:ref">bankrupt</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:ref|1:preds" out="">as</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="1:subj|-1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:preds|1:subj">was</W>
 <W msd="PO" tag="PRP$" in="-1:subj" out="1:possd|2:pnct|5:appa">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">owner</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>

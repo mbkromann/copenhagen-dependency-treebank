@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gheorge</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Funar</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|23:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|23:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="2:conj">surprising</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord|1:pobj">evidence</W>
@@ -40,7 +40,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">town</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cluj</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:preds|11:pnct">is</W>
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -70,7 +70,7 @@
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="1:pnct|2:ref|3:rel">Transylvania</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:mod|3:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:mod|2:preds|3:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">formerly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">Hungarian</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -113,14 +113,14 @@
 <W msd="ANP" tag="RB" in="-5:mod" out="1:nobj">so</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">attain</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:ref">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="3:rel">power</W>
 <W msd="SP" tag="IN" in="-2:ref|2:dobj" out="">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|-2:dobj|3:pnct|1:preds">have</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|-2:dobj|1:preds|3:pnct">have</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mind</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

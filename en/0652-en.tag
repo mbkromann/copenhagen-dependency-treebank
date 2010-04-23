@@ -59,7 +59,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Gyldendal's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">encyclopaedia</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:pnct|2:modp|16:pnct|21:mod|40:pnct|11:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:pnct|2:modp|11:preds|16:pnct|21:mod|40:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-2:modp" out="1:pobj|4:pnct">according</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -140,8 +140,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|10:pnct">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|10:pnct|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -157,7 +157,7 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:iobj|2:dobj|15:conj|21:pnct">want</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj|2:[subj]" out="">people</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:mod">be</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">wiser</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">reading</W>
@@ -184,8 +184,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">remember</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:mod|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:mod|3:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">always</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>

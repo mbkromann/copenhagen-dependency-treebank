@@ -123,8 +123,8 @@
 <s>
 <W gloss="they" lemma="De" msd="PP2C[SP]N-NP" tag="PRP" in="1:subj|2:[subj]" out="">De</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|7:epi|10:pnct">har</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pred|3:loc">været</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pred" out="1:nobj">på</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:loc|1:preds">været</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
 <W gloss="the_visit" lemma="besøg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">besøg</W>
 <W gloss="down_there" lemma="dernede" msd="RGU" tag="RP" in="-3:loc" out="">dernede</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -155,8 +155,8 @@
 <W gloss="Yes" lemma="jo" msd="I=" tag="UH" in="" out="1:pnct|3:conj|25:pnct">Jo</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="had_been" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-1:subj|1:pred|12:pnct|13:cont">var</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pred" out="1:nobj|2:loc|4:mcomp|7:time">på</W>
+<W gloss="had_been" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-1:subj|12:pnct|13:cont|1:preds">var</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj|2:loc|4:mcomp|7:time">på</W>
 <W gloss="vacation" lemma="ferie" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">ferie</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="Berlin" lemma="Berlin" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Berlin</W>

@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|10:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:preds|10:pnct">was</W>
 <W msd="PD" tag="DT" in="2:mod" out="">both</W>
 <W msd="VAP" tag="VBN" in="-2:preds" out="2:conj">drafted</W>
 <W msd="CC" tag="CC" in="1:coord" out="-2:mod">and</W>
@@ -32,8 +32,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="SP" tag="IN" in="-5:dobj" out="2:vobj|7:conj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">realistic</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">enough</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -131,8 +131,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|6:pnct|7:corod|21:pnct">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|6:pnct|7:corod|21:pnct|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">reveal</W>
 <W msd="PT" tag="WP" in="-1:dobj|2:[pred]" out="2:rel">who</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>

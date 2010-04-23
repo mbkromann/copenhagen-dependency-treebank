@@ -79,8 +79,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|5:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">possible</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -174,7 +174,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|14:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:pnct|3:mod|13:conj|17:pnct|23:xpl|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|3:mod|13:conj|17:pnct|23:xpl">became</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">nervous</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:mod" out="3:vobj">when</W>

@@ -2,8 +2,8 @@
 <W msd="ANP" tag="RB" in="21:mod" out="5:conj|9:pnct">Modestly</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">still</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-2:mod|-1:mod">entirely</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-2:mod|-1:neg">entirely</W>
 <W msd="ANP" tag="JJ" in="-5:conj" out="-1:mod|-4:coord|1:pobj">unaffected</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -71,7 +71,7 @@
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:pnct|1:pnct|2:pnct">Kesse</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
-<W msd="VADA" tag="VBD" in="" out="-18:mod|-7:subj|1:mod|13:mod|23:pnct|24:mod|40:pnct|11:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-18:mod|-7:subj|1:mod|11:preds|13:mod|23:pnct|24:mod|40:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">aboard</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj|4:pnct|5:appa">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">home</W>
@@ -138,7 +138,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|5:conj|11:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:preds|5:conj|11:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">almost</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">seven-thirty</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -153,7 +153,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:dobj|5:mod|9:pnct|10:mod|17:pnct|1:preds">put</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|2:dobj|5:mod|9:pnct|10:mod|17:pnct">put</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">on</W>
 <W msd="PO" tag="PRP$" in="-2:dobj" out="2:possd">my</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Secumar</W>
@@ -185,7 +185,7 @@
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">under</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">water</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-8:[subj]|-1:coord|5:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-8:[subj]|-1:coord|1:preds|5:mod">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
@@ -203,7 +203,7 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="IN" in="12:mod" out="1:nobj|10:pnct|7:preds">With</W>
+<W msd="SP" tag="IN" in="12:mod" out="1:nobj|7:preds|10:pnct">With</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|3:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">lifebuoy</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

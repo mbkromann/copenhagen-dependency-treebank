@@ -56,7 +56,7 @@
 </s>
 <s>
 <W msd="PT" tag="WRB" in="1:preds" out="-4:rep">how</W>
-<W msd="VADR" tag="VBP" in="-6:vobj" out="1:subj|-1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-6:vobj" out="-1:preds|1:subj">are</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -81,7 +81,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|7:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct">were</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">stay</W>
@@ -105,8 +105,8 @@
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|1:mod|2:vobj|9:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|2:vobj|9:pnct|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:iobj|2:dobj|3:mod">caused</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj" out="">others</W>
 <W msd="VADR" tag="VBP" in="-2:dobj" out="">harm</W>
@@ -194,7 +194,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:pnct|2:mod|10:pnct|5:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:pnct|2:mod|5:preds|10:pnct">was</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>

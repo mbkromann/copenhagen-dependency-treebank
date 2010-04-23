@@ -126,7 +126,7 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">longer</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|2:vobj">say</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|3:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:preds|3:pnct">are</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">isolated</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:mod">instances</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -193,7 +193,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">No</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">one</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|13:pnct|17:conj|21:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|7:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|7:mod">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">accountant</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
@@ -218,8 +218,8 @@
 <s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Accounting</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="-1:mod">firms</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|11:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|11:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">away</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

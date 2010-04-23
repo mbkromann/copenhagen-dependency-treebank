@@ -49,7 +49,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">steel</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">factories</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|34:conj|43:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|34:conj|43:pnct">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">among</W>
 <W msd="PD" tag="DT" in="-1:nobj|2:[subj]" out="2:rel">those</W>
 <W msd="ANS" tag="RBS" in="1:mod" out="">hardest</W>
@@ -128,7 +128,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">favourites</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|16:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|2:preds|16:pnct">are</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">British</W>
 <W msd="NP=S" tag="NNP" in="-2:preds" out="-1:mod|1:name|2:pnct|3:conj|8:conj">Steel</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Plc</W>
@@ -150,7 +150,7 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">Investors</W>
 <W msd="VA" tag="MD" in="15:qobj" out="-2:pnct|-1:subj|1:vobj|13:pnct|14:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:mod|8:mod|2:preds">become</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:preds|3:mod|8:mod">become</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">enthusiastic</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">about</W>
@@ -169,7 +169,7 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Hadas</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|14:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:preds|14:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|6:mod">analyst</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -196,8 +196,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">There</W>
-<W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:expl|1:mod|2:vobj|15:pnct#|16:pnct">need</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:expl|2:vobj|15:pnct#|16:pnct|1:neg">need</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[expl]|1:dobj">be</W>
 <W msd="ANP" tag="RB" in="-1:dobj" out="1:nobj">much</W>
 <W msd="ANC" tag="JJR" in="-1:nobj" out="1:pobj">more</W>

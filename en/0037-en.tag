@@ -115,8 +115,8 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj|4:[subj]|5:[subj]|7:[subj]" out="1:nobj">600</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Brugsens</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:mod|2:vobj|3:vobj|7:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|2:vobj|3:vobj|7:pnct|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">been</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:dobj">allowed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>

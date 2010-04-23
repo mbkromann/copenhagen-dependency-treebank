@@ -111,8 +111,8 @@
 <W msd="PD" tag="DT" in="-3:mod" out="">each</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj|3:[subj]" out="">which</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod|3:pobj">correspond</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:avobj">at</W>
 <W msd="PD" tag="DT" in="-1:avobj" out="">all</W>
@@ -129,8 +129,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">friends</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|1:mod|2:vobj|16:mod|23:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|2:vobj|16:mod|23:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:dobj">hide</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">fact</W>

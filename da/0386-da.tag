@@ -146,8 +146,8 @@
 <W gloss="provincial_town" lemma="provinsby" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">provinsby</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:lobj">bor</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="-5:[nobj]">i</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:@loc">bor</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="-5:[nobj]">i</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>

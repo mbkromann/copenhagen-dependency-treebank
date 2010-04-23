@@ -52,8 +52,8 @@
 <W msd="NP=S" tag="NNP" in="-3:possd" out="">Porsche</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-51:conj" out="-20:mod|-1:expl|-22:coord|1:mod|2:dobj|6:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-51:conj" out="-20:mod|-1:expl|-22:coord|2:dobj|6:mod|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="1:mod">much</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">laugh</W>

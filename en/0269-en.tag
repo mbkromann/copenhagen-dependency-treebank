@@ -127,8 +127,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Vladimir</W>
 <W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Pimonov</W>
-<W msd="VADA" tag="VBD" in="" out="-13:mod|-4:subj|1:mod|2:vobj|21:pnct">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-13:mod|-4:subj|2:vobj|21:pnct|1:neg">were</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:mod|2:pobj">left</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">alone</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">by</W>
@@ -153,7 +153,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lise</W>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]" out="-1:namef">Pedersen</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|3:conj|5:pnct|9:conj|14:pnct|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|14:pnct">became</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">pregnant</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj">went</W>
@@ -175,7 +175,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|14:pnct|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|1:preds|14:pnct">became</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj|4:pnct|5:appa">a</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">refusenik</W>

@@ -3,7 +3,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">so</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-4:conj" out="-3:mod|-1:subj|3:mod|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-4:conj" out="-3:mod|-1:subj|2:preds|3:mod">is</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Mozart</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:mod">year</W>
 <W msd="PD" tag="DT" in="-3:mod" out="1:nobj">this</W>
@@ -82,9 +82,9 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gothersgade</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="" out="-16:mod|-1:expl|1:mod|2:mod|3:dobj|9:pnct|11:conj|20:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-16:mod|-1:expl|1:mod|3:dobj|9:pnct|11:conj|20:pnct|2:neg">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:dobj" out="2:nobj">much</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">floor</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:nobj">space</W>
@@ -167,8 +167,8 @@
 <W msd="PD" tag="DT" in="3:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bureau</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|5:vobj|6:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|5:vobj|6:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">so</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">heavily</W>
@@ -177,7 +177,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|9:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|12:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|12:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj|2:pnct|3:conj|4:pnct|6:conj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">walnut</W>

@@ -47,7 +47,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|12:xpl|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct|12:xpl">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">no</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">thing</W>
@@ -82,8 +82,8 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]|6:[subj]" out="">I</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|-1:mod|1:mod|2:vobj|7:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|-1:mod|2:vobj|7:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|2:conj">walk</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="VAF" tag="VB" in="-2:conj" out="-6:[subj]|-1:coord|1:dobj">ride</W>
@@ -94,7 +94,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">buttocks</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|3:pnct|4:mod|14:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|2:preds|3:pnct|4:mod|14:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">cold</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

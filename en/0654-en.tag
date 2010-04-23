@@ -65,8 +65,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:mod|3:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:mod|3:preds|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">only</W>
 <W msd="NP=S" tag="NNP" in="-3:preds" out="1:possd|2:mod">Ninn-Hansen's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">explanation</W>
@@ -203,7 +203,7 @@
 <W msd="CS" tag="IN" in="-16:mod" out="3:vobj">while</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
 <W msd="PP" tag="PRP" in="1:mod" out="">himself</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|6:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:preds|6:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Ministry</W>
@@ -245,7 +245,7 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">false</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">melody</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
-<W msd="VADA" tag="VBD" in="" out="-19:subj|1:mod|9:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-19:subj|1:mod|2:preds|9:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">precisely</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj|4:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">lack</W>

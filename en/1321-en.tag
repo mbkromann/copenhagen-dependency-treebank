@@ -20,7 +20,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|1:mod|7:pnct|8:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|1:mod|2:preds|7:pnct|8:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">absolutely</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="1:mod">something</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
@@ -57,7 +57,7 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:subj|-2:mod|31:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:subj|-2:mod|1:preds|31:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="5:vobj">that</W>
 <W msd="PP" tag="PRP" in="4:subj|7:[subj]" out="">he</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">in</W>
@@ -76,8 +76,8 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-11:mod" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">feel</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="3:nobj">ready</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
@@ -94,8 +94,8 @@
 <W msd="CC" tag="CC" in="" out="3:conj|9:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Stefan</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Rasmussen</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-1:subj|1:mod|2:vobj">need</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-1:subj|2:vobj|1:neg">need</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj|3:mod">fret</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">over</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>

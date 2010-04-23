@@ -79,7 +79,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">programs</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
-<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|11:pnct|7:preds">with</W>
+<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|7:preds|11:pnct">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">lawyers</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord|1:pobj">witnesses</W>
@@ -91,7 +91,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">tight</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">timeframe</W>
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">-</W>
-<W msd="VADR" tag="VBZ" in="" out="-19:subj|14:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-19:subj|2:preds|14:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">unsuitable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -116,7 +116,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pnct|3:qobj">ask</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PT" tag="WP" in="6:nobj" out="">what</W>
-<W msd="VADR" tag="VBZ" in="-3:qobj" out="1:subj|2:mod|6:pnct|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:qobj" out="1:subj|2:mod|4:preds|6:pnct">is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="">it</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
@@ -205,9 +205,9 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|-6:[lobj]">drawn</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|-2:coord|1:mod|2:mod|3:preds">are</W>
+<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|-2:coord|1:mod|3:preds|2:neg">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">definitely</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">agreement</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>

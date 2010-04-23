@@ -67,8 +67,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">bowels</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|3:vobj">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|3:vobj|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|-1:mod|1:mod">emptied</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">after</W>
@@ -104,7 +104,7 @@
 <W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">important</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">thing</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|14:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|1:preds|14:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">undertake</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -128,7 +128,7 @@
 <W msd="VA" tag="MD" in="-3:rel" out="-1:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|-5:[mod]">done</W>
-<W msd="VADR" tag="VBZ" in="" out="1:err|2:subj|30:pnct|-7:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:preds|1:err|2:subj|30:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:err" out="">by</W>
 <W msd="VAG" tag="VBG" in="-2:subj" out="1:dobj|14:conj">analyzing</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="2:possd">one's</W>

@@ -64,7 +64,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Stenbjerre</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|31:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|11:mod|15:mod|18:coord|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|11:mod|15:mod|18:coord">been</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|3:nobj|4:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">legal</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">sparring</W>
@@ -121,8 +121,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:mod|7:pnct|4:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|4:preds|7:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">so</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod|2:conj">simple</W>

@@ -49,8 +49,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">girls</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]|13:[subj]" out="">who</W>
-<W msd="VA" tag="MD" in="-4:rel" out="-1:subj|1:mod|2:vobj|12:conj">may</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-4:rel" out="-1:subj|2:vobj|12:conj|1:neg">may</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="3:pobj">same</W>
@@ -101,8 +101,8 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:dobj">realise</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|9:[dobj]" out="8:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:mod|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:mod|3:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">only</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">young</W>
@@ -138,7 +138,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">society</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|7:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -157,8 +157,8 @@
 <W msd="SP" tag="IN" in="-1:lobj" out="-3:[nobj]">from</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-9:conj" out="-1:subj|1:mod|2:vobj">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-9:conj" out="-1:subj|2:vobj|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-3:[subj]|1:pobj">interested</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|2:pobj">giving</W>

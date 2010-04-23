@@ -9,7 +9,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">September</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1982,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-10:mod|-1:subj|1:mod|2:mod|3:mod|7:pnct|4:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-10:mod|-1:subj|1:mod|2:mod|3:mod|4:preds|7:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">really</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">also</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">mostly</W>
@@ -60,8 +60,8 @@
 <W msd="AC" tag="CD" in="" out="">FOUR</W>
 <W msd="NP=S" tag="NNP" in="" out="">CLOVER</W>
 <W msd="NC=S" tag="NN" in="" out="">GOVERNMENT</W>
-<W msd="VADA" tag="VBD" in="" out="1:mod|4:pnct|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="2:preds|4:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">mayfly</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -83,8 +83,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="8:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|13:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:mod">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|13:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
 <W msd="SP" tag="IN" in="" out="">out</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
@@ -113,7 +113,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">formation</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|15:pnct|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|15:pnct">became</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">start</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -165,7 +165,7 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj" out="1:nobj">FOUR</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">parties</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|7:pnct|8:mod|13:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|7:pnct|8:mod|13:pnct">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">agreement</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">on</W>
@@ -198,7 +198,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">reason</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|39:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|1:preds|39:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="3:vobj">that</W>
 <W msd="PP" tag="PRP" in="2:subj" out="1:nobj">we</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>

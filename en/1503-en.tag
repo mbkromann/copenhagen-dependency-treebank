@@ -9,8 +9,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">popular</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">idols</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-7:conj" out="-8:[subj]|-1:coord|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-7:conj" out="-8:[subj]|-1:coord|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">have</W>
 <W msd="ANP" tag="RB" in="-1:dobj" out="1:mod">enough</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
@@ -27,8 +27,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">athletic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">performance</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|1:mod|4:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|2:preds|4:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">good</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">enough</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -38,7 +38,7 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="-1:mod">fickle</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="">fans</W>
-<W msd="VADR" tag="VBP" in="" out="-6:mod|-5:subj|-15:xtop|2:pnct|1:preds">stay</W>
+<W msd="VADR" tag="VBP" in="" out="-6:mod|-5:subj|-15:xtop|1:preds|2:pnct">stay</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">away</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -54,7 +54,7 @@
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
 </s>
 <s>
-<W msd="VADR" tag="VBZ" in="-9:xpl" out="1:subj|22:pnct|2:preds">Is</W>
+<W msd="VADR" tag="VBZ" in="-9:xpl" out="1:subj|2:preds|22:pnct">Is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="2:nobj">it</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">wise</W>
 <W msd="U=" tag="TO" in="-2:nobj" out="1:vobj">to</W>

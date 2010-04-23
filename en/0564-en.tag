@@ -76,8 +76,8 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Especially</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="SP" tag="IN" in="" out="-2:mod|-1:mod|1:nobj|22:pnct#|23:pnct">about</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="SP" tag="IN" in="" out="-2:mod|1:nobj|22:pnct#|23:pnct|-1:neg">about</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:attr|3:possd|4:pnct|5:ref|9:rel">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">so-called</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">private</W>
@@ -163,8 +163,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Discussion</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|7:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|7:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">thing</W>
@@ -175,8 +175,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="8:conj|9:pnct#|10:pnct">And</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]|5:[subj]" out="">Lotte</W>
-<W msd="VADR" tag="VBZ" in="7:vobj" out="-1:subj|1:mod|2:vobj|5:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="7:vobj" out="-1:subj|2:vobj|5:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|2:mod">run</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
 <W msd="VAG" tag="VBG" in="-2:mod" out="-5:[subj]">gossiping</W>

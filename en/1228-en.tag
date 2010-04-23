@@ -104,8 +104,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VA" tag="MD" in="-22:conj" out="-1:subj|-2:coord|1:mod|2:vobj">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-22:conj" out="-1:subj|-2:coord|2:vobj|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|5:pnct|17:xpl">reveal</W>
 <W msd="PT" tag="WP" in="-1:dobj|3:[dobj]" out="2:rel">what</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>

@@ -33,8 +33,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Greeks</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:mod|2:vobj|24:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|2:vobj|24:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">recognise</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|3:pnct|4:ref|9:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:appr">name</W>
@@ -97,8 +97,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|14:[subj]|15:[subj]" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|13:conj|27:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|13:conj|27:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">speak</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Yugoslavian</W>
 <W msd="CC" tag="CC" in="9:coord" out="1:pnct">and</W>
@@ -239,7 +239,7 @@
 <W msd="VADR" tag="VBZ" in="-10:conj" out="-1:subj|-2:coord|1:vobj">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">beginning</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:pobj|1:preds">become</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds|2:pobj">become</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">scarce</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:preds">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">goods</W>

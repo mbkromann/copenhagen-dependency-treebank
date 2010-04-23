@@ -4,7 +4,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">words</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">smoking</W>
-<W msd="VADR" tag="VBZ" in="-5:xpl" out="-1:subj|2:mod|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-5:xpl" out="-1:subj|1:preds|2:mod|5:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">forbidden</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">ministry</W>
@@ -97,8 +97,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|15:conj|20:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|15:conj|20:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj">are</W>
@@ -112,9 +112,9 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ministry</W>
-<W msd="VADR" tag="VBZ" in="-15:conj" out="-5:subj|-6:coord|1:mod|2:mod|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-15:conj" out="-5:subj|-6:coord|1:mod|4:preds|2:neg">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod">good</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
@@ -122,8 +122,8 @@
 <s>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:mod">shall</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:neg">shall</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="" out="5:mod|10:pnct">cite</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="">names</W>
@@ -242,7 +242,7 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct">office</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-6:mod|-1:subj|6:pnct|1:preds">have</W>
+<W msd="VADR" tag="VBP" in="" out="-6:mod|-1:subj|1:preds|6:pnct">have</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|3:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">smoker</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

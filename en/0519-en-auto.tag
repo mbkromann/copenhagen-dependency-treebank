@@ -2,8 +2,8 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="" out="-1:pnct|1:pnct|3:conj|5:pnct">No</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="SP" tag="IN" in="-3:conj" out="-1:mod|1:nobj">like</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="SP" tag="IN" in="-3:conj" out="1:nobj|-1:neg">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="." in="-5:pnct" out="">!</W>
 </s>

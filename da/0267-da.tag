@@ -105,10 +105,10 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:other|2:degr|3:pred|26:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:other|2:degr|26:pnct|3:preds">er</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:other" out="">jo</W>
 <W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-2:degr" out="">næsten</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:pred" out="1:nobj">til</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:preds" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="cry" lemma="græde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|3:coord">græde</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:pobj" out="">over</W>
@@ -148,9 +148,9 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:time" out="1:nobj">til</W>
 <W gloss="date" lemma="dato" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dato</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-14:conc|1:subj|2:pred|4:pnct">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-14:conc|1:subj|4:pnct|2:preds">bliver</W>
 <W gloss="the_record" lemma="plade" msd="NCCSU==D" tag="NN" in="-1:subj" out="">pladen</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:pred" out="1:nobj">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:nobj">en</W>
 <W gloss="success" lemma="succes" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">succes</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -162,7 +162,7 @@
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|3:loc" out="">hvor</W>
 <W gloss="Depeche" lemma="Depeche" msd="NP--U==-" tag="NNP" in="2:subj" out="">Depeche</W>
 <W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
-<W gloss="conducts" lemma="opføre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-3:loc|-1:time|2:dobj|6:loc|8:pobj|13:modp|15:pnct|16:coord|4:other">opfører</W>
+<W gloss="conducts" lemma="opføre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-3:loc|-1:time|2:dobj|4:other|6:loc|8:pobj|13:modp|15:pnct|16:coord">opfører</W>
 <W gloss="Black" lemma="Black" msd="NP--U==-" tag="NNP" in="1:attr" out="">Black</W>
 <W gloss="Celebration" lemma="Celebration" msd="NP--U==-" tag="NNP" in="-2:dobj" out="-1:attr|1:nobj">Celebration</W>
 <W gloss="the_show" lemma="show" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">showet</W>

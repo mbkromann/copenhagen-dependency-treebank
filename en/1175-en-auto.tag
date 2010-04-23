@@ -15,8 +15,8 @@
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="-10:coord" out="">but</W>
 <W msd="PD" tag="DT" in="1:subj|4:[subj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="-4:[subj]">be</W>
 <W msd="ANP" tag="JJ" in="" out="">mixed</W>
@@ -42,7 +42,7 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct">contrary</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|12:mod|29:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|12:mod|29:pnct">is</W>
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd|4:ref">Russia's</W>
@@ -164,7 +164,7 @@
 <W msd="PD" tag="DT" in="1:subj|2:[subj]" out="">this</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">succeed</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|4:pnct|5:mod|32:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|4:pnct|5:mod|32:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod">difficult</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">say</W>

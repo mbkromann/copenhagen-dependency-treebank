@@ -119,24 +119,24 @@
 <p>
 <s>
 <W gloss="The_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="1:subj" out="">Fjenden</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:other|3:pred|4:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:other|4:pnct|3:preds">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="just" lemma="blot" msd="RGU" tag="RP" in="-2:other" out="">blot</W>
-<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-3:pred" out="">fjenden</W>
+<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-3:preds" out="">fjenden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:other|4:pred|5:pnct">Var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:other|5:pnct|4:preds">Var</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="only" lemma="bare" msd="RGU" tag="RP" in="-2:other" out="">bare</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="simple" lemma="enkel" msd="ANPNSU=IU" tag="JJ" in="-4:pred" out="-1:degr">enkelt</W>
+<W gloss="simple" lemma="enkel" msd="ANPNSU=IU" tag="JJ" in="-4:preds" out="-1:degr">enkelt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="The_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="1:subj" out="">Fjenden</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|3:pnct">er</W>
-<W gloss="among" lemma="iblandt" msd="SP" tag="IN" in="-1:pred" out="1:nobj">iblandt</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:preds">er</W>
+<W gloss="among" lemma="iblandt" msd="SP" tag="IN" in="-1:preds" out="1:nobj">iblandt</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
@@ -156,8 +156,8 @@
 <W gloss="into" lemma="til" msd="SP" tag="IN" in="-2:dir" out="1:nobj">til</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|1:pred|2:pnct">er</W>
-<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:pred" out="">fjenden</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|2:pnct|1:preds">er</W>
+<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:preds" out="">fjenden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>
@@ -172,8 +172,8 @@
 <W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">hjulpet</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:pred|2:pnct|3:coord|16:pnct">er</W>
-<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:pred" out="">fjenden</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|2:pnct|3:coord|16:pnct|1:preds">er</W>
+<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:preds" out="">fjenden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="11:conj">og</W>
 <W gloss="those" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="10:subj" out="1:pnct|2:ref|3:rel">de</W>
@@ -186,8 +186,8 @@
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj|2:pnct">har</W>
 <W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]">hjulpet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-10:subj|1:pred">er</W>
-<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:pred" out="">fjenden</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-10:subj|1:preds">er</W>
+<W gloss="the_enemy" lemma="fjende" msd="NCCSU==D" tag="NN" in="-1:preds" out="">fjenden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 </p>
@@ -234,7 +234,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|8:pnct">Og</W>
 <W gloss="gladly" lemma="gerne" msd="RGU" tag="RP" in="1:man" out="">gerne</W>
-<W gloss="will_speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:man|1:subj|3:pobj|2:dur">taler</W>
+<W gloss="will_speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:man|1:subj|2:dur|3:pobj">taler</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="for_a_long_time" lemma="længe" msd="RGP" tag="RP" in="-2:dur" out="">længe</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">om</W>
@@ -272,8 +272,8 @@
 <W gloss="resolute" lemma="beslutte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:conj" out="1:pobj">besluttede</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pred|2:coord">stå</W>
-<W gloss="fast" lemma="fast" msd="ANP---=-R" tag="JJ" in="-1:pred" out="">fast</W>
+<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:coord|1:preds">stå</W>
+<W gloss="fast" lemma="fast" msd="ANP---=-R" tag="JJ" in="-1:preds" out="">fast</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-2:coord" out="1:conj">og</W>
 <W gloss="contribute" lemma="yde" msd="VAF-=----A-" tag="VB" in="-1:conj" out="1:iobj|2:pnct|3:dobj">yde</W>
 <W gloss="the_fatherland" lemma="fædreland" msd="NCNSU==D" tag="NN" in="-1:iobj" out="">fædrelandet</W>

@@ -50,8 +50,8 @@
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-18:conj" out="-1:subj|-2:coord|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-18:conj" out="-1:subj|-2:coord|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:preds">consider</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="2:nobj">it</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">unlikely</W>
@@ -145,7 +145,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:pnct|-2:subj|4:pnct|5:pnct|3:preds">are</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:pnct|-2:subj|3:preds|4:pnct|5:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="CS" tag="IN" in="1:mod" out="-1:mod">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">bad</W>
@@ -188,8 +188,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">bookmaker's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="">shop</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="-29:vobj" out="-28:subj|1:mod|3:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-29:vobj" out="-28:subj|3:preds|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">much</W>
 <W msd="ANC" tag="JJR" in="-3:preds" out="-1:mod">better</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
@@ -204,7 +204,7 @@
 <W msd="VAF" tag="VB" in="1:mod" out="">police</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">information</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="-9:vobj" out="-8:subj|-5:modp|9:pnct|3:preds">are</W>
+<W msd="VADR" tag="VBP" in="-9:vobj" out="-8:subj|-5:modp|3:preds|9:pnct">are</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">political</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="-2:pnct|-1:attr|1:mod|5:pnct">activists</W>

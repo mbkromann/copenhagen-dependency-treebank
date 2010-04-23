@@ -72,8 +72,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="sportswriters" lemma="sportsjournalist" msd="NCCPU==I" tag="NNP" in="2:subj" out="">sportsjournalister</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|7:pnct|2:preds">er</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|2:preds|7:pnct|-1:neg">er</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="good" lemma="god" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">gode</W>
 <W gloss="at" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -127,7 +127,7 @@
 <W gloss="Brøndby" lemma="Brøndby" msd="NP--U==-" tag="NNP" in="-3:nobj|-1:[nobj]" out="1:name">Brøndby</W>
 <W gloss="IF" lemma="IF" msd="NP--U==-" tag="NNP" in="-1:name" out="">IF</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:vobj|8:pnct">er</W>
-<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-10:[subj]|2:mod|1:preds">blevet</W>
+<W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-10:[subj]|1:preds|2:mod">blevet</W>
 <W gloss="castigated" lemma="hudflette" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">hudflettet</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">en</W>

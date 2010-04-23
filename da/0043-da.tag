@@ -99,9 +99,9 @@
 <W gloss="so" lemma="således" msd="RGU" tag="RP" in="-1:cons" out="">således</W>
 <W gloss="18" lemma="18" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj">18</W>
 <W gloss="rounds" lemma="runde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">runder</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:pred">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:preds">med</W>
 <W gloss="finish" lemma="afslutning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afslutning</W>
-<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:pred" out="1:nobj|2:nobj|3:pnct|4:ref|6:rel">den</W>
+<W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:preds" out="1:nobj|2:nobj|3:pnct|4:ref|6:rel">den</W>
 <W gloss="23," lemma="23." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">23.</W>
 <W gloss="June" lemma="juni" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">juni</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -176,9 +176,9 @@
 </p>
 <p>
 <s>
-<W gloss="is" lemma="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:pred">Bliver</W>
+<W gloss="is" lemma="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:preds">Bliver</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
-<W gloss="the_case" lemma="tilfælde" msd="NCNSU==D" tag="NN" in="-2:pred" out="">tilfældet</W>
+<W gloss="the_case" lemma="tilfælde" msd="NCNSU==D" tag="NN" in="-2:preds" out="">tilfældet</W>
 <W gloss="will_be_chosen" lemma="kåre" msd="VADR=----P-" tag="VBD" in="" out="-3:cond|1:subj|3:time|6:pnct">kåres</W>
 <W gloss="the_year's" lemma="år" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">årets</W>
 <W gloss="Danish_champion" lemma="danmarksmester" msd="NCCSU==I" tag="NN" in="-1:possd" out="">danmarksmester</W>

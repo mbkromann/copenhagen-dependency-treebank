@@ -44,8 +44,8 @@
 </s>
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj|4:[subj]|5:[subj]" out="">Matters</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|3:vobj|10:pnct|11:mod|69:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:mod">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|3:vobj|10:pnct|11:mod|69:pnct|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">exactly</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-4:[subj]|1:vobj">being</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:mod|4:mod">treated</W>
@@ -123,7 +123,7 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|4:mod">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">president</W>
@@ -172,7 +172,7 @@
 <W msd="VADR" tag="VBZ" in="-9:vobj" out="-7:subj|-5:mod|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:dobj">tried</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj|3:mod|2:preds">make</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj|2:preds|3:mod">make</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">character-oriented</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">by</W>

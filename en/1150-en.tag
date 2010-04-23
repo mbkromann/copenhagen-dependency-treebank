@@ -87,8 +87,8 @@
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="2:dobj">promise</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="U=" tag="TO" in="-2:dobj" out="-1:mod|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="U=" tag="TO" in="-2:dobj" out="1:vobj|-1:neg">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|7:pnct|8:mod">begin</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|3:nobj|4:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">final</W>
@@ -115,7 +115,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">politicians</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj" out="">who</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:mod|5:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:mod|2:preds|5:pnct">were</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">otherwise</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="1:pobj">supporters</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

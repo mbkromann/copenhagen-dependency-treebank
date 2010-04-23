@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intent</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|9:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|9:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:pobj">prevent</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -49,8 +49,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PO" tag="PRP$" in="2:subj|5:[subj]" out="1:possd">his</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">grapes</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|2:mod|3:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:mod|3:vobj|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">first</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:dobj">taken</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -174,8 +174,8 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">problem</W>
-<W msd="VADR" tag="VBZ" in="-12:conj" out="-2:subj|-3:coord|1:mod|2:vobj">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-12:conj" out="-2:subj|-3:coord|2:vobj|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-4:[subj]|1:pobj">limited</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">these</W>
@@ -207,8 +207,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">grape</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">season</W>
-<W msd="VADR" tag="VBZ" in="-20:conj" out="-5:mod|-3:subj|-7:coord|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-20:conj" out="-5:mod|-3:subj|-7:coord|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:tobj">begin</W>
 <W msd="CS" tag="IN" in="-1:tobj" out="1:avobj">until</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="1:mod">later</W>

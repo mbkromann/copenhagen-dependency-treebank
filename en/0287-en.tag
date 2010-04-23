@@ -14,7 +14,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Lennon</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">musical</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">idol</W>
@@ -37,7 +37,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">naked</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:namef">Lennon</W>
-<W msd="SP" tag="IN" in="-4:mod" out="1:nobj|7:pnct|8:&lt;nobj&gt;|10:&lt;pred&gt;|13:pnct|14:coord|4:preds">with</W>
+<W msd="SP" tag="IN" in="-4:mod" out="1:nobj|4:preds|7:pnct|8:&lt;nobj&gt;|10:&lt;pred&gt;|13:pnct|14:coord">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">steel</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">helmet</W>
@@ -63,7 +63,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Adolf</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Hitler</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="-1:preds" out="1:attr|2:possd">Lehder's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">political</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">idol</W>
@@ -122,7 +122,7 @@
 <s>
 <W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">Cocaine</W>
-<W msd="VADR" tag="VBZ" in="13:qobj" out="-2:pnct|-1:subj|5:mod|11:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="13:qobj" out="-2:pnct|-1:subj|2:preds|5:mod|11:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Latin</W>
 <W msd="NP=S" tag="NNP" in="-2:preds" out="-1:mod|2:possd">America's</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">atom</W>
@@ -146,7 +146,7 @@
 <W msd="AC" tag="CD" in="-1:nobj|-4:pnct#" out="">1986,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cartel</W>
-<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|7:pnct|10:conj|18:pnct|1:preds">seemed</W>
+<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|1:preds|7:pnct|10:conj|18:pnct">seemed</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="3:conj|4:pobj">stronger</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="2:[pobj]">more</W>
@@ -214,8 +214,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cartel</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">bosses</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-3:subj|-4:coord|1:mod|2:vobj">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-3:subj|-4:coord|2:vobj|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:pobj">understand</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PT" tag="WRB" in="-1:nobj|3:[mod]" out="3:rel">where</W>

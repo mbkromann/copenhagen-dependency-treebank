@@ -124,8 +124,8 @@
 <W gloss="around" lemma="om" msd="RGU" tag="RP" in="-1:lobj" out="">om</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="nødlande" lemma="nødlande" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">nødlande</W>
-<W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="nødlande" lemma="nødlande" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@loc">nødlande</W>
+<W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Schiphol" lemma="Schiphol" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Schiphol</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -136,7 +136,7 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|14:mod|19:pnct">så</W>
 <W gloss="the_plane" lemma="fly" msd="NCNSU==D" tag="NN" in="-1:dobj" out="1:mod">flyet</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:pnct|6:&lt;nobj&gt;|7:&lt;pred&gt;|8:coord|2:preds">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|2:preds|4:pnct|6:&lt;nobj&gt;|7:&lt;pred&gt;|8:coord">med</W>
 <W gloss="nose" lemma="næse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">næsen</W>
 <W gloss="pointing" lemma="pege" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-2:preds" out="1:lobj">pegende</W>
 <W gloss="downward" lemma="nedad" msd="RGU" tag="RP" in="-1:lobj" out="">nedad</W>
@@ -172,9 +172,9 @@
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:avobj" out="">op</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:mod|1:subj|2:mod|3:vobj|5:pnct|8:conj">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:mod|1:subj|2:neg|3:vobj|5:pnct|8:conj">kunne</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="see" lemma="se" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj">se</W>
 <W gloss="more" lemma="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-1:dobj" out="">mere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -240,7 +240,7 @@
 <W gloss="The_cause" lemma="årsag" msd="NCCSU==D" tag="NN" in="3:subj" out="1:pobj">Årsagen</W>
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_engine_problems" lemma="motor-problem" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">motor-problemerne</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:mod|3:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:preds|2:mod|3:pnct">var</W>
 <W gloss="unknown" lemma="ukendt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">ukendt</W>
 <W gloss="last_night" lemma="i_nat" msd="RGU" tag="RP" in="-2:mod" out="">i_nat</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

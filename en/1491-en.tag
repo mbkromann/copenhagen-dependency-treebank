@@ -126,10 +126,10 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">woman</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|3:vobj|12:pnct|16:conj|34:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:mod">not</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|3:vobj|12:pnct|16:conj|34:pnct|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|3:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:preds|3:mod">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Odense</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>

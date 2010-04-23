@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|6:pnct|7:mod|23:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|6:pnct|7:mod|23:pnct">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|3:preds">be</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">72</W>
@@ -28,10 +28,10 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">His</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">name</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|18:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|3:preds|18:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Lee</W>
-<W msd="NP=S" tag="NNP" in="2:[subj]|-3:preds" out="-2:namef|-1:namel|1:pnct|2:mod">Hooker</W>
+<W msd="NP=S" tag="NNP" in="-3:preds|2:[subj]" out="-2:namef|-1:namel|1:pnct|2:mod">Hooker</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="-2:[subj]|1:tobj|4:lobj">born</W>
 <W msd="NP=S" tag="NNP" in="-1:tobj" out="1:attr|2:nobj">August</W>
@@ -51,8 +51,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|74:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:mod|2:vobj|49:conj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|49:conj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|4:mod">get</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">decisive</W>
@@ -185,7 +185,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|13:pnct|15:err">And</W>
 <W msd="PT" tag="WP" in="1:subj" out="">what</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:pnct|4:xpl|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:preds|2:pnct|4:xpl">is</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">more</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>

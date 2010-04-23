@@ -112,8 +112,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="whether" lemma="hvorvidt" msd="CS" tag="IN" in="-2:nobj|2:[mod]" out="2:rel">hvorvidt</W>
 <W gloss="the_message_board" lemma="staveplade" msd="NCCSU==D" tag="NN" in="1:subj" out="">stavepladen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:pred">var</W>
-<W gloss="con" lemma="fup" msd="NCNSU==I" tag="NN" in="-1:pred" out="1:coord">fup</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:preds">var</W>
+<W gloss="con" lemma="fup" msd="NCNSU==I" tag="NN" in="-1:preds" out="1:coord">fup</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:conj" out="1:attr|2:nobj">et</W>
 <W gloss="valuable" lemma="værdifuld" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">værdifuldt</W>
@@ -222,7 +222,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">give</W>
 <W gloss="support" lemma="støtte" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">støtte</W>
-<W gloss="guides" lemma="føre" msd="VADR=----A-" tag="VBD" in="" out="-4:goal|1:subj|3:dobj|6:dir|8:pnct|17:pnct|9:dur">fører</W>
+<W gloss="guides" lemma="føre" msd="VADR=----A-" tag="VBD" in="" out="-4:goal|1:subj|3:dobj|6:dir|8:pnct|9:dur|17:pnct">fører</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:nobj">en</W>
 <W gloss="pædagog" lemma="pædagog" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pædagog</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:dobj" out="1:nobj|2:possd">den</W>

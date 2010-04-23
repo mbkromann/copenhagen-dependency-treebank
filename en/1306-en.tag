@@ -23,7 +23,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|6:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|6:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj|3:conj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1976</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -34,8 +34,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">artists</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:mod|2:vobj|15:pnct">need</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|2:vobj|15:pnct|1:neg">need</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">fear</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="1:pnct|8:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -108,7 +108,7 @@
 <W msd="PT" tag="WRB" in="-2:ref|2:mod" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-4:rel" out="-2:mod|-1:subj|1:vobj|9:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">vacation</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">with</W>
@@ -127,8 +127,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:title" out="">Prince</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:title">Henrik</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|15:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|15:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod">return</W>
 <W msd="NC=S" tag="NN" in="-1:lobj" out="1:mod">home</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>

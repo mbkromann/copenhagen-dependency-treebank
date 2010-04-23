@@ -82,9 +82,9 @@
 <s>
 <W gloss="Since" lemma="siden" msd="CS" tag="IN" in="11:mod" out="4:vobj">Siden</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="3:expl" out="">der</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="2:mod" out="">ikke</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="1:mod" out="">længere</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-2:mod|-1:mod|1:dobj|3:mod|6:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-1:mod|1:dobj|3:mod|6:pnct|-2:neg">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="foreigner" lemma="udlænding" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">udlænding</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -154,7 +154,7 @@
 <W gloss="camera_equipment" lemma="kameraudstyr" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">kameraudstyr</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">millioner</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:subj|7:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:subj|2:preds|7:pnct">er</W>
 <W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:mod" out="">mindre</W>
 <W gloss="tragic" lemma="tragisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">tragisk</W>
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -167,7 +167,7 @@
 <p>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|11:pnct|7:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|7:preds|11:pnct">er</W>
 <W gloss="thousands" lemma="tusindvis" msd="RGU" tag="RP" in="-1:subj" out="1:pobj">tusindvis</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="4:nobj">af</W>
 <W gloss="left-wing" lemma="venstreorienteret" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:attr" out="2:conj">venstreorienterede</W>
@@ -269,9 +269,9 @@
 </s>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|3:vobj|5:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|3:vobj|5:pnct|2:neg">kan</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">de</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="stop" lemma="stoppe" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj">stoppe</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>

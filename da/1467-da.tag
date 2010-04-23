@@ -141,9 +141,9 @@
 <s>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="2:subj" out="1:nobj">Noget</W>
 <W gloss="such" lemma="sådan" msd="ANPNSU=IU" tag="JJ" in="-1:nobj" out="">sådant</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:mod|2:mod|8:pnct|9:pnct|3:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:mod|3:preds|8:pnct|9:pnct|2:neg">er</W>
 <W gloss="of_course" lemma="naturligvis" msd="RGU" tag="RP" in="-1:mod" out="">naturligvis</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="promotional" lemma="fremme" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-3:preds" out="1:pobj">fremmende</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="confidence" lemma="tillid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">tillid</W>

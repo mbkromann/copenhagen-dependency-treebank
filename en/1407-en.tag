@@ -35,8 +35,8 @@
 <W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="U=" tag="EX" in="1:expl|4:[expl]" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:mod|2:mod|3:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|2:mod|3:vobj|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[expl]|1:dobj">been</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">time</W>
@@ -109,7 +109,7 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">few</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">days</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:subj|3:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:subj|2:preds|3:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">dead</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">tired</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -117,8 +117,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:mod|2:vobj|3:pnct|4:mod|12:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:vobj|3:pnct|4:mod|12:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]">exaggerating</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-4:mod" out="3:vobj">if</W>

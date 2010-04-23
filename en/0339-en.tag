@@ -15,8 +15,8 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="3:conj|4:pnct">And</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="ANP" tag="RB" in="1:attr" out="-1:mod">only</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="ANP" tag="RB" in="1:attr" out="-1:neg">only</W>
 <W msd="PD" tag="DT" in="-3:conj" out="-1:attr">that</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -73,8 +73,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:mod|2:mod|5:pnct|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:mod|3:preds|5:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
@@ -84,7 +84,7 @@
 <W msd="CS" tag="IN" in="" out="3:vobj">If</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">only</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|-2:mod|3:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|-2:mod|2:preds|3:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">simple</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -92,7 +92,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|3:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|3:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">among</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">us</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -110,7 +110,7 @@
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
-<W msd="VADR" tag="VBP" in="" out="-10:subj|3:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-10:subj|1:preds|3:pnct">are</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -121,7 +121,7 @@
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">helped</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|3:pnct|12:conj|15:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|1:preds|3:pnct|12:conj|15:pnct">are</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -210,7 +210,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
 <W msd="ANP" tag="JJ" in="-4:conj" out="-1:coord|1:pobj">resolute</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="3:conj|1:preds">stand</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:preds|3:conj">stand</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">fast</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-3:conj" out="-1:coord|1:pobj|4:dobj">contribute</W>

@@ -55,9 +55,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="Preben" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Madsen" lemma="Madsen" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Madsen</W>
-<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-13:vobj" out="-1:subj|1:dobj|2:lobj|10:ELAB&3a;exp">trak</W>
+<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-13:vobj" out="-1:subj|1:dobj|10:ELAB&3a;exp|2:@loc">trak</W>
 <W gloss="victory" lemma="sejr" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">sejren</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="country" lemma="land" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">land</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
@@ -122,12 +122,12 @@
 <W gloss="rings" lemma="ring" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ringe</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-31:pnct" out="">,</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-32:conj" out="1:nobj">to</W>
-<W gloss="spsk." lemma="spiseskefuld" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:nobj|1:attr">spsk.</W>
+<W gloss="spsk." lemma="spiseskefuld" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">spsk.</W>
 <W gloss="serious" lemma="grov" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">grov</W>
 <W gloss="mustard" lemma="sennep" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">sennep</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-36:pnct" out="">,</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-37:conj" out="1:nobj">to</W>
-<W gloss="spsk." lemma="spiseskefuld" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:nobj|1:attr">spsk.</W>
+<W gloss="spsk." lemma="spiseskefuld" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">spsk.</W>
 <W gloss="ordinary" lemma="almindelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">alm.</W>
 <W gloss="vinegar" lemma="eddike" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">eddike</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-41:pnct" out="">,</W>

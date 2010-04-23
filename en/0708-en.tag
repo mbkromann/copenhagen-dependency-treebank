@@ -29,8 +29,8 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:namef">Poulsen's</W>
 <W msd="ANP" tag="JJ" in="-4:attr" out="">tremendous</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="">energy</W>
-<W msd="VADA" tag="VBD" in="-7:conj" out="-6:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-7:conj" out="-6:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:pobj">succeed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:iobj|4:dobj">getting</W>
@@ -57,7 +57,7 @@
 </s>
 <s>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="-6:xpl" out="-1:pnct|1:subj|10:pnct|11:pnct|3:preds">Is</W>
+<W msd="VADR" tag="VBZ" in="-6:xpl" out="-1:pnct|1:subj|3:preds|10:pnct|11:pnct">Is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="3:nobj">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">much</W>
@@ -136,8 +136,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">dog</W>
 <W msd="NC=S" tag="NN" in="-7:conj" out="-1:mod|1:ref|2:rel">species</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod">exist</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

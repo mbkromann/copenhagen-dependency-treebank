@@ -40,8 +40,8 @@
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">girl</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-7:ref|1:subj|3:[subj]" out="7:mod">who</W>
-<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|1:mod|2:vobj|9:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|2:vobj|9:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">easy</W>
@@ -63,7 +63,7 @@
 <W msd="PT" tag="WRB" in="22:mod" out="3:vobj">When</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Andrew</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Morton</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-1:subj|1:dobj|14:mod|15:pnct|9:preds">put</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-1:subj|1:dobj|9:preds|14:mod|15:pnct">put</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="2:possd">his</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:pnct|1:pnct|2:conj|5:pnct">Diana</W>
@@ -116,7 +116,7 @@
 <W msd="SP" tag="IN" in="4:pobj|6:[pobj]" out="1:nobj">of</W>
 <W msd="PT" tag="WP" in="-1:nobj|-5:ref" out="">whom</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Diana</W>
-<W msd="VADA" tag="VBD" in="-7:rel" out="-1:subj|4:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-7:rel" out="-1:subj|1:preds|4:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="-4:pobj|2:conj">sick</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-6:[pobj]|-1:coord">tired</W>
@@ -172,7 +172,7 @@
 <W msd="NP=S" tag="NNP" in="1:title" out="">Major</W>
 <W msd="NP=S" tag="NNP" in="-9:appa" out="-1:title|1:pnct">Hewitt</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-17:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-17:subj|1:preds|6:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|3:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">newest</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

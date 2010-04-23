@@ -71,7 +71,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">program</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-3:mod|-2:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|3:pnct|6:xpl|1:preds">look</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|3:pnct|6:xpl">look</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
@@ -93,8 +93,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Division</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Association</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:mod|2:vobj|13:mod|21:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|2:vobj|13:mod|21:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">position</W>
@@ -155,7 +155,7 @@
 <s>
 <W msd="CS" tag="IN" in="10:mod" out="2:vobj">If</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|3:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|3:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -192,8 +192,8 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">custom</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="-9:vobj" out="-4:mod|-8:subj|1:mod|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-9:vobj" out="-4:mod|-8:subj|2:vobj|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">give</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">entry</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -218,7 +218,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Division</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Association</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|-10:mod|-12:mod|9:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|-10:mod|-12:mod|1:preds|9:pnct">were</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>

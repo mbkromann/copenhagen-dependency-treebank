@@ -62,7 +62,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="politics" lemma="politik" msd="NCCSU==I" tag="NN" in="1:subj" out="">politik</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|4:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|4:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="dirty" lemma="snavset" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">snavset</W>
 <W gloss="business" lemma="affære" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">affære</W>
@@ -90,9 +90,9 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|4:[expl]" out="">Der</W>
-<W gloss="are_being" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|2:mod|3:vobj|64:pnct">bliver</W>
+<W gloss="are_being" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|3:vobj|64:pnct|2:neg">bliver</W>
 <W gloss="exactly" lemma="just" msd="RGU" tag="RP" in="1:mod" out="">just</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="-1:mod">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[expl]|1:mod|3:mod">taget</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj">med</W>
 <W gloss="kid_gloves" lemma="fløjlshandske" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">fløjlshandsker</W>
@@ -158,7 +158,7 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|17:pnct|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|17:pnct">er</W>
 <W gloss="These" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:nobj|2:pnct|3:ref|4:rel">den</W>
 <W gloss="electoral_mathematics" lemma="valgmatematik" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">valgmatematik</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -169,7 +169,7 @@
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="1:mod" out="">godt</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">kan</W>
-<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|3:mod|2:preds">blive</W>
+<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|2:preds|3:mod">blive</W>
 <W gloss="American" lemma="amerikansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">amerikansk</W>
 <W gloss="president" lemma="præsident" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:attr">præsident</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-3:mod" out="1:nobj">uden</W>
@@ -211,7 +211,7 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-2:subj|-1:mod|1:vobj">har</W>
 <W gloss="tried" lemma="søge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">søgt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="make" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|3:mod|2:preds">gøre</W>
+<W gloss="make" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:preds|3:mod">gøre</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">den</W>
 <W gloss="character-oriented" lemma="personorienteret" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="">personorienteret</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-3:mod" out="1:nobj">ved</W>

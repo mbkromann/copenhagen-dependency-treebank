@@ -64,7 +64,7 @@
 <W msd="ANP" tag="JJ" in="" out="">grave</W>
 <W msd="NC=S" tag="NN" in="" out="1:mod">pit</W>
 <W msd="PP" tag="PRP" in="-1:mod" out="">itself</W>
-<W msd="VADA" tag="VBD" in="" out="18:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="2:preds|18:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">rather</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:mod|4:conj">large</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -221,15 +221,15 @@
 <W msd="PP" tag="PRP" in="2:subj|2:[subj]" out="">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">originally</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-3:[pred]|-2:subj|-2:[subj]|-1:mod">was</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|4:pnct|5:mod|19:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|4:pnct|5:mod|19:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod">impossible</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">say</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-5:mod" out="2:vobj">since</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WRB" in="-1:dobj|4:[mod]" out="4:rel">how</W>
 <W msd="PD" tag="DT" in="3:subj|3:[subj]|4:[subj]" out="">the</W>

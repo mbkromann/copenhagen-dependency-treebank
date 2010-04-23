@@ -4,8 +4,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">police</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Løgstør</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|1:mod|2:mod|3:vobj|20:conj|29:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|2:mod|3:vobj|20:conj|29:pnct|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-8:[subj]|1:preds">been</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
@@ -148,7 +148,7 @@
 <W msd="ANP" tag="RB" in="19:mod" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:dobj|12:pnct|6:preds">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:dobj|6:preds|12:pnct">are</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">lot</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -164,8 +164,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">medical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">officer</W>
-<W msd="VADR" tag="VBZ" in="-33:conj" out="-19:mod|-3:subj|-21:coord|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-33:conj" out="-19:mod|-3:subj|-21:coord|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:iobj|3:dobj">consider</W>
 <W msd="PD" tag="DT" in="-1:iobj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
@@ -177,8 +177,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:mod|15:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:preds|15:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unknown</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">phenomenon</W>

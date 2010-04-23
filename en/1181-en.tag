@@ -98,7 +98,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">economy</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:subj|2:pnct|11:conj|23:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:preds|2:pnct|11:conj|23:pnct">is</W>
 <W msd="NC=P" tag="NNS" in="-1:preds" out="">exports</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="8:coord" out="">and</W>
@@ -125,7 +125,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|33:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|33:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">frustrating</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="1:pnct|16:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -171,8 +171,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="ANP" tag="JJ" in="2:subj|7:[subj]" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">countries</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|2:mod|5:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:mod|5:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">similar</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">ways</W>
@@ -188,9 +188,9 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">monetary</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">system</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|5:[subj]|7:[subj]" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:mod|2:mod|3:mod|4:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:mod|3:mod|4:vobj|2:neg">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">apparently</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">not</W>
+<W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-4:vobj" out="-5:[subj]|1:dobj">equipped</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>

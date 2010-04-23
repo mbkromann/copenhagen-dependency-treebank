@@ -3,7 +3,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="13:mod" out="-2:attr|2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|3:mod|4:pnct#|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|3:mod|4:pnct#">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Berlin</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
@@ -69,8 +69,8 @@
 <W msd="PD" tag="DT" in="-3:&lt;dobj&gt;|3:[pred]" out="1:nobj|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sorrow</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-3:[pred]|-1:subj|1:mod|2:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-3:[pred]|-1:subj|2:mod|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">always</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:err">to</W>
 <W msd="VAG" tag="VBG" in="-1:err" out="1:vobj">being</W>
@@ -108,8 +108,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|-2:mod|1:mod|11:pnct|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|-2:mod|2:preds|11:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj|3:ref|4:rel">the</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">only</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="">one</W>

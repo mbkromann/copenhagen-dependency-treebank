@@ -118,7 +118,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Beat" lemma="piske" msd="VAM-=------" tag="VB" in="" out="1:dobj|5:conj|9:pnct|3:preds">Pisk</W>
+<W gloss="Beat" lemma="piske" msd="VAM-=------" tag="VB" in="" out="1:dobj|3:preds|5:conj|9:pnct">Pisk</W>
 <W gloss="2" lemma="2" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">2</W>
 <W gloss="whites" lemma="hvide" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">hvider</W>
 <W gloss="stiff" lemma="stiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="">stive</W>
@@ -181,12 +181,12 @@
 <s>
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="5:mod" out="2:vobj">Hvis</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">er</W>
 <W gloss="Teflon-coated" lemma="teflonbelagt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">teflonbelagt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="do_need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="" out="-5:mod|1:subj|2:mod|3:vobj|14:pnct">behøver</W>
+<W gloss="do_need" lemma="behøve" msd="VADR=----A-" tag="VBD" in="" out="-5:mod|1:subj|3:vobj|14:pnct|2:neg">behøver</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|2:[subj]" out="">man</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="brush" lemma="pensle" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|2:mod|4:pnct|5:mod">pensle</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>

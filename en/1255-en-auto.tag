@@ -1,7 +1,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">job</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|2:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">clear</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="NC=S" tag="NN" in="3:dobj" out="5:pobj">pressure</W>
@@ -127,8 +127,8 @@
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:dobj|18:pnct">replied</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj|3:pnct|4:mod">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|3:pnct|4:mod|1:neg">were</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-3:[subj]">interested</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-4:mod" out="">since</W>
@@ -149,10 +149,10 @@
 <W msd="NP=S" tag="NNP" in="2:subj|4:[subj]|10:[subj]" out="-1:mod|1:possd">Tidende's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">rejection</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|2:vobj|8:conj|17:pnct">did</W>
-<W msd="ANP" tag="RB" in="3:mod" out="2:pobj">not</W>
+<W msd="ANP" tag="RB" in="3:neg" out="2:pobj">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|4:tobj">come</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="">until</W>
-<W msd="AC" tag="CD" in="2:tobj" out="-3:mod|1:nobj">six</W>
+<W msd="AC" tag="CD" in="2:tobj" out="1:nobj|-3:neg">six</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
 <W msd="ANP" tag="RB" in="-4:tobj" out="-2:tobj">later</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -186,7 +186,7 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|3:vobj|13:pnct">believed</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|3:conj|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:preds|3:conj">was</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="">improving</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-3:conj" out="-1:coord|5:vobj">that</W>

@@ -45,7 +45,7 @@
 <W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:mod">meget</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:mod" out="-1:mod">mere</W>
 <W gloss="disturbing" lemma="forurolige" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="1:preds" out="-1:mod">foruroligende</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|20:pnct|-1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|20:pnct">er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:pnct|4:ref|17:rel">det</W>
 <W gloss="Bosnian" lemma="bosnisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">bosniske</W>
 <W gloss="ambush" lemma="baghold" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">baghold</W>
@@ -128,8 +128,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="-11:mod" out="2:vobj">da</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="landed" lemma="lande" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|3:mod|4:mod">landede</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">i</W>
+<W gloss="landed" lemma="lande" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:mod|4:mod|1:@loc">landede</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Sarajevo" lemma="Sarajevo" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Sarajevo</W>
 <W gloss="on_Saturday" lemma="i_lørdags" msd="RGU" tag="RP" in="-3:mod" out="">i_lørdags</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-4:mod" out="1:nobj">efter</W>
@@ -189,11 +189,11 @@
 <s>
 <W gloss="this" lemma="den" msd="PD-NSU--U" tag="DT" in="2:subj" out="1:nobj">Det</W>
 <W gloss="perspective" lemma="perspektiv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">perspektiv</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:mod|3:mod|4:lobj|7:pobj|37:pnct">kommer</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:mod|3:mod|7:pobj|37:pnct|4:@loc">kommer</W>
 <W gloss="Understandably" lemma="forståelig" msd="ANP---=-R" tag="JJ" in="-1:mod" out="1:mod">forståeligt</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:mod" out="">nok</W>
 <W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="-3:mod" out="">endnu</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="2:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="2:nobj">i</W>
 <W gloss="the_second" lemma="anden" msd="AO---U=--" tag="JJ" in="1:attr" out="">anden</W>
 <W gloss="series" lemma="række" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">række</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-7:pobj" out="1:nobj">for</W>

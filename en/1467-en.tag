@@ -99,8 +99,8 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-8:subj|1:mod|2:vobj|5:pnct#|6:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-8:subj|2:vobj|5:pnct#|6:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">promote</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">confidence</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

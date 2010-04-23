@@ -69,16 +69,16 @@
 <s>
 <W gloss="His" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="2:subj" out="1:possd">Hans</W>
 <W gloss="name" lemma="navn" morph="navn" msd="NCNSU==I" tag="NN" in="-1:possd" out="">navn</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-27:+CONJ/(og)&7c;ELAB&3a;exp" out="-2:subj|13:pnct|20:+CONJ/og|3:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-27:+CONJ/(og)&7c;ELAB&3a;exp" out="-2:subj|3:preds|13:pnct|20:+CONJ/og">er</W>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="2:namef" out="">John</W>
 <W gloss="Lee" lemma="Lee" msd="NP--U==-" tag="NNP" in="1:namel" out="">Lee</W>
-<W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="2:[subj]|-3:preds" out="-2:namef|-1:namel|1:pnct|2:modp">Hooker</W>
+<W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="-3:preds|2:[subj]" out="-2:namef|-1:namel|1:pnct|2:modp">Hooker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="born" lemma="føde" morph="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:modp" out="-2:[subj]|2:tobj|4:lobj">født</W>
+<W gloss="born" lemma="føde" morph="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:modp" out="-2:[subj]|2:tobj|4:@loc">født</W>
 <W gloss="22," lemma="22." msd="AO---U=--" tag="JJ" in="1:nobj" out="">22.</W>
 <W gloss="August" lemma="august" morph="Augustus /NOPRED&3a;other" msd="NCCSU==I" tag="NN" in="-2:tobj" out="-1:nobj|1:nobj">august</W>
 <W gloss="1917," lemma="1917" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1917</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">i</W>
 <W gloss="blues_music" lemma="bluesmusik" morph="musik -blues/func" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd|2:appr">bluesmusikkens</W>
 <W gloss="home_state" lemma="hjemstat" morph="stat -hjem/LOC&3a;pos" msd="NCCSU==I" tag="NN" in="-1:possd" out="">hjemstat</W>
 <W gloss="Mississippi" lemma="Mississippi" msd="NP--U==-" tag="NNP" in="-2:appr" out="">Mississippi</W>
@@ -140,9 +140,9 @@
 <W gloss="quietly" lemma="rolig" morph="ro +lig/DENOM&3a;eff" msd="ANP---=-R" tag="JJ" in="-1:man" out="">roligt</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-3:time" out="-1:other">nu</W>
-<W gloss="shed" lemma="kaste" morph="kaste" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-30:[subj]|1:dobj|2:lobj|5:conj">kaste</W>
+<W gloss="shed" lemma="kaste" morph="kaste" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-30:[subj]|1:dobj|5:conj|2:@loc">kaste</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="dusty" lemma="støv" morph="støv" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">støvet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="give_thanks" lemma="takke" morph="tak +ke/DER&3a;nv" msd="VAF-=----A-" tag="VB" in="-5:conj" out="-35:[subj]|-1:coord|1:man|4:pobj">takke</W>

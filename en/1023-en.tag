@@ -28,7 +28,7 @@
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|2:mod|3:dobj">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">no</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">longer</W>
-<W msd="PD" tag="DT" in="-3:dobj" out="2:nobj|1:attr">any</W>
+<W msd="PD" tag="DT" in="-3:dobj" out="1:attr|2:nobj">any</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unhealthful</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">algae</W>
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
@@ -99,7 +99,7 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Jutland</W>
 <W msd="VADR" tag="VBZ" in="-7:list" out="-5:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">found</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="3:nobj|6:pnct|11:mod|1:attr|2:attr">a</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj|6:pnct|11:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">massive</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">bloom</W>
@@ -126,7 +126,7 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:mod">die</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">weeks</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -140,8 +140,8 @@
 <W msd="PD" tag="DT" in="-3:nobj" out="9:vobj">that</W>
 <W msd="NC=S" tag="NN" in="8:subj|9:[subj]" out="1:ref|2:rel">fish</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:mod|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:vobj|1:neg">have</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj|2:mod">gotten</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="">away</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

@@ -43,7 +43,7 @@
 <W msd="ANP" tag="JJ" in="-3:attr" out="">well-built</W>
 <W msd="ANP" tag="JJ" in="-4:attr" out="">blonde</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">esquire</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|22:conj|61:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:preds|22:conj|61:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">fresh</W>
@@ -85,7 +85,7 @@
 <W msd="AC" tag="CD" in="-1:preds" out="">7</W>
 <W msd="CS" tag="IN" in="-5:pobj" out="2:vobj">until</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:pnct|1:preds">turned</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">turned</W>
 <W msd="AC" tag="CD" in="-1:preds" out="">15</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="-17:lobj" out="1:mod|4:mod">home</W>
@@ -148,8 +148,8 @@
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
 <W msd="PO" tag="PRP$" in="2:subj|4:[subj]|17:[subj]|19:[subj]" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mistress</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:vobj|15:conj">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|15:conj|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:lobj|5:aobj|6:pobj">come</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

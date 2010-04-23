@@ -9,7 +9,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Realistically</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:pnct|-3:mod|-1:subj|7:pnct|10:conj|30:mod|32:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:pnct|-3:mod|-1:subj|1:preds|7:pnct|10:conj|30:mod|32:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">minor</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
@@ -54,7 +54,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:vobj|5:conj">because</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="2:pnct|1:preds">they're</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="1:preds|2:pnct">they're</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">famous</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
@@ -101,7 +101,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADA" tag="VBD" in="29:qobj" out="-2:pnct|-1:subj|14:conj|27:pnct|28:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="29:qobj" out="-2:pnct|-1:subj|1:preds|14:conj|27:pnct|28:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Beatles</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj" out="">who</W>
@@ -189,8 +189,8 @@
 <W msd="VAP" tag="VBN" in="-3:mod" out="-1:mod">fashioned</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">way</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="SP" tag="IN" in="-11:mod" out="-1:mod|2:nobj">unlike</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="SP" tag="IN" in="-11:mod" out="2:nobj|-1:neg">unlike</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|2:possd">Mellancamp's</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

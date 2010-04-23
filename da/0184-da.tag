@@ -74,7 +74,7 @@
 <W gloss="fresh" lemma="frisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">frisk</W>
 <W gloss="pasta" lemma="pasta" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:attr">pasta</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|6:pnct|-8:dur">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-8:dur|1:subj|2:vobj|6:pnct">har</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">vi</W>
 <W gloss="doubled" lemma="fordoble" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|2:other">fordoblet</W>
 <W gloss="sales" lemma="salg" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">salget</W>
@@ -113,8 +113,8 @@
 <s>
 <W gloss="Tholstrup" lemma="Tholstrup" msd="NP--U==-" tag="NNP" in="2:subj" out="1:nobj">Tholstrup</W>
 <W gloss="Cheese" lemma="Cheese" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Cheese</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:pred|8:pnct|9:coord|28:pnct">er</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:pred" out="1:attr|2:attr|3:nobj">den</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|8:pnct|9:coord|28:pnct|1:preds">er</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="only" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">eneste</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">danske</W>
 <W gloss="producer" lemma="producent" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj">producent</W>
@@ -187,10 +187,10 @@
 <p>
 <s>
 <W gloss="Pasta" lemma="pasta" msd="NCCSU==I" tag="NN" in="1:subj" out="">Pasta</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:degr|3:pred|10:pnct|1:dur">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:degr|10:pnct|3:preds">er</W>
 <W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="-1:dur" out="">endnu</W>
 <W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:pred" out="1:attr|2:nobj">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:preds" out="1:attr|2:nobj">en</W>
 <W gloss="small" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="part" lemma="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -241,8 +241,8 @@
 <W gloss="itself" lemma="selveste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:focal" out="">selveste</W>
 <W gloss="Italy" lemma="Italien" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="-1:focal">Italien</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">vil</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pred">være</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:pred" out="1:attr|2:nobj|3:other">et</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">være</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:other">et</W>
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">godt</W>
 <W gloss="customer_country" lemma="aftagerland" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">aftagerland</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:other" out="1:nobj">for</W>

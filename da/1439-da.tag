@@ -51,7 +51,7 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W gloss="realistic" lemma="realistisk" msd="ANP---=-R" tag="JJ" in="1:mod" out="">Realistisk</W>
 <W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="1:mod" out="-1:mod">set</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|-3:pnct|1:subj|8:pnct|10:conj|27:mod|29:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|-3:pnct|1:subj|2:preds|8:pnct|10:conj|27:mod|29:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
 <W gloss="minor" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">mindre</W>
@@ -85,16 +85,16 @@
 <s>
 <W gloss="Apart_from" lemma="bortset_fra" msd="SP" tag="IN" in="2:mod" out="1:nobj">Bortset_fra</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="">det</W>
-<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|2:mod|3:pobj|6:pnct|7:mod|18:pnct|19:pnct">spiller</W>
+<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|3:pobj|6:pnct|7:mod|18:pnct|19:pnct|2:neg">spiller</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">med</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-7:mod" out="2:vobj|6:conj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:pnct|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">er</W>
 <W gloss="famous" lemma="berømt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">berømte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
@@ -145,7 +145,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:ref|5:rel">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="31:qobj" out="-1:subj|-2:pnct|2:pnct|12:conj|30:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="31:qobj" out="-1:subj|-2:pnct|1:preds|2:pnct|12:conj|30:pnct">var</W>
 <W gloss="Beatles" lemma="Beatles" msd="NP--U==-" tag="NNP" in="-1:preds" out="">Beatles</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
@@ -233,8 +233,8 @@
 <W gloss="old_fashioned" lemma="gammeldaws" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">gammeldaws</W>
 <W gloss="way" lemma="facon" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">facon</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="unlike" lemma="ulig" msd="ANP[CN]SU=IU" tag="JJ" in="-7:mod" out="-1:mod|2:nobj">ulig</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="unlike" lemma="ulig" msd="ANP[CN]SU=IU" tag="JJ" in="-7:mod" out="2:nobj|-1:neg">ulig</W>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Mellancamp's" lemma="Mellencamp" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|2:possd">Mellencamps</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

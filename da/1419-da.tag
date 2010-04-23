@@ -78,7 +78,7 @@
 <p>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:pnct|3:coord|20:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:preds|2:pnct|3:coord|20:pnct">var</W>
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">godt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="-3:coord" out="1:&lt;mod&gt;|2:&lt;pred&gt;">men</W>
@@ -187,8 +187,8 @@
 <W gloss="national_coach" lemma="landstræner" msd="NCCSU==I" tag="NN" in="-2:possd" out="">landstræner</W>
 <W gloss="Henri" lemma="Henri" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henri</W>
 <W gloss="Michel" lemma="Michel" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Michel</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|1:mod|2:mod|3:vobj|7:pnct">kunne</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|2:mod|3:vobj|7:pnct|1:neg">kunne</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-8:[subj]|1:lobj">komme</W>
 <W gloss="without" lemma="uden" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">uden</W>
@@ -243,7 +243,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Marseille" lemma="Marseille" msd="NP--U==-" tag="NNP" in="1:subj" out="">Marseille</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|5:mod|7:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|2:preds|5:mod|7:pnct">var</W>
 <W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:mod" out="">bare</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">det</W>
 <W gloss="pure" lemma="ren" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">rene</W>

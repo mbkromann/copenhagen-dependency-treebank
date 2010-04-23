@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|5:mod|8:pnct|9:mod|22:pnct|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|5:mod|8:pnct|9:mod|22:pnct">became</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:possd">her</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="2:possd">team's</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">top</W>
@@ -39,7 +39,7 @@
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Zalau</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Viborg</W>
-<W msd="VADA" tag="VBD" in="" out="-14:mod|-1:subj|18:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-14:mod|-1:subj|1:preds|18:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod">strong</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:nobj">enough</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -102,8 +102,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">AIA</W>
-<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:mod|2:vobj|7:pnct|8:mod|27:conj|33:pnct">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|2:vobj|7:pnct|8:mod|27:conj|33:pnct|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
@@ -213,7 +213,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">showdown</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:mod|9:pnct|10:mod|31:pnct|4:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:mod|4:preds|9:pnct|10:mod|31:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:part">far</W>
 <W msd="SP" tag="IN" in="-1:part" out="">from</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">as</W>

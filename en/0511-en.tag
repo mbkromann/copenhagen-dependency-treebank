@@ -64,7 +64,7 @@
 <W msd="PI" tag="DT" in="3:subj" out="2:nobj">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">wood</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">floor</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|3:pnct|4:mod|22:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|2:preds|3:pnct|4:mod|22:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">sufficiently</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">pliant</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -72,9 +72,9 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PO" tag="PRP$" in="2:subj|4:[subj]" out="1:possd">your</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">legs</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|2:vobj">do</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|2:pnct|4:mod|1:preds">get</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:vobj|1:neg">do</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:preds|2:pnct|4:mod">get</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">tired</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">even</W>
@@ -96,8 +96,8 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">lye-treated</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">wood</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">floor</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-6:subj|1:mod|2:vobj|6:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-6:subj|2:vobj|6:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:lobj">belong</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -137,8 +137,8 @@
 <W msd="CS" tag="IN" in="-10:mod" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">spots</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:mod|2:preds">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:preds|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">easy</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:mod">remove</W>
@@ -213,7 +213,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|16:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod|5:conj">pleasant</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">walk</W>
@@ -221,7 +221,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-5:conj" out="-1:coord|1:mod">easy</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|1:preds">keep</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:preds|2:mod">keep</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">clean</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">by</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj|2:mod">washing</W>
@@ -233,7 +233,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Linoleum</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|9:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj">well-suited</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>

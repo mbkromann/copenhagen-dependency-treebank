@@ -2,7 +2,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Social</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Democrats</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|24:mod|34:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:preds|24:mod|34:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">unhappy</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="7:vobj">that</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]|9:[subj]" out="1:attr|2:attr|3:nobj|5:appr">the</W>
@@ -28,7 +28,7 @@
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-24:mod" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|6:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|6:mod">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">prosecutor</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>
@@ -76,8 +76,8 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">police</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj|6:mod">respect</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rules</W>
@@ -161,7 +161,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">court</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">inquiry</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:pnct|-4:subj|2:mod|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:pnct|-4:subj|1:preds|2:mod|17:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">necessary</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:vobj">have</W>
@@ -219,8 +219,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|8:[subj]|10:[subj]|11:[subj]|13:[subj]" out="">We</W>
-<W msd="VA" tag="MD" in="-6:qobj" out="-2:pnct|-1:subj|1:mod|2:vobj|7:conj|16:pnct|19:conj|24:pnct#|25:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-6:qobj" out="-2:pnct|-1:subj|2:vobj|7:conj|16:pnct|19:conj|24:pnct#|25:pnct|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">oppose</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">impartial</W>
@@ -238,8 +238,8 @@
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-19:conj" out="-1:subj|-2:coord|1:mod|2:mod|3:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-19:conj" out="-1:subj|-2:coord|2:mod|3:vobj|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PP" tag="PRP" in="-2:mod" out="">myself</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">take</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

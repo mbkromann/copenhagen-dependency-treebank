@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">over-the-counter</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">pain-relievers</W>
-<W msd="VADR" tag="VBZ" in="14:qobj" out="-5:subj|13:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="14:qobj" out="-5:subj|3:preds|13:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="3:nobj">so</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">alarmingly</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">great</W>
@@ -41,7 +41,7 @@
 <W msd="NP=S" tag="NNP" in="-4:conj" out="">Panodil</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-6:conj" out="-1:coord">Pamol</W>
-<W msd="VADR" tag="VBZ" in="" out="-13:subj|1:mod|17:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-13:subj|1:mod|3:preds|17:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">great</W>
@@ -82,14 +82,14 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="11:qobj" out="-1:subj|2:pnct|3:mod|9:pnct|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="11:qobj" out="-1:subj|1:preds|2:pnct|3:mod|9:pnct|10:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="">concerning</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-3:mod" out="3:vobj">because</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">over-the-counter</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">medicine</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">harmless</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
@@ -128,7 +128,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|2:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|1:preds|2:pnct">were</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">suicide</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

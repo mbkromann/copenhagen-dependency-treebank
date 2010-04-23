@@ -45,7 +45,7 @@
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:list" out="-1:subj|-2:pnct|5:pnct|6:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:list" out="-1:subj|-2:pnct|2:preds|5:pnct|6:pnct">er</W>
 <W gloss="completely" lemma="total" msd="ANP---=-R" tag="JJ" in="1:mod" out="">totalt</W>
 <W gloss="meaningless" lemma="meningsløs" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:mod|2:conj">meningsløst</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -199,7 +199,7 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="27:qobj" out="-1:subj|1:mod|3:pnct|20:conj|26:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="27:qobj" out="-1:subj|1:mod|2:preds|3:pnct|20:conj|26:pnct">var</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
 <W gloss="modest" lemma="beskeden" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="">beskeden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -219,9 +219,9 @@
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">hende</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-14:ref|1:mod" out="">så</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-20:conj" out="-1:mod|-15:xtop|-16:coord|1:subj|2:mod|3:vobj|5:pnct">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-20:conj" out="-1:mod|-15:xtop|-16:coord|1:subj|3:vobj|5:pnct|2:neg">blev</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|2:[subj]" out="">man</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="brushed" lemma="feje" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:part">fejet</W>
 <W gloss="off" lemma="af" msd="RGU" tag="RP" in="-1:part" out="">af</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

@@ -50,8 +50,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">af</W>
 <W gloss="publikumsidolerne" lemma="publikumsidol" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">publikumsidolerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:mod|-7:[subj]|-2:coord|1:dobj">har</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-2:coord|1:dobj|-1:neg">har</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:dobj" out="1:mod">nok</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:mod" out="1:vobj">at</W>
 <W gloss="welcome" lemma="byde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|2:mod">byde</W>
@@ -66,17 +66,17 @@
 </p>
 <p>
 <s>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:xtop" out="1:subj|4:mod|7:pnct|9:ref|5:preds">Er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:xtop" out="1:subj|5:preds|7:pnct|9:ref|4:neg">Er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">det</W>
 <W gloss="athletic" lemma="sportslig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">sportslige</W>
 <W gloss="tenders" lemma="tilbud" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">tilbud</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-4:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-4:neg" out="">ikke</W>
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-5:preds" out="1:mod">godt</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:mod" out="">nok</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="yes" lemma="ja" msd="I=" tag="UH" in="2:mod" out="">ja</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-9:ref|1:mod" out="">så</W>
-<W gloss="stay" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|-10:xtop|-2:mod|1:subj|6:pnct|5:preds">bliver</W>
+<W gloss="stay" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|-10:xtop|-2:mod|1:subj|5:preds|6:pnct">bliver</W>
 <W gloss="the_sport's" lemma="sport" msd="NCCSG==D" tag="NN" in="-1:subj" out="2:attr|3:possd">sportens</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
 <W gloss="troløse" lemma="troløs" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:mod">troløse</W>
@@ -99,7 +99,7 @@
 </p>
 <p>
 <s>
-<W gloss="a" lemma="Et" msd="XX" tag="FW" in="-6:xpl" out="1:subj|16:pnct|2:preds">Et</W>
+<W gloss="a" lemma="Et" msd="XX" tag="FW" in="-6:xpl" out="1:subj|2:preds|16:pnct">Et</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
 <W gloss="wise" lemma="klog" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">klogt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
@@ -249,7 +249,7 @@
 <W gloss="entertainment_value" lemma="underholdningsværdi" msd="NCCSU==I" tag="NN" in="3:subj" out="2:conj">underholdningsværdi</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="excitement_factor" lemma="spændingsmoment" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">spændingsmoment</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|6:mod|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|6:mod">er</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">få</W>

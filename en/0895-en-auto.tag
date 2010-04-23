@@ -126,7 +126,7 @@
 <W msd="NP=P" tag="NNPS" in="3:subj" out="1:mod">Tools</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">cutting</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|5:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:preds|5:pnct">are</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="1:nobj">different</W>
@@ -137,14 +137,14 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBP" in="" out="-3:mod|-1:expl|1:dobj|11:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:mod|-1:expl|1:dobj|2:preds|11:pnct">are</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="4:ref">things</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">market</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|1:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-1:[subj]|1:mod">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-1:[subj]|1:neg">are</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="" out="">good</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">anything</W>
@@ -152,8 +152,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|15:pnct">must</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|15:pnct|1:neg">must</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:vobj">let</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[dobj]" out="">yourself</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[dobj]|1:vobj">be</W>

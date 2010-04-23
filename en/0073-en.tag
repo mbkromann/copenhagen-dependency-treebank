@@ -123,8 +123,8 @@
 <W msd="CS" tag="IN" in="-3:pobj" out="1:mod">as</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:mod">seen</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="CS" tag="IN" in="-2:mod" out="">before</W>
@@ -135,7 +135,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PT" tag="WRB" in="1:preds" out="">Where</W>
-<W msd="VADR" tag="VBZ" in="-6:qobj" out="-2:pnct|1:subj|4:pnct|5:pnct|-1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-6:qobj" out="-2:pnct|-1:preds|1:subj|4:pnct|5:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">part</W>

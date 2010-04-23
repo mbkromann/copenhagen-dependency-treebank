@@ -70,8 +70,8 @@
 </s>
 <s>
 <W gloss="The_Greeks" lemma="græker" msd="NCCPU==D" tag="NNP" in="1:subj|3:[subj]" out="">Grækerne</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|19:pnct">vil</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|19:pnct">vil</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="recognise" lemma="anerkende" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">anerkende</W>
 <W gloss="the_name" lemma="navn" msd="NCNSU==D" tag="NN" in="-1:dobj" out="1:appr|2:pnct|3:ref|7:rel">navnet</W>
 <W gloss="Macedonia" lemma="Makedonien" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Makedonien</W>
@@ -102,12 +102,12 @@
 <W gloss="the_politicians" lemma="politiker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">politikerne</W>
 <W gloss="negotiate" lemma="forhandle" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-1:subj|-2:coord|1:pnct">forhandler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|3:subj|4:mod|5:lobj|18:pnct">sidder</W>
+<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|3:subj|4:mod|18:pnct|5:@loc">sidder</W>
 <W gloss="Anders" lemma="Anders" msd="NP--U==-" tag="NNP" in="2:namef" out="">Anders</W>
 <W gloss="Dahl" lemma="Dahl" msd="NP--U==-" tag="NNP" in="1:namel" out="">Dahl</W>
 <W gloss="Rasmussen" lemma="Rasmussen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:namef|-1:namel">Rasmussen</W>
 <W gloss="still" lemma="fortsat" msd="RGU" tag="RP" in="-4:mod" out="">fortsat</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:lobj" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:@loc" out="1:nobj">i</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd|2:mod">sin</W>
 <W gloss="cell" lemma="celle" msd="NCCSU==I" tag="NN" in="-1:possd" out="">celle</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
@@ -126,17 +126,17 @@
 <p>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]|12:[subj]" out="">Han</W>
-<W gloss="does_speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|4:conj|25:pnct">taler</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="does_speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:dobj|4:conj|25:pnct">taler</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="Yugoslavian" lemma="jugoslavisk" msd="NCNSU==I" tag="NN" in="-2:dobj" out="">jugoslavisk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:mod|6:mod|7:vobj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:mod|6:neg|7:vobj">har</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:numa|3:nobj">to</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:numa" out="1:attr">et</W>
 <W gloss="half" lemma="halv" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">halvt</W>
 <W gloss="years" lemma="år" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">år</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-6:mod" out="">ikke</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-6:neg" out="">ikke</W>
 <W gloss="had" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:vobj" out="-12:[subj]|1:dobj">haft</W>
 <W gloss="the_visit" lemma="besøg" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">besøg</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -254,7 +254,7 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="">det</W>
 <W gloss="is_beginning" lemma="begynde" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:subj|-2:coord|1:dobj|12:pnct">begynder</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|2:pobj|1:preds">blive</W>
+<W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|2:pobj">blive</W>
 <W gloss="scarce" lemma="lille" msd="ANP---=-R" tag="JJ" in="-1:preds" out="">småt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:preds">med</W>
 <W gloss="goods" lemma="vare" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">varer</W>

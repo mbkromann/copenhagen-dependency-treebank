@@ -43,10 +43,10 @@
 <s>
 <W gloss="The_year" lemma="år" msd="NCNSU==D" tag="NN" in="1:tobj" out="">Året</W>
 <W gloss="after" lemma="efter" msd="RGU" tag="RP" in="1:mod" out="-1:tobj">efter</W>
-<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|3:lobj|5:pnct|8:conj|13:pnct|14:pnct|2:preds">blev</W>
+<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:preds|5:pnct|8:conj|13:pnct|14:pnct|3:@loc">blev</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="football_apprentice" lemma="fodboldlærling" msd="NCCSU==I" tag="NN" in="-2:preds" out="">fodboldlærling</W>
-<W gloss="at" lemma="i" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">i</W>
+<W gloss="at" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
 <W gloss="Arsenal" lemma="Arsenal" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Arsenal</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -90,7 +90,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="i" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|10:[subj]|11:[subj]" out="">Jeg</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|9:conj|16:pnct|17:pnct|2:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:preds|9:conj|16:pnct|17:pnct">er</W>
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
 <W gloss="happy" lemma="glad" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">glad</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -174,7 +174,7 @@
 <s>
 <W gloss="Against" lemma="mod" msd="SP" tag="IN" in="2:mod" out="1:nobj">Mod</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|2:mod|9:pnct|13:pnct|4:preds">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-2:mod|1:subj|2:mod|4:preds|9:pnct|13:pnct">bliver</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="9:ref|10:rel">det</W>
 <W gloss="presumably" lemma="formentlig" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">formentlig</W>
 <W gloss="Torben" lemma="Torben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Torben</W>
@@ -234,7 +234,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="3:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|15:pnct|16:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|15:pnct|16:pnct">er</W>
 <W gloss="worth" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">værd</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
 <W gloss="remarking" lemma="bemærke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">bemærke</W>
@@ -243,7 +243,7 @@
 <W gloss="Liverpool's" lemma="Liverpool" msd="NP--G==-" tag="NNP" in="2:subj|3:[subj]" out="1:possd">Liverpools</W>
 <W gloss="defence" lemma="forsvar" msd="NCNSU==I" tag="NN" in="-1:possd" out="">forsvar</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>
-<W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|3:mod|2:preds">blevet</W>
+<W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|2:preds|3:mod">blevet</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:mod" out="">mere</W>
 <W gloss="stable" lemma="stabil" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:mod">stabilt</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:mod" out="1:nobj">efter</W>

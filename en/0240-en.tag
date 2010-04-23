@@ -25,8 +25,8 @@
 <W msd="VAG" tag="VBG" in="-2:conj" out="-1:coord">caressing</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:mod">order</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">not</W>
-<W msd="U=" tag="TO" in="-2:mod" out="-1:mod|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">not</W>
+<W msd="U=" tag="TO" in="-2:mod" out="1:vobj|-1:neg">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj|3:dobj">set</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">motion</W>
@@ -42,7 +42,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|11:pnct|1:preds">becomes</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|11:pnct">becomes</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">relief</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -107,7 +107,7 @@
 <W msd="NP=S" tag="NNP" in="-2:xpl" out="">AIDS</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
-<W msd="NC=S" tag="NN" in="-8:xpl" out="-1:pnct|15:pnct|1:preds">we're</W>
+<W msd="NC=S" tag="NN" in="-8:xpl" out="-1:pnct|1:preds|15:pnct">we're</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">tired</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="5:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">death</W>
@@ -126,7 +126,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|20:conj|39:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|20:conj|39:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">disease</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]|3:[subj]" out="">that</W>
@@ -190,8 +190,8 @@
 <W msd="PI" tag="DT" in="" out="1:nobj|2:ref|3:rel|14:pnct">An</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">agreement</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|2:mod|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:mod|3:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">always</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:mod">present</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">between</W>

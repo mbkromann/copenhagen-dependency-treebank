@@ -7,8 +7,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dish</W>
-<W msd="VA" tag="MD" in="" out="-8:subj|1:mod|2:vobj|5:pnct">must</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-8:subj|2:vobj|5:pnct|1:neg">must</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|2:preds">be</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">salty</W>
@@ -33,7 +33,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|9:conj|13:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:preds|9:conj|13:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|3:conj">salty</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -42,8 +42,8 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">flavour</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|-3:coord|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|-3:coord|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">good</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">enough</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>

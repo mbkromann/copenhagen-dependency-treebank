@@ -210,8 +210,8 @@
 <W gloss="on_top_of" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W gloss="seats" lemma="sæde" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">sæderne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="look" lemma="kigge" msd="VAF-=----A-" tag="VB" in="-7:conj" out="-1:mod|-2:coord|1:lobj|2:pnct|3:mod">kigge</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="look" lemma="kigge" msd="VAF-=----A-" tag="VB" in="-7:conj" out="-2:coord|1:lobj|2:pnct|3:mod|-1:neg">kigge</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="before" lemma="før" msd="CS" tag="IN" in="-3:mod" out="2:vobj">før</W>

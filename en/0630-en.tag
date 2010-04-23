@@ -27,7 +27,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="1:pnct|2:conj">okay</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="-2:conj" out="2:pnct|3:attr|1:preds">we're</W>
+<W msd="NC=S" tag="NN" in="-2:conj" out="1:preds|2:pnct|3:attr">we're</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">tired</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-3:attr" out="">too</W>
@@ -36,8 +36,8 @@
 <W msd="NC=S" tag="NN" in="-1:subj" out="1:pnct|2:ref|3:rel">father</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">energy</W>
@@ -47,8 +47,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Henning</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|9:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|9:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:avobj|4:mod">run</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -127,7 +127,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|5:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">difficult</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:aobj">fall</W>
@@ -232,7 +232,7 @@
 <W msd="NP=S" tag="NNP" in="3:voc" out="1:pnct">Dolly</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-3:voc|-1:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:voc|-1:subj|1:preds|2:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">gone</W>
 <W msd="XP" tag="." in="-2:pnct" out="">!</W>
 </s>

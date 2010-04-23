@@ -14,7 +14,7 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">three-year</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">old</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-3:attr|-1:attr">Pernille</W>
-<W msd="VADR" tag="VBZ" in="" out="-15:mod|-1:subj|1:mod|3:mod|20:pnct|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-15:mod|-1:subj|1:mod|3:mod|4:preds|20:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:avobj">once</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">again</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">legally</W>
@@ -103,12 +103,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:vobj">It</W>
-<W msd="VADA" tag="VBD" in="17:qobj" out="-1:subj|1:mod|15:pnct|16:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="17:qobj" out="-1:subj|1:mod|2:preds|15:pnct|16:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">truly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">good</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]|8:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:subj|1:mod|2:mod|3:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:subj|2:mod|3:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="NC=S" tag="NN" in="-3:vobj" out="-4:[subj]|1:part|2:dobj|4:conj">hand</W>
 <W msd="SP" tag="IN" in="-1:part" out="">over</W>
@@ -133,7 +133,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">grandfather</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:part|8:pnct|9:mod|24:pnct|2:preds">wound</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:part|2:preds|8:pnct|9:mod|24:pnct">wound</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="1:dobj|3:lobj">spending</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">two</W>

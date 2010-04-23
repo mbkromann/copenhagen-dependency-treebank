@@ -161,8 +161,8 @@
 <W gloss="asked" lemma="bede" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:dobj|2:pobj">bedt</W>
 <W gloss="the_drivers" lemma="kører" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">kørerne</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">om</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:mod|1:vobj">at</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj|-1:neg">at</W>
 <W gloss="commit" lemma="engagere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:mod">engagere</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:mod" out="1:nobj">til</W>
@@ -243,7 +243,7 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="earlier" lemma="tidlig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">tidligere</W>
 <W gloss="record" lemma="rekord" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">rekord</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|14:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:preds|14:pnct">var</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:preds" out="1:nobj">fra</W>
 <W gloss="1988," lemma="1988" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:pnct|2:ref|6:rel">1988</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

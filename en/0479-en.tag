@@ -29,8 +29,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">This</W>
-<W msd="VADR" tag="VBZ" in="27:qobj" out="-1:subj|1:mod|2:vobj|3:pnct|4:mod|25:pnct|26:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="27:qobj" out="-1:subj|2:vobj|3:pnct|4:mod|25:pnct|26:pnct|1:neg">has</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">changed</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:vobj">so</W>
@@ -46,8 +46,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">skeptics</W>
 <W msd="SP" tag="IN" in="-3:dobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Denmark</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>

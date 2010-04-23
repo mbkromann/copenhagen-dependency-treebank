@@ -120,7 +120,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gert</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:namef">Fredholm</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|7:mod|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|2:preds|7:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
@@ -137,8 +137,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Camre</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|8:pnct|10:conj|33:pnct">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|8:pnct|10:conj|33:pnct|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:pobj">devote</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">time</W>
@@ -174,8 +174,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:pnct|11:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|3:pnct|11:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">clear</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:nobj|3:[mod]" out="2:rel">when</W>

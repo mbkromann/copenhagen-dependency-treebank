@@ -15,8 +15,8 @@
 <W msd="NC=S" tag="NN" in="-5:vobj" out="-12:[subj]|1:dobj">state</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:mod|2:vobj|7:pnct|8:mod">would</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|2:vobj|7:pnct|8:mod|1:neg">would</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|2:mod">issued</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">shares</W>
@@ -58,7 +58,7 @@
 <W msd="ANP" tag="RB" in="-2:attr" out="-1:mod">obviously</W>
 <W msd="VADR" tag="VBZ" in="1:mod" out="">sales</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">topics</W>
-<W msd="VADR" tag="VBP" in="" out="1:subj|28:pnct|-10:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-10:preds|1:subj|28:pnct">are</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="1:nobj|2:pnct|3:conj|6:pnct|8:conj">Hafnia</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bank</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -105,8 +105,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Capital</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Bank</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-16:subj|1:mod|2:mod|5:vobj|11:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-16:subj|2:mod|5:vobj|11:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
@@ -198,8 +198,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">life</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">insurance</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">company</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|2:preds|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="3:mod">worth</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">nearly</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">so</W>

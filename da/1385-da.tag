@@ -75,9 +75,9 @@
 <W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:mod" out="">mest</W>
 <W gloss="rabid" lemma="rabiat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:mod">rabiate</W>
 <W gloss="fans" lemma="tilhænger" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">tilhængere</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|2:mod|3:vobj|5:pnct">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|3:vobj|5:pnct|2:neg">kunne</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="-1:mod">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="control" lemma="styre" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-7:[subj]|1:dobj">styre</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -194,7 +194,7 @@
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="43rd" lemma="43." msd="AO---U=--" tag="JJ" in="-1:attr" out="">43.</W>
 <W gloss="minute" lemma="minut" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">minut</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|2:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:preds|2:pnct">var</W>
 <W gloss="debatable" lemma="diskutabel" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">diskutabel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -239,8 +239,8 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Jeg</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|6:pnct">kunne</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|6:pnct|1:neg">kunne</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="avoid" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">undgå</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="hitting" lemma="ramme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">ramme</W>

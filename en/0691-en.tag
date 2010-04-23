@@ -92,7 +92,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:pnct|3:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">text</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
-<W msd="VAF" tag="VB" in="-3:xpl" out="1:dobj|3:pnct|2:preds">Keep</W>
+<W msd="VAF" tag="VB" in="-3:xpl" out="1:dobj|2:preds|3:pnct">Keep</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Denmark</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">clean</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -100,7 +100,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">illustration</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:pnct|5:xpl|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|2:pnct|5:xpl">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">simple</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">A</W>
@@ -193,8 +193,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stamp</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|1:mod|2:vobj">does</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|2:vobj|1:neg">does</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:aobj|2:mod">go</W>
 <W msd="ANP" tag="RB" in="-1:aobj" out="">well</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>

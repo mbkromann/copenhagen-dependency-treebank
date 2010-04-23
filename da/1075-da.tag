@@ -150,13 +150,13 @@
 <W gloss="Placement_of_responsibility" lemma="ansvars-placering" msd="NCCSU==I" tag="NN" in="" out="">Ansvars-placering</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|4:[subj]" out="">Man</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|2:mod|3:vobj|12:conj|22:pnct">kan</W>
-<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:mod|3:vobj|12:conj|22:pnct|1:neg">kan</W>
+<W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="say" lemma="sige" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pnct|3:vobj">sige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="they" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|3:pnct|2:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|2:preds|3:pnct">er</W>
 <W gloss="isolated" lemma="enkeltstående" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">enkeltstående</W>
 <W gloss="instances" lemma="tilfælde" msd="NCNPU==I" tag="NNP" in="-2:preds" out="-1:attr">tilfælde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -217,7 +217,7 @@
 <s>
 <W gloss="No_one" lemma="ingen" msd="PI-CSU--U" tag="DT" in="1:subj|2:[subj]" out="">Ingen</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|12:pnct|14:conj|20:pnct">kan</W>
-<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|6:mod|1:preds">være</W>
+<W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|6:mod">være</W>
 <W gloss="accountant" lemma="revisor" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:mod">revisor</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
@@ -240,8 +240,8 @@
 </s>
 <s>
 <W gloss="Accounting_firms" lemma="revisorfirma" msd="NCNPU==D" tag="NNP" in="1:subj" out="">Revisorfirmaerne</W>
-<W gloss="will_get_away" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:pobj|12:pnct">slipper</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:mod" out="">ikke</W>
+<W gloss="will_get_away" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:pobj|12:pnct|1:neg">slipper</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="rokere" lemma="rokere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:avobj|5:mod">rokere</W>

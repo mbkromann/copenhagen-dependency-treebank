@@ -8,7 +8,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Clinton</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">sights</W>
-<W msd="VADR" tag="VBZ" in="" out="-9:subj|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-9:subj|1:preds|17:pnct">is</W>
 <W msd="NP=S" tag="NNP" in="-1:preds" out="1:nobj|2:pnct|3:ref|8:rel">McClardÁs</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bar-B-Que</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -193,7 +193,7 @@
 <W msd="CS" tag="IN" in="-1:obl" out="2:vobj">if</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">time</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|1:preds">stood</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|2:mod">stood</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">still</W>
 <W msd="CS" tag="IN" in="-2:mod" out="1:nobj">since</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -202,8 +202,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|7:mod|13:pnct|18:conj|24:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|7:mod|13:pnct|18:conj|24:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">popular</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">buy</W>

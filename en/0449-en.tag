@@ -1,12 +1,12 @@
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|17:conj|28:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:preds|17:conj|28:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">exactly</W>
-<W msd="PD" tag="DT" in="8:[mod]|-2:preds" out="1:nobj|3:rel">the</W>
+<W msd="PD" tag="DT" in="-2:preds|8:[mod]" out="1:nobj|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]|6:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:mod|2:vobj|6:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|2:vobj|6:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">supposed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:vobj">be</W>
@@ -192,8 +192,8 @@
 <s>
 <W msd="ANP" tag="JJ" in="2:subj|4:[subj]" out="1:possd">André's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">eyes</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:mod|2:vobj|23:conj|29:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|2:vobj|23:conj|29:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">grasp</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">black</W>

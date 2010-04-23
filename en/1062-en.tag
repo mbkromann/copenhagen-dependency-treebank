@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">resolution</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|11:pnct|14:conj|36:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|11:pnct|14:conj|36:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|3:attr|4:possd|5:mod|7:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UN's</W>
 <W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
@@ -55,7 +55,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">current</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">plans</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|-12:mod|19:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-12:mod|1:preds|19:pnct">are</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">open</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod|4:mod">a</W>
@@ -192,8 +192,8 @@
 <W msd="SP" tag="IN" in="-2:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UNHCR</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:mod|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|2:vobj|1:neg">will</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

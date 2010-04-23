@@ -18,7 +18,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]|11:[subj]" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|14:pnct|15:mod|27:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|14:pnct|15:mod|27:pnct">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj|8:conj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">equipped</W>
@@ -74,8 +74,8 @@
 <W msd="CS" tag="IN" in="-21:mod" out="3:vobj">because</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">suddenly</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">people</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:mod|-1:subj|1:mod|2:vobj">did</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:mod|-1:subj|2:vobj|1:neg">did</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj|3:pobj">hear</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>
 <W msd="ANC" tag="JJR" in="-2:dobj" out="-1:mod">more</W>
@@ -87,7 +87,7 @@
 <W msd="SP" tag="IN" in="14:mod" out="1:nobj|11:pnct">In</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">addition</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="3:pobj|1:preds">being</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:preds|3:pobj">being</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">draw</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="3:nobj">for</W>
@@ -98,7 +98,7 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Robinson</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Crusoe</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-14:mod|3:pobj|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-14:mod|1:preds|3:pobj|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">paradise</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">for</W>

@@ -71,9 +71,9 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|24:pnct">Og</W>
 <W gloss="at_any_rate" lemma="i_hvert_fald" msd="RGU" tag="RP" in="1:mod" out="">i_hvert_fald</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|2:mod|3:vobj">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|3:vobj|2:neg">kan</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">vi</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:mod" out="">ikke</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="measure" lemma="måle" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|6:mod">måle</W>
 <W gloss="the_quality" lemma="kvalitet" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:mod">kvaliteten</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
@@ -113,8 +113,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-6:nobj" out="4:vobj">at</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="really" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="2:mod" out="">faktisk</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|-1:mod|1:dobj|3:pnct">har</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|1:dobj|3:pnct|-1:neg">har</W>
 <W gloss="any" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">noget</W>
 <W gloss="basis_for_comparison" lemma="sammenligningsgrundlag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">sammenligningsgrundlag</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -165,8 +165,8 @@
 <W gloss="form" lemma="form" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">form</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">der</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="does_fit" lemma="passe" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:mod|1:pnct|6:conj">passer</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="does_fit" lemma="passe" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|1:pnct|6:conj|-1:neg">passer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="4:coord" out="">og</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-8:ref|3:mod" out="">hvor</W>
@@ -202,7 +202,7 @@
 <W gloss="relationship" lemma="forhold" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="childhood" lemma="barndom" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">barndommen</W>
-<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|8:pnct|1:preds">bliver</W>
+<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:preds|8:pnct">bliver</W>
 <W gloss="defensive" lemma="defensiv" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="1:pnct|2:conj">defensivt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="characterised" lemma="præge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-7:[subj]|1:pobj">præget</W>
@@ -225,8 +225,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-3:ref|9:nobj" out="">som</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj" out="">vi</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="do_feel" lemma="føle" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-2:subj|-1:mod|1:pnct|3:vobj">føler</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="do_feel" lemma="føle" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-2:subj|1:pnct|3:vobj|-1:neg">føler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">kan</W>

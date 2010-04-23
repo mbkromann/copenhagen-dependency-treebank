@@ -4,8 +4,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="3:vobj">event</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">business</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:mod|2:mod|10:pnct|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:mod|3:preds|10:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PP" tag="PRP" in="-2:mod" out="">itself</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:pobj">capable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -211,7 +211,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">discharge</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]|13:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-3:rel" out="-1:subj|1:vobj|16:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|9:pnct|11:conj|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|9:pnct|11:conj">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">harmful</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

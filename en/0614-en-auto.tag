@@ -20,13 +20,13 @@
 <W msd="VADA" tag="VBD" in="" out="1:pnct">said</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:pnct|-1:subj|1:mod|9:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:pnct|-1:subj|2:preds|9:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">necessary</W>
 <W msd="SP" tag="IN" in="" out="">for</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">you</W>
 <W msd="U=" tag="TO" in="" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:subj|2:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:subj|1:preds|2:mod">be</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">here</W>
 <W msd="NC=S" tag="NN" in="-2:mod" out="">today</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -192,8 +192,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:mod|3:vobj|4:pnct|7:conj|15:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:mod|3:vobj|4:pnct|7:conj|15:pnct|1:neg">could</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]">go</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

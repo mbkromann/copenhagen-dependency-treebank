@@ -1,7 +1,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="10:qobj" out="-2:pnct|-1:subj|8:pnct|9:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="10:qobj" out="-2:pnct|-1:subj|2:preds|8:pnct|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">late</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
@@ -26,7 +26,7 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|5:pnct#|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:preds|5:pnct#|6:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">matter</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -50,8 +50,8 @@
 <W msd="VADR" tag="VBZ" in="-2:nobj" out="-1:mod">collective's</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">plump</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="">members</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|1:mod|3:pnct|6:conj|19:pnct|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|2:preds|3:pnct|6:conj|19:pnct|1:neg">was</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">overwhelming</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">only</W>
@@ -116,7 +116,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="17:qobj" out="-2:pnct|-1:subj|14:pnct|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="17:qobj" out="-2:pnct|-1:subj|1:preds|14:pnct|15:pnct">is</W>
 <W msd="CS" tag="IN" in="-1:preds" out="1:pobj">as</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|10:[nobj]" out="6:rel">it</W>
@@ -152,9 +152,9 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-1:subj|-2:coord|1:mod|6:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
-<W msd="PD" tag="DT" in="3:[pred]|-2:preds" out="1:nobj|3:rel">the</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-1:subj|-2:coord|2:preds|6:mod|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
+<W msd="PD" tag="DT" in="-2:preds|3:[pred]" out="1:nobj|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|-3:[pred]">is</W>

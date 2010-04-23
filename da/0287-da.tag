@@ -54,8 +54,8 @@
 <s>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Lennon" lemma="Lennon" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Lennon</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|4:pnct">er</W>
-<W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:pred" out="1:attr|2:possd">hans</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|4:pnct|1:preds">er</W>
+<W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:preds" out="1:attr|2:possd">hans</W>
 <W gloss="musical" lemma="musikalsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">musikalske</W>
 <W gloss="idol" lemma="idol" msd="NCNSU==I" tag="NN" in="-2:possd" out="">idol</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -76,9 +76,9 @@
 <W gloss="naked" lemma="nøgen" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">nøgen</W>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Lennon" lemma="Lennon" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-1:namef">Lennon</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|2:pred|4:pnct|5:&lt;nobj&gt;|6:&lt;pred&gt;|8:coord">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj|4:pnct|5:&lt;nobj&gt;|6:&lt;pred&gt;|8:coord|2:preds">med</W>
 <W gloss="steel_helmet" lemma="stålhjelm" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">stålhjelm</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:pred" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:preds" out="1:nobj">på</W>
 <W gloss="head" lemma="hoved" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="guitar" lemma="guitar" msd="NCCSU==I" tag="NN" in="-5:&lt;nobj&gt;" out="">guitar</W>
@@ -96,8 +96,8 @@
 <s>
 <W gloss="Adolf" lemma="Adolf" msd="NP--U==-" tag="NNP" in="1:namef" out="">Adolf</W>
 <W gloss="Hitler" lemma="Hitler" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Hitler</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pred|4:pnct">er</W>
-<W gloss="Lehder's" lemma="Lehder" msd="NP--G==-" tag="NNP" in="-1:pred" out="1:attr|2:possd">Lehders</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|4:pnct|1:preds">er</W>
+<W gloss="Lehder's" lemma="Lehder" msd="NP--G==-" tag="NNP" in="-1:preds" out="1:attr|2:possd">Lehders</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">politiske</W>
 <W gloss="idol" lemma="idol" msd="NCNSU==I" tag="NN" in="-2:possd" out="">idol</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -154,8 +154,8 @@
 <s>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
 <W gloss="Cocaine" lemma="Cocain" msd="XX" tag="FW" in="1:subj" out="">Cocain</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-1:subj|-2:pnct|1:pred|3:loc|7:pnct">er</W>
-<W gloss="Latin_America's" lemma="Latinamerika" msd="NP--G==-" tag="NNP" in="-1:pred" out="1:possd">Latinamerikas</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-1:subj|-2:pnct|3:loc|7:pnct|1:preds">er</W>
+<W gloss="Latin_America's" lemma="Latinamerika" msd="NP--G==-" tag="NNP" in="-1:preds" out="1:possd">Latinamerikas</W>
 <W gloss="atom_bomb" lemma="atombombe" msd="NCCSU==I" tag="NN" in="-1:possd" out="">atombombe</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="the_war" lemma="krig" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">krigen</W>
@@ -173,9 +173,9 @@
 <W gloss="the_beginning" lemma="begyndelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">begyndelsen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="1986," lemma="1986" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1986</W>
-<W gloss="seemed" lemma="synes" msd="VEDA=----A-" tag="VBD" in="" out="-4:time|1:subj|2:pred|8:pnct|9:coord|17:pnct">syntes</W>
+<W gloss="seemed" lemma="synes" msd="VEDA=----A-" tag="VBD" in="" out="-4:time|1:subj|8:pnct|9:coord|17:pnct|2:preds">syntes</W>
 <W gloss="the_cartel" lemma="kartel" msd="NCNSU==D" tag="NN" in="-1:subj" out="">kartellet</W>
-<W gloss="stronger" lemma="stærk" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:pred" out="1:coord|4:pobj">stærkere</W>
+<W gloss="stronger" lemma="stærk" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:preds" out="1:coord|4:pobj">stærkere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="2:conj">og</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="2:[pobj]">mere</W>
 <W gloss="untouchable" lemma="urørlig" msd="ANPNSU=IU" tag="JJ" in="-2:conj" out="-1:degr">urørligt</W>

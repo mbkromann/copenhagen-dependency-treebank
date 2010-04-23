@@ -98,8 +98,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ester</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Brohus</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|1:mod|4:pnct|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|3:preds|4:pnct|1:neg">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">entirely</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">unknown</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>

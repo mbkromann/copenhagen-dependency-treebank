@@ -70,9 +70,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">shell</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="2:nobj">into</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">small</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="4:conj|-1:attr">pieces</W>
-<W msd="CC" tag="CC" in="3:coord" out="1:mod">but</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">not</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|4:conj">pieces</W>
+<W msd="CC" tag="CC" in="3:coord" out="1:neg">but</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
 <W msd="ANP" tag="JJ" in="-4:conj" out="-1:mod|-3:coord">small</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
@@ -92,7 +92,7 @@
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">butter</W>
 <W msd="ANP" tag="RB" in="-5:mod" out="">well</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="3:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">wide-bottom</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">frying</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">pan</W>
@@ -114,7 +114,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">gotten</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">colour</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -138,11 +138,11 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">over</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">high</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">heat</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">for</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|1:attr">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">minutes</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
@@ -176,7 +176,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
 <W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:pnct|5:modp|1:attr">an</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:modp">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">oven-proof</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">dish</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -200,7 +200,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod|1:attr">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj">as</W>
@@ -251,7 +251,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">oven</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj">at</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod|1:attr">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj">as</W>

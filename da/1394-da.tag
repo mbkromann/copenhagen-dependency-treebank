@@ -121,8 +121,8 @@
 <W gloss="female" lemma="kvindelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">kvindelige</W>
 <W gloss="motorist" lemma="bilist" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bilist</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:mod|3:vobj|23:pnct">kunne</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">ikke</W>
-<W gloss="straight_away" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:mod">umiddelbart</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
+<W gloss="straight_away" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:neg">umiddelbart</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-6:[subj]|1:iobj|2:dobj">give</W>
 <W gloss="the_police" lemma="politi" msd="NCNSU==D" tag="NN" in="-1:iobj" out="">politiet</W>
 <W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj">nogen</W>
@@ -174,7 +174,7 @@
 </s>
 <s>
 <W gloss="The_garden" lemma="have" msd="NCCSU==D" tag="NN" in="1:subj" out="">Haven</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|10:pnct|14:conj|19:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|10:pnct|14:conj|19:pnct">er</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="1:mod" out="">godt</W>
 <W gloss="known" lemma="kendt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:mod|1:mod|3:pobj">kendt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>

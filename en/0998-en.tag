@@ -24,7 +24,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">sales</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">profits</W>
-<W msd="VADA" tag="VBD" in="-11:qobj" out="-9:pnct|-8:mod|-1:subj|24:conj|41:pnct#|42:pnct|3:preds">were</W>
+<W msd="VADA" tag="VBD" in="-11:qobj" out="-9:pnct|-8:mod|-1:subj|3:preds|24:conj|41:pnct#|42:pnct">were</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">20</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
 <W msd="SP" tag="IN" in="-3:preds" out="-2:mod|2:nobj">under</W>
@@ -75,8 +75,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">perhaps</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-2:mod">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">quite</W>
+<W msd="ANP" tag="RB" in="1:neg" out="-2:mod">not</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:neg">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-7:obl" out="-1:mod">good</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="2:nobj">as</W>
