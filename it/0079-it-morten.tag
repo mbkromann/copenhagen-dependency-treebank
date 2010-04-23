@@ -27,8 +27,8 @@
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj">portato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|4:bg">una</W>
-<W lemma="denuncia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj#">denuncia</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj#" out="1:nobj">della</W>
+<W lemma="denuncia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}#">denuncia</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">della</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="">polizia</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-4:bg" out="1:nobj">nei</W>
 <W lemma="confronto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">confronti</W>

@@ -98,7 +98,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="per" msd="SP" tag="PRE" in="-19:pobj" out="1:nobj">per</W>
-<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="3:pnct|5:conj|8:conj|18:conj|1:pobj.pobj|1:{location}">abuso</W>
+<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.pobj|1:{location}|3:pnct|5:conj|8:conj|18:conj">abuso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}" out="1:nobj">di</W>
 <W lemma="mandato" msd="NC" tag="NOM" in="-1:nobj" out="">mandato</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -165,8 +165,8 @@
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="illegale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">illegale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-4:attr" out="1:nobj">di</W>
-<W lemma="concessione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr&3a;dobj">concessione</W>
-<W lemma="prestito" msd="NC" tag="NOM" in="-1:attrr&3a;dobj" out="">prestiti</W>
+<W lemma="concessione" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj|1:{patient}">concessione</W>
+<W lemma="prestito" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}" out="">prestiti</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="1:struct" out="">Inoltre</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-26:CONJ/inoltre|1:[subj]" out="-1:struct|1:vobj|11:pnct">hanno</W>

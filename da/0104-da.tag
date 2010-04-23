@@ -41,8 +41,8 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="The_proposal" lemma="forslag" msd="NCNSU==D" tag="NN" in="8:subj" out="1:pobj&3a;dobj.patient">Forslaget</W>
-<W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj&3a;dobj.patient" out="2:nobj">om</W>
+<W gloss="The_proposal" lemma="forslag" msd="NCNSU==D" tag="NN" in="8:subj" out="1:pobj.dobj|1:{patient}">Forslaget</W>
+<W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">om</W>
 <W gloss="joint" lemma="fælles" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">fælles</W>
 <W gloss="group_meetings" lemma="gruppemøde" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pobj&3a;subj.dobj">gruppemøder</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj&3a;subj.dobj" out="1:nobj">mellem</W>
@@ -101,8 +101,8 @@
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ind</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
-<W gloss="merger" lemma="sammenslutning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj.patient">sammenslutning</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj&3a;dobj.patient" out="1:nobj">af</W>
+<W gloss="merger" lemma="sammenslutning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">sammenslutning</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="parties" lemma="parti" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">partier</W>
@@ -185,8 +185,8 @@
 <W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|8:pnct">vil</W>
 <W gloss="prevent" lemma="hindre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">hindre</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:dobj" out="1:nobj">mange</W>
-<W gloss="misunderstandings" lemma="misforståelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj&3a;subj.agent">misforståelser</W>
-<W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj&3a;subj.agent" out="1:nobj">mellem</W>
+<W gloss="misunderstandings" lemma="misforståelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj.subj|1:{agent}">misforståelser</W>
+<W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">mellem</W>
 <W gloss="our" lemma="vores" msd="PO1[CN]PUPNF" tag="PRP$" in="-1:nobj" out="1:possd&3a;const">vore</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:possd&3a;const" out="1:nobj">to</W>
 <W gloss="parties" lemma="parti" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">partier</W>
@@ -199,8 +199,8 @@
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|11:pnct">skal</W>
 <W gloss="think" lemma="tænke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">tænke</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
-<W gloss="the_co-operation" lemma="samarbejde" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj&3a;subj.agent">samarbejdet</W>
-<W gloss="among" lemma="blandt" msd="SP" tag="IN" in="-1:pobj&3a;subj.agent" out="1:nobj">blandt</W>
+<W gloss="the_co-operation" lemma="samarbejde" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">samarbejdet</W>
+<W gloss="among" lemma="blandt" msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">blandt</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="coming" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
 <W gloss="generation" lemma="generation" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:attr|1:{const}">generation</W>

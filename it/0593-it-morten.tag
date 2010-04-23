@@ -78,8 +78,8 @@
 <W lemma="parte" msd="NC" tag="NOM" in="" out="-1:subj|-6:bg|1:dir|5:pnct">parte</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:dir" out="2:nobj|17:coref-id">dalla</W>
 <W lemma="cosiddetto" msd="AN" tag="ADJ" in="1:attr" out="">cosiddetta</W>
-<W lemma="soglia" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:noun&3a;func#">soglia</W>
-<W lemma="limite" msd="NC" tag="NOM" in="-1:noun&3a;func#" out="">limite</W>
+<W lemma="soglia" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|1:{func}#">soglia</W>
+<W lemma="limite" msd="NC" tag="NOM" in="-1:attr|-1:{func}#" out="">limite</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="15:time" out="1:nobj">Nel</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1992</W>
@@ -94,8 +94,8 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-17:coref-id|3:subj|4:[subj]" out="1:nobj">la</W>
-<W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="1:noun&3a;func#">soglia</W>
-<W lemma="limite" msd="NC" tag="NOM" in="-1:noun&3a;func#" out="">limite</W>
+<W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#">soglia</W>
+<W lemma="limite" msd="NC" tag="NOM" in="-1:attr|-1:{func}#" out="">limite</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:time|-3:subj|-12:bg|1:vobj|8:pnct">è</W>
 <W lemma="dare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:pobj">data</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dall'</W>
@@ -116,8 +116,8 @@
 <W lemma="differenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">differenza</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|7:conj">la</W>
-<W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="1:noun&3a;func#|2:attr">soglia</W>
-<W lemma="limite" msd="NC" tag="NOM" in="-1:noun&3a;func#" out="">limite</W>
+<W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:attr|1:{func}#">soglia</W>
+<W lemma="limite" msd="NC" tag="NOM" in="-1:attr|-1:{func}#" out="">limite</W>
 <W lemma="calcolare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:agent">calcolata</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:agent" out="1:nobj">dal</W>
 <W lemma="richiedente" msd="NC" tag="NOM" in="-1:nobj" out="">richiedente</W>
@@ -221,8 +221,8 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-10:conj" out="-1:coord|1:nobj">al</W>
 <W lemma="trasferimento" msd="NC" tag="NOM" in="-1:nobj" out="1:dir|5:pobj.subj|5:{agent}">trasferimento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
-<W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func#">casa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;func#" out="1:nobj">di</W>
+<W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#">casa</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{func}#" out="1:nobj">di</W>
 <W lemma="riposo" msd="NC" tag="NOM" in="-1:nobj" out="">riposo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-5:pobj.subj|-5:{agent}" out="1:nobj|3:conj">del</W>
 <W lemma="coniuge" msd="NC" tag="NOM" in="-1:nobj" out="">coniuge</W>

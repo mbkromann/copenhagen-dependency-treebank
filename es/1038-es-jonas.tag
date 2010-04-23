@@ -64,8 +64,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">g.</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">jamón</W>
-<W lemma="cortar" msd="VLadj" in="-1:attr" out="1:pobj&3a;loc#">cortado</W>
-<W lemma="en" msd="PREP" in="-1:pobj&3a;loc#" out="1:nobj">en</W>
+<W lemma="cortar" msd="VLadj" in="-1:attr" out="1:attr|1:{pos}#">cortado</W>
+<W lemma="en" msd="PREP" in="-1:attr|-1:{pos}#" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">juliana</W>
 <W lemma="," msd="CM" in="-7:pnct" out="">,</W>
 <W lemma="dos" msd="CARD" in="-8:conj" out="2:nobj|5:pnct|6:conj">dos</W>
@@ -82,8 +82,8 @@
 <W lemma="dos" msd="CARD" in="-5:conj" out="1:nobj|6:pnct|7:conj">dos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">decilitros</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="caldo" msd="NC" in="-1:nobj" out="1:pobj&3a;const#">caldo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const#" out="1:nobj">de</W>
+<W lemma="caldo" msd="NC" in="-1:nobj" out="1:attr|1:{const}#">caldo</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}#" out="1:nobj">de</W>
 <W lemma="verdura" msd="NC" in="-1:nobj" out="">verduras</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="dos" msd="CARD" in="-7:conj" out="1:nobj|3:other|5:pnct|6:conj">dos</W>
@@ -121,8 +121,8 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="" out="1:loc|9:other">hornearlo</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
-<W lemma="placa" msd="NC" in="-1:nobj" out="1:pobj&3a;goal|3:attr|4:loc">placas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;goal" out="1:nobj">de</W>
+<W lemma="placa" msd="NC" in="-1:nobj" out="1:attr|1:{func}|3:attr|4:loc">placas</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">de</W>
 <W lemma="horno" msd="NC" in="-1:nobj" out="">horno</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-3:attr" out="">enmantecadas</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>
@@ -211,8 +211,8 @@
 <W lemma="poder" msd="VMfin" in="" out="-2:struct|-1:robj|1:vobj|6:pnct">puede</W>
 <W lemma="servir" msd="VLinf" in="-1:vobj" out="1:pobj">servir</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="patata" msd="NC" in="-1:nobj" out="1:pobj&3a;loc#">patatas</W>
-<W lemma="al" msd="PAL" in="-1:pobj&3a;loc#" out="1:nobj">al</W>
+<W lemma="patata" msd="NC" in="-1:nobj" out="1:attr|1:{pos}#">patatas</W>
+<W lemma="al" msd="PAL" in="-1:attr|-1:{pos}#" out="1:nobj">al</W>
 <W lemma="horno" msd="NC" in="-1:nobj" out="">horno</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Preben</W>

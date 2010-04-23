@@ -17,8 +17,8 @@
 <W lemma="chico" msd="NC" in="-1:nobj" out="1:attr">chica</W>
 <W lemma="bueno" msd="ADJ" in="-1:attr" out="">buena</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
-<W lemma="contar" msd="VLfin" in="" out="1:pobj&3a;iobj|5:dobj">Contaba</W>
-<W lemma="a" msd="PREP" in="-1:pobj&3a;iobj" out="2:nobj">a</W>
+<W lemma="contar" msd="VLfin" in="" out="1:iobj|5:dobj">Contaba</W>
+<W lemma="a" msd="PREP" in="-1:iobj" out="2:nobj">a</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
 <W lemma="pocos" msd="QU" in="-2:nobj" out="-1:degr|1:nobj">poca</W>
 <W lemma="gente" msd="NC" in="-1:nobj" out="">gente</W>
@@ -32,8 +32,8 @@
 <W lemma="semana" msd="NC" in="-1:nobj" out="">semana</W>
 <W lemma="." msd="FS" in="-23:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="5:time" out="1:nobj">Los</W>
-<W lemma="viernes" msd="NC" in="-1:nobj" out="1:pobj&3a;time">viernes</W>
-<W lemma="por" msd="PREP" in="-1:pobj&3a;time" out="1:nobj">por</W>
+<W lemma="viernes" msd="NC" in="-1:nobj" out="1:attr|1:{time}">viernes</W>
+<W lemma="por" msd="PREP" in="-1:attr|-1:{time}" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="noche" msd="NC" in="-1:nobj" out="">noche</W>
 <W lemma="tomar" msd="VLfin" in="" out="-5:time|1:dobj|3:pnct">tomaba</W>
@@ -64,10 +64,10 @@
 <W lemma="mujer" msd="NP" in="" out="1:attr|3:fpreds|10:pnct">Mujer</W>
 <W lemma="fatal" msd="ADJ" in="-1:attr" out="">fatal</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="observar" msd="VLadj" in="-3:fpreds" out="2:conj|3:pobj&3a;agens">observada</W>
+<W lemma="observar" msd="VLadj" in="-3:fpreds" out="2:conj|3:attr|3:{agent}">observada</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:conj" out="-1:coord">admirada</W>
-<W lemma="por" msd="PREP" in="-3:pobj&3a;agens" out="1:nobj">por</W>
+<W lemma="por" msd="PREP" in="-3:attr|-3:{agent}" out="1:nobj">por</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">todos</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
@@ -85,14 +85,14 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-4:preds" out="-3:degr/time|-1:degr">difÃ­cil</W>
 <W lemma="cambiar" msd="VLinf" in="-5:subj" out="1:pobj&3a;nobj">cambiar</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;nobj" out="1:nobj">de</W>
-<W lemma="identidad" msd="NC" in="-1:nobj" out="1:pobj&3a;man">identidad</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;man" out="1:nobj">de</W>
+<W lemma="identidad" msd="NC" in="-1:nobj" out="1:pobj|1:{form}">identidad</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{form}" out="1:nobj">de</W>
 <W lemma="ese" msd="DM" in="-1:nobj" out="1:nobj">esa</W>
 <W lemma="manera" msd="NC" in="-1:nobj" out="">manera</W>
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
 <W lemma="un" msd="ART" in="4:subj" out="1:nobj">Una</W>
-<W lemma="prostituta" msd="NC" in="-1:nobj" out="1:pobj&3a;about#">prostituta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;about#" out="1:nobj">de</W>
+<W lemma="prostituta" msd="NC" in="-1:nobj" out="1:attr|1:{about}">prostituta</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="lujo" msd="NC" in="-1:nobj" out="">lujo</W>
 <W lemma="ser" msd="VSfin" in="" out="-4:subj|1:preds|3:pnct">es</W>
 <W lemma="mucho" msd="QU" in="-1:preds" out="1:nobj">muchas</W>
@@ -107,8 +107,8 @@
 <W lemma="exclusivo" msd="ADJ" in="-2:attr" out="-1:degr">exclusivos</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="lograr" msd="VLfin" in="" out="1:dobj|3:pobj|12:pnct|19:conj|22:pnct">Logra</W>
-<W lemma="contacto" msd="NC" in="-1:dobj" out="1:attrr&3a;subj#">contacto</W>
-<W lemma="visual" msd="ADJ" in="-1:attrr&3a;subj#" out="">visual</W>
+<W lemma="contacto" msd="NC" in="-1:dobj" out="1:aobj.subj|1:{agent}#">contacto</W>
+<W lemma="visual" msd="ADJ" in="-1:aobj.subj|-1:{agent}#" out="">visual</W>
 <W lemma="con" msd="PREP" in="-3:pobj" out="1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="4:attr">hombre</W>
@@ -154,8 +154,8 @@
 <W lemma="por~ejemplo" msd="ADV" in="1:ext" out="">por ejemplo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-5:relpa" out="-3:pnct|-2:subj|-1:ext|1:pobj|5:pnct">estÃ¡n</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="viaje" msd="NC" in="-1:nobj" out="1:pobj&3a;about#">viaje</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;about#" out="1:nobj">de</W>
+<W lemma="viaje" msd="NC" in="-1:nobj" out="1:attr|1:{about}">viaje</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="negocio" msd="NC" in="-1:nobj" out="">negocios</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="tener" msd="VLfin" in="" out="-15:subj|2:dobj|5:time|23:pnct">tienen</W>

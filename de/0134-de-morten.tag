@@ -74,18 +74,18 @@
 <s>
 <W lemma="wenn" msd="CS" tag="KOUS" in="11:cond" out="9:vobj">Wenn</W>
 <W lemma="wir" msd="PP" tag="PPER" in="8:subj" out="">wir</W>
-<W lemma="trotz" msd="SP" tag="APPR" in="7:struct&3a;contr" out="2:nobj">trotz</W>
+<W lemma="trotz" msd="SP" tag="APPR" in="7:contr" out="2:nobj">trotz</W>
 <W lemma="befriedigend" msd="AN" tag="ADJA" in="1:attr" out="">befriedigender</W>
 <W lemma="Leistung" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">Leistung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-39:coref-id|-1:pobj.subj|-1:{agent}" out="1:nobj|43:coref-id">der</W>
 <W lemma="Spieler" msd="NC" tag="NN" in="-1:nobj" out="">Spieler</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">gegen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Trabzonspor</W>
-<W lemma="rausfliegen" msd="VA" tag="VVFIN" in="-9:vobj" out="-8:subj|-7:struct&3a;contr|-2:pobj|1:pnct">rausfliegen</W>
+<W lemma="rausfliegen" msd="VA" tag="VVFIN" in="-9:vobj" out="-8:subj|-2:pobj|-7:contr|1:pnct">rausfliegen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-11:cond|1:subj|8:vobj|9:pnct|39:coref-prg">können</W>
-<W lemma="wir" msd="PP" tag="PPER" in="-1:subj|7:[subj]" out="1:prg&3a;epi">wir</W>
-<W lemma="vielleicht" msd="AN" tag="ADJD" in="-1:prg&3a;epi" out="">vielleicht</W>
+<W lemma="wir" msd="PP" tag="PPER" in="-1:subj|7:[subj]" out="1:epi">wir</W>
+<W lemma="vielleicht" msd="AN" tag="ADJD" in="-1:epi" out="">vielleicht</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="5:succ" out="1:nobj">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Nachhinein</W>
 <W lemma="über" msd="SP" tag="APPR" in="3:pobj" out="2:nobj">über</W>
@@ -99,9 +99,9 @@
 <W lemma="wie" msd="CS" tag="KOKOM" in="-3:conj|4:[dobj]" out="-1:coord|5:relr">wie</W>
 <W lemma="man" msd="PP" tag="PIS" in="3:[subj]|4:subj" out="">man</W>
 <W lemma="es" msd="PP" tag="PPER" in="2:dobj" out="">es</W>
-<W lemma="eben" msd="RG" tag="ADV" in="2:prg&3a;att" out="">eben</W>
+<W lemma="eben" msd="RG" tag="ADV" in="2:att" out="">eben</W>
 <W lemma="nennen" msd="VAF" tag="VVINF" in="1:vobj" out="-3:[subj]|-2:dobj|-4:[dobj]">nennen</W>
-<W lemma="wollen" msd="VA" tag="VMFIN" in="-5:relr" out="-4:subj|-1:vobj|-2:prg&3a;att">will</W>
+<W lemma="wollen" msd="VA" tag="VMFIN" in="-5:relr" out="-4:subj|-1:vobj|-2:att">will</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-10:pnct" out="">"</W>
 </s>
@@ -112,7 +112,7 @@
 <W lemma="Teamchef" msd="NC" tag="NN" in="-1:nobj" out="">Teamchef</W>
 <W lemma="Pierre" msd="NP" tag="NE" in="1:namef" out="">Pierre</W>
 <W lemma="Larsen" msd="NP" tag="NE" in="-3:appr" out="-1:namef">Larsen</W>
-<W lemma="erklären" msd="VA" tag="VVFIN" in="" out="-4:subj|6:pnct|7:dobj|17:pnct|1:succ">erklärte</W>
+<W lemma="erklären" msd="VA" tag="VVFIN" in="" out="-4:subj|1:succ|6:pnct|7:dobj|17:pnct">erklärte</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-1:succ" out="1:nobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-114:coref-var" out="3:nobj">dem</W>
 <W lemma="gestrig" msd="AN" tag="ADJA" in="2:attr" out="">gestrigen</W>
@@ -163,14 +163,14 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="-1:neg|1:nobj">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="-1:nobj" out="">Rede</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
-<W lemma="jetzt" msd="RG" tag="ADV" in="1:time&3a;cont" out="">Jetzt</W>
-<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:time&3a;cont|1:subj|4:vobj|6:cause&3a;goal|30:pnct">müssen</W>
+<W lemma="jetzt" msd="RG" tag="ADV" in="1:cont" out="">Jetzt</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:cont|1:subj|4:vobj|6:goal|30:pnct">müssen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|3:[subj]" out="">wir</W>
 <W lemma="ernsthaft" msd="AN" tag="ADJA" in="1:attr" out="">ernsthafte</W>
 <W lemma="Überlegung" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Überlegungen</W>
 <W lemma="anstellen" msd="VAF" tag="VVINF" in="-4:vobj" out="-1:dobj|-3:[subj]|1:pnct">anstellen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="damit" msd="CS" tag="KOUS" in="-6:cause&3a;goal" out="8:vobj">damit</W>
+<W lemma="damit" msd="CS" tag="KOUS" in="-6:goal" out="8:vobj">damit</W>
 <W lemma="wir" msd="PP" tag="PPER" in="7:subj" out="">wir</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="5:nobj|8:ref|13:relr">die</W>
 <W lemma="bald" msd="RG" tag="ADV" in="1:degr" out="">bald</W>

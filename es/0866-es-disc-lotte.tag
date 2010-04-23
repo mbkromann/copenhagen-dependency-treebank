@@ -93,8 +93,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:subj" out="">“SF</W>
 <W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:subj|1:preds|7:pnct|8:bg|12:pnct">es</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:nobj">el</W>
-<W lemma="tanque" msd="NC" in="-1:nobj" out="1:pobj&3a;goal#|3:pobj|3:{arg}">tanque</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;goal#" out="1:nobj">de</W>
+<W lemma="tanque" msd="NC" in="-1:nobj" out="3:pobj|3:{arg}|1:attr|1:{func}#">tanque</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="idea" msd="NC" in="-1:nobj" out="">ideas</W>
 <W lemma="en" msd="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">en</W>
 <W lemma="Dinamarca" msd="NP" in="-1:nobj" out="">Dinamarca</W>

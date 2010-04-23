@@ -80,10 +80,10 @@
 <W lemma="se" msd="SE" in="1:subj" out="">Se</W>
 <W lemma="tener" msd="VLfin" in="" out="-1:subj|2:dobj|7:pnct">tienen</W>
 <W lemma="excelente" msd="ADJ" in="1:attr" out="">excelentes</W>
-<W lemma="botella" msd="NC" in="-2:dobj" out="-1:attr|1:pobj&3a;pobj#">botellas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:attrr#">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="1:pobj&3a;pobj#">plástico</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="botella" msd="NC" in="-2:dobj" out="-1:attr|1:pobj.pobj|1:{location}#">botellas</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:attrr#">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="1:pobj.pobj|1:{location}#">plástico</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="litro" msd="NC" in="-1:nobj" out="">litro</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="si" msd="CSUBX" in="4:cond" out="">Si</W>
@@ -175,8 +175,8 @@
 <W lemma="concebir" msd="VLadj" in="-1:vobj" out="2:pobj|2:{arg}">concebido</W>
 <W lemma="a~menudo" msd="ADV" in="-2:prg" out="">a menudo</W>
 <W lemma="con" msd="PREP" in="-2:pobj|-2:{arg}" out="1:nobj|5:conj">con</W>
-<W lemma="cabeza" msd="NC" in="-1:nobj" out="1:pobj&3a;const#">cabeza</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const#" out="1:nobj">de</W>
+<W lemma="cabeza" msd="NC" in="-1:nobj" out="1:attr|1:{const}#">cabeza</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">halcón</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="corona" msd="NC" in="-5:conj" out="-1:coord|1:attrr#">corona</W>

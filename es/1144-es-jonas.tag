@@ -45,21 +45,21 @@
 <W lemma="hacer" msd="VLfin" in="" out="-2:neg|-1:dobj|1:pnct|3:conj|12:pnct">hizo</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="1:coord" out="">pero</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:conj" out="-1:coord|1:dobj|4:loc&3a;met">creó</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:conj" out="-1:coord|1:dobj|4:loc">creó</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr">sensación</W>
-<W lemma="acerca~de" msd="PREP" in="-4:loc&3a;met" out="1:nobj">acerca de</W>
+<W lemma="acerca~de" msd="PREP" in="-4:loc" out="1:nobj">acerca de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="posibilidad" msd="NC" in="-1:nobj" out="1:pobj">posibilidad</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:vobj">de</W>
 <W lemma="viajar" msd="VLinf" in="-1:vobj" out="">viajar</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
 <W lemma="haber" msd="VHfin" in="" out="1:vobj|7:pnct">Ha</W>
-<W lemma="dar" msd="VLadj" in="-1:vobj" out="1:dobj|3:pobj&3a;iobj">dado</W>
+<W lemma="dar" msd="VLadj" in="-1:vobj" out="1:dobj|3:iobj">dado</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="empujar" msd="VLfin" in="-1:nobj" out="">empuje</W>
-<W lemma="a" msd="PREP" in="-3:pobj&3a;iobj" out="1:nobj">a</W>
+<W lemma="a" msd="PREP" in="-3:iobj" out="1:nobj">a</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="sector" msd="NC" in="-1:nobj" out="">sector</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>

@@ -24,8 +24,8 @@
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj|4:[subj]" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|3:vobj|4:pnct|5:cond|25:pnct">wäre</W>
-<W lemma="eindeutig" msd="AN" tag="ADJD" in="1:prg&3a;att" out="">eindeutig</W>
-<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds" out="-1:prg&3a;att">sinnvoller</W>
+<W lemma="eindeutig" msd="AN" tag="ADJD" in="1:att" out="">eindeutig</W>
+<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds" out="-1:att">sinnvoller</W>
 <W lemma="sein" msd="VAP" tag="VAPP" in="-3:vobj" out="-4:[subj]|-1:preds">gewesen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-5:cond" out="3:vobj">wenn</W>
@@ -67,8 +67,8 @@
 <W lemma="Buch" msd="NC" tag="NN" in="23:dobj" out="1:pnct|4:conj|5:pnct|7:conj|8:pnct|9:conj|10:pnct|12:conj|17:conj">Bücher</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="2:coord" out="-3:correl">als</W>
-<W lemma="auch" msd="RG" tag="ADV" in="1:struct&3a;add" out="">auch</W>
-<W lemma="Zeitschrift" msd="NC" tag="NN" in="-4:conj" out="-1:struct&3a;add|-2:coord">Zeitschriften</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
+<W lemma="Zeitschrift" msd="NC" tag="NN" in="-4:conj" out="-2:coord|-1:add">Zeitschriften</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="klassisch" msd="AN" tag="ADJA" in="1:attr" out="">klassische</W>
 <W lemma="Musik" msd="NC" tag="NN" in="-7:conj" out="-1:attr">Musik</W>
@@ -93,7 +93,7 @@
 <W lemma="kein" msd="PP" tag="PIS" in="3:subj" out="1:pobj">keiner</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:nobj" out="">uns</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|-4:reas|5:preds|8:pnct|1:ext">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|-4:reas|1:ext|5:preds|8:pnct">ist</W>
 <W lemma="24" msd="AC" tag="CARD" in="-1:ext" out="1:nobj">24</W>
 <W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Stunden</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">am</W>

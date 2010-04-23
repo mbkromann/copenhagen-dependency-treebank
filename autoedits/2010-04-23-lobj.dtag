@@ -1,0 +1,106 @@
+# Autoreplace deprecated "lobj" relation with new relation, based on dependent word and language, using rules created by Lotte.
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "til" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ind" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "to" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ud" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "på" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "into" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "out" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "op" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hjem" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "tilbage" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "on" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "rundt" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "down" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "at" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "up" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "around" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ned" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "frem" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "fra" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "home" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "from" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ved" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "igennem" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "through" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "under" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "væk" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "there" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hen" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "here" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "forward" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Her" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "om" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "inde" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "mod" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hjemme" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "På" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "bag" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "langs" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hvor" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "gennem" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "forbi" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "foran" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "where" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "along" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "across" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hvor" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "her" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "der" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "towards" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hos" & $X lobj $Y -do(edel $X lobj $Y ; $X @loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hertil" & $X lobj $Y -do(edel $X lobj $Y ; $X @dir $Y)
+

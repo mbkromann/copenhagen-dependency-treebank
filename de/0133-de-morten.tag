@@ -24,7 +24,7 @@
 <W lemma="Ostsee" msd="NC" tag="NN" in="-1:nobj" out="">Ostsee</W>
 <W lemma="seit" msd="SP" tag="APPR" in="2:ext" out="1:nobj">seit</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1957</W>
-<W lemma="überwachen" msd="VA" tag="VVFIN" in="-11:relpa" out="-5:subj|-4:dobj|20:conj|-2:ext">überwacht</W>
+<W lemma="überwachen" msd="VA" tag="VVFIN" in="-11:relpa" out="-5:subj|-4:dobj|-2:ext|20:conj">überwacht</W>
 <W lemma="und" msd="CC" tag="KON" in="19:coord" out="">und</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="18:man" out="1:nobj">als</W>
 <W lemma="Einheit" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Einheit</W>
@@ -40,11 +40,11 @@
 <W lemma="ab" msd="RG" tag="ADV" in="7:ext" out="2:conj">ab</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="an" msd="SP" tag="APPR" in="-2:conj" out="-1:coord">an</W>
-<W lemma="auch" msd="RG" tag="ADV" in="4:struct&3a;add" out="">auch</W>
+<W lemma="auch" msd="RG" tag="ADV" in="4:add" out="">auch</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:dir" out="1:nobj">im</W>
 <W lemma="Atlantik" msd="NC" tag="NN" in="-1:nobj" out="">Atlantik</W>
 <W lemma="sein" msd="VAP" tag="VAPP" in="1:vobj" out="-24:[subj]|-2:dir">gewesen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-20:conj" out="-19:coord|-18:man|-1:vobj|-25:[subj]|-4:struct&3a;add|-7:ext">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-20:conj" out="-19:coord|-18:man|-1:vobj|-25:[subj]|-7:ext|-4:add">ist</W>
 <W lemma="." msd="XP" tag="$." in="-33:pnct" out="">.</W>
 </s>
 </p>
@@ -90,9 +90,9 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-9:coref-id|1:subj" out="">Holmen</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:eval|2:struct&3a;add|3:time|4:preds|6:pnct">steht</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:eval|3:time|4:preds|6:pnct|2:add">steht</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="-1:eval" out="">wohl</W>
-<W lemma="auch" msd="RG" tag="ADV" in="-2:struct&3a;add" out="">auch</W>
+<W lemma="auch" msd="RG" tag="ADV" in="-2:add" out="">auch</W>
 <W lemma="bald" msd="RG" tag="ADV" in="-3:time" out="">bald</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="-4:preds" out="1:nobj">zum</W>
 <W lemma="Verkauf" msd="NC" tag="NN" in="-1:nobj" out="">Verkauf</W>
@@ -187,8 +187,8 @@
 <p>
 <s>
 <W lemma="schließlich" msd="RG" tag="ADV" in="1:struct" out="">Schließlich</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:struct|1:struct&3a;add|2:subj|5:preds|7:pnct">steht</W>
-<W lemma="auch" msd="RG" tag="ADV" in="-1:struct&3a;add" out="">auch</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:struct|2:subj|5:preds|7:pnct|1:add">steht</W>
+<W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj|2:appr">das</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Inspektionsschiff</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appr" out="4:coref">Fylla</W>
@@ -196,8 +196,8 @@
 <W lemma="Verkauf" msd="NC" tag="NN" in="-1:nobj" out="">Verkauf</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="-4:coref|1:subj|11:[subj]|13:[subj]|25:[subj]" out="">Es</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|1:struct&3a;add|10:vobj|12:conj">wurde</W>
-<W lemma="auch" msd="RG" tag="ADV" in="-1:struct&3a;add" out="">auch</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|10:vobj|12:conj|1:add">wurde</W>
+<W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
 <W lemma="Anfang" msd="NC" tag="NN" in="8:time" out="1:pobj">Anfang</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">der</W>
 <W lemma="60er" msd="AN" tag="ADJA" in="-1:nobj" out="1:nobj">60er</W>

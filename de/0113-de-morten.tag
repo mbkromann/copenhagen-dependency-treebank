@@ -13,7 +13,7 @@
 <W lemma="wie" msd="CS" tag="KOKOM" in="-1:comp" out="1:nobj">wie</W>
 <W lemma="vor" msd="RG" tag="ADV" in="-1:nobj" out="">vor</W>
 <W lemma="wirklich" msd="AN" tag="ADJD" in="1:degr" out="">wirklich</W>
-<W lemma="aktiv" msd="AN" tag="ADJD" in="-10:conj" out="-9:coord|-1:degr|-8:man|1:pobj|63:coref-res|-4:ext">aktiv</W>
+<W lemma="aktiv" msd="AN" tag="ADJD" in="-10:conj" out="-9:coord|-1:degr|-8:man|-4:ext|1:pobj|63:coref-res">aktiv</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Jagd" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Jagd</W>
@@ -30,8 +30,8 @@
 </p>
 <p>
 <s>
-<W lemma="auch" msd="RG" tag="ADV" in="1:struct&3a;add" out="">Auch</W>
-<W lemma="als" msd="CS" tag="KOKOM" in="7:pobj" out="-1:struct&3a;add|1:nobj">als</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">Auch</W>
+<W lemma="als" msd="CS" tag="KOKOM" in="7:pobj" out="-1:add|1:nobj">als</W>
 <W lemma="Autor" msd="NC" tag="NN" in="-1:nobj" out="">Autor</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|5:preds|6:pnct">ist</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|-33:coref" out="24:coref-var">er</W>
@@ -58,9 +58,9 @@
 <W lemma="auflegen" msd="VAP" tag="VVPP" in="-12:vobj" out="-15:[subj]|-10:dobj">aufgelegt</W>
 <W lemma="," msd="XP" tag="$," in="-13:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-9:ref|8:dobj" out="">das</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-24:coref-var|7:subj" out="1:nobj|2:prg&3a;focal|17:coref-var">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-24:coref-var|7:subj" out="1:nobj|2:focal|17:coref-var">der</W>
 <W lemma="Verfasser" msd="NC" tag="NN" in="-1:nobj" out="">Verfasser</W>
-<W lemma="selbst" msd="RG" tag="ADV" in="-2:prg&3a;focal" out="">selbst</W>
+<W lemma="selbst" msd="RG" tag="ADV" in="-2:focal" out="">selbst</W>
 <W lemma="für" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">für</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:nobj" out="2:possd">sein</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="1:attr" out="">letztes</W>
@@ -77,8 +77,8 @@
 <W lemma="beschreiben" msd="VA" tag="VVFIN" in="" out="-3:loc|1:subj|2:dobj|6:pnct">beschreibt</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|-17:coref-var" out="23:coref-var">er</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-2:dobj|-63:coref-res" out="1:possd">seine</W>
-<W lemma="Arbeit" msd="NC" tag="NN" in="-1:possd" out="1:time&3a;prec">Arbeit</W>
-<W lemma="bis" msd="SP" tag="APPR" in="-1:time&3a;prec" out="1:nobj">bis</W>
+<W lemma="Arbeit" msd="NC" tag="NN" in="-1:possd" out="1:prec">Arbeit</W>
+<W lemma="bis" msd="SP" tag="APPR" in="-1:prec" out="1:nobj">bis</W>
 <W lemma="1989" msd="AC" tag="CARD" in="-1:nobj" out="">1989</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">Und</W>
@@ -199,10 +199,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Lagerwächter</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-27:coref|3:dobj" out="">sie</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="2:pobj" out="1:nobj">als</W>
-<W lemma="Entschuldigung" msd="NC" tag="NN" in="-1:nobj" out="3:cause&3a;goal">Entschuldigung</W>
+<W lemma="Entschuldigung" msd="NC" tag="NN" in="-1:nobj" out="3:goal">Entschuldigung</W>
 <W lemma="benutzen" msd="VA" tag="VVFIN" in="-6:vobj" out="-5:subj|-3:dobj|-2:pobj|1:pnct">benutzten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="um" msd="CS" tag="KOUI" in="-3:cause&3a;goal" out="1:neg|6:nobj">um</W>
+<W lemma="um" msd="CS" tag="KOUI" in="-3:goal" out="1:neg|6:nobj">um</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="an" msd="SP" tag="APPR" in="3:dir" out="1:nobj">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>

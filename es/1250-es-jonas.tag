@@ -17,8 +17,8 @@
 <W lemma="calidad" msd="NC" in="-1:nobj" out="">calidad</W>
 <W lemma="en" msd="PREP" in="-6:loc" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="empresa" msd="NC" in="-1:nobj" out="1:pobj&3a;goal">empresa</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;goal" out="1:nobj">de</W>
+<W lemma="empresa" msd="NC" in="-1:nobj" out="1:attr|1:{func}">empresa</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">de</W>
 <W lemma="circuito" msd="NC" in="-1:nobj" out="1:attr">circuitos</W>
 <W lemma="integrar" msd="VLadj" in="-1:attr" out="">integrados</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
@@ -46,8 +46,8 @@
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:dobj">Tomé</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;about">decisión</W>
-<W lemma="de" msd="CSUBI" in="-1:pobj&3a;about" out="1:vobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{about}">decisión</W>
+<W lemma="de" msd="CSUBI" in="-1:attr|-1:{about}" out="1:vobj">de</W>
 <W lemma="averiguar" msd="VLinf" in="-1:vobj" out="1:dobj">averiguar</W>
 <W lemma="si" msd="CSUBX" in="-1:dobj" out="1:vobj">si</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj" out="1:dobj|5:loc">había</W>
@@ -60,7 +60,7 @@
 <W lemma="industriar" msd="VLfin" in="-1:nobj" out="1:attrr#">industria</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="">musical.”</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">Débiles</W>
-<W lemma="hollar" msd="VLfin" in="" out="-1:attr|3:pnct|1:attr|1:{const}">huellas</W>
+<W lemma="hollar" msd="VLfin" in="" out="-1:attr|1:attr|1:{const}|3:pnct">huellas</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="dolor" msd="NC" in="-1:nobj" out="">dolor</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
@@ -127,8 +127,8 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="2:conj">cárceles</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="centro" msd="NC" in="-2:conj" out="-1:coord|1:pobj&3a;goal">centros</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;goal" out="1:nobj">de</W>
+<W lemma="centro" msd="NC" in="-2:conj" out="-1:coord|1:attr|1:{func}">centros</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">de</W>
 <W lemma="reunin" msd="NC" in="-1:nobj" out="">reuniones</W>
 <W lemma="," msd="CM" in="-22:pnct" out="">,</W>
 <W lemma="cuenta" msd="NC" in="" out="-25:dobj|1:subj|2:pnct">cuenta</W>

@@ -107,9 +107,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="possibilità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">possibilità</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:¹vobj">di</W>
-<W compound="¹aumentar²ne" lemma="aumentare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-26:²coref|2:²pobj&3a;dobj" out="1:¹dobj">aumentarne</W>
+<W compound="¹aumentar²ne" lemma="aumentare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-26:²coref|2:pobj.dobj|2:{patient}" out="1:¹dobj">aumentarne</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:¹dobj" out="1:nobj">la</W>
-<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="-2:²pobj&3a;dobj">produzione</W>
+<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="-2:pobj.dobj|-2:{patient}">produzione</W>
 <W lemma="." msd="XP" tag="SENT" in="-38:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj|6:[subj]" out="1:nobj">La</W>
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">situazione</W>

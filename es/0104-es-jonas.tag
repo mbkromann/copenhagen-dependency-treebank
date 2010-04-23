@@ -1,8 +1,8 @@
 <W lemma="el" msd="ART" in="12:subj" out="1:nobj">La</W>
 <W lemma="propuesta" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">propuesta</W>
 <W lemma="sobre" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">sobre</W>
-<W lemma="sesin" msd="NC" in="-1:nobj" out="1:pobj&3a;agent#|3:attr|4:pobj">sesiones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;agent#" out="1:nobj">de</W>
+<W lemma="sesin" msd="NC" in="-1:nobj" out="3:attr|4:pobj|1:attr|1:{agent}#">sesiones</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="colectivo" msd="ADJ" in="-3:attr" out="">colectivas</W>
 <W lemma="entre" msd="PREP" in="-4:pobj" out="1:nobj">entre</W>
@@ -20,8 +20,8 @@
 <W lemma="haber" msd="VHadj" in="-1:vobj" out="1:dobj">habido</W>
 <W lemma="un" msd="ART" in="-1:dobj|20:[subj]" out="2:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">histórica</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;agent#|3:attr|4:time">sesión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;agent#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr|3:attr|4:time|1:attr|1:{agent}#">sesión</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="colectivo" msd="ADJ" in="-3:attr" out="">colectiva</W>
 <W lemma="con" msd="PREP" in="-4:time" out="1:nobj">con</W>
@@ -131,8 +131,8 @@
 <W lemma="de" msd="PREP" in="-1:agent#" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="reunin" msd="NC" in="-4:conj" out="-1:coord|1:pobj&3a;subj#">reuniones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj#" out="1:nobj">de</W>
+<W lemma="reunin" msd="NC" in="-4:conj" out="-1:coord|1:pobj.subj|1:{agent}#">reuniones</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="directivo" msd="NC" in="-1:nobj" out="">directivos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|-12:man|1:vobj|5:pnct">podrían</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
@@ -201,8 +201,8 @@
 <W lemma="participar" msd="VLadj" in="-1:vobj" out="-15:time|1:pobj">participado</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;subj#">reunión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}#">reunión</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="ministro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">ministros</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="pescar" msd="VLfin" in="-1:nobj" out="1:pobj|1:{arg}">pesca</W>

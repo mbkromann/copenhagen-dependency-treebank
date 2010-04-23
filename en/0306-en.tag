@@ -3,8 +3,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|4:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|2:dobj">having</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;about#" out="">health</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:noun&3a;about#">problems</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{about}#" out="">health</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr|-1:{about}#">problems</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="" out="-7:cond|1:pobj">write</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
@@ -14,8 +14,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-4:origin" out="2:nobj">SUNDAY</W>
-<W msd="NP=S" tag="NNP" in="1:attr&3a;time#" out="">Weekly</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr&3a;time#">Magazine</W>
+<W msd="NP=S" tag="NNP" in="1:attr|1:{time}#" out="">Weekly</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{time}#">Magazine</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-8:other" out="1:other">Vesterbrogade</W>
 <W msd="AC" note="skal adskilles" tag="CD" in="-1:other" out="">16,</W>
@@ -25,8 +25,8 @@
 <W msd="ANP" tag="RB" in="1:other" out="">Only</W>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]" out="-1:other|1:nobj|4:poss&3a;origin">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:nobj">SUNDAY</W>
-<W msd="NP=S" tag="NNP" in="1:attr&3a;time#" out="">Weekly</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr&3a;time#">Magazine's</W>
+<W msd="NP=S" tag="NNP" in="1:attr|1:{time}#" out="">Weekly</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{time}#">Magazine's</W>
 <W msd="NC=P" tag="NNS" in="-4:poss&3a;origin" out="">doctors</W>
 <W msd="VA" tag="MD" in="" out="-5:subj|1:vobj|4:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj">open</W>
@@ -54,9 +54,9 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="1:noun&3a;dobj.patient#" out="">BIRTH</W>
-<W msd="NP=S" tag="NNP" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">CONTROL</W>
-<W msd="NP=S" tag="NNP" in="" out="-1:noun&3a;func#|1:dur|3:pnct">PILLS</W>
+<W msd="NP=S" tag="NNP" in="1:nobj.dobj|1:{patient}#" out="">BIRTH</W>
+<W msd="NP=S" tag="NNP" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">CONTROL</W>
+<W msd="NP=S" tag="NNP" in="" out="-1:attr|-1:{func}#|1:dur|3:pnct">PILLS</W>
 <W msd="NP=S" tag="NNP" in="-1:dur" out="1:nobj">DURING</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">MENOPAUSE</W>
 <W msd="XP" tag="." in="-3:pnct" out="">?</W>
@@ -68,9 +68,9 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">stop</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="3:dobj">taking</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient#" out="">birth</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">control</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:noun&3a;func#">pills</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
+<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#">pills</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-8:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
@@ -107,9 +107,9 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">hormones</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:dobj">replace</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient#" out="">birth</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">control</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:noun&3a;func#">pills</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
+<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#">pills</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
@@ -121,18 +121,18 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Bodil</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|4:pnct">is</W>
-<W msd="AC" tag="CD" in="2:noun&3a;quant" out="1:nobj">49</W>
+<W msd="AC" tag="CD" in="2:attr|2:{quant}" out="1:nobj">49</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-2:noun&3a;quant">old</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-2:attr|-2:{quant}">old</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">She</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|8:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|4:dur">taken</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient#" out="">birth</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">control</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:noun&3a;func#">pills</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
+<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#">pills</W>
 <W msd="SP" tag="IN" in="-4:dur" out="1:nobj">for</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
@@ -179,9 +179,9 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-3:reas|3:dobj|13:pnct">chose</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient" out="">birth</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient">control</W>
-<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:noun&3a;func#|1:pnct|2:ref|3:relpa">pills</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">birth</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}">control</W>
+<W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#|1:pnct|2:ref|3:relpa">pills</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADR" tag="VBP" in="-3:relpa" out="-1:subj|1:vobj">have</W>
@@ -189,8 +189,8 @@
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>
 <W msd="ANP" tag="RB" in="-2:man" out="1:accom">well</W>
 <W msd="SP" tag="IN" in="-1:accom" out="2:nobj">without</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;eval" out="">side</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:noun&3a;eval">effects</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{eval}" out="">side</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{eval}">effects</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -206,13 +206,13 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">different</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">form</W>
-<W msd="SP" tag="IN" in="1:pobj&3a;func" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="-1:pobj&3a;func|1:contr">prevention</W>
+<W msd="SP" tag="IN" in="1:attr|1:{func}" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="-1:attr|-1:{func}|1:contr">prevention</W>
 <W msd="ANP" tag="RB" in="-1:contr" out="1:pobj">instead</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">of</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;dobj.patient#" out="">birth</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;func#" out="-1:noun&3a;dobj.patient#">control</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:noun&3a;func#">pills</W>
+<W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{func}#">pills</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>

@@ -143,8 +143,8 @@
 <W lemma="nonno" msd="NC" tag="NOM" in="-1:nobj" out="">nonni</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-12:conj" out="-1:coord|1:nobj">i</W>
-<W lemma="compagno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;pobj#">compagni</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;pobj#" out="1:nobj">di</W>
+<W lemma="compagno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.pobj|1:{location}#">compagni</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">di</W>
 <W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="">scuola</W>
 <W lemma="?" msd="XP" tag="SENT" in="-31:pnct" out="">?</W>
 </s>
@@ -165,7 +165,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">La</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostra</W>
 <W lemma="società" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">società</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:pnct|-3:subj|8:pnct|46:qobj|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:pnct|-3:subj|2:preds|8:pnct|46:qobj">è</W>
 <W lemma="troppo" msd="RG" tag="ADV" in="1:degr" out="">troppo</W>
 <W lemma="tenero" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:man">tenera</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>

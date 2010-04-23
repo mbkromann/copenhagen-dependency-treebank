@@ -142,14 +142,14 @@
 <W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-132:coref-id|2:subj|13:[subj]" out="1:nobj">der</W>
 <W lemma="Europaausschuß" msd="NC" tag="NN" in="-1:nobj" out="">Europaausschuss</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|7:time&3a;prec|11:vobj|12:pnct">hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|7:prec|11:vobj|12:pnct">hat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="10:dobj" out="4:nobj">die</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="1:nobj" out="">sich</W>
 <W lemma="daraus" msd="RG" tag="PAV" in="1:pobj" out="-1:nobj">daraus</W>
 <W lemma="ergebend" msd="AN" tag="ADJA" in="1:attr" out="-1:pobj">ergebenden</W>
 <W lemma="Konsequenz" msd="NC" tag="NN" in="-4:nobj" out="-1:attr">Konsequenzen</W>
-<W lemma="erst" msd="AN" tag="ADJD" in="1:prg&3a;att" out="">erst</W>
-<W lemma="in" msd="SP" tag="APPR" in="-7:time&3a;prec" out="-1:prg&3a;att|1:nobj">in</W>
+<W lemma="erst" msd="AN" tag="ADJD" in="1:att" out="">erst</W>
+<W lemma="in" msd="SP" tag="APPR" in="-7:prec" out="1:nobj|-1:att">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj">der</W>
 <W lemma="letzt" msd="AN" tag="ADJA" in="1:attr" out="">letzten</W>
 <W lemma="Woche" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Woche</W>
@@ -199,7 +199,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-16:subj|14:vobj|15:pnct">hat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-32:coref-id|13:dobj" out="1:nobj">das</W>
 <W lemma="Buch" msd="NC" tag="NN" in="-1:nobj" out="">Buch</W>
-<W lemma="zusammen" msd="RG" tag="ADV" in="11:man&3a;comp" out="1:nobj">zusammen</W>
+<W lemma="zusammen" msd="RG" tag="ADV" in="11:comp" out="1:nobj">zusammen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:nobj" out="3:nobj">mit</W>
 <W lemma="Jens" msd="NP" tag="NE" in="2:namef" out="1:namef">Jens</W>
 <W lemma="Peter" msd="NP" tag="NE" in="-1:namef" out="">Peter</W>
@@ -210,7 +210,7 @@
 <W lemma="Mod" msd="NP" tag="NE" in="-1:pobj" out="1:nobj">mod</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">EF</W>
 <W lemma="'" msd="XP" tag="$(" in="-3:pnct" out="">'</W>
-<W lemma="schreiben" msd="VAP" tag="VVPP" in="-14:vobj" out="-13:dobj|-11:man&3a;comp|-30:[subj]">geschrieben</W>
+<W lemma="schreiben" msd="VAP" tag="VVPP" in="-14:vobj" out="-13:dobj|-30:[subj]|-11:comp">geschrieben</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 </s>
 </p>

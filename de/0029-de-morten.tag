@@ -72,13 +72,13 @@
 <W lemma="Kündigungsliste" msd="NC" tag="NN" in="-2:nobj" out="">Kündigungsliste</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-4:ref|4:[subj]|5:subj" out="">die</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="3:time&3a;cont" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="3:cont" out="1:nobj">im</W>
 <W lemma="Moment" msd="NC" tag="NN" in="-1:nobj" out="">Moment</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="1:part" out="">zurück</W>
-<W lemma="ziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-3:time&3a;cont|-1:part|-4:[subj]">gezogen</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-9:relr" out="-1:vobj|-5:subj|1:pnct|2:time&3a;cont">wurde</W>
+<W lemma="ziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:part|-4:[subj]|-3:cont">gezogen</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-9:relr" out="-1:vobj|-5:subj|1:pnct|2:cont">wurde</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="während" msd="CS" tag="KOUS" in="-2:time&3a;cont" out="8:vobj">während</W>
+<W lemma="während" msd="CS" tag="KOUS" in="-2:cont" out="8:vobj">während</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:subj" out="1:nobj|3:conj|34:coref-id">die</W>
 <W lemma="Leitung" msd="NC" tag="NN" in="-1:nobj" out="">Leitung</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -92,7 +92,7 @@
 </p>
 <p>
 <s>
-<W lemma="als" msd="CS" tag="KOKOM" in="15:time&3a;cont" out="13:vobj">Als</W>
+<W lemma="als" msd="CS" tag="KOKOM" in="15:cont" out="13:vobj">Als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="12:subj" out="1:nobj">die</W>
 <W lemma="Name" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Namen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">der</W>
@@ -107,7 +107,7 @@
 <W lemma="Ohr" msd="NC" tag="NN" in="-1:nobj" out="">Ohren</W>
 <W lemma="kommen" msd="VA" tag="VVFIN" in="-13:vobj" out="-12:subj|-7:time|-4:iobj|-2:nobj|1:pnct">kamen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="-15:time&3a;cont|1:subj|3:time|4:pnct|28:pnct">bestand</W>
+<W lemma="bestehen" msd="VA" tag="VVFIN" in="" out="-15:cont|1:subj|3:time|4:pnct|28:pnct">bestand</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="-1:subj" out="1:nobj">kein</W>
 <W lemma="Zweifel" msd="NC" tag="NN" in="-1:nobj" out="">Zweifel</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="-3:time" out="2:dobj">mehr</W>
@@ -123,13 +123,13 @@
 <W lemma="gegenüber" msd="RG" tag="PTKVZ" in="13:pobj" out="-2:nobj">gegenüber</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-4:ref|7:[subj]|8:subj" out="">die</W>
-<W lemma="in" msd="SP" tag="APPR" in="6:time&3a;prec" out="2:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="6:prec" out="2:nobj">in</W>
 <W lemma="jung" msd="AN" tag="ADJA" in="1:attr" out="">jüngster</W>
 <W lemma="Vergangenheit" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Vergangenheit</W>
 <W lemma="zu" msd="SP" tag="APPR" in="2:degr" out="1:nobj">zu</W>
 <W lemma="viel" msd="PI" tag="PIAT" in="-1:nobj" out="">viel</W>
 <W lemma="Problem" msd="NC" tag="NN" in="1:dobj" out="-2:degr">Probleme</W>
-<W lemma="bereiten" msd="VAP" tag="VVPP" in="1:vobj" out="-6:time&3a;prec|-1:dobj|-7:[subj]">bereitet</W>
+<W lemma="bereiten" msd="VAP" tag="VVPP" in="1:vobj" out="-1:dobj|-7:[subj]|-6:prec">bereitet</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-12:relr" out="-1:vobj|-8:subj|1:pnct">haben</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">einen</W>
@@ -153,7 +153,7 @@
 <W lemma="Fall" msd="NC" tag="NN" in="-1:nobj" out="">Fall</W>
 <W lemma="rausfliegen" msd="VAF" tag="VVINF" in="-5:vobj" out="-4:subj|-3:eval|2:conj">rausfliegen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="halten" msd="VA" tag="VVFIN" in="-2:conj" out="-1:coord|1:dobj|2:reas|5:part|6:pnct|4:ext">halten</W>
+<W lemma="halten" msd="VA" tag="VVFIN" in="-2:conj" out="-1:coord|1:dobj|2:reas|4:ext|5:part|6:pnct">halten</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
 <W lemma="daher" msd="RG" tag="PAV" in="-2:reas" out="">daher</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>

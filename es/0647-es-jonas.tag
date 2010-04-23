@@ -30,7 +30,7 @@
 <W lemma="dicho" msd="QU" in="2:subj" out="1:nobj">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="6:conj?|1:pobj.dobj|1:{patient}#">crÃ­ticos</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj.dobj|1:{patient}#|6:conj?">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
@@ -100,8 +100,8 @@
 <W lemma="amable" msd="ADJ" in="1:attr" out="">amables</W>
 <W lemma="cine" msd="NC" in="-2:nobj" out="-1:attr|2:conj">cines</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="-1:coord|1:attrr&3a;subj">compaÃ±Ã­as</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr&3a;subj" out="">cinematogrÃ¡ficas</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="-1:coord|1:aobj.subj|1:{agent}">compaÃ±Ã­as</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:aobj.subj|-1:{agent}" out="">cinematogrÃ¡ficas</W>
 <W lemma="cuidar" msd="VLfin" in="" out="-6:subj|1:dobj|11:pnct|13:time|18:pnct|25:conj|32:pnct">cuidan</W>
 <W lemma="de" msd="CSUBI" in="-1:dobj" out="1:vobj">de</W>
 <W lemma="presentar" msd="VLinf" in="-1:vobj" out="1:dobj|4:loc">presentar</W>
@@ -109,8 +109,8 @@
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr">pelÃ­culas</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="">en</W>
-<W lemma="proyección" msd="NC" in="" out="1:pobj&3a;agent#">proyecciones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;agent#" out="1:nobj">de</W>
+<W lemma="proyección" msd="NC" in="" out="1:attr|1:{agent}#">proyecciones</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="prensa" msd="NC" in="-1:nobj" out="1:attr">prensa</W>
 <W lemma="especial" msd="ADJ" in="-1:attr" out="">especiales</W>
 <W lemma="," msd="CM" in="-11:pnct" out="">,</W>

@@ -1,0 +1,3 @@
+# Autoreplace all coordinations of the form "C1 (CC (C2))" with "C1 ((CC) C2)"
+find -corpus -yes $CC coord $C1 & $C2 conj $CC -do(edel $CC coord $C1 ; edel $C2 conj $CC ; $CC coord $C2 ; $C2 conj $C1) 
+

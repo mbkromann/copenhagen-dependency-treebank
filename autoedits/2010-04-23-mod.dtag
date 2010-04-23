@@ -1,0 +1,467 @@
+# Autoreplace all "mod" relations with another relation, based on the rules specified by Lotte.
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ikke" & $X mod $Y -do(edel $X mod $Y ; $X neg $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "not" & $X mod $Y -do(edel $X mod $Y ; $X neg $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "også" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "also" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "when" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "nu" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "når" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "because" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "meget" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "helt" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "even" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "selv" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "now" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "only" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "if" & $X mod $Y -do(edel $X mod $Y ; $X cond $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "before" & $X mod $Y -do(edel $X mod $Y ; $X prec $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "very" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "more" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "kun" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "too" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "If" & $X mod $Y -do(edel $X mod $Y ; $X cond $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Danish" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "derfor" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "fordi" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "again" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "igen" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "most" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "mere" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "never" & $X mod $Y -do(edel $X mod $Y ; $X neg $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Now" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "without" & $X mod $Y -do(edel $X mod $Y ; $X accom $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_dag" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "først" & $X mod $Y -do(edel $X mod $Y ; $X prec $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "always" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "mest" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "både" & $X mod $Y -do(edel $X mod $Y ; $X correl $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "aldrig" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "yesterday" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hvis" & $X mod $Y -do(edel $X mod $Y ; $X cond $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "f.eks." & $X mod $Y -do(edel $X mod $Y ; $X exem $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "completely" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "together" & $X mod $Y -do(edel $X mod $Y ; $X accom $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "during" & $X mod $Y -do(edel $X mod $Y ; $X dur $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "while" & $X mod $Y -do(edel $X mod $Y ; $X cont $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "almost" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "later" & $X mod $Y -do(edel $X mod $Y ; $X succ $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Nu" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "today" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_går" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "altid" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "well" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "bl.a." & $X mod $Y -do(edel $X mod $Y ; $X exem $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "however" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "næsten" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hvis" & $X mod $Y -do(edel $X mod $Y ; $X cond $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "heller" & $X mod $Y -do(edel $X mod $Y ; $X correl $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Therefore" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "måske" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "therefore" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "often" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "selv_om" & $X mod $Y -do(edel $X mod $Y ; $X conc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "samtidig" & $X mod $Y -do(edel $X mod $Y ; $X cont $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "approximately" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ca." & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Også" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "senere" & $X mod $Y -do(edel $X mod $Y ; $X succ $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hurtigt" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "alene" & $X mod $Y -do(edel $X mod $Y ; $X accom $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "However" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ofte" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "mindst" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Derfor" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "blandt_andet" & $X mod $Y -do(edel $X mod $Y ; $X exem $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "snart" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "på_grund_af" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "yet" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "quickly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "immediately" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "himself" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "slet" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Samtidig" & $X mod $Y -do(edel $X mod $Y ; $X cont $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ligesom" & $X mod $Y -do(edel $X mod $Y ; $X comp $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "imidlertid" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "suddenly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "apparently" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "derimod" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "soon" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "såvel" & $X mod $Y -do(edel $X mod $Y ; $X correl $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Ikke" & $X mod $Y -do(edel $X mod $Y ; $X neg $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_hvert_fald" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "thereby" & $X mod $Y -do(edel $X mod $Y ; $X inst $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "themselves" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "outside" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "behind" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "samlede" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ifølge" & $X mod $Y -do(edel $X mod $Y ; $X source $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hverken" & $X mod $Y -do(edel $X mod $Y ; $X correl $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "recently" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "nevertheless" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "itself" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "hardly" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "entirely" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "English" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "formentlig" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "cirka" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "presumably" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "especially" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "tilsyneladende" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "store" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "små" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "I_dag" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Not" & $X mod $Y -do(edel $X mod $Y ; $X neg $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Nevertheless" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "How" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "easily" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "certainly" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "på_ny" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_øvrigt" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "foran" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Yesterday" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "totally" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "slightly" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "perhaps" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "NOT" & $X mod $Y -do(edel $X mod $Y ; $X degr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "myself" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "sikkert" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "reduceret" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "pludselig" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Ifølge" & $X mod $Y -do(edel $X mod $Y ; $X source $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "last" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "large" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "directly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "clearly" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "alone" & $X mod $Y -do(edel $X mod $Y ; $X accom $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "manglende" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "juridisk" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hvorfor" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hvor" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Desuden" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "desuden" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "so-called" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "naturally" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Maybe" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Instead" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "gradually" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "best" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Selv" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "politiske" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "omhyggeligt" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ligeledes" & $X mod $Y -do(edel $X mod $Y ; $X add $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "I_hvert_fald" & $X mod $Y -do(edel $X mod $Y ; $X eval $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_år" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "efterhånden" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Desværre" & $X mod $Y -do(edel $X mod $Y ; $X att $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "politically" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "new" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "continuing" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Big" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "big" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "vist" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "tirsdag" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "selvfølgelig" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "omend" & $X mod $Y -do(edel $X mod $Y ; $X conc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "for_nylig" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "direkte" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Derimod" & $X mod $Y -do(edel $X mod $Y ; $X contr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Danish" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Why" & $X mod $Y -do(edel $X mod $Y ; $X reas $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Unfortunately" & $X mod $Y -do(edel $X mod $Y ; $X att $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "tonight" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "tomorrow" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "thoroughly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Suddenly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "small" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "slowly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "respectively" & $X mod $Y -do(edel $X mod $Y ; $X struct $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "rarely" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "properly" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "political" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "maybe" & $X mod $Y -do(edel $X mod $Y ; $X epi $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "legally" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "injured" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "herself" & $X mod $Y -do(edel $X mod $Y ; $X focal $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Great" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "good" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "German" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "free" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "fine" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "deep" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "Danske" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "continued" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "annually" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "American" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "afterwards" & $X mod $Y -do(edel $X mod $Y ; $X succ $Y)
+corpus /opt/cdt/en/*.tag
+find -corpus -yes $X eq "above" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "undertiden" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "tynde" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "søndag" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "snarest" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "sjældent" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Saison" & $X mod $Y -do(edel $X mod $Y ; $X nobj $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "politisk" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "overalt" & $X mod $Y -do(edel $X mod $Y ; $X loc $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "økonomisk" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "nøje" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Med_hensyn_til" & $X mod $Y -do(edel $X mod $Y ; $X bg $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "mandag" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ledende" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "langsomt" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "klokken" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "kl." & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "interessante" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_morgen" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "I_går" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "i_aftes" & $X mod $Y -do(edel $X mod $Y ; $X time $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Hvordan" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hvileløst" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hermetisk" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "hakket" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Groft" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "første" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "følgende" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "flakkende" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "enlige" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "ejermæssigt" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "dømte" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "detroniserede" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "derefter" & $X mod $Y -do(edel $X mod $Y ; $X succ $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "bugnende" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "Blandt_andet" & $X mod $Y -do(edel $X mod $Y ; $X exem $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "bevidst" & $X mod $Y -do(edel $X mod $Y ; $X man $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "betydelig" & $X mod $Y -do(edel $X mod $Y ; $X attr $Y)
+corpus /opt/cdt/da/*.tag
+find -corpus -yes $X eq "årligt" & $X mod $Y -do(edel $X mod $Y ; $X ext $Y)

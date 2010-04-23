@@ -34,9 +34,9 @@
 <W lemma="deshalb" msd="RG" tag="PAV" in="-6:reas" out="1:vobj">deshalb</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-1:vobj" out="1:subj|4:succ|21:pnct|22:vobj">wird</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj|21:[subj]" out="">es</W>
-<W lemma="also" msd="RG" tag="ADV" in="1:prg&3a;att" out="">also</W>
-<W lemma="auch" msd="RG" tag="ADV" in="1:struct&3a;add" out="-1:prg&3a;att">auch</W>
-<W lemma="in" msd="SP" tag="APPR" in="-4:succ" out="-1:struct&3a;add|1:attr|2:nobj">in</W>
+<W lemma="also" msd="RG" tag="ADV" in="1:att" out="">also</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="-1:att">auch</W>
+<W lemma="in" msd="SP" tag="APPR" in="-4:succ" out="-1:add|1:attr|2:nobj">in</W>
 <W lemma="nah" msd="AN" tag="ADJA" in="-1:attr" out="">naher</W>
 <W lemma="Zukunft" msd="NC" tag="NN" in="-2:nobj" out="">Zukunft</W>
 <W lemma="ausschließlichßlich" msd="AN" tag="ADJD" in="15:degr" out="">ausschließlich</W>
@@ -64,12 +64,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="2:title" out="-37:assoc-agent|25:coref-part">ATP-Direktor</W>
 <W lemma="Palle" msd="NP" tag="NE" in="1:namef" out="">Palle</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-2:title|-1:namef|14:coref|45:coref-id">Simonsen</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="-63:+DESCR&3a;eval" out="-1:subj|1:dobj|4:pnct|5:time&3a;cont|14:CAUSE&3a;expl/(nämlich)">macht</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="-63:+DESCR&3a;eval" out="-1:subj|1:dobj|4:pnct|5:cont|14:CAUSE&3a;expl/(nämlich)">macht</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="-1:dobj" out="1:attr|2:nobj">keine</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">großen</W>
 <W lemma="Wort" msd="NC" tag="NN" in="-2:nobj" out="9:pnct">Worte</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="wenn" msd="CS" tag="KOUS" in="-5:time&3a;cont" out="6:vobj">wenn</W>
+<W lemma="wenn" msd="CS" tag="KOUS" in="-5:cont" out="6:vobj">wenn</W>
 <W lemma="er" msd="PP" tag="PPER" in="4:[subj]|5:subj" out="">er</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-30:coref-prg|3:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="zukünftig" msd="AN" tag="ADJA" in="-1:attr" out="">zukünftige</W>
@@ -129,7 +129,7 @@
 <W lemma="%" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">%</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">des</W>
 <W lemma="Vermögen" msd="NC" tag="NN" in="-1:nobj" out="">Vermögens</W>
-<W lemma="zu" msd="U=" tag="PTKZU" in="-14:nobj" out="1:vobj|-12:ext">zu</W>
+<W lemma="zu" msd="U=" tag="PTKZU" in="-14:nobj" out="-12:ext|1:vobj">zu</W>
 <W lemma="kaufen" msd="VAF" tag="VVINF" in="-1:vobj" out="-11:dobj|-8:pobj">kaufen</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
 </s>

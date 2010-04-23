@@ -1,6 +1,6 @@
 <W lemma="el" msd="ART" in="4:subj" out="1:nobj">El</W>
-<W lemma="grupo" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#">grupo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="grupo" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#">grupo</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
 <W lemma="tener~que" msd="VMfin" in="" out="-4:subj|1:vobj|6:dobj|11:coord|12:dobj|16:time|20:pnct|31:pnct">tiene que</W>
 <W lemma="tener" msd="VLinf" in="-1:vobj" out="1:prg">tener</W>
@@ -10,8 +10,8 @@
 <W lemma="partida" msd="NC" in="-1:nobj" out="">partida</W>
 <W lemma="el" msd="ART" in="-6:dobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">depósitos</W>
-<W lemma="existente" msd="ADJ" in="-1:attr" out="1:pobj&3a;pobj#">existentes</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="existente" msd="ADJ" in="-1:attr" out="1:pobj.pobj|1:{location}#">existentes</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="medicamento" msd="NC" in="-1:nobj" out="">medicamentos</W>
 <W lemma="y" msd="CC" in="-11:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-12:dobj" out="1:nobj">las</W>
@@ -19,8 +19,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="suministro" msd="NC" in="-1:nobj" out="">suministro</W>
 <W lemma="en" msd="PREP" in="-16:time" out="1:nobj">en</W>
-<W lemma="tiempo" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#">tiempos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="tiempo" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#">tiempos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="paz" msd="NC" in="-1:nobj" out="">paz</W>
 <W lemma="," msd="CM" in="-20:pnct" out="">,</W>
 <W lemma="incluir" msd="VLadj" in="" out="">incluido</W>
@@ -205,8 +205,8 @@
 <W lemma="del" msd="PDEL" in="-1:tobj" out="1:nobj">del</W>
 <W lemma="1" msd="CARD" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">1</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
-<W lemma="junio" msd="NMON" in="-1:nobj" out="1:pobj&3a;pobj#">junio</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="junio" msd="NMON" in="-1:nobj" out="1:pobj.pobj|1:{location}#">junio</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1984</W>
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
 <W lemma="luego" msd="ADV" in="20:time" out="">Luego</W>

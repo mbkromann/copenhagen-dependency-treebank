@@ -27,8 +27,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-1:nobj" out="">Socialdemokratiet</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">das</W>
-<W lemma="entsprechen" msd="VA" tag="VVFIN" in="-9:conj" out="-1:subj|-13:xtop|1:prg&3a;epi|3:dobj|11:pnct">entspricht</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:prg&3a;epi" out="1:nobj">in</W>
+<W lemma="entsprechen" msd="VA" tag="VVFIN" in="-9:conj" out="-1:subj|-13:xtop|3:dobj|11:pnct|1:epi">entspricht</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:epi" out="1:nobj">in</W>
 <W lemma="etwa" msd="RG" tag="ADV" in="-1:nobj" out="">Etwa</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:dobj" out="1:nobj">dem</W>
 <W lemma="Unterschied" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Unterschied</W>
@@ -56,21 +56,21 @@
 </p>
 <p>
 <s>
-<W lemma="bislang" msd="RG" tag="ADV" in="1:time&3a;prec" out="">Bislang</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:time&3a;prec|1:subj|3:vobj|5:conj|6:coref">haben</W>
+<W lemma="bislang" msd="RG" tag="ADV" in="1:prec" out="">Bislang</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:prec|1:subj|3:vobj|5:conj|6:coref">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|2:[subj]|4:[subj]|8:[subj]|56:coref" out="10:coref">wir</W>
 <W lemma="Schlüter" msd="NP" tag="NE" in="1:dobj" out="">Schlüter</W>
 <W lemma="unterstützen" msd="VAP" tag="VVPP" in="-3:vobj" out="-1:dobj|-2:[subj]">unterstützt</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-5:conj" out="-1:coord|-4:[subj]|4:vobj|5:pnct|3:ext">werden</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-5:conj" out="-1:coord|-4:[subj]|3:ext|4:vobj|5:pnct">werden</W>
 <W lemma="d" msd="PP" tag="PDS" in="-6:coref|3:dobj" out="">das</W>
-<W lemma="auch" msd="RG" tag="ADV" in="1:struct&3a;add" out="">auch</W>
-<W lemma="weiterhin" msd="RG" tag="ADV" in="-3:ext" out="-1:struct&3a;add">weiterhin</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
+<W lemma="weiterhin" msd="RG" tag="ADV" in="-3:ext" out="-1:add">weiterhin</W>
 <W lemma="tun" msd="VAF" tag="VVINF" in="-4:vobj" out="-3:dobj|-8:[subj]">tun</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-10:coref|1:subj" out="26:coref">Wir</W>
-<W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|1:prg&3a;att|2:dobj|4:pnct|5:pobj|14:conj">möchten</W>
-<W lemma="lieb" msd="AN" tag="ADJD" in="-1:prg&3a;att" out="">lieber</W>
+<W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|1:att|2:dobj|4:pnct|5:pobj|14:conj">möchten</W>
+<W lemma="lieb" msd="AN" tag="ADJD" in="-1:att" out="">lieber</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:dobj" out="1:nobj">eine</W>
 <W lemma="bürgerlich" msd="AN" tag="ADJA" in="-1:nobj" out="">bürgerliche</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
@@ -150,9 +150,9 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-34:coref|1:subj" out="11:coref">Wir</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:pnct|-1:subj|2:prg&3a;epi|7:vobj|8:pnct|20:pnct">werden</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:pnct|-1:subj|7:vobj|8:pnct|20:pnct|2:epi">werden</W>
 <W lemma="wir" msd="PP" tag="PPER" in="6:dobj" out="">uns</W>
-<W lemma="vermutlich" msd="AN" tag="ADJD" in="-2:prg&3a;epi" out="">vermutlich</W>
+<W lemma="vermutlich" msd="AN" tag="ADJD" in="-2:epi" out="">vermutlich</W>
 <W lemma="an" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">an</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr">einen</W>
 <W lemma="früh" msd="AN" tag="ADJA" in="-1:attr" out="1:nobj">früheren</W>

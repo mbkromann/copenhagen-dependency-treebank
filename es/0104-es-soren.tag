@@ -131,8 +131,8 @@
 <W lemma="de" msd="PREP" in="-1:agens#" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="reunin" msd="NC" in="-4:conj" out="-1:coord|1:pobj&3a;subj#">reuniones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj#" out="1:nobj">de</W>
+<W lemma="reunin" msd="NC" in="-4:conj" out="-1:coord|1:pobj.subj|1:{agent}#">reuniones</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="directivo" msd="NC" in="-1:nobj" out="">directivos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|-12:man|1:vobj|5:pnct">podrían</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
@@ -201,8 +201,8 @@
 <W lemma="participar" msd="VLadj" in="-1:vobj" out="-3:time|-15:time|1:pobj">participado</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;subj#">reunión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}#">reunión</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="ministro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|3:const">ministros</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="pescar" msd="VLfin" in="-1:nobj" out="">pesca</W>

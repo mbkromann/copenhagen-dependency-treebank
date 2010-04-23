@@ -11,11 +11,11 @@
 <W _compound="1" compound="¹saper²lo" lemma="sapere" morph="sapere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|-2:[subj]¹|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="" out="-13:subj|-4:other|-7:coref-res|1:time&3a;dur|3:vobj|4:struct&3a;bg|16:coref-res|18:conj">hanno</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:time&3a;dur" out="1:nobj">per</W>
+<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="" out="-13:subj|-4:other|-7:coref-res|3:vobj|4:bg|16:coref-res|18:conj|1:dur">hanno</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:dur" out="1:nobj">per</W>
 <W lemma="anno" morph="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="collaborare" morph="lavorare -co/MOD&3a;rel" msd="VAP" tag="VER&3a;pper" in="-3:vobj" out="-16:[subj]">collaborato</W>
-<W lemma="per" msd="SP" tag="PRE" in="-4:struct&3a;bg" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-4:bg" out="1:nobj">per</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj|1:[subj]" out="1:relr">quanto</W>
 <W lemma="riguardare" morph="guardare -ri/ASPEC&3a;other" msd="VADR" tag="VER&3a;pres" in="-1:relr" out="-1:[subj]|1:dobj">riguarda</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
@@ -45,8 +45,8 @@
 <W lemma="essere&7c;stare" morph="stato" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="">stato</W>
 <W lemma="dovere" morph="dovere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="1:vobj|2:preds">debba</W>
 <W lemma="ritenere" morph="tenere -ri/OTHER" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]">ritenersi</W>
-<W lemma="responsabile" morph="rispondere +sabile/PRED&3a;agent" msd="AN" tag="ADJ" in="-2:preds" out="1:struct&3a;bg">responsabile</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:struct&3a;bg" out="1:nobj">nel</W>
+<W lemma="responsabile" morph="rispondere +sabile/PRED&3a;agent" msd="AN" tag="ADJ" in="-2:preds" out="1:bg">responsabile</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:bg" out="1:nobj">nel</W>
 <W lemma="trattare" morph="trattare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">trattare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|3:attr">una</W>
 <W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">domanda</W>
@@ -75,13 +75,13 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="rifugiato" morph="rifuggire +ato/PRED&3a;agent" msd="NC" tag="NOM" in="2:subj" out="1:attr">rifugiati</W>
 <W lemma="politico" morph="politico /DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-1:attr" out="">politici</W>
-<W lemma="inoltrare" morph="oltrare -in/ASPEC&3a;iter" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:subj|1:dobj|3:dir|6:time&3a;cont">inoltrino</W>
+<W lemma="inoltrare" morph="oltrare -in/ASPEC&3a;iter" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:subj|1:dobj|3:dir|6:cont">inoltrino</W>
 <W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj.dobj|1:{patient}|10:coref-var">domande</W>
 <W lemma="&lt;unknown&gt;" morph="asilo" msd="AN" tag="ADJ" in="-1:pobj.dobj|-1:{patient}" out="">d’asilo</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:dir" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" morph="più" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|14:coref-id">più</W>
 <W lemma="paese" morph="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paesi</W>
-<W lemma="contemporaneamente" msd="RG" tag="ADV" in="-6:time&3a;cont" out="">contemporaneamente</W>
+<W lemma="contemporaneamente" msd="RG" tag="ADV" in="-6:cont" out="">contemporaneamente</W>
 <W lemma="," msd="XP" tag="PON" in="-17:pnct" out="">,</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-12:time" out="1:nobj">dal</W>
 <W lemma="momento" morph="momento" msd="NC" tag="NOM" in="-1:nobj" out="1:dobj">momento</W>
@@ -102,8 +102,8 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="5:[subj]|21:subj|29:[subj]|31:[subj]|35:[subj]" out="1:nobj|2:ref|3:relr|7:coref">un</W>
 <W lemma="rifugiato" morph="rifuggire +ato/PRED&3a;agent" msd="NC" tag="NOM" in="-1:nobj" out="">rifugiato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|1:subj" out="">che</W>
-<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;cpre" in="-3:relr" out="-1:subj|1:time&3a;prec|2:vobj|16:pnct">abbia</W>
-<W lemma="&lt;unknown&gt;" morph="già" msd="NC" tag="NOM" in="-1:time&3a;prec" out="">già</W>
+<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;cpre" in="-3:relr" out="-1:subj|1:prec|2:vobj|16:pnct">abbia</W>
+<W lemma="&lt;unknown&gt;" morph="già" msd="NC" tag="NOM" in="-1:prec" out="">già</W>
 <W lemma="inoltrare" morph="oltrare -in/ASPEC&3a;iter" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-5:[subj]|1:dobj|9:dir">inoltrato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj">la</W>
 <W lemma="proprio" morph="proprio" msd="AN" tag="ADJ" in="-7:coref|1:possr" out="31:coref">propria</W>
@@ -123,8 +123,8 @@
 <W lemma="&lt;unknown&gt;" morph="potere" msd="NC" tag="NOM" in="-22:vobj" out="-1:neg|-21:subj|2:comp|8:vobj|22:pnct|23:coref-res">può</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="come" msd="CS" tag="CON" in="-2:comp|2:[man]" out="-1:pnct|2:vobj|5:pnct">come</W>
-<W lemma="invece" msd="RG" tag="ADV" in="1:struct&3a;contr" out="">invece</W>
-<W lemma="sostenere" morph="sostenere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-2:[man]|-1:struct&3a;contr|2:subj">sostiene</W>
+<W lemma="invece" msd="RG" tag="ADV" in="1:contr" out="">invece</W>
+<W lemma="sostenere" morph="sostenere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-2:[man]|-1:contr|2:subj">sostiene</W>
 <W lemma="pio" morph="Pia" msd="AN" tag="ADJ" in="1:namef" out="">Pia</W>
 <W lemma="&lt;unknown&gt;" morph="Kjærsgaard" msd="NC" tag="NOM" in="-2:subj" out="-1:namef">Kjærsgaard</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
@@ -157,8 +157,8 @@
 <W lemma="&lt;unknown&gt;" morph="interno" msd="NC" tag="NOM" in="-6:loc" out="1:pobj">all’interno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">della</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-7:coref|1:possr" out="">loro</W>
-<W lemma="collaborazione" morph="collaborare +zione/PRED&3a;core lavorare -co/MOD&3a;rel" msd="NC" tag="NOM" in="-2:nobj" out="-1:possr|1:struct&3a;bg">collaborazione</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:struct&3a;bg" out="1:nobj">per</W>
+<W lemma="collaborazione" morph="collaborare +zione/PRED&3a;core lavorare -co/MOD&3a;rel" msd="NC" tag="NOM" in="-2:nobj" out="-1:possr|1:bg">collaborazione</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:bg" out="1:nobj">per</W>
 <W lemma="quanto" msd="PI" tag="PRO&3a;indef" in="-1:nobj|1:[subj]" out="1:relr">quanto</W>
 <W lemma="riguardare" morph="guardare -ri/ASPEC&3a;other" msd="VADR" tag="VER&3a;pres" in="-1:relr" out="-1:[subj]|1:nobj">riguarda</W>
 <W lemma="immigrare" morph="immigrare -to/PRED&3a;agent migrare -in/LOC&3a;pos" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="2:conj">immigrati</W>
@@ -192,8 +192,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="11:subj|12:[subj]" out="3:nobj">la</W>
 <W lemma="&lt;unknown&gt;" morph="già" msd="NC" tag="NOM" in="1:time" out="">già</W>
 <W lemma="esistere" morph="esistere" msd="VAG" tag="VER&3a;ppre" in="1:attr" out="-1:time">esistente</W>
-<W lemma="collaborazione" morph="collaborare +zione/PRED&3a;core lavorare -co/MOD&3a;rel" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:struct&3a;bg">collaborazione</W>
-<W lemma="circa" msd="RG" tag="ADV" in="-1:struct&3a;bg" out="1:nobj">circa</W>
+<W lemma="collaborazione" morph="collaborare +zione/PRED&3a;core lavorare -co/MOD&3a;rel" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:bg">collaborazione</W>
+<W lemma="circa" msd="RG" tag="ADV" in="-1:bg" out="1:nobj">circa</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="politico" morph="politica" msd="AN" tag="ADJ" in="-1:nobj" out="1:about">politica</W>
 <W lemma="&lt;unknown&gt;" morph="immigrare +zione/PRED&3a;core migrare -in/LOC&3a;pos" msd="NC" tag="NOM" in="-1:about" out="2:conj">sull’immigrazione</W>
@@ -207,8 +207,8 @@
 <W lemma="cornice" morph="cornice" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">cornice</W>
 <W lemma="delineare" morph="lineare -de/OTHER" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj">delineata</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-23:coref-id" out="1:nobj|24:coref-id">dal</W>
-<W lemma="trattato" morph="trattare +to/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:prg&3a;focal">Trattato</W>
-<W lemma="stesso" morph="stesso" msd="AN" tag="ADJ" in="-1:prg&3a;focal" out="">stesso</W>
+<W lemma="trattato" morph="trattare +to/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:focal">Trattato</W>
+<W lemma="stesso" morph="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-24:pnct" out="">.</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">Si</W>
 <W lemma="trattare" morph="trattare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:time|2:pobj|7:pnct|14:conj">tratta</W>
@@ -225,7 +225,7 @@
 <W lemma="membro" morph="membro" msd="NC" tag="NOM" in="-1:attrr#" out="">membri</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:poss" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" morph="CEE" msd="NC" tag="NOM" in="-1:nobj" out="">CEE</W>
-<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="-14:conj" out="-5:subj|-6:coord|1:vobj|14:pnct|7:reas">hanno</W>
+<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="-14:conj" out="-5:subj|-6:coord|1:vobj|7:reas|14:pnct">hanno</W>
 <W lemma="volere" morph="volere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:vobj">voluto</W>
 <W lemma="inserire" morph="inserire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-7:[subj]|1:dobj|3:loc">inserire</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-28:coref-res|-1:dobj" out="1:nobj">questo</W>

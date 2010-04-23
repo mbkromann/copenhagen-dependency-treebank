@@ -134,8 +134,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:other">woman</W>
 <W msd="SP" tag="IN" in="-1:other" out="">with</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">secret</W>
-<W msd="NC=S" tag="NN" in="1:noun&3a;about#" out="">love</W>
-<W msd="NC=P" tag="NNS" in="" out="-2:attr|-1:noun&3a;about#">affairs</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{about}#" out="">love</W>
+<W msd="NC=P" tag="NNS" in="" out="-2:attr|-1:attr|-1:{about}#">affairs</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">she</W>
 <W msd="ANP" tag="RB" in="1:time" out="">never</W>

@@ -1,9 +1,9 @@
 <p>
 <s>
 <W lemma="ein" msd="P[ID]" tag="ART" in="" out="1:nobj|4:pnct">Ein</W>
-<W lemma="paar" msd="PI" tag="PIDAT" in="-1:nobj" out="2:noun&3a;apart">paar</W>
+<W lemma="paar" msd="PI" tag="PIDAT" in="-1:nobj" out="2:nobj|2:{apart}">paar</W>
 <W lemma="nützlich" msd="AN" tag="ADJA" in="1:attr" out="">nützliche</W>
-<W lemma="Ratschlag" msd="NC" tag="NN" in="-2:noun&3a;apart" out="-1:attr">Ratschläge</W>
+<W lemma="Ratschlag" msd="NC" tag="NN" in="-2:nobj|-2:{apart}" out="-1:attr">Ratschläge</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 </s>
 </p>
@@ -114,13 +114,13 @@
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:time" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
 <W lemma="2" msd="AC" tag="CARD" in="-12:xpl" out="-3:ext|1:nobj|4:conj|9:pnct">2</W>
-<W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="-1:nobj" out="1:noun&3a;apart">Tabletten</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:noun&3a;apart" out="">Paragurth</W>
+<W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="-1:nobj" out="1:nobj|1:{apart}">Tabletten</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-1:{apart}" out="">Paragurth</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-4:conj" out="-1:coord|1:attr|2:nobj">einen</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">großen</W>
-<W lemma="Schluck" msd="NC" tag="NN" in="-2:nobj" out="1:noun&3a;apart">Schluck</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:noun&3a;apart" out="1:name">Fernet</W>
+<W lemma="Schluck" msd="NC" tag="NN" in="-2:nobj" out="1:nobj|1:{apart}">Schluck</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|-1:{apart}" out="1:name">Fernet</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:name" out="">Branca</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 </s>

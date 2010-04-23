@@ -17,8 +17,8 @@
 <W lemma="en" msd="PREP" in="-6:loc" out="1:nobj">en</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="2:nobj">sus</W>
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevas</W>
-<W lemma="vivienda" msd="NC" in="-2:nobj" out="-1:attr|1:attrr&3a;subj">viviendas</W>
-<W lemma="cooperativo" msd="ADJ" in="-1:attrr&3a;subj" out="">cooperativas</W>
+<W lemma="vivienda" msd="NC" in="-2:nobj" out="-1:attr|1:aobj.subj|1:{agent}">viviendas</W>
+<W lemma="cooperativo" msd="ADJ" in="-1:aobj.subj|-1:{agent}" out="">cooperativas</W>
 <W lemma="en" msd="PREP" in="-11:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:loc">Stokkebjergvej</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>

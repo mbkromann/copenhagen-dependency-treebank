@@ -5,8 +5,8 @@
 <W lemma="vero" msd="AN" tag="ADJ" in="-1:preds" out="">vero</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:nobj" out="22:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="21:subj|22:[subj]" out="1:nobj|40:coref-id">i</W>
-<W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj.patient">contributi</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:pobj&3a;dobj.patient" out="1:nobj|42:comp">per</W>
+<W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">contributi</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|42:comp">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">i</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">figli</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>

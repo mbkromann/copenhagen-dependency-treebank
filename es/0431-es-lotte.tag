@@ -64,13 +64,13 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="representante" msd="NC" in="-5:conj" out="-1:coord|1:pobj.dobj|1:{patient}">representantes</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|6:pobj&3a;poss">la</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|6:attr|6:{poss}">la</W>
 <W lemma="industriar" msd="VLfin" in="-1:nobj" out="2:conj">industria</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="comerciar" msd="VLfin" in="-2:conj" out="-1:coord|1:pobj.dobj|1:{patient}#">comercio</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="diamante" msd="NC" in="-1:nobj" out="">diamantes</W>
-<W lemma="del" msd="PDEL" in="-6:pobj&3a;poss" out="1:nobj">del</W>
+<W lemma="del" msd="PDEL" in="-6:attr|-6:{poss}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país</W>
 <W lemma="." msd="FS" in="-26:pnct" out="">.</W>
 <W lemma="hacer" msd="VLfin" in="" out="1:dobj|2:pnct">Hace</W>
@@ -227,8 +227,8 @@
 <W lemma="instruir" msd="VLadj" in="-1:preds" out="1:loc">instruidos</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:pobj&3a;poss">platería</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="2:nobj|11:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:attr|1:{poss}">platería</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{poss}" out="2:nobj|11:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Georg</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:nobj" out="-1:namef|1:loc">Jensen</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="">en</W>

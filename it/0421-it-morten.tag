@@ -132,8 +132,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="9:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="8:subj" out="1:nobj">il</W>
-<W lemma="pensiero" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;about">pensiero</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;about" out="1:nobj|3:conj">del</W>
+<W lemma="pensiero" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{about}">pensiero</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{about}" out="1:nobj|3:conj">del</W>
 <W lemma="cibo" msd="NC" tag="NOM" in="-1:nobj" out="">cibo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">del</W>

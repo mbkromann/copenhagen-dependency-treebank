@@ -155,8 +155,8 @@
 <W lemma="miembro" msd="NC" in="-1:nobj" out="">miembro</W>
 <W lemma="de" msd="PREP" in="" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="caja" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#">caja</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="caja" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#">caja</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="desempleo" msd="NC" in="-1:nobj" out="">desempleo</W>
 <W lemma="," msd="CM" in="4:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
@@ -169,8 +169,8 @@
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="en" msd="PREP" in="-4:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="tarjeta" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#">tarjeta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="tarjeta" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#">tarjeta</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="subsidio" msd="NC" in="-1:nobj" out="">subsidio</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="-10:coord" out="">y</W>

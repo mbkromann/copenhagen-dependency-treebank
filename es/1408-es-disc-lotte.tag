@@ -73,9 +73,9 @@
 <W lemma="un" msd="ART" in="" out="1:nobj">Un</W>
 <W lemma="punto" msd="NC" in="-1:nobj" out="1:pobj&3a;other#|6:ref|7:relr">punto</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;other#" out="1:nobj">de</W>
-<W lemma="vista" msd="NC" in="-1:nobj" out="1:attr|2:pobj&3a;about">vista</W>
+<W lemma="vista" msd="NC" in="-1:nobj" out="1:attr|2:attr|2:{about}">vista</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">táctico</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;about" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:attr|-2:{about}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">negociación</W>
 <W lemma="que" msd="CQUE" in="-6:ref|1:subj" out="">que</W>
 <W lemma="ser" msd="VSfin" in="-7:relr" out="-1:subj|1:preds|7:pnct">es</W>

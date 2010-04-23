@@ -1,8 +1,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">Él</W>
 <W lemma="considerar" msd="VLfin" in="" out="-1:subj|1:dobj|6:predo|14:pnct">considera</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj&3a;iobj#">falta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;iobj#" out="1:nobj">de</W>
+<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj.iobj|1:{recipient}#">falta</W>
+<W lemma="de" msd="PREP" in="-1:pobj.iobj|-1:{recipient}#" out="1:nobj">de</W>
 <W lemma="discordia" msd="NC" in="-1:nobj" out="1:attr">discordias</W>
 <W lemma="interno" msd="ADJ" in="-1:attr" out="">internas</W>
 <W lemma="como" msd="CSUBX" in="-6:predo" out="1:nobj">como</W>
@@ -110,8 +110,8 @@
 <W lemma="ante" msd="PREP" in="-1:prg" out="1:nobj">ante</W>
 <W lemma="todo" msd="QU" in="-1:nobj" out="">todo</W>
 <W lemma="nuestro" msd="PPO" in="-3:preds" out="1:nobj|4:coord">nuestro</W>
-<W lemma="sentido" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#">sentido</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="sentido" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#">sentido</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">colaboración</W>
 <W lemma="y" msd="CC" in="-4:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-8:preds" out="1:nobj">el</W>

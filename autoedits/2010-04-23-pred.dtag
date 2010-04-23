@@ -1,0 +1,2 @@
+# Autoreplace all "pred" dependencies with "preds" dependencies
+find -corpus -yes $X pred $Y -do(edel $X pred $Y ; $X preds $Y) 

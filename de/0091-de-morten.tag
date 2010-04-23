@@ -138,7 +138,7 @@
 <W lemma="erinnern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:robj|-2:avobj|1:pnct">erinnern</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="was" msd="PT" tag="PRELS" in="-4:dobj" out="11:vobj">was</W>
-<W lemma="von" msd="SP" tag="APPR" in="10:time&3a;prec" out="1:nobj">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="10:prec" out="1:nobj">von</W>
 <W lemma="Anfang" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Anfang</W>
 <W lemma="an" msd="SP" tag="APPR" in="-1:pobj" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj|3:conj">das</W>
@@ -148,7 +148,7 @@
 <W lemma="Bedeutung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Bedeutung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:possr">der</W>
 <W lemma="Musik" msd="NC" tag="NN" in="-1:possr" out="">Musik</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-11:vobj" out="-10:time&3a;prec|-7:dobj|1:pnct">waren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-11:vobj" out="-7:dobj|1:pnct|-10:prec">waren</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-48:pnct" out="">"</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="-49:qobj|1:subj|2:pnct">schreibt</W>

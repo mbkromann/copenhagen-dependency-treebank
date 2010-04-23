@@ -125,8 +125,8 @@
 <W gloss="raises" lemma="rejse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:contr|1:dobj|18:pnct">rejser</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|4:pnct|5:ref|7:rel">en</W>
 <W gloss="the_long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lang</W>
-<W gloss="series" lemma="række" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:noun&3a;apart">række</W>
-<W gloss="questions" lemma="spørgsmål" msd="NCNPU==I" tag="NNP" in="-1:noun&3a;apart" out="9:pobj">spørgsmål</W>
+<W gloss="series" lemma="række" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj|1:{apart}">række</W>
+<W gloss="questions" lemma="spørgsmål" msd="NCNPU==I" tag="NNP" in="-1:nobj|-1:{apart}" out="9:pobj">spørgsmål</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-5:ref|3:nobj" out="">som</W>
 <W gloss="the_doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="1:subj" out="">lægerne</W>
@@ -248,8 +248,8 @@
 <W gloss="might" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">måtte</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:ben">være</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:ben" out="1:nobj">for</W>
-<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj&3a;quant">kvinder</W>
-<W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:pobj&3a;quant" out="1:nobj">over</W>
+<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|1:{quant}">kvinder</W>
+<W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:attr|-1:{quant}" out="1:nobj">over</W>
 <W gloss="40," lemma="40" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">40</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>

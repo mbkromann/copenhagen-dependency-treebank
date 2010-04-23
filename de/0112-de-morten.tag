@@ -26,9 +26,9 @@
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-22:coref|1:subj" out="17:coref">sie</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:coord|-1:subj|3:preds|4:pnct|9:pnct">sind</W>
-<W lemma="auch" msd="RG" tag="ADV" in="2:struct&3a;add" out="">auch</W>
+<W lemma="auch" msd="RG" tag="ADV" in="2:add" out="">auch</W>
 <W lemma="richtig" msd="AN" tag="ADJA" in="1:attr" out="">richtige</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:preds" out="-1:attr|-2:struct&3a;add|2:conj|5:conj">Spielkinder</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:preds" out="-1:attr|-2:add|2:conj|5:conj">Spielkinder</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="Fußballfan" msd="NC" tag="NN" in="-2:conj" out="">Fußballfans</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
@@ -39,8 +39,8 @@
 </p>
 <p>
 <s>
-<W lemma="außerdem" msd="RG" tag="ADV" in="1:struct&3a;add" out="">Außerdem</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:struct&3a;add|1:subj|2:preds|10:pnct">sind</W>
+<W lemma="außerdem" msd="RG" tag="ADV" in="1:add" out="">Außerdem</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:add|1:subj|2:preds|10:pnct">sind</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|-17:coref" out="12:coref">sie</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="-2:preds" out="1:pobj">zwei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="2:nobj">der</W>
@@ -51,8 +51,8 @@
 <W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="-1:nobj" out="">Odense</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
-<W lemma="jetzt" msd="RG" tag="ADV" in="1:time&3a;cont" out="">Jetzt</W>
-<W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-1:time&3a;cont|1:subj|17:vobj|18:pnct">sollen</W>
+<W lemma="jetzt" msd="RG" tag="ADV" in="1:cont" out="">Jetzt</W>
+<W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-1:cont|1:subj|17:vobj|18:pnct">sollen</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|-12:coref|16:[subj]" out="">sie</W>
 <W lemma="in" msd="SP" tag="APPR" in="15:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-9:assoc-scope" out="1:nobj">der</W>
@@ -141,11 +141,11 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj" out="">Wir</W>
-<W lemma="kennen" msd="VA" tag="VVFIN" in="12:qobj" out="-2:pnct|-1:subj|1:dobj|3:pnct|4:time&3a;prec|10:pnct|11:pnct|2:eval">kennen</W>
+<W lemma="kennen" msd="VA" tag="VVFIN" in="12:qobj" out="-2:pnct|-1:subj|1:dobj|2:eval|3:pnct|10:pnct|11:pnct|4:prec">kennen</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-1:dobj" out="">uns</W>
 <W lemma="nämlich" msd="AN" tag="ADJD" in="-2:eval" out="">nämlich</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="seitdem" msd="RG" tag="PAV" in="-4:time&3a;prec" out="5:vobj">seitdem</W>
+<W lemma="seitdem" msd="RG" tag="PAV" in="-4:prec" out="5:vobj">seitdem</W>
 <W lemma="wir" msd="PP" tag="PPER" in="4:subj" out="">wir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="3:preds" out="1:nobj">acht-zehn</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:aobj">Jahre</W>
@@ -162,8 +162,8 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
-<W lemma="damals" msd="RG" tag="ADV" in="1:time&3a;prec" out="">Damals</W>
-<W lemma="kommen" msd="VA" tag="VVFIN" in="" out="-2:pnct|-1:time&3a;prec|1:subj|2:loc|9:pnct">kamen</W>
+<W lemma="damals" msd="RG" tag="ADV" in="1:prec" out="">Damals</W>
+<W lemma="kommen" msd="VA" tag="VVFIN" in="" out="-2:pnct|1:subj|2:loc|9:pnct|-1:prec">kamen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="9:coref">wir</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj|3:loc">das</W>
@@ -222,7 +222,7 @@
 <W lemma="Pfeife" msd="NC" tag="NN" in="-1:nobj" out="">Pfeife</W>
 <W lemma="-" msd="XP" tag="$(" in="-4:pnct" out="">-</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-17:coref|1:subj|5:[subj]" out="">wir</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="2:vobj" out="-1:subj|4:vobj|1:eval">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="2:vobj" out="-1:subj|1:eval|4:vobj">sind</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="-1:eval" out="">wohl</W>
 <W lemma="doch" msd="RG" tag="ADV" in="-8:conc" out="-2:vobj">doch</W>
 <W lemma="erwachsen" msd="VAP" tag="VVPP" in="1:preds" out="">erwachsen</W>

@@ -194,5 +194,5 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj" out="1:nobj">questo</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="">modo</W>
 <W lemma="per" msd="SP" tag="PRE" in="-4:ben" out="1:nobj">per</W>
-<W lemma="amor" msd="NC" tag="NOM" in="-1:nobj" out="1:cp&3a;iobj#">amor</W>
-<W lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:cp&3a;iobj#" out="">tuo.”</W>
+<W lemma="amor" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj.iobj|1:{recipient}#">amor</W>
+<W lemma="&lt;unknown&gt;" msd="NC" note="skal deles" tag="NOM" in="-1:nobj.iobj|-1:{recipient}#" out="">tuo.”</W>

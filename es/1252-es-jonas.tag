@@ -11,8 +11,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="protestar" msd="VLfin" in="-1:nobj" out="1:attr">protesta</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="1:pobj&3a;agent">pro-democrática</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;agent" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="1:attr|1:{agent}">pro-democrática</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="estudiante" msd="NC" in="-1:nobj" out="">estudiantes</W>
 <W lemma="en" msd="PREP" in="-10:loc" out="1:nobj|7:time">en</W>
@@ -62,8 +62,8 @@
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">Los</W>
 <W lemma="dans" msd="NC" in="-1:nobj" out="">daneses</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:loc&3a;met|13:conj|28:pnct">estábamos</W>
-<W lemma="entre" msd="PREP" in="-1:loc&3a;met" out="1:nobj">entre</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:loc|13:conj|28:pnct">estábamos</W>
+<W lemma="entre" msd="PREP" in="-1:loc" out="1:nobj">entre</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj|4:loc">los</W>
 <W lemma="primero" msd="ORD" in="1:attr" out="">primeros</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr|1:attr">negociantes</W>
@@ -84,9 +84,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-32:qobj|2:subj">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Oliver</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:subj" out="-1:namef|2:pobj&3a;loc">Jensen</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:subj" out="-1:namef|2:attr|2:{pos}">Jensen</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;loc" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:attr|-2:{pos}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:loc">FLS</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Pekín</W>
@@ -101,8 +101,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attr" out="-1:comp|7:comp">rápido</W>
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="sur" msd="PE" in="-1:nobj" out="1:pobj&3a;loc">sur</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;loc" out="1:nobj">de</W>
+<W lemma="sur" msd="PE" in="-1:nobj" out="1:attr|1:{pos}">sur</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
 <W lemma="China" msd="NP" in="-1:nobj" out="">China</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="que" msd="CQUE" in="-7:comp" out="2:vobj">que</W>
@@ -133,10 +133,10 @@
 <W lemma="interesante" msd="ADJ" in="-1:preds" out="">interesante</W>
 <W lemma="ver" msd="VLinf" in="-2:subj" out="1:dobj">ver</W>
 <W lemma="hasta" msd="PREP" in="-1:dobj" out="1:nobj">hasta</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj|3:dir&3a;met" out="1:nobj">qué</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj|3:dir" out="1:nobj">qué</W>
 <W lemma="punto" msd="NC" in="-1:nobj" out="">punto</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="atrever" msd="VLfin" in="" out="-1:robj|-3:dir&3a;met|1:pobj">atreven</W>
+<W lemma="atrever" msd="VLfin" in="" out="-1:robj|1:pobj|-3:dir">atreven</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="liberar" msd="VLinf" in="-1:vobj" out="1:dobj">liberar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">las</W>

@@ -3,7 +3,7 @@
 <W lemma="hoy" msd="ADV" in="-1:nobj" out="48:coref-var">hoy</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="observar" msd="VLfin" in="-4:vobj" out="-1:robj|-3:time|1:dobj|11:pnct">observan</W>
-<W lemma="hombre" msd="NC" in="-1:dobj" out="8:assoc-const|11:ref|12:relr|24:coref-id|1:attr|1:{const}">hombres</W>
+<W lemma="hombre" msd="NC" in="-1:dobj" out="1:attr|1:{const}|8:assoc-const|11:ref|12:relr|24:coref-id">hombres</W>
 <W lemma="con" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">con</W>
 <W lemma="piel" msd="NC" in="-1:nobj" out="1:attr|4:conj">piel</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">lÃ­vida</W>
@@ -71,8 +71,8 @@
 <W lemma="el" msd="ART" in="" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="el" msd="ART" in="7:subj|8:[subj]" out="1:nobj">la</W>
-<W lemma="existencia" msd="NC" in="-1:nobj" out="1:pobj&3a;subj.agent">existencia</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj.agent" out="1:nobj">de</W>
+<W lemma="existencia" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">existencia</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-21:coref-var" out="1:nobj|11:coref-var">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj.patient#">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj.patient#" out="1:nobj">de</W>
@@ -109,8 +109,8 @@
 <W lemma="nuevo" msd="ADJ" in="-1:attr" out="">nuevas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="">pelÃ­culas</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>
-<W lemma="proyección" msd="NC" in="-1:nobj" out="1:pobj&3a;func#|3:attr">proyecciones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
+<W lemma="proyección" msd="NC" in="-1:nobj" out="1:attr|1:{func}#|3:attr">proyecciones</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="prensa" msd="NC" in="-1:nobj" out="">prensa</W>
 <W lemma="especial" msd="ADJ" in="-3:attr" out="">especiales</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
@@ -147,8 +147,8 @@
 <W lemma="disparatar" msd="VLfin" in="-1:nobj" out="">disparate</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|25:assoc-scope">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj.patient">crÃ­tica</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj.patient" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">crÃ­tica</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pelÃ­cula</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>

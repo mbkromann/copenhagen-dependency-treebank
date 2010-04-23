@@ -75,8 +75,8 @@
 <W lemma="tener" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">tener</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:pobj|1:{arg}">carácter</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="parque" msd="NC" in="-1:nobj" out="1:pobj&3a;pos#|3:degr|17:coref-var">parque</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pos#" out="1:nobj">de</W>
+<W lemma="parque" msd="NC" in="-1:nobj" out="3:degr|17:coref-var|1:attr|1:{pos}#">parque</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{pos}#" out="1:nobj">de</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
 <W lemma="de" msd="PREP" in="-3:degr" out="2:nobj">de</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
@@ -122,8 +122,8 @@
 <W lemma="preferentemente" msd="ADV" in="1:other" out="">preferentemente</W>
 <W lemma="con" msd="PREP" in="-6:other" out="-1:other|1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="casa" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">casa</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
+<W lemma="casa" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">casa</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="cultura" msd="NC" in="-1:nobj" out="2:conj">cultura</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="-1:coord">música</W>
@@ -145,8 +145,8 @@
 <W lemma="deber" msd="VMfin" in="" out="-12:subj|-14:struct|1:vobj|6:pnct">debe</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj|9:assoc-const">una</W>
-<W lemma="zona" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">zona</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
+<W lemma="zona" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">zona</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="exposicin" msd="NC" in="-1:nobj" out="">exposiciones</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">Los</W>
@@ -159,11 +159,11 @@
 <W lemma="en" msd="PREP" in="-4:bg" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">relación</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="4:pobj&3a;poss|6:time|1:pobj|1:{arg}">título</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|4:attr|4:{poss}|6:time">título</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="1:attrr#">ciudad</W>
 <W lemma="cultural" msd="ADJ" in="-1:attrr#" out="">cultural</W>
-<W lemma="de" msd="PREP" in="-4:pobj&3a;poss" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-4:attr|-4:{poss}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Copenhague</W>
 <W lemma="en" msd="PREP" in="-6:time" out="1:nobj">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1996</W>
@@ -174,8 +174,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-81:coref-id|1:subj" out="2:coref">Amager</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|-4:other|-3:time|1:dobj|5:pnct">obtendrá</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj|-2:coref" out="1:nobj">su</W>
-<W lemma="tren" msd="NC" in="-1:nobj" out="1:pobj&3a;func#|6:assoc-const">tren</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
+<W lemma="tren" msd="NC" in="-1:nobj" out="1:attr|1:{func}#|6:assoc-const">tren</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">cercanías</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
@@ -186,8 +186,8 @@
 <W lemma="un" msd="ART" in="-3:assoc-const|7:subj" out="1:pnct|2:appa">Una</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-2:appa" out="1:nobj|4:pnct">la</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;pos">vía</W>
-<W lemma="de" msd="CSUBI" in="-1:pobj&3a;pos" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:attr|1:{pos}">vía</W>
+<W lemma="de" msd="CSUBI" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:nobj" out="">Østamager</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-7:subj|1:preds|3:conj">será</W>
@@ -201,8 +201,8 @@
 <W lemma="otro" msd="QU" in="-1:nobj" out="">otra</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-3:appa" out="1:nobj|4:pnct">la</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;pos">vía</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pos" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:attr|1:{pos}">vía</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">Ørestaden</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-8:subj|1:loc|12:pnct">irá</W>
@@ -218,4 +218,3 @@
 <W lemma="hasta" msd="PREP" in="-5:loc" out="1:nobj">hasta</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Tårnby</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
-<W in="" out="">!~/cdt/tools/dtag-closetask</W>

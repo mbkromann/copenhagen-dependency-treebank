@@ -1,0 +1,1281 @@
+Welcome to DTAG dependency tagger v. 1.0.29 (2010-04-23 21:51:31)
+Copyright (c) 2002-2010 Matthias Buch-Kromann
+Using DTAG directory /home/matthias/research/dtag/run
+Using rcfile /home/matthias/research/dtag/run/.dtagrc
+Loading relation set "cdt" from http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv
+User: matthias
+Using rcfile /home/matthias/.dtagrc
+This is the new .dtagrc file
+> # Autoreplace all "pred" dependencies with "preds" dependencies
+> find -corpus -yes $X pred $Y -do(edel $X pred $Y ; $X preds $Y) 
+Searched 00%. Elapsed: 00:00:00. ETA: 00:00:39. Matches: 0.saved tag-file /opt/cdt/da/0001-da.tag
+saved tag-file /opt/cdt/da/0005-da.tag
+saved tag-file /opt/cdt/da/0008-da.tag
+saved tag-file /opt/cdt/da/0021-da.tag
+saved tag-file /opt/cdt/da/0029-da.tag
+Searched 00%. Elapsed: 00:00:00. ETA: 00:01:32. Matches: 30.saved tag-file /opt/cdt/da/0043-da.tag
+saved tag-file /opt/cdt/da/0061-da.tag
+Searched 00%. Elapsed: 00:00:01. ETA: 00:02:26. Matches: 41.saved tag-file /opt/cdt/da/0065-da.tag
+saved tag-file /opt/cdt/da/0073-da.tag
+saved tag-file /opt/cdt/da/0079-da.tag
+saved tag-file /opt/cdt/da/0083-da.tag
+saved tag-file /opt/cdt/da/0086-da.tag
+Searched 00%. Elapsed: 00:00:01. ETA: 00:03:19. Matches: 60.saved tag-file /opt/cdt/da/0090-da.tag
+saved tag-file /opt/cdt/da/0091-da.tag
+saved tag-file /opt/cdt/da/0093-da.tag
+saved tag-file /opt/cdt/da/0096-da.tag
+Searched 01%. Elapsed: 00:00:02. ETA: 00:04:08. Matches: 76.saved tag-file /opt/cdt/da/0097-da.tag
+saved tag-file /opt/cdt/da/0101-da.tag
+saved tag-file /opt/cdt/da/0102-da.tag
+saved tag-file /opt/cdt/da/0103-da.tag
+Searched 01%. Elapsed: 00:00:03. ETA: 00:04:57. Matches: 104.saved tag-file /opt/cdt/da/0107-da.tag
+saved tag-file /opt/cdt/da/0112-da.tag
+saved tag-file /opt/cdt/da/0113-da.tag
+Searched 01%. Elapsed: 00:00:03. ETA: 00:05:49. Matches: 122.saved tag-file /opt/cdt/da/0119-da.tag
+saved tag-file /opt/cdt/da/0132-da.tag
+saved tag-file /opt/cdt/da/0133-da.tag
+saved tag-file /opt/cdt/da/0134-da.tag
+saved tag-file /opt/cdt/da/0138-da.tag
+Searched 02%. Elapsed: 00:00:04. ETA: 00:03:19. Matches: 152.saved tag-file /opt/cdt/da/0140-da.tag
+saved tag-file /opt/cdt/da/0144-da.tag
+saved tag-file /opt/cdt/da/0148-da.tag
+Searched 02%. Elapsed: 00:00:04. ETA: 00:03:45. Matches: 170.saved tag-file /opt/cdt/da/0150-da.tag
+saved tag-file /opt/cdt/da/0151-da.tag
+saved tag-file /opt/cdt/da/0155-da.tag
+saved tag-file /opt/cdt/da/0159-da.tag
+saved tag-file /opt/cdt/da/0166-da.tag
+Searched 02%. Elapsed: 00:00:05. ETA: 00:04:10. Matches: 195.saved tag-file /opt/cdt/da/0169-da.tag
+saved tag-file /opt/cdt/da/0174-da.tag
+saved tag-file /opt/cdt/da/0176-da.tag
+saved tag-file /opt/cdt/da/0178-da.tag
+saved tag-file /opt/cdt/da/0182-da.tag
+Searched 02%. Elapsed: 00:00:05. ETA: 00:04:36. Matches: 219.saved tag-file /opt/cdt/da/0184-da.tag
+saved tag-file /opt/cdt/da/0187-da.tag
+saved tag-file /opt/cdt/da/0188-da.tag
+saved tag-file /opt/cdt/da/0190-da.tag
+Searched 03%. Elapsed: 00:00:06. ETA: 00:03:19. Matches: 236.saved tag-file /opt/cdt/da/0197-da.tag
+saved tag-file /opt/cdt/da/0202-da.tag
+saved tag-file /opt/cdt/da/0203-da.tag
+saved tag-file /opt/cdt/da/0204-da.tag
+saved tag-file /opt/cdt/da/0209-da.tag
+Searched 03%. Elapsed: 00:00:06. ETA: 00:03:35. Matches: 257.saved tag-file /opt/cdt/da/0211-da.tag
+saved tag-file /opt/cdt/da/0212-da.tag
+saved tag-file /opt/cdt/da/0215-da.tag
+saved tag-file /opt/cdt/da/0220-da.tag
+saved tag-file /opt/cdt/da/0229-da.tag
+Searched 03%. Elapsed: 00:00:07. ETA: 00:03:52. Matches: 276.saved tag-file /opt/cdt/da/0235-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0235-da.tag
+saved tag-file /opt/cdt/da/0237-da.tag
+saved tag-file /opt/cdt/da/0240-da.tag
+Searched 04%. Elapsed: 00:00:07. ETA: 00:03:04. Matches: 294.saved tag-file /opt/cdt/da/0245-da.tag
+saved tag-file /opt/cdt/da/0257-da.tag
+saved tag-file /opt/cdt/da/0258-da.tag
+saved tag-file /opt/cdt/da/0259-da.tag
+saved tag-file /opt/cdt/da/0260-da.tag
+Searched 04%. Elapsed: 00:00:08. ETA: 00:03:17. Matches: 316.saved tag-file /opt/cdt/da/0264-da.tag
+saved tag-file /opt/cdt/da/0265-da.tag
+saved tag-file /opt/cdt/da/0267-da.tag
+saved tag-file /opt/cdt/da/0269-da.tag
+saved tag-file /opt/cdt/da/0272-da.tag
+Searched 04%. Elapsed: 00:00:08. ETA: 00:03:30. Matches: 337.saved tag-file /opt/cdt/da/0273-da.tag
+saved tag-file /opt/cdt/da/0278-da.tag
+saved tag-file /opt/cdt/da/0279-da.tag
+saved tag-file /opt/cdt/da/0281-da.tag
+saved tag-file /opt/cdt/da/0284-da.tag
+Searched 05%. Elapsed: 00:00:09. ETA: 00:02:56. Matches: 367.saved tag-file /opt/cdt/da/0286-da.tag
+saved tag-file /opt/cdt/da/0287-da.tag
+saved tag-file /opt/cdt/da/0288-da.tag
+saved tag-file /opt/cdt/da/0294-da.tag
+saved tag-file /opt/cdt/da/0298-da.tag
+saved tag-file /opt/cdt/da/0300-da.tag
+Searched 05%. Elapsed: 00:00:09. ETA: 00:03:06. Matches: 392.saved tag-file /opt/cdt/da/0304-da.tag
+saved tag-file /opt/cdt/da/0307-da.tag
+saved tag-file /opt/cdt/da/0309-da.tag
+saved tag-file /opt/cdt/da/0312-da.tag
+saved tag-file /opt/cdt/da/0314-da.tag
+Searched 05%. Elapsed: 00:00:10. ETA: 00:03:16. Matches: 423.saved tag-file /opt/cdt/da/0316-da.tag
+saved tag-file /opt/cdt/da/0319-da.tag
+saved tag-file /opt/cdt/da/0324-da.tag
+saved tag-file /opt/cdt/da/0326-da.tag
+saved tag-file /opt/cdt/da/0327-da.tag
+saved tag-file /opt/cdt/da/0328-da.tag
+Searched 05%. Elapsed: 00:00:10. ETA: 00:03:26. Matches: 469.saved tag-file /opt/cdt/da/0333-da.tag
+saved tag-file /opt/cdt/da/0334-da.tag
+saved tag-file /opt/cdt/da/0337-da.tag
+saved tag-file /opt/cdt/da/0339-da.tag
+saved tag-file /opt/cdt/da/0342-da.tag
+saved tag-file /opt/cdt/da/0345-da.tag
+saved tag-file /opt/cdt/da/0351-da.tag
+Searched 06%. Elapsed: 00:00:11. ETA: 00:02:58. Matches: 501.saved tag-file /opt/cdt/da/0354-da.tag
+saved tag-file /opt/cdt/da/0355-da.tag
+saved tag-file /opt/cdt/da/0357-da.tag
+saved tag-file /opt/cdt/da/0361-da.tag
+saved tag-file /opt/cdt/da/0366-da.tag
+saved tag-file /opt/cdt/da/0375-da.tag
+saved tag-file /opt/cdt/da/0376-da.tag
+Searched 06%. Elapsed: 00:00:11. ETA: 00:03:06. Matches: 540.saved tag-file /opt/cdt/da/0391-da.tag
+saved tag-file /opt/cdt/da/0394-da.tag
+saved tag-file /opt/cdt/da/0395-da.tag
+saved tag-file /opt/cdt/da/0397-da.tag
+saved tag-file /opt/cdt/da/0401-da.tag
+Searched 06%. Elapsed: 00:00:12. ETA: 00:03:14. Matches: 581.saved tag-file /opt/cdt/da/0411-da.tag
+saved tag-file /opt/cdt/da/0421-da.tag
+saved tag-file /opt/cdt/da/0422-da.tag
+saved tag-file /opt/cdt/da/0426-da.tag
+saved tag-file /opt/cdt/da/0428-da.tag
+saved tag-file /opt/cdt/da/0429-da.tag
+Searched 07%. Elapsed: 00:00:12. ETA: 00:02:51. Matches: 621.saved tag-file /opt/cdt/da/0431-da.tag
+saved tag-file /opt/cdt/da/0434-da.tag
+saved tag-file /opt/cdt/da/0438-da.tag
+saved tag-file /opt/cdt/da/0441-da.tag
+saved tag-file /opt/cdt/da/0442-da.tag
+saved tag-file /opt/cdt/da/0446-da.tag
+saved tag-file /opt/cdt/da/0448-da.tag
+Searched 07%. Elapsed: 00:00:13. ETA: 00:02:59. Matches: 654.saved tag-file /opt/cdt/da/0449-da.tag
+saved tag-file /opt/cdt/da/0452-da.tag
+saved tag-file /opt/cdt/da/0453-da.tag
+saved tag-file /opt/cdt/da/0455-da.tag
+saved tag-file /opt/cdt/da/0465-da.tag
+saved tag-file /opt/cdt/da/0468-da.tag
+saved tag-file /opt/cdt/da/0470-da.tag
+saved tag-file /opt/cdt/da/0472-da.tag
+Searched 07%. Elapsed: 00:00:14. ETA: 00:03:06. Matches: 676.saved tag-file /opt/cdt/da/0473-da.tag
+saved tag-file /opt/cdt/da/0475-da.tag
+saved tag-file /opt/cdt/da/0479-da.tag
+saved tag-file /opt/cdt/da/0483-da.tag
+saved tag-file /opt/cdt/da/0484-da.tag
+saved tag-file /opt/cdt/da/0486-da.tag
+saved tag-file /opt/cdt/da/0488-da.tag
+saved tag-file /opt/cdt/da/0496-da.tag
+Searched 07%. Elapsed: 00:00:14. ETA: 00:03:13. Matches: 698.saved tag-file /opt/cdt/da/0498-da.tag
+saved tag-file /opt/cdt/da/0500-da.tag
+saved tag-file /opt/cdt/da/0502-da.tag
+saved tag-file /opt/cdt/da/0507-da.tag
+saved tag-file /opt/cdt/da/0510-da.tag
+saved tag-file /opt/cdt/da/0511-da.tag
+saved tag-file /opt/cdt/da/0519-da.tag
+Searched 08%. Elapsed: 00:00:15. ETA: 00:02:53. Matches: 736.saved tag-file /opt/cdt/da/0520-da.tag
+saved tag-file /opt/cdt/da/0524-da.tag
+saved tag-file /opt/cdt/da/0526-da.tag
+saved tag-file /opt/cdt/da/0530-da.tag
+saved tag-file /opt/cdt/da/0531-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0531-da.tag
+Searched 08%. Elapsed: 00:00:15. ETA: 00:03:00. Matches: 751.saved tag-file /opt/cdt/da/0535-da.tag
+saved tag-file /opt/cdt/da/0538-da.tag
+saved tag-file /opt/cdt/da/0540-da.tag
+saved tag-file /opt/cdt/da/0544-da.tag
+saved tag-file /opt/cdt/da/0546-da.tag
+saved tag-file /opt/cdt/da/0547-da.tag
+saved tag-file /opt/cdt/da/0548-da.tag
+Searched 08%. Elapsed: 00:00:16. ETA: 00:03:06. Matches: 790.saved tag-file /opt/cdt/da/0563-da.tag
+saved tag-file /opt/cdt/da/0564-da.tag
+saved tag-file /opt/cdt/da/0567-da.tag
+saved tag-file /opt/cdt/da/0571-da.tag
+saved tag-file /opt/cdt/da/0573-da.tag
+saved tag-file /opt/cdt/da/0576-da.tag
+saved tag-file /opt/cdt/da/0577-da.tag
+saved tag-file /opt/cdt/da/0580-da.tag
+Searched 08%. Elapsed: 00:00:16. ETA: 00:03:12. Matches: 827.saved tag-file /opt/cdt/da/0581-da.tag
+saved tag-file /opt/cdt/da/0586-da.tag
+saved tag-file /opt/cdt/da/0587-da.tag
+saved tag-file /opt/cdt/da/0588-da.tag
+saved tag-file /opt/cdt/da/0590-da.tag
+saved tag-file /opt/cdt/da/0593-da-disc-lotte.tag
+Searched 09%. Elapsed: 00:00:17. ETA: 00:02:54. Matches: 855.saved tag-file /opt/cdt/da/0593-da.tag
+saved tag-file /opt/cdt/da/0597-da.tag
+saved tag-file /opt/cdt/da/0601-da.tag
+saved tag-file /opt/cdt/da/0602-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0602-da-disc-lotte.tag
+Searched 09%. Elapsed: 00:00:17. ETA: 00:03:00. Matches: 880.saved tag-file /opt/cdt/da/0602-da.tag
+saved tag-file /opt/cdt/da/0604-da.tag
+saved tag-file /opt/cdt/da/0607-da.tag
+saved tag-file /opt/cdt/da/0612-da.tag
+saved tag-file /opt/cdt/da/0613-da.tag
+saved tag-file /opt/cdt/da/0614-da.tag
+saved tag-file /opt/cdt/da/0618-da.tag
+Searched 09%. Elapsed: 00:00:18. ETA: 00:03:05. Matches: 926.saved tag-file /opt/cdt/da/0620-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0620-da.tag
+saved tag-file /opt/cdt/da/0623-da.tag
+saved tag-file /opt/cdt/da/0624-da.tag
+saved tag-file /opt/cdt/da/0626-da.tag
+Searched 10%. Elapsed: 00:00:18. ETA: 00:02:49. Matches: 947.saved tag-file /opt/cdt/da/0627-da.tag
+saved tag-file /opt/cdt/da/0630-da.tag
+saved tag-file /opt/cdt/da/0641-da.tag
+saved tag-file /opt/cdt/da/0643-da.tag
+saved tag-file /opt/cdt/da/0644-da.tag
+saved tag-file /opt/cdt/da/0645-da.tag
+saved tag-file /opt/cdt/da/0646-da.tag
+saved tag-file /opt/cdt/da/0647-da-disc-iorn.tag
+Searched 10%. Elapsed: 00:00:19. ETA: 00:02:54. Matches: 984.saved tag-file /opt/cdt/da/0647-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0652-da.tag
+saved tag-file /opt/cdt/da/0654-da.tag
+saved tag-file /opt/cdt/da/0656-da.tag
+saved tag-file /opt/cdt/da/0660-da.tag
+saved tag-file /opt/cdt/da/0666-da.tag
+Searched 10%. Elapsed: 00:00:19. ETA: 00:02:59. Matches: 1010.saved tag-file /opt/cdt/da/0667-da.tag
+saved tag-file /opt/cdt/da/0670-da.tag
+saved tag-file /opt/cdt/da/0674-da.tag
+saved tag-file /opt/cdt/da/0675-da.tag
+saved tag-file /opt/cdt/da/0680-da.tag
+saved tag-file /opt/cdt/da/0683-da.tag
+saved tag-file /opt/cdt/da/0685-da.tag
+Searched 10%. Elapsed: 00:00:20. ETA: 00:03:04. Matches: 1037.saved tag-file /opt/cdt/da/0688-da.tag
+saved tag-file /opt/cdt/da/0689-da.tag
+saved tag-file /opt/cdt/da/0690-da.tag
+saved tag-file /opt/cdt/da/0691-da.tag
+saved tag-file /opt/cdt/da/0694-da.tag
+saved tag-file /opt/cdt/da/0696-da.tag
+saved tag-file /opt/cdt/da/0697-da.tag
+saved tag-file /opt/cdt/da/0700-da.tag
+Searched 11%. Elapsed: 00:00:21. ETA: 00:02:49. Matches: 1074.saved tag-file /opt/cdt/da/0702-da.tag
+saved tag-file /opt/cdt/da/0704-da.tag
+saved tag-file /opt/cdt/da/0705-da.tag
+saved tag-file /opt/cdt/da/0708-da.tag
+saved tag-file /opt/cdt/da/0713-da.tag
+saved tag-file /opt/cdt/da/0715-da.tag
+saved tag-file /opt/cdt/da/0720-da.tag
+saved tag-file /opt/cdt/da/0725-da.tag
+Searched 11%. Elapsed: 00:00:21. ETA: 00:02:54. Matches: 1107.saved tag-file /opt/cdt/da/0729-da.tag
+saved tag-file /opt/cdt/da/0730-da.tag
+saved tag-file /opt/cdt/da/0733-da.tag
+saved tag-file /opt/cdt/da/0735-da.tag
+saved tag-file /opt/cdt/da/0736-da.tag
+saved tag-file /opt/cdt/da/0738-da.tag
+saved tag-file /opt/cdt/da/0741-da.tag
+saved tag-file /opt/cdt/da/0742-da.tag
+Searched 11%. Elapsed: 00:00:22. ETA: 00:02:58. Matches: 1151.saved tag-file /opt/cdt/da/0747-da.tag
+saved tag-file /opt/cdt/da/0752-da.tag
+saved tag-file /opt/cdt/da/0754-da.tag
+saved tag-file /opt/cdt/da/0759-da.tag
+saved tag-file /opt/cdt/da/0763-da.tag
+saved tag-file /opt/cdt/da/0770-da.tag
+saved tag-file /opt/cdt/da/0771-da.tag
+saved tag-file /opt/cdt/da/0778-da.tag
+Searched 11%. Elapsed: 00:00:22. ETA: 00:03:03. Matches: 1186.saved tag-file /opt/cdt/da/0780-da.tag
+saved tag-file /opt/cdt/da/0781-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0781-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0781-da.tag
+saved tag-file /opt/cdt/da/0783-da-disc-lotte.tag
+Searched 12%. Elapsed: 00:00:23. ETA: 00:02:50. Matches: 1212.saved tag-file /opt/cdt/da/0783-da.tag
+saved tag-file /opt/cdt/da/0790-da.tag
+saved tag-file /opt/cdt/da/0793-da.tag
+saved tag-file /opt/cdt/da/0794-da.tag
+saved tag-file /opt/cdt/da/0795-da.tag
+saved tag-file /opt/cdt/da/0800-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0800-da-disc-lotte.tag
+Searched 12%. Elapsed: 00:00:23. ETA: 00:02:53. Matches: 1243.saved tag-file /opt/cdt/da/0800-da.tag
+saved tag-file /opt/cdt/da/0805-da.tag
+saved tag-file /opt/cdt/da/0809-da.tag
+saved tag-file /opt/cdt/da/0817-da.tag
+saved tag-file /opt/cdt/da/0821-da.tag
+saved tag-file /opt/cdt/da/0822-da.tag
+saved tag-file /opt/cdt/da/0837-da.tag
+Searched 12%. Elapsed: 00:00:24. ETA: 00:02:57. Matches: 1276.saved tag-file /opt/cdt/da/0839-da.tag
+saved tag-file /opt/cdt/da/0843-da.tag
+saved tag-file /opt/cdt/da/0848-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0848-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0848-da.tag
+saved tag-file /opt/cdt/da/0850-da.tag
+Searched 13%. Elapsed: 00:00:24. ETA: 00:02:45. Matches: 1314.saved tag-file /opt/cdt/da/0851-da.tag
+saved tag-file /opt/cdt/da/0853-da.tag
+saved tag-file /opt/cdt/da/0855-da.tag
+saved tag-file /opt/cdt/da/0856-da.tag
+saved tag-file /opt/cdt/da/0862-da.tag
+saved tag-file /opt/cdt/da/0863-da.tag
+saved tag-file /opt/cdt/da/0864-da.tag
+Searched 13%. Elapsed: 00:00:25. ETA: 00:02:49. Matches: 1351.saved tag-file /opt/cdt/da/0866-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0866-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0866-da.tag
+saved tag-file /opt/cdt/da/0870-da.tag
+saved tag-file /opt/cdt/da/0873-da.tag
+saved tag-file /opt/cdt/da/0874-da.tag
+Searched 13%. Elapsed: 00:00:25. ETA: 00:02:52. Matches: 1369.saved tag-file /opt/cdt/da/0876-da.tag
+saved tag-file /opt/cdt/da/0877-da.tag
+saved tag-file /opt/cdt/da/0879-da.tag
+saved tag-file /opt/cdt/da/0881-da.tag
+saved tag-file /opt/cdt/da/0883-da.tag
+saved tag-file /opt/cdt/da/0884-da.tag
+saved tag-file /opt/cdt/da/0888-da.tag
+saved tag-file /opt/cdt/da/0889-da.tag
+Searched 13%. Elapsed: 00:00:26. ETA: 00:02:56. Matches: 1402.saved tag-file /opt/cdt/da/0893-da.tag
+saved tag-file /opt/cdt/da/0895-da.tag
+saved tag-file /opt/cdt/da/0904-da.tag
+saved tag-file /opt/cdt/da/0905-da.tag
+saved tag-file /opt/cdt/da/0915-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0915-da.tag
+Searched 14%. Elapsed: 00:00:26. ETA: 00:02:45. Matches: 1425.saved tag-file /opt/cdt/da/0917-da.tag
+saved tag-file /opt/cdt/da/0919-da.tag
+saved tag-file /opt/cdt/da/0925-da.tag
+saved tag-file /opt/cdt/da/0926-da.tag
+saved tag-file /opt/cdt/da/0927-da.tag
+saved tag-file /opt/cdt/da/0931-da.tag
+saved tag-file /opt/cdt/da/0932-da.tag
+saved tag-file /opt/cdt/da/0934-da.tag
+Searched 14%. Elapsed: 00:00:27. ETA: 00:02:48. Matches: 1451.saved tag-file /opt/cdt/da/0935-da.tag
+saved tag-file /opt/cdt/da/0939-da.tag
+saved tag-file /opt/cdt/da/0940-da.tag
+saved tag-file /opt/cdt/da/0943-da.tag
+saved tag-file /opt/cdt/da/0947-da.tag
+saved tag-file /opt/cdt/da/0949-da.tag
+saved tag-file /opt/cdt/da/0951-da.tag
+saved tag-file /opt/cdt/da/0955-da.tag
+Searched 14%. Elapsed: 00:00:28. ETA: 00:02:52. Matches: 1488.saved tag-file /opt/cdt/da/0956-da.tag
+saved tag-file /opt/cdt/da/0957-da.tag
+saved tag-file /opt/cdt/da/0958-da.tag
+saved tag-file /opt/cdt/da/0960-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0960-da.tag
+saved tag-file /opt/cdt/da/0962-da.tag
+Searched 14%. Elapsed: 00:00:28. ETA: 00:02:55. Matches: 1524.saved tag-file /opt/cdt/da/0965-da.tag
+saved tag-file /opt/cdt/da/0968-da.tag
+saved tag-file /opt/cdt/da/0970-da.tag
+saved tag-file /opt/cdt/da/0974-da.tag
+saved tag-file /opt/cdt/da/0975-da.tag
+saved tag-file /opt/cdt/da/0978-da.tag
+saved tag-file /opt/cdt/da/0986-da.tag
+Searched 15%. Elapsed: 00:00:29. ETA: 00:02:44. Matches: 1551.saved tag-file /opt/cdt/da/0988-da.tag
+saved tag-file /opt/cdt/da/0989-da.tag
+saved tag-file /opt/cdt/da/0992-da.tag
+saved tag-file /opt/cdt/da/0998-da.tag
+saved tag-file /opt/cdt/da/1001-da.tag
+saved tag-file /opt/cdt/da/1007-da.tag
+saved tag-file /opt/cdt/da/1008-da.tag
+Searched 15%. Elapsed: 00:00:29. ETA: 00:02:47. Matches: 1586.saved tag-file /opt/cdt/da/1010-da.tag
+saved tag-file /opt/cdt/da/1011-da.tag
+saved tag-file /opt/cdt/da/1014-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/1014-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/1014-da.tag
+saved tag-file /opt/cdt/da/1017-da.tag
+Searched 15%. Elapsed: 00:00:30. ETA: 00:02:50. Matches: 1612.saved tag-file /opt/cdt/da/1019-da.tag
+saved tag-file /opt/cdt/da/1021-da.tag
+saved tag-file /opt/cdt/da/1030-da.tag
+saved tag-file /opt/cdt/da/1031-da.tag
+saved tag-file /opt/cdt/da/1032-da.tag
+saved tag-file /opt/cdt/da/1035-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/1035-da-disc-lotte.tag
+Searched 15%. Elapsed: 00:00:30. ETA: 00:02:53. Matches: 1644.saved tag-file /opt/cdt/da/1035-da.tag
+saved tag-file /opt/cdt/da/1038-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/1038-da.tag
+saved tag-file /opt/cdt/da/1039-da.tag
+Searched 16%. Elapsed: 00:00:31. ETA: 00:02:43. Matches: 1667.saved tag-file /opt/cdt/da/1040-da.tag
+saved tag-file /opt/cdt/da/1041-da.tag
+saved tag-file /opt/cdt/da/1042-da.tag
+saved tag-file /opt/cdt/da/1043-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/1043-da.tag
+saved tag-file /opt/cdt/da/1046-da.tag
+saved tag-file /opt/cdt/da/1047-da.tag
+Searched 16%. Elapsed: 00:00:31. ETA: 00:02:46. Matches: 1697.saved tag-file /opt/cdt/da/1048-da.tag
+saved tag-file /opt/cdt/da/1049-da.tag
+saved tag-file /opt/cdt/da/1053-da.tag
+saved tag-file /opt/cdt/da/1054-da.tag
+saved tag-file /opt/cdt/da/1055-da.tag
+saved tag-file /opt/cdt/da/1056-da.tag
+saved tag-file /opt/cdt/da/1057-da.tag
+saved tag-file /opt/cdt/da/1058-da.tag
+Searched 16%. Elapsed: 00:00:32. ETA: 00:02:49. Matches: 1739.saved tag-file /opt/cdt/da/1061-da.tag
+saved tag-file /opt/cdt/da/1062-da.tag
+saved tag-file /opt/cdt/da/1063-da.tag
+saved tag-file /opt/cdt/da/1067-da.tag
+Searched 17%. Elapsed: 00:00:32. ETA: 00:02:40. Matches: 1751.Searched 17%. Elapsed: 00:00:33. ETA: 00:02:42. Matches: 1751.Searched 17%. Elapsed: 00:00:33. ETA: 00:02:45. Matches: 1751.Searched 18%. Elapsed: 00:00:34. ETA: 00:02:36. Matches: 1751.Searched 18%. Elapsed: 00:00:34. ETA: 00:02:38. Matches: 1751.Searched 19%. Elapsed: 00:00:35. ETA: 00:02:30. Matches: 1751.Searched 19%. Elapsed: 00:00:35. ETA: 00:02:33. Matches: 1751.Searched 19%. Elapsed: 00:00:36. ETA: 00:02:35. Matches: 1751.Searched 20%. Elapsed: 00:00:36. ETA: 00:02:27. Matches: 1751.Searched 20%. Elapsed: 00:00:37. ETA: 00:02:29. Matches: 1751.Searched 21%. Elapsed: 00:00:37. ETA: 00:02:22. Matches: 1751.Searched 21%. Elapsed: 00:00:38. ETA: 00:02:24. Matches: 1751.Searched 21%. Elapsed: 00:00:39. ETA: 00:02:26. Matches: 1751.Searched 22%. Elapsed: 00:00:39. ETA: 00:02:20. Matches: 1751.Searched 22%. Elapsed: 00:00:40. ETA: 00:02:22. Matches: 1751.Searched 23%. Elapsed: 00:00:40. ETA: 00:02:15. Matches: 1751.Searched 23%. Elapsed: 00:00:41. ETA: 00:02:17. Matches: 1751.Searched 23%. Elapsed: 00:00:41. ETA: 00:02:19. Matches: 1751.Searched 24%. Elapsed: 00:00:42. ETA: 00:02:13. Matches: 1751.Searched 24%. Elapsed: 00:00:42. ETA: 00:02:15. Matches: 1751.Searched 25%. Elapsed: 00:00:43. ETA: 00:02:09. Matches: 1751.Searched 26%. Elapsed: 00:00:43. ETA: 00:02:04. Matches: 1751.Searched 26%. Elapsed: 00:00:44. ETA: 00:02:05. Matches: 1751.Searched 27%. Elapsed: 00:00:44. ETA: 00:02:00. Matches: 1751.Searched 27%. Elapsed: 00:00:45. ETA: 00:02:02. Matches: 1751.Searched 28%. Elapsed: 00:00:45. ETA: 00:01:57. Matches: 1751.Searched 28%. Elapsed: 00:00:46. ETA: 00:01:58. Matches: 1751.Searched 29%. Elapsed: 00:00:46. ETA: 00:01:54. Matches: 1751.Searched 30%. Elapsed: 00:00:47. ETA: 00:01:50. Matches: 1751.Searched 30%. Elapsed: 00:00:47. ETA: 00:01:51. Matches: 1751.Searched 31%. Elapsed: 00:00:48. ETA: 00:01:47. Matches: 1751.Searched 31%. Elapsed: 00:00:48. ETA: 00:01:48. Matches: 1751.Searched 32%. Elapsed: 00:00:49. ETA: 00:01:44. Matches: 1751.Searched 33%. Elapsed: 00:00:49. ETA: 00:01:41. Matches: 1751.Searched 33%. Elapsed: 00:00:50. ETA: 00:01:42. Matches: 1751.Searched 34%. Elapsed: 00:00:50. ETA: 00:01:38. Matches: 1751.Searched 34%. Elapsed: 00:00:51. ETA: 00:01:39. Matches: 1751.Searched 35%. Elapsed: 00:00:51. ETA: 00:01:36. Matches: 1751.Searched 36%. Elapsed: 00:00:52. ETA: 00:01:33. Matches: 1751.Searched 36%. Elapsed: 00:00:52. ETA: 00:01:34. Matches: 1751.Searched 37%. Elapsed: 00:00:53. ETA: 00:01:30. Matches: 1751.Searched 37%. Elapsed: 00:00:53. ETA: 00:01:31. Matches: 1751.Searched 38%. Elapsed: 00:00:54. ETA: 00:01:28. Matches: 1751.Searched 38%. Elapsed: 00:00:55. ETA: 00:01:29. Matches: 1751.Searched 39%. Elapsed: 00:00:55. ETA: 00:01:26. Matches: 1751.Searched 39%. Elapsed: 00:00:56. ETA: 00:01:27. Matches: 1751.Searched 40%. Elapsed: 00:00:56. ETA: 00:01:24. Matches: 1751.Searched 40%. Elapsed: 00:00:57. ETA: 00:01:25. Matches: 1751.Searched 41%. Elapsed: 00:00:57. ETA: 00:01:22. Matches: 1751.Searched 41%. Elapsed: 00:00:58. ETA: 00:01:23. Matches: 1751.Searched 41%. Elapsed: 00:00:58. ETA: 00:01:24. Matches: 1751.Searched 42%. Elapsed: 00:00:59. ETA: 00:01:21. Matches: 1751.Searched 42%. Elapsed: 00:00:59. ETA: 00:01:22. Matches: 1751.Searched 43%. Elapsed: 00:01:00. ETA: 00:01:19. Matches: 1751.Searched 43%. Elapsed: 00:01:00. ETA: 00:01:20. Matches: 1751.Searched 44%. Elapsed: 00:01:01. ETA: 00:01:17. Matches: 1751.Searched 44%. Elapsed: 00:01:01. ETA: 00:01:18. Matches: 1751.Searched 45%. Elapsed: 00:01:02. ETA: 00:01:16. Matches: 1751.Searched 45%. Elapsed: 00:01:02. ETA: 00:01:16. Matches: 1751.Searched 45%. Elapsed: 00:01:03. ETA: 00:01:17. Matches: 1751.Searched 46%. Elapsed: 00:01:03. ETA: 00:01:14. Matches: 1751.Searched 46%. Elapsed: 00:01:04. ETA: 00:01:15. Matches: 1751.Searched 47%. Elapsed: 00:01:04. ETA: 00:01:13. Matches: 1751.Searched 47%. Elapsed: 00:01:05. ETA: 00:01:13. Matches: 1751.Searched 48%. Elapsed: 00:01:05. ETA: 00:01:11. Matches: 1751.Searched 48%. Elapsed: 00:01:06. ETA: 00:01:12. Matches: 1751.Searched 49%. Elapsed: 00:01:06. ETA: 00:01:09. Matches: 1751.Searched 49%. Elapsed: 00:01:07. ETA: 00:01:10. Matches: 1751.Searched 49%. Elapsed: 00:01:08. ETA: 00:01:10. Matches: 1751.Searched 50%. Elapsed: 00:01:08. ETA: 00:01:08. Matches: 1751.Searched 50%. Elapsed: 00:01:09. ETA: 00:01:09. Matches: 1751.Searched 51%. Elapsed: 00:01:09. ETA: 00:01:06. Matches: 1751.Searched 51%. Elapsed: 00:01:10. ETA: 00:01:07. Matches: 1751.Searched 52%. Elapsed: 00:01:10. ETA: 00:01:05. Matches: 1751.Searched 52%. Elapsed: 00:01:11. ETA: 00:01:05. Matches: 1751.Searched 53%. Elapsed: 00:01:11. ETA: 00:01:03. Matches: 1751.Searched 53%. Elapsed: 00:01:12. ETA: 00:01:04. Matches: 1751.Searched 53%. Elapsed: 00:01:12. ETA: 00:01:04. Matches: 1751.Searched 54%. Elapsed: 00:01:13. ETA: 00:01:02. Matches: 1751.Searched 54%. Elapsed: 00:01:13. ETA: 00:01:02. Matches: 1751.Searched 55%. Elapsed: 00:01:14. ETA: 00:01:00. Matches: 1751.Searched 55%. Elapsed: 00:01:14. ETA: 00:01:01. Matches: 1751.Searched 56%. Elapsed: 00:01:15. ETA: 00:00:59. Matches: 1751.Searched 56%. Elapsed: 00:01:15. ETA: 00:00:59. Matches: 1751.Searched 57%. Elapsed: 00:01:16. ETA: 00:00:57. Matches: 1751.Searched 57%. Elapsed: 00:01:16. ETA: 00:00:57. Matches: 1751.Searched 58%. Elapsed: 00:01:17. ETA: 00:00:56. Matches: 1751.Searched 58%. Elapsed: 00:01:17. ETA: 00:00:56. Matches: 1751.Searched 59%. Elapsed: 00:01:18. ETA: 00:00:54. Matches: 1751.Searched 60%. Elapsed: 00:01:18. ETA: 00:00:52. Matches: 1751.Searched 60%. Elapsed: 00:01:19. ETA: 00:00:52. Matches: 1751.Searched 61%. Elapsed: 00:01:19. ETA: 00:00:51. Matches: 1751.Searched 61%. Elapsed: 00:01:20. ETA: 00:00:51. Matches: 1751.Searched 62%. Elapsed: 00:01:21. ETA: 00:00:49. Matches: 1751.Searched 62%. Elapsed: 00:01:21. ETA: 00:00:49. Matches: 1751.Searched 63%. Elapsed: 00:01:22. ETA: 00:00:48. Matches: 1751.Searched 63%. Elapsed: 00:01:22. ETA: 00:00:48. Matches: 1751.Searched 64%. Elapsed: 00:01:23. ETA: 00:00:46. Matches: 1751.Searched 64%. Elapsed: 00:01:23. ETA: 00:00:46. Matches: 1751.Searched 65%. Elapsed: 00:01:24. ETA: 00:00:45. Matches: 1751.Searched 66%. Elapsed: 00:01:24. ETA: 00:00:43. Matches: 1751.Searched 66%. Elapsed: 00:01:25. ETA: 00:00:43. Matches: 1751.Searched 67%. Elapsed: 00:01:25. ETA: 00:00:42. Matches: 1751.Searched 67%. Elapsed: 00:01:26. ETA: 00:00:42. Matches: 1751.Searched 68%. Elapsed: 00:01:26. ETA: 00:00:40. Matches: 1751.Searched 68%. Elapsed: 00:01:27. ETA: 00:00:41. Matches: 1751.Searched 69%. Elapsed: 00:01:27. ETA: 00:00:39. Matches: 1751.Searched 69%. Elapsed: 00:01:28. ETA: 00:00:39. Matches: 1751.Searched 70%. Elapsed: 00:01:28. ETA: 00:00:38. Matches: 1751.Searched 70%. Elapsed: 00:01:29. ETA: 00:00:38. Matches: 1751.Searched 71%. Elapsed: 00:01:29. ETA: 00:00:36. Matches: 1751.Searched 71%. Elapsed: 00:01:30. ETA: 00:00:36. Matches: 1751.Searched 72%. Elapsed: 00:01:30. ETA: 00:00:35. Matches: 1751.Searched 73%. Elapsed: 00:01:31. ETA: 00:00:33. Matches: 1751.Searched 73%. Elapsed: 00:01:31. ETA: 00:00:33. Matches: 1751.Searched 74%. Elapsed: 00:01:32. ETA: 00:00:32. Matches: 1751.Searched 74%. Elapsed: 00:01:32. ETA: 00:00:32. Matches: 1751.Searched 75%. Elapsed: 00:01:33. ETA: 00:00:31. Matches: 1751.Searched 75%. Elapsed: 00:01:33. ETA: 00:00:31. Matches: 1751.Searched 76%. Elapsed: 00:01:34. ETA: 00:00:29. Matches: 1751.Searched 76%. Elapsed: 00:01:34. ETA: 00:00:29. Matches: 1751.Searched 77%. Elapsed: 00:01:35. ETA: 00:00:28. Matches: 1751.Searched 77%. Elapsed: 00:01:35. ETA: 00:00:28. Matches: 1751.Searched 78%. Elapsed: 00:01:36. ETA: 00:00:27. Matches: 1751.Searched 78%. Elapsed: 00:01:37. ETA: 00:00:27. Matches: 1751.Searched 78%. Elapsed: 00:01:37. ETA: 00:00:27. Matches: 1751.Searched 79%. Elapsed: 00:01:38. ETA: 00:00:26. Matches: 1751.Searched 79%. Elapsed: 00:01:38. ETA: 00:00:26. Matches: 1751.Searched 80%. Elapsed: 00:01:39. ETA: 00:00:24. Matches: 1751.Searched 80%. Elapsed: 00:01:39. ETA: 00:00:24. Matches: 1751.Searched 81%. Elapsed: 00:01:40. ETA: 00:00:23. Matches: 1751.Searched 81%. Elapsed: 00:01:40. ETA: 00:00:23. Matches: 1751.Searched 82%. Elapsed: 00:01:41. ETA: 00:00:22. Matches: 1751.Searched 82%. Elapsed: 00:01:41. ETA: 00:00:22. Matches: 1751.Searched 83%. Elapsed: 00:01:42. ETA: 00:00:20. Matches: 1751.Searched 83%. Elapsed: 00:01:42. ETA: 00:00:21. Matches: 1751.Searched 84%. Elapsed: 00:01:43. ETA: 00:00:19. Matches: 1751.Searched 85%. Elapsed: 00:01:43. ETA: 00:00:18. Matches: 1751.Searched 85%. Elapsed: 00:01:44. ETA: 00:00:18. Matches: 1751.Searched 85%. Elapsed: 00:01:44. ETA: 00:00:18. Matches: 1751.Searched 86%. Elapsed: 00:01:45. ETA: 00:00:17. Matches: 1751.Searched 86%. Elapsed: 00:01:45. ETA: 00:00:17. Matches: 1751.Searched 87%. Elapsed: 00:01:46. ETA: 00:00:15. Matches: 1751.Searched 88%. Elapsed: 00:01:46. ETA: 00:00:14. Matches: 1751.Searched 88%. Elapsed: 00:01:47. ETA: 00:00:14. Matches: 1751.Searched 89%. Elapsed: 00:01:47. ETA: 00:00:13. Matches: 1751.Searched 89%. Elapsed: 00:01:48. ETA: 00:00:13. Matches: 1751.Searched 90%. Elapsed: 00:01:48. ETA: 00:00:12. Matches: 1751.Searched 90%. Elapsed: 00:01:49. ETA: 00:00:12. Matches: 1751.Searched 91%. Elapsed: 00:01:49. ETA: 00:00:10. Matches: 1751.Searched 91%. Elapsed: 00:01:50. ETA: 00:00:10. Matches: 1751.Searched 92%. Elapsed: 00:01:50. ETA: 00:00:09. Matches: 1751.Searched 92%. Elapsed: 00:01:51. ETA: 00:00:09. Matches: 1751.Searched 92%. Elapsed: 00:01:51. ETA: 00:00:09. Matches: 1751.Searched 93%. Elapsed: 00:01:52. ETA: 00:00:08. Matches: 1751.Searched 93%. Elapsed: 00:01:53. ETA: 00:00:08. Matches: 1751.Searched 94%. Elapsed: 00:01:53. ETA: 00:00:07. Matches: 1751.Searched 95%. Elapsed: 00:01:54. ETA: 00:00:06. Matches: 1751.Searched 95%. Elapsed: 00:01:54. ETA: 00:00:06. Matches: 1751.Searched 96%. Elapsed: 00:01:55. ETA: 00:00:04. Matches: 1751.Searched 96%. Elapsed: 00:01:55. ETA: 00:00:04. Matches: 1751.Searched 97%. Elapsed: 00:01:56. ETA: 00:00:03. Matches: 1751.Searched 97%. Elapsed: 00:01:56. ETA: 00:00:03. Matches: 1751.Searched 98%. Elapsed: 00:01:57. ETA: 00:00:02. Matches: 1751.Searched 98%. Elapsed: 00:01:57. ETA: 00:00:02. Matches: 1751.Searched 99%. Elapsed: 00:01:58. ETA: 00:00:01. Matches: 1751.Searched 99%. Elapsed: 00:01:58. ETA: 00:00:01. Matches: 1751.                                                              1751 matches found in 00:01:59 for query "-corpus -yes $X pred $Y -do(edel $X pred $Y ; $X preds $Y)".
+*1*
+*2*
+*3*
+*M1   match at /opt/cdt/da/0001-da.tag:102 ($X, $Y) = (108, 107)
+*4*
+DTAG commit version 2010-04-23
+DTAG update version 2008-08-04
+Downloading files from CDT repository
+At revision 956.
+svn: Try 'svn help' for more info
+svn: Not enough arguments provided
+Uploading files to CDT repository
+Sending        trunk/da/0001-da-disc-morten.tag
+Sending        trunk/da/0001-da.tag
+Sending        trunk/da/0005-da-disc-morten.tag
+Sending        trunk/da/0005-da.tag
+Sending        trunk/da/0008-da.tag
+Sending        trunk/da/0021-da.tag
+Sending        trunk/da/0029-da.tag
+Sending        trunk/da/0043-da.tag
+Sending        trunk/da/0061-da.tag
+Sending        trunk/da/0065-da-disc-morten.tag
+Sending        trunk/da/0065-da.tag
+Sending        trunk/da/0073-da.tag
+Sending        trunk/da/0079-da.tag
+Sending        trunk/da/0083-da.tag
+Sending        trunk/da/0086-da-disc-morten.tag
+Sending        trunk/da/0086-da.tag
+Sending        trunk/da/0090-da-disc-morten.tag
+Sending        trunk/da/0090-da.tag
+Sending        trunk/da/0091-da.tag
+Sending        trunk/da/0093-da-disc-morten.tag
+Sending        trunk/da/0093-da.tag
+Sending        trunk/da/0096-da.tag
+Sending        trunk/da/0097-da.tag
+Sending        trunk/da/0101-da.tag
+Sending        trunk/da/0102-da.tag
+Sending        trunk/da/0103-da-disc-morten.tag
+Sending        trunk/da/0103-da.tag
+Sending        trunk/da/0107-da-disc-morten.tag
+Sending        trunk/da/0107-da.tag
+Sending        trunk/da/0112-da.tag
+Sending        trunk/da/0113-da.tag
+Sending        trunk/da/0119-da-disc-morten.tag
+Sending        trunk/da/0119-da.tag
+Sending        trunk/da/0132-da.tag
+Sending        trunk/da/0133-da.tag
+Sending        trunk/da/0134-da.tag
+Sending        trunk/da/0138-da.tag
+Sending        trunk/da/0140-da.tag
+Sending        trunk/da/0141-da-disc-morten.tag
+Sending        trunk/da/0141-da.tag
+Sending        trunk/da/0144-da-disc-morten.tag
+Sending        trunk/da/0144-da.tag
+Sending        trunk/da/0148-da-disc-morten.tag
+Sending        trunk/da/0148-da.tag
+Sending        trunk/da/0150-da.tag
+Sending        trunk/da/0151-da-disc-morten.tag
+Sending        trunk/da/0151-da.tag
+Sending        trunk/da/0155-da.tag
+Sending        trunk/da/0159-da.tag
+Sending        trunk/da/0166-da.tag
+Sending        trunk/da/0169-da.tag
+Sending        trunk/da/0174-da.tag
+Sending        trunk/da/0176-da-disc-morten.tag
+Sending        trunk/da/0176-da.tag
+Sending        trunk/da/0178-da.tag
+Sending        trunk/da/0182-da.tag
+Sending        trunk/da/0184-da.tag
+Sending        trunk/da/0187-da.tag
+Sending        trunk/da/0188-da-disc.tag
+Sending        trunk/da/0188-da.tag
+Sending        trunk/da/0190-da-disc-morten.tag
+Sending        trunk/da/0190-da.tag
+Sending        trunk/da/0191-da-disc-morten.tag
+Sending        trunk/da/0191-da.tag
+Sending        trunk/da/0197-da.tag
+Sending        trunk/da/0202-da.tag
+Sending        trunk/da/0203-da.tag
+Sending        trunk/da/0204-da.tag
+Sending        trunk/da/0209-da.tag
+Sending        trunk/da/0211-da.tag
+Sending        trunk/da/0212-da.tag
+Sending        trunk/da/0215-da-disc-morten.tag
+Sending        trunk/da/0215-da.tag
+Sending        trunk/da/0220-da.tag
+Sending        trunk/da/0229-da.tag
+Sending        trunk/da/0235-da-disc-lotte.tag
+Sending        trunk/da/0235-da.tag
+Sending        trunk/da/0237-da.tag
+Sending        trunk/da/0240-da.tag
+Sending        trunk/da/0245-da.tag
+Sending        trunk/da/0257-da-disc-morten.tag
+Sending        trunk/da/0257-da.tag
+Sending        trunk/da/0258-da-disc-morten.tag
+Sending        trunk/da/0258-da.tag
+Sending        trunk/da/0259-da.tag
+Sending        trunk/da/0260-da.tag
+Sending        trunk/da/0264-da.tag
+Sending        trunk/da/0265-da-disc-morten.tag
+Sending        trunk/da/0265-da.tag
+Sending        trunk/da/0267-da.tag
+Sending        trunk/da/0269-da-disc-morten.tag
+Sending        trunk/da/0269-da.tag
+Sending        trunk/da/0272-da.tag
+Sending        trunk/da/0273-da-disc-morten.tag
+Sending        trunk/da/0273-da.tag
+Sending        trunk/da/0278-da-disc-morten.tag
+Sending        trunk/da/0278-da.tag
+Sending        trunk/da/0279-da.tag
+Sending        trunk/da/0281-da.tag
+Sending        trunk/da/0284-da.tag
+Sending        trunk/da/0285-da-disc-morten.tag
+Sending        trunk/da/0285-da.tag
+Sending        trunk/da/0286-da.tag
+Sending        trunk/da/0287-da.tag
+Sending        trunk/da/0288-da.tag
+Sending        trunk/da/0294-da-disc-morten.tag
+Sending        trunk/da/0294-da.tag
+Sending        trunk/da/0298-da-disc-morten.tag
+Sending        trunk/da/0298-da.tag
+Sending        trunk/da/0300-da.tag
+Sending        trunk/da/0304-da.tag
+Sending        trunk/da/0307-da.tag
+Sending        trunk/da/0309-da.tag
+Sending        trunk/da/0312-da.tag
+Sending        trunk/da/0314-da.tag
+Sending        trunk/da/0316-da.tag
+Sending        trunk/da/0319-da.tag
+Sending        trunk/da/0320-da.tag
+Sending        trunk/da/0324-da.tag
+Sending        trunk/da/0326-da.tag
+Sending        trunk/da/0327-da.tag
+Sending        trunk/da/0328-da.tag
+Sending        trunk/da/0333-da.tag
+Sending        trunk/da/0334-da.tag
+Sending        trunk/da/0337-da.tag
+Sending        trunk/da/0339-da.tag
+Sending        trunk/da/0342-da.tag
+Sending        trunk/da/0345-da.tag
+Sending        trunk/da/0351-da.tag
+Sending        trunk/da/0354-da.tag
+Sending        trunk/da/0355-da.tag
+Sending        trunk/da/0357-da.tag
+Sending        trunk/da/0361-da.tag
+Sending        trunk/da/0366-da.tag
+Sending        trunk/da/0375-da.tag
+Sending        trunk/da/0376-da.tag
+Sending        trunk/da/0386-da.tag
+Sending        trunk/da/0388-da-disc.tag
+Sending        trunk/da/0391-da.tag
+Sending        trunk/da/0394-da.tag
+Sending        trunk/da/0395-da.tag
+Sending        trunk/da/0397-da.tag
+Sending        trunk/da/0401-da.tag
+Sending        trunk/da/0411-da.tag
+Sending        trunk/da/0416-da.tag
+Sending        trunk/da/0421-da.tag
+Sending        trunk/da/0422-da.tag
+Sending        trunk/da/0426-da.tag
+Sending        trunk/da/0428-da.tag
+Sending        trunk/da/0429-da.tag
+Sending        trunk/da/0431-da.tag
+Sending        trunk/da/0434-da.tag
+Sending        trunk/da/0438-da.tag
+Sending        trunk/da/0441-da.tag
+Sending        trunk/da/0442-da.tag
+Sending        trunk/da/0446-da.tag
+Sending        trunk/da/0448-da.tag
+Sending        trunk/da/0449-da.tag
+Sending        trunk/da/0452-da.tag
+Sending        trunk/da/0453-da.tag
+Sending        trunk/da/0455-da.tag
+Sending        trunk/da/0465-da.tag
+Sending        trunk/da/0468-da.tag
+Sending        trunk/da/0470-da.tag
+Sending        trunk/da/0472-da.tag
+Sending        trunk/da/0473-da.tag
+Sending        trunk/da/0475-da.tag
+Sending        trunk/da/0479-da.tag
+Sending        trunk/da/0483-da.tag
+Sending        trunk/da/0484-da.tag
+Sending        trunk/da/0486-da.tag
+Sending        trunk/da/0488-da.tag
+Sending        trunk/da/0496-da.tag
+Sending        trunk/da/0498-da.tag
+Sending        trunk/da/0500-da.tag
+Sending        trunk/da/0502-da-disc.tag
+Sending        trunk/da/0502-da.tag
+Sending        trunk/da/0507-da.tag
+Sending        trunk/da/0510-da.tag
+Sending        trunk/da/0511-da.tag
+Sending        trunk/da/0519-da.tag
+Sending        trunk/da/0520-da.tag
+Sending        trunk/da/0524-da.tag
+Sending        trunk/da/0526-da.tag
+Sending        trunk/da/0530-da.tag
+Sending        trunk/da/0531-da-disc-iorn.tag
+Sending        trunk/da/0531-da-disc-lotte.tag
+Sending        trunk/da/0531-da-disc-morten.tag
+Sending        trunk/da/0531-da-disc.tag
+Sending        trunk/da/0531-da.tag
+Sending        trunk/da/0535-da.tag
+Sending        trunk/da/0538-da.tag
+Sending        trunk/da/0540-da.tag
+Sending        trunk/da/0544-da.tag
+Sending        trunk/da/0546-da.tag
+Sending        trunk/da/0547-da.tag
+Sending        trunk/da/0548-da.tag
+Sending        trunk/da/0563-da.tag
+Sending        trunk/da/0564-da.tag
+Sending        trunk/da/0567-da.tag
+Sending        trunk/da/0571-da.tag
+Sending        trunk/da/0573-da.tag
+Sending        trunk/da/0576-da.tag
+Sending        trunk/da/0577-da.tag
+Sending        trunk/da/0580-da.tag
+Sending        trunk/da/0581-da.tag
+Sending        trunk/da/0586-da.tag
+Sending        trunk/da/0587-da.tag
+Sending        trunk/da/0588-da.tag
+Sending        trunk/da/0590-da.tag
+Sending        trunk/da/0593-da-disc-iorn.tag
+Sending        trunk/da/0593-da-disc-lotte.tag
+Sending        trunk/da/0593-da-disc-morten.tag
+Sending        trunk/da/0593-da-disc.tag
+Sending        trunk/da/0593-da.tag
+Sending        trunk/da/0597-da.tag
+Sending        trunk/da/0601-da.tag
+Sending        trunk/da/0602-da-disc-iorn.tag
+Sending        trunk/da/0602-da-disc-lotte.tag
+Sending        trunk/da/0602-da-disc-morten.tag
+Sending        trunk/da/0602-da-disc.tag
+Sending        trunk/da/0602-da.tag
+Sending        trunk/da/0604-da.tag
+Sending        trunk/da/0607-da.tag
+Sending        trunk/da/0612-da.tag
+Sending        trunk/da/0613-da.tag
+Sending        trunk/da/0614-da.tag
+Sending        trunk/da/0618-da.tag
+Sending        trunk/da/0620-da-disc-lotte.tag
+Sending        trunk/da/0620-da-disc-morten.tag
+Sending        trunk/da/0620-da-disc.tag
+Sending        trunk/da/0620-da.tag
+Sending        trunk/da/0623-da.tag
+Sending        trunk/da/0624-da.tag
+Sending        trunk/da/0626-da.tag
+Sending        trunk/da/0627-da.tag
+Sending        trunk/da/0630-da.tag
+Sending        trunk/da/0641-da.tag
+Sending        trunk/da/0643-da.tag
+Sending        trunk/da/0644-da.tag
+Sending        trunk/da/0645-da.tag
+Sending        trunk/da/0646-da.tag
+Sending        trunk/da/0647-da-disc-iorn.tag
+Sending        trunk/da/0647-da-disc-lotte.tag
+Sending        trunk/da/0647-da-disc-morten.tag
+Sending        trunk/da/0647-da-disc.tag
+Sending        trunk/da/0647-da.tag
+Sending        trunk/da/0652-da.tag
+Sending        trunk/da/0654-da.tag
+Sending        trunk/da/0656-da.tag
+Sending        trunk/da/0660-da.tag
+Sending        trunk/da/0666-da.tag
+Sending        trunk/da/0667-da.tag
+Sending        trunk/da/0670-da.tag
+Sending        trunk/da/0674-da.tag
+Sending        trunk/da/0675-da.tag
+Sending        trunk/da/0680-da.tag
+Sending        trunk/da/0683-da.tag
+Sending        trunk/da/0685-da.tag
+Sending        trunk/da/0688-da.tag
+Sending        trunk/da/0689-da.tag
+Sending        trunk/da/0690-da.tag
+Sending        trunk/da/0691-da.tag
+Sending        trunk/da/0694-da.tag
+Sending        trunk/da/0696-da.tag
+Sending        trunk/da/0697-da.tag
+Sending        trunk/da/0700-da.tag
+Sending        trunk/da/0702-da.tag
+Sending        trunk/da/0704-da.tag
+Sending        trunk/da/0705-da.tag
+Sending        trunk/da/0708-da.tag
+Sending        trunk/da/0713-da.tag
+Sending        trunk/da/0715-da.tag
+Sending        trunk/da/0720-da.tag
+Sending        trunk/da/0725-da.tag
+Sending        trunk/da/0729-da.tag
+Sending        trunk/da/0730-da.tag
+Sending        trunk/da/0733-da.tag
+Sending        trunk/da/0735-da.tag
+Sending        trunk/da/0736-da.tag
+Sending        trunk/da/0738-da.tag
+Sending        trunk/da/0741-da.tag
+Sending        trunk/da/0742-da.tag
+Sending        trunk/da/0747-da.tag
+Sending        trunk/da/0752-da.tag
+Sending        trunk/da/0754-da.tag
+Sending        trunk/da/0759-da.tag
+Sending        trunk/da/0763-da.tag
+Sending        trunk/da/0770-da.tag
+Sending        trunk/da/0771-da.tag
+Sending        trunk/da/0778-da.tag
+Sending        trunk/da/0780-da.tag
+Sending        trunk/da/0781-da-disc-iorn.tag
+Sending        trunk/da/0781-da-disc-lotte.tag
+Sending        trunk/da/0781-da-disc-morten.tag
+Sending        trunk/da/0781-da-disc.tag
+Sending        trunk/da/0781-da.tag
+Sending        trunk/da/0783-da-disc-iorn.tag
+Sending        trunk/da/0783-da-disc-lotte.tag
+Sending        trunk/da/0783-da-disc-morten.tag
+Sending        trunk/da/0783-da.tag
+Sending        trunk/da/0790-da.tag
+Sending        trunk/da/0793-da.tag
+Sending        trunk/da/0794-da.tag
+Sending        trunk/da/0795-da.tag
+Sending        trunk/da/0800-da-disc-iorn.tag
+Sending        trunk/da/0800-da-disc-lotte.tag
+Sending        trunk/da/0800-da-disc-morten.tag
+Sending        trunk/da/0800-da-disc.tag
+Sending        trunk/da/0800-da.tag
+Sending        trunk/da/0805-da.tag
+Sending        trunk/da/0809-da.tag
+Sending        trunk/da/0817-da.tag
+Sending        trunk/da/0821-da.tag
+Sending        trunk/da/0822-da.tag
+Sending        trunk/da/0837-da.tag
+Sending        trunk/da/0839-da.tag
+Sending        trunk/da/0843-da.tag
+Sending        trunk/da/0848-da-disc-iorn.tag
+Sending        trunk/da/0848-da-disc-lotte.tag
+Sending        trunk/da/0848-da.tag
+Sending        trunk/da/0850-da.tag
+Sending        trunk/da/0851-da.tag
+Sending        trunk/da/0853-da.tag
+Sending        trunk/da/0855-da.tag
+Sending        trunk/da/0856-da.tag
+Sending        trunk/da/0862-da.tag
+Sending        trunk/da/0863-da-disc.tag
+Sending        trunk/da/0863-da.tag
+Sending        trunk/da/0864-da.tag
+Sending        trunk/da/0866-da-disc-iorn.tag
+Sending        trunk/da/0866-da-disc-lotte.tag
+Sending        trunk/da/0866-da-disc-morten.tag
+Sending        trunk/da/0866-da.tag
+Sending        trunk/da/0870-da.tag
+Sending        trunk/da/0873-da.tag
+Sending        trunk/da/0874-da.tag
+Sending        trunk/da/0876-da-disc.tag
+Sending        trunk/da/0876-da.tag
+Sending        trunk/da/0877-da.tag
+Sending        trunk/da/0879-da.tag
+Sending        trunk/da/0881-da.tag
+Sending        trunk/da/0883-da.tag
+Sending        trunk/da/0884-da.tag
+Sending        trunk/da/0888-da.tag
+Sending        trunk/da/0889-da.tag
+Sending        trunk/da/0893-da.tag
+Sending        trunk/da/0895-da.tag
+Sending        trunk/da/0902-da.tag
+Sending        trunk/da/0904-da.tag
+Sending        trunk/da/0905-da.tag
+Sending        trunk/da/0915-da-disc-iorn.tag
+Sending        trunk/da/0915-da-disc-lotte.tag
+Sending        trunk/da/0915-da-disc-morten.tag
+Sending        trunk/da/0915-da.tag
+Sending        trunk/da/0917-da.tag
+Sending        trunk/da/0919-da.tag
+Sending        trunk/da/0925-da.tag
+Sending        trunk/da/0926-da.tag
+Sending        trunk/da/0927-da.tag
+Sending        trunk/da/0931-da.tag
+Sending        trunk/da/0932-da.tag
+Sending        trunk/da/0934-da.tag
+Sending        trunk/da/0935-da.tag
+Sending        trunk/da/0939-da.tag
+Sending        trunk/da/0940-da.tag
+Sending        trunk/da/0943-da.tag
+Sending        trunk/da/0947-da.tag
+Sending        trunk/da/0949-da.tag
+Sending        trunk/da/0951-da.tag
+Sending        trunk/da/0955-da.tag
+Sending        trunk/da/0956-da-disc.tag
+Sending        trunk/da/0956-da.tag
+Sending        trunk/da/0957-da.tag
+Sending        trunk/da/0958-da.tag
+Sending        trunk/da/0960-da-disc-iorn.tag
+Sending        trunk/da/0960-da-disc-lotte.tag
+Sending        trunk/da/0960-da-disc-morten.tag
+Sending        trunk/da/0960-da.tag
+Sending        trunk/da/0962-da.tag
+Sending        trunk/da/0965-da.tag
+Sending        trunk/da/0968-da.tag
+Sending        trunk/da/0970-da.tag
+Sending        trunk/da/0974-da.tag
+Sending        trunk/da/0975-da.tag
+Sending        trunk/da/0978-da.tag
+Sending        trunk/da/0986-da.tag
+Sending        trunk/da/0988-da.tag
+Sending        trunk/da/0989-da.tag
+Sending        trunk/da/0992-da.tag
+Sending        trunk/da/0998-da.tag
+Sending        trunk/da/1001-da.tag
+Sending        trunk/da/1007-da.tag
+Sending        trunk/da/1008-da.tag
+Sending        trunk/da/1010-da.tag
+Sending        trunk/da/1011-da.tag
+Sending        trunk/da/1014-da-disc-iorn.tag
+Sending        trunk/da/1014-da-disc-lotte.tag
+Sending        trunk/da/1014-da-disc-morten.tag
+Sending        trunk/da/1014-da-disc.tag
+Sending        trunk/da/1014-da.tag
+Sending        trunk/da/1017-da.tag
+Sending        trunk/da/1019-da.tag
+Sending        trunk/da/1021-da.tag
+Sending        trunk/da/1030-da.tag
+Sending        trunk/da/1031-da.tag
+Sending        trunk/da/1032-da.tag
+Sending        trunk/da/1035-da-disc-iorn.tag
+Sending        trunk/da/1035-da-disc-lotte.tag
+Sending        trunk/da/1035-da-disc-morten.tag
+Sending        trunk/da/1035-da-disc.tag
+Sending        trunk/da/1035-da.tag
+Sending        trunk/da/1038-da-disc-iorn.tag
+Sending        trunk/da/1038-da-disc-lotte.tag
+Sending        trunk/da/1038-da-disc-morten.tag
+Sending        trunk/da/1038-da-disc.tag
+Sending        trunk/da/1038-da.tag
+Sending        trunk/da/1039-da.tag
+Sending        trunk/da/1040-da.tag
+Sending        trunk/da/1041-da.tag
+Sending        trunk/da/1042-da.tag
+Sending        trunk/da/1043-da-disc-iorn.tag
+Sending        trunk/da/1043-da-disc-lotte.tag
+Sending        trunk/da/1043-da-disc-morten.tag
+Sending        trunk/da/1043-da.tag
+Sending        trunk/da/1046-da.tag
+Sending        trunk/da/1047-da.tag
+Sending        trunk/da/1048-da.tag
+Sending        trunk/da/1049-da.tag
+Sending        trunk/da/1053-da.tag
+Sending        trunk/da/1054-da.tag
+Sending        trunk/da/1055-da.tag
+Sending        trunk/da/1056-da.tag
+Sending        trunk/da/1057-da.tag
+Sending        trunk/da/1058-da.tag
+Sending        trunk/da/1061-da.tag
+Sending        trunk/da/1062-da.tag
+Sending        trunk/da/1063-da.tag
+Sending        trunk/da/1067-da.tag
+Sending        trunk/da/1071-da.tag
+Sending        trunk/da/1075-da.tag
+Sending        trunk/da/1077-da-disc.tag
+Sending        trunk/da/1077-da.tag
+Sending        trunk/da/1094-da.tag
+Sending        trunk/da/1095-da.tag
+Sending        trunk/da/1100-da.tag
+Sending        trunk/da/1104-da.tag
+Sending        trunk/da/1117-da.tag
+Sending        trunk/da/1125-da.tag
+Sending        trunk/da/1126-da.tag
+Sending        trunk/da/1127-da.tag
+Sending        trunk/da/1128-da.tag
+Sending        trunk/da/1129-da.tag
+Sending        trunk/da/1130-da.tag
+Sending        trunk/da/1144-da.tag
+Sending        trunk/da/1150-da.tag
+Sending        trunk/da/1154-da.tag
+Sending        trunk/da/1166-da.tag
+Sending        trunk/da/1168-da.tag
+Sending        trunk/da/1169-da.tag
+Sending        trunk/da/1170-da.tag
+Sending        trunk/da/1172-da.tag
+Sending        trunk/da/1173-da.tag
+Sending        trunk/da/1174-da.tag
+Sending        trunk/da/1175-da.tag
+Sending        trunk/da/1181-da.tag
+Sending        trunk/da/1182-da.tag
+Sending        trunk/da/1183-da.tag
+Sending        trunk/da/1186-da.tag
+Sending        trunk/da/1206-da.tag
+Sending        trunk/da/1217-da.tag
+Sending        trunk/da/1223-da.tag
+Sending        trunk/da/1224-da.tag
+Sending        trunk/da/1227-da.tag
+Sending        trunk/da/1228-da.tag
+Sending        trunk/da/1237-da.tag
+Sending        trunk/da/1241-da-disc.tag
+Sending        trunk/da/1241-da.tag
+Sending        trunk/da/1244-da.tag
+Sending        trunk/da/1250-da.tag
+Sending        trunk/da/1251-da.tag
+Sending        trunk/da/1253-da.tag
+Sending        trunk/da/1255-da.tag
+Sending        trunk/da/1259-da.tag
+Sending        trunk/da/1265-da.tag
+Sending        trunk/da/1270-da.tag
+Sending        trunk/da/1276-da.tag
+Sending        trunk/da/1277-da.tag
+Sending        trunk/da/1284-da.tag
+Sending        trunk/da/1289-da.tag
+Sending        trunk/da/1292-da.tag
+Sending        trunk/da/1300-da.tag
+Sending        trunk/da/1302-da.tag
+Sending        trunk/da/1306-da.tag
+Sending        trunk/da/1307-da.tag
+Sending        trunk/da/1319-da.tag
+Sending        trunk/da/1321-da.tag
+Sending        trunk/da/1325-da.tag
+Sending        trunk/da/1328-da.tag
+Sending        trunk/da/1332-da.tag
+Sending        trunk/da/1333-da.tag
+Sending        trunk/da/1336-da.tag
+Sending        trunk/da/1337-da-disc-iorn.tag
+Sending        trunk/da/1337-da-disc-lotte.tag
+Sending        trunk/da/1337-da-disc-morten.tag
+Sending        trunk/da/1337-da.tag
+Sending        trunk/da/1338-da.tag
+Sending        trunk/da/1339-da.tag
+Sending        trunk/da/1340-da.tag
+Sending        trunk/da/1347-da-disc-iorn.tag
+Sending        trunk/da/1347-da-disc-lotte.tag
+Sending        trunk/da/1347-da-disc-morten.tag
+Sending        trunk/da/1347-da-disc.tag
+Sending        trunk/da/1347-da.tag
+Sending        trunk/da/1350-da.tag
+Sending        trunk/da/1355-da.tag
+Sending        trunk/da/1357-da.tag
+Sending        trunk/da/1361-da.tag
+Sending        trunk/da/1364-da.tag
+Sending        trunk/da/1365-da.tag
+Sending        trunk/da/1368-da.tag
+Sending        trunk/da/1371-da.tag
+Sending        trunk/da/1372-da.tag
+Sending        trunk/da/1377-da.tag
+Sending        trunk/da/1378-da.tag
+Sending        trunk/da/1379-da.tag
+Sending        trunk/da/1381-da.tag
+Sending        trunk/da/1383-da-disc.tag
+Sending        trunk/da/1383-da.tag
+Sending        trunk/da/1385-da.tag
+Sending        trunk/da/1386-da.tag
+Sending        trunk/da/1390-da-disc.tag
+Sending        trunk/da/1390-da.tag
+Sending        trunk/da/1394-da.tag
+Sending        trunk/da/1398-da.tag
+Sending        trunk/da/1400-da.tag
+Sending        trunk/da/1401-da.tag
+Sending        trunk/da/1405-da.tag
+Sending        trunk/da/1406-da.tag
+Sending        trunk/da/1407-da.tag
+Sending        trunk/da/1408-da-disc-iorn.tag
+Sending        trunk/da/1408-da-disc-lotte.tag
+Sending        trunk/da/1408-da-disc-morten.tag
+Sending        trunk/da/1408-da-disc.tag
+Sending        trunk/da/1408-da.tag
+Sending        trunk/da/1416-da.tag
+Sending        trunk/da/1419-da.tag
+Sending        trunk/da/1420-da-disc-iorn.tag
+Sending        trunk/da/1420-da-disc-lotte.tag
+Sending        trunk/da/1420-da-disc-morten.tag
+Sending        trunk/da/1420-da-disc.tag
+Sending        trunk/da/1420-da.tag
+Sending        trunk/da/1421-da.tag
+Sending        trunk/da/1426-da.tag
+Sending        trunk/da/1427-da.tag
+Sending        trunk/da/1429-da-disc.tag
+Sending        trunk/da/1429-da.tag
+Sending        trunk/da/1433-da.tag
+Sending        trunk/da/1435-da.tag
+Sending        trunk/da/1437-da.tag
+Sending        trunk/da/1439-da.tag
+Sending        trunk/da/1449-da.tag
+Sending        trunk/da/1453-da.tag
+Sending        trunk/da/1457-da.tag
+Sending        trunk/da/1465-da.tag
+Sending        trunk/da/1466-da.tag
+Sending        trunk/da/1467-da.tag
+Sending        trunk/da/1468-da.tag
+Sending        trunk/da/1471-da.tag
+Sending        trunk/da/1478-da.tag
+Sending        trunk/da/1481-da.tag
+Sending        trunk/da/1488-da.tag
+Sending        trunk/da/1490-da.tag
+Sending        trunk/da/1491-da.tag
+Sending        trunk/da/1493-da.tag
+Sending        trunk/da/1494-da.tag
+Sending        trunk/da/1497-da-disc-iorn.tag
+Sending        trunk/da/1497-da-disc-lotte.tag
+Sending        trunk/da/1497-da-disc-morten.tag
+Sending        trunk/da/1497-da.tag
+Sending        trunk/da/1498-da.tag
+Sending        trunk/da/1500-da.tag
+Sending        trunk/da/1503-da.tag
+Sending        trunk/da/1508-da.tag
+Sending        trunk/da/1513-da.tag
+Sending        trunk/da/1514-da.tag
+Sending        trunk/da/1519-da.tag
+Sending        trunk/da/1522-da.tag
+Sending        trunk/da/1524-da.tag
+Sending        trunk/da/1527-da.tag
+Sending        trunk/da/1536-da.tag
+Sending        trunk/da/1546-da.tag
+Sending        trunk/da/1547-da.tag
+Sending        trunk/da/1548-da.tag
+Sending        trunk/da/1551-da.tag
+Sending        trunk/en/0001-en.tag
+Sending        trunk/en/0005-en.tag
+Sending        trunk/en/0008-en.tag
+Sending        trunk/en/0021-en.tag
+Sending        trunk/en/0029-en.tag
+Sending        trunk/en/0037-en.tag
+Sending        trunk/en/0042-en.tag
+Sending        trunk/en/0043-en.tag
+Sending        trunk/en/0065-en.tag
+Sending        trunk/en/0073-en.tag
+Sending        trunk/en/0079-en.tag
+Sending        trunk/en/0083-en.tag
+Sending        trunk/en/0086-en.tag
+Sending        trunk/en/0090-en.tag
+Sending        trunk/en/0093-en.tag
+Sending        trunk/en/0096-en.tag
+Sending        trunk/en/0097-en.tag
+Sending        trunk/en/0102-en.tag
+Sending        trunk/en/0103-en.tag
+Sending        trunk/en/0107-en.tag
+Sending        trunk/en/0113-en.tag
+Sending        trunk/en/0132-en-auto.tag
+Sending        trunk/en/0134-en.tag
+Sending        trunk/en/0138-en.tag
+Sending        trunk/en/0140-en.tag
+Sending        trunk/en/0144-en.tag
+Sending        trunk/en/0148-en.tag
+Sending        trunk/en/0150-en.tag
+Sending        trunk/en/0152-en.tag
+Sending        trunk/en/0159-en.tag
+Sending        trunk/en/0169-en.tag
+Sending        trunk/en/0176-en.tag
+Sending        trunk/en/0187-en.tag
+Sending        trunk/en/0191-en.tag
+Sending        trunk/en/0202-en.tag
+Sending        trunk/en/0204-en.tag
+Sending        trunk/en/0212-en.tag
+Sending        trunk/en/0215-en-auto.tag
+Sending        trunk/en/0240-en.tag
+Sending        trunk/en/0244-en.tag
+Sending        trunk/en/0245-en.tag
+Sending        trunk/en/0259-en-auto.tag
+Sending        trunk/en/0265-en.tag
+Sending        trunk/en/0267-en.tag
+Sending        trunk/en/0269-en.tag
+Sending        trunk/en/0281-en.tag
+Sending        trunk/en/0284-en.tag
+Sending        trunk/en/0287-en.tag
+Sending        trunk/en/0307-en.tag
+Sending        trunk/en/0309-en.tag
+Sending        trunk/en/0314-en.tag
+Sending        trunk/en/0319-en.tag
+Sending        trunk/en/0326-en.tag
+Sending        trunk/en/0328-en.tag
+Sending        trunk/en/0334-en.tag
+Sending        trunk/en/0337-en.tag
+Sending        trunk/en/0339-en.tag
+Sending        trunk/en/0351-en-auto.tag
+Sending        trunk/en/0354-en.tag
+Sending        trunk/en/0357-en-auto.tag
+Sending        trunk/en/0361-en.tag
+Sending        trunk/en/0366-en.tag
+Sending        trunk/en/0376-en.tag
+Sending        trunk/en/0386-en.tag
+Sending        trunk/en/0391-en.tag
+Sending        trunk/en/0394-en-auto.tag
+Sending        trunk/en/0401-en.tag
+Sending        trunk/en/0411-en.tag
+Sending        trunk/en/0416-en.tag
+Sending        trunk/en/0421-en.tag
+Sending        trunk/en/0422-en.tag
+Sending        trunk/en/0428-en.tag
+Sending        trunk/en/0434-en.tag
+Sending        trunk/en/0438-en-auto.tag
+Sending        trunk/en/0441-en.tag
+Sending        trunk/en/0442-en.tag
+Sending        trunk/en/0448-en.tag
+Sending        trunk/en/0449-en.tag
+Sending        trunk/en/0465-en.tag
+Sending        trunk/en/0470-en.tag
+Sending        trunk/en/0472-en-auto.tag
+Sending        trunk/en/0473-en.tag
+Sending        trunk/en/0475-en.tag
+Sending        trunk/en/0479-en.tag
+Sending        trunk/en/0500-en.tag
+Sending        trunk/en/0502-en.tag
+Sending        trunk/en/0511-en.tag
+Sending        trunk/en/0519-en-auto.tag
+Sending        trunk/en/0526-en.tag
+Sending        trunk/en/0530-en.tag
+Sending        trunk/en/0531-en.tag
+Sending        trunk/en/0538-en-auto.tag
+Sending        trunk/en/0547-en.tag
+Sending        trunk/en/0548-en.tag
+Sending        trunk/en/0564-en.tag
+Sending        trunk/en/0571-en.tag
+Sending        trunk/en/0573-en-auto.tag
+Sending        trunk/en/0576-en.tag
+Sending        trunk/en/0580-en.tag
+Sending        trunk/en/0590-en.tag
+Sending        trunk/en/0593-en.tag
+Sending        trunk/en/0597-en.tag
+Sending        trunk/en/0601-en.tag
+Sending        trunk/en/0602-en.tag
+Sending        trunk/en/0607-en.tag
+Sending        trunk/en/0613-en-auto.tag
+Sending        trunk/en/0614-en-auto.tag
+Sending        trunk/en/0623-en.tag
+Sending        trunk/en/0624-en.tag
+Sending        trunk/en/0630-en.tag
+Sending        trunk/en/0644-en.tag
+Sending        trunk/en/0645-en.tag
+Sending        trunk/en/0646-en.tag
+Sending        trunk/en/0652-en.tag
+Sending        trunk/en/0654-en.tag
+Sending        trunk/en/0656-en.tag
+Sending        trunk/en/0660-en.tag
+Sending        trunk/en/0666-en.tag
+Sending        trunk/en/0670-en.tag
+Sending        trunk/en/0688-en.tag
+Sending        trunk/en/0690-en.tag
+Sending        trunk/en/0691-en.tag
+Sending        trunk/en/0694-en-auto.tag
+Sending        trunk/en/0696-en-auto.tag
+Sending        trunk/en/0700-en.tag
+Sending        trunk/en/0702-en.tag
+Sending        trunk/en/0704-en.tag
+Sending        trunk/en/0705-en.tag
+Sending        trunk/en/0708-en.tag
+Sending        trunk/en/0713-en.tag
+Sending        trunk/en/0715-en.tag
+Sending        trunk/en/0733-en.tag
+Sending        trunk/en/0735-en-auto.tag
+Sending        trunk/en/0736-en.tag
+Sending        trunk/en/0738-en-auto.tag
+Sending        trunk/en/0741-en.tag
+Sending        trunk/en/0742-en.tag
+Sending        trunk/en/0747-en.tag
+Sending        trunk/en/0752-en-auto.tag
+Sending        trunk/en/0770-en.tag
+Sending        trunk/en/0771-en-auto.tag
+Sending        trunk/en/0781-en.tag
+Sending        trunk/en/0783-en.tag
+Sending        trunk/en/0790-en-auto.tag
+Sending        trunk/en/0795-en-auto.tag
+Sending        trunk/en/0800-en.tag
+Sending        trunk/en/0817-en.tag
+Sending        trunk/en/0821-en.tag
+Sending        trunk/en/0822-en.tag
+Sending        trunk/en/0837-en-auto.tag
+Sending        trunk/en/0840-en.tag
+Sending        trunk/en/0843-en.tag
+Sending        trunk/en/0855-en.tag
+Sending        trunk/en/0856-en.tag
+Sending        trunk/en/0863-en.tag
+Sending        trunk/en/0866-en.tag
+Sending        trunk/en/0870-en-auto.tag
+Sending        trunk/en/0873-en-auto.tag
+Sending        trunk/en/0876-en.tag
+Sending        trunk/en/0879-en.tag
+Sending        trunk/en/0881-en.tag
+Sending        trunk/en/0884-en.tag
+Sending        trunk/en/0888-en.tag
+Sending        trunk/en/0889-en.tag
+Sending        trunk/en/0895-en-auto.tag
+Sending        trunk/en/0902-en.tag
+Sending        trunk/en/0904-en.tag
+Sending        trunk/en/0915-en.tag
+Sending        trunk/en/0917-en-auto.tag
+Sending        trunk/en/0925-en.tag
+Sending        trunk/en/0934-en.tag
+Sending        trunk/en/0939-en.tag
+Sending        trunk/en/0947-en.tag
+Sending        trunk/en/0949-en.tag
+Sending        trunk/en/0951-en-auto.tag
+Sending        trunk/en/0955-en.tag
+Sending        trunk/en/0957-en.tag
+Sending        trunk/en/0958-en.tag
+Sending        trunk/en/0965-en.tag
+Sending        trunk/en/0968-en.tag
+Sending        trunk/en/0974-en.tag
+Sending        trunk/en/0978-en-auto.tag
+Sending        trunk/en/0986-en.tag
+Sending        trunk/en/0989-en.tag
+Sending        trunk/en/0998-en.tag
+Sending        trunk/en/1001-en.tag
+Sending        trunk/en/1023-en.tag
+Sending        trunk/en/1030-en.tag
+Sending        trunk/en/1032-en.tag
+Sending        trunk/en/1035-en.tag
+Sending        trunk/en/1042-en.tag
+Sending        trunk/en/1046-en.tag
+Sending        trunk/en/1053-en.tag
+Sending        trunk/en/1055-en-auto.tag
+Sending        trunk/en/1056-en.tag
+Sending        trunk/en/1057-en-auto.tag
+Sending        trunk/en/1062-en.tag
+Sending        trunk/en/1063-en.tag
+Sending        trunk/en/1075-en.tag
+Sending        trunk/en/1094-en.tag
+Sending        trunk/en/1100-en.tag
+Sending        trunk/en/1104-en.tag
+Sending        trunk/en/1126-en.tag
+Sending        trunk/en/1127-en.tag
+Sending        trunk/en/1128-en.tag
+Sending        trunk/en/1144-en.tag
+Sending        trunk/en/1150-en.tag
+Sending        trunk/en/1166-en.tag
+Sending        trunk/en/1168-en.tag
+Sending        trunk/en/1169-en.tag
+Sending        trunk/en/1170-en.tag
+Sending        trunk/en/1172-en.tag
+Sending        trunk/en/1174-en.tag
+Sending        trunk/en/1175-en-auto.tag
+Sending        trunk/en/1181-en.tag
+Sending        trunk/en/1182-en.tag
+Sending        trunk/en/1183-en.tag
+Sending        trunk/en/1206-en.tag
+Sending        trunk/en/1217-en.tag
+Sending        trunk/en/1223-en.tag
+Sending        trunk/en/1224-en.tag
+Sending        trunk/en/1227-en.tag
+Sending        trunk/en/1228-en.tag
+Sending        trunk/en/1244-en.tag
+Sending        trunk/en/1250-en.tag
+Sending        trunk/en/1255-en-auto.tag
+Sending        trunk/en/1259-en.tag
+Sending        trunk/en/1265-en.tag
+Sending        trunk/en/1270-en.tag
+Sending        trunk/en/1276-en-auto.tag
+Sending        trunk/en/1277-en.tag
+Sending        trunk/en/1284-en.tag
+Sending        trunk/en/1292-en.tag
+Sending        trunk/en/1302-en.tag
+Sending        trunk/en/1306-en.tag
+Sending        trunk/en/1307-en.tag
+Sending        trunk/en/1319-en.tag
+Sending        trunk/en/1321-en.tag
+Sending        trunk/en/1325-en.tag
+Sending        trunk/en/1328-en.tag
+Sending        trunk/en/1332-en.tag
+Sending        trunk/en/1333-en-auto.tag
+Sending        trunk/en/1336-en.tag
+Sending        trunk/en/1338-en-auto.tag
+Sending        trunk/en/1339-en.tag
+Sending        trunk/en/1340-en.tag
+Sending        trunk/en/1350-en.tag
+Sending        trunk/en/1355-en.tag
+Sending        trunk/en/1361-en.tag
+Sending        trunk/en/1364-en.tag
+Sending        trunk/en/1368-en.tag
+Sending        trunk/en/1372-en.tag
+Sending        trunk/en/1378-en.tag
+Sending        trunk/en/1379-en.tag
+Sending        trunk/en/1381-en.tag
+Sending        trunk/en/1383-en.tag
+Sending        trunk/en/1386-en.tag
+Sending        trunk/en/1390-en.tag
+Sending        trunk/en/1394-en.tag
+Sending        trunk/en/1400-en.tag
+Sending        trunk/en/1401-en.tag
+Sending        trunk/en/1405-en.tag
+Sending        trunk/en/1406-en.tag
+Sending        trunk/en/1407-en.tag
+Sending        trunk/en/1408-en.tag
+Sending        trunk/en/1416-en.tag
+Sending        trunk/en/1421-en.tag
+Sending        trunk/en/1426-en.tag
+Sending        trunk/en/1427-en.tag
+Sending        trunk/en/1429-en.tag
+Sending        trunk/en/1433-en.tag
+Sending        trunk/en/1439-en.tag
+Sending        trunk/en/1453-en.tag
+Sending        trunk/en/1457-en.tag
+Sending        trunk/en/1465-en.tag
+Sending        trunk/en/1466-en.tag
+Sending        trunk/en/1467-en.tag
+Sending        trunk/en/1468-en.tag
+Sending        trunk/en/1478-en.tag
+Sending        trunk/en/1488-en.tag
+Sending        trunk/en/1490-en-auto.tag
+Sending        trunk/en/1491-en.tag
+Sending        trunk/en/1497-en-auto.tag
+Sending        trunk/en/1498-en.tag
+Sending        trunk/en/1500-en.tag
+Sending        trunk/en/1503-en.tag
+Sending        trunk/en/1508-en.tag
+Sending        trunk/en/1519-en.tag
+Sending        trunk/en/1522-en.tag
+Sending        trunk/en/1536-en-auto.tag
+Sending        trunk/en/1546-en.tag
+Sending        trunk/en/1548-en.tag
+Sending        trunk/en/1551-en.tag
+Transmitting file data ........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Committed revision 957.
+

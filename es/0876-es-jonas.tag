@@ -21,8 +21,8 @@
 <W lemma="un" msd="ART" in="-5:conj" out="1:nobj|7:conj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">cucharilla</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;const#">azúcar</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{const}#">azúcar</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}#" out="1:nobj">de</W>
 <W lemma="vaina&7c;vainilla" msd="NC" in="-1:nobj" out="">vainilla</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="un" msd="ART" in="-7:conj" out="-1:coord|1:nobj">una</W>
@@ -41,8 +41,8 @@
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj|6:pnct|7:conj">125</W>
 <W lemma="g" msd="ALFS" in="-1:nobj" out="1:pobj|1:{arg}">g</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="harina" msd="NC" in="-1:nobj" out="1:pobj&3a;const#">harina</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const#" out="1:nobj">de</W>
+<W lemma="harina" msd="NC" in="-1:nobj" out="1:attr|1:{const}#">harina</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}#" out="1:nobj">de</W>
 <W lemma="trigo" msd="NC" in="-1:nobj" out="">trigo</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:conj" out="1:nobj|7:conj">½</W>

@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="treffen" msd="VA" tag="VVFIN" in="" out="2:pobj|1:ext">TREFFEN</W>
+<W lemma="treffen" msd="VA" tag="VVFIN" in="" out="1:ext|2:pobj">TREFFEN</W>
 <W lemma="Zweimal" msd="NC" tag="NN" in="-1:ext" out="">ZWEIMAL</W>
 <W lemma="AUF" msd="NP" tag="NE" in="-2:pobj" out="1:nobj">AUF</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">EINANDER</W>
@@ -49,7 +49,7 @@
 <W lemma="Mannschaft" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Mannschaften</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj|80:coref-var">der</W>
 <W lemma="Superliga" msd="NC" tag="NN" in="-1:nobj" out="">Superliga</W>
-<W lemma="treffen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:time|4:pobj|6:pnct|8:conj|3:ext">treffen</W>
+<W lemma="treffen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:time|3:ext|4:pobj|6:pnct|8:conj">treffen</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:time" out="1:nobj">im</W>
 <W lemma="Frühjahr" msd="NC" tag="NN" in="-1:nobj" out="">Frühjahr</W>
 <W lemma="zweimal" msd="RG" tag="ADV" in="-3:ext" out="">zweimal</W>
@@ -67,10 +67,10 @@
 <W lemma="23" msd="AC" tag="CARD" in="2:nobj" out="1:+">23</W>
 <W lemma="." msd="XP" tag="$." in="-1:+" out="">.</W>
 <W lemma="Juni" msd="NC" tag="NN" in="-3:nobj" out="-2:nobj">Juni</W>
-<W lemma="mit" msd="SP" tag="APPR" in="3:man&3a;comp" out="1:attr|2:nobj">mit</W>
+<W lemma="mit" msd="SP" tag="APPR" in="3:comp" out="1:attr|2:nobj">mit</W>
 <W lemma="folgend" msd="AN" tag="ADJA" in="-1:attr" out="">folgendem</W>
 <W lemma="Programm" msd="NC" tag="NN" in="-2:nobj" out="">Programm</W>
-<W lemma="abschließen" msd="VAP" tag="VVPP" in="1:vobj" out="-7:time|-3:man&3a;comp|-8:[subj]">abgeschlossen</W>
+<W lemma="abschließen" msd="VAP" tag="VVPP" in="1:vobj" out="-7:time|-8:[subj]|-3:comp">abgeschlossen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-12:relr" out="-1:vobj|-9:subj|6:xpl">werden</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-15:pnct" out="">:</W>
 </s>
@@ -122,8 +122,8 @@
 <W lemma="bei" msd="SP" tag="APPR" in="3:loc" out="1:nobj">Bei</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="-1:nobj|-23:coref-prg" out="1:nobj">dieser</W>
 <W lemma="Gelegenheit" msd="NC" tag="NN" in="-1:nobj" out="">Gelegenheit</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="2:[subj]" out="-3:loc|1:struct&3a;add|2:vobj|3:pnct|22:pnct">wird</W>
-<W lemma="auch" msd="RG" tag="ADV" in="-1:struct&3a;add" out="">auch</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="2:[subj]" out="-3:loc|1:add|2:vobj|3:pnct|22:pnct">wird</W>
+<W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
 <W lemma="entscheiden" msd="VAP" tag="VVPP" in="-2:vobj" out="-2:[subj]|2:dobj">entschieden</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="4:vobj">ob</W>
@@ -135,7 +135,7 @@
 <W lemma="so" msd="RG" tag="ADV" in="-2:cons" out="1:dobj">so</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-1:dobj" out="1:pnct|10:vobj">dass</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="8:struct&3a;eval" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="8:eval" out="1:nobj">im</W>
 <W lemma="Gegensatz" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Gegensatz</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:attr|2:nobj">zur</W>
 <W lemma="jetzig" msd="AN" tag="ADJA" in="-1:attr" out="">jetzigen</W>
@@ -143,7 +143,7 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:succ" out="1:nobj">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:vobj">Herbst/Frühjahr</W>
 <W lemma="spielen" msd="VAP" tag="VVPP" in="-1:vobj" out="-15:[subj]|-2:succ">gespielt</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-10:vobj" out="-8:struct&3a;eval|-16:[subj]">wird</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-10:vobj" out="-16:[subj]|-8:eval">wird</W>
 <W lemma="." msd="XP" tag="$." in="-22:pnct" out="">.</W>
 </s>
 </p>
@@ -167,10 +167,10 @@
 </p>
 <p>
 <s>
-<W lemma="außer" msd="SP" tag="APPR" in="3:struct&3a;add" out="1:nobj">Außer</W>
+<W lemma="außer" msd="SP" tag="APPR" in="3:add" out="1:nobj">Außer</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Ehre" msd="NC" tag="NN" in="-1:nobj" out="">Ehre</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="4:[subj]" out="-3:struct&3a;add|1:pobj|2:conc|3:neg|4:vobj|5:pnct|6:reas|21:pnct">wird</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="4:[subj]" out="-3:add|1:pobj|2:conc|3:neg|4:vobj|5:pnct|6:reas|21:pnct">wird</W>
 <W lemma="dadurch" msd="RG" tag="PAV" in="-1:pobj" out="">dadurch</W>
 <W lemma="aber" msd="RG" tag="ADV" in="-2:conc" out="">aber</W>
 <W lemma="nichts" msd="PP" tag="PIS" in="-3:neg" out="">nichts</W>

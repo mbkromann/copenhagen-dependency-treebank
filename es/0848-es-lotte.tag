@@ -24,7 +24,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:agent">dominancia</W>
 <W lemma="de" msd="PREP" in="-1:agent" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="ruta" msd="NC" in="-1:nobj" out="3:loc|1:pobj|1:{arg}#">rutas</W>
+<W lemma="ruta" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|3:loc">rutas</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="29:coref-id">ferries</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
@@ -66,8 +66,8 @@
 <W lemma="parte" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}">parte</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;poss">ferries</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{poss}">ferries</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{poss}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="32:coref-id">DSB</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-13:time|-8:subj|1:vobj|4:time|12:pnct">deberán</W>
 <W lemma="buscar" msd="VLinf" in="-1:vobj" out="-9:[subj]|2:dobj">buscar</W>
@@ -210,8 +210,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-106:coref-part" out="1:nobj">los</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">34</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;poss">ferries</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{poss}">ferries</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{poss}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">DSB</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:struct|-8:subj|1:preds|3:pnct">estarán</W>
 <W lemma="de" msd="PREP" in="-1:preds" out="1:nobj">de</W>

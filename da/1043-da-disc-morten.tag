@@ -121,12 +121,12 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="For" lemma="for" msd="CC" tag="CC" in="5:cause&3a;goal" out="19:pnct">For</W>
+<W gloss="For" lemma="for" msd="CC" tag="CC" in="5:goal" out="19:pnct">For</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="4:mod" out="3:nobj">med</W>
 <W gloss="carefully" lemma="omhyggelig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">omhyggeligt</W>
 <W gloss="organised" lemma="tilrettelægge" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:mod" out="-1:mod">tilrettelagt</W>
 <W gloss="precision" lemma="præcision" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:mod">præcision</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-28:CAUSE&3a;reas/for" out="-4:mod|-5:cause&3a;goal|1:subj|2:mod|8:pobj">kom</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-28:CAUSE&3a;reas/for" out="-4:mod|1:subj|2:mod|8:pobj|-5:goal">kom</W>
 <W gloss="the_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-1:subj" out="">Socialdemokratiet</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:nobj|3:pnct|4:mod">den</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>

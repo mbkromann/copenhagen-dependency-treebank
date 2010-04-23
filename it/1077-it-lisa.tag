@@ -29,8 +29,8 @@
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="per" msd="SP" tag="PRE" in="-8:conj" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">le</W>
-<W lemma="gara" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func#">gare</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;func#" out="1:nobj">di</W>
+<W lemma="gara" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#">gare</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{func}#" out="1:nobj">di</W>
 <W lemma="orientamento" msd="NC" tag="NOM" in="-1:nobj" out="">orientamento</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="per" msd="SP" tag="PRE" in="-14:conj" out="1:nobj">per</W>
@@ -122,7 +122,7 @@
 <W lemma="naturale" msd="AN" tag="ADJ" in="-1:attr" out="">naturali</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="24:loc" out="1:nobj|5:exem|9:ref">Nel</W>
-<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj" out="13:relr|1:pobj|1:{arg}">sud</W>
+<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|13:relr">sud</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Selandia</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
@@ -195,7 +195,7 @@
 <W lemma="pieno" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">piena</W>
 <W lemma="." msd="XP" tag="SENT" in="-48:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="7:loc" out="1:nobj">Nel</W>
-<W lemma="nord" msd="NC" tag="NOM" in="-1:nobj" out="6:vobj|1:pobj|1:{arg}">nord</W>
+<W lemma="nord" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|6:vobj">nord</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Selandia</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>

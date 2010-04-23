@@ -68,7 +68,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:attr">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
-<W lemma="prosciutto" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:aobj.dobj|1:{patient}#">prosciutto</W>
+<W lemma="prosciutto" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj|1:{patient}#|2:attr">prosciutto</W>
 <W lemma="affumicato" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">affumicato</W>
 <W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:man">tagliato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
@@ -77,7 +77,7 @@
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-27:conj|-30:coref-part" out="2:nobj|4:pnct">2</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccoli</W>
-<W lemma="cavolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|74:coref-id|1:aobj.dobj|1:{patient}#">cavoli</W>
+<W lemma="cavolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|74:coref-id">cavoli</W>
 <W lemma="cappuccio" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">cappuccio</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-32:conj|-35:coref-part" out="1:nobj|4:pnct">un</W>
@@ -123,12 +123,12 @@
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 <W lemma="b" msd="XA" tag="ABR" in="-2:nobj" out="1:pnct">b</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
-<W lemma="per" msd="SP" tag="PRE" in="5:cause&3a;goal" out="1:vobj">Per</W>
+<W lemma="per" msd="SP" tag="PRE" in="5:goal" out="1:vobj">Per</W>
 <W lemma="preparare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|3:pnct">preparare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-123:coref-var" out="1:nobj|111:coref-id">il</W>
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;spec" out="-5:cause&3a;goal|1:dobj|3:man|5:pnct|6:conj|14:conj|22:CONJ&3a;seq">tagliate</W>
+<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;spec" out="1:dobj|3:man|5:pnct|6:conj|14:conj|22:CONJ&3a;seq|-5:goal">tagliate</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="pesce" msd="NC" tag="NOM" in="-1:nobj" out="">pesce</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:man" out="-19:pnct|1:nobj">a</W>
@@ -154,11 +154,11 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-74:coref-id" out="1:nobj|58:coref-id">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">cavoletti</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
-<W lemma="per" msd="SP" tag="PRE" in="4:cause&3a;goal" out="1:nobj|3:pnct|38:coref-res">Per</W>
+<W lemma="per" msd="SP" tag="PRE" in="4:goal" out="1:nobj|3:pnct|38:coref-res">Per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="salsa" msd="NC" tag="NOM" in="-1:nobj" out="">salsa</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="-4:cause&3a;goal|1:man|3:dobj|7:loc|11:pnct|13:conj|45:+CONJ&3a;seq">cuocete</W>
+<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="1:man|3:dobj|7:loc|11:pnct|13:conj|45:+CONJ&3a;seq|-4:goal">cuocete</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="vapore" msd="NC" tag="NOM" in="-1:nobj" out="">vapore</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-67:coref-var|-3:dobj" out="1:nobj|10:coref">gli</W>
@@ -240,7 +240,7 @@
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:pobj" out="2:nobj">con</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccole</W>
-<W lemma="patata" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:attr|1:aobj.dobj|1:{patient}#">patate</W>
+<W lemma="patata" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|2:attr">patate</W>
 <W lemma="novello" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">novelle</W>
 <W lemma="cuocere" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:man|3:loc">cotte</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:man" out="1:nobj">al</W>

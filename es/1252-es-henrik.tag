@@ -10,8 +10,8 @@
 <W lemma="desmantelamiento" msd="NC" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">desmantelamiento</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="protestar" msd="VLfin" in="-1:nobj" out="1:attrr&3a;arg|2:pobj.subj|2:{agent}|5:loc|12:time">protesta</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr&3a;arg" out="">pro-democrática</W>
+<W lemma="protestar" msd="VLfin" in="-1:nobj" out="2:pobj.subj|2:{agent}|5:loc|12:time|1:aobj|1:{arg}">protesta</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:aobj|-1:{arg}" out="">pro-democrática</W>
 <W lemma="de" msd="PREP" in="-2:pobj.subj|-2:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="estudiante" msd="NC" in="-1:nobj" out="">estudiantes</W>
@@ -84,9 +84,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-20:qobj|2:subj|8:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="8:coref">Oliver</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:subj" out="-1:namef|1:pnct|2:pobj&3a;origin">Jensen</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:subj" out="-1:namef|1:pnct|2:attr|2:{origin}">Jensen</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;origin" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:attr|-2:{origin}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:loc|56:coref-id">FLS</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj|-9:assoc-loc" out="">Pekín</W>

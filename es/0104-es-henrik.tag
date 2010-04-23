@@ -201,8 +201,8 @@
 <W lemma="participar" msd="VLadj" in="-1:vobj" out="-3:time|-15:time|1:pobj">participado</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;subj#|9:loc">reunión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="9:loc|1:pobj.subj|1:{agent}#">reunión</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="ministro" msd="NC" in="-1:nobj|-25:coref-var" out="1:pobj|1:{arg}#|3:const">ministros</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="pescar" msd="VLfin" in="-1:nobj" out="">pesca</W>

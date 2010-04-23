@@ -6,10 +6,10 @@
 <W lemma="collocare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:eval|2:loc">collocate</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:eval" out="">sopratutto</W>
 <W lemma="a" msd="SP" tag="PRE" in="-2:loc" out="1:nobj">a</W>
-<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj" out="7:pnct|9:elab|1:pobj|1:{arg}">sud</W>
+<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|7:pnct|9:elab">sud</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="centro" msd="NC" tag="NOM" in="-1:nobj" out="1:noun&3a;const#|2:appr">centro</W>
-<W lemma="fiero" msd="AN" tag="ADJ" in="-1:noun&3a;const#" out="">fiere</W>
+<W lemma="centro" msd="NC" tag="NOM" in="-1:nobj" out="2:appr|1:attr|1:{const}#">centro</W>
+<W lemma="fiero" msd="AN" tag="ADJ" in="-1:attr|-1:{const}#" out="">fiere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:appr" out="1:nobj">di</W>
 <W lemma="bella&7c;bello" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Bella</W>
 <W lemma="Center" msd="NP" tag="NPR" in="-1:nobj" out="">Center</W>
@@ -132,8 +132,8 @@
 <W lemma="possibilmente" msd="RG" tag="ADV" in="1:epi" out="">possibilmente</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:inst" out="-2:pnct|-1:epi|1:nobj">con</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func#">Casa</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;func#" out="1:nobj|3:conj">della</W>
+<W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#">Casa</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{func}#" out="1:nobj|3:conj">della</W>
 <W lemma="cultura" msd="NC" tag="NOM" in="-1:nobj" out="">cultura</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">della</W>
@@ -170,9 +170,9 @@
 <W lemma="occasione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|8:time">occasione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:other">Copenaghen</W>
-<W lemma="Città" msd="NP" tag="NPR" in="-1:other" out="1:attr|2:pobj&3a;func#">Città</W>
+<W lemma="Città" msd="NP" tag="NPR" in="-1:other" out="1:attr|2:attr|2:{func}#">Città</W>
 <W lemma="europeo" msd="AN" tag="ADJ" in="-1:attr" out="">europea</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;func#" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr|-2:{func}#" out="1:nobj">della</W>
 <W lemma="cultura" msd="NC" tag="NOM" in="-1:nobj" out="">cultura</W>
 <W lemma="," msd="XP" tag="PON" in="-14:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-8:time" out="1:nobj">nel</W>

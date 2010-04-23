@@ -170,7 +170,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="2:nobj|5:ext">12</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="1:attr" out="">diversi</W>
-<W lemma="campo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|8:nobj|1:aobj.dobj|1:{patient}#">campi</W>
+<W lemma="campo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|8:nobj">campi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:aobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="concentramento" msd="NC" tag="NOM" in="-1:nobj" out="">concentramento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-5:ext" out="1:nobj">in</W>
@@ -208,8 +208,8 @@
 <W lemma="facilmente" msd="RG" tag="ADV" in="-1:man" out="">facilmente</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|10:[subj]|11:[subj]" out="1:nobj">i</W>
-<W lemma="guardiano" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj#">guardiani</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj#" out="1:nobj">della</W>
+<W lemma="guardiano" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}#">guardiani</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">della</W>
 <W lemma="prigione" msd="NC" tag="NOM" in="-1:nobj" out="">prigione</W>
 <W lemma="li" msd="PP" tag="PRO&3a;pers" in="1:dobj" out="">li</W>
 <W lemma="usare" msd="VADA" tag="VER&3a;impf" in="-6:vobj" out="-5:subj|-1:dobj|1:comp">usavano</W>

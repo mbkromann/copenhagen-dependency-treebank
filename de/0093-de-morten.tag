@@ -10,7 +10,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj|152:coref-var">den</W>
 <W lemma="Sozialbehörde" msd="NC" tag="NN" in="-1:nobj" out="">Sozialbehörden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:succ|1:subj|7:man|8:preds|24:pnct|5:ext">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:succ|1:subj|5:ext|7:man|8:preds|24:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:attr|3:nobj|28:coref-var">die</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleine</W>
 <W lemma="dreijährig" msd="AN" tag="ADJA" in="-2:attr" out="">dreijährige</W>
@@ -52,11 +52,11 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="6:[subj]|7:subj" out="1:nobj|11:coref|47:coref-id">die</W>
 <W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Gemeinde</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Ejby</W>
-<W lemma="vor" msd="SP" tag="APPR" in="4:time&3a;prec" out="1:nobj">vor</W>
+<W lemma="vor" msd="SP" tag="APPR" in="4:prec" out="1:nobj">vor</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
 <W lemma="Monat" msd="NC" tag="NN" in="-1:nobj" out="">Monat</W>
 <W lemma="beschließen" msd="VAP" tag="VVPP" in="1:vobj" out="-6:[subj]|3:dobj">beschlossen</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-1:vobj|-4:time&3a;prec|1:pnct">hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-1:vobj|-4:prec|1:pnct">hat</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="8:vobj">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-20:coref|5:dobj" out="">sie</W>
@@ -74,11 +74,11 @@
 <s>
 <W lemma="dies" msd="PD" tag="PDAT" in="9:dobj" out="1:nobj">Diesen</W>
 <W lemma="Beschluß" msd="NC" tag="NN" in="-1:nobj" out="">Beschluss</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="1:subj|4:time&3a;prec|5:man|7:vobj|8:pnct">hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="1:subj|4:prec|5:man|7:vobj|8:pnct">hat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|6:[subj]" out="1:nobj">die</W>
 <W lemma="Gemeinde" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Gemeinde</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="-1:nobj" out="">Odense</W>
-<W lemma="gestern" msd="RG" tag="ADV" in="-4:time&3a;prec" out="">gestern</W>
+<W lemma="gestern" msd="RG" tag="ADV" in="-4:prec" out="">gestern</W>
 <W lemma="kurzerhand" msd="RG" tag="ADV" in="-5:man" out="">kurzerhand</W>
 <W lemma="rückgängig" msd="AN" tag="ADJD" in="1:aobj" out="">rückgängig</W>
 <W lemma="machen" msd="VAP" tag="VVPP" in="-7:vobj" out="-9:dobj|-1:aobj|-6:[subj]">gemacht</W>
@@ -103,9 +103,9 @@
 <W lemma="er" msd="PP" tag="PPER" in="-10:coref|1:dobj" out="">ihn</W>
 <W lemma="verlieren" msd="VAP" tag="VVPP" in="-2:vobj" out="-1:dobj|-5:[subj]">verloren</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
-<W lemma="zum" msd="SP+P" tag="APPRART" in="2:prg&3a;att" out="1:nobj">Zum</W>
+<W lemma="zum" msd="SP+P" tag="APPRART" in="2:att" out="1:nobj">Zum</W>
 <W lemma="Glück" msd="NC" tag="NN" in="-1:nobj" out="">Glück</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="14:qobj" out="-2:prg&3a;att|1:subj|3:neg|5:vobj|12:pnct|13:pnct">haben</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="14:qobj" out="1:subj|3:neg|5:vobj|12:pnct|13:pnct|-2:att">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|-18:coref|4:[subj]|10:[subj]" out="">wir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-14:coref-id|3:dobj" out="50:coref-var">Pernille</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-3:neg" out="">nicht</W>

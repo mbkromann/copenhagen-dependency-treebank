@@ -167,8 +167,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-9:conj" out="-1:coord|-11:[subj]|1:vobj|11:pnct">ha</W>
 <W lemma="aprire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-12:[subj]|1:dobj|5:loc">aperto</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">20-30</W>
-<W lemma="fabbrica" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func">fabbriche</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;func" out="1:nobj">di</W>
+<W lemma="fabbrica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}">fabbriche</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:nobj">di</W>
 <W lemma="cemento" msd="NC" tag="NOM" in="-1:nobj" out="">cemento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-5:loc" out="2:nobj">in</W>
 <W lemma="vario" msd="AN" tag="ADJ" in="1:attr" out="">varie</W>

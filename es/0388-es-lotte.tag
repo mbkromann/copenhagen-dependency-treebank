@@ -193,7 +193,7 @@
 <W lemma="actuar" msd="VLadj" in="-1:vobj" out="1:man|2:cause">actuado</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:man" out="">asÃ­</W>
 <W lemma="por" msd="PREP" in="-2:cause" out="1:nobj">por</W>
-<W lemma="amor" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj.experient">amor</W>
-<W lemma="a" msd="PREP" in="-1:pobj&3a;dobj.experient" out="1:nobj">a</W>
+<W lemma="amor" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{experient}">amor</W>
+<W lemma="a" msd="PREP" in="-1:pobj.dobj|-1:{experient}" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-9:coref" out="">ti</W>
 <W lemma="." msd="FS" in="-8:pnct" out="">.</W>

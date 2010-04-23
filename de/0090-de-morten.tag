@@ -52,12 +52,12 @@
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Die</W>
 <W lemma="Filmbranche" msd="NC" tag="NN" in="-1:nobj" out="">Filmbranche</W>
-<W lemma="klagen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:pobj|4:pnct|5:time&3a;cont|13:pnct">klagt</W>
+<W lemma="klagen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:pobj|4:pnct|5:cont|13:pnct">klagt</W>
 <W lemma="über" msd="SP" tag="APPR" in="-1:pobj" out="2:nobj">über</W>
 <W lemma="mangelnd" msd="AN" tag="ADJA" in="1:attr" out="">mangelnde</W>
 <W lemma="Subvention" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Subventionen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="während" msd="CS" tag="KOUS" in="-5:time&3a;cont" out="7:vobj">während</W>
+<W lemma="während" msd="CS" tag="KOUS" in="-5:cont" out="7:vobj">während</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:nobj">die</W>
 <W lemma="Schriftsteller" msd="NC" tag="NN" in="-1:nobj" out="">Schriftsteller</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:iobj" out="1:man">sich</W>
@@ -66,8 +66,8 @@
 <W lemma="Kopf" msd="NC" tag="NN" in="-1:nobj" out="">Kopf</W>
 <W lemma="abreißen" msd="VA" tag="VVFIN" in="-7:vobj" out="-6:subj|-2:dobj|-4:iobj">abreißen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
-<W lemma="gleichzeitig" msd="AN" tag="ADJD" in="1:time&3a;cont" out="">Gleichzeitig</W>
-<W lemma="scheuen" msd="VA" tag="VVFIN" in="" out="-1:time&3a;cont|1:subj|2:dobj|3:pobj|4:pnct|25:pnct">scheuen</W>
+<W lemma="gleichzeitig" msd="AN" tag="ADJD" in="1:cont" out="">Gleichzeitig</W>
+<W lemma="scheuen" msd="VA" tag="VVFIN" in="" out="-1:cont|1:subj|2:dobj|3:pobj|4:pnct|25:pnct">scheuen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-64:coref|-1:subj|8:[subj]|10:[subj]|16:[subj]|23:[subj]" out="">wir</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-2:dobj" out="">uns</W>
 <W lemma="davor" msd="RG" tag="PAV" in="-3:pobj" out="5:nobj">davor</W>
@@ -84,10 +84,10 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="-3:loc" out="1:nobj">im</W>
 <W lemma="Stich" msd="NC" tag="NN" in="-1:nobj" out="">Stich</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="sehen" msd="VA" tag="VVFIN" in="-8:conj" out="-1:coord|-16:[subj]|1:dobj|2:pnct|3:struct&3a;contr">sehen</W>
+<W lemma="sehen" msd="VA" tag="VVFIN" in="-8:conj" out="-1:coord|-16:[subj]|1:dobj|2:pnct|3:contr">sehen</W>
 <W lemma="fern" msd="RG" tag="PTKVZ" in="-1:dobj" out="">fern</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="anstatt" msd="CS" tag="KOUI" in="-3:struct&3a;contr" out="3:nobj">anstatt</W>
+<W lemma="anstatt" msd="CS" tag="KOUI" in="-3:contr" out="3:nobj">anstatt</W>
 <W lemma="ins" msd="SP+P" tag="APPRART" in="3:dir" out="1:nobj">ins</W>
 <W lemma="Theater" msd="NC" tag="NN" in="-1:nobj" out="">Theater</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
@@ -105,7 +105,7 @@
 <W lemma="Neue" msd="NC" tag="NN" in="-3:preds" out="">Neues</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="nur" msd="RG" tag="ADV" in="-5:conc" out="1:vobj">nur</W>
-<W lemma="nehmen" msd="VA" tag="VVFIN" in="-1:vobj" out="1:subj|7:dobj|11:pnct|18:part|19:pnct|3:succ">nimmt</W>
+<W lemma="nehmen" msd="VA" tag="VVFIN" in="-1:vobj" out="1:subj|3:succ|7:dobj|11:pnct|18:part|19:pnct">nimmt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">der</W>
 <W lemma="Kulturkampf" msd="NC" tag="NN" in="-1:nobj" out="">Kulturkampf</W>
 <W lemma="nach" msd="RG" tag="PTKVZ" in="-3:succ" out="2:conj">nach</W>
@@ -156,12 +156,12 @@
 <W lemma="in" msd="SP" tag="APPR" in="8:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Provinz" msd="NC" tag="NN" in="-1:nobj" out="">Provinz</W>
-<W lemma="ja" msd="RG" tag="ADV" in="5:prg&3a;att" out="">ja</W>
+<W lemma="ja" msd="RG" tag="ADV" in="5:att" out="">ja</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:struct" out="">auch</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="-1:struct">nicht</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="2:preds" out="1:vobj">zu</W>
 <W lemma="verachten" msd="VAF" tag="VVINF" in="-1:vobj" out="">verachten</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-13:conj" out="-12:coord|-11:subj|-5:prg&3a;att|-3:neg|-2:preds|-8:loc">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:conj" out="-12:coord|-11:subj|-3:neg|-2:preds|-8:loc|-5:att">sind</W>
 <W lemma="." msd="XP" tag="$." in="-32:pnct" out="">.</W>
 </s>
 </p>
@@ -211,17 +211,17 @@
 <W lemma="sagen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|2:dobj">sagen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="6:vobj">dass</W>
-<W lemma="auch" msd="RG" tag="ADV" in="1:struct&3a;add" out="">auch</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="-1:struct&3a;add|1:nobj">das</W>
+<W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="-1:add|1:nobj">das</W>
 <W lemma="Publikum" msd="NC" tag="NN" in="-1:nobj" out="">Publikum</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj">eine</W>
 <W lemma="Verantwortung" msd="NC" tag="NN" in="-1:nobj" out="">Verantwortung</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-6:vobj" out="-4:subj|-2:dobj">hat</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
-<W lemma="lassen" msd="VA" tag="VVFIN" in="" out="1:subj|2:dobj|3:struct&3a;contr|7:vobj|8:pnct">Lassen</W>
+<W lemma="lassen" msd="VA" tag="VVFIN" in="" out="1:subj|2:dobj|3:contr|7:vobj|8:pnct">Lassen</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-1:subj|6:[subj]" out="">Sie</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-2:dobj" out="">uns</W>
-<W lemma="jedoch" msd="RG" tag="ADV" in="-3:struct&3a;contr" out="">jedoch</W>
+<W lemma="jedoch" msd="RG" tag="ADV" in="-3:contr" out="">jedoch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="heilig" msd="AN" tag="ADJA" in="-1:attr" out="">heilige</W>
 <W lemma="Kuh" msd="NC" tag="NN" in="-2:nobj" out="">Kuh</W>

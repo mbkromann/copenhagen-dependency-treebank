@@ -1,7 +1,7 @@
 <W lemma="si" msd="CSUBX" in="6:cond" out="1:vobj">Si</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj|4:pnct">hay</W>
-<W lemma="problema" msd="NC" in="-1:dobj" out="1:pobj&3a;about">problemas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;about" out="1:nobj">de</W>
+<W lemma="problema" msd="NC" in="-1:dobj" out="1:attr|1:{about}">problemas</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="salud" msd="NC" in="-1:nobj" out="">salud</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="escriba" msd="NC" in="" out="-6:cond|1:pobj|13:pnct">escriba</W>
@@ -65,8 +65,8 @@
 <W lemma="acercar" msd="VLfin" in="-2:vobj" out="-1:robj|1:pobj">acercan</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="edad" msd="NC" in="-1:nobj" out="1:pobj&3a;ext">edad</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;ext" out="1:nobj">de</W>
+<W lemma="edad" msd="NC" in="-1:nobj" out="1:attr|1:{quant}">edad</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{quant}" out="1:nobj">de</W>
 <W lemma="cincuenta" msd="CARD" in="-1:nobj" out="1:nobj">cincuenta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>

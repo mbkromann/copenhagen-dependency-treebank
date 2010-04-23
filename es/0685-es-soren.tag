@@ -38,7 +38,7 @@
 <W lemma="se" msd="SE" in="1:subj" out="">se</W>
 <W lemma="desprender" msd="VLfin" in="-10:vobj" out="-1:subj|-2:source|1:pobj|11:pnct">desprende</W>
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="informe" msd="NC" in="-1:nobj" out="7:tobj|1:aobj.dobj|1:{patient}#">informe</W>
+<W lemma="informe" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#|7:tobj">informe</W>
 <W lemma="anual" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="1:pobj|1:{arg}">anual</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -129,8 +129,8 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">El</W>
 <W lemma="concejo" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">concejo</W>
 <W lemma="municipal" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">municipal</W>
-<W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|9:pnct|10:vobj&3a;man">ha</W>
-<W lemma="decidir" msd="VLadj" in="-1:vobj" out="1:dobj|9:vobj&3a;man">decidido</W>
+<W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|9:pnct|10:vobj">ha</W>
+<W lemma="decidir" msd="VLadj" in="-1:vobj" out="1:dobj|9:vobj">decidido</W>
 <W lemma="cerrar" msd="VLinf" in="-1:dobj" out="1:nobj">cerrar</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="escuela" msd="NC" in="-1:nobj" out="1:loc">escuelas</W>
@@ -139,7 +139,7 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:conj" out="-1:coord">Kerte</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
-<W lemma="ahorrar" msd="VLadj" in="-10:vobj&3a;man|-9:vobj&3a;man" out="1:man|7:dobj">ahorrando</W>
+<W lemma="ahorrar" msd="VLadj" in="-10:vobj|-9:vobj" out="1:man|7:dobj">ahorrando</W>
 <W lemma="de" msd="PREP" in="-1:man" out="1:nobj">de</W>
 <W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="modo" msd="NC" in="-1:nobj" out="">modo</W>
@@ -157,8 +157,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">VEJLE</W>
 <W lemma="&3a;" msd="COLON" in="-6:pnct" out="">:</W>
 <W lemma="numeroso" msd="ADJ" in="5:subj" out="1:nobj">Numerosos</W>
-<W lemma="hospital" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#|3:attr">hospitales</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="hospital" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#|3:attr">hospitales</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="emergencia" msd="NC" in="-1:nobj" out="">emergencia</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:attr" out="">exhaustos</W>
 <W lemma="haber" msd="VHfin" in="" out="-5:subj|1:vobj|9:pnct|12:conj">han</W>
@@ -187,8 +187,8 @@
 <W lemma="decidir" msd="VLadj" in="-1:vobj" out="1:dobj|19:vobj">decidido</W>
 <W lemma="enviar" msd="VLinf" in="-1:dobj" out="1:nobj">enviar</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="hospital" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj#|3:loc|5:dir">hospital</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;pobj#" out="1:nobj">de</W>
+<W lemma="hospital" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}#|3:loc|5:dir">hospital</W>
+<W lemma="de" msd="PREP" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">de</W>
 <W lemma="emergencia" msd="NC" in="-1:nobj" out="">emergencia</W>
 <W lemma="de" msd="PREP" in="-3:loc" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Brædstrup</W>

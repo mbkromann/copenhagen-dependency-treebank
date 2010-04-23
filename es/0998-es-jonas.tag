@@ -25,12 +25,12 @@
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">la</W>
 <W lemma="venta" msd="NC" in="-1:nobj" out="">venta</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="encontrar" msd="VLfin" in="" out="-3:subj|-1:robj|-10:time|1:pobj|5:loc&3a;met|11:pnct|27:conj">encontraba</W>
+<W lemma="encontrar" msd="VLfin" in="" out="-3:subj|-1:robj|-10:time|1:pobj|11:pnct|27:conj|5:loc">encontraba</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">20</W>
 <W lemma="%" msd="PERCT" in="-1:nobj" out="">%</W>
-<W lemma="por" msd="PREP" in="-5:loc&3a;met" out="1:pobj">por</W>
+<W lemma="por" msd="PREP" in="-5:loc" out="1:pobj">por</W>
 <W lemma="debajo~de" msd="PREP" in="-1:pobj" out="1:nobj">debajo de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:pobj|1:{arg}">la</W>
 <W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
@@ -179,7 +179,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds" out="-1:degr">buenísimo,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-24:dobj|1:subj|7:pnct">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="4:appr|1:pobj|1:{arg}">jefe</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|4:appr">jefe</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">marketing</W>
 <W lemma="Erik" msd="NP" in="1:namef" out="">Erik</W>

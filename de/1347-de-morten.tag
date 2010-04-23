@@ -69,10 +69,10 @@
 <W lemma="in" msd="SP" tag="APPR" in="6:loc" out="2:nobj">in</W>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="1:degr" out="">mehreren</W>
 <W lemma="Land" msd="NC" tag="NN" in="-2:nobj" out="-1:degr">Ländern</W>
-<W lemma="gleichzeitig" msd="AN" tag="ADJD" in="3:time&3a;cont" out="">gleichzeitig</W>
+<W lemma="gleichzeitig" msd="AN" tag="ADJD" in="3:cont" out="">gleichzeitig</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-32:coref-var|2:dobj" out="1:nobj|5:coref">einen</W>
 <W lemma="Antrag" msd="NC" tag="NN" in="-1:nobj" out="">Antrag</W>
-<W lemma="stellen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-3:time&3a;cont|-2:dobj|-6:loc|1:pnct">stellen</W>
+<W lemma="stellen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-2:dobj|-6:loc|-3:cont|1:pnct">stellen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="weil" msd="CS" tag="KOUS" in="-12:reas" out="8:vobj">weil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-5:coref|6:[subj]|7:subj" out="1:nobj|18:coref">der</W>
@@ -92,7 +92,7 @@
 <W lemma="Asylbewerber" msd="NC" tag="NN" in="-1:nobj" out="">Asylbewerber</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|10:[subj]|11:subj" out="">der</W>
-<W lemma="zuerst" msd="RG" tag="ADV" in="10:time&3a;prec" out="">zuerst</W>
+<W lemma="zuerst" msd="RG" tag="ADV" in="10:prec" out="">zuerst</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-18:coref|8:dobj" out="1:possd">seinen</W>
 <W lemma="Antrag" msd="NC" tag="NN" in="-1:possd" out="">Antrag</W>
 <W lemma="in" msd="SP" tag="APPR" in="6:loc" out="3:nobj">in</W>
@@ -102,7 +102,7 @@
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="Spanien" msd="NP" tag="NE" in="-2:conj" out="-1:coord">Spanien</W>
 <W lemma="stellen" msd="VAP" tag="VVPP" in="1:vobj" out="-10:[subj]|-8:dobj|-6:loc">gestellt</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-14:relr" out="-11:subj|-1:vobj|-10:time&3a;prec|1:pnct">hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-14:relr" out="-11:subj|-1:vobj|1:pnct|-10:prec">hat</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="12:neg" out="1:pnct">nicht</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -167,8 +167,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="16:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-26:coref-var|15:subj" out="2:attr|3:nobj">die</W>
-<W lemma="schon" msd="RG" tag="ADV" in="1:time&3a;prec" out="">schon</W>
-<W lemma="existierend" msd="AN" tag="ADJA" in="-2:attr" out="-1:time&3a;prec">existierende</W>
+<W lemma="schon" msd="RG" tag="ADV" in="1:prec" out="">schon</W>
+<W lemma="existierend" msd="AN" tag="ADJA" in="-2:attr" out="-1:prec">existierende</W>
 <W lemma="Zusammenarbeit" msd="NC" tag="NN" in="-3:nobj" out="1:pobj">Zusammenarbeit</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
@@ -184,10 +184,10 @@
 <W lemma="finden" msd="VA" tag="VVFIN" in="-16:vobj" out="-15:subj|-6:dobj|-4:loc|16:coref-prg">findet</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-21:CONJ/(und)" out="-1:expl|4:dobj|9:pnct|12:CONC/aber|26:pnct|1:ext">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-21:CONJ/(und)" out="-1:expl|1:ext|4:dobj|9:pnct|12:CONC/aber|26:pnct">ist</W>
 <W lemma="nach" msd="RG" tag="ADV" in="-1:ext" out="1:comp">nach</W>
-<W lemma="wie" msd="CS" tag="KOKOM" in="-1:comp" out="1:time&3a;prec">wie</W>
-<W lemma="vor" msd="SP" tag="APPR" in="-1:time&3a;prec" out="">vor</W>
+<W lemma="wie" msd="CS" tag="KOKOM" in="-1:comp" out="1:prec">wie</W>
+<W lemma="vor" msd="SP" tag="APPR" in="-1:prec" out="">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:dobj" out="1:nobj">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Rede</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:attr|2:nobj">von</W>

@@ -1,0 +1,770 @@
+Welcome to DTAG dependency tagger v. 1.0.29 (2010-04-23 21:51:31)
+Copyright (c) 2002-2010 Matthias Buch-Kromann
+Using DTAG directory /home/matthias/research/dtag/run
+Using rcfile /home/matthias/research/dtag/run/.dtagrc
+Loading relation set "cdt" from http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv
+User: matthias
+Using rcfile /home/matthias/.dtagrc
+This is the new .dtagrc file
+> # Autoreplace all coordinations of the form "C1 (CC (C2))" with "C1 ((CC) C2)"
+> find -corpus -yes $CC coord $C1 & $C2 conj $CC -do(edel $CC coord $C1 ; edel $C2 conj $CC ; $CC coord $C2 ; $C2 conj $C1) 
+Searched 00%. Elapsed: 00:00:00. ETA: 00:00:42. Matches: 0.saved tag-file /opt/cdt/da/0001-da.tag
+saved tag-file /opt/cdt/da/0005-da.tag
+saved tag-file /opt/cdt/da/0008-da.tag
+saved tag-file /opt/cdt/da/0021-da.tag
+Searched 00%. Elapsed: 00:00:00. ETA: 00:01:38. Matches: 17.saved tag-file /opt/cdt/da/0029-da.tag
+saved tag-file /opt/cdt/da/0043-da.tag
+saved tag-file /opt/cdt/da/0061-da.tag
+Searched 00%. Elapsed: 00:00:01. ETA: 00:02:36. Matches: 31.saved tag-file /opt/cdt/da/0065-da.tag
+saved tag-file /opt/cdt/da/0073-da.tag
+saved tag-file /opt/cdt/da/0079-da.tag
+saved tag-file /opt/cdt/da/0083-da.tag
+Searched 00%. Elapsed: 00:00:02. ETA: 00:03:28. Matches: 54.saved tag-file /opt/cdt/da/0086-da.tag
+saved tag-file /opt/cdt/da/0090-da.tag
+saved tag-file /opt/cdt/da/0091-da.tag
+saved tag-file /opt/cdt/da/0093-da.tag
+Searched 01%. Elapsed: 00:00:02. ETA: 00:04:22. Matches: 81.saved tag-file /opt/cdt/da/0096-da.tag
+saved tag-file /opt/cdt/da/0097-da.tag
+saved tag-file /opt/cdt/da/0101-da.tag
+saved tag-file /opt/cdt/da/0102-da.tag
+Searched 01%. Elapsed: 00:00:03. ETA: 00:05:19. Matches: 111.saved tag-file /opt/cdt/da/0103-da.tag
+saved tag-file /opt/cdt/da/0107-da.tag
+saved tag-file /opt/cdt/da/0112-da.tag
+Searched 01%. Elapsed: 00:00:03. ETA: 00:06:16. Matches: 122.saved tag-file /opt/cdt/da/0113-da.tag
+saved tag-file /opt/cdt/da/0119-da.tag
+saved tag-file /opt/cdt/da/0132-da.tag
+Searched 01%. Elapsed: 00:00:04. ETA: 00:07:09. Matches: 134.saved tag-file /opt/cdt/da/0133-da.tag
+saved tag-file /opt/cdt/da/0134-da.tag
+saved tag-file /opt/cdt/da/0138-da.tag
+saved tag-file /opt/cdt/da/0140-da.tag
+Searched 02%. Elapsed: 00:00:04. ETA: 00:04:01. Matches: 152.saved tag-file /opt/cdt/da/0144-da.tag
+saved tag-file /opt/cdt/da/0148-da.tag
+Searched 02%. Elapsed: 00:00:05. ETA: 00:04:27. Matches: 164.saved tag-file /opt/cdt/da/0150-da.tag
+saved tag-file /opt/cdt/da/0151-da.tag
+saved tag-file /opt/cdt/da/0155-da.tag
+saved tag-file /opt/cdt/da/0159-da.tag
+saved tag-file /opt/cdt/da/0166-da.tag
+Searched 02%. Elapsed: 00:00:06. ETA: 00:04:56. Matches: 191.saved tag-file /opt/cdt/da/0169-da.tag
+saved tag-file /opt/cdt/da/0174-da.tag
+saved tag-file /opt/cdt/da/0176-da.tag
+saved tag-file /opt/cdt/da/0178-da.tag
+Searched 02%. Elapsed: 00:00:06. ETA: 00:05:24. Matches: 209.saved tag-file /opt/cdt/da/0182-da.tag
+saved tag-file /opt/cdt/da/0184-da.tag
+saved tag-file /opt/cdt/da/0187-da.tag
+Searched 03%. Elapsed: 00:00:07. ETA: 00:03:50. Matches: 228.saved tag-file /opt/cdt/da/0188-da.tag
+saved tag-file /opt/cdt/da/0190-da.tag
+saved tag-file /opt/cdt/da/0197-da.tag
+saved tag-file /opt/cdt/da/0202-da.tag
+Searched 03%. Elapsed: 00:00:07. ETA: 00:04:08. Matches: 246.saved tag-file /opt/cdt/da/0203-da.tag
+saved tag-file /opt/cdt/da/0204-da.tag
+saved tag-file /opt/cdt/da/0209-da.tag
+saved tag-file /opt/cdt/da/0211-da.tag
+saved tag-file /opt/cdt/da/0212-da.tag
+Searched 03%. Elapsed: 00:00:08. ETA: 00:04:26. Matches: 285.saved tag-file /opt/cdt/da/0215-da.tag
+saved tag-file /opt/cdt/da/0220-da.tag
+saved tag-file /opt/cdt/da/0229-da.tag
+Searched 03%. Elapsed: 00:00:08. ETA: 00:04:43. Matches: 300.saved tag-file /opt/cdt/da/0235-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0235-da.tag
+saved tag-file /opt/cdt/da/0237-da.tag
+saved tag-file /opt/cdt/da/0240-da.tag
+Searched 04%. Elapsed: 00:00:09. ETA: 00:03:42. Matches: 332.saved tag-file /opt/cdt/da/0245-da.tag
+saved tag-file /opt/cdt/da/0257-da.tag
+saved tag-file /opt/cdt/da/0258-da.tag
+Searched 04%. Elapsed: 00:00:09. ETA: 00:03:55. Matches: 349.saved tag-file /opt/cdt/da/0259-da.tag
+saved tag-file /opt/cdt/da/0260-da.tag
+saved tag-file /opt/cdt/da/0264-da.tag
+Searched 04%. Elapsed: 00:00:10. ETA: 00:04:07. Matches: 367.saved tag-file /opt/cdt/da/0265-da.tag
+saved tag-file /opt/cdt/da/0267-da.tag
+saved tag-file /opt/cdt/da/0269-da.tag
+saved tag-file /opt/cdt/da/0272-da.tag
+Searched 04%. Elapsed: 00:00:10. ETA: 00:04:19. Matches: 399.saved tag-file /opt/cdt/da/0273-da.tag
+saved tag-file /opt/cdt/da/0278-da.tag
+saved tag-file /opt/cdt/da/0279-da.tag
+saved tag-file /opt/cdt/da/0281-da.tag
+saved tag-file /opt/cdt/da/0284-da.tag
+Searched 05%. Elapsed: 00:00:11. ETA: 00:03:36. Matches: 435.saved tag-file /opt/cdt/da/0286-da.tag
+saved tag-file /opt/cdt/da/0287-da.tag
+saved tag-file /opt/cdt/da/0288-da.tag
+saved tag-file /opt/cdt/da/0294-da.tag
+Searched 05%. Elapsed: 00:00:11. ETA: 00:03:46. Matches: 460.saved tag-file /opt/cdt/da/0298-da.tag
+saved tag-file /opt/cdt/da/0300-da.tag
+saved tag-file /opt/cdt/da/0304-da.tag
+Searched 05%. Elapsed: 00:00:12. ETA: 00:03:56. Matches: 474.saved tag-file /opt/cdt/da/0307-da.tag
+saved tag-file /opt/cdt/da/0309-da.tag
+saved tag-file /opt/cdt/da/0312-da.tag
+saved tag-file /opt/cdt/da/0314-da.tag
+saved tag-file /opt/cdt/da/0316-da.tag
+saved tag-file /opt/cdt/da/0319-da.tag
+Searched 05%. Elapsed: 00:00:13. ETA: 00:04:07. Matches: 511.saved tag-file /opt/cdt/da/0324-da.tag
+saved tag-file /opt/cdt/da/0326-da.tag
+saved tag-file /opt/cdt/da/0327-da.tag
+saved tag-file /opt/cdt/da/0328-da.tag
+saved tag-file /opt/cdt/da/0333-da.tag
+Searched 06%. Elapsed: 00:00:13. ETA: 00:03:32. Matches: 550.saved tag-file /opt/cdt/da/0334-da.tag
+saved tag-file /opt/cdt/da/0337-da.tag
+saved tag-file /opt/cdt/da/0339-da.tag
+saved tag-file /opt/cdt/da/0342-da.tag
+saved tag-file /opt/cdt/da/0345-da.tag
+saved tag-file /opt/cdt/da/0351-da.tag
+Searched 06%. Elapsed: 00:00:14. ETA: 00:03:40. Matches: 581.saved tag-file /opt/cdt/da/0354-da.tag
+saved tag-file /opt/cdt/da/0355-da.tag
+saved tag-file /opt/cdt/da/0357-da.tag
+saved tag-file /opt/cdt/da/0361-da.tag
+saved tag-file /opt/cdt/da/0366-da.tag
+Searched 06%. Elapsed: 00:00:14. ETA: 00:03:48. Matches: 605.saved tag-file /opt/cdt/da/0375-da.tag
+saved tag-file /opt/cdt/da/0376-da.tag
+saved tag-file /opt/cdt/da/0391-da.tag
+saved tag-file /opt/cdt/da/0394-da.tag
+Searched 06%. Elapsed: 00:00:15. ETA: 00:03:57. Matches: 622.saved tag-file /opt/cdt/da/0395-da.tag
+saved tag-file /opt/cdt/da/0397-da.tag
+saved tag-file /opt/cdt/da/0401-da.tag
+saved tag-file /opt/cdt/da/0411-da.tag
+saved tag-file /opt/cdt/da/0421-da.tag
+Searched 06%. Elapsed: 00:00:15. ETA: 00:04:05. Matches: 657.saved tag-file /opt/cdt/da/0422-da.tag
+saved tag-file /opt/cdt/da/0428-da.tag
+saved tag-file /opt/cdt/da/0429-da.tag
+saved tag-file /opt/cdt/da/0431-da.tag
+saved tag-file /opt/cdt/da/0434-da.tag
+Searched 07%. Elapsed: 00:00:16. ETA: 00:03:36. Matches: 682.saved tag-file /opt/cdt/da/0441-da.tag
+saved tag-file /opt/cdt/da/0442-da.tag
+saved tag-file /opt/cdt/da/0446-da.tag
+saved tag-file /opt/cdt/da/0448-da.tag
+saved tag-file /opt/cdt/da/0449-da.tag
+saved tag-file /opt/cdt/da/0452-da.tag
+Searched 07%. Elapsed: 00:00:16. ETA: 00:03:43. Matches: 713.saved tag-file /opt/cdt/da/0453-da.tag
+saved tag-file /opt/cdt/da/0455-da.tag
+saved tag-file /opt/cdt/da/0465-da.tag
+saved tag-file /opt/cdt/da/0468-da.tag
+saved tag-file /opt/cdt/da/0470-da.tag
+saved tag-file /opt/cdt/da/0472-da.tag
+Searched 07%. Elapsed: 00:00:17. ETA: 00:03:50. Matches: 753.saved tag-file /opt/cdt/da/0473-da.tag
+saved tag-file /opt/cdt/da/0475-da.tag
+saved tag-file /opt/cdt/da/0479-da.tag
+saved tag-file /opt/cdt/da/0483-da.tag
+saved tag-file /opt/cdt/da/0484-da.tag
+saved tag-file /opt/cdt/da/0486-da.tag
+Searched 07%. Elapsed: 00:00:17. ETA: 00:03:57. Matches: 785.saved tag-file /opt/cdt/da/0488-da.tag
+saved tag-file /opt/cdt/da/0496-da.tag
+saved tag-file /opt/cdt/da/0498-da.tag
+saved tag-file /opt/cdt/da/0500-da.tag
+saved tag-file /opt/cdt/da/0502-da.tag
+Searched 07%. Elapsed: 00:00:18. ETA: 00:04:04. Matches: 814.saved tag-file /opt/cdt/da/0510-da.tag
+saved tag-file /opt/cdt/da/0511-da.tag
+saved tag-file /opt/cdt/da/0519-da.tag
+saved tag-file /opt/cdt/da/0520-da.tag
+saved tag-file /opt/cdt/da/0524-da.tag
+saved tag-file /opt/cdt/da/0526-da.tag
+Searched 08%. Elapsed: 00:00:18. ETA: 00:03:38. Matches: 874.saved tag-file /opt/cdt/da/0530-da.tag
+saved tag-file /opt/cdt/da/0531-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0531-da.tag
+saved tag-file /opt/cdt/da/0535-da.tag
+Searched 08%. Elapsed: 00:00:19. ETA: 00:03:44. Matches: 913.saved tag-file /opt/cdt/da/0538-da.tag
+saved tag-file /opt/cdt/da/0540-da.tag
+saved tag-file /opt/cdt/da/0544-da.tag
+saved tag-file /opt/cdt/da/0545-da.tag
+saved tag-file /opt/cdt/da/0546-da.tag
+saved tag-file /opt/cdt/da/0547-da.tag
+Searched 08%. Elapsed: 00:00:20. ETA: 00:03:50. Matches: 948.saved tag-file /opt/cdt/da/0548-da.tag
+saved tag-file /opt/cdt/da/0563-da.tag
+saved tag-file /opt/cdt/da/0564-da.tag
+saved tag-file /opt/cdt/da/0567-da.tag
+saved tag-file /opt/cdt/da/0571-da.tag
+saved tag-file /opt/cdt/da/0573-da.tag
+Searched 08%. Elapsed: 00:00:20. ETA: 00:03:56. Matches: 977.saved tag-file /opt/cdt/da/0576-da.tag
+saved tag-file /opt/cdt/da/0577-da.tag
+saved tag-file /opt/cdt/da/0580-da.tag
+saved tag-file /opt/cdt/da/0581-da.tag
+saved tag-file /opt/cdt/da/0586-da.tag
+saved tag-file /opt/cdt/da/0587-da.tag
+Searched 08%. Elapsed: 00:00:21. ETA: 00:04:02. Matches: 1031.saved tag-file /opt/cdt/da/0588-da.tag
+saved tag-file /opt/cdt/da/0590-da.tag
+saved tag-file /opt/cdt/da/0593-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0593-da.tag
+Searched 09%. Elapsed: 00:00:21. ETA: 00:03:38. Matches: 1063.saved tag-file /opt/cdt/da/0596-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0596-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0596-da-disc-morten.tag
+saved tag-file /opt/cdt/da/0596-da.tag
+saved tag-file /opt/cdt/da/0597-da.tag
+saved tag-file /opt/cdt/da/0601-da.tag
+Searched 09%. Elapsed: 00:00:22. ETA: 00:03:43. Matches: 1119.saved tag-file /opt/cdt/da/0602-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0602-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0602-da.tag
+saved tag-file /opt/cdt/da/0604-da.tag
+saved tag-file /opt/cdt/da/0607-da.tag
+Searched 09%. Elapsed: 00:00:22. ETA: 00:03:49. Matches: 1151.saved tag-file /opt/cdt/da/0612-da.tag
+saved tag-file /opt/cdt/da/0613-da.tag
+saved tag-file /opt/cdt/da/0614-da.tag
+saved tag-file /opt/cdt/da/0618-da.tag
+saved tag-file /opt/cdt/da/0620-da-disc-lotte.tag
+Searched 09%. Elapsed: 00:00:23. ETA: 00:03:54. Matches: 1181.saved tag-file /opt/cdt/da/0620-da.tag
+saved tag-file /opt/cdt/da/0623-da.tag
+saved tag-file /opt/cdt/da/0624-da.tag
+saved tag-file /opt/cdt/da/0626-da.tag
+saved tag-file /opt/cdt/da/0627-da.tag
+Searched 10%. Elapsed: 00:00:23. ETA: 00:03:33. Matches: 1209.saved tag-file /opt/cdt/da/0630-da.tag
+saved tag-file /opt/cdt/da/0641-da.tag
+saved tag-file /opt/cdt/da/0643-da.tag
+saved tag-file /opt/cdt/da/0644-da.tag
+saved tag-file /opt/cdt/da/0645-da.tag
+saved tag-file /opt/cdt/da/0646-da.tag
+Searched 10%. Elapsed: 00:00:24. ETA: 00:03:38. Matches: 1251.saved tag-file /opt/cdt/da/0647-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0647-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0652-da.tag
+saved tag-file /opt/cdt/da/0654-da.tag
+saved tag-file /opt/cdt/da/0656-da.tag
+Searched 10%. Elapsed: 00:00:24. ETA: 00:03:43. Matches: 1276.saved tag-file /opt/cdt/da/0660-da.tag
+saved tag-file /opt/cdt/da/0666-da.tag
+saved tag-file /opt/cdt/da/0667-da.tag
+saved tag-file /opt/cdt/da/0670-da.tag
+saved tag-file /opt/cdt/da/0671-da.tag
+saved tag-file /opt/cdt/da/0674-da.tag
+Searched 10%. Elapsed: 00:00:25. ETA: 00:03:48. Matches: 1311.saved tag-file /opt/cdt/da/0675-da.tag
+saved tag-file /opt/cdt/da/0680-da.tag
+saved tag-file /opt/cdt/da/0683-da.tag
+saved tag-file /opt/cdt/da/0685-da.tag
+saved tag-file /opt/cdt/da/0688-da.tag
+saved tag-file /opt/cdt/da/0689-da.tag
+Searched 10%. Elapsed: 00:00:25. ETA: 00:03:53. Matches: 1357.saved tag-file /opt/cdt/da/0690-da.tag
+saved tag-file /opt/cdt/da/0691-da.tag
+saved tag-file /opt/cdt/da/0694-da.tag
+saved tag-file /opt/cdt/da/0696-da.tag
+saved tag-file /opt/cdt/da/0697-da.tag
+saved tag-file /opt/cdt/da/0700-da.tag
+Searched 11%. Elapsed: 00:00:26. ETA: 00:03:33. Matches: 1384.saved tag-file /opt/cdt/da/0702-da.tag
+saved tag-file /opt/cdt/da/0704-da.tag
+saved tag-file /opt/cdt/da/0705-da.tag
+saved tag-file /opt/cdt/da/0708-da.tag
+saved tag-file /opt/cdt/da/0713-da.tag
+saved tag-file /opt/cdt/da/0715-da.tag
+Searched 11%. Elapsed: 00:00:26. ETA: 00:03:37. Matches: 1413.saved tag-file /opt/cdt/da/0720-da.tag
+saved tag-file /opt/cdt/da/0725-da.tag
+saved tag-file /opt/cdt/da/0729-da.tag
+saved tag-file /opt/cdt/da/0730-da.tag
+saved tag-file /opt/cdt/da/0733-da.tag
+saved tag-file /opt/cdt/da/0735-da.tag
+Searched 11%. Elapsed: 00:00:27. ETA: 00:03:41. Matches: 1444.saved tag-file /opt/cdt/da/0736-da.tag
+saved tag-file /opt/cdt/da/0738-da.tag
+saved tag-file /opt/cdt/da/0741-da.tag
+saved tag-file /opt/cdt/da/0742-da.tag
+saved tag-file /opt/cdt/da/0747-da.tag
+saved tag-file /opt/cdt/da/0752-da.tag
+saved tag-file /opt/cdt/da/0754-da.tag
+Searched 11%. Elapsed: 00:00:28. ETA: 00:03:46. Matches: 1466.saved tag-file /opt/cdt/da/0759-da.tag
+saved tag-file /opt/cdt/da/0763-da.tag
+saved tag-file /opt/cdt/da/0770-da.tag
+saved tag-file /opt/cdt/da/0771-da.tag
+saved tag-file /opt/cdt/da/0778-da.tag
+saved tag-file /opt/cdt/da/0780-da.tag
+Searched 11%. Elapsed: 00:00:28. ETA: 00:03:50. Matches: 1492.saved tag-file /opt/cdt/da/0781-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0781-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0781-da.tag
+saved tag-file /opt/cdt/da/0783-da-disc-lotte.tag
+Searched 12%. Elapsed: 00:00:29. ETA: 00:03:33. Matches: 1501.saved tag-file /opt/cdt/da/0783-da.tag
+saved tag-file /opt/cdt/da/0790-da.tag
+saved tag-file /opt/cdt/da/0793-da.tag
+saved tag-file /opt/cdt/da/0794-da.tag
+saved tag-file /opt/cdt/da/0795-da.tag
+saved tag-file /opt/cdt/da/0800-da-disc-iorn.tag
+Searched 12%. Elapsed: 00:00:29. ETA: 00:03:36. Matches: 1535.saved tag-file /opt/cdt/da/0800-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0800-da.tag
+saved tag-file /opt/cdt/da/0805-da.tag
+saved tag-file /opt/cdt/da/0809-da.tag
+saved tag-file /opt/cdt/da/0817-da.tag
+Searched 12%. Elapsed: 00:00:30. ETA: 00:03:40. Matches: 1562.saved tag-file /opt/cdt/da/0821-da.tag
+saved tag-file /opt/cdt/da/0822-da.tag
+saved tag-file /opt/cdt/da/0837-da.tag
+saved tag-file /opt/cdt/da/0839-da.tag
+saved tag-file /opt/cdt/da/0840-da.tag
+saved tag-file /opt/cdt/da/0843-da.tag
+Searched 12%. Elapsed: 00:00:30. ETA: 00:03:44. Matches: 1596.saved tag-file /opt/cdt/da/0848-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/0848-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0848-da.tag
+saved tag-file /opt/cdt/da/0850-da.tag
+saved tag-file /opt/cdt/da/0851-da.tag
+saved tag-file /opt/cdt/da/0853-da.tag
+Searched 13%. Elapsed: 00:00:31. ETA: 00:03:28. Matches: 1631.saved tag-file /opt/cdt/da/0855-da.tag
+saved tag-file /opt/cdt/da/0856-da.tag
+saved tag-file /opt/cdt/da/0862-da.tag
+saved tag-file /opt/cdt/da/0863-da.tag
+saved tag-file /opt/cdt/da/0864-da.tag
+saved tag-file /opt/cdt/da/0866-da-disc-iorn.tag
+Searched 13%. Elapsed: 00:00:31. ETA: 00:03:32. Matches: 1666.saved tag-file /opt/cdt/da/0866-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0866-da.tag
+saved tag-file /opt/cdt/da/0870-da.tag
+saved tag-file /opt/cdt/da/0873-da.tag
+saved tag-file /opt/cdt/da/0874-da.tag
+Searched 13%. Elapsed: 00:00:32. ETA: 00:03:36. Matches: 1690.saved tag-file /opt/cdt/da/0876-da.tag
+saved tag-file /opt/cdt/da/0877-da.tag
+saved tag-file /opt/cdt/da/0879-da.tag
+saved tag-file /opt/cdt/da/0881-da.tag
+saved tag-file /opt/cdt/da/0883-da.tag
+saved tag-file /opt/cdt/da/0884-da.tag
+Searched 13%. Elapsed: 00:00:32. ETA: 00:03:39. Matches: 1718.saved tag-file /opt/cdt/da/0888-da.tag
+saved tag-file /opt/cdt/da/0889-da.tag
+saved tag-file /opt/cdt/da/0893-da.tag
+saved tag-file /opt/cdt/da/0895-da.tag
+saved tag-file /opt/cdt/da/0902-da.tag
+saved tag-file /opt/cdt/da/0904-da.tag
+Searched 13%. Elapsed: 00:00:33. ETA: 00:03:43. Matches: 1759.saved tag-file /opt/cdt/da/0905-da.tag
+saved tag-file /opt/cdt/da/0915-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0915-da.tag
+saved tag-file /opt/cdt/da/0917-da.tag
+saved tag-file /opt/cdt/da/0919-da.tag
+Searched 14%. Elapsed: 00:00:33. ETA: 00:03:28. Matches: 1781.saved tag-file /opt/cdt/da/0925-da.tag
+saved tag-file /opt/cdt/da/0926-da.tag
+saved tag-file /opt/cdt/da/0927-da.tag
+saved tag-file /opt/cdt/da/0931-da.tag
+saved tag-file /opt/cdt/da/0932-da.tag
+saved tag-file /opt/cdt/da/0934-da.tag
+Searched 14%. Elapsed: 00:00:34. ETA: 00:03:31. Matches: 1820.saved tag-file /opt/cdt/da/0935-da.tag
+saved tag-file /opt/cdt/da/0939-da.tag
+saved tag-file /opt/cdt/da/0940-da.tag
+saved tag-file /opt/cdt/da/0943-da.tag
+saved tag-file /opt/cdt/da/0947-da.tag
+saved tag-file /opt/cdt/da/0949-da.tag
+Searched 14%. Elapsed: 00:00:34. ETA: 00:03:34. Matches: 1856.saved tag-file /opt/cdt/da/0951-da.tag
+saved tag-file /opt/cdt/da/0955-da.tag
+saved tag-file /opt/cdt/da/0956-da.tag
+saved tag-file /opt/cdt/da/0957-da.tag
+saved tag-file /opt/cdt/da/0958-da.tag
+Searched 14%. Elapsed: 00:00:35. ETA: 00:03:37. Matches: 1879.saved tag-file /opt/cdt/da/0960-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/0960-da.tag
+saved tag-file /opt/cdt/da/0962-da.tag
+saved tag-file /opt/cdt/da/0965-da.tag
+saved tag-file /opt/cdt/da/0968-da.tag
+saved tag-file /opt/cdt/da/0970-da.tag
+Searched 15%. Elapsed: 00:00:35. ETA: 00:03:23. Matches: 1919.saved tag-file /opt/cdt/da/0974-da.tag
+saved tag-file /opt/cdt/da/0975-da.tag
+saved tag-file /opt/cdt/da/0978-da.tag
+saved tag-file /opt/cdt/da/0986-da.tag
+saved tag-file /opt/cdt/da/0988-da.tag
+saved tag-file /opt/cdt/da/0989-da.tag
+saved tag-file /opt/cdt/da/0992-da.tag
+Searched 15%. Elapsed: 00:00:36. ETA: 00:03:27. Matches: 1951.saved tag-file /opt/cdt/da/0998-da.tag
+saved tag-file /opt/cdt/da/1001-da.tag
+saved tag-file /opt/cdt/da/1007-da.tag
+saved tag-file /opt/cdt/da/1008-da.tag
+saved tag-file /opt/cdt/da/1011-da.tag
+Searched 15%. Elapsed: 00:00:37. ETA: 00:03:30. Matches: 1990.saved tag-file /opt/cdt/da/1014-da-disc-iorn.tag
+saved tag-file /opt/cdt/da/1014-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/1014-da.tag
+saved tag-file /opt/cdt/da/1017-da.tag
+saved tag-file /opt/cdt/da/1019-da.tag
+Searched 15%. Elapsed: 00:00:37. ETA: 00:03:33. Matches: 2013.saved tag-file /opt/cdt/da/1021-da.tag
+saved tag-file /opt/cdt/da/1023-da.tag
+saved tag-file /opt/cdt/da/1030-da.tag
+saved tag-file /opt/cdt/da/1031-da.tag
+saved tag-file /opt/cdt/da/1032-da.tag
+saved tag-file /opt/cdt/da/1035-da-disc-iorn.tag
+Searched 15%. Elapsed: 00:00:38. ETA: 00:03:36. Matches: 2044.saved tag-file /opt/cdt/da/1035-da-disc-lotte.tag
+saved tag-file /opt/cdt/da/1035-da.tag
+saved tag-file /opt/cdt/da/1038-da-disc-lotte.tag
+Searched 16%. Elapsed: 00:00:38. ETA: 00:03:23. Matches: 2059.saved tag-file /opt/cdt/da/1038-da.tag
+saved tag-file /opt/cdt/da/1039-da.tag
+saved tag-file /opt/cdt/da/1040-da.tag
+saved tag-file /opt/cdt/da/1041-da.tag
+saved tag-file /opt/cdt/da/1042-da.tag
+saved tag-file /opt/cdt/da/1043-da-disc-lotte.tag
+Searched 16%. Elapsed: 00:00:39. ETA: 00:03:26. Matches: 2095.saved tag-file /opt/cdt/da/1043-da.tag
+saved tag-file /opt/cdt/da/1046-da.tag
+saved tag-file /opt/cdt/da/1047-da.tag
+saved tag-file /opt/cdt/da/1048-da.tag
+saved tag-file /opt/cdt/da/1053-da.tag
+Searched 16%. Elapsed: 00:00:39. ETA: 00:03:28. Matches: 2121.saved tag-file /opt/cdt/da/1054-da.tag
+saved tag-file /opt/cdt/da/1055-da.tag
+saved tag-file /opt/cdt/da/1056-da.tag
+saved tag-file /opt/cdt/da/1057-da.tag
+saved tag-file /opt/cdt/da/1058-da.tag
+saved tag-file /opt/cdt/da/1061-da.tag
+Searched 16%. Elapsed: 00:00:40. ETA: 00:03:31. Matches: 2145.saved tag-file /opt/cdt/da/1062-da.tag
+saved tag-file /opt/cdt/da/1063-da.tag
+saved tag-file /opt/cdt/da/1067-da.tag
+Searched 17%. Elapsed: 00:00:40. ETA: 00:03:19. Matches: 2159.Searched 17%. Elapsed: 00:00:41. ETA: 00:03:21. Matches: 2159.Searched 17%. Elapsed: 00:00:41. ETA: 00:03:24. Matches: 2159.Searched 17%. Elapsed: 00:00:42. ETA: 00:03:26. Matches: 2159.Searched 18%. Elapsed: 00:00:42. ETA: 00:03:15. Matches: 2159.Searched 18%. Elapsed: 00:00:43. ETA: 00:03:17. Matches: 2159.Searched 18%. Elapsed: 00:00:43. ETA: 00:03:20. Matches: 2159.Searched 19%. Elapsed: 00:00:44. ETA: 00:03:09. Matches: 2159.Searched 19%. Elapsed: 00:00:44. ETA: 00:03:11. Matches: 2159.Searched 19%. Elapsed: 00:00:45. ETA: 00:03:13. Matches: 2159.Searched 19%. Elapsed: 00:00:45. ETA: 00:03:16. Matches: 2159.Searched 20%. Elapsed: 00:00:46. ETA: 00:03:05. Matches: 2159.Searched 20%. Elapsed: 00:00:47. ETA: 00:03:08. Matches: 2159.Searched 20%. Elapsed: 00:00:47. ETA: 00:03:10. Matches: 2159.Searched 21%. Elapsed: 00:00:48. ETA: 00:03:01. Matches: 2159.Searched 21%. Elapsed: 00:00:48. ETA: 00:03:03. Matches: 2159.Searched 21%. Elapsed: 00:00:49. ETA: 00:03:04. Matches: 2159.Searched 22%. Elapsed: 00:00:49. ETA: 00:02:56. Matches: 2159.Searched 22%. Elapsed: 00:00:50. ETA: 00:02:58. Matches: 2159.Searched 22%. Elapsed: 00:00:50. ETA: 00:02:59. Matches: 2159.Searched 23%. Elapsed: 00:00:51. ETA: 00:02:51. Matches: 2159.Searched 23%. Elapsed: 00:00:51. ETA: 00:02:53. Matches: 2159.Searched 23%. Elapsed: 00:00:52. ETA: 00:02:55. Matches: 2159.Searched 24%. Elapsed: 00:00:52. ETA: 00:02:47. Matches: 2159.Searched 24%. Elapsed: 00:00:53. ETA: 00:02:48. Matches: 2159.Searched 25%. Elapsed: 00:00:53. ETA: 00:02:41. Matches: 2159.Searched 25%. Elapsed: 00:00:54. ETA: 00:02:43. Matches: 2159.Searched 26%. Elapsed: 00:00:54. ETA: 00:02:36. Matches: 2159.Searched 26%. Elapsed: 00:00:55. ETA: 00:02:37. Matches: 2159.Searched 27%. Elapsed: 00:00:55. ETA: 00:02:31. Matches: 2159.Searched 27%. Elapsed: 00:00:56. ETA: 00:02:32. Matches: 2159.Searched 28%. Elapsed: 00:00:56. ETA: 00:02:26. Matches: 2159.Searched 28%. Elapsed: 00:00:57. ETA: 00:02:27. Matches: 2159.Searched 29%. Elapsed: 00:00:58. ETA: 00:02:22. Matches: 2159.Searched 29%. Elapsed: 00:00:58. ETA: 00:02:23. Matches: 2159.saved tag-file /opt/cdt/de/0675-de-morten.tag
+Searched 30%. Elapsed: 00:00:59. ETA: 00:02:17. Matches: 2160.Searched 31%. Elapsed: 00:00:59. ETA: 00:02:12. Matches: 2160.Searched 31%. Elapsed: 00:01:00. ETA: 00:02:13. Matches: 2160.Searched 32%. Elapsed: 00:01:00. ETA: 00:02:08. Matches: 2160.Searched 32%. Elapsed: 00:01:01. ETA: 00:02:09. Matches: 2160.Searched 33%. Elapsed: 00:01:01. ETA: 00:02:05. Matches: 2160.Searched 33%. Elapsed: 00:01:02. ETA: 00:02:06. Matches: 2160.Searched 34%. Elapsed: 00:01:02. ETA: 00:02:01. Matches: 2160.Searched 35%. Elapsed: 00:01:03. ETA: 00:01:57. Matches: 2160.Searched 35%. Elapsed: 00:01:03. ETA: 00:01:58. Matches: 2160.Searched 36%. Elapsed: 00:01:04. ETA: 00:01:54. Matches: 2160.Searched 36%. Elapsed: 00:01:04. ETA: 00:01:55. Matches: 2160.Searched 37%. Elapsed: 00:01:05. ETA: 00:01:51. Matches: 2160.Searched 37%. Elapsed: 00:01:05. ETA: 00:01:51. Matches: 2160.Searched 38%. Elapsed: 00:01:06. ETA: 00:01:48. Matches: 2160.Searched 38%. Elapsed: 00:01:06. ETA: 00:01:48. Matches: 2160.Searched 39%. Elapsed: 00:01:07. ETA: 00:01:45. Matches: 2160.Searched 39%. Elapsed: 00:01:07. ETA: 00:01:46. Matches: 2160.Searched 39%. Elapsed: 00:01:08. ETA: 00:01:46. Matches: 2160.Searched 40%. Elapsed: 00:01:08. ETA: 00:01:43. Matches: 2160.Searched 40%. Elapsed: 00:01:09. ETA: 00:01:44. Matches: 2160.Searched 40%. Elapsed: 00:01:09. ETA: 00:01:44. Matches: 2160.Searched 41%. Elapsed: 00:01:10. ETA: 00:01:41. Matches: 2160.Searched 41%. Elapsed: 00:01:10. ETA: 00:01:42. Matches: 2160.Searched 41%. Elapsed: 00:01:11. ETA: 00:01:42. Matches: 2160.Searched 42%. Elapsed: 00:01:11. ETA: 00:01:39. Matches: 2160.Searched 42%. Elapsed: 00:01:12. ETA: 00:01:40. Matches: 2160.Searched 42%. Elapsed: 00:01:13. ETA: 00:01:40. Matches: 2160.Searched 43%. Elapsed: 00:01:13. ETA: 00:01:37. Matches: 2160.Searched 43%. Elapsed: 00:01:14. ETA: 00:01:38. Matches: 2160.Searched 43%. Elapsed: 00:01:14. ETA: 00:01:38. Matches: 2160.Searched 44%. Elapsed: 00:01:15. ETA: 00:01:35. Matches: 2160.Searched 44%. Elapsed: 00:01:15. ETA: 00:01:36. Matches: 2160.Searched 44%. Elapsed: 00:01:16. ETA: 00:01:37. Matches: 2160.Searched 45%. Elapsed: 00:01:16. ETA: 00:01:33. Matches: 2160.Searched 45%. Elapsed: 00:01:17. ETA: 00:01:34. Matches: 2160.Searched 45%. Elapsed: 00:01:17. ETA: 00:01:35. Matches: 2160.Searched 46%. Elapsed: 00:01:18. ETA: 00:01:31. Matches: 2160.Searched 46%. Elapsed: 00:01:18. ETA: 00:01:32. Matches: 2160.Searched 46%. Elapsed: 00:01:19. ETA: 00:01:33. Matches: 2160.Searched 47%. Elapsed: 00:01:19. ETA: 00:01:30. Matches: 2160.Searched 47%. Elapsed: 00:01:20. ETA: 00:01:30. Matches: 2160.Searched 47%. Elapsed: 00:01:20. ETA: 00:01:31. Matches: 2160.Searched 48%. Elapsed: 00:01:21. ETA: 00:01:28. Matches: 2160.Searched 48%. Elapsed: 00:01:22. ETA: 00:01:28. Matches: 2160.Searched 48%. Elapsed: 00:01:22. ETA: 00:01:29. Matches: 2160.Searched 49%. Elapsed: 00:01:23. ETA: 00:01:26. Matches: 2160.Searched 49%. Elapsed: 00:01:23. ETA: 00:01:26. Matches: 2160.Searched 49%. Elapsed: 00:01:24. ETA: 00:01:27. Matches: 2160.Searched 50%. Elapsed: 00:01:24. ETA: 00:01:24. Matches: 2160.Searched 50%. Elapsed: 00:01:25. ETA: 00:01:25. Matches: 2160.Searched 50%. Elapsed: 00:01:25. ETA: 00:01:25. Matches: 2160.Searched 51%. Elapsed: 00:01:26. ETA: 00:01:22. Matches: 2160.Searched 51%. Elapsed: 00:01:26. ETA: 00:01:23. Matches: 2160.Searched 51%. Elapsed: 00:01:27. ETA: 00:01:23. Matches: 2160.Searched 52%. Elapsed: 00:01:27. ETA: 00:01:21. Matches: 2160.Searched 52%. Elapsed: 00:01:28. ETA: 00:01:21. Matches: 2160.Searched 53%. Elapsed: 00:01:28. ETA: 00:01:18. Matches: 2160.Searched 53%. Elapsed: 00:01:29. ETA: 00:01:19. Matches: 2160.Searched 53%. Elapsed: 00:01:29. ETA: 00:01:19. Matches: 2160.Searched 54%. Elapsed: 00:01:30. ETA: 00:01:17. Matches: 2160.Searched 54%. Elapsed: 00:01:30. ETA: 00:01:17. Matches: 2160.Searched 54%. Elapsed: 00:01:31. ETA: 00:01:17. Matches: 2160.Searched 55%. Elapsed: 00:01:32. ETA: 00:01:15. Matches: 2160.Searched 55%. Elapsed: 00:01:32. ETA: 00:01:15. Matches: 2160.Searched 55%. Elapsed: 00:01:33. ETA: 00:01:16. Matches: 2160.Searched 56%. Elapsed: 00:01:33. ETA: 00:01:13. Matches: 2160.Searched 56%. Elapsed: 00:01:34. ETA: 00:01:13. Matches: 2160.Searched 57%. Elapsed: 00:01:34. ETA: 00:01:11. Matches: 2160.Searched 57%. Elapsed: 00:01:35. ETA: 00:01:11. Matches: 2160.Searched 58%. Elapsed: 00:01:35. ETA: 00:01:09. Matches: 2160.Searched 58%. Elapsed: 00:01:36. ETA: 00:01:09. Matches: 2160.Searched 59%. Elapsed: 00:01:36. ETA: 00:01:07. Matches: 2160.Searched 59%. Elapsed: 00:01:37. ETA: 00:01:07. Matches: 2160.Searched 60%. Elapsed: 00:01:37. ETA: 00:01:05. Matches: 2160.Searched 60%. Elapsed: 00:01:38. ETA: 00:01:05. Matches: 2160.Searched 61%. Elapsed: 00:01:38. ETA: 00:01:03. Matches: 2160.Searched 61%. Elapsed: 00:01:39. ETA: 00:01:03. Matches: 2160.Searched 62%. Elapsed: 00:01:39. ETA: 00:01:01. Matches: 2160.Searched 62%. Elapsed: 00:01:40. ETA: 00:01:01. Matches: 2160.Searched 63%. Elapsed: 00:01:40. ETA: 00:00:59. Matches: 2160.Searched 63%. Elapsed: 00:01:41. ETA: 00:00:59. Matches: 2160.Searched 64%. Elapsed: 00:01:41. ETA: 00:00:57. Matches: 2160.Searched 64%. Elapsed: 00:01:42. ETA: 00:00:57. Matches: 2160.Searched 65%. Elapsed: 00:01:42. ETA: 00:00:55. Matches: 2160.Searched 65%. Elapsed: 00:01:43. ETA: 00:00:55. Matches: 2160.Searched 66%. Elapsed: 00:01:43. ETA: 00:00:53. Matches: 2160.Searched 66%. Elapsed: 00:01:44. ETA: 00:00:53. Matches: 2160.Searched 67%. Elapsed: 00:01:44. ETA: 00:00:51. Matches: 2160.Searched 67%. Elapsed: 00:01:45. ETA: 00:00:51. Matches: 2160.Searched 68%. Elapsed: 00:01:45. ETA: 00:00:49. Matches: 2160.Searched 68%. Elapsed: 00:01:46. ETA: 00:00:50. Matches: 2160.Searched 69%. Elapsed: 00:01:46. ETA: 00:00:48. Matches: 2160.Searched 69%. Elapsed: 00:01:47. ETA: 00:00:48. Matches: 2160.Searched 70%. Elapsed: 00:01:48. ETA: 00:00:46. Matches: 2160.Searched 70%. Elapsed: 00:01:48. ETA: 00:00:46. Matches: 2160.Searched 71%. Elapsed: 00:01:49. ETA: 00:00:44. Matches: 2160.Searched 71%. Elapsed: 00:01:49. ETA: 00:00:44. Matches: 2160.Searched 72%. Elapsed: 00:01:50. ETA: 00:00:42. Matches: 2160.Searched 72%. Elapsed: 00:01:50. ETA: 00:00:43. Matches: 2160.Searched 73%. Elapsed: 00:01:51. ETA: 00:00:41. Matches: 2160.Searched 73%. Elapsed: 00:01:51. ETA: 00:00:41. Matches: 2160.Searched 74%. Elapsed: 00:01:52. ETA: 00:00:39. Matches: 2160.Searched 74%. Elapsed: 00:01:52. ETA: 00:00:39. Matches: 2160.Searched 75%. Elapsed: 00:01:53. ETA: 00:00:37. Matches: 2160.Searched 75%. Elapsed: 00:01:53. ETA: 00:00:37. Matches: 2160.Searched 76%. Elapsed: 00:01:54. ETA: 00:00:36. Matches: 2160.Searched 76%. Elapsed: 00:01:54. ETA: 00:00:36. Matches: 2160.Searched 77%. Elapsed: 00:01:55. ETA: 00:00:34. Matches: 2160.Searched 77%. Elapsed: 00:01:55. ETA: 00:00:34. Matches: 2160.Searched 77%. Elapsed: 00:01:56. ETA: 00:00:34. Matches: 2160.Searched 78%. Elapsed: 00:01:56. ETA: 00:00:32. Matches: 2160.Searched 78%. Elapsed: 00:01:57. ETA: 00:00:33. Matches: 2160.Searched 79%. Elapsed: 00:01:57. ETA: 00:00:31. Matches: 2160.Searched 79%. Elapsed: 00:01:58. ETA: 00:00:31. Matches: 2160.Searched 80%. Elapsed: 00:01:58. ETA: 00:00:29. Matches: 2160.Searched 80%. Elapsed: 00:01:59. ETA: 00:00:29. Matches: 2160.Searched 80%. Elapsed: 00:02:00. ETA: 00:00:30. Matches: 2160.Searched 81%. Elapsed: 00:02:00. ETA: 00:00:28. Matches: 2160.Searched 82%. Elapsed: 00:02:01. ETA: 00:00:26. Matches: 2160.Searched 82%. Elapsed: 00:02:01. ETA: 00:00:26. Matches: 2160.Searched 83%. Elapsed: 00:02:02. ETA: 00:00:24. Matches: 2160.Searched 83%. Elapsed: 00:02:02. ETA: 00:00:25. Matches: 2160.Searched 83%. Elapsed: 00:02:03. ETA: 00:00:25. Matches: 2160.Searched 84%. Elapsed: 00:02:03. ETA: 00:00:23. Matches: 2160.Searched 85%. Elapsed: 00:02:04. ETA: 00:00:21. Matches: 2160.Searched 85%. Elapsed: 00:02:04. ETA: 00:00:21. Matches: 2160.Searched 85%. Elapsed: 00:02:05. ETA: 00:00:22. Matches: 2160.Searched 86%. Elapsed: 00:02:05. ETA: 00:00:20. Matches: 2160.Searched 86%. Elapsed: 00:02:06. ETA: 00:00:20. Matches: 2160.Searched 87%. Elapsed: 00:02:06. ETA: 00:00:18. Matches: 2160.Searched 87%. Elapsed: 00:02:07. ETA: 00:00:19. Matches: 2160.Searched 88%. Elapsed: 00:02:07. ETA: 00:00:17. Matches: 2160.Searched 88%. Elapsed: 00:02:08. ETA: 00:00:17. Matches: 2160.Searched 89%. Elapsed: 00:02:08. ETA: 00:00:15. Matches: 2160.Searched 89%. Elapsed: 00:02:09. ETA: 00:00:15. Matches: 2160.Searched 90%. Elapsed: 00:02:09. ETA: 00:00:14. Matches: 2160.Searched 90%. Elapsed: 00:02:10. ETA: 00:00:14. Matches: 2160.Searched 90%. Elapsed: 00:02:10. ETA: 00:00:14. Matches: 2160.Searched 91%. Elapsed: 00:02:11. ETA: 00:00:12. Matches: 2160.Searched 91%. Elapsed: 00:02:11. ETA: 00:00:13. Matches: 2160.Searched 92%. Elapsed: 00:02:12. ETA: 00:00:11. Matches: 2160.Searched 92%. Elapsed: 00:02:12. ETA: 00:00:11. Matches: 2160.Searched 93%. Elapsed: 00:02:13. ETA: 00:00:10. Matches: 2160.Searched 93%. Elapsed: 00:02:14. ETA: 00:00:10. Matches: 2160.Searched 94%. Elapsed: 00:02:14. ETA: 00:00:08. Matches: 2160.Searched 94%. Elapsed: 00:02:15. ETA: 00:00:08. Matches: 2160.Searched 95%. Elapsed: 00:02:15. ETA: 00:00:07. Matches: 2160.Searched 95%. Elapsed: 00:02:16. ETA: 00:00:07. Matches: 2160.Searched 96%. Elapsed: 00:02:16. ETA: 00:00:05. Matches: 2160.Searched 96%. Elapsed: 00:02:17. ETA: 00:00:05. Matches: 2160.Searched 97%. Elapsed: 00:02:17. ETA: 00:00:04. Matches: 2160.Searched 97%. Elapsed: 00:02:18. ETA: 00:00:04. Matches: 2160.Searched 98%. Elapsed: 00:02:18. ETA: 00:00:02. Matches: 2160.Searched 98%. Elapsed: 00:02:19. ETA: 00:00:02. Matches: 2160.Searched 98%. Elapsed: 00:02:19. ETA: 00:00:02. Matches: 2160.Searched 99%. Elapsed: 00:02:20. ETA: 00:00:01. Matches: 2160.Searched 99%. Elapsed: 00:02:20. ETA: 00:00:01. Matches: 2160.                                                              2160 matches found in 00:02:20 for query "-corpus -yes $CC coord $C1 & $C2 conj $CC -do(edel $CC coord $C1 ; edel $C2 conj $CC ; $CC coord $C2 ; $C2 conj $C1)".
+*1*
+*2*
+*3*
+*M1   match at /opt/cdt/da/0001-da.tag:43 ($C1, $C2, $CC) = (48, 51, 49)
+*4*
+DTAG commit version 2010-04-23
+DTAG update version 2008-08-04
+Downloading files from CDT repository
+At revision 957.
+svn: Try 'svn help' for more info
+svn: Not enough arguments provided
+Uploading files to CDT repository
+Sending        trunk/da/0001-da.tag
+Sending        trunk/da/0005-da.tag
+Sending        trunk/da/0008-da.tag
+Sending        trunk/da/0021-da.tag
+Sending        trunk/da/0029-da.tag
+Sending        trunk/da/0043-da.tag
+Sending        trunk/da/0061-da.tag
+Sending        trunk/da/0065-da.tag
+Sending        trunk/da/0073-da.tag
+Sending        trunk/da/0079-da.tag
+Sending        trunk/da/0083-da.tag
+Sending        trunk/da/0086-da.tag
+Sending        trunk/da/0090-da.tag
+Sending        trunk/da/0091-da.tag
+Sending        trunk/da/0093-da.tag
+Sending        trunk/da/0096-da.tag
+Sending        trunk/da/0097-da.tag
+Sending        trunk/da/0101-da.tag
+Sending        trunk/da/0102-da.tag
+Sending        trunk/da/0103-da.tag
+Sending        trunk/da/0107-da.tag
+Sending        trunk/da/0112-da.tag
+Sending        trunk/da/0113-da.tag
+Sending        trunk/da/0119-da.tag
+Sending        trunk/da/0132-da.tag
+Sending        trunk/da/0133-da.tag
+Sending        trunk/da/0134-da.tag
+Sending        trunk/da/0138-da.tag
+Sending        trunk/da/0140-da.tag
+Sending        trunk/da/0144-da.tag
+Sending        trunk/da/0148-da.tag
+Sending        trunk/da/0150-da.tag
+Sending        trunk/da/0151-da.tag
+Sending        trunk/da/0155-da.tag
+Sending        trunk/da/0159-da.tag
+Sending        trunk/da/0166-da.tag
+Sending        trunk/da/0169-da.tag
+Sending        trunk/da/0174-da.tag
+Sending        trunk/da/0176-da.tag
+Sending        trunk/da/0178-da.tag
+Sending        trunk/da/0182-da.tag
+Sending        trunk/da/0184-da.tag
+Sending        trunk/da/0187-da.tag
+Sending        trunk/da/0188-da.tag
+Sending        trunk/da/0190-da.tag
+Sending        trunk/da/0197-da.tag
+Sending        trunk/da/0202-da.tag
+Sending        trunk/da/0203-da.tag
+Sending        trunk/da/0204-da.tag
+Sending        trunk/da/0209-da.tag
+Sending        trunk/da/0211-da.tag
+Sending        trunk/da/0212-da.tag
+Sending        trunk/da/0215-da.tag
+Sending        trunk/da/0220-da.tag
+Sending        trunk/da/0229-da.tag
+Sending        trunk/da/0235-da-disc-lotte.tag
+Sending        trunk/da/0235-da.tag
+Sending        trunk/da/0237-da.tag
+Sending        trunk/da/0240-da.tag
+Sending        trunk/da/0245-da.tag
+Sending        trunk/da/0257-da.tag
+Sending        trunk/da/0258-da.tag
+Sending        trunk/da/0259-da.tag
+Sending        trunk/da/0260-da.tag
+Sending        trunk/da/0264-da.tag
+Sending        trunk/da/0265-da.tag
+Sending        trunk/da/0267-da.tag
+Sending        trunk/da/0269-da.tag
+Sending        trunk/da/0272-da.tag
+Sending        trunk/da/0273-da.tag
+Sending        trunk/da/0278-da.tag
+Sending        trunk/da/0279-da.tag
+Sending        trunk/da/0281-da.tag
+Sending        trunk/da/0284-da.tag
+Sending        trunk/da/0286-da.tag
+Sending        trunk/da/0287-da.tag
+Sending        trunk/da/0288-da.tag
+Sending        trunk/da/0294-da.tag
+Sending        trunk/da/0298-da.tag
+Sending        trunk/da/0300-da.tag
+Sending        trunk/da/0304-da.tag
+Sending        trunk/da/0307-da.tag
+Sending        trunk/da/0309-da.tag
+Sending        trunk/da/0312-da.tag
+Sending        trunk/da/0314-da.tag
+Sending        trunk/da/0316-da.tag
+Sending        trunk/da/0319-da.tag
+Sending        trunk/da/0324-da.tag
+Sending        trunk/da/0326-da.tag
+Sending        trunk/da/0327-da.tag
+Sending        trunk/da/0328-da.tag
+Sending        trunk/da/0333-da.tag
+Sending        trunk/da/0334-da.tag
+Sending        trunk/da/0337-da.tag
+Sending        trunk/da/0339-da.tag
+Sending        trunk/da/0342-da.tag
+Sending        trunk/da/0345-da.tag
+Sending        trunk/da/0351-da.tag
+Sending        trunk/da/0354-da.tag
+Sending        trunk/da/0355-da.tag
+Sending        trunk/da/0357-da.tag
+Sending        trunk/da/0361-da.tag
+Sending        trunk/da/0366-da.tag
+Sending        trunk/da/0375-da.tag
+Sending        trunk/da/0376-da.tag
+Sending        trunk/da/0391-da.tag
+Sending        trunk/da/0394-da.tag
+Sending        trunk/da/0395-da.tag
+Sending        trunk/da/0397-da.tag
+Sending        trunk/da/0401-da.tag
+Sending        trunk/da/0411-da.tag
+Sending        trunk/da/0421-da.tag
+Sending        trunk/da/0422-da.tag
+Sending        trunk/da/0428-da.tag
+Sending        trunk/da/0429-da.tag
+Sending        trunk/da/0431-da.tag
+Sending        trunk/da/0434-da.tag
+Sending        trunk/da/0441-da.tag
+Sending        trunk/da/0442-da.tag
+Sending        trunk/da/0446-da.tag
+Sending        trunk/da/0448-da.tag
+Sending        trunk/da/0449-da.tag
+Sending        trunk/da/0452-da.tag
+Sending        trunk/da/0453-da.tag
+Sending        trunk/da/0455-da.tag
+Sending        trunk/da/0465-da.tag
+Sending        trunk/da/0468-da.tag
+Sending        trunk/da/0470-da.tag
+Sending        trunk/da/0472-da.tag
+Sending        trunk/da/0473-da.tag
+Sending        trunk/da/0475-da.tag
+Sending        trunk/da/0479-da.tag
+Sending        trunk/da/0483-da.tag
+Sending        trunk/da/0484-da.tag
+Sending        trunk/da/0486-da.tag
+Sending        trunk/da/0488-da.tag
+Sending        trunk/da/0496-da.tag
+Sending        trunk/da/0498-da.tag
+Sending        trunk/da/0500-da.tag
+Sending        trunk/da/0502-da.tag
+Sending        trunk/da/0510-da.tag
+Sending        trunk/da/0511-da.tag
+Sending        trunk/da/0519-da.tag
+Sending        trunk/da/0520-da.tag
+Sending        trunk/da/0524-da.tag
+Sending        trunk/da/0526-da.tag
+Sending        trunk/da/0530-da.tag
+Sending        trunk/da/0531-da-disc-lotte.tag
+Sending        trunk/da/0531-da.tag
+Sending        trunk/da/0535-da.tag
+Sending        trunk/da/0538-da.tag
+Sending        trunk/da/0540-da.tag
+Sending        trunk/da/0544-da.tag
+Sending        trunk/da/0545-da.tag
+Sending        trunk/da/0546-da.tag
+Sending        trunk/da/0547-da.tag
+Sending        trunk/da/0548-da.tag
+Sending        trunk/da/0563-da.tag
+Sending        trunk/da/0564-da.tag
+Sending        trunk/da/0567-da.tag
+Sending        trunk/da/0571-da.tag
+Sending        trunk/da/0573-da.tag
+Sending        trunk/da/0576-da.tag
+Sending        trunk/da/0577-da.tag
+Sending        trunk/da/0580-da.tag
+Sending        trunk/da/0581-da.tag
+Sending        trunk/da/0586-da.tag
+Sending        trunk/da/0587-da.tag
+Sending        trunk/da/0588-da.tag
+Sending        trunk/da/0590-da.tag
+Sending        trunk/da/0593-da-disc-lotte.tag
+Sending        trunk/da/0593-da.tag
+Sending        trunk/da/0596-da-disc-iorn.tag
+Sending        trunk/da/0596-da-disc-lotte.tag
+Sending        trunk/da/0596-da-disc-morten.tag
+Sending        trunk/da/0596-da.tag
+Sending        trunk/da/0597-da.tag
+Sending        trunk/da/0601-da.tag
+Sending        trunk/da/0602-da-disc-iorn.tag
+Sending        trunk/da/0602-da-disc-lotte.tag
+Sending        trunk/da/0602-da.tag
+Sending        trunk/da/0604-da.tag
+Sending        trunk/da/0607-da.tag
+Sending        trunk/da/0612-da.tag
+Sending        trunk/da/0613-da.tag
+Sending        trunk/da/0614-da.tag
+Sending        trunk/da/0618-da.tag
+Sending        trunk/da/0620-da-disc-lotte.tag
+Sending        trunk/da/0620-da.tag
+Sending        trunk/da/0623-da.tag
+Sending        trunk/da/0624-da.tag
+Sending        trunk/da/0626-da.tag
+Sending        trunk/da/0627-da.tag
+Sending        trunk/da/0630-da.tag
+Sending        trunk/da/0641-da.tag
+Sending        trunk/da/0643-da.tag
+Sending        trunk/da/0644-da.tag
+Sending        trunk/da/0645-da.tag
+Sending        trunk/da/0646-da.tag
+Sending        trunk/da/0647-da-disc-iorn.tag
+Sending        trunk/da/0647-da-disc-lotte.tag
+Sending        trunk/da/0652-da.tag
+Sending        trunk/da/0654-da.tag
+Sending        trunk/da/0656-da.tag
+Sending        trunk/da/0660-da.tag
+Sending        trunk/da/0666-da.tag
+Sending        trunk/da/0667-da.tag
+Sending        trunk/da/0670-da.tag
+Sending        trunk/da/0671-da.tag
+Sending        trunk/da/0674-da.tag
+Sending        trunk/da/0675-da.tag
+Sending        trunk/da/0680-da.tag
+Sending        trunk/da/0683-da.tag
+Sending        trunk/da/0685-da.tag
+Sending        trunk/da/0688-da.tag
+Sending        trunk/da/0689-da.tag
+Sending        trunk/da/0690-da.tag
+Sending        trunk/da/0691-da.tag
+Sending        trunk/da/0694-da.tag
+Sending        trunk/da/0696-da.tag
+Sending        trunk/da/0697-da.tag
+Sending        trunk/da/0700-da.tag
+Sending        trunk/da/0702-da.tag
+Sending        trunk/da/0704-da.tag
+Sending        trunk/da/0705-da.tag
+Sending        trunk/da/0708-da.tag
+Sending        trunk/da/0713-da.tag
+Sending        trunk/da/0715-da.tag
+Sending        trunk/da/0720-da.tag
+Sending        trunk/da/0725-da.tag
+Sending        trunk/da/0729-da.tag
+Sending        trunk/da/0730-da.tag
+Sending        trunk/da/0733-da.tag
+Sending        trunk/da/0735-da.tag
+Sending        trunk/da/0736-da.tag
+Sending        trunk/da/0738-da.tag
+Sending        trunk/da/0741-da.tag
+Sending        trunk/da/0742-da.tag
+Sending        trunk/da/0747-da.tag
+Sending        trunk/da/0752-da.tag
+Sending        trunk/da/0754-da.tag
+Sending        trunk/da/0759-da.tag
+Sending        trunk/da/0763-da.tag
+Sending        trunk/da/0770-da.tag
+Sending        trunk/da/0771-da.tag
+Sending        trunk/da/0778-da.tag
+Sending        trunk/da/0780-da.tag
+Sending        trunk/da/0781-da-disc-iorn.tag
+Sending        trunk/da/0781-da-disc-lotte.tag
+Sending        trunk/da/0781-da.tag
+Sending        trunk/da/0783-da-disc-lotte.tag
+Sending        trunk/da/0783-da.tag
+Sending        trunk/da/0790-da.tag
+Sending        trunk/da/0793-da.tag
+Sending        trunk/da/0794-da.tag
+Sending        trunk/da/0795-da.tag
+Sending        trunk/da/0800-da-disc-iorn.tag
+Sending        trunk/da/0800-da-disc-lotte.tag
+Sending        trunk/da/0800-da.tag
+Sending        trunk/da/0805-da.tag
+Sending        trunk/da/0809-da.tag
+Sending        trunk/da/0817-da.tag
+Sending        trunk/da/0821-da.tag
+Sending        trunk/da/0822-da.tag
+Sending        trunk/da/0837-da.tag
+Sending        trunk/da/0839-da.tag
+Sending        trunk/da/0840-da.tag
+Sending        trunk/da/0843-da.tag
+Sending        trunk/da/0848-da-disc-iorn.tag
+Sending        trunk/da/0848-da-disc-lotte.tag
+Sending        trunk/da/0848-da.tag
+Sending        trunk/da/0850-da.tag
+Sending        trunk/da/0851-da.tag
+Sending        trunk/da/0853-da.tag
+Sending        trunk/da/0855-da.tag
+Sending        trunk/da/0856-da.tag
+Sending        trunk/da/0862-da.tag
+Sending        trunk/da/0863-da.tag
+Sending        trunk/da/0864-da.tag
+Sending        trunk/da/0866-da-disc-iorn.tag
+Sending        trunk/da/0866-da-disc-lotte.tag
+Sending        trunk/da/0866-da.tag
+Sending        trunk/da/0870-da.tag
+Sending        trunk/da/0873-da.tag
+Sending        trunk/da/0874-da.tag
+Sending        trunk/da/0876-da.tag
+Sending        trunk/da/0877-da.tag
+Sending        trunk/da/0879-da.tag
+Sending        trunk/da/0881-da.tag
+Sending        trunk/da/0883-da.tag
+Sending        trunk/da/0884-da.tag
+Sending        trunk/da/0888-da.tag
+Sending        trunk/da/0889-da.tag
+Sending        trunk/da/0893-da.tag
+Sending        trunk/da/0895-da.tag
+Sending        trunk/da/0902-da.tag
+Sending        trunk/da/0904-da.tag
+Sending        trunk/da/0905-da.tag
+Sending        trunk/da/0915-da-disc-lotte.tag
+Sending        trunk/da/0915-da.tag
+Sending        trunk/da/0917-da.tag
+Sending        trunk/da/0919-da.tag
+Sending        trunk/da/0925-da.tag
+Sending        trunk/da/0926-da.tag
+Sending        trunk/da/0927-da.tag
+Sending        trunk/da/0931-da.tag
+Sending        trunk/da/0932-da.tag
+Sending        trunk/da/0934-da.tag
+Sending        trunk/da/0935-da.tag
+Sending        trunk/da/0939-da.tag
+Sending        trunk/da/0940-da.tag
+Sending        trunk/da/0943-da.tag
+Sending        trunk/da/0947-da.tag
+Sending        trunk/da/0949-da.tag
+Sending        trunk/da/0951-da.tag
+Sending        trunk/da/0955-da.tag
+Sending        trunk/da/0956-da.tag
+Sending        trunk/da/0957-da.tag
+Sending        trunk/da/0958-da.tag
+Sending        trunk/da/0960-da-disc-lotte.tag
+Sending        trunk/da/0960-da.tag
+Sending        trunk/da/0962-da.tag
+Sending        trunk/da/0965-da.tag
+Sending        trunk/da/0968-da.tag
+Sending        trunk/da/0970-da.tag
+Sending        trunk/da/0974-da.tag
+Sending        trunk/da/0975-da.tag
+Sending        trunk/da/0978-da.tag
+Sending        trunk/da/0986-da.tag
+Sending        trunk/da/0988-da.tag
+Sending        trunk/da/0989-da.tag
+Sending        trunk/da/0992-da.tag
+Sending        trunk/da/0998-da.tag
+Sending        trunk/da/1001-da.tag
+Sending        trunk/da/1007-da.tag
+Sending        trunk/da/1008-da.tag
+Sending        trunk/da/1011-da.tag
+Sending        trunk/da/1014-da-disc-iorn.tag
+Sending        trunk/da/1014-da-disc-lotte.tag
+Sending        trunk/da/1014-da.tag
+Sending        trunk/da/1017-da.tag
+Sending        trunk/da/1019-da.tag
+Sending        trunk/da/1021-da.tag
+Sending        trunk/da/1023-da.tag
+Sending        trunk/da/1030-da.tag
+Sending        trunk/da/1031-da.tag
+Sending        trunk/da/1032-da.tag
+Sending        trunk/da/1035-da-disc-iorn.tag
+Sending        trunk/da/1035-da-disc-lotte.tag
+Sending        trunk/da/1035-da.tag
+Sending        trunk/da/1038-da-disc-lotte.tag
+Sending        trunk/da/1038-da.tag
+Sending        trunk/da/1039-da.tag
+Sending        trunk/da/1040-da.tag
+Sending        trunk/da/1041-da.tag
+Sending        trunk/da/1042-da.tag
+Sending        trunk/da/1043-da-disc-lotte.tag
+Sending        trunk/da/1043-da.tag
+Sending        trunk/da/1046-da.tag
+Sending        trunk/da/1047-da.tag
+Sending        trunk/da/1048-da.tag
+Sending        trunk/da/1053-da.tag
+Sending        trunk/da/1054-da.tag
+Sending        trunk/da/1055-da.tag
+Sending        trunk/da/1056-da.tag
+Sending        trunk/da/1057-da.tag
+Sending        trunk/da/1058-da.tag
+Sending        trunk/da/1061-da.tag
+Sending        trunk/da/1062-da.tag
+Sending        trunk/da/1063-da.tag
+Sending        trunk/da/1067-da.tag
+Sending        trunk/de/0675-de-morten.tag
+Transmitting file data ....................................................................................................................................................................................................................................................................................................................................................................................
+Committed revision 958.
+

@@ -130,7 +130,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:appa" out="3:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="-1:degr">grande</W>
-<W lemma="fiero" msd="AN" tag="ADJ" in="-3:nobj" out="-1:attr|2:attr|4:attr|1:aobj.dobj|1:{patient}#">fiera</W>
+<W lemma="fiero" msd="AN" tag="ADJ" in="-3:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|2:attr|4:attr">fiera</W>
 <W lemma="alimentare" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">alimentare</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
@@ -144,7 +144,7 @@
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj" out="">momento</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj|15:coref">la</W>
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:nobj" out="">pasta</W>
-<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-5:time|2:dobj|11:pnct&3a;elab|14:elab">costituisce</W>
+<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-5:time|2:dobj|14:elab|11:pnct">costituisce</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="-1:degr|2:nobj">una</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>
@@ -155,7 +155,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|12:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
-<W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct&3a;elab" out="">:</W>
+<W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct" out="">:</W>
 <W lemma="se" msd="CS" tag="CON" in="2:robj" out="">se</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-15:coref|1:pobj" out="">ne</W>
 <W lemma="occupare" msd="VADR" tag="VER&3a;pres" in="-14:elab" out="-2:robj|-1:pobj|2:subj|8:pnct">occupano</W>

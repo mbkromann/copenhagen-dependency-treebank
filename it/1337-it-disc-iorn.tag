@@ -39,7 +39,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Holte</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-11:conj" out="-1:coord|1:nobj">una</W>
-<W lemma="serie" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|6:loc|1:pobj.dobj|1:{patient}">serie</W>
+<W lemma="serie" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr|6:loc">serie</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="colpo" msd="NC" tag="NOM" in="-1:nobj" out="">colpi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:attr" out="2:nobj">dello</W>
@@ -80,10 +80,10 @@
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="dopo" msd="SP" tag="PRE" in="18:time" out="1:vobj|11:pnct">Dopo</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj|11:[subj]">aver</W>
-<W lemma="immobilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj|3:man&3a;inst|10:[subj]">immobilizzato</W>
+<W lemma="immobilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj|10:[subj]|3:inst">immobilizzato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-79:coref-var|-1:dobj" out="1:nobj">i</W>
 <W lemma="cane" msd="NC" tag="NOM" in="-1:nobj" out="">cani</W>
-<W lemma="con" msd="SP" tag="PRE" in="-3:man&3a;inst" out="1:nobj">con</W>
+<W lemma="con" msd="SP" tag="PRE" in="-3:inst" out="1:nobj">con</W>
 <W lemma="dei" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">dei</W>
 <W lemma="saporito" msd="AN" tag="ADJ" in="1:attr" out="">saporiti</W>
 <W lemma="tocco" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">tocchi</W>

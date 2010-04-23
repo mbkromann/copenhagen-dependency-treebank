@@ -138,8 +138,8 @@
 <W lemma="anticipo" msd="NC" tag="NOM" in="-1:nobj" out="1:fpredo">anticipo</W>
 <W lemma="rispettare" msd="VADR" tag="VER&3a;pres" in="-1:fpredo" out="1:pobj">rispetto</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">alla</W>
-<W lemma="primo" msd="AN" tag="ADJ" in="1:attrd&3a;dobj#" out="">prima</W>
-<W lemma="visione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd&3a;dobj#">visione</W>
+<W lemma="primo" msd="AN" tag="ADJ" in="1:aobj.dobj#" out="">prima</W>
+<W lemma="visione" msd="NC" tag="NOM" in="-2:nobj" out="-1:aobj.dobj#">visione</W>
 <W lemma="," msd="XP" tag="PON" in="-12:pnct" out="">,</W>
 <W lemma="in" msd="SP" tag="PRE" in="-13:man" out="1:nobj">in</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:cause">modo</W>

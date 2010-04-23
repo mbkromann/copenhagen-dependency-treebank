@@ -30,8 +30,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">vez,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-28:qobj|1:subj|17:pnct">dice</W>
 <W lemma="un" msd="ART" in="-1:subj" out="1:nobj">un</W>
-<W lemma="experto" msd="NC" in="-1:nobj" out="1:loc&3a;metafor|7:appa|9:loc">experto</W>
-<W lemma="en" msd="PREP" in="-1:loc&3a;metafor" out="1:nobj">en</W>
+<W lemma="experto" msd="NC" in="-1:nobj" out="7:appa|9:loc|1:loc">experto</W>
+<W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">campañas</W>
 <W lemma="electoral" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="1:attr">electorales</W>
 <W lemma="americano" msd="ADJ" in="-1:attr" out="">americanas</W>
@@ -105,8 +105,8 @@
 <W lemma="eleccin" msd="NC" in="-2:nobj" out="">elecciones</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="">Quayle</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-8:cond|-1:subj|1:loc&3a;metafor|12:pnct">estará</W>
-<W lemma="en" msd="PREP" in="-1:loc&3a;metafor" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-8:cond|-1:subj|12:pnct|1:loc">estará</W>
+<W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">una</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">buena</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr|1:cause">posición</W>

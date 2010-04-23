@@ -1,7 +1,7 @@
 <W lemma="si" msd="CSUBX" in="6:cond" out="1:vobj">Si</W>
 <W _noerror="&3a;nosubj&3a;" lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hay</W>
-<W lemma="problema" msd="NC" in="-1:dobj" out="1:pobj&3a;about">problemas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;about" out="1:nobj">de</W>
+<W lemma="problema" msd="NC" in="-1:dobj" out="1:attr|1:{about}">problemas</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="salud" msd="NC" in="-1:nobj" out="">salud</W>
 <W lemma="," msd="CM" in="" out="">,</W>
 <W lemma="escriba" msd="NC" in="" out="-6:cond|1:iobj|25:coref">escriba</W>
@@ -20,8 +20,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal adskilles" in="-1:other" out="">V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="8:other" out="">Sólo</W>
 <W lemma="el" msd="ART" in="7:subj" out="1:nobj|18:coref-id">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;origin">médicos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;origin" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{origin}">médicos</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{origin}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:coref-id" out="1:nobj|3:appr">la</W>
 <W lemma="revista" msd="NC" in="-1:nobj" out="1:attr#">revista</W>
 <W lemma="semanal" msd="ADJ" in="-1:attr#" out="">semanal</W>
@@ -170,8 +170,8 @@
 <W lemma="l" msd="PPX" in="-1:nobj|-5:coref" out="12:coref">ella</W>
 <W lemma="sobre" msd="PREP" in="-3:pobj" out="1:nobj">sobre</W>
 <W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj|4:contr">otro</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;func#">método</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;func#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">método</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">prevención</W>
 <W lemma="en~lugar~de" msd="PREP" in="-4:contr" out="1:nobj">en lugar de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-27:coref-id" out="1:nobj">las</W>

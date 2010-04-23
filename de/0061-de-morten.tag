@@ -1,10 +1,10 @@
 <p>
 <s>
-<W lemma="um" msd="SP" tag="APPR" in="5:time" out="1:nobj|4:struct&3a;elab">Um</W>
+<W lemma="um" msd="SP" tag="APPR" in="5:time" out="1:nobj|4:elab">Um</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">00.32</W>
 <W lemma="Uhr" msd="NC" tag="NN" in="-1:nobj" out="">Uhr</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="1:attr" out="">dänischer</W>
-<W lemma="Zeit" msd="NC" tag="NN" in="-4:struct&3a;elab" out="-1:attr">Zeit</W>
+<W lemma="Zeit" msd="NC" tag="NN" in="-4:elab" out="-1:attr">Zeit</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-5:time|1:subj|6:vobj|7:pnct">sind</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|5:[subj]" out="1:attr|2:nobj">die</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">ersten</W>
@@ -100,12 +100,12 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="9:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-17:coref-var|7:[subj]|8:subj" out="1:nobj">die</W>
 <W lemma="Stadt" msd="NC" tag="NN" in="-1:nobj" out="">Stadt</W>
-<W lemma="zum" msd="SP+P" tag="APPRART" in="5:time&3a;cont" out="1:nobj">zum</W>
+<W lemma="zum" msd="SP+P" tag="APPRART" in="5:cont" out="1:nobj">zum</W>
 <W lemma="Zeitpunkt" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Zeitpunkt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">des</W>
 <W lemma="Angriff" msd="NC" tag="NN" in="-1:nobj" out="">Angriffes</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="2:neg" out="">nicht</W>
-<W lemma="verdunkeln" msd="VAP" tag="VVPP" in="1:vobj" out="-5:time&3a;cont|-7:[subj]">verdunkelt</W>
+<W lemma="verdunkeln" msd="VAP" tag="VVPP" in="1:vobj" out="-7:[subj]|-5:cont">verdunkelt</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-9:vobj" out="-8:subj|-1:vobj|-2:neg">war</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
@@ -113,7 +113,7 @@
 <p>
 <s>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">So</W>
-<W lemma="weit" msd="AN" tag="ADJD" in="9:struct&3a;bg" out="-1:degr|7:relr">weit</W>
+<W lemma="weit" msd="AN" tag="ADJD" in="9:bg" out="-1:degr|7:relr">weit</W>
 <W lemma="wir" msd="PP" tag="PPER" in="5:[subj]|6:subj" out="">wir</W>
 <W lemma="es" msd="PP" tag="PPER" in="4:dobj" out="">es</W>
 <W lemma="vom" msd="SP+P" tag="APPRART" in="2:loc" out="1:nobj">vom</W>
@@ -122,7 +122,7 @@
 <W lemma="sehen" msd="VAF" tag="VVINF" in="1:vobj" out="-5:[subj]|-1:part|-4:dobj">sehen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-7:relr" out="-6:subj|-1:vobj|1:pnct">können</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="halten" msd="VA" tag="VVFIN" in="" out="-9:struct&3a;bg|1:dobj|2:subj|5:man|8:conj|4:ext">halten</W>
+<W lemma="halten" msd="VA" tag="VVFIN" in="" out="-9:bg|1:dobj|2:subj|4:ext|5:man|8:conj">halten</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:dobj" out="">sich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:subj" out="1:nobj">die</W>
 <W lemma="Zerstörung" msd="NC" tag="NN" in="-1:nobj" out="">Zerstörungen</W>
@@ -180,12 +180,12 @@
 </p>
 <p>
 <s>
-<W lemma="um" msd="SP" tag="APPR" in="5:time" out="1:nobj|4:struct&3a;elab">Um</W>
+<W lemma="um" msd="SP" tag="APPR" in="5:time" out="1:nobj|4:elab">Um</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">01.44</W>
 <W lemma="Uhr" msd="NC" tag="NN" in="-1:nobj" out="">Uhr</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="1:attr" out="">dänischer</W>
-<W lemma="Zeit" msd="NC" tag="NN" in="-4:struct&3a;elab" out="-1:attr">Zeit</W>
-<W lemma="brechen" msd="VA" tag="VVFIN" in="" out="-5:time|1:subj|6:aobj|7:pnct|3:ext">brach</W>
+<W lemma="Zeit" msd="NC" tag="NN" in="-4:elab" out="-1:attr">Zeit</W>
+<W lemma="brechen" msd="VA" tag="VVFIN" in="" out="-5:time|1:subj|3:ext|6:aobj|7:pnct">brach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Hölle" msd="NC" tag="NN" in="-1:nobj" out="">Hölle</W>
 <W lemma="wieder" msd="RG" tag="ADV" in="-3:ext" out="">wieder</W>

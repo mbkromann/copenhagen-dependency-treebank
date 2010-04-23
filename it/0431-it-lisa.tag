@@ -132,10 +132,10 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-6:subj|1:vobj|12:pnct">ha</W>
 <W lemma="disegnare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:dobj|7:ben">disegnato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="gioiello" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;iden|3:pobj&3a;func">gioiello</W>
-<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;iden" out="1:nobj">d'</W>
+<W lemma="gioiello" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|3:{func}|1:attr|1:{iden}">gioiello</W>
+<W lemma="d'" msd="SP" tag="PRE" in="-1:attr|-1:{iden}" out="1:nobj">d'</W>
 <W lemma="arte" msd="NC" tag="NOM" in="-1:nobj" out="">arte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:pobj&3a;func" out="1:nobj">dell'</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:attr|-3:{func}" out="1:nobj">dell'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-7:ben" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|2:appr">la</W>
@@ -216,8 +216,8 @@
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attr" out="">Nuovi</W>
 <W lemma="orefice" msd="NC" tag="NOM" in="" out="-1:attr">orefici</W>
 <W lemma="due" msd="AN" tag="ADJ" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|11:assoc-agent">Due</W>
-<W lemma="esame" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func">esami</W>
-<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;func" out="1:nobj">d'</W>
+<W lemma="esame" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}">esami</W>
+<W lemma="d'" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:nobj">d'</W>
 <W lemma="apprendistato" msd="NC" tag="NOM" in="-1:nobj" out="">apprendistato</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:vobj|3:time|5:pnct">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:vobj">stati</W>
