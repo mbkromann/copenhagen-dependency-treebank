@@ -1,0 +1,3 @@
+# Autoreplace all "pred" dependencies with "preds" dependencies
+find -corpus -yes $X mod $Y & $X[msd] =~ /^A/ & $Y[msd] =~ /^[NP]/ -do(edel $X mod $Y; $X attr $Y) 
+
