@@ -90,8 +90,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">none</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">get</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">through</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">get</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">through</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
@@ -149,7 +149,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">43rd</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">minute</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|2:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">debatable</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

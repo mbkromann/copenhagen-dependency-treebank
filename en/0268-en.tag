@@ -31,20 +31,20 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Morten</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|3:lobj">fell</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|3:@dir">fell</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">25</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>
-<W msd="ANP" tag="RB" in="-3:lobj" out="-2:mod|1:mod">down</W>
+<W msd="ANP" tag="RB" in="-3:@dir" out="-2:mod|1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">well</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Morten</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|3:lobj|7:pnct|8:xpl|10:pnct">fell</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|7:pnct|8:xpl|10:pnct|3:@dir">fell</W>
 <W msd="PD" tag="DT" in="1:mod" out="">this</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">far</W>
-<W msd="ANP" tag="RB" in="-3:lobj" out="-1:mod|1:mod">down</W>
+<W msd="ANP" tag="RB" in="-3:@dir" out="-1:mod|1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">well</W>
@@ -81,10 +81,10 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Søren</W>
 <W msd="NP=S" tag="NNP" in="-6:appr" out="-1:namef">Hansen</W>
 <W msd="VADA" tag="VBD" in="" out="-15:mod|-7:subj|1:vobj">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|3:lobj|7:mod">hoisted</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|7:mod|3:@dir">hoisted</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">25</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>
-<W msd="ANP" tag="RB" in="-3:lobj" out="-2:mod|1:mod">down</W>
+<W msd="ANP" tag="RB" in="-3:@dir" out="-2:mod|1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">depths</W>
@@ -105,7 +105,7 @@
 <W msd="NC=S" tag="NN" in="2:title" out="-1:mod">worker</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Søren</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="-2:title|-1:namef">Hansen</W>
-<W msd="VADA" tag="VBD" in="" out="1:subj|7:pnct|-9:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-9:preds|1:subj|7:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|3:ref|5:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">entrance</W>
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">through</W>
@@ -181,7 +181,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">open</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">skull</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">fracture</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-7:subj|1:mod|7:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:mod|-7:subj|1:mod|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -192,7 +192,7 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:preds" out="">So</W>
-<W msd="VADR" tag="VBZ" in="" out="1:subj|16:pnct|-1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:preds|1:subj|16:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:mod|8:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">ugly</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">scar</W>

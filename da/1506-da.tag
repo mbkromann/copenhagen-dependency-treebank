@@ -44,8 +44,8 @@
 <W gloss="The" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Det</W>
 <W gloss="Conservative" lemma="konservativ" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">konservative</W>
 <W gloss="Party" lemma="folkeparti" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Folkeparti</W>
-<W gloss="wins" lemma="vinde" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:lobj|9:mod|19:pnct">vinder</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="wins" lemma="vinde" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:@dir|9:mod|19:pnct">vinder</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|3:pnct|4:appa">det</W>
 <W gloss="other" lemma="anden" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">andet</W>
@@ -115,10 +115,10 @@
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Det</W>
 <W gloss="Conservative" lemma="konservativ" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">konservative</W>
 <W gloss="Party" lemma="folkeparti" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Folkeparti</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|3:lobj|4:pnct">går</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|4:pnct|3:@dir">går</W>
 <W gloss="1.3" lemma="1,3" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">1,3</W>
 <W gloss="percent" lemma="procent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">procent</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:lobj" out="-2:mod">frem</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:@dir" out="-2:mod">frem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-9:dobj|1:subj|8:pnct">viser</W>
 <W gloss="the_GfK_survey" lemma="GfK-undersøgelse" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:pnct|2:ref|3:rel">GfK-undersøgelsen</W>
@@ -147,7 +147,7 @@
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-9:mod" out="2:vobj">fordi</W>
 <W gloss="mandates" lemma="mandat" msd="NCNPU==D" tag="NNP" in="1:subj|2:[subj]" out="">mandaterne</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
-<W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|1:preds">blevet</W>
+<W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|2:mod">blevet</W>
 <W gloss="more_expensive" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">dyrere</W>
 <W gloss="as_a_result_of" lemma="på_grund_af" msd="SP" tag="IN" in="-2:mod" out="2:nobj">på_grund_af</W>
 <W gloss="fewer" lemma="lille" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:attr" out="">mindre</W>
@@ -205,10 +205,10 @@
 </s>
 <s>
 <W gloss="The_party" lemma="parti" msd="NCNSU==D" tag="NN" in="1:subj|6:[subj]" out="">Partiet</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:lobj|5:conj|8:pnct">går</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|5:conj|8:pnct|3:@dir">går</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">to</W>
 <W gloss="mandates" lemma="mandat" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mandater</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:lobj" out="-2:mod">frem</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:@dir" out="-2:mod">frem</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|1:mod|2:dobj">har</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-1:mod" out="">i_dag</W>

@@ -177,8 +177,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj|4:pnct">er</W>
-<W gloss="accumulated" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">samlet</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="accumulated" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@loc">samlet</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_scene" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-19:conj" out="-10:subj|-11:coord|1:mod|2:vobj">skal</W>

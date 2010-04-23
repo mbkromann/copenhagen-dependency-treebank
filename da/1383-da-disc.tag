@@ -115,8 +115,8 @@
 </s>
 <s>
 <W gloss="Studieaktivitetskontrollen" lemma="studieaktivitetskontrol" msd="NCCSU==D" tag="NN" in="1:subj" out="">Studieaktivitetskontrollen</W>
-<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|3:pnct">ligger</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:@loc">ligger</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_educational_institutions" lemma="uddannelsesinstitution" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">uddannelsesinstitutionerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
@@ -205,9 +205,9 @@
 <W gloss="year" lemma="år" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">året</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-9:mod" out="1:nobj|7:conj">uden</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="demonstrate" lemma="vise" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:lobj">vise</W>
+<W gloss="demonstrate" lemma="vise" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:@loc">vise</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">på</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="place_in_education" lemma="uddannelsessted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">uddannelsesstedet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-7:conj" out="-1:coord|1:nobj">uden</W>

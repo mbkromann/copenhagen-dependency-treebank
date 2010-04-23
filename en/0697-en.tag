@@ -39,7 +39,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">competition</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|3:pnct|4:mod|18:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:preds|3:pnct|4:mod|18:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">extremely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">tough</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -146,8 +146,8 @@
 <W msd="VAP" tag="VBN" in="-2:nobj" out="-1:pnct|1:pnct">Ørsted</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:vobj|9:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:lobj">hurled</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:@loc">hurled</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:possd">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Ariane</W>
@@ -157,8 +157,8 @@
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="" out="-16:mod|-1:subj|1:vobj|8:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|2:mod">tumble</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|1:@dir">tumble</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj">a</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
@@ -197,8 +197,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">antenna</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">pointed</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@loc">pointed</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">towards</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">space</W>
 <W msd="XP" tag="." in="-34:pnct" out="">.</W>
@@ -230,7 +230,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">corresponding</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">instruments</W>
-<W msd="VADR" tag="VBP" in="" out="-8:mod|-1:subj|10:pnct|1:preds">fill</W>
+<W msd="VADR" tag="VBP" in="" out="-8:mod|-1:subj|1:preds|10:pnct">fill</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

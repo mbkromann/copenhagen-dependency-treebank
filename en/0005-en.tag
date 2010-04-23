@@ -10,10 +10,10 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">foreigners</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="VA" tag="MD" in="" out="-6:subj|2:vobj|7:pnct|1:neg">must</W>
+<W msd="VA" tag="MD" in="" out="-6:subj|1:neg|2:vobj|7:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">xenophobia</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">racism</W>
@@ -97,7 +97,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
-<W msd="VA" tag="MD" in="12:qobj" out="-2:pnct|-1:subj|2:vobj|9:pnct|10:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="12:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|9:pnct|10:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|4:dobj">tolerate</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>

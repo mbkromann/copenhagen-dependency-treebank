@@ -84,7 +84,7 @@
 </s>
 <s>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|10:pnct|1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:preds|10:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-2:preds" out="1:nobj">det</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:pobj">samme</W>
@@ -224,8 +224,8 @@
 </s>
 <s>
 <W gloss="Danishness" lemma="danskhed" msd="NCCSU==D" tag="NN" in="1:subj" out="">Danskheden</W>
-<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|3:pnct">kommer</W>
-<W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">under</W>
+<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:@loc">kommer</W>
+<W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">under</W>
 <W gloss="pressure" lemma="pres" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">pres</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>

@@ -71,7 +71,7 @@
 <W gloss="corresponding" lemma="tilsvarende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">tilsvarende</W>
 <W gloss="version" lemma="udgave" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">udgave</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="self-praise" lemma="selvros" msd="NCCSU==I" tag="NN" in="-1:nobj" out="3:loc|2:conj">selvros</W>
+<W gloss="self-praise" lemma="selvros" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj|3:loc">selvros</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="back-slapping" lemma="rygklapperi" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">rygklapperi</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
@@ -185,9 +185,9 @@
 <W gloss="at" lemma="fra" msd="SP" tag="IN" in="2:time" out="1:nobj">fra</W>
 <W gloss="the_beginning" lemma="begyndelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">begyndelsen</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-3:subj|-2:time|1:preds|6:pnct">var</W>
-<W gloss="the_goal" lemma="mål" msd="NCNSU==D" tag="NN" in="-1:preds" out="3:pobj|2:conj">målet</W>
+<W gloss="the_goal" lemma="mål" msd="NCNSU==D" tag="NN" in="-1:preds" out="2:conj|3:pobj">målet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the_purpose" lemma="mening" msd="NCCSU==D" tag="NN" in="-2:conj" out="1:[pobj]|-1:coord">meningen</W>
+<W gloss="the_purpose" lemma="mening" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord|1:[pobj]">meningen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="1:nobj">med</W>
 <W gloss="the_music" lemma="musik" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">musikken</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -244,17 +244,17 @@
 <W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-3:conj" out="1:possd">sit</W>
 <W gloss="private_life" lemma="privatliv" msd="NCNSU==I" tag="NN" in="-1:possd" out="">privatliv</W>
 <W gloss="or" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-6:conj" out="1:possd|-1:coord">sin</W>
+<W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-6:conj" out="-1:coord|1:possd">sin</W>
 <W gloss="popularity" lemma="popularitet" msd="NCCSU==I" tag="NN" in="-1:possd" out="">popularitet</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-17:rel" out="-14:subj|-13:time|-9:inst|1:vobj">kan</W>
 <W gloss="sell" lemma="sælge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-15:[subj]|1:dobj|4:conj">sælge</W>
 <W gloss="the_most" lemma="mange" msd="ANS[CN]PU=[DI]U" tag="JJS" in="-1:dobj" out="1:nobj">flest</W>
 <W gloss="newspapers" lemma="avis" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">aviser</W>
 <W gloss="or" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="attract" lemma="trække" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-19:[subj]|1:dobj|3:lobj|-1:coord">trække</W>
+<W gloss="attract" lemma="trække" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-19:[subj]|-1:coord|1:dobj|3:@dir">trække</W>
 <W gloss="the_most" lemma="mange" msd="ANS[CN]PU=[DI]U" tag="JJS" in="-1:dobj" out="1:nobj">flest</W>
 <W gloss="viewers" lemma="seer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">seere</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">til</W>
 <W gloss="the_screen" lemma="skærm" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skærmen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>

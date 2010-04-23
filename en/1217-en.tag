@@ -131,8 +131,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|14:[subj]|16:[subj]" out="">people</W>
 <W msd="VA" tag="MD" in="-3:rel" out="-2:mod|-1:subj|1:mod|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">gladly</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod|11:conj">sit</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|4:mod|11:conj|1:@loc">sit</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">table</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
@@ -142,10 +142,10 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">just</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-11:conj" out="-14:[subj]|-2:mod|-3:coord|1:dobj|-1:neg">want</W>
+<W msd="VAF" tag="VB" in="-11:conj" out="-14:[subj]|-2:mod|-3:coord|-1:neg|1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-16:[subj]|1:lobj">get</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-16:[subj]|1:@dir">get</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">good</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="">armchair</W>
@@ -201,7 +201,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|21:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|21:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">healthy</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>

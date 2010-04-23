@@ -145,15 +145,15 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">companies</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">through</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">door</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|14:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|14:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intent</W>
@@ -173,7 +173,7 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">Future</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">merger</W>
 <W msd="NC=P" tag="NNS" in="1:subj|4:[subj]|5:[subj]" out="-1:mod|-2:attr">partners</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:preds|6:mod|16:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:preds|6:mod|16:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>

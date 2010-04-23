@@ -33,12 +33,12 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">West</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Union</W>
-<W msd="NC=P" tag="NNS" in="" out="-10:mod|-3:subj|1:mod|5:lobj|11:mod|25:pnct">moves</W>
+<W msd="NC=P" tag="NNS" in="" out="-10:mod|-3:subj|1:mod|11:mod|25:pnct|5:@dir">moves</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
-<W msd="U=" tag="TO" in="-5:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-5:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">centre</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -89,7 +89,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:vobj|7:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:neg|2:vobj|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:pobj">excluded</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>

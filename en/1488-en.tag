@@ -14,7 +14,7 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">administration</W>
-<W msd="VADR" tag="VBZ" in="" out="-15:pnct|-14:mod|-2:subj|2:vobj|16:conj|31:pnct#|32:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-15:pnct|-14:mod|-2:subj|1:neg|2:vobj|16:conj|31:pnct#|32:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">find</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:vobj">that</W>
@@ -30,7 +30,7 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">administration</W>
-<W msd="VADR" tag="VBZ" in="-16:conj" out="-2:subj|-3:coord|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-16:conj" out="-2:subj|-3:coord|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">find</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
@@ -140,8 +140,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Haugaard</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:dobj">threatens</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">go</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">go</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">press</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>

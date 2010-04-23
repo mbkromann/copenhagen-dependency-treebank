@@ -26,7 +26,7 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">poor</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">family</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|2:vobj|8:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:neg|2:vobj|8:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|2:dobj|3:mod">mean</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
@@ -108,9 +108,9 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|2:lobj|7:mod">come</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|7:mod|2:@dir">come</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">free</W>
-<W msd="U=" tag="TO" in="-2:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-2:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">national</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">football</W>
@@ -147,7 +147,7 @@
 <W msd="PI" tag="DT" in="3:subj|5:[subj]" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">football</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">player</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|2:vobj|6:pnct|8:conj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|1:neg|2:vobj|6:pnct|8:conj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">execute</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>

@@ -46,8 +46,8 @@
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nuclear</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">physics</W>
-<W msd="VAP" tag="VBN" in="-14:conj" out="-1:subj|1:lobj|7:pnct|9:&lt;subj&gt;|10:&lt;lobj&gt;|13:pnct|14:&lt;subj&gt;|15:&lt;lobj&gt;|20:pnct|21:mod">led</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="2:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-14:conj" out="-1:subj|7:pnct|9:&lt;subj&gt;|10:&lt;lobj&gt;|13:pnct|14:&lt;subj&gt;|15:&lt;lobj&gt;|20:pnct|21:mod|1:@dir">led</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="2:nobj">to</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nuclear</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|3:conj">power</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -160,7 +160,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|39:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="12:nobj">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|3:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:neg|3:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="1:part">not</W>
 <W msd="CS" tag="IN" in="-1:part" out="">until</W>
 <W msd="CS" tag="IN" in="-3:preds" out="1:nobj">after</W>

@@ -43,7 +43,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="5:conj|10:pnct">Men</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="before" lemma="førend" msd="SP" tag="IN" in="3:mod" out="1:obl|-1:neg">førend</W>
+<W gloss="before" lemma="førend" msd="SP" tag="IN" in="3:mod" out="-1:neg|1:obl">førend</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:obl" out="1:nobj">i</W>
 <W gloss="1969" lemma="1969" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1969</W>
 <W gloss="did_do" lemma="gøre" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-3:mod|1:subj|2:dobj|3:pobj">gjorde</W>
@@ -90,10 +90,10 @@
 <W gloss="Later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:mod" out="">Senere</W>
 <W gloss="had" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:vobj|52:pnct">har</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]|7:[subj]" out="">han</W>
-<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|3:lobj|4:mod|6:conj">taget</W>
+<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|4:mod|6:conj|3:@dir">taget</W>
 <W gloss="idea" lemma="idé" msd="XX" tag="FW" in="-1:dobj" out="1:err">idé</W>
 <W gloss="a" lemma="en" msd="XX" tag="FW" in="-1:err" out="">en</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="">op</W>
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:mod" out="">igen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="recorded" lemma="indspille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:conj" out="-7:[subj]|-1:coord|1:dobj">indspillet</W>
@@ -276,9 +276,9 @@
 <W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="1:mod" out="">I_dag</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:vobj|7:pnct">kan</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:lobj">finde</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:@loc">finde</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">seks</W>
 <W gloss="film-soundtracks" lemma="film-soundtrack" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">film-soundtracks</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>

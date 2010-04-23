@@ -92,8 +92,8 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:preds|7:pnct">er</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="union" lemma="union" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">union</W>
@@ -146,7 +146,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_special_agreement" lemma="særaftale" msd="NCCSU==D" tag="NN" in="1:subj" out="">Særaftalen</W>
-<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="30:qobj" out="-1:subj|-2:pnct|1:avobj|10:pnct|29:pnct|13:conj">ser</W>
+<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="30:qobj" out="-1:subj|-2:pnct|1:avobj|10:pnct|13:conj|29:pnct">ser</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -159,11 +159,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="9:nobj">det</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-1:subj|1:eval|2:vobj|7:pnct|-2:coord">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-1:subj|-2:coord|1:eval|2:vobj|7:pnct">kan</W>
 <W gloss="especially" lemma="især" msd="RGU" tag="RP" in="-1:eval" out="">især</W>
-<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:lobj">tage</W>
+<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:@dir">tage</W>
 <W gloss="the_sting" lemma="brod" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">brodden</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="1:other">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:other">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_opposition" lemma="modstand" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">modstanden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -240,7 +240,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="-3:korel">og</W>
 <W gloss="associate_professor" lemma="lektor" msd="NCCSU==I" tag="NN" in="2:title" out="">lektor</W>
 <W gloss="Lars" lemma="Lars" msd="NP--U==-" tag="NNP" in="1:namef" out="">Lars</W>
-<W gloss="Bille" lemma="Bille" msd="NP--U==-" tag="NNP" in="-4:conj" out="-2:title|-1:namef|1:other|-3:coord">Bille</W>
+<W gloss="Bille" lemma="Bille" msd="NP--U==-" tag="NNP" in="-4:conj" out="-2:title|-1:namef|-3:coord|1:other">Bille</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Københavns</W>
 <W gloss="University" lemma="universitet" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Universitet</W>

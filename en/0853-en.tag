@@ -28,7 +28,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|18:conj|25:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|18:conj|25:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">son</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -38,16 +38,16 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">Hjørring</W>
 <W msd="CC" tag="CC" in="10:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="7:mod" out="1:lobj|6:pnct">coming</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:pobj">out</W>
+<W msd="VAG" tag="VBG" in="7:mod" out="6:pnct|1:@loc">coming</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Sindal</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Academy</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="-7:mod">he</W>
-<W msd="VADA" tag="VBD" in="-18:conj" out="-1:subj|-10:coord|1:lobj">went</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-18:conj" out="-1:subj|-10:coord|1:@dir">went</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Niels</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:nobj">Brock</W>
@@ -62,8 +62,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-3:mod|-1:subj|1:lobj|3:mod">travelled</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-3:mod|-1:subj|1:@dir|3:mod">travelled</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Colombia</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:preds">be</W>
@@ -96,7 +96,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Paul</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">B.</W>
 <W msd="NP=S" tag="NNP" in="1:subj|10:[subj]" out="-2:namef|-1:namel">Steffensen</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|4:mod|9:conj|21:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|4:mod|9:conj|21:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">branch</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">manager</W>
@@ -212,7 +212,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Paul</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Berg</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Steffensen</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|6:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Knight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

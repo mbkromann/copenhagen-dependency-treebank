@@ -47,12 +47,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|8:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|8:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">dare</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-4:[subj]|1:attr|2:lobj">go</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-4:[subj]|1:attr|2:@dir">go</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">alone</W>
-<W msd="U=" tag="TO" in="-2:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-2:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bus</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -65,10 +65,10 @@
 <W msd="NC=S" tag="NN" in="" out="-4:subj|-1:attr|1:vobj|13:pnct">haven't</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="-5:[subj]|1:dobj">dared</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj|3:lobj|6:mod">send</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj|6:mod|3:@loc">send</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">out</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">out</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">play</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">for</W>
@@ -181,8 +181,8 @@
 <W msd="PD" tag="DT" in="-1:dobj|3:[subj]" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:[subj]|1:lobj">go</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:[subj]|1:@dir">go</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:ref|4:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
 <W msd="PT" tag="WRB" in="-2:ref|2:mod" out="">where</W>

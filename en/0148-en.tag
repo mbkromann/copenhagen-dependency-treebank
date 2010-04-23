@@ -7,7 +7,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dish</W>
-<W msd="VA" tag="MD" in="" out="-8:subj|2:vobj|5:pnct|1:neg">must</W>
+<W msd="VA" tag="MD" in="" out="-8:subj|1:neg|2:vobj|5:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|2:preds">be</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
@@ -42,7 +42,7 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">flavour</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|-3:coord|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|-3:coord|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">good</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">enough</W>
@@ -90,8 +90,8 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:lobj|2:dobj|5:coord|11:pnct">Cut</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">through</W>
+<W msd="VAF" tag="VB" in="" out="2:dobj|5:coord|11:pnct|1:@dir">Cut</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">through</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:mod|2:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">cleaned</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">onions</W>
@@ -146,10 +146,10 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:lobj|7:conj|8:pnct">Pour</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:@dir|7:conj|8:pnct">Pour</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">port</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pan</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -185,10 +185,10 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:lobj|7:conj|8:pnct">Pour</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:@dir|7:conj|8:pnct">Pour</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pan</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

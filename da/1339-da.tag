@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="be_precluded" lemma="udelukke" msd="VAF-=----P-" tag="VB" in="1:vobj" out="2:[subj]">Udelukkes</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:vobj|1:subj|2:mod|4:pnct|29:pnct|3:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:vobj|1:subj|2:mod|3:neg|4:pnct|29:pnct">kan</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|-2:[subj]" out="4:nobj">det</W>
 <W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:mod" out="">imidlertid</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
@@ -105,7 +105,7 @@
 <W gloss="basic_game_in_Super_League" lemma="Superliga-grundspil" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Superliga-grundspil</W>
 <W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:mod" out="">slet</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:mod">ikke</W>
-<W gloss="did_live" lemma="leve" msd="VADA=----A-" tag="VBD" in="-19:vobj" out="-18:subj|-5:mod|1:avobj|-1:neg">levede</W>
+<W gloss="did_live" lemma="leve" msd="VADA=----A-" tag="VBD" in="-19:vobj" out="-18:subj|-5:mod|-1:neg|1:avobj">levede</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|3:possd|4:mod">de</W>
@@ -120,9 +120,9 @@
 </p>
 <p>
 <s>
-<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="6:mod" out="1:subj|2:lobj">Går</W>
+<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="6:mod" out="1:subj|2:@loc">Går</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">bag</W>
+<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">bag</W>
 <W gloss="the_scenes" lemma="kulisse" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:mod">kulisserne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="B1903," lemma="B1903" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">B1903</W>

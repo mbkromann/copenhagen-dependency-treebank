@@ -59,16 +59,16 @@
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-10:vobj" out="-9:subj|1:preds|7:pnct|9:xpl">var</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="ta'" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="3:pobj|2:conj">ta'</W>
+<W gloss="ta'" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj|3:pobj">ta'</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="feel" lemma="føle" msd="VAF-=----A-" tag="VB" in="-2:conj" out="1:[pobj]|-1:coord">føle</W>
+<W gloss="feel" lemma="føle" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:coord|1:[pobj]">føle</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="">på</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
 <W gloss="maybe" lemma="måske" msd="RGU" tag="RP" in="1:epi" out="">Måske</W>
 <W gloss="like" lemma="som" msd="U=" tag="WDT" in="-9:xpl" out="-1:epi|1:nobj">som</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="coming" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">komme</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj|8:conj">fra</W>
+<W gloss="coming" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">komme</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj|8:conj">fra</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:other">en</W>
 <W gloss="field_of_grass" lemma="græsmark" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">græsmark</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="2:nobj">i</W>
@@ -76,7 +76,7 @@
 <W gloss="weather" lemma="vejr" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">vejr</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="directly" lemma="direkte" msd="ANP---=-R" tag="JJ" in="1:man" out="">direkte</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-8:conj" out="-1:man|1:other|-2:coord">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-8:conj" out="-1:man|-2:coord|1:other">ud</W>
 <W gloss="onto" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:other">en</W>
 <W gloss="highway" lemma="motorvej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">motorvej</W>
@@ -98,7 +98,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="1:add">men</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
-<W gloss="well-structured" lemma="velstruktureret" msd="ANP[CN]SU=IU" tag="JJ" in="-7:conj" out="1:other|-2:coord">velstruktureret</W>
+<W gloss="well-structured" lemma="velstruktureret" msd="ANP[CN]SU=IU" tag="JJ" in="-7:conj" out="-2:coord|1:other">velstruktureret</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:other" out="1:nobj">med</W>
 <W gloss="reminiscences" lemma="mindelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj|11:pnct|14:other">mindelser</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">om</W>
@@ -106,7 +106,7 @@
 <W gloss="Run" lemma="Run" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Run</W>
 <W gloss="Rig" lemma="Rig" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-1:nobj|2:conj">Rig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-3:other">og</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:conj" out="1:attr|2:nobj|4:appr|-1:coord">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:conj" out="-1:coord|1:attr|2:nobj|4:appr">den</W>
 <W gloss="Irish" lemma="irsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">irske</W>
 <W gloss="group" lemma="gruppe" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">gruppe</W>
 <W gloss="Moving" lemma="Moving" msd="NP--U==-" tag="NNP" in="1:attr" out="">Moving</W>
@@ -217,7 +217,7 @@
 <W gloss="British" lemma="britisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">britiske</W>
 <W gloss="island" lemma="ørige" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">ørige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-5:conj" out="1:nobj|-1:coord">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-5:conj" out="-1:coord|1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="rainy" lemma="regnvåd" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">regnvåde</W>
 <W gloss="marshland" lemma="marskland" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">marskland</W>

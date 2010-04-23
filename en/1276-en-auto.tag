@@ -1,7 +1,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="4:conj|12:pnct">But</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="CS" tag="IN" in="2:mod" out="1:obl|-1:neg">before</W>
+<W msd="CS" tag="IN" in="2:mod" out="-1:neg|1:obl">before</W>
 <W msd="AC" tag="CD" in="-1:obl" out="">1969</W>
 <W msd="VADA" tag="VBD" in="-4:conj" out="-2:mod|1:subj|2:vobj">did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">he</W>
@@ -112,7 +112,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Joe</W>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]" out="-1:namef">Cocker</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|3:vobj|25:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|2:mod|3:vobj|25:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="9:pobj|10:mod">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">really</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">get</W>
@@ -246,9 +246,9 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="" out="-3:mod|-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">find</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@loc">find</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">on</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">six</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">film</W>
 </s>

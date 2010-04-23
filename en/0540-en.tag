@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">experiment</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|11:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">investigate</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">whether</W>
@@ -130,10 +130,10 @@
 <s>
 <W msd="PT" tag="WRB" in="11:mod" out="2:vobj">When</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:dobj|3:lobj|7:pnct">bring</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:dobj|7:pnct|3:@dir">bring</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">raw</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">oil</W>
-<W msd="RG" tag="RP" in="-3:lobj" out="1:mod">up</W>
+<W msd="RG" tag="RP" in="-3:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">earth</W>
@@ -222,7 +222,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">But</W>
 <W msd="PT" tag="WP" in="1:preds" out="">what</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="1:subj|-1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:preds|1:subj">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">difference</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">between</W>

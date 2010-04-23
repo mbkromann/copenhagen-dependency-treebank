@@ -76,11 +76,11 @@
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:prec|2:dobj|4:lobj|10:pnct">trak</W>
+<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:prec|2:dobj|10:pnct|4:@dir">trak</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="1:other" out="">over</W>
 <W gloss="20,000" lemma="20.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:other|1:nobj">20.000</W>
 <W gloss="listeners" lemma="tilhører" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tilhørere</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:lobj" out="2:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:@dir" out="2:nobj">til</W>
 <W gloss="sold-out" lemma="udsolgt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">udsolgte</W>
 <W gloss="concerts" lemma="koncert" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:loc">koncerter</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="2:nobj">i</W>
@@ -241,7 +241,7 @@
 <W gloss="Cathedral_parish" lemma="domsogn" msd="NCNSG==I" tag="NN" in="-1:nobj" out="">Domsogns</W>
 <W gloss="church_council" lemma="menighedsråd" msd="NCNSU==I" tag="NN" in="-2:possd" out="">menighedsråd</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-4:conj" out="1:attr|2:nobj|-1:coord">flere</W>
+<W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-4:conj" out="-1:coord|1:attr|2:nobj">flere</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">private</W>
 <W gloss="sponsors" lemma="sponsor" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">sponsorer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>

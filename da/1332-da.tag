@@ -130,9 +130,9 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="3:mod" out="2:nobj">med</W>
 <W gloss="well-developed" lemma="veludviklet" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">veludviklet</W>
 <W gloss="kicking_technique" lemma="sparketeknik" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">sparketeknik</W>
-<W gloss="kanonerede" lemma="kanonere" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-3:mod|1:dobj|2:lobj|5:conj">kanonerede</W>
+<W gloss="kanonerede" lemma="kanonere" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-3:mod|1:dobj|5:conj|2:@dir">kanonerede</W>
 <W gloss="the_ball" lemma="bold" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">bolden</W>
-<W gloss="past" lemma="forbi" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">forbi</W>
+<W gloss="past" lemma="forbi" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">forbi</W>
 <W gloss="the_wall" lemma="mur" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">muren</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="challenging" lemma="udfordre" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-9:[subj]|-1:coord|1:dobj">udfordrede</W>
@@ -143,7 +143,7 @@
 <p>
 <s>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="1:dobj" out="">Dem</W>
-<W gloss="could_handle" lemma="klare" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|2:neg">klarede</W>
+<W gloss="could_handle" lemma="klare" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:neg|3:pnct">klarede</W>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Han</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|5:pnct|8:conj|37:pnct|1:neg">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|5:pnct|8:conj|37:pnct">kunne</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="hold" lemma="holde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">holde</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
@@ -235,7 +235,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:nobj" out="3:vobj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj|3:[subj]" out="5:nobj">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|2:pnct|-1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj|2:pnct">kan</W>
 <W gloss="be_precluded" lemma="udelukke" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-3:[subj]">udelukkes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:nobj" out="7:vobj">at</W>

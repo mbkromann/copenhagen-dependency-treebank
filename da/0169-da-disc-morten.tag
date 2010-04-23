@@ -48,7 +48,7 @@
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-5:time|1:subj|2:vobj|7:pnct|12:CONJ/og">har</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">hun</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|3:loc|1:preds">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:preds|3:loc">været</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="1:nobj">i</W>
 <W gloss="treatment" lemma="behandling" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">behandling</W>
 <W gloss="at" lemma="hos" msd="SP" tag="IN" in="-3:loc" out="1:nobj">hos</W>
@@ -70,15 +70,15 @@
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:time|-2:coord|1:subj|2:vobj">er</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]|2:[subj]" out="">hun</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:vobj">blevet</W>
-<W gloss="enticed" lemma="lokke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">lokket</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:other">tilbage</W>
+<W gloss="enticed" lemma="lokke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">lokket</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:other">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="the_bottle" lemma="flaske" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">flasken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="1:time" out="">I_dag</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:CONJ/(og)&7c;TIME&3a;cont/idag" out="-1:time|1:subj|4:conj|13:pnct|2:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:CONJ/(og)&7c;TIME&3a;cont/idag" out="-1:time|1:subj|2:preds|4:conj|13:pnct">er</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">hun</W>
 <W gloss="on_top" lemma="ovenpå" msd="RGU" tag="RP" in="-2:preds" out="">ovenpå</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -105,7 +105,7 @@
 </s>
 <s>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:ELAB&3a;exp" out="-1:subj|1:time|6:pnct|11:ELAB&3a;exp|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:ELAB&3a;exp" out="-1:subj|1:time|2:preds|6:pnct|11:ELAB&3a;exp">er</W>
 <W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="-1:time" out="">i_dag</W>
 <W gloss="51" lemma="51" msd="AC---U=--" tag="CD" in="-2:preds" out="1:nobj|3:conj">51</W>
 <W gloss="years_old" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
@@ -136,7 +136,7 @@
 <W gloss="before" lemma="før" msd="SP" tag="IN" in="3:time" out="1:nobj">før</W>
 <W gloss="that" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tid</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-20:CONTR&3a;dir/men" out="-3:time|-4:coord|1:subj|4:time|25:+ELAB&3a;exp/ATTR1|3:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-20:CONTR&3a;dir/men" out="-3:time|-4:coord|1:subj|3:preds|4:time|25:+ELAB&3a;exp/ATTR1">var</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="inveterate" lemma="inkarneret" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">inkarneret</W>
 <W gloss="alcoholic" lemma="alkoholiker" msd="NCCSU==I" tag="NN" in="-3:preds" out="-1:attr">alkoholiker</W>
@@ -166,7 +166,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-3:cause" out="2:vobj">for</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|3:other|2:preds">bliver</W>
+<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:preds|3:other">bliver</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="alcoholic" lemma="alkoholiker" msd="NCCSU==I" tag="NN" in="-2:preds" out="">alkoholiker</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-3:other" out="1:nobj|4:pobj">fra</W>
@@ -238,7 +238,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="10:qobj" out="">Og</W>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:CONJ/og/ATTR2" out="-1:subj|1:other|7:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:CONJ/og/ATTR2" out="-1:subj|1:other|2:preds|7:pnct">er</W>
 <W gloss="precisely" lemma="netop" msd="RGU" tag="RP" in="-1:other" out="">netop</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:preds" out="1:pobj">ét</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

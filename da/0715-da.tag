@@ -103,8 +103,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="More" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="2:subj" out="1:nobj">flere</W>
 <W gloss="Tamils" lemma="tamiler" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tamiler</W>
-<W gloss="coming" lemma="komme" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:lobj|3:pnct">kom</W>
-<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="coming" lemma="komme" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|3:pnct|1:@dir">kom</W>
+<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
@@ -129,7 +129,7 @@
 <W gloss="Permanent_Secretary" lemma="departementschef" msd="NCCSU==I" tag="NN" in="3:title" out="-1:attr">departementschef</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="2:namef" out="">Poul</W>
 <W gloss="Lundbæk" lemma="Lundbæk" msd="NP--U==-" tag="NNP" in="1:namel" out="">Lundbæk</W>
-<W gloss="Andersen" lemma="Andersen" msd="NP--U==-" tag="NNP" in="-6:subj" out="-2:namef|-1:namel|-3:title|-5:ex|9:pnct|10:appa|4:conj|8:conj">Andersen</W>
+<W gloss="Andersen" lemma="Andersen" msd="NP--U==-" tag="NNP" in="-6:subj" out="-2:namef|-1:namel|-3:title|-5:ex|4:conj|8:conj|9:pnct|10:appa">Andersen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="Deputy_Director" lemma="afdelingschef" msd="NCCSU==I" tag="NN" in="2:title" out="">afdelingschef</W>
 <W gloss="Claus" lemma="Claus" msd="NP--U==-" tag="NNP" in="1:namef" out="">Claus</W>

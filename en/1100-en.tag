@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|12:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:vobj|12:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">used</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -177,7 +177,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">love</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|2:vobj|7:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:neg|2:vobj|7:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">allowed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -219,9 +219,9 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]" out="">she</W>
-<W msd="VADR" tag="VBZ" in="-18:conj" out="-1:subj|-2:coord|1:dobj|2:lobj|5:mod|7:conj">pushes</W>
+<W msd="VADR" tag="VBZ" in="-18:conj" out="-1:subj|-2:coord|1:dobj|5:mod|7:conj|2:@loc">pushes</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
-<W msd="RG" tag="RP" in="-2:lobj" out="1:nobj">out</W>
+<W msd="RG" tag="RP" in="-2:@loc" out="1:nobj">out</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">door</W>
 <W msd="PP" tag="PRP" in="-5:mod" out="">herself</W>

@@ -22,7 +22,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">most</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADR" tag="VBP" in="" out="-4:mod|-2:subj|4:pnct|5:mod|12:pnct|3:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:mod|-2:subj|3:preds|4:pnct|5:mod|12:pnct">are</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">so-called</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">family</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="-1:mod|-2:attr">outbreaks</W>
@@ -39,7 +39,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Institutional</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">kitchens</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|5:pnct|8:conj|24:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|5:pnct|8:conj|24:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">subject</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">health</W>
@@ -91,7 +91,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Diarrhea</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|5:pnct|8:conj|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|8:conj|15:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">the</W>
 <W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">common</W>
@@ -131,8 +131,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">salmonella</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">bacteria</W>
 <W msd="VA" tag="MD" in="" out="-9:pnct|-8:mod|-3:subj|1:vobj|9:pnct|14:conj|17:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj|5:conj">enter</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|5:conj|1:@dir">enter</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -151,7 +151,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:mod|20:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|3:mod|20:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">particularly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">true</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">at</W>
@@ -218,10 +218,10 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|20:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|20:pnct">is</W>
 <W msd="CS" tag="IN" in="-1:preds" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:ref|6:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|3:mod|14:conj|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|3:mod|14:conj">is</W>
 <W msd="ANC" tag="JJR" in="1:attr" out="">older</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:attr">people</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">especially</W>

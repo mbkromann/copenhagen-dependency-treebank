@@ -107,7 +107,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="3:vobj">at</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj|3:[subj]" out="">vi</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj">kan</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">finde</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">i</W>
@@ -142,8 +142,8 @@
 <W gloss="Georgi" lemma="Georgi" msd="NP--U==-" tag="NNP" in="3:subj|8:[subj]" out="-1:namef|-2:attr|1:mod">Georgi</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Taastrup" lemma="Taastrup" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Taastrup</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-3:subj|1:lobj|2:mod|5:conj">stod</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="">frem</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-3:subj|2:mod|5:conj|1:@dir">stod</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="">frem</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="B.T" lemma="B.T." msd="NP--U==-" tag="NNP" in="-1:nobj" out="">B.T.</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

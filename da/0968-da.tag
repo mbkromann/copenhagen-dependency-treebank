@@ -56,7 +56,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="1:contr">men</W>
 <W gloss="to_the_contrary" lemma="derimod" msd="RGU" tag="RP" in="-1:contr" out="">derimod</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="12:vobj|-2:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="-2:coord|12:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="11:subj|12:[subj]" out="1:attr|2:pnct|3:ref|5:rel">den</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">gamle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -164,8 +164,8 @@
 <W gloss="the_course" lemma="løb" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">løbet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:avobj">af</W>
 <W gloss="this_year" lemma="i_år" msd="RGU" tag="RP" in="-1:avobj" out="">i_år</W>
-<W gloss="placed" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:vobj" out="-7:[subj]|1:lobj|4:goal">sat</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="placed" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:vobj" out="-7:[subj]|4:goal|1:@dir">sat</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="Cambodia" lemma="Cambodia" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Cambodia</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:goal" out="1:nobj">for</W>
@@ -182,10 +182,10 @@
 </s>
 <s>
 <W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="will_stream" lemma="strømme" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|2:subj|3:lobj|6:pnct">strømmer</W>
+<W gloss="will_stream" lemma="strømme" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|2:subj|6:pnct|3:@dir">strømmer</W>
 <W gloss="economic" lemma="økonomisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">økonomisk</W>
 <W gloss="development_aid" lemma="udviklings-bistand" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:attr">udviklings-bistand</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ind</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>

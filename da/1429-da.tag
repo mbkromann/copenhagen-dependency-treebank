@@ -103,9 +103,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">som</W>
 <W gloss="recently" lemma="fornylig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">fornylig</W>
-<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:dobj|2:lobj|7:mod|16:pnct">trak</W>
+<W gloss="withdrew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:dobj|2:@dir|7:mod|16:pnct">trak</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ud</W>
 <W gloss="from" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="German" lemma="tysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">tyske</W>
@@ -151,8 +151,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="Audi" lemma="Audi" msd="NP--U==-" tag="NNP" in="1:subj|7:[subj]|8:[subj]" out="">Audi</W>
-<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|2:mod|6:conj">vender</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|6:conj|1:@dir">vender</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="1993" lemma="1993" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1993</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -162,7 +162,7 @@
 <W gloss="the_drivers" lemma="kører" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">kørerne</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">om</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj|-1:neg">at</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:neg|1:vobj">at</W>
 <W gloss="commit" lemma="engagere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:mod">engagere</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:mod" out="1:nobj">til</W>

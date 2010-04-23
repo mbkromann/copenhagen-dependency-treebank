@@ -60,8 +60,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">system</W>
 <W msd="VA" tag="MD" in="" out="-7:mod|-2:subj|2:vobj|10:pnct">will</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">then</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-1:mod|1:lobj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-1:mod|1:@loc">go</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">rest</W>
@@ -156,7 +156,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">decision</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">quit</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-12:mod|-10:subj|2:pnct|3:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-12:mod|-10:subj|1:preds|2:pnct|3:mod">is</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">greater</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:mod" out="2:vobj">when</W>
@@ -188,7 +188,7 @@
 <W msd="PD" tag="DT" in="10:xtop" out="3:vobj|14:ref">That</W>
 <W msd="ANP" tag="JJ" in="2:subj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">smokers</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|6:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:preds|6:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="2:conj|3:pobj">sick</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord|1:[pobj]">tired</W>

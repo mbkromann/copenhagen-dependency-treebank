@@ -183,7 +183,7 @@
 <W msd="NP=S" tag="NNP" in="3:subj" out="2:conj">Justy</W>
 <W msd="CC" tag="CC" in="1:coord" out="-2:mod">nor</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Alto</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|4:pnct|11:conj|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|4:pnct|11:conj|16:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">program</W>
@@ -197,8 +197,8 @@
 <W msd="VADR" tag="VBZ" in="-11:conj" out="-5:subj|-6:coord|1:preds">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">way</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">out</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@loc">way</W>
+<W msd="ANP" tag="RB" in="-1:@loc" out="">out</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>

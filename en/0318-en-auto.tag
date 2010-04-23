@@ -2,8 +2,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">money</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:vobj|7:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">put</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@loc">put</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">table</W>
 <W msd="SP" tag="IN" in="" out="">at</W>
@@ -185,10 +185,10 @@
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-4:conj" out="-2:mod|-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|3:lobj">go</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|3:@dir">go</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
-<W msd="U=" tag="TO" in="-3:lobj" out="">to</W>
+<W msd="U=" tag="TO" in="-3:@dir" out="">to</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">party</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>

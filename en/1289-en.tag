@@ -35,16 +35,16 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|34:pnct|1:preds">is</W>
-<W msd="AC" tag="CD" in="10:[nobj]|-1:preds" out="1:pobj|7:rel">one</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|34:pnct">is</W>
+<W msd="AC" tag="CD" in="-1:preds|10:[nobj]" out="1:pobj|7:rel">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">those</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">words</W>
 <W msd="PO" tag="PRP$" in="3:subj" out="1:attr|2:possd">our</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">hero</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-3:subj|1:lobj|4:mod">gets</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-3:subj|4:mod|1:@dir">gets</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">trouble</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-10:[nobj]">with</W>
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj">in</W>
@@ -74,7 +74,7 @@
 <s>
 <W msd="NC=P" tag="NNS" in="2:mod" out="">SOMETIMES</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|8:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|2:preds|8:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">drawn-out</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="3:vobj">that</W>
@@ -89,7 +89,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|10:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|2:preds|10:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="4:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:nobj">busy</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">saying</W>
@@ -204,7 +204,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-5:conj" out="-2:mod|1:subj|3:pnct|8:xpl|-4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-5:conj" out="-2:mod|-4:preds|1:subj|3:pnct|8:xpl">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">film</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>

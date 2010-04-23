@@ -14,17 +14,17 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">adventure</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-14:rel" out="-9:subj|-7:mod|1:lobj|5:mod">moved</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-14:rel" out="-9:subj|-7:mod|1:@dir|5:mod">moved</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Newfoundland</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">25</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="-5:mod" out="-2:tobj">ago</W>
 <W msd="VADR" tag="VBZ" in="" out="-20:subj|1:vobj|16:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|2:dobj|3:lobj|4:mod">brought</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|2:dobj|4:mod|3:@dir">brought</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">beautiful</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">photographs</W>
-<W msd="VADR" tag="VBP" in="-3:lobj" out="">home</W>
+<W msd="VADR" tag="VBP" in="-3:@dir" out="">home</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|3:nobj|4:mod">her</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">annual</W>
@@ -40,7 +40,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|27:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|27:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">from</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|3:possd|4:mod|6:mod">her</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">biggest</W>
@@ -71,7 +71,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="13:ref|14:rel">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|42:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|42:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|4:possd|6:pnct|7:appa">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">province's</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>

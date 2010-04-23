@@ -25,8 +25,8 @@
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">son</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj|6:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">public</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">limelight</W>
@@ -156,7 +156,7 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">circle</W>
-<W msd="VADR" tag="VBZ" in="-4:xpl" out="-2:subj|2:preds|4:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-4:xpl" out="-2:subj|1:neg|2:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PO" tag="PRP$" in="-2:preds" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">circle</W>
@@ -175,7 +175,7 @@
 <W msd="SP" tag="IN" in="5:pobj" out="1:nobj">for</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-3:ref" out="">which</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|2:vobj|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:neg|2:vobj">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|-5:pobj">prepared</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -185,8 +185,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">now</W>
 <W msd="NP=S" tag="NNP" in="-3:vobj|1:[subj]|4:[subj]" out="-1:attr|1:vobj">I'm</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:lobj|2:pnct|3:conj">sitting</W>
-<W msd="U=" tag="EX" in="-1:lobj" out="">there</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|2:pnct|3:conj|1:@loc">sitting</W>
+<W msd="U=" tag="EX" in="-1:@loc" out="">there</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-4:[subj]|1:preds">feeling</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">cheated</W>

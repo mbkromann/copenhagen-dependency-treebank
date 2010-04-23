@@ -91,7 +91,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="the_twins" lemma="tvilling" msd="NCCPU==D" tag="NNP" in="2:subj" out="">tvillingerne</W>
 <W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="existed" lemma="eksistere" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:degr|8:¤disj|1:@loc">eksisterede</W>
+<W gloss="existed" lemma="eksistere" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:degr|1:@loc|8:¤disj">eksisterede</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hendes</W>
 <W gloss="imagination" lemma="fantasi" msd="NCCSU==I" tag="NN" in="-1:possd" out="">fantasi</W>
@@ -192,8 +192,8 @@
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:dobj" out="1:ref|3:rel">hvad</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:ref|2:subj" out="">der</W>
 <W gloss="really" lemma="virkelig" msd="RGU" tag="RP" in="1:other" out="">virkelig</W>
-<W gloss="was" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-2:subj|-1:other|1:lobj">lå</W>
-<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">bag</W>
+<W gloss="was" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-2:subj|-1:other|1:@loc">lå</W>
+<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">bag</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hendes</W>
 <W gloss="crime" lemma="forbrydelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="">forbrydelse</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>

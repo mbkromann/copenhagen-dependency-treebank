@@ -67,7 +67,7 @@
 <s>
 <W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj" out="1:nobj">En</W>
 <W gloss="volleyball_player" lemma="volleyballspiller" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">volleyballspiller</W>
-<W gloss="jumps" lemma="springe" msd="VADR=----A-" tag="VBD" in="-14:CAUSE&3a;expl/(nemlig)" out="-2:subj|7:pnct|5:@loc">springer</W>
+<W gloss="jumps" lemma="springe" msd="VADR=----A-" tag="VBD" in="-14:CAUSE&3a;expl/(nemlig)" out="-2:subj|5:@loc|7:pnct">springer</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:other" out="1:nobj">i</W>
 <W gloss="average" lemma="gennemsnit" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">gennemsnit</W>
 <W gloss="80" lemma="80" msd="AC---U=--" tag="CD" in="2:mod" out="-2:other|1:nobj">80</W>
@@ -158,8 +158,8 @@
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="3:coord" out="17:pnct">Og</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="5:cond" out="2:vobj">når</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="move" lemma="rykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|-3:coord|1:lobj|2:pnct">rykker</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="move" lemma="rykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|-3:coord|2:pnct|1:@dir">rykker</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="could" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-22:CONJ/og" out="-5:cond|1:expl|2:man|3:vobj|62:+ELAB&3a;exp/ATTR1">kan</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|2:[expl]" out="">der</W>
@@ -196,9 +196,9 @@
 <W gloss="get" lemma="blive" msd="VADR=----A-" tag="VBD" in="-13:CONJ/og/ATTR1" out="-1:subj|1:preds|2:pnct|3:conj|22:CONTR&3a;prg/men/ATTR1">bliver</W>
 <W gloss="hungry" lemma="sulten" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">sultne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-5:cond|-6:coord|1:subj|2:lobj">kommer</W>
+<W gloss="come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-5:cond|-6:coord|1:subj|2:@dir">kommer</W>
 <W gloss="they'll" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="1:other|3:pnct|4:ref|6:rel">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:other|3:pnct|4:ref|6:rel">ud</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

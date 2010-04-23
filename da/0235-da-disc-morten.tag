@@ -79,8 +79,8 @@
 <W gloss="pay" lemma="betale" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">betale</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">komme</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="">ind</W>
+<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">komme</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="">ind</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -99,7 +99,7 @@
 <W gloss="Beautiful" lemma="smuk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:attr" out="1:pnct">Smukke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="painted" lemma="bemale" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:mod" out="">bemalede</W>
-<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="4:subj" out="-1:mod|1:mod|-3:attr">kvinder</W>
+<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="4:subj" out="-1:mod|-3:attr|1:mod">kvinder</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="2:nobj">i</W>
 <W gloss="tight" lemma="stram" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">stramme</W>
 <W gloss="dresses" lemma="kjole" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">kjoler</W>
@@ -176,14 +176,14 @@
 <W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="-21:+JOINT" out="-1:subj|1:mod|2:pobj|15:pnct|19:CONJ/(og)">ser</W>
 <W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">langt</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">efter</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:nobj|3:mod|1:attr">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">en</W>
 <W gloss="beautiful" lemma="smuk" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">smuk</W>
 <W gloss="hooker" lemma="luder" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">luder</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:mod" out="2:nobj">med</W>
 <W gloss="dark" lemma="mørk" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">mørkt</W>
-<W gloss="hair" lemma="hår" msd="NCNSU==I" tag="NN" in="-2:nobj" out="2:conj|-1:attr">hår</W>
+<W gloss="hair" lemma="hår" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr|2:conj">hår</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:conj" out="-1:coord|2:pnct|4:nobj|1:attr|3:attr">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:conj" out="-1:coord|1:attr|2:pnct|3:attr|4:nobj">en</W>
 <W gloss="soft" lemma="blød" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">blød</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="round" lemma="rund" msd="ANPCSU=IU" tag="JJ" in="-3:attr" out="">rund</W>
@@ -236,7 +236,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="taxi" lemma="taxi" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">taxi</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:mod" out="1:nobj">til</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="bar" lemma="bar" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bar</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>

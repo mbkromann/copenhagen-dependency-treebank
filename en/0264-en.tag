@@ -1,6 +1,6 @@
 <s>
-<W msd="VADA" tag="VBD" in="" out="1:lobj">Got</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="" out="1:@dir">Got</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Citroën</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
@@ -68,7 +68,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gitte</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Laursen</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|6:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|2:mod|6:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">her</W>
@@ -194,7 +194,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bent</W>
 <W msd="NP=S" tag="NNP" in="-8:appa" out="-1:namef|1:pnct">Schmidt-Nielsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="" out="-10:subj|1:dobj|5:conj|21:pnct|3:preds">bid</W>
+<W msd="NC=S" tag="NN" in="" out="-10:subj|1:dobj|3:preds|5:conj|21:pnct">bid</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">guests</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">welcome</W>
@@ -220,7 +220,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">collegium</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|16:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">secure</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

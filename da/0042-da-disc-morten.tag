@@ -143,8 +143,8 @@
 <W gloss="the_Finance_Act" lemma="finanslov" morph="lov -finans/about" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:rel">finansloven</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
-<W gloss="comes" lemma="komme" morph="komme" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:lobj|3:time|5:pnct">kommer</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="comes" lemma="komme" morph="komme" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|3:time|5:pnct|1:@dir">kommer</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="first_reading" lemma="førstebehandling" morph="handle -be/TRANS +ing/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">førstebehandling</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:time" out="1:nobj">på</W>
 <W gloss="Thursday" lemma="torsdag" morph="Thor +s[dag]/poss" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">torsdag</W>

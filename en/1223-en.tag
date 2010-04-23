@@ -170,8 +170,8 @@
 <s>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|6:pnct">On</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">way</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@loc">way</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Wimpy's</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -179,7 +179,7 @@
 <W msd="VADR" tag="VBP" in="" out="-8:mod|-1:subj|1:preds|8:pnct">make</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="2:nobj">sure</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-2:nobj" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-2:nobj" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:mod">pay</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>

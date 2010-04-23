@@ -138,7 +138,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:possd">police</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">technicians</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|2:vobj|8:mod|9:pnct|22:conj|28:pnct|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:neg|2:vobj|8:mod|9:pnct|22:conj|28:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]">found</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -155,8 +155,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:vobj|5:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">accumulated</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@loc">accumulated</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">scene</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>

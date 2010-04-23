@@ -69,7 +69,7 @@
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:vobj">be</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|2:dobj|4:pnct|7:conj|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:neg|2:dobj|4:pnct|7:conj">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">101</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">flaws</W>
@@ -195,9 +195,9 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">steel</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">construction</W>
-<W msd="VAG" tag="VBG" in="-4:mod" out="2:lobj">sitting</W>
+<W msd="VAG" tag="VBG" in="-4:mod" out="2:@loc">sitting</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">right</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="-1:mod|1:nobj">at</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="-1:mod|1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">eye-level</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

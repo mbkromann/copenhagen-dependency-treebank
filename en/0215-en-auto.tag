@@ -12,8 +12,8 @@
 <W msd="NC=S" tag="NN" in="" out="">emergency</W>
 <W msd="NC=P" tag="NNS" in="" out="">services</W>
 <W msd="VADA" tag="VBD" in="-9:vobj" out="-7:mod|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="1:lobj|2:dobj">sent</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="4:mod">out</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="1:@loc|2:dobj">sent</W>
+<W msd="RG" tag="RP" in="-1:@loc" out="4:mod">out</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">single</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">man</W>
@@ -110,9 +110,9 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">conference</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|2:lobj|6:tobj">took</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|6:tobj|2:@loc">took</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">place</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">at</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod">Ingeniørhuset</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
@@ -195,7 +195,7 @@
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="-33:[subj]|-2:coord|1:dobj|-1:neg">begin</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-33:[subj]|-2:coord|-1:neg|1:dobj">begin</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-35:[subj]|1:dobj|2:mod">create</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">chaos</W>

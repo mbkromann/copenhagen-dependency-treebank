@@ -28,7 +28,7 @@
 <W msd="PT" tag="WRB" in="-4:mod" out="3:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jørgen</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Thorgaard</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|11:lobj">had</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|11:@loc">had</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:pobj|6:pnct|8:appa">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="2:attr|3:possd">his</W>
@@ -39,7 +39,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Vagn</W>
 <W msd="NP=S" tag="NNP" in="-8:appa" out="-1:namef|1:pnct">Predbjørn</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="SP" tag="IN" in="-11:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-11:@loc" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="3:possd|4:mod">his</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">television</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">magazine</W>
@@ -77,7 +77,7 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:appr" out="-1:pnct|1:pnct">success</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W msd="VA" tag="MD" in="" out="-6:mod|-5:subj|2:vobj|23:pnct|1:neg">may</W>
+<W msd="VA" tag="MD" in="" out="-6:mod|-5:subj|1:neg|2:vobj|23:pnct">may</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|2:preds|4:mod|12:pnct|17:mod">be</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">quite</W>
@@ -96,7 +96,7 @@
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="VAP" tag="VBN" in="-17:mod" out="-4:mod|1:mod|-1:neg">measured</W>
+<W msd="VAP" tag="VBN" in="-17:mod" out="-4:mod|-1:neg|1:mod">measured</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">print</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">run</W>
@@ -128,8 +128,8 @@
 <W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:pnct|-2:subj|1:preds|6:pnct|7:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:nobj">nothing</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:pobj">write</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:pobj|1:@dir">write</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="">about</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>

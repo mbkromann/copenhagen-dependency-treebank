@@ -237,7 +237,7 @@
 <p>
 <s>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="are" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:expl|2:dobj|14:pnct|1:neg">findes</W>
+<W gloss="are" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:expl|1:neg|2:dobj|14:pnct">findes</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="inventories" lemma="opgørelse" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="1:pobj">opgørelser</W>
 <W gloss="for" lemma="over" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|3:nobj">over</W>
@@ -247,8 +247,8 @@
 <W gloss="millions" lemma="million" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:nobj">millioner</W>
 <W gloss="crowns" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="the_record_industry" lemma="pladebranche" msd="NCCSU==D" tag="NN" in="1:subj" out="">pladebranchen</W>
-<W gloss="throws" lemma="kaste" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|-4:[dobj]|1:lobj">kaster</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ud</W>
+<W gloss="throws" lemma="kaste" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|-4:[dobj]|1:@dir">kaster</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ud</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="TV_campaigns" lemma="tv-kampagne" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tv-kampagner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -270,8 +270,8 @@
 <W gloss="sales" lemma="salg" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">salg</W>
 <W gloss="nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:mod" out="">alligevel</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-1:mod|1:vobj">er</W>
-<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:lobj">gået</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:lobj" out="">ned</W>
+<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:@dir">gået</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:@dir" out="">ned</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 </p>

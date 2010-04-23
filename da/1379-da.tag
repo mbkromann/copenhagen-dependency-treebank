@@ -114,7 +114,7 @@
 <W gloss="sorrow" lemma="sorg" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sorg</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-4:[pred]|-1:subj|2:mod|9:pnct|1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-4:[pred]|-1:subj|1:neg|2:mod|9:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:mod" out="">altid</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
@@ -149,7 +149,7 @@
 <p>
 <s>
 <W gloss="The_clergyman" lemma="præst" msd="NCCSU==D" tag="NN" in="1:subj" out="">Præsten</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:preds|14:pnct|2:neg">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:neg|3:preds|14:pnct">var</W>
 <W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:mod" out="">dog</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:preds" out="1:attr|2:pnct|3:ref|4:rel">den</W>
@@ -199,8 +199,8 @@
 <W gloss="Dear" lemma="kær" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">Kære</W>
 <W gloss="Marlene" lemma="Marlene" msd="NP--U==-" tag="NNP" in="2:voc" out="-1:attr|1:pnct">Marlene</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
-<W gloss="welcome" lemma="velkommen" msd="ANPCSU=IU" tag="JJ" in="-14:qobj" out="-2:voc|-4:pnct|1:lobj|2:pnct">velkommen</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="">hjem</W>
+<W gloss="welcome" lemma="velkommen" msd="ANPCSU=IU" tag="JJ" in="-14:qobj" out="-2:voc|-4:pnct|2:pnct|1:@dir">velkommen</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct|-2:pnct" out="">.</W>
 </s>
 <s>

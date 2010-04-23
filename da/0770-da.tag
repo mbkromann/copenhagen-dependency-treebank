@@ -111,9 +111,9 @@
 <W gloss="journalist" lemma="journalist" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">journalist</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="erratic" lemma="bevæge" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|2:lobj|6:reas">bevægede</W>
+<W gloss="erratic" lemma="bevæge" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|6:reas|2:@dir">bevægede</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">gennem</W>
+<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">gennem</W>
 <W gloss="the_ruins" lemma="ruin" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:loc">ruinerne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Erzincan" lemma="Erzincan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Erzincan</W>
@@ -202,7 +202,7 @@
 <W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">kvæstet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:conj" out="4:vobj|-1:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:conj" out="-1:coord|4:vobj">at</W>
 <W gloss="251" lemma="251" msd="AC---U=--" tag="CD" in="3:subj|4:[subj]|5:[subj]" out="1:pobj">251</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>

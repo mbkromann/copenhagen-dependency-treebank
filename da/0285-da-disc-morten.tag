@@ -179,8 +179,8 @@
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-15:+ELAB&3a;exp/ATTR" out="-2:subj|-3:pnct|2:preds|9:pnct|13:CAUSE&3a;reas/(eftersom)/ATTR">er</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="1:degr" out="">godt</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:preds" out="-1:degr|1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="toward" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="toward" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="making" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:preds">gøre</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:dobj" out="">mig</W>

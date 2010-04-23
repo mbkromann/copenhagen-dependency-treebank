@@ -43,11 +43,11 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I've" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="got" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|3:dobj|4:lobj|7:pnct">har</W>
+<W gloss="got" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|3:dobj|4:@dir|7:pnct">har</W>
 <W gloss="all" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:mod" out="1:nobj">hele</W>
 <W gloss="the_time" lemma="tid" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">tiden</W>
 <W gloss="chills" lemma="kuldegysning" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="">kuldegysninger</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-4:lobj" out="1:mod">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-4:@dir" out="1:mod">ned</W>
 <W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
 <W gloss="back" lemma="ryg" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ryggen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -120,8 +120,8 @@
 <W gloss="forced" lemma="tvinge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">tvunget</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="turn" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|2:mod">vende</W>
-<W gloss="around" lemma="om" msd="RGU" tag="RP" in="-1:lobj" out="">om</W>
+<W gloss="turn" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:mod|1:@dir">vende</W>
+<W gloss="around" lemma="om" msd="RGU" tag="RP" in="-1:@dir" out="">om</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="nødlande" lemma="nødlande" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@loc">nødlande</W>
@@ -157,8 +157,8 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="smoke" lemma="ryge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|4:pnct">røg</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ud</W>
+<W gloss="smoke" lemma="ryge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:@dir|4:pnct">røg</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:mod" out="1:nobj">af</W>
 <W gloss="the_engines" lemma="motor" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">motorerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>

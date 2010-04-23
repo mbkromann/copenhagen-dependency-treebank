@@ -17,12 +17,12 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">program</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-2:subj|19:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-2:subj|1:preds|19:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">ready</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:lobj">help</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:@dir">help</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">customers</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:mod">around</W>
+<W msd="SP" tag="IN" in="-2:@dir" out="1:mod">around</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pnct|2:conj|3:pnct|5:conj|6:pnct|8:conj">museums</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -140,8 +140,8 @@
 <W msd="VADR" tag="VBZ" in="-18:conj" out="-4:subj|-1:mod|-5:coord|1:dobj">shows</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">nearest</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:lobj">route</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="1:@dir">route</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="2:conj">it</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="PD" tag="DT" in="-2:conj" out="-1:coord|1:attr|2:nobj">the</W>
@@ -239,7 +239,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">These</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">100</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|4:pnct|2:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|2:preds|4:pnct">became</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">instead</W>
 <W msd="AC" tag="CD" in="-2:preds" out="1:nobj">5,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>

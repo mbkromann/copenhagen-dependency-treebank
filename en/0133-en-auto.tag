@@ -105,7 +105,7 @@
 <W msd="VA" tag="MD" in="" out="-1:subj|-3:mod|1:mod|2:mod">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">soon</W>
-<W msd="VAF" tag="VB" in="" out="3:pnct|1:preds">be</W>
+<W msd="VAF" tag="VB" in="" out="1:preds|3:pnct">be</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sale</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -215,7 +215,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="">Fylla</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|1:mod|4:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|1:mod|2:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sale</W>
@@ -241,9 +241,9 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBZ" in="-13:conj" out="-17:[subj]|-1:coord|1:mod|2:vobj">has</W>
 <W msd="CS" tag="IN" in="-1:mod" out="">since</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-19:[subj]|1:mod|2:lobj">sailed</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-19:[subj]|1:mod|2:@dir">sailed</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">faithfully</W>
-<W msd="U=" tag="TO" in="-2:lobj" out="">to</W>
+<W msd="U=" tag="TO" in="-2:@dir" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Faeroe</W>
 <W msd="NP=P" tag="NNPS" in="" out="2:conj">Islands</W>

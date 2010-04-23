@@ -130,10 +130,10 @@
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">tid</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:time" out="">så</W>
-<W gloss="submitted" lemma="bøje" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:time|1:subj|2:dobj|3:lobj|8:conj">bøjede</W>
+<W gloss="submitted" lemma="bøje" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:time|1:subj|2:dobj|8:conj|3:@dir">bøjede</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|7:[subj]" out="">han</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:dobj" out="">sig</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:lobj" out="1:other">frem</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:@dir" out="1:other">frem</W>
 <W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-1:other" out="1:nobj">mod</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="other" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="">anden</W>
@@ -163,7 +163,7 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="met" lemma="mødes" msd="VEDA=----A-" tag="VBD" in="" out="-1:subj|3:pnct|6:conj|11:pnct|1:@loc">mødtes</W>
+<W gloss="met" lemma="mødes" msd="VEDA=----A-" tag="VBD" in="" out="-1:subj|1:@loc|3:pnct|6:conj|11:pnct">mødtes</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Paris" lemma="Paris" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Paris</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -237,8 +237,8 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">hende</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-8:nobj" out="1:vobj">at</W>
-<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|5:man">vende</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:other">tilbage</W>
+<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|5:man">vende</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:other">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="her" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sine</W>
 <W gloss="parents" lemma="forælder" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">forældre</W>

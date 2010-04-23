@@ -63,9 +63,9 @@
 <W gloss="ready" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="1:pobj">klar</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="help" lemma="hjælpe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:lobj">hjælpe</W>
+<W gloss="help" lemma="hjælpe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:@dir">hjælpe</W>
 <W gloss="customers" lemma="kunde" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="">kunder</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="1:other">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:other">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="museums" lemma="museum" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|7:conj">museer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -171,8 +171,8 @@
 <W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
 <W gloss="instructively" lemma="pædagogisk" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:degr">pædagogisk</W>
 <W gloss="the_nearest" lemma="nær" msd="ANS[CN][SP]U=DU" tag="JJS" in="1:attr" out="">nærmeste</W>
-<W gloss="route" lemma="vej" msd="NCCSU==I" tag="NN" in="-4:dobj" out="-1:attr|1:lobj">vej</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="route" lemma="vej" msd="NCCSU==I" tag="NN" in="-4:dobj" out="-1:attr|1:@dir">vej</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="it" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="2:conj|3:attr|4:nobj">den</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:conj" out="-1:coord|2:[nobj]">de</W>
@@ -245,7 +245,7 @@
 <W gloss="Olsen" lemma="Olsen" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Olsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-5:ref|1:expl" out="">der</W>
-<W gloss="works" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:expl|6:pnct|1:@loc">arbejder</W>
+<W gloss="works" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:expl|1:@loc|6:pnct">arbejder</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:loc">et</W>
 <W gloss="office_supplies_firm" lemma="kontorvarefirma" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kontorvarefirma</W>

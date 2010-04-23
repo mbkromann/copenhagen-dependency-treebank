@@ -60,9 +60,9 @@
 <s>
 <hi>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
-<W gloss="are_moving" lemma="rykke" morph="rykke" msd="VADR=----A-" tag="VBD" in="-12:CONS&3a;dir/(derfor)" out="-1:time|1:subj|2:lobj">rykker</W>
+<W gloss="are_moving" lemma="rykke" morph="rykke" msd="VADR=----A-" tag="VBD" in="-12:CONS&3a;dir/(derfor)" out="-1:time|1:subj|2:@dir">rykker</W>
 <W gloss="the_Social_Grundtvigians" lemma="social-grundtvigianer" morph="Grundtvig +ianer/DENOM&3a;rel.deono.pers -social/about" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">social-grundtvigianerne</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-2:lobj" out="">ind</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-2:@dir" out="">ind</W>
 </hi>
 </s>
 </p>
@@ -111,7 +111,7 @@
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-4:cond" out="2:vobj">hvis</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">man</W>
 <W gloss="wanted" lemma="ville" morph="ville" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">ville</W>
-<W gloss="to_be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:loc|1:preds">være</W>
+<W gloss="to_be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:loc">være</W>
 <W gloss="popular" lemma="velset" morph="se +t/DEVERB&3a;act.pure -vel/MOD&3a;man" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">velset</W>
 <W gloss="with" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the_city's" lemma="by" morph="by" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:attr|2:attr|3:possd">byens</W>
@@ -124,15 +124,15 @@
 <p>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-44:+TIME&3a;cont/samme_år" out="-1:subj|3:pnct|10:pnct|38:+TIME&3a;succ/senere|1:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-44:+TIME&3a;cont/samme_år" out="-1:subj|1:preds|3:pnct|10:pnct|38:+TIME&3a;succ/senere">var</W>
 <W gloss="same" lemma="samme" morph="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="1:nobj">samme</W>
 <W gloss="year" lemma="år" morph="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">år</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:nobj" out="3:vobj">at</W>
 <W gloss="Poul-Erik" lemma="Poul-Erik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul-Erik</W>
 <W gloss="Billeskov" lemma="Billeskov" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Billeskov</W>
-<W gloss="came" lemma="komme" morph="komme" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:lobj|21:+CONJ/(og)/ATTR">kom</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="came" lemma="komme" morph="komme" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:@dir|21:+CONJ/(og)/ATTR">kom</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="town" lemma="by" morph="by" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -209,7 +209,7 @@
 <p>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-22:+CAUSE&3a;expl/nemlig" out="-1:subj|1:eval|20:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-22:+CAUSE&3a;expl/nemlig" out="-1:subj|1:eval|2:preds|20:pnct">var</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
 <W gloss="candidate" lemma="kandidat" morph="kandidat" msd="NCCSU==I" tag="NN" in="-2:preds" out="1:pobj|3:conj">kandidat</W>
 <W gloss="-" lemma="for-" msd="XX" tag="FW" in="-1:pobj" out="6:nobj">for-</W>
@@ -235,7 +235,7 @@
 <p>
 <s>
 <W gloss="eight-five" lemma="otte-fem" msd="AC---U=--" tag="CD" in="1:preds" out="">Otte-fem</W>
-<W gloss="stood" lemma="stå" morph="stå" msd="VADA=----A-" tag="VBD" in="18:CONTR&3a;dir" out="1:subj|2:time|5:pnct|9:TIME&3a;prec|-1:preds">stod</W>
+<W gloss="stood" lemma="stå" morph="stå" msd="VADA=----A-" tag="VBD" in="18:CONTR&3a;dir" out="-1:preds|1:subj|2:time|5:pnct|9:TIME&3a;prec">stod</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="2:nobj">i</W>
 <W gloss="old" lemma="gammel" morph="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">gamle</W>
@@ -244,7 +244,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-9:TIME&3a;prec" out="-1:subj|5:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-9:TIME&3a;prec" out="-1:subj|1:preds|5:pnct">var</W>
 <W gloss="until" lemma="indtil" msd="SP" tag="IN" in="-1:preds" out="1:nobj">indtil</W>
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:possd">denne</W>
 <W gloss="week's" lemma="uge" morph="uge" msd="NCCSG==I" tag="NN" in="-1:nobj" out="">uges</W>
@@ -253,7 +253,7 @@
 </s>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
-<W gloss="stands" lemma="stå" morph="stå" msd="VADR=----A-" tag="VBD" in="-30:+ELAB&3a;exp" out="-1:time|-18:CONTR&3a;dir|1:subj|3:pnct|8:CONJ/og|2:preds">står</W>
+<W gloss="stands" lemma="stå" morph="stå" msd="VADR=----A-" tag="VBD" in="-30:+ELAB&3a;exp" out="-1:time|-18:CONTR&3a;dir|1:subj|2:preds|3:pnct|8:CONJ/og">står</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="seven-six" lemma="syv-seks" msd="AC---U=--" tag="CD" in="-2:preds" out="">syv-seks</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

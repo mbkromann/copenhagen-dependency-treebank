@@ -80,9 +80,9 @@
 <W gloss="Rushdie" lemma="Rushdie" msd="NP--U==-" tag="NNP" in="-2:dobj" out="">Rushdie</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:preds" out="2:nobj">som</W>
 <W gloss="eminent" lemma="eminent" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">eminent</W>
-<W gloss="reader" lemma="læser" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|3:pobj|2:conj">læser</W>
+<W gloss="reader" lemma="læser" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|2:conj|3:pobj">læser</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="interpreter" lemma="fortolker" msd="NCCSU==I" tag="NN" in="-2:conj" out="1:[pobj]|-1:coord">fortolker</W>
+<W gloss="interpreter" lemma="fortolker" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord|1:[pobj]">fortolker</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="2:nobj">af</W>
 <W gloss="in_particular" lemma="især" msd="RGU" tag="RP" in="1:eval" out="">især</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="-1:eval|1:attr|2:nobj|3:pnct|4:ref|6:rel">den</W>
@@ -106,7 +106,7 @@
 <W gloss="Vargas" lemma="Vargas" msd="NP--U==-" tag="NNP" in="1:namel" out="">Vargas</W>
 <W gloss="Llosa" lemma="Llosa" msd="NP--U==-" tag="NNP" in="-4:conj" out="-2:namef|-1:namel|-3:coord">Llosa</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-13:conj" out="1:attr|2:possd|4:appr|-1:coord">deres</W>
+<W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-13:conj" out="-1:coord|1:attr|2:possd|4:appr">deres</W>
 <W gloss="European" lemma="europæisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">europæiske</W>
 <W gloss="relations" lemma="slægtning" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">slægtninge</W>
 <W gloss="Italo" lemma="Italo" msd="NP--U==-" tag="NNP" in="1:namef" out="">Italo</W>
@@ -135,7 +135,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Great_Britain" lemma="Storbritannien" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord">Storbritannien</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="essays" lemma="essay" msd="NCNPU==I" tag="NNP" in="-14:conj" out="1:pobj|7:ref|8:rel|-1:coord">essays</W>
+<W gloss="essays" lemma="essay" msd="NCNPU==I" tag="NNP" in="-14:conj" out="-1:coord|1:pobj|7:ref|8:rel">essays</W>
 <W gloss="on" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="religion" lemma="religion" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|3:other">religion</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -158,8 +158,8 @@
 <p>
 <s>
 <W gloss="Rushdie" lemma="Rushdie" msd="NP--U==-" tag="NNP" in="1:subj" out="">Rushdie</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|10:pnct|12:loc|33:pnct">går</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|10:pnct|12:loc|33:pnct|1:@dir">går</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">en</W>
 <W gloss="strong" lemma="stærk" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">stærk</W>

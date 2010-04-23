@@ -22,8 +22,8 @@
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="-9:conj|2:[subj]" out="1:attr|2:vobj">I'm</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">just</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-2:[subj]|1:lobj|2:mod">sitting</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">there</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-2:[subj]|2:mod|1:@loc">sitting</W>
+<W msd="ANP" tag="RB" in="-1:@loc" out="">there</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-15:pnct#" out="">bird.</W>
@@ -31,7 +31,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:pnct|45:conj|72:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct|45:conj|72:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">next</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">day</W>
@@ -142,7 +142,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">program</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">notes</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|2:mod|4:pnct|1:preds">aren't</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:preds|2:mod|4:pnct">aren't</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">enough</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>

@@ -59,7 +59,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|10:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|10:pnct">er</W>
 <W gloss="38,000" lemma="38.000" msd="AC---U=--" tag="CD" in="1:mod" out="">38.000</W>
 <W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-2:preds" out="-1:mod|1:mod">færre</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:mod" out="1:obl">end</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|4:pnct|27:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|4:pnct|27:pnct">er</W>
 <W gloss="The" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="general" lemma="almindelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">almindelig</W>
 <W gloss="experience" lemma="erfaring" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">erfaring</W>
@@ -225,8 +225,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:dobj" out="2:vobj">at</W>
 <W gloss="the_volume_of_orders" lemma="ordrebeholdning" msd="NCCPU==D" tag="NNP" in="1:subj" out="">ordrebeholdningerne</W>
-<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">ligger</W>
-<W gloss="below" lemma="under" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">under</W>
+<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc">ligger</W>
+<W gloss="below" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">under</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="normal" lemma="normal" msd="ANP[CN]SU=DU" tag="JJ" in="-1:nobj" out="">normale</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>

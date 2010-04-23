@@ -149,14 +149,14 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="i" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|-1:subj|1:other|3:preds|4:pnct|29:pnct|30:pnct|7:conj">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|-1:subj|1:other|3:preds|4:pnct|7:conj|29:pnct|30:pnct">er</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:other" out="1:other">nu</W>
 <W gloss="even" lemma="engang" msd="RGU" tag="RP" in="-1:other" out="">engang</W>
 <W gloss="optimist" lemma="optimist" msd="NCCSU==I" tag="NN" in="-3:preds" out="">optimist</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:pnct|2:dobj|-2:coord">tror</W>
+<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|-2:coord|1:pnct|2:dobj">tror</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="5:vobj">at</W>
 <W gloss="intolerance" lemma="intolerance" msd="NCCSU==D" tag="NN" in="4:subj" out="">intolerancen</W>
@@ -244,8 +244,8 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:neg|1:vobj">at</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">blive</W>
-<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:lobj">sendt</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:@dir">sendt</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_front" lemma="front" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">fronten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>

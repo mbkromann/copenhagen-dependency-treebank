@@ -28,7 +28,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">maximum</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">limit</W>
@@ -101,12 +101,12 @@
 <W msd="AC" tag="CD" in="2:nobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:nobj">ago</W>
-<W msd="VADR" tag="VBP" in="-6:rel" out="-4:subj|-1:mod|1:dobj|5:lobj|11:pnct">put</W>
+<W msd="VADR" tag="VBP" in="-6:rel" out="-4:subj|-1:mod|1:dobj|11:pnct|5:@loc">put</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|3:nobj|7:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">gasoline</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">product</W>
-<W msd="SP" tag="IN" in="-5:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-5:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
 <W msd="SP" tag="IN" in="-7:mod" out="2:nobj">with</W>

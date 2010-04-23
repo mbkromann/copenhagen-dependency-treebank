@@ -61,7 +61,7 @@
 </s>
 <s>
 <W gloss="The_solution" lemma="løsning" msd="NCCSU==D" tag="NN" in="1:subj" out="">Løsningen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|4:pnct|7:conj|14:pnct|2:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:preds|4:pnct|7:conj|14:pnct">var</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Personality" lemma="personality" msd="NCCSU==I" tag="NN" in="-2:preds" out="-1:pnct|1:pnct">Personality</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -97,7 +97,7 @@
 </s>
 <s>
 <W gloss="Present" lemma="til_stede" msd="RGU" tag="RP" in="1:preds" out="">Til_stede</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="1:mod|4:subj|15:pnct|-1:preds">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:preds|1:mod|4:subj|15:pnct">var</W>
 <W gloss="in_addition" lemma="foruden" msd="SP" tag="IN" in="-1:mod" out="1:nobj">foruden</W>
 <W gloss="De_Beers'_top_people" lemma="De_Beers-topfolk" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">De_Beers-topfolk</W>
 <W gloss="Russian" lemma="russisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">russiske</W>
@@ -141,8 +141,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Here" lemma="her" msd="RGU" tag="RP" in="1:lobj" out="">Her</W>
-<W gloss="is_standing" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:lobj|1:subj|2:pobj|9:pnct">står</W>
+<W gloss="Here" lemma="her" msd="RGU" tag="RP" in="1:@loc" out="">Her</W>
+<W gloss="is_standing" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:pobj|9:pnct|-1:@loc">står</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="3:attr|4:mod|5:nobj">den</W>
@@ -185,7 +185,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|6:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|6:pnct">er</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:preds" out="1:attr|2:possd|3:mod">hans</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="work" lemma="arbejde" msd="NCNSU==I" tag="NN" in="-2:possd" out="">arbejde</W>

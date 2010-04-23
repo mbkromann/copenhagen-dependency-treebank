@@ -40,7 +40,7 @@
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">girl</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-7:ref|1:subj|3:[subj]" out="7:mod">who</W>
-<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|2:vobj|9:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|1:neg|2:vobj|9:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
@@ -209,8 +209,8 @@
 <W msd="PT" tag="WRB" in="15:mod" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|7:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">sent</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">sent</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Gulf</W>

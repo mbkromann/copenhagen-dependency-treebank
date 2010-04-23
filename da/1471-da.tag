@@ -45,7 +45,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj|5:[subj]" out="-1:mod|1:mod|2:nobj">en</W>
 <W gloss="stormy" lemma="storme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:mod" out="">stormende</W>
 <W gloss="forelskelse" lemma="forelskelse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">forelskelse</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:vobj|7:pnct|1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:neg|2:vobj|7:pnct">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="tidy" lemma="rydde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-5:[subj]|2:dobj|3:pobj">rydde</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">politiske</W>
@@ -162,10 +162,10 @@
 </s>
 <s>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">Man</W>
-<W gloss="jump" lemma="springe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:lobj|6:pnct|1:neg">springer</W>
+<W gloss="jump" lemma="springe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|6:pnct|3:@dir">springer</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-3:lobj" out="-1:mod|1:mod">hjem</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-3:@dir" out="-1:mod|1:mod">hjem</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_double_bed" lemma="dobbeltseng" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">dobbeltsengen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>

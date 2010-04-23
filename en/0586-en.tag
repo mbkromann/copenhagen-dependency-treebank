@@ -11,11 +11,11 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:lobj|7:mod">bring</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:mod|4:@dir">bring</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="2:conj">Norwegian</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">Swedish</W>
-<W msd="SP" tag="IN" in="-4:lobj" out="2:nobj">into</W>
+<W msd="SP" tag="IN" in="-4:@dir" out="2:nobj">into</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">education</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
@@ -52,7 +52,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">electronic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">mail</W>
 <W msd="VADR" tag="VBZ" in="" out="-6:subj|1:vobj|25:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|2:pobj|1:preds">made</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:preds|2:pobj">made</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">possible</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">by</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -123,7 +123,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|14:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|1:preds|14:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">co-ordinator</W>
@@ -142,7 +142,7 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">We</W>
 <W msd="PP" tag="PRP" in="1:mod" out="">ourselves</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:mod|10:mod|12:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:mod|2:preds|10:mod|12:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">now</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="1:pobj|4:mod">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

@@ -132,11 +132,11 @@
 <W gloss="Crowes" lemma="Crowes" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Crowes</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Rolling" lemma="Rolling" msd="NP--U==-" tag="NNP" in="1:attr" out="">Rolling</W>
-<W gloss="Stones'" lemma="Stones" msd="NP--G==-" tag="NNP" in="-18:conj" out="-1:attr|1:possd|3:appr|-2:coord">Stones'</W>
+<W gloss="Stones'" lemma="Stones" msd="NP--G==-" tag="NNP" in="-18:conj" out="-1:attr|-2:coord|1:possd|3:appr">Stones'</W>
 <W gloss="guitarist" lemma="guitarist" msd="NCCSU==I" tag="NN" in="-1:possd" out="">guitarist</W>
 <W gloss="Keith" lemma="Keith" msd="NP--U==-" tag="NNP" in="1:namef" out="">Keith</W>
 <W gloss="Richards" lemma="Richard" msd="NP--G==-" tag="NNP" in="-3:appr" out="-1:namef">Richards</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-47:conj" out="-26:subj|1:man|3:time|4:vobj|-27:coord">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-47:conj" out="-26:subj|-27:coord|1:man|3:time|4:vobj">kan</W>
 <W gloss="quietly" lemma="rolig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">roligt</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-3:time" out="-1:other">nu</W>
@@ -145,7 +145,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="dusty" lemma="støv" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">støvet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="give_thanks" lemma="takke" msd="VAF-=----A-" tag="VB" in="-5:conj" out="-35:[subj]|1:man|4:pobj|-1:coord">takke</W>
+<W gloss="give_thanks" lemma="takke" msd="VAF-=----A-" tag="VB" in="-5:conj" out="-35:[subj]|-1:coord|1:man|4:pobj">takke</W>
 <W gloss="hearty" lemma="inderlig" msd="ANP---=-R" tag="JJ" in="-1:man" out="2:conj">inderligt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="intense" lemma="intens" msd="ANP---=-R" tag="JJ" in="-2:conj" out="-1:coord">intenst</W>
@@ -155,8 +155,8 @@
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="2:namef" out="">John</W>
 <W gloss="Lee" lemma="Lee" msd="NP--U==-" tag="NNP" in="1:namel" out="">Lee</W>
 <W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Hooker</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|1:lobj|3:time">kom</W>
-<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|3:time|1:@dir">kom</W>
+<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_world" lemma="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">verden</W>
 <W gloss="back" lemma="dengang" msd="RGU" tag="RP" in="-3:time" out="1:time">dengang</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
@@ -177,7 +177,7 @@
 <W gloss="singer" lemma="sanger" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sanger</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="especially" lemma="især" msd="RGU" tag="RP" in="1:degr" out="">især</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:conj" out="-1:degr|1:nobj|-2:coord">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:conj" out="-1:degr|-2:coord|1:nobj">som</W>
 <W gloss="guitarist" lemma="guitarist" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">guitarist</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:vobj|6:pnct">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-12:[subj]|4:preds">været</W>
@@ -201,7 +201,7 @@
 <W gloss="Keith" lemma="Keith" msd="NP--U==-" tag="NNP" in="1:namef" out="">Keith</W>
 <W gloss="Richards" lemma="Richard" msd="NP--G==-" tag="NNP" in="11:subj|12:[subj]" out="-1:namef|2:conj">Richards</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="guitarists" lemma="guitarist" msd="NCCPU==D" tag="NNP" in="-2:conj" out="2:appr|6:loc|-1:coord">guitaristerne</W>
+<W gloss="guitarists" lemma="guitarist" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord|2:appr|6:loc">guitaristerne</W>
 <W gloss="Francis" lemma="Francis" msd="NP--U==-" tag="NNP" in="1:namef" out="">Francis</W>
 <W gloss="Rossi" lemma="Rossi" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef|3:conj">Rossi</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>

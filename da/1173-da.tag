@@ -144,10 +144,10 @@
 <W gloss="only" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">eneste</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="indeed" lemma="række" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|3:lobj|4:mod">rakte</W>
+<W gloss="indeed" lemma="række" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|4:mod|3:@dir">rakte</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="hand" lemma="hånd" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hånd</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:lobj" out="">frem</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-3:@dir" out="">frem</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="help" lemma="hjælpe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">hjælpe</W>
@@ -163,7 +163,7 @@
 <W gloss="Orlando" lemma="Orlando" msd="NP--U==-" tag="NNP" in="1:subj" out="">Orlando</W>
 <W gloss="disappears" lemma="forsvinde" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct">forsvinder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="by" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|-5:pnct|1:subj|3:pnct|4:dobj|8:pnct|2:neg">ved</W>
+<W gloss="by" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|-5:pnct|1:subj|2:neg|3:pnct|4:dobj|8:pnct">ved</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

@@ -48,8 +48,8 @@
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="features" lemma="træk" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">træk</W>
-<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-7:[subj]|1:lobj|8:mod">ligget</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-7:[subj]|1:@loc|8:mod">ligget</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:mod">en</W>
 <W gloss="first_place" lemma="førsteplads" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">førsteplads</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
@@ -269,8 +269,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-12:mod" out="2:vobj">så</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">jeg</W>
-<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|3:conj">gik</W>
-<W gloss="over" lemma="hen" msd="RGU" tag="RP" in="-1:lobj" out="">hen</W>
+<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:conj|1:@dir">gik</W>
+<W gloss="over" lemma="hen" msd="RGU" tag="RP" in="-1:@dir" out="">hen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="asked" lemma="spørge" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:pnct|2:pobj">spurgte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

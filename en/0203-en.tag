@@ -73,7 +73,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">This</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">minor</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">loss</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|17:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">due</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -86,8 +86,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:attr">seat</W>
 <W msd="ANP" tag="RB" in="-5:nobj" out="-1:mod">back</W>
 <W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:vobj">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:lobj">pushed</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">forward</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:@dir">pushed</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">forward</W>
 <W msd="AC" tag="CD" in="-1:mod" out="1:nobj">15</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mm</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
@@ -144,8 +144,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">driver's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="">seat</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|-13:mod|1:lobj|7:mod|12:pnct">went</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod">up</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|-13:mod|1:@dir|7:mod|12:pnct">went</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj|2:pobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="3:nobj">1,069</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>

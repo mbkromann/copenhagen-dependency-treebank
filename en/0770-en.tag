@@ -24,7 +24,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:preds|13:pnct|14:mod|30:pnct|2:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:neg|3:preds|13:pnct|14:mod|30:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">possible</W>
@@ -72,8 +72,8 @@
 <W msd="PI" tag="DT" in="10:subj" out="1:nobj|2:pnct|3:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">journalist</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-3:mod" out="1:lobj|6:pnct">moving</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">through</W>
+<W msd="VAG" tag="VBG" in="-3:mod" out="6:pnct|1:@dir">moving</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ruins</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

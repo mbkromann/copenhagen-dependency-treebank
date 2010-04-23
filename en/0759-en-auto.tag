@@ -31,7 +31,7 @@
 <W msd="ANP" tag="JJ" in="" out="1:pnct">first</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|13:[nobj]" out="10:rel">it</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|7:pnct|18:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct|18:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:mod">this</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">technical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">refinement</W>
@@ -41,8 +41,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:subj|2:[subj]" out="">many</W>
 <W msd="VADA" tag="VBD" in="-10:rel" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj|3:mod">looked</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">forward</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|1:@dir">looked</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:pobj">forward</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="-13:[nobj]">to</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr">the</W>
@@ -118,7 +118,7 @@
 <W msd="VADR" tag="VBZ" in="" out="">preserves</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">it</W>
-<W msd="VADA" tag="VBD" in="" out="-31:mod|-1:subj|24:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-31:mod|-1:subj|1:preds|24:pnct">was</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="2:conj">liberating</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">fascinating</W>
@@ -134,7 +134,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">songs</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-6:rel" out="-1:subj|1:vobj">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|1:preds">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|3:mod">been</W>
 <W msd="NC=P" tag="NNS" in="-1:preds" out="1:possd">everyone's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">property</W>
 <W msd="SP" tag="IN" in="-3:mod" out="4:nobj">for</W>

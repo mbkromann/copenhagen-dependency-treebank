@@ -188,8 +188,8 @@
 <W msd="VADA" tag="VBD" in="-4:vobj" out="1:preds">was</W>
 <W msd="NC=S" tag="NN" in="-1:preds|10:[nobj]" out="2:rel">something</W>
 <W msd="PP" tag="PRP" in="1:subj|5:[subj]" out="">you</W>
-<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|1:lobj|3:coord">did</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|3:coord|1:@loc">did</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">home</W>
 <W msd="CC" tag="CC" in="-3:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="" out="-5:[subj]">had</W>
@@ -201,7 +201,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|2:vobj|7:pnct|8:pnct|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="9:qobj" out="-1:subj|1:neg|2:vobj|7:pnct|8:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">counted</W>

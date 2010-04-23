@@ -44,8 +44,8 @@
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">after</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">all</W>
 <W msd="U=" tag="TO" in="-3:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:lobj">live</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:@loc">live</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">home</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
@@ -107,7 +107,7 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">truly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">good</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]|8:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:subj|2:mod|3:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:subj|1:neg|2:mod|3:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="NC=S" tag="NN" in="-3:vobj" out="-4:[subj]|1:part|2:dobj|4:conj">hand</W>

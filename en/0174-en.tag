@@ -38,7 +38,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pilgrims</W>
 <W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
-<W msd="VADA" tag="VBD" in="-31:conj" out="-13:subj|-14:coord|8:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-31:conj" out="-13:subj|-14:coord|1:preds|8:pnct">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-16:[subj]|2:mod">released</W>
@@ -89,8 +89,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-5:mod|1:mod|2:vobj|9:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj">led</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:@dir">led</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -186,7 +186,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="48:qobj" out="-2:pnct|-1:subj|4:mod|37:mod|46:pnct|47:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="48:qobj" out="-2:pnct|-1:subj|1:preds|4:mod|37:mod|46:pnct|47:pnct">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>

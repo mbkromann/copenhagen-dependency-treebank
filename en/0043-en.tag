@@ -93,7 +93,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Division</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Association</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|2:vobj|13:mod|21:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|1:neg|2:vobj|13:mod|21:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -192,7 +192,7 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">custom</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="-9:vobj" out="-4:mod|-8:subj|2:vobj|1:neg">will</W>
+<W msd="VA" tag="MD" in="-9:vobj" out="-4:mod|-8:subj|1:neg|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">give</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">entry</W>
@@ -231,8 +231,8 @@
 <W msd="AC" tag="CD" in="2:subj|3:[subj]" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">teams</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|-26:mod|1:vobj|7:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">pull</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:pobj">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc">pull</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Super</W>

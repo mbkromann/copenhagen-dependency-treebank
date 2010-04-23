@@ -71,7 +71,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="poor" lemma="fattig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">fattig</W>
 <W gloss="family" lemma="familie" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">familie</W>
-<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|3:dobj|4:mod|5:pnct|1:neg">gjorde</W>
+<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:neg|3:dobj|4:mod|5:pnct">gjorde</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="much" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj" out="-1:mod">meget</W>
@@ -84,8 +84,8 @@
 <W gloss="The_fortunes" lemma="formue" msd="NCCPU==D" tag="NNP" in="8:subj" out="1:pnct|2:ref|3:rel">Formuerne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:lobj|2:mod|4:pnct">kom</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="">ind</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:mod|4:pnct|1:@dir">kom</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="">ind</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
 <W gloss="national_matches" lemma="landskamp" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">landskampene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -154,9 +154,9 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">kunne</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|2:lobj|4:mod">komme</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod|2:@dir|4:mod">komme</W>
 <W gloss="free" lemma="gratis" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">gratis</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="national_football_matches" lemma="fodboldlandskamp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fodboldlandskamp</W>
 <W gloss="the_rest" lemma="rest" msd="NCCSU==D" tag="NN" in="-4:mod" out="1:pobj">resten</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -195,7 +195,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="1:nobj">en</W>
 <W gloss="football_player" lemma="fodboldspiller" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fodboldspiller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="give" lemma="give" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:dobj|4:pnct|6:conj|-1:neg">gi'r</W>
+<W gloss="give" lemma="give" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:dobj|4:pnct|6:conj">gi'r</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">det</W>
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">sidste</W>
 <W gloss="kick" lemma="spark" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">spark</W>
@@ -218,7 +218,7 @@
 <p>
 <s>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="can" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|2:mod|3:dobj|10:pnct|1:neg">er</W>
+<W gloss="can" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:neg|2:mod|3:dobj|10:pnct">er</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="afford" lemma="råd" msd="NCNSU==I" tag="NN" in="-3:dobj" out="1:pobj">råd</W>

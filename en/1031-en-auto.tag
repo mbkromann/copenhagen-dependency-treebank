@@ -185,7 +185,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|18:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|18:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">thus</W>
 <W msd="SP" tag="IN" in="-2:preds" out="2:nobj">through</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">economic</W>
@@ -234,8 +234,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">results</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|5:pnct|6:ref|12:rel|17:ref">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">path</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">towards</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@dir">path</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">towards</W>
 <W msd="AC" tag="CD" in="" out="">zero</W>
 <W msd="NC=S" tag="NN" in="" out="">growth</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">ANTHONY</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">HOPKINS</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:mod|3:preds|6:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:mod|3:preds|6:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="2:conj">evil</W>
@@ -126,8 +126,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-18:conj" out="-19:[subj]|-1:coord|1:dobj">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-21:[subj]|1:lobj|3:conj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-21:[subj]|3:conj|1:@loc">go</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-3:conj" out="-24:[subj]|-1:coord|1:iobj|3:dobj">check</W>
 <W msd="PD" tag="DT" in="-1:iobj" out="1:nobj">the</W>

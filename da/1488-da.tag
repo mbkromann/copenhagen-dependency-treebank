@@ -50,7 +50,7 @@
 <W gloss="residence" lemma="ophold" msd="NCNSU==I" tag="NN" in="-2:possd" out="">ophold</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
 <W gloss="the_home" lemma="hjem" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hjemmet</W>
-<W gloss="does_find" lemma="finde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|-9:pnct|1:subj|3:pnct|4:dobj|14:conj|28:pnct|29:pnct|2:neg">finder</W>
+<W gloss="does_find" lemma="finde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|-9:pnct|1:subj|2:neg|3:pnct|4:dobj|14:conj|28:pnct|29:pnct">finder</W>
 <W gloss="the_administration" lemma="forvaltning" msd="NCCSU==D" tag="NN" in="-1:subj" out="">forvaltningen</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -64,7 +64,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_administration" lemma="forvaltning" msd="NCCSU==D" tag="NN" in="1:subj" out="">forvaltningen</W>
-<W gloss="does_find" lemma="finde" msd="VADR=----A-" tag="VBD" in="-14:conj" out="-1:subj|-2:coord|3:pnct|4:dobj|2:neg">finder</W>
+<W gloss="does_find" lemma="finde" msd="VADR=----A-" tag="VBD" in="-14:conj" out="-1:subj|-2:coord|2:neg|3:pnct|4:dobj">finder</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -158,8 +158,8 @@
 <W gloss="threatens" lemma="true" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:pobj">truer</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">gå</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">gå</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_press" lemma="presse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pressen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>

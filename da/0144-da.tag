@@ -109,15 +109,15 @@
 <W gloss="are_living" lemma="leve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:loc|19:pnct">lever</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-2:loc" out="1:nobj">under</W>
-<W gloss="plastikstykker" lemma="plastikstykke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="3:pnct|4:ref|6:rel|2:conj">plastikstykker</W>
+<W gloss="plastikstykker" lemma="plastikstykke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj|3:pnct|4:ref|6:rel">plastikstykker</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="blankets" lemma="tæppe" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">tæpper</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-4:ref|3:dobj" out="">som</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:vobj">har</W>
-<W gloss="stretched" lemma="spænde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:lobj|5:comp">spændt</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="stretched" lemma="spænde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:@dir|5:comp">spændt</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">nogle</W>
 <W gloss="sticks" lemma="stok" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">stokke</W>
@@ -138,7 +138,7 @@
 <W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj|3:conj">ni</W>
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">børn</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="18" lemma="18" msd="AC---U=--" tag="CD" in="-3:conj" out="1:attr|2:nobj|-1:coord">18</W>
+<W gloss="18" lemma="18" msd="AC---U=--" tag="CD" in="-3:conj" out="-1:coord|1:attr|2:nobj">18</W>
 <W gloss="surviving" lemma="overleve" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">overlevende</W>
 <W gloss="family_members" lemma="familiemedlem" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">familiemedlemmer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
@@ -155,11 +155,11 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]|6:[subj]" out="">Han</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:dobj|16:pnct|4:conj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:dobj|4:conj|16:pnct">har</W>
 <W gloss="strong" lemma="stærk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">stærke</W>
 <W gloss="kidney_pains" lemma="nyresmerte" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">nyresmerter</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|1:vobj|-1:coord">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:vobj">er</W>
 <W gloss="wrapped_up" lemma="indhylle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj">indhyllet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|3:pnct|4:ref|6:rel">alle</W>
@@ -246,10 +246,10 @@
 <s>
 <W gloss="Without" lemma="uden" msd="SP" tag="IN" in="2:other" out="1:nobj">Uden</W>
 <W gloss="diaper" lemma="ble" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">ble</W>
-<W gloss="is_running" lemma="løbe" msd="VADR=----A-" tag="VBD" in="" out="-2:other|1:subj|3:lobj|7:pnct">løber</W>
+<W gloss="is_running" lemma="løbe" msd="VADR=----A-" tag="VBD" in="" out="-2:other|1:subj|7:pnct|3:@dir">løber</W>
 <W gloss="the_child's" lemma="barn" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">barnets</W>
 <W gloss="diarrhoea" lemma="diarré" msd="NCCSU==I" tag="NN" in="-1:possd" out="">diarré</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ned</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="the_girl's" lemma="pige" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">pigens</W>
 <W gloss="thighs" lemma="lår" msd="NCNSU==I" tag="NN" in="-1:possd" out="">lår</W>

@@ -136,11 +136,11 @@
 </p>
 <p>
 <s>
-<W gloss="Cut" lemma="skære" morph="skær +e/DER&3a;av" msd="VAM-=------" tag="VB" in="-12:+CONJ&3a;seq" out="1:dobj|4:lobj|5:mod|7:coord|14:pnct|18:ELAB&3a;exp|31:+CONJ&3a;seq">Skær</W>
+<W gloss="Cut" lemma="skære" morph="skær +e/DER&3a;av" msd="VAM-=------" tag="VB" in="-12:+CONJ&3a;seq" out="1:dobj|5:mod|7:coord|14:pnct|18:ELAB&3a;exp|31:+CONJ&3a;seq|4:@dir">Skær</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">de</W>
 <W gloss="cleaned" lemma="rense" morph="ren +se/DER&3a;av" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">rensede</W>
 <W gloss="onions" lemma="løg" morph="løg" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">løg</W>
-<W gloss="through" lemma="igennem" msd="RGU" tag="RP" in="-4:lobj" out="">igennem</W>
+<W gloss="through" lemma="igennem" msd="RGU" tag="RP" in="-4:@dir" out="">igennem</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-5:mod" out="1:nobj">en</W>
 <W gloss="time" lemma="gang" morph="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="1:&lt;mod&gt;|2:&lt;avobj&gt;|5:&lt;mod&gt;">og</W>
@@ -196,7 +196,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-14:CONJ&3a;seq" out="1:dobj|5:conj|7:pnct|10:CONJ/(og)|2:@loc">Hæld</W>
+<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-14:CONJ&3a;seq" out="1:dobj|2:@loc|5:conj|7:pnct|10:CONJ/(og)">Hæld</W>
 <W gloss="port" lemma="portvin" morph="vin -port/type" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">portvin</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_pan" lemma="pande" morph="pande" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">panden</W>
@@ -231,7 +231,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-14:CONJ&3a;seq" out="1:dobj|5:conj|7:pnct|10:CONJ&3a;seq|2:@loc">Hæld</W>
+<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-14:CONJ&3a;seq" out="1:dobj|2:@loc|5:conj|7:pnct|10:CONJ&3a;seq">Hæld</W>
 <W gloss="the_mixture" lemma="blanding" morph="blande +ing/PRED&3a;core" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">blandingen</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_pan" lemma="pande" morph="pande" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">panden</W>
@@ -241,7 +241,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-10:CONJ&3a;seq" out="1:dobj|6:conj|11:pnct|4:@loc">Hæld</W>
+<W gloss="Pour" lemma="hælde" morph="hælde" msd="VAM-=------" tag="VB" in="-10:CONJ&3a;seq" out="1:dobj|4:@loc|6:conj|11:pnct">Hæld</W>
 <W gloss="the_rest" lemma="rest" morph="rest" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj">resten</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_cream" lemma="piskefløde" morph="fløde -piske/type" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">piskefløden</W>

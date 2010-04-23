@@ -87,8 +87,8 @@
 <W gloss="warning" lemma="advarsel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">advarsel</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">som</W>
 <W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:mod" out="">aldrig</W>
-<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:lobj">nåede</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">frem</W>
+<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:@dir">nåede</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:mod" out="2:nobj">til</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef">Schlüter</W>
@@ -124,7 +124,7 @@
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-9:mod" out="3:vobj">idet</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]|20:[subj]|21:[subj]" out="">Wiese</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|18:conj|-1:neg">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj|18:conj">har</W>
 <W gloss="placed" lemma="lægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">lagt</W>
 <W gloss="conceal" lemma="skjul" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">skjul</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
@@ -220,8 +220,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="the_government" lemma="regering" msd="NCCSU==D" tag="NN" in="1:subj" out="">regeringen</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">stod</W>
-<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">bag</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc">stod</W>
+<W gloss="behind" lemma="bag" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">bag</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">ham</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-13:pobj" out="1:nobj">til</W>

@@ -148,11 +148,11 @@
 <W gloss="Pia" lemma="Pia" msd="NP--U==-" tag="NNP" in="1:namef" out="">Pia</W>
 <W gloss="Kjærsgaard" lemma="Kjærsgaard" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef">Kjærsgaard</W>
 <W gloss="simply" lemma="blot" msd="RGU" tag="RP" in="1:mod" out="">blot</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-23:vobj" out="-22:subj|-6:mod|-1:mod|1:vobj|-7:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-23:vobj" out="-22:subj|-6:mod|-1:mod|-7:neg|1:vobj">kan</W>
 <W gloss="decide" lemma="vælge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-23:[subj]|1:dobj">vælge</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|4:conj">tage</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="4:conj|1:@dir">tage</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="have" lemma="få" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|1:dobj|3:vobj">få</W>

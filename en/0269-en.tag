@@ -8,8 +8,8 @@
 <W msd="PD" tag="DT" in="-1:dobj|4:[nobj]" out="1:nobj|3:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">difficulties</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:lobj|2:pnct|3:mod">ran</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="-4:[nobj]">into</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:@dir|2:pnct|3:mod">ran</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="-4:[nobj]">into</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:mod" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
@@ -127,7 +127,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Vladimir</W>
 <W msd="NP=S" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Pimonov</W>
-<W msd="VADA" tag="VBD" in="" out="-13:mod|-4:subj|2:vobj|21:pnct|1:neg">were</W>
+<W msd="VADA" tag="VBD" in="" out="-13:mod|-4:subj|1:neg|2:vobj|21:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:mod|2:pobj">left</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">alone</W>
@@ -156,8 +156,8 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|14:pnct">became</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">pregnant</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj">went</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:@dir">went</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Vladimir</W>
@@ -186,8 +186,8 @@
 <W msd="PT" tag="WP" in="-2:ref|1:subj|3:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:dobj">wishes</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">go</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">exile</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

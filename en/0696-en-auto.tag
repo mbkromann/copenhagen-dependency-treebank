@@ -25,7 +25,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">opinion</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-1:subj|-4:mod|2:vobj|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-1:subj|-4:mod|1:neg|2:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">followed</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -58,11 +58,11 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">interests</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">without</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="4:lobj">acquiring</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="4:@dir">acquiring</W>
 <W msd="PD" tag="DT" in="" out="1:mod">any</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">person</W>
 <W msd="NC=S" tag="NN" in="" out="">gain</W>
-<W msd="SP" tag="IN" in="-4:lobj" out="1:nobj">from</W>
+<W msd="SP" tag="IN" in="-4:@dir" out="1:nobj">from</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
@@ -123,7 +123,7 @@
 </s>
 <s>
 <W msd="NP=P" tag="NNPS" in="1:subj" out="">Danes</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:preds|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:preds">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">race</W>

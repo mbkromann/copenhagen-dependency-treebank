@@ -71,8 +71,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:mod|1:subj|2:vobj">vil</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
-<W gloss="long" lemma="længes" msd="VEF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:lobj">længes</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="long" lemma="længes" msd="VEF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:@dir">længes</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -91,7 +91,7 @@
 <W gloss="polluted" lemma="forurene" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:mod|1:pnct">forurenet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:nobj" out="9:vobj">at</W>
-<W gloss="were_to_stick" lemma="stikke" msd="VADR=----A-" tag="VBD" in="8:mod" out="1:subj|2:mod|3:dobj|7:pnct|5:@loc">stikker</W>
+<W gloss="were_to_stick" lemma="stikke" msd="VADR=----A-" tag="VBD" in="8:mod" out="1:subj|2:mod|3:dobj|5:@loc|7:pnct">stikker</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
 <W gloss="merely" lemma="blot" msd="RGU" tag="RP" in="-2:mod" out="">blot</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:nobj">en</W>
@@ -189,8 +189,8 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj|3:[subj]" out="1:attr|2:nobj">den</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">næste</W>
 <W gloss="trip" lemma="rejse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">rejse</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:lobj">gå</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:@dir">gå</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Egypt" lemma="Ægypten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ægypten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

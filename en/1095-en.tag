@@ -1,6 +1,6 @@
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">Conditions</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|16:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|2:mod|16:pnct">were</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">horrifying</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|3:mod|4:attr|5:possd|6:pnct|7:mod">the</W>
@@ -71,7 +71,7 @@
 <W msd="PT" tag="WP" in="-5:ref|3:subj" out="">who</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reality</W>
-<W msd="VADA" tag="VBD" in="-8:rel" out="-3:subj|-2:mod|3:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="-8:rel" out="-3:subj|-2:mod|2:preds|3:pnct">were</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">prison</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:mod">guards</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -92,7 +92,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-2:subj|1:vobj">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[mod]|-3:[subj]">mistreated</W>
-<W msd="VADR" tag="VBP" in="" out="-8:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-8:subj|1:preds|2:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">hair-raising</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -111,7 +111,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">prison</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|-14:mod|10:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|-14:mod|2:preds|10:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">significantly</W>
 <W msd="ANC" tag="JJR" in="-2:preds" out="-1:mod|1:pobj">worse</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:obl">than</W>
@@ -172,8 +172,8 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">order</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">get</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir">get</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hospital</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
@@ -181,11 +181,11 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj" out="1:nobj">One</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">boy</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:dobj|4:lobj|7:pnct">stuck</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:dobj|7:pnct|4:@dir">stuck</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">iron</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bar</W>
-<W msd="RG" tag="RP" in="-4:lobj" out="1:nobj">up</W>
+<W msd="RG" tag="RP" in="-4:@dir" out="1:nobj">up</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">rectum</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>

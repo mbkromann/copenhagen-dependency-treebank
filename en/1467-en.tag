@@ -99,7 +99,7 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-8:subj|2:vobj|5:pnct#|6:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:mod|-8:subj|1:neg|2:vobj|5:pnct#|6:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">promote</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">confidence</W>
@@ -189,8 +189,8 @@
 <W msd="VADR" tag="VBZ" in="-11:conj" out="-13:[subj]|-1:mod|-2:coord|1:dobj">risks</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-16:[subj]|1:lobj">bumped</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-16:[subj]|1:@dir">bumped</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="AC" tag="CD" in="-1:attr" out="">2nd</W>

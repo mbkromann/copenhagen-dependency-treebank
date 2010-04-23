@@ -40,8 +40,8 @@
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">applied</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj|4:mod|8:conj">come</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|4:mod|8:conj|1:@dir">come</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
@@ -149,7 +149,7 @@
 <W msd="PP" tag="PRP" in="3:subj|5:[subj]" out="2:conj">he</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Trine</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:dobj">have</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>

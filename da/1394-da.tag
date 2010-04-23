@@ -65,10 +65,10 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="15-year_old" lemma="15-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">15-årige</W>
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">pige</W>
-<W gloss="was_riding" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:mod|3:lobj|11:pnct">kørte</W>
+<W gloss="was_riding" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:mod|11:pnct|3:@dir">kørte</W>
 <W gloss="perfectly" lemma="fuldkommen" msd="ANP---=-R" tag="JJ" in="1:mod" out="">fuldkommen</W>
 <W gloss="correctly" lemma="korrekt" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:mod">korrekt</W>
-<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">langs</W>
+<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">langs</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">den</W>
 <W gloss="white" lemma="hvid" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">hvide</W>
 <W gloss="stripe" lemma="stribe" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">stribe</W>
@@ -82,7 +82,7 @@
 <p>
 <s>
 <W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:mod" out="">Alligevel</W>
-<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|6:dobj|10:lobj|25:pnct">kørte</W>
+<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|6:dobj|10:@dir|25:pnct">kørte</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:mod">den</W>
 <W gloss="30-year_old" lemma="30-årig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">30-årige</W>
 <W gloss="woman" lemma="kvinde" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">kvinde</W>
@@ -92,14 +92,14 @@
 <W gloss="Toyota" lemma="Toyota" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name">Toyota</W>
 <W gloss="Carina" lemma="Carina" msd="NP--U==-" tag="NNP" in="-1:name" out="">Carina</W>
 <W gloss="head_on" lemma="frontal" msd="ANP---=-R" tag="JJ" in="1:mod" out="">frontalt</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-10:lobj" out="-1:mod|1:mod">ind</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-10:@dir" out="-1:mod|1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_cyclist" lemma="cyklist" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:rel">cyklisten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|2:[subj]|7:[subj]" out="">der</W>
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj|6:conj">blev</W>
-<W gloss="slung" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">slynget</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">op</W>
+<W gloss="slung" lemma="slynge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">slynget</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">op</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:mod" out="1:nobj">mod</W>
 <W gloss="the_windshield" lemma="forrude" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">forruden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -222,14 +222,14 @@
 <W gloss="needed_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:mod|1:subj|2:mod|3:vobj">måtte</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">de</W>
 <W gloss="shown" lemma="vist" msd="RGU" tag="RP" in="-2:mod" out="">vist</W>
-<W gloss="put" lemma="sætte" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|3:lobj|4:mod">sætte</W>
+<W gloss="put" lemma="sætte" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|3:@dir|4:mod">sætte</W>
 <W gloss="speed" lemma="fart" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">farten</W>
 <W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:mod" out="">lidt</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="-1:mod">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="-1:mod">op</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|2:pnct|3:mod">komme</W>
-<W gloss="there" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="">frem</W>
+<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|2:pnct|3:mod">komme</W>
+<W gloss="there" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="">frem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="before" lemma="inden" msd="CS" tag="IN" in="-3:mod" out="2:vobj">inden</W>
 <W gloss="the_bell" lemma="klokke" msd="NCCSU==D" tag="NN" in="1:subj" out="">klokken</W>

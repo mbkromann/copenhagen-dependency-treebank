@@ -56,7 +56,7 @@
 <W gloss="Camilla" lemma="Camilla" msd="NP--U==-" tag="NNP" in="-4:nobj" out="-1:attr">Camilla</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="Finn" lemma="Finn" msd="NP--U==-" tag="NNP" in="1:namef" out="">Finn</W>
-<W gloss="Bech-Nielsen" lemma="Bech-Nielsen" msd="NP--U==-" tag="NNP" in="-8:appa" out="-1:namef|4:pnct|5:list|3:conj">Bech-Nielsen</W>
+<W gloss="Bech-Nielsen" lemma="Bech-Nielsen" msd="NP--U==-" tag="NNP" in="-8:appa" out="-1:namef|3:conj|4:pnct|5:list">Bech-Nielsen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Maja" lemma="Maja" msd="NP--U==-" tag="NNP" in="1:namef" out="">Maja</W>
 <W gloss="Illum" lemma="Illum" msd="NP--U==-" tag="NNP" in="-3:conj" out="-1:namef|-2:coord">Illum</W>
@@ -249,8 +249,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_money" lemma="penge" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">pengene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="will_be_sent" lemma="sende" msd="VADR=----P-" tag="VBD" in="" out="-6:subj|1:lobj|6:pnct">sendes</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="will_be_sent" lemma="sende" msd="VADR=----P-" tag="VBD" in="" out="-6:subj|6:pnct|1:@dir">sendes</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="179" lemma="179" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:loc">179</W>
 <W gloss="households" lemma="husstand" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">husstande</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>

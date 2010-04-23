@@ -112,13 +112,13 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="27," lemma="27" msd="AC---U=--" tag="CD" in="-2:attr" out="1:pnct">27</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="is" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|6:lobj|10:pnct|18:conj|25:pnct">går</W>
+<W gloss="is" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|10:pnct|18:conj|25:pnct|6:@loc">går</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="4:nobj">på</W>
 <W gloss="fourth" lemma="fjerde" msd="AO---U=--" tag="JJ" in="3:attr" out="2:conj">fjerde</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">sidste</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-4:nobj" out="-3:attr">år</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-6:lobj" out="1:nobj">på</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-6:@loc" out="1:nobj">på</W>
 <W gloss="the_theatre_school" lemma="teaterskole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:mod">teaterskolen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">København</W>
@@ -194,14 +194,14 @@
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="3:coord" out="">men</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="2:subj" out="1:nobj">det</W>
 <W gloss="relationship" lemma="forhold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">forhold</W>
-<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-20:conj" out="-2:subj|-3:coord|3:pnct|4:mod|1:@loc">gik</W>
+<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-20:conj" out="-2:subj|-3:coord|1:@loc|3:pnct|4:mod">gik</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="fails" lemma="vask" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">vasken</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="-4:mod" out="2:vobj">da</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="started" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">begyndte</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="started" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc">begyndte</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="school" lemma="skole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skolen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>

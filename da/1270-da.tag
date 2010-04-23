@@ -52,8 +52,8 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="so-called" lemma="såkaldt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">såkaldt</W>
 <W gloss="arthroscopy" lemma="atroskopi" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">artroskopi</W>
-<W gloss="looking" lemma="kigge" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:mod|1:lobj|5:mod">kigger</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="looking" lemma="kigge" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:mod|5:mod|1:@dir">kigger</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_Queen's" lemma="dronning" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Dronningens</W>
 <W gloss="knee" lemma="knæ" msd="NCNSU==I" tag="NN" in="-1:possd" out="">knæ</W>
@@ -103,7 +103,7 @@
 <W gloss="take_place" lemma="foregå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod">foregå</W>
 <W gloss="on_an_outpatient_basis" lemma="ambulant" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">ambulant</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="do_require" lemma="kræve" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-6:[subj]|-1:coord|1:mod|3:mod|4:dobj|2:neg">kræver</W>
+<W gloss="do_require" lemma="kræve" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-6:[subj]|-1:coord|1:mod|2:neg|3:mod|4:dobj">kræver</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-1:mod" out="">altså</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="necessarily" lemma="nødvendigvis" msd="RGU" tag="RP" in="-3:mod" out="">nødvendigvis</W>

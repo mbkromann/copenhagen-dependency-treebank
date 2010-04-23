@@ -59,7 +59,7 @@
 <W msd="SP" tag="IN" in="-1:part" out="">out</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-6:ref|1:subj" out="">which</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|3:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:neg|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-1:mod|1:pobj">suited</W>
@@ -216,7 +216,7 @@
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">feet</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|3:[subj]" out="">which</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|2:vobj|3:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:neg|2:vobj|3:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">covered</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -236,8 +236,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">child's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="">diarrhoea</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:mod|-3:subj|1:vobj|7:pnct">is</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:lobj">running</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:@dir">running</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">girl's</W>

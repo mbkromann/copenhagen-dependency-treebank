@@ -121,14 +121,14 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">hun</W>
-<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|1:vobj|-2:coord">måtte</W>
+<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:vobj">måtte</W>
 <W gloss="punish" lemma="straffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">straffe</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">hende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|11:[subj]" out="">Hun</W>
-<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|24:conj|30:pnct|10:conj">tog</W>
+<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|10:conj|24:conj|30:pnct">tog</W>
 <W gloss="hold" lemma="fat" msd="RGU" tag="RP" in="-1:dobj" out="1:pobj">fat</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -138,7 +138,7 @@
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hendes</W>
 <W gloss="arm" lemma="arm" msd="NCCSU==I" tag="NN" in="-1:possd" out="">arm</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="squeezed" lemma="klemme" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-11:[subj]|1:man|2:pnct|3:conj|7:dur|-1:coord">klemte</W>
+<W gloss="squeezed" lemma="klemme" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-11:[subj]|-1:coord|1:man|2:pnct|3:conj|7:dur">klemte</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-1:man" out="">til</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="set" lemma="sætte" msd="VADA=----A-" tag="VBD" in="-3:conj" out="1:dobj|2:@loc|3:pnct">satte</W>
@@ -165,10 +165,10 @@
 <p>
 <s>
 <W gloss="Tanja" lemma="Tanja" msd="NP--U==-" tag="NNP" in="1:subj|4:[subj]" out="">Tanja</W>
-<W gloss="angry" lemma="vride" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|6:pnct|8:xpl|3:conj">vred</W>
+<W gloss="angry" lemma="vride" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:conj|6:pnct|8:xpl">vred</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="shook" lemma="ryste" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|1:pobj|-1:coord">rystede</W>
+<W gloss="shook" lemma="ryste" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:pobj">rystede</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the_heads" lemma="hoved" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
@@ -195,7 +195,7 @@
 <p>
 <s>
 <W gloss="Afterwards" lemma="bagefter" msd="RGU" tag="RP" in="1:succ" out="">Bagefter</W>
-<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|2:vobj|5:pnct|16:pnct|8:conj">måtte</W>
+<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|2:vobj|5:pnct|8:conj|16:pnct">måtte</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">hun</W>
 <W gloss="comfort" lemma="trøste" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:dur">trøste</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">hende</W>
@@ -203,7 +203,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-1:subj|1:preds|-2:coord">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:preds">var</W>
 <W gloss="about" lemma="ved" msd="SP" tag="IN" in="-1:preds" out="1:nobj">ved</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:time|3:@loc">komme</W>
@@ -215,9 +215,9 @@
 </s>
 <s>
 <W gloss="Simon" lemma="Simon" msd="NP--U==-" tag="NNP" in="1:subj" out="">Simon</W>
-<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:lobj|4:pnct|6:conj|10:pnct">stod</W>
+<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:neg|4:pnct|6:conj|10:pnct|2:@loc">stod</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="at" lemma="ved" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">ved</W>
+<W gloss="at" lemma="ved" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">ved</W>
 <W gloss="the_footbridge" lemma="gangbro" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gangbroen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
@@ -254,7 +254,7 @@
 <W gloss="help" lemma="hjælpe" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj|3:conj">hjælpe</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-3:other">og</W>
-<W gloss="think" lemma="tænke" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-7:[subj]|1:pobj|-1:coord">tænke</W>
+<W gloss="think" lemma="tænke" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-7:[subj]|-1:coord|1:pobj">tænke</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:nobj|2:[dobj]" out="2:rel">hvad</W>

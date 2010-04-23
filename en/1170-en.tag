@@ -31,8 +31,8 @@
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:vobj|15:pnct">is</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">sitting</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@loc">sitting</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">board</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -121,7 +121,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|4:preds|7:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-4:mod|1:neg|4:preds|7:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">so</W>

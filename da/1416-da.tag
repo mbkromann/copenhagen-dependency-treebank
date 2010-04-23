@@ -173,10 +173,10 @@
 <W gloss="joins" lemma="tiltræde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:pnct">tiltræder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-6:ref|1:mod" out="">så</W>
-<W gloss="smokes" lemma="ryge" msd="VADR=----A-" tag="VBD" in="-9:preds" out="-7:xtop|-1:mod|1:subj|3:lobj|4:pnct|5:mod">ryger</W>
+<W gloss="smokes" lemma="ryge" msd="VADR=----A-" tag="VBD" in="-9:preds" out="-7:xtop|-1:mod|1:subj|4:pnct|5:mod|3:@dir">ryger</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr">den</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">gamle</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:@dir" out="">ud</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="regardless" lemma="uanset" msd="SP" tag="IN" in="-5:mod" out="1:nobj">uanset</W>
 <W gloss="whether" lemma="om" msd="CS" tag="IN" in="-1:nobj" out="3:vobj">om</W>

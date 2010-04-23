@@ -6,13 +6,13 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">KTAS</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">tactic</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|6:lobj|9:pnct|10:mod">send</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:dobj|6:@dir|9:pnct|10:mod">send</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="-1:pnct|1:attr|2:nobj|3:pnct">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">second</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">string</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
-<W msd="U=" tag="TO" in="-6:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-6:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">front</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -50,7 +50,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:mod" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">meet</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">with</W>
@@ -139,7 +139,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj|4:[dobj]" out="2:rel">services</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:vobj|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[dobj]|-3:[subj]">received</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -152,12 +152,12 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">services</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-7:mod|1:pnct|3:mod|5:lobj|25:pnct">fall</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-7:mod|1:pnct|3:mod|25:pnct|5:@dir">fall</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">roughly</W>
 <W msd="VAG" tag="VBG" in="-3:mod" out="-1:mod|1:pnct">speaking</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="SP" tag="IN" in="-5:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-5:@dir" out="1:nobj">into</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:pnct|4:xpl">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">categories</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
@@ -198,7 +198,7 @@
 <W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:attr">exercise</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-13:mod" out="1:vobj">so</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:vobj|2:neg">let</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:neg|3:vobj">let</W>
 <W msd="PP" tag="PRP" in="-1:dobj|2:[dobj]|3:[dobj]" out="">us</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:[dobj]|1:vobj">be</W>

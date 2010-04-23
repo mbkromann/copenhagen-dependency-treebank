@@ -7,11 +7,11 @@
 <W msd="NP=S" tag="NNP" in="2:mod" out="">EC</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">defence</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod|-2:mod">policy</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:subj|53:pnct#|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:subj|1:preds|53:pnct#">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:lobj|2:mod|3:mod|6:mod">taken</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|2:mod|3:mod|6:mod|1:@dir">taken</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1996</W>
@@ -25,7 +25,7 @@
 <W msd="PT" tag="WDT" in="-2:ref|5:dobj" out="">which</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Council</W>
-<W msd="VADR" tag="VBZ" in="-5:rel" out="-2:subj|19:conj|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-5:rel" out="-2:subj|1:preds|19:conj">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:dobj|-4:[subj]|1:pobj|13:mod">present</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -104,7 +104,7 @@
 <W msd="NP=S" tag="NNP" in="2:mod" out="">WEU</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">member</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod|-2:mod">states</W>
-<W msd="VADR" tag="VBP" in="-22:xpl" out="-5:pnct|-4:subj|9:pnct|10:mod|47:pnct|51:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-22:xpl" out="-5:pnct|-4:subj|1:preds|9:pnct|10:mod|47:pnct|51:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="1:pobj">agreed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">strengthening</W>
@@ -138,8 +138,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:ref|4:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">common</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">defence</W>
@@ -198,7 +198,7 @@
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="IN" in="8:mod" out="1:nobj|5:pnct|3:preds">With</W>
+<W msd="SP" tag="IN" in="8:mod" out="1:nobj|3:preds|5:pnct">With</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">end</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:nobj">in</W>

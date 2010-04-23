@@ -101,8 +101,8 @@
 <W gloss="finally" lemma="sidst" msd="RGU" tag="RP" in="1:mod" out="">sidst</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="-1:mod|1:nobj">i</W>
 <W gloss="May" lemma="maj" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">maj</W>
-<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:lobj">sendt</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:@dir">sendt</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Jyllands-Posten" lemma="Jyllands-Posten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|3:conj|5:conj">Jyllands-Posten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Berlingske" lemma="Berlingske" msd="NP--U==-" tag="NNP" in="1:mod" out="">Berlingske</W>
@@ -154,7 +154,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|2:pnct|3:mod|-1:neg">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj|2:pnct|3:mod">var</W>
 <W gloss="interested" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]">interesseret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-3:mod" out="5:vobj">idet</W>
@@ -162,8 +162,8 @@
 <W gloss="staff_member" lemma="medarbejder" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">medarbejder</W>
 <W gloss="nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="2:mod" out="">alligevel</W>
 <W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="1:mod" out="">snart</W>
-<W gloss="was_to_go" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-2:mod|-1:mod|1:lobj">skulle</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="was_to_go" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-2:mod|-1:mod|1:@dir">skulle</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_area" lemma="område" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">området</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>

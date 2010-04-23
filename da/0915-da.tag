@@ -98,7 +98,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="1:other">og</W>
 <W gloss="thereby" lemma="dermed" msd="RGU" tag="RP" in="-1:other" out="">dermed</W>
 <W gloss="extensively" lemma="omfattende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">omfattende</W>
-<W gloss="overflødiggørelse" lemma="overflødiggørelse" msd="NCCSU==I" tag="NN" in="-7:conj" out="-1:attr|1:pobj|-3:coord">overflødiggørelse</W>
+<W gloss="overflødiggørelse" lemma="overflødiggørelse" msd="NCCSU==I" tag="NN" in="-7:conj" out="-1:attr|-3:coord|1:pobj">overflødiggørelse</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="psychiatric" lemma="psykiatrisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">psykiatriske</W>
 <W gloss="hospitals" lemma="hospital" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">hospitaler</W>
@@ -175,7 +175,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="1:reas|2:add">og</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
-<W gloss="more_expensive" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-8:conj" out="1:other|-3:coord">dyrere</W>
+<W gloss="more_expensive" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-8:conj" out="-3:coord|1:other">dyrere</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W gloss="buy" lemma="indkøbe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">indkøbe</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-39:pnct" out="">.</W>
@@ -243,8 +243,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="In_addition" lemma="hertil" msd="RGU" tag="RP" in="1:lobj" out="">Hertil</W>
-<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:lobj|1:subj|10:pnct">kommer</W>
+<W gloss="In_addition" lemma="hertil" msd="RGU" tag="RP" in="1:@dir" out="">Hertil</W>
+<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="1:subj|10:pnct|-1:@dir">kommer</W>
 <W gloss="savings" lemma="besparelse" msd="NCCPU==I" tag="NNP" in="-1:subj" out="1:cons">besparelser</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:cons" out="1:nobj">som</W>
 <W gloss="result" lemma="følge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">følge</W>

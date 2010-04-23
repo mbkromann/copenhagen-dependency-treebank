@@ -97,9 +97,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="6:cond" out="1:subj|2:lobj|5:pnct">Går</W>
+<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="6:cond" out="1:subj|2:@dir|5:pnct">Går</W>
 <W gloss="the_competitors" lemma="konkurrent" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">konkurrenterne</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:lobj" out="1:other">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:@dir" out="1:other">ned</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="price" lemma="pris" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pris</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -198,7 +198,7 @@
 <p>
 <s>
 <W gloss="Previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:prec" out="">Tidligere</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="1:subj|4:dobj|7:loc|9:pnct|-1:prec">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:prec|1:subj|4:dobj|7:loc|9:pnct">havde</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">de</W>
 <W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="Brugsens" lemma="brugs" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">Brugser</W>
@@ -232,8 +232,8 @@
 <s>
 <W gloss="The_rest" lemma="rest" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Resten</W>
 <W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct">skal</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">komme</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">fra</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">komme</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">fra</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
 <W gloss="expected" lemma="forvente" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">forventet</W>
 <W gloss="mersalg" lemma="mersalg" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">mersalg</W>

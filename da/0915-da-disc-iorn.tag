@@ -63,7 +63,7 @@
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]|5:[subj]" out="">som</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
 <W gloss="before" lemma="før" msd="RGU" tag="RP" in="1:mod" out="">før</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:mod|-3:subj|1:vobj|-2:neg">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:mod|-3:subj|-2:neg|1:vobj">har</W>
 <W gloss="been" lemma="kunne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">kunnet</W>
 <W gloss="treated" lemma="behandle" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-5:[subj]|1:pobj">behandles</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -128,7 +128,7 @@
 <W gloss="therapeutic" lemma="terapeutisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">terapeutiske</W>
 <W gloss="progress" lemma="fremskridt" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">fremskridt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-76:+CONC/(dog)" out="-15:subj|2:mod|3:preds|4:mod|8:pnct|13:CONTR&3a;dir/men|1:neg">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-76:+CONC/(dog)" out="-15:subj|1:neg|2:mod|3:preds|4:mod|8:pnct|13:CONTR&3a;dir/men">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">umiddelbart</W>
 <W gloss="visible" lemma="synlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="">synlige</W>
@@ -243,8 +243,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="In_addition" lemma="hertil" msd="RGU" tag="RP" in="1:lobj" out="">Hertil</W>
-<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="-18:CONJ/hertil" out="-1:lobj|1:subj|10:pnct">kommer</W>
+<W gloss="In_addition" lemma="hertil" msd="RGU" tag="RP" in="1:@dir" out="">Hertil</W>
+<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="-18:CONJ/hertil" out="1:subj|10:pnct|-1:@dir">kommer</W>
 <W gloss="savings" lemma="besparelse" msd="NCCPU==I" tag="NNP" in="-1:subj" out="1:mod">besparelser</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
 <W gloss="result" lemma="følge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">følge</W>

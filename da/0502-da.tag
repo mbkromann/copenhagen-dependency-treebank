@@ -71,8 +71,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:cons|1:subj|2:vobj">vil</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
-<W gloss="long" lemma="længes" msd="VEF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:lobj">længes</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="long" lemma="længes" msd="VEF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:@dir">længes</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -114,11 +114,11 @@
 <p>
 <s>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="eat" lemma="spise" msd="VAM-=------" tag="VB" in="" out="-1:reas|1:neg|2:dobj|8:pnct|4:conj">spis</W>
+<W gloss="eat" lemma="spise" msd="VAM-=------" tag="VB" in="" out="-1:reas|1:neg|2:dobj|4:conj|8:pnct">spis</W>
 <W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="-1:neg" out="">aldrig</W>
 <W gloss="vegetables" lemma="grøntsag" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="">grøntsager</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="drink" lemma="drikke" msd="VAM-=------" tag="VB" in="-4:conj" out="1:dobj|-1:coord">drik</W>
+<W gloss="drink" lemma="drikke" msd="VAM-=------" tag="VB" in="-4:conj" out="-1:coord|1:dobj">drik</W>
 <W gloss="water" lemma="vand" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:other">vand</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="the_faucet" lemma="hane" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hanen</W>
@@ -189,8 +189,8 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj|3:[subj]" out="1:attr|2:nobj">den</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">næste</W>
 <W gloss="trip" lemma="rejse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">rejse</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:lobj">gå</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:@dir">gå</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Egypt" lemma="Ægypten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ægypten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

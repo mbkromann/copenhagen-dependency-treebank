@@ -69,8 +69,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">workers</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj|4:mod|17:ref|18:rel">go</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|4:mod|17:ref|18:rel|1:@dir">go</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="PI" tag="DT" in="2:tobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
 <W msd="ANC" tag="RBR" in="-4:mod" out="-2:tobj|1:pnct|2:mod">earlier</W>
@@ -104,8 +104,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="5:rel">That</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|8:pnct|1:preds">is</W>
-<W msd="PD" tag="DT" in="3:[pred]|-1:preds" out="1:nobj">the</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|8:pnct">is</W>
+<W msd="PD" tag="DT" in="-1:preds|3:[pred]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|-3:[pred]|1:mod">was</W>
@@ -134,8 +134,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Werderscher</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Markt</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|1:lobj|4:pnct|26:pnct">swarmed</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|1:@dir|4:pnct|26:pnct">swarmed</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">canteen</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

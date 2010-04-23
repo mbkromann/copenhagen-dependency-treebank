@@ -51,7 +51,7 @@
 </s>
 <s>
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
-<W msd="NP=S" tag="NNP" in="13:qobj" out="-1:pnct|1:attr|6:pnct|7:attr|12:pnct|2:preds">It's</W>
+<W msd="NP=S" tag="NNP" in="13:qobj" out="-1:pnct|1:attr|2:preds|6:pnct|7:attr|12:pnct">It's</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">probably</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
@@ -67,8 +67,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-13:qobj|1:subj|7:pnct">laughs</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="1:pnct|2:mod">Sally</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="1:lobj|2:dobj">taking</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">out</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="2:dobj|1:@loc">taking</W>
+<W msd="RG" tag="RP" in="-1:@loc" out="">out</W>
 <W msd="PO" tag="PRP$" in="-2:dobj" out="1:possd">her</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">cigarettes</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -136,8 +136,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:qobj|1:subj|8:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="1:pnct|2:mod">Sally</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="1:lobj">looking</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="1:@loc">looking</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>

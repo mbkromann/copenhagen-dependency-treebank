@@ -45,8 +45,8 @@
 <W gloss="German" lemma="tysk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">tyske</W>
 <W gloss="Transall" lemma="Transall" msd="NP--U==-" tag="NNP" in="-2:name" out="">Transall</W>
 <W gloss="plane" lemma="fly" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">fly</W>
-<W gloss="taxis" lemma="taxie" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:lobj|4:pnct|13:pnct">taxier</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="taxis" lemma="taxie" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:@dir|4:pnct|13:pnct">taxier</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="able_square" lemma="stand-plads" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">stand-pladsen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
@@ -226,7 +226,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="You" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">Du</W>
-<W gloss="knows" lemma="kende" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|-1:subj|2:dobj|3:pnct|44:pnct|1:neg">kender</W>
+<W gloss="knows" lemma="kende" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|-1:subj|1:neg|2:dobj|3:pnct|44:pnct">kender</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="the_Muslims" lemma="muslim" msd="NCCPU==D" tag="NNP" in="-2:dobj" out="">muslimerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -239,10 +239,10 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="lie" lemma="lyve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:lobj|6:pnct|7:mod|16:pnct">lyver</W>
+<W gloss="lie" lemma="lyve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|6:pnct|7:mod|16:pnct|3:@dir">lyver</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="">én</W>
 <W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="-1:mod|1:mod">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="-1:mod|1:mod">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="face" lemma="ansigt" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">ansigtet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>

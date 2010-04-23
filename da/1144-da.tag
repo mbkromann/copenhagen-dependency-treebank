@@ -99,7 +99,7 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|6:conj|16:pnct|2:neg">gjorde</W>
+<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:neg|3:pnct|6:conj|16:pnct">gjorde</W>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -111,8 +111,8 @@
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="1:nobj">det</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="getting" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">komme</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:nobj">ud</W>
+<W gloss="getting" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">komme</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:nobj">ud</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="travel" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">rejse</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
@@ -140,7 +140,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="2:subj" out="">han</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="does_consider" lemma="betragte" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-2:subj|1:dobj|4:pobj|6:pnct|7:coord|-1:neg">betragter</W>
+<W gloss="does_consider" lemma="betragte" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-2:subj|-1:neg|1:dobj|4:pobj|6:pnct|7:coord">betragter</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="2:nobj">de</W>
 <W gloss="70" lemma="70" msd="AC---U=--" tag="CD" in="1:numm" out="">70</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:numm">millioner</W>
@@ -186,8 +186,8 @@
 <W gloss="the_dream" lemma="drøm" msd="NCCSU==D" tag="NN" in="-2:dobj" out="1:pobj">drømmen</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="getting" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|7:conj">komme</W>
-<W gloss="away" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:nobj">ud</W>
+<W gloss="getting" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="7:conj|1:@dir">komme</W>
+<W gloss="away" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:nobj">ud</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="experience" lemma="opleve" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opleve</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr">noget</W>

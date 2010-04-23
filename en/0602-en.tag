@@ -40,8 +40,8 @@
 <W msd="CC" tag="CC" in="8:coord" out="">but</W>
 <W msd="SP" tag="IN" in="7:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">way</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:nobj">up</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@dir">way</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:nobj">up</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">stairs</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
@@ -50,7 +50,7 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">again</W>
 <W msd="SP" tag="IN" in="-3:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">like</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">that</W>
@@ -140,8 +140,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">First</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADA" tag="VBD" in="8:qobj" out="-4:pnct|-3:mod|-1:subj|1:lobj|6:pnct">ran</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj|3:pobj">from</W>
+<W msd="VADA" tag="VBD" in="8:qobj" out="-4:pnct|-3:mod|-1:subj|6:pnct|1:@dir">ran</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj|3:pobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:nobj">to</W>

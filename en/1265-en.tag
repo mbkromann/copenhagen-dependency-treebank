@@ -3,8 +3,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">election</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|1:vobj|20:conj|38:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">gone</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@dir">gone</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">decisive</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">phase</W>
@@ -44,7 +44,7 @@
 </s>
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj|4:[subj]|5:[subj]" out="">Matters</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|3:vobj|10:pnct|11:mod|69:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|3:vobj|10:pnct|11:mod|69:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">exactly</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-4:[subj]|1:vobj">being</W>

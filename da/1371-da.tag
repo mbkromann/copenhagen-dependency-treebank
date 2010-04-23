@@ -189,7 +189,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="play" lemma="spille" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:mod|1:@loc">spiller</W>
+<W gloss="play" lemma="spille" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc|3:mod">spiller</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="the_clubs" lemma="klub" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">klubberne</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -201,8 +201,8 @@
 <W gloss="stupid" lemma="åndssvag" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="">åndssvagt</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:avobj" out="">ud</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
-<W gloss="play" lemma="spille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|4:mod">spille</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="play" lemma="spille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="4:mod|1:@loc">spille</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="Wembley" lemma="Wembley" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Wembley</W>
 <W gloss="Stadium" lemma="stadion" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Stadion</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:mod" out="1:nobj">med</W>

@@ -165,7 +165,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:ref|2:mod" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-5:rel" out="-2:mod|-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-5:rel" out="-2:mod|-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj">experience</W>
 <W msd="CS" tag="IN" in="1:mod" out="">as</W>
@@ -201,8 +201,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PP" tag="PRP" in="-1:nobj|5:[subj]" out="1:attr">us</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="1:mod">here</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:lobj">at</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="SP" tag="IN" in="-1:mod" out="1:@dir">at</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|2:dobj|4:pobj">get</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>

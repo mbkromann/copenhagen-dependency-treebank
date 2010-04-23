@@ -51,8 +51,8 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="pure" lemma="ren" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ren</W>
 <W gloss="lust_for_adventure" lemma="eventyrlyst" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">eventyrlyst</W>
-<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-5:subj|-4:reas|1:lobj|4:time|8:pnct">flyttede</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="2:nobj">til</W>
+<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-5:subj|-4:reas|1:@dir|4:time|8:pnct">flyttede</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="2:nobj">til</W>
 <W gloss="new" lemma="New" msd="NP--U==-" tag="NNP" in="1:attr" out="">New</W>
 <W gloss="Foundland" lemma="Foundland" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:attr">Foundland</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:time" out="1:nobj|3:part">for</W>
@@ -64,8 +64,8 @@
 <W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-19:[subj]|2:dobj|3:other|5:other">taget</W>
 <W gloss="beautiful" lemma="flot" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">flotte</W>
 <W gloss="photographs" lemma="fotografi" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:attr">fotografier</W>
-<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-3:other" out="1:lobj">med</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="">hjem</W>
+<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-3:other" out="1:@dir">med</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-5:other" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:loc">den</W>
 <W gloss="annual" lemma="årlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">årlige</W>
@@ -158,9 +158,9 @@
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
 <W gloss="Suzanne" lemma="Suzanne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Suzanne</W>
 <W gloss="Swannie's" lemma="Swannie" msd="NP--G==-" tag="NNP" in="-3:subj" out="-1:namef|1:other|5:attr|6:possd|7:pnct|8:ref|11:rel">Swannies</W>
-<W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-1:other" out="3:nobj|2:conj">seks</W>
+<W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-1:other" out="2:conj|3:nobj">seks</W>
 <W gloss="by" lemma="gang" msd="NCCPU==I" tag="NNP" in="1:coord" out="">gange</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-2:conj" out="1:[nobj]|-1:coord">to</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">to</W>
 <W gloss="metre" lemma="meter" msd="NCCPU==I" tag="NNP" in="-3:nobj|-1:[nobj]" out="">meter</W>
 <W gloss="pyramidal" lemma="pyramidalsk" msd="ANP[CN]SU=DU" tag="JJ" in="-5:attr" out="">pyramidalske</W>
 <W gloss="space_sculpture" lemma="rumskulptur" msd="NCCSU==I" tag="NN" in="-6:possd" out="">rumskulptur</W>
@@ -202,7 +202,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="the_telephone" lemma="telefon" msd="NCCSU==D" tag="NN" in="-4:appa" out="1:pnct">telefonen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="lived" lemma="bo" msd="VADA=----A-" tag="VBD" in="" out="-18:subj|1:dur|3:@loc|5:pnct|33:pnct|9:conj">boede</W>
+<W gloss="lived" lemma="bo" msd="VADA=----A-" tag="VBD" in="" out="-18:subj|1:dur|3:@loc|5:pnct|9:conj|33:pnct">boede</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:dur" out="1:nobj">mange</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
@@ -211,7 +211,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="Suzanne" lemma="Suzanne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Suzanne</W>
 <W gloss="Swannie" lemma="Swannie" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Swannie</W>
-<W gloss="found" lemma="finde" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|1:dobj|4:loc|-3:coord">fandt</W>
+<W gloss="found" lemma="finde" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|-3:coord|1:dobj|4:loc">fandt</W>
 <W gloss="the_inspiration" lemma="inspiration" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj">inspirationen</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_sculpture" lemma="skulptur" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skulpturen</W>
@@ -226,7 +226,7 @@
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="kites" lemma="drage" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">drager</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-4:conj" out="1:nobj|2:mcomp|-1:coord">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-4:conj" out="-1:coord|1:nobj|2:mcomp">en</W>
 <W gloss="component" lemma="komponent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">komponent</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mcomp" out="1:nobj|4:preds">med</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>

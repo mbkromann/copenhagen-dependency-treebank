@@ -1,7 +1,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|15:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Olsen</W>
@@ -37,8 +37,8 @@
 <W msd="VADA" tag="VBD" in="-7:vobj" out="1:preds">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">on</W>
 <W msd="PO" tag="PRP$" in="" out="">his</W>
-<W msd="NC=S" tag="NN" in="" out="1:lobj">way</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="" out="1:@dir">way</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pobj|6:pnct|7:appa">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Istanbul's</W>

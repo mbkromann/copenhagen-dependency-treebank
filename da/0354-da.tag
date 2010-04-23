@@ -94,8 +94,8 @@
 </s>
 <s>
 <W gloss="may" lemma="måtte" msd="NCCSU==D" tag="NN" in="1:subj" out="">Måtten</W>
-<W gloss="was_coming" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|2:pnct">kom</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="was_coming" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:pnct|1:@dir">kom</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>

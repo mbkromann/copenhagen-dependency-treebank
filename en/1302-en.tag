@@ -11,8 +11,8 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-8:qobj|1:iobj|3:conj|12:pnct">answered</W>
 <W msd="PO" tag="PRP$" in="-1:iobj" out="">her</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj|5:mod">went</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod">up</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|5:mod|1:@dir">went</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">school</W>
@@ -205,7 +205,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">accident</W>
 <W msd="SP" tag="IN" in="-5:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">kill</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="">her</W>

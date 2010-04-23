@@ -15,9 +15,9 @@
 <W msd="PP" tag="PRP" in="-1:subj|2:[subj]|3:[subj]" out="">you</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">ever</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[subj]|1:vobj">been</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:mod|2:lobj|5:mod|8:mod">lying</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:mod|2:@loc|5:mod|8:mod">lying</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">flat</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">bed</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">for</W>
@@ -29,8 +29,8 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">go</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">anywhere</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="1:lobj">except</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj|4:conj">to</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:@dir">except</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj|4:conj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">toilet</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -108,8 +108,8 @@
 <W msd="ANP" tag="JJ" in="-11:modp" out="-1:mod|1:pnct">hard</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-17:conj" out="-18:[subj]|-1:coord|1:lobj">walked</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:nobj">out</W>
+<W msd="VADA" tag="VBD" in="-17:conj" out="-18:[subj]|-1:coord|1:@loc">walked</W>
+<W msd="RG" tag="RP" in="-1:@loc" out="1:nobj">out</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">door</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -143,8 +143,8 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Then</W>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]|11:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:lobj|4:pnct|5:conj|10:conj|22:pnct">walked</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:nobj">down</W>
+<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|4:pnct|5:conj|10:conj|22:pnct|1:@dir">walked</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:nobj">down</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

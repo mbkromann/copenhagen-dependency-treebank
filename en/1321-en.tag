@@ -66,8 +66,8 @@
 <W msd="VA" tag="MD" in="-5:vobj" out="-4:subj|-3:mod|1:mod|3:vobj|10:pnct|11:mod">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:mod">never</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">again</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-7:[subj]|1:lobj">sit</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-7:[subj]|1:@loc">sit</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">helm</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -76,7 +76,7 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-11:mod" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">feel</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="3:nobj">ready</W>
@@ -94,7 +94,7 @@
 <W msd="CC" tag="CC" in="" out="3:conj|9:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Stefan</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Rasmussen</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-1:subj|2:vobj|1:neg">need</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-1:subj|1:neg|2:vobj">need</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj|3:mod">fret</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">over</W>
@@ -125,8 +125,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Stefan</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="-1:namef">Rasmussen</W>
 <W msd="VA" tag="MD" in="-7:rel" out="-1:subj|1:vobj|4:pnct|5:mod">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">look</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">forward</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">look</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:pobj">forward</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="-10:[nobj]">to</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-5:mod" out="4:vobj">if</W>

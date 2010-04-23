@@ -135,10 +135,10 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">widened</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:vobj">by</W>
-<W msd="VAG" tag="VBG" in="-1:vobj|7:[subj]" out="1:dobj|3:lobj|7:conj">leading</W>
+<W msd="VAG" tag="VBG" in="-1:vobj|7:[subj]" out="1:dobj|3:@dir|7:conj">leading</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">balloon</W>
-<W msd="ANP" tag="RB" in="-3:lobj" out="1:mod">down</W>
+<W msd="ANP" tag="RB" in="-3:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -195,7 +195,7 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-2:subj|-3:coord|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-2:subj|-3:coord|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]">accumulate</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
@@ -213,8 +213,8 @@
 <W msd="ANP" tag="RB" in="-7:mod" out="2:vobj">so</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">blood</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">run</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">through</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">run</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:pnct|5:ref|9:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">deep</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">leg</W>

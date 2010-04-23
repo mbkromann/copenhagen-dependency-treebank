@@ -1,9 +1,9 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">They</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|7:conj|10:pnct">kept</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">shoving</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj|2:@dir">shoving</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">pills</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
@@ -57,8 +57,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]|6:[subj]|13:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj?|12:conj|15:pnct">had</W>
 <W msd="VAG" tag="VBG" in="-1:vobj?" out="-2:[subj]|1:vobj">being</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:lobj|2:pnct|3:vobj">lying</W>
-<W msd="U=" tag="EX" in="-1:lobj" out="">there</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|2:pnct|3:vobj|1:@loc">lying</W>
+<W msd="U=" tag="EX" in="-1:@loc" out="">there</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-6:[subj]|1:avobj">getting</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:mod">off</W>
@@ -192,9 +192,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="-20:conj" out="-1:subj|-11:coord|1:mod|2:vobj|8:mod|9:pnct|10:conj">can't</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:lobj">get</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:@dir">get</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mouth</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>

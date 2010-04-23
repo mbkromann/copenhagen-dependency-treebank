@@ -125,9 +125,9 @@
 <W gloss="smile" lemma="smil" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">smil</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="">han</W>
-<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:mod|2:lobj|7:pnct">må</W>
+<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:mod|2:@dir|7:pnct">må</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:mod" out="">stadig</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="2:conj">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="2:conj">ud</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="use" lemma="bruge" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-5:[subj]|-1:coord|1:dobj">bruge</W>
 <W gloss="his" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sine</W>
@@ -250,8 +250,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="8:vobj">at</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="7:xtop" out="2:vobj|6:ref">når</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="walk" lemma="gå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|3:pnct">gik</W>
-<W gloss="down" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="walk" lemma="gå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|1:@loc">gik</W>
+<W gloss="down" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_street" lemma="gade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gaden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-6:ref|1:mod" out="">så</W>

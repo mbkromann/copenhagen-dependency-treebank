@@ -16,7 +16,7 @@
 <W msd="ANP" tag="JJ" in="-1:mod" out="">American</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">co-defendants</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-14:mods" out="2:pobj|1:preds">struck</W>
+<W msd="VADA" tag="VBD" in="-14:mods" out="1:preds|2:pobj">struck</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dumb</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tension</W>
@@ -36,8 +36,8 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="1:mod">They</W>
 <W msd="PD" tag="DT" in="-1:mod" out="">all</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:lobj|27:pnct">stared</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|27:pnct|1:@dir">stared</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">faces</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -71,7 +71,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">jurors</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|3:conj|31:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|1:preds|3:conj|31:pnct">were</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">sombre</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-3:conj" out="-8:[subj]|-1:coord|1:dobj">showed</W>
@@ -156,7 +156,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|5:pnct?|6:pnct|8:modp|36:pnct#|37:pnct?|12:preds">find</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|5:pnct?|6:pnct|8:modp|12:preds|36:pnct#|37:pnct?">find</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:mod|3:appr">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">accused</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Brian</W>

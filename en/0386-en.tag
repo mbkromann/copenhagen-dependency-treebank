@@ -105,9 +105,9 @@
 <W msd="PD" tag="DT" in="-1:nobj|3:[nobj]" out="1:attr|2:nobj|5:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">provincial</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">town</W>
-<W msd="PT" tag="WRB" in="2:lobj" out="-3:[nobj]">where</W>
+<W msd="PT" tag="WRB" in="2:@loc" out="-3:[nobj]">where</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|-2:lobj">live</W>
+<W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|-2:@loc">live</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -128,7 +128,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">train</W>
-<W msd="VA" tag="MD" in="" out="-5:mod|-2:subj|2:vobj|9:pnct|10:mod|22:pnct|1:neg">could</W>
+<W msd="VA" tag="MD" in="" out="-5:mod|-2:subj|1:neg|2:vobj|9:pnct|10:mod|22:pnct">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:lobj|2:mod">go</W>
 <W msd="ANP" tag="JJ" in="-1:lobj" out="">further</W>

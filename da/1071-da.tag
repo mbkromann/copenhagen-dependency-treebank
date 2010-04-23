@@ -126,12 +126,12 @@
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="spouses" lemma="ægtefælle" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ægtefæller</W>
-<W gloss="go" lemma="tage" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|2:lobj|7:pnct">tager</W>
+<W gloss="go" lemma="tage" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|7:pnct|2:@loc">tager</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
-<W gloss="charter_trip" lemma="chartertur" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">chartertur</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="charter_trip" lemma="chartertur" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">chartertur</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Germany" lemma="Tyskland" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Tyskland</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -225,7 +225,7 @@
 <W gloss="for" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">efter</W>
 <W gloss="love" lemma="kærlighed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kærligheden</W>
 <W gloss="ever" lemma="stadig" msd="RGU" tag="RP" in="1:mod" out="">stadig</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|4:conj|7:pnct|1:@loc">bor</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|1:@loc|4:conj|7:pnct">bor</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

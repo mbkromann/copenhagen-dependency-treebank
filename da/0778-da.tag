@@ -142,8 +142,8 @@
 <W gloss="Municipality" lemma="kommune" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Kommune</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:list" out="-9:subj|1:mcomp|2:vobj">er</W>
 <W gloss="collectively" lemma="samle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:mcomp" out="">samlet</W>
-<W gloss="entered" lemma="træde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-11:[subj]|1:lobj|2:other|5:reas">trådt</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="entered" lemma="træde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-11:[subj]|2:other|5:reas|1:@dir">trådt</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:other" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="general_meeting" lemma="generalforsamling" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">generalforsamling</W>
@@ -169,7 +169,7 @@
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="cancer_research" lemma="kræftforskning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kræftforskning</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="lack" lemma="mangel" msd="NCCSU==I" tag="NN" in="-6:conj" out="1:pobj|-1:coord">mangel</W>
+<W gloss="lack" lemma="mangel" msd="NCCSU==I" tag="NN" in="-6:conj" out="-1:coord|1:pobj">mangel</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="co-operation" lemma="samarbejde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">samarbejde</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -236,7 +236,7 @@
 <W gloss="some" lemma="nogen" msd="PI-NSU--U" tag="DT" in="6:dobj" out="1:pobj">noget</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_household_effects" lemma="indbo" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">indboet</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-17:conj" out="1:subj|2:focal|3:vobj|10:pnct|-4:coord">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-17:conj" out="-4:coord|1:subj|2:focal|3:vobj|10:pnct">havde</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">de</W>
 <W gloss="themselves" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-2:focal" out="">selv</W>
 <W gloss="sold" lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|-6:dobj|1:inst">solgt</W>

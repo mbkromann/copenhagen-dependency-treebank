@@ -27,7 +27,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jesper</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Bank</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|2:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">untouchable</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -90,8 +90,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">trees</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">can't</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">grow</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">grow</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">heaven</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -199,7 +199,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jan</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Feddersen</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|2:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">reserve</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

@@ -5,8 +5,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="7:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:mod|-1:subj|1:vobj|21:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">pounded</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">pounded</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">heads</W>
 <W msd="PD" tag="DT" in="-7:nobj" out="2:vobj">that</W>

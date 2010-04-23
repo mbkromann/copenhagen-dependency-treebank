@@ -46,8 +46,8 @@
 <W gloss="every" lemma="hver" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">hver</W>
 <W gloss="fourth" lemma="fjerde" msd="AO---U=--" tag="JJ" in="-1:attr" out="">fjerde</W>
 <W gloss="employee" lemma="medarbejder" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">medarbejder</W>
-<W gloss="will_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:lobj|2:pnct">skal</W>
-<W gloss="gone" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="">væk</W>
+<W gloss="will_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|2:pnct|1:@dir">skal</W>
+<W gloss="gone" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
@@ -152,7 +152,7 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="-1:pnct|2:conj|8:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="">det</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|1:neg">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:vobj">har</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="been" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">haft</W>
 <W gloss="nature" lemma="karakter" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">karakter</W>

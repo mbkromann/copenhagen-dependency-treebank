@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|31:pnct|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:vobj|31:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|10:mod">seen</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
@@ -23,8 +23,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="-1:attr">ladies</W>
 <W msd="VADR" tag="VBP" in="-7:rel" out="-3:mod|-1:subj|1:mod|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod">crawled</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod">up</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|4:mod|1:@dir">crawled</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">onto</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">platforms</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>

@@ -51,7 +51,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj|3:conj">en</W>
 <W gloss="blend" lemma="blanding" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">blanding</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:conj" out="1:attr|2:nobj|-1:coord">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:conj" out="-1:coord|1:attr|2:nobj">et</W>
 <W gloss="pure" lemma="ren" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">rent</W>
 <W gloss="substance" lemma="stof" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">stof</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
@@ -108,12 +108,12 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|6:[subj]|7:[subj]|8:[subj]" out="">Vi</W>
-<W gloss="collect" lemma="opsamle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|13:pnct|5:conj">opsamler</W>
+<W gloss="collect" lemma="opsamle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|5:conj|13:pnct">opsamler</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="tiny" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="bit" lemma="smule" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">smule</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|1:vobj|-1:coord">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|1:vobj">vil</W>
 <W gloss="be_able_to" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">kunne</W>
 <W gloss="label" lemma="mærke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">mærke</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
@@ -164,9 +164,9 @@
 <s>
 <W gloss="When" lemma="når" msd="CS" tag="IN" in="8:time" out="2:vobj">Når</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="bring" lemma="hente" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|5:pnct">henter</W>
+<W gloss="bring" lemma="hente" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|5:pnct|2:@dir">henter</W>
 <W gloss="raw_oil" lemma="råolie" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">råolie</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:lobj" out="1:other">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="1:other">op</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="the_earth" lemma="jord" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">jorden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="10:ref|11:rel">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|2:preds|16:modp|37:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:neg|2:preds|16:modp|37:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">officials</W>
@@ -26,7 +26,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">another</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">context</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]|6:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-8:vobj" out="-1:subj|-4:mod|-7:mod|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-8:vobj" out="-1:subj|-4:mod|-7:mod|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:vobj">seem</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="">to</W>
@@ -134,8 +134,8 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">highways</W>
 <W msd="VA" tag="MD" in="-9:vobj" out="-8:subj|1:vobj|10:pnct|15:conj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">increase</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
@@ -159,8 +159,8 @@
 <W msd="ANC" tag="JJR" in="-1:attr" out="">higher</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">speed</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">limit</W>
-<W msd="VADR" tag="VBZ" in="-8:rel" out="-4:subj|-6:mod|1:lobj">leads</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="3:nobj">to</W>
+<W msd="VADR" tag="VBZ" in="-8:rel" out="-4:subj|-6:mod|1:@dir">leads</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="3:nobj">to</W>
 <W msd="ANC" tag="JJR" in="2:attr" out="">higher</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">average</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:attr">speeds</W>

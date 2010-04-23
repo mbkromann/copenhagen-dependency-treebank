@@ -63,8 +63,8 @@
 <W gloss="pause" lemma="pause" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pause</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|2:time" out="">hvor</W>
 <W gloss="Vivaldi" lemma="vivaldi" msd="XX" tag="FW" in="1:subj" out="">vivaldi</W>
-<W gloss="traveled" lemma="rejse" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|-2:time|1:lobj">rejser</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="traveled" lemma="rejse" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|-2:time|1:@dir">rejser</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_world" lemma="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">verden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -132,7 +132,7 @@
 <W gloss="different" lemma="forskellig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">forskellige</W>
 <W gloss="concertos" lemma="koncert" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">koncerter</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-11:[subj]|1:man|2:vobj|-1:coord">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-11:[subj]|-1:coord|1:man|2:vobj">blev</W>
 <W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">hurtigt</W>
 <W gloss="overall_._in" lemma="samlet.I" msd="XX" tag="FW" in="-2:vobj" out="-13:[subj]">samlet.I</W>
 <W gloss="Amsterdam" lemma="Amsterdam" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj">Amsterdam</W>
@@ -259,7 +259,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:tobj" out="1:nobj">i</W>
 <W gloss="1927," lemma="1927" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1927</W>
-<W gloss="are_published" lemma="udkomme" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-2:tobj|1:expl|2:dobj|-3:coord">udkommer</W>
+<W gloss="are_published" lemma="udkomme" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-2:tobj|-3:coord|1:expl|2:dobj">udkommer</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="4" lemma="4" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:attr|2:nobj">4</W>
 <W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">nye</W>

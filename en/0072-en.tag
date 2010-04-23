@@ -2,7 +2,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|1:preds|10:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="PO" tag="PRP$" in="3:subj" out="1:attr|2:possd">my</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">current</W>
@@ -139,10 +139,10 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:lobj">bring</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:@dir">bring</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">game</W>
-<W msd="NC=S" tag="NN" in="-3:lobj" out="">home</W>
+<W msd="NC=S" tag="NN" in="-3:@dir" out="">home</W>
 <W msd="XP" tag="," in="-20:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">never</W>
@@ -171,7 +171,7 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">colleagues'</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="">behalf</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:subj|1:preds|6:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="4:conj">unfortunate</W>
 <W msd="CC" tag="CC" in="3:coord" out="1:mod">but</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
@@ -180,7 +180,7 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="16:pnct|17:pnct|1:preds">I'm</W>
+<W msd="NP=S" tag="NNP" in="" out="1:preds|16:pnct|17:pnct">I'm</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">sure</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="6:vobj">that</W>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]|7:[subj]" out="1:attr|2:nobj|3:mod">the</W>

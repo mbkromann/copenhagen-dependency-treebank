@@ -52,7 +52,7 @@
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:conj" out="-2:other">gamle</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-6:conj" out="2:nobj|-1:coord">med</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-6:conj" out="-1:coord|2:nobj">med</W>
 <W gloss="starting" lemma="begynde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">begyndende</W>
 <W gloss="tendency" lemma="tendens" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:pobj">tendens</W>
 <W gloss="toward" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">til</W>
@@ -147,7 +147,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="memory" lemma="hukommelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hukommelsen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="try" lemma="prøve" msd="VAF-=----A-" tag="VB" in="-4:conj" out="1:dobj|-1:coord">prøve</W>
+<W gloss="try" lemma="prøve" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-1:coord|1:dobj">prøve</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="remember" lemma="huske" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pnct|2:dobj">huske</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -210,9 +210,9 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="At_that_time" lemma="dengang" msd="RGU" tag="RP" in="1:time" out="">Dengang</W>
-<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-2:pnct|-1:time|1:subj|2:lobj|8:pnct">kom</W>
+<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-2:pnct|-1:time|1:subj|8:pnct|2:@loc">kom</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|2:loc">samme</W>
 <W gloss="football_team" lemma="fodbold-hold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">fodbold-hold</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
@@ -258,10 +258,10 @@
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:mcomp" out="">sammen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
-<W gloss="remembers" lemma="huske" msd="VADR=----A-" tag="VBD" in="" out="-11:qobj|1:subj|6:pnct|8:conj|12:pnct|3:conj">husker</W>
+<W gloss="remembers" lemma="huske" msd="VADR=----A-" tag="VBD" in="" out="-11:qobj|1:subj|3:conj|6:pnct|8:conj|12:pnct">husker</W>
 <W gloss="Kim" lemma="Kim" msd="NP--U==-" tag="NNP" in="-1:subj|2:[subj]" out="">Kim</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="puffing" lemma="bakke" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-2:[subj]|1:pobj|-1:coord">bakker</W>
+<W gloss="puffing" lemma="bakke" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-2:[subj]|-1:coord|1:pobj">bakker</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="pipe" lemma="pibe" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">piben</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-6:pnct" out=""> - </W>

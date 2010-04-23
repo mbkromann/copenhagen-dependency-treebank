@@ -43,8 +43,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|2:[subj]|16:[subj]|18:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj|13:pnct|14:coord">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj|7:pnct|8:mod">been</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|7:pnct|8:mod|1:@loc">been</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">forefront</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

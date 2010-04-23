@@ -110,9 +110,9 @@
 </p>
 <p>
 <s>
-<W gloss="smokes" lemma="ryge" morph="ryge" msd="VADR=----A-" tag="VBD" in="13:cond" out="1:subj|2:lobj|3:other|5:pnct|6:conc">Ryger</W>
+<W gloss="smokes" lemma="ryge" morph="ryge" msd="VADR=----A-" tag="VBD" in="13:cond" out="1:subj|3:other|5:pnct|6:conc|2:@dir">Ryger</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="">ud</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:other" out="1:nobj">mod</W>
 <W gloss="Trabzonspor" lemma="Trabzonspor" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Trabzonspor</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
@@ -127,7 +127,7 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">vi</W>
 <W gloss="perhaps" lemma="måske" msd="RGU" tag="RP" in="-2:epi" out="">måske</W>
 <W gloss="afterwards" lemma="bagefter" msd="RGU" tag="RP" in="-3:time" out="">bagefter</W>
-<W gloss="speech" lemma="tale" morph="tale" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:dobj|3:pobj|2:preds">tale</W>
+<W gloss="speech" lemma="tale" morph="tale" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-3:[subj]|1:dobj|2:preds|3:pobj">tale</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
 <W gloss="til_rette" lemma="til_rette" msd="RGU" tag="RP" in="-2:preds" out="">til_rette</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="2:nobj">om</W>
@@ -264,7 +264,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="in_force" lemma="gælde" morph="gælde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-3:attr" out="">gældende</W>
 <W gloss="riders" lemma="tillægskontrakt" morph="kontrakt -[tillæg]s/type lægge til tillæg/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="">tillægskontrakter</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-113:+CONJ/(og)/ATTR3" out="-19:subj|-26:+PREPAR|7:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-113:+CONJ/(og)/ATTR3" out="-19:subj|-26:+PREPAR|2:preds|7:pnct">er</W>
 <W gloss="quite" lemma="hel" morph="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:preds" out="-1:degr|1:nobj">på</W>
 <W gloss="approach" lemma="linie" morph="linie" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">linie</W>

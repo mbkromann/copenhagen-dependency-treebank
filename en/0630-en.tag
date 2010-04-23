@@ -12,8 +12,8 @@
 <W msd="ANP" tag="RB" in="-9:attr" out="1:pobj">so</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:lobj">falls</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:@dir">falls</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">leg</W>
@@ -36,7 +36,7 @@
 <W msd="NC=S" tag="NN" in="-1:subj" out="1:pnct|2:ref|3:rel">father</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -47,7 +47,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Henning</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|9:pnct|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|9:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:avobj|4:mod">run</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:pobj">out</W>
@@ -83,12 +83,12 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">girls</W>
 <W msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|9:pnct|10:mod|26:pnct">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-6:[subj]|1:mods|3:conj|5:lobj">sitting</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-6:[subj]|1:mods|3:conj|5:@loc">sitting</W>
 <W msd="VAG" tag="VBG" in="-1:mods" out="">laughing</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-3:conj" out="-9:[subj]|-1:coord|1:mod">whispering</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">together</W>
-<W msd="SP" tag="IN" in="-5:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-5:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">terrace</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -204,16 +204,16 @@
 <W msd="NC=S" tag="NN" in="3:subj" out="2:conj">soot</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">smoke</W>
-<W msd="NC=S" tag="NN" in="-12:conj" out="-3:subj|-9:coord|-5:attr|1:lobj|4:pnct|5:mod">blow</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="NC=S" tag="NN" in="-12:conj" out="-3:subj|-9:coord|-5:attr|1:@dir|4:pnct|5:mod">blow</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">room</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:mod" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wind</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:lobj">comes</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:@dir">comes</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">chimney</W>

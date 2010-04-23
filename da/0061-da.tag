@@ -70,7 +70,7 @@
 <W gloss="seek" lemma="søge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:conj">søge</W>
 <W gloss="shelter" lemma="beskyttelse" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">beskyttelse</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-3:conj" out="1:dobj|2:avobj|-1:coord">finde</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:coord|1:dobj|2:avobj">finde</W>
 <W gloss="gas_masks" lemma="gasmaske" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">gasmaskerne</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-2:avobj" out="">frem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -252,8 +252,8 @@
 </s>
 <s>
 <W gloss="Flames" lemma="flamme" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Flammerne</W>
-<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:lobj|2:other|4:pnct">står</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:other|4:pnct|1:@dir">står</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="1:nobj">i</W>
 <W gloss="the_horizon" lemma="horisont" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">horisonten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -284,7 +284,7 @@
 <W gloss="Bernard" lemma="Bernard" msd="NP--U==-" tag="NNP" in="1:namef" out="">Bernard</W>
 <W gloss="Shaw" lemma="Shaw" msd="NP--U==-" tag="NNP" in="-3:conj" out="-1:namef">Shaw</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the_veteran" lemma="veteran" msd="NCCSU==D" tag="NN" in="-5:conj" out="1:other|3:pnct|6:appa|-1:coord">veteranen</W>
+<W gloss="the_veteran" lemma="veteran" msd="NCCSU==D" tag="NN" in="-5:conj" out="-1:coord|1:other|3:pnct|6:appa">veteranen</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="Vietnam" lemma="Vietnam" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Vietnam</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

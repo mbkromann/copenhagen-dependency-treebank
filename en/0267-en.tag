@@ -18,8 +18,8 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-11:rel" out="-6:mod|-5:subj|-3:mod|1:lobj|7:conj|11:pnct">goes</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="3:nobj">to</W>
+<W msd="VADR" tag="VBZ" in="-11:rel" out="-6:mod|-5:subj|-3:mod|7:conj|11:pnct|1:@dir">goes</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="3:nobj">to</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Jungle</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:pnct|-1:nobj|1:pnct">Club</W>
@@ -52,7 +52,7 @@
 <W msd="NP=S" tag="NNP" in="-3:possd" out="">Porsche</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-51:conj" out="-20:mod|-1:expl|-22:coord|2:dobj|6:mod|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-51:conj" out="-20:mod|-1:expl|-22:coord|1:neg|2:dobj|6:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="1:mod">much</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>

@@ -116,7 +116,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|11:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="6:nobj">it</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|2:vobj|1:neg">could</W>
+<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:neg|2:vobj">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">assessed</W>
@@ -143,8 +143,8 @@
 <W msd="SP" tag="IN" in="-3:ref|3:dobj" out="">that</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">arbitrator</W>
-<W msd="NC=S" tag="NN" in="-6:rel" out="-3:dobj|-2:subj|1:lobj|6:attr">put</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="NC=S" tag="NN" in="-6:rel" out="-3:dobj|-2:subj|6:attr|1:@loc">put</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">table</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>

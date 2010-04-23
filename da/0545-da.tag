@@ -64,7 +64,7 @@
 <W gloss="electronic" lemma="elektrisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">elektrisk</W>
 <W gloss="current" lemma="strøm" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">strøm</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the_electronic_field" lemma="elektrofelt" msd="NCNSU==D" tag="NN" in="-6:conj" out="1:loc|-1:coord">elektrofeltet</W>
+<W gloss="the_electronic_field" lemma="elektrofelt" msd="NCNSU==D" tag="NN" in="-6:conj" out="-1:coord|1:loc">elektrofeltet</W>
 <W gloss="around" lemma="omkring" msd="SP" tag="IN" in="-1:loc" out="1:nobj">omkring</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:man">en</W>
 <W gloss="magnet" lemma="magnet" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">magnet</W>
@@ -84,9 +84,9 @@
 </p>
 <p>
 <s>
-<W gloss="Voltage_source" lemma="spændingskilde" msd="NCCSU==I" tag="NN" in="" out="2:modp|6:pnct|7:conj|8:pnct|9:conj|10:pnct|11:conj|12:pnct|14:conj|15:pnct|16:conj|27:pnct|28:conj|29:pnct|30:conj|33:pnct|32:conj">Spændingskilde</W>
+<W gloss="Voltage_source" lemma="spændingskilde" msd="NCCSU==I" tag="NN" in="" out="2:modp|6:pnct|7:conj|8:pnct|9:conj|10:pnct|11:conj|12:pnct|14:conj|15:pnct|16:conj|27:pnct|28:conj|29:pnct|30:conj|32:conj|33:pnct">Spændingskilde</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="1:pnct" out="">(</W>
-<W gloss="even" lemma="jævn" msd="ANPCSU=IU" tag="JJ" in="-2:modp" out="-1:pnct|3:pnct|2:conj">jævn</W>
+<W gloss="even" lemma="jævn" msd="ANPCSU=IU" tag="JJ" in="-2:modp" out="-1:pnct|2:conj|3:pnct">jævn</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="bill_of_exchange" lemma="veksel" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">veksel</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-3:pnct" out="">)</W>
@@ -102,13 +102,13 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="coils" lemma="spole" msd="NCCPU==I" tag="NNP" in="-16:conj" out="2:modp">spoler</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="1:pnct" out="">(</W>
-<W gloss="200" lemma="200" msd="AC---U=--" tag="CD" in="-2:modp" out="-1:pnct|1:nobj|2:pnct|3:conj|8:pnct|6:conj">200</W>
+<W gloss="200" lemma="200" msd="AC---U=--" tag="CD" in="-2:modp" out="-1:pnct|1:nobj|2:pnct|3:conj|6:conj|8:pnct">200</W>
 <W gloss="wind." lemma="vind." msd="XA" tag="XA" in="-1:nobj" out="">vind.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="400" lemma="400" msd="AC---U=--" tag="CD" in="-3:conj" out="1:nobj">400</W>
 <W gloss="wind" lemma="vind." msd="XA" tag="XA" in="-1:nobj" out="">vind.</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="1600" lemma="1600" msd="AC---U=--" tag="CD" in="-6:conj" out="1:nobj|-1:coord">1600</W>
+<W gloss="1600" lemma="1600" msd="AC---U=--" tag="CD" in="-6:conj" out="-1:coord|1:nobj">1600</W>
 <W gloss="wind." lemma="vind." msd="XA" tag="XA" in="-1:nobj" out="">vind.</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-8:pnct" out="">)</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-27:pnct" out="">,</W>
@@ -157,8 +157,8 @@
 <s>
 <W gloss="The_magnet" lemma="magnet" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Magneten</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|4:prec|7:pnct">skal</W>
-<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">stå</W>
-<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">langs</W>
+<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">stå</W>
+<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">langs</W>
 <W gloss="the_wire" lemma="ledning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ledningen</W>
 <W gloss="before" lemma="før" msd="CS" tag="IN" in="-4:prec" out="2:vobj">før</W>
 <W gloss="the_current" lemma="strøm" msd="NCCSU==D" tag="NN" in="1:subj" out="">strømmen</W>
@@ -166,18 +166,18 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Turn_on" lemma="tænde" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:pnct|8:pnct|4:conj">Tænd</W>
+<W gloss="Turn_on" lemma="tænde" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:pnct|4:conj|8:pnct">Tænd</W>
 <W gloss="the_current" lemma="strøm" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">strømmen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="observe" lemma="iagttage" msd="VAM-=------" tag="VB" in="-4:conj" out="1:dobj|-1:coord">iagttag</W>
+<W gloss="observe" lemma="iagttage" msd="VAM-=------" tag="VB" in="-4:conj" out="-1:coord|1:dobj">iagttag</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-1:dobj" out="1:ref|2:rel">hvad</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:ref|1:subj" out="">der</W>
 <W gloss="happens" lemma="ske" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj">sker</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="reverse" lemma="vende" msd="VAM-=------" tag="VB" in="" out="1:dobj|4:pnct|3:conj">Vend</W>
+<W gloss="reverse" lemma="vende" msd="VAM-=------" tag="VB" in="" out="1:dobj|3:conj|4:pnct">Vend</W>
 <W gloss="the_current_direction" lemma="strømretning" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">strømretningen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="observe" lemma="iagttage" msd="VAM-=------" tag="VB" in="-3:conj" out="-1:coord">iagttag</W>
@@ -238,14 +238,14 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Move" lemma="bevæge" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:man|14:pnct|7:conj">Bevæg</W>
+<W gloss="Move" lemma="bevæge" msd="VAM-=------" tag="VB" in="" out="1:dobj|2:man|7:conj|14:pnct">Bevæg</W>
 <W gloss="the_magnet" lemma="magnet" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">magneten</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:man" out="1:nobj">i</W>
 <W gloss="relationship" lemma="forhold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_wire" lemma="ledning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ledningen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="observe" lemma="iagttage" msd="VAM-=------" tag="VB" in="-7:conj" out="1:loc|3:pnct|4:dobj|-1:coord">iagttag</W>
+<W gloss="observe" lemma="iagttage" msd="VAM-=------" tag="VB" in="-7:conj" out="-1:coord|1:loc|3:pnct|4:dobj">iagttag</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:loc" out="1:nobj">på</W>
 <W gloss="the_voltmeter" lemma="voltmeter" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">voltmeteret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

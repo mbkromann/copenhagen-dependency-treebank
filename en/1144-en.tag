@@ -66,8 +66,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">huge</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|1:pobj">attention</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:lobj">getting</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">out</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:@loc">getting</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">out</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">travel</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -88,7 +88,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">stated</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|4:pobj|7:pnct|8:coord">consider</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>

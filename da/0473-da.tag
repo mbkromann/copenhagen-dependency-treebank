@@ -81,7 +81,7 @@
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="the_relationship" lemma="forhold" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">forholdet</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
-<W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="3:pnct|4:conj|5:pnct|6:conj|2:conj|8:conj">børn</W>
+<W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj|3:pnct|4:conj|5:pnct|6:conj|8:conj">børn</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="adults" lemma="voksen" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">voksne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -249,8 +249,8 @@
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:nobj">disse</W>
 <W gloss="Bimmer-problem-børn" lemma="Bimmer-problem-barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">Bimmer-problem-børn</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="do_come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:lobj">kommer</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">fra</W>
+<W gloss="do_come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:@dir">kommer</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">fra</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:modp">de</W>
 <W gloss="usual" lemma="sædvanlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">sædvanlige</W>
 <W gloss="problem_homes" lemma="problemhjem" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">problemhjem</W>
@@ -270,7 +270,7 @@
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-11:conj" out="1:attr">de</W>
 <W gloss="cowed" lemma="kue" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">kuede</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-14:conj" out="1:attr|-1:coord">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-14:conj" out="-1:coord|1:attr">de</W>
 <W gloss="bereaved" lemma="efterlade" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">efterladte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>

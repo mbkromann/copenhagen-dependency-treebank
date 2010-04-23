@@ -44,7 +44,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:mod" out="1:nobj">I</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">disse</W>
 <W gloss="cities" lemma="by" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">byer</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:expl|4:vobj|16:pnct|3:neg">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:expl|3:neg|4:vobj|16:pnct">har</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|3:[expl]" out="">der</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="-1:mod">ikke</W>
@@ -143,16 +143,16 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
-<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj|3:lobj|5:mod">skal</W>
+<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj|3:@loc|5:mod">skal</W>
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:dobj" out="1:nobj">andre</W>
 <W gloss="case" lemma="bolle" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">boller</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">på</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">på</W>
 <W gloss="engagement" lemma="suppe" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">suppen</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="entice" lemma="lokke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:lobj">lokke</W>
+<W gloss="entice" lemma="lokke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:@dir">lokke</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">folk</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">tilbage</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">tilbage</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_theatres" lemma="biffen" msd="XX" tag="FW" in="-1:nobj" out="">biffen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
@@ -223,8 +223,8 @@
 <W gloss="audience" lemma="publikum" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">publikum</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">som</W>
-<W gloss="is_pining" lemma="længes" msd="VEDR=----A-" tag="VBN" in="-5:rel" out="-1:subj|1:lobj">længes</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">tilbage</W>
+<W gloss="is_pining" lemma="længes" msd="VEDR=----A-" tag="VBN" in="-5:rel" out="-1:subj|1:@dir">længes</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">tilbage</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="the_movie_theatres" lemma="biograf" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:mod|2:possd">biografernes</W>
 <W gloss="illustrated" lemma="illustrere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">illustrerede</W>
@@ -233,7 +233,7 @@
 </s>
 <s>
 <W gloss="Why" lemma="hvorfor" msd="RGU" tag="RP" in="1:mod" out="">Hvorfor</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|5:vobj|10:pnct|4:neg">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|4:neg|5:vobj|10:pnct">vil</W>
 <W gloss="producers" lemma="producent" msd="NCCPU==D" tag="NNP" in="-1:subj|4:[subj]" out="2:conj">producenterne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="movie_theatres" lemma="biograf" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">biograferne</W>

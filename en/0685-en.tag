@@ -26,7 +26,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="11:mod" out="-1:subj|9:pnct|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="11:mod" out="-1:subj|4:preds|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">twice</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
@@ -169,8 +169,8 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">recently</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:dobj">found</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj|2:pobj">from</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj|2:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="2:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Eastern</W>
@@ -192,11 +192,11 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|13:pnct|14:mod|26:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">decided</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|4:lobj">send</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|4:@dir">send</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">emergency</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">hospital</W>
-<W msd="SP" tag="IN" in="-4:lobj" out="1:nobj|2:pobj">from</W>
+<W msd="SP" tag="IN" in="-4:@dir" out="1:nobj|2:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Brædstrup</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:mod">Zagreb</W>
@@ -212,8 +212,8 @@
 <W msd="VAF" tag="VB" in="-1:nobj" out="">Give</W>
 <W msd="VA" tag="MD" in="-7:vobj" out="-6:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">be</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-8:[subj]|1:lobj">going</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-8:[subj]|1:@dir">going</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Poland</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>

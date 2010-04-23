@@ -15,8 +15,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj|4:mod">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc|4:mod">go</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>
@@ -46,8 +46,8 @@
 <W msd="CS" tag="IN" in="-3:mod" out="-2:tobj|3:vobj">before</W>
 <W msd="NC=S" tag="NN" in="2:subj" out="1:nobj">family</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:lobj|2:mod|7:mod">settles</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">down</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:mod|7:mod|1:@dir">settles</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">front</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -82,8 +82,8 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="CS" tag="IN" in="-7:mod" out="-1:mod|2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:lobj">go</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">on</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:@loc">go</W>
+<W msd="ANP" tag="RB" in="-1:@loc" out="">on</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
@@ -178,7 +178,7 @@
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Otto</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="-2:namef">Bisgaard</W>
 <W msd="VA" tag="MD" in="" out="-11:mod|-1:subj|1:vobj|9:pnct#|10:mod|31:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|5:mod|3:preds">have</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:preds|5:mod">have</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">toothbrush</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:nobj">on</W>

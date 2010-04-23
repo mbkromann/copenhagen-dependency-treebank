@@ -56,11 +56,11 @@
 <W msd="ANP" tag="JJ" in="" out="">environmental</W>
 <W msd="NC=S" tag="NN" in="" out="1:pobj">permit</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:lobj">plant</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:@loc">plant</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="1:mod|2:nobj">third-generation</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">gene-spliced</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">beets</W>
-<W msd="SP" tag="IN" in="-4:lobj" out="1:mod">out</W>
+<W msd="SP" tag="IN" in="-4:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">in</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">experimental</W>
@@ -174,7 +174,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">all</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">seed</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">improvement</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-3:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-3:subj|1:preds|2:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">mutation</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

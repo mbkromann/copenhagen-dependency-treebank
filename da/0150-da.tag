@@ -209,8 +209,8 @@
 <W gloss="merger_partners" lemma="fusions-partner" msd="NCCPU==I" tag="NNP" in="1:subj|3:[subj]" out="-1:attr">fusions-partnere</W>
 <W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|12:pnct">skal</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|2:reas">jages</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="">væk</W>
+<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|2:reas|1:@dir">jages</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
 <W gloss="for" lemma="af" msd="SP" tag="IN" in="-2:reas" out="1:nobj">af</W>
 <W gloss="fear" lemma="skræk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">skræk</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

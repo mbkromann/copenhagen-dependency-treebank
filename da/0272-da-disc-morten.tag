@@ -86,10 +86,10 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
 <W gloss="the_national_festivals" lemma="folkefest" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">folkefesterne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="send" lemma="sende" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-9:[subj]|-1:coord|2:dobj|3:lobj">sender</W>
+<W gloss="send" lemma="sende" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-9:[subj]|-1:coord|2:dobj|3:@dir">sender</W>
 <W gloss="encouraging" lemma="opmuntre" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">opmuntrende</W>
 <W gloss="cries" lemma="tilråb" msd="NCNPU==I" tag="NNP" in="-2:dobj" out="-1:attr">tilråb</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:ref|15:rel">de</W>
 <W gloss="combatants" lemma="kæmpe" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kæmpende</W>
 <W gloss="motionister" lemma="motionist" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">motionister</W>
@@ -159,7 +159,7 @@
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|3:loc" out="">hvor</W>
 <W gloss="eager" lemma="ivrig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">ivrige</W>
 <W gloss="volunteers" lemma="frivillig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj" out="-1:attr">frivillige</W>
-<W gloss="stand" lemma="stå" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-3:loc|2:man|1:preds">står</W>
+<W gloss="stand" lemma="stå" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-3:loc|1:preds|2:man">står</W>
 <W gloss="ready" lemma="parat" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">parat</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:man" out="1:nobj">med</W>
 <W gloss="cups" lemma="kop" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj|3:pnct|4:ref|6:rel">kopper</W>

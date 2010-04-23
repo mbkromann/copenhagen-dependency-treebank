@@ -5,8 +5,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|1:dobj|2:pobj|22:pnct">takes</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">place</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:vobj">by</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="1:lobj|5:mod|9:mod">looking</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="5:mod|9:mod|1:@dir">looking</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen's</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">knee</W>
@@ -62,7 +62,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">outpatient</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">basis</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-8:conj" out="-10:[subj]|-1:coord|2:mod|3:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-8:conj" out="-10:[subj]|-1:coord|1:neg|2:mod|3:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">necessarily</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-13:[subj]|2:dobj">require</W>
@@ -123,8 +123,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Hills</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="-15:conj" out="-14:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="2:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="2:nobj">to</W>
 <W msd="PO" tag="PRP$" in="1:subj" out="">her</W>
 <W msd="VAG" tag="VBG" in="-2:nobj" out="-1:subj|1:dobj">having</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">difficulty</W>

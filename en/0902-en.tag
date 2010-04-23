@@ -10,8 +10,8 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:lobj|2:dobj|12:pnct">Scrape</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">out</W>
+<W msd="NP=S" tag="NNP" in="" out="1:@loc|2:dobj|12:pnct">Scrape</W>
+<W msd="RG" tag="RP" in="-1:@loc" out="">out</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">core</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -42,8 +42,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">egg</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">plants</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="-1:coord|1:lobj|2:dobj|4:mod|5:coord">cut</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">through</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-1:coord|2:dobj|4:mod|5:coord|1:@dir">cut</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">through</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">halves</W>
 <W msd="VADR" tag="VBP" in="-4:mod" out="">lengthwise</W>
@@ -172,10 +172,10 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:lobj|14:pnct">Scrape</W>
+<W msd="NP=S" tag="NNP" in="" out="1:dobj|3:@dir|14:pnct">Scrape</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:modp">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">oven-proof</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">dish</W>
@@ -218,8 +218,8 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:lobj|2:dobj|10:pnct|11:mod|19:pnct">Pour</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">on</W>
+<W msd="NP=S" tag="NNP" in="" out="1:@loc|2:dobj|10:pnct|11:mod|19:pnct">Pour</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">on</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj|5:mod">1/2-3/4</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">dl</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="2:conj">fat</W>
@@ -240,13 +240,13 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:dobj|6:lobj|10:mod|17:pnct">Move</W>
+<W msd="VAF" tag="VB" in="" out="1:dobj|6:@dir|10:mod|17:pnct">Move</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">dish</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">vegetables</W>
-<W msd="SP" tag="IN" in="-6:lobj" out="1:mod">up</W>
+<W msd="SP" tag="IN" in="-6:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">oven</W>

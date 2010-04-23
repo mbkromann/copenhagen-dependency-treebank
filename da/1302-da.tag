@@ -43,7 +43,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="seen" lemma="ses" msd="VEDR=----A-" tag="VBN" in="5:qobj" out="-1:subj|-2:pnct|3:pnct|4:pnct|1:@loc">ses</W>
+<W gloss="seen" lemma="ses" msd="VEDR=----A-" tag="VBN" in="5:qobj" out="-1:subj|-2:pnct|1:@loc|3:pnct|4:pnct">ses</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Hell" lemma="helvede" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Helvede</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-3:pnct" out="">!</W>
@@ -52,8 +52,8 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">han</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-2:iobj" out="">hende</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="went" lemma="tage" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:lobj|4:mod">tog</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">op</W>
+<W gloss="went" lemma="tage" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|4:mod|1:@dir">tog</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">op</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the_school" lemma="skole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skolen</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>

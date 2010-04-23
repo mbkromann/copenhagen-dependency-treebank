@@ -56,14 +56,14 @@
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds">var</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:preds" out="2:vobj">at</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|1:vobj|10:pnct|7:conj">få</W>
+<W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:pnct|1:vobj|7:conj|10:pnct">få</W>
 <W gloss="over" lemma="overstå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">overstået</W>
 <W gloss="the_fight" lemma="kamp" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj">kampen</W>
 <W gloss="over" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="Bala" lemma="Bala" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name">Bala</W>
 <W gloss="Hissar" lemma="Hissar" msd="NP--U==-" tag="NNP" in="-1:name" out="">Hissar</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="destroy" lemma="tilintetgøre" msd="VAF-=----A-" tag="VB" in="-7:conj" out="1:dobj|-1:coord">tilintetgøre</W>
+<W gloss="destroy" lemma="tilintetgøre" msd="VAF-=----A-" tag="VB" in="-7:conj" out="-1:coord|1:dobj">tilintetgøre</W>
 <W gloss="Hekmatyar's" lemma="Hekmatyar" msd="NP--G==-" tag="NNP" in="-1:dobj" out="1:possd">Hekmatyars</W>
 <W gloss="antiaircraft_artillery" lemma="luftværnsskyts" msd="NCNSU==I" tag="NN" in="-1:possd" out="">luftværnsskyts</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
@@ -74,7 +74,7 @@
 <s>
 <W gloss="Hekmatyar's" lemma="Hekmatyar" msd="NP--G==-" tag="NNP" in="2:subj|10:[subj]" out="1:possd">Hekmatyars</W>
 <W gloss="styker" lemma="styker" msd="XX" tag="FW" in="-1:possd" out="">styker</W>
-<W gloss="stormed" lemma="storme" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:dobj|16:pnct|8:conj">stormede</W>
+<W gloss="stormed" lemma="storme" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:dobj|8:conj|16:pnct">stormede</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:loc">en</W>
 <W gloss="police_station" lemma="politistation" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">politistation</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
@@ -82,7 +82,7 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_presidential_palace" lemma="præsidentpalads" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">præsidentpaladset</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="shelled" lemma="beskyde" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-10:[subj]|1:dobj|6:inst|-1:coord">beskød</W>
+<W gloss="shelled" lemma="beskyde" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-10:[subj]|-1:coord|1:dobj|6:inst">beskød</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="southeastern" lemma="sydøstlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">sydøstlige</W>
 <W gloss="part" lemma="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
@@ -114,7 +114,7 @@
 <p>
 <s>
 <W gloss="Masood" lemma="Masood" msd="NP--U==-" tag="NNP" in="1:subj" out="">Masood</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:epi|2:dobj|6:pnct|11:pnct|9:conj">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:epi|2:dobj|6:pnct|9:conj|11:pnct">havde</W>
 <W gloss="apparent" lemma="tilsyneladende" msd="ANP---=-R" tag="JJ" in="-1:epi" out="">tilsyneladende</W>
 <W gloss="control" lemma="kontrol" msd="NCCSU==I" tag="NN" in="-2:dobj" out="1:pobj">kontrol</W>
 <W gloss="of" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -123,7 +123,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="electricity" lemma="elektricitet" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">elektriciteten</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|1:vobj|-2:coord">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:vobj">var</W>
 <W gloss="thursday" lemma="afbryde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]">afbrudt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -181,8 +181,8 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nye</W>
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-2:possd" out="">regering</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-10:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj|5:dir">vej</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">fra</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="5:dir|1:@dir">vej</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">fra</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="northeastern" lemma="nordøstlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nordøstlige</W>
 <W gloss="Afghanistan" lemma="Afghanistan" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Afghanistan</W>
@@ -208,7 +208,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-12:ref|1:subj|2:[subj]" out="">som</W>
-<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:subj|1:vobj|6:pnct|-2:coord">er</W>
+<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:subj|-2:coord|1:vobj|6:pnct">er</W>
 <W gloss="guarded" lemma="bevogte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">bevogtet</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">af</W>
 <W gloss="heavily" lemma="svær" msd="ANP---=-R" tag="JJ" in="1:degr" out="">svært</W>

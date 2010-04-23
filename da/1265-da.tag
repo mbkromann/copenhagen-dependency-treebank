@@ -45,8 +45,8 @@
 <W gloss="American" lemma="amerikansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">amerikanske</W>
 <W gloss="election" lemma="valgkamp" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">valgkamp</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|7:pnct|23:conj|42:pnct">er</W>
-<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">gået</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@dir">gået</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">sin</W>
 <W gloss="decisive" lemma="afgørende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">afgørende</W>
@@ -90,7 +90,7 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|4:[expl]" out="">Der</W>
-<W gloss="are_being" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|3:vobj|64:pnct|2:neg">bliver</W>
+<W gloss="are_being" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|2:neg|3:vobj|64:pnct">bliver</W>
 <W gloss="exactly" lemma="just" msd="RGU" tag="RP" in="1:mod" out="">just</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[expl]|1:mod|3:mod">taget</W>

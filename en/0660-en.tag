@@ -102,10 +102,10 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">AIA</W>
-<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|2:vobj|7:pnct|8:mod|27:conj|33:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:neg|2:vobj|7:pnct|8:mod|27:conj|33:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:@loc">get</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">scoring</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">list</W>

@@ -58,14 +58,14 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hospital</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jerusalem</W>
-<W msd="U=" tag="TO" in="7:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="7:@dir" out="1:nobj">to</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-5:ref" out="">which</W>
 <W msd="NC=P" tag="NNS" in="5:subj" out="1:pobj">thousands</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">pilgrims</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Europe</W>
-<W msd="VADA" tag="VBD" in="-11:rel" out="-5:subj|-7:lobj">came</W>
+<W msd="VADA" tag="VBD" in="-11:rel" out="-5:subj|-7:@dir">came</W>
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
@@ -149,10 +149,10 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Napoleon</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|3:lobj|17:conj|52:pnct">threw</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|17:conj|52:pnct|3:@loc">threw</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">knights</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:mod">out</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Malta</W>
 <W msd="CC" tag="CC" in="11:coord" out="">and</W>
@@ -180,7 +180,7 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">countries</W>
 <W msd="PT" tag="WDT" in="-7:ref|1:subj|4:[subj]|8:[subj]|10:[subj]" out="">that</W>
-<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|2:mod|3:vobj|7:conj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-8:rel" out="-1:subj|1:neg|2:mod|3:vobj|7:conj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">mutually</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">recognize</W>

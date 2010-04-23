@@ -67,22 +67,22 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="every_so_often" lemma="indimellem" msd="RGU" tag="RP" in="1:hab" out="">indimellem</W>
-<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:hab|1:subj|2:vobj|-2:coord">er</W>
+<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:hab|-2:coord|1:subj|2:vobj">er</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]|2:[subj]" out="">hun</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:vobj">blevet</W>
-<W gloss="enticed" lemma="lokke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">lokket</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:other">tilbage</W>
+<W gloss="enticed" lemma="lokke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">lokket</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:other">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="the_bottle" lemma="flaske" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">flasken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="1:time" out="">I_dag</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:preds|13:pnct|4:conj">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:preds|4:conj|13:pnct">er</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">hun</W>
 <W gloss="on_top" lemma="ovenpå" msd="RGU" tag="RP" in="-2:preds" out="">ovenpå</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="working" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|1:man|2:loc|4:other|-1:coord">arbejder</W>
+<W gloss="working" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:man|2:loc|4:other">arbejder</W>
 <W gloss="voluntary" lemma="frivillig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">frivilligt</W>
 <W gloss="with" lemma="hos" msd="SP" tag="IN" in="-2:loc" out="1:nobj">hos</W>
 <W gloss="Lænken" lemma="lænke" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Lænken</W>
@@ -180,7 +180,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="begins" lemma="begynde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:pobj|7:pnct|20:pnct|13:conj">begyndte</W>
+<W gloss="begins" lemma="begynde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:pobj|7:pnct|13:conj|20:pnct">begyndte</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|3:loc">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>
@@ -193,7 +193,7 @@
 <W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="3:other" out="">pludselig</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="2:time" out="1:nobj">en</W>
 <W gloss="day" lemma="dag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dag</W>
-<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-13:conj" out="-3:other|-2:time|-4:succ|1:subj|2:dobj|-5:coord">begyndte</W>
+<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-13:conj" out="-3:other|-2:time|-4:succ|-5:coord|1:subj|2:dobj">begyndte</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:time">få</W>
@@ -208,9 +208,9 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">jeg</W>
 <W gloss="drink" lemma="drikke" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:dobj|7:dur">drikke</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="1:other" out="">mellem</W>
-<W gloss="50" lemma="50" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:other|3:attr|4:nobj|2:conj">50</W>
+<W gloss="50" lemma="50" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:other|2:conj|3:attr|4:nobj">50</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="70" lemma="70" msd="AC---U=--" tag="CD" in="-2:conj" out="2:[nobj]|-1:coord">70</W>
+<W gloss="70" lemma="70" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord|2:[nobj]">70</W>
 <W gloss="ordinary" lemma="almindelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:attr" out="">almindelige</W>
 <W gloss="beers" lemma="øl" msd="NCCPU==I" tag="NNP" in="-4:nobj|-2:[nobj]" out="">øl</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-7:dur" out="1:nobj">på</W>

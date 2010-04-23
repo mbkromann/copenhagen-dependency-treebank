@@ -43,8 +43,8 @@
 <W msd="PT" tag="WP" in="-3:ref|2:iobj" out="">whom</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|-2:iobj|1:dobj">help</W>
-<W msd="VAG" tag="VBG" in="-1:dobj" out="1:lobj|2:dobj">lifting</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="VAG" tag="VBG" in="-1:dobj" out="2:dobj|1:@dir">lifting</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">casket</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
@@ -81,7 +81,7 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="IN" in="15:mod" out="2:nobj|8:pnct|5:preds">With</W>
+<W msd="SP" tag="IN" in="15:mod" out="2:nobj|5:preds|8:pnct">With</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:mod">300</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">deceased</W>
@@ -188,7 +188,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
 <W msd="AC" tag="CD" in="1:numm" out="">three</W>
 <W msd="AC" tag="CD" in="-3:conj" out="-1:numm|-2:coord">million</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:pnct|-8:subj|-10:mod|1:pnct|2:modp|7:pnct|6:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:pnct|-8:subj|-10:mod|1:pnct|2:modp|6:preds|7:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:modp" out="1:nobj|3:pnct">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">that</W>
@@ -200,7 +200,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|10:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|10:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|3:preds">is</W>

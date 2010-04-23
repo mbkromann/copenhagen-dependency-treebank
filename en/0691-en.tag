@@ -193,7 +193,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stamp</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:aobj|2:mod">go</W>
 <W msd="ANP" tag="RB" in="-1:aobj" out="">well</W>
@@ -209,8 +209,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:[subj]" out="1:vobj|7:pnct|8:list|11:pnct">I'm</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:lobj|3:mod">coming</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|3:mod|1:@dir">coming</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Barbados</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">three</W>

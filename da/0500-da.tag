@@ -62,7 +62,7 @@
 <W gloss="teachers" lemma="lærer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lærere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="Hanne" lemma="Hanne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Hanne</W>
-<W gloss="Heimann" lemma="Heimann" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct|3:conj|7:pnct|6:conj">Heimann</W>
+<W gloss="Heimann" lemma="Heimann" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct|3:conj|6:conj|7:pnct">Heimann</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Merete" lemma="Merete" msd="NP--U==-" tag="NNP" in="1:namef" out="">Merete</W>
 <W gloss="Faurschou" lemma="Faurschou" msd="NP--U==-" tag="NNP" in="-3:conj" out="-1:namef">Faurschou</W>
@@ -76,8 +76,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">har</W>
-<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-5:[dobj]|1:lobj">sendt</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-5:[dobj]|1:@dir">sendt</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_municipality's" lemma="kommune" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:attr|2:possd">kommunens</W>
 <W gloss="education" lemma="pædagogisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">pædagogiske</W>
 <W gloss="committee" lemma="udvalg" msd="NCNSU==I" tag="NN" in="-2:possd" out="">udvalg</W>
@@ -108,7 +108,7 @@
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:part" out="">op</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="4:nobj">det</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:subj|1:vobj|2:pnct|-2:coord">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|1:vobj|2:pnct">skal</W>
 <W gloss="be_mentioned" lemma="nævne" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]">nævnes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="2:vobj">at</W>
@@ -155,7 +155,7 @@
 <W gloss="expectations" lemma="forventning" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">forventninger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="1:coord" out="-7:struct">dels</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-7:conj" out="1:nobj|-1:coord">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-7:conj" out="-1:coord|1:nobj">på</W>
 <W gloss="the_teachers'" lemma="lærer" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd">lærernes</W>
 <W gloss="conceptions" lemma="forestilling" msd="NCCPU==I" tag="NNP" in="-1:possd" out="1:pobj">forestillinger</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">om</W>
@@ -222,7 +222,7 @@
 <p>
 <s>
 <W gloss="In_addition" lemma="desuden" msd="RGU" tag="RP" in="1:add" out="">Desuden</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:add|1:subj|8:preds|9:pnct|15:pnct|12:conj">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:add|1:subj|8:preds|9:pnct|12:conj|15:pnct">er</W>
 <W gloss="the_student_group" lemma="elevgruppe" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:loc">elevgruppen</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:loc" out="2:nobj">på</W>
 <W gloss="Ny" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">Ny</W>
@@ -234,7 +234,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_teachers" lemma="lærer" msd="NCCPU==D" tag="NNP" in="1:subj" out="">lærerne</W>
-<W gloss="write" lemma="skrive" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|1:loc|-2:coord">skriver</W>
+<W gloss="write" lemma="skrive" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|-2:coord|1:loc">skriver</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_letter" lemma="brev" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">brevet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-15:pnct" out="">:</W>

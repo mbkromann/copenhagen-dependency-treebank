@@ -3,10 +3,10 @@
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">My</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">father</W>
 <W msd="VADR" tag="VBZ" in="9:qobj" out="-3:pnct|-2:subj|1:vobj|7:pnct|8:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj">stuck</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|3:@dir">stuck</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">peepee</W>
-<W msd="RG" tag="RP" in="-3:lobj" out="1:pobj">up</W>
+<W msd="RG" tag="RP" in="-3:@dir" out="1:pobj">up</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -109,8 +109,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">message</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">boards</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|1:lobj|17:conj|21:pnct">began</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|1:@loc|17:conj|21:pnct">began</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">M-house</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -156,7 +156,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">handicapped</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|2:vobj|3:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:neg|2:vobj|3:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]">speak</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

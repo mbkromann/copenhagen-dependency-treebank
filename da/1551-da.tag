@@ -175,7 +175,7 @@
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-5:ref|3:subj" out="">der</W>
 <W gloss="certainly" lemma="absolut" msd="ANP---=-R" tag="JJ" in="2:mod" out="">absolut</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:mod|-3:subj|1:preds|10:pnct|-1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:mod|-3:subj|-1:neg|1:preds|10:pnct">er</W>
 <W gloss="free" lemma="fri" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">fri</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W gloss="neither" lemma="hverken" msd="RGU" tag="RP" in="2:mod" out="">hverken</W>
@@ -202,12 +202,12 @@
 <W gloss="styling_salons" lemma="frisørsalon" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">frisørsaloner</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
 <W gloss="Slagelse" lemma="Slagelse" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Slagelse</W>
-<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|3:vobj|6:pnct|7:mod|12:pnct|2:neg">er</W>
+<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|2:neg|3:vobj|6:pnct|7:mod|12:pnct">er</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
-<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-8:[subj]|1:mod|2:lobj">gået</W>
+<W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-8:[subj]|1:mod|2:@dir">gået</W>
 <W gloss="book" lemma="ram" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:mod" out="">ram</W>
-<W gloss="over" lemma="forbi" msd="RGU" tag="RP" in="-2:lobj" out="">forbi</W>
+<W gloss="over" lemma="forbi" msd="RGU" tag="RP" in="-2:@dir" out="">forbi</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-7:mod" out="2:conj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>

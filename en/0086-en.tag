@@ -51,7 +51,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|74:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|49:conj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:vobj|49:conj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|4:mod">get</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">his</W>
@@ -116,8 +116,8 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Lee</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Hooker</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-1:subj|1:lobj|4:mod">came</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-1:subj|4:mod|1:@dir">came</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="1:mod">back</W>

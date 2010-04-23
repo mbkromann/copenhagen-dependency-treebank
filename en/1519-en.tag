@@ -23,8 +23,8 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">Næstved</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-21:conj" out="-12:subj|-13:coord|1:lobj|5:mod">pulled</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:pobj">out</W>
+<W msd="VADA" tag="VBD" in="-21:conj" out="-12:subj|-13:coord|5:mod|1:@loc">pulled</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:name">Nykøbing</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">F.</W>
@@ -70,8 +70,8 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moonlighting</W>
-<W msd="VADA" tag="VBD" in="43:qobj" out="-3:pnct|-2:subj|1:lobj|2:mod|12:pnct|15:conj|41:pnct|42:pnct">came</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VADA" tag="VBD" in="43:qobj" out="-3:pnct|-2:subj|2:mod|12:pnct|15:conj|41:pnct|42:pnct|1:@loc">came</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">connection</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -93,7 +93,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">accident</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">investigation</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">group</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="5:vobj">that</W>
@@ -194,8 +194,8 @@
 <s>
 <W msd="PD" tag="DT" in="7:subj|9:[subj]|10:[subj]" out="2:nobj">All</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">train</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:lobj">service</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="2:conj|3:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:@dir">service</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="2:conj|3:nobj">to</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-2:conj" out="-1:coord|1:[nobj]">from</W>
 <W msd="NC=S" tag="NN" in="-3:nobj|-1:[nobj]" out="">Næstved</W>
@@ -215,8 +215,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">26</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">persons</W>
-<W msd="VADA" tag="VBD" in="-16:conj" out="-5:subj|-6:coord|1:lobj">went</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-16:conj" out="-5:subj|-6:coord|1:@dir">went</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hospital</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>

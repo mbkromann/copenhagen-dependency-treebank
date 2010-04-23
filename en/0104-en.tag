@@ -111,8 +111,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">any</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rate</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VAF" tag="VB" in="-7:vobj" out="-8:[subj]|1:lobj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">through</W>
+<W msd="VAF" tag="VB" in="-7:vobj" out="-8:[subj]|1:@dir">go</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">through</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:nobj|6:ref|12:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">long</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -231,7 +231,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="5:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{const}" out="">EC</W>
-<W msd="NP=S" tag="NNP" in="3:nobj.subj|3:{agent}#" out="1:pobj|1:{arg}#|-1:attr|-1:{const}">Minister</W>
+<W msd="NP=S" tag="NNP" in="3:nobj.subj|3:{agent}#" out="-1:attr|-1:{const}|1:pobj|1:{arg}#">Minister</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}#" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fisheries</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-3:nobj.subj|-3:{agent}#">meeting</W>

@@ -64,9 +64,9 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|32:pnct|33:pnct">Men</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
-<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:lobj|3:man|5:pnct|6:cons">farer</W>
+<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|3:man|5:pnct|6:cons|2:@dir">farer</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="forward" lemma="frem" msd="RGU" tag="RP" in="-2:lobj" out="">frem</W>
+<W gloss="forward" lemma="frem" msd="RGU" tag="RP" in="-2:@dir" out="">frem</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:man" out="1:nobj">i</W>
 <W gloss="blind" lemma="blinde" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:nobj" out="">blinde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -230,8 +230,8 @@
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds">er</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="towards" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:err|3:nobj">til</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="towards" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:err|3:nobj">til</W>
 <W gloss="that" lemma="at" msd="XX" tag="FW" in="-1:err" out="">at</W>
 <W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="-1:degr|1:vobj">at</W>

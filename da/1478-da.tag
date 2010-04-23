@@ -140,8 +140,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|7:[subj]" out="">Jeg</W>
-<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:lobj|2:mod|6:conj|15:pnct">gik</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="">ud</W>
+<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:@dir|2:mod|6:conj|15:pnct">gik</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="">ud</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="look" lemma="kigge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">kigge</W>
@@ -209,8 +209,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-7:[subj]|-1:coord|1:preds|4:mod">var</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:mod" out="">igen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
@@ -232,7 +232,7 @@
 <W gloss="light_buoy" lemma="lysbøje" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">lysbøje</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-6:preds" out="1:nobj">i</W>
 <W gloss="hand" lemma="hånd" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hånden</W>
-<W gloss="jumped" lemma="springe" msd="VADA=----A-" tag="VBD" in="" out="-8:mod|1:subj|4:pnct|2:@loc">sprang</W>
+<W gloss="jumped" lemma="springe" msd="VADA=----A-" tag="VBD" in="" out="-8:mod|1:subj|2:@loc|4:pnct">sprang</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_water" lemma="vand" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">vandet</W>

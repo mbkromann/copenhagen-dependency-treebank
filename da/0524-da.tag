@@ -71,7 +71,7 @@
 <W gloss="active" lemma="aktiv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">aktiv</W>
 <W gloss="erhvervsindsats" lemma="erhvervsindsats" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">erhvervsindsats</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-8:conj" out="1:nobj|-1:coord">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-8:conj" out="-1:coord|1:nobj">en</W>
 <W gloss="welfare_reform" lemma="dagpengereform" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dagpengereform</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
@@ -141,7 +141,7 @@
 <W gloss="active" lemma="aktiv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">aktiv</W>
 <W gloss="erhvervsindsats" lemma="erhvervsindsats" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">erhvervsindsats</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-8:conj" out="1:nobj|-1:coord">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-8:conj" out="-1:coord|1:nobj">en</W>
 <W gloss="welfare_reform" lemma="dagpengereform" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dagpengereform</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
@@ -154,7 +154,7 @@
 <W gloss="Christian" lemma="kristelig" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">Kristeligt</W>
 <W gloss="People's_Party" lemma="folkeparti" msd="NCNSU==I" tag="NN" in="-3:conj" out="-1:attr">Folkeparti</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-5:conj" out="1:attr|2:nobj|-1:coord">Det</W>
+<W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-5:conj" out="-1:coord|1:attr|2:nobj">Det</W>
 <W gloss="radical" lemma="radikal" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">radikale</W>
 <W gloss="the_left" lemma="venstre" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Venstre</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-10:pobj" out="1:nobj">for</W>
@@ -207,8 +207,8 @@
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter's" lemma="Schlüter" msd="NP--G==-" tag="NNP" in="2:subj" out="-2:title|-1:namef|1:possd">Schlüters</W>
 <W gloss="opening_speech" lemma="åbningstale" msd="NCCSU==I" tag="NN" in="-1:possd" out="">åbningstale</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:lobj|3:loc|5:time|7:pnct">kommer</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|3:loc|5:time|7:pnct|1:@dir">kommer</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_debate" lemma="debat" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">debat</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="Parliament" lemma="folketing" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Folketinget</W>
@@ -302,7 +302,7 @@
 <W gloss="five-party" lemma="fem-parti" msd="NCNSU==I" tag="NN" in="1:nobj" out="">fem-parti</W>
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:nobj">regering</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="what" lemma="hvilken" msd="PT-CSU--U" tag="WDT" in="4:[dobj]|-10:conj" out="1:nobj|3:rel|-1:coord">hvilken</W>
+<W gloss="what" lemma="hvilken" msd="PT-CSU--U" tag="WDT" in="-10:conj|4:[dobj]" out="-1:coord|1:nobj|3:rel">hvilken</W>
 <W gloss="advantage" lemma="fordel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fordel</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
 <W gloss="would" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:expl|1:vobj">skulle</W>

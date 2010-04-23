@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|3:other|5:time|7:pnct">kom</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:@dir|3:other|5:time|7:pnct">kom</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:other" out="1:nobj">som</W>
 <W gloss="11-year_old" lemma="11-årig" msd="ANPCSU=IU" tag="JJ" in="-1:nobj" out="">11-årig</W>
@@ -70,10 +70,10 @@
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Han</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|7:pnct|8:dur|23:pnct">har</W>
-<W gloss="the_work" lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj|3:lobj">arbejdet</W>
+<W gloss="the_work" lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj|3:@loc">arbejdet</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
 <W gloss="fitter" lemma="maskinarbejder" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">maskinarbejder</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">på</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="factory" lemma="fabrik" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fabrik</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -204,7 +204,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|2:loc|3:pnct|5:conj|8:pnct|10:conj|14:pnct|16:conj|20:pnct|31:pnct|32:pnct|23:conj">taler</W>
+<W gloss="speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:dobj|2:loc|3:pnct|5:conj|8:pnct|10:conj|14:pnct|16:conj|20:pnct|23:conj|31:pnct|32:pnct">taler</W>
 <W gloss="Turkish" lemma="tyrkisk" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">tyrkisk</W>
 <W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:loc" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -227,7 +227,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-20:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:cons" out="">så</W>
-<W gloss="ends" lemma="ende" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:cons|1:subj|2:pobj|-2:coord">ender</W>
+<W gloss="ends" lemma="ende" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:cons|-2:coord|1:subj|2:pobj">ender</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -254,7 +254,7 @@
 <W gloss="being_able_to" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">kunne</W>
 <W gloss="Danish" lemma="dansk" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">dansk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="that" lemma="at" msd="U=" tag="TO" in="-4:conj" out="1:vobj|-1:coord">at</W>
+<W gloss="that" lemma="at" msd="U=" tag="TO" in="-4:conj" out="-1:coord|1:vobj">at</W>
 <W gloss="being_able_to" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">kunne</W>
 <W gloss="clear" lemma="klare" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:loc">klare</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>

@@ -66,10 +66,10 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">greatest</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">luxury</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:pnct|-6:mod|-3:subj|24:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:pnct|-6:mod|-3:subj|1:preds|24:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:pobj|10:conj">come</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:pobj|10:conj|1:@dir">come</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|5:nobj">a</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">really</W>
@@ -78,8 +78,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">decor</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">magazine</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-10:conj" out="-1:coord|1:lobj">curl</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod|4:mod">up</W>
+<W msd="VAF" tag="VB" in="-10:conj" out="-1:coord|1:@dir">curl</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod|4:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sofa</W>
@@ -95,7 +95,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">apartment</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|33:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|33:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|2:attr|4:nobj|5:mod">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">converted</W>
@@ -135,7 +135,7 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">beautifully</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="-1:mod">restored</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">building</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:mod|16:conj|30:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:mod|2:preds|16:conj|30:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">everywhere</W>
 <W msd="VAG" tag="VBG" in="-2:preds" out="1:pobj">teeming</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -174,7 +174,7 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">romantic</W>
 <W msd="NC" tag="NP--U==-" in="-4:mod" out="">Gug-ian</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">stamp</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:mod|3:mod|20:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:mod|2:preds|3:mod|20:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">clear</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">throughout</W>

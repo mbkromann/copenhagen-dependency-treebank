@@ -9,7 +9,7 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reality</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-3:mod|-1:subj|-4:coord|1:mod|4:pnct|5:mod|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-3:mod|-1:subj|-4:coord|1:mod|3:preds|4:pnct|5:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="-3:preds" out="-1:attr">change</W>
@@ -63,14 +63,14 @@
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">authorities</W>
 <W msd="VADR" tag="VBP" in="-5:vobj" out="-4:subj|1:pnct">permit</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
-<W msd="VAF" tag="VB" in="-9:vobj" out="-10:[subj]|1:dobj|7:lobj|13:pnct|14:mod">send</W>
+<W msd="VAF" tag="VB" in="-9:vobj" out="-10:[subj]|1:dobj|13:pnct|14:mod|7:@dir">send</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cheque</W>
 <W msd="SP" tag="IN" in="-2:mod" out="3:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">1.5</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|-2:mod">billion</W>
-<W msd="U=" tag="TO" in="-7:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-7:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj|4:appr">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">English</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">beer</W>
@@ -160,7 +160,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">only</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">question</W>
 <W msd="VAG" tag="VBG" in="-3:mod" out="">remaining</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|38:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|38:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="3:vobj|8:pnct|10:conj">whether</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|5:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">address</W>

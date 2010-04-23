@@ -72,8 +72,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]|3:[subj]" out="-1:attr">needles</W>
 <W msd="VADR" tag="VBP" in="-7:rel" out="-1:subj|1:vobj|16:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">stuck</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj|7:conj|10:conj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">stuck</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj|7:conj|10:conj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:possd">girl's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:pnct|2:conj|3:pnct">neck</W>
@@ -121,7 +121,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:mod|3:vobj|17:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:mod|3:vobj|17:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">know</W>
@@ -152,17 +152,17 @@
 <W msd="PP" tag="PRP" in="2:mod" out="">herself</W>
 <W msd="PT" tag="WP" in="-7:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-8:rel" out="-1:subj|-2:mod|1:vobj">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:lobj">stuck</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:@dir">stuck</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">needles</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">body</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="10:qobj" out="-1:subj|2:vobj|2:vobj|4:pnct|8:pnct|9:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="10:qobj" out="-1:subj|1:neg|2:vobj|2:vobj|4:pnct|8:pnct|9:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj|-2:vobj" out="-3:[subj]|1:nobj">think</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">so</W>

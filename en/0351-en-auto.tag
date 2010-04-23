@@ -10,7 +10,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|12:pnct|1:neg">dares</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|12:pnct">dares</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|3:mod">move</W>
 <W msd="PO" tag="PRP$" in="" out="">his</W>
@@ -71,8 +71,8 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="VADR" tag="VBP" in="1:subj" out="">you're</W>
-<W msd="VAG" tag="VBG" in="" out="-2:mod|-1:subj|1:lobj|9:pnct">going</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VAG" tag="VBG" in="" out="-2:mod|-1:subj|9:pnct|1:@dir">going</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">scene</W>
@@ -131,8 +131,8 @@
 <W msd="NC=S" tag="NN" in="-1:mod" out="">outsider</W>
 <W msd="VA" tag="MD" in="" out="-2:subj">would</W>
 <W msd="VAF" tag="VB" in="" out="1:vobj">dare</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-4:[subj]|1:lobj">travel</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">into</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-4:[subj]|1:@dir">travel</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">into</W>
 <W msd="PD" tag="DT" in="" out="">that</W>
 <W msd="NC=S" tag="NN" in="" out="">chaos</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
@@ -163,9 +163,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|16:[subj]" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|28:pnct">had</W>
 <W msd="PP" tag="PRP" in="-1:mod" out="">himself</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]|2:lobj|13:conj">sneaked</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]|2:@dir|13:conj">sneaked</W>
 <W msd="ANP" tag="RB" in="" out="">down</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">crowd</W>
 <W msd="SP" tag="IN" in="" out="">in</W>

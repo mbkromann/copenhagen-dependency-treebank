@@ -30,9 +30,9 @@
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="-16:conj" out="-1:subj|-2:coord|1:vobj">can't</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|4:mod">take</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj|4:mod|2:@dir">take</W>
 <W msd="PT" tag="WDT" in="-1:dobj" out="">that</W>
-<W msd="U=" tag="TO" in="-2:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-2:@dir" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">bed</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
@@ -44,7 +44,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">get</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="1:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="-1:vobj" out="1:preds">that's</W>
-<W msd="PT" tag="WRB" in="1:[mod]|-1:preds" out="1:rel">where</W>
+<W msd="PT" tag="WRB" in="-1:preds|1:[mod]" out="1:rel">where</W>
 <W msd="NP=S" tag="NNP" in="-1:rel|1:[subj]" out="-1:[mod]|1:vobj">I'm</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:dobj">missing</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">something</W>
@@ -123,7 +123,7 @@
 <W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">My</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">lovers</W>
-<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|9:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|2:preds|9:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">well</W>
 <W msd="SP" tag="IN" in="-2:preds" out="-1:mod|1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -192,7 +192,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|7:conj|12:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|7:conj|12:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="VAG" tag="VBG" in="-2:preds" out="-1:mod|2:conj">demanding</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

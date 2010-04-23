@@ -193,11 +193,11 @@
 <W gloss="Marie" lemma="Marie" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Marie</W>
 <W gloss="Louise" lemma="Louise" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Louise</W>
 <W gloss="Løvgren" lemma="Løvgren" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef">Løvgren</W>
-<W gloss="sends" lemma="sende" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-4:coord|1:dobj|4:lobj">sender</W>
+<W gloss="sends" lemma="sende" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-4:coord|1:dobj|4:@dir">sender</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="grateful" lemma="taknemmelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">taknemmelig</W>
 <W gloss="thought" lemma="tanke" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">tanke</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:lobj" out="2:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:@dir" out="2:nobj">til</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="the_gas" lemma="benzin" msd="NCCSU==D" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct|2:pnct|3:modp">benzinen</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -230,7 +230,7 @@
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-6:mod" out="3:vobj">for</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="receive" lemma="få" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:dobj|4:pnct|5:mod|2:@loc">får</W>
+<W gloss="receive" lemma="få" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:pnct|1:dobj|2:@loc|4:pnct|5:mod">får</W>
 <W gloss="kuk" lemma="kuk" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">kuk</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_head" lemma="hoved" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">hovedet</W>

@@ -187,7 +187,7 @@
 <W gloss="national_coach" lemma="landstræner" msd="NCCSU==I" tag="NN" in="-2:possd" out="">landstræner</W>
 <W gloss="Henri" lemma="Henri" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henri</W>
 <W gloss="Michel" lemma="Michel" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Michel</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|2:mod|3:vobj|7:pnct|1:neg">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-5:subj|1:neg|2:mod|3:vobj|7:pnct">kunne</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-8:[subj]|1:lobj">komme</W>
@@ -228,9 +228,9 @@
 <W gloss="struck" lemma="slå" msd="VADA=----A-" tag="VBD" in="" out="-8:subj|1:avobj|3:conj|11:pnct">slog</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-1:avobj" out="">til</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="brought" lemma="hente" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-11:[subj]|-1:coord|1:dobj|2:lobj|4:mod">hentede</W>
+<W gloss="brought" lemma="hente" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-11:[subj]|-1:coord|1:dobj|4:mod|2:@dir">hentede</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="the_big_Mediterranean_city" lemma="Middelhavs-storby" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Middelhavs-storbyen</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="2:nobj">for</W>
 <W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="1:numm" out="">ni</W>

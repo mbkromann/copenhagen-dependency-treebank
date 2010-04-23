@@ -56,7 +56,7 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">It</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|2:vobj|5:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:neg|2:vobj|5:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:preds">sound</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
@@ -144,14 +144,14 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|6:[subj]|9:[subj]|13:[subj]" out="">we</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj|5:pnct|6:conj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj|3:conj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc|3:conj">go</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-6:[subj]|-1:coord">tour</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="U=" tag="TO" in="-6:conj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:lobj|4:conj">be</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|4:conj|1:@loc">be</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stage</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBP" in="-4:conj" out="-13:[subj]|-1:coord|1:dobj">feel</W>

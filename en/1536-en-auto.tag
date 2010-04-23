@@ -1,9 +1,9 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">I've</W>
-<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|2:lobj|5:mod|8:pnct">got</W>
+<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:dobj|2:@dir|5:mod|8:pnct">got</W>
 <W msd="VADR" tag="VBZ" in="-1:dobj" out="">chills</W>
-<W msd="ANP" tag="RB" in="-2:lobj" out="">down</W>
+<W msd="ANP" tag="RB" in="-2:@dir" out="">down</W>
 <W msd="PO" tag="PRP$" in="" out="">my</W>
 <W msd="ANP" tag="RB" in="" out="">back</W>
 <W msd="PD" tag="PDT" in="-5:mod" out="1:nobj">all</W>
@@ -88,13 +88,13 @@
 <W msd="VADA" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:vobj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj">forced</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:mod">turn</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|1:@dir">turn</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">for</W>
 <W msd="PI" tag="DT" in="" out="">an</W>
 <W msd="NC=S" tag="NN" in="" out="">emergency</W>
-<W msd="NC=S" tag="NN" in="" out="1:lobj">landing</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="NC=S" tag="NN" in="" out="1:@loc">landing</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Schiphol</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
@@ -147,7 +147,7 @@
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-8:conj" out="-2:mod|-1:subj|2:vobj|4:pnct|8:conj|1:neg">could</W>
+<W msd="VA" tag="MD" in="-8:conj" out="-2:mod|-1:subj|1:neg|2:vobj|4:pnct|8:conj">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">see</W>
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">more</W>

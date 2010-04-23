@@ -25,8 +25,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">private</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:pnct|-3:mod|-2:subj|1:vobj|9:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">lifted</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@loc">lifted</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sanctity</W>
@@ -67,7 +67,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">serious</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">mental</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">illness</W>
-<W msd="VADR" tag="VBZ" in="-10:vobj" out="-9:subj|2:preds|3:mod|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-10:vobj" out="-9:subj|1:neg|2:preds|3:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">competent</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
@@ -198,7 +198,7 @@
 <W msd="CS" tag="IN" in="-2:mod" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">minister</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:preds|3:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:neg|2:preds|3:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">sober</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

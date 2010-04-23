@@ -85,7 +85,7 @@
 </s>
 <s>
 <W gloss="Consumers" lemma="forbruger" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Forbrugerne</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct|4:pnct|1:neg">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:preds|3:pnct|4:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="stupid." lemma="dum" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="">dumme</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -201,8 +201,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|2:[subj]" out="">den</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:vobj|7:pnct">er</W>
-<W gloss="locked" lemma="låse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj|2:mod">låst</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="">væk</W>
+<W gloss="locked" lemma="låse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|1:@dir">låst</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
 <W gloss="secret" lemma="hemmelig" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">hemmeligt</W>
@@ -229,7 +229,7 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="3:subj|4:[subj]" out="">han</W>
 <W gloss="any" lemma="helst" msd="RGU" tag="RP" in="2:mod" out="">helst</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-2:mod|1:vobj|-1:neg">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-2:mod|-1:neg|1:vobj">vil</W>
 <W gloss="be_reminded" lemma="mindes" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:pobj">mindes</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="-8:[nobj]">om</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>

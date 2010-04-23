@@ -232,12 +232,12 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-9:[subj]|-1:coord|1:dobj">begyndte</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-11:[subj]|4:conj|1:@loc">gå</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-11:[subj]|1:@loc|4:conj">gå</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="the_city" lemma="by" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="travelling" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-15:[subj]|-1:coord|1:lobj|4:mod">rejse</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">rundt</W>
+<W gloss="travelling" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-4:conj" out="-15:[subj]|-1:coord|4:mod|1:@dir">rejse</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_world" lemma="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">verden</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-4:mod" out="2:nobj">på</W>

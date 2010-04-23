@@ -9,7 +9,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">popular</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">idols</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-7:conj" out="-8:[subj]|-1:coord|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-7:conj" out="-8:[subj]|-1:coord|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">have</W>
 <W msd="ANP" tag="RB" in="-1:dobj" out="1:mod">enough</W>
@@ -27,7 +27,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">athletic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">performance</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|2:preds|4:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|1:neg|2:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">good</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">enough</W>
@@ -88,8 +88,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Lyngby</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">players</W>
-<W msd="VADR" tag="VBP" in="" out="-6:mod|-3:subj|1:lobj|2:mod|20:pnct">return</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="3:mod">home</W>
+<W msd="VADR" tag="VBP" in="" out="-6:mod|-3:subj|1:@dir|2:mod|20:pnct">return</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="3:mod">home</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="1:nobj">next</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">week</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj|4:preds">with</W>
@@ -149,8 +149,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">It</W>
 <W msd="VADR" tag="VBZ" in="20:qobj" out="-2:pnct|-1:subj|1:vobj|19:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:vobj">being</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj|4:mod">moved</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">from</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|4:mod|1:@dir">moved</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Lyngby</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Stadium</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>

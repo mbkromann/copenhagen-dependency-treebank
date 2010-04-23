@@ -117,10 +117,10 @@
 <W gloss="The" lemma="jo" msd="RGU" tag="RP" in="1:other" out="16:vobj">Jo</W>
 <W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="3:[nobj]|10:[nobj]" out="-1:other|2:rel|17:pnct">færre</W>
 <W gloss="the_Prime_Minister" lemma="statsminister" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">statsministeren</W>
-<W gloss="listened" lemma="lytte" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:pobj|9:pnct|3:conj">lytter</W>
+<W gloss="listened" lemma="lytte" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:pobj|3:conj|9:pnct">lytter</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="-3:[nobj]">til</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="let" lemma="lade" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|1:dobj|4:vobj|-1:coord">lader</W>
+<W gloss="let" lemma="lade" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:dobj|4:vobj">lader</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj|3:[dobj]" out="1:attr|2:possd">sin</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">politiske</W>
 <W gloss="intuition" lemma="intuition" msd="NCCSU==I" tag="NN" in="-2:possd" out="">intuition</W>
@@ -184,10 +184,10 @@
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:other" out="1:nobj">efter</W>
 <W gloss="the_Prime_Minister" lemma="statsminister" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">statsministeren</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="sends" lemma="sende" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|2:dobj|3:lobj|-1:coord">sender</W>
+<W gloss="sends" lemma="sende" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|2:dobj|3:@dir">sender</W>
 <W gloss="personal" lemma="personlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">personlige</W>
 <W gloss="greetings" lemma="hilsen" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">hilsner</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="dismissed" lemma="afsætte" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">afsatte</W>
 <W gloss="ministers" lemma="minister" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">ministre</W>
@@ -214,7 +214,7 @@
 <W gloss="diligence" lemma="omhu" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">omhu</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="-2:man|1:vobj">at</W>
 <W gloss="sending" lemma="sende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">sende</W>
-<W gloss="blomsterhilsner" lemma="blomsterhilsen" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="4:other|3:conj">blomsterhilsner</W>
+<W gloss="blomsterhilsner" lemma="blomsterhilsen" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="3:conj|4:other">blomsterhilsner</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="handwritten" lemma="håndskrevet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">håndskrevne</W>
 <W gloss="the_short" lemma="kort" msd="NCNPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">kort</W>

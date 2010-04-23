@@ -74,7 +74,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="2:subj" out="1:nobj">Tholstrup</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cheese</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|8:pnct|9:coord|29:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|8:pnct|9:coord|29:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">only</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">Danish</W>
@@ -126,8 +126,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|2:subj" out="">who</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">yesterday</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:lobj">returned</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="1:pobj">home</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:@dir">returned</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="1:pobj">home</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|4:possd|5:appr">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">world's</W>
@@ -144,7 +144,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-3:mod">Pasta</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:mod|10:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:mod|3:preds|10:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">only</W>
 <W msd="PI" tag="DT" in="-3:preds" out="1:attr|2:nobj">a</W>

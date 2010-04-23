@@ -103,7 +103,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-6:ref|2:subj" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="has_become_a_part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|1:pobj|3:pnct|-1:neg">indgår</W>
+<W gloss="has_become_a_part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:neg|1:pobj|3:pnct">indgår</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Ørestaden" lemma="Ørestaden" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ørestaden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -241,8 +241,8 @@
 <W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-12:ELAB&3a;part" out="-5:subj|1:pobj|10:pnct">kommer</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:lobj">gå</W>
-<W gloss="beneath" lemma="under" msd="SP" tag="IN" in="-1:lobj" out="1:nobj|3:conj">under</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:@loc">gå</W>
+<W gloss="beneath" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj|3:conj">under</W>
 <W gloss="Amager" lemma="Amager" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Amager</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:conj" out="-1:coord|1:mod">ud</W>
@@ -258,8 +258,8 @@
 <W gloss="the_Ørestad_line" lemma="ørestadsbane" msd="NCCSU==D" tag="NN" in="-4:appa" out="1:pnct">Ørestadsbanen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-31:ELAB&3a;part" out="-6:subj|1:vobj|11:pnct">skal</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:lobj">gå</W>
-<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:lobj" out="1:nobj|4:conj">langs</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:@dir">gå</W>
+<W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:@dir" out="1:nobj|4:conj">langs</W>
 <W gloss="Islands" lemma="Island" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Islands</W>
 <W gloss="Brygge" lemma="brygge" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Brygge</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

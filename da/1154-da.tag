@@ -50,8 +50,8 @@
 <W gloss="all" lemma="samtlige" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="2:subj|3:[subj]" out="1:nobj">samtlige</W>
 <W gloss="combatants" lemma="kombattant" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kombattanter</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>
-<W gloss="reached" lemma="nå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">nået</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="reached" lemma="nå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">nået</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="realisation" lemma="erkendelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:nobj">erkendelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -177,7 +177,7 @@
 </s>
 <s>
 <W gloss="The_challenge" lemma="udfordring" msd="NCCSU==D" tag="NN" in="1:subj" out="">Udfordringen</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:preds|8:pnct|2:neg">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:neg|3:preds|8:pnct">er</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-1:mod" out="">ellers</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:preds" out="1:nobj">til</W>

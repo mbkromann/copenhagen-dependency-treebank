@@ -95,7 +95,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj|7:conj">at</W>
 <W gloss="the_company" lemma="selskab" msd="NCNSU==D" tag="NN" in="1:subj" out="">selskabet</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|3:pnct">er</W>
 <W gloss="financially" lemma="økonomisk" msd="ANP---=-R" tag="JJ" in="1:attr" out="">økonomisk</W>
 <W gloss="sound" lemma="sund" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:attr">sundt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -187,8 +187,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="the_request" lemma="anmodning" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">anmodningen</W>
 <W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
-<W gloss="withdrawn" lemma="trække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">trukket</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="withdrawn" lemma="trække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">trukket</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 </p>
@@ -204,7 +204,7 @@
 <p>
 <s>
 <W gloss="The_shareholder_group" lemma="aktionærgruppe" msd="NCCSU==D" tag="NN" in="1:subj" out="">Aktionærgruppen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+ELAB&3a;exp" out="-1:subj|-10:+PREPAR|25:comp|37:pnct|44:CONJ/og|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+ELAB&3a;exp" out="-1:subj|-10:+PREPAR|1:preds|25:comp|37:pnct|44:CONJ/og">er</W>
 <W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

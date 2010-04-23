@@ -2,7 +2,7 @@
 <W msd="PI" tag="DT" in="3:subj|5:[subj]" out="2:nobj">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">delivery</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">van</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -16,7 +16,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">delivery</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">van</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:subj|2:preds|4:mod|23:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:neg|2:preds|4:mod|23:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trunk</W>
@@ -70,7 +70,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">ordinary</W>
 <W msd="NC=S" tag="NN" in="2:subj|4:[subj]" out="-1:attr|1:possd">homeowners'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">insurance</W>
-<W msd="VADR" tag="VBZ" in="16:qobj" out="-5:mod|-2:subj|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="16:qobj" out="-5:mod|-2:subj|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|4:dobj">cover</W>
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
@@ -185,8 +185,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">theft</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">occurred</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">from</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">occurred</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">from</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">delivery</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">van</W>

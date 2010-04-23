@@ -21,7 +21,7 @@
 <W msd="NC=S" tag="NN" in="" out="-1:attr">cocktail</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="1:name">Place</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Clichy</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|6:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|4:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="2:conj">beautiful</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -32,7 +32,7 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">It</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|19:pnct">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:pobj|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|4:pobj">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">background</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">scenery</W>
@@ -151,7 +151,7 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">one</W>
 <W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-3:coord|1:mod|2:vobj">can</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">hardly</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-4:dobj|-3:[subj]|2:mod|1:preds">find</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-4:dobj|-3:[subj]|1:preds|2:mod">find</W>
 <W msd="ANC" tag="RBR" in="-1:preds" out="">better</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:lobj">anywhere</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
@@ -199,8 +199,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-3:mod" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:lobj">continue</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:nobj|4:mod">down</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:@dir">continue</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:nobj|4:mod">down</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">Boulevard</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="1:name">de</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Clichy</W>

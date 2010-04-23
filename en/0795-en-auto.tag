@@ -1,7 +1,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Police</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:lobj|2:mod|8:mod|18:pnct|19:mod|27:pnct">drove</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|8:mod|18:pnct|19:mod|27:pnct|1:@dir">drove</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:preds">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">loudspeakers</W>
 <W msd="SP" tag="IN" in="-2:preds" out="">on</W>

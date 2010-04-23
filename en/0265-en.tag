@@ -30,7 +30,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|12:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|2:vobj|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:neg|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds|2:pobj|4:pnct|5:&lt;mod&gt;|6:&lt;mod&gt;">become</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">sick</W>
@@ -86,8 +86,8 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|6:[subj]" out="">He</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">finally</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:lobj|4:conj|25:pnct">crawled</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|4:conj|25:pnct|1:@dir">crawled</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bed</W>
 <W msd="CC" tag="CC" in="1:coord" out="6:&lt;mod&gt;">and</W>
 <W msd="VAF" tag="VB" in="-4:conj" out="-6:[subj]|-1:coord|1:mod">lay</W>

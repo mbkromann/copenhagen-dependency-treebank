@@ -72,7 +72,7 @@
 <W gloss="conservative" lemma="konservativ" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">Konservative</W>
 <W gloss="people" lemma="folkeparti" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Folkeparti</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="on" lemma="i" msd="SP" tag="IN" in="-5:conj" out="2:nobj|-1:coord">i</W>
+<W gloss="on" lemma="i" msd="SP" tag="IN" in="-5:conj" out="-1:coord|2:nobj">i</W>
 <W gloss="Berlingske" lemma="Berlingske" msd="NP--U==-" tag="NNP" in="1:attr" out="">Berlingske</W>
 <W gloss="Tidende" lemma="tidende" msd="NCCSG==I" tag="NN" in="-2:nobj" out="-1:attr|1:possd">Tidendes</W>
 <W gloss="edition" lemma="redaktion" msd="NCCSU==I" tag="NN" in="-1:possd" out="">redaktion</W>
@@ -107,11 +107,11 @@
 <W gloss="the_front" lemma="front" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">fronten</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|10:pnct|11:ref|13:rel">de</W>
-<W gloss="creators" lemma="skaber" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|5:pobj|4:conj">skabere</W>
+<W gloss="creators" lemma="skaber" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|4:conj|5:pobj">skabere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="practitioners" lemma="udøver" msd="NCCPU==I" tag="NNP" in="-2:conj" out="3:[pobj]">udøvere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="producers" lemma="producent" msd="NCCPU==I" tag="NNP" in="-4:conj" out="1:[pobj]|-1:coord">producenter</W>
+<W gloss="producers" lemma="producent" msd="NCCPU==I" tag="NNP" in="-4:conj" out="-1:coord|1:[pobj]">producenter</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-5:pobj|-3:[pobj]|-1:[pobj]" out="1:nobj">af</W>
 <W gloss="music" lemma="musik-" msd="XX" tag="FW" in="-1:nobj" out="2:conj">musik-</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -144,7 +144,7 @@
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="7:subj|8:[subj]" out="1:attr|3:conj">de</W>
 <W gloss="Social_Liberals" lemma="radikal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">radikale</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="parties" lemma="parti" msd="NCNPU==D" tag="NNP" in="-3:conj" out="1:loc|-1:coord">partierne</W>
+<W gloss="parties" lemma="parti" msd="NCNPU==D" tag="NNP" in="-3:conj" out="-1:coord|1:loc">partierne</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:loc" out="1:aobj">til</W>
 <W gloss="the_left" lemma="venstre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:aobj" out="">venstre</W>
 <W gloss="apparently" lemma="tilsyneladende" msd="ANP---=-R" tag="JJ" in="1:epi" out="">tilsyneladende</W>
@@ -210,12 +210,12 @@
 <W gloss="Party" lemma="folkeparti" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Folkeparti</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Berlingske" lemma="Berlingske" msd="NP--U==-" tag="NNP" in="1:attr" out="">Berlingske</W>
-<W gloss="Tidende" lemma="tidende" msd="NCCSG==I" tag="NN" in="-5:conj" out="-1:attr|1:possd|-2:coord">Tidendes</W>
+<W gloss="Tidende" lemma="tidende" msd="NCCSG==I" tag="NN" in="-5:conj" out="-1:attr|-2:coord|1:possd">Tidendes</W>
 <W gloss="edition" lemma="redaktion" msd="NCCSU==I" tag="NN" in="-1:possd" out="">redaktion</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-9:time" out="1:nobj">en</W>
 <W gloss="day" lemma="dag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dag</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-11:vobj" out="-9:[subj]|1:lobj|4:pnct|5:other">komme</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-11:vobj" out="-9:[subj]|4:pnct|5:other|1:@dir">komme</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_gaps" lemma="hul" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">hullerne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

@@ -53,11 +53,11 @@
 <W gloss="instead" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">stedet</W>
 <W gloss="for" lemma="for" msd="RGU" tag="RP" in="-1:pobj" out="">for</W>
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-3:contr|1:vobj">havde</W>
-<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-7:[subj]|1:dobj|4:lobj">sendt</W>
+<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-7:[subj]|1:dobj|4:@dir">sendt</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="single" lemma="enkelt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">enkelt</W>
 <W gloss="man" lemma="mand" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">mand</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-4:lobj" out="1:man">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-4:@dir" out="1:man">ud</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:man" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|3:conj">en</W>
 <W gloss="tractor" lemma="traktor" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">traktor</W>
@@ -143,7 +143,7 @@
 <W gloss="with" lemma="om" msd="SP" tag="IN" in="-5:pobj" out="-6:nobj">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-6:ref|1:subj" out="">som</W>
-<W gloss="took" lemma="finde" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:dobj|6:tobj|2:@loc">fandt</W>
+<W gloss="took" lemma="finde" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:dobj|2:@loc|6:tobj">fandt</W>
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">sted</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="Ingeniørhuset" lemma="ingeniørhus" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:loc">Ingeniørhuset</W>

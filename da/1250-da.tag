@@ -59,11 +59,11 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Then" lemma="da" msd="RGU" tag="RP" in="1:mod" out="">Da</W>
-<W gloss="worked" lemma="arbejde" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|-2:pnct|1:subj|2:pobj|4:lobj|7:pnct">arbejdede</W>
+<W gloss="worked" lemma="arbejde" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|-2:pnct|1:subj|2:pobj|4:@loc|7:pnct">arbejdede</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="quality_assurance" lemma="kvalitetssikring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kvalitetssikring</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">på</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="printed_circuit_business" lemma="printplade-virksomhed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">printplade-virksomhed</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -169,9 +169,9 @@
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">blev</W>
 <W gloss="25," lemma="25" msd="AC---U=--" tag="CD" in="-1:preds" out="">25</W>
-<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-9:mod|1:subj|2:lobj|6:mod|15:pnct">tog</W>
+<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-9:mod|1:subj|6:mod|15:pnct|2:@dir">tog</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:nobj" out="1:nobj">hele</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
@@ -228,8 +228,8 @@
 <W gloss="by" lemma="ved" msd="RGU" tag="RP" in="-1:preds" out="1:pobj">ved</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|2:mod|5:mod">tage</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="">rundt</W>
+<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:mod|5:mod|1:@dir">tage</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="">rundt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>
 <W gloss="my" lemma="min" msd="PO1CSUSNU" tag="PRP$" in="-1:nobj" out="1:possd">min</W>
 <W gloss="family" lemma="familie" msd="NCCSU==I" tag="NN" in="-1:possd" out="">familie</W>
@@ -255,7 +255,7 @@
 <W gloss="husband" lemma="mand" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mand</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-3:conj" out="-1:coord">jeg</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|8:pnct|9:pnct|3:@loc">bor</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|3:@loc|8:pnct|9:pnct">bor</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:mod" out="">stadig</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="-1:mod|1:nobj">i</W>

@@ -174,8 +174,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="2:vobj">at</W>
 <W gloss="the_plane" lemma="fly" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">flyet</W>
 <W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">skulle</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|2:mod">komme</W>
-<W gloss="by" lemma="forbi" msd="RGU" tag="RP" in="-1:lobj" out="">forbi</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|1:@dir">komme</W>
+<W gloss="by" lemma="forbi" msd="RGU" tag="RP" in="-1:@dir" out="">forbi</W>
 <W gloss="Sunday" lemma="søndag" msd="NCCSU==I" tag="NN" in="-2:mod" out="1:mod">søndag</W>
 <W gloss="around" lemma="ved" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ved</W>
 <W gloss="lunchtime" lemma="frokosttid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">frokosttid</W>
@@ -186,7 +186,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|6:[subj]" out="">Jeg</W>
-<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|5:conj|11:pnct|12:mod|17:pnct|1:@loc">stod</W>
+<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:@loc|5:conj|11:pnct|12:mod|17:pnct">stod</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="brook" lemma="bæk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bæk</W>

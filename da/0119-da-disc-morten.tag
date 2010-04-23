@@ -233,8 +233,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Jeg</W>
 <W gloss="was_supposed_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-5:qobj" out="-1:subj|-2:pnct|1:vobj|6:pnct|7:cause|17:pnct">skulle</W>
-<W gloss="go" lemma="gå" morph="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">gå</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="go" lemma="gå" morph="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">gå</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="the_second" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">anden</W>
 <W gloss="telephone" lemma="telefon" morph="telefon" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">telefon</W>
@@ -256,8 +256,8 @@
 <s>
 <W gloss="Before" lemma="inden" msd="CS" tag="IN" in="6:time" out="2:vobj">Inden</W>
 <W gloss="the_computer_man" lemma="computermand" morph="mand -computer/func" msd="NCCSU==D" tag="NN" in="1:subj" out="">computermanden</W>
-<W gloss="drove" lemma="køre" morph="køre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|3:pnct">kørte</W>
-<W gloss="to" lemma="mod" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">mod</W>
+<W gloss="drove" lemma="køre" morph="køre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|1:@dir">kørte</W>
+<W gloss="to" lemma="mod" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">mod</W>
 <W gloss="Holland" lemma="Holland" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Holland</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="listened" lemma="lytte" morph="lytte" msd="VADA=----A-" tag="VBD" in="-33:+CONJ/også" out="-6:time|1:subj|2:other|3:pobj|15:pnct|19:CONJ/(og)">lyttede</W>
@@ -280,8 +280,8 @@
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Han</W>
 <W gloss="was_supposed_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-19:CONJ/(og)" out="-1:subj|1:vobj|10:pnct|11:time|15:pnct">skulle</W>
-<W gloss="come" lemma="komme" morph="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|5:goal">komme</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="come" lemma="komme" morph="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|5:goal">komme</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="address" lemma="adresse" morph="adresse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">adresse</W>

@@ -24,10 +24,10 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">thing</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|1:vobj|8:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:preds">be</W>
-<W msd="VAG" tag="VBG" in="-1:preds" out="-6:[subj]|1:dobj|3:lobj">having</W>
+<W msd="VAG" tag="VBG" in="-1:preds" out="-6:[subj]|1:dobj|3:@loc">having</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:attr">something</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">sensible</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">feet</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -116,7 +116,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj|4:[subj]" out="1:possd">Your</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">feet</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|2:vobj|7:pnct|16:conj|22:pnct|1:neg">may</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:neg|2:vobj|7:pnct|16:conj|22:pnct">may</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|2:preds|3:mod">be</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
@@ -184,7 +184,7 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">Thin</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rubber</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod|-2:attr">shoes</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|3:preds|7:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|3:preds|7:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">well</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-1:mod|1:pobj">suited</W>
@@ -221,7 +221,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">places</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-1:subj|-2:coord|3:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-1:subj|-2:coord|1:neg|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">pleasant</W>

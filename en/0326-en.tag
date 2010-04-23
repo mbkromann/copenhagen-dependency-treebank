@@ -173,8 +173,8 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="2:subj|10:[subj]|16:[subj]" out="">Eva</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
-<W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|-1:mod|1:lobj|2:pnct|3:mods|8:mods|14:conj|20:pnct">sat</W>
-<W msd="U=" tag="EX" in="-1:lobj" out="">there</W>
+<W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|-1:mod|2:pnct|3:mods|8:mods|14:conj|20:pnct|1:@loc">sat</W>
+<W msd="U=" tag="EX" in="-1:@loc" out="">there</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-3:mods" out="3:conj|4:pnct">kind</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>

@@ -2,7 +2,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">His</W>
 <W msd="VADR" tag="VBP" in="-1:possd" out="">hope</W>
-<W msd="VADR" tag="VBZ" in="31:qobj" out="-3:pnct|-2:subj|29:pnct|30:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="31:qobj" out="-3:pnct|-2:subj|1:preds|29:pnct|30:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="3:vobj">that</W>
 <W msd="ANP" tag="JJ" in="2:subj|3:[subj]|10:[subj]" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
@@ -58,7 +58,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">convention</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:mod|9:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:mod|2:preds|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">simply</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">stay</W>
@@ -134,7 +134,7 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj" out="1:nobj">Four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|13:conj|28:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|13:conj|28:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">long</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
@@ -151,8 +151,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">capable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:lobj|5:pnct|6:conj">travelling</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">around</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="5:pnct|6:conj|1:@dir">travelling</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:mod">around</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>

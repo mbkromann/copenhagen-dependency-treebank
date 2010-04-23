@@ -157,7 +157,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:ref|9:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:subj|-5:mod|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-7:vobj" out="-1:subj|-5:mod|1:preds|6:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj|4:appr">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Foreign</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Minister</W>
@@ -172,10 +172,10 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Prime</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Minister</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-8:[subj]|-1:coord|2:dobj|3:lobj">sends</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-8:[subj]|-1:coord|2:dobj|3:@dir">sends</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">personal</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">greetings</W>
-<W msd="U=" tag="TO" in="-3:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-3:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">dismissed</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">ministers</W>

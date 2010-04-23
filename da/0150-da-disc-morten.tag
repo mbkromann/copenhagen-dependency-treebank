@@ -107,7 +107,7 @@
 <W gloss="Norden" lemma="Norden" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Norden</W>
 <W gloss="seems" lemma="lade" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-3:subj|-4:pnct|1:dobj|2:vobj|6:pnct|7:pnct">lader</W>
 <W gloss="the_door" lemma="dør" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]" out="">døren</W>
-<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:ben|1:preds">stå</W>
+<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds|2:ben">stå</W>
 <W gloss="open" lemma="åben" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">åben</W>
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
 <W gloss="others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="">andre</W>
@@ -157,7 +157,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="26:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:+CONTR&3a;dir/men" out="-1:subj|-2:coord|2:pnct|28:CAUSE&3a;reas/(for)|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:+CONTR&3a;dir/men" out="-1:subj|-2:coord|1:preds|2:pnct|28:CAUSE&3a;reas/(for)">er</W>
 <W gloss="the_intent" lemma="hensigt" msd="NCCSU==D" tag="NN" in="-1:preds" out="">hensigten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="4:vobj">at</W>
@@ -185,7 +185,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-28:CAUSE&3a;reas/(for)" out="-1:subj|1:neg|3:pnct|17:pnct|22:CONJ/(og)|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-28:CAUSE&3a;reas/(for)" out="-1:subj|1:neg|2:preds|3:pnct|17:pnct|22:CONJ/(og)">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="the_intent" lemma="hensigt" msd="NCCSU==D" tag="NN" in="-2:preds" out="">hensigten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -209,8 +209,8 @@
 <W gloss="merger_partners" lemma="fusions-partner" msd="NCCPU==I" tag="NNP" in="1:subj|3:[subj]" out="-1:attr">fusions-partnere</W>
 <W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-22:CONJ/(og)" out="-1:subj|1:neg|2:vobj|12:pnct|15:ELAB&3a;rest/eller/ATTR">skal</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|2:cause">jages</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="">væk</W>
+<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|2:cause|1:@dir">jages</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
 <W gloss="for" lemma="af" msd="SP" tag="IN" in="-2:cause" out="1:nobj">af</W>
 <W gloss="fear" lemma="skræk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">skræk</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

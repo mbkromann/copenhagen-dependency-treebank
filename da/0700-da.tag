@@ -126,7 +126,7 @@
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">Danske</W>
 <W gloss="Union" lemma="forening" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">Forening</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="by" lemma="af" msd="SP" tag="IN" in="-6:conj" out="3:nobj|-1:coord">af</W>
+<W gloss="by" lemma="af" msd="SP" tag="IN" in="-6:conj" out="-1:coord|3:nobj">af</W>
 <W gloss="director" lemma="direktør" msd="NCCSU==I" tag="NN" in="2:title" out="">direktør</W>
 <W gloss="Jens" lemma="Jens" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jens</W>
 <W gloss="Sejersen" lemma="Sejersen" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-2:title|-1:namef|1:pnct|2:ref|3:rel">Sejersen</W>
@@ -235,8 +235,8 @@
 <W gloss="no_matter" lemma="ligegyldig" msd="ANP---=-R" tag="JJ" in="-4:eval" out="1:nobj">ligegyldigt</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-1:nobj|3:[mod]" out="2:rel">hvor</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:lobj">kommer</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="-3:[mod]">op</W>
+<W gloss="come" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:@dir">kommer</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="-3:[mod]">op</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -248,7 +248,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:cons" out="">så</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:cons|1:expl|2:vobj|-2:coord">kan</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:cons|-2:coord|1:expl|2:vobj">kan</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|1:[expl]" out="">der</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[expl]|1:dobj">komme</W>
 <W gloss="problems_of_doubt" lemma="tvivlsproblem" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">tvivlsproblemer</W>

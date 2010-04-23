@@ -87,8 +87,8 @@
 <W gloss="after_all" lemma="alligevel" msd="RGU" tag="RP" in="-2:eval" out="">alligevel</W>
 <W gloss="allowed" lemma="lov" morph="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-3:dobj" out="1:nobj">lov</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="live" lemma="bo" morph="bo" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:lobj">bo</W>
-<W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">hjemme</W>
+<W gloss="live" lemma="bo" morph="bo" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:@loc">bo</W>
+<W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-1:@loc" out="1:pobj">hjemme</W>
 <W gloss="with" lemma="hos" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">hos</W>
 <W gloss="her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="mother" lemma="mor" morph="moder mor/NOPRED&3a;other" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mor</W>
@@ -171,7 +171,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:time" out="2:nobj">I</W>
 <W gloss="last" lemma="sidste" morph="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">sidste</W>
 <W gloss="week" lemma="uge" morph="uge" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">uge</W>
-<W gloss="sat" lemma="sidde" morph="sidde" msd="VADA=----A-" tag="VBD" in="-57:+CONJ/(og)" out="-3:time|1:subj|2:eval|3:mod|8:pnct|9:time|26:pnct|36:CONTR&3a;dir/men|5:@loc">sad</W>
+<W gloss="sat" lemma="sidde" morph="sidde" msd="VADA=----A-" tag="VBD" in="-57:+CONJ/(og)" out="-3:time|1:subj|2:eval|3:mod|5:@loc|8:pnct|9:time|26:pnct|36:CONTR&3a;dir/men">sad</W>
 <W gloss="the_grandfather" lemma="bedstefader" morph="fader -bedste/GRAD&3a;qual" msd="NCCSU==D" tag="NN" in="-1:subj|10:[subj]|11:[subj]|12:[subj]" out="">bedstefaderen</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:eval" out="">ellers</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-3:mod" out="1:nobj">to</W>

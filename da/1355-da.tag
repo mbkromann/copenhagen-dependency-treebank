@@ -68,14 +68,14 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="-5:mod" out="2:vobj">da</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="got" lemma="få" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:lobj">fik</W>
+<W gloss="got" lemma="få" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:@dir">fik</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sin</W>
 <W gloss="faith" lemma="tro" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">tro</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="legal_system" lemma="retssystem" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">retssystem</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-7:lobj" out="">tilbage</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-7:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 </p>
@@ -111,8 +111,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:nobj|2:[lobj]" out="2:rel">hvor</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="bar" lemma="bære" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[lobj]|1:lobj|2:pnct">bar</W>
-<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-1:lobj" out="">hen</W>
+<W gloss="bar" lemma="bære" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[lobj]|2:pnct|1:@dir">bar</W>
+<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-1:@dir" out="">hen</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 </p>

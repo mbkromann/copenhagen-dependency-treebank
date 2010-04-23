@@ -118,7 +118,7 @@
 <W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">klar</W>
 <W gloss="placement_of_responsibility" lemma="ansvarsplacering" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">ansvarsplacering</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-4:conj" out="1:nobj|2:pnct|3:ref|4:rel|-1:coord">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-4:conj" out="-1:coord|1:nobj|2:pnct|3:ref|4:rel">det</W>
 <W gloss="self-government" lemma="selvstyre" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">selvstyre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
@@ -175,8 +175,8 @@
 <W gloss="Increased" lemma="øge" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">Øget</W>
 <W gloss="quality" lemma="kvalitet" msd="NCCSU==I" tag="NN" in="1:subj" out="-1:attr">kvalitet</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|10:pnct">er</W>
-<W gloss="the_road" lemma="vej" msd="NCCSU==D" tag="NN" in="-1:preds" out="1:lobj">vejen</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="2:nobj">til</W>
+<W gloss="the_road" lemma="vej" msd="NCCSU==D" tag="NN" in="-1:preds" out="1:@dir">vejen</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="2:nobj">til</W>
 <W gloss="greater" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:attr" out="">større</W>
 <W gloss="employment_opportunities" lemma="beskæftigelsesmulighed" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:loc|3:ben">beskæftigelsesmuligheder</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
@@ -222,7 +222,7 @@
 <W gloss="set" lemma="fastlægge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:conj">fastlægge</W>
 <W gloss="entry_requirements" lemma="adgangskrav" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">adgangskrav</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="ensure" lemma="sikre" msd="VAF-=----A-" tag="VB" in="-3:conj" out="1:dobj|-1:coord">sikre</W>
+<W gloss="ensure" lemma="sikre" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:coord|1:dobj">sikre</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
 <W gloss="ever" lemma="stadig" msd="ANP---=-R" tag="JJ" in="1:other" out="">stadigt</W>
 <W gloss="higher" lemma="høj" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:attr" out="-1:other">højere</W>

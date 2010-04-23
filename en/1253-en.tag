@@ -33,8 +33,8 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">going</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj|2:mod">look</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">forward</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:mod|1:@dir">look</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">forward</W>
 <W msd="AC" tag="CD" in="-12:pnct#|-2:mod" out="">now.</W>
 <W msd="XP" tag="&amp;quot;" in="-13:pnct" out="">"</W>
 </s>
@@ -53,7 +53,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="2:attr" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="" out="-3:pnct|-2:attr|4:pnct|1:preds">I'm</W>
+<W msd="NP=S" tag="NNP" in="" out="-3:pnct|-2:attr|1:preds|4:pnct">I'm</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">passive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">investor</W>
@@ -82,7 +82,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|4:mod|5:pnct|8:conj|13:pnct#|14:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|4:mod|5:pnct|8:conj|13:pnct#|14:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">much</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">too</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">difficult</W>
@@ -114,7 +114,7 @@
 </s>
 <s>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="" out="-1:pnct|1:attr|3:pnct|7:conj|14:pnct|2:preds">We're</W>
+<W msd="NP=S" tag="NNP" in="" out="-1:pnct|1:attr|2:preds|3:pnct|7:conj|14:pnct">We're</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">bitter</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

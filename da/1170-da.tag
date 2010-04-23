@@ -71,7 +71,7 @@
 <p>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
-<W gloss="is_sitting" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|15:pnct|3:@loc">sidder</W>
+<W gloss="is_sitting" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|3:@loc|15:pnct">sidder</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-2:mod" out="">så</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
@@ -142,7 +142,7 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="3:mod" out="1:nobj">med</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="blow" lemma="slag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">slag</W>
-<W gloss="waved_my" lemma="vifte" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-3:mod|-4:subj|1:dobj|9:lobj">viftede</W>
+<W gloss="waved_my" lemma="vifte" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-3:mod|-4:subj|1:dobj|9:@dir">viftede</W>
 <W gloss="creditors" lemma="kreditor" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:mod">kreditorer</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
@@ -151,7 +151,7 @@
 <W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="1:numm" out="">seks</W>
 <W gloss="billion" lemma="milliard" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:numm|1:nobj">mia.</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-9:lobj" out="">væk</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-9:@dir" out="">væk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 </p>

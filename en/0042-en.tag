@@ -66,8 +66,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Finance</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Act</W>
 <W msd="VA" tag="MD" in="24:qobj" out="-4:subj|1:vobj|7:pnct|8:mod|23:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="3:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="3:nobj">to</W>
 <W msd="ANP" tag="JJ" in="2:subj|3:[subj]" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">initiatives</W>
 <W msd="VAG" tag="VBG" in="-3:nobj" out="-2:subj|1:vobj">being</W>
@@ -149,7 +149,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Dyremose</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|19:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|19:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="7:vobj">that</W>

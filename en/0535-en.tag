@@ -2,7 +2,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">year</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">1716-1717</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|4:mod|13:conj|14:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|4:mod|13:conj|14:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">tremendous</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">year</W>
@@ -30,8 +30,8 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">during</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-3:ref" out="">which</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Vivaldi</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|-3:mod|1:lobj">traveled</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|-3:mod|1:@loc">traveled</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
@@ -111,7 +111,7 @@
 <W msd="NP=S" tag="NNP" in="3:subj" out="2:conj">Amsterdam</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Paris</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|9:pnct|10:ref|11:rel|17:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|9:pnct|10:ref|11:rel|17:pnct">were</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>
@@ -179,7 +179,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mood</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|4:conj?|12:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:preds|4:conj?|12:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">totally</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">clear</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Vivaldi</W>

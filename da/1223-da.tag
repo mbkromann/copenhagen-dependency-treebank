@@ -155,7 +155,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="expect" lemma="regne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:pobj|10:pnct|1:neg">regner</W>
+<W gloss="expect" lemma="regne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:neg|2:pobj|10:pnct">regner</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -208,15 +208,15 @@
 <p>
 <s>
 <W gloss="On" lemma="på" msd="SP" tag="IN" in="5:mod" out="1:nobj">På</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ud</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ud</W>
 <W gloss="of" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Wimpy's" lemma="Wimpy" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Wimpy</W>
 <W gloss="suits" lemma="passe" msd="VADR=----A-" tag="VBD" in="" out="-5:mod|1:subj|2:pobj|9:pnct">passer</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">på</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj|-1:neg">at</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:neg|1:vobj">at</W>
 <W gloss="pay" lemma="betale" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:mod">betale</W>
 <W gloss="in" lemma="med" msd="SP" tag="IN" in="-1:mod" out="2:nobj">med</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">danske</W>
@@ -253,8 +253,8 @@
 <W gloss="Carlsson" lemma="Carlsson" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">Carlsson'er</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="huge_numbers" lemma="hobetal" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:nobj" out="">hobetal</W>
-<W gloss="are_sauntering" lemma="slentre" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|1:lobj|14:pnct">slentrer</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="2:conj|3:mod">ind</W>
+<W gloss="are_sauntering" lemma="slentre" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|1:@dir|14:pnct">slentrer</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="2:conj|3:mod">ind</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-3:mod" out="1:nobj">af</W>

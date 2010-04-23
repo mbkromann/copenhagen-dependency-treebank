@@ -183,8 +183,8 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="6:qobj" out="-4:subj|-6:mod|-1:neg|1:vobj|4:pnct|5:pnct">har</W>
 <W gloss="been" lemma="kunne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:vobj">kunnet</W>
-<W gloss="be_pulled" lemma="trække" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-6:[subj]|1:lobj">trækkes</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="be_pulled" lemma="trække" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-6:[subj]|1:@dir">trækkes</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|3:subj|4:pnct">siger</W>

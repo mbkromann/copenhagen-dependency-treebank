@@ -72,8 +72,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Art</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Gallery</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">recently</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:mod|-4:subj|1:lobj|8:pnct">moved</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:mod|-4:subj|8:pnct|1:@dir">moved</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:mod">a</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">spacious</W>
@@ -82,7 +82,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gothersgade</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="" out="-16:mod|-1:expl|1:mod|3:dobj|9:pnct|11:conj|20:pnct|2:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-16:mod|-1:expl|1:mod|2:neg|3:dobj|9:pnct|11:conj|20:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:dobj" out="2:nobj">much</W>
@@ -167,7 +167,7 @@
 <W msd="PD" tag="DT" in="3:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bureau</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|5:vobj|6:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:neg|5:vobj|6:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">so</W>

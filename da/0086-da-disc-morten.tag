@@ -140,7 +140,7 @@
 <W gloss="quietly" lemma="rolig" morph="ro +lig/DENOM&3a;eff" msd="ANP---=-R" tag="JJ" in="-1:man" out="">roligt</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-3:time" out="-1:other">nu</W>
-<W gloss="shed" lemma="kaste" morph="kaste" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-30:[subj]|1:dobj|5:conj|2:@loc">kaste</W>
+<W gloss="shed" lemma="kaste" morph="kaste" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-30:[subj]|1:dobj|2:@loc|5:conj">kaste</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="dusty" lemma="støv" morph="støv" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">støvet</W>
@@ -155,8 +155,8 @@
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="2:namef" out="">John</W>
 <W gloss="Lee" lemma="Lee" msd="NP--U==-" tag="NNP" in="1:namel" out="">Lee</W>
 <W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Hooker</W>
-<W gloss="came" lemma="komme" morph="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|1:lobj|3:time">kom</W>
-<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="came" lemma="komme" morph="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|3:time|1:@dir">kom</W>
+<W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_world" lemma="verden" morph="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">verden</W>
 <W gloss="back" lemma="dengang" msd="RGU" tag="RP" in="-3:time" out="1:time">dengang</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>

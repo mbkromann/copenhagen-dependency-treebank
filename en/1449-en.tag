@@ -122,7 +122,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="1:nobj">worth</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">millions</W>
 <W msd="VAP" tag="VBN" in="-5:vobj" out="-3:[dobj]">ruined</W>
-<W msd="VADR" tag="VBZ" in="" out="-13:subj|8:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-13:subj|2:preds|8:pnct">is</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">less</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">tragic</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -140,11 +140,11 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">right-wing</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr">extremists</W>
-<W msd="VADR" tag="VBP" in="" out="-7:mod|-6:subj|6:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-7:mod|-6:subj|1:preds|6:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Rostock</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

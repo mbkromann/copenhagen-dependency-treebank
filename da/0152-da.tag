@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="Ahead" lemma="forude" msd="RGU" tag="RP" in="1:succ" out="">Forude</W>
-<W gloss="are_in_store" lemma="vente" msd="VADR=----A-" tag="VBD" in="" out="1:subj|14:pnct|-1:succ">venter</W>
+<W gloss="are_in_store" lemma="vente" msd="VADR=----A-" tag="VBD" in="" out="-1:succ|1:subj|14:pnct">venter</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:subj" out="1:other">uger</W>
 <W gloss="on" lemma="med" msd="SP" tag="IN" in="-1:other" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">en</W>
@@ -62,7 +62,7 @@
 <p>
 <s>
 <W gloss="Pemmican" lemma="Pemmican" msd="NP--U==-" tag="NNP" in="1:subj" out="">Pemmican</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|30:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|30:pnct">er</W>
 <W gloss="sheets" lemma="plade" msd="NCCPU==I" tag="NNP" in="-1:preds" out="1:other|7:pnct|8:ref|9:rel">plader</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="fat" lemma="fedt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:conj|4:conj">fedt</W>
@@ -72,7 +72,7 @@
 <W gloss="minerals" lemma="mineral" msd="NCNPU==I" tag="NNP" in="-4:conj" out="-1:coord">mineraler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-8:ref|1:subj|12:[subj]" out="">der</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-1:subj|9:pnct|11:conj|1:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-1:subj|1:preds|9:pnct|11:conj">er</W>
 <W gloss="well-suited" lemma="velegnet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="1:pobj|6:loc">velegnet</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">til</W>
 <W gloss="both" lemma="både" msd="RGU" tag="RP" in="2:other" out="">både</W>
@@ -150,8 +150,8 @@
 <W gloss="fine" lemma="fin" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">fine</W>
 <W gloss="clothes" lemma="tøj" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">tøj</W>
 <W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-10:conj" out="-3:subj|-4:coord|1:vobj">blev</W>
-<W gloss="found" lemma="finde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">fundet</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="">frem</W>
+<W gloss="found" lemma="finde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@dir">fundet</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="">frem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 </p>
@@ -159,7 +159,7 @@
 <s>
 <W gloss="Immediately" lemma="straks" msd="RGU" tag="RP" in="1:tobj" out="">Straks</W>
 <W gloss="afterwards" lemma="efter" msd="RGU" tag="RP" in="1:succ" out="-1:tobj">efter</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="1:subj|4:vobj|6:pnct|-1:succ">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|4:vobj|6:pnct">blev</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj|3:[subj]" out="1:attr|2:nobj">de</W>
 <W gloss="long" lemma="lang" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">lange</W>
 <W gloss="nails" lemma="negl" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">negle</W>
@@ -225,7 +225,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-11:modp" out="-1:neg|-2:other|1:nobj|2:pnct">i</W>
 <W gloss="tent" lemma="telt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">telt</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
-<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="2:subj|12:time|13:vobj|-15:succ">er</W>
+<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:succ|2:subj|12:time|13:vobj">er</W>
 <W gloss="Mie" lemma="Mie" msd="NP--U==-" tag="NNP" in="1:namef" out="">Mie</W>
 <W gloss="Graversen" lemma="Graversen" msd="NP--U==-" tag="NNP" in="-2:subj|11:[subj]" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|9:conj">Graversen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

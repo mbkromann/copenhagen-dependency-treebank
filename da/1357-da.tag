@@ -79,11 +79,11 @@
 </s>
 <s>
 <W gloss="To" lemma="at" msd="U=" tag="TO" in="" out="1:vobj|6:pnct">At</W>
-<W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:lobj">få</W>
+<W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:@dir">få</W>
 <W gloss="will_for_life" lemma="livsvilje" msd="NCCSU==D" tag="NN" in="-1:dobj" out="2:conj">livsviljen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="optimism" lemma="optimisme" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">optimismen</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-4:lobj" out="">tilbage</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-4:@dir" out="">tilbage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -97,8 +97,8 @@
 <W gloss="love" lemma="elske" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|10:pnct|11:pnct">elsker</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj|3:pnct|4:modp">at</W>
-<W gloss="working" lemma="arbejde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">arbejde</W>
-<W gloss="here" lemma="her" msd="RGU" tag="RP" in="-1:lobj" out="">her</W>
+<W gloss="working" lemma="arbejde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@loc">arbejde</W>
+<W gloss="here" lemma="her" msd="RGU" tag="RP" in="-1:@loc" out="">her</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-4:modp" out="1:vobj">at</W>
 <W gloss="making" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">gøre</W>
@@ -165,18 +165,18 @@
 <W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-1:nobj" out="">seks</W>
 <W gloss="morning" lemma="morgen" msd="NCCSU==I" tag="NN" in="-2:mod" out="">morgen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="gets" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|1:subj|6:lobj|7:pnct">står</W>
+<W gloss="gets" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|1:subj|6:@dir|7:pnct">står</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:subj" out="1:attr|2:possd|4:appr">hendes</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="colleague" lemma="kollega" msd="NCCSU==I" tag="NN" in="-2:possd" out="">kollega</W>
 <W gloss="Anne-Mette" lemma="Anne-Mette" msd="NP--U==-" tag="NNP" in="1:namef" out="">Anne-Mette</W>
 <W gloss="Larsen" lemma="Larsen" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Larsen</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-6:lobj" out="">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-6:@dir" out="">op</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Looks" lemma="kikke" msd="VADR=----A-" tag="VBD" in="" out="1:lobj|4:mod|10:pnct">Kikker</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ud</W>
+<W gloss="Looks" lemma="kikke" msd="VADR=----A-" tag="VBD" in="" out="1:@dir|4:mod|10:pnct">Kikker</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ud</W>
 <W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
 <W gloss="the_window" lemma="vindue" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">vinduet</W>
 <W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-4:mod" out="1:nobj">mod</W>
@@ -215,8 +215,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Crawl" lemma="kravle" msd="VADR=----A-" tag="VBD" in="" out="1:lobj|4:pnct">Kravler</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">rundt</W>
+<W gloss="Crawl" lemma="kravle" msd="VADR=----A-" tag="VBD" in="" out="1:@dir|4:pnct">Kravler</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">rundt</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the_mountainsides" lemma="bjergside" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">bjergsiderne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -224,9 +224,9 @@
 <s>
 <W gloss="When" lemma="når" msd="CS" tag="IN" in="4:mod" out="2:vobj">Når</W>
 <W gloss="spring" lemma="forår" msd="NCNSU==D" tag="NN" in="1:subj" out="">foråret</W>
-<W gloss="breaks" lemma="bryde" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">bryder</W>
-<W gloss="forth" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="">frem</W>
-<W gloss="walk" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|4:pnct|2:@loc">går</W>
+<W gloss="breaks" lemma="bryde" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@dir">bryder</W>
+<W gloss="forth" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="">frem</W>
+<W gloss="walk" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|2:@loc|4:pnct">går</W>
 <W gloss="the_women" lemma="kvinde" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">kvinderne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="the_fields" lemma="mark" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">markerne</W>
@@ -237,8 +237,8 @@
 <s>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="" out="1:nobj|5:list|8:pnct">Alle</W>
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">andre</W>
-<W gloss="places" lemma="sted" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:lobj">steder</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="places" lemma="sted" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:@loc">steder</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_globe" lemma="jordklode" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">jordkloden</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-5:list" out="1:attr|2:nobj">en</W>
 <W gloss="beautiful" lemma="dejlig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">dejlig</W>

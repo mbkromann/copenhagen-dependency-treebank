@@ -14,7 +14,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">database</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">under</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">discussion</W>
-<W msd="VADR" tag="VBZ" in="-15:conj" out="1:subj|-14:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-15:conj" out="-14:preds|1:subj">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">fact</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
@@ -30,7 +30,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|20:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|20:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|3:nobj|5:ref|9:rel">a</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">highly</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">refined</W>
@@ -56,8 +56,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">Each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">manuscript</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|19:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">sent</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="3:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir">sent</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="3:nobj">to</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:avobj">at</W>
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-2:mod|1:nobj|2:ref|3:rel">one</W>
@@ -92,7 +92,7 @@
 <W msd="SP" tag="IN" in="-11:&lt;dobj&gt;" out="3:vobj|7:conj">whether</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">topic</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:preds|2:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">important</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -170,13 +170,13 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">system</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|21:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|2:preds|21:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">utterly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">crucial</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">referee</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:pnct|3:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:preds|2:pnct|3:mod">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">anonymous</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="3:vobj">so</W>

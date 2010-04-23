@@ -39,8 +39,8 @@
 <W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:subj|1:mod|2:vobj|37:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">particularly</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:lobj">turned</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:@loc">turned</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:ref|5:rel|15:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">extent</W>
 <W msd="U=" tag="TO" in="3:mod" out="1:nobj">to</W>
@@ -106,7 +106,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">growth</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|1:ref|2:rel">rates</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|6:pnct|3:preds">are</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|3:preds|6:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">large</W>
@@ -218,7 +218,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">improvement</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">nutrition</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|29:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:preds|29:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="10:vobj">that</W>
 <W msd="PD" tag="DT" in="9:subj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">average</W>

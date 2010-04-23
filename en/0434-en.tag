@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|17:pnct|1:neg">must</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:neg|2:vobj|17:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">give</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
@@ -186,8 +186,8 @@
 <W msd="PT" tag="WRB" in="-5:mod" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">sitting</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@loc">sitting</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">green</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">table</W>

@@ -76,8 +76,8 @@
 <W gloss="help" lemma="hjælpe" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:pobj">hjalp</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="lifting" lemma="løfte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:dobj|1:lobj">løfte</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">op</W>
+<W gloss="lifting" lemma="løfte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:dobj|1:@dir">løfte</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_casket" lemma="kiste" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kisten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-26:pnct" out="">.</W>
@@ -241,7 +241,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|15:pnct">Og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">jeg</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:vobj|1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:vobj">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="live" lemma="leve" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">leve</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>

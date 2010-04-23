@@ -77,10 +77,10 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:dobj|3:lobj|23:pnct">found</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:dobj|23:pnct|3:@loc">found</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gerhard</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:namef">Nielsen</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">at</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:mod|4:pnct|5:ref|6:pnct|12:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hotel</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -145,9 +145,9 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">possibility</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|2:lobj|3:mod">having</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|2:@loc|3:mod">having</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="">on</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="">on</W>
 <W msd="NP=S" tag="NNP" in="-3:mod" out="">Saturday</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
@@ -171,7 +171,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|2:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:neg|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">possible</W>
 <W msd="XP" tag="." in="" out="">?</W>

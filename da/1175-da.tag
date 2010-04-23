@@ -101,7 +101,7 @@
 <p>
 <s>
 <W gloss="Tomorrow" lemma="i_morgen" msd="RGU" tag="RP" in="1:mod" out="">I_morgen</W>
-<W gloss="is_playing" lemma="spille" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|6:conj|32:pnct|3:@loc">spiller</W>
+<W gloss="is_playing" lemma="spille" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|3:@loc|6:conj|32:pnct">spiller</W>
 <W gloss="Gorky" lemma="Gorky" msd="NP--U==-" tag="NNP" in="-1:subj|5:[subj]" out="1:nobj">Gorky</W>
 <W gloss="Park" lemma="Park" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Park</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">i</W>
@@ -139,18 +139,18 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:mod" out="1:nobj">I</W>
 <W gloss="the_summer" lemma="sommer" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:nobj">sommeren</W>
 <W gloss="1990," lemma="1990" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1990</W>
-<W gloss="played" lemma="spille" msd="VADA=----A-" tag="VBD" in="" out="-3:mod|1:subj|3:lobj|7:conj|27:pnct">spillede</W>
+<W gloss="played" lemma="spille" msd="VADA=----A-" tag="VBD" in="" out="-3:mod|1:subj|3:@loc|7:conj|27:pnct">spillede</W>
 <W gloss="Gorky" lemma="Gorky" msd="NP--U==-" tag="NNP" in="-1:subj|6:[subj]" out="1:nobj">Gorky</W>
 <W gloss="Park" lemma="Park" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Park</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">på</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-3:@loc" out="1:nobj">på</W>
 <W gloss="Roskilde" lemma="Roskilde" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Roskilde</W>
 <W gloss="the_Festival" lemma="festival" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Festivalen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-6:[subj]|-1:coord|1:mod|3:dobj|4:lobj">flyttede</W>
+<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-6:[subj]|-1:coord|1:mod|3:dobj|4:@dir">flyttede</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:mod" out="1:nobj">samme</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">år</W>
 <W gloss="base" lemma="base" msd="NCCSU==I" tag="NN" in="-3:dobj" out="">base</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:lobj" out="1:nobj|2:pobj">fra</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:@dir" out="1:nobj|2:pobj">fra</W>
 <W gloss="Moscow" lemma="Moskva" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Moskva</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
 <W gloss="Dallas" lemma="Dallas" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:mod|4:ref|6:rel">Dallas</W>
@@ -206,8 +206,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Mötley" lemma="Mötley" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord|1:nobj">Mötley</W>
 <W gloss="Crue" lemma="Crue" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Crue</W>
-<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="-15:rel" out="-10:mod|-9:subj|1:lobj">sidder</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="-15:rel" out="-10:mod|-9:subj|1:@loc">sidder</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="meat" lemma="flæsk" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">flæsket</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>

@@ -78,7 +78,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:ref|15:rel">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|28:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|28:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:mod|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Jutland</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Division</W>
@@ -95,8 +95,8 @@
 <W msd="VADA" tag="VBD" in="-15:rel" out="-10:subj|-8:mod|1:preds">were</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-12:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:lobj">put</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:@dir">put</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|3:pobj">defence</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -113,7 +113,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DDR</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">equipment</W>
-<W msd="VADR" tag="VBP" in="" out="-4:mod|-3:subj|7:pnct|31:conj|35:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:mod|-3:subj|1:preds|7:pnct|31:conj|35:pnct">are</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>

@@ -65,8 +65,8 @@
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">om</W>
 <W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">hurtigt</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="-1:mod|1:vobj">at</W>
-<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|4:mod">vende</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">tilbage</W>
+<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="4:mod|1:@dir">vende</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="the_government_benches" lemma="regeringsbænk" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">regeringsbænkene</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-4:mod" out="2:vobj">når</W>
@@ -97,7 +97,7 @@
 <p>
 <s>
 <W gloss="THE_FOUR_CLOVER_GOVERNMENT" lemma="firkløverregering" msd="NCCSU==D" tag="NN" in="1:subj" out="">FIRKLØVERREGERINGEN</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-14:CAUSE&3a;expl" out="-1:subj|2:preds|4:pnct|10:ELAB&3a;exp&7c;rest|1:neg">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-14:CAUSE&3a;expl" out="-1:subj|1:neg|2:preds|4:pnct|10:ELAB&3a;exp&7c;rest">var</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:nobj">en</W>
 <W gloss="mayfly" lemma="døgnflue" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">døgnflue</W>
@@ -119,7 +119,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|5:[subj]" out="7:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:CONJ/(og)" out="-1:subj|1:mod|4:vobj|5:pnct|11:pnct|15:QUEST&3a;query|22:CAUSE&3a;reas/(fordi)|2:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:CONJ/(og)" out="-1:subj|1:mod|2:neg|4:vobj|5:pnct|11:pnct|15:QUEST&3a;query|22:CAUSE&3a;reas/(fordi)">er</W>
 <W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-1:mod" out="">vel</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="1:mod">ikke</W>
 <W gloss="even" lemma="engang" msd="RGU" tag="RP" in="-1:mod" out="">engang</W>

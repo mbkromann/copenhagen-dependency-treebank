@@ -45,8 +45,8 @@
 <W msd="AC" tag="CD" in="2:subj|3:[subj]|6:[subj]" out="1:nobj">One</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|1:vobj|4:conj|6:pnct|8:conj|32:pnct">came</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-3:[subj]|1:lobj">biking</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-3:[subj]|1:@dir">biking</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADA" tag="VBD" in="-4:conj" out="-6:[subj]|-1:coord|1:pobj">jumped</W>
 <W msd="RG" tag="RP" in="-1:pobj" out="">off</W>
@@ -171,8 +171,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">that</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">guy</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:lobj|5:pnct">came</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:@dir|5:pnct">came</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">skies</W>
@@ -185,7 +185,7 @@
 </s>
 <s>
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
-<W msd="SP" tag="IN" in="8:mod" out="-1:pnct|1:nobj|3:pnct|2:neg">Of</W>
+<W msd="SP" tag="IN" in="8:mod" out="-1:pnct|1:nobj|2:neg|3:pnct">Of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -225,7 +225,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|5:pnct|6:mod|9:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|5:pnct|6:mod|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:preds" out="1:mod">here</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>

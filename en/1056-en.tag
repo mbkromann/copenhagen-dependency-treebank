@@ -1,14 +1,14 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Højer</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|4:mod|10:pnct|11:mod|52:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|4:mod|10:pnct|11:mod|52:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">old</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="2:nobj">enough</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="">yet</W>
 <W msd="U=" tag="TO" in="-2:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">make</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir">make</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">museum</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
@@ -45,7 +45,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:err">1992</W>
 <W msd="CC" tag="CC" in="-1:err" out="">and</W>
-<W msd="VADR" tag="VBP" in="-12:conj" out="-4:mod|-13:[subj]|-5:coord|3:vobj|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-12:conj" out="-4:mod|-13:[subj]|-5:coord|1:neg|3:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-16:[subj]|1:dobj">reached</W>
@@ -64,7 +64,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sentimentality</W>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-6:modp" out="-2:pnct|-1:subj|2:preds|7:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-6:modp" out="-2:pnct|-1:subj|1:neg|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">old</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:nobj">enough</W>

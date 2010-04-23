@@ -88,7 +88,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="working" lemma="arbejde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:loc">arbejde</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:loc" out="1:nobj">ved</W>
-<W gloss="lathe" lemma="drejebænk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="3:pnct|4:ref|6:rel|2:conj">drejebænk</W>
+<W gloss="lathe" lemma="drejebænk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj|3:pnct|4:ref|6:rel">drejebænk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="milling_machine" lemma="fræser" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">fræser</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -126,11 +126,11 @@
 <W gloss="selected" lemma="udvælge" msd="VADA=----A-" tag="VBD" in="-1:attr" out="">udvalgte</W>
 <W gloss="Danfoss_apprentices" lemma="Danfoss-lærling" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">Danfoss-lærlinge</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|9:pnct">har</W>
-<W gloss="guided" lemma="styre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|4:lobj">styret</W>
+<W gloss="guided" lemma="styre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|4:@dir">styret</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:nobj">de</W>
 <W gloss="12" lemma="12" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">12</W>
 <W gloss="folkeskoleelever" lemma="folkeskoleelev" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">folkeskoleelever</W>
-<W gloss="through" lemma="igennem" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">igennem</W>
+<W gloss="through" lemma="igennem" msd="SP" tag="IN" in="-4:@dir" out="1:nobj">igennem</W>
 <W gloss="the_production" lemma="produktion" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">produktionen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_weather_station" lemma="vejrstation" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">vejrstationen</W>
@@ -171,13 +171,13 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="2:time" out="1:nobj">I</W>
 <W gloss="the_beginning" lemma="start" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">starten</W>
-<W gloss="conducted" lemma="lave" msd="VADA=----A-" tag="VBD" in="" out="-3:pnct|-2:time|2:subj|3:dobj|9:pnct|5:conj">lavede</W>
+<W gloss="conducted" lemma="lave" msd="VADA=----A-" tag="VBD" in="" out="-3:pnct|-2:time|2:subj|3:dobj|5:conj|9:pnct">lavede</W>
 <W gloss="especially" lemma="især" msd="RGU" tag="RP" in="1:eval" out="">især</W>
 <W gloss="boy" lemma="knægt" msd="NCCPU==D" tag="NNP" in="-2:subj|3:[subj]" out="-1:eval">knægtene</W>
 <W gloss="noise" lemma="larm" msd="NCCSU==I" tag="NN" in="-3:dobj" out="">larm</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="fooled" lemma="pjatte" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-3:[subj]|1:lobj|-1:coord">pjattede</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="1:other">rundt</W>
+<W gloss="fooled" lemma="pjatte" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-3:[subj]|-1:coord|1:@dir">pjattede</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:other">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_workshop" lemma="værksted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">værkstedet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -195,8 +195,8 @@
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj">kan</W>
-<W gloss="playing" lemma="fjolle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">fjolle</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="1:other">rundt</W>
+<W gloss="playing" lemma="fjolle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">fjolle</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:other">rundt</W>
 <W gloss="among" lemma="mellem" msd="SP" tag="IN" in="-1:other" out="1:nobj">mellem</W>
 <W gloss="machines" lemma="maskine" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">maskiner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -230,14 +230,14 @@
 </s>
 <s>
 <W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="1:time" out="">I_dag</W>
-<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="14:qobj" out="-1:time|1:subj|2:man|7:lobj|12:pnct|13:pnct|11:conj">går</W>
+<W gloss="go" lemma="gå" msd="VADR=----A-" tag="VBD" in="14:qobj" out="-1:time|1:subj|2:man|11:conj|12:pnct|13:pnct|7:@dir">går</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:subj|10:[subj]" out="">alle</W>
 <W gloss="table" lemma="stille" msd="ANP---=-R" tag="JJ" in="-2:man" out="2:conj|4:conj">stille</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="calmly" lemma="rolig" msd="ANP---=-R" tag="JJ" in="-2:conj" out="-1:coord">roligt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="naturally" lemma="naturlig" msd="ANP---=-R" tag="JJ" in="-4:conj" out="-1:coord">naturligt</W>
-<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-7:lobj" out="1:other">hen</W>
+<W gloss="towards" lemma="hen" msd="RGU" tag="RP" in="-7:@dir" out="1:other">hen</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="the_lathe" lemma="drejebænk" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">drejebænken</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

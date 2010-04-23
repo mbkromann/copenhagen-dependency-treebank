@@ -19,7 +19,7 @@
 <W msd="PD" tag="DT" in="-1:nobj|4:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UN</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-9:dobj" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-9:dobj" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:pobj">put</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">boycott</W>
@@ -182,9 +182,9 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|34:pnct">said</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Milosevic</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|19:mod">sent</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|19:mod|2:@dir">sent</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">letters</W>
-<W msd="U=" tag="TO" in="-2:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-2:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:appa|8:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">president</W>

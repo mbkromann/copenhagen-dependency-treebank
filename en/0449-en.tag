@@ -5,7 +5,7 @@
 <W msd="PD" tag="DT" in="-2:preds|8:[mod]" out="1:nobj|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]|6:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|2:vobj|6:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:neg|2:vobj|6:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">supposed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -110,10 +110,10 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-2:mod|1:vobj|7:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">supposed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:lobj">spell</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:@dir">spell</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">way</W>
-<W msd="ANP" tag="RB" in="-3:lobj" out="">through</W>
+<W msd="ANP" tag="RB" in="-3:@dir" out="">through</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -162,10 +162,10 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">first</W>
-<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|-1:mod|1:dobj|3:lobj|10:pnct|11:&lt;mod&gt;|12:&lt;dobj&gt;|14:&lt;lobj&gt;|17:pnct">spent</W>
+<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|-1:mod|1:dobj|3:@loc|10:pnct|11:&lt;mod&gt;|12:&lt;dobj&gt;|14:&lt;lobj&gt;|17:pnct">spent</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">at</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:mod">a</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">boarding</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">school</W>
@@ -192,7 +192,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="2:subj|4:[subj]" out="1:possd">André's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">eyes</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|2:vobj|23:conj|29:pnct|1:neg">could</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:neg|2:vobj|23:conj|29:pnct">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">grasp</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">the</W>
@@ -208,9 +208,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj|7:pnct">had</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">finally</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:lobj">dragged</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:@dir">dragged</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">himself</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">through</W>
+<W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">through</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">line</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>

@@ -67,9 +67,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At" lemma="på" msd="SP" tag="IN" in="2:lobj" out="1:nobj">På</W>
+<W gloss="At" lemma="på" msd="SP" tag="IN" in="2:@loc" out="1:nobj">På</W>
 <W gloss="Christiansborg" lemma="Christiansborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Christiansborg</W>
-<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-11:ELAB&3a;exem/(fx)" out="-2:lobj|1:subj|8:conj|38:pnct|58:+CONJ/(og)">står</W>
+<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-11:ELAB&3a;exem/(fx)" out="1:subj|8:conj|38:pnct|58:+CONJ/(og)|-2:@loc">står</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj|7:[subj]" out="1:attr|2:nobj|5:appr">den</W>
 <W gloss="new" lemma="ny" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">ny</W>
 <W gloss="chairman" lemma="formand" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">formand</W>
@@ -88,7 +88,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="3:vobj">at</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj|3:[subj]" out="">vi</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|7:pnct|8:mod|-1:neg">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj|7:pnct|8:mod">skal</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj">komme</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="bud" lemma="bud" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:pobj">bud</W>
@@ -144,7 +144,7 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Hun</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-17:CAUSE&3a;expl" out="-1:subj|2:vobj|9:pnct|10:mod|16:pnct|29:ELAB&3a;exp/ATTR|1:neg">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-17:CAUSE&3a;expl" out="-1:subj|1:neg|2:vobj|9:pnct|10:mod|16:pnct|29:ELAB&3a;exp/ATTR">har</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="intend" lemma="tænke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:iobj|2:dobj">tænkt</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
@@ -157,7 +157,7 @@
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-10:mod" out="3:vobj">fordi</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="2:expl" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-3:vobj" out="-2:expl|1:dobj|-1:neg">findes</W>
+<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="-3:vobj" out="-2:expl|-1:neg|1:dobj">findes</W>
 <W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">nogen</W>
 <W gloss="middle_solution" lemma="mellemløsning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mellemløsning</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>

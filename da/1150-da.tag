@@ -55,8 +55,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-9:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-10:rel" out="-1:subj|1:vobj|6:pnct">skulle</W>
-<W gloss="lead" lemma="føre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">føre</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">frem</W>
+<W gloss="lead" lemma="føre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">føre</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:pobj">frem</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="referendum" lemma="afstemning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afstemning</W>
@@ -75,7 +75,7 @@
 <s>
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="6:mod" out="2:vobj">Hvis</W>
 <W gloss="the_government" lemma="regering" msd="NCCSU==D" tag="NN" in="1:subj" out="">regeringen</W>
-<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:pnct|1:@loc">kom</W>
+<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc|3:pnct">kom</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="majority" lemma="mindretal" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">mindretal</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

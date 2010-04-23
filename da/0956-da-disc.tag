@@ -86,7 +86,7 @@
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|3:[subj]|20:[subj]" out="">man</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|2:vobj|1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:neg|2:vobj">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="think" lemma="tro" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj|17:conj">tro</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
@@ -197,10 +197,10 @@
 <W gloss="risky" lemma="risikabel" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">risikabelt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
-<W gloss="force" lemma="tvinge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:lobj">tvinge</W>
+<W gloss="force" lemma="tvinge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:@dir">tvinge</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">et</W>
 <W gloss="floor" lemma="gulv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">gulv</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-3:lobj" out="1:mod">tilbage</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-3:@dir" out="1:mod">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="its" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">sit</W>
 <W gloss="original" lemma="oprindelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">oprindelige</W>

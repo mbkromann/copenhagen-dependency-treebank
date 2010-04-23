@@ -14,8 +14,8 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Leth</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-7:conj" out="-1:subj|1:lobj">led</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-7:conj" out="-1:subj|1:@dir">led</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:appr|25:conj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">films</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
@@ -124,8 +124,8 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Zimbabwe</W>
 <W msd="U=" tag="TO" in="-7:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">establish</W>
@@ -137,7 +137,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Camre</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|8:pnct|10:conj|33:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|8:pnct|10:conj|33:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:pobj">devote</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
@@ -174,7 +174,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|3:pnct|11:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|3:pnct|11:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">clear</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

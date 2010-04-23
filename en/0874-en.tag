@@ -54,7 +54,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">melodic</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-2:coord|-1:attr">instrument</W>
-<W msd="VADR" tag="VBP" in="" out="-20:mod|-4:subj|-22:mod|7:pnct|8:mod|22:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-20:mod|-4:subj|-22:mod|1:preds|7:pnct|8:mod|22:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|3:mod">do</W>
@@ -150,8 +150,8 @@
 <W msd="PT" tag="WRB" in="-5:mod" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">group</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:lobj|5:mod">played</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|5:mod|1:@loc">played</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Copenhagen</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jazzhouse</W>

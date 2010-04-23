@@ -15,12 +15,12 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|5:lobj|16:pnct">Send</W>
+<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|16:pnct|5:@dir">Send</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">coupon</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:avobj">at</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">once</W>
-<W msd="U=" tag="TO" in="-5:lobj" out="1:pnct|4:nobj">to</W>
+<W msd="U=" tag="TO" in="-5:@dir" out="1:pnct|4:nobj">to</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 <s>
@@ -46,7 +46,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">envelope</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|13:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|7:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|7:mod">be</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">hands</W>
@@ -219,7 +219,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|6:[subj]|7:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">screws</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|4:conj|6:pnct|9:conj|18:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|2:preds|4:conj|6:pnct|9:conj|18:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">firmly</W>
 <W msd="VAP" tag="VBN" in="-2:preds" out="-1:mod">anchored</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

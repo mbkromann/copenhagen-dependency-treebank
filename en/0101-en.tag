@@ -74,7 +74,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:attr">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">next</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|12:pnct|1:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:preds|12:pnct">were</W>
 <W msd="NP=S" tag="NNP" in="-1:preds" out="1:pnct|3:conj|4:pnct|5:conj|7:conj">Motorola</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Gatorade-Chateau</W>
@@ -108,9 +108,9 @@
 <W msd="PT" tag="WDT" in="-1:nobj|-5:ref" out="">which</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Skibby</W>
 <W msd="VA" tag="MD" in="-7:rel" out="-1:subj|-3:mod|1:vobj|8:pnct">would</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:lobj">come</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:@dir">come</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="RG" tag="RP" in="-2:lobj" out="-1:mod|1:mod">up</W>
+<W msd="RG" tag="RP" in="-2:@dir" out="-1:mod|1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">overall</W>

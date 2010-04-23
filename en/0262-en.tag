@@ -97,8 +97,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">districts</W>
 <W msd="VADA" tag="VBD" in="6:qobj" out="-6:subj|1:vobj|4:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:vobj">been</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:lobj">brought</W>
-<W msd="U=" tag="EX" in="-1:lobj" out="">there</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:@loc">brought</W>
+<W msd="U=" tag="EX" in="-1:@loc" out="">there</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-6:qobj|-1:subj|1:pnct">said</W>
@@ -143,7 +143,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-7:conj" out="-1:coord|2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:mod">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">quiet</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kirovabad</W>

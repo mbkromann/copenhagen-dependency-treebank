@@ -24,7 +24,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">Both</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">engines</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|14:pnct|35:conj|39:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:preds|14:pnct|35:conj|39:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:coord">4-cylinder</W>
 <W msd="SP" tag="IN" in="-1:coord" out="">with</W>
 <W msd="ANP" tag="JJ" in="3:mod" out="">water-cooled</W>
@@ -89,12 +89,12 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Cosworth</W>
 <W msd="NC=S" tag="NN" in="" out="">engine</W>
-<W msd="VADR" tag="VBZ" in="" out="-23:mod|16:conj|24:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-23:mod|1:preds|16:conj|24:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pnct|4:mod">over-quadratic</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cylinder</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:mod">bores</W>
-<W msd="VADR" tag="VBP" in="-4:mod" out="-1:subj|7:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="-4:mod" out="-1:subj|2:preds|7:pnct">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">somewhat</W>
 <W msd="ANC" tag="JJR" in="-2:preds" out="-1:mod|1:pobj">larger</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">than</W>
@@ -182,7 +182,7 @@
 <W msd="ANP" tag="JJ" in="-13:conj" out="-1:coord|2:nobj">certain</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">equipment</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">details</W>
-<W msd="VADR" tag="VBZ" in="" out="-25:subj|-18:mod|33:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-25:subj|-18:mod|1:preds|33:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="1:name">RS</W>
@@ -201,8 +201,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj">has</W>
 <W msd="U=" tag="TO" in="" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">kicked</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod">up</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@dir">kicked</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rotations</W>
 <W msd="SP" tag="IN" in="" out="">in</W>

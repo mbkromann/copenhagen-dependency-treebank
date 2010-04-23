@@ -77,7 +77,7 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Especially</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="SP" tag="IN" in="" out="-2:mod|1:nobj|22:pnct#|23:pnct|-1:neg">about</W>
+<W msd="SP" tag="IN" in="" out="-2:mod|-1:neg|1:nobj|22:pnct#|23:pnct">about</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:attr|3:possd|4:pnct|5:ref|9:rel">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">so-called</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">private</W>
@@ -163,7 +163,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Discussion</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|7:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
@@ -175,10 +175,10 @@
 <s>
 <W msd="CC" tag="CC" in="" out="8:conj|9:pnct#|10:pnct">And</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]|5:[subj]" out="">Lotte</W>
-<W msd="VADR" tag="VBZ" in="7:vobj" out="-1:subj|2:vobj|5:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="7:vobj" out="-1:subj|1:neg|2:vobj|5:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|2:mod">run</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|2:mod">run</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="VAG" tag="VBG" in="-2:mod" out="-5:[subj]">gossiping</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="1:preds">I'm</W>
@@ -190,8 +190,8 @@
 <W msd="NP=S" tag="NNP" in="12:qobj" out="-1:pnct|1:pnct|2:conj|9:pnct|10:pnct">Ih</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj|1:[subj]" out="1:vobj">I'm</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:lobj">looking</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">forward</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:@dir">looking</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:pobj">forward</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">wee</W>
@@ -216,9 +216,9 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mind</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-4:conj" out="-1:coord|1:dobj|2:lobj">lift</W>
+<W msd="VAF" tag="VB" in="-4:conj" out="-1:coord|1:dobj|2:@dir">lift</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="RG" tag="RP" in="-2:lobj" out="1:mod">up</W>
+<W msd="RG" tag="RP" in="-2:@dir" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="2:nobj">to</W>
 <W msd="ANC" tag="JJR" in="1:mod" out="">higher</W>
 <W msd="AC" tag="CD" in="-2:nobj|-16:pnct#" out="-1:mod">planes.</W>

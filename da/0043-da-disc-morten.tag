@@ -229,10 +229,10 @@
 <W gloss="keep" lemma="bibeholde" morph="beholde -bi/ASPEC&3a;rev holde -be/TRANS" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:tobj">bibeholde</W>
 <W gloss="the_tournament" lemma="turnering" morph="turnere +ing/PRED&3a;core" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">turneringen</W>
 <W gloss="spring_/_autumn" lemma="forår/efterår" msd="XX" tag="FW" in="-2:tobj" out="">forår/efterår</W>
-<W gloss="will_pull" lemma="rykke" morph="rykke" msd="VADR=----A-" tag="VBD" in="-50:+DISJ/(eller)" out="-13:cond|1:subj|3:lobj|6:pnct|19:+¤time&3a;succ">rykker</W>
+<W gloss="will_pull" lemma="rykke" morph="rykke" msd="VADR=----A-" tag="VBD" in="-50:+DISJ/(eller)" out="-13:cond|1:subj|6:pnct|19:+¤time&3a;succ|3:@dir">rykker</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:subj" out="1:nobj">to</W>
 <W gloss="teams" lemma="hold" morph="hold" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">hold</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_Super_League" lemma="superliga" morph="liga -super/GRAD&3a;qual" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Superligaen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>

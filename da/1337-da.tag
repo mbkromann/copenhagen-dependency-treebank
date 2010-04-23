@@ -133,8 +133,8 @@
 <W gloss="perpetrators" lemma="gerningsmand" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">gerningsmænd</W>
 <W gloss="unrestricted" lemma="uhindret" msd="ANP---=-R" tag="JJ" in="1:mod" out="">uhindret</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-1:mod|1:vobj">kunne</W>
-<W gloss="walk" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:lobj|2:pnct|3:conj|9:conj">gå</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:lobj" out="">rundt</W>
+<W gloss="walk" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|2:pnct|3:conj|9:conj|1:@dir">gå</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="">rundt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="break" lemma="bryde" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-9:[subj]|1:dobj|4:part">bryde</W>
 <W gloss="drawers" lemma="skuffe" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="2:conj">skuffer</W>
@@ -161,7 +161,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="-8:list" out="-2:pnct|-1:subj|2:dobj|1:neg">ønsker</W>
+<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="-8:list" out="-2:pnct|-1:subj|1:neg|2:dobj">ønsker</W>
 <W gloss="don't" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="fuss" lemma="blæst" msd="NCCSU==I" tag="NN" in="-2:dobj" out="1:pobj">blæst</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
@@ -171,7 +171,7 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="breaks" lemma="bryde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|7:pnct|8:mod|20:pnct|21:pnct|2:neg">bryder</W>
+<W gloss="breaks" lemma="bryde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:neg|3:pobj|7:pnct|8:mod|20:pnct|21:pnct">bryder</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:dobj" out="">mig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">om</W>

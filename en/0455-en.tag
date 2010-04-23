@@ -7,8 +7,8 @@
 <W msd="VADR" tag="VBZ" in="" out="2:subj|3:vobj|5:pnct">does</W>
 <W msd="NP=S" tag="NNP" in="1:title" out="">Santa</W>
 <W msd="NP=S" tag="NNP" in="-2:subj|1:[subj]" out="-1:title">Claus</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-1:[subj]|1:lobj">come</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="-5:nobj">from</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-1:[subj]|1:@dir">come</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="-5:nobj">from</W>
 <W msd="XP" tag="." in="-5:pnct" out="">?</W>
 </s>
 <s>
@@ -140,7 +140,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Garbage</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|7:pnct|8:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|7:pnct|8:mod">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">raw</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">material</W>
@@ -175,8 +175,8 @@
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">10,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:tobj">ago</W>
-<W msd="VADA" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|1:lobj">skipped</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">across</W>
+<W msd="VADA" tag="VBD" in="-7:vobj" out="-6:subj|-1:mod|1:@dir">skipped</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">across</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Earth</W>
 </s>

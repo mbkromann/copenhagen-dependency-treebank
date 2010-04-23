@@ -132,7 +132,7 @@
 <W gloss="thousands" lemma="tusindvis" msd="RGU" tag="RP" in="3:subj" out="1:pobj">tusindvis</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="spectators" lemma="tilskuer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tilskuere</W>
-<W gloss="stayed" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-3:subj|2:pnct|3:mod|1:preds">blev</W>
+<W gloss="stayed" lemma="blive" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-3:subj|1:preds|2:pnct|3:mod">blev</W>
 <W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:preds" out="">væk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-3:mod" out="2:vobj">fordi</W>
@@ -145,7 +145,7 @@
 <W gloss="for" lemma="af" msd="SP" tag="IN" in="3:mod" out="1:nobj">af</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>
 <W gloss="reason" lemma="grund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">grund</W>
-<W gloss="stayed" lemma="blive" msd="VADA=----A-" tag="VBD" in="-22:conj" out="-3:mod|-4:coord|1:subj|6:mod|8:pnct|9:mod|7:preds">blev</W>
+<W gloss="stayed" lemma="blive" msd="VADA=----A-" tag="VBD" in="-22:conj" out="-3:mod|-4:coord|1:subj|6:mod|7:preds|8:pnct|9:mod">blev</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">en</W>
 <W gloss="large" lemma="stor" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">stor</W>
 <W gloss="part" lemma="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
@@ -156,8 +156,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-9:mod" out="2:vobj">så</W>
 <W gloss="ACO" lemma="ACO" msd="NP--U==-" tag="NNP" in="1:subj" out="">ACO</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|2:mod|11:mod">stod</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="">tilbage</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:mod|11:mod|1:@dir">stod</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="">tilbage</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|4:conj|11:pnct|13:conj">en</W>
 <W gloss="newly-renovated" lemma="renovere" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:mod" out="">renoveret</W>
@@ -196,7 +196,7 @@
 <s>
 <W gloss="Next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Næste</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="1:mod" out="-1:attr">år</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|11:conj|17:pnct|2:preds">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:preds|11:conj|17:pnct">bliver</W>
 <W gloss="the_Le_Mans_race" lemma="Le_Mans-race" msd="NCNSU==D" tag="NN" in="-1:subj" out="">Le_Mans-racet</W>
 <W gloss="open" lemma="åben" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="1:pobj">åbent</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

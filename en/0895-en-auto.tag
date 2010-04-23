@@ -23,8 +23,8 @@
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="-23:conj" out="-2:subj|-1:mod|-3:coord|1:lobj|2:dobj|3:mod">pulls</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="VADR" tag="VBZ" in="-23:conj" out="-2:subj|-1:mod|-3:coord|2:dobj|3:mod|1:@dir">pulls</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="">weeds</W>
 <W msd="SP" tag="IN" in="-3:mod" out="">by</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -152,7 +152,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|15:pnct|1:neg">must</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:neg|2:vobj|15:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:vobj">let</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[dobj]" out="">yourself</W>

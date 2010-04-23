@@ -55,7 +55,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|2:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:neg|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds|6:[mod]" out="1:nobj|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
@@ -89,8 +89,8 @@
 <W msd="SP" tag="IN" in="-3:ref|3:mod" out="">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Poul-Erik</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Billeskov</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|-3:mod|1:lobj">came</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|-3:mod|1:@dir">came</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">town</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -214,7 +214,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">And</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">favour</W>

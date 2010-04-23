@@ -188,10 +188,10 @@
 <s>
 <W gloss="Others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="1:subj|2:[subj]" out="">Andre</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|16:pnct">er</W>
-<W gloss="arrived" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|3:lobj|6:pnct">kommet</W>
+<W gloss="arrived" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|6:pnct|3:@dir">kommet</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="6:nobj">så</W>
 <W gloss="late" lemma="sen" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:mod">sent</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:lobj" out="1:mod">ind</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Parken" lemma="park" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Parken</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>

@@ -62,9 +62,9 @@
 <W gloss="bags" lemma="pose" msd="NCCPU==I" tag="NNP" in="-2:&lt;nobj&gt;" out="-1:attr|1:loc">poser</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-3:&lt;pred&gt;|-1:loc" out="1:nobj">under</W>
 <W gloss="eyes" lemma="øje" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">øjnene</W>
-<W gloss="roaming" lemma="vandre" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-9:subj|-8:mod|1:mod|2:lobj|5:pnct">vandrer</W>
+<W gloss="roaming" lemma="vandre" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-9:subj|-8:mod|1:mod|5:pnct|2:@dir">vandrer</W>
 <W gloss="tireless" lemma="hvileløs" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">hvileløst</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_city" lemma="by" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -112,7 +112,7 @@
 </s>
 <s>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:mod|3:dobj|6:preds|10:pnct|13:conj|20:pnct|2:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:mod|2:neg|3:dobj|6:preds|10:pnct|13:conj|20:pnct">er</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:mod" out="">nemlig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:attr|2:nobj">én</W>
@@ -200,7 +200,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="film_review" lemma="film-anmeldelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">film-anmeldelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="is_due_to" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="" out="-11:mod|1:subj|2:mod|4:dobj|5:pnct|6:mod|19:pnct|3:neg">skyldes</W>
+<W gloss="is_due_to" lemma="skyldes" msd="VEDR=----A-" tag="VBN" in="" out="-11:mod|1:subj|2:mod|3:neg|4:dobj|5:pnct|6:mod|19:pnct">skyldes</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="therefore" lemma="altså" msd="RGU" tag="RP" in="-2:mod" out="">altså</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>

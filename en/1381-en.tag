@@ -2,16 +2,16 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:vobj|24:pnct">am</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">looking</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">forward</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@dir">looking</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:pobj">forward</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:ref|4:rel">autumn</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:ref|2:mod" out="">when</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|7:[subj]|8:[subj]|13:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="-4:rel" out="-2:mod|-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|5:conj|11:conj">move</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|5:conj|11:conj">move</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">apartment</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -109,7 +109,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|11:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">impossible</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
@@ -193,7 +193,7 @@
 <W msd="PD" tag="DT" in="3:subj|6:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unfortunate</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">player</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-3:subj|-5:coord|2:dobj|1:neg">hopes</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-3:subj|-5:coord|1:neg|2:dobj">hopes</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:dobj|-6:[subj]|1:mod">touch</W>

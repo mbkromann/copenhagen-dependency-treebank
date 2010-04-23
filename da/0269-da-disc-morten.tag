@@ -50,8 +50,8 @@
 <W gloss="difficulties" lemma="vanskelighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="24:ELAB&3a;exp/ATTR">vanskeligheder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
-<W gloss="ran" lemma="løbe" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:lobj|3:pnct|4:time">løb</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="ran" lemma="løbe" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:@dir|3:pnct|4:time">løb</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="-6:[nobj]">i</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="-4:time" out="2:vobj">da</W>
@@ -90,9 +90,9 @@
 <W gloss="all" lemma="al" msd="ANPCSU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">al</W>
 <W gloss="might" lemma="kraft" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kraft</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:dobj" out="1:vobj">at</W>
-<W gloss="provoke" lemma="provokere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:lobj">provokere</W>
+<W gloss="provoke" lemma="provokere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:@dir">provokere</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:dobj" out="">mig</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="1:other">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:other">ud</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
@@ -202,8 +202,8 @@
 <W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-29:ELAB&3a;exp" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|12:pnct">blev</W>
 <W gloss="pregnant" lemma="gravid" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">gravid</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="went" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:lobj">rejste</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="">hjem</W>
+<W gloss="went" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:@dir">rejste</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="Vladimir" lemma="Vladimir" msd="NP--U==-" tag="NNP" in="1:namef" out="">Vladimir</W>

@@ -36,8 +36,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">equipment</W>
 <W msd="VA" tag="MD" in="-8:conj" out="-6:mod|-4:subj|1:vobj">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">picture</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
@@ -95,7 +95,7 @@
 <W msd="SP" tag="IN" in="3:mod" out="2:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Mast</W>
-<W msd="VADR" tag="VBZ" in="-18:rel" out="-5:subj|-4:mod|-3:mod|3:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-18:rel" out="-5:subj|-4:mod|-3:mod|2:preds|3:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">prominent</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

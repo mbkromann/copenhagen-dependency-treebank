@@ -43,7 +43,7 @@
 <s>
 <W gloss="Roskilde" lemma="Roskilde" msd="NP--U==-" tag="NNP" in="2:subj" out="1:nobj">Roskilde</W>
 <W gloss="Cathedral" lemma="domkirke" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Domkirke</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|2:time|20:pnct|44:+ELAB&3a;exp|3:preds">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|2:time|3:preds|20:pnct|44:+ELAB&3a;exp">bliver</W>
 <W gloss="12," lemma="12." msd="AO---U=--" tag="JJ" in="1:nobj" out="">12.</W>
 <W gloss="November" lemma="november" msd="NCCSU==I" tag="NN" in="-2:time" out="-1:nobj">november</W>
 <W gloss="the_setting" lemma="ramme" msd="NCCSU==D" tag="NN" in="-3:preds" out="1:pobj">rammen</W>
@@ -76,11 +76,11 @@
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:time|2:dobj|4:lobj|10:pnct">trak</W>
+<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:time|2:dobj|10:pnct|4:@dir">trak</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="1:ext" out="">over</W>
 <W gloss="20,000" lemma="20.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:ext|1:nobj">20.000</W>
 <W gloss="listeners" lemma="tilhører" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tilhørere</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:lobj" out="2:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:@dir" out="2:nobj">til</W>
 <W gloss="sold-out" lemma="udsolgt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">udsolgte</W>
 <W gloss="concerts" lemma="koncert" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:loc">koncerter</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="2:nobj">i</W>
@@ -126,7 +126,7 @@
 <W gloss="the_record_company" lemma="pladeselskab" msd="NCNSU==D" tag="NN" in="-4:appa" out="1:appr|2:pnct">pladeselskabet</W>
 <W gloss="Medley" lemma="medley" msd="NCNSU==I" tag="NN" in="-1:appr" out="">Medley</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-26:CONTR&3a;prg/men/ATTR" out="-11:source|-12:coord|1:subj|11:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-26:CONTR&3a;prg/men/ATTR" out="-11:source|-12:coord|1:subj|2:preds|11:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="11:ref|12:rel">det</W>
 <W gloss="the_desire" lemma="lyst" msd="NCCSU==D" tag="NN" in="-2:preds" out="1:pobj|6:ext">lysten</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>

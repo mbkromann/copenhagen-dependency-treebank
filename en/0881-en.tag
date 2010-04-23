@@ -12,12 +12,12 @@
 </s>
 <s>
 <W msd="AC" tag="CD" in="1:subj" out="">Three</W>
-<W msd="VADA" tag="VBD" in="24:qobj" out="-1:subj|2:preds|3:pnct|5:conj|13:conj|22:pnct|23:pnct|1:neg">were</W>
+<W msd="VADA" tag="VBD" in="24:qobj" out="-1:subj|1:neg|2:preds|3:pnct|5:conj|13:conj|22:pnct|23:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:preds" out="">home</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="1:subj|3:[subj]" out="">one</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|2:vobj|5:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|1:neg|2:vobj|5:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-3:[subj]|1:mod">interested</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:avobj">at</W>
@@ -75,7 +75,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|2:subj|4:[subj]" out="">who</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">however</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj|2:part|3:mod">take</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">time</W>
@@ -183,8 +183,8 @@
 <W msd="VADA" tag="VBD" in="" out="-5:subj|-11:mod|1:vobj|27:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">found</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pnct|2:ref|4:rel">church</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:ref|2:mod" out="">where</W>

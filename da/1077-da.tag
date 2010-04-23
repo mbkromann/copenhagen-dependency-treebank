@@ -69,7 +69,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="5:dobj" out="">det</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-16:conj" out="-2:coord|2:subj|4:vobj|5:pnct|8:conj|3:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-16:conj" out="-2:coord|2:subj|3:neg|4:vobj|5:pnct|8:conj">kan</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">private</W>
 <W gloss="hunters" lemma="jæger" msd="NCCPU==I" tag="NNP" in="-2:subj|2:[subj]" out="-1:attr">jægere</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
@@ -209,8 +209,8 @@
 <W gloss="others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="1:subj" out="">andre</W>
 <W gloss="are_working" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct">arbejder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-12:rel" out="-8:mod|-7:mod|-9:subj|1:lobj|3:pnct">går</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-12:rel" out="-8:mod|-7:mod|-9:subj|3:pnct|1:@loc">går</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="hunt" lemma="jagt" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">jagt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="the_game" lemma="vildt" msd="NCNSU==D" tag="NN" in="1:subj" out="">vildtet</W>

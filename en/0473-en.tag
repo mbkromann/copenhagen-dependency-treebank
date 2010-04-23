@@ -207,10 +207,10 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">disruptive</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">problem</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod|-2:attr">children</W>
-<W msd="VADR" tag="VBP" in="-5:vobj" out="-4:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-5:vobj" out="-4:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">from</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:pnct|8:modp">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">usual</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">problem</W>

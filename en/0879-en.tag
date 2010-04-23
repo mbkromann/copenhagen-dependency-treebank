@@ -1,6 +1,6 @@
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">Sports</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:vobj|22:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:vobj|22:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">deserve</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="4:nobj|6:pnct|7:ref|15:rel">this</W>
@@ -131,7 +131,7 @@
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:ref|10:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">category</W>
-<W msd="SP" tag="IN" in="9:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="9:@dir" out="1:nobj">into</W>
 <W msd="PT" tag="WDT" in="-1:nobj|-3:ref" out="">which</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="1:attr|4:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">relevant</W>
@@ -140,7 +140,7 @@
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod|-2:pnct|1:pnct">establishment</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-10:rel" out="-6:subj|1:vobj">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|-9:lobj">placed</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|-9:@dir">placed</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
@@ -211,7 +211,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:preds">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:preds|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:preds">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>

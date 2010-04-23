@@ -40,8 +40,8 @@
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-8:mod" out="2:nobj">without</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VAG" tag="VBG" in="-2:nobj" out="-1:subj|1:lobj">leading</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="4:nobj">to</W>
+<W msd="VAG" tag="VBG" in="-2:nobj" out="-1:subj|1:@dir">leading</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="4:nobj">to</W>
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="2:subj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">report</W>
@@ -180,7 +180,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="5:mod" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds|2:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">unavoidable</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-9:vobj" out="-5:mod|-7:subj|2:mod">happen</W>

@@ -70,7 +70,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|35:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|35:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="8:vobj">that</W>
 <W msd="PD" tag="DT" in="7:subj|8:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Brøndby</W>
@@ -134,7 +134,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|11:mod|10:preds">have</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|10:preds|11:mod">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|5:nobj">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="3:conj">lower</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
@@ -200,7 +200,7 @@
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Brøndby</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:subj|1:mod|27:pnct|4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:subj|1:mod|4:preds|27:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:aobj">at</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">present</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:nobj">so</W>
@@ -219,10 +219,10 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">practice</W>
 <W msd="NC=S" tag="NN" in="-3:vobj" out="-12:[subj]|1:vobj">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:dobj|3:lobj">kicked</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:dobj|3:@loc">kicked</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Brøndby</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="-1:mod|1:mod">out</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="-1:mod|1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">of</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">Danish</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">top</W>

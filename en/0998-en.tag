@@ -35,12 +35,12 @@
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|9:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|12:pnct">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj|5:lobj|7:conj">marking</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj|7:conj|5:@dir">marking</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">prices</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">even</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="-1:mod">further</W>
-<W msd="ANP" tag="RB" in="-5:lobj" out="-1:mod">down</W>
+<W msd="ANP" tag="RB" in="-5:@dir" out="-1:mod">down</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-7:conj" out="-9:[subj]|-1:coord|1:dobj|2:pobj">spending</W>
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">more</W>

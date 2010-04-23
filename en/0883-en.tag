@@ -2,7 +2,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">underground</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hospital</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|4:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">worth</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">visit</W>
@@ -118,7 +118,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rest</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|11:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|11:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">exhibition</W>
@@ -188,11 +188,11 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Samsø</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-7:ref|4:lobj" out="">where</W>
+<W msd="PT" tag="WRB" in="-7:ref|4:@loc" out="">where</W>
 <W msd="CS" tag="IN" in="1:mod" out="4:pobj">as</W>
 <W msd="ANP" tag="JJ" in="2:subj" out="-1:mod|1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
-<W msd="VADR" tag="VBP" in="-11:rel" out="-4:lobj|-2:subj|10:conj">live</W>
+<W msd="VADR" tag="VBP" in="-11:rel" out="-2:subj|10:conj|-4:@loc">live</W>
 <W msd="CS" tag="IN" in="-4:pobj" out="1:lobj">as</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Randers</W>
@@ -219,8 +219,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">history</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">balloon</W>
 <W msd="U=" tag="TO" in="-4:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj">rise</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="1:mod">up</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@dir">rise</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>

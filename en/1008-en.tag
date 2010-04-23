@@ -5,7 +5,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">forest</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">fire</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-3:subj|25:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-3:subj|2:preds|25:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">severe</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="1:pnct|12:vobj">that</W>
@@ -22,11 +22,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">smoke</W>
 <W msd="VA" tag="MD" in="-12:vobj" out="-2:subj|-10:mod|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
-<W msd="VADA" tag="VBD" in="-1:vobj" out="-4:[subj]|4:lobj">smelled</W>
+<W msd="VADA" tag="VBD" in="-1:vobj" out="-4:[subj]|4:@dir">smelled</W>
 <W msd="PD" tag="PDT" in="3:mod" out="1:nobj">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
-<W msd="RG" tag="RP" in="-4:lobj" out="-3:mod|1:mod">up</W>
+<W msd="RG" tag="RP" in="-4:@dir" out="-3:mod|1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">southern</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Finland</W>
@@ -47,7 +47,7 @@
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">resources</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gothland</W>
-<W msd="VADA" tag="VBD" in="" out="-14:mod|-6:subj|3:mod|5:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-14:mod|-6:subj|2:preds|3:mod|5:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
 <W msd="VAP" tag="VBN" in="-2:preds" out="-1:mod">exhausted</W>
 <W msd="NC=S" tag="NN" in="-3:mod" out="1:nobj">yesterday</W>
@@ -160,8 +160,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">brief</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">opportunity</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|3:conj">return</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="3:conj|1:@dir">return</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-3:conj" out="-1:coord|1:dobj">get</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">belongings</W>

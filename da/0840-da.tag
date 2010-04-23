@@ -51,7 +51,7 @@
 <W gloss="The" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj|17:[subj]" out="1:attr|2:nobj">Det</W>
 <W gloss="Yugoslavian" lemma="jugoslavisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">jugoslaviske</W>
 <W gloss="Presidential_Council" lemma="præsidentråd" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">præsidentråd</W>
-<W gloss="appealed" lemma="appellere" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:time|4:pobj|6:pobj|28:pnct|14:conj">appellerede</W>
+<W gloss="appealed" lemma="appellere" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:time|4:pobj|6:pobj|14:conj|28:pnct">appellerede</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">sidste</W>
 <W gloss="moment" lemma="øjeblik" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">øjeblik</W>
@@ -65,7 +65,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="boycott" lemma="boykot" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">boykot</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="urged" lemma="opfordre" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-17:[subj]|1:pobj|-1:coord">opfordrede</W>
+<W gloss="urged" lemma="opfordre" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-17:[subj]|-1:coord|1:pobj">opfordrede</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">til</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
@@ -218,9 +218,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="Milosevic" lemma="Milosevic" msd="NP--U==-" tag="NNP" in="1:subj" out="">Milosevic</W>
-<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:lobj|19:prec">sendte</W>
+<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|19:prec|2:@dir">sendte</W>
 <W gloss="letters" lemma="brev" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">breve</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:appa|8:conj">den</W>
 <W gloss="American" lemma="amerikansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">amerikanske</W>
 <W gloss="president" lemma="præsident" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">præsident</W>
@@ -229,7 +229,7 @@
 <W gloss="Bush" lemma="Bush" msd="NP--U==-" tag="NNP" in="-5:appa" out="-1:namef|1:pnct">Bush</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-8:conj" out="1:attr|2:nobj|3:pnct|5:appa|-1:coord">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-8:conj" out="-1:coord|1:attr|2:nobj|3:pnct|5:appa">den</W>
 <W gloss="Russian" lemma="russisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">russiske</W>
 <W gloss="president" lemma="præsident" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">præsident</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

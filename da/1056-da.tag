@@ -49,8 +49,8 @@
 <W gloss="the_age" lemma="alder" msd="NCCSU==D" tag="NN" in="-4:dobj" out="1:pobj">alderen</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">komme</W>
-<W gloss="into" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@loc">komme</W>
+<W gloss="into" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="museum" lemma="museum" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">museum</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-11:cons" out="16:vobj">så</W>
@@ -75,10 +75,10 @@
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-3:cond" out="2:vobj">når</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]|4:[subj]|13:[subj]|14:[subj]" out="">man</W>
 <W gloss="were" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|12:conj">er</W>
-<W gloss="born" lemma="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:lobj|2:conj">født</W>
+<W gloss="born" lemma="føde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:conj|3:@loc">født</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="grew_up" lemma="opvokset" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-4:[subj]|1:[lobj]|-1:coord">opvokset</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:lobj|-1:[lobj]" out="1:nobj">på</W>
+<W gloss="grew_up" lemma="opvokset" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-4:[subj]|-1:coord|1:[lobj]">opvokset</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:[lobj]|-3:@loc" out="1:nobj">på</W>
 <W gloss="Nørrebro" lemma="Nørrebro" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nørrebro</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="6:coord" out="">og</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="5:time" out="1:time">her</W>
@@ -86,7 +86,7 @@
 <W gloss="1992" lemma="1992" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1992</W>
 <W gloss="than" lemma="end" msd="RGU" tag="RP" in="1:att" out="">end</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:att">ikke</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-13:[subj]|-5:time|-1:neg|1:vobj|-6:coord">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-13:[subj]|-5:time|-1:neg|-6:coord|1:vobj">er</W>
 <W gloss="full" lemma="fylde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-14:[subj]|1:dobj">fyldt</W>
 <W gloss="22" lemma="22" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">22</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
@@ -151,11 +151,11 @@
 <W gloss="busy" lemma="travl" msd="ANP---=-R" tag="JJ" in="-3:aobj" out="-1:degr|1:pobj">travlt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="report" lemma="melde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:lobj">melde</W>
+<W gloss="report" lemma="melde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:@dir">melde</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">deres</W>
 <W gloss="seven-year-old" lemma="syv-årig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">syv-årige</W>
 <W gloss="sons" lemma="søn" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">sønner</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-4:lobj" out="1:other">ind</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-4:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="major_club" lemma="storklub" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">storklub</W>

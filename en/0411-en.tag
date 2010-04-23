@@ -164,10 +164,10 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Simon</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:vobj|6:pnct|8:conj|12:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|6:pnct|8:conj|12:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:lobj">standing</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:@loc">standing</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">footbridge</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>

@@ -118,7 +118,7 @@
 <W gloss="science" lemma="naturvidenskab" msd="NCCSU==D" tag="NN" in="-1:subj" out="">naturvidenskaben</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:iobj" out="">sig</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:dobj" out="1:nobj|6:pnct|8:other">et</W>
-<W gloss="second" lemma="anden" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="4:nobj|3:conj">andet</W>
+<W gloss="second" lemma="anden" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="3:conj|4:nobj">andet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
 <W gloss="positive" lemma="positiv" msd="ANPNSU=IU" tag="JJ" in="-3:conj" out="-1:degr|-2:coord">positivt</W>
@@ -149,9 +149,9 @@
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-5:pnct" out="">?</W>
 </s>
 <s>
-<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:lobj|5:pnct">Sidder</W>
+<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="1:subj|5:pnct|2:@loc">Sidder</W>
 <W gloss="consciousness" lemma="bevidsthed" msd="NCCSU==D" tag="NN" in="-1:subj" out="">bevidstheden</W>
-<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-2:lobj" out="1:other">inde</W>
+<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-2:@loc" out="1:other">inde</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_cranium" lemma="kranie" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">kraniet</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-5:pnct" out="">?</W>
@@ -197,7 +197,7 @@
 <W gloss="technology-optimistic" lemma="teknologi-optimistisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">teknologi-optimistiske</W>
 <W gloss="'60s" lemma="60'er" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">60'ere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-4:conj" out="1:attr|2:nobj|-1:coord">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-4:conj" out="-1:coord|1:attr|2:nobj">de</W>
 <W gloss="technology-critical" lemma="teknologi-kritisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">teknologi-kritiske</W>
 <W gloss="'70s" lemma="70'er" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">70'ere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
@@ -210,7 +210,7 @@
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:ext" out="">igen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="5:vobj|-1:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="-1:coord|5:vobj">at</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj|5:[subj]" out="1:nobj|2:comp">en</W>
 <W gloss="trend-catalyst" lemma="trend-katalysator" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">trend-katalysator</W>
 <W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-2:comp" out="1:nobj">som</W>

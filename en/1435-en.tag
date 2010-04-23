@@ -39,12 +39,12 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADR" tag="VBP" in="36:qobj" out="-2:pnct|-1:subj|1:mod|3:dobj|5:lobj|15:pnct|18:conj|34:pnct|35:pnct">send</W>
+<W msd="VADR" tag="VBP" in="36:qobj" out="-2:pnct|-1:subj|1:mod|3:dobj|5:@dir|15:pnct|18:conj|34:pnct|35:pnct">send</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">season</W>
 <W msd="AC" tag="CD" in="-3:dobj" out="1:nobj|4:mod|6:mod">four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">planes</W>
-<W msd="U=" tag="TO" in="-5:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-5:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Ibiza</W>
 <W msd="PI" tag="DT" in="-4:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">week</W>
@@ -91,8 +91,8 @@
 <W msd="NP=S" tag="NNP" in="3:subj|11:[subj]" out="-1:namef|-2:attr|1:mod">Georgi</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Taastrup</W>
-<W msd="VADA" tag="VBD" in="-7:vobj" out="-3:subj|1:lobj|2:mod|8:conj">came</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">forward</W>
+<W msd="VADA" tag="VBD" in="-7:vobj" out="-3:subj|2:mod|8:conj|1:@dir">came</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">forward</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct">B.T</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
@@ -179,7 +179,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:mod|2:nobj">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">young</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">people</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-4:subj|5:mod|9:pnct|1:preds">became</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-4:subj|1:preds|5:mod|9:pnct">became</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">object</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

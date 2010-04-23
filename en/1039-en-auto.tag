@@ -5,7 +5,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="" out="">little</W>
 <W msd="CS" tag="IN" in="-2:nobj" out="">while</W>
-<W msd="NC=S" tag="NN" in="-6:vobj" out="-5:[subj]|2:dobj|2:[subj]|10:conj|6:preds">leave</W>
+<W msd="NC=S" tag="NN" in="-6:vobj" out="-5:[subj]|2:dobj|2:[subj]|6:preds|10:conj">leave</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Woody</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj|-2:[subj]" out="-1:namef|1:mod">Allen's</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">ravaged</W>
@@ -116,7 +116,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">circus</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:mod|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:mod|1:preds|4:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:mod|-1:preds" out="1:nobj">visiting</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">town</W>
@@ -198,8 +198,8 @@
 <W msd="VAP" tag="VBN" in="3:mods" out="1:pnct|2:[subj]">confused</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="-2:[subj]|1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-1:subj|-3:mods|1:lobj|2:mod">wanders</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-1:subj|-3:mods|2:mod|1:@dir">wanders</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">bull</W>

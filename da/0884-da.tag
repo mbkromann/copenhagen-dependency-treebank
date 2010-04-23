@@ -69,9 +69,9 @@
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="public" lemma="offentlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">offentlige</W>
 <W gloss="sector" lemma="område" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">område</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:time|2:lobj|7:pnct">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:time|2:@dir|7:pnct">skal</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">til</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="urafstemning" lemma="urafstemning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:other">urafstemning</W>
 <W gloss="among" lemma="blandt" msd="SP" tag="IN" in="-1:other" out="1:nobj">blandt</W>
 <W gloss="ÖTV's" lemma="ÖTV" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">ÖTVs</W>
@@ -80,10 +80,10 @@
 </s>
 <s>
 <W gloss="The_voting" lemma="afstemning" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">Afstemningen</W>
-<W gloss="will_begin" lemma="begynde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:tobj|8:pnct|3:conj">begynder</W>
+<W gloss="will_begin" lemma="begynde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:tobj|3:conj|8:pnct">begynder</W>
 <W gloss="Monday" lemma="mandag" msd="NCCSU==I" tag="NN" in="-1:tobj" out="">mandag</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="end" lemma="slutte" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|1:tobj|-1:coord">slutter</W>
+<W gloss="end" lemma="slutte" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:tobj">slutter</W>
 <W gloss="Wednesday" lemma="onsdag" msd="NCCSU==I" tag="NN" in="-1:tobj" out="1:time">onsdag</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
 <W gloss="following" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">næste</W>
@@ -175,8 +175,8 @@
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="put" lemma="lægge" msd="VADA=----A-" tag="VBD" in="-10:rel" out="-6:subj|-7:dobj|-4:time|1:lobj">lagde</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="put" lemma="lægge" msd="VADA=----A-" tag="VBD" in="-10:rel" out="-6:subj|-7:dobj|-4:time|1:@loc">lagde</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_table" lemma="bord" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">bordet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
@@ -224,8 +224,8 @@
 <W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="" out="-2:other|1:subj|2:dobj|8:pnct">begyndte</W>
 <W gloss="society" lemma="samfundsliv" msd="NCNSU==D" tag="NN" in="-1:subj|2:[subj]" out="">samfundslivet</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
-<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">vende</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:lobj" out="1:other">tilbage</W>
+<W gloss="come" lemma="vende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">vende</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-1:@dir" out="1:other">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr">det</W>
 <W gloss="normal" lemma="normal" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">normale</W>
@@ -235,12 +235,12 @@
 <W gloss="Buses" lemma="bus" msd="NCCPU==I" tag="NNP" in="3:subj" out="2:conj">Busser</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="trains" lemma="tog" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">toge</W>
-<W gloss="ran" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:ext|2:pnct|15:pnct|5:conj">kørte</W>
+<W gloss="ran" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:ext|2:pnct|5:conj|15:pnct">kørte</W>
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="garbage_men" lemma="skraldemand" msd="NCCPU==I" tag="NNP" in="1:subj" out="">skraldemænd</W>
-<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|1:pobj|-2:coord">gik</W>
+<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|1:pobj">gik</W>
 <W gloss="i_gang" lemma="i_gang" msd="RGU" tag="RP" in="-1:pobj" out="1:pobj">i_gang</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

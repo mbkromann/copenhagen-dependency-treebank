@@ -16,10 +16,10 @@
 <s>
 <W msd="CS" tag="IN" in="10:mod" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:vobj|5:pnct|1:neg">had</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:vobj|5:pnct">had</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj">gone</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:@dir">gone</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">work</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]|5:[subj]" out="1:nobj">the</W>

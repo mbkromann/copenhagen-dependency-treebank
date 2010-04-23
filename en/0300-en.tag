@@ -2,7 +2,7 @@
 <W msd="CC" tag="CC" in="" out="3:conj|13:pnct">And</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|2:pnct|4:mod|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|1:preds|2:pnct|4:mod">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dangerous</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">also</W>
@@ -46,7 +46,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">guy</W>
-<W msd="VADR" tag="VBZ" in="-8:xpl" out="-3:pnct|-2:subj|3:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-8:xpl" out="-3:pnct|-2:subj|2:preds|3:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">rather</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">explosive</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -123,8 +123,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:lobj|8:pnct">lived</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|8:pnct|1:@loc">lived</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">end</W>

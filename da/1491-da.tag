@@ -159,7 +159,7 @@
 </s>
 <s>
 <W gloss="The_woman" lemma="kvinde" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">Kvinden</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:vobj|8:pnct|13:conj|29:pnct|2:neg">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:neg|3:vobj|8:pnct|13:conj|29:pnct">havde</W>
 <W gloss="even" lemma="end" msd="RGU" tag="RP" in="1:mod" out="">end</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:preds|3:mod">været</W>
@@ -195,9 +195,9 @@
 <s>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="1:mod" out="">Nok</W>
 <W gloss="even" lemma="engang" msd="RGU" tag="RP" in="1:mod" out="-1:mod">engang</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:lobj|5:mod|7:pnct|8:mod|27:pnct">stod</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|5:mod|7:pnct|8:mod|27:pnct|2:@loc">stod</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:lobj" out="2:nobj">på</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="2:nobj">på</W>
 <W gloss="bar" lemma="bar" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">bar</W>
 <W gloss="bottom" lemma="bund" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">bund</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:mod" out="1:nobj">i</W>
@@ -209,8 +209,8 @@
 <W gloss="force" lemma="kraft" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">kræfter</W>
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">havde</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">været</W>
-<W gloss="put" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:lobj|3:mod|7:mod|9:mod">sat</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="">ind</W>
+<W gloss="put" lemma="sætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:@dir|3:mod|7:mod|9:mod">sat</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="">ind</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="2:mod" out="">såvel</W>
 <W gloss="locally" lemma="lokal" msd="ANP---=-R" tag="JJ" in="-3:mod" out="2:conj">lokalt</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-2:mod">som</W>

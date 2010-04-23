@@ -53,8 +53,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pins</W>
 <W msd="U=" tag="TO" in="-7:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:vobj">be</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="1:lobj">standing</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="1:@loc">standing</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">outermost</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
@@ -74,9 +74,9 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|8:pnct">Or</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj|2:lobj">place</W>
+<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj|2:@loc">place</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">them</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">innermost</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">part</W>
@@ -143,8 +143,8 @@
 <W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W msd="PT" tag="WP" in="-5:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj|5:mod">gotten</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">on</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|5:mod|1:@loc">gotten</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">on</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">train</W>
@@ -156,7 +156,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj|4:[subj]" out="">That</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|3:vobj|4:pnct|7:conj|42:pnct|2:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:neg|3:vobj|4:pnct|7:conj|42:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">usually</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]">allowed</W>

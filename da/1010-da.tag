@@ -67,7 +67,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|9:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|9:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj|2:pnct|3:ref|4:rel">en</W>
 <W gloss="maximum_limit" lemma="maksimumgrænse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">maksimumgrænse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -136,11 +136,11 @@
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:time|1:dobj|4:lobj|9:pnct">sendte</W>
+<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-5:subj|-4:time|1:dobj|9:pnct|4:@loc">sendte</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|5:other">et</W>
 <W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">nyt</W>
 <W gloss="gasoline_product" lemma="benzinprodukt" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">benzinprodukt</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:lobj" out="1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">på</W>
 <W gloss="the_street" lemma="gade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gaden</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-5:other" out="2:nobj">med</W>
 <W gloss="altered" lemma="ændre" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">ændrede</W>
@@ -260,10 +260,10 @@
 <W gloss="Some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">nogle</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="pull" lemma="trække" msd="VAF-=----A-" tag="VB" in="-5:vobj" out="-6:[subj]|1:dobj|3:lobj|6:pnct|7:reas">trække</W>
+<W gloss="pull" lemma="trække" msd="VAF-=----A-" tag="VB" in="-5:vobj" out="-6:[subj]|1:dobj|3:@dir|6:pnct|7:reas">trække</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">et</W>
 <W gloss="product" lemma="produkt" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">produkt</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ud</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_market" lemma="marked" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">markedet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>

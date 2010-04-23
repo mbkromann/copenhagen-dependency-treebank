@@ -23,13 +23,13 @@
 <W msd="PI" tag="DT" in="3:subj" out="2:nobj">A</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">volleyball</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">player</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|6:lobj|9:pnct">jumps</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|6:@dir|9:pnct">jumps</W>
 <W msd="PI" tag="DT" in="5:mod" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">average</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">80</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">centimetres</W>
-<W msd="SP" tag="IN" in="-6:lobj" out="-5:mod|1:nobj">into</W>
+<W msd="SP" tag="IN" in="-6:@dir" out="-5:mod|1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -44,7 +44,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="" out="">Rudbjerg</W>
 <W msd="XP" tag="&3a;" in="13:pnct" out="">-</W>
-<W msd="SP" tag="IN" in="12:mod" out="1:nobj|10:pnct|9:preds">With</W>
+<W msd="SP" tag="IN" in="12:mod" out="1:nobj|9:preds|10:pnct">With</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">formation</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -113,8 +113,8 @@
 <W msd="CC" tag="CC" in="" out="7:conj|18:pnct">And</W>
 <W msd="CS" tag="IN" in="6:mod" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:lobj|2:pnct">move</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:pnct|1:@dir">move</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
 <W msd="VA" tag="MD" in="-7:conj" out="-6:mod|-1:expl|1:mod|2:vobj">could</W>
@@ -148,12 +148,12 @@
 <W msd="CC" tag="CC" in="" out="6:conj|18:pnct">And</W>
 <W msd="PT" tag="WRB" in="5:mod" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:pnct|1:preds">get</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds|2:pnct">get</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">hungry</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VADR" tag="VBP" in="-6:conj|1:[subj]" out="-5:mod|1:vobj">they'll</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-1:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod|3:pnct|4:ref|6:rel">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-1:[subj]|1:@loc">come</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod|3:pnct|4:ref|6:rel">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">us</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -173,7 +173,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">longer</W>
 <W msd="VADR" tag="VBP" in="-2:nobj" out="">term</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-6:subj|2:mod|7:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-6:subj|2:mod|3:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">clearly</W>
 <W msd="U=" tag="TO" in="-3:preds" out="1:vobj">to</W>
@@ -227,7 +227,7 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gerner</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Jørgensen</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:mod|4:mod|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:mod|2:preds|4:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trainer</W>

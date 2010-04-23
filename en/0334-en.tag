@@ -162,8 +162,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="" out="-5:mod|-1:subj|1:vobj|14:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">look</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@loc">look</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:pnct|4:ref|8:rel">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">parking</W>
@@ -186,7 +186,7 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:ref|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">girl</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:mod|4:preds|3:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:mod|3:neg|4:preds">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">certainly</W>
 <W msd="ANP" tag="RB" in="-3:neg" out="">not</W>

@@ -105,8 +105,8 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="have" lemma="få" morph="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:vobj">få</W>
 <W gloss="the_son" lemma="søn" morph="søn" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[dobj]" out="">sønnen</W>
-<W gloss="placed" lemma="anbringe" morph="bringe -an/ASPEC&3a;result" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[dobj]|1:lobj">anbragt</W>
-<W gloss="in" lemma="under" msd="SP" tag="IN" in="-1:lobj" out="3:nobj">under</W>
+<W gloss="placed" lemma="anbringe" morph="bringe -an/ASPEC&3a;result" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[dobj]|1:@loc">anbragt</W>
+<W gloss="in" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="3:nobj">under</W>
 <W gloss="more" lemma="meget" morph="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
 <W gloss="satisfactory" lemma="betryggende" morph="betrygge +nde/DEVERB&3a;act.pure tryg betrygge/DER&3a;av" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="-1:degr">betryggende</W>
 <W gloss="circumstances" lemma="forhold" morph="forhold" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="-1:attr">forhold</W>

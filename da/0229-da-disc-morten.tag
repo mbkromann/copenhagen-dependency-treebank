@@ -154,19 +154,19 @@
 <s>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="2:loc" out="1:nobj">I</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CONTR&3a;dir/(derimod)" out="-2:loc|1:subj|2:pnct|19:pnct|24:CONTR&3a;dir/(men)&7c;CONJ/(og)|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:CONTR&3a;dir/(derimod)" out="-2:loc|1:subj|2:pnct|3:preds|19:pnct|24:CONTR&3a;dir/(men)&7c;CONJ/(og)">er</W>
 <W gloss="the_norm" lemma="norm" msd="NCCSU==D" tag="NN" in="-1:subj" out="">normen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:preds" out="9:vobj">at</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="8:expl" out="">der</W>
-<W gloss="for" lemma="hos" msd="SP" tag="IN" in="7:lobj" out="1:nobj|2:pnct">hos</W>
+<W gloss="for" lemma="hos" msd="SP" tag="IN" in="7:@loc" out="1:nobj|2:pnct">hos</W>
 <W gloss="producers" lemma="producent" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">producenterne</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">umiddelbart</W>
 <W gloss="before" lemma="før" msd="SP" tag="IN" in="3:modp" out="-1:tobj|1:nobj|2:pnct">før</W>
 <W gloss="slaughter" lemma="slagtning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">slagtningen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:expl|-3:modp|-7:lobj|1:dobj">går</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:expl|-3:modp|1:dobj|-7:@loc">går</W>
 <W gloss="42" lemma="42" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj|3:other">42</W>
 <W gloss="kg" lemma="kilo" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:nobj">kg.</W>
 <W gloss="poultry" lemma="fjerkræ" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">fjerkræ</W>
@@ -205,7 +205,7 @@
 </s>
 <s>
 <W gloss="Otherwise" lemma="ellers" msd="RGU" tag="RP" in="1:contr" out="">Ellers</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:DISJ/ellers" out="-1:contr|1:subj|4:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-10:DISJ/ellers" out="-1:contr|1:subj|2:preds|4:pnct">er</W>
 <W gloss="the_limit" lemma="grænse" msd="NCCSU==D" tag="NN" in="-1:subj" out="">grænsen</W>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-2:preds" out="1:nobj">20</W>
 <W gloss="kg" lemma="kilo" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">kg.</W>

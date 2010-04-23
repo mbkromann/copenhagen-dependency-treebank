@@ -201,18 +201,18 @@
 <W gloss="injuries" lemma="kvæstelse" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="">kvæstelser</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">komme</W>
-<W gloss="into" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="get" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@loc">komme</W>
+<W gloss="into" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="hospital" lemma="sygehus" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">sygehuset</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="One" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj" out="1:nobj">En</W>
 <W gloss="boy" lemma="dreng" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dreng</W>
-<W gloss="stuck" lemma="stikke" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:dobj|3:lobj|6:pnct">stak</W>
+<W gloss="stuck" lemma="stikke" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:dobj|6:pnct|3:@dir">stak</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="iron_bar" lemma="jernstang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">jernstang</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:lobj" out="1:mod">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="1:mod">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="rectum" lemma="endetarm" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">endetarmen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>

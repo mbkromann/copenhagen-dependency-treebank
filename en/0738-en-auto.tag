@@ -76,8 +76,8 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">just</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">hopeless</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|5:pnct|6:coord">walk</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">around</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="5:pnct|6:coord|1:@dir">walk</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">around</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">training</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">facility</W>
@@ -101,8 +101,8 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">hard</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:neg">walk</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:neg|1:@dir">walk</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="1:nobj">not</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">knowing</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="">whether</W>

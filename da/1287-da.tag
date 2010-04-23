@@ -133,10 +133,10 @@
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr">den</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
-<W gloss="walked" lemma="køre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-9:[subj]|1:mod|3:lobj">kørt</W>
+<W gloss="walked" lemma="køre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-9:[subj]|1:mod|3:@dir">kørt</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="motorcycle" lemma="motorcykel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">motorcykel</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">til</W>
 <W gloss="the_South_Pole" lemma="Sydpolen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Sydpolen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -145,8 +145,8 @@
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:vobj|10:pnct">har</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">han</W>
 <W gloss="done" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|4:pnct|6:mod">gjort</W>
-<W gloss="the_trip" lemma="tur" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:lobj">turen</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="the_trip" lemma="tur" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:@dir">turen</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_North_Pole" lemma="Nordpolen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nordpolen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
@@ -156,7 +156,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:preds|3:pnct">var</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="1:nobj">i</W>
 <W gloss="1987" lemma="1987" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1987</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -172,8 +172,8 @@
 <W gloss="month's" lemma="måned" msd="NCCSG==I" tag="NN" in="-1:nobj" out="">måneds</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:possd" out="">tid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-6:nobj" out="1:vobj">at</W>
-<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|5:conj">krydse</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="5:conj|1:@dir">krydse</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W gloss="the_ice_cap" lemma="iskalot" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">iskalotten</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

@@ -75,8 +75,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="this" lemma="hertil" msd="RGU" tag="RP" in="1:lobj" out="">Hertil</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:lobj|1:pnct|2:subj|15:pnct">kommer</W>
+<W gloss="this" lemma="hertil" msd="RGU" tag="RP" in="1:@dir" out="">Hertil</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="1:pnct|2:subj|15:pnct|-1:@dir">kommer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:subj" out="2:vobj">at</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
@@ -103,10 +103,10 @@
 <W gloss="arbejdsfunktioner" lemma="arbejdsfunktion" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">arbejdsfunktioner</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="2:nobj">i</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="3:korel" out="">såvel</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="1:attr|5:nobj|3:conj">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="1:attr|3:conj|5:nobj">den</W>
 <W gloss="public" lemma="offentlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">offentlige</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-3:korel">som</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:conj" out="1:attr|2:[nobj]|-1:coord">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:conj" out="-1:coord|1:attr|2:[nobj]">den</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">private</W>
 <W gloss="sector" lemma="sektor" msd="NCCSU==I" tag="NN" in="-5:nobj|-2:[nobj]" out="">sektor</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-11:other|1:subj|2:neg|3:vobj|14:pnct|15:struct|22:pnct">vil</W>
@@ -234,8 +234,8 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="could" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">kunne</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj">gå</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">gå</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="2:nobj">i</W>
 <W gloss="real" lemma="egentlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">egentlige</W>
 <W gloss="jobs" lemma="job" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:other">jobs</W>

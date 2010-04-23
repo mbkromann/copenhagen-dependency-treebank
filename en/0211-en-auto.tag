@@ -147,7 +147,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="1:mod">stacked</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">supermarkets</W>
-<W msd="VADA" tag="VBD" in="" out="-14:pnct|-13:subj|8:mod|10:pnct|5:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-14:pnct|-13:subj|5:preds|8:mod|10:pnct">was</W>
 <W msd="SP" tag="IN" in="" out="">for</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="ANP" tag="JJ" in="" out="">long</W>
@@ -188,9 +188,9 @@
 <W msd="NC=S" tag="NN" in="" out="1:ref|2:rel">grain</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|7:conj">draw</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:conj|2:@loc">draw</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">nitrogen</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:mod">out</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">air</W>

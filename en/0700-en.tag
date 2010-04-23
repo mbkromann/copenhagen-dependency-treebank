@@ -52,7 +52,7 @@
 <W msd="NP=S" tag="NNP" in="2:title" out="">Judge</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jette</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-2:title|-1:namef">Krog</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|2:vobj|7:pnct|8:mod|21:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|1:neg|2:vobj|7:pnct|8:mod|21:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:preds">find</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Dagø</W>
@@ -205,8 +205,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">matter</W>
 <W msd="PT" tag="WRB" in="-1:nobj|3:[mod]" out="2:rel">where</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:lobj">come</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="-3:[mod]">up</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:@dir">come</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="-3:[mod]">up</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>

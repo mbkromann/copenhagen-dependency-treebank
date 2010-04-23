@@ -61,8 +61,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">plans</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj|10:pnct">would</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|4:conj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">ecological</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">catastrophe</W>
@@ -74,7 +74,7 @@
 <W msd="CS" tag="IN" in="-21:mod" out="3:vobj">because</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">suddenly</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">people</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:mod|-1:subj|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:mod|-1:subj|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj|3:pobj">hear</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>
@@ -146,16 +146,16 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Volvo</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">engine</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-5:conj" out="-8:[subj]|-1:coord|1:dobj|3:lobj">sail</W>
+<W msd="VADR" tag="VBP" in="-5:conj" out="-8:[subj]|-1:coord|1:dobj|3:@dir">sail</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">boat</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">along</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">along</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">coast</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-19:mod|1:lobj|11:pnct">come</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-19:mod|1:@dir|11:pnct">come</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:pnct|6:appa">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">picturesque</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">tourist</W>
@@ -170,9 +170,9 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|9:[subj]" out="">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|8:conj|37:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:lobj">located</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:@loc">located</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">right</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="-1:mod|1:nobj">on</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="-1:mod|1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">stony</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">beach</W>

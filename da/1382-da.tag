@@ -207,7 +207,7 @@
 <W gloss="Justy" lemma="Justy" msd="NP--U==-" tag="NNP" in="3:subj" out="2:conj">Justy</W>
 <W gloss="nor" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-2:mod">eller</W>
 <W gloss="Alto" lemma="Alto" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Alto</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|3:pnct|9:conj|13:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:preds|3:pnct|9:conj|13:pnct">er</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
 <W gloss="the_program" lemma="program" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">programmet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -218,8 +218,8 @@
 <W gloss="Leone" lemma="Leone" msd="NP--U==-" tag="NNP" in="-3:appr" out="">Leone</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-4:subj|-5:coord|1:preds">er</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="">ud</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="">ud</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>

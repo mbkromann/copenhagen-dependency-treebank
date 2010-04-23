@@ -16,8 +16,8 @@
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-11:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VA" tag="MD" in="-12:rel" out="-1:subj|1:vobj|5:pnct">should</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj">lead</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">lead</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">referendum</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -88,7 +88,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="2:dobj">promise</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-2:dobj" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-2:dobj" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|7:pnct|8:mod">begin</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|3:nobj|4:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">final</W>

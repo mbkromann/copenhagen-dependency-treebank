@@ -113,7 +113,7 @@
 <s>
 <W gloss="Tholstrup" lemma="Tholstrup" msd="NP--U==-" tag="NNP" in="2:subj" out="1:nobj">Tholstrup</W>
 <W gloss="Cheese" lemma="Cheese" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Cheese</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|8:pnct|11:conj|28:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:preds|8:pnct|11:conj|28:pnct">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="only" lemma="eneste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">eneste</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">danske</W>
@@ -167,8 +167,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="1:time" out="">i_går</W>
-<W gloss="turned" lemma="vende" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:time|1:lobj">vendte</W>
-<W gloss="homes" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">hjem</W>
+<W gloss="turned" lemma="vende" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:time|1:@dir">vendte</W>
+<W gloss="homes" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="1:pobj">hjem</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="the_world's" lemma="verden" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:attr|2:possd|3:appr">verdens</W>
 <W gloss="largest" lemma="stor" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">største</W>
@@ -187,7 +187,7 @@
 <p>
 <s>
 <W gloss="Pasta" lemma="pasta" msd="NCCSU==I" tag="NN" in="1:subj" out="">Pasta</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:degr|10:pnct|3:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:degr|3:preds|10:pnct">er</W>
 <W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="-1:time" out="">endnu</W>
 <W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:preds" out="1:attr|2:nobj">en</W>

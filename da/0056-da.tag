@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="The_massacre" lemma="nedslagtning" msd="NCCSU==D" tag="NN" in="1:subj" out="">Nedslagtningen</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|5:pnct|1:dur">fortsatte</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|5:pnct">fortsatte</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:dur" out="2:nobj">i</W>
 <W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">20</W>
@@ -51,8 +51,8 @@
 </s>
 <s>
 <W gloss="Tanks" lemma="kampvogn" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Kampvognene</W>
-<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|11:pnct">kørte</W>
-<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="2:conj|3:loc">ind</W>
+<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:@dir|11:pnct">kørte</W>
+<W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="2:conj|3:loc">ind</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">ud</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:loc" out="4:nobj">mellem</W>
@@ -214,15 +214,15 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="had_been" lemma="blive" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj">blev</W>
-<W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">hjulpet</W>
-<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:lobj" out="1:other">væk</W>
+<W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">hjulpet</W>
+<W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="1:other">væk</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:other" out="1:nobj">fra</W>
 <W gloss="the_battlefield" lemma="slagmark" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">slagmarken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Afterward" lemma="bagefter" msd="RGU" tag="RP" in="1:succ" out="">Bagefter</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="1:subj|3:vobj|4:pnct|-1:succ">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|3:vobj|4:pnct">blev</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:subj|2:[subj]" out="1:possd">deres</W>
 <W gloss="camera" lemma="kamera" msd="NCNSU==I" tag="NN" in="-1:possd" out="">kamera</W>
 <W gloss="confiscated" lemma="konfiskere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]">konfiskeret</W>
@@ -246,7 +246,7 @@
 <W gloss="soldiers" lemma="soldat" msd="NCCPU==I" tag="NNP" in="3:subj|4:[subj]|6:[subj]" out="-1:attr">soldater</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="2:succ" out="1:nobj">efter</W>
 <W gloss="the_massacre" lemma="massakre" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">massakren</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-3:subj|1:vobj|-2:succ">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-3:subj|-2:succ|1:vobj">havde</W>
 <W gloss="tried" lemma="forsøge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">forsøgt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="dress" lemma="klæde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|2:dobj|3:pobj|6:goal">klæde</W>

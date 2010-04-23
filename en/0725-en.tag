@@ -45,7 +45,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|5:pnct|52:pnct|3:preds">find</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|3:preds|5:pnct|52:pnct">find</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="3:nobj">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">deeply</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">depressing</W>
@@ -101,7 +101,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|24:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|24:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">difficult</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">understand</W>
@@ -129,7 +129,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|48:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|48:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:pobj">reminiscent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod|10:ref|16:rel">the</W>
@@ -196,8 +196,8 @@
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-14:attr" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAF" tag="VB" in="-16:vobj" out="-15:[subj]|1:lobj|5:pnct|6:mod">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAF" tag="VB" in="-16:vobj" out="-15:[subj]|5:pnct|6:mod|1:@loc">come</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">caves</W>

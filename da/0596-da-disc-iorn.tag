@@ -46,13 +46,13 @@
 <W gloss="its" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sit</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">udgangspunkt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
-<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|9:pnct|10:struct|6:conj">de</W>
+<W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|6:conj|9:pnct|10:struct">de</W>
 <W gloss="existing" lemma="bestå" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">bestående</W>
 <W gloss="stores" lemma="lager" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="1:pobj">lagre</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">lægemidler</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="supply_lines" lemma="forsyningsvej" msd="NCCPU==D" tag="NNP" in="-6:conj" out="1:time|-1:coord">forsyningsvejene</W>
+<W gloss="supply_lines" lemma="forsyningsvej" msd="NCCPU==D" tag="NNP" in="-6:conj" out="-1:coord|1:time">forsyningsvejene</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="peacetime" lemma="fredstid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fredstid</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -92,7 +92,7 @@
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="and" lemma="samt" msd="CC" tag="CC" in="1:coord" out="">samt</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-18:conj" out="5:succ|-1:coord">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-18:conj" out="-1:coord|5:succ">i</W>
 <W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">cirka</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="3:tobj" out="-1:degr|1:nobj">to</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
@@ -125,7 +125,7 @@
 <W gloss="geographical" lemma="geografisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">geografisk</W>
 <W gloss="considerations" lemma="henseende" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">henseende</W>
 <W gloss="as_well" lemma="samt" msd="CC" tag="CC" in="1:coord" out="">samt</W>
-<W gloss="investigate" lemma="undersøge" msd="VAF-=----A-" tag="VB" in="-19:conj" out="-22:[subj]|1:dobj|23:modp|-1:coord">undersøge</W>
+<W gloss="investigate" lemma="undersøge" msd="VAF-=----A-" tag="VB" in="-19:conj" out="-22:[subj]|-1:coord|1:dobj|23:modp">undersøge</W>
 <W gloss="the_options" lemma="mulighed" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="1:pobj">mulighederne</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="8:vobj">for</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="7:subj|8:[subj]|14:[subj]" out="1:attr|2:nobj">en</W>
@@ -136,13 +136,13 @@
 <W gloss="crisis_situation" lemma="krisesituation" msd="NCCSU==I" tag="NN" in="2:err" out="">krisesituation</W>
 <W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="1:man" out="">hurtigt</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-2:err|-1:man|1:vobj|12:pnct">kan</W>
-<W gloss="be_distributed" lemma="distribuere" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-8:[subj]|1:man|2:lobj|6:conj">distribueres</W>
+<W gloss="be_distributed" lemma="distribuere" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-8:[subj]|1:man|6:conj|2:@dir">distribueres</W>
 <W gloss="uniformly" lemma="ligelig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">ligeligt</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="1:other">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:other">ud</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_country" lemma="land" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="distributed" lemma="fordele" msd="VAF-=----P-" tag="VB" in="-6:conj" out="-14:[subj]|1:pobj|-1:coord">fordeles</W>
+<W gloss="distributed" lemma="fordele" msd="VAF-=----P-" tag="VB" in="-6:conj" out="-14:[subj]|-1:coord|1:pobj">fordeles</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
 <W gloss="hospital_authorities" lemma="sygehusvæsen" msd="NCNSU==D" tag="NN" in="-1:nobj" out="2:conj">sygehusvæsenet</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -211,8 +211,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">der</W>
 <W gloss="the_timing" lemma="tidsmæssig" msd="ANP---=-R" tag="JJ" in="1:man" out="">tidsmæssigt</W>
-<W gloss="meet" lemma="række" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:man|1:lobj">rækker</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="meet" lemma="række" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:man|1:@dir">rækker</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
 <W gloss="aforementioned" lemma="nævne" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">nævnte</W>

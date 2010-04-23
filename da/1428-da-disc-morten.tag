@@ -55,9 +55,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="while" lemma="mens" msd="CS" tag="IN" in="-9:mod" out="2:vobj">mens</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|15:[subj]|18:[subj]|21:[subj]" out="">man</W>
-<W gloss="are_lying" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|5:pnct|6:mod|14:conj|16:pnct|17:conj|20:conj">ligger</W>
-<W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">under</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:nobj|1:attr">et</W>
+<W gloss="are_lying" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|5:pnct|6:mod|14:conj|16:pnct|17:conj|20:conj|1:@loc">ligger</W>
+<W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">under</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
 <W gloss="shady" lemma="skyggefuld" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">skyggefuldt</W>
 <W gloss="tree" lemma="træ" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">træ</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
@@ -98,7 +98,7 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:mod" out="2:nobj|4:pnct">for</W>
 <W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">god</W>
-<W gloss="orden" lemma="orden" msd="NCCSG==I" tag="NN" in="-2:nobj" out="1:possd|-1:attr">ordens</W>
+<W gloss="orden" lemma="orden" msd="NCCSG==I" tag="NN" in="-2:nobj" out="-1:attr|1:possd">ordens</W>
 <W gloss="fault" lemma="skyld" msd="NCCSU==I" tag="NN" in="-1:possd" out="">skyld</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="33" lemma="33" msd="AC---U=--" tag="CD" in="2:mod" out="1:nobj">33</W>
@@ -187,7 +187,7 @@
 <W gloss="insists" lemma="insistere" msd="VADR=----A-" tag="VBD" in="-15:ELAB&3a;exp/ATTR" out="-4:qobj|1:subj|2:mod|9:pnct|10:mod|59:pnct">insisterer</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="beneath" lemma="under" msd="SP" tag="IN" in="-2:mod" out="1:nobj">under</W>
-<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="5:nobj|4:attr">det</W>
+<W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="4:attr|5:nobj">det</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="1:numm" out="">flere</W>
 <W gloss="hundred" lemma="hundrede" msd="NCNPU==I" tag="NNP" in="2:mod" out="-1:numm|1:nobj">hundrede</W>
 <W gloss="year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
@@ -205,7 +205,7 @@
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-8:mod" out="1:nobj">på</W>
 <W gloss="back" lemma="ryg" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ryggen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-10:mod" out="1:nobj">i</W>
-<W gloss="his" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj" out="2:possd|3:pnct|4:conj|16:conj|34:conj|1:attr">sine</W>
+<W gloss="his" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd|3:pnct|4:conj|16:conj|34:conj">sine</W>
 <W gloss="orange" lemma="orange" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">orange</W>
 <W gloss="jeans" lemma="jeans" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">jeans</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -214,7 +214,7 @@
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">som</W>
 <W gloss="naturally" lemma="naturligvis" msd="RGU" tag="RP" in="1:mod" out="">naturligvis</W>
 <W gloss="makes" lemma="stille" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:mod|-2:subj|1:dobj|5:pobj|7:pnct">stiller</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="3:nobj|1:attr|2:attr">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj">et</W>
 <W gloss="tanned" lemma="solbrun" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">solbrunt</W>
 <W gloss="hairy" lemma="behåret" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="">behåret</W>
 <W gloss="chest" lemma="bryst" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">bryst</W>

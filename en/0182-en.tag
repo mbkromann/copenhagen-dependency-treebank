@@ -5,7 +5,7 @@
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="1:nobj">Roskilde</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cathedral</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|-5:mod|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|20:pnct|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|20:pnct">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">setting</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -35,11 +35,11 @@
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:tobj">ago</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-4:subj|-1:mod|2:dobj|4:lobj|10:pnct">drew</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-4:subj|-1:mod|2:dobj|10:pnct|4:@dir">drew</W>
 <W msd="SP" tag="IN" in="1:mod" out="">over</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:mod|1:nobj">20,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">listeners</W>
-<W msd="U=" tag="TO" in="-4:lobj" out="2:nobj">to</W>
+<W msd="U=" tag="TO" in="-4:@dir" out="2:nobj">to</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">sold-out</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|1:mod">concerts</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
@@ -68,7 +68,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">opportunity</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:preds|2:mod">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">present</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>

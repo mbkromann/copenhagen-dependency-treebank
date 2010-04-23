@@ -68,7 +68,7 @@
 <W msd="PT" tag="WRB" in="7:mod" out="3:vobj">When</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">convention</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:pnct|1:preds">becomes</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:preds|2:pnct">becomes</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">effective</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">one</W>
@@ -137,8 +137,8 @@
 <W msd="ANP" tag="RB" in="-6:attr" out="">simply</W>
 <W msd="VAF" tag="VB" in="-7:vobj" out="-25:[subj]|1:dobj">decide</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|1:lobj|4:conj">come</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|4:conj|1:@dir">come</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBP" in="-4:conj" out="-31:[subj]|-1:coord|1:dobj|4:vobj">have</W>
@@ -202,7 +202,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Union</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Treaty</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:subj|22:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:subj|1:preds|22:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="11:vobj">that</W>
 <W msd="PD" tag="DT" in="10:subj|11:[subj]" out="1:nobj|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="4:pobj">collaboration</W>

@@ -114,8 +114,8 @@
 <W msd="ANS" tag="JJS" in="-1:attr" out="">best</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">clothes</W>
 <W msd="VADA" tag="VBD" in="-10:conj" out="-3:subj|-4:coord|1:vobj">were</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">laid</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">out</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@loc">laid</W>
+<W msd="ANP" tag="RB" in="-1:@loc" out="">out</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -181,7 +181,7 @@
 <W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="2:mod" out="">though</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="SP" tag="IN" in="-13:modp" out="-2:mod|1:nobj|3:pnct|-1:neg">in</W>
+<W msd="SP" tag="IN" in="-13:modp" out="-2:mod|-1:neg|1:nobj|3:pnct">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tent</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>

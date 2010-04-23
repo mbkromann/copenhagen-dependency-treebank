@@ -7,7 +7,7 @@
 <W msd="CS" tag="IN" in="-2:conj" out="3:vobj">because</W>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">I</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">still</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">understand</W>
 <W msd="PT" tag="WRB" in="-1:dobj|5:[mod]" out="1:mod|5:rel">how</W>
@@ -16,9 +16,9 @@
 <W msd="VADR" tag="VBP" in="-1:possd" out="">name</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-5:[mod]|-1:subj|1:vobj">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">vote</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@dir">vote</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">us</W>
-<W msd="ANP" tag="RB" in="-2:lobj" out="1:mod">down</W>
+<W msd="ANP" tag="RB" in="-2:@dir" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="5:nobj">a</W>
 <W msd="ANP" tag="JJ" in="4:attr" out="1:pobj">third</W>

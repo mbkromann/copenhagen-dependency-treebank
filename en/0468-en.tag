@@ -2,8 +2,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">big</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">question</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|32:pnct|1:preds">is</W>
-<W msd="PT" tag="WP" in="7:[dobj]|-1:preds" out="4:rel">what</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|32:pnct">is</W>
+<W msd="PT" tag="WP" in="-1:preds|7:[dobj]" out="4:rel">what</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Nyrup</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|4:[subj]" out="-2:namef|-1:namel">Rasmussen</W>
@@ -25,7 +25,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Tamil</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">case</W>
 <W msd="VADR" tag="VBZ" in="-11:vobj" out="-6:subj|1:vobj">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|2:mod|1:preds">made</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:preds|2:mod">made</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">public</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -43,8 +43,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="-5:vobj" out="-6:[subj]|1:lobj">plunge</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="3:nobj">into</W>
+<W msd="NC=S" tag="NN" in="-5:vobj" out="-6:[subj]|1:@dir">plunge</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="3:nobj">into</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">homespun</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">philosophical</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:attr|1:pobj">considerations</W>

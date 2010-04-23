@@ -49,7 +49,7 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:preds|1:neg">were</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:neg|2:preds">were</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:vobj">be</W>
@@ -64,8 +64,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">prevented</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:lobj">coming</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:@dir">coming</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -196,7 +196,7 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hand</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-7:subj|-5:modp|2:vobj|62:pnct|1:neg">could</W>
+<W msd="VA" tag="MD" in="" out="-7:subj|-5:modp|1:neg|2:vobj|62:pnct">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-9:[subj]|4:dobj">support</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Deputy</W>
@@ -220,8 +220,8 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|21:pnct|22:appa">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">plan</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:mod|5:dobj">send</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|5:dobj|1:@dir">send</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">forcibly</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="SP" tag="IN" in="1:mod" out="-1:mod">under</W>

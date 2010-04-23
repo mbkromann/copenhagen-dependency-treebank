@@ -13,7 +13,7 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:mod|1:preds" out="">So</W>
-<W msd="VADA" tag="VBD" in="8:qobj" out="-1:mod|1:subj|6:pnct|7:pnct|-1:preds">was</W>
+<W msd="VADA" tag="VBD" in="8:qobj" out="-1:mod|-1:preds|1:subj|6:pnct|7:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:attr|3:attr">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="3:possd">neighbor's</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">large</W>
@@ -105,8 +105,8 @@
 <W msd="VAP" tag="VBN" in="-2:mod" out="">presumed</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">perpetrators</W>
 <W msd="VA" tag="MD" in="-5:vobj" out="-4:subj|1:vobj|3:mod">could</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:lobj|3:pnct|11:conj">walk</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">around</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|3:pnct|11:conj|1:@dir">walk</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="ANP" tag="JJ" in="-3:mod" out="">unrestricted</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="" out="-9:[subj]">break</W>
@@ -222,7 +222,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Police</W>
 <W msd="NP=S" tag="NNP" in="" out="">Commissioner's</W>
-<W msd="VADA" tag="VBD" in="" out="1:mod|2:subj|15:pnct|-10:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-10:preds|1:mod|2:subj|15:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">especially</W>
 <W msd="PI" tag="DT" in="-2:subj" out="5:pnct|6:ref|8:rel">a</W>
 <W msd="NC=S" tag="NN" in="" out="">couple</W>
@@ -250,7 +250,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Eefsen</W>
-<W msd="VADA" tag="VBD" in="" out="-10:mod|-1:subj|10:pnct|3:preds">reported</W>
+<W msd="VADA" tag="VBD" in="" out="-10:mod|-1:subj|3:preds|10:pnct">reported</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">amount</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="1:pobj">stolen</W>

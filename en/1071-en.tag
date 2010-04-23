@@ -56,7 +56,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|22:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|22:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">about</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|3:mod|8:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:appa">musician</W>
@@ -95,12 +95,12 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">spouses</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-14:mod|-1:subj|1:lobj|7:pnct">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VADR" tag="VBP" in="" out="-14:mod|-1:subj|7:pnct|1:@loc">go</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">charter</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:lobj">trip</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:@dir">trip</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -127,7 +127,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="14:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|5:coord|36:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|5:coord|36:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
 <W msd="SP" tag="IN" in="-2:preds" out="-1:mod|1:nobj">from</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -187,7 +187,7 @@
 </s>
 <s>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="21:qobj" out="-1:pnct|19:pnct|20:pnct|1:preds">It's</W>
+<W msd="NP=S" tag="NNP" in="21:qobj" out="-1:pnct|1:preds|19:pnct|20:pnct">It's</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">about</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">fact</W>

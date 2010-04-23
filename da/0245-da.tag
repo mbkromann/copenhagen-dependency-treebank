@@ -113,11 +113,11 @@
 <W gloss="the_core" lemma="kerne" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kernen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="2:[mod]|-12:conj" out="2:rel|-1:coord">hvordan</W>
+<W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-12:conj|2:[mod]" out="-1:coord|2:rel">hvordan</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="moving" lemma="bevæge" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj|2:lobj">bevæger</W>
+<W gloss="moving" lemma="bevæge" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj|2:@dir">bevæger</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="1:other">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:other">rundt</W>
 <W gloss="between" lemma="imellem" msd="SP" tag="IN" in="-1:other" out="1:nobj">imellem</W>
 <W gloss="each_other" lemma="hinanden" msd="PC--PU---" tag="PP" in="-1:nobj" out="">hinanden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-26:pnct" out="">.</W>
@@ -170,7 +170,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="1:neg">men</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-13:conj" out="1:nobj|-2:coord">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-13:conj" out="-2:coord|1:nobj">for</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="1:nobj">dem</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>

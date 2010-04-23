@@ -105,7 +105,7 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:other">De</W>
 <W gloss="next" lemma="næste" morph="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:other" out="">næste</W>
-<W gloss="were" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-26:+CONJ&3a;seq" out="-2:subj|11:pnct|17:+CONJ/(og)|1:preds">var</W>
+<W gloss="were" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-26:+CONJ&3a;seq" out="-2:subj|1:preds|11:pnct|17:+CONJ/(og)">var</W>
 <W gloss="Motorola" lemma="Motorola" msd="NP--U==-" tag="NNP" in="-1:preds" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">Motorola</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="Gatorade-Chateau_d'Ax" lemma="Gatorade-Chateau_d'Ax" msd="NP--U==-" tag="NNP" in="-2:conj" out="">Gatorade-Chateau_d'Ax</W>
@@ -139,9 +139,9 @@
 <W gloss="by_which" lemma="hvorved" msd="RGU" tag="RP" in="-3:ref|2:man" out="">hvorved</W>
 <W gloss="Skibby" lemma="Skibby" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">Skibby</W>
 <W gloss="would" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:man|1:vobj|8:pnct">var</W>
-<W gloss="come" lemma="komme" morph="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:lobj">kommet</W>
+<W gloss="come" lemma="komme" morph="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:@dir">kommet</W>
 <W gloss="far" lemma="lang" morph="lang" msd="ANP---=-R" tag="JJ" in="1:degr" out="">langt</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:lobj" out="-1:degr|1:other">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="-1:degr|1:other">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="overall" lemma="samle" morph="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">samlede</W>

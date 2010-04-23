@@ -74,7 +74,7 @@
 </s>
 <s>
 <W gloss="The_sculpture" lemma="skulptur" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Skulpturen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|14:pnct|9:conj">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|9:conj|14:pnct">er</W>
 <W gloss="signed" lemma="signere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">signeret</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">af</W>
 <W gloss="Louis" lemma="Louis" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Louis</W>
@@ -83,7 +83,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Glyptoteket" lemma="glyptotek" msd="NCNSU==D" tag="NN" in="1:subj" out="">Glyptoteket</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|1:dobj|-2:coord">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|1:dobj">har</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:other|2:other">en</W>
 <W gloss="similar" lemma="ligne" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:other" out="">lignende</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="1:nobj">i</W>
@@ -97,8 +97,8 @@
 <W gloss="Even_though" lemma="selv_om" msd="CS" tag="IN" in="10:conc" out="3:vobj">Selv_om</W>
 <W gloss="the_Art_Gallery" lemma="kunsthal" msd="NCCSU==D" tag="NN" in="2:subj" out="">Kunsthallen</W>
 <W gloss="recently" lemma="for_nylig" msd="RGU" tag="RP" in="1:time" out="">for_nylig</W>
-<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:lobj|6:pnct">flyttede</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="2:nobj">til</W>
+<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|6:pnct|1:@dir">flyttede</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="2:nobj">til</W>
 <W gloss="spacious" lemma="rummelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">rummelige</W>
 <W gloss="premises" lemma="lokale" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:loc">lokaler</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
@@ -196,7 +196,7 @@
 <W gloss="ligeknækket" lemma="ligeknækket" msd="ANP[CN]SU=IU" tag="JJ" in="-3:conj" out="1:pnct">ligeknækket</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-9:[subj]|1:pobj|-1:coord">står</W>
+<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-9:[subj]|-1:coord|1:pobj">står</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="60,000" lemma="60.000" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">60.000</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
@@ -205,7 +205,7 @@
 </p>
 <p>
 <s>
-<W gloss="Woodcuts" lemma="træsnit" msd="NCNPU==I" tag="NNP" in="7:subj" out="1:pnct|2:conj|5:other|4:conj">Træsnit</W>
+<W gloss="Woodcuts" lemma="træsnit" msd="NCNPU==I" tag="NNP" in="7:subj" out="1:pnct|2:conj|4:conj|5:other">Træsnit</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="applied_art" lemma="kunstindustri" msd="NCCSU==I" tag="NN" in="-2:conj" out="">kunstindustri</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -237,7 +237,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="sculptor" lemma="billedhugger" msd="NCCSU==I" tag="NN" in="-2:conj" out="">billedhugger</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="associate_professor" lemma="lektor" msd="NCCSU==I" tag="NN" in="-4:conj" out="1:pobj|-1:coord">lektor</W>
+<W gloss="associate_professor" lemma="lektor" msd="NCCSU==I" tag="NN" in="-4:conj" out="-1:coord|1:pobj">lektor</W>
 <W gloss="at" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="the_Royal_Academy_of_Fine_Art" lemma="kunstakademi" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">Kunstakademiet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>

@@ -8,7 +8,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PD" tag="DT" in="-2:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">players</W>
-<W msd="VA" tag="MD" in="" out="-9:subj|2:vobj|6:pnct|1:neg">could</W>
+<W msd="VA" tag="MD" in="" out="-9:subj|1:neg|2:vobj|6:pnct">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-11:[subj]|1:dobj">soften</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">the</W>
@@ -76,8 +76,8 @@
 <s>
 <W msd="CS" tag="IN" in="16:mod" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:lobj|2:mod|4:pnct|5:modp">wash</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|4:pnct|5:modp|1:@loc">wash</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Trabzonspor</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
@@ -149,7 +149,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">that</W>
-<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|2:preds|4:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:neg|2:preds|4:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>

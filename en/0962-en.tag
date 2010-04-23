@@ -115,12 +115,12 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">having</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|5:lobj">carry</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|5:@dir">carry</W>
 <W msd="PD" tag="PDT" in="-1:dobj" out="1:nobj">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unwanted</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">mail</W>
-<W msd="SP" tag="IN" in="-5:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-5:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">house</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
@@ -169,14 +169,14 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|7:lobj|13:pnct|15:mod|25:pnct">collected</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|13:pnct|15:mod|25:pnct|7:@loc">collected</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:possd">a</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">year's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="1:pobj">worth</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">junk</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">mail</W>
-<W msd="SP" tag="IN" in="-7:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-7:@loc" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">spike</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -214,7 +214,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stack</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|6:conj|9:pnct|4:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|4:preds|6:conj|9:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
 <W msd="AC" tag="CD" in="2:mod" out="-1:mod|1:nobj">2</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>

@@ -166,9 +166,9 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">children</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-10:conj" out="-11:[subj]|-1:coord|1:dobj|2:lobj">pull</W>
+<W msd="VAF" tag="VB" in="-10:conj" out="-11:[subj]|-1:coord|1:dobj|2:@loc">pull</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="4:ref|6:rel">something</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:mod">out</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
 <W msd="SP" tag="IN" in="-4:ref|2:dobj" out="">that</W>
@@ -205,7 +205,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|-6:[lobj]">drawn</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|-2:coord|1:mod|3:preds|2:neg">are</W>
+<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|-2:coord|1:mod|2:neg|3:preds">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">definitely</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:nobj">in</W>

@@ -13,7 +13,7 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:ref|9:rel">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|12:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|2:preds|12:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr|1:pnct|3:appa">sister</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -74,7 +74,7 @@
 <W msd="NP=S" tag="NNP" in="13:subj|15:[subj]|17:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Tilly</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|9:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|3:preds|9:pnct">is</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
 <W msd="ANC" tag="JJR" in="-3:preds" out="-2:mod|1:pobj">younger</W>
@@ -127,8 +127,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
 <W msd="PD" tag="DT" in="1:mod" out="">both</W>
-<W msd="VAP" tag="VBN" in="-11:conj" out="-3:mod|-1:mod|-2:subj|-4:coord|1:lobj|2:mod|3:pnct|4:mod">backed</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VAP" tag="VBN" in="-11:conj" out="-3:mod|-1:mod|-2:subj|-4:coord|2:mod|3:pnct|4:mod|1:@loc">backed</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="1:nobj">so</W>
@@ -195,7 +195,7 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:pnct|3:qobj|14:pnct#|15:pnct">thought</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="PD" tag="DT" in="1:subj|4:[dobj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="-3:qobj" out="-1:subj|6:conj|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:qobj" out="-1:subj|1:preds|6:conj">is</W>
 <W msd="PT" tag="WP" in="-1:preds" out="2:rel">what</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Hollywood</W>
 <W msd="VADR" tag="VBZ" in="-2:rel" out="-4:[dobj]|-1:subj|1:pnct">wants</W>

@@ -100,7 +100,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">black-white</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:dobj">deserve</W>
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">better</W>
@@ -128,8 +128,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">yawn</W>
 <W msd="ANP" tag="RB" in="-4:avobj" out="">away</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-6:conj" out="-7:[subj]|-1:coord|1:lobj">leans</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">forward</W>
+<W msd="VADR" tag="VBZ" in="-6:conj" out="-7:[subj]|-1:coord|1:@dir">leans</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">forward</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">chair</W>

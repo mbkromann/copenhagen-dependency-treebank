@@ -110,9 +110,9 @@
 </p>
 <p>
 <s>
-<W gloss="smokes" lemma="ryge" msd="VADR=----A-" tag="VBD" in="13:cond" out="1:subj|2:lobj|3:other|5:pnct|6:conc">Ryger</W>
+<W gloss="smokes" lemma="ryge" msd="VADR=----A-" tag="VBD" in="13:cond" out="1:subj|3:other|5:pnct|6:conc|2:@dir">Ryger</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:lobj" out="">ud</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="">ud</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:other" out="1:nobj">mod</W>
 <W gloss="Trabzonspor" lemma="Trabzonspor" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Trabzonspor</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
@@ -136,9 +136,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Starting_money" lemma="startpenge" msd="NCCPU==I" tag="NNP" in="" out="6:pnct|7:pnct|2:conj">Startpenge</W>
+<W gloss="Starting_money" lemma="startpenge" msd="NCCPU==I" tag="NNP" in="" out="2:conj|6:pnct|7:pnct">Startpenge</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="whatever" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="3:[dobj]|-2:conj" out="3:rel|-1:coord">hvad</W>
+<W gloss="whatever" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:conj|3:[dobj]" out="-1:coord|3:rel">hvad</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj" out="">det</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:other" out="">nu</W>
 <W gloss="says" lemma="hedde" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-2:subj|-3:[dobj]|-1:other">hedder</W>
@@ -181,7 +181,7 @@
 <W gloss="negotiations" lemma="forhandling" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|3:conj">forhandlinger</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:err">og</W>
 <W gloss="new" lemma="ny" msd="XX" tag="FW" in="-1:err" out="">ny</W>
-<W gloss="a" lemma="en" msd="XX" tag="FW" in="-3:conj" out="1:attr|2:nobj|-2:coord">en</W>
+<W gloss="a" lemma="en" msd="XX" tag="FW" in="-3:conj" out="-2:coord|1:attr|2:nobj">en</W>
 <W gloss="constructive" lemma="konstruktiv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">konstruktiv</W>
 <W gloss="dialogue" lemma="dialog" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">dialog</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
@@ -255,7 +255,7 @@
 <W gloss="energetic" lemma="energisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">energiske</W>
 <W gloss="rebels" lemma="oprører" msd="XX" tag="FW" in="-3:nobj" out="2:conj">oprører</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="fighters" lemma="forkæmper" msd="NCCPU==I" tag="NNP" in="-2:conj" out="1:pobj|-1:coord">forkæmpere</W>
+<W gloss="fighters" lemma="forkæmper" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord|1:pobj">forkæmpere</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="amendments" lemma="ændring" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">ændringer</W>
 <W gloss="to" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

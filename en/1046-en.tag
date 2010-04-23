@@ -106,7 +106,7 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">numbers</W>
-<W msd="VADR" tag="VBP" in="-6:conj" out="-2:subj|-3:coord|2:mod|3:vobj|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-6:conj" out="-2:subj|-3:coord|1:neg|2:mod|3:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:vobj">been</W>
@@ -152,11 +152,11 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">debate</W>
 <W msd="VA" tag="MD" in="41:qobj" out="-3:pnct|-2:subj|1:vobj|39:pnct|40:pnct">must</W>
-<W msd="VADA" tag="VBD" in="-1:vobj" out="-3:[subj]|1:dobj|4:lobj">sent</W>
+<W msd="VADA" tag="VBD" in="-1:vobj" out="-3:[subj]|1:dobj|4:@dir">sent</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">clear</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="11:pobj">message</W>
-<W msd="U=" tag="TO" in="-4:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-4:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:ref|2:rel">those</W>
 <W msd="PT" tag="WP" in="-1:ref|1:subj" out="">who</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:preds">are</W>
@@ -186,7 +186,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">international</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">norms</W>
-<W msd="VA" tag="MD" in="-10:vobj" out="-8:subj|2:vobj|1:neg">will</W>
+<W msd="VA" tag="MD" in="-10:vobj" out="-8:subj|1:neg|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]">permitted</W>

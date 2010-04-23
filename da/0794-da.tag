@@ -47,8 +47,8 @@
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="EC_defence_policy" lemma="EF-forsvarspolitik" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">EF-forsvarspolitik</W>
 <W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:vobj|3:ext|4:time|7:reas|44:pnct">skal</W>
-<W gloss="be_taken" lemma="tage" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-5:[subj]|1:lobj">tages</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="be_taken" lemma="tage" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-5:[subj]|1:@dir">tages</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-3:ext" out="">igen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:time" out="1:nobj">i</W>
 <W gloss="1996" lemma="1996" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1996</W>
@@ -75,7 +75,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="1:subj|2:[subj]" out="">som</W>
-<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:subj|1:vobj|-2:coord">skal</W>
+<W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:subj|-2:coord|1:vobj">skal</W>
 <W gloss="include" lemma="omfatte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">omfatte</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="evaluation" lemma="evaluering" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">evaluering</W>
@@ -203,7 +203,7 @@
 <W gloss="European" lemma="europæisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">Europæiske</W>
 <W gloss="Union" lemma="union" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">Union</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-9:conj" out="1:nobj|-1:coord">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-9:conj" out="-1:coord|1:nobj">som</W>
 <W gloss="a" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">det</W>
 <W gloss="means" lemma="middel" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">middel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -231,7 +231,7 @@
 <W gloss="European" lemma="europæisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="">europæisk</W>
 <W gloss="defence_policy" lemma="forsvarspolitik" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">forsvarspolitik</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="promote" lemma="fremme" msd="VAF-=----A-" tag="VB" in="-6:conj" out="-7:[subj]|1:dobj|4:man|-1:coord">fremme</W>
+<W gloss="promote" lemma="fremme" msd="VAF-=----A-" tag="VB" in="-6:conj" out="-7:[subj]|-1:coord|1:dobj|4:man">fremme</W>
 <W gloss="its" lemma="denne" msd="PD-CSG--U" tag="DT" in="-1:dobj" out="1:attr|2:possd">dennes</W>
 <W gloss="concrete" lemma="konkret" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">konkrete</W>
 <W gloss="implementation" lemma="gennemførelse" msd="NCCSU==I" tag="NN" in="-2:possd" out="">gennemførelse</W>

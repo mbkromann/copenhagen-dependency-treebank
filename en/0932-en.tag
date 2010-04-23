@@ -101,7 +101,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-23:conj" out="-1:subj|-2:coord|1:preds">is</W>
-<W msd="PT" tag="WRB" in="1:[mod]|-1:preds" out="1:rel">why</W>
+<W msd="PT" tag="WRB" in="-1:preds|1:[mod]" out="1:rel">why</W>
 <W msd="NP=S" tag="NNP" in="-1:rel|1:[subj]|3:[subj]" out="-1:[mod]|1:vobj">I'm</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:dobj">trying</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -124,7 +124,7 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:ref|9:rel">it</W>
-<W msd="VADR" tag="VBZ" in="39:qobj" out="-3:mod|-1:subj|6:pnct|36:pnct|37:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="39:qobj" out="-3:mod|-1:subj|1:preds|6:pnct|36:pnct|37:pnct">is</W>
 <W msd="AC" tag="CD" in="-1:preds" out="1:nobj|2:mod">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">buskers</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
@@ -132,8 +132,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Onkels</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-8:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBP" in="-9:rel" out="-1:subj|1:lobj|10:mod">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">from</W>
+<W msd="VADR" tag="VBP" in="-9:rel" out="-1:subj|10:mod|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">from</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">completely</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="1:nobj|2:pobj">different</W>

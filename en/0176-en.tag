@@ -5,8 +5,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:mod" out="1:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="-1:vobj|1:[subj]" out="1:vobj">I'm</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:lobj">standing</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">here</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:@loc">standing</W>
+<W msd="ANP" tag="RB" in="-1:@loc" out="">here</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -58,8 +58,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:mod">Elmegaard</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="1:lobj">looking</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="1:@loc">looking</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kronprinsensgade</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -102,8 +102,8 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">shoes</W>
 <W msd="VADR" tag="VBP" in="-13:conj" out="-3:subj|-4:coord|1:mod|2:vobj">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-5:[subj]|1:lobj|4:mod">walking</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">around</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-5:[subj]|1:@dir|4:mod">walking</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:mod">around</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
@@ -218,7 +218,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|-2:mod|2:preds|4:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|-2:mod|1:neg|2:preds|4:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sale</W>

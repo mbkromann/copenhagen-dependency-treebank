@@ -28,8 +28,8 @@
 <W msd="CC" tag="CC" in="" out="3:conj|7:pnct">But</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">you</W>
 <W msd="PP" tag="PRP" in="1:mod" out="">yourself</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|-1:mod|1:lobj|3:mod">got</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|-1:mod|1:@loc|3:mod">got</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
 <W msd="ANP" tag="JJ" in="-3:mod" out="-1:mod">unharmed</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -84,8 +84,8 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct">were</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj">stay</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@loc">stay</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">road</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -105,7 +105,7 @@
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|2:vobj|9:pnct|1:neg">had</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-4:mod|1:neg|2:vobj|9:pnct">had</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:iobj|2:dobj|3:mod">caused</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj" out="">others</W>
@@ -128,8 +128,8 @@
 <s>
 <W msd="CS" tag="IN" in="6:mod" out="2:vobj">Before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|2:pnct">went</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">out</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc|2:pnct">went</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:pnct|3:qobj|15:pnct">said</W>

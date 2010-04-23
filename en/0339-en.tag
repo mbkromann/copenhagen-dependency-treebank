@@ -73,7 +73,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">enemy</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:mod|3:preds|5:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:neg|2:mod|3:preds|5:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:nobj">the</W>
@@ -106,8 +106,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">type</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:vobj">have</W>
-<W msd="VADA" tag="VBD" in="-1:vobj" out="-2:[subj]|1:lobj">snuck</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADA" tag="VBD" in="-1:vobj" out="-2:[subj]|1:@dir">snuck</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="VADR" tag="VBP" in="" out="-10:subj|1:preds|3:pnct">are</W>

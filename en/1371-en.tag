@@ -106,7 +106,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|7:pnct|8:mod|21:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|7:pnct|8:mod|21:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">fine</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">play</W>
@@ -153,8 +153,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:aobj">look</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">stupid</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|4:mod">play</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="4:mod|1:@loc">play</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Wembley</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Stadium</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>

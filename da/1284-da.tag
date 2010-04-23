@@ -197,7 +197,7 @@
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-7:mod" out="1:nobj">fra</W>
 <W gloss="the_commission" lemma="kommission" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kommissionen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-11:mod|1:expl|4:dobj|2:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-11:mod|1:expl|2:neg|4:dobj">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="2:pobj">så</W>
@@ -237,14 +237,14 @@
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-2:nobj" out="2:conj">Danmark</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="-2:mod">og</W>
 <W gloss="Sweden" lemma="Sverige" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Sverige</W>
-<W gloss="do_understand" lemma="forstå" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|3:pnct|4:dobj|8:pnct|2:neg">forstår</W>
+<W gloss="do_understand" lemma="forstå" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|2:neg|3:pnct|4:dobj|8:pnct">forstår</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:mod" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:mod">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-4:dobj|3:[nobj]" out="2:rel">hvor</W>
 <W gloss="the_rumour" lemma="rygte" msd="NCNSU==D" tag="NN" in="1:subj" out="">rygtet</W>
-<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:lobj">kommer</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="-3:[nobj]">fra</W>
+<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:@dir">kommer</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="-3:[nobj]">fra</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
 </s>
 </p>

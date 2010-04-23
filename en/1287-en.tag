@@ -102,10 +102,10 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">man</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:lobj">ride</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:@dir">ride</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">motorcycle</W>
-<W msd="U=" tag="TO" in="-3:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-3:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">South</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Pole</W>
@@ -117,8 +117,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:dobj|7:pnct|9:mod|12:pnct">made</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">trip</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@dir">trip</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">North</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Pole</W>
@@ -131,7 +131,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|3:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|3:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1987</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

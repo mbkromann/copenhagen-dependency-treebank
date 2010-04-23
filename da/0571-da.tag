@@ -45,11 +45,11 @@
 <s>
 <W gloss="Rocky" lemma="Rocky" msd="NP--U==-" tag="NNP" in="1:namef" out="">Rocky</W>
 <W gloss="Sullivan" lemma="Sullivan" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Sullivan</W>
-<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:succ|4:lobj|16:pnct">vender</W>
+<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:succ|16:pnct|4:@dir">vender</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:succ" out="1:nobj">efter</W>
 <W gloss="15" lemma="15" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">15</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-4:lobj" out="1:other">tilbage</W>
+<W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-4:@dir" out="1:other">tilbage</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="Chicago's" lemma="Chicago" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|2:pnct|3:ref|5:rel">Chicagos</W>
 <W gloss="slum_quarters" lemma="slumkvarter" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">slumkvarterer</W>
@@ -87,7 +87,7 @@
 </s>
 <s>
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="1:subj|3:[subj]|12:[subj]|13:[subj]" out="">Denne</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:vobj|14:pnct|11:conj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:vobj|11:conj|14:pnct">har</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
 <W gloss="put" lemma="lægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|6:pobj">lagt</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:other">de</W>
@@ -98,7 +98,7 @@
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-6:pobj" out="1:nobj">på</W>
 <W gloss="the_shelf" lemma="hylde" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hylden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|1:vobj|-1:coord">er</W>
+<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:vobj">er</W>
 <W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-13:[subj]|1:preds">blevet</W>
 <W gloss="priest" lemma="præst" msd="NCCSU==I" tag="NN" in="-1:preds" out="">præst</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -230,8 +230,8 @@
 <W gloss="On" lemma="på" msd="SP" tag="IN" in="7:loc" out="1:nobj">På</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="long" lemma="lang" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">lange</W>
-<W gloss="train_journey" lemma="togrejse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:lobj">togrejse</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="1:other">hjem</W>
+<W gloss="train_journey" lemma="togrejse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:@dir">togrejse</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="1:other">hjem</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="mother" lemma="moder" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">moderen</W>
 <W gloss="meets" lemma="træffe" msd="VADR=----A-" tag="VBD" in="" out="-7:loc|1:subj|2:dobj|18:pnct">træffer</W>
@@ -245,7 +245,7 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|4:nobj">den</W>
 <W gloss="one" lemma="ene" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="2:conj">ene</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="another" lemma="anden" msd="PI-CSU--U" tag="DT" in="-2:conj" out="1:[nobj]|-1:coord">anden</W>
+<W gloss="another" lemma="anden" msd="PI-CSU--U" tag="DT" in="-2:conj" out="-1:coord|1:[nobj]">anden</W>
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-4:nobj|-1:[nobj]" out="">måde</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-7:subj|-6:man|1:vobj">er</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:vobj">blevet</W>

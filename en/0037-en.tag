@@ -59,8 +59,8 @@
 <W msd="CS" tag="IN" in="9:mod" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">competitors</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:lobj|4:pnct">go</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">down</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:@dir|4:pnct">go</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -115,7 +115,7 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj|4:[subj]|5:[subj]|7:[subj]" out="1:nobj">600</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Brugsens</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|2:vobj|3:vobj|7:pnct|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:neg|2:vobj|3:vobj|7:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">been</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:dobj">allowed</W>
@@ -204,8 +204,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rest</W>
 <W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|7:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">from</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">from</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|3:nobj">an</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">expected</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">sales</W>

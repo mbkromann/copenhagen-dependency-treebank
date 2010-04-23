@@ -64,7 +64,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|2:possd">Denmark's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">economic</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">policy</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|-6:subj|2:mod|16:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|-6:subj|2:mod|3:preds|16:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">again</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:pobj">about</W>
@@ -92,8 +92,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Social</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Democrats</W>
-<W msd="VADA" tag="VBD" in="-9:vobj" out="-8:mod|-3:subj|1:lobj|2:mod|8:pobj">came</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">out</W>
+<W msd="VADA" tag="VBD" in="-9:vobj" out="-8:mod|-3:subj|2:mod|8:pobj|1:@loc">came</W>
+<W msd="RG" tag="RP" in="-1:@loc" out="">out</W>
 <W msd="PD" tag="DT" in="-2:mod" out="1:nobj|3:pnct|4:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">same</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
@@ -113,7 +113,7 @@
 <W msd="PD" tag="DT" in="3:subj|6:[subj]|8:[subj]|9:[subj]" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">ideological/moral</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">differences</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|3:conj|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:preds|3:conj">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">clear</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VA" tag="MD" in="-3:conj" out="-6:[subj]|-1:coord|1:mod|2:vobj">may</W>

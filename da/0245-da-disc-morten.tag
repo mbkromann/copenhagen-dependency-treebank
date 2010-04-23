@@ -115,9 +115,9 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-12:conj|2:[mod]" out="-1:coord|2:rel">hvordan</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="moving" lemma="bevæge" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj|2:lobj">bevæger</W>
+<W gloss="moving" lemma="bevæge" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj|2:@dir">bevæger</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="1:other">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:other">rundt</W>
 <W gloss="between" lemma="imellem" msd="SP" tag="IN" in="-1:other" out="1:nobj">imellem</W>
 <W gloss="each_other" lemma="hinanden" msd="PC--PU---" tag="PP" in="-1:nobj" out="">hinanden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-26:pnct" out="">.</W>
@@ -255,7 +255,7 @@
 <W gloss="forces" lemma="kraft" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kræfter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-5:ref|1:subj" out="">der</W>
-<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|5:loc|4:preds">holder</W>
+<W gloss="hold" lemma="holde" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|4:preds|5:loc">holder</W>
 <W gloss="the_neutrons" lemma="neutron" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="2:conj">neutronerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_protons" lemma="proton" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">protonerne</W>

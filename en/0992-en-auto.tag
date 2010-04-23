@@ -85,7 +85,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Jackson</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|4:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|1:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="1:mod">back</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Europe</W>
@@ -143,8 +143,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">stage</W>
 <W msd="NC=S" tag="NN" in="-5:conj" out="-1:mod|-2:coord">equipment</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="VAP" tag="VBN" in="-10:mod" out="-10:[subj]|1:lobj|3:mod">flown</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-10:mod" out="-10:[subj]|1:@dir|3:mod">flown</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Europe</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">two</W>
@@ -158,8 +158,8 @@
 <W msd="SP" tag="IN" in="" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">stage</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">costumes</W>
-<W msd="VAP" tag="VBN" in="-5:mod" out="-5:[subj]|1:lobj">divided</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-5:mod" out="-5:[subj]|1:@dir">divided</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="3:pnct|7:modp">two</W>
 <W msd="ANP" tag="JJ" in="" out="">big</W>
 <W msd="NC=P" tag="NNS" in="" out="">rigs</W>
@@ -175,10 +175,10 @@
 <W msd="SP" tag="IN" in="3:pobj" out="">with</W>
 <W msd="PT" tag="WDT" in="" out="">which</W>
 <W msd="U=" tag="TO" in="-7:mod" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:pobj|1:dobj|3:lobj">freight</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:pobj|1:dobj|3:@dir">freight</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">gear</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">around</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">around</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">continent</W>
 <W msd="XP" tag="&3a;" in="-14:pnct" out="">-</W>

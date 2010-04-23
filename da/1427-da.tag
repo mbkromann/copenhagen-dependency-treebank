@@ -43,7 +43,7 @@
 <s>
 <W gloss="ANTHONY" lemma="Anthony" msd="NP--U==-" tag="NNP" in="1:namef" out="">ANTHONY</W>
 <W gloss="HOPKINS" lemma="Hopkins" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">HOPKINS</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:mod|3:preds|6:pnct|1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:mod|3:preds|6:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:mod" out="">kun</W>
 <W gloss="evil" lemma="ond" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="2:conj">ond</W>
@@ -157,8 +157,8 @@
 <W gloss="have" lemma="nødt" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">nødt</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-20:[subj]|1:lobj|3:conj">gå</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="">ud</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-20:[subj]|3:conj|1:@dir">gå</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="">ud</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="check" lemma="checke" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-23:[subj]|-1:coord|1:dobj|2:mod">checke</W>
 <W gloss="the_car" lemma="bil" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">bilen</W>

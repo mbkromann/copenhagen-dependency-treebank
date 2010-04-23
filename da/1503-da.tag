@@ -51,7 +51,7 @@
 <W gloss="publikumsidolerne" lemma="publikumsidol" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">publikumsidolerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-2:coord|1:dobj|-1:neg">har</W>
+<W gloss="do_have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-2:coord|-1:neg|1:dobj">har</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:dobj" out="1:mod">nok</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:mod" out="1:vobj">at</W>
 <W gloss="welcome" lemma="byde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|2:mod">byde</W>
@@ -66,7 +66,7 @@
 </p>
 <p>
 <s>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:xtop" out="1:subj|5:preds|7:pnct|9:ref|4:neg">Er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:xtop" out="1:subj|4:neg|5:preds|7:pnct|9:ref">Er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">det</W>
 <W gloss="athletic" lemma="sportslig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">sportslige</W>
 <W gloss="tenders" lemma="tilbud" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">tilbud</W>
@@ -127,11 +127,11 @@
 <s>
 <W gloss="soberly" lemma="nøgtern" msd="ANP---=-R" tag="JJ" in="1:mod" out="">Nøgternt</W>
 <W gloss="Assessed" lemma="vurdere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="1:mod" out="-1:mod">vurderet</W>
-<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|4:lobj|19:pnct">vender</W>
+<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|4:@dir|19:pnct">vender</W>
 <W gloss="the_Lyngby_players" lemma="Lyngbyspiller" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">Lyngbyspillerne</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:mod" out="1:nobj">næste</W>
 <W gloss="week" lemma="uge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">uge</W>
-<W gloss="homes" lemma="hjem" msd="RGU" tag="RP" in="-4:lobj" out="1:mod">hjem</W>
+<W gloss="homes" lemma="hjem" msd="RGU" tag="RP" in="-4:@dir" out="1:mod">hjem</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|4:preds">med</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">nogle</W>
 <W gloss="athletic" lemma="sportslig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">sportslige</W>
@@ -187,8 +187,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="is_being_moved" lemma="flytte" msd="VADR=----P-" tag="VBD" in="15:qobj" out="-1:expl|-2:pnct|1:lobj|4:mod|14:pnct">flyttes</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">fra</W>
+<W gloss="is_being_moved" lemma="flytte" msd="VADR=----P-" tag="VBD" in="15:qobj" out="-1:expl|-2:pnct|4:mod|14:pnct|1:@dir">flyttes</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">fra</W>
 <W gloss="Lyngby" lemma="Lyngby" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Lyngby</W>
 <W gloss="Stadium" lemma="stadion" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Stadion</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>

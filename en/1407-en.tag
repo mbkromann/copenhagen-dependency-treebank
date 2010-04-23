@@ -9,8 +9,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">football</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">players</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|-9:mod|1:vobj|9:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:lobj|4:mod|5:mod">get</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">out</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|4:mod|5:mod|1:@loc">get</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bed</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="">quickly</W>
@@ -35,7 +35,7 @@
 <W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="U=" tag="EX" in="1:expl|4:[expl]" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|2:mod|3:vobj|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:neg|2:mod|3:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[expl]|1:dobj">been</W>
@@ -117,7 +117,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|2:vobj|3:pnct|4:mod|12:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:neg|2:vobj|3:pnct|4:mod|12:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]">exaggerating</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

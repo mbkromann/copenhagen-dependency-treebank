@@ -87,7 +87,7 @@
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|3:subj" out="">der</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:other" out="1:aobj">til</W>
 <W gloss="daily" lemma="daglig" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="">daglig</W>
-<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|3:pnct|1:@loc">spiller</W>
+<W gloss="plays" lemma="spille" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-2:other|1:@loc|3:pnct">spiller</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Lille" lemma="Lille" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Lille</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -104,7 +104,7 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="2:subj|3:vobj|24:pnct">har</W>
 <W gloss="Jakob" lemma="Jakob" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jakob</W>
 <W gloss="Friis-Hansen" lemma="Friis-Hansen" msd="NP--U==-" tag="NNP" in="-2:subj|1:[subj]" out="-1:namef">Friis-Hansen</W>
-<W gloss="played" lemma="spille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-1:[subj]|-5:dobj|3:other|1:@loc">spillet</W>
+<W gloss="played" lemma="spille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-1:[subj]|-5:dobj|1:@loc|3:other">spillet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="France" lemma="Frankrig" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Frankrig</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:other" out="1:nobj">i</W>
@@ -139,8 +139,8 @@
 <W gloss="thirsty" lemma="tørste" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:pobj|6:pnct">tørster</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">efter</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="play" lemma="spille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[dobj]|1:lobj">spille</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="play" lemma="spille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[dobj]|1:@loc">spille</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_national_team" lemma="landshold" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">landsholdet</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-6:pnct" out=""> - </W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -220,8 +220,8 @@
 <W gloss="OB's" lemma="OB" msd="NP--G==-" tag="NNP" in="3:subj" out="2:possd">OBs</W>
 <W gloss="Johnny" lemma="Johnny" msd="NP--U==-" tag="NNP" in="1:namef" out="">Johnny</W>
 <W gloss="Hansen" lemma="Hansen" msd="NP--U==-" tag="NNP" in="-2:possd" out="-1:namef">Hansen</W>
-<W gloss="will_start" lemma="starte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:lobj|2:other|4:pnct|5:other|22:pnct">starter</W>
-<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-1:lobj" out="">inde</W>
+<W gloss="will_start" lemma="starte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:other|4:pnct|5:other|22:pnct|1:@loc">starter</W>
+<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-1:@loc" out="">inde</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:other" out="1:nobj">som</W>
 <W gloss="forstopper" lemma="forstopper" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forstopper</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

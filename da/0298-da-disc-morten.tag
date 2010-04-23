@@ -43,7 +43,7 @@
 <W gloss="Elise" lemma="Elise" msd="NP--U==-" tag="NNP" in="1:namef" out="">Elise</W>
 <W gloss="Gug's" lemma="Gug" msd="NP--G==-" tag="NNP" in="2:subj" out="-1:namef|1:possd">Gugs</W>
 <W gloss="workplace" lemma="værksted" msd="NCNSU==I" tag="NN" in="-1:possd" out="">værksted</W>
-<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|25:pnct|30:CAUSE&3a;expl/nemlig|1:@loc">ligger</W>
+<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:@loc|25:pnct|30:CAUSE&3a;expl/nemlig">ligger</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj|5:loc">i</W>
 <W gloss="the_heart" lemma="hjerte" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">hjertet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -106,8 +106,8 @@
 <W gloss="greatest" lemma="stor" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">største</W>
 <W gloss="luxury" lemma="luksus" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">luksus</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-4:preds" out="1:vobj">at</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|2:pobj|9:conj">komme</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:lobj" out="">hjem</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:pobj|9:conj|1:@dir">komme</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">et</W>
 <W gloss="really" lemma="rigtig" msd="ANP---=-R" tag="JJ" in="1:attr" out="">rigtig</W>
@@ -115,9 +115,9 @@
 <W gloss="home_decor_magazine" lemma="interiør-blad" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">interiør-blad</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:time" out="">så</W>
-<W gloss="slamming" lemma="smække" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-1:time|-2:coord|1:dobj|2:lobj|5:man">smække</W>
+<W gloss="slamming" lemma="smække" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-1:time|-2:coord|1:dobj|2:@dir|5:man">smække</W>
 <W gloss="legs" lemma="ben" msd="NCNPU==D" tag="NNP" in="-1:dobj" out="">benene</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:lobj" out="1:other">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="1:other">op</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_sofa" lemma="sofa" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sofaen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-5:man" out="1:nobj">med</W>

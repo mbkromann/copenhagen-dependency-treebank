@@ -198,8 +198,8 @@
 <W msd="PT" tag="WP" in="-4:ref|1:subj|3:[subj]" out="">who</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:mod|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">voluntarily</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj|4:mod|9:pnct|10:mod">come</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="1:mod">home</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|4:mod|9:pnct|10:mod|1:@dir">come</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="1:mod">home</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Thailand</W>
 <W msd="SP" tag="IN" in="-4:mod" out="">for</W>
@@ -213,8 +213,8 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">otherwise</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">risked</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="1:vobj">being</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="1:lobj|5:mod">thrown</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="1:@dir|5:mod">thrown</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="">into</W>
 <W msd="PI" tag="DT" in="" out="1:mod">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Thai</W>
 <W msd="NC=S" tag="NN" in="" out="">jail</W>

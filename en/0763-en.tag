@@ -37,10 +37,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hour</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]|10:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|2:dobj|3:lobj|7:conj|19:pnct">poured</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|2:dobj|7:conj|19:pnct|3:@dir">poured</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">sliced</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">potatoes</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">into</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mixture</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -65,7 +65,7 @@
 <W msd="ANP" tag="RB" in="-2:mod" out="">properly</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|10:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|2:preds|10:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">very</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">proud</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -124,7 +124,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">week's</W>
 <W msd="ANS" tag="JJS" in="-2:attr" out="">cheapest</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">dinner</W>
-<W msd="VADR" tag="VBZ" in="" out="1:subj|12:pnct|17:conj|25:pnct|-4:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:preds|1:subj|12:pnct|17:conj|25:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|2:pnct|4:modp">the</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">flounder</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
@@ -156,7 +156,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="" out="-2:mod|1:subj|7:pnct#|8:&lt;subj&gt;|15:pnct|-4:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:mod|-4:preds|1:subj|7:pnct#|8:&lt;subj&gt;|15:pnct">are</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|4:mod">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:mod|2:nobj">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">large</W>

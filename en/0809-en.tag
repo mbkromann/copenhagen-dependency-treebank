@@ -73,7 +73,7 @@
 <s>
 <W msd="ANP" tag="JJ" in="2:subj" out="1:possd">Assad's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">attitude</W>
-<W msd="VADR" tag="VBZ" in="9:qobj" out="-2:subj|7:pnct?|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="9:qobj" out="-2:subj|2:preds|7:pnct?">is</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:pnct|1:&lt;nobj&gt;|2:pnct|3:conj|6:pnct">today</W>
 <W msd="NP=S" tag="NNP" in="-1:&lt;nobj&gt;" out="">Libya</W>
@@ -98,8 +98,8 @@
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Dhabi</W>
 <W msd="CS" tag="IN" in="-5:mod" out="1:nobj">after</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:lobj">visit</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="2:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:@dir">visit</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="2:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Saudi</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|2:conj">Arabia</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -134,8 +134,8 @@
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="CS" tag="IN" in="-20:mod" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:lobj">returns</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="">home</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:@dir">returns</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
@@ -166,10 +166,10 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Iraq</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-6:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-7:rel" out="-1:subj|2:dobj|3:lobj|12:mod">forced</W>
+<W msd="VADA" tag="VBD" in="-7:rel" out="-1:subj|2:dobj|3:@loc|12:mod">forced</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Iraqi</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">forces</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:mod|3:mod">out</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:mod|3:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kuwait</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">again</W>

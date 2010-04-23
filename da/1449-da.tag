@@ -84,7 +84,7 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="3:expl" out="">der</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="1:mod" out="">længere</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-1:mod|1:dobj|3:mod|6:pnct|-2:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:expl|-1:mod|-2:neg|1:dobj|3:mod|6:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="foreigner" lemma="udlænding" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">udlænding</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -175,8 +175,8 @@
 <W gloss="right-wing" lemma="højreorienteret" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">højreorienterede</W>
 <W gloss="extremists" lemma="ekstremist" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="-3:attr">ekstremister</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-7:preds" out="1:nobj">på</W>
-<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:lobj">vej</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Rostock" lemma="Rostock" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Rostock</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -269,7 +269,7 @@
 </s>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">Nu</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|3:vobj|5:pnct|2:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:neg|3:vobj|5:pnct">kan</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">de</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="stop" lemma="stoppe" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj">stoppe</W>

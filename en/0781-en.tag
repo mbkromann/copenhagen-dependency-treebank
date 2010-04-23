@@ -20,10 +20,10 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|33:pnct|34:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|2:vobj|5:pnct|6:mod|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:neg|2:vobj|5:pnct|6:mod">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:lobj|2:mod">rushing</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">forward</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:@dir|2:mod">rushing</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">forward</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">blindly</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-6:mod" out="2:vobj">so</W>
@@ -59,7 +59,7 @@
 <W msd="NC=S" tag="NN" in="2:title" out="-1:attr">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Palle</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef|-2:title">Simonsen</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|4:dobj|5:pnct|6:mod|15:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:neg|2:vobj|4:dobj|5:pnct|6:mod|15:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]">say</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">too</W>
@@ -150,7 +150,7 @@
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Palle</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Simonsen</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:mod|-1:subj|2:vobj|20:pnct|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:mod|-1:subj|1:neg|2:vobj|20:pnct">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">hide</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="5:vobj">that</W>
@@ -189,8 +189,8 @@
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:preds">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">towards</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">towards</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
 <W msd="VAG" tag="VBG" in="-2:nobj" out="-1:mod|1:dobj">abolishing</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">any</W>

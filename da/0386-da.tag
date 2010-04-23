@@ -231,11 +231,11 @@
 <p>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:man|4:lobj|20:pnct">nåede</W>
+<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:man|20:pnct|4:@dir">nåede</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:man" out="1:nobj">med</W>
 <W gloss="some" lemma="nogen" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">nogen</W>
 <W gloss="delay" lemma="forsinkelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forsinkelse</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-4:lobj" out="1:other">frem</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-4:@dir" out="1:other">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:ref|6:rel">de</W>
 <W gloss="much-coveted" lemma="eftertragtet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">eftertragtede</W>

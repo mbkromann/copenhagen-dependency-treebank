@@ -144,11 +144,11 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|2:possd">Afghanistan's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">government</W>
-<W msd="VADA" tag="VBD" in="" out="-9:subj|12:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-9:subj|1:preds|12:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">on</W>
 <W msd="PO" tag="PRP$" in="" out="">its</W>
-<W msd="NC=S" tag="NN" in="" out="1:lobj|4:mod">way</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">from</W>
+<W msd="NC=S" tag="NN" in="" out="4:mod|1:@dir">way</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">from</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">northeastern</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Afghanistan</W>
 <W msd="SP" tag="IN" in="-4:mod" out="">on</W>
@@ -178,7 +178,7 @@
 <W msd="VAP" tag="VBN" in="1:mod" out="-1:mod">armed</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">rebels</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-19:subj|5:mod|23:pnct|24:mod|37:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-19:subj|1:preds|5:mod|23:pnct|24:mod|37:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="3:nobj">on</W>
 <W msd="PI" tag="DT" in="" out="">an</W>
 <W msd="ANP" tag="JJ" in="" out="">uncertain</W>

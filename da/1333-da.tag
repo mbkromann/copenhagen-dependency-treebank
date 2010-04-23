@@ -109,8 +109,8 @@
 <W gloss="small" lemma="lille" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">små</W>
 <W gloss="needles" lemma="nål" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">nåle</W>
 <W gloss="have_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-3:subj|-4:mod|1:vobj|14:pnct">er</W>
-<W gloss="stuck" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:lobj">stukket</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ind</W>
+<W gloss="stuck" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:@dir">stukket</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj|6:conj|9:conj">i</W>
 <W gloss="the_girl's" lemma="pige" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">pigens</W>
 <W gloss="neck" lemma="hals" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pnct|2:conj|3:pnct">hals</W>
@@ -193,9 +193,9 @@
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-6:ref|2:subj|3:[subj]" out="">der</W>
 <W gloss="herself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="1:mod" out="">selv</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:mod|1:vobj">har</W>
-<W gloss="stuck" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:lobj">stukket</W>
+<W gloss="stuck" lemma="stikke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:@dir">stukket</W>
 <W gloss="the_needles" lemma="nål" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">nålene</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">ind</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="body" lemma="krop" msd="NCCSU==I" tag="NN" in="-1:possd" out="">krop</W>
@@ -242,9 +242,9 @@
 </s>
 <s>
 <W gloss="Otherwise" lemma="ellers" msd="RGU" tag="RP" in="1:mod" out="">Ellers</W>
-<W gloss="lives" lemma="bo" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:lobj|4:pnct">bor</W>
+<W gloss="lives" lemma="bo" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|4:pnct|2:@loc">bor</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
-<W gloss="with" lemma="hos" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">hos</W>
+<W gloss="with" lemma="hos" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">hos</W>
 <W gloss="mother" lemma="moder" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">moderen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>

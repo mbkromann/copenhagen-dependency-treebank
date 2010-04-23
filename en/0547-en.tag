@@ -97,8 +97,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">European</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">tour</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="-10:[subj]|-1:coord|1:lobj">come</W>
-<W msd="NC=S" tag="NN" in="-1:lobj" out="1:mod">home</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-10:[subj]|-1:coord|1:@dir">come</W>
+<W msd="NC=S" tag="NN" in="-1:@dir" out="1:mod">home</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="ANP" tag="JJ" in="1:numm" out="">20-30</W>
@@ -137,7 +137,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="-1:attr|2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">concert</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">organizer</W>
-<W msd="VADR" tag="VBZ" in="-15:conj" out="-3:subj|-5:coord|2:vobj|1:neg">does</W>
+<W msd="VADR" tag="VBZ" in="-15:conj" out="-3:subj|-5:coord|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WP" in="-1:dobj|3:[dobj]" out="3:rel">what</W>

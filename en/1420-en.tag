@@ -248,8 +248,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">line</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="" out="-8:subj|1:vobj|12:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:lobj">go</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj|4:conj">along</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:@dir">go</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj|4:conj">along</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Islands</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">Brygge</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

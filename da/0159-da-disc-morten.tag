@@ -43,7 +43,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="8:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:eval" out="">så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|-2:coord|1:subj|2:other|5:time|10:CONS&3a;dir/(derfor)|4:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|-2:coord|1:subj|2:other|4:preds|5:time|10:CONS&3a;dir/(derfor)">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-2:other" out="">jo</W>
 <W gloss="Mozart" lemma="Mozart" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Mozart</W>
@@ -97,8 +97,8 @@
 <W gloss="Even_though" lemma="selv_om" msd="CS" tag="IN" in="10:conc" out="3:vobj">Selv_om</W>
 <W gloss="the_Art_Gallery" lemma="kunsthal" msd="NCCSU==D" tag="NN" in="2:subj" out="">Kunsthallen</W>
 <W gloss="recently" lemma="for_nylig" msd="RGU" tag="RP" in="1:time" out="">for_nylig</W>
-<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:lobj|6:pnct">flyttede</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="2:nobj">til</W>
+<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|6:pnct|1:@dir">flyttede</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="2:nobj">til</W>
 <W gloss="spacious" lemma="rummelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">rummelige</W>
 <W gloss="premises" lemma="lokale" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:loc">lokaler</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
@@ -188,7 +188,7 @@
 <W gloss="restored" lemma="restaurere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:vobj" out="-8:[subj]|-1:attr">restaureret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|9:[subj]" out="">den</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|1:other|8:conj|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:subj|1:other|2:preds|8:conj">er</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:other" out="">også</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds" out="1:nobj|2:pnct|3:conj">i</W>
 <W gloss="walnut" lemma="nøddetræ" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">nøddetræ</W>

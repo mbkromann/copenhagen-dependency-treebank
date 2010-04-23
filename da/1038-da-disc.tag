@@ -174,9 +174,9 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="vegetable_bouillon" lemma="grønsagsbouillon" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">grønsagsbouillon</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="roof" lemma="tage" msd="VAM-=------" tag="VB" in="-5:conj" out="1:dobj|2:lobj">tag</W>
+<W gloss="roof" lemma="tage" msd="VAM-=------" tag="VB" in="-5:conj" out="1:dobj|2:@dir">tag</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:lobj" out="">op</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="">op</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="passions" lemma="koge" msd="VAM-=------" tag="VB" in="-9:conj" out="1:dobj|2:avobj">kog</W>
 <W gloss="the_bouillon" lemma="bouillon" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">bouillonen</W>

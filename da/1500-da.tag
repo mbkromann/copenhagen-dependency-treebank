@@ -49,7 +49,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="to" lemma="at" msd="CS" tag="IN" in="-6:nobj" out="2:vobj">at</W>
 <W gloss="we" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
-<W gloss="send" lemma="sende" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:dobj|7:pnct|8:mod|5:@loc">sender</W>
+<W gloss="send" lemma="sende" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:dobj|5:@loc|7:pnct|8:mod">sender</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="second" lemma="anden" msd="AO---U=--" tag="JJ" in="1:attr" out="">andet</W>
 <W gloss="geled" lemma="geled" msd="NCNSU==I" tag="NN" in="-3:dobj" out="-2:pnct|-1:attr|1:pnct">geled</W>
@@ -140,8 +140,8 @@
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|3:vobj">er</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">vi</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-2:mod" out="">så</W>
-<W gloss="reached" lemma="nå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:lobj">nået</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">frem</W>
+<W gloss="reached" lemma="nå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:@dir">nået</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">frem</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="what" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="1:pnct|2:ref|5:rel">dét</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

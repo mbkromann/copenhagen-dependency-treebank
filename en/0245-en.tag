@@ -69,8 +69,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PT" tag="WRB" in="-13:conj|2:[mod]" out="-1:coord|2:rel">how</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-2:[mod]|-1:subj|1:lobj">move</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:mod">around</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-2:[mod]|-1:subj|1:@dir">move</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:mod">around</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">between</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
@@ -79,7 +79,7 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|5:[subj]" out="">We</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">still</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|3:vobj|13:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:neg|3:vobj|13:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">clearly</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-5:[subj]|-1:mod|1:dobj">know</W>

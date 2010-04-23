@@ -29,7 +29,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">accepted</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj">have</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
@@ -67,9 +67,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod|16:conj">wait</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:vobj">until</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|2:lobj">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|2:@loc">is</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">space</W>
-<W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">at</W>
+<W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hospital</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>

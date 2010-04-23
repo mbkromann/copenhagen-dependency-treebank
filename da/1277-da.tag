@@ -51,7 +51,7 @@
 <W gloss="the_Queen" lemma="dronning" msd="NCCSU==D" tag="NN" in="3:subj" out="">Dronningen</W>
 <W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="1:mod" out="">endnu</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:mod">ikke</W>
-<W gloss="does_know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:pnct|2:dobj|-1:neg">ved</W>
+<W gloss="does_know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:pnct|2:dobj">ved</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="whether" lemma="om" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">om</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">hun</W>
@@ -87,11 +87,11 @@
 <W gloss="the_years" lemma="år" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="1:mod">årene</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:mod" out="1:nobj">som</W>
 <W gloss="regent" lemma="regent" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">regent</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|3:vobj|8:pnct|2:neg">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:mod|1:subj|2:neg|3:vobj|8:pnct">har</W>
 <W gloss="Margrethe" lemma="Margrethe" msd="NP--U==-" tag="NNP" in="-1:subj|2:[subj]" out="">Margrethe</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
-<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:lobj">ligget</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">på</W>
+<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:@loc">ligget</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="let" lemma="lad" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">lade</W>
 <W gloss="hand" lemma="side" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">side</W>
@@ -118,9 +118,9 @@
 <W gloss="the_hands" lemma="hånd" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">hænderne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-18:conj" out="-19:[subj]|1:vobj">har</W>
-<W gloss="traveled" lemma="rejse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-20:[subj]|2:lobj|4:mod|5:mod">rejst</W>
+<W gloss="traveled" lemma="rejse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-20:[subj]|4:mod|5:mod|2:@dir">rejst</W>
 <W gloss="the_world" lemma="jord" msd="NCCSU==D" tag="NN" in="1:nobj" out="">jorden</W>
-<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:lobj" out="-1:nobj">rundt</W>
+<W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="-1:nobj">rundt</W>
 <W gloss="countless" lemma="utallig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">utallige</W>
 <W gloss="times" lemma="gang" msd="NCCPU==I" tag="NNP" in="-4:mod" out="-1:attr">gange</W>
 <W gloss="on" lemma="med" msd="SP" tag="IN" in="-5:mod" out="1:nobj">med</W>
@@ -163,7 +163,7 @@
 </s>
 <s>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="1:expl|3:[expl]" out="">Der</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|2:vobj|14:pnct|1:neg">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:neg|2:vobj|14:pnct">har</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[expl]|2:dobj">været</W>
 <W gloss="less_than" lemma="under" msd="SP" tag="IN" in="1:mod" out="">under</W>
@@ -174,7 +174,7 @@
 <W gloss="in_which" lemma="hvor" msd="RGU" tag="RP" in="-4:ref|3:mod" out="">hvor</W>
 <W gloss="Margrethe" lemma="Margrethe" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]" out="">Margrethe</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-3:mod|-2:subj|1:vobj|-1:neg">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-3:mod|-2:subj|-1:neg|1:vobj">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">været</W>
 <W gloss="guest_of_honor" lemma="æresgæst" msd="NCCSU==D" tag="NN" in="-1:preds" out="">æresgæsten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>

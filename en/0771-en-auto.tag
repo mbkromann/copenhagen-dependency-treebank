@@ -59,7 +59,7 @@
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="NP=S" tag="NNP" in="-2:modp" out="-1:pnct|1:pnct">Cons.</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W msd="VA" tag="MD" in="" out="-4:subj|2:vobj|1:neg">would</W>
+<W msd="VA" tag="MD" in="" out="-4:subj|1:neg|2:vobj">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:dobj|12:mod">amend</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj">the</W>
@@ -231,8 +231,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">money</W>
 <W msd="VA" tag="MD" in="" out="-6:subj">will</W>
 <W msd="VAF" tag="VB" in="" out="">be</W>
-<W msd="VAP" tag="VBN" in="" out="1:lobj|6:pnct">sent</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="" out="6:pnct|1:@dir">sent</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod">179</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">households</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

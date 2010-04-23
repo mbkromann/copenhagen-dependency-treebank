@@ -136,7 +136,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">programme</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:preds|3:pnct|5:conj|32:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:neg|2:preds|3:pnct|5:conj|32:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">prying</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -153,7 +153,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-11:modp" out="-4:mod|2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">would</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:neg|2:vobj">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
@@ -182,11 +182,11 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">programme</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:dobj|4:lobj">spewing</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:dobj|4:@loc">spewing</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">urine</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">blood</W>
-<W msd="SP" tag="IN" in="-4:lobj" out="1:mod">out</W>
+<W msd="SP" tag="IN" in="-4:@loc" out="1:mod">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">viewers</W>
@@ -235,8 +235,8 @@
 <s>
 <W msd="PT" tag="WRB" in="8:mod" out="2:vobj">When</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj|4:pnct">sat</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">on</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|4:pnct|1:@loc">sat</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Camilla's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">sofa</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

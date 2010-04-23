@@ -67,9 +67,9 @@
 <s>
 <W gloss="Diana" lemma="Diana" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">Diana</W>
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|23:conj|27:pnct">blev</W>
-<W gloss="heglet" lemma="hegle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:lobj|3:mod">heglet</W>
+<W gloss="heglet" lemma="hegle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|2:@dir">heglet</W>
 <W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:mod" out="">lidt</W>
-<W gloss="through" lemma="igennem" msd="RGU" tag="RP" in="-2:lobj" out="-1:mod">igennem</W>
+<W gloss="through" lemma="igennem" msd="RGU" tag="RP" in="-2:@dir" out="-1:mod">igennem</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:mod" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:attr|3:pnct|4:attr|5:nobj|6:pnct|7:ref|9:rel">en</W>
 <W gloss="rather" lemma="ret" msd="RGU" tag="RP" in="1:mod" out="">ret</W>
@@ -80,7 +80,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-7:ref|2:subj" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="did_have" lemma="have" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-2:subj|1:aobj|6:pnct|-1:neg">havde</W>
+<W gloss="did_have" lemma="have" msd="VADA=----A-" tag="VBD" in="-9:rel" out="-2:subj|-1:neg|1:aobj|6:pnct">havde</W>
 <W gloss="easy" lemma="nem" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="1:pobj">nemt</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -240,8 +240,8 @@
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="8:mod" out="2:vobj">da</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|5:pnct">blev</W>
-<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">sendt</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:lobj" out="1:mod">ned</W>
+<W gloss="sent" lemma="sende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">sendt</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ned</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:mod" out="1:nobj">til</W>
 <W gloss="the_Gulf_war" lemma="Golf-krig" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Golf-krigen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

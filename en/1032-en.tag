@@ -155,8 +155,8 @@
 <W msd="ANP" tag="JJ" in="-3:mod" out="">free</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">days</W>
 <W msd="VADR" tag="VBP" in="-7:vobj" out="-6:subj|1:vobj|15:modp|17:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:lobj">led</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:@dir">led</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">better</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">planning</W>
@@ -237,7 +237,7 @@
 <W msd="NC=P" tag="NNS" in="3:subj|5:[subj]" out="2:conj">Dairies</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">slaughterhouses</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|2:vobj|21:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:neg|2:vobj|21:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

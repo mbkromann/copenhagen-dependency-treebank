@@ -120,9 +120,9 @@
 <W gloss="industry" lemma="industri" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">industri</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="9:qobj" out="-3:subj|-4:pnct|1:dur|2:vobj|7:pnct|8:pnct">skal</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
-<W gloss="be_assisted" lemma="hjælpe" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-5:[subj]|3:pobj|2:conj">hjælpes</W>
+<W gloss="be_assisted" lemma="hjælpe" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-5:[subj]|2:conj|3:pobj">hjælpes</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="supported" lemma="støtte" msd="VAF-=----P-" tag="VB" in="-2:conj" out="-7:[subj]|1:[pobj]|-1:coord">støttes</W>
+<W gloss="supported" lemma="støtte" msd="VAF-=----P-" tag="VB" in="-2:conj" out="-7:[subj]|-1:coord|1:[pobj]">støttes</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="1:nobj">af</W>
 <W gloss="the_state" lemma="stat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">staten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -194,7 +194,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="that_is_the_way" lemma="sådan" msd="RGU" tag="RP" in="1:preds" out="">sådan</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:preds|1:subj|2:neg|3:degr|4:time|-2:coord">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:preds|-2:coord|1:subj|2:neg|3:degr|4:time">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="-3:degr" out="">helt</W>
@@ -229,12 +229,12 @@
 <W gloss="heavy_industries" lemma="sværindustri" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pnct|2:ref|3:rel|8:conj">sværindustrier</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
-<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:lobj|3:pnct">står</W>
-<W gloss="in_front" lemma="foran" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">foran</W>
+<W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|3:pnct|1:@loc">står</W>
+<W gloss="in_front" lemma="foran" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">foran</W>
 <W gloss="closure" lemma="lukning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">lukning</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="the_republic's" lemma="republik" msd="NCCSG==D" tag="NN" in="-8:conj" out="1:possd|5:other|-1:coord">republikkens</W>
+<W gloss="the_republic's" lemma="republik" msd="NCCSG==D" tag="NN" in="-8:conj" out="-1:coord|1:possd|5:other">republikkens</W>
 <W gloss="unemployment" lemma="arbejdsløshed" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">arbejdsløshed</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="twelve" lemma="tolv" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tolv</W>

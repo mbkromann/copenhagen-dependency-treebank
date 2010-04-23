@@ -117,8 +117,8 @@
 <W gloss="north_German" lemma="nordtysk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">nordtyske</W>
 <W gloss="NATO_forces" lemma="NATO-styrke" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">NATO-styrker</W>
 <W gloss="were_to_be" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-11:rel" out="-6:subj|-5:mcomp|1:vobj">skulle</W>
-<W gloss="put" lemma="sætte" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-7:[subj]|1:lobj">sættes</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ind</W>
+<W gloss="put" lemma="sætte" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-7:[subj]|1:@dir">sættes</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_defence" lemma="forsvar" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj|3:pobj">forsvaret</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -131,7 +131,7 @@
 </s>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
-<W gloss="part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:pobj|6:pnct|30:pnct|24:conj">indgår</W>
+<W gloss="part" lemma="indgå" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:pobj|6:pnct|24:conj|30:pnct">indgår</W>
 <W gloss="the_DDR_equipment" lemma="DDR-materiel" msd="NCNSU==D" tag="NN" in="-1:subj" out="">DDR-materiellet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
@@ -155,7 +155,7 @@
 <W gloss="East_Germany" lemma="Østtyskland" msd="NP--U==-" tag="NNP" in="-2:nobj" out="">Østtyskland</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-15:ref|1:other" out="">så</W>
-<W gloss="is_assessed" lemma="vurdere" msd="VADR=----P-" tag="VBD" in="-24:conj" out="-16:xtop|-1:other|1:subj|3:pobj|-17:coord">vurderes</W>
+<W gloss="is_assessed" lemma="vurdere" msd="VADR=----P-" tag="VBD" in="-24:conj" out="-16:xtop|-1:other|-17:coord|1:subj|3:pobj">vurderes</W>
 <W gloss="the_threat" lemma="trussel" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:loc">truslen</W>
 <W gloss="from_this" lemma="herfra" msd="RGU" tag="RP" in="-1:loc" out="">herfra</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:pobj" out="1:vobj">som</W>

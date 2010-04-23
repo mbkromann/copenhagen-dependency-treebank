@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|12:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:vobj|12:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WP" in="-1:dobj|1:[subj]" out="1:rel">what</W>
@@ -96,20 +96,20 @@
 <W msd="VADR" tag="VBP" in="" out="-1:mod|2:subj|3:vobj|7:pnct">do</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">homing</W>
 <W msd="NC=P" tag="NNS" in="-2:subj|1:[subj]" out="-1:mod">pigeons</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:[subj]|1:dobj|3:lobj">find</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:[subj]|1:dobj|3:@dir">find</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">way</W>
-<W msd="NC=S" tag="NN" in="-3:lobj" out="">home</W>
+<W msd="NC=S" tag="NN" in="-3:@dir" out="">home</W>
 <W msd="XP" tag="." in="-7:pnct" out="">?</W>
 </s>
 <s>
 <W msd="VAG" tag="VBG" in="1:mod" out="">Homing</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:mod">pigeons</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|17:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:lobj|4:mod|7:pnct|9:&lt;mod&gt;">find</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:mod|7:pnct|9:&lt;mod&gt;|3:@dir">find</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">way</W>
-<W msd="NC=S" tag="NN" in="-3:lobj" out="">home</W>
+<W msd="NC=S" tag="NN" in="-3:@dir" out="">home</W>
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj">over</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">long</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">distances</W>
@@ -132,10 +132,10 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">impressive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:nobj">ability</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:lobj|4:pnct|6:mod">find</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:pnct|6:mod|3:@dir">find</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">way</W>
-<W msd="NC=S" tag="NN" in="-3:lobj" out="">home</W>
+<W msd="NC=S" tag="NN" in="-3:@dir" out="">home</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">even</W>
 <W msd="SP" tag="IN" in="-6:mod" out="-1:mod|1:nobj">over</W>

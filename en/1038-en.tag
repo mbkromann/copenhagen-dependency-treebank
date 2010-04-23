@@ -32,7 +32,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Skovshoved</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Hotel</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-7:subj|-14:mod|6:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-7:subj|-14:mod|1:preds|6:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">panel</W>
@@ -51,7 +51,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ingredients</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:pnct|56:pnct|2:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:pnct|2:preds|56:pnct">are</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-2:preds" out="2:nobj|3:pnct|4:conj|7:pnct|8:conj|14:pnct|15:conj|19:pnct|20:conj|24:pnct|25:conj|29:pnct|30:conj|36:pnct|37:conj|42:pnct|43:conj|47:pnct|48:conj|51:conj">400g</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">pike</W>
@@ -194,10 +194,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fish</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBP" in="-21:conj" out="-1:coord|1:dobj|3:lobj">sprinkle</W>
+<W msd="VADR" tag="VBP" in="-21:conj" out="-1:coord|1:dobj|3:@loc">sprinkle</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ham</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">on</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">top</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
@@ -218,7 +218,7 @@
 <W msd="NP=S" tag="NNP" in="8:subj|9:[subj]" out="-1:namef|1:pnct|2:ref|3:rel">Madsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|4:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|3:preds|4:pnct">is</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">31</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod">old</W>

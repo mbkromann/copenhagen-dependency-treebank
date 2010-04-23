@@ -71,7 +71,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj|8:conj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj" out="">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:preds|3:pnct|-1:neg">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:preds|3:pnct">var</W>
 <W gloss="realistic" lemma="realistisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="1:mod">realistisk</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:mod" out="">nok</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -144,9 +144,9 @@
 <W gloss="years" lemma="år" msd="NCNSG==I" tag="NN" in="-2:nobj" out="">års</W>
 <W gloss="trial_period" lemma="prøvetid" msd="NCCSU==I" tag="NN" in="-3:possd" out="">prøvetid</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W gloss="travelled" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-29:conj" out="-23:mod|-24:coord|1:subj|2:lobj">rejste</W>
+<W gloss="travelled" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-29:conj" out="-23:mod|-24:coord|1:subj|2:@dir">rejste</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
-<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-2:lobj" out="">hjem</W>
+<W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-2:@dir" out="">hjem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
 </p>
@@ -170,7 +170,7 @@
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[pred]|1:pnct">er</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="1:subj|3:avobj|5:pnct|8:conj|21:pnct|2:neg">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:neg|3:avobj|5:pnct|8:conj|21:pnct">vil</W>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:avobj" out="1:pobj">ud</W>
@@ -223,8 +223,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-10:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="travel" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:lobj|3:pnct|5:mod">rejse</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="travel" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|3:pnct|5:mod">rejse</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Bosnia" lemma="Bosnien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Bosnien</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="6:mod" out="">dels</W>

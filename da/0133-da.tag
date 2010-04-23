@@ -73,7 +73,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">til</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:other" out="">også</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:conj" out="-12:[subj]|-4:other|-1:other|1:preds|4:other|-5:coord">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:conj" out="-12:[subj]|-4:other|-1:other|-5:coord|1:preds|4:other">været</W>
 <W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-1:preds" out="1:other">ude</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_Atlantic" lemma="Atlanten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Atlanten</W>
@@ -102,7 +102,7 @@
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:part" out="">op</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:pnct">og</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-7:conj" out="4:vobj|-2:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-7:conj" out="-2:coord|4:vobj">at</W>
 <W gloss="certain" lemma="vis" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:subj|4:[subj]" out="1:nobj">visse</W>
 <W gloss="parts" lemma="del" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dele</W>
 <W gloss="then" lemma="derefter" msd="RGU" tag="RP" in="1:succ" out="">derefter</W>
@@ -231,7 +231,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]|12:[subj]|14:[subj]" out="">Det</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:other|2:vobj|19:pnct|11:conj">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:other|2:vobj|11:conj|19:pnct">blev</W>
 <W gloss="too" lemma="også" msd="RGU" tag="RP" in="-1:other" out="">også</W>
 <W gloss="built" lemma="bygge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:time|5:loc">bygget</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
@@ -242,11 +242,11 @@
 <W gloss="Aalborg" lemma="Aalborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Aalborg</W>
 <W gloss="Dockyard" lemma="værft" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Værft</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|1:dur|2:vobj|-1:coord">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:dur|2:vobj">har</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-1:dur" out="">siden</W>
-<W gloss="sailed" lemma="sejle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-14:[subj]|1:man|2:lobj">sejlet</W>
+<W gloss="sailed" lemma="sejle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-14:[subj]|1:man|2:@loc">sejlet</W>
 <W gloss="faithfully" lemma="trofast" msd="ANP[CN]SU=IU" tag="JJ" in="-1:man" out="">trofast</W>
-<W gloss="to" lemma="ved" msd="SP" tag="IN" in="-2:lobj" out="1:nobj">ved</W>
+<W gloss="to" lemma="ved" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">ved</W>
 <W gloss="the_Faeroe_Islands" lemma="Færøerne" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Færøerne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Greenland" lemma="Grønland" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Grønland</W>

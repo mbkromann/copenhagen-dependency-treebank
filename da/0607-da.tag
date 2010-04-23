@@ -162,8 +162,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="calorie_table" lemma="kalorietabel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kalorietabel</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-5:inst|1:lobj|-6:coord|14:conj">finde</W>
-<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">frem</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-5:inst|-6:coord|14:conj|1:@dir">finde</W>
+<W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:pobj">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">de</W>
 <W gloss="foodstuffs" lemma="næringsmiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">næringsmidler</W>
@@ -176,7 +176,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="thereafter" lemma="derefter" msd="RGU" tag="RP" in="1:succ" out="">derefter</W>
-<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-14:conj" out="-1:succ|1:dobj|-2:coord">undgå</W>
+<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-14:conj" out="-1:succ|-2:coord|1:dobj">undgå</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
@@ -220,7 +220,7 @@
 <W gloss="diet_plan" lemma="kostplan" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">kostplan</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="thereby" lemma="derved" msd="RGU" tag="RP" in="1:inst" out="">derved</W>
-<W gloss="achieve" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-12:conj" out="-18:[subj]|-1:inst|1:dobj|-2:coord">opnå</W>
+<W gloss="achieve" lemma="opnå" msd="VAF-=----A-" tag="VB" in="-12:conj" out="-18:[subj]|-1:inst|-2:coord|1:dobj">opnå</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">et</W>
 <W gloss="monthly" lemma="månedlig" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">månedligt</W>
 <W gloss="weight_loss" lemma="vægttab" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">vægttab</W>

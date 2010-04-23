@@ -138,8 +138,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:vobj|5:pnct">had</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">indeed</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:lobj">gone</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:@dir">gone</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hell</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
@@ -159,7 +159,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">satisfaction</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="VAG" tag="VBG" in="-2:nobj" out="1:dobj|-1:neg">commanding</W>
+<W msd="VAG" tag="VBG" in="-2:nobj" out="-1:neg|1:dobj">commanding</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:nobj">anything</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:pobj">other</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>

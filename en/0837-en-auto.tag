@@ -120,7 +120,7 @@
 <W msd="NP=S" tag="NNP" in="3:subj|5:[subj]|7:[subj]" out="1:mod|2:nobj">Den</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
-<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:neg">would</W>
+<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:neg|2:vobj">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:conj">intervene</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -132,8 +132,8 @@
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">banks</W>
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADA" tag="VBD" in="-5:rel" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">into</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">into</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">financial</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">trouble</W>
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
@@ -152,8 +152,8 @@
 <W msd="VAF" tag="VB" in="" out="">run</W>
 <W msd="ANP" tag="JJ" in="" out="-8:mod">financial</W>
 <W msd="NC=P" tag="NNS" in="" out="">institutions</W>
-<W msd="VADR" tag="VBP" in="-12:vobj" out="1:lobj">come</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">into</W>
+<W msd="VADR" tag="VBP" in="-12:vobj" out="1:@dir">come</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">difficulties</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>

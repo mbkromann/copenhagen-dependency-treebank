@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|14:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|14:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">divisions</W>
@@ -123,7 +123,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|31:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Fryland</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:mod|19:ref|20:rel|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:mod|2:preds|19:ref|20:rel">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="1:pobj">director</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -208,8 +208,8 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">record</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">industry</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-7:[dobj]|-3:subj|1:lobj">throws</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">into</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-7:[dobj]|-3:subj|1:@dir">throws</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">into</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">TV</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">campaigns</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
@@ -233,7 +233,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">sales</W>
 <W msd="NC=S" tag="NN" in="-4:vobj" out="-3:subj|1:attr|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">nevertheless</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:lobj">gone</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">down</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:@dir">gone</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

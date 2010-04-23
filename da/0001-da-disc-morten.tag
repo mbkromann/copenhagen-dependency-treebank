@@ -70,11 +70,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="5:vobj">at</W>
 <W gloss="Russia's" lemma="Rusland" msd="NP--G==-" tag="NNP" in="4:subj" out="1:possd">Ruslands</W>
-<W gloss="path" lemma="vej" morph="vej" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:lobj">vej</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">til</W>
+<W gloss="path" lemma="vej" morph="vej" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:@dir">vej</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="democracy" lemma="demokrati" morph="demokrati" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">demokrati</W>
-<W gloss="goes" lemma="gå" morph="gå" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:lobj">går</W>
-<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">gennem</W>
+<W gloss="goes" lemma="gå" morph="gå" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:@dir">går</W>
+<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">gennem</W>
 <W gloss="dictatorship" lemma="diktatur" morph="diktatur" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">diktatur</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>

@@ -118,8 +118,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Elsinore</W>
 <W msd="VADR" tag="VBZ" in="-18:list" out="-16:subj|1:mod|2:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">collectively</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-18:[subj]|1:lobj|2:mod|6:mod">stepped</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">down</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-18:[subj]|2:mod|6:mod|1:@dir">stepped</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">general</W>
@@ -141,7 +141,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">resigning</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">board</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|21:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|21:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">dissatisfied</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>

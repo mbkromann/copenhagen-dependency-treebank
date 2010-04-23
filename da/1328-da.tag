@@ -48,7 +48,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-2:conj" out="2:vobj">for</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="do_understand" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|3:pnct|4:dobj|2:neg">forstår</W>
+<W gloss="do_understand" lemma="forstå" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:neg|3:pnct|4:dobj">forstår</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:mod" out="">stadig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -58,9 +58,9 @@
 <W gloss="name" lemma="navn" msd="NCNSU==I" tag="NN" in="-1:possd" out="">navn</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|-5:[mod]|1:vobj">kunne</W>
-<W gloss="vote" lemma="stemme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj">stemme</W>
+<W gloss="vote" lemma="stemme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@dir">stemme</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:lobj" out="1:mod">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ned</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="third_to_last" lemma="tredjesidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">tredjesidste</W>
@@ -171,7 +171,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj|3:[subj]" out="6:nobj">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj">kan</W>
 <W gloss="advantage" lemma="nytte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">nytte</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="">noget</W>
 <W gloss="just" lemma="bare" msd="RGU" tag="RP" in="1:mod" out="">bare</W>

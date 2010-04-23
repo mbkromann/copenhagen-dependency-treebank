@@ -108,8 +108,8 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|-10:mod|1:vobj|9:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|2:mod|4:mod">lie</W>
-<W msd="ANP" tag="RB" in="-1:lobj" out="">down</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|4:mod|1:@dir">lie</W>
+<W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interruption</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:vobj">until</W>

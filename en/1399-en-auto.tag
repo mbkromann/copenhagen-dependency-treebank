@@ -11,13 +11,13 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Christian</W>
 <W msd="NP=S" tag="NNP" in="-7:appr" out="-1:namef">Christensen</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-12:list" out="-10:mod|-9:subj|17:pnct|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-12:list" out="-10:mod|-9:subj|3:preds|17:pnct">is</W>
 <W msd="ANP" tag="RB" in="" out="">once</W>
 <W msd="ANP" tag="RB" in="" out="">again</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:pobj">ready</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|2:dobj">take</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="3:mod">up</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|2:dobj">take</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="3:mod">up</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">struggle</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">with</W>
@@ -49,7 +49,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="" out="">Our</W>
 <W msd="NC=S" tag="NN" in="" out="">target</W>
-<W msd="VADR" tag="VBZ" in="17:qobj" out="-3:pnct|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="17:qobj" out="-3:pnct|1:preds|16:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj|8:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">particular</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">cave</W>
@@ -72,8 +72,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj|6:mod">is</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">traveling</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj|2:pobj">from</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@dir">traveling</W>
+<W msd="SP" tag="IN" in="-1:@dir" out="1:nobj|2:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Billund</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Guatemala</W>
@@ -121,7 +121,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">It</W>
-<W msd="VADA" tag="VBD" in="13:qobj" out="-1:subj|12:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="13:qobj" out="-1:subj|2:preds|12:pnct">was</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">death</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:mod">squads</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj" out="">who</W>

@@ -1,7 +1,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|15:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:mod|3:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:neg|2:mod|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">just</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="1:pobj">owners</W>
@@ -77,7 +77,7 @@
 <W msd="PT" tag="WRB" in="-7:ref|3:mod" out="">where</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">safety</W>
-<W msd="VADR" tag="VBZ" in="-10:rel" out="-3:mod|-2:subj|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-10:rel" out="-3:mod|-2:subj|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">order</W>
@@ -127,7 +127,7 @@
 <W msd="PT" tag="WRB" in="-2:ref|3:mod" out="">where</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">automation</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-3:mod|-2:subj|2:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-3:mod|-2:subj|1:neg|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">order</W>
@@ -142,11 +142,11 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]|6:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">upper</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">part</W>
-<W msd="VA" tag="MD" in="7:qobj" out="-8:mod|-3:subj|-6:mod|2:vobj|5:pnct|6:pnct|1:neg">could</W>
+<W msd="VA" tag="MD" in="7:qobj" out="-8:mod|-3:subj|-6:mod|1:neg|2:vobj|5:pnct|6:pnct">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:lobj">pulled</W>
-<W msd="RG" tag="RP" in="-1:lobj" out="">up</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:@dir">pulled</W>
+<W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-7:qobj|3:subj|4:pnct">says</W>

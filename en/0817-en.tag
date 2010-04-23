@@ -44,8 +44,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">report</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:lobj">sent</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">sent</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Legal</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">Affairs</W>
@@ -76,7 +76,7 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">police</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj|6:mod">respect</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
@@ -219,7 +219,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|8:[subj]|10:[subj]|11:[subj]|13:[subj]" out="">We</W>
-<W msd="VA" tag="MD" in="-6:qobj" out="-2:pnct|-1:subj|2:vobj|7:conj|16:pnct|19:conj|24:pnct#|25:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="-6:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|7:conj|16:pnct|19:conj|24:pnct#|25:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">oppose</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
@@ -238,7 +238,7 @@
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-19:conj" out="-1:subj|-2:coord|2:mod|3:vobj|1:neg">will</W>
+<W msd="VA" tag="MD" in="-19:conj" out="-1:subj|-2:coord|1:neg|2:mod|3:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PP" tag="PRP" in="-2:mod" out="">myself</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">take</W>

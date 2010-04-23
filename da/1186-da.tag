@@ -86,10 +86,10 @@
 <W gloss="nearby" lemma="nærliggende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">nærliggende</W>
 <W gloss="garrison_town" lemma="garnisonsby" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">garnisonsby</W>
 <W gloss="Lawton" lemma="Lawton" msd="NP--U==-" tag="NNP" in="-3:appr" out="">Lawton</W>
-<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:dobj|3:lobj|5:pnct|13:conj">sendte</W>
+<W gloss="sent" lemma="sende" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:dobj|5:pnct|13:conj|3:@dir">sendte</W>
 <W gloss="16,000" lemma="16.000" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">16.000</W>
 <W gloss="men" lemma="mand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mand</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">til</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">til</W>
 <W gloss="Saudi_Arabia" lemma="Saudi-Arabien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Saudi-Arabien</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="7:coord" out="">og</W>

@@ -86,7 +86,7 @@
 <W msd="CC" tag="CC" in="" out="3:conj|14:pnct">And</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">book</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|2:pnct|3:ref|5:rel|8:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-2:subj|1:neg|2:pnct|3:ref|5:rel|8:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-3:ref|3:dobj" out="">as</W>
@@ -205,10 +205,10 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|3:mod">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">excuse</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-3:mod" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-3:mod" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="1:lobj">sent</W>
-<W msd="U=" tag="TO" in="-1:lobj" out="1:nobj">to</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="1:@dir">sent</W>
+<W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">front</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>

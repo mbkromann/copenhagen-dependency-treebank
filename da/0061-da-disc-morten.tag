@@ -80,7 +80,7 @@
 <s>
 <W gloss="m." lemma="klokke" morph="klokke" msd="NCCSU==D" tag="NN" in="2:time" out="1:nobj">Klokken</W>
 <W gloss="1_&3a;_38_a.m." lemma="01.38" msd="AC---U=--" tag="CD" in="-1:nobj" out="">01.38</W>
-<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-22:+TIME&3a;succ" out="-2:time|1:subj|5:pnct|33:+ELAB&3a;exp/ATTR1|140:+TIME&3a;succ|2:preds">var</W>
+<W gloss="was" lemma="være" morph="være" msd="VADA=----A-" tag="VBD" in="-22:+TIME&3a;succ" out="-2:time|1:subj|2:preds|5:pnct|33:+ELAB&3a;exp/ATTR1|140:+TIME&3a;succ">var</W>
 <W gloss="Baghdad" lemma="Bagdad" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Bagdad</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
 <W gloss="dead" lemma="død" morph="dø +d/PRED&3a;result" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">død</W>
@@ -92,14 +92,14 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_city" lemma="by" morph="by" msd="NCCSU==D" tag="NN" in="1:subj" out="">Byen</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="21:qobj" out="-1:subj|-2:pnct|3:pnct|7:CONJ/(og)/ATTR1|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="21:qobj" out="-1:subj|-2:pnct|2:preds|3:pnct|7:CONJ/(og)/ATTR1">er</W>
 <W gloss="totally" lemma="total" msd="XX" tag="FW" in="1:degr" out="">total</W>
 <W gloss="dark" lemma="mørk" morph="mørk" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr">mørk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="The_silence" lemma="stilhed" morph="stille +hed/QUAL" msd="NCCSU==D" tag="NN" in="1:subj" out="">Stilheden</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-7:CONJ/(og)/ATTR1" out="-1:subj|1:degr|3:pnct|9:CONJ/(og)/ATTR1|2:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-7:CONJ/(og)/ATTR1" out="-1:subj|1:degr|2:preds|3:pnct|9:CONJ/(og)/ATTR1">er</W>
 <W gloss="almost" lemma="nær" morph="nær" msd="ANS---=-R" tag="JJS" in="-1:degr" out="">nærmest</W>
 <W gloss="noisy" lemma="larme" morph="larme" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-2:preds" out="">larmende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -132,7 +132,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">Det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:CAUSE&3a;expl/(nemlig)/ATTR1" out="-1:subj|2:pnct|12:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:CAUSE&3a;expl/(nemlig)/ATTR1" out="-1:subj|1:preds|2:pnct|12:pnct">er</W>
 <W gloss="incredible" lemma="utrolig" morph="trolig -u/NEG&3a;oppo tro +lig/DEVERB&3a;act.pure" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">utroligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="3:vobj">at</W>
@@ -252,15 +252,15 @@
 </s>
 <s>
 <W gloss="Flames" lemma="flamme" morph="flamme" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Flammerne</W>
-<W gloss="says" lemma="stå" morph="stå" msd="VADR=----A-" tag="VBD" in="-7:CONJ/(og)/ATTR2" out="-1:subj|1:lobj|2:other|4:pnct|8:ELAB&3a;exp/ATTR2">står</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:lobj" out="">op</W>
+<W gloss="says" lemma="stå" morph="stå" msd="VADR=----A-" tag="VBD" in="-7:CONJ/(og)/ATTR2" out="-1:subj|2:other|4:pnct|8:ELAB&3a;exp/ATTR2|1:@dir">står</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:other" out="1:nobj">i</W>
 <W gloss="the_horizon" lemma="horisont" morph="horisont" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">horisonten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="This" lemma="denne" msd="PD-NSU--U" tag="DT" in="1:subj" out="">Dette</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:ELAB&3a;exp/ATTR2" out="-1:subj|4:time|5:pnct|9:CONJ/(og)/ATTR2|1:preds">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:ELAB&3a;exp/ATTR2" out="-1:subj|1:preds|4:time|5:pnct|9:CONJ/(og)/ATTR2">er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">det</W>
 <W gloss="most_violent" lemma="voldsom" morph="vold +som/DENOM&3a;rel.norm" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">voldsomste</W>
 <W gloss="attack" lemma="angreb" morph="angribe +eb/PRED&3a;result" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">angreb</W>

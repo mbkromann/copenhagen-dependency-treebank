@@ -78,7 +78,7 @@
 <W gloss="weak" lemma="svag" morph="svag" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="2:conj">svage</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="sick" lemma="syg" morph="syg" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">syge</W>
-<W gloss="lie" lemma="ligge" morph="ligge" msd="VADR=----A-" tag="VBD" in="-12:CONJ/(og)" out="-4:subj|4:pnct|28:CONJ/(og)|1:@loc">ligger</W>
+<W gloss="lie" lemma="ligge" morph="ligge" msd="VADR=----A-" tag="VBD" in="-12:CONJ/(og)" out="-4:subj|1:@loc|4:pnct|28:CONJ/(og)">ligger</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:possd|8:DESCR&3a;qual&7c;eval">deres</W>
 <W gloss="tents" lemma="telt" morph="telt" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">telte</W>
@@ -116,8 +116,8 @@
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-4:ref|3:dobj" out="">som</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:vobj">har</W>
-<W gloss="stretched" lemma="spænde" morph="spænde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:lobj|5:comp">spændt</W>
-<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:lobj" out="1:other">ud</W>
+<W gloss="stretched" lemma="spænde" morph="spænde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:@dir|5:comp">spændt</W>
+<W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ud</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">nogle</W>
 <W gloss="sticks" lemma="stok" morph="stok" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">stokke</W>
@@ -246,10 +246,10 @@
 <s>
 <W gloss="Without" lemma="uden" msd="SP" tag="IN" in="2:other" out="1:nobj">Uden</W>
 <W gloss="diaper" lemma="ble" morph="ble" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">ble</W>
-<W gloss="is_running" lemma="løbe" morph="løbe" msd="VADR=----A-" tag="VBD" in="-9:CONJ/(og)" out="-2:other|1:subj|3:lobj|7:pnct">løber</W>
+<W gloss="is_running" lemma="løbe" morph="løbe" msd="VADR=----A-" tag="VBD" in="-9:CONJ/(og)" out="-2:other|1:subj|7:pnct|3:@dir">løber</W>
 <W gloss="the_child's" lemma="barn" morph="barn" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">barnets</W>
 <W gloss="diarrhoea" lemma="diarré" morph="diarré" msd="NCCSU==I" tag="NN" in="-1:possd" out="">diarré</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:lobj" out="1:other">ned</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ned</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="the_girl's" lemma="pige" morph="pige" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">pigens</W>
 <W gloss="thighs" lemma="lår" morph="lår" msd="NCNSU==I" tag="NN" in="-1:possd" out="">lår</W>

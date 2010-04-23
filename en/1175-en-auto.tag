@@ -79,8 +79,8 @@
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]|7:[subj]" out="1:nobj">Gorky</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Park</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|1:vobj|5:conj|34:pnct">is</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:lobj">playing</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">at</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:@loc">playing</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">Ringsted</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-5:conj" out="-7:[subj]|-1:coord|1:mod|2:dobj">cementing</W>
@@ -122,8 +122,8 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">1990,</W>
 <W msd="NP=S" tag="NNP" in="2:subj|11:[subj]" out="1:nobj">Gorky</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Park</W>
-<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|1:lobj|9:conj|31:pnct">played</W>
-<W msd="SP" tag="IN" in="-1:lobj" out="2:nobj">at</W>
+<W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|1:@loc|9:conj|31:pnct">played</W>
+<W msd="SP" tag="IN" in="-1:@loc" out="2:nobj">at</W>
 <W msd="PD" tag="DT" in="1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:nobj">Roskilde</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Festival</W>
@@ -131,10 +131,10 @@
 <W msd="SP" tag="IN" in="" out="">that</W>
 <W msd="ANP" tag="JJ" in="2:mod" out="">same</W>
 <W msd="NC=S" tag="NN" in="" out="">year</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-11:[subj]|-2:mod|-4:coord|3:lobj">moved</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-11:[subj]|-2:mod|-4:coord|3:@dir">moved</W>
 <W msd="PO" tag="PRP$" in="" out="">their</W>
 <W msd="NC=S" tag="NN" in="" out="">base</W>
-<W msd="SP" tag="IN" in="-3:lobj" out="1:nobj|2:pobj">from</W>
+<W msd="SP" tag="IN" in="-3:@dir" out="1:nobj|2:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Moscow</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:mod|4:ref|6:rel">Dallas</W>

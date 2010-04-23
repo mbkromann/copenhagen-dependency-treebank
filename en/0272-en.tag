@@ -49,10 +49,10 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">national</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">festivals</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-7:conj" out="-14:[subj]|-1:coord|2:dobj|3:lobj">send</W>
+<W msd="VAF" tag="VB" in="-7:conj" out="-14:[subj]|-1:coord|2:dobj|3:@dir">send</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">encouraging</W>
 <W msd="VADR" tag="VBZ" in="-2:dobj" out="-1:mod">cries</W>
-<W msd="U=" tag="TO" in="-3:lobj" out="1:nobj">to</W>
+<W msd="U=" tag="TO" in="-3:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:pnct|4:ref|17:rel">the</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">competing</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">athletes</W>
@@ -128,7 +128,7 @@
 <W msd="PT" tag="WRB" in="-2:ref|3:mod" out="">where</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">eager</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">volunteers</W>
-<W msd="VADR" tag="VBP" in="-5:rel" out="-3:mod|-1:subj|2:mod|1:preds">stand</W>
+<W msd="VADR" tag="VBP" in="-5:rel" out="-3:mod|-1:subj|1:preds|2:mod">stand</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj|3:ref|6:rel">cups</W>
