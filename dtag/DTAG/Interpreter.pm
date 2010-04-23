@@ -58,8 +58,8 @@ use XML::Parser;
 use PerlIO;
 use IO qw(File);
 use File::Basename;
-use Encode 'decode_utf8';
-use Encode 'decode_utf8';
+use Encode qw(decode decode_utf8 from_to);
+use Time::HiRes qw(time sleep);
 
 # Required DTAG modules 
 require DTAG::Lexicon;
@@ -2984,6 +2984,10 @@ sub cmd_exit {
 		$self->var("cmdlog", undef);
 	}
 
+	# Kill viewers
+	system("ps a | egrep 'dtag-$$-[0-9]*.ps' | grep gv | awk '{print \$1}' | xargs -r kill");
+	print "\n";
+
 	# Exit
 	exit();
 }
@@ -3252,6 +3256,19 @@ sub cmd_format {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_gedit.pl
+## ------------------------------------------------------------
+
+sub cmd_gedit {
+	my $self = shift;
+	my $graph = shift;
+	my $lineno = shift || 0;
+
+	my $file = $graph->file();
+	system("gedit +$lineno $file &");
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_goto.pl
 ## ------------------------------------------------------------
 
@@ -3388,6 +3405,64 @@ sub cmd_inline {
 
 	$self->cmd_comment($graph, $posr, "<!-- <dtag>$inline</dtag> -->");
 	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_kgoto.pl
+## ------------------------------------------------------------
+
+my $kgoto_server = 0;
+
+sub cmd_kgoto {
+	my $self = shift;
+	my $graph = shift;
+	my $time = shift || 0;
+
+	# Create server
+	my $server = $graph->var("gvim");
+	if (! $server) {
+		print "Start new gvim\n";
+		$server = $graph->var("gvim", "DTAG-keyview." . ++$kgoto_server);
+		system("gvim --servername $server -geometry 80x24-0+0");
+		system("gvim --servername $server --remote-send ':set ww=hl\n'");
+	}
+
+	# Create vim command
+	my $vim = "1GdGi";
+	for (my $i = 0; $i < $graph->size(); ++$i) {
+		# Check time
+		my $node = $graph->node($i);
+		my $ntime = $node->var("time");
+		print "ntime=$ntime time=$time\n";
+		last if (defined($ntime) && $ntime > $time);
+		my $nvim = $node->var("vim");
+		$vim .= $nvim if (defined($nvim));
+	}
+
+	# Send vim command to server
+	system("gvim --servername $server --remote-send '$vim'");
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_kplay.pl
+## ------------------------------------------------------------
+
+sub cmd_kplay {
+	my $self = shift;
+	my $graph = shift;
+	my $speed = shift || 1;
+	my $time0 = shift || 0;
+	my $time1 = shift || 25;
+
+	# Calculate step size in seconds 
+	my $updatesPerSec = 5;
+	my $step = $speed / $updatesPerSec;
+
+	my $systime0 = time();
+	for (my $t = $time0; $t < $time1; $t += $step) {
+		$self->cmd_kgoto($graph, $t);
+		sleep(1.0 / $updatesPerSec);
+	}
 }
 
 ## ------------------------------------------------------------
@@ -3557,6 +3632,9 @@ sub cmd_load {
 
 		# Guess file type from extension
 		$ftype = '-atag' if ($fname =~ /\.atag$/);
+		$ftype = '-key' if ($fname =~ /\.key$/);
+		$ftype = '-fix' if ($fname =~ /\.fix$/);
+		$ftype = '-eye' if ($fname =~ /\.eye$/);
 		$ftype = '-lex' if ($fname =~ /\.lex$/);
 		$ftype = '-match' if ($fname =~ /\.match$/);
 		$ftype = '-tiger' if ($fname =~ /\.xml$/);
@@ -3567,6 +3645,9 @@ sub cmd_load {
 	# Load file
 	$self->cmd_load_tag($graph, $fname, $multi) if ($ftype eq '-tag');
 	$self->cmd_load_atag($graph, $fname) if ($ftype eq '-atag');
+	$self->cmd_load_key($graph, $fname, $multi) if ($ftype eq '-key');
+	$self->cmd_load_eye($graph, $fname, $multi) if ($ftype eq '-eye');
+	$self->cmd_load_fix($graph, $fname, $multi) if ($ftype eq '-fix');
 	$self->cmd_load_tiger($graph, $fname) if ($ftype eq '-tiger');
 	$self->cmd_load_malt($graph, $fname) if ($ftype eq '-malt');
 	$self->cmd_load_emalt($graph, $fname) if ($ftype eq '-emalt');
@@ -3831,6 +3912,248 @@ sub cmd_load_emalt {
 
 	# Close MALT file
 	close("MALT");
+	$self->cmd_return($graph);
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_load_eye.pl
+## ------------------------------------------------------------
+
+sub cmd_load_eye {
+	my $self = shift;
+	my $graph = shift;
+	my $file = shift;
+	my $multi = shift;
+
+	# Open tag file
+	open("XML", "< $file") 
+		|| return error("cannot open eye-file for reading: $file");
+	CORE::binmode("XML", $self->binmode()) if ($self->binmode());
+	
+	# Close current graph, if unmodified
+	if (! $multi) {
+		# Close old graph and create new graph
+		$self->cmd_load_closegraph($graph);
+		$graph = DTAG::Graph->new($self);
+		$graph->file($file);
+		push @{$self->{'graphs'}}, $graph;
+		$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	}
+	my @edges = ();
+
+	# Read XML file line by line
+	my $varnames = {};
+	my $lineno = 0;
+    while (my $line = <XML>) {
+        chomp($line);
+		my $n = Node->new();
+		my $pos = $graph->size();
+
+		# Record line number and source
+		if ($multi) {
+			++$lineno;
+			$n->var('_source', "$file:$lineno");
+		}
+
+		# Process <W> tag
+		if ($line =~ /^\s*<E(.*)\/>\s*/) {
+			my $varstr = $1;
+			my $vars = $self->varparse($graph, $varstr, 0);
+			my $input = "";
+			$n->input($input);
+			$n->type("E");
+			$graph->node_add($pos, $n);
+			foreach my $var (keys(%$vars)) {
+				$varnames->{$var} = 1;
+				$n->var($var, $graph->xml_unquote($vars->{$var}));
+			}
+		} else {
+			# Comment line: insert as verbatim node
+			$n->input($line);
+			$n->comment(1);
+			$graph->node_add($pos, $n);
+
+			# Process comment, if it represents inline dtag command
+			if ($line =~ /^\s*<!--\s*<dtag>(.*)<\/dtag>\s*-->\s*$/) {
+				$self->do($1) if ($self->unsafe());
+			}
+		}
+
+		# Abort if requested 
+		last() if ($self->abort());
+	}
+
+	# Insert varnames as permitted varnames
+	foreach my $var (keys(%$varnames)) {
+		$graph->vars()->{$var} = undef 
+			if (! exists $graph->vars()->{$var});
+	}
+
+	# Close XML file
+	close("XML");
+	$self->cmd_return($graph);
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_load_fix.pl
+## ------------------------------------------------------------
+
+sub cmd_load_fix {
+	my $self = shift;
+	my $graph = shift;
+	my $file = shift;
+	my $multi = shift;
+
+	# Open tag file
+	open("XML", "< $file") 
+		|| return error("cannot open fix-file for reading: $file");
+	CORE::binmode("XML", $self->binmode()) if ($self->binmode());
+	
+	# Close current graph, if unmodified
+	if (! $multi) {
+		# Close old graph and create new graph
+		$self->cmd_load_closegraph($graph);
+		$graph = DTAG::Graph->new($self);
+		$graph->file($file);
+		push @{$self->{'graphs'}}, $graph;
+		$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	}
+	my @edges = ();
+
+	# Read XML file line by line
+	my $varnames = {};
+	my $lineno = 0;
+    while (my $line = <XML>) {
+        chomp($line);
+		my $n = Node->new();
+		my $pos = $graph->size();
+
+		# Record line number and source
+		if ($multi) {
+			++$lineno;
+			$n->var('_source', "$file:$lineno");
+		}
+
+		# Process <W> tag
+		if ($line =~ /^\s*<F(.*)\/>\s*/) {
+			my $varstr = $1;
+			my $vars = $self->varparse($graph, $varstr, 0);
+			my $input = $vars->{'str'} || chr($vars->{'val'});
+			$n->input($input);
+			$n->type("K");
+			$graph->node_add($pos, $n);
+			foreach my $var (keys(%$vars)) {
+				$varnames->{$var} = 1;
+				$n->var($var, $graph->xml_unquote($vars->{$var}));
+			}
+		} else {
+			# Comment line: insert as verbatim node
+			$n->input($line);
+			$n->comment(1);
+			$graph->node_add($pos, $n);
+
+			# Process comment, if it represents inline dtag command
+			if ($line =~ /^\s*<!--\s*<dtag>(.*)<\/dtag>\s*-->\s*$/) {
+				$self->do($1) if ($self->unsafe());
+			}
+		}
+
+		# Abort if requested 
+		last() if ($self->abort());
+	}
+
+	# Insert varnames as permitted varnames
+	foreach my $var (keys(%$varnames)) {
+		$graph->vars()->{$var} = undef 
+			if (! exists $graph->vars()->{$var});
+	}
+
+	# Close XML file
+	close("XML");
+	$self->cmd_return($graph);
+	return 1;
+}
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_load_key.pl
+## ------------------------------------------------------------
+
+sub cmd_load_key {
+	my $self = shift;
+	my $graph = shift;
+	my $file = shift;
+	my $multi = shift;
+
+	# Open tag file
+	open("XML", "< $file") 
+		|| return error("cannot open key-file for reading: $file");
+	CORE::binmode("XML", $self->binmode()) if ($self->binmode());
+	
+	# Close current graph, if unmodified
+	if (! $multi) {
+		# Close old graph and create new graph
+		$self->cmd_load_closegraph($graph);
+		$graph = DTAG::Graph->new($self);
+		$graph->file($file);
+		push @{$self->{'graphs'}}, $graph;
+		$self->{'graph'} = scalar(@{$self->{'graphs'}}) - 1;
+	}
+	my @edges = ();
+
+	# Read XML file line by line
+	my $varnames = {};
+	my $lineno = 0;
+    while (my $line = <XML>) {
+        chomp($line);
+		my $n = Node->new();
+		my $pos = $graph->size();
+
+		# Record line number and source
+		if ($multi) {
+			++$lineno;
+			$n->var('_source', "$file:$lineno");
+		}
+
+		# Process <W> tag
+		if ($line =~ /^\s*<K(.*)\/>\s*/) {
+			my $varstr = $1;
+			my $vars = $self->varparse($graph, $varstr, 0);
+			my $input = $vars->{'vim'};
+			$input = $vars->{'str'} || chr($vars->{'val'} || ord('?')) 
+				if (! defined($input));
+			$n->input($input);
+			$n->type("K");
+			$graph->node_add($pos, $n);
+			foreach my $var (keys(%$vars)) {
+				$varnames->{$var} = 1;
+				$n->var($var, $graph->xml_unquote($vars->{$var}));
+			}
+		} else {
+			# Comment line: insert as verbatim node
+			$n->input($line);
+			$n->comment(1);
+			$graph->node_add($pos, $n);
+
+			# Process comment, if it represents inline dtag command
+			if ($line =~ /^\s*<!--\s*<dtag>(.*)<\/dtag>\s*-->\s*$/) {
+				$self->do($1) if ($self->unsafe());
+			}
+		}
+
+		# Abort if requested 
+		last() if ($self->abort());
+	}
+
+	# Insert varnames as permitted varnames
+	foreach my $var (keys(%$varnames)) {
+		$graph->vars()->{$var} = undef 
+			if (! exists $graph->vars()->{$var});
+	}
+
+	# Close XML file
+	close("XML");
 	$self->cmd_return($graph);
 	return 1;
 }
@@ -5830,20 +6153,22 @@ sub cmd_relhelp {
 		print "\nEXAMPLES:\n";
 
 		# Create example graph
+		my $exlist = ["$ex"];
 		$ex =~ s/([^\n])\n([^\n])/$1 $2/g;
 		my @examples = split("\n+", $ex);
 		print "\t" . join("\n\n\t", @examples) . "\n\n";
+		push @$exlist, @examples;
 		$self->cmd_example($graph, shift(@examples), 1);
 		my $egraph = $self->graph();
+		$egraph->var("example", $exlist);
 		foreach my $example (@examples) {
 			$self->cmd_example($egraph, "-add " . $example, 1);
 		}
 
 		# Create viewer for example graph if non-existent
 		$egraph->mtime("");
-		$egraph->var("example", 1);
 		my $exfpsfile = $self->var("exfpsfile");
-		if (! ($exfpsfile && `ps axu | grep $exfpsfile | grep -v grep`)) {
+		if (! ($exfpsfile && `ps a | grep $exfpsfile | grep -v grep`)) {
 			$self->do("viewer");
 		} else { 
 			my $exfpsfile = $self->var("exfpsfile");
@@ -5854,6 +6179,7 @@ sub cmd_relhelp {
 		# Close example graph
 		$self->var("examplegraph", $egraph);
 		if ($egraph->var("example")) {
+			#$self->cmd_save($egraph, undef, "/tmp/example.$$.tag");
 			$self->cmd_close($egraph);
 		}
 	}
@@ -5867,7 +6193,7 @@ sub countname {
 	my $name = shift;
 	my $count = $relset->{$name}->[$REL_TCHILDCNT];
 	my $descr = $relset->{$name}->[$REL_SDESCR];
-	$count = "" if (! defined($count));
+	$count = 0 if (! defined($count));
 	$descr = "" if (! defined($descr));
 	return "    $name = $descr" . ($count == 0 ? "" : " ($count)") .  "\n";
 }
@@ -5946,6 +6272,9 @@ sub cmd_relset {
 	# Open csv file (replacing ~ with home dir)
 	if ($file =~ /^https?:\/\//) {
 		my $s = get($file);
+		open(FILE, ">:encoding(utf8)", "/tmp/dtag.wget");
+		print FILE $s;
+		close(FILE);
 		if (! defined($s)) {
 			$s = "";
 			error("Failed to download URL-resource $file");
@@ -5956,17 +6285,17 @@ sub cmd_relset {
 		open("CSV", "<:encoding(utf8)", $file)
 			|| return error("cannot open csv-file for reading: $file $!");
 	}
-	CORE::binmode("CSV", $self->binmode()) if ($self->binmode());
+	#CORE::binmode("CSV", $self->binmode()) if ($self->binmode());
 	print "Loading relation set \"$name\" from $file\n";
 	
 	# Create relations object
 	my $relations = {"_name_" => $name, "_file_" => $file};
 	
 	# Read relations Text::CSV_XS;
+	#require Text::CSV;
 	require Text::CSV_XS;
-	my $csv = Text::CSV_XS->new({
-		'binary' => 1
-		}) or error("Cannot use CSV: " . Text::CSV->error_diag());
+	my $csv = Text::CSV_XS->new ({ 'binary' => 1 })
+		or error("Cannot use CSV: " . Text::CSV_XS->error_diag());
 	my $classes = [];
 
 	# Skip first line
@@ -5983,7 +6312,7 @@ sub cmd_relset {
 		my ($comment, $shortname, $longname, $deprecatednames, 
 			$supertypes, $shortdescription, $longdescription, $seealso, 
 			$examples) =
-			@$row;
+			map {fixencoding($_)} @$row;
 		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
 
 		# Skip line if short name or long name are undefined
@@ -6065,44 +6394,100 @@ sub add_relation_nodes {
 	return $name;
 }
 
+sub fixencoding {
+	my $s = shift;
+	return $s;
+}
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/cmd_relsetpdf.pl
+##  auto-inserted from: Interpreter/cmd_relset2latex.pl
 ## ------------------------------------------------------------
 
-sub cmd_relsetpdf {
+sub cmd_relset2latex {
 	my $self = shift;
 	my $graph = shift;
 	my $filename = shift;
 	my $relations = shift || "ANY";
 
-	# Find relset, filename, and basename
-	my $relsetname = $graph->relsetname();
-	$filename = "$relsetname-manual.pdf" if (! $filename);
-
-	# Create directory
-	my $dir = "$filename";
-	$dir =~ s/.pdf$//g;
-	$dir .= ".dir";
-	print "Creating directory $dir\n";
-	mkdir($dir);
-
-	# 
-	# Open filename
-	my $latex = "$dir/manual.tex";
-	my $figs = "$dir/fig-";
-	my $nfigs = 0;
+	# Find relset
+	my $relset = $graph->relset();
+	if (! defined($relset)) {
+		error("No relset for the current graph!");
+		return 1;
+	}
 	
+	# Provide default filename if missing
+	if (! $filename) {
+		my $relsetname = $graph->relsetname();
+		$filename = "$relsetname-relations.tex";
+	}
+
+	# Open file and visit nodes depth-first
+	open(my $ofh, ">", $filename);
 	my $visited = {};	
+	foreach my $relation (split(/\s+/, $relations)) {
+		$self->relset2latex_visit($ofh, $relset, $relation, $visited);
+	}
 
-
+	# Close file
+	close($ofh);
 }
 
-sub print_relsetpdf_fig {
+sub relset2latex_visit {
 	my $self = shift;
-	my $cmd = shift;
-	my $name = shift;
+	my $ofh = shift;
+	my $relset = shift;
+	my $relname = shift;
+	my $visited = shift;
+
+	# Do not revisit already visited relations
+	return if ($visited->{$relname});
+	$visited->{$relname} = 1;
+
+	# Retrieve relation data my $relation = $relset->{$relname}; return if (! $relation);
+	my $relation = $relset->{$relname};
+	return if (! $relation);
+	my ($sname, $lname, $iparents, $tparents, $ichildren, $sdescr, 
+		$ldescr, $ex, $deprecated, $lineno, $see) 
+			= map {$relation->[$_]} ($REL_SNAME, $REL_LNAME,
+				$REL_IPARENTS, $REL_TPARENTS, $REL_ICHILDREN, $REL_SDESCR,
+				$REL_LDESCR, $REL_EX, $REL_DEPRECATED, $REL_LINENO, $REL_SEE);
+																			   
+	# Print relation
+	print $ofh "\\begin{relation}\n";
+	print $ofh "	\\relationheader{\\rel{$sname}}{\\rel{$lname}}{$sdescr}{$lineno}{$deprecated}{" 
+		. join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, keys(%$iparents))) . "}"
+		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, keys(%$ichildren))) . "}"
+		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, grep {! $iparents->{$_}} keys(%$tparents))) . "}"
+		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, split(/\s+/, $see))) . "}\n";
+	print $ofh "	\\begin{ldescription}\n\t\t$ldescr\n\\end{ldescription}\n" if ($ldescr);
+	print $ofh "	\\begin{examples}\n"
+		. join("", map {"\t\t{{{" . $_ . "}}}\n"} split(/\n+/, $ex))
+		. "\t\\end{examples}\n";
+	print $ofh "\\end{relation}\n\n";
+
+	# Visit child relations in original order
+	foreach my $subrel (sorted_relations($relset, keys(%$ichildren))) {
+		$self->relset2latex_visit($ofh, $relset, $subrel, $visited);
+	}
 }
+
+sub sorted_relations {
+	my $relset = shift;
+	my @relations = @_;
+	return sort(@relations);
+	#return sort {relation_lineno($relset, $a) <=> relation_lineno($relset, $b)} 
+	#	@relations;
+}
+
+sub relation_lineno {
+	my $relset = shift;
+	my $relname = shift;
+	my $relation = $relset->{$relname};
+	return 1e20 if (! $relation);
+	return $relation->[$REL_LINENO];
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_replace.pl
@@ -8202,6 +8587,10 @@ sub compound_autonumber {
 		$success = $self->cmd_edit($graph, $1, $2) 
 			if ($cmd =~ /^\s*edit\s+([+-]?[0-9]+)\s*(.*)\s*$/);
 
+		# Gedit: gedit $lineno
+		$success = $self->cmd_gedit($graph, $2) 
+			if ($cmd =~ /^\s*gedit(\s+([0-9]+))?\s*$/);
+
 		# Example: ex $specification
 		$success = $self->cmd_example($graph, $1) 
 			if ($cmd =~ /^\s*example\s+(.*)$/);
@@ -8248,6 +8637,14 @@ sub compound_autonumber {
 		$success = $self->cmd_inline($graph, $1, $2) 
 			if ($cmd =~ /^\s*inline\s+([0-9]+)\s+(.*)$/);
 
+		# Kgoto: kgoto $time
+		$success = $self->cmd_kgoto($graph, $1) 
+			if ($cmd =~ /^\s*kgoto\s+([0-9.]+)$/);
+
+		# Kplay: kplay $time
+		$success = $self->cmd_kplay($graph, $2, $5, $6) 
+			if ($cmd =~ /^\s*kplay(\s+-speed=([0-9.]+))?(\s+(([0-9.]+)-)?([0-9.]+))?\s*$/);
+
 		# Layout: layout $options
 		$success = $self->cmd_layout($graph, $1)
 			if ($cmd =~ /^\s*layout\s*(.*)\s*$/);
@@ -8258,7 +8655,7 @@ sub compound_autonumber {
 
 		# Load: load [-tag|-lex|-match] [-multi] [$file]
 		$success = $self->cmd_load($graph, $2, $4, $3)
-			if ($cmd =~ /^\s*load\s*((-lex|-tag|-atag|-match|-tiger|-malt|-conll|-emalt)\s+)?(-multi\s+)?(\S*)\s*$/);
+			if ($cmd =~ /^\s*load\s*((-lex|-tag|-atag|-key|-fix|-eye|-match|-tiger|-malt|-conll|-emalt)\s+)?(-multi\s+)?(\S*)\s*$/);
 
 		# Lookup: lookup "$string"$
 		$success = $self->cmd_lookup($graph, $1) 
@@ -8394,9 +8791,13 @@ sub compound_autonumber {
 		$success = $self->cmd_relations($graph, $2)
 			if ($cmd =~ /^\s*relations\s*(\s+([^ ]*))?$/);
 
-		# Reltable: relset $name [$csvfile]
+		# Relset: relset $name [$csvfile]
 		$success = $self->cmd_relset($graph, $2, $4) 
 			if ($cmd =~ /^\s*relset(\s+(\S+))?(\s+(\S+))?\s*$/);
+
+		# Relset2latex: relset2latex $filename [$type] ...
+		$success = $self->cmd_relset2latex($graph, $2, $3) 
+			if ($cmd =~ /^\s*relset2latex(\s+-file=(\S+))?\s+(.*)$/);
 
 		# Resume: resume
 		$success = $self->cmd_resume($2)
@@ -9903,7 +10304,7 @@ sub seconds2hhmmss {
 	my $seconds = shift;
 
 	return sprintf("%02i:%02i:%02i", 
-		int($seconds / 3600), int($seconds / 60) % 60, $seconds % 60);
+		int($seconds / 3600), int($seconds / 60) % 60, int($seconds) % 60);
 }
 
 ## ------------------------------------------------------------

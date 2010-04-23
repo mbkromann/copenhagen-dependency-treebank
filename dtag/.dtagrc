@@ -175,6 +175,9 @@ cdtrels
 # a single edge)
 edgesplit s/{/ {/g
 
+# Debugging commands
+macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
+
 # Edge types
 #etypes -comp pobj:dobj pobj:possd 
 #etypes -adj attrd# attrr#

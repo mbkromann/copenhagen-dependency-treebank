@@ -190,24 +190,32 @@ exch get 0 get 1 sub {print_word} for smallfont setfontsize setupfont
 {print_edge} forall 3 index 0 eq {0} {3 index 1 sub lines exch get 1
 get} ifelse 1 4 index 1 get 1 sub {print_edge} for grestore pop pop
 pop pop} def /print_lines {0 1 lines length 2 sub {dup print_line 1
-add lines exch get 3 get 0 eq {alignments {aload pop align} forall
-showpage} if} for} def /draw {currentdict /title known {llx titley
-moveto title {show} 0 format} if layout_arcs print_lines} def /setup
+add lines exch get 3 get 0 eq {fixations {fixation} forall alignments
+{aload pop align} forall showpage} if} for} def /draw {currentdict
+/title known {llx titley moveto title {show} 0 format} if
+compile_fixations fixations == layout_arcs print_lines} def /setup
 {array /edges exch def dup array /words exch def array /widths exch
 def /nextw 0 def /nexte 0 def /strings exch def /xwords words length
 array def /ywords words length array def /nword 0 def /alignments []
-def} def true (ptm) /Times-Roman /Times-Bold /Times-Italic
-/Times-BoldItalic createfontfamily setfontfamily 10 setfontsize 0
-setfontstyle 0 setarrowtype setupfont /align {dup type (arraytype) ne
-{xyword moveto} {dup dup xmid exch 0 get xyword dA add exch pop 3 2
-roll {xyword moveto 2 copy lineto} forall moveto} ifelse dup type
-(arraytype) ne {xyword topadjust lineto} {dup dup xmid exch 0 get
-xyword topadjust dA sub exch pop 2 copy lineto 3 2 roll {xyword
+def /fixations [] def} def true (ptm) /Times-Roman /Times-Bold
+/Times-Italic /Times-BoldItalic createfontfamily setfontfamily 10
+setfontsize 0 setfontstyle 0 setarrowtype setupfont /align {dup type
+(arraytype) ne {xyword moveto} {dup dup xmid exch 0 get xyword dA add
+exch pop 3 2 roll {xyword moveto 2 copy lineto} forall moveto} ifelse
+dup type (arraytype) ne {xyword topadjust lineto} {dup dup xmid exch 0
+get xyword topadjust dA sub exch pop 2 copy lineto 3 2 roll {xyword
 topadjust moveto 2 copy lineto} forall pop pop} ifelse gsave
 currentlinewidth 5 mul setlinewidth 1 setgray stroke grestore stroke}
-def /topadjust {strings dH mul sub 4 sub} def /xyword {dup xwords exch
-get exch ywords exch get} def /xmid {dup 0 get xwords exch get exch
-dup length 1 sub get xwords exch get add 2 div} def /formats [] def 
+def /compile_fixations {/fixations_pass words length array def 0 1
+fixations_pass length 1 sub {fixations_pass exch 0 put} for /maxpass 0
+def 0 1 fixations length 1 sub {/i xdef fixations i get /f xdef 0 1 f
+length 1 sub {/j xdef f j [ f j get aload pop fixations_pass 2 index
+dup 2 index exch get 1 add dup maxpass gt {/maxpass 1 index def} if
+put ] put} for fixations i f put} for} def /fixation {pop} def
+/topadjust {strings dH mul sub 4 sub} def /fixadjust {strings dH mul
+sub 4 sub} def /xyword {dup xwords exch get exch ywords exch get} def
+/xmid {dup 0 get xwords exch get exch dup length 1 sub get xwords exch
+get add 2 div} def /formats [] def 
 
 
 %% 2. Graph specification

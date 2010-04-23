@@ -888,6 +888,7 @@ sub is_adjunct {
     $type =~ s/^\¤//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
+	$type =~ s/^@//g;
 	$type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
 	$type =~ s/[()+]//g;
@@ -906,7 +907,7 @@ sub is_adjunct {
 		my $return = 1;
 		map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
 		return $self->is_adjunct($head) && $return;
-	} elsif ($type =~ /^([^:]+):([^:]+)$/) {
+	} elsif ($type =~ /^([^:]+)\.([^:]+)$/) {
 		return $self->is_adjunct($1) && $self->is_dependent($2);
     } elsif ($type =~ /^([^\|]+)\|(.*)$/) {
            return $self->is_adjunct($1) && $self->is_dependent($2);
@@ -938,6 +939,7 @@ sub is_complement {
 	$type =~ s/^\¤//g;
 	$type =~ s/[¹²³^]+$//g;
 	$type =~ s/\#$//g;
+	$type =~ s/^@//g;
     $type =~ s/\/.*$//g;
 	$type =~ s/\*//g;
     $type =~ s/[()]//g;
@@ -956,7 +958,7 @@ sub is_complement {
         my $return = 1;
         map {$self->is_complement($_) || ($return = 0)} split(/:\./, $head);
         return $self->is_complement($tail) && $return;
-    } elsif ($type =~ /^([^:]+):([^:]+)$/) {
+    } elsif ($type =~ /^([^\.]+)\.([^\.]+)$/) {
 		return $self->is_complement($1) && $self->is_dependent($2);
 	} elsif ($type =~ /^([^\|]+)\|(.*)$/) {
 		return $self->is_complement($1) && $self->is_dependent($2);
@@ -1003,14 +1005,6 @@ sub is_known_edge {
 		return 1;
 	} elsif ($type =~ /^\[(.*)\]$/) {
 		return $self->is_dependent($1) ? 1 : 0;
-	} elsif ($type =~ /^<(.*)>$/) {
-		my $return = 1;
-		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
-		return $return;
-	} elsif ($type =~ /:/) {
-		my $return = 1;
-		map {$self->is_dependent($_) || ($return = 0)} split(/:/, $type);
-		return $return;
 	} else {
 		return (grep {$type eq $_} (map {@{$self->etypes()->{$_}}} 
 				keys(%{$self->etypes()}))) 
@@ -4086,6 +4080,7 @@ Get/set comment status of node: 1 = comment, 0 = not comment.
 
 sub comment {
 	my $self = shift;
+	$self->type(undef) if (@_);
 	return $self->var('_comment', @_);
 }
 	
@@ -4253,7 +4248,8 @@ sub new {
 		'_lexemes' => [],
 		'_active' => [],
 		'_cost' => 0,
-		'_extracted' => [] };
+		'_extracted' => [],
+		'_type' => 'W' };
 
 	# Specify class for new object
 	bless ($self, $class);
@@ -4440,6 +4436,21 @@ sub time1 {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/Node/type.pl
+## ------------------------------------------------------------
+
+=item $node->type($type) = $type
+
+Get/set node type.
+
+=cut
+
+sub type {
+	my $self = shift;
+    return $self->var('_type', @_);
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/Node/use_color.pl
 ## ------------------------------------------------------------
 
@@ -4538,7 +4549,7 @@ sub xml {
 	return $self->input() if ($self->comment());
 
 	# XML format with variable-value pairs
-	my $string = "<W";
+	my $string = "<" . $self->type() . "";
 
 	# Variable-value pairs
 	foreach my $var (sort(keys %$self)) {
@@ -4567,7 +4578,7 @@ sub xml {
 	$string .= " out=\"" . emph(join("|", @edges)) . "\"";
 
 	# Return value
-	$string .= ">" . emph_input($self->input()) . "</W>";
+	$string .= ">" . emph_input($self->input()) . "</" . $self->type() . ">";
 	return $string;
 }
 
