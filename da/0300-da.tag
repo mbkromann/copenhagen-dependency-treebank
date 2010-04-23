@@ -42,7 +42,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|13:pnct">Og</W>
 <W gloss="dangerous" lemma="farlig" msd="ANPCSU=IU" tag="JJ" in="1:preds" out="">farlig</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="1:subj|2:pnct|4:cond|-1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:preds|1:subj|2:pnct|4:cond">er</W>
 <W gloss="the_man" lemma="mand" msd="NCCSU==D" tag="NN" in="-1:subj" out="">manden</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:other" out="">også</W>
@@ -85,7 +85,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="The_guy" lemma="fyr" msd="NCCSU==D" tag="NN" in="1:subj" out="">Fyren</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:xpl" out="-1:subj|-2:pnct|3:pnct|2:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:xpl" out="-1:subj|-2:pnct|2:preds|3:pnct">er</W>
 <W gloss="rather" lemma="temmelig" msd="RGU" tag="RP" in="1:degr" out="">temmelig</W>
 <W gloss="explosive" lemma="eksplosiv" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr">eksplosiv</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -227,9 +227,9 @@
 <W gloss="flirted" lemma="flirte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:degr|2:pobj">flirtet</W>
 <W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">lidt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
-<W gloss="art" lemma="malerkunst" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">malerkunst</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="journalism" lemma="journalistik" msd="NCCSU==I" tag="NN" in="-1:conj" out="">journalistik</W>
+<W gloss="art" lemma="malerkunst" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">malerkunst</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="journalism" lemma="journalistik" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">journalistik</W>
 <W gloss="gave" lemma="sætte" msd="VADA=----A-" tag="VBD" in="" out="-9:succ|1:subj|2:dobj|4:pobj|6:goal|14:pnct">satte</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:dobj" out="1:focal">sig</W>

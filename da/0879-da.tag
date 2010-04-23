@@ -78,9 +78,9 @@
 <W gloss="senior_teams" lemma="seniorhold" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">seniorhold</W>
 <W gloss="sell" lemma="sælge" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-7:subj|-8:loc|-6:other|2:dobj|5:other">sælger</W>
 <W gloss="red" lemma="rød" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">røde</W>
-<W gloss="hotdogs" lemma="pølse" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|1:coord">pølser</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="coffee" lemma="kaffe" msd="NCCSU==I" tag="NN" in="-1:conj" out="">kaffe</W>
+<W gloss="hotdogs" lemma="pølse" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|2:conj">pølser</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="coffee" lemma="kaffe" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">kaffe</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-5:other" out="1:nobj">fra</W>
 <W gloss="the_cafeteria" lemma="cafeteria" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">cafeteriet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-19:pnct" out="">:</W>
@@ -109,13 +109,13 @@
 <W gloss="mæske" lemma="mæske" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:pobj">mæske</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="on" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
-<W gloss="soda" lemma="sodavand" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:coord">sodavand</W>
+<W gloss="soda" lemma="sodavand" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|6:conj">sodavand</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="hotdogs" lemma="pølse" msd="NCCPU==I" tag="NNP" in="-2:conj" out="">pølser</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="toast" lemma="toast" msd="NCCSU==I" tag="NN" in="-4:conj" out="">toast</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-5:coord" out="1:conj">eller</W>
-<W gloss="a_little" lemma="lidt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:conj" out="1:nobj">lidt</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="a_little" lemma="lidt" msd="ANP[CN]SU=IU" tag="JJ" in="-6:conj" out="1:nobj|-1:coord">lidt</W>
 <W gloss="candy" lemma="slik" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">slik</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-13:pnct" out="">:</W>
 <W gloss="Regulatory_fee" lemma="kontrolgebyr" msd="NCNSU==I" tag="NN" in="-14:xpl" out="1:list|3:pnct">Kontrolgebyr</W>
@@ -169,7 +169,7 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="10:ref|11:rel">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:other|8:pnct|19:pnct|5:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:other|5:preds|8:pnct|19:pnct">er</W>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="most" lemma="mange" msd="ANS[CN]PU=DU" tag="JJS" in="-1:nobj" out="1:nobj">fleste</W>
@@ -250,9 +250,9 @@
 <W gloss="weighted" lemma="vægte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|6:man">vægtet</W>
 <W gloss="factors" lemma="faktor" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="1:comp">faktorer</W>
 <W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:comp" out="1:nobj">som</W>
-<W gloss="size" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">størrelse</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="kitchen_activity" lemma="køkkenaktivitet" msd="NCCSU==I" tag="NN" in="-1:conj" out="">køkkenaktivitet</W>
+<W gloss="size" lemma="størrelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">størrelse</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="kitchen_activity" lemma="køkkenaktivitet" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">køkkenaktivitet</W>
 <W gloss="higher" lemma="høj" msd="ANC---=-R" tag="JJR" in="-6:man" out="">højere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

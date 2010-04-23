@@ -66,7 +66,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:neg|11:pnct|12:reas|24:pnct|3:preds">var</W>
+<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:neg|3:preds|11:pnct|12:reas|24:pnct">var</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="possible" lemma="mulig" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="">muligt</W>
@@ -194,15 +194,15 @@
 <W gloss="agency" lemma="nyhedsbureau" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">nyhedsbureau</W>
 <W gloss="reported" lemma="meddele" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:pnct|2:dobj|19:pnct">meddelte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj|7:coord">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj|8:conj">at</W>
 <W gloss="517" lemma="517" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="1:nobj">517</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|3:pnct">var</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">blevet</W>
 <W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">kvæstet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-7:coord" out="1:conj">og</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:conj" out="4:vobj">at</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:conj" out="4:vobj|-1:coord">at</W>
 <W gloss="251" lemma="251" msd="AC---U=--" tag="CD" in="3:subj|4:[subj]|5:[subj]" out="1:pobj">251</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>

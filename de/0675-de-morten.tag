@@ -22,14 +22,14 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef">Shengwen</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-18:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj|5:[subj]" out="">,,Ich</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|4:vobj|5:pnct|7:coord|27:pnct">habe</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|4:vobj|5:pnct|27:pnct|6:conj">habe</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="3:dobj" out="1:pnct|2:conj">15-9</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-2:conj" out="">15-8</W>
 <W lemma="gewinnen" msd="VAP" tag="VVPP" in="-4:vobj" out="-5:[subj]|-3:dobj">gewonnen</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="liegen" msd="VA" tag="VVFIN" in="1:conj" out="3:@loc|9:time|12:pnct|13:prec">lag</W>
-<W lemma="aber" msd="RG" tag="ADV" in="-7:coord" out="-1:conj">aber</W>
+<W lemma="liegen" msd="VA" tag="VVFIN" in="-6:conj" out="3:@loc|9:time|12:pnct|13:prec|1:coord">lag</W>
+<W lemma="aber" msd="RG" tag="ADV" in="-1:coord" out="">aber</W>
 <W lemma="weit" msd="AN" tag="ADJD" in="1:degr" out="">weit</W>
 <W lemma="zurück" msd="RG" tag="PTKVZ" in="-3:@loc" out="-1:degr">zurück</W>
 <W lemma="," msd="XP" tag="$," in="1:pnct" out="">,</W>

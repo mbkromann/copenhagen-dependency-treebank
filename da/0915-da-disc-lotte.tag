@@ -86,19 +86,19 @@
 <W gloss="ulcers" lemma="mavesår" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mavesår</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-3:man" out="2:nobj">uden</W>
 <W gloss="surgical" lemma="kirurgisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">kirurgisk</W>
-<W gloss="intervention" lemma="indgreb" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:coord">indgreb</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="sick_leave" lemma="sygefravær" msd="NCNSU==I" tag="NN" in="-1:conj" out="">sygefravær</W>
+<W gloss="intervention" lemma="indgreb" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr|2:conj">indgreb</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="sick_leave" lemma="sygefravær" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">sygefravær</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="medicinal" lemma="medicinsk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">medicinsk</W>
-<W gloss="treatment" lemma="behandling" msd="NCCSU==I" tag="NN" in="-17:conj" out="-1:attr|1:pobj|4:coord">behandling</W>
+<W gloss="treatment" lemma="behandling" msd="NCCSU==I" tag="NN" in="-17:conj" out="-1:attr|1:pobj|7:conj">behandling</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="psychic" lemma="psykisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">psykiske</W>
 <W gloss="ills" lemma="lidelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">lidelser</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:other|3:conj">og</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="1:other">og</W>
 <W gloss="thereby" lemma="dermed" msd="RGU" tag="RP" in="-1:other" out="">dermed</W>
 <W gloss="extensively" lemma="omfattende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">omfattende</W>
-<W gloss="overflødiggørelse" lemma="overflødiggørelse" msd="NCCSU==I" tag="NN" in="-3:conj" out="-1:attr|1:pobj">overflødiggørelse</W>
+<W gloss="overflødiggørelse" lemma="overflødiggørelse" msd="NCCSU==I" tag="NN" in="-7:conj" out="-1:attr|1:pobj|-3:coord">overflødiggørelse</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="psychiatric" lemma="psykiatrisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">psykiatriske</W>
 <W gloss="hospitals" lemma="hospital" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">hospitaler</W>
@@ -128,7 +128,7 @@
 <W gloss="therapeutic" lemma="terapeutisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">terapeutiske</W>
 <W gloss="progress" lemma="fremskridt" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">fremskridt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|1:neg|2:man|4:loc|8:pnct|3:preds">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|1:neg|2:man|3:preds|4:loc|8:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="-2:man" out="">umiddelbart</W>
 <W gloss="visible" lemma="synlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="">synlige</W>
@@ -141,7 +141,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|39:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|3:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:preds|3:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj">et</W>
 <W gloss="fact" lemma="faktum" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">faktum</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -167,15 +167,15 @@
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|3:preds">blive</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:other" out="">stadig</W>
 <W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:other">mere</W>
-<W gloss="expensive" lemma="kostbar" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:degr|1:other|5:coord">kostbare</W>
+<W gloss="expensive" lemma="kostbar" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:degr|1:other|8:conj">kostbare</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
-<W gloss="develop" lemma="udvikle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:coord">udvikle</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="market" lemma="markedsføre" msd="VAF-=----A-" tag="VB" in="-1:conj" out="">markedsføre</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-5:coord" out="1:reas|2:add|3:conj">og</W>
+<W gloss="develop" lemma="udvikle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj">udvikle</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="market" lemma="markedsføre" msd="VAF-=----A-" tag="VB" in="-2:conj" out="-1:coord">markedsføre</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="1:reas|2:add">og</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
-<W gloss="more_expensive" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:conj" out="1:other">dyrere</W>
+<W gloss="more_expensive" lemma="dyr" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-8:conj" out="1:other|-3:coord">dyrere</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W gloss="buy" lemma="indkøbe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">indkøbe</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-39:pnct" out="">.</W>
@@ -187,7 +187,7 @@
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">godt</W>
 <W gloss="example" lemma="eksempel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">eksempel</W>
 <W gloss="of_this" lemma="herpå" msd="RGU" tag="RP" in="-1:pobj" out="">herpå</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|6:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:preds|6:pnct">er</W>
 <W gloss="marketing" lemma="markedsføring" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj">markedsføring</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:pobj">lægemidler</W>
@@ -216,9 +216,9 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="expenses" lemma="udgift" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">udgifter</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
-<W gloss="doctors" lemma="læge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:coord">læge</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="hospitals" lemma="hospital" msd="NCNSU==I" tag="NN" in="-1:conj" out="">hospital</W>
+<W gloss="doctors" lemma="læge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">læge</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="hospitals" lemma="hospital" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">hospital</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>

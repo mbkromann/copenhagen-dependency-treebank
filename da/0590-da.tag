@@ -50,9 +50,9 @@
 <W gloss="The_Danish_Consumer_Council" lemma="forbrugerråd" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">Forbrugerrådet</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|15:pnct">kan</W>
 <W gloss="appeal" lemma="påklage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|5:cond">påklage</W>
-<W gloss="a_council" lemma="kommunalbestyrelse" msd="NCCSG==D" tag="NN" in="-1:dobj" out="1:coord|3:possd">kommunalbestyrelsens</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="the_county_council" lemma="amtsråd" msd="NCNSG==D" tag="NN" in="-1:conj" out="1:[possd]">amtsrådets</W>
+<W gloss="a_council" lemma="kommunalbestyrelse" msd="NCCSG==D" tag="NN" in="-1:dobj" out="3:possd|2:conj">kommunalbestyrelsens</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="the_county_council" lemma="amtsråd" msd="NCNSG==D" tag="NN" in="-2:conj" out="1:[possd]|-1:coord">amtsrådets</W>
 <W gloss="decisions" lemma="afgørelse" msd="NCCPU==I" tag="NNP" in="-3:possd|-1:[possd]" out="">afgørelser</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-5:cond|5:[mod]" out="1:nobj|3:pnct|5:rel">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">det</W>
@@ -60,9 +60,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-5:[mod]|1:preds">er</W>
-<W gloss="material" lemma="væsentlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:coord">væsentlige</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:coord" out="1:conj">og</W>
-<W gloss="principle" lemma="principiel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:conj" out="">principielle</W>
+<W gloss="material" lemma="væsentlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="2:conj">væsentlige</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="principle" lemma="principiel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">principielle</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
@@ -150,9 +150,9 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="decisions" lemma="afgørelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">afgørelser</W>
 <W gloss="pursuant_to" lemma="efter" msd="SP" tag="IN" in="-3:other" out="1:nobj">efter</W>
-<W gloss="this_law" lemma="lov" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:coord">loven</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:conj" out="1:nobj|2:pnct|3:ref|4:rel">de</W>
+<W gloss="this_law" lemma="lov" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:conj">loven</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:conj" out="1:nobj|2:pnct|3:ref|4:rel|-1:coord">de</W>
 <W gloss="rules" lemma="regel" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">regler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
@@ -171,18 +171,18 @@
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:succ" out="-2:tobj|1:pnct|2:nobj">efter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
-<W gloss="the_decision" lemma="afgørelse" msd="NCCSU==D" tag="NN" in="3:subj|4:[subj]" out="1:coord">afgørelsen</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="the_resolution" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-1:conj" out="">beslutningen</W>
+<W gloss="the_decision" lemma="afgørelse" msd="NCCSU==D" tag="NN" in="3:subj|4:[subj]" out="2:conj">afgørelsen</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="the_resolution" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">beslutningen</W>
 <W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">er</W>
 <W gloss="reported" lemma="meddele" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]">meddelt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="7:cond" out="1:subj|5:vobj|6:pnct">Er</W>
-<W gloss="the_decision" lemma="afgørelse" msd="NCCSU==D" tag="NN" in="-1:subj|4:[subj]" out="1:coord">afgørelsen</W>
-<W gloss="or" lemma="eller" msd="CC" tag="CC" in="-1:coord" out="1:conj">eller</W>
-<W gloss="the_resolution" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-1:conj" out="">beslutningen</W>
+<W gloss="the_decision" lemma="afgørelse" msd="NCCSU==D" tag="NN" in="-1:subj|4:[subj]" out="2:conj">afgørelsen</W>
+<W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
+<W gloss="the_resolution" lemma="beslutning" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">beslutningen</W>
 <W gloss="publicly" lemma="offentlig" msd="ANP---=-R" tag="JJ" in="1:attr" out="">offentligt</W>
 <W gloss="promulgated" lemma="bekendtgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:vobj" out="-4:[subj]|-1:attr">bekendtgjort</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -284,7 +284,7 @@
 </s>
 <s>
 <W gloss="The_Environmental_Board_of_Appeal" lemma="miljøklagenævn" msd="NCNSU==D" tag="NN" in="1:subj" out="">Miljøklagenævnet</W>
-<W gloss="shall_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|5:cond|13:pnct|1:preds">er</W>
+<W gloss="shall_be" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|5:cond|13:pnct">er</W>
 <W gloss="appellate_instance" lemma="klagemyndighed" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj">klagemyndighed</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W gloss="administrative" lemma="administrativ" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">administrative</W>

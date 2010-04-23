@@ -97,7 +97,7 @@
 <W gloss="inward" lemma="indad" msd="RGU" tag="RP" in="-2:lobj" out="">indad</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="as_if" lemma="som" msd="U=" tag="WDT" in="-7:comp" out="1:vobj">som</W>
-<W gloss="had_been" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|4:loc|3:preds">var</W>
+<W gloss="had_been" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds|4:loc">var</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="1:nobj">de</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="misoperated" lemma="fejl-operere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="">fejl-opereret</W>
@@ -228,28 +228,28 @@
 <W gloss="drive" lemma="drive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|-3:[mod]|1:dobj|2:other">drive</W>
 <W gloss="rock" lemma="rock" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">rock</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:other" out="1:nobj">på</W>
-<W gloss="welfare_assistance" lemma="bistandshjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|3:conj|4:coord">bistandshjælp</W>
+<W gloss="welfare_assistance" lemma="bistandshjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|3:conj|5:conj">bistandshjælp</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="blind" lemma="blind" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">blind</W>
 <W gloss="faith" lemma="tro" msd="NCCSU==I" tag="NN" in="-3:conj" out="-1:attr">tro</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="-4:coord" out="1:conj">og</W>
-<W gloss="brotherhood" lemma="broderskab" msd="NCNSU==I" tag="NN" in="-1:conj" out="">broderskab</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
+<W gloss="brotherhood" lemma="broderskab" msd="NCNSU==I" tag="NN" in="-5:conj" out="-1:coord">broderskab</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="Fielfraz" lemma="Fielfraz" msd="NP--U==-" tag="NNP" in="1:subj" out="">Fielfraz</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|15:pnct|1:preds">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|15:pnct">er</W>
 <W gloss="skewed" lemma="skæv" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:other">skæv</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj|4:pnct|6:coord">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj|4:pnct|7:conj">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">sin</W>
 <W gloss="rock_music" lemma="rockmusikalsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">rockmusikalske</W>
 <W gloss="skridtgang" lemma="skridtgang" msd="NCCSU==I" tag="NN" in="-2:possd" out="">skridtgang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="1:struct" out="">såvel</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-6:coord" out="-1:struct|1:conj">som</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:conj" out="1:nobj">i</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="1:coord" out="-1:struct">som</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-7:conj" out="1:nobj|-1:coord">i</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:possd">sin</W>
 <W gloss="defiant" lemma="trodsig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">trodsige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
