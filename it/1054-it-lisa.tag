@@ -44,8 +44,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">dell'</W>
 <W lemma="istituto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Istituto</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="analisi" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">analisi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">delle</W>
+<W lemma="analisi" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">analisi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:nobj" out="1:attr">politiche</W>
 <W lemma="pubblico" msd="AN" tag="ADJ" in="-1:attr" out="1:appr">pubbliche</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:appr" out="1:appr">Brookings</W>
@@ -58,7 +58,7 @@
 <W lemma="durante" msd="SP" tag="PRE" in="3:time" out="1:nobj">durante</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="convenzione" msd="NC" tag="NOM" in="-1:nobj|-49:coref-id" out="25:assoc|46:assoc">Convenzione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|-3:time|2:prg|12:pnct|5:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|-3:time|2:prg|5:preds|12:pnct">è</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:prg" out="-1:pnct|1:nobj|2:pnct">nel</W>
 <W lemma="concreto" msd="AN" tag="ADJ" in="-1:nobj" out="">concreto</W>
@@ -96,8 +96,8 @@
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj">le</W>
 <W lemma="molto" msd="AN" tag="ADJ" in="1:attr" out="">molte</W>
-<W lemma="immagine" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">immagini</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="immagine" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">immagini</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="Clinton" msd="NP" tag="NPR" in="-1:nobj" out="2:conj">Clinton</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="gora" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">Gore</W>

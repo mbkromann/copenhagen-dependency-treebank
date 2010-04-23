@@ -29,7 +29,7 @@
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="dicho" msd="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref|25:coref">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|8:pnct|1:preds">son</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:about#|6:conj|30:assoc-scope">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
@@ -90,8 +90,8 @@
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="ver" msd="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj|5:time">ver</W>
 <W lemma="un" msd="ART" in="-1:dobj|-5:assoc-scope" out="1:nobj|7:assoc-const">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">montÃ³n</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">montÃ³n</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pelÃ­culas</W>
 <W lemma="el" msd="ART" in="-5:time" out="1:nobj">los</W>
 <W lemma="viernes" msd="NC" in="-1:nobj" out="">viernes</W>
@@ -147,8 +147,8 @@
 <W lemma="disparatar" msd="VLfin" in="-1:nobj" out="">disparate</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj|-14:coref-var" out="1:nobj|22:assoc-scope">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">crÃ­tica</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">crÃ­tica</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pelÃ­cula</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
@@ -164,7 +164,7 @@
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="aunque" msd="CSUBX" in="-7:conc" out="2:vobj">aunque</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:prg" out="">lÃ³gicamente</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:prg|3:ben|6:subj|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:prg|2:preds|3:ben|6:subj">es</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">mÃ¡s</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:preds" out="-1:degr">cÃ³modo</W>
 <W lemma="para" msd="PREP" in="-3:ben" out="1:nobj">para</W>

@@ -155,8 +155,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Schiphol</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|6:[subj]" out="1:nobj">la</W>
-<W lemma="direzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">direzione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="direzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">direzione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="compagnia" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">compagnia</W>
 <W lemma="aereo" msd="AN" tag="ADJ" in="-1:attrr#" out="">aerea</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-10:loc|-5:subj|1:vobj">ha</W>
@@ -194,7 +194,7 @@
 <W lemma="problema" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">problemi</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">al</W>
 <W lemma="motore" msd="NC" tag="NOM" in="-1:nobj" out="">motore</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-7:time|-6:subj|1:time|3:pnct|2:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-7:time|-6:subj|1:time|2:preds|3:pnct">era</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="-1:time" out="">ancora</W>
 <W lemma="sconoscere" msd="VAP" tag="VER&3a;pper" in="-2:preds" out="">sconosciuto</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

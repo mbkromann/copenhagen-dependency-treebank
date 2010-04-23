@@ -13,7 +13,7 @@
 <W lemma="versione" msd="NC" tag="NOM" in="-1:nobj" out="">versioni</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-14:ref|1:subj" out="">questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:xtop|-1:subj|4:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:xtop|-1:subj|1:preds|4:pnct">è</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:preds" out="2:vobj">quanto</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
 <W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj">prevede</W>
@@ -134,7 +134,7 @@
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="3:preds" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
 <W lemma="conta" msd="NC" tag="NOM" in="-2:relr" out="-1:subj">conta</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-4:time|1:subj|-3:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-4:time|-3:preds|1:subj">sono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">i</W>
 <W lemma="muscolo" msd="NC" tag="NOM" in="-1:nobj" out="">muscoli</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>
@@ -192,7 +192,7 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-10:subj|-29:time|1:vobj|6:pnct">hanno</W>
 <W lemma="iniziare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-11:[subj]|1:dobj">iniziato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="traversata" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">traversata</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">della</W>
+<W lemma="traversata" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">traversata</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">della</W>
 <W lemma="Groenlandia" msd="NP" tag="NPR" in="-1:nobj" out="">Groenlandia</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>

@@ -12,7 +12,7 @@
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="mit" msd="SP" tag="APPR" in="2:man" out="1:nobj">Mit</W>
 <W lemma="Verspätung" msd="NC" tag="NN" in="-1:nobj" out="">Verspätung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:man|1:subj|4:pnct|23:pnct|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:man|1:subj|3:preds|4:pnct|23:pnct">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|4:ref|21:relr">ein</W>
 <W lemma="Programm" msd="NC" tag="NN" in="-1:nobj" out="">Programm</W>
 <W lemma="fertig" msd="RG" tag="PTKVZ" in="-3:preds" out="">fertig</W>
@@ -62,8 +62,8 @@
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-4:ref|10:subj" out="">das</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="9:loc" out="1:nobj">am</W>
-<W lemma="Eingang" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Eingang</W>
-<W lemma="zur" msd="SP+P" tag="APPRART" in="-1:pobj&3a;arg|-34:coref-var" out="1:nobj">zur</W>
+<W lemma="Eingang" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Eingang</W>
+<W lemma="zur" msd="SP+P" tag="APPRART" in="-34:coref-var|-1:pobj|-1:{arg}" out="1:nobj">zur</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">MikroData-Messe</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:dobj" out="1:nobj">den</W>
 <W lemma="Weg" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Weg</W>

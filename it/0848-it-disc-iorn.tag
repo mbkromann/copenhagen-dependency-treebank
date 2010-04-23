@@ -80,7 +80,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="2:nobj">del</W>
 <W lemma="grande" msd="NC" tag="NOM" in="1:attr" out="">Grande</W>
 <W lemma="Belt" msd="NP" tag="NPR" in="-2:nobj" out="-1:attr">Belt</W>
-<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="" out="-5:subj|-6:time|3:pnct|7:cons|1:preds">diventerà</W>
+<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="" out="-5:subj|-6:time|1:preds|3:pnct|7:cons">diventerà</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
@@ -202,12 +202,12 @@
 <W lemma="." msd="XP" tag="SENT" in="-38:pnct" out="">.</W>
 <W lemma="quindi" msd="RG" tag="ADV" in="8:cons" out="">Quindi</W>
 <W lemma="gran" msd="AN" tag="ADJ" in="7:subj" out="1:nobj">gran</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">34</W>
 <W lemma="traghetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">traghetti</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">DSB</W>
-<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="" out="-7:subj|-8:cons|2:pnct|1:preds">diventerà</W>
+<W lemma="diventare" msd="VADR" tag="VER&3a;futu" in="" out="-7:subj|-8:cons|1:preds|2:pnct">diventerà</W>
 <W lemma="superfluo" msd="AN" tag="ADJ" in="-1:preds" out="">superflua</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>

@@ -14,8 +14,8 @@
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="sdraiare" msd="VAP" tag="VER&3a;pper" in="-10:fpreds" out="1:loc|10:conj">sdraiati</W>
 <W lemma="sotto" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">sotto</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">l’ombra</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">l’ombra</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="albero" msd="NC" tag="NOM" in="-1:nobj" out="">albero</W>
 <W lemma="," msd="XP" tag="PON" in="4:pnct" out="">,</W>
@@ -51,9 +51,9 @@
 <W lemma="@card@" msd="XP" tag="PON" in="-1:dobj" out="1:nobj">33</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj|-10:coref&3a;pro" out="9:pnct|1:preds">è</W>
-<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj&3a;arg">figlio</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj&3a;arg" out="1:nobj">dell’ex</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj|-10:coref&3a;pro" out="1:preds|9:pnct">è</W>
+<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj|1:{arg}">figlio</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj|-1:{arg}" out="1:nobj">dell’ex</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|5:appr">ministro</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">l’industria</W>
@@ -129,7 +129,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:dir" out="-2:degr">giù</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">“Io</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|2:pnct|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|1:preds|2:pnct">sono</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="-1:preds" out="">io</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:pnct" out="">!”</W>
 <W lemma="insistere" msd="VADR" tag="VER&3a;pres" in="" out="-3:qobj|1:subj|2:loc|6:pnct|7:fpreds|61:pnct">insiste</W>

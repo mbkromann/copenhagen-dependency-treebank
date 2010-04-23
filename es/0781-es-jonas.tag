@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="3:subj|15:pnct|2:preds">“Está</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="2:preds|3:subj|15:pnct">“Está</W>
 <W lemma="totalmente" msd="ADV" in="1:degr" out="">totalmente</W>
 <W lemma="claro" msd="ADJ" in="-2:preds" out="-1:degr">claro</W>
 <W lemma="que" msd="CQUE" in="-3:subj" out="6:vobj">que</W>
@@ -43,8 +43,8 @@
 <W lemma="dans" msd="ADJ" in="-1:attr" out="">danesas</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="7:subj" out="1:nobj|5:appr">El</W>
-<W lemma="director" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">director</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="director" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">director</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="ATP" msd="ACRNM" in="-1:nobj" out="">ATP</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:namef" out="">Palle</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-5:appr" out="-1:namef">Simonsen</W>
@@ -61,7 +61,7 @@
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="para" msd="PREP" in="2:ben" out="1:nobj">Para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">él</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-2:ben|2:subj|31:pnct|1:preds">está</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-2:ben|1:preds|2:subj|31:pnct">está</W>
 <W lemma="claro" msd="ADJ" in="-1:preds" out="">claro</W>
 <W lemma="que" msd="CQUE" in="-2:subj" out="8:vobj">que</W>
 <W lemma="cada" msd="QU" in="7:subj" out="2:nobj">cada</W>
@@ -85,8 +85,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
-<W lemma="importancia" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg|3:loc">importancia</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="importancia" msd="NC" in="-2:nobj" out="-1:attr|3:loc|1:pobj|1:{arg}">importancia</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="ATP" msd="ACRNM" in="-1:nobj" out="">ATP</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -100,8 +100,8 @@
 <W lemma="por~el~momento" msd="ADV" in="1:time" out="">por el momento</W>
 <W lemma="haber" msd="VHfin" in="-2:vobj" out="-1:time|1:dobj">hay</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg|5:pobj">decisión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="5:pobj|1:pobj|1:{arg}">decisión</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="junta" msd="NC" in="-1:nobj" out="1:attrr&3a;subj#">junta</W>
 <W lemma="directivo" msd="ADJ" in="-1:attrr&3a;subj#" out="">directiva</W>
@@ -115,8 +115,8 @@
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj|7:ext">un</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">1,5</W>
 <W lemma="por" msd="PREP" in="-1:nobj" out="">por</W>
-<W lemma="ciento" msd="CARD" in="" out="1:pobj&3a;arg">ciento</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="ciento" msd="CARD" in="" out="1:pobj|1:{arg}">ciento</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="capital" msd="NC" in="-1:nobj" out="">capital</W>
 <W lemma="," msd="CM" in="-23:pnct" out="">,</W>
 <W lemma="como" msd="CSUBX" in="-7:ext" out="1:nobj">como</W>
@@ -140,10 +140,10 @@
 <W lemma="ATP" msd="ACRNM" in="1:subj" out="">ATP</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:vobj" out="-4:time|-1:subj|1:dobj|10:loc">tendrá</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="parte" msd="NC" in="-1:nobj" out="2:degr|3:pobj&3a;arg">parte</W>
+<W lemma="parte" msd="NC" in="-1:nobj" out="2:degr|3:pobj|3:{arg}">parte</W>
 <W lemma="mucho" msd="ADV" in="1:degr" out="">mucho</W>
 <W lemma="grande" msd="ADJ" in="-2:degr" out="-1:degr">mayor</W>
-<W lemma="de" msd="PREP" in="-3:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;loc">títulos-valores</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;loc" out="1:nobj">de</W>
 <W lemma="origen" msd="NC" in="-1:nobj" out="1:attr">origen</W>
@@ -154,7 +154,7 @@
 <W lemma="." msd="FS" in="-19:pnct" out="">.</W>
 <W lemma="pensar" msd="VLfin" in="" out="1:dobj|11:pnct|30:pnct">Piensa</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
-<W lemma="ser" msd="VSfin" in="-1:vobj" out="4:loc|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-1:vobj" out="1:preds|4:loc">es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="desarrollo" msd="NC" in="-1:nobj" out="1:attr">desarrollo</W>
 <W lemma="natural" msd="ADJ" in="-1:attr" out="">natural</W>
@@ -173,13 +173,13 @@
 <W lemma="totalmente" msd="ADV" in="-1:man" out="">totalmente</W>
 <W lemma="cualquier" msd="QU" in="-2:dobj" out="1:nobj">cualquier</W>
 <W lemma="forma" msd="NC" in="-1:nobj" out="">forma</W>
-<W lemma="de" msd="PREP" in="1:pobj&3a;arg" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="-1:pobj&3a;arg">atadura</W>
+<W lemma="de" msd="PREP" in="1:pobj|1:{arg}" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="-1:pobj|-1:{arg}">atadura</W>
 <W lemma="a" msd="PREP" in="-6:inst" out="">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">través</W>
 <W lemma="de" msd="PREP" in="" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="frontera" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">fronteras</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="frontera" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">fronteras</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país</W>
 <W lemma="." msd="FS" in="-30:pnct" out="">.</W>

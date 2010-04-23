@@ -71,8 +71,8 @@
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">c'</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:conj" out="-12:coord|-1:expl|-11:loc|-7:pobj|1:dobj">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="descrizione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">descrizione</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="descrizione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">descrizione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj" out="2:nobj">questo</W>
 <W lemma="reciproco" msd="AN" tag="ADJ" in="1:attr" out="">reciproco</W>
 <W lemma="amore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|6:relr">amore</W>
@@ -85,7 +85,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="varco" msd="NC" tag="NOM" in="-1:nobj" out="">varco</W>
 <W lemma="." msd="XP" tag="SENT" in="-41:pnct" out="">.</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj|18:appa|7:preds">La</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj|7:preds|18:appa">La</W>
 <W lemma="notte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">notte</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="San" msd="NP" tag="NPR" in="-1:nobj" out="1:nobj">San</W>

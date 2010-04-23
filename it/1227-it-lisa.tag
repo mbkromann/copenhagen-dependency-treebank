@@ -51,8 +51,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-3:namef|1:vobj|13:pnct">ha</W>
 <W lemma="scrivere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:dobj|9:ben">scritto</W>
 <W lemma="vario&7c;varo" msd="AN" tag="ADJ" in="1:attr" out="">vari</W>
-<W lemma="libro" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj&3a;arg|3:pobj">libri</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="libro" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}|3:pobj">libri</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="testo" msd="NC" tag="NOM" in="-1:nobj" out="">testo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:pobj" out="1:nobj">di</W>
 <W lemma="spagnolo" msd="AN" tag="ADJ" in="-1:nobj" out="2:conj">spagnolo</W>
@@ -70,7 +70,7 @@
 <W lemma="affatto" msd="RG" tag="ADV" in="-2:degr" out="">affatto</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nonostante" msd="SP" tag="PRE" in="-3:conc" out="1:vobj">nonostante</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="3:conj|1:preds">sia</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:preds|3:conj">sia</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:preds" out="">danese</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="scrivere" msd="VADR" tag="VER&3a;cpre" in="-3:conj" out="-1:coord|1:ben">scriva</W>
@@ -131,8 +131,8 @@
 <W lemma="e" msd="CS" tag="CON" in="10:coord" out="">e</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="2:struct" out="">inoltre</W>
 <W lemma="vario&7c;varo" msd="AN" tag="ADJ" in="1:attr" out="">vari</W>
-<W lemma="autore" msd="NC" tag="NOM" in="7:subj" out="-2:struct|-1:attr|1:pobj&3a;dobj">autori</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="autore" msd="NC" tag="NOM" in="7:subj" out="-2:struct|-1:attr|1:pobj.dobj|1:{patient}">autori</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="teste&7c;testo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">testi</W>
 <W lemma="scolastico" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">scolastici</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
@@ -180,8 +180,8 @@
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="per" msd="SP" tag="PRE" in="-15:conj" out="-2:coord|-1:neg|1:nobj">per</W>
-<W lemma="libro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">libri</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="libro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">libri</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="testo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">testo</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">in</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>

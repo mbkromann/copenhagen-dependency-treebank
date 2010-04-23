@@ -12,7 +12,7 @@
 <W lemma="decir" msd="VLfin" in="" out="-7:dobj|1:subj|2:pnct">dijo</W>
 <W lemma="él" msd="PPX" in="-1:subj" out="">ella</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
-<W lemma="era" msd="VEfin" in="" out="7:pnct|1:preds">Era</W>
+<W lemma="era" msd="VEfin" in="" out="1:preds|7:pnct">Era</W>
 <W lemma="distinto" msd="ADJ" in="-1:preds" out="">distinta</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
 <W lemma="el" msd="ART" in="" out="">lo</W>
@@ -51,8 +51,8 @@
 <W lemma="dos" msd="CARD" in="-1:subj" out="1:nobj">dos</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="">personas</W>
 <W lemma="en" msd="PREP" in="-3:time" out="1:nobj">en</W>
-<W lemma="medio" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">medio</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="medio" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">medio</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="noche" msd="NC" in="-1:nobj" out="">noche</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>

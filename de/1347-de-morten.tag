@@ -129,10 +129,10 @@
 <p>
 <s>
 <W lemma="d" msd="PP" tag="PDS" in="-12:coref-res|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|5:pnct|19:pnct|21:CONC/aber|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-44:+CAUSE&3a;reas" out="-1:subj|1:preds|5:pnct|19:pnct|21:CONC/aber">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj">das</W>
-<W lemma="Ergebnis" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Ergebnis</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-81:coref-id|-1:pobj&3a;arg" out="1:possr|3:ref|15:relr">der</W>
+<W lemma="Ergebnis" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Ergebnis</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-81:coref-id|-1:pobj|-1:{arg}" out="1:possr|3:ref|15:relr">der</W>
 <W lemma="Konvention" msd="NC" tag="NN" in="-1:possr" out="">Konvention</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-3:ref|11:dobj" out="">die</W>
@@ -163,7 +163,7 @@
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">Neue</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc|-7:coref-id" out="1:nobj|18:coref-var">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Unionstraktat</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|19:pnct|21:CONJ/(und)|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|19:pnct|21:CONJ/(und)">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="16:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-26:coref-var|15:subj" out="2:attr|3:nobj">die</W>
@@ -178,8 +178,8 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">einen</W>
 <W lemma="Platz" msd="NC" tag="NN" in="-1:nobj" out="">Platz</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="4:space&3a;loc" out="1:nobj">im</W>
-<W lemma="Rahmen" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Rahmen</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-18:coref-var|-1:pobj&3a;arg" out="1:possr|28:coref-id">des</W>
+<W lemma="Rahmen" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Rahmen</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-18:coref-var|-1:pobj|-1:{arg}" out="1:possr|28:coref-id">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:possr" out="">Traktats</W>
 <W lemma="finden" msd="VA" tag="VVFIN" in="-16:vobj" out="-15:subj|-6:dobj|-4:space&3a;loc|16:coref-prg">findet</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>

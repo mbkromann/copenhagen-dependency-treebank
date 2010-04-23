@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="21:qobj" out="4:pnct|14:CONTR&3a;prg/ma/ATTR1|1:preds">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="21:qobj" out="1:preds|4:pnct|14:CONTR&3a;prg/ma/ATTR1">Sono</W>
 <W lemma="notizia" msd="NC" tag="NOM" in="-1:preds" out="2:attr|14:²coref">notizie</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
 <W lemma="positivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">positive</W>
@@ -23,8 +23,8 @@
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-21:qobj|1:subj|16:pnct|17:time">dice</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">l'</W>
-<W lemma="autore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">autrice</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="2:nobj">dell'</W>
+<W lemma="autore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">autrice</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">dell'</W>
 <W lemma="ultimo" msd="AN" tag="ADJ" in="1:attr" out="">ultimo</W>
 <W lemma="dibattito" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:about">dibattito</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:about" out="1:nobj">in</W>
@@ -34,8 +34,8 @@
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">sul</W>
 <W lemma="valore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">valore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">dei</W>
-<W lemma="trapianto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">trapianti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="trapianto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">trapianti</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="cuore" msd="NC" tag="NOM" in="-1:nobj" out="">cuore</W>
 <W lemma="," msd="XP" tag="PON" in="-16:pnct" out="">,</W>
 <W lemma="dopo" msd="CS" tag="CON" in="-17:time" out="1:dobj">dopo</W>
@@ -65,8 +65,8 @@
 <W lemma="interessare" msd="VADR" tag="VER&3a;pres" in="-4:relpa" out="-1:subj|-2:pnct|1:dobj|18:pnct">interessa</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj|79:+ELAB&3a;exp">i</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">27</W>
-<W lemma="trapianto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj|3:attr|71:coref-var">trapianti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="trapianto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|3:attr|71:coref-var|1:pobj.dobj|1:{patient}">trapianti</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="cuore" msd="NC" tag="NOM" in="-1:nobj" out="">cuore</W>
 <W lemma="effettuare" msd="VAP" tag="VER&3a;pper" in="-3:attr" out="1:loc|3:time">effettuati</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">al</W>
@@ -81,7 +81,7 @@
 <W lemma="settembre" msd="NC" tag="NOM" in="1:nobj" out="-1:nobj">settembre</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-3:nobj" out="-1:nobj">1990</W>
 <W lemma="," msd="XP" tag="PON" in="-18:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exp" out="-23:subj|1:man|27:pnct|31:CONTR&3a;dir/(ma)|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exp" out="-23:subj|1:man|2:preds|27:pnct|31:CONTR&3a;dir/(ma)">è</W>
 <W lemma="esattamente" msd="RG" tag="ADV" in="-1:man" out="">esattamente</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:preds" out="1:nobj">quella</W>
 <W lemma="richiedere" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="1:pobj|7:iobj">richiesta</W>
@@ -92,14 +92,14 @@
 <W lemma="S" msd="NP" tag="NPR" in="-2:list" out="-1:pnct|1:pnct">S</W>
 <W lemma=")" msd="XP" tag="PON" in="-1:pnct" out="">)</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-7:iobj" out="1:nobj">al</W>
-<W lemma="ministero" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">Ministero</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="ministero" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">Ministero</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="salute" msd="NC" tag="NOM" in="-1:nobj" out="">salute</W>
 <W lemma="in" msd="SP" tag="PRE" in="-8:man" out="1:nobj">in</W>
 <W lemma="qualità" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">qualità</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
-<W lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg|6:loc">direttore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|6:loc">direttore</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:about">comitato</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:about" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
@@ -144,8 +144,8 @@
 <W lemma="paziente" msd="NC" tag="NOM" in="-1:nobj" out="">pazienti</W>
 <W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-79:+ELAB&3a;exp" out="-7:time|-2:subj|1:dobj|10:pnct|13:ELAB&3a;exp">avevano</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|4:degr">un'</W>
-<W lemma="aspettativa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">aspettativa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="aspettativa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">aspettativa</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="vita" msd="NC" tag="NOM" in="-1:nobj" out="">vita</W>
 <W lemma="di" msd="SP" tag="PRE" in="-4:degr" out="1:nobj">di</W>
 <W lemma="meno" msd="RG" tag="ADV" in="-1:nobj" out="1:pobj">meno</W>
@@ -176,10 +176,10 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="2:nobj">La</W>
 <W lemma="maggiore" msd="AN" tag="ADJ" in="1:attr" out="">maggior</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">parte</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">parte</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-38:coref|-1:nobj" out="">loro</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="26:qobj" out="-5:subj|5:pnct|9:ELAB&3a;part|1:preds">erano</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="26:qobj" out="-5:subj|1:preds|5:pnct|9:ELAB&3a;part">erano</W>
 <W lemma="operare" msd="VADA" tag="VER&3a;remo" in="-1:preds" out="1:attrr#">operai</W>
 <W lemma="specializzato" msd="AN" tag="ADJ" in="-1:attrr#" out="2:conj">specializzati</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -188,7 +188,7 @@
 </s>
 <s>
 <W lemma="quattro" msd="AN" tag="ADJ" in="1:subj" out="">Quattro</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:ELAB&3a;part" out="-1:subj|7:pnct|12:conj|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:ELAB&3a;part" out="-1:subj|1:preds|7:pnct|12:conj">sono</W>
 <W lemma="decedere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:time">deceduti</W>
 <W lemma="entro" msd="SP" tag="PRE" in="-1:time" out="1:nobj">entro</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
@@ -213,8 +213,8 @@
 <W lemma="Jan" msd="NP" tag="NPR" in="1:namef" out="">Jan</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:appr" out="-1:namef|1:attr|12:coref">Aldershvile</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj|4:loc">del</W>
-<W lemma="reparto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">reparto</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="reparto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">reparto</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="cardiologia" msd="NC" tag="NOM" in="-1:nobj" out="">cardiologia</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-4:loc" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Rigshospitalet</W>

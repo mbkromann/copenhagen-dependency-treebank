@@ -1,8 +1,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Torben</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="13:subj" out="-1:namef|1:pnct|2:appa">Vest</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="direttore" msd="NC" tag="NOM" in="-2:appa" out="1:pobj&3a;arg|10:pnct">direttore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="direttore" msd="NC" tag="NOM" in="-2:appa" out="10:pnct|1:pobj|1:{arg}">direttore</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#|3:appr|6:attr">negozio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">di</W>
 <W lemma="abito" msd="NC" tag="NOM" in="-1:nobj" out="">abiti</W>
@@ -68,7 +68,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|2:pnct|4:conc|10:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="11:qobj" out="-3:pnct|-2:subj|1:preds|2:pnct|4:conc|10:pnct">è</W>
 <W lemma="soddisfacente" msd="AN" tag="ADJ" in="-1:preds" out="">soddisfacente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
@@ -151,7 +151,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="3:prg" out="1:nobj">in</W>
 <W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="">effetti</W>
 <W lemma="ne" msd="RG" tag="ADV" in="2:pobj" out="6:coref-res">ne</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-32:conj" out="-4:coord|-3:prg|2:pnct|1:preds">siamo</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-32:conj" out="-4:coord|-3:prg|1:preds|2:pnct">siamo</W>
 <W lemma="soddisfare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="-2:pobj">soddisfatti</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Le</W>

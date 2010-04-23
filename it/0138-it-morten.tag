@@ -56,10 +56,10 @@
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-8:conj" out="-1:coord|1:nobj|7:pnct">l'</W>
-<W lemma="accettazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj|3:pobj&3a;dobj">accettazione</W>
+<W lemma="accettazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj|3:pobj.dobj|3:{patient}">accettazione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
 <W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="">tribunale</W>
-<W lemma="di" msd="SP" tag="PRE" in="-3:pobj&3a;dobj" out="2:nobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-3:pobj.dobj|-3:{patient}" out="2:nobj">di</W>
 <W lemma="tale" msd="PD" tag="PRO&3a;demo" in="1:attr" out="">tale</W>
 <W lemma="comportamento" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">comportamento</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
@@ -94,7 +94,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:pnct|4:pnct|1:preds">Ero</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:pnct|1:preds|4:pnct">Ero</W>
 <W lemma="sotto" msd="SP" tag="PRE" in="-1:preds" out="2:nobj">sotto</W>
 <W lemma="costante" msd="AN" tag="ADJ" in="1:attr" out="">costante</W>
 <W lemma="pressione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">pressione</W>
@@ -103,7 +103,7 @@
 <s>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="1:neg">E</W>
 <W lemma="non" msd="RG" tag="ADV" in="-1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="6:qobj" out="-2:coord|4:pnct|5:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="6:qobj" out="-2:coord|1:preds|4:pnct|5:pnct">è</W>
 <W lemma="facile" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">facile</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">da</W>
 <W lemma="sopportare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">sopportare</W>
@@ -117,8 +117,8 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="secondo" msd="AN" tag="ADJ" in="-1:nobj" out="">seconda</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:pnct|13:qobj|1:preds">è</W>
-<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="12:coref-res|-1:preds" out="">questa</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|2:pnct|13:qobj">è</W>
+<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:preds|12:coref-res" out="">questa</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="10:pnct" out="">"</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="9:time" out="1:pnct">Oggi</W>
@@ -146,8 +146,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="1:vobj|20:pnct">hanno</W>
 <W lemma="riconoscere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:iobj|-1:[subj]|1:dobj">riconosciuto</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|8:man">una</W>
-<W lemma="tratta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">tratta</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="2:nobj">di</W>
+<W lemma="tratta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">tratta</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">30</W>
 <W lemma="km" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">km</W>
 <W lemma="." msd="XP" tag="SENT" in="3:pnct" out="">.</W>
@@ -251,7 +251,7 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">il</W>
 <W lemma="rimborso" msd="NC" tag="NOM" in="-1:nobj" out="">rimborso</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:vobj" out="-2:subj|12:coref|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:vobj" out="-2:subj|1:preds|12:coref">è</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:preds" out="2:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">40</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:ext">corone</W>

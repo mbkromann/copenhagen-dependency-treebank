@@ -7,8 +7,8 @@
 <W lemma="de" msd="PREP" in="-4:pobj" out="1:dobj">de</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="6:vobj">que</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">los</W>
-<W lemma="partidario" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">partidarios</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="partidario" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">partidarios</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Unión</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-6:vobj" out="-5:subj|1:dobj|4:time">harán</W>
@@ -91,12 +91,12 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:bg|1:dobj">destacó</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:subj" out="">“SF</W>
-<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:subj|7:pnct|8:bg|12:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-2:vobj" out="-1:subj|1:preds|7:pnct|8:bg|12:pnct">es</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:nobj">el</W>
-<W lemma="tanque" msd="NC" in="-1:nobj" out="1:pobj&3a;goal#|3:pobj&3a;arg">tanque</W>
+<W lemma="tanque" msd="NC" in="-1:nobj" out="1:pobj&3a;goal#|3:pobj|3:{arg}">tanque</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;goal#" out="1:nobj">de</W>
 <W lemma="idea" msd="NC" in="-1:nobj" out="">ideas</W>
-<W lemma="en" msd="PREP" in="-3:pobj&3a;arg" out="1:nobj">en</W>
+<W lemma="en" msd="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">en</W>
 <W lemma="Dinamarca" msd="NP" in="-1:nobj" out="">Dinamarca</W>
 <W lemma="," msd="CM" in="-7:pnct" out="">,</W>
 <W lemma="en~cuanto~a" msd="PREP" in="-8:bg" out="1:nobj">en cuanto a</W>
@@ -165,7 +165,7 @@
 <W lemma="que" msd="CQUE" in="-1:dobj" out="3:vobj">que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="gobierno" msd="NC" in="-1:nobj" out="">gobierno</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:vobj" out="-2:subj|10:conj|1:preds">“está</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:vobj" out="-2:subj|1:preds|10:conj">“está</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="1:pobj">impregnado</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">escándalos</W>

@@ -59,8 +59,8 @@
 <W lemma="A." msd="NP" tag="NE" in="-1:nobj" out="">A.</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="-3:exem|1:nobj|4:space&3a;loc">die</W>
-<W lemma="Enthüllung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Enthüllungen</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="1:nobj|4:pnct|5:ref|12:relr|70:coref-var">einer</W>
+<W lemma="Enthüllung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Enthüllungen</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|4:pnct|5:ref|12:relr|70:coref-var">einer</W>
 <W lemma="EU-Richtlinie" msd="NC" tag="NN" in="-1:nobj" out="">EU-Richtlinie</W>
 <W lemma="in" msd="SP" tag="APPR" in="-4:space&3a;loc" out="1:nobj">in</W>
 <W lemma="B.T." msd="NP" tag="NE" in="-1:nobj" out="">B.T.</W>
@@ -185,7 +185,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:ref|3:subj|11:[subj]" out="">der</W>
 <W lemma="erklärt" msd="AN" tag="ADJA" in="1:attr" out="">erklärter</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:preds" out="-1:attr">Supereuropäer</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:relpa" out="-3:subj|9:conj|-1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:relpa" out="-3:subj|-1:preds|9:conj">ist</W>
 <W lemma="und" msd="CC" tag="KON" in="8:coord" out="">und</W>
 <W lemma="auf" msd="SP" tag="APPR" in="5:pobj" out="1:nobj">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">eine</W>

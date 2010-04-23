@@ -16,8 +16,8 @@
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-5:relr" out="-2:subj|-1:dir">sollten</W>
 <W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="4:bg" out="1:nobj">Im</W>
-<W lemma="Fall" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Fall</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Fall" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Fall</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">TEBA</W>
 <W lemma="lösen" msd="VA" tag="VVFIN" in="" out="-4:bg|2:subj|3:dobj|4:pnct|5:reas|13:pnct">löst</W>
 <W lemma="John" msd="NP" tag="NE" in="1:namef" out="">John</W>
@@ -35,7 +35,7 @@
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">So</W>
 <W lemma="einfach" msd="AN" tag="ADJD" in="1:preds" out="-1:degr">einfach</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|2:pnct|-1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|1:subj|2:pnct">ist</W>
 <W lemma="d" msd="PP" tag="PDS" in="-1:subj" out="">das</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
@@ -82,7 +82,7 @@
 <W lemma="d" msd="PP" tag="PDS" in="3:subj" out="">das</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="2:preds" out="1:nobj">kein</W>
 <W lemma="Grund" msd="NC" tag="NN" in="-1:nobj" out="5:nobj">Grund</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|1:pnct|-2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-2:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:dobj" out="1:possd">TEBAs</W>
 <W lemma="Areal" msd="NC" tag="NN" in="-1:possd" out="">Areal</W>
@@ -131,8 +131,8 @@
 <W lemma="wie" msd="CS" tag="KOKOM" in="-3:comp" out="1:loc">wie</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Errechnung</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;dobj" out="1:nobj">von</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Errechnung</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">von</W>
 <W lemma="Mietkosten" msd="NC" tag="NN" in="-1:nobj" out="">Mietkosten</W>
 <W lemma="," msd="XP" tag="$," in="-9:pnct" out="">,</W>
 <W lemma="alle" msd="PP" tag="PIS" in="1:subj|2:[subj]" out="">alles</W>
@@ -169,7 +169,7 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-6:subj|-1:vobj|-5:eval|1:pnct">werden</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="" out="-1:subj|5:pnct|1:preds">macht</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:preds|5:pnct">macht</W>
 <W lemma="9,5" msd="AC" tag="CARD" in="-1:preds" out="1:nobj">9,5</W>
 <W lemma="Kilo" msd="NC" tag="NN" in="-1:nobj" out="1:other">Kilo</W>
 <W lemma="per" msd="SP" tag="APPR" in="-1:other" out="1:nobj">per</W>

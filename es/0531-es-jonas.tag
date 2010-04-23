@@ -112,8 +112,8 @@
 <W lemma="ahorro" msd="NC" in="-1:nobj" out="">ahorro</W>
 <W lemma="." msd="FS" in="-43:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="6:subj|7:[subj]" out="1:nobj|5:appr">El</W>
-<W lemma="director" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">director</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="director" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">director</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="banco" msd="NC" in="-1:nobj" out="">banco</W>
 <W lemma="John" msd="NP" in="1:namef" out="">John</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-5:appr" out="-1:namef">Olsdorff</W>
@@ -172,11 +172,11 @@
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
 <W lemma="dos" msd="CARD" in="6:subj" out="1:nobj">Dos</W>
 <W lemma="vocal" msd="NC" in="-1:nobj" out="1:attr">vocales</W>
-<W lemma="simple" msd="ADJ" in="-1:attr" out="1:pobj&3a;arg">simples</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="simple" msd="ADJ" in="-1:attr" out="1:pobj|1:{arg}">simples</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="consejo" msd="NC" in="-1:nobj" out="1:attr">consejo</W>
 <W lemma="administrativo" msd="ADJ" in="-1:attr" out="">administrativo</W>
-<W lemma="ser" msd="VSfin" in="" out="-6:subj|2:pnct|1:preds">fueron</W>
+<W lemma="ser" msd="VSfin" in="" out="-6:subj|1:preds|2:pnct">fueron</W>
 <W lemma="liberar" msd="VLadj" in="-1:preds" out="">liberados</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="de" msd="PREP" in="10:struct" out="1:nobj|3:pnct">De</W>
@@ -194,8 +194,8 @@
 <W lemma="claro" msd="ADJ" in="-1:nobj" out="1:dobj">claro</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="7:vobj">que</W>
 <W lemma="el" msd="ART" in="6:subj|7:[subj]" out="1:nobj">los</W>
-<W lemma="miembro" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">miembros</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="miembro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">miembros</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="consejo" msd="NC" in="-1:nobj" out="1:attr">consejo</W>
 <W lemma="administrativo" msd="ADJ" in="-1:attr" out="">administrativo</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
@@ -212,7 +212,7 @@
 <W lemma="suyo" msd="PPO" in="3:subj|29:dobj" out="1:nobj">Su</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">liberación</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="significar" msd="VLfin" in="" out="-4:pnct|-3:subj|-1:neg|1:degr|18:pnct|25:pnct|2:preds">significa</W>
+<W lemma="significar" msd="VLfin" in="" out="-4:pnct|-3:subj|-1:neg|1:degr|2:preds|18:pnct|25:pnct">significa</W>
 <W lemma="en~absoluto" msd="ADV" in="-1:degr" out="">en absoluto</W>
 <W lemma="un" msd="ART" in="-2:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj?">afirmación</W>

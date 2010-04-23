@@ -43,8 +43,8 @@
 <W lemma="su" msd="SP" tag="PRE" in="6:pobj" out="1:nobj">su</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="-1:nobj|-9:ref" out="">cui</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj|5:[subj]" out="1:nobj">la</W>
-<W lemma="maggioranza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">maggioranza</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="maggioranza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">maggioranza</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="danese" msd="NC" tag="NOM" in="-1:nobj" out="">danesi</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-14:relr" out="-4:subj|-6:pobj|1:vobj">può</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:man|2:preds">essere</W>
@@ -60,7 +60,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="3:subj" out="1:nobj">Gli</W>
 <W lemma="essere" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">esseri</W>
 <W lemma="umano" msd="AN" tag="ADJ" in="-1:attr" out="">umani</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-3:subj|19:pnct|22:conj|2:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-3:subj|2:preds|19:pnct|22:conj">sono</W>
 <W lemma="talmente" msd="RG" tag="ADV" in="1:degr" out="">talmente</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:pobj">diversi</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">tra</W>
@@ -82,7 +82,7 @@
 <W lemma="," msd="XP" tag="PON" in="-19:pnct" out="">,</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="2:time" out="">oggi</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-16:subj|-9:comp|-2:time|-1:neg|2:comp|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-16:subj|-9:comp|-2:time|-1:neg|1:preds|2:comp">è</W>
 <W lemma="diffondere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">diffuso</W>
 <W lemma="come" msd="CS" tag="CON" in="-2:comp" out="3:nobj">come</W>
 <W lemma="ad" msd="SP" tag="PRE" in="2:ex" out="1:nobj">ad</W>
@@ -100,7 +100,7 @@
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="1:attr" out="">altri</W>
 <W lemma="popolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">popoli</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|17:pnct|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|1:preds|17:pnct">sono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="prodotto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">prodotto</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj|8:conj">dell'</W>
@@ -185,7 +185,7 @@
 <W lemma="apprendimento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">apprendimento</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="sapere" msd="NC" tag="NOM" in="-1:nobj" out="">sapere</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|3:pnct|6:conj|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-7:subj|2:preds|3:pnct|6:conj">è</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
 <W lemma="mutare" msd="VAP" tag="VER&3a;pper" in="-2:preds" out="-1:degr|-9:[subj]">mutata</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>

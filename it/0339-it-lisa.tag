@@ -88,7 +88,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:dobj" out="-1:focal|1:nobj">l'</W>
 <W lemma="avversario" msd="NC" tag="NOM" in="-1:nobj" out="">avversario</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="" out="3:pnct|2:preds">Fosse</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="" out="2:preds|3:pnct">Fosse</W>
 <W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>
 <W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">semplice</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
@@ -151,8 +151,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Oluf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]" out="-1:namef|16:coref">Terp</W>
 <W lemma="sapere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|22:pnct">sa</W>
-<W lemma="rispondere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:pobj&3a;dobj">rispondere</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">alle</W>
+<W lemma="rispondere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:pobj.dobj|1:{patient}">rispondere</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">alle</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|13:relr">domande</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|12:dobj" out="">che</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="11:subj" out="1:nobj">molti</W>
@@ -202,8 +202,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-2:qobj" out="-7:subj|-1:pnct|1:vobj">devono</W>
 <W lemma="stringere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:loc">stringersi</W>
-<W lemma="intorno" msd="RG" tag="ADV" in="-1:loc" out="1:pobj&3a;dobj">intorno</W>
-<W lemma="ad" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">ad</W>
+<W lemma="intorno" msd="RG" tag="ADV" in="-1:loc" out="1:pobj.dobj|1:{patient}">intorno</W>
+<W lemma="ad" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">ad</W>
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="1:nobj">altri</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">uomini</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

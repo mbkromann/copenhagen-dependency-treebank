@@ -157,7 +157,7 @@
 <p>
 <s>
 <W lemma="davon" msd="RG" tag="PAV" in="-6:coref|1:subj" out="">Davon</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|5:pnct|3:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|3:preds|5:pnct">war</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">jedoch</W>
 <W lemma="keineswegs" msd="RG" tag="ADV" in="1:neg" out="">keineswegs</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="-1:neg|1:nobj">die</W>
@@ -218,8 +218,8 @@
 <W lemma="Fürsprecher" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:pobj">Fürsprechern</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
-<W lemma="Änderung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Änderung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="3:nobj">der</W>
+<W lemma="Änderung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Änderung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="3:nobj">der</W>
 <W lemma="berühmt" msd="AN" tag="ADJA" in="2:attr" out="">berühmten</W>
 <W lemma="geltend" msd="AN" tag="ADJA" in="1:attr" out="">geltenden</W>
 <W lemma="Zusatzvertrag" msd="NC" tag="NN" in="-3:nobj" out="-2:attr|-1:attr">Zusatzverträge</W>

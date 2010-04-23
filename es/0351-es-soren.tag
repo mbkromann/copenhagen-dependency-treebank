@@ -66,8 +66,8 @@
 <W lemma="deber" msd="VMfin" in="" out="-1:time|1:vobj|6:pnct">debe</W>
 <W lemma="ir" msd="VLinf" in="-1:vobj" out="1:dir">ir</W>
 <W lemma="al" msd="PAL" in="-1:dir" out="1:nobj">al</W>
-<W lemma="lugar" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">lugar</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="lugar" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">lugar</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="hecho" msd="NC" in="-1:nobj" out="">hecho</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="que" msd="CQUE" in="2:dobj" out="">Que</W>
@@ -81,7 +81,7 @@
 <W lemma="visitar" msd="VLfin" in="-1:nobj" out="">visita</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">No</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:neg|2:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:neg|1:preds|2:pnct">es</W>
 <W lemma="cierto" msd="ADJ" in="-1:preds" out="">cierto</W>
 <W lemma="?" msd="FS" in="-2:pnct" out="">?</W>
 <W lemma="Peter" msd="NP" in="2:subj|6:[subj]" out="">Peter</W>
@@ -137,10 +137,10 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">democrática</W>
 <W lemma="desde" msd="PREP" in="-4:loc" out="1:nobj">desde</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">balcón</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
-<W lemma="edificio" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">edificio</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">balcón</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
+<W lemma="edificio" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">edificio</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="parlamento" msd="NC" in="-1:nobj" out="">parlamento</W>
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="6:subj|7:[subj]|20:[subj]|21:[subj]" out="">Él</W>
@@ -157,8 +157,8 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="multitud" msd="NC" in="-1:nobj" out="1:loc">multitud</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
-<W lemma="frente" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">frente</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="2:nobj">del</W>
+<W lemma="frente" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">frente</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="2:nobj">del</W>
 <W lemma="antiguo" msd="ADJ" in="1:attr" out="">antiguo</W>
 <W lemma="castillo" msd="NC" in="-2:nobj" out="-1:attr|1:attr">castillo</W>
 <W lemma="imperial" msd="ADJ" in="-1:attr" out="">imperial</W>
@@ -174,8 +174,8 @@
 <W lemma="socialista" msd="ADJ" in="-1:attr" out="">socialista</W>
 <W lemma="basar" msd="VLadj" in="-2:attr" out="1:pobj">basada</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
-<W lemma="consejo" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">consejos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj|3:conj">de</W>
+<W lemma="consejo" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">consejos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj|3:conj">de</W>
 <W lemma="trabajador" msd="NC" in="-1:nobj" out="">trabajadores</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="de" msd="PREP" in="-3:conj" out="-1:coord|1:nobj">de</W>

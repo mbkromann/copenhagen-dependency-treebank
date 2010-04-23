@@ -1,7 +1,7 @@
 <W lemma="el" msd="ART" in="12:subj" out="1:nobj">La</W>
 <W lemma="propuesta" msd="NC" in="-1:nobj" out="1:pobj.dobj&3a;{patient}">propuesta</W>
 <W lemma="sobre" msd="PREP" in="-1:pobj.dobj&3a;{patient}" out="1:nobj">sobre</W>
-<W lemma="sesin" msd="NC" in="-1:nobj" out="3:attr|17:coref-id|1:attr&3a;{agent#}|4:pobj.subj&3a;{agent}">sesiones</W>
+<W lemma="sesin" msd="NC" in="-1:nobj" out="1:attr&3a;{agent#}|3:attr|4:pobj.subj&3a;{agent}|17:coref-id">sesiones</W>
 <W lemma="de" msd="PREP" in="-1:attr&3a;{agent#}" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="colectivo" msd="ADJ" in="-3:attr" out="">colectivas</W>
@@ -41,8 +41,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-22:conj|-20:coref" out="-4:coord|-3:time|-1:iobj|1:xtop|12:dobj|19:pnct|20:time">costó</W>
 <W lemma="al" msd="PAL" in="-1:xtop" out="-2:ref|2:nobj">al</W>
 <W lemma="entonces" msd="ADV" in="1:time" out="">entonces</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:time|1:pobj&3a;arg|6:conj|20:coref">líder</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:time|6:conj|20:coref|1:pobj|1:{arg}">líder</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Venstre</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="anterior" msd="ADJ" in="2:time" out="">anterior</W>
@@ -51,8 +51,8 @@
 <W lemma="Erik" msd="NP" in="1:namef" out="">Erik</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:appr" out="-1:namef">Eriksen</W>
 <W lemma="suyo" msd="PPO" in="-12:dobj|1:[arg]" out="1:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="-1:[arg]|1:pobj&3a;arg">rol</W>
-<W lemma="como" msd="CSUBX" in="-1:pobj&3a;arg" out="1:nobj">como</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="-1:[arg]|1:pobj|1:{arg}">rol</W>
+<W lemma="como" msd="CSUBX" in="-1:pobj|-1:{arg}" out="1:nobj">como</W>
 <W lemma="personaje" msd="NC" in="-1:nobj" out="1:attr|2:pobj&3a;const">personaje</W>
 <W lemma="central" msd="ADJ" in="-1:attr" out="">central</W>
 <W lemma="del" msd="PDEL" in="-2:pobj&3a;const" out="1:nobj">del</W>
@@ -62,8 +62,8 @@
 <W lemma="directamente" msd="ADV" in="2:man" out="">directamente</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:vobj|-20:coref" out="-2:man|-1:robj|1:preds|9:pnct">mostró</W>
-<W lemma="partidario" msd="NC" in="-1:preds" out="1:pobj&3a;arg">partidario</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="partidario" msd="NC" in="-1:preds" out="1:pobj|1:{arg}">partidario</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj.patient">fusión</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj.patient" out="1:nobj">de</W>

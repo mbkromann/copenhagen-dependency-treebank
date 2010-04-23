@@ -64,8 +64,8 @@
 <W lemma="velar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">velar</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:pobj">por</W>
 <W lemma="el" msd="ART" in="-1:pobj" out="1:nobj">la</W>
-<W lemma="seguridad" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">seguridad</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="seguridad" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">seguridad</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|16:coref-id">los</W>
 <W lemma="anciano" msd="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="," msd="CM" in="-10:pnct" out="">,</W>
@@ -74,7 +74,7 @@
 <W lemma="el" msd="ART" in="-13:coref-part|3:subj" out="1:nobj|8:coref">el</W>
 <W lemma="municipio" msd="NC" in="-1:nobj" out="">municipio</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|4:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|-1:neg|1:preds|4:pnct">es</W>
 <W lemma="capaz" msd="ADJ" in="-1:preds" out="1:pobj">capaz</W>
 <W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
 <W lemma="hacerlo" msd="VCLI" in="-1:vobj" out="">hacerlo</W>

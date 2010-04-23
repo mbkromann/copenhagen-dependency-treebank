@@ -39,8 +39,8 @@
 <W lemma="Jensen" msd="NP" tag="NE" in="-3:subj" out="-2:namef|-1:namel|-30:coref|116:coref-var">Jensen</W>
 <W lemma="an" msd="SP" tag="APPR" in="-4:man" out="1:nobj|5:vobj">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
-<W lemma="Adresse" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Adresse</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;arg" out="1:possr|3:pnct|4:ref|14:relr">der</W>
+<W lemma="Adresse" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Adresse</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj|-1:{arg}" out="1:possr|3:pnct|4:ref|14:relr">der</W>
 <W lemma="Rockmusiker" msd="NC" tag="NN" in="-1:possr" out="">Rockmusiker</W>
 <W lemma="richten" msd="VAP" tag="VVPP" in="-5:vobj" out="">gerichtet</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -98,7 +98,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj">der</W>
 <W lemma="Branche" msd="NC" tag="NN" in="-1:nobj" out="">Branche</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:pnct|-9:subj|3:pnct|60:coref|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:pnct|-9:subj|1:preds|3:pnct|60:coref">ist</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-1:preds" out="1:nobj">zu</W>
 <W lemma="kritisieren" msd="VAF" tag="VVINF" in="-1:nobj" out="">kritisieren</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
@@ -114,7 +114,7 @@
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="zu" msd="SP" tag="APPR" in="2:preds" out="1:nobj">zu</W>
 <W lemma="Tod" msd="NC" tag="NN" in="-1:nobj" out="">Tode</W>
-<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|1:pnct|2:cause&3a;reas|-2:preds">siegt</W>
+<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|-2:preds|1:pnct|2:cause&3a;reas">siegt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="indem" msd="CS" tag="KOUS" in="-2:cause&3a;reas" out="6:vobj">indem</W>
 <W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
@@ -130,7 +130,7 @@
 <W lemma="in" msd="SP" tag="APPR" in="3:preds" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Lage" msd="NC" tag="NN" in="-1:nobj" out="5:nobj">Lage</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-4:time|1:pnct|-3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:vobj" out="-5:subj|-4:time|-3:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:robj" out="">sich</W>
 <W lemma="daran" msd="RG" tag="PAV" in="2:avobj" out="4:dobj">daran</W>
@@ -221,7 +221,7 @@
 <W lemma="." msd="XP" tag="$." in="-35:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namef" out="">C.V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-1:namef">Jørgensen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|5:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|2:preds|5:pnct">ist</W>
 <W lemma="also" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">also</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="lausig" msd="AN" tag="ADJA" in="-1:attr" out="">lausiger</W>

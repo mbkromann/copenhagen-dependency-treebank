@@ -103,8 +103,8 @@
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|1:vobj">può</W>
 <W lemma="sostituire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|1:dobj">sostituire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="consumo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">consumo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj|-41:coref-var" out="1:nobj">delle</W>
+<W lemma="consumo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">consumo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-41:coref-var|-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="">pillole</W>
 <W lemma="." msd="XP" tag="SENT" in="-32:pnct" out="">.</W>
 <W lemma="illustrazione" msd="NC" tag="NOM" in="" out="1:pnct|3:list">Illustrazione</W>
@@ -123,8 +123,8 @@
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-7:conj|1:[subj]" out="-4:coord|-3:time|1:vobj|6:pnct">ha</W>
 <W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">fatto</W>
-<W lemma="uso" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;dobj">uso</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="uso" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj.dobj|1:{patient}">uso</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pillole</W>
 <W lemma="contraccettivo" msd="AN" tag="ADJ" in="-1:attr" out="">contraccettive</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
@@ -203,8 +203,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="prevenzione" msd="NC" tag="NOM" in="-1:nobj" out="">prevenzione</W>
 <W lemma="in" msd="SP" tag="PRE" in="-5:man" out="1:nobj">in</W>
-<W lemma="sostituzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">sostituzione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-34:coref-var|-1:pobj&3a;dobj" out="1:nobj">delle</W>
+<W lemma="sostituzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">sostituzione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-34:coref-var|-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="">pillole</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
@@ -222,8 +222,8 @@
 <W lemma="rischio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">rischi</W>
 <W lemma="connettere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj&3a;pobj">connessi</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;pobj" out="1:nobj">all'</W>
-<W lemma="uso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">uso</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">delle</W>
+<W lemma="uso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">uso</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pillole</W>
 <W lemma="contraccettivo" msd="AN" tag="ADJ" in="-1:attr" out="">contraccettive</W>
 <W lemma="per" msd="SP" tag="PRE" in="-9:ben" out="1:nobj">per</W>

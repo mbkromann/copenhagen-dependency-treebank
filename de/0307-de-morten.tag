@@ -69,7 +69,7 @@
 <W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="">dafür</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-2:neg|-1:pobj|1:pnct">seid</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:time|1:subj|2:epi|6:pnct|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:time|1:subj|2:epi|3:preds|6:pnct">ist</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
 <W lemma="wohl" msd="RG" tag="ADV" in="-2:epi" out="">wohl</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="1:attr|2:nobj">die</W>
@@ -120,7 +120,7 @@
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="2:subj" out="1:man">Das</W>
 <W lemma="alleine" msd="RG" tag="ADV" in="-1:man" out="">alleine</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|7:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|7:pnct">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="unglaublich" msd="AN" tag="ADJA" in="-1:attr" out="">unglaublicher</W>
 <W lemma="Druck" msd="NC" tag="NN" in="-2:nobj" out="1:other">Druck</W>
@@ -133,7 +133,7 @@
 <p>
 <s>
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">Deshalb</W>
-<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="-1:reas|1:subj|3:pnct|22:pnct|2:preds">fällt</W>
+<W lemma="fallen&7c;fällen" msd="VA" tag="VVFIN" in="" out="-1:reas|1:subj|2:preds|3:pnct|22:pnct">fällt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="7:nobj">es</W>
 <W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds" out="">schwer</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -179,10 +179,10 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-6:ref|-1:nobj" out="">der</W>
 <W lemma="man" msd="PP" tag="PIS" in="13:[subj]|14:[subj]|15:subj" out="1:pobj">man</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="-1:pobj" out="1:nobj">als</W>
-<W lemma="Vater" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:pobj&3a;arg">Vater</W>
+<W lemma="Vater" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:pobj|3:{arg}">Vater</W>
 <W lemma="oder" msd="CC" tag="KON" in="1:coord" out="">oder</W>
 <W lemma="Mutter" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Mutter</W>
-<W lemma="von" msd="SP" tag="APPR" in="-3:pobj&3a;arg" out="2:nobj">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="-3:pobj|-3:{arg}" out="2:nobj">von</W>
 <W lemma="studierend" msd="AN" tag="ADJA" in="1:attr" out="">studierenden</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:degr">Kindern</W>
 <W lemma="über" msd="SP" tag="APPR" in="-1:degr" out="1:nobj">über</W>

@@ -8,8 +8,8 @@
 <W lemma="sostenere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dobj">sostenuto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:relr">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj|6:[subj]|8:[subj]" out="1:nobj">l'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">dei</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="computer" msd="NC" tag="NOM" in="-1:nobj" out="">computer</W>
 <W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-5:relr" out="-4:subj|2:vobj|33:TIME&3a;succ">aveva</W>
 <W lemma="semplicemente" msd="RG" tag="ADV" in="1:man" out="">semplicemente</W>
@@ -27,7 +27,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-23:ELAB&3a;rest" out="8:pnct|1:preds">Era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-23:ELAB&3a;rest" out="1:preds|8:pnct">Era</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-11:coref-res|-1:preds" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:dobj" out="">che</W>
 <W lemma="intendere" msd="VADA" tag="VER&3a;impf" in="-2:relr" out="-1:dobj|1:pobj">intendevano</W>
@@ -63,7 +63,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:DESCR&3a;eval" out="4:pnct|5:pnct|1:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:DESCR&3a;eval" out="1:preds|4:pnct|5:pnct">È</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="telefono" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">telefono</W>
 <W lemma="strano" msd="AN" tag="ADJ" in="-1:attr" out="">strano</W>
@@ -73,8 +73,8 @@
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:[subj]">detto</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:subj|-2:[subj]" out="-1:pnct|1:nobj|4:pnct">l'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mercedes</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
@@ -137,8 +137,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-13:+CONJ/(e)/ATTR3" out="1:nobj|4:pnct|7:qobj|58:+CONJ/(e)/ATTR1">L'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">dei</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="computer" msd="NC" tag="NOM" in="-1:nobj" out="">computer</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-4:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
@@ -195,8 +195,8 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-58:+CONJ/(e)/ATTR1" out="-1:pnct|1:nobj|4:pnct|5:pnct|7:qobj|44:+CONJ/anche">L'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mercedes</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-5:pnct" out="">:</W>
@@ -228,8 +228,8 @@
 <W lemma="prima" msd="CS" tag="CON" in="13:time" out="1:dobj">Prima</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">l'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">dei</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="computer" msd="NC" tag="NOM" in="-1:nobj" out="">computer</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="recare" msd="VADA" tag="VER&3a;cimp" in="-6:vobj" out="-5:subj|-1:robj|1:loc|3:pnct">recasse</W>
@@ -245,8 +245,8 @@
 <W lemma="de" msd="NP" tag="NPR" in="-1:attr" out="2:nobj">de</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:pnct|1:nobj|4:pnct">l'</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">uomo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mercedes</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-8:iobj" out="1:nobj">ad</W>

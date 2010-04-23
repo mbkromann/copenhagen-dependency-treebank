@@ -20,8 +20,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-13:pnct" out="">V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:degr" out="">Sólo</W>
 <W lemma="el" msd="ART" in="7:subj" out="-1:degr|1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">médicos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">médicos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|3:appr">la</W>
 <W lemma="revista" msd="NC" in="-1:nobj" out="1:attr">revista</W>
 <W lemma="semanal" msd="ADJ" in="-1:attr" out="">semanal</W>
@@ -194,7 +194,7 @@
 <W lemma="riesgo" msd="NC" in="-2:nobj" out="-1:attr|1:ref|3:relr">riesgos</W>
 <W lemma="que" msd="CQUE" in="-1:ref|2:subj" out="">que</W>
 <W lemma="este" msd="DM" in="-11:coref-res|1:preds" out="">esto</W>
-<W lemma="significar" msd="VLfin" in="-3:relr" out="-2:subj|1:pobj|-1:preds">significaba</W>
+<W lemma="significar" msd="VLfin" in="-3:relr" out="-2:subj|-1:preds|1:pobj">significaba</W>
 <W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="2:pobj&3a;?">mujeres</W>
 <W lemma="grande" msd="ADJ" in="2:degr" out="">mayores</W>

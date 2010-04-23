@@ -1,5 +1,5 @@
-<W lemma="novedad" msd="NC" in="" out="1:pobj&3a;arg">Novedades</W>
-<W lemma="en" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">en</W>
+<W lemma="novedad" msd="NC" in="" out="1:pobj|1:{arg}">Novedades</W>
+<W lemma="en" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">BTCC</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
 <W lemma="esperar" msd="VLfin" in="" out="-1:robj|1:dobj|17:pnct">espera</W>
@@ -14,8 +14,8 @@
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="carrera" msd="NC" in="-1:nobj" out="1:attr">carreras</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="1:pobj&3a;arg">británicas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="1:pobj|1:{arg}">británicas</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="turismo" msd="NC" in="-1:nobj" out="1:time">turismos</W>
 <W lemma="en" msd="PREP" in="-1:time" out="1:nobj">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1993</W>
@@ -32,7 +32,7 @@
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="Nissan" msd="NP" in="-10:conj" out="-1:coord">Nissan</W>
 <W lemma="ya" msd="ADV" in="1:time" out="">ya</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-1:time|-12:subj|7:pnct|22:pnct|1:preds">están</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-1:time|-12:subj|1:preds|7:pnct|22:pnct">están</W>
 <W lemma="involucrar" msd="VLadj" in="-1:preds" out="1:pobj">involucradas</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -77,8 +77,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr|1:loc">cigüeñal</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">V8</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">V8</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="equipo" msd="NC" in="-1:nobj" out="">equipo</W>
 <W lemma="," msd="CM" in="-20:pnct" out="">,</W>
 <W lemma="haber" msd="VHfin" in="" out="-26:subj|1:vobj">ha</W>
@@ -135,8 +135,8 @@
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="un" msd="ART" in="6:subj|7:[subj]" out="1:nobj">Un</W>
 <W lemma="coche" msd="NC" in="-1:nobj" out="1:attr">coche</W>
-<W lemma="construir" msd="VLadj" in="-1:attr" out="1:pobj&3a;arg">construido</W>
-<W lemma="por" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">por</W>
+<W lemma="construir" msd="VLadj" in="-1:attr" out="1:pobj|1:{arg}">construido</W>
+<W lemma="por" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">por</W>
 <W lemma="estudiante" msd="NC" in="-1:nobj" out="1:attr">estudiantes</W>
 <W lemma="francs" msd="ADJ" in="-1:attr" out="">franceses</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-6:subj|1:vobj|6:pnct|7:cond|13:pnct">podría</W>
@@ -162,13 +162,13 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:dobj" out="-1:numm">kilómetros</W>
 <W lemma="con" msd="PREP" in="-4:inst" out="1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="litro" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">litro</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="litro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">litro</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="gasolina" msd="NC" in="-1:nobj" out="">gasolina</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-10:ref|2:subj" out="">lo</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-12:relelab" out="-2:subj|4:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="-12:relelab" out="-2:subj|1:preds|4:pnct">es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">récord</W>
 <W lemma="mundial" msd="ADJ" in="-1:attrr#" out="">mundial</W>
@@ -207,8 +207,8 @@
 <W lemma="en" msd="PREP" in="-2:ref" out="">en</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="un" msd="ART" in="5:subj|6:[subj]" out="1:nobj">un</W>
-<W lemma="coche" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">coche</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="coche" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">coche</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">construcción</W>
 <W lemma="japons" msd="ADJ" in="-1:attr" out="">japonesa</W>
 <W lemma="poder" msd="VMfin" in="-9:relr" out="-5:subj|1:vobj|4:inst">pudo</W>
@@ -217,7 +217,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:dobj" out="-1:numm">kilómetros</W>
 <W lemma="con" msd="PREP" in="-4:inst" out="1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="litro" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">litro</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="litro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">litro</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="gasolina" msd="NC" in="-1:nobj" out="">gasolina</W>
 <W lemma="." msd="FS" in="-20:pnct" out="">.</W>

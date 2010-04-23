@@ -15,7 +15,7 @@
 <W lemma="Center" msd="NP" tag="NPR" in="-1:nobj" out="">Center</W>
 <W lemma="," msd="XP" tag="PON" in="-12:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:discmark" out="">e</W>
-<W lemma="cioè" msd="RG" tag="ADV" in="-9:elab" out="-1:discmark|10:pnct|1:preds">cioè</W>
+<W lemma="cioè" msd="RG" tag="ADV" in="-9:elab" out="-1:discmark|1:preds|10:pnct">cioè</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="zona" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|3:relr">zona</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:subj" out="">che</W>
@@ -46,8 +46,8 @@
 <W lemma="verde" msd="AN" tag="ADJ" in="-1:attr" out="">verde</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="16:subj|17:[subj]|18:[subj]" out="1:nobj">La</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg|6:ref|8:relpa">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">dei</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="6:ref|8:relpa|1:pobj|1:{arg}">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="terreno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">terreni</W>
 <W lemma="demaniale" msd="AN" tag="ADJ" in="-1:attr" out="">demaniali</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>

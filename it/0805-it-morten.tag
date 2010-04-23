@@ -1,6 +1,6 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="11:subj|13:[subj]" out="1:nobj">La</W>
-<W lemma="raccolta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">raccolta</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj|3:conj">di</W>
+<W lemma="raccolta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">raccolta</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|3:conj">di</W>
 <W lemma="articolo" msd="NC" tag="NOM" in="-1:nobj" out="">articoli</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:conj" out="-1:coord|1:nobj">di</W>
@@ -26,7 +26,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">il</W>
 <W lemma="libro" msd="NC" tag="NOM" in="-1:nobj" out="">libro</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-17:conj" out="-3:coord|-2:subj|1:conc|4:conj|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-17:conj" out="-3:coord|-2:subj|1:conc|2:preds|4:conj">è</W>
 <W lemma="comunque" msd="RG" tag="ADV" in="-1:conc" out="">comunque</W>
 <W lemma="splendido" msd="AN" tag="ADJ" in="-2:preds" out="">splendido</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>

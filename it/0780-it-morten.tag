@@ -1,6 +1,6 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="sommo" msd="AN" tag="ADJ" in="-1:nobj" out="">somma</W>
-<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:pnct|7:conj|46:pnct|1:preds">sembra</W>
+<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|2:pnct|7:conj|46:pnct">sembra</W>
 <W lemma="alto" msd="AN" tag="ADJ" in="-1:preds" out="">alta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="4:coord" out="">ma</W>
@@ -77,8 +77,8 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-8:pobj" out="1:nobj">al</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:fpredo">gruppo</W>
 <W lemma="inglese" msd="AN" tag="ADJ" in="-1:attr" out="">inglese</W>
-<W lemma="produttore" msd="AN" tag="ADJ" in="-2:fpredo" out="1:pobj&3a;dobj">produttore</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="produttore" msd="AN" tag="ADJ" in="-2:fpredo" out="1:pobj.dobj|1:{patient}">produttore</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="birra" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">birra</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:appr" out="">Allied-Lyon</W>
 <W lemma="," msd="XP" tag="PON" in="-16:pnct" out="">,</W>
@@ -102,8 +102,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|30:coref-var" out="1:nobj">delle</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">due</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:fpredo">società</W>
-<W lemma="produttore" msd="AN" tag="ADJ" in="-1:fpredo" out="1:pobj&3a;dobj">produttrici</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="produttore" msd="AN" tag="ADJ" in="-1:fpredo" out="1:pobj.dobj|1:{patient}">produttrici</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="birra" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">birra</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Copenaghen</W>

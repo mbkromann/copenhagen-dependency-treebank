@@ -32,8 +32,8 @@
 <W lemma="%" msd="PERCT" in="-1:nobj" out="">%</W>
 <W lemma="por" msd="PREP" in="-5:loc&3a;met" out="1:pobj">por</W>
 <W lemma="debajo~de" msd="PREP" in="-1:pobj" out="1:nobj">debajo de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:pobj&3a;arg">la</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:pobj|1:{arg}">la</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">año</W>
 <W lemma="pasar" msd="VLadj" in="-1:attr" out="">pasado</W>
 <W lemma="," msd="CM" in="-11:pnct" out="">,</W>
@@ -81,10 +81,10 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:bobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:bobj" out="1:attr">año</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:attr" out="">pasado,”</W>
-<W lemma="ser" msd="VSfin" in="" out="1:subj|32:pnct|-10:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-10:preds|1:subj|32:pnct">es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
-<W lemma="comentario" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">comentario</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="comentario" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">comentario</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="tres" msd="CARD" in="-1:nobj" out="1:nobj|4:loc|6:pnct|7:appr">tres</W>
 <W lemma="tienda" msd="NC" in="-1:nobj" out="1:pobj&3a;formål#">tiendas</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;formål#" out="1:nobj">de</W>
@@ -108,8 +108,8 @@
 <W lemma="que" msd="CQUE" in="-13:ref|1:subj" out="">que</W>
 <W lemma="llevar" msd="VLfin" in="-14:relr" out="-1:subj|1:dobj">llevan</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|4:man">un</W>
-<W lemma="par" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">par</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="par" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">par</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="semana" msd="NC" in="-1:nobj" out="">semanas</W>
 <W lemma="con" msd="PREP" in="-4:man" out="1:nobj">con</W>
 <W lemma="rebaja" msd="NC" in="-1:nobj" out="">rebajas</W>
@@ -148,7 +148,7 @@
 <W lemma="y" msd="CC" in="3:struct" out="">Y</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="">sí</W>
 <W lemma="," msd="CM" in="" out="">,</W>
-<W lemma="estar" msd="VLfin" in="" out="-3:struct|1:prg|4:pnct|3:preds">estamos</W>
+<W lemma="estar" msd="VLfin" in="" out="-3:struct|1:prg|3:preds|4:pnct">estamos</W>
 <W lemma="de~hecho" msd="ADV" in="-1:prg" out="">de hecho</W>
 <W lemma="muy" msd="ADV" in="" out="">muy</W>
 <W lemma="contento" msd="ADJ" in="-3:preds" out="">contentos</W>
@@ -179,8 +179,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:preds" out="-1:degr">buenísimo,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-24:dobj|1:subj|7:pnct">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="1:pobj&3a;arg|4:appr">jefe</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="4:appr|1:pobj|1:{arg}">jefe</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">marketing</W>
 <W lemma="Erik" msd="NP" in="1:namef" out="">Erik</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-4:appr" out="-1:namef">Schiøtt</W>

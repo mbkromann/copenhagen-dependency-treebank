@@ -96,8 +96,8 @@
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="1:pnct" out="">-</W>
 <W lemma="ser" msd="VSfin" in="5:dobj" out="-1:pnct|1:preds|4:pnct">Es</W>
-<W lemma="parte" msd="NC" in="-1:preds" out="1:pobj&3a;arg">parte</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="parte" msd="NC" in="-1:preds" out="1:pobj|1:{arg}">parte</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:dobj|1:subj">respondió</W>

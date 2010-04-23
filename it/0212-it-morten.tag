@@ -81,13 +81,13 @@
 <W lemma="laboratorio" msd="NC" tag="NOM" in="-1:nobj" out="">laboratorio</W>
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="1:appa">5.2</W>
-<W lemma="registrazione" msd="NC" tag="NOM" in="-1:appa" out="1:pobj&3a;dobj">Registrazione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="registrazione" msd="NC" tag="NOM" in="-1:appa" out="1:pobj.dobj|1:{patient}">Registrazione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="controllo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">controlli</W>
 <W lemma="interno" msd="AN" tag="ADJ" in="-1:attr" out="">interni</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="5:subj|6:[subj]|7:[subj]" out="1:nobj">I</W>
-<W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">risultati</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">risultati</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="controllo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">controlli</W>
 <W lemma="interno" msd="AN" tag="ADJ" in="-1:attr" out="">interni</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="" out="-5:subj|1:vobj|34:qobj">devono</W>
@@ -98,7 +98,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:lobj" out="1:nobj">in</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="apposito" msd="AN" tag="ADJ" in="1:attr" out="">apposito</W>
-<W lemma="registro" msd="NC" tag="NOM" in="-2:nobj" out="1:ref|2:relr|-1:attr">registro</W>
+<W lemma="registro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:ref|2:relr">registro</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj|2:[subj]|11:[subj]|12:[subj]" out="">che</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:vobj|9:conj">deve</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:man">essere</W>
@@ -161,7 +161,7 @@
 <W lemma="accompagnare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:pobj">accompagnati</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">da</W>
 <W lemma="preciso" msd="AN" tag="ADJ" in="1:attr" out="">precise</W>
-<W lemma="indicazione" msd="NC" tag="NOM" in="-2:nobj" out="1:pobj|5:vobj|-1:attr">indicazioni</W>
+<W lemma="indicazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|5:vobj">indicazioni</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|8:conj|11:conj">sull'</W>
 <W lemma="orario" msd="NC" tag="NOM" in="-1:nobj" out="2:ref|6:pnct">orario</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:time" out="1:nobj">in</W>

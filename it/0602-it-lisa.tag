@@ -45,8 +45,8 @@
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="">persone</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|5:subj|6:[subj]" out="">che</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="4:time" out="1:nobj">nel</W>
-<W lemma="pieno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">pieno</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="pieno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">pieno</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="notte" msd="NC" tag="NOM" in="-1:nobj" out="">notte</W>
 <W lemma="camminare" msd="VADR" tag="VER&3a;pres" in="-7:relr" out="-4:time|-5:subj|1:concom">camminano</W>
 <W lemma="scusare" msd="VAG" tag="VER&3a;geru" in="-1:concom" out="-6:[subj]|1:ext|2:comp">scusandosi</W>

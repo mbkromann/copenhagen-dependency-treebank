@@ -11,7 +11,7 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-11:time|-2:subj|6:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-11:time|-2:subj|2:preds|6:pnct">è</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="1:degr" out="">ancora</W>
 <W lemma="migliore" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:pobj">migliore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">degli</W>
@@ -21,8 +21,8 @@
 <W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="" out="-7:qobj|3:subj|8:pnct">sostengono</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="2:attr" out="">tre</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="medico" msd="NC" tag="NOM" in="-3:subj" out="-1:pnct|-2:attr|1:pobj&3a;dobj|3:pnct|4:attr">medici</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dell'</W>
+<W lemma="medico" msd="NC" tag="NOM" in="-3:subj" out="-1:pnct|-2:attr|3:pnct|4:attr|1:pobj.dobj|1:{patient}">medici</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dell'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-3:pnct" out="">"</W>
 <W lemma="americano" msd="AN" tag="ADJ" in="-4:attr" out="">americani</W>
@@ -37,7 +37,7 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
-<W lemma="fa" msd="RG" tag="ADV" in="-3:vobj" out="-2:subj|5:coref-res|1:preds">fa</W>
+<W lemma="fa" msd="RG" tag="ADV" in="-3:vobj" out="-2:subj|1:preds|5:coref-res">fa</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:preds" out="">bene</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 </s>
@@ -90,8 +90,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="6:loc" out="3:nobj">in</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="1:attr" out="">tre</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="1:attr" out="-1:attr">diverse</W>
-<W lemma="città" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:pobj&3a;arg">città</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">degli</W>
+<W lemma="città" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:pobj|1:{arg}">città</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">degli</W>
 <W lemma="uso" msd="AN" tag="ADJ" in="-1:nobj" out="">USA</W>
 <W lemma="studiare" msd="VADR" tag="VER&3a;pres" in="-21:relpa" out="-7:subj|-6:loc|1:dobj|5:pnct">studiano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">gli</W>
@@ -110,15 +110,15 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="spicchio&7c;spicco" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">spicchi</W>
-<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">d'</W>
+<W lemma="spicchio&7c;spicco" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">spicchi</W>
+<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">d'</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">aglio</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresco</W>
 <W lemma="oppure" msd="CS" tag="CON" in="-8:contr" out="1:vobj">oppure</W>
 <W lemma="assumere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:dobj|5:ext">assumere</W>
 <W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="">due</W>
-<W lemma="compressa" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj&3a;dobj">compresse</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="compressa" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj.dobj|1:{patient}">compresse</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="">aglio</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:ext" out="1:nobj">al</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="">giorno</W>
@@ -131,9 +131,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-5:conj" out="-2:coord|-1:degr|3:nobj">gli</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="2:attr" out="">altri</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="soldato" msd="NC" tag="NOM" in="-3:nobj" out="-1:pnct|-2:attr|1:pnct|2:pobj&3a;arg">soldati</W>
+<W lemma="soldato" msd="NC" tag="NOM" in="-3:nobj" out="-1:pnct|-2:attr|1:pnct|2:pobj|2:{arg}">soldati</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;arg" out="2:nobj">del</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj|-2:{arg}" out="2:nobj">del</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostro</W>
 <W lemma="sistema" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">sistema</W>
 <W lemma="immunitario" msd="AN" tag="ADJ" in="-1:attr" out="">immunitario</W>
@@ -141,8 +141,8 @@
 <W lemma="tenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:loc|2:dobj">tenere</W>
 <W lemma="lontano" msd="AN" tag="ADJ" in="-1:loc" out="">lontani</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="1:nobj">i</W>
-<W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">nemici</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="2:nobj">del</W>
+<W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">nemici</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="2:nobj">del</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostro</W>
 <W lemma="corpo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">corpo</W>
 <W lemma="." msd="XP" tag="SENT" in="-41:pnct" out="">.</W>
@@ -155,8 +155,8 @@
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
 <W lemma="ridurre" msd="VADR" tag="VER&3a;pres" in="" out="-3:struct|-1:subj|1:dobj|10:conj">riduce</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="rischio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">rischio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="rischio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">rischio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="malattia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">malattie</W>
 <W lemma="causare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj">causate</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">da</W>
@@ -168,8 +168,8 @@
 <W lemma="intero" msd="AN" tag="ADJ" in="1:attr" out="">intero</W>
 <W lemma="sistema" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj#">sistema</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
-<W lemma="circolazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">circolazione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="circolazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">circolazione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="sangue" msd="NC" tag="NOM" in="-1:nobj" out="">sangue</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 </s>
@@ -183,8 +183,8 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-3:dobj" out="1:nobj">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="compressa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">compresse</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="compressa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">compresse</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="aglio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">aglio</W>
 <W lemma="conservare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">conservato</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">al</W>

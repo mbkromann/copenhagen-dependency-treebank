@@ -12,8 +12,8 @@
 <W lemma="trabajar" msd="VLfin" in="" out="-1:time|1:pobj|6:loc|12:pnct">trabajaba</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="control" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">control</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="control" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">control</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="calidad" msd="NC" in="-1:nobj" out="">calidad</W>
 <W lemma="en" msd="PREP" in="-6:loc" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
@@ -69,7 +69,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Ester</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="-1:namef">Brohus</W>
 <W lemma="no" msd="NEG" in="1:neg" out="2:degr">no</W>
-<W lemma="ser" msd="VSfin" in="" out="-5:prg|-2:subj|-1:neg|4:pnct|3:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-5:prg|-2:subj|-1:neg|3:preds|4:pnct">es</W>
 <W lemma="del" msd="PDEL" in="-2:degr" out="">del</W>
 <W lemma="todo" msd="QU" in="" out="">todo</W>
 <W lemma="desconocida" msd="NC" in="-3:preds" out="">desconocida</W>
@@ -153,7 +153,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="" out="">Pero</W>
-<W lemma="estar" msd="VLfin" in="" out="3:pnct|2:preds">estamos</W>
+<W lemma="estar" msd="VLfin" in="" out="2:preds|3:pnct">estamos</W>
 <W lemma="muy" msd="ADV" in="1:ext" out="">muy</W>
 <W lemma="unir" msd="VLadj" in="-2:preds" out="-1:ext">unidos</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>

@@ -36,8 +36,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="1:pnct" out="">–</W>
 <W lemma="pero" msd="CCAD" in="1:coord" out="-1:pnct">pero</W>
 <W lemma="sin" msd="PREP" in="-15:conj" out="-1:coord|1:nobj">sin</W>
-<W lemma="propuesta" msd="NC" in="-1:nobj" out="1:pobj&3a;arg|3:attr|6:ref|8:relr">propuestas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="propuesta" msd="NC" in="-1:nobj" out="3:attr|6:ref|8:relr|1:pobj|1:{arg}">propuestas</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="ahorro" msd="NC" in="-1:nobj" out="">ahorro</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:attr" out="2:conj">provocativas</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
@@ -78,8 +78,8 @@
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="ser" msd="VSinf" in="-3:vobj" out="1:preds">ser</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">cuestión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj|3:conj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">cuestión</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj|3:conj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">ideología</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="de" msd="PREP" in="-3:conj" out="-1:coord|1:nobj">de</W>
@@ -117,7 +117,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attr" out="2:conj">ideológicas</W>
 <W lemma="/" msd="SLASH" in="1:coord" out="">/</W>
 <W lemma="moral" msd="ADJ" in="-2:conj" out="-1:coord">morales</W>
-<W lemma="quedar" msd="VLfin" in="" out="-5:subj|5:conj|1:preds">quedan</W>
+<W lemma="quedar" msd="VLfin" in="" out="-5:subj|1:preds|5:conj">quedan</W>
 <W lemma="claro" msd="ADJ" in="-1:preds" out="">claras</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="en" msd="PREP" in="2:man" out="1:nobj">en</W>
@@ -193,8 +193,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:conj" out="-4:coord|-3:subj|1:pnct">aumentarían</W>
 <W lemma="." msd="FS" in="-1:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="" out="1:nobj|4:pnct">El</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">título</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">título</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="plan" msd="NC" in="-1:nobj" out="">plan</W>
 <W lemma="&3a;" msd="COLON" in="-4:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attr|2:nobj|3:pnct">“El</W>

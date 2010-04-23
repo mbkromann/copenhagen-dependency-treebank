@@ -1,7 +1,7 @@
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">El</W>
 <W lemma="importe" msd="NC" in="-1:nobj|2:[subj]" out="">importe</W>
 <W lemma="poder" msd="VMfin" in="" out="-2:subj|1:vobj|7:conj">puede</W>
-<W lemma="parecer" msd="VLinf" in="-1:vobj" out="-2:[subj]|2:pnct|1:preds">parecer</W>
+<W lemma="parecer" msd="VLinf" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct">parecer</W>
 <W lemma="grande" msd="ADJ" in="-1:preds" out="">grande</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="3:coord" out="">pero</W>
@@ -17,8 +17,8 @@
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">las</W>
 <W lemma="actual" msd="ADJ" in="1:attr" out="">actuales</W>
-<W lemma="apuesta" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg">apuestas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="apuesta" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">apuestas</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Carlsberg</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="tan" msd="ADV" in="8:degr" out="1:degr">Tan</W>
@@ -43,8 +43,8 @@
 <W lemma="total" msd="ADJ" in="-1:nobj" out="1:pobj&3a;dobj#">total</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:numm">de</W>
 <W lemma="@card@" msd="CARD" in="-1:numm" out="1:nobj">1.200</W>
-<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj&3a;arg">millones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj|1:{arg}">millones</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="corona" msd="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="," msd="CM" in="-17:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="5:coord" out="">y</W>
@@ -69,8 +69,8 @@
 <W lemma="cheque" msd="NC" in="-1:nobj" out="1:pobj">cheque</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:numm">por</W>
 <W lemma="@card@" msd="CARD" in="-1:numm" out="1:nobj">1.500</W>
-<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj&3a;arg">millones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj|1:{arg}">millones</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="corona" msd="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="al" msd="PAL" in="-19:iobj" out="1:nobj">al</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="1:attrr#">grupo</W>
@@ -128,8 +128,8 @@
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="2:conj">1.500</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="@card@" msd="CARD" in="-2:conj" out="-1:coord|1:nobj">2.000</W>
-<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj&3a;arg">millones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="millones" msd="CARD" in="-1:nobj" out="1:pobj|1:{arg}">millones</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="corona" msd="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="en" msd="PREP" in="-8:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
@@ -195,7 +195,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:other" out="1:nobj">algún</W>
 <W lemma="lugar" msd="NC" in="-1:nobj" out="1:space">lugar</W>
 <W lemma="al" msd="PAL" in="-1:space" out="1:space">al</W>
-<W lemma="este" msd="NC" in="-1:space" out="1:pobj&3a;arg">este</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="este" msd="NC" in="-1:space" out="1:pobj|1:{arg}">este</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Storebælt</W>
 <W lemma="." msd="FS" in="-41:pnct" out="">.</W>

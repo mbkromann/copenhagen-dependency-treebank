@@ -20,7 +20,7 @@
 <W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-7:assoc-const|2:subj" out="1:nobj">Die</W>
 <W lemma="Lösung" msd="NC" tag="NN" in="-1:nobj" out="">Lösung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|6:conj|11:pnct|1:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|1:preds|6:conj|11:pnct">war</W>
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal deles" tag="NE" in="-1:preds|-1:preds" out="1:pnct">,Personality</W>
 <W lemma="'" msd="XP" tag="$(" in="-1:pnct" out="">'</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
@@ -49,12 +49,12 @@
 <W lemma="Moskau" msd="NP" tag="NE" in="-1:nobj" out="">Moskau</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="anwesend" msd="AN" tag="ADJD" in="1:preds|1:preds" out="">Anwesend</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|2:add|10:subj|21:pnct|-1:preds">waren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|-1:preds|2:add|10:subj|21:pnct">waren</W>
 <W lemma="-" msd="XP" tag="$(" in="1:pnct" out="">-</W>
 <W lemma="außer" msd="SP" tag="APPR" in="-2:add" out="-1:pnct|1:nobj|6:pnct">außer</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Spitzenleute" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Spitzenleuten</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Spitzenleute" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Spitzenleuten</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="de" msd="NP" tag="NE" in="-1:nobj" out="1:name">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Beers</W>
 <W lemma="-" msd="XP" tag="$(" in="-6:pnct" out="">-</W>
@@ -63,8 +63,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="Diplomat" msd="NC" tag="NN" in="-2:conj" out="">Diplomaten</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Repräsentant" msd="NC" tag="NN" in="-4:conj" out="-1:coord|1:pobj&3a;arg">Repräsentanten</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Repräsentant" msd="NC" tag="NN" in="-4:conj" out="-1:coord|1:pobj|1:{arg}">Repräsentanten</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:conj|3:poss&3a;arg">Diamantindustrie</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:conj" out="-1:coord">-handel</W>
@@ -91,8 +91,8 @@
 <W lemma="Kronleuchter" msd="NC" tag="NN" in="-1:nobj" out="">Kronleuchter</W>
 <W lemma="in" msd="SP" tag="APPR" in="-4:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="Kirche" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Kirche</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Kirche" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Kirche</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Lellinge</W>
 <W lemma="restaurieren" msd="VAP" tag="VVPP" in="-12:vobj" out="-18:[subj]|-9:dobj">restauriert</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
@@ -134,7 +134,7 @@
 <W lemma="entwerfen" msd="VAP" tag="VVPP" in="-8:vobj" out="-15:[subj]|-7:dobj">entworfen</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|6:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|1:preds|6:pnct">ist</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:preds|-1:preds" out="1:attr|2:possd">seine</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">erste</W>
 <W lemma="Arbeit" msd="NC" tag="NN" in="-2:possd" out="1:const">Arbeit</W>

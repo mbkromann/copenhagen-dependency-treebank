@@ -42,8 +42,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="24:nobj">it</W>
 <W msd="VADR" tag="VBP" in="-16:conj" out="-3:mod|-1:subj|-5:coord|1:iobj|16:dobj">cost</W>
 <W msd="PD" tag="DT" in="-1:iobj" out="1:nobj|6:time|9:pnct|14:appa">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">leader</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;arg" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">leader</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:attr" out="">Liberal</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Party</W>

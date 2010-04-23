@@ -73,12 +73,12 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:nobj|88:coref-id">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Cheese</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|8:pnct|13:conj|29:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|8:pnct|13:conj|29:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:attr|3:nobj">der</W>
 <W lemma="einzig" msd="AN" tag="ADJA" in="-1:attr" out="">einzige</W>
 <W lemma="dänisch" msd="AN" tag="ADJA" in="-2:attr" out="">dänische</W>
-<W lemma="Produzent" msd="NC" tag="NN" in="-3:nobj" out="1:pobj&3a;dobj">Produzent</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;dobj" out="2:nobj">von</W>
+<W lemma="Produzent" msd="NC" tag="NN" in="-3:nobj" out="1:pobj.dobj|1:{patient}">Produzent</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">von</W>
 <W lemma="frisch" msd="AN" tag="ADJA" in="1:attr" out="">frischer</W>
 <W lemma="Pasta" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Pasta</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
@@ -150,7 +150,7 @@
 <p>
 <s>
 <W lemma="Pasta" msd="NC" tag="NN" in="1:subj" out="22:coref-var">Pasta</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:dur|11:pnct|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:dur|3:preds|11:pnct">ist</W>
 <W lemma="bisher" msd="RG" tag="ADV" in="-1:dur" out="">bisher</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">nur</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="-1:degr|1:attr|2:nobj">ein</W>

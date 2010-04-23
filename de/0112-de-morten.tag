@@ -3,7 +3,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:other" out="1:pnct">ODENSE</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-1:pnct" out="">:</W>
 <W lemma="beide" msd="PP" tag="PIS" in="1:subj|74:coref" out="22:coref">Beide</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:other|-1:subj|2:pnct|6:man|15:pnct|1:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:other|-1:subj|1:preds|2:pnct|6:man|15:pnct">sind</W>
 <W lemma="Vater" msd="NC" tag="NN" in="-1:preds" out="2:conj">Väter</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="31" msd="AC" tag="CARD" in="-2:conj" out="1:nobj">31</W>
@@ -25,7 +25,7 @@
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-22:coref|1:subj" out="17:coref">sie</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:coord|-1:subj|4:pnct|9:pnct|3:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:coord|-1:subj|3:preds|4:pnct|9:pnct">sind</W>
 <W lemma="auch" msd="RG" tag="ADV" in="2:struct&3a;add" out="">auch</W>
 <W lemma="richtig" msd="AN" tag="ADJA" in="1:attr" out="">richtige</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:preds" out="-1:attr|-2:struct&3a;add|2:conj|5:conj">Spielkinder</W>
@@ -40,7 +40,7 @@
 <p>
 <s>
 <W lemma="außerdem" msd="RG" tag="ADV" in="1:struct&3a;add" out="">Außerdem</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:struct&3a;add|1:subj|10:pnct|2:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:struct&3a;add|1:subj|2:preds|10:pnct">sind</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|-17:coref" out="12:coref">sie</W>
 <W lemma="zwei" msd="AC" tag="CARD" in="-2:preds" out="1:pobj">zwei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="2:nobj">der</W>
@@ -56,8 +56,8 @@
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|-12:coref|16:[subj]" out="">sie</W>
 <W lemma="in" msd="SP" tag="APPR" in="15:space&3a;loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-9:assoc-scope" out="1:nobj">der</W>
-<W lemma="Theaterfassung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Theaterfassung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;arg" out="1:nobj|2:appr|6:agent">des</W>
+<W lemma="Theaterfassung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Theaterfassung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj|-1:{arg}" out="1:nobj|2:appr|6:agent">des</W>
 <W lemma="Abenteuer" msd="NC" tag="NN" in="-1:nobj" out="">Abenteuers</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:appr" out="1:nobj|2:appr|3:pnct">,,Die</W>
 <W lemma="Bruder" msd="NC" tag="NN" in="-1:nobj" out="">Brüder</W>
@@ -200,7 +200,7 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="12:qobj" out="-2:pnct|-1:subj|10:pnct|11:pnct|1:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="12:qobj" out="-2:pnct|-1:subj|1:preds|10:pnct|11:pnct">war</W>
 <W lemma="damals" msd="RG" tag="ADV" in="-1:preds" out="1:pnct|2:ref|2:nobj|8:vobj">damals</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="-2:ref|-2:nobj" out="">als</W>

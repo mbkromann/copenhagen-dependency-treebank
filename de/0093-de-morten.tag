@@ -10,7 +10,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj|152:coref-var">den</W>
 <W lemma="Sozialbehörde" msd="NC" tag="NN" in="-1:nobj" out="">Sozialbehörden</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|24:pnct|8:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-10:time&3a;succ|1:subj|5:time&3a;ext|7:man|8:preds|24:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:attr|3:nobj|28:coref-var">die</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleine</W>
 <W lemma="dreijährig" msd="AN" tag="ADJA" in="-2:attr" out="">dreijährige</W>
@@ -167,8 +167,8 @@
 <W lemma="." msd="XP" tag="$." in="-31:pnct" out="">.</W>
 <W lemma="aber" msd="RG" tag="ADV" in="6:coord" out="">Aber</W>
 <W lemma="drei" msd="AC" tag="CARD" in="5:dobj|10:[subj]" out="1:nobj">drei</W>
-<W lemma="Richter" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Richter</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;arg" out="2:possr">des</W>
+<W lemma="Richter" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Richter</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj|-1:{arg}" out="2:possr">des</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:attr" out="">Østre</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:possr" out="-1:attr">Landsret</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:coord|-5:dobj|5:vobj|6:pnct">haben</W>
@@ -209,16 +209,16 @@
 <s>
 <W lemma="aufgrund" msd="SP" tag="APPR" in="8:cause&3a;reas" out="1:pobj">Aufgrund</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj">des</W>
-<W lemma="Umzug" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg|4:space&3a;dir">Umzugs</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="2:possr">von</W>
+<W lemma="Umzug" msd="NC" tag="NN" in="-1:nobj" out="4:space&3a;dir|1:pobj|1:{arg}">Umzugs</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="2:possr">von</W>
 <W lemma="Yvonne" msd="NP" tag="NE" in="1:namef" out="">Yvonne</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:possr|-168:coref-var" out="-1:namef">Sølyst</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-4:space&3a;dir" out="1:nobj">nach</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="4:coref-var">Odense</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-8:cause&3a;reas|1:subj|13:vobj|20:pnct">sollte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|12:[subj]" out="1:nobj">das</W>
-<W lemma="Jugendamt" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Jugendamt</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;arg|-4:coref-var" out="1:possr">der</W>
+<W lemma="Jugendamt" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Jugendamt</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-4:coref-var|-1:pobj|-1:{arg}" out="1:possr">der</W>
 <W lemma="Stadt" msd="NC" tag="NN" in="-1:possr" out="">Stadt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="8:dobj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Zwangstrennung</W>

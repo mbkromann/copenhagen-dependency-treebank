@@ -17,9 +17,9 @@
 <W lemma="conveniente" msd="AN" tag="ADJ" in="-1:attr" out="">conveniente</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|6:[subj]|7:[subj]" out="1:nobj">Lo</W>
-<W lemma="sguardo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;arg">sguardo</W>
+<W lemma="sguardo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">sguardo</W>
 <W lemma="fiammeggiante" msd="AN" tag="ADJ" in="-1:attr" out="">fiammeggiante</W>
-<W lemma="di" msd="SP" tag="PRE" in="-2:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-2:pobj|-2:{arg}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Arnalta</W>
 <W lemma="dovere" msd="VADA" tag="VER&3a;impf" in="" out="-5:subj|1:¹vobj|3:pnct">doveva</W>
 <W compound="¹aver²lo" lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|1:²dobj" out="-6:[subj]|1:vobj">averlo</W>

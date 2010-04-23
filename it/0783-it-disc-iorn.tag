@@ -63,8 +63,8 @@
 <W lemma="interessare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:pobj">interessati</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="incremento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">incremento</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="incremento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">incremento</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="materiale" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">materiale</W>
 <W lemma="informativo" msd="AN" tag="ADJ" in="-1:attr" out="1:attr|3:loc">informativo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

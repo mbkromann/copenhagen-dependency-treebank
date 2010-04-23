@@ -42,8 +42,8 @@
 <W lemma="ausschließlichßlich" msd="AN" tag="ADJD" in="15:degr" out="">ausschließlich</W>
 <W lemma="um" msd="SP" tag="APPR" in="14:pobj" out="1:nobj">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|30:coref-prg">den</W>
-<W lemma="Kauf" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Kauf</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;dobj" out="1:nobj">von</W>
+<W lemma="Kauf" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Kauf</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">von</W>
 <W lemma="Aktie" msd="NC" tag="NN" in="-1:nobj" out="1:space&3a;loc">Aktien</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:space&3a;loc" out="1:attr|2:nobj">in</W>
 <W lemma="ausländisch" msd="AN" tag="ADJA" in="-1:attr" out="">ausländischen</W>

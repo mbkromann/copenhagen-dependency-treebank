@@ -56,8 +56,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-42:pnct" out="">.</W>
 <W lemma="comunque" msd="RG" tag="ADV" in="7:conc" out="">Comunque</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="6:subj" out="1:nobj">il</W>
-<W lemma="dibattito" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">dibattito</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj|-36:coref-var" out="1:about">sulla</W>
+<W lemma="dibattito" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">dibattito</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-36:coref-var|-1:pobj.dobj|-1:{patient}" out="1:about">sulla</W>
 <W lemma="politica&7c;politico" msd="NC" tag="NOM" in="-1:about" out="1:attr">politica</W>
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">economica</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
@@ -101,7 +101,7 @@
 <W lemma="ideologico" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">ideologico</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="morale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">morale</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual&7c;DESCR&3a;eval" out="-7:subj|3:conj|9:ELAB&3a;exp/ATTR|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual&7c;DESCR&3a;eval" out="-7:subj|1:preds|3:conj|9:ELAB&3a;exp/ATTR">sono</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="-1:preds" out="">evidenti</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-1:coord|1:vobj|5:pnct">possono</W>

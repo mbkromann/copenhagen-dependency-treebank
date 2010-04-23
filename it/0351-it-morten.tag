@@ -25,7 +25,7 @@
 <W lemma="oh" msd="I=" tag="INT" in="3:other" out="">oh</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="santo" msd="AN" tag="ADJ" in="1:attr" out="">santo</W>
-<W lemma="cielo" msd="NC" tag="NOM" in="3:list" out="-2:pnct|-3:other|1:pnct|-1:attr">cielo</W>
+<W lemma="cielo" msd="NC" tag="NOM" in="3:list" out="-2:pnct|-3:other|-1:attr|1:pnct">cielo</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="credere" msd="VADA" tag="VER&3a;impf" in="-7:qobj" out="-1:neg|-3:list|1:dobj|2:pnct">credevo</W>
@@ -43,8 +43,8 @@
 <W lemma="già" msd="RG" tag="ADV" in="-1:time" out="">già</W>
 <W lemma="scrivere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-3:[subj]|2:dobj">scritto</W>
 <W lemma="magnifico" msd="AN" tag="ADJ" in="1:attr" out="">magnifici</W>
-<W lemma="articolo" msd="NC" tag="NOM" in="-2:dobj" out="1:pobj&3a;arg|-1:attr">articoli</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg|-11:assoc-loc" out="1:nobj|11:coref">sulla</W>
+<W lemma="articolo" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}">articoli</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-11:assoc-loc|-1:pobj|-1:{arg}" out="1:nobj|11:coref">sulla</W>
 <W lemma="repubblica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Repubblica</W>
 <W lemma="federale" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">Federale</W>
 <W lemma="tedesco" msd="AN" tag="ADJ" in="-1:attr" out="">Tedesca</W>
@@ -132,7 +132,7 @@
 <W lemma="davanti" msd="AN" tag="ADJ" in="-1:loc" out="1:pobj">davanti</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">al</W>
 <W lemma="precedente" msd="AN" tag="ADJ" in="1:attr" out="">precedente</W>
-<W lemma="palazzo" msd="NC" tag="NOM" in="-2:nobj" out="1:attr|-1:attr">palazzo</W>
+<W lemma="palazzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">palazzo</W>
 <W lemma="imperiale" msd="AN" tag="ADJ" in="-1:attr" out="">imperiale</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:conj|1:[subj]" out="-1:coord|1:vobj">ha</W>
@@ -172,6 +172,6 @@
 <W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="" out="-1:time|-3:focal|1:subj|5:pnct">arrivano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="2:nobj">le</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostre</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="1:attr|-1:attr">tortine</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">tortine</W>
 <W lemma="salato" msd="AN" tag="ADJ" in="-1:attr" out="">salate</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>

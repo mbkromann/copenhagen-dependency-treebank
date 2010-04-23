@@ -45,7 +45,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">01</W>
 <W lemma="@card@" msd="XP" tag="PON" in="-1:nobj" out="">:38</W>
 <W lemma="Baghdad" msd="NP" tag="NPR" in="1:subj" out="">Baghdad</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-4:time|-1:subj|4:pnct|1:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-4:time|-1:subj|1:preds|4:pnct">era</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj|9:coref">una</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">città</W>
 <W lemma="morto" msd="AN" tag="ADJ" in="-1:attr" out="">morta</W>
@@ -57,7 +57,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-9:coref|2:subj" out="1:nobj">La</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="">città</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:pnct|-2:subj|3:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:pnct|-2:subj|2:preds|3:pnct">è</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="1:man" out="">completamente</W>
 <W lemma="buio" msd="AN" tag="ADJ" in="-2:preds" out="-1:man">buia</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
@@ -65,7 +65,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="silenzio" msd="NC" tag="NOM" in="-1:nobj" out="">silenzio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|3:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:preds|3:pnct">è</W>
 <W lemma="quasi" msd="RG" tag="ADV" in="1:man" out="">quasi</W>
 <W lemma="assordare" msd="VAG" tag="VER&3a;ppre" in="-2:preds" out="-1:man">assordante</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
@@ -94,7 +94,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|1:vobj|6:pnct|2:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|1:vobj|2:preds|6:pnct">È</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">stato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:preds" out="1:nobj">un</W>
 <W lemma="attacco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">attacco</W>
@@ -103,7 +103,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="2:dobj|14:pnct|1:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:preds|2:dobj|14:pnct">È</W>
 <W lemma="incredibile" msd="AN" tag="ADJ" in="-1:preds" out="">incredibile</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]|5:[subj]" out="1:nobj">la</W>
@@ -181,8 +181,8 @@
 <W lemma="distruggere" msd="VAF" tag="VER&3a;infi" in="-2:conj" out="-1:coord|-4:[subj]|1:dobj">distruggere</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj">la</W>
 <W lemma="maggiore" msd="AN" tag="ADJ" in="1:attr" out="">maggior</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;arg">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="città" msd="NC" tag="NOM" in="-1:nobj" out="">città</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 </s>
@@ -285,8 +285,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:about#" out="1:nobj">di</W>
 <W lemma="guerra" msd="NC" tag="NOM" in="-1:nobj" out="">guerra</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="veterano" msd="NC" tag="NOM" in="-5:conj" out="-1:coord|1:pobj&3a;arg">veterano</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="veterano" msd="NC" tag="NOM" in="-5:conj" out="-1:coord|1:pobj|1:{arg}">veterano</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="Vietnam" msd="NP" tag="NPR" in="-1:nobj" out="">Vietnam</W>
 <W lemma="Peter" msd="NP" tag="NPR" in="1:namef" out="">Peter</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-9:appr" out="-1:namef">Arnett</W>

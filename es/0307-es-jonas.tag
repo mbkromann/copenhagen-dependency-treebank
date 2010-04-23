@@ -1,7 +1,7 @@
 <W lemma="querido" msd="NC" in="" out="">Queridos</W>
 <W lemma="profundo" msd="ADV" in="" out="">profundamente</W>
 <W lemma="confundir" msd="VLadj" in="" out="">confundidos</W>
-<W lemma="ser" msd="VSfin" in="" out="2:nobj|1:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:preds|2:nobj">Es</W>
 <W lemma="cierto" msd="ADJ" in="-1:preds" out="12:pnct">cierto</W>
 <W lemma="que" msd="CQUE" in="-2:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="9:subj" out="1:nobj|5:conj">el</W>
@@ -53,7 +53,7 @@
 <W lemma="real" msd="ADJ" in="-1:attr" out="">real</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="aunque" msd="CSUBX" in="1:conc" out="">Aunque</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:conc|3:pnct|10:pnct|1:preds">estÃ©is</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-1:conc|1:preds|3:pnct|10:pnct">estÃ©is</W>
 <W lemma="en" msd="PREP" in="-1:preds" out="1:nobj">en</W>
 <W lemma="contra" msd="PREP" in="-1:nobj" out="">contra</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
@@ -64,7 +64,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:mod" out="">mÃ¡s</W>
 <W lemma="acertar" msd="VLadj" in="-2:attr" out="-1:mod">acertada</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="" out="5:cause|14:pnct|1:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:preds|5:cause|14:pnct">Es</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj">difÃ­cil</W>
 <W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
@@ -89,17 +89,17 @@
 <W lemma="admitir" msd="VLadj" in="-1:preds" out="1:pobj">admitidos</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="">en</W>
 <W lemma="el" msd="ART" in="" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg">mayorÃ­a</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj|1:{arg}">mayorÃ­a</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">educaciones</W>
 <W lemma="superior" msd="ADJ" in="-1:attr" out="">superiores</W>
 <W lemma="," msd="CM" in="-14:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="6:coord" out="">y</W>
 <W lemma="un" msd="ART" in="5:subj" out="1:nobj">unas</W>
-<W lemma="calificación" msd="NC" in="-1:nobj" out="1:attr|2:pobj&3a;arg">calificaciones</W>
+<W lemma="calificación" msd="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">calificaciones</W>
 <W lemma="bajo" msd="ADJ" in="-1:attr" out="">bajas</W>
-<W lemma="del" msd="PDEL" in="-2:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="del" msd="PDEL" in="-2:pobj|-2:{arg}" out="1:nobj">del</W>
 <W lemma="bachillerato" msd="NC" in="-1:nobj" out="">bachillerato</W>
 <W lemma="tener" msd="VLfin" in="-21:conj" out="-6:coord|-5:subj|3:dobj">tienen</W>
 <W lemma="muy" msd="ADV" in="" out="">muy</W>
@@ -107,7 +107,7 @@
 <W lemma="valor" msd="NC" in="-3:dobj" out="">valor</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="este" msd="DM" in="1:subj" out="">Esto</W>
-<W lemma="significar" msd="VLfin" in="" out="-1:subj|4:pobj|7:pnct|1:preds">significa</W>
+<W lemma="significar" msd="VLfin" in="" out="-1:subj|1:preds|4:pobj|7:pnct">significa</W>
 <W lemma="un" msd="ART" in="-1:preds" out="2:nobj">una</W>
 <W lemma="grande" msd="ADJ" in="1:attr" out="">gran</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="-1:attr">presiÃ³n</W>
@@ -116,7 +116,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">jÃ³venes</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="por" msd="PREP" in="1:(cons)" out="">Por</W>
-<W lemma="esto~es" msd="ADV" in="" out="-1:(cons)|15:pnct|1:preds">esto es</W>
+<W lemma="esto~es" msd="ADV" in="" out="-1:(cons)|1:preds|15:pnct">esto es</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:nobj">difÃ­cil</W>
 <W lemma="ver" msd="VLinf" in="-1:nobj" out="1:predo|3:dobj">ver</W>
 <W lemma="como" msd="CSUBX" in="-1:predo" out="1:nobj">como</W>
@@ -156,8 +156,8 @@
 <W lemma="el" msd="ART" in="1:det" out="">la</W>
 <W lemma="cual" msd="REL" in="-3:ref" out="-1:det">cual</W>
 <W lemma="el" msd="ART" in="12:subj|13:[subj]" out="1:nobj">los</W>
-<W lemma="progenitor" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">progenitores</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="progenitor" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">progenitores</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="hijo" msd="NC" in="-1:nobj" out="1:attr|5:ref|6:relr">hijos</W>
 <W lemma="grande" msd="ADJ" in="-1:attr" out="1:pobj&3a;nobj">mayores</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;nobj" out="1:nobj">de</W>

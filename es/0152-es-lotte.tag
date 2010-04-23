@@ -30,7 +30,7 @@
 <W lemma="mineral" msd="NC" in="-6:conj" out="-1:coord">minerales</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-8:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-9:relpa" out="-1:subj|13:pnct|15:conj|1:preds">son</W>
+<W lemma="ser" msd="VSfin" in="-9:relpa" out="-1:subj|1:preds|13:pnct|15:conj">son</W>
 <W lemma="apropiado" msd="ADJ" in="-1:preds" out="2:pobj|6:loc">apropiadas</W>
 <W lemma="tanto" msd="ADV" in="3:correl" out="">tanto</W>
 <W lemma="para" msd="PREP" in="-2:pobj" out="1:nobj">para</W>
@@ -39,8 +39,8 @@
 <W lemma="persona" msd="NC" in="-2:conj" out="-1:coord">personas</W>
 <W lemma="en" msd="PREP" in="-6:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">frío</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">frío</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">círculo</W>
 <W lemma="polar" msd="ADJ" in="-1:attrr#" out="">polar</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-13:pnct" out="">–</W>
@@ -78,7 +78,7 @@
 <W lemma="&lt;unknown&gt;" msd="ADV" in="1:man" out="">según</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-17:coref" out="-1:man|1:vobj|22:coref">habían</W>
 <W lemma="entender" msd="VLadj" in="-1:vobj" out="">entendido</W>
-<W lemma="era" msd="VEfin" in="-6:relr" out="-6:subj|-4:subj|3:loc|6:pnct|19:pnct|1:preds">era</W>
+<W lemma="era" msd="VEfin" in="-6:relr" out="-6:subj|-4:subj|1:preds|3:loc|6:pnct|19:pnct">era</W>
 <W lemma="suyo" msd="PPO" in="-1:preds" out="1:nobj">su</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="">última</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
@@ -89,8 +89,8 @@
 <W lemma="pedir" msd="VLinf" in="-1:vobj" out="1:dobj">pedir</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="2:nobj">el</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">mejor</W>
-<W lemma="plato" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg|4:attr">plato</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="plato" msd="NC" in="-2:nobj" out="-1:attr|4:attr|1:pobj|1:{arg}">plato</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="ciudad" msd="NC" in="-1:nobj" out="">ciudad</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-4:attr" out="1:pobj">acompañado</W>
@@ -137,8 +137,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj|2:[subj]" out="-1:namef|35:coref-id">Thomsen</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-6:time|-3:pnct|-1:subj|1:vobj|7:pnct">había</W>
 <W lemma="tener" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:pobj&3a;arg">ocasión</W>
-<W lemma="de" msd="CSUBI" in="-1:pobj&3a;arg" out="1:vobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:dobj" out="1:pobj|1:{arg}">ocasión</W>
+<W lemma="de" msd="CSUBI" in="-1:pobj|-1:{arg}" out="1:vobj">de</W>
 <W lemma="conocer" msd="VLinf" in="-1:vobj" out="1:dobj">conocer</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">sextante</W>

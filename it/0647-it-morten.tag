@@ -59,7 +59,7 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-9:cond|1:cause|19:pnct">è</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-1:cause" out="2:vobj">perché</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj|4:coref" out="">questa</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:ben|7:pnct|9:cause|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:ben|3:preds|7:pnct|9:cause">è</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:ben" out="1:nobj">per</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">loro</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-3:preds" out="-4:coref|1:nobj">una</W>
@@ -68,7 +68,7 @@
 <W lemma="insolito" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">insolita</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W compound="¹essendo²ci" lemma="essere" msd="VAG" tag="VER&3a;geru" in="-9:cause|0:²pobj¹" out="-1:neg|0:²pobj¹|2:preds">essendoci</W>
+<W compound="¹essendo²ci" lemma="essere" msd="VAG" tag="VER&3a;geru" in="-9:cause|0:²pobj¹" out="-1:neg|2:preds|0:²pobj¹">essendoci</W>
 <W lemma="neanche" msd="RG" tag="ADV" in="1:neg" out="">neanche</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:preds" out="-1:neg|1:nobj">una</W>
 <W lemma="premiere" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">premiere</W>
@@ -178,8 +178,8 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-17:cond|-2:subj|-1:neg|1:vobj|6:pnct|8:conc|16:coref|18:pnct">sono</W>
 <W lemma="dovuto" msd="AN" tag="ADJ" in="-1:vobj" out="-3:[subj]|1:pobj">dovute</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">alla</W>
-<W lemma="mancanza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">mancanza</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="mancanza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">mancanza</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>

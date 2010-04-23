@@ -85,7 +85,7 @@
 <W lemma="terapeutico" msd="AN" tag="ADJ" in="-1:attr" out="">terapeutici</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-80:+CONC/(però)" out="-12:subj|-1:neg|6:pnct|8:conc|48:pnct|2:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-80:+CONC/(però)" out="-12:subj|-1:neg|2:preds|6:pnct|8:conc|48:pnct">sono</W>
 <W lemma="immediatamente" msd="RG" tag="ADV" in="1:attr" out="">immediatamente</W>
 <W lemma="visibile" msd="AN" tag="ADJ" in="-2:preds" out="-1:attr|1:loc">visibili</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nei</W>
@@ -126,8 +126,8 @@
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-6:attr" out="2:pobj">dovuto</W>
 <W lemma="sia" msd="CS" tag="CON" in="5:correl" out="">sia</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-2:pobj" out="1:nobj|5:conj">allo</W>
-<W lemma="sviluppo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">sviluppo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="sviluppo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">sviluppo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="prodotto" msd="NC" tag="NOM" in="-1:nobj" out="">prodotti</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="1:coord" out="-5:correl">che</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:conj" out="-1:coord|2:nobj">alla</W>
@@ -157,8 +157,8 @@
 <W lemma="stato" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Stati</W>
 <W lemma="unire" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">Uniti</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj" out="1:nobj">la</W>
-<W lemma="cura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">cura</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dell'</W>
+<W lemma="cura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">cura</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dell'</W>
 <W lemma="ulcera" msd="NC" tag="NOM" in="-1:nobj" out="">ulcera</W>
 <W lemma="costare" msd="VADA" tag="VER&3a;impf" in="-23:&3a;ELAB&3a;exp" out="-15:time|-7:loc|-4:subj|1:dobj|3:pnct|4:concom|10:pnct|23:;CONTR&3a;dir/(ma)">costava</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">720</W>
@@ -207,8 +207,8 @@
 <W lemma="per" msd="SP" tag="PRE" in="2:ex" out="1:nobj">per</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="-1:nobj" out="">esempio</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-3:pobj" out="-2:ex|1:nobj">alla</W>
-<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">riduzione</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">riduzione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="assenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">assenze</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:pnct">dal</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:pnct" out="">lavoro</W>

@@ -28,16 +28,16 @@
 <W lemma="dar" msd="VLadj" in="-1:vobj" out="1:[dobj]">dado</W>
 <W lemma="un" msd="ART" in="-2:dobj|-1:[dobj]" out="1:attr|2:nobj|9:conj">un</W>
 <W lemma="bueno" msd="ADJ" in="-1:attr" out="">mejor</W>
-<W lemma="tratamiento" msd="NC" in="-2:nobj" out="1:pobj&3a;arg">tratamiento</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="2:nobj">de</W>
+<W lemma="tratamiento" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}">tratamiento</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="2:nobj">de</W>
 <W lemma="diversos" msd="QU" in="1:ext" out="">diversos</W>
-<W lemma="tipo" msd="NC" in="-2:nobj" out="-1:ext|1:pobj&3a;arg">tipos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="tipo" msd="NC" in="-2:nobj" out="-1:ext|1:pobj|1:{arg}">tipos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">cÃ¡ncer</W>
 <W lemma="," msd="CM" in="-10:pnct" out="">,</W>
 <W lemma="un" msd="ART" in="-9:conj" out="1:nobj|12:conj">un</W>
-<W lemma="tratamiento" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">tratamiento</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="tratamiento" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">tratamiento</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">Ãºlcera</W>
 <W lemma="sin" msd="PREP" in="-1:pobj" out="1:nobj">sin</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|3:conj">intervenciÃ³n</W>
@@ -63,7 +63,7 @@
 <W lemma="alguno" msd="QU" in="3:subj" out="1:nobj">algunos</W>
 <W lemma="hospital" msd="NC" in="-1:nobj" out="1:attr">hospitales</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attr" out="">psiquiÃ¡tricos</W>
-<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|2:pnct|1:preds">sean</W>
+<W lemma="ser" msd="VSfin" in="-4:vobj" out="-3:subj|1:preds|2:pnct">sean</W>
 <W lemma="innecesario" msd="ADJ" in="-1:preds" out="">innecesarios</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
 <W lemma="un" msd="ART" in="-7:conj" out="2:nobj">un</W>
@@ -78,7 +78,7 @@
 <W lemma="ahorro" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#|2:ref|3:relr">ahorros</W>
 <W lemma="social" msd="ADJ" in="-1:attrr&3a;dobj#" out="">sociales</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
-<W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|8:pnct|1:preds">son</W>
+<W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|1:preds|8:pnct">son</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="consecuencia" msd="NC" in="-1:nobj" out="1:attr">consecuencia</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="1:cons">lÃ³gica</W>
@@ -97,7 +97,7 @@
 <W lemma="estatal" msd="ADJ" in="-1:attrr&3a;dobj#" out="">estatales</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="1:other" out="">Pero</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:other|3:subj|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:other|1:preds|3:subj">es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="hecho" msd="NC" in="-1:nobj" out="">hecho</W>
 <W lemma="que" msd="CQUE" in="-3:subj" out="4:vobj">que</W>
@@ -125,7 +125,7 @@
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevos</W>
 <W lemma="medicamento" msd="NC" in="-2:nobj" out="-1:attr">medicamentos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-8:subj|1:vobj">seguirÃ¡</W>
-<W lemma="ser" msd="VSger" in="-1:vobj" out="5:pnct|11:vobj|1:preds">siendo</W>
+<W lemma="ser" msd="VSger" in="-1:vobj" out="1:preds|5:pnct|11:vobj">siendo</W>
 <W lemma="costoso" msd="ADJ" in="-1:preds" out="1:loc">costoso</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -136,7 +136,7 @@
 <W lemma="que" msd="CQUE" in="" out="">que</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">los</W>
 <W lemma="medicamento" msd="NC" in="-1:nobj" out="">medicamentos</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-11:vobj" out="-5:cons|-2:subj|3:pnct|2:preds">serÃ¡n</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="-11:vobj" out="-5:cons|-2:subj|2:preds|3:pnct">serÃ¡n</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">mÃ¡s</W>
 <W lemma="caro" msd="ADJ" in="-2:preds" out="-1:degr">caros</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
@@ -144,7 +144,7 @@
 <W lemma="bueno" msd="ADJ" in="1:prg" out="">buen</W>
 <W lemma="ejemplo" msd="NC" in="-2:nobj" out="-1:prg">ejemplo</W>
 <W lemma="de" msd="PREP" in="" out="">de</W>
-<W lemma="esto~es" msd="ADV" in="" out="1:subj|9:pnct|-4:preds">esto es</W>
+<W lemma="esto~es" msd="ADV" in="" out="-4:preds|1:subj|9:pnct">esto es</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:about">comercializaciÃ³n</W>
 <W lemma="de" msd="PREP" in="-1:about" out="1:nobj">de</W>
@@ -180,8 +180,8 @@
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
 <W lemma="con" msd="PREP" in="14:pobj" out="1:nobj|8:pnct">Con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="uso" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">uso</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="uso" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">uso</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="medicamento" msd="NC" in="-1:nobj" out="1:goal">medicamentos</W>
 <W lemma="para" msd="PREP" in="-1:goal" out="1:nobj">para</W>

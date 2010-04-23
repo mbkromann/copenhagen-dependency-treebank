@@ -24,7 +24,7 @@
 <W lemma="Sparflamme" msd="NC" tag="NN" in="-1:pnct" out="">Sparflamme</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 <W lemma="China" msd="NP" tag="NE" in="-19:coref-id|1:subj" out="16:coref-id">China</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="-19:ELAB&3a;exem" out="-1:subj|1:ext|8:conj|18:pnct|58:+ELAB&3a;exp/ATTR|3:preds">steht</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="-19:ELAB&3a;exem" out="-1:subj|1:ext|3:preds|8:conj|18:pnct|58:+ELAB&3a;exp/ATTR">steht</W>
 <W lemma="immer" msd="RG" tag="ADV" in="-1:ext" out="1:avobj">immer</W>
 <W lemma="noch" msd="RG" tag="ADV" in="-1:avobj" out="">noch</W>
 <W lemma="unter" msd="SP" tag="APPR" in="-3:preds" out="1:nobj">unter</W>
@@ -49,7 +49,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-8:assoc-const|2:subj" out="1:nobj|99:coref">,,Die</W>
 <W lemma="Chinese" msd="NC" tag="NN" in="-1:nobj" out="">Chinesen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="33:qobj" out="-2:subj|6:pnct|1:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="33:qobj" out="-2:subj|1:preds|6:pnct">sind</W>
 <W lemma="enttäuscht" msd="AN" tag="ADJD" in="-1:preds" out="1:pobj">enttäuscht</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-52:coref-var|2:[arg]" out="1:nobj|2:possr">der</W>
@@ -58,7 +58,7 @@
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:assoc-const|2:subj" out="1:nobj|14:coref">Die</W>
 <W lemma="Däne" msd="NC" tag="NN" in="-1:nobj" out="">Dänen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|6:loc|8:pnct|11:conj|22:pnct|23:pnct|1:preds">waren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|6:loc|8:pnct|11:conj|22:pnct|23:pnct">waren</W>
 <W lemma="unter" msd="SP" tag="APPR" in="-1:preds" out="1:nobj">unter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:attr|3:nobj">den</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">ersten</W>
@@ -139,7 +139,7 @@
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="3:nobj">es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-22:CONTR&3a;prg/aber/ATTR" out="-1:subj|-2:coord|4:pnct|17:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-22:CONTR&3a;prg/aber/ATTR" out="-1:subj|-2:coord|1:preds|4:pnct|17:pnct">ist</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="-1:preds" out="">intersessant</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
 <W _noerror="&3a;nosubj&3a;" lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="3:dobj">sehen</W>
@@ -162,7 +162,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-75:coref-id|1:subj|9:[subj]|15:[subj]" out="20:coref">FLS</W>
-<W lemma="engagieren" msd="VA" tag="VVFIN" in="-76:+ELAB&3a;exp" out="-1:subj|1:robj|2:dur|8:conj|18:ELAB&3a;exem/(z.B.)|4:preds">engagiert</W>
+<W lemma="engagieren" msd="VA" tag="VVFIN" in="-76:+ELAB&3a;exp" out="-1:subj|1:robj|2:dur|4:preds|8:conj|18:ELAB&3a;exem/(z.B.)">engagiert</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="seit" msd="SP" tag="APPR" in="-2:dur" out="1:nobj">seit</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1906</W>
@@ -194,8 +194,8 @@
 <W lemma="Kredit" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Krediten</W>
 <W lemma="über" msd="SP" tag="APPR" in="-4:man" out="1:nobj">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
-<W lemma="Schwesterfirma" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Schwesterfirma</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Schwesterfirma" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Schwesterfirma</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:loc">FLS</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="Spanien" msd="NP" tag="NE" in="-1:nobj" out="">Spanien</W>

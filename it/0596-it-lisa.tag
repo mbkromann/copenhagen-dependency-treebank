@@ -29,7 +29,7 @@
 <W lemma="tale" msd="PD" tag="PRO&3a;demo" in="-21:coref-var|3:[subj]|10:subj|11:[subj]" out="1:nobj|2:pnct">Tali</W>
 <W lemma="strumento" msd="NC" tag="NOM" in="-1:nobj" out="2:appa">strumenti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="rendere" msd="VAP" tag="VER&3a;pper" in="-2:appa" out="-3:[subj]|6:pnct|1:preds">resi</W>
+<W lemma="rendere" msd="VAP" tag="VER&3a;pper" in="-2:appa" out="-3:[subj]|1:preds|6:pnct">resi</W>
 <W lemma="efficiente" msd="AN" tag="ADJ" in="-1:preds" out="1:bg">efficienti</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:bg" out="1:nobj">per</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">condizioni</W>
@@ -56,8 +56,8 @@
 <W lemma="circa" msd="RG" tag="ADV" in="1:degr" out="">circa</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr|1:nobj">due</W>
 <W lemma="settimana" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">settimane</W>
-<W lemma="seguente" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj&3a;dobj">seguenti</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="4:nobj">alle</W>
+<W lemma="seguente" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj.dobj|1:{patient}">seguenti</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="4:nobj">alle</W>
 <W lemma="vero" msd="AN" tag="ADJ" in="3:attr" out="2:conj">vere</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="proprio" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">proprie</W>

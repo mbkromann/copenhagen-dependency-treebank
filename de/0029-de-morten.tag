@@ -2,7 +2,7 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="2:pnct" out="">"</W>
 <W lemma="beschließen" msd="VAP" tag="VVPP" in="1:subj" out="">Beschlossen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="46:qobj" out="-2:pnct|-1:subj|4:pnct|6:vobj|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="46:qobj" out="-2:pnct|-1:subj|3:preds|4:pnct|6:vobj">ist</W>
 <W lemma="zu" msd="RG" tag="PTKA" in="2:degr" out="1:nobj">zu</W>
 <W lemma="viel" msd="RG" tag="ADV" in="-1:nobj" out="">viel</W>
 <W lemma="sagen" msd="VAP" tag="VVPP" in="-3:preds" out="-2:degr">gesagt</W>
@@ -114,8 +114,8 @@
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="22:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-34:coref-id|21:subj" out="1:nobj">die</W>
-<W lemma="Leitung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Leitung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="1:nobj">der</W>
+<W lemma="Leitung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Leitung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">der</W>
 <W lemma="Schlachterei" msd="NC" tag="NN" in="-1:nobj" out="">Schlachterei</W>
 <W lemma="hier" msd="RG" tag="ADV" in="17:space&3a;loc" out="">hier</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="2:nobj" out="1:nobj|4:ref|12:relr">einigen</W>
@@ -143,7 +143,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:subj" out="2:conj">Bjarne</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Max" msd="NP" tag="NE" in="-2:conj" out="-1:coord">Max</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|2:pnct|20:vobj|1:preds">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|1:preds|2:pnct|20:vobj">sind</W>
 <W lemma="sicher" msd="AN" tag="ADJD" in="-1:preds" out="2:dobj">sicher</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="5:vobj">dass</W>
@@ -163,7 +163,7 @@
 <W lemma="bei" msd="SP" tag="APPR" in="3:space&3a;loc" out="2:nobj">bei</W>
 <W lemma="viel" msd="PI" tag="PIDAT" in="1:degr" out="">vielen</W>
 <W lemma="ander" msd="PP" tag="PIS" in="-2:nobj" out="-1:degr">anderen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-20:vobj" out="-3:space&3a;loc|1:subj|5:pnct|8:xpl|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-20:vobj" out="-3:space&3a;loc|1:subj|3:preds|5:pnct|8:xpl">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">die</W>
 <W lemma="Haltung" msd="NC" tag="NN" in="-1:nobj" out="">Haltung</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="1:nobj">eine</W>

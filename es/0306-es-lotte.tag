@@ -75,9 +75,9 @@
 <W lemma="implicar" msd="VLfin" in="" out="-1:subj|-2:contr|1:dobj|26:pnct">implica</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="largo" msd="ADJ" in="1:attr" out="">larga</W>
-<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg">serie</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
-<W lemma="pregunta" msd="NC" in="-1:nobj" out="2:ref|6:relr|12:pobj&3a;arg">preguntas</W>
+<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">serie</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="pregunta" msd="NC" in="-1:nobj" out="2:ref|6:relr|12:pobj|12:{arg}">preguntas</W>
 <W lemma="a" msd="PREP" in="5:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-2:ref|-1:nobj" out="1:nobj">las</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="">que</W>
@@ -89,7 +89,7 @@
 <W lemma="entre" msd="PREP" in="3:exem" out="1:nobj">entre</W>
 <W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj">otras</W>
 <W lemma="cosa" msd="NC" in="-1:nobj" out="">cosas</W>
-<W lemma="acerca~de" msd="PREP" in="-12:pobj&3a;arg" out="-3:exem|1:nobj">acerca de</W>
+<W lemma="acerca~de" msd="PREP" in="-12:pobj|-12:{arg}" out="-3:exem|1:nobj">acerca de</W>
 <W lemma="si" msd="NC" in="-1:nobj" out="3:vobj">si</W>
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">las</W>
 <W lemma="hormona" msd="NC" in="-1:nobj" out="">hormonas</W>
@@ -138,8 +138,8 @@
 <W lemma="causa" msd="NC" in="" out="">causa</W>
 <W lemma="de" msd="PREP" in="" out="1:nobj">de</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj|-7:coref" out="1:possd&3a;subj.agent|9:coref">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd&3a;subj.agent" out="1:pobj&3a;arg">oposición</W>
-<W lemma="al" msd="PAL" in="-1:pobj&3a;arg" out="1:nobj">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd&3a;subj.agent" out="1:pobj|1:{arg}">oposición</W>
+<W lemma="al" msd="PAL" in="-1:pobj|-1:{arg}" out="1:nobj">al</W>
 <W lemma="aborto" msd="NC" in="-1:nobj" out="">aborto</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="esto~es" msd="ADV" note="skal adskilles" in="" out="">Esto es</W>

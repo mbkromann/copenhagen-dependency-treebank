@@ -24,8 +24,8 @@
 <W lemma="V." msd="NP" tag="NE" in="-1:other" out="">V.</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">Nur</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-13:coref-id|5:subj|8:[subj]" out="-1:degr|1:nobj|12:coref-id">die</W>
-<W lemma="Arzt" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">Ärzte</W>
-<W lemma="vom" msd="SP+P" tag="APPRART" in="-1:pobj&3a;arg|-12:coref-id" out="1:nobj|2:appr">vom</W>
+<W lemma="Arzt" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Ärzte</W>
+<W lemma="vom" msd="SP+P" tag="APPRART" in="-12:coref-id|-1:pobj|-1:{arg}" out="1:nobj|2:appr">vom</W>
 <W lemma="Wochenmagazin" msd="NC" tag="NN" in="-1:nobj" out="">Wochenmagazin</W>
 <W lemma="Sonntag" msd="NC" tag="NN" in="-2:appr" out="">SONNTAG</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="-5:subj|3:vobj|4:pnct">dürfen</W>
@@ -100,7 +100,7 @@
 <p>
 <s>
 <W lemma="Bodil" msd="NP" tag="NE" in="1:subj" out="4:coref">Bodil</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:pnct">ist</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:preds" out="">49</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="-4:coref|1:subj|5:[subj]" out="7:coref">Sie</W>
@@ -129,7 +129,7 @@
 <W lemma="sie" msd="PP" tag="PPER" in="-16:coref|3:subj" out="">sie</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="2:preds" out="1:nobj">gegen</W>
 <W lemma="Abtreibung" msd="NC" tag="NN" in="-1:nobj" out="">Abtreibung</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-5:pnct|1:pnct|-2:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-5:pnct|-2:preds|1:pnct">war</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="100" msd="AC" tag="CARD" in="2:degr" out="1:nobj">100</W>
 <W lemma="%" msd="NC" tag="NN" in="-1:nobj" out="">%</W>
@@ -159,7 +159,7 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="5:time" out="3:vobj">Als</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-20:coref|2:subj" out="19:coref">sie</W>
 <W lemma="40" msd="AC" tag="CARD" in="1:preds" out="">40</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|1:pnct|-1:preds">wurde</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:preds|1:pnct">wurde</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="sprechen" msd="VA" tag="VVFIN" in="" out="-5:time|1:subj|2:pobj|4:pobj|11:pnct">sprach</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj" out="">ich</W>

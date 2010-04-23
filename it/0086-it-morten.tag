@@ -27,10 +27,10 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:attr|2:nobj">Il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:attr" out="">suo</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-2:nobj" out="">nome</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|4:pnct|16:pnct|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|3:preds|4:pnct|16:pnct">è</W>
 <W lemma="John" msd="NP" tag="NPR" in="2:namef" out="1:namef">John</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:namef" out="">Lee</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:[subj]|-3:preds" out="-2:namef|2:attr|121:coref-var">Hooker</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:preds|2:[subj]" out="-2:namef|2:attr|121:coref-var">Hooker</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="nascere" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-2:[subj]|1:nobj|5:loc">nato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="3:nobj|76:coref-res">il</W>
@@ -38,8 +38,8 @@
 <W lemma="agosto" msd="NC" tag="NOM" in="1:nobj" out="-1:nobj">agosto</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-3:nobj" out="-1:nobj">1917</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-5:loc" out="1:nobj|4:pnct|5:appa">nella</W>
-<W lemma="capitale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">capitale</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="capitale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">capitale</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="blues" msd="NC" tag="NOM" in="-1:nobj" out="">blues</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:appa" out="">Mississippi</W>
@@ -48,7 +48,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="20:pnct|52:conj|1:preds">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:preds|20:pnct|52:conj">È</W>
 <W lemma="vero" msd="AN" tag="ADJ" in="-1:preds" out="1:dobj">vero</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="4:nobj">il</W>

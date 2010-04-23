@@ -49,8 +49,8 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:struct&3a;bg" out="1:nobj">nel</W>
 <W lemma="trattare" morph="trattare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">trattare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|3:attr">una</W>
-<W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">domanda</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:pobj&3a;dobj" out="">d’asilo</W>
+<W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">domanda</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:pobj.dobj|-1:{patient}" out="">d’asilo</W>
 <W lemma="inoltrare" morph="oltrare -in/ASPEC&3a;iter" msd="VAP" tag="VER&3a;pper" in="-3:attr" out="1:space&3a;dir">inoltrata</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:space&3a;dir" out="1:nobj">in</W>
 <W lemma="uno" morph="uno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">uno</W>
@@ -76,8 +76,8 @@
 <W lemma="rifugiato" morph="rifuggire +ato/PRED&3a;agent" msd="NC" tag="NOM" in="2:subj" out="1:attr">rifugiati</W>
 <W lemma="politico" morph="politico /DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-1:attr" out="">politici</W>
 <W lemma="inoltrare" morph="oltrare -in/ASPEC&3a;iter" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:subj|1:dobj|3:space&3a;dir|6:time&3a;cont">inoltrino</W>
-<W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;dobj|10:coref-var">domande</W>
-<W lemma="&lt;unknown&gt;" morph="asilo" msd="AN" tag="ADJ" in="-1:pobj&3a;dobj" out="">d’asilo</W>
+<W lemma="domanda" morph="domandare /PRED&3a;core" msd="NC" tag="NOM" in="-1:dobj" out="10:coref-var|1:pobj.dobj|1:{patient}">domande</W>
+<W lemma="&lt;unknown&gt;" morph="asilo" msd="AN" tag="ADJ" in="-1:pobj.dobj|-1:{patient}" out="">d’asilo</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:space&3a;dir" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" morph="più" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|14:coref-id">più</W>
 <W lemma="paese" morph="paese" msd="NC" tag="NOM" in="-1:nobj" out="">paesi</W>
@@ -144,7 +144,7 @@
 <W lemma="qui" msd="RG" tag="ADV" in="-1:space&3a;loc|-9:coref" out="">qui</W>
 <W lemma="." msd="XP" tag="SENT" in="-22:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" morph="ciò" msd="NC" tag="NOM" in="-23:coref-res|1:subj" out="">Ciò</W>
-<W lemma="&lt;unknown&gt;" morph="essere" msd="NC" tag="NOM" in="" out="-1:subj|21:pnct|23:coref-res|1:preds">è</W>
+<W lemma="&lt;unknown&gt;" morph="essere" msd="NC" tag="NOM" in="" out="-1:subj|1:preds|21:pnct|23:coref-res">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="risultato" morph="risultare +to/PRED&3a;result" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">risultato</W>
 <W lemma="&lt;unknown&gt;" morph="accordare +o/PRED&3a;core" msd="NC" tag="NOM" in="-1:pobj" out="1:attr">dell’accordo</W>

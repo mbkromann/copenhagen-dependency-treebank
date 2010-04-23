@@ -63,8 +63,8 @@
 <W lemma="disertare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">disertato</W>
 <W lemma="." msd="XP" tag="SENT" in="-18:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj" out="1:nobj">Il</W>
-<W lemma="commerciante" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">commerciante</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="commerciante" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">commerciante</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="bicicletta" msd="NC" tag="NOM" in="-1:nobj" out="">biciclette</W>
 <W lemma="dire" msd="VADA" tag="VER&3a;remo" in="" out="-4:subj|1:pnct|3:qobj">disse</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-1:pnct" out="">:</W>
@@ -91,7 +91,7 @@
 <W lemma="sopra" msd="AN" tag="ADJ" in="-2:loc" out="-1:focal">sopra</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-19:coref|1:dobj" out="">Ne</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-1:dobj|3:pnct|4:pnct|5:pnct|2:preds">sarai</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="" out="-1:dobj|2:preds|3:pnct|4:pnct|5:pnct">sarai</W>
 <W lemma="ben" msd="RG" tag="ADV" in="1:degr" out="">ben</W>
 <W lemma="stanco" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">stanco</W>
 <W lemma="!" msd="XP" tag="SENT" in="-3:pnct" out="">!</W>
@@ -99,8 +99,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="fare" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-1:pnct|1:nobj|5:pnct">Fa</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="2:nobj">del</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">del</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">mio</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">lavoro</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>

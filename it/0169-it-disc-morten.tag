@@ -111,7 +111,7 @@
 <W lemma="prima" msd="RG" tag="ADV" in="3:time" out="1:pobj">prima</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="allora" msd="RG" tag="ADV" in="-1:nobj" out="">allora</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-20:CONTR&3a;dir/ma" out="-4:coord|-3:time|4:time|8:pnct|11:+ELAB&3a;exp|1:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-20:CONTR&3a;dir/ma" out="-4:coord|-3:time|1:preds|4:time|8:pnct|11:+ELAB&3a;exp">era</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="alcolista" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">alcolista</W>
 <W lemma="inveterato" msd="AN" tag="ADJ" in="-1:attr" out="">inveterato</W>
@@ -226,7 +226,7 @@
 </s>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-9:coref-res|1:subj" out="">Questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:CONJ/(e)/ATTR2" out="-1:subj|7:pnct|2:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:CONJ/(e)/ATTR2" out="-1:subj|2:preds|7:pnct">è</W>
 <W lemma="soltanto" msd="RG" tag="ADV" in="1:degr" out="">soltanto</W>
 <W lemma="uno" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:attr">uno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">degli</W>
@@ -243,8 +243,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|1:subj" out="">che</W>
 <W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-3:relpa" out="-1:subj|1:dobj|6:ext">fa</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="turno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">turno</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="turno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">turno</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="guardia" msd="NC" tag="NOM" in="-1:nobj" out="">guardia</W>
 <W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="">due</W>
 <W lemma="sera" msd="NC" tag="NOM" in="-6:ext" out="-1:attr|1:ext">sere</W>

@@ -13,7 +13,7 @@
 <W lemma="pasticceria" msd="NC" tag="NOM" in="" out="">pasticceria</W>
 =======
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-15:time|20:conj|29:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-15:time|1:preds|20:conj|29:pnct">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
 <W lemma="stimare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">stimato</W>
@@ -36,8 +36,8 @@
 <W lemma="conoscere" msd="VADR" tag="VER&3a;pres" in="-20:conj" out="-1:coord|2:dobj">conosce</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
-<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">nomi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">delle</W>
+<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">nomi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">specialità</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">nella</W>
 <W lemma="vetrina" msd="NC" tag="NOM" in="-1:nobj|-18:assoc-const" out="1:attr">vetrina</W>
@@ -150,8 +150,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-7:conj" out="-1:coord|-9:[subj]|1:man">va</W>
 <W lemma="benissimo" msd="RG" tag="ADV" in="-1:man" out="1:pobj">benissimo</W>
-<W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:pobj&3a;dobj">tra</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:pobj.dobj|1:{patient}">tra</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="-1:nobj|-110:assoc-const" out="">noi</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-16:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -275,8 +275,8 @@
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|1:time|2:dobj">aver</W>
 <W lemma="più" msd="RG" tag="ADV" in="-1:time" out="">più</W>
-<W lemma="bisogno" msd="NC" tag="NOM" in="-2:dobj" out="1:pobj&3a;dobj">bisogno</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">del</W>
+<W lemma="bisogno" msd="NC" tag="NOM" in="-2:dobj" out="1:pobj.dobj|1:{patient}">bisogno</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
 <W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">sussidio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>

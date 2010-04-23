@@ -1,4 +1,4 @@
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="3:subj|9:pnct|2:preds">¿Es</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="2:preds|3:subj|9:pnct">¿Es</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="3:pobj&3a;comp">más</W>
 <W lemma="resistente" msd="ADJ" in="-2:preds" out="-1:degr">resistente</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:subj" out="">Larsen</W>
@@ -10,7 +10,7 @@
 <W lemma="?" msd="FS" in="-9:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="2:subj" out="1:nobj">“El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">jutlandés</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:bg|7:pnct|4:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:bg|4:preds|7:pnct">es</W>
 <W lemma="como" msd="CSUBX" in="-1:bg" out="2:vobj">como</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="saber" msd="VLfin" in="-2:vobj" out="-1:robj">sabe</W>
@@ -36,8 +36,8 @@
 <W lemma="querer" msd="VLfin" in="" out="-2:time|1:vobj|6:pnct">quiso</W>
 <W lemma="revolucionar" msd="VLinf" in="-1:vobj" out="1:dobj">revolucionar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">montón</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">montón</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="cosa" msd="NC" in="-1:nobj" out="">cosas</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="no" msd="NEG" in="2:neg" out="">No</W>
@@ -83,10 +83,10 @@
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="2:subj" out="1:nobj">La</W>
 <W lemma="pregunta" msd="NC" in="-1:nobj" out="">pregunta</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:other|2:pnct|19:pnct|3:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:other|2:pnct|3:preds|19:pnct">es</W>
 <W lemma="entonces" msd="ADV" in="-1:other" out="">entonces</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="4:dobj|-3:preds" out="">cuánto</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-3:preds|4:dobj" out="">cuánto</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="1:preds">está</W>
 <W lemma="disponer" msd="VLadj" in="-1:preds" out="1:pobj">dispuesto</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
@@ -148,7 +148,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="3:cond" out="2:pnct">¿Mirando</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">atrás</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-3:cond|4:time|14:pnct|1:preds">estáis</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="-3:cond|1:preds|4:time|14:pnct">estáis</W>
 <W lemma="disponer" msd="VLadj" in="-1:preds" out="1:pobj">dispuestos</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="reconocer" msd="VLinf" in="-1:vobj" out="3:dobj">reconocer</W>
@@ -156,8 +156,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">día</W>
 <W lemma="que" msd="CQUE" in="-3:dobj" out="5:vobj">que</W>
 <W lemma="l" msd="PPO" in="4:subj" out="1:nobj">la</W>
-<W lemma="comprar" msd="VLfin" in="-1:nobj" out="1:pobj&3a;dobj">compra</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="comprar" msd="VLfin" in="-1:nobj" out="1:pobj.dobj|1:{patient}">compra</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Tjæreborg</W>
 <W lemma="era" msd="VEfin" in="-5:vobj" out="-4:subj|1:preds">era</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">un</W>

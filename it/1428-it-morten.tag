@@ -14,8 +14,8 @@
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="sdraiare" msd="VAP" tag="VER&3a;pper" in="-10:man" out="1:space&3a;loc|6:pnct|7:conj">sdraiati</W>
 <W lemma="sotto" msd="SP" tag="PRE" in="-1:space&3a;loc" out="1:nobj">sotto</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">l’ombra</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">l’ombra</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="albero" msd="NC" tag="NOM" in="-1:nobj" out="">albero</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
@@ -51,9 +51,9 @@
 <W lemma="@card@" msd="XP" tag="PON" in="-1:dobj" out="1:nobj">33</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="9:pnct|1:preds">è</W>
-<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj&3a;arg">figlio</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj&3a;arg" out="1:nobj">dell’ex</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj" out="1:preds|9:pnct">è</W>
+<W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj|1:{arg}">figlio</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj|-1:{arg}" out="1:nobj">dell’ex</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|5:appr">ministro</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">l’industria</W>
@@ -70,8 +70,8 @@
 <W lemma="scrittore" msd="NC" tag="NOM" in="-5:conj" out="-1:coord">scrittore</W>
 <W lemma="." msd="XP" tag="SENT" in="-21:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">Primus</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="35:fpreds" out="-1:attr|1:pobj&3a;arg|30:pnct">motor</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="2:nobj">di</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="35:fpreds" out="-1:attr|30:pnct|1:pobj|1:{arg}">motor</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="2:nobj">di</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="1:attr" out="">diversi</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|2:attr">gruppi</W>
 <W lemma="musicale" msd="AN" tag="ADJ" in="-1:attr" out="">musicali</W>
@@ -129,7 +129,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:space&3a;dir" out="-2:degr">giù</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">“Io</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|2:pnct|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|1:preds|2:pnct">sono</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="-1:preds" out="">io</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:pnct" out="">!”</W>
 <W lemma="insistere" msd="VADR" tag="VER&3a;pres" in="" out="-3:qobj|1:subj|2:space&3a;loc|6:pnct|7:fpreds|61:pnct">insiste</W>

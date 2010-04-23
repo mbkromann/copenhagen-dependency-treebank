@@ -16,8 +16,8 @@
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-14:qobj|1:man|2:subj|10:iobj|12:pnct|13:time|34:pnct">dice</W>
 <W lemma="sarcastico" msd="AN" tag="ADJ" in="-1:man" out="">sarcastico</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:subj" out="1:nobj">il</W>
-<W lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg|6:appr">direttore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="direttore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|6:appr">direttore</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">polizia</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Copenaghen</W>
@@ -39,8 +39,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Holte</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-11:conj" out="-1:coord|1:nobj">una</W>
-<W lemma="serie" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj|3:attr|6:loc">serie</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="serie" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|6:loc|1:pobj.dobj|1:{patient}">serie</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="colpo" msd="NC" tag="NOM" in="-1:nobj" out="">colpi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:attr" out="2:nobj">dello</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-16:coref|1:attr" out="">stesso</W>
@@ -74,7 +74,7 @@
 <W lemma="mentre" msd="CS" tag="CON" in="-8:time" out="3:vobj">mentre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:assoc-scope|2:subj" out="1:nobj">i</W>
 <W lemma="proprietario" msd="NC" tag="NOM" in="-1:nobj" out="">proprietari</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-3:vobj" out="-2:subj|3:pnct|2:preds">erano</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-3:vobj" out="-2:subj|2:preds|3:pnct">erano</W>
 <W lemma="fuori" msd="SP" tag="PRE" in="1:man" out="">fuori</W>
 <W lemma="casa" msd="NC" tag="NOM" in="-2:preds" out="-1:man">casa</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

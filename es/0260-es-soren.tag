@@ -1,5 +1,5 @@
-<W lemma="apartado" msd="NC" in="" out="1:pobj&3a;dobj">Apartado</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="apartado" msd="NC" in="" out="1:pobj.dobj|1:{patient}">Apartado</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="correo" msd="NC" in="-1:nobj" out="1:numm">correos</W>
 <W lemma="@card@" msd="CODE" in="-1:numm" out="1:nobj">64</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:pnct|2:appa">LinderÃ¶d</W>
@@ -77,8 +77,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-7:vobj" out="-1:dobj|1:pobj">realicÃ©</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">bendiciÃ³n</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">bendiciÃ³n</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="oficina" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">oficina</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
@@ -131,14 +131,14 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:vp#|9:coord">EmpecÃ©</W>
 <W lemma="a" msd="PREP" in="-1:vp#" out="1:dobj">a</W>
 <W lemma="repartir" msd="VLinf" in="-1:dobj" out="1:nobj">repartir</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg">periÃ³dicos</W>
-<W lemma="para" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">para</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj|1:{arg}">periÃ³dicos</W>
+<W lemma="para" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="2:appa">empresa</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:title" out="">A/S</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:appa" out="-1:title">Bladkompagniet</W>
 <W lemma="y" msd="CC" in="-9:coord" out="">y</W>
-<W lemma="estar" msd="VLfin" in="" out="3:cause|12:pnct|2:preds">estaba</W>
+<W lemma="estar" msd="VLfin" in="" out="2:preds|3:cause|12:pnct">estaba</W>
 <W lemma="realmente" msd="ADV" in="1:prg" out="">realmente</W>
 <W lemma="contento" msd="ADJ" in="-2:preds" out="-1:prg">contento</W>
 <W lemma="ya~que" msd="CSUBF" in="-3:cause" out="">ya que</W>
@@ -175,7 +175,7 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="-10:coord" out="">y</W>
 <W lemma="yo" msd="PPX" in="1:subj" out="">yo</W>
-<W lemma="estar" msd="VLfin" in="-12:vobj" out="-1:subj|2:pobj|3:vobj|11:pnct|1:preds">estaba</W>
+<W lemma="estar" msd="VLfin" in="-12:vobj" out="-1:subj|1:preds|2:pobj|3:vobj|11:pnct">estaba</W>
 <W lemma="ansioso" msd="ADJ" in="-1:preds" out="">ansioso</W>
 <W lemma="por" msd="PREP" in="-2:pobj" out="">por</W>
 <W lemma="ver" msd="VLinf" in="-3:vobj" out="1:ext">ver</W>

@@ -48,8 +48,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj|8:[subj]" out="">,,Ich</W>
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|7:vobj|8:pnct|14:goal|22:pnct">möchte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">die</W>
-<W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Verhandlungen</W>
-<W lemma="um" msd="SP" tag="APPR" in="-1:pobj&3a;dobj" out="1:nobj">um</W>
+<W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Verhandlungen</W>
+<W lemma="um" msd="SP" tag="APPR" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">um</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">das</W>
 <W lemma="Finanzgesetz" msd="NC" tag="NN" in="-1:nobj" out="">Finanzgesetz</W>
 <W lemma="dazu" msd="RG" tag="PAV" in="1:pobj" out="5:nobj">dazu</W>
@@ -137,15 +137,15 @@
 <W lemma="anfangen" msd="VAP" tag="VVPP" in="-5:relr" out="-1:subj|1:pobj|22:man">angefangen</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj|6:pobj">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="Herabsetzung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Herabsetzung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="1:nobj">des</W>
+<W lemma="Herabsetzung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Herabsetzung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">des</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:about#">A-Kasse</W>
 <W lemma="Kontingent" msd="NC" tag="NN" in="-1:about#" out="">Kontingents</W>
 <W lemma="bis" msd="SP" tag="APPR" in="-6:pobj" out="1:nobj">bis</W>
 <W lemma="hin" msd="RG" tag="ADV" in="-1:nobj" out="1:pobj">hin</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">zur</W>
-<W lemma="Abschaffung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Abschaffung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="1:attr|2:nobj">der</W>
+<W lemma="Abschaffung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Abschaffung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="1:attr|2:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:attr" out="">6-Prozent</W>
 <W lemma="Steuer" msd="NC" tag="NN" in="-2:nobj" out="1:pobj">Steuer</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">für</W>
@@ -164,15 +164,15 @@
 <s>
 <W lemma="Henning" msd="NP" tag="NE" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-59:coref-id|1:subj" out="-1:namef|66:coref-id">Dyremose</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|4:pnct|24:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:neg|2:preds|4:pnct|24:pnct">ist</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:preds" out="1:nobj">der</W>
 <W lemma="Auffassung" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Auffassung</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="10:vobj">dass</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="8:[subj]|9:subj" out="1:nobj">eine</W>
-<W lemma="Senkung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;dobj">Senkung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;dobj" out="1:nobj|3:conj">der</W>
+<W lemma="Senkung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Senkung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|3:conj">der</W>
 <W lemma="Mehrwertsteuer" msd="NC" tag="NN" in="-1:nobj" out="">Mehrwertsteuer</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj">der</W>
@@ -193,8 +193,8 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="1:pobj&3a;dobj">HERABSETZUNG</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:pobj&3a;dobj" out="1:nobj">DER</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="" out="1:pobj.dobj|1:{patient}">HERABSETZUNG</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">DER</W>
 <W lemma="Mehrwertsteuer" msd="NC" tag="NN" in="-1:nobj" out="">MEHRWERTSTEUER</W>
 </s>
 </p>

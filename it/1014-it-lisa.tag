@@ -64,8 +64,8 @@
 <W lemma="rassicurare" msd="VAG" tag="VER&3a;ppre" in="-1:attr" out="">rassicurante</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:dobj" out="1:nobj|13:coref">gli</W>
 <W lemma="anziano" msd="NC" tag="NOM" in="-1:nobj" out="">anziani</W>
-<W lemma="e" msd="CS" tag="CON" in="4:coord" out="1:pobj&3a;dobj">e</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">nel</W>
+<W lemma="e" msd="CS" tag="CON" in="4:coord" out="1:pobj.dobj|1:{patient}">e</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">nel</W>
 <W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="">caso</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="riuscire" msd="VADR" tag="VER&3a;cpre" in="-11:conj" out="-4:coord|-1:neg|-13:[subj]|1:pobj|3:pnct|5:conj">riescano</W>
@@ -134,7 +134,7 @@
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="">economici</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:discmark" out="">Ma</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:discmark|6:pnct|7:cause|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:discmark|1:preds|6:pnct|7:cause">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="3:attr">modo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:prg" out="1:nobj">del</W>
@@ -170,8 +170,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="2:subj" out="">che</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="prendere" msd="VADR" tag="VER&3a;pres" in="-3:relr" out="-2:subj|-1:robj|1:dobj">prende</W>
-<W lemma="cura" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;dobj">cura</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="cura" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj.dobj|1:{patient}">cura</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-1:nobj|-29:coref" out="">loro</W>
 <W lemma="ed" msd="CS" tag="CON" in="7:coord" out="1:struct">ed</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:struct" out="1:nobj">in</W>

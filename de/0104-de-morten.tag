@@ -22,8 +22,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj|29:coref-res" out="20:nobj">es</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:iobj" out="1:attr|2:nobj|5:pnct|6:appa">den</W>
 <W lemma="damalig" msd="AN" tag="ADJA" in="-1:attr" out="">damaligen</W>
-<W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="1:pobj&3a;arg|10:coref-var">Vorsitzenden</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;arg" out="1:nobj">von</W>
+<W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="10:coref-var|1:pobj|1:{arg}">Vorsitzenden</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj|-1:{arg}" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="12:coref-var">Venstre</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="1:attr|2:nobj|4:appr|5:pnct">den</W>
@@ -55,7 +55,7 @@
 <p>
 <s>
 <W lemma="damals" msd="RG" tag="ADV" in="-37:coref|1:prec" out="">Damals</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:prec|1:subj|3:neg|10:pnct|4:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:prec|1:subj|3:neg|4:preds|10:pnct">war</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|16:coref">die</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="-1:nobj" out="">Zeit</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-3:neg" out="">nicht</W>
@@ -71,7 +71,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:preds" out="">,,Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|2:eval|3:add|4:cont|5:neg|6:pnct|-1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:preds|1:subj|2:eval|3:add|4:cont|5:neg|6:pnct">ist</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-16:coref|-1:subj" out="">sie</W>
 <W lemma="eigentlich" msd="RG" tag="ADV" in="-2:eval" out="">eigentlich</W>
 <W lemma="auch" msd="RG" tag="ADV" in="-3:add" out="">auch</W>
@@ -184,7 +184,7 @@
 <W lemma="Familie" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Familie</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">auf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Fanø</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-8:succ|1:subj|2:time|8:pnct|4:preds">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-8:succ|1:subj|2:time|4:preds|8:pnct">war</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|-16:coref" out="">er</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-2:time" out="1:nobj">am</W>
 <W lemma="Montag" msd="NC" tag="NN" in="-1:nobj" out="">Montag</W>

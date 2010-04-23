@@ -88,8 +88,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:contr|1:dobj|25:pnct">raises</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|5:pnct|6:ref|9:relr|17:exem">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj&3a;arg">series</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;arg" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|1:{arg}">series</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">questions</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-6:ref|4:dobj" out="">which</W>
@@ -163,8 +163,8 @@
 <W msd="CS" tag="IN" in="7:reas" out="1:pobj|6:pnct">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:nobj">her</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj&3a;arg">opposition</W>
-<W msd="U=" tag="TO" in="-1:pobj&3a;arg" out="1:nobj">to</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">opposition</W>
+<W msd="U=" tag="TO" in="-1:pobj|-1:{arg}" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">abortion</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-24:conj" out="-25:[subj]|-7:reas|-9:coord|1:dobj">wanted</W>

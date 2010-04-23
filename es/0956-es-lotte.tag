@@ -1,4 +1,4 @@
-<W lemma="ser" msd="VSfin" in="" out="3:subj|12:pnct|14:time|22:pnct|23:assoc-cause|1:preds">Es</W>
+<W lemma="ser" msd="VSfin" in="" out="1:preds|3:subj|12:pnct|14:time|22:pnct|23:assoc-cause">Es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">condición</W>
 <W lemma="que" msd="CQUE" in="-3:subj" out="1:vobj|3:conj">que</W>
@@ -23,7 +23,7 @@
 <W lemma="." msd="FS" in="-22:pnct" out="">.</W>
 <W lemma="por" msd="PREP" in="-23:assoc-cause|2:cause" out="">Por</W>
 <W lemma="ese" msd="DM" in="" out="">eso</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:cause|4:subj|14:elab|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:cause|1:preds|4:subj|14:elab">es</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj|2:attr">una</W>
 <W lemma="exigencia" msd="NC" in="-1:nobj" out="">exigencia</W>
 <W lemma="incondicional" msd="ADJ" in="-2:attr" out="">incondicional</W>
@@ -109,8 +109,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">ubicación</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|5:ref|6:coref|7:relr">los</W>
-<W lemma="plano" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">planos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="plano" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">planos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">construcción</W>
 <W lemma="que" msd="CQUE" in="-5:ref|2:subj|3:[subj]" out="">que</W>
@@ -123,11 +123,11 @@
 <W lemma="experiencia" msd="NC" in="-1:nobj" out="1:loc">experiencia</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="ramo" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">ramo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="ramo" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">ramo</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">construcción</W>
-<W lemma="ser" msd="VSfin" in="" out="-9:prg|-31:cond|2:subj|14:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-9:prg|-31:cond|1:preds|2:subj|14:pnct">es</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="">rarísimo</W>
 <W lemma="que" msd="CQUE" in="-2:subj" out="3:vobj">que</W>
 <W lemma="dicho" msd="QU" in="2:subj" out="1:nobj|24:coref-id">dichos</W>

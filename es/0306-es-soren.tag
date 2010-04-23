@@ -135,8 +135,8 @@
 <W lemma="completamente" msd="ADV" in="1:degr" out="">completamente</W>
 <W lemma="seguro" msd="ADJ" in="-2:preds" out="-1:degr">segura</W>
 <W lemma="a" msd="PREP" in="-4:bg" out="1:nobj">a</W>
-<W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">causa</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">causa</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:possd">su</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj">oposición</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
@@ -197,8 +197,8 @@
 <W lemma="significar" msd="VLfin" in="-3:relr" out="-2:dobj|-1:subj|1:ben">significaba</W>
 <W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="1:attr">mujeres</W>
-<W lemma="grande" msd="ADJ" in="-1:attr" out="1:pobj&3a;arg">mayores</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="grande" msd="ADJ" in="-1:attr" out="1:pobj|1:{arg}">mayores</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">40</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-36:pnct" out="">.</W>

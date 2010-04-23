@@ -27,8 +27,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:dobj|1:time">hacÃ­a</W>
 <W lemma="en" msd="PREP" in="-1:time" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="fin" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">fines</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="fin" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">fines</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="semana" msd="NC" in="-1:nobj" out="">semana</W>
 <W lemma="." msd="FS" in="-23:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="5:time" out="1:nobj">Los</W>
@@ -44,7 +44,7 @@
 <W lemma="él" msd="PPO" in="1:dobj" out="">lo</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:dobj|-2:time">abordaba</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="era" msd="VEfin" in="" out="-1:pnct|-4:time|1:other|5:pnct|2:preds">era</W>
+<W lemma="era" msd="VEfin" in="" out="-1:pnct|-4:time|1:other|2:preds|5:pnct">era</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:other" out="">aÃºn</W>
 <W lemma="el" msd="ART" in="-2:preds" out="1:nobj">la</W>
 <W lemma="chico" msd="NC" in="-1:nobj" out="1:attr">chica</W>
@@ -73,12 +73,12 @@
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="yo" msd="PPX" in="1:subj" out="">Yo</W>
-<W lemma="era" msd="VEfin" in="" out="-1:subj|3:pnct|5:conj|16:pnct|1:preds">era</W>
+<W lemma="era" msd="VEfin" in="" out="-1:subj|1:preds|3:pnct|5:conj|16:pnct">era</W>
 <W lemma="dos" msd="CARD" in="-1:preds" out="1:nobj">dos</W>
 <W lemma="persona" msd="NC" in="-1:nobj" out="">personas</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="era" msd="VEfin" in="-5:conj" out="-1:coord|5:subj|4:preds">era</W>
+<W lemma="era" msd="VEfin" in="-5:conj" out="-1:coord|4:preds|5:subj">era</W>
 <W lemma="cada" msd="QU" in="3:degr/time" out="1:nobj">cada</W>
 <W lemma="vez" msd="NC" in="-1:nobj" out="1:nobj">vez</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|1:degr" out="">mÃ¡s</W>
@@ -94,7 +94,7 @@
 <W lemma="prostituta" msd="NC" in="-1:nobj" out="1:pobj&3a;about#">prostituta</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;about#" out="1:nobj">de</W>
 <W lemma="lujo" msd="NC" in="-1:nobj" out="">lujo</W>
-<W lemma="ser" msd="VSfin" in="" out="-4:subj|3:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-4:subj|1:preds|3:pnct">es</W>
 <W lemma="mucho" msd="QU" in="-1:preds" out="1:nobj">muchas</W>
 <W lemma="cosa" msd="NC" in="-1:nobj" out="">cosas</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>

@@ -1,7 +1,7 @@
 <W lemma="oggi" msd="RG" tag="ADV" in="3:time" out="1:pnct">Oggi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|4:loc|19:conj|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|1:preds|4:loc|19:conj">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
 <W lemma="stimare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">stimato</W>
@@ -23,8 +23,8 @@
 <W lemma="conoscere" msd="VADR" tag="VER&3a;pres" in="-19:conj" out="-1:coord|2:dobj|9:pnct">conosce</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
-<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">nomi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">delle</W>
+<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">nomi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">delle</W>
 <W lemma="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">specialità</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">nella</W>
 <W lemma="vetrina" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">vetrina</W>
@@ -188,7 +188,7 @@
 <W lemma="assumere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:man">assunta</W>
 <W lemma="regolarmente" msd="RG" tag="ADV" in="-1:man" out="">regolarmente</W>
 <W lemma=";" msd="XP" tag="PON" in="-7:pnct" out="">;</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="11:pnct|1:preds">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="1:preds|11:pnct">sono</W>
 <W lemma="felice" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">felice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:neg">non</W>

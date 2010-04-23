@@ -14,7 +14,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="3:subj" out="1:nobj">un</W>
 <W lemma="disoccupato" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupato</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-1:robj|2:cause|5:pnct|1:preds">sente</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-3:subj|-1:robj|1:preds|2:cause|5:pnct">sente</W>
 <W lemma="ridicolo" msd="AN" tag="ADJ" in="-1:preds" out="">ridicolo</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-2:cause" out="1:vobj">perché</W>
 <W lemma="desiderare" msd="VADR" tag="VER&3a;pres" in="-1:vobj|1:[subj]" out="1:vobj">desidera</W>
@@ -90,8 +90,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="-2:time|1:vobj|6:man|10:conj|19:vobj|36:pnct">ho</W>
 <W lemma="inviare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:dobj">inviato</W>
 <W lemma="innumerevole" msd="AN" tag="ADJ" in="1:attr" out="">innumerevoli</W>
-<W lemma="domanda" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj&3a;dobj">domande</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="domanda" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj.dobj|1:{patient}">domande</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="rispondere" msd="VAG" tag="VER&3a;geru" in="-6:man" out="1:pobj">rispondendo</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">agli</W>
@@ -130,8 +130,8 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="1:nobj|50:coref-var">un</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:comp">lavoro</W>
 <W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="1:nobj">come</W>
-<W lemma="distributore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg|3:ben">distributrice</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="distributore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|3:ben">distributrice</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="giornale" msd="NC" tag="NOM" in="-1:nobj" out="">giornali</W>
 <W lemma="per" msd="SP" tag="PRE" in="-3:ben" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">A/S</W>
@@ -163,8 +163,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-44:coref-id|-1:dobj" out="1:nobj">i</W>
 <W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sussidi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">della</W>
-<W lemma="cassa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">cassa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="cassa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">cassa</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="ovviamente" msd="RG" tag="ADV" in="1:prg" out="">ovviamente</W>

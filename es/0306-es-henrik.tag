@@ -75,8 +75,8 @@
 <W lemma="implicar" msd="VLfin" in="-2:conj" out="-1:subj|1:dobj">implica</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="largo" msd="ADJ" in="1:attr" out="">larga</W>
-<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;arg">serie</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">serie</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="pregunta" msd="NC" in="-1:nobj" out="6:rel|12:mod">preguntas</W>
 <W lemma="a" msd="PREP" in="5:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
@@ -138,8 +138,8 @@
 <W lemma="causa" msd="NC" in="-1:nobj" out="1:pobj">causa</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj|-7:coref" out="1:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj&3a;arg">oposición</W>
-<W lemma="al" msd="PAL" in="-1:pobj&3a;arg" out="1:nobj">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj|1:{arg}">oposición</W>
+<W lemma="al" msd="PAL" in="-1:pobj|-1:{arg}" out="1:nobj">al</W>
 <W lemma="aborto" msd="NC" in="-1:nobj" out="">aborto</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
 <W lemma="esto~es" msd="ADV" in="-26:coref-res" out="1:preds">Esto es</W>

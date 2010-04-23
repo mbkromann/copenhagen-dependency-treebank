@@ -6,10 +6,10 @@
 <W lemma="pertenecer" msd="VLfin" in="8:qobj" out="-4:prg|-3:subj|-5:struct|1:dobj">pertenecen</W>
 <W lemma="a" msd="PREP" in="-1:dobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="comunidad" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">comunidad</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg" out="1:nobj">del</W>
-<W lemma="reino" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">reino</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="comunidad" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">comunidad</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
+<W lemma="reino" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">reino</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Dinamarca,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-8:qobj|3:subj|4:pnct">dice</W>
 <W lemma="Erik" msd="NP" in="2:namef" out="">Erik</W>
@@ -17,7 +17,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:subj" out="-1:namel|-2:namef|2:coref|3:coref">Nielsen</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:coref|1:iobj" out="">“Me</W>
-<W lemma="sentar&7c;sentir" msd="VLfin" in="-3:coref" out="-1:iobj|4:pnct|9:conj|1:preds">siento</W>
+<W lemma="sentar&7c;sentir" msd="VLfin" in="-3:coref" out="-1:iobj|1:preds|4:pnct|9:conj">siento</W>
 <W lemma="tratar" msd="VLadj" in="-1:preds" out="2:man">tratado</W>
 <W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
 <W lemma="injusto" msd="ADV" in="-2:man" out="-1:degr">injustamente</W>
@@ -69,7 +69,7 @@
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="a~pesar~de" msd="CSUBI" in="-5:conc" out="2:vobj">a pesar de</W>
 <W lemma="que" msd="CQUE" in="" out="">que</W>
-<W lemma="ser" msd="VLfin" in="-2:vobj|-7:coref" out="3:conj|3:coref|1:preds">soy</W>
+<W lemma="ser" msd="VLfin" in="-2:vobj|-7:coref" out="1:preds|3:conj|3:coref">soy</W>
 <W lemma="dans" msd="NC" in="-1:preds" out="">danesa</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="escribir" msd="VLfin" in="-3:conj|-3:coref" out="-1:coord|1:ben|5:coref">escribo</W>
@@ -78,7 +78,7 @@
 <W lemma="dans" msd="NC" in="-1:nobj" out="">daneses</W>
 <W lemma="." msd="FS" in="-14:pnct" out="">.</W>
 <W lemma="yo" msd="PPX" in="-5:coref|1:iobj" out="1:coref">Me</W>
-<W lemma="sentar&7c;sentir" msd="VLfin" in="-1:coref|17:qobj" out="-1:iobj|8:coref|9:conj|1:preds">siento</W>
+<W lemma="sentar&7c;sentir" msd="VLfin" in="-1:coref|17:qobj" out="-1:iobj|1:preds|8:coref|9:conj">siento</W>
 <W lemma="tratar" msd="VLadj" in="-1:preds" out="1:man">tratada</W>
 <W lemma="de" msd="PREP" in="-1:man" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj|3:attr">una</W>
@@ -100,8 +100,8 @@
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="24:struct" out="1:nobj|8:pnct">Según</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|8:ref|9:relpa|99:coref-id">El</W>
-<W lemma="servicio" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">servicio</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="servicio" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">servicio</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|7:assoc-const">las</W>
 <W lemma="biblioteca" msd="NC" in="-1:nobj" out="1:other">Bibliotecas</W>
 <W lemma="del" msd="PDEL" in="-1:other" out="1:nobj">del</W>
@@ -122,7 +122,7 @@
 <W lemma="de" msd="PREP" in="-1:ext" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-88:coref-id" out="1:attr">ilustradores</W>
 <W lemma="dans" msd="ADJ" in="-1:attr" out="">daneses</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-5:subj|-24:struct|6:pnct|8:comp|29:pnct|1:preds">serán</W>
+<W lemma="&lt;unknown&gt;" msd="ADV" in="" out="-5:subj|-24:struct|1:preds|6:pnct|8:comp|29:pnct">serán</W>
 <W lemma="afectar" msd="VLadj" in="-1:preds" out="1:pobj">afectados</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:attr|2:nobj">la</W>
@@ -132,8 +132,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="11:vobj">así</W>
 <W lemma="como" msd="CSUBX" in="-8:comp" out="">como</W>
 <W lemma="varios" msd="QU" in="9:subj|11:[subj]" out="1:nobj">varios</W>
-<W lemma="autor" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">autores</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="autor" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">autores</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="libro" msd="NC" in="-1:nobj" out="1:about">libros</W>
 <W lemma="de" msd="PREP" in="-1:about" out="1:nobj">de</W>
 <W lemma="aprendizaje" msd="NC" in="-1:nobj" out="1:other">aprendizaje</W>
@@ -162,8 +162,8 @@
 <W lemma="con" msd="PREP" in="-3:about" out="2:nobj">con</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:degr" out="">sólo</W>
 <W lemma="un" msd="ART" in="-2:nobj" out="-1:degr|1:nobj">un</W>
-<W lemma="pocos" msd="QU" in="-1:nobj" out="1:pobj&3a;arg">poco</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="pocos" msd="QU" in="-1:nobj" out="1:pobj|1:{arg}">poco</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="lengua" msd="NC" in="-1:nobj" out="1:attr">lengua</W>
 <W lemma="extranjero" msd="ADJ" in="-1:attr" out="">extranjera</W>
 <W lemma="," msd="CM" in="-12:pnct" out="">,</W>

@@ -63,8 +63,8 @@
 <W lemma="medio" msd="QU" in="-3:conj" out="-1:coord">medio</W>
 <W lemma="un" msd="ART" in="8:subj|9:[subj]" out="1:attr|2:nobj">una</W>
 <W lemma="bueno" msd="ADJ" in="-1:attr" out="">buena</W>
-<W lemma="parte" msd="NC" in="-2:nobj" out="1:pobj&3a;arg">parte</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="parte" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}">parte</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;poss">ferries</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="1:nobj">de</W>
@@ -112,9 +112,9 @@
 <W lemma="mercar" msd="VLadj" in="-1:dobj" out="-1:attr">mercados</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attr">la</W>
-<W lemma="parte" msd="NC" in="-1:nobj" out="2:pobj&3a;arg">parte</W>
+<W lemma="parte" msd="NC" in="-1:nobj" out="2:pobj|2:{arg}">parte</W>
 <W lemma="este" msd="NC" in="-2:attr" out="">este</W>
-<W lemma="del" msd="PDEL" in="-2:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="del" msd="PDEL" in="-2:pobj|-2:{arg}" out="1:nobj">del</W>
 <W lemma="Mar" msd="NP" in="-1:nobj" out="1:nobj">Mar</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Báltico</W>
 <W lemma="," msd="CM" in="-10:pnct" out="">,</W>
@@ -158,8 +158,8 @@
 <W lemma="basar" msd="VLfin" in="" out="-4:subj|-1:robj|1:pobj|16:pnct">basa</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|15:coref-id">las</W>
-<W lemma="consecuencia" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">consecuencias</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="consecuencia" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">consecuencias</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attr">las</W>
 <W lemma="conexin" msd="NC" in="-1:nobj" out="">conexiones</W>
 <W lemma="fijo" msd="ADJ" in="-2:attr" out="1:loc">fijas</W>
@@ -206,14 +206,14 @@
 <W lemma="por~lo~tanto" msd="CSUBF" in="10:struct" out="1:pnct">Por lo tanto</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="8:subj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg">mayoría</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj|1:{arg}">mayoría</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-106:coref-part" out="1:nobj">los</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">34</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;poss">ferries</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;poss" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">DSB</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:struct|-8:subj|3:pnct|1:preds">estarán</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-10:struct|-8:subj|1:preds|3:pnct">estarán</W>
 <W lemma="de" msd="PREP" in="-1:preds" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">más</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>

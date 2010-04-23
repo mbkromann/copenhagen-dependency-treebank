@@ -49,8 +49,8 @@
 <W lemma="equivaler" msd="VLfin" in="" out="-3:pnct|-2:subj|1:pobj|3:dobj">equivale</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="">a</W>
 <W lemma="@card@" msd="CARD" in="1:numm" out="">2,8</W>
-<W lemma="millones" msd="CARD" in="-3:dobj" out="-1:numm|1:pobj&3a;arg">millones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="millones" msd="CARD" in="-3:dobj" out="-1:numm|1:pobj|1:{arg}">millones</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="paquete" msd="NC" in="-1:nobj" out="">paquetes</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="contar" msd="VLfin" in="" out="-1:pnct|-17:time|-15:vobj|6:subj|10:pnct">cuenta</W>
@@ -66,7 +66,7 @@
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Cheese</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|8:pnct|9:coord|10:vobj|36:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct|9:coord|10:vobj|36:pnct">es</W>
 <W lemma="el" msd="ART" in="-1:preds" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:attr" out="">único</W>
 <W lemma="productor" msd="ADJ" in="-2:nobj" out="-1:attr|1:attr|2:pobj&3a;dobj#">productor</W>
@@ -104,8 +104,8 @@
 <W lemma="tiempo" msd="NC" in="-2:nobj" out="-1:attr">tiempo</W>
 <W lemma="." msd="FS" in="-36:pnct" out="">.</W>
 <W lemma="a" msd="PREP" in="" out="1:nobj">A</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg">través</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">través</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="tendencia" msd="NC" in="-1:nobj" out="">tendencias</W>
 <W lemma="en" msd="PREP" in="3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -151,7 +151,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Exportación</W>
 <W lemma="La" msd="NP" in="2:subj" out="1:nobj">La</W>
 <W lemma="pasta" msd="NC" in="-1:nobj" out="">pasta</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|11:pnct|2:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|2:preds|11:pnct">es</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:prg" out="">todavía</W>
 <W lemma="un" msd="ART" in="-2:preds" out="-1:prg|2:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">pequeña</W>

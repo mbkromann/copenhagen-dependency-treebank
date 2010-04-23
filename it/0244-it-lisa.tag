@@ -70,8 +70,8 @@
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj" out="">sé</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-3:nobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|6:[subj]" out="1:nobj">lo</W>
-<W lemma="spazio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg">spazio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg" out="1:nobj">di</W>
+<W lemma="spazio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">spazio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">TEBA</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-6:vobj" out="-5:subj|-1:neg|1:vobj|5:pnct">sarà</W>

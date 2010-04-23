@@ -22,7 +22,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="1:nobj">Il</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">nome</W>
 <W lemma="scegliere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">scelto</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|8:conj|3:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|3:preds|8:conj">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]">stato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:preds" out="-1:pnct|1:pnct">Personality</W>
@@ -176,8 +176,8 @@
 <W lemma="posta" msd="NC" tag="NOM" in="-1:nobj" out="">poste</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="pubblicazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">pubblicazione</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="pubblicazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">pubblicazione</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|10:assoc-other|16:²coref-part">100</W>
 <W lemma="francobollo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">francobolli</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">con</W>

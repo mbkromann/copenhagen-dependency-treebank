@@ -4,7 +4,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="tuo" msd="PO" tag="PRO&3a;poss" in="2:subj|11:[subj]|29:[subj]" out="1:possd&3a;arg">Tua</W>
 <W lemma="madre" msd="NC" tag="NOM" in="-1:possd&3a;arg" out="">madre</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-2:subj|3:pnct|4:appa|7:pnct|2:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-2:subj|2:preds|3:pnct|4:appa|7:pnct">era</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
 <W lemma="snello" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">snella</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -13,10 +13,10 @@
 <W lemma="atletico" msd="AN" tag="ADJ" in="-1:attr" out="">atletico</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="quando" msd="CS" tag="CON" in="10:time" out="1:vobj">Quando</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-1:vobj" out="-11:[subj]|6:pnct|1:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-1:vobj" out="-11:[subj]|1:preds|6:pnct">era</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
-<W lemma="attesa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">attesa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="2:nobj">di</W>
+<W lemma="attesa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">attesa</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">di</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostra</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">figlia</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
@@ -107,7 +107,7 @@
 <W lemma="fulmine" msd="NC" tag="NOM" in="-1:nobj" out="">fulmine</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">Non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:neg|-25:[subj]|8:pnct|10:conj|1:preds">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:neg|-25:[subj]|1:preds|8:pnct|10:conj">era</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj|4:other">il</W>
 <W lemma="tipo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">tipo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
@@ -175,7 +175,7 @@
 <W lemma="rimuovere" msd="VAP" tag="VER&3a;pper" in="-13:conj" out="-5:prec|-1:dobj|-6:coord|1:degr">rimossa</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="-1:degr" out="">completamente</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
-<W lemma="era" msd="NC" tag="NOM" in="" out="11:pnct|2:preds">Era</W>
+<W lemma="era" msd="NC" tag="NOM" in="" out="2:preds|11:pnct">Era</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
 <W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:man|2:ben">semplice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:man" out="">così</W>

@@ -29,7 +29,7 @@
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="dicho" msd="QU" in="2:subj" out="1:nobj">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
-<W lemma="ser" msd="VSfin" in="" out="-2:subj|8:pnct|1:preds">son</W>
+<W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj&3a;dobj#|6:conj?">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
@@ -71,8 +71,8 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">lo</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="7:subj" out="1:nobj">la</W>
-<W lemma="existencia" msd="NC" in="-1:nobj|7:[subj]" out="1:pobj&3a;arg">existencia</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg" out="1:nobj">de</W>
+<W lemma="existencia" msd="NC" in="-1:nobj|7:[subj]" out="1:pobj|1:{arg}">existencia</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
@@ -147,8 +147,8 @@
 <W lemma="disparatar" msd="VLfin" in="-1:nobj" out="">disparate</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">crÃ­tica</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">crÃ­tica</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">pelÃ­cula</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
@@ -158,8 +158,8 @@
 <W lemma="deber" msd="VLfin" in="" out="-20:prg|-1:robj|-2:neg|-3:subj|-18:cond|1:pobj|6:pnct|7:conc|20:pnct">debe</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj">falta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj" out="1:nobj">de</W>
+<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">falta</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="tiempo" msd="NC" in="-1:nobj" out="">tiempo</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="aunque" msd="CSUBX" in="-7:conc" out="2:vobj">aunque</W>

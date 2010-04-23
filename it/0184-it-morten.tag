@@ -37,11 +37,11 @@
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:dobj" out="1:attr|3:coref">pasta</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresca</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="ne" msd="RG" tag="ADV" in="-3:coref|4:pobj&3a;dobj" out="9:coref">ne</W>
+<W lemma="ne" msd="RG" tag="ADV" in="-3:coref|4:pobj.dobj|4:{patient}" out="9:coref">ne</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="-10:time|1:vobj|4:ext|6:pnct">abbiamo</W>
 <W lemma="raddoppiare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">raddoppiato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="-4:pobj&3a;dobj">vendita</W>
+<W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="-4:pobj.dobj|-4:{patient}">vendita</W>
 <W lemma="ogni" msd="AN" tag="ADJ" in="-4:ext" out="1:nobj">ogni</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
@@ -49,8 +49,8 @@
 <W lemma="ne" msd="RG" tag="ADV" in="-9:coref|6:pobj" out="">ne</W>
 <W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="14:qobj" out="-2:¹time|1:dobj|13:pnct">prevediamo</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj">vendita</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">vendita</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|2:pnct|3:elab">700</W>
 <W lemma="tonnellata" msd="NC" tag="NOM" in="-1:nobj" out="-6:pobj">tonnellate</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
@@ -65,9 +65,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:title|57:coref-id">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-2:title" out="1:func|2:pobj&3a;arg">capo</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-2:title" out="1:func|2:pobj|2:{arg}">capo</W>
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:func" out="">produzione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj|-2:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
@@ -77,8 +77,8 @@
 <W compound="¹la²unica" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:¹preds|1:²attr" out="1:nobj¹|3:attr¹">l’unica</W>
 <W lemma="azienda" msd="NC" tag="NOM" in="-1:nobj¹" out="-1:²attr|1:attr">azienda</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
-<W compound="produttrice" lemma="produttore" msd="AN" tag="ADJ" in="-3:attr¹" out="1:pobj&3a;dobj">produttrice</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W compound="produttrice" lemma="produttore" msd="AN" tag="ADJ" in="-3:attr¹" out="1:pobj.dobj|1:{patient}">produttrice</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pasta</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresca</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
@@ -89,8 +89,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="5:subj|6:[subj]" out="2:nobj">un</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">grande</W>
-<W lemma="produttore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">produttore</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="produttore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">produttore</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="pane" msd="NC" tag="NOM" in="-1:nobj" out="">pane</W>
 <W lemma="intendere" msd="VADR" tag="VER&3a;pres" in="-6:vobj" out="-5:subj|1:vobj|7:time">intende</W>
 <W lemma="entrare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|1:dir|3:man">entrare</W>
@@ -127,12 +127,12 @@
 <W lemma="da" msd="SP" tag="PRE" in="-2:dir" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:appa">NUGA</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:appa" out="3:nobj|5:pobj&3a;arg|7:attr">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:appa" out="3:nobj|5:pobj|5:{arg}|7:attr">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="-1:degr">grande</W>
 <W lemma="fiero" msd="AN" tag="ADJ" in="-3:nobj" out="-1:attr|1:attr#">fiera</W>
 <W lemma="alimentare" msd="AN" tag="ADJ" in="-1:attr#" out="">alimentare</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-5:pobj&3a;arg" out="1:nobj">del</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-5:pobj|-5:{arg}" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
 <W lemma="tenere" msd="VAP" tag="VER&3a;pper" in="-7:attr" out="1:loc">tenutasi</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
@@ -148,8 +148,8 @@
 <W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="-1:degr|2:nobj">una</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;arg">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg" out="1:nobj">della</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;subj">produzione</W>
 <W lemma="complessivo" msd="AN" tag="ADJ" in="-1:attr" out="">complessiva</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;subj" out="1:nobj">della</W>
@@ -190,8 +190,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VER&3a;infi" in="-4:vobj" out="-2:subj|1:preds">diventerà</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="2:nobj">un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attr" out="">buon</W>
-<W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj">importatore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj" out="1:nobj">dei</W>
+<W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">importatore</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-25:coref|-1:nobj" out="1:possd">suoi</W>
 <W lemma="prodotto" msd="NC" tag="NOM" in="-1:possd" out="">prodotti</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>

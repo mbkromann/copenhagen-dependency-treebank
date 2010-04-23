@@ -34,13 +34,13 @@
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="bar" msd="NC" tag="NOM" in="-1:nobj" out="">bar</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|10:pnct|18:;ELAB&3a;exp|27:CONS&3a;prg|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:DESCR&3a;qual" out="-2:subj|1:preds|10:pnct|18:;ELAB&3a;exp|27:CONS&3a;prg">è</W>
 <W lemma="buio" msd="AN" tag="ADJ" in="-1:preds" out="2:conj|4:conj">buio</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">lungo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="pieno" msd="AN" tag="ADJ" in="-4:conj" out="-1:coord|1:pobj&3a;dobj">pieno</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="pieno" msd="AN" tag="ADJ" in="-4:conj" out="-1:coord|1:pobj.dobj|1:{patient}">pieno</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|14:coref-var">uomini</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">d'</W>
 <W lemma="affare" msd="NC" tag="NOM" in="-1:nobj" out="">affari</W>
@@ -96,8 +96,8 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="prostituta" msd="NC" tag="NOM" in="-1:nobj" out="">prostituta</W>
 <W lemma="in" msd="SP" tag="PRE" in="-4:man" out="1:man">in</W>
-<W lemma="cambio" msd="NC" tag="NOM" in="-1:man" out="1:pobj&3a;dobj">cambio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj" out="1:nobj">di</W>
+<W lemma="cambio" msd="NC" tag="NOM" in="-1:man" out="1:pobj.dobj|1:{patient}">cambio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">saponetta-</W>
 <W lemma="storia" msd="NC" tag="NOM" in="-9:coref-res|-17:appa" out="1:attr|3:pnct|6:attr">storia</W>
