@@ -126,8 +126,8 @@
 <W lemma="que" msd="CQUE" in="-1:ref|1:dobj" out="">que</W>
 <W lemma="manejar" msd="VLfin" in="-2:relr" out="-1:dobj|1:subj|5:pnct">maneja</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj">el</W>
-<W lemma="complejo" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg#|4:ref|5:relr">complejo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="complejo" msd="ADJ" in="-1:nobj" out="4:ref|5:relr|1:pobj|1:{arg}#">complejo</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="motivo" msd="NC" in="-1:nobj" out="">motivos</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-4:ref|1:subj" out="">que</W>
@@ -147,7 +147,7 @@
 <W lemma="humano" msd="ADJ" in="-1:attr" out="">humanos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="2:pnct" out="">–</W>
 <W lemma="el" msd="ART" in="-4:appa" out="1:nobj">los</W>
-<W lemma="destino" msd="NC" in="-1:nobj" out="-2:pnct|4:pnct|1:pobj|1:{arg}">destinos</W>
+<W lemma="destino" msd="NC" in="-1:nobj" out="-2:pnct|1:pobj|1:{arg}|4:pnct">destinos</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>

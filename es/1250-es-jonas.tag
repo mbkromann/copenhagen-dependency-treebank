@@ -60,8 +60,8 @@
 <W lemma="industriar" msd="VLfin" in="-1:nobj" out="1:attrr#">industria</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="">musical.”</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">Débiles</W>
-<W lemma="hollar" msd="VLfin" in="" out="-1:attr|1:pobj&3a;const|3:pnct">huellas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">de</W>
+<W lemma="hollar" msd="VLfin" in="" out="-1:attr|3:pnct|1:attr|1:{const}">huellas</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="dolor" msd="NC" in="-1:nobj" out="">dolor</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="de~hecho" msd="ADV" in="5:prg" out="1:pnct">De hecho</W>
@@ -110,8 +110,8 @@
 <W lemma="familia" msd="NC" in="-1:nobj" out="">familia</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:dobj|8:pobj|22:pnct">aprovechaba</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj|5:conj">los</W>
-<W lemma="fin" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">fines</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="fin" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">fines</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="semana" msd="NC" in="-1:nobj" out="">semana</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-5:conj" out="-1:coord|1:nobj">las</W>

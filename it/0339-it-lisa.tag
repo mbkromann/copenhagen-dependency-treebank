@@ -1,7 +1,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="1:dobj|6:pnct|11:pnct">E'</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
-<W lemma="turno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">turno</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="2:nobj">di</W>
+<W lemma="turno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">turno</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Oluf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|2:ref|3:relr">Terp</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
@@ -29,10 +29,10 @@
 <W lemma="solo" msd="AN" tag="ADJ" in="1:degr" out="">solo</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:dobj|-21:coref-res" out="-1:degr">quello</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="scrivere" msd="VADR" tag="VER&3a;pres" in="-4:xpl" out="3:pobj&3a;pobj|5:pnct|6:conj">scrive</W>
+<W lemma="scrivere" msd="VADR" tag="VER&3a;pres" in="-4:xpl" out="5:pnct|6:conj|3:pobj.pobj|3:{location}">scrive</W>
 >>>>>>> .r507
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-3:pobj&3a;pobj" out="-1:focal|1:nobj">sui</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-3:pobj.pobj|-3:{location}" out="-1:focal|1:nobj">sui</W>
 <W lemma="giornale" msd="NC" tag="NOM" in="-1:nobj" out="">giornali</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-6:conj" out="1:dobj">dice</W>
@@ -95,8 +95,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="">nemico</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:loc|4:pnct">è</W>
-<W lemma="tra" msd="SP" tag="PRE" in="-1:loc" out="1:pobj&3a;subj">tra</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-1:loc" out="1:pobj.subj|1:{agent}">tra</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">noi</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-4:pnct" out="">:</W>
 <<<<<<< .mine

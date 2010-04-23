@@ -221,8 +221,8 @@
 <W lemma="limitar" msd="VLadj" in="-2:attr" out="">limitado</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="a" msd="PREP" in="-6:other" out="-1:pnct|1:nobj|5:pnct">a</W>
-<W lemma="beneficio" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">beneficio</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="beneficio" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">beneficio</W>
+<W lemma="del" msd="PDEL" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:attr">Tesoro</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">Público</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>

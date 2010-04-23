@@ -42,7 +42,7 @@
 <W lemma="Nil" msd="NP" tag="NE" in="-1:nobj" out="">Nil</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="4:nobj">so</W>
 <W lemma="verunreinigen" msd="VAP" tag="VVPP" in="1:preds|1:preds" out="-1:degr">verunreinigt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds|1:pnct|-1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds|-1:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="2:vobj">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="1:subj" out="">man</W>
@@ -81,8 +81,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
 <W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:expl|2:dobj|5:pnct">gibt</W>
 <W lemma="vorzüglich" msd="AN" tag="ADJA" in="1:attr" out="">vorzügliche</W>
-<W lemma="Literflasche" msd="NC" tag="NN" in="-2:dobj" out="-1:attr|1:pobj&3a;const">Literflaschen</W>
-<W lemma="aus" msd="SP" tag="APPR" in="-1:pobj&3a;const" out="1:nobj">aus</W>
+<W lemma="Literflasche" msd="NC" tag="NN" in="-2:dobj" out="-1:attr|1:attr|1:{const}">Literflaschen</W>
+<W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{const}" out="1:nobj">aus</W>
 <W lemma="Kunststoff" msd="NC" tag="NN" in="-1:nobj" out="">Kunststoff</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="5:cond" out="3:vobj">Wenn</W>
@@ -131,7 +131,7 @@
 <W lemma="zweit" msd="AN" tag="ADJA" in="-1:attr" out="">zweiter</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="-2:attr" out="">guter</W>
 <W lemma="Rat" msd="NC" tag="NN" in="-3:nobj" out="">Rat</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:subj|1:pnct|8:preds|10:pnct|8:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-4:subj|1:pnct|8:preds|8:preds|10:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:[subj]|7:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="nah" msd="AN" tag="ADJA" in="-1:attr" out="">nächste</W>

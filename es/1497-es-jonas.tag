@@ -100,7 +100,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">formación</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:struct|-1:subj|1:preds">significó</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:nobj">el</W>
-<W lemma="comienzo" msd="NC" in="-1:nobj" out="61:fpredo|1:pobj.dobj|1:{patient}">comienzo</W>
+<W lemma="comienzo" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|61:fpredo">comienzo</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">una</W>
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nueva</W>
@@ -117,8 +117,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Mundial</W>
 <W lemma="." msd="FS" in="" out="">.</W>
 <W lemma="el" msd="ART" in="4:subj" out="1:nobj">EL</W>
-<W lemma="Jefe" msd="NP" in="-1:nobj" out="1:pobj&3a;arg#">JEFE</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:pobj&3a;arg#" out="1:nobj">DE</W>
+<W lemma="Jefe" msd="NP" in="-1:nobj" out="1:pobj|1:{arg}#">JEFE</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:pobj|-1:{arg}#" out="1:nobj">DE</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">GOBIERNO</W>
 <W lemma="tener" msd="VLfin" in="" out="-4:subj|2:dobj|5:other|6:pnct|9:conj|16:pnct">tiene</W>
 <W lemma="bueno" msd="ADJ" in="1:attr" out="">buena</W>
@@ -178,8 +178,8 @@
 <W lemma="de" msd="PREP" in="-2:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="5:vobj">que</W>
 <W lemma="el" msd="ART" in="4:subj" out="1:nobj">la</W>
-<W lemma="supervivencia" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">supervivencia</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="supervivencia" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">supervivencia</W>
+<W lemma="del" msd="PDEL" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="gobierno" msd="NC" in="-1:nobj" out="">gobierno</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-5:vobj" out="-4:subj|1:pobj">dependería</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:cond">de</W>

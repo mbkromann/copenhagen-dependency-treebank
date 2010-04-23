@@ -39,8 +39,8 @@
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="-20:pnct" out="">*</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|19:coref-part">Le</W>
-<W lemma="piare" msd="VAG" tag="VER&3a;ppre" in="-1:nobj" out="1:pobj&3a;dobj#">piante</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="piare" msd="VAG" tag="VER&3a;ppre" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">piante</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="tabacco" msd="NC" tag="NOM" in="-1:nobj" out="">tabacco</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:vobj|17:pnct">possono</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:vobj">essere</W>
@@ -123,8 +123,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">degli</W>
 <W lemma="esperimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">esperimenti</W>
 <W lemma="su" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">su</W>
-<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#|3:ref|10:relr">semi</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="3:ref|10:relr|1:pobj.dobj|1:{patient}#">semi</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="girasole" msd="NC" tag="NOM" in="-1:nobj" out="">girasole</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-3:ref|7:subj|8:[subj]|9:[subj]" out="">che</W>
 <W lemma="con" msd="SP" tag="PRE" in="6:man" out="1:nobj">con</W>

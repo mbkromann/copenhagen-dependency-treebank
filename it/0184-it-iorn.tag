@@ -65,8 +65,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:appa">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-2:appa" out="1:pobj&3a;arg#|2:attr">capo</W>
-<W lemma="produzione" msd="NC" tag="NOM" in="-1:pobj&3a;arg#" out="">produzione</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-2:appa" out="1:pobj|1:{arg}#|2:attr">capo</W>
+<W lemma="produzione" msd="NC" tag="NOM" in="-1:pobj|-1:{arg}#" out="">produzione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
@@ -130,8 +130,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:appa" out="3:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="-1:degr">grande</W>
-<W lemma="fiero" msd="AN" tag="ADJ" in="-3:nobj" out="-1:attr|1:attrr&3a;dobj#|2:attr|4:attr">fiera</W>
-<W lemma="alimentare" msd="AN" tag="ADJ" in="-1:attrr&3a;dobj#" out="">alimentare</W>
+<W lemma="fiero" msd="AN" tag="ADJ" in="-3:nobj" out="-1:attr|2:attr|4:attr|1:aobj.dobj|1:{patient}#">fiera</W>
+<W lemma="alimentare" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">alimentare</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
 <W lemma="tenere" msd="VAP" tag="VER&3a;pper" in="-4:attr" out="1:loc">tenutasi</W>
@@ -150,9 +150,9 @@
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
-<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;subj">produzione</W>
+<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}">produzione</W>
 <W lemma="complessivo" msd="AN" tag="ADJ" in="-1:attr" out="">complessiva</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|12:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct&3a;elab" out="">:</W>

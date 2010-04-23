@@ -203,8 +203,8 @@
 <W gloss="among" lemma="blandt" msd="SP" tag="IN" in="-1:pobj&3a;subj.agent" out="1:nobj">blandt</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="coming" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="">kommende</W>
-<W gloss="generation" lemma="generation" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj&3a;const">generation</W>
-<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj&3a;const" out="2:nobj">af</W>
+<W gloss="generation" lemma="generation" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:attr|1:{const}">generation</W>
+<W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:attr|-1:{const}" out="2:nobj">af</W>
 <W gloss="non-socialist" lemma="borgerlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">borgerlige</W>
 <W gloss="politicians" lemma="politiker" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">politikere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>

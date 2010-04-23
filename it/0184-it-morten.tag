@@ -150,9 +150,9 @@
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
-<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;subj">produzione</W>
+<W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}">produzione</W>
 <W lemma="complessivo" msd="AN" tag="ADJ" in="-1:attr" out="">complessiva</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|12:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct" out="">:</W>

@@ -52,8 +52,8 @@
 <W lemma="da" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Lænken</W>
 <W lemma="come" msd="SP" tag="PRE" in="-5:comp" out="1:nobj">come</W>
-<W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#|3:ben">persona</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="3:ben|1:pobj.dobj|1:{patient}#">persona</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="riferimento" msd="NC" tag="NOM" in="-1:nobj" out="">riferimento</W>
 <W lemma="per" msd="SP" tag="PRE" in="-3:ben" out="2:nobj">per</W>
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="1:attr" out="">altri</W>
@@ -230,8 +230,8 @@
 <W lemma="soltanto" msd="RG" tag="ADV" in="1:degr" out="">soltanto</W>
 <W lemma="uno" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:attr">uno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">degli</W>
-<W lemma="obiettivo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">obiettivi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-10:coref-var|-1:pobj&3a;subj" out="1:nobj">dell'</W>
+<W lemma="obiettivo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">obiettivi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-10:coref-var|-1:pobj.subj|-1:{agent}" out="1:nobj">dell'</W>
 <W lemma="ambulatorio" msd="NC" tag="NOM" in="-1:nobj" out="">ambulatorio</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="spiegare" msd="VADR" tag="VER&3a;pres" in="-90:CONJ/(e)/ATTR2" out="-18:qobj|1:subj|5:pnct|16:pnct">spiega</W>

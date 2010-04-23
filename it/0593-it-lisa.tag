@@ -56,8 +56,8 @@
 <W lemma="famiglia" msd="NC" tag="NOM" in="-1:const" out="">famiglia</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-12:conj" out="1:nobj">la</W>
-<W lemma="grandezza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">grandezza</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dell'</W>
+<W lemma="grandezza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">grandezza</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dell'</W>
 <W lemma="appartamento" msd="NC" tag="NOM" in="-1:nobj" out="">appartamento</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-17:conj" out="-1:coord|1:nobj">il</W>
@@ -209,8 +209,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+">es</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:pobj" out="-3:ex|1:nobj|10:conj">alla</W>
-<W lemma="morta&7c;morte&7c;morto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">morte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|3:conj">del</W>
+<W lemma="morta&7c;morte&7c;morto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">morte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|3:conj">del</W>
 <W lemma="coniuge" msd="NC" tag="NOM" in="-1:nobj" out="">coniuge</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">del</W>
@@ -223,8 +223,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
 <W lemma="casa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">casa</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="riposo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">riposo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|3:conj">del</W>
+<W lemma="riposo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">riposo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|3:conj">del</W>
 <W lemma="coniuge" msd="NC" tag="NOM" in="-1:nobj" out="">coniuge</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">del</W>
@@ -238,7 +238,7 @@
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="incidere" msd="VADR" tag="VER&3a;pres" in="" out="-1:neg|-3:subj|-42:cond|-4:cond|1:pobj|5:pnct">incide</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">sull'</W>
-<W lemma="ammontare" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">ammontare</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="ammontare" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">ammontare</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>

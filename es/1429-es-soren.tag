@@ -36,8 +36,8 @@
 <W lemma="involucrar" msd="VLadj" in="-1:preds" out="1:pobj">involucradas</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="serie" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|4:conj">serie</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="serie" msd="NC" in="-1:nobj" out="4:conj|1:pobj|1:{arg}#">serie</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">BTCC</W>
 <W lemma="," msd="CM" in="-7:pnct" out="">,</W>
 <W lemma="serie" msd="NC" in="-4:conj" out="1:ref|4:relr">serie</W>

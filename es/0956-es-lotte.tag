@@ -70,8 +70,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:focal">sí</W>
 <W lemma="mismo" msd="ADJ" in="-1:focal" out="">misma</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
-<W lemma="peligro" msd="NC" in="" out="1:pobj&3a;arg#">Peligro</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="peligro" msd="NC" in="" out="1:pobj|1:{arg}#">Peligro</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">realineamiento</W>
 <W lemma="en" msd="PREP" in="7:loc" out="1:nobj|3:pnct">En</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj|3:coref">sus</W>
@@ -178,7 +178,7 @@
 <W lemma="considerar" msd="VLfin" in="" out="-3:prg|-2:cond|-1:robj|-4:pnct|1:dobj|6:pnct">consideran</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:attr|2:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">últimos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="1:pobj&3a;arg#">daños</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}#">daños</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">explosión</W>
 <W lemma="?" msd="FS" in="-6:pnct" out="">?</W>

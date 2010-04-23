@@ -29,8 +29,8 @@
 <W lemma="repartir" msd="VLinf" in="5:subj" out="1:nobj">Repartir</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj">periÃ³dicos</W>
 <W lemma="como" msd="CSUBX" in="-1:pobj" out="1:nobj">como</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">ocupaciÃ³n</W>
-<W lemma="suplementario" msd="ADJ" in="-1:attrr&3a;dobj#" out="">suplementaria</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">ocupaciÃ³n</W>
+<W lemma="suplementario" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">suplementaria</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|1:vobj|4:cause|6:vobj|10:pnct">podrÃ­a</W>
 <W lemma="ser" msd="VSinf" in="-1:vobj" out="1:preds">ser</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:nobj">la</W>
@@ -80,16 +80,16 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">bendiciÃ³n</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="oficina" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">oficina</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="oficina" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">oficina</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="empleo" msd="NC" in="-1:nobj" out="">empleo</W>
 <W lemma="." msd="FS" in="-16:pnct" out="">.</W>
 <W lemma="al~mismo~tiempo" msd="ADV" in="1:time" out="">Al mismo tiempo</W>
 <W lemma="haber" msd="VLfin" in="" out="-1:time|1:vobj">he</W>
 <W lemma="buscar" msd="VLadj" in="-1:vobj" out="2:dobj|10:pnct|11:coord|13:vobj">buscado</W>
 <W lemma="innumerable" msd="ADJ" in="1:attr" out="">innumerables</W>
-<W lemma="poner" msd="VLadj" in="-2:dobj" out="-1:attr|1:pobj&3a;dobj#">puestos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="poner" msd="VLadj" in="-2:dobj" out="-1:attr|1:pobj.dobj|1:{patient}#">puestos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="trabajo" msd="NC" in="-1:nobj" out="">trabajo</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="">travÃ©s</W>
@@ -160,8 +160,8 @@
 <W lemma="desempleo" msd="NC" in="-1:nobj" out="">desempleo</W>
 <W lemma="," msd="CM" in="4:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
-<W lemma="empleo" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">empleo</W>
-<W lemma="suplementario" msd="ADJ" in="-1:attrr&3a;dobj#" out="">suplementario</W>
+<W lemma="empleo" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">empleo</W>
+<W lemma="suplementario" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">suplementario</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-11:pobj|-4:pnct|-3:subj|1:vobj">debÃ­a</W>
 <W lemma="declarar" msd="VLinf" in="-1:vobj" out="1:pnct|2:prg|3:pnct|4:pobj|9:pnct|10:coord|12:vobj">declararse</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>

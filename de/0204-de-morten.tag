@@ -1,23 +1,23 @@
 <p>
 <s>
-<W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:attr|2:attr|3:space&3a;loc">Das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="6:subj" out="1:attr|2:attr|3:loc">Das</W>
 <W lemma="ausschlaggebend" msd="AN" tag="ADJD" in="-1:attr" out="">ausschlaggebend</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-2:attr" out="">Neue</W>
-<W lemma="in" msd="SP" tag="APPR" in="-3:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-3:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Genmanipulation" msd="NC" tag="NN" in="-1:nobj" out="">Genmanipulation</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:subj|1:pnct|13:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-6:subj|1:pnct|2:preds|13:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:preds" out="10:vobj">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="8:[subj]|9:subj" out="">man</W>
 <W lemma="Erbgut" msd="NC" tag="NN" in="7:dobj" out="">Erbgut</W>
-<W lemma="von" msd="SP" tag="APPR" in="6:space&3a;dir" out="1:nobj|3:pobj">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="6:dir" out="1:nobj|3:pobj">von</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einer</W>
 <W lemma="Art" msd="NC" tag="NN" in="-1:nobj" out="">Art</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr">eine</W>
 <W lemma="ander" msd="PP" tag="PIS" in="-1:attr" out="">andere</W>
-<W lemma="übertragen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:dobj|-6:space&3a;dir|-8:[subj]">übertragen</W>
+<W lemma="übertragen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:dobj|-8:[subj]|-6:dir">übertragen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-10:vobj" out="-9:subj|-1:vobj">kann</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 <W lemma="so" msd="RG" tag="ADV" in="" out="">So</W>

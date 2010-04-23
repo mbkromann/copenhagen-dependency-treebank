@@ -75,8 +75,8 @@
 <W lemma="," msd="CM" in="-48:pnct" out="1:other">,</W>
 <W lemma="etc." msd="PE" in="-1:other" out="">etc.</W>
 <W lemma="el" msd="ART" in="15:subj" out="1:nobj">Los</W>
-<W lemma="ahorro" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#|2:ref|3:relr">ahorros</W>
-<W lemma="social" msd="ADJ" in="-1:attrr&3a;dobj#" out="">sociales</W>
+<W lemma="ahorro" msd="NC" in="-1:nobj" out="2:ref|3:relr|1:aobj.dobj|1:{patient}#">ahorros</W>
+<W lemma="social" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">sociales</W>
 <W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
 <W lemma="ser" msd="VSfin" in="-3:relr" out="-1:subj|1:preds|8:pnct">son</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
@@ -93,8 +93,8 @@
 <W lemma="directamente" msd="ADV" in="" out="">directamente</W>
 <W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="cuenta" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">cuentas</W>
-<W lemma="estatal" msd="ADJ" in="-1:attrr&3a;dobj#" out="">estatales</W>
+<W lemma="cuenta" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">cuentas</W>
+<W lemma="estatal" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">estatales</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="1:other" out="">Pero</W>
 <W lemma="ser" msd="VSfin" in="" out="-1:other|1:preds|3:subj">es</W>
@@ -108,8 +108,8 @@
 <W lemma="a" msd="PREP" in="-1:cons" out="1:vobj">a</W>
 <W lemma="minimizar" msd="VLinf" in="-1:vobj" out="1:dobj|7:pnct">minimizar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">los</W>
-<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">gastos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">gastos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="salud" msd="NC" in="-1:nobj" out="1:attr">salud</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">pÃºblica</W>
@@ -120,8 +120,8 @@
 <W lemma="desarrollo" msd="NC" in="-1:nobj" out="">desarrollo</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-3:conj" out="-1:coord|1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">comercializaciÃ³n</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="2:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">comercializaciÃ³n</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="2:nobj">de</W>
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevos</W>
 <W lemma="medicamento" msd="NC" in="-2:nobj" out="-1:attr">medicamentos</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-8:subj|1:vobj">seguirÃ¡</W>
@@ -172,8 +172,8 @@
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="forma" msd="NC" in="-1:nobj" out="1:about">forma</W>
 <W lemma="de" msd="PREP" in="-1:about" out="1:nobj">de</W>
-<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">gastos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">gastos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:conj">mÃ©dico</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="hospital" msd="NC" in="-2:conj" out="-1:coord">hospital</W>

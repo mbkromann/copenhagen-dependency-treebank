@@ -24,8 +24,8 @@
 <W lemma="al" msd="PAL" in="-1:iobj" out="1:nobj">al</W>
 <W lemma="sector" msd="NC" in="-1:nobj" out="">sector</W>
 <W lemma="un" msd="ART" in="-3:dobj" out="1:nobj">un</W>
-<W lemma="soplar" msd="VLfin" in="-1:nobj" out="1:pobj&3a;const">soplo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">de</W>
+<W lemma="soplar" msd="VLfin" in="-1:nobj" out="1:attr|1:{const}">soplo</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="aire" msd="NC" in="-1:nobj" out="1:attr">aire</W>
 <W lemma="fresco" msd="ADJ" in="-1:attr" out="">fresco</W>
 <W lemma="cuando" msd="CSUBX" in="-8:time" out="1:vobj">cuando</W>

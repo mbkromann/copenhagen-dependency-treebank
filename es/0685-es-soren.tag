@@ -22,8 +22,8 @@
 <W lemma="como" msd="CSUBX" in="-11:pobj" out="1:nobj">como</W>
 <W lemma="consecuencia" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">consecuencia</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="consumo" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">consumo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">consumo</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="drogar" msd="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="." msd="FS" in="-17:pnct" out="">.</W>
 <W lemma="ser" msd="VSfin" in="" out="1:prg|2:preds|7:pnct|10:vobj">Es</W>
@@ -38,8 +38,8 @@
 <W lemma="se" msd="SE" in="1:subj" out="">se</W>
 <W lemma="desprender" msd="VLfin" in="-10:vobj" out="-1:subj|-2:source|1:pobj|11:pnct">desprende</W>
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="informe" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#|7:tobj">informe</W>
-<W lemma="anual" msd="ADJ" in="-1:attrr&3a;dobj#" out="1:pobj|1:{arg}">anual</W>
+<W lemma="informe" msd="NC" in="-1:nobj" out="7:tobj|1:aobj.dobj|1:{patient}#">informe</W>
+<W lemma="anual" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="1:pobj|1:{arg}">anual</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:pobj|1:{arg}">Policía</W>
@@ -62,8 +62,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="muerto" msd="ADJ" in="-1:nobj" out="1:pobj">muertos</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
-<W lemma="consumo" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">consumo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="consumo" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">consumo</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="drogar" msd="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="," msd="CM" in="-14:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="2:coord" out="">pero</W>
@@ -87,10 +87,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">víctimas</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:vobj">habían</W>
 <W lemma="ser" msd="VS" in="-1:vobj" out="1:preds">sido</W>
-<W lemma="consumidor" msd="NC" in="-1:preds" out="4:time|1:pobj.dobj|1:{patient}">consumidores</W>
+<W lemma="consumidor" msd="NC" in="-1:preds" out="1:pobj.dobj|1:{patient}|4:time">consumidores</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
-<W lemma="drogar" msd="VLfin" in="-1:nobj" out="1:attrr&3a;dobj#">drogas</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr&3a;dobj#" out="">euforizantes</W>
+<W lemma="drogar" msd="VLfin" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">drogas</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:aobj.dobj|-1:{patient}#" out="">euforizantes</W>
 <W lemma="durante" msd="PREP" in="-4:time" out="1:nobj">durante</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
@@ -127,8 +127,8 @@
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1993</W>
 <W lemma="." msd="FS" in="-8:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="3:subj" out="1:nobj">El</W>
-<W lemma="concejo" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">concejo</W>
-<W lemma="municipal" msd="ADJ" in="-1:attrr&3a;dobj#" out="">municipal</W>
+<W lemma="concejo" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">concejo</W>
+<W lemma="municipal" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">municipal</W>
 <W lemma="haber" msd="VHfin" in="" out="-3:subj|1:vobj|9:pnct|10:vobj&3a;man">ha</W>
 <W lemma="decidir" msd="VLadj" in="-1:vobj" out="1:dobj|9:vobj&3a;man">decidido</W>
 <W lemma="cerrar" msd="VLinf" in="-1:dobj" out="1:nobj">cerrar</W>

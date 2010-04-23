@@ -90,8 +90,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Preben</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:appa">Nygaard</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="direttore" msd="NC" tag="NOM" in="-2:appa" out="1:pobj&3a;subj">direttore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|5:pnct|6:appa">della</W>
+<W lemma="direttore" msd="NC" tag="NOM" in="-2:appa" out="1:pobj.subj|1:{agent}">direttore</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|5:pnct|6:appa">della</W>
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#|2:pobj.dobj|2:{patient}">società</W>
 <W lemma="madre" msd="NC" tag="NOM" in="-1:attrr#" out="">madre</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj.dobj|-2:{patient}" out="1:nobj">di</W>
@@ -185,8 +185,8 @@
 <W lemma="scappare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:dobj">scappare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj|5:pnct|6:ref|7:relpa">i</W>
 <W lemma="futuro" msd="AN" tag="ADJ" in="1:attr" out="">futuri</W>
-<W lemma="partner" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">partner</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="partner" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">partner</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="fusione" msd="NC" tag="NOM" in="-1:nobj" out="">fusione</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-6:ref|1:subj|2:[subj]|4:[subj]|5:[subj]" out="">che</W>

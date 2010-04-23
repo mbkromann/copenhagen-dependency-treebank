@@ -2,8 +2,8 @@
 <s>
 <W lemma="nach" msd="SP" tag="APPR" in="8:succ" out="1:nobj">Nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Training" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">Training</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;subj" out="1:nobj">der</W>
+<W lemma="Training" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Training</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:nobj">der</W>
 <W lemma="A-Nationalmannschaft" msd="NC" tag="NN" in="-1:nobj" out="">A-Nationalmannschaft</W>
 <W lemma="gestern" msd="RG" tag="ADV" in="3:prec" out="">gestern</W>
 <W lemma="in" msd="SP" tag="APPR" in="2:loc" out="">in</W>
@@ -40,8 +40,8 @@
 <p>
 <s>
 <W lemma="in" msd="SP" tag="APPR" in="4:reas" out="1:nobj">In</W>
-<W lemma="Abwesenheit" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj|120:coref-prg">Abwesenheit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;subj|13:coref-var" out="1:nobj">der</W>
+<W lemma="Abwesenheit" msd="NC" tag="NN" in="-1:nobj" out="120:coref-prg|1:pobj.subj|1:{agent}">Abwesenheit</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="13:coref-var|-1:pobj.subj|-1:{agent}" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Brøndby-Spieler</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:reas|2:subj|15:vobj|16:pnct">wird</W>
 <W lemma="Jakob" msd="NP" tag="NE" in="1:namef" out="">Jakob</W>
@@ -101,7 +101,7 @@
 <W lemma="spielen" msd="VAF" tag="VVINF" in="-6:vobj" out="-3:loc|-5:[subj]">spielen</W>
 <W lemma="-" msd="XP" tag="$(" in="-7:pnct" out="">-</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-9:conj" out="-1:subj|1:add|18:pnct|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-9:conj" out="-1:subj|1:add|2:preds|18:pnct">ist</W>
 <W lemma="auch" msd="RG" tag="ADV" in="-1:add" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-13:coref-id|-2:preds" out="1:attr|2:nobj|3:pnct|5:ref|9:relr">die</W>
 <W lemma="einzig" msd="AN" tag="ADJA" in="-1:attr" out="">einzige</W>
@@ -121,7 +121,7 @@
 <W lemma="können" msd="VAF" tag="VMINF" in="-1:vobj" out="-2:vobj">können</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="-12:coref|1:subj" out="">Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:att|5:pnct|8:conj|3:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:att|3:preds|5:pnct|8:conj">ist</W>
 <W lemma="natürlich" msd="AN" tag="ADJD" in="-1:att" out="">natürlich</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:preds" out="-1:namef|1:possd">Olsens</W>
@@ -129,7 +129,7 @@
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">aber</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-2:coord|-1:subj|2:pnct|7:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-8:conj" out="-2:coord|-1:subj|1:preds|2:pnct|7:pnct">ist</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="-1:preds" out="">gut</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="3:dobj" out="1:nobj">ein</W>
@@ -161,8 +161,8 @@
 <s>
 <W lemma="mit" msd="SP" tag="APPR" in="6:inst" out="1:nobj">Mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-120:coref-prg" out="1:nobj">der</W>
-<W lemma="Absage" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">Absage</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;subj" out="2:nobj">von</W>
+<W lemma="Absage" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Absage</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="2:nobj">von</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
 <W lemma="Olsen" msd="NP" tag="NE" in="-2:nobj" out="-1:namef">Olsen</W>
 <W lemma="erhalten" msd="VA" tag="VVFIN" in="" out="-6:inst|1:add|2:subj|6:dobj|14:pnct">erhält</W>
@@ -220,7 +220,7 @@
 <W lemma="spielen" msd="VA" tag="VVFIN" in="-6:vobj" out="-4:subj|-3:degr|-2:dobj|1:pnct|2:coref-res|3:conj">spielt</W>
 <W lemma="-" msd="XP" tag="$(" in="-1:pnct" out="">-</W>
 <W lemma="d" msd="PP" tag="PDS" in="-2:coref-res|1:subj" out="">das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-3:conj" out="-1:subj|8:pnct|1:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-3:conj" out="-1:subj|1:preds|8:pnct">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds" out="1:nobj">eine</W>
 <W lemma="Forderung" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Forderung</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:possr" out="1:possd|2:pnct|3:appa">seines</W>

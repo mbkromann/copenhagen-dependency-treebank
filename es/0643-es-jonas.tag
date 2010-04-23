@@ -144,8 +144,8 @@
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="" out="">Pero</W>
 <W lemma="el" msd="ART" in="15:subj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj&3a;arg#">mayorÃ­a</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:pobj|1:{arg}#">mayorÃ­a</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="1:attr|3:ref|5:relpa">hombres</W>
 <W lemma="casar" msd="VLadj" in="-1:attr" out="">casados</W>
@@ -160,8 +160,8 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="tener" msd="VLfin" in="" out="-15:subj|2:dobj|5:time|23:pnct">tienen</W>
 <W lemma="menos" msd="ADV" in="1:degr" out="">menos</W>
-<W lemma="cargo" msd="NC" in="-2:dobj" out="-1:degr|1:pobj&3a;dobj#">cargo</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="cargo" msd="NC" in="-2:dobj" out="-1:degr|1:pobj.dobj|1:{patient}#">cargo</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="conciencia" msd="NC" in="-1:nobj" out="">conciencia</W>
 <W lemma="cuando" msd="CSUBX" in="-5:time|2:time" out="12:conj">cuando</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>

@@ -87,7 +87,7 @@
 <W lemma="ständig" msd="AN" tag="ADJD" in="3:ext" out="">ständig</W>
 <W lemma="unter" msd="SP" tag="APPR" in="2:preds" out="1:nobj">unter</W>
 <W lemma="Druck" msd="NC" tag="NN" in="-1:nobj" out="">Druck</W>
-<W lemma="stehen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-3:ext|3:coref-res|-2:preds">steht</W>
+<W lemma="stehen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-3:ext|-2:preds|3:coref-res">steht</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">Und</W>
 <W lemma="d" msd="PP" tag="PDS" in="-3:coref-res|1:subj|3:[subj]" out="">das</W>
@@ -113,8 +113,8 @@
 <W lemma="fünf" msd="AC" tag="CARD" in="7:succ" out="-1:pnct|1:nobj|6:pnct">fünf</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="1:avobj">Tage</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-1:avobj" out="1:nobj">nach</W>
-<W lemma="Abschluß" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">Abschluss</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;subj" out="1:nobj">der</W>
+<W lemma="Abschluß" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Abschluss</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:nobj">der</W>
 <W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="">Verhandlung</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="-12:xpl" out="-9:cont|-10:pnct|-7:succ|1:subj|2:dobj|4:pnct">bekomme</W>
@@ -221,7 +221,7 @@
 <W lemma="zahlen" msd="VA" tag="VVFIN" in="-8:vobj" out="-7:subj|-6:pobj|-2:dobj|2:coref-res">zahlt</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="-2:coref-res|1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|3:pnct|8:xpl|2:preds">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|8:xpl">ist</W>
 <W lemma="ziemlich" msd="AN" tag="ADJD" in="1:degr" out="">ziemlich</W>
 <W lemma="ungerecht" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr">ungerecht</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-3:pnct" out="">:</W>

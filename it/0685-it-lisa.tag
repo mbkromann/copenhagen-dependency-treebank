@@ -37,8 +37,8 @@
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="secondo" msd="SP" tag="PRE" in="-7:source" out="1:subj">secondo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">le</W>
-<W lemma="statistica&7c;statistico" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj|4:attr">statistiche</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="statistica&7c;statistico" msd="NC" tag="NOM" in="-1:nobj" out="4:attr|1:pobj.subj|1:{agent}">statistiche</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">polizia</W>
 <W lemma="locale" msd="AN" tag="ADJ" in="-1:attr" out="">locale</W>
 <W lemma="per" msd="SP" tag="PRE" in="-4:attr" out="1:nobj">per</W>
@@ -159,8 +159,8 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-6:subj|1:vobj|10:pnct|15:conj|17:pnct">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:vobj">stati</W>
 <W lemma="recentemente" msd="RG" tag="ADV" in="1:time" out="">recentemente</W>
-<W lemma="inviare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:time|1:pobj&3a;subj|3:pobj&3a;iobj">inviati</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dalla</W>
+<W lemma="inviare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:time|3:pobj&3a;iobj|1:pobj.subj|1:{agent}">inviati</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dalla</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:nobj" out="">Danimarca</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-3:pobj&3a;iobj" out="1:nobj">all'</W>
 <W lemma="Europa" msd="NP" tag="NPR" in="-1:nobj" out="1:attr">Europa</W>

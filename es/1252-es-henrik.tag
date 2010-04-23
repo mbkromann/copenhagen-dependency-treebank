@@ -10,9 +10,9 @@
 <W lemma="desmantelamiento" msd="NC" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">desmantelamiento</W>
 <W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="protestar" msd="VLfin" in="-1:nobj" out="1:attrr&3a;arg|2:pobj&3a;subj|5:loc|12:time">protesta</W>
+<W lemma="protestar" msd="VLfin" in="-1:nobj" out="1:attrr&3a;arg|2:pobj.subj|2:{agent}|5:loc|12:time">protesta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr&3a;arg" out="">pro-democrática</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:pobj.subj|-2:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="estudiante" msd="NC" in="-1:nobj" out="">estudiantes</W>
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
@@ -140,8 +140,8 @@
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="liberar" msd="VLinf" in="-1:vobj" out="1:dobj">liberar</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">las</W>
-<W lemma="fuerza" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">fuerzas</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg#" out="">del</W>
+<W lemma="fuerza" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">fuerzas</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}#" out="">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-14:pnct" out="">mercado.”</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-56:coref-id|1:subj|2:[subj]|9:[subj]|10:[subj]" out="4:loc|41:coref-id">FLS</W>
 <W lemma="haber" msd="VHfin" in="" out="-1:subj|1:vobj|5:time|8:conj|18:pnct">ha</W>
@@ -155,8 +155,8 @@
 <W lemma="haber" msd="VHfin" in="-8:conj" out="-9:[subj]|-1:coord|1:vobj">ha</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="-10:[subj]|1:dobj|5:loc">construído</W>
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj|15:assoc-const">20-30</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">fábricas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">fábricas</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="cemento" msd="NC" in="-1:nobj" out="">cemento</W>
 <W lemma="en" msd="PREP" in="-5:loc" out="1:mod">en</W>
 <W lemma="todo" msd="QU" in="-1:mod" out="1:nobj">todo</W>
@@ -181,9 +181,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:mod" out="1:mod">través</W>
 <W lemma="de" msd="PREP" in="-1:mod" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="empresa" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj&3a;const">empresa</W>
+<W lemma="empresa" msd="NC" in="-1:nobj" out="1:attrr#|2:attr|2:{const}">empresa</W>
 <W lemma="afiliar" msd="VLadj" in="-1:attrr#" out="">afiliada</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;const" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:attr|-2:{const}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj|-41:coref-id" out="1:loc">FLS</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">España</W>

@@ -5,8 +5,8 @@
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="parecer" msd="VLadj" in="-2:conj" out="-1:coord|1:pobj">parecidos</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">posos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">posos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">café</W>
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="o" msd="CC" in="2:coord" out="">o</W>
@@ -31,8 +31,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:vobj">...si</W>
 <W lemma="experimentar" msd="VLfin" in="-1:vobj|-18:coref" out="2:dobj|5:pnct|6:conc|11:time|21:coref">experimenta</W>
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevos</W>
-<W lemma="dolor" msd="NC" in="-2:dobj" out="-1:attr|1:pobj&3a;arg#|6:coref">dolores</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="dolor" msd="NC" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}#|6:coref">dolores</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">estómago</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-6:conc" out="2:vobj">aún</W>
@@ -90,8 +90,8 @@
 <W lemma="cambio" msd="NC" in="-1:nobj" out="1:pobj">cambio</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|4:attr|5:ref|6:relr">las</W>
-<W lemma="costumbre" msd="NC" in="-1:nobj" out="1:attrr&3a;dobj#">costumbres</W>
-<W lemma="alimenticio" msd="ADJ" in="-1:attrr&3a;dobj#" out="">alimenticias</W>
+<W lemma="costumbre" msd="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">costumbres</W>
+<W lemma="alimenticio" msd="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">alimenticias</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="saludable" msd="ADJ" in="-4:attr" out="-1:neg">saludables</W>
 <W lemma="que" msd="CQUE" in="-5:ref|1:subj" out="">que</W>
@@ -107,8 +107,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="">ej.</W>
 <W lemma="analizar" msd="VLadj" in="-3:vobj" out="-2:ex|-5:[subj]|1:dobj|6:conj">analizando</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj|-48:coref" out="1:nobj|39:coref">sus</W>
-<W lemma="costumbre" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">costumbres</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="costumbre" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">costumbres</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">alimentación</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="buscar" msd="VLadj" in="-6:conj" out="-1:coord|-11:[subj]|2:man|11:dobj|24:conj">buscando</W>
@@ -118,8 +118,8 @@
 <W lemma="ayuda" msd="NC" in="-1:nobj" out="1:pobj">ayuda</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="tabla" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">tabla</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="tabla" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">tabla</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">calorías</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-11:dobj" out="1:nobj|2:ref|3:relr">los</W>
@@ -148,8 +148,8 @@
 <W lemma="l" msd="PPC" in="-39:coref|1:iobj" out="">le</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-9:subj|-1:iobj|1:dobj|9:pnct">dará</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj|4:attr">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|4:other">pérdida</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|4:other">pérdida</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" msd="NC" in="-1:nobj" out="">peso</W>
 <W lemma="mensual" msd="ADJ" in="-4:attr" out="">mensual</W>
 <W lemma="de" msd="PREP" in="-4:other" out="1:nobj">de</W>
@@ -181,8 +181,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="1:man" out="">así</W>
 <W lemma="lograr" msd="VLinf" in="-15:conj" out="-1:man|-2:coord|1:dobj">lograr</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|9:ext">pérdida</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|9:ext">pérdida</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" msd="NC" in="-1:nobj" out="1:pobj">peso</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:pobj">de</W>
 <W lemma="entre" msd="PREP" in="-1:pobj" out="1:nobj">entre</W>
@@ -200,8 +200,8 @@
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="poder" msd="VMfin" in="" out="-1:robj|-5:man|1:vobj|6:pnct|7:ref|9:relelab|23:pnct">puede</W>
 <W lemma="obtener" msd="VLinf" in="-1:vobj" out="1:dobj">obtener</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:dobj" out="1:pobj&3a;arg#|3:attr">pérdida</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:dobj" out="1:pobj|1:{arg}#|3:attr">pérdida</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="peso" msd="NC" in="-1:nobj" out="">peso</W>
 <W lemma="razonable" msd="ADJ" in="-3:attr" out="">razonable</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>

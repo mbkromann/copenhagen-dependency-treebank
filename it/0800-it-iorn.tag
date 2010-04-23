@@ -168,8 +168,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Gentofte</W>
 <W lemma="," msd="XP" tag="PON" in="-22:pnct" out="">,</W>
 <W lemma="a" msd="SP" tag="PRE" in="-16:time" out="1:nobj">a</W>
-<W lemma="conclusione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">conclusione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj|3:[subj]" out="1:nobj">del</W>
+<W lemma="conclusione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">conclusione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="3:[subj]|-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">lavoro</W>
 <W lemma="semestrale" msd="AN" tag="ADJ" in="-1:attr" out="">semestrale</W>
 <W lemma="offrire" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-3:[subj]|1:iobj">offerto</W>

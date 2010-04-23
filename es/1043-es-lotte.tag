@@ -36,7 +36,7 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="1:pnct" out="">–</W>
 <W lemma="pero" msd="CCAD" in="1:coord" out="-1:pnct">pero</W>
 <W lemma="sin" msd="PREP" in="-15:conj" out="-1:coord|1:nobj">sin</W>
-<W lemma="propuesta" msd="NC" in="-1:nobj" out="3:attr|6:ref|8:relr|1:pobj|1:{arg}">propuestas</W>
+<W lemma="propuesta" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|3:attr|6:ref|8:relr">propuestas</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="ahorro" msd="NC" in="-1:nobj" out="">ahorro</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:attr" out="2:conj">provocativas</W>
@@ -147,8 +147,8 @@
 <W lemma="grande" msd="ADJ" in="-3:attr" out="-1:degr">grande</W>
 <W lemma="en" msd="PREP" in="-5:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="balanza" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">balanza</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="balanza" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">balanza</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="pago" msd="NC" in="-1:nobj" out="">pagos</W>
 <W lemma="que" msd="CQUE" in="" out="1:vobj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hay</W>

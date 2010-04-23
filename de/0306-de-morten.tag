@@ -75,8 +75,8 @@
 <W lemma="d" msd="PP" tag="PDS" in="-13:coref-res|1:subj" out="">das</W>
 <W lemma="werfen" msd="VA" tag="VVFIN" in="" out="-2:coord|-1:subj|1:dobj|5:part|6:pnct|21:pnct">wirft</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj|7:ref|11:relr|14:other">eine</W>
-<W lemma="Reihe" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">Reihe</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj&3a;subj" out="1:nobj">von</W>
+<W lemma="Reihe" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Reihe</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="1:nobj">von</W>
 <W lemma="Frage" msd="NC" tag="NN" in="-1:nobj" out="">Fragen</W>
 <W lemma="auf" msd="RG" tag="PTKVZ" in="-5:part" out="">auf</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>

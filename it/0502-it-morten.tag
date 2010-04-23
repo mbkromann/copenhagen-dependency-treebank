@@ -77,8 +77,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:nobj" out="1:attr|2:loc">d’acqua</W>
 <W lemma="eccellente" msd="AN" tag="ADJ" in="-1:attr" out="">eccellente</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:loc" out="1:nobj">in</W>
-<W lemma="bottiglia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;const">bottiglie</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;const" out="1:nobj">di</W>
+<W lemma="bottiglia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{const}">bottiglie</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{const}" out="1:nobj">di</W>
 <W lemma="plastica" msd="NC" tag="NOM" in="-1:nobj" out="">plastica</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 <W lemma="se" msd="CS" tag="CON" in="9:cond" out="3:vobj">Se</W>
@@ -136,7 +136,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:subj|13:[subj]" out="1:pnct|2:appa">Horus</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="dio" msd="NC" tag="NOM" in="-2:appa" out="1:attr#|5:conj|8:pnct|2:pobj|2:{arg}">dio</W>
+<W lemma="dio" msd="NC" tag="NOM" in="-2:appa" out="1:attr#|2:pobj|2:{arg}|5:conj|8:pnct">dio</W>
 <W lemma="tutelare" msd="AN" tag="ADJ" in="-1:attr#" out="">tutelare</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj|-2:{arg}" out="1:nobj">del</W>
 <W lemma="faraona&7c;faraone" msd="NC" tag="NOM" in="-1:nobj" out="">faraone</W>

@@ -61,8 +61,8 @@
 <W lemma="moneta" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|6:attr">monete</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">in</W>
 <W lemma="buono" msd="NC" tag="NOM" in="1:attr" out="">buono</W>
-<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj#">stato</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}#">stato</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="conservazione" msd="NC" tag="NOM" in="-1:nobj" out="">conservazione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-6:attr" out="1:nobj">del</W>
 <W lemma="periodo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">periodo</W>
@@ -74,7 +74,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Susanne</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:subj|12:[subj]" out="-1:namef|1:pnct|2:appa">Melchiorsen</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="direttore" msd="AN" tag="ADJ" in="-2:appa" out="8:pnct|1:pobj|1:{arg}">direttrice</W>
+<W lemma="direttore" msd="AN" tag="ADJ" in="-2:appa" out="1:pobj|1:{arg}|8:pnct">direttrice</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#|4:attr">Scuola</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr#" out="1:about">di</W>

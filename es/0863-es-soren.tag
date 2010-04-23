@@ -27,7 +27,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:subj" out="">“Vosotros</W>
 <W lemma="ser" msd="VLfin" in="" out="-1:subj|1:preds|11:pnct">sois</W>
 <W lemma="un" msd="ART" in="-1:preds" out="1:nobj">una</W>
-<W lemma="raza" msd="NC" in="-1:nobj" out="8:attr|1:pobj|1:{arg}">raza</W>
+<W lemma="raza" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|8:attr">raza</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="entidad" msd="NC" in="-1:nobj" out="1:attr|3:conj">entidad</W>
@@ -212,8 +212,8 @@
 <W lemma="mediante" msd="PREP" in="-1:pobj" out="1:nobj">mediante</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">las</W>
 <W lemma="nuevo" msd="ADJ" in="1:attr" out="">nuevas</W>
-<W lemma="condicin" msd="NC" in="-2:nobj" out="-1:attr|1:pobj&3a;dobj#">condiciones</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="condicin" msd="NC" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}#">condiciones</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="mercado" msd="NC" in="-1:nobj" out="">mercado</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-19:conj" out="-1:coord|1:nobj">la</W>

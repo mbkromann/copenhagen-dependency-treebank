@@ -129,8 +129,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">in</W>
 <W lemma="funzione" msd="NC" tag="NOM" in="-1:nobj" out="">funzione</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:focal" out="">solo</W>
-<W lemma="cinque" msd="AN" tag="ADJ" in="-4:subj" out="-1:focal|1:pobj&3a;subj|8:elab">cinque</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="2:nobj">delle</W>
+<W lemma="cinque" msd="AN" tag="ADJ" in="-4:subj" out="-1:focal|8:elab|1:pobj.subj|1:{agent}">cinque</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="2:nobj">delle</W>
 <W lemma="attuale" msd="AN" tag="ADJ" in="1:attr" out="">attuali</W>
 <W lemma="dieci" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:nobj">dieci</W>
 <W lemma="linea" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">linee</W>

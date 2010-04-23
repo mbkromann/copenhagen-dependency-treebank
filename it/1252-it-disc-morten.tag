@@ -1,7 +1,7 @@
 <W lemma="dopo" msd="RG" tag="ADV" in="26:time" out="1:nobj|16:pnct">Dopo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="drammatico" msd="AN" tag="ADJ" in="1:attr" out="">drammatica</W>
-<W lemma="repressione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|11:time|1:pobj.dobj|1:{patient}">repressione</W>
+<W lemma="repressione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}|11:time">repressione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="manifestazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|5:attr">manifestazioni</W>
 <W lemma="studentesco" msd="AN" tag="ADJ" in="-1:attr" out="">studentesche</W>
@@ -16,11 +16,11 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1989</W>
 <W lemma="," msd="XP" tag="PON" in="-16:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="9:subj|10:[subj]" out="1:nobj">l'</W>
-<W lemma="orientamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;subj|4:pobj&3a;pobj">orientamento</W>
+<W lemma="orientamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}|4:pobj.pobj|4:{location}">orientamento</W>
 <W lemma="positivo" msd="AN" tag="ADJ" in="-1:attr" out="">positivo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:nobj" out="">Danimarca</W>
-<W lemma="verso" msd="SP" tag="PRE" in="-4:pobj&3a;pobj" out="1:nobj">verso</W>
+<W lemma="verso" msd="SP" tag="PRE" in="-4:pobj.pobj|-4:{location}" out="1:nobj">verso</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="Cina" msd="NP" tag="NPR" in="-1:nobj" out="">Cina</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
@@ -45,9 +45,9 @@
 <W lemma="per" msd="SP" tag="PRE" in="-5:bg" out="1:nobj">per</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="-1:nobj|1:[subj]" out="1:relr">quanto</W>
 <W lemma="riguardare" msd="VADR" tag="VER&3a;pres" in="-1:relr" out="-1:[subj]|1:dobj">riguarda</W>
-<W lemma="investimento" msd="NC" tag="NOM" in="-1:dobj" out="1:attr|2:pobj&3a;pobj">investimenti</W>
+<W lemma="investimento" msd="NC" tag="NOM" in="-1:dobj" out="1:attr|2:pobj.pobj|2:{location}">investimenti</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danesi</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:pobj&3a;pobj|-18:coref-var" out="1:nobj">nel</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-18:coref-var|-2:pobj.pobj|-2:{location}" out="1:nobj">nel</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paese</W>
 <W lemma="asiatico" msd="AN" tag="ADJ" in="-1:attr" out="">asiatico</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>
@@ -127,7 +127,7 @@
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">una</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-8:coref|1:pobj.dobj|1:{patient}" out="">loro</W>
-<W lemma="realizzazione" msd="NC" tag="NOM" in="-2:nobj" out="1:man|-1:pobj.dobj|-1:{patient}">realizzazione</W>
+<W lemma="realizzazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj.dobj|-1:{patient}|1:man">realizzazione</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="singhiozzo" msd="NC" tag="NOM" in="-1:nobj" out="">singhiozzo</W>
 <W lemma="." msd="XP" tag="SENT" in="-14:pnct" out="">.</W>
@@ -146,8 +146,8 @@
 <W lemma="spazio" msd="NC" tag="NOM" in="-1:dobj" out="">spazio</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-2:iobj" out="2:nobj">alla</W>
 <W lemma="libero" msd="AN" tag="ADJ" in="1:attr" out="">libera</W>
-<W lemma="azione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">azione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">delle</W>
+<W lemma="azione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">azione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">delle</W>
 <W lemma="forza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">forze</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercato</W>

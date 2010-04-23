@@ -3,8 +3,8 @@
 <W lemma="hoy" msd="ADV" in="-1:nobj" out="48:coref-var">hoy</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
 <W lemma="observar" msd="VLfin" in="-4:vobj" out="-1:robj|-3:time|1:dobj|11:pnct">observan</W>
-<W lemma="hombre" msd="NC" in="-1:dobj" out="1:pobj&3a;const|8:assoc-const|11:ref|12:relr|24:coref-id">hombres</W>
-<W lemma="con" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">con</W>
+<W lemma="hombre" msd="NC" in="-1:dobj" out="8:assoc-const|11:ref|12:relr|24:coref-id|1:attr|1:{const}">hombres</W>
+<W lemma="con" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">con</W>
 <W lemma="piel" msd="NC" in="-1:nobj" out="1:attr|4:conj">piel</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">lÃ­vida</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
@@ -30,8 +30,8 @@
 <W lemma="dicho" msd="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj&3a;dobj#|6:conj">crÃ­ticos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj.dobj|1:{patient}#|6:conj">crÃ­ticos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="para" msd="PREP" in="2:neg" out="1:nobj">para</W>

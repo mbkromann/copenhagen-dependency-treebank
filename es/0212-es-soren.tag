@@ -22,8 +22,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:conj" out="-1:coord">pÃºblicos</W>
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="4:subj|8:[subj]" out="1:nobj">Las</W>
-<W lemma="autoridad" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">autoridades</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="autoridad" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">autoridades</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="control" msd="NC" in="-1:nobj" out="">control</W>
 <W lemma="poder" msd="VMfin" in="" out="-4:subj|2:struct|4:vobj|32:pnct">pueden</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
@@ -157,8 +157,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:vobj" out="-6:[subj]|1:loc">acompaÃ±arse</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="registro" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#|4:pobj">registro</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="registro" msd="NC" in="-1:nobj" out="4:pobj|1:pobj.dobj|1:{patient}#">registro</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="información" msd="NC" in="-1:nobj" out="1:attr">informaciones</W>
 <W lemma="preciso" msd="ADJ" in="-1:attr" out="">precisas</W>
 <W lemma="sobre" msd="PREP" in="-4:pobj" out="1:nobj">sobre</W>
@@ -173,8 +173,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="2:coord" out="1:pobj">asÃ­</W>
 <W lemma="como" msd="CSUBX" in="-1:pobj" out="">como</W>
 <W lemma="el" msd="ART" in="-7:conj" out="-2:coord|1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">mÃ©todos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">mÃ©todos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">anÃ¡lisis</W>
 <W lemma="." msd="FS" in="-23:pnct" out="">.</W>
 <W lemma="en~todo~caso" msd="ADV" in="32:cond" out="1:pobj">En todo caso</W>
@@ -216,8 +216,8 @@
 <W lemma="inmediato" msd="ADJ" in="-1:attr" out="">inmediata</W>
 <W lemma="a" msd="PREP" in="-4:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|5:conj">las</W>
-<W lemma="autoridad" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">autoridades</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="autoridad" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">autoridades</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="control" msd="NC" in="-1:nobj" out="">control</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="al" msd="PAL" in="-5:conj" out="-1:coord|1:nobj">al</W>

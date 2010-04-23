@@ -105,8 +105,8 @@
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl|1:[expl]" out="">c'</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:vobj" out="-4:time|-1:expl|-1:[expl]|1:dobj">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="decisione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">decisione</W>
-<W lemma="da" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">da</W>
+<W lemma="decisione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">decisione</W>
+<W lemma="da" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">da</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">della</W>
 <W lemma="direzione" msd="NC" tag="NOM" in="-1:nobj|-20:assoc-const" out="1:pobj.dobj|1:{patient}">direzione</W>

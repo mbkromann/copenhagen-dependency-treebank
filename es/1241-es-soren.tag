@@ -38,8 +38,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:dobj|14:pnct">“Creo</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="8:vobj">que</W>
 <W lemma="el" msd="ART" in="7:subj" out="1:nobj">las</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">campañas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">campañas</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="anuncio" msd="NC" in="-1:nobj" out="1:loc">anuncios</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -56,7 +56,7 @@
 <W lemma="que" msd="CQUE" in="-3:dobj" out="1:vobj">que</W>
 <W lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hay</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="grupo" msd="NC" in="-1:nobj" out="1:attr|4:ref|6:relr|2:pobj|2:{arg}">grupo</W>
+<W lemma="grupo" msd="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}|4:ref|6:relr">grupo</W>
 <W lemma="grande" msd="ADJ" in="-1:attr" out="">grande</W>
 <W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">público</W>
@@ -99,11 +99,11 @@
 <W lemma="Stefan" msd="NP" in="1:namef" out="">Stefan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:subj" out="-1:namef|2:appa">Fryland</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="presidente" msd="NC" in="-2:appa" out="-1:pnct|1:pobj&3a;dobj#|8:pnct">presidente</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="presidente" msd="NC" in="-2:appa" out="-1:pnct|8:pnct|1:pobj.dobj|1:{patient}#">presidente</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">unión</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">unión</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="1:attrr#">empresas</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attrr#" out="1:appr">discográficas</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:appr" out="">IFPI</W>
@@ -116,7 +116,7 @@
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="2:appa">Polygram</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="1:pnct" out="">–</W>
-<W lemma="un" msd="ART" in="-2:appa" out="-1:pnct|14:pnct|1:pobj|1:{arg}">una</W>
+<W lemma="un" msd="ART" in="-2:appa" out="-1:pnct|1:pobj|1:{arg}|14:pnct">una</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="empresa" msd="NC" in="-1:nobj" out="1:ref|3:relr">empresas</W>
@@ -170,8 +170,8 @@
 <W lemma="personal" msd="ADJ" in="-2:attr" out="-1:degr">personal</W>
 <W lemma="que" msd="CQUE" in="-3:subj" out="5:vobj">que</W>
 <W lemma="el" msd="ART" in="4:subj" out="1:nobj">las</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">publicidades</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">publicidades</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">televisión</W>
 <W lemma="ser" msd="VSfin" in="-5:vobj" out="-4:subj|1:preds">son</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:preds" out="">perjudiciales,”</W>

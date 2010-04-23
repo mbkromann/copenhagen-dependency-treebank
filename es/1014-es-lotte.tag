@@ -120,8 +120,8 @@
 <W lemma="quien" msd="REL" in="-2:ref|1:subj" out="">quienes</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:relr" out="-1:subj|1:dobj">evalúan</W>
 <W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">las</W>
-<W lemma="necesidad" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">necesidades</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="necesidad" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">necesidades</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-36:coref" out="1:nobj|23:coref-id">los</W>
 <W lemma="anciano" msd="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-10:pnct" out="">–</W>

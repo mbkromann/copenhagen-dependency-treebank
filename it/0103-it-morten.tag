@@ -22,8 +22,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">Il</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr&3a;dobj#|2:pobj|2:{arg}">capo</W>
-<W lemma="macchina" msd="NC" tag="NOM" in="-1:attrr&3a;dobj#" out="">macchine</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|2:{arg}|1:aobj.dobj|1:{patient}#">capo</W>
+<W lemma="macchina" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}#" out="">macchine</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj|-2:{arg}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Ask</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-5:subj|2:preds|3:pnct|13:pnct">era</W>
@@ -34,8 +34,8 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:relpa" out="-1:subj|1:vobj">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|2:preds">stato</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-2:preds" out="-1:focal|1:attrr&3a;dobj#|2:pobj|2:{arg}">capo</W>
-<W lemma="macchina" msd="NC" tag="NOM" in="-1:attrr&3a;dobj#" out="">macchine</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-2:preds" out="-1:focal|2:pobj|2:{arg}|1:aobj.dobj|1:{patient}#">capo</W>
+<W lemma="macchina" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}#" out="">macchine</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj|-2:{arg}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Peder</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Paars</W>
@@ -72,8 +72,8 @@
 <W lemma="perseguitare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-8:[subj]|1:pobj">perseguitata</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">da</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="susseguire" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:pobj&3a;subj">susseguirsi</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="susseguire" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:pobj.subj|1:{agent}">susseguirsi</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="problema" msd="NC" tag="NOM" in="-1:nobj" out="">problemi</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-8:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj|2:[subj]|3:[subj]" out="14:²coref">Urd</W>
@@ -94,7 +94,7 @@
 <W lemma="ieri" msd="RG" tag="ADV" in="-14:time" out="1:time">ieri</W>
 <W lemma="pomeriggio" msd="NC" tag="NOM" in="-1:time" out="">pomeriggio</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-3:dir" out="1:nobj|4:pobj">dal</W>
-<W lemma="pontile" msd="NC" tag="NOM" in="-1:nobj" out="4:coref|1:pobj.dobj|1:{patient}">pontile</W>
+<W lemma="pontile" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:coref">pontile</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="riparazione" msd="NC" tag="NOM" in="-1:nobj" out="">riparazione</W>
 <W lemma="a" msd="SP" tag="PRE" in="-4:pobj" out="1:nobj">a</W>
@@ -209,8 +209,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">DSB</W>
 <W lemma="disporre" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:pobj">dispone</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
-<W lemma="pezzo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;pobj">pezzi</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;pobj" out="1:nobj">di</W>
+<W lemma="pezzo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.pobj|1:{location}">pezzi</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}" out="1:nobj">di</W>
 <W lemma="ricambio" msd="NC" tag="NOM" in="-1:nobj" out="">ricambio</W>
 <W lemma="." msd="XP" tag="SENT" in="-26:pnct" out="">.</W>
 </s>
@@ -271,8 +271,8 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="-1:focal|-5:fpreds|1:nobj">il</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr&3a;dobj#">capo</W>
-<W lemma="macchina" msd="NC" tag="NOM" in="-1:attrr&3a;dobj#" out="">macchine</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">capo</W>
+<W lemma="macchina" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}#" out="">macchine</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|4:pnct">è</W>
 <W lemma="tornare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dir">tornato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">a</W>

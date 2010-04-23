@@ -9,8 +9,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dei</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">membri</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">Comitato</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">Comitato</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercato</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;cpre" in="-8:vobj" out="-7:subj|1:vobj">possa</W>
 <W lemma="tenere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:man|3:dobj">tenere</W>
@@ -43,8 +43,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">della</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:nobj" out="">Danimarca</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:loc" out="1:nobj">al</W>
-<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">consiglio</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">dei</W>
+<W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">consiglio</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">dei</W>
 <W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">ministri</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="parlamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">Parlamento</W>
@@ -169,8 +169,8 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
 <W lemma="ma" msd="CS" tag="CON" in="6:coord" out="">ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|6:[subj]" out="1:nobj">il</W>
-<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">Comitato</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="comitato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">Comitato</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercato</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-15:conj" out="-6:coord|-5:subj|-1:neg|1:vobj|6:cond|11:pnct">ha</W>

@@ -187,8 +187,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="fino" msd="CS" tag="CON" in="8:time" out="1:pobj|5:pnct">Fino</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
-<W lemma="esaurimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">esaurimento</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj|-10:assoc-other" out="1:nobj">della</W>
+<W lemma="esaurimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">esaurimento</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-10:assoc-other|-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="tiratura" msd="NC" tag="NOM" in="-1:nobj" out="">tiratura</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:¹[subj]|10:¹[subj]" out="1:nobj">gli</W>

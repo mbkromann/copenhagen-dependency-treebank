@@ -65,7 +65,7 @@
 <W lemma="interessare" msd="VADR" tag="VER&3a;pres" in="-4:relpa" out="-1:subj|-2:pnct|1:dobj|18:pnct">interessa</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj">i</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">27</W>
-<W lemma="trapianto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|3:attr|71:coref-var|1:pobj.dobj|1:{patient}">trapianti</W>
+<W lemma="trapianto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}|3:attr|71:coref-var">trapianti</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="cuore" msd="NC" tag="NOM" in="-1:nobj" out="">cuore</W>
 <W lemma="effettuare" msd="VAP" tag="VER&3a;pper" in="-3:attr" out="1:loc|3:time">effettuati</W>
@@ -235,8 +235,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-9:subj|-7:man|1:vobj|15:pnct">ha</W>
 <W lemma="provveduto" msd="AN" tag="ADJ" in="-1:vobj" out="-10:[subj]|1:pobj">provveduto</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">alla</W>
-<W lemma="visita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">visita</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="2:nobj|6:ext">dei</W>
+<W lemma="visita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">visita</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="2:nobj|6:ext">dei</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">23</W>
 <W lemma="paziente" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">pazienti</W>
 <W lemma="sopravvissuto" msd="AN" tag="ADJ" in="-1:attr" out="">sopravvissuti</W>

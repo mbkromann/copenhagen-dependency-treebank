@@ -107,8 +107,8 @@
 <W lemma="equipo" msd="NC" in="-1:nobj" out="">equipo</W>
 <W lemma="a" msd="PREP" in="-4:ben" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">disposición</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">disposición</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|5:coref">los</W>
 <W lemma="dos" msd="CARD" in="-1:nobj" out="1:nobj">dos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">“aprendices”</W>

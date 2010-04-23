@@ -40,8 +40,8 @@
 <W lemma="poi" msd="RG" tag="ADV" in="1:succ" out="">poi</W>
 <W lemma="preso" msd="AN" tag="ADJ" in="-7:conj" out="-2:coord|-1:succ|1:dobj|5:loc|8:man">prese</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|11:³coref">le</W>
-<W lemma="mani&7c;mano" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;const">mani</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;const" out="1:nobj">di</W>
+<W lemma="mani&7c;mano" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{const}">mani</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{const}" out="1:nobj">di</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">lei</W>
 <W lemma="fra" msd="SP" tag="PRE" in="-5:loc" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj|-12:coref" out="1:nobj">le</W>

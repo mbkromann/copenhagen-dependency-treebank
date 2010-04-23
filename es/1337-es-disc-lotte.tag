@@ -19,9 +19,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">vecino,”</W>
 <W lemma="decir" msd="VLfin" in="" out="-7:qobj|1:subj|13:man|19:ben|22:time|41:pnct">dice</W>
 <W lemma="el" msd="ART" in="-1:subj" out="1:nobj|8:pnct|10:appa|100:coref-id">el</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj&3a;arg#">jefe</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj|2:{arg}#">jefe</W>
 <W lemma="superior" msd="ADJ" in="-1:attrr#" out="">superior</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="1:loc">policía</W>
 <W lemma="de" msd="PREP" in="-1:loc" out="1:nobj">de</W>
@@ -119,9 +119,9 @@
 <W lemma="valor" msd="NC" in="-2:nobj" out="-1:attr">valores</W>
 <W lemma="." msd="FS" in="-22:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="-100:coref-id" out="1:nobj|6:appr|7:pnct|9:coref">El</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrd#|2:pobj&3a;arg#">jefe</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrd#|2:pobj|2:{arg}#">jefe</W>
 <W lemma="superior" msd="ADJ" in="-1:attrd#" out="">superior</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">policía</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:namef" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-6:appr" out="-1:namef">Eefsen</W>
@@ -184,9 +184,9 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|29:coref-var">la</W>
 <W lemma="residencia" msd="NC" in="-1:nobj" out="1:other">residencia</W>
 <W lemma="del" msd="PDEL" in="-1:other|-44:coref-id" out="1:nobj|6:coref">del</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj&3a;arg#">jefe</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attrr#|2:pobj|2:{arg}#">jefe</W>
 <W lemma="superior" msd="ADJ" in="-1:attrr#" out="">superior</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">policía</W>
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>
 <W lemma="cuyo" msd="REL" in="-6:coref|2:subj" out="1:nobj">cuyo</W>
@@ -213,9 +213,9 @@
 <W lemma="el" msd="ART" in="-1:nobj|-29:coref-var" out="1:nobj">la</W>
 <W lemma="casa" msd="NC" in="-1:nobj" out="1:other">casa</W>
 <W lemma="del" msd="PDEL" in="-1:other" out="1:nobj|17:coref">del</W>
-<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attr|2:pobj&3a;arg#">jefe</W>
+<W lemma="jefe" msd="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}#">jefe</W>
 <W lemma="superior" msd="ADJ" in="-1:attr" out="">superior</W>
-<W lemma="de" msd="PREP" in="-2:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">policía</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-13:struct|1:dobj|10:pnct">había</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>

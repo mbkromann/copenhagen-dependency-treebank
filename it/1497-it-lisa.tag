@@ -49,8 +49,8 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="di" msd="SP" tag="PRE" in="-6:pobj" out="1:nobj">di</W>
 <W lemma="valutazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|8:[subj]">valutazioni</W>
-<W lemma="erroneo" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj&3a;subj|7:relr">erronee</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="erroneo" msd="AN" tag="ADJ" in="-1:attr" out="7:relr|1:pobj.subj|1:{agent}">erronee</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="direzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">direzione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="">partito</W>
@@ -185,8 +185,8 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="modificare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">modificare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
-<W lemma="aspettativa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">aspettative</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|3:conj">degli</W>
+<W lemma="aspettativa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">aspettative</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|3:conj">degli</W>
 <W lemma="elettore" msd="NC" tag="NOM" in="-1:nobj" out="">elettori</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">del</W>

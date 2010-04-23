@@ -29,13 +29,13 @@
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|1:vobj">essere</W>
 <W lemma="prendere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:comp">presi</W>
 <W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="1:nobj">come</W>
-<W lemma="modello" msd="NC" tag="NOM" in="-1:nobj" out="5:conj|1:pobj|1:{arg}">modello</W>
+<W lemma="modello" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|5:conj">modello</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">autocelebrazione</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="massimo" msd="NC" tag="NOM" in="1:attr" out="">massimo</W>
-<W lemma="gradimento" msd="NC" tag="NOM" in="-5:conj" out="-2:coord|-1:attr|1:pobj&3a;subj">gradimento</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="gradimento" msd="NC" tag="NOM" in="-5:conj" out="-2:coord|-1:attr|1:pobj.subj|1:{agent}">gradimento</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="media" msd="NC" tag="NOM" in="-1:nobj" out="">media</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-12:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
@@ -152,8 +152,8 @@
 <W lemma="scopo" msd="NC" tag="NOM" in="-1:nobj" out="">scopo</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:conj" out="-1:coord|1:nobj">il</W>
-<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">significato</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="significato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">significato</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="musica" msd="NC" tag="NOM" in="-1:nobj" out="">musica</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-53:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-54:pnct" out="">,</W>

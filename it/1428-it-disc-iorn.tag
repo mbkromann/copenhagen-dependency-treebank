@@ -54,8 +54,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:conj|-10:coref&3a;pro" out="1:preds|9:pnct">è</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:pobj|1:{arg}">figlio</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj|-1:{arg}" out="1:nobj">dell’ex</W>
-<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|5:appr">ministro</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">per</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="5:appr|1:pobj|1:{arg}#">ministro</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">l’industria</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:namef" out="1:+">E</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
@@ -172,8 +172,8 @@
 <W lemma="," msd="XP" tag="PON" in="-12:pnct" out="">,</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-20:conj" out="1:nobj">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">paio</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj&3a;arg#|3:attr|5:attr|12:attr">d’occhiali</W>
-<W lemma="da" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">da</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="3:attr|5:attr|12:attr|1:pobj|1:{arg}#">d’occhiali</W>
+<W lemma="da" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">da</W>
 <W lemma="solo" msd="AN" tag="ADJ" in="-1:nobj" out="">sole</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-3:attr" out="1:nobj">anni</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">’68</W>

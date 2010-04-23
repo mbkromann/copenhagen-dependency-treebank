@@ -57,8 +57,8 @@
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stessi</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-4:conj" out="-1:coord|1:nobj">sul</W>
-<W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">risultato</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#|-28:coref-id" out="1:nobj">delle</W>
+<W lemma="risultato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">risultato</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-28:coref-id|-1:pobj|-1:{arg}#" out="1:nobj">delle</W>
 <W lemma="analisi" msd="NC" tag="NOM" in="-1:nobj" out="">analisi</W>
 <W lemma="." msd="XP" tag="SENT" in="-33:pnct" out="">.</W>
 <W lemma="vedere" msd="VADR" tag="VER&3a;pres" in="" out="1:focal|2:pnct|3:source|18:pnct">Vedi</W>
@@ -67,8 +67,8 @@
 <W lemma="paragrafo" msd="NC" tag="NOM" in="-3:source" out="1:nobj|7:conj">paragrafo</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:pnct|2:appa">5.3</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="controllo" msd="NC" tag="NOM" in="-2:appa" out="1:pobj&3a;dobj#">controllo</W>
-<W lemma="a" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">a</W>
+<W lemma="controllo" msd="NC" tag="NOM" in="-2:appa" out="1:pobj.dobj|1:{patient}#">controllo</W>
+<W lemma="a" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">a</W>
 <W lemma="campione" msd="NC" tag="NOM" in="-1:nobj" out="">campione</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="paragrafo" msd="NC" tag="NOM" in="-7:conj" out="-1:coord|1:nobj">paragrafo</W>
@@ -186,9 +186,9 @@
 <W lemma="potere" msd="VADR" tag="VER&3a;cpre" in="-3:relpa" out="-1:subj|1:vobj|19:pnct">possa</W>
 <W lemma="comportare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:dobj">comportare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="emissione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;subj">emissione</W>
+<W lemma="emissione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}">emissione</W>
 <W lemma="irregolare" msd="AN" tag="ADJ" in="-1:attr" out="">irregolare</W>
-<W lemma="di" msd="SP" tag="PRE" in="-2:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-2:pobj.subj|-2:{agent}" out="1:nobj">di</W>
 <W lemma="sostanza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sostanze</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="scarico" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">scarico</W>

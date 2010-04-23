@@ -125,8 +125,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-9:pnct" out="">"</W>
 <W lemma="chiedere" msd="VADR" tag="VER&3a;pres" in="-32:+CONJ/(e)/ATTR2" out="-10:qobj|1:subj|8:pnct|13:+CONJ/(e)/ATTR3">chiede</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj|4:pnct|6:appa">l'</W>
-<W lemma="avvocato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#">avvocato</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;dobj#" out="1:nobj">dell'</W>
+<W lemma="avvocato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">avvocato</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">dell'</W>
 <W lemma="accusa" msd="NC" tag="NOM" in="-1:nobj" out="">accusa</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Annette</W>

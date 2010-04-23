@@ -16,10 +16,10 @@
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-2:pnct" out="">"</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="5:dobj" out="1:nobj">seinen</W>
 <W lemma="Durchbruch" msd="NC" tag="NN" in="-1:nobj" out="">Durchbruch</W>
-<W lemma="beim" msd="SP+P" tag="APPRART" in="3:space&3a;loc" out="">beim</W>
+<W lemma="beim" msd="SP+P" tag="APPRART" in="3:loc" out="">beim</W>
 <W lemma="breit" msd="AN" tag="ADJA" in="1:attr" out="1:nobj">breiten</W>
 <W lemma="Publikum" msd="NC" tag="NN" in="-1:nobj" out="-1:attr">Publikum</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-13:vobj" out="-12:subj|-11:man&3a;inst|-5:dobj|-3:space&3a;loc">hatte</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-13:vobj" out="-12:subj|-11:man&3a;inst|-5:dobj|-3:loc">hatte</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>
@@ -37,13 +37,13 @@
 <W lemma="." msd="XP" tag="$." in="-1:+" out="">.</W>
 <W lemma="August" msd="NC" tag="NN" in="1:nobj" out="-2:nobj">August</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-4:nobj" out="-1:nobj|78:coref">1917</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="6:space&3a;loc" out="1:nobj|4:pnct|5:appa">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="6:loc" out="1:nobj|4:pnct|5:appa">im</W>
 <W lemma="Heimatstaat" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Heimatstaat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj|-1:{arg}" out="1:possr">des</W>
 <W lemma="Blues" msd="NC" tag="NN" in="-1:possr" out="">Blues</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="Mississippi" msd="NP" tag="NE" in="-5:appa" out="">Mississippi</W>
-<W lemma="gebären" msd="VAP" tag="VVPP" in="-12:vobj" out="-11:time|-6:space&3a;loc">geboren</W>
+<W lemma="gebären" msd="VAP" tag="VVPP" in="-12:vobj" out="-11:time|-6:loc">geboren</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
@@ -101,10 +101,10 @@
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="6:dobj" out="">sich</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="-31:time&3a;cont" out="">jetzt</W>
 <W lemma="ruhig" msd="AN" tag="ADJD" in="-32:man" out="">ruhig</W>
-<W lemma="in" msd="SP" tag="APPR" in="3:space&3a;dir" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:dir" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Staub" msd="NC" tag="NN" in="-1:nobj" out="">Staub</W>
-<W lemma="werfen" msd="VA" tag="VVFIN" in="-36:vobj" out="-6:dobj|-3:space&3a;dir|-35:[subj]|4:conj">werfen</W>
+<W lemma="werfen" msd="VA" tag="VVFIN" in="-36:vobj" out="-6:dobj|-35:[subj]|4:conj|-3:dir">werfen</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="auf" msd="SP" tag="APPR" in="2:man" out="1:nobj">auf</W>
 <W lemma="Knie&7c;Knien" msd="NC" tag="NN" in="-1:nobj" out="">Knien</W>

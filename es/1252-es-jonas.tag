@@ -155,8 +155,8 @@
 <W lemma="haber" msd="VHfin" in="-8:conj" out="-1:coord|1:vobj|6:loc">ha</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="1:dobj">construído</W>
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">20-30</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;const">fábricas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{const}">fábricas</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="cemento" msd="NC" in="-1:nobj" out="">cemento</W>
 <W lemma="en" msd="PREP" in="-6:loc" out="2:nobj">en</W>
 <W lemma="todo" msd="QU" in="1:ext" out="">todo</W>

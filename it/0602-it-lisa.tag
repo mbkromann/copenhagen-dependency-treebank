@@ -58,8 +58,8 @@
 <W lemma="stare" msd="VADA" tag="VER&3a;cimp" in="-2:relr|1:[subj]" out="-1:dobj|1:vobj">stessimo</W>
 <W lemma="fare" msd="VAG" tag="VER&3a;geru" in="-1:vobj" out="-1:[subj]">facendo</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="-5:vobj" out="-4:subj|1:preds">fosse</W>
-<W lemma="qualcosa" msd="PI" tag="PRO&3a;indef" in="-1:preds" out="1:pobj&3a;const">qualcosa</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;const" out="1:nobj">di</W>
+<W lemma="qualcosa" msd="PI" tag="PRO&3a;indef" in="-1:preds" out="1:attr|1:{const}">qualcosa</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{const}" out="1:nobj">di</W>
 <W lemma="segreto" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">segreto</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="proibito" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">proibito</W>

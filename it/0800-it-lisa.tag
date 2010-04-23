@@ -277,8 +277,8 @@
 <W lemma="più" msd="RG" tag="ADV" in="-1:time" out="">più</W>
 <W lemma="bisogno" msd="NC" tag="NOM" in="-2:dobj" out="1:pobj.dobj|1:{patient}">bisogno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">sussidio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
+<W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">sussidio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-24:pnct" out="">"</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-25:qobj|2:subj|3:pnct">dice</W>

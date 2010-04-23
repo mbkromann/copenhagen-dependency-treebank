@@ -41,8 +41,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="pieno" msd="AN" tag="ADJ" in="-4:conj" out="-1:coord|1:pobj.dobj|1:{patient}">pieno</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
-<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|14:coref-var">uomini</W>
-<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">d'</W>
+<W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="14:coref-var|1:pobj|1:{arg}#">uomini</W>
+<W lemma="d'" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">d'</W>
 <W lemma="affare" msd="NC" tag="NOM" in="-1:nobj" out="">affari</W>
 <W lemma=";" msd="XP" tag="PON" in="-10:pnct" out="">;</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="7:subj" out="2:nobj">delle</W>

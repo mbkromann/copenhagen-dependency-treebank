@@ -33,7 +33,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">la</W>
 <W lemma="tendenza" msd="NC" tag="NOM" in="-1:nobj" out="">tendenza</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:vobj">è</W>
-<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="4:nobj|1:preds">essere</W>
+<W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:preds|4:nobj">essere</W>
 <W lemma="tonico" msd="AN" tag="ADJ" in="-1:preds" out="2:conj">tonici</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="sportivo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">sportivi</W>
@@ -182,8 +182,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-7:relr" out="-2:subj|-1:neg|1:prg|2:dobj|9:pnct">hanno</W>
 <W lemma="certo" msd="RG" tag="ADV" in="-1:prg" out="">certo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="1:nobj">il</W>
-<W lemma="corpo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">corpo</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="corpo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">corpo</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="&lt;unknown&gt;" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="1:attr|9:appr">supermuscolosi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">degli</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">anni</W>

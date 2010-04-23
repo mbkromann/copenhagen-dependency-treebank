@@ -30,8 +30,8 @@
 <W lemma="dicho" msd="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref">Dichos</W>
 <W lemma="hombre" msd="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="ser" msd="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="1:pobj&3a;arg#|6:conj">crÃ­ticos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:preds" out="6:conj|1:pobj|1:{arg}#">crÃ­ticos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="y" msd="CC" in="3:coord" out="">y</W>
 <W lemma="para" msd="PREP" in="2:neg" out="">para</W>
@@ -74,8 +74,8 @@
 <W lemma="existencia" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">existencia</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-21:coref-var" out="1:nobj|11:coref-var">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">crÃ­ticos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">crÃ­ticos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" in="-1:nobj" out="">cine</W>
 <W lemma="haber" msd="VHfin" in="" out="-7:subj|1:vobj|3:man|6:cause">ha</W>
 <W lemma="perder" msd="VLadj" in="-1:vobj" out="-8:[subj]|1:dobj">perdido</W>

@@ -16,7 +16,7 @@
 <W lemma="costante" msd="AN" tag="ADJ" in="3:attr" out="2:conj">costante</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="attivo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">attiva</W>
-<W lemma="ricerca" msd="NC" tag="NOM" in="-4:nobj" out="-3:attr|60:coref-var|1:pobj.dobj|1:{patient}">ricerca</W>
+<W lemma="ricerca" msd="NC" tag="NOM" in="-4:nobj" out="-3:attr|1:pobj.dobj|1:{patient}|60:coref-var">ricerca</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">dei</W>
 <W lemma="criminale" msd="AN" tag="ADJ" in="1:attr" out="">criminali</W>
 <W lemma="nazista" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:ref|3:relr">nazisti</W>
@@ -133,8 +133,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="dominare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">dominare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="vita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">vita</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="vita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">vita</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="">persona</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
@@ -170,8 +170,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="2:nobj|5:ext">12</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="1:attr" out="">diversi</W>
-<W lemma="campo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attrr&3a;dobj#|8:nobj">campi</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attrr&3a;dobj#" out="1:nobj">di</W>
+<W lemma="campo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|8:nobj|1:aobj.dobj|1:{patient}#">campi</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:aobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="concentramento" msd="NC" tag="NOM" in="-1:nobj" out="">concentramento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-5:ext" out="1:nobj">in</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">tutto</W>

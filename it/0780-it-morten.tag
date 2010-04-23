@@ -137,8 +137,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>
 <W lemma="eliminare" msd="VAF" tag="VER&3a;infi" in="" out="1:nobj">Eliminare</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">800</W>
-<W lemma="posto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">posti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
+<W lemma="posto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">posti</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="ora" msd="NC" tag="NOM" in="3:time" out="">Ora</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="2:subj" out="">ci</W>

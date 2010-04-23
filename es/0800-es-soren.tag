@@ -11,7 +11,7 @@
 <W lemma="en" msd="PREP" in="-8:space" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="popular" msd="ADJ" in="1:attr" out="">popular</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:nobj" out="-1:attr|4:pobj|1:pobj|1:{arg}">confitería</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}|4:pobj">confitería</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="2:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:nobj" out="-1:namef">Hjorth</W>
@@ -151,8 +151,8 @@
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="hora" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">hora</W>
 <W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="municipio" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">Municipio</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="municipio" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">Municipio</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Gentofte</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-12:vobj" out="-11:subj|1:goal">venció</W>
 <W lemma="puesto~que" msd="CSUBX" in="-1:goal" out="10:vobj">puesto que</W>

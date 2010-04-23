@@ -14,8 +14,8 @@
 <W lemma="Svend" msd="NP" tag="NE" in="1:namef" out="">Svend</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:title|15:coref|96:coref-id">Trangeled</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="Jurist" msd="NC" tag="NN" in="-2:title" out="1:space&3a;loc">Jurist</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:space&3a;loc" out="1:nobj">in</W>
+<W lemma="Jurist" msd="NC" tag="NN" in="-2:title" out="1:loc">Jurist</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|5:list">der</W>
 <W lemma="Rechtsanwaltskanzlei" msd="NC" tag="NN" in="-1:nobj" out="2:appr|3:pnct">Rechtsanwaltskanzlei</W>
 <W lemma="Niels" msd="NP" tag="NE" in="1:namef" out="">Niels</W>
@@ -152,8 +152,8 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="-8:relpa" out="-3:subj|-2:dobj">hat</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">Und</W>
-<W lemma="hier" msd="RG" tag="ADV" in="1:space&3a;loc" out="">hier</W>
-<W lemma="spielen" msd="VA" tag="VVFIN" in="7:qobj" out="-1:space&3a;loc|-2:coord|1:subj|3:dobj|6:pnct">spielen</W>
+<W lemma="hier" msd="RG" tag="ADV" in="1:loc" out="">hier</W>
+<W lemma="spielen" msd="VA" tag="VVFIN" in="7:qobj" out="-2:coord|-1:loc|1:subj|3:dobj|6:pnct">spielen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|-18:assoc-const" out="1:nobj">die</W>
 <W lemma="Statut" msd="NC" tag="NN" in="-1:nobj" out="">Statuten</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:dobj" out="1:attr|2:nobj">eine</W>
@@ -169,13 +169,13 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="9:vobj|19:CAUSE&3a;goal">dass</W>
 <W lemma="man" msd="PP" tag="PIS" in="8:subj" out="">man</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="7:robj" out="">sich</W>
-<W lemma="unter" msd="SP" tag="APPR" in="6:prg&3a;eval" out="2:nobj">unter</W>
+<W lemma="unter" msd="SP" tag="APPR" in="6:eval" out="2:nobj">unter</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="1:degr" out="">allen</W>
 <W lemma="Umstand" msd="NC" tag="NN" in="-2:nobj" out="-1:degr">Umständen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="3:man&3a;comp" out="1:nobj">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
 <W lemma="Experte" msd="NC" tag="NN" in="-1:nobj" out="">Experten</W>
-<W lemma="alliieren" msd="VAP" tag="VVPP" in="-9:vobj" out="-8:subj|-6:prg&3a;eval|-3:man&3a;comp|-7:robj|1:pnct|2:time">alliiert</W>
+<W lemma="alliieren" msd="VAP" tag="VVPP" in="-9:vobj" out="-8:subj|-3:man&3a;comp|-7:robj|1:pnct|2:time|-6:eval">alliiert</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-2:time" out="4:vobj">wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="3:subj" out="">man</W>

@@ -50,14 +50,14 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:elab" out="1:nobj|6:pnct|8:conj|18:conj">il</W>
 <W lemma="comportamento" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">comportamento</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
-<W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">tribunale</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dell'</W>
+<W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">tribunale</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dell'</W>
 <W lemma="imputato" msd="NC" tag="NOM" in="-1:nobj" out="">imputato</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-8:conj" out="-1:coord|1:nobj|7:pnct">l'</W>
-<W lemma="accettazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj|3:pobj.dobj|3:{patient}">accettazione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="accettazione" msd="NC" tag="NOM" in="-1:nobj" out="3:pobj.dobj|3:{patient}|1:pobj.subj|1:{agent}">accettazione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="">tribunale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:pobj.dobj|-3:{patient}" out="2:nobj">di</W>
 <W lemma="tale" msd="PD" tag="PRO&3a;demo" in="1:attr" out="">tale</W>
@@ -82,11 +82,11 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-12:vobj" out="-11:time|-8:subj|1:degr|2:vobj|9:pnct">sono</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:degr" out="">tutti</W>
 <W lemma="riunito" msd="NC" tag="NOM" in="-2:vobj" out="-10:[subj]|1:loc">riuniti</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj|4:pobj&3a;subj">nella</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj|4:pobj.subj|4:{agent}">nella</W>
 <W lemma="sala" msd="NC" tag="NOM" in="-1:nobj" out="1:goal#">sala</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:goal#" out="1:nobj">d'</W>
 <W lemma="attesa" msd="NC" tag="NOM" in="-1:nobj" out="">attesa</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-4:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-4:pobj.subj|-4:{agent}" out="1:nobj">del</W>
 <W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="">tribunale</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 </s>
@@ -127,8 +127,8 @@
 <W lemma="cinque" msd="AN" tag="ADJ" in="1:attr" out="">cinque</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:time">giorni</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:time" out="1:nobj">dalla</W>
-<W lemma="chiusura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">chiusura</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="chiusura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">chiusura</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="">caso</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:qobj|1:[subj]" out="-12:coref-res|-9:time|-10:pnct|-7:time|1:vobj|7:pnct">ho</W>
 <W lemma="ricevere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">ricevuto</W>

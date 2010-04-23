@@ -1,9 +1,9 @@
 <p>
 <s>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="10:subj|11:[subj]" out="1:nobj|2:time">Un</W>
-<W lemma="incontro" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj&3a;subj">incontro</W>
+<W lemma="incontro" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj.subj|2:{agent}">incontro</W>
 <W lemma="ieri" msd="RG" tag="ADV" in="-2:time" out="">ieri</W>
-<W lemma="tra" msd="SP" tag="PRE" in="-2:pobj&3a;subj" out="2:nobj">tra</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-2:pobj.subj|-2:{agent}" out="2:nobj">tra</W>
 <W lemma="Frank" msd="NP" tag="NPR" in="1:namef" out="">Frank</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|2:conj">Mathiesen</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -89,8 +89,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un'</W>
 <W lemma="ottimo" msd="AN" tag="ADJ" in="1:attr" out="">ottima</W>
-<W lemma="prestazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">prestazione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="prestazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">prestazione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="giocatore" msd="NC" tag="NOM" in="-1:nobj" out="">giocatori</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="forse" msd="RG" tag="ADV" in="1:prg" out="">forse</W>

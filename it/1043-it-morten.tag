@@ -88,8 +88,8 @@
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:attr" out="">stesso</W>
 <W lemma="con" msd="SP" tag="PRE" in="-4:man" out="1:nobj">con</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="proposta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#|4:attr">proposta</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
+<W lemma="proposta" msd="NC" tag="NOM" in="-1:nobj" out="4:attr|1:pobj|1:{arg}#">proposta</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:about">legge</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:about" out="">finanziaria</W>
 <W lemma="alternativa" msd="NC" tag="NOM" in="-4:attr" out="">alternativa</W>

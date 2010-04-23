@@ -34,7 +34,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-25:pnct" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Hamid</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj|4:[subj]" out="-1:namef">Jafar</W>
-<W lemma="era" msd="NC" tag="NOM" in="" out="-1:subj|13:pnct|19:conj|46:pnct|1:preds">era</W>
+<W lemma="era" msd="NC" tag="NOM" in="" out="-1:subj|1:preds|13:pnct|19:conj|46:pnct">era</W>
 <W lemma="ansioso" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">ansioso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="mostrare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|1:iobj|4:dobj">mostrare</W>
@@ -103,8 +103,8 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="2:time" out="1:nobj">un</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
-<W lemma="ministro" msd="NC" tag="NOM" in="-4:appa" out="-2:time|1:pobj&3a;arg#|3:loc">ministro</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">dell'</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="-4:appa" out="-2:time|3:loc|1:pobj|1:{arg}#">ministro</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">dell'</W>
 <W lemma="industria" msd="NC" tag="NOM" in="-1:nobj" out="">industria</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">in</W>
 <W lemma="Iraq" msd="NP" tag="NPR" in="-1:nobj" out="">Iraq</W>
@@ -164,7 +164,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">a</W>
 <W lemma="Londra" msd="NP" tag="NPR" in="-1:nobj" out="">Londra</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-5:conj" out="-1:coord|9:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-5:conj" out="-1:coord|1:preds|9:pnct">è</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="-1:preds" out="1:attr">figlio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>

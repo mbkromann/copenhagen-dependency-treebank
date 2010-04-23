@@ -73,8 +73,8 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="decir" msd="VLfin" in="" out="-5:dobj|1:subj|2:nobj|5:pnct">dijo</W>
 <W lemma="el" msd="ART" in="-1:subj" out="">el</W>
-<W lemma="comerciante" msd="NC" in="-2:nobj" out="1:pobj&3a;dobj#">comerciante</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="comerciante" msd="NC" in="-2:nobj" out="1:pobj.dobj|1:{patient}#">comerciante</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="bicicleta" msd="NC" in="-1:nobj" out="">bicicletas</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="-" msd="DASH" in="2:pnct" out="">-</W>

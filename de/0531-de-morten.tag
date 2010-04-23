@@ -161,9 +161,9 @@
 <W lemma="mit" msd="SP" tag="APPR" in="6:man&3a;comp" out="1:attr|2:nobj">mit</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="-1:attr" out="">gutem</W>
 <W lemma="Gewisse&7c;Gewissen" msd="NC" tag="NN" in="-2:nobj" out="">Gewissen</W>
-<W lemma="nach" msd="SP" tag="APPR" in="2:space&3a;dir" out="1:nobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="2:dir" out="1:nobj">nach</W>
 <W lemma="Haus" msd="NC" tag="NN" in="-1:nobj" out="">Hause</W>
-<W lemma="gehen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:[subj]|-2:space&3a;dir">gehen</W>
+<W lemma="gehen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:[subj]|-2:dir">gehen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-9:vobj" out="-8:subj|-7:neg|-6:man&3a;comp|-1:vobj">könnten</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
@@ -172,7 +172,7 @@
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="-28:coref-prg|2:subj" out="1:nobj">Der</W>
 <W lemma="Freispruch" msd="NC" tag="NN" in="-1:nobj" out="">Freispruch</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="22:qobj" out="-2:subj|1:man|6:pobj|4:preds">sei</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="22:qobj" out="-2:subj|1:man|4:preds|6:pobj">sei</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:man" out="2:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:neg" out="">keinster</W>
 <W lemma="Weise" msd="NC" tag="NN" in="-2:nobj" out="-1:neg">Weise</W>

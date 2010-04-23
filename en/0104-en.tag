@@ -175,8 +175,8 @@
 <W msd="SP" tag="IN" in="-1:pobj&3a;subj.agent" out="1:nobj">among</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="-1:attr" out="">coming</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj&3a;const">generation</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;const" out="2:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="1:attr|1:{const}">generation</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{const}" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">non-socialist</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">politicians</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -207,8 +207,8 @@
 <W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-22:qobj|1:subj|5:pnct">says</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj&3a;arg#">Minister</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;arg#" out="1:nobj">for</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj|1:{arg}#">Minister</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}#" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fisheries</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -231,8 +231,8 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="5:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:noun&3a;const" out="">EC</W>
-<W msd="NP=S" tag="NNP" in="3:noun&3a;subj.agent#" out="-1:noun&3a;const|1:pobj&3a;arg#">Minister</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;arg#" out="1:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="3:noun&3a;subj.agent#" out="-1:noun&3a;const|1:pobj|1:{arg}#">Minister</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}#" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fisheries</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-3:noun&3a;subj.agent#">meeting</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>

@@ -4,8 +4,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="popolo" msd="NC" tag="NOM" in="-1:nobj" out="">popolo</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-5:appa" out="1:pobj&3a;subj|8:pnct">costituito</W>
-<W lemma="da" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">da</W>
+<W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-5:appa" out="8:pnct|1:pobj.subj|1:{agent}">costituito</W>
+<W lemma="da" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">da</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="certo" msd="AN" tag="ADJ" in="1:attr" out="">certo</W>
 <W lemma="numero" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">numero</W>

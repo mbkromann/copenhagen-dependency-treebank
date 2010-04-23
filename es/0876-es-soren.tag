@@ -134,13 +134,13 @@
 <W lemma="caliente" msd="ADJ" in="-1:attr" out="">caliente</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="si" msd="CSUBX" in="7:cond" out="1:vobj">Si</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj" out="4:pnct|1:preds">está</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:vobj" out="1:preds|4:pnct">está</W>
 <W lemma="cubrir" msd="VLadj" in="-1:preds" out="1:pobj">cubierto</W>
 <W lemma="por" msd="PREP" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">teflón</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" msd="VSfin" in="" out="-1:neg|-7:cond|2:subj|5:pnct|6:concom|11:pnct|1:preds">es</W>
+<W lemma="ser" msd="VSfin" in="" out="-1:neg|-7:cond|1:preds|2:subj|5:pnct|6:concom|11:pnct">es</W>
 <W lemma="necesario" msd="ADJ" in="-1:preds" out="">necesario</W>
 <W lemma="&lt;unknown&gt;" msd="VLinf" in="-2:subj" out="1:pobj">pincelarlo</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
@@ -165,7 +165,7 @@
 <W lemma="," msd="CM" in="-9:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="servir" msd="VLfin" in="-12:conj" out="-2:coord|-1:robj|4:pnct|7:pnct|1:preds">sirven</W>
+<W lemma="servir" msd="VLfin" in="-12:conj" out="-2:coord|-1:robj|1:preds|4:pnct|7:pnct">sirven</W>
 <W lemma="dorado" msd="ADJ" in="-1:preds" out="2:conj">dorados</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:conj" out="-1:coord|3:conj">crujientes</W>
@@ -185,8 +185,8 @@
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">fría</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Sábado</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:pobj&3a;arg#">Paleta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:pobj|1:{arg}#">Paleta</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="cordero" msd="NC" in="-1:nobj" out="1:predo">cordero</W>
 <W lemma="rellenar" msd="VLfin" in="-1:predo" out="1:loc">rellena</W>
 <W lemma="al" msd="PAL" in="-1:loc" out="1:nobj">al</W>

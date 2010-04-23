@@ -220,8 +220,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="2:nobj|9:ben">gli</W>
 <W lemma="eventuale" msd="AN" tag="ADJ" in="1:attr" out="">eventuali</W>
 <W lemma="rischio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">rischi</W>
-<W lemma="connettere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj&3a;pobj">connessi</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;pobj" out="1:nobj">all'</W>
+<W lemma="connettere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj.pobj|1:{location}">connessi</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.pobj|-1:{location}" out="1:nobj">all'</W>
 <W lemma="uso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">uso</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pillole</W>

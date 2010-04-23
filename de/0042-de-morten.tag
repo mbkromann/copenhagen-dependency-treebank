@@ -22,7 +22,7 @@
 <W lemma="so" msd="RG" tag="ADV" in="-16:cons" out="1:dobj">so</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-1:dobj" out="19:vobj">dass</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:prg&3a;focal" out="">auch</W>
-<W lemma="in" msd="SP" tag="APPR" in="14:space&3a;loc" out="-1:prg&3a;focal|1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="14:loc" out="-1:prg&3a;focal|1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|3:attr|4:attr|5:nobj|6:pnct|7:appa">den</W>
 <W lemma="ander" msd="AN" tag="ADJA" in="-1:attr" out="1:pnct">anderen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -36,7 +36,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Steuer&7c;Steuern" msd="NC" tag="NN" in="-4:conj" out="-1:coord|1:pnct">Steuern</W>
 <W lemma="-" msd="XP" tag="$(" in="-1:pnct" out="">-</W>
-<W lemma="Ergebnis" msd="NC" tag="NN" in="1:[subj]|2:[subj]|3:subj" out="-14:space&3a;loc">Ergebnisse</W>
+<W lemma="Ergebnis" msd="NC" tag="NN" in="1:[subj]|2:[subj]|3:subj" out="-14:loc">Ergebnisse</W>
 <W lemma="erzielen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:[subj]">erzielt</W>
 <W lemma="werden" msd="VAF" tag="VAINF" in="1:vobj" out="-1:vobj|-2:[subj]">werden</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-19:vobj" out="-28:coord|-1:vobj|-26:cause&3a;goal|-3:subj|1:pnct">können</W>
@@ -93,8 +93,8 @@
 <W lemma="niedrig" msd="AN" tag="ADJA" in="-1:attr" out="">niedrige</W>
 <W lemma="Lohn-" msd="XA" tag="TRUNC" in="-2:nobj" out="2:conj">Lohn-</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Gehaltsentwicklung" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:space&3a;loc">Gehaltsentwicklung</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:space&3a;loc" out="1:nobj">in</W>
+<W lemma="Gehaltsentwicklung" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:loc">Gehaltsentwicklung</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Übereinkommen" msd="NC" tag="NN" in="-1:nobj" out="">Übereinkommen</W>
 <W lemma="sicher" msd="AN" tag="ADJD" in="1:man" out="">sicher</W>

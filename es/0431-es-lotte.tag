@@ -67,8 +67,8 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|6:pobj&3a;poss">la</W>
 <W lemma="industriar" msd="VLfin" in="-1:nobj" out="2:conj">industria</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="comerciar" msd="VLfin" in="-2:conj" out="-1:coord|1:pobj&3a;dobj#">comercio</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="comerciar" msd="VLfin" in="-2:conj" out="-1:coord|1:pobj.dobj|1:{patient}#">comercio</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="diamante" msd="NC" in="-1:nobj" out="">diamantes</W>
 <W lemma="del" msd="PDEL" in="-6:pobj&3a;poss" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">país</W>
@@ -138,8 +138,8 @@
 <W lemma="ser" msd="VSfin" in="-13:coref" out="1:subj|6:pnct">Es</W>
 <W lemma="suyo" msd="PPO" in="-1:subj|-21:coref" out="1:attr|2:nobj">su</W>
 <W lemma="primero" msd="ORD" in="-1:attr" out="">primer</W>
-<W lemma="trabajo" msd="NC" in="-2:nobj" out="1:pobj&3a;pobj">trabajo</W>
-<W lemma="en" msd="PREP" in="-1:pobj&3a;pobj" out="1:nobj">en</W>
+<W lemma="trabajo" msd="NC" in="-2:nobj" out="1:pobj.pobj|1:{location}">trabajo</W>
+<W lemma="en" msd="PREP" in="-1:pobj.pobj|-1:{location}" out="1:nobj">en</W>
 <W lemma="plata" msd="NC" in="-1:nobj" out="">plata</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
 <W lemma="sello" msd="NC" in="" out="1:attr|2:pnct">Sello</W>

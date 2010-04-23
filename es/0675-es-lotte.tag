@@ -12,8 +12,8 @@
 <W lemma="pero" msd="CCAD" in="13:coord" out="">pero</W>
 <W lemma="en" msd="PREP" in="12:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|23:assoc-const">los</W>
-<W lemma="cuarto" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|4:pobj|4:{arg}">cuartos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="cuarto" msd="NC" in="-1:nobj" out="4:pobj|4:{arg}|1:pobj|1:{arg}#">cuartos</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="final" msd="NC" in="-1:nobj" out="">final</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="contra" msd="PREP" in="-4:pobj|-4:{arg}" out="-1:pnct|1:nobj">contra</W>

@@ -33,7 +33,7 @@
 <W lemma="mezclar" msd="VLinf" in="" out="1:pobj|6:pnct">Mezclar</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="1" msd="CARD" in="-1:nobj" out="1:nobj">1</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:nobj|1:pobj|1:{arg}">dl</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|2:nobj">dl</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="">de</W>
 <W lemma="agua" msd="NC" in="-2:nobj" out="">agua</W>
 <W lemma="." msd="FS" in="-6:pnct" out="">.</W>
@@ -48,8 +48,8 @@
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:conj" out="1:nobj|7:conj">½</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">cucharilla</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="levadura" msd="NC" in="-1:nobj" out="1:pobj&3a;const">levadura</W>
-<W lemma="en" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">en</W>
+<W lemma="levadura" msd="NC" in="-1:nobj" out="1:attr|1:{const}">levadura</W>
+<W lemma="en" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">en</W>
 <W lemma="polvo" msd="NC" in="-1:nobj" out="">polvo</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="@card@" msd="CARD" in="-7:conj" out="-1:coord|1:nobj">50</W>
@@ -65,8 +65,8 @@
 <W lemma="todo" msd="QU" in="-1:dobj" out="">todo</W>
 <W lemma="junto~con" msd="PREP" in="-2:pobj" out="1:nobj">junto con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="masa" msd="NC" in="-1:nobj" out="1:pobj&3a;const">masa</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;const" out="1:nobj">de</W>
+<W lemma="masa" msd="NC" in="-1:nobj" out="1:attr|1:{const}">masa</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="huevo" msd="NC" in="-1:nobj" out="">huevo</W>
 <W lemma="," msd="CM" in="-7:pnct" out="">,</W>
 <W lemma="hasta" msd="PREP" in="-8:time" out="">hasta</W>

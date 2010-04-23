@@ -77,8 +77,8 @@
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danesi</W>
 <W lemma="." msd="XP" tag="SENT" in="-19:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="7:subj|9:[subj]" out="1:nobj">L'</W>
-<W lemma="esistenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">esistenza</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="esistenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">esistenza</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="critico" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|65:coref-var">critici</W>
 <W lemma="cinematografico" msd="AN" tag="ADJ" in="-1:attr" out="">cinematografici</W>
 <W lemma="&lt;unknown&gt;" msd="AN" note="skal deles" tag="ADJ" in="2:cause" out="1:pnct">,quindi</W>

@@ -2,8 +2,8 @@
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:subj|13:[subj]" out="2:nobj|114:coref-var">Das</W>
 <W lemma="gestrig" msd="AN" tag="ADJA" in="1:attr" out="">gestrige</W>
-<W lemma="Treffen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">Treffen</W>
-<W lemma="zwischen" msd="SP" tag="APPR" in="-1:pobj&3a;subj" out="2:nobj">zwischen</W>
+<W lemma="Treffen" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">Treffen</W>
+<W lemma="zwischen" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="2:nobj">zwischen</W>
 <W lemma="Frank" msd="NP" tag="NE" in="1:namef" out="">Frank</W>
 <W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="-2:nobj" out="-1:namef|2:conj|15:coref-id">Mathiesen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -76,8 +76,8 @@
 <W lemma="wir" msd="PP" tag="PPER" in="8:subj" out="">wir</W>
 <W lemma="trotz" msd="SP" tag="APPR" in="7:struct&3a;contr" out="2:nobj">trotz</W>
 <W lemma="befriedigend" msd="AN" tag="ADJA" in="1:attr" out="">befriedigender</W>
-<W lemma="Leistung" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">Leistung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;subj|-39:coref-id" out="1:nobj|43:coref-id">der</W>
+<W lemma="Leistung" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">Leistung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-39:coref-id|-1:pobj.subj|-1:{agent}" out="1:nobj|43:coref-id">der</W>
 <W lemma="Spieler" msd="NC" tag="NN" in="-1:nobj" out="">Spieler</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">gegen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Trabzonspor</W>
@@ -86,12 +86,12 @@
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-11:cond|1:subj|8:vobj|9:pnct|39:coref-prg">können</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|7:[subj]" out="1:prg&3a;epi">wir</W>
 <W lemma="vielleicht" msd="AN" tag="ADJD" in="-1:prg&3a;epi" out="">vielleicht</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="5:time&3a;succ" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="5:succ" out="1:nobj">im</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Nachhinein</W>
 <W lemma="über" msd="SP" tag="APPR" in="3:pobj" out="2:nobj">über</W>
 <W lemma="außergewöhnlich" msd="AN" tag="ADJA" in="1:attr" out="">außergewöhnliche</W>
 <W lemma="Bezahlung" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Bezahlung</W>
-<W lemma="reden" msd="VAF" tag="VVINF" in="-8:vobj" out="-5:time&3a;succ|-3:pobj|-7:[subj]">reden</W>
+<W lemma="reden" msd="VAF" tag="VVINF" in="-8:vobj" out="-3:pobj|-7:[subj]|-5:succ">reden</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="Startgeld" msd="NC" tag="NN" in="" out="1:pnct|3:conj|9:pnct|10:pnct">Startgeld</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -112,8 +112,8 @@
 <W lemma="Teamchef" msd="NC" tag="NN" in="-1:nobj" out="">Teamchef</W>
 <W lemma="Pierre" msd="NP" tag="NE" in="1:namef" out="">Pierre</W>
 <W lemma="Larsen" msd="NP" tag="NE" in="-3:appr" out="-1:namef">Larsen</W>
-<W lemma="erklären" msd="VA" tag="VVFIN" in="" out="-4:subj|1:time&3a;succ|6:pnct|7:dobj|17:pnct">erklärte</W>
-<W lemma="nach" msd="SP" tag="APPR" in="-1:time&3a;succ" out="1:nobj">nach</W>
+<W lemma="erklären" msd="VA" tag="VVFIN" in="" out="-4:subj|6:pnct|7:dobj|17:pnct|1:succ">erklärte</W>
+<W lemma="nach" msd="SP" tag="APPR" in="-1:succ" out="1:nobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-114:coref-var" out="3:nobj">dem</W>
 <W lemma="gestrig" msd="AN" tag="ADJA" in="2:attr" out="">gestrigen</W>
 <W lemma="unfruchtbar" msd="AN" tag="ADJA" in="1:attr" out="">unfruchtbaren</W>
@@ -157,8 +157,8 @@
 <p>
 <s>
 <W lemma="davon" msd="RG" tag="PAV" in="-6:coref|1:subj" out="">Davon</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|3:preds|5:pnct">war</W>
-<W lemma="jedoch" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">jedoch</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:eval|3:preds|5:pnct">war</W>
+<W lemma="jedoch" msd="RG" tag="ADV" in="-1:eval" out="">jedoch</W>
 <W lemma="keineswegs" msd="RG" tag="ADV" in="1:neg" out="">keineswegs</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:preds" out="-1:neg|1:nobj">die</W>
 <W lemma="Rede" msd="NC" tag="NN" in="-1:nobj" out="">Rede</W>

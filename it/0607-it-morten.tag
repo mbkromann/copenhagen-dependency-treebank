@@ -89,8 +89,8 @@
 <W lemma="innanzitutto" msd="RG" tag="ADV" in="-2:prg" out="-1:pnct|1:pnct">innanzitutto</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:dobj" out="1:nobj">le</W>
-<W lemma="abitudine" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr&3a;dobj#|3:attr|4:ref|5:relr">abitudini</W>
-<W lemma="alimentare&7c;alimentario" msd="AN" tag="ADJ" in="-1:attrr&3a;dobj#" out="">alimentari</W>
+<W lemma="abitudine" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|4:ref|5:relr|1:aobj.dobj|1:{patient}#">abitudini</W>
+<W lemma="alimentare&7c;alimentario" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">alimentari</W>
 <W lemma="poco" msd="RG" tag="ADV" in="1:degr" out="">poco</W>
 <W lemma="sano" msd="AN" tag="ADJ" in="-3:attr" out="-1:degr">sane</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-4:ref|1:subj|2:[subj]" out="">che</W>
@@ -156,7 +156,7 @@
 <W lemma="raggiungere" msd="VAG" tag="VER&3a;geru" in="-10:cons" out="1:man|2:dobj">raggiungendo</W>
 <W lemma="così" msd="RG" tag="ADV" in="-1:man" out="">così</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="1:nobj">una</W>
-<W lemma="perdita" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|4:attr|1:pobj.dobj|1:{patient}">perdita</W>
+<W lemma="perdita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr|4:attr">perdita</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="peso" msd="NC" tag="NOM" in="-1:nobj" out="">peso</W>
 <W lemma="mensile" msd="AN" tag="ADJ" in="-3:attr" out="">mensile</W>

@@ -22,12 +22,12 @@
 <W lemma="mögen" msd="VA" tag="VMFIN" in="14:qobj" out="-6:pnct|-1:subj|11:vobj|12:pnct|13:pnct">möchten</W>
 <W lemma="Modell" msd="NC" tag="NN" in="10:dobj" out="1:pobj">Modell</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">für</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:space&3a;loc">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:loc">ein</W>
 <W lemma="derartig" msd="AN" tag="ADJA" in="-1:attr" out="">derartiges</W>
 <W lemma="Eigenlob" msd="NC" tag="NN" in="-2:nobj" out="2:conj">Eigenlob</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Schulterklopfen" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Schulterklopfen</W>
-<W lemma="in" msd="SP" tag="APPR" in="-5:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-5:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="Medium" msd="NC" tag="NN" in="-1:nobj" out="">Medien</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-11:vobj" out="-12:[subj]|-10:dobj">sein</W>
@@ -46,7 +46,7 @@
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-4:ref|10:subj" out="">die</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="9:dobj" out="8:predo">sich</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="8:space&3a;loc" out="1:nobj|3:conj|47:coref-var">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="8:loc" out="1:nobj|3:conj|47:coref-var">im</W>
 <W lemma="Fernsehen" msd="NC" tag="NN" in="-1:nobj" out="">Fernsehen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj">den</W>
@@ -54,7 +54,7 @@
 <W lemma="zu" msd="SP" tag="APPR" in="2:pobj" out="1:nobj">zu</W>
 <W lemma="Interview" msd="NC" tag="NN" in="-1:nobj" out="">Interviews</W>
 <W lemma="bereit" msd="AN" tag="ADJD" in="-8:predo" out="-2:pobj|2:man">bereit</W>
-<W lemma="erklären" msd="VA" tag="VVFIN" in="-14:relr" out="-10:subj|-9:dobj|-8:space&3a;loc|35:coref-res">erklären</W>
+<W lemma="erklären" msd="VA" tag="VVFIN" in="-14:relr" out="-10:subj|-9:dobj|-8:loc|35:coref-res">erklären</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-2:man" out="2:nobj">mit</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="1:pnct" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-2:nobj" out="-1:pnct|1:attr|2:nobj|23:pnct">der</W>
@@ -68,8 +68,8 @@
 <W lemma="hinaus" msd="RG" tag="ADV" in="-1:pobj" out="">hinaus</W>
 <W lemma="laufen" msd="VA" tag="VVFIN" in="-5:relr" out="-3:subj|-2:avobj|1:pnct|15:nobj">läuft</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="gerade" msd="AN" tag="ADJD" in="1:prg&3a;eval" out="">gerade</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="13:dobj" out="-1:prg&3a;eval|1:attr|2:nobj">die</W>
+<W lemma="gerade" msd="AN" tag="ADJD" in="1:eval" out="">gerade</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="13:dobj" out="-1:eval|1:attr|2:nobj">die</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neueste</W>
 <W lemma="Platte" msd="NC" tag="NN" in="-2:nobj" out="">Platte</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="10:pobj" out="1:nobj">als</W>
@@ -114,9 +114,9 @@
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="zu" msd="SP" tag="APPR" in="2:preds" out="1:nobj">zu</W>
 <W lemma="Tod" msd="NC" tag="NN" in="-1:nobj" out="">Tode</W>
-<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|-2:preds|1:pnct|2:cause&3a;reas">siegt</W>
+<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|-2:preds|1:pnct|2:reas">siegt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="indem" msd="CS" tag="KOUS" in="-2:cause&3a;reas" out="6:vobj">indem</W>
+<W lemma="indem" msd="CS" tag="KOUS" in="-2:reas" out="6:vobj">indem</W>
 <W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
 <W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">so</W>
 <W lemma="viel" msd="PI" tag="PIAT" in="1:degr" out="-1:degr">viel</W>
@@ -145,8 +145,8 @@
 <W lemma="Ziel" msd="NC" tag="NN" in="-1:nobj" out="">Ziel</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:conj" out="-1:coord|1:nobj">die</W>
-<W lemma="Bedeutung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj&3a;subj">Bedeutung</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj&3a;subj" out="1:possr">der</W>
+<W lemma="Bedeutung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Bedeutung</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:possr">der</W>
 <W lemma="Musik" msd="NC" tag="NN" in="-1:possr" out="">Musik</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-11:vobj" out="-10:time&3a;prec|-7:dobj|1:pnct">waren</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -159,9 +159,9 @@
 <p>
 <s>
 <W lemma="davon" msd="RG" tag="PAV" in="-60:coref|1:pobj" out="">DAVON</W>
-<W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:pobj|1:subj|2:space&3a;loc|5:dobj|6:pnct">gibt</W>
+<W lemma="geben" msd="VA" tag="VVFIN" in="" out="-1:pobj|1:subj|2:loc|5:dobj|6:pnct">gibt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-2:space&3a;loc" out="1:nobj">im</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-2:loc" out="1:nobj">im</W>
 <W lemma="Buch" msd="NC" tag="NN" in="-1:nobj" out="">Buch</W>
 <W lemma="wesentlich" msd="AN" tag="ADJD" in="1:degr" out="">wesentlich</W>
 <W lemma="mehr" msd="RG" tag="ADV" in="-5:dobj" out="-1:degr">mehr</W>
@@ -183,9 +183,9 @@
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="3:pnct" out="">"</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-72:coref-id|2:subj" out="1:nobj">Die</W>
 <W lemma="Rockmusik" msd="NC" tag="NN" in="-1:nobj" out="">ROCKMUSIK</W>
-<W lemma="definieren" msd="VA" tag="VVFIN" in="-12:xpl" out="-3:pnct|-2:subj|1:robj|2:space&3a;loc|4:pobj|7:pnct|35:pnct">definiert</W>
+<W lemma="definieren" msd="VA" tag="VVFIN" in="-12:xpl" out="-3:pnct|-2:subj|1:robj|2:loc|4:pobj|7:pnct|35:pnct">definiert</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
-<W lemma="in" msd="SP" tag="APPR" in="-2:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">in</W>
 <W lemma="Dänemark" msd="NP" tag="NE" in="-1:nobj" out="">Dänemark</W>
 <W lemma="über" msd="SP" tag="APPR" in="-4:pobj" out="1:nobj">über</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:ref|29:relr">die</W>
@@ -213,16 +213,16 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="meist" msd="PI" tag="PIDAT" in="-1:attr" out="">meisten</W>
 <W lemma="Zuschauer" msd="NC" tag="NN" in="-2:nobj" out="">Zuschauer</W>
-<W lemma="vor" msd="SP" tag="APPR" in="3:space&3a;dir" out="1:nobj">vor</W>
+<W lemma="vor" msd="SP" tag="APPR" in="3:dir" out="1:nobj">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">die</W>
 <W lemma="Mattscheibe" msd="NC" tag="NN" in="-1:nobj" out="">Mattscheibe</W>
-<W lemma="locken" msd="VAF" tag="VVINF" in="-8:conj" out="-25:[subj]|-7:coord|-6:dobj|-3:space&3a;dir">locken</W>
+<W lemma="locken" msd="VAF" tag="VVINF" in="-8:conj" out="-25:[subj]|-7:coord|-6:dobj|-3:dir">locken</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-29:relr" out="-26:subj|-25:time|-21:man">können</W>
 <W lemma="." msd="XP" tag="$." in="-35:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:namef" out="">C.V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-1:namef">Jørgensen</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:prg&3a;eval|2:preds|5:pnct">ist</W>
-<W lemma="also" msd="RG" tag="ADV" in="-1:prg&3a;eval" out="">also</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:eval|2:preds|5:pnct">ist</W>
+<W lemma="also" msd="RG" tag="ADV" in="-1:eval" out="">also</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="lausig" msd="AN" tag="ADJA" in="-1:attr" out="">lausiger</W>
 <W lemma="Rockmusiker" msd="NC" tag="NN" in="-2:nobj" out="">Rockmusiker</W>

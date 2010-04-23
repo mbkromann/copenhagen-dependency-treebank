@@ -77,8 +77,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:attr" out="1:attr">d’acqua</W>
 <W lemma="eccellente" msd="AN" tag="ADJ" in="-1:attr" out="">eccellente</W>
 <W lemma="in" msd="SP" tag="PRE" in="-6:loc" out="1:nobj">in</W>
-<W lemma="bottiglia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">bottiglie</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:const">di</W>
+<W lemma="bottiglia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">bottiglie</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:const">di</W>
 <W lemma="plastica" msd="NC" tag="NOM" in="-1:const" out="">plastica</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 <W lemma="se" msd="CS" tag="CON" in="9:cond" out="3:vobj">Se</W>

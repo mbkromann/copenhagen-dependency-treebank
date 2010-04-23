@@ -15,7 +15,7 @@
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="haber~que" msd="VMfin" in="-6:conj" out="1:vobj|6:pnct|21:conj">hay que</W>
 <W lemma="haber" msd="VHinf" in="-1:vobj" out="1:dobj">haber</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="5:conj|9:conj|13:conj|1:pobj|1:{arg}">senderos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:pobj|1:{arg}|5:conj|9:conj|13:conj">senderos</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="actividad" msd="NC" in="-1:nobj" out="1:attr">actividad</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">física</W>
@@ -191,8 +191,8 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="ser" msd="VSfin" in="" out="-8:struct|-6:loc|1:preds">es</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:nobj">la</W>
-<W lemma="gente" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|3:ref|4:rel">gente</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="gente" msd="NC" in="-1:nobj" out="3:ref|4:rel|1:pobj|1:{arg}#">gente</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="estado" msd="NC" in="-1:nobj" out="">estado</W>
 <W lemma="que" msd="CQUE" in="-3:ref|1:subj" out="">que</W>
 <W lemma="ir" msd="VLfin" in="-4:rel" out="-1:subj|1:pobj|3:man|4:loc|8:pnct|12:conj|19:conj|35:conj">van</W>

@@ -71,8 +71,8 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">lo</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="7:subj|8:[subj]" out="1:nobj">la</W>
-<W lemma="existencia" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">existencia</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="existencia" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">existencia</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:assoc-scope" out="1:nobj|11:coref-id">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:about#">crÃ­ticos</W>
 <W lemma="de" msd="PREP" in="-1:about#" out="1:nobj">de</W>
@@ -158,8 +158,8 @@
 <W lemma="deber" msd="VLfin" in="" out="-20:cause|-18:cond|-3:subj|-2:neg|-1:robj|1:pobj|6:pnct|7:conc|20:pnct">debe</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">falta</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="falta" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">falta</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="tiempo" msd="NC" in="-1:nobj" out="">tiempo</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
 <W lemma="aunque" msd="CSUBX" in="-7:conc" out="2:vobj">aunque</W>

@@ -72,8 +72,8 @@
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:dobj">con</W>
 <W lemma="suyo" msd="PPO" in="-1:dobj" out="2:possd">su</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">grotesca</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:possd" out="-1:attr|1:pobj&3a;dobj#|4:time">detención</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;dobj#" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-2:possd" out="-1:attr|4:time|1:pobj.dobj|1:{patient}#">detención</W>
+<W lemma="del" msd="PDEL" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">del</W>
 <W lemma="presidente" msd="NC" in="-1:nobj" out="1:attr">presidente</W>
 <W lemma="bosnio" msd="ADJ" in="-1:attr" out="">bosnio</W>
 <W lemma="cuando" msd="CSUBX" in="-4:time" out="1:vobj">cuando</W>
@@ -93,8 +93,8 @@
 <W lemma="Portugal" msd="NP" in="-1:nobj" out="1:pnct|2:appr">Portugal</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-2:appr" out="1:fpreds">país</W>
-<W lemma="presidente" msd="NC" in="-1:fpreds" out="1:pobj&3a;dobj#">presidente</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="presidente" msd="NC" in="-1:fpreds" out="1:pobj.dobj|1:{patient}#">presidente</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="CE" msd="NP" in="-1:nobj" out="">CE</W>
 <W lemma="." msd="FS" in="-35:pnct" out="">.</W>

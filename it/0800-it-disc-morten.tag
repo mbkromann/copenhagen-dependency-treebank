@@ -1,7 +1,7 @@
 <W lemma="oggi" msd="RG" tag="ADV" in="3:time" out="1:pnct">Oggi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="Eva" msd="NP" tag="NPR" in="1:subj" out="">Eva</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1|1:preds">è</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|-1:subj|1:preds|4:loc|19:conj|28:pnct|39:+CONJ/(e)/ATTR1">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="volto" morph="volto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">volto</W>
 <W lemma="stimare" morph="stimare +to/DEVERB&3a;pas.part" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">stimato</W>
@@ -77,8 +77,8 @@
 <W lemma="avere" morph="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:vobj">aver</W>
 <W lemma="frequentare" morph="frequentare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dobj">frequentato</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="scuola" morph="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">scuola</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
+<W lemma="scuola" morph="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">scuola</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="educazione" morph="educazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">educazione</W>
 <W lemma="fisico" morph="fisico" msd="AN" tag="ADJ" in="-1:attr" out="">fisica</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
@@ -168,8 +168,8 @@
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Gentofte</W>
 <W lemma="," msd="XP" tag="PON" in="-22:pnct" out="">,</W>
 <W lemma="a" msd="SP" tag="PRE" in="-16:time" out="1:nobj">a</W>
-<W lemma="conclusione" morph="concludere +sione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">conclusione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="conclusione" morph="concludere +sione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">conclusione</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">lavoro</W>
 <W lemma="semestrale" morph="semestre +ale/DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-1:attr" out="">semestrale</W>
 <W lemma="offrire" morph="offrire" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:iobj">offerto</W>
@@ -196,8 +196,8 @@
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="bisogno" morph="bisogno" msd="NC" tag="NOM" in="-2:nobj" out="-1:degr|1:pobj">bisogno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="sussidio" morph="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#">sussidio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="sussidio" morph="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">sussidio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="disoccupazione" morph="occupazione -dis/NEG&3a;oppo occupare +zione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-19:pnct" out="">"</W>
 <W lemma="dire" morph="dire" msd="VADR" tag="VER&3a;pres" in="-56:+CONJ/(e)/ATTR3" out="-20:qobj|2:subj|3:pnct">dice</W>

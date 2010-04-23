@@ -1,5 +1,5 @@
 <W lemma="el" msd="ART" in="27:subj|28:[subj]" out="1:nobj">La</W>
-<W lemma="postura" msd="NC" in="-1:nobj" out="5:pobj|1:pobj|1:{arg}">postura</W>
+<W lemma="postura" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|5:pobj">postura</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="Dinamarca" msd="NP" in="-1:nobj" out="1:pobj">Dinamarca</W>
 <W lemma="ante" msd="PREP" in="-1:pobj" out="1:nobj">ante</W>
@@ -7,7 +7,7 @@
 <W lemma="desde" msd="PREP" in="-5:pobj" out="1:nobj">desde</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">dramático</W>
-<W lemma="desmantelamiento" msd="NC" in="-2:nobj" out="-1:attr|8:loc|15:time|1:pobj|1:{arg}">desmantelamiento</W>
+<W lemma="desmantelamiento" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}|8:loc|15:time">desmantelamiento</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="protestar" msd="VLfin" in="-1:nobj" out="1:attr">protesta</W>
@@ -155,8 +155,8 @@
 <W lemma="haber" msd="VHfin" in="-8:conj" out="-1:coord|1:vobj">ha</W>
 <W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="1:dobj">construído</W>
 <W lemma="@card@" msd="CARD" in="-1:dobj" out="1:nobj">20-30</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#|3:loc">fábricas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="3:loc|1:pobj.dobj|1:{patient}#">fábricas</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="cemento" msd="NC" in="-1:nobj" out="">cemento</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="2:nobj">en</W>
 <W lemma="todo" msd="QU" in="2:ext" out="">todo</W>

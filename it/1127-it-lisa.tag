@@ -36,8 +36,8 @@
 <W lemma="sposare" msd="VADR" tag="VER&3a;pres" in="-20:relr" out="-4:subj|-6:dobj|-2:struct|1:time">sposa</W>
 <W lemma="dopo" msd="RG" tag="ADV" in="-1:time" out="1:nobj">dopo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="morta&7c;morte&7c;morto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">morte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="">del</W>
+<W lemma="morta&7c;morte&7c;morto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">morte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="">del</W>
 <W lemma="marito" msd="NC" tag="NOM" in="-33:pnct" out="">marito</W>
 <W lemma="." msd="XP" tag="SENT" in="-34:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">Il</W>
@@ -94,8 +94,8 @@
 <W lemma="considerare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">considerarsi</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-7:preds" out="2:nobj|17:cause">il</W>
 <W lemma="migliore" msd="AN" tag="ADJ" in="1:attr" out="">migliore</W>
-<W lemma="romanzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj|13:assoc-scope|26:assoc-agent|36:coref-id">romanzo</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="2:nobj">di</W>
+<W lemma="romanzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|13:assoc-scope|26:assoc-agent|36:coref-id|1:pobj.subj|1:{agent}">romanzo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Helle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Stangerup</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>

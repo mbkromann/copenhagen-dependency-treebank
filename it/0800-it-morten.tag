@@ -77,8 +77,8 @@
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj">aver</W>
 <W lemma="frequentare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj">frequentato</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">scuola</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;arg#" out="1:nobj">di</W>
+<W lemma="scuola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">scuola</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="educazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">educazione</W>
 <W lemma="fisico" msd="AN" tag="ADJ" in="-1:attr" out="">fisica</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
@@ -135,8 +135,8 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="3:nobj">nell'</W>
 <W lemma="offrire" msd="VAF" tag="VER&3a;infi" in="" out="">offrire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
-<W lemma="assunzione" msd="NC" tag="NOM" in="-3:nobj" out="1:pobj&3a;dobj#">assunzione</W>
-<W lemma="a" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">a</W>
+<W lemma="assunzione" msd="NC" tag="NOM" in="-3:nobj" out="1:pobj.dobj|1:{patient}#">assunzione</W>
+<W lemma="a" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">a</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">tempo</W>
 <W lemma="pieno" msd="AN" tag="ADJ" in="-1:attr" out="">pieno</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -196,8 +196,8 @@
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="bisogno" msd="NC" tag="NOM" in="-2:nobj" out="-1:degr|1:pobj">bisogno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#">sussidio</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">sussidio</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-19:pnct" out="">"</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-20:qobj|2:subj|3:pnct">dice</W>

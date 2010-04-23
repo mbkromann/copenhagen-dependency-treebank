@@ -146,8 +146,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:possr&3a;subj|3:nobj">la</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-21:coref|-1:possr&3a;subj" out="">sua</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">prima</W>
-<W lemma="opera" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:pobj&3a;const">opera</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:pobj&3a;const" out="1:nobj">in</W>
+<W lemma="opera" msd="NC" tag="NOM" in="-3:nobj" out="-1:attr|1:attr|1:{const}">opera</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:attr|-1:{const}" out="1:nobj">in</W>
 <W lemma="argento" msd="NC" tag="NOM" in="-1:nobj" out="">argento</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="francobollo" msd="NC" tag="NOM" in="" out="1:attr">Francobolli</W>
@@ -187,8 +187,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="fino" msd="CS" tag="CON" in="8:dur" out="1:pobj|5:pnct">Fino</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
-<W lemma="esaurimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">esaurimento</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj|-10:assoc-other" out="1:nobj">della</W>
+<W lemma="esaurimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">esaurimento</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-10:assoc-other|-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="tiratura" msd="NC" tag="NOM" in="-1:nobj" out="">tiratura</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:attr">gli</W>

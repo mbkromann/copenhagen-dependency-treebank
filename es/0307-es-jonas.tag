@@ -5,13 +5,13 @@
 <W lemma="cierto" msd="ADJ" in="-1:preds" out="12:pnct">cierto</W>
 <W lemma="que" msd="CQUE" in="-2:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="9:subj" out="1:nobj|5:conj">el</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">subsidio</W>
-<W lemma="para" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">para</W>
+<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">subsidio</W>
+<W lemma="para" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">para</W>
 <W lemma="hijo" msd="NC" in="-1:nobj" out="">hijos</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-5:conj" out="-1:coord|1:nobj">el</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">subsidio</W>
-<W lemma="para" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">para</W>
+<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">subsidio</W>
+<W lemma="para" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">para</W>
 <W lemma="familia" msd="NC" in="-1:nobj" out="">familias</W>
 <W lemma="desaparecer" msd="VLfin" in="" out="-9:subj">desaparecen</W>
 <W lemma="." msd="FS" in="-12:pnct" out="">.</W>
@@ -72,8 +72,8 @@
 <W lemma="ya~que" msd="CSUBF" in="-5:cause" out="">ya que</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">el</W>
 <W lemma="tercero" msd="ORD" in="-1:nobj" out="1:nobj">tercer</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">aÃ±o</W>
-<W lemma="del" msd="PDEL" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">aÃ±o</W>
+<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="instituto" msd="NC" in="-1:nobj" out="">instituto</W>
 <W lemma="ser" msd="VSfin" in="" out="-5:subj|2:preds">es</W>
 <W lemma="muy" msd="ADV" in="1:mod" out="">muy</W>

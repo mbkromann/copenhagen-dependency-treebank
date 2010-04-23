@@ -17,8 +17,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="en" msd="PREP" in="-3:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">política</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">política</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:conj">inmigración</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="asilo" msd="NC" in="-2:conj" out="-1:coord|1:attrr#">asilo</W>
@@ -44,11 +44,11 @@
 <W lemma="estado" msd="NC" in="-1:nobj" out="">estado</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:preds">será</W>
 <W lemma="responsable" msd="ADJ" in="-1:preds" out="1:nobj">responsable</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="6:ref|8:relr|1:pobj|1:{arg}">deltratamiento</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}|6:ref|8:relr">deltratamiento</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="solicitud" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">solicitudes</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="solicitud" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">solicitudes</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="asilo" msd="NC" in="-1:nobj" out="">asilo</W>
 <W lemma="que" msd="CQUE" in="-6:ref|2:dobj" out="">que</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
@@ -73,8 +73,8 @@
 <W lemma="impedir" msd="VLinf" in="-2:vobj" out="1:dobj">impedir</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="5:vobj">que</W>
 <W lemma="el" msd="ART" in="4:subj|5:[subj]" out="1:nobj">el</W>
-<W lemma="solicitante" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">solicitante</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="solicitante" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">solicitante</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="asilo" msd="NC" in="-1:nobj" out="">asilo</W>
 <W lemma="poder" msd="VMfin" in="-5:vobj" out="-4:subj|1:vobj">pueda</W>
 <W lemma="solicitar" msd="VLinf" in="-1:vobj" out="-5:[subj]|1:dobj|3:loc|6:man|7:pnct|8:cause">solicitar</W>
@@ -100,8 +100,8 @@
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="que" msd="CQUE" in="-2:dobj" out="">que</W>
 <W lemma="un" msd="ART" in="17:subj|18:[subj]" out="1:nobj">un</W>
-<W lemma="solicitante" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">solicitante</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="solicitante" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">solicitante</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="asilo" msd="NC" in="-1:nobj" out="">asilo</W>
 <W lemma="," msd="CM" in="2:pnct" out="">,</W>
 <W lemma="una~vez~que" msd="CSUBF" in="1:time" out="">una vez que</W>
@@ -173,8 +173,8 @@
 <W lemma="ver" msd="VLinf" in="-1:vobj" out="1:pobj">ver</W>
 <W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">Tratado</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">Tratado</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Unión</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
@@ -182,8 +182,8 @@
 <W lemma="novedad" msd="NC" in="-1:nobj" out="1:loc">novedad</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">Tratado</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">Tratado</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Unión</W>
 <W lemma="ser" msd="VSfin" in="" out="-8:preds|1:subj|23:pnct">es</W>

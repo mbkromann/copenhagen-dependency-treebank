@@ -81,8 +81,8 @@
 <W lemma="approvazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">approvazione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">della</W>
 <W lemma="cassa" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">cassa</W>
-<W lemma="mutuo" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj&3a;dobj#">mutua</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="mutuo" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">mutua</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="2:time" out="1:nobj">Nel</W>

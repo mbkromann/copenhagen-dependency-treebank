@@ -2,10 +2,10 @@
 <s>
 <W lemma="dopo" msd="RG" tag="ADV" in="15:time" out="1:nobj|9:pnct">Dopo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
-<W lemma="allenamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|3:pobj&3a;subj|5:loc">allenamento</W>
+<W lemma="allenamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|3:pobj.subj|3:{agent}|5:loc">allenamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="ieri" msd="RG" tag="ADV" in="-1:nobj" out="">ieri</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:pobj.subj|-3:{agent}" out="1:nobj">della</W>
 <W lemma="nazionale" msd="AN" tag="ADJ" in="-1:nobj" out="">nazionale</W>
 <W lemma="a" msd="SP" tag="PRE" in="-5:loc" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Nyborg</W>
@@ -23,8 +23,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
 <W lemma="giocare" msd="VADR" tag="VER&3a;futu" in="-2:relr" out="-1:subj|1:loc|8:time|9:loc">giocheranno</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nella</W>
-<W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;dobj#|3:pobj">partita</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;dobj#" out="1:nobj">di</W>
+<W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="3:pobj|1:pobj.dobj|1:{patient}#">partita</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="inizio" msd="NC" tag="NOM" in="-1:nobj" out="">inizio</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-3:pobj" out="1:nobj">contro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
@@ -40,10 +40,10 @@
 <s>
 <W lemma="con" msd="SP" tag="PRE" in="16:man" out="1:nobj|7:pnct">Con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
-<W lemma="assenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">assenza</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
-<W lemma="giocatore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">giocatori</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="assenza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">assenza</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
+<W lemma="giocatore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">giocatori</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Brøndby</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Jakob</W>
@@ -161,8 +161,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">Il</W>
-<W lemma="ritiro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">ritiro</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="2:nobj">di</W>
+<W lemma="ritiro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">ritiro</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Olsen</W>
 <W lemma="dare" msd="VADR" tag="VER&3a;pres" in="" out="-5:subj|1:focal|2:dobj|9:pnct|14:pnct">dà</W>

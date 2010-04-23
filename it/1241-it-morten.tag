@@ -89,8 +89,8 @@
 <W lemma="acquistare" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-1:time&3a;cont|-12:struct&3a;contr|1:dobj">acquistano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">CD</W>
-<W lemma="reclamizzare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:space&3a;loc">reclamizzati</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:space&3a;loc" out="1:nobj">in</W>
+<W lemma="reclamizzare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">reclamizzati</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
 <W lemma="TV" msd="NC" tag="NOM" in="-1:nobj" out="">TV</W>
 <W lemma="&gt;&gt;" msd="XP" tag="PON" in="1:pnct" out="">&gt;&gt;</W>
 <W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-1:pnct|-7:qobj|2:subj|9:pnct">afferma</W>
@@ -147,8 +147,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="3:nobj">del</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="2:attr" out="">mio</W>
 <W lemma="doppio" msd="AN" tag="ADJ" in="1:attr" out="">doppio</W>
-<W lemma="ruolo" msd="NC" tag="NOM" in="-3:nobj" out="-2:attr|-1:attr|1:space&3a;loc">ruolo</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:space&3a;loc" out="1:nobj">in</W>
+<W lemma="ruolo" msd="NC" tag="NOM" in="-3:nobj" out="-2:attr|-1:attr|1:loc">ruolo</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">in</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj|-44:coref-res" out="1:nobj">questa</W>
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>

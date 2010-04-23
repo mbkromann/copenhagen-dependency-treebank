@@ -173,8 +173,8 @@
 <W lemma="utilizzare" msd="VAG" tag="VER&3a;geru" in="-1:man" out="1:dobj">utilizzando</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">delle</W>
-<W lemma="struttura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">strutture</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="struttura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">strutture</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj">Den</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">Bergske</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">Nyhedstjeneste</W>
@@ -206,8 +206,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="-16:source" out="1:nobj|7:pnct">in</W>
 <W lemma="base" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">base</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">all'</W>
-<W lemma="istanza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">istanza</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|4:appa">dell'</W>
+<W lemma="istanza" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">istanza</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|4:appa">dell'</W>
 <W lemma="amministratore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">amministratore</W>
 <W lemma="giudiziario" msd="AN" tag="ADJ" in="-1:attr" out="">giudiziario</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>

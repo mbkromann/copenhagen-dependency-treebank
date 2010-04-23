@@ -40,10 +40,10 @@
 <W lemma="bevor" msd="CS" tag="KOUS" in="-2:time" out="8:vobj">bevor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:[subj]|7:subj" out="1:nobj">der</W>
 <W lemma="Bundesanwalt" msd="NC" tag="NN" in="-1:nobj" out="">Bundesanwalt</W>
-<W lemma="in" msd="SP" tag="APPR" in="3:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Sache" msd="NC" tag="NN" in="-1:nobj" out="">Sache</W>
-<W lemma="Stellung" msd="NC" tag="NN" in="1:dobj" out="-3:space&3a;loc">Stellung</W>
+<W lemma="Stellung" msd="NC" tag="NN" in="1:dobj" out="-3:loc">Stellung</W>
 <W lemma="beziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:dobj|-6:[subj]">bezogen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-1:vobj">hat</W>
 <W lemma="." msd="XP" tag="$." in="-32:pnct" out="">.</W>
@@ -52,7 +52,7 @@
 <p>
 <s>
 <W lemma="damit" msd="RG" tag="PAV" in="1:cons" out="">Damit</W>
-<W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="-1:cons|1:subj|2:man|3:dobj|11:pobj|13:pnct|14:cause&3a;reas|47:pnct">nimmt</W>
+<W lemma="nehmen" msd="VA" tag="VVFIN" in="" out="-1:cons|1:subj|2:man|3:dobj|11:pobj|13:pnct|47:pnct|14:reas">nimmt</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:subj|-37:coref" out="53:coref">sie</W>
 <W lemma="buchstäblich" msd="AN" tag="ADJD" in="-2:man" out="">buchstäblich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:dobj" out="2:nobj|5:pnct|7:appa">den</W>
@@ -66,7 +66,7 @@
 <W lemma="beim" msd="SP+P" tag="APPRART" in="-11:pobj" out="1:nobj">beim</W>
 <W lemma="Wort" msd="NC" tag="NN" in="-1:nobj" out="">Wort</W>
 <W lemma="," msd="XP" tag="$," in="-13:pnct" out="">,</W>
-<W lemma="wenn" msd="CS" tag="KOUS" in="-14:cause&3a;reas" out="13:vobj">wenn</W>
+<W lemma="wenn" msd="CS" tag="KOUS" in="-14:reas" out="13:vobj">wenn</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-5:coref-var|12:subj" out="2:nobj">der</W>
 <W lemma="stellvertretend" msd="AN" tag="ADJA" in="1:attr" out="">stellvertretende</W>
 <W lemma="Vorsitzende" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:possr">Vorsitzende</W>
@@ -90,13 +90,13 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ob" msd="CS" tag="KOUS" in="-2:dobj" out="10:vobj">ob</W>
 <W lemma="es" msd="PP" tag="PPER" in="8:[subj]|9:expl" out="">es</W>
-<W lemma="in" msd="SP" tag="APPR" in="6:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="6:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Verwaltung" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Verwaltung</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:possr" out="1:nobj">von</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|-35:coref-id" out="26:coref-var">Ungbos</W>
 <W lemma="zu" msd="SP" tag="APPR" in="2:dobj" out="1:nobj">zu</W>
-<W lemma="Rechtsverstoß" msd="NC" tag="NN" in="-1:nobj" out="-6:space&3a;loc">Rechtsverstößen</W>
+<W lemma="Rechtsverstoß" msd="NC" tag="NN" in="-1:nobj" out="-6:loc">Rechtsverstößen</W>
 <W lemma="kommen" msd="VAP" tag="VVPP" in="1:vobj" out="-2:dobj|-8:[subj]">gekommen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-10:vobj" out="-1:vobj|-9:expl">ist</W>
 <W lemma="." msd="XP" tag="$." in="-47:pnct" out="">.</W>
@@ -110,11 +110,11 @@
 <W lemma="mögen" msd="VA" tag="VMFIN" in="" out="-1:subj|7:vobj|36:pnct">möchte</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">den</W>
 <W lemma="Polizeichef" msd="NC" tag="NN" in="-1:nobj" out="">Polizeichef</W>
-<W lemma="in" msd="SP" tag="APPR" in="4:space&3a;loc" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="4:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Anzeige" msd="NC" tag="NN" in="-1:nobj" out="">Anzeige</W>
 <W lemma="darum" msd="RG" tag="PAV" in="1:pobj" out="3:dobj">darum</W>
-<W lemma="bitten" msd="VAF" tag="VVINF" in="-7:vobj" out="-6:dobj|-4:space&3a;loc|-1:pobj|1:pnct">bitten</W>
+<W lemma="bitten" msd="VAF" tag="VVINF" in="-7:vobj" out="-6:dobj|-1:pobj|-4:loc|1:pnct">bitten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:dobj" out="1:vobj">zu</W>
 <W lemma="untersuchen" msd="VAF" tag="VVINF" in="-1:vobj" out="1:pnct|2:dobj">untersuchen</W>
@@ -218,8 +218,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Zwangsauktion</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 <W lemma="150" msd="AC" tag="CARD" in="4:subj" out="1:nobj">150</W>
-<W lemma="Angestellte" msd="NC" tag="NN" in="-1:nobj" out="1:space&3a;loc">Angestellte</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-1:space&3a;loc" out="1:nobj">im</W>
+<W lemma="Angestellte" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Angestellte</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-1:loc" out="1:nobj">im</W>
 <W lemma="Hauptbüro" msd="NC" tag="NN" in="-1:nobj" out="">Hauptbüro</W>
 <W lemma="riskieren" msd="VA" tag="VVFIN" in="" out="-4:subj|1:dobj|20:conj">riskieren</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj">die</W>

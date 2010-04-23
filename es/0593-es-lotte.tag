@@ -178,8 +178,8 @@
 <W lemma="%" msd="PERCT" in="-1:nobj" out="1:pobj|1:{arg}">%</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj">gastos</W>
-<W lemma="por" msd="PREP" in="-1:pobj&3a;pobj" out="1:nobj">por</W>
+<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}">gastos</W>
+<W lemma="por" msd="PREP" in="-1:pobj.pobj|-1:{location}" out="1:nobj">por</W>
 <W lemma="metro" msd="NMEA" in="-1:nobj" out="1:attrr#">metro</W>
 <W lemma="cuadrado" msd="NC" in="-1:attrr#" out="">cuadrado</W>
 <W lemma="." msd="FS" in="-11:pnct" out="">.</W>
@@ -201,8 +201,8 @@
 <W lemma="%" msd="PERCT" in="-1:nobj" out="1:pobj|1:{arg}">%</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj">gastos</W>
-<W lemma="por" msd="PREP" in="-1:pobj&3a;pobj" out="1:nobj">por</W>
+<W lemma="gasto" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}">gastos</W>
+<W lemma="por" msd="PREP" in="-1:pobj.pobj|-1:{location}" out="1:nobj">por</W>
 <W lemma="metro" msd="NMEA" in="-1:nobj" out="1:attrr#|2:about|4:attr">metro</W>
 <W lemma="cuadrado" msd="NC" in="-1:attrr#" out="">cuadrado</W>
 <W lemma="de" msd="PREP" in="-2:about" out="1:nobj">de</W>
@@ -237,8 +237,8 @@
 <W lemma="ingresar" msd="VLadj" in="-1:preds" out="1:loc">ingresado</W>
 <W lemma="a" msd="PREP" in="-1:loc" out="1:nobj">a</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="hogar" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">hogar</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="hogar" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">hogar</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="anciano" msd="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-31:coref-id|5:subj" out="1:nobj">el</W>
@@ -248,8 +248,8 @@
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="tener" msd="VLfin" in="" out="-37:cond|-5:subj|-1:neg|1:dobj|8:pnct">tiene</W>
 <W lemma="ninguno" msd="QU" in="-1:dobj" out="1:nobj">ninguna</W>
-<W lemma="influencia" msd="NC" in="-1:nobj" out="1:pobj&3a;pobj">influencia</W>
-<W lemma="en" msd="PREP" in="-1:pobj&3a;pobj" out="1:nobj">en</W>
+<W lemma="influencia" msd="NC" in="-1:nobj" out="1:pobj.pobj|1:{location}">influencia</W>
+<W lemma="en" msd="PREP" in="-1:pobj.pobj|-1:{location}" out="1:nobj">en</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">su</W>
 <W lemma="subsidio" msd="NC" in="-1:nobj|-59:coref-var" out="1:goal#">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>

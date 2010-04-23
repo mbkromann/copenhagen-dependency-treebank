@@ -102,8 +102,8 @@
 <W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-4:conj" out="-1:coord|1:preds">fu</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="2:nobj">un</W>
 <W lemma="vero" msd="AN" tag="ADJ" in="1:attr" out="">vero</W>
-<W lemma="colpo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;subj">colpo</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">di</W>
+<W lemma="colpo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}">colpo</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="fulmine" msd="NC" tag="NOM" in="-1:nobj" out="">fulmine</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">Non</W>
@@ -168,8 +168,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">verità</W>
 <W lemma="e" msd="CS" tag="CON" in="6:coord" out="">e</W>
 <W lemma="col" msd="SP+P" tag="PRE&3a;det" in="5:prec" out="1:vobj">col</W>
-<W lemma="passare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj&3a;subj">passar</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="passare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj.subj|1:{agent}">passar</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-7:coref|1:dobj" out="">la</W>
 <W lemma="rimuovere" msd="VAP" tag="VER&3a;pper" in="-13:conj" out="-5:prec|-1:dobj|-6:coord|1:degr">rimossa</W>

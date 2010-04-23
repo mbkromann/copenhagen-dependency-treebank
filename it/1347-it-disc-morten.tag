@@ -49,7 +49,7 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:bg" out="1:nobj">nel</W>
 <W lemma="trattare" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">trattare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="domanda" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:pobj.dobj|1:{patient}">domanda</W>
+<W lemma="domanda" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|2:attr">domanda</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:pobj.dobj|-1:{patient}" out="">d’asilo</W>
 <W lemma="inoltrare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:dir">inoltrata</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
@@ -137,8 +137,8 @@
 <W lemma="chiedere" msd="VAF" tag="VER&3a;infi" in="-6:conj" out="-1:coord|-35:[subj]|1:dobj">chiedere</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="4:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">la</W>
-<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-31:coref|1:pobj&3a;subj" out="">sua</W>
-<W lemma="domanda" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj&3a;subj">domanda</W>
+<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-31:coref|1:pobj.subj|1:{agent}" out="">sua</W>
+<W lemma="domanda" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj.subj|-1:{agent}">domanda</W>
 <W lemma="venire" msd="VADR" tag="VER&3a;cpre" in="-4:vobj" out="-3:subj|1:vobj">venga</W>
 <W lemma="trattare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:loc">trattata</W>
 <W lemma="qui" msd="RG" tag="ADV" in="-1:loc" out="">qui</W>
@@ -156,8 +156,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">CEE</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:loc" out="1:pobj">all’interno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">della</W>
-<W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-7:coref|1:pobj&3a;subj" out="">loro</W>
-<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj&3a;subj|1:bg">collaborazione</W>
+<W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-7:coref|1:pobj.subj|1:{agent}" out="">loro</W>
+<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="1:bg|-1:pobj.subj|-1:{agent}">collaborazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:bg" out="2:vobj">per</W>
 <W lemma="quanto" msd="PI" tag="PRO&3a;indef" in="1:subj" out="">quanto</W>
 <W lemma="riguardare" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:nobj">riguarda</W>

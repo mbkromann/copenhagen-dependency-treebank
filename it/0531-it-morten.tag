@@ -98,8 +98,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;quant" out="1:nobj">di</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="per" msd="SP" tag="PRE" in="-19:pobj" out="1:nobj">per</W>
-<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;pobj|3:pnct|5:conj|8:conj|18:conj">abuso</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;pobj" out="1:nobj">di</W>
+<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="3:pnct|5:conj|8:conj|18:conj|1:pobj.pobj|1:{location}">abuso</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}" out="1:nobj">di</W>
 <W lemma="mandato" msd="NC" tag="NOM" in="-1:nobj" out="">mandato</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="grave" msd="AN" tag="ADJ" in="1:attrd" out="">grave</W>
@@ -182,8 +182,8 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="." msd="XP" tag="SENT" in="-11:pnct" out="">.</W>
 <W lemma="due" msd="AN" tag="ADJ" in="6:subj|7:[subj]|8:[subj]" out="1:nobj|28:coref">Due</W>
-<W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">membri</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-35:assoc-const|-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">membri</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-35:assoc-const|-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="consiglio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func#">consiglio</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj&3a;func#" out="1:nobj">d'</W>
 <W lemma="amministrazione" msd="NC" tag="NOM" in="-1:nobj" out="">amministrazione</W>
@@ -194,8 +194,8 @@
 <W lemma="tuttavia" msd="RG" tag="ADV" in="16:conc" out="1:pnct">Tuttavia</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="14:subj|15:[subj]" out="1:nobj|7:pnct|8:appa">il</W>
-<W lemma="giudice" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">giudice</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">del</W>
+<W lemma="giudice" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">giudice</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="tribunale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;func">tribunale</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj&3a;func" out="2:nobj">di</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attrd" out="">primo</W>

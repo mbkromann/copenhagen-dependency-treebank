@@ -24,8 +24,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:agent">dominancia</W>
 <W lemma="de" msd="PREP" in="-1:agent" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="ruta" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#|3:loc">rutas</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="ruta" msd="NC" in="-1:nobj" out="3:loc|1:pobj|1:{arg}#">rutas</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="29:coref-id">ferries</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:attr">las</W>

@@ -172,8 +172,8 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:conj" out="2:nobj|10:appr|11:pnct">il</W>
 <W lemma="noto" msd="AN" tag="ADJ" in="1:attr" out="">noto</W>
-<W lemma="ministro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;arg#">ministro</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj|3:conj">dell'</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}#">ministro</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj|3:conj">dell'</W>
 <W lemma="edilizia" msd="NC" tag="NOM" in="-1:nobj" out="">edilizia</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">dello</W>
@@ -183,8 +183,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-10:appr" out="-1:namef">Kemp</W>
 <W lemma="," msd="XP" tag="PON" in="-11:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-14:conj" out="1:nobj|5:appr|6:pnct">il</W>
-<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">ministro</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">della</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">ministro</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">della</W>
 <W lemma="difesa" msd="NC" tag="NOM" in="-1:nobj" out="">difesa</W>
 <W lemma="Richard" msd="NP" tag="NPR" in="1:namef" out="">Richard</W>
 <W lemma="Cheney" msd="NP" tag="NPR" in="-5:appr" out="-1:namef">Cheney</W>
@@ -198,8 +198,8 @@
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="1:prg">e</W>
 <W lemma="forse" msd="RG" tag="ADV" in="-1:prg" out="">forse</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-8:conj" out="-2:coord|1:nobj|5:appr">il</W>
-<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;arg#">ministro</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;arg#" out="1:nobj">della</W>
+<W lemma="ministro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#">ministro</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}#" out="1:nobj">della</W>
 <W lemma="difesa" msd="NC" tag="NOM" in="-1:nobj" out="">difesa</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Colin</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:appr" out="-1:namef">Powell</W>

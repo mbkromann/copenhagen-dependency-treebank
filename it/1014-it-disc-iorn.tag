@@ -122,8 +122,8 @@
 <W lemma="a" msd="SP" tag="PRE" in="-3:pobj" out="1:vobj">a</W>
 <W lemma="valutare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|6:coref">valutare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
-<W lemma="bisogno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">bisogni</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">degli</W>
+<W lemma="bisogno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">bisogni</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">degli</W>
 <W lemma="anziano" msd="NC" tag="NOM" in="-1:nobj" out="">anziani</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="lo" msd="PP" tag="PRO&3a;pers" in="-6:coref|1:dobj" out="">lo</W>
@@ -188,8 +188,8 @@
 <W lemma="pensare" msd="VADR" tag="VER&3a;pres" in="-51:CONS/ATTR|25:qobj" out="-1:subj|-2:prg|1:dobj">penso</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:dobj|4:cond">sia</W>
-<W lemma="colpa" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj&3a;subj">colpa</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">dei</W>
+<W lemma="colpa" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj.subj|1:{agent}">colpa</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="comune" msd="NC" tag="NOM" in="-1:nobj" out="">comuni</W>
 <W lemma="se" msd="CS" tag="CON" in="-4:cond" out="3:vobj">se</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">gli</W>

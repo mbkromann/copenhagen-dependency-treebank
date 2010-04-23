@@ -74,7 +74,7 @@
 <W lemma="vivo" msd="AN" tag="ADJ" in="-40:CONJ/(e)" out="-3:subj|1:man|2:loc|19:pnct|23:ELAB&3a;exem">vive</W>
 <W lemma="abitualmente" msd="RG" tag="ADV" in="-1:man" out="">abitualmente</W>
 <W lemma="sotto" msd="AN" tag="ADJ" in="-2:loc" out="1:nobj">sotto</W>
-<W lemma="telo" msd="NC" tag="NOM" in="-1:nobj" out="4:conj|5:ref|6:relr|1:pobj.dobj|1:{patient}">teli</W>
+<W lemma="telo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:conj|5:ref|6:relr">teli</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:const">di</W>
 <W lemma="plastica" msd="NC" tag="NOM" in="-1:const" out="">plastica</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
@@ -206,8 +206,8 @@
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj" out="1:nobj">Il</W>
-<W lemma="pianto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">pianto</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj|15:DESCR&3a;qual">del</W>
+<W lemma="pianto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">pianto</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj|15:DESCR&3a;qual">del</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="-1:nobj" out="">bambino</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:ELAB&3a;exp&7c;CONJ/(e)" out="-4:subj|1:preds">è</W>
 <W lemma="straziante" msd="AN" tag="ADJ" in="-1:preds" out="">straziante</W>
@@ -233,13 +233,13 @@
 <W lemma="pannolino" msd="NC" tag="NOM" in="-1:nobj" out="">pannolino</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj" out="1:nobj">la</W>
-<W lemma="diarrea" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">diarrea</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">del</W>
+<W lemma="diarrea" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">diarrea</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="neonato" msd="NC" tag="NOM" in="-1:nobj" out="">neonato</W>
 <W lemma="scivolare" msd="VADR" tag="VER&3a;pres" in="-14:CONJ/(e)" out="-7:man|-4:subj|1:dir|5:pnct">scivola</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:dir" out="1:nobj">sulle</W>
-<W lemma="gamba" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj&3a;subj">gambe</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj&3a;subj" out="1:nobj">della</W>
+<W lemma="gamba" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">gambe</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="-1:nobj" out="">bambina</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 </s>

@@ -13,8 +13,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">catch</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">sight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj|11:[subj]" out="1:pobj&3a;const|11:relr">men</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;const" out="1:nobj|4:coord">with</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj|11:[subj]" out="11:relr|1:attr|1:{const}">men</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj|4:coord">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:attr" out="">sallow</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">complexion</W>

@@ -4,8 +4,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="popolo" msd="NC" tag="NOM" in="-1:nobj" out="">popolo</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-5:appa" out="1:pobj&3a;subj|8:pnct">costituito</W>
-<W lemma="da" msd="SP" tag="PRE" in="-1:pobj&3a;subj" out="1:nobj">da</W>
+<W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-5:appa" out="1:pobj.subj|1:{agent}|8:pnct">costituito</W>
+<W lemma="da" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">da</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="certo" msd="AN" tag="ADJ" in="1:attr" out="">certo</W>
 <W lemma="numero" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">numero</W>
@@ -96,7 +96,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹saper²ne" lemma="sapere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-21:²ref|0:²dobj¹" out="0:²dobj¹">saperne</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
-<W lemma="per" msd="SP" tag="PRE" in="11:cause&3a;reas" out="1:nobj|2:pnct">Per</W>
+<W lemma="per" msd="SP" tag="PRE" in="11:reas" out="1:nobj|2:pnct">Per</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj|-6:coref-res" out="">questo</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="ecco" msd="RG" tag="ADV" in="8:prg" out="1:nobj">ecco</W>
@@ -107,7 +107,7 @@
 <W lemma="impugnare" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:dobj">impugna</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="matita" msd="NC" tag="NOM" in="-1:nobj" out="">matita</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:CONS" out="-6:subj|-8:prg|-11:cause&3a;reas|1:preds|2:pnct|16:conj|25:pnct|29:+CAUSE&3a;exp/(infatti)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:CONS" out="-6:subj|-8:prg|1:preds|2:pnct|16:conj|25:pnct|29:+CAUSE&3a;exp/(infatti)|-11:reas">è</W>
 <W lemma="incerto" msd="AN" tag="ADJ" in="-1:preds" out="2:time">incerta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj|4:pnct">nel</W>

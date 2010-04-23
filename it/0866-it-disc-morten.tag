@@ -19,8 +19,8 @@
 <W lemma="condurre" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-8:[subj]|1:dobj">condotto</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="2:nobj|19:coref-prg">una</W>
 <W lemma="pressante" msd="AN" tag="ADJ" in="1:attr" out="">pressante</W>
-<W lemma="campagna" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj&3a;pobj">campagna</W>
-<W lemma="contro" msd="SP" tag="PRE" in="-1:pobj&3a;pobj" out="1:nobj">contro</W>
+<W lemma="campagna" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.pobj|1:{location}">campagna</W>
+<W lemma="contro" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}" out="1:nobj">contro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="no" msd="RG" tag="ADV" in="-1:nobj" out="1:loc">no</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nel</W>
@@ -33,9 +33,9 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="49:qobj" out="-1:pnct|2:dobj|9:conj|23:CONJ/inoltre/ATTR1|48:pnct">Abbiamo</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">gli</W>
-<W lemma="argomento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj&3a;pobj">argomenti</W>
+<W lemma="argomento" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.pobj|2:{location}">argomenti</W>
 <W lemma="appropriato" msd="AN" tag="ADJ" in="-1:attr" out="">appropriati</W>
-<W lemma="contro" msd="SP" tag="PRE" in="-2:pobj&3a;pobj" out="1:nobj">contro</W>
+<W lemma="contro" msd="SP" tag="PRE" in="-2:pobj.pobj|-2:{location}" out="1:nobj">contro</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-19:coref-prg|-1:nobj" out="1:nobj">questa</W>
 <W lemma="posizione" msd="NC" tag="NOM" in="-1:nobj" out="">posizione</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -63,8 +63,8 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:vobj" out="-2:subj|3:vobj">è</W>
 <W lemma="già" msd="RG" tag="ADV" in="1:time" out="">già</W>
 <W lemma="abbondantemente" msd="RG" tag="ADV" in="1:man" out="-1:time">abbondantemente</W>
-<W lemma="vaccinare" msd="VAP" tag="VER&3a;pper" in="-3:vobj" out="-1:man|-5:[subj]|1:pobj&3a;pobj">vaccinato</W>
-<W lemma="contro" msd="SP" tag="PRE" in="-1:pobj&3a;pobj" out="2:nobj">contro</W>
+<W lemma="vaccinare" msd="VAP" tag="VER&3a;pper" in="-3:vobj" out="-1:man|-5:[subj]|1:pobj.pobj|1:{location}">vaccinato</W>
+<W lemma="contro" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}" out="2:nobj">contro</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Uffe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|3:conj">Ellemann</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
@@ -99,7 +99,7 @@
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">partito</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:appr" out="1:attr">Popolare</W>
 <W lemma="socialista" msd="AN" tag="ADJ" in="-1:attr" out="">socialista</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|8:pnct|9:bg|17:pnct|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:qobj" out="-4:subj|-5:pnct|1:preds|8:pnct|9:bg|17:pnct">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="serbatoio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">serbatoio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

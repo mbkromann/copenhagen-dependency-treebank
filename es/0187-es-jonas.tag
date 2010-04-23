@@ -20,8 +20,8 @@
 <W lemma="pero" msd="CCAD" in="7:conj" out="">Pero</W>
 <W lemma="aunque" msd="CSUBX" in="6:conc" out="">aunque</W>
 <W lemma="el" msd="ART" in="5:subj" out="1:nobj">el</W>
-<W lemma="total" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">total</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="total" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">total</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="inversin" msd="NC" in="-1:nobj" out="">inversiones</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="-5:subj|-6:conc|-7:conj|1:pnct">descendió</W>
@@ -33,8 +33,8 @@
 <W lemma="alguno" msd="QU" in="-4:subj" out="1:nobj">algunos</W>
 <W lemma="tipo" msd="NC" in="-1:nobj" out="1:pobj">tipos</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="equipo" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">equipos</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">de</W>
+<W lemma="equipo" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">equipos</W>
+<W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">computación</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="es~decir" msd="ADV" in="" out="-1:pnct">es decir</W>
@@ -82,10 +82,10 @@
 <W lemma="," msd="CM" in="9:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="8:subj" out="1:nobj">los</W>
 <W lemma="sistema" msd="NC" in="-1:nobj" out="1:attr">sistemas</W>
-<W lemma="pequeo" msd="ADJ" in="-1:attr" out="1:pobj&3a;subj">menores</W>
-<W lemma="con" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">con</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;subj">Unix</W>
-<W lemma="para" msd="PREP" in="-1:pobj&3a;subj" out="1:nobj">para</W>
+<W lemma="pequeo" msd="ADJ" in="-1:attr" out="1:pobj.subj|1:{agent}">menores</W>
+<W lemma="con" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">con</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">Unix</W>
+<W lemma="para" msd="PREP" in="-1:pobj.subj|-1:{agent}" out="1:nobj">para</W>
 <W lemma="varios" msd="QU" in="-1:nobj" out="1:nobj">varios</W>
 <W lemma="usuario" msd="NC" in="-1:nobj" out="">usuarios</W>
 <W lemma="alcanzar" msd="VLfin" in="" out="-13:time|-9:pnct|-8:subj|1:other|2:dobj|7:pnct">alcanzaron</W>
@@ -123,8 +123,8 @@
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="estudio" msd="NC" in="-1:nobj" out="1:pobj&3a;subj#">estudio</W>
 <W lemma="del" msd="PDEL" in="-1:pobj&3a;subj#" out="1:nobj">del</W>
-<W lemma="mercado" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">mercado</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="mercado" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">mercado</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Unix</W>
 <W lemma="." msd="FS" in="-24:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="2:subj|4:[subj]" out="">“Unix</W>
@@ -140,8 +140,8 @@
 <W lemma="escritorio" msd="NC" in="-1:nobj" out="">escritorio</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="4:subj" out="1:nobj">El</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj&3a;arg#">rol</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;arg#" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">rol</W>
+<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">Unix</W>
 <W lemma="ser" msd="VSfin" in="" out="-4:subj|1:preds|4:pnct">es</W>
 <W lemma="el" msd="ART" in="-1:preds" out="1:pobj&3a;nobj">el</W>
@@ -170,7 +170,7 @@
 <W lemma="personal" msd="NC" in="-1:nobj" out="">personal</W>
 <W lemma="tampoco" msd="ADV" in="" out="">tampoco</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-1:neg|5:pnct|1:pobj.dobj|1:{patient}">mató</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|-1:neg|1:pobj.dobj|1:{patient}|5:pnct">mató</W>
 <W lemma="a" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="computadora" msd="NC" in="-1:nobj" out="1:attr">computadora</W>
@@ -184,8 +184,8 @@
 <W lemma="el" msd="ART" in="-3:dobj" out="1:nobj">el</W>
 <W lemma="uso" msd="NC" in="-1:nobj" out="1:pobj">uso</W>
 <W lemma="del" msd="PDEL" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="procesamiento" msd="NC" in="-1:nobj" out="1:pobj&3a;dobj#">procesamiento</W>
-<W lemma="de" msd="PREP" in="-1:pobj&3a;dobj#" out="1:nobj">de</W>
+<W lemma="procesamiento" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">procesamiento</W>
+<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="texto" msd="NC" in="-1:nobj" out="2:conj">textos</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="otro" msd="QU" in="-2:conj" out="-1:coord|1:nobj">otras</W>
