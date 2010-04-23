@@ -124,7 +124,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]|5:[subj]" out="">Culture</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|7:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|7:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>
@@ -136,7 +136,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Ny</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]|4:[subj]" out="-1:mod">Tøjhusgrunden</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|16:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|16:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:mod|5:pnct|7:mod">developed</W>
@@ -169,7 +169,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">Ørestaden</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-11:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:mod|-11:subj|1:preds|6:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-13:[subj]|1:preds">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj">an</W>
@@ -214,7 +214,7 @@
 <s>
 <W msd="AC" tag="CD" in="2:subj|4:[subj]|5:[subj]" out="1:nobj">Two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lines</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|4:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:preds|4:pnct">are</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]">laid</W>
