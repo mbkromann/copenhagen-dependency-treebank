@@ -81,45 +81,48 @@ neg} if 3 -1 roll 0 1 7 -2 roll center 8 array astore} def /edget
 {newedge currentdict /edges known {edges nexte 3 -1 roll put} if
 /nexte nexte 1 add def} def /edgeb {newedge dup 4 -1 put currentdict
 /edges known {edges nexte 3 -1 roll put} if /nexte nexte 1 add def}
-def /xcenter {dup words exch get 0 get exch 1 add dup words length eq
-{pop X} {words exch get 0 get} ifelse add 2 div} def /edge_heights {[
-exch 0 0 0 edge_heights0 {pop} repeat pop pop pop pop} def
-/edge_heights0 {{edge_heights1 {true} {edge_heights2} ifelse {true}
-{edge_heights3} ifelse {true} {edge_heights4} ifelse not {exit} if}
-loop} def /edge_heights1 {dup 2 lt {false} {4 index length 3 eq {true}
-{4 index 3 get -1 eq} ifelse} ifelse {5 -1 roll dup 1 get exch 2 get 6
-index dup dup 2 get 4 -1 roll max 2 exch put 1 3 -1 roll put 1 sub
-true} {false} ifelse} def /edge_heights2 {dup 0 gt {4 index length 3
-gt {4 index 3 get -1 ne {4 index dup dup 1 get exch 3 get edges exch
-get 1 get abs eq {dup dup 2 get 1 add 2 exch dup 4 1 roll put 1 index
-3 get edges exch get 3 3 -1 roll 7 index exec put mark exch dup aload
-pop counttomark 4 sub -1 roll pop -1 counttomark -1 roll astore pop
-pop true} {pop false} ifelse} {false} ifelse} {false} ifelse} {false}
-ifelse} def /edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2
-get 3 -1 roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get
-3 -1 roll max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub
-edge_heights0 1 add dup 4 add -1 roll 5 1 roll true} {pop pop false}
-ifelse} {false} ifelse} def /edge_heights4 {counttomark 1 index 4 add
-eq {2 index words length lt {mark 3 index dup 0 7 index 6 index {dup
-edges length ge {exch pop exit} if dup edges exch get dup 0 get 6
-index eq {4 get 2 index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch
-pop exit} ifelse} loop counttomark 1 add 1 roll counttomark 3 roll ] 6
-1 roll 3 1 roll 1 add exch pop 3 -1 roll 1 add 3 1 roll true} {false}
-ifelse} {false} ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words
-length ge {pop pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2
-roll 1 index edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll
-update_super exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll
-displace 3 -1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index
-length ge {3 1 roll pop pop exit} if 2 index 1 index get dup 3 index
-get abs 6 index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index
-eq {1 index 3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4
-0 put} {7 index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll
-2 index gt 3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop}
-ifelse 1 add} loop} def /update_super {{dup 3 index length ge {pop pop
-pop exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop
-pop pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1
-roll pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1
-add} loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
+def /edgee {dup 2 get exch dup 2 () put aload pop newedge dup 4 0 put
+dup 2 4 -1 roll put currentdict /edges known {edges nexte 3 -1 roll
+put} if /nexte nexte 1 add def} def /xcenter {dup words exch get 0 get
+exch 1 add dup words length eq {pop X} {words exch get 0 get} ifelse
+add 2 div} def /edge_heights {[ exch 0 0 0 edge_heights0 {pop} repeat
+pop pop pop pop} def /edge_heights0 {{edge_heights1 {true}
+{edge_heights2} ifelse {true} {edge_heights3} ifelse {true}
+{edge_heights4} ifelse not {exit} if} loop} def /edge_heights1 {dup 2
+lt {false} {4 index length 3 eq {true} {4 index 3 get -1 eq} ifelse}
+ifelse {5 -1 roll dup 1 get exch 2 get 6 index dup dup 2 get 4 -1 roll
+max 2 exch put 1 3 -1 roll put 1 sub true} {false} ifelse} def
+/edge_heights2 {dup 0 gt {4 index length 3 gt {4 index 3 get -1 ne {4
+index dup dup 1 get exch 3 get edges exch get 1 get abs eq {dup dup 2
+get 1 add 2 exch dup 4 1 roll put 1 index 3 get edges exch get 3 3 -1
+roll 7 index exec put mark exch dup aload pop counttomark 4 sub -1
+roll pop -1 counttomark -1 roll astore pop pop true} {pop false}
+ifelse} {false} ifelse} {false} ifelse} {false} ifelse} def
+/edge_heights3 {dup 1 gt {5 index 5 index dup 1 get exch 2 get 3 -1
+roll 1 get 2 index ne {7 index dup 1 5 -1 roll put dup 2 get 3 -1 roll
+max 2 exch put 5 -1 roll 1 index 4 add 1 roll 1 sub edge_heights0 1
+add dup 4 add -1 roll 5 1 roll true} {pop pop false} ifelse} {false}
+ifelse} def /edge_heights4 {counttomark 1 index 4 add eq {2 index
+words length lt {mark 3 index dup 0 7 index 6 index {dup edges length
+ge {exch pop exit} if dup edges exch get dup 0 get 6 index eq {4 get 2
+index exec 0 gt{dup 6 1 roll} if 1 add} {pop exch pop exit} ifelse}
+loop counttomark 1 add 1 roll counttomark 3 roll ] 6 1 roll 3 1 roll 1
+add exch pop 3 -1 roll 1 add 3 1 roll true} {false} ifelse} {false}
+ifelse} def /edge_displace {-1 -1 0 0 0 {2 index words length ge {pop
+pop pop pop pop exit} if 5 -2 roll pop pop -1 -1 5 2 roll 1 index
+edges 0 3 -1 roll update_super dup maxedges 1 3 -1 roll update_super
+exch edges 0 3 -1 roll displace exch maxedges 1 3 -1 roll displace 3
+-1 roll 1 add 3 1 roll} loop} def /displace {{dup 3 index length ge {3
+1 roll pop pop exit} if 2 index 1 index get dup 3 index get abs 6
+index gt {pop 3 1 roll pop pop exit} if dup ioword 7 index eq {1 index
+3 get 0 gt {8 index} {7 index} ifelse dup -1 eq {pop pop 4 0 put} {7
+index -1 2 index 2 index gt {neg exch 3 1 roll} if 4 1 roll 2 index gt
+3 1 roll gt and not {neg} if 4 exch put} ifelse} {pop pop} ifelse 1
+add} loop} def /update_super {{dup 3 index length ge {pop pop pop
+exit} if 2 index 1 index get dup 3 index get 7 index gt {pop pop pop
+pop exit} if dup ioword exch 8 index eq {exch 3 get 0 gt {9 -1 roll
+pop 8 1 roll} {8 -1 roll pop 7 1 roll} ifelse} {pop pop} ifelse 1 add}
+loop} def /ioword {dup 0 get exch 1 get dup 0 lt {abs exch} {abs}
 ifelse} def /split_lines {split_words split_edges split_pages} def
 /split_words {/lines [ urx llx sub 0 0 1 {1 index words length ge {pop
 pop pop pop exit} if [2 index 0 5 index 0 0 0 0] 5 1 roll {dup xpos 1
@@ -193,17 +196,17 @@ pop pop} def /print_lines {0 1 lines length 2 sub {dup print_line 1
 add lines exch get 3 get 0 eq {fixations {fixation} forall alignments
 {aload pop align} forall showpage} if} for} def /draw {currentdict
 /title known {llx titley moveto title {show} 0 format} if
-compile_fixations fixations == layout_arcs print_lines} def /setup
-{array /edges exch def dup array /words exch def array /widths exch
-def /nextw 0 def /nexte 0 def /strings exch def /xwords words length
-array def /ywords words length array def /nword 0 def /alignments []
-def /fixations [] def} def true (ptm) /Times-Roman /Times-Bold
-/Times-Italic /Times-BoldItalic createfontfamily setfontfamily 10
-setfontsize 0 setfontstyle 0 setarrowtype setupfont /align {dup type
-(arraytype) ne {xyword moveto} {dup dup xmid exch 0 get xyword dA add
-exch pop 3 2 roll {xyword moveto 2 copy lineto} forall moveto} ifelse
-dup type (arraytype) ne {xyword topadjust lineto} {dup dup xmid exch 0
-get xyword topadjust dA sub exch pop 2 copy lineto 3 2 roll {xyword
+compile_fixations layout_arcs print_lines} def /setup {array /edges
+exch def dup array /words exch def array /widths exch def /nextw 0 def
+/nexte 0 def /strings exch def /xwords words length array def /ywords
+words length array def /nword 0 def /alignments [] def /fixations []
+def} def true (ptm) /Times-Roman /Times-Bold /Times-Italic
+/Times-BoldItalic createfontfamily setfontfamily 10 setfontsize 0
+setfontstyle 0 setarrowtype setupfont /align {dup type (arraytype) ne
+{xyword moveto} {dup dup xmid exch 0 get xyword dA add exch pop 3 2
+roll {xyword moveto 2 copy lineto} forall moveto} ifelse dup type
+(arraytype) ne {xyword topadjust lineto} {dup dup xmid exch 0 get
+xyword topadjust dA sub exch pop 2 copy lineto 3 2 roll {xyword
 topadjust moveto 2 copy lineto} forall pop pop} ifelse gsave
 currentlinewidth 5 mul setlinewidth 1 setgray stroke grestore stroke}
 def /compile_fixations {/fixations_pass words length array def 0 1
@@ -211,11 +214,13 @@ fixations_pass length 1 sub {fixations_pass exch 0 put} for /maxpass 0
 def 0 1 fixations length 1 sub {/i xdef fixations i get /f xdef 0 1 f
 length 1 sub {/j xdef f j [ f j get aload pop fixations_pass 2 index
 dup 2 index exch get 1 add dup maxpass gt {/maxpass 1 index def} if
-put ] put} for fixations i f put} for} def /fixation {pop} def
-/topadjust {strings dH mul sub 4 sub} def /fixadjust {strings dH mul
-sub 4 sub} def /xyword {dup xwords exch get exch ywords exch get} def
-/xmid {dup 0 get xwords exch get exch dup length 1 sub get xwords exch
-get add 2 div} def /formats [] def 
+dup 4 1 roll put ] put} for fixations i f put} for} def /fixation
+{/fixlist xdef 0 1 fixlist length 1 sub {/i xdef /fix1 fixlist i get
+def i 0 eq {} {} ifelse} for} def /topadjust {strings dH mul sub 4
+sub} def /fixadjust {strings dH mul sub 4 sub} def /xyword {dup xwords
+exch get exch ywords exch get} def /xmid {dup 0 get xwords exch get
+exch dup length 1 sub get xwords exch get add 2 div} def /formats []
+def 
 
 
 %% 2. Graph specification
