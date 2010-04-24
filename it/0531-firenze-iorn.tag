@@ -1,6 +1,6 @@
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="1:time|2:vobj|15:pnct|21:CONJ/anche">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="2:[subj]" out="1:time|2:vobj|15:pnct|21:CONJ/anche">hanno</W>
 <W lemma="immediatamente" msd="RG" tag="ADV" in="-1:time" out="">immediatamente</W>
-<W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:dobj">fatto</W>
+<W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:dobj|-2:[subj]">fatto</W>
 <W lemma="ricorso" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj">ricorso</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">contro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|27:+ELAB&3a;exp">la</W>
