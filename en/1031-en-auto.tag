@@ -61,12 +61,12 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="5:mod" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="5:reas" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">negative</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">trend</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:mod|-3:subj|1:vobj|2:mod|5:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|-5:reas|1:vobj|2:mod|5:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">noted</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
@@ -142,8 +142,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">negative</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">signal</W>
 <W msd="SP" tag="IN" in="-3:ref|2:subj|3:[subj]|4:[subj]" out="">that</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">immediately</W>
-<W msd="VA" tag="MD" in="-5:rel" out="-2:subj|-1:mod|1:vobj">can</W>
+<W msd="ANP" tag="RB" in="1:time" out="">immediately</W>
+<W msd="VA" tag="MD" in="-5:rel" out="-2:subj|-1:time|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj|2:mod">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">read</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -157,8 +157,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:mod|2:lobj|8:pnct">lies</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">primarily</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:mod">the</W>
-<W msd="VAP" tag="VBN" in="-1:mod" out="">continued</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod|1:attr">the</W>
+<W msd="VAP" tag="VBN" in="-1:attr" out="">continued</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">decline</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">production</W>

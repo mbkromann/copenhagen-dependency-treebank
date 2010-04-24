@@ -8,8 +8,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="-7:conj" out="-1:subj|-2:coord|2:preds">became</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">distant</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">distant</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -57,7 +57,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]|6:[subj]|13:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj?|12:conj|15:pnct">had</W>
 <W msd="VAG" tag="VBG" in="-1:vobj?" out="-2:[subj]|1:vobj">being</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|2:pnct|3:vobj|1:@loc">lying</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:@loc|2:pnct|3:vobj">lying</W>
 <W msd="U=" tag="EX" in="-1:@loc" out="">there</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-6:[subj]|1:avobj">getting</W>
@@ -100,13 +100,13 @@
 <W msd="NP=S" tag="NNP" in="3:voc" out="1:pnct">Sweetie</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="3:dobj" out="">what</W>
-<W msd="VADR" tag="VBP" in="" out="-4:pnct|-3:voc|1:subj|2:vobj|6:mod|15:pnct|16:pnct">do</W>
+<W msd="VADR" tag="VBP" in="" out="-4:pnct|-3:voc|1:subj|2:vobj|6:cond|15:pnct|16:pnct">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">I</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|-3:dobj|1:pobj">do</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">proteins</W>
-<W msd="CS" tag="IN" in="-6:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-6:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj">get</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -190,15 +190,15 @@
 <s>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="-20:conj" out="-1:subj|-11:coord|1:mod|2:vobj|8:mod|9:pnct|10:conj">can't</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
+<W msd="VADR" tag="VBP" in="-20:conj" out="-1:subj|-11:coord|1:focal|2:vobj|8:degr|9:pnct|10:conj">can't</W>
+<W msd="ANP" tag="RB" in="-1:focal" out="">even</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:@dir">get</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mouth</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>
-<W msd="ANC" tag="JJR" in="-8:mod" out="-1:mod">more</W>
+<W msd="ANC" tag="JJR" in="-8:degr" out="-1:mod">more</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="VADR" tag="VBP" in="-10:conj" out="1:subj|2:vobj|6:pnct">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
@@ -226,7 +226,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">age</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">90</W>
-<W msd="VADR" tag="VBP" in="-6:rel|-6:[err]|1:[err]" out="1:vobj|9:mod">have</W>
+<W msd="VADR" tag="VBP" in="-6:rel|-6:[err]|1:[err]" out="1:vobj|9:accom">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-1:[err]|1:preds">been</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -235,7 +235,7 @@
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">ear</W>
-<W msd="SP" tag="IN" in="-9:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-9:accom" out="1:nobj">without</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">any</W>
 <W msd="ANP" tag="JJ" in="-1:nobj|-19:pnct#" out="">difficulty.</W>
 <W msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>

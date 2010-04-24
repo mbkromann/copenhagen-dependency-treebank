@@ -79,8 +79,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-9:ref|2:subj" out="">som</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">derfor</W>
-<W gloss="drive" lemma="drive" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:mod|-2:subj|-3:coord|1:dobj|2:@dir">driver</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
+<W gloss="drive" lemma="drive" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-2:subj|-3:coord|-1:reas|1:dobj|2:@dir">driver</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ud</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
@@ -103,8 +103,8 @@
 <W gloss="crime" lemma="forbrydelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forbrydelse</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="4:neg" out="">ikke</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:mod|2:pnct|4:conj">i</W>
-<W gloss="legal" lemma="juridisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:mod" out="">juridisk</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="2:pnct|4:conj|1:attr">i</W>
+<W gloss="legal" lemma="juridisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">juridisk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="-4:neg">men</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:conj" out="-1:coord|2:nobj">i</W>
@@ -152,7 +152,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds">er</W>
-<W gloss="grown_up" lemma="opvokset" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="3:mod|1:@loc">opvokset</W>
+<W gloss="grown_up" lemma="opvokset" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="1:@loc|3:mod">opvokset</W>
 <W gloss="with" lemma="hos" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">hos</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">ham</W>
 <W gloss="like" lemma="som" msd="U=" tag="WDT" in="-3:mod" out="1:nobj">som</W>

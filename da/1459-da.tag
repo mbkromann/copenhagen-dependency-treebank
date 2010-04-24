@@ -152,8 +152,8 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|4:pobj|24:pnct">fik</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:add|2:dobj|4:pobj|24:pnct">fik</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:nobj">et</W>
 <W gloss="kiss" lemma="kys" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kys</W>
 <W gloss="from" lemma="af" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">af</W>
@@ -191,9 +191,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">Ikke</W>
-<W gloss="only" lemma="alene" msd="RGU" tag="RP" in="1:mod" out="-1:mod">alene</W>
-<W gloss="does_sing" lemma="synge" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:mod|5:pnct">synger</W>
+<W gloss="Not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">Ikke</W>
+<W gloss="only" lemma="alene" msd="RGU" tag="RP" in="1:accom" out="-1:neg">alene</W>
+<W gloss="does_sing" lemma="synge" msd="VADR=----A-" tag="VBD" in="" out="-1:accom|1:subj|2:mod|5:pnct">synger</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="Bakken's" lemma="bakke" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Bakkens</W>
@@ -202,8 +202,8 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="does_the_serving" lemma="servere" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|7:pnct|12:conj|17:pnct">serverer</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
+<W gloss="does_the_serving" lemma="servere" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:add|2:mod|7:pnct|12:conj|17:pnct">serverer</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="with" lemma="hos" msd="SP" tag="IN" in="-2:mod" out="4:nobj">hos</W>
 <W gloss="Bakken_restaurateur" lemma="bakkerestauratør" msd="NCCSU==I" tag="NN" in="3:title" out="">bakkerestauratør</W>
 <W gloss="BENT" lemma="Bent" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">BENT</W>
@@ -256,7 +256,7 @@
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">finde</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="gets" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="3:mod|5:pnct|6:conj|12:conj|1:@dir">stå</W>
+<W gloss="gets" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|3:mod|5:pnct|6:conj|12:conj">stå</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="">op</W>
 <W gloss="in_the_middle" lemma="midt" msd="RGU" tag="RP" in="1:mod" out="">midt</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj">om</W>

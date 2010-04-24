@@ -61,11 +61,11 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:mod" out="1:pnct">Now</W>
+<W msd="ANP" tag="RB" in="4:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">no</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">missiles</W>
-<W msd="VA" tag="MD" in="" out="-4:mod|-2:subj|1:vobj|5:pnct|8:conj|11:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|-4:time|1:vobj|5:pnct|8:conj|11:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod">deployed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -99,14 +99,14 @@
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">people</W>
 <W msd="VADR" tag="VBP" in="-18:rel" out="-5:subj|-7:mod|1:pnct">participate</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-20:subj|1:vobj|6:pnct|7:mod|44:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-20:subj|1:vobj|6:pnct|7:cond|44:pnct">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-21:[subj]|1:dobj|4:preds">make</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">demonstrations</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod">credible</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-4:preds" out="-1:degr">credible</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-7:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:iobj|3:dobj">convince</W>
 <W msd="PP" tag="PRP" in="-1:iobj" out="1:nobj">us</W>
@@ -138,7 +138,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Western</W>
 <W msd="NP=S" tag="NNP" in="-2:iobj|3:[subj]" out="-1:mod">Europe</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-4:dobj" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-4:dobj" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">deploy</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">572</W>
@@ -201,8 +201,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">West</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="-7:vobj" out="-1:mod|-6:subj|1:dobj|2:pnct|3:coord|27:conj">desire</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="-7:vobj" out="-6:subj|-1:add|1:dobj|2:pnct|3:coord|27:conj">desire</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">peace</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="-3:coord" out="1:&lt;dobj&gt;">but</W>
@@ -211,7 +211,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">freedom</W>
 <W msd="CC" tag="CC" in="19:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="18:mod" out="">therefore</W>
+<W msd="ANP" tag="RB" in="18:reas" out="">therefore</W>
 <W msd="PI" tag="DT" in="17:subj" out="1:attr|2:nobj|5:appa|8:conj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">credible</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">defence</W>
@@ -229,7 +229,7 @@
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Denmark</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">concerned</W>
-<W msd="VADR" tag="VBP" in="-27:conj" out="-18:mod|-17:subj|-5:mod|-19:coord|2:preds|3:pnct|4:mod|7:pnct">are</W>
+<W msd="VADR" tag="VBP" in="-27:conj" out="-17:subj|-5:mod|-19:coord|2:preds|3:pnct|4:mod|7:pnct|-18:reas">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">particularly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">necessary</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

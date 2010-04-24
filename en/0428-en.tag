@@ -31,14 +31,14 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">hope</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:mod">found</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:ext">found</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:avobj">way</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">formation</W>
-<W msd="ANP" tag="RB" in="-7:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-7:ext" out="">again</W>
 <W msd="XP" tag="." in="-36:pnct" out="">.</W>
 </s>
 <s>
@@ -98,8 +98,8 @@
 <W msd="CS" tag="IN" in="7:xtop" out="2:vobj|6:ref">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:preds|3:pnct">isn't</W>
-<W msd="NP=S" tag="NNP" in="1:mod" out="">English</W>
-<W msd="NC=P" tag="NNS" in="-2:preds" out="-1:mod">agents</W>
+<W msd="NP=S" tag="NNP" in="1:attr" out="">English</W>
+<W msd="NC=P" tag="NNS" in="-2:preds" out="-1:attr">agents</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-6:ref|1:mod" out="">then</W>
 <W msd="VADR" tag="VBZ" in="-22:conj" out="-8:pnct|-1:mod|-7:xtop|1:preds">it's</W>
@@ -110,11 +110,11 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|4:mod|5:pnct">must</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|4:time|5:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:preds">getting</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">tired</W>
-<W msd="ANP" tag="RB" in="-4:mod" out="">soon</W>
+<W msd="ANP" tag="RB" in="-4:time" out="">soon</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>

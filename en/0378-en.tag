@@ -50,8 +50,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">news</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">bureau</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="">DPA</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|1:mod|2:dobj|17:pnct">reported</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">yesterday</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|2:dobj|17:pnct|1:time">reported</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">yesterday</W>
 <W msd="SP" tag="IN" in="-2:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">exchange</W>
@@ -85,9 +85,9 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:pnct|-1:subj|12:pnct|2:preds">are</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="6:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">interested</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:pnct|-1:subj|2:preds|12:pnct">are</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="6:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">interested</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">successful</W>
@@ -189,8 +189,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Havel</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">River</W>
 <W msd="VADA" tag="VBD" in="-8:vobj" out="-7:subj|1:mod|3:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:mod">once</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-1:mod" out="1:ext">once</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
 <W msd="U=" tag="TO" in="-3:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">form</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

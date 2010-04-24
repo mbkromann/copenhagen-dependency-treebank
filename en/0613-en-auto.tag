@@ -12,7 +12,7 @@
 <W msd="ANP" tag="JJ" in="" out="">vocational</W>
 <W msd="NC=S" tag="NN" in="" out="">school</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-8:[subj]|-1:coord|2:vobj|10:coord|1:neg">could</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-8:[subj]|-1:coord|1:neg|2:vobj|10:coord">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">get</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|3:mod">an</W>
@@ -135,11 +135,11 @@
 <s>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">Three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
-<W msd="ANP" tag="RB" in="4:mod" out="-2:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="4:succ" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">turnover</W>
-<W msd="VADA" tag="VBD" in="" out="-4:mod|-2:subj|3:preds|6:pnct|9:conj|15:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|3:preds|6:pnct|9:conj|15:pnct|-4:succ">was</W>
 <W msd="ANP" tag="JJ" in="2:mod" out="1:nobj">several</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
 <W msd="ANC" tag="JJR" in="-3:preds" out="-2:mod|1:pobj">greater</W>

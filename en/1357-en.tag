@@ -63,7 +63,7 @@
 <W msd="PT" tag="WRB" in="-1:preds|2:[mod]" out="2:rel">why</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|-2:[mod]|1:dobj">love</W>
-<W msd="VAG" tag="VBG" in="-1:dobj" out="2:pnct|3:modp|1:@loc">working</W>
+<W msd="VAG" tag="VBG" in="-1:dobj" out="1:@loc|2:pnct|3:modp">working</W>
 <W msd="ANP" tag="RB" in="-1:@loc" out="">here</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="VAG" tag="VBG" in="-3:modp" out="1:dobj">making</W>
@@ -120,7 +120,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="15:mod" out="-4:tobj|1:pnct|3:modp">later</W>
+<W msd="ANP" tag="RB" in="15:succ" out="-4:tobj|1:pnct|3:modp">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">shortly</W>
 <W msd="CS" tag="IN" in="-3:modp" out="-1:tobj|1:nobj|6:pnct">before</W>
@@ -135,7 +135,7 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">colleague</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Anne-Mette</W>
 <W msd="NP=S" tag="NNP" in="-4:appr" out="-1:namef">Larsen</W>
-<W msd="VADR" tag="VBZ" in="" out="-15:mod|-5:subj|1:@dir|2:pnct">gets</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:@dir|2:pnct|-15:succ">gets</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -166,7 +166,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="9:conj|20:pnct">And</W>
-<W msd="PT" tag="WRB" in="8:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="8:time" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sun</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj|2:pnct">is</W>
@@ -174,7 +174,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
-<W msd="VADR" tag="VBP" in="-9:conj" out="-8:mod|-2:subj|1:mod">play</W>
+<W msd="VADR" tag="VBP" in="-9:conj" out="-2:subj|-8:time|1:mod">play</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">fields</W>

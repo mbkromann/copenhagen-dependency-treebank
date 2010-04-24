@@ -30,8 +30,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">He</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:mod|-2:subj|1:dobj|39:pnct">says</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:add|1:dobj|39:pnct">says</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="9:vobj">that</W>
 <W msd="PD" tag="DT" in="8:subj|9:[subj]|11:[subj]|13:[subj]" out="1:nobj|2:mod|3:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Danes'</W>
@@ -104,7 +104,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:mod|-2:subj|1:mod|3:mod|5:coord|9:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:mod|-2:subj|1:mod|2:preds|3:mod|5:coord|9:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">typically</W>
 <W msd="AC" tag="CD" in="-2:preds" out="">2.25</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
@@ -126,7 +126,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">beer</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">wine</W>
-<W msd="VA" tag="MD" in="24:qobj" out="-10:subj|1:vobj|12:pnct|13:mod|22:pnct|23:pnct">will</W>
+<W msd="VA" tag="MD" in="24:qobj" out="-10:subj|1:vobj|12:pnct|13:focal|22:pnct|23:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">reduce</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="1:possd">Danes'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:pobj">interest</W>
@@ -139,7 +139,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">border</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-13:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-13:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
@@ -168,8 +168,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">spirits</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">cigarettes</W>
-<W msd="VA" tag="MD" in="-8:vobj" out="-7:subj|1:mod|2:vobj|8:pnct|9:mod">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="-8:vobj" out="-7:subj|1:add|2:vobj|8:pnct|9:reas">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-9:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:mod">reduced</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -177,7 +177,7 @@
 <W msd="VAG" tag="VBG" in="-1:mod" out="">coming</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">years</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:mod" out="5:vobj">because</W>
+<W msd="CS" tag="IN" in="-9:reas" out="5:vobj">because</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -214,8 +214,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">New</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">Year</W>
 <W msd="NP=P" tag="NNPS" in="1:subj|3:[subj]" out="">Danes</W>
-<W msd="VA" tag="MD" in="-6:vobj" out="-1:subj|-5:mod|1:mod|2:vobj">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">legally</W>
+<W msd="VA" tag="MD" in="-6:vobj" out="-1:subj|-5:mod|2:vobj|1:man">can</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">legally</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:part|4:dobj">bring</W>
 <W msd="SP" tag="IN" in="-1:part" out="">in</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:avobj">at</W>

@@ -43,8 +43,8 @@
 <W msd="PD" tag="DT" in="4:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">drama</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">head</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:mod|-4:subj|1:dobj">has</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|-1:add|1:dobj">has</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|16:pnct|20:xpl">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">clear</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">answer</W>
@@ -142,7 +142,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">step</W>
 <W msd="VADA" tag="VBD" in="" out="-3:subj|1:vobj|11:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod|8:mod">taken</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod|8:prec">taken</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|3:nobj">an</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">extended</W>
@@ -150,15 +150,15 @@
 <W msd="VAG" tag="VBG" in="-3:nobj" out="-1:mod">meeting</W>
 <W msd="PD" tag="DT" in="2:tobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
-<W msd="CS" tag="IN" in="-8:mod" out="-2:tobj|1:nobj">before</W>
+<W msd="CS" tag="IN" in="-8:prec" out="-2:tobj|1:nobj">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Whitsun</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">playhouse</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:mod|5:mod|44:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:add|2:preds|5:mod|44:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">agenda</W>
@@ -250,13 +250,13 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">there</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|6:mod">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|6:dur">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">initiative</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">committee</W>
-<W msd="SP" tag="IN" in="-6:mod" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-6:dur" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fall</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>

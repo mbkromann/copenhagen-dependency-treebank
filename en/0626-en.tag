@@ -5,8 +5,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:mod|2:preds|3:pnct|39:conj|43:pnct">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">again</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:ext|2:preds|3:pnct|39:conj|43:pnct">were</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">silent</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="35:coord" out="">and</W>
@@ -186,8 +186,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:nobj" out="">armrest</W>
 <W msd="XP" tag="," in="-20:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">slowly</W>
-<W msd="VADA" tag="VBD" in="-25:rel" out="-23:subj|-22:mod|-1:mod|1:dobj">shook</W>
+<W msd="ANP" tag="RB" in="1:man" out="">slowly</W>
+<W msd="VADA" tag="VBD" in="-25:rel" out="-23:subj|-22:mod|1:dobj|-1:man">shook</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:nobj">her</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">head</W>
 <W msd="XP" tag="." in="-52:pnct" out="">.</W>
@@ -196,7 +196,7 @@
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Katie</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|19:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|4:mod|1:@loc">sitting</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:@loc|4:mod">sitting</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">lap</W>

@@ -92,8 +92,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">arm</W>
-<W msd="SP" tag="IN" in="-5:lobj" out="1:mod">over</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">behind</W>
+<W msd="SP" tag="IN" in="-5:lobj" out="1:loc">over</W>
+<W msd="SP" tag="IN" in="-1:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">shooting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">gallery</W>
@@ -102,10 +102,10 @@
 <s>
 <W msd="PI" tag="DT" in="2:tobj" out="1:nobj">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
-<W msd="ANP" tag="RB" in="3:mod" out="-2:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="3:succ" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:part|2:mod|16:pnct">threw</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:succ|1:part|2:mod|16:pnct">threw</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:nobj">so</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
@@ -154,7 +154,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|4:preds|9:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|4:preds|9:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:avobj">at</W>
 <W msd="PD" tag="DT" in="-1:avobj" out="">all</W>
@@ -191,8 +191,8 @@
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="1:mod" out="">Suddenly</W>
-<W msd="VADA" tag="VBD" in="" out="-1:mod|1:dobj|7:pnct">wanted</W>
+<W msd="ANP" tag="RB" in="1:man" out="">Suddenly</W>
+<W msd="VADA" tag="VBD" in="" out="1:dobj|7:pnct|-1:man">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:lobj|3:conj">go</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="">over</W>

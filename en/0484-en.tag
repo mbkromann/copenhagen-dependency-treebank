@@ -132,8 +132,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="3:mod">North</W>
 <W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:pnct|8:pnct">doubled</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-3:mod" out="1:mod|2:dobj">confirming</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">thereby</W>
+<W msd="VAG" tag="VBG" in="-3:mod" out="2:dobj|1:inst">confirming</W>
+<W msd="ANP" tag="RB" in="-1:inst" out="">thereby</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">strong</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">opening</W>
@@ -163,8 +163,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">values</W>
 <W msd="XP" tag="(" in="5:pnct" out="">(</W>
 <W msd="PI" tag="DT" in="4:subj|5:[subj]" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">flat</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">flat</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">hand</W>
 <W msd="VADR" tag="VBZ" in="-8:modp" out="-5:pnct|-4:subj|1:vobj|7:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">shown</W>
@@ -196,8 +196,8 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">3</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">UT</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bid</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|1:mod|2:vobj|5:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">thereby</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|2:vobj|5:pnct|1:inst">was</W>
+<W msd="ANP" tag="RB" in="-1:inst" out="">thereby</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:pobj">forced</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">South</W>

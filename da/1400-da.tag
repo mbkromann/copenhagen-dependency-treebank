@@ -102,7 +102,7 @@
 <W gloss="the_politicians" lemma="politiker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">politikerne</W>
 <W gloss="negotiate" lemma="forhandle" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-1:subj|-2:coord|1:pnct">forhandler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|3:subj|4:mod|18:pnct|5:@loc">sidder</W>
+<W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|3:subj|4:mod|5:@loc|18:pnct">sidder</W>
 <W gloss="Anders" lemma="Anders" msd="NP--U==-" tag="NNP" in="2:namef" out="">Anders</W>
 <W gloss="Dahl" lemma="Dahl" msd="NP--U==-" tag="NNP" in="1:namel" out="">Dahl</W>
 <W gloss="Rasmussen" lemma="Rasmussen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:namef|-1:namel">Rasmussen</W>
@@ -114,8 +114,8 @@
 <W gloss="the_prison" lemma="fængsel" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:appr|6:mod">fængslet</W>
 <W gloss="Scremska" lemma="Scremska" msd="NP--U==-" tag="NNP" in="-1:appr" out="1:name">Scremska</W>
 <W gloss="Mitrovica" lemma="Mitrovica" msd="NP--U==-" tag="NNP" in="-1:name" out="">Mitrovica</W>
-<W gloss="approx_." lemma="cirka" msd="RGU" tag="RP" in="1:mod" out="">ca.</W>
-<W gloss="65" lemma="65" msd="AC---U=--" tag="CD" in="2:mod" out="-1:mod|1:nobj">65</W>
+<W gloss="approx_." lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
+<W gloss="65" lemma="65" msd="AC---U=--" tag="CD" in="2:mod" out="-1:degr|1:nobj">65</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
 <W gloss="west" lemma="vest" msd="RGU" tag="RP" in="-6:mod" out="-2:mod|1:pobj">vest</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -214,8 +214,8 @@
 <p>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:mod" out="">Blandt_andet</W>
-<W gloss="asks" lemma="bede" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|-2:pnct|1:subj|2:dobj|3:vobj|13:pnct|14:mod|21:pnct">beder</W>
+<W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">Blandt_andet</W>
+<W gloss="asks" lemma="bede" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|1:subj|2:dobj|3:vobj|13:pnct|14:mod|21:pnct|-1:exem">beder</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-2:dobj|1:[subj]" out="">os</W>
 <W gloss="buy" lemma="købe" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-1:[subj]|1:dobj">købe</W>
@@ -230,8 +230,8 @@
 <W gloss="margarine" lemma="margarine" msd="NCCSU==I" tag="NN" in="-8:conj" out="-1:coord">margarine</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-14:mod" out="3:vobj">for</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="the_prisons" lemma="fængsel" msd="NCNPU==D" tag="NNP" in="1:subj|2:[subj]" out="-1:mod">fængslerne</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="the_prisons" lemma="fængsel" msd="NCNPU==D" tag="NNP" in="1:subj|2:[subj]" out="-1:add">fængslerne</W>
 <W gloss="have_been" lemma="blive" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">bliver</W>
 <W gloss="touched" lemma="berøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">berørt</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

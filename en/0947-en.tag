@@ -20,10 +20,10 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">party</W>
 <W msd="VA" tag="MD" in="-3:rel" out="-2:subj|1:vobj|7:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj|3:mod">go</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj|3:accom">go</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:pobj">along</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-6:[nobj]">with</W>
-<W msd="SP" tag="IN" in="-3:mod" out="2:nobj">without</W>
+<W msd="SP" tag="IN" in="-3:accom" out="2:nobj">without</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">further</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">ado</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -67,8 +67,8 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">There</W>
-<W msd="VA" tag="MD" in="" out="-1:expl|1:mod|2:vobj|10:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-1:expl|1:add|2:vobj|10:pnct">could</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[expl]|1:dobj">be</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">discussion</W>
@@ -84,7 +84,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">party</W>
 <W msd="VA" tag="MD" in="-3:conj" out="-2:subj|1:vobj">would</W>
-<W msd="SP" tag="IN" in="-1:vobj" out="-3:[subj]|1:dobj|16:pnct|17:mod">like</W>
+<W msd="SP" tag="IN" in="-1:vobj" out="-3:[subj]|1:dobj|16:pnct|17:cont">like</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|3:pnct|4:conj|12:conj">an</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">ombudsman</W>
@@ -92,16 +92,16 @@
 <W msd="PI" tag="DT" in="-4:conj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">consumer</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">policy</W>
-<W msd="CC" tag="CC" in="5:coord" out="1:pnct|2:mod|4:mod">and</W>
+<W msd="CC" tag="CC" in="5:coord" out="1:pnct|4:add|2:epi">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">presumably</W>
+<W msd="ANP" tag="RB" in="-2:epi" out="1:pnct">presumably</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-4:mod" out="">also</W>
+<W msd="ANP" tag="RB" in="-4:add" out="">also</W>
 <W msd="PI" tag="DT" in="-12:conj" out="-5:coord|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">industrial</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">policy</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-17:mod" out="5:vobj">while</W>
+<W msd="CS" tag="IN" in="-17:cont" out="5:vobj">while</W>
 <W msd="VAG" tag="VBG" in="4:mod" out="1:pobj">according</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">SF</W>
@@ -160,7 +160,7 @@
 <W msd="VAF" tag="VB" in="-9:conj" out="-11:[subj]|-1:coord|1:dobj">hear</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">whether</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
@@ -231,7 +231,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bjørn</W>
 <W msd="NP=S" tag="NNP" in="-7:appa" out="-2:title|-1:namef|1:pnct">Westh</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="-29:conj" out="-9:subj|-10:coord|2:vobj|1:neg">would</W>
+<W msd="VA" tag="MD" in="-29:conj" out="-9:subj|-10:coord|1:neg|2:vobj">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-11:[subj]|1:dobj">repeat</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">this</W>

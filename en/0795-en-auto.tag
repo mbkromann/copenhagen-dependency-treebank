@@ -1,6 +1,6 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Police</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:mod|8:mod|18:pnct|19:mod|27:pnct|1:@dir">drove</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:@dir|2:mod|8:mod|18:pnct|19:time|27:pnct">drove</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:preds">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">loudspeakers</W>
@@ -19,11 +19,11 @@
 <W msd="NC=P" tag="NNS" in="" out="1:mod">windows</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">shut</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-19:mod" out="4:vobj">when</W>
+<W msd="PT" tag="WRB" in="-19:time" out="4:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="3:subj|3:[subj]" out="1:nobj">Faaborg</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Shipyard</W>
-<W msd="NC=S" tag="NN" in="1:mod" out="">yesterday</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-3:[subj]|-1:mod|1:nobj">experienced</W>
+<W msd="NC=S" tag="NN" in="1:time" out="">yesterday</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-3:[subj]|-1:time|1:nobj">experienced</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">major</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">fire</W>
@@ -117,11 +117,11 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">symptoms</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:neg">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="2:pobj">not</W>
-<W msd="VAF" tag="VB" in="" out="-4:[subj]|4:mod">appear</W>
+<W msd="VAF" tag="VB" in="" out="-4:[subj]|4:succ">appear</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="">until</W>
 <W msd="ANP" tag="JJ" in="2:tobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="-4:mod" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-4:succ" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-43:pnct" out="">.</W>
 </s>
 <s>

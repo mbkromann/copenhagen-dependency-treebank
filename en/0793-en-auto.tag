@@ -119,8 +119,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Afghan</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">army</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="" out="-9:subj|-1:mod|1:dobj|4:pnct">seem</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-9:subj|-1:add|1:dobj|4:pnct">seem</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">support</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Masood</W>
@@ -147,7 +147,7 @@
 <W msd="VADA" tag="VBD" in="" out="-9:subj|1:preds|12:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">on</W>
 <W msd="PO" tag="PRP$" in="" out="">its</W>
-<W msd="NC=S" tag="NN" in="" out="4:mod|1:@dir">way</W>
+<W msd="NC=S" tag="NN" in="" out="1:@dir|4:mod">way</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="2:nobj">from</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">northeastern</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Afghanistan</W>
@@ -178,7 +178,7 @@
 <W msd="VAP" tag="VBN" in="1:mod" out="-1:mod">armed</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">rebels</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-19:subj|1:preds|5:mod|23:pnct|24:mod|37:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-19:subj|1:preds|5:mod|23:pnct|37:pnct|24:reas">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="3:nobj">on</W>
 <W msd="PI" tag="DT" in="" out="">an</W>
 <W msd="ANP" tag="JJ" in="" out="">uncertain</W>
@@ -202,7 +202,7 @@
 <W msd="U=" tag="TO" in="-8:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kabul</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-24:mod" out="7:vobj">because</W>
+<W msd="CS" tag="IN" in="-24:reas" out="7:vobj">because</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">various</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">sections</W>

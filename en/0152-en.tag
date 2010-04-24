@@ -54,10 +54,10 @@
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|1:preds|42:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:reas|1:preds|42:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wonder</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="1:pnct|7:vobj">that</W>
@@ -120,20 +120,20 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="">Immediately</W>
-<W msd="ANP" tag="RB" in="5:mod" out="-1:mod|1:pnct">afterwards</W>
+<W msd="ANP" tag="RB" in="5:succ" out="-1:mod|1:pnct">afterwards</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">long</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">nails</W>
-<W msd="VADA" tag="VBD" in="" out="-5:mod|-3:subj|1:vobj|3:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:vobj|3:pnct|-5:succ">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:part">clipped</W>
 <W msd="RG" tag="RP" in="-1:part" out="">off</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|4:[subj]" out="">muscles</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:preds|4:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-2:time|1:preds|4:pnct">were</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">used</W>

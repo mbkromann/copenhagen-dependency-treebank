@@ -9,13 +9,13 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Fure</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Lake</W>
-<W msd="VA" tag="MD" in="-7:list" out="-5:subj|2:mod|3:vobj|5:pnct|6:mod|22:pnct">can</W>
+<W msd="VA" tag="MD" in="-7:list" out="-5:subj|3:vobj|5:pnct|6:time|22:pnct|2:ext">can</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">again</W>
+<W msd="ANP" tag="RB" in="-2:ext" out="-1:mod">again</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]">recommended</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-6:mod" out="1:nobj">now</W>
+<W msd="ANP" tag="RB" in="-6:time" out="1:nobj">now</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="5:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="4:subj|5:[subj]" out="1:conj|3:conj">doctors</W>
 <W msd="NC=P" tag="NNS" in="-1:conj" out="">municipalities</W>
@@ -140,7 +140,7 @@
 <W msd="PD" tag="DT" in="-3:nobj" out="9:vobj">that</W>
 <W msd="NC=S" tag="NN" in="8:subj|9:[subj]" out="1:ref|2:rel">fish</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:vobj|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:lobj|2:mod">gotten</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="">away</W>

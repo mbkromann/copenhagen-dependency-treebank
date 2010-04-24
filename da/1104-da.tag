@@ -43,8 +43,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="Hash" lemma="hash" msd="NCCSU==I" tag="NN" in="1:subj" out="">Hash</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|2:preds|3:pnct">er</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:add|2:preds|3:pnct">er</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="narcotic" lemma="narkotika" msd="NCNSU==I" tag="NN" in="-2:preds" out="">narkotika</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
@@ -61,7 +61,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|4:[subj]|5:[subj]" out="7:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|3:conj|12:pnct|14:mod|18:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|3:conj|12:pnct|18:pnct|14:cond">er</W>
 <W gloss="forbidden" lemma="forbudt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">forbudt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="should" lemma="burde" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:vobj">bør</W>
@@ -74,8 +74,8 @@
 <W gloss="convey" lemma="overdrage" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:coord|1:dobj">overdrage</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-14:mod" out="-1:mod|2:vobj">hvis</W>
+<W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-14:cond" out="-1:add|2:vobj">hvis</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="happens" lemma="ske" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod">sker</W>
 <W gloss="free_of_charge" lemma="gratis" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">gratis</W>
@@ -187,8 +187,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|2:vobj|8:pnct|11:conj|25:pnct">har</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:time|2:vobj|8:pnct|11:conj|25:pnct">har</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
 <W gloss="reinforced" lemma="forstærke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">forstærket</W>
 <W gloss="efforts" lemma="indsats" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj">indsatsen</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>

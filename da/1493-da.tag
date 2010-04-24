@@ -52,10 +52,10 @@
 <W gloss="astonished" lemma="lamslået" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">lamslåede</W>
 <W gloss="eyewitnesses" lemma="øjenvidne" msd="NCNPU==I" tag="NNP" in="-2:preds" out="-1:attr|1:pobj">øjenvidner</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod|5:pnct|6:ref|8:rel">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|5:pnct|6:ref|8:rel|3:time">en</W>
 <W gloss="tragic" lemma="tragisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">tragisk</W>
 <W gloss="airplane_accident" lemma="flyulykke" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">flyulykke</W>
-<W gloss="Sunday" lemma="søndag" msd="NCCSU==I" tag="NN" in="-3:mod" out="1:nobj">søndag</W>
+<W gloss="Sunday" lemma="søndag" msd="NCCSU==I" tag="NN" in="-3:time" out="1:nobj">søndag</W>
 <W gloss="noon" lemma="middag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">middag</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="in_which" lemma="hvor" msd="RGU" tag="RP" in="-6:ref|2:mod" out="">hvor</W>
@@ -174,9 +174,9 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="2:vobj">at</W>
 <W gloss="the_plane" lemma="fly" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">flyet</W>
 <W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">skulle</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|1:@dir">komme</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|2:time">komme</W>
 <W gloss="by" lemma="forbi" msd="RGU" tag="RP" in="-1:@dir" out="">forbi</W>
-<W gloss="Sunday" lemma="søndag" msd="NCCSU==I" tag="NN" in="-2:mod" out="1:mod">søndag</W>
+<W gloss="Sunday" lemma="søndag" msd="NCCSU==I" tag="NN" in="-2:time" out="1:mod">søndag</W>
 <W gloss="around" lemma="ved" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ved</W>
 <W gloss="lunchtime" lemma="frokosttid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">frokosttid</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>

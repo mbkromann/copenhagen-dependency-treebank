@@ -15,7 +15,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|16:pnct|5:@dir">Send</W>
+<W msd="VAF" tag="VB" in="" out="1:dobj|3:mod|5:@dir|16:pnct">Send</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">coupon</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:avobj">at</W>
@@ -62,8 +62,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|25:pnct">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:add|2:vobj|25:pnct">can</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:mod|4:mod|16:pnct|20:mod">deliver</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">envelope</W>
@@ -111,9 +111,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:vobj">have</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|2:[dobj]" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">prize</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:[dobj]|2:mod">sent</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">well</W>
-<W msd="CS" tag="IN" in="-2:mod" out="-1:mod|2:nobj">before</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:[dobj]|2:prec">sent</W>
+<W msd="ANP" tag="RB" in="1:man" out="">well</W>
+<W msd="CS" tag="IN" in="-2:prec" out="2:nobj|-1:man">before</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christmas</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Eve</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
@@ -176,8 +176,8 @@
 <s>
 <W msd="CS" tag="IN" in="15:xtop" out="3:vobj|13:ref">If</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">you</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|1:pobj|9:pnct#">participate</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:add|1:pobj|9:pnct#">participate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">in</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="-1:pnct|1:nobj|2:possd|3:pnct|4:mod">The</W>

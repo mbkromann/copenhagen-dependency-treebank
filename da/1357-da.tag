@@ -93,8 +93,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="That_is_why" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="love" lemma="elske" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|10:pnct|11:pnct">elsker</W>
+<W gloss="That_is_why" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
+<W gloss="love" lemma="elske" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:dobj|10:pnct|11:pnct|-1:reas">elsker</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj|3:pnct|4:modp">at</W>
 <W gloss="working" lemma="arbejde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@loc">arbejde</W>
@@ -157,7 +157,7 @@
 <W gloss="A" lemma="en" msd="PI-NSU--U" tag="DT" in="3:tobj" out="1:nobj">Et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>
 <W gloss="hours" lemma="time" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">timer</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="8:mod" out="-3:tobj|1:pnct|3:modp">senere</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="8:succ" out="-3:tobj|1:pnct|3:modp">senere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="shortly" lemma="kort" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">kort</W>
 <W gloss="before" lemma="før" msd="SP" tag="IN" in="-3:modp" out="-1:tobj|1:nobj|4:pnct">før</W>
@@ -165,7 +165,7 @@
 <W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="-1:nobj" out="">seks</W>
 <W gloss="morning" lemma="morgen" msd="NCCSU==I" tag="NN" in="-2:mod" out="">morgen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="gets" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-8:mod|1:subj|6:@dir|7:pnct">står</W>
+<W gloss="gets" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-8:succ|1:subj|6:@dir|7:pnct">står</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:subj" out="1:attr|2:possd|4:appr">hendes</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="colleague" lemma="kollega" msd="NCCSU==I" tag="NN" in="-2:possd" out="">kollega</W>
@@ -259,8 +259,8 @@
 <W gloss="walk" lemma="gå" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-4:mod|-3:subj|1:dobj|2:lobj">går</W>
 <W gloss="gauntlet" lemma="spidsrod" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:dobj" out="">spidsrod</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-2:lobj" out="3:nobj">mellem</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:mod" out="">mindst</W>
-<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="1:numm" out="-1:mod">20</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mindst</W>
+<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="1:numm" out="-1:degr">20</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:numm|1:nobj|2:pnct|3:ref|4:rel">millioner</W>
 <W gloss="landmines" lemma="landmine" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">landminer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

@@ -23,9 +23,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-17:[subj]|1:dobj|2:mod">achieve</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">results</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
-<W msd="ANP" tag="JJ" in="-1:nobj" out="1:mod|2:mod|3:nobj">other</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="1:mod|3:nobj|2:attr">other</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">explosive</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="">political</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="">political</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="1:pnct|2:appa">areas</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="-2:appa" out="1:pnct|2:conj|6:conj">education</W>
@@ -163,8 +163,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">help</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">assure</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:mod|3:attr|5:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:mod">restrained</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">restrained</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">collective</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bargaining</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">result</W>

@@ -44,9 +44,9 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="crisis-ridden" lemma="kriseramt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">kriseramte</W>
 <W gloss="major_club" lemma="storklub" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">storklub</W>
-<W gloss="escape" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:mod|3:pobj|6:pnct|9:conj|18:pnct">slipper</W>
+<W gloss="escape" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|3:pobj|6:pnct|9:conj|18:pnct|2:epi">slipper</W>
 <W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:mod" out="">ganske</W>
-<W gloss="shown" lemma="vist" msd="RGU" tag="RP" in="-2:mod" out="-1:mod">vist</W>
+<W gloss="shown" lemma="vist" msd="RGU" tag="RP" in="-2:epi" out="-1:mod">vist</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">for</W>
 <W gloss="more" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
 <W gloss="Interbank" lemma="Interbank" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Interbank</W>
@@ -68,8 +68,8 @@
 <p>
 <s>
 <W gloss="B.T" lemma="B.T." msd="NP--U==-" tag="NNP" in="1:subj|3:[subj]" out="">B.T.</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|27:pnct">kan</W>
-<W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="-1:mod" out="">i_dag</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|27:pnct">kan</W>
+<W gloss="Today" lemma="i_dag" msd="RGU" tag="RP" in="-1:time" out="">i_dag</W>
 <W gloss="lift" lemma="lette" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">lette</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the_veil" lemma="slør" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">sløret</W>
@@ -130,12 +130,12 @@
 </p>
 <p>
 <s>
-<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="5:mod" out="2:nobj">Ifølge</W>
+<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="5:source" out="2:nobj">Ifølge</W>
 <W gloss="confidential" lemma="fortrolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">fortrolige</W>
 <W gloss="information" lemma="oplysning" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pobj">oplysninger</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="B.T." lemma="B.T." msd="NP--U==-" tag="NNP" in="-1:nobj" out="">B.T.</W>
-<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:mod|1:subj|9:vobj|14:pnct|15:mod|32:pnct">skal</W>
+<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:source|1:subj|9:vobj|14:pnct|15:mod|32:pnct">skal</W>
 <W gloss="Brøndby's" lemma="Brøndby" msd="NP--G==-" tag="NNP" in="-1:subj|8:[subj]" out="1:attr|2:possd">Brøndbys</W>
 <W gloss="current" lemma="aktuel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">aktuelle</W>
 <W gloss="debt" lemma="gæld" msd="NCCSU==I" tag="NN" in="-2:possd" out="1:pobj">gæld</W>
@@ -233,9 +233,9 @@
 <W gloss="bankruptcy_petitions" lemma="konkursbegæring" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">konkursbegæringer</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="6:mod" out="">begge</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:mod" out="1:nobj|2:mod">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:mod" out="1:nobj|2:time">den</W>
 <W gloss="now" lemma="dag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dag</W>
-<W gloss="i_går" lemma="i_går" msd="RGU" tag="RP" in="-2:mod" out="">i_går</W>
+<W gloss="i_går" lemma="i_går" msd="RGU" tag="RP" in="-2:time" out="">i_går</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:mod" out="1:nobj">i</W>
 <W gloss="practice" lemma="praksis" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">praksis</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-12:vobj" out="-11:subj|-9:mod|-6:mod|-2:mod|-5:mod|1:vobj">kunne</W>

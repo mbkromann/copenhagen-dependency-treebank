@@ -74,8 +74,8 @@
 <W msd="NP=S" tag="NNP" in="-2:preds" out="-1:namef|1:pnct|2:ref|4:rel|16:pnct|21:xpl">Andersen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|2:subj|4:[subj]" out="">who</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">however</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:neg|2:vobj">did</W>
+<W msd="ANP" tag="RB" in="1:contr" out="">however</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:contr|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj|2:part|3:mod">take</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">time</W>
@@ -111,10 +111,10 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="3:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
-<W msd="PP" tag="PRP" in="1:mod" out="">myself</W>
-<W msd="VADR" tag="VBP" in="18:qobj" out="-3:mod|-2:subj|-1:mod|1:preds|4:pnct|5:mod|16:pnct|17:pnct">am</W>
+<W msd="PP" tag="PRP" in="1:focal" out="">myself</W>
+<W msd="VADR" tag="VBP" in="18:qobj" out="-2:subj|-3:time|1:preds|4:pnct|5:mod|16:pnct|17:pnct|-1:focal">am</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:possd">a</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jehovah's</W>
 <W msd="VAF" tag="VB" in="-2:possd" out="">Witness</W>

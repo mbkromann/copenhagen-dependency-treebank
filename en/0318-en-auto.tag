@@ -12,9 +12,9 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Nathan</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|2:mod|3:pnct">pocketed</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|2:man|3:pnct">pocketed</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">quickly</W>
+<W msd="ANP" tag="RB" in="-2:man" out="">quickly</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -56,8 +56,8 @@
 <W msd="NP=S" tag="NNP" in="" out="">Doctor</W>
 <W msd="NP=S" tag="NNP" in="" out="">Clever</W>
 <W msd="NP=S" tag="NNP" in="" out="">Dick</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">suddenly</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|-1:mod">didn't</W>
+<W msd="ANP" tag="RB" in="1:man" out="">suddenly</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|-1:man">didn't</W>
 <W msd="NC=S" tag="NN" in="" out="2:aobj|5:pnct">look</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="VADA" tag="VBD" in="-2:aobj" out="-1:mod">satisfied</W>
@@ -86,12 +86,12 @@
 <W msd="CC" tag="CC" in="" out="1:pnct|3:conj|16:pnct">but</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="-3:conj" out="-1:subj|1:vobj|4:pnct|5:mod|10:conj">can</W>
+<W msd="VA" tag="MD" in="-3:conj" out="-1:subj|1:vobj|4:pnct|5:cond|10:conj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:mod" out="">if</W>
+<W msd="CS" tag="IN" in="-5:cond" out="">if</W>
 <W msd="NC=S" tag="NN" in="" out="">you'd</W>
 <W msd="SP" tag="IN" in="" out="1:pnct">like</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -103,8 +103,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="2:subj" out="">Bucks</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">quickly</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod">snapped</W>
+<W msd="ANP" tag="RB" in="1:man" out="">quickly</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:man">snapped</W>
 <W msd="SP" tag="IN" in="" out="1:dobj|2:pnct">at</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>

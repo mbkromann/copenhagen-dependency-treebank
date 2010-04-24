@@ -9,7 +9,7 @@
 <W msd="NP=S" tag="NNP" in="-1:appr" out="">Akkerup</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">near</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Assens</W>
-<W msd="VADA" tag="VBD" in="" out="-10:subj|18:pnct|2:preds">were</W>
+<W msd="VADA" tag="VBD" in="" out="-10:subj|2:preds|18:pnct">were</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">terror-stricken</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:attr|1:pobj">eyewitnesses</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -134,7 +134,7 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">home</W>
 <W msd="CC" tag="CC" in="10:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="8:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="8:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|4:pnct">answered</W>
 <W msd="SP" tag="IN" in="" out="">in</W>
@@ -142,7 +142,7 @@
 <W msd="ANP" tag="JJ" in="" out="">affirmative</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-22:conj" out="-8:mod|-1:subj|-10:coord|1:dobj">agreed</W>
+<W msd="VADA" tag="VBD" in="-22:conj" out="-1:subj|-10:coord|1:dobj|-8:time">agreed</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plane</W>
@@ -158,7 +158,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|7:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:vobj|5:pnct|6:coord|13:pnct|14:mod|20:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:vobj|5:pnct|6:coord|13:pnct|20:pnct|14:time">was</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj">standing</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -172,7 +172,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">garden</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">work</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-14:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-14:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|3:vobj">saw</W>
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:nobj">the</W>

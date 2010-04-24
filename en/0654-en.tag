@@ -1,8 +1,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Christiansen</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:dobj|2:mod|7:mod|58:pnct">expressed</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:add|1:dobj|2:mod|7:mod|58:pnct">expressed</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="8:pobj">amazement</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -37,8 +37,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:dobj">given</W>
 <W msd="PT" tag="WP" in="-1:dobj|3:[dobj]" out="3:rel">what</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
-<W msd="PP" tag="PRP" in="1:mod" out="">himself</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-3:[dobj]|-2:subj|-1:mod|1:preds">calls</W>
+<W msd="PP" tag="PRP" in="1:focal" out="">himself</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-3:[dobj]|-2:subj|1:preds|-1:focal">calls</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:nobj">a</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct|2:pobj">directive</W>
@@ -65,9 +65,9 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:mod|3:preds|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:degr|3:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
 <W msd="NP=S" tag="NNP" in="-3:preds" out="1:possd|2:mod">Ninn-Hansen's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">explanation</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
@@ -92,8 +92,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Ministry</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Justice</W>
-<W msd="VADR" tag="VBP" in="6:qobj" out="-10:subj|1:mod|2:vobj|4:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBP" in="6:qobj" out="-10:subj|1:add|2:vobj|4:pnct">have</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-12:[subj]|1:dobj">amazed</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -132,12 +132,12 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="45:qobj" out="36:conj|44:pnct">But</W>
-<W msd="ANP" tag="RB" in="35:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="35:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="4:vobj">though</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Christiansen</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">later</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-1:mod|1:mod|4:pobj|23:pobj|27:pnct">spoke</W>
+<W msd="ANP" tag="RB" in="1:succ" out="">later</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-1:succ|1:mod|4:pobj|23:pobj|27:pnct">spoke</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">several</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">occasions</W>
@@ -166,8 +166,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">case</W>
 <W msd="XP" tag="," in="-27:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">they</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">never</W>
-<W msd="VADA" tag="VBD" in="-36:conj" out="-35:mod|-2:subj|-1:mod|2:dobj">provided</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">never</W>
+<W msd="VADA" tag="VBD" in="-36:conj" out="-2:subj|-35:focal|-1:neg|2:dobj">provided</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">such</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="-1:attr|1:mod|2:nobj">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">detailed</W>
@@ -184,7 +184,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="1:conj|40:pnct">Nor</W>
-<W msd="VADA" tag="VBD" in="-1:conj" out="2:subj|3:mod|4:vobj|15:pnct|16:mod|26:mod">had</W>
+<W msd="VADA" tag="VBD" in="-1:conj" out="2:subj|3:mod|4:vobj|15:pnct|16:cont|26:focal">had</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="-2:subj|2:[subj]" out="-1:namef">Christiansen</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">ever</W>
@@ -200,17 +200,17 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Tamil</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">cases</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-16:mod" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-16:cont" out="3:vobj">while</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
-<W msd="PP" tag="PRP" in="1:mod" out="">himself</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:preds|6:pnct">was</W>
+<W msd="PP" tag="PRP" in="1:focal" out="">himself</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:preds|6:pnct|-1:focal">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Ministry</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Justice</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-26:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-26:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="6:vobj">though</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Frederik</W>
 <W msd="NP=S" tag="NNP" in="4:subj" out="-1:namef">Schydt</W>

@@ -69,17 +69,17 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="VADR" tag="VBP" in="1:subj" out="">you're</W>
-<W msd="VAG" tag="VBG" in="" out="-2:mod|-1:subj|9:pnct|1:@dir">going</W>
+<W msd="VAG" tag="VBG" in="" out="-1:subj|-2:time|1:@dir|9:pnct">going</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">scene</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
-<W msd="NC=S" tag="NN" in="" out="1:mod">crime</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">itself</W>
+<W msd="NC=S" tag="NN" in="" out="1:focal">crime</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">itself</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -113,7 +113,7 @@
 <W msd="I=" tag="UH" in="" out="1:pnct|3:conj|25:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-1:subj|1:vobj|12:pnct#|13:mod">had</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-1:subj|1:vobj|12:pnct#|13:time">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds">been</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj|2:mod|4:mod|8:mod">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">vacation</W>
@@ -126,7 +126,7 @@
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="-2:attr|1:nobj">November</W>
 <W msd="AC" tag="CD" in="-1:nobj|-12:pnct#" out="">1918,</W>
-<W msd="PT" tag="WRB" in="-13:mod" out="">when</W>
+<W msd="PT" tag="WRB" in="-13:time" out="">when</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:mod">no</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">outsider</W>
 <W msd="VA" tag="MD" in="" out="-2:subj">would</W>
@@ -161,8 +161,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|16:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|28:pnct">had</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">himself</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:focal|2:vobj|28:pnct">had</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">himself</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]|2:@dir|13:conj">sneaked</W>
 <W msd="ANP" tag="RB" in="" out="">down</W>
 <W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>

@@ -18,8 +18,8 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">same</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sentence</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">that</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:mod">resounded</W>
-<W msd="PT" tag="WRB" in="-1:mod" out="2:vobj">when</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:time">resounded</W>
+<W msd="PT" tag="WRB" in="-1:time" out="2:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Elvis</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:mod">left</W>
@@ -93,8 +93,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="" out="2:attr|3:possd|4:pobj">The</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">lonesome</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">lonesome</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">man</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="">in</W>
 <W msd="PD" tag="DT" in="" out="1:nobj|2:pnct">the</W>
@@ -182,8 +182,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">continent</W>
 <W msd="XP" tag="&3a;" in="-14:pnct" out="">-</W>
-<W msd="AC" tag="CD" in="-49:conj" out="1:mod|2:nobj|3:pnct|4:mod">two</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">large</W>
+<W msd="AC" tag="CD" in="-49:conj" out="2:nobj|3:pnct|4:mod|1:attr">two</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">generators</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-4:mod" out="1:mod|12:pnct">strong</W>
@@ -230,9 +230,9 @@
 <s>
 <W msd="PD" tag="DT" in="" out="1:attr">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="6:conj">first</W>
-<W msd="CC" tag="CC" in="5:coord" out="1:pnct|2:mod|3:pnct">and</W>
+<W msd="CC" tag="CC" in="5:coord" out="1:pnct|2:epi|3:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">perhaps</W>
+<W msd="ANP" tag="RB" in="-2:epi" out="">perhaps</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="-6:conj" out="-5:coord">only</W>

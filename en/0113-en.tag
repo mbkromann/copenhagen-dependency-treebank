@@ -5,13 +5,13 @@
 <W msd="AC" tag="CD" in="-1:preds" out="">83</W>
 <W msd="CC" tag="CC" in="-2:coord" out="1:pnct|8:coord">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="6:mod" out="1:pobj|5:pnct">even</W>
+<W msd="ANP" tag="RB" in="6:focal" out="1:pobj|5:pnct">even</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">high</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">age</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-8:coord" out="-6:mod|1:mod|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-8:coord" out="-6:focal|1:mod|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">active</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -31,8 +31,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:mod|3:preds|7:pnct|10:xpl">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:add|2:mod|3:preds|7:pnct|10:xpl">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">still</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:mod">active</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">as</W>
@@ -132,8 +132,8 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">dominating</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">lives</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="SP" tag="IN" in="-7:mod" out="-1:mod|2:nobj">for</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="SP" tag="IN" in="-7:mod" out="2:nobj|-1:degr">for</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">limited</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">periods</W>
 <W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
@@ -171,8 +171,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|8:rel">Lvov</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:ref|6:mod" out="">where</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="4:subj" out="-1:mod|1:pobj|3:nobj">34</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="4:subj" out="1:pobj|3:nobj|-1:degr">34</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">149,000</W>
 <W msd="NP=P" tag="NNPS" in="-3:nobj" out="">Jews</W>

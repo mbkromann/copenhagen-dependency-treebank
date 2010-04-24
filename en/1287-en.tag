@@ -123,8 +123,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">North</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Pole</W>
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="SP" tag="IN" in="-9:mod" out="-1:mod|1:nobj">on</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="SP" tag="IN" in="-9:mod" out="-1:add|1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">motorcycle</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -161,8 +161,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|7:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:vobj|7:pnct|1:degr">was</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:mod">delayed</W>
 <W msd="PI" tag="DT" in="-1:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
@@ -188,13 +188,13 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="ANP" tag="JJ" in="" out="-1:subj|1:dobj|5:pnct|6:mod|16:pnct">preferred</W>
+<W msd="ANP" tag="JJ" in="" out="-1:subj|1:dobj|5:pnct|6:time|16:pnct">preferred</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod">ride</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">night</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-6:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="-6:time" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">frost</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj|2:preds">made</W>

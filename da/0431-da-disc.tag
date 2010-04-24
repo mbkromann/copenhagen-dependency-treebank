@@ -142,7 +142,7 @@
 </s>
 <s>
 <W gloss="Here" lemma="her" msd="RGU" tag="RP" in="1:@loc" out="">Her</W>
-<W gloss="is_standing" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:pobj|9:pnct|-1:@loc">står</W>
+<W gloss="is_standing" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-1:@loc|1:subj|2:pobj|9:pnct">står</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="3:attr|4:mod|5:nobj">den</W>
@@ -222,8 +222,8 @@
 <W gloss="The_anniversary" lemma="jubilæum" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">Jubilæet</W>
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|10:pnct">blev</W>
 <W gloss="celebrated" lemma="fejre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:pobj|4:pobj">fejret</W>
-<W gloss="among_other_ways" lemma="blandt_andet" msd="RGU" tag="RP" in="1:mod" out="">blandt_andet</W>
-<W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="-1:mod|1:nobj">af</W>
+<W gloss="among_other_ways" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">blandt_andet</W>
+<W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|-1:exem">af</W>
 <W gloss="the_post_office" lemma="postvæsen" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">postvæsenet</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">med</W>
 <W gloss="the_issuance" lemma="udgivelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">udgivelsen</W>

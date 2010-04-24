@@ -36,7 +36,7 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="14:mod" out="4:vobj">If</W>
+<W msd="CS" tag="IN" in="14:cond" out="4:vobj">If</W>
 <W msd="PI" tag="DT" in="3:subj" out="2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">prime</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">minister</W>
@@ -50,11 +50,11 @@
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:subj|2:dobj|3:pnct|4:mod|23:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-14:cond|2:dobj|3:pnct|4:reas|23:pnct">has</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">historical</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">relevance</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:mod" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-4:reas" out="2:vobj">because</W>
 <W msd="AC" tag="CD" in="1:subj" out="">one</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:nobj">assumes</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="10:vobj">that</W>
@@ -119,8 +119,8 @@
 <W msd="NP=S" tag="NNP" in="-2:title" out="1:pnct">Ph.D.</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:mod|2:vobj">has</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">himself</W>
+<W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:focal|2:vobj">has</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">himself</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]|1:dobj">made</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:mod|3:nobj|4:mod">a</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">much</W>
@@ -178,11 +178,11 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|7:expl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
-<W msd="PT" tag="WRB" in="4:mod" out="1:mod">Why</W>
+<W msd="PT" tag="WRB" in="4:reas" out="1:mod">Why</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
-<W msd="VADA" tag="VBD" in="-7:expl" out="-4:mod|1:subj|3:vobj|6:pnct">were</W>
+<W msd="VADA" tag="VBD" in="-7:expl" out="1:subj|3:vobj|6:pnct|-4:reas">were</W>
 <W msd="PD" tag="DT" in="-1:subj|2:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lines</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[subj]|1:mod">drawn</W>
@@ -193,9 +193,9 @@
 <s>
 <W msd="CS" tag="IN" in="13:xtop" out="2:vobj|11:ref">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct|2:mod">were</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct|2:reas">were</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-2:mod" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-2:reas" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">minister</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:neg|2:preds|3:pnct">was</W>

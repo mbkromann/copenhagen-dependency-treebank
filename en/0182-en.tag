@@ -35,7 +35,7 @@
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:tobj">ago</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-4:subj|-1:mod|2:dobj|10:pnct|4:@dir">drew</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-4:subj|-1:mod|2:dobj|4:@dir|10:pnct">drew</W>
 <W msd="SP" tag="IN" in="1:mod" out="">over</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:mod|1:nobj">20,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">listeners</W>
@@ -130,8 +130,8 @@
 <W msd="ANP" tag="JJ" in="2:attr" out="">Norwegian</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">mountain</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod|-2:attr">air</W>
-<W msd="VA" tag="MD" in="" out="-11:subj|-16:mod|1:mod|2:vobj|13:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-11:subj|-16:mod|2:vobj|13:pnct|1:add">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-13:[subj]|1:mod">sing</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|6:conj|8:conj">Copenhagen</W>

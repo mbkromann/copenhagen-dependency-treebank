@@ -77,8 +77,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:preds|4:pnct|19:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:preds|4:pnct|19:pnct|-1:reas">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="5:vobj">det</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:preds" out="1:nobj">med</W>
 <W gloss="wonder" lemma="forundring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forundring</W>
@@ -149,8 +149,8 @@
 <W gloss="Cristofoli" lemma="Christofoli" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord">Christofoli</W>
 <W gloss="discussed" lemma="omtale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-10:vobj" out="-9:[subj]|1:mod">omtalt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="3:nobj">i</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
-<W gloss="unfortunate" lemma="uheldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:mod">uheldige</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
+<W gloss="unfortunate" lemma="uheldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">uheldige</W>
 <W gloss="terms" lemma="vending" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:attr">vendinger</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -171,7 +171,7 @@
 <W gloss="event" lemma="begivenhed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">begivenhed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">som</W>
-<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|6:pnct|3:@dir">ligger</W>
+<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|3:@dir|6:pnct">ligger</W>
 <W gloss="thirty" lemma="tredive" msd="AC---U=--" tag="CD" in="2:tobj" out="1:nobj">tredive</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="ago" lemma="tilbage" msd="RGU" tag="RP" in="-3:@dir" out="-2:tobj|1:mod">tilbage</W>

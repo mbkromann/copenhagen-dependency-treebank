@@ -33,15 +33,15 @@
 <W msd="SP" tag="IN" in="-1:part" out="">out</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-1:subj|1:vobj">don't</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|2:dobj|3:mod">drink</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:mod">much</W>
-<W msd="NC=S" tag="NN" in="-3:mod" out="">tonight</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|2:dobj|3:time">drink</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr">much</W>
+<W msd="NC=S" tag="NN" in="-3:time" out="">tonight</W>
 <W msd="XP" tag="." in="-9:pnct" out="">!</W>
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Valter</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:lobj|12:mods|26:mod|34:pnct">sat</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:lobj|12:mods|26:time|34:pnct">sat</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:ref|6:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
@@ -67,7 +67,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pub</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-26:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-26:time" out="2:vobj">when</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj">was</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -170,8 +170,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:dobj|4:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod">meet</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">tonight</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:time">meet</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">tonight</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

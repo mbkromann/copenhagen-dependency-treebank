@@ -73,7 +73,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="sportswriters" lemma="sportsjournalist" msd="NCCPU==I" tag="NNP" in="2:subj" out="">sportsjournalister</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|2:preds|7:pnct|-1:neg">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|2:preds|7:pnct">er</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="good" lemma="god" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">gode</W>
 <W gloss="at" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -116,8 +116,8 @@
 </p>
 <p>
 <s>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">Også</W>
-<W gloss="Bjerregaard's" lemma="Bjerregaard" msd="NP--G==-" tag="NNP" in="9:subj|10:[subj]" out="-1:mod|1:attr|2:attr|3:possd">Bjerregaards</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">Også</W>
+<W gloss="Bjerregaard's" lemma="Bjerregaard" msd="NP--G==-" tag="NNP" in="9:subj|10:[subj]" out="-1:add|1:attr|2:attr|3:possd">Bjerregaards</W>
 <W gloss="complicated" lemma="kompliceret" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">komplicerede</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">private</W>
 <W gloss="speculations" lemma="spekulation" msd="NCCPU==I" tag="NNP" in="-3:possd" out="1:pobj">spekulationer</W>
@@ -226,8 +226,8 @@
 <s>
 <W gloss="Last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Sidste</W>
 <W gloss="week's" lemma="uge" msd="NCCSG==I" tag="NN" in="13:subj|20:[subj]|22:[subj]" out="-1:attr|2:attr|8:possd">uges</W>
-<W gloss="legally" lemma="juridisk" msd="ANP---=-R" tag="JJ" in="1:mod" out="">juridisk</W>
-<W gloss="spotless" lemma="pletfri" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:mod|1:pnct|4:conj">pletfri</W>
+<W gloss="legally" lemma="juridisk" msd="ANP---=-R" tag="JJ" in="1:attr" out="">juridisk</W>
+<W gloss="spotless" lemma="pletfri" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="1:pnct|4:conj|-1:attr">pletfri</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="morally" lemma="moralsk" msd="ANP---=-R" tag="JJ" in="1:mod" out="">moralsk</W>

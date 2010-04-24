@@ -185,11 +185,11 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="4:time" out="">Now</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">tough</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Jutlander</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-3:subj|1:vobj|21:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|-4:time|1:vobj|21:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|11:pobj">challenged</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|4:mod|5:possd|6:pnct|7:appa">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">sport</W>
@@ -213,10 +213,10 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|1:vobj|38:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:contr|1:vobj|38:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">reported</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="6:vobj">that</W>
 <W msd="PD" tag="DT" in="5:subj|6:[subj]|8:[subj]" out="1:mod|4:nobj">the</W>
@@ -227,7 +227,7 @@
 <W msd="VADR" tag="VBZ" in="-6:vobj" out="-5:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:pobj|10:pnct|12:mod">ask</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:pobj|10:pnct|12:reas">ask</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|4:possd">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
@@ -238,8 +238,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fight</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">presumably</W>
-<W msd="CS" tag="IN" in="-12:mod" out="-1:mod|1:pobj">because</W>
+<W msd="ANP" tag="RB" in="1:epi" out="">presumably</W>
+<W msd="CS" tag="IN" in="-12:reas" out="1:pobj|-1:epi">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">of</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">acute</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">writing</W>

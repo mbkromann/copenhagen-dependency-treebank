@@ -52,7 +52,7 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="so-called" lemma="såkaldt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">såkaldt</W>
 <W gloss="arthroscopy" lemma="atroskopi" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">artroskopi</W>
-<W gloss="looking" lemma="kigge" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:mod|5:mod|1:@dir">kigger</W>
+<W gloss="looking" lemma="kigge" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:mod|1:@dir|5:mod">kigger</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_Queen's" lemma="dronning" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Dronningens</W>
@@ -89,9 +89,9 @@
 </s>
 <s>
 <W gloss="The_cartilage" lemma="brusk" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">Brusken</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:vobj|5:pnct">kan</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:add|3:vobj|5:pnct">kan</W>
 <W gloss="perhaps" lemma="eventuel" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">eventuelt</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:mod" out="">også</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
 <W gloss="be_smoothed" lemma="glatte" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pobj">glattes</W>
 <W gloss="out" lemma="af" msd="RGU" tag="RP" in="-1:pobj" out="">af</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -159,8 +159,8 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj">har</W>
 <W gloss="had" lemma="have" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-6:[dobj]|1:pnct|3:mod">haft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="for_example" lemma="blandt_andet" msd="RGU" tag="RP" in="1:mod" out="">bl.a.</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj|3:pnct">i</W>
+<W gloss="for_example" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">bl.a.</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj|3:pnct|-1:exem">i</W>
 <W gloss="Rebild" lemma="Rebild" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Rebild</W>
 <W gloss="Hills" lemma="bakke" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">Bakker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -183,13 +183,13 @@
 <p>
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="7:conj|11:pnct">Men</W>
-<W gloss="once" lemma="når" msd="CS" tag="IN" in="6:mod" out="2:vobj">når</W>
+<W gloss="once" lemma="når" msd="CS" tag="IN" in="6:time" out="2:vobj">når</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">hun</W>
 <W gloss="has_had" lemma="få" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|3:pnct">får</W>
 <W gloss="operated" lemma="operere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">opereret</W>
 <W gloss="the_knee" lemma="knæ" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">knæet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="escape" lemma="slippe" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-6:mod|1:subj|2:pobj">slipper</W>
+<W gloss="escape" lemma="slippe" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-6:time|1:subj|2:pobj">slipper</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="from" lemma="for" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">for</W>
 <W gloss="the_pain" lemma="smerte" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">smerten</W>

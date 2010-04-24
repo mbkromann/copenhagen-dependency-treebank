@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|6:[subj]|7:[subj]" out="">Det</W>
-<W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|5:vobj|22:pnct">skulle</W>
-<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="-1:mod" out="3:nobj">ifølge</W>
+<W gloss="should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|5:vobj|22:pnct|1:source">skulle</W>
+<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="-1:source" out="3:nobj">ifølge</W>
 <W gloss="H." lemma="H." msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">H.</W>
 <W gloss="P." lemma="P." msd="NP--U==-" tag="NNP" in="-1:namef" out="">P.</W>
 <W gloss="Clausen" lemma="Clausen" msd="NP--U==-" tag="NNP" in="-3:nobj" out="-2:namef">Clausen</W>
@@ -86,8 +86,8 @@
 <W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="10:qobj" out="1:nobj|2:ref|4:rel|9:pnct">En</W>
 <W gloss="warning" lemma="advarsel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">advarsel</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">som</W>
-<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:mod" out="">aldrig</W>
-<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:@dir">nåede</W>
+<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:time" out="">aldrig</W>
+<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:time|1:@dir">nåede</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:mod" out="2:nobj">til</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
@@ -118,8 +118,8 @@
 <W gloss="permanent_secretary" lemma="departementschef" msd="NCCSU==I" tag="NN" in="-2:possd" out="">departementschef</W>
 <W gloss="Peter" lemma="Peter" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peter</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Wiese</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
-<W gloss="hard" lemma="hård" msd="ANP---=-R" tag="JJ" in="-7:mod" out="-1:mod">hårdt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
+<W gloss="hard" lemma="hård" msd="ANP---=-R" tag="JJ" in="-7:mod" out="-1:degr">hårdt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-9:mod" out="3:vobj">idet</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]|20:[subj]|21:[subj]" out="">Wiese</W>

@@ -26,20 +26,20 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod">circulate</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">quickly</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:man">circulate</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">quickly</W>
 <W msd="XP" tag="." in="-18:pnct" out="">?</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="7:mod" out="3:vobj">If</W>
+<W msd="CS" tag="IN" in="7:cond" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">arteries</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:preds|2:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="">calcified</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]" out="">blood</W>
-<W msd="NC=S" tag="NN" in="" out="-7:mod|-1:subj|1:vobj|11:pnct">cannot</W>
+<W msd="NC=S" tag="NN" in="" out="-1:subj|-7:cond|1:vobj|11:pnct">cannot</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:dobj|5:mod">convey</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">sufficient</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|2:conj">oxygen</W>
@@ -58,8 +58,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-3:conj" out="-2:mod|-1:subj|2:dobj">get</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">cold</W>
-<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr|1:mod|4:pnct|5:conj|8:pnct|11:conj">feet</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">without</W>
+<W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr|1:accom|4:pnct|5:conj|8:pnct|11:conj">feet</W>
+<W msd="SP" tag="IN" in="-1:accom" out="1:nobj">without</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pulse</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -77,8 +77,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">veins</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:mod|2:vobj|18:conj|23:pnct">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:add|2:vobj|18:conj|23:pnct">can</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:aobj">have</W>
 <W msd="NC=S" tag="NN" in="-1:aobj" out="1:nobj">difficulty</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|3:lobj">taking</W>
@@ -109,8 +109,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">tired</W>
 <W msd="NC=P" tag="NNS" in="-5:xpl" out="-3:attr|4:conj">legs</W>
-<W msd="CC" tag="CC" in="3:coord" out="1:mod">and</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">often</W>
+<W msd="CC" tag="CC" in="3:coord" out="1:ext">and</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nightly</W>
 <W msd="NC=S" tag="NN" in="-4:conj" out="-3:coord|-1:attr|2:conj">discomfort</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -153,12 +153,12 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="6:conj|17:pnct">But</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="RB" in="4:mod" out="-1:mod|1:pnct">often</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="RB" in="4:ext" out="-1:degr|1:pnct">often</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">vascular</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">surgeons</W>
-<W msd="VA" tag="MD" in="-6:conj" out="-4:mod|-1:subj|1:vobj">will</W>
+<W msd="VA" tag="MD" in="-6:conj" out="-1:subj|-4:ext|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|6:pobj">replace</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:pnct|3:mod|4:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>
@@ -188,9 +188,9 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">veins</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj|2:mod|3:pnct|7:conj">are</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj|2:accom|3:pnct|7:conj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">pushed</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">together</W>
+<W msd="ANP" tag="RB" in="-2:accom" out="">together</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>

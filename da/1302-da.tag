@@ -52,7 +52,7 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">han</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-2:iobj" out="">hende</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="went" lemma="tage" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|4:mod|1:@dir">tog</W>
+<W gloss="went" lemma="tage" msd="VADA=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:@dir|4:mod">tog</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">op</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the_school" lemma="skole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skolen</W>
@@ -124,8 +124,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="2:subj|3:[subj]" out="">han</W>
-<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:mod" out="">aldrig</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">kunne</W>
+<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:time" out="">aldrig</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:time">kunne</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:pobj">finde</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

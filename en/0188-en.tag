@@ -135,8 +135,8 @@
 <W msd="CC" tag="CC" in="5:coord" out="">and</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">screen</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">instructively</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">instructively</W>
 <W msd="VADR" tag="VBZ" in="-18:conj" out="-4:subj|-1:mod|-5:coord|1:dobj">shows</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">nearest</W>

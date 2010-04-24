@@ -12,8 +12,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">chickens</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-3:mod|-1:subj|1:vobj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">raised</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:degr|2:pobj">as</W>
 <W msd="ANP" tag="RB" in="-10:mod" out="-1:mod|6:conj">highly</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -33,9 +33,9 @@
 <W msd="ANP" tag="RB" in="2:mod" out="1:aobj">as</W>
 <W msd="ANP" tag="RB" in="-1:aobj" out="">well</W>
 <W msd="CS" tag="IN" in="1:coord" out="-2:mod">as</W>
-<W msd="PD" tag="DT" in="-4:conj" out="-1:coord|1:nobj|2:mod">the</W>
+<W msd="PD" tag="DT" in="-4:conj" out="-1:coord|1:nobj|2:loc">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">concept</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">behind</W>
+<W msd="SP" tag="IN" in="-2:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj|9:[dobj]" out="2:nobj|8:rel">the</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Kronkycklinger</W>
@@ -124,7 +124,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">norm</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">producers</W>
-<W msd="VADR" tag="VBZ" in="" out="-7:mod|-4:subj|17:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-7:mod|-4:subj|1:preds|17:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:pnct|7:vobj">that</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">immediately</W>
@@ -161,8 +161,8 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|12:pnct">But</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="CS" tag="IN" in="-2:conj" out="-1:mod|2:vobj">if</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="CS" tag="IN" in="-2:conj" out="-1:degr|2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:avobj">live</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="1:pobj">up</W>
@@ -179,7 +179,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">limit</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|3:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:mod|-2:subj|1:preds|3:pnct">is</W>
 <W msd="AC" tag="CD" in="-1:preds" out="1:nobj">20</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kg</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

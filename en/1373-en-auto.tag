@@ -166,13 +166,13 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="18:mod" out="1:pobj">apart</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:nobj|5:pnct|6:mod|9:pnct|10:conj|13:conj">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:pnct|3:attr|4:nobj|5:pnct|9:pnct|10:conj|13:conj|6:loc">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">horrible</W>
 <W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">Dutch</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">extension</W>
 <W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
-<W msd="SP" tag="IN" in="-6:mod" out="1:nobj">behind</W>
+<W msd="SP" tag="IN" in="-6:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cosworth</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>

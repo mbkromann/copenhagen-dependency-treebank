@@ -7,8 +7,8 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">grapes</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:mod">moulding</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">during</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dur">moulding</W>
+<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">transport</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -129,8 +129,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">firms</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="">involved</W>
-<W msd="VA" tag="MD" in="" out="-5:subj|1:mod|2:vobj|25:pnct">must</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VA" tag="MD" in="" out="-5:subj|1:time|2:vobj|25:pnct">must</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:@dir">trip</W>
@@ -188,11 +188,11 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">health</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">authorities</W>
 <W msd="VADR" tag="VBP" in="" out="-4:subj|5:vobj|12:pnct|20:conj|28:pnct">have</W>
-<W msd="ANP" tag="RB" in="4:mod" out="">also</W>
+<W msd="ANP" tag="RB" in="4:add" out="">also</W>
 <W msd="SP" tag="IN" in="3:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">recent</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">years</W>
-<W msd="VAP" tag="VBN" in="-5:vobj" out="-9:[subj]|-4:mod|-3:mod|2:dobj">uncovered</W>
+<W msd="VAP" tag="VBN" in="-5:vobj" out="-9:[subj]|-3:mod|-4:add|2:dobj">uncovered</W>
 <W msd="VAP" tag="VBN" in="1:mod" out="">gassed</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod|1:mod">grapes</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">from</W>

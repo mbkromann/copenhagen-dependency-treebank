@@ -9,8 +9,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rock</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|2:attr|4:possd">history's</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">ambitious</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">ambitious</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">record</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="-1:mod">projects</W>
 <W msd="XP" tag="&3a;" in="-12:pnct" out="">:</W>
@@ -173,7 +173,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">recording</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">first</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|-1:mod|1:part|2:tobj|9:pnct|4:@loc">turned</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|-1:mod|1:part|2:tobj|4:@loc|9:pnct">turned</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="SP" tag="IN" in="-2:tobj" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1988</W>
@@ -188,8 +188,8 @@
 <W msd="SP" tag="IN" in="3:preds" out="1:nobj">Among</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rarities</W>
-<W msd="VADR" tag="VBP" in="" out="-3:preds|1:mod|2:subj|35:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-3:preds|1:add|2:subj|35:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="AC" tag="CD" in="-2:subj" out="1:mod|2:nobj|3:pnct|4:ref|5:rel">14</W>
 <W msd="VAF" tag="VB" in="-1:mod" out="">complete</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">recordings</W>

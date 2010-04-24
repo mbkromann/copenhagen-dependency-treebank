@@ -76,8 +76,8 @@
 <W gloss="the_world's" lemma="verden" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:attr|5:possd">verdens</W>
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="3:conj">bedste</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:mod" out="">mest</W>
-<W gloss="complete" lemma="komplet" msd="ANP[CN]SU=DU" tag="JJ" in="-3:conj" out="-1:mod|-2:coord">komplette</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
+<W gloss="complete" lemma="komplet" msd="ANP[CN]SU=DU" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">komplette</W>
 <W gloss="attacker" lemma="angriber" msd="NCCSU==I" tag="NN" in="-5:possd" out="">angriber</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="knows" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-14:subj|1:pnct|2:dobj|5:pnct">ved</W>
@@ -167,8 +167,8 @@
 <W gloss="half" lemma="halv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">halv</W>
 <W gloss="dozen" lemma="snes" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj">snes</W>
 <W gloss="microphones" lemma="mikrofon" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">mikrofoner</W>
-<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-5:@dir" out="1:mod">op</W>
-<W gloss="in_front_of" lemma="foran" msd="SP" tag="IN" in="-1:mod" out="1:nobj">foran</W>
+<W gloss="up" lemma="op" msd="RGU" tag="RP" in="-5:@dir" out="1:loc">op</W>
+<W gloss="in_front_of" lemma="foran" msd="SP" tag="IN" in="-1:loc" out="1:nobj">foran</W>
 <W gloss="face" lemma="ansigt" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">ansigtet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -263,8 +263,8 @@
 </p>
 <p>
 <s>
-<W gloss="How" lemma="hvordan" msd="RGU" tag="RP" in="1:mod" out="">Hvordan</W>
-<W gloss="do_assess" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:dobj|6:pnct">vurderer</W>
+<W gloss="How" lemma="hvordan" msd="RGU" tag="RP" in="1:man" out="">Hvordan</W>
+<W gloss="do_assess" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:dobj|6:pnct|-1:man">vurderer</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj" out="">du</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj|3:possd">det</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>

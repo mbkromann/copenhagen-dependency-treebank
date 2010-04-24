@@ -116,8 +116,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gennady</W>
 <W msd="NP=S" tag="NNP" in="-9:appa" out="-1:namef|1:pnct">Gerasimov</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-1:mod|-12:subj|1:dobj|12:pnct">said</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-12:subj|-1:add|1:dobj|12:pnct">said</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]|3:[subj]" out="">none</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
@@ -150,18 +150,18 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="SP" tag="IN" in="6:mod" out="1:nobj|3:mod|4:pnct">In</W>
+<W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct|3:man">In</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Baku</W>
 <W msd="CS" tag="IN" in="1:mod" out="">as</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="-1:mod">well</W>
+<W msd="ANP" tag="RB" in="-3:man" out="-1:mod">well</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="28:qobj" out="-6:mod|-1:subj|1:dobj|4:pnct|5:mod|27:pnct">seemed</W>
+<W msd="VADA" tag="VBD" in="28:qobj" out="-6:mod|-1:subj|1:dobj|4:pnct|5:focal|27:pnct">seemed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds">be</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">quieter</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-5:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-5:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="7:vobj">though</W>
 <W msd="NC=P" tag="NNS" in="6:subj" out="1:mod">soldiers</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>

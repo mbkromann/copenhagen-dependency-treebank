@@ -43,7 +43,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj|2:[subj]|16:[subj]|18:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj|13:pnct|14:coord">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|7:pnct|8:mod|1:@loc">been</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@loc|7:pnct|8:mod">been</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">forefront</W>
@@ -57,8 +57,8 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj|-13:pnct" out="">1964,</W>
 <W msd="CC" tag="CC" in="-14:coord" out="">but</W>
-<W msd="VADR" tag="VBZ" in="" out="-16:[subj]|1:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="" out="-16:[subj]|1:time">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAG" tag="VBG" in="" out="-18:[subj]">retiring</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>
@@ -232,13 +232,13 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="VA" tag="MD" in="-8:vobj" out="-7:subj">can</W>
 <W msd="VAF" tag="VB" in="" out="-8:[subj]">get</W>
-<W msd="SP" tag="IN" in="" out="1:mod|3:mod">on</W>
+<W msd="SP" tag="IN" in="" out="1:mod|3:accom">on</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jutlandese</W>
-<W msd="SP" tag="IN" in="-3:mod" out="">without</W>
-<W msd="VAG" tag="VBG" in="" out="2:mod">making</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:mod">big</W>
+<W msd="SP" tag="IN" in="-3:accom" out="">without</W>
+<W msd="VAG" tag="VBG" in="" out="2:attr">making</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">big</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">fool</W>
 <W msd="SP" tag="IN" in="" out="">of</W>

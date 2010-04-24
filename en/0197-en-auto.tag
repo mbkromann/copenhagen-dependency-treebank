@@ -2,8 +2,8 @@
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">some</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">happy</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">happy</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">news</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -21,7 +21,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">press</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-13:qobj|14:pnct|15:mod|25:pnct">said</W>
+<W msd="VADA" tag="VBD" in="" out="-13:qobj|14:pnct|15:time|25:pnct">said</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">woman</W>
 <W msd="PT" tag="WP" in="" out="">who</W>
@@ -36,11 +36,11 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">heart</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">transplants</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-15:mod" out="4:vobj">when</W>
+<W msd="PT" tag="WRB" in="-15:time" out="4:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Berlingske</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:mod">Tidende</W>
-<W msd="NC=S" tag="NN" in="1:mod" out="">yesterday</W>
-<W msd="NC=S" tag="NN" in="-4:vobj" out="-2:subj|-1:mod|1:dobj|4:mod">read</W>
+<W msd="NC=S" tag="NN" in="1:time" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-4:vobj" out="-2:subj|-1:time|1:dobj|4:mod">read</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">report</W>
@@ -111,10 +111,10 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:nobj">surprised</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:vobj|3:mod">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:time|2:vobj|3:man">had</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:@dir">come</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">directly</W>
+<W msd="ANP" tag="RB" in="-3:man" out="">directly</W>
 <W msd="SP" tag="IN" in="-2:@dir" out="5:pobj">from</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NP=S" tag="NNP" in="" out="">Danish</W>

@@ -19,8 +19,8 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:pnct|5:attr|6:nobj|11:ref|12:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">beautiful</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="-1:mod">150-year</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="-1:degr">150-year</W>
 <W msd="ANP" tag="JJ" in="-5:attr" out="-1:mod">old</W>
 <W msd="NC=S" tag="NN" in="-6:nobj" out="">building</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -128,10 +128,10 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">building</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="-20:conj" out="-3:mod|-1:subj|-5:coord|1:vobj">can</W>
+<W msd="VA" tag="MD" in="-20:conj" out="-1:subj|-5:coord|-3:reas|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:aobj">regard</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">criticism</W>
@@ -147,7 +147,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">jubilee</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="11:mod" out="3:vobj">If</W>
+<W msd="CS" tag="IN" in="11:cond" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">construction</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:aobj|4:pnct">goes</W>
@@ -158,13 +158,13 @@
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:mod|2:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">expanded</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">museum</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|-11:mod|1:vobj|3:mod|5:pnct|6:mod|15:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|-11:cond|1:vobj|3:mod|5:pnct|6:time|15:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">November</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-6:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-6:time" out="2:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Horsens</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj">celebrates</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">its</W>
@@ -191,9 +191,9 @@
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:preds">make</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Horsens</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">even</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="-1:mod">more</W>
-<W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod|1:mod">well-known</W>
+<W msd="ANP" tag="RB" in="1:focal" out="">even</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="-1:focal">more</W>
+<W msd="ANP" tag="JJ" in="-4:preds" out="-1:degr|1:mod">well-known</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:nobj">as</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">arts</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">city</W>
@@ -204,7 +204,7 @@
 <W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Hagedorn-Olsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:@dir|4:mod|8:mod|9:pnct#|10:mod">came</W>
+<W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|1:@dir|4:mod|8:mod|9:pnct#|10:time">came</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">city</W>
@@ -214,7 +214,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">keeper</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj|-9:pnct#" out="">1984,</W>
-<W msd="PT" tag="WRB" in="-10:mod" out="4:vobj">when</W>
+<W msd="PT" tag="WRB" in="-10:time" out="4:vobj">when</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">art</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">museum</W>

@@ -21,8 +21,8 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="4:subj|12:[subj]|13:[subj]" out="1:mod|3:nobj">The</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="4:subj|12:[subj]|13:[subj]" out="3:nobj|1:attr">The</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Film</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Institute</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|3:aobj|4:mod|8:conj|49:pnct">turned</W>
@@ -143,11 +143,11 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-4:conj" out="-8:[subj]|-1:coord|1:dobj">show</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="5:vobj">that</W>
-<W msd="PD" tag="DT" in="4:subj" out="1:mod|3:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="4:subj" out="3:nobj|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Film</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Institute</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">boring</W>
@@ -171,8 +171,8 @@
 <W msd="PD" tag="DT" in="6:subj|7:[subj]|8:[subj]|13:[subj]|15:[subj]" out="2:nobj|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">market</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">share</W>
-<W msd="SP" tag="IN" in="-3:mod" out="1:mod|2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">Danish</W>
+<W msd="SP" tag="IN" in="-3:mod" out="2:nobj|1:attr">of</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">films</W>
 <W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:vobj|7:conj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:vobj">been</W>
@@ -181,8 +181,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">recent</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">years</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-13:[subj]|-1:coord|1:mod|2:vobj">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-13:[subj]|-1:coord|1:time|2:vobj">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-15:[subj]|1:avobj">rumbling</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="1:mod">down</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>

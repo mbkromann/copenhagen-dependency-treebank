@@ -43,9 +43,9 @@
 <W msd="VAG" tag="VBG" in="1:mod" out="">freezing</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:mod">temperatures</W>
 <W msd="U=" tag="TO" in="-1:mod" out="3:nobj">to</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">approximately</W>
+<W msd="ANP" tag="RB" in="2:degr" out="">approximately</W>
 <W msd="CC" tag="CC" in="1:mod" out="">minus</W>
-<W msd="AC" tag="CD" in="-3:nobj" out="-2:mod|-1:mod|1:nobj">40</W>
+<W msd="AC" tag="CD" in="-3:nobj" out="-1:mod|1:nobj|-2:degr">40</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">degrees</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
@@ -67,9 +67,9 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|1:attr">temperatures</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="1:mod">down</W>
 <W msd="U=" tag="TO" in="-1:mod" out="3:nobj">to</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">approximately</W>
+<W msd="ANP" tag="RB" in="2:degr" out="">approximately</W>
 <W msd="CC" tag="CC" in="1:mod" out="">minus</W>
-<W msd="AC" tag="CD" in="-3:nobj" out="-2:mod|-1:mod|1:nobj">30</W>
+<W msd="AC" tag="CD" in="-3:nobj" out="-1:mod|1:nobj|-2:degr">30</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">degrees</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -100,20 +100,20 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="">monoetylenglycol</W>
 <W msd="VADR" tag="VBZ" in="-19:conj" out="-4:mod|-1:subj|-6:coord|2:preds|10:conj">is</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="2:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">toxic</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="2:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">toxic</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">than</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">propylenglycol</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-10:conj" out="-3:mod|-1:subj|-5:coord|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-10:conj" out="-1:subj|-5:coord|-3:reas|1:preds">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">important</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">people</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">blend</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -216,8 +216,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">people</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|-5:mod|1:vobj|21:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:preds">become</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">attentive</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">attentive</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:rel|7:pnct|14:appa">impurities</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj" out="">that</W>

@@ -28,8 +28,8 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-5:mod" out="3:vobj">since</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">they</W>
-<W msd="NC=S" tag="NN" in="1:mod" out="">last</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">saw</W>
+<W msd="NC=S" tag="NN" in="1:attr" out="">last</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj|-1:attr">saw</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="," in="-29:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-30:pnct" out="">"</W>
@@ -104,7 +104,7 @@
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="8:mod" out="3:vobj">If</W>
+<W msd="CS" tag="IN" in="8:cond" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Republicans</W>
 <W msd="NC=S" tag="NN" in="-3:vobj" out="-2:subj|1:dobj|3:pnct">win</W>
@@ -112,7 +112,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">election</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Quayle</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-8:mod|1:vobj|17:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-8:cond|1:vobj|17:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">a</W>
@@ -151,7 +151,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">capable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="5:pnct|6:conj|1:@dir">travelling</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:@dir|5:pnct|6:conj">travelling</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:mod">around</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -198,9 +198,9 @@
 <W msd="NP=S" tag="NNP" in="2:title" out="-1:mod">Senator</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Phil</W>
 <W msd="NP=S" tag="NNP" in="-18:conj" out="-1:namef|-2:title">Gramm</W>
-<W msd="CC" tag="CC" in="12:coord" out="1:pnct|2:mod">and</W>
+<W msd="CC" tag="CC" in="12:coord" out="1:pnct|2:epi">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">perhaps</W>
+<W msd="ANP" tag="RB" in="-2:epi" out="1:pnct">perhaps</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="8:title" out="1:pobj">chairman</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

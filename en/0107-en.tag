@@ -20,10 +20,10 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Nevertheless</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">Nevertheless</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|7:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="25:qobj" out="-3:mod|-1:subj|1:mod|6:conj|23:pnct|24:pnct">sit</W>
+<W msd="VADR" tag="VBP" in="25:qobj" out="-1:subj|1:mod|6:conj|23:pnct|24:pnct|-3:contr">sit</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">meeting</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">after</W>
@@ -109,7 +109,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="10:mod" out="5:vobj">If</W>
+<W msd="CS" tag="IN" in="10:cond" out="5:vobj">If</W>
 <W msd="AC" tag="CD" in="4:subj|5:[subj]" out="1:nobj">13</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">head</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -119,7 +119,7 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">slaughterhouse</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|-10:mod|1:vobj|10:pnct">must</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|-10:cond|1:vobj|10:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|5:mod">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:mod|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
@@ -163,7 +163,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Market</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Committee</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-3:subj|2:vobj|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-3:subj|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj|3:mod">discover</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
@@ -216,10 +216,10 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Parliament</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="" out="-16:subj|1:vobj|16:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-17:[subj]|1:dobj|3:mod">written</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-17:[subj]|1:dobj|3:accom">written</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">book</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="1:pobj">together</W>
+<W msd="ANP" tag="RB" in="-3:accom" out="1:pobj">together</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Jens</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Peter</W>

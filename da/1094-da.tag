@@ -118,13 +118,13 @@
 </s>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
-<W gloss="If" lemma="hvis" msd="CS" tag="IN" in="6:mod" out="3:vobj">Hvis</W>
+<W gloss="If" lemma="hvis" msd="CS" tag="IN" in="6:cond" out="3:vobj">Hvis</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
 <W gloss="proceeds" lemma="skride" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|-2:neg|1:@dir|2:pnct">skrider</W>
 <W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="">ind</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="receive" lemma="få" msd="VADR=----A-" tag="VBD" in="6:qobj" out="-6:mod|-7:pnct|1:subj|3:dobj|4:pnct|5:pnct">får</W>
+<W gloss="receive" lemma="få" msd="VADR=----A-" tag="VBD" in="6:qobj" out="-7:pnct|-6:cond|1:subj|3:dobj|4:pnct|5:pnct">får</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="Yugoslavian" lemma="jugoslavisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">jugoslaviske</W>
 <W gloss="condition" lemma="tilstand" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr">tilstande</W>
@@ -135,8 +135,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="17:qobj" out="-1:mod|1:subj|4:vobj">skal</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="17:qobj" out="1:subj|4:vobj|-1:reas">skal</W>
 <W gloss="the_Hungarians" lemma="ungarer" msd="NCCPU==D" tag="NNP" in="-1:subj|3:[subj]" out="1:mod">ungarerne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Romania" lemma="Rumænien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Rumænien</W>
@@ -177,13 +177,13 @@
 <W gloss="round" lemma="runde" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:pobj">runde</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_presidential_election" lemma="præsidentvalg" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">præsidentvalget</W>
-<W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:mod|1:subj|2:dobj|5:pnct|6:mod">får</W>
+<W gloss="will_have" lemma="få" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:mod|1:subj|2:dobj|5:pnct|6:reas">får</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="important" lemma="vigtig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">vigtig</W>
 <W gloss="role" lemma="rolle" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">rolle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:mod" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:reas" out="2:vobj">fordi</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">vil</W>
 <W gloss="ask" lemma="bede" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:pobj">bede</W>
@@ -199,8 +199,8 @@
 <p>
 <s>
 <W gloss="The_Infas_prognosis" lemma="Infas-prognose" msd="NCCSU==D" tag="NN" in="1:subj" out="">Infas-prognosen</W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:pnct|3:dobj|15:pnct">viser</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:add|2:pnct|3:dobj|15:pnct">viser</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="6:vobj">at</W>
 <W gloss="Iliescu's" lemma="Iliescu" msd="NP--G==-" tag="NNP" in="5:subj" out="1:possd|2:mod">Iliescus</W>
@@ -236,8 +236,8 @@
 <W gloss="Democratic" lemma="demokratisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Demokratisk</W>
 <W gloss="Alliance" lemma="forbund" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">Forbund</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="will_receive" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:mod|2:dobj|4:pnct|5:mod|15:pnct">får</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:mod" out="">kun</W>
+<W gloss="will_receive" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:degr|2:dobj|4:pnct|5:mod|15:pnct">får</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
 <W gloss="23" lemma="23" msd="AC---U=--" tag="CD" in="-2:dobj" out="1:nobj">23</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">pct.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

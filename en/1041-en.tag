@@ -61,8 +61,8 @@
 <W msd="VAG" tag="VBG" in="-10:nobj" out="-8:subj|-7:mod|-3:mod|1:vobj">being</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj|9:pnct">elected</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:mod|3:nobj|4:attr|5:mod|6:possd">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj|4:attr|5:mod|6:possd|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Conservative</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Party's</W>
 <W msd="ANP" tag="JJ" in="-4:attr" out="">main</W>
@@ -130,13 +130,13 @@
 <W msd="CS" tag="IN" in="3:mod" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">person</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-4:subj|-3:mod|1:dobj|5:pnct|6:mod">had</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-4:subj|-3:mod|1:dobj|5:pnct|6:time">had</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:mod">difficulty</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">saying</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">goodbye</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-6:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-6:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">dismissed</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">ministers</W>

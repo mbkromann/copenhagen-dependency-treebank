@@ -52,8 +52,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="31:pnct" out="">"</W>
 <W msd="PT" tag="WRB" in="30:xtop" out="8:vobj|26:ref">When</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="6:subj" out="-1:mod|1:nobj">40</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="6:subj" out="-1:degr|1:nobj">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -88,8 +88,8 @@
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]|5:[subj]" out="1:possd">his</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">savings</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:mod|2:vobj">being</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">properly</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|2:vobj|1:man">being</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">properly</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:dobj|2:part">taken</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">care</W>
 <W msd="SP" tag="IN" in="-2:part" out="">of</W>
@@ -145,11 +145,11 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:mod" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rules</W>
-<W msd="VA" tag="MD" in="5:qobj" out="-4:mod|-2:subj|1:vobj|3:pnct|4:pnct">must</W>
+<W msd="VA" tag="MD" in="5:qobj" out="-2:subj|-4:reas|1:vobj|3:pnct|4:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">tightened</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -218,7 +218,7 @@
 <s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Accounting</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="-1:mod">firms</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|11:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:neg|2:vobj|11:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:pobj">away</W>

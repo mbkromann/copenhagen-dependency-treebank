@@ -50,13 +50,13 @@
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:part|4:conj">wears</W>
 <W msd="SP" tag="IN" in="-1:part" out="">out</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">often</W>
-<W msd="VA" tag="MD" in="-4:conj" out="-6:[subj]|-1:mod|-2:coord|1:vobj">should</W>
+<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
+<W msd="VA" tag="MD" in="-4:conj" out="-6:[subj]|-2:coord|-1:ext|1:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:mod">changed</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:nobj">after</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:nobj|2:mod">10</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj|2:mod">10</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">normal</W>
@@ -74,7 +74,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">tumbler</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">lock</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|8:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|8:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|4:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="2:conj">simple</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
@@ -101,8 +101,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">door</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-8:mod" out="1:mod|3:dobj">precluding</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">thereby</W>
+<W msd="VAG" tag="VBG" in="-8:mod" out="3:dobj|1:inst">precluding</W>
+<W msd="ANP" tag="RB" in="-1:inst" out="">thereby</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">direct</W>
 <W msd="NC=S" tag="NN" in="-3:dobj" out="-1:attr|1:pobj">attack</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -210,14 +210,14 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="7:mod" out="1:pnct|2:mod">Here</W>
+<W msd="ANP" tag="RB" in="7:mod" out="1:pnct|2:degr">Here</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="-2:degr" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">latch/catch</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">bolt</W>
-<W msd="VA" tag="MD" in="" out="-7:mod|-3:subj|1:vobj|13:pnct|14:mod|22:pnct">should</W>
+<W msd="VA" tag="MD" in="" out="-7:mod|-3:subj|1:vobj|13:pnct|14:time|22:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:mod|2:possd|3:mod">its</W>
@@ -231,7 +231,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">mm</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">catch</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-14:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="-14:time" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">key</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj">is</W>

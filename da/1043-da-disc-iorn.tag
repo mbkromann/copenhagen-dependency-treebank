@@ -98,13 +98,13 @@
 <p>
 <s>
 <W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:mod" out="">Alligevel</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-27:+CONTR&3a;prg/alligevel" out="-1:mod|1:subj|6:mod|7:preds|20:pnct|28:CAUSE&3a;reas/for">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-27:+CONTR&3a;prg/alligevel" out="-1:mod|1:subj|6:ext|7:preds|20:pnct|28:CAUSE&3a;reas/for">er</W>
 <W gloss="the_debate" lemma="debat" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:pobj">debatten</W>
 <W gloss="on" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="Denmark's" lemma="Danmark" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:attr|2:possd">Danmarks</W>
 <W gloss="economic" lemma="økonomisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">økonomiske</W>
 <W gloss="policy" lemma="politik" msd="NCCSU==I" tag="NN" in="-2:possd" out="">politik</W>
-<W gloss="once_again" lemma="på_ny" msd="RGU" tag="RP" in="-6:mod" out="">på_ny</W>
+<W gloss="once_again" lemma="på_ny" msd="RGU" tag="RP" in="-6:ext" out="">på_ny</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-7:preds" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">blive</W>
@@ -123,16 +123,16 @@
 <s>
 <W gloss="For" lemma="for" msd="CC" tag="CC" in="5:cause" out="19:pnct">For</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="4:mod" out="3:nobj">med</W>
-<W gloss="carefully" lemma="omhyggelig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">omhyggeligt</W>
-<W gloss="organised" lemma="tilrettelægge" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:mod" out="-1:mod">tilrettelagt</W>
+<W gloss="carefully" lemma="omhyggelig" msd="ANP---=-R" tag="JJ" in="1:man" out="">omhyggeligt</W>
+<W gloss="organised" lemma="tilrettelægge" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:mod" out="-1:man">tilrettelagt</W>
 <W gloss="precision" lemma="præcision" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:mod">præcision</W>
 <W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-28:CAUSE&3a;reas/for" out="-4:mod|-5:cause|1:subj|2:mod|8:pobj">kom</W>
 <W gloss="the_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="-1:subj" out="">Socialdemokratiet</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:nobj|3:pnct|4:mod">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:mod" out="1:nobj|3:pnct|4:time">den</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>
 <W gloss="day" lemma="dag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dag</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
-<W gloss="Tuesday" lemma="tirsdag" msd="NCCSU==I" tag="NN" in="-4:mod" out="1:pnct">tirsdag</W>
+<W gloss="Tuesday" lemma="tirsdag" msd="NCCSU==I" tag="NN" in="-4:time" out="1:pnct">tirsdag</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-8:pobj" out="1:nobj">med</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:attr|3:possd">deres</W>
@@ -199,9 +199,9 @@
 </s>
 <s>
 <W gloss="We'll" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR" out="-1:subj|1:dobj|2:mod|3:pnct|15:JUST/ATTR">tager</W>
+<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR" out="-1:subj|1:dobj|2:time|3:pnct|15:JUST/ATTR">tager</W>
 <W gloss="the_chance" lemma="chance" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">chancen</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-2:mod" out="">nu</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-2:time" out="">nu</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>

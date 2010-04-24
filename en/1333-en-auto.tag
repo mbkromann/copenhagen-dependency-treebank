@@ -121,9 +121,9 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:mod|3:vobj|17:pnct">do</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:neg|2:time|3:vobj|17:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WP" in="-1:dobj" out="1:rel|2:ref">who</W>
 <W msd="VADR" tag="VBZ" in="-1:rel" out="1:subj|1:vobj">has</W>
@@ -144,14 +144,14 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|2:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="7:ref|8:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">hardly</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:eval|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:eval" out="">hardly</W>
 <W msd="PD" tag="DT" in="-2:preds" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">two-year</W>
 <W msd="ANP" tag="JJ" in="" out="">old</W>
-<W msd="PP" tag="PRP" in="2:mod" out="">herself</W>
+<W msd="PP" tag="PRP" in="2:focal" out="">herself</W>
 <W msd="PT" tag="WP" in="-7:ref|1:subj|2:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-8:rel" out="-1:subj|-2:mod|1:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-8:rel" out="-1:subj|1:vobj|-2:focal">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:@dir">stuck</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">needles</W>

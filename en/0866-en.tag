@@ -67,8 +67,8 @@
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-2:subj|1:mod|2:vobj">having</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|2:vobj">been</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">thoroughly</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-1:mod|-6:[subj]|1:pobj">vaccinated</W>
+<W msd="ANP" tag="RB" in="1:man" out="">thoroughly</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:pobj|-1:man">vaccinated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Uffe</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|3:conj">Ellemann</W>
@@ -110,7 +110,7 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">SF</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:preds|9:pnct|10:mod|16:pnct#|17:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:pnct|-1:subj|1:preds|9:pnct|10:time|16:pnct#|17:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj|3:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">think</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">tank</W>
@@ -120,7 +120,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-10:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-10:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pobj">comes</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -160,11 +160,11 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christian</W>
 <W msd="NP=S" tag="NNP" in="-8:conj" out="-1:mod|-2:coord|1:possd">People's</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">Party</W>
-<W msd="VADR" tag="VBP" in="-11:vobj" out="-10:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-11:vobj" out="-10:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-12:[subj]|1:dobj|2:mod|3:pobj">say</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-12:[subj]|1:dobj|2:time|3:pobj">say</W>
 <W msd="VAF" tag="VB" in="-1:dobj" out="">stop</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">soon</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">soon</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decline</W>

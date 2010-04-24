@@ -12,7 +12,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">René</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|26:[subj]" out="-1:namef">Metge</W>
 <W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:vobj|42:pnct">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|24:conj|1:@loc">standing</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@loc|24:conj">standing</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hood</W>
@@ -23,8 +23,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Rover</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj|3:[subj]|4:[subj]" out="">which</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:mod|2:vobj|11:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:time|2:vobj|11:pnct">had</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">used</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -92,8 +92,8 @@
 <W msd="CC" tag="CC" in="" out="2:conj|23:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds">seemed</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">intimate</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">intimate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|4:ref|6:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">terrain</W>
@@ -150,8 +150,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:attr">a</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">little</W>
-<W msd="ANC" tag="JJR" in="1:mod" out="-2:mod">more</W>
-<W msd="SP" tag="IN" in="-6:pobj" out="-1:mod|1:nobj">towards</W>
+<W msd="ANC" tag="JJR" in="1:degr" out="-2:mod">more</W>
+<W msd="SP" tag="IN" in="-6:pobj" out="1:nobj|-1:degr">towards</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">left</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>

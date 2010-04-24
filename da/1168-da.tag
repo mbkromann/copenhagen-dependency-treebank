@@ -168,7 +168,7 @@
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">Danske</W>
 <W gloss="Film_Institute" lemma="filminstitut" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">Filminstitut</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:preds|4:pnct|-1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-1:neg|1:preds|4:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="boring" lemma="kedelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">kedelig</W>
 <W gloss="institution" lemma="institution" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">institution</W>
@@ -199,8 +199,8 @@
 <W gloss="recent" lemma="sen" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">seneste</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">år</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">nu</W>
-<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:mod|-11:[subj]|-2:coord|2:conj|3:lobj">ligger</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">nu</W>
+<W gloss="is" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-11:[subj]|-2:coord|2:conj|3:lobj|-1:time">ligger</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="rumbling" lemma="rumle" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-13:[subj]|-1:coord|1:[avobj]">rumler</W>
 <W gloss="down" lemma="nede" msd="RGU" tag="RP" in="-1:[avobj]|-3:lobj" out="1:mod">nede</W>

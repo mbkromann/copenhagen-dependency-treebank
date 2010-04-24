@@ -76,7 +76,7 @@
 <W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">supposed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|15:pnct|16:mod">describe</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|15:pnct|16:time">describe</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|4:nobj|5:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="2:conj">bizarre</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -92,7 +92,7 @@
 <W msd="PO" tag="PRP$" in="-2:conj" out="-1:coord|1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">wife</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-16:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-16:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|3:mod|8:pnct">were</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
@@ -103,8 +103,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">'70s</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-42:subj|1:mod|2:vobj|11:conj|27:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="" out="-42:subj|1:time|2:vobj|11:conj|27:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-44:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-45:[subj]|1:part|2:pobj">taken</W>
 <W msd="SP" tag="IN" in="-1:part" out="">over</W>
@@ -165,9 +165,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">demonstrate</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|3:preds|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:preds|2:degr">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
 <W msd="PI" tag="DT" in="-3:preds" out="1:nobj|2:ref|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>

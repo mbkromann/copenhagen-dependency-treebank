@@ -111,9 +111,9 @@
 <W gloss="Clinton" lemma="Clinton" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef">Clinton</W>
 <W gloss="really" lemma="virkelig" msd="RGU" tag="RP" in="1:mod" out="">virkelig</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-1:mod|1:dobj">har</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:mod">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:loc">et</W>
 <W gloss="lead" lemma="forspring" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">forspring</W>
-<W gloss="over" lemma="foran" msd="SP" tag="IN" in="-2:mod" out="1:nobj">foran</W>
+<W gloss="over" lemma="foran" msd="SP" tag="IN" in="-2:loc" out="1:nobj">foran</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:pnct|4:appa">den</W>
 <W gloss="sitting" lemma="sidde" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:mod" out="">siddende</W>
 <W gloss="president" lemma="præsident" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">præsident</W>
@@ -224,10 +224,10 @@
 <W gloss="Clinton's" lemma="Clinton" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd">Clintons</W>
 <W gloss="suitability" lemma="egnethed" msd="NCCSU==I" tag="NN" in="-1:possd" out="">egnethed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:mod" out="2:conj">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:prec" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-11:mod" out="-3:mod|1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-11:mod" out="-3:prec|1:nobj">på</W>
 <W gloss="basis" lemma="baggrund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">baggrund</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hans</W>

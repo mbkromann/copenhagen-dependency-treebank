@@ -73,7 +73,7 @@
 <p>
 <s>
 <W gloss="To_the_contrary" lemma="tværtimod" msd="RGU" tag="RP" in="1:mod" out="">Tværtimod</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:preds|10:mod|22:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:preds|10:time|22:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:pobj">en</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -83,7 +83,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-4:ref|1:subj" out="">der</W>
 <W gloss="will_be_appearing" lemma="optræde" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj">optræder</W>
-<W gloss="when" lemma="når" msd="CS" tag="IN" in="-10:mod" out="4:vobj">når</W>
+<W gloss="when" lemma="når" msd="CS" tag="IN" in="-10:time" out="4:vobj">når</W>
 <W gloss="the_rock_group" lemma="rockgruppe" msd="NCCSU==D" tag="NN" in="3:subj" out="1:appr">rockgruppen</W>
 <W gloss="Gorky" lemma="Gorky" msd="NP--U==-" tag="NNP" in="-1:appr" out="1:nobj">Gorky</W>
 <W gloss="Park" lemma="Park" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Park</W>
@@ -129,8 +129,8 @@
 <W gloss="Bang" lemma="Bang" msd="NP--U==-" tag="NNP" in="-1:conj" out="">Bang</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-8:mod" out="2:nobj|4:part">for</W>
-<W gloss="small" lemma="små" msd="RGU" tag="RP" in="1:mod" out="">små</W>
-<W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:nobj">tre</W>
+<W gloss="small" lemma="små" msd="RGU" tag="RP" in="1:attr" out="">små</W>
+<W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj|-1:attr">tre</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-4:part" out="">siden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-32:pnct" out="">.</W>
@@ -215,8 +215,8 @@
 <p>
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|28:pnct">Men</W>
-<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="1:mod" out="">i_hvert_fald</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:mod|1:subj|9:vobj">har</W>
+<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="1:eval" out="">i_hvert_fald</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:eval|1:subj|9:vobj">har</W>
 <W gloss="Gorky" lemma="Gorky" msd="NP--U==-" tag="NNP" in="-1:subj|8:[subj]" out="1:nobj|2:attr|3:possd|6:appr">Gorky</W>
 <W gloss="Park's" lemma="Park" msd="NP--G==-" tag="NNP" in="-1:nobj" out="">Parks</W>
 <W gloss="latest" lemma="sen" msd="ANS[CN][SP]U=DU" tag="JJS" in="-2:attr" out="">seneste</W>

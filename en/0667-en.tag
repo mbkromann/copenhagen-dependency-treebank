@@ -91,15 +91,15 @@
 <s>
 <W msd="CC" tag="CC" in="" out="3:conj|11:pnct">But</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:subj|-1:mod|1:dobj">think</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-2:subj|-1:add|1:dobj">think</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">really</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|2:aobj|3:mod">went</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:mod">well</W>
-<W msd="NC=S" tag="NN" in="-3:mod" out="">today</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|2:aobj|3:time">went</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:degr">well</W>
+<W msd="NC=S" tag="NN" in="-3:time" out="">today</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -129,8 +129,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj|10:[subj]" out="">He</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:dobj|5:mod|6:pnct|8:conj|28:pnct">won</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:add|1:dobj|5:mod|6:pnct|8:conj|28:pnct">won</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Zealand</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">championship</W>
@@ -163,9 +163,9 @@
 <s>
 <W msd="CC" tag="CC" in="1:mod" out="">Nor</W>
 <W msd="VADA" tag="VBD" in="" out="-1:mod|1:subj|4:vobj|20:pnct">did</W>
-<W msd="PD" tag="DT" in="-1:subj|3:[subj]" out="1:nobj|2:mod">the</W>
+<W msd="PD" tag="DT" in="-1:subj|3:[subj]" out="1:nobj|2:time">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">triumph</W>
-<W msd="NC=S" tag="NN" in="-2:mod" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-2:time" out="">yesterday</W>
 <W msd="VAF" tag="VB" in="-4:vobj" out="-3:[subj]|2:iobj|3:dobj">get</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Frank</W>
 <W msd="NP=S" tag="NNP" in="-2:iobj|2:[subj]" out="-1:namef">Olsen</W>

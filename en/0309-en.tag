@@ -2,9 +2,9 @@
 <W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
 <W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:vobj|4:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:mod">say</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:ext">say</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">that</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
 <W msd="XP" tag="." in="-4:pnct" out="">!</W>
 </s>
 <s>
@@ -20,8 +20,8 @@
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">car</W>
 <W msd="VADA" tag="VBD" in="-8:conj" out="-2:subj|-3:coord|2:preds">was</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
-<W msd="VAP" tag="VBN" in="-2:preds" out="-1:mod">smashed</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
+<W msd="VAP" tag="VBN" in="-2:preds" out="-1:degr">smashed</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -30,8 +30,8 @@
 <W msd="PP" tag="PRP" in="1:mod" out="">yourself</W>
 <W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|-1:mod|1:@loc|3:mod">got</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="ANP" tag="JJ" in="-3:mod" out="-1:mod">unharmed</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
+<W msd="ANP" tag="JJ" in="-3:mod" out="-1:degr">unharmed</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
@@ -188,8 +188,8 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|5:pmct">wonder</W>
 <W msd="PT" tag="WRB" in="-1:dobj|2:[mod]" out="2:rel">how</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:mod">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADA" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|1:time">was</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="XP" tag="." in="-5:pmct" out="">?</W>
 </s>
 <s>

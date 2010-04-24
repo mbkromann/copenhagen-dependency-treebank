@@ -7,14 +7,14 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:name">the</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="1:name">SVX</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Coupe</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|-3:subj|1:dobj|6:pnct|7:mod|28:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|-3:subj|1:dobj|6:pnct|7:time|28:pnct">has</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">traction</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">all</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">four</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">wheels</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-7:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-7:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
@@ -74,8 +74,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Europe</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Subaru</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-13:mod|1:mod|2:vobj|15:conj|21:pnct">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-13:mod|1:degr|2:vobj|15:conj|21:pnct">can</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:pobj">export</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">35,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cars</W>
@@ -158,8 +158,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|3:mod">spreading</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">himself</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:mod" out="-1:mod">thin</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:mod" out="-1:degr">thin</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -202,10 +202,10 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Instead</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">Instead</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">there</W>
-<W msd="VA" tag="MD" in="" out="-3:mod|-1:expl|1:vobj|27:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-1:expl|1:vobj|27:pnct|-3:contr">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|5:mod">come</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|3:nobj|8:pnct|9:appa|11:ref|13:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
@@ -219,9 +219,9 @@
 <W msd="NP=S" tag="NNP" in="-9:appa" out="1:pnct">Empressa</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-11:ref|2:subj|4:[subj]|5:[subj]" out="">which</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">presumably</W>
-<W msd="VA" tag="MD" in="-13:rel" out="-2:subj|-1:mod|1:mod|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="ANP" tag="RB" in="1:epi" out="">presumably</W>
+<W msd="VA" tag="MD" in="-13:rel" out="-2:subj|-1:epi|1:add|2:vobj">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj|6:mod">incorporated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>

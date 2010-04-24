@@ -32,12 +32,12 @@
 <W msd="VAP" tag="VBN" in="-1:expl|-1:vobj" out="-4:dobj">established</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-6:ref|1:subj|3:[subj]|5:[subj]|7:[subj]" out="">which</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:mod|2:vobj|4:conj">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">slowly</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|2:vobj|4:conj|1:man">has</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">slowly</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">developed</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-4:conj" out="-5:[subj]|-1:coord|1:mod|2:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-4:conj" out="-5:[subj]|-1:coord|1:time|2:vobj">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:pobj">resulted</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">in</W>
 <W msd="PI" tag="DT" in="" out="1:attr">a</W>
@@ -79,7 +79,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">schools</W>
 <W msd="VADA" tag="VBD" in="" out="-9:mod|-2:subj|2:dobj|3:mod|23:pnct">had</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="4:pobj|-1:attr">success</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|4:pobj">success</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fall</W>
@@ -92,7 +92,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">teachers</W>
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">from</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">technical</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="3:conj|4:mod|-1:attr">schools</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|3:conj|4:mod">schools</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">business</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">schools</W>
@@ -150,7 +150,7 @@
 <W msd="VA" tag="MD" in="-14:conj" out="-8:mod|-1:subj|-10:coord|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">ascertain</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
-<W msd="PD" tag="DT" in="3:subj|4:[subj]|7:[subj]" out="2:nobj|1:attr">the</W>
+<W msd="PD" tag="DT" in="3:subj|4:[subj]|7:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Polish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">teachers</W>
 <W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|19:pnct">had</W>
@@ -159,7 +159,7 @@
 <W msd="U=" tag="TO" in="" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|2:dobj|11:mod">use</W>
 <W msd="PD" tag="DT" in="4:mod" out="">both</W>
-<W msd="PD" tag="DT" in="-2:dobj" out="2:nobj|4:conj|1:attr">the</W>
+<W msd="PD" tag="DT" in="-2:dobj" out="1:attr|2:nobj|4:conj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">instructional</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">method</W>
 <W msd="CC" tag="CC" in="1:coord" out="-4:mod">and</W>
@@ -169,7 +169,7 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">subject</W>
 <W msd="SP" tag="IN" in="-11:mod" out="1:nobj">in</W>
-<W msd="PO" tag="PRP$" in="-1:nobj" out="2:possd|1:attr">their</W>
+<W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">daily</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">work</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>

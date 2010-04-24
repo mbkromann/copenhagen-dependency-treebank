@@ -40,8 +40,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jørn</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:pnct|3:mod">Middelhede</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj">from</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="SP" tag="IN" in="-3:mod" out="-1:add|1:nobj">from</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">Kolding</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
@@ -141,12 +141,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|3:mod|4:pnct|5:mod|10:pnct">got</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:pnct|5:time|10:pnct|3:focal">got</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">proof</W>
-<W msd="PP" tag="PRP" in="-3:mod" out="">himself</W>
+<W msd="PP" tag="PRP" in="-3:focal" out="">himself</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-5:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-5:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">arrived</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
@@ -158,11 +158,11 @@
 <W msd="NC=S" tag="NN" in="" out="">couple</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
-<W msd="ANP" tag="RB" in="13:mod" out="-4:tobj|1:pnct">before</W>
+<W msd="ANP" tag="RB" in="13:prec" out="-4:tobj|1:pnct">before</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="11:subj|12:[subj]|13:[subj]|14:[subj]" out="2:attr|3:possd|4:pnct|6:appa|10:pnct">his</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">good</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">good</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">friend</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">American</W>
@@ -171,7 +171,7 @@
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef|1:nobj">de</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Vine</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-13:mod|-11:subj|1:vobj|4:pnct">had</W>
+<W msd="VADA" tag="VBD" in="" out="-11:subj|-13:prec|1:vobj|4:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-12:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:preds">found</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="-14:[subj]">killed</W>

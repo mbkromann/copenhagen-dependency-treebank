@@ -55,7 +55,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="while" lemma="mens" msd="CS" tag="IN" in="-9:mod" out="2:vobj">mens</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|15:[subj]|18:[subj]|21:[subj]" out="">man</W>
-<W gloss="are_lying" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|5:pnct|6:mod|14:conj|16:pnct|17:conj|20:conj|1:@loc">ligger</W>
+<W gloss="are_lying" lemma="ligge" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@loc|5:pnct|6:mod|14:conj|16:pnct|17:conj|20:conj">ligger</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">under</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
 <W gloss="shady" lemma="skyggefuld" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">skyggefuldt</W>
@@ -151,8 +151,8 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|8:[subj]|9:[subj]" out="">Han</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|3:mod|7:vobj|15:pnct">er</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:mod" out="">meget</W>
-<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj|3:pnct">mod</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
+<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:mod" out="1:nobj|3:pnct|-1:degr">mod</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="will" lemma="vilje" msd="NCCSU==I" tag="NN" in="-1:possd" out="">vilje</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>

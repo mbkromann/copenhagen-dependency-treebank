@@ -62,21 +62,21 @@
 <W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">få</W>
 <W gloss="created" lemma="skabe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">skabt</W>
 <W gloss="confidence" lemma="tillid" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">tillid</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-8:mod|-9:coord|1:subj|7:mod|8:vobj">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-8:mod|-9:coord|1:subj|7:time|8:vobj">blev</W>
 <W gloss="Unibank's" lemma="Unibank" msd="NP--G==-" tag="NNP" in="-1:subj|7:[subj]" out="1:possd|2:pnct|5:appa">Unibanks</W>
 <W gloss="director" lemma="direktør" msd="NCCSU==I" tag="NN" in="-1:possd" out="">direktør</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="52-year-old" lemma="52-årig" msd="ANP[CN]SU=DU" tag="JJ" in="2:attr" out="">52-årige</W>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Rasborg" lemma="Rasborg" msd="NP--U==-" tag="NNP" in="-5:appa" out="-1:namef|-2:attr">Rasborg</W>
-<W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-7:mod" out="">i_går</W>
+<W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-7:time" out="">i_går</W>
 <W gloss="fired" lemma="fyre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-8:vobj" out="-7:[subj]|1:mod">fyret</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="1:nobj|3:preds">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="parting_gift" lemma="afskedsgave" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afskedsgave</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:preds" out="3:nobj">på</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:mod" out="">ca.</W>
-<W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="1:numm" out="-1:mod">ni</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
+<W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="1:numm" out="-1:degr">ni</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:numm|1:nobj">millioner</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>
@@ -155,8 +155,8 @@
 </p>
 <p>
 <s>
-<W gloss="as_well" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">Også</W>
-<W gloss="On" lemma="på" msd="SP" tag="IN" in="3:mod" out="-1:mod|1:nobj">på</W>
+<W gloss="as_well" lemma="også" msd="RGU" tag="RP" in="1:add" out="">Også</W>
+<W gloss="On" lemma="på" msd="SP" tag="IN" in="3:mod" out="-1:add|1:nobj">på</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Københavns</W>
 <W gloss="Stock_Exchange" lemma="Fondbørs" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Fondbørs</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:subj|2:dobj|5:pnct">har</W>
@@ -168,8 +168,8 @@
 </s>
 <s>
 <W gloss="shares" lemma="aktie" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]" out="">Aktien</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|12:pnct">blev</W>
-<W gloss="Yesterday_evening" lemma="i_aftes" msd="RGU" tag="RP" in="-1:mod" out="">i_aftes</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|12:pnct|1:time">blev</W>
+<W gloss="Yesterday_evening" lemma="i_aftes" msd="RGU" tag="RP" in="-1:time" out="">i_aftes</W>
 <W gloss="listed" lemma="notere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">noteret</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|4:pnct|6:appa">på</W>
 <W gloss="their" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:nobj" out="1:attr|2:nobj">sit</W>
@@ -222,8 +222,8 @@
 <W gloss="group" lemma="gruppe" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">gruppe</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
-<W gloss="risks" lemma="risikere" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:mod|2:dobj">risikerer</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
+<W gloss="risks" lemma="risikere" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:time|2:dobj">risikerer</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="tilting" lemma="rykke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">rykke</W>
 <W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ned</W>

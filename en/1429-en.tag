@@ -46,8 +46,8 @@
 <W msd="PT" tag="WDT" in="-4:ref|5:dobj" out="">which</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Thorkild</W>
 <W msd="VAG" tag="VBG" in="1:subj|3:[subj]" out="-1:namef">Thyrring</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:mod|2:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:time|2:vobj">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:dobj|-3:[subj]|1:pobj|3:mod">put</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">behind</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">him</W>
@@ -65,11 +65,11 @@
 <W msd="NP=S" tag="NNP" in="22:subj|23:[subj]" out="1:pnct|2:ref|4:rel">Audi</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|2:subj" out="">which</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">recently</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:mod|1:mod|7:mod|17:pnct">withdrew</W>
+<W msd="ANP" tag="RB" in="1:time" out="">recently</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-2:subj|-1:time|1:mod|7:mod|17:pnct">withdrew</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|4:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">German</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="4:nobj|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">German</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="1:nobj">Group</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="">A</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-2:mod">series</W>
@@ -122,14 +122,14 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">1993</W>
 <W msd="CC" tag="CC" in="4:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:mod" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="2:reas" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-10:[subj]|-2:mod|-4:coord|1:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-10:[subj]|-4:coord|-2:reas|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:iobj|4:dobj">asked</W>
 <W msd="PD" tag="DT" in="-1:iobj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">drivers</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="U=" tag="TO" in="-4:dobj" out="1:vobj|-1:neg">to</W>
+<W msd="U=" tag="TO" in="-4:dobj" out="-1:neg|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:mod">commit</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">elsewhere</W>
@@ -149,12 +149,12 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">by</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">French</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">students</W>
-<W msd="VA" tag="MD" in="" out="-6:subj|1:vobj|4:pnct|5:mod|12:pnct">could</W>
+<W msd="VA" tag="MD" in="" out="-6:subj|1:vobj|4:pnct|5:cond|12:pnct">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|2:dobj">ruin</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">gasoline</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:mod">companies</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-5:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">put</W>
@@ -207,8 +207,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Silverstone</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:mod">track</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">in</W>
-<W msd="NP=S" tag="NNP" in="1:mod" out="">Great</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Britain</W>
+<W msd="NP=S" tag="NNP" in="1:attr" out="">Great</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Britain</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
@@ -218,12 +218,12 @@
 <W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|14:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj|1:pnct#">from</W>
 <W msd="AC" tag="CD" in="-1:nobj|-1:pnct#" out="1:ref|6:rel">1988,</W>
-<W msd="PT" tag="WRB" in="-1:ref|5:mod" out="">when</W>
+<W msd="PT" tag="WRB" in="-1:ref|5:time" out="">when</W>
 <W msd="PI" tag="DT" in="4:subj" out="2:mod|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">Japanese</W>
 <W msd="VAP" tag="VBN" in="-2:mod" out="-1:mod">built</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">car</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-5:mod|-4:subj|1:lobj|3:mod">drove</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-4:subj|-5:time|1:lobj|3:mod">drove</W>
 <W msd="AC" tag="CD" in="-1:lobj" out="1:nobj">2,270</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">km</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>

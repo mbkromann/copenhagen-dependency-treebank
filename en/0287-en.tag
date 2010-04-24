@@ -149,8 +149,8 @@
 <W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|1:preds|7:pnct|10:conj|18:pnct">seemed</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="3:conj|4:pobj">stronger</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="2:[pobj]">more</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-1:mod|-2:coord">untouchable</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="2:[pobj]">more</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">untouchable</W>
 <W msd="SP" tag="IN" in="-4:pobj|-2:[pobj]" out="1:obl">than</W>
 <W msd="ANP" tag="RB" in="-1:obl" out="">ever</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -162,12 +162,12 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:avobj">as</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">never</W>
-<W msd="ANP" tag="RB" in="-2:avobj" out="-1:mod">before</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">never</W>
+<W msd="ANP" tag="RB" in="-2:avobj" out="-1:neg">before</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="9:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="9:time" out="">Now</W>
 <W msd="PD" tag="DT" in="8:subj|10:[subj]" out="1:attr|3:nobj|4:pnct|5:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">narcotics</W>
@@ -176,7 +176,7 @@
 <W msd="PD" tag="DT" in="-5:appa" out="1:nobj|2:pnct">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">DEA</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="" out="-9:mod|-8:subj|1:dobj|9:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-8:subj|1:dobj|9:pnct|-9:time">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj|3:mod">conduct</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -214,7 +214,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cartel</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">bosses</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-3:subj|-4:coord|2:vobj|1:neg">could</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-3:subj|-4:coord|1:neg|2:vobj">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:pobj">understand</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>

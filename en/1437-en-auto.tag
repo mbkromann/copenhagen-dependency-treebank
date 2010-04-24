@@ -1,6 +1,6 @@
 <s>
-<W msd="PD" tag="DT" in="4:subj" out="1:mod|2:name|3:nobj">The</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">German</W>
+<W msd="PD" tag="DT" in="4:subj" out="2:name|3:nobj|1:attr">The</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">German</W>
 <W msd="NP=S" tag="NNP" in="-2:name" out="">Transall</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">plane</W>
 <W msd="NC=P" tag="NNS" in="" out="-4:subj|1:lobj|5:pnct|16:pnct">taxis</W>
@@ -10,7 +10,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stand</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|2:mod|8:mod">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|2:mod|8:succ">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]">going</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
@@ -18,7 +18,7 @@
 <W msd="PD" tag="PDT" in="1:mod" out="">half</W>
 <W msd="PI" tag="DT" in="2:tobj" out="-1:mod|1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hour</W>
-<W msd="ANP" tag="RB" in="-8:mod" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-8:succ" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -94,8 +94,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plane</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|3:preds|4:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">scantily</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">scantily</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-1:mod">insulated</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -199,13 +199,13 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|5:pnct|6:mod|14:pnct|2:@dir">lie</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:@dir|5:pnct|6:focal|14:pnct">lie</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">right</W>
 <W msd="U=" tag="TO" in="-2:@dir" out="-1:mod">to</W>
 <W msd="PO" tag="PRP$" in="" out="">your</W>
 <W msd="NC=S" tag="NN" in="" out="">face</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-6:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>

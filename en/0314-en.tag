@@ -49,8 +49,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|3:preds|14:conj|27:pnct">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:focal|3:preds|14:conj|27:pnct">were</W>
+<W msd="ANP" tag="RB" in="-1:focal" out="">even</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="SP" tag="IN" in="-3:preds" out="-1:mod|1:nobj">about</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -147,9 +147,9 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
-<W msd="ANP" tag="JJ" in="2:mod" out="">now</W>
+<W msd="ANP" tag="JJ" in="2:time" out="">now</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]|4:[subj]|9:[subj]" out="">people</W>
-<W msd="VADR" tag="VBP" in="-10:conj" out="-2:mod|-1:subj|-3:coord|1:vobj|8:conj">don't</W>
+<W msd="VADR" tag="VBP" in="-10:conj" out="-1:subj|-3:coord|-2:time|1:vobj|8:conj">don't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj|4:mod">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">remember</W>
@@ -191,10 +191,10 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:pnct|3:mod|4:pnct|6:xpl">said</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:pnct|4:pnct|6:xpl|3:degr">said</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">too</W>
+<W msd="ANP" tag="RB" in="-3:degr" out="">too</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">We</W>
 <W msd="VADA" tag="VBD" in="-6:xpl" out="-1:subj|1:vobj">were</W>

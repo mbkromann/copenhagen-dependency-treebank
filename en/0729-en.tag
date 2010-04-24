@@ -43,14 +43,14 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:dobj|10:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-2:time|1:dobj|10:pnct">has</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:aobj|2:pnct|3:mod">look</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:aobj|2:pnct|3:accom">look</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">sporty</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="SP" tag="IN" in="-3:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-3:accom" out="1:nobj">without</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:avobj|2:mod">brimming</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="">over</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
@@ -87,10 +87,10 @@
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|2:pnct|3:mod|4:pnct|5:mod|1:@loc">comes</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|1:@loc|2:pnct|3:degr|4:pnct|5:mod">comes</W>
 <W msd="ANP" tag="RB" in="-1:@loc" out="">here</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">too</W>
+<W msd="ANP" tag="RB" in="-3:degr" out="">too</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:pobj">along</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

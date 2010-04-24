@@ -45,7 +45,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|10:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|10:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:pobj">same</W>
@@ -181,8 +181,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="3:conj|16:pnct">But</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:neg">only</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:mod|1:subj|4:vobj|7:pnct|9:conj">is</W>
+<W msd="ANP" tag="RB" in="1:degr" out="-1:neg">only</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:degr|1:subj|4:vobj|7:pnct|9:conj">is</W>
 <W msd="PD" tag="DT" in="-1:subj|3:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">welfare</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">state</W>
@@ -209,14 +209,14 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Danes</W>
-<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|1:mod|2:vobj|15:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|2:vobj|15:pnct|1:ext">have</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:pnct|5:mod|7:mod">been</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:mod" out="">even</W>
+<W msd="ANP" tag="RB" in="3:focal" out="">even</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">300</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="RB" in="-5:mod" out="-3:mod|-2:tobj|1:pnct">ago</W>
+<W msd="ANP" tag="RB" in="-5:mod" out="-2:tobj|-3:focal|1:pnct">ago</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-7:mod" out="1:vobj">so</W>
 <W msd="NP=S" tag="NNP" in="-1:vobj" out="1:preds|2:mod">I'm</W>

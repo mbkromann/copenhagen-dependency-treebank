@@ -46,7 +46,7 @@
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nuclear</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">physics</W>
-<W msd="VAP" tag="VBN" in="-14:conj" out="-1:subj|7:pnct|9:&lt;subj&gt;|10:&lt;lobj&gt;|13:pnct|14:&lt;subj&gt;|15:&lt;lobj&gt;|20:pnct|21:mod|1:@dir">led</W>
+<W msd="VAP" tag="VBN" in="-14:conj" out="-1:subj|1:@dir|7:pnct|9:&lt;subj&gt;|10:&lt;lobj&gt;|13:pnct|14:&lt;subj&gt;|15:&lt;lobj&gt;|20:pnct|21:mod">led</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="2:nobj">to</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nuclear</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|3:conj">power</W>
@@ -83,8 +83,8 @@
 <W msd="NC=S" tag="NN" in="1:subj" out="">science</W>
 <W msd="VADA" tag="VBD" in="" out="-5:mod|-1:subj|1:dobj">acquired</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj|4:pnct|5:mod">another</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">positive</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">positive</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">image</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 <W msd="CS" tag="IN" in="-5:mod" out="1:nobj">as</W>
@@ -174,11 +174,11 @@
 <W msd="SP" tag="IN" in="-12:nobj" out="3:vobj|10:conj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">public</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:subj|1:dobj|4:mod|5:pnct">caught</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:subj|1:dobj|4:ext|5:pnct">caught</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">sight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
-<W msd="ANP" tag="RB" in="-4:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-4:ext" out="">again</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-10:conj" out="-1:coord|6:vobj">that</W>
@@ -202,8 +202,8 @@
 <s>
 <W msd="AC" tag="CD" in="" out="1:pnct|2:list|20:pnct">1</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
-<W msd="NP=S" tag="NNP" in="-2:list" out="1:mod|2:pnct|5:xpl">Read</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">tomorrow</W>
+<W msd="NP=S" tag="NNP" in="-2:list" out="2:pnct|5:xpl|1:time">Read</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">tomorrow</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 <W msd="NP=S" tag="NNP" in="2:title" out="">Professor</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Preben</W>

@@ -8,8 +8,8 @@
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mother</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|2:preds|5:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|2:conj">slim</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="2:conj|-1:degr">slim</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">athletic</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>

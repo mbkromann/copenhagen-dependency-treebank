@@ -11,8 +11,8 @@
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">drama</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-7:conj" out="-8:[subj]|-1:coord|1:mod|2:vobj">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="-7:conj" out="-8:[subj]|-1:coord|1:add|2:vobj">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-10:[subj]|1:dobj|7:mod">testing</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:pobj">strength</W>
@@ -95,7 +95,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">spouses</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-14:mod|-1:subj|7:pnct|1:@loc">go</W>
+<W msd="VADR" tag="VBP" in="" out="-14:mod|-1:subj|1:@loc|7:pnct">go</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">charter</W>
@@ -113,8 +113,8 @@
 <W msd="AC" tag="CD" in="-1:possd" out="1:mod|2:nobj">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">teenage</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">daughters</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|-1:mod|-9:mod|1:dobj|3:avobj|5:pnct">turn</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|-9:mod|-1:degr|1:dobj|3:avobj|5:pnct">turn</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">home</W>
 <W msd="ANP" tag="RB" in="-3:avobj" out="1:mod">upside</W>
@@ -158,8 +158,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="CS" tag="IN" in="-9:mod" out="-2:tobj|3:vobj">after</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">she</W>
-<W msd="NC=S" tag="NN" in="1:mod" out="">last</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:pobj">wrote</W>
+<W msd="NC=S" tag="NN" in="1:attr" out="">last</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:pobj|-1:attr">wrote</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">radio</W>
 <W msd="XF" tag="FW" in="-2:nobj" out="-1:mod">theatre</W>

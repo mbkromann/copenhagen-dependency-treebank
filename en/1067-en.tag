@@ -21,7 +21,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="-5:mod" out="-2:tobj">ago</W>
 <W msd="VADR" tag="VBZ" in="" out="-20:subj|1:vobj|16:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|2:dobj|4:mod|3:@dir">brought</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|2:dobj|3:@dir|4:mod">brought</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">beautiful</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">photographs</W>
 <W msd="VADR" tag="VBP" in="-3:@dir" out="">home</W>
@@ -164,8 +164,8 @@
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-5:ref|5:subj" out="">who</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="2:tobj" out="-1:mod|1:nobj">116</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="2:tobj" out="1:nobj|-1:degr">116</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:tobj">ago</W>
 <W msd="VAP" tag="VBN" in="-10:rel" out="-5:subj|-1:mod|1:dobj">invented</W>

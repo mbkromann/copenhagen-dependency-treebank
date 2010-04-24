@@ -126,8 +126,8 @@
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="10:nobj">it</W>
-<W msd="VA" tag="MD" in="-12:conj" out="-1:subj|-2:coord|1:mod|2:vobj">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">especially</W>
+<W msd="VA" tag="MD" in="-12:conj" out="-1:subj|-2:coord|2:vobj|1:eval">can</W>
+<W msd="ANP" tag="RB" in="-1:eval" out="">especially</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:@loc">take</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sting</W>
@@ -137,8 +137,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">opposition</W>
 <W msd="SP" tag="IN" in="-10:nobj" out="3:vobj">that</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">now</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:mod|1:dobj|2:pobj">say</W>
+<W msd="ANP" tag="RB" in="1:time" out="">now</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:time|1:dobj|2:pobj">say</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">no</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="2:nobj">to</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">union</W>
@@ -211,13 +211,13 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">yes-parties</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj|5:pnct|6:mod">may</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj|5:pnct|6:cond">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">explanation</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">problem</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-6:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">going</W>

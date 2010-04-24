@@ -182,14 +182,14 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">gin</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:pnct|2:mod|5:preds|6:pnct|7:mod">were</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:pnct|2:mod|5:preds|6:pnct|7:time">were</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:pnct">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-5:preds" out="">half-drunk</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-7:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="-7:time" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">taxi</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj">arrived</W>
@@ -212,8 +212,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|1:mod|2:preds">was</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">only</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|2:preds|1:degr">was</W>
+<W msd="ANP" tag="JJ" in="-1:degr" out="">only</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="">boys</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

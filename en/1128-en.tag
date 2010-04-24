@@ -85,16 +85,16 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|20:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">well</W>
-<W msd="SP" tag="IN" in="-2:preds" out="-1:mod|1:nobj">on</W>
+<W msd="ANP" tag="RB" in="1:man" out="">well</W>
+<W msd="SP" tag="IN" in="-2:preds" out="1:nobj|-1:man">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">toward</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj|4:mod|8:pnct|9:mod">going</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj|4:reas|8:pnct|9:mod">going</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">dogs</W>
-<W msd="CS" tag="IN" in="-4:mod" out="1:pobj">because</W>
+<W msd="CS" tag="IN" in="-4:reas" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">drinking</W>
@@ -144,7 +144,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="25:conj">And</W>
-<W msd="ANP" tag="RB" in="24:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="24:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="17:vobj">though</W>
 <W msd="NC=P" tag="NNS" in="16:subj" out="">drinkers</W>
 <W msd="CS" tag="IN" in="15:mod" out="1:vobj|5:pnct|7:modp">as</W>
@@ -168,7 +168,7 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">truth</W>
-<W msd="VADR" tag="VBZ" in="-25:conj" out="-2:subj|-24:mod|1:neg|2:preds|5:pnct|6:mod|7:pnct|12:xpl">is</W>
+<W msd="VADR" tag="VBZ" in="-25:conj" out="-2:subj|-24:focal|1:neg|2:preds|5:pnct|6:mod|7:pnct|12:xpl">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">whole</W>

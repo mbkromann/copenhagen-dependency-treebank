@@ -14,10 +14,10 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">three-year</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">old</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-3:attr|-1:attr">Pernille</W>
-<W msd="VADR" tag="VBZ" in="" out="-15:mod|-1:subj|1:mod|3:mod|4:preds|20:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-15:mod|-1:subj|1:mod|4:preds|20:pnct|3:man">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:avobj">once</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">again</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">legally</W>
+<W msd="ANP" tag="RB" in="-3:man" out="">legally</W>
 <W msd="ANP" tag="RB" in="-4:preds" out="1:pobj">together</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:pnct|4:appa|8:conj">her</W>
@@ -38,7 +38,7 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|3:[subj]|7:[subj]" out="">Pernille</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|12:pnct|13:mod|30:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|12:pnct|13:focal|30:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod|3:dobj">permitted</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">after</W>
@@ -51,7 +51,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mother</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-13:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-13:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="5:vobj">though</W>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">municipality</W>
@@ -71,7 +71,7 @@
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="8:mod" out="1:pnct">Yesterday</W>
+<W msd="NC=S" tag="NN" in="8:time" out="1:pnct">Yesterday</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="6:subj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">municipality</W>
@@ -79,7 +79,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Odense</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">simply</W>
-<W msd="VADA" tag="VBD" in="" out="-8:mod|-6:subj|-1:mod|1:dobj|3:pnct">reversed</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|-1:mod|-8:time|1:dobj|3:pnct">reversed</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decision</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -169,8 +169,8 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Eastern</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">High</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Court</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">quickly</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-9:subj|-1:mod|1:part|2:dobj">set</W>
+<W msd="ANP" tag="RB" in="1:man" out="">quickly</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-9:subj|-1:man|1:part|2:dobj">set</W>
 <W msd="ANP" tag="RB" in="-1:part" out="">aside</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">custodial</W>

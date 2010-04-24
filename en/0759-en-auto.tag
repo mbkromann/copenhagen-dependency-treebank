@@ -41,7 +41,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:subj|2:[subj]" out="">many</W>
 <W msd="VADA" tag="VBD" in="-10:rel" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:mod|1:@dir">looked</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir|3:mod">looked</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="1:pobj">forward</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="-13:[nobj]">to</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj">as</W>
@@ -65,7 +65,7 @@
 </s>
 <s>
 <W msd="CS" tag="IN" in="" out="9:conj|20:pnct">Because</W>
-<W msd="CS" tag="IN" in="8:mod" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="8:prec" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|4:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:lobj">gotten</W>
@@ -73,7 +73,7 @@
 <W msd="ANP" tag="RB" in="-2:lobj" out="-1:mod">far</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-8:mod|-1:subj|1:vobj">had</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-1:subj|-8:prec|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">introduced</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -94,8 +94,8 @@
 <W msd="PT" tag="WDT" in="" out="">which</W>
 <W msd="ANP" tag="JJ" in="" out="">popular</W>
 <W msd="NC=S" tag="NN" in="" out="">music</W>
-<W msd="VADR" tag="VBZ" in="" out="1:mod">is</W>
-<W msd="ANC" tag="JJR" in="-1:mod" out="2:conj">more</W>
+<W msd="VADR" tag="VBZ" in="" out="1:degr">is</W>
+<W msd="ANC" tag="JJR" in="-1:degr" out="2:conj">more</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">more</W>
 <W msd="SP" tag="IN" in="" out="1:nobj|3:conj|5:pnct|10:conj">about</W>

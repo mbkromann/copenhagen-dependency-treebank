@@ -100,8 +100,8 @@
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="pocket" lemma="lomme" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">lommen</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-4:mod" out="1:nobj">til</W>
-<W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="1:mod">ham</W>
-<W gloss="even" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:mod" out="">selv</W>
+<W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="1:focal">ham</W>
+<W gloss="even" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:focal" out="">selv</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 </p>
@@ -112,7 +112,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="27," lemma="27" msd="AC---U=--" tag="CD" in="-2:attr" out="1:pnct">27</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="is" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|10:pnct|18:conj|25:pnct|6:@loc">går</W>
+<W gloss="is" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:mod|6:@loc|10:pnct|18:conj|25:pnct">går</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="4:nobj">på</W>
 <W gloss="fourth" lemma="fjerde" msd="AO---U=--" tag="JJ" in="3:attr" out="2:conj">fjerde</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -236,8 +236,8 @@
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">Man</W>
 <W gloss="have_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|9:conj|20:pnct|21:pnct">skulle</W>
 <W gloss="learn" lemma="lære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:preds">lære</W>
-<W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="1:mod">sig</W>
-<W gloss="even" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:mod" out="">selv</W>
+<W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="1:focal">sig</W>
+<W gloss="even" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-1:focal" out="">selv</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:preds" out="1:vobj">at</W>
 <W gloss="know" lemma="kende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">kende</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>

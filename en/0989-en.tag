@@ -148,19 +148,19 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|2:vobj|8:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-6:mod|1:neg|2:vobj|8:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:part|2:dobj|3:mod">close</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:part|2:dobj|3:time">close</W>
 <W msd="ANP" tag="RB" in="-1:part" out="">down</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="">0-0-0</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-3:time" out="">yet</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="12:qobj" out="-1:subj|2:vobj|10:pnct|11:pnct|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="12:qobj" out="-1:subj|1:neg|2:vobj|10:pnct|11:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -190,9 +190,9 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="">KTAS</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:pnct|2:mod|4:preds|5:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:pnct|1:neg|4:preds|5:pnct|2:time">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
 <W msd="ANP" tag="RB" in="1:mod" out="3:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod">skilled</W>
 <W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>

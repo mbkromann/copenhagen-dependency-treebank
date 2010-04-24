@@ -51,14 +51,14 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bosnia-Herzegovina</W>
-<W msd="VADA" tag="VBD" in="-12:vobj" out="-11:subj|7:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-12:vobj" out="-11:subj|1:preds|7:dur">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">subject</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|3:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Serbian</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">infantry</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">attack</W>
-<W msd="SP" tag="IN" in="-7:mod" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-7:dur" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
@@ -90,8 +90,8 @@
 <W msd="PD" tag="DT" in="4:subj" out="1:mod|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Serbian</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">forces</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-4:subj|-1:mod|-9:mod|1:dobj|3:mod|28:pnct">began</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-4:subj|-9:mod|-1:add|1:dobj|3:mod|28:pnct">began</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">offensive</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">against</W>
@@ -132,7 +132,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">sought</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">shelter</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="11:qobj" out="-10:subj|-10:[subj]|6:mod|8:pnct|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="11:qobj" out="-10:subj|-10:[subj]|1:preds|6:mod|8:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">subject</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="3:nobj">to</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">intensive</W>
@@ -189,8 +189,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">war</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-2:[dobj]">going</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">by</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj|5:mod">the</W>
-<W msd="VAP" tag="VBN" in="-1:mod" out="">continued</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|5:mod|1:attr">the</W>
+<W msd="VAP" tag="VBN" in="-1:attr" out="">continued</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">conquest</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lands</W>

@@ -1,14 +1,14 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct|8:mod|20:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct|8:reas|20:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|5:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod|2:conj">important</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">important</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-2:conj" out="-1:coord">groundbreaking</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">decision</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:mod" out="4:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:reas" out="4:vobj">because</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">naval</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">effort</W>
@@ -33,7 +33,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">West</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Union</W>
-<W msd="NC=P" tag="NNS" in="" out="-10:mod|-3:subj|1:mod|11:mod|25:pnct|5:@dir">moves</W>
+<W msd="NC=P" tag="NNS" in="" out="-10:mod|-3:subj|1:mod|5:@dir|11:mod|25:pnct">moves</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
@@ -69,8 +69,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">force</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-1:mod|2:dobj|3:pnct">has</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-1:add|2:dobj|3:pnct">has</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">participation</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -133,19 +133,19 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|1:preds|33:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|33:pnct|-3:contr">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">doubtful</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="12:vobj">whether</W>
 <W msd="PD" tag="DT" in="11:subj" out="1:nobj|9:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">victims</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="4:conj|5:possd">Serbia's</W>
-<W msd="CC" tag="CC" in="3:coord" out="1:mod|2:mod">and</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">also</W>
+<W msd="CC" tag="CC" in="3:coord" out="1:time|2:add">and</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
+<W msd="ANP" tag="RB" in="-2:add" out="">also</W>
 <W msd="NP=S" tag="NNP" in="-4:conj" out="-3:coord|1:[possd]">Croatia's</W>
 <W msd="NC=S" tag="NN" in="-5:possd|-1:[possd]" out="">aggression</W>
 <W msd="SP" tag="IN" in="-9:mod" out="1:nobj">in</W>
@@ -180,8 +180,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">initiative</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|1:vobj|4:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:mod">come</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:mod">late</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:mod" out="-1:degr">late</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

@@ -72,10 +72,10 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="If" lemma="hvis" msd="CS" tag="IN" in="3:mod" out="1:list|2:pnct">Hvis</W>
+<W gloss="If" lemma="hvis" msd="CS" tag="IN" in="3:cond" out="1:list|2:pnct">Hvis</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:list" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:subj|2:preds|3:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:preds|3:pnct|-3:cond">er</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
 <W gloss="inactive" lemma="inaktiv" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="">inaktiv</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -115,7 +115,7 @@
 </s>
 <s>
 <W gloss="Studieaktivitetskontrollen" lemma="studieaktivitetskontrol" msd="NCCSU==D" tag="NN" in="1:subj" out="">Studieaktivitetskontrollen</W>
-<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:@loc">ligger</W>
+<W gloss="lie" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:@loc|3:pnct">ligger</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="the_educational_institutions" lemma="uddannelsesinstitution" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">uddannelsesinstitutionerne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -156,8 +156,8 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Jeg</W>
-<W gloss="want_to" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|19:pnct">vil</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:mod" out="">derfor</W>
+<W gloss="want_to" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:reas|2:vobj|19:pnct">vil</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
 <W gloss="introduce" lemma="indføre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">indføre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="provision" lemma="bestemmelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">bestemmelse</W>
@@ -223,14 +223,14 @@
 <W gloss="is_stated" lemma="anføre" msd="VADR=----P-" tag="VBD" in="" out="-2:pobj|1:pnct|2:subj|17:pnct">anføres</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:subj" out="8:vobj">at</W>
-<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="7:mod" out="3:vobj">hvis</W>
+<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="7:cond" out="3:vobj">hvis</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj" out="1:nobj">en</W>
 <W gloss="person" lemma="person" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">person</W>
 <W gloss="earns" lemma="tjene" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj|3:pnct">tjener</W>
 <W gloss="300,000," lemma="300.000" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">300.000</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:mod|1:subj|2:vobj">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:cond|1:subj|2:vobj">kan</W>
 <W gloss="the_relevant_person" lemma="vedkommende" msd="NCNSU==I" tag="NN" in="-1:subj|1:[subj]" out="">vedkommende</W>
 <W gloss="receive" lemma="få" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|2:mod">få</W>
 <W gloss="educational_assistance" lemma="uddannelsesstøtte" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">uddannelsesstøtte</W>

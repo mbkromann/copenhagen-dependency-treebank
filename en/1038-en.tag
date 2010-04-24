@@ -68,8 +68,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">julienne</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">strips</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="AC" tag="CD" in="-15:conj" out="1:mod|3:nobj">two</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">small</W>
+<W msd="AC" tag="CD" in="-15:conj" out="3:nobj|1:attr">two</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">spring</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">cabbages</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>
@@ -203,8 +203,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|8:pnct">may</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:add|2:vobj|8:pnct">may</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj|3:modo">serve</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">potatoes</W>

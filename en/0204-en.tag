@@ -67,8 +67,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mouse</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|3:preds">became</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:degr|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">large</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -80,8 +80,8 @@
 <W msd="PD" tag="DT" in="-1:nobj|3:[dobj]" out="1:nobj|3:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">factories</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-3:[dobj]|-1:subj|1:mod|2:pnct">have</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">today</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-3:[dobj]|-1:subj|2:pnct|1:time">have</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">today</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">raw</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:attr">materials</W>
@@ -168,7 +168,7 @@
 <W msd="VADR" tag="VBP" in="" out="-6:subj|1:dobj|18:pnct">say</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|2:vobj|1:neg">will</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:neg|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds|4:mod">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>

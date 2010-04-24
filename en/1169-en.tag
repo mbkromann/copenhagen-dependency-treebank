@@ -50,8 +50,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:ref|3:rel|12:pnct">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="6:pobj">legend</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:time|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">under</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">construction</W>
 <W msd="SP" tag="IN" in="-6:pobj" out="1:nobj">about</W>
@@ -62,9 +62,9 @@
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Hot</W>
 <W msd="NP=S" tag="NNP" in="1:subj|6:[subj]" out="-1:mod">Springs</W>
-<W msd="VADR" tag="VBZ" in="-29:conj" out="-1:subj|-17:mod|-19:coord|2:mod|5:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-29:conj" out="-1:subj|-17:mod|-19:coord|2:prec|5:vobj">has</W>
 <W msd="PD" tag="DT" in="2:mod" out="">neither</W>
-<W msd="CS" tag="IN" in="-2:mod" out="2:conj">before</W>
+<W msd="CS" tag="IN" in="-2:prec" out="2:conj">before</W>
 <W msd="CC" tag="CC" in="1:coord" out="-2:mod">nor</W>
 <W msd="CS" tag="IN" in="-2:conj" out="-1:coord">since</W>
 <W msd="VAP" tag="VBN" in="-5:vobj" out="-6:[subj]|1:dobj">seen</W>
@@ -87,7 +87,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bill</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Clinton</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">first</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|19:pnct|1:@loc">lived</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:@loc|19:pnct">lived</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|4:nobj|5:pnct|7:[ref]|9:rel">the</W>
 <W msd="AC" tag="CD" in="-1:attr" out="1:list">1011</W>
@@ -110,18 +110,18 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="5:conj|17:pnct">But</W>
-<W msd="ANP" tag="RB" in="4:mod" out="1:pnct">later</W>
+<W msd="ANP" tag="RB" in="4:succ" out="1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">family</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-4:mod|-2:subj|1:@dir">moved</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-2:subj|-4:succ|1:@dir">moved</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod|8:mod">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">larger</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">house</W>
 <W msd="SP" tag="IN" in="-3:mod" out="3:nobj">in</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">airy</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">airy</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">surroundings</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">farther</W>
 <W msd="SP" tag="IN" in="-8:mod" out="-1:mod|1:nobj">from</W>
@@ -137,8 +137,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:dobj|13:pnct">tells</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="1:pnct|8:vobj">that</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">even</W>
-<W msd="SP" tag="IN" in="5:mod" out="-1:mod|1:nobj|3:pnct">in</W>
+<W msd="ANP" tag="RB" in="1:focal" out="">even</W>
+<W msd="SP" tag="IN" in="5:mod" out="-1:focal|1:nobj|3:pnct">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">youth</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -182,8 +182,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">neighbourhood</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">carports</W>
 <W msd="VADR" tag="VBP" in="" out="-3:subj|1:dobj|7:pnct|8:mod|17:pnct">contain</W>
-<W msd="AC" tag="CD" in="-1:dobj" out="1:mod|2:mod|3:nobj|4:pobj">one</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">big</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="2:mod|3:nobj|4:pobj|1:attr">one</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">big</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">showy</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">car</W>
 <W msd="CS" tag="IN" in="-4:pobj" out="1:nobj">after</W>

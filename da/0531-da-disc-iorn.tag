@@ -62,8 +62,8 @@
 <p>
 <s>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="18:subj" out="1:nobj|8:pnct|12:appa">De</W>
-<W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:mod|2:nobj">to</W>
-<W gloss="convicted" lemma="dømme" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">dømte</W>
+<W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="2:nobj|1:attr">to</W>
+<W gloss="convicted" lemma="dømme" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">dømte</W>
 <W gloss="executives" lemma="topchef" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="1:pobj">topchefer</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">i</W>
 <W gloss="6" lemma="6." msd="AO---U=--" tag="JJ" in="1:attr" out="">6.</W>
@@ -93,8 +93,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">Også</W>
-<W gloss="The_prosecuting_authority" lemma="anklagemyndighed" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="-1:mod">anklagemyndigheden</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">Også</W>
+<W gloss="The_prosecuting_authority" lemma="anklagemyndighed" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="-1:add">anklagemyndigheden</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-16:CONJ/også" out="-1:subj|1:vobj|4:pnct">har</W>
 <W gloss="reserved" lemma="reservere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">reserveret</W>
 <W gloss="the" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
@@ -179,8 +179,8 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|3:[subj]" out="">De</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-23:CONJ/desuden" out="-1:subj|1:mod|2:vobj|7:pnct">har</W>
-<W gloss="also" lemma="desuden" msd="RGU" tag="RP" in="-1:mod" out="">desuden</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-23:CONJ/desuden" out="-1:subj|1:add|2:vobj|7:pnct">har</W>
+<W gloss="also" lemma="desuden" msd="RGU" tag="RP" in="-1:add" out="">desuden</W>
 <W gloss="evaded" lemma="unddrage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:iobj|3:dobj">unddraget</W>
 <W gloss="the_tax_authorities" lemma="skattevæsen" msd="NCNSU==D" tag="NN" in="-1:iobj" out="">skattevæsenet</W>
 <W gloss="3.5" lemma="3,5" msd="AC---U=--" tag="CD" in="1:numm" out="">3,5</W>
@@ -214,7 +214,7 @@
 <W gloss="the_board_members" lemma="bestyrelsesmedlem" msd="NCNPU==D" tag="NNP" in="2:subj|3:[subj]" out="">bestyrelsesmedlemmerne</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:vobj">kunne</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|2:mod|1:@dir">gå</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir|2:mod">gå</W>
 <W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="2:nobj">med</W>
 <W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">god</W>

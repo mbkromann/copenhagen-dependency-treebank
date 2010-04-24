@@ -89,8 +89,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">drinks</W>
 <W msd="VADR" tag="VBP" in="" out="-3:subj|2:dobj|9:pnct">constitute</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:dobj" out="-1:mod|1:nobj">40</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -128,8 +128,8 @@
 </s>
 <s>
 <W msd="PI" tag="DT" in="4:dobj" out="2:attr|3:nobj">A</W>
-<W msd="VADA" tag="VBD" in="1:mod" out="">continued</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">satisfactory</W>
+<W msd="VADA" tag="VBD" in="1:attr" out="">continued</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:attr">satisfactory</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">development</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:dobj|1:vobj|1:expl|2:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj|-1:expl" out="">expected</W>
@@ -153,9 +153,9 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">division</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Haderslev</W>
-<W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|2:mod|3:vobj|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="-7:vobj" out="-6:subj|1:neg|2:time|3:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-9:[subj]|1:dobj">achieved</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|4:ref">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">market</W>
@@ -184,9 +184,9 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="2:mod" out="">Danish</W>
+<W msd="NP=S" tag="NNP" in="2:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Paper</W>
-<W msd="NP=S" tag="NNP" in="6:subj|8:[subj]" out="-2:mod|-1:nobj|1:pnct|2:ref|3:rel|7:attr">Packaging</W>
+<W msd="NP=S" tag="NNP" in="6:subj|8:[subj]" out="-1:nobj|-2:attr|1:pnct|2:ref|3:rel|7:attr">Packaging</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|2:dobj">produces</W>
@@ -198,10 +198,10 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">this</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:mod|2:vobj|29:pnct|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:contr|1:neg|2:vobj|29:pnct">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]">prevented</W>
 <W msd="PD" tag="DT" in="8:subj|9:[subj]" out="1:nobj|3:pnct">the</W>
@@ -222,9 +222,9 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="1:pobj">responsibility</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">for</W>
-<W msd="NP=S" tag="NNP" in="2:mod" out="">Danish</W>
+<W msd="NP=S" tag="NNP" in="2:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">Paper</W>
-<W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:mod|-1:nobj|4:conj">Packaging</W>
+<W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:nobj|-2:attr|4:conj">Packaging</W>
 <W msd="ANP" tag="RB" in="" out="">as</W>
 <W msd="ANP" tag="RB" in="" out="">well</W>
 <W msd="CS" tag="IN" in="1:coord" out="">as</W>

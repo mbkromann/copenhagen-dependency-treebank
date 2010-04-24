@@ -98,8 +98,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="">Pakistan</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="NP=S" tag="NNP" in="1:mod" out="">Great</W>
-<W msd="NP=S" tag="NNP" in="-5:conj" out="-1:mod|-2:coord">Britain</W>
+<W msd="NP=S" tag="NNP" in="1:attr" out="">Great</W>
+<W msd="NP=S" tag="NNP" in="-5:conj" out="-2:coord|-1:attr">Britain</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-15:conj" out="-1:coord|1:pobj|7:ref|8:rel">essays</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -111,9 +111,9 @@
 <W msd="PT" tag="WDT" in="-7:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-8:rel" out="-1:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:dobj">provide</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">slightly</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">too</W>
-<W msd="VADR" tag="VBP" in="1:mod" out="-1:mod">cocksure</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">slightly</W>
+<W msd="ANP" tag="RB" in="1:degr" out="-1:degr">too</W>
+<W msd="VADR" tag="VBP" in="1:mod" out="-1:degr">cocksure</W>
 <W msd="NC=S" tag="NN" in="-4:dobj" out="-1:mod|1:pobj">material</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reflection</W>
@@ -121,13 +121,13 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Rushdie</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|11:pnct|14:mod|37:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|11:pnct|14:mod|37:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:mod|4:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">strong</W>
-<W msd="NP=S" tag="NNP" in="-3:mod" out="">English</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:attr|4:nobj">a</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">strong</W>
+<W msd="NP=S" tag="NNP" in="-3:attr" out="">English</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="1:pobj">tradition</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">gifted</W>
@@ -162,11 +162,11 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:preds" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="11:pnct|-1:preds|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:preds|1:preds|11:pnct">is</W>
 <W msd="CS" tag="IN" in="-1:preds" out="3:vobj">because</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="">Rushdie</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">apparently</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:mod|1:dobj|2:mod">reads</W>
+<W msd="ANP" tag="RB" in="1:epi" out="">apparently</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:epi|1:dobj|2:mod">reads</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Orwell</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">the</W>
@@ -186,7 +186,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">British</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-7:mod|-2:subj|1:preds">are</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr">the</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">hopeless</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">hopeless</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>

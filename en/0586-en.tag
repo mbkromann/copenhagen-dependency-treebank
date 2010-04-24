@@ -1,7 +1,7 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">We</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:dobj|32:pnct">want</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:add|1:dobj|32:pnct">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:dobj|3:pnct|4:mod">establish</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Nordic</W>
@@ -11,7 +11,7 @@
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:mod|4:@dir">bring</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:@dir|7:mod">bring</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="2:conj">Norwegian</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">Swedish</W>
@@ -20,8 +20,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">education</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|5:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="5:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod|2:conj">interesting</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="5:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">interesting</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">natural</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">way</W>
@@ -112,8 +112,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">school's</W>
 <W msd="ANP" tag="JJ" in="-2:possd" out="">subject</W>
 <W msd="SP" tag="IN" in="-9:mod" out="1:nobj">at</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pobj">University</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Education</W>
@@ -142,8 +142,8 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">We</W>
 <W msd="PP" tag="PRP" in="1:mod" out="">ourselves</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:mod|2:preds|10:mod|12:pnct">are</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:time|2:preds|10:mod|12:pnct">are</W>
+<W msd="ANP" tag="JJ" in="-1:time" out="">now</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="1:pobj|4:mod">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

@@ -85,8 +85,8 @@
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:pnct|4:attr|7:attr">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">best</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-4:attr" out="-1:mod|2:conj">honest</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-4:attr" out="2:conj|-1:degr">honest</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">unvarnished</W>
 <W msd="ANP" tag="RB" in="-7:attr" out="">yet</W>

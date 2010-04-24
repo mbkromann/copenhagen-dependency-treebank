@@ -5,7 +5,7 @@
 <W msd="XP" tag="." in="-1:pnct" out="">!</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="19:mod" out="">If</W>
+<W msd="CS" tag="IN" in="19:cond" out="">If</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:mod" out="">Conservatives</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj">are</W>
@@ -20,11 +20,11 @@
 <W msd="NC=S" tag="NN" in="" out="">school</W>
 <W msd="NC=S" tag="NN" in="" out="">system</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-5:rel" out="-5:[dobj]|-1:subj|1:mod">have</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">today</W>
+<W msd="VADR" tag="VBP" in="-5:rel" out="-5:[dobj]|-1:subj|1:time">have</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">today</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj|6:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="" out="-19:mod|21:pnct">must</W>
+<W msd="VA" tag="MD" in="" out="-19:cond|21:pnct">must</W>
 <W msd="VAF" tag="VB" in="" out="-2:subj|1:dobj|3:coord">profile</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">position</W>
@@ -67,7 +67,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="9:vobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:pnct|5:pnct|24:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|2:pnct|5:pnct|24:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">here</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="" out="">after</W>
@@ -119,18 +119,18 @@
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|8:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">learn</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:mod">accept</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:accom">accept</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">differences</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-2:accom" out="1:nobj">without</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">delimiting</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj|2:[subj]" out="">This</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|2:mod|3:mod|11:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|3:mod|11:pnct|2:attr">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">done</W>
-<W msd="ANS" tag="JJS" in="-2:mod" out="">best</W>
+<W msd="ANS" tag="JJS" in="-2:attr" out="">best</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="4:mod">a</W>
 <W msd="ANP" tag="JJ" in="" out="">comprehensive</W>

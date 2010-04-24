@@ -87,13 +87,13 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">communicate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="7:nobj">with</W>
-<W msd="ANP" tag="JJ" in="6:mod" out="">so-called</W>
+<W msd="ANP" tag="JJ" in="6:attr" out="">so-called</W>
 <W msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">severely</W>
 <W msd="ANP" tag="RB" in="3:mod" out="-1:mod|2:conj">physically</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">psychically</W>
-<W msd="ANP" tag="JJ" in="-7:nobj" out="-6:mod|-5:pnct|-3:mod|1:pnct">handicapped</W>
+<W msd="ANP" tag="JJ" in="-7:nobj" out="-5:pnct|-3:mod|-6:attr|1:pnct">handicapped</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>
@@ -125,8 +125,8 @@
 <W msd="NP=S" tag="NNP" in="-8:appa" out="1:pnct">Vangedehuse</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">gradually</W>
-<W msd="VADR" tag="VBP" in="-17:conj" out="-22:[subj]|-1:mod|-2:coord|1:pobj">spread</W>
+<W msd="ANP" tag="RB" in="1:man" out="">gradually</W>
+<W msd="VADR" tag="VBP" in="-17:conj" out="-22:[subj]|-2:coord|1:pobj|-1:man">spread</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">institutions</W>
@@ -160,8 +160,8 @@
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]">speak</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VAF" tag="VB" in="" out="-8:subj|1:mod|22:pnct">sit</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:pobj">together</W>
+<W msd="VAF" tag="VB" in="" out="-8:subj|1:accom|22:pnct">sit</W>
+<W msd="ANP" tag="RB" in="-1:accom" out="1:pobj">together</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="2:conj|3:nobj">two</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>

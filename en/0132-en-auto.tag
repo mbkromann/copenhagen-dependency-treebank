@@ -1,7 +1,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|33:pnct">But</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Lars</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds|12:mod">was</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds|12:time">was</W>
 <W msd="CS" tag="IN" in="1:mod" out="4:pobj">as</W>
 <W msd="ANP" tag="RB" in="-2:preds" out="-1:mod|1:pobj">close</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -13,7 +13,7 @@
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">get</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-12:mod" out="8:vobj">when</W>
+<W msd="PT" tag="WRB" in="-12:time" out="8:vobj">when</W>
 <W msd="SP" tag="IN" in="7:mod" out="4:mod">in</W>
 <W msd="PD" tag="DT" in="" out="1:attr">the</W>
 <W msd="AC" tag="CD" in="-1:attr" out="">2nd</W>
@@ -86,9 +86,9 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Grubba</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">afterwards</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-9:[subj]|-2:mod|-1:mod|-3:coord|3:pobj|6:conj">took</W>
+<W msd="ANP" tag="RB" in="2:succ" out="">afterwards</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-9:[subj]|-3:coord|-1:add|3:pobj|6:conj|-2:succ">took</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">set</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>
@@ -164,18 +164,18 @@
 <W msd="NC=S" tag="NN" in="2:possd" out="-1:mod">winner</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="">for</W>
 <W msd="PD" tag="DT" in="6:subj" out="-2:possd|2:nobj|5:appr">the</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">last</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod">two</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">last</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:attr">two</W>
 <W msd="NC=P" tag="NNS" in="" out="">years</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jean-Michel</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-1:namef">Saive</W>
-<W msd="VAF" tag="VB" in="-19:conj" out="-6:subj|-11:coord|1:dobj|5:pnct|6:mod">put</W>
+<W msd="VAF" tag="VB" in="-19:conj" out="-6:subj|-11:coord|1:dobj|5:pnct|6:time">put</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">stopper</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-6:mod" out="5:vobj">when</W>
+<W msd="PT" tag="WRB" in="-6:time" out="5:vobj">when</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">semi-finals</W>

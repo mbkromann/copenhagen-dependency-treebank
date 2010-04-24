@@ -11,8 +11,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">aware</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-9:vobj" out="-12:[subj]|1:mod|2:mod|7:pobj">worked</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">together</W>
+<W msd="VADA" tag="VBD" in="-9:vobj" out="-12:[subj]|2:mod|7:pobj|1:accom">worked</W>
+<W msd="ANP" tag="RB" in="-1:accom" out="">together</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">number</W>
@@ -97,8 +97,8 @@
 <W msd="CS" tag="IN" in="-22:mod" out="3:vobj">since</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|5:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">application</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:mod|2:vobj">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:degr|2:vobj">can</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">handled</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
@@ -137,7 +137,7 @@
 <W msd="ANP" tag="RB" in="-6:attr" out="">simply</W>
 <W msd="VAF" tag="VB" in="-7:vobj" out="-25:[subj]|1:dobj">decide</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|4:conj|1:@dir">come</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|1:@dir|4:conj">come</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -239,8 +239,8 @@
 <W msd="PD" tag="DT" in="3:subj|3:[subj]" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">countries</W>
-<W msd="VADR" tag="VBP" in="-11:conj" out="-3:subj|-3:[subj]|-4:coord|1:mod|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBP" in="-11:conj" out="-3:subj|-3:[subj]|-4:coord|1:time|2:vobj">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="1:dobj">expressed</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:dobj">desire</W>

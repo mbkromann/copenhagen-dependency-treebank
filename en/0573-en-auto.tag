@@ -53,8 +53,8 @@
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]">reserved</W>
 <W msd="SP" tag="IN" in="" out="1:dobj">for</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">the</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="RB" in="" out="-1:mod">well</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="RB" in="" out="-1:degr">well</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="">do</W>
 <W msd="XP" tag="." in="-44:pnct" out="">.</W>
@@ -62,8 +62,8 @@
 <s>
 <W msd="PD" tag="DT" in="" out="">The</W>
 <W msd="ANP" tag="JJ" in="" out="">grave</W>
-<W msd="NC=S" tag="NN" in="" out="1:mod">pit</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">itself</W>
+<W msd="NC=S" tag="NN" in="" out="1:focal">pit</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">itself</W>
 <W msd="VADA" tag="VBD" in="" out="2:preds|18:pnct">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">rather</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:mod|4:conj">large</W>
@@ -74,9 +74,9 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|1:pnct|4:modp">depth</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">only</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-4:modp" out="-2:mod|-1:mod|1:nobj|2:mod">40</W>
+<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="-4:modp" out="-2:degr|-1:degr|1:nobj|2:mod">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cm</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pobj">down</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
@@ -96,10 +96,10 @@
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
 <W msd="NC=S" tag="NN" in="-7:conj" out="-1:coord|1:pobj">nothing</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="3:mod">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="3:focal">the</W>
 <W msd="ANP" tag="JJ" in="" out="">dead</W>
 <W msd="NC=S" tag="NN" in="" out="">person</W>
-<W msd="PP" tag="PRP" in="-3:mod" out="">himself</W>
+<W msd="PP" tag="PRP" in="-3:focal" out="">himself</W>
 <W msd="XP" tag="&3a;" in="-14:pnct" out="">;</W>
 <W msd="PD" tag="PDT" in="3:subj|3:[subj]" out="">all</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -216,8 +216,8 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PT" tag="WRB" in="1:mod" out="">How</W>
-<W msd="ANP" tag="JJ" in="3:[pred]|4:subj" out="-1:mod|3:rel">long</W>
+<W msd="PT" tag="WRB" in="1:man" out="">How</W>
+<W msd="ANP" tag="JJ" in="3:[pred]|4:subj" out="3:rel|-1:man">long</W>
 <W msd="PP" tag="PRP" in="2:subj|2:[subj]" out="">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">originally</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-3:[pred]|-2:subj|-2:[subj]|-1:mod">was</W>
@@ -228,7 +228,7 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-5:mod" out="2:vobj">since</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">know</W>
 <W msd="PT" tag="WRB" in="-1:dobj|4:[mod]" out="4:rel">how</W>

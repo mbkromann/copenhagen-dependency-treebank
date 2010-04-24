@@ -57,8 +57,8 @@
 <W msd="VADR" tag="VBP" in="-5:rel" out="-3:mod|-2:subj|1:dobj">estimate</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:mod|2:vobj|12:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:add|2:vobj|12:pnct">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[expl]|1:dobj|3:mod">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="4:pobj">demand</W>
@@ -95,7 +95,7 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">As</W>
-<W msd="ANP" tag="RB" in="11:mod" out="-1:mod">soon</W>
+<W msd="ANP" tag="RB" in="11:time" out="-1:mod">soon</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="3:vobj">as</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">book</W>
@@ -106,7 +106,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">library</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:mod|-1:subj|1:vobj|4:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|4:pnct|-11:time">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir">put</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">circulation</W>
@@ -151,8 +151,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">experiences</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:vobj">are</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod">garnered</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dur">garnered</W>
+<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">project</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">period</W>

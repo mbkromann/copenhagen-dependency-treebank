@@ -81,7 +81,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:attr">air</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="-1:mod">stage</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-13:subj|1:pobj|20:mod|35:pnct">came</W>
+<W msd="VADA" tag="VBD" in="" out="-13:subj|1:pobj|20:time|35:pnct">came</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|6:conj|9:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">kiss</W>
@@ -101,7 +101,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">TOVE</W>
 <W msd="NP=S" tag="NNP" in="-6:appa" out="-2:title|-1:namef|1:pnct">PEDERSEN</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-20:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-20:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">honoured</W>
@@ -120,8 +120,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">She</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:dobj|3:pobj|20:pnct">received</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:add|1:dobj|3:pobj|20:pnct">received</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kiss</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>
@@ -154,9 +154,9 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="1:mod" out="">Not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">only</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:mod|1:subj|2:vobj|6:pnct">does</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
+<W msd="ANP" tag="RB" in="1:degr" out="-1:neg">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:degr|1:subj|2:vobj|6:pnct">does</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">she</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:mod">sing</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
@@ -166,8 +166,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">She</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:mod|1:dobj|9:pnct|17:conj|21:pnct">does</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:add|1:dobj|9:pnct|17:conj|21:pnct">does</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">serving</W>
 <W msd="SP" tag="IN" in="-2:mod" out="5:nobj">with</W>
@@ -221,8 +221,8 @@
 <W msd="SP" tag="IN" in="-2:nobj" out="4:vobj">that</W>
 <W msd="PP" tag="PRP" in="3:subj" out="">she</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">sometimes</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">even</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-2:mod|-1:mod|2:mod|8:pnct|9:conj|15:conj|1:@dir">gets</W>
+<W msd="ANP" tag="RB" in="1:focal" out="">even</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-2:mod|-1:focal|1:@dir|2:mod|8:pnct|9:conj|15:conj">gets</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

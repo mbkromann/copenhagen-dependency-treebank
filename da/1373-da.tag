@@ -149,8 +149,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="That_is_why" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="ee" lemma="ee" msd="XX" tag="FW" in="" out="-1:mod|1:expl|3:dobj|6:mod|18:pnct">ee</W>
+<W gloss="That_is_why" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
+<W gloss="ee" lemma="ee" msd="XX" tag="FW" in="" out="1:expl|3:dobj|6:mod|18:pnct|-1:reas">ee</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
 <W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:dobj" out="-1:mod|1:nobj">meget</W>

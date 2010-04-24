@@ -162,9 +162,9 @@
 <W gloss="poverty" lemma="fattigdom" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fattigdom</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|3:subj" out="">der</W>
-<W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="1:mod" out="-1:mod">i_dag</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-1:mod|1:preds">er</W>
+<W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="1:time" out="-1:add">i_dag</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-1:time|1:preds">er</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:preds" out="1:possd">manges</W>
 <W gloss="reality" lemma="virkelighed" msd="NCCSU==I" tag="NN" in="-1:possd" out="">virkelighed</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -206,8 +206,8 @@
 <W gloss="mind" lemma="øje" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">øje</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:mod|2:nobj">to</W>
-<W gloss="big" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">store</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="2:nobj|1:attr">to</W>
+<W gloss="big" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="doormen" lemma="dørmand" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">dørmænd</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-9:[subj]|-1:coord|1:pnct|2:dobj">ved</W>

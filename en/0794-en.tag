@@ -10,9 +10,9 @@
 <W msd="VADR" tag="VBZ" in="" out="-8:subj|1:preds|53:pnct#">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|2:mod|3:mod|6:mod|1:@dir">taken</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:@dir|3:mod|6:mod|2:ext">taken</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1996</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

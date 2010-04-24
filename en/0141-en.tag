@@ -1,6 +1,6 @@
 <s>
 <W msd="CS" tag="IN" in="17:mod" out="1:nobj|11:pnct">After</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|5:nobj|6:possd|7:mod|9:mod">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|5:nobj|6:possd|7:mod|9:time">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">national</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="2:mod" out="-1:pnct|1:pnct">A</W>
@@ -9,15 +9,15 @@
 <W msd="VADR" tag="VBP" in="-6:possd" out="">practice</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nyborg</W>
-<W msd="NC=S" tag="NN" in="-9:mod" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-9:time" out="">yesterday</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">national</W>
 <W msd="NC=S" tag="NN" in="3:title" out="-1:attr">coach</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Richard</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Møller</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-2:namef|-1:namel|-3:title">Nielsen</W>
-<W msd="VADA" tag="VBD" in="" out="-17:mod|-1:subj|1:mod|2:vobj|18:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VADA" tag="VBD" in="" out="-17:mod|-1:subj|1:degr|2:vobj|18:pnct">had</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">decided</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pobj">five</W>
@@ -25,12 +25,12 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">players</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|5:mod|6:mod">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|6:mod|5:time">the</W>
 <W msd="VAG" tag="VBG" in="1:mod" out="">starting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:pobj">lineup</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bulgaria</W>
-<W msd="NC=S" tag="NN" in="-5:mod" out="">tonight</W>
+<W msd="NC=S" tag="NN" in="-5:time" out="">tonight</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Odense</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Stadium</W>
@@ -145,7 +145,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="12:conj|18:pnct#|19:pnct">And</W>
-<W msd="CS" tag="IN" in="11:mod" out="2:vobj|7:pnct">if</W>
+<W msd="CS" tag="IN" in="11:cond" out="2:vobj|7:pnct">if</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">make</W>
@@ -156,7 +156,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Richard</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Møller</W>
 <W msd="NP=S" tag="NNP" in="1:subj|6:[subj]" out="-2:namef|-1:namel">Nielsen</W>
-<W msd="VA" tag="MD" in="-12:conj" out="-11:mod|-1:subj|1:pnct|2:mod|5:vobj">will</W>
+<W msd="VA" tag="MD" in="-12:conj" out="-1:subj|-11:cond|1:pnct|2:mod|5:vobj">will</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
@@ -169,8 +169,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="3:subj" out="-1:namef|1:possd">Olsen's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">cancellation</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|-1:mod|1:iobj|4:dobj|11:pnct">gives</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|-1:add|1:iobj|4:dobj|11:pnct">gives</W>
 <W msd="NC=S" tag="NN" in="-1:iobj" out="2:appr">veteran</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">John</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="-1:namef">Sivebæk</W>
@@ -187,12 +187,12 @@
 <W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="2:possd">OB's</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Johnny</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:namef">Hansen</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|4:pnct|5:mod|25:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|4:pnct|5:cont|25:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:mod">start</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">as</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">defender</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:mod" out="14:vobj">while</W>
+<W msd="CS" tag="IN" in="-5:cont" out="14:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="12:subj|13:[subj]" out="-1:namef|1:pnct|2:list|6:conj">Elstrup</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

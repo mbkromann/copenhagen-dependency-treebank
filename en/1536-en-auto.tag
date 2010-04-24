@@ -73,9 +73,9 @@
 <s>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pilot</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">suddenly</W>
+<W msd="ANP" tag="RB" in="2:man" out="">suddenly</W>
 <W msd="VADA" tag="VBD" in="" out="">reported</W>
-<W msd="U=" tag="TO" in="" out="-4:subj|-2:mod|4:dobj|21:pnct">to</W>
+<W msd="U=" tag="TO" in="" out="-4:subj|-2:man|4:dobj|21:pnct">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">control</W>
 <W msd="NC=S" tag="NN" in="" out="">tower</W>
@@ -88,7 +88,7 @@
 <W msd="VADA" tag="VBD" in="-4:conj" out="-5:[subj]|-1:coord|1:vobj">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj">forced</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|1:@dir">turn</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|2:mod">turn</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">for</W>
 <W msd="PI" tag="DT" in="" out="">an</W>
@@ -119,8 +119,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">right</W>
 <W msd="NC=S" tag="NN" in="" out="">wing</W>
 <W msd="ANP" tag="RB" in="-4:&lt;pred&gt;" out="">down</W>
-<W msd="SP" tag="IN" in="-18:mod" out="1:mod">over</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">behind</W>
+<W msd="SP" tag="IN" in="-18:mod" out="1:loc">over</W>
+<W msd="SP" tag="IN" in="-1:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">flat</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">building</W>
@@ -153,9 +153,9 @@
 <W msd="ANC" tag="JJR" in="-1:dobj" out="">more</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">suddenly</W>
+<W msd="ANP" tag="RB" in="2:man" out="">suddenly</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-2:mod|-1:expl|-3:coord|1:dobj|2:mod|5:pnct">were</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:expl|-3:coord|-2:man|1:dobj|2:mod|5:pnct">were</W>
 <W msd="VADR" tag="VBZ" in="-1:dobj" out="">sparks</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

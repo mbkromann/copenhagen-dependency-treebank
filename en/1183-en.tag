@@ -41,8 +41,8 @@
 <W msd="NP=S" tag="NNP" in="-4:conj" out="">Panodil</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-6:conj" out="-1:coord">Pamol</W>
-<W msd="VADR" tag="VBZ" in="" out="-13:subj|1:mod|3:preds|17:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="" out="-13:subj|1:time|3:preds|17:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">great</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="2:conj">that</W>
@@ -51,10 +51,10 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">every</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Dane</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="1:dobj|3:mod|4:mod">taking</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="1:dobj|4:mod|3:ext">taking</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">160</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pills</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">annually</W>
+<W msd="ANP" tag="RB" in="-3:ext" out="">annually</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">over</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his/her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">lifetime</W>
@@ -82,13 +82,13 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
-<W msd="VADR" tag="VBZ" in="11:qobj" out="-1:subj|1:preds|2:pnct|3:mod|9:pnct|10:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="11:qobj" out="-1:subj|1:preds|2:pnct|3:reas|9:pnct|10:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="">concerning</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-3:mod" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-3:reas" out="3:vobj">because</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">over-the-counter</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">medicine</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|2:preds|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">harmless</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -134,10 +134,10 @@
 </s>
 <s>
 <W msd="NP=P" tag="NNPS" in="1:subj" out="">Danes</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|3:dobj|28:conj|31:pnct">consume</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">annually</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-3:dobj" out="-1:mod|1:nobj|5:pnct|7:modp">400</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|3:dobj|28:conj|31:pnct|1:ext">consume</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">annually</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="-3:dobj" out="-1:degr|1:nobj|5:pnct|7:modp">400</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">tons</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">active</W>

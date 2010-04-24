@@ -44,7 +44,7 @@
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="18:coord" out="">but</W>
-<W msd="CS" tag="IN" in="17:mod" out="4:vobj">if</W>
+<W msd="CS" tag="IN" in="17:cond" out="4:vobj">if</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">relevant</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">effects</W>
@@ -61,11 +61,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">house</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="-36:conj" out="-17:mod|-1:subj|-18:coord|2:vobj|1:neg">must</W>
+<W msd="VA" tag="MD" in="-36:conj" out="-1:subj|-18:coord|-17:cond|1:neg|2:vobj">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj|2:mod">be</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj|2:accom">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">removed</W>
-<W msd="SP" tag="IN" in="-2:mod" out="2:nobj">without</W>
+<W msd="SP" tag="IN" in="-2:accom" out="2:nobj">without</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">special</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|1:pobj">agreement</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -102,7 +102,7 @@
 <W msd="SP" tag="IN" in="" out="">in</W>
 <W msd="PT" tag="WDT" in="" out="">which</W>
 <W msd="PP" tag="PRP" in="1:subj|6:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|13:pnct|1:neg">would</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:neg|13:pnct">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="11:mod">not</W>
 <W msd="VAF" tag="VB" in="" out="">be</W>
 <W msd="VAP" tag="VBN" in="" out="">allowed</W>
@@ -145,8 +145,8 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">binder</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:expl|1:mod|2:mod|5:vobj|6:pnct|36:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-14:mod|-1:expl|1:add|2:mod|5:vobj|6:pnct|36:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="CS" tag="IN" in="-2:mod" out="">as</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">rule</W>
@@ -239,8 +239,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">case</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="" out="-6:mod|-1:subj|1:mod|3:vobj|7:pnct|2:neg">must</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-6:mod|-1:subj|1:add|2:neg|3:vobj|7:pnct">must</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">remove</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod">those</W>

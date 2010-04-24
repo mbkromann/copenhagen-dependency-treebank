@@ -7,9 +7,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Europeans</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:pnct|2:mod|26:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:pnct|2:time|26:pnct">were</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-2:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="-2:time" out="3:vobj">when</W>
 <W msd="PP" tag="PRP" in="2:subj|9:[subj]" out="">they</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">first</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:subj|-1:mod|1:dobj|3:pobj|7:conj">established</W>
@@ -154,8 +154,8 @@
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PT" tag="WRB" in="1:mod" out="">How</W>
-<W msd="ANP" tag="JJ" in="9:dobj" out="-1:mod">much</W>
+<W msd="PT" tag="WRB" in="1:man" out="">How</W>
+<W msd="ANP" tag="JJ" in="9:dobj" out="-1:man">much</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Herb</W>
 <W msd="NP=S" tag="NNP" in="6:subj|7:[subj]" out="-1:namef|1:mod">Kliethermes</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
@@ -169,7 +169,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|13:pnct|15:mod|25:pnct|7:@loc">collected</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|7:@loc|13:pnct|15:mod|25:pnct">collected</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:possd">a</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">year's</W>
 <W msd="VADR" tag="VBP" in="-2:possd" out="1:pobj">worth</W>
@@ -215,8 +215,8 @@
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stack</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|4:preds|6:conj|9:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">almost</W>
-<W msd="AC" tag="CD" in="2:mod" out="-1:mod|1:nobj">2</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
+<W msd="AC" tag="CD" in="2:mod" out="-1:degr|1:nobj">2</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-2:mod">high</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

@@ -1,8 +1,8 @@
 <s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Family</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:mod|2:list">outbreaks</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:list" out="-1:mod">common</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:list" out="-1:degr">common</W>
 </s>
 <s>
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">Most</W>
@@ -18,11 +18,11 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:mod" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">most</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADR" tag="VBP" in="" out="-4:mod|-2:subj|3:preds|4:pnct|5:mod|12:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-4:reas|3:preds|4:pnct|5:mod|12:pnct">are</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">so-called</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">family</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="-1:mod|-2:attr">outbreaks</W>
@@ -67,8 +67,8 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="2:subj" out="">Infection</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">often</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:mod|1:dobj|3:mod">runs</W>
+<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:ext|1:dobj|3:mod">runs</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">course</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">mildly</W>
@@ -93,13 +93,13 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Diarrhea</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|8:conj|15:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">common</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">common</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">symptom</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="">some</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="-8:conj" out="-2:subj|-1:mod|1:dobj|4:mod">have</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="-8:conj" out="-2:subj|-1:add|1:dobj|4:mod">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">slight</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">fever</W>
@@ -111,9 +111,9 @@
 <s>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">discomfort</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">often</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|-1:mod|2:tobj|5:pnct">lasts</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="RB" in="1:ext" out="-1:degr">often</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|-1:ext|2:tobj|5:pnct">lasts</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">only</W>
 <W msd="PI" tag="DT" in="-2:tobj" out="-1:attr|1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
@@ -123,15 +123,15 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="8:mod" out="3:nobj|4:pnct">In</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">rare</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">rare</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">instances</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]|9:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">salmonella</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">bacteria</W>
 <W msd="VA" tag="MD" in="" out="-9:pnct|-8:mod|-3:subj|1:vobj|9:pnct|14:conj|17:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|5:conj|1:@dir">enter</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@dir|5:conj">enter</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
@@ -221,10 +221,10 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|20:pnct">is</W>
 <W msd="CS" tag="IN" in="-1:preds" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:ref|6:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|3:mod|14:conj">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|14:conj|3:eval">is</W>
 <W msd="ANC" tag="JJR" in="1:attr" out="">older</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="-1:attr">people</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">especially</W>
+<W msd="ANP" tag="RB" in="-3:eval" out="">especially</W>
 <W msd="PT" tag="WP" in="-5:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADR" tag="VBP" in="-6:rel" out="-1:subj|1:vobj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">affected</W>

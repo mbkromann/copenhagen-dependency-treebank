@@ -144,18 +144,18 @@
 <W gloss="setback" lemma="tilbageslag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">tilbageslag</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="exports" lemma="eksport" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">eksporten</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:subj|-5:coord|1:mod|3:dobj">har</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:mod" out="">derfor</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:subj|-5:coord|1:reas|3:dobj">har</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
 <W gloss="great" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
 <W gloss="consequences" lemma="konsekvens" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr|1:pobj">konsekvenser</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:mod|2:nobj|3:pnct|4:mod">den</W>
-<W gloss="overall" lemma="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:mod" out="">samlede</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:mod">den</W>
+<W gloss="overall" lemma="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">samlede</W>
 <W gloss="national_economy" lemma="samfundsøkonomi" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">samfundsøkonomi</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="including" lemma="herunder" msd="RGU" tag="RP" in="-4:mod" out="2:mod|3:nobj">herunder</W>
+<W gloss="including" lemma="herunder" msd="RGU" tag="RP" in="-4:mod" out="2:degr|3:nobj">herunder</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="-2:mod" out="-1:neg">mindst</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="-2:degr" out="-1:neg">mindst</W>
 <W gloss="employment" lemma="beskæftigelse" msd="NCCSU==D" tag="NN" in="-3:nobj" out="">beskæftigelsen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
@@ -192,8 +192,8 @@
 <W gloss="favoured" lemma="stille" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-3:preds" out="-1:mod">stillede</W>
 <W gloss="over" lemma="over" msd="RGU" tag="RP" in="-4:mod" out="1:pobj">over</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
-<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:mod" out="">f.eks.</W>
-<W gloss="the" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="-1:mod|1:nobj|2:mod">en</W>
+<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">f.eks.</W>
+<W gloss="the" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="-1:exem|1:nobj|2:mod">en</W>
 <W gloss="currency_crisis" lemma="valutakrise" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">valutakrise</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="Europe" lemma="Europa" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Europa</W>
@@ -212,7 +212,7 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="3:mod" out="2:nobj">på</W>
 <W gloss="similar" lemma="tilsvarende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">tilsvarende</W>
 <W gloss="ways" lemma="vis" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">vis</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-3:mod|1:dobj|4:pnct|-4:neg">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-3:mod|-4:neg|1:dobj|4:pnct">har</W>
 <W gloss="order" lemma="orden" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">orden</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="social_housekeeping" lemma="samfundshusholdning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">samfundshusholdningen</W>
@@ -222,10 +222,10 @@
 <W gloss="monetary_system" lemma="valutasystem" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">valutasystem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|4:subj|5:[subj]" out="">der</W>
-<W gloss="apparently" lemma="tilsyneladende" msd="ANP---=-R" tag="JJ" in="3:mod" out="">tilsyneladende</W>
+<W gloss="apparently" lemma="tilsyneladende" msd="ANP---=-R" tag="JJ" in="3:epi" out="">tilsyneladende</W>
 <W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="2:mod" out="">endnu</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-4:subj|-3:mod|-2:mod|1:vobj|-1:neg">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-4:subj|-2:mod|-1:neg|1:vobj|-3:epi">er</W>
 <W gloss="equipped" lemma="ruste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">rustet</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

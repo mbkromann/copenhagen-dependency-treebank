@@ -134,7 +134,7 @@
 <W gloss="the_bodies" lemma="lig" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|3:rel">ligene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
-<W gloss="are_floating" lemma="flyde" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:pnct|1:@dir">flyder</W>
+<W gloss="are_floating" lemma="flyde" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:@dir|4:pnct">flyder</W>
 <W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ned</W>
 <W gloss="the_ad" lemma="ad" msd="SP" tag="IN" in="-1:mod" out="1:nobj">ad</W>
 <W gloss="Una" lemma="Una" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Una</W>
@@ -227,9 +227,9 @@
 </s>
 <s>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|4:[subj]" out="">De</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|3:vobj|10:pnct">kan</W>
-<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-1:mod" out="">imidlertid</W>
-<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">hurtigt</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:man|3:vobj|10:pnct|1:contr">kan</W>
+<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-1:contr" out="">imidlertid</W>
+<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-2:man" out="">hurtigt</W>
 <W gloss="become" lemma="blive" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pnct|2:preds">blive</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:preds|4:[pred]" out="4:rel">hvad</W>

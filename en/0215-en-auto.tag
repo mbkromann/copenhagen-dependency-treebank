@@ -110,7 +110,7 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">conference</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|6:tobj|2:@loc">took</W>
+<W msd="VADA" tag="VBD" in="-6:rel" out="-1:subj|1:dobj|2:@loc|6:tobj">took</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">place</W>
 <W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:mod">Ingeniørhuset</W>
@@ -187,8 +187,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">oil</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">spills</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-25:subj|1:mod">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-25:subj|1:add">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="" out="">stick</W>
 <W msd="U=" tag="TO" in="" out="1:nobj|2:pnct|5:conj">to</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="">that</W>

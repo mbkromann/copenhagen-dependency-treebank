@@ -48,8 +48,8 @@
 </s>
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj|4:[subj]" out="">People</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|26:pnct">began</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:time|2:dobj|26:pnct">began</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:pobj">interest</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
@@ -81,8 +81,8 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">still</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|-1:mod|1:neg|3:vobj|13:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">clearly</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-5:[subj]|-1:mod|1:dobj">know</W>
+<W msd="ANP" tag="RB" in="1:eval" out="">clearly</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-5:[subj]|1:dobj|-1:eval">know</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">answer</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -184,10 +184,10 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">particles</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-7:ref|4:subj" out="">which</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="RB" in="2:mod" out="-1:mod">often</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="VAF" tag="VB" in="-11:rel" out="-4:subj|-1:mod|-2:mod|1:tobj">exist</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="RB" in="2:ext" out="-1:degr">often</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="VAF" tag="VB" in="-11:rel" out="-4:subj|-1:degr|-2:ext|1:tobj">exist</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="3:nobj">for</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">short</W>

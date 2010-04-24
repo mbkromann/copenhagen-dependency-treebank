@@ -1,7 +1,7 @@
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="10:ref|11:rel">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:neg|2:preds|16:modp|37:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|16:modp|37:pnct|-2:time">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">officials</W>
@@ -71,8 +71,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pnct|3:modp|7:mod">statistics</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="SP" tag="IN" in="-3:modp" out="-1:mod|1:nobj|3:pnct">from</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="SP" tag="IN" in="-3:modp" out="-1:add|1:nobj|3:pnct">from</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">countries</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -207,8 +207,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Transport</W>
 <W msd="NP=S" tag="NNP" in="-5:nobj" out="-3:mod">Commission</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:mod|2:vobj|5:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:add|2:vobj|5:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-8:[subj]|1:dobj">provided</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">statement</W>
@@ -219,8 +219,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|16:conj|17:pnct">notes</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="7:vobj">that</W>
 <W msd="PI" tag="DT" in="6:subj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">large</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">large</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">number</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">motorists</W>

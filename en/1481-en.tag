@@ -43,7 +43,7 @@
 <W msd="PT" tag="WP" in="-3:ref|2:iobj" out="">whom</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|-2:iobj|1:dobj">help</W>
-<W msd="VAG" tag="VBG" in="-1:dobj" out="2:dobj|1:@dir">lifting</W>
+<W msd="VAG" tag="VBG" in="-1:dobj" out="1:@dir|2:dobj">lifting</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">casket</W>
@@ -83,9 +83,9 @@
 <s>
 <W msd="SP" tag="IN" in="15:mod" out="2:nobj|5:preds|8:pnct">With</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:mod">300</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:ext">300</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">deceased</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">annually</W>
+<W msd="ANP" tag="RB" in="-2:ext" out="">annually</W>
 <W msd="SP" tag="IN" in="-5:preds" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Hobro</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Hospital</W>
@@ -128,8 +128,8 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="1:subj|3:[subj]" out="">Part</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:vobj|10:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:add|2:vobj|10:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">gone</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|5:possd">the</W>
@@ -161,10 +161,10 @@
 <W msd="ANP" tag="JJ" in="-4:mod" out="">net</W>
 <W msd="VAG" tag="VBG" in="-8:preds" out="1:pobj">remaining</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:focal">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">head</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">porter</W>
-<W msd="PP" tag="PRP" in="-3:mod" out="">himself</W>
+<W msd="PP" tag="PRP" in="-3:focal" out="">himself</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-17:qobj|4:subj|5:pobj|7:pnct">says</W>
@@ -178,7 +178,7 @@
 </s>
 <s>
 <W msd="XP" tag="&amp;quot;" in="11:pnct" out="">"</W>
-<W msd="ANP" tag="RB" in="10:mod" out="1:pnct">However</W>
+<W msd="ANP" tag="RB" in="10:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="8:subj" out="2:vobj">whether</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
@@ -188,7 +188,7 @@
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
 <W msd="AC" tag="CD" in="1:numm" out="">three</W>
 <W msd="AC" tag="CD" in="-3:conj" out="-1:numm|-2:coord">million</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:pnct|-8:subj|-10:mod|1:pnct|2:modp|6:preds|7:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:pnct|-8:subj|-10:contr|1:pnct|2:modp|6:preds|7:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-2:modp" out="1:nobj|3:pnct">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">that</W>
@@ -230,8 +230,8 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="" out="1:mod|11:pnct">Not</W>
-<W msd="PT" tag="WRB" in="-1:mod" out="2:vobj">when</W>
+<W msd="ANP" tag="RB" in="" out="1:time|11:pnct">Not</W>
+<W msd="PT" tag="WRB" in="-1:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">a</W>

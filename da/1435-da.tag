@@ -142,7 +142,7 @@
 <W gloss="Georgi" lemma="Georgi" msd="NP--U==-" tag="NNP" in="3:subj|8:[subj]" out="-1:namef|-2:attr|1:mod">Georgi</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Taastrup" lemma="Taastrup" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Taastrup</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-3:subj|2:mod|5:conj|1:@dir">stod</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-3:subj|1:@dir|2:mod|5:conj">stod</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="">frem</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="B.T" lemma="B.T." msd="NP--U==-" tag="NNP" in="-1:nobj" out="">B.T.</W>
@@ -213,8 +213,8 @@
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj" out="1:possd">sin</W>
 <W gloss="eardrum" lemma="trommehinde" msd="NCCSU==I" tag="NN" in="-1:possd" out="">trommehinde</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:mod" out="">nu</W>
-<W gloss="had_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:mod|-6:[subj]|-2:coord|1:vobj">skal</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">nu</W>
+<W gloss="had_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|-2:coord|1:vobj|-1:time">skal</W>
 <W gloss="undergo" lemma="gennemgå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj|3:mod">gennemgå</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="operation" lemma="operation" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">operation</W>

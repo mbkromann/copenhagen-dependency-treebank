@@ -1,7 +1,7 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="13:nobj">It</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|21:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">hardly</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:eval|2:vobj|21:pnct">will</W>
+<W msd="ANP" tag="RB" in="-1:eval" out="">hardly</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:iobj|9:dobj">cause</W>
 <W msd="PO" tag="PRP$" in="-1:iobj|10:[subj]" out="1:nobj">our</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">rivals</W>
@@ -56,7 +56,7 @@
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="9:mod" out="3:vobj">If</W>
+<W msd="CS" tag="IN" in="9:cond" out="3:vobj">If</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">competitors</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:@dir|4:pnct">go</W>
@@ -65,7 +65,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="4:qobj" out="-1:subj|-9:mod|1:vobj|2:pnct|3:pnct">will</W>
+<W msd="VA" tag="MD" in="4:qobj" out="-1:subj|-9:cond|1:vobj|2:pnct|3:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">follow</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
@@ -79,8 +79,8 @@
 <W msd="PD" tag="DT" in="4:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">super-stores</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|-1:mod|1:dobj|4:pnct|5:mod|10:pnct">have</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|-1:add|1:dobj|4:pnct|5:mod|10:pnct">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">another</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unpleasant</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">consequence</W>
@@ -109,8 +109,8 @@
 </s>
 <s>
 <W msd="AC" tag="CD" in="2:[subj]" out="">600</W>
-<W msd="NP=S" tag="NNP" in="1:mod" out="">NOT</W>
-<W msd="VADA" tag="VBD" in="" out="-1:mod|-2:[subj]">ALLOWED</W>
+<W msd="NP=S" tag="NNP" in="1:degr" out="">NOT</W>
+<W msd="VADA" tag="VBD" in="" out="-2:[subj]|-1:degr">ALLOWED</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="2:subj|4:[subj]|5:[subj]|7:[subj]" out="1:nobj">600</W>

@@ -35,8 +35,8 @@
 <W msd="ANP" tag="JJ" in="-3:list" out="">red.</W>
 <W msd="XP" tag=")" in="-4:pnct" out="">)</W>
 <W msd="VADA" tag="VBD" in="-8:vobj" out="-7:subj|2:preds">was</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">legally</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">untenable</W>
+<W msd="ANP" tag="RB" in="1:man" out="">legally</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:man">untenable</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
@@ -147,8 +147,8 @@
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr|2:conj">backing</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">support</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">deep</W>
-<W msd="SP" tag="IN" in="-6:mod" out="-1:mod|1:nobj">within</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">deep</W>
+<W msd="SP" tag="IN" in="-6:mod" out="1:nobj|-1:attr">within</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Social</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="-1:mod">Democratic</W>
@@ -220,7 +220,7 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|21:pnct|22:appa">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">plan</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:mod|5:dobj|1:@dir">send</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|2:mod|5:dobj">send</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">forcibly</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>

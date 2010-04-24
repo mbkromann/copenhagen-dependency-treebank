@@ -102,12 +102,12 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:rel">incomes</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|2:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|3:dobj">exceed</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">approximately</W>
+<W msd="ANP" tag="RB" in="2:degr" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
-<W msd="AC" tag="CD" in="-3:dobj" out="-1:nobj|-2:mod">130,000</W>
+<W msd="AC" tag="CD" in="-3:dobj" out="-1:nobj|-2:degr">130,000</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1992</W>
 <W msd="AC" tag="CD" in="-12:preds" out="1:numa|2:nobj">11</W>
@@ -146,7 +146,7 @@
 <s>
 <W msd="VAF" tag="VB" in="" out="1:dobj|44:pnct">Note</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="23:vobj">that</W>
-<W msd="CS" tag="IN" in="22:mod" out="7:vobj">if</W>
+<W msd="CS" tag="IN" in="22:cond" out="7:vobj">if</W>
 <W msd="PD" tag="DT" in="6:subj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">gross</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">floorage</W>
@@ -168,7 +168,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">apartment</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|6:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="-23:vobj" out="-1:subj|-22:mod|1:vobj">will</W>
+<W msd="VA" tag="MD" in="-23:vobj" out="-1:subj|-22:cond|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:vobj">have</W>
 <W msd="PO" tag="PRP$" in="3:dobj" out="2:possd">your</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rent</W>
@@ -191,7 +191,7 @@
 <W msd="XP" tag="." in="-44:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="10:mod" out="3:vobj">If</W>
+<W msd="CS" tag="IN" in="10:cond" out="3:vobj">If</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">residence</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:dobj|3:pnct">exceeds</W>
@@ -201,7 +201,7 @@
 <W msd="PO" tag="PRP$" in="3:subj|4:[subj]|5:[subj]" out="2:possd">your</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rent</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">allowance</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|-10:mod|1:vobj|17:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|-10:cond|1:vobj|17:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj|11:mod">reduced</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -221,13 +221,13 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="32:mod" out="4:vobj">If</W>
+<W msd="CS" tag="IN" in="32:cond" out="4:vobj">If</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:nobj" out="">floorage</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj">limits</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:vobj|2:mod">are</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:vobj|2:reas">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">exceeded</W>
-<W msd="CS" tag="IN" in="-2:mod" out="1:pnct|9:vobj">because</W>
+<W msd="CS" tag="IN" in="-2:reas" out="1:pnct|9:vobj">because</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="7:modp" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
@@ -253,7 +253,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">surplus</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|-32:mod|1:vobj|8:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|-32:cond|1:vobj|8:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">no</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">influence</W>

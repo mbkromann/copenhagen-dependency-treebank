@@ -1,7 +1,7 @@
 <s>
-<W msd="PI" tag="DT" in="9:subj|11:[subj]" out="1:nobj|2:mod|3:mod">A</W>
+<W msd="PI" tag="DT" in="9:subj|11:[subj]" out="1:nobj|2:time|3:mod">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meeting</W>
-<W msd="NC=S" tag="NN" in="-2:mod" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-2:time" out="">yesterday</W>
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">between</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Frank</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|2:conj">Mathiesen</W>
@@ -74,9 +74,9 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="16:mod" out="2:vobj">If</W>
+<W msd="CS" tag="IN" in="16:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|4:pnct|5:modp|1:@loc">wash</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:@loc|2:mod|4:pnct|5:modp">wash</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="">out</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Trabzonspor</W>
@@ -90,8 +90,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">players</W>
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-16:mod|1:mod|2:vobj|7:pnct">might</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">afterwards</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-16:cond|2:vobj|7:pnct|1:succ">might</W>
+<W msd="ANP" tag="RB" in="-1:succ" out="">afterwards</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">an</W>
@@ -146,20 +146,20 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">However</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">that</W>
-<W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|1:neg|2:preds|4:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:contr|1:neg|2:preds|4:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">case</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Now</W>
+<W msd="ANP" tag="RB" in="3:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-3:mod|-1:subj|1:dobj|29:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-3:time|1:dobj|29:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:avobj|3:mod|4:mod">think</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">things</W>
@@ -206,8 +206,8 @@
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr">the</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod|1:pobj">energetic</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|1:pobj">energetic</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">rebels</W>

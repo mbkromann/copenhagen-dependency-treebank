@@ -6,9 +6,9 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Henning</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Camre</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">often</W>
-<W msd="VADA" tag="VBD" in="" out="-8:mod|-2:subj|-1:mod|1:mod|5:pnct|7:conj|37:pnct">worked</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:pobj">together</W>
+<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
+<W msd="VADA" tag="VBD" in="" out="-8:mod|-2:subj|1:accom|5:pnct|7:conj|37:pnct|-1:ext">worked</W>
+<W msd="ANP" tag="RB" in="-1:accom" out="1:pobj">together</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">with</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jørgen</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef">Leth</W>
@@ -68,8 +68,8 @@
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">position</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:mod|2:vobj|3:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-5:rel" out="-1:subj|1:time|2:vobj|3:mod">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|-7:[dobj]">leaving</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
@@ -94,8 +94,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">international</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">ideas</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj|3:[subj]" out="">that</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:mod|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:ext|2:vobj">have</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">absorbed</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -120,8 +120,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gert</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:namef">Fredholm</W>
-<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:mod|2:preds|7:mod">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:time|2:preds|7:mod">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>

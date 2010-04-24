@@ -74,8 +74,8 @@
 <s>
 <W msd="SP" tag="IN" in="19:mod" out="1:nobj">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:pnct|5:appa">the</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">recent</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">recent</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">accounts</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-5:appa" out="2:nobj|9:pnct#">the</W>
@@ -93,8 +93,8 @@
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">reserves</W>
 <W msd="VADR" tag="VBP" in="" out="-19:mod|-3:subj|1:vobj|13:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:mod|7:preds">reported</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">even</W>
-<W msd="SP" tag="IN" in="-2:mod" out="-1:mod|1:nobj">in</W>
+<W msd="ANP" tag="RB" in="1:focal" out="">even</W>
+<W msd="SP" tag="IN" in="-2:mod" out="-1:focal|1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">second</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">accounting</W>
@@ -115,9 +115,9 @@
 <W msd="VAF" tag="VB" in="-1:nobj" out="">Invest</W>
 <W msd="U=" tag="TO" in="-4:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="3:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="2:mod" out="">Danish</W>
+<W msd="NP=S" tag="NNP" in="2:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Stock</W>
-<W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod|-2:mod">Exchange</W>
+<W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod|-2:attr">Exchange</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="" out="-13:mod|-1:subj|1:dobj|14:pnct">states</W>
@@ -138,7 +138,7 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|31:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|31:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">assessment</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -182,7 +182,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">shareholder</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">group</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|26:mod|41:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:preds|26:mod|41:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">dissatisfied</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="8:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Klaus</W>

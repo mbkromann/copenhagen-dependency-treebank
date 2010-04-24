@@ -41,8 +41,8 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pobj|9:mod|13:pnct|14:ref|20:rel">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="ANP" tag="JJ" in="-1:nobj" out="1:mod|4:nobj">other</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">big</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="1:attr|4:nobj">other</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">big</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Lego</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod|-2:pnct|1:pnct">blocks</W>
@@ -102,8 +102,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-4:appa" out="2:conj">Unibank</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord|1:mod|2:nobj">Den</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
+<W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord|2:nobj|1:attr">Den</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
 <W msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
@@ -124,13 +124,13 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">banks</W>
 <W msd="VA" tag="MD" in="" out="-8:subj|-15:mod|1:vobj|27:pnct">will</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-9:[subj]|1:pobj|5:pnct|6:mod">border</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-9:[subj]|1:pobj|5:pnct|6:cont">border</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">20</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|-2:mod">million</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:mod" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-6:cont" out="3:vobj">while</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">will</W>
@@ -138,8 +138,8 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|5:nobj">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="3:conj">lower</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">nevertheless</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-1:mod|-2:coord">significant</W>
+<W msd="ANP" tag="RB" in="1:contr" out="">nevertheless</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:contr">significant</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="1:pobj">amount</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -176,8 +176,8 @@
 <W msd="CS" tag="IN" in="-1:&lt;mod&gt;" out="1:nobj">as</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Eurosponsor</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord|1:mod|2:nobj|3:&lt;mod&gt;">Den</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
+<W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord|2:nobj|3:&lt;mod&gt;|1:attr">Den</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
 <W msd="CS" tag="IN" in="-3:&lt;mod&gt;" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>

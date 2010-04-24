@@ -77,7 +77,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:dobj|23:pnct|3:@loc">found</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:dobj|3:@loc|23:pnct">found</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gerhard</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:namef">Nielsen</W>
 <W msd="SP" tag="IN" in="-3:@loc" out="1:nobj">at</W>
@@ -109,10 +109,10 @@
 <W msd="VAF" tag="VB" in="" out="">be</W>
 <W msd="ANP" tag="JJ" in="" out="1:nobj|6:pnct">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:mod">broadcast</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:succ">broadcast</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">programme</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">later</W>
+<W msd="ANP" tag="RB" in="-3:succ" out="">later</W>
 <W msd="XP" tag="." in="-6:pnct" out="">?</W>
 </s>
 <s>
@@ -124,10 +124,10 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Now</W>
+<W msd="ANP" tag="RB" in="3:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-3:mod|-1:subj">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-3:time">have</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|8:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">see</W>
 <W msd="PT" tag="WRB" in="-1:dobj|3:[mod]" out="2:rel">how</W>

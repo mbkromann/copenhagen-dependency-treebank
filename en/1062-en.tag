@@ -7,8 +7,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|11:pnct|14:conj|36:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|3:attr|4:possd|5:mod|7:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UN's</W>
-<W msd="ANS" tag="RBS" in="1:mod" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:mod">far-reaching</W>
+<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">far-reaching</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="">move</W>
 <W msd="U=" tag="TO" in="-5:mod" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">date</W>
@@ -43,7 +43,7 @@
 <W msd="XP" tag="." in="-36:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="12:mod" out="2:vobj">If</W>
+<W msd="CS" tag="IN" in="12:cond" out="2:vobj">If</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Serbia</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj|6:pnct">refuses</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -55,7 +55,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">current</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">plans</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|-12:mod|1:preds|19:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-12:cond|1:preds|19:pnct">are</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">open</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod|4:mod">a</W>
@@ -99,8 +99,8 @@
 <W msd="NP=S" tag="NNP" in="-14:appa" out="-2:namef|-1:namel|1:pnct">Nielsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="" out="-21:mod|-16:subj|2:mod|3:pobj|6:dobj|28:pnct">said</W>
-<W msd="NC=S" tag="NN" in="1:mod" out="">yesterday</W>
-<W msd="NC=S" tag="NN" in="-2:mod" out="-1:mod">evening</W>
+<W msd="NC=S" tag="NN" in="1:time" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-2:mod" out="-1:time">evening</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:possd">Ritzau's</W>
 <W msd="NP=S" tag="NNP" in="-1:possd" out="">Bureau</W>

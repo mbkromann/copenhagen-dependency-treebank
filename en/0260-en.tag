@@ -24,12 +24,12 @@
 <W msd="PI" tag="DT" in="3:subj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unemployed</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">guy</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-4:[mod]|-3:subj|1:preds|4:pnct|5:mod">feels</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-4:[mod]|-3:subj|1:preds|4:pnct|5:reas">feels</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fool</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:mod" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:reas" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj">wants</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -38,21 +38,21 @@
 </s>
 <s>
 <W msd="U=" tag="TO" in="8:subj|9:[subj]" out="1:vobj">To</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:pobj|4:mod|1:@dir">run</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|2:pobj|4:mod">run</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">newspapers</W>
 <W msd="CS" tag="IN" in="-4:mod" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sideline</W>
-<W msd="VA" tag="MD" in="" out="-8:subj|1:vobj|3:pnct|4:mod|19:pnct">might</W>
+<W msd="VA" tag="MD" in="" out="-8:subj|1:vobj|3:pnct|19:pnct|4:cond">might</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">great</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:mod" out="3:vobj">if</W>
+<W msd="CS" tag="IN" in="-4:cond" out="3:vobj">if</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">you</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj|4:mod">got</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:add|1:dobj|4:mod">got</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">reasonable</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">wage</W>

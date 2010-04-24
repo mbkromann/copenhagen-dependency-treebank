@@ -137,8 +137,8 @@
 </p>
 <p>
 <s>
-<W gloss="Not" lemma="ikke" msd="RGU" tag="RP" in="1:mod" out="">Ikke</W>
-<W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj" out="-1:mod|1:mod">én</W>
+<W gloss="Not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">Ikke</W>
+<W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="4:subj" out="1:mod|-1:neg">én</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Torino" lemma="Torino" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Torinos</W>
 <W gloss="rejseselskab" lemma="rejseselskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">rejseselskab</W>

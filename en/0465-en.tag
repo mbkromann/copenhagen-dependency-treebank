@@ -106,8 +106,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">immigrants</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|-1:mod|1:dobj|2:mod">has</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-2:subj|1:dobj|2:mod|-1:add">has</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">friends</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">among</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>

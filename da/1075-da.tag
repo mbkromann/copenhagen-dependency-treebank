@@ -88,8 +88,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="23:pnct" out="">"</W>
 <W gloss="When" lemma="når" msd="CS" tag="IN" in="22:xtop" out="7:vobj|21:ref">Når</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:mod" out="">ca.</W>
-<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="5:subj" out="-1:mod|1:nobj">40</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
+<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="5:subj" out="-1:degr|1:nobj">40</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">pct.</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_population" lemma="befolkning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">befolkningen</W>
@@ -150,7 +150,7 @@
 <W gloss="Placement_of_responsibility" lemma="ansvars-placering" msd="NCCSU==I" tag="NN" in="" out="">Ansvars-placering</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|4:[subj]" out="">Man</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:mod|3:vobj|12:conj|22:pnct|1:neg">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:neg|2:mod|3:vobj|12:conj|22:pnct">kan</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:mod" out="">længere</W>
 <W gloss="say" lemma="sige" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pnct|3:vobj">sige</W>
@@ -175,8 +175,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:mod" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-1:mod|1:subj|2:vobj|3:pnct|4:pnct">skal</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-1:reas|1:subj|2:vobj|3:pnct|4:pnct">skal</W>
 <W gloss="the_rules" lemma="regel" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">reglerne</W>
 <W gloss="be_tightened" lemma="stramme" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-1:[subj]">strammes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -192,8 +192,8 @@
 <W gloss="is_working" lemma="arbejde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pobj|23:pnct">arbejder</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:nobj" out="3:vobj">at</W>
-<W gloss="following" lemma="følge" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:mod" out="">følgende</W>
-<W gloss="bill" lemma="forslag" msd="NCNPU==I" tag="NNP" in="1:subj|2:[subj]" out="-1:mod">forslag</W>
+<W gloss="following" lemma="følge" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">følgende</W>
+<W gloss="bill" lemma="forslag" msd="NCNPU==I" tag="NNP" in="1:subj|2:[subj]" out="-1:attr">forslag</W>
 <W gloss="have" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj|8:pnct|14:xpl">skal</W>
 <W gloss="made" lemma="gøre" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">gøres</W>
 <W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -240,7 +240,7 @@
 </s>
 <s>
 <W gloss="Accounting_firms" lemma="revisorfirma" msd="NCNPU==D" tag="NNP" in="1:subj" out="">Revisorfirmaerne</W>
-<W gloss="will_get_away" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:pobj|12:pnct|1:neg">slipper</W>
+<W gloss="will_get_away" lemma="slippe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:pobj|12:pnct">slipper</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

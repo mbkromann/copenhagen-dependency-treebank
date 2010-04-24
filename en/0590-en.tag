@@ -1,8 +1,8 @@
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:nobj">Subsection</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">5</W>
-<W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:mod|3:nobj">The</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:attr|3:nobj">The</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Consumer</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Council</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|1:vobj|23:pnct">may</W>
@@ -77,7 +77,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">§</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">99</W>
-<W msd="VADR" tag="VBP" in="" out="-8:subj|2:vobj|9:pnct|1:neg">are</W>
+<W msd="VADR" tag="VBP" in="" out="-8:subj|1:neg|2:vobj|9:pnct">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-10:[subj]|1:pobj">covered</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
@@ -123,7 +123,7 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="18:mod" out="5:vobj">If</W>
+<W msd="CS" tag="IN" in="18:cond" out="5:vobj">If</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|3:conj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">decision</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
@@ -133,7 +133,7 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:mod">promulgated</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">publicly</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="8:mod" out="1:pnct">however</W>
+<W msd="ANP" tag="RB" in="8:contr" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="6:subj|8:[subj]|9:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">deadline</W>
@@ -141,8 +141,8 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">commencing</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">action</W>
-<W msd="VA" tag="MD" in="" out="-8:mod|-18:mod|-6:subj|1:mod|2:vobj|9:pnct">shall</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
+<W msd="VA" tag="MD" in="" out="-6:subj|-18:cond|1:ext|2:vobj|9:pnct|-8:contr">shall</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">calculated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
@@ -171,7 +171,7 @@
 <s>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="1:nobj">Chapter</W>
 <W msd="AC" tag="CD" in="-1:nobj|-5:pnct#" out="">8,</W>
-<W msd="VA" tag="MD" in="" out="-16:subj|2:vobj|7:pnct|8:mod|17:pnct|1:neg">may</W>
+<W msd="VA" tag="MD" in="" out="-16:subj|1:neg|2:vobj|7:pnct|8:mod|17:pnct">may</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-18:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-19:[subj]|1:pobj">brought</W>

@@ -47,8 +47,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Hamid</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Jafar</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|2:preds|14:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:nobj">eager</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:nobj">eager</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|6:pobj">show</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
@@ -64,12 +64,12 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:tobj" out="">Shortly</W>
-<W msd="CS" tag="IN" in="5:mod" out="-1:tobj|1:nobj|3:pnct">before</W>
+<W msd="CS" tag="IN" in="5:prec" out="-1:tobj|1:nobj|3:pnct">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">invasion</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-5:mod|-1:subj|1:dobj|23:pnct">ordered</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-5:prec|1:dobj|23:pnct">ordered</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:pnct|3:attr|4:pnct|6:nobj|7:mod|11:mod">an</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">engraved</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -86,8 +86,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:preds">is</W>
-<W msd="PD" tag="DT" in="-1:preds" out="1:mod|2:nobj|3:possd|4:mod">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">English</W>
+<W msd="PD" tag="DT" in="-1:preds" out="2:nobj|3:possd|4:mod|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">English</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Queen's</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">jeweller</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
@@ -129,7 +129,7 @@
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct">began</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-5:mod|-1:subj|2:vobj|7:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-5:mod|-1:subj|1:neg|2:vobj|7:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:lobj">get</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:pobj">outside</W>

@@ -20,12 +20,12 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="5:mod" out="1:pnct">Now</W>
+<W msd="ANP" tag="RB" in="5:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:mod|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Social</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Grundtvigians</W>
-<W msd="VADR" tag="VBP" in="" out="-5:mod|-3:subj|1:vobj|3:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-5:time|1:vobj|3:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:lobj">moving</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="">in</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -60,12 +60,12 @@
 <W msd="PI" tag="DT" in="-2:preds|6:[mod]" out="1:nobj|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">place</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:dobj|2:vobj|4:pnct|5:mod">let</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:dobj|2:vobj|4:pnct|5:cond">let</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[subj]|2:[subj]" out="">yourself</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[mod]|-2:[subj]">seen</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-5:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
@@ -115,11 +115,11 @@
 <s>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="RB" in="4:mod" out="-2:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="4:succ" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Inner</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:mod">Mission</W>
-<W msd="VADA" tag="VBD" in="" out="-4:mod|-1:subj|1:dobj|7:pnct">lost</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|7:pnct|-4:succ">lost</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj|4:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">parish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">council</W>
@@ -204,9 +204,9 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:preds|3:pnct">stands</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-2:time|1:preds|3:pnct">stands</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">seven-six</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

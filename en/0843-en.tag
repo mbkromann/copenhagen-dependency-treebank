@@ -4,8 +4,8 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">appearance</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1871</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|1:mod|2:vobj|13:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">directly</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|2:vobj|13:pnct|1:man">was</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">directly</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:pobj">caused</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:mod|6:mod">the</W>
@@ -111,8 +111,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|4:conj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pio</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">especially</W>
-<W msd="SP" tag="IN" in="-4:conj" out="-1:mod|-2:coord|1:nobj">for</W>
+<W msd="ANP" tag="RB" in="1:eval" out="">especially</W>
+<W msd="SP" tag="IN" in="-4:conj" out="-2:coord|-1:eval|1:nobj">for</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="2:possd|3:pnct|4:appa">his</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">close</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="-1:mod">associates</W>
@@ -185,7 +185,7 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1979</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
-<W msd="VADR" tag="VBZ" in="-11:conj" out="-12:[subj]|-1:coord|2:vobj|1:neg">has</W>
+<W msd="VADR" tag="VBZ" in="-11:conj" out="-12:[subj]|-1:coord|1:neg|2:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:pobj">stopped</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

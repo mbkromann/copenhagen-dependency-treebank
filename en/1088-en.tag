@@ -8,8 +8,8 @@
 <W msd="VADR" tag="VBZ" in="-6:rel" out="-3:subj|1:@dir|2:pnct">comes</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="-5:nobj">from</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-9:subj|1:mod|2:vobj|6:pnct#">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-9:subj|1:add|2:vobj|6:pnct#">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-11:[subj]|1:dobj">called</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:pnct|3:nobj|4:pnct">the</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -29,8 +29,8 @@
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:mod|3:mod">the</W>
-<W msd="ANS" tag="JJS" in="1:mod" out="">best</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="-1:mod">tasting</W>
+<W msd="ANS" tag="JJS" in="1:attr" out="">best</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="-1:attr">tasting</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pobj">all</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -79,8 +79,8 @@
 <W msd="NP=S" tag="NNP" in="2:mod" out="-1:pnct|1:pnct">Between-Us</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="-2:mod">readers</W>
-<W msd="VA" tag="MD" in="-8:rel" out="-5:mod|-1:subj|1:mod|2:vobj">can</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="-8:rel" out="-5:mod|-1:subj|1:add|2:vobj">can</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir">look</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="1:mod">forward</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
@@ -110,9 +110,9 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">November</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-5:ref|2:mod" out="">when</W>
+<W msd="PT" tag="WRB" in="-5:ref|2:time" out="">when</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-7:rel" out="-2:mod|-1:expl|1:dobj">is</W>
+<W msd="VADR" tag="VBZ" in="-7:rel" out="-1:expl|-2:time|1:dobj">is</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">full</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">moon</W>
@@ -197,7 +197,7 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="8:mod" out="2:vobj">If</W>
+<W msd="CS" tag="IN" in="8:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:mod|4:pnct">order</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">tickets</W>
@@ -205,7 +205,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">telephone</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="1:mod" out="">please</W>
-<W msd="VAF" tag="VB" in="" out="-8:mod|-1:mod|1:dobj|12:@dir">send</W>
+<W msd="VAF" tag="VB" in="" out="-1:mod|-8:cond|1:dobj|12:@dir">send</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|5:attr">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">cheque</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
@@ -246,9 +246,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|6:mod">received</W>
 <W msd="PD" tag="DT" in="1:mod" out="">no</W>
-<W msd="ANP" tag="RB" in="2:mod" out="-1:mod|1:pobj">later</W>
+<W msd="ANP" tag="RB" in="2:succ" out="-1:mod|1:pobj">later</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">than</W>
-<W msd="AC" tag="CD" in="2:tobj" out="-2:mod|1:nobj">three</W>
+<W msd="AC" tag="CD" in="2:tobj" out="-2:succ|1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="CS" tag="IN" in="-6:mod" out="-2:tobj|1:nobj">after</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

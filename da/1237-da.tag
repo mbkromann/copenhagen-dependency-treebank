@@ -179,13 +179,13 @@
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="">Det</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|27:pnct">kan</W>
-<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|3:mod|15:coord">blive</W>
+<W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|3:cond|15:coord">blive</W>
 <W gloss="cheaper" lemma="billig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:preds" out="">billigere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:mod" out="3:vobj">hvis</W>
+<W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:cond" out="3:vobj">hvis</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj" out="">man</W>
-<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:mod" out="">f.eks.</W>
-<W gloss="stay" lemma="bo" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|6:mod|8:pnct|1:@loc">bor</W>
+<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">f.eks.</W>
+<W gloss="stay" lemma="bo" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:@loc|6:mod|8:pnct|-1:exem">bor</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="4:nobj">i</W>
 <W gloss="three-" lemma="tre-" msd="XX" tag="FW" in="3:nobj" out="2:conj">tre-</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
@@ -199,8 +199,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:&lt;mod&gt;" out="3:vobj">hvis</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
-<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:mod" out="">f.eks.</W>
-<W gloss="want" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">vil</W>
+<W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="1:exem" out="">f.eks.</W>
+<W gloss="want" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|-1:exem">vil</W>
 <W gloss="stay" lemma="bo" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:@loc">bo</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="the_hotel" lemma="hotel" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">hotellets</W>
@@ -217,9 +217,9 @@
 </p>
 <p>
 <s>
-<W gloss="prefer" lemma="foretrække" msd="VADR=----A-" tag="VBD" in="9:xtop" out="1:subj|2:mod|3:dobj|7:pnct|8:ref">Foretrækker</W>
+<W gloss="prefer" lemma="foretrække" msd="VADR=----A-" tag="VBD" in="9:xtop" out="1:subj|2:focal|3:dobj|7:pnct|8:ref">Foretrækker</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|3:[subj]" out="">man</W>
-<W gloss="yourself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-2:mod" out="">selv</W>
+<W gloss="yourself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="-2:focal" out="">selv</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:dobj" out="1:vobj">at</W>
 <W gloss="drive" lemma="køre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:mod">køre</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
@@ -241,8 +241,8 @@
 <W gloss="well-known" lemma="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kendte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-6:conj" out="-1:mod|-2:coord|1:nobj">i</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-6:conj" out="-2:coord|-1:add|1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:attr|3:[nobj]">de</W>
 <W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:mod" out="">mindre</W>
 <W gloss="well-known" lemma="kendt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:mod">kendte</W>

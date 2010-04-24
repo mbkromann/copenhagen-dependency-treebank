@@ -6,8 +6,8 @@
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="-1:mod">Islands</W>
 <W msd="VADR" tag="VBP" in="-4:conj" out="-3:subj|1:pobj">belong</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Commonwealth</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
@@ -71,15 +71,15 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|3:conj|18:pnct">But</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">now</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-3:conj" out="-2:mod|-1:subj|2:vobj|5:pnct|6:mod|1:neg">will</W>
+<W msd="VA" tag="MD" in="-3:conj" out="-1:subj|-2:time|1:neg|2:vobj|5:pnct|6:focal">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">get</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">penny</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-6:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="-6:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds">am</W>
@@ -117,8 +117,8 @@
 <s>
 <W msd="VAG" tag="VBG" in="22:mod" out="1:pobj">According</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:mod|4:nobj|5:pnct|6:ref|7:rel">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:mod|4:nobj|5:pnct|6:ref|7:rel">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">National</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Library</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="-1:mod">Authority</W>
@@ -161,8 +161,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-12:[subj]|1:dobj|2:pobj">resign</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="3:nobj">to</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="VAP" tag="VBN" in="1:mod" out="-1:mod">reduced</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="VAP" tag="VBN" in="1:mod" out="-1:degr">reduced</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">income</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
@@ -184,8 +184,8 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-14:ref|2:mod" out="">then</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="19:qobj" out="-17:pnct|-16:xtop|-2:mod|-1:subj|1:mod|2:vobj|7:pnct|14:conj|17:pnct|18:pnct">may</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">well</W>
+<W msd="VA" tag="MD" in="19:qobj" out="-17:pnct|-16:xtop|-2:mod|-1:subj|2:vobj|7:pnct|14:conj|17:pnct|18:pnct|1:man">may</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">well</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">receive</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">lending</W>
@@ -209,8 +209,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Anna</W>
 <W msd="NP=S" tag="NNP" in="-4:subj" out="-2:title|-1:namef|1:pnct|2:mod">Johansen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="-2:mod" out="1:mod|2:mod|4:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-2:mod" out="1:attr|2:mod|4:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">National</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Library</W>
 <W msd="NP=S" tag="NNP" in="-4:nobj" out="-1:mod">Authority</W>

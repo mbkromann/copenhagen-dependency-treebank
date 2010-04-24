@@ -4,9 +4,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="3:vobj">event</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">business</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:neg|2:mod|3:preds|10:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:neg|2:focal|3:preds|10:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="PP" tag="PRP" in="-2:mod" out="">itself</W>
+<W msd="PP" tag="PRP" in="-2:focal" out="">itself</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:pobj">capable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:part|2:dobj">carrying</W>
@@ -36,7 +36,7 @@
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">supervisory</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">authority</W>
-<W msd="VA" tag="MD" in="" out="-5:mod|-3:subj|1:vobj|20:mod|31:pnct">may</W>
+<W msd="VA" tag="MD" in="" out="-5:mod|-3:subj|1:vobj|20:cond|31:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">order</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="7:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="6:subj|7:[subj]|11:[subj]" out="1:mod">analyses</W>
@@ -46,8 +46,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">own-check</W>
 <W msd="VA" tag="MD" in="-7:vobj" out="-6:subj|1:vobj|10:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:mod|4:vobj">be</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="2:conj">entirely</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|4:vobj|1:degr">be</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="2:conj">entirely</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">partially</W>
 <W msd="VAP" tag="VBN" in="-4:vobj" out="-11:[subj]|1:pobj">done</W>
@@ -56,7 +56,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">independent</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">laboratory</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-20:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-20:cond" out="2:vobj">if</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj">arises</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">any</W>
@@ -70,9 +70,9 @@
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAF" tag="VB" in="" out="1:pnct|2:mod|4:dobj|19:pnct">See</W>
+<W msd="VAF" tag="VB" in="" out="1:pnct|2:add|4:dobj|19:pnct">See</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">also</W>
+<W msd="ANP" tag="RB" in="-2:add" out="1:pnct">also</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-4:dobj" out="1:nobj|2:pobj|7:conj">section</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">5.3</W>
@@ -190,8 +190,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:pnct|-2:coord">place</W>
-<W msd="ANP" tag="RB" in="2:coord" out="1:mod">as</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">well</W>
+<W msd="ANP" tag="RB" in="2:coord" out="1:man">as</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">well</W>
 <W msd="CS" tag="IN" in="-10:conj" out="-2:coord|1:pobj">as</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">methods</W>
@@ -229,7 +229,7 @@
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="" out="-27:subj|1:vobj|15:pnct|16:mod|22:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-28:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-29:[subj]|1:pobj|10:mod">reported</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-29:[subj]|1:pobj|10:time">reported</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">supervisory</W>
@@ -239,7 +239,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">health</W>
 <W msd="NC=S" tag="NN" in="-4:conj" out="-1:mod|-3:coord|-2:attr">institution</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">as</W>
-<W msd="ANP" tag="RB" in="-10:mod" out="-1:mod">soon</W>
+<W msd="ANP" tag="RB" in="-10:time" out="-1:mod">soon</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:aobj">as</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">possible</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>

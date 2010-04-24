@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|6:[subj]" out="">Hun</W>
-<W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|5:conj|9:pnct">så</W>
-<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="-1:mod" out="">aldrig</W>
+<W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:dobj|5:conj|9:pnct|1:time">så</W>
+<W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="-1:time" out="">aldrig</W>
 <W gloss="any" lemma="nogen" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj">nogen</W>
 <W gloss="emergency_plan" lemma="nødplan" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">nødplan</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -76,14 +76,14 @@
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">om</W>
 <W gloss="the" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="3:attr|4:nobj|5:mod">en</W>
 <W gloss="stort_set" lemma="stort_set" msd="RGU" tag="RP" in="1:mod" out="">stort_set</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:mod">helt</W>
-<W gloss="new" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="-3:attr" out="-1:mod">ny</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="-1:mod">helt</W>
+<W gloss="new" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="-3:attr" out="-1:degr">ny</W>
 <W gloss="crew" lemma="besætning" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">besætning</W>
 <W gloss="om_bord" lemma="om_bord" msd="RGU" tag="RP" in="-5:mod" out="1:mod">om_bord</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:pnct|5:ref|15:rel">et</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:mod">nyt</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
+<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">nyt</W>
 <W gloss="ship" lemma="skib" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">skib</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-5:ref|10:mod" out="">hvor</W>
@@ -226,9 +226,9 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="was" lemma="dreje" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:mod|3:pobj|11:pnct">drejede</W>
+<W gloss="was" lemma="dreje" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:degr|3:pobj|11:pnct">drejede</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:mod" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-2:nobj|5:[mod]" out="2:rel">hvordan</W>

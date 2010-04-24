@@ -4,8 +4,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]|7:[subj]" out="-1:attr|1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">climate</W>
 <W msd="NC=P" tag="NNS" in="6:nobj" out="">scientists</W>
-<W msd="VADR" tag="VBP" in="" out="-5:pnct|-3:subj|1:mod">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
+<W msd="VADR" tag="VBP" in="" out="-5:pnct|-3:subj|1:time">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
 <W msd="VAG" tag="VBG" in="" out="-5:[subj]">trying</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|3:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:pobj">control</W>
@@ -188,7 +188,7 @@
 <W msd="NC=S" tag="NN" in="" out="1:ref|2:rel">grain</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:conj|2:@loc">draw</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@loc|7:conj">draw</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">nitrogen</W>
 <W msd="SP" tag="IN" in="-2:@loc" out="1:mod">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>

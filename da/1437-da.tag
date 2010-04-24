@@ -130,8 +130,8 @@
 <s>
 <W gloss="The_plane" lemma="fly" msd="NCNSU==D" tag="NN" in="1:subj" out="">Flyet</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:preds|4:pnct">er</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:mod" out="">kun</W>
-<W gloss="scantily" lemma="nødtørftig" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:mod">nødtørftigt</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
+<W gloss="scantily" lemma="nødtørftig" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:degr">nødtørftigt</W>
 <W gloss="insulated" lemma="isolere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-1:mod">isoleret</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -239,14 +239,14 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="lie" lemma="lyve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|6:pnct|7:mod|16:pnct|3:@dir">lyver</W>
+<W gloss="lie" lemma="lyve" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:@dir|6:pnct|16:pnct|7:conc">lyver</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="">én</W>
 <W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="-1:mod|1:mod">op</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="face" lemma="ansigt" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">ansigtet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-7:mod" out="2:vobj">selv_om</W>
+<W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-7:conc" out="2:vobj">selv_om</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|2:pnct">er</W>
 <W gloss="obvious" lemma="indlysende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">indlysende</W>

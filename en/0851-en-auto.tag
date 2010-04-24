@@ -3,8 +3,8 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">age</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod">27,</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr">27,</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:attr|2:nobj|4:appr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">young</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">J.D.</W>
@@ -65,7 +65,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">This</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">novel</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|16:pnct|20:conj|36:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|6:mod|1:preds">become</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds|6:mod">become</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NP=S" tag="NNP" in="" out="">Helle</W>
@@ -114,7 +114,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Mirror</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:mod|-2:pnct|1:pnct">Dance</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:mod|-2:subj|1:mod|13:pnct|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:mod|-2:subj|1:mod|2:preds|13:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:attr|10:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="7:conj">fascinating</W>
@@ -131,7 +131,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|23:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|23:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">in</W>
 <W msd="PD" tag="DT" in="" out="2:possd|3:pobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">West</W>
@@ -185,7 +185,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:pnct|4:conj|6:pnct|8:conj|12:pnct|16:conj|17:pnct|1:preds">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|2:pnct|4:conj|6:pnct|8:conj|12:pnct|16:conj|17:pnct">are</W>
 <W msd="NC=P" tag="NNS" in="-1:preds" out="">children</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
@@ -200,8 +200,8 @@
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">never</W>
-<W msd="VADR" tag="VBP" in="-16:conj" out="-2:subj|-1:mod|-3:coord">forget</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">never</W>
+<W msd="VADR" tag="VBP" in="-16:conj" out="-2:subj|-3:coord|-1:neg">forget</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -216,10 +216,10 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Suddenly</W>
+<W msd="ANP" tag="RB" in="3:man" out="1:pnct">Suddenly</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:mod|-1:subj|1:dobj|2:lobj|8:pnct">finds</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|2:lobj|8:pnct|-3:man">finds</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">herself</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="">in</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
@@ -235,7 +235,7 @@
 <W msd="NC=S" tag="NN" in="" out="1:dobj">clue</W>
 <W msd="PT" tag="WRB" in="-1:dobj" out="">why</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|3:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|3:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">danger</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

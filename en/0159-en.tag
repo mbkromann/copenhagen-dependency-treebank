@@ -71,12 +71,12 @@
 <W msd="PD" tag="DT" in="4:subj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Art</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Gallery</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">recently</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:mod|-4:subj|8:pnct|1:@dir">moved</W>
+<W msd="ANP" tag="RB" in="1:time" out="">recently</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-4:subj|1:@dir|8:pnct|-1:time">moved</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:mod">a</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">spacious</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">spacious</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">location</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gothersgade</W>
@@ -122,8 +122,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="" out="-3:mod|1:nobj|6:mod|10:pnct">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="1:mod|3:nobj">of</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:attr|3:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Rococo</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">bureaus</W>
 <W msd="SP" tag="IN" in="-6:mod" out="2:nobj">in</W>
@@ -143,7 +143,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">front</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:vobj|4:pnct#|9:mod|18:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|1:vobj|4:pnct#|9:reas|18:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:pobj">assessed</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
@@ -152,14 +152,14 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">things</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:mod" out="-4:modp|3:vobj">because</W>
+<W msd="CS" tag="IN" in="-9:reas" out="-4:modp|3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">underside</W>
 <W msd="NC=P" tag="NNS" in="-3:vobj" out="-2:subj|1:preds">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">recent</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">recent</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">date</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
@@ -177,8 +177,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|9:[subj]" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|12:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:add|2:preds|12:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj|2:pnct|3:conj|4:pnct|6:conj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">walnut</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -219,8 +219,8 @@
 <W msd="VAF" tag="VB" in="" out="-5:subj|1:pobj|25:pnct">come</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|5:appr|6:pnct|7:ref|8:rel">the</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">recently</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">deceased</W>
+<W msd="ANP" tag="RB" in="1:time" out="">recently</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:time">deceased</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Holm</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-2:namef|-1:namel">Olsen</W>

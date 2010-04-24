@@ -26,9 +26,9 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Lise</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:preds|5:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-2:time|1:preds|5:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">sure</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Pia</W>
@@ -40,9 +40,9 @@
 <W msd="I=" tag="UH" in="8:qobj" out="-1:pnct|1:pnct|3:conj">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Søren</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:subj|1:pnct|2:mod|3:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:subj|1:pnct|2:degr|3:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:degr" out="">too</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="" out="-8:qobj|-1:subj|1:dobj|2:vobj|3:pnct">heard</W>
@@ -126,8 +126,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">She</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:mod|2:vobj|9:pnct">could</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">hardly</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|2:vobj|9:pnct|1:eval">could</W>
+<W msd="ANP" tag="RB" in="-1:eval" out="">hardly</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod">see</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:ref|2:rel">the</W>
@@ -146,9 +146,9 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="" out="">her</W>
 <W msd="NC=S" tag="NN" in="" out="">friend</W>
-<W msd="VADA" tag="VBD" in="" out="1:pnct|2:mod|11:pnct">exclaimed</W>
+<W msd="VADA" tag="VBD" in="" out="1:pnct|2:time|11:pnct">exclaimed</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-2:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-2:time" out="2:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Lise</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">explained</W>

@@ -72,9 +72,9 @@
 <W msd="XP" tag="&amp;quot;" in="-19:pnct" out="">"</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="19:subj" out="1:nobj|2:mod|6:pnct|7:mod">The</W>
+<W msd="PD" tag="DT" in="19:subj" out="1:nobj|2:focal|6:pnct|7:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:pobj">framework</W>
-<W msd="PP" tag="PRP" in="-2:mod" out="">itself</W>
+<W msd="PP" tag="PRP" in="-2:focal" out="">itself</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">programs</W>
@@ -128,13 +128,13 @@
 <W msd="PD" tag="DT" in="7:subj" out="2:vobj">That</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:pobj">good</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">simplifications</W>
-<W msd="VADA" tag="VBD" in="" out="-7:subj|1:part|2:mod|3:pnct|4:mod|7:pnct">came</W>
+<W msd="VADA" tag="VBD" in="" out="-7:subj|1:part|3:pnct|4:mod|7:pnct|2:eval">came</W>
 <W msd="SP" tag="IN" in="-1:part" out="">out</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">clearly</W>
+<W msd="ANP" tag="RB" in="-2:eval" out="">clearly</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">any</W>

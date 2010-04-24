@@ -1,6 +1,6 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|8:[subj]|9:[subj]|11:[subj]" out="">Tabori</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|5:pnct|7:conj|29:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|7:conj|29:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">a</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jew</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
@@ -57,15 +57,15 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj|8:conj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">truth</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:mod|3:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">never</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:neg|2:preds|3:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
 <W msd="ANP" tag="RB" in="-2:preds" out="">pretty</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
 <W msd="SP" tag="IN" in="-8:conj" out="-1:coord|2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">often</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|1:ext">is</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">funny</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -179,8 +179,8 @@
 <W msd="NP=S" tag="NNP" in="11:subj|12:[subj]" out="-2:namef|1:pnct|2:ref|3:rel">Bendixen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|3:mod|7:pnct|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:add|2:preds|3:mod|7:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">new</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>

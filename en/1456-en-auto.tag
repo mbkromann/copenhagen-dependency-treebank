@@ -53,8 +53,8 @@
 <W msd="VADR" tag="VBP" in="-8:rel" out="-1:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">characterized</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="">1991</W>
-<W msd="VADR" tag="VBP" in="-15:subj|-14:[subj]" out="-12:pnct|-11:subj|1:mod|2:vobj|15:pnct|16:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBP" in="-15:subj|-14:[subj]" out="-12:pnct|-11:subj|1:add|2:vobj|15:pnct|16:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-13:[subj]|1:dobj">expected</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">influence</W>
@@ -125,7 +125,7 @@
 <W msd="NC=S" tag="NN" in="" out="">month</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="34:coord" out="">and</W>
-<W msd="CS" tag="IN" in="33:mod" out="5:vobj">if</W>
+<W msd="CS" tag="IN" in="33:cond" out="5:vobj">if</W>
 <W msd="NP=S" tag="NNP" in="" out="">B.T</W>
 <W msd="XP" tag="." in="" out="">.</W>
 </s>
@@ -145,10 +145,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meeting</W>
 <W msd="SP" tag="IN" in="-6:pobj" out="">in</W>
-<W msd="PD" tag="DT" in="-8:dobj" out="-5:possd|-6:attr|3:mod">the</W>
+<W msd="PD" tag="DT" in="-8:dobj" out="-5:possd|-6:attr|3:time">the</W>
 <W msd="ANP" tag="JJ" in="" out="">daily</W>
 <W msd="NC=S" tag="NN" in="" out="">press</W>
-<W msd="NC=S" tag="NN" in="-3:mod" out="">yesterday</W>
+<W msd="NC=S" tag="NN" in="-3:time" out="">yesterday</W>
 <W msd="XP" tag="," in="-19:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="8:subj|9:[subj]|10:[subj]|11:[subj]" out="2:attr|3:nobj|4:mod">the</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">quite</W>
@@ -158,7 +158,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">their</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">above-referenced</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">article</W>
-<W msd="VA" tag="MD" in="-50:conj" out="-33:mod|-8:subj|-34:coord|1:vobj">could</W>
+<W msd="VA" tag="MD" in="-50:conj" out="-8:subj|-34:coord|-33:cond|1:vobj">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]">avoided</W>
@@ -173,7 +173,7 @@
 <W msd="SP" tag="IN" in="-5:pobj" out="">of</W>
 <W msd="PD" tag="DT" in="" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">article</W>
-<W msd="NC=P" tag="NNS" in="" out="48:pnct|1:preds">is</W>
+<W msd="NC=P" tag="NNS" in="" out="1:preds|48:pnct">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:nobj" out="1:nobj">such</W>
 <W msd="NC=S" tag="NN" in="-2:nobj|-1:nobj" out="-1:nobj|1:nobj">character</W>

@@ -135,8 +135,8 @@
 <W gloss="terms" lemma="vilkår" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj">vilkår</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="conditions" lemma="forhold" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">forhold</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-1:mod|1:vobj">skal</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-1:add|1:vobj">skal</W>
 <W gloss="apply" lemma="gælde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:pobj">gælde</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="Ærøskøbing" lemma="Ærøskøbing" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Ærøskøbing</W>
@@ -160,8 +160,8 @@
 <W gloss="at_the_moment" lemma="foreløbig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">foreløbig</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:mod|-2:coord|1:subj|3:mod|6:vobj">har</W>
 <W gloss="the_contributions" lemma="bidrag" msd="NCNPU==D" tag="NNP" in="-1:subj|5:[subj]|6:[subj]" out="">bidragene</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:mod" out="">næsten</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj">til</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:mod" out="-1:degr|1:nobj">til</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr">det</W>
 <W gloss="unbearable" lemma="ulidelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">ulidelige</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|1:vobj">været</W>
@@ -169,8 +169,8 @@
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="lack_of_inventiveness" lemma="uopfindsomhed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="3:conj">uopfindsomhed</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="a_lack_of" lemma="mangle" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:mod" out="">manglende</W>
-<W gloss="will" lemma="vilje" msd="NCCSU==I" tag="NN" in="-3:conj" out="-1:mod|-2:coord|1:pobj">vilje</W>
+<W gloss="a_lack_of" lemma="mangle" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">manglende</W>
+<W gloss="will" lemma="vilje" msd="NCCSU==I" tag="NN" in="-3:conj" out="-2:coord|1:pobj|-1:attr">vilje</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="innovation" lemma="fornyelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fornyelse</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
@@ -210,8 +210,8 @@
 <W gloss="municipal_reform" lemma="kommunalreform" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kommunalreform</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:subj|3:[subj]" out="">som</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:mod|1:vobj">kan</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:add|1:vobj">kan</W>
 <W gloss="light" lemma="tænde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">tænde</W>
 <W gloss="the_candle" lemma="lys" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">lyset</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>

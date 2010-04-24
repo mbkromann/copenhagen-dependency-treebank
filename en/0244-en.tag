@@ -86,7 +86,7 @@
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="2:subj|4:[subj]|5:[subj]" out="1:possd">TEBA's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">space</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|2:vobj|1:neg">will</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:neg|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:mod">expanded</W>
@@ -97,7 +97,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|16:pnct|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:neg|2:preds|16:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intent</W>
@@ -195,8 +195,8 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">Or</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:conj" out="-1:mod|2:nobj|3:mod">1,050</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:conj" out="2:nobj|3:mod|-1:degr">1,050</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">square</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">centimetres</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">per</W>

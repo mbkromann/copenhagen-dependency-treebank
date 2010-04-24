@@ -129,13 +129,13 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pobj">Municipality</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">Herning</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-4:subj|-5:coord|1:dobj|5:pnct|6:mod">pays</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-4:subj|-5:coord|1:dobj|5:pnct|6:time">pays</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|3:possd">the</W>
 <W msd="VADR" tag="VBZ" in="-1:nobj" out="">family's</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">legal</W>
 <W msd="NC=P" tag="NNS" in="-3:possd" out="-1:attr">fees</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-6:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="-6:time" out="3:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Merete</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-1:namef">Haugaard</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:dobj">threatens</W>
@@ -196,8 +196,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Sine</W>
 <W msd="NP=S" tag="NNP" in="-3:dobj" out="-2:title|-1:namef">Diemar</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="3:nobj">for</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="VAP" tag="VBN" in="1:mod" out="-1:mod">detailed</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="VAP" tag="VBN" in="1:mod" out="-1:degr">detailed</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">comments</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>

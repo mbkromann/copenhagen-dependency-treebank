@@ -2,8 +2,8 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="10:qobj" out="-2:pnct|-1:subj|2:preds|8:pnct|9:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">late</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">late</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">cry</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">over</W>
@@ -24,9 +24,9 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:preds|5:pnct#|6:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-2:time|1:preds|5:pnct#|6:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">matter</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -50,12 +50,12 @@
 <W msd="VADR" tag="VBZ" in="-2:nobj" out="-1:mod">collective's</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">plump</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="">members</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|2:preds|3:pnct|6:conj|19:pnct|1:neg">was</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|1:neg|2:preds|3:pnct|6:conj|19:pnct">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">overwhelming</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="1:subj" out="-1:mod">two</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="1:subj" out="-1:degr">two</W>
 <W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|1:mod">spoke</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:vobj">after</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
@@ -120,8 +120,8 @@
 <W msd="CS" tag="IN" in="-1:preds" out="1:pobj">as</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|10:[nobj]" out="6:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:degr|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Slovaks</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -152,7 +152,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-1:subj|-2:coord|2:preds|6:mod|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-1:subj|-2:coord|1:neg|2:preds|6:mod">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds|3:[pred]" out="1:nobj|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">way</W>
@@ -165,8 +165,8 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADR" tag="VBP" in="" out="-1:expl|1:mod|3:dobj|9:pnct#|10:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-1:expl|1:add|3:dobj|9:pnct#|10:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">radical</W>
 <W msd="NP=P" tag="NNPS" in="-3:dobj" out="-1:attr|1:pnct|2:ref|3:rel">Czechs</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -180,8 +180,8 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|35:pnct">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:mod|2:pobj">referring</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">presumably</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|2:pobj|1:epi">referring</W>
+<W msd="ANP" tag="RB" in="-1:epi" out="">presumably</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|2:possd">Slovakia's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">special</W>

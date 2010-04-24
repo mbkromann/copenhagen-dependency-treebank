@@ -91,14 +91,14 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="7:mod" out="2:vobj">If</W>
+<W msd="CS" tag="IN" in="7:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:mod|3:pnct">distill</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:degr|3:pnct">distill</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANC" tag="JJR" in="-2:mod" out="">more</W>
+<W msd="ANC" tag="JJR" in="-2:degr" out="">more</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-7:mod|1:vobj|7:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|7:pnct|-7:cond">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|4:dobj|5:vobj">see</W>
 <W msd="ANC" tag="JJR" in="3:attr" out="2:conj">thicker</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -130,7 +130,7 @@
 <s>
 <W msd="PT" tag="WRB" in="11:mod" out="2:vobj">When</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:dobj|7:pnct|3:@dir">bring</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:dobj|3:@dir|7:pnct">bring</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">raw</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">oil</W>
 <W msd="RG" tag="RP" in="-3:@dir" out="1:mod">up</W>

@@ -23,8 +23,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Bosnian</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">capital</W>
-<W msd="VADR" tag="VBZ" in="" out="-11:subj|1:mod|2:vobj|37:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-11:subj|1:add|2:vobj|37:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-13:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-14:[subj]|1:pobj|3:pobj">bombarded</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -95,8 +95,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">civilians</W>
 <W msd="VADA" tag="VBD" in="6:qobj" out="-4:subj|1:vobj|5:pnct">were</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:mod">killed</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:dur">killed</W>
+<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bombardment</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
@@ -106,9 +106,9 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">numbers</W>
-<W msd="VADR" tag="VBP" in="-6:conj" out="-2:subj|-3:coord|1:neg|2:mod|3:vobj">have</W>
+<W msd="VADR" tag="VBP" in="-6:conj" out="-2:subj|-3:coord|1:neg|3:vobj|2:time">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]">confirmed</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -117,8 +117,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">UN</W>
 <W msd="NC=S" tag="NN" in="" out="-1:attr">debate</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Bosnia-Herzegovina</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:dobj|8:pobj|28:pnct">received</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">yesterday</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:time|2:dobj|8:pobj|28:pnct">received</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">yesterday</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">stream</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

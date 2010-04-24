@@ -63,9 +63,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|7:[subj]" out="1:nobj">This</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">attitude</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pnct|2:mod|4:pnct|36:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:pnct|2:accom|4:pnct|36:pnct">has</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-2:accom" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">doubt</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="" out="-7:[subj]">been</W>
@@ -201,9 +201,9 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">personnel</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">relations</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">quickly</W>
-<W msd="VADA" tag="VBD" in="" out="-5:subj|-1:mod">emerged</W>
-<W msd="CS" tag="IN" in="" out="4:pnct|8:conj|16:pnct|1:preds">as</W>
+<W msd="ANP" tag="RB" in="1:man" out="">quickly</W>
+<W msd="VADA" tag="VBD" in="" out="-5:subj|-1:man">emerged</W>
+<W msd="CS" tag="IN" in="" out="1:preds|4:pnct|8:conj|16:pnct">as</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:attr|2:possd">her</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">preferred</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">field</W>

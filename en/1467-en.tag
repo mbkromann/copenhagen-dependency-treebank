@@ -28,17 +28,17 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Steen</W>
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-2:mod|-1:namef">Rasborg</W>
 <W msd="VADA" tag="VBD" in="-20:conj" out="-13:mod|-6:subj|-15:coord|1:vobj">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:mod|2:mod">fired</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">yesterday</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:time|2:mod">fired</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">yesterday</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj|4:preds">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">parting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">gift</W>
 <W msd="SP" tag="IN" in="-4:preds" out="4:nobj">of</W>
-<W msd="ANP" tag="RB" in="3:mod" out="">approximately</W>
+<W msd="ANP" tag="RB" in="3:degr" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">nine</W>
-<W msd="AC" tag="CD" in="-4:nobj" out="-1:numm|-2:mod|-3:mod">million</W>
+<W msd="AC" tag="CD" in="-4:nobj" out="-1:numm|-2:mod|-3:degr">million</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
 <s>
@@ -86,8 +86,8 @@
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">proved</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">optimistic</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">optimistic</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -122,8 +122,8 @@
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NC=S" tag="NN" in="1:mod" out="">Yesterday</W>
-<W msd="NC=S" tag="NN" in="3:mod" out="-1:mod|1:pnct">evening</W>
+<W msd="NC=S" tag="NN" in="1:time" out="">Yesterday</W>
+<W msd="NC=S" tag="NN" in="3:mod" out="1:pnct|-1:time">evening</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">shares</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-3:mod|1:vobj|12:pnct">were</W>
@@ -141,9 +141,9 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="6:mod" out="1:pnct|2:mod">Abroad</W>
+<W msd="ANP" tag="RB" in="6:mod" out="1:pnct|2:degr">Abroad</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="-2:degr" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reaction</W>
@@ -185,8 +185,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">group</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">now</W>
-<W msd="VADR" tag="VBZ" in="-11:conj" out="-13:[subj]|-1:mod|-2:coord|1:dobj">risks</W>
+<W msd="ANP" tag="RB" in="1:time" out="">now</W>
+<W msd="VADR" tag="VBZ" in="-11:conj" out="-13:[subj]|-2:coord|-1:time|1:dobj">risks</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-15:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-16:[subj]|1:@dir">bumped</W>

@@ -59,11 +59,11 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:mod" out="1:pnct">Instead</W>
+<W msd="ANP" tag="RB" in="4:contr" out="1:pnct">Instead</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="1:name">Club</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Brugge</W>
-<W msd="VADA" tag="VBD" in="" out="-4:mod|-2:subj|1:pnct">struck</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:pnct|-4:contr">struck</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -230,9 +230,9 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Marseille</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">suddenly</W>
+<W msd="ANP" tag="RB" in="2:man" out="">suddenly</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|-4:mod|-2:mod|1:preds">was</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|-4:mod|-2:man|1:preds">was</W>
 <W msd="VAG" tag="VBG" in="-1:preds" out="1:nobj">twentyfold</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>

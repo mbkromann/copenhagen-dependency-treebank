@@ -105,8 +105,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj|3:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod">preserved</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">today</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:time">preserved</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">today</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Amager</W>
 <W msd="VA" tag="MD" in="" out="-10:mod|-1:subj|1:vobj|11:pnct">will</W>
@@ -124,8 +124,8 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|4:[subj]|5:[subj]" out="">Culture</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:preds|7:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:add|2:preds|7:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:mod">considered</W>
@@ -139,9 +139,9 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|16:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:mod|5:pnct|7:mod">developed</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|5:pnct|7:mod|2:time">developed</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">as</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">soon</W>
+<W msd="ANP" tag="RB" in="-2:time" out="-1:mod">soon</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:aobj">as</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">possible</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>

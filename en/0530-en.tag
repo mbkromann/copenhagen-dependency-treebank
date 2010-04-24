@@ -55,16 +55,16 @@
 <W msd="PT" tag="WDT" in="-4:ref|1:subj|2:[subj]|3:[subj]" out="">which</W>
 <W msd="VA" tag="MD" in="-5:rel" out="-1:subj|1:vobj|5:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod|2:mod">issued</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod|2:time">issued</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">officially</W>
-<W msd="NC=S" tag="NN" in="-2:mod" out="">tomorrow</W>
+<W msd="NC=S" tag="NN" in="-2:time" out="">tomorrow</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
+<W msd="ANP" tag="RB" in="2:contr" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="7:qobj" out="-2:mod|-13:subj|3:preds|6:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="7:qobj" out="-13:subj|-2:contr|3:preds|6:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod|2:conj">vague</W>
+<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|2:conj">vague</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">general</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
@@ -84,8 +84,8 @@
 <W msd="PD" tag="DT" in="-2:list" out="1:nobj|9:pnct|11:appa">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">chairperson</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pobj">Association</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">International</W>
@@ -122,8 +122,8 @@
 <W msd="VADA" tag="VBD" in="" out="1:subj|13:pobj|16:pnct">Said</W>
 <W msd="NC=S" tag="NN" in="-1:subj" out="1:pobj|8:pnct|10:appa">chairperson</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="1:pobj">Association</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">International</W>
@@ -174,8 +174,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">NATO</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">countries</W>
 <W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|24:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:mod|4:dobj">decide</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="2:conj">today</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:time|4:dobj">decide</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="2:conj">today</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">tomorrow</W>
 <W msd="U=" tag="TO" in="-4:dobj" out="1:vobj">to</W>
@@ -195,8 +195,8 @@
 <W msd="VADR" tag="VBZ" in="-10:rel" out="-2:subj|-3:dobj|1:preds">has</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">at</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="1:mod">disposal</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">today</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="1:time">disposal</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">today</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>

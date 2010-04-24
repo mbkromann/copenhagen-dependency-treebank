@@ -103,9 +103,9 @@
 </s>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:mod|3:pnct">siger</W>
+<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|2:ext">siger</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:mod" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:ext" out="">altid</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -144,8 +144,8 @@
 <W gloss="Ester" lemma="Ester" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ester</W>
 <W gloss="Brohus" lemma="Brohus" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Brohus</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
-<W gloss="unknown" lemma="ukendt" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-1:mod">ukendt</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
+<W gloss="unknown" lemma="ukendt" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-1:degr">ukendt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -169,7 +169,7 @@
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">blev</W>
 <W gloss="25," lemma="25" msd="AC---U=--" tag="CD" in="-1:preds" out="">25</W>
-<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-9:mod|1:subj|6:mod|15:pnct|2:@dir">tog</W>
+<W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="" out="-9:mod|1:subj|2:@dir|6:mod|15:pnct">tog</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
@@ -228,7 +228,7 @@
 <W gloss="by" lemma="ved" msd="RGU" tag="RP" in="-1:preds" out="1:pobj">ved</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:mod|5:mod|1:@dir">tage</W>
+<W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|2:mod|5:mod">tage</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="">rundt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>
 <W gloss="my" lemma="min" msd="PO1CSUSNU" tag="PRP$" in="-1:nobj" out="1:possd">min</W>

@@ -146,9 +146,9 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">reason</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]|6:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|2:mod|3:vobj|1:neg">do</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:vobj|2:time">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">yet</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">yet</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj">be</W>
@@ -179,8 +179,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:mod">join</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">later</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:succ">join</W>
+<W msd="ANP" tag="RB" in="-1:succ" out="">later</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|2:subj|14:pnct">says</W>
@@ -221,8 +221,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|3:preds|4:pnct|6:rel|14:mod|25:pnct">was</W>
-<W msd="NC=S" tag="NN" in="-1:mod" out="">yesterday</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:time|2:vobj|3:preds|4:pnct|6:rel|14:mod|25:pnct">was</W>
+<W msd="NC=S" tag="NN" in="-1:time" out="">yesterday</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]">declared</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="2:ref">bankrupt</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>

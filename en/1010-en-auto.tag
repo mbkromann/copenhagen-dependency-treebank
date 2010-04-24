@@ -101,7 +101,7 @@
 <W msd="AC" tag="CD" in="2:nobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:nobj">ago</W>
-<W msd="VADR" tag="VBP" in="-6:rel" out="-4:subj|-1:mod|1:dobj|11:pnct|5:@loc">put</W>
+<W msd="VADR" tag="VBP" in="-6:rel" out="-4:subj|-1:mod|1:dobj|5:@loc|11:pnct">put</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|3:nobj|7:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">gasoline</W>
@@ -113,8 +113,8 @@
 <W msd="VAP" tag="VBN" in="1:mod" out="">altered</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">additives</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VAP" tag="VBN" in="" out="-19:subj|-1:mod|1:dobj|11:pnct">removed</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VAP" tag="VBN" in="" out="-19:subj|-1:add|1:dobj|11:pnct">removed</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">25</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -160,8 +160,8 @@
 <W msd="NC=S" tag="NN" in="" out="">price</W>
 <W msd="NC=S" tag="NN" in="" out="">difference</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">at</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:nobj">three</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">three</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">øre</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -190,8 +190,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Shell</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:qobj|4:pnct">hesitates</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">Not</W>
-<W msd="ANP" tag="RB" in="-3:qobj" out="-2:pnct|-1:mod">immediately</W>
+<W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
+<W msd="ANP" tag="RB" in="-3:qobj" out="-2:pnct|-1:neg">immediately</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -199,8 +199,8 @@
 <W msd="VADR" tag="VBP" in="18:qobj" out="-1:subj|17:pnct">want</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="-3:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod|1:nobj">sure</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:nobj">sure</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">car</W>
@@ -229,14 +229,14 @@
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Shell</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-3:mod">had</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|16:pnct">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj|6:pnct|7:mod">pull</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj|6:pnct|7:reas">pull</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">product</W>
 <W msd="RG" tag="RP" in="-3:lobj" out="1:nobj">off</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">market</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:mod" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:reas" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">damaged</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="">a</W>

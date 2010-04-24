@@ -70,8 +70,8 @@
 <s>
 <W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">He</W>
-<W msd="VA" tag="MD" in="6:qobj" out="-2:pnct|-1:subj|1:mod|2:vobj|4:pnct|13:conj">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">soon</W>
+<W msd="VA" tag="MD" in="6:qobj" out="-2:pnct|-1:subj|2:vobj|4:pnct|13:conj|1:time">will</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">soon</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">arrested</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -83,9 +83,9 @@
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="-1:pnct">and</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="-13:conj" out="-1:subj|-2:coord|1:mod|2:mod|3:vobj">will</W>
+<W msd="VA" tag="MD" in="-13:conj" out="-1:subj|-2:coord|1:mod|2:add|3:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">probably</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">also</W>
+<W msd="ANP" tag="RB" in="-2:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:preds">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">best</W>
@@ -127,8 +127,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|4:mod">known</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">other</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-4:mod" out="-1:mod">long</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-4:mod" out="-1:degr">long</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PD" tag="DT" in="1:subj|5:[nobj]" out="4:rel">that</W>
@@ -158,8 +158,8 @@
 <W msd="I=" tag="UH" in="3:qobj" out="-1:pnct|1:pnct">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-3:qobj|-1:subj|1:mod|3:pnct">replied</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">without</W>
+<W msd="VADA" tag="VBD" in="" out="-3:qobj|-1:subj|1:accom|3:pnct">replied</W>
+<W msd="SP" tag="IN" in="-1:accom" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hesitation</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>

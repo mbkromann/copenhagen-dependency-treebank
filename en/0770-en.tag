@@ -24,21 +24,21 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:neg|3:preds|13:pnct|14:mod|30:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:mod|2:neg|3:preds|13:pnct|14:reas|30:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="">possible</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">provide</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">precise</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">precise</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">number</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">victims</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-14:mod" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-14:reas" out="3:vobj">because</W>
 <W msd="ANP" tag="JJ" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">villages</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj|8:pnct|9:mod">have</W>
@@ -72,7 +72,7 @@
 <W msd="PI" tag="DT" in="10:subj" out="1:nobj|2:pnct|3:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">journalist</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-3:mod" out="6:pnct|1:@dir">moving</W>
+<W msd="VAG" tag="VBG" in="-3:mod" out="1:@dir|6:pnct">moving</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">through</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ruins</W>

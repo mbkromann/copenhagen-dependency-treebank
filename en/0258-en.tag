@@ -45,9 +45,9 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:mod|-1:subj|1:preds|3:lobj|8:pnct">stands</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|3:lobj|8:pnct|-2:time">stands</W>
 <W msd="VAP" tag="VBN" in="-1:preds" out="1:part">stacked</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">in</W>

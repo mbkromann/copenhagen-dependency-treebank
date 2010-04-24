@@ -63,8 +63,8 @@
 <W msd="AC" tag="CD" in="-3:nobj" out="-2:mod|1:nobj|2:ref|3:rel">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">scholar</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:mod|2:preds">is</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">himself</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:focal|2:preds">is</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">himself</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="2:conj|3:pobj">active</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="-2:conj" out="-1:coord|1:[pobj]">recognised</W>
@@ -127,8 +127,8 @@
 <s>
 <W msd="PI" tag="DT" in="2:subj|4:[subj]" out="1:nobj">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">referee</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:mod|2:vobj|14:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:add|2:vobj|14:pnct">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:pobj">look</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="3:vobj">whether</W>
@@ -157,8 +157,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANP" tag="RB" in="-4:conj" out="-1:coord">not</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">perhaps</W>
-<W msd="SP" tag="IN" in="-7:mod" out="-1:mod|1:nobj">with</W>
+<W msd="ANP" tag="RB" in="1:epi" out="">perhaps</W>
+<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|-1:epi">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">some</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">changes</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
@@ -184,11 +184,11 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">colleague</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|2:vobj">can</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="NC=S" tag="NN" in="-2:vobj" out="-4:[subj]|-1:pnct|1:pnct|2:dobj|4:mod">slaughter</W>
+<W msd="NC=S" tag="NN" in="-2:vobj" out="-4:[subj]|-1:pnct|1:pnct|2:dobj|4:accom">slaughter</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">manuscript</W>
-<W msd="SP" tag="IN" in="-4:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-4:accom" out="1:nobj">without</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">fearing</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">after-effects</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>

@@ -8,8 +8,8 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct|2:ref|4:rel|22:pnct">operation</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|2:subj" out="">which</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">however</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-2:subj|-1:mod|1:mod|3:preds">is</W>
+<W msd="ANP" tag="RB" in="1:contr" out="">however</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-2:subj|1:mod|3:preds|-1:contr">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:part">far</W>
 <W msd="SP" tag="IN" in="-1:part" out="">from</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:nobj">any</W>
@@ -21,9 +21,9 @@
 <W msd="VAF" tag="VB" in="" out="">hold</W>
 <W msd="RG" tag="RP" in="" out="1:pobj">up</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:dur">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">strain</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-2:dur" out="1:nobj">during</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">boxing</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">match</W>
@@ -66,8 +66,8 @@
 <W msd="NC=S" tag="NN" in="" out="">verge</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="VAG" tag="VBG" in="" out="">giving</W>
-<W msd="RG" tag="RP" in="" out="1:mod">up</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">completely</W>
+<W msd="RG" tag="RP" in="" out="1:degr">up</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">completely</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -76,7 +76,7 @@
 <W msd="ANP" tag="RB" in="-1:mod" out="">just</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">hopeless</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="5:pnct|6:coord|1:@dir">walk</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|5:pnct|6:coord">walk</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">around</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">training</W>
@@ -88,20 +88,20 @@
 <W msd="NC=S" tag="NN" in="" out="">punching</W>
 <W msd="NC=S" tag="NN" in="" out="">bag</W>
 <W msd="SP" tag="IN" in="-5:mod" out="2:nobj">with</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:nobj">one</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hand</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">psychologically</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-24:conj" out="-3:mod|-1:subj|-5:coord|1:mod|3:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="-24:conj" out="-3:mod|-1:subj|-5:coord|1:add|3:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">hard</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:neg|1:@dir">walk</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:@dir|2:neg">walk</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="1:nobj">not</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">knowing</W>
@@ -110,9 +110,9 @@
 <W msd="ANP" tag="RB" in="-1:attr" out="">ever</W>
 <W msd="VAG" tag="VBG" in="" out="">going</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
-<W msd="VAF" tag="VB" in="" out="1:preds|2:mod">be</W>
+<W msd="VAF" tag="VB" in="" out="1:preds|2:ext">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
 <W msd="XP" tag="." in="-41:pnct" out="">.</W>
 </s>
 <s>

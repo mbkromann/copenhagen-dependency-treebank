@@ -82,8 +82,8 @@
 <W gloss="Panodil" lemma="Panodil" msd="NP--U==-" tag="NNP" in="-4:conj" out="">Panodil</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Pamol" lemma="Pamol" msd="NP--U==-" tag="NNP" in="-6:conj" out="-1:coord">Pamol</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:mod|3:preds|21:pnct">er</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="">nu</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:time|3:preds|21:pnct">er</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="">nu</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="3:nobj">så</W>
 <W gloss="great" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:mod|1:pnct">stort</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -95,12 +95,12 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="8:vobj">at</W>
 <W gloss="every" lemma="hver" msd="PI-CSU--U" tag="DT" in="7:subj" out="1:nobj">hver</W>
 <W gloss="Dane" lemma="dansker" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dansker</W>
-<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="5:mod" out="">årligt</W>
+<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="5:ext" out="">årligt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="4:mod" out="2:nobj">i</W>
 <W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">hele</W>
 <W gloss="his/her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-2:nobj" out="-1:attr|1:possd">sin</W>
 <W gloss="lifetime" lemma="levetid" msd="NCCSU==I" tag="NN" in="-1:possd" out="">levetid</W>
-<W gloss="taking" lemma="indtage" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-5:mod|-4:mod|1:dobj">indtager</W>
+<W gloss="taking" lemma="indtage" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-4:mod|1:dobj|-5:ext">indtager</W>
 <W gloss="160" lemma="160" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">160</W>
 <W gloss="pills" lemma="pille" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">piller</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
@@ -110,8 +110,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="1:subj" out="">Folk</W>
-<W gloss="eat" lemma="spise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:mod|3:dobj|4:pobj|12:pnct">spiser</W>
-<W gloss="now" lemma="efterhånden" msd="RGU" tag="RP" in="-1:mod" out="">efterhånden</W>
+<W gloss="eat" lemma="spise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:time|3:dobj|4:pobj|12:pnct">spiser</W>
+<W gloss="now" lemma="efterhånden" msd="RGU" tag="RP" in="-1:time" out="">efterhånden</W>
 <W gloss="pain" lemma="smertestillende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">smertestillende</W>
 <W gloss="drugs" lemma="medicin" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr">medicin</W>
 <W gloss="like" lemma="som" msd="U=" tag="WDT" in="-4:pobj" out="2:nobj|4:conj">som</W>
@@ -131,8 +131,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-3:mod" out="2:vobj">for</W>
 <W gloss="over-the-counter_medicine" lemma="håndkøbsmedicin" msd="NCCSU==I" tag="NN" in="1:subj" out="">håndkøbsmedicin</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|4:preds|5:pnct|3:neg">er</W>
-<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:mod" out="1:mod">nu</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:time|3:neg|4:preds|5:pnct">er</W>
+<W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-1:time" out="1:mod">nu</W>
 <W gloss="even" lemma="engang" msd="RGU" tag="RP" in="-1:mod" out="">engang</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
 <W gloss="harmless" lemma="ufarlig" msd="ANPNSU=IU" tag="JJ" in="-4:preds" out="">ufarligt</W>
@@ -177,10 +177,10 @@
 <p>
 <s>
 <W gloss="Danes" lemma="dansker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Danskerne</W>
-<W gloss="consume" lemma="indtage" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:dobj|24:conj|27:pnct">indtager</W>
-<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">årligt</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:mod" out="">ca.</W>
-<W gloss="400" lemma="400" msd="AC---U=--" tag="CD" in="-3:dobj" out="-1:mod|1:nobj|4:pnct|5:modp">400</W>
+<W gloss="consume" lemma="indtage" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:dobj|24:conj|27:pnct|1:ext">indtager</W>
+<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-1:ext" out="">årligt</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
+<W gloss="400" lemma="400" msd="AC---U=--" tag="CD" in="-3:dobj" out="-1:degr|1:nobj|4:pnct|5:modp">400</W>
 <W gloss="tons" lemma="ton" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">ton</W>
 <W gloss="active" lemma="aktiv" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">aktivt</W>
 <W gloss="substances" lemma="stof" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">stof</W>

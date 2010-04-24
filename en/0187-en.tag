@@ -23,14 +23,14 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="8:conj|42:pnct">But</W>
-<W msd="ANP" tag="RB" in="7:mod" out="1:pobj">even</W>
+<W msd="ANP" tag="RB" in="7:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="3:vobj">though</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">total</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">investment</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:pnct">fell</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-7:mod|-1:subj|1:mod|2:mod">rose</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-7:focal|1:mod|2:mod">rose</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">significantly</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj|4:pnct|7:appa">certain</W>
@@ -138,7 +138,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Unix</W>
-<W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|2:vobj|10:pnct|1:neg">will</W>
+<W msd="VA" tag="MD" in="" out="-2:pnct|-1:subj|1:neg|2:vobj|10:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">overtake</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:mod|4:mod">the</W>
@@ -162,7 +162,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|15:pnct">And</W>
 <W msd="NP=S" tag="NNP" in="1:subj|9:[subj]" out="">Unix</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:dobj|8:conj|1:neg">is</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:neg|2:dobj|8:conj">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">substitute</W>
@@ -181,7 +181,7 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]|13:[subj]" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">personal</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">computer</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|2:vobj|5:pnct|10:conj|20:pnct|1:neg">did</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:neg|2:vobj|5:pnct|10:conj|20:pnct">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">kill</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -204,8 +204,8 @@
 <W msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="" out="1:mod">Hardware</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:nobj">without</W>
+<W msd="NP=S" tag="NNP" in="" out="1:accom">Hardware</W>
+<W msd="SP" tag="IN" in="-1:accom" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interest</W>
 <W msd="SP" tag="IN" in="26:mod" out="1:nobj">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:appa">this</W>

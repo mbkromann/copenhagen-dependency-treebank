@@ -57,7 +57,7 @@
 </s>
 <s>
 <W msd="XP" tag="&amp;quot;" in="26:pnct" out="">"</W>
-<W msd="CS" tag="IN" in="25:mod" out="7:vobj">If</W>
+<W msd="CS" tag="IN" in="25:cond" out="7:vobj">If</W>
 <W msd="NC=P" tag="NNS" in="6:subj|8:[subj]" out="">people</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:possd">the</W>
@@ -82,7 +82,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">society</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="7:qobj" out="-26:pnct|-25:mod|-1:subj|1:vobj|5:pnct|6:pnct">will</W>
+<W msd="VA" tag="MD" in="7:qobj" out="-26:pnct|-1:subj|-25:cond|1:vobj|5:pnct|6:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">self-reinforcing</W>
@@ -114,14 +114,14 @@
 <W msd="ANC" tag="JJR" in="-1:attr" out="">lower</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">secondary</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">school</W>
-<W msd="VADR" tag="VBP" in="-18:xpl" out="-12:subj|2:vobj|8:pnct|1:neg">have</W>
+<W msd="VADR" tag="VBP" in="-18:xpl" out="-12:subj|1:neg|2:vobj|8:pnct">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:dobj|5:mod">begun</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-14:[subj]|1:dobj|5:succ">begun</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">education</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">15</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
-<W msd="ANP" tag="RB" in="-5:mod" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-5:succ" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
@@ -179,7 +179,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:nobj" out="">second-generation</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj">immigrants</W>
-<W msd="VADR" tag="VBP" in="" out="-10:subj|1:avobj|7:pnct|8:mod|20:pnct">continue</W>
+<W msd="VADR" tag="VBP" in="" out="-10:subj|1:avobj|7:pnct|8:cont|20:pnct">continue</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:mod">on</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">the</W>
@@ -187,13 +187,13 @@
 <W msd="ANP" tag="JJ" in="-2:attr" out="">secondary</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">level</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:mod" out="8:vobj">while</W>
-<W msd="AC" tag="CD" in="7:subj" out="2:conj|3:nobj|4:pnct|5:mod">13</W>
+<W msd="CS" tag="IN" in="-8:cont" out="8:vobj">while</W>
+<W msd="AC" tag="CD" in="7:subj" out="2:conj|3:nobj|4:pnct|5:struct">13</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">22</W>
 <W msd="NC=S" tag="NN" in="-3:nobj|-1:[nobj]" out="">percent</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-5:mod" out="1:pnct">respectively</W>
+<W msd="ANP" tag="RB" in="-5:struct" out="1:pnct">respectively</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-8:vobj" out="-7:subj|1:avobj">go</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="1:mod">on</W>

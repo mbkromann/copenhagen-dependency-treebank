@@ -39,9 +39,9 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="" out="1:nobj|2:mod|4:pnct">No</W>
+<W msd="PD" tag="DT" in="" out="1:nobj|4:pnct|2:accom">No</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">roses</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-2:accom" out="1:nobj">without</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">thorns</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>

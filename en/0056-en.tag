@@ -47,8 +47,8 @@
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-18:pnct" out="">"</W>
 <W msd="VADA" tag="VBD" in="" out="-19:qobj|1:subj|7:pnct">said</W>
-<W msd="PI" tag="DT" in="-1:subj" out="1:mod|2:nobj|3:pnct|5:appa">an</W>
-<W msd="VAP" tag="VBN" in="-1:mod" out="">injured</W>
+<W msd="PI" tag="DT" in="-1:subj" out="2:nobj|3:pnct|5:appa|1:attr">an</W>
+<W msd="VAP" tag="VBN" in="-1:attr" out="">injured</W>
 <W msd="ANP" tag="JJ" in="-2:nobj" out="">Lithuanian</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Atansa</W>
@@ -160,13 +160,13 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Spanish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">TV</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">crew</W>
-<W msd="VADA" tag="VBD" in="" out="-7:subj|1:vobj|5:pnct|6:mod|22:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-7:subj|1:vobj|5:pnct|6:reas|22:pnct">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:pobj">beaten</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">by</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Soviet</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">soldiers</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:mod" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-6:reas" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">filmed</W>

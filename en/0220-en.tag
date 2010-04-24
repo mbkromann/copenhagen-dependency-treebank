@@ -103,10 +103,10 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|3:mod|5:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|5:pnct|3:time">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">home</W>
-<W msd="NC=S" tag="NN" in="-3:mod" out="1:nobj">tomorrow</W>
+<W msd="NC=S" tag="NN" in="-3:time" out="1:nobj">tomorrow</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">evening</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

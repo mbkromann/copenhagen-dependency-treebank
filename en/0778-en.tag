@@ -38,8 +38,8 @@
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W msd="AC" tag="CD" in="8:subj|9:[subj]" out="1:mod|2:mod|3:nobj|4:mod">Two</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">large</W>
+<W msd="AC" tag="CD" in="8:subj|9:[subj]" out="2:mod|3:nobj|4:mod|1:attr">Two</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">solar</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">panels</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">at</W>
@@ -94,8 +94,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Protest</W>
 <W msd="ANP" tag="JJ" in="" out="-1:mod|1:pobj">walk-out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Cancer</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Society</W>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|18:list|37:pnct">ELSINORE</W>
@@ -107,8 +107,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">local</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj|6:mod">association</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Cancer</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Society</W>
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
@@ -118,7 +118,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Elsinore</W>
 <W msd="VADR" tag="VBZ" in="-18:list" out="-16:subj|1:mod|2:vobj">has</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">collectively</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-18:[subj]|2:mod|6:mod|1:@dir">stepped</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-18:[subj]|1:@dir|2:mod|6:mod">stepped</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
@@ -131,8 +131,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">executive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">committee</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Cancer</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-1:mod">Society</W>
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
@@ -157,8 +157,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:pobj">co-operation</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">researchers</W>
-<W msd="SP" tag="IN" in="-1:mod" out="1:pobj">outside</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:loc">researchers</W>
+<W msd="SP" tag="IN" in="-1:loc" out="1:pobj">outside</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">association</W>
@@ -226,8 +226,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">household</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">effects</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADA" tag="VBD" in="-23:conj" out="-1:subj|-7:coord|1:mod|2:vobj|9:pnct">had</W>
-<W msd="PP" tag="PRP" in="-1:mod" out="">themselves</W>
+<W msd="VADA" tag="VBD" in="-23:conj" out="-1:subj|-7:coord|1:focal|2:vobj|9:pnct">had</W>
+<W msd="PP" tag="PRP" in="-1:focal" out="">themselves</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-8:dobj|-3:[subj]|1:mod">sold</W>
 <W msd="SP" tag="IN" in="-1:mod" out="2:nobj">through</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

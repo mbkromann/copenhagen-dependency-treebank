@@ -1,7 +1,7 @@
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]|5:[subj]" out="">Garfish</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">gradually</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:man">are</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">gradually</W>
 <W msd="VAG" tag="VBG" in="" out="-3:[subj]">beginning</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="-5:[subj]|1:pnct|3:mod|14:pnct">arrive</W>
@@ -91,7 +91,7 @@
 <W msd="AC" tag="CD" in="-2:nobj" out="-1:nobj|1:mod">60</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">per</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kg</W>
-<W msd="VADR" tag="VBZ" in="" out="5:conj|15:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="1:preds|5:conj|15:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">Danish</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
@@ -138,9 +138,9 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-1:subj|1:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">taste</W>
-<W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:mod|3:nobj|7:appr|9:mod|10:mod|12:mod">the</W>
+<W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj|7:appr|9:mod|10:mod|12:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">elegant</W>
-<W msd="NP=S" tag="NNP" in="-2:mod" out="">English</W>
+<W msd="NP=S" tag="NNP" in="-2:attr" out="">English</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">cheddar</W>
 <W msd="XP" tag="." in="" out="">.</W>
 </s>

@@ -2,8 +2,8 @@
 <W msd="ANP" tag="JJ" in="3:subj|10:[subj]" out="2:nobj">Several</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bank</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">employees</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:mod|6:dobj|19:pnct">tried</W>
-<W msd="SP" tag="IN" in="-1:mod" out="">during</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:dur|6:dobj|19:pnct">tried</W>
+<W msd="SP" tag="IN" in="-1:dur" out="">during</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">annual</W>
 <W msd="ANP" tag="JJ" in="" out="">general</W>
@@ -109,16 +109,16 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">It</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">also</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:pobj|6:dobj|26:pnct">emerged</W>
+<W msd="ANP" tag="RB" in="1:add" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:add|1:pobj|6:dobj|26:pnct">emerged</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">J.</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:namef|-1:namef|1:possd">Svanholm's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">account</W>
 <W msd="SP" tag="IN" in="-6:dobj" out="4:vobj">that</W>
-<W msd="NP=S" tag="NNP" in="3:subj|5:[subj]|7:[subj]" out="1:mod|2:nobj">Den</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
+<W msd="NP=S" tag="NNP" in="3:subj|5:[subj]|7:[subj]" out="2:nobj|1:attr">Den</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
 <W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:neg|2:vobj">would</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -145,10 +145,10 @@
 <W msd="ANP" tag="JJ" in="8:mod" out="-1:mod|1:coord|2:pnct">healthy</W>
 <W msd="CC" tag="CC" in="-1:coord" out="">or</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">perhaps</W>
+<W msd="ANP" tag="RB" in="3:epi" out="1:pnct">perhaps</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANC" tag="RBR" in="1:mod" out="">less</W>
-<W msd="ANP" tag="RB" in="" out="-3:mod|-1:mod">well</W>
+<W msd="ANP" tag="RB" in="" out="-1:mod|-3:epi">well</W>
 <W msd="VAF" tag="VB" in="" out="">run</W>
 <W msd="ANP" tag="JJ" in="" out="-8:mod">financial</W>
 <W msd="NC=P" tag="NNS" in="" out="">institutions</W>
@@ -160,8 +160,8 @@
 <W msd="VADR" tag="VBP" in="26:qobj" out="-18:pnct|-17:mod|-1:subj|1:vobj|21:pnct">mustn't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj">expect</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
-<W msd="NP=S" tag="NNP" in="3:subj|5:[subj]" out="1:mod|2:nobj">Den</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
+<W msd="NP=S" tag="NNP" in="3:subj|5:[subj]" out="2:nobj|1:attr">Den</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank</W>
 <W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:mod|2:vobj|14:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">automatically</W>
@@ -179,8 +179,8 @@
 <W msd="NC=P" tag="NNS" in="" out="">institutions</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="4:nobj" out="1:mod|2:nobj|3:possd">Den</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danske</W>
+<W msd="NP=S" tag="NNP" in="4:nobj" out="2:nobj|3:possd|1:attr">Den</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danske</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Bank's</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">chairman</W>
 <W msd="VAP" tag="VBN" in="" out="-26:qobj|-4:nobj|1:pnct">stated</W>

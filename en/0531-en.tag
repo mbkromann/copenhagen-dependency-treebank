@@ -62,8 +62,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="1:mod|2:nobj">The</W>
 <W msd="VAG" tag="VBG" in="-1:mod" out="">prosecuting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">authority</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:mod|2:vobj|7:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:subj|1:add|2:vobj|7:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[subj]|1:dobj">reserved</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">possibility</W>
@@ -168,8 +168,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:mod|2:vobj|15:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:add|2:vobj|15:pnct">have</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">evaded</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="1:pobj|5:mod">payments</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -205,9 +205,9 @@
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Erik</W>
 <W msd="NP=S" tag="NNP" in="-6:appr" out="-2:namef|1:pnct">Jensen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:mod" out="1:pnct">however</W>
+<W msd="ANP" tag="RB" in="2:contr" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-10:subj|1:neg|2:vobj|17:pnct">did</W>
+<W msd="VADA" tag="VBD" in="" out="-10:subj|1:neg|2:vobj|17:pnct|-2:contr">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-12:[subj]|1:dobj">hide</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -218,7 +218,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj">members</W>
 <W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|1:neg|2:vobj">could</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|2:mod|1:@dir">go</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:@dir|2:mod">go</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>

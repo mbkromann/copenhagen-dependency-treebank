@@ -96,8 +96,8 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Han</W>
 <W gloss="does_dare" lemma="turde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|6:pnct">tør</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:mod|2:@dir">gå</W>
-<W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="-1:mod" out="">alene</W>
+<W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|2:@dir|1:accom">gå</W>
+<W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="-1:accom" out="">alene</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="the_bus" lemma="bus" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bussen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
@@ -108,8 +108,8 @@
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:preds" out="1:pnct|2:ref|5:rel">flere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]|5:[subj]" out="">som</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:mod" out="">næsten</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:mod">ikke</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:degr">ikke</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-1:neg|1:vobj">har</W>
 <W gloss="dared" lemma="turde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">turdet</W>
 <W gloss="send" lemma="sende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:@dir|5:mod">sende</W>
@@ -124,8 +124,8 @@
 </s>
 <s>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:mod|2:dobj|19:pnct|20:pnct">er</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:mod" out="">også</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:expl|1:add|2:dobj|19:pnct|20:pnct">er</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-2:dobj" out="1:pnct|2:ref|3:rel">nogle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">som</W>

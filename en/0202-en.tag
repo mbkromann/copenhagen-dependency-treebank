@@ -1,7 +1,7 @@
 <s>
 <W msd="PP" tag="PRP" in="2:subj|7:[subj]" out="">He</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">quickly</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:dobj|5:conj|24:pnct">got</W>
+<W msd="ANP" tag="RB" in="1:man" out="">quickly</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-1:man|1:dobj|5:conj|24:pnct">got</W>
 <W msd="VAF" tag="VB" in="-1:dobj" out="1:pobj">hold</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">DTM</W>
@@ -89,8 +89,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Kris</W>
 <W msd="VADR" tag="VBZ" in="-11:xpl" out="-2:pnct|-1:subj|1:preds|17:conj|24:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|5:nobj|6:pnct|7:ref|11:rel">a</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">serious</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">serious</W>
 <W msd="NC=S" tag="NN" in="2:mod" out="">race</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">car</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-2:mod|-1:mod">driver</W>
@@ -132,8 +132,8 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-6:mod|2:preds|3:mod|6:pnct|9:conj|24:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">fair</W>
+<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">fair</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">track</W>
@@ -143,14 +143,14 @@
 <W msd="VADR" tag="VBP" in="-9:conj" out="-1:subj|-2:coord|1:vobj">can't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:pobj">think</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:vobj">of</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="1:dobj|7:mod">having</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="1:dobj|7:dur">having</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:pnct|2:nobj|3:pnct">any</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="2:pobj">problems</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">him</W>
-<W msd="SP" tag="IN" in="-7:mod" out="1:nobj|3:conj">during</W>
+<W msd="SP" tag="IN" in="-7:dur" out="1:nobj|3:conj">during</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">training</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="SP" tag="IN" in="-3:conj" out="-1:coord|1:nobj">in</W>
@@ -191,8 +191,8 @@
 <W msd="NC=S" tag="NN" in="-1:preds" out="">driver</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|6:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-14:rel" out="-9:mod|-1:subj|-7:mod|1:mod|2:vobj">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADA" tag="VBD" in="-14:rel" out="-9:mod|-1:subj|-7:mod|1:add|2:vobj">was</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">supposed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="2:vobj">to</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
@@ -233,8 +233,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">factory</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="-2:mod|-1:mod">team</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">English</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|1:attr">the</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">English</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">championship</W>
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>

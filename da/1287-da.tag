@@ -149,8 +149,8 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_North_Pole" lemma="Nordpolen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nordpolen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-6:mod" out="-1:mod|1:nobj">på</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-6:mod" out="-1:add|1:nobj">på</W>
 <W gloss="motorcycle" lemma="motorcykel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">motorcykel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -172,7 +172,7 @@
 <W gloss="month's" lemma="måned" msd="NCCSG==I" tag="NN" in="-1:nobj" out="">måneds</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:possd" out="">tid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-6:nobj" out="1:vobj">at</W>
-<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="5:conj|1:@dir">krydse</W>
+<W gloss="cross" lemma="krydse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|5:conj">krydse</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:mod" out="1:nobj">over</W>
 <W gloss="the_ice_cap" lemma="iskalot" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">iskalotten</W>
@@ -185,8 +185,8 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Han</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|6:pnct">blev</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:mod" out="">kun</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|6:pnct|1:degr">blev</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
 <W gloss="delayed" lemma="forsinke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:mod">forsinket</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:mod" out="1:nobj">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>
@@ -209,12 +209,12 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|4:pnct|5:mod|13:pnct">kørte</W>
+<W gloss="drove" lemma="køre" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:mod|2:mod|4:pnct|5:time|13:pnct">kørte</W>
 <W gloss="predominantly" lemma="fortrinsvis" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">fortrinsvis</W>
 <W gloss="at" lemma="om" msd="SP" tag="IN" in="-2:mod" out="1:nobj">om</W>
 <W gloss="night" lemma="nat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">natten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="when" lemma="når" msd="CS" tag="IN" in="-5:mod" out="2:vobj">når</W>
+<W gloss="when" lemma="når" msd="CS" tag="IN" in="-5:time" out="2:vobj">når</W>
 <W gloss="the_frost" lemma="frost" msd="NCCSU==D" tag="NN" in="1:subj" out="">frosten</W>
 <W gloss="made" lemma="gøre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:preds">gjorde</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="2:nobj">det</W>

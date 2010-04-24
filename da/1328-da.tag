@@ -76,15 +76,15 @@
 <W gloss="pieces" lemma="stykke" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">stykker</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-7:ref|1:mod" out="">så</W>
-<W gloss="let" lemma="lade" msd="VAM-=------" tag="VB" in="" out="-8:xtop|-1:mod|1:vobj|2:pnct|4:mod|13:pnct">lad</W>
+<W gloss="let" lemma="lade" msd="VAM-=------" tag="VB" in="" out="-8:xtop|-1:mod|1:vobj|2:pnct|4:conc|13:pnct">lad</W>
 <W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">gå</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="the_osce" lemma="osse" msd="RGU" tag="RP" in="1:mod" out="">osse</W>
-<W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-4:mod" out="-1:mod|4:vobj">selv_om</W>
+<W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-4:conc" out="-1:mod|4:vobj">selv_om</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="2:mod" out="">jo</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:mod" out="">næsten</W>
-<W gloss="thought" lemma="tro" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|-1:mod|1:pnct|3:vobj">troede</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
+<W gloss="thought" lemma="tro" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|-1:degr|1:pnct|3:vobj">troede</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="were_going_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">skulle</W>
@@ -104,8 +104,8 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
 <W gloss="hope" lemma="håbe" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|3:vobj">håber</W>
 <W gloss="DR" lemma="DR" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]" out="">DR</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:mod" out="">også</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj">har</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:add|1:vobj">har</W>
 <W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">taget</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="teach" lemma="lære" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">lære</W>
@@ -115,8 +115,8 @@
 </p>
 <p>
 <s>
-<W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:mod" out="">Blandt_andet</W>
-<W gloss="have_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:vobj|10:pnct">skal</W>
+<W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">Blandt_andet</W>
+<W gloss="have_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|10:pnct|-1:exem">skal</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="do" lemma="lave" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj|6:pobj">lave</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">en</W>
@@ -205,8 +205,8 @@
 <s>
 <W gloss="The_Swedes" lemma="svensker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Svenskerne</W>
 <W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct">var</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:mod" out="">helt</W>
-<W gloss="incredible" lemma="utrolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:mod">utrolige</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
+<W gloss="incredible" lemma="utrolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr">utrolige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>

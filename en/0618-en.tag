@@ -68,8 +68,8 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">red</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">mouth</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">deep</W>
-<W msd="SP" tag="IN" in="-5:preds" out="-1:mod|1:nobj">inside</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">deep</W>
+<W msd="SP" tag="IN" in="-5:preds" out="1:nobj|-1:attr">inside</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">white</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">cotton</W>

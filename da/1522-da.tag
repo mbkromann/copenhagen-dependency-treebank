@@ -73,9 +73,9 @@
 </s>
 <s>
 <W gloss="That_is_the_way" lemma="sådan" msd="RGU" tag="RP" in="-1:preds|1:preds" out="">Sådan</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:mod|3:mod|5:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:add|3:mod|5:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
-<W gloss="too" lemma="også" msd="RGU" tag="RP" in="-2:mod" out="">også</W>
+<W gloss="too" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:mod" out="1:nobj">med</W>
 <W gloss="Parken" lemma="park" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Parken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -91,9 +91,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-4:ref|7:nobj" out="">som</W>
 <W gloss="the_football_audience" lemma="fodbold-publikum" msd="NCNSU==D" tag="NN" in="2:subj|4:[subj]|5:[subj]" out="">fodbold-publikummet</W>
-<W gloss="neither" lemma="hverken" msd="RGU" tag="RP" in="2:mod" out="">hverken</W>
+<W gloss="neither" lemma="hverken" msd="RGU" tag="RP" in="2:correl" out="">hverken</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-2:subj|2:conj|3:vobj">kan</W>
-<W gloss="nor" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-2:mod">eller</W>
+<W gloss="nor" lemma="eller" msd="CC" tag="CC" in="1:coord" out="-2:correl">eller</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-4:[subj]|-1:coord|1:[vobj]">vil</W>
 <W gloss="live" lemma="leve" msd="VAF-=----A-" tag="VB" in="-3:vobj|-1:[vobj]" out="-5:[subj]|1:pobj">leve</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="-7:nobj">med</W>
@@ -115,8 +115,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:expl|-2:coord|1:mod|2:dobj">er</W>
-<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="-1:mod" out="">i_hvert_fald</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-1:expl|-2:coord|1:eval|2:dobj">er</W>
+<W gloss="at_least" lemma="i_hvert_fald" msd="RGU" tag="RP" in="-1:eval" out="">i_hvert_fald</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="-2:dobj" out="1:mod|2:pnct|7:xpl">disse</W>
 <W gloss="this" lemma="her" msd="RGU" tag="RP" in="-1:mod" out="">her</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
@@ -181,14 +181,14 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:nobj" out="2:vobj">at</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj|2:[subj]" out="">mange</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
-<W gloss="left" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod">gået</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:mod" out="">igen</W>
+<W gloss="left" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:ext">gået</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="Others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="1:subj|2:[subj]" out="">Andre</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|16:pnct">er</W>
-<W gloss="arrived" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|6:pnct|3:@dir">kommet</W>
+<W gloss="arrived" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|3:@dir|6:pnct">kommet</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="6:nobj">så</W>
 <W gloss="late" lemma="sen" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:mod">sent</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:@dir" out="1:mod">ind</W>

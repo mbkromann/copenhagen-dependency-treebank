@@ -15,10 +15,10 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-13:[subj]|1:dobj">believe</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|3:[subj]" out="">Russia</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|3:mod">can</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|3:accom">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]">developed</W>
-<W msd="SP" tag="IN" in="-3:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-3:accom" out="1:nobj">without</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj">an</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">iron</W>
@@ -67,7 +67,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="16:conj|21:pnct">And</W>
-<W msd="PT" tag="WRB" in="15:mod" out="3:vobj">when</W>
+<W msd="PT" tag="WRB" in="15:time" out="3:vobj">when</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">representatives</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:preds|8:pnct">are</W>
@@ -82,7 +82,7 @@
 <W msd="PI" tag="DT" in="3:subj" out="2:nobj">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">iron</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">fist</W>
-<W msd="VADR" tag="VBZ" in="-16:conj" out="-3:subj|-15:mod|1:dobj|3:pobj">puts</W>
+<W msd="VADR" tag="VBZ" in="-16:conj" out="-3:subj|-15:time|1:dobj|3:pobj">puts</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stop</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:dobj">to</W>
@@ -96,8 +96,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="4:pobj">conditions</W>
-<W msd="VADR" tag="VBP" in="" out="-6:mod|-2:subj|1:mod|2:vobj|15:pnct|16:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-6:mod|-2:subj|2:vobj|15:pnct|16:pnct|1:ext">are</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">created</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj|9:conj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -121,11 +121,11 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="16:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Precisely</W>
-<W msd="CS" tag="IN" in="14:mod" out="-1:mod|2:vobj">because</W>
+<W msd="CS" tag="IN" in="14:reas" out="-1:mod|2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:vobj|10:pnct">do</W>
-<W msd="ANP" tag="RB" in="-1:neg" out="1:mod">not</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">even</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="1:focal">not</W>
+<W msd="ANP" tag="RB" in="-1:focal" out="">even</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">germ</W>
@@ -135,7 +135,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">society</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-18:qobj" out="-16:pnct|-14:mod|-1:subj|1:preds|4:pnct">are</W>
+<W msd="VADR" tag="VBP" in="-18:qobj" out="-16:pnct|-1:subj|-14:reas|1:preds|4:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">against</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC" tag="NP--U==-" in="-1:nobj" out="">Duma</W>

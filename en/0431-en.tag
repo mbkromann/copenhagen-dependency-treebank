@@ -24,7 +24,7 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">solution</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|4:pnct|8:conj|15:pnct|2:preds">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|2:preds|4:pnct|8:conj|15:pnct">was</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:preds" out="-1:pnct|1:pnct">Personality</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -57,8 +57,8 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="1:preds" out="">Present</W>
-<W msd="VADA" tag="VBD" in="" out="1:mod|2:subj|20:pnct|-1:preds">were</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VADA" tag="VBD" in="" out="-1:preds|1:add|2:subj|20:pnct">were</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="NP=S" tag="NNP" in="-2:subj" out="1:name|4:pnct|6:conj|7:pnct|8:conj|10:conj">De</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="2:possd">Beers'</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">top</W>
@@ -87,8 +87,8 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Køge</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|1:mod|2:vobj|10:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">recently</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:vobj|10:pnct|1:time">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">recently</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-8:[subj]|1:dobj">restored</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj|4:mod">silver</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -144,7 +144,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|6:pnct|1:preds">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|6:pnct">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:attr|2:possd|3:mod">his</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">work</W>

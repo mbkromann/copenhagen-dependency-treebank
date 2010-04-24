@@ -45,16 +45,16 @@
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:preds|2:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-2:time|1:preds|2:pnct">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">serious</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="2:mod" out="">Now</W>
+<W msd="ANP" tag="RB" in="2:time" out="">Now</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:pnct">hurt</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-2:time|1:pnct">hurt</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
 <s>
@@ -129,8 +129,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:aobj">for</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">sure</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="">deep</W>
-<W msd="ANP" tag="RB" in="-6:mod" out="-1:mod">inside</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="">deep</W>
+<W msd="ANP" tag="RB" in="-6:mod" out="-1:attr">inside</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -188,7 +188,7 @@
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="NP=S" tag="NNP" in="1:[subj]|2:[subj]" out="-1:pnct|1:vobj|6:pnct">It's</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-1:[subj]|1:vobj">been</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|2:mod|1:@loc">lying</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:@loc|2:mod">lying</W>
 <W msd="ANP" tag="RB" in="-1:@loc" out="">here</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
@@ -205,10 +205,10 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:mod|2:vobj|6:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">now</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:mod|2:pobj">looking</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">directly</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:time|2:vobj|6:pnct">was</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">now</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:man|2:pobj">looking</W>
+<W msd="ANP" tag="RB" in="-1:man" out="">directly</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Lars</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>

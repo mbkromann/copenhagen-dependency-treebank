@@ -30,8 +30,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:mod|2:vobj|4:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">never</W>
+<W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:neg|2:vobj|4:pnct">had</W>
+<W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">imagined</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">that</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -172,15 +172,15 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="3:conj|10:pnct">But</W>
-<W msd="NC=S" tag="NN" in="2:mod" out="">today</W>
+<W msd="NC=S" tag="NN" in="2:time" out="">today</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:mod|-1:subj|2:vobj">believe</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-1:subj|-2:time|2:vobj">believe</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:mod">done</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:man">done</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">job</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="">well</W>
+<W msd="ANP" tag="RB" in="-3:man" out="">well</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -226,18 +226,18 @@
 <W msd="NC=P" tag="NNS" in="" out="-1:attr">subjects</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="20:subj" out="2:nobj|3:mod">The</W>
+<W msd="PD" tag="DT" in="20:subj" out="2:nobj|3:loc">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">idea</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">man</W>
-<W msd="SP" tag="IN" in="-3:mod" out="1:nobj">behind</W>
+<W msd="SP" tag="IN" in="-3:loc" out="1:nobj">behind</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">project</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">between</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:conj|10:conj">Danfoss</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="PD" tag="DT" in="-2:conj" out="1:mod|2:mod|3:nobj">the</W>
+<W msd="PD" tag="DT" in="-2:conj" out="1:mod|2:attr|3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Royal</W>
-<W msd="NP=S" tag="NNP" in="-2:mod" out="">Danish</W>
+<W msd="NP=S" tag="NNP" in="-2:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="1:pobj">School</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Education</W>

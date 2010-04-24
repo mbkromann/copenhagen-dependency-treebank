@@ -120,13 +120,13 @@
 </p>
 <p>
 <s>
-<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="2:mod" out="1:nobj">Ifølge</W>
+<W gloss="According_to" lemma="ifølge" msd="SP" tag="IN" in="2:source" out="1:nobj">Ifølge</W>
 <W gloss="the_radio" lemma="radio" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">radioen</W>
-<W gloss="gave" lemma="sætte" msd="VADA=----A-" tag="VBD" in="" out="-2:mod|1:subj|4:mod|5:dobj|7:avobj|34:pnct">satte</W>
+<W gloss="gave" lemma="sætte" msd="VADA=----A-" tag="VBD" in="" out="1:subj|4:add|5:dobj|7:avobj|34:pnct|-2:source">satte</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">de</W>
 <W gloss="Serbian" lemma="serbisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">serbiske</W>
 <W gloss="forces" lemma="styrke" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">styrker</W>
-<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-4:mod" out="">også</W>
+<W gloss="also" lemma="også" msd="RGU" tag="RP" in="-4:add" out="">også</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-5:dobj" out="1:nobj">en</W>
 <W gloss="offensive" lemma="offensiv" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">offensiv</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-7:avobj" out="1:mod">ind</W>
@@ -219,7 +219,7 @@
 <W gloss="is_blamed" lemma="beskylde" msd="VADR=----P-" tag="VBD" in="-3:rel" out="-1:subj|1:pobj">beskyldes</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="keeping" lemma="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:mod|2:preds">holde</W>
+<W gloss="keeping" lemma="holde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:preds|3:mod">holde</W>
 <W gloss="the_war" lemma="krig" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">krigen</W>
 <W gloss="going" lemma="i_gang" msd="RGU" tag="RP" in="-2:preds" out="">i_gang</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-3:mod" out="1:nobj">ved</W>

@@ -123,11 +123,11 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|4:mod">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|4:accom">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">American</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">president</W>
-<W msd="SP" tag="IN" in="-4:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-4:accom" out="1:nobj">without</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">majority</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -141,7 +141,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bill</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|4:[subj]" out="-1:namef">Clinton</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|-1:subj|1:vobj|18:pnct|19:mod|61:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|-1:subj|1:vobj|18:pnct|61:pnct|19:cont">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">tried</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:pobj">make</W>
@@ -160,7 +160,7 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">economic</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="">fiasco</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-19:mod" out="9:vobj">while</W>
+<W msd="CS" tag="IN" in="-19:cont" out="9:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">George</W>
 <W msd="NP=S" tag="NNP" in="7:subj|8:[subj]|10:[subj]" out="-1:namef|1:pnct">Bush</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

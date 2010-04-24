@@ -66,7 +66,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">logical</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">consequence</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:pobj|8:pnct|9:mod">one</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:pobj|8:pnct|9:time">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="">greatest</W>
@@ -75,7 +75,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">time</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="PT" tag="WRB" in="-9:mod" out="2:vobj">when</W>
+<W msd="PT" tag="WRB" in="-9:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:pobj">comes</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
@@ -103,7 +103,7 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:dobj|9:mod">constitute</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-1:subj|1:dobj|9:time">constitute</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
@@ -112,7 +112,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">public</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">schools</W>
-<W msd="NC=S" tag="NN" in="-9:mod" out="">today</W>
+<W msd="NC=S" tag="NN" in="-9:time" out="">today</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-15:appa|3:[iobj]" out="1:nobj|3:rel|7:conj|11:conj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ones</W>
@@ -128,8 +128,8 @@
 <W msd="PD" tag="DT" in="-11:conj" out="1:nobj|2:ref|3:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ones</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:mod|2:preds|5:mod">are</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">always</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:ext|2:preds|5:mod">are</W>
+<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">face</W>
@@ -161,8 +161,8 @@
 <W msd="PD" tag="DT" in="" out="1:nobj|2:ref|4:rel|14:pnct">All</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">those</W>
 <W msd="PT" tag="WP" in="-2:ref|2:subj" out="">who</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">apparently</W>
-<W msd="VADR" tag="VBP" in="-4:rel" out="-2:subj|-1:mod|2:dobj">have</W>
+<W msd="ANP" tag="RB" in="1:epi" out="">apparently</W>
+<W msd="VADR" tag="VBP" in="-4:rel" out="-2:subj|2:dobj|-1:epi">have</W>
 <W msd="ANP" tag="RB" in="1:mod" out="3:nobj">so</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="-1:mod|1:nobj">much</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">self-confidence</W>

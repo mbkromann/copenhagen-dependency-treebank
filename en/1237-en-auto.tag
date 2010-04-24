@@ -91,8 +91,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">trips</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|12:pnct|1:preds">are</W>
-<W msd="SP" tag="IN" in="-1:preds" out="1:nobj|5:conj|2:preds">with</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:preds|12:pnct">are</W>
+<W msd="SP" tag="IN" in="-1:preds" out="1:nobj|2:preds|5:conj">with</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">DFDS</W>
 <W msd="U=" tag="TO" in="-2:preds" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Oslo</W>
@@ -109,14 +109,14 @@
 <W msd="PD" tag="DT" in="15:subj" out="1:nobj|2:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trip</W>
 <W msd="CC" tag="CC" in="-2:mod" out="1:nobj">plus</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod|7:mod|10:mod">five</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod|10:mod|7:dur">five</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">with</W>
 <W msd="VAF" tag="VB" in="" out="">complete</W>
 <W msd="NC=S" tag="NN" in="" out="">room</W>
 <W msd="CC" tag="CC" in="" out="">and</W>
 <W msd="NC=S" tag="NN" in="" out="">board</W>
-<W msd="SP" tag="IN" in="-7:mod" out="2:nobj">during</W>
+<W msd="SP" tag="IN" in="-7:dur" out="2:nobj">during</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christmas</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">week</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj">at</W>
@@ -154,13 +154,13 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">It</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|39:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:pnct|6:mod|19:coord|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds|2:pnct|6:cond|19:coord">be</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">cheaper</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:mod" out="2:vobj">if</W>
+<W msd="CS" tag="IN" in="-6:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|-5:mod|1:lobj|7:mod|10:pnct">stay</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="">in</W>

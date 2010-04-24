@@ -29,9 +29,9 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="3:subj|5:[subj]" out="">You</W>
-<W msd="ANP" tag="RB" in="2:mod" out="">also</W>
-<W msd="ANP" tag="RB" in="1:mod" out="">always</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|-2:mod|-1:mod|1:dobj|9:pnct">have</W>
+<W msd="ANP" tag="RB" in="2:add" out="">also</W>
+<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-2:add|-1:ext|1:dobj|9:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:pobj">watch</W>
 <W msd="RG" tag="RP" in="-1:pobj" out="1:nobj">out</W>
@@ -70,14 +70,14 @@
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:preds">make</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">you</W>
-<W msd="ANC" tag="RBR" in="1:mod" out="">more</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">handicapped</W>
+<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">handicapped</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:mod|2:dobj|10:pnct|13:conj|18:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:degr|2:dobj|10:pnct|13:conj|18:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">way</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
@@ -97,7 +97,7 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="CS" tag="IN" in="10:mod" out="2:vobj">If</W>
+<W msd="CS" tag="IN" in="10:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|6:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:mod">developed</W>
@@ -107,10 +107,10 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">sitting</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-10:mod|1:vobj|9:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:mod|4:mod|1:@dir">lie</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-10:cond|1:vobj|9:pnct">must</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|2:accom|4:mod">lie</W>
 <W msd="ANP" tag="RB" in="-1:@dir" out="">down</W>
-<W msd="SP" tag="IN" in="-2:mod" out="1:nobj">without</W>
+<W msd="SP" tag="IN" in="-2:accom" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interruption</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:vobj">until</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
@@ -160,10 +160,10 @@
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Nevertheless</W>
+<W msd="ANP" tag="RB" in="3:contr" out="1:pnct">Nevertheless</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANS" tag="JJS" in="1:subj" out="">most</W>
-<W msd="VADR" tag="VBP" in="" out="-3:mod|-1:subj|1:dobj|5:mod|8:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-3:contr|1:dobj|5:mod|8:pnct">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">satisfactory</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">sex</W>
@@ -219,8 +219,8 @@
 <W msd="SP" tag="IN" in="-3:mod" out="2:nobj">with</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">only</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:attr|1:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:nobj" out="1:mod|2:mod|3:nobj">few</W>
-<W msd="ANP" tag="JJ" in="-1:mod" out="">small</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="2:mod|3:nobj|1:attr">few</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">bright</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">points</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>

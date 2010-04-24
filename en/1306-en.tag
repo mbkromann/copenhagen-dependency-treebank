@@ -1,9 +1,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:mod|6:vobj|18:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:prec|6:vobj|18:pnct">has</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">twice</W>
-<W msd="CS" tag="IN" in="-2:mod" out="-1:mod|1:pobj">before</W>
+<W msd="CS" tag="IN" in="-2:prec" out="-1:mod|1:pobj">before</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">during</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">reign</W>
@@ -44,8 +44,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">occasion</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj|3:[subj]" out="">they</W>
-<W msd="PP" tag="PRP" in="1:mod" out="">themselves</W>
-<W msd="VA" tag="MD" in="-8:vobj" out="-2:subj|-6:mod|-1:mod|1:vobj">must</W>
+<W msd="PP" tag="PRP" in="1:focal" out="">themselves</W>
+<W msd="VA" tag="MD" in="-8:vobj" out="-2:subj|-6:mod|1:vobj|-1:focal">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">provide</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">number</W>
@@ -117,8 +117,8 @@
 <W msd="NP=S" tag="NNP" in="1:title" out="">Prince</W>
 <W msd="NP=S" tag="NNP" in="-3:appr" out="-1:title">Henrik</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-25:subj|1:mod|2:vobj|5:pnct">will</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="">also</W>
+<W msd="VA" tag="MD" in="" out="-25:subj|1:add|2:vobj|5:pnct">will</W>
+<W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-27:[subj]|1:dobj">attend</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ball</W>
@@ -139,7 +139,7 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:ref|2:@loc" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">he</W>
-<W msd="VA" tag="MD" in="-7:rel" out="-1:subj|1:vobj|-2:@loc">will</W>
+<W msd="VA" tag="MD" in="-7:rel" out="-1:subj|-2:@loc|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-3:[subj]">sailing</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -180,8 +180,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Eva</W>
 <W msd="NP=S" tag="NNP" in="-18:conj" out="-1:namef|1:mod|6:pnct|7:ref|8:rel">Deichmann</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:mod|3:nobj">The</W>
-<W msd="NP=S" tag="NNP" in="-1:mod" out="">Danish</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:mod|3:nobj">The</W>
+<W msd="NP=S" tag="NNP" in="-1:attr" out="">Danish</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Royal</W>
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="">Theatre</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
