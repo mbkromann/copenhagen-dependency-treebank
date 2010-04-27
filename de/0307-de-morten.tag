@@ -13,8 +13,8 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="8:vobj">dass</W>
 <W lemma="Kindergeld" msd="NC" tag="NN" in="7:subj" out="2:conj">Kindergeld</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="Zuschuß" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:other">Zuschuss</W>
-<W lemma="für" msd="SP" tag="APPR" in="-1:other" out="1:nobj">für</W>
+<W lemma="Zuschuß" msd="NC" tag="NN" in="-2:conj" out="-1:coord|1:ben">Zuschuss</W>
+<W lemma="für" msd="SP" tag="APPR" in="-1:ben" out="1:nobj">für</W>
 <W lemma="Familie" msd="NC" tag="NN" in="-1:nobj" out="1:accom">Familien</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:accom" out="1:nobj">mit</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-1:nobj" out="">Kindern</W>
@@ -22,8 +22,8 @@
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="dagegen" msd="RG" tag="PAV" in="1:contr" out="">Dagegen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:contr|1:subj|6:vobj|11:man|20:pnct|21:time|28:pnct">kann</W>
-<W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:subj|4:[subj]|5:[subj]" out="1:nobj">ihr</W>
-<W lemma="Vater" msd="NC" tag="NN" in="-1:nobj" out="">Vater</W>
+<W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:subj|4:[subj]|5:[subj]|1:{arg}" out="1:possd">ihr</W>
+<W lemma="Vater" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}">Vater</W>
 <W lemma="zur" msd="SP+P" tag="APPRART" in="2:pobj" out="1:nobj">zur</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Unterhaltzahlung</W>
 <W lemma="verpflichten" msd="VAP" tag="VVPP" in="1:vobj" out="-2:pobj|-4:[subj]">verpflichtet</W>
@@ -118,15 +118,15 @@
 <W lemma="wenig" msd="RG" tag="ADV" in="1:degr" out="-1:degr">wenig</W>
 <W lemma="wert" msd="AN" tag="ADJD" in="-6:preds" out="-1:degr">wert</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
-<W lemma="d" msd="PP" tag="PDS" in="2:subj" out="1:man">Das</W>
-<W lemma="alleine" msd="RG" tag="ADV" in="-1:man" out="">alleine</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|7:pnct">ist</W>
+<W lemma="d" msd="PP" tag="PDS" in="2:subj" out="1:focal">Das</W>
+<W lemma="alleine" msd="RG" tag="ADV" in="-1:focal" out="">alleine</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|7:pnct|4:ben">ist</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:nobj">ein</W>
 <W lemma="unglaublich" msd="AN" tag="ADJA" in="-1:attr" out="">unglaublicher</W>
-<W lemma="Druck" msd="NC" tag="NN" in="-2:nobj" out="1:other">Druck</W>
-<W lemma="für" msd="SP" tag="APPR" in="-1:other" out="1:nobj">für</W>
-<W lemma="unser" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:nobj">unsere</W>
-<W lemma="Jugendliche" msd="NC" tag="NN" in="-1:nobj" out="">Jugendlichen</W>
+<W lemma="Druck" msd="NC" tag="NN" in="-2:nobj" out="">Druck</W>
+<W lemma="für" msd="SP" tag="APPR" in="-4:ben" out="1:nobj">für</W>
+<W lemma="unser" msd="PO" tag="PPOSAT" in="-1:nobj|1:{arg}" out="1:possd">unsere</W>
+<W lemma="Jugendliche" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}">Jugendlichen</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
 </s>
 </p>
@@ -138,19 +138,19 @@
 <W lemma="schwer" msd="AN" tag="ADJD" in="-2:preds" out="">schwer</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="5:dobj" out="1:nobj">eine</W>
-<W lemma="Lösung" msd="NC" tag="NN" in="-1:nobj" out="2:pobj">Lösung</W>
-<W lemma="alleine" msd="RG" tag="ADV" in="1:degr" out="">alleine</W>
-<W lemma="darin" msd="RG" tag="PAV" in="-2:pobj" out="-1:degr|13:nobj">darin</W>
+<W lemma="Lösung" msd="NC" tag="NN" in="-1:nobj" out="2:pobj|1:focal">Lösung</W>
+<W lemma="alleine" msd="RG" tag="ADV" in="-1:focal" out="">alleine</W>
+<W lemma="darin" msd="RG" tag="PAV" in="-2:pobj" out="13:nobj">darin</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-7:nobj" out="1:vobj">zu</W>
 <W lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="-5:dobj|1:pnct">sehen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ihr" msd="PP" tag="PPER" in="10:dobj" out="">ihr</W>
 <W lemma="zu" msd="SP" tag="APPR" in="9:pobj" out="1:nobj">zu</W>
-<W lemma="Erwerbsarbeit" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Erwerbsarbeit</W>
-<W lemma="neben" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">neben</W>
+<W lemma="Erwerbsarbeit" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">Erwerbsarbeit</W>
+<W lemma="neben" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">neben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Lernen" msd="NC" tag="NN" in="-1:nobj" out="1:goal">Lernen</W>
-<W lemma="für" msd="SP" tag="APPR" in="-1:goal" out="1:nobj">für</W>
+<W lemma="Lernen" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{func}#">Lernen</W>
+<W lemma="für" msd="SP" tag="APPR" in="-1:attr|-1:{func}#" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">das</W>
 <W lemma="Examen" msd="NC" tag="NN" in="-1:nobj" out="">Examen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-13:nobj" out="1:vobj">zu</W>
@@ -161,13 +161,13 @@
 <p>
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj|7:[subj]" out="1:nobj">Die</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:*dobj">Alleinversorger</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:gobj.dobj|2:{patient}">Alleinversorger</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="1:attr" out="">großer</W>
-<W lemma="Kind" msd="NC" tag="NN" in="-2:*dobj" out="-1:attr">Kinder</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:subj|2:man|3:vobj|4:pnct|5:reas|29:pnct">wurden</W>
+<W lemma="Kind" msd="NC" tag="NN" in="-2:gobj.dobj|-2:{patient}" out="-1:attr">Kinder</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-4:subj|3:vobj|4:pnct|5:reas|29:pnct">wurden</W>
 <W lemma="noch" msd="RG" tag="ADV" in="1:degr" out="">noch</W>
-<W lemma="schlecht" msd="AN" tag="ADJD" in="-2:man" out="-1:degr">schlechter</W>
-<W lemma="stellen" msd="VAP" tag="VVPP" in="-3:vobj" out="-7:[subj]">gestellt</W>
+<W lemma="schlecht" msd="AN" tag="ADJD" in="1:man" out="-1:degr">schlechter</W>
+<W lemma="stellen" msd="VAP" tag="VVPP" in="-3:vobj" out="-7:[subj]|-1:man">gestellt</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="als" msd="CS" tag="KOUS" in="-5:reas" out="4:vobj">als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:[subj]|3:subj" out="1:nobj|4:pnct|6:ref|22:relr">die</W>
@@ -184,12 +184,12 @@
 <W lemma="Mutter" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Mutter</W>
 <W lemma="von" msd="SP" tag="APPR" in="-3:pobj|-3:{arg}" out="2:nobj">von</W>
 <W lemma="studierend" msd="AN" tag="ADJA" in="1:attr" out="">studierenden</W>
-<W lemma="Kind" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:degr">Kindern</W>
-<W lemma="über" msd="SP" tag="APPR" in="-1:degr" out="1:nobj">über</W>
+<W lemma="Kind" msd="NC" tag="NN" in="-2:nobj" out="-1:attr|1:attr|1:{quant}">Kindern</W>
+<W lemma="über" msd="SP" tag="APPR" in="-1:attr|-1:{quant}" out="1:nobj">über</W>
 <W lemma="17" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">17</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahren</W>
-<W lemma="sein" msd="PO" tag="PPOSAT" in="2:dobj" out="1:nobj">seinen</W>
-<W lemma="Steuerfreibetrag" msd="NC" tag="NN" in="-1:nobj" out="">Steuerfreibetrag</W>
+<W lemma="sein" msd="PO" tag="PPOSAT" in="2:dobj|1:{arg}" out="1:possd">seinen</W>
+<W lemma="Steuerfreibetrag" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}">Steuerfreibetrag</W>
 <W lemma="anheben" msd="VAP" tag="VVPP" in="1:vobj" out="-2:dobj|-13:[subj]">angehoben</W>
 <W lemma="bekommen" msd="VAF" tag="VVINF" in="1:vobj" out="-1:vobj|-14:[subj]">bekommen</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="-22:relr" out="-17:source|-15:subj|-1:vobj">konnte</W>
