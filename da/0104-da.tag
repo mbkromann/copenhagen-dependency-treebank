@@ -157,10 +157,10 @@
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-3:possd|-3:{const}" out="">folk</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-11:rel" out="-4:subj|-5:time|1:vobj">kan</W>
 <W gloss="teach" lemma="lære" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|3:nobj">lære</W>
-<W gloss="each_other's" lemma="hinanden" msd="PC--PG---" tag="PP" in="-1:dobj|1:{arg}" out="1:possd">hinandens</W>
+<W gloss="each_other's" lemma="hinanden" msd="PC--PG---" tag="PP" in="-1:dobj|1:{arg}|3:[dobj]" out="1:possd">hinandens</W>
 <W gloss="chemistry" lemma="kemi" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">kemi</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
-<W gloss="heard" lemma="kende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]">kende</W>
+<W gloss="heard" lemma="kende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|-3:[dobj]">kende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
@@ -241,7 +241,7 @@
 <W gloss="family" lemma="familie" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">familien</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="1:nobj">på</W>
 <W gloss="Fanø" lemma="Fanø" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Fanø</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:time|3:vobj|8:pnct|-7:succ">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-7:succ|1:subj|2:time|3:vobj|8:pnct">har</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">han</W>
 <W gloss="Monday" lemma="mandag" msd="NCCSU==I" tag="NN" in="-2:time" out="">mandag</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:@loc">været</W>
