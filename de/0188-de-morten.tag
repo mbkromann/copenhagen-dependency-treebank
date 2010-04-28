@@ -18,7 +18,7 @@
 <W lemma="fertig" msd="RG" tag="PTKVZ" in="-3:preds" out="">fertig</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:ref|16:[subj]|17:subj" out="">das</W>
-<W lemma="Kunde" msd="NC" tag="NN" in="15:dobj" out="">Kunden</W>
+<W lemma="Kunde" msd="NC" tag="NN" in="15:iobj" out="">Kunden</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="14:man" out="1:nobj">beim</W>
 <W lemma="Weg" msd="NC" tag="NN" in="-1:nobj" out="1:@dir">Weg</W>
 <W lemma="durch" msd="SP" tag="APPR" in="-1:@dir" out="1:nobj">durch</W>
@@ -29,11 +29,11 @@
 <W lemma="Rathaus" msd="NC" tag="NN" in="-4:conj" out="">Rathäuser</W>
 <W lemma="-" msd="XP" tag="$(" in="-5:pnct" out="">-</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-7:conj" out="-1:coord|34:coref-var|1:attr|1:{pos}">MikroData</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-7:conj" out="-1:coord|1:attr|1:{pos}|34:coref-var">MikroData</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{pos}" out="1:nobj">im</W>
 <W lemma="Bella" msd="NP" tag="NE" in="-1:nobj" out="1:nobj">Bella</W>
 <W lemma="Center" msd="NP" tag="NE" in="-1:nobj" out="">Center</W>
-<W lemma="helfen" msd="VAF" tag="VVINF" in="1:vobj" out="-15:dobj|-14:man|-16:[subj]">helfen</W>
+<W lemma="helfen" msd="VAF" tag="VVINF" in="1:vobj" out="-14:man|-16:[subj]|-15:iobj">helfen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-21:relr" out="-17:subj|-1:vobj">soll</W>
 <W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>
 </s>
@@ -87,7 +87,7 @@
 <W lemma="hin" msd="RG" tag="PTKVZ" in="-3:part" out="">hin</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="7:vobj">dass</W>
-<W lemma="sie" msd="PP" tag="PPER" in="3:[subj]|6:subj|5:[subj]" out="">sie</W>
+<W lemma="sie" msd="PP" tag="PPER" in="3:[subj]|5:[subj]|6:subj" out="">sie</W>
 <W lemma="es" msd="PP" tag="PPER" in="4:dobj" out="12:nobj">es</W>
 <W lemma="wir" msd="PR" tag="PRF" in="3:iobj" out="">uns</W>
 <W lemma="getrost" msd="RG" tag="ADV" in="3:vobj" out="-3:[subj]|1:nobj">getrost</W>
@@ -141,8 +141,8 @@
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Ein</W>
 <W lemma="Vorläufer" msd="NC" tag="NN" in="-1:nobj" out="">Vorläufer</W>
-<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:dobj|3:loc|10:pnct|7:time">half</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj">den</W>
+<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|3:loc|7:time|10:pnct|1:iobj">half</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:iobj" out="1:nobj">den</W>
 <W lemma="Besucher" msd="NC" tag="NN" in="-1:nobj" out="">Besuchern</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-3:loc" out="1:nobj">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">der</W>
@@ -201,7 +201,7 @@
 <s>
 <W lemma="ursprünglich" msd="AN" tag="ADJD" in="1:time" out="">Ursprünglich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:time|1:subj|21:vobj|22:pnct">hatte</W>
-<W lemma="sein" msd="PO" tag="PPOSAT" in="-1:subj|20:[subj]|1:{arg}" out="1:possd|3:appr">sein</W>
+<W lemma="sein" msd="PO" tag="PPOSAT" in="-1:subj|1:{arg}|20:[subj]" out="1:possd|3:appr">sein</W>
 <W lemma="Bekannte" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}">Bekannter</W>
 <W lemma="Steen" msd="NP" tag="NE" in="1:namef" out="">Steen</W>
 <W lemma="Olsen" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:ref|8:relpa">Olsen</W>

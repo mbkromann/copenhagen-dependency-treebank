@@ -106,9 +106,9 @@
 <W lemma="Fraktions-" msd="XA" tag="TRUNC" in="-2:subj|8:[subj]" out="-1:attr|2:conj">Fraktions-</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Hauptvorstandssitzungen</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="5:preds" out="1:nobj|2:loc">ein</W>
-<W lemma="Schritt" msd="NC" tag="NN" in="-1:nobj" out="">Schritt</W>
-<W lemma="auf" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">auf</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="5:preds" out="1:nobj">ein</W>
+<W lemma="Schritt" msd="NC" tag="NN" in="-1:nobj" out="1:@loc">Schritt</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Weg" msd="NC" tag="NN" in="-1:nobj" out="">Wege</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-10:vobj" out="-8:[subj]|-5:preds">sein</W>
@@ -135,8 +135,8 @@
 <W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:subj|10:vobj|11:pnct|34:pnct|35:pnct">müssen</W>
 <W lemma="an" msd="SP" tag="APPR" in="9:pobj" out="1:nobj">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|26:coref-id">die</W>
-<W lemma="Zusammenarbeit" msd="NC" tag="NN" in="-1:nobj" out="1:qobj.subj|1:{agent}">Zusammenarbeit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:qobj.subj|-1:{agent}" out="1:attr|2:nobj">der</W>
+<W lemma="Zusammenarbeit" msd="NC" tag="NN" in="-1:nobj" out="1:gobj.subj|1:{agent}">Zusammenarbeit</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj.subj|-1:{agent}" out="1:attr|2:nobj">der</W>
 <W lemma="kommend" msd="AN" tag="ADJA" in="-1:attr" out="">kommenden</W>
 <W lemma="Generation" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{const}">Generation</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:attr|-1:{const}" out="2:nobj">von</W>
@@ -177,20 +177,20 @@
 <p>
 <s>
 <W lemma="nach" msd="SP" tag="APPR" in="8:succ" out="1:nobj">Nach</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|2:loc">einem</W>
-<W lemma="Wochenende" msd="NC" tag="NN" in="-1:nobj" out="">Wochenende</W>
-<W lemma="bei" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">bei</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
+<W lemma="Wochenende" msd="NC" tag="NN" in="-1:nobj" out="1:loc">Wochenende</W>
+<W lemma="bei" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">bei</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:nobj|1:{arg}" out="1:possd">seiner</W>
-<W lemma="Familie" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}|1:loc">Familie</W>
-<W lemma="auf" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">auf</W>
+<W lemma="Familie" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}|1:attr|1:{pos}">Familie</W>
+<W lemma="auf" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">auf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Fanø</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-8:succ|1:subj|2:time|4:preds|8:pnct">war</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|-16:coref" out="">er</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-2:time" out="1:nobj">am</W>
 <W lemma="Montag" msd="NC" tag="NN" in="-1:nobj" out="">Montag</W>
-<W lemma="zum" msd="SP+P" tag="APPRART" in="-4:preds" out="1:nobj|2:loc">zum</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">EF-Fischereiministertreffen</W>
-<W lemma="in" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">in</W>
+<W lemma="zum" msd="SP+P" tag="APPRART" in="-4:preds" out="1:nobj">zum</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">EF-Fischereiministertreffen</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
 <W lemma="Brüssel" msd="NP" tag="NE" in="-1:nobj" out="">Brüssel</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>

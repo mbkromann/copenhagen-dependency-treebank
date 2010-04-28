@@ -41,8 +41,8 @@
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
 <W lemma="heißen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:bg|4:pnct|5:dobj|20:pnct">heißt</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:bg" out="1:nobj">in</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:possd">TEBAs</W>
-<W lemma="Fall" msd="NC" tag="NN" in="-1:possd" out="">Fall</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|1:{arg}" out="1:possd">TEBAs</W>
+<W lemma="Fall" msd="NC" tag="NN" in="-1:possd" out="-1:{arg}">Fall</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-5:dobj" out="14:vobj">dass</W>
 <W lemma="sie" msd="PP" tag="PPER" in="12:[subj]|13:subj" out="">sie</W>
@@ -73,7 +73,7 @@
 <W lemma="%" msd="NC" tag="NN" in="-1:nobj" out="">%</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">Es</W>
-<W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:robj|4:pnct|15:pnct|2:focal">versteht</W>
+<W lemma="verstehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:robj|2:focal|4:pnct|15:pnct">versteht</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>
 <W lemma="von" msd="SP" tag="APPR" in="-2:focal" out="1:avobj">von</W>
 <W lemma="selbst" msd="RG" tag="ADV" in="-1:avobj" out="">selbst</W>
@@ -84,10 +84,10 @@
 <W lemma="Grund" msd="NC" tag="NN" in="-1:nobj" out="5:nobj">Grund</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-2:preds|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:dobj|1:{poss}" out="1:possd">TEBAs</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:{poss}|3:dobj" out="1:possd">TEBAs</W>
 <W lemma="Areal" msd="NC" tag="NN" in="-1:possd" out="-1:{poss}">Areal</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-5:nobj" out="1:vobj">zu</W>
-<W lemma="erweitern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj">erweitern</W>
+<W _noerror="&3a;nosubj&3a;" lemma="erweitern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:dobj">erweitern</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj" out="6:nobj">Es</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:att|2:neg|3:pobj|4:pnct|19:pnct">geht</W>
@@ -116,8 +116,8 @@
 <s>
 <W lemma="für" msd="SP" tag="APPR" in="2:time" out="1:nobj">Für</W>
 <W lemma="1992" msd="AC" tag="CARD" in="-1:nobj" out="">1992</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:time|5:vobj|6:pnct|1:subj">sind</W>
-<W lemma="2" msd="AC" tag="CARD" in="4:[subj]|-1:subj" out="1:nobj">2</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:time|1:subj|5:vobj|6:pnct">sind</W>
+<W lemma="2" msd="AC" tag="CARD" in="-1:subj|4:[subj]" out="1:nobj">2</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:other">m2</W>
 <W lemma="per" msd="SP" tag="APPR" in="-1:other" out="1:nobj">per</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-1:nobj" out="">Kind</W>
@@ -144,13 +144,13 @@
 <W lemma="Flur" msd="NC" tag="NN" in="-2:conj" out="">Flure</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:conj" out="1:nobj">die</W>
-<W lemma="Teeküche" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Teeküche</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj">der</W>
+<W lemma="Teeküche" msd="NC" tag="NN" in="-1:nobj" out="1:attrg|1:{poss}">Teeküche</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:attrg|-1:{poss}" out="1:nobj">der</W>
 <W lemma="Erzieher" msd="NC" tag="NN" in="-1:nobj" out="">Erzieher</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-8:conj" out="">u.s.w.</W>
-<W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="7:subj" out="1:attr|2:attr|3:nobj">Ein</W>
-<W lemma="normal" msd="AN" tag="ADJD" in="-1:attr" out="">normal</W>
-<W lemma="entwickelt" msd="AN" tag="ADJA" in="-2:attr" out="">entwickeltes</W>
+<W lemma="&lt;unknown&gt;" msd="VA" tag="VVFIN" in="7:subj" out="2:attr|3:nobj">Ein</W>
+<W lemma="normal" msd="AN" tag="ADJD" in="1:man" out="">normal</W>
+<W lemma="entwickelt" msd="AN" tag="ADJA" in="-2:attr" out="-1:man">entwickeltes</W>
 <W lemma="Kind" msd="NC" tag="NN" in="-3:nobj" out="1:attr|1:{quant}">Kind</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:attr|-1:{quant}" out="1:nobj">von</W>
 <W lemma="5" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">5</W>
@@ -160,7 +160,7 @@
 <W lemma="19" msd="AC" tag="CARD" in="-2:nobj" out="-1:degr|1:nobj">19</W>
 <W lemma="Kilo" msd="NC" tag="NN" in="-1:nobj" out="">Kilo</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="6:subj|5:[subj]" out="">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="5:[subj]|6:subj" out="">Die</W>
 <W lemma="also" msd="RG" tag="ADV" in="5:eval" out="">also</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:loc" out="1:nobj">auf</W>
 <W lemma="2" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">2</W>

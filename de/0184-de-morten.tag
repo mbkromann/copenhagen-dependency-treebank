@@ -47,9 +47,9 @@
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj" out="">wir</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-2:pobj" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
-<W lemma="Verkauf" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Verkauf</W>
-<W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
-<W lemma="700" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|4:elab|2:pnct">700</W>
+<W lemma="Verkauf" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">Verkauf</W>
+<W lemma="von" msd="SP" tag="APPR" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">von</W>
+<W lemma="700" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|2:pnct|4:elab">700</W>
 <W lemma="Tonne" msd="NC" tag="NN" in="-1:nobj" out="">Tonnen</W>
 <W lemma="-" msd="XP" tag="$(" in="-2:pnct" out="">-</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">das</W>
@@ -64,15 +64,15 @@
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:appa|61:coref-id">Bred</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appa" out="1:nobj">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appa" out="1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:nobj|88:coref-id">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="88:coref-id|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|8:pnct|13:conj|29:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:attr|3:nobj">der</W>
 <W lemma="einzig" msd="AN" tag="ADJA" in="-1:attr" out="">einzige</W>
@@ -127,7 +127,7 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|12:[subj]|13:subj" out="">der</W>
 <W lemma="gestern" msd="RG" tag="ADV" in="12:time" out="">gestern</W>
-<W lemma="von" msd="SP" tag="APPR" in="10:dir" out="1:nobj">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="10:@dir" out="1:nobj">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:pnct|6:appa">der</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">größten</W>
 <W lemma="Nahrungsmittelmesse" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{pos}">Nahrungsmittelmesse</W>
@@ -137,7 +137,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="1:nobj|2:pnct">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">NUGA</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="zurückkommen" msd="VAP" tag="VVPP" in="1:vobj" out="-12:[subj]|-10:dir">zurückgekommen</W>
+<W lemma="zurückkommen" msd="VAP" tag="VVPP" in="1:vobj" out="-12:[subj]|-10:@dir">zurückgekommen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-15:relpa" out="-13:subj|-1:vobj|-12:time">ist</W>
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 </s>
@@ -156,15 +156,15 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="-1:degr|1:attr|2:nobj">ein</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleiner</W>
 <W lemma="Teil" msd="NC" tag="NN" in="-2:nobj|1:{apart}" out="1:pobj">Teil</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj|-1:{apart}">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="Geschäftsgrundlage" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{agent}">Geschäftsgrundlage</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:attr|-1:{agent}" out="1:nobj">von</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-id" out="1:nobj|8:coref-var">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-id" out="8:coref-var|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">Nur</W>
-<W lemma="30" msd="AC" tag="CARD" in="6:subj|1:{apart}|13:[subj]" out="-1:degr|1:pobj">30</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="1:nobj|-1:{apart}">der</W>
+<W lemma="30" msd="AC" tag="CARD" in="1:{apart}|6:subj|13:[subj]" out="-1:degr|1:pobj">30</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="500" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">500</W>
 <W lemma="Angestellte" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Angestellten</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-8:coref-var|-1:pobj|-1:{arg}" out="1:nobj|15:coref-id">der</W>
@@ -200,7 +200,7 @@
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-76:coref-id|1:subj" out="-1:namef">Bred</W>
-<W lemma="glauben" msd="VA" tag="VVFIN" in="-16:conj" out="-3:coord|-1:subj|2:pobj|3:pnct|1:focal">glaubt</W>
+<W lemma="glauben" msd="VA" tag="VVFIN" in="-16:conj" out="-3:coord|-1:subj|1:focal|2:pobj|3:pnct">glaubt</W>
 <W lemma="sogar" msd="RG" tag="ADV" in="-1:focal" out="">sogar</W>
 <W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="2:nobj">daran</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>

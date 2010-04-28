@@ -1,7 +1,7 @@
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">E</W>
 <W lemma="poi" msd="RG" tag="ADV" in="2:struct" out="">poi</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">c'</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:expl|-3:coord|1:dobj|11:pnct|-2:struct">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:expl|-3:coord|-2:struct|1:dobj|11:pnct">era</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|19:coref-var">la</W>
 <W lemma="storia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{about}">storia</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{about}" out="1:nobj|4:ref|5:relr">delle</W>
@@ -89,7 +89,7 @@
 <W lemma="alcuno" msd="PI" tag="PRO&3a;indef" in="-1:dobj" out="1:nobj">alcuna</W>
 <W lemma="intenzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">intenzione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
-<W lemma="investire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|7:pobj">investire</W>
+<W _noerror="&3a;nosubj&3a;" lemma="investire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|7:pobj">investire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="risparmio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">risparmi</W>
 <W lemma="ottenere" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:pobj">ottenuti</W>
@@ -103,7 +103,7 @@
 <W lemma="altro" msd="AN" tag="ADJ" in="-1:attr" out="">altro</W>
 <W lemma="." msd="XP" tag="SENT" in="-36:pnct" out="">.</W>
 <W lemma="a" msd="SP" tag="PRE" in="6:time" out="1:vobj">A</W>
-<W lemma="partire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj">partire</W>
+<W _noerror="&3a;nosubj&3a;" lemma="partire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj">partire</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dal</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1992</W>
 <W lemma="ogni" msd="AN" tag="ADJ" in="2:subj" out="1:nobj">ogni</W>
@@ -169,7 +169,7 @@
 <W lemma="quadrare" msd="VAP" tag="VER&3a;pper" in="-1:attr#" out="">quadrato</W>
 <W lemma="o" msd="CS" tag="CON" in="6:coord" out="">o</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
-<W lemma="dire" msd="VAP" tag="VER&3a;pper" in="1:vobj" out="">detto</W>
+<W _noerror="&3a;nosubj&3a;" lemma="dire" msd="VAP" tag="VER&3a;pper" in="1:vobj" out="">detto</W>
 <W lemma="altrimenti" msd="RG" tag="ADV" in="3:elab" out="-1:vobj|-2:pnct|1:pnct">altrimenti</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="circa" msd="RG" tag="ADV" in="1:degr" out="">circa</W>

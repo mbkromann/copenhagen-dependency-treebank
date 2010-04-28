@@ -9,7 +9,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="-4:conj" out="-1:coord|1:nobj">in</W>
 <W lemma="piatto" msd="AN" tag="ADJ" in="-1:nobj" out="2:attr">piatti</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:time" out="">già</W>
-<W lemma="confezionare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:goal|-1:time">confezionati</W>
+<W lemma="confezionare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-1:time|1:goal">confezionati</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="">l’uso</W>
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
@@ -30,7 +30,7 @@
 <W lemma="sin" msd="SP" tag="PRE" in="1:focal" out="">Sin</W>
 <W lemma="da" msd="SP" tag="PRE" in="10:dur" out="-1:focal|1:avobj">da</W>
 <W lemma="quando" msd="RG" tag="ADV" in="-1:avobj" out="1:vobj">quando</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-1:vobj|1:[subj]|3:[subj]" out="1:vobj|6:pnct">abbiamo</W>
+<W _noerror="&3a;nosubj&3a;" lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-1:vobj|1:[subj]|3:[subj]" out="1:vobj|6:pnct">abbiamo</W>
 <W lemma="incominciare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:pobj">incominciato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="produrre" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj">produrre</W>
@@ -38,7 +38,7 @@
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresca</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-3:coref|4:pobj.dobj|4:{patient}" out="9:coref">ne</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="1:vobj|4:ext|6:pnct|-10:dur">abbiamo</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="-10:dur|1:vobj|4:ext|6:pnct">abbiamo</W>
 <W lemma="raddoppiare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">raddoppiato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="-4:pobj.dobj|-4:{patient}">vendita</W>
@@ -58,21 +58,21 @@
 <W lemma="circa" msd="SP" tag="PRE" in="1:degr" out="">circa</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:numm" out="-1:degr">2,8</W>
 <W lemma="milione" msd="NC" tag="NOM" in="-3:nobj|1:{apart}" out="-1:numm|1:pobj">milioni</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|-1:{apart}">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="-1:{apart}|1:nobj">di</W>
 <W lemma="confezione" msd="NC" tag="NOM" in="-1:nobj" out="">confezioni</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-14:qobj|2:subj|9:pnct">afferma</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:title|57:coref-id">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-2:title" out="2:pobj|2:{arg}|1:nobj|1:{func}#">capo</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-2:title" out="1:nobj|1:{func}#|2:pobj|2:{arg}">capo</W>
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj|-1:{func}#" out="">produzione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj|-2:{arg}" out="1:nobj">della</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="1:nobj|12:assoc-const">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="12:assoc-const|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|1:¹preds|8:pnct|11:conj">è</W>
 <W compound="¹la²unica" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:¹preds|1:²attr" out="1:nobj¹|3:attr¹">l’unica</W>
 <W lemma="azienda" msd="NC" tag="NOM" in="-1:nobj¹" out="-1:²attr|1:attr">azienda</W>
@@ -93,7 +93,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="pane" msd="NC" tag="NOM" in="-1:nobj" out="">pane</W>
 <W lemma="intendere" msd="VADR" tag="VER&3a;pres" in="-6:vobj" out="-5:subj|1:vobj|7:time">intende</W>
-<W lemma="entrare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|3:man|1:@dir">entrare</W>
+<W lemma="entrare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|1:@dir|3:man">entrare</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:@dir" out="1:nobj">nel</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-1:nobj" out="">mercato</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:man" out="1:nobj">con</W>
@@ -122,9 +122,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj|-57:coref-id|2:[subj]" out="-1:namef|1:pnct|2:attr|61:coref-id">Bred</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="ritornare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-2:[subj]|2:@loc|1:time">ritornato</W>
+<W lemma="ritornare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-2:[subj]|1:time|2:@dir">ritornato</W>
 <W lemma="ieri" msd="RG" tag="ADV" in="-1:time" out="">ieri</W>
-<W lemma="da" msd="SP" tag="PRE" in="-2:@loc" out="1:nobj">da</W>
+<W lemma="da" msd="SP" tag="PRE" in="-2:@dir" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:appa">NUGA</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:appa" out="3:nobj|5:pobj|5:{arg}|7:attr">la</W>
@@ -149,12 +149,12 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="-1:degr|2:nobj">una</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-2:nobj|1:{apart}" out="-1:attr|1:pobj">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|-1:{apart}">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="-1:{apart}|1:nobj">della</W>
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}">produzione</W>
 <W lemma="complessivo" msd="AN" tag="ADJ" in="-1:attr" out="">complessiva</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj|12:coref-var">Tholstrup</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Cheese</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="12:coref-var|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct" out="">:</W>
 <W lemma="se" msd="CS" tag="CON" in="2:robj" out="">se</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-15:coref|1:pobj" out="">ne</W>
@@ -162,7 +162,7 @@
 <W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:subj" out="-1:degr|1:nobj">30</W>
 <W lemma="dipendente" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="1:pobj">dipendenti</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|-1:{apart}">sui</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="-1:{apart}|1:nobj">sui</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">500</W>
 <W lemma="presente" msd="AN" tag="ADJ" in="-1:nobj" out="1:attr|1:{pos}">presenti</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-12:coref-var|-1:attr|-1:{pos}" out="2:coref-id">nell’azienda</W>
@@ -171,7 +171,7 @@
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="comunque" msd="RG" tag="ADV" in="2:conc" out="-1:pnct|1:pnct">comunque</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="esportare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:time|2:dir|11:conj|-2:conc">esporta</W>
+<W lemma="esportare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|-2:conc|1:time|2:dir|11:conj">esporta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:time" out="">già</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:dir" out="1:nobj">in</W>
 <W lemma="Norvegia" msd="NP" tag="NPR" in="-1:nobj" out="1:pnct|2:conj|4:conj">Norvegia</W>
@@ -192,6 +192,6 @@
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attr" out="">buon</W>
 <W lemma="importatore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">importatore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dei</W>
-<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-25:coref|-1:nobj|1:{poss}" out="1:possd">suoi</W>
-<W lemma="prodotto" msd="NC" tag="NOM" in="-1:possd" out="-1:{poss}">prodotti</W>
+<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-25:coref|-1:nobj|1:[subj]|1:{agent}" out="1:possd">suoi</W>
+<W lemma="prodotto" msd="NC" tag="NOM" in="-1:possd" out="-1:[subj]|-1:{agent}">prodotti</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
