@@ -13,8 +13,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|2:pnct|3:other|5:pnct|6:other|8:pnct|9:other|13:coref-id">,,Ärzte</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="Wochenmagazin" msd="NC" tag="NN" in="-3:other" out="1:name">Wochenmagazin</W>
-<W lemma="Sonntag" msd="NC" tag="NN" in="-1:name" out="">SONNTAG</W>
+<W lemma="Wochenmagazin" msd="NC" tag="NN" in="-3:other" out="1:appr">Wochenmagazin</W>
+<W lemma="Sonntag" msd="NC" tag="NN" in="-1:appr" out="">SONNTAG</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-6:other" out="1:other">Vesterbrogade</W>
 <W lemma="16" msd="AC" tag="CARD" in="-1:other" out="">16</W>
@@ -26,8 +26,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-13:coref-id|5:subj|8:[subj]" out="-1:focal|1:nobj|12:coref-id">die</W>
 <W lemma="Arzt" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{origin}">Ärzte</W>
 <W lemma="vom" msd="SP+P" tag="APPRART" in="-1:attr|-1:{origin}" out="1:nobj">vom</W>
-<W lemma="Wochenmagazin" msd="NC" tag="NN" in="-1:nobj" out="1:name">Wochenmagazin</W>
-<W lemma="Sonntag" msd="NC" tag="NN" in="-1:name" out="">SONNTAG</W>
+<W lemma="Wochenmagazin" msd="NC" tag="NN" in="-1:nobj" out="1:appr">Wochenmagazin</W>
+<W lemma="Sonntag" msd="NC" tag="NN" in="-1:appr" out="">SONNTAG</W>
 <W lemma="dürfen" msd="VA" tag="VMFIN" in="" out="-5:subj|3:vobj|4:pnct">dürfen</W>
 <W lemma="Ihr&7c;ihr" msd="PO" tag="PPOSAT" in="1:{agent}|2:dobj" out="1:possd">Ihre</W>
 <W lemma="Brief" msd="NC" tag="NN" in="-1:possd" out="-1:{agent}">Briefe</W>

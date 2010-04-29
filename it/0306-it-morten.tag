@@ -14,8 +14,8 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr|-2:{origin}" out="1:nobj|2:appr">del</W>
 <W lemma="settimanale" msd="AN" tag="ADJ" in="-1:nobj" out="">settimanale</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="1:name|16:coref-id">Ugemagasinet</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">SØNDAG</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="16:coref-id|1:appr">Ugemagasinet</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:appr" out="">SØNDAG</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-8:other" out="3:other">Vesterbrogade</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:other" out="1:+">nr</W>
@@ -30,8 +30,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-18:coref-id|5:subj|6:[subj]" out="-1:focal|1:nobj|17:coref-id">i</W>
 <W lemma="medico" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{origin}">medici</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{origin}" out="1:nobj">di</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj|-16:coref-id" out="1:name">Ugemagasinet</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">SØNDAG</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj|-16:coref-id" out="1:appr">Ugemagasinet</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:appr" out="">SØNDAG</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="" out="-5:subj|1:vobj|5:pnct">possono</W>
 <W lemma="aprire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|1:dobj">aprire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
