@@ -3,7 +3,7 @@
 <W lemma="aber" msd="CC" tag="KON" in="3:coord" out="">Aber</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Argumentation" msd="NC" tag="NN" in="-1:nobj" out="">Argumentation</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|2:preds|3:pnct|10:pnct|6:conj">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:coord|-2:subj|2:preds|3:pnct|6:conj|10:pnct">ist</W>
 <W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
 <W lemma="klar" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr">klar</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -87,7 +87,7 @@
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="1:dobj" out="">ihrer</W>
 <W lemma="annehmen" msd="VA" tag="VVFIN" in="-5:vobj" out="-3:subj|-1:dobj|-2:robj">annehmen</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
-<W lemma="mehr" msd="PI" tag="PIAT" in="" out="10:conj|11:pnct|1:nobj|4:conj|2:pnct|7:pnct|5:pnct">Mehr</W>
+<W lemma="mehr" msd="PI" tag="PIAT" in="" out="1:nobj|2:pnct|4:conj|5:pnct|7:pnct|10:conj|11:pnct">Mehr</W>
 <W lemma="Wild" msd="NC" tag="NN" in="-1:nobj" out="">Wild</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="1:attr" out="">besseres</W>
@@ -123,7 +123,7 @@
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="gleichzeitig" msd="AN" tag="ADJD" in="1:cont" out="">gleichzeitig</W>
 <W lemma="bestehen" msd="VA" tag="VVFIN" in="-7:conj" out="-2:coord|-1:cont|1:subj|10:pnct|11:reas">besteht</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="2:nobj|1:attr">ein</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-1:subj" out="1:attr|2:nobj">ein</W>
 <W lemma="natürlich" msd="AN" tag="ADJA" in="-1:attr" out="">natürlicheres</W>
 <W lemma="Verhältnis" msd="NC" tag="NN" in="-2:nobj" out="1:pobj.subj|1:{agent}">Verhältnis</W>
 <W lemma="zwischen" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="1:nobj">zwischen</W>

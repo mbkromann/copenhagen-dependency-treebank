@@ -19,7 +19,7 @@
 <W lemma="cioè" msd="RG" tag="ADV" in="-5:elab" out="1:nobj">cioè</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|5:pnct|20:conj">i</W>
 <W lemma="sentiero" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}">sentieri</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="4:conj|7:pnct|8:conj|13:pnct|14:conj|17:pnct|1:vobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:vobj|4:conj|7:pnct|8:conj|13:pnct|14:conj|17:pnct">per</W>
 <W _noerror="&3a;nosubj&3a;" lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">fare</W>
 <W lemma="allenamento" msd="NC" tag="NOM" in="-1:dobj" out="">allenamento</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
@@ -121,9 +121,9 @@
 <W lemma="zona" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">zone</W>
 <W lemma="naturale" msd="AN" tag="ADJ" in="-1:attr" out="">naturali</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="24:loc" out="5:exem|9:ref|1:nobj">Nel</W>
-<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj" out="13:relr|1:attr|1:{const}">sud</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{const}" out="1:nobj">della</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="24:loc" out="1:nobj|5:exem|9:ref">Nel</W>
+<W lemma="sud" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="13:relr|1:pobj">sud</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|-1:{apart}">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Selandia</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-5:exem" out="-1:pnct|1:nobj|2:pnct">ad</W>
@@ -132,8 +132,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="6:loc" out="1:nobj">in</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="-1:nobj|-9:ref" out="">cui</W>
 <W lemma="gran" msd="AN" tag="ADJ" in="1:attr" out="">gran</W>
-<W lemma="parte" msd="NC" tag="NOM" in="3:subj|4:[subj]|1:{apart}" out="-1:attr|1:pobj">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|-1:{apart}">dei</W>
+<W lemma="parte" msd="NC" tag="NOM" in="1:{apart}|3:subj|4:[subj]" out="-1:attr|1:pobj">parte</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="-1:{apart}|1:nobj">dei</W>
 <W lemma="terreno" msd="NC" tag="NOM" in="-1:nobj" out="">terreni</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-13:relr" out="-6:loc|-3:subj|1:vobj|7:pnct">è</W>
 <W lemma="affittare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:agent|3:goal">affittata</W>
@@ -195,8 +195,8 @@
 <W lemma="pieno" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">piena</W>
 <W lemma="." msd="XP" tag="SENT" in="-48:pnct" out="">.</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="7:loc" out="1:nobj">Nel</W>
-<W lemma="nord" msd="NC" tag="NOM" in="-1:nobj" out="6:vobj|1:attr|1:{const}">nord</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{const}" out="1:nobj">della</W>
+<W lemma="nord" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="6:vobj|1:pobj">nord</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|-1:{apart}">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Selandia</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="invece" msd="RG" tag="ADV" in="2:contr" out="-1:pnct|1:pnct">invece</W>
@@ -206,7 +206,7 @@
 <W lemma="dipendente" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">dipendenti</W>
 <W lemma="statale" msd="AN" tag="ADJ" in="-1:attr" out="">statali</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-4:pobj" out="1:vobj">ad</W>
-<W lemma="andare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:@dir|6:time|-4:[subj]">andare</W>
+<W lemma="andare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|1:@dir|6:time">andare</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:@dir" out="1:nobj">a</W>
 <W lemma="caccia" msd="NC" tag="NOM" in="-1:nobj" out="2:man|8:time">caccia</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
