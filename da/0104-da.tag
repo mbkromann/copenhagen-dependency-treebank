@@ -68,10 +68,10 @@
 <W gloss="group_meeting" lemma="gruppemøde" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">gruppemøde</W>
 <W gloss="prior" lemma="forud" msd="RGU" tag="RP" in="-5:prec" out="1:pobj">forud</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W gloss="the_launching" lemma="lancering" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:pobj.pobj|3:{location}">lanceringen</W>
+<W gloss="the_launching" lemma="lancering" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr|3:{time}">lanceringen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="the_KV_plan" lemma="KV-plan" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">KV-planen</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:pobj.pobj|-3:{location}" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:attr|-3:{time}" out="1:nobj">i</W>
 <W gloss="1964," lemma="1964" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1964</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>

@@ -1,7 +1,7 @@
 <W lemma="el" msd="ART" in="12:subj" out="1:nobj">La</W>
 <W lemma="propuesta" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">propuesta</W>
 <W lemma="sobre" msd="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">sobre</W>
-<W lemma="sesin" msd="NC" in="-1:nobj" out="1:attr|1:{agent}#|3:attr|17:coref-id|4:pobj|4:{agent}">sesiones</W>
+<W lemma="sesin" msd="NC" in="-1:nobj" out="1:attr|1:{agent}#|3:attr|4:pobj|4:{agent}|17:coref-id">sesiones</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" in="-1:nobj" out="">grupo</W>
 <W lemma="colectivo" msd="ADJ" in="-3:attr" out="">colectivas</W>
@@ -27,11 +27,11 @@
 <W lemma="con" msd="PREP" in="-7:prec" out="1:nobj">con</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">anticipación</W>
 <W lemma="del" msd="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W lemma="lanzamiento" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:pobj.pobj|4:{location}">lanzamiento</W>
+<W lemma="lanzamiento" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:attr|4:{time}">lanzamiento</W>
 <W lemma="del" msd="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
 <W lemma="plan" msd="NC" in="-1:nobj" out="1:attr|1:{agent}">plan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:attr|-1:{agent}" out="">KV</W>
-<W lemma="en" msd="PREP" in="-4:pobj.pobj|-4:{location}" out="1:nobj">en</W>
+<W lemma="en" msd="PREP" in="-4:attr|-4:{time}" out="1:nobj">en</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="">1964</W>
 <W lemma="," msd="CM" in="-17:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="4:coord" out="">y</W>
@@ -201,7 +201,7 @@
 <W _noerror="&3a;nosubj&3a;" lemma="participar" msd="VLadj" in="-1:vobj" out="1:pobj">participado</W>
 <W lemma="en" msd="PREP" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}#|9:pobj.pobj|9:{location}">reunión</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}#|9:attr|9:{time}">reunión</W>
 <W lemma="de" msd="PREP" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">de</W>
 <W lemma="ministro" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|3:attr|3:{const}">ministros</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
@@ -210,6 +210,6 @@
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="comunidad" msd="NC" in="-1:nobj" out="1:attr#">Comunidad</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:attr#" out="">Europea</W>
-<W lemma="en" msd="PREP" in="-9:pobj.pobj|-9:{location}" out="1:nobj">en</W>
+<W lemma="en" msd="PREP" in="-9:attr|-9:{time}" out="1:nobj">en</W>
 <W lemma="Bruselas" msd="NP" in="-1:nobj" out="">Bruselas</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>

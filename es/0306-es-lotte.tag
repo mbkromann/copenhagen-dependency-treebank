@@ -4,9 +4,9 @@
 <W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="salud" msd="NC" in="-1:nobj" out="">salud</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="escriba" msd="NC" in="" out="-6:cond|1:iobj|25:coref|4:pnct">escriba</W>
+<W lemma="escriba" msd="NC" in="" out="-6:cond|1:iobj|4:pnct|25:coref">escriba</W>
 <W lemma="a" msd="PREP" in="-1:iobj" out="1:nobj">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj|5:pnct|6:other|8:pnct|9:other|3:attr|3:{pos}">“Los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj|3:attr|3:{pos}|5:pnct|6:other|8:pnct|9:other">“Los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">médicos”</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:attr|-3:{pos}" out="1:appr|13:coref-id">Ugemagasinet</W>
@@ -19,7 +19,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:other" out="1:other">København</W>
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal adskilles" in="-1:other" out="">V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:focal" out="">Sólo</W>
-<W lemma="el" msd="ART" in="7:subj" out="1:nobj|18:coref-id|-1:focal">los</W>
+<W lemma="el" msd="ART" in="7:subj" out="-1:focal|1:nobj|18:coref-id">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{pos}">médicos</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:coref-id" out="1:nobj|3:appr">la</W>
@@ -29,7 +29,7 @@
 <W lemma="tener" msd="VLfin" in="" out="-7:subj|1:dobj|5:pnct">tienen</W>
 <W lemma="permiso" msd="NC" in="-1:dobj" out="1:pobj">permiso</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="suyo" msd="PPO" in="-25:coref|-1:nobj|1:{agent}" out="3:coref|1:possd">su</W>
+<W lemma="suyo" msd="PPO" in="-25:coref|-1:nobj|1:{agent}" out="1:possd|3:coref">su</W>
 <W lemma="carta" msd="NC" in="-1:possd" out="-1:{agent}">carta</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-3:coref" out="1:pnct|8:xpl">¡Note</W>
@@ -40,13 +40,13 @@
 <W lemma="el" msd="ART" in="-18:coref-id|3:subj|4:[subj]" out="1:nobj|44:coref-id">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">médicos</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="poder" msd="VMfin" in="-8:xpl" out="-3:subj|-1:neg|1:vobj|5:pnct|-5:att">pueden</W>
+<W lemma="poder" msd="VMfin" in="-8:xpl" out="-3:subj|-1:neg|-5:att|1:vobj|5:pnct">pueden</W>
 <W lemma="brindar" msd="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj">brindar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="respuesta" msd="NC" in="-1:nobj" out="1:attr">respuesta</W>
 <W lemma="personal" msd="NC" in="-1:attr" out="">personal</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="5:pnct|11:coref-id|1:attr|1:{func}#|2:attr|2:{time}">¿PÍLDORAS</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attr|1:{func}#|2:attr|2:{time}|5:pnct|11:coref-id">¿PÍLDORAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:attr|-1:{func}#" out="">ANTICONCEPTIVAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:attr|-2:{time}" out="1:nobj">EN</W>
 <W lemma="La" msd="NP" in="-1:nobj" out="1:nobj">LA</W>
@@ -66,7 +66,7 @@
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="edad" msd="NC" in="-1:nobj|1:{class}" out="1:attr">edad</W>
-<W lemma="de" msd="PREP" in="-1:attr" out="1:nobj|-1:{class}">de</W>
+<W lemma="de" msd="PREP" in="-1:attr" out="-1:{class}|1:nobj">de</W>
 <W lemma="cincuenta" msd="CARD" in="-1:nobj" out="1:nobj">cincuenta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
@@ -110,7 +110,7 @@
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="haber" msd="VHfin" in="-5:coref" out="1:vobj|4:dur|7:pnct|8:coref">Ha</W>
 <W _noerror="&3a;nosubj&3a;" lemma="tomar" msd="VLadj" in="-1:vobj" out="1:dobj">tomado</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj|-15:coref-id" out="37:coref-id|1:attr|1:{func}#">píldoras</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj|-15:coref-id" out="1:attr|1:{func}#|37:coref-id">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attr|-1:{func}#" out="">anticonceptivas</W>
 <W lemma="durante" msd="PREP" in="-4:dur" out="1:nobj">durante</W>
 <W lemma="mucho" msd="QU" in="-1:nobj" out="1:nobj">muchos</W>
@@ -137,16 +137,16 @@
 <W lemma="a" msd="PREP" in="-4:reas" out="1:nobj#">a</W>
 <W lemma="causa" msd="NC" in="-1:nobj#" out="1:pobj#">causa</W>
 <W lemma="de" msd="PREP" in="-1:pobj#" out="1:nobj">de</W>
-<W lemma="suyo" msd="PPO" in="-1:nobj|-7:coref|1:{arg}" out="9:coref|1:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj|1:{arg}|-1:{arg}">oposición</W>
+<W lemma="suyo" msd="PPO" in="-1:nobj|-7:coref|1:{arg}" out="1:possd|9:coref">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="-1:{arg}|1:pobj|1:{arg}">oposición</W>
 <W lemma="al" msd="PAL" in="-1:pobj|-1:{arg}" out="1:nobj">al</W>
 <W lemma="aborto" msd="NC" in="-1:nobj" out="">aborto</W>
 <W lemma="." msd="FS" in="-25:pnct" out="">.</W>
-<W lemma="esto~es" msd="ADV" note="skal separeres" in="" out="18:pnct|4:relelab|1:ref|8:pnct">Esto es</W>
-<W lemma="por" msd="PREP" in="3:reas|-1:ref" out="1:nobj">por</W>
+<W lemma="esto~es" msd="ADV" note="skal separeres" in="" out="1:ref|4:relelab|8:pnct|18:pnct">Esto es</W>
+<W lemma="por" msd="PREP" in="-1:ref|3:reas" out="1:nobj">por</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">lo</W>
 <W lemma="cual" msd="REL" in="-1:nobj" out="">cual</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-9:coref|-4:relelab" out="1:dobj|7:coref|-3:reas">eligió</W>
+<W lemma="&lt;unknown&gt;" msd="VLfin" in="-9:coref|-4:relelab" out="-3:reas|1:dobj|7:coref">eligió</W>
 <W lemma="el" msd="ART" in="-1:dobj|-37:coref-id" out="1:nobj|4:ref|7:relr|27:coref-id">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attr|-1:{func}#" out="">anticonceptivas</W>

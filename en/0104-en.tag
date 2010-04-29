@@ -28,12 +28,12 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:prec">held</W>
 <W msd="CS" tag="IN" in="-1:prec" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|5:pobj.pobj|5:{location}">launching</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|5:attr|5:{time}">launching</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{agent}" out="">KV</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{agent}">plan</W>
-<W msd="SP" tag="IN" in="-5:pobj.pobj|-5:{location}" out="1:nobj">in</W>
+<W msd="SP" tag="IN" in="-5:attr|-5:{time}" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1964,</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -223,8 +223,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Fanø</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-10:succ|1:@loc|3:time|12:pnct">was</W>
-<W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">in</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-10:succ|3:time|12:pnct|1:preds">was</W>
+<W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="3:loc">Brussels</W>
 <W msd="SP" tag="IN" in="-3:time" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Monday</W>
