@@ -101,8 +101,8 @@
 <W lemma="naturale" msd="AN" tag="ADJ" in="-1:attr|-1:{const}#" out="">naturale</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:attr|-2:{quant}" out="1:nobj">per</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="totale" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{quant}">totale</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{quant}" out="1:nobj">di</W>
+<W lemma="totale" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">totale</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">25</W>
 <W lemma="chilometro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr#">chilometri</W>
 <W lemma="quadrato" msd="AN" tag="ADJ" in="-1:attr#" out="">quadrati</W>
