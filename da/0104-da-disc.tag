@@ -41,18 +41,18 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="The_proposal" lemma="forslag" msd="NCNSU==D" tag="NN" in="8:subj" out="1:pobj">Forslaget</W>
+<W gloss="The_proposal" lemma="forslag" morph="foreslå +Ø/PRED&3a;result" msd="NCNSU==D" tag="NN" in="8:subj" out="1:pobj">Forslaget</W>
 <W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">om</W>
-<W gloss="joint" lemma="fælles" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">fælles</W>
-<W gloss="group_meetings" lemma="gruppemøde" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pobj">gruppemøder</W>
+<W gloss="joint" lemma="fælles" morph="fælles" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">fælles</W>
+<W gloss="group_meetings" lemma="gruppemøde" morph="mødes +Ø/PRED&3a;core -gruppe/subj.agent" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pobj">gruppemøder</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
 <W gloss="V" lemma="V" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">V</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="K" lemma="K" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">K</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:neg|3:preds|4:pnct">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:neg|3:preds|4:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">nyt</W>
+<W gloss="entirely" lemma="hel" morph="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
+<W gloss="new" lemma="ny" morph="ny" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">nyt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>
@@ -140,7 +140,7 @@
 </s>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:time|21:pnct|3:@dir">skal</W>
+<W gloss="should" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:time|3:@dir|21:pnct">skal</W>
 <W gloss="at_any_rate" lemma="i_hvert_fald" msd="RGU" tag="RP" in="-1:eval" out="">i_hvert_fald</W>
 <W gloss="first" lemma="først" msd="RGU" tag="RP" in="-2:time" out="">først</W>
 <W gloss="through" lemma="igennem" msd="SP" tag="IN" in="-3:@dir" out="1:nobj">igennem</W>
