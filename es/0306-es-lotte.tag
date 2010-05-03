@@ -1,12 +1,12 @@
 <W lemma="si" msd="CSUBX" in="6:cond" out="1:vobj">Si</W>
-<W _noerror="&3a;nosubj&3a;" lemma="haber" msd="VHfin" in="-1:vobj" out="1:dobj|4:pnct">hay</W>
-<W lemma="problema" msd="NC" in="-1:dobj" out="1:attr|1:{about}">problemas</W>
+<W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VHfin" in="-1:vobj" out="1:dobj|4:pnct">hay</W>
+<W lemma="problema" morph="problema" msd="NC" in="-1:dobj" out="1:attr|1:{about}">problemas</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{about}" out="1:nobj">de</W>
-<W lemma="salud" msd="NC" in="-1:nobj" out="">salud</W>
+<W lemma="salud" morph="salud" msd="NC" in="-1:nobj" out="">salud</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="escriba" msd="NC" in="" out="-6:cond|1:iobj|4:pnct|25:coref">escriba</W>
+<W lemma="escriba" morph="escribir" msd="NC" in="" out="-6:cond|1:iobj|4:pnct|25:coref">escriba</W>
 <W lemma="a" msd="PREP" in="-1:iobj" out="1:nobj">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj|3:attr|3:{pos}|5:pnct|6:other|8:pnct|9:other">“Los</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj|3:attr|3:{pos}|5:pnct|6:other|8:pnct|9:other">“Los</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:nobj" out="">médicos”</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:attr|-3:{pos}" out="1:appr|13:coref-id">Ugemagasinet</W>
@@ -20,81 +20,81 @@
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal adskilles" in="-1:other" out="">V.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:focal" out="">Sólo</W>
 <W lemma="el" msd="ART" in="7:subj" out="-1:focal|1:nobj|18:coref-id">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{pos}">médicos</W>
+<W lemma="&lt;unknown&gt;" morph="médico" msd="NC" in="-1:nobj" out="1:attr|1:{pos}">médicos</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-13:coref-id" out="1:nobj|3:appr">la</W>
-<W lemma="revista" msd="NC" in="-1:nobj" out="1:attr#">revista</W>
+<W lemma="revista" morph="revista" msd="NC" in="-1:nobj" out="1:attr#">revista</W>
 <W lemma="semanal" msd="ADJ" in="-1:attr#" out="">semanal</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-3:appr" out="">SØNDAG</W>
-<W lemma="tener" msd="VLfin" in="" out="-7:subj|1:dobj|5:pnct">tienen</W>
-<W lemma="permiso" msd="NC" in="-1:dobj" out="1:pobj">permiso</W>
+<W lemma="tener" morph="tener" msd="VLfin" in="" out="-7:subj|1:dobj|5:pnct">tienen</W>
+<W lemma="permiso" morph="permitir +Ø/PRED&3a;result" msd="NC" in="-1:dobj" out="1:pobj">permiso</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="suyo" msd="PPO" in="-25:coref|-1:nobj|1:{agent}" out="1:possd|3:coref">su</W>
-<W lemma="carta" msd="NC" in="-1:possd" out="-1:{agent}">carta</W>
+<W lemma="carta" morph="carta" msd="NC" in="-1:possd" out="-1:{agent}">carta</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-3:coref" out="1:pnct|8:xpl">¡Note</W>
+<W lemma="&lt;unknown&gt;" morph="notar" msd="NC" in="-3:coref" out="1:pnct|8:xpl">¡Note</W>
 <W lemma="!" msd="FS" in="-1:pnct" out="1:pnct">!</W>
 <W lemma="&3a;" msd="COLON" in="-1:pnct" out="">:</W>
 <W lemma="lamentable" msd="ADV" in="5:att" out="1:pnct">Lamentablemente</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-18:coref-id|3:subj|4:[subj]" out="1:nobj|44:coref-id">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">médicos</W>
+<W lemma="&lt;unknown&gt;" morph="médico" msd="NC" in="-1:nobj" out="">médicos</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="poder" msd="VMfin" in="-8:xpl" out="-3:subj|-1:neg|-5:att|1:vobj|5:pnct">pueden</W>
-<W lemma="brindar" msd="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj">brindar</W>
+<W lemma="poder" morph="poder" msd="VMfin" in="-8:xpl" out="-3:subj|-1:neg|-5:att|1:vobj|5:pnct">pueden</W>
+<W lemma="brindar" morph="brindar" msd="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj">brindar</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="respuesta" msd="NC" in="-1:nobj" out="1:attr">respuesta</W>
-<W lemma="personal" msd="NC" in="-1:attr" out="">personal</W>
+<W lemma="respuesta" morph="responder +Ø/PRED&3a;result" msd="NC" in="-1:nobj" out="1:attr">respuesta</W>
+<W lemma="personal" morph="persona +al/DENOM&3a;rel.norm" msd="NC" in="-1:attr" out="">personal</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:attr|1:{func}#|2:attr|2:{time}|5:pnct|11:coref-id">¿PÍLDORAS</W>
+<W lemma="&lt;unknown&gt;" morph="píldora" msd="NC" in="" out="1:attr|1:{func}#|2:attr|2:{time}|5:pnct|11:coref-id">¿PÍLDORAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:attr|-1:{func}#" out="">ANTICONCEPTIVAS</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:attr|-2:{time}" out="1:nobj">EN</W>
 <W lemma="La" msd="NP" in="-1:nobj" out="1:nobj">LA</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">MENOPAUSIA</W>
 <W lemma="?" msd="FS" in="-5:pnct" out="">?</W>
 <W lemma="mucho" msd="QU" in="2:subj|3:[subj]|10:[subj]" out="1:nobj|10:coref">Muchas</W>
-<W lemma="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>
-<W lemma="desear" msd="VLfin" in="" out="-2:subj|1:vobj|6:time|15:pnct|17:coref-res">desean</W>
-<W lemma="prescindir" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">prescindir</W>
+<W lemma="mujer" morph="mujer" msd="NC" in="-1:nobj" out="">mujeres</W>
+<W lemma="desear" morph="desear" msd="VLfin" in="" out="-2:subj|1:vobj|6:time|15:pnct|17:coref-res">desean</W>
+<W lemma="prescindir" morph="prescindir" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">prescindir</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj|-11:coref-id" out="1:nobj|38:coref-id">las</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">píldoras</W>
+<W lemma="&lt;unknown&gt;" morph="píldora" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attr|-1:{func}#" out="">anticonceptivas</W>
 <W lemma="cuando" msd="CSUBX" in="-6:time" out="2:vobj">cuando</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="acercar" msd="VLfin" in="-2:vobj|-10:coref" out="-1:robj|-10:[subj]|1:pobj">acercan</W>
+<W lemma="acercar" morph="acercar" msd="VLfin" in="-2:vobj|-10:coref" out="-1:robj|-10:[subj]|1:pobj">acercan</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="edad" msd="NC" in="-1:nobj|1:{class}" out="1:attr">edad</W>
+<W lemma="edad" morph="edad" msd="NC" in="-1:nobj|1:{class}" out="1:attr">edad</W>
 <W lemma="de" msd="PREP" in="-1:attr" out="-1:{class}|1:nobj">de</W>
 <W lemma="cincuenta" msd="CARD" in="-1:nobj" out="1:nobj">cincuenta</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
+<W lemma="&lt;unknown&gt;" morph="año" msd="NC" in="-1:nobj" out="">años</W>
 <W lemma="." msd="FS" in="-15:pnct" out="">.</W>
 <W lemma="pero" msd="CCAD" in="2:contr" out="">Pero</W>
 <W lemma="este" msd="DM" in="-17:coref-res|1:subj" out="">esto</W>
-<W lemma="implicar" msd="VLfin" in="" out="-1:subj|-2:contr|1:dobj|26:pnct">implica</W>
+<W lemma="implicar" morph="implicar" msd="VLfin" in="" out="-1:subj|-2:contr|1:dobj|26:pnct">implica</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="largo" msd="ADJ" in="1:attr" out="">larga</W>
-<W lemma="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">serie</W>
+<W lemma="serie" morph="serie" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">serie</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="pregunta" msd="NC" in="-1:nobj" out="2:ref|6:relr|12:pobj|12:{arg}">preguntas</W>
+<W lemma="pregunta" morph="preguntar +Ø/PRED&3a;core" msd="NC" in="-1:nobj" out="2:ref|6:relr|12:pobj|12:{arg}">preguntas</W>
 <W lemma="a" msd="PREP" in="5:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-2:ref|-1:nobj" out="1:nobj">las</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="">que</W>
 <W lemma="el" msd="ART" in="-44:coref-id|2:subj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">médicos</W>
-<W lemma="responder" msd="VLfin" in="-6:relr" out="-2:subj|-5:pobj|1:loc">responden</W>
-<W lemma="&lt;unknown&gt;" msd="VLinf" in="-1:loc" out="">aquí</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="8:pnct" out="">–</W>
+<W lemma="&lt;unknown&gt;" morph="médico" msd="NC" in="-1:nobj" out="">médicos</W>
+<W lemma="responder" morph="responder" msd="VLfin" in="-6:relr" out="-2:subj|-5:pobj|1:loc">responden</W>
+<W lemma="&lt;unknown&gt;" morph="aquí" msd="VLinf" in="-1:loc" out="">aquí</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VLadj" in="8:pnct" out="">–</W>
 <W lemma="entre" msd="PREP" in="3:exem" out="1:nobj">entre</W>
 <W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj">otras</W>
-<W lemma="cosa" msd="NC" in="-1:nobj" out="">cosas</W>
+<W lemma="cosa" morph="cosa" msd="NC" in="-1:nobj" out="">cosas</W>
 <W lemma="acerca~de" msd="PREP" in="-12:pobj|-12:{arg}" out="-3:exem|1:nobj">acerca de</W>
-<W lemma="si" msd="NC" in="-1:nobj" out="3:vobj">si</W>
+<W lemma="si" morph="si" msd="NC" in="-1:nobj" out="3:vobj">si</W>
 <W lemma="el" msd="ART" in="2:subj|3:[subj]" out="1:nobj">las</W>
-<W lemma="hormona" msd="NC" in="-1:nobj" out="">hormonas</W>
-<W lemma="poder" msd="VMfin" in="-3:vobj" out="-2:subj|-8:pnct|1:vobj">pueden</W>
-<W lemma="reemplazar" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">reemplazar</W>
+<W lemma="hormona" morph="hormona" msd="NC" in="-1:nobj" out="">hormonas</W>
+<W lemma="poder" morph="poder" msd="VMfin" in="-3:vobj" out="-2:subj|-8:pnct|1:vobj">pueden</W>
+<W lemma="reemplazar" morph="re" msd="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj">reemplazar</W>
 <W lemma="el" msd="ART" in="-1:dobj|-38:coref-id" out="1:nobj|15:coref-id">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|1:{func}#">píldoras</W>
 <W lemma="anticonceptivo" msd="ADJ" in="-1:attr|-1:{func}#" out="">anticonceptivas</W>
