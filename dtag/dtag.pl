@@ -22,11 +22,14 @@
 #!/usr/bin/perl -w
 
 # Version
-my $RELEASE = '1.0.29 (2010-04-23 22:36:48)';
+my $RELEASE = '1.0.30 (2010-05-05  8:43:11)';
 
 use strict;
 use File::Basename;
+use Encode;
 use Cwd;
+
+#binmode(STDOUT, ":encoding(UTF-8)");
 
 # Find DTAGHOME
 my $DTAGHOME = $ENV{'DTAGHOME'} || "";

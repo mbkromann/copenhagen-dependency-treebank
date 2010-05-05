@@ -74,6 +74,7 @@ sub readfile {
 
 # PostScript prologues
 my $src = $ENV{DTAGHOME} || "/opt/dtag/";
+print "PostScript files loaded from $src\n";
 $psheader->{'arcs'}  = readfile("$src/arcs.header");
 $pstrailer->{'arcs'} = readfile("$src/arcs.trailer");
 
@@ -733,6 +734,58 @@ sub file {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/find_first_node_before_value.pl
+## ------------------------------------------------------------
+
+# Find last node where $node->attr() <= $val, using binary search
+sub find_first_node_before_value {
+	my $self = shift;
+	my $attr = shift;
+	my $value = shift;
+	my $nodes = shift || $self->nodes_with_attr($attr);
+
+	# Initialize
+	my $first = 0;
+	my $last = $#$nodes;
+	my $nval;
+	return undef 
+		if ($last < 0 || ! defined($value));
+	return undef
+		if (defined($nval = $self->nodevar_checked($first, $attr)) && $nval > $value);
+	return $last
+		if (defined($nval = $self->nodevar_checked($last, $attr)) && $nval <= $value);
+
+	# Binary search	
+	my $mid = int(($first + $last) / 2);
+	while ($mid != $first)  {
+		$nval = $self->nodevar_checked($mid, $attr);
+		return undef if (! defined($nval));
+		if ($nval <= $value) {
+			# [$mid] <= $value < [$last]
+			$first = $mid;
+		} else {
+			# [$first] <= $value < [$mid]
+			$last = $mid;
+		}
+		$mid = int(($first + $last) / 2);
+	}
+
+	# Return
+	return $mid;
+}
+
+sub nodevar_checked {
+	my $self = shift;
+	my $node = shift;
+	my $var = shift;
+	return undef if (! defined($node));
+	my $n = $self->node($node);
+	return undef if (! defined($n));
+	my $v = $n->var($var);
+	return $v;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/format.pl
 ## ------------------------------------------------------------
 
@@ -902,7 +955,12 @@ sub is_adjunct {
 		return 1;
 	} elsif (grep {lc($type) eq ($_ || "")} @{$self->etypes()->{'adj'}}) {
 		return 1;
-	} elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
+    } elsif ($type =~ /^<(.*:)?([^:]*):[0-9]+>$/) {
+        my ($head, $tail) = ($1 || "", $2);
+        my $return = 1;
+        map {$self->is_dependent($_) || ($return = 0)} split(/:/, $head);
+        return $self->is_dependent($tail) && $return;
+	} elsif ($type =~ /^<([^:]*)(:(.*))?:[0-9]+>$/) {
 		my ($head, $tail) = ($1, $3 || "");
 		my $return = 1;
 		map {$self->is_dependent($_) || ($return = 0)} split(/:\./, $tail);
@@ -953,10 +1011,10 @@ sub is_complement {
 		return 1;
 	} elsif (grep {lc($type) eq $_} @{$self->etypes()->{'comp'}}) {
 		return 1;
-    } elsif ($type =~ /^<([^:]*)(:(.*))?>$/) {
-        my ($head, $tail) = ($1, $3 || "");
+    } elsif ($type =~ /^<(.*:)?([^:]*):[0-9]+>$/) {
+        my ($head, $tail) = ($1 || "", $2);
         my $return = 1;
-        map {$self->is_complement($_) || ($return = 0)} split(/:\./, $head);
+        map {$self->is_complement($_) || ($return = 0)} split(/:/, $head);
         return $self->is_complement($tail) && $return;
     } elsif ($type =~ /^([^\.]+)\.([^\.]+)$/) {
 		return $self->is_complement($1) && $self->is_dependent($2);
@@ -1634,6 +1692,26 @@ sub nodes {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Graph/nodes_with_valid_attr.pl
+## ------------------------------------------------------------
+
+sub nodes_with_valid_attr {
+	my $self = shift;
+	my $attr = shift;
+	my $nodes = [];
+	for (my $i = 0; $i < $self->size(); ++$i) {
+		my $node = $self->node($i);
+		my $val;
+		push @$nodes, $i
+			if (! $node->comment() && defined($val = $node->var($attr)));
+	}
+	return $nodes;
+}
+
+
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Graph/offset.pl
 ## ------------------------------------------------------------
 
@@ -1855,7 +1933,6 @@ sub postscript {
 	}
 	$alignments .= "] def\n\n";
 
-
 	# Find possible variables to include in the graph
 	my $regexps = [split(/\|/, 
 		$self->layout($interpreter, 'vars') || "/stream:.*/|msd|gloss")];
@@ -1991,6 +2068,88 @@ sub postscript {
 		last() if ($interpreter->abort());
 	}
 
+	# Print fixations
+	my $fixations = "";
+	my $fnodes;
+	my $lastattrg;
+	my $nodeht = {};
+	my $nodehb = {};
+	my $maxht = 0;
+	my $maxhb = 0;
+	my $maxdur = 0;
+	my $mindur = 1e100;
+	my $fixbarstyle = $self->psstyle($interpreter, 'label',  ['fixation']) || 0;
+	my $fixarcstyle = $self->psstyle($interpreter, 'arc',  ['fixation']) || 0;
+	my $fixbarlabelstyle = $self->psstyle($interpreter, 'arclabel',  ['fixation']) || 0;
+	foreach my $fixlist (@{$self->var("fixations") || []}) {
+		my ($fixgraph, $attrd, $attrg, $attrf, $ontop, $imin, $imax) = @$fixlist;
+		#print "fixgraph=$fixgraph attrg=$attrg attrf=$attrf attrd=$attrd ontop=$ontop\n";
+		$fnodes = $self->nodes_with_valid_attr($attrg) 
+			if (! (defined($fnodes) && defined($lastattrg) && $lastattrg eq $attrg));
+		#print "fnodes: " . DTAG::Interpreter::dumper($fnodes) . "\n";
+		my $fsequence = [];
+		my $heights = $ontop ? $nodeht : $nodehb;
+		my $eedgecmd = $ontop ? " eedget" : " eedgeb";
+		for (my $i = $imin; $i < $fixgraph->size() && $i <= $imax; ++$i) {
+			my $fnode = $fixgraph->node($i);
+			my $flink = $fnode->var($attrf);
+			#print "i=$i fnode=$fnode flink=$flink\n";
+
+			# Add fixation to $fsequence
+			if (defined($flink)) {
+				my $gnode = $self->find_first_node_before_value($attrg, $flink, $fnodes);
+				my $psnode = defined($gnode) ? $nodes->{$gnode} : undef;
+				#print "gnode=$gnode psnode=$psnode\n";
+				my $dur = $fnode->var($attrd) || 0;
+				$dur = $dur <= 0 ? 0.0000001 : log($dur);
+				if (defined($psnode)) {
+					my $nodeh = $heights->{$psnode} || 0;
+					$heights->{$psnode} = $nodeh + 1;
+					push @$fsequence, [$psnode, $nodeh, $dur, $i];
+					#print "  [$psnode, $nodeh, $dur]\n";
+					if ($ontop) {
+						$maxht = max($maxht, $nodeh);
+					} else {
+						$maxhb = max($maxhb, $nodeh);
+					}
+					$maxdur = max($maxdur, $dur);
+					$mindur = min($mindur, $dur);
+				} else { 
+					$flink = undef;
+				}
+			} 
+
+			# Print $fsequence and reset
+			if (@$fsequence && ($i == min($imax, $fixgraph->size()-1) || ! defined($flink))) {
+				$E += scalar(@$fsequence);
+				for (my $j = 0; $j <= $#$fsequence; ++$j) {
+					my $j0 = max(0, $j-1);
+					my ($f1, $h1, $d1) = @{$fsequence->[max(0, $j-1)]};
+					my ($f2, $h2, $d2, $i) = @{$fsequence->[$j]};
+					$fixations .= "$f2 $f1 ($i) $fixbarstyle $fixarcstyle "
+						. "$d2 $d1 $h2 $h1 $fixbarlabelstyle $eedgecmd\n";
+				}	
+				$fixations .= "\n";
+			}	
+		}
+	}
+	#print "fixations=$fixations\n";
+	my $fixationsetup = "";
+	if ($fixations) {
+		my $mindurw = 1;
+		my $maxdurw = 20;
+		my $dEsw = $maxdur > $mindur ? ($maxdurw - $mindurw) / ($maxdur - $mindur) : 1;
+		my $dEow = $maxdurw - $dEsw * $maxdur;
+
+		printf("using width = %.4g + %.4g * ln(dur) with durations %.4g..%.4g, widths $mindurw..$maxdurw\n",
+			$dEow, $dEsw, exp($mindur), exp($maxdur));
+		$fixationsetup = "% Fixation setup\n"
+			. "/Emaxht $maxht def\n"
+			. "/Emaxhb $maxhb def\n"
+			. "/dEsw $dEsw def\n"
+			. "/dEow $dEow def\n\n";
+	}
+
 	# Produce PostScript styles
 	my $titlestyle = $self->psstyle($interpreter, 'label',  ['title']) || 0;
 	my $pslayout = "/formats [\n";
@@ -2013,9 +2172,11 @@ sub postscript {
 		. $pssetup . "\n\n"
 		. "% Graph setup\n" 
 		. "/title {($title) $titlestyle} def\n\n"
+		. "$fixationsetup"
 		. "$L $N $E setup\n" 
 		. $pslayout
 		. $ps . "\n"
+		. $fixations . "\n"
 		. $alignments 
 		. $pstrailer->{'arcs'};
 

@@ -60,6 +60,7 @@ use IO qw(File);
 use File::Basename;
 use Encode qw(decode decode_utf8 from_to);
 use Time::HiRes qw(time sleep);
+use Encode;
 
 # Required DTAG modules 
 require DTAG::Lexicon;
@@ -102,6 +103,11 @@ my $REL_LINENO = 10;
 my $REL_CHILDCNT = 11;
 my $REL_TCHILDCNT = 12;
 my $REL_SEE = 13;
+
+
+# Debugging
+my $debug_relset = undef;
+#open(my $debug_relset, ">:encoding(utf8)", "/tmp/dtag.relset.dbg");
 
 
 ## ------------------------------------------------------------
@@ -212,9 +218,9 @@ my $query_grammar = q{
 
 	Query :
 		  UnaryQuery ( "∨" | "||" | "|" | "OR" | "or" ) <leftop: UnaryQuery ( "∨" | "||" | "|" | "OR" | "or" ) UnaryQuery>
-			{ FindOR->new($item[1], @{$item[3]}) }
+			{ FindOR->new($item[1], DTAG::Interpreter::objects(@{$item[3]})) }
 		| UnaryQuery /∧|\&\&|\&|AND|and/ <leftop: UnaryQuery /∧|\&\&|\&|AND|and/ UnaryQuery>
-			{ FindAND->new($item[1], @{$item[3]}) }
+			{ FindAND->new($item[1], DTAG::Interpreter::objects(@{$item[3]})) }
 		| UnaryQuery ( "→" | "⇒" | "IMPLIES" | "implies" | "->") UnaryQuery
 			{ FindOR->new(FindNOT->new($item[1]), $item[3]) }
 		| UnaryQuery ( "←" | "⇐" | "IF" | "if" | "<-") UnaryQuery
@@ -228,14 +234,14 @@ my $query_grammar = q{
 			{ $item[2] }
 		| ( "¬" | "!" | "NOT" | "not" ) UnaryQuery
 			{ FindNOT->new($item[2]) }
-		| ExistQuantifier (Node | NodeVariableDeclaration) '(' Query ')'
+		| ExistQuantifier (NodeVariableDeclaration | Node) '(' Query ')'
 			{ FindEXIST->new($item[2], $item[4]) }
-		| ExistQuantifier '(' (Node | NodeVariableDeclaration) ',' Query ')'
+		| ExistQuantifier '(' (NodeVariableDeclaration | Node) ',' Query ')'
 			{ FindEXIST->new($item[3], $item[5]) }
-		| AllQuantifier (Node | NodeVariableDeclaration) '(' Query ')'
+		| AllQuantifier (NodeVariableDeclaration | Node) '(' Query ')'
 			{	FindEXIST->new($item[2], FindNOT->new($item[4]))
 				->setNegated() }
-		| AllQuantifier '(' (Node | NodeVariableDeclaration) ',' Query ')'
+		| AllQuantifier '(' (NodeVariableDeclaration | Node) ',' Query ')'
 			{	FindEXIST->new($item[3], FindNOT->new($item[5]))
 				->setNegated() }
 		| SimpleQuery
@@ -463,6 +469,16 @@ my $query_grammar = q{
 		/[-+]?[0-9]+(\.[0-9]+)?/
 
 };
+
+sub objects {
+	my $list = [];
+	while (@_) {
+		my $arg = shift;
+		push @$list, $arg
+			if (ref($arg));
+	}
+	return @$list;
+}
 
 # Parser object
 #my $query_parser = undef;
@@ -2168,6 +2184,69 @@ sub cmd_corpus {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_corpus_apply.pl
+## ------------------------------------------------------------
+
+sub cmd_corpus_apply {
+	my $self = shift;
+	my $cmd = shift || "";
+	my $graph = $self->graph();
+
+	# Process options
+	my $time = - time();
+	my $progress = "";
+
+	# Solve DNF-query for all files in corpus
+	my $iostatus = $|; $| = 1; my $c = 0;
+	my $findfiles = $self->{'corpus'};
+	my $laststatus = time() - 1;
+	foreach my $f (@$findfiles) {
+		# Load new file from corpus, if this is a corpus search 
+		$self->cmd_load($graph, undef, $f);
+		$graph = $self->graph();
+		$self->do($cmd);
+
+		# Print progress report 
+		if (! $self->quiet()) {
+	 		if (time() > $laststatus + 0.5 ) {
+				$laststatus = time();
+				my $blank = "\b" x length($progress);
+				my $percent = int(100 * $c / (1 + $#$findfiles));
+				$progress = 
+					sprintf('Processed %02i%%. Elapsed: %s. ETA: %s.',
+					$percent,
+					seconds2hhmmss(time()+$time),
+					seconds2hhmmss(int((100-$percent) 
+							/ ($percent || 1) * (time()+$time))));
+				$self->print("corpus-apply", "status", $blank . $progress);
+			}
+			++$c;
+		}
+
+		# Abort on request
+		last() if ($self->abort());
+	}
+	print "\b" x length($progress)
+		. " " x length($progress) 
+		. "\b" x length($progress)
+			if (! $self->quiet());
+	$| = $iostatus;
+
+    # Print search statistics
+	$time += time();
+	print "corpus-apply took " . seconds2hhmmss($time) 
+		. " seconds to execute \"$cmd\".\n" if (! $self->quiet());
+
+
+	# Restore old fpsfile
+	#$self->{'fpsfile'} = $oldfpsfile;
+
+	# Return
+	return 1;
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_del.pl
 ## ------------------------------------------------------------
 
@@ -2614,12 +2693,18 @@ sub cmd_edges {
 		if (! $node) {
 			return error("non-existent node $noder\n");
 		} else {
-			my @edges = map {
+			my @iedges = map {
 					($_->in() - $graph->offset()) . " "
 					. ($_->type()) . " "
 					. ($_->out() - $graph->offset()) . "\n"} 
 				@{$node->in()};
-			print join("", sort(@edges));
+			my @oedges = map {
+					($_->in() - $graph->offset()) . " "
+					. ($_->type()) . " "
+					. ($_->out() - $graph->offset()) . "\n"} 
+				@{$node->out()};
+			print "" . (@iedges ? "in:\n  " . join("  ", sort(@iedges))  : "")
+				. (@oedges ? "out:\n  " . join("  ", sort(@oedges)) : "");
 		}
 	}
 
@@ -2861,9 +2946,12 @@ sub cmd_example {
 	my $nopos = shift;
 	$spec = "" if (! defined($spec));
 
+
 	# Create new graph
 	my $offset = -1;
+	my $add = 0;
 	if ($spec =~ /^-add\s+/) {
+		$add = 1;
 		$spec =~ s/^-add\s+//g;
 		my $node = Node->new();
 		$node->input("\n");
@@ -2872,6 +2960,9 @@ sub cmd_example {
 	} else {
 		$self->do("new");
 		$graph = $self->graph();
+	}
+	if ($spec =~ s/^-nopos\s+//) {
+		$nopos = 1;
 	}
 
 	# Create graph from specification
@@ -2933,9 +3024,13 @@ sub cmd_example {
 	$self->do("inline 0 #$title") if ($title ne "");
 	$self->do($cmd);
 	if ($title ne "") {
-		$self->do("node x");
-		my $titlenode = $graph->node($graph->size()-1);
-		$titlenode->input('    "' . $title . '"');
+		if ($add) {	
+			$self->do("node x");
+			my $titlenode = $graph->node($graph->size()-1);
+			$titlenode->input('    "' . $title . '"');
+		} else {
+			$graph->var("title", $title);
+		}
 	}
 
 	# Update display
@@ -2951,12 +3046,18 @@ sub cmd_example {
 ##  auto-inserted from: Interpreter/cmd_exit.pl
 ## ------------------------------------------------------------
 
+my $exit_unsaved = 0;
+
 sub cmd_exit {
 	my $self = shift;
 	my $graph = shift;
 
 	# Save file if modified
-	if ($graph && $graph->mtime()) {
+	print "\n";
+	if ($graph && $graph->mtime() && $exit_unsaved + 60 < time()) {
+		warning("You have unsaved graphs! Exit again now if you really want to quit");
+		$exit_unsaved = time();
+		return 1;
 	}
 
 	# Only exit from the outer loop
@@ -2986,8 +3087,15 @@ sub cmd_exit {
 	}
 
 	# Kill viewers
-	system("ps a | egrep 'dtag-$$-[0-9]*.ps' | grep gv | awk '{print \$1}' | xargs -r kill");
-	print "\n";
+	my $mypid = $$;
+	my $tokill = `ps ef -w | grep dtag-$mypid | grep -v grep | cut -f1 -d\' \'`;
+	chomp($tokill);
+	foreach my $pid (split(/(\sُ|\n)+/, $tokill)) {
+		if ($pid =~ /[0-9]+/) {
+			print "closing viewer $pid: ";
+			system("kill $pid");
+		}
+	}
 
 	# Exit
 	exit();
@@ -3043,7 +3151,7 @@ sub cmd_find {
 		$self->print("find", "result", 
 			"input=$cmd\n"
 			. (defined($timeout) ? "maxtime=$timeout\n" : "")
-			. (defined($matchout) ? "maxmatch=$matchout\n" : ""))
+			. (defined($matchout) ? "maxmatch=$matchout\n" : "")
 			. ((ref($query) && UNIVERSAL::isa($query, 'HASH'))
 				? "vars=" . join(" ", sort(keys(%{$query->unbound({})})))
 					. "\n" 
@@ -3052,7 +3160,7 @@ sub cmd_find {
 					sort(keys(%$varkeys))) . "\n"
 			. ("query=" 
 				. ((ref($query) && UNIVERSAL::can($query, "print")) 
-					? $query->print() : dumper($query)) . "\n");
+					? $query->print() : dumper($query)) . "\n"));
 		return 1 if ($debug_parse);
 	}
 
@@ -3066,14 +3174,27 @@ sub cmd_find {
 			}
 		}
 	}
-	
+	my $abort = 0;
+	foreach my $var (keys(%$varkeys)) {
+		my $key = $varkeys->{$var};
+		my $keygraph = $graph->graph($key);
+		if (! defined($keygraph)) {
+			error("Undefined graph key \"" . (defined($key) ? $key : "") 
+				. "\" for variable $var!");
+			$abort = 1;
+		}
+	}
+	return 1 if ($abort);
+
 	# Reduce query string to disjunctive normal form
 	my $dnf = ref($query) ? $query->dnf() : undef;
-	if ($debug_dnf || $debug) {
-		$self->print("find", "result", 
-			"dnf=" . (ref($dnf) ? $dnf->print() : dumper($dnf)) . "\n");
-		return 1 if ($debug_dnf);
-	}
+	my $oquery = $query->pprint();
+	my $rquery = $dnf->pprint();
+	$self->print("find", "result",
+		"Executing query\n\n\t$oquery\n\n" .
+			($oquery ne $rquery ? "as query\n\n\t$rquery\n\n"
+				: ""));
+	return 1 if ($debug_dnf);
 
 	# Reset found matches and disable follow
 	my $matches = $self->{'matches'} = {};
@@ -3220,6 +3341,52 @@ sub cmd_find {
 	# Return
 	return 1;
 }
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_fixations.pl
+## ------------------------------------------------------------
+
+sub cmd_fixations {
+	my $self = shift;
+	my $graph = shift;
+	my $fixid = shift;
+	my $attrd = shift || "dur";
+	my $attrg = shift || "cur";
+	my $attrf = shift || $attrg;
+
+	# Retrieve fixation graph
+	my $fixgraph;
+	if ($fixid =~ /^F\[[0-9]+\]$/) {
+		# File already loaded with id $fixid
+		my $fixindex = $self->gid2index($fixid);
+		$fixgraph = $self->{'graphs'}->[$fixindex]
+			if (defined($fixindex));
+	} else {
+		# Load fixations from file
+		my $curgraph = 
+		$fixgraph = DTAG::Graph->new($self);
+        $fixgraph->file($fixid);
+		$self->cmd_load_fix($fixgraph, $fixid, 1);
+	}
+	if (! defined($fixgraph)) {
+		error("Could not find fixation graph $fixid\n");
+		return 1;
+	}
+
+	# Assign fixation graph to graph
+	$graph->var("fixations", []) 
+		if (! defined($graph->var("fixations")));
+	my $fixations = $graph->var("fixations");
+	push @$fixations, [$fixgraph, $attrd, $attrg, $attrf, 0, 0, $fixgraph->size() - 1, $fixid];
+	print "Added fixations $fixid to graph " . $graph->id() 
+			. " (linking attribute: graph=$attrg fixations=$attrf)\n"
+		if (! $self->quiet());
+
+	# Return
+	return 1;
+}
+
 
 
 ## ------------------------------------------------------------
@@ -4041,9 +4208,9 @@ sub cmd_load_fix {
 		if ($line =~ /^\s*<F(.*)\/>\s*/) {
 			my $varstr = $1;
 			my $vars = $self->varparse($graph, $varstr, 0);
-			my $input = $vars->{'str'} || chr($vars->{'val'});
+			my $input = "";
 			$n->input($input);
-			$n->type("K");
+			$n->type("F");
 			$graph->node_add($pos, $n);
 			foreach my $var (keys(%$vars)) {
 				$varnames->{$var} = 1;
@@ -6101,6 +6268,7 @@ sub cmd_relhelp {
 	my $self = shift;
 	my $graph = shift;
 	my $name = shift;
+	my $printex = shift;
 
 	# Find relation name
 	my $relsetname = $graph->var("relset") || $self->var("relset");
@@ -6150,14 +6318,15 @@ sub cmd_relhelp {
 
 	# Examples
 	if (defined($ex)) {
+		$ex = encode_utf8(decode_utf8($ex));
 		# Print examples on screen
-		print "\nEXAMPLES:\n";
+		print "\nEXAMPLES:\n" if ($printex);
 
 		# Create example graph
 		my $exlist = ["$ex"];
 		$ex =~ s/([^\n])\n([^\n])/$1 $2/g;
 		my @examples = split("\n+", $ex);
-		print "\t" . join("\n\n\t", @examples) . "\n\n";
+		print "\t" . join("\n\n\t", @examples) . "\n\n" if ($printex);
 		push @$exlist, @examples;
 		$self->cmd_example($graph, shift(@examples), 1);
 		my $egraph = $self->graph();
@@ -6180,8 +6349,8 @@ sub cmd_relhelp {
 		# Close example graph
 		$self->var("examplegraph", $egraph);
 		if ($egraph->var("example")) {
-			#$self->cmd_save($egraph, undef, "/tmp/example.$$.tag");
-			$self->cmd_close($egraph);
+#			$self->cmd_save($egraph, undef, "/tmp/example.$$.tag");
+#			$self->cmd_close($egraph);
 		}
 	}
 
@@ -6248,6 +6417,8 @@ sub cmd_relhelpsearch {
 ##  auto-inserted from: Interpreter/cmd_relset.pl
 ## ------------------------------------------------------------
 
+use utf8;
+
 sub cmd_relset {
 	my $self = shift;
 	my $graph = shift;
@@ -6271,23 +6442,19 @@ sub cmd_relset {
 	}
 
 	# Open csv file (replacing ~ with home dir)
+	print "Loading relation set \"$name\" from $file\n";
 	if ($file =~ /^https?:\/\//) {
-		my $s = get($file);
-		open(FILE, ">:encoding(utf8)", "/tmp/dtag.wget");
-		print FILE $s;
-		close(FILE);
-		if (! defined($s)) {
-			$s = "";
-			error("Failed to download URL-resource $file");
-		}
-		open("CSV", "<:encoding(utf8)", \$s);
+		my $cmd = "wget -q -O /tmp/dtag.wget2 '$file'";
+		print $cmd . "\n" if ($debug_relset);
+		system($cmd);
+		system("iconv -f utf8 -t utf8//TRANSLIT /tmp/dtag.wget2 > /tmp/dtag.wget");
+		$file = "/tmp/dtag.wget";
 	} else {
 		$file =~ s/^~/$ENV{HOME}/g;
-		open("CSV", "<:encoding(utf8)", $file)
-			|| return error("cannot open csv-file for reading: $file $!");
 	}
+	open("CSV", "<:encoding(utf8)", $file)
+		|| return error("cannot open csv-file for reading: $file $!");
 	#CORE::binmode("CSV", $self->binmode()) if ($self->binmode());
-	print "Loading relation set \"$name\" from $file\n";
 	
 	# Create relations object
 	my $relations = {"_name_" => $name, "_file_" => $file};
@@ -6306,14 +6473,15 @@ sub cmd_relset {
 		# Read line from relations CSV file
 		++$lineno;
 
+		$row = [map {decode_utf8($_)} @$row];
+
 		# Read fields
 		for (my $i = 0; $i < 15; ++$i) {
             $row->[$i] = "" if (! defined($row->[$i]));
         }
 		my ($comment, $shortname, $longname, $deprecatednames, 
 			$supertypes, $shortdescription, $longdescription, $seealso, 
-			$examples) =
-			map {fixencoding($_)} @$row;
+			$examples) = @$row;
 		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
 
 		# Skip line if short name or long name are undefined
@@ -6332,7 +6500,12 @@ sub cmd_relset {
 		map {$relations->{$_} = $relation
 		 	if (! exists $relations->{$_}); push @$classes, $_} 
 				split(/\s+/, $deprecatednames);
-	}
+		if ($lineno < 10 && $debug_relset) {
+			print $debug_relset "csv-relations: "
+				. $relations->{$shortname}[7] . "\n";
+		}
+
+}
 	close(CSV);
 
 	# Compile relation hierarchy
@@ -6391,18 +6564,20 @@ sub add_relation_nodes {
 	}
 
 	# Return short name
-	#print "$name: " . dumper($rellist) . "\n";
 	return $name;
 }
 
-sub fixencoding {
-	my $s = shift;
-	return $s;
-}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_relset2latex.pl
 ## ------------------------------------------------------------
+
+my $relset_example_id = 0;
+my $relset_example_dir = "figs";
+my $relset_example_prefix = "$relset_example_dir/fig-";
+my $relset_undef = "\\relax";
+my $relset_indent = "\\mytab";
+my $relset_cmdsummary = "";
 
 sub cmd_relset2latex {
 	my $self = shift;
@@ -6424,11 +6599,17 @@ sub cmd_relset2latex {
 	}
 
 	# Open file and visit nodes depth-first
+	system("mkdir -p $relset_example_dir");
+	$relset_example_id = 0;
+	$relset_cmdsummary = "";
+	print "printing relset to $filename\n";
 	open(my $ofh, ">", $filename);
 	my $visited = {};	
 	foreach my $relation (split(/\s+/, $relations)) {
-		$self->relset2latex_visit($ofh, $relset, $relation, $visited);
+		$self->relset2latex_visit($ofh, $relset, $relation, $visited, "");
 	}
+
+	print $ofh "\\begin{overview}\n\n$relset_cmdsummary\n\n\\end{overview}\n";
 
 	# Close file
 	close($ofh);
@@ -6440,6 +6621,7 @@ sub relset2latex_visit {
 	my $relset = shift;
 	my $relname = shift;
 	my $visited = shift;
+	my $indent = shift;
 
 	# Do not revisit already visited relations
 	return if ($visited->{$relname});
@@ -6454,23 +6636,67 @@ sub relset2latex_visit {
 				$REL_IPARENTS, $REL_TPARENTS, $REL_ICHILDREN, $REL_SDESCR,
 				$REL_LDESCR, $REL_EX, $REL_DEPRECATED, $REL_LINENO, $REL_SEE);
 																			   
+	# Print examples
+	my @examples = ();
+	foreach my $example (split(/\n+/, $ex)) {
+		my $exfile = $relset_example_prefix 
+			. sprintf("%04d", ++$relset_example_id);
+		open(EXAMPLE, ">$exfile.dtag");
+		print EXAMPLE "example -nopos $example\n";
+		close(EXAMPLE);
+		push @examples, "$exfile.pdf";
+	}
+
 	# Print relation
 	print $ofh "\\begin{relation}\n";
-	print $ofh "	\\relationheader{\\rel{$sname}}{\\rel{$lname}}{$sdescr}{$lineno}{$deprecated}{" 
-		. join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, keys(%$iparents))) . "}"
-		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, keys(%$ichildren))) . "}"
-		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, grep {! $iparents->{$_}} keys(%$tparents))) . "}"
-		. "{" . join(" ", map {"\\rel{" . $_ . "}"} sorted_relations($relset, split(/\s+/, $see))) . "}\n";
-	print $ofh "	\\begin{ldescription}\n\t\t$ldescr\n\\end{ldescription}\n" if ($ldescr);
+	print $ofh "	\\relname{\\rel{" . tex($sname) . "}}{";
+	print $ofh "\\isa{" . join(" ", map {"\\rel{" . tex($_) . "}"}
+			sorted_relations($relset, keys(%$iparents))) . "}"
+		if (%$iparents);
+	print $ofh "}{\\lineno{$lineno}}%\n";
+	my @sdescrx = ();
+	push @sdescrx, "\\xlong{\\rel{" . tex($lname) . "}}"
+		if ($lname ne "" && $lname ne $sname);
+	push @sdescrx, "\\deprecated{\\rel{" . tex($deprecated) . "}}"
+		if ($deprecated ne "");
+	my $texsdescr = tex(ucfirst($sdescr));
+	if (@sdescrx) {
+		print $ofh "	\\sdescrx{$texsdescr}{" 
+			. join(", ", @sdescrx) . "}%\n";
+	} else {
+		print $ofh "	\\sdescr{$texsdescr}%\n";
+	}
+	print $ofh "	\\begin{ldescription}\n\t\t"
+		. tex(ucfirst($ldescr)) . "\n\\end{ldescription}\n" if ($ldescr);
+	print $ofh "	\\tparents{" .  join(" ", map {"\\rel{" . tex($_) . "}%\n"} 
+		sorted_relations($relset, grep {! $iparents->{$_}} keys(%$tparents)))
+			. "}\n" if (%$tparents);
+	print $ofh "	\\subtypes{" . join(" ", map {"\\rel{" . tex($_) . "}"} 
+			sorted_relations($relset, keys(%$ichildren))) . "}%\n" 
+		if (%$ichildren);
+	print $ofh "	\\related{" . join(" ", map {"\\rel{" . tex($_) . "}"} 
+		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
+	$relset_cmdsummary .= "	\\cmdsummary{$indent}{\\rel{" . tex($sname) . "}}{"
+		. tex($sdescr) . "}%\n";
 	print $ofh "	\\begin{examples}\n"
-		. join("", map {"\t\t{{{" . $_ . "}}}\n"} split(/\n+/, $ex))
-		. "\t\\end{examples}\n";
+		. join("", map {"\t\t\\exfig{$_}\n"} @examples)
+		. "\t\\end{examples}\n" if (@examples);
 	print $ofh "\\end{relation}\n\n";
 
 	# Visit child relations in original order
 	foreach my $subrel (sorted_relations($relset, keys(%$ichildren))) {
-		$self->relset2latex_visit($ofh, $relset, $subrel, $visited);
+		$self->relset2latex_visit($ofh, $relset, $subrel, $visited,
+		$indent . $relset_indent);
 	}
+}
+
+sub tex {
+	my $s = shift;
+	$s =~ s/\$/\\\$/g;
+	$s =~ s/{/\\{/g;
+	$s =~ s/}/\\}/g;
+	$s =~ s/#/\\#/g;
+	return (length($s) != 0) ? $s : $relset_undef;
 }
 
 sub sorted_relations {
@@ -8228,6 +8454,12 @@ sub cmd_viewer {
 	} else {
 		$self->fpsfile($fpsfile);
 	}
+
+	# Record fpsfile as a viewed file
+	$self->{'viewfiles'} = {} 
+		if (! defined($self->{'viewfiles'}));
+	$self->{'viewfiles'}->{$fpsfile} = 1;
+
 	# Update graph and viewer
 	$self->{'viewer'} = 1;
 	$graph->fpsfile($fpsfile);
@@ -8347,7 +8579,6 @@ sub compound_autonumber {
 		my $cmdstr = shift;
 		my $history = shift;
 		my $success = undef;
-		my $graph = $self->graph();
 
 		# Log command
 		my $cmdlog = $self->var("cmdlog");
@@ -8375,6 +8606,7 @@ sub compound_autonumber {
 		my $todo = $self->var('todo');
 		my $cmd;
 		while (defined($cmd = shift(@$commands))) {
+			my $graph = $self->graph();
 			# Command ends with backslash
 			if ($cmd =~ /\\\s*$/) {
 				# Prepend command to following command
@@ -8417,8 +8649,8 @@ sub compound_autonumber {
 				if ($cmd =~ /^\s*\?\?(\S+)\s*$/);
 
 			# Help relation command: ?$relation
-			$success = $self->cmd_relhelp($graph, $1) 
-				if ($cmd =~ /^\s*\?([^?]\S+)\s*$/);
+			$success = $self->cmd_relhelp($graph, $2, $1) 
+				if ($cmd =~ /^\s*\?(!)?([^?]\S+)\s*$/);
 
 			# UNIX commands recognized by DTAG: ls mkdir rmdir rm pwd
 			$success = $self->cmd_shell($1)
@@ -8524,6 +8756,9 @@ sub compound_autonumber {
 		# Corpus: corpus $files
 		$success = $self->cmd_corpus($1) 
 			if ($cmd =~ /^\s*corpus(\s+.*)?$/);
+		$success = $self->cmd_corpus_apply($1) 
+			if ($cmd =~ /^\s*corpus-apply\s+(.*)$/);
+
 
 		# Delete node/edge/alignment edge: del $node[-$node] [$etype $node]
 		#	"del 12"
@@ -8604,6 +8839,10 @@ sub compound_autonumber {
 		# Find: find $pattern
 		$success = $self->cmd_find($graph, $1) 
 			if ($cmd =~ /^\s*find\s+(.*\S)\s*$/);
+
+		# Fixations fixations $fixgraphid $durattr $graphattr $fixattr
+		$success = $self->cmd_fixations($graph, $1, $2, $3, $5)
+			if ($cmd =~ /^\s*fixations\s+(\S+)\s+(\S+)\s+(\S+)(\s+(\S+))?\s*$/);
 
 		# Follow: follow [$file]
 		$success = $self->cmd_follow($graph, $1)
@@ -8935,14 +9174,13 @@ sub compound_autonumber {
 			my $cmd = $self->{'macros'}{$x1};
 			my $cmd2 = $cmd || "";
 			if ($cmd && $cmd2 =~ /{ARGS}/) {
-				$cmd2 =~ s/{ARGS}/$x2/;
+				$cmd2 =~ s/{ARGS}/$x2/g;
 			} elsif ($cmd) {
 				$cmd2 .=  " " . ($x2 || "");
 			}
 			my $fname = $graph->file() || "UNTITLED";
 			$cmd2 =~ s/{FILE}/$fname/g;
 			if ($cmd) {
-			
 				$self->do($cmd2);
 				$success = 1;
 			}
@@ -10735,6 +10973,16 @@ sub unbound {
 	return $unbound;
 }
 
+sub _pprint {
+    my $self = shift;
+    my $args = $self->{'args'};
+    if (scalar(@$args) > 1) {
+        return "(" . join($self->utf8print() ? " ∧ " : " & ",
+            map {$_->pprint()} @$args) . ")";
+    } else {
+        return $args->[0]->pprint();
+    }
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindAction.pl
@@ -10845,7 +11093,9 @@ sub match {
 	my $bind = shift;
 
 	# Find variable and condition
-	my $var = $self->{'args'}[0];
+	my $var = $self->varname();
+	my $varkey = $self->varkey();
+	my $keygraph = $graph->graph($varkey);
 	my $cond = $self->{'args'}[1];
 	my $oldval = $bind->{$var};
 	my $neg = $self->{'neg'} ? 1 : 0;
@@ -10857,7 +11107,7 @@ sub match {
 	delete $newbindings->{$var};
 
 	# Find all solutions to $cond with $newbindings
-	my $solutions = $cond->solve($graph, 0, $newbindings); 
+	my $solutions = $cond->solve($keygraph, 0, $newbindings); 
 
 	# Check number of solutions in $solutions
 	return @$solutions;
@@ -10871,7 +11121,7 @@ sub unbound {
 	$self->{'args'}[1]->unbound($unbound);
 
 	# Remove variable from 
-	delete $unbound->{$self->{'args'}[0]};
+	delete $unbound->{$self->varname()};
 
 	# Return unbound variables
 	return $unbound;
@@ -10879,7 +11129,7 @@ sub unbound {
 
 sub dnf {
 	my $self = shift;
-	my $var = $self->{'args'}[0];
+	my $var = $self->varname();
 	my $neg = $self->{'neg'};
 
 	# Return self if $self->{'dnf'} is set
@@ -10903,7 +11153,7 @@ sub dnf {
 		}
 
 		# Resulting conjunct
-		my $exist = FindEXIST->new($var, FindAND->new(@inner));
+		my $exist = FindEXIST->new([$var, $self->varkey()], FindAND->new(@inner));
 		$exist->{'dnf'} = 1;
 		if ($neg) {
 			# Operator: not exists
@@ -10919,6 +11169,29 @@ sub dnf {
 	return $neg ? $new->dnf() : $new;
 }
 
+sub varname {
+	my $self = shift;
+	my $var = $self->{'args'}[0];
+	return UNIVERSAL::isa($var, "ARRAY")
+		? $var->[0] : $var;
+}
+
+sub varkey {
+	my $self = shift;
+	my $var = $self->{'args'}[0];
+	return UNIVERSAL::isa($var, "ARRAY")
+		? $var->[1] : "";
+}
+
+sub _pprint {
+	my $self = shift;
+	my $var = $self->varname();
+	my $varkey = $self->varkey();
+	my $arg = $self->{'args'}[1];
+	return ($self->utf8print() ? "∃" : "EXIST") 
+		. ($varkey ne "" ? $var . "@" . $varkey : $var)
+		. $arg->pprint();
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindEdge.pl
@@ -10929,6 +11202,14 @@ package FindEdge;
 
 sub vars {
 	return [0,1];
+}
+
+sub _pprint {
+	my $self = shift;
+	my $var1 = $self->{'args'}[0];
+	my $var2 = $self->{'args'}[1];
+	my $relpattern = $self->{'args'}[2];
+	return "(" . $var1 . " " . $relpattern->pprint() . " " . $var2 .  ")";
 }
 
 sub match {
@@ -11039,30 +11320,6 @@ sub match {
 }
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/FindOps/FindINH.pl
-## ------------------------------------------------------------
-
-package FindINH;
-@FindINH::ISA = qw(FindOp);
-
-sub vars {
-	return [0];
-}
-
-sub print {
-	my $self = shift;
-	my $type = ref($self);
-	my $neg = ($self->{'neg'}) ? "!" : "";
-
-	my $tname = DTAG::Interpreter::dumper($self->{'args'}[1]);
-	$tname =~ s/^\$VAR1 = (.*);$/$1/;
-
-	return "$neg$type(" . $self->{'args'}[0]  . ",$tname)";
-}
-
-
-
-## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindLT.pl
 ## ------------------------------------------------------------
 
@@ -11120,7 +11377,7 @@ sub match {
 	return $string eq $self->{'args'}[0];
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	return '"' . $self->{'args'}[0] . '"';
 }
@@ -11141,7 +11398,7 @@ sub match {
 	return $typespec->match($graph, $string, $relset);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	my ($type, $relset) = @$args;
@@ -11165,7 +11422,7 @@ sub match {
 	return eval("\$string =~ $regexp")
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	return $self->{'args'}[0];
 }
@@ -11237,10 +11494,14 @@ sub match {
 	return defined($val1) && defined($val2) && ($val1 == $val2);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
-	return $args->[0] . ($self->{'neg'} ? " != " : " == ") . $args->[1];
+	return "(" . 
+		($self->utf8print() 
+			? $args->[0] . ($self->{'neg'} ? " ≠ " : " = ") . $args->[1]
+			: $args->[0] . ($self->{'neg'} ? " != " : " == ") . $args->[1])
+		. ")";
 }
 
 ## ------------------------------------------------------------
@@ -11272,10 +11533,13 @@ sub match {
 	return defined($val1) && defined($val2) && ($val1 > $val2);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
-	return $args->[0] . ($self->{'neg'} ? " <= " : " > ") . $args->[1];
+	return "(" . ($self->utf8print() 
+		? $args->[0] . ($self->{'neg'} ? " ≤ " : " > ") . $args->[1]
+		: $args->[0] . ($self->{'neg'} ? " <= " : " > ") . $args->[1])
+		. ")";
 }
 
 ## ------------------------------------------------------------
@@ -11307,10 +11571,13 @@ sub match {
 	return defined($val1) && defined($val2) && ($val1 < $val2);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
-	return $args->[0] . ($self->{'neg'} ? " >= " : " < ") . $args->[1];
+	return "(" . ($self->utf8print() 
+		? $args->[0] . ($self->{'neg'} ? " ≥ " : " < ") . $args->[1]
+		: $args->[0] . ($self->{'neg'} ? " >= " : " < ") . $args->[1])
+		. ")";
 }
 
 ## ------------------------------------------------------------
@@ -11319,9 +11586,6 @@ sub print {
 
 package FindNumberValue;
 @FindNumberValue::ISA = qw(FindValue);
-
-use overload
-    '""' => \& print;
 
 sub unbound {
 	my $self = shift;
@@ -11334,7 +11598,7 @@ sub nvalue {
 	return $self->{'args'}[0];	
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	return $self->{'args'}[0];
 }
@@ -11359,7 +11623,7 @@ sub unbound {
 	$unbound->{$self->{'args'}[0]} = 1;
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	my $node = $args->[0];
@@ -11429,6 +11693,17 @@ sub unbound {
 	return $unbound;
 }
 
+sub _pprint {
+	my $self = shift;
+	my $args = $self->{'args'};
+	if (scalar(@$args) > 1) {
+		return "(" . join($self->utf8print() ? " ∨ " : " | ",
+        	map {$_->pprint()} @$args) . ")";
+	} else {
+		return $args->[0]->pprint();
+	}	
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindOp.pl
@@ -11436,9 +11711,6 @@ sub unbound {
 
 package FindOp;
 @FindOp::ISA = qw(FindProc);
-
-use overload
-    '""' => \& print;
 
 sub new {
     my $proto = shift;
@@ -11569,22 +11841,6 @@ sub find_next {
 	}
 }
 
-## 
-## Printing
-##
-
-sub print {
-    my $self = shift;
-    my $type = ref($self);
-	my $neg = $self->{'neg'} ? "!" : "";
-
-    # Print 
-    return "$neg$type(" . join(",", 
-		map {UNIVERSAL::isa($_, 'FindProc') ? $_->print() : "$_"} 
-			@{$self->{'args'}}) . ")";
-}
-
-
 ##
 ## Dummy procedures: should be defined by subclasses
 ## 
@@ -11638,7 +11894,7 @@ sub graphsize {
 	my $key = $self->varkey($bindings, $var);
 	my $keygraph = $graph->graph($key);
 	if (! defined($keygraph)) {
-		warning("Could not find graph for key " . ($key || "undef") .  "\n");
+		DTAG::Interpreter::warning("Could not find graph for key " . ($key || "undef") .  "\n");
 		return 0;
 	}
 	return $keygraph->size();
@@ -11646,7 +11902,7 @@ sub graphsize {
 
 
 ## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/FindOps/FindPATH.pl
+##  auto-inserted from: Interpreter/FindOps/FindPath.pl
 ## ------------------------------------------------------------
 
 package FindPATH;
@@ -11666,7 +11922,7 @@ sub path {
 	my $bind = shift;
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $type = ref($self);
 	my $neg = ($self->{'neg'}) ? "!" : "";
@@ -11684,10 +11940,34 @@ sub print {
 
 package FindProc;
 
-sub print {
-	my $self = shift;
-	return "{$self}";
+sub utf8print {
+    return 1;
 }
+
+sub print {
+    my $self = shift;
+    my $neg = $self->{'neg'} ? (utf8print() ? "¬" : "!") : "";
+    my $type = ref($self);
+    return "$type(" . join(",",
+        map {UNIVERSAL::isa($_, 'FindProc') ? $_->print() : "$_"}
+            @{$self->{'args'}}) . ")";
+}
+
+sub pprint {
+    my $self = shift;
+    my $neg = $self->{'neg'} ? (utf8print() ? "¬" : "!") : "";
+    # Print 
+    return "$neg" . $self->_pprint();
+}
+
+sub _pprint {
+    my $self = shift;
+    my $type = ref($self);
+    return "$type(" . join(",",
+        map {UNIVERSAL::isa($_, 'FindProc') ? $_->pprint() : "$_"}
+            @{$self->{'args'}}) . ")";
+}
+
 
 sub keygraph {
 	my ($self, $graph, $bindings) = (shift, shift, shift);
@@ -11724,9 +12004,6 @@ sub error {
 package FindStringEQ;
 @FindStringEQ::ISA = qw(FindOp);
 
-use overload
-    '""' => \& print;
-
 sub unbound {
 	my $self = shift;
 	my $unbound = shift;
@@ -11746,7 +12023,7 @@ sub match {
 	return defined($val1) && defined($val2) && ($val1 eq $val2);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return $args->[0] . ($self->{'neg'} ? " ne " : " eq ") . $args->[1];
@@ -11758,9 +12035,6 @@ sub print {
 
 package FindStringRegExp;
 @FindStringRegExp::ISA = qw(FindOp);
-
-use overload
-    '""' => \& print;
 
 sub unbound {
 	my $self = shift;
@@ -11784,7 +12058,7 @@ sub match {
 	return eval("\$val =~ $regexp") ? 1 : 0;
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return $args->[1] . " =~ " . $args->[0];
@@ -11797,9 +12071,6 @@ sub print {
 package FindStringValue;
 @FindStringValue::ISA = qw(FindValue);
 
-use overload
-    '""' => \& print;
-
 sub unbound {
 	my $self = shift;
 	my $unbound = shift;
@@ -11811,7 +12082,7 @@ sub svalue {
 	return $self->{'args'}[0];	
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	return '"' . $self->{'args'}[0] . '"';
 }
@@ -11823,14 +12094,11 @@ sub print {
 package FindStringValueNodeFeature;
 @FindStringValueNodeFeature::ISA = qw(FindStringValue);
 
-use overload
-    '""' => \& print;
-
 sub vars {
 	return [1];
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	my $node = $args->[0];
@@ -11847,13 +12115,18 @@ sub svalue {
 	# Variables
 	my $nodevar = $self->{'args'}[0];
 	my $featvar = $self->{'args'}[1];
+	return undef if (! defined($nodevar));
+
+	# Find key graph
+	my $keygraph = $self->keygraph($graph, $bindings, $nodevar);
+	return undef if (! defined($keygraph));
 
 	# Find node id and node
-	return undef if (! defined($nodevar));
 	my $nodeid = $nodevar->nvalue($graph, $bindings, $bind);
-
 	return undef if (! defined($nodeid));
-	my $node = $graph->node($nodeid);
+
+	# Find node
+	my $node = $keygraph->node($nodeid);
 	return undef if (! defined($node));
 
 	# Find value
@@ -11909,9 +12182,6 @@ sub print {
 package FindTypeAtomic;
 @FindTypeAtomic::ISA = qw(FindType);
 
-use overload
-    '""' => \& print;
-
 sub match {
     my $self = shift;
     my $graph = shift;
@@ -11931,7 +12201,7 @@ sub match {
     return $tparents->{$tparent};
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return '"' . $args->[0] . '"';
@@ -11943,9 +12213,6 @@ sub print {
 
 package FindTypeMinus;
 @FindTypeMinus::ISA = qw(FindType);
-
-use overload
-    '""' => \& print;
 
 sub match {
 	my $self = shift;
@@ -11962,7 +12229,7 @@ sub match {
 	return 1;
 }
 
-sub print {
+sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
     return "(" . join("-", @$args) . ")";
@@ -11976,9 +12243,6 @@ sub print {
 package FindTypeNot;
 @FindTypeNot::ISA = qw(FindType);
 
-use overload
-    '""' => \& print;
-
 sub match {
 	my $self = shift;
 	my $graph = shift;
@@ -11990,7 +12254,7 @@ sub match {
 	return ! $args->[0]->match($graph, $string, $relset);
 }
 
-sub print {
+sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return '(-' . $args->[0] . ')';
@@ -12022,7 +12286,7 @@ sub match {
 	return 0;
 }
 
-sub print {
+sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
     return "(" . join("|", @$args) . ")";
@@ -12054,7 +12318,7 @@ sub match {
 	return 1;
 }
 
-sub print {
+sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
     return "(" . join("+", @$args) . ")";
@@ -12081,7 +12345,7 @@ sub new {
     return $self;
 }
 
-sub print {
+sub pprint {
 	return "FindValue";
 }
 
