@@ -1,7 +1,7 @@
 
 cdt-manual.pdf: cdt-files
 	cp cdt-manual.tex build
-	cd build; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual
+	cd build; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual && cp build/cdt-manual.pdf ..
 
 all: figures cdt-manual.pdf
 
