@@ -15,9 +15,9 @@ DISCOURSE-DISCFUNC-DISCSEM: Discourse relations
 > DISCFUNC: Functional relations
 > DISCSEM: Semantic relations
 
-ANTECEDENT: Antecedent relations
+ANTECEDENT: Anaphor relations
 > coref: Coreference relations
-> assoc: Associative antecedent relations
+> assoc: Associative anaphor relations
 
 SEMANTICS-QUALIA-SEMROLE: Semantic relations
 > QUALIA: Qualia relations
