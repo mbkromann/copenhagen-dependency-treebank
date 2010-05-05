@@ -1,20 +1,128 @@
 \documentclass{report}
 
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{marginnote}
+\usepackage{ifthen}
+\usepackage{makeidx}
+\usepackage{a4}
+\usepackage{sectsty}
+\allsectionsfont{\sffamily}
+
+
+\usepackage{multicol}
+\makeatletter
+\renewenvironment{theindex}
+  {\if@twocolumn
+      \@restonecolfalse
+   \else
+      \@restonecoltrue
+   \fi
+   \newpage
+   \setlength{\columnseprule}{0pt}
+   \setlength{\columnsep}{35pt}
+   \begin{multicols}{3}[\chapter{\indexname}]
+   \markboth{\MakeUppercase\indexname}%
+            {\MakeUppercase\indexname}%
+%   \thispagestyle{plain}  % I don't want the first page of the index
+%   to be plain
+   \setlength{\parindent}{0pt}
+   \setlength{\parskip}{0pt plus 0.3pt}
+   \relax
+   \let\item\@idxitem}%
+  {\end{multicols}\if@restonecol\onecolumn\else\clearpage\fi}
+\makeatother
+
+\makeindex
+%\setmainfont[Mapping=tex-text]{Bitstream Charter}
+
 % Packages
-\usepackage[utf8]{inputenc}
-\usepackage{times}
+%\usepackage{pstricks}  % since the dash is rendered by pstricks!
+%\usepackage[postscript]{ucs}
+%\usepackage[utf8x]{inputenc} 
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
 
 % Macros
 \newenvironment{relation}{\medskip}{\medskip}
-\newenvironment{examples}{}{}
-\newenvironment{ldescription}{\begin{quote}\textit{Description:}}{\end{quote}}
-\def\relationheader#1#2#3#4#5#6#7#8#9{\noindent\textbf{#1} #3 (long #2, deprecated #5, row #4, isa #6 : #8). Subtypes #7. Related #9.\par}
-\def\rel#1{\textit{#1}}
+\newenvironment{examples}{\medskip\par\begin{center}}{\end{center}}
+\newenvironment{ldescription}{}{}
+\newenvironment{overview}[1]{\begin{figure}[!h]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
+
+\def\rel#1{\textsf{#1\index{#1}}}
+\def\relname#1#2#3{\par\noindent\llap{\smash{\parbox[t]{40mm}
+	{\raggedleft\textbf{#1}#2#3}\ \ }}}
+\def\isa#1{\\\small isa #1}
+\def\lineno#1{\\\small [#1]}
+
+\def\sdescr#1{\textit{#1}.}
+\def\sdescrx#1#2{\textit{#1} {\footnotesize (#2)}.}
+\def\xlong#1{long: #1}
+\def\deprecated#1{deprecated #1}
+\def\subtypes#1{\par\footnotesize\noindent Subtypes: #1. }
+\def\related#1{\par\footnotesize Related types: #1. }
+\def\tparents#1{}
+\def\cmdsummary#1#2#3{\footnotesize\phantom{.}#1#2: #3\newline}
+\def\overviewfile#1{\input{#1}}
+
+\def\mytab{\hspace{2mm}}
+\def\exfig#1{\quad\includegraphics{#1}\quad\allowbreak}
+
+\textheight=240mm
+\textwidth=140mm
+\topmargin=0mm
+\headsep=0mm
+\headheight=0mm
+\oddsidemargin=10mm
+\evensidemargin=10mm
+
 
 \begin{document}
-	\title{Copenhagen Dependency Treebank manual}
+	\title{\sffamily\bfseries The inventory of linguistic relations used in the 
+		Copenhagen Dependency Treebanks}
+	\author{Matthias Buch-Kromann \and 
+		Morten Gylling-Jørgensen \and
+		Lotte Jelsbech Knudsen \and
+		Iørn Korzen \and
+		Henrik Høeg Müller \\[10pt]
+		%Center for Research in Translation and Translation Technology \\
+		Dept.\ of International Language Studies and Computational
+		Linguistics \\
+		Copenhagen Business School}
+	\maketitle
 
-	\chapter{Relations}
+	\begin{abstract}
+		This manual describes the inventory of linguistic relations used in the
+		Copenhagen Dependency Treebanks, a set of parallel treebanks
+		for Danish, English, German, Italian, and Spanish annotated
+		with respect to syntax, morphology, discourse, coreference,
+		and translational equivalence. The manual is generated
+		automatically from the CDT project's online relation
+		spreadsheet.\footnote{\url{http://spreadsheets.google.com/ccc?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en}}
+	\end{abstract}
 
-	\include{cdt-relations}
+	\tableofcontents
+
+	\newpage
+
+	\chapter{Introduction}
+
+	\input{cdt-rels}
+
+	\appendix
+
+	\chapter{Overview tables}
+
+	The tables in this section lists all the relations in the
+	Copenhagen Dependency Treebanks, repeated from the preceding
+	sections.
+
+	\renewenvironment{overview}[1]{\begin{center}\def\mycaption{#1}\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\nopagebreak\medskip\nopagebreak\par\nopagebreak{The relations matching \rel{\small\mycaption}.}\end{center}\bigskip}
+
+	\input{build/cdt-rels-overviews.tex}
+
+	\printindex
+
 \end{document}

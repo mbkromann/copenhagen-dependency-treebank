@@ -1,0 +1,29 @@
+ANY-SYNTAX-MORPHOLOGY-DISCOURSE-ANTECEDENT-SEMANTICS-RULE: Top-level relations
+
+SYNTAX-SYNCOMP-SYNADJ: Syntactic relations
+> SYNCOMP: Complement relations
+> ADVERB: Adverbial adjunct relations
+> SYNADJ-ADVERB: Other adjunct relations
+
+MORPHOLOGY-MORPHCOMP-MORPHDERIV: Morphological relations
+> MORPHCOMP: Compositional relations
+> MORPHDERIV-PREFIX-SUFFIX: Derivational relations
+> > PREFIX: Prefix relations
+> > SUFFIX: Suffix relations
+
+DISCOURSE-DISCFUNC-DISCSEM: Discourse relations
+> DISCFUNC: Functional relations
+> DISCSEM: Semantic relations
+
+ANTECEDENT: Antecedent relations
+> coref: Coreference relations
+> assoc: Associative antecedent relations
+
+SEMANTICS-QUALIA-SEMROLE: Semantic relations
+> QUALIA: Qualia relations
+> SEMROLE: Thematic role relations
+
+RULE: Rule schemata for complex relations
+
+-ANY: Relations misplaced outside the ANY hierarchy
+
