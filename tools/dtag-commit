@@ -12,6 +12,10 @@ if [ -d cdt-all ] ; then
 	cd cdt-all/trunk
 fi
 
+if [ ! -z $DTAGCOMMITDIR ] ; then
+	cd $DTAGCOMMITDIR
+fi
+
 # Update repository
 if [ -f tools/dtag-update ] ; then
 	sh tools/dtag-update
