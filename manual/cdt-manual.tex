@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass[11pt]{report}
 
 \usepackage{hyperref}
 \usepackage{fontspec}
@@ -64,7 +64,7 @@
 \def\subtypes#1{\par\footnotesize\noindent Subtypes: #1. }
 \def\related#1{\par\footnotesize Related types: #1. }
 \def\tparents#1{}
-\def\cmdsummary#1#2#3{\footnotesize\phantom{.}#1#2: #3\newline}
+\def\cmdsummary#1#2#3{\small\phantom{.}#1#2: #3\newline}
 \def\overviewfile#1{\input{#1}}
 
 \def\mytab{\hspace{2mm}}
@@ -109,6 +109,42 @@
 
 	\chapter{Introduction}
 
+	This manual describes the relations used in the Copenhagen
+	Dependency Treebanks. The relations are ordered in a hierarchy,
+	where each relation may have zero or more immediate super types,
+	and zero or more immediate subtypes. The relations are presented
+	in detail in the following chapters, grouped by linguistic level
+	and general relation type. Every time a relation is introduced,
+	its name is written in the left margin, with an indication of its
+	immediate super types and the row in the online CDT spreadsheet
+	in which the relation was defined. An example is shown
+	below.\medskip
+
+	\relname{\rel{relation}}{\isa{\rel{super}}}{\lineno{12}}%
+	The notation in the left margin indicates that we now describe 
+	the relation \rel{relation}; it has immediate super type
+	\rel{super} and is defined in row $12$ in the spreadsheet. When
+	describing a relation, we also lists its other properties, if
+	relevant, including its:
+	\begin{itemize}
+		\item \textit{long name}: we use short names in the annotation
+			for brevity, but long names are sometimes more descriptive, so
+			we provide these as an alias for the short relation name;
+		\item \textit{deprecated names}: when renaming relations, 
+			the old name is listed as a deprecated name for backwards
+			compatibility, but it should be avoided in future
+			annotation;
+		\item \textit{immediate subtypes}: the relation names that 
+			have been specified as the immediate subtypes of the
+			relation;
+		\item \textit{related types}: lists the relations that 
+			are closely related to this relation, in some way or
+			another, and which you might want to consult for
+			clarification or additional information;
+		\item \textit{examples}: small annotated text examples that
+			illustrate how the relation is used;
+	\end{itemize}
+	
 	\input{cdt-rels}
 
 	\appendix
