@@ -18,7 +18,7 @@ cdt-files:
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
 
 figures: build/*.dtag
-	ls build/*.dtag | sed -e 's/^\(.*\).dtag$$/script \1.dtag\nprint \1.ps/g' > build/script.dtag
+	ls build/*.dtag | grep -v script | sed -e 's/^\(.*\).dtag$$/script \1.dtag\nprint \1.ps/g' > build/script.dtag
 	dtag -e 'nonumbernodes' -e 'script build/script.dtag' -e 'quit!'
 	for f in `ls build/*.dtag | sed -e 's/.dtag$$//g'` ; do \
 		(echo "%!PS-Adobe-2.0" ; cat $$f.ps) | ps2eps -f -l > $$f.eps ; \
