@@ -23,6 +23,8 @@ SEMANTICS-QUALIA-SEMROLE: Semantic relations
 > QUALIA: Qualia relations
 > SEMROLE: Thematic role relations
 
+ALIGN: Word alignment relations
+
 RULE: Rule schemata for complex relations
 
 -ANY: Relations misplaced outside the ANY hierarchy
