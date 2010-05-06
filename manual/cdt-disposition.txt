@@ -15,7 +15,7 @@ DISCOURSE-DISCFUNC-DISCSEM: Discourse relations
 > DISCFUNC: Functional relations
 > DISCSEM: Semantic relations
 
-ANTECEDENT: Anaphor relations
+ANAPHOR-coref-assoc: Anaphor relations
 > coref: Coreference relations
 > assoc: Associative anaphor relations
 
