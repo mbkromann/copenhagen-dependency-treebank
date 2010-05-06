@@ -1,4 +1,4 @@
-ANY-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHOR-SEMANTICS-ALIGNMENT-RULE: Top-level relations
+ANY-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE: Top-level relations
 
 SYNTAX-SYNCOMP-SYNADJ: Syntactic relations
 > SYNCOMP: Complement relations
@@ -15,7 +15,7 @@ DISCOURSE-DISCFUNC-DISCSEM: Discourse relations
 > DISCFUNC: Functional relations
 > DISCSEM: Semantic relations
 
-ANAPHOR-coref-assoc: Anaphor relations
+ANAPHORA-coref-assoc: Anaphor relations
 > coref: Coreference relations
 > assoc: Associative anaphor relations
 
