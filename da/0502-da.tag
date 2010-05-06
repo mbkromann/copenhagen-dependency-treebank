@@ -51,9 +51,9 @@
 </p>
 <p>
 <s>
-<W gloss="The_Egyptian" lemma="ægypter" morph="Ægypten +er/DENOM&3a;rel.deono.place" msd="NCCSU==D" tag="NN" in="6:subj" out="1:appr|2:appa|5:pnct">Ægypteren</W>
+<W gloss="The_Egyptian" lemma="ægypter" morph="Ægypten +er/DENOM&3a;rel.deono.place" msd="NCCSU==D" tag="NN" in="6:subj" out="1:appr|5:pnct|2:appr">Ægypteren</W>
 <W gloss="Sinuhe" lemma="Sinuhe" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Sinuhe</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:appa" out="1:attr|2:nobj">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:appr" out="1:attr|2:nobj">den</W>
 <W gloss="lonely" lemma="ensom" morph="ensom" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">ensomme</W>
 <W gloss="doctor" lemma="læge" morph="læge" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">læge</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

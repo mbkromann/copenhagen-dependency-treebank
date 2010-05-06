@@ -48,8 +48,8 @@
 <W gloss="consider" lemma="anse" msd="VADR=----A-" tag="VBD" in="" out="-4:dobj|1:subj|2:pobj|5:pnct">anser</W>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:pobj" out="1:preds">for</W>
-<W gloss="the_Danes" lemma="dansker" msd="NCCPG==D" tag="NNP" in="-1:preds" out="1:possd">danskernes</W>
-<W gloss="hallmark" lemma="adelsmærke" msd="NCNSU==I" tag="NN" in="-1:possd" out="">adelsmærke</W>
+<W gloss="the_Danes" lemma="dansker" msd="NCCPG==D" tag="NNP" in="-1:preds|1:{arg}" out="1:possd">danskernes</W>
+<W gloss="hallmark" lemma="adelsmærke" msd="NCNSU==I" tag="NN" in="-1:possd" out="-1:{arg}">adelsmærke</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -224,7 +224,7 @@
 </s>
 <s>
 <W gloss="Danishness" lemma="danskhed" msd="NCCSU==D" tag="NN" in="1:subj" out="">Danskheden</W>
-<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:pnct|1:@loc">kommer</W>
+<W gloss="is_coming" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:@loc|3:pnct">kommer</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">under</W>
 <W gloss="pressure" lemma="pres" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">pres</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

@@ -17,7 +17,7 @@
 <W lemma="Eigelb" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Eigelb</W>
 <W lemma="zusammen" msd="RG" tag="ADV" in="13:accom" out="1:pobj">zusammen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
-<W lemma="1" msd="AC" tag="CARD" in="-1:nobj" out="3:pnct|4:conj|8:conj|1:nobj">1</W>
+<W lemma="1" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj|3:pnct|4:conj|8:conj">1</W>
 <W lemma="EL" msd="NP" tag="NE" in="-1:nobj|1:{apart}" out="1:nobj">EL</W>
 <W lemma="Zucker" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Zucker</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -28,14 +28,14 @@
 <W lemma="1" msd="AC" tag="CARD" in="-8:conj" out="-1:coord|1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">Msp</W>
 <W lemma="Salz" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Salz</W>
-<W lemma="schlagen" msd="VA" tag="VVFIN" in="" out="-19:ben|-16:dobj|1:pnct|-13:accom">schlagen</W>
+<W lemma="schlagen" msd="VA" tag="VVFIN" in="" out="-19:ben|-16:dobj|-13:accom|1:pnct">schlagen</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="1" msd="AC" tag="CARD" in="3:dobj" out="1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">dl</W>
 <W lemma="Wasser" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Wasser</W>
 <W lemma="einrühren" msd="VA" tag="VVFIN" in="" out="-3:dobj|1:pnct">einrühren</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
-<W lemma="125" msd="AC" tag="CARD" in="13:dobj" out="3:pnct|4:conj|8:conj|1:nobj">125</W>
+<W lemma="125" msd="AC" tag="CARD" in="13:dobj" out="1:nobj|3:pnct|4:conj|8:conj">125</W>
 <W lemma="g" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">g</W>
 <W lemma="Weizenmehl" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Weizenmehl</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -53,7 +53,7 @@
 <W lemma="mit" msd="SP" tag="APPR" in="3:accom" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Eiermasse" msd="NC" tag="NN" in="-1:nobj" out="">Eiermasse</W>
-<W lemma="verschlagen" msd="VAP" tag="VVPP" in="-5:conj" out="-4:coord|1:pnct|2:time|-3:accom">verschlagen</W>
+<W lemma="verschlagen" msd="VAP" tag="VVPP" in="-5:conj" out="-4:coord|-3:accom|1:pnct|2:time">verschlagen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="bis" msd="CS" tag="KOUS" in="-2:time" out="4:vobj">bis</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="3:subj" out="1:attr|2:nobj">eine</W>
@@ -67,7 +67,7 @@
 <W lemma="," msd="XP" tag="$," in="2:pnct" out="">,</W>
 <W lemma="geschmolzen" msd="AN" tag="ADJA" in="1:attr" out="">geschmolzene</W>
 <W lemma="Butter" msd="NC" tag="NN" in="-4:nobj" out="-4:{apart}|-3:attr|-1:attr|-2:pnct">Butter</W>
-<W lemma="einrühren" msd="VA" tag="VVFIN" in="" out="1:pnct|-6:dobj">einrühren</W>
+<W lemma="einrühren" msd="VA" tag="VVFIN" in="" out="-6:dobj|1:pnct">einrühren</W>
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <W lemma="2" msd="AC" tag="CARD" in="3:dobj" out="1:nobj">2</W>
 <W lemma="Eiweiß" msd="NC" tag="NN" in="-1:nobj" out="">Eiweiß</W>
@@ -125,7 +125,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Teflon</W>
 <W lemma="beschichtet" msd="AN" tag="ADJA" in="-3:attr" out="-2:pobj">beschichtetes</W>
 <W lemma="Waffeleise&7c;Waffeleisen" msd="NC" tag="NN" in="-4:nobj" out="">Waffeleisen</W>
-<W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:neg|3:nobj|5:pnct|17:pnct|6:struct">braucht</W>
+<W lemma="brauchen" msd="VA" tag="VVFIN" in="" out="-5:subj|1:neg|3:nobj|5:pnct|6:struct|17:pnct">braucht</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="fetten" msd="VAP" tag="VVPP" in="2:vobj" out="-7:[subj]">gefettet</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>

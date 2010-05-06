@@ -141,7 +141,7 @@
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Ein</W>
 <W lemma="Vorläufer" msd="NC" tag="NN" in="-1:nobj" out="">Vorläufer</W>
-<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|3:loc|7:time|10:pnct|1:dobj">half</W>
+<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:dobj|3:loc|7:time|10:pnct">half</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj">den</W>
 <W lemma="Besucher" msd="NC" tag="NN" in="-1:nobj" out="">Besuchern</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-3:loc" out="1:nobj">bei</W>

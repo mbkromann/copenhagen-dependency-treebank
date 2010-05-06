@@ -71,7 +71,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="88:coref-id|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:name|88:coref-id">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|8:pnct|13:conj|29:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:attr|3:nobj">der</W>
@@ -159,7 +159,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="Geschäftsgrundlage" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{agent}">Geschäftsgrundlage</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:attr|-1:{agent}" out="1:nobj">von</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-id" out="8:coref-var|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-id" out="1:name|8:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 <W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">Nur</W>

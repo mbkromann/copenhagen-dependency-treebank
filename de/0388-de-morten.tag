@@ -209,7 +209,7 @@
 <W lemma="verdrängen" msd="VAP" tag="VVPP" in="-4:vobj" out="-2:dobj|-1:degr|-3:[subj]">verdrängt</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|9:pnct|2:ben">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|2:ben|9:pnct">war</W>
 <W lemma="einfach" msd="AN" tag="ADJA" in="-1:preds" out="">einfacher</W>
 <W lemma="für" msd="SP" tag="APPR" in="-2:ben" out="1:nobj|2:pnct|5:conj">für</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-1:nobj" out="">sie</W>

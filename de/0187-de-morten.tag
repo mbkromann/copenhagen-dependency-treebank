@@ -50,7 +50,7 @@
 <W lemma="klein" msd="AN" tag="ADJA" in="3:attr" out="2:conj">kleinen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="mittelgroß" msd="AN" tag="ADJA" in="-2:conj" out="-1:coord">mittelgroßen</W>
-<W lemma="System" msd="NC" tag="NN" in="-7:conj" out="-3:attr|-4:coord|4:pnct|5:bg|1:attr|1:{func}">Systemen</W>
+<W lemma="System" msd="NC" tag="NN" in="-7:conj" out="-3:attr|-4:coord|1:attr|1:{func}|4:pnct|5:bg">Systemen</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:attr|-1:{func}" out="1:nobj">für</W>
 <W lemma="mehrere" msd="PI" tag="PIAT" in="-1:nobj" out="1:nobj">mehrere</W>
 <W lemma="Benutzer" msd="NC" tag="NN" in="-1:nobj" out="">Benutzer</W>
