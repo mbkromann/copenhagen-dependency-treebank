@@ -52,6 +52,8 @@
 \newenvironment{overview}[1]{\begin{figure}[!h]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
 
 \def\rel#1{\textsf{#1\index{#1}}}
+\def\reldef#1#2{\label{#1}#2}
+\def\relref#1#2{\hyperref[#1]{#2}}
 \def\relname#1#2#3{\par\noindent\llap{\smash{\parbox[t]{40mm}
 	{\raggedleft\textbf{#1}#2#3}\ \ }}}
 \def\isa#1{\\\small isa #1}
