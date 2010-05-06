@@ -18,10 +18,10 @@
 <W lemma="fertig" msd="RG" tag="PTKVZ" in="-3:preds" out="">fertig</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:ref|16:[subj]|17:subj" out="">das</W>
-<W lemma="Kunde" msd="NC" tag="NN" in="15:iobj" out="">Kunden</W>
+<W lemma="Kunde" msd="NC" tag="NN" in="15:dobj" out="">Kunden</W>
 <W lemma="beim" msd="SP+P" tag="APPRART" in="14:man" out="1:nobj">beim</W>
-<W lemma="Weg" msd="NC" tag="NN" in="-1:nobj" out="1:@dir">Weg</W>
-<W lemma="durch" msd="SP" tag="APPR" in="-1:@dir" out="1:nobj">durch</W>
+<W lemma="Weg" msd="NC" tag="NN" in="-1:nobj" out="1:@loc">Weg</W>
+<W lemma="durch" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj">durch</W>
 <W lemma="Museum" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|2:conj|3:pnct|4:conj|5:pnct|7:conj">Museen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="Supermarkt" msd="NC" tag="NN" in="-2:conj" out="">Supermärkte</W>
@@ -33,7 +33,7 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{pos}" out="1:nobj">im</W>
 <W lemma="Bella" msd="NP" tag="NE" in="-1:nobj" out="1:nobj">Bella</W>
 <W lemma="Center" msd="NP" tag="NE" in="-1:nobj" out="">Center</W>
-<W lemma="helfen" msd="VAF" tag="VVINF" in="1:vobj" out="-14:man|-16:[subj]|-15:iobj">helfen</W>
+<W lemma="helfen" msd="VAF" tag="VVINF" in="1:vobj" out="-14:man|-16:[subj]|-15:dobj">helfen</W>
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-21:relr" out="-17:subj|-1:vobj">soll</W>
 <W lemma="." msd="XP" tag="$." in="-23:pnct" out="">.</W>
 </s>
@@ -141,8 +141,8 @@
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Ein</W>
 <W lemma="Vorläufer" msd="NC" tag="NN" in="-1:nobj" out="">Vorläufer</W>
-<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|3:loc|7:time|10:pnct|1:iobj">half</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:iobj" out="1:nobj">den</W>
+<W lemma="helfen" msd="VA" tag="VVFIN" in="" out="-2:subj|3:loc|7:time|10:pnct|1:dobj">half</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj" out="1:nobj">den</W>
 <W lemma="Besucher" msd="NC" tag="NN" in="-1:nobj" out="">Besuchern</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-3:loc" out="1:nobj">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">der</W>
