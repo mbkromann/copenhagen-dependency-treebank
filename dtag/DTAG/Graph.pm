@@ -1914,7 +1914,8 @@ sub postscript {
 	my $alignments = "% Alignments\n/alignments [\n";
 	foreach my $inalign (sort(keys(%{$self->{'inalign'}}))) {
 		# Interpret $inalign edge
-		my ($from, $to) = split(/\s+/, $inalign);
+		my ($from, $to, $label) = split(/\s+/, $inalign);
+		$label = "" if (! defined($label));
 		my @fromlist = split(/\+/, $from);
 		my @tolist = split(/\+/, $to);
 
@@ -1925,7 +1926,7 @@ sub postscript {
 			. " "
 			. ($#tolist == 0 ? $tolist[0] : 
 				"[" . join(" ", @tolist) . "]") 
-			. "]\n";
+			. " ($label)]\n";
 
 		# From nodes have forced edget edges, to nodes have forced edgeb edges
 		map {$forced_edget->{$_} = 1} @fromlist;

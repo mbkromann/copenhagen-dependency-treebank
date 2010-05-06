@@ -6352,7 +6352,7 @@ sub cmd_relhelp {
 		$self->var("examplegraph", $egraph);
 		if ($egraph->var("example")) {
 #			$self->cmd_save($egraph, undef, "/tmp/example.$$.tag");
-#			$self->cmd_close($egraph);
+			$self->cmd_close($egraph);
 		}
 	}
 
@@ -6698,15 +6698,15 @@ sub relset2latex_visit {
 
 	# Print relation
 	print $ofh "\\begin{relation}\n";
-	print $ofh "	\\relname{\\rel{" . tex($sname) . "}}{";
-	print $ofh "\\isa{" . join(" ", map {"\\rel{" . tex($_) . "}"}
+	print $ofh "	\\relname{" . texreldef($sname, $relset) . "}{";
+	print $ofh "\\isa{" . join(" ", map {texrelref($_, $relset)}
 			sorted_relations($relset, keys(%$iparents))) . "}"
 		if (%$iparents);
 	print $ofh "}{\\lineno{$lineno}}%\n";
 	my @sdescrx = ();
-	push @sdescrx, "\\xlong{\\rel{" . tex($lname) . "}}"
+	push @sdescrx, "\\xlong{" . texrel($lname) . "}"
 		if ($lname ne "" && $lname ne $sname);
-	push @sdescrx, "\\deprecated{\\rel{" . tex($deprecated) . "}}"
+	push @sdescrx, "\\deprecated{" . texrel($deprecated) . "}"
 		if ($deprecated ne "");
 	my $texsdescr = tex(ucfirst($sdescr));
 	if (@sdescrx) {
@@ -6717,15 +6717,16 @@ sub relset2latex_visit {
 	}
 	print $ofh "	\\begin{ldescription}\n\t\t"
 		. tex(ucfirst($ldescr)) . "\n\\end{ldescription}\n" if ($ldescr);
-	print $ofh "	\\tparents{" .  join(" ", map {"\\rel{" . tex($_) . "}%\n"} 
+	print $ofh "	\\tparents{" .  join(" ", map {texrelref($_, $relset) 
+			. "%\n"} 
 		sorted_relations($relset, grep {! $iparents->{$_}} keys(%$tparents)))
 			. "}\n" if (%$tparents);
-	print $ofh "	\\subtypes{" . join(" ", map {"\\rel{" . tex($_) . "}"} 
+	print $ofh "	\\subtypes{" . join(" ", map {texrelref($_, $relset)} 
 			sorted_relations($relset, keys(%$ichildren))) . "}%\n" 
 		if (%$ichildren);
-	print $ofh "	\\related{" . join(" ", map {"\\rel{" . tex($_) . "}"} 
+	print $ofh "	\\related{" . join(" ", map {texrelref($_, $relset)} 
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
-	$relset_cmdsummary .= "	\\cmdsummary{$indent}{\\rel{" . tex($sname) . "}}{"
+	$relset_cmdsummary .= "	\\cmdsummary{$indent}{" . texrelref($sname, $relset) . "}{"
 		. tex($sdescr) . "}%\n";
 	print $ofh "	\\begin{examples}\n"
 		. join("", map {"\t\t\\exfig{$_}\n"} @examples)
@@ -6737,6 +6738,27 @@ sub relset2latex_visit {
 		$self->relset2latex_visit($graph, $ofh, $relset, $subrel, $type, $visited,
 		$indent . $relset_indent);
 	}
+}
+
+sub texrel {
+	my $rel = shift;
+	my $texcmd = shift || "\\rel";
+	return $texcmd . "{" . tex($rel) . "}";
+}
+
+sub texrelref {
+	my $rel = shift;
+	my $relset = shift;
+	my $texcmd = shift || "\\relref";
+	my $relation = $relset->{$rel};
+	my $lineno = $relation ? $relation->[$REL_LINENO] : undef;
+	return defined($lineno) 
+		? texrel($rel, $texcmd ."{rel" . $lineno . "}") 
+		: texrel($rel);
+} 
+
+sub texreldef {
+	return texrelref(shift, shift, "\\reldef");
 }
 
 sub tex {

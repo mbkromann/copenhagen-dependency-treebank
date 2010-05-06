@@ -188,77 +188,82 @@ get exch 12 get {cshow} 2 format grestore} def /draw_fixation_bar
 {gsave 4 2 roll 0 sub moveto exch dup 2 div neg 0 rmoveto 0 rlineto
 currentlinewidth dElw mul setlinewidth dup 5 get {stroke} 2 format 5
 -2 rmoveto dup 2 get exch 12 get {cshow} 2 format grestore} def /cshow
-{dup stringwidth pop 2 div neg 0 rmoveto show} def /draw_fixation_edge
-{exch 8 2 roll 5 index 3 index eq 5 index 3 index eq and {pop pop pop
-pop pop pop pop pop} {2 div 3 -1 roll exch sub exch 5 2 roll 2 div 3
--1 roll add exch gsave dup 3 index sub abs 50 lt 2 index 5 index ne
-and {2 copy moveto 3 -1 roll sub neg 3 1 roll sub exch dEah 3 index 8
-get 0 le {neg} if 3 1 roll 2 copy dEaw mul exch dEaw mul exch 3 index
-2 div 3 index 2 div 6 index add 0 0 3 index 6 index sub 3 index 6
-index sub 5 index 5 index rcurveto 6 index 2 mul sub 2 copy rcurveto
-pop pop pop} {moveto lineto} ifelse stroke pop pop grestore} ifelse}
-def /sort_edges {edges {2 copy 0 get exch 0 get exch intcmp dup 0 ne
-{3 1 roll pop pop} {pop 1 get abs exch 1 get abs exch intcmp} ifelse}
-qsort pop /maxedges edges edges length array copy def maxedges {2 copy
-1 get abs exch 1 get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop
-0 get exch 0 get exch intcmp} ifelse} qsort pop} def
-/center_edge_label {words length array words length array 0 1 words
-length 1 sub {dup 3 index exch 0 put 1 index exch 0 put} for smallfont
-setfontsize setupfont edges {dup 4 1 roll edgein {dup 3 index exch get
-1 add 3 index 3 1 roll put} {dup 2 index exch get 4 index length 10 lt
-{1 add} if 2 index 3 1 roll put} ifelse 3 -1 roll pop} forall edges
-{dup edgein {3 index exch get 1 gt {dup 7 true put} if} {2 index exch
-get 1 gt {dup 7 true put} if} ifelse pop} forall edges {dup edgein pop
-1 index 7 get not {exch dup 2 get exch 5 get {stringwidth} 0 format
-pop widths dup 3 index get 3 -1 roll max exch 3 1 roll put} {pop pop}
-ifelse} forall pop pop /X 0 def widths words 0 1 words length 1 sub
-{dup 3 index exch get exch 2 index exch get dup 0 get 3 -1 roll max 1
-index 0 X put exch 2 get {fontsize} 0 format dWr mul /dWline xdef X
-add dWline add /X exch def} for /X X dWline sub def pop pop} def
-/edgein {dup 1 get dup 0 lt {abs} {pop dup 0 get} ifelse exch 4 get 0
-gt} def /layout_arcs {sort_edges center_edge_label {} edge_heights
-{neg} edge_heights 0 1 edges length 1 sub {edges exch get 4 0 put} for
-edge_displace split_lines} def /layout_line {dup lines exch get dup
-line_height 1 index 2 get dup 4 index 1 add lines exch get 2 get exch
-sub 3 1 roll llx exch sub 3 index 3 get ury exch sub 4 2 roll pop pop
-2 index 0 get 1 5 index 1 add lines exch get 0 get 1 sub {layout_word
-pop pop pop} for pop pop pop pop} def /print_line {dup lines exch get
-dup line_height 1 index 2 get dup 4 index 1 add lines exch get 2 get
-exch sub 3 1 roll llx exch sub 3 index 3 get ury exch sub gsave
-newpath llx 1 index dL add Emaxht dEA mul add moveto 3 index clipdx2
-add 0 rlineto 0 3 index dL add Emaxht Emaxhb add dEA mul add neg
-rlineto 3 index clipdx2 add neg 0 rlineto closepath bggray 0 lt not
-{gsave bggray setgray fill grestore} if clip framegray 0 lt not {gsave
-framegray setgray stroke grestore} if newpath 4 2 roll pop pop
-textfont setfontsize setupfont 2 index 0 get 1 5 index 1 add lines
-exch get 0 get 1 sub {print_word} for smallfont setfontsize setupfont
-3 index 0 eq {[]} {3 index 1 sub lines exch get 6 get} ifelse
-{print_edge_cross} forall 3 index 0 eq {0} {3 index 1 sub lines exch
-get 1 get} ifelse 1 4 index 1 get 1 sub {print_edge} for grestore pop
-pop pop pop} def /layout_lines {0 1 lines length 2 sub {layout_line}
-for lines dup length 1 sub get 7 lines dup length 2 sub get 7 get put
-/nword 0 def} def /print_lines {0 1 lines length 2 sub {dup print_line
-1 add lines exch get 3 get 0 eq {alignments {aload pop align} forall
-showpage} if} for} def /draw {currentdict /title known {llx titley
-moveto title {show} 0 format} if layout_arcs layout_lines print_lines}
-def /min {2 copy lt {pop} {exch pop} ifelse} def /setup {array /edges
-exch def dup array /words exch def array /widths exch def /nextw 0 def
-/nexte 0 def /strings exch def /dT dT Emaxht EmaxhtMax min dEA mul add
-def /dB dB Emaxhb EmaxhbMax min dEA mul add def /xwords words length
-array def /ywords words length array def /ypwords words length array
-def /nword 0 def /alignments [] def} def true (ptm) /Times-Roman
-/Times-Bold /Times-Italic /Times-BoldItalic createfontfamily
-setfontfamily 10 setfontsize 0 setfontstyle 0 setarrowtype setupfont
-/align {dup type (arraytype) ne {xyword moveto} {dup dup xmid exch 0
-get xyword dA add exch pop 3 2 roll {xyword moveto 2 copy lineto}
-forall moveto} ifelse dup type (arraytype) ne {xyword topadjust
-lineto} {dup dup xmid exch 0 get xyword topadjust dA sub exch pop 2
-copy lineto 3 2 roll {xyword topadjust moveto 2 copy lineto} forall
-pop pop} ifelse gsave currentlinewidth 5 mul setlinewidth 1 setgray
-stroke grestore stroke} def /topadjust {strings dH mul sub 4 sub} def
-/fixbotadjust {strings dH mul sub} def /xyword {dup xwords exch get
-exch ywords exch get} def /xmid {dup 0 get xwords exch get exch dup
-length 1 sub get xwords exch get add 2 div} def /formats [] def 
+{dup stringwidth pop 2 div neg 0 rmoveto show} def /cshowbgfill {dup
+stringwidth pop 2 div neg 0 rmoveto gsave dup 0 setlinecap [] 0
+setdash true charpath charstroke setlinewidth 1 setgray stroke
+grestore show} def /draw_fixation_edge {exch 8 2 roll 5 index 3 index
+eq 5 index 3 index eq and {pop pop pop pop pop pop pop pop} {2 div 3
+-1 roll exch sub exch 5 2 roll 2 div 3 -1 roll add exch gsave dup 3
+index sub abs 50 lt 2 index 5 index ne and {2 copy moveto 3 -1 roll
+sub neg 3 1 roll sub exch dEah 3 index 8 get 0 le {neg} if 3 1 roll 2
+copy dEaw mul exch dEaw mul exch 3 index 2 div 3 index 2 div 6 index
+add 0 0 3 index 6 index sub 3 index 6 index sub 5 index 5 index
+rcurveto 6 index 2 mul sub 2 copy rcurveto pop pop pop} {moveto
+lineto} ifelse stroke pop pop grestore} ifelse} def /sort_edges {edges
+{2 copy 0 get exch 0 get exch intcmp dup 0 ne {3 1 roll pop pop} {pop
+1 get abs exch 1 get abs exch intcmp} ifelse} qsort pop /maxedges
+edges edges length array copy def maxedges {2 copy 1 get abs exch 1
+get abs exch intcmp dup 0 ne {3 1 roll pop pop} {pop 0 get exch 0 get
+exch intcmp} ifelse} qsort pop} def /center_edge_label {words length
+array words length array 0 1 words length 1 sub {dup 3 index exch 0
+put 1 index exch 0 put} for smallfont setfontsize setupfont edges {dup
+4 1 roll edgein {dup 3 index exch get 1 add 3 index 3 1 roll put} {dup
+2 index exch get 4 index length 10 lt {1 add} if 2 index 3 1 roll put}
+ifelse 3 -1 roll pop} forall edges {dup edgein {3 index exch get 1 gt
+{dup 7 true put} if} {2 index exch get 1 gt {dup 7 true put} if}
+ifelse pop} forall edges {dup edgein pop 1 index 7 get not {exch dup 2
+get exch 5 get {stringwidth} 0 format pop widths dup 3 index get 3 -1
+roll max exch 3 1 roll put} {pop pop} ifelse} forall pop pop /X 0 def
+widths words 0 1 words length 1 sub {dup 3 index exch get exch 2 index
+exch get dup 0 get 3 -1 roll max 1 index 0 X put exch 2 get {fontsize}
+0 format dWr mul /dWline xdef X add dWline add /X exch def} for /X X
+dWline sub def pop pop} def /edgein {dup 1 get dup 0 lt {abs} {pop dup
+0 get} ifelse exch 4 get 0 gt} def /layout_arcs {sort_edges
+center_edge_label {} edge_heights {neg} edge_heights 0 1 edges length
+1 sub {edges exch get 4 0 put} for edge_displace split_lines} def
+/layout_line {dup lines exch get dup line_height 1 index 2 get dup 4
+index 1 add lines exch get 2 get exch sub 3 1 roll llx exch sub 3
+index 3 get ury exch sub 4 2 roll pop pop 2 index 0 get 1 5 index 1
+add lines exch get 0 get 1 sub {layout_word pop pop pop} for pop pop
+pop pop} def /print_line {dup lines exch get dup line_height 1 index 2
+get dup 4 index 1 add lines exch get 2 get exch sub 3 1 roll llx exch
+sub 3 index 3 get ury exch sub gsave newpath llx 1 index dL add Emaxht
+dEA mul add moveto 3 index clipdx2 add 0 rlineto 0 3 index dL add
+Emaxht Emaxhb add dEA mul add neg rlineto 3 index clipdx2 add neg 0
+rlineto closepath bggray 0 lt not {gsave bggray setgray fill grestore}
+if clip framegray 0 lt not {gsave framegray setgray stroke grestore}
+if newpath 4 2 roll pop pop textfont setfontsize setupfont 2 index 0
+get 1 5 index 1 add lines exch get 0 get 1 sub {print_word} for
+smallfont setfontsize setupfont 3 index 0 eq {[]} {3 index 1 sub lines
+exch get 6 get} ifelse {print_edge_cross} forall 3 index 0 eq {0} {3
+index 1 sub lines exch get 1 get} ifelse 1 4 index 1 get 1 sub
+{print_edge} for grestore pop pop pop pop} def /layout_lines {0 1
+lines length 2 sub {layout_line} for lines dup length 1 sub get 7
+lines dup length 2 sub get 7 get put /nword 0 def} def /print_lines {0
+1 lines length 2 sub {dup print_line 1 add lines exch get 3 get 0 eq
+{alignments {aload pop align} forall showpage} if} for} def /draw
+{currentdict /title known {llx titley moveto title {show} 0 format} if
+layout_arcs layout_lines print_lines} def /min {2 copy lt {pop} {exch
+pop} ifelse} def /setup {array /edges exch def dup array /words exch
+def array /widths exch def /nextw 0 def /nexte 0 def /strings exch def
+/dT dT Emaxht EmaxhtMax min dEA mul add def /dB dB Emaxhb EmaxhbMax
+min dEA mul add def /xwords words length array def /ywords words
+length array def /ypwords words length array def /nword 0 def
+/alignments [] def} def true (ptm) /Times-Roman /Times-Bold
+/Times-Italic /Times-BoldItalic createfontfamily setfontfamily 10
+setfontsize 0 setfontstyle 0 setarrowtype setupfont /align {3 1 roll
+dup type (arraytype) ne {xyword moveto} {dup dup xmid exch 0 get
+xyword dA add exch pop 3 2 roll {xyword moveto 2 copy lineto} forall
+moveto} ifelse currentpoint 3 2 roll dup type (arraytype) ne {xyword
+topadjust lineto currentpoint} {dup dup xmid exch 0 get xyword
+topadjust dA sub exch pop 2 copy lineto 3 2 roll {xyword topadjust
+moveto 2 copy lineto} forall} ifelse gsave currentlinewidth 5 mul
+setlinewidth 1 setgray stroke grestore stroke 3 -1 roll add 2 div 3 1
+roll add 2 div exch moveto cshowbgfill} def /topadjust {strings dH mul
+sub 4 sub} def /fixbotadjust {strings dH mul sub} def /xyword {dup
+xwords exch get exch ywords exch get} def /xmid {dup 0 get xwords exch
+get exch dup length 1 sub get xwords exch get add 2 div} def /formats
+[] def 
 
 
 %% 2. Graph specification
