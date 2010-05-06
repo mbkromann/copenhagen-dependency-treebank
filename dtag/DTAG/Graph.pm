@@ -2023,6 +2023,9 @@ sub postscript {
 
 			# Find layout ID
 			my $stylelist = &$nstyles($self, $node, $lbl);
+			$stylelist = [$stylelist] 
+				if (!  UNIVERSAL::isa($stylelist, "ARRAY"));
+
 			push @$stylelist, 'match' if ($matches->{$n});
 			my $layout = $self->psstyle($interpreter, 'label',  $stylelist);
 

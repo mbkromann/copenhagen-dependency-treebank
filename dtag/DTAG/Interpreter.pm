@@ -3051,19 +3051,21 @@ my $exit_unsaved = 0;
 sub cmd_exit {
 	my $self = shift;
 	my $graph = shift;
-
-	# Save file if modified
-	print "\n";
-	if ($graph && $graph->mtime() && $exit_unsaved + 60 < time()) {
-		warning("You have unsaved graphs! Exit again now if you really want to quit");
-		$exit_unsaved = time();
-		return 1;
-	}
+	my $really_quit = shift;
 
 	# Only exit from the outer loop
 	if ($self->{'loop_count'} > 1) {
 		return 1;
-	};
+	}
+
+	# Save file if modified
+	print "\n";
+	if ($graph && $graph->mtime() && $exit_unsaved + 60 < time() 
+			&& ($really_quit || "") ne "!") {
+		warning("You have unsaved graphs!\nType 'exit' or 'exit!' if you really want to quit...");
+		$exit_unsaved = time();
+		return 1;
+	} 
 
 	# Close lexicon
 	my $lex = $self->lexicon();
@@ -6573,11 +6575,10 @@ sub add_relation_nodes {
 ## ------------------------------------------------------------
 
 my $relset_example_id = 0;
-my $relset_example_dir = "figs";
-my $relset_example_prefix = "$relset_example_dir/fig-";
 my $relset_undef = "\\relax";
 my $relset_indent = "\\mytab";
 my $relset_cmdsummary = "";
+my $relset_example_prefix = "";
 
 sub cmd_relset2latex {
 	my $self = shift;
@@ -6591,35 +6592,76 @@ sub cmd_relset2latex {
 		error("No relset for the current graph!");
 		return 1;
 	}
-	
+		
 	# Provide default filename if missing
 	if (! $filename) {
 		my $relsetname = $graph->relsetname();
 		$filename = "$relsetname-relations.tex";
 	}
 
-	# Open file and visit nodes depth-first
-	system("mkdir -p $relset_example_dir");
+	# Set example filename
+	$relset_example_prefix = "$filename";
+	$relset_example_prefix =~ s/\.tex$//g;
+
+	# Open file 
 	$relset_example_id = 0;
 	$relset_cmdsummary = "";
 	print "printing relset to $filename\n";
-	open(my $ofh, ">", $filename);
-	my $visited = {};	
-	foreach my $relation (split(/\s+/, $relations)) {
-		$self->relset2latex_visit($ofh, $relset, $relation, $visited, "");
-	}
+	open(my $ofh, ">:encoding(UTF-8)", $filename);
+	
+	# Print call to overview
+	my $ofile = "$filename";
+	$ofile =~ s/.tex$//g;
+	$ofile .= "-overview.tex";
+	print $ofh "\n\n\t\\overviewfile{$ofile}\n\n";
 
-	print $ofh "\\begin{overview}\n\n$relset_cmdsummary\n\n\\end{overview}\n";
+	# Visit nodes depth-first
+	my $visited = {};	
+	my $tovisit = [];
+	foreach my $relspec (split(/\s+/, $relations)) {
+		# Find nodes to visit
+		if ($relspec =~ /^([^-]+)-?.*$/) {
+			push @$tovisit, $1;
+		} else {
+			# Find all short names in the relset
+			my $snames = {};
+			map {$snames->{$_->[0]} = 1 if (ref($_) eq "ARRAY")} 
+				values(%$relset); 
+			$tovisit = [
+				sort {scalar(keys(%{$relset->{$a}[3]}))
+					<=> scalar(keys(%{$relset->{$b}[3]}))}
+						keys(%$snames)];
+		}
+
+		# Compile $relspec
+		my $type = $self->query_parser()->Type(\$relspec);
+		if (! $type) { 
+			error("Cannot parse type specification $relspec"); 
+			return 1;
+		}
+		
+		# Iterate over all relations
+		foreach my $relation (@$tovisit) {
+			$self->relset2latex_visit($graph, $ofh, $relset, $relation, $type, $visited, "");
+		}
+	}
 
 	# Close file
 	close($ofh);
+
+	# Print overview
+	open(my $ovfh, ">:encoding(UTF-8)", $ofile);
+	print $ovfh "\\begin{overview}{$relations}\n\n$relset_cmdsummary\n\n\\end{overview}\n";
+	close($ovfh);
 }
 
 sub relset2latex_visit {
 	my $self = shift;
+	my $graph = shift;
 	my $ofh = shift;
 	my $relset = shift;
 	my $relname = shift;
+	my $type = shift;
 	my $visited = shift;
 	my $indent = shift;
 
@@ -6627,7 +6669,14 @@ sub relset2latex_visit {
 	return if ($visited->{$relname});
 	$visited->{$relname} = 1;
 
-	# Retrieve relation data my $relation = $relset->{$relname}; return if (! $relation);
+	# Do not visit relations with blank names
+	return if ($relname =~ /^\s*$/);
+
+	# Only process relations that match $type
+	return if (! $type->match($graph, $relname, $relset));
+	#print $relname . "\n";
+
+	# Retrieve relation data
 	my $relation = $relset->{$relname};
 	return if (! $relation);
 	my ($sname, $lname, $iparents, $tparents, $ichildren, $sdescr, 
@@ -6640,8 +6689,8 @@ sub relset2latex_visit {
 	my @examples = ();
 	foreach my $example (split(/\n+/, $ex)) {
 		my $exfile = $relset_example_prefix 
-			. sprintf("%04d", ++$relset_example_id);
-		open(EXAMPLE, ">$exfile.dtag");
+			. sprintf("-%04d", ++$relset_example_id);
+		open(EXAMPLE, ">:encoding(UTF-8)", "$exfile.dtag");
 		print EXAMPLE "example -nopos $example\n";
 		close(EXAMPLE);
 		push @examples, "$exfile.pdf";
@@ -6685,7 +6734,7 @@ sub relset2latex_visit {
 
 	# Visit child relations in original order
 	foreach my $subrel (sorted_relations($relset, keys(%$ichildren))) {
-		$self->relset2latex_visit($ofh, $relset, $subrel, $visited,
+		$self->relset2latex_visit($graph, $ofh, $relset, $subrel, $type, $visited,
 		$indent . $relset_indent);
 	}
 }
@@ -6696,6 +6745,7 @@ sub tex {
 	$s =~ s/{/\\{/g;
 	$s =~ s/}/\\}/g;
 	$s =~ s/#/\\#/g;
+	$s =~ s/&/\\&/g;
 	return (length($s) != 0) ? $s : $relset_undef;
 }
 
@@ -8833,8 +8883,8 @@ sub compound_autonumber {
 
 		# Exit: exit 
 		#     : quit
-		$success = $self->cmd_exit($graph)
-			if ($cmd =~ /^\s*exit\s*$/ || $cmd =~ /^\s*quit\s*$/);
+		$success = $self->cmd_exit($graph, $1)
+			if ($cmd =~ /^\s*exit(!)?\s*$/ || $cmd =~ /^\s*quit(!)?\s*$/);
 
 		# Find: find $pattern
 		$success = $self->cmd_find($graph, $1) 
@@ -9593,9 +9643,9 @@ sub loop {
 	my $prompt = ('>' x $self->{'loop_count'}) . ' ';
 
 	# Loop until exit command is reached
-	while ($line ne "exit" && $line ne "quit" 
-			&& ($self->{'loop_count'} == 1 
-				|| ($line ne "resume" && $line ne "abort"))) {
+	while ($self->{'loop_count'} == 1 || 
+		($line ne "exit" && $line ne "quit" 
+			&& $line ne "resume" && $line ne "abort")) {
 		$self->abort(0);
 
 		# Find next line to process
@@ -11587,6 +11637,9 @@ sub pprint {
 package FindNumberValue;
 @FindNumberValue::ISA = qw(FindValue);
 
+use overload
+    '""' => \& pprint;
+	    
 sub unbound {
 	my $self = shift;
 	my $unbound = shift;
@@ -11611,7 +11664,7 @@ package FindNumberValueNode;
 @FindNumberValueNode::ISA = qw(FindNumberValue);
 
 use overload
-    '""' => \& print;
+    '""' => \& pprint;
 
 sub vars {
 	return [0];
@@ -12061,7 +12114,7 @@ sub match {
 sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
-	return $args->[1] . " =~ " . $args->[0];
+	return $args->[1]->pprint() . " =~ " . $args->[0];
 }
 
 ## ------------------------------------------------------------
@@ -12071,6 +12124,9 @@ sub pprint {
 package FindStringValue;
 @FindStringValue::ISA = qw(FindValue);
 
+use overload
+    '""' => \& pprint;
+	    
 sub unbound {
 	my $self = shift;
 	my $unbound = shift;
@@ -12094,6 +12150,9 @@ sub pprint {
 package FindStringValueNodeFeature;
 @FindStringValueNodeFeature::ISA = qw(FindStringValue);
 
+use overload
+    '""' => \& pprint;
+
 sub vars {
 	return [1];
 }
@@ -12103,7 +12162,7 @@ sub pprint {
 	my $args = $self->{'args'};
 	my $node = $args->[0];
 	my $feat = $args->[1];
-	return $self->{'args'}[0] . (defined($feat) ? "[" . $feat . "]" : "");
+	return $self->{'args'}[0]->pprint() . (defined($feat) ? "[" . $feat . "]" : "");
 }
 
 sub svalue {
@@ -12141,11 +12200,7 @@ sub svalue {
 sub unbound {
 	my $self = shift;
 	my $unbound = shift;
-	my $node = $self->{'args'}[0];
-	if ($node =~ /^\$/) {
-		$unbound->{$node} = 1;
-	}
-	return $unbound;
+	return $self->{'args'}[0]->unbound($unbound);
 }
 
 
@@ -12182,23 +12237,31 @@ sub print {
 package FindTypeAtomic;
 @FindTypeAtomic::ISA = qw(FindType);
 
+sub shortname {
+	my $relset = shift;
+	my $rel = shift;
+	return exists $relset->{$rel} 
+		? $relset->{$rel}[0] : undef;
+}
+
 sub match {
     my $self = shift;
     my $graph = shift;
     my $string = shift;
 	my $relset = shift;
     my $tparent = $self->{'args'}[0];
-
+	
     # Check for equality
     return 1 if ($tparent eq $string);
 
-    # Check relation set    
-    my $relation = $relset->{$string};
-    return 0 if (! $relation);
+	# Retrieve canonical names and check for existence and equality
+	$string = shortname($relset, $string);
+	$tparent = shortname($relset, $tparent);
+	return 0 if (! (defined($string) && defined($tparent)));
+	return 1 if ($string eq $tparent);
 
-    my $tparents = $relation->[$REL_TPARENTS];
-    return 0 if (! $tparents);
-    return $tparents->{$tparent};
+    # Check relation set   
+    return $relset->{$string}[$REL_TPARENTS]->{$tparent};
 }
 
 sub pprint {
@@ -12333,7 +12396,7 @@ package FindValue;
 @FindValue::ISA = qw(FindProc);
 
 use overload
-    '""' => \& print;
+    '""' => \& pprint;
 
 sub new {
     my $proto = shift;
