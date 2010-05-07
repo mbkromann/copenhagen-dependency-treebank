@@ -16,7 +16,7 @@
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="perciò" msd="RG" tag="ADV" in="-16:reas" out="-1:pnct|1:vobj|13:pnct">perciò</W>
-<W lemma="cercare" msd="VADA" tag="VER&3a;remo" in="-1:vobj" out="1:dobj">cercai</W>
+<W _noerror="&3a;nosubj&3a;" lemma="cercare" msd="VADA" tag="VER&3a;remo" in="-1:vobj" out="1:dobj">cercai</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|2:ref|4:relr">il</W>
 <W lemma="portiere" msd="NC" tag="NOM" in="-1:nobj" out="">portiere</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|2:subj|3:[subj]" out="">che</W>
@@ -58,15 +58,15 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="sicuramente" msd="RG" tag="ADV" in="1:epi" out="">sicuramente</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-11:conj" out="-3:pnct|-2:coord|-1:epi|1:preds|6:pnct">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-11:conj" out="-3:pnct|-2:coord|-1:epi|1:preds|6:pnct|4:ben">sarebbe</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">la</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">cosa</W>
-<W lemma="migliore" msd="AN" tag="ADJ" in="-1:attr" out="1:ben">migliore</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:ben" out="1:nobj">per</W>
+<W lemma="migliore" msd="AN" tag="ADJ" in="-1:attr" out="">migliore</W>
+<W lemma="per" msd="SP" tag="PRE" in="-4:ben" out="1:nobj">per</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:nobj|-16:coref" out="">lui</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-18:²coref-res|0:²dobj¹" out="1:cont|2:pnct|0:²dobj¹">Dimentichiamolo</W>
-<W lemma="adesso" msd="RG" tag="ADV" in="-1:cont" out="">adesso</W>
+<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-18:²coref-res|0:²dobj¹" out="2:pnct|0:²dobj¹|1:pnct¹">Dimentichiamolo</W>
+<W lemma="adesso" msd="RG" tag="ADV" in="-1:pnct¹" out="">adesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">C'</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:expl|1:dobj|7:pnct|8:pnct">è</W>
@@ -88,7 +88,7 @@
 <W lemma="che" msd="CS" tag="CON" in="-1:xtop" out="-2:ref|3:vobj">che</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:dobj" out="">ci</W>
-<W lemma="conoscere" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:neg|-1:dobj|1:dur|3:pnct|5:coref-res">conosciamo</W>
+<W _noerror="&3a;nosubj&3a;" lemma="conoscere" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:neg|-1:dobj|1:dur|3:pnct|5:coref-res">conosciamo</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:dur" out="1:avobj">da</W>
 <W lemma="molto" msd="RG" tag="ADV" in="-1:avobj" out="">molto</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -104,8 +104,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="volere" msd="VA" tag="VER&3a;cond" in="2:REP" out="1:pnct">Vorresti</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="" out="-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct">vorresti</W>
-<W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">sposarmi</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="1:¹[subj]" out="-2:REP|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct">vorresti</W>
+<W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹|-1:¹[subj]">sposarmi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="trino" msd="AN" tag="ADJ" in="-3:voc" out="8:coref">Trine</W>
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>
@@ -134,11 +134,11 @@
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj|-8:coref" out="12:coref">sé</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="8:qobj" out="-1:pnct|1:nobj|4:time|6:pnct|7:pnct">Un</W>
-<W lemma="matrimonio" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">matrimonio</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="8:qobj" out="-1:pnct|1:nobj|6:pnct|7:pnct">Un</W>
+<W lemma="matrimonio" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:attr|3:{time}">matrimonio</W>
 <W lemma="veramente" msd="RG" tag="ADV" in="1:degr" out="">veramente</W>
 <W lemma="romantico" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">romantico</W>
-<W lemma="a" msd="SP" tag="PRE" in="-4:time" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-3:attr|-3:{time}" out="1:nobj">a</W>
 <W lemma="natale" msd="AN" tag="ADJ" in="-1:nobj" out="">Natale</W>
 <W lemma="?" msd="XP" tag="SENT" in="-6:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-7:pnct" out="">"</W>
@@ -153,11 +153,11 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-28:coref|1:subj" out="">lei</W>
-<W lemma="nascondere" msd="VADA" tag="VER&3a;remo" in="" out="-1:subj|-4:qobj|1:dobj|4:man|8:loc|11:pnct">nascose</W>
+<W lemma="nascondere" msd="VADA" tag="VER&3a;remo" in="" out="-1:subj|-4:qobj|1:dobj|8:loc|11:pnct">nascose</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:nobj|1:{const}" out="1:possd">suo</W>
-<W lemma="volto" msd="NC" tag="NOM" in="-1:possd" out="-1:{const}">volto</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-4:man" out="1:nobj">dalle</W>
+<W lemma="volto" msd="NC" tag="NOM" in="-1:possd" out="-1:{const}|1:attr|1:{const}">volto</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{const}" out="1:nobj">dalle</W>
 <W lemma="guancia" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">guance</W>
 <W lemma="lievemente" msd="RG" tag="ADV" in="1:degr" out="">lievemente</W>
 <W lemma="arrossare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-1:degr">arrossate</W>
