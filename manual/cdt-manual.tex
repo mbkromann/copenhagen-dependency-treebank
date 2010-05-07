@@ -53,7 +53,7 @@
 \newenvironment{relation}{\medskip}{\medskip}
 \newenvironment{examples}{\medskip\par\begin{center}}{\end{center}}
 \newenvironment{ldescription}{}{}
-\newenvironment{overview}[1]{\begin{figure}[!h]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
+\newenvironment{overview}[1]{\begin{figure}[!ht]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
 
 \def\rel#1{\textsf{#1\index{#1}}}
 \def\reldef#1#2{\label{#1}#2}
