@@ -5,9 +5,9 @@ quick: cdt-files cdt-manual.pdf
 
 cdt-manual.pdf: DUMMY
 	cd build; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual ; makeindex cdt-manual ; (xelatex cdt-manual 2>&1 && cp build/cdt-manual.pdf ..) | tee /tmp/cdtmanual.log
-	echo "\n\nLaTeX warnings:\n\n"
+	echo "\n\nWarnings:\n"
 	@grep Warning /tmp/cdtmanual.log 
-
+	echo "\n"
 	
 cdt-files: 
 	svn update
