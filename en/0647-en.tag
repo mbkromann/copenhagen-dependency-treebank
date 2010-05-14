@@ -3,27 +3,27 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="8:dur" out="1:nobj|6:pnct">over</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
-<W msd="SP" tag="IN" in="" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">course</W>
+<W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-10:vobj" out="-1:subj|-8:dur|1:vobj">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">catch</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">sight</W>
-<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj.dobj|1:{patient}">sight</W>
+<W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj|11:[subj]" out="1:attr|1:{const}|11:relr">men</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj|4:coord">with</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{const}" out="1:nobj">with</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|5:conj">a</W>
 <W msd="NC=S" tag="NN" in="-1:attr" out="">sallow</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">complexion</W>
-<W msd="CC" tag="CC" in="-4:coord" out="2:&lt;nobj&gt;|3:&lt;pred&gt;">and</W>
+<W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">noticeable</W>
-<W msd="NC=P" tag="NNS" in="-2:&lt;nobj&gt;" out="-1:attr|1:loc">bags</W>
-<W msd="SP" tag="IN" in="-3:&lt;pred&gt;|-1:loc" out="1:nobj">under</W>
-<W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
-<W msd="NC=P" tag="NNS" in="-1:possd" out="">eyes</W>
+<W msd="NC=P" tag="NNS" in="-5:conj" out="-1:attr|-2:coord|1:attr|1:{pos}">bags</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="1:nobj">under</W>
+<W msd="PO" tag="PRP$" in="-1:nobj|1:{const}" out="1:possd">their</W>
+<W msd="NC=P" tag="NNS" in="-1:possd" out="-1:{const}">eyes</W>
 <W msd="VAG" tag="VBG" in="-11:relr" out="-11:[subj]|1:man|2:@loc|5:pnct">roaming</W>
 <W msd="ANP" tag="RB" in="-1:man" out="">aimlessly</W>
 <W msd="SP" tag="IN" in="-2:@loc" out="1:nobj">around</W>
@@ -41,8 +41,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">The</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:other">men</W>
-<W msd="SP" tag="IN" in="-1:other" out="1:nobj">in</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:attr|1:{other}">men</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{other}" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
 <W msd="VADR" tag="VBP" in="" out="-4:subj|1:att|3:preds|7:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:att" out="">simply</W>
@@ -54,11 +54,11 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PO" tag="PRP$" in="6:subj" out="1:attr|2:pnct|3:attr|4:possd|5:time">Their</W>
+<W msd="PO" tag="PRP$" in="6:subj|4:[subj]|4:{agent}" out="1:attr|2:pnct|3:attr|4:possd|5:time">Their</W>
 <W msd="VAG" tag="VBG" in="-1:attr" out="">wandering</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">aimless</W>
-<W msd="NC=S" tag="NN" in="-4:possd" out="">behaviour</W>
+<W msd="NC=S" tag="NN" in="-4:possd" out="-4:[subj]|-4:{agent}">behaviour</W>
 <W msd="NC=S" tag="NN" in="-5:time" out="">today</W>
 <W msd="VADR" tag="VBZ" in="" out="-6:subj|1:preds|13:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">due</W>
@@ -87,27 +87,27 @@
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">movie</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-2:attr|-1:attr|-1:{func}#">theatres</W>
 <W msd="CC" tag="CC" in="6:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="5:cause" out="">so</W>
+<W msd="ANP" tag="RB" in="5:struct" out="">so</W>
 <W msd="PD" tag="DT" in="4:subj|6:[subj]" out="2:nobj|3:possd">the</W>
 <W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">film</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:nobj.dobj|-1:{patient}#">reviewers'</W>
-<W msd="NC=S" tag="NN" in="-3:possd" out="">existence</W>
-<W msd="VADR" tag="VBZ" in="-15:conj" out="-4:subj|-5:cause|-6:coord|1:time|2:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:time" out="">momentarily</W>
+<W msd="NC=S" tag="NN" in="-2:nobj|1:[subj]|1:{agent}" out="-1:nobj.dobj|-1:{patient}#">reviewers'</W>
+<W msd="NC=S" tag="NN" in="-3:possd" out="-1:[subj]|-1:{agent}">existence</W>
+<W msd="VADR" tag="VBZ" in="-15:conj" out="-4:subj|-6:coord|2:vobj|-5:struct|1:dur">has</W>
+<W msd="ANP" tag="RB" in="-1:dur" out="">momentarily</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:dobj">lost</W>
-<W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="">meaning</W>
+<W msd="PO" tag="PRP$" in="-1:dobj|1:[subj]|1:{agent}" out="1:possd">its</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">meaning</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
 <W msd="CS" tag="IN" in="3:cause" out="-1:neg|10:pnct">because</W>
 <W msd="NC=P" tag="NNS" in="2:subj" out="">reviewers</W>
-<W msd="ANP" tag="RB" in="1:other" out="">usually</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-3:cause|-1:other|1:fpreds|5:time">sit</W>
+<W msd="ANP" tag="RB" in="1:hab" out="">usually</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-3:cause|1:fpreds|5:time|-1:hab">sit</W>
 <W msd="VAG" tag="VBG" in="-1:fpreds" out="1:dobj">watching</W>
-<W msd="NC=P" tag="NNS" in="-1:dobj" out="1:pobj&3a;apart">streams</W>
-<W msd="SP" tag="IN" in="-1:pobj&3a;apart" out="1:nobj">of</W>
+<W msd="NC=P" tag="NNS" in="-1:dobj|1:{apart}" out="1:pobj">streams</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|-1:{apart}">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">films</W>
 <W msd="SP" tag="IN" in="-5:time" out="1:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Friday</W>
@@ -145,15 +145,15 @@
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="PD" tag="DT" in="3:subj|8:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">reviewers</W>
-<W msd="ANP" tag="RB" in="1:reas" out="">thus</W>
-<W msd="VADR" tag="VBP" in="-25:conj" out="-3:subj|-1:reas|-4:coord|1:dobj">have</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="">plenty</W>
-<W msd="SP" tag="IN" in="" out="1:nobj">of</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:goal">time</W>
-<W msd="U=" tag="TO" in="-1:goal" out="1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:struct" out="">thus</W>
+<W msd="VADR" tag="VBP" in="-25:conj" out="-3:subj|-4:coord|1:dobj|-1:struct">have</W>
+<W msd="NC=S" tag="NN" in="-1:dobj|1:{apart}" out="1:pobj">plenty</W>
+<W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|-1:{apart}">of</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:attr|1:{func}">time</W>
+<W msd="U=" tag="TO" in="-1:attr|-1:{func}" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">do</W>
-<W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="">work</W>
+<W msd="PO" tag="PRP$" in="-1:dobj|1:[subj]|1:{agent}" out="1:possd">their</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">work</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
 <s>
@@ -169,8 +169,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:nobj.dobj|-1:{patient}#">review</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-12:cond|1:reas|2:preds|7:pnct|8:conc|26:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:reas" out="">thus</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-12:cond|2:preds|7:pnct|8:conc|26:pnct|1:struct">is</W>
+<W msd="ANP" tag="RB" in="-1:struct" out="">thus</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="2:pobj">due</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="-1:neg|2:nobj">to</W>
