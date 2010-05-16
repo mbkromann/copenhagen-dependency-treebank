@@ -42,8 +42,10 @@ if ( ! -f $fname ) {
 			} else {
 				print "  $dimension=$status\n";
 				`svn propset $dimension $status $fname`;
-				`svn cp $fname ~/cdt/first/$dimension` 
-					if ($status eq "first");
+				if ($status eq "first") {
+					my $copyfname = "~/cdt/first/$dimension";
+					`svn cp $fname $copyfname 2>/dev/null || cp $fname $copyfname`;
+				}
 			}
 		} else {
 			print "ERROR: Illegal dimension-status specification: $arg\n";
