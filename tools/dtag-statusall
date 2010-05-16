@@ -12,8 +12,8 @@ else
 fi
 
 cd ~/cdt
-for d in `echo $directories` ; do
-	(cd $d ; svn proplist -v *.{tag,atag} 2>/dev/null) | /usr/bin/perl ~/cdt/tools/props2table 
-done
-
-
+( for d in `echo $directories` ; do
+	cd $d;
+	svn proplist -v *.{tag,atag} 2>/dev/null; 
+	cd .. ;
+done ) | /usr/bin/perl ~/cdt/tools/props2table

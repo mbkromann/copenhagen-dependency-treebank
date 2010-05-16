@@ -17,7 +17,7 @@ ls ??/*$name2.tag | sed -e "s/$name2.tag//g" > ${tmp}cdt-files.$name2
 # Find all files annotated by both name1 and name2
 
 # Find tag file concatenation of all jointly annotated files
-rm $prefix-{A,B}*.tag
+#rm $prefix-{A,B}*.tag
 touch $file1 $file2
 for f in `diff --changed-group-format='' ${tmp}cdt-files.$name1 ${tmp}cdt-files.$name2` ; do
 	wc1=`wc -l $f$name1.tag | awk '{print $1}'`

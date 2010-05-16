@@ -1,17 +1,23 @@
 #!/usr/bin/perl
 
 my $statusvalues = ["none", "auto", "outdated-final", "first", "discussed", "final"]; 
+my $includeTokenCounts = 0;
 my $dim;
 my $status = {};
 
 # Compile status for all files
+my $tokens = {};
 while (my $line = <>) {
 	chomp($line);
-	if ($line =~ /^Properties on '([^-]*-[^-.]*)[-.].*tag'/) {
-		$file = $1;
+	if ($line =~ /^Properties on '(([^-]*-[^-.]*)[-.].*tag)'/) {
+		$file = $2;
+		$tokens->{$file} = `grep '</W>' */$1 | wc -l`
+			if ($includeTokenCounts);
 	}
-	if ($line =~ /^Properties on '([^-]*-[^-.]*-[^-.]*)[-.].*atag'/) {
-		$file = $1;
+	if ($line =~ /^Properties on '(([^-]*-[^-.]*-[^-.]*)[-.].*atag)'/) {
+		$file = $2;
+		$tokens->{$file} = `grep '<align' */$1 | wc -l`
+			if ($includeTokenCounts);
 	}
 	if ($line =~ /^  ([^ ].*)$/) {
 		$dim = $1;
@@ -24,44 +30,56 @@ while (my $line = <>) {
 		my $oldstatus = $status->{$file}{$dim} || 0;
 		$status->{$file}{$dim} = $newstatus
 			if ($newstatus >= $oldstatus);
-		#print "$file $dim $s $newstatus\n";
 	}
 }
 
 # Count number of files with different status for each dimension and
 # language
-my $counts = {};
-foreach my $file (keys(%$status)) {
-	#print "$file\n";
-	$file =~ /^[0-9]*-(.*)$/;
-	my $dir = $1;
-	$counts->{$dir} = {}
-		if (! exists $counts->{$dir});
-	foreach my $dim (keys(%{$status->{$file}})) {
-		my $s = $status->{$file}{$dim};
-		$counts->{$dir}{$dim} = []
-			if (! exists $counts->{$dir}{$dim});
-		$counts->{$dir}{$dim}[$s] += 1;
-	}
-}
+my $filecounts = {"ALL" => {}};
+my $tokencounts = {"ALL" => {}};
+@counttypes = ($filecounts);
+push @counttypes, $filecounts if ($includeTokenCounts);
+foreach my $counts ($filecounts, $tokencounts) {
+	print "\n\n===== " . ($counts eq $filecounts ? "TEXT COUNTS" : "TOKEN COUNTS") . "=====\n\n";
+	foreach my $file (keys(%$status)) {
+		$file =~ /^[0-9]*-(.*)$/;
+		my $dir = $1;
+		my $inc = $counts eq $filecounts ? 1 : $tokens->{$file};
+		$counts->{$dir} = {}
+			if (! exists $counts->{$dir});
+		foreach my $dim (keys(%{$status->{$file}})) {
+			my $s = $status->{$file}{$dim};
+			$counts->{$dir}{$dim} = []
+				if (! exists $counts->{$dir}{$dim});
+			$counts->{$dir}{$dim}[$s] += $inc;
 
-# Print table
-my $hfield = "%20s";
-my $vfield = "%12s";
-foreach my $dir (sort(keys(%$counts))) {
-	print "\n\n=== $dir ===\n\n";
-
-	# Print dimension headers
-	my $dimensions = [sort(keys(%{$counts->{$dir}}))];
-	printf($hfield, "");
-	print join("", map {sprintf($vfield, $_)} @$dimensions), "\n";
-	my $i = 0;
-	for (my $row = 0; $row <= $#$statusvalues; ++$row) {
-		printf($hfield, $statusvalues->[$row]);
-		foreach my $dim (@$dimensions) {
-			printf($vfield, $counts->{$dir}{$dim}[$row]);
+			# All
+			$counts->{"ALL"}{$dim} = []
+				if (! exists $counts->{"ALL"}{$dim});
+			$counts->{"ALL"}{$dim}[$s] += $inc;
 		}
-		print "\n";
+	}
+
+
+	print "dims: " . join(" ", sort(keys(%$counts))) . "\n\n";
+	# Print table
+	my $hfield = "%20s";
+	my $vfield = "%12s";
+	foreach my $dir (sort(keys(%$counts))) {
+		print "\n\n=== $dir ===\n\n";
+
+		# Print dimension headers
+		my $dimensions = [sort(keys(%{$counts->{$dir}}))];
+		printf($hfield, "");
+		print join("", map {sprintf($vfield, $_)} @$dimensions), "\n";
+		my $i = 0;
+		for (my $row = 0; $row <= $#$statusvalues; ++$row) {
+			printf($hfield, $statusvalues->[$row]);
+			foreach my $dim (@$dimensions) {
+				printf($vfield, $counts->{$dir}{$dim}[$row]);
+			}
+			print "\n";
+		}
 	}
 }
 

@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Read arguments and check them
+testname=$1
+testid=$2
+shift
+shift
+message=$*
+
+# Test arguments
+if [ -z "$testname" -o -z "$testid" ] ; then
+	echo "Usage: $0 <testname> <testid> <description>"
+	exit 1
+fi
+
+# Find file names and check taht testfile and goldfile exist
+logfile=$testname.log
+testfile=$testname-$testid.test
+goldfile=`echo $testname-$testid.gold | sed -e 's/[a-z].gold/.gold/g'`
+if [ ! -r $goldfile ] ; then
+	error="Cannot open gold file $goldfile"
+fi
+if [ ! -r $testfile ] ; then
+	error="Cannot open system test file $testfile"
+fi
+if ! touch $logfile 2>/dev/null ; then
+	error="Cannot open logfile $logfile for writing"
+fi
+
+# Compare files
+if [ -z "$error" ] ; then
+	if cmp $testfile $goldfile 2>/dev/null ; then
+		echo "ok  : $testname $testid: " "$message" | tee -a $logfile
+		exit 0
+	else 
+		echo "fail: $testname $testid: " "$message [gold=$goldfile test=$testfile]" | tee -a $logfile
+		exit 1
+	fi
+else
+	echo "err : $testname $testid: " "$message [$error]" | tee -a $logfile
+	exit 1
+fi
+
+
