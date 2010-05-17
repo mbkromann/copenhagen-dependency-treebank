@@ -9,8 +9,6 @@
 [*] da/1545-da-disc-morten.tag
 [*] da/1405-da-disc-morten.tag
 [*] da/0968-da-disc-morten.tag
-
-
 [*] da/0104-da.tag
 [*] de/0104-de-morten.tag
 [*] it/0104-it-morten.tag
@@ -75,9 +73,9 @@
 [*] de/0675-de-morten.tag
 [*] it/0675-it-morten.tag
 [*] da/0781-da.tag
-[ ] de/0781-de-morten.tag
-[ ] it/0781-it-lisa.tag
-[ ] da/0863-da.tag
+[*] de/0781-de-morten.tag
+[*] it/0781-it-lisa.tag
+[*] da/0863-da.tag
 [ ] de/0863-de-morten.tag
 [ ] it/0863-it-morten.tag
 [ ] da/0956-da.tag
