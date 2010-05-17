@@ -1,4 +1,16 @@
 # Indsæt "*" når annotationen er afsluttet
+[*] da/1017-da-disc-morten.tag
+[*] da/1041-da-disc-morten.tag
+[*] da/1325-da-disc-morten.tag
+[*] da/0759-da-disc-morten.tag
+[*] da/1030-da-disc-morten.tag
+[*] da/1138-da-disc-morten.tag
+[*] da/0401-da-disc-morten.tag
+[*] da/1545-da-disc-morten.tag
+[*] da/1405-da-disc-morten.tag
+[*] da/0968-da-disc-morten.tag
+
+
 [*] da/0104-da.tag
 [*] de/0104-de-morten.tag
 [*] it/0104-it-morten.tag
@@ -2399,7 +2411,7 @@ Flere italienske tekster:
 [ ] da/0309-da-disc-morten.tag
 [ ] da/0318-da-disc-morten.tag
 [ ] da/0326-da-disc-morten.tag
-[ ] da/0327-da-disc-morten.tag
+[*] da/0327-da-disc-morten.tag
 [ ] da/0333-da-disc-morten.tag
 [ ] da/0339-da-disc-morten.tag
 [ ] da/0345-da-disc-morten.tag
@@ -2513,7 +2525,7 @@ Flere italienske tekster:
 [ ] da/0956-da-disc-morten.tag
 [ ] da/0956-da-disc-morten.tag
 [ ] da/0960-da-disc-morten.tag
-[ ] da/0968-da-disc-morten.tag
+[*] da/0968-da-disc-morten.tag
 [ ] da/0975-da-disc-morten.tag
 [ ] da/0978-da-disc-morten.tag
 [ ] da/0988-da-disc-morten.tag
@@ -2523,13 +2535,13 @@ Flere italienske tekster:
 [ ] da/1008-da-disc-morten.tag
 [ ] da/1011-da-disc-morten.tag
 [ ] da/1014-da-disc-morten.tag
-[ ] da/1017-da-disc-morten.tag
+[*] da/1017-da-disc-morten.tag
 [ ] da/1021-da-disc-morten.tag
 [ ] da/1031-da-disc-morten.tag
 [ ] da/1035-da-disc-morten.tag
 [ ] da/1035-da-disc-morten.tag
 [ ] da/1038-da-disc-morten.tag
-[ ] da/1041-da-disc-morten.tag
+[*] da/1041-da-disc-morten.tag
 [ ] da/1043-da-disc-morten.tag
 [ ] da/1043-da-disc-morten.tag
 [ ] da/1047-da-disc-morten.tag
@@ -2548,7 +2560,7 @@ Flere italienske tekster:
 [ ] da/1125-da-disc-morten.tag
 [ ] da/1127-da-disc-morten.tag
 [ ] da/1129-da-disc-morten.tag
-[ ] da/1138-da-disc-morten.tag
+[*] da/1138-da-disc-morten.tag
 [ ] da/1144-da-disc-morten.tag
 [ ] da/1154-da-disc-morten.tag
 [ ] da/1162-da-disc-morten.tag
@@ -2573,9 +2585,9 @@ Flere italienske tekster:
 [ ] da/1289-da-disc-morten.tag
 [ ] da/1292-da-disc-morten.tag
 [ ] da/1302-da-disc-morten.tag
-[ ] da/1307-da-disc-morten.tag
+[*] da/1307-da-disc-morten.tag
 [ ] da/1321-da-disc-morten.tag
-[ ] da/1325-da-disc-morten.tag
+[*] da/1325-da-disc-morten.tag
 [ ] da/1328-da-disc-morten.tag
 [ ] da/1333-da-disc-morten.tag
 [ ] da/1337-da-disc-morten.tag
@@ -2596,7 +2608,7 @@ Flere italienske tekster:
 [ ] da/1398-da-disc-morten.tag
 [ ] da/1399-da-disc-morten.tag
 [ ] da/1400-da-disc-morten.tag
-[ ] da/1405-da-disc-morten.tag
+[*] da/1405-da-disc-morten.tag
 [ ] da/1407-da-disc-morten.tag
 [ ] da/1408-da-disc-morten.tag
 [ ] da/1410-da-disc-morten.tag
@@ -2622,7 +2634,7 @@ Flere italienske tekster:
 [ ] da/1522-da-disc-morten.tag
 [ ] da/1524-da-disc-morten.tag
 [ ] da/1536-da-disc-morten.tag
-[ ] da/1545-da-disc-morten.tag
+[*] da/1545-da-disc-morten.tag
 [ ] da/1546-da-disc-morten.tag
 
 [*] da/0005-da-disc-morten.tag
