@@ -140,24 +140,24 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:nobj" out="">teflón</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="ser" morph="ser" msd="VSfin" in="" out="-1:neg|-7:cond|1:preds|6:struct|2:¹subj">es</W>
+<W lemma="ser" morph="ser" msd="VSfin" in="" out="-1:neg|-7:cond|1:preds|2:subj|6:struct">es</W>
 <W lemma="necesario" msd="ADJ" in="-1:preds" out="">necesario</W>
-<W compound="�pincelar�lo" lemma="&lt;unknown&gt;" morph="" msd="VLinf" in="0:²dobj¹|-2:¹subj" out="1:man|0:²dobj¹">pincelarlo</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLinf" in="-2:subj" out="1:man">pincelarlo</W>
 <W lemma="con" msd="PREP" in="-1:man" out="1:nobj">con</W>
 <W lemma="grasa" morph="" msd="NC" in="-1:nobj" out="">grasa</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="aparte" msd="ADV" in="-6:struct" out="-1:pnct|1:epi|2:nobj|5:pnct">aparte</W>
+<W lemma="aparte" msd="ADV" in="-6:struct" out="-1:pnct|2:nobj|5:pnct|1:epi">aparte</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-1:epi" out="">quizá</W>
 <W lemma="del" msd="PDEL" in="-2:nobj|-27:coref-part" out="1:attr|2:nobj">del</W>
 <W lemma="primero" msd="ORD" in="-1:attr" out="">primer</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-2:nobj" out="">barquillo</W>
 <W lemma="." msd="FS" in="-5:pnct" out="">.</W>
 <W lemma="se" msd="SE" in="1:robj" out="">Se</W>
-<W lemma="usar" morph="usar" msd="VLfin" in="" out="-1:robj|1:degr|2:subj|6:goal|9:pnct|12:conj">usa</W>
+<W lemma="usar" morph="usar" msd="VLfin" in="" out="-1:robj|1:degr|2:subj|9:pnct|12:conj|6:goal">usa</W>
 <W lemma="aproximadamente" msd="ADV" in="-1:degr" out="">aproximadamente</W>
 <W lemma="1" msd="CARD" in="-2:subj" out="1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" morph="liter -deci/GRED&3a;size" msd="NC" in="-1:nobj|1:{apart}" out="1:pobj">dl</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="-1:{apart}|1:nobj">de</W>
+<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj|-1:{apart}">de</W>
 <W lemma="masa" morph="" msd="NC" in="-1:nobj|-42:coref-id" out="">masa</W>
 <W lemma="para" msd="PREP" in="-6:goal" out="1:nobj">para</W>
 <W lemma="cada" msd="QU" in="-1:nobj" out="1:nobj">cada</W>
@@ -173,19 +173,19 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" in="1:time" out="-1:coord">recién</W>
 <W lemma="&lt;unknown&gt;" morph=" horno +ear/DER&3a;nv hornear +ado/DEVERB&3a;pas.part" msd="ADJ" in="-3:conj" out="-1:time">horneados</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
-<W lemma="servir" morph="" msd="VLinf" in="" out="1:accom|10:pnct">Servir</W>
+<W lemma="servir" morph="" msd="VLinf" in="" out="10:pnct|1:accom">Servir</W>
 <W lemma="con" msd="PREP" in="-1:accom" out="1:nobj">con</W>
 <W lemma="fresa" morph="fresa" msd="NC" in="-1:nobj" out="1:attr|5:conj">fresas</W>
 <W lemma="fresco" msd="ADJ" in="-1:attr" out="2:conj">frescas</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="&lt;unknown&gt;" morph="confitar +ado/DEVERB&3a;pas.part" msd="VLadj" in="-2:conj" out="-1:coord">confitadas</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="nata" morph="" msd="NC" in="-5:conj" out="-1:coord|1:attr|1:{form}#|2:attr">nata</W>
+<W lemma="nata" morph="" msd="NC" in="-5:conj" out="-1:coord|2:attr|1:attr|1:{form}#">nata</W>
 <W lemma="batir" morph="batir +ado/DEVERB&3a;pas.part" msd="VLadj" in="-1:attr|-1:{form}#" out="">batida</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attr" out="">fría</W>
 <W lemma="." msd="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Sábado</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="1:attr|1:{const}#|3:attr|3:{form}|4:attr|4:{pos}">Paleta</W>
+<W lemma="&lt;unknown&gt;" msd="NP" in="" out="3:attr|1:attr|1:{const}#|4:attr|4:{pos}|3:{form}">Paleta</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{const}#" out="1:nobj">de</W>
 <W lemma="cordero" morph="" msd="NC" in="-1:nobj" out="">cordero</W>
 <W lemma="rellenar" morph="rellenar +Ø/DEVERB&3a;pas.part" msd="VLfin" in="-3:attr|-3:{form}" out="">rellena</W>
