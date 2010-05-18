@@ -76,14 +76,14 @@
 [*] de/0781-de-morten.tag
 [*] it/0781-it-lisa.tag
 [*] da/0863-da.tag
-[ ] de/0863-de-morten.tag
-[ ] it/0863-it-morten.tag
-[ ] da/0956-da.tag
-[ ] de/0956-de-morten.tag
-[ ] it/0956-it-morten.tag
-[ ] da/1014-da.tag
-[ ] de/1014-de-morten.tag
-[ ] it/1014-it-morten.tag
+[*] de/0863-de-morten.tag
+[*] it/0863-it-morten.tag
+[*] da/0956-da.tag
+[*] de/0956-de-morten.tag
+[*] it/0956-it-morten.tag
+[*] da/1014-da.tag
+[*] de/1014-de-morten.tag
+[ ] it/1014-it-lisa.tag
 [ ] da/1035-da.tag
 [ ] de/1035-de-morten.tag
 [ ] it/1035-it-morten.tag
@@ -721,7 +721,7 @@
 [ ] da-de/0856-da-de-morten.atag
 [ ] de/0856-de-morten.tag
 [ ] da-de/0863-da-de-morten.atag
-[ ] de/0863-de-morten.tag
+[*] de/0863-de-morten.tag
 [ ] da-de/0864-da-de-morten.atag
 [ ] de/0864-de-morten.tag
 [ ] da-de/0866-da-de-morten.atag
@@ -783,7 +783,7 @@
 [ ] da-de/0955-da-de-morten.atag
 [ ] de/0955-de-morten.tag
 [ ] da-de/0956-da-de-morten.atag
-[ ] de/0956-de-morten.tag
+[*] de/0956-de-morten.tag
 [ ] da-de/0958-da-de-morten.atag
 [ ] de/0958-de-morten.tag
 [ ] da-de/0960-da-de-morten.atag
@@ -817,7 +817,7 @@
 [ ] da-de/1011-da-de-morten.atag
 [ ] de/1011-de-morten.tag
 [ ] da-de/1014-da-de-morten.atag
-[ ] de/1014-de-morten.tag
+[*] de/1014-de-morten.tag
 [ ] da-de/1017-da-de-morten.atag
 [ ] de/1017-de-morten.tag
 [ ] da-de/1019-da-de-morten.atag
@@ -4440,7 +4440,7 @@ Flere italienske tekster:
 [ ] da-de/0856-da-de-morten.atag
 [ ] de/0856-de-morten.tag
 [ ] da-de/0863-da-de-morten.atag
-[ ] de/0863-de-morten.tag
+[*] de/0863-de-morten.tag
 [ ] da-de/0864-da-de-morten.atag
 [ ] de/0864-de-morten.tag
 [ ] da-de/0866-da-de-morten.atag
@@ -4502,7 +4502,7 @@ Flere italienske tekster:
 [ ] da-de/0955-da-de-morten.atag
 [ ] de/0955-de-morten.tag
 [ ] da-de/0956-da-de-morten.atag
-[ ] de/0956-de-morten.tag
+[*] de/0956-de-morten.tag
 [ ] da-de/0958-da-de-morten.atag
 [ ] de/0958-de-morten.tag
 [ ] da-de/0960-da-de-morten.atag
@@ -4536,7 +4536,7 @@ Flere italienske tekster:
 [ ] da-de/1011-da-de-morten.atag
 [ ] de/1011-de-morten.tag
 [ ] da-de/1014-da-de-morten.atag
-[ ] de/1014-de-morten.tag
+[*] de/1014-de-morten.tag
 [ ] da-de/1017-da-de-morten.atag
 [ ] de/1017-de-morten.tag
 [ ] da-de/1019-da-de-morten.atag
