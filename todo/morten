@@ -1,14 +1,14 @@
 # Indsæt "*" når annotationen er afsluttet
 [*] da/1017-da-disc-morten.tag
 [*] da/1041-da-disc-morten.tag
-[*] da/1325-da-disc-morten.tag
-[*] da/0759-da-disc-morten.tag
-[*] da/1030-da-disc-morten.tag
-[*] da/1138-da-disc-morten.tag
-[*] da/0401-da-disc-morten.tag
-[*] da/1545-da-disc-morten.tag
-[*] da/1405-da-disc-morten.tag
-[*] da/0968-da-disc-morten.tag
+[ ] da/1325-da-disc-morten.tag
+[ ] da/0759-da-disc-morten.tag
+[ ] da/1030-da-disc-morten.tag
+[ ] da/1138-da-disc-morten.tag
+[ ] da/0401-da-disc-morten.tag
+[ ] da/1545-da-disc-morten.tag
+[ ] da/1405-da-disc-morten.tag
+[ ] da/0968-da-disc-morten.tag
 [*] da/0104-da.tag
 [*] de/0104-de-morten.tag
 [*] it/0104-it-morten.tag
@@ -83,8 +83,8 @@
 [*] it/0956-it-morten.tag
 [*] da/1014-da.tag
 [*] de/1014-de-morten.tag
-[ ] it/1014-it-lisa.tag
-[ ] da/1035-da.tag
+[*] it/1014-it-lisa.tag
+[*] da/1035-da.tag
 [ ] de/1035-de-morten.tag
 [ ] it/1035-it-morten.tag
 [ ] da/1038-da.tag

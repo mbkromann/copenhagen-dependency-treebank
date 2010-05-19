@@ -115,7 +115,7 @@
 </s>
 <s>
 <W gloss="The" lemma="jo" msd="RGU" tag="RP" in="1:other" out="16:vobj">Jo</W>
-<W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="3:[nobj]|10:[nobj]|-37:CONJ/(og)" out="-1:other|2:rel|17:pnct">færre</W>
+<W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-37:CONJ/(og)|3:[nobj]|10:[nobj]" out="-1:other|2:rel|17:pnct">færre</W>
 <W gloss="the_Prime_Minister" lemma="statsminister" msd="NCCSU==D" tag="NN" in="1:subj|4:[subj]" out="">statsministeren</W>
 <W gloss="listened" lemma="lytte" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:pobj|3:conj|9:pnct">lytter</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="-3:[nobj]">til</W>
@@ -201,7 +201,7 @@
 <s>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:struct" out="1:nobj">Til</W>
 <W gloss="the_other_hand" lemma="gengæld" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gengæld</W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-37:+CONTR&3a;dir/til_gengæld" out="-2:struct|2:subj|3:dobj|8:pobj|25:pnct|-7:+PREP">viser</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-37:+CONTR&3a;dir/til_gengæld" out="-2:struct|-7:+PREP|2:subj|3:dobj|8:pobj|25:pnct">viser</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Schlüter</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:pobj">en</W>
