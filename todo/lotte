@@ -11,7 +11,6 @@
 [*] da/1545-da-disc-lotte.tag
 [*] da/1405-da-disc-lotte.tag
 [*] da/0968-da-disc-lotte.tag
-
 [*] es/0104-es-lotte.tag
 [*] en/0104-en.tag
 [*] da/0104-da.tag
@@ -29,8 +28,8 @@
 [*] es/0876-es-lotte.tag
 [*] da/1077-da.tag
 [*] en/1077-en.tag
-[ ] es/1077-es-lotte.tag
-[ ] da/1252-da.tag
+[*] es/1077-es-lotte.tag
+[*] da/1252-da.tag
 [ ] es/1252-es-lotte.tag
 [ ] en/1252-en.tag
 [ ] en/1420-en.tag
