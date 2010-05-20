@@ -1,14 +1,14 @@
 # Indsæt "*" når annotationen er afsluttet
 [*] da/1017-da-disc-morten.tag
 [*] da/1041-da-disc-morten.tag
-[ ] da/1325-da-disc-morten.tag
-[ ] da/0759-da-disc-morten.tag
-[ ] da/1030-da-disc-morten.tag
-[ ] da/1138-da-disc-morten.tag
-[ ] da/0401-da-disc-morten.tag
-[ ] da/1545-da-disc-morten.tag
-[ ] da/1405-da-disc-morten.tag
-[ ] da/0968-da-disc-morten.tag
+[*] da/1325-da-disc-morten.tag
+[*] da/0759-da-disc-morten.tag
+[*] da/1030-da-disc-morten.tag
+[*] da/1138-da-disc-morten.tag
+[*] da/0401-da-disc-morten.tag
+[*] da/1545-da-disc-morten.tag
+[*] da/1405-da-disc-morten.tag
+[*] da/0968-da-disc-morten.tag
 [*] da/0104-da.tag
 [*] de/0104-de-morten.tag
 [*] it/0104-it-morten.tag
@@ -85,13 +85,13 @@
 [*] de/1014-de-morten.tag
 [*] it/1014-it-lisa.tag
 [*] da/1035-da.tag
-[ ] de/1035-de-morten.tag
-[ ] it/1035-it-morten.tag
-[ ] da/1038-da.tag
-[ ] de/1038-de-morten.tag
-[ ] it/1038-it-morten.tag
-[ ] da/1241-da.tag
-[ ] de/1241-de-morten.tag
+[*] de/1035-de-morten.tag
+[*] it/1035-it-morten.tag
+[*] da/1038-da.tag
+[*] de/1038-de-morten.tag
+[*] it/1038-it-lisa.tag
+[*] da/1241-da.tag
+[*] de/1241-de-morten.tag
 [ ] it/1241-it-morten.tag
 [ ] da/1252-da.tag
 [ ] de/1252-de-morten.tag
@@ -833,7 +833,7 @@
 [ ] da-de/1035-da-de-morten.atag
 [*] de/1035-de-morten.tag
 [ ] da-de/1038-da-de-morten.atag
-[ ] de/1038-de-morten.tag
+[*] de/1038-de-morten.tag
 [ ] da-de/1039-da-de-morten.atag
 [ ] de/1039-de-morten.tag
 [ ] da-de/1041-da-de-morten.atag
@@ -935,7 +935,7 @@
 [ ] da-de/1229-da-de-morten.atag
 [ ] de/1229-de-morten.tag
 [ ] da-de/1241-da-de-morten.atag
-[ ] de/1241-de-morten.tag
+[*] de/1241-de-morten.tag
 [ ] da-de/1250-da-de-morten.atag
 [ ] de/1250-de-morten.tag
 [ ] da-de/1251-da-de-morten.atag
@@ -4552,7 +4552,7 @@ Flere italienske tekster:
 [ ] da-de/1035-da-de-morten.atag
 [*] de/1035-de-morten.tag
 [ ] da-de/1038-da-de-morten.atag
-[ ] de/1038-de-morten.tag
+[*] de/1038-de-morten.tag
 [ ] da-de/1039-da-de-morten.atag
 [ ] de/1039-de-morten.tag
 [ ] da-de/1041-da-de-morten.atag
@@ -4654,7 +4654,7 @@ Flere italienske tekster:
 [ ] da-de/1229-da-de-morten.atag
 [ ] de/1229-de-morten.tag
 [ ] da-de/1241-da-de-morten.atag
-[ ] de/1241-de-morten.tag
+[*] de/1241-de-morten.tag
 [ ] da-de/1250-da-de-morten.atag
 [ ] de/1250-de-morten.tag
 [ ] da-de/1251-da-de-morten.atag
