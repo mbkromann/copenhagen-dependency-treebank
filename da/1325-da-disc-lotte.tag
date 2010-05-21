@@ -43,7 +43,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="">Og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="am" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|29:pnct|-2:coord|48:+CAUSE&3a;expl/(nemlig)">er</W>
+<W gloss="am" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:coord|1:preds|29:pnct|48:+CAUSE&3a;expl/(nemlig)">er</W>
 <W gloss="afraid" lemma="bange" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">bange</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">for</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -128,7 +128,7 @@
 <p>
 <s>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-24:+CONS&3a;prg" out="-1:subj|1:mod|3:preds|4:pnct|-6:+PREP|14:+ELAB&3a;exp">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-24:+CONS&3a;prg" out="-1:subj|-6:+PREP|1:mod|3:preds|4:pnct|14:+ELAB&3a;exp">er</W>
 <W gloss="Of_course" lemma="naturligvis" msd="RGU" tag="RP" in="-1:mod" out="">naturligvis</W>
 <W gloss="clean" lemma="ren" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ren</W>
 <W gloss="poppycock" lemma="tågesnak" msd="NCCSU==I" tag="NN" in="-3:preds" out="-1:attr">tågesnak</W>
