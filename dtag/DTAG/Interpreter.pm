@@ -12114,7 +12114,7 @@ sub nvalue {
 	my $nodeid = $self->varbind($bindings, $bind, $nodevar);
 	my $node = $graph->node($nodeid);
 	my $value = defined($node) ? $node->var($feat) : "NA";
-	$value = "" if (! defined($value);
+	$value = "" if (! defined($value));
 
 	# Check for valid number
 	if ($value =~ /^-?\d+\.?\d*$/) {
