@@ -2224,9 +2224,14 @@ sub cmd_confusion {
 		}
 
 		# Read file
+		my $relsethash = $self->{'relsets'}{$relset} // {};
 		while (my $line = <CONF>) {
 			chomp($line);
-			my @fields = split(/\t/, $line);
+			my @fields = map {
+				my $crel = $_; 
+				my $rellist = $relsethash->{$crel};
+				$rellist ? $rellist->[$REL_SNAME] : $crel;
+			} split(/\t/, $line);
 			my $rel = shift(@fields);
 			$confusion->{$rel} = [@fields]
 				if (defined($rel) && $rel ne "");
@@ -6881,12 +6886,14 @@ sub relset2latex_visit {
 	print $ofh "	\\related{" . join(" ", map {texrelref($_, $relset)} 
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
 	my $confuse = [@{$confusion->{$sname} // []}];
-	print $ofh "	\\confusions{" . texrelref(shift(@$confuse), $relset)
-		. "}{" 
-		. shift(@$confuse) . "{";
-	foreach my $c (@$confuse) {
-		$c =~ /^([0-9]+)\%=(.*)$/;
-		print $ofh "\confuse{$1\\%}{$2}" if (defined($1) && defined($2));
+	if (@$confuse) {
+		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
+		foreach my $c (@$confuse) {
+			$c =~ /^([0-9]+)\%=(.*)$/;
+			print $ofh "\\confuse{$1}{" . texrelref($2, $relset) . "}" 
+				if (defined($1) && defined($2));
+		}
+		print $ofh "}\n";
 	}
 	$relset_cmdsummary .= "	\\cmdsummary{$indent}{" . texrelref($sname, $relset) . "}{"
 		. tex($sdescr) . "}%\n";
@@ -6904,6 +6911,7 @@ sub relset2latex_visit {
 
 sub texrel {
 	my $rel = shift;
+	$rel =~ s/\s+//g;
 	my $texcmd = shift || "\\rel";
 	return tex($rel) if ($rel eq "");
 	return $texcmd . "{" . tex($rel) . "}";
