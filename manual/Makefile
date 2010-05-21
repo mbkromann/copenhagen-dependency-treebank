@@ -16,6 +16,7 @@ cdt-files:
 	rm -f build/build
 	cd build ; ln -s . build
 	rm -rf build/*.tex build/*.dtag
+	dtag -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
 
