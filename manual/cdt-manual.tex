@@ -50,9 +50,9 @@
 \usepackage{graphicx}
 
 % Macros
-\newenvironment{relation}{\medskip}{\medskip}
+\newenvironment{relation}{\medskip\hangindent=0mm}{\medskip}
 \newenvironment{examples}{\medskip\par\begin{center}}{\end{center}}
-\newenvironment{ldescription}{}{}
+\newenvironment{ldescription}{}{\smallskip\par\hangindent=5mm}
 \newenvironment{overview}[1]{\begin{figure}[!ht]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
 
 \def\rel#1{\textsf{#1\index{#1}}}
@@ -67,8 +67,10 @@
 \def\sdescrx#1#2{\textit{#1} {\footnotesize (#2)}.}
 \def\xlong#1{long: #1}
 \def\deprecated#1{deprecated #1}
-\def\subtypes#1{\par\footnotesize\noindent Subtypes: #1. }
-\def\related#1{\par\footnotesize Related types: #1. }
+\def\subtypes#1{\par\footnotesize\hangindent=5mm\noindent Subtypes: #1. }
+\def\related#1{\par\footnotesize\hangindent=5mm\noindent Related types: #1. }
+\def\confusions#1#2{\par\footnotesize\hangindent=5mm\noindent Confusion$_{#1}$: #2. }
+\def\confuse#1#2{#2$_{#1\%}$ }
 \def\tparents#1{}
 \def\cmdsummary#1#2#3{\small\phantom{.}#1#2: #3\newline}
 \def\overviewfile#1{\input{#1}}

@@ -4,6 +4,7 @@ all: clean cdt-files figures cdt-manual.pdf
 quick: cdt-files cdt-manual.pdf
 
 cdt-manual.pdf: DUMMY
+	cp cdt-manual.tex build
 	cd build; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual ; makeindex cdt-manual ; (xelatex cdt-manual 2>&1 && cp build/cdt-manual.pdf ..) | tee /tmp/cdtmanual.log
 	echo "\n\nWarnings:\n"
 	@grep Warning /tmp/cdtmanual.log 
@@ -17,7 +18,6 @@ cdt-files:
 	rm -rf build/*.tex build/*.dtag
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
-	cp cdt-manual.tex build
 
 figures: 
 	ls build/*.dtag | grep -v script | sed -e 's/^\(.*\).dtag$$/script \1.dtag\nprint \1.ps/g' > build/script.dtag
