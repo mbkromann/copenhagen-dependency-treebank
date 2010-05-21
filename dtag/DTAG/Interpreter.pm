@@ -9129,7 +9129,7 @@ sub do {
 
 		# Confusion: confusion [-add] $name $file...
 		$success = $self->cmd_confusion($2, $3, $1) 
-			if ($cmd =~ /\s*confusion(\s+-add)?\s+(\S+)\s+(.*)$/);
+			if ($cmd =~ /^\s*confusion(\s+-add)?\s+(\S+)\s+(.*)$/);
 
 		# Corpus: corpus $files
 		$success = $self->cmd_corpus($1) 
