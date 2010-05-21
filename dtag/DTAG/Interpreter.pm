@@ -2205,10 +2205,10 @@ sub cmd_compound {
 
 sub cmd_confusion {
 	my ($self, $relset, $files, $add) = @_;
-	my $confusions = $self->{'confusion'} = $self->{'confusion'} // {};
+	my $confusions = $self->{'confusion'} = $self->{'confusion'} || {};
 
 	# Initialize confusion tables
-	my $confusion = $add ? ($self->{'confusion'}{$relset} // {}) : {};
+	my $confusion = $add ? ($self->{'confusion'}{$relset} || {}) : {};
 	$confusions->{$relset} = $confusion;
 
 	# Logging
@@ -2224,7 +2224,7 @@ sub cmd_confusion {
 		}
 
 		# Read file
-		my $relsethash = $self->{'relsets'}{$relset} // {};
+		my $relsethash = $self->{'relsets'}{$relset} || {};
 		while (my $line = <CONF>) {
 			chomp($line);
 			my @fields = map {
@@ -2718,12 +2718,12 @@ sub cmd_echo {
 	if (! defined($table)) {
 		print $string;
 	} else {
-		my $tablenames = $self->{'tablenames'} // {};
-		my $tables = $self->{'tables'} // [];
+		my $tablenames = $self->{'tablenames'} || {};
+		my $tables = $self->{'tables'} || [];
 		my $ofh = $table ? $tablenames->{$table} : 
 			($#$tables >= 0 ? $tables->[$#$tables] : undef);
 		if (! defined($ofh)) {
-			error("The table " . ($table // "undef") . " does not exist, or has been closed.");
+			error("The table " . (defined($table) ? $table : "undef") . " does not exist, or has been closed.");
 		} else {
 			print $ofh $string;
 		}
@@ -6468,7 +6468,7 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
-	my $confusion = $self->{'confusion'}{$relsetname}{$sname} // [0];
+	my $confusion = $self->{'confusion'}{$relsetname}{$sname} || [0];
 	my $confcount = shift(@$confusion);
 	print "CONFUSION ($confcount nodes):\n    "
 		. join(" ", @$confusion) . "\n";
@@ -6885,7 +6885,7 @@ sub relset2latex_visit {
 		if (%$ichildren);
 	print $ofh "	\\related{" . join(" ", map {texrelref($_, $relset)} 
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
-	my $confuse = [@{$confusion->{$sname} // []}];
+	my $confuse = [@{$confusion->{$sname} || []}];
 	if (@$confuse) {
 		print $ofh "	\\confusions{" . shift(@$confuse) . "}{";
 		foreach my $c (@$confuse) {
@@ -7668,8 +7668,10 @@ sub cmd_save_matches {
 			map {$keyhash->{$_} = 1 if ($_ =~ /^\$/)} keys(%$match);
 			map {
 				if ($_ =~ /^\$/) {
-					my $k = $match->{'vars'}{$_} // "";
-					my $k0 = $varkeys->{$_} // $k;
+					my $k = $match->{'vars'}{$_};
+					$k = "" if (! defined($k));
+					my $k0 = $varkeys->{$_};
+					$k0 = $k if (! defined($k));
 					warning("Key mismatch for key $_: $k vs. $k0")
 						if ($k ne $k0);
 					$varkeys->{$_} = $k;
@@ -7690,10 +7692,10 @@ sub cmd_save_matches {
 			$mgraph->file() : $file;
 		#print "mgraph=$mgraph filename=$filename\n";
 		foreach my $match (@{$matches->{$file}}) {
-			my $varkeys = $match->{'vars'} // {};
+			my $varkeys = $match->{'vars'} || {};
 			print MATCH "\"$filename\"\t\""
 				. join("\"\t\"",
-					map {$match->{$_} // ""} @keylist) . "\"\n";
+					map {$match->{$_} || ""} @keylist) . "\"\n";
 		}
 	}
 
@@ -8437,7 +8439,7 @@ sub cmd_style {
 sub cmd_tell {
 	my $self = shift;
 	my $table = shift;
-	my $file = shift // "";
+	my $file = shift || "";
 
 	if (! defined($table)) {
 		$table = "$file";
@@ -8445,8 +8447,8 @@ sub cmd_tell {
 	}
 
 	# Get table list
-	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} // {};
-    my $tables = $self->{'tables'} = $self->{'tables'} // [];
+	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} || {};
+    my $tables = $self->{'tables'} = $self->{'tables'} || [];
 
 	# Close old table with given name, if it exists
 	$self->cmd_told($table);
@@ -8527,8 +8529,8 @@ sub cmd_told {
 	my $table = shift;
 	
 	# Find table data
-	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} // {};
-	my $tables = $self->{'tables'} = $self->{'tables'} // [];
+	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} || {};
+	my $tables = $self->{'tables'} = $self->{'tables'} || [];
 
 	# Find last defined table if $table is undefined
 	if (! $table) {
@@ -8938,6 +8940,17 @@ sub debug {
 	my $self = shift;
 	return $self->var("debug", @_);
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/default.pl
+## ------------------------------------------------------------
+
+sub default {
+	while (my $value = shift) {
+		return $value if (defined($value));
+	}
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/do.pl
