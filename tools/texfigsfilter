@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+
+my $figureprefix = $ARGV[0] || "fig";
+my $figureid = 0;
+while (my $line = <STDIN>) {
+	if ($line =~ /{{{.*}}}/) {
+		my $figurename = sprintf("%s-%04d", $figureprefix, ++$figureid);
+		my $figuretex = "	\\includegraphics{$figurename}";
+		$line =~ s/{{{(.*)}}}/$figuretex/;
+		open(DTAG, ">$figurename.dtag");
+		print DTAG "example " . $1 . "\n";
+		close(DTAG);
+	}
+	print $line;
+}
+
+sub run {
+	my $cmd = shift;
+	print STDERR $cmd . "\n";
+	system($cmd);
+}
+
+

@@ -1,0 +1,75 @@
+#!/usr/bin/perl
+
+# Compile annotations and relation counts
+my $annotations = {};
+my $confusion = {};
+while (my $line = <>) {
+	# Read input line
+	chomp($line);
+	my ($file, $relation, $in, $out, $include) = split(/\t/, $line);
+	$file =~ /^.*\/([0-9]+-[a-z]+)(\S+).tag/;
+	my ($text, $user) = ($1, $2);
+	$user =~ s/^-disc-//g;
+	$user =~ s/^-//g;
+
+	# Initialize confusion table
+	$confusion->{$relation} = {}
+		if ($include && ! $confusion->{$relation});
+
+	# Compute identifier and update annotations
+	my $id = $in . "@" . $text;
+	my $list = $annotations->{$id} = $annotations->{$id} // [];
+	push @$list, [$relation, $in, $out, $user]
+		if ($relation);
+}
+
+# Compile confusion matrix
+my $counts = {};
+foreach my $id (keys(%$annotations)) {
+	my $list = $annotations->{$id};
+	for (my $i = 0; $i <= $#$list; ++$i) {
+		my $irel = $list->[$i][0];
+		if ($#$list > 0 && $confusion->{$irel}) {
+			# Update confusion counts (divided evenly among
+			# alternative annotations)
+			if (! $counts->{$irel}{$id}) {
+				for (my $j = 0; $j <= $#$list; ++$j) {
+					if ($i != $j) {
+						my $jrel = $list->[$j][0];
+						$confusion->{$irel}{$jrel} += 1.0/$#$list;
+					}
+				}
+			}
+
+			# Update counts
+			$counts->{$irel} = {}
+				if (! $counts->{$irel});
+			$counts->{$irel}{$id} = 1;
+		}
+	}
+}
+
+# Print confusion matrix
+foreach my $rel (sort(keys(%$confusion))) {
+	my $relcount = scalar(keys(%{$counts->{$rel}}));
+	next if (! $relcount);
+
+	# Find sum of all relations
+	my $relsum = 0;
+	map {$relsum += $_} values(%{$confusion->{$rel}});
+
+	# Print normalized relation probabilities in falling order
+	print $rel . "\t" . count($relcount) . "\t" 
+		.  join("\t", map {percentage($confusion->{$rel}{$_} / $relsum) 
+						. "%=" . $_} 
+				sort {$confusion->{$rel}{$b} <=> $confusion->{$rel}{$a}}
+				(keys(%{$confusion->{$rel}}))) . "\n";
+}
+
+sub count {
+	return int(shift() + 0.5);
+}
+
+sub percentage {
+	return int(shift() * 100 + 0.5);
+}
