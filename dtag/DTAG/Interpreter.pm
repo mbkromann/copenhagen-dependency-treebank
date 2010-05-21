@@ -208,12 +208,8 @@ my $query_grammar = q{
 				{'vars' => $hash }; }
 
 	Action :
-		  '-do(' '"' <leftop: DTAGCommand ";" DTAGCommand> '"' ')'
-			{ FindActionDTAG->new(@{$item[3]}) }
-		| '-do(' <leftop: DTAGCommandUnquoted ";" DTAGCommandUnquoted > ')'
+		  '-do(' <leftop: DTAGCommand ";" DTAGCommand> ')'
 			{ FindActionDTAG->new(@{$item[2]}) }
-		| '-table(' FileName ";" <leftop: TableColumn ";" TableColumn> ')'
-			{ FindActionTable->new($item[2], @{$item[4]}) }
 		| <error>
 
 	Query :
@@ -254,9 +250,9 @@ my $query_grammar = q{
 
 	SimpleQuery : 
 		  StringValueQuery
+		| AdjacencyQuery
 		| NumberValueQuery
 		| GraphQuery
-		| AdjacencyQuery
 		| AlignmentQuery
 
 	StringValueQuery : 
@@ -284,11 +280,11 @@ my $query_grammar = q{
 			{ FindNumberGT->new($item[1], $item[3]) }
 
 	AdjacencyQuery : 
-		  Node '>>' Node 
-			{ FindADJ->new($item[1], $item[3], [1,1], -1) }
-		| Node '<<' Node 
-			{ FindADJ->new($item[1], $item[3], [1,1], 1) }
-		| Node '>' Range '>' Node 
+		  Node '>>' Node
+			{ FindADJ->new($item[1], $item[3], [[1,1]], -1) }
+		| Node '<<' Node
+			{ FindADJ->new($item[1], $item[3], [[1,1]], 1) }
+		| Node '>' Range '>' Node
 			{ FindADJ->new($item[1], $item[5], $item[3], -1) }
 		| Node '<' Range '<' Node
 			{ FindADJ->new($item[1], $item[5], $item[3], 1) }
@@ -373,13 +369,17 @@ my $query_grammar = q{
 	GraphKey : /[a-zA-Z]+/
 
 	Value : 
-		  StringValue
-		| NumberValue
+		<skip: '[ \t]*'> StringValue
+		| <skip: '[ \t]*'> NumberValue
 
 	StringValue :
-		  IntegerValue '[' Feature ']'
+		  'etypes(' Node ',' Node ')'
+		  	{ FindStringValueEtype->new($item[2], $item[4]) }
+		| 'etypes(' Node RelationPattern Node ')'
+		  	{ FindStringValueEtype->new($item[2], $item[4], $item[3]) }
+		| IntegerValue '[' Feature ']'
 		  	{ FindStringValueNodeFeature->new($item[1], $item[3]) }
-		| Node
+		| Node "[]"
 			{ FindStringValueNodeFeature->new(
 				FindNumberValueNode->new($item[1]), undef) }
 		| '"' /[^"]*/ '"'
@@ -398,6 +398,8 @@ my $query_grammar = q{
 			{ FindNumberValue->new($item[1]) }
 		| IntegerValue
 			{ $item[1] }
+		| "is(" Query ")"
+			{ FindNumberValueQuery->new($item[2]) }
 	
 	TableColumn :
 		  Value
@@ -415,11 +417,28 @@ my $query_grammar = q{
 		| Integer
 			{ [$item[1], $item[1]] }
 
-	DTAGCommand : /[^";)]+/
+	DTAGCommand :
+		<skip: ''> DTAGCommandSegment(s)
 		| <error>
 
-	DTAGCommandUnquoted : /[^;)]+/
-		| <error>
+	DTAGCommandSegment :
+		'`' Value '`'
+			{$item[2]}
+		| Node
+			{ FindNumberValueNode->new($item[1]) }
+	 	| DTAGCommandString
+			{ FindStringValue->new($item[1]) }
+		| '(' DTAGCommandString ')'
+			{ FindStringValue->new('(' . $item[2] . ')') }
+
+	DTAGCommandString :
+		/[^\\\\$()`]+/
+		| '\t' { '	' }
+		| '\n' { '\n' }
+		| '\r' { '\r' }
+		| '\(' { "(" }
+		| '\)' { ")" }
+		| '\\\' '\\\' { "\\\" }
 
 	NodeVariableDeclaration :
 		Node "@" GraphKey
@@ -429,7 +448,7 @@ my $query_grammar = q{
 		/\/[^\/]*\//
 			{ $item[1] }
 
-	Node 	: /\$[a-zA-Z][a-zA-Z0-9_]*/
+	Node : /\$[a-zA-Z][a-zA-Z0-9_]*/
 		| /[0-9]+/
 
 	Feature : 
@@ -1345,10 +1364,44 @@ sub cmd_as_example {
 		$s .= " ";
 	}
 
+	# Process inalignments
+	my @alignments = sort {map_num($a) <=> map_num($b)}
+		keys(%{$graph->var("inalign")});
+	foreach my $align (@alignments) {
+		my ($in, $out, $label) = split(/\s+/, $align);
+		my $mapin = map_inalign($in, $nodes);
+		my $mapout = map_inalign($out, $nodes);
+		if (defined($mapin) && defined($mapout)) {
+			$s .= "@" . $label . "($mapin,$mapout) ";
+		}
+	}
+
 	# Print string
 	print "\n" . $s . "\n\n";
 }
 
+sub map_inalign {
+	my $spec = shift;
+	my $nodes = shift;
+	my $mapped = "";
+	while (length($spec) > 0) {
+		if ($spec =~ s/^([0-9]+)//) {
+			my $mapnode = $nodes->{$1};
+			return undef if (! defined($mapnode));
+			$mapped .= $mapnode;
+		} else {
+			$spec =~ s/^([^0-9]+)//;
+			$mapped .= $1;
+		}
+	}
+	return $mapped;
+}
+
+sub map_num {
+	my $s = shift;
+	$s =~ /^([0-9]+)/;
+	return $1 || 0;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_autoalign.pl
@@ -2147,6 +2200,47 @@ sub cmd_compound {
 
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_confusion.pl
+## ------------------------------------------------------------
+
+sub cmd_confusion {
+	my ($self, $relset, $files, $add) = @_;
+	my $confusions = $self->{'confusion'} = $self->{'confusion'} // {};
+
+	# Initialize confusion tables
+	my $confusion = $add ? ($self->{'confusion'}{$relset} // {}) : {};
+	$confusions->{$relset} = $confusion;
+
+	# Logging
+	inform("Reading \"$relset\" confusion table from: $files");
+
+	# Open files
+	foreach my $file (split(/\s+/, $files)) {
+		# Open confusion file (format: $rel $count $x%=$rel\t...)
+		$file =~ s/^~/$ENV{HOME}/g;
+		if (!  open(CONF, "<:encoding(utf8)", $file)) {
+			warning("Cannot open file $file for reading\n");
+			next;
+		}
+
+		# Read file
+		while (my $line = <CONF>) {
+			chomp($line);
+			my @fields = split(/\t/, $line);
+			my $rel = shift(@fields);
+			$confusion->{$rel} = [@fields]
+				if (defined($rel) && $rel ne "");
+		}
+
+		# Close file
+		close(CONF);
+	}
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_corpus.pl
 ## ------------------------------------------------------------
 
@@ -2611,10 +2705,27 @@ sub compare_graphs {
 
 sub cmd_echo {
 	my $self = shift;
-	my $graph = shift;
+	my $table = shift;
 	my $string = shift;
+
+	# Check whether table exists
 	$string =~ s/\\n/\n/g;
-	print $string;
+	if (! defined($table)) {
+		print $string;
+	} else {
+		my $tablenames = $self->{'tablenames'} // {};
+		my $tables = $self->{'tables'} // [];
+		my $ofh = $table ? $tablenames->{$table} : 
+			($#$tables >= 0 ? $tables->[$#$tables] : undef);
+		if (! defined($ofh)) {
+			error("The table " . ($table // "undef") . " does not exist, or has been closed.");
+		} else {
+			print $ofh $string;
+		}
+	}
+
+	# Return 
+	return 1;
 }
 
 ## ------------------------------------------------------------
@@ -2970,12 +3081,20 @@ sub cmd_example {
 	$self->quiet(1);
 	my $nodes = 0;
 	my $edges = [];
+	my $inaligns = [];
 	my $features = 0;
 	my $title = "";
 	while (length($spec) > 0) {
 		if ($spec =~ s/^-title="(.*)"\s*//) {
 			# Title
 			$title = $1;
+		} elsif ($spec =~ s/^@([^()]*)\(([^,]+),([^,()]+)\)\s*//) {
+			my $oset = $2;
+			my $iset = $3;
+			push @$inaligns, "inalign "
+				. map_align_offset($2, -1)
+				. " $1 " 
+				. map_align_offset($3, -1);
 		} elsif ($spec =~ s/^(\S+)\s*//) {
 			# Parse node specification
 			my $nespec = $1;
@@ -3014,6 +3133,11 @@ sub cmd_example {
 	# Create edges
 	foreach my $edge (@$edges) {
 		$self->do($edge);
+	}
+
+	# Create inaligns
+	foreach my $inalign (@$inaligns) {
+		$self->do($inalign);
 	}
 
 	# Set layout of nodes
@@ -3089,15 +3213,9 @@ sub cmd_exit {
 	}
 
 	# Kill viewers
-	my $mypid = $$;
-	my $tokill = `ps ef -w | grep dtag-$mypid | grep -v grep | cut -f1 -d\' \'`;
-	chomp($tokill);
-	foreach my $pid (split(/(\sُ|\n)+/, $tokill)) {
-		if ($pid =~ /[0-9]+/) {
-			print "closing viewer $pid: ";
-			system("kill $pid");
-		}
-	}
+	my $cmd = "ps e -w | grep dtag-$$- | grep -v grep | cut -f1 -d\' \' | xargs -r kill";
+	print "Closing viewers with: $cmd\n";
+	system($cmd);
 
 	# Exit
 	exit();
@@ -3123,7 +3241,6 @@ sub cmd_find {
 	$cmd =~ s/^\s*//;
 	my $cmd2 = "$cmd";
 	my $parse = $self->query_parser()->FindExpression(\$cmd2);
-
 	print "dump: " . dumper($parse) . "\n"
 		if (! (defined($parse) && defined($parse->{'options'}) 
 			&& ! $parse->{'options'}{'dump'}));
@@ -3138,6 +3255,11 @@ sub cmd_find {
 	my $options = $parse->{'options'};
 	my $query = $parse->{'query'};
 	my $actions = $parse->{'actions'};
+	print "Actions: \n";
+	foreach my $action (@$actions) {
+		print "\t" . $action->print() . "\n";
+	}
+	print "\n";
 
 	my $timeout = $options->{'maxtime'} || "0";
 	my $matchout = $options->{'maxmatch'} || "0";
@@ -3266,7 +3388,7 @@ sub cmd_find {
 			foreach my $binding (@{$matches->{$f}}) {
 				# Select replace operation
 				$choice = "Y";
-				if ($ask) {
+				if ($ask && $action->ask()) {
 					# Update graph
 					++$match;
 					$self->{'fpsfile'} = $oldfpsfile;
@@ -3304,7 +3426,9 @@ sub cmd_find {
 					$self->{'fpsfile'} = undef;
 					next();
 				} elsif ($choice eq "A" || $choice eq "Y") {
-					$action->do($binding, $self, $ask);
+					$binding->{'$FILE'} = $graph->file();
+					$binding->{'$GRAPH'} = $f;
+					$action->do($graph, $binding, $self, $ask);
 				}
 
 				# Show result and wait for keypress
@@ -3327,6 +3451,11 @@ sub cmd_find {
 		. "\b" x length($progress)
 			if ($corpus && ! $self->quiet());
 	$| = $iostatus;
+
+	# Close actions
+	foreach my $action (@$actions) {
+		$action->close();
+	}
 
     # Print search statistics
 	$time += time();
@@ -3435,7 +3564,8 @@ sub cmd_gedit {
 	my $lineno = shift || 0;
 
 	my $file = $graph->file();
-	system("gedit +$lineno $file &");
+	$graph->var("gedit", 1);
+	system("gedit +" . (++$lineno) . " $file &");
 }
 
 ## ------------------------------------------------------------
@@ -3547,21 +3677,37 @@ sub print_cmd {
 sub cmd_inalign {
 	my $self = shift;
 	my $graph = shift;
-	my $from = shift;
-	my $to = shift;
+	my $from = map_align_offset(shift, $graph->offset());
+	my $to = map_align_offset(shift, $graph->offset());
+	my $label = shift;
+	$label = "" if (! defined($label));
 
 	# Store alignment edge in graph (in toggle fashion, so it is
 	# deleted if it already exists)
-	if (exists $graph->{'inalign'}{"$from $to"}) {
-		delete $graph->{'inalign'}{"$from $to"};
+	if (exists $graph->{'inalign'}{"$from $to $label"}) {
+		delete $graph->{'inalign'}{"$from $to $label"};
 	} else {
-		$graph->{'inalign'}{"$from $to"} = 1;
+		$graph->{'inalign'}{"$from $to $label"} = 1;
 	}
 
 	# Return
 	return 1;
 }
 
+sub map_align_offset {
+	my $spec = shift;
+	my $offset = shift;
+	my $result = "";
+	while (length($spec) > 0) {
+		if ($spec =~ s/^(-?[0-9]+)//) {
+			$result .= ($1 + $offset);
+		} else {
+			$spec =~ s/^([^0-9-]+)//g;
+			$result .= $1;
+		}
+	}
+	return $result;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_inline.pl
@@ -4559,9 +4705,9 @@ sub cmd_load_tag {
 					$n->var($var, $graph->xml_unquote($vars->{$var}));
 				}
 			}
-		} elsif ($line =~ /^\s*<!--\s*<inalign>([\d+]+)\s+([\d+]+)<\/inalign>\s*-->\s*$/) {
+		} elsif ($line =~ /^\s*<!--\s*<inalign>([\d+]+)\s+([\d+]+)\s+(\S*)<\/inalign>\s*-->\s*$/) {
 			# XML comment representing inalign edge
-			$self->cmd_inalign($graph, $1, $2);
+			$self->cmd_inalign($graph, $1, $2, $3);
 		} else {
 			# Comment line: insert as verbatim node
 			$n->input($line);
@@ -6317,6 +6463,10 @@ sub cmd_relhelp {
 	print "SEE ALSO:\n" .
 		join("", map {countname($relset, $_)} 
 			@$seealso) . "\n" if (@$seealso);
+	my $confusion = $self->{'confusion'}{$relsetname}{$sname} // [0];
+	my $confcount = shift(@$confusion);
+	print "CONFUSION ($confcount nodes):\n    "
+		. join(" ", @$confusion) . "\n";
 
 	# Examples
 	if (defined($ex)) {
@@ -6594,8 +6744,8 @@ sub cmd_relset2latex {
 	}
 		
 	# Provide default filename if missing
+	my $relsetname = $graph->relsetname();
 	if (! $filename) {
-		my $relsetname = $graph->relsetname();
 		$filename = "$relsetname-relations.tex";
 	}
 
@@ -6614,6 +6764,9 @@ sub cmd_relset2latex {
 	$ofile =~ s/.tex$//g;
 	$ofile .= "-overview.tex";
 	print $ofh "\n\n\t\\overviewfile{$ofile}\n\n";
+
+	# Open confusion table
+	my $confusion = $self->{'confusion'}{$relsetname};
 
 	# Visit nodes depth-first
 	my $visited = {};	
@@ -6642,7 +6795,7 @@ sub cmd_relset2latex {
 		
 		# Iterate over all relations
 		foreach my $relation (@$tovisit) {
-			$self->relset2latex_visit($graph, $ofh, $relset, $relation, $type, $visited, "");
+			$self->relset2latex_visit($graph, $ofh, $relset, $confusion, $relation, $type, $visited, "");
 		}
 	}
 
@@ -6660,6 +6813,7 @@ sub relset2latex_visit {
 	my $graph = shift;
 	my $ofh = shift;
 	my $relset = shift;
+	my $confusion = shift;
 	my $relname = shift;
 	my $type = shift;
 	my $visited = shift;
@@ -6726,6 +6880,14 @@ sub relset2latex_visit {
 		if (%$ichildren);
 	print $ofh "	\\related{" . join(" ", map {texrelref($_, $relset)} 
 		sorted_relations($relset, split(/\s+/, $see))) . "}%\n" if ($see);
+	my $confuse = [@{$confusion->{$sname} // []}];
+	print $ofh "	\\confusions{" . texrelref(shift(@$confuse), $relset)
+		. "}{" 
+		. shift(@$confuse) . "{";
+	foreach my $c (@$confuse) {
+		$c =~ /^([0-9]+)\%=(.*)$/;
+		print $ofh "\confuse{$1\\%}{$2}" if (defined($1) && defined($2));
+	}
 	$relset_cmdsummary .= "	\\cmdsummary{$indent}{" . texrelref($sname, $relset) . "}{"
 		. tex($sdescr) . "}%\n";
 	print $ofh "	\\begin{examples}\n"
@@ -6735,7 +6897,7 @@ sub relset2latex_visit {
 
 	# Visit child relations in original order
 	foreach my $subrel (sorted_relations($relset, keys(%$ichildren))) {
-		$self->relset2latex_visit($graph, $ofh, $relset, $subrel, $type, $visited,
+		$self->relset2latex_visit($graph, $ofh, $relset, $confusion, $subrel, $type, $visited,
 		$indent . $relset_indent);
 	}
 }
@@ -6743,6 +6905,7 @@ sub relset2latex_visit {
 sub texrel {
 	my $rel = shift;
 	my $texcmd = shift || "\\rel";
+	return tex($rel) if ($rel eq "");
 	return $texcmd . "{" . tex($rel) . "}";
 }
 
@@ -6750,6 +6913,7 @@ sub texrelref {
 	my $rel = shift;
 	my $relset = shift;
 	my $texcmd = shift || "\\relref";
+	return tex($rel) if ($rel eq "" || $rel eq "\\relax");
 	my $relation = $relset->{$rel};
 	my $lineno = $relation ? $relation->[$REL_LINENO] : undef;
 	return defined($lineno) 
@@ -6918,8 +7082,11 @@ sub cmd_return {
 	$graph->update();
 
 	# Print follow file
-	if ($self->{'viewer'}) {
-		$self->cmd_print($graph, undef, 1);
+	$self->cmd_print($graph, undef, 1)
+		if ($self->{'viewer'});
+	if ($graph->var("gedit")) {
+		my $lineno = $graph->var('imid') || 0;
+		$self->cmd_gedit($graph, $lineno);
 	}
 	return 1;
 }
@@ -7484,8 +7651,43 @@ sub cmd_save_matches {
 	open("MATCH", "> $file") 
 		|| return error("cannot open match-file for writing: $file");
 
+	# Find keys
+	my $matches = $self->{'matches'};
+	my $keyhash = {};
+	my $varkeys = {};
+	foreach my $file (keys(%$matches)) {
+		foreach my $match (@{$matches->{$file}}) {
+			map {$keyhash->{$_} = 1 if ($_ =~ /^\$/)} keys(%$match);
+			map {
+				if ($_ =~ /^\$/) {
+					my $k = $match->{'vars'}{$_} // "";
+					my $k0 = $varkeys->{$_} // $k;
+					warning("Key mismatch for key $_: $k vs. $k0")
+						if ($k ne $k0);
+					$varkeys->{$_} = $k;
+				}
+			} keys(%$match);
+		}
+	}
+	my @keylist = sort(keys(%$keyhash));
+
 	# Write MATCH file
-	print MATCH (DTAG::Interpreter::dumper($self->{'matches'}) . "\n");
+	print MATCH "\"file\"\t\"" 
+		. join("\"\t\"", map {
+			my $k = $varkeys->{$_}; 
+			$_ . ($k ne "" ? "@" . $k : "")} @keylist) . "\"\n";
+	foreach my $file (sort(keys(%$matches))) {
+		my $mgraph = $self->graph($self->gid2index($file));
+		my $filename = ($mgraph && $mgraph->file()) ? 
+			$mgraph->file() : $file;
+		#print "mgraph=$mgraph filename=$filename\n";
+		foreach my $match (@{$matches->{$file}}) {
+			my $varkeys = $match->{'vars'} // {};
+			print MATCH "\"$filename\"\t\""
+				. join("\"\t\"",
+					map {$match->{$_} // ""} @keylist) . "\"\n";
+		}
+	}
 
 	# Close file
 	close("MATCH");
@@ -7978,6 +8180,7 @@ sub cmd_show {
 	my $graph = shift;
 	my $args = (shift() || "") . " ";
 	my $option = shift() || "";
+	my $imid = shift();
 
 	# Calculate ranges to show
 	my ($imin, $imax) = (-1, -1);
@@ -8030,6 +8233,7 @@ sub cmd_show {
 	# Set new values of $imin and $imax in $graph, and redisplay
 	$graph->var('imin', $imin);
 	$graph->var('imax', $imax);
+	$graph->var('imid', defined($imid) ? $imid + $graph->offset() : $imin);
 	$graph->include(scalar(%$include) ? $include : undef);
 	$graph->exclude(scalar(%$exclude) ? $exclude : undef);
 	$self->cmd_return($graph);
@@ -8219,6 +8423,42 @@ sub cmd_style {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_tell.pl
+## ------------------------------------------------------------
+
+sub cmd_tell {
+	my $self = shift;
+	my $table = shift;
+	my $file = shift // "";
+
+	if (! defined($table)) {
+		$table = "$file";
+		$table =~ s/\s+//g;
+	}
+
+	# Get table list
+	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} // {};
+    my $tables = $self->{'tables'} = $self->{'tables'} // [];
+
+	# Close old table with given name, if it exists
+	$self->cmd_told($table);
+
+	# Open new filehandle and register as table
+	$file =~ s/^~/$ENV{HOME}/g;
+	open(my $fh, ">:encoding(utf8)", $file)
+		|| ( warning("cannot open file \"$file\" for writing") && return 1);
+	push @$tables, $fh;
+	$tablenames->{$table} = $fh;
+
+	# Info
+	inform("Opened file \"$file\" as stream \"$table\"")
+		if (! $self->quiet());
+
+	# Return
+	return 1;
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_text.pl
 ## ------------------------------------------------------------
 
@@ -8269,6 +8509,45 @@ sub cmd_title {
 	print "title=" . ($graph->var('title') || "UNTITLED") . "\n";
 	return 1;
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/cmd_told.pl
+## ------------------------------------------------------------
+
+sub cmd_told {
+	my $self = shift;
+	my $table = shift;
+	
+	# Find table data
+	my $tablenames = $self->{'tablenames'} = $self->{'tablenames'} // {};
+	my $tables = $self->{'tables'} = $self->{'tables'} // [];
+
+	# Find last defined table if $table is undefined
+	if (! $table) {
+		return 1 if ($#$tables < 0);
+		my $lfh = $tables->[$#$tables];
+		foreach my $t (keys(%$tablenames)) {
+			$table = $t if ($tablenames->{$t} eq $lfh);
+		}
+	}
+	return 1 if (! defined($table));
+
+	# Find file handle
+	my $fh = $self->{'tablenames'}{$table};
+
+	# Close table
+	if ($fh) {
+		$self->{'tables'} = [grep {$_ ne $fh} @{$self->{'tables'}}];
+		delete $self->{'tablenames'}{$table};
+		close($fh);
+		inform("Closing stream \"$table\"")
+			if (! $self->quiet());
+	}
+
+	# Return 1
+	return 1;
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/cmd_touch.pl
@@ -8541,6 +8820,7 @@ sub cmd_viewer {
 	# Call viewer on $fpsfile
 	my $viewcmd = "" . ($self->var('options')->{'viewer'} || 'gv $file &');
 	$viewcmd =~ s/\$file/$fpsfile/g;
+	print "opening viewer with \"$viewcmd\"\n" if ($self->debug());
 	system($viewcmd);
 
 	# Set follow file for current graph
@@ -8643,180 +8923,193 @@ sub compound_autonumber {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/debug.pl
+## ------------------------------------------------------------
+
+sub debug {
+	my $self = shift;
+	return $self->var("debug", @_);
+}
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/do.pl
 ## ------------------------------------------------------------
 
 
-	sub do {
-		my $self = shift;
-		my $cmdstr = shift;
-		my $history = shift;
-		my $success = undef;
+sub do {
+	my $self = shift;
+	my $cmdstr = shift;
+	my $history = shift;
+	my $success = undef;
 
-		# Log command
-		my $cmdlog = $self->var("cmdlog");
-		if (defined($cmdlog) && ! $self->quiet()) {
-			my $time = time() - ($self->var("cmdlog.time0") || 0);
-			print $cmdlog "$time:\t$cmdstr\n";
-		}
+	# Log command
+	my $cmdlog = $self->var("cmdlog");
+	if (defined($cmdlog) && ! $self->quiet()) {
+		my $time = time() - ($self->var("cmdlog.time0") || 0);
+		print $cmdlog "$time:\t$cmdstr\n";
+	}
 
-		# ---------- COMMANDS IN SORTED ORDER ----------
+	# ---------- COMMANDS IN SORTED ORDER ----------
 
-		# Find list of commands to process
-		my $commands = [];
-		if ($cmdstr =~ /^\s*macro/) {
-			# Macros are always interpreted as a single command
-			push @$commands, $cmdstr;
+	# Find list of commands to process
+	my $commands = [];
+	if ($cmdstr =~ /^\s*macro/) {
+		# Macros are always interpreted as a single command
+		push @$commands, $cmdstr;
+	} else {
+		if ($cmdstr eq "") {
+			push @$commands, "";
 		} else {
-			if ($cmdstr eq "") {
-				push @$commands, "";
-			} else {
-				push @$commands, split(";;", $cmdstr);
+			push @$commands, split(";;", $cmdstr);
+		}
+	}
+
+	# Process commands
+	my $todo = $self->var('todo');
+	my $cmd;
+	while (defined($cmd = shift(@$commands))) {
+		my $graph = $self->graph();
+		# Command ends with backslash
+		if ($cmd =~ /\\\s*$/) {
+			# Prepend command to following command
+			$cmd =~ s/\\\s*$//;
+			if (@$commands) {
+				$commands->[0] = $cmd . " " . $commands->[0];
+			} elsif (@$todo) {
+				$todo->[0] = $cmd . " " . $todo->[0];
 			}
+
+			# Goto next command in loop
+			next();
 		}
 
-		# Process commands
-		my $todo = $self->var('todo');
-		my $cmd;
-		while (defined($cmd = shift(@$commands))) {
-			my $graph = $self->graph();
-			# Command ends with backslash
-			if ($cmd =~ /\\\s*$/) {
-				# Prepend command to following command
-				$cmd =~ s/\\\s*$//;
-				if (@$commands) {
-					$commands->[0] = $cmd . " " . $commands->[0];
-				} elsif (@$todo) {
-					$todo->[0] = $cmd . " " . $todo->[0];
-				}
+		# Exit if $cmd is undefined (ctrl-D)
+		if (! defined($cmd)) {
+			$cmd = "exit";
+			print "\n";
+			$success = $self->cmd_exit($graph);
+		}
 
-				# Goto next command in loop
-				next();
-			}
+		# Ignore comments starting with '#'
+		$success = 1 
+			if ($cmd =~ /^\s*#.*$/);
 
-			# Exit if $cmd is undefined (ctrl-D)
-			if (! defined($cmd)) {
-				$cmd = "exit";
-				print "\n";
-				$success = $self->cmd_exit($graph);
-			}
+		# Update graph: <return>
+		$success = $self->cmd_return($graph)
+			if ($cmd =~ /^\s*$/);
 
-			# Ignore comments starting with '#'
-			$success = 1 
-				if ($cmd =~ /^\s*#.*$/);
+		# Replace: =$replacement
+		$success = $self->cmd_replace($graph, $1)
+			if ($cmd =~ /^=(.*)\s*$/);
 
-			# Update graph: <return>
-			$success = $self->cmd_return($graph)
-				if ($cmd =~ /^\s*$/);
+		# Unix shell: ! $cmd
+		$success = $self->cmd_shell($1)
+			if ($cmd =~ /^\s*!\s*(.*)$/);
 
-			# Replace: =$replacement
-			$success = $self->cmd_replace($graph, $1)
-				if ($cmd =~ /^=(.*)\s*$/);
+		# Help search relation command: ??$relation
+		$success = $self->cmd_relhelpsearch($graph, $1) 
+			if ($cmd =~ /^\s*\?\?(\S+)\s*$/);
 
-			# Unix shell: ! $cmd
-			$success = $self->cmd_shell($1)
-				if ($cmd =~ /^\s*!\s*(.*)$/);
+		# Help relation command: ?$relation
+		$success = $self->cmd_relhelp($graph, $2, $1) 
+			if ($cmd =~ /^\s*\?(!)?([^?]\S+)\s*$/);
 
-			# Help search relation command: ??$relation
-			$success = $self->cmd_relhelpsearch($graph, $1) 
-				if ($cmd =~ /^\s*\?\?(\S+)\s*$/);
+		# UNIX commands recognized by DTAG: ls mkdir rmdir rm pwd
+		$success = $self->cmd_shell($1)
+			if ($cmd =~ /^\s*((mkdir|rmdir|rm|pwd)(\s+.*)?)$/);
+		$success = $self->cmd_shell("ls --color " . ($1 || ""))
+			if ($cmd =~ /^\s*ls(\s+.*)?$/);
 
-			# Help relation command: ?$relation
-			$success = $self->cmd_relhelp($graph, $2, $1) 
-				if ($cmd =~ /^\s*\?(!)?([^?]\S+)\s*$/);
+		# Adiff: adiff $file1 ... $fileN
+		$success = $self->cmd_adiff($graph, $1)
+			if ($cmd =~ /^\s*adiff\s+(.*)$/);
 
-			# UNIX commands recognized by DTAG: ls mkdir rmdir rm pwd
-			$success = $self->cmd_shell($1)
-				if ($cmd =~ /^\s*((mkdir|rmdir|rm|pwd)(\s+.*)?)$/);
-			$success = $self->cmd_shell("ls --color " . ($1 || ""))
-				if ($cmd =~ /^\s*ls(\s+.*)?$/);
+		# Afilter: afilter $alignmentfile
+		$success = $self->cmd_afilter($graph, $1)
+			if ($cmd =~ /^\s*afilter\s+(\S+)\s*$/);
 
-			# Adiff: adiff $file1 ... $fileN
-			$success = $self->cmd_adiff($graph, $1)
-				if ($cmd =~ /^\s*adiff\s+(.*)$/);
+		# Alearn: alearn $options
+		$success = $self->cmd_alearn($graph, $1) 
+			if ($cmd =~ /^\s*alearn\s*(.*)\s*$/);
 
-			# Afilter: afilter $alignmentfile
-			$success = $self->cmd_afilter($graph, $1)
-				if ($cmd =~ /^\s*afilter\s+(\S+)\s*$/);
+		# Align: align $nodes $type $nodes
+		$success = $self->cmd_align($graph, $1, defined($3) ? $3 : "", $4)
+			if (UNIVERSAL::isa($self->graph(), 'DTAG::Alignment') && (
+				$cmd =~ /^\s*align\s+([a-z]?[0-9\.+-]+)\s+((\S+)\s+)?([a-z]?[\.0-9+-]+)\s*$/
+				|| $cmd =~ /^\s*([a-z]?[\.0-9+-]+)\s+((\S+)\s+)?([a-z]?[\.0-9+-]+)\s*$/));
 
-			# Alearn: alearn $options
-			$success = $self->cmd_alearn($graph, $1) 
-				if ($cmd =~ /^\s*alearn\s*(.*)\s*$/);
+		# Alignment: alignment $file1 ... $fileN
+		$success = $self->cmd_alignment($1)
+			if ($cmd =~ /^\s*alignment\s+(.*)$/);
 
-			# Align: align $nodes $type $nodes
-			$success = $self->cmd_align($graph, $1, defined($3) ? $3 : "", $4)
-				if (UNIVERSAL::isa($self->graph(), 'DTAG::Alignment') && (
-					$cmd =~ /^\s*align\s+([a-z]?[0-9\.+-]+)\s+((\S+)\s+)?([a-z]?[\.0-9+-]+)\s*$/
-					|| $cmd =~ /^\s*([a-z]?[\.0-9+-]+)\s+((\S+)\s+)?([a-z]?[\.0-9+-]+)\s*$/));
+		# Aparse: aparse $alignmentfile
+		$success = $self->cmd_aparse($graph, $1, "da-en")
+			if ($cmd =~ /^\s*aparse\s+(\S+)\s*$/);
+		$success = $self->cmd_aparse($graph, $2, $1)
+			if ($cmd =~ /^\s*aparse\s+-(\S+)\s+(\S+)\s*$/);
 
-			# Alignment: alignment $file1 ... $fileN
-			$success = $self->cmd_alignment($1)
-				if ($cmd =~ /^\s*alignment\s+(.*)$/);
+		# As.example: as.example [$vars] [$from] [$to]
+		$success = $self->cmd_as_example($graph, $2, $4)
+			if ($cmd =~ /^\s*as.example\s*(\s+([^-+0-9]\S+))?(\s+(.*))?\s*$/);
 
-			# Aparse: aparse $alignmentfile
-			$success = $self->cmd_aparse($graph, $1, "da-en")
-				if ($cmd =~ /^\s*aparse\s+(\S+)\s*$/);
-			$success = $self->cmd_aparse($graph, $2, $1)
-				if ($cmd =~ /^\s*aparse\s+-(\S+)\s+(\S+)\s*$/);
+		# Autoalign: autoalign $alexicon
+		$success = $self->cmd_autoalign($graph, $2)
+			if ($cmd =~ /^\s*autoalign\s*(\s+(.+))?\s*$/);
 
-			# As.example: as.example [$vars] [$from] [$to]
-			$success = $self->cmd_as_example($graph, $2, $4)
-				if ($cmd =~ /^\s*as.example\s*(\s+([^-+0-9]\S+))?(\s+(.*))?\s*$/);
+		# Autoevaluate: autoevaluate
+		# start autoevaluation using current graph as gold standard
+		$success = $self->cmd_autoevaluate($graph, $2)
+			if ($cmd =~ /^\s*autoevaluate(\s+(\S+))?\s*$/);
 
-			# Autoalign: autoalign $alexicon
-			$success = $self->cmd_autoalign($graph, $2)
-				if ($cmd =~ /^\s*autoalign\s*(\s+(.+))?\s*$/);
+		# Autogloss: autogloss [-atag $atagfile] [mapfile1] [mapfile2] ...
+		$success = $self->cmd_autogloss($graph, $2, $3) 
+			if ($cmd =~ /^\s*autogloss(\s+-atag\s+(\S*))?\s*(.*)$/);
 
-			# Autoevaluate: autoevaluate
-			# start autoevaluation using current graph as gold standard
-			$success = $self->cmd_autoevaluate($graph, $2)
-				if ($cmd =~ /^\s*autoevaluate(\s+(\S+))?\s*$/);
+		# Replace: autoreplace [-corpus] $rel1 $rel2 ...
+		$success = $self->cmd_autoreplace($graph, $1, $2)
+			if ($cmd =~ /^\s*autoreplace\s+(-corpus\s+)?(.*)$/);
 
-			# Autogloss: autogloss [-atag $atagfile] [mapfile1] [mapfile2] ...
-			$success = $self->cmd_autogloss($graph, $2, $3) 
-				if ($cmd =~ /^\s*autogloss(\s+-atag\s+(\S*))?\s*(.*)$/);
+		# Autotag: autotag $tag $filepattern
+		if ($cmd =~ /^\s*autotag\s+-pos\s+([+-]?[0-9]+)\s*$/) {
+			$self->autotag_setpos($graph, $1, -1);
+			$self->cmd_autotag_next($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+-offset\s+([+-])?([0-9]+)\s*$/) {
+			$self->cmd_offset($graph, $1, $2);
+			my $pos = ($graph->var('autotagpos') || 0) - 1;
+			$graph->var('autotagpos', $pos);
+			$self->cmd_autotag_next($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+-off\s*$/) {
+			$self->autotag_off($graph);
+			$success = 1;
+		} elsif ($cmd =~ /^\s*autotag\s+(\S+)(\s+(-matches))?(\s+(.*\S))?\s+$/) {
+			$success = $self->cmd_autotag($graph, $1, $5, $3);
+		}
 
-			# Replace: autoreplace [-corpus] $rel1 $rel2 ...
-			$success = $self->cmd_autoreplace($graph, $1, $2)
-				if ($cmd =~ /^\s*autoreplace\s+(-corpus\s+)?(.*)$/);
+		# Autotag assignment: "<value" and "pos<value"
+		if ($cmd =~ /^<(.*)$/) {
+			$success = $self->cmd_autotag_next($graph, $1)
+		} elsif ($cmd =~ /^([+-]?[0-9]+)<(.*)$/) {
+			$self->autotag_setpos($graph, $1);
+			$success = $self->cmd_autotag_next($graph, $2);
+		}
+		
+		# Change directory: cd $dir
+		$success = $self->cmd_cd($1)
+			if ($cmd =~ /^\s*cd\s+(.*\S)\s*$/);
 
-			# Autotag: autotag $tag $filepattern
-			if ($cmd =~ /^\s*autotag\s+-pos\s+([+-]?[0-9]+)\s*$/) {
-				$self->autotag_setpos($graph, $1, -1);
-				$self->cmd_autotag_next($graph);
-				$success = 1;
-			} elsif ($cmd =~ /^\s*autotag\s+-offset\s+([+-])?([0-9]+)\s*$/) {
-				$self->cmd_offset($graph, $1, $2);
-				my $pos = ($graph->var('autotagpos') || 0) - 1;
-				$graph->var('autotagpos', $pos);
-				$self->cmd_autotag_next($graph);
-				$success = 1;
-			} elsif ($cmd =~ /^\s*autotag\s+-off\s*$/) {
-				$self->autotag_off($graph);
-				$success = 1;
-			} elsif ($cmd =~ /^\s*autotag\s+(\S+)(\s+(-matches))?(\s+(.*\S))?\s+$/) {
-				$success = $self->cmd_autotag($graph, $1, $5, $3);
-			}
-
-			# Autotag assignment: "<value" and "pos<value"
-			if ($cmd =~ /^<(.*)$/) {
-				$success = $self->cmd_autotag_next($graph, $1)
-			} elsif ($cmd =~ /^([+-]?[0-9]+)<(.*)$/) {
-				$self->autotag_setpos($graph, $1);
-				$success = $self->cmd_autotag_next($graph, $2);
-			}
-			
-			# Change directory: cd $dir
-			$success = $self->cmd_cd($1)
-				if ($cmd =~ /^\s*cd\s+(.*\S)\s*$/);
-
-			# Clear: clear [-tag|-lex|-edges]
+		# Clear: clear [-tag|-lex|-edges]
 		$success = $self->cmd_clear($graph, $2) 
 			if ($cmd =~ /^\s*clear( (-lex|-tag|-edges))?\s*$/);
 
 		# Close: close
 		$success = $self->cmd_close($graph, $2)
 			if ($cmd =~ /^\s*close(\s+(-all))?\s*$/);
+
+		# Told: told [$name]
+		$success = $self->cmd_told($2, $3) 
+			if ($cmd =~ /^\s*told(@(\S+))?\s*$/);
 
 		# Command log: cmdlog $file
 		$success = $self->cmd_cmdlog($1)
@@ -8826,12 +9119,22 @@ sub compound_autonumber {
 		$success = $self->cmd_comment($graph, $1, $2) 
 			if ($cmd =~ /^\s*comment\s*([0-9]+)?\s+(.*)$/);
 
+		# Confusion: confusion [-add] $name $file...
+		$success = $self->cmd_confusion($2, $3, $1) 
+			if ($cmd =~ /\s*confusion(\s+-add)?\s+(\S+)\s+(.*)$/);
+
 		# Corpus: corpus $files
 		$success = $self->cmd_corpus($1) 
 			if ($cmd =~ /^\s*corpus(\s+.*)?$/);
 		$success = $self->cmd_corpus_apply($1) 
 			if ($cmd =~ /^\s*corpus-apply\s+(.*)$/);
 
+
+		# Debug 
+		if ($cmd =~ /^\s*debug\s*/) {
+			$self->{'debug'} = 1;
+			$success = 1;
+		}
 
 		# Delete node/edge/alignment edge: del $node[-$node] [$etype $node]
 		#	"del 12"
@@ -8869,8 +9172,8 @@ sub compound_autonumber {
 				$cmd =~ /^\s*edel\s+([+-]?[0-9]+)\s+(\S+)\s+([+-]?[0-9]+)\s*$/));
 
 		# Echo: echo $string
-		$success = $self->cmd_echo($graph, $1)
-			if ($cmd =~ /^\s*echo\s+(.*)$/);
+		$success = $self->cmd_echo($2, $3)
+			if ($cmd =~ /^\s*echo(@(\S+))?\s(.*)$/);
 
 		# Edges: edges $node
 		$success = $self->cmd_edges($graph, $1)
@@ -8943,7 +9246,9 @@ sub compound_autonumber {
 			if ($cmd =~ /^\s*help\s*(\S*)\s*$/);
 
 		# Inalign: inalign 
-		$success = $self->cmd_inalign($graph, $1, $2)
+		$success = $self->cmd_inalign($graph, $1, $3, $2)
+			if ($cmd =~ /^\s*inalign\s+([0-9+]+)\s+(\S+)\s+([0-9+]+)\s*$/);
+		$success = $self->cmd_inalign($graph, $1, $2, "")
 			if ($cmd =~ /^\s*inalign\s+([0-9+]+)\s+([0-9+]+)\s*$/);
 
 		# Inline: inline $pos $dtag_code
@@ -9062,11 +9367,14 @@ sub compound_autonumber {
 			$success = $self->cmd_show($graph, " 0");
 		}
 		
-	
 		if (UNIVERSAL::isa($graph, 'DTAG::Graph') &&
 			$cmd =~ /^\s*oshow(\s+[+-]?[0-9]+)\s*$/) {
 			my $offset = $1;
 		}
+
+		# Tell: tell [-name=$name] $file
+		$success = $self->cmd_tell($2, $3) 
+			if ($cmd =~ /^\s*tell(@(\S+))?\s+(\S+)\s*$/);
 
 		# parse2dtag: parse2dtag $ifile $ofile
 		$success = $self->cmd_parse2dtag($1, $2) 
@@ -9172,6 +9480,10 @@ sub compound_autonumber {
 		# Style: style $id $options
 		$success = $self->cmd_style($graph, $1, $3) 
 			if ($cmd =~ /^\s*style\s+(\S+)(\s+(.+))?\s*$/);
+
+		# Table: table [-name=$name] $string
+		$success = $self->cmd_table($2, $3)
+			if ($cmd =~ /^\s*table(\s+-name=(\S+))?\s(.*)$/);
 
 		# Text: text $i1 $i2
 		$success = $self->cmd_text($graph, $2, $4, 0)
@@ -9491,7 +9803,6 @@ sub goto_graph {
 sub goto_match {
 	my $self = shift;
 	my $match = shift;
-	
 
 	# Find file and binding, and exit if non-existent
 	$match = max(1, $match);
@@ -9509,25 +9820,21 @@ sub goto_match {
 		$graph = $self->graph();
 	}
 
-	print "*1*\n";
 	# Find position of first node in $binding
 	my $min = 1e100;
-	grep {$min = $binding->{$_} if ((substr($_, 0, 1) eq '$')
+	grep {$min = $binding->{$_} if ($_ =~ /^[0-9]+$/
 		&& ($binding->{$_} < $min))} keys(%$binding);
-	print "*2*\n";
 
 	# Goto this position
 	if (UNIVERSAL::isa($graph, "DTAG::Graph")) {
-		$self->cmd_show($graph, $min - $self->var('goto_context'));
+		$self->cmd_show($graph, $min - $self->var('goto_context'), "", $min);
 	} elsif (UNIVERSAL::isa($graph, "DTAG::Alignment")) {
 		$self->cmd_show_align($graph, 0);
 	}
-	print "*3*\n";
 
 	# Print new match
 	print $self->print_match($self->{'match'}, $file, $binding)
 		unless ($self->quiet());
-	print "*4*\n";
 
 	# Return
 	return;
@@ -9694,7 +10001,8 @@ sub loop {
 		# Process line
 		$line = "exit" if (! defined($line));
 		$self->nextcmd("");
-		$self->do($line);
+		eval { $self->do($line) };
+		warn $@ if $@;
 	}
 
 	# Decrease the loop count
@@ -9795,7 +10103,7 @@ sub print {
 	my $message = shift;
 
 	# Print message
-	print $message
+	print encode_utf8($message)
 		if (! ($level eq "info" && $self->quiet()));
 }
 
@@ -9819,7 +10127,10 @@ sub print_match {
 
 	# Find goto position
 	my $position = "1e100";
-	grep {$position = $binding->{$_} if ($binding->{$_} < $position)} @vars;
+	grep {
+		my $n = $binding->{$_};
+		$position = $n if ($n =~ /^[0-9]+$/ && $n < $position)
+	} @vars;
 	$position = max(0, $position - ($self->var('goto_context') || 0));
 
 	# Print match
@@ -10632,6 +10943,26 @@ sub signal_handler {
 }
 
 ## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/strip_relation.pl
+## ------------------------------------------------------------
+
+sub strip_relation {
+	my $type = shift;
+    $type =~ s/^[:;+]//g;
+	$type =~ s/^[¹²³^]+//g;
+	$type =~ s/^\¤//g;
+	$type =~ s/[¹²³^]+$//g;
+	$type =~ s/\#$//g;
+	$type =~ s/^@//g;
+	$type =~ s/\/.*$//g;
+	$type =~ s/\*//g;
+	$type =~ s/[()]//g;
+	$type =~ s/\/ATTR[0-9]+//g;
+	return $type;
+}
+
+
+## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/term.pl
 ## ------------------------------------------------------------
 
@@ -10849,12 +11180,16 @@ sub new {
 	my $range = shift || [1,1];
 	my $dir = shift || 1;
 
-	# Parse range
-	my $dmin = $range->[0] || "1";
-	my $dmax = $range->[1] || "1";
+	# Find dmin and dmax
+	my $dmin = 1e100;
+	my $dmax = 0;
+	foreach my $r (@$range) {
+		$dmin = $r->[0] if ($dmin > $r->[0]);
+		$dmax = $r->[1] if ($dmax < $r->[1]);
+	}
 
 	# Create object
-    my $self = {'args' => [$node1, $node2, $dmin, $dmax, $dir]};
+    my $self = {'args' => [$node1, $node2, $range, $dir, $dmin, $dmax]};
     bless($self, $class);
     return $self;
 }
@@ -10873,8 +11208,8 @@ sub next {
     # variable U and bound variable B.
 	my $Barg = ($U eq $self->{'args'}[0]) ? 1 : 0;
     my $B = $self->{'args'}[$Barg];
-    my $Bval = $self->var($bindings, $bind, $B);
-	my $dmax = $self->{'args'}[3];
+    my $Bval = $self->varbind($bindings, $bind, $B);
+	my $dmax = $self->{'args'}[5];
 
     if ($bind->{$U} <= $Bval - $dmax) {
         $bind->{$U} = ($Bval - $dmax < 0 ? 0 : $Bval - $dmax);
@@ -10896,14 +11231,31 @@ sub match {
 	my $bindings = shift;
 	my $bind = shift;
 
-	my $n0 = $self->var($bindings, $bind, $self->{'args'}[0]);
-	my $n1 = $self->var($bindings, $bind, $self->{'args'}[1]);
-	my $dmin = $self->{'args'}[2] || 1;
-	my $dmax = $self->{'args'}[3] || 1;
+	my $n0 = $self->varbind($bindings, $bind, $self->{'args'}[0]);
+	my $n1 = $self->varbind($bindings, $bind, $self->{'args'}[1]);
+	my $range = $self->{'args'}[2];
 
-	my $dist = ($n1 - $n0) * ($self->{'args'}[4] || 1);
-	#print "dist=$dist dmin=$dmin dmax=$dmax\n";
-	return ($dist >= $dmin && $dist <= $dmax) ? 1 : 0;
+	my $dist = ($n1 - $n0) * ($self->{'args'}[3] || 1);
+	foreach my $r (@$range) {
+		my ($dmin, $dmax) = @$r;
+		return 1 if ($dist >= $dmin && $dist <= $dmax);
+	}
+	return 0;
+}
+
+
+sub pprint {
+	my $self = shift;
+	my ($n0, $n1, $range, $dir) = @{$self->{'args'}};
+	my $rangestr = join(",",
+		map {$_->[0] == $_->[1] ? $_->[0] : $_->[0] . ".." . $_->[1]}
+			@$range);
+	$rangestr = "" if ($rangestr eq "1");
+	return "(" . $n0
+		. ($dir > 0 
+			? " <" . $rangestr . "< "
+			: " >" . $rangestr . "> ")
+		. $n1 . ")";
 }
 
 ## ------------------------------------------------------------
@@ -11076,8 +11428,17 @@ sub new {
     return $self;
 }
 
+sub ask {
+	return 1;
+}
 
+sub close {
+}
 
+sub print {
+	my $self = shift;
+	return "" . $self;
+}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindActionDTAG.pl
@@ -11087,24 +11448,14 @@ package FindActionDTAG;
 @FindActionDTAG::ISA = qw(FindAction);
 
 sub commands {
-	my $self = shift;
-	my $binding = shift;
+	my ($self, $graph, $binding) = @_;
 
    	# Replace variables with bindings
 	my $cmds = [];
-	foreach my $op (@{$self->{'args'}}) {
-		my $cmd = "" . $op;
-		foreach my $var (keys(%$binding)) {
-			my $val = $binding->{$var};
-			my $nvar;
-			if ($var =~ /^\$(.*)$/) {
-				$nvar = $1;
-			} else {
-				$nvar = "_$var";
-			}
-			$var = '\\' . $var;
-			$cmd =~ s/\$$nvar\b/$val/g;
-			$cmd =~ s/\${$nvar}/$val/g;
+	foreach my $oplist (@{$self->{'args'}}) {
+		my $cmd = "";
+		foreach my $op (@$oplist) {
+			$cmd .= $op->value($graph, $binding);
 		}
 		push @$cmds, $cmd;
 	}
@@ -11112,19 +11463,24 @@ sub commands {
 }
 
 sub string {
-	my $self = shift;
-	my $binding = shift;
-	return join("; ", @{$self->commands($binding)});
+	my ($self, $graph, $binding) = @_;
+	return join("; ", @{$self->commands($graph, $binding)});
 }
 
 sub do {
-	my $self = shift;
-	my $binding = shift;
-	my $interpreter = shift;
-
-	foreach my $cmd (@{$self->commands($binding)}) {
+	my ($self, $graph, $binding, $interpreter) = @_;
+	foreach my $cmd (@{$self->commands($graph, $binding)}) {
 		$interpreter->do($cmd);
 	}
+}
+
+sub print {
+	my $self = shift;
+	my @cmds = ();
+	foreach my $cmd (@{$self->{'args'}}) {
+		push @cmds, join(",", @$cmd);
+	}
+	return join("§", @cmds);
 }
 
 ## ------------------------------------------------------------
@@ -11159,6 +11515,9 @@ sub do {
 package FindEXIST;
 @FindEXIST::ISA = qw(FindOp);
 
+#sub new {
+#}
+
 sub match {
 	my $self = shift;
 	my $graph = shift;
@@ -11175,8 +11534,13 @@ sub match {
 
 	# Fix bindings in $bind and $bindings
 	my $newbindings = {};
+	my $newvarbindings = {};
+	my $varbindings = $bindings->{'vars'};
 	map {$newbindings->{$_} = $bindings->{$_}} keys(%$bindings);
 	map {$newbindings->{$_} = $bind->{$_}} keys(%$bind);
+	map {$newvarbindings->{$_} = $varbindings->{$_}}
+		keys(%$varbindings);
+	$newbindings->{'vars'} = $newvarbindings;
 	delete $newbindings->{$var};
 
 	# Find all solutions to $cond with $newbindings
@@ -11226,7 +11590,8 @@ sub dnf {
 		}
 
 		# Resulting conjunct
-		my $exist = FindEXIST->new([$var, $self->varkey()], FindAND->new(@inner));
+		my $exist = FindEXIST->new([$var, $self->varkey()], 
+			FindAND->new(@inner));
 		$exist->{'dnf'} = 1;
 		if ($neg) {
 			# Operator: not exists
@@ -11295,8 +11660,8 @@ sub match {
 	my $keygraph = $self->keygraph($graph, $bindings, $var1, $var2);
 	
 	# Nodes
-	my $in = $self->var($bindings, $bind, $var1);
-	my $out = $self->var($bindings, $bind, $var2);
+	my $in = $self->varbind($bindings, $bind, $var1);
+	my $out = $self->varbind($bindings, $bind, $var2);
 	my $relpattern = $self->{'args'}[2];
 
 	# Check whether there exists an edge from node $in to $out with
@@ -11324,8 +11689,8 @@ sub next {
 	return undef if ($self->{'neg'});
 
 	# Find suggested in and out node
-	my $in = $self->var($bindings, $bind, $var1);
-	my $out = $self->var($bindings, $bind, $var2);
+	my $in = $self->varbind($bindings, $bind, $var1);
+	my $out = $self->varbind($bindings, $bind, $var2);
 	
 	# Determine unbound variable
 	my $relpattern = $self->{'args'}[2];
@@ -11368,52 +11733,6 @@ sub next {
 	}
 }
 
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/FindOps/FindGT.pl
-## ------------------------------------------------------------
-
-package FindGT;
-@FindGT::ISA = qw(FindOp);
-
-sub vars {
-	return [0,1];
-}
-
-sub match {
-	my $self = shift;
-	my $graph = shift;
-	my $bindings = shift;
-	my $bind = shift;
-
-	my $n0 = $self->var($bindings, $bind, $self->{'args'}[0]);
-	my $n1 = $self->var($bindings, $bind, $self->{'args'}[1]);
-
-	return ($n0 > $n1) ? 1 : 0;
-}
-
-## ------------------------------------------------------------
-##  auto-inserted from: Interpreter/FindOps/FindLT.pl
-## ------------------------------------------------------------
-
-package FindLT;
-@FindLT::ISA = qw(FindOp);
-
-sub vars {
-	return [0,1];
-}
-
-sub match {
-	my $self = shift;
-	my $graph = shift;
-	my $bindings = shift;
-	my $bind = shift;
-
-	my $n0 = $self->var($bindings, $bind, $self->{'args'}[0]);
-	my $n1 = $self->var($bindings, $bind, $self->{'args'}[1]);
-
-	return ($n0 < $n1) ? 1 : 0;
-}
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindMatch.pl
@@ -11468,7 +11787,7 @@ sub match {
 	my $string = shift;
 	my $typespec = $self->{'args'}[0];
 	my $relset = $graph->relset($self->{'args'}[1]);
-	return $typespec->match($graph, $string, $relset);
+	return $typespec->match($graph, DTAG::Interpreter::strip_relation($string), $relset);
 }
 
 sub pprint {
@@ -11585,7 +11904,7 @@ package FindNumberGT;
 @FindNumberGT::ISA = qw(FindOp);
 
 use overload
-    '""' => \& print;
+    '""' => \& pprint;
 
 sub unbound {
 	my $self = shift;
@@ -11610,8 +11929,8 @@ sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return "(" . ($self->utf8print() 
-		? $args->[0] . ($self->{'neg'} ? " ≤ " : " > ") . $args->[1]
-		: $args->[0] . ($self->{'neg'} ? " <= " : " > ") . $args->[1])
+		? $args->[0]->pprint() . ($self->{'neg'} ? " ≤ " : " > ") . $args->[1]
+		: $args->[0]->pprint() . ($self->{'neg'} ? " <= " : " > ") . $args->[1])
 		. ")";
 }
 
@@ -11623,7 +11942,7 @@ package FindNumberLT;
 @FindNumberLT::ISA = qw(FindOp);
 
 use overload
-    '""' => \& print;
+    '""' => \& pprint;
 
 sub unbound {
 	my $self = shift;
@@ -11639,8 +11958,15 @@ sub match {
 	my $bindings = shift;
 	my $bind = shift || {};
 
-	my $val1 = $self->{'args'}[0]->nvalue($graph, $bindings, $bind);
+	my $arg0 = $self->{'args'}[0];
+	my $val1 = $arg0->nvalue($graph, $bindings, $bind);
 	my $val2 = $self->{'args'}[1]->nvalue($graph, $bindings, $bind);
+    #print "self=" . DTAG::Interpreter::dumper($self) . "\n";
+    #print "arg0=" . DTAG::Interpreter::dumper($arg0) . "\n";
+    #print "val1=" . DTAG::Interpreter::dumper($val1) . "\n";
+    #print "val2=" . DTAG::Interpreter::dumper($val2) . "\n";
+	#print "$val1 < $val2\n";
+
 	return defined($val1) && defined($val2) && ($val1 < $val2);
 }
 
@@ -11648,8 +11974,8 @@ sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
 	return "(" . ($self->utf8print() 
-		? $args->[0] . ($self->{'neg'} ? " ≥ " : " < ") . $args->[1]
-		: $args->[0] . ($self->{'neg'} ? " >= " : " < ") . $args->[1])
+		? $args->[0]->pprint() . ($self->{'neg'} ? " ≥ " : " < ") . $args->[1]
+		: $args->[0]->pprint() . ($self->{'neg'} ? " >= " : " < ") . $args->[1])
 		. ")";
 }
 
@@ -11672,6 +11998,11 @@ sub unbound {
 sub nvalue {
 	my $self = shift;
 	return $self->{'args'}[0];	
+}
+
+sub value {
+	my ($self, $graph, $bindings, $bind) = @_;
+	return $self->nvalue($graph, $bindings, $bind);
 }
 
 sub pprint {
@@ -11714,9 +12045,15 @@ sub nvalue {
 
 	# Variables
 	my $nodevar = $self->{'args'}[0];
-	return $self->var($bindings, $bind, $nodevar);
-}
+	my $value = $self->varbind($bindings, $bind, $nodevar);
 
+	#print "  self=" . DTAG::Interpreter::dumper($self) . "\n";
+	#print "  bindings=" . DTAG::Interpreter::dumper($bindings) . "\n";
+	#print "  bind=" . DTAG::Interpreter::dumper($bind) . "\n";
+	#print "  nodevar=" . DTAG::Interpreter::dumper($nodevar) . "\n";
+	#print "  value=" . DTAG::Interpreter::dumper($value) . "\n";
+	return $value // -1;
+}
 
 
 ## ------------------------------------------------------------
@@ -11726,6 +12063,83 @@ sub nvalue {
 package FindNumberValueNodeFeature;
 @FindNumberValueNodeFeature::ISA = qw(FindNumberValue);
 
+sub vars {
+	return [0];
+}
+
+sub unbound {
+	my $self = shift;
+	my $unbound = shift;
+	$unbound->{$self->{'args'}[0]} = 1;
+}
+
+sub pprint {
+	my $self = shift;
+	my $args = $self->{'args'};
+	my $node = $args->[0];
+	my $feat = $args->[1];
+	return $self->{'args'}[0] . "[" . $feat . "]";
+}
+
+sub nvalue {
+	my $self = shift;
+	my $graph = shift;
+	my $bindings = shift;
+	my $bind = shift;
+
+	# Variables
+	my $nodevar = $self->{'args'}[0];
+	my $feat = $self->{'args'}[1];
+	my $nodeid = $self->varbind($bindings, $bind, $nodevar);
+	my $node = $graph->node($nodeid);
+	my $value = defined($node) ? ($node->var($feat) // "") : "NA";
+
+	# Check for valid number
+	if ($value =~ /^-?\d+\.?\d*$/) {
+		return $value;
+	} else {
+		DTAG::Interpreter::warning("non-number in $nodeid" . "[$feat]: using 0 instead");
+		return 0;
+	}
+}
+
+
+
+
+
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/FindOps/FindNumberValueQuery.pl
+## ------------------------------------------------------------
+
+package FindNumberValueQuery;
+@FindNumberValueQuery::ISA = qw(FindNumberValue);
+
+use overload
+    '""' => \& pprint;
+
+sub unbound {
+	my $self = shift;
+	my $unbound = shift;
+	$self->{'args'}[0]->unbound($unbound);
+}
+
+sub pprint {
+	my $self = shift;
+	my $args = $self->{'args'};
+	my $node = $args->[0];
+	return "is(" . $self->{'args'}[0]->pprint() . ")";
+}
+
+sub nvalue {
+	my $self = shift;
+	my $graph = shift;
+	my $bindings = shift;
+	my $bind = shift;
+
+	my $true = $self->{'args'}[0]->match($graph, $bindings, $bind);
+	return $true ? 1 : 0;
+}
 
 
 ## ------------------------------------------------------------
@@ -11935,17 +12349,6 @@ sub match {
 	return undef;
 }
 
-sub var {
-	my $self = shift;
-	my $bindings = shift;
-	my $bind = shift;
-	my $var = shift;
-
-	return (exists $bind->{$var}) 
-		? $bind->{$var} 
-		: $bindings->{$var};
-}
-
 sub vars {
 	# Return no variables by default
 	return [];
@@ -12048,12 +12451,15 @@ sub _pprint {
 sub keygraph {
 	my ($self, $graph, $bindings) = (shift, shift, shift);
 	my @vars = @_;
-	my $key = $self->varkey($bindings, shift(@vars));
+	my $var1 = shift(@vars);
+	my $key = $self->varkey($bindings, @vars);
 	foreach my $var (@vars) {
 		my $nkey = $self->varkey($bindings, $var);
 		if ($key ne $nkey) {
-			$self->error($graph, "Variables " . join(" ", @vars) 
-				. " must have the same key, but didn't");
+			$self->error($graph, "Variables " . join(" ", $var1, @vars) 
+				. " must have the same key, but didn't: "
+				. $var1 . "@" . $key . ","
+				. $var . "@" . $nkey);
 		}
 	}
 	return $graph->graph($key);
@@ -12061,7 +12467,7 @@ sub keygraph {
 
 sub varkey {
 	my ($self, $bindings, $var) = @_;
-	my $key = $bindings->{'vars'}{$var};
+	my $key = $bindings->{'vars'}{$var // ""};
 	return defined($key) ? $key : "";
 }
 
@@ -12072,6 +12478,18 @@ sub error {
 	$graph->interpreter()->abort(1);
 	DTAG::Interpreter::error($error . " in " . $self);
 }
+
+sub varbind {
+    my $self = shift;
+    my $bindings = shift;
+    my $bind = shift;
+    my $var = shift;
+
+    return (defined($bind) && exists $bind->{$var})
+        ? $bind->{$var}
+        : $bindings->{$var};
+}
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindStringEQ.pl
@@ -12101,8 +12519,9 @@ sub match {
 
 sub pprint {
 	my $self = shift;
-	my $args = $self->{'args'};
-	return $args->[0] . ($self->{'neg'} ? " ne " : " eq ") . $args->[1];
+	my $args = $self->{'args'}; return "(" 
+		. $args->[0]->pprint() . ($self->{'neg'} ? " ne " : " eq ") 
+		. $args->[1]->pprint() . ")";
 }
 
 ## ------------------------------------------------------------
@@ -12161,10 +12580,76 @@ sub svalue {
 	return $self->{'args'}[0];	
 }
 
+sub value {
+    my ($self, $graph, $bindings, $bind) = @_;
+	return $self->svalue($graph, $bindings, $bind);
+}
+
 sub pprint {
 	my $self = shift;
 	return '"' . $self->{'args'}[0] . '"';
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/FindOps/FindStringValueEtype.pl
+## ------------------------------------------------------------
+
+package FindStringValueEtype;
+@FindStringValueEtype::ISA = qw(FindStringValue);
+
+use overload
+    '""' => \& pprint;
+
+sub pprint {
+	my $self = shift;
+	my ($in, $out, $relpattern) = @{$self->{'args'}};
+	return "etypes(" . $in . (defined($relpattern) ? 
+		" " . $relpattern->pprint() : ",")
+		. " " . $out . ")";
+}
+
+sub svalue {
+	my $self = shift;
+	my $graph = shift;
+	my $bindings = shift;
+	my $bind = shift;
+
+	# Variables
+	my ($invar, $outvar, $relpattern) = @{$self->{'args'}};
+	return undef if (! (defined($invar) && defined($outvar)));
+
+	# Find key graph
+	my $keygraph = $self->keygraph($graph, $bindings, $invar);
+	return undef if (! defined($keygraph));
+
+	# Find node id and node
+	my $inid = $self->varbind($bindings, $bind, $invar);
+    my $outid = $self->varbind($bindings, $bind, $outvar);
+	return undef if (! (defined($inid) && defined($outid)));
+
+	# Find node
+	my $innode = $keygraph->node($inid);
+	return undef if (! defined($innode));
+	
+	# Find edge types for all matching edges
+	my @etypes = ();
+	foreach my $e (@{$innode->in()}) {
+		my $etype = $e->type();
+		push @etypes, DTAG::Interpreter::strip_relation($etype)
+			if ($e->out() == $outid 
+				&& ((! defined($relpattern)) 
+					|| $relpattern->match($keygraph, $etype)));
+	}
+
+	# Find value
+	return join(" ", @etypes);
+}
+
+
+sub ask { 
+	return 0; 
+} 
+
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/FindOps/FindStringValueNodeFeature.pl
@@ -12250,7 +12735,7 @@ sub new {
 
 sub print {
 	my $self = shift;
-	return "FindType";
+	return $self->pprint();
 }
 
 ## ------------------------------------------------------------
@@ -12318,7 +12803,7 @@ sub match {
 sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
-    return "(" . join("-", @$args) . ")";
+    return "(" . join("-", map {$_->pprint()} @$args) . ")";
 }
 
 
@@ -12343,7 +12828,7 @@ sub match {
 sub pprint {
 	my $self = shift;
 	my $args = $self->{'args'};
-	return '(-' . $args->[0] . ')';
+	return '(-' . $args->[0]->pprint() . ')';
 }
 
 
@@ -12375,7 +12860,7 @@ sub match {
 sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
-    return "(" . join("|", @$args) . ")";
+    return "(" . join("|", map {$_->pprint()} @$args) . ")";
 }
 
 
@@ -12407,7 +12892,7 @@ sub match {
 sub pprint {
     my $self = shift;
     my $args = $self->{'args'};
-    return "(" . join("+", @$args) . ")";
+    return "(" . join("+", map {$_->pprint()} @$args) . ")";
 }
 
 
@@ -12445,19 +12930,6 @@ sub clone {
 sub value {
 	return undef;
 }
-
-sub var {
-    my $self = shift;
-    my $bindings = shift;
-    my $bind = shift;
-    my $var = shift;
-
-    return (exists $bind->{$var})
-        ? $bind->{$var}
-        : $bindings->{$var};
-}
-
-
 
 
 1;

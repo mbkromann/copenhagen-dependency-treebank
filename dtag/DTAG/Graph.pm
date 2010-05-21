@@ -1908,32 +1908,6 @@ sub postscript {
 	my $ehide = $self->layout($interpreter, 'ehide') || $sub0;
 	my $pos = $self->layout($interpreter, 'pos') || $sub0;
 
-	# Create alignments 
-	my $forced_edget = {};
-	my $forced_edgeb = {};
-	my $alignments = "% Alignments\n/alignments [\n";
-	foreach my $inalign (sort(keys(%{$self->{'inalign'}}))) {
-		# Interpret $inalign edge
-		my ($from, $to, $label) = split(/\s+/, $inalign);
-		$label = "" if (! defined($label));
-		my @fromlist = split(/\+/, $from);
-		my @tolist = split(/\+/, $to);
-
-		# Create PostScript code
-		$alignments .= "\t[" 
-			. ($#fromlist == 0 ? $fromlist[0] : 
-				"[" . join(" ", @fromlist) . "]")
-			. " "
-			. ($#tolist == 0 ? $tolist[0] : 
-				"[" . join(" ", @tolist) . "]") 
-			. " ($label)]\n";
-
-		# From nodes have forced edget edges, to nodes have forced edgeb edges
-		map {$forced_edget->{$_} = 1} @fromlist;
-		map {$forced_edgeb->{$_} = 1} @tolist;
-	}
-	$alignments .= "] def\n\n";
-
 	# Find possible variables to include in the graph
 	my $regexps = [split(/\|/, 
 		$self->layout($interpreter, 'vars') || "/stream:.*/|msd|gloss")];
@@ -2000,6 +1974,37 @@ sub postscript {
 	#print "sorted: " . join(" ", @sorted) . "\n";
 	return DTAG::Interpreter::error("illegal number of variables: $L") 
 		if ($L == 0);
+
+	# Create alignments 
+	my $forced_edget = {};
+	my $forced_edgeb = {};
+	my $alignments = "% Alignments\n/alignments [\n";
+	foreach my $inalign (sort(keys(%{$self->{'inalign'}}))) {
+		# Interpret $inalign edge
+		my ($from, $to, $label) = split(/\s+/, $inalign);
+		$label = "" if (! defined($label));
+		my $keep = 1;
+		my @fromlist = map {my $inode = $nodes->{$_}; 
+			defined($inode) ? $inode : ($keep = 0)}
+				split(/\+/, $from);
+		my @tolist = map {my $inode = $nodes->{$_}; 
+			defined($inode) ? $inode : ($keep = 0)}
+				split(/\+/, $to);
+
+		# Create PostScript code
+		$alignments .= "\t[" 
+			. ($#fromlist == 0 ? $fromlist[0] : 
+				"[" . join(" ", @fromlist) . "]")
+			. " "
+			. ($#tolist == 0 ? $tolist[0] : 
+				"[" . join(" ", @tolist) . "]") 
+			. " ($label)]\n";
+
+		# From nodes have forced edget edges, to nodes have forced edgeb edges
+		map {$forced_edget->{$_} = 1} @fromlist;
+		map {$forced_edgeb->{$_} = 1} @tolist;
+	}
+	$alignments .= "] def\n\n";
 
 	# Print words and edges
 	foreach my $n (sort {$a <=> $b} keys(%$nodes)) {
