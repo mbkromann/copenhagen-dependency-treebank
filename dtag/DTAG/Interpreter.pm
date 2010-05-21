@@ -12073,7 +12073,7 @@ sub nvalue {
 	#print "  bind=" . DTAG::Interpreter::dumper($bind) . "\n";
 	#print "  nodevar=" . DTAG::Interpreter::dumper($nodevar) . "\n";
 	#print "  value=" . DTAG::Interpreter::dumper($value) . "\n";
-	return $value // -1;
+	return defined($value) ? $value : -1;
 }
 
 
@@ -12113,7 +12113,8 @@ sub nvalue {
 	my $feat = $self->{'args'}[1];
 	my $nodeid = $self->varbind($bindings, $bind, $nodevar);
 	my $node = $graph->node($nodeid);
-	my $value = defined($node) ? ($node->var($feat) // "") : "NA";
+	my $value = defined($node) ? $node->var($feat) : "NA";
+	$value = "" if (! defined($value);
 
 	# Check for valid number
 	if ($value =~ /^-?\d+\.?\d*$/) {
@@ -12488,7 +12489,7 @@ sub keygraph {
 
 sub varkey {
 	my ($self, $bindings, $var) = @_;
-	my $key = $bindings->{'vars'}{$var // ""};
+	my $key = $bindings->{'vars'}{defined($var) ? $var : ""};
 	return defined($key) ? $key : "";
 }
 
