@@ -67,7 +67,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">dl</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Gemüsebouillon</W>
 <W lemma="," msd="XP" tag="$," in="-26:pnct" out="">,</W>
-<W lemma="2" msd="AC" tag="CARD" in="-27:conj" out="5:nobj|1:attr|4:attr">2</W>
+<W lemma="2" msd="AC" tag="CARD" in="-27:conj" out="1:attr|4:attr|5:nobj">2</W>
 <W lemma="dünnen" msd="VA" tag="VVFIN" in="-1:attr" out="">dünne</W>
 <W lemma="in" msd="SP" tag="APPR" in="2:attr|2:{form}" out="1:nobj">in</W>
 <W lemma="Ring" msd="NC" tag="NN" in="-1:nobj" out="">Ringe</W>
@@ -75,7 +75,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-5:nobj" out="">Porreestangen</W>
 <W lemma="," msd="XP" tag="$," in="-33:pnct" out="">,</W>
 <W lemma="2" msd="AC" tag="CARD" in="-34:conj" out="1:nobj">2</W>
-<W lemma="Eßlöffel" msd="NC" tag="NN" in="-1:nobj|2:{apart}" out="2:nobj|1:attr">Esslöffel</W>
+<W lemma="Eßlöffel" msd="NC" tag="NN" in="-1:nobj|2:{apart}" out="1:attr|2:nobj">Esslöffel</W>
 <W lemma="körnig" msd="AN" tag="ADJA" in="-1:attr" out="">körniger</W>
 <W lemma="Senf" msd="NC" tag="NN" in="-2:nobj" out="-2:{apart}">Senf</W>
 <W lemma="," msd="XP" tag="$," in="-38:pnct" out="">,</W>
@@ -100,7 +100,7 @@
 <W lemma="Fisch" msd="NC" tag="NN" in="-1:nobj" out="">Fisch</W>
 <W lemma="in" msd="SP" tag="APPR" in="2:man" out="1:nobj">in</W>
 <W lemma="Würfel" msd="NC" tag="NN" in="-1:nobj" out="">Würfel</W>
-<W lemma="schneiden" msd="VA" tag="VVFIN" in="" out="-4:dobj|-2:man|1:pnct|10:conj|14:conj|15:pnct|11:pnct">schneiden</W>
+<W lemma="schneiden" msd="VA" tag="VVFIN" in="" out="-4:dobj|-2:man|1:pnct|10:conj|11:pnct|14:conj|15:pnct">schneiden</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="auf" msd="SP" tag="APPR" in="8:loc" out="2:nobj">auf</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:attr" out="">eingefetteten</W>
@@ -124,11 +124,11 @@
 <W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Gemüseboullion</W>
-<W lemma="dämpfen" msd="VA" tag="VVFIN" in="-8:xpl" out="-5:dobj|-3:loc|1:pnct|2:conj|3:pnct|7:conj|8:pnct|12:conj|13:pnct|20:conj|16:conj">dämpfen</W>
+<W lemma="dämpfen" msd="VA" tag="VVFIN" in="-8:xpl" out="-5:dobj|-3:loc|1:pnct|2:conj|3:pnct|7:conj|8:pnct|12:conj|13:pnct|16:conj|20:conj">dämpfen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="herausnehmen" msd="VA" tag="VVFIN" in="-2:conj" out="">herausnehmen</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="3:dobj|2:[subj]" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="2:[subj]|3:dobj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Boullion</W>
 <W lemma="einkochen" msd="VAF" tag="VVINF" in="1:vobj" out="-2:[subj]">einkochen</W>
 <W lemma="lassen" msd="VA" tag="VVFIN" in="-7:conj" out="-3:dobj|-1:vobj">lassen</W>
@@ -178,9 +178,9 @@
 <W lemma="eventuell" msd="AN" tag="ADJD" in="1:add" out="">Eventuell</W>
 <W lemma="können" msd="VA" tag="VMFIN" in="" out="-1:add|1:subj|8:vobj|9:pnct">kann</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj|7:[subj]" out="">man</W>
-<W lemma="in" msd="SP" tag="APPR" in="" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="2:man" out="1:nobj">in</W>
 <W lemma="Butter" msd="NC" tag="NN" in="-1:nobj" out="">Butter</W>
-<W lemma="geschwenkt" msd="AN" tag="ADJA" in="2:attr" out="">geschwenkte</W>
+<W lemma="geschwenkt" msd="AN" tag="ADJA" in="2:attr" out="-2:man">geschwenkte</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">neue</W>
 <W lemma="Kartoffel" msd="NC" tag="NN" in="2:dobj" out="-1:attr|-2:attr">Kartoffeln</W>
 <W lemma="dazu" msd="RG" tag="PAV" in="1:pobj" out="">dazu</W>
@@ -191,16 +191,16 @@
 <p>
 <s>
 <W lemma="Preben" msd="NP" tag="NE" in="1:namef" out="">Preben</W>
-<W lemma="Madsen" msd="NP" tag="NE" in="8:subj|14:[subj]" out="-1:namef|2:ref|1:pnct|6:relpa">Madsen</W>
+<W lemma="Madsen" msd="NP" tag="NE" in="8:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|6:relpa">Madsen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|4:subj" out="">der</W>
 <W lemma="31" msd="AC" tag="CARD" in="3:preds" out="1:nobj">31</W>
-<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahre</W>
-<W lemma="alt" msd="AN" tag="ADJD" in="" out="">alt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-3:preds|1:pnct|-4:subj">ist</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:aobj">Jahre</W>
+<W lemma="alt" msd="AN" tag="ADJD" in="-1:aobj" out="">alt</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-3:preds|-4:subj|1:pnct">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-8:subj|7:pnct|6:vobj">hat</W>
-<W lemma="sein" msd="PO" tag="PPOSAT" in="5:dobj|1:{agent}" out="1:possd">seine</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-8:subj|6:vobj|7:pnct">hat</W>
+<W lemma="sein" msd="PO" tag="PPOSAT" in="1:{agent}|5:dobj" out="1:possd">seine</W>
 <W lemma="Lehre" msd="NC" tag="NN" in="-1:possd" out="-1:{agent}">Lehre</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:loc" out="1:nobj">in</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:nobj">Hovborg</W>
