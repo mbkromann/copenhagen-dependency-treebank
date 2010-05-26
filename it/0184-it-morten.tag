@@ -1,8 +1,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:dobj" out="1:nobj|15:coref">La</W>
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:nobj" out="">pasta</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:subj" out="">si</W>
-<W lemma="vendere" msd="VADR" tag="VER&3a;pres" in="" out="-3:dobj|-1:subj|1:man|14:conj|25:pnct">vende</W>
-<W lemma="fresco" msd="AN" tag="ADJ" in="-1:man" out="1:pnct|2:conj|4:conj">fresca</W>
+<W lemma="vendere" msd="VADR" tag="VER&3a;pres" in="" out="-3:dobj|-1:subj|14:conj|25:pnct|1:fpreds">vende</W>
+<W lemma="fresco" msd="AN" tag="ADJ" in="-1:fpreds" out="1:pnct|2:conj|4:conj">fresca</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="secca" msd="NC" tag="NOM" in="-2:conj" out="">secca</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
@@ -71,7 +71,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:name">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="12:assoc-const|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj" out="1:name|12:assoc-const">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-2:subj|1:¹preds|8:pnct|11:conj">è</W>
 <W compound="¹la²unica" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:¹preds|1:²attr" out="1:nobj¹|3:attr¹">l’unica</W>
@@ -153,7 +153,7 @@
 <W lemma="produzione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj.subj|2:{agent}">produzione</W>
 <W lemma="complessivo" msd="AN" tag="ADJ" in="-1:attr" out="">complessiva</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:pobj.subj|-2:{agent}" out="1:nobj">della</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="12:coref-var|1:name">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:name|12:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Cheese</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-11:pnct" out="">:</W>
 <W lemma="se" msd="CS" tag="CON" in="2:robj" out="">se</W>

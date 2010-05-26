@@ -1,6 +1,6 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="13:subj|16:[subj]" out="1:nobj">I</W>
-<W lemma="paese" morph="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:poss">paesi</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:poss" out="1:nobj">della</W>
+<W lemma="paese" morph="paese" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{const}">paesi</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{const}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">CEE</W>
 <W lemma="," msd="XP" tag="PON" in="5:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="4:coord" out="">e</W>
@@ -11,7 +11,7 @@
 <W _compound="1" compound="¹saper²lo" lemma="sapere" morph="sapere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-4:²ref|0:²dobj¹" out="-4:xtop|-2:[subj]¹|1:man|0:²dobj¹">saperlo</W>
 <W lemma="bene" msd="RG" tag="ADV" in="-1:man" out="">bene</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="" out="-13:subj|-4:other|-7:coref-res|3:vobj|4:bg|16:coref-res|18:conj|1:dur">hanno</W>
+<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="" out="-13:subj|-4:other|-7:coref-res|1:dur|3:vobj|4:bg|16:coref-res|18:conj">hanno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:dur" out="1:nobj">per</W>
 <W lemma="anno" morph="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="collaborare" morph="lavorare -co/MOD&3a;rel" msd="VAP" tag="VER&3a;pper" in="-3:vobj" out="-16:[subj]">collaborato</W>

@@ -3,13 +3,13 @@
 <W lemma="Pasta" msd="NC" tag="NN" in="1:subj|9:[subj]|18:[subj]" out="">Pasta</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|8:vobj|18:pnct">werden</W>
 <W lemma="frisch" msd="AN" tag="ADJD" in="1:man" out="">frisch</W>
-<W lemma="zubereiten" msd="VAP" tag="VVPP" in="6:man" out="-1:man|1:pnct|2:conj|4:conj">zubereitet</W>
+<W lemma="zubereiten" msd="VAP" tag="VVPP" in="6:fpreds" out="-1:man|1:pnct|2:conj|4:conj">zubereitet</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="trocknen" msd="VAP" tag="VVPP" in="-2:conj" out="">getrocknet</W>
 <W lemma="sowie" msd="CC" tag="KON" in="1:coord" out="">sowie</W>
 <W lemma="in" msd="SP" tag="APPR" in="-4:conj" out="-1:coord|1:nobj">in</W>
 <W lemma="Fertiggericht" msd="NC" tag="NN" in="-1:nobj" out="">Fertiggerichten</W>
-<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-8:vobj" out="-6:man|-9:[subj]|9:conj">verkauft</W>
+<W lemma="verkaufen" msd="VAP" tag="VVPP" in="-8:vobj" out="-9:[subj]|9:conj|-6:fpreds">verkauft</W>
 <W lemma="und" msd="CC" tag="KON" in="8:coord" out="">und</W>
 <W lemma="zusammen" msd="RG" tag="ADV" in="7:accom" out="1:pobj">zusammen</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">mit</W>
