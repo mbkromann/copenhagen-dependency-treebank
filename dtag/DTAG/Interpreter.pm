@@ -6631,6 +6631,7 @@ sub cmd_relset {
 	# Skip first line
 	$csv->getline("CSV");
 	my $lineno = 1;
+	my $errorclasses = {};
 	while (my $row = $csv->getline("CSV")) {
 		# Read line from relations CSV file
 		++$lineno;
@@ -6656,18 +6657,23 @@ sub cmd_relset {
 			$deprecatednames, $supertypes, $lineno, 0, 0, $seealso];
 		
 		# Add relation to relations table under its different names
+		$errorclasses->{$shortname} = 1
+			if ($shortname ne "" && exists $relations->{$shortname});
+		$errorclasses->{$longname} = 1
+			if ($longname ne "" && exists $relations->{$longname});
 		push @$classes, $shortname, $longname;
 		$relations->{$shortname} = $relation;
 		$relations->{$longname} = $relation;
-		map {$relations->{$_} = $relation
-		 	if (! exists $relations->{$_}); push @$classes, $_} 
-				split(/\s+/, $deprecatednames);
+		map {
+			$relations->{$_} = $relation
+		 		if (! exists $relations->{$_});
+			push @$classes, $_
+		} split(/\s+/, $deprecatednames);
 		if ($lineno < 10 && $debug_relset) {
 			print $debug_relset "csv-relations: "
 				. $relations->{$shortname}[7] . "\n";
 		}
-
-}
+	}
 	close(CSV);
 
 	# Compile relation hierarchy
@@ -6679,6 +6685,10 @@ sub cmd_relset {
 	$self->var("relsets")->{$name} = $relations;
 	$self->var("relset", $name);
 	$graph->var("relset", $name);
+
+	# Print multiply defined classes
+	print join("", map {"ERROR: class \"$_\" defined more than once\n"}
+		sort(keys(%$errorclasses)));
 
 	# Return
 	return 1;
