@@ -114,12 +114,12 @@
 <W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">Deshalb</W>
 <W lemma="wollen" msd="VA" tag="VMFIN" in="" out="-1:reas|1:subj|4:vobj|19:pnct">will</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj|3:[subj]" out="">ich</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj|3:pnct|5:coref">eine</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj|3:pnct|5:ref|16:relr">eine</W>
 <W lemma="Vorschrift" msd="NC" tag="NN" in="-1:nobj" out="">Vorschrift</W>
-<W lemma="einführen" msd="VAF" tag="VVINF" in="-4:vobj" out="-2:dobj|-3:[subj]|2:source">einführen</W>
+<W lemma="einführen" msd="VAF" tag="VVINF" in="-4:vobj" out="-2:dobj|-3:[subj]">einführen</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
-<W lemma="nach" msd="SP" tag="APPR" in="-2:source" out="1:nobj">nach</W>
-<W lemma="d" msd="PT" tag="PRELS" in="-5:coref|-1:nobj" out="11:vobj">der</W>
+<W lemma="nach" msd="SP" tag="APPR" in="11:source" out="1:nobj">nach</W>
+<W lemma="d" msd="PT" tag="PRELS" in="-1:nobj|-5:ref" out="">der</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:[subj]|10:subj" out="1:nobj">die</W>
 <W lemma="Institution" msd="NC" tag="NN" in="-1:nobj" out="">Institutionen</W>
 <W lemma="spätestens" msd="RG" tag="ADV" in="1:degr" out="">spätestens</W>
@@ -129,8 +129,8 @@
 <W lemma="Studienstart" msd="NC" tag="NN" in="-1:nobj" out="">Studienstart</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="2:dobj" out="1:nobj">erste</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Aktivitätskontrollen</W>
-<W lemma="durchfahren&7c;durchführen" msd="VA" tag="VVFIN" in="1:vobj" out="-9:[subj]|-4:time|-2:dobj">durchführen</W>
-<W lemma="sollen" msd="VAF" tag="VMINF" in="-11:vobj" out="-10:subj|-1:vobj">sollen</W>
+<W lemma="durchfahren&7c;durchführen" msd="VA" tag="VVFIN" in="1:vobj" out="-9:[subj]|-4:time|-2:dobj|-11:source">durchführen</W>
+<W lemma="sollen" msd="VAF" tag="VMINF" in="-16:relr" out="-10:subj|-1:vobj">sollen</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 </s>
 </p>

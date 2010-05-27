@@ -194,10 +194,10 @@
 <W lemma="Madsen" msd="NP" tag="NE" in="8:subj|14:[subj]" out="-1:namef|1:pnct|2:ref|6:relpa">Madsen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|4:subj" out="">der</W>
-<W lemma="31" msd="AC" tag="CARD" in="3:preds" out="1:nobj">31</W>
-<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="1:aobj">Jahre</W>
-<W lemma="alt" msd="AN" tag="ADJD" in="-1:aobj" out="">alt</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-3:preds|-4:subj|1:pnct">ist</W>
+<W lemma="31" msd="AC" tag="CARD" in="2:attr" out="1:nobj">31</W>
+<W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahre</W>
+<W lemma="alt" msd="AN" tag="ADJD" in="1:preds" out="-2:attr">alt</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-6:relpa" out="-4:subj|1:pnct|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-8:subj|6:vobj|7:pnct">hat</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="1:{agent}|5:dobj" out="1:possd">seine</W>
