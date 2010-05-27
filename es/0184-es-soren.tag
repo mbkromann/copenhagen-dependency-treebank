@@ -47,9 +47,9 @@
 <W lemma="el" msd="ART" in="-3:ref|2:subj" out="1:nobj#">lo</W>
 <W lemma="que" msd="CQUE" in="-1:nobj#" out="">que</W>
 <W lemma="equivaler" morph="equivaler" msd="VLfin" in="-5:relelab" out="-3:pnct|-2:subj|1:pobj|6:pnct">equivale</W>
-<W lemma="a" msd="PREP" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">2,8</W>
-<W lemma="millones" msd="CARD" in="-1:nobj|1:{quant}" out="1:pobj">millones</W>
+<W lemma="a" msd="PREP" in="-1:pobj" out="2:nobj">a</W>
+<W lemma="@card@" msd="CARD" in="1:numm" out="">2,8</W>
+<W lemma="millones" msd="CARD" in="1:{quant}|-2:nobj" out="1:pobj|-1:numm">millones</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="-1:{quant}|1:nobj">de</W>
 <W lemma="paquete" morph="paquete" msd="NC" in="-1:nobj" out="">paquetes</W>
 <W lemma="," msd="CM" in="-6:pnct" out="">,</W>
@@ -113,9 +113,9 @@
 <W lemma="podar&7c;poder" morph="poder" msd="VLfin" in="9:qobj" out="-7:inst|1:vobj|8:pnct">podemos</W>
 <W _noerror="&3a;nosubj&3a;" lemma="presentir" morph="" msd="VLinf" in="-1:vobj" out="1:dobj">presentir</W>
 <W lemma="que" msd="CQUE" in="-1:dobj" out="1:vobj">que</W>
-<W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VHfin" in="-1:vobj" out="1:dobj">hay</W>
-<W lemma="futuro" morph="futuro" msd="NC" in="-1:dobj" out="1:pobj|1:{arg}">futuro</W>
-<W lemma="con" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">con</W>
+<W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VHfin" in="-1:vobj" out="1:dobj|2:accom">hay</W>
+<W lemma="futuro" morph="futuro" msd="NC" in="-1:dobj" out="">futuro</W>
+<W lemma="con" msd="PREP" in="-2:accom" out="1:nobj">con</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="pasta" morph="" msd="NC" in="-1:nobj" out="">pasta</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
@@ -168,8 +168,8 @@
 <W lemma="de" msd="PREP" in="-1:pobj" out="-1:{apart}|1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">500</W>
-<W lemma="empleado" morph="emplear +ado/PRED&3a;recip" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#">empleados</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
+<W lemma="empleado" morph="emplear +ado/PRED&3a;recip" msd="NC" in="-1:nobj" out="1:attr|1:{const}">empleados</W>
+<W lemma="de" msd="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="empresa" morph="" msd="NC" in="-1:nobj" out="">empresa</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
