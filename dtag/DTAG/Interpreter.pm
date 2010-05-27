@@ -6657,9 +6657,9 @@ sub cmd_relset {
 			$deprecatednames, $supertypes, $lineno, 0, 0, $seealso];
 		
 		# Add relation to relations table under its different names
-		$errorclasses->{$shortname} = 1
+		$errorclasses->{"\"" . $shortname . "\" (line " . $lineno . ")"} = 1
 			if ($shortname ne "" && exists $relations->{$shortname});
-		$errorclasses->{$longname} = 1
+		$errorclasses->{"\"" . $longname . "\" (line " . $lineno . ")"} = 1
 			if ($longname ne "" && exists $relations->{$longname});
 		push @$classes, $shortname, $longname;
 		$relations->{$shortname} = $relation;
@@ -6687,7 +6687,7 @@ sub cmd_relset {
 	$graph->var("relset", $name);
 
 	# Print multiply defined classes
-	print join("", map {"ERROR: class \"$_\" defined more than once\n"}
+	print join("", map {"ERROR: class $_ already defined\n"}
 		sort(keys(%$errorclasses)));
 
 	# Return
