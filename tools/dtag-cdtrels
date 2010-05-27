@@ -1,0 +1,3 @@
+!url="http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv"; wget --quiet -O ~/cdt/docs/.relations-cdt.csv $url && sleep 1 && mv -f ~/cdt/docs/.relations-cdt.csv ~/cdt/docs/relations-cdt.csv && echo "Downloaded relset \"cdt\" from $url"
+relset cdt ~/cdt/docs/relations-cdt.csv
+
