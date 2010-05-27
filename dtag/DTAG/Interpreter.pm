@@ -3218,8 +3218,8 @@ sub cmd_exit {
 	}
 
 	# Kill viewers
-	my $cmd = "ps e -w | grep dtag-$$- | grep -v grep | cut -f1 -d\' \' | xargs -r kill";
-	print "Closing viewers with: $cmd\n";
+	my $cmd = "ps e -w | grep dtag-$$- | grep -v grep | sed -e 's/^ //g' |cut -f1 -d\' \' | xargs -r kill";
+	#print "Closing viewers with: $cmd\n";
 	system($cmd);
 
 	# Exit
@@ -6495,9 +6495,14 @@ sub cmd_relhelp {
 		# Create viewer for example graph if non-existent
 		$egraph->mtime("");
 		my $exfpsfile = $self->var("exfpsfile");
-		if (! ($exfpsfile && `ps a | grep $exfpsfile | grep -v grep`)) {
+		if (! $exfpsfile) {
+			# Creating new example viewer
 			$self->do("viewer");
-		} else { 
+		} elsif (! `ps e -w | grep $exfpsfile | grep -v grep`) {
+			# Reopening closed example viewer
+			$self->do("viewer");
+		} else {
+			# Reusing example viewer
 			my $exfpsfile = $self->var("exfpsfile");
 			$egraph->fpsfile($exfpsfile);
 		}
@@ -8872,14 +8877,16 @@ sub cmd_webmap {
 
 sub compound_autonumber {
 	my $compound = shift;
+	$compound = "" if (! defined($compound));
+	$compound = decode_utf8($compound);
 
 	# Counter characters
 	my $odigit = "^";
-	my $ldigits = ["¹", "²", "³"];
+	my $ldigits = ["¹", "²", "³", "⁰"];
 	my $digits = join("", @$ldigits) . $odigit;
 
 	# Insert spaces before all segment identifiers
-	$compound =~ s/([^$digits\|])([$digits])/$1\|$2/g;
+	$compound =~ s/([^$digits\|])([$digits]+)/$1\|$2/g;
 
 	# Split compound into segments
 	my @segments = split(/\|/, $compound);
@@ -8929,7 +8936,7 @@ sub compound_autonumber {
 		$compound = join("", @segments);
 	}
 	
-	return $compound;
+	return encode_utf8($compound);
 }
 
 ## ------------------------------------------------------------
@@ -8967,7 +8974,7 @@ sub do {
 	my $cmdlog = $self->var("cmdlog");
 	if (defined($cmdlog) && ! $self->quiet()) {
 		my $time = time() - ($self->var("cmdlog.time0") || 0);
-		print $cmdlog "$time:\t$cmdstr\n";
+		print $cmdlog encode_utf8("$time:\t$cmdstr\n");
 	}
 
 	# ---------- COMMANDS IN SORTED ORDER ----------
@@ -10106,6 +10113,20 @@ sub nextcmd {
 	my $self = shift;
 	return $self->var('nextcmd', @_);
 }
+
+## ------------------------------------------------------------
+##  auto-inserted from: Interpreter/nice_string.pl
+## ------------------------------------------------------------
+
+sub nice_string {
+       join("",
+         map { $_ > 255 ?                  # if wide character...
+               sprintf("\\x{%04X}", $_) :  # \x{...}
+               chr($_) =~ /[[:cntrl:]]/ ?  # else if control character...
+               sprintf("\\x%02X", $_) :    # \x..
+               chr($_)                     # else as themselves
+         } unpack("U*", $_[0]));           # unpack Unicode characters
+   }
 
 ## ------------------------------------------------------------
 ##  auto-inserted from: Interpreter/print.pl
