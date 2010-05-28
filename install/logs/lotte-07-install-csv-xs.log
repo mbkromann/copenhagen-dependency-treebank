@@ -6,6 +6,6 @@ Building dependency tree...
 Reading state information...
 libtext-csv-xs-perl is already the newest version.
 The following packages were automatically installed and are no longer required:
-  linux-headers-2.6.31-14 linux-headers-2.6.31-14-generic
+  linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
 Use 'apt-get autoremove' to remove them.
-0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.

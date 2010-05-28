@@ -4,7 +4,7 @@ Reading package lists...
 Building dependency tree...
 Reading state information...
 The following packages were automatically installed and are no longer required:
-  linux-headers-2.6.31-14 linux-headers-2.6.31-14-generic
+  linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
 Use 'apt-get autoremove' to remove them.
 The following extra packages will be installed:
   libhttrack2
@@ -13,19 +13,19 @@ Suggested packages:
 The following NEW packages will be installed:
   httrack libhttrack2
 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 416kB of archives.
-After this operation, 1163kB of additional disk space will be used.
-Do you want to continue [Y/n]? Get:1 http://dk.archive.ubuntu.com karmic/universe libhttrack2 3.43.5-1ubuntu1 [380kB]
-Get:2 http://dk.archive.ubuntu.com karmic/universe httrack 3.43.5-1ubuntu1 [36.4kB]
-Fetched 416kB in 0s (1851kB/s)
+Need to get 408kB of archives.
+After this operation, 1143kB of additional disk space will be used.
+Do you want to continue [Y/n]? Get:1 http://dk.archive.ubuntu.com/ubuntu/ lucid/universe libhttrack2 3.43.9-1ubuntu1 [372kB]
+Get:2 http://dk.archive.ubuntu.com/ubuntu/ lucid/universe httrack 3.43.9-1ubuntu1 [36.4kB]
+Fetched 408kB in 0s (1222kB/s)
 Selecting previously deselected package libhttrack2.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 153539 files and directories currently installed.)
-Unpacking libhttrack2 (from .../libhttrack2_3.43.5-1ubuntu1_i386.deb) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 174960 files and directories currently installed.)
+Unpacking libhttrack2 (from .../libhttrack2_3.43.9-1ubuntu1_i386.deb) ...
 Selecting previously deselected package httrack.
-Unpacking httrack (from .../httrack_3.43.5-1ubuntu1_i386.deb) ...
+Unpacking httrack (from .../httrack_3.43.9-1ubuntu1_i386.deb) ...
 Processing triggers for man-db ...
-Setting up libhttrack2 (3.43.5-1ubuntu1) ...
+Setting up libhttrack2 (3.43.9-1ubuntu1) ...
 
-Setting up httrack (3.43.5-1ubuntu1) ...
+Setting up httrack (3.43.9-1ubuntu1) ...
 Processing triggers for libc-bin ...
 ldconfig deferred processing now taking place

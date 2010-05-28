@@ -1,0 +1,32 @@
+p   openssh-server                  - secure shell (SSH) server, for secure acce
+Installing openssh-server
+Please enter your password below
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  rssh molly-guard openssh-blacklist openssh-blacklist-extra
+The following NEW packages will be installed:
+  openssh-server
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 285kB of archives.
+After this operation, 778kB of additional disk space will be used.
+Get:1 http://dk.archive.ubuntu.com/ubuntu/ lucid/main openssh-server 1:5.3p1-3ubuntu3 [285kB]
+Preconfiguring packages ...
+Fetched 285kB in 0s (1069kB/s)
+Selecting previously deselected package openssh-server.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 174984 files and directories currently installed.)
+Unpacking openssh-server (from .../openssh-server_1%3a5.3p1-3ubuntu3_i386.deb) ...
+Processing triggers for ureadahead ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for ufw ...
+Processing triggers for man-db ...
+Setting up openssh-server (1:5.3p1-3ubuntu3) ...
+Creating SSH2 RSA key; this may take some time ...
+Creating SSH2 DSA key; this may take some time ...
+ * Stopping OpenBSD Secure Shell server sshd       [80G [74G[ OK ]
+ssh start/running, process 4830
+

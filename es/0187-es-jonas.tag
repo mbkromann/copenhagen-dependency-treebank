@@ -37,19 +37,19 @@
 <W lemma="de" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">computación</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="es~decir" msd="ADV" in="-7:modp|-7:{elab}" out="-1:pnct|3:pnct|1:nobj">es decir</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="">los</W>
-<W lemma="ordenador" msd="NC" in="0:nobj" out="0:nobj">ordenadores</W>
-<W lemma="," msd="CM" in="-3:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">workstations</W>
-<W lemma="y" msd="CC" in="" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">pequeños</W>
-<W lemma="o" msd="CC" in="" out="">o</W>
-<W lemma="mediano" msd="ADJ" in="" out="">medianos</W>
-<W lemma="sistema" msd="NC" in="" out="">sistemas</W>
-<W lemma="para" msd="PREP" in="" out="">para</W>
-<W lemma="varios" msd="QU" in="" out="">varios</W>
-<W lemma="usuario" msd="NC" in="" out="">usuarios</W>
+<W lemma="es~decir" msd="ADV" in="-7:modp|-7:{elab}" out="-1:pnct|1:nobj">es decir</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|3:conj|2:pnct">los</W>
+<W lemma="ordenador" msd="NC" in="-1:nobj" out="7:conj">ordenadores</W>
+<W lemma="," msd="CM" in="-2:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:conj" out="">workstations</W>
+<W lemma="y" msd="CC" in="4:coord" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="3:attr" out="2:conj">pequeños</W>
+<W lemma="o" msd="CC" in="1:coord" out="">o</W>
+<W lemma="mediano" msd="ADJ" in="-2:conj" out="-1:coord">medianos</W>
+<W lemma="sistema" msd="NC" in="-7:conj" out="-4:coord|-3:attr|1:attr|1:{func}">sistemas</W>
+<W lemma="para" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">para</W>
+<W lemma="varios" msd="QU" in="-1:nobj" out="1:nobj">varios</W>
+<W lemma="usuario" msd="NC" in="-1:nobj" out="">usuarios</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="">–</W>
 <W lemma="en" msd="PREP" in="" out="">en</W>
 <W lemma="cuanto" msd="REL" in="" out="">cuanto</W>
