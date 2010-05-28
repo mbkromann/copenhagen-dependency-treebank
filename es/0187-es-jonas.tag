@@ -1,18 +1,18 @@
-<W lemma="un" msd="ART" in="" out="2:loc|1:nobj|18:pnct">Un</W>
+<W lemma="un" msd="ART" in="" out="1:nobj|2:loc|18:pnct">Un</W>
 <W lemma="susto" msd="NC" in="-1:nobj" out="">susto</W>
 <W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="mundo" msd="NC" in="-1:nobj" out="1:ref|2:relr">mundo</W>
 <W lemma="que" msd="CQUE" in="-1:ref|1:subj|2:[subj]" out="">que</W>
-<W lemma="haber" msd="VHfin" in="-2:relr" out="1:vobj|-1:subj">ha</W>
-<W lemma="estar" msd="VE" in="-1:vobj" out="1:preds|-2:[subj]">estado</W>
+<W lemma="haber" msd="VHfin" in="-2:relr" out="-1:subj|1:vobj">ha</W>
+<W lemma="estar" msd="VE" in="-1:vobj" out="-2:[subj]|1:preds">estado</W>
 <W lemma="acostumbrar" msd="VLadj" in="-1:preds" out="1:pobj">acostumbrado</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj|5:conj">al</W>
 <W lemma="crecimiento" msd="NC" in="-1:nobj" out="1:pnct">crecimiento</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:pnct" out="">–</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="en~general" msd="ADV" in="1:prg" out="">en general</W>
-<W lemma="a" msd="PREP" in="-5:conj" out="1:nobj|-2:coord|-1:prg">a</W>
+<W lemma="a" msd="PREP" in="-5:conj" out="-2:coord|-1:prg|1:nobj">a</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="fuerte" msd="ADJ" in="1:attr" out="">fuerte</W>
 <W lemma="crecimiento" msd="NC" in="-2:nobj" out="-1:attr">crecimiento</W>
@@ -24,23 +24,23 @@
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="inversin" msd="NC" in="-1:nobj" out="">inversiones</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-6:vobj" out="-5:subj|1:pnct|-7:discmark">descendió</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-6:vobj" out="-5:subj|-7:discmark|1:pnct">descendió</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
-<W lemma="haber" msd="VHfin" in="" out="1:vobj|-8:conc|-7:[subj]">ha</W>
-<W lemma="subir" msd="VLadj" in="-1:vobj" out="1:degr|2:loc|-8:[subj]">subido</W>
+<W lemma="haber" msd="VHfin" in="" out="-8:conc|-7:[subj]|1:vobj">ha</W>
+<W lemma="subir" msd="VLadj" in="-1:vobj" out="-8:[subj]|1:degr|2:loc">subido</W>
 <W lemma="considerablemente" msd="ADV" in="-1:degr" out="">considerablemente</W>
 <W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
-<W lemma="alguno" msd="QU" in="-1:nobj" out="1:nobj">algunos</W>
+<W lemma="alguno" msd="QU" in="-1:nobj" out="1:nobj|7:modp|7:{elab}">algunos</W>
 <W lemma="tipo" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">tipos</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="equipo" msd="NC" in="-1:nobj" out="1:attr|1:{func}">equipos</W>
 <W lemma="de" msd="PREP" in="-1:attr|-1:{func}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">computación</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="es~decir" msd="ADV" in="" out="-1:pnct">es decir</W>
-<W lemma="el" msd="ART" in="" out="">los</W>
-<W lemma="ordenador" msd="NC" in="" out="">ordenadores</W>
-<W lemma="," msd="CM" in="" out="">,</W>
+<W lemma="es~decir" msd="ADV" in="-7:modp|-7:{elab}" out="-1:pnct|3:pnct|1:nobj">es decir</W>
+<W lemma="el" msd="ART" in="-1:nobj" out="">los</W>
+<W lemma="ordenador" msd="NC" in="0:nobj" out="0:nobj">ordenadores</W>
+<W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">workstations</W>
 <W lemma="y" msd="CC" in="" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">pequeños</W>
