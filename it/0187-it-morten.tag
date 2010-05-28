@@ -53,7 +53,7 @@
 <W lemma="piccolo" msd="NC" tag="NOM" in="3:attr" out="2:conj">piccoli</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">medio-grandi</W>
-<W lemma="sistema" msd="NC" tag="NOM" in="-4:nobj" out="-3:attr|3:pnct|4:appa|1:attr|1:{func}">sistemi</W>
+<W lemma="sistema" msd="NC" tag="NOM" in="-4:nobj" out="-3:attr|1:attr|1:{func}|3:pnct|4:appa">sistemi</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:nobj">per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">multiutenti</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -218,7 +218,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr|-1:{agent}#" out="">multiutenti</W>
 <W lemma="," msd="XP" tag="PON" in="-11:pnct" out="">,</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">c'</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:expl|-34:loc|2:dobj|5:pnct|1:time">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:expl|-34:loc|1:time|2:dobj|5:pnct">è</W>
 <W lemma="oggi" msd="RG" tag="ADV" in="-1:time" out="">oggi</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="1:nobj">una</W>
 <W lemma="concorrenza" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">concorrenza</W>

@@ -88,7 +88,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:nobj">1987</W>
 <W lemma="," msd="XP" tag="PON" in="-17:pnct" out="">,</W>
 <W lemma="raccontare" msd="VADR" tag="VER&3a;pres" in="" out="-18:qobj|1:subj|6:pnct|14:pnct">racconta</W>
-<W lemma="uno" msd="AN" tag="ADJ" in="-1:subj" out="6:appa|1:pobj.subj|1:{agent}">uno</W>
+<W lemma="uno" msd="AN" tag="ADJ" in="-1:subj" out="1:pobj.subj|1:{agent}|6:appa">uno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">dei</W>
 <W lemma="fautore" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|15:coref">fautori</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-34:coref-res|-1:pobj.dobj|-1:{patient}" out="1:nobj|18:coref-var">dell'</W>

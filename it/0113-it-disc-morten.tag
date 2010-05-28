@@ -152,8 +152,8 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="8:subj" out="1:nobj">Il</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="CS" tag="CON" in="-1:appr" out="2:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="CS" tag="CON" in="-1:nobj" out="2:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]" out="">Wiesenthal</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:vobj">sia</W>
 <W lemma="sopravvivere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:pobj">sopravvissuto</W>

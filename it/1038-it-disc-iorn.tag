@@ -128,7 +128,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-123:coref-var" out="1:nobj|111:coref-id">il</W>
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;spec" out="1:dobj|3:man|5:pnct|6:conj|14:conj|22:CONJ&3a;seq|-5:goal">tagliate</W>
+<W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-88:ELAB&3a;spec" out="-5:goal|1:dobj|3:man|5:pnct|6:conj|14:conj|22:CONJ&3a;seq">tagliate</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="pesce" msd="NC" tag="NOM" in="-1:nobj" out="">pesce</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:man" out="-19:pnct|1:nobj">a</W>
@@ -158,7 +158,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="salsa" msd="NC" tag="NOM" in="-1:nobj" out="">salsa</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
-<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="1:man|3:dobj|7:loc|11:pnct|13:conj|45:+CONJ&3a;seq|-4:goal">cuocete</W>
+<W lemma="cuocere" msd="VADR" tag="VER&3a;pres" in="-8:CONJ&3a;seq" out="-4:goal|1:man|3:dobj|7:loc|11:pnct|13:conj|45:+CONJ&3a;seq">cuocete</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
 <W lemma="vapore" msd="NC" tag="NOM" in="-1:nobj" out="">vapore</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-67:coref-var|-3:dobj" out="1:nobj|10:coref">gli</W>

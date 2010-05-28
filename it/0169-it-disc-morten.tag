@@ -52,7 +52,7 @@
 <W lemma="da" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Lænken</W>
 <W lemma="come" msd="SP" tag="PRE" in="-5:comp" out="1:nobj">come</W>
-<W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="3:ben|1:pobj.dobj|1:{patient}#">persona</W>
+<W lemma="persona" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|3:ben">persona</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="riferimento" msd="NC" tag="NOM" in="-1:nobj" out="">riferimento</W>
 <W lemma="per" msd="SP" tag="PRE" in="-3:ben" out="2:nobj">per</W>

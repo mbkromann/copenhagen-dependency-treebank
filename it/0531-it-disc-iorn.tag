@@ -211,8 +211,8 @@
 <W lemma="nascondere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-15:[subj]|1:iobj|2:dobj">nascosto</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-1:iobj|-28:coref" out="26:coref-var">loro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="1:nobj">il</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="7:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="7:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
 <W lemma="se" msd="CS" tag="CON" in="4:conc" out="-1:focal|-2:pnct|1:vobj|2:pnct">se</W>

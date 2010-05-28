@@ -123,7 +123,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">degli</W>
 <W lemma="esperimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">esperimenti</W>
 <W lemma="su" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">su</W>
-<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="3:ref|10:relr|1:pobj.dobj|1:{patient}#">semi</W>
+<W lemma="seme" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|3:ref|10:relr">semi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="girasole" msd="NC" tag="NOM" in="-1:nobj" out="">girasole</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-3:ref|7:subj|8:[subj]|9:[subj]" out="">che</W>

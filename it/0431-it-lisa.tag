@@ -12,7 +12,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj|3:[subj]" out="1:nobj|19:assoc-const">un</W>
 <W lemma="concorso" msd="NC" tag="NOM" in="-1:nobj" out="">concorso</W>
 <W lemma="per" msd="SP" tag="PRE" in="-3:goal" out="1:vobj">per</W>
-<W lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|3:iobj|-3:[subj]">dare</W>
+<W lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj|3:iobj">dare</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|6:coref-id">un</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="">nome</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-3:iobj" out="1:nobj">ad</W>
@@ -83,7 +83,7 @@
 <W lemma="IB" msd="NP" tag="NPR" in="1:namef" out="">IB</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="6:subj|7:[subj]" out="-1:namef|1:pnct|2:title">GAARN</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="orafo" msd="NC" tag="NOM" in="-2:title" out="3:pnct|1:attr|1:{origin}">orafo</W>
+<W lemma="orafo" msd="NC" tag="NOM" in="-2:title" out="1:attr|1:{origin}|3:pnct">orafo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{origin}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Køge</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -116,7 +116,7 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
 <W lemma="(" msd="XP" tag="PON" in="1:pnct" out="">(</W>
-<W lemma="foto" msd="NC" tag="NOM" in="" out="-1:pnct|1:pnct|4:pnct|5:pnct|3:agent">Foto</W>
+<W lemma="foto" msd="NC" tag="NOM" in="" out="-1:pnct|1:pnct|3:agent|4:pnct|5:pnct">Foto</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-1:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Stig</W>
 <W lemma="Hansen" msd="NP" tag="NPR" in="-3:agent" out="-1:namef">Hansen</W>
@@ -146,7 +146,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">la</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:nobj|2:[subj]|2:{agent}" out="2:possd">sua</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">prima</W>
-<W lemma="opera" msd="NC" tag="NOM" in="-2:possd" out="-1:attr|1:attr|1:{const}|-2:[subj]|-2:{agent}">opera</W>
+<W lemma="opera" msd="NC" tag="NOM" in="-2:possd" out="-1:attr|-2:[subj]|-2:{agent}|1:attr|1:{const}">opera</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr|-1:{const}" out="1:nobj">in</W>
 <W lemma="argento" msd="NC" tag="NOM" in="-1:nobj" out="">argento</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>

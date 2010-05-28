@@ -113,8 +113,8 @@
 <W lemma="Geova" msd="NP" tag="NPR" in="-1:nobj" out="">Geova</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:vobj" out="-8:cause|-1:neg|1:appr">è</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="4:relr">che</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:vobj" out="-8:cause|-1:neg|1:nobj">è</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="4:relr">che</W>
 <W lemma="in" msd="SP" tag="PRE" in="3:prg" out="1:nobj">in</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">mi</W>
@@ -135,8 +135,8 @@
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-5:relpa" out="-3:subj|-1:neg|-2:conc|1:preds|14:pnct">era</W>
 <W lemma="contrario" msd="NC" tag="NOM" in="-1:preds" out="1:pobj">contrario</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">al</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="5:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="5:vobj">che</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="4:subj" out="2:nobj">dei</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="rivale" msd="NC" tag="NOM" in="-2:nobj" out="-1:pnct|1:pnct">rivali</W>

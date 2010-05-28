@@ -56,8 +56,8 @@
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-23:CONJ/inoltre/ATTR1" out="-1:struct|1:¹vobj|17:pnct|22:CONS&3a;prg/quindi/ATTR1">possiamo</W>
 <W compound="¹basar²ci" lemma="basare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²robj¹" out="1:dobj|0:²robj¹">basarci</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">sul</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="3:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|5:[subj]" out="1:nobj">l'</W>
 <W lemma="elettorato" msd="NC" tag="NOM" in="-1:nobj" out="">elettorato</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:vobj" out="-2:subj|3:vobj">è</W>

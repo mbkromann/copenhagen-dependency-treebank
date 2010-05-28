@@ -23,7 +23,7 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:subj" out="">che</W>
 <W lemma="giocare" msd="VADR" tag="VER&3a;futu" in="-2:relr" out="-1:subj|1:loc|8:time|9:loc">giocheranno</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nella</W>
-<W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="3:pobj|1:pobj.dobj|1:{patient}#">partita</W>
+<W lemma="partita" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|3:pobj">partita</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="inizio" msd="NC" tag="NOM" in="-1:nobj" out="">inizio</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-3:pobj" out="1:nobj">contro</W>

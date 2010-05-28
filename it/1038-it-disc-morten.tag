@@ -68,7 +68,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:+|2:attr">gr</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
-<W lemma="prosciutto" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:aobj.dobj|1:{patient}#">prosciutto</W>
+<W lemma="prosciutto" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj|1:{patient}#|2:attr">prosciutto</W>
 <W lemma="affumicato" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">affumicato</W>
 <W lemma="tagliare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:man">tagliato</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
@@ -77,7 +77,7 @@
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-27:conj|-30:coref-part" out="2:nobj|4:pnct">2</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccoli</W>
-<W lemma="cavolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|74:coref-id|1:aobj.dobj|1:{patient}#">cavoli</W>
+<W lemma="cavolo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|74:coref-id">cavoli</W>
 <W lemma="cappuccio" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">cappuccio</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-32:conj|-35:coref-part" out="1:nobj|4:pnct">un</W>
@@ -240,7 +240,7 @@
 <W lemma="piatto" msd="NC" tag="NOM" in="-1:nobj" out="">piatto</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:pobj" out="2:nobj">con</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccole</W>
-<W lemma="patata" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:attr|1:aobj.dobj|1:{patient}#">patate</W>
+<W lemma="patata" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:aobj.dobj|1:{patient}#|2:attr">patate</W>
 <W lemma="novello" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">novelle</W>
 <W lemma="cuocere" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="1:man|3:loc">cotte</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:man" out="1:nobj">al</W>

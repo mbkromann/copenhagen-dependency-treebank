@@ -144,8 +144,8 @@
 <W lemma="economia" msd="NC" tag="NOM" in="-3:nobj" out="-2:attr|-1:attr">economia</W>
 <W lemma=";" msd="XP" tag="PON" in="-10:pnct" out="">;</W>
 <W lemma="dopo" msd="RG" tag="ADV" in="-15:struct" out="1:pobj|3:pnct">dopo</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:appr">di</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="2:vobj">che</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="2:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="1:dobj">prevedo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:vobj">che</W>

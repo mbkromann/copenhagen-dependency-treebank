@@ -10,7 +10,7 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="2:nobj">una</W>
 <W lemma="fortunato" msd="AN" tag="ADJ" in="1:attr" out="">fortunata</W>
 <W lemma="implementazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}|6:goal">implementazione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}|8:[subj]" out="1:nobj">della</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">legge</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr" out="">finanziaria</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">del</W>
@@ -18,7 +18,7 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-6:goal" out="1:nobj">allo</W>
 <W lemma="scopo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">scopo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
-<W lemma="abbattere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|4:conj">abbattere</W>
+<W lemma="abbattere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:dobj|4:conj">abbattere</W>
 <W lemma="qualche" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">qualche</W>
 <W lemma="muro" msd="NC" tag="NOM" in="-1:nobj" out="">muro</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
@@ -51,11 +51,11 @@
 <W lemma="sfruttare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:dobj|6:goal">sfruttare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="dibattito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">dibattiti</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">sulla</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:attr|4:[subj]" out="1:nobj">sulla</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">legge</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr" out="">finanziaria</W>
 <W lemma="per" msd="SP" tag="PRE" in="-6:goal" out="1:vobj">per</W>
-<W lemma="abbattere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|4:conj">abbattere</W>
+<W lemma="abbattere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-4:[subj]|1:dobj|4:conj">abbattere</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="muro" msd="NC" tag="NOM" in="-1:nobj" out="">muri</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>

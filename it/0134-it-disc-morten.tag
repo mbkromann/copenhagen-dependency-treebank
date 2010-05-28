@@ -48,8 +48,8 @@
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-10:cond" out="-1:degr|-2:coord|1:nobj">nel</W>
-<W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">caso</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="3:vobj">che</W>
+<W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">caso</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">la</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="-1:nobj" out="">squadra</W>
 <W lemma="ottenere" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:subj|1:dobj">ottenga</W>

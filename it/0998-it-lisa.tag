@@ -3,7 +3,7 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="direttore" msd="NC" tag="NOM" in="-2:appa" out="1:pobj|1:{arg}">direttore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="6:loc|1:pobj.dobj|1:{patient}">negozio</W>
+<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|6:loc">negozio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="abito" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">abiti</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="2:conj">Jørgen</W>
@@ -24,7 +24,7 @@
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostro</W>
 <W lemma="fatturato" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">fatturato</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:qobj" out="-9:pnct|-8:time|-3:subj|1:vobj|29:conj">è</W>
-<W lemma="scendere&7c;scernere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|5:comp|1:pobj.dobj|1:{patient}">sceso</W>
+<W lemma="scendere&7c;scernere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:pobj.dobj|1:{patient}|5:comp">sceso</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:ext">20</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">per</W>
@@ -83,7 +83,7 @@
 <W lemma="invece" msd="RG" tag="ADV" in="-1:contr" out="">invece</W>
 <W lemma="concorde" msd="AN" tag="ADJ" in="-2:man" out="">concordi</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="-3:subj" out="1:nobj|6:pnct|7:xpl">tre</W>
-<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|1:pobj.dobj|1:{patient}">negozi</W>
+<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:attr">negozi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="abbigliamento" msd="NC" tag="NOM" in="-1:nobj" out="">abbigliamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:attr" out="1:nobj">di</W>
@@ -151,7 +151,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="3:prg" out="1:nobj">in</W>
 <W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="">effetti</W>
 <W lemma="ne" msd="RG" tag="ADV" in="-22:coref-res|1:pobj.dobj|1:{patient}" out="">ne</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:coord|-3:prg|1:fpreds|-1:pobj.dobj|-1:{patient}">siamo</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-4:coord|-3:prg|-1:pobj.dobj|-1:{patient}|1:fpreds">siamo</W>
 <W lemma="soddisfare" msd="VAP" tag="VER&3a;pper" in="-1:fpreds" out="">soddisfatti</W>
 <W lemma="." msd="XP" tag="SENT" in="-40:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">Le</W>

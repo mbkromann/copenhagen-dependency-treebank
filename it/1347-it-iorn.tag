@@ -157,7 +157,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:loc" out="1:pobj">all’interno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">della</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-7:coref|1:pobj.subj|1:{agent}" out="">loro</W>
-<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="1:bg|-1:pobj.subj|-1:{agent}">collaborazione</W>
+<W lemma="collaborazione" msd="NC" tag="NOM" in="-2:nobj" out="-1:pobj.subj|-1:{agent}|1:bg">collaborazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:bg" out="2:vobj">per</W>
 <W lemma="quanto" msd="PI" tag="PRO&3a;indef" in="1:subj" out="">quanto</W>
 <W lemma="riguardare" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:dobj">riguarda</W>
@@ -187,8 +187,8 @@
 <W lemma="trattato" msd="NC" tag="NOM" in="-1:nobj" out="">Trattato</W>
 <W lemma="consistere" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:pobj|24:pnct">consiste</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">nel</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="12:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="12:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="11:subj|12:[subj]" out="3:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:time" out="">già</W>
 <W lemma="esistere" msd="VAG" tag="VER&3a;ppre" in="1:attr" out="-1:time">esistente</W>

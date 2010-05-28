@@ -25,7 +25,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-4:subj|3:[subj]" out="1:nobj">un</W>
 <W lemma="programma" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}">programma</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:vobj">per</W>
-<W lemma="aiutare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj|3:pobj|8:&lt;dobj&3a;2&gt;|10:&lt;pobj&3a;vobj&3a;@loc&3a;2&gt;|13:&lt;dobj&3a;3&gt;|15:&lt;pobj&3a;vobj&3a;@loc&3a;3&gt;|20:&lt;pobj&3a;vobj&3a;@loc&3a;4&gt;|12:pnct|7:pnct">aiutare</W>
+<W lemma="aiutare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj|3:pobj|7:pnct|8:&lt;dobj&3a;2&gt;|10:&lt;pobj&3a;vobj&3a;@loc&3a;2&gt;|12:pnct|13:&lt;dobj&3a;3&gt;|15:&lt;pobj&3a;vobj&3a;@loc&3a;3&gt;|20:&lt;pobj&3a;vobj&3a;@loc&3a;4&gt;">aiutare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|3:[subj]" out="1:nobj">i</W>
 <W lemma="visitatore" msd="NC" tag="NOM" in="-1:nobj" out="">visitatori</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:pobj" out="1:vobj">a</W>
@@ -45,7 +45,7 @@
 <W lemma="municipale" msd="AN" tag="ADJ" in="-1:attr" out="">municipali</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>
-<W lemma="a" msd="SP" tag="PRE" in="-20:&lt;pobj&3a;vobj&3a;@loc&3a;4&gt;" out="-1:add|1:nobj|-2:coord">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="-20:&lt;pobj&3a;vobj&3a;@loc&3a;4&gt;" out="-1:add|-2:coord|1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{pos}">MikroData</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{pos}" out="1:nobj|3:appr">nel</W>
 <W lemma="centro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#">centro</W>

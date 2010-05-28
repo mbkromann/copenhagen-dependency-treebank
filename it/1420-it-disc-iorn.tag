@@ -46,7 +46,7 @@
 <W lemma="verde" msd="AN" tag="ADJ" in="-1:attr" out="">verde</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="16:subj|17:[subj]|18:[subj]" out="1:nobj">La</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="6:ref|8:relpa|1:pobj|1:{arg}">parte</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|6:ref|8:relpa">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="terreno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">terreni</W>
 <W lemma="demaniale" msd="AN" tag="ADJ" in="-1:attr" out="">demaniali</W>

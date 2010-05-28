@@ -17,11 +17,11 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="condanna" msd="NC" tag="NOM" in="-1:nobj" out="">condanna</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="24:subj|26:[subj]" out="9:pnct|10:appa|1:nobj">i</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="24:subj|26:[subj]" out="1:nobj|9:pnct|10:appa">i</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="2:nobj">due</W>
 <W lemma="alto" msd="AN" tag="ADJ" in="1:attrd" out="">alti</W>
 <W lemma="dirigente" msd="NC" tag="NOM" in="-2:nobj" out="-1:attrd|1:pobj|1:{arg}">dirigenti</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="8:assoc-const|4:nobj">della</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="4:nobj|8:assoc-const">della</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="2:nobj" out="1:+">6</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:+" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="-2:nobj">juli</W>
@@ -98,7 +98,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{quant}" out="1:nobj">di</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="per" msd="SP" tag="PRE" in="-19:pobj" out="1:nobj">per</W>
-<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="3:pnct|5:conj|8:conj|18:conj|1:pobj.dobj|1:{experient}">abuso</W>
+<W lemma="abuso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{experient}|3:pnct|5:conj|8:conj|18:conj">abuso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{experient}" out="1:nobj">di</W>
 <W lemma="mandato" msd="NC" tag="NOM" in="-1:nobj" out="">mandato</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -239,7 +239,7 @@
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="">due</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;cpre" in="-3:vobj" out="-2:subj|1:vobj">abbiano</W>
 <W lemma="svolgere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:dobj|6:man|9:pnct">svolto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="14:coref|1:nobj">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|14:coref">il</W>
 <W lemma="proprio" msd="AN" tag="ADJ" in="-5:coref|-1:nobj|1:[subj]|1:{agent}" out="1:possd">proprio</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:possd" out="-1:[subj]|-1:{agent}|1:attr|1:{func}">lavoro</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{func}" out="1:nobj">di</W>
@@ -266,7 +266,7 @@
 <W lemma="lettura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">lettura</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|1:[subj]|1:{agent}">delle</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:nobj|-1:[subj]|-1:{agent}|1:[subj]|1:{agent}" out="1:possd">sue</W>
-<W lemma="osservazione" msd="NC" tag="NOM" in="-1:possd" out="1:bg|-1:[subj]|-1:{agent}">osservazioni</W>
+<W lemma="osservazione" msd="NC" tag="NOM" in="-1:possd" out="-1:[subj]|-1:{agent}|1:bg">osservazioni</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:bg" out="1:nobj">in</W>
 <W lemma="merito" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">merito</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-223:coref-id|-40:coref-var" out="1:nobj">alla</W>

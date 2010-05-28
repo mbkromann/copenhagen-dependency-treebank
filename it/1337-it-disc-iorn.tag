@@ -80,7 +80,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="dopo" msd="SP" tag="PRE" in="18:time" out="1:vobj|11:pnct">Dopo</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj|11:[subj]">aver</W>
-<W lemma="immobilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj|10:[subj]|3:inst">immobilizzato</W>
+<W lemma="immobilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj|3:inst|10:[subj]">immobilizzato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-79:coref-var|-1:dobj" out="1:nobj">i</W>
 <W lemma="cane" msd="NC" tag="NOM" in="-1:nobj" out="">cani</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:inst" out="1:nobj">con</W>

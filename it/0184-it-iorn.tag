@@ -85,8 +85,8 @@
 <W lemma="ma" msd="CS" tag="CON" in="2:coord" out="">ma</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-12:assoc-const|1:loc" out="">nell’ambiente</W>
 <W lemma="circolare" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-2:coord|-1:loc|1:subj|18:pnct">circolano</W>
-<W lemma="voce&7c;vocio" msd="NC" tag="NOM" in="-1:subj" out="1:appr">voci</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="6:vobj">che</W>
+<W lemma="voce&7c;vocio" msd="NC" tag="NOM" in="-1:subj" out="1:nobj">voci</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="6:vobj">che</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="5:subj" out="2:nobj">un</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">grande</W>
 <W lemma="produttore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">produttore</W>
@@ -144,7 +144,7 @@
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj" out="">momento</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj|15:coref">la</W>
 <W lemma="pasta" msd="NC" tag="NOM" in="-1:nobj" out="">pasta</W>
-<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-5:time|2:dobj|14:elab|11:pnct">costituisce</W>
+<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-5:time|2:dobj|11:pnct|14:elab">costituisce</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:dobj" out="-1:degr|2:nobj">una</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="1:attr" out="">piccola</W>

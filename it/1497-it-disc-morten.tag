@@ -49,7 +49,7 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="di" msd="SP" tag="PRE" in="-6:pobj" out="1:nobj">di</W>
 <W lemma="valutazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|8:[subj]">valutazioni</W>
-<W lemma="erroneo" msd="AN" tag="ADJ" in="-1:attr" out="7:relr|1:pobj.subj|1:{agent}">erronee</W>
+<W lemma="erroneo" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj.subj|1:{agent}|7:relr">erronee</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">della</W>
 <W lemma="direzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">direzione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>

@@ -145,8 +145,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="ulcera" msd="NC" tag="NOM" in="-1:nobj" out="">ulcera</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-7:pnct" out="">:</W>
-<W lemma="prima" msd="RG" tag="ADV" in="15:time" out="1:appr">prima</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="2:vobj">che</W>
+<W lemma="prima" msd="RG" tag="ADV" in="15:time" out="1:nobj">prima</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="2:vobj">che</W>
 <W lemma="essi" msd="PP" tag="PRO&3a;pers" in="-7:coref-res|1:subj|25:[subj]" out="">essi</W>
 <W lemma="venire" msd="VADA" tag="VER&3a;cimp" in="-2:vobj" out="-1:subj|1:vobj|4:pnct">venissero</W>
 <W lemma="introdurre" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:loc">introdotti</W>

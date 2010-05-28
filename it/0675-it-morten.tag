@@ -1,6 +1,6 @@
 <W lemma="Thomas" msd="NP" tag="NPR" in="1:namef" out="">Thomas</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]|3:[subj]" out="-1:namef|66:coref-id">Stuer</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|9:pnct|20:pnct|11:conj|11:[error}">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|9:pnct|11:conj|11:[error}|20:pnct">ha</W>
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:vobj">dovuto</W>
 <W lemma="cedere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj|3:iobj">cedere</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
@@ -13,7 +13,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">ma</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-11:conj|-11:[error}" out="-1:coord|1:nobj">nei</W>
 <W lemma="quarto" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="1:pobj">quarti</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|-1:{apart}">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="-1:{apart}|1:nobj">di</W>
 <W lemma="finale" msd="NC" tag="NOM" in="-1:nobj" out="1:other">finale</W>
 <W lemma="contro" msd="SP" tag="PRE" in="-1:other" out="1:nobj">contro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|3:appr">il</W>
@@ -28,7 +28,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:conj" out="">15-8</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">ma</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-7:conj|15:[subj]" out="-1:coord|2:preds|3:time|7:pnct|13:prec|19:pnct|8:modp|8:{elab}">ero</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-7:conj|15:[subj]" out="-1:coord|2:preds|3:time|7:pnct|8:modp|8:{elab}|13:prec|19:pnct">ero</W>
 <W lemma="fortemente" msd="RG" tag="ADV" in="1:man" out="">fortemente</W>
 <W lemma="indietro" msd="RG" tag="ADV" in="-2:preds" out="-1:man">indietro</W>
 <W lemma="in" msd="SP" tag="PRE" in="-3:time" out="1:nobj">in</W>
@@ -171,9 +171,9 @@
 <W lemma="misto" msd="AN" tag="ADJ" in="-1:attr|-1:{const}#" out="">misto</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="8:subj" out="1:nobj">3</W>
 <W lemma="coppia" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="1:pobj">coppie</W>
-<W lemma="su" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|-1:{apart}">su</W>
+<W lemma="su" msd="SP" tag="PRE" in="-1:pobj" out="-1:{apart}|1:nobj">su</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj|1:{apart}" out="1:pobj">4</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|-1:{apart}">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="-1:{apart}|1:nobj">di</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-1:nobj|-22:coref" out="1:attr|1:{pos}">quelle</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
 <W lemma="semifinale" msd="NC" tag="NOM" in="-1:nobj" out="">semifinale</W>
@@ -185,7 +185,7 @@
 <W _noerror="&3a;nosubj&3a;" lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj|3:[subj]" out="1:preds|8:time">siamo</W>
 <W lemma="sicuro" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">sicuri</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
-<W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|-3:[subj]">aver</W>
+<W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:dobj">aver</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="porre" msd="VAP" tag="VER&3a;pper" in="-1:nobj" out="1:attr|1:{pos}">posto</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:attr|-1:{pos}" out="1:nobj">in</W>

@@ -94,7 +94,7 @@
 <W lemma="considerare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">considerarsi</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-7:preds" out="2:nobj|17:cause">il</W>
 <W lemma="migliore" msd="AN" tag="ADJ" in="1:attr" out="">migliore</W>
-<W lemma="romanzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|13:assoc-scope|26:assoc-agent|36:coref-id|1:pobj.subj|1:{agent}">romanzo</W>
+<W lemma="romanzo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}|13:assoc-scope|26:assoc-agent|36:coref-id">romanzo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Helle</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Stangerup</W>

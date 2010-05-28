@@ -119,8 +119,8 @@
 <W lemma="settore" msd="NC" tag="NOM" in="-1:nobj" out="">settore</W>
 <W lemma="," msd="XP" tag="PON" in="-15:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-15:man" out="1:nobj">il</W>
-<W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">modo</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="1:vobj">che</W>
+<W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">modo</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="1:vobj">che</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:subj|3:pobj|13:pnct">ha</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="rock" msd="NC" tag="NOM" in="-1:nobj" out="">rock</W>
@@ -207,7 +207,7 @@
 <W lemma="con" msd="SP" tag="PRE" in="15:man" out="-1:pnct|1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj|6:conj|11:conj">il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">suo</W>
-<W lemma="colpo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|3:pnct|1:pobj.subj|1:{agent}#">colpo</W>
+<W lemma="colpo" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj.subj|1:{agent}#|3:pnct">colpo</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">d'</W>
 <W lemma="occhio" msd="NC" tag="NOM" in="-1:nobj" out="">occhio</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>

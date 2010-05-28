@@ -66,8 +66,8 @@
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="poi" msd="RG" tag="ADV" in="1:struct" out="">poi</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-18:conj" out="-2:coord|-1:struct|1:nobj">il</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="12:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="12:vobj">che</W>
 <W lemma="a" msd="SP" tag="PRE" in="11:time" out="2:nobj">a</W>
 <W lemma="ciascuna" msd="PI" tag="PRO&3a;indef" in="1:attr" out="">ciascuna</W>
 <W lemma="pausa" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">pausa</W>
@@ -227,7 +227,7 @@
 <W lemma="corona" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj">corone</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">per</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="giornata" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|1:pobj.pobj|1:{location}#">giornata</W>
+<W lemma="giornata" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.pobj|1:{location}#|3:attr">giornata</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.pobj|-1:{location}#" out="1:nobj">di</W>
 <W lemma="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:attr" out="2:nobj">di</W>

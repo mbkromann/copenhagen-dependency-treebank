@@ -83,7 +83,7 @@
 <W lemma="invece" msd="RG" tag="ADV" in="-1:struct" out="">invece</W>
 <W lemma="concorde" msd="AN" tag="ADJ" in="-2:fpreds" out="">concordi</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="-3:subj" out="1:nobj|6:pnct|7:appa">tre</W>
-<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|17:ref|18:relpa|1:pobj|1:{arg}#">negozi</W>
+<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#|3:attr|17:ref|18:relpa">negozi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="abbigliamento" msd="NC" tag="NOM" in="-1:nobj" out="">abbigliamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:attr" out="1:nobj">di</W>

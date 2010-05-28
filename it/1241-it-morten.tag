@@ -1,4 +1,4 @@
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="17:pnct|8:preds|1:subj">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="1:subj|8:preds|17:pnct">Sono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj|8:[subj]|11:[subj]" out="1:nobj">i</W>
 <W lemma="comparto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">comparti</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danesi</W>
@@ -7,10 +7,10 @@
 <W lemma="compagnia" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">compagnie</W>
 <W lemma="multinazionale" msd="AN" tag="ADJ" in="-1:attr" out="">multinazionali</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-8:preds" out="1:vobj">ad</W>
-<W lemma="usare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="2:goal|-8:[subj]|1:dobj">usare</W>
+<W lemma="usare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:dobj|2:goal">usare</W>
 <W lemma="milione" msd="NC" tag="NOM" in="-1:dobj" out="">milioni</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:goal" out="1:vobj">per</W>
-<W lemma="pubblicizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|-11:[subj]">pubblicizzare</W>
+<W lemma="pubblicizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-11:[subj]|1:dobj">pubblicizzare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|2:appr">il</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="">gruppo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="1:nobj">TV-</W>
@@ -43,7 +43,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|1:dobj|11:pnct">Ritengo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="4:subj" out="1:nobj|121:coref-id">le</W>
-<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:attr|1:{func}#">campagne</W>
+<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#|2:attr">campagne</W>
 <W lemma="pubblicitario" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">pubblicitarie</W>
 <W lemma="televisivo" msd="AN" tag="ADJ" in="-2:attr" out="">televisive</W>
 <W lemma="danneggiare" msd="VADR" tag="VER&3a;cpre" in="-5:vobj" out="-4:subj|1:degr|2:dobj">danneggino</W>
@@ -61,9 +61,9 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="5:subj" out="2:nobj">una</W>
 <W lemma="buono" msd="AN" tag="ADJ" in="1:attr" out="">buona</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-2:nobj|1:{apart}" out="-1:attr|1:pobj">parte</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|-1:{apart}">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="-1:{apart}|1:nobj">di</W>
 <W lemma="pubblico" msd="AN" tag="ADJ" in="-1:nobj" out="">pubblico</W>
-<W lemma="compra" msd="NC" tag="NOM" in="-6:vobj" out="-5:subj|2:dobj|1:degr|6:time">compra</W>
+<W lemma="compra" msd="NC" tag="NOM" in="-6:vobj" out="-5:subj|1:degr|2:dobj|6:time">compra</W>
 <W lemma="solo" msd="RG" tag="ADV" in="-1:degr" out="">solo</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:dobj" out="2:conj|3:nobj">3</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
@@ -73,7 +73,7 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="e" msd="CS" tag="CON" in="14:discmark" out="">E</W>
-<W lemma="se" msd="PR" tag="PRO&3a;refl" in="13:contr" out="3:vobj|1:avobj#">se</W>
+<W lemma="se" msd="PR" tag="PRO&3a;refl" in="13:contr" out="1:avobj#|3:vobj">se</W>
 <W lemma="mentre" msd="CS" tag="CON" in="-1:avobj#" out="">mentre</W>
 <W lemma="prima" msd="RG" tag="ADV" in="1:prec" out="">prima</W>
 <W _noerror="&3a;nosubj&3a;" lemma="comprare" msd="VADA" tag="VER&3a;impf" in="-3:vobj" out="-1:prec|2:dobj|8:pnct">compravano</W>
@@ -86,7 +86,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:conj" out="">TV-2</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="ora" msd="RG" tag="ADV" in="1:time" out="">ora</W>
-<W lemma="acquistare" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="1:dobj|-14:discmark|-1:time|-13:contr">acquistano</W>
+<W lemma="acquistare" msd="VADR" tag="VER&3a;pres" in="7:qobj" out="-14:discmark|-1:time|-13:contr|1:dobj">acquistano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">CD</W>
 <W lemma="reclamizzare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">reclamizzati</W>
@@ -105,7 +105,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="però" msd="RG" tag="ADV" in="2:discmark" out="">Però</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-9:coref-id|1:subj" out="68:coref-id">Fryland</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|2:preds|26:ref|28:relelab|35:pnct|44:coref-res|1:add|-2:discmark">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-2:discmark|1:add|2:preds|26:ref|28:relelab|35:pnct|44:coref-res">è</W>
 <W lemma="anche" msd="RG" tag="ADV" in="-1:add" out="">anche</W>
 <W lemma="direttore" msd="NC" tag="NOM" in="-2:preds" out="1:pobj|1:{arg}">direttore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj|2:pnct|3:appa">della</W>
@@ -123,17 +123,17 @@
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">modo</W>
 <W lemma="massiccio" msd="AN" tag="ADJ" in="-1:attr" out="">massiccio</W>
 <W lemma="a" msd="SP" tag="PRE" in="-5:pobj" out="1:nobj">a</W>
-<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:attr|1:{func}#">campagne</W>
+<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#|2:attr">campagne</W>
 <W lemma="pubblicitario" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">pubblicitarie</W>
 <W lemma="televisivo" msd="AN" tag="ADJ" in="-2:attr" out="">televisive</W>
 <W lemma="per" msd="SP" tag="PRE" in="-9:goal" out="1:vobj">per</W>
-<W lemma="reclamizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|-12:[subj]">reclamizzare</W>
+<W lemma="reclamizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-12:[subj]|1:dobj">reclamizzare</W>
 <W lemma="collezione" msd="NC" tag="NOM" in="-1:dobj" out="1:attr|1:{const}#">collezioni</W>
 <W lemma="musicale" msd="AN" tag="ADJ" in="-1:attr|-1:{const}#" out="">musicali</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-26:ref|2:subj" out="1:nobj">il</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="">che</W>
-<W lemma="svelare" msd="VADR" tag="VER&3a;pres" in="-28:relelab" out="1:dobj|-2:subj">svela</W>
+<W lemma="svelare" msd="VADR" tag="VER&3a;pres" in="-28:relelab" out="-2:subj|1:dobj">svela</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="natura" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">natura</W>
 <W lemma="ambiguo" msd="AN" tag="ADJ" in="-1:attr" out="">ambigua</W>
@@ -142,7 +142,7 @@
 <W lemma="affermazione" msd="NC" tag="NOM" in="-1:possd" out="-1:[subj]|-1:{agent}">affermazioni</W>
 <W lemma="." msd="XP" tag="SENT" in="-35:pnct" out="">.</W>
 <W lemma="&lt;&lt;" msd="XP" tag="PON" in="1:pnct" out="">&lt;&lt;</W>
-<W lemma="sono" msd="NC" tag="NOM" in="" out="-1:pnct|1:preds|9:pnct|6:loc">Sono</W>
+<W lemma="sono" msd="NC" tag="NOM" in="" out="-1:pnct|1:preds|6:loc|9:pnct">Sono</W>
 <W lemma="consapevole" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">consapevole</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="-1:nobj|2:{arg}" out="2:possd">mio</W>
@@ -153,10 +153,10 @@
 <W lemma="situazione" msd="NC" tag="NOM" in="-1:nobj" out="">situazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">Ma</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="18:qobj" out="-1:coord|17:pnct|1:add|2:preds|9:nobj|8:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="18:qobj" out="-1:coord|1:add|2:preds|8:pnct|9:nobj|17:pnct">è</W>
 <W lemma="anche" msd="RG" tag="ADV" in="-1:add" out="">anche</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="-2:preds|1:{agent}" out="1:possd">mia</W>
-<W lemma="opinione" msd="NC" tag="NOM" in="-1:possd" out="2:attr|-1:{agent}">opinione</W>
+<W lemma="opinione" msd="NC" tag="NOM" in="-1:possd" out="-1:{agent}|2:attr">opinione</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="assoluto" msd="AN" tag="ADJ" in="-2:attr" out="-1:pnct|2:conj">assoluta</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -182,14 +182,14 @@
 <W lemma="su" msd="SP" tag="PRE" in="-2:attr|-2:{about}" out="1:nobj">su</W>
 <W lemma="quanto" msd="PI" tag="PRO&3a;indef" in="-1:nobj|7:[dobj]" out="1:nobj|7:relr">quanti</W>
 <W lemma="milione" msd="NC" tag="NOM" in="-1:nobj|1:{apart}" out="1:attr">milioni</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj|-1:{apart}">di</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="-1:{apart}|1:nobj">di</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">il</W>
 <W lemma="settore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">settore</W>
 <W lemma="discografico" msd="AN" tag="ADJ" in="-1:attr" out="">discografico</W>
-<W lemma="investire" msd="VADR" tag="VER&3a;cpre" in="-7:relr" out="-3:subj|1:pobj|-7:[dobj]">investa</W>
+<W lemma="investire" msd="VADR" tag="VER&3a;cpre" in="-7:relr" out="-3:subj|-7:[dobj]|1:pobj">investa</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">in</W>
-<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|1:attr|1:{func}#">campagne</W>
+<W lemma="campagna" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#|2:attr">campagne</W>
 <W lemma="pubblicitario" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">pubblicitarie</W>
 <W lemma="televisivo" msd="AN" tag="ADJ" in="-2:attr" out="">televisive</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
@@ -197,7 +197,7 @@
 <W lemma="molto" msd="AN" tag="ADJ" in="1:subj" out="">molti</W>
 <W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="" out="-2:conc|-1:subj|1:dobj|16:pnct">ritengono</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
-<W _noerror="&3a;nosubj&3a;" lemma="dare" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="3:subj|1:dobj">dia</W>
+<W _noerror="&3a;nosubj&3a;" lemma="dare" msd="VADR" tag="VER&3a;cpre" in="-1:vobj" out="1:dobj|3:subj">dia</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">da</W>
 <W _noerror="&3a;nosubj&3a;" lemma="pensare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">pensare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:subj" out="1:nobj">il</W>
@@ -209,6 +209,6 @@
 <W lemma="vendita" msd="NC" tag="NOM" in="-1:nobj" out="">vendite</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:degr" out="1:nobj">in</W>
 <W lemma="totale" msd="NC" tag="NOM" in="-1:nobj" out="">totale</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-7:vobj" out="-4:subj|-2:degr|1:vobj|-6:eval">siano</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-7:vobj" out="-4:subj|-2:degr|-6:eval|1:vobj">siano</W>
 <W lemma="diminuire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]">diminuite</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>

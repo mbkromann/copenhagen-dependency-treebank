@@ -83,7 +83,7 @@
 <W lemma="invece" msd="RG" tag="ADV" in="-1:struct" out="">invece</W>
 <W lemma="concorde" msd="AN" tag="ADJ" in="-2:fpreds" out="">concordi</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="-3:subj" out="1:nobj">tre</W>
-<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="3:attr|5:pnct|6:appa|17:ref|18:relpa|1:pobj|1:{arg}#">negozi</W>
+<W lemma="negozio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#|3:attr|5:pnct|6:appa|17:ref|18:relpa">negozi</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="abbigliamento" msd="NC" tag="NOM" in="-1:nobj" out="">abbigliamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:attr" out="1:nobj">di</W>
@@ -183,7 +183,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-61:pnct" out="">"</W>
 <W lemma="affermare" msd="VADR" tag="VER&3a;pres" in="" out="-25:qobj|1:subj|8:pnct">afferma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
-<W lemma="responsabile" msd="NC" tag="NOM" in="-1:nobj" out="3:pnct|5:appa|1:pobj|1:{arg}#">responsabile</W>
+<W lemma="responsabile" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}#|3:pnct|5:appa">responsabile</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-73:assoc-const|-1:pobj|-1:{arg}#" out="1:nobj">del</W>
 <W lemma="marketing" msd="NC" tag="NOM" in="-1:nobj" out="">marketing</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>

@@ -14,7 +14,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr|-2:{origin}" out="1:nobj|2:appr">del</W>
 <W lemma="settimanale" msd="AN" tag="ADJ" in="-1:nobj" out="">settimanale</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="16:coref-id|1:appr">Ugemagasinet</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="1:appr|16:coref-id">Ugemagasinet</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:appr" out="">SØNDAG</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-8:other" out="3:other">Vesterbrogade</W>

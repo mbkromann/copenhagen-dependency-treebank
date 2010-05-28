@@ -22,7 +22,7 @@
 <p>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">Il</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="2:pobj|2:{arg}|1:aobj.dobj|1:{patient}#">capo</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-1:nobj" out="1:aobj.dobj|1:{patient}#|2:pobj|2:{arg}">capo</W>
 <W lemma="macchina" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}#" out="">macchine</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj|-2:{arg}" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Ask</W>
@@ -34,7 +34,7 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-3:relpa" out="-1:subj|1:vobj">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|2:preds">stato</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
-<W lemma="capo" msd="NC" tag="NOM" in="-2:preds" out="-1:focal|2:pobj|2:{arg}|1:aobj.dobj|1:{patient}#">capo</W>
+<W lemma="capo" msd="NC" tag="NOM" in="-2:preds" out="-1:focal|1:aobj.dobj|1:{patient}#|2:pobj|2:{arg}">capo</W>
 <W lemma="macchina" msd="NC" tag="NOM" in="-1:aobj.dobj|-1:{patient}#" out="">macchine</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:pobj|-2:{arg}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Peder</W>

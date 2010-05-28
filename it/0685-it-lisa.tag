@@ -74,8 +74,8 @@
 <W lemma="decesso" msd="NC" tag="NOM" in="-1:nobj" out="">decessi</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:conj" out="-1:coord|1:nobj">il</W>
-<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">fatto</W>
-<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:appr" out="4:vobj">che</W>
+<W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
+<W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="4:vobj">che</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutte</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="-1:degr|1:nobj">le</W>
 <W lemma="vittima" msd="NC" tag="NOM" in="-1:nobj" out="">vittime</W>

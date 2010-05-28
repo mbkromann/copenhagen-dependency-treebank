@@ -5,7 +5,7 @@
 <W lemma="comune" msd="NC" tag="NOM" in="-1:attr" out="">comuni</W>
 <W lemma="fra" msd="SP" tag="PRE" in="-2:pobj.subj|-2:{agent}" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">i</W>
-<W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|2:{const}|1:attr|1:{func}#">gruppi</W>
+<W lemma="gruppo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{func}#|2:attr|2:{const}">gruppi</W>
 <W lemma="parlamentare" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">parlamentari</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr|-2:{const}" out="1:nobj|33:coref-var">dei</W>
 <W lemma="partito" msd="AN" tag="ADJ" in="-1:nobj" out="1:appr">partiti</W>
@@ -189,7 +189,7 @@
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avvenire" msd="VADA" tag="VER&3a;cimp" in="-3:vobj" out="-2:subj|-1:neg|2:reas">avvenisse</W>
 <W lemma="solo" msd="RG" tag="ADV" in="1:focal" out="">solo</W>
-<W lemma="perché" msd="RG" tag="ADV" in="-2:reas" out="5:vobj|-1:focal">perché</W>
+<W lemma="perché" msd="RG" tag="ADV" in="-2:reas" out="-1:focal|5:vobj">perché</W>
 <W lemma="poco" msd="AN" tag="ADJ" in="4:subj|5:[subj]" out="2:conj|3:nobj">poche</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="singolo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">singole</W>
