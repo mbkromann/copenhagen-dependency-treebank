@@ -1,26 +1,26 @@
 <W lemma="-" msd="DASH" in="1:pnct" out="">-</W>
-<W lemma="pero" msd="NC" in="5:struct" out="-1:pnct|2:pnct">Pero</W>
+<W lemma="pero" morph="" msd="NC" in="5:struct" out="-1:pnct|2:pnct">Pero</W>
 <W lemma="querido" msd="ADJ" in="8:voc" out="4:coref|41:coref">querida</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="2:cause" out="1:nobj">¿por</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:nobj" out="">qué</W>
-<W lemma="venir" msd="VLfin" in="-4:coref|4:qobj" out="-2:cause|-5:struct|1:preds|2:loc|3:pnct">vienes</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="2:cause" out="1:nobj">¿por</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLadj" in="-1:nobj" out="">qué</W>
+<W lemma="venir" morph="venir" msd="VLfin" in="-4:coref|4:qobj" out="-2:cause|-5:struct|1:preds|2:loc|3:pnct">vienes</W>
 <W lemma="solo" msd="ADJ" in="-1:preds" out="">sola</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-2:loc" out="">aquí</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLadj" in="-2:loc" out="">aquí</W>
 <W lemma="?" msd="FS" in="-3:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:qobj|-8:voc|1:subj|2:pnct|3:vobj|9:pnct">preguntó</W>
+<W lemma="&lt;unknown&gt;" morph="preguntar" msd="VLfin" in="" out="-4:qobj|-8:voc|1:subj|2:pnct|3:vobj|9:pnct">preguntó</W>
 <W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:subj|2:[subj]" out="18:coref">él</W>
 <W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-3:vobj" out="-2:[subj]|1:preds|2:loc">quedándose</W>
-<W lemma="parar" msd="VLadj" in="-1:preds" out="">parado</W>
+<W lemma="&lt;unknown&gt;" morph="quedarse" msd="VLadj" in="-3:vobj" out="-2:[subj]|1:preds|2:loc">quedándose</W>
+<W lemma="parar" morph="parar" msd="VLadj" in="-1:preds" out="">parado</W>
 <W lemma="a" msd="PREP" in="-2:loc" out="1:nobj">a</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="distancia" msd="NC" in="-1:nobj" out="1:attr">distancia</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">prudencial</W>
+<W lemma="distancia" morph="" msd="NC" in="-1:nobj" out="1:attr">distancia</W>
+<W lemma="&lt;unknown&gt;" morph="prudencia +ial/DENOM&3a;rel.norm" msd="ADJ" in="-1:attr" out="">prudencial</W>
 <W lemma="." msd="FS" in="-9:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="5:subj|6:[subj]|7:[subj]" out="1:nobj|3:pobj|3:{arg}">La</W>
-<W lemma="mirada" msd="NC" in="-1:nobj" out="1:attr">mirada</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:attr" out="">llameante</W>
+<W lemma="mirada" morph="mirar +ada/PRED&3a;result" msd="NC" in="-1:nobj" out="1:attr">mirada</W>
+<W lemma="&lt;unknown&gt;" morph="llamear +ante/DEVERB&3a;act.pure" msd="VLfin" in="-1:attr" out="">llameante</W>
 <W lemma="de" msd="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="116:coref-id">Arnalta</W>
 <W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-5:subj|1:vobj|3:pnct">debió</W>
