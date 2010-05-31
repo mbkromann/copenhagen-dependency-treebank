@@ -114,16 +114,15 @@
 [*] da/1429-da.tag
 [*] de/1429-de-morten.tag
 [*] it/1429-it-morten.tag
-Korpus 2
-[ ] da/0152-da.tag
-[ ] de/0152-de-morten.tag
-[ ] it/0152-it-morten.tag
-[ ] da/0212-da.tag
-[ ] de/0212-de-morten.tag
-[ ] it/0212-it-morten.tag
-[ ] da/0235-da.tag
-[ ] de/0235-de-morten.tag
-[ ] it/0235-it-morten.tag
+[*] da/0152-da.tag
+[*] de/0152-de-morten.tag
+[*] it/0152-it-morten.tag
+[*] da/0212-da.tag
+[*] de/0212-de-morten.tag
+[*] it/0212-it-morten.tag
+[*] da/0235-da.tag
+[*] de/0235-de-morten.tag
+[*] it/0235-it-lisa.tag
 [ ] da/0260-da.tag
 [ ] de/0260-de-morten.tag
 [ ] it/0260-it-morten.tag
@@ -493,7 +492,7 @@ Korpus 2
 [*] da-de/0151-da-de-morten.atag
 [ ] de/0151-de-morten.tag
 [*] da-de/0152-da-de-morten.atag
-[ ] de/0152-de-morten.tag
+[*] de/0152-de-morten.tag
 [*] da-de/0159-da-de-morten.atag
 [ ] de/0159-de-morten.tag
 [*] da-de/0169-da-de-morten.atag
@@ -523,13 +522,13 @@ Korpus 2
 [ ] da-de/0211-da-de-morten.atag
 [ ] de/0211-de-morten.tag
 [ ] da-de/0212-da-de-morten.atag
-[ ] de/0212-de-morten.tag
+[*] de/0212-de-morten.tag
 [ ] da-de/0215-da-de-morten.atag
 [ ] de/0215-de-morten.tag
 [ ] da-de/0229-da-de-morten.atag
 [ ] de/0229-de-morten.tag
 [ ] da-de/0235-da-de-morten.atag
-[ ] de/0235-de-morten.tag
+[*] de/0235-de-morten.tag
 [ ] da-de/0237-da-de-morten.atag
 [ ] de/0237-de-morten.tag
 [ ] da-de/0244-da-de-morten.atag
@@ -2802,8 +2801,8 @@ Flere italienske tekster:
 [*] it/1429-it-morten.tag
 
 [ ] da-it/0152-da-it-morten.atag
-[ ] it/0152-it-morten.tag
-[ ] it/0212-it-morten.tag
+[*] it/0152-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] it/0235-it-morten.tag
 [ ] it/0260-it-morten.tag
 [ ] it/0339-it-morten.tag
@@ -2851,9 +2850,9 @@ Flere italienske tekster:
 
 # New tasks replacing wrongly assigned tasks
 [ ] da-it/0152-da-it-morten.atag
-[ ] it/0152-it-morten.tag
+[*] it/0152-it-morten.tag
 [ ] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] da-it/0260-da-it-morten.atag
 [ ] it/0260-it-morten.tag
 [ ] da-it/0351-da-it-morten.atag
@@ -2902,7 +2901,7 @@ Flere italienske tekster:
 # Tasks that should be revised because of revised translation
 
 [ ] da-it/0212-da-it-morten.atag
-[ ] it/0212-it-morten.tag
+[*] it/0212-it-morten.tag
 [ ] da-it/0426-da-it-morten.atag
 [ ] it/0426-it-morten.tag
 [ ] da-it/0800-da-it-morten.atag
@@ -4212,7 +4211,7 @@ Flere italienske tekster:
 [*] da-de/0151-da-de-morten.atag
 [ ] de/0151-de-morten.tag
 [*] da-de/0152-da-de-morten.atag
-[ ] de/0152-de-morten.tag
+[*] de/0152-de-morten.tag
 [*] da-de/0159-da-de-morten.atag
 [ ] de/0159-de-morten.tag
 [*] da-de/0169-da-de-morten.atag
@@ -4242,13 +4241,13 @@ Flere italienske tekster:
 [ ] da-de/0211-da-de-morten.atag
 [ ] de/0211-de-morten.tag
 [ ] da-de/0212-da-de-morten.atag
-[ ] de/0212-de-morten.tag
+[*] de/0212-de-morten.tag
 [ ] da-de/0215-da-de-morten.atag
 [ ] de/0215-de-morten.tag
 [ ] da-de/0229-da-de-morten.atag
 [ ] de/0229-de-morten.tag
 [ ] da-de/0235-da-de-morten.atag
-[ ] de/0235-de-morten.tag
+[*] de/0235-de-morten.tag
 [ ] da-de/0237-da-de-morten.atag
 [ ] de/0237-de-morten.tag
 [ ] da-de/0244-da-de-morten.atag
