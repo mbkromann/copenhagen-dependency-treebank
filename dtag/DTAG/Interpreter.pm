@@ -7710,7 +7710,7 @@ sub cmd_save_matches {
 			my $varkeys = $match->{'vars'} || {};
 			print MATCH "\"$filename\"\t\""
 				. join("\"\t\"",
-					map {$match->{$_} || ""} @keylist) . "\"\n";
+					map {my $m = $match->{$_}; defined($m) ? $m : ""} @keylist) . "\"\n";
 		}
 	}
 
@@ -9860,8 +9860,10 @@ sub goto_match {
 
 	# Find position of first node in $binding
 	my $min = 1e100;
-	grep {$min = $binding->{$_} if ($_ =~ /^[0-9]+$/
-		&& ($binding->{$_} < $min))} keys(%$binding);
+	grep {
+		my $v = $binding->{$_};
+		$min = $v if (defined($v) && $v =~ /^[0-9]+$/ && $v < $min);
+	} keys(%$binding);
 
 	# Goto this position
 	if (UNIVERSAL::isa($graph, "DTAG::Graph")) {
