@@ -1,20 +1,20 @@
 ANSW	1	100%=ANSW
-CAUSE:expl	11	26%=CAUSE:reas	18%=CAUSE:expl	18%=ELAB:exp	14%=CONJ	9%=CONSOL:motiv	6%=vobj	5%=conj	5%=CONSOL:just
-CAUSE:reas	8	35%=CAUSE:expl	21%=vobj	13%=DESCR:eval	13%=CONS:dir	6%=conj	6%=ELAB:exp	6%=CONSOL:just
+CAUSE:expl	12	25%=ELAB:exp	24%=CAUSE:reas	17%=CAUSE:expl	13%=CONJ	8%=CONSOL:motiv	6%=vobj	4%=conj	4%=CONSOL:just
+CAUSE:reas	9	31%=CAUSE:expl	19%=vobj	17%=ELAB:exp	11%=DESCR:eval	11%=CONS:dir	6%=conj	6%=CONSOL:just
 CONC	2	25%=CONJ	25%=ELAB:exp	25%=CONC	25%=CONTR:dir
-CONJ	41	39%=CONJ	30%=ELAB:exp	5%=CONTR:prg	4%=CAUSE:expl	4%=JOINT	4%=CONS:dir	3%=conj	2%=rel	2%=cont	2%=qobj	1%=DESCR:eval	1%=CONS:prg	1%=ELAB:exem	1%=CONC
-CONS:dir	5	30%=CONJ	25%=CONS:dir	20%=CAUSE:reas	15%=vobj	10%=CONS:prg
-CONS:prg	4	75%=CONS:prg	13%=CONJ	13%=CONS:dir
+CONJ	41	39%=CONJ	30%=ELAB:exp	4%=CAUSE:expl	4%=JOINT	4%=CONTR:prg	4%=CONS:dir	3%=conj	2%=rel	2%=cont	2%=qobj	1%=DESCR:eval	1%=CONS:prg	1%=ELAB:exem	1%=CONTR:dir	1%=CONC
+CONS:dir	6	29%=CONS:dir	25%=CONJ	17%=ELAB:rest	13%=vobj	8%=CAUSE:reas	8%=CONS:prg
+CONS:prg	4	63%=CONS:prg	13%=CONJ	13%=CONS:dir	13%=ELAB:exp
 CONSOL:just	2	50%=ELAB:exp	25%=CAUSE:reas	25%=CAUSE:expl
 CONSOL:motiv	1	100%=CAUSE:expl
 CONTR	1	33%=CONTR:prg	33%=conj	33%=CONTR:dir
-CONTR:dir	5	30%=CONTR:prg	20%=expl	20%=CONC	13%=conj	10%=CONTR:dir	7%=CONTR
-CONTR:prg	11	30%=conj	24%=CONTR:prg	18%=CONJ	15%=CONTR:dir	9%=coord	3%=CONTR
+CONTR:dir	6	33%=CONTR:prg	17%=expl	17%=CONC	11%=conj	8%=CONJ	8%=CONTR:dir	6%=CONTR
+CONTR:prg	11	30%=conj	24%=CONTR:prg	20%=CONTR:dir	14%=CONJ	9%=coord	3%=CONTR
 DESCR:eval	2	50%=CONJ	50%=CAUSE:reas
 DESCR:qual	1	100%=ELAB:exp
 ELAB:exem	1	50%=CONJ	50%=ELAB:exp
-ELAB:exp	32	39%=ELAB:exp	37%=CONJ	6%=CAUSE:expl	3%=DESCR:qual	3%=CONSOL:just	3%=ELAB:rest	2%=qobj	2%=xpl	2%=CAUSE:reas	2%=ELAB:exem	2%=CONC
-ELAB:rest	4	50%=ELAB:rest	33%=ELAB:exp	17%=xpl
+ELAB:exp	34	35%=ELAB:exp	35%=CONJ	9%=CAUSE:expl	3%=CONS:prg	3%=CAUSE:reas	3%=DESCR:qual	3%=CONSOL:just	2%=ELAB:rest	2%=qobj	2%=xpl	1%=ELAB:exem	1%=CONC
+ELAB:rest	4	38%=ELAB:rest	33%=ELAB:exp	17%=xpl	13%=CONS:dir
 JOINT	4	50%=CONJ	50%=JOINT
 PREP	4	100%=PREP
 xpl ELAB:exp	1	100%=xpl

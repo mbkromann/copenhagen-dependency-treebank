@@ -95,12 +95,18 @@ if echo $fname | grep '\.tag' > /dev/null ; then
 
 	# Try to create file if non-existent
 	if [ ! -f "$HOME/cdt/$dir/$fname" ] ; then
-		# Create file from auto tag-file
-		if [ -f "$HOME/cdt/$dir/$rfname-auto.tag" ] ; then
+		if [ -f "$HOME/cdt/$dir/$rfname.tag" ] ; then
+			# Create from tag-file
+			echo "Copying $fname from $rfname.tag" 
+			svn cp "$HOME/cdt/$dir/$rfname.tag" "$HOME/cdt/$dir/$fname"
+			echo "tag source: $rfname.tag"
+		elif [ -f "$HOME/cdt/$dir/$rfname-auto.tag" ] ; then
+			# Create file from auto tag-file
 			echo "Copying $fname from $rfname-auto.tag" 
 			svn cp "$HOME/cdt/$dir/$rfname-auto.tag" "$HOME/cdt/$dir/$fname"
 			echo "tag source: $rfname-auto.tag"
 		elif [ -f "$HOME/cdt/$dir/$rfname-tagged.tag" ] ; then
+			# Create from tagged file
 			echo "Copying $fname from $rfname-tagged.tag" 
 			svn cp "$HOME/cdt/$dir/$rfname-tagged.tag" "$HOME/cdt/$dir/$fname"
 			echo "tag source: $rfname-tagged.tag"

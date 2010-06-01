@@ -1,0 +1,3 @@
+dobj	1	100%=pnct
+nobj	1	100%=pnct
+pnct	2	50%=nobj	50%=dobj

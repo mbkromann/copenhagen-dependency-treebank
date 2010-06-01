@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Initialize variables etc.
+cd ~/cdt/docs
+manfile=cdt-manual.pdf
+tmpfile=".$manfile"
+url="http://copenhagen-dependency-treebank.googlecode.com/svn/trunk/manual/cdt-manual.pdf"
+
+# Download CDT manual
+( wget --quiet -O $tmpfile $url && sleep 1 && mv -f $tmpfile $manfile && echo "Downloaded CDT manual $manfile from $url" ) &
+
+# Open manual
+sleep 10
+acroread $manfile
+
