@@ -1,7 +1,7 @@
 	
-all: clean cdt-files figures cdt-manual.pdf
+all: clean cdt-files status figures cdt-manual.pdf
 
-quick: cdt-files cdt-manual.pdf
+quick: cdt-files status cdt-manual.pdf
 
 cdt-manual.pdf: DUMMY
 	cp cdt-manual.tex build
@@ -19,6 +19,11 @@ cdt-files:
 	dtag -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
+
+status:
+	~/cdt/tools/dtag-statusall da en de es it da-en da-de da-es da-it | grep -v 'TEXT COUNTS' | grep -v 'dims: ' \
+		| sed -e 's/=== ALL ===/\\section{All texts}\n\\begin{verbatim}\n/g' -e 's/=== \(.*\) ===/\\end{verbatim}\n\\section{\1 texts}\n\\begin{verbatim}\n/g' | egrep -v '^$$' > build/statusall.tex
+	echo '\\end{verbatim}' >> build/statusall.tex
 
 figures: 
 	ls build/*.dtag | grep -v script | sed -e 's/^\(.*\).dtag$$/script \1.dtag\nprint \1.ps/g' > build/script.dtag
