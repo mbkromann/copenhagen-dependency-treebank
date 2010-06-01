@@ -38,8 +38,8 @@ while (my $line = <>) {
 my $filecounts = {"ALL" => {}};
 my $tokencounts = {"ALL" => {}};
 @counttypes = ($filecounts);
-push @counttypes, $filecounts if ($includeTokenCounts);
-foreach my $counts ($filecounts, $tokencounts) {
+push @counttypes, $tokencounts if ($includeTokenCounts);
+foreach my $counts (@counttypes) {
 	print "\n\n===== " . ($counts eq $filecounts ? "TEXT COUNTS" : "TOKEN COUNTS") . "=====\n\n";
 	foreach my $file (keys(%$status)) {
 		$file =~ /^[0-9]*-(.*)$/;
