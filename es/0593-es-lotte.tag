@@ -1,88 +1,88 @@
 <W lemma="el" msd="ART" in="4:subj|5:[subj]" out="1:nobj|25:coref-var">El</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:goal#">subsidio</W>
+<W lemma="subsidio" morph="" msd="NC" in="-1:nobj" out="1:goal#">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
-<W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
-<W lemma="poder" msd="VMfin" in="" out="-4:subj|1:vobj|7:pnct">puede</W>
-<W lemma="ser" msd="VSinf" in="-1:vobj" out="-5:[subj]|1:vobj">ser</W>
-<W lemma="solicitar" msd="VLadj" in="-1:vobj" out="1:agent">solicitada</W>
+<W lemma="vivienda" morph="vivir +ienda/PRED&3a;loc" msd="NC" in="-1:nobj" out="">vivienda</W>
+<W lemma="poder" morph="poder" msd="VMfin" in="" out="-4:subj|1:vobj|7:pnct">puede</W>
+<W lemma="ser" morph="" msd="VSinf" in="-1:vobj" out="-5:[subj]|1:vobj">ser</W>
+<W lemma="solicitar" morph="solicitar" msd="VLadj" in="-1:vobj" out="1:agent">solicitada</W>
 <W lemma="por" msd="PREP" in="-1:agent" out="2:nobj">por</W>
 <W lemma="todo" msd="QU" in="1:attr" out="77:subj">todos</W>
 <W lemma="el" msd="ART" in="-2:nobj" out="-1:attr|1:nobj">los</W>
-<W lemma="jubilar" msd="VLadj" in="-1:nobj" out="">jubilados</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-7:pnct" out="">–</W>
+<W lemma="jubilar" morph="jubilar +ado/PRED&3a;exper" msd="VLadj" in="-1:nobj" out="">jubilados</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLfin" in="-7:pnct" out="">–</W>
 <W lemma="tanto" msd="ADV" in="2:correl" out="">tanto</W>
 <W lemma="soltero" msd="ADJ" in="" out="2:conj">solteros</W>
 <W lemma="como" msd="CSUBX" in="1:coord" out="-2:correl">como</W>
-<W lemma="matrimonio" msd="NC" in="-2:conj" out="-1:coord|1:loc|2:ref|6:coref-part|7:relr">matrimonios</W>
+<W lemma="matrimonio" morph="matrimonio" msd="NC" in="-2:conj" out="-1:coord|1:loc|2:ref|6:coref-part|7:relr">matrimonios</W>
 <W lemma="en" msd="PREP" in="-1:loc" out="">en</W>
 <W lemma="que" msd="CQUE" in="-2:ref" out="">que</W>
 <W lemma="uno" msd="CARD" in="4:subj" out="2:conj">uno</W>
 <W lemma="o" msd="CC" in="1:coord" out="">o</W>
 <W lemma="ambo" msd="QU" in="-2:conj" out="-1:coord|1:nobj">ambos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj|-6:coref-part" out="">cónyuges</W>
+<W lemma="&lt;unknown&gt;" morph="cónyuge" msd="NC" in="-1:nobj|-6:coref-part" out="">cónyuges</W>
 <W lemma="&lt;unknown&gt;" msd="ADV" in="-7:relr" out="-4:subj|1:preds|2:pnct">están</W>
-<W lemma="jubilar" msd="VLadj" in="-1:preds" out="">jubilados</W>
+<W lemma="jubilar" morph="jubilar" msd="VLadj" in="-1:preds" out="">jubilados</W>
 <W lemma="." msd="FS" in="-2:pnct" out="">.</W>
 <W lemma="esto" msd="DM" in="-25:coref-var|2:subj" out="1:nobj|7:coref-var">Este</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj" out="">subsidio</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-2:subj|1:preds|4:pnct">está</W>
+<W lemma="subsidio" morph="" msd="NC" in="-1:nobj" out="">subsidio</W>
+<W lemma="&lt;unknown&gt;" morph="estar" msd="VLfin" in="" out="-2:subj|1:preds|4:pnct">está</W>
 <W lemma="libre" msd="ADJ" in="-1:preds" out="1:pobj">libre</W>
 <W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="imponer" msd="VLadj" in="-1:nobj" out="">impuestos</W>
+<W lemma="imponer" morph="imponer +Ø/PRED&3a;result" msd="VLadj" in="-1:nobj" out="">impuestos</W>
 <W lemma="." msd="FS" in="-4:pnct" out="">.</W>
 <W lemma="el" msd="ART" in="-7:coref-var|5:subj" out="1:nobj|38:coref-id">El</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj" out="1:goal#">subsidio</W>
+<W lemma="subsidio" morph="" msd="NC" in="-1:nobj" out="1:goal#">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
-<W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
+<W lemma="vivienda" morph="vivir +ienda/PRED&3a;loc" msd="NC" in="-1:nobj" out="">vivienda</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="calcular" msd="VLfin" in="" out="-1:robj|-5:subj|3:man|8:pnct|27:pnct|30:coref-var">calcula</W>
+<W lemma="calcular" morph="cálculo +ar/DER&3a;nv" msd="VLfin" in="" out="-1:robj|-5:subj|3:man|8:pnct|27:pnct|30:coref-var">calcula</W>
 <W lemma="a" msd="PREP" in="" out="">a</W>
-<W lemma="base" msd="NC" in="" out="">base</W>
+<W lemma="base" morph="" msd="NC" in="" out="">base</W>
 <W lemma="de" msd="PREP" in="-3:man" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|5:conj|11:conj|16:conj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">cuantía</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">cuantía</W>
 <W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="alquiler" msd="NC" in="-1:nobj" out="">alquiler</W>
+<W lemma="alquiler" morph="alquilar +er/PRED&3a;other" msd="NC" in="-1:nobj" out="">alquiler</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-5:conj" out="1:nobj|5:pnct">los</W>
-<W lemma="ingreso" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">ingresos</W>
+<W lemma="ingreso" morph="" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">ingresos</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="familia" msd="NC" in="-1:nobj" out="">familia</W>
+<W lemma="familia" morph="" msd="NC" in="-1:nobj" out="">familia</W>
 <W lemma="," msd="CM" in="-5:pnct" out="">,</W>
 <W lemma="el" msd="ART" in="-11:conj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">tamaño</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">tamaño</W>
 <W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="piso" msd="NC" in="-1:nobj" out="">piso</W>
+<W lemma="piso" morph="" msd="NC" in="-1:nobj" out="">piso</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
 <W lemma="el" msd="ART" in="-16:conj" out="-1:coord|1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:conj|3:pobj|3:{arg}">tamaño</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:nobj" out="2:conj|3:pobj|3:{arg}">tamaño</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:conj" out="-1:coord">composición</W>
+<W lemma="&lt;unknown&gt;" morph="componer +Ø/PRED&3a;result" msd="NC" in="-2:conj" out="-1:coord">composición</W>
 <W lemma="de" msd="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="familia" msd="NC" in="-1:nobj" out="">familia</W>
+<W lemma="familia" morph="" msd="NC" in="-1:nobj" out="">familia</W>
 <W lemma="." msd="FS" in="-27:pnct" out="">.</W>
 <W lemma="en" msd="PREP" in="" out="">En</W>
 <W lemma="cuanto" msd="REL" in="" out="">cuanto</W>
 <W lemma="al" msd="PAL" in="-30:coref-var|7:bg" out="1:nobj">al</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">cálculo</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}">cálculo</W>
 <W lemma="del" msd="PDEL" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W lemma="subsidio" msd="NC" in="-1:nobj|-38:coref-id" out="1:goal#|44:coref-id">subsidio</W>
+<W lemma="subsidio" morph="" msd="NC" in="-1:nobj|-38:coref-id" out="1:goal#|44:coref-id">subsidio</W>
 <W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
-<W lemma="vivienda" msd="NC" in="-1:nobj" out="">vivienda</W>
+<W lemma="vivienda" morph="vivir +ienda/PRED&3a;loc" msd="NC" in="-1:nobj" out="">vivienda</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="tomar" msd="VLfin" in="" out="-1:robj|-7:bg|3:dobj|7:pnct">toma</W>
+<W lemma="tomar" morph="tomar" msd="VLfin" in="" out="-1:robj|-7:bg|3:dobj|7:pnct">toma</W>
 <W lemma="como" msd="CSUBX" in="2:comp" out="1:nobj">como</W>
-<W lemma="basar" msd="VLfin" in="-1:nobj" out="">base</W>
+<W lemma="basar" morph="" msd="VLfin" in="-1:nobj" out="">base</W>
 <W lemma="el" msd="ART" in="-3:dobj" out="-2:comp|1:attr|2:nobj|16:coref-id">el</W>
-<W lemma="llamar" msd="VLadj" in="-1:attr" out="">llamado</W>
-<W lemma="importe" msd="NC" in="-2:nobj" out="1:attrr#">importe</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:attrr#" out="">límite</W>
+<W lemma="llamar" morph="llamar +ado/DEVERB&3a;pas.part" msd="VLadj" in="-1:attr" out="">llamado</W>
+<W lemma="importe" morph="importar +e/PRED&3a;result" msd="NC" in="-2:nobj" out="1:attrr#">importe</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:attrr#" out="">límite</W>
 <W lemma="." msd="FS" in="-7:pnct" out="">.</W>
 <W lemma="para" msd="PREP" in="14:bg" out="1:nobj">Para</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|2:ref|4:relr">los</W>
-<W lemma="ingreso" msd="NC" in="-1:nobj" out="">ingresos</W>
+<W lemma="ingreso" morph="" msd="NC" in="-1:nobj" out="">ingresos</W>
 <W lemma="que" msd="CQUE" in="-2:ref|-77:subj" out="">que</W>
 <W lemma="no" msd="NEG" in="1:neg" out="">no</W>
 <W lemma="sobrepasar" msd="VLfin" in="-4:relr" out="-1:neg|1:pobj|5:pnct">sobrepasan</W>
