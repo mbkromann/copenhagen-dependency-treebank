@@ -1,9 +1,9 @@
 # Indsæt "*" når annotationen er afsluttet
-[ ] en/0151-en-morten.tag
-[ ] en/1361-en-morten.tag
-[ ] en/1031-en-morten.tag
-[ ] en/1400-en-morten.tag
-[ ] en/1289-en-morten.tag
+[*] en/0151-en-morten.tag
+[*] en/1361-en-morten.tag
+[*] en/1031-en-morten.tag
+[*] en/1400-en-morten.tag
+[*] en/1289-en-morten.tag
 [ ] en/0264-en-morten.tag
 [ ] en/0670-en-morten.tag
 [ ] en/1378-en-morten.tag
