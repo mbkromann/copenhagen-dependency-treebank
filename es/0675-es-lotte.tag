@@ -1,41 +1,41 @@
 <W lemma="Thomas" msd="NP" in="1:namef" out="">Thomas</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:subj" out="-1:namef|23:coref">Stuer</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-1:subj|1:dobj|8:pnct|22:conj">perdió</W>
+<W lemma="&lt;unknown&gt;" morph="perder" msd="VLfin" in="" out="-1:subj|1:dobj|8:pnct|22:conj">perdió</W>
 <W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="set" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">set</W>
+<W lemma="set" morph="" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">set</W>
 <W lemma="contra" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">contra</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="2:appr">coreano</W>
+<W lemma="&lt;unknown&gt;" morph="Corea +no/NOPRED&3a;script" msd="NC" in="-1:nobj" out="2:appr">coreano</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Lee</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:appr" out="-1:namef">Kwan-Jin</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="13:coord" out="">pero</W>
 <W lemma="en" msd="PREP" in="12:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|23:assoc-const">los</W>
-<W lemma="cuarto" msd="NC" in="-1:nobj" out="4:pobj|4:{arg}|1:pobj|1:{arg}#">cuartos</W>
+<W lemma="cuarto" morph="cuatro +Ø/DENUM&3a;ord" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}#|4:pobj|4:{arg}">cuartos</W>
 <W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
-<W lemma="final" msd="NC" in="-1:nobj" out="">final</W>
+<W lemma="final" morph="" msd="NC" in="-1:nobj" out="">final</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="contra" msd="PREP" in="-4:pobj|-4:{arg}" out="-1:pnct|1:nobj">contra</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="chino" msd="NC" in="-1:nobj" out="2:appr">chino</W>
+<W lemma="chino" morph="China +o/NOPRED&3a;script" msd="NC" in="-1:nobj" out="2:appr">chino</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Wan</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-2:appr" out="-1:namef">Shengwen</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLfin" in="-2:appr" out="-1:namef">Shengwen</W>
 <W lemma="&3a;" msd="COLON" in="" out="">:</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-22:conj|-23:coref" out="-13:coord|-12:loc|1:man|6:conj|6:coref|29:pnct">“Gané</W>
+<W lemma="&lt;unknown&gt;" morph="ganar" msd="NC" in="-22:conj|-23:coref" out="-13:coord|-12:loc|1:man|6:conj|6:coref|29:pnct">“Gané</W>
 <W lemma="@card@" msd="CODE" in="-1:man" out="2:conj">15-9</W>
 <W lemma="," msd="CM" in="1:coord" out="">,</W>
 <W lemma="@card@" msd="CODE" in="-2:conj" out="-1:coord|1:pnct">15-8</W>
 <W lemma="," msd="CM" in="-1:pnct" out="">,</W>
 <W lemma="pero" msd="CCAD" in="1:coord" out="">pero</W>
-<W lemma="estar" msd="VLfin" in="-6:conj|-6:coref" out="-1:coord|1:vobj|12:struct|15:time|17:coref">estaba</W>
-<W lemma="perder" msd="VLger" in="-1:vobj" out="1:degr|4:loc|8:man">perdiendo</W>
+<W lemma="estar" morph="estar" msd="VLfin" in="-6:conj|-6:coref" out="-1:coord|1:vobj|12:struct|15:time|17:coref">estaba</W>
+<W lemma="perder" morph="perder" msd="VLger" in="-1:vobj" out="1:degr|4:loc|8:man">perdiendo</W>
 <W lemma="a" msd="PREP" in="-1:degr" out="1:nobj">a</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">lo</W>
 <W lemma="grande" msd="ADJ" in="-1:nobj" out="">grande</W>
 <W lemma="en" msd="PREP" in="-4:loc" out="1:nobj">en</W>
 <W lemma="ambo" msd="QU" in="-1:nobj|-23:assoc-const" out="1:nobj|23:coref-part">ambos</W>
-<W lemma="set" msd="NC" in="-1:nobj" out="">sets</W>
+<W lemma="set" morph="set" msd="NC" in="-1:nobj" out="">sets</W>
 <W lemma="," msd="CM" in="1:pnct" out="">,</W>
 <W lemma="@card@" msd="CODE" in="-8:man" out="-1:pnct|2:conj">0-7</W>
 <W lemma="y" msd="CC" in="1:coord" out="">y</W>
@@ -45,42 +45,42 @@
 <W lemma="antes" msd="ADV" in="" out="">antes</W>
 <W lemma="de" msd="PREP" in="-15:time" out="1:nobj">de</W>
 <W lemma="que" msd="CQUE" in="-1:nobj" out="1:vobj">que</W>
-<W lemma="llegar" msd="VLfin" in="-1:vobj|-17:coref" out="1:pobj|8:coref">llegara</W>
+<W lemma="llegar" morph="llegar" msd="VLfin" in="-1:vobj|-17:coref" out="1:pobj|8:coref">llegara</W>
 <W lemma="a" msd="PREP" in="-1:pobj" out="1:vobj">a</W>
-<W lemma="estructurar" msd="VLinf" in="-1:vobj" out="1:dobj">estructurar</W>
+<W lemma="estructurar" morph="estructura +ar/DER.nv" msd="VLinf" in="-1:vobj" out="1:dobj">estructurar</W>
 <W lemma="mo" msd="PPO" in="-1:dobj" out="1:possd|2:attr">mi</W>
-<W lemma="juego" msd="NC" in="-1:possd" out="">juego</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-2:attr" out="">básico</W>
+<W lemma="juego" morph="jugar +o/PRED&3a;core" msd="NC" in="-1:possd" out="">juego</W>
+<W lemma="&lt;unknown&gt;" morph="base +ico/DENOM&3a;rel.norm" msd="ADJ" in="-2:attr" out="">básico</W>
 <W lemma="." msd="FS" in="-29:pnct" out="">.</W>
 <W lemma="especialmente" msd="ADV" in="1:degr" out="">Especialmente</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:coref" out="-1:degr|1:dobj|3:loc|7:pnct|10:conj|10:coref">varié</W>
+<W lemma="&lt;unknown&gt;" morph="variar" msd="VLfin" in="-8:coref" out="-1:degr|1:dobj|3:loc|7:pnct|10:conj|10:coref">varié</W>
 <W lemma="mo" msd="PPO" in="-1:dobj" out="1:nobj">mi</W>
-<W lemma="juego" msd="NC" in="-1:nobj" out="">juego</W>
+<W lemma="juego" morph="jugar +o/PRED&3a;core" msd="NC" in="-1:nobj" out="">juego</W>
 <W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
 <W lemma="el" msd="ART" in="-1:nobj|-23:coref-part" out="1:attr|2:nobj">el</W>
 <W lemma="primero" msd="ORD" in="-1:attr" out="">primer</W>
-<W lemma="set" msd="NC" in="-2:nobj" out="">set</W>
+<W lemma="set" morph="" msd="NC" in="-2:nobj" out="">set</W>
 <W lemma="," msd="CM" in="-7:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
 <W lemma="l" msd="PPO" in="1:dobj" out="">lo</W>
-<W lemma="hacer" msd="VLfin" in="-10:conj|-10:coref" out="-2:coord|-1:dobj|1:man|12:coref">hice</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:man" out="">bien.”</W>
+<W lemma="hacer" morph="hacer" msd="VLfin" in="-10:conj|-10:coref" out="-2:coord|-1:dobj|1:man|12:coref">hice</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:man" out="">bien.”</W>
 <W lemma="en" msd="PREP" in="11:time" out="1:nobj|8:pnct">En</W>
 <W lemma="el" msd="ART" in="-1:nobj" out="1:nobj|12:assoc-const|54:coref-var|61:assoc-const">los</W>
 <W lemma="dos" msd="CARD" in="-1:nobj" out="1:attr|2:nobj">dos</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:attr" out="">últimos</W>
-<W lemma="encuentro" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}">encuentros</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="VLfin" in="-1:attr" out="">últimos</W>
+<W lemma="encuentro" morph="encontrar +o/PRED&3a;core" msd="NC" in="-2:nobj" out="1:pobj|1:{arg}">encuentros</W>
 <W lemma="contra" msd="PREP" in="-1:pobj|-1:{arg}" out="2:nobj">contra</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="28:coref-id">Ardy</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-2:nobj" out="-1:namef">Wiranata</W>
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="Thomas" msd="NP" in="1:namef" out="">Thomas</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="-12:coref|1:subj|2:[subj]" out="-1:namef|21:coref">Stuer</W>
-<W lemma="haber" msd="VHfin" in="" out="-1:subj|-11:time|1:vobj|16:conj">ha</W>
-<W lemma="ganar" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">ganado</W>
+<W lemma="haber" morph="haber" msd="VHfin" in="" out="-1:subj|-11:time|1:vobj|16:conj">ha</W>
+<W lemma="ganar" morph="ganar" msd="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">ganado</W>
 <W lemma="el" msd="ART" in="-1:dobj|-12:assoc-const" out="1:attr|2:nobj|37:coref-id">el</W>
 <W lemma="primero" msd="ORD" in="-1:attr" out="">primer</W>
-<W lemma="set" msd="NC" in="-2:nobj" out="">set</W>
+<W lemma="set" morph="" msd="NC" in="-2:nobj" out="">set</W>
 <W lemma="," msd="CM" in="3:pnct" out="">,</W>
 <W lemma="y" msd="CC" in="10:coord" out="">y</W>
 <W lemma="antes" msd="ADV" in="" out="">antes</W>
