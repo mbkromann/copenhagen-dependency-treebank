@@ -1,3 +1,4 @@
-!url="http://spreadsheets.google.com/pub?key=rsTXbk_yYNLCst1bijZTWCQ&output=csv"; wget --quiet -O ~/cdt/docs/.relations-cdt.csv $url && sleep 1 && mv -f ~/cdt/docs/.relations-cdt.csv ~/cdt/docs/relations-cdt.csv && echo "Downloaded relset \"cdt\" from $url"
+!dir="$HOME/cdt/docs"; file="relations-cdt.csv"; url="http://spreadsheets.google.com/pub?key=0ArjTKYTQS1lWcnNUWGJrX3lZTkxDc3QxYmlqWlRXQ1E&hl=en&output=csv"; if [ ! -f $dir/$file -o ! -z `find $dir -name $file -cmin +30` ] ; then wget -q -O $dir/$file.new "$url" && sleep 1 && mv -f $dir/$file.new $dir/$file && echo "downloaded relset \"cdt\" from $url" ; fi
 relset cdt ~/cdt/docs/relations-cdt.csv
+
 

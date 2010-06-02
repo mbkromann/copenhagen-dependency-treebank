@@ -1,211 +1,211 @@
-<W msd="ART" lemma="el">La</W>
-<W msd="NC" lemma="pasta">pasta</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="vendar|vender">vende</W>
-<W msd="ADJ" lemma="fresco">fresca</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADJ" lemma="seco">seca</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="plato">platos</W>
-<W msd="VLadj" lemma="preparar">preparados</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="usar">usan</W>
-<W msd="PREP" lemma="junto~con">junto con</W>
-<W msd="NC" lemma="pescado">pescado</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="ave">aves</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="carne">carne</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="verdura">verduras</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="desde">Desde</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="comenzar">comenzamos</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="VLinf" lemma="producir">producir</W>
-<W msd="NC" lemma="pasta">pasta</W>
-<W msd="ADJ" lemma="fresco">fresca</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="haber">hemos</W>
-<W msd="VLadj" lemma="duplicar">duplicado</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="venta">venta</W>
-<W msd="QU" lemma="cada">cada</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">año</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DM" lemma="esto">Este</W>
-<W msd="NC" lemma="&lt;unknown&gt;">año</W>
-<W msd="VLfin" lemma="contar">contamos</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="VLinf" lemma="vender">vender</W>
-<W msd="CARD" lemma="@card@">700</W>
-<W msd="NC" lemma="tonelada">toneladas</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">–</W>
-<W msd="ART" lemma="el">lo</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="equivaler">equivale</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="CARD" lemma="@card@">2,8</W>
-<W msd="CARD" lemma="millones">millones</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="paquete">paquetes</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="contar">cuenta</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="jefe">jefe</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">producción</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Lars</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Bred</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tholstrup</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Cheese</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tholstrup</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Cheese</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="&lt;unknown&gt;">único</W>
-<W msd="ADJ" lemma="productor">productor</W>
-<W msd="NC" lemma="&lt;unknown&gt;">danés</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="pasta">pasta</W>
-<W msd="ADJ" lemma="fresco">fresca</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CCAD" lemma="pero">pero</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="NC" lemma="rumor">rumores</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="sector">sector</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="producto">productos</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">lácteos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">también</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="productor">productor</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="pan">pan</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="ir">va</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="VLinf" lemma="comenzar">comenzar</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">producción</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="QU" lemma="pocos">poco</W>
-<W msd="NC" lemma="tiempo">tiempo</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="a">A</W>
-<W msd="NC" lemma="&lt;unknown&gt;">través</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="tendencia">tendencias</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="extranjero">extranjero</W>
-<W msd="VLfin" lemma="podar|poder">podemos</W>
-<W msd="VLinf" lemma="presentir">presentir</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="NC" lemma="futuro">futuro</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="pasta">pasta</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="decir">dice</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Lars</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Bred</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="REL" lemma="quien">quien</W>
-<W msd="NC" lemma="&lt;unknown&gt;">regresó</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NC" lemma="casa">casa</W>
-<W msd="ADV" lemma="ayer">ayer</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">después</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="VHinf" lemma="haber">haber</W>
-<W msd="VLadj" lemma="participar">participado</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="ADJ" lemma="grande">mayor</W>
-<W msd="NC" lemma="feria">feria</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="producto">productos</W>
-<W msd="ADJ" lemma="alimenticio">alimenticios</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="mundo">mundo</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NP" lemma="&lt;unknown&gt;">NUGA</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NP" lemma="Alemania">Alemania</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Exportación</W>
-<W msd="NP" lemma="La">La</W>
-<W msd="NC" lemma="pasta">pasta</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">todavía</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">pequeña</W>
-<W msd="NC" lemma="parte">parte</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="negocio">negocios</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tholstrup</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Cheese</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Sólo</W>
-<W msd="CODE" lemma="@card@">30</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="CARD" lemma="@card@">500</W>
-<W msd="NC" lemma="empleado">empleados</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="empresa">empresa</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="ocupar">ocupan</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="VLfin" lemma="tirar">tiras</W>
-<W msd="ADJ" lemma="blando">blandas</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="de">De</W>
-<W msd="QU" lemma="todo">todas</W>
-<W msd="NC" lemma="manera">maneras</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="empresa">empresa</W>
-<W msd="ADV" lemma="ya">ya</W>
-<W msd="VLfin" lemma="exportar">exporta</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NP" lemma="Noruega">Noruega</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NP" lemma="Suecia">Suecia</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NP" lemma="Finlandia">Finlandia</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Lars</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Bred</W>
-<W msd="VLfin" lemma="crear|creer">cree</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="PREP" lemma="hasta">hasta</W>
-<W msd="NP" lemma="Italia">Italia</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">será</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="ADJ" lemma="bueno">buena</W>
-<W msd="ADJ" lemma="receptor">receptora</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="PPO" lemma="suyo">sus</W>
-<W msd="NC" lemma="producto">productos</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
+<W lemma="pasta" msd="NC" tag="NC" in="" out="">pasta</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="vendar&7c;vender" msd="VAD" tag="VLfin" in="" out="">vende</W>
+<W lemma="fresco" msd="AN" tag="ADJ" in="" out="">fresca</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="seco" msd="AN" tag="ADJ" in="" out="">seca</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="plato" msd="NC" tag="NC" in="" out="">platos</W>
+<W lemma="preparar" msd="VAF" tag="VLadj" in="" out="">preparados</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="usar" msd="VAD" tag="VLfin" in="" out="">usan</W>
+<W lemma="junto~con" msd="SP" tag="PREP" in="" out="">junto con</W>
+<W lemma="pescado" msd="NC" tag="NC" in="" out="">pescado</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="ave" msd="NC" tag="NC" in="" out="">aves</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="carne" msd="NC" tag="NC" in="" out="">carne</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="verdura" msd="NC" tag="NC" in="" out="">verduras</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="desde" msd="SP" tag="PREP" in="" out="">Desde</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="comenzar" msd="VAD" tag="VLfin" in="" out="">comenzamos</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="producir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">producir</W>
+<W lemma="pasta" msd="NC" tag="NC" in="" out="">pasta</W>
+<W lemma="fresco" msd="AN" tag="ADJ" in="" out="">fresca</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="haber" msd="VAD" tag="VLfin" in="" out="">hemos</W>
+<W lemma="duplicar" msd="VAF" tag="VLadj" in="" out="">duplicado</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="venta" msd="NC" tag="NC" in="" out="">venta</W>
+<W lemma="cada" msd="AN" tag="QU" in="" out="">cada</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">año</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="esto" msd="" tag="DM" in="" out="">Este</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">año</W>
+<W lemma="contar" msd="VAD" tag="VLfin" in="" out="">contamos</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="vender" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">vender</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">700</W>
+<W lemma="tonelada" msd="NC" tag="NC" in="" out="">toneladas</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">–</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="equivaler" msd="VAD" tag="VLfin" in="" out="">equivale</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">2,8</W>
+<W lemma="millones" msd="AC" tag="CARD" in="" out="">millones</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="paquete" msd="NC" tag="NC" in="" out="">paquetes</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="contar" msd="VAD" tag="VLfin" in="" out="">cuenta</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="jefe" msd="NC" tag="NC" in="" out="">jefe</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">producción</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bred</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Cheese</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Cheese</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">único</W>
+<W lemma="productor" msd="AN" tag="ADJ" in="" out="">productor</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">danés</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="pasta" msd="NC" tag="NC" in="" out="">pasta</W>
+<W lemma="fresco" msd="AN" tag="ADJ" in="" out="">fresca</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">pero</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="rumor" msd="NC" tag="NC" in="" out="">rumores</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="sector" msd="NC" tag="NC" in="" out="">sector</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="producto" msd="NC" tag="NC" in="" out="">productos</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">lácteos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">también</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="productor" msd="NC" tag="NC" in="" out="">productor</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="pan" msd="NC" tag="NC" in="" out="">pan</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="ir" msd="VAD" tag="VLfin" in="" out="">va</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="comenzar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">comenzar</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">producción</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="pocos" msd="AN" tag="QU" in="" out="">poco</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="" out="">tiempo</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">A</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">través</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="tendencia" msd="NC" tag="NC" in="" out="">tendencias</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="extranjero" msd="NC" tag="NC" in="" out="">extranjero</W>
+<W lemma="podar&7c;poder" msd="VAD" tag="VLfin" in="" out="">podemos</W>
+<W lemma="presentir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">presentir</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="futuro" msd="NC" tag="NC" in="" out="">futuro</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="pasta" msd="NC" tag="NC" in="" out="">pasta</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="decir" msd="VAD" tag="VLfin" in="" out="">dice</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bred</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="quien" msd="PT" tag="REL" in="" out="">quien</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">regresó</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="casa" msd="NC" tag="NC" in="" out="">casa</W>
+<W lemma="ayer" msd="RG" tag="ADV" in="" out="">ayer</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">después</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="" out="">haber</W>
+<W lemma="participar" msd="VAF" tag="VLadj" in="" out="">participado</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="" out="">mayor</W>
+<W lemma="feria" msd="NC" tag="NC" in="" out="">feria</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="producto" msd="NC" tag="NC" in="" out="">productos</W>
+<W lemma="alimenticio" msd="AN" tag="ADJ" in="" out="">alimenticios</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="mundo" msd="NC" tag="NC" in="" out="">mundo</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">NUGA</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="Alemania" msd="NP" tag="NP" in="" out="">Alemania</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Exportación</W>
+<W lemma="La" msd="NP" tag="NP" in="" out="">La</W>
+<W lemma="pasta" msd="NC" tag="NC" in="" out="">pasta</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">todavía</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">pequeña</W>
+<W lemma="parte" msd="NC" tag="NC" in="" out="">parte</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="negocio" msd="NC" tag="NC" in="" out="">negocios</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Cheese</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Sólo</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="" out="">30</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">500</W>
+<W lemma="empleado" msd="NC" tag="NC" in="" out="">empleados</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="empresa" msd="NC" tag="NC" in="" out="">empresa</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="ocupar" msd="VAD" tag="VLfin" in="" out="">ocupan</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
+<W lemma="tirar" msd="VAD" tag="VLfin" in="" out="">tiras</W>
+<W lemma="blando" msd="AN" tag="ADJ" in="" out="">blandas</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">De</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todas</W>
+<W lemma="manera" msd="NC" tag="NC" in="" out="">maneras</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="empresa" msd="NC" tag="NC" in="" out="">empresa</W>
+<W lemma="ya" msd="RG" tag="ADV" in="" out="">ya</W>
+<W lemma="exportar" msd="VAD" tag="VLfin" in="" out="">exporta</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="Noruega" msd="NP" tag="NP" in="" out="">Noruega</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="Suecia" msd="NP" tag="NP" in="" out="">Suecia</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="Finlandia" msd="NP" tag="NP" in="" out="">Finlandia</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lars</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bred</W>
+<W lemma="crear&7c;creer" msd="VAD" tag="VLfin" in="" out="">cree</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="Italia" msd="NP" tag="NP" in="" out="">Italia</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">será</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="" out="">buena</W>
+<W lemma="receptor" msd="AN" tag="ADJ" in="" out="">receptora</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
+<W lemma="producto" msd="NC" tag="NC" in="" out="">productos</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>

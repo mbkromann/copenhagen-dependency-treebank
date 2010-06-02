@@ -1,220 +1,220 @@
-<W msd="ART" lemma="el">Las</W>
-<W msd="ADJ" lemma="nuevo">nuevas</W>
-<W msd="NC" lemma="empresa">empresas</W>
-<W msd="VMfin" lemma="deber">deben</W>
-<W msd="VCLI" lemma="situarse">situarse</W>
-<W msd="ADV" lemma="principalmente">principalmente</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="zona">zona</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="PE" lemma="sur">sur</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Bella</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Centret</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADV" lemma="donde">donde</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="NC" lemma="posibilidad">posibilidades</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">edificación</W>
-<W msd="ADJ" lemma="intenso">intensa</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">Por el contrario</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VMfin" lemma="deber">debe</W>
-<W msd="VLinf" lemma="respetar">respetar</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="naturaleza">naturaleza</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="norte">norte</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Bella</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Centret</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADV" lemma="donde">donde</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="ADJ" lemma="total">total</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">31</W>
-<W msd="NC" lemma="&lt;unknown&gt;">hectáreas</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">serán</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">eximidas</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">consideración</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="naturaleza">naturaleza</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">La</W>
-<W msd="NC" lemma="parte">parte</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Amager</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Fælled</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="formar">forma</W>
-<W msd="NC" lemma="parte">parte</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Ørestaden</W>
-<W msd="VMfin" lemma="deber">debe</W>
-<W msd="VEinf" lemma="estar">estar</W>
-<W msd="VLadj" lemma="proteger">protegida</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="SE" lemma="se">Se</W>
-<W msd="VLfin" lemma="tratar">trata</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">240</W>
-<W msd="NC" lemma="&lt;unknown&gt;">hectáreas</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="DM" lemma="ese">esa</W>
-<W msd="NC" lemma="zona">zona</W>
-<W msd="VMfin" lemma="deber">debe</W>
-<W msd="VLinf" lemma="tener">tener</W>
-<W msd="NC" lemma="&lt;unknown&gt;">carácter</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="parque">parque</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="ciudad">ciudad</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ADJ" lemma="grande">gran</W>
-<W msd="NC" lemma="&lt;unknown&gt;">tamaño</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADJ" lemma="junto">Junto</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Kalvebodkilerne</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ADV" lemma="hoy">hoy</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">están</W>
-<W msd="VLadj" lemma="proteger">protegidos</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Amager</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">tendrá</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="parque">parque</W>
-<W msd="ADJ" lemma="natural">natural</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">25</W>
-<W msd="NC" lemma="&lt;unknown&gt;">kilómetros</W>
-<W msd="VLadj" lemma="cuadrar">cuadrados</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ADJ" lemma="total">total</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">También</W>
-<W msd="VMfin" lemma="haber~que">hay que</W>
-<W msd="VLinf" lemma="atender">atender</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="cultura">cultura</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Ørestaden</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Ny</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tøjhusgrunden</W>
-<W msd="VMfin" lemma="deber">debe</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">edificarse</W>
-<W msd="ART" lemma="el">lo</W>
-<W msd="ADV" lemma="antes">antes</W>
-<W msd="ADJ" lemma="posible">posible</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADV" lemma="preferentemente">preferentemente</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="casa">casa</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="cultura">cultura</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="&lt;unknown&gt;">música</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Además</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="zona">zona</W>
-<W msd="PREP" lemma="alrededor">alrededor</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="lago">lagos</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="zona">zona</W>
-<W msd="NC" lemma="norte">norte</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Ørestaden</W>
-<W msd="VMfin" lemma="deber">debe</W>
-<W msd="VSinf" lemma="ser">ser</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="zona">zona</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="exposicin">exposiciones</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">Los</W>
-<W msd="NC" lemma="partido">partidos</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">políticos</W>
-<W msd="VLfin" lemma="sugerir">sugieren</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">exposición</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">báltica</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="&lt;unknown&gt;">relación</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="&lt;unknown&gt;">título</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="ciudad">ciudad</W>
-<W msd="ADJ" lemma="cultural">cultural</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Copenhague</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="CARD" lemma="@card@">1996</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CC" lemma="y">Y</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="final">final</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Amager</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">obtendrá</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="tren">tren</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cercanías</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="SE" lemma="se">Se</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">construirándos</W>
-<W msd="CARD" lemma="dos">dos</W>
-<W msd="NC" lemma="&lt;unknown&gt;">vías</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="un">Una</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">vía</W>
-<W msd="CSUBI" lemma="de">de</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">Østamager</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">será</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">subterránea</W>
-<W msd="CC" lemma="y">e</W>
-<W msd="NC" lemma="&lt;unknown&gt;">irá</W>
-<W msd="PREP" lemma="hasta">hasta</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Kastrup</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">La</W>
-<W msd="QU" lemma="otro">otra</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">vía</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Ørestaden</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">irá</W>
-<W msd="PREP" lemma="a~lo~largo~de">a lo largo de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Islands</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Brygge</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="oeste">oeste</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="universidad">universidad</W>
-<W msd="PREP" lemma="hasta">hasta</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tårnby</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
+<W lemma="nuevo" msd="AN" tag="ADJ" in="" out="">nuevas</W>
+<W lemma="empresa" msd="NC" tag="NC" in="" out="">empresas</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">deben</W>
+<W lemma="situarse" msd="VA" tag="VCLI" in="" out="">situarse</W>
+<W lemma="principalmente" msd="RG" tag="ADV" in="" out="">principalmente</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="zona" msd="NC" tag="NC" in="" out="">zona</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="sur" msd="SP" tag="PE" in="" out="">sur</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bella</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Centret</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="donde" msd="RG" tag="ADV" in="" out="">donde</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="posibilidad" msd="NC" tag="NC" in="" out="">posibilidades</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">edificación</W>
+<W lemma="intenso" msd="AN" tag="ADJ" in="" out="">intensa</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">Por el contrario</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
+<W lemma="respetar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">respetar</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="naturaleza" msd="NC" tag="NC" in="" out="">naturaleza</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="norte" msd="NC" tag="NC" in="" out="">norte</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bella</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Centret</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="donde" msd="RG" tag="ADV" in="" out="">donde</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="total" msd="AN" tag="ADJ" in="" out="">total</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">31</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">hectáreas</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">serán</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">eximidas</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">consideración</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="naturaleza" msd="NC" tag="NC" in="" out="">naturaleza</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
+<W lemma="parte" msd="NC" tag="NC" in="" out="">parte</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Fælled</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="formar" msd="VAD" tag="VLfin" in="" out="">forma</W>
+<W lemma="parte" msd="NC" tag="NC" in="" out="">parte</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Ørestaden</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
+<W lemma="estar" msd="VAF" tag="VEinf" in="" out="">estar</W>
+<W lemma="proteger" msd="VAF" tag="VLadj" in="" out="">protegida</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
+<W lemma="tratar" msd="VAD" tag="VLfin" in="" out="">trata</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">240</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">hectáreas</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="ese" msd="" tag="DM" in="" out="">esa</W>
+<W lemma="zona" msd="NC" tag="NC" in="" out="">zona</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
+<W lemma="tener" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tener</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">carácter</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="parque" msd="NC" tag="NC" in="" out="">parque</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="ciudad" msd="NC" tag="NC" in="" out="">ciudad</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="" out="">gran</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">tamaño</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="junto" msd="AN" tag="ADJ" in="" out="">Junto</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kalvebodkilerne</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="hoy" msd="RG" tag="ADV" in="" out="">hoy</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">están</W>
+<W lemma="proteger" msd="VAF" tag="VLadj" in="" out="">protegidos</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">tendrá</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="parque" msd="NC" tag="NC" in="" out="">parque</W>
+<W lemma="natural" msd="AN" tag="ADJ" in="" out="">natural</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">25</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">kilómetros</W>
+<W lemma="cuadrar" msd="VAF" tag="VLadj" in="" out="">cuadrados</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="total" msd="AN" tag="ADJ" in="" out="">total</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">También</W>
+<W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="">hay que</W>
+<W lemma="atender" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">atender</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="cultura" msd="NC" tag="NC" in="" out="">cultura</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Ørestaden</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ny</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tøjhusgrunden</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
+<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">edificarse</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
+<W lemma="antes" msd="RG" tag="ADV" in="" out="">antes</W>
+<W lemma="posible" msd="AN" tag="ADJ" in="" out="">posible</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="preferentemente" msd="RG" tag="ADV" in="" out="">preferentemente</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="casa" msd="NC" tag="NC" in="" out="">casa</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="cultura" msd="NC" tag="NC" in="" out="">cultura</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">música</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Además</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="zona" msd="NC" tag="NC" in="" out="">zona</W>
+<W lemma="alrededor" msd="SP" tag="PREP" in="" out="">alrededor</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="lago" msd="NC" tag="NC" in="" out="">lagos</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="zona" msd="NC" tag="NC" in="" out="">zona</W>
+<W lemma="norte" msd="NC" tag="NC" in="" out="">norte</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Ørestaden</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="">debe</W>
+<W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="zona" msd="NC" tag="NC" in="" out="">zona</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="exposicin" msd="NC" tag="NC" in="" out="">exposiciones</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">Los</W>
+<W lemma="partido" msd="NC" tag="NC" in="" out="">partidos</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">políticos</W>
+<W lemma="sugerir" msd="VAD" tag="VLfin" in="" out="">sugieren</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">exposición</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">báltica</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">relación</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">título</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="ciudad" msd="NC" tag="NC" in="" out="">ciudad</W>
+<W lemma="cultural" msd="AN" tag="ADJ" in="" out="">cultural</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Copenhague</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">1996</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">Y</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="final" msd="NC" tag="NC" in="" out="">final</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">obtendrá</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="tren" msd="NC" tag="NC" in="" out="">tren</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cercanías</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">Se</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">construirándos</W>
+<W lemma="dos" msd="AC" tag="CARD" in="" out="">dos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">vías</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">Una</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">vía</W>
+<W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Østamager</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">será</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">subterránea</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">e</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">irá</W>
+<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kastrup</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
+<W lemma="otro" msd="AN" tag="QU" in="" out="">otra</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">vía</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Ørestaden</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">irá</W>
+<W lemma="a~lo~largo~de" msd="SP" tag="PREP" in="" out="">a lo largo de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Islands</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Brygge</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="oeste" msd="NC" tag="NC" in="" out="">oeste</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="universidad" msd="NC" tag="NC" in="" out="">universidad</W>
+<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tårnby</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>

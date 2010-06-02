@@ -1,183 +1,183 @@
-<W lemma="&lt;unknown&gt;" msd="NC" in="3:preds" out="1:pobj">Así</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="preocupante" msd="ADJ" in="-1:nobj" out="">preocupante</W>
-<W lemma="ser" msd="VSfin" in="" out="-3:preds|1:subj|4:pnct|22:pnct">es</W>
-<W lemma="el" msd="ART" in="-1:subj" out="1:nobj">la</W>
-<W lemma="emboscar" msd="VLadj" in="-1:nobj" out="1:attr|3:loc">emboscada</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:attr" out="">bosnia</W>
-<W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="en" msd="PREP" in="-3:loc" out="1:nobj">en</W>
-<W lemma="que" msd="CQUE" in="-1:nobj" out="13:vobj">que</W>
-<W lemma="alguno" msd="QU" in="12:subj" out="1:const">algunos</W>
-<W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj|5:[subj]" out="1:nobj">los</W>
-<W lemma="soldado" msd="NC" in="-1:nobj" out="1:attr|2:ref|3:relr">soldados</W>
-<W lemma="serbio" msd="ADJ" in="-1:attr" out="">serbios</W>
-<W lemma="que" msd="CQUE" in="-2:ref|1:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:relr" out="-1:subj|1:vobj|5:pnct">debían</W>
-<W lemma="intercambiarse" msd="VCLI" in="-1:vobj" out="-5:[subj]|1:pobj">intercambiarse</W>
-<W lemma="para" msd="PREP" in="-1:pobj" out="1:nobj">para</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="presidente" msd="NC" in="-1:nobj" out="">presidente</W>
-<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
-<W lemma="perder" msd="VLfin" in="-13:vobj" out="-12:subj|1:dobj">perdieron</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="vida" msd="NC" in="-1:nobj" out="">vida</W>
-<W lemma="." msd="FS" in="-22:pnct" out="">.</W>
-<W lemma="aparentemente" msd="ADV" in="5:prg" out="">Aparentemente</W>
-<W lemma="el" msd="ART" in="4:subj" out="2:nobj">los</W>
-<W lemma="dos" msd="CARD" in="1:numm" out="">dos</W>
-<W lemma="acontecimiento" msd="NC" in="-2:nobj" out="-1:numm">acontecimientos</W>
-<W lemma="nosotros" msd="PPX" in="1:iobj" out="">nos</W>
-<W lemma="dar" msd="VLfin" in="" out="-5:prg|-4:subj|-1:iobj|1:dobj|11:pnct|25:pnct">da</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="imagen" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">imagen</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">característica</W>
-<W lemma="permanente" msd="ADJ" in="-1:attr" out="">permanente</W>
-<W lemma="de" msd="PREP" in="-2:pobj|-2:{arg}" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="conflicto" msd="NC" in="-1:nobj" out="1:attr|3:ref|7:relr">conflictos</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">étnicos</W>
-<W lemma="," msd="CM" in="-11:pnct" out="">,</W>
-<W lemma="que" msd="CQUE" in="-3:ref|4:subj|5:[subj]" out="">que</W>
-<W lemma="en" msd="PREP" in="3:time" out="1:nobj">en</W>
-<W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">estos</W>
-<W lemma="tiempo" msd="NC" in="-1:nobj" out="">tiempos</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-7:relr" out="-4:subj|-3:time|1:vobj">están</W>
-<W lemma="ocurrir" msd="VLadj" in="-1:vobj" out="-5:[subj]|1:loc">ocurriendo</W>
-<W lemma="en" msd="PREP" in="-1:loc" out="3:nobj">en</W>
-<W lemma="varios" msd="QU" in="2:ext" out="1:(pobj)">varios</W>
-<W lemma="de" msd="PREP" in="-1:(pobj)" out="">de</W>
-<W lemma="el" msd="ART" in="-3:nobj" out="-2:ext|1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr|2:attr">países</W>
-<W lemma="ex" msd="ADJ" in="-1:attr" out="">ex</W>
-<W lemma="socialista" msd="ADJ" in="-2:attr" out="">socialistas</W>
-<W lemma="." msd="FS" in="-25:pnct" out="">.</W>
-<W lemma="en" msd="PREP" in="7:loc" out="1:nobj">En</W>
-<W lemma="este" msd="DM" in="-1:nobj" out="1:nobj">este</W>
-<W lemma="caso" msd="NC" in="-1:nobj" out="1:attr">caso</W>
-<W lemma="concreto" msd="ADJ" in="-1:attr" out="">concreto</W>
-<W lemma="el" msd="ART" in="3:subj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">ejército</W>
-<W lemma="federal" msd="ADJ" in="-1:attrr#" out="">federal</W>
-<W lemma="ser" msd="VSfin" in="" out="-7:loc|-3:subj|1:preds|35:pnct">es</W>
-<W lemma="culpable" msd="ADJ" in="-1:preds" out="1:pobj">culpable</W>
-<W lemma="de" msd="CSUBI" in="-1:pobj" out="1:vobj">de</W>
-<W lemma="haber" msd="VHinf" in="-1:vobj" out="1:vobj">haber</W>
-<W lemma="provocar" msd="VLadj" in="-1:vobj" out="1:dobj">provocado</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj">situación</W>
-<W lemma="con" msd="PREP" in="-1:pobj" out="1:dobj">con</W>
-<W lemma="suyo" msd="PPO" in="-1:dobj" out="2:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="1:attr" out="">grotesca</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:possd" out="-1:attr|4:time|1:pobj.dobj|1:{patient}#">detención</W>
-<W lemma="del" msd="PDEL" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">del</W>
-<W lemma="presidente" msd="NC" in="-1:nobj" out="1:attr">presidente</W>
-<W lemma="bosnio" msd="ADJ" in="-1:attr" out="">bosnio</W>
-<W lemma="cuando" msd="CSUBX" in="-4:time" out="1:vobj">cuando</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="1:loc|3:time|5:time">aterrizó</W>
-<W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
-<W lemma="Sarajevo" msd="NP" in="-1:nobj" out="">Sarajevo</W>
-<W lemma="el" msd="ART" in="-3:time" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:nobj" out="">sábado</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-5:time" out="1:pobj">después</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:pobj">de</W>
-<W lemma="suyo" msd="PPO" in="-1:pobj" out="1:possd">su</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:possd" out="1:pobj">reunión</W>
-<W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="gobierno" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">gobierno</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="Portugal" msd="NP" in="-1:nobj" out="1:pnct|2:appr">Portugal</W>
-<W lemma="," msd="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-2:appr" out="1:fpreds">país</W>
-<W lemma="presidente" msd="NC" in="-1:fpreds" out="1:pobj.dobj|1:{patient}#">presidente</W>
-<W lemma="de" msd="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="CE" msd="NP" in="-1:nobj" out="">CE</W>
-<W lemma="." msd="FS" in="-35:pnct" out="">.</W>
-<W lemma="pero" msd="CCAD" in="6:discmark" out="">Pero</W>
-<W lemma="aun" msd="ADV" in="5:time" out="">aun</W>
-<W lemma="en" msd="PREP" in="4:loc" out="1:nobj">en</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">ejército</W>
-<W lemma="federal" msd="ADJ" in="-1:attrr#" out="">federal</W>
-<W lemma="parecer" msd="VLfin" in="" out="-6:discmark|-5:time|-4:loc|1:subj|37:pnct">parece</W>
-<W lemma="que" msd="CQUE" in="-1:subj" out="1:vobj">que</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:vobj" out="1:preds">están</W>
-<W lemma="consciente" msd="ADJ" in="-1:preds" out="1:pobj">conscientes</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="que" msd="CQUE" in="-1:nobj" out="11:vobj">que</W>
-<W lemma="el" msd="ART" in="10:subj|11:[subj]" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">órganos</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="autoridad" msd="NC" in="-1:nobj" out="1:const">autoridades</W>
-<W lemma="de" msd="PREP" in="-1:const" out="1:nobj">de</W>
-<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="sociedad" msd="NC" in="-1:nobj" out="1:attr">sociedad</W>
-<W lemma="moderno" msd="ADJ" in="-1:attr" out="">moderna</W>
-<W lemma="no" msd="NEG" in="1:neg" out="">no</W>
-<W lemma="poder" msd="VMfin" in="-11:vobj" out="-10:subj|-1:neg|1:vobj|10:pnct|11:struct">pueden</W>
-<W lemma="hacer" msd="VLinf" in="-1:vobj" out="-11:[subj]|1:dobj">hacer</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:dobj" out="1:attr|2:pobj">oídos</W>
-<W lemma="sordo" msd="ADJ" in="-1:attr" out="">sordos</W>
-<W lemma="a" msd="PREP" in="-2:pobj" out="1:attr">a</W>
-<W lemma="el" msd="ART" in="-1:attr" out="1:nobj">las</W>
-<W lemma="reaccin" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">reacciones</W>
-<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="mundo" msd="NC" in="-1:nobj" out="1:attr">mundo</W>
-<W lemma="exterior" msd="ADJ" in="-1:attr" out="">exterior</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-10:pnct" out="">–</W>
-<W lemma="sobre~todo" msd="ADV" in="-11:struct" out="5:vobj">sobre todo</W>
-<W lemma="el" msd="ART" in="4:subj" out="1:nobj">las</W>
-<W lemma="sociedad" msd="NC" in="-1:nobj" out="1:possr">sociedades</W>
-<W lemma="cuyo" msd="REL" in="-1:possr" out="1:possd">cuyo</W>
-<W lemma="futuro" msd="NC" in="-1:possd" out="">futuro</W>
-<W lemma="depender" msd="VLfin" in="-5:vobj" out="-4:subj|1:pobj">depende</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="ayuda" msd="NC" in="-1:nobj" out="1:attrr#">ayuda</W>
-<W lemma="exterior" msd="ADJ" in="-1:attrr#" out="">exterior</W>
-<W lemma="." msd="FS" in="-37:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="4:prg" out="1:pnct">Lógicamente</W>
-<W lemma="," msd="CM" in="-1:pnct" out="">,</W>
-<W lemma="este" msd="DM" in="2:subj" out="1:nobj">esta</W>
-<W lemma="perspectiva" msd="NC" in="-1:nobj" out="">perspectiva</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="-4:prg|-2:subj|1:prg|34:pnct">está</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="-1:prg" out="1:loc">aún</W>
-<W lemma="en" msd="PREP" in="-1:loc" out="2:nobj">en</W>
-<W lemma="segundo" msd="ORD" in="1:numm" out="">segundo</W>
-<W lemma="lugar" msd="NC" in="-2:nobj" out="-1:numm|1:ben">lugar</W>
-<W lemma="para" msd="PREP" in="-1:ben" out="1:nobj">para</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:ref|2:relr">partisanos</W>
-<W lemma="que" msd="CQUE" in="-1:ref|1:subj" out="">que</W>
-<W lemma="ver" msd="VLfin" in="-2:relr" out="-1:subj|1:pobj|4:comp">ven</W>
-<W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attrr#">ejército</W>
-<W lemma="federal" msd="ADJ" in="-1:attrr#" out="">federal</W>
-<W lemma="como" msd="CSUBX" in="-4:comp" out="1:nobj">como</W>
-<W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">un</W>
-<W lemma="insoportable" msd="ADJ" in="1:attr" out="">insoportable</W>
-<W lemma="vestigio" msd="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">vestigio</W>
-<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:ref|4:relr">régimen</W>
-<W lemma="que" msd="CQUE" in="-1:ref|3:subj|4:[subj]|5:[subj]" out="">que</W>
-<W lemma="por" msd="PREP" in="2:time" out="1:nobj">por</W>
-<W lemma="generacin" msd="NC" in="-1:nobj" out="">generaciones</W>
-<W lemma="haber" msd="VHfin" in="-4:relr" out="-3:subj|-2:time|1:vobj">ha</W>
-<W lemma="estar" msd="VE" in="-1:vobj" out="-4:[subj]|1:vobj">estado</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="-1:vobj" out="-5:[subj]|1:ben|4:dobj">reprimiendo</W>
-<W lemma="por~parte~de" msd="PREP" in="-1:ben" out="1:nobj">por parte de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="serbio" msd="NC" in="-1:nobj" out="">serbios</W>
-<W lemma="el" msd="ART" in="-4:dobj" out="1:nobj">la</W>
-<W lemma="independencia" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">independencia</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="otro" msd="QU" in="-1:nobj" out="1:nobj">otros</W>
-<W lemma="pueblo" msd="NC" in="-1:nobj" out="1:attr">pueblos</W>
-<W lemma="yugoslavo" msd="ADJ" in="-1:attr" out="">yugoslavos</W>
-<W lemma="." msd="FS" in="-34:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="3:preds" out="1:pobj">Así</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="preocupante" msd="AN" tag="ADJ" in="-1:nobj" out="">preocupante</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-3:preds|1:subj|4:pnct|22:pnct">es</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">la</W>
+<W lemma="emboscar" msd="VAF" tag="VLadj" in="-1:nobj" out="1:attr|3:loc">emboscada</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:attr" out="">bosnia</W>
+<W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
+<W lemma="en" msd="SP" tag="PREP" in="-3:loc" out="1:nobj">en</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="13:vobj">que</W>
+<W lemma="alguno" msd="AN" tag="QU" in="12:subj" out="1:const">algunos</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:const" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|5:[subj]" out="1:nobj">los</W>
+<W lemma="soldado" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:ref|3:relr">soldados</W>
+<W lemma="serbio" msd="AN" tag="ADJ" in="-1:attr" out="">serbios</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-2:ref|1:subj" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|1:vobj|5:pnct">debían</W>
+<W lemma="intercambiarse" msd="VA" tag="VCLI" in="-1:vobj" out="-5:[subj]|1:pobj">intercambiarse</W>
+<W lemma="para" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">para</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-1:nobj" out="">presidente</W>
+<W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
+<W lemma="perder" msd="VAD" tag="VLfin" in="-13:vobj" out="-12:subj|1:dobj">perdieron</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
+<W lemma="vida" msd="NC" tag="NC" in="-1:nobj" out="">vida</W>
+<W lemma="." msd="XP" tag="FS" in="-22:pnct" out="">.</W>
+<W lemma="aparentemente" msd="RG" tag="ADV" in="5:prg" out="">Aparentemente</W>
+<W lemma="el" msd="PD" tag="ART" in="4:subj" out="2:nobj">los</W>
+<W lemma="dos" msd="AC" tag="CARD" in="1:numm" out="">dos</W>
+<W lemma="acontecimiento" msd="NC" tag="NC" in="-2:nobj" out="-1:numm">acontecimientos</W>
+<W lemma="nosotros" msd="PP" tag="PPX" in="1:iobj" out="">nos</W>
+<W lemma="dar" msd="VAD" tag="VLfin" in="" out="-5:prg|-4:subj|-1:iobj|1:dobj|11:pnct|25:pnct">da</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
+<W lemma="imagen" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">imagen</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj|2:{arg}">característica</W>
+<W lemma="permanente" msd="AN" tag="ADJ" in="-1:attr" out="">permanente</W>
+<W lemma="de" msd="SP" tag="PREP" in="-2:pobj|-2:{arg}" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="conflicto" msd="NC" tag="NC" in="-1:nobj" out="1:attr|3:ref|7:relr">conflictos</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">étnicos</W>
+<W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-3:ref|4:subj|5:[subj]" out="">que</W>
+<W lemma="en" msd="SP" tag="PREP" in="3:time" out="1:nobj">en</W>
+<W lemma="este" msd="" tag="DM" in="-1:nobj" out="1:nobj">estos</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="-1:nobj" out="">tiempos</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-7:relr" out="-4:subj|-3:time|1:vobj">están</W>
+<W lemma="ocurrir" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]|1:loc">ocurriendo</W>
+<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="3:nobj">en</W>
+<W lemma="varios" msd="AN" tag="QU" in="2:ext" out="1:(pobj)">varios</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:(pobj)" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-3:nobj" out="-2:ext|1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">países</W>
+<W lemma="ex" msd="AN" tag="ADJ" in="-1:attr" out="">ex</W>
+<W lemma="socialista" msd="AN" tag="ADJ" in="-2:attr" out="">socialistas</W>
+<W lemma="." msd="XP" tag="FS" in="-25:pnct" out="">.</W>
+<W lemma="en" msd="SP" tag="PREP" in="7:loc" out="1:nobj">En</W>
+<W lemma="este" msd="" tag="DM" in="-1:nobj" out="1:nobj">este</W>
+<W lemma="caso" msd="NC" tag="NC" in="-1:nobj" out="1:attr">caso</W>
+<W lemma="concreto" msd="AN" tag="ADJ" in="-1:attr" out="">concreto</W>
+<W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">ejército</W>
+<W lemma="federal" msd="AN" tag="ADJ" in="-1:attrr#" out="">federal</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-7:loc|-3:subj|1:preds|35:pnct">es</W>
+<W lemma="culpable" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">culpable</W>
+<W lemma="de" msd="CS" tag="CSUBI" in="-1:pobj" out="1:vobj">de</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="-1:vobj" out="1:vobj">haber</W>
+<W lemma="provocar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj">provocado</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">situación</W>
+<W lemma="con" msd="SP" tag="PREP" in="-1:pobj" out="1:dobj">con</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="2:possd">su</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">grotesca</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:possd" out="-1:attr|1:pobj.dobj|1:{patient}#|4:time">detención</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">del</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-1:nobj" out="1:attr">presidente</W>
+<W lemma="bosnio" msd="AN" tag="ADJ" in="-1:attr" out="">bosnio</W>
+<W lemma="cuando" msd="CS" tag="CSUBX" in="-4:time" out="1:vobj">cuando</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="1:loc|3:time|5:time">aterrizó</W>
+<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">en</W>
+<W lemma="Sarajevo" msd="NP" tag="NP" in="-1:nobj" out="">Sarajevo</W>
+<W lemma="el" msd="PD" tag="ART" in="-3:time" out="1:nobj">el</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:nobj" out="">sábado</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-5:time" out="1:pobj">después</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:pobj">de</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:pobj" out="1:possd">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:possd" out="1:pobj">reunión</W>
+<W lemma="con" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">con</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="gobierno" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">gobierno</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="Portugal" msd="NP" tag="NP" in="-1:nobj" out="1:pnct|2:appr">Portugal</W>
+<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:appr" out="1:fpreds">país</W>
+<W lemma="presidente" msd="NC" tag="NC" in="-1:fpreds" out="1:pobj.dobj|1:{patient}#">presidente</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="CE" msd="NP" tag="NP" in="-1:nobj" out="">CE</W>
+<W lemma="." msd="XP" tag="FS" in="-35:pnct" out="">.</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="6:discmark" out="">Pero</W>
+<W lemma="aun" msd="RG" tag="ADV" in="5:time" out="">aun</W>
+<W lemma="en" msd="SP" tag="PREP" in="4:loc" out="1:nobj">en</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">ejército</W>
+<W lemma="federal" msd="AN" tag="ADJ" in="-1:attrr#" out="">federal</W>
+<W lemma="parecer" msd="VAD" tag="VLfin" in="" out="-6:discmark|-5:time|-4:loc|1:subj|37:pnct">parece</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:subj" out="1:vobj">que</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:vobj" out="1:preds">están</W>
+<W lemma="consciente" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">conscientes</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="11:vobj">que</W>
+<W lemma="el" msd="PD" tag="ART" in="10:subj|11:[subj]" out="1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">órganos</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
+<W lemma="autoridad" msd="NC" tag="NC" in="-1:nobj" out="1:const">autoridades</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:const" out="1:nobj">de</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
+<W lemma="sociedad" msd="NC" tag="NC" in="-1:nobj" out="1:attr">sociedad</W>
+<W lemma="moderno" msd="AN" tag="ADJ" in="-1:attr" out="">moderna</W>
+<W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="-11:vobj" out="-10:subj|-1:neg|1:vobj|10:pnct|11:struct">pueden</W>
+<W lemma="hacer" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-11:[subj]|1:dobj">hacer</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="1:attr|2:pobj">oídos</W>
+<W lemma="sordo" msd="AN" tag="ADJ" in="-1:attr" out="">sordos</W>
+<W lemma="a" msd="SP" tag="PREP" in="-2:pobj" out="1:attr">a</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:attr" out="1:nobj">las</W>
+<W lemma="reaccin" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">reacciones</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
+<W lemma="mundo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mundo</W>
+<W lemma="exterior" msd="AN" tag="ADJ" in="-1:attr" out="">exterior</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-10:pnct" out="">–</W>
+<W lemma="sobre~todo" msd="RG" tag="ADV" in="-11:struct" out="5:vobj">sobre todo</W>
+<W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">las</W>
+<W lemma="sociedad" msd="NC" tag="NC" in="-1:nobj" out="1:possr">sociedades</W>
+<W lemma="cuyo" msd="PT" tag="REL" in="-1:possr" out="1:possd">cuyo</W>
+<W lemma="futuro" msd="NC" tag="NC" in="-1:possd" out="">futuro</W>
+<W lemma="depender" msd="VAD" tag="VLfin" in="-5:vobj" out="-4:subj|1:pobj">depende</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="ayuda" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">ayuda</W>
+<W lemma="exterior" msd="AN" tag="ADJ" in="-1:attrr#" out="">exterior</W>
+<W lemma="." msd="XP" tag="FS" in="-37:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="4:prg" out="1:pnct">Lógicamente</W>
+<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
+<W lemma="este" msd="" tag="DM" in="2:subj" out="1:nobj">esta</W>
+<W lemma="perspectiva" msd="NC" tag="NC" in="-1:nobj" out="">perspectiva</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:prg|-2:subj|1:prg|34:pnct">está</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:prg" out="1:loc">aún</W>
+<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="2:nobj">en</W>
+<W lemma="segundo" msd="AO" tag="ORD" in="1:numm" out="">segundo</W>
+<W lemma="lugar" msd="NC" tag="NC" in="-2:nobj" out="-1:numm|1:ben">lugar</W>
+<W lemma="para" msd="SP" tag="PREP" in="-1:ben" out="1:nobj">para</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|2:relr">partisanos</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:subj" out="">que</W>
+<W lemma="ver" msd="VAD" tag="VLfin" in="-2:relr" out="-1:subj|1:pobj|4:comp">ven</W>
+<W lemma="al" msd="SP" tag="PAL" in="-1:pobj" out="1:nobj">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">ejército</W>
+<W lemma="federal" msd="AN" tag="ADJ" in="-1:attrr#" out="">federal</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-4:comp" out="1:nobj">como</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">un</W>
+<W lemma="insoportable" msd="AN" tag="ADJ" in="1:attr" out="">insoportable</W>
+<W lemma="vestigio" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">vestigio</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|4:relr">régimen</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:ref|3:subj|4:[subj]|5:[subj]" out="">que</W>
+<W lemma="por" msd="SP" tag="PREP" in="2:time" out="1:nobj">por</W>
+<W lemma="generacin" msd="NC" tag="NC" in="-1:nobj" out="">generaciones</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="-4:relr" out="-3:subj|-2:time|1:vobj">ha</W>
+<W lemma="estar" msd="VAF" tag="VE" in="-1:vobj" out="-4:[subj]|1:vobj">estado</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]|1:ben|4:dobj">reprimiendo</W>
+<W lemma="por~parte~de" msd="SP" tag="PREP" in="-1:ben" out="1:nobj">por parte de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="serbio" msd="NC" tag="NC" in="-1:nobj" out="">serbios</W>
+<W lemma="el" msd="PD" tag="ART" in="-4:dobj" out="1:nobj">la</W>
+<W lemma="independencia" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">independencia</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="otro" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">otros</W>
+<W lemma="pueblo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">pueblos</W>
+<W lemma="yugoslavo" msd="AN" tag="ADJ" in="-1:attr" out="">yugoslavos</W>
+<W lemma="." msd="XP" tag="FS" in="-34:pnct" out="">.</W>

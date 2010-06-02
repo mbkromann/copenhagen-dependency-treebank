@@ -1,257 +1,257 @@
-<W msd="ART" lemma="el">El</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="VMfin" lemma="poder">puede</W>
-<W msd="VSinf" lemma="ser">ser</W>
-<W msd="VLadj" lemma="solicitar">solicitada</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="QU" lemma="todo">todos</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="VLadj" lemma="jubilar">jubilados</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">–</W>
-<W msd="ADV" lemma="tanto">tanto</W>
-<W msd="ADJ" lemma="soltero">solteros</W>
-<W msd="CSUBX" lemma="como">como</W>
-<W msd="NC" lemma="matrimonio">matrimonios</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="CARD" lemma="uno">uno</W>
-<W msd="CC" lemma="o">o</W>
-<W msd="QU" lemma="ambo">ambos</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cónyuges</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">están</W>
-<W msd="VLadj" lemma="jubilar">jubilados</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DM" lemma="esto">Este</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">está</W>
-<W msd="ADJ" lemma="libre">libre</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="VLadj" lemma="imponer">impuestos</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">El</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="calcular">calcula</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NC" lemma="base">base</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cuantía</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="alquiler">alquiler</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="ingreso">ingresos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="familia">familia</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="&lt;unknown&gt;">tamaño</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="piso">piso</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="&lt;unknown&gt;">tamaño</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="&lt;unknown&gt;">composición</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="familia">familia</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="en">En</W>
-<W msd="REL" lemma="cuanto">cuanto</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cálculo</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="tomar">toma</W>
-<W msd="CSUBX" lemma="como">como</W>
-<W msd="VLfin" lemma="basar">base</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="VLadj" lemma="llamar">llamado</W>
-<W msd="NC" lemma="importe">importe</W>
-<W msd="NC" lemma="&lt;unknown&gt;">límite</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="para">Para</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="ingreso">ingresos</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="sobrepasar">sobrepasan</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ADV" lemma="aproximadamente">aproximadamente</W>
-<W msd="CARD" lemma="@card@">130.000</W>
-<W msd="NC" lemma="corona">coronas</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="importe">importe</W>
-<W msd="NC" lemma="&lt;unknown&gt;">límite</W>
-<W msd="VLfin" lemma="ascender">asciende</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="CODE" lemma="@card@">11</W>
-<W msd="CARD" lemma="@card@">2/3</W>
-<W msd="PERCT" lemma="%">%</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="ingreso">ingresos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="familia">familia</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="CARD" lemma="@card@">1992</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PE" lemma="en">En</W>
-<W msd="CODE" lemma="@card@">1992</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="VLfin" lemma="representar">representa</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="CODE" lemma="@card@">93</W>
-<W msd="CARD" lemma="@card@">1/3</W>
-<W msd="PERCT" lemma="%">%</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="diferencia">diferencia</W>
-<W msd="PREP" lemma="entre">entre</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="importe">importe</W>
-<W msd="NC" lemma="&lt;unknown&gt;">límite</W>
-<W msd="VLadj" lemma="calcular">calculado</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="alquiler">alquiler</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Nótese</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="CSUBX" lemma="si">si</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="superficie">superficie</W>
-<W msd="ADJ" lemma="bruto">bruta</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="VLfin" lemma="superar">supera</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="CARD" lemma="@card@">65</W>
-<W msd="NC" lemma="metro">metros</W>
-<W msd="VLadj" lemma="cuadrar">cuadrados</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="CSUBX" lemma="si">si</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Ud.</W>
-<W msd="VLfin" lemma="vivir">vive</W>
-<W msd="ADJ" lemma="solo">solo</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="piso">piso</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="NC" lemma="respecto">respecto</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="ORD" lemma="primero">primeros</W>
-<W msd="CARD" lemma="@card@">20</W>
-<W msd="NC" lemma="metro">metros</W>
-<W msd="VLadj" lemma="cuadrar">cuadrados</W>
-<W msd="ADJ" lemma="excedente">excedentes</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="reducir">reduce</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="CARD" lemma="@card@">57</W>
-<W msd="PERCT" lemma="%">%</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="gasto">gastos</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="NMEA" lemma="metro">metro</W>
-<W msd="NC" lemma="cuadrado">cuadrado</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CSUBX" lemma="si">Si</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="VLfin" lemma="superar">supera</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="CARD" lemma="@card@">85</W>
-<W msd="NC" lemma="metro">metros</W>
-<W msd="VLadj" lemma="cuadrar">cuadrados</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="reducir">reduce</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="CARD" lemma="@card@">50</W>
-<W msd="PERCT" lemma="%">%</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="gasto">gastos</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="NMEA" lemma="metro">metro</W>
-<W msd="NC" lemma="cuadrado">cuadrado</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="superficie">superficie</W>
-<W msd="ADJ" lemma="excedente">excedente</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CSUBX" lemma="si">Si</W>
-<W msd="DM" lemma="este">este</W>
-<W msd="NC" lemma="exceso">exceso</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="superficie">superficie</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="deber">debe</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ADV" lemma="por~ejemplo">por ejemplo</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="pareja">pareja</W>
-<W msd="CC" lemma="o">o</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cónyuge</W>
-<W msd="VHfin" lemma="haber">ha</W>
-<W msd="VLadj" lemma="fallecer">fallecido</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="o">o</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="pareja">pareja</W>
-<W msd="CC" lemma="o">o</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cónyuge</W>
-<W msd="VHfin" lemma="haber">ha</W>
-<W msd="VS" lemma="ser">sido</W>
-<W msd="VLadj" lemma="ingresar">ingresado</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="hogar">hogar</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="anciano">ancianos</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="exceso">exceso</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="superficie">superficie</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="tener">tiene</W>
-<W msd="QU" lemma="ninguno">ninguna</W>
-<W msd="NC" lemma="influencia">influencia</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="subsidio">subsidio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="vivienda">vivienda</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="" out="">puede</W>
+<W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
+<W lemma="solicitar" msd="VAF" tag="VLadj" in="" out="">solicitada</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todos</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="jubilar" msd="VAF" tag="VLadj" in="" out="">jubilados</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">–</W>
+<W lemma="tanto" msd="RG" tag="ADV" in="" out="">tanto</W>
+<W lemma="soltero" msd="AN" tag="ADJ" in="" out="">solteros</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
+<W lemma="matrimonio" msd="NC" tag="NC" in="" out="">matrimonios</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="uno" msd="AC" tag="CARD" in="" out="">uno</W>
+<W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
+<W lemma="ambo" msd="AN" tag="QU" in="" out="">ambos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cónyuges</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">están</W>
+<W lemma="jubilar" msd="VAF" tag="VLadj" in="" out="">jubilados</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="esto" msd="" tag="DM" in="" out="">Este</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">está</W>
+<W lemma="libre" msd="AN" tag="ADJ" in="" out="">libre</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="imponer" msd="VAF" tag="VLadj" in="" out="">impuestos</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="calcular" msd="VAD" tag="VLfin" in="" out="">calcula</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="base" msd="NC" tag="NC" in="" out="">base</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cuantía</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="alquiler" msd="NC" tag="NC" in="" out="">alquiler</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="ingreso" msd="NC" tag="NC" in="" out="">ingresos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="familia" msd="NC" tag="NC" in="" out="">familia</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">tamaño</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="piso" msd="NC" tag="NC" in="" out="">piso</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">tamaño</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">composición</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="familia" msd="NC" tag="NC" in="" out="">familia</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">En</W>
+<W lemma="cuanto" msd="PT" tag="REL" in="" out="">cuanto</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cálculo</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="tomar" msd="VAD" tag="VLfin" in="" out="">toma</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
+<W lemma="basar" msd="VAD" tag="VLfin" in="" out="">base</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="llamar" msd="VAF" tag="VLadj" in="" out="">llamado</W>
+<W lemma="importe" msd="NC" tag="NC" in="" out="">importe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">límite</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="para" msd="SP" tag="PREP" in="" out="">Para</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="ingreso" msd="NC" tag="NC" in="" out="">ingresos</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="sobrepasar" msd="VAD" tag="VLfin" in="" out="">sobrepasan</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="aproximadamente" msd="RG" tag="ADV" in="" out="">aproximadamente</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">130.000</W>
+<W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="importe" msd="NC" tag="NC" in="" out="">importe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">límite</W>
+<W lemma="ascender" msd="VAD" tag="VLfin" in="" out="">asciende</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="" out="">11</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">2/3</W>
+<W lemma="%" msd="XS" tag="PERCT" in="" out="">%</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="ingreso" msd="NC" tag="NC" in="" out="">ingresos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="familia" msd="NC" tag="NC" in="" out="">familia</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">1992</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="en" msd="SP" tag="PE" in="" out="">En</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="" out="">1992</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="representar" msd="VAD" tag="VLfin" in="" out="">representa</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="" out="">93</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">1/3</W>
+<W lemma="%" msd="XS" tag="PERCT" in="" out="">%</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="diferencia" msd="NC" tag="NC" in="" out="">diferencia</W>
+<W lemma="entre" msd="SP" tag="PREP" in="" out="">entre</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="importe" msd="NC" tag="NC" in="" out="">importe</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">límite</W>
+<W lemma="calcular" msd="VAF" tag="VLadj" in="" out="">calculado</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="alquiler" msd="NC" tag="NC" in="" out="">alquiler</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Nótese</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">si</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="superficie" msd="NC" tag="NC" in="" out="">superficie</W>
+<W lemma="bruto" msd="AN" tag="ADJ" in="" out="">bruta</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="superar" msd="VAD" tag="VLfin" in="" out="">supera</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">65</W>
+<W lemma="metro" msd="NC" tag="NC" in="" out="">metros</W>
+<W lemma="cuadrar" msd="VAF" tag="VLadj" in="" out="">cuadrados</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">si</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Ud.</W>
+<W lemma="vivir" msd="VAD" tag="VLfin" in="" out="">vive</W>
+<W lemma="solo" msd="AN" tag="ADJ" in="" out="">solo</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="piso" msd="NC" tag="NC" in="" out="">piso</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="respecto" msd="NC" tag="NC" in="" out="">respecto</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="primero" msd="AO" tag="ORD" in="" out="">primeros</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">20</W>
+<W lemma="metro" msd="NC" tag="NC" in="" out="">metros</W>
+<W lemma="cuadrar" msd="VAF" tag="VLadj" in="" out="">cuadrados</W>
+<W lemma="excedente" msd="AN" tag="ADJ" in="" out="">excedentes</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="reducir" msd="VAD" tag="VLfin" in="" out="">reduce</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">57</W>
+<W lemma="%" msd="XS" tag="PERCT" in="" out="">%</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="gasto" msd="NC" tag="NC" in="" out="">gastos</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="metro" msd="NC" tag="NMEA" in="" out="">metro</W>
+<W lemma="cuadrado" msd="NC" tag="NC" in="" out="">cuadrado</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="superar" msd="VAD" tag="VLfin" in="" out="">supera</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">85</W>
+<W lemma="metro" msd="NC" tag="NC" in="" out="">metros</W>
+<W lemma="cuadrar" msd="VAF" tag="VLadj" in="" out="">cuadrados</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="reducir" msd="VAD" tag="VLfin" in="" out="">reduce</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">50</W>
+<W lemma="%" msd="XS" tag="PERCT" in="" out="">%</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="gasto" msd="NC" tag="NC" in="" out="">gastos</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="metro" msd="NC" tag="NMEA" in="" out="">metro</W>
+<W lemma="cuadrado" msd="NC" tag="NC" in="" out="">cuadrado</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="superficie" msd="NC" tag="NC" in="" out="">superficie</W>
+<W lemma="excedente" msd="AN" tag="ADJ" in="" out="">excedente</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
+<W lemma="este" msd="" tag="DM" in="" out="">este</W>
+<W lemma="exceso" msd="NC" tag="NC" in="" out="">exceso</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="superficie" msd="NC" tag="NC" in="" out="">superficie</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="deber" msd="VAD" tag="VLfin" in="" out="">debe</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="por~ejemplo" msd="RG" tag="ADV" in="" out="">por ejemplo</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="pareja" msd="NC" tag="NC" in="" out="">pareja</W>
+<W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cónyuge</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">ha</W>
+<W lemma="fallecer" msd="VAF" tag="VLadj" in="" out="">fallecido</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="pareja" msd="NC" tag="NC" in="" out="">pareja</W>
+<W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cónyuge</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">ha</W>
+<W lemma="ser" msd="VAF" tag="VS" in="" out="">sido</W>
+<W lemma="ingresar" msd="VAF" tag="VLadj" in="" out="">ingresado</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="hogar" msd="NC" tag="NC" in="" out="">hogar</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="anciano" msd="NC" tag="NC" in="" out="">ancianos</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="exceso" msd="NC" tag="NC" in="" out="">exceso</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="superficie" msd="NC" tag="NC" in="" out="">superficie</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tiene</W>
+<W lemma="ninguno" msd="AN" tag="QU" in="" out="">ninguna</W>
+<W lemma="influencia" msd="NC" tag="NC" in="" out="">influencia</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="subsidio" msd="NC" tag="NC" in="" out="">subsidio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="vivienda" msd="NC" tag="NC" in="" out="">vivienda</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>

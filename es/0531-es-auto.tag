@@ -1,250 +1,250 @@
-<W msd="NC" lemma="&lt;unknown&gt;">COLAB</W>
-<W msd="SYM" lemma="=">=</W>
-<W msd="NP" lemma="&lt;unknown&gt;">AGG</W>
-<W msd="NP" lemma="&lt;unknown&gt;">FUENTE</W>
-<W msd="SYM" lemma="=">=</W>
-<W msd="NP" lemma="&lt;unknown&gt;">RTZ</W>
-<W msd="NP" lemma="&lt;unknown&gt;">DIFUSIÓN</W>
-<W msd="SYM" lemma="=">=</W>
-<W msd="CARD" lemma="@card@">1600</W>
-<W msd="NP" lemma="&lt;unknown&gt;">HS</W>
-<W msd="NP" lemma="&lt;unknown&gt;">LOCUTOR</W>
-<W msd="SYM" lemma="=">=</W>
-<W msd="SYM" lemma="=">=</W>
-<W msd="ACRNM" lemma="ER">ER</W>
-<W msd="ART" lemma="el">Los</W>
-<W msd="CARD" lemma="dos">dos</W>
-<W msd="ADJ" lemma="alto">altos</W>
-<W msd="ADJ" lemma="ejecutivo">ejecutivos</W>
-<W msd="VLadj" lemma="sentenciar">sentenciados</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NP" lemma="Banco">Banco</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="6">6</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Julio</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="presidente">presidente</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="consejo">consejo</W>
-<W msd="ADJ" lemma="administrativo">administrativo</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Niels</W>
-<W msd="NP" lemma="Johan">Johan</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Leer</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="director">director</W>
-<W msd="NP" lemma="John">John</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Olsdorf</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="apelar">apelaron</W>
-<W msd="ADV" lemma="inmediatamente">inmediatamente</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="sentencia">sentencia</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="VLadj" lemma="juzgar">juzgado</W>
-<W msd="ADJ" lemma="municipal">municipal</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Copenhague</W>
-<W msd="VLadj" lemma="exigir">exigiendo</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="&lt;unknown&gt;">liberación</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">También</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Ministerio</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Fiscal</W>
-<W msd="VHfin" lemma="haber">ha</W>
-<W msd="VLadj" lemma="reservar">reservado</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="posibilidad">posibilidad</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">apelación</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">El</W>
-<W msd="NC" lemma="presidente">presidente</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="consejo">consejo</W>
-<W msd="ADJ" lemma="administrativo">administrativo</W>
-<W msd="VSfin" lemma="ser">fue</W>
-<W msd="VLadj" lemma="condenar">condenado</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="&lt;unknown&gt;">año</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="medio">medio</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">prisión</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="VLfin" lemma="multar">multa</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="&lt;unknown&gt;">millón</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="corona">coronas</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="NC" lemma="&lt;unknown&gt;">defraudación</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="NC" lemma="abuso">abuso</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">representación</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="fraude">fraude</W>
-<W msd="ADJ" lemma="fiscal">fiscal</W>
-<W msd="ADJ" lemma="grave">grave</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="&lt;unknown&gt;">violación</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="ley">leyes</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="sociedad">sociedades</W>
-<W msd="NC" lemma="&lt;unknown&gt;">anónimas</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="banco">bancos</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="caja">cajas</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="ahorro">ahorro</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">El</W>
-<W msd="NC" lemma="director">director</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="banco">banco</W>
-<W msd="NP" lemma="John">John</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Olsdorff</W>
-<W msd="VSfin" lemma="ser">fue</W>
-<W msd="VLadj" lemma="condenar">condenado</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="CARD" lemma="6">6</W>
-<W msd="NC" lemma="mes">meses</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="VLfin" lemma="multar">multa</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">90.000</W>
-<W msd="NC" lemma="corona">coronas</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="QU" lemma="ambo">Ambos</W>
-<W msd="NC" lemma="&lt;unknown&gt;">están</W>
-<W msd="VLadj" lemma="acusar">acusados</W>
-<W msd="CSUBI" lemma="de">de</W>
-<W msd="VHinf" lemma="haber">haber</W>
-<W msd="VLadj" lemma="causar">causado</W>
-<W msd="PAL" lemma="al">al</W>
-<W msd="NC" lemma="banco">banco</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">pérdida</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="PREP" lemma="alrededor">alrededor</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">60</W>
-<W msd="CARD" lemma="millones">millones</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="corona">coronas</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="VHinf" lemma="haber">haber</W>
-<W msd="VLadj" lemma="otorgar">otorgado</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">préstamos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="manera">manera</W>
-<W msd="ADJ" lemma="irresponsable">irresponsable</W>
-<W msd="CC" lemma="y">e</W>
-<W msd="ADJ" lemma="ilegal">ilegal</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NC" lemma="&lt;unknown&gt;">Además</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VHfin" lemma="haber">han</W>
-<W msd="ADJ" lemma="privado">privado</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="autoridad">autoridades</W>
-<W msd="ADJ" lemma="fiscal">fiscales</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CARD" lemma="@card@">3,5</W>
-<W msd="CARD" lemma="millones">millones</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="corona">coronas</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CARD" lemma="dos">Dos</W>
-<W msd="NC" lemma="vocal">vocales</W>
-<W msd="ADJ" lemma="simple">simples</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="consejo">consejo</W>
-<W msd="ADJ" lemma="administrativo">administrativo</W>
-<W msd="VSfin" lemma="ser">fueron</W>
-<W msd="VLadj" lemma="liberar">liberados</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="de">De</W>
-<W msd="QU" lemma="todo">todas</W>
-<W msd="NC" lemma="manera">maneras</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="juez">juez</W>
-<W msd="NP" lemma="Municipal">municipal</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Nils</W>
-<W msd="NP" lemma="Erik">Erik</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Jensen</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">dejó</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ADJ" lemma="claro">claro</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="miembro">miembros</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="consejo">consejo</W>
-<W msd="ADJ" lemma="administrativo">administrativo</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">podían</W>
-<W msd="VLinf" lemma="ir">irse</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NC" lemma="casa">casa</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="conciencia">conciencia</W>
-<W msd="ADJ" lemma="limpio">limpia</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DASH" lemma="-">-</W>
-<W msd="PPO" lemma="suyo">Su</W>
-<W msd="NC" lemma="&lt;unknown&gt;">liberación</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="significar">significa</W>
-<W msd="ADV" lemma="en~absoluto">en absoluto</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">afirmación</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VHfin" lemma="haber">han</W>
-<W msd="VLadj" lemma="llevar">llevado</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NC" lemma="cabo">cabo</W>
-<W msd="PPO" lemma="suyo">su</W>
-<W msd="NC" lemma="&lt;unknown&gt;">gestión</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="consejo">consejo</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="manera">manera</W>
-<W msd="ADJ" lemma="ejemplar">ejemplar</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">–</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="PREP" lemma="para">para</W>
-<W msd="QU" lemma="nada">nada</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="caso">caso</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">ratificó</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="juez">juez</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="PPO" lemma="suyo">sus</W>
-<W msd="NC" lemma="observacin">observaciones</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="sentencia">sentencia</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">COLAB</W>
+<W lemma="=" msd="XS" tag="SYM" in="" out="">=</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">AGG</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">FUENTE</W>
+<W lemma="=" msd="XS" tag="SYM" in="" out="">=</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">RTZ</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">DIFUSIÓN</W>
+<W lemma="=" msd="XS" tag="SYM" in="" out="">=</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">1600</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">HS</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">LOCUTOR</W>
+<W lemma="=" msd="XS" tag="SYM" in="" out="">=</W>
+<W lemma="=" msd="XS" tag="SYM" in="" out="">=</W>
+<W lemma="ER" msd="XA" tag="ACRNM" in="" out="">ER</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">Los</W>
+<W lemma="dos" msd="AC" tag="CARD" in="" out="">dos</W>
+<W lemma="alto" msd="AN" tag="ADJ" in="" out="">altos</W>
+<W lemma="ejecutivo" msd="AN" tag="ADJ" in="" out="">ejecutivos</W>
+<W lemma="sentenciar" msd="VAF" tag="VLadj" in="" out="">sentenciados</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="Banco" msd="NP" tag="NP" in="" out="">Banco</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="6" msd="AC" tag="CARD" in="" out="">6</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Julio</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="presidente" msd="NC" tag="NC" in="" out="">presidente</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="consejo" msd="NC" tag="NC" in="" out="">consejo</W>
+<W lemma="administrativo" msd="AN" tag="ADJ" in="" out="">administrativo</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Niels</W>
+<W lemma="Johan" msd="NP" tag="NP" in="" out="">Johan</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Leer</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="director" msd="NC" tag="NC" in="" out="">director</W>
+<W lemma="John" msd="NP" tag="NP" in="" out="">John</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Olsdorf</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="apelar" msd="VAD" tag="VLfin" in="" out="">apelaron</W>
+<W lemma="inmediatamente" msd="RG" tag="ADV" in="" out="">inmediatamente</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="sentencia" msd="NC" tag="NC" in="" out="">sentencia</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="juzgar" msd="VAF" tag="VLadj" in="" out="">juzgado</W>
+<W lemma="municipal" msd="AN" tag="ADJ" in="" out="">municipal</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Copenhague</W>
+<W lemma="exigir" msd="VAF" tag="VLadj" in="" out="">exigiendo</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">liberación</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">También</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ministerio</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Fiscal</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">ha</W>
+<W lemma="reservar" msd="VAF" tag="VLadj" in="" out="">reservado</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="posibilidad" msd="NC" tag="NC" in="" out="">posibilidad</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">apelación</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
+<W lemma="presidente" msd="NC" tag="NC" in="" out="">presidente</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="consejo" msd="NC" tag="NC" in="" out="">consejo</W>
+<W lemma="administrativo" msd="AN" tag="ADJ" in="" out="">administrativo</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">fue</W>
+<W lemma="condenar" msd="VAF" tag="VLadj" in="" out="">condenado</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">año</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="medio" msd="NC" tag="NC" in="" out="">medio</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">prisión</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="multar" msd="VAD" tag="VLfin" in="" out="">multa</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">millón</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">defraudación</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="abuso" msd="NC" tag="NC" in="" out="">abuso</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">representación</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="fraude" msd="NC" tag="NC" in="" out="">fraude</W>
+<W lemma="fiscal" msd="AN" tag="ADJ" in="" out="">fiscal</W>
+<W lemma="grave" msd="AN" tag="ADJ" in="" out="">grave</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">violación</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
+<W lemma="ley" msd="NC" tag="NC" in="" out="">leyes</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="sociedad" msd="NC" tag="NC" in="" out="">sociedades</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">anónimas</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="banco" msd="NC" tag="NC" in="" out="">bancos</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="caja" msd="NC" tag="NC" in="" out="">cajas</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="ahorro" msd="NC" tag="NC" in="" out="">ahorro</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">El</W>
+<W lemma="director" msd="NC" tag="NC" in="" out="">director</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="banco" msd="NC" tag="NC" in="" out="">banco</W>
+<W lemma="John" msd="NP" tag="NP" in="" out="">John</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Olsdorff</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">fue</W>
+<W lemma="condenar" msd="VAF" tag="VLadj" in="" out="">condenado</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="6" msd="AC" tag="CARD" in="" out="">6</W>
+<W lemma="mes" msd="NC" tag="NC" in="" out="">meses</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="multar" msd="VAD" tag="VLfin" in="" out="">multa</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">90.000</W>
+<W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="ambo" msd="AN" tag="QU" in="" out="">Ambos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">están</W>
+<W lemma="acusar" msd="VAF" tag="VLadj" in="" out="">acusados</W>
+<W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="" out="">haber</W>
+<W lemma="causar" msd="VAF" tag="VLadj" in="" out="">causado</W>
+<W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
+<W lemma="banco" msd="NC" tag="NC" in="" out="">banco</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">pérdida</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="alrededor" msd="SP" tag="PREP" in="" out="">alrededor</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">60</W>
+<W lemma="millones" msd="AC" tag="CARD" in="" out="">millones</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="" out="">haber</W>
+<W lemma="otorgar" msd="VAF" tag="VLadj" in="" out="">otorgado</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">préstamos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="manera" msd="NC" tag="NC" in="" out="">manera</W>
+<W lemma="irresponsable" msd="AN" tag="ADJ" in="" out="">irresponsable</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">e</W>
+<W lemma="ilegal" msd="AN" tag="ADJ" in="" out="">ilegal</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Además</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privado</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
+<W lemma="autoridad" msd="NC" tag="NC" in="" out="">autoridades</W>
+<W lemma="fiscal" msd="AN" tag="ADJ" in="" out="">fiscales</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">3,5</W>
+<W lemma="millones" msd="AC" tag="CARD" in="" out="">millones</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="dos" msd="AC" tag="CARD" in="" out="">Dos</W>
+<W lemma="vocal" msd="NC" tag="NC" in="" out="">vocales</W>
+<W lemma="simple" msd="AN" tag="ADJ" in="" out="">simples</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="consejo" msd="NC" tag="NC" in="" out="">consejo</W>
+<W lemma="administrativo" msd="AN" tag="ADJ" in="" out="">administrativo</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">fueron</W>
+<W lemma="liberar" msd="VAF" tag="VLadj" in="" out="">liberados</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">De</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todas</W>
+<W lemma="manera" msd="NC" tag="NC" in="" out="">maneras</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="juez" msd="NC" tag="NC" in="" out="">juez</W>
+<W lemma="Municipal" msd="NP" tag="NP" in="" out="">municipal</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Nils</W>
+<W lemma="Erik" msd="NP" tag="NP" in="" out="">Erik</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Jensen</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">dejó</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="claro" msd="AN" tag="ADJ" in="" out="">claro</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="miembro" msd="NC" tag="NC" in="" out="">miembros</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="consejo" msd="NC" tag="NC" in="" out="">consejo</W>
+<W lemma="administrativo" msd="AN" tag="ADJ" in="" out="">administrativo</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">podían</W>
+<W lemma="ir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">irse</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="casa" msd="NC" tag="NC" in="" out="">casa</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="conciencia" msd="NC" tag="NC" in="" out="">conciencia</W>
+<W lemma="limpio" msd="AN" tag="ADJ" in="" out="">limpia</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">Su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">liberación</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="significar" msd="VAD" tag="VLfin" in="" out="">significa</W>
+<W lemma="en~absoluto" msd="RG" tag="ADV" in="" out="">en absoluto</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">afirmación</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
+<W lemma="llevar" msd="VAF" tag="VLadj" in="" out="">llevado</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="cabo" msd="NC" tag="NC" in="" out="">cabo</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">gestión</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="consejo" msd="NC" tag="NC" in="" out="">consejo</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="manera" msd="NC" tag="NC" in="" out="">manera</W>
+<W lemma="ejemplar" msd="AN" tag="ADJ" in="" out="">ejemplar</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">–</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="nada" msd="AN" tag="QU" in="" out="">nada</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="caso" msd="NC" tag="NC" in="" out="">caso</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">ratificó</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="juez" msd="NC" tag="NC" in="" out="">juez</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
+<W lemma="observacin" msd="NC" tag="NC" in="" out="">observaciones</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="sentencia" msd="NC" tag="NC" in="" out="">sentencia</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>

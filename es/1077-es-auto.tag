@@ -1,244 +1,244 @@
-<W msd="CCAD" lemma="pero">Pero</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="&lt;unknown&gt;">argumentación</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="ADV" lemma="bien">bien</W>
-<W msd="ADJ" lemma="claro">clara</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="estado">estado</W>
-<W msd="VMfin" lemma="tener~que">tiene que</W>
-<W msd="VLinf" lemma="conservar">conservar</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="valor">valores</W>
-<W msd="ADJ" lemma="cultural">culturales</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VMfin" lemma="haber~que">hay que</W>
-<W msd="VHinf" lemma="haber">haber</W>
-<W msd="NC" lemma="&lt;unknown&gt;">senderos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="actividad">actividad</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">física</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="&lt;unknown&gt;">senderos</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="ejercicio">ejercicio</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="carrera">carreras</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="&lt;unknown&gt;">orientación</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="&lt;unknown&gt;">senderos</W>
-<W msd="CSUBI" lemma="para">para</W>
-<W msd="VLinf" lemma="cabalgar">cabalgar</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ADV" lemma="en~general">en general</W>
-<W msd="VMfin" lemma="haber~que">hay que</W>
-<W msd="VHinf" lemma="haber">haber</W>
-<W msd="NC" lemma="acceso">acceso</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">público</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="DM" lemma="ese">eso</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="PPO" lemma="l">lo</W>
-<W msd="VMfin" lemma="poder">pueden</W>
-<W msd="VLinf" lemma="controlar">controlar</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="cazador">cazadores</W>
-<W msd="ADJ" lemma="privado">privados</W>
-<W msd="VLadj" lemma="&lt;unknown&gt;">–</W>
-<W msd="CCAD" lemma="pero">pero</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">aquí</W>
-<W msd="NC" lemma="&lt;unknown&gt;">está</W>
-<W msd="ADJ" lemma="claro">claro</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="&lt;unknown&gt;">terrones</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="bosque">bosques</W>
-<W msd="ADJ" lemma="privado">privados</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="NC" lemma="&lt;unknown&gt;">ningún</W>
-<W msd="NC" lemma="problema">problema</W>
-<W msd="PREP" lemma="entre">entre</W>
-<W msd="NC" lemma="acceso">acceso</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">público</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ADJ" lemma="cazador">cazadores</W>
-<W msd="ADJ" lemma="privado">privados</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="QU" lemma="todo">todas</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="&lt;unknown&gt;">estadísticas</W>
-<W msd="VLfin" lemma="mostrar">muestran</W>
-<W msd="ADV" lemma="claramente">claramente</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="NC" lemma="mejora">mejora</W>
-<W msd="CSUBX" lemma="cuando">cuando</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="cazador">cazadores</W>
-<W msd="ADJ" lemma="privado">privados</W>
-<W msd="VLfin" lemma="cuidar">cuidan</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CSUBX" lemma="cuanto">Cuanto</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADJ" lemma="bueno">mejor</W>
-<W msd="NC" lemma="forraje">forraje</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="el">lo</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="significar">significa</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="ADJ" lemma="bueno">mejor</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="VLadj" lemma="mejorar">mejorado</W>
-<W msd="ADJ" lemma="cuidado">cuidado</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="naturaleza">naturaleza</W>
-<W msd="ADJ" lemma="silvestre">silvestre</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CSUBX" lemma="si">Si</W>
-<W msd="ADV" lemma="por~ejemplo">por ejemplo</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="observar">observa</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="PE" lemma="sur">sur</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Sjælland</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ADV" lemma="donde">donde</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">mayoría</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="terreno">terrenos</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">están</W>
-<W msd="VLadj" lemma="alquilar">alquilados</W>
-<W msd="PREP" lemma="para">para</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="ADJ" lemma="privado">privada</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="ver">ve</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VHfin" lemma="haber">hay</W>
-<W msd="ADJ" lemma="mucho">mucha</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="NC" lemma="fauna">fauna</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CCAD" lemma="pero">pero</W>
-<W msd="ADV" lemma="al~mismo~tiempo">al mismo tiempo</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="NC" lemma="&lt;unknown&gt;">también</W>
-<W msd="VLfin" lemma="tener">tiene</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">relación</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="ADJ" lemma="natural">natural</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="&lt;unknown&gt;">población</W>
-<W msd="ADJ" lemma="local">local</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CSUBF" lemma="ya~que">ya que</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="gente">gente</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">está</W>
-<W msd="VLadj" lemma="acostumbrar">acostumbrada</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="VLinf" lemma="ver">ver</W>
-<W msd="NC" lemma="cazador">cazadores</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="comer">come</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">más</W>
-<W msd="NC" lemma="carne">carne</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="VLadj" lemma="lograr">logrando</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">así</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">alegría</W>
-<W msd="PREP" lemma="por">por</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="naturaleza">naturaleza</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">Por el contrario</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="norte">norte</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Sjælland</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="gente">gente</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="estado">estado</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="ir">van</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="ADV" lemma="discreto">discretamente</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="&lt;unknown&gt;">días</W>
-<W msd="ADJ" lemma="laboral">laborales</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CSUBX" lemma="cuando">cuando</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="&lt;unknown&gt;">demás</W>
-<W msd="VLfin" lemma="trabajar">trabajan</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="vendar|vender">vende</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="&lt;unknown&gt;">círculo</W>
-<W msd="VLadj" lemma="limitar">limitado</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="NC" lemma="beneficio">beneficio</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Tesoro</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">Público</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="gente">gente</W>
-<W msd="SE" lemma="se">se</W>
-<W msd="VLfin" lemma="volver">vuelve</W>
-<W msd="VLadj" lemma="distanciar">distanciada</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="ART" lemma="el">lo</W>
-<W msd="NC" lemma="&lt;unknown&gt;">más</W>
-<W msd="ADJ" lemma="natural">natural</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="NC" lemma="mundo">mundo</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">–</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="NC" lemma="caza">caza</W>
-<W msd="FS" lemma=".">.</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">argumentación</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="bien" msd="RG" tag="ADV" in="" out="">bien</W>
+<W lemma="claro" msd="AN" tag="ADJ" in="" out="">clara</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="estado" msd="NC" tag="NC" in="" out="">estado</W>
+<W lemma="tener~que" msd="VAD" tag="VMfin" in="" out="">tiene que</W>
+<W lemma="conservar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">conservar</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="valor" msd="NC" tag="NC" in="" out="">valores</W>
+<W lemma="cultural" msd="AN" tag="ADJ" in="" out="">culturales</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="">hay que</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="" out="">haber</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">senderos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="actividad" msd="NC" tag="NC" in="" out="">actividad</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">física</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">senderos</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="ejercicio" msd="NC" tag="NC" in="" out="">ejercicio</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="carrera" msd="NC" tag="NC" in="" out="">carreras</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">orientación</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">senderos</W>
+<W lemma="para" msd="CS" tag="CSUBI" in="" out="">para</W>
+<W lemma="cabalgar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">cabalgar</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="en~general" msd="RG" tag="ADV" in="" out="">en general</W>
+<W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="">hay que</W>
+<W lemma="haber" msd="VAF" tag="VHinf" in="" out="">haber</W>
+<W lemma="acceso" msd="NC" tag="NC" in="" out="">acceso</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">público</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="ese" msd="" tag="DM" in="" out="">eso</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="l" msd="PP" tag="PPO" in="" out="">lo</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueden</W>
+<W lemma="controlar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">controlar</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="cazador" msd="NC" tag="NC" in="" out="">cazadores</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privados</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">–</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">pero</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">aquí</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">está</W>
+<W lemma="claro" msd="AN" tag="ADJ" in="" out="">claro</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">terrones</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="bosque" msd="NC" tag="NC" in="" out="">bosques</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privados</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">ningún</W>
+<W lemma="problema" msd="NC" tag="NC" in="" out="">problema</W>
+<W lemma="entre" msd="SP" tag="PREP" in="" out="">entre</W>
+<W lemma="acceso" msd="NC" tag="NC" in="" out="">acceso</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">público</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="cazador" msd="AN" tag="ADJ" in="" out="">cazadores</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privados</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todas</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">estadísticas</W>
+<W lemma="mostrar" msd="VAD" tag="VLfin" in="" out="">muestran</W>
+<W lemma="claramente" msd="RG" tag="ADV" in="" out="">claramente</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="mejora" msd="NC" tag="NC" in="" out="">mejora</W>
+<W lemma="cuando" msd="CS" tag="CSUBX" in="" out="">cuando</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="cazador" msd="NC" tag="NC" in="" out="">cazadores</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privados</W>
+<W lemma="cuidar" msd="VAD" tag="VLfin" in="" out="">cuidan</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="cuanto" msd="CS" tag="CSUBX" in="" out="">Cuanto</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">más</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="" out="">mejor</W>
+<W lemma="forraje" msd="NC" tag="NC" in="" out="">forraje</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="significar" msd="VAD" tag="VLfin" in="" out="">significa</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="" out="">mejor</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="mejorar" msd="VAF" tag="VLadj" in="" out="">mejorado</W>
+<W lemma="cuidado" msd="AN" tag="ADJ" in="" out="">cuidado</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="naturaleza" msd="NC" tag="NC" in="" out="">naturaleza</W>
+<W lemma="silvestre" msd="AN" tag="ADJ" in="" out="">silvestre</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
+<W lemma="por~ejemplo" msd="RG" tag="ADV" in="" out="">por ejemplo</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="observar" msd="VAD" tag="VLfin" in="" out="">observa</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="sur" msd="SP" tag="PE" in="" out="">sur</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Sjælland</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="donde" msd="RG" tag="ADV" in="" out="">donde</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">mayoría</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="terreno" msd="NC" tag="NC" in="" out="">terrenos</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">están</W>
+<W lemma="alquilar" msd="VAF" tag="VLadj" in="" out="">alquilados</W>
+<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="privado" msd="AN" tag="ADJ" in="" out="">privada</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="ver" msd="VAD" tag="VLfin" in="" out="">ve</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
+<W lemma="mucho" msd="AN" tag="ADJ" in="" out="">mucha</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">más</W>
+<W lemma="fauna" msd="NC" tag="NC" in="" out="">fauna</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">pero</W>
+<W lemma="al~mismo~tiempo" msd="RG" tag="ADV" in="" out="">al mismo tiempo</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">también</W>
+<W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tiene</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">relación</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">más</W>
+<W lemma="natural" msd="AN" tag="ADJ" in="" out="">natural</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">población</W>
+<W lemma="local" msd="AN" tag="ADJ" in="" out="">local</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="ya~que" msd="CS" tag="CSUBF" in="" out="">ya que</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="gente" msd="NC" tag="NC" in="" out="">gente</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">está</W>
+<W lemma="acostumbrar" msd="VAF" tag="VLadj" in="" out="">acostumbrada</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="ver" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">ver</W>
+<W lemma="cazador" msd="NC" tag="NC" in="" out="">cazadores</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="comer" msd="VAD" tag="VLfin" in="" out="">come</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">más</W>
+<W lemma="carne" msd="NC" tag="NC" in="" out="">carne</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="lograr" msd="VAF" tag="VLadj" in="" out="">logrando</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">así</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">más</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">alegría</W>
+<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="naturaleza" msd="NC" tag="NC" in="" out="">naturaleza</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">Por el contrario</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="norte" msd="NC" tag="NC" in="" out="">norte</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Sjælland</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="gente" msd="NC" tag="NC" in="" out="">gente</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="estado" msd="NC" tag="NC" in="" out="">estado</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="ir" msd="VAD" tag="VLfin" in="" out="">van</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="discreto" msd="RG" tag="ADV" in="" out="">discretamente</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">días</W>
+<W lemma="laboral" msd="AN" tag="ADJ" in="" out="">laborales</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="cuando" msd="CS" tag="CSUBX" in="" out="">cuando</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">demás</W>
+<W lemma="trabajar" msd="VAD" tag="VLfin" in="" out="">trabajan</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="vendar&7c;vender" msd="VAD" tag="VLfin" in="" out="">vende</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">círculo</W>
+<W lemma="limitar" msd="VAF" tag="VLadj" in="" out="">limitado</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="beneficio" msd="NC" tag="NC" in="" out="">beneficio</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Tesoro</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Público</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="gente" msd="NC" tag="NC" in="" out="">gente</W>
+<W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
+<W lemma="volver" msd="VAD" tag="VLfin" in="" out="">vuelve</W>
+<W lemma="distanciar" msd="VAF" tag="VLadj" in="" out="">distanciada</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">más</W>
+<W lemma="natural" msd="AN" tag="ADJ" in="" out="">natural</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="mundo" msd="NC" tag="NC" in="" out="">mundo</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">–</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="caza" msd="NC" tag="NC" in="" out="">caza</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>

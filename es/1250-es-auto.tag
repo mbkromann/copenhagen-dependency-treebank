@@ -1,170 +1,170 @@
-<W msd="NC" lemma="&lt;unknown&gt;">¿Qué</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">hacías</W>
-<W msd="ADV" lemma="antes">antes</W>
-<W msd="CSUBI" lemma="de">de</W>
-<W msd="VLinf" lemma="comenzar">comenzar</W>
-<W msd="PREP" lemma="a">a</W>
-<W msd="VLinf" lemma="buscar">buscar</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="contrato">contrato</W>
-<W msd="FS" lemma="?">?</W>
-<W msd="NC" lemma="&lt;unknown&gt;">“Entonces</W>
-<W msd="VLfin" lemma="trabajar">trabajaba</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="control">control</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="calidad">calidad</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="empresa">empresa</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="circuito">circuitos</W>
-<W msd="VLadj" lemma="integrar">integrados</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CCAD" lemma="pero">Pero</W>
-<W msd="VLfin" lemma="usar">usaba</W>
-<W msd="QU" lemma="demasiado">demasiado</W>
-<W msd="NC" lemma="tiempo">tiempo</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="&lt;unknown&gt;">ello.”</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">¿Entonces</W>
-<W msd="VLfin" lemma="dejar">dejaste</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="trabajo">trabajo</W>
-<W msd="FS" lemma="?">?</W>
-<W msd="NC" lemma="&lt;unknown&gt;">“No</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">diría</W>
-<W msd="DM" lemma="ese">eso</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="DM" lemma="ese">Eso</W>
-<W msd="PPO" lemma="l">lo</W>
-<W msd="VLfin" lemma="decir">dicen</W>
-<W msd="ADV" lemma="siempre">siempre</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">Tomé</W>
-<W msd="ART" lemma="un">una</W>
-<W msd="NC" lemma="&lt;unknown&gt;">decisión</W>
-<W msd="CSUBI" lemma="de">de</W>
-<W msd="VLinf" lemma="averiguar">averiguar</W>
-<W msd="CSUBX" lemma="si">si</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">había</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="lugar">lugar</W>
-<W msd="CSUBI" lemma="para">para</W>
-<W msd="VLinf" lemma="&lt;unknown&gt;">mí</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="ART" lemma="el">la</W>
-<W msd="VLfin" lemma="industriar">industria</W>
-<W msd="NC" lemma="&lt;unknown&gt;">musical.”</W>
-<W msd="ADJ" lemma="&lt;unknown&gt;">Débiles</W>
-<W msd="VLfin" lemma="hollar">huellas</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="dolor">dolor</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ADV" lemma="de~hecho">De hecho</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Ester</W>
-<W msd="NP" lemma="&lt;unknown&gt;">Brohus</W>
-<W msd="NEG" lemma="no">no</W>
-<W msd="VSfin" lemma="ser">es</W>
-<W msd="PDEL" lemma="del">del</W>
-<W msd="QU" lemma="todo">todo</W>
-<W msd="NC" lemma="desconocida">desconocida</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="QU" lemma="mucho">Muchos</W>
-<W msd="ADJ" lemma="dans">daneses</W>
-<W msd="PPO" lemma="l">la</W>
-<W msd="VHfin" lemma="haber">han</W>
-<W msd="VLadj" lemma="escuchar">escuchado</W>
-<W msd="VLinf" lemma="cantar">cantar</W>
-<W msd="VLfin" lemma="hacer">hace</W>
-<W msd="NC" lemma="tiempo">tiempo</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PREP" lemma="desde">Desde</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">tenía</W>
-<W msd="CARD" lemma="@card@">12</W>
-<W msd="NC" lemma="&lt;unknown&gt;">años</W>
-<W msd="PREP" lemma="hasta">hasta</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">cumplió</W>
-<W msd="CARD" lemma="@card@">25</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">recurría</W>
-<W msd="QU" lemma="todo">todo</W>
-<W msd="ART" lemma="el">el</W>
-<W msd="NC" lemma="&lt;unknown&gt;">país</W>
-<W msd="PREP" lemma="junto~con">junto con</W>
-<W msd="CARD" lemma="dos">dos</W>
-<W msd="NC" lemma="hermano">hermanas</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="ART" lemma="un">un</W>
-<W msd="NC" lemma="hermano">hermano</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="padre">padres</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="ART" lemma="el">La</W>
-<W msd="NC" lemma="familia">familia</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">aprovechaba</W>
-<W msd="ART" lemma="el">los</W>
-<W msd="NC" lemma="fin">fines</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="semana">semana</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="ART" lemma="el">las</W>
-<W msd="NC" lemma="vacacin">vacaciones</W>
-<W msd="CSUBI" lemma="para">para</W>
-<W msd="VLinf" lemma="tocar">tocar</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="VLinf" lemma="cantar">cantar</W>
-<W msd="NC" lemma="&lt;unknown&gt;">gospels</W>
-<W msd="ADJ" lemma="cristiano">cristianos</W>
-<W msd="PREP" lemma="en">en</W>
-<W msd="NC" lemma="&lt;unknown&gt;">romerías</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="&lt;unknown&gt;">cárceles</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="NC" lemma="centro">centros</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="NC" lemma="reunin">reuniones</W>
-<W msd="CM" lemma=",">,</W>
-<W msd="NC" lemma="cuenta">cuenta</W>
-<W msd="PPX" lemma="l">ella</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="NC" lemma="&lt;unknown&gt;">“Mucha</W>
-<W msd="NC" lemma="gente">gente</W>
-<W msd="VLfin" lemma="pensar">pensaba</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VEfin" lemma="era">era</W>
-<W msd="ADJ" lemma="raro">raro</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="continuar">continuara</W>
-<W msd="VLadj" lemma="andar">andando</W>
-<W msd="PREP" lemma="con">con</W>
-<W msd="PPO" lemma="mo">mi</W>
-<W msd="NC" lemma="familia">familia</W>
-<W msd="PREP" lemma="hasta">hasta</W>
-<W msd="CQUE" lemma="que">que</W>
-<W msd="VLfin" lemma="&lt;unknown&gt;">tenía</W>
-<W msd="CARD" lemma="@card@">25</W>
-<W msd="NC" lemma="&lt;unknown&gt;">años</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="CCAD" lemma="pero">Pero</W>
-<W msd="VLfin" lemma="estar">estamos</W>
-<W msd="ADV" lemma="muy">muy</W>
-<W msd="VLadj" lemma="unir">unidos</W>
-<W msd="FS" lemma=".">.</W>
-<W msd="PPO" lemma="mo">Mi</W>
-<W msd="VLfin" lemma="maridar">marido</W>
-<W msd="CC" lemma="y">y</W>
-<W msd="PPX" lemma="yo">yo</W>
-<W msd="VLfin" lemma="vivir">vivimos</W>
-<W msd="ADV" lemma="&lt;unknown&gt;">aún</W>
-<W msd="ADV" lemma="muy">muy</W>
-<W msd="ADV" lemma="cerca">cerca</W>
-<W msd="PREP" lemma="de">de</W>
-<W msd="PPO" lemma="yo">mis</W>
-<W msd="NC" lemma="&lt;unknown&gt;">padres.”</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">¿Qué</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">hacías</W>
+<W lemma="antes" msd="RG" tag="ADV" in="" out="">antes</W>
+<W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
+<W lemma="comenzar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">comenzar</W>
+<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="buscar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">buscar</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="contrato" msd="NC" tag="NC" in="" out="">contrato</W>
+<W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">“Entonces</W>
+<W lemma="trabajar" msd="VAD" tag="VLfin" in="" out="">trabajaba</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="control" msd="NC" tag="NC" in="" out="">control</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="calidad" msd="NC" tag="NC" in="" out="">calidad</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="empresa" msd="NC" tag="NC" in="" out="">empresa</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="circuito" msd="NC" tag="NC" in="" out="">circuitos</W>
+<W lemma="integrar" msd="VAF" tag="VLadj" in="" out="">integrados</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
+<W lemma="usar" msd="VAD" tag="VLfin" in="" out="">usaba</W>
+<W lemma="demasiado" msd="AN" tag="QU" in="" out="">demasiado</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="" out="">tiempo</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">ello.”</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">¿Entonces</W>
+<W lemma="dejar" msd="VAD" tag="VLfin" in="" out="">dejaste</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="trabajo" msd="NC" tag="NC" in="" out="">trabajo</W>
+<W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">“No</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">diría</W>
+<W lemma="ese" msd="" tag="DM" in="" out="">eso</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="ese" msd="" tag="DM" in="" out="">Eso</W>
+<W lemma="l" msd="PP" tag="PPO" in="" out="">lo</W>
+<W lemma="decir" msd="VAD" tag="VLfin" in="" out="">dicen</W>
+<W lemma="siempre" msd="RG" tag="ADV" in="" out="">siempre</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">Tomé</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">decisión</W>
+<W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
+<W lemma="averiguar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">averiguar</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="" out="">si</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">había</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="lugar" msd="NC" tag="NC" in="" out="">lugar</W>
+<W lemma="para" msd="CS" tag="CSUBI" in="" out="">para</W>
+<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">mí</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
+<W lemma="industriar" msd="VAD" tag="VLfin" in="" out="">industria</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">musical.”</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Débiles</W>
+<W lemma="hollar" msd="VAD" tag="VLfin" in="" out="">huellas</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="dolor" msd="NC" tag="NC" in="" out="">dolor</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="de~hecho" msd="RG" tag="ADV" in="" out="">De hecho</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Ester</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Brohus</W>
+<W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
+<W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
+<W lemma="desconocida" msd="NC" tag="NC" in="" out="">desconocida</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="mucho" msd="AN" tag="QU" in="" out="">Muchos</W>
+<W lemma="dans" msd="AN" tag="ADJ" in="" out="">daneses</W>
+<W lemma="l" msd="PP" tag="PPO" in="" out="">la</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
+<W lemma="escuchar" msd="VAF" tag="VLadj" in="" out="">escuchado</W>
+<W lemma="cantar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">cantar</W>
+<W lemma="hacer" msd="VAD" tag="VLfin" in="" out="">hace</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="" out="">tiempo</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="desde" msd="SP" tag="PREP" in="" out="">Desde</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">tenía</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">12</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">años</W>
+<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">cumplió</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">25</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">recurría</W>
+<W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">país</W>
+<W lemma="junto~con" msd="SP" tag="PREP" in="" out="">junto con</W>
+<W lemma="dos" msd="AC" tag="CARD" in="" out="">dos</W>
+<W lemma="hermano" msd="NC" tag="NC" in="" out="">hermanas</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
+<W lemma="hermano" msd="NC" tag="NC" in="" out="">hermano</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="padre" msd="NC" tag="NC" in="" out="">padres</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
+<W lemma="familia" msd="NC" tag="NC" in="" out="">familia</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">aprovechaba</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
+<W lemma="fin" msd="NC" tag="NC" in="" out="">fines</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="semana" msd="NC" tag="NC" in="" out="">semana</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
+<W lemma="vacacin" msd="NC" tag="NC" in="" out="">vacaciones</W>
+<W lemma="para" msd="CS" tag="CSUBI" in="" out="">para</W>
+<W lemma="tocar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tocar</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="cantar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">cantar</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">gospels</W>
+<W lemma="cristiano" msd="AN" tag="ADJ" in="" out="">cristianos</W>
+<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">romerías</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cárceles</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="centro" msd="NC" tag="NC" in="" out="">centros</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="reunin" msd="NC" tag="NC" in="" out="">reuniones</W>
+<W lemma="," msd="XP" tag="CM" in="" out="">,</W>
+<W lemma="cuenta" msd="NC" tag="NC" in="" out="">cuenta</W>
+<W lemma="l" msd="PP" tag="PPX" in="" out="">ella</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">“Mucha</W>
+<W lemma="gente" msd="NC" tag="NC" in="" out="">gente</W>
+<W lemma="pensar" msd="VAD" tag="VLfin" in="" out="">pensaba</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="era" msd="VAD" tag="VEfin" in="" out="">era</W>
+<W lemma="raro" msd="AN" tag="ADJ" in="" out="">raro</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="continuar" msd="VAD" tag="VLfin" in="" out="">continuara</W>
+<W lemma="andar" msd="VAF" tag="VLadj" in="" out="">andando</W>
+<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="mo" msd="PP" tag="PPO" in="" out="">mi</W>
+<W lemma="familia" msd="NC" tag="NC" in="" out="">familia</W>
+<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">tenía</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="" out="">25</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">años</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
+<W lemma="estar" msd="VAD" tag="VLfin" in="" out="">estamos</W>
+<W lemma="muy" msd="RG" tag="ADV" in="" out="">muy</W>
+<W lemma="unir" msd="VAF" tag="VLadj" in="" out="">unidos</W>
+<W lemma="." msd="XP" tag="FS" in="" out="">.</W>
+<W lemma="mo" msd="PP" tag="PPO" in="" out="">Mi</W>
+<W lemma="maridar" msd="VAD" tag="VLfin" in="" out="">marido</W>
+<W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
+<W lemma="yo" msd="PP" tag="PPX" in="" out="">yo</W>
+<W lemma="vivir" msd="VAD" tag="VLfin" in="" out="">vivimos</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">aún</W>
+<W lemma="muy" msd="RG" tag="ADV" in="" out="">muy</W>
+<W lemma="cerca" msd="RG" tag="ADV" in="" out="">cerca</W>
+<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="yo" msd="PP" tag="PPO" in="" out="">mis</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">padres.”</W>

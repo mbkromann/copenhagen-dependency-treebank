@@ -1,196 +1,196 @@
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:subj|2:vobj|46:pnct">¿Puede</W>
-<W lemma="uno" msd="CARD" in="-1:subj|1:[subj]" out="">uno</W>
-<W lemma="ser" msd="NC" in="-2:vobj" out="-1:[subj]|1:preds|2:dir|5:other|10:time">ser</W>
-<W lemma="seducir" msd="VLadj" in="-1:preds" out="">seducido</W>
-<W lemma="al" msd="PAL" in="-2:dir" out="1:nobj">al</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="1:nobj">Kongens</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Have</W>
-<W lemma="con" msd="PREP" in="-5:other" out="1:nobj">con</W>
-<W lemma="@card@" msd="CARD" in="-1:nobj" out="1:nobj">35</W>
-<W lemma="grado" msd="NMEA" in="-1:nobj" out="1:pobj|1:{arg}">grados</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="calor" msd="NC" in="-1:nobj" out="">calor</W>
-<W lemma="mientras" msd="CSUBX" in="-10:time" out="">mientras</W>
-<W lemma="se" msd="SE" in="1:robj" out="1:vobj">se</W>
-<W lemma="yacer" msd="VLfin" in="-1:vobj" out="-1:robj|1:loc|17:concom">yace</W>
-<W lemma="bajo" msd="PREP" in="-1:loc" out="1:nobj">bajo</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="sombra" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">sombra</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">árbol</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="1:pnct" out="">–</W>
-<W lemma="vestir" msd="VLadj" in="" out="-1:pnct|1:pobj|5:pnct|7:prg|8:pnct">vestido</W>
-<W lemma="con" msd="PREP" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="todo" msd="QU" in="-1:nobj" out="1:nobj">toda</W>
-<W lemma="suyo" msd="PPO" in="-1:nobj" out="1:possd">su</W>
-<W lemma="ropa" msd="NC" in="-1:possd" out="">ropa</W>
-<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
-<W lemma="bien" msd="ADV" in="1:degr" out="">bien</W>
-<W lemma="entender" msd="VLadj" in="-7:prg" out="-1:degr">entendido</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-8:pnct" out="11:nobj">–</W>
-<W lemma="beber" msd="VLadj" in="-17:concom" out="1:dobj|3:pnct|4:conj|8:conj">bebiendo</W>
-<W lemma="aguar" msd="VLfin" in="-1:dobj" out="1:attr">agua</W>
-<W lemma="mineral" msd="NC" in="-1:attr" out="">mineral</W>
-<W lemma="," msd="CM" in="-3:pnct" out="">,</W>
-<W lemma="fumar" msd="VLadj" in="-4:conj" out="1:dobj">fumando</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="cigarro" msd="NC" in="-1:nobj" out="">cigarrillo</W>
-<W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="escuchar" msd="VLadj" in="-8:conj" out="-1:coord|1:dobj">escuchando</W>
-<W lemma="el" msd="ART" in="-1:dobj" out="">las</W>
-<W lemma="confesin" msd="NC" in="-11:nobj" out="1:other">confesiones</W>
-<W lemma="de" msd="PREP" in="-1:other" out="1:nobj">de</W>
-<W lemma="un" msd="ART" in="-1:nobj" out="1:nobj">un</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:attr">provocador</W>
-<W lemma="pop" msd="NC" in="-1:attr" out="">pop</W>
-<W lemma="?" msd="FS" in="-46:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="" out="1:pnct">¡Sí</W>
-<W lemma="!" msd="FS" in="-1:pnct" out="">!</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Carsten</W>
-<W lemma="Bo" msd="NP" in="1:subj" out="-1:namef|10:coref">Bo</W>
-<W lemma="tener" msd="VLfin" in="" out="-1:subj|2:prg|6:dobj|8:pnct">tiene</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="1:pnct" out="">–</W>
-<W lemma="para" msd="PREP" in="-2:prg" out="-1:pnct|3:pnct">para</W>
-<W lemma="grande" msd="ADJ" in="1:attr" out="1:nobj">mayor</W>
-<W lemma="regularidad" msd="NC" in="-1:nobj" out="-1:attr">regularidad</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:pnct" out="">–</W>
-<W lemma="@card@" msd="CARD" in="-6:dobj" out="1:nobj">33</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
-<W lemma="." msd="FS" in="-8:pnct" out="">.</W>
-<W lemma="ser" msd="VSfin" in="-10:coref" out="1:preds|16:pnct|42:coref">Es</W>
-<W lemma="hijo" msd="NC" in="-1:preds" out="9:conj|11:conj|14:conj|1:pobj|1:{arg}">hijo</W>
-<W lemma="del" msd="PDEL" in="-1:pobj|-1:{arg}" out="2:nobj">del</W>
-<W lemma="anterior" msd="ADJ" in="1:attr" out="">anterior</W>
-<W lemma="ministro" msd="NC" in="-2:nobj" out="-1:attr|4:appr|1:pobj|1:{arg}">ministro</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="industriar" msd="VLfin" in="-1:nobj" out="">industria</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">Erling</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-4:appr" out="-1:namef">Jensen</W>
-<W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="poeta" msd="NC" in="-9:conj" out="-1:pnct">poeta</W>
-<W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="cantante" msd="NC" in="-11:conj" out="-1:pnct|1:attr">cantante</W>
-<W lemma="pop" msd="NC" in="-1:attr" out="">pop</W>
-<W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="escritor" msd="NC" in="-14:conj" out="-1:coord">escritor</W>
-<W lemma="." msd="FS" in="-16:pnct" out="">.</W>
-<W lemma="el" msd="ART" in="" out="1:nobj|12:pnct|24:pnct">El</W>
-<W lemma="personaje" msd="NC" in="-1:nobj" out="1:attr|2:other">personaje</W>
-<W lemma="central" msd="NC" in="-1:attr" out="">central</W>
-<W lemma="de" msd="PREP" in="-2:other" out="1:nobj">de</W>
-<W lemma="grupo" msd="NC" in="-1:nobj" out="1:attr">grupos</W>
-<W lemma="con" msd="PREP" in="-1:attr" out="1:nobj">con</W>
-<W lemma="nombre" msd="NC" in="-1:nobj" out="1:attr|2:comp">nombres</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">crípticos</W>
-<W lemma="como" msd="CSUBX" in="-2:comp" out="1:nobj">como</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-1:nobj" out="1:pobj|4:conj|9:conj">“40</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">fiebre”</W>
-<W lemma="," msd="CM" in="-12:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-4:conj" out="1:other">“Hombres</W>
-<W lemma="de" msd="PREP" in="-1:other" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">azul”</W>
-<W lemma="y" msd="CC" in="2:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="ADV" in="1:time" out="">últimamente</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-9:conj" out="-2:coord|-1:time">“Sea</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Bee</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="" out="">&amp”</W>
-<W lemma=";" msd="SEMICOLON" in="" out="">;</W>
-<W lemma="The" msd="PE" in="" out="">The</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="" out="">D’Generation</W>
-<W lemma="." msd="FS" in="-24:pnct" out="">.</W>
-<W lemma="l" msd="PPC" in="-42:coref|2:iobj" out="23:coref">Le</W>
-<W lemma="haber" msd="VHfin" in="" out="1:vobj|4:other|20:pnct">han</W>
-<W lemma="llamar" msd="VLadj" in="-1:vobj" out="-2:iobj|7:dobj">llamado</W>
-<W lemma="&lt;unknown&gt;" msd="VLadj" in="2:pnct" out="">–</W>
-<W lemma="muy" msd="ADV" in="1:degr" out="">muy</W>
-<W lemma="contra" msd="PREP" in="-4:other" out="-2:pnct|-1:degr|1:nobj|3:pnct">contra</W>
-<W lemma="suyo" msd="PPO" in="-1:nobj" out="1:possd">su</W>
-<W lemma="voluntad" msd="NC" in="-1:possd" out="">voluntad</W>
-<W lemma="-" msd="DASH" in="-3:pnct" out="">-</W>
-<W lemma="el" msd="ART" in="-7:dobj" out="4:conj|8:dobj">el</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="1:nobj">Steffen</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="-1:namef">Brandt</W>
-<W lemma="o" msd="CC" in="1:coord" out="">o</W>
-<W lemma="el" msd="ART" in="-4:conj" out="-1:coord|3:nobj">el</W>
-<W lemma="C." msd="NP" in="2:namef" out="">C.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="1:namef" out="">V.</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="-3:nobj" out="-2:namef|-1:namef">Jørgensen</W>
-<W lemma="de" msd="PREP" in="-8:dobj" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">años</W>
-<W lemma="@card@" msd="CARD" in="-1:nobj" out="">90</W>
-<W lemma="." msd="FS" in="-20:pnct" out="">.</W>
-<W lemma="pero" msd="CCAD" in="2:struct" out="">Pero</W>
-<W lemma="l" msd="PPC" in="-23:coref|1:iobj" out="5:coref">le</W>
-<W lemma="dar" msd="VLfin" in="" out="-1:iobj|-2:struct|2:dobj|3:pnct">da</W>
-<W lemma="mucho" msd="ADJ" in="1:attr" out="">mucha</W>
-<W lemma="rabia" msd="NC" in="-2:dobj" out="-1:attr">rabia</W>
-<W lemma="." msd="FS" in="-3:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-5:coref|1:subj" out="4:coref">“¡Yo</W>
-<W lemma="ser" msd="VLfin" in="3:qobj" out="-1:subj|1:preds|2:pnct">soy</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:preds" out="">yo!”</W>
-<W lemma="," msd="CM" in="-2:pnct" out="">,</W>
-<W lemma="insistir" msd="VLfin" in="-4:coref" out="-3:qobj|1:loc|9:pnct|10:time|11:coref|15:comp|61:pnct">insiste</W>
-<W lemma="bajo" msd="PREP" in="-1:loc" out="1:nobj">bajo</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="2:nobj|3:other">el</W>
-<W lemma="viejo" msd="ADJ" in="1:attr" out="">viejo</W>
-<W lemma="roble" msd="NC" in="-2:nobj" out="-1:attr">roble</W>
-<W lemma="de" msd="PREP" in="-3:other" out="1:nobj">de</W>
-<W lemma="ciento" msd="NC" in="-1:nobj" out="1:pobj">cientos</W>
-<W lemma="de" msd="PREP" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="">años</W>
-<W lemma="," msd="CM" in="-9:pnct" out="">,</W>
-<W lemma="mientras" msd="CSUBX" in="-10:time" out="1:vobj">mientras</W>
-<W lemma="yacer" msd="VLfin" in="-1:vobj|-11:coref" out="1:man|10:man|11:coref">yace</W>
-<W lemma="de" msd="PREP" in="-1:man" out="1:nobj">de</W>
-<W lemma="espalda" msd="NC" in="-1:nobj" out="">espalda</W>
-<W lemma="," msd="CM" in="1:pnct" out="">,</W>
-<W lemma="como" msd="CSUBX" in="-15:comp" out="-1:pnct|3:nobj|5:pnct">como</W>
-<W lemma="bueno" msd="ADJ" in="2:attr" out="">buen</W>
-<W lemma="atrever" msd="VLadj" in="1:attr" out="">atrevido</W>
-<W lemma="muchacho" msd="NC" in="-3:nobj" out="-2:attr|-1:attr|1:attr">muchacho</W>
-<W lemma="pop" msd="NC" in="-1:attr" out="">pop</W>
-<W lemma="," msd="CM" in="-5:pnct" out="">,</W>
-<W lemma="con" msd="PREP" in="-10:man" out="1:nobj|4:pnct">con</W>
-<W lemma="suyo" msd="PPO" in="-1:nobj|-11:coref" out="1:possd">sus</W>
-<W lemma="vaquero" msd="NC" in="-1:possd" out="1:attr|3:conj|13:conj|33:conj">vaqueros</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">anaranjados</W>
-<W lemma="," msd="CM" in="-4:pnct" out="">,</W>
-<W lemma="camiseta" msd="NC" in="-3:conj" out="2:ref|4:relpa">camiseta</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="3:pnct" out="">–</W>
-<W lemma="que" msd="CQUE" in="-2:ref|2:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VLfin" in="1:prg" out="">naturalmene</W>
-<W lemma="exhibir" msd="VLfin" in="-4:relpa" out="-3:pnct|-2:subj|-1:prg|1:dobj|5:pnct">exhibe</W>
-<W lemma="un" msd="ART" in="-1:dobj" out="2:nobj">un</W>
-<W lemma="broncear" msd="VLadj" in="1:attr" out="">bronceado</W>
-<W lemma="pechar" msd="VLfin" in="-2:nobj" out="-1:attr|1:attr">pecho</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-1:attr" out="">velludo</W>
-<W lemma="&lt;unknown&gt;" msd="VLinf" in="-5:pnct" out="">–</W>
-<W lemma="un" msd="ART" in="-13:conj" out="1:nobj|6:other|18:pnct">un</W>
-<W lemma="par" msd="NC" in="-1:nobj" out="1:pobj|1:{arg}">par</W>
-<W lemma="de" msd="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="gafas" msd="NC" in="-1:nobj" out="1:goal#|12:attr">gafas</W>
-<W lemma="de" msd="PREP" in="-1:goal#" out="1:nobj">de</W>
-<W lemma="sol" msd="NC" in="-1:nobj" out="">sol</W>
-<W lemma="tipo" msd="NC" in="-6:other" out="">tipo</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="" out="">“make</W>
-<W lemma="love" msd="PE" in="" out="">love</W>
-<W lemma="not" msd="PE" in="" out="">not</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="" out="1:time">war”</W>
-<W lemma="de" msd="PREP" in="-1:time" out="1:nobj">de</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" in="-1:nobj" out="1:nobj">años</W>
-<W lemma="@card@" msd="CODE" in="-1:nobj" out="">68</W>
-<W lemma="comprar" msd="VLadj" in="-12:attr" out="1:loc">comprado</W>
-<W lemma="en" msd="PREP" in="-1:loc" out="1:nobj">en</W>
-<W lemma="&lt;unknown&gt;" msd="NP" in="-1:nobj" out="">Paris</W>
-<W lemma="," msd="CM" in="-18:pnct" out="">,</W>
-<W lemma="y" msd="CC" in="1:coord" out="">y</W>
-<W lemma="un" msd="ART" in="-33:conj" out="-1:coord|1:nobj|2:loc">un</W>
-<W lemma="cigarro" msd="NC" in="-1:nobj" out="">cigarrillo</W>
-<W lemma="en" msd="PREP" in="-2:loc" out="1:nobj">en</W>
-<W lemma="el" msd="ART" in="-1:nobj" out="1:nobj">la</W>
-<W lemma="boca" msd="NC" in="-1:nobj" out="">boca</W>
-<W lemma="." msd="FS" in="-61:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="1:subj|2:vobj|46:pnct">¿Puede</W>
+<W lemma="uno" msd="AC" tag="CARD" in="-1:subj|1:[subj]" out="">uno</W>
+<W lemma="ser" msd="NC" tag="NC" in="-2:vobj" out="-1:[subj]|1:preds|2:dir|5:other|10:time">ser</W>
+<W lemma="seducir" msd="VAF" tag="VLadj" in="-1:preds" out="">seducido</W>
+<W lemma="al" msd="SP" tag="PAL" in="-2:dir" out="1:nobj">al</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Kongens</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Have</W>
+<W lemma="con" msd="SP" tag="PREP" in="-5:other" out="1:nobj">con</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">35</W>
+<W lemma="grado" msd="NC" tag="NMEA" in="-1:nobj" out="1:pobj|1:{arg}">grados</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="calor" msd="NC" tag="NC" in="-1:nobj" out="">calor</W>
+<W lemma="mientras" msd="CS" tag="CSUBX" in="-10:time" out="">mientras</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="1:vobj">se</W>
+<W lemma="yacer" msd="VAD" tag="VLfin" in="-1:vobj" out="-1:robj|1:loc|17:concom">yace</W>
+<W lemma="bajo" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">bajo</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="sombra" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">sombra</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">árbol</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:pnct" out="">–</W>
+<W lemma="vestir" msd="VAF" tag="VLadj" in="" out="-1:pnct|1:pobj|5:pnct|7:prg|8:pnct">vestido</W>
+<W lemma="con" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">con</W>
+<W lemma="todo" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">toda</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
+<W lemma="ropa" msd="NC" tag="NC" in="-1:possd" out="">ropa</W>
+<W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
+<W lemma="bien" msd="RG" tag="ADV" in="1:degr" out="">bien</W>
+<W lemma="entender" msd="VAF" tag="VLadj" in="-7:prg" out="-1:degr">entendido</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-8:pnct" out="11:nobj">–</W>
+<W lemma="beber" msd="VAF" tag="VLadj" in="-17:concom" out="1:dobj|3:pnct|4:conj|8:conj">bebiendo</W>
+<W lemma="aguar" msd="VAD" tag="VLfin" in="-1:dobj" out="1:attr">agua</W>
+<W lemma="mineral" msd="NC" tag="NC" in="-1:attr" out="">mineral</W>
+<W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
+<W lemma="fumar" msd="VAF" tag="VLadj" in="-4:conj" out="1:dobj">fumando</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
+<W lemma="cigarro" msd="NC" tag="NC" in="-1:nobj" out="">cigarrillo</W>
+<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
+<W lemma="escuchar" msd="VAF" tag="VLadj" in="-8:conj" out="-1:coord|1:dobj">escuchando</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="">las</W>
+<W lemma="confesin" msd="NC" tag="NC" in="-11:nobj" out="1:other">confesiones</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:other" out="1:nobj">de</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">provocador</W>
+<W lemma="pop" msd="NC" tag="NC" in="-1:attr" out="">pop</W>
+<W lemma="?" msd="XP" tag="FS" in="-46:pnct" out="">?</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="1:pnct">¡Sí</W>
+<W lemma="!" msd="XP" tag="FS" in="-1:pnct" out="">!</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Carsten</W>
+<W lemma="Bo" msd="NP" tag="NP" in="1:subj" out="-1:namef|10:coref">Bo</W>
+<W lemma="tener" msd="VAD" tag="VLfin" in="" out="-1:subj|2:prg|6:dobj|8:pnct">tiene</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="1:pnct" out="">–</W>
+<W lemma="para" msd="SP" tag="PREP" in="-2:prg" out="-1:pnct|3:pnct">para</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="1:nobj">mayor</W>
+<W lemma="regularidad" msd="NC" tag="NC" in="-1:nobj" out="-1:attr">regularidad</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:pnct" out="">–</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-6:dobj" out="1:nobj">33</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">años</W>
+<W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-10:coref" out="1:preds|16:pnct|42:coref">Es</W>
+<W lemma="hijo" msd="NC" tag="NC" in="-1:preds" out="1:pobj|1:{arg}|9:conj|11:conj|14:conj">hijo</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="2:nobj">del</W>
+<W lemma="anterior" msd="AN" tag="ADJ" in="1:attr" out="">anterior</W>
+<W lemma="ministro" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}|4:appr">ministro</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="industriar" msd="VAD" tag="VLfin" in="-1:nobj" out="">industria</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Erling</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-4:appr" out="-1:namef">Jensen</W>
+<W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
+<W lemma="poeta" msd="NC" tag="NC" in="-9:conj" out="-1:pnct">poeta</W>
+<W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
+<W lemma="cantante" msd="NC" tag="NC" in="-11:conj" out="-1:pnct|1:attr">cantante</W>
+<W lemma="pop" msd="NC" tag="NC" in="-1:attr" out="">pop</W>
+<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
+<W lemma="escritor" msd="NC" tag="NC" in="-14:conj" out="-1:coord">escritor</W>
+<W lemma="." msd="XP" tag="FS" in="-16:pnct" out="">.</W>
+<W lemma="el" msd="PD" tag="ART" in="" out="1:nobj|12:pnct|24:pnct">El</W>
+<W lemma="personaje" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:other">personaje</W>
+<W lemma="central" msd="NC" tag="NC" in="-1:attr" out="">central</W>
+<W lemma="de" msd="SP" tag="PREP" in="-2:other" out="1:nobj">de</W>
+<W lemma="grupo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">grupos</W>
+<W lemma="con" msd="SP" tag="PREP" in="-1:attr" out="1:nobj">con</W>
+<W lemma="nombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:comp">nombres</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">crípticos</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-2:comp" out="1:nobj">como</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="1:pobj|4:conj|9:conj">“40</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">fiebre”</W>
+<W lemma="," msd="XP" tag="CM" in="-12:pnct" out="">,</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-4:conj" out="1:other">“Hombres</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:other" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">azul”</W>
+<W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="1:time" out="">últimamente</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-9:conj" out="-2:coord|-1:time">“Sea</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bee</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">&amp”</W>
+<W lemma=";" msd="XP" tag="SEMICOLON" in="" out="">;</W>
+<W lemma="The" msd="SP" tag="PE" in="" out="">The</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">D’Generation</W>
+<W lemma="." msd="XP" tag="FS" in="-24:pnct" out="">.</W>
+<W lemma="l" msd="PP" tag="PPC" in="-42:coref|2:iobj" out="23:coref">Le</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="1:vobj|4:other|20:pnct">han</W>
+<W lemma="llamar" msd="VAF" tag="VLadj" in="-1:vobj" out="-2:iobj|7:dobj">llamado</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="2:pnct" out="">–</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
+<W lemma="contra" msd="SP" tag="PREP" in="-4:other" out="-2:pnct|-1:degr|1:nobj|3:pnct">contra</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
+<W lemma="voluntad" msd="NC" tag="NC" in="-1:possd" out="">voluntad</W>
+<W lemma="-" msd="XP" tag="DASH" in="-3:pnct" out="">-</W>
+<W lemma="el" msd="PD" tag="ART" in="-7:dobj" out="4:conj|8:dobj">el</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="1:nobj">Steffen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="-1:namef">Brandt</W>
+<W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
+<W lemma="el" msd="PD" tag="ART" in="-4:conj" out="-1:coord|3:nobj">el</W>
+<W lemma="C." msd="NP" tag="NP" in="2:namef" out="">C.</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">V.</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:nobj" out="-2:namef|-1:namef">Jørgensen</W>
+<W lemma="de" msd="SP" tag="PREP" in="-8:dobj" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">años</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">90</W>
+<W lemma="." msd="XP" tag="FS" in="-20:pnct" out="">.</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="2:struct" out="">Pero</W>
+<W lemma="l" msd="PP" tag="PPC" in="-23:coref|1:iobj" out="5:coref">le</W>
+<W lemma="dar" msd="VAD" tag="VLfin" in="" out="-1:iobj|-2:struct|2:dobj|3:pnct">da</W>
+<W lemma="mucho" msd="AN" tag="ADJ" in="1:attr" out="">mucha</W>
+<W lemma="rabia" msd="NC" tag="NC" in="-2:dobj" out="-1:attr">rabia</W>
+<W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-5:coref|1:subj" out="4:coref">“¡Yo</W>
+<W lemma="ser" msd="VAD" tag="VLfin" in="3:qobj" out="-1:subj|1:preds|2:pnct">soy</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:preds" out="">yo!”</W>
+<W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
+<W lemma="insistir" msd="VAD" tag="VLfin" in="-4:coref" out="-3:qobj|1:loc|9:pnct|10:time|11:coref|15:comp|61:pnct">insiste</W>
+<W lemma="bajo" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">bajo</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|3:other">el</W>
+<W lemma="viejo" msd="AN" tag="ADJ" in="1:attr" out="">viejo</W>
+<W lemma="roble" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">roble</W>
+<W lemma="de" msd="SP" tag="PREP" in="-3:other" out="1:nobj">de</W>
+<W lemma="ciento" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">cientos</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">años</W>
+<W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
+<W lemma="mientras" msd="CS" tag="CSUBX" in="-10:time" out="1:vobj">mientras</W>
+<W lemma="yacer" msd="VAD" tag="VLfin" in="-1:vobj|-11:coref" out="1:man|10:man|11:coref">yace</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:man" out="1:nobj">de</W>
+<W lemma="espalda" msd="NC" tag="NC" in="-1:nobj" out="">espalda</W>
+<W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-15:comp" out="-1:pnct|3:nobj|5:pnct">como</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="2:attr" out="">buen</W>
+<W lemma="atrever" msd="VAF" tag="VLadj" in="1:attr" out="">atrevido</W>
+<W lemma="muchacho" msd="NC" tag="NC" in="-3:nobj" out="-2:attr|-1:attr|1:attr">muchacho</W>
+<W lemma="pop" msd="NC" tag="NC" in="-1:attr" out="">pop</W>
+<W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
+<W lemma="con" msd="SP" tag="PREP" in="-10:man" out="1:nobj|4:pnct">con</W>
+<W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj|-11:coref" out="1:possd">sus</W>
+<W lemma="vaquero" msd="NC" tag="NC" in="-1:possd" out="1:attr|3:conj|13:conj|33:conj">vaqueros</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">anaranjados</W>
+<W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
+<W lemma="camiseta" msd="NC" tag="NC" in="-3:conj" out="2:ref|4:relpa">camiseta</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="3:pnct" out="">–</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-2:ref|2:subj" out="">que</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:prg" out="">naturalmene</W>
+<W lemma="exhibir" msd="VAD" tag="VLfin" in="-4:relpa" out="-3:pnct|-2:subj|-1:prg|1:dobj|5:pnct">exhibe</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="2:nobj">un</W>
+<W lemma="broncear" msd="VAF" tag="VLadj" in="1:attr" out="">bronceado</W>
+<W lemma="pechar" msd="VAD" tag="VLfin" in="-2:nobj" out="-1:attr|1:attr">pecho</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">velludo</W>
+<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-5:pnct" out="">–</W>
+<W lemma="un" msd="PD" tag="ART" in="-13:conj" out="1:nobj|6:other|18:pnct">un</W>
+<W lemma="par" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">par</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="gafas" msd="NC" tag="NC" in="-1:nobj" out="1:goal#|12:attr">gafas</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:goal#" out="1:nobj">de</W>
+<W lemma="sol" msd="NC" tag="NC" in="-1:nobj" out="">sol</W>
+<W lemma="tipo" msd="NC" tag="NC" in="-6:other" out="">tipo</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">“make</W>
+<W lemma="love" msd="SP" tag="PE" in="" out="">love</W>
+<W lemma="not" msd="SP" tag="PE" in="" out="">not</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="1:time">war”</W>
+<W lemma="de" msd="SP" tag="PREP" in="-1:time" out="1:nobj">de</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">años</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="-1:nobj" out="">68</W>
+<W lemma="comprar" msd="VAF" tag="VLadj" in="-12:attr" out="1:loc">comprado</W>
+<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Paris</W>
+<W lemma="," msd="XP" tag="CM" in="-18:pnct" out="">,</W>
+<W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
+<W lemma="un" msd="PD" tag="ART" in="-33:conj" out="-1:coord|1:nobj|2:loc">un</W>
+<W lemma="cigarro" msd="NC" tag="NC" in="-1:nobj" out="">cigarrillo</W>
+<W lemma="en" msd="SP" tag="PREP" in="-2:loc" out="1:nobj">en</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
+<W lemma="boca" msd="NC" tag="NC" in="-1:nobj" out="">boca</W>
+<W lemma="." msd="XP" tag="FS" in="-61:pnct" out="">.</W>
