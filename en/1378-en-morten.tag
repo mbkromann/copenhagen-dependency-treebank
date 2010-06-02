@@ -54,9 +54,9 @@
 <W msd="ANP" tag="JJ" in="1:attr|1:{time}#" out="">between-meal</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{time}#">snacks</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="PP" tag="PRP" in="1:subj|2:[swubj]" out="">they</W>
+<W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="-14:conj" out="-6:coord|-5:ben|-1:subj|1:vobj">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[swubj]|1:preds">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">only</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">component</W>
