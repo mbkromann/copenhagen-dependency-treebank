@@ -4,9 +4,9 @@
 [*] en/1031-en-morten.tag
 [*] en/1400-en-morten.tag
 [*] en/1289-en-morten.tag
-[ ] en/0264-en-morten.tag
-[ ] en/0670-en-morten.tag
-[ ] en/1378-en-morten.tag
+[*] en/0264-en-morten.tag
+[*] en/0670-en-morten.tag
+[*] en/1378-en-morten.tag
 [ ] en/0438-en-morten.tag
 [ ] en/0870-en-morten.tag
 [*] da/1017-da-disc-morten.tag
@@ -187,7 +187,7 @@
 [ ] da/0866-da.tag
 [ ] de/0866-de-morten.tag
 [ ] it/0866-it-morten.tag
-[ ] da/0876-da.tag
+[*] da/0876-da.tag
 [ ] de/0876-de-morten.tag
 [ ] it/0876-it-morten.tag
 [ ] da/0881-da.tag
