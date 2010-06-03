@@ -1,7 +1,7 @@
 	
-all: clean cdt-files status figures cdt-manual.pdf
+all: clean cdt-files figures cdt-manual.pdf
 
-quick: cdt-files status cdt-manual.pdf
+quick: cdt-files cdt-manual.pdf
 
 cdt-manual.pdf: DUMMY
 	cp cdt-manual.tex build
@@ -10,7 +10,9 @@ cdt-manual.pdf: DUMMY
 	@grep Warning /tmp/cdtmanual.log 
 	echo "\n"
 	
-cdt-files: 
+cdt-files: cdt-compile confusion status
+
+cdt-compile:
 	svn update
 	mkdir -p build
 	rm -f build/build
@@ -19,6 +21,12 @@ cdt-files:
 	dtag -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
+
+confusion:
+	for f in `cd ~/cdt/confusion ; ls confusion-*` ; do \
+		g=`echo $$f | sed -e 's/^confusion-//g' -e 's/.csv$$//g'` ; \
+		cat ~/cdt/confusion/$$f | ./confusion-table.sh $$g > build/$$f.tex ; \
+	done
 
 status:
 	~/cdt/tools/dtag-statusall da en de es it da-en da-de da-es da-it | grep -v 'TEXT COUNTS' | grep -v 'dims: ' \

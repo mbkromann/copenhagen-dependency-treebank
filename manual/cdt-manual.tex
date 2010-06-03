@@ -170,6 +170,28 @@
 
 	\input{build/cdt-rels-overviews.tex}
 
+	\chapter{Agreement and confusion tables}
+
+	In the following tables, the columns are interpreted as follows:
+	\begin{itemize}
+		\item \textit{Relation name $R$:} the name of the relation.
+		\item \textit{Agreement $A$:} the estimated level of agreement, defined
+			as the probability that another annotator assigns the same
+			label to the relation (this number may be inaccurate if
+			$N$ is small).
+		\item \textit{Relation count $N$:} the number of distinct
+			tokens in the corpus that were annotated with the relation.
+		\item \textit{Confusion table:} the relations that other
+			annotators used, with a percentage that indicates the
+			probability that each relation was used by the other annotator 
+			instead of $R$.
+	\end{itemize}
+
+	\input{build/confusion-syntax.csv.tex}
+	\input{build/confusion-discourse.csv.tex}
+	\input{build/confusion-morphology.csv.tex}
+	\input{build/confusion-alignment.csv.tex}
+
 	\chapter{Annotation status}
 
 	\input{build/statusall.tex}
