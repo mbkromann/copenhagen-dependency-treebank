@@ -226,7 +226,7 @@ macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 #etypes -land land xland \n\n
 
-confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morph.csv ~/cdt/confusion/confusion-align.csv
+confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morphology.csv ~/cdt/confusion/confusion-alignment.csv
 
 # Command log
 user -f /home/cdt/.cdtname
