@@ -83,8 +83,8 @@
 \topmargin=0mm
 \headsep=0mm
 \headheight=0mm
-\oddsidemargin=10mm
-\evensidemargin=10mm
+\oddsidemargin=20mm
+\evensidemargin=20mm
 
 
 \begin{document}
@@ -180,7 +180,8 @@
 			label to the relation (this number may be inaccurate if
 			$N$ is small).
 		\item \textit{Relation count $N$:} the number of distinct
-			tokens in the corpus that were annotated with the relation.
+			multiply annotated tokens in the corpus that were
+			annotated with the relation by at least one annotator.
 		\item \textit{Confusion table:} the relations that other
 			annotators used, with a percentage that indicates the
 			probability that each relation was used by the other annotator 
@@ -188,7 +189,9 @@
 	\end{itemize}
 
 	\input{build/confusion-syntax.csv.tex}
+	\input{build/confusion-semantics.csv.tex}
 	\input{build/confusion-discourse.csv.tex}
+	\input{build/confusion-anaphora.csv.tex}
 	\input{build/confusion-morphology.csv.tex}
 	\input{build/confusion-alignment.csv.tex}
 
