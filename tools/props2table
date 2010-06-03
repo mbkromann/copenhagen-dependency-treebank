@@ -65,7 +65,10 @@ foreach my $counts (@counttypes) {
 	# Print table
 	my $hfield = "%20s";
 	my $vfield = "%12s";
-	foreach my $dir (sort(keys(%$counts))) {
+	my @dirs = sort(keys(%$counts));
+	my @atagdirs = grep {$_ =~ /-/} @dirs;
+	my @tagdirs = grep {$_ !~ /-/} @dirs;
+	foreach my $dir (@tagdirs, @atagdirs) {
 		print "\n\n=== $dir ===\n\n";
 
 		# Print dimension headers
