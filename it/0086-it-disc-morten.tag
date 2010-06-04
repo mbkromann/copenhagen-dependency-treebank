@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="stare" msd="VADA" tag="VER&3a;impf" in="2:[subj]" out="1:goal|5:time|19:pnct|27:+CONJ/(e)&7c;ELAB&3a;exp">Stava</W>
+<W lemma="stare" msd="VADA" tag="VER&3a;impf" in="2:[subj]" out="1:goal|5:time|19:pnct|27:+CONJ/(e)&7c;CONST&3a;elab">Stava</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:vobj">per</W>
 <W lemma="compiere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:dobj">compiere</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">72</W>
@@ -27,7 +27,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:attr|2:nobj">Il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:attr" out="">suo</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-2:nobj" out="">nome</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:+CONJ/(e)&7c;ELAB&3a;exp" out="-3:subj|3:preds|4:pnct|16:pnct|21:+ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:+CONJ/(e)&7c;CONST&3a;elab" out="-3:subj|3:preds|4:pnct|16:pnct|21:+CONST&3a;elab">è</W>
 <W lemma="John" msd="NP" tag="NPR" in="2:namef" out="1:namef">John</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:namef" out="">Lee</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:preds|2:[subj]" out="-2:namef|2:attr|121:coref-var">Hooker</W>
@@ -48,7 +48,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:+ELAB&3a;exp" out="1:preds|20:pnct|52:conj|93:+ELAB&3a;exp">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:+CONST&3a;elab" out="1:preds|20:pnct|52:conj|93:+CONST&3a;elab">È</W>
 <W lemma="vero" msd="AN" tag="ADJ" in="-1:preds" out="1:dobj">vero</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="4:nobj">il</W>
@@ -141,7 +141,7 @@
 <W lemma="particolarmente" msd="RG" tag="ADV" in="1:man" out="">particolarmente</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-7:conj" out="-2:coord|-1:man|1:nobj">sui</W>
 <W lemma="chitarrista" msd="NC" tag="NOM" in="-1:nobj" out="">chitarristi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-93:+ELAB&3a;exp" out="-15:subj|1:vobj|6:pnct|11:CAUSE&3a;expl&amp;reas">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-93:+CONST&3a;elab" out="-15:subj|1:vobj|6:pnct|11:AGENTIVE&3a;expl&amp;reas">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-16:[subj]|1:prg">stata</W>
 <W lemma="niente" msd="RG" tag="ADV" in="-1:prg" out="1:nobj">niente</W>
 <W lemma="meno" msd="RG" tag="ADV" in="-1:nobj" out="1:comp">meno</W>
@@ -152,7 +152,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Lee</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-121:coref-var|1:subj|2:[subj]" out="-1:namef">Hooker</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl&amp;reas" out="-1:subj|1:vobj|30:pnct|35:CONJ/e">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl&amp;reas" out="-1:subj|1:vobj|30:pnct|35:CONJ/e">ha</W>
 <W lemma="inventare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">inventato</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-1:dobj" out="1:nobj|3:pnct|4:appa">quello</W>
 <W lemma="stile" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">stile</W>

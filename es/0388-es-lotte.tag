@@ -2,7 +2,7 @@
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">No</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-1:neg|1:subj|2:ben|4:pnct">es</W>
 <W lemma="igual" msd="AN" tag="ADJ" in="-1:subj" out="">igual</W>
-<W lemma="para" msd="SP" tag="PREP" in="-2:ben" out="1:nobj">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-2:ben" out="1:nobj">para</W>
 <W lemma="todo" msd="AN" tag="QU" in="-1:nobj" out="">todos</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W lemma="tú" msd="PP" tag="PPO" in="1:{arg}|2:subj" out="1:possd">Tu</W>
@@ -26,7 +26,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-2:subj|-1:[subj]" out="1:vobj">que</W>
 <W lemma="estar" morph="estar" msd="VAD" tag="VLfin" in="-1:vobj" out="-10:[subj]|1:preds|8:coref">estaba</W>
 <W lemma="embarazar" morph="embarazar +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-1:preds" out="">embarazada</W>
-<W lemma="hasta" msd="SP" tag="PREP" in="-5:dur" out="1:nobj">hasta</W>
+<W lemma="hasta" msd="SP" tag="SCENE" in="-5:dur" out="1:nobj">hasta</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">sÃ©ptimo</W>
 <W lemma="mes" morph="mes" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">mes</W>
@@ -39,7 +39,7 @@
 <W _noerror="&3a;nosubj&3a;" lemma="solar&7c;soler" morph="soler" msd="VAD" tag="VLfin" in="-4:relelab" out="1:vobj|2:loc|5:pnct">solemos</W>
 <W _noerror="&3a;nosubj&3a;" lemma="decir" morph="decir" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:dobj">decir</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAF" tag="VLadj" in="-2:loc|2:coref" out="1:loc">aquÃ­</W>
-<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="-1:nobj" out="-2:coref">Dinamarca</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
 <W lemma="-" msd="XP" tag="DASH" in="1:pnct" out="">-</W>
@@ -69,14 +69,14 @@
 <W lemma="sentado" msd="AN" tag="ADJ" in="-1:preds" out="2:conj">sentado</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="callar" morph="callar +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">callado</W>
-<W lemma="durante" msd="SP" tag="PREP" in="-4:dur" out="2:nobj">durante</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="-4:dur" out="2:nobj">durante</W>
 <W lemma="largo" msd="AN" tag="ADJ" in="1:attr" out="">largo</W>
 <W lemma="tiempo" morph="" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">tiempo</W>
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="entonces" msd="RG" tag="ADV" in="2:succ" out="">entonces</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="&lt;unknown&gt;" morph="inclinar" msd="VAD" tag="VLfin" in="-11:coref|-10:conj" out="-1:robj|-2:succ|1:@dir|6:conj|6:coref">inclinÃ³</W>
-<W lemma="hacia" msd="SP" tag="PREP" in="-1:@dir" out="1:nobj">hacia</W>
+<W lemma="hacia" msd="SP" tag="SCENE" in="-1:@dir" out="1:nobj">hacia</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-27:coref-var|-1:nobj|1:{arg}" out="1:possd|3:coref|15:coref">su</W>
 <W lemma="interlocutor" morph="locutor -inter/MOD&3a;rel" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}">interlocutora</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
@@ -99,7 +99,7 @@
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W lemma="nosotros" msd="PP" tag="PPX" in="-8:coref|1:dobj" out="">Nos</W>
 <W lemma="encontrar" morph="encontrar" msd="VAD" tag="VLfin" in="-8:coref" out="-1:dobj|1:loc|4:conj">encontramos</W>
-<W lemma="en" msd="SP" tag="PREP" in="-1:loc" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">ParÃ­s</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="-4:conj" out="-1:coord|1:subj|2:man|3:pnct">fue</W>
@@ -151,26 +151,26 @@
 <W lemma="haber" morph="haber" msd="VAF" tag="VHinf" in="-1:vobj" out="1:vobj|5:[subj]">haber</W>
 <W lemma="ser" morph="ser" msd="VAF" tag="VS" in="-1:vobj" out="1:preds|4:[subj]">sido</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:preds" out="">fÃ¡cil</W>
-<W lemma="para" msd="SP" tag="PREP" in="-4:ben" out="1:nobj">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-4:ben" out="1:nobj">para</W>
 <W lemma="él" msd="PP" tag="PPX" in="-13:coref|-1:nobj" out="9:coref">ella</W>
 <W lemma="volver" morph="volver" msd="VAF lexical verb infinite" tag="VLinf" in="-6:subj|-5:[subj]|-4:[subj]" out="1:pobj|4:man">volver</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj|1:{arg}" out="1:possd">sus</W>
 <W lemma="padre" morph="padre" msd="NC" tag="NC" in="-1:possd" out="-1:{arg}">padres</W>
-<W lemma="bajo" msd="SP" tag="PREP" in="-4:man" out="1:nobj">bajo</W>
+<W lemma="bajo" msd="SP" tag="SCENE" in="-4:man" out="1:nobj">bajo</W>
 <W lemma="ese" msd="" tag="DM" in="-1:nobj" out="1:nobj">esas</W>
 <W lemma="circunstancia" morph="circunstancia" msd="NC" tag="NC" in="-1:nobj" out="">circunstancias</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 <W lemma="estar" morph="estar" msd="VAD" tag="VEfin" in="-9:coref" out="1:prg|2:preds|12:conj|12:coref">Estuvo</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:prg" out="">quizÃ¡</W>
 <W lemma="obligar" morph="obligar +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-2:preds" out="1:pobj">obligada</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj" out="1:vobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:vobj">a</W>
 <W _noerror="&3a;nosubj&3a;" lemma="ocultar" morph="ocultar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">ocultar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="verdad" morph="" msd="NC" tag="NC" in="-1:nobj" out="">verdad</W>
 <W lemma="y" msd="CC" tag="CC" in="5:coord" out="">y</W>
 <W lemma="pocos" msd="AN" tag="QU" in="4:man" out="1:pobj#">poco</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj#" out="1:nobj#">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj#" out="1:nobj#">a</W>
 <W lemma="pocos" msd="AN" tag="QU" in="-1:nobj#" out="">poco</W>
 <W lemma="él" msd="PP" tag="PPO" in="2:dobj" out="">lo</W>
 <W lemma="ir" morph="ir" msd="VAD" tag="VLfin" in="-12:conj|-12:coref" out="-5:coord|-4:man|1:vobj|3:pnct|9:coref">fue</W>
@@ -185,15 +185,15 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj|-9:coref" out="6:coref">ella...</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-7:prg" out="">quizÃ¡</W>
-<W lemma="para" msd="SP" tag="PREP" in="-4:conj" out="-2:coord|1:nobj">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-4:conj" out="-2:coord|1:nobj">para</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj|-42:coref" out="9:coref">ti</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 <W lemma="deber" morph="deber" msd="VAD" tag="VMfin" in="-6:coref" out="1:vobj|8:pnct">Debe</W>
 <W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VAF" tag="VHinf" in="-1:vobj" out="1:vobj">haber</W>
 <W _noerror="&3a;nosubj&3a;" lemma="actuar" morph="actuar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:man|2:reas">actuado</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-1:man" out="">asÃ­</W>
-<W lemma="por" msd="SP" tag="PREP" in="-2:reas" out="1:nobj">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="-2:reas" out="1:nobj">por</W>
 <W lemma="amor" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{experient}">amor</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj.dobj|-1:{experient}" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{experient}" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj|-9:coref" out="">ti</W>
 <W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>

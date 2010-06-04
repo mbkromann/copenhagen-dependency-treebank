@@ -12,7 +12,7 @@
 <W lemma="desarrollar" msd="VAD" tag="VLfin" in="" out="">desarrolla</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="niño" msd="NC" tag="NC" in="" out="">niño</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="lengua" msd="NC" tag="NC" in="" out="">lengua</W>
 <W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
@@ -36,7 +36,7 @@
 <W lemma="¿" msd="XP" tag="FS" in="" out="">¿</W>
 <W lemma="seguir" msd="VAD" tag="VLfin" in="" out="">sigue</W>
 <W lemma="adentro" msd="RG" tag="ADV" in="" out="">adentro</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="yo" msd="PP" tag="PPX" in="" out="">mí</W>
 <W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -58,9 +58,9 @@
 <W lemma="bebé" msd="NC" tag="NC" in="" out="">bebés</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
 <W lemma="capaz" msd="AN" tag="ADJ" in="" out="">capaces</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="más" msd="RG" tag="ADV" in="" out="">más</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
@@ -75,7 +75,7 @@
 <W lemma="bien" msd="RG" tag="ADV" in="" out="">bien</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="más" msd="RG" tag="ADV" in="" out="">más</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <p>
@@ -110,7 +110,7 @@
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">puede</W>
 <W lemma="hacer" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">hacer</W>
 <W lemma="aparte" msd="RG" tag="ADV" in="" out="">aparte</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="él" msd="PP" tag="PPO" in="" out="">lo</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="nota" msd="NC" tag="NC" in="" out="">nota</W>
@@ -130,7 +130,7 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">Por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">Por</W>
 <W lemma="suerte" msd="NC" tag="NC" in="" out="">suerte</W>
 <W lemma="sólo" msd="RG" tag="ADV" in="" out="">sólo</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tenemos</W>
@@ -151,7 +151,7 @@
 <W lemma="ver" msd="VAD" tag="VLfin" in="" out="">ven</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="persona" msd="NC" tag="NC" in="" out="">personas</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="sitio" msd="NC" tag="NC" in="" out="">sitio</W>
 <W lemma="donde" msd="RG" tag="ADV" in="" out="">donde</W>
@@ -175,7 +175,7 @@
 <W lemma="así" msd="RG" tag="ADV" in="" out="">Así</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="poco" msd="RG" tag="ADV" in="" out="">poco</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="pocos" msd="AN" tag="QU" in="" out="">poco</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="nosotros" msd="PP" tag="PPX" in="" out="">nos</W>
@@ -184,14 +184,14 @@
 <W lemma="fácil" msd="AN" tag="ADJ" in="" out="">fácil</W>
 <W lemma="contar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">contar</W>
 <W lemma="cosa" msd="NC" tag="NC" in="" out="">cosas</W>
-<W lemma="sobre" msd="SP" tag="PREP" in="" out="">sobre</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <p>
 <s>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ello</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">Por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">Por</W>
 <W lemma="suerte" msd="NC" tag="NC" in="" out="">suerte</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
 <W lemma="tan" msd="RG" tag="ADV" in="" out="">tan</W>
@@ -203,7 +203,7 @@
 <W lemma="normal" msd="AN" tag="ADJ" in="" out="">normales</W>
 <W lemma="estar" msd="VAD" tag="VEfin" in="" out="">están</W>
 <W lemma="disponer" msd="VAF" tag="VLadj" in="" out="">dispuestos</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="aprender" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">aprender</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <p>
@@ -212,9 +212,9 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="hablar" msd="VAD" tag="VLfin" in="" out="">habla</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
-<W lemma="alrededor" msd="SP" tag="PREP" in="" out="">alrededor</W>
+<W lemma="alrededor" msd="SP" tag="SCENE" in="" out="">alrededor</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
@@ -226,15 +226,15 @@
 <W lemma="alivio" msd="NC" tag="NC" in="" out="">alivio</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="ninguno" msd="AN" tag="QU" in="" out="">ninguno</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="niño" msd="NC" tag="NC" in="" out="">niños</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Valby</W>
 <W lemma="empezar" msd="VAD" tag="VLfin" in="" out="">empiecen</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="hablar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">hablar</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">finés</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>

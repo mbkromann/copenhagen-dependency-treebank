@@ -47,7 +47,7 @@
 <W gloss="Hafez" lemma="Hafez" msd="NP--U==-" tag="NNP" in="1:namef" out="">Hafez</W>
 <W gloss="al-Assad" lemma="al-Assad" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct">al-Assad</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="began" lemma="indlede" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:time|2:dobj|6:goal|18:pnct|30:+CAUSE&3a;reas/(fordi)ATTR2|87:+ELAB&3a;exp|26:+CONJ/(og)/ATTR1">indledte</W>
+<W gloss="began" lemma="indlede" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:time|2:dobj|6:goal|18:pnct|30:+AGENTIVE&3a;reas/(fordi)ATTR2|87:+CONST&3a;elab|26:+CONJ/(og)/ATTR1">indledte</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:loc">en</W>
 <W gloss="tour" lemma="rundrejse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">rundrejse</W>
@@ -77,7 +77,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="Assad" lemma="Assad" msd="NP--U==-" tag="NNP" in="1:subj" out="">Assad</W>
-<W gloss="fears" lemma="frygte" msd="VADR=----A-" tag="VBD" in="-2:vobj|-30:+CAUSE&3a;reas/(fordi)ATTR2" out="-1:subj|1:pnct|2:dobj|46:+ELAB&3a;rest/(med_andre_ord)/ATTR3*|37:[+ELAB&3a;rest/(med_andre_ord)/ATTR3]">frygter</W>
+<W gloss="fears" lemma="frygte" msd="VADR=----A-" tag="VBD" in="-2:vobj|-30:+AGENTIVE&3a;reas/(fordi)ATTR2" out="-1:subj|1:pnct|2:dobj|46:+CONST&3a;rest/(med_andre_ord)/ATTR3*|37:[+CONST&3a;rest/(med_andre_ord)/ATTR3]">frygter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="23:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="22:subj|23:[subj]" out="1:nobj|2:pnct|3:ref|5:rel">de</W>
@@ -114,7 +114,7 @@
 <s>
 <W gloss="Assad's" lemma="Assad" msd="NP--G==-" tag="NNP" in="2:subj" out="1:possd">Assads</W>
 <W gloss="attitude" lemma="holdning" msd="NCCSU==I" tag="NN" in="-1:possd" out="">holdning</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="9:qobj|-37:[+ELAB&3a;rest/(med_andre_ord)/ATTR3]" out="-2:subj|2:preds|8:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="9:qobj|-37:[+CONST&3a;rest/(med_andre_ord)/ATTR3]" out="-2:subj|2:preds|8:pnct">er</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-2:preds" out="-1:pnct|1:&lt;nobj&gt;|2:pnct|3:conj|5:pnct">i_dag</W>
 <W gloss="Libya" lemma="Libyen" msd="NP--U==-" tag="NNP" in="-1:&lt;nobj&gt;" out="">Libyen</W>
@@ -123,7 +123,7 @@
 <W gloss="Syria" lemma="Syrien" msd="NP--U==-" tag="NNP" in="-1:&lt;nobj&gt;" out="">Syrien</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-46:+ELAB&3a;rest/(med_andre_ord)/ATTR3*" out="-9:qobj|1:subj|3:pnct">sagde</W>
+<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-46:+CONST&3a;rest/(med_andre_ord)/ATTR3*" out="-9:qobj|1:subj|3:pnct">sagde</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:nobj">en</W>
 <W gloss="diplomat" lemma="diplomat" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">diplomat</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -134,7 +134,7 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="Syrian" lemma="syrisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">syriske</W>
 <W gloss="leader" lemma="leder" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">leder</W>
-<W gloss="arrived" lemma="ankomme" msd="VADA=----A-" tag="VBD" in="-87:+ELAB&3a;exp" out="-3:subj|1:time|2:pobj|5:succ|11:pnct|15:+CONJ/også">ankom</W>
+<W gloss="arrived" lemma="ankomme" msd="VADA=----A-" tag="VBD" in="-87:+CONST&3a;elab" out="-3:subj|1:time|2:pobj|5:succ|11:pnct|15:+CONJ/også">ankom</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
 <W gloss="at" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
 <W gloss="Abu" lemma="Abu" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name">Abu</W>
@@ -180,7 +180,7 @@
 <p>
 <s>
 <W gloss="Syria" lemma="Syrien" msd="NP--U==-" tag="NNP" in="1:subj|16:[subj]" out="">Syrien</W>
-<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="45:+CONSOL&3a;just/(eftersom)" out="-1:subj|1:dobj|2:pobj|4:pnct|5:time|15:conj|39:pnct">kom</W>
+<W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="45:+CONSOL&3a;source/(eftersom)" out="-1:subj|1:dobj|2:pobj|4:pnct|5:time|15:conj|39:pnct">kom</W>
 <W gloss="Kuwait" lemma="Kuwait" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Kuwait</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
 <W gloss="aid" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">hjælp</W>
@@ -225,7 +225,7 @@
 <p>
 <s>
 <W gloss="Diplomats" lemma="diplomat" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Diplomater</W>
-<W gloss="estimate" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-76:+CONJ/(og)" out="-1:subj|1:pnct|2:dobj|30:pnct|-45:+CONSOL&3a;just/(eftersom)">vurderer</W>
+<W gloss="estimate" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-76:+CONJ/(og)" out="-1:subj|1:pnct|2:dobj|30:pnct|-45:+CONSOL&3a;source/(eftersom)">vurderer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="Assad" lemma="Assad" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]" out="">Assad</W>

@@ -67,7 +67,7 @@
 <W lemma="effetto" msd="NC" tag="NOM" in="-1:nobj" out="">effetti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="chi" msd="PT" tag="PRO&3a;rela" in="1:subj" out="">chi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-13:QUEST&3a;query" out="-4:prg|-1:subj|1:preds|21:pnct|24:ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-13:QUEST&3a;query" out="-4:prg|-1:subj|1:preds|21:pnct|24:CONST&3a;elab">è</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
@@ -91,7 +91,7 @@
 <W lemma="?" msd="XP" tag="SENT" in="-21:pnct" out="">?</W>
 <W lemma="nessuno" msd="AN" tag="ADJ" in="2:subj" out="">Nessuno</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-24:ELAB&3a;exp" out="-2:subj|-1:robj|1:preds|4:pnct|5:cause|6:coref-res|16:CONS&3a;dir/perquesto">sente</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-24:CONST&3a;elab" out="-2:subj|-1:robj|1:preds|4:pnct|5:cause|6:coref-res|16:TELIC&3a;dir/perquesto">sente</W>
 <W lemma="sicuro" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">sicuro</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹saper²ne" lemma="sapere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-21:²ref|0:²dobj¹" out="0:²dobj¹">saperne</W>
@@ -107,7 +107,7 @@
 <W lemma="impugnare" msd="VADR" tag="VER&3a;pres" in="-2:relr" out="-1:subj|1:dobj">impugna</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="matita" msd="NC" tag="NOM" in="-1:nobj" out="">matita</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:CONS&3a;dir/perquesto" out="-6:subj|-8:prg|1:preds|2:pnct|16:conj|25:pnct|29:+CAUSE&3a;expl/(infatti)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-16:TELIC&3a;dir/perquesto" out="-6:subj|-8:prg|1:preds|2:pnct|16:conj|25:pnct|29:+AGENTIVE&3a;expl/(infatti)">è</W>
 <W lemma="incerto" msd="AN" tag="ADJ" in="-1:preds" out="2:time">incerta</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj|4:pnct">nel</W>
@@ -136,7 +136,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="1:nobj">L'</W>
 <W lemma="ideale" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ideale</W>
 <W lemma="democratico" msd="AN" tag="ADJ" in="-1:attr" out="">democratico</W>
-<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-29:+CAUSE&3a;expl/(infatti)" out="-3:subj|1:dobj|15:pnct|16:coref-res|18:;CONJ/(e)&7c;DESCR&3a;eval">prevede</W>
+<W lemma="prevedere" msd="VADR" tag="VER&3a;pres" in="-29:+AGENTIVE&3a;expl/(infatti)" out="-3:subj|1:dobj|15:pnct|16:coref-res|18:;CONJ/(e)&7c;DESCR&3a;eval">prevede</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">gli</W>
 <W lemma="elettore" msd="NC" tag="NOM" in="-1:nobj" out="">elettori</W>
@@ -187,7 +187,7 @@
 <W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-7:vobj" out="-1:robj|-6:subj|-3:contr|1:preds|2:pnct|15:pnct">sentono</W>
 <W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds" out="">impotenti</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-33:CONTR&3a;dir/(tuttavia)" out="-10:cond|1:cause|15:CONS&3a;prg/(quindi)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-33:CONTR&3a;dir/(tuttavia)" out="-10:cond|1:cause|15:TELIC&3a;sbj/(quindi)">è</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-1:cause" out="3:vobj">perché</W>
 <W lemma="in" msd="SP" tag="PRE" in="2:prg" out="1:nobj">in</W>
 <W lemma="realtà" msd="NC" tag="NOM" in="-1:nobj" out="">realtà</W>
@@ -202,7 +202,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-73:coref-id|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">crocetta</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:CONS&3a;prg/(quindi)" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:TELIC&3a;sbj/(quindi)" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>
 <W lemma="sorta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">sorta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>

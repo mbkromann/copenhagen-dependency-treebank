@@ -124,11 +124,11 @@
 </p>
 <p>
 <s>
-<W lemma="viel" msd="PP" tag="PIS" in="1:subj" out="4:coref-part">Viele</W>
+<W lemma="viel" msd="PP" tag="PIS" in="1:subj" out="4:assoc-const">Viele</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:dobj|2:pnct">hatten</W>
 <W lemma="Pech" msd="NC" tag="NN" in="-1:dobj" out="">Pech</W>
 <W lemma="." msd="XP" tag="$." in="-2:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-4:coref-part|1:subj" out="9:conj">Alcala</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-4:assoc-const|1:subj" out="9:conj">Alcala</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|1:loc|4:dobj|14:pnct">hatte</W>
 <W lemma="nach" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">nach</W>
 <W lemma="fünf" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">fünf</W>
@@ -168,7 +168,7 @@
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="1:subj" out="">Das</W>
 <W lemma="veranlassen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:dobj|3:pobj|6:loc|10:pnct|17:pnct">veranlasste</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj|-13:assoc-scope" out="1:nobj|18:coref-part">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:dobj|-13:assoc-scope" out="1:nobj|18:assoc-const">die</W>
 <W lemma="Fahrer" msd="NC" tag="NN" in="-1:nobj" out="">Fahrer</W>
 <W lemma="zu" msd="SP" tag="APPR" in="-3:pobj" out="2:nobj">zu</W>
 <W lemma="äußer" msd="AN" tag="ADJA" in="1:attr" out="">äußerstem</W>
@@ -186,7 +186,7 @@
 <W lemma="Ziel" msd="NC" tag="NN" in="-1:nobj" out="">Ziel</W>
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 <W lemma="Rolf" msd="NP" tag="NE" in="1:namef" out="">Rolf</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-18:coref-part|2:subj" out="-1:namef|1:possd|7:coref">Sørensens</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-18:assoc-const|2:subj" out="-1:namef|1:possd|7:coref">Sørensens</W>
 <W lemma="Hinterrad" msd="NC" tag="NN" in="-1:possd" out="">Hinterrad</W>
 <W lemma="rutschen" msd="VA" tag="VVFIN" in="" out="-2:subj|1:part|2:pnct|3:cons|18:pnct">rutschte</W>
 <W lemma="weg" msd="RG" tag="PTKVZ" in="-1:part" out="">weg</W>

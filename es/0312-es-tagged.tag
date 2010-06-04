@@ -15,7 +15,7 @@
 <W lemma="mucho" msd="RG" tag="ADV" in="" out="">mucho</W>
 <W lemma="más" msd="RG" tag="ADV" in="" out="">más</W>
 <W lemma="tiempo" msd="NC" tag="NC" in="" out="">tiempo</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="soler" msd="VAD" tag="VLfin" in="" out="">suelen</W>
@@ -35,7 +35,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="tener" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tener</W>
 <W lemma="cuidado" msd="AN" tag="ADJ" in="" out="">cuidado</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">herirte</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -53,7 +53,7 @@
 <W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="principio" msd="NC" tag="NC" in="" out="">principio</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="herida" msd="NC" tag="NC" in="" out="">herida</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -94,14 +94,14 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="salir" msd="VAF" tag="VLadj" in="" out="">salido</W>
 <W lemma="herida" msd="NC" tag="NC" in="" out="">heridas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="" out="">estar</W>
 <W lemma="sentado" msd="AN" tag="ADJ" in="" out="">sentado</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tienes</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="" out="">estar</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">tumbado</W>
-<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="hasta" msd="SP" tag="SCENE" in="" out="">hasta</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="desaparecer" msd="VAD" tag="VLfin" in="" out="">desaparezcan</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -144,7 +144,7 @@
 <W lemma="vida" msd="NC" tag="NC" in="" out="">vida</W>
 <W lemma="sexual" msd="AN" tag="ADJ" in="" out="">sexual</W>
 <W lemma="satisfactorio" msd="AN" tag="ADJ" in="" out="">satisfactoria</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="otro" msd="AN" tag="QU" in="" out="">otras</W>
 <W lemma="forma" msd="NC" tag="NC" in="" out="">formas</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -160,7 +160,7 @@
 <W lemma="él" msd="PP" tag="PPO" in="" out="">lo</W>
 <W lemma="ir" msd="VAD" tag="VLfin" in="" out="">irás</W>
 <W lemma="descubrir" msd="VAF" tag="VLadj" in="" out="">descubriendo</W>
-<W lemma="sobre" msd="SP" tag="PREP" in="" out="">sobre</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="marcha" msd="NC" tag="NC" in="" out="">marcha</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -179,7 +179,7 @@
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueda</W>
 <W lemma="tomar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tomar</W>
 <W lemma="conciencia" msd="NC" tag="NC" in="" out="">conciencia</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
 <W lemma="palabra" msd="NC" tag="NC" in="" out="">palabras</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>

@@ -38,7 +38,7 @@
 <p>
 <s>
 <W lemma="*" msd="XS" tag="SYM" in="-20:pnct" out="">*</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|19:coref-part">Le</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|19:assoc-const">Le</W>
 <W lemma="piare" msd="VAG" tag="VER&3a;ppre" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">piante</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>
 <W lemma="tabacco" msd="NC" tag="NOM" in="-1:nobj" out="">tabacco</W>
@@ -57,7 +57,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-1:pnct" out="">"</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-5:loc" out="1:nobj">all'</W>
 <W lemma="interno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">interno</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-19:coref-part" out="1:nobj|9:coref-id">delle</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-19:assoc-const" out="1:nobj|9:coref-id">delle</W>
 <W lemma="foglia" msd="NC" tag="NOM" in="-1:nobj" out="">foglie</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 </s>

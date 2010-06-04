@@ -61,13 +61,13 @@
 <W lemma="urbano" msd="AN" tag="ADJ" in="-1:attr" out="">urbana</W>
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Ørestad</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-60:+JOINT" out="-16:subj|1:vobj|4:pnct|6:;ELAB&3a;exp|21:coref-res">deve</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-60:+JOINT" out="-16:subj|1:vobj|4:pnct|6:;CONST&3a;elab|21:coref-res">deve</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-17:[subj]|1:vobj">essere</W>
 <W lemma="lasciare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-18:[subj]|1:preds">lasciata</W>
 <W lemma="intatto" msd="AN" tag="ADJ" in="-1:preds" out="">intatta</W>
 <W lemma=";" msd="XP" tag="PON" in="-4:pnct" out="">;</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
-<W lemma="trattare" msd="VADR" tag="VER&3a;pres" in="-6:;ELAB&3a;exp" out="-1:robj|1:pobj|12:pnct|27:CONS&3a;dir">tratta</W>
+<W lemma="trattare" msd="VADR" tag="VER&3a;pres" in="-6:;CONST&3a;elab" out="-1:robj|1:pobj|12:pnct|27:TELIC&3a;dir">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">240</W>
 <W lemma="ettaro" msd="NC" tag="NOM" in="-1:nobj" out="2:relr">ettari</W>
@@ -93,8 +93,8 @@
 <W lemma="ora" msd="RG" tag="ADV" in="-1:nobj" out="">ora</W>
 <W lemma="proteggere" msd="VAP" tag="VER&3a;pper" in="-7:attr" out="-4:pnct|-2:time|1:pnct">protetta</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-42:coref-id|1:subj" out="14:assoc-loc">Amager</W>
-<W lemma="disporre" msd="VADR" tag="VER&3a;futu" in="-27:CONS&3a;dir" out="-14:man|-1:subj|1:dobj|12:pnct|14:+CONJ/inoltre">disporrà</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-42:coref-id|1:subj" out="14:assoc-formal.loc">Amager</W>
+<W lemma="disporre" msd="VADR" tag="VER&3a;futu" in="-27:TELIC&3a;dir" out="-14:man|-1:subj|1:dobj|12:pnct|14:+CONJ/inoltre">disporrà</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="parco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:pobj">parco</W>
@@ -107,8 +107,8 @@
 <W lemma="chilometro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">chilometri</W>
 <W lemma="quadrato" msd="AN" tag="ADJ" in="-1:attr" out="">quadrati</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:assoc-loc|1:subj" out="">Ørestad</W>
-<W lemma="dare" msd="VADR" tag="VER&3a;futu" in="-14:+CONJ/inoltre" out="-1:subj|2:struct|4:dobj|5:iobj|7:pnct|13:ELAB&3a;exem|44:CONJ|71:+JOINT">darà</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:assoc-formal.loc|1:subj" out="">Ørestad</W>
+<W lemma="dare" msd="VADR" tag="VER&3a;futu" in="-14:+CONJ/inoltre" out="-1:subj|2:struct|4:dobj|5:iobj|7:pnct|13:CONST&3a;exem|44:CONJ|71:+JOINT">darà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-2:struct" out="-1:pnct|1:pnct">inoltre</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
@@ -121,7 +121,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr" out="">Ny</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">Tøjhusgrunden</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;futu" in="-13:ELAB&3a;exem" out="-5:subj|1:time|4:pobj|17:pnct">verrà</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;futu" in="-13:CONST&3a;exem" out="-5:subj|1:time|4:pobj|17:pnct">verrà</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:time" out="2:nobj">al</W>
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="presto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr">presto</W>
@@ -156,11 +156,11 @@
 <W lemma="utilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-12:[subj]|1:goal">utilizzato</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:vobj">per</W>
 <W lemma="organizzare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-14:[subj]|1:nobj">organizzare</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:nobj" out="1:nobj|4:;ELAB&3a;exem/ades">delle</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:nobj" out="1:nobj|4:;CONST&3a;exem/ades">delle</W>
 <W lemma="esposizione" msd="NC" tag="NOM" in="-1:nobj" out="">esposizioni</W>
 <W lemma=";" msd="XP" tag="PON" in="-6:pnct" out="">;</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
-<W lemma="proporre" msd="VADR" tag="VER&3a;pres" in="-4:;ELAB&3a;exem/ades" out="-1:subj|3:dobj|14:pnct|17:pnct">propone</W>
+<W lemma="proporre" msd="VADR" tag="VER&3a;pres" in="-4:;CONST&3a;exem/ades" out="-1:subj|3:dobj|14:pnct|17:pnct">propone</W>
 <W lemma="ad" msd="SP" tag="PRE" in="2:ex" out="1:nobj">ad</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="-1:nobj" out="">esempio</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-3:dobj" out="-2:ex|1:nobj">una</W>
@@ -181,7 +181,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Amager</W>
 <W lemma="ottenere" msd="VADR" tag="VER&3a;futu" in="-71:+JOINT" out="-1:subj|1:prg|2:dobj|7:pnct|12:pnct">otterrà</W>
 <W lemma="finalmente" msd="RG" tag="ADV" in="-1:prg" out="">finalmente</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="2:nobj|9:conj|17:&3a;ELAB&3a;part|29:;ELAB&3a;part">le</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="2:nobj|9:conj|17:&3a;CONST&3a;apart|29:;CONST&3a;apart">le</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">sue</W>
 <W lemma="linea" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">linee</W>
 <W lemma="ferroviario" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">ferroviarie</W>
@@ -198,7 +198,7 @@
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:appa" out="1:attr">quella</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Østamagerbanen</W>
-<W lemma="percorrere" msd="VADR" tag="VER&3a;futu" in="-17:&3a;ELAB&3a;part" out="-6:subj|1:man|2:dir|3:dir|6:pnct">percorrerà</W>
+<W lemma="percorrere" msd="VADR" tag="VER&3a;futu" in="-17:&3a;CONST&3a;apart" out="-6:subj|1:man|2:dir|3:dir|6:pnct">percorrerà</W>
 <W lemma="&lt;unknown&gt;" msd="VAP" tag="VER&3a;pper" in="-1:man" out="">sotterraneamente</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:dir" out="">Amager</W>
 <W lemma="fino" msd="CS" tag="CON" in="-3:dir" out="1:pobj">fino</W>
@@ -210,7 +210,7 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appa" out="1:pnct">Ørestadsbanen</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="affiancare" msd="VADR" tag="VER&3a;futu" in="-29:;ELAB&3a;part" out="-5:subj|1:dobj|11:dir|14:pnct">affiancherà</W>
+<W lemma="affiancare" msd="VADR" tag="VER&3a;futu" in="-29:;CONST&3a;apart" out="-5:subj|1:dobj|11:dir|14:pnct">affiancherà</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|6:conj">la</W>
 <W lemma="zona" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">zona</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

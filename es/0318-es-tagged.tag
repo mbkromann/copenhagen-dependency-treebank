@@ -4,7 +4,7 @@
 <W lemma="dinero" msd="NC" tag="NC" in="" out="">dinero</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="poner" msd="VAD" tag="VLfin" in="" out="">puso</W>
-<W lemma="sobre" msd="SP" tag="PREP" in="" out="">sobre</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="mesa" msd="NC" tag="NC" in="" out="">mesa</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
@@ -37,7 +37,7 @@
 <W lemma="nevar" msd="VAD" tag="VLfin" in="" out="">Nieve</W>
 <W lemma="fuera" msd="RG" tag="ADV" in="" out="">fuera</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">resbaladiza</W>
 <W lemma="calle" msd="NC" tag="NC" in="" out="">calle</W>
@@ -55,7 +55,7 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">De</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">De</W>
 <W lemma="pronto" msd="RG" tag="ADV" in="" out="">pronto</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">matasanos</W>
@@ -93,7 +93,7 @@
 <W lemma="pero" msd="NC" tag="NC" in="" out="">Pero</W>
 <W lemma="podar|poder" msd="VAD" tag="VLfin" in="" out="">podemos</W>
 <W lemma="hablar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">hablar</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ello</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">si</W>
@@ -129,7 +129,7 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="" out="">aunque</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="mucho" msd="AN" tag="QU" in="" out="">mucho</W>
 <W lemma="tiempo" msd="NC" tag="NC" in="" out="">tiempo</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -141,11 +141,11 @@
 <W lemma="¿" msd="XP" tag="FS" in="" out="">¿</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Qué</W>
 <W lemma="ir" msd="VAD" tag="VLfin" in="" out="">vas</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="hacer" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">hacer</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="sábado" msd="NC" tag="NC" in="" out="">sábado</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="semana" msd="NC" tag="NC" in="" out="">semana</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -205,7 +205,7 @@
 <W lemma="poder" msd="VAD" tag="VLfin" in="" out="">puedes</W>
 <W lemma="venir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">venir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">conmigo</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="fiesta" msd="NC" tag="NC" in="" out="">fiesta</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -231,7 +231,7 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="pocos" msd="AN" tag="QU" in="" out="">poco</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="marcha" msd="NC" tag="NC" in="" out="">marcha</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="gente" msd="NC" tag="NC" in="" out="">gente</W>

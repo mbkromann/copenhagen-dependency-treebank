@@ -94,7 +94,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="21:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-22:CONJ/og/ATTR1" out="-1:mod|-2:coord|1:subj|2:pobj|23:CONS&3a;prg/(så)/ATTR1">satser</W>
+<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-22:CONJ/og/ATTR1" out="-1:mod|-2:coord|1:subj|2:pobj|23:TELIC&3a;sbj/(så)/ATTR1">satser</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -117,7 +117,7 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:CONS&3a;prg/(så)/ATTR1" out="-1:mod|1:subj|2:preds|3:pnct|4:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:TELIC&3a;sbj/(så)/ATTR1" out="-1:mod|1:subj|2:preds|3:pnct|4:pnct">er</W>
 <W gloss="‘_no’" lemma="nej" msd="NCNSU==D" tag="NN" in="-1:subj" out="">nej'et</W>
 <W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:preds" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

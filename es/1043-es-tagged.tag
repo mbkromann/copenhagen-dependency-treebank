@@ -4,14 +4,14 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">taimado</W>
 <W lemma="gobierno" msd="NC" tag="NC" in="" out="">gobierno</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="minoría" msd="NC" tag="NC" in="" out="">minorías</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="ministerio" msd="NC" tag="NC" in="" out="">ministerio</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Schlüter</W>
 <W lemma="IV" msd="AC" tag="CARD" in="" out="">IV</W>
@@ -22,7 +22,7 @@
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Presupuesto</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Nacional</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -31,7 +31,7 @@
 <W lemma="política" msd="NC" tag="NC" in="" out="">política</W>
 <W lemma="económico" msd="AN" tag="ADJ" in="" out="">económica</W>
 <W lemma="moderar" msd="VAF" tag="VLadj" in="" out="">moderada</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -39,9 +39,9 @@
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
 <W lemma="pero" msd="NC" tag="NC" in="" out="">pero</W>
-<W lemma="sin" msd="SP" tag="PREP" in="" out="">sin</W>
+<W lemma="sin" msd="SP" tag="SCENE" in="" out="">sin</W>
 <W lemma="propuesta" msd="NC" tag="NC" in="" out="">propuestas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="ahorro" msd="NC" tag="NC" in="" out="">ahorro</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">provocativas</W>
 <W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
@@ -50,13 +50,13 @@
 <W lemma="de~antemano" msd="RG" tag="ADV" in="" out="">de antemano</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">puedan</W>
 <W lemma="empujar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">empujar</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="decisivo" msd="AN" tag="ADJ" in="" out="">decisivos</W>
 <W lemma="partido" msd="NC" tag="NC" in="" out="">partidos</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W lemma="centro" msd="NC" tag="NC" in="" out="">centro</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="brazo" msd="NC" tag="NC" in="" out="">brazos</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
@@ -67,17 +67,17 @@
 </p>
 <p>
 <s>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">De</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">De</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todos</W>
 <W lemma="modo" msd="NC" tag="NC" in="" out="">modos</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="debatir" msd="VAD" tag="VLfin" in="" out="">debate</W>
-<W lemma="sobre" msd="SP" tag="PREP" in="" out="">sobre</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="política" msd="NC" tag="NC" in="" out="">política</W>
 <W lemma="económico" msd="AN" tag="ADJ" in="" out="">económica</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="" out="">Dinamarca</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="estar" msd="VAD" tag="VEfin" in="" out="">está</W>
@@ -85,14 +85,14 @@
 <W lemma="de~nuevo" msd="RG" tag="ADV" in="" out="">de nuevo</W>
 <p>
 <s>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="cuestión" msd="NC" tag="NC" in="" out="">cuestión</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="ideología" msd="NC" tag="NC" in="" out="">ideología</W>
 <W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="moral" msd="NC" tag="NC" in="" out="">moral</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -109,7 +109,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Socialdemócrata</W>
 <W lemma="emitir" msd="VAD" tag="VLfin" in="" out="">emitió</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="precisión" msd="NC" tag="NC" in="" out="">precisión</W>
 <W lemma="minucioso" msd="AN" tag="ADJ" in="" out="">minuciosa</W>
@@ -117,7 +117,7 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
 <W lemma="propuesta" msd="NC" tag="NC" in="" out="">propuesta</W>
 <W lemma="alternativo" msd="AN" tag="ADJ" in="" out="">alternativa</W>
-<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="" out="">para</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Presupuesto</W>
@@ -134,7 +134,7 @@
 <W lemma="quedar" msd="VAD" tag="VLfin" in="" out="">quedan</W>
 <W lemma="claro" msd="AN" tag="ADJ" in="" out="">claras</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="resumen" msd="NC" tag="NC" in="" out="">resumen</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueden</W>
 <W lemma="expresarse" msd="VA" tag="VCLI" in="" out="">expresarse</W>
@@ -165,10 +165,10 @@
 <W lemma="superávit" msd="NC" tag="NC" in="" out="">superávit</W>
 <W lemma="tan" msd="RG" tag="ADV" in="" out="">tan</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grande</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="balanza" msd="NC" tag="NC" in="" out="">balanza</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="pago" msd="NC" tag="NC" in="" out="">pagos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">hay</W>
@@ -177,7 +177,7 @@
 <W lemma="aumentar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">aumentar</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="producción" msd="NC" tag="NC" in="" out="">producción</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="" out="">Dinamarca</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -189,7 +189,7 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">Con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">Con</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="política" msd="NC" tag="NC" in="" out="">política</W>
 <W lemma="financiero" msd="AN" tag="ADJ" in="" out="">financiera</W>

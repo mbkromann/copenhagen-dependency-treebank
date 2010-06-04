@@ -34,7 +34,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="" out="">loro</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">si</W>
-<W lemma="trovare" msd="VADA" tag="VER&3a;impf" in="-30:+CONJ/(e)" out="8:ELAB&3a;exp">trovavano</W>
+<W lemma="trovare" msd="VADA" tag="VER&3a;impf" in="-30:+CONJ/(e)" out="8:CONST&3a;elab">trovavano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="" out="">loro</W>
 <W lemma="avvocato" msd="NC" tag="NOM" in="" out="">avvocati</W>
@@ -42,7 +42,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-8:ELAB&3a;exp" out="">Hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-8:CONST&3a;elab" out="">Hanno</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="" out="">tutti</W>
 <W lemma="guardare" msd="VAP" tag="VER&3a;pper" in="" out="">guardato</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -77,7 +77,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Le</W>
 <W lemma="espressione" msd="NC" tag="NOM" in="" out="">espressioni</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="39:ELAB&3a;part">dei</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="39:CONST&3a;apart">dei</W>
 <W lemma="giurato" msd="NC" tag="NOM" in="" out="">giurati</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-32:+DESCR&3a;qual" out="">erano</W>
 <W lemma="preoccupare" msd="VAP" tag="VER&3a;pper" in="" out="">preoccupate</W>
@@ -116,7 +116,7 @@
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="" out="">Molti</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="" out="">loro</W>
-<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-39:ELAB&3a;part" out="22:ELAB&3a;exp">avevano</W>
+<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-39:CONST&3a;apart" out="22:CONST&3a;elab">avevano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">gli</W>
 <W lemma="occhio" msd="NC" tag="NOM" in="" out="">occhi</W>
 <W lemma="pieno" msd="AN" tag="ADJ" in="" out="">pieni</W>
@@ -138,14 +138,14 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="giurato" msd="NC" tag="NOM" in="" out="">giurati</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">si</W>
-<W lemma="tenere" msd="VADA" tag="VER&3a;impf" in="-22:ELAB&3a;exp" out="">tenevano</W>
+<W lemma="tenere" msd="VADA" tag="VER&3a;impf" in="-22:CONST&3a;elab" out="">tenevano</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="mano" msd="NC" tag="NOM" in="" out="">mano</W>
 <W lemma="mentre" msd="CS" tag="CON" in="" out="">mentre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="sentenza" msd="NC" tag="NOM" in="" out="">sentenze</W>
 <W lemma="venire" msd="VADA" tag="VER&3a;impf" in="" out="">venivano</W>
-<W lemma="leggere" msd="VAP" tag="VER&3a;pper" in="" out="35:+ELAB&3a;exp/ATTR">lette</W>
+<W lemma="leggere" msd="VAP" tag="VER&3a;pper" in="" out="35:+CONST&3a;elab/ATTR">lette</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="voce" msd="NC" tag="NOM" in="" out="">voce</W>
 <W lemma="alto" msd="AN" tag="ADJ" in="" out="">alta</W>
@@ -165,7 +165,7 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
-<W lemma="colpevole" msd="AN" tag="ADJ" in="15:+PREPAR" out="">colpevole</W>
+<W lemma="colpevole" msd="AN" tag="ADJ" in="15:+SCENE" out="">colpevole</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
 <W lemma="..." msd="XP" tag="PON" in="" out="">...</W>
@@ -180,7 +180,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Rasmussen</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-35:+ELAB&3a;exp/ATTR" out="-15:+PREPAR|50:+CONJ/(e)/ATTR">disse</W>
+<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-35:+CONST&3a;elab/ATTR" out="-15:+SCENE|50:+CONJ/(e)/ATTR">disse</W>
 <W lemma="solennemente" msd="RG" tag="ADV" in="" out="">solennemente</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>

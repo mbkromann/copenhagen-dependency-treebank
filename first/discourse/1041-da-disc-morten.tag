@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="For_example" lemma="eksempelvis" msd="RGU" tag="RP" in="1:ex" out="">Eksempelvis</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:ex|1:expl|2:dobj|27:pnct|36:ELAB&3a;exp|97:+CONJ/(og)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:ex|1:expl|2:dobj|27:pnct|36:CONST&3a;elab|97:+CONJ/(og)">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj">ingen</W>
 <W gloss="mention" lemma="omtale" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">omtale</W>
@@ -78,7 +78,7 @@
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:other" out="1:nobj">mellem</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="">to</W>
-<W gloss="led_to" lemma="medføre" msd="VADA=----A-" tag="VBD" in="-36:ELAB&3a;exp" out="-6:subj|1:ex|2:pnct|3:dobj|33:pnct|37:CONJ/(og)">medførte</W>
+<W gloss="led_to" lemma="medføre" msd="VADA=----A-" tag="VBD" in="-36:CONST&3a;elab" out="-6:subj|1:ex|2:pnct|3:dobj|33:pnct|37:CONJ/(og)">medførte</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:ex" out="">bl.a.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="10:vobj">at</W>
@@ -194,14 +194,14 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Soft" lemma="blød" msd="ANPCSU=IU" tag="JJ" in="7:+PREP" out="">Blød</W>
+<W gloss="Soft" lemma="blød" msd="ANPCSU=IU" tag="JJ" in="7:+SCENE" out="">Blød</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:struct" out="1:nobj">Til</W>
 <W gloss="the_other_hand" lemma="gengæld" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gengæld</W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-37:+CONTR&3a;dir/til_gengæld" out="-2:struct|-7:+PREP|2:subj|3:dobj|8:pobj|25:pnct">viser</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-37:+CONTR&3a;dir/til_gengæld" out="-2:struct|-7:+SCENE|2:subj|3:dobj|8:pobj|25:pnct">viser</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Schlüter</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:pobj">en</W>

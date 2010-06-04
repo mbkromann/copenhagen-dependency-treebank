@@ -71,7 +71,7 @@
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="" out="">sulla</W>
 <W lemma="questione" msd="NC" tag="NOM" in="" out="">questione</W>
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="67:+ELAB&3a;exp">Kræftens</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="67:+CONST&3a;elab">Kræftens</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Bekæmpelse</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
 <W lemma="considerare" msd="VADR" tag="VER&3a;pres" in="" out="">consideri</W>
@@ -138,7 +138,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kræftens</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Bekæmpelse</W>
-<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="-67:+ELAB&3a;exp" out="40:CONJ/(e)">sembra</W>
+<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="-67:+CONST&3a;elab" out="40:CONJ/(e)">sembra</W>
 <W lemma="concepire" msd="VAF" tag="VER&3a;infi" in="" out="">concepire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="contribuente" msd="NC" tag="NOM" in="" out="">contribuenti</W>
@@ -178,7 +178,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-40:CONJ/(e)" out="27:;CAUSE&3a;expl|66:+CONC/(però)">Posso</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-40:CONJ/(e)" out="27:;AGENTIVE&3a;expl|66:+CONC/(però)">Posso</W>
 <W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="capire" msd="VAF" tag="VER&3a;infi" in="" out="">capire</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -205,7 +205,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="vendita" msd="NC" tag="NOM" in="" out="">vendite</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
-<W lemma=";" msd="XP" tag="PON" in="-27:;CAUSE&3a;expl" out="">;</W>
+<W lemma=";" msd="XP" tag="PON" in="-27:;AGENTIVE&3a;expl" out="">;</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="surplus" msd="NC" tag="NOM" in="" out="">surplus</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">dei</W>

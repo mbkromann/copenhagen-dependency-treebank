@@ -64,7 +64,7 @@
 <W gloss="half" lemma="halv" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">halvt</W>
 <W gloss="century" lemma="århundrede" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">århundrede</W>
 <W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:succ" out="-5:tobj|-6:eval">senere</W>
-<W gloss="did_come" lemma="komme" msd="VADA=----A-" tag="VBD" in="-20:+TIME&3a;succ/senere" out="-1:succ|1:subj|11:pnct|15:ELAB&3a;exp|35:+TIME&3a;succ/om">kom</W>
+<W gloss="did_come" lemma="komme" msd="VADA=----A-" tag="VBD" in="-20:+TIME&3a;succ/senere" out="-1:succ|1:subj|11:pnct|15:CONST&3a;elab|35:+TIME&3a;succ/om">kom</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:attr|3:nobj">det</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="serious" lemma="alvorlig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">alvorlige</W>
@@ -79,7 +79,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="happened" lemma="ske" msd="VADA=----A-" tag="VBD" in="-15:ELAB&3a;exp" out="-1:subj|1:tobj|5:pnct|6:cont|10:pnct">skete</W>
+<W gloss="happened" lemma="ske" msd="VADA=----A-" tag="VBD" in="-15:CONST&3a;elab" out="-1:subj|1:tobj|5:pnct|6:cont|10:pnct">skete</W>
 <W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:tobj" out="1:other|2:nobj">den</W>
 <W gloss="15," lemma="15." msd="AO---U=--" tag="JJ" in="-1:other" out="">15.</W>
 <W gloss="May" lemma="maj" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj">maj</W>
@@ -138,14 +138,14 @@
 <s>
 <W gloss="Five" lemma="fem" msd="AC---U=--" tag="CD" in="2:subj" out="1:nobj">Fem</W>
 <W gloss="DSB_routes" lemma="DSB-rute" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">DSB-ruter</W>
-<W gloss="will_survive" lemma="overleve" msd="VADR=----A-" tag="VBD" in="7:+PREPAR" out="-2:subj">overlever</W>
+<W gloss="will_survive" lemma="overleve" msd="VADR=----A-" tag="VBD" in="7:+SCENE" out="-2:subj">overlever</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="The_DSB's" lemma="DSB" msd="NP--G==-" tag="NNP" in="2:subj" out="1:possd">DSBs</W>
 <W gloss="ship_division" lemma="rederi-division" msd="NCCSU==I" tag="NN" in="-1:possd" out="">rederi-division</W>
-<W gloss="the_leader" lemma="lede" msd="VADR=----A-" tag="VBD" in="-26:+CONS/(derfor)" out="-2:subj|-7:+PREPAR|1:pobj|4:loc|10:pnct|11:reas|24:pnct">leder</W>
+<W gloss="the_leader" lemma="lede" msd="VADR=----A-" tag="VBD" in="-26:+CONS/(derfor)" out="-2:subj|-7:+SCENE|1:pobj|4:loc|10:pnct|11:reas|24:pnct">leder</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">efter</W>
 <W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">nye</W>
 <W gloss="markets" lemma="marked" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr">markeder</W>
@@ -159,7 +159,7 @@
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-11:reas" out="3:vobj">for</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="2:time" out="1:nobj">år</W>
 <W gloss="2005" lemma="2005" msd="AC---U=--" tag="CD" in="-1:nobj" out="">2005</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:time|1:degr|2:subj|8:vobj|41:ELAB&3a;exp">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:time|1:degr|2:subj|8:vobj|41:CONST&3a;elab">vil</W>
 <W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
 <W gloss="five" lemma="fem" msd="AC---U=--" tag="CD" in="-2:subj|6:[subj]" out="1:pobj|16:ELAB&3a;spec">fem</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -200,9 +200,9 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="gloomy" lemma="dyster" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">dystre</W>
 <W gloss="prognosis" lemma="prognose" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">prognose</W>
-<W gloss="builds" lemma="bygge" msd="VADR=----A-" tag="VBD" in="-41:ELAB&3a;exp" out="-3:subj|1:pobj|13:pnct">bygger</W>
+<W gloss="builds" lemma="bygge" msd="VADR=----A-" tag="VBD" in="-41:CONST&3a;elab" out="-3:subj|1:pobj|13:pnct">bygger</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
-<W gloss="the_consequences" lemma="konsekvens" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:pobj|15:ELAB&3a;exp">konsekvenserne</W>
+<W gloss="the_consequences" lemma="konsekvens" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:pobj|15:CONST&3a;elab">konsekvenserne</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:dir">de</W>
 <W gloss="permanent" lemma="fast" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">faste</W>
@@ -217,7 +217,7 @@
 </s>
 <s>
 <W gloss="These_consequences" lemma="konsekvens" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Konsekvenserne</W>
-<W gloss="puts" lemma="sætte" msd="VADR=----A-" tag="VBD" in="-15:ELAB&3a;exp" out="-1:subj|1:avobj|2:pobj|22:pnct|31:CONS/derved">sætter</W>
+<W gloss="puts" lemma="sætte" msd="VADR=----A-" tag="VBD" in="-15:CONST&3a;elab" out="-1:subj|1:avobj|2:pobj|22:pnct|31:CONS/derved">sætter</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:avobj" out="">ind</W>
 <W gloss="for" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj|8:pnct|9:conj|15:conj">på</W>
 <W gloss="the_Great_Belt" lemma="Storebælt" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:time">Storebælt</W>

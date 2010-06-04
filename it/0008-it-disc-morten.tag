@@ -9,7 +9,7 @@
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:subj|3:[subj]" out="1:nobj">Indre</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mission</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="31:+PREPAR" out="-9:time|-2:subj|1:vobj|9:pnct|13:CONS&3a;dir/(quindi)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="31:+SCENE" out="-9:time|-2:subj|1:vobj|9:pnct|13:TELIC&3a;dir/(quindi)">ha</W>
 <W lemma="perdere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:dobj">perso</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="elezione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">elezioni</W>
@@ -22,7 +22,7 @@
 </s>
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="1:time" out="">Ora</W>
-<W lemma="subentrare" msd="VADR" tag="VER&3a;pres" in="-13:CONS&3a;dir/(quindi)" out="-1:time|1:subj">subentrano</W>
+<W lemma="subentrare" msd="VADR" tag="VER&3a;pres" in="-13:TELIC&3a;dir/(quindi)" out="-1:time|1:subj">subentrano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">social-grundtvigiani</W>
 </s>
@@ -40,9 +40,9 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="48:+TIME&3a;cont/lo_stesso_anno|50:coref">1972</W>
 <W lemma="a" msd="SP" tag="PRE" in="2:loc" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Skjern</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="" out="-4:time|-2:loc|-31:+PREPAR|1:vobj|2:subj|5:pnct">fu</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="" out="-4:time|-2:loc|-31:+SCENE|1:vobj|2:subj|5:pnct">fu</W>
 <W lemma="aprire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:[subj]">aperto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:subj|-1:[subj]" out="2:nobj|9:+ELAB&3a;exp&7c;DESCR&3a;qual">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:subj|-1:[subj]" out="2:nobj|9:+CONST&3a;elab&7c;DESCR&3a;qual">il</W>
 <W lemma="primo" msd="AN" tag="ADJ" in="1:attr" out="">primo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">pub</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
@@ -51,7 +51,7 @@
 <p>
 <s>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:subj" out="">Si</W>
-<W lemma="chiamare" msd="VADA" tag="VER&3a;impf" in="-9:+ELAB&3a;exp&7c;DESCR&3a;qual" out="-1:subj|1:dobj|3:pnct|6:conj">chiamava</W>
+<W lemma="chiamare" msd="VADA" tag="VER&3a;impf" in="-9:+CONST&3a;elab&7c;DESCR&3a;qual" out="-1:subj|1:dobj|3:pnct|6:conj">chiamava</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:dobj" out="1:nobj">Kontorets</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Bodega</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
@@ -158,7 +158,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Poul-Erik</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="2:subj|3:[subj]|6:[subj]|7:[subj]" out="-1:namef">Billeskov</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-32:+CONJ/e" out="-7:discmark|-2:subj|-1:neg|1:vobj|8:pnct|14:+CAUSE&3a;expl/infatti">può</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-32:+CONJ/e" out="-7:discmark|-2:subj|-1:neg|1:vobj|8:pnct|14:+AGENTIVE&3a;expl/infatti">può</W>
 <W lemma="dire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:pobj">dire</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
@@ -172,7 +172,7 @@
 <p>
 <s>
 <W lemma="infatti" msd="RG" tag="ADV" in="1:prg" out="">Infatti</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:+CAUSE&3a;expl/infatti" out="-1:prg|1:preds|24:pnct">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:+AGENTIVE&3a;expl/infatti" out="-1:prg|1:preds|24:pnct">era</W>
 <W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="3:conj|9:ben">candidato</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -187,7 +187,7 @@
 <W lemma="collaborazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">collaborazione</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">grundtvigiana-socialdemocratica</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-3:ref|1:subj|2:[subj]" out="">che</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-4:relr" out="-1:subj|1:vobj|37:+ELAB&3a;exp">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-4:relr" out="-1:subj|1:vobj|37:+CONST&3a;elab">ha</W>
 <W lemma="ottenere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">ottenuto</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="maggioranza" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">maggioranza</W>
@@ -224,7 +224,7 @@
 </s>
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="1:time" out="">Ora</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-37:+ELAB&3a;exp" out="-1:time|-19:CONTR&3a;dir|1:preds|4:pnct|8:¤struct&3a;bg">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-37:+CONST&3a;elab" out="-1:time|-19:CONTR&3a;dir|1:preds|4:pnct|8:¤struct&3a;bg">sono</W>
 <W lemma="sette" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">sette</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="sei" msd="AN" tag="ADJ" in="-1:nobj" out="">sei</W>

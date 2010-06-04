@@ -18,7 +18,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="" out="">tre</W>
 <W lemma="anno" msd="NC" tag="NOM" in="" out="">anni</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="25:+CAUSE&3a;expl/infatti">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="25:+AGENTIVE&3a;expl/infatti">è</W>
 <W lemma="tornare" msd="VAP" tag="VER&3a;pper" in="" out="">tornata</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="diritto" msd="NC" tag="NOM" in="" out="">diritto</W>
@@ -43,7 +43,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Pernille</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+CAUSE&3a;expl/infatti" out="39:+CAUSE&3a;reas/(perché)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+AGENTIVE&3a;expl/infatti" out="39:+AGENTIVE&3a;reas/(perché)">ha</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="" out="">infatti</W>
 <W lemma="finalmente" msd="RG" tag="ADV" in="" out="">finalmente</W>
 <W lemma="ricevere" msd="VAP" tag="VER&3a;pper" in="" out="">ricevuto</W>
@@ -82,7 +82,7 @@
 <W lemma="comune" msd="NC" tag="NOM" in="" out="">comune</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Odense</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:+CAUSE&3a;reas/(perché)" out="52:+ELAB&3a;exp/ATTR|70:+CONJ/anche">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:+AGENTIVE&3a;reas/(perché)" out="52:+CONST&3a;elab/ATTR|70:+CONJ/anche">ha</W>
 <W lemma="invalidare" msd="VAP" tag="VER&3a;pper" in="" out="">invalidato</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questa</W>
 <W lemma="delibera" msd="NC" tag="NOM" in="" out="">delibera</W>
@@ -134,7 +134,7 @@
 <W lemma="legge" msd="NC" tag="NOM" in="" out="">legge</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
-<W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="-52:+ELAB&3a;exp/ATTR" out="-42:qobj">sostiene</W>
+<W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="-52:+CONST&3a;elab/ATTR" out="-42:qobj">sostiene</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Leif</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Nielsen</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -214,7 +214,7 @@
 <W lemma="pubblico" msd="AN" tag="ADJ" in="" out="">pubbliche</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Ejby</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-21:+CONJ/e" out="35:+ELAB&3a;exp">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-21:+CONJ/e" out="35:+CONST&3a;elab">hanno</W>
 <W lemma="subito" msd="RG" tag="ADV" in="" out="">subito</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="" out="">un'</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="" out="">altra</W>
@@ -249,7 +249,7 @@
 <W lemma="minore" msd="NC" tag="NOM" in="" out="">minori</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="città" msd="NC" tag="NOM" in="" out="">città</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-35:+ELAB&3a;exp" out="">dovrà</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-35:+CONST&3a;elab" out="">dovrà</W>
 <W lemma="verificare" msd="VAF" tag="VER&3a;infi" in="" out="">verificare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="allontanamento" msd="NC" tag="NOM" in="" out="">allontanamento</W>

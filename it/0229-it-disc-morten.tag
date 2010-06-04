@@ -4,7 +4,7 @@
 <W lemma="sondaggio" msd="NC" tag="NOM" in="" out="">sondaggi</W>
 <W lemma="d'" msd="SP" tag="PRE" in="" out="">d'</W>
 <W lemma="opinione" msd="NC" tag="NOM" in="" out="">opinione</W>
-<W lemma="dimostrare" msd="VADR" tag="VER&3a;pres" in="" out="39:CONS&3a;dir/(perciò)">dimostrano</W>
+<W lemma="dimostrare" msd="VADR" tag="VER&3a;pres" in="" out="39:TELIC&3a;dir/(perciò)">dimostrano</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="consumatore" msd="NC" tag="NOM" in="" out="">consumatori</W>
@@ -43,7 +43,7 @@
 <W lemma="carne" msd="NC" tag="NOM" in="" out="">carni</W>
 <W lemma="avicolo" msd="AN" tag="ADJ" in="" out="">avicole</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kronfågel</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:CONS&3a;dir/(perciò)" out="62:+CONJ/(e)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:TELIC&3a;dir/(perciò)" out="62:+CONJ/(e)">ha</W>
 <W lemma="esportare" msd="VAP" tag="VER&3a;pper" in="" out="">esportato</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nella</W>
 <W lemma="catena" msd="NC" tag="NOM" in="" out="">catena</W>
@@ -90,7 +90,7 @@
 <p>
 <s>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">Più</W>
-<W lemma="porre" msd="VAP" tag="VER&3a;pper" in="15:+PREPAR" out="">posto</W>
+<W lemma="porre" msd="VAP" tag="VER&3a;pper" in="15:+SCENE" out="">posto</W>
 </s>
 </p>
 <p>
@@ -105,7 +105,7 @@
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="" out="">quella</W>
 <W lemma="svedese" msd="AN" tag="ADJ" in="" out="">svedese</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-62:+CONJ/(e)" out="-15:+PREPAR|20:CAUSE&3a;expl/(infatti)|107:+ELAB&3a;exp/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-62:+CONJ/(e)" out="-15:+SCENE|20:AGENTIVE&3a;expl/(infatti)|107:+CONST&3a;elab/ATTR">è</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="" out="">evidente</W>
 <W lemma="semplicemente" msd="RG" tag="ADV" in="" out="">semplicemente</W>
 <W lemma="buttare" msd="VAG" tag="VER&3a;geru" in="" out="">buttando</W>
@@ -125,7 +125,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">I</W>
 <W lemma="pollo" msd="NC" tag="NOM" in="" out="">polli</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-20:CAUSE&3a;expl/(infatti)" out="11:CONTR&3a;dir/(invece)">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-20:AGENTIVE&3a;expl/(infatti)" out="11:CONTR&3a;dir/(invece)">hanno</W>
 <W lemma="molto" msd="RG" tag="ADV" in="" out="">molto</W>
 <W lemma="più" msd="AN" tag="ADJ" in="" out="">più</W>
 <W lemma="spazio" msd="NC" tag="NOM" in="" out="">spazio</W>
@@ -212,7 +212,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Erik</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Bjørkman</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="sottolineare" msd="VADR" tag="VER&3a;pres" in="-107:+ELAB&3a;exp/ATTR" out="">sottolinea</W>
+<W lemma="sottolineare" msd="VADR" tag="VER&3a;pres" in="-107:+CONST&3a;elab/ATTR" out="">sottolinea</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="affollamento" msd="NC" tag="NOM" in="" out="">affollamento</W>

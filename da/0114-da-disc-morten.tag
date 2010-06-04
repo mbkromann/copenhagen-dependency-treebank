@@ -54,7 +54,7 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
-<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|2:subj|3:source|27:pnct|33:+CONS&3a;dir/dermed">siger</W>
+<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|2:subj|3:source|27:pnct|33:+TELIC&3a;dir/dermed">siger</W>
 <W gloss="kirsten" lemma="Kirsten" msd="NP--U==-" tag="NNP" in="1:namef" out="">Kirsten</W>
 <W gloss="Jacobsen" lemma="Jacobsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Jacobsen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:source" out="1:nobj">med</W>
@@ -87,7 +87,7 @@
 <p>
 <s>
 <W gloss="Thus" lemma="dermed" msd="RGU" tag="RP" in="1:struct" out="">Dermed</W>
-<W gloss="is_taking" lemma="tage" morph="tage" msd="VADR=----A-" tag="VBD" in="-33:+CONS&3a;dir/dermed" out="-1:struct|1:subj|3:man|4:dobj|10:pobj|12:pnct|13:cause|51:+CONJ/(og)">tager</W>
+<W gloss="is_taking" lemma="tage" morph="tage" msd="VADR=----A-" tag="VBD" in="-33:+TELIC&3a;dir/dermed" out="-1:struct|1:subj|3:man|4:dobj|10:pobj|12:pnct|13:cause|51:+CONJ/(og)">tager</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="literal" lemma="bogstavelig" morph="bogstav +eligt/DENOM&3a;other" msd="ANP---=-R" tag="JJ" in="1:man" out="">bogstavelig</W>
 <W gloss="spoken" lemma="tale" morph="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:man" out="-1:man">talt</W>
@@ -146,7 +146,7 @@
 <W gloss="investigate" lemma="undersøge" morph="søge -under/LOC&3a;pos" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pnct|2:dobj">undersøge</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="whether" lemma="om" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">om</W>
-<W gloss="the_National_Association" lemma="landsforening" morph="forening -[land]s/arg forene +ing/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="1:appr|44:+ELAB&3a;exp">Landsforeningen</W>
+<W gloss="the_National_Association" lemma="landsforening" morph="forening -[land]s/arg forene +ing/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="1:appr|44:+CONST&3a;elab">Landsforeningen</W>
 <W gloss="Youth_Housing" lemma="Ungbo" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Ungbo</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">har</W>
 <W gloss="committed" lemma="begå" morph="gå -be/TRANS" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|6:other">begået</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W gloss="NEW" lemma="ny" morph="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">NYE</W>
-<W gloss="REVELATIONS" lemma="afsløring" morph="afsløre +ing/PRED&3a;result sløre -af/ASPEC&3a;term" msd="NCCPU==I" tag="NNP" in="21:+PREPAR" out="-1:attr">AFSLØRINGER</W>
+<W gloss="REVELATIONS" lemma="afsløring" morph="afsløre +ing/PRED&3a;result sløre -af/ASPEC&3a;term" msd="NCCPU==I" tag="NNP" in="21:+SCENE" out="-1:attr">AFSLØRINGER</W>
 </s>
 </p>
 <p>
@@ -180,7 +180,7 @@
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>
 <W gloss="weeks" lemma="uge" morph="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-3:part" out="">siden</W>
-<W gloss="went" lemma="gå" morph="gå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:time|1:aobj|2:man|9:pnct|44:CONS&3a;dir/(derfor)">gik</W>
+<W gloss="went" lemma="gå" morph="gå" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-4:time|1:aobj|2:man|9:pnct|44:TELIC&3a;dir/(derfor)">gik</W>
 <W gloss="bankruptcy" lemma="konkurs" morph="konkurs" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:aobj" out="">konkurs</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:man" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
@@ -190,7 +190,7 @@
 <W gloss="million" lemma="million" morph="million" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:numm|1:nobj">mill.</W>
 <W gloss="DKK" lemma="krone" morph="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="has" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-44:+ELAB&3a;exp" out="-16:time|-21:+PREPAR|1:expl|2:neg|3:vobj|21:pnct">er</W>
+<W gloss="has" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-44:+CONST&3a;elab" out="-16:time|-21:+SCENE|1:expl|2:neg|3:vobj|21:pnct">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|2:[expl]" out="">der</W>
 <W gloss="hardly" lemma="næppe" msd="RGU" tag="RP" in="-2:neg" out="">næppe</W>
 <W gloss="passed" lemma="gå" morph="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|1:dobj|3:other">gået</W>
@@ -224,7 +224,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="2,200" lemma="2.200" msd="AC---U=--" tag="CD" in="-3:conj" out="-1:coord|1:nobj">2.200</W>
 <W gloss="hybler" lemma="hybel" morph="hybel" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">hybler</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-44:CONS&3a;dir/(derfor)" out="-10:subj|1:vobj|4:pnct|11:CONJ/(og)">er</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-44:TELIC&3a;dir/(derfor)" out="-10:subj|1:vobj|4:pnct|11:CONJ/(og)">er</W>
 <W gloss="threatened" lemma="true" morph="true" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-11:[subj]|1:pobj">truet</W>
 <W gloss="with" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="tvangsauktion" lemma="tvangsauktion" morph="auktion -[tvang]s/type tvinge tvang/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tvangsauktion</W>

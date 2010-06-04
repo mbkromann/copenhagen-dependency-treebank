@@ -38,7 +38,7 @@
 <W lemma="provocatore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">provocatore</W>
 <W lemma="pop" msd="AN" tag="ADJ" in="-1:attr" out="">pop</W>
 <W lemma="?" msd="XP" tag="SENT" in="-37:pnct" out="">?</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-38:QUEST&3a;probl" out="1:pnct|9:CONSOL&3a;just">Sì</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-38:QUEST&3a;probl" out="1:pnct|9:CONSOL&3a;source">Sì</W>
 <W lemma="!" msd="XP" tag="SENT" in="-1:pnct" out="">!</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Carsten</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="6:subj" out="-1:namef|10:coref|20:coref">Bo</W>
@@ -47,7 +47,7 @@
 <W lemma="per" msd="SP" tag="PRE" in="3:goal" out="-1:focal|-2:pnct|1:vobj|2:pnct">per</W>
 <W lemma="precisare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">precisare</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-9:CONSOL&3a;just" out="-6:subj|-3:goal|1:dobj|3:pnct|4:;CONJ/(e)|14:conj|21:pnct">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-9:CONSOL&3a;source" out="-6:subj|-3:goal|1:dobj|3:pnct|4:;CONJ/(e)|14:conj|21:pnct">ha</W>
 <W lemma="@card@" msd="XP" tag="PON" in="-1:dobj" out="1:nobj">33</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
@@ -122,7 +122,7 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="3:subj" out="">questa</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="gli" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">gli</W>
-<W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-17:conj" out="-2:neg|-1:iobj|-4:coord|-3:subj|4:dir|5:pnct|10:ELAB&3a;exp/ATTR">va</W>
+<W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-17:conj" out="-2:neg|-1:iobj|-4:coord|-3:subj|4:dir|5:pnct|10:CONST&3a;elab/ATTR">va</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="1:degr" out="">proprio</W>
 <W lemma="per" msd="SP" tag="PRE" in="2:degr" out="-1:degr|1:neg">per</W>
 <W lemma="niente" msd="AN" tag="ADJ" in="-1:neg" out="">niente</W>
@@ -132,7 +132,7 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|1:preds|2:pnct">sono</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="-1:preds" out="">io</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:pnct" out="">!”</W>
-<W lemma="insistere" msd="VADR" tag="VER&3a;pres" in="-10:ELAB&3a;exp/ATTR" out="-3:qobj|1:subj|2:loc|6:pnct|7:fpreds|61:pnct">insiste</W>
+<W lemma="insistere" msd="VADR" tag="VER&3a;pres" in="-10:CONST&3a;elab/ATTR" out="-3:qobj|1:subj|2:loc|6:pnct|7:fpreds|61:pnct">insiste</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:subj" out="">Carsten</W>
 <W lemma="sotto" msd="SP" tag="PRE" in="-2:loc" out="1:nobj">sotto</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>

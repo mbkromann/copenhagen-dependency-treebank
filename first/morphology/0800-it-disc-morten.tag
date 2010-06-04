@@ -51,7 +51,7 @@
 <W lemma="&lt;unknown&gt;" morph="Hjorth" msd="NC" tag="NOM" in="3:subj|4:[subj]|9:[subj]|10:[subj]|14:[subj]|15:[subj]" out="-1:namef">Hjorth</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="4:neg">non</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-11:+CONJ/(e)" out="-3:subj|-2:neg|-1:robj|1:vobj|46:pnct|50:pnct|71:+ELAB&3a;exp/ATTR2">è</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-11:+CONJ/(e)" out="-3:subj|-2:neg|-1:robj|1:vobj|46:pnct|50:pnct|71:+CONST&3a;elab/ATTR2">è</W>
 <W lemma="pentirsi" morph="pentirsi" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|2:time|4:dobj">pentito</W>
 <W lemma="neanche" msd="RG" tag="ADV" in="-4:neg" out="">neanche</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-2:time" out="1:nobj">un</W>
@@ -98,17 +98,17 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attrr#" out="1:nobj">di</W>
 <W lemma="disoccupazione" morph="occupazione -dis/NEG&3a;oppo occupare +zione/PRED&3a;core" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="." msd="XP" tag="SENT" in="-46:pnct" out="">.</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="24:+PREPAR" out="1:nobj">Un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="24:+SCENE" out="1:nobj">Un</W>
 <W lemma="lavoro" morph="lavoro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">lavoro</W>
 <W lemma="fisso" morph="fisso" msd="AN" tag="ADJ" in="-1:attr" out="">fisso</W>
 <W lemma="." msd="XP" tag="SENT" in="-50:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">Ci</W>
-<W lemma="tenere" morph="tenere" msd="VADR" tag="VER&3a;cpre" in="18:qobj" out="-1:robj|-2:pnct|1:iobj|3:pnct|4:;CAUSE&3a;reas/(perché)/ATTR2|16:pnct">teniamo</W>
+<W lemma="tenere" morph="tenere" msd="VADR" tag="VER&3a;cpre" in="18:qobj" out="-1:robj|-2:pnct|1:iobj|3:pnct|4:;AGENTIVE&3a;reas/(perché)/ATTR2|16:pnct">teniamo</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:iobj" out="1:nobj">a</W>
 <W lemma="lei" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">lei</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
-<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="-4:;CAUSE&3a;reas/(perché)/ATTR2" out="1:dobj|7:conj|13:pnct">ha</W>
+<W lemma="avere&7c;riavere" morph="avere" msd="VADR" tag="VER&3a;pres" in="-4:;AGENTIVE&3a;reas/(perché)/ATTR2" out="1:dobj|7:conj|13:pnct">ha</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="carattere" morph="carattere" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">carattere</W>
 <W lemma="accomodante" morph="accomodare +nte/DEVERB&3a;act.pure" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">accomodante</W>
@@ -122,14 +122,14 @@
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">noi</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-16:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-13:pnct" out="">,</W>
-<W lemma="dire" morph="dire" msd="VADR" tag="VER&3a;pres" in="-71:+ELAB&3a;exp/ATTR2" out="-18:qobj|-24:+PREPAR|1:subj|3:pnct|7:+CONJ/(e)">dice</W>
+<W lemma="dire" morph="dire" msd="VADR" tag="VER&3a;pres" in="-71:+CONST&3a;elab/ATTR2" out="-18:qobj|-24:+SCENE|1:subj|3:pnct|7:+CONJ/(e)">dice</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="pasticciere" morph="pasticcio +ere/NOPRED&3a;agent" msd="NC" tag="NOM" in="-1:nobj" out="">pasticciere</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W compound="Il" lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="2:nobj">I</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">suo</W>
 <W lemma="apprezzamento" morph="apprezzare +mento/PRED&3a;core" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">apprezzamento</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-7:+CONJ/(e)" out="-3:subj|1:vobj|13:pnct|15:ELAB&3a;exp|47:pnct">è</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-7:+CONJ/(e)" out="-3:subj|1:vobj|13:pnct|15:CONST&3a;elab|47:pnct">è</W>
 <W lemma="culminare" morph="culminare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:time|2:man">culminato</W>
 <W lemma="recentemente" msd="RG" tag="ADV" in="-1:time" out="">recentemente</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:man" out="1:vobj|3:nobj">nell'</W>
@@ -144,7 +144,7 @@
 <W lemma="disoccupato" morph="occupato -dis/NEG&3a;oppo occupare +to/PRED&3a;agent" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">disoccupata</W>
 <W lemma="." msd="XP" tag="SENT" in="-13:pnct" out="">.</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj" out="">Questo</W>
-<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-15:ELAB&3a;exp" out="-1:subj|1:vobj|22:pnct|56:+CONJ/(e)/ATTR3">è</W>
+<W lemma="essere" morph="essere" msd="VADR" tag="VER&3a;pres" in="-15:CONST&3a;elab" out="-1:subj|1:vobj|22:pnct|56:+CONJ/(e)/ATTR3">è</W>
 <W lemma="successo" morph="succedere +sso/PRED&3a;core" msd="NC" tag="NOM" in="-1:vobj" out="1:time">successo</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:time" out="1:nobj">nel</W>
 <W lemma="momento" morph="momento" msd="NC" tag="NOM" in="-1:nobj" out="2:ref|4:vobj">momento</W>

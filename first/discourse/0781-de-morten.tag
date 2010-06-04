@@ -1,7 +1,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJD" in="1:subj" out="5:nobj">,,Es</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|17:pnct|24:CONTR&3a;prg/aber/ATTR|63:+DESCR&3a;eval">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|2:preds|3:pnct|17:pnct|24:CONTR&3a;sbj/aber/ATTR|63:+DESCR&3a;eval">ist</W>
 <W lemma="völlig" msd="AN" tag="ADJD" in="1:degr" out="">völlig</W>
 <W lemma="klar" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr">klar</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
@@ -25,7 +25,7 @@
 <s>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="33:pnct">Aber</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj|37:assoc-agent" out="">wir</W>
-<W lemma="stürzen" msd="VA" tag="VVFIN" in="-24:CONTR&3a;prg/aber/ATTR" out="-1:subj|-2:coord|1:dobj|3:man|5:pnct|6:reas|30:pnct">stürzen</W>
+<W lemma="stürzen" msd="VA" tag="VVFIN" in="-24:CONTR&3a;sbj/aber/ATTR" out="-1:subj|-2:coord|1:dobj|3:man|5:pnct|6:reas|30:pnct">stürzen</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-1:dobj" out="">uns</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="1:neg" out="">nicht</W>
 <W lemma="ins" msd="SP+P" tag="APPRART" in="-3:man" out="-1:neg|1:nobj">ins</W>
@@ -61,10 +61,10 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="2:title" out="-37:assoc-agent|25:coref-part">ATP-Direktor</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="2:title" out="-37:assoc-agent|25:assoc-const">ATP-Direktor</W>
 <W lemma="Palle" msd="NP" tag="NE" in="1:namef" out="">Palle</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="1:subj" out="-2:title|-1:namef|14:coref|45:coref-id">Simonsen</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="-63:+DESCR&3a;eval" out="-1:subj|1:dobj|4:pnct|14:CAUSE&3a;expl/(nämlich)|5:time">macht</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="-63:+DESCR&3a;eval" out="-1:subj|1:dobj|4:pnct|14:AGENTIVE&3a;expl/(nämlich)|5:time">macht</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="-1:dobj" out="1:attr|2:nobj">keine</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">großen</W>
 <W lemma="Wort" msd="NC" tag="NN" in="-2:nobj" out="9:pnct">Worte</W>
@@ -78,7 +78,7 @@
 <W lemma="sollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj">soll</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="er&7c;es" msd="PP" tag="PPER" in="-14:coref|1:iobj" out="">Ihm</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-14:CAUSE&3a;expl/(nämlich)" out="-1:iobj|1:preds|2:pnct|31:+CONJ/(und)/ATTR|3:nobj">ist</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-14:AGENTIVE&3a;expl/(nämlich)" out="-1:iobj|1:preds|2:pnct|31:+CONJ/(und)/ATTR|3:nobj">ist</W>
 <W lemma="klar" msd="AN" tag="ADJD" in="-1:preds" out="23:pnct">klar</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:nobj" out="8:vobj">dass</W>
@@ -86,7 +86,7 @@
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleine</W>
 <W lemma="Bewegung" msd="NC" tag="NN" in="-2:nobj" out="1:pobj.subj|1:{agent}">Bewegung</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj.subj|-1:{agent}" out="1:possr">von</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-25:coref-part|-1:possr" out="">ATP</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-25:assoc-const|-1:possr" out="">ATP</W>
 <W lemma="genau" msd="AN" tag="ADJD" in="1:degr" out="">genau</W>
 <W lemma="verfolgen" msd="VAP" tag="VVPP" in="1:vobj" out="-6:[subj]|-1:degr|2:agent">verfolgt</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-7:[subj]|-1:vobj|4:reas">wird</W>

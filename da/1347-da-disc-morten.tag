@@ -67,7 +67,7 @@
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:exem" out="">bl.a.</W>
 <W gloss="resulted" lemma="resultere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">resulteret</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
-<W gloss="the_EC_Asylum_Convention" lemma="EF-asylkonvention" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:rel|30:ELAB&3a;exem/fx">EF-asylkonventionen</W>
+<W gloss="the_EC_Asylum_Convention" lemma="EF-asylkonvention" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:rel|30:CONST&3a;exem/fx">EF-asylkonventionen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="determines" lemma="fastlægge" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:pnct|2:dobj">fastlægger</W>
@@ -97,7 +97,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="force" lemma="kraft" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kraft</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-30:ELAB&3a;exem/fx" out="-6:mod|1:subj|2:exem|3:vobj|22:pnct|26:CONS&3a;dir/(derfor)">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-30:CONST&3a;exem/fx" out="-6:mod|1:subj|2:exem|3:vobj|22:pnct|26:TELIC&3a;dir/(derfor)">vil</W>
 <W gloss="one" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|2:[subj]|3:[subj]" out="">man</W>
 <W gloss="for_example" lemma="for_eksempel" msd="RGU" tag="RP" in="-2:exem" out="">f.eks.</W>
 <W gloss="be_able_to" lemma="kunne" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:vobj|12:mod">kunne</W>
@@ -123,7 +123,7 @@
 </s>
 <s>
 <W gloss="This" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="means" lemma="betyde" msd="VADR=----A-" tag="VBD" in="-26:CONS&3a;dir/(derfor)" out="-1:subj|1:pnct|2:dobj|37:pnct|43:+CAUSE&3a;reas">betyder</W>
+<W gloss="means" lemma="betyde" msd="VADR=----A-" tag="VBD" in="-26:TELIC&3a;dir/(derfor)" out="-1:subj|1:pnct|2:dobj|37:pnct|43:+AGENTIVE&3a;reas">betyder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="23:vobj">at</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="22:subj|23:[subj]" out="1:nobj|2:pnct|3:ref|5:rel">en</W>
@@ -166,7 +166,7 @@
 <p>
 <s>
 <W gloss="THAT" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">DET</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-43:+CAUSE&3a;reas" out="-1:subj|1:preds|18:pnct|23:CONTR&3a;prg/men">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-43:+AGENTIVE&3a;reas" out="-1:subj|1:preds|18:pnct|23:CONTR&3a;sbj/men">bliver</W>
 <W gloss="the_result" lemma="resultat" msd="NCNSU==D" tag="NN" in="-1:preds" out="1:pobj">resultatet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:rel">den</W>
@@ -189,7 +189,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:contr" out="8:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-23:CONTR&3a;prg/men" out="-1:subj|-2:contr|1:dobj|13:ELAB&3a;exp">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-23:CONTR&3a;sbj/men" out="-1:subj|-2:contr|1:dobj|13:CONST&3a;elab">har</W>
 <W gloss="nothing" lemma="ingen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="3:nobj">intet</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="3:pobj" out="1:nobj">med</W>
 <W gloss="the_Union_Treaty" lemma="unionstraktat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Unionstraktaten</W>
@@ -202,7 +202,7 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nye</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="the_Union_Treaty" lemma="unionstraktat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Unionstraktaten</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:ELAB&3a;exp" out="-4:subj|1:pnct|2:preds|18:pnct|22:CONC/(dog)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:CONST&3a;elab" out="-4:subj|1:pnct|2:preds|18:pnct|22:CONC/(dog)">er</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="9:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="8:subj" out="2:mod|3:nobj">det</W>

@@ -85,7 +85,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-40:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="An" lemma="en" msd="PI-CSU--U" tag="DT" in="-30:DESCR&3a;qual" out="1:attr|2:nobj|3:ref|5:rel|41:pnct|57:CONJ/og|114:CONS&3a;prg/således">En</W>
+<W gloss="An" lemma="en" msd="PI-CSU--U" tag="DT" in="-30:DESCR&3a;qual" out="1:attr|2:nobj|3:ref|5:rel|41:pnct|57:CONJ/og|114:TELIC&3a;sbj/således">En</W>
 <W gloss="electric" lemma="elektrisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">elektrisk</W>
 <W gloss="music" lemma="musik" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">musik</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">som</W>
@@ -199,7 +199,7 @@
 <p>
 <s>
 <W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:cons" out="">Således</W>
-<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-114:CONS&3a;prg/således" out="-1:cons|1:subj|2:dobj|5:man|9:man|22:other|27:pnct|34:QUEST">trak</W>
+<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-114:TELIC&3a;sbj/således" out="-1:cons|1:subj|2:dobj|5:man|9:man|22:other|27:pnct|34:QUEST">trak</W>
 <W gloss="the_music" lemma="musik" msd="NCCSU==D" tag="NN" in="-1:subj" out="">musikken</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-2:dobj" out="1:attr|2:possd">sin</W>
 <W gloss="multi-coloured" lemma="mangefarvet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">mangefarvede</W>

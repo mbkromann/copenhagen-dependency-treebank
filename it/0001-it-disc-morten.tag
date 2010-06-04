@@ -10,7 +10,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:conj" out="-1:namef|-2:coord">Klaminik</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="credere" msd="VADR" tag="VER&3a;pres" in="" out="-1:neg|-12:subj|1:dobj|13:pnct|15:ELAB&3a;exp&7c;rest/ATTR">credono</W>
+<W lemma="credere" msd="VADR" tag="VER&3a;pres" in="" out="-1:neg|-12:subj|1:dobj|13:pnct|15:CONST&3a;elab&7c;rest/ATTR">credono</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">la</W>
 <W lemma="Russia" msd="NP" tag="NPR" in="-1:nobj" out="">Russia</W>
@@ -25,7 +25,7 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-3:pnct" out="">"</W>
 <W lemma="." msd="XP" tag="SENT" in="-13:pnct" out="">.</W>
 <W lemma="essi" msd="PP" tag="PRO&3a;pers" in="-26:coref|1:subj" out="">Essi</W>
-<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-15:ELAB&3a;exp&7c;rest/ATTR" out="-1:subj|1:dobj|13:pnct|14:CONJ/(e)/ATTR">ritengono</W>
+<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-15:CONST&3a;elab&7c;rest/ATTR" out="-1:subj|1:dobj|13:pnct|14:CONJ/(e)/ATTR">ritengono</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="8:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="7:subj|8:[subj]" out="1:nobj">la</W>
 <W lemma="strada" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|3:dir">strada</W>
@@ -123,7 +123,7 @@
 <W lemma="società" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">società</W>
 <W lemma="civile" msd="AN" tag="ADJ" in="-1:attr" out="">civile</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:qobj" out="-12:pnct|-10:cause|1:preds|5:pnct|14:CAUSE&3a;reas/(perché)/ATTR">eravamo</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:qobj" out="-12:pnct|-10:cause|1:preds|5:pnct|14:AGENTIVE&3a;reas/(perché)/ATTR">eravamo</W>
 <W lemma="contrario" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">contrari</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="congresso" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Congresso</W>
@@ -137,7 +137,7 @@
 <W lemma="democrazia" msd="NC" tag="NOM" in="-1:nobj" out="">democrazia</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:CAUSE&3a;reas/(perché)/ATTR" out="-8:bg|-1:neg|1:preds|8:pnct|12:ELAB&3a;exp/ATTR">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-14:AGENTIVE&3a;reas/(perché)/ATTR" out="-8:bg|-1:neg|1:preds|8:pnct|12:CONST&3a;elab/ATTR">era</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
@@ -149,14 +149,14 @@
 <W lemma="obiettivamente" msd="RG" tag="ADV" in="3:man" out="1:pnct">Obiettivamente</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-12:ELAB&3a;exp/ATTR" out="-3:man|-1:neg|1:preds|5:pnct|7:CAUSE&3a;reas/a_causa_di/ATTR|19:CONJ/(e)/ATTR">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-12:CONST&3a;elab/ATTR" out="-3:man|-1:neg|1:preds|5:pnct|7:AGENTIVE&3a;reas/a_causa_di/ATTR|19:CONJ/(e)/ATTR">era</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
 <W compound="¹far²lo" lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">farlo</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">Non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-7:CAUSE&3a;reas/a_causa_di/ATTR" out="-1:neg|1:man|2:cause|9:pnct">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-7:AGENTIVE&3a;reas/a_causa_di/ATTR" out="-1:neg|1:man|2:cause|9:pnct">era</W>
 <W lemma="assolutamente" msd="RG" tag="ADV" in="-1:man" out="">assolutamente</W>
 <W lemma="a" msd="SP" tag="PRE" in="-2:cause" out="1:nobj">a</W>
 <W lemma="causa" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">causa</W>

@@ -52,7 +52,7 @@
 <W gloss="com" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-7:cont|1:subj|2:pobj|46:pnct">kom</W>
 <W gloss="CD" lemma="CD" msd="NP--U==-" tag="NNP" in="-1:subj" out="">CD</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">med</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|48:coref|49:+ELAB&3a;exp|96:+ELAB&3a;exp|95:coref">et</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|48:coref|49:+CONST&3a;elab|96:+CONST&3a;elab|95:coref">et</W>
 <W gloss="motion" lemma="beslutningsforslag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">beslutningsforslag</W>
 <W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="possibility" lemma="mulighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">mulighed</W>
@@ -101,7 +101,7 @@
 <p>
 <s>
 <W gloss="This" lemma="denne" msd="PD-NSU--U" tag="DT" in="1:subj|2:[subj]|-48:coref" out="">Dette</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-49:+ELAB&3a;exp" out="-1:subj|1:vobj|41:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-49:+CONST&3a;elab" out="-1:subj|1:vobj|41:pnct">var</W>
 <W gloss="intend" lemma="tænke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">tænkt</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
@@ -148,7 +148,7 @@
 <p>
 <s>
 <W gloss="This" lemma="denne" msd="PD-NSU--U" tag="DT" in="1:subj|-95:coref" out="">Dette</W>
-<W gloss="concluded" lemma="indgå" msd="VADA=----A-" tag="VBD" in="-96:+ELAB&3a;exp" out="-1:subj|1:pobj|11:coord|22:pnct">indgik</W>
+<W gloss="concluded" lemma="indgå" msd="VADA=----A-" tag="VBD" in="-96:+CONST&3a;elab" out="-1:subj|1:pobj|11:coord|22:pnct">indgik</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
 <W gloss="amendment" lemma="ændringsforslag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">ændringsforslag</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -164,7 +164,7 @@
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-2:&lt;mod&gt;" out="1:nobj">uden</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:nobj" out="2:vobj">at</W>
 <W gloss="CD" lemma="CD" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">CD</W>
-<W gloss="being_able_to" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|10:CAUSE&3a;expl/nemlig|51:CAUSE&3a;expl/(nemlig)">kunne</W>
+<W gloss="being_able_to" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|10:AGENTIVE&3a;expl/nemlig|51:AGENTIVE&3a;expl/(nemlig)">kunne</W>
 <W gloss="vote" lemma="stemme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">stemme</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_law" lemma="lov" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:other|6:coref">loven</W>
@@ -174,7 +174,7 @@
 </s>
 <s>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|-6:coref" out="28:coref">Den</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-10:CAUSE&3a;expl/nemlig" out="-1:subj|1:eval|2:other|5:dobj|28:pnct">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-10:AGENTIVE&3a;expl/nemlig" out="-1:subj|1:eval|2:other|5:dobj|28:pnct">havde</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
 <W gloss="In" lemma="efter" msd="SP" tag="IN" in="-2:other" out="1:nobj">efter</W>
 <W gloss="CD's" lemma="CD" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">CD's</W>
@@ -215,7 +215,7 @@
 <W gloss="does" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-2:subj|-4:epi|-3:add|1:dobj|2:pnct">gør</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="puts" lemma="lægge" msd="VADR=----A-" tag="VBD" in="-51:CAUSE&3a;expl/(nemlig)" out="-8:comp|1:subj|3:dobj|20:pnct">lægger</W>
+<W gloss="puts" lemma="lægge" msd="VADR=----A-" tag="VBD" in="-51:AGENTIVE&3a;expl/(nemlig)" out="-8:comp|1:subj|3:dobj|20:pnct">lægger</W>
 <W gloss="CD" lemma="CD" msd="NP--U==-" tag="NNP" in="-1:subj" out="">CD</W>
 <W gloss="decisive" lemma="afgørende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">afgørende</W>
 <W gloss="weight" lemma="vægt" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr|1:pobj">vægt</W>

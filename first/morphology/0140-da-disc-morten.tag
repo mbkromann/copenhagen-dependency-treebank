@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="Nevertheless" lemma="ikke_desto_mindre" msd="RGU" tag="RP" in="1:eval" out="">Ikke_desto_mindre</W>
-<W gloss="had" lemma="have" morph="have" msd="VADA=----A-" tag="VBD" in="" out="-1:eval|3:subj|4:time|9:dobj|12:pnct|16:ELAB&3a;exp">havde</W>
+<W gloss="had" lemma="have" morph="have" msd="VADA=----A-" tag="VBD" in="" out="-1:eval|3:subj|4:time|9:dobj|12:pnct|16:CONST&3a;elab">havde</W>
 <W gloss="General" lemma="general" morph="general" msd="NCCSU==I" tag="NN" in="2:title" out="">general</W>
 <W gloss="Augusto" lemma="Augusto" msd="NP--U==-" tag="NNP" in="1:namef" out="">Augusto</W>
 <W gloss="Pinochet" lemma="Pinochet" msd="NP--U==-" tag="NNP" in="-3:subj" out="-2:title|-1:namef">Pinochet</W>
@@ -53,12 +53,12 @@
 <W gloss="big" lemma="stor" morph="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
 <W gloss="plans" lemma="plan" morph="plan" msd="NCCPU==I" tag="NNP" in="-9:dobj" out="-1:attr|1:pobj">planer</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W gloss="the_island" lemma="ø" morph="ø" msd="NCCSU==D" tag="NN" in="-1:nobj" out="77:+ELAB&3a;exp">øen</W>
+<W gloss="the_island" lemma="ø" morph="ø" msd="NCCSU==D" tag="NN" in="-1:nobj" out="77:+CONST&3a;elab">øen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|2:[subj]|8:[subj]" out="">Den</W>
-<W gloss="was_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-16:ELAB&3a;exp" out="-1:subj|1:vobj|11:pnct|12:goal|24:pnct|31:+CONTR&3a;dir/men">skulle</W>
+<W gloss="was_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-16:CONST&3a;elab" out="-1:subj|1:vobj|11:pnct|12:goal|24:pnct|31:+CONTR&3a;dir/men">skulle</W>
 <W gloss="be_equipped" lemma="udstyre" morph="styre -ud/ASPEC&3a;term" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj|6:conj">udstyres</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
@@ -130,7 +130,7 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="chlorophyll_tourists" lemma="klorofyl-turist" morph="turist -klorofyl/type tur +ist/NOPRED&3a;agent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">klorofyl-turister</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-77:+ELAB&3a;exp" out="-9:add|2:subj|3:preds|5:pobj|12:pnct|16:CONJ/(og)">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-77:+CONST&3a;elab" out="-9:add|2:subj|3:preds|5:pobj|12:pnct|16:CONJ/(og)">er</W>
 <W gloss="Robinson" lemma="Robinson" msd="NP--U==-" tag="NNP" in="1:namef" out="">Robinson</W>
 <W gloss="Crusoe" lemma="Crusoe" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Crusoe</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:preds" out="1:nobj">et</W>
@@ -166,7 +166,7 @@
 </p>
 <p>
 <s>
-<W gloss="The_pirate" lemma="sørøver" morph="røver -sø/pos røve +r/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="21:+PREPAR" out="1:appr">Sørøveren</W>
+<W gloss="The_pirate" lemma="sørøver" morph="røver -sø/pos røve +r/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="21:+SCENE" out="1:appr">Sørøveren</W>
 <W gloss="Selkirk" lemma="Selkirk" msd="NP--U==-" tag="NNP" in="-1:appr" out="">Selkirk</W>
 </s>
 </p>
@@ -187,7 +187,7 @@
 <W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:other" out="1:nobj">langs</W>
 <W gloss="the_coast" lemma="kyst" morph="kyst" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">kysten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W gloss="come" lemma="komme" morph="komme" msd="VADR=----A-" tag="VBD" in="-41:+JOINT" out="-15:cond|-21:+PREPAR|1:subj|2:@dir|12:pnct|18:+ELAB&3a;exp">kommer</W>
+<W gloss="come" lemma="komme" morph="komme" msd="VADR=----A-" tag="VBD" in="-41:+JOINT" out="-15:cond|-21:+SCENE|1:subj|2:@dir|12:pnct|18:+CONST&3a;elab">kommer</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|6:appa">en</W>
@@ -205,7 +205,7 @@
 <p>
 <s>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|8:[subj]" out="">Den</W>
-<W gloss="is_located" lemma="ligge" morph="ligge" msd="VADR=----A-" tag="VBD" in="-18:+ELAB&3a;exp" out="-1:subj|2:@loc|7:conj|30:pnct">ligger</W>
+<W gloss="is_located" lemma="ligge" morph="ligge" msd="VADR=----A-" tag="VBD" in="-18:+CONST&3a;elab" out="-1:subj|2:@loc|7:conj|30:pnct">ligger</W>
 <W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:other" out="">lige</W>
 <W gloss="on" lemma="ved" msd="SP" tag="IN" in="-2:@loc" out="-1:other|1:nobj">ved</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>

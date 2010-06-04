@@ -2,6 +2,10 @@ export LANG=C
 
 none:  
 
+missing: 
+	svn status | grep -v logs | grep -v '/\.' | egrep -v '(png|eps|ps|pdf)' | grep -v 'confusion/relations-' | grep -v 'manual/script.dtag' | grep -v 'manual/build' | egrep -v '(treebank.dk|docs/relations-cdt)'
+
+
 webmap:
 	rm -f tmp/webmap.tag
 	for lang in `echo da en it es` ; do \

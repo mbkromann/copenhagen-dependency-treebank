@@ -15,7 +15,7 @@
 <W lemma="Richard" msd="NP" tag="NPR" in="1:namef" out="">Richard</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="-1:namef">Møller</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:nobj" out="-1:namef">Nielsen</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-15:time|-5:subj|1:vobj|18:pnct|39:+ELAB&3a;exp">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-15:time|-5:subj|1:vobj|18:pnct|39:+CONST&3a;elab">ha</W>
 <W lemma="scegliere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:dobj">scelto</W>
 <W lemma="cinque" msd="AN" tag="ADJ" in="-1:dobj" out="1:attr">cinque</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">dei</W>
@@ -54,18 +54,18 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:loc" out="1:nobj">nel</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Lille</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
-<W lemma="coprire" msd="VADR" tag="VER&3a;futu" in="-39:+ELAB&3a;exp" out="-16:man|-7:subj|1:dobj|8:pnct">coprirà</W>
+<W lemma="coprire" msd="VADR" tag="VER&3a;futu" in="-39:+CONST&3a;elab" out="-16:man|-7:subj|1:dobj|8:pnct">coprirà</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="ruolo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|3:pobj|3:{arg}">ruolo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:nobj">di</W>
-<W lemma="libero" msd="AN" tag="ADJ" in="-1:nobj" out="7:ELAB&3a;exp">libero</W>
+<W lemma="libero" msd="AN" tag="ADJ" in="-1:nobj" out="7:CONST&3a;elab">libero</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:pobj|-3:{arg}" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Lars</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Olsen</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-7:ELAB&3a;exp" out="1:preds|27:pnct|33:+CONSOL&3a;just/ATTR">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-7:CONST&3a;elab" out="1:preds|27:pnct|33:+CONSOL&3a;source/ATTR">È</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="ruolo" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|4:relr">ruolo</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:ref|4:dobj" out="">che</W>
@@ -98,7 +98,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-33:+CONSOL&3a;just/ATTR" out="-1:pnct|1:preds|9:pnct|23:CONC/ATTR">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-33:+CONSOL&3a;source/ATTR" out="-1:pnct|1:preds|9:pnct|23:CONC/ATTR">È</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj|10:conj">un</W>
 <W lemma="ruolo" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|2:relr">ruolo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:dobj" out="">che</W>

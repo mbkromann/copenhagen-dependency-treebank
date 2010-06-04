@@ -6,7 +6,7 @@
 <W lemma="básicamente" msd="RG" tag="ADV" in="" out="">básicamente</W>
 <W lemma="querer" msd="VAD" tag="VLfin" in="" out="">quisieran</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="" out="">estar</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="forma" msd="NC" tag="NC" in="" out="">forma</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
@@ -29,7 +29,7 @@
 <s>
 <W lemma="ese" msd="" tag="DM" in="" out="">Eso</W>
 <W lemma="estar" msd="VAD" tag="VLfin" in="" out="">estaba</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="moda" msd="NC" tag="NC" in="" out="">moda</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="década" msd="NC" tag="NC" in="" out="">década</W>
@@ -46,10 +46,10 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <p>
 <s>
-<W lemma="sin" msd="SP" tag="PREP" in="" out="">sin</W>
+<W lemma="sin" msd="SP" tag="SCENE" in="" out="">sin</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="" out="">estar</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">desbordante</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="músculo" msd="NC" tag="NC" in="" out="">músculos</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -79,7 +79,7 @@
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="elegante" msd="AN" tag="ADJ" in="" out="">elegante</W>
 <W lemma="hombre" msd="NC" tag="NC" in="" out="">hombre</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="negocio" msd="NC" tag="NC" in="" out="">negocios</W>
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -88,7 +88,7 @@
 <W lemma="nosotros" msd="PP" tag="PPX" in="" out="">nos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">frecuenta</W>
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
-<W lemma="junto~con" msd="SP" tag="PREP" in="" out="">junto con</W>
+<W lemma="junto~con" msd="SP" tag="SCENE" in="" out="">junto con</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="director" msd="NC" tag="NC" in="" out="">director</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -103,7 +103,7 @@
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="dos" msd="AC" tag="CARD" in="" out="">Dos</W>
 <W lemma="hombre" msd="NC" tag="NC" in="" out="">hombres</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="mundo" msd="NC" tag="NC" in="" out="">mundo</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -159,17 +159,17 @@
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="enfocar" msd="VAF" tag="VLadj" in="" out="">enfocado</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="último" msd="AN" tag="ADJ" in="" out="">últimos</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="personaje" msd="NC" tag="NC" in="" out="">personajes</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="cuerpo" msd="NC" tag="NC" in="" out="">cuerpos</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <p>
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -201,7 +201,7 @@
 <W lemma="(" msd="XP" tag="LP" in="" out="">(</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="bailar" msd="VAF" tag="VLadj" in="" out="">Bailando</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lobos</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -214,12 +214,12 @@
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todos</W>
 <W lemma="parecer" msd="VAD" tag="VLfin" in="" out="">parecen</W>
 <W lemma="hombre" msd="NC" tag="NC" in="" out="">hombres</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="bien" msd="RG" tag="ADV" in="" out="">bien</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">De</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">De</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">toda</W>
 <W lemma="forma" msd="NC" tag="NC" in="" out="">forma</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -228,13 +228,13 @@
 <s>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="parecer" msd="VAD" tag="VLfin" in="" out="">parecen</W>
-<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="" out="">para</W>
 <W lemma="nada" msd="AN" tag="QU" in="" out="">nada</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
 <W lemma="modelo" msd="NC" tag="NC" in="" out="">modelo</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="cuerpo" msd="NC" tag="NC" in="" out="">cuerpo</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">80</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>

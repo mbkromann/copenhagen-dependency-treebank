@@ -40,7 +40,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="45:+CONSOL&3a;just/ATTR1">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="45:+CONSOL&3a;source/ATTR1">È</W>
 <W lemma="quanto" msd="RG" tag="ADV" in="" out="">quanto</W>
 <W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="" out="-28:¤qobj/ATTR1">sostiene</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
@@ -85,7 +85,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="VADR" tag="VER&3a;pres" in="" out="">Birte</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Weiss</W>
-<W lemma="portare" msd="VADR" tag="VER&3a;pres" in="-45:+CONSOL&3a;just/ATTR1" out="32:CONJ/(e)/ATTR1">porta</W>
+<W lemma="portare" msd="VADR" tag="VER&3a;pres" in="-45:+CONSOL&3a;source/ATTR1" out="32:CONJ/(e)/ATTR1">porta</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="" out="">esempio</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
@@ -141,7 +141,7 @@
 <W lemma="Hans" msd="NP" tag="NPR" in="" out="">Hans</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Stavnsager</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-24:+CONJ/(e)/ATTR2" out="16:+CAUSE&3a;expl/infatti/ATTR2|38:CONS&3a;dir/per_questo|109:+CONJ/(e)/ATTR2">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-24:+CONJ/(e)/ATTR2" out="16:+AGENTIVE&3a;expl/infatti/ATTR2|38:TELIC&3a;dir/per_questo|109:+CONJ/(e)/ATTR2">è</W>
 <W lemma="positivamente" msd="RG" tag="ADV" in="" out="">positivamente</W>
 <W lemma="sorprendere" msd="VAP" tag="VER&3a;pper" in="" out="">sorpreso</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dall'</W>
@@ -157,7 +157,7 @@
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="lungo" msd="AN" tag="ADJ" in="" out="">lungo</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="" out="">tempo</W>
-<W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="-16:+CAUSE&3a;expl/infatti/ATTR2" out="">sostiene</W>
+<W lemma="sostenere" msd="VADR" tag="VER&3a;pres" in="-16:+AGENTIVE&3a;expl/infatti/ATTR2" out="">sostiene</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="socialdemocratico" msd="NC" tag="NOM" in="" out="">Socialdemocratici</W>
@@ -179,7 +179,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questi</W>
 <W lemma="mese" msd="NC" tag="NOM" in="" out="">mesi</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-38:CONS&3a;dir/per_questo" out="37:&3a;ELAB&3a;exem/ATTR2">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-38:TELIC&3a;dir/per_questo" out="37:&3a;CONST&3a;exem/ATTR2">ha</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="" out="">portato</W>
 <W lemma="avanti" msd="RG" tag="ADV" in="" out="">avanti</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
@@ -216,7 +216,7 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-37:&3a;ELAB&3a;exem/ATTR2" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-37:&3a;CONST&3a;exem/ATTR2" out="">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="testo" msd="NC" tag="NOM" in="" out="">testo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>

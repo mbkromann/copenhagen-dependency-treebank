@@ -40,7 +40,7 @@
 <W lemma="ammontare" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ammontare</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-10:coref-var|-1:attr" out="1:nobj|34:coref-id">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-7:CONJ/(e)" out="-4:subj|1:vobj|28:pnct|35:ELAB&3a;exp">viene</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-7:CONJ/(e)" out="-4:subj|1:vobj|28:pnct|35:CONST&3a;elab">viene</W>
 <W lemma="calcolare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-5:[subj]|1:man">calcolato</W>
 <W lemma="considerare" msd="VAG" tag="VER&3a;geru" in="-1:man" out="1:dobj">considerando</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|4:pnct|5:conj|12:conj|17:conj">l'</W>
@@ -75,8 +75,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-34:coref-id|-1:pobj.dobj|-1:{patient}" out="1:nobj|35:coref-id">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">si</W>
-<W lemma="parte" msd="NC" tag="NOM" in="-35:ELAB&3a;exp" out="-1:subj|-6:bg|1:lobj|5:pnct|34:CONJ/(e)">parte</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:lobj" out="2:nobj|17:coref-id|20:ELAB&3a;exp&7c;DESCR&3a;qual">dalla</W>
+<W lemma="parte" msd="NC" tag="NOM" in="-35:CONST&3a;elab" out="-1:subj|-6:bg|1:lobj|5:pnct|34:CONJ/(e)">parte</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:lobj" out="2:nobj|17:coref-id|20:CONST&3a;elab&7c;DESCR&3a;qual">dalla</W>
 <W lemma="cosiddetto" msd="AN" tag="ADJ" in="1:attr" out="">cosiddetta</W>
 <W lemma="soglia" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">soglia</W>
 <W lemma="limite" msd="NC" tag="NOM" in="-1:attr" out="">limite</W>
@@ -96,7 +96,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-17:coref-id|3:subj|4:[subj]" out="1:nobj">la</W>
 <W lemma="soglia" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">soglia</W>
 <W lemma="limite" msd="NC" tag="NOM" in="-1:attr" out="">limite</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:ELAB&3a;exp&7c;DESCR&3a;qual" out="-15:time|-12:bg|-3:subj|1:vobj|8:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:CONST&3a;elab&7c;DESCR&3a;qual" out="-15:time|-12:bg|-3:subj|1:vobj|8:pnct">è</W>
 <W lemma="dare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:pobj">data</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dall'</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:attr">11,66%</W>
@@ -109,7 +109,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">1992</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-35:coref-id|2:subj" out="1:nobj">i</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
-<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="-34:CONJ/(e)" out="-2:subj|-4:time|1:dobj|16:pnct|17:+ELAB&3a;exp">costituiscono</W>
+<W lemma="costituire" msd="VADR" tag="VER&3a;pres" in="-34:CONJ/(e)" out="-2:subj|-4:time|1:dobj|16:pnct|17:+CONST&3a;elab">costituiscono</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:attr">93,33%</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">della</W>
@@ -126,7 +126,7 @@
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-4:coref|1:attr" out="">suo</W>
 <W lemma="affitto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">affitto</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
-<W lemma="importante" msd="AN" tag="ADJ" in="-17:+ELAB&3a;exp" out="1:pnct|33:vobj">Importante</W>
+<W lemma="importante" msd="AN" tag="ADJ" in="-17:+CONST&3a;elab" out="1:pnct|33:vobj">Importante</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-1:pnct" out="">:</W>
 <W lemma="se" msd="CS" tag="CON" in="31:cond" out="8:vobj|20:coref">se</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="7:subj" out="1:nobj">la</W>

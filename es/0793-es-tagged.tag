@@ -19,10 +19,10 @@
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="poner" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">poner</W>
 <W lemma="fin" msd="NC" tag="NC" in="" out="">fin</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="batalla" msd="NC" tag="NC" in="" out="">batalla</W>
-<W lemma="sobre" msd="SP" tag="PREP" in="" out="">sobre</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="" out="">sobre</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Bala</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hissar</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -30,7 +30,7 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="artillería" msd="NC" tag="NC" in="" out="">artillería</W>
 <W lemma="aéreo" msd="AN" tag="ADJ" in="" out="">aérea</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hekmatyar</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -40,12 +40,12 @@
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
 <W lemma="fuerza" msd="NC" tag="NC" in="" out="">fuerzas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hekmatyar</W>
 <W lemma="asaltar" msd="VAD" tag="VLfin" in="" out="">asaltaron</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="comisaría" msd="NC" tag="NC" in="" out="">comisaría</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="policía" msd="NC" tag="NC" in="" out="">policía</W>
 <W lemma="cercano" msd="AN" tag="ADJ" in="" out="">cercana</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
@@ -56,10 +56,10 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="parte" msd="NC" tag="NC" in="" out="">parte</W>
 <W lemma="sudeste" msd="NC" tag="NC" in="" out="">sudeste</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="ciudad" msd="NC" tag="NC" in="" out="">ciudad</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="misil" msd="NC" tag="NC" in="" out="">misiles</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -77,7 +77,7 @@
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="loma" msd="NC" tag="NC" in="" out="">loma</W>
 <W lemma="controlar" msd="VAF" tag="VLadj" in="" out="">controlada</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hekmatyar</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -91,7 +91,7 @@
 <W lemma="control" msd="NC" tag="NC" in="" out="">control</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W lemma="centro" msd="NC" tag="NC" in="" out="">centro</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kabul</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">pero</W>
@@ -112,7 +112,7 @@
 <W lemma="misil" msd="NC" tag="NC" in="" out="">misiles</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="casco" msd="NC" tag="NC" in="" out="">cascos</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="granada" msd="NC" tag="NC" in="" out="">granadas</W>
 <W lemma="volar" msd="VAD" tag="VLfin" in="" out="">volaban</W>
 <W lemma="en~torno~al" msd="SP" tag="PAL" in="" out="">en torno al</W>
@@ -126,7 +126,7 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">mayor</W>
 <W lemma="parte" msd="NC" tag="NC" in="" out="">parte</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="soldado" msd="NC" tag="NC" in="" out="">soldados</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
@@ -147,21 +147,21 @@
 <W lemma="al~mismo~tiempo" msd="RG" tag="ADV" in="" out="">Al mismo tiempo</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="caravana" msd="NC" tag="NC" in="" out="">caravana</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">51</W>
 <W lemma="miembro" msd="NC" tag="NC" in="" out="">miembros</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
 <W lemma="nuevo" msd="AN" tag="ADJ" in="" out="">nuevo</W>
 <W lemma="gobierno" msd="NC" tag="NC" in="" out="">gobierno</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="Afganistán" msd="NP" tag="NP" in="" out="">Afganistán</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="dirigir" msd="VAD" tag="VLfin" in="" out="">dirigía</W>
-<W lemma="desde" msd="SP" tag="PREP" in="" out="">desde</W>
+<W lemma="desde" msd="SP" tag="SCENE" in="" out="">desde</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="región" msd="NC" tag="NC" in="" out="">región</W>
 <W lemma="noreste" msd="AN" tag="ADJ" in="" out="">noreste</W>
-<W lemma="hacia" msd="SP" tag="PREP" in="" out="">hacia</W>
+<W lemma="hacia" msd="SP" tag="SCENE" in="" out="">hacia</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kabul</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -172,16 +172,16 @@
 <W lemma="caravana" msd="NC" tag="NC" in="" out="">caravana</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="componer" msd="VAF" tag="VLadj" in="" out="">compuesta</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="varios" msd="AN" tag="QU" in="" out="">varias</W>
 <W lemma="docena" msd="NC" tag="NC" in="" out="">docenas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="camión" msd="NC" tag="NC" in="" out="">camiones</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="coche" msd="NC" tag="NC" in="" out="">coches</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="custodiar" msd="VAF" tag="VLadj" in="" out="">custodiada</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="insurrecto" msd="AN" tag="ADJ" in="" out="">insurrectos</W>
 <W lemma="fuerte" msd="RG" tag="ADV" in="" out="">fuertemente</W>
 <W lemma="armar" msd="VAF" tag="VLadj" in="" out="">armados</W>
@@ -190,33 +190,33 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
 <W lemma="inseguro" msd="AN" tag="ADJ" in="" out="">inseguro</W>
 <W lemma="trayecto" msd="NC" tag="NC" in="" out="">trayecto</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">250</W>
 <W lemma="km" msd="NC" tag="UMMX" in="" out="">km</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">tortuosos</W>
 <W lemma="camino" msd="NC" tag="NC" in="" out="">caminos</W>
-<W lemma="desde" msd="SP" tag="PREP" in="" out="">desde</W>
+<W lemma="desde" msd="SP" tag="SCENE" in="" out="">desde</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="ciudad" msd="NC" tag="NC" in="" out="">ciudad</W>
 <W lemma="fronterizo" msd="AN" tag="ADJ" in="" out="">fronteriza</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Peshawar</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="Pakistán" msd="NP" tag="NP" in="" out="">Pakistán</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Kabul</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="ya~que" msd="CS" tag="CSUBF" in="" out="">ya que</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="distinto" msd="AN" tag="ADJ" in="" out="">distintas</W>
 <W lemma="sección" msd="NC" tag="NC" in="" out="">secciones</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="caravana" msd="NC" tag="NC" in="" out="">caravana</W>
 <W lemma="estar" msd="VAD" tag="VEfin" in="" out="">están</W>
 <W lemma="controlar" msd="VAF" tag="VLadj" in="" out="">controladas</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="grupo" msd="NC" tag="NC" in="" out="">grupos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">mujahedines</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">rivalizantes</W>

@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="due" msd="AN" tag="ADJ" in="" out="25:+ELAB&3a;part">Due</W>
+<W lemma="due" msd="AN" tag="ADJ" in="" out="25:+CONST&3a;apart">Due</W>
 <W lemma="calamita" msd="NC" tag="NOM" in="" out="">calamite</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
@@ -25,7 +25,7 @@
 <W lemma="francese" msd="AN" tag="ADJ" in="" out="">francese</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Place</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Clichy</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-25:+ELAB&3a;part" out="9:CONS&3a;prg">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-25:+CONST&3a;apart" out="9:TELIC&3a;sbj">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="locale" msd="AN" tag="ADJ" in="" out="">locale</W>
 <W lemma="elegante" msd="AN" tag="ADJ" in="" out="">elegante</W>
@@ -34,7 +34,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-9:CONS&3a;prg" out="29:+ELAB&3a;exp">Potrebbe</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-9:TELIC&3a;sbj" out="29:+CONST&3a;elab">Potrebbe</W>
 <W lemma="fare" msd="VAF" tag="VER&3a;infi" in="" out="">fare</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="sfondo" msd="NC" tag="NOM" in="" out="">sfondo</W>
@@ -63,7 +63,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="locale" msd="AN" tag="ADJ" in="" out="">locale</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-29:+ELAB&3a;exp" out="53:+CONC/tuttavia">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-29:+CONST&3a;elab" out="53:+CONC/tuttavia">è</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="famoso" msd="AN" tag="ADJ" in="" out="">famoso</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -116,7 +116,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Place</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Clichy</W>
-<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-53:+CONC/tuttavia" out="28:+ELAB&3a;exp">rappresenta</W>
+<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-53:+CONC/tuttavia" out="28:+CONST&3a;elab">rappresenta</W>
 <W lemma="tuttavia" msd="RG" tag="ADV" in="" out="">tuttavia</W>
 <W lemma="qualcosa" msd="PI" tag="PRO&3a;indef" in="" out="">qualcosa</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -144,7 +144,7 @@
 <W lemma="ragazza&7c;ragazzo" msd="NC" tag="NOM" in="" out="">ragazze</W>
 <W lemma="lascivo" msd="AN" tag="ADJ" in="" out="">lascive</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="creare" msd="VADR" tag="VER&3a;pres" in="-28:+ELAB&3a;exp" out="39:+ELAB&3a;exp">creano</W>
+<W lemma="creare" msd="VADR" tag="VER&3a;pres" in="-28:+CONST&3a;elab" out="39:+CONST&3a;elab">creano</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="cocktail" msd="NC" tag="NOM" in="" out="">cocktail</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -183,7 +183,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="serata" msd="NC" tag="NOM" in="" out="">serata</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-39:+ELAB&3a;exp" out="">deve</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-39:+CONST&3a;elab" out="">deve</W>
 <W lemma="iniziare" msd="VAF" tag="VER&3a;infi" in="" out="29:+CONJ">iniziare</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
@@ -202,7 +202,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:+PREPAR" out="">Polpettine</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="11:+SCENE" out="">Polpettine</W>
 <W lemma="piccante" msd="AN" tag="ADJ" in="" out="">piccanti</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
@@ -213,7 +213,7 @@
 <p>
 <s>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">Si</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-29:+CONJ" out="-11:+PREPAR">possono</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-29:+CONJ" out="-11:+SCENE">possono</W>
 <W lemma="gustare" msd="VAF" tag="VER&3a;infi" in="" out="">gustare</W>
 <W lemma="proseguire" msd="VAG" tag="VER&3a;geru" in="" out="">proseguendo</W>
 <W lemma="su" msd="SP" tag="PRE" in="" out="">su</W>

@@ -28,7 +28,7 @@
 <W lemma="umgehend" msd="AN" tag="ADJD" in="-5:time" out="">umgehend</W>
 <W lemma="Einspruch" msd="NC" tag="NN" in="-6:dobj" out="1:pobj">Einspruch</W>
 <W lemma="gegen" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">gegen</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|21:+ELAB&3a;part">das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|21:+CONST&3a;apart">das</W>
 <W lemma="Urteil" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.agent|1:{agent}">Urteil</W>
 <W lemma="vom" msd="SP+P" tag="APPRART" in="-1:pobj.agent|-1:{agent}" out="1:nobj">vom</W>
 <W lemma="Amtsgericht" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">Amtsgericht</W>
@@ -49,7 +49,7 @@
 <s>
 <W lemma="d" msd="P[ID]" tag="ART" in="-38:coref-id|2:subj" out="1:nobj">Der</W>
 <W lemma="Vorstandsvorsitzende" msd="NC" tag="NN" in="-1:nobj" out="">Vorstandsvorsitzende</W>
-<W lemma="bekommen" msd="VA" tag="VVFIN" in="-21:+ELAB&3a;part" out="-2:subj|1:dobj|14:reas|31:pnct|40:CONJ/(und)|56:+CAUSE&3a;reas/(weil)|93:+CONJ/(und)">bekam</W>
+<W lemma="bekommen" msd="VA" tag="VVFIN" in="-21:+CONST&3a;apart" out="-2:subj|1:dobj|14:reas|31:pnct|40:CONJ/(und)|56:+AGENTIVE&3a;reas/(weil)|93:+CONJ/(und)">bekam</W>
 <W lemma="1" msd="AC" tag="CARD" in="-1:dobj" out="1:numa|3:nobj|3:{apart}|5:conj">1</W>
 <W lemma="½" msd="XS" tag="XY" in="-1:numa" out="1:nobj">½</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahre</W>
@@ -105,7 +105,7 @@
 <p>
 <s>
 <W lemma="beide" msd="PP" tag="PIS" in="-106:coref|1:subj|2:[subj]|18:[subj]|20:[subj]" out="24:coref">Beide</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-56:+CAUSE&3a;reas/(weil)" out="-1:subj|1:vobj|2:pnct|20:pnct|22:CONJ/ausserdem">sind</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-56:+AGENTIVE&3a;reas/(weil)" out="-1:subj|1:vobj|2:pnct|20:pnct|22:CONJ/ausserdem">sind</W>
 <W lemma="anklagen" msd="VAP" tag="VVPP" in="-1:vobj" out="-2:[subj]|17:nobj">angeklagt</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-103:coref-var|14:iobj" out="1:nobj">der</W>
@@ -149,7 +149,7 @@
 <W lemma="Nil&7c;Nils" msd="NP" tag="NE" in="2:namef" out="1:namef">Nils</W>
 <W lemma="Erik" msd="NP" tag="NE" in="-1:namef" out="">Erik</W>
 <W lemma="Jensen" msd="NP" tag="NE" in="1:subj" out="-3:title|-2:namef">Jensen</W>
-<W lemma="machen" msd="VA" tag="VVFIN" in="-7:CONC/aber/ATTR" out="-1:subj|1:conc|2:dobj|5:pnct|16:pnct|45:+ELAB&3a;exem/(z.B.)/ATTR">machte</W>
+<W lemma="machen" msd="VA" tag="VVFIN" in="-7:CONC/aber/ATTR" out="-1:subj|1:conc|2:dobj|5:pnct|16:pnct|45:+CONST&3a;exem/(z.B.)/ATTR">machte</W>
 <W lemma="aber" msd="RG" tag="ADV" in="-1:conc" out="">aber</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="-2:dobj" out="1:nobj">kein</W>
 <W lemma="Hehl" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Hehl</W>
@@ -194,7 +194,7 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="-3:contr" out="-1:degr|-2:pnct|1:nobj|2:pnct">im</W>
 <W lemma="Gegenteil" msd="NC" tag="NN" in="-1:nobj" out="">Gegenteil</W>
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
-<W lemma="schieben" msd="VA" tag="VVFIN" in="-45:+ELAB&3a;exem/(z.B.)/ATTR" out="-22:qobj|1:subj|3:time|8:¹part|8:²pnct">schob</W>
+<W lemma="schieben" msd="VA" tag="VVFIN" in="-45:+CONST&3a;exem/(z.B.)/ATTR" out="-22:qobj|1:subj|3:time|8:¹part|8:²pnct">schob</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|-50:coref-id" out="1:nobj">der</W>
 <W lemma="Richter" msd="NC" tag="NN" in="-1:nobj" out="">Richter</W>
 <W lemma="in" msd="SP" tag="APPR" in="-3:time" out="1:nobj">in</W>

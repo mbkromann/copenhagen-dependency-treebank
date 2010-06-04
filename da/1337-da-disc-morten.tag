@@ -64,7 +64,7 @@
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-6:add" out="">også</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-8:pnct" out="">"</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="34:+ELAB&3a;exp/ATTR" out="-16:qobj|1:subj|7:mod|8:pobj|10:mod|24:pnct">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="34:+CONST&3a;elab/ATTR" out="-16:qobj|1:subj|7:mod|8:pobj|10:mod|24:pnct">siger</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--G==-" tag="NNP" in="-1:subj" out="1:possd|2:pnct|4:appa">Københavns</W>
 <W gloss="Police_Commissioner" lemma="politidirektør" msd="NCCSU==I" tag="NN" in="-1:possd" out="">politidirektør</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -98,7 +98,7 @@
 <W gloss="March" lemma="marts" msd="NCCSU==I" tag="NN" in="-2:mod" out="-1:attr">marts</W>
 <W gloss="On" lemma="om" msd="SP" tag="IN" in="-3:mod" out="1:nobj">om</W>
 <W gloss="the_evening" lemma="aften" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">aftenen</W>
-<W gloss="plundered" lemma="plyndre" msd="VADA=----A-" tag="VBD" in="" out="-5:mod|-34:+ELAB&3a;exp/ATTR|1:subj|6:dobj|10:pnct|11:mod|15:pnct|24:+ELAB&3a;exp|55:ELAB&3a;exp/ATTR|103:+ELAB&3a;exp">plyndrede</W>
+<W gloss="plundered" lemma="plyndre" msd="VADA=----A-" tag="VBD" in="" out="-5:mod|-34:+CONST&3a;elab/ATTR|1:subj|6:dobj|10:pnct|11:mod|15:pnct|24:+CONST&3a;elab|55:CONST&3a;elab/ATTR|103:+CONST&3a;elab">plyndrede</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="2:attr|3:attr|4:nobj">en</W>
 <W gloss="presumably" lemma="formentlig" msd="ANP---=-R" tag="JJ" in="1:epi" out="">formentlig</W>
 <W gloss="professional" lemma="professionel" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:epi">professionel</W>
@@ -122,7 +122,7 @@
 <W gloss="juicy" lemma="saftig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">saftige</W>
 <W gloss="chunks" lemma="luns" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:nobj">lunser</W>
 <W gloss="meat" lemma="kød" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">kød</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-24:+ELAB&3a;exp" out="-4:mod|1:subj|2:vobj|3:pnct|4:mod|24:pnct">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-24:+CONST&3a;elab" out="-4:mod|1:subj|2:vobj|3:pnct|4:mod|24:pnct">blev</W>
 <W gloss="guard_dogs" lemma="vagthund" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">vagthundene</W>
 <W gloss="passiviseret" lemma="passivisere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]">passiviseret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -153,7 +153,7 @@
 <s>
 <W gloss="Police_Commissioner" lemma="politidirektør" msd="NCCSU==I" tag="NN" in="2:title" out="">Politidirektør</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
-<W gloss="Eefsen" lemma="Eefsen" msd="NP--U==-" tag="NNP" in="-55:ELAB&3a;exp/ATTR" out="-1:namef|-2:title|1:pnct|8:list|14:pnct">Eefsen</W>
+<W gloss="Eefsen" lemma="Eefsen" msd="NP--U==-" tag="NNP" in="-55:CONST&3a;elab/ATTR" out="-1:namef|-2:title|1:pnct|8:list|14:pnct">Eefsen</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 </p>
@@ -201,7 +201,7 @@
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="six-seven" lemma="seks-syv" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">seks-syv</W>
 <W gloss="villa_break-ins" lemma="villaindbrud" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">villaindbrud</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-103:+ELAB&3a;exp" out="-4:mod|1:expl|2:mod|3:vobj|9:pnct|22:ELAB&3a;exem">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-103:+CONST&3a;elab" out="-4:mod|1:expl|2:mod|3:vobj|9:pnct|22:CONST&3a;exem">blev</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|2:[expl]" out="">der</W>
 <W gloss="totaling" lemma="tilsammen" msd="RGU" tag="RP" in="-2:mod" out="">tilsammen</W>
 <W gloss="stolen" lemma="stjæle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[expl]|1:pobj">stjålet</W>
@@ -223,7 +223,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="Holte" lemma="Holte" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Holte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="provided" lemma="give" msd="VADA=----A-" tag="VBD" in="-22:ELAB&3a;exem" out="-10:subj|1:accom|2:dobj|7:pnct|18:ELAB&3a;part|39:ELAB&3a;exp">gav</W>
+<W gloss="provided" lemma="give" msd="VADA=----A-" tag="VBD" in="-22:CONST&3a;exem" out="-10:subj|1:accom|2:dobj|7:pnct|18:CONST&3a;apart|39:CONST&3a;elab">gav</W>
 <W gloss="alone" lemma="alene" msd="RGU" tag="RP" in="-1:accom" out="">alene</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:nobj">et</W>
 <W gloss="haul" lemma="udbytte" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">udbytte</W>
@@ -241,7 +241,7 @@
 <W gloss="the_heist" lemma="kup" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:mod">kuppet</W>
 <W gloss="at" lemma="hos" msd="SP" tag="IN" in="-1:mod" out="1:nobj">hos</W>
 <W gloss="the_Police_Commissioner's" lemma="politichef" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">politichefen</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-18:ELAB&3a;part" out="-6:preds|1:mod|2:subj|14:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-18:CONST&3a;apart" out="-6:preds|1:mod|2:subj|14:pnct">var</W>
 <W gloss="especially" lemma="speciel" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">specielt</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:subj" out="1:nobj|4:pnct|5:ref|7:rel">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:attr|2:nobj">par</W>
@@ -262,7 +262,7 @@
 <W gloss="reporting" lemma="anmeldelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">anmeldelsen</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="insurance_company" lemma="forsikringsselskab" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">forsikringsselskabet</W>
-<W gloss="withdrew" lemma="opgive" msd="VADA=----A-" tag="VBD" in="-39:ELAB&3a;exp" out="-4:mod|2:subj|3:dobj|4:preds|9:pnct">opgav</W>
+<W gloss="withdrew" lemma="opgive" msd="VADA=----A-" tag="VBD" in="-39:CONST&3a;elab" out="-4:mod|2:subj|3:dobj|4:preds|9:pnct">opgav</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Eefsen" lemma="Eefsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Eefsen</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-3:dobj" out="">sig</W>

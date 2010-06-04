@@ -51,16 +51,16 @@
 <W lemma="europeo" msd="AN" tag="ADJ" in="-1:attrr#" out="">europeo</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-28:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-29:pnct" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-49:qobj|2:subj|3:pnct|9:+ELAB&3a;exem/p.es">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-49:qobj|2:subj|3:pnct|9:+CONST&3a;exem/p.es">dice</W>
 <W lemma="Peter" msd="NP" tag="NPR" in="1:namef" out="">Peter</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|137:+ELAB&3a;exp">Duetoft</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|137:+CONST&3a;elab">Duetoft</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">Si</W>
-<W lemma="riferire" msd="VADR" tag="VER&3a;pres" in="-9:+ELAB&3a;exem/p.es" out="-1:subj|3:pobj|35:pnct">riferisce</W>
+<W lemma="riferire" msd="VADR" tag="VER&3a;pres" in="-9:+CONST&3a;exem/p.es" out="-1:subj|3:pobj|35:pnct">riferisce</W>
 <W lemma="ad" msd="SP" tag="PRE" in="2:ex" out="1:nobj">ad</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="-1:nobj" out="">esempio</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-3:pobj" out="-2:ex|1:nobj">alla</W>
@@ -70,7 +70,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">B.T.</W>
 <W lemma="di" msd="SP" tag="PRE" in="-5:pobj.dobj|-5:{patient}" out="1:nobj">di</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|86:coref-id|88:+ELAB&3a;exp">una</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|86:coref-id|88:+CONST&3a;elab">una</W>
 <W lemma="direttiva" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}|4:ref|12:relr">direttiva</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="parlamento" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">Parlamento</W>
@@ -83,7 +83,7 @@
 <W lemma="salute" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">salute</W>
 <W lemma="pubblico" msd="AN" tag="ADJ" in="-1:attr" out="">pubblica</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="vietare" msd="VADR" tag="VER&3a;pres" in="-12:relr" out="-8:subj|-6:goal|1:iobj|4:dobj|19:CAUSE&3a;expl/(infatti)">vieta</W>
+<W lemma="vietare" msd="VADR" tag="VER&3a;pres" in="-12:relr" out="-8:subj|-6:goal|1:iobj|4:dobj|19:AGENTIVE&3a;expl/(infatti)">vieta</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:iobj" out="1:nobj|36:coref-var">ai</W>
 <W lemma="macello" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">macelli</W>
 <W lemma="privato" msd="AN" tag="ADJ" in="-1:attr" out="">privati</W>
@@ -102,7 +102,7 @@
 <W lemma="salute" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">salute</W>
 <W lemma="pubblico" msd="AN" tag="ADJ" in="-1:attr" out="">pubblica</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="corre" msd="VAF" tag="VER&3a;infi" in="-19:CAUSE&3a;expl/(infatti)" out="-4:subj|-1:neg|1:dobj|3:cond|10:pnct|20:conj|44:CONS&3a;dir/per_questo">corre</W>
+<W lemma="corre" msd="VAF" tag="VER&3a;infi" in="-19:AGENTIVE&3a;expl/(infatti)" out="-4:subj|-1:neg|1:dobj|3:cond|10:pnct|20:conj|44:TELIC&3a;dir/per_questo">corre</W>
 <W lemma="alcuno" msd="PI" tag="PRO&3a;indef" in="-1:dobj" out="1:nobj">alcun</W>
 <W lemma="pericolo" msd="NC" tag="NOM" in="-1:nobj" out="">pericolo</W>
 <W lemma="se" msd="PR" tag="PRO&3a;refl" in="-3:cond" out="1:vobj">se</W>
@@ -146,7 +146,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">dei</W>
 <W lemma="macello" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">macelli</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danesi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-44:CONS&3a;dir/per_questo" out="-7:cause|-5:subj|1:vobj|5:pnct">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-44:TELIC&3a;dir/per_questo" out="-7:cause|-5:subj|1:vobj|5:pnct">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:vobj">stata</W>
 <W lemma="costringere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:pobj">costretta</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
@@ -158,7 +158,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-86:coref-id|2:subj|3:[subj]" out="1:nobj">La</W>
 <W lemma="direttiva" msd="NC" tag="NOM" in="-1:nobj" out="">direttiva</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-88:+ELAB&3a;exp" out="-2:subj|1:vobj|15:conj">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-88:+CONST&3a;elab" out="-2:subj|1:vobj|15:conj">è</W>
 <W lemma="entrata" msd="NC" tag="NOM" in="-1:vobj" out="-3:[subj]|1:man|3:time">entrata</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:man" out="1:nobj">in</W>
 <W lemma="vigore" msd="NC" tag="NOM" in="-1:nobj" out="">vigore</W>
@@ -190,7 +190,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="23:coref-var">Duetoft</W>
-<W lemma="presentare" msd="VADR" tag="VER&3a;pres" in="-137:+ELAB&3a;exp" out="-1:subj|1:dobj|7:loc|18:pnct|36:ELAB&3a;exp">presenta</W>
+<W lemma="presentare" msd="VADR" tag="VER&3a;pres" in="-137:+CONST&3a;elab" out="-1:subj|1:dobj|7:loc|18:pnct|36:CONST&3a;elab">presenta</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="3:nobj">il</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="2:attr" out="">suo</W>
 <W lemma="controverso" msd="AN" tag="ADJ" in="1:attr" out="">controverso</W>
@@ -226,7 +226,7 @@
 <W lemma="parlamentare" msd="NC" tag="NOM" in="-1:nobj" out="1:attrr#">parlamentare</W>
 <W lemma="europeo" msd="AN" tag="ADJ" in="-1:attrr#" out="">europeo</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-36:ELAB&3a;exp" out="-14:subj|1:vobj|18:pnct">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-36:CONST&3a;elab" out="-14:subj|1:vobj|18:pnct">ha</W>
 <W lemma="scrivere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-15:[subj]|1:dobj|3:man|6:man">scritto</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj|-30:coref-id" out="1:nobj">il</W>
 <W lemma="libro" msd="NC" tag="NOM" in="-1:nobj" out="">libro</W>

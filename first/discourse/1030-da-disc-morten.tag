@@ -56,7 +56,7 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-5:pobj" out="2:nobj">til</W>
 <W gloss="Scottish" lemma="skotsk" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">skotske</W>
 <W gloss="Wolffstone's" lemma="Wolffstones" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:attr|30:¤elab">Wolffstones</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-10:vobj" out="-9:subj|1:preds|7:pnct|9:xpl|9:&3a;ELAB&3a;exp">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-10:vobj" out="-9:subj|1:preds|7:pnct|9:xpl|9:&3a;CONST&3a;elab">var</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="ta'" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:conj|3:pobj">ta'</W>
@@ -65,7 +65,7 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="">på</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-7:pnct" out="">:</W>
 <W gloss="maybe" lemma="måske" msd="RGU" tag="RP" in="1:epi" out="">Måske</W>
-<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-9:xpl|-9:&3a;ELAB&3a;exp" out="-1:epi|1:nobj">som</W>
+<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-9:xpl|-9:&3a;CONST&3a;elab" out="-1:epi|1:nobj">som</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="coming" lemma="komme" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir">komme</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:@dir" out="1:nobj|8:conj">fra</W>
@@ -167,7 +167,7 @@
 <W gloss="Singer" lemma="sanger" msd="NCCSU==D" tag="NN" in="3:subj" out="-1:add|2:appr">sangeren</W>
 <W gloss="Ivan" lemma="Ivan" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ivan</W>
 <W gloss="Drever" lemma="Drever" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef">Drever</W>
-<W gloss="stressed" lemma="understrege" msd="VADA=----A-" tag="VBD" in="-25:CONJ/også" out="-3:subj|1:dobj|5:man|26:pnct|32:+CONS&3a;prg/således">understregede</W>
+<W gloss="stressed" lemma="understrege" msd="VADA=----A-" tag="VBD" in="-25:CONJ/også" out="-3:subj|1:dobj|5:man|26:pnct|32:+TELIC&3a;sbj/således">understregede</W>
 <W gloss="the_line" lemma="linie" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:other">linien</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="2:nobj">til</W>
 <W gloss="Moving" lemma="Moving" msd="NP--U==-" tag="NNP" in="1:attr" out="">Moving</W>
@@ -199,7 +199,7 @@
 <p>
 <s>
 <W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:cons" out="">Således</W>
-<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-32:+CONS&3a;prg/således" out="-1:cons|1:subj|2:dobj|5:man|9:man|22:other|27:pnct|34:QUEST&amp;JOINT">trak</W>
+<W gloss="drew" lemma="trække" msd="VADA=----A-" tag="VBD" in="-32:+TELIC&3a;sbj/således" out="-1:cons|1:subj|2:dobj|5:man|9:man|22:other|27:pnct|34:QUEST&amp;JOINT">trak</W>
 <W gloss="the_music" lemma="musik" msd="NCCSU==D" tag="NN" in="-1:subj" out="">musikken</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-2:dobj" out="1:attr|2:possd">sin</W>
 <W gloss="multi-coloured" lemma="mangefarvet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">mangefarvede</W>

@@ -149,7 +149,7 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:attr" out="">nye</W>
 <W gloss="innovative" lemma="innovativ" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">innovative</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="1:subj" out="-2:attr|-1:attr">lægemidler</W>
-<W gloss="contribute" lemma="bidrage" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-1:subj|1:pobj|7:pnct|8:conc|38:+ELAB&3a;exem/(fx)">bidrager</W>
+<W gloss="contribute" lemma="bidrage" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-1:subj|1:pobj|7:pnct|8:conc|38:+CONST&3a;exem/(fx)">bidrager</W>
 <W gloss="toward" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="minimising" lemma="minimere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">minimere</W>
@@ -187,7 +187,7 @@
 <W gloss="good" lemma="god" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">godt</W>
 <W gloss="example" lemma="eksempel" msd="NCNSU==I" tag="NN" in="-2:nobj" out="1:pobj">eksempel</W>
 <W gloss="of_this" lemma="herpå" msd="RGU" tag="RP" in="-1:pobj" out="">herpå</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-38:+ELAB&3a;exem/(fx)" out="-4:subj|1:preds|6:pnct|15:ELAB&3a;exp">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-38:+CONST&3a;exem/(fx)" out="-4:subj|1:preds|6:pnct|15:CONST&3a;elab">er</W>
 <W gloss="marketing" lemma="markedsføring" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:pobj">markedsføring</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:pobj">lægemidler</W>
@@ -202,7 +202,7 @@
 <W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|2:pnct">blev</W>
 <W gloss="introduced" lemma="indføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]">indført</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="cost" lemma="koste" msd="VADA=----A-" tag="VBD" in="-15:ELAB&3a;exp" out="-6:mod|1:subj|5:mod|7:dobj|9:mod|17:pnct|24:CONTR&3a;dir/(men)">kostede</W>
+<W gloss="cost" lemma="koste" msd="VADA=----A-" tag="VBD" in="-15:CONST&3a;elab" out="-6:mod|1:subj|5:mod|7:dobj|9:mod|17:pnct|24:CONTR&3a;dir/(men)">kostede</W>
 <W gloss="treatment" lemma="behandling" msd="NCCSU==I" tag="NN" in="-1:subj" out="1:pobj">behandling</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>

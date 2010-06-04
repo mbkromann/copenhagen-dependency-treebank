@@ -47,7 +47,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="Nyborg" lemma="Nyborg" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Nyborg</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-4:time" out="">i_går</W>
-<W gloss="had" lemma="have" morph="have" msd="VADA=----A-" tag="VBD" in="" out="-6:time|4:subj|5:degr|6:vobj|25:pnct|33:+ELAB&3a;exp">havde</W>
+<W gloss="had" lemma="have" morph="have" msd="VADA=----A-" tag="VBD" in="" out="-6:time|4:subj|5:degr|6:vobj|25:pnct|33:+CONST&3a;elab">havde</W>
 <W gloss="national_coach" lemma="landstræner" morph="træner -[land]s/arg træne +r/PRED&3a;agent" msd="NCCSU==I" tag="NN" in="3:title" out="">landstræner</W>
 <W gloss="Richard" lemma="Richard" msd="NP--U==-" tag="NNP" in="2:namef" out="">Richard</W>
 <W gloss="Møller" lemma="Møller" msd="NP--U==-" tag="NNP" in="1:namel" out="">Møller</W>
@@ -80,7 +80,7 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:other" out="1:nobj">I</W>
 <W gloss="the_Brøndby_players" lemma="Brøndby-spiller" morph="spiller -Brøndby/arg spille +r/PRED&3a;agent spil +le/DER&3a;nv" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd|125:+CONJ/også">Brøndby-spillernes</W>
 <W gloss="absence" lemma="fravær" morph="være -fra/NEG&3a;priv" msd="NCNSU==I" tag="NN" in="-1:possd" out="">fravær</W>
-<W gloss="will_get" lemma="få" morph="få" msd="VADR=----A-" tag="VBD" in="-33:+ELAB&3a;exp" out="-3:other|2:subj|12:dobj|16:pnct">får</W>
+<W gloss="will_get" lemma="få" morph="få" msd="VADR=----A-" tag="VBD" in="-33:+CONST&3a;elab" out="-3:other|2:subj|12:dobj|16:pnct">får</W>
 <W gloss="Jakob" lemma="Jakob" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jakob</W>
 <W gloss="Friis-Hansen" lemma="Friis-Hansen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|5:rel">Friis-Hansen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -95,13 +95,13 @@
 <W gloss="Olsen's" lemma="Olsen" msd="NP--G==-" tag="NNP" in="-12:dobj" out="-1:namef|1:possd">Olsens</W>
 <W gloss="tjans" lemma="tjans" morph="tjans" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">tjans</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
-<W gloss="libero" lemma="libero" morph="libero" msd="NCCSU==I" tag="NN" in="-1:nobj" out="6:ELAB&3a;exp">libero</W>
+<W gloss="libero" lemma="libero" morph="libero" msd="NCCSU==I" tag="NN" in="-1:nobj" out="6:CONST&3a;elab">libero</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="that" lemma="den" msd="PD-CSU--U" tag="DT" in="5:dobj" out="1:nobj">Den</W>
 <W gloss="position" lemma="plads" morph="plads" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">plads</W>
-<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-6:ELAB&3a;exp" out="2:subj|3:vobj|24:pnct|31:+CONSOL&3a;just/ATTR">har</W>
+<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-6:CONST&3a;elab" out="2:subj|3:vobj|24:pnct|31:+CONSOL&3a;source/ATTR">har</W>
 <W gloss="Jakob" lemma="Jakob" msd="NP--U==-" tag="NNP" in="1:namef" out="">Jakob</W>
 <W gloss="Friis-Hansen" lemma="Friis-Hansen" msd="NP--U==-" tag="NNP" in="-2:subj|1:[subj]" out="-1:namef">Friis-Hansen</W>
 <W gloss="played" lemma="spille" morph="spil +le/DER&3a;nv" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-1:[subj]|-5:dobj|1:@loc|3:other">spillet</W>
@@ -132,7 +132,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-31:+CONSOL&3a;just/ATTR" out="-1:subj|-2:pnct|1:preds|21:pnct|25:CONC/(omend)/ATTR">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-31:+CONSOL&3a;source/ATTR" out="-1:subj|-2:pnct|1:preds|21:pnct|25:CONC/(omend)/ATTR">er</W>
 <W gloss="position_the" lemma="plads" morph="plads" msd="NCCSU==D" tag="NN" in="-1:preds" out="1:pnct|3:rel|11:conj">pladsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>

@@ -200,7 +200,7 @@
 <p>
 <s>
 <W gloss="THERE" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">DER</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:+CONJ/(og)" out="-1:expl|1:dobj|6:preds|8:pnct|14:+ELAB&3a;exem">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-8:+CONJ/(og)" out="-1:expl|1:dobj|6:preds|8:pnct|14:+CONST&3a;exem">er</W>
 <W gloss="much" lemma="meget" morph="meget" msd="ANP---=-R" tag="JJ" in="-1:dobj" out="1:nobj">meget</W>
 <W gloss="more" lemma="meget" morph="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-1:nobj" out="1:pobj">mere</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -214,7 +214,7 @@
 <p>
 <s>
 <W gloss="WE" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">VI</W>
-<W gloss="quote" lemma="citere" morph="citere" msd="VADR=----A-" tag="VBD" in="-14:+ELAB&3a;exem" out="-1:subj|1:dobj|4:pnct|13:&3a;ELAB&3a;exp/ATTR">citerer</W>
+<W gloss="quote" lemma="citere" morph="citere" msd="VADR=----A-" tag="VBD" in="-14:+CONST&3a;exem" out="-1:subj|1:dobj|4:pnct|13:&3a;CONST&3a;elab/ATTR">citerer</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="final" lemma="sidste" morph="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">sidste</W>
 <W gloss="reprimand" lemma="opsang" morph="sang -op/SPEC&3a;term synge sang/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">opsang</W>
@@ -227,7 +227,7 @@
 <W gloss="ROCK_MUSIC" lemma="rockmusik" morph="musik -rock/func" msd="NCCSU==I" tag="NN" in="3:subj" out="1:loc">ROCKMUSIK</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
-<W gloss="is_defined" lemma="definere" morph="definere" msd="VADR=----P-" tag="VBD" in="-13:&3a;ELAB&3a;exp/ATTR" out="-3:subj|-4:pnct|1:pobj|29:pnct|35:CONS&3a;prg/altså/ATTR">defineres</W>
+<W gloss="is_defined" lemma="definere" morph="definere" msd="VADR=----P-" tag="VBD" in="-13:&3a;CONST&3a;elab/ATTR" out="-3:subj|-4:pnct|1:pobj|29:pnct|35:TELIC&3a;sbj/altså/ATTR">defineres</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">ved</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|17:rel">det</W>
 <W gloss="name" lemma="navn" morph="nævne navn/PRED&3a;other" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">navn</W>
@@ -262,7 +262,7 @@
 <W gloss="C." lemma="C." msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">C.</W>
 <W gloss="V." lemma="V." msd="NP--U==-" tag="NNP" in="-1:namef" out="">V.</W>
 <W gloss="Jørgensen" lemma="Jørgensen" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef">Jørgensen</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-35:CONS&3a;prg/altså/ATTR" out="-1:subj|1:eval|2:preds|5:pnct|8:¤contr&3a;dir">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-35:TELIC&3a;sbj/altså/ATTR" out="-1:subj|1:eval|2:preds|5:pnct|8:¤contr&3a;dir">er</W>
 <W gloss="Thus" lemma="altså" msd="RGU" tag="RP" in="-1:eval" out="">altså</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
 <W gloss="lousy" lemma="lousy" morph="lousy" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">lousy</W>

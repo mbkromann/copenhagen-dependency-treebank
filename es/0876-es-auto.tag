@@ -12,64 +12,64 @@
 <W lemma="2" msd="AC" tag="CARD" in="" out="">2</W>
 <W lemma="yema" msd="NC" tag="NC" in="" out="">yemas</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="1" msd="AC" tag="CARD" in="" out="">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cucharada</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">azúcar</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cucharilla</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">azúcar</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="vaina&7c;vainilla" msd="NC" tag="NC" in="" out="">vainilla</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="pizcar" msd="VAD" tag="VLfin" in="" out="">pizca</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="sal" msd="NC" tag="NC" in="" out="">sal</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="mezclar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Mezclar</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="1" msd="AC" tag="CARD" in="" out="">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">dl</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="agua" msd="NC" tag="NC" in="" out="">agua</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="agregar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Agregar</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">125</W>
 <W lemma="g" msd="XS" tag="ALFS" in="" out="">g</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="harina" msd="NC" tag="NC" in="" out="">harina</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="trigo" msd="NC" tag="NC" in="" out="">trigo</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">½</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cucharilla</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="levadura" msd="NC" tag="NC" in="" out="">levadura</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="polvo" msd="NC" tag="NC" in="" out="">polvo</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">50</W>
 <W lemma="g" msd="XS" tag="ALFS" in="" out="">g</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="avellana" msd="NC" tag="NC" in="" out="">avellanas</W>
 <W lemma="picar" msd="VAF" tag="VLadj" in="" out="">picadas</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="trozo" msd="NC" tag="NC" in="" out="">trozos</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="batir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">batir</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
-<W lemma="junto~con" msd="SP" tag="PREP" in="" out="">junto con</W>
+<W lemma="junto~con" msd="SP" tag="SCENE" in="" out="">junto con</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="masa" msd="NC" tag="NC" in="" out="">masa</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="huevo" msd="NC" tag="NC" in="" out="">huevo</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
-<W lemma="hasta" msd="SP" tag="PREP" in="" out="">hasta</W>
+<W lemma="hasta" msd="SP" tag="SCENE" in="" out="">hasta</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">esté</W>
@@ -77,10 +77,10 @@
 <W lemma="mezclar" msd="VAF" tag="VLadj" in="" out="">mezclado</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="revolver" msd="NC" tag="NC" in="" out="">Revolver</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">125</W>
 <W lemma="g" msd="XS" tag="ALFS" in="" out="">g</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="manteca&7c;mantequilla" msd="NC" tag="NC" in="" out="">mantequilla</W>
 <W lemma="templar" msd="VAF" tag="VLadj" in="" out="">templada</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
@@ -94,7 +94,7 @@
 <W lemma="agregar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Agregar</W>
 <W lemma="1" msd="AC" tag="CARD" in="" out="">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">dl</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="nata" msd="NC" tag="NC" in="" out="">nata</W>
 <W lemma="batir" msd="VAF" tag="VLadj" in="" out="">batida</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -119,7 +119,7 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="masa" msd="NC" tag="NC" in="" out="">masa</W>
 <W lemma="antes" msd="RG" tag="ADV" in="" out="">antes</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">barquillos</W>
@@ -136,14 +136,14 @@
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">está</W>
 <W lemma="cubrir" msd="VAF" tag="VLadj" in="" out="">cubierto</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">teflón</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
 <W lemma="necesario" msd="AN" tag="ADJ" in="" out="">necesario</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">pincelarlo</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="grasa" msd="NC" tag="NC" in="" out="">grasa</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="aparte" msd="RG" tag="ADV" in="" out="">aparte</W>
@@ -157,9 +157,9 @@
 <W lemma="aproximadamente" msd="RG" tag="ADV" in="" out="">aproximadamente</W>
 <W lemma="1" msd="AC" tag="CARD" in="" out="">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">dl</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="masa" msd="NC" tag="NC" in="" out="">masa</W>
-<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="" out="">para</W>
 <W lemma="cada" msd="AN" tag="QU" in="" out="">cada</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">barquillo</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -174,7 +174,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">horneados</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="servir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">Servir</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="fresa" msd="NC" tag="NC" in="" out="">fresas</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="" out="">frescas</W>
 <W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
@@ -186,7 +186,7 @@
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Sábado</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Paleta</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="cordero" msd="NC" tag="NC" in="" out="">cordero</W>
 <W lemma="rellenar" msd="VAD" tag="VLfin" in="" out="">rellena</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>

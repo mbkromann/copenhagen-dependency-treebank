@@ -15,15 +15,15 @@
 </p>
 <p>
 <s>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">Por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">Por</W>
 <W lemma="ese" msd="" tag="DM" in="" out="">eso</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="pareja" msd="NC" tag="NC" in="" out="">pareja</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="reciente|recién" msd="RG" tag="ADV" in="" out="">recién</W>
 <W lemma="prometido" msd="NC" tag="NC" in="" out="">prometidos</W>
 <W lemma="componer" msd="VAF" tag="VLadj" in="" out="">compuesta</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lone</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Dybkjær</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -39,13 +39,13 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Rasmussen</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="ir" msd="VAD" tag="VLfin" in="" out="">va</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="tener~que" msd="VAF" tag="VMinf" in="" out="">tener que</W>
 <W lemma="olvidar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">olvidarse</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="política" msd="NC" tag="NC" in="" out="">política</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="hora" msd="NC" tag="NC" in="" out="">hora</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
@@ -65,7 +65,7 @@
 <W lemma="dar" msd="VAD" tag="VLfin" in="" out="">da</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Jytte</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Hilden</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
 <W lemma="amigo" msd="NC" tag="NC" in="" out="">amiga</W>
 <W lemma="íntimo" msd="AN" tag="ADJ" in="" out="">íntima</W>
@@ -80,10 +80,10 @@
 <W lemma="cinco" msd="AC" tag="CARD" in="" out="">cinco</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
 <W lemma="casar" msd="VAF" tag="VLadj" in="" out="">casada</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
 <W lemma="compañero" msd="NC" tag="NC" in="" out="">compañero</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="partido" msd="NC" tag="NC" in="" out="">partido</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
@@ -97,26 +97,26 @@
 <s>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="" out="">Si</W>
-<W lemma="durante" msd="SP" tag="PREP" in="" out="">durante</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="" out="">durante</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="día" msd="NC" tag="NC" in="" out="">día</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">os</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">tiráis</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">trastos</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="cabeza" msd="NC" tag="NC" in="" out="">cabeza</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="debatir" msd="VAD" tag="VLfin" in="" out="">debates</W>
 <W lemma="político" msd="NC" tag="NC" in="" out="">políticos</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="causa" msd="NC" tag="NC" in="" out="">causa</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandes</W>
 <W lemma="diferencia" msd="NC" tag="NC" in="" out="">diferencias</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="opinión" msd="NC" tag="NC" in="" out="">opinión</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="estar" msd="VAD" tag="VEfin" in="" out="">está</W>
@@ -139,10 +139,10 @@
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="saltar" msd="VAD" tag="VLfin" in="" out="">salta</W>
 <W lemma="directamente" msd="RG" tag="ADV" in="" out="">directamente</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="cama" msd="NC" tag="NC" in="" out="">cama</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="matrimonio" msd="NC" tag="NC" in="" out="">matrimonio</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="esto~es" msd="RG" tag="ADV" in="" out="">esto es</W>
@@ -154,7 +154,7 @@
 <W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="">hay que</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="" out="">ser</W>
 <W lemma="consciente" msd="AN" tag="ADJ" in="" out="">consciente</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ello</W>
 <W lemma="&quot;" msd="XP" tag="QT" in="" out="">"</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -168,12 +168,12 @@
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
 <W lemma="pareja" msd="NC" tag="NC" in="" out="">parejas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="político" msd="NC" tag="NC" in="" out="">políticos</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="ser" msd="VAF" tag="VS" in="" out="">sido</W>
 <W lemma="amigo" msd="AN" tag="ADJ" in="" out="">amigos</W>
-<W lemma="durante" msd="SP" tag="PREP" in="" out="">durante</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="" out="">durante</W>
 <W lemma="mucho" msd="AN" tag="QU" in="" out="">muchos</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -186,7 +186,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Dybkjær</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
 <W lemma="amigo" msd="AN" tag="ADJ" in="" out="">amigas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="infancia" msd="NC" tag="NC" in="" out="">infancia</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -200,9 +200,9 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">han</W>
 <W lemma="ser" msd="VAF" tag="VS" in="" out="">sido</W>
 <W lemma="amigo" msd="AN" tag="ADJ" in="" out="">amigos</W>
-<W lemma="durante" msd="SP" tag="PREP" in="" out="">durante</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="" out="">durante</W>
 <W lemma="más" msd="RG" tag="ADV" in="" out="">más</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">25</W>
 <W lemma="año" msd="NC" tag="NC" in="" out="">años</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -210,7 +210,7 @@
 </p>
 <p>
 <s>
-<W lemma="hasta" msd="SP" tag="PREP" in="" out="">Hasta</W>
+<W lemma="hasta" msd="SP" tag="SCENE" in="" out="">Hasta</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">sus</W>
 <W lemma="carrera" msd="NC" tag="NC" in="" out="">carreras</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
@@ -227,7 +227,7 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="hombre" msd="NC" tag="NC" in="" out="">hombres</W>
 <W lemma="licenciado" msd="AN" tag="ADJ" in="" out="">licenciados</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="ciencia" msd="NC" tag="NC" in="" out="">ciencias</W>
 <W lemma="político" msd="AN" tag="ADJ" in="" out="">políticas</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>

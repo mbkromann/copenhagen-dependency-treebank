@@ -41,11 +41,11 @@
 <W lemma="Kranke" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Kranken</W>
 <W lemma="liegen" msd="VA" tag="VVFIN" in="" out="-4:subj|1:loc|4:pnct">liegen</W>
 <W lemma="in" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">in</W>
-<W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|4:coref-part">ihren</W>
+<W lemma="ihr" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd|4:assoc-const">ihren</W>
 <W lemma="Zelt&7c;Zelten" msd="NC" tag="NN" in="-1:possd" out="">Zelten</W>
 <W lemma="." msd="XP" tag="$." in="-4:pnct" out="">.</W>
 <W lemma="bei" msd="SP" tag="APPR" in="4:bg" out="1:nobj">Bei</W>
-<W lemma="de" msd="NP" tag="NE" in="-1:nobj|-4:coref-part" out="2:nobj">de</W>
+<W lemma="de" msd="NP" tag="NE" in="-1:nobj|-4:assoc-const" out="2:nobj">de</W>
 <W lemma="grün" msd="AN" tag="ADJA" in="1:attr" out="">grünen</W>
 <W lemma="Zelt&7c;Zelten" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Zelten</W>
 <W lemma="handeln" msd="VA" tag="VVFIN" in="" out="-4:bg|1:subj|2:robj|3:pobj|17:pnct">handelt</W>

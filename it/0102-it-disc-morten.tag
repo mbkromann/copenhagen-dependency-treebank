@@ -3,7 +3,7 @@
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">Ad</W>
 <W lemma="intero" msd="AN" tag="ADJ" in="" out="">intere</W>
 <W lemma="generazione" msd="NC" tag="NOM" in="" out="">generazioni</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="17:CONTR&3a;prg/(ma)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="17:CONTR&3a;sbj/(ma)">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="inculcare" msd="VAP" tag="VER&3a;pper" in="" out="">inculcato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -20,7 +20,7 @@
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="altro" msd="PI" tag="PRO&3a;indef" in="" out="">altre</W>
 <W lemma="no." msd="XA" tag="ABR" in="" out="">no.</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-17:CONTR&3a;prg/(ma)" out="74:CAUSE&3a;reas/perché">Sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-17:CONTR&3a;sbj/(ma)" out="74:AGENTIVE&3a;reas/perché">Sarebbe</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="senz'" msd="SP" tag="PRE" in="" out="">senz'</W>
 <W lemma="altro" msd="PI" tag="PRO&3a;indef" in="" out="">altro</W>
@@ -94,7 +94,7 @@
 <W lemma="nessuno" msd="AN" tag="ADJ" in="" out="">nessuno</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="" out="">noi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-74:CAUSE&3a;reas/perché" out="11:CAUSE&3a;expl/(infatti)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-74:AGENTIVE&3a;reas/perché" out="11:AGENTIVE&3a;expl/(infatti)">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="intellettuale" msd="AN" tag="ADJ" in="" out="">intellettuale</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">ventiquattr'</W>
@@ -105,7 +105,7 @@
 </s>
 <s>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="" out="">Tutti</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl/(infatti)" out="26:+CONC/(però)">abbiamo</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl/(infatti)" out="26:+CONC/(però)">abbiamo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="diritto" msd="NC" tag="NOM" in="" out="">diritto</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -169,7 +169,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-38:DESCR&3a;eval" out="11:+CAUSE&3a;reas&7c;expl">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-38:DESCR&3a;eval" out="11:+AGENTIVE&3a;reas&7c;expl">È</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="" out="">cosa</W>
 <W lemma="triste&7c;tristo" msd="AN" tag="ADJ" in="" out="">triste</W>
@@ -180,7 +180,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">I</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="" out="">tempi</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-11:+CAUSE&3a;reas&7c;expl" out="">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-11:+AGENTIVE&3a;reas&7c;expl" out="">sono</W>
 <W lemma="maturo" msd="AN" tag="ADJ" in="" out="">maturi</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="parlare" msd="VAF" tag="VER&3a;infi" in="" out="">parlare</W>

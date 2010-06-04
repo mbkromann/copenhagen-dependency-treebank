@@ -6,10 +6,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Elise</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Gug</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="" out="28:CAUSE&3a;expl/infatti">trova</W>
+<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="" out="28:AGENTIVE&3a;expl/infatti">trova</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nel</W>
 <W lemma="cuore" msd="NC" tag="NOM" in="" out="">cuore</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="84:+ELAB&3a;exp">dell'</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="84:+CONST&3a;elab">dell'</W>
 <W lemma="appartamento" msd="NC" tag="NOM" in="" out="">appartamento</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="famiglia" msd="NC" tag="NOM" in="" out="">famiglia</W>
@@ -34,7 +34,7 @@
 <s>
 <W lemma="eliso" msd="AN" tag="ADJ" in="" out="">Elise</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Gug</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-28:CAUSE&3a;expl/infatti" out="28:+ELAB&3a;exp/ATTR">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-28:AGENTIVE&3a;expl/infatti" out="28:+CONST&3a;elab/ATTR">ha</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="" out="">infatti</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
@@ -62,7 +62,7 @@
 <W lemma="-" msd="XP" tag="PON" in="" out="">-</W>
 <W lemma="per" msd="CS" tag="CON" in="" out="">Per</W>
 <W lemma="me" msd="PP" tag="PRO&3a;pers" in="" out="">me</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:+ELAB&3a;exp/ATTR" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:+CONST&3a;elab/ATTR" out="">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="piacere" msd="NC" tag="NOM" in="" out="">piacere</W>
 <W lemma="immenso" msd="AN" tag="ADJ" in="" out="">immenso</W>
@@ -93,7 +93,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">L'</W>
 <W lemma="appartamento" msd="NC" tag="NOM" in="" out="">appartamento</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-84:+ELAB&3a;exp" out="46:DESCR&3a;qual&7c;ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-84:+CONST&3a;elab" out="46:DESCR&3a;qual&7c;CONST&3a;elab">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="ricavare" msd="VAP" tag="VER&3a;pper" in="" out="">ricavato</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -139,7 +139,7 @@
 <W lemma="sommo" msd="AN" tag="ADJ" in="" out="">sommo</W>
 <W lemma="gusto" msd="NC" tag="NOM" in="" out="">gusto</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="brulicare" msd="VADR" tag="VER&3a;pres" in="-46:DESCR&3a;qual&7c;ELAB&3a;exp" out="41:+CONJ/anche">brulica</W>
+<W lemma="brulicare" msd="VADR" tag="VER&3a;pres" in="-46:DESCR&3a;qual&7c;CONST&3a;elab" out="41:+CONJ/anche">brulica</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="" out="">bambini</W>
 <W lemma="(" msd="XP" tag="PON" in="" out="">(</W>

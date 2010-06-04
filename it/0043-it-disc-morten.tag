@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="incontro" msd="NC" tag="NOM" in="9:+PREPAR" out="">INCONTRO</W>
+<W lemma="incontro" msd="NC" tag="NOM" in="9:+SCENE" out="">INCONTRO</W>
 <W lemma="doppio" msd="AN" tag="ADJ" in="" out="">DOPPIO</W>
 </s>
 </p>
@@ -9,7 +9,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">La</W>
 <W lemma="stagione" msd="NC" tag="NOM" in="" out="">stagione</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-9:+PREPAR|41:+ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-9:+SCENE|41:+CONST&3a;elab">è</W>
 <W lemma="aperto" msd="AN" tag="ADJ" in="" out="">aperta</W>
 <W lemma="come" msd="CS" tag="CON" in="" out="">come</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
@@ -50,7 +50,7 @@
 <W lemma="dieci" msd="NC" tag="NOM" in="" out="">dieci</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Superliga</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-41:+ELAB&3a;exp" out="60:+CONJ/(e)&7c;TIME&3a;succ">devono</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-41:+CONST&3a;elab" out="60:+CONJ/(e)&7c;TIME&3a;succ">devono</W>
 <W lemma="incontrare" msd="VAF" tag="VER&3a;infi" in="" out="">incontrarsi</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="volta" msd="NC" tag="NOM" in="" out="">volte</W>
@@ -132,7 +132,7 @@
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="torneo" msd="NC" tag="NOM" in="" out="">torneo</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="" out="31:+CONS&3a;dir/(quindi)&7c;CONJ/(e)">dovrà</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="" out="31:+TELIC&3a;dir/(quindi)&7c;CONJ/(e)">dovrà</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="" out="">essere</W>
 <W lemma="ribaltare" msd="VAP" tag="VER&3a;pper" in="" out="">ribaltato</W>
 <W lemma="così" msd="RG" tag="ADV" in="" out="">così</W>
@@ -163,7 +163,7 @@
 <W lemma="vincitore" msd="NC" tag="NOM" in="" out="">vincitori</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="campionato" msd="NC" tag="NOM" in="" out="">campionato</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-31:+CONS&3a;dir/(quindi)&7c;CONJ/(e)" out="57:+CONJ/(e)">saranno</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;futu" in="-31:+TELIC&3a;dir/(quindi)&7c;CONJ/(e)" out="57:+CONJ/(e)">saranno</W>
 <W lemma="nominare" msd="VAP" tag="VER&3a;pper" in="" out="">nominati</W>
 <W lemma="già" msd="RG" tag="ADV" in="" out="">già</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
@@ -220,7 +220,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadre</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-57:+CONJ/(e)" out="20:+CONS&3a;dir/quindi">sarebbero</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-57:+CONJ/(e)" out="20:+TELIC&3a;dir/quindi">sarebbero</W>
 <W lemma="escludere" msd="VAP" tag="VER&3a;pper" in="" out="">escluse</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dalla</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Superliga</W>
@@ -240,7 +240,7 @@
 <W lemma="piazzamento" msd="NC" tag="NOM" in="" out="">piazzamento</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dall'</W>
 <W lemma="autunno" msd="NC" tag="NOM" in="" out="">autunno</W>
-<W lemma="giocare" msd="VA" tag="VER&3a;cond" in="-20:+CONS&3a;dir/quindi" out="">giocherebbero</W>
+<W lemma="giocare" msd="VA" tag="VER&3a;cond" in="-20:+TELIC&3a;dir/quindi" out="">giocherebbero</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Coppa</W>

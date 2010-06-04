@@ -80,7 +80,7 @@
 <W gloss="cost" lemma="koste" morph="koste" msd="VADA=----A-" tag="VBD" in="-18:conj" out="-2:time|-3:coord|1:subj|2:iobj|11:dobj|16:pnct">kostede</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="16:nobj">det</W>
 <W gloss="the_Liberal_Party" lemma="venstre" morph="venstre" msd="NCNSG==I" tag="NN" in="-2:iobj|2:{arg}" out="1:attr|2:possd|3:pnct|7:appa">Venstres</W>
-<W gloss="at_that_time" lemma="daværende" morph="være +nde/DEVERB&3a;act.pure -da/TIME&3a;prec" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">daværende</W>
+<W gloss="at_that_time" lemma="daværende" morph="være +nde/DEVERB&3a;act.pure -da/TIME&3a;pre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">daværende</W>
 <W gloss="leader" lemma="leder" morph="lede +r/PRED&3a;agent" msd="NCCSU==I" tag="NN" in="-2:possd" out="-2:{arg}">leder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="former" lemma="tidligere" morph="tid +lig/DENOM&3a;rel.norm" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:attr" out="">tidl.</W>

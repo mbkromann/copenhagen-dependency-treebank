@@ -33,7 +33,7 @@
 <W lemma="?" msd="XP" tag="SENT" in="-2:pnct" out="">?</W>
 <W lemma="sì" msd="RG" tag="ADV" in="3:qobj" out="1:pnct|2:nobj">Sì</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj|-15:coref-id" out="11:assoc-loc">Berlino-</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj|-15:coref-id" out="11:assoc-formal.loc">Berlino-</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-3:qobj|1:subj|3:pnct">dice</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="caporedattore" msd="NC" tag="NOM" in="-1:nobj" out="">caporedattore</W>
@@ -44,7 +44,7 @@
 <W lemma="scrivere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-3:[subj]|2:dobj">scritto</W>
 <W lemma="magnifico" msd="AN" tag="ADJ" in="1:attr" out="">magnifici</W>
 <W lemma="articolo" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj|1:{arg}">articoli</W>
-<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-11:assoc-loc|-1:pobj|-1:{arg}" out="1:nobj|11:coref">sulla</W>
+<W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-11:assoc-formal.loc|-1:pobj|-1:{arg}" out="1:nobj|11:coref">sulla</W>
 <W lemma="repubblica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Repubblica</W>
 <W lemma="federale" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">Federale</W>
 <W lemma="tedesco" msd="AN" tag="ADJ" in="-1:attr" out="">Tedesca</W>

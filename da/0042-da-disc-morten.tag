@@ -82,7 +82,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="aim" lemma="satse" morph="satse" msd="VADR=----A-" tag="VBD" in="45:qobj" out="-1:subj|-2:pnct|1:pobj|15:pnct|23:+ELAB&3a;exp&7c;CAUSE&3a;expl/ATTR">satser</W>
+<W gloss="aim" lemma="satse" morph="satse" msd="VADR=----A-" tag="VBD" in="45:qobj" out="-1:subj|-2:pnct|1:pobj|15:pnct|23:+CONST&3a;elab&7c;AGENTIVE&3a;expl/ATTR">satser</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="use" lemma="bruge" morph="bruge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|4:pobj">bruge</W>
@@ -105,7 +105,7 @@
 <W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">En</W>
 <W gloss="sensible" lemma="fornuftig" morph="fornuft +ig/DENOM&3a;eff" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">fornuftig</W>
 <W gloss="Finance_Act" lemma="finanslov" morph="lov -finans/about" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">finanslov</W>
-<W gloss="can" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-23:+ELAB&3a;exp&7c;CAUSE&3a;expl/ATTR" out="-3:subj|1:vobj|21:pnct">skal</W>
+<W gloss="can" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-23:+CONST&3a;elab&7c;AGENTIVE&3a;expl/ATTR" out="-3:subj|1:vobj|21:pnct">skal</W>
 <W gloss="lead" lemma="føre" morph="føre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:pobj">føre</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">til</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -204,7 +204,7 @@
 <p>
 <s>
 <W gloss="REDUCED" lemma="nedsætte" morph="sætte -ned/TRANS" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">NEDSAT</W>
-<W gloss="VAT" lemma="moms" morph="meromsætningsafgift /OTHER" msd="NCCSU==I" tag="NN" in="32:+PREPAR" out="-1:attr">MOMS</W>
+<W gloss="VAT" lemma="moms" morph="meromsætningsafgift /OTHER" msd="NCCSU==I" tag="NN" in="32:+SCENE" out="-1:attr">MOMS</W>
 </s>
 </p>
 <p>
@@ -236,7 +236,7 @@
 <W gloss="fees" lemma="afgift" morph="give -af/ASPEC&3a;term -ft/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">afgifter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
-<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="-58:+CONJ/(og)/ATTR" out="-25:qobj|-32:+PREPAR|2:subj|3:pnct">siger</W>
+<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="-58:+CONJ/(og)/ATTR" out="-25:qobj|-32:+SCENE|2:subj|3:pnct">siger</W>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henning</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Dyremose</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

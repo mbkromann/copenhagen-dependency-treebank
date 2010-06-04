@@ -73,7 +73,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="disoccupato" msd="NC" tag="NOM" in="" out="">disoccupati</W>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-15:TIME&3a;cont/nel_frattempo" out="13:+CONS&3a;prg">potrebbero</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-15:TIME&3a;cont/nel_frattempo" out="13:+TELIC&3a;sbj">potrebbero</W>
 <W lemma="guardare" msd="VAF" tag="VER&3a;infi" in="" out="">guardarsi</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="video" msd="AN" tag="ADJ" in="" out="">video</W>
@@ -86,7 +86,7 @@
 </s>
 <s>
 <W lemma="ciò" msd="PD" tag="PRO&3a;demo" in="" out="">Ciò</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-13:+CONS&3a;prg" out="14:CONJ/e">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-13:+TELIC&3a;sbj" out="14:CONJ/e">sarebbe</W>
 <W lemma="considerato" msd="AN" tag="ADJ" in="" out="">considerata</W>
 <W lemma="emissione" msd="NC" tag="NOM" in="" out="">emissione</W>
 <W lemma="deliberare" msd="VAP" tag="VER&3a;pper" in="" out="">deliberata</W>
@@ -100,7 +100,7 @@
 </s>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Questo</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ/e" out="27:CONTR&3a;prg/ma">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ/e" out="27:CONTR&3a;sbj/ma">ha</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="" out="">portato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
@@ -127,7 +127,7 @@
 <W lemma="titolo" msd="NC" tag="NOM" in="" out="">titolo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="conferenza" msd="NC" tag="NOM" in="" out="">conferenza</W>
-<W lemma="terminare" msd="VADA" tag="VER&3a;impf" in="-27:CONTR&3a;prg/ma" out="22:QUEST&3a;query">terminava</W>
+<W lemma="terminare" msd="VADA" tag="VER&3a;impf" in="-27:CONTR&3a;sbj/ma" out="22:QUEST&3a;query">terminava</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="parola" msd="NC" tag="NOM" in="" out="">parole</W>

@@ -14,7 +14,7 @@
 <W lemma="squadra" msd="NC" tag="NOM" in="-1:nobj" out="">squadre</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="segnare" msd="VAP" tag="VER&3a;pper" in="-6:attr" out="1:pobj|5:man">segnata</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|165:+ELAB&3a;exp">dal</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|165:+CONST&3a;elab">dal</W>
 <W lemma="trionfo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">trionfo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Ariostea</W>
@@ -128,7 +128,7 @@
 <W lemma="continuare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:pobj">continuato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">ad</W>
 <W lemma="avere&7c;riavere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">avere</W>
-<W lemma="sfortuna" msd="NC" tag="NOM" in="-1:dobj" out="16:+ELAB&3a;exp">sfortuna</W>
+<W lemma="sfortuna" msd="NC" tag="NOM" in="-1:dobj" out="16:+CONST&3a;elab">sfortuna</W>
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-7:conj|2:[subj]" out="-2:coord|-1:neg|1:neg|2:vobj">ha</W>
@@ -144,12 +144,12 @@
 <s>
 <W lemma="in" msd="SP" tag="PRE" in="1:ext" out="">In</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:subj|2:[subj]" out="-1:ext">molti</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:+ELAB&3a;exp" out="-1:subj|1:vobj|3:pnct|5:&3a;ELAB&3a;exem/p.es">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:+CONST&3a;elab" out="-1:subj|1:vobj|3:pnct|5:&3a;CONST&3a;exem/p.es">hanno</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">avuto</W>
 <W lemma="sfortuna" msd="NC" tag="NOM" in="-1:dobj" out="">sfortuna</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Alcala</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-5:&3a;ELAB&3a;exem/p.es" out="-1:subj|1:vobj|8:conj">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-5:&3a;CONST&3a;exem/p.es" out="-1:subj|1:vobj|8:conj">ha</W>
 <W lemma="forare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:time">forato</W>
 <W lemma="dopo" msd="SP" tag="PRE" in="-1:time" out="1:nobj">dopo</W>
 <W lemma="cinque" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">cinque</W>
@@ -170,7 +170,7 @@
 </p>
 <p>
 <s>
-<W lemma="manubrio" msd="NC" tag="NOM" in="9:+PREPAR" out="1:attr">MANUBRIO</W>
+<W lemma="manubrio" msd="NC" tag="NOM" in="9:+SCENE" out="1:attr">MANUBRIO</W>
 <W lemma="amaro" msd="AN" tag="ADJ" in="-1:attr" out="">AMARO</W>
 </s>
 </p>
@@ -179,7 +179,7 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="3:loc" out="1:nobj">Alla</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">squadra</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:appr" out="">Ariostea</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-165:+ELAB&3a;exp|1:[subj]|2:[subj]" out="-3:loc|-9:+PREPAR|1:vobj|9:pnct|13:CONS&3a;dir/(quindi)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-165:+CONST&3a;elab|1:[subj]|2:[subj]" out="-3:loc|-9:+SCENE|1:vobj|9:pnct|13:TELIC&3a;dir/(quindi)">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:vobj">stato</W>
 <W lemma="comunicare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">comunicato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
@@ -192,7 +192,7 @@
 </s>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj" out="">Questo</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:CONS&3a;dir/(quindi)" out="-1:subj|1:vobj|19:pnct|31:ELAB&3a;exp">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:TELIC&3a;dir/(quindi)" out="-1:subj|1:vobj|19:pnct|31:CONST&3a;elab">ha</W>
 <W lemma="spronare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:iobj|3:pobj">spronato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:iobj" out="1:nobj">i</W>
 <W lemma="ciclista" msd="NC" tag="NOM" in="-1:nobj" out="">ciclisti</W>
@@ -223,7 +223,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="2:nobj">di</W>
 <W lemma="Rolf" msd="NP" tag="NPR" in="1:namef" out="">Rolf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|4:²ref">Sørensen</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-31:ELAB&3a;exp" out="-9:time|-6:subj|1:vobj|2:pnct|3:cons">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-31:CONST&3a;elab" out="-9:time|-6:subj|1:vobj|2:pnct|3:cons">è</W>
 <W lemma="scivolare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]">scivolata</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W compound="¹facendo²lo" lemma="fare" msd="VAG" tag="VER&3a;geru" in="-3:cons|-4:²ref|0:²dobj¹" out="-9:[subj]|1:vobj|3:conj|0:²dobj¹">facendolo</W>

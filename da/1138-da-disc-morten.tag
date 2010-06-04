@@ -45,7 +45,7 @@
 <W gloss="the_end" lemma="udgang" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">udgangen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="June" lemma="juni" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">juni</W>
-<W gloss="employed" lemma="beskæftige" msd="VADA=----A-" tag="VBD" in="" out="-4:mod|1:subj|4:mod|8:dobj|10:pnct|14:ELAB&3a;rest|124:+CONJ/også">beskæftigede</W>
+<W gloss="employed" lemma="beskæftige" msd="VADA=----A-" tag="VBD" in="" out="-4:mod|1:subj|4:mod|8:dobj|10:pnct|14:CONST&3a;rest|124:+CONJ/også">beskæftigede</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj">de</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="industrial_firms" lemma="industrivirksomhed" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">industrivirksomheder</W>
@@ -59,7 +59,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:ELAB&3a;rest" out="-1:subj|2:preds|10:pnct|16:+CONS&3a;prg/(så)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:CONST&3a;rest" out="-1:subj|2:preds|10:pnct|16:+TELIC&3a;sbj/(så)">er</W>
 <W gloss="38,000" lemma="38.000" msd="AC---U=--" tag="CD" in="1:mod" out="">38.000</W>
 <W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-2:preds" out="-1:mod|1:mod">færre</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:mod" out="1:obl">end</W>
@@ -75,7 +75,7 @@
 <p>
 <s>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-16:+CONS&3a;prg/(så)" out="-1:expl|2:dobj|28:pnct|34:CONJ/samtidig">er</W>
+<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-16:+TELIC&3a;sbj/(så)" out="-1:expl|2:dobj|28:pnct|34:CONJ/samtidig">er</W>
 <W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">lang</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:attr|1:pobj">tid</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">til</W>

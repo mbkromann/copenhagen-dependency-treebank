@@ -51,7 +51,7 @@
 <W gloss="the_Italians" lemma="italiener" msd="NCCPU==D" tag="NNP" in="3:subj" out="1:mod|33:coref-var">italienerne</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Torino" lemma="Torino" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Torino</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|3:mod|7:mod|40:ELAB&3a;exp">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|3:mod|7:mod|40:CONST&3a;elab">er</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:preds" out="1:attr">de</W>
 <W gloss="smartest" lemma="klog" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">klogeste</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -91,7 +91,7 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
 <W gloss="yes" lemma="ja" msd="I=" tag="UH" in="2:mod" out="">ja</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-13:ref|1:mod" out="">så</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-40:ELAB&3a;exp" out="-14:xtop|-1:mod|-2:mod|1:subj|3:preds|26:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-40:CONST&3a;elab" out="-14:xtop|-1:mod|-2:mod|1:subj|3:preds|26:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
 <W gloss="before" lemma="før" msd="CS" tag="IN" in="-3:preds" out="-1:mod|1:pnct|3:vobj">før</W>
@@ -122,13 +122,13 @@
 </p>
 <p>
 <s>
-<W gloss="POPPYCOCK" lemma="tågesnak" msd="NCCSU==I" tag="NN" in="6:+PREP" out="">TÅGESNAK</W>
+<W gloss="POPPYCOCK" lemma="tågesnak" msd="NCCSU==I" tag="NN" in="6:+SCENE" out="">TÅGESNAK</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|-23:coref-res" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:preds|4:pnct|-6:+PREP|14:+CAUSE&3a;expl/(nemlig)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:mod|3:preds|4:pnct|-6:+SCENE|14:+AGENTIVE&3a;expl/(nemlig)">er</W>
 <W gloss="Of_course" lemma="naturligvis" msd="RGU" tag="RP" in="-1:mod" out="">naturligvis</W>
 <W gloss="clean" lemma="ren" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ren</W>
 <W gloss="poppycock" lemma="tågesnak" msd="NCCSU==I" tag="NN" in="-3:preds" out="-1:attr">tågesnak</W>
@@ -142,7 +142,7 @@
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Torino" lemma="Torino" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Torinos</W>
 <W gloss="rejseselskab" lemma="rejseselskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">rejseselskab</W>
-<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-14:+CAUSE&3a;expl/(nemlig)" out="-4:subj|1:pobj|8:pnct">tror</W>
+<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-14:+AGENTIVE&3a;expl/(nemlig)" out="-4:subj|1:pobj|8:pnct">tror</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|3:vobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]|-42:coref" out="">de</W>
@@ -212,7 +212,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="">Men</W>
 <W gloss="the_problem" lemma="problem" msd="NCNSU==D" tag="NN" in="1:subj|-20:coref-res" out="">problemet</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-21:+CONTR&3a;dir/men" out="-1:subj|1:preds|2:pnct|-2:coord|8:CAUSE&3a;expl/(nemlig)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-21:+CONTR&3a;dir/men" out="-1:subj|1:preds|2:pnct|-2:coord|8:AGENTIVE&3a;expl/(nemlig)">er</W>
 <W gloss="theoretical" lemma="teoretisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:preds" out="">teoretisk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -220,7 +220,7 @@
 <p>
 <s>
 <W gloss="The_Italians" lemma="italiener" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Italienerne</W>
-<W gloss="know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-8:CAUSE&3a;expl/(nemlig)" out="-1:subj|1:pnct|2:dobj|11:conj|31:pnct">ved</W>
+<W gloss="know" lemma="vide" msd="VADR=----A-" tag="VBD" in="-8:AGENTIVE&3a;expl/(nemlig)" out="-1:subj|1:pnct|2:dobj|11:conj|31:pnct">ved</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:dobj|5:[dobj]" out="5:rel">hvad</W>
 <W gloss="the_challenge" lemma="udfordring" msd="NCCSU==D" tag="NN" in="4:subj" out="1:mod">udfordringen</W>

@@ -95,7 +95,7 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="Armenian" lemma="armensk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">armenske</W>
 <W gloss="source" lemma="kilde" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">kilde</W>
-<W gloss="denied" lemma="benægte" msd="VADA=----A-" tag="VBD" in="-25:+CONC/(dog)/ATTR1" out="-3:subj|1:dobj|14:pnct|53:+ELAB&3a;exem/ATTR1">benægtede</W>
+<W gloss="denied" lemma="benægte" msd="VADA=----A-" tag="VBD" in="-25:+CONC/(dog)/ATTR1" out="-3:subj|1:dobj|14:pnct|53:+CONST&3a;exem/ATTR1">benægtede</W>
 <W gloss="reports" lemma="forlydende" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="1:loc|5:pobj">forlydender</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Moscow" lemma="Moskva" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Moskva</W>
@@ -117,7 +117,7 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="3:pnct" out=""> - </W>
 <W gloss="No" lemma="ingen" msd="PI-CSU--U" tag="DT" in="2:subj|3:[subj]" out="1:nobj">Ingen</W>
 <W gloss="Armenians" lemma="armenier" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">armeniere</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="31:qobj" out="-2:subj|-3:pnct|1:vobj|2:loc|4:pnct|10:CAUSE&3a;expl/(nemlig)/ATTR1">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="31:qobj" out="-2:subj|-3:pnct|1:vobj|2:loc|4:pnct|10:AGENTIVE&3a;expl/(nemlig)/ATTR1">blev</W>
 <W gloss="killed" lemma="dræbe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]">dræbt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="Kirovabad" lemma="Kirovabad" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Kirovabad</W>
@@ -127,7 +127,7 @@
 <W gloss="The" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj|5:[subj]" out="1:attr|2:nobj">Det</W>
 <W gloss="Armenian" lemma="armensk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">armenske</W>
 <W gloss="neighbourhood" lemma="kvarter" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">kvarter</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-10:CAUSE&3a;expl/(nemlig)/ATTR1" out="-3:subj|1:other|2:vobj|5:pnct|16:CONJ/(og)/ATTR1">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-10:AGENTIVE&3a;expl/(nemlig)/ATTR1" out="-3:subj|1:other|2:vobj|5:pnct|16:CONJ/(og)/ATTR1">bliver</W>
 <W gloss="probably" lemma="sikker" msd="ANP---=-R" tag="JJ" in="-1:other" out="">sikkert</W>
 <W gloss="guarded" lemma="bevogte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-5:[subj]|1:pobj">bevogtet</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -148,7 +148,7 @@
 <W gloss="brought" lemma="føre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-10:[subj]|1:lobj">ført</W>
 <W gloss="there" lemma="dertil" msd="RGU" tag="RP" in="-1:lobj" out="">dertil</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-53:+ELAB&3a;exem/ATTR1" out="-31:qobj|1:subj|2:pnct|15:+CONJ/også/ATTR2">sagde</W>
+<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-53:+CONST&3a;exem/ATTR1" out="-31:qobj|1:subj|2:pnct|15:+CONJ/også/ATTR2">sagde</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

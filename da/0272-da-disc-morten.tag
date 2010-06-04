@@ -81,7 +81,7 @@
 <W gloss="700" lemma="700" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:attr|2:nobj">700</W>
 <W gloss="posted" lemma="udstationere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">udstationerede</W>
 <W gloss="police_officers" lemma="politibetjent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">politibetjente</W>
-<W gloss="participate" lemma="deltage" msd="VADR=----A-" tag="VBD" in="-38:+CONJ/(også)" out="-4:subj|1:man|2:pobj|5:conj|36:pnct|48:+ELAB&3a;exp">deltager</W>
+<W gloss="participate" lemma="deltage" msd="VADR=----A-" tag="VBD" in="-38:+CONJ/(også)" out="-4:subj|1:man|2:pobj|5:conj|36:pnct|48:+CONST&3a;elab">deltager</W>
 <W gloss="lively" lemma="livlig" msd="ANP---=-R" tag="JJ" in="-1:man" out="">livligt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">i</W>
 <W gloss="the_national_festivals" lemma="folkefest" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">folkefesterne</W>
@@ -129,7 +129,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-3:coord" out="1:&lt;mod&gt;|2:&lt;nobj&gt;">og</W>
 <W gloss="fifth" lemma="femte" msd="AO---U=--" tag="JJ" in="-1:&lt;mod&gt;" out="">femte</W>
 <W gloss="kilometre" lemma="kilometer" msd="NCCSU==I" tag="NN" in="-2:&lt;nobj&gt;" out="">kilometer</W>
-<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-48:+ELAB&3a;exp" out="-7:other|1:expl|2:vobj|17:pnct|23:CONJ/(og)">er</W>
+<W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-48:+CONST&3a;elab" out="-7:other|1:expl|2:vobj|17:pnct|23:CONJ/(og)">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|1:[expl]" out="">der</W>
 <W gloss="drawn_up" lemma="opstille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[expl]|1:dobj|2:pnct|3:goal">opstillet</W>
 <W gloss="clock" lemma="ur" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="">ure</W>

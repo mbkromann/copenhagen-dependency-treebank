@@ -3,7 +3,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">La</W>
 <W lemma="cultura" msd="NC" tag="NOM" in="" out="">cultura</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="" out="">danese</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="" out="14:CONSOL&3a;just/(perché)">deve</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="" out="14:CONSOL&3a;source/(perché)">deve</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="" out="">essere</W>
 <W lemma="costruire" msd="VAP" tag="VER&3a;pper" in="" out="">costruita</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -17,7 +17,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-14:CONSOL&3a;just/(perché)" out="13:DESCR&3a;eval">Rappresenta</W>
+<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-14:CONSOL&3a;source/(perché)" out="13:DESCR&3a;eval">Rappresenta</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="" out="">nostra</W>
 <W lemma="caratteristica" msd="NC" tag="NOM" in="" out="">caratteristica</W>
@@ -44,7 +44,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Il</W>
 <W lemma="dibattito" msd="NC" tag="NOM" in="" out="">dibattito</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:+JOINT" out="16:ELAB&3a;exem">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-14:+JOINT" out="16:CONST&3a;exem">è</W>
 <W lemma="infuocare" msd="VAP" tag="VER&3a;pper" in="" out="">infuocato</W>
 <W lemma="contro" msd="SP" tag="PRE" in="" out="">contro</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
@@ -60,7 +60,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="cinema" msd="NC" tag="NOM" in="" out="">cinema</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="lamentare" msd="VADR" tag="VER&3a;pres" in="-16:ELAB&3a;exem" out="19:CONJ/(e)">lamentano</W>
+<W lemma="lamentare" msd="VADR" tag="VER&3a;pres" in="-16:CONST&3a;exem" out="19:CONJ/(e)">lamentano</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="quantità" msd="NC" tag="NOM" in="" out="">quantità</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -79,7 +79,7 @@
 <W lemma="così" msd="CS" tag="CON" in="" out="">Così</W>
 <W lemma="come" msd="PT" tag="PRO&3a;inter" in="" out="">come</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="amare" msd="VADR" tag="VER&3a;cpre" in="-19:CONJ/(e)" out="23:CONS&3a;prg/per_questo">amiamo</W>
+<W lemma="amare" msd="VADR" tag="VER&3a;cpre" in="-19:CONJ/(e)" out="23:TELIC&3a;sbj/per_questo">amiamo</W>
 <W lemma="acquistare" msd="VAF" tag="VER&3a;infi" in="" out="">acquistare</W>
 <W lemma="librare" msd="VAM" tag="VER&3a;impe" in="" out="">libri</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
@@ -102,7 +102,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:CONS&3a;prg/per_questo" out="47:+ELAB&3a;exp">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:TELIC&3a;sbj/per_questo" out="47:+CONST&3a;elab">È</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -149,7 +149,7 @@
 <W lemma="scena" msd="NC" tag="NOM" in="" out="">scena</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="reale" msd="NC" tag="NOM" in="" out="">Reale</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-47:+ELAB&3a;exp" out="20:+ELAB&3a;exp">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-47:+CONST&3a;elab" out="20:+CONST&3a;elab">ha</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="certo" msd="AN" tag="ADJ" in="" out="">certo</W>
 <W lemma="valore" msd="NC" tag="NOM" in="" out="">valore</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:+ELAB&3a;exp" out="11:ELAB&3a;part|35:+CAUSE&3a;reas&7c;expl">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:+CONST&3a;elab" out="11:CONST&3a;apart|35:+AGENTIVE&3a;reas&7c;expl">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
 <W lemma="faccia" msd="NC" tag="NOM" in="" out="">faccia</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
@@ -180,7 +180,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">L'</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="" out="">altra</W>
 <W lemma="faccia" msd="NC" tag="NOM" in="" out="">faccia</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:ELAB&3a;part" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CONST&3a;apart" out="">è</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="" out="">quella</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="" out="">cui</W>
@@ -204,7 +204,7 @@
 </p>
 <p>
 <s>
-<W lemma="suonare" msd="VADR" tag="VER&3a;pres" in="-35:+CAUSE&3a;reas&7c;expl" out="21:CONTR&3a;prg/ma">Suona</W>
+<W lemma="suonare" msd="VADR" tag="VER&3a;pres" in="-35:+AGENTIVE&3a;reas&7c;expl" out="21:CONTR&3a;sbj/ma">Suona</W>
 <W lemma="stonare" msd="VAP" tag="VER&3a;pper" in="" out="">stonato</W>
 <W lemma="quando" msd="PT" tag="PRO&3a;inter" in="" out="">quando</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="" out="">noi</W>
@@ -225,7 +225,7 @@
 </s>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
-<W lemma="lasciare" msd="VAM" tag="VER&3a;impe" in="-21:CONTR&3a;prg/ma" out="">lasciateci</W>
+<W lemma="lasciare" msd="VAM" tag="VER&3a;impe" in="-21:CONTR&3a;sbj/ma" out="">lasciateci</W>
 <W lemma="tagliare" msd="VAF" tag="VER&3a;infi" in="" out="">tagliare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="testa" msd="NC" tag="NOM" in="" out="">testa</W>

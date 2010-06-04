@@ -1,5 +1,5 @@
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|3:preds|17:pnct|21:CONTR&3a;prg/ma/ATTR|50:+DESCR&3a;eval">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|3:preds|17:pnct|21:CONTR&3a;sbj/ma/ATTR|50:+DESCR&3a;eval">È</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:degr" out="1:nobj">del</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="-1:nobj" out="">tutto</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="-3:preds" out="-2:degr|1:5|1:nobj|1:1">evidente</W>
@@ -20,7 +20,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="2:subj" out="">noi</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="5:coref-res">non</W>
-<W lemma="operare" msd="VADR" tag="VER&3a;pres" in="-21:CONTR&3a;prg/ma/ATTR" out="-1:neg|-2:subj|-3:coord|1:man|2:pnct|3:cons|18:pnct">operiamo</W>
+<W lemma="operare" msd="VADR" tag="VER&3a;pres" in="-21:CONTR&3a;sbj/ma/ATTR" out="-1:neg|-2:subj|-3:coord|1:man|2:pnct|3:cons|18:pnct">operiamo</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:man" out="">imprudentemente</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="per" msd="CS" tag="CON" in="-3:cons" out="1:nobj|7:vobj">per</W>
@@ -49,7 +49,7 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="2:neg" out="">non</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="sbilanciare" msd="VADR" tag="VER&3a;pres" in="-50:+DESCR&3a;eval" out="-8:subj|-1:robj|-2:neg|-10:pnct|1:degr|2:pobj|9:pnct|11:CAUSE&3a;expl/(infatti)">sbilancia</W>
+<W lemma="sbilanciare" msd="VADR" tag="VER&3a;pres" in="-50:+DESCR&3a;eval" out="-8:subj|-1:robj|-2:neg|-10:pnct|1:degr|2:pobj|9:pnct|11:AGENTIVE&3a;expl/(infatti)">sbilancia</W>
 <W lemma="troppo" msd="RG" tag="ADV" in="-1:degr" out="">troppo</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:pobj" out="1:vobj">nel</W>
 <W lemma="commentare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">commentare</W>
@@ -60,7 +60,7 @@
 <W lemma="investimento" msd="NC" tag="NOM" in="-1:nobj" out="">investimento</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="egli" msd="PP" tag="PRO&3a;pers" in="-18:coref-var|1:subj" out="">Egli</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl/(infatti)" out="-1:subj|2:preds|33:pnct|36:+CONJ/(e)/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl/(infatti)" out="-1:subj|2:preds|33:pnct|36:+CONJ/(e)/ATTR">è</W>
 <W lemma="ben" msd="RG" tag="ADV" in="1:degr" out="">ben</W>
 <W lemma="consapevole" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:dobj">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="-1:dobj" out="11:vobj">che</W>

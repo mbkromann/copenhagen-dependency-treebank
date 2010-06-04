@@ -47,7 +47,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="volere" msd="VADR" tag="VER&3a;pres" in="1:[subj]|49:qobj" out="-1:pnct|1:vobj|17:pnct|26:+ELAB&3a;exp&7c;CAUSE&3a;expl/ATTR">Voglio</W>
+<W lemma="volere" msd="VADR" tag="VER&3a;pres" in="1:[subj]|49:qobj" out="-1:pnct|1:vobj|17:pnct|26:+CONST&3a;elab&7c;AGENTIVE&3a;expl/ATTR">Voglio</W>
 <W lemma="sfruttare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:dobj|6:goal">sfruttare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="dibattito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">dibattiti</W>
@@ -73,7 +73,7 @@
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr">legge</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr" out="">finanziaria</W>
 <W lemma="intelligente" msd="AN" tag="ADJ" in="-2:attr" out="">intelligente</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-26:+ELAB&3a;exp&7c;CAUSE&3a;expl/ATTR" out="-4:subj|1:vobj|7:pnct|21:pnct">deve</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-26:+CONST&3a;elab&7c;AGENTIVE&3a;expl/ATTR" out="-4:subj|1:vobj|7:pnct|21:pnct">deve</W>
 <W lemma="portare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:dobj|7:man">portare</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">al</W>
 <W lemma="compimento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">compimento</W>
@@ -180,7 +180,7 @@
 </p>
 <p>
 <s>
-<W lemma="riduzione" msd="NC" tag="NOM" in="34:+PREPAR" out="1:pobj.dobj|1:{patient}">RIDUZIONE</W>
+<W lemma="riduzione" msd="NC" tag="NOM" in="34:+SCENE" out="1:pobj.dobj|1:{patient}">RIDUZIONE</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">DELLE</W>
 <W lemma="tassa" msd="NC" tag="NOM" in="-1:nobj" out="">TASSE</W>
 </s>
@@ -214,7 +214,7 @@
 <W lemma="spesa" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">spese</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-22:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-23:pnct" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-58:+CONJ/(e)/ATTR" out="-24:qobj|-34:+PREPAR|2:subj|3:pnct">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-58:+CONJ/(e)/ATTR" out="-24:qobj|-34:+SCENE|2:subj|3:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Henning</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:subj" out="-1:namef">Dyremose</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>

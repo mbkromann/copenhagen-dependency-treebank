@@ -48,7 +48,7 @@
 <W gloss="should" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj|4:pnct">skal</W>
 <W gloss="spent" lemma="bruge" morph="bruge" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pobj">bruges</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
-<W gloss="the_dish" lemma="ret" morph="ret" msd="NCCSU==D" tag="NN" in="-1:nobj" out="47:+ELAB&3a;exp">retten</W>
+<W gloss="the_dish" lemma="ret" morph="ret" msd="NCCSU==D" tag="NN" in="-1:nobj" out="47:+CONST&3a;elab">retten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:neg|2:vobj|6:pnct|10:CONJ/(og)">skal</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
@@ -60,7 +60,7 @@
 </s>
 <s>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|3:[subj]" out="">Man</W>
-<W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONJ/(og)" out="-1:subj|1:neg|2:vobj|13:pnct|17:CAUSE&3a;expl/(nemlig)">kan</W>
+<W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONJ/(og)" out="-1:subj|1:neg|2:vobj|13:pnct|17:AGENTIVE&3a;expl/(nemlig)">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="use" lemma="bruge" morph="bruge" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">bruge</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:pnct|4:ref|5:rel">de</W>
@@ -77,7 +77,7 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-17:CAUSE&3a;expl/(nemlig)" out="-1:subj|2:preds|6:pnct|9:conj|13:pnct">er</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-17:AGENTIVE&3a;expl/(nemlig)" out="-1:subj|2:preds|6:pnct|9:conj|13:pnct">er</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:degr" out="">for</W>
 <W gloss="salty" lemma="salt" morph="salt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr|3:conj">salte</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -95,7 +95,7 @@
 </p>
 <p>
 <s>
-<W gloss="Butter" lemma="smøre" morph="smør +e/DER&3a;nv" msd="VAM-=------" tag="VB" in="-47:+ELAB&3a;exp" out="1:dobj|23:pnct|29:+CONJ&3a;seq">Smør</W>
+<W gloss="Butter" lemma="smøre" morph="smør +e/DER&3a;nv" msd="VAM-=------" tag="VB" in="-47:+CONST&3a;elab" out="1:dobj|23:pnct|29:+CONJ&3a;seq">Smør</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:pnct|4:ref|5:rel">et</W>
 <W gloss="oven-proof" lemma="ovnfast" morph="fast -ovn/func" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">ovnfast</W>
 <W gloss="dish" lemma="fad" morph="fad" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">fad</W>
@@ -136,7 +136,7 @@
 </p>
 <p>
 <s>
-<W gloss="Cut" lemma="skære" morph="skær +e/DER&3a;av" msd="VAM-=------" tag="VB" in="-12:+CONJ&3a;seq" out="1:dobj|5:mod|7:coord|14:pnct|18:ELAB&3a;exp|31:+CONJ&3a;seq|4:@dir">Skær</W>
+<W gloss="Cut" lemma="skære" morph="skær +e/DER&3a;av" msd="VAM-=------" tag="VB" in="-12:+CONJ&3a;seq" out="1:dobj|5:mod|7:coord|14:pnct|18:CONST&3a;elab|31:+CONJ&3a;seq|4:@dir">Skær</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">de</W>
 <W gloss="cleaned" lemma="rense" morph="ren +se/DER&3a;av" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">rensede</W>
 <W gloss="onions" lemma="løg" morph="løg" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">løg</W>
@@ -154,7 +154,7 @@
 </s>
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">Der</W>
-<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-18:ELAB&3a;exp" out="-1:expl|1:vobj|8:pnct">skal</W>
+<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-18:CONST&3a;elab" out="-1:expl|1:vobj|8:pnct">skal</W>
 <W gloss="be" lemma="være" morph="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|6:preds">være</W>
 <W gloss="Some" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:pobj">noget</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>

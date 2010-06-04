@@ -11,7 +11,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="2:nobj">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Poul</W>
 <W lemma="Schlüter" msd="NP" tag="NPR" in="-2:nobj" out="-1:namef">Schlüter</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-13:cause|-6:subj|1:time|2:vobj|42:pnct|50:+CONTR&3a;prg/comunque">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-13:cause|-6:subj|1:time|2:vobj|42:pnct|50:+CONTR&3a;sbj/comunque">ha</W>
 <W lemma="appena" msd="RG" tag="ADV" in="-1:time" out="">appena</W>
 <W lemma="presentare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-8:[subj]|1:dobj">presentato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
@@ -61,7 +61,7 @@
 <W lemma="politica&7c;politico" msd="NC" tag="NOM" in="-1:about" out="1:attr">politica</W>
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="1:attr">economica</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
-<W lemma="tornare" msd="VAM" tag="VER&3a;impe" in="-50:+CONTR&3a;prg/comunque" out="-7:conc|-6:subj|1:pobj|8:pnct|20:conj">torna</W>
+<W lemma="tornare" msd="VAM" tag="VER&3a;impe" in="-50:+CONTR&3a;sbj/comunque" out="-7:conc|-6:subj|1:pobj|8:pnct|20:conj">torna</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">ad</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">essere</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
@@ -87,7 +87,7 @@
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">giorno</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:attr" out="">stesso</W>
 <W lemma="con" msd="SP" tag="PRE" in="-4:man" out="1:nobj">con</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|14:DESCR|90:+ELAB&3a;exp">una</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|14:DESCR|90:+CONST&3a;elab">una</W>
 <W lemma="proposta" msd="NC" tag="NOM" in="-1:nobj" out="4:attr|1:pobj|1:{arg}#">proposta</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}#" out="1:nobj">di</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:about">legge</W>
@@ -101,7 +101,7 @@
 <W lemma="ideologico" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">ideologico</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="morale" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">morale</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR" out="-7:subj|1:preds|3:conj|9:+ELAB&3a;exp/ATTR">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-14:DESCR" out="-7:subj|1:preds|3:conj|9:+CONST&3a;elab/ATTR">sono</W>
 <W lemma="evidente" msd="AN" tag="ADJ" in="-1:preds" out="">evidenti</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-3:conj" out="-1:coord|1:vobj|5:pnct">possono</W>
@@ -110,11 +110,11 @@
 <W lemma="come" msd="CS" tag="CON" in="-2:man" out="1:vobj">come</W>
 <W lemma="seguire" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="">segue</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="partito" msd="NC" tag="NOM" in="-9:+ELAB&3a;exp/ATTR" out="1:attr|2:pnct|4:qobj">Partito</W>
+<W lemma="partito" msd="NC" tag="NOM" in="-9:+CONST&3a;elab/ATTR" out="1:attr|2:pnct|4:qobj">Partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-1:attr" out="">Socialdemocratico</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="bisognare" msd="VADR" tag="VER&3a;pres" in="-4:qobj" out="-1:neg|1:vobj|7:pnct|15:CAUSE&3a;expl/(infatti)/ATTR">bisogna</W>
+<W lemma="bisognare" msd="VADR" tag="VER&3a;pres" in="-4:qobj" out="-1:neg|1:vobj|7:pnct|15:AGENTIVE&3a;expl/(infatti)/ATTR">bisogna</W>
 <W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:vobj">far</W>
 <W lemma="pagare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|3:iobj">pagare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
@@ -129,7 +129,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attrr#" out="1:nobj">dei</W>
 <W lemma="pagamento" msd="NC" tag="NOM" in="-1:nobj" out="">pagamenti</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:iobj" out="">ci</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-15:CAUSE&3a;expl/(infatti)/ATTR" out="-7:subj|-1:iobj|1:vobj|8:pnct|9:CONS&3a;prg/ATTR">può</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-15:AGENTIVE&3a;expl/(infatti)/ATTR" out="-7:subj|-1:iobj|1:vobj|8:pnct|9:TELIC&3a;sbj/ATTR">può</W>
 <W lemma="permettere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:pobj">permettere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:dobj">di</W>
 <W lemma="attivare" msd="VAF" tag="VER&3a;infi" in="-1:dobj" out="-10:[subj]|1:man|2:dobj">attivare</W>
@@ -138,7 +138,7 @@
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostro</W>
 <W lemma="paese" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">Paese</W>
 <W lemma="." msd="XP" tag="SENT" in="-8:pnct" out="">.</W>
-<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-9:CONS&3a;prg/ATTR" out="1:dobj|7:pnct|24:CONSOL&3a;just/ATTR">Riteniamo</W>
+<W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="-9:TELIC&3a;sbj/ATTR" out="1:dobj|7:pnct|24:CONSOL&3a;source/ATTR">Riteniamo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj|2:coref" out="">questo</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|1:preds">sia</W>
@@ -162,7 +162,7 @@
 <W lemma="deficit" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">deficit</W>
 <W lemma="pubblico" msd="AN" tag="ADJ" in="-1:attr" out="">pubblico</W>
 <W lemma=")" msd="XP" tag="PON" in="-7:pnct" out="">)</W>
-<W lemma="fare" msd="VADR" tag="VER&3a;futu" in="-24:CONSOL&3a;just/ATTR" out="-16:subj|1:vobj|5:pnct|6:conj|10:conj">faranno</W>
+<W lemma="fare" msd="VADR" tag="VER&3a;futu" in="-24:CONSOL&3a;source/ATTR" out="-16:subj|1:vobj|5:pnct|6:conj|10:conj">faranno</W>
 <W lemma="aumentare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-17:[subj]|1:dobj">aumentare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="consumo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">consumi</W>
@@ -177,7 +177,7 @@
 <W lemma="entrata" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">entrate</W>
 <W lemma="fiscale" msd="AN" tag="ADJ" in="-1:attr" out="">fiscali</W>
 <W lemma="." msd="XP" tag="SENT" in="-4:pnct" out="">.</W>
-<W lemma="titolo" msd="NC" tag="NOM" in="-90:+ELAB&3a;exp" out="1:attr|3:pnct|4:appa">Titolo</W>
+<W lemma="titolo" msd="NC" tag="NOM" in="-90:+CONST&3a;elab" out="1:attr|3:pnct|4:appa">Titolo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="programma" msd="NC" tag="NOM" in="-1:nobj" out="">programma</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>

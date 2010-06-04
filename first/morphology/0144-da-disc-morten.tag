@@ -44,7 +44,7 @@
 <W gloss="Day" lemma="dag" morph="dag" msd="NCCSU==I" tag="NN" in="3:subj|4:[subj]|5:[subj]" out="2:conj">Dag</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="night" lemma="nat" morph="nat" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">nat</W>
-<W gloss="have" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|9:ELAB&3a;exp">er</W>
+<W gloss="have" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|9:CONST&3a;elab">er</W>
 <W gloss="been" lemma="blive" morph="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">blevet</W>
 <W gloss="abolished" lemma="ophæve" morph="hæve -op/ASPEC&3a;term" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:loc">ophævet</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="-1:loc" out="">her</W>
@@ -53,7 +53,7 @@
 <s>
 <W gloss="the_day" lemma="døgn" morph="døgn" msd="NCNSU==D" tag="NN" in="2:time" out="1:other">Døgnet</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:other" out="">rundt</W>
-<W gloss="are_fighting" lemma="slås" morph="slå" msd="VEDR=----A-" tag="VBN" in="-9:ELAB&3a;exp" out="-2:time|1:subj|2:man|8:pnct|13:ELAB&3a;exp">slås</W>
+<W gloss="are_fighting" lemma="slås" morph="slå" msd="VEDR=----A-" tag="VBN" in="-9:CONST&3a;elab" out="-2:time|1:subj|2:man|8:pnct|13:CONST&3a;elab">slås</W>
 <W gloss="the_refugees" lemma="flygtning" morph="flygte +ning/PRED&3a;agent" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">flygtningene</W>
 <W gloss="desperately" lemma="desperat" morph="desperat" msd="ANP---=-R" tag="JJ" in="-2:man" out="1:pobj">desperat</W>
 <W gloss="for" lemma="efter" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">efter</W>
@@ -66,7 +66,7 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:nobj">De</W>
 <W gloss="strongest" lemma="stærk" morph="stærk" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:nobj" out="">stærkeste</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-13:ELAB&3a;exp" out="-2:subj|1:preds|5:pnct|12:CONJ/(og)">er</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-13:CONST&3a;elab" out="-2:subj|1:preds|5:pnct|12:CONJ/(og)">er</W>
 <W gloss="out" lemma="ude" msd="RGU" tag="RP" in="-1:preds" out="1:nobj">ude</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="getting" lemma="skaffe" morph="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">skaffe</W>
@@ -106,7 +106,7 @@
 </s>
 <s>
 <W gloss="The_majority" lemma="flertal" morph="tal -fler/MOD&3a;cuant" msd="NCNSU==D" tag="NN" in="1:subj" out="">Flertallet</W>
-<W gloss="are_living" lemma="leve" morph="leve" msd="VADR=----A-" tag="VBD" in="-28:CONJ/(og)" out="-1:subj|1:time|2:loc|19:pnct|25:ELAB&3a;exem/(fx)">lever</W>
+<W gloss="are_living" lemma="leve" morph="leve" msd="VADR=----A-" tag="VBD" in="-28:CONJ/(og)" out="-1:subj|1:time|2:loc|19:pnct|25:CONST&3a;exem/(fx)">lever</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:time" out="">stadig</W>
 <W gloss="under" lemma="under" msd="SP" tag="IN" in="-2:loc" out="1:nobj">under</W>
 <W gloss="plastikstykker" lemma="plastikstykke" morph="stykke -plastik/const" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="2:conj|3:pnct|4:ref|6:rel">plastikstykker</W>
@@ -131,7 +131,7 @@
 <W gloss="Bassam" lemma="Bassam" msd="NP--U==-" tag="NNP" in="3:subj" out="1:other">Bassam</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="35" lemma="35" msd="AC---U=--" tag="CD" in="-1:nobj" out="">35</W>
-<W gloss="lives" lemma="bo" morph="bo" msd="VADR=----A-" tag="VBD" in="-25:ELAB&3a;exem/(fx)" out="-3:subj|1:man|10:pnct|13:+ELAB&3a;rest&7c;exp|24:ELAB&3a;exp|79:+CONJ/(og)">bor</W>
+<W gloss="lives" lemma="bo" morph="bo" msd="VADR=----A-" tag="VBD" in="-25:CONST&3a;exem/(fx)" out="-3:subj|1:man|10:pnct|13:+CONST&3a;rest&7c;exp|24:CONST&3a;elab|79:+CONJ/(og)">bor</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-1:man" out="1:pobj">sammen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="his" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sine</W>
@@ -144,7 +144,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="28" lemma="28" msd="AC---U=--" tag="CD" in="-13:+ELAB&3a;rest&7c;exp" out="1:nobj|2:other|3:loc|7:pnct">28</W>
+<W gloss="28" lemma="28" msd="AC---U=--" tag="CD" in="-13:+CONST&3a;rest&7c;exp" out="1:nobj|2:other|3:loc|7:pnct">28</W>
 <W gloss="people" lemma="menneske" morph="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
 <W gloss="in_all" lemma="i_alt" msd="RGU" tag="RP" in="-2:other" out="">i_alt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
@@ -155,7 +155,7 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]|6:[subj]" out="">Han</W>
-<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-24:ELAB&3a;exp" out="-1:subj|2:dobj|4:conj|16:pnct|20:+CONJ/samtidig">har</W>
+<W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-24:CONST&3a;elab" out="-1:subj|2:dobj|4:conj|16:pnct|20:+CONJ/samtidig">har</W>
 <W gloss="strong" lemma="stærk" morph="stærk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">stærke</W>
 <W gloss="kidney_pains" lemma="nyresmerte" morph="smerte -nyre/pos" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">nyresmerter</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -215,7 +215,7 @@
 <W gloss="little" lemma="lille" morph="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="girl" lemma="pige" morph="pige" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">pige</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:man" out="1:nobj|3:preds">med</W>
-<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|9:ELAB&3a;exp&7c;CONJ/(og)">et</W>
+<W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|9:CONST&3a;elab&7c;CONJ/(og)">et</W>
 <W gloss="infant" lemma="spædbarn" morph="barn -spæd/GRAD&3a;size" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">spædbarn</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:preds" out="1:nobj">på</W>
 <W gloss="lap" lemma="skød" morph="skød" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">skødet</W>
@@ -224,7 +224,7 @@
 <s>
 <W gloss="The_child's" lemma="barn" morph="barn" msd="NCNSG==D" tag="NN" in="2:subj" out="1:possd|15:DESCR&3a;qual">Barnets</W>
 <W gloss="tears" lemma="gråd" morph="græde gråd/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="">gråd</W>
-<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-9:ELAB&3a;exp&7c;CONJ/(og)" out="-2:subj|1:preds|2:pnct">er</W>
+<W gloss="are" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-9:CONST&3a;elab&7c;CONJ/(og)" out="-2:subj|1:preds|2:pnct">er</W>
 <W gloss="heart_rending" lemma="hjerteskærende" morph="skærende -hjerte/pos skære +nde/DEVERB&3a;act.pure" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:preds" out="">hjerteskærende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

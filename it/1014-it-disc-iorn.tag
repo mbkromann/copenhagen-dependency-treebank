@@ -33,7 +33,7 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Bente</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef">Munck</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
-<W lemma="contributo" msd="NC" tag="NOM" in="55:+PREPAR" out="1:pnct">Contributi</W>
+<W lemma="contributo" msd="NC" tag="NOM" in="55:+SCENE" out="1:pnct">Contributi</W>
 <W lemma="." msd="XP" tag="SENT" in="-1:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="10:pnct" out="">"</W>
 <W lemma="secondo" msd="SP" tag="PRE" in="9:source" out="1:nobj|7:pnct">Secondo</W>
@@ -45,7 +45,7 @@
 <W lemma="sociale" msd="AN" tag="ADJ" in="-1:attr" out="">sociale</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="1:subj|2:[subj]" out="">tutti</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-19:+JUST/ATTR|43:qobj" out="-1:subj|-9:source|-10:pnct|1:vobj|9:pnct|12:CAUSE&3a;expl/(infatti)/ATTR">possono</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-19:+JUST/ATTR|43:qobj" out="-1:subj|-9:source|-10:pnct|1:vobj|9:pnct|12:AGENTIVE&3a;expl/(infatti)/ATTR">possono</W>
 <W lemma="ricevere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-2:[subj]|1:dobj">ricevere</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:dobj" out="1:goal">contributi</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:vobj">per</W>
@@ -57,7 +57,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]|13:[subj]|18:[subj]" out="1:nobj">I</W>
 <W lemma="comune" msd="NC" tag="NOM" in="-1:nobj" out="">comuni</W>
-<W lemma="debbono" msd="VADR" tag="VER&3a;pres" in="-12:CAUSE&3a;expl/(infatti)/ATTR" out="-2:subj|1:vobj|11:conj|13:coref|30:pnct|36:coref-res|37:+DESCR&3a;qual/così">debbono</W>
+<W lemma="debbono" msd="VADR" tag="VER&3a;pres" in="-12:AGENTIVE&3a;expl/(infatti)/ATTR" out="-2:subj|1:vobj|11:conj|13:coref|30:pnct|36:coref-res|37:+DESCR&3a;qual/così">debbono</W>
 <W lemma="aiutare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:man|4:dobj">aiutare</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:man" out="1:nobj">in</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">modo</W>
@@ -88,7 +88,7 @@
 <W lemma="assistente" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">assistente</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">domicialiare</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-30:pnct" out="">"</W>
-<W lemma="continuare" msd="VADR" tag="VER&3a;pres" in="-59:+CONJ/(e)" out="-55:+PREPAR|-43:qobj|2:subj|3:pnct|122:+CONJ/(e)">continua</W>
+<W lemma="continuare" msd="VADR" tag="VER&3a;pres" in="-59:+CONJ/(e)" out="-55:+SCENE|-43:qobj|2:subj|3:pnct|122:+CONJ/(e)">continua</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namef" out="">Bente</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|121:coref">Munck</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
@@ -128,13 +128,13 @@
 <W lemma="e" msd="CS" tag="CON" in="2:coord" out="">e</W>
 <W lemma="lo" msd="PP" tag="PRO&3a;pers" in="-6:coref|1:dobj" out="">lo</W>
 <W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-2:coord|-1:dobj|1:man">fanno</W>
-<W lemma="considerare" msd="VAG" tag="VER&3a;geru" in="-1:man" out="1:dobj|6:DESCR&3a;eval&7c;CONTR&3a;prg/ma/ATTR">considerando</W>
+<W lemma="considerare" msd="VAG" tag="VER&3a;geru" in="-1:man" out="1:dobj|6:DESCR&3a;eval&7c;CONTR&3a;sbj/ma/ATTR">considerando</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="costo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">costi</W>
 <W lemma="economico" msd="AN" tag="ADJ" in="-1:attr" out="">economici</W>
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:discmark" out="">Ma</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:DESCR&3a;eval&7c;CONTR&3a;prg/ma/ATTR" out="-1:discmark|1:preds|6:pnct|7:cause|51:CONS/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:DESCR&3a;eval&7c;CONTR&3a;sbj/ma/ATTR" out="-1:discmark|1:preds|6:pnct|7:cause|51:CONS/ATTR">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="3:attr">modo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="2:prg" out="1:nobj">del</W>

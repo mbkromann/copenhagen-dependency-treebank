@@ -52,7 +52,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">La</W>
 <W lemma="fonte" msd="NC" tag="NOM" in="" out="">fonte</W>
 <W lemma="armeno" msd="AN" tag="ADJ" in="" out="">armena</W>
-<W lemma="negare" msd="VADR" tag="VER&3a;pres" in="-21:+CONC/(però)/ATTR1" out="60:+ELAB&3a;exem/ATTR1">nega</W>
+<W lemma="negare" msd="VADR" tag="VER&3a;pres" in="-21:+CONC/(però)/ATTR1" out="60:+CONST&3a;exem/ATTR1">nega</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="voce&7c;vocio" msd="NC" tag="NOM" in="" out="">voci</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -78,7 +78,7 @@
 <W lemma="-" msd="XP" tag="PON" in="" out="">-</W>
 <W lemma="nessuno" msd="AN" tag="ADJ" in="" out="">Nessun</W>
 <W lemma="armeno" msd="NC" tag="NOM" in="" out="">armeno</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="34:qobj" out="11:CAUSE&3a;expl/(infatti)/ATTR1">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="34:qobj" out="11:AGENTIVE&3a;expl/(infatti)/ATTR1">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="uccidere" msd="VAP" tag="VER&3a;pper" in="" out="">ucciso</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
@@ -89,7 +89,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Il</W>
 <W lemma="quartiere" msd="NC" tag="NOM" in="" out="">quartiere</W>
 <W lemma="armeno" msd="AN" tag="ADJ" in="" out="">armeno</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CAUSE&3a;expl/(infatti)/ATTR1" out="18:CONJ/(e)/ATTR1">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl/(infatti)/ATTR1" out="18:CONJ/(e)/ATTR1">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="sorvegliare" msd="VAP" tag="VER&3a;pper" in="" out="">sorvegliato</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
@@ -112,7 +112,7 @@
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="" out="">portati</W>
 <W lemma="lì" msd="RG" tag="ADV" in="" out="">lì</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-60:+ELAB&3a;exem/ATTR1" out="-34:qobj|18:+CONJ/inoltre/ATTR2">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-60:+CONST&3a;exem/ATTR1" out="-34:qobj|18:+CONJ/inoltre/ATTR2">dice</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>

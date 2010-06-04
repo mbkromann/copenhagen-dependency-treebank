@@ -11,7 +11,7 @@
 <W lemma="él" msd="PP" tag="PPO" in="" out="">lo</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">había</W>
 <W lemma="tomar" msd="VAF" tag="VLadj" in="" out="">tomado</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="chistar" msd="VAD" tag="VLfin" in="" out="">chiste</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -69,7 +69,7 @@
 <W lemma="pedir" msd="VAD" tag="VLfin" in="" out="">pidió</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="desaparecer" msd="VAD" tag="VLfin" in="" out="">desapareciera</W>
-<W lemma="para" msd="SP" tag="PREP" in="" out="">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="" out="">para</W>
 <W lemma="siempre" msd="RG" tag="ADV" in="" out="">siempre</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -120,7 +120,7 @@
 <W lemma="Eva" msd="NP" tag="NP" in="" out="">Eva</W>
 <W lemma="él" msd="PP" tag="PPC" in="" out="">le</W>
 <W lemma="rechazar" msd="VAD" tag="VLfin" in="" out="">rechazó</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="calma" msd="NC" tag="NC" in="" out="">calma</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -128,14 +128,14 @@
 <W lemma="antes" msd="RG" tag="ADV" in="" out="">antes</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="">había</W>
 <W lemma="ver" msd="VAF" tag="VLadj" in="" out="">visto</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ella</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
 <s>
 <W lemma="estar" msd="VAD" tag="VLfin" in="" out="">Estaba</W>
 <W lemma="acostumbrar" msd="VAF" tag="VLadj" in="" out="">acostumbrado</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">enfadaran</W>
@@ -153,7 +153,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="él" msd="PP" tag="PPO" in="" out="">los</W>
 <W lemma="volver" msd="VAD" tag="VLfin" in="" out="">volvía</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="unir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">unir</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">pero</W>
@@ -173,13 +173,13 @@
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="amable" msd="AN" tag="ADJ" in="" out="">amable</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="embarazo" msd="NC" tag="NC" in="" out="">embarazo</W>
 <W lemma="avanzar" msd="VAF" tag="VLadj" in="" out="">avanzado</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">reluciente</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="vida" msd="NC" tag="NC" in="" out="">vida</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="alegría" msd="NC" tag="NC" in="" out="">alegría</W>
@@ -209,7 +209,7 @@
 <W lemma="ya" msd="RG" tag="ADV" in="" out="">ya</W>
 <W lemma="no" msd="U=" tag="NEG" in="" out="">no</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">sospechabas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tuviera</W>
 <W lemma="otro" msd="AN" tag="QU" in="" out="">otro</W>

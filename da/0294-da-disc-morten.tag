@@ -64,7 +64,7 @@
 <s>
 <W gloss="In_front_of" lemma="foran" msd="SP" tag="IN" in="2:lobj" out="1:nobj">Foran</W>
 <W gloss="them" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:nobj" out="">sig</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-21:+CONJ/(og)" out="-2:lobj|1:subj|2:dobj|4:pnct|8:ELAB&3a;exp">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-21:+CONJ/(og)" out="-2:lobj|1:subj|2:dobj|4:pnct|8:CONST&3a;elab">havde</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-2:dobj" out="1:possd">deres</W>
 <W gloss="defence_attorneys" lemma="forsvarer" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">forsvarere</W>
@@ -72,7 +72,7 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="stared" lemma="stirre" msd="VADA=----A-" tag="VBD" in="-8:ELAB&3a;exp" out="-1:subj|1:other|2:@dir|25:pnct">stirrede</W>
+<W gloss="stared" lemma="stirre" msd="VADA=----A-" tag="VBD" in="-8:CONST&3a;elab" out="-1:subj|1:other|2:@dir|25:pnct">stirrede</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:other" out="">alle</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-2:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
@@ -102,7 +102,7 @@
 </p>
 <p>
 <s>
-<W gloss="the_jurors" lemma="nævning" msd="NCCPG==D" tag="NNP" in="2:subj|5:[subj]" out="1:possd|38:ELAB&3a;part">Nævningernes</W>
+<W gloss="the_jurors" lemma="nævning" msd="NCCPG==D" tag="NNP" in="2:subj|5:[subj]" out="1:possd|38:CONST&3a;apart">Nævningernes</W>
 <W gloss="mines" lemma="mine" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">miner</W>
 <W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="-26:+DESCR&3a;qual" out="-2:subj|1:preds|30:pnct">var</W>
 <W gloss="sombre" lemma="dyster" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="2:conj">dystre</W>
@@ -140,7 +140,7 @@
 <W gloss="Several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="3:subj" out="1:pobj">Flere</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-38:ELAB&3a;part" out="-3:subj|1:dobj|2:@loc|4:pnct|16:ELAB&3a;exp">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-38:CONST&3a;apart" out="-3:subj|1:dobj|2:@loc|4:pnct|16:CONST&3a;elab">havde</W>
 <W gloss="tears" lemma="tåre" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="">tårer</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="eyes" lemma="øje" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">øjnene</W>
@@ -156,14 +156,14 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="jury_rows" lemma="nævninge-række" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">nævninge-rækker</W>
-<W gloss="squeezed" lemma="knuge" msd="VADA=----A-" tag="VBD" in="-16:ELAB&3a;exp" out="-9:subj|1:dobj|3:pnct|4:time|15:pnct">knugede</W>
+<W gloss="squeezed" lemma="knuge" msd="VADA=----A-" tag="VBD" in="-16:CONST&3a;elab" out="-9:subj|1:dobj|3:pnct|4:time|15:pnct">knugede</W>
 <W gloss="each_other's" lemma="hinanden" msd="PC--PG---" tag="PP" in="-1:dobj" out="1:possd">hinandens</W>
 <W gloss="hands" lemma="hånd" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">hænder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="as" lemma="mens" msd="CS" tag="IN" in="-4:time" out="2:vobj">mens</W>
 <W gloss="the_verdicts" lemma="kendelse" msd="NCCPU==D" tag="NNP" in="1:subj|2:[subj]" out="">kendelserne</W>
 <W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">blev</W>
-<W gloss="read" lemma="læse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:man|2:pobj|30:+ELAB&3a;exp/ATTR">læst</W>
+<W gloss="read" lemma="læse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:man|2:pobj|30:+CONST&3a;elab/ATTR">læst</W>
 <W gloss="aloud" lemma="høj" msd="ANP---=-R" tag="JJ" in="-1:man" out="">højt</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="4:nobj">af</W>
 <W gloss="District_Judge" lemma="distriktsdommer" msd="NCCSU==I" tag="NN" in="3:title" out="1:pnct">distriktsdommer</W>
@@ -177,7 +177,7 @@
 <p>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="Not_guilty" lemma="ikke-skyldig" msd="ANPCSU=IU" tag="JJ" in="16:+PREPAR" out="-1:pnct|1:pnct|2:conj|3:pnct">Ikke-skyldig</W>
+<W gloss="Not_guilty" lemma="ikke-skyldig" msd="ANPCSU=IU" tag="JJ" in="16:+SCENE" out="-1:pnct|1:pnct|2:conj|3:pnct">Ikke-skyldig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:conj" out="">ikke</W>
 <W gloss="?" lemma="..." msd="XP" tag="..." in="-3:pnct" out="">...</W>
@@ -193,7 +193,7 @@
 <W gloss="Rasmussen" lemma="Rasmussen" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Rasmussen</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-30:+ELAB&3a;exp/ATTR" out="-7:qobj|-16:+PREPAR|1:subj|2:man|3:pnct|26:pnct|42:+CONJ/(og)/ATTR">sagde</W>
+<W gloss="said" lemma="sige" msd="VADA=----A-" tag="VBD" in="-30:+CONST&3a;elab/ATTR" out="-7:qobj|-16:+SCENE|1:subj|2:man|3:pnct|26:pnct|42:+CONJ/(og)/ATTR">sagde</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="solemnly" lemma="højtidelig" msd="ANP---=-R" tag="JJ" in="-2:man" out="">højtideligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

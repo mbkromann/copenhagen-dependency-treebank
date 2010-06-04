@@ -1,7 +1,7 @@
 <p>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">NON</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:[subj]|9:+PREPAR" out="-1:neg|1:vobj">HA</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:[subj]|9:+SCENE" out="-1:neg|1:vobj">HA</W>
 <W lemma="visto" msd="NC" tag="NOM" in="-1:vobj" out="-1:[subj]|1:neg">VISTO</W>
 <W lemma="niente" msd="AN" tag="ADJ" in="-1:neg" out="">NIENTE</W>
 </s>
@@ -10,7 +10,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="testimone" msd="NC" tag="NOM" in="-1:nobj" out="">testimone</W>
-<W lemma="reagire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-9:+PREPAR|1:man|2:pnct|5:qobj|31:+ELAB&3a;exp">reagisce</W>
+<W lemma="reagire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-9:+SCENE|1:man|2:pnct|5:qobj|31:+CONST&3a;elab">reagisce</W>
 <W lemma="così" msd="RG" tag="ADV" in="-1:man" out="">così</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
@@ -41,10 +41,10 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]" out="1:nobj">La</W>
 <W lemma="reazione" msd="NC" tag="NOM" in="-1:nobj" out="">reazione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-31:+ELAB&3a;exp" out="-2:subj|1:vobj|5:pnct|68:+CONJ/(e)/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-31:+CONST&3a;elab" out="-2:subj|1:vobj|5:pnct|68:+CONJ/(e)/ATTR">è</W>
 <W lemma="causare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:pobj">causata</W>
 <W lemma="da" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">da</W>
-<W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="73:+ELAB&3a;part/ATTR">due</W>
+<W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="73:+CONST&3a;apart/ATTR">due</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:elab">cose</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-5:pnct" out="">:</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:elab" out="1:nobj|6:pnct|8:conj|18:conj">il</W>
@@ -117,7 +117,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">La</W>
 <W lemma="secondo" msd="AN" tag="ADJ" in="-1:nobj" out="">seconda</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-73:+ELAB&3a;part/ATTR" out="-2:subj|1:preds|2:pnct|13:qobj">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-73:+CONST&3a;apart/ATTR" out="-2:subj|1:preds|2:pnct|13:qobj">è</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:preds|12:coref-res" out="">questa</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="10:pnct" out="">"</W>
@@ -130,9 +130,9 @@
 <W lemma="chiusura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">chiusura</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="">caso</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:qobj|1:[subj]" out="-12:coref-res|-9:time|-10:pnct|-7:time|1:vobj|7:pnct|13:ELAB&3a;exp/ATTR">ho</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:qobj|1:[subj]" out="-12:coref-res|-9:time|-10:pnct|-7:time|1:vobj|7:pnct|13:CONST&3a;elab/ATTR">ho</W>
 <W lemma="ricevere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">ricevuto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj|115:+ELAB&3a;exp/ATTR">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="2:nobj|115:+CONST&3a;elab/ATTR">il</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">mio</W>
 <W lemma="rimborso" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:comp">rimborso</W>
 <W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="1:nobj">come</W>
@@ -143,7 +143,7 @@
 <p>
 <s>
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="2:iobj" out="">Mi</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:ELAB&3a;exp/ATTR|1:[subj]" out="1:vobj|20:pnct|26:CONTR&3a;prg/(ma)/ATTR|35:+CONTR&3a;dir/(invece)/ATTR|78:CONS&3a;dir/quindi/ATTR">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-13:CONST&3a;elab/ATTR|1:[subj]" out="1:vobj|20:pnct|26:CONTR&3a;sbj/(ma)/ATTR|35:+CONTR&3a;dir/(invece)/ATTR|78:TELIC&3a;dir/quindi/ATTR">hanno</W>
 <W lemma="riconoscere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:iobj|-1:[subj]|1:dobj">riconosciuto</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|8:man">una</W>
 <W lemma="tratta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">tratta</W>
@@ -169,7 +169,7 @@
 <W lemma="non" msd="RG" tag="ADV" in="3:neg" out="">Non</W>
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="2:iobj" out="">mi</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:pobj" out="">ci</W>
-<W lemma="pagare" msd="VADR" tag="VER&3a;pres" in="-26:CONTR&3a;prg/(ma)/ATTR" out="-3:neg|-2:iobj|-1:pobj|2:dobj|4:pnct">pago</W>
+<W lemma="pagare" msd="VADR" tag="VER&3a;pres" in="-26:CONTR&3a;sbj/(ma)/ATTR" out="-3:neg|-2:iobj|-1:pobj|2:dobj|4:pnct">pago</W>
 <W lemma="neanche" msd="RG" tag="ADV" in="1:neg" out="">neanche</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:neg|1:nobj">la</W>
 <W lemma="benzina" msd="NC" tag="NOM" in="-1:nobj" out="">benzina</W>
@@ -221,7 +221,7 @@
 <p>
 <s>
 <W lemma="quindi" msd="RG" tag="ADV" in="1:cause" out="">Quindi</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-78:CONS&3a;dir/quindi/ATTR|1:[subj]" out="-1:cause|1:vobj|12:pnct">ho</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-78:TELIC&3a;dir/quindi/ATTR|1:[subj]" out="-1:cause|1:vobj|12:pnct">ho</W>
 <W lemma="ricevere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:dobj">ricevuto</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">200</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:pobj">corone</W>
@@ -238,7 +238,7 @@
 </p>
 <p>
 <s>
-<W lemma="perdere" msd="VADR" tag="VER&3a;pres" in="9:+PREPAR" out="2:dobj">PERDE</W>
+<W lemma="perdere" msd="VADR" tag="VER&3a;pres" in="9:+SCENE" out="2:dobj">PERDE</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">2000</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:dobj" out="-1:attr">CORONE</W>
 </s>
@@ -247,7 +247,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="giudice" msd="NC" tag="NOM" in="-1:nobj" out="">giudice</W>
-<W lemma="informare" msd="VADR" tag="VER&3a;pres" in="-115:+ELAB&3a;exp/ATTR" out="-2:subj|-9:+PREPAR|1:dobj|13:pnct|17:DESCR&3a;eval/ATTR">informa</W>
+<W lemma="informare" msd="VADR" tag="VER&3a;pres" in="-115:+CONST&3a;elab/ATTR" out="-2:subj|-9:+SCENE|1:dobj|13:pnct|17:DESCR&3a;eval/ATTR">informa</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">il</W>
 <W lemma="rimborso" msd="NC" tag="NOM" in="-1:nobj" out="">rimborso</W>
@@ -264,11 +264,11 @@
 </s>
 <s>
 <W lemma="lo" msd="PP" tag="PRO&3a;pers" in="-12:coref|1:dobj" out="">Lo</W>
-<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-17:DESCR&3a;eval/ATTR" out="-1:dobj|1:fpredo|2:pnct|4:&3a;CAUSE&3a;reas/(siccome)&7c;CONSOL&3a;just/ATTR|14:pnct">trovo</W>
+<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-17:DESCR&3a;eval/ATTR" out="-1:dobj|1:fpredo|2:pnct|4:&3a;AGENTIVE&3a;reas/(siccome)&7c;CONSOL&3a;source/ATTR|14:pnct">trovo</W>
 <W lemma="ingiusto" msd="AN" tag="ADJ" in="-1:fpredo" out="">ingiusto</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-2:pnct" out="">:</W>
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="1:subj" out="">io</W>
-<W lemma="perdere" msd="VADR" tag="VER&3a;pres" in="-4:&3a;CAUSE&3a;reas/(siccome)&7c;CONSOL&3a;just/ATTR" out="-1:subj|2:dobj|7:pnct">perdo</W>
+<W lemma="perdere" msd="VADR" tag="VER&3a;pres" in="-4:&3a;AGENTIVE&3a;reas/(siccome)&7c;CONSOL&3a;source/ATTR" out="-1:subj|2:dobj|7:pnct">perdo</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">2000</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-2:dobj" out="-1:attr|1:ext">corone</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">per</W>

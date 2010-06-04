@@ -77,7 +77,7 @@
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="interested" lemma="interessere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="">interesserede</W>
 <W gloss="companies" lemma="selskab" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">selskaber</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-30:CONJ/(og)" out="-4:subj|1:time|2:vobj|19:pnct|36:+ELAB&3a;exp/ATTR">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-30:CONJ/(og)" out="-4:subj|1:time|2:vobj|19:pnct|36:+CONST&3a;elab/ATTR">har</W>
 <W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="-1:time" out="">allerede</W>
 <W gloss="shown" lemma="vise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-6:[subj]|1:dobj|2:pnct|3:time">vist</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
@@ -113,7 +113,7 @@
 <W gloss="others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="">andre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-36:+ELAB&3a;exp/ATTR" out="-8:qobj|2:subj|14:pnct">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-36:+CONST&3a;elab/ATTR" out="-8:qobj|2:subj|14:pnct">siger</W>
 <W gloss="Preben" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Nygaard" lemma="Nygaard" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:ref|3:rel">Nygaard</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -157,7 +157,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="26:pnct">Men</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:+CONTR&3a;dir/men" out="-1:subj|-2:coord|1:preds|2:pnct|28:CAUSE&3a;reas/(for)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:+CONTR&3a;dir/men" out="-1:subj|-2:coord|1:preds|2:pnct|28:AGENTIVE&3a;reas/(for)">er</W>
 <W gloss="the_intent" lemma="hensigt" msd="NCCSU==D" tag="NN" in="-1:preds" out="">hensigten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="4:vobj">at</W>
@@ -185,7 +185,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-28:CAUSE&3a;reas/(for)" out="-1:subj|1:neg|2:preds|3:pnct|17:pnct|22:CONJ/(og)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-28:AGENTIVE&3a;reas/(for)" out="-1:subj|1:neg|2:preds|3:pnct|17:pnct|22:CONJ/(og)">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="the_intent" lemma="hensigt" msd="NCCSU==D" tag="NN" in="-2:preds" out="">hensigten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -207,7 +207,7 @@
 <s>
 <W gloss="Future" lemma="komme" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="1:attr" out="">Kommende</W>
 <W gloss="merger_partners" lemma="fusions-partner" msd="NCCPU==I" tag="NNP" in="1:subj|3:[subj]" out="-1:attr">fusions-partnere</W>
-<W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-22:CONJ/(og)" out="-1:subj|1:neg|2:vobj|12:pnct|15:ELAB&3a;rest/eller/ATTR">skal</W>
+<W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-22:CONJ/(og)" out="-1:subj|1:neg|2:vobj|12:pnct|15:CONST&3a;rest/eller/ATTR">skal</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|2:cause|1:@dir">jages</W>
 <W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
@@ -222,7 +222,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Or" lemma="eller" msd="CC" tag="CC" in="-15:ELAB&3a;rest/eller/ATTR" out="1:conj">Eller</W>
+<W gloss="Or" lemma="eller" msd="CC" tag="CC" in="-15:CONST&3a;rest/eller/ATTR" out="1:conj">Eller</W>
 <W gloss="in" lemma="med" msd="SP" tag="IN" in="-1:conj" out="2:nobj">med</W>
 <W gloss="Preben" lemma="Preben" msd="NP--U==-" tag="NNP" in="1:namef" out="">Preben</W>
 <W gloss="Nygaard's" lemma="Nygaard" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd|2:pnct|14:xpl">Nygaards</W>

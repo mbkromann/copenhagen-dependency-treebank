@@ -1,7 +1,7 @@
 <p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="13:CONS&3a;dir/(perciò)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="13:TELIC&3a;dir/(perciò)">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="" out="">anno</W>
 <W lemma="dedicare" msd="VAP" tag="VER&3a;pper" in="" out="">dedicato</W>
@@ -10,15 +10,15 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="56:+ELAB&3a;exp">La</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="56:+CONST&3a;elab">La</W>
 <W lemma="galleria" msd="NC" tag="NOM" in="" out="">galleria</W>
 <W lemma="d'" msd="SP" tag="PRE" in="" out="">d'</W>
 <W lemma="arte" msd="NC" tag="NOM" in="" out="">arte</W>
-<W lemma="celebrare" msd="VADR" tag="VER&3a;pres" in="-13:CONS&3a;dir/(perciò)" out="">celebra</W>
+<W lemma="celebrare" msd="VADR" tag="VER&3a;pres" in="-13:TELIC&3a;dir/(perciò)" out="">celebra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="anniversario" msd="NC" tag="NOM" in="" out="">anniversario</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="26:ELAB&3a;exp">una</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="26:CONST&3a;elab">una</W>
 <W lemma="statua" msd="NC" tag="NOM" in="" out="">statua</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="bronzo" msd="NC" tag="NOM" in="" out="">bronzo</W>
@@ -44,7 +44,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">La</W>
 <W lemma="scultura" msd="NC" tag="NOM" in="" out="">scultura</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:ELAB&3a;exp" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:CONST&3a;elab" out="">è</W>
 <W lemma="firmare" msd="VAP" tag="VER&3a;pper" in="" out="">firmata</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="Louis" msd="NP" tag="NPR" in="" out="">Louis</W>
@@ -66,7 +66,7 @@
 <W lemma="galleria" msd="NC" tag="NOM" in="" out="">galleria</W>
 <W lemma="d'" msd="SP" tag="PRE" in="" out="">d'</W>
 <W lemma="arte" msd="NC" tag="NOM" in="" out="">arte</W>
-<W lemma="continuare" msd="VADR" tag="VER&3a;pres" in="-56:+ELAB&3a;exp" out="22:;CONJ/neanche&7c;ELAB&3a;exp|42:CONS&3a;dir/quindi&amp;DESCR&3a;qual">continua</W>
+<W lemma="continuare" msd="VADR" tag="VER&3a;pres" in="-56:+CONST&3a;elab" out="22:;CONJ/neanche&7c;CONST&3a;elab|42:TELIC&3a;dir/quindi&amp;DESCR&3a;qual">continua</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="avere&7c;riavere" msd="VAF" tag="VER&3a;infi" in="" out="">avere</W>
 <W lemma="poco" msd="RG" tag="ADV" in="" out="">poco</W>
@@ -88,7 +88,7 @@
 <W lemma="qui" msd="RG" tag="ADV" in="" out="">qui</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">lo</W>
 <W lemma="spazio" msd="NC" tag="NOM" in="" out="">spazio</W>
-<W lemma="consentire" msd="VADR" tag="VER&3a;pres" in="-22:;CONJ/neanche&7c;ELAB&3a;exp" out="">consente</W>
+<W lemma="consentire" msd="VADR" tag="VER&3a;pres" in="-22:;CONJ/neanche&7c;CONST&3a;elab" out="">consente</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="esporre" msd="VAF" tag="VER&3a;infi" in="" out="">esporre</W>
 <W lemma="molto" msd="RG" tag="ADV" in="" out="">molto</W>
@@ -108,7 +108,7 @@
 <W lemma="quindi" msd="RG" tag="ADV" in="" out="">Quindi</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">gli</W>
 <W lemma="articolo" msd="NC" tag="NOM" in="" out="">articoli</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-42:CONS&3a;dir/quindi&amp;DESCR&3a;qual" out="10:ELAB&3a;exem/p.es">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-42:TELIC&3a;dir/quindi&amp;DESCR&3a;qual" out="10:CONST&3a;exem/p.es">sono</W>
 <W lemma="poco" msd="AN" tag="ADJ" in="" out="">pochi</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
@@ -118,7 +118,7 @@
 <s>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">Ad</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="" out="">esempio</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-10:ELAB&3a;exem/p.es" out="27:ELAB&3a;part|92:+CONJ/(e)">un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-10:CONST&3a;exem/p.es" out="27:CONST&3a;apart|92:+CONJ/(e)">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="" out="">paio</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="cassettone" msd="NC" tag="NOM" in="" out="">cassettoni</W>
@@ -145,7 +145,7 @@
 <W lemma="frontale" msd="AN" tag="ADJ" in="" out="">frontale</W>
 <W lemma="ampio" msd="AN" tag="ADJ" in="" out="">ampi</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:ELAB&3a;part" out="20:ELAB&3a;part">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:CONST&3a;apart" out="20:CONST&3a;apart">è</W>
 <W lemma="valutare" msd="VAP" tag="VER&3a;pper" in="" out="">valutato</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">35.000</W>
 <W lemma="corona" msd="NC" tag="NOM" in="" out="">corone</W>
@@ -165,7 +165,7 @@
 <W lemma="secondo" msd="AN" tag="ADJ" in="" out="">secondo</W>
 <W lemma="cassettone" msd="NC" tag="NOM" in="" out="">cassettone</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:ELAB&3a;part" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:CONST&3a;apart" out="">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="restaurare" msd="VAP" tag="VER&3a;pper" in="" out="">restaurato</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -198,7 +198,7 @@
 </p>
 <p>
 <s>
-<W lemma="incisione" msd="NC" tag="NOM" in="" out="51:ELAB&3a;exp">Incisioni</W>
+<W lemma="incisione" msd="NC" tag="NOM" in="" out="51:CONST&3a;elab">Incisioni</W>
 <W lemma="su" msd="SP" tag="PRE" in="" out="">su</W>
 <W lemma="legno" msd="NC" tag="NOM" in="" out="">legno</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -210,7 +210,7 @@
 <W lemma="papiro" msd="NC" tag="NOM" in="" out="">papiro</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dal</W>
 <W lemma="Giappone" msd="NP" tag="NPR" in="" out="">Giappone</W>
-<W lemma="occupare" msd="VADR" tag="VER&3a;pres" in="-92:+CONJ/(e)" out="12:ELAB&3a;exp">occupano</W>
+<W lemma="occupare" msd="VADR" tag="VER&3a;pres" in="-92:+CONJ/(e)" out="12:CONST&3a;elab">occupano</W>
 <W lemma="quasi" msd="RG" tag="ADV" in="" out="">quasi</W>
 <W lemma="interamente" msd="RG" tag="ADV" in="" out="">interamente</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
@@ -222,7 +222,7 @@
 <W lemma="molto" msd="AN" tag="ADJ" in="" out="">molti</W>
 <W lemma="articolo" msd="NC" tag="NOM" in="" out="">articoli</W>
 <W lemma="giapponese" msd="AN" tag="ADJ" in="" out="">giapponesi</W>
-<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="-12:ELAB&3a;exp" out="">arrivano</W>
+<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="-12:CONST&3a;elab" out="">arrivano</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dal</W>
 <W lemma="recentemente" msd="RG" tag="ADV" in="" out="">recentemente</W>
 <W lemma="scomparire" msd="VAP" tag="VER&3a;pper" in="" out="">scomparso</W>
@@ -249,7 +249,7 @@
 <W lemma="incisione" msd="NC" tag="NOM" in="" out="">incisioni</W>
 <W lemma="su" msd="SP" tag="PRE" in="" out="">su</W>
 <W lemma="legno" msd="NC" tag="NOM" in="" out="">legno</W>
-<W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-51:ELAB&3a;exp" out="">va</W>
+<W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-51:CONST&3a;elab" out="">va</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dalle</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">500</W>
 <W lemma="corona" msd="NC" tag="NOM" in="" out="">corone</W>

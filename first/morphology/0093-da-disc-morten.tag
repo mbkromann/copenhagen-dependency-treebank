@@ -51,7 +51,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="social" lemma="social" morph="social" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">sociale</W>
 <W gloss="authorities" lemma="myndighed" morph="myndig +hed/QUAL" msd="NCCPU==I" tag="NNP" in="-3:conj" out="-1:attr|-2:coord">myndigheder</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|8:preds|25:pnct|31:+CAUSE&3a;expl/nemlig">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-10:time|1:subj|5:other|7:man|8:preds|25:pnct|31:+AGENTIVE&3a;expl/nemlig">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:attr|3:nobj">den</W>
 <W gloss="little" lemma="lille" morph="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="three-year_old" lemma="tre-årig" morph="årig -tre/DENUM&3a;ord år +ig/DENOM&3a;poss" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">tre-årige</W>
@@ -82,7 +82,7 @@
 <p>
 <s>
 <W gloss="Pernille" lemma="Pernille" msd="NP--U==-" tag="NNP" in="1:subj|6:[subj]" out="">Pernille</W>
-<W gloss="receive" lemma="få" morph="få" msd="VADR=----A-" tag="VBD" in="-31:+CAUSE&3a;expl/nemlig" out="-1:subj|1:eval|2:eval|3:dobj|10:pnct|11:conc|26:pnct|32:+CAUSE&3a;reas/(fordi)">får</W>
+<W gloss="receive" lemma="få" morph="få" msd="VADR=----A-" tag="VBD" in="-31:+AGENTIVE&3a;expl/nemlig" out="-1:subj|1:eval|2:eval|3:dobj|10:pnct|11:conc|26:pnct|32:+AGENTIVE&3a;reas/(fordi)">får</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="-1:eval" out="">nemlig</W>
 <W gloss="after_all" lemma="alligevel" msd="RGU" tag="RP" in="-2:eval" out="">alligevel</W>
 <W gloss="allowed" lemma="lov" morph="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-3:dobj" out="1:nobj">lov</W>
@@ -114,7 +114,7 @@
 <p>
 <s>
 <W gloss="Yesterday" lemma="i_går" msd="RGU" tag="RP" in="1:time" out="">I_går</W>
-<W gloss="reversed" lemma="omstøde" morph="støde -om/ASPEC&3a;rev" msd="VADA=----A-" tag="VBD" in="-32:+CAUSE&3a;reas/(fordi)" out="-1:time|1:subj|3:man|6:dobj|7:pnct|44:+ELAB&3a;exp/ATTR|57:+CONJ/(og)">omstødte</W>
+<W gloss="reversed" lemma="omstøde" morph="støde -om/ASPEC&3a;rev" msd="VADA=----A-" tag="VBD" in="-32:+AGENTIVE&3a;reas/(fordi)" out="-1:time|1:subj|3:man|6:dobj|7:pnct|44:+CONST&3a;elab/ATTR|57:+CONJ/(og)">omstødte</W>
 <W gloss="Odense" lemma="Odense" msd="NP--U==-" tag="NNP" in="-1:subj" out="1:nobj">Odense</W>
 <W gloss="municipality" lemma="kommune" morph="kommune" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kommune</W>
 <W gloss="the_short" lemma="kort" morph="kort" msd="ANP---=-R" tag="JJ" in="-3:man" out="2:conj">kort</W>
@@ -158,7 +158,7 @@
 <W gloss="citizens" lemma="borger" morph="borge +r/PRED&3a;agent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">borgere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-16:pnct" out="">"</W>
-<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="-44:+ELAB&3a;exp/ATTR" out="-30:qobj|2:subj|5:pnct">siger</W>
+<W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="-44:+CONST&3a;elab/ATTR" out="-30:qobj|2:subj|5:pnct">siger</W>
 <W gloss="Leif" lemma="Leif" msd="NP--U==-" tag="NNP" in="1:namef" out="">Leif</W>
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:appa">Nielsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -217,7 +217,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="18:pnct">Og</W>
 <W gloss="Wednesday" lemma="onsdag" morph="Odin onsdag/DENOM&3a;rel.deono.pers" msd="NCCSU==I" tag="NN" in="1:time" out="">onsdag</W>
-<W gloss="suffered" lemma="lide" morph="lide" msd="VADA=----A-" tag="VBD" in="-10:+CONJ/og" out="-1:time|-2:coord|1:subj|5:other|7:dobj|28:+ELAB&3a;exp">led</W>
+<W gloss="suffered" lemma="lide" morph="lide" msd="VADA=----A-" tag="VBD" in="-10:+CONJ/og" out="-1:time|-2:coord|1:subj|5:other|7:dobj|28:+CONST&3a;elab">led</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:nobj|2:loc">det</W>
 <W gloss="public_authorities" lemma="offentlig" morph="offentlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:nobj" out="">offentlige</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
@@ -245,7 +245,7 @@
 <W gloss="address" lemma="adresse" morph="adresse" msd="NCCSU==I" tag="NN" in="-2:possd" out="1:pobj">adresse</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Odense" lemma="Odense" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Odense</W>
-<W gloss="were_supposed_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-28:+ELAB&3a;exp" out="-7:cause|1:subj|4:vobj|20:pnct">skulle</W>
+<W gloss="were_supposed_to" lemma="skulle" morph="skulle" msd="VADA=----A-" tag="VBD" in="-28:+CONST&3a;elab" out="-7:cause|1:subj|4:vobj|20:pnct">skulle</W>
 <W gloss="the_child_welfare_authorities" lemma="børneværn" morph="-værn -børne/func.dobj" msd="NCNSU==D" tag="NN" in="-1:subj|3:[subj]" out="1:loc">børneværnet</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_city" lemma="by" morph="by" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byen</W>

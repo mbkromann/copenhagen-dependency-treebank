@@ -41,7 +41,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="MEET" lemma="mødes" morph="mødes" msd="VEDR=----A-" tag="VBN" in="8:+PREPAR" out="1:mod">MØDES</W>
+<W gloss="MEET" lemma="mødes" morph="mødes" msd="VEDR=----A-" tag="VBN" in="8:+SCENE" out="1:mod">MØDES</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:mod" out="1:nobj">TO</W>
 <W gloss="occasions" lemma="gang" morph="gange /PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">GANGE</W>
 </s>
@@ -49,7 +49,7 @@
 <p>
 <s>
 <W gloss="the_season" lemma="sæson" morph="sæson" msd="NCCSU==D" tag="NN" in="1:subj" out="">Sæsonen</W>
-<W gloss="will_begin" lemma="indlede" morph="lede -ind/TRANS" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|-8:+PREPAR|1:struct|4:time|5:pobj|11:pnct|15:conj|25:pnct|35:+ELAB&3a;exp">indledes</W>
+<W gloss="will_begin" lemma="indlede" morph="lede -ind/TRANS" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|-8:+SCENE|1:struct|4:time|5:pobj|11:pnct|15:conj|25:pnct|35:+CONST&3a;elab">indledes</W>
 <W gloss="As" lemma="som" msd="U=" tag="WDT" in="-1:struct" out="1:vobj">som</W>
 <W gloss="mentioned" lemma="nævne" morph="navn nævne/DER&3a;nv" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="">nævnt</W>
 <W gloss="16" lemma="16." msd="AO---U=--" tag="JJ" in="1:nobj" out="">16.</W>
@@ -84,7 +84,7 @@
 <W gloss="teams" lemma="hold" morph="hold" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">hold</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="the_Super_League" lemma="superliga" morph="liga -super/GRAD&3a;qual" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Superligaen</W>
-<W gloss="will" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-35:+ELAB&3a;exp" out="-5:subj|1:vobj|8:pnct|11:conj|41:pnct|52:+CONJ/(og)&7c;TIME&3a;succ">skal</W>
+<W gloss="will" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-35:+CONST&3a;elab" out="-5:subj|1:vobj|8:pnct|11:conj|41:pnct|52:+CONJ/(og)&7c;TIME&3a;succ">skal</W>
 <W gloss="meet" lemma="mødes" morph="mødes" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|1:tobj">mødes</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:tobj" out="1:nobj|2:time">to</W>
 <W gloss="occasions" lemma="gang" morph="gange /PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">gange</W>
@@ -159,7 +159,7 @@
 <W gloss="decided" lemma="afgøre" morph="gøre -af/ASPEC&3a;term" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]">afgjort</W>
 <W gloss="whether" lemma="om" msd="CS" tag="IN" in="-4:nobj" out="2:vobj">om</W>
 <W gloss="the_tournament" lemma="turnering" morph="turnere +ing/PRED&3a;core" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">turneringen</W>
-<W gloss="will" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|20:+CONS&3a;dir/(så)&7c;CONJ/(og)">skal</W>
+<W gloss="will" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|20:+TELIC&3a;dir/(så)&7c;CONJ/(og)">skal</W>
 <W gloss="be_turned_on_its_head" lemma="vende" morph="vende" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pnct|2:cons">vendes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-2:cons" out="7:vobj">så</W>
@@ -179,7 +179,7 @@
 <W gloss="is" lemma="blive" morph="blive" msd="VADR=----A-" tag="VBD" in="3:cond" out="1:subj|2:preds">Bliver</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="the_case" lemma="tilfælde" morph="tilfælde" msd="NCNSU==D" tag="NN" in="-2:preds" out="">tilfældet</W>
-<W gloss="will_be_chosen" lemma="kåre" morph="kåre" msd="VADR=----P-" tag="VBD" in="-20:+CONS&3a;dir/(så)&7c;CONJ/(og)" out="-3:cond|1:subj|3:time|6:pnct|11:+¤conc|50:+DISJ/(eller)">kåres</W>
+<W gloss="will_be_chosen" lemma="kåre" morph="kåre" msd="VADR=----P-" tag="VBD" in="-20:+TELIC&3a;dir/(så)&7c;CONJ/(og)" out="-3:cond|1:subj|3:time|6:pnct|11:+¤conc|50:+DISJ/(eller)">kåres</W>
 <W gloss="the_year's" lemma="år" morph="år" msd="NCNSG==D" tag="NN" in="-1:subj" out="1:possd">årets</W>
 <W gloss="Danish_champion" lemma="danmarksmester" morph="mester -[danmark]s/poss" msd="NCCSU==I" tag="NN" in="-1:possd" out="">danmarksmester</W>
 <W gloss="on" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:time" out="1:nobj|2:nobj">den</W>

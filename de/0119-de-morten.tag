@@ -93,7 +93,7 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="12:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-23:coref-var|4:[subj]|10:[subj]|11:subj" out="1:attr|89:coref-var">der</W>
 <W lemma="24jährig" msd="AN" tag="ADJA" in="-1:attr" out="">24jährige</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj|22:assoc-loc">eine</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj|22:assoc-formal.loc">eine</W>
 <W lemma="Telefonzelle" msd="NC" tag="NN" in="-1:nobj" out="">Telefonzelle</W>
 <W lemma="suchen" msd="VAF" tag="VVINF" in="7:vobj" out="-2:dobj|-4:[subj]|6:conj">suchen</W>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">und</W>
@@ -115,7 +115,7 @@
 <W lemma="Verdacht" msd="NC" tag="NN" in="-1:nobj" out="2:nobj">Verdacht</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:nobj" out="4:vobj">dass</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-22:assoc-loc|2:[subj]|3:subj" out="1:nobj|22:coref">das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-22:assoc-formal.loc|2:[subj]|3:subj" out="1:nobj|22:coref">das</W>
 <W lemma="Telefon" msd="NC" tag="NN" in="-1:nobj" out="">Telefon</W>
 <W lemma="abhören" msd="VAP" tag="VVPP" in="1:vobj" out="-2:[subj]">abgehört</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-4:vobj" out="-3:subj|-1:vobj">wird</W>

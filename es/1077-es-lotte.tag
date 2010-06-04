@@ -16,16 +16,16 @@
 <W lemma="haber~que" morph="haber~que" msd="VAD" tag="VMfin" in="-6:conj" out="1:vobj|6:pnct|21:conj">hay que</W>
 <W _noerror="&3a;nosubj&3a;" lemma="haber" morph="" msd="VAF" tag="VHinf" in="-1:vobj" out="1:dobj">haber</W>
 <W lemma="&lt;unknown&gt;" morph="sendero" msd="NC" tag="NC" in="-1:dobj" out="1:attr|1:{func}#|5:conj|9:conj|13:conj">senderos</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="actividad" morph="activo +idad/QUAL" msd="NC" tag="NC" in="-1:nobj" out="1:attr">actividad</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">física</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" morph="sendero" msd="NC" tag="NC" in="-5:conj" out="1:attr|1:{func}#|3:pnct">senderos</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="ejercicio" morph="ejercitar +Ø/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">ejercicio</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="carrera" morph="carrera" msd="NC" tag="NC" in="-9:conj" out="1:attr|1:{func}#|3:pnct">carreras</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" morph="orientar +ción/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">orientación</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" morph="sendero" msd="NC" tag="NC" in="-13:conj" out="1:attr|1:{func}#|3:pnct">senderos</W>
@@ -54,7 +54,7 @@
 <W lemma="&lt;unknown&gt;" morph="estar" msd="NC" tag="NC" in="-8:conj" out="-2:coord|-1:loc|1:preds|25:conj">está</W>
 <W lemma="claro" msd="AN" tag="ADJ" in="-1:preds" out="">claro</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="9:vobj">que</W>
-<W lemma="en" msd="SP" tag="PREP" in="8:loc" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="8:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|3:conj|5:attr">los</W>
 <W lemma="&lt;unknown&gt;" morph="terrón" msd="NC" tag="NC" in="-1:nobj" out="">terrones</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -65,7 +65,7 @@
 <W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-9:vobj" out="-8:loc|-1:neg|1:dobj|9:pnct">hay</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:dobj" out="1:nobj">ningún</W>
 <W lemma="problema" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">problema</W>
-<W lemma="entre" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">entre</W>
+<W lemma="entre" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">entre</W>
 <W lemma="acceso" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:attr|3:conj">acceso</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-31:coref-id|-1:attr" out="">público</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
@@ -108,7 +108,7 @@
 <W lemma="un" msd="PD" tag="ART" in="-3:conj" out="-1:coord|2:nobj">un</W>
 <W lemma="mejorar" morph="mejor +ar/DER&3a;av +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="1:attr" out="">mejorado</W>
 <W lemma="cuidado" morph="cuidar +ado/PRED&3a;core" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">cuidado</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="naturaleza" morph="natural +eza/QUAL" msd="NC" tag="NC" in="-1:nobj" out="1:attr">naturaleza</W>
 <W lemma="silvestre" msd="AN" tag="ADJ" in="-1:attr" out="">silvestre</W>
@@ -119,18 +119,18 @@
 <W _noerror="&3a;nosubj&3a;" lemma="observar" morph="observar" msd="VAD" tag="VLfin" in="-3:vobj" out="-2:ex|-1:robj|1:subj|5:pnct">observa</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="sur" msd="SP" tag="PE" in="-1:nobj" out="1:attr|1:{const}|4:ref|10:relpa">sur</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Sjælland</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="donde" msd="RG" tag="ADV" in="-4:ref|6:loc" out="">donde</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" morph="mayor +ía/QUAL" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj|1:{arg}">mayoría</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="terreno" morph="" msd="NC" tag="NC" in="-1:nobj" out="">terrenos</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-10:relpa" out="-5:subj|-6:loc|1:preds|2:ben|6:pnct">están</W>
 <W lemma="alquilar" morph="alquilar +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-1:preds" out="">alquilados</W>
-<W lemma="para" msd="SP" tag="PREP" in="-2:ben" out="1:nobj">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-2:ben" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-30:coref-var" out="1:nobj|2:attr|14:coref-var">la</W>
 <W lemma="caza" morph="cazar +Ø/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">caza</W>
 <W lemma="privado" msd="AN" tag="ADJ" in="-2:attr" out="">privada</W>
@@ -153,7 +153,7 @@
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="3:pobj|3:{arg}">relación</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:degr" out="">más</W>
 <W lemma="natural" msd="AN" tag="ADJ" in="-3:attr" out="-1:degr">natural</W>
-<W lemma="con" msd="SP" tag="PREP" in="-3:pobj|-3:{arg}" out="1:nobj">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="-3:pobj|-3:{arg}" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr|5:coref-var">la</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">población</W>
 <W lemma="local" msd="AN" tag="ADJ" in="-2:attr" out="">local</W>
@@ -163,7 +163,7 @@
 <W lemma="gente" morph="" msd="NC" tag="NC" in="-1:nobj" out="">gente</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:vobj" out="-2:subj|1:preds|5:pnct|7:conj">está</W>
 <W lemma="acostumbrar" morph="costumbre -+[a][ar]/DER&3a;nv -a/ASPECT&3a;cause +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj">acostumbrada</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj" out="1:vobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="ver" morph="" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-5:[subj]|1:dobj">ver</W>
 <W lemma="cazador" morph="cazar +dor/PRED&3a;agent" msd="NC" tag="NC" in="-1:dobj|-20:assoc-agent" out="">cazadores</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
@@ -171,22 +171,22 @@
 <W lemma="comer" morph="comer" msd="VAD" tag="VLfin" in="-7:conj" out="-1:robj|2:subj|5:cons">come</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">más</W>
 <W lemma="carne" morph="" msd="NC" tag="NC" in="-2:subj" out="-1:attr|1:attr|1:{origin}">carne</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{origin}" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{origin}" out="1:nobj">de</W>
 <W lemma="caza" morph="cazar +Ø/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">caza</W>
 <W lemma="lograr" morph="lograr" msd="VAF" tag="VLadj" in="-5:cons" out="1:man|3:dobj">logrando</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-1:man" out="">así</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:attr" out="">más</W>
 <W lemma="&lt;unknown&gt;" morph="alegre +ía/QUAL" msd="AN" tag="ADJ" in="-3:dobj" out="-1:attr|1:pobj|1:{arg}">alegría</W>
-<W lemma="por" msd="SP" tag="PREP" in="-1:pobj|-1:{arg}" out="1:nobj">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">por</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="naturaleza" morph="natural +eza/QUAL" msd="NC" tag="NC" in="-1:nobj" out="">naturaleza</W>
 <W lemma="." msd="XP" tag="FS" in="-32:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="8:contr" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="en" msd="SP" tag="PREP" in="6:loc" out="1:nobj|5:pnct">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="6:loc" out="1:nobj|5:pnct">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="norte" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}">norte</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:attr|-1:{const}" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Sjælland</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-6:loc|-8:contr|1:subj|14:pnct">es</W>
@@ -196,10 +196,10 @@
 <W lemma="estado" morph="" msd="NC" tag="NC" in="-1:nobj" out="">estado</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-4:ref|1:subj" out="">que</W>
 <W lemma="ir" morph="ir" msd="VAD" tag="VLfin" in="-5:relr" out="-1:subj|1:pobj|3:man|4:hab|9:cont|19:conj|35:conj">van</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="caza" morph="cazar +Ø/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">caza</W>
 <W lemma="discreto" msd="RG" tag="ADV" in="-3:man" out="">discretamente</W>
-<W lemma="en" msd="SP" tag="PREP" in="-4:hab" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-4:hab" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr">los</W>
 <W lemma="&lt;unknown&gt;" morph="día" msd="NC" tag="NC" in="-1:nobj" out="">días</W>
 <W lemma="laboral" morph="labor +al/DENOM&3a;rel.norm" msd="AN" tag="ADJ" in="-2:attr" out="">laborales</W>
@@ -215,12 +215,12 @@
 <W lemma="caza" morph="cazar +Ø/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">caza</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="vendar&7c;vender" morph="vender" msd="VAD" tag="VLfin" in="-19:conj" out="-4:coord|-3:subj|-1:robj|1:pobj|5:pnct|6:other">vende</W>
-<W lemma="a" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr">un</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="">círculo</W>
 <W lemma="limitar" morph="límite +ar/DER&3a;nv +ado&3a;DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-2:attr" out="">limitado</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
-<W lemma="a" msd="SP" tag="PREP" in="-6:other" out="1:nobj|5:pnct">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-6:other" out="1:nobj|5:pnct">a</W>
 <W lemma="beneficio" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">beneficio</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj.subj|-1:{agent}" out="1:nobj">del</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:attr#">Tesoro</W>
@@ -232,7 +232,7 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="volver" morph="volver" msd="VAD" tag="VLfin" in="-35:conj" out="-4:coord|-3:subj|-1:robj|1:preds">vuelve</W>
 <W lemma="distanciar" morph="distancia +ar/DER&3a;nv +ado&3a;DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj">distanciada</W>
-<W lemma="de" msd="SP" tag="PREP" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|5:pnct|6:appa">lo</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:degr" out="">más</W>
 <W lemma="natural" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr|1:attr|1:{pos}">natural</W>

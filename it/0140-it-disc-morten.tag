@@ -10,16 +10,16 @@
 <W lemma="poco" msd="AN" tag="ADJ" in="" out="">pochi</W>
 <W lemma="anno" msd="NC" tag="NOM" in="" out="">anni</W>
 <W lemma="prima" msd="RG" tag="ADV" in="" out="">prima</W>
-<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="" out="9:ELAB&3a;exp">aveva</W>
+<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="" out="9:CONST&3a;elab">aveva</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="" out="">grandi</W>
 <W lemma="piano" msd="NC" tag="NOM" in="" out="">piani</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="89:+ELAB&3a;exp">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="89:+CONST&3a;elab">l'</W>
 <W lemma="isola" msd="NC" tag="NOM" in="" out="">isola</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-9:ELAB&3a;exp" out="33:+CONTR&3a;dir/ma">Avrebbe</W>
+<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-9:CONST&3a;elab" out="33:+CONTR&3a;dir/ma">Avrebbe</W>
 <W lemma="aprire" msd="VAP" tag="VER&3a;pper" in="" out="">aperto</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="casinò" msd="NC" tag="NOM" in="" out="">casinò</W>
@@ -103,7 +103,7 @@
 <W lemma="isola" msd="NC" tag="NOM" in="" out="">isola</W>
 <W lemma="Robinson" msd="NP" tag="NPR" in="" out="">Robinson</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Crusoe</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-89:+ELAB&3a;exp" out="16:CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-89:+CONST&3a;elab" out="16:CONJ/(e)">è</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="paradiso" msd="NC" tag="NOM" in="" out="">paradiso</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -141,7 +141,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="28:+PREPAR" out="">Selkirk</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="28:+SCENE" out="">Selkirk</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="corsaro" msd="NC" tag="NOM" in="" out="">corsaro</W>
 </s>
@@ -169,7 +169,7 @@
 <W lemma="isola" msd="NC" tag="NOM" in="" out="">isola</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">si</W>
-<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="-50:+JOINT" out="-28:+PREPAR|19:+ELAB&3a;exp">arriva</W>
+<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="-50:+JOINT" out="-28:+SCENE|19:+CONST&3a;elab">arriva</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
 <W lemma="pittoresco" msd="AN" tag="ADJ" in="" out="">pittoresca</W>
@@ -188,7 +188,7 @@
 <p>
 <s>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">Si</W>
-<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-19:+ELAB&3a;exp" out="">trova</W>
+<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-19:+CONST&3a;elab" out="">trova</W>
 <W lemma="direttamente" msd="RG" tag="ADV" in="" out="">direttamente</W>
 <W lemma="su" msd="SP" tag="PRE" in="" out="">su</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>

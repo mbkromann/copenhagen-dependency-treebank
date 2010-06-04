@@ -43,7 +43,7 @@
 <s>
 <W gloss="The_weekend's" lemma="weekend" morph="weekend" msd="NCCSG==D" tag="NN" in="2:subj|3:[subj]" out="1:possd">Weekendens</W>
 <W gloss="division_football" lemma="divisionsfodbold" morph="fodbold -[division]s/type bold -fod/inst" msd="NCCSU==I" tag="NN" in="-1:possd" out="">divisionsfodbold</W>
-<W gloss="was" lemma="blive" morph="blive" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:vobj|5:pnct|13:+CAUSE&3a;expl/(nemlig)">blev</W>
+<W gloss="was" lemma="blive" morph="blive" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:vobj|5:pnct|13:+AGENTIVE&3a;expl/(nemlig)">blev</W>
 <W gloss="saved" lemma="redde" morph="redde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:time">reddet</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
 <W gloss="last" lemma="sidste" morph="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">sidste</W>
@@ -56,7 +56,7 @@
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">De</W>
 <W gloss="Danish" lemma="dansk" morph="Danmark +sk/DENOM&3a;rel.deono.place" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">danske</W>
 <W gloss="division_players" lemma="divisionsspiller" morph="spiller -[division]s/type spille +r/PRED&3a;agent spil +le/DER&3a;nv" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">divisionsspillere</W>
-<W gloss="have" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-13:+CAUSE&3a;expl/(nemlig)" out="-3:subj|1:vobj|13:pnct|16:conj|33:pnct|39:+CONS&3a;dir/(derfor)">er</W>
+<W gloss="have" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-13:+AGENTIVE&3a;expl/(nemlig)" out="-3:subj|1:vobj|13:pnct|16:conj|33:pnct|39:+TELIC&3a;dir/(derfor)">er</W>
 <W gloss="been" lemma="blive" morph="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds">blevet</W>
 <W gloss="agree" lemma="enig" morph="enig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj|3:pobj">enige</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
@@ -95,7 +95,7 @@
 <p>
 <s>
 <W gloss="Now" lemma="nu" msd="RGU" tag="RP" in="1:time" out="">Nu</W>
-<W gloss="are_appointing" lemma="nedsætte" morph="sætte -ned/TRANS" msd="VADR=----A-" tag="VBD" in="-39:+CONS&3a;dir/(derfor)" out="-1:time|1:subj|2:dobj|21:pnct|28:+CONJ/og">nedsætter</W>
+<W gloss="are_appointing" lemma="nedsætte" morph="sætte -ned/TRANS" msd="VADR=----A-" tag="VBD" in="-39:+TELIC&3a;dir/(derfor)" out="-1:time|1:subj|2:dobj|21:pnct|28:+CONJ/og">nedsætter</W>
 <W gloss="the_parties" lemma="part" morph="part" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">parterne</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj|3:pnct|4:ref|7:rel">et</W>
 <W gloss="common" lemma="fælles" morph="fællig" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">fælles</W>
@@ -123,7 +123,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="37:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
-<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-28:+CONJ/og" out="-1:other|-2:coord|1:subj|2:other|3:time|6:vobj|43:+ELAB&3a;exp">skal</W>
+<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-28:+CONJ/og" out="-1:other|-2:coord|1:subj|2:other|3:time|6:vobj|43:+CONST&3a;elab">skal</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|5:[subj]|6:[subj]" out="">de</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:other" out="">ellers</W>
 <W gloss="before" lemma="inden" msd="SP" tag="IN" in="-3:time" out="2:nobj">inden</W>
@@ -166,7 +166,7 @@
 <W gloss="For" lemma="for" msd="SP" tag="IN" in="3:ben" out="1:nobj">For</W>
 <W gloss="the_negotiation_climate" lemma="forhandlingsklima" morph="klima -[forhandling]s/type forhandle +ing/PRED&3a;core" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">forhandlingsklimaets</W>
 <W gloss="sake" lemma="skyld" morph="skylde /PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="">skyld</W>
-<W gloss="is_encouraging" lemma="opfordre" morph="fordre -op/ASPEC&3a;term" msd="VADR=----A-" tag="VBD" in="-43:+ELAB&3a;exp" out="-3:ben|1:subj|2:dobj|3:pobj|13:pnct|14:time|18:pnct|37:CONJ/(og)">opfordrer</W>
+<W gloss="is_encouraging" lemma="opfordre" morph="fordre -op/ASPEC&3a;term" msd="VADR=----A-" tag="VBD" in="-43:+CONST&3a;elab" out="-3:ben|1:subj|2:dobj|3:pobj|13:pnct|14:time|18:pnct|37:CONJ/(og)">opfordrer</W>
 <W gloss="the_Division_Association" lemma="divisionsforening" morph="forening -[division]s/func forene +ing/PRED&3a;agent" msd="NCCSU==D" tag="NN" in="-1:subj" out="">Divisionsforeningen</W>
 <W gloss="clubs" lemma="klub" morph="klub" msd="NCCPU==D" tag="NNP" in="-2:dobj|3:[subj]" out="">klubberne</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>

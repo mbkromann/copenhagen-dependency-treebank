@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="22:CAUSE&3a;expl/(infatti)">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="22:AGENTIVE&3a;expl/(infatti)">È</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="immaginario" msd="AN" tag="ADJ" in="" out="">immaginaria</W>
@@ -22,7 +22,7 @@
 <s>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">Un</W>
 <W lemma="giornale" msd="NC" tag="NOM" in="" out="">giornale</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:CAUSE&3a;expl/(infatti)" out="29:CONJ/contemporaneamente">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:AGENTIVE&3a;expl/(infatti)" out="29:CONJ/contemporaneamente">ha</W>
 <W lemma="scoprire" msd="VAP" tag="VER&3a;pper" in="" out="">scoperto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="Claudia" msd="NP" tag="NPR" in="" out="">Claudia</W>
@@ -66,7 +66,7 @@
 </s>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:CONTR&3a;dir/(ma)" out="34:+CONS&3a;dir">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-9:CONTR&3a;dir/(ma)" out="34:+TELIC&3a;dir">sono</W>
 <W lemma="mai" msd="RG" tag="ADV" in="" out="">mai</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stati</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -100,7 +100,7 @@
 <p>
 <s>
 <W lemma="così" msd="RG" tag="ADV" in="" out="">Così</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+CONS&3a;dir" out="10:CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+TELIC&3a;dir" out="10:CONJ/(e)">è</W>
 <W lemma="crollare" msd="VAP" tag="VER&3a;pper" in="" out="">crollato</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">tutto</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
@@ -110,7 +110,7 @@
 <s>
 <W lemma="Claudia" msd="NP" tag="NPR" in="" out="">Claudia</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Hamann-Vogt</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:CONJ/(e)" out="16:+ELAB&3a;exp/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-10:CONJ/(e)" out="16:+CONST&3a;elab/ATTR">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="" out="">arrestata</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
@@ -126,7 +126,7 @@
 <W lemma="per" msd="SP" tag="PRE" in="" out="">Per</W>
 <W lemma="sei" msd="AN" tag="ADJ" in="" out="">sei</W>
 <W lemma="ora" msd="NC" tag="NOM" in="" out="">ore</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:+ELAB&3a;exp/ATTR" out="13:CONJ/(e)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:+CONST&3a;elab/ATTR" out="13:CONJ/(e)">ha</W>
 <W lemma="negare" msd="VAP" tag="VER&3a;pper" in="" out="">negato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">ostinatamente</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="" out="">qualsiasi</W>
@@ -139,7 +139,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="continuare" msd="VADA" tag="VER&3a;impf" in="-13:CONJ/(e)" out="11:CONS&3a;dir/poi|18:+CONTR&3a;prg/(ma)">Continuava</W>
+<W lemma="continuare" msd="VADA" tag="VER&3a;impf" in="-13:CONJ/(e)" out="11:TELIC&3a;dir/poi|18:+CONTR&3a;sbj/(ma)">Continuava</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="aggrappare" msd="VAF" tag="VER&3a;infi" in="" out="">aggrapparsi</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -150,14 +150,14 @@
 </s>
 <s>
 <W lemma="poi" msd="RG" tag="ADV" in="" out="">Poi</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:CONS&3a;dir/poi" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:TELIC&3a;dir/poi" out="">è</W>
 <W lemma="crollare" msd="VAP" tag="VER&3a;pper" in="" out="">crollata</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-18:+CONTR&3a;prg/(ma)" out="28:CAUSE&3a;expl/(infatti)">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-18:+CONTR&3a;sbj/(ma)" out="28:AGENTIVE&3a;expl/(infatti)">È</W>
 <W lemma="probabile" msd="AN" tag="ADJ" in="" out="">probabile</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
@@ -185,7 +185,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="interrogatorio" msd="NC" tag="NOM" in="" out="">interrogatorio</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="era" msd="NC" tag="NOM" in="-28:CAUSE&3a;expl/(infatti)" out="18:+CONTR&3a;prg/(ma)">era</W>
+<W lemma="era" msd="NC" tag="NOM" in="-28:AGENTIVE&3a;expl/(infatti)" out="18:+CONTR&3a;sbj/(ma)">era</W>
 <W lemma="impossibile" msd="AN" tag="ADJ" in="" out="">impossibile</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
@@ -203,7 +203,7 @@
 </p>
 <p>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:+CONTR&3a;prg/(ma)" out="">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:+CONTR&3a;sbj/(ma)" out="">Sono</W>
 <W lemma="tre" msd="AN" tag="ADJ" in="" out="">tre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="" out="">cose</W>

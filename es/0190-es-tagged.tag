@@ -6,9 +6,9 @@
 <W lemma="llevar" msd="VAD" tag="VLfin" in="" out="">llevan</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">20</W>
 <W lemma="mes" msd="NC" tag="NC" in="" out="">meses</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="tanque" msd="NC" tag="NC" in="" out="">tanques</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="refrigeración" msd="NC" tag="NC" in="" out="">refrigeración</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
 <W lemma="aún" msd="RG" tag="ADV" in="" out="">aún</W>
@@ -34,7 +34,7 @@
 <W lemma="haber" msd="VAD" tag="VLfin" in="" out="">hemos</W>
 <W lemma="dar" msd="VAF" tag="VLadj" in="" out="">dado</W>
 <W lemma="cuenta" msd="NC" tag="NC" in="" out="">cuenta</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="ajo" msd="NC" tag="NC" in="" out="">ajo</W>
@@ -56,11 +56,11 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="dejar" msd="VAD" tag="VLfin" in="" out="">dejan</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="tanque" msd="NC" tag="NC" in="" out="">tanque</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">refrigerado</W>
-<W lemma="durante" msd="SP" tag="PREP" in="" out="">durante</W>
+<W lemma="durante" msd="SP" tag="SCENE" in="" out="">durante</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="" out="">20</W>
 <W lemma="mes" msd="NC" tag="NC" in="" out="">meses</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">son</W>
@@ -80,10 +80,10 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lin</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
-<W lemma="desde" msd="SP" tag="PREP" in="" out="">desde</W>
+<W lemma="desde" msd="SP" tag="SCENE" in="" out="">desde</W>
 <W lemma="tres" msd="AC" tag="CARD" in="" out="">tres</W>
 <W lemma="punto" msd="NC" tag="NC" in="" out="">puntos</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">EE.UU.</W>
 <W lemma="investigar" msd="VAD" tag="VLfin" in="" out="">investigan</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
@@ -100,15 +100,15 @@
 <W lemma="comer" msd="VAF" tag="VLadj" in="" out="">comiendo</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="par" msd="NC" tag="NC" in="" out="">par</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="diente" msd="NC" tag="NC" in="" out="">dientes</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="ajo" msd="NC" tag="NC" in="" out="">ajo</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="" out="">frescos</W>
 <W lemma="o" msd="CC" tag="CC" in="" out="">o</W>
 <W lemma="dos" msd="AC" tag="CARD" in="" out="">dos</W>
 <W lemma="comprimir" msd="VAF" tag="VLadj" in="" out="">comprimidos</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="ajo" msd="NC" tag="NC" in="" out="">ajo</W>
 <W lemma="al~día" msd="RG" tag="ADV" in="" out="">al día</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -119,7 +119,7 @@
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="resto" msd="NC" tag="NC" in="" out="">resto</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="soldado" msd="NC" tag="NC" in="" out="">soldaditos</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
@@ -127,9 +127,9 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">inmunológico</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="mantener" msd="VAD" tag="VLfin" in="" out="">mantienen</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="raya" msd="NC" tag="NC" in="" out="">raya</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="enemigo" msd="NC" tag="NC" in="" out="">enemigos</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="">del</W>
@@ -161,10 +161,10 @@
 <W lemma="tomar" msd="VAG" tag="VLger" in="" out="">Tomando</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="par" msd="NC" tag="NC" in="" out="">par</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="cápsula" msd="NC" tag="NC" in="" out="">cápsulas</W>
 <W lemma="al~día" msd="RG" tag="ADV" in="" out="">al día</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="ajo" msd="NC" tag="NC" in="" out="">ajo</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">refrigerado</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
@@ -188,11 +188,11 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Lau</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="catedrático" msd="NC" tag="NC" in="" out="">catedrático</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="universidad" msd="NC" tag="NC" in="" out="">universidad</W>
 <W lemma="americano" msd="AN" tag="ADJ" in="" out="">americana</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="loma" msd="NC" tag="NC" in="" out="">Loma</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Linda</W>
 <W lemma=":" msd="XP" tag="COLON" in="" out="">:</W>

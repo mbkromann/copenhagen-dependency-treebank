@@ -47,7 +47,7 @@
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="20:qobj" out="-3:subj|-4:pnct|1:vobj">havde</W>
 <W gloss="foreseen" lemma="forudse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">forudset</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj|6:[nobj]" out="1:nobj|2:pnct|4:rel">de</W>
-<W gloss="difficulties" lemma="vanskelighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="24:ELAB&3a;exp/ATTR">vanskeligheder</W>
+<W gloss="difficulties" lemma="vanskelighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="24:CONST&3a;elab/ATTR">vanskeligheder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
 <W gloss="ran" lemma="løbe" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:@dir|3:pnct|4:time">løb</W>
@@ -71,7 +71,7 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|6:[subj]" out="">Jeg</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-24:ELAB&3a;exp/ATTR" out="-1:subj|1:man|5:vobj|10:pnct|13:conj|24:pnct|28:CONJ/(og)/ATTR">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="-24:CONST&3a;elab/ATTR" out="-1:subj|1:man|5:vobj|10:pnct|13:conj|24:pnct|28:CONJ/(og)/ATTR">blev</W>
 <W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="-1:man" out="2:conj">pludselig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-2:conj" out="-1:coord|1:nobj">uden</W>
@@ -170,7 +170,7 @@
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
 <W gloss="married_folk" lemma="ægtefolk" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">ægtefolk</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-106:+CONJ/(og)" out="-9:conc|2:subj|6:neg|7:dobj|24:pnct|29:ELAB&3a;exp">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-106:+CONJ/(og)" out="-9:conc|2:subj|6:neg|7:dobj|24:pnct|29:CONST&3a;elab">fik</W>
 <W gloss="Lise" lemma="Lise" msd="NP--U==-" tag="NNP" in="1:namef" out="">Lise</W>
 <W gloss="Pedersen" lemma="Pedersen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef|3:conj">Pedersen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -199,7 +199,7 @@
 <s>
 <W gloss="Lise" lemma="Lise" msd="NP--U==-" tag="NNP" in="1:namef" out="">Lise</W>
 <W gloss="Pedersen" lemma="Pedersen" msd="NP--U==-" tag="NNP" in="1:subj|4:[subj]" out="-1:namef">Pedersen</W>
-<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-29:ELAB&3a;exp" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|12:pnct">blev</W>
+<W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-29:CONST&3a;elab" out="-1:subj|1:preds|3:conj|5:pnct|9:conj|12:pnct">blev</W>
 <W gloss="pregnant" lemma="gravid" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">gravid</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="went" lemma="rejse" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:@dir">rejste</W>

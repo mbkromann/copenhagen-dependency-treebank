@@ -1,0 +1,2 @@
+{agent}	1	100%={arg}
+{arg}	2	50%={arg}	50%={agent}

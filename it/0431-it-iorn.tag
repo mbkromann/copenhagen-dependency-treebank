@@ -91,7 +91,7 @@
 <W lemma="restaurare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:time|3:dobj">restaurato</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:time" out="1:nobj">di</W>
 <W lemma="recente" msd="AN" tag="ADJ" in="-1:nobj" out="">recente</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-3:dobj" out="1:nobj|3:conj|14:coref-part">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-3:dobj" out="1:nobj|3:conj|14:assoc-const">l'</W>
 <W lemma="argenteria" msd="NC" tag="NOM" in="-1:nobj" out="">argenteria</W>
 <W lemma="ed" msd="CS" tag="CON" in="1:coord" out="">ed</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-3:conj" out="-1:coord|1:nobj">un</W>
@@ -105,7 +105,7 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-1:loc|1:vobj|6:pnct|12:pnct">è</W>
 <W lemma="riprendere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:man">ripreso</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-14:coref-part|-1:nobj" out="1:nobj|4:appa">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-14:assoc-const|-1:nobj" out="1:nobj|4:appa">il</W>
 <W lemma="calice" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">calice</W>
 <W lemma="restaurare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="">restaurato</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
@@ -161,7 +161,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">225</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
 <W lemma="a" msd="SP" tag="PRE" in="-3:loc" out="1:nobj">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="11:assoc-loc">Pforzheim</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="11:assoc-formal.loc">Pforzheim</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="fra" msd="SP" tag="PRE" in="9:ex" out="1:nobj|3:pnct">Fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">gli</W>
@@ -172,13 +172,13 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:vobj|15:pnct">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|1:vobj">stato</W>
 <W lemma="celebrare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:pobj|3:man">celebrato</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-11:assoc-loc" out="-9:ex|1:nobj">dalle</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-11:assoc-formal.loc" out="-9:ex|1:nobj">dalle</W>
 <W lemma="posta" msd="NC" tag="NOM" in="-1:nobj" out="">poste</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="pubblicazione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">pubblicazione</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|10:assoc-other|16:²coref-part">100</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|10:assoc-other|16:²assoc-const">100</W>
 <W lemma="francobollo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">francobolli</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
@@ -194,7 +194,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:¹[subj]|10:¹[subj]" out="1:nobj">gli</W>
 <W lemma="interessato" msd="AN" tag="ADJ" in="-1:nobj" out="">interessati</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-8:time|1:¹vobj|19:pnct">possono</W>
-<W compound="¹ricever²ne" lemma="ricevere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-16:²coref-part" out="-3:¹[subj]|1:¹dobj|7:¹cond">riceverne</W>
+<W compound="¹ricever²ne" lemma="ricevere" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|-16:²assoc-const" out="-3:¹[subj]|1:¹dobj|7:¹cond">riceverne</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:¹dobj" out="1:nobj">un</W>
 <W lemma="esemplare" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">esemplare</W>
 <W lemma="timbrare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:man">timbrato</W>

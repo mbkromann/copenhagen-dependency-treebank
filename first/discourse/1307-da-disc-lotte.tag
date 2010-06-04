@@ -98,7 +98,7 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="did_sound" lemma="lyde" msd="VADA=----A-" tag="VBD" in="-11:+DESCR&3a;eval/ATTR1" out="-1:subj|1:mod|2:neg|3:preds|5:pnct|21:CONS&3a;dir/så/ATTR1">lød</W>
+<W gloss="did_sound" lemma="lyde" msd="VADA=----A-" tag="VBD" in="-11:+DESCR&3a;eval/ATTR1" out="-1:subj|1:mod|2:neg|3:preds|5:pnct|21:TELIC&3a;dir/så/ATTR1">lød</W>
 <W gloss="just" lemma="bare" msd="RGU" tag="RP" in="-1:mod" out="">bare</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="like" lemma="som" msd="U=" tag="WDT" in="-3:preds" out="1:nobj">som</W>
@@ -119,7 +119,7 @@
 <W gloss="retro" lemma="retro" msd="XF" tag="FW" in="-1:preds" out="2:conj">retro</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="old-fashioned" lemma="gammeldags" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">gammeldags</W>
-<W gloss="kept" lemma="holde" msd="VADA=----A-" tag="VBD" in="-13:vobj|-21:CONS&3a;dir/så/ATTR1" out="-12:mod|1:subj|2:dobj|3:pobj|17:pnct">holdt</W>
+<W gloss="kept" lemma="holde" msd="VADA=----A-" tag="VBD" in="-13:vobj|-21:TELIC&3a;dir/så/ATTR1" out="-12:mod|1:subj|2:dobj|3:pobj|17:pnct">holdt</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-2:dobj" out="">os</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">til</W>
@@ -145,7 +145,7 @@
 </p>
 <p>
 <s>
-<W gloss="FEEL" lemma="mærke" msd="VAF-=----A-" tag="VB" in="94:+PREP" out="1:dobj">MÆRKE</W>
+<W gloss="FEEL" lemma="mærke" msd="VAF-=----A-" tag="VB" in="94:+SCENE" out="1:dobj">MÆRKE</W>
 <W gloss="THE_RUSH" lemma="sus" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">SUSET</W>
 </s>
 </p>
@@ -239,7 +239,7 @@
 <W gloss="summer" lemma="sommer" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sommer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-32:pnct" out="">"</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-102:+CONJ/(og)/ATTR2" out="-33:qobj|2:subj|3:pnct|-94:+PREP">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-102:+CONJ/(og)/ATTR2" out="-33:qobj|2:subj|3:pnct|-94:+SCENE">siger</W>
 <W gloss="Bernhard" lemma="Bernhard" msd="NP--U==-" tag="NNP" in="1:namef" out="">Bernhard</W>
 <W gloss="Edwards" lemma="Edward" msd="NP--G==-" tag="NNP" in="-2:subj" out="-1:namef">Edwards</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

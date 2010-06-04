@@ -56,7 +56,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="1:contr">men</W>
 <W gloss="to_the_contrary" lemma="derimod" msd="RGU" tag="RP" in="-1:contr" out="">derimod</W>
-<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="-2:coord|12:vobj|22:ELAB&3a;exp">at</W>
+<W gloss="that" lemma="at" msd="CS" tag="IN" in="-9:conj" out="-2:coord|12:vobj|22:CONST&3a;elab">at</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="11:subj|12:[subj]" out="1:attr|2:pnct|3:ref|5:rel">den</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">gamle</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -78,7 +78,7 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:time" out="1:nobj">I</W>
 <W gloss="October" lemma="oktober" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">oktober</W>
 <W gloss="1991," lemma="1991" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1991</W>
-<W gloss="signed" lemma="underskrive" msd="VADA=----A-" tag="VBD" in="-22:ELAB&3a;exp" out="-3:time|3:subj|15:dobj|37:pnct|47:+ELAB&3a;exp">underskrev</W>
+<W gloss="signed" lemma="underskrive" msd="VADA=----A-" tag="VBD" in="-22:CONST&3a;elab" out="-3:time|3:subj|15:dobj|37:pnct|47:+CONST&3a;elab">underskrev</W>
 <W gloss="Premier" lemma="ministerpræsident" msd="NCCSU==I" tag="NN" in="2:title" out="">ministerpræsident</W>
 <W gloss="Hun" lemma="Hun" msd="NP--U==-" tag="NNP" in="1:name" out="">Hun</W>
 <W gloss="Sen" lemma="Sen" msd="NP--U==-" tag="NNP" in="-3:subj" out="-1:name|-2:title|1:mcomp">Sen</W>
@@ -125,7 +125,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="write" lemma="skrive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:part">skrive</W>
 <W gloss="under" lemma="under" msd="RGU" tag="RP" in="-1:part" out="">under</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-47:+ELAB&3a;exp" out="-5:subj|1:neg|2:preds|5:pnct|12:CAUSE&3a;expl/(nemlig)">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-47:+CONST&3a;elab" out="-5:subj|1:neg|2:preds|5:pnct|12:AGENTIVE&3a;expl/(nemlig)">var</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="difficult" lemma="svær" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="1:other">svær</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
@@ -137,7 +137,7 @@
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">politiske</W>
 <W gloss="leaders" lemma="leder" msd="NCCPG==I" tag="NNP" in="-2:nobj" out="">lederes</W>
 <W gloss="signature" lemma="underskrift" msd="NCCSU==I" tag="NN" in="-3:possd" out="">underskrift</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-12:CAUSE&3a;expl/(nemlig)" out="-4:subj|1:preds|17:pnct|101:+CONJ/(og)/ATTR">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-12:AGENTIVE&3a;expl/(nemlig)" out="-4:subj|1:preds|17:pnct|101:+CONJ/(og)/ATTR">var</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="condition" lemma="betingelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">betingelse</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">for</W>
@@ -146,7 +146,7 @@
 <W gloss="the_UN" lemma="FN" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">FN</W>
 <W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">ville</W>
 <W gloss="launch" lemma="iværksætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">iværksætte</W>
-<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="3:attr|4:nobj|5:other|13:ELAB&3a;exp">den</W>
+<W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="3:attr|4:nobj|5:other|13:CONST&3a;elab">den</W>
 <W gloss="to_date" lemma="hidtil" msd="RGU" tag="RP" in="1:dur" out="">hidtil</W>
 <W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="-1:dur">mest</W>
 <W gloss="comprehensive" lemma="omfattende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:attr" out="-1:degr">omfattende</W>
@@ -159,7 +159,7 @@
 <s>
 <W gloss="22,000" lemma="22.000" msd="AC---U=--" tag="CD" in="2:subj|7:[subj]" out="1:nobj">22.000</W>
 <W gloss="UN_workers" lemma="FN-folk" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">FN-folk</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-13:ELAB&3a;exp" out="-2:subj|1:dur|5:vobj|19:pnct|23:CONJ/samtidig">bliver</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-13:CONST&3a;elab" out="-2:subj|1:dur|5:vobj|19:pnct|23:CONJ/samtidig">bliver</W>
 <W gloss="during" lemma="i" msd="SP" tag="IN" in="-1:dur" out="1:nobj">i</W>
 <W gloss="the_course" lemma="løb" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pobj">løbet</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:avobj">af</W>
@@ -203,7 +203,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Cautious" lemma="forsigtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="35:+PREP" out="">Forsigtige</W>
+<W gloss="Cautious" lemma="forsigtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="35:+SCENE" out="">Forsigtige</W>
 </s>
 </p>
 <p>
@@ -238,7 +238,7 @@
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:possd">deres</W>
 <W gloss="investments" lemma="investering" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">investeringer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-101:+CONJ/(og)/ATTR" out="-10:qobj|1:subj|10:pnct|-35:+PREP">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-101:+CONJ/(og)/ATTR" out="-10:qobj|1:subj|10:pnct|-35:+SCENE">siger</W>
 <W gloss="the_leader" lemma="leder" msd="NCCSU==D" tag="NN" in="-1:subj" out="1:pobj|8:appa">lederen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="ØK's" lemma="ØK" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|2:loc">ØK's</W>

@@ -85,7 +85,7 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:subj|1:time|12:vobj|13:pnct">hat</W>
 <W lemma="vor" msd="SP" tag="APPR" in="-1:time" out="1:attr">vor</W>
 <W lemma="kurz" msd="AN" tag="ADJA" in="-1:attr" out="">kurzem</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="9:dobj" out="2:conj|4:loc|15:coref-part">Silbergerät</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="9:dobj" out="2:conj|4:loc|15:assoc-const">Silbergerät</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-2:conj" out="-1:coord|1:nobj">einen</W>
 <W lemma="Kronleuchter" msd="NC" tag="NN" in="-1:nobj" out="">Kronleuchter</W>
@@ -100,7 +100,7 @@
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-1:loc|1:subj|2:accom|8:pnct">steht</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|-22:coref" out="">er</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-2:accom" out="1:nobj">mit</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-15:coref-part" out="3:attr|4:nobj">dem</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-15:assoc-const" out="3:attr|4:nobj">dem</W>
 <W lemma="300" msd="AC" tag="CARD" in="2:attr" out="1:nobj">300</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahre</W>
 <W lemma="alt" msd="AN" tag="ADJA" in="-3:attr" out="-2:attr">alten</W>

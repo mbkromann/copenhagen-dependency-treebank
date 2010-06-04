@@ -1,6 +1,6 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj|2:[subj]" out="-1:namef">Gade</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|28:pnct|79:+ELAB&3a;exp/ATTR1">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|28:pnct|79:+CONST&3a;elab/ATTR1">ha</W>
 <W lemma="preannunziare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:iobj|3:dobj">preannunziato</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:iobj" out="1:nobj">ai</W>
 <W lemma="delegato" msd="NC" tag="NOM" in="-1:nobj" out="">delegati</W>
@@ -79,7 +79,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="no." msd="XA" tag="ABR" in="-1:nobj" out="">no.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-48:pnct" out="">"</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-79:+ELAB&3a;exp/ATTR1" out="-49:qobj|1:vobj|3:subj|4:pnct|12:+CONJ/(e)/ATTR1">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-79:+CONST&3a;elab/ATTR1" out="-49:qobj|1:vobj|3:subj|4:pnct|12:+CONJ/(e)/ATTR1">ha</W>
 <W lemma="affermare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:[subj]">affermato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Steen</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:subj|-2:[subj]" out="-1:namef">Gade</W>

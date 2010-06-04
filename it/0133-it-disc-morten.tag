@@ -14,7 +14,7 @@
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="navigare" msd="VAF" tag="VER&3a;infi" in="" out="">navigare</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="74:+ELAB&3a;exp/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="74:+CONST&3a;elab/ATTR">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="sommergibile" msd="AN" tag="ADJ" in="" out="">sommergibile</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Spækhuggeren</W>
@@ -62,7 +62,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Le</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="" out="">condizioni</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="69:+ELAB&3a;exp">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="69:+CONST&3a;elab">l'</W>
 <W lemma="asta" msd="NC" tag="NOM" in="" out="">asta</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="">dicono</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="" out="">chiaro</W>
@@ -88,7 +88,7 @@
 <W lemma="reale" msd="AN" tag="ADJ" in="" out="">Reale</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="comunicare" msd="VADR" tag="VER&3a;pres" in="-74:+ELAB&3a;exp/ATTR" out="">comunica</W>
+<W lemma="comunicare" msd="VADR" tag="VER&3a;pres" in="-74:+CONST&3a;elab/ATTR" out="">comunica</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="capitano" msd="NC" tag="NOM" in="" out="">Capitano</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -96,7 +96,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Mikkelsen</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="9:+ELAB&3a;exp">Holmen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="9:+CONST&3a;elab">Holmen</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="Copenhagen" msd="NP" tag="NPR" in="" out="">Copenhagen</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -105,7 +105,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Holmen</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-9:+ELAB&3a;exp" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-9:+CONST&3a;elab" out="">è</W>
 <W lemma="purtroppo" msd="RG" tag="ADV" in="" out="">purtroppo</W>
 <W lemma="destinare" msd="VAP" tag="VER&3a;pper" in="" out="">destinato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
@@ -119,7 +119,7 @@
 </p>
 <p>
 <s>
-<W lemma="veloce" msd="AN" tag="ADJ" in="12:+PREPAR" out="">VELOCE</W>
+<W lemma="veloce" msd="AN" tag="ADJ" in="12:+SCENE" out="">VELOCE</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">E</W>
 <W lemma="costoso" msd="AN" tag="ADJ" in="" out="">COSTOSO</W>
 </s>
@@ -131,7 +131,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="marina" msd="NC" tag="NOM" in="" out="">Marina</W>
 <W lemma="reale" msd="AN" tag="ADJ" in="" out="">reale</W>
-<W lemma="comprendere" msd="VADR" tag="VER&3a;pres" in="-69:+ELAB&3a;exp" out="-12:+PREPAR|109:+CONJ/anche">comprende</W>
+<W lemma="comprendere" msd="VADR" tag="VER&3a;pres" in="-69:+CONST&3a;elab" out="-12:+SCENE|109:+CONJ/anche">comprende</W>
 <W lemma="quattro" msd="AN" tag="ADJ" in="" out="47:DESCR&3a;qual">quattro</W>
 <W lemma="nave" msd="NC" tag="NOM" in="" out="">navi</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
@@ -179,13 +179,13 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-47:DESCR&3a;qual" out="6:&3a;CAUSE&3a;expl/(nemlig)|34:CONTR&3a;dir/ma">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-47:DESCR&3a;qual" out="6:&3a;AGENTIVE&3a;expl/(nemlig)|34:CONTR&3a;dir/ma">Sono</W>
 <W lemma="certo" msd="RG" tag="ADV" in="" out="">certo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">delle</W>
 <W lemma="bello" msd="AN" tag="ADJ" in="" out="">belle</W>
 <W lemma="bestia" msd="NC" tag="NOM" in="" out="">bestie</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="" out="">:</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-6:&3a;CAUSE&3a;expl/(nemlig)" out="">possono</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-6:&3a;AGENTIVE&3a;expl/(nemlig)" out="">possono</W>
 <W lemma="navigare" msd="VAF" tag="VER&3a;infi" in="" out="">navigare</W>
 <W lemma="fino" msd="SP" tag="PRE" in="" out="">fino</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>

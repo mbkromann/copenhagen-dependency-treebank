@@ -3,11 +3,11 @@
 <W lemma="-" msd="XP" tag="DASH" in="" out="">-</W>
 <W lemma="¿" msd="XP" tag="FS" in="" out="">¿</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Entras</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="ver" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">ver</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Magnild</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Træfpunktet</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="pregunta" msd="NC" tag="NC" in="" out="">pregunta</W>
@@ -45,11 +45,11 @@
 <s>
 <W lemma="el" msd="PD" tag="ART" in="" out="">Los</W>
 <W lemma="ojo" msd="NC" tag="NC" in="" out="">ojos</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">Sonja</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">iluminan</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="idea" msd="NC" tag="NC" in="" out="">idea</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -63,7 +63,7 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">es</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="coche" msd="NC" tag="NC" in="" out="">coche</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="inválido" msd="AN" tag="ADJ" in="" out="">inválido</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="" out="">como</W>
@@ -78,7 +78,7 @@
 <W lemma="sacar" msd="VAD" tag="VLfin" in="" out="">saca</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="paquete" msd="NC" tag="NC" in="" out="">paquete</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="tabaco" msd="NC" tag="NC" in="" out="">tabaco</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -98,7 +98,7 @@
 <W lemma="abrir" msd="VAD" tag="VLfin" in="" out="">Abre</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="paquete" msd="NC" tag="NC" in="" out="">paquete</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="tabaco" msd="NC" tag="NC" in="" out="">tabaco</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -122,7 +122,7 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tienes</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="cabeza" msd="NC" tag="NC" in="" out="">cabeza</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -171,7 +171,7 @@
 <W lemma="ni" msd="CC" tag="CCNEG" in="" out="">ni</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">céntimo</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="él" msd="PP" tag="PPX" in="" out="">ellos</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -189,7 +189,7 @@
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="">tiene</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="">una</W>
 <W lemma="cola" msd="NC" tag="NC" in="" out="">colilla</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">morro</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -201,7 +201,7 @@
 <W lemma="vale" msd="NC" tag="NC" in="" out="">Vale</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="rebaja" msd="NC" tag="NC" in="" out="">rebaja</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="cantidad" msd="NC" tag="NC" in="" out="">cantidad</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -216,7 +216,7 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="">Son</W>
 <W lemma="2" msd="AC" tag="CARD" in="" out="">2</W>
 <W lemma="corona" msd="NC" tag="NC" in="" out="">coronas</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="total" msd="NC" tag="NC" in="" out="">total</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -260,7 +260,7 @@
 <W lemma="un" msd="PD" tag="ART" in="" out="">un</W>
 <W lemma="gesto" msd="NC" tag="NC" in="" out="">gesto</W>
 <W lemma="generoso" msd="AN" tag="ADJ" in="" out="">generoso</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="mano" msd="NC" tag="NC" in="" out="">mano</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>

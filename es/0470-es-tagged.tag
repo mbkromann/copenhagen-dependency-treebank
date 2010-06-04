@@ -6,10 +6,10 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="malo" msd="AN" tag="ADJ" in="" out="">mala</W>
 <W lemma="circulación" msd="NC" tag="NC" in="" out="">circulación</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="sangre" msd="NC" tag="NC" in="" out="">sangre</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="pierna" msd="NC" tag="NC" in="" out="">piernas</W>
 <W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
@@ -28,7 +28,7 @@
 <W lemma="mejorar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">mejorar</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="flujo" msd="NC" tag="NC" in="" out="">flujo</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="sangre" msd="NC" tag="NC" in="" out="">sangre</W>
 <W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
 </s>
@@ -51,11 +51,11 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="nutriente" msd="NC" tag="NC" in="" out="">nutrientes</W>
 <W lemma="necesario" msd="AN" tag="ADJ" in="" out="">necesarios</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="músculo" msd="NC" tag="NC" in="" out="">músculos</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="piel" msd="NC" tag="NC" in="" out="">piel</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -68,9 +68,9 @@
 <W lemma="frío" msd="NC" tag="NC" in="" out="">frío</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="falta" msd="NC" tag="NC" in="" out="">falta</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="pulso" msd="NC" tag="NC" in="" out="">pulso</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="pie" msd="NC" tag="NC" in="" out="">pies</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -80,7 +80,7 @@
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="malo" msd="AN" tag="ADJ" in="" out="">mala</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">cicatrización</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="herida" msd="NC" tag="NC" in="" out="">heridas</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -94,20 +94,20 @@
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueden</W>
 <W lemma="tener" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">tener</W>
 <W lemma="dificultad" msd="NC" tag="NC" in="" out="">dificultades</W>
-<W lemma="a" msd="SP" tag="PREP" in="" out="">a</W>
+<W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="hora" msd="NC" tag="NC" in="" out="">hora</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
 <W lemma="transportar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">transportar</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="sangre" msd="NC" tag="NC" in="" out="">sangre</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="vuelta" msd="NC" tag="NC" in="" out="">vuelta</W>
 <W lemma="al" msd="SP" tag="PAL" in="" out="">al</W>
 <W lemma="corazón" msd="NC" tag="NC" in="" out="">corazón</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="tal" msd="AN" tag="QU" in="" out="">tal</W>
 <W lemma="caso" msd="NC" tag="NC" in="" out="">caso</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
@@ -132,7 +132,7 @@
 <W lemma="molestia" msd="NC" tag="NC" in="" out="">molestias</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="calambre" msd="NC" tag="NC" in="" out="">calambres</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="noche" msd="NC" tag="NC" in="" out="">noches</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -143,7 +143,7 @@
 <W lemma="existir" msd="VAD" tag="VLfin" in="" out="">Existen</W>
 <W lemma="varios" msd="AN" tag="QU" in="" out="">varias</W>
 <W lemma="posibilidad" msd="NC" tag="NC" in="" out="">posibilidades</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="" out="">tratamiento</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>
@@ -160,7 +160,7 @@
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
 <W lemma="henchir|hinchar" msd="VAD" tag="VLfin" in="" out="">hincha</W>
-<W lemma="en" msd="SP" tag="PREP" in="" out="">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="" out="">en</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">los</W>
 <W lemma="punto" msd="NC" tag="NC" in="" out="">puntos</W>
 <W lemma="más" msd="RG" tag="ADV" in="" out="">más</W>
@@ -178,7 +178,7 @@
 <W lemma="antiguo" msd="AN" tag="ADJ" in="" out="">antiguos</W>
 <W lemma="y" msd="CC" tag="CC" in="" out="">y</W>
 <W lemma="dañar" msd="VAF" tag="VLadj" in="" out="">dañados</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="vaso" msd="NC" tag="NC" in="" out="">vasos</W>
 <W lemma="artificial" msd="AN" tag="ADJ" in="" out="">artificiales</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -189,13 +189,13 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">Las</W>
 <W lemma="vena" msd="NC" tag="NC" in="" out="">venas</W>
 <W lemma="afectar" msd="VAF" tag="VLadj" in="" out="">afectadas</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">varices</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueden</W>
 <W lemma="tratarse" msd="VA" tag="VCLI" in="" out="">tratarse</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="medio" msd="AN" tag="QU" in="" out="">medias</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="apoyo" msd="NC" tag="NC" in="" out="">apoyo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="comprimir" msd="VAD" tag="VLfin" in="" out="">comprimen</W>
@@ -204,7 +204,7 @@
 <W lemma="evitar" msd="VAF" tag="VLadj" in="" out="">evitando</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="acumulación" msd="NC" tag="NC" in="" out="">acumulación</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="sangre" msd="NC" tag="NC" in="" out="">sangre</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -223,18 +223,18 @@
 <W lemma="sangre" msd="NC" tag="NC" in="" out="">sangre</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="">pueda</W>
 <W lemma="correr" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">correr</W>
-<W lemma="por" msd="SP" tag="PREP" in="" out="">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">las</W>
 <W lemma="vena" msd="NC" tag="NC" in="" out="">venas</W>
 <W lemma="profundo" msd="AN" tag="ADJ" in="" out="">profundas</W>
-<W lemma="de" msd="SP" tag="PREP" in="" out="">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">la</W>
 <W lemma="pierna" msd="NC" tag="NC" in="" out="">pierna</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="soler" msd="VAD" tag="VLfin" in="" out="">suelen</W>
 <W lemma="funcionar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">funcionar</W>
-<W lemma="con" msd="SP" tag="PREP" in="" out="">con</W>
+<W lemma="con" msd="SP" tag="SCENE" in="" out="">con</W>
 <W lemma="normalidad" msd="NC" tag="NC" in="" out="">normalidad</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 </s>

@@ -7,7 +7,7 @@
 <W lemma="Frank" msd="NP" tag="NPR" in="1:namef" out="">Frank</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef|2:conj">Mathiesen</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:conj" out="-1:coord|1:nobj|28:coref-part">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:conj" out="-1:coord|1:nobj|28:assoc-const">la</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="-1:nobj" out="">squadra</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-10:subj|-1:neg|1:vobj|4:pnct">ha</W>
@@ -35,7 +35,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="3:pnct" out="">"</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-28:coref-part|2:subj" out="1:nobj">I</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-28:assoc-const|2:subj" out="1:nobj">I</W>
 <W lemma="giocatore" msd="NC" tag="NOM" in="-1:nobj" out="">giocatori</W>
 <W lemma="ricevere" msd="VADR" tag="VER&3a;futu" in="-16:vobj" out="-3:pnct|-2:subj|1:dobj|7:pnct|10:cond|21:pnct">riceveranno</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>

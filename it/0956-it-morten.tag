@@ -114,7 +114,7 @@
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="-1:nobj|1:{agent}" out="1:possd">loro</W>
 <W lemma="collocazione" msd="NC" tag="NOM" in="-1:possd" out="1:attr|-1:{agent}">collocazione</W>
 <W lemma="tracciare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:@loc">tracciata</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:@loc" out="2:nobj|33:coref-part">nel</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:@loc" out="2:nobj|33:assoc-const">nel</W>
 <W lemma="consegnare" msd="VAP" tag="VER&3a;pper" in="1:attr" out="">consegnato</W>
 <W lemma="progetto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|1:{func}#">progetto</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{func}#" out="1:nobj">di</W>
@@ -147,7 +147,7 @@
 <W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>
 <W lemma="preciso" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">preciso</W>
 <W lemma="rispetto" msd="NC" tag="NOM" in="-5:source" out="1:pobj">rispetto</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-33:coref-part" out="1:nobj">ai</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-33:assoc-const" out="1:nobj">ai</W>
 <W lemma="disegno" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">disegni</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="progetto" msd="NC" tag="NOM" in="-1:nobj" out="">progetto</W>

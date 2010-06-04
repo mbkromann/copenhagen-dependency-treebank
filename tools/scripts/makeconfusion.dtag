@@ -5,10 +5,26 @@ find -corpus -yes $X isa(PRIM) $Y -do(echo@CONF $FILE\t`etypes($X isa(PRIM) $Y)`
 told@CONF
 !cat ~/cdt/confusion/relations-discourse.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-discourse.csv
 
+# Make confusion tables for anaphora
+corpus ~/cdt/first/discourse/*.tag
+tell@CONF ~/cdt/confusion/relations-anaphora.csv
+find -corpus -yes $X isa(ANA) $Y -do(echo@CONF $FILE\t`etypes($X isa(ANA) $Y)`\t$X\t$Y\t`is($X isa(ANA) $Y)`\n)
+told@CONF
+!cat ~/cdt/confusion/relations-anaphora.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-anaphora.csv
+
+
 # Make confusion tables for syntax
 corpus ~/cdt/first/syntax/*.tag
 tell@CONF ~/cdt/confusion/relations-syntax.csv
 find -corpus -yes $X isa(PRIM) $Y -do(echo@CONF $FILE\t`etypes($X isa(PRIM) $Y)`\t$X\t$Y\t`is($X isa(SYN) $Y)`\n)
 told@CONF
 !cat ~/cdt/confusion/relations-syntax.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-syntax.csv
+
+# Make confusion tables for semantics
+corpus ~/cdt/first/syntax/*.tag
+tell@CONF ~/cdt/confusion/relations-semantics.csv
+find -corpus -yes $X isa(SEM) $Y -do(echo@CONF $FILE\t`etypes($X isa(SEM) $Y)`\t$X\t$Y\t`is($X isa(SEM) $Y)`\n)
+told@CONF
+!cat ~/cdt/confusion/relations-semantics.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-semantics.csv
+
 

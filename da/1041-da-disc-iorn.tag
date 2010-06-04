@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="For_example" lemma="eksempelvis" msd="RGU" tag="RP" in="1:ex" out="">Eksempelvis</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:ex|1:expl|2:dobj|27:pnct|36:ELAB&3a;exp">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:ex|1:expl|2:dobj|27:pnct|36:CONST&3a;elab">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj">ingen</W>
 <W gloss="mention" lemma="omtale" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">omtale</W>
@@ -78,7 +78,7 @@
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:other" out="1:nobj">mellem</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj|-24:coref|-9:coref" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="">to</W>
-<W gloss="led_to" lemma="medføre" msd="VADA=----A-" tag="VBD" in="-36:ELAB&3a;exp" out="-6:subj|1:ex|2:pnct|3:dobj|33:pnct|37:JOINT">medførte</W>
+<W gloss="led_to" lemma="medføre" msd="VADA=----A-" tag="VBD" in="-36:CONST&3a;elab" out="-6:subj|1:ex|2:pnct|3:dobj|33:pnct|37:JOINT">medførte</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:ex" out="">bl.a.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="10:vobj">at</W>
@@ -145,7 +145,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="Schlüter" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="1:subj" out="11:coref">Schlüter</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:aobj|8:pnct|9:time|19:ELAB&3a;exp|56:CONTR&3a;prg/til_gengæld">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:aobj|8:pnct|9:time|19:CONST&3a;elab|56:CONTR&3a;sbj/til_gengæld">har</W>
 <W gloss="difficult" lemma="svær" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="1:pobj">svært</W>
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">ved</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="2:other" out="1:nobj">som</W>
@@ -164,7 +164,7 @@
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="3:other" out="1:nobj">I</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj|-8:coref-res" out="1:nobj">den</W>
 <W gloss="connection" lemma="forbindelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forbindelse</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-19:ELAB&3a;exp" out="-3:other|1:subj|2:vobj|27:pnct">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-19:CONST&3a;elab" out="-3:other|1:subj|2:vobj|27:pnct">kunne</W>
 <W gloss="one" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="add" lemma="tilføje" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pnct|2:dobj">tilføje</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -194,14 +194,14 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Soft" lemma="blød" msd="ANPCSU=IU" tag="JJ" in="7:+PREP" out="">Blød</W>
+<W gloss="Soft" lemma="blød" msd="ANPCSU=IU" tag="JJ" in="7:+SCENE" out="">Blød</W>
 </s>
 </p>
 <p>
 <s>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="2:struct" out="1:nobj">Til</W>
 <W gloss="the_other_hand" lemma="gengæld" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gengæld</W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-56:CONTR&3a;prg/til_gengæld" out="-2:struct|2:subj|3:dobj|8:pobj|25:pnct|-7:+PREP">viser</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-56:CONTR&3a;sbj/til_gengæld" out="-2:struct|2:subj|3:dobj|8:pobj|25:pnct|-7:+SCENE">viser</W>
 <W gloss="Poul" lemma="Poul" msd="NP--U==-" tag="NNP" in="1:namef" out="">Poul</W>
 <W gloss="Schlüter" lemma="Schlüter" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Schlüter</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:pobj">en</W>

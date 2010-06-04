@@ -53,7 +53,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">del</W>
 <W lemma="no." msd="XA" tag="ABR" in="-1:nobj" out="">no.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:struct" out="">Inoltre</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-23:CONJ/inoltre/ATTR1" out="-1:struct|1:¹vobj|17:pnct|22:CONS&3a;prg/quindi/ATTR1">possiamo</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-23:CONJ/inoltre/ATTR1" out="-1:struct|1:¹vobj|17:pnct|22:TELIC&3a;sbj/quindi/ATTR1">possiamo</W>
 <W compound="¹basar²ci" lemma="basare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²robj¹" out="1:dobj|0:²robj¹">basarci</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">sul</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
@@ -75,7 +75,7 @@
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="da" msd="SP" tag="PRE" in="2:loc" out="1:nobj">da</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">noi</W>
-<W lemma="vincere" msd="VADR" tag="VER&3a;futu" in="-22:CONS&3a;prg/quindi/ATTR1" out="-4:cons|-2:loc|1:subj">vincerà</W>
+<W lemma="vincere" msd="VADR" tag="VER&3a;futu" in="-22:TELIC&3a;sbj/quindi/ATTR1" out="-4:cons|-2:loc|1:subj">vincerà</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="no." msd="XA" tag="ABR" in="-1:nobj" out="">no.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-48:pnct" out="">"</W>

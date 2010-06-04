@@ -103,7 +103,7 @@
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attr" out="">nuove</W>
 <W lemma="terapia" msd="NC" tag="NOM" in="2:subj" out="-1:attr|1:attr">terapie</W>
 <W lemma="innovativo" msd="AN" tag="ADJ" in="-1:attr" out="">innovative</W>
-<W lemma="contribuire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-2:subj|1:pobj|9:conc|34:+ELAB&3a;exem">contribuiscono</W>
+<W lemma="contribuire" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-2:subj|1:pobj|9:conc|34:+CONST&3a;exem">contribuiscono</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="ridurre" msd="VAF" tag="VER&3a;infi" in="-1:nobj" out="1:dobj">ridurre</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
@@ -137,7 +137,7 @@
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="3:subj" out="2:nobj">Un</W>
 <W lemma="buon" msd="AN" tag="ADJ" in="1:attr" out="">buon</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">esempio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+ELAB&3a;exem" out="-3:subj|1:vobj|7:pnct|23:&3a;ELAB&3a;exp">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-34:+CONST&3a;exem" out="-3:subj|1:vobj|7:pnct|23:&3a;CONST&3a;elab">è</W>
 <W lemma="costituire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:pobj">costituito</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dai</W>
 <W lemma="trattamento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|7:coref-res">trattamenti</W>
@@ -160,7 +160,7 @@
 <W lemma="cura" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">cura</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">dell'</W>
 <W lemma="ulcera" msd="NC" tag="NOM" in="-1:nobj" out="">ulcera</W>
-<W lemma="costare" msd="VADA" tag="VER&3a;impf" in="-23:&3a;ELAB&3a;exp" out="-15:time|-7:loc|-4:subj|1:dobj|3:pnct|4:concom|10:pnct|23:;CONTR&3a;dir/(ma)">costava</W>
+<W lemma="costare" msd="VADA" tag="VER&3a;impf" in="-23:&3a;CONST&3a;elab" out="-15:time|-7:loc|-4:subj|1:dobj|3:pnct|4:concom|10:pnct|23:;CONTR&3a;dir/(ma)">costava</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj">720</W>
 <W lemma="dollaro" msd="NC" tag="NOM" in="-1:nobj" out="">dollari</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>

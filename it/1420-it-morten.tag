@@ -93,7 +93,7 @@
 <W lemma="ora" msd="RG" tag="ADV" in="-1:nobj" out="">ora</W>
 <W lemma="proteggere" msd="VAP" tag="VER&3a;pper" in="-7:attr" out="-4:pnct|-2:time|1:pnct">protetta</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-42:coref-id|1:subj" out="14:assoc-loc">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-42:coref-id|1:subj" out="14:assoc-formal.loc">Amager</W>
 <W lemma="disporre" msd="VADR" tag="VER&3a;futu" in="" out="-14:man|-1:subj|1:dobj|12:pnct">disporrà</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
@@ -107,7 +107,7 @@
 <W lemma="chilometro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr#">chilometri</W>
 <W lemma="quadrato" msd="AN" tag="ADJ" in="-1:attr#" out="">quadrati</W>
 <W lemma="." msd="XP" tag="SENT" in="-12:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:assoc-loc|1:subj" out="">Ørestad</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-14:assoc-formal.loc|1:subj" out="">Ørestad</W>
 <W lemma="dare" msd="VADR" tag="VER&3a;futu" in="" out="-1:subj|2:add|4:dobj|5:iobj|7:pnct">darà</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="-2:add" out="-1:pnct|1:pnct">inoltre</W>

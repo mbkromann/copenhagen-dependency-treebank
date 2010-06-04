@@ -39,7 +39,7 @@
 <W lemma="dopo" msd="SP" tag="PRE" in="-13:time" out="-1:degr|1:nobj">dopo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="decollo" msd="NC" tag="NOM" in="-1:nobj" out="1:dir|5:attr">decollo</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:dir" out="1:nobj|24:assoc-loc">dall'</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:dir" out="1:nobj|24:assoc-formal.loc">dall'</W>
 <W lemma="aeroporto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">aeroporto</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="Amsterdam" msd="NP" tag="NPR" in="-1:nobj" out="">Amsterdam</W>
@@ -63,7 +63,7 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|2:vobj|23:pnct">ha</W>
 <W lemma="improvvisamente" msd="RG" tag="ADV" in="1:man" out="">improvvisamente</W>
 <W lemma="comunicare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:man|-4:[subj]|1:iobj|5:dobj">comunicato</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:iobj|-24:assoc-loc" out="1:nobj">alla</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:iobj|-24:assoc-formal.loc" out="1:nobj">alla</W>
 <W lemma="torre" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">torre</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:const">di</W>
 <W lemma="controllo" msd="NC" tag="NOM" in="-1:const" out="">controllo</W>

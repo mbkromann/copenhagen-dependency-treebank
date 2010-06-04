@@ -53,13 +53,13 @@
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="sæssonudsving" lemma="sæssonudsving" msd="XX" tag="FW" in="-1:nobj" out="">sæssonudsving</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="1:mod" out="">godt</W>
-<W gloss="270,000" lemma="270.000" msd="AC---U=--" tag="CD" in="-8:dobj" out="-1:mod|1:nobj|5:coref|6:ELAB&3a;exp">270.000</W>
+<W gloss="270,000" lemma="270.000" msd="AC---U=--" tag="CD" in="-8:dobj" out="-1:mod|1:nobj|5:coref|6:CONST&3a;elab">270.000</W>
 <W gloss="people" lemma="person" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">personer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|-5:coref" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:ELAB&3a;exp" out="-1:subj|2:preds|10:pnct|16:+CONS&3a;dir/(så)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:CONST&3a;elab" out="-1:subj|2:preds|10:pnct|16:+TELIC&3a;dir/(så)">er</W>
 <W gloss="38,000" lemma="38.000" msd="AC---U=--" tag="CD" in="1:mod" out="">38.000</W>
 <W gloss="fewer" lemma="få" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-2:preds" out="-1:mod|1:mod">færre</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-1:mod" out="1:obl">end</W>
@@ -75,7 +75,7 @@
 <p>
 <s>
 <W gloss="It" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-16:+CONS&3a;dir/(så)" out="-1:expl|2:dobj|28:pnct|34:CONJ/(og)">er</W>
+<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-16:+TELIC&3a;dir/(så)" out="-1:expl|2:dobj|28:pnct|34:CONJ/(og)">er</W>
 <W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">lang</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:attr|1:pobj">tid</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">til</W>
@@ -109,7 +109,7 @@
 <W gloss="Experiences" lemma="erfaring" msd="NCCPU==D" tag="NNP" in="3:subj" out="1:pobj">Erfaringerne</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="that_time" lemma="dengang" msd="RGU" tag="RP" in="-1:nobj" out="">dengang</W>
-<W gloss="suggests" lemma="tyde" msd="VADR=----A-" tag="VBD" in="-34:CONJ/(og)" out="-3:subj|1:cont|2:pobj|21:pnct|27:+ELAB&3a;exp">tyder</W>
+<W gloss="suggests" lemma="tyde" msd="VADR=----A-" tag="VBD" in="-34:CONJ/(og)" out="-3:subj|1:cont|2:pobj|21:pnct|27:+CONST&3a;elab">tyder</W>
 <W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:cont" out="">samtidig</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-27:+ELAB&3a;exp" out="-1:subj|1:preds|4:pnct|27:pnct|33:+ELAB&3a;exp">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-27:+CONST&3a;elab" out="-1:subj|1:preds|4:pnct|27:pnct|33:+CONST&3a;elab">er</W>
 <W gloss="The" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:attr|2:nobj">en</W>
 <W gloss="general" lemma="almindelig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">almindelig</W>
 <W gloss="experience" lemma="erfaring" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">erfaring</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:mod" out="">Således</W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-33:+ELAB&3a;exp" out="-1:mod|1:subj|6:add|7:time|8:pnct|9:dobj|40:pnct|46:+CONJ/(og)">viser</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-33:+CONST&3a;elab" out="-1:mod|1:subj|6:add|7:time|8:pnct|9:dobj|40:pnct|46:+CONJ/(og)">viser</W>
 <W gloss="industry's" lemma="industri" msd="NCCSG==D" tag="NN" in="-1:subj" out="1:possd|2:mod">industriens</W>
 <W gloss="six-month_data" lemma="halvårsdata" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">halvårsdata</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-2:mod" out="1:nobj">fra</W>

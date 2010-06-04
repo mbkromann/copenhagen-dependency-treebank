@@ -36,7 +36,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">700</W>
 <W lemma="poliziotto" msd="NC" tag="NOM" in="" out="">poliziotti</W>
 <W lemma="schierare" msd="VAP" tag="VER&3a;pper" in="" out="">schierati</W>
-<W lemma="partecipare" msd="VADR" tag="VER&3a;pres" in="-31:+CONJ/(e)" out="56:+ELAB&3a;exp">partecipano</W>
+<W lemma="partecipare" msd="VADR" tag="VER&3a;pres" in="-31:+CONJ/(e)" out="56:+CONST&3a;elab">partecipano</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="entusiasmo" msd="NC" tag="NOM" in="" out="">entusiasmo</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -92,7 +92,7 @@
 <W lemma="ogni" msd="AN" tag="ADJ" in="" out="">ogni</W>
 <W lemma="cinque" msd="AN" tag="ADJ" in="" out="">cinque</W>
 <W lemma="chilometro" msd="NC" tag="NOM" in="" out="">chilometri</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-56:+ELAB&3a;exp" out="25:+CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-56:+CONST&3a;elab" out="25:+CONJ/(e)">è</W>
 <W lemma="installare" msd="VAP" tag="VER&3a;pper" in="" out="">installato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="orologio" msd="NC" tag="NOM" in="" out="">orologio</W>

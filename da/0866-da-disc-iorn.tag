@@ -43,7 +43,7 @@
 <s>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Gade</W>
-<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct|79:+ELAB&3a;exp/ATTR1">forberedte</W>
+<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct|79:+CONST&3a;elab/ATTR1">forberedte</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr">de</W>
 <W gloss="delegates" lemma="delegere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:attr" out="">delegerede</W>
 <W gloss="for" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">på</W>
@@ -122,7 +122,7 @@
 <W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:preds" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
-<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-79:+ELAB&3a;exp/ATTR1" out="-48:qobj|2:subj|3:pnct|13:+CONJ/(og)/ATTR1">mente</W>
+<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-79:+CONST&3a;elab/ATTR1" out="-48:qobj|2:subj|3:pnct|13:+CONJ/(og)/ATTR1">mente</W>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Gade</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

@@ -43,7 +43,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:preds|3:pnct|16:pnct|21:CONTR&3a;prg/men/ATTR|60:DESCR&3a;eval">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:preds|3:pnct|16:pnct|21:CONTR&3a;sbj/men/ATTR|60:DESCR&3a;eval">er</W>
 <W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
 <W gloss="clear" lemma="klar" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr">klart</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -64,7 +64,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="32:pnct|33:pnct">Men</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">vi</W>
-<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-21:CONTR&3a;prg/men/ATTR" out="-1:subj|-2:coord|1:neg|3:man|5:pnct|6:cons|2:@dir">farer</W>
+<W gloss="are_rushing" lemma="fare" msd="VADR=----A-" tag="VBD" in="-21:CONTR&3a;sbj/men/ATTR" out="-1:subj|-2:coord|1:neg|3:man|5:pnct|6:cons|2:@dir">farer</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="forward" lemma="frem" msd="RGU" tag="RP" in="-2:@dir" out="">frem</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:man" out="1:nobj">i</W>
@@ -103,7 +103,7 @@
 <W gloss="ATP_director" lemma="ATP-direktør" msd="NCCSU==I" tag="NN" in="2:title" out="">ATP-direktør</W>
 <W gloss="Palle" lemma="Palle" msd="NP--U==-" tag="NNP" in="1:namef" out="">Palle</W>
 <W gloss="Simonsen" lemma="Simonsen" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef|-2:title">Simonsen</W>
-<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-60:DESCR&3a;eval" out="-1:subj|1:neg|2:dobj|4:preds|5:pnct|6:time|13:pnct|17:CAUSE&3a;expl/(nemlig)">tager</W>
+<W gloss="take" lemma="tage" msd="VADR=----A-" tag="VBD" in="-60:DESCR&3a;eval" out="-1:subj|1:neg|2:dobj|4:preds|5:pnct|6:time|13:pnct|17:AGENTIVE&3a;expl/(nemlig)">tager</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="mouth" lemma="mund" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">munden</W>
 <W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:degr" out="">for</W>
@@ -120,7 +120,7 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-17:CAUSE&3a;expl/(nemlig)" out="-1:subj|1:preds|25:pnct|32:+CONJ/(og)/ATTR">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-17:AGENTIVE&3a;expl/(nemlig)" out="-1:subj|1:preds|25:pnct|32:+CONJ/(og)/ATTR">er</W>
 <W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">klar</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">over</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

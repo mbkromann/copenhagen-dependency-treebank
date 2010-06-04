@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="Opinion_surveys" lemma="opinionsundersøgelse" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Opinionsundersøgelser</W>
-<W gloss="show" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|3:vobj|21:pnct|43:CONS&3a;dir/derfor">viser</W>
+<W gloss="show" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|3:vobj|21:pnct|43:TELIC&3a;dir/derfor">viser</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="consumers" lemma="forbruger" msd="NCCPU==D" tag="NNP" in="1:subj" out="">forbrugerne</W>
 <W gloss="prioritize" lemma="prioritere" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|8:degr">prioriterer</W>
@@ -85,7 +85,7 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_Kvickly_chain" lemma="kvickly-kæde" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Kvickly-kæden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="bears" lemma="bære" msd="VADR=----A-" tag="VBD" in="-43:CONS&3a;dir/derfor" out="-18:subj|1:cause|2:dobj|20:pnct|41:+CONJ/(og)">bærer</W>
+<W gloss="bears" lemma="bære" msd="VADR=----A-" tag="VBD" in="-43:TELIC&3a;dir/derfor" out="-18:subj|1:cause|2:dobj|20:pnct|41:+CONJ/(og)">bærer</W>
 <W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="the_hallmark" lemma="præg" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj">præg</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">af</W>
@@ -113,7 +113,7 @@
 <p>
 <s>
 <W gloss="More" lemma="meget" msd="ANC[CN]SU=IU" tag="JJR" in="1:attr" out="">Mere</W>
-<W gloss="room" lemma="plads" msd="NCCSU==I" tag="NN" in="13:+PREPAR" out="-1:attr">plads</W>
+<W gloss="room" lemma="plads" msd="NCCSU==I" tag="NN" in="13:+SCENE" out="-1:attr">plads</W>
 </s>
 </p>
 <p>
@@ -126,7 +126,7 @@
 <W gloss="production" lemma="produktion" msd="NCCSU==I" tag="NN" in="-4:nobj" out="-3:attr|1:pobj">produktion</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="chicken" lemma="kylling" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kyllinger</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-41:+CONJ/(og)" out="-8:subj|-13:+PREPAR|1:vobj|14:pnct|19:CAUSE&3a;expl/(nemlig)|103:+ELAB&3a;exp/ATTR">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-41:+CONJ/(og)" out="-8:subj|-13:+SCENE|1:vobj|14:pnct|19:AGENTIVE&3a;expl/(nemlig)|103:+CONST&3a;elab/ATTR">kan</W>
 <W gloss="breaks" lemma="afdække" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-9:[subj]|2:man">afdækkes</W>
 <W gloss="simply" lemma="blot" msd="RGU" tag="RP" in="1:other" out="">blot</W>
 <W gloss="by" lemma="med" msd="SP" tag="IN" in="-2:man" out="-1:other|1:nobj|4:preds">med</W>
@@ -145,7 +145,7 @@
 <s>
 <W gloss="The_chickens" lemma="kylling" msd="NCCPU==D" tag="NNP" in="2:subj" out="1:loc">Kyllingerne</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="-1:loc" out="">her</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-19:CAUSE&3a;expl/(nemlig)" out="-2:subj|1:dobj|4:pnct|9:CONTR&3a;dir/(derimod)">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-19:AGENTIVE&3a;expl/(nemlig)" out="-2:subj|1:dobj|4:pnct|9:CONTR&3a;dir/(derimod)">har</W>
 <W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-1:dobj" out="1:nobj">meget</W>
 <W gloss="more" lemma="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-1:nobj" out="1:nobj">mere</W>
 <W gloss="room" lemma="plads" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">plads</W>
@@ -229,7 +229,7 @@
 <W gloss="Bjørkman" lemma="Bjørkman" msd="NP--U==-" tag="NNP" in="-12:appa" out="-2:namef|2:pnct">Bjørkman</W>
 </hi>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="stresses" lemma="understrege" msd="VADR=----A-" tag="VBD" in="-103:+ELAB&3a;exp/ATTR" out="-15:subj|1:pnct|5:vobj|10:pnct">understreger</W>
+<W gloss="stresses" lemma="understrege" msd="VADR=----A-" tag="VBD" in="-103:+CONST&3a;elab/ATTR" out="-15:subj|1:pnct|5:vobj|10:pnct">understreger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="coating" lemma="belægning" msd="NCCSU==D" tag="NN" in="3:subj" out="1:loc">belægningen</W>
 <W gloss="at" lemma="hos" msd="SP" tag="IN" in="-1:loc" out="1:nobj">hos</W>

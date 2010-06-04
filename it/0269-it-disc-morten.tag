@@ -6,7 +6,7 @@
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="" out="">noi</W>
 <W lemma="avere" msd="VADA" tag="VER&3a;impf" in="" out="">aveva</W>
 <W lemma="prevedere" msd="VAP" tag="VER&3a;pper" in="" out="">previsto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="19:ELAB&3a;exp/ATTR">le</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="19:CONST&3a;elab/ATTR">le</W>
 <W lemma="difficoltà" msd="NC" tag="NOM" in="" out="">difficoltà</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="" out="">cui</W>
@@ -25,7 +25,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:ELAB&3a;exp/ATTR" out="28:CONJ/(e)/ATTR">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:CONST&3a;elab/ATTR" out="28:CONJ/(e)/ATTR">Sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="licenziare" msd="VAP" tag="VER&3a;pper" in="" out="">licenziata</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">all'</W>
@@ -125,7 +125,7 @@
 <W lemma="Vladimir" msd="NP" tag="NPR" in="" out="">Vladimir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Pimonov</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-106:+CONJ/(e)" out="21:ELAB&3a;exp">furono</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-106:+CONJ/(e)" out="21:CONST&3a;elab">furono</W>
 <W lemma="lasciare" msd="VAP" tag="VER&3a;pper" in="" out="">lasciati</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="pace" msd="NC" tag="NOM" in="" out="">pace</W>
@@ -146,7 +146,7 @@
 </s>
 <s>
 <W lemma="liso" msd="AN" tag="ADJ" in="" out="">Lise</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:ELAB&3a;exp" out="">Pedersen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:CONST&3a;elab" out="">Pedersen</W>
 <W lemma="rimanere" msd="VADA" tag="VER&3a;remo" in="" out="">rimase</W>
 <W lemma="incinta" msd="AN" tag="ADJ" in="" out="">incinta</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>

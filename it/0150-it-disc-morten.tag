@@ -39,7 +39,7 @@
 <W lemma="società" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr">società</W>
 <W lemma="interessato" msd="AN" tag="ADJ" in="-1:attr" out="">interessate</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-31:CONJ/(e)" out="-5:subj|-1:robj|1:time|2:vobj|29:pnct|47:+ELAB&3a;exp/ATTR">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-31:CONJ/(e)" out="-5:subj|-1:robj|1:time|2:vobj|29:pnct|47:+CONST&3a;elab/ATTR">sono</W>
 <W lemma="già" msd="RG" tag="ADV" in="-1:time" out="">già</W>
 <W lemma="fare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-7:[subj]|1:dir">fatte</W>
 <W lemma="avanti" msd="RG" tag="ADV" in="-1:dir" out="1:time">avanti</W>
@@ -86,7 +86,7 @@
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">altri</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-7:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-47:+ELAB&3a;exp/ATTR" out="-9:qobj|2:subj|15:pnct">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-47:+CONST&3a;elab/ATTR" out="-9:qobj|2:subj|15:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Preben</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:subj" out="-1:namef|1:pnct|2:appa">Nygaard</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
@@ -137,7 +137,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="3:coord" out="">Ma</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">l'</W>
 <W lemma="intenzione" msd="NC" tag="NOM" in="-1:nobj" out="">intenzione</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:+CONTR&3a;dir/ma" out="-3:coord|-2:subj|1:preds|24:pnct|28:CAUSE&3a;reas/(perché)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:+CONTR&3a;dir/ma" out="-3:coord|-2:subj|1:preds|24:pnct|28:AGENTIVE&3a;reas/(perché)">è</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:preds" out="6:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj|7:[subj]" out="1:nobj">il</W>
 <W lemma="pacchetto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">pacchetto</W>
@@ -165,7 +165,7 @@
 </s>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">Non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:CAUSE&3a;reas/(perché)|1:[subj]" out="-1:neg|1:vobj|9:pnct|13:CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-28:AGENTIVE&3a;reas/(perché)|1:[subj]" out="-1:neg|1:vobj|9:pnct|13:CONJ/(e)">è</W>
 <W lemma="prevedere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">previsto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Hafnia</W>
@@ -178,7 +178,7 @@
 </s>
 <s>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:subj|4:[subj]|5:[subj]" out="">Si</W>
-<W lemma="cercare" msd="VADR" tag="VER&3a;pres" in="-13:CONJ/(e)" out="-1:subj|1:dobj|21:pnct|26:ELAB&3a;rest/oppure/ATTR">cerca</W>
+<W lemma="cercare" msd="VADR" tag="VER&3a;pres" in="-13:CONJ/(e)" out="-1:subj|1:dobj|21:pnct|26:CONST&3a;rest/oppure/ATTR">cerca</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="fare" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|-4:[subj]|1:vobj">far</W>
@@ -204,7 +204,7 @@
 <s>
 <W lemma="oppure" msd="CS" tag="CON" in="2:contr" out="1:pnct">Oppure</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="citare" msd="VAG" tag="VER&3a;geru" in="-26:ELAB&3a;rest/oppure/ATTR" out="-2:contr|1:dobj|6:pnct|18:qobj">citando</W>
+<W lemma="citare" msd="VAG" tag="VER&3a;geru" in="-26:CONST&3a;rest/oppure/ATTR" out="-2:contr|1:dobj|6:pnct|18:qobj">citando</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">le</W>
 <W lemma="parola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">parole</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">di</W>

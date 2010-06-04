@@ -165,7 +165,7 @@
 <p>
 <s>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">C'</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:+CONJ/(e)" out="-1:expl|2:subj|6:loc|8:pnct|13:+ELAB&3a;exem">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-8:+CONJ/(e)" out="-1:expl|2:subj|6:loc|8:pnct|13:+CONST&3a;exem">è</W>
 <W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="-2:subj" out="-1:degr|1:attr">altro</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="2:nobj">della</W>
@@ -178,7 +178,7 @@
 </p>
 <p>
 <s>
-<W lemma="citare" msd="VADR" tag="VER&3a;pres" in="-13:+ELAB&3a;exem" out="1:dobj|4:pnct|15:&3a;ELAB&3a;exp/ATTR">Citiamo</W>
+<W lemma="citare" msd="VADR" tag="VER&3a;pres" in="-13:+CONST&3a;exem" out="1:dobj|4:pnct|15:&3a;CONST&3a;elab/ATTR">Citiamo</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="2:nobj">un</W>
 <W lemma="ultimo" msd="AN" tag="ADJ" in="1:attr" out="">ultimo</W>
 <W lemma="brano" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">brano</W>
@@ -193,7 +193,7 @@
 <W lemma="rock" msd="NC" tag="NOM" in="-1:attr" out="">rock</W>
 <W lemma="in" msd="SP" tag="PRE" in="-2:loc" out="1:nobj">in</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:nobj" out="">Danimarca</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:&3a;ELAB&3a;exp/ATTR" out="-6:pnct|-5:subj|1:vobj|38:pnct|53:CONS&3a;prg/quindi/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:&3a;CONST&3a;elab/ATTR" out="-6:pnct|-5:subj|1:vobj|38:pnct|53:TELIC&3a;sbj/quindi/ATTR">è</W>
 <W lemma="definire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-6:[subj]|1:man">definita</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
@@ -246,7 +246,7 @@
 <W lemma="quindi" msd="RG" tag="ADV" in="3:cons" out="">quindi</W>
 <W lemma="come" msd="SP" tag="PRE" in="2:comp" out="1:nobj">come</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">rocchettaro</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-53:CONS&3a;prg/quindi/ATTR" out="-4:subj|-2:comp|-3:cons|1:preds|2:pnct|11:coref-res|12:CONTR&3a;dir/ma/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-53:TELIC&3a;sbj/quindi/ATTR" out="-4:subj|-2:comp|-3:cons|1:preds|2:pnct|11:coref-res|12:CONTR&3a;dir/ma/ATTR">è</W>
 <W lemma="scarso" msd="AN" tag="ADJ" in="-1:preds" out="">scarso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 </s>

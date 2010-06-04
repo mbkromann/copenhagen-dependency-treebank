@@ -130,7 +130,7 @@
 <W lemma="scegliere" msd="VAF" tag="VER&3a;infi" in="-8:vobj" out="-29:[subj]|1:dobj">scegliere</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">di</W>
 <W lemma="trasferire" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-31:[subj]|1:@dir|4:conj">trasferirsi</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:@dir" out="1:nobj|10:assoc-loc">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:@dir" out="1:nobj|10:assoc-formal.loc">in</W>
 <W lemma="Danimarca" msd="NP" tag="NPR" in="-1:nobj" out="">Danimarca</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="chiedere" msd="VAF" tag="VER&3a;infi" in="-4:conj" out="-1:coord|-35:[subj]|1:dobj">chiedere</W>
@@ -140,7 +140,7 @@
 <W lemma="domanda" msd="NC" tag="NOM" in="-1:possd" out="-1:[subj]|-1:{agent}">domanda</W>
 <W lemma="venire" msd="VADR" tag="VER&3a;cpre" in="-4:vobj" out="-3:subj|1:vobj">venga</W>
 <W lemma="trattare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:loc">trattata</W>
-<W lemma="qui" msd="RG" tag="ADV" in="-1:loc|-10:assoc-loc" out="">qui</W>
+<W lemma="qui" msd="RG" tag="ADV" in="-1:loc|-10:assoc-formal.loc" out="">qui</W>
 <W lemma="." msd="XP" tag="SENT" in="-45:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Ciò</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:subj|1:dobj|21:pnct|23:coref-res">è</W>

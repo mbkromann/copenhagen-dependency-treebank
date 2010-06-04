@@ -46,7 +46,7 @@
 <W lemma="spalla" msd="NC" tag="NOM" in="-1:nobj" out="">spalle</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
-<W lemma="presto" msd="RG" tag="ADV" in="1:time" out="19:CONS&3a;prg/(perciò)/ATTR1">Presto</W>
+<W lemma="presto" msd="RG" tag="ADV" in="1:time" out="19:TELIC&3a;sbj/(perciò)/ATTR1">Presto</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;futu" in="4:qobj" out="-1:time|-2:pnct|1:vobj|2:pnct|3:pnct|11:conj|16:coref">sarà</W>
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">arrestato</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-2:pnct" out="">"</W>
@@ -65,12 +65,12 @@
 <W lemma="per" msd="SP" tag="PRE" in="-4:ben" out="1:nobj">per</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:nobj|-16:coref" out="">lui</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-19:CONS&3a;prg/(perciò)/ATTR1" out="1:time|2:pnct|4:CAUSE&3a;reas/(perché)/ATTR1">Dimentichiamolo</W>
+<W compound="¹Dimentichiamo²lo" lemma="dimenticare" msd="VAM" tag="VER&3a;impe" in="-19:TELIC&3a;sbj/(perciò)/ATTR1" out="1:time|2:pnct|4:AGENTIVE&3a;reas/(perché)/ATTR1">Dimentichiamolo</W>
 <W lemma="adesso" msd="RG" tag="ADV" in="-1:time" out="">adesso</W>
 <W lemma="." msd="XP" tag="SENT" in="-2:pnct" out="">.</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">C'</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:CAUSE&3a;reas/(perché)/ATTR1" out="-1:expl|1:subj|7:pnct|8:pnct">è</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:subj" out="1:nobj|32:+ELAB&3a;exp/ATTR1">una</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:AGENTIVE&3a;reas/(perché)/ATTR1" out="-1:expl|1:subj|7:pnct|8:pnct">è</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:subj" out="1:nobj|32:+CONST&3a;elab/ATTR1">una</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-1:nobj" out="1:ref|3:relr">cosa</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:dobj" out="">che</W>
 <W lemma="ti" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">ti</W>
@@ -102,7 +102,7 @@
 <W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
 <W lemma="importante" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">importante</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
-<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-32:+ELAB&3a;exp/ATTR1" out="1:pnct|2:REP">Vorresti</W>
+<W lemma="volere" msd="VA" tag="VER&3a;cond" in="-32:+CONST&3a;elab/ATTR1" out="1:pnct|2:REP">Vorresti</W>
 <W lemma="..." msd="XP" tag="PON" in="-1:pnct" out="">...</W>
 <W lemma="volere" msd="VA" tag="VER&3a;cond" in="-2:REP" out="-25:INTACT&3a;attn/sì/ATTR2|-20:CONC/ATTR1|1:¹vobj|2:pnct|3:voc|4:pnct|5:pnct|7:+QUEST&3a;probl/ATTR2|10:+CONJ/(e)/ATTR2">vorresti</W>
 <W compound="¹sposar²mi" lemma="sposare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">sposarmi</W>
