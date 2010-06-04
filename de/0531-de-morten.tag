@@ -184,9 +184,9 @@
 <W lemma="sie" msd="PP" tag="PPER" in="-42:coref|6:[subj]|7:subj" out="">sie</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="1:{agent}|1:[subj]|5:dobj" out="1:possd">ihre</W>
 <W lemma="Vorstandsarbeit" msd="NC" tag="NN" in="-1:possd" out="-1:{agent}|-1:[subj]">Vorstandsarbeit</W>
-<W lemma="auf" msd="SP" tag="APPR" in="3:man" out="1:attr|2:nobj">auf</W>
-<W lemma="vorbildlich" msd="AN" tag="ADJA" in="-1:attr" out="">vorbildliche</W>
-<W lemma="Weise" msd="NC" tag="NN" in="-2:nobj" out="">Weise</W>
+<W lemma="auf" msd="SP" tag="APPR" in="3:man" out="2:nobj">auf</W>
+<W lemma="vorbildlich" msd="AN" tag="ADJA" in="1:attr" out="">vorbildliche</W>
+<W lemma="Weise" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Weise</W>
 <W lemma="verrichten" msd="VAP" tag="VVPP" in="1:vobj" out="-6:[subj]|-5:dobj|-3:man">verrichtet</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-1:vobj|3:contr">hätten</W>
 <W lemma="-" msd="XP" tag="$(" in="2:pnct" out="">-</W>

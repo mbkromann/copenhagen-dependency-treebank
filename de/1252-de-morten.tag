@@ -47,7 +47,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-8:assoc-const|2:subj" out="1:nobj|99:coref">,,Die</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-8:assoc-const|2:subj" out="1:nobj">,,Die</W>
 <W lemma="Chinese" msd="NC" tag="NN" in="-1:nobj" out="">Chinesen</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="33:qobj" out="-2:subj|1:preds|6:pnct">sind</W>
 <W lemma="enttäuscht" msd="AN" tag="ADJD" in="-1:preds" out="1:pobj">enttäuscht</W>
@@ -144,9 +144,9 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="-3:nobj" out="1:vobj">zu</W>
 <W _noerror="&3a;nosubj&3a;" lemma="sehen" msd="VAF" tag="VVINF" in="-1:vobj" out="3:dobj">sehen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
-<W lemma="wie" msd="CS" tag="KOUS" in="1:degr" out="">wie</W>
-<W lemma="weit" msd="AN" tag="ADJD" in="-3:dobj" out="-1:degr|6:relr">weit</W>
-<W lemma="sie" msd="PP" tag="PPER" in="-99:coref|4:[subj]|5:subj" out="">sie</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="7:dir|-2:ref" out="1:avobj">wie</W>
+<W lemma="weit" msd="AN" tag="ADJD" in="-1:avobj" out="">weit</W>
+<W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
 <W lemma="dabei" msd="RG" tag="PAV" in="2:pobj" out="7:nobj">dabei</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="2:nobj" out="1:vobj">zu</W>

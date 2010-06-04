@@ -46,12 +46,12 @@
 <W lemma="geben" msd="VA" tag="VVFIN" in="-3:AGENTIVE&3a;reas/(weil)" out="-1:expl|1:dobj|26:pnct|28:CONJ/auch|46:+CONST&3a;elab">gibt</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:dobj" out="1:attr|2:nobj">einen</W>
 <W lemma="markant" msd="AN" tag="ADJA" in="-1:attr" out="">markanten</W>
-<W lemma="Unterschied" msd="NC" tag="NN" in="-2:nobj" out="1:pobj">Unterschied</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">im</W>
+<W lemma="Unterschied" msd="NC" tag="NN" in="-2:nobj" out="1:bg">Unterschied</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-1:bg" out="1:nobj">im</W>
 <W lemma="Hinblick" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Hinblick</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="-1:pobj" out="1:pnct|2:nobj">darauf</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="wie" msd="CS" tag="KOUS" in="-2:nobj|4:[preds]" out="4:rel">wie</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="-2:nobj|4:[preds]" out="4:relr">wie</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="-20:coref-var|3:subj" out="1:nobj|57:coref-id">diese</W>
 <W lemma="Konstruktion" msd="NC" tag="NN" in="-1:nobj" out="">Konstruktionen</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="1:robj" out="">sich</W>

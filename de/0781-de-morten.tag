@@ -23,7 +23,7 @@
 </p>
 <p>
 <s>
-<W lemma="aber" msd="CC" tag="KON" in="2:coord" out="33:pnct">Aber</W>
+<W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">Aber</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:subj|37:assoc-agent" out="">wir</W>
 <W lemma="stürzen" msd="VA" tag="VVFIN" in="-24:CONTR&3a;sbj/aber/ATTR" out="-1:subj|-2:coord|1:dobj|3:man|5:pnct|6:reas|30:pnct">stürzen</W>
 <W lemma="wir" msd="PR" tag="PRF" in="-1:dobj" out="">uns</W>
@@ -56,7 +56,7 @@
 <W lemma="," msd="XP" tag="$," in="-21:pnct" out="">,</W>
 <W lemma="gehen" msd="VA" tag="VVFIN" in="-22:vobj" out="-21:[subj]|-14:pobj|-15:degr">gehen</W>
 <W lemma="." msd="XP" tag="$." in="-30:pnct" out="">.</W>
-<W lemma="&amp;quot;" msd="XP" tag="$(" in="-33:pnct" out="">"</W>
+<W lemma="&amp;quot;" msd="XP" tag="$(" in="-31:pnct" out="">"</W>
 </s>
 </p>
 <p>
