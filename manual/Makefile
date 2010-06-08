@@ -20,6 +20,7 @@ cdt-compile:
 	rm -rf build/*.tex build/*.dtag
 	dtag -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
+	./disp2scripts.pl cdt-disposition-topics.txt build/cdt-topics
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
 
 confusion:
