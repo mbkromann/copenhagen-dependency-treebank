@@ -28,7 +28,7 @@ while (my $line = <DISP>) {
 
 	if ($line !~ /^\s*$/) {
 		# Split line into indented type description and heading
-		my ($itype, $heading) = split(/\s*\:\s*/, $line);
+		my ($itype, $heading) = split(/\s*\:\s+/, $line);
 		$heading =~ s/\:\:/\:/g;
 
 		# Split indented type description into indent and type 
