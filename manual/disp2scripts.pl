@@ -55,7 +55,7 @@ while (my $line = <DISP>) {
 		print DTAG "relset2latex -file=" . $file . " " . $type . "\n";
 
 		# Debugging output
-		#print "indent=$indent type=$type heading=$heading\n";
+		print "indent=$indent type=$type heading=$heading\n";
 	}
 }
 
