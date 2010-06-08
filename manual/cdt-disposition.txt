@@ -1,31 +1,31 @@
-ANY-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE: Top-level relations
+ANY-TOPICS-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE: Top-level relations
 
-SYNTAX-SYNCOMP-SYNADJ: Syntactic relations
+SYNTAX-SYNCOMP-SYNADJ-TOPICS: Syntactic relations
 > SYNCOMP: Complement relations
 > ADVERB: Adverbial adjunct relations
 > SYNADJ-ADVERB: Other adjunct relations
 
-MORPHOLOGY-MORPHCOMP-MORPHDERIV: Morphological relations
+MORPHOLOGY-MORPHCOMP-MORPHDERIV-TOPICS: Morphological relations
 > MORPHCOMP: Compositional relations
 > MORPHDERIV-PREFIX-SUFFIX: Derivational relations
 > > PREFIX: Prefix relations
 > > SUFFIX: Suffix relations
 
-DISCOURSE-DISCFUNC-DISCSEM: Discourse relations
+DISCOURSE-DISCFUNC-DISCSEM-TOPICS: Discourse relations
 > DISCFUNC: Functional relations
 > DISCSEM: Semantic relations
 
-ANAPHORA-coref-assoc: Anaphor relations
+ANAPHORA-coref-assoc-TOPICS: Anaphor relations
 > coref: Coreference relations
 > assoc: Associative anaphor relations
 
-SEMANTICS-QUALIA-SEMROLE: Semantic relations
+SEMANTICS-QUALIA-SEMROLE-TOPICS: Semantic relations
 > QUALIA: Qualia relations
 > SEMROLE: Thematic role relations
 
-ALIGN: Word alignment relations
+ALIGN-TOPICS: Word alignment relations
 
-RULE: Rule schemata for complex relations
+RULE-TOPICS: Rule schemata for complex relations
 
 -ANY: Relations misplaced outside the ANY hierarchy
 
