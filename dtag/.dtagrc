@@ -171,6 +171,7 @@ macro commit !~/cdt/tools/dtag-commit {ARGS}
 macro loadfix load {ARGS}.src ;; graphs ;; fixations {ARGS}.fix dur cur
 macro makemanual !export DTAGCOMMITDIR="manual" ; cd ~/cdt/manual ; make all ; ../tools/dtag-commit "compiled CDT manual"
 macro cdtmanual !~/cdt/tools/dtag-cdtmanual &
+macro rmcdtmanual !rm ~/cdt/tools/dtag-cdtmanual
 
 # Options
 option viewer gv -geometry 1020x600-0+0 -spartan -nocenter -scale=2 -quiet -watch $file &
@@ -182,6 +183,7 @@ option iconv iconv -c -f UTF-8 -t ISO_8859-1//TRANSLIT
 
 # Edge types
 macro cdtrels script ~/cdt/tools/dtag-cdtrels
+macro cdtrelsreload !rm ~/cdt/docs/relations-cdt.csv ;; cdtrels
 cdtrels
 
 # Automatic edge splitting (to allow multiple edges to be specified as
@@ -226,7 +228,7 @@ macro _viewex perl print dumper($I->var("relsets")->{"cdt"}{"{ARGS}"}[7])
 # etypes -fill [avobj] [dobj] [expl] [iobj] [mod] [namef] [nobj] [pobj] [possd] [pred] [subj]
 #etypes -land land xland \n\n
 
-confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morphology.csv ~/cdt/confusion/confusion-alignment.csv
+confusion cdt ~/cdt/confusion/confusion-discourse.csv ~/cdt/confusion/confusion-syntax.csv ~/cdt/confusion/confusion-morphology.csv ~/cdt/confusion/confusion-alignment.csv ~/cdt/confusion/confusion-anaphora.csv ~/cdt/confusion/confusion-semantics.csv
 
 # Command log
 user -f /home/cdt/.cdtname

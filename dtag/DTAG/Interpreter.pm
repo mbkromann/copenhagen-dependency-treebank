@@ -103,6 +103,7 @@ my $REL_LINENO = 10;
 my $REL_CHILDCNT = 11;
 my $REL_TCHILDCNT = 12;
 my $REL_SEE = 13;
+my $REL_CONN = 14;
 
 
 # Debugging
@@ -6441,17 +6442,18 @@ sub cmd_relhelp {
 
 	my ($sname, $lname, $iparents, $tparents,
 			$ichildren, $sdescr, $ldescr, $ex, $deprecated,
-			$lineno, $see) 
+			$lineno, $see, $connectives) 
 		= map {$relation->[$_]} 
 			($REL_SNAME, $REL_LNAME, $REL_IPARENTS, $REL_TPARENTS,
 			$REL_ICHILDREN, $REL_SDESCR, $REL_LDESCR, $REL_EX,
-			$REL_DEPRECATED, $REL_LINENO, $REL_SEE);
+			$REL_DEPRECATED, $REL_LINENO, $REL_SEE, $REL_CONN);
 	
 	# Print help information for relation
 	print "\n$sname = $sdescr"
 		. ($sname ne $lname ? " (long name: $lname)" : "") 
 		. " [row $lineno]\n";
 	print "\nDEFINITION: $ldescr\n" if (defined($ldescr));
+	print "\nTYPICAL CONNECTIVES: $connectives\n" if ($connectives);
 	if ($name ne $sname && $name ne $lname) {
 		print "\nTHE RELATION $name IS DEPRECATED!\n";
 	}
@@ -6644,7 +6646,7 @@ sub cmd_relset {
         }
 		my ($comment, $shortname, $longname, $deprecatednames, 
 			$supertypes, $shortdescription, $longdescription, $seealso, 
-			$examples) = @$row;
+			$examples, $connectives) = @$row;
 		$longname = $shortname if ((! defined($longname)) || $longname =~ /^\s*$/);
 
 		# Skip line if short name or long name are undefined
@@ -6654,7 +6656,8 @@ sub cmd_relset {
 		my $relation = [$shortname, $longname, 
 			undef, {}, {},
 			$shortdescription, $longdescription, $examples,
-			$deprecatednames, $supertypes, $lineno, 0, 0, $seealso];
+			$deprecatednames, $supertypes, $lineno, 0, 0, $seealso,
+			$connectives];
 		
 		# Add relation to relations table under its different names
 		$errorclasses->{"\"" . $shortname . "\" (line " . $lineno . ")"} = 1
@@ -6854,10 +6857,11 @@ sub relset2latex_visit {
 	my $relation = $relset->{$relname};
 	return if (! $relation);
 	my ($sname, $lname, $iparents, $tparents, $ichildren, $sdescr, 
-		$ldescr, $ex, $deprecated, $lineno, $see) 
+		$ldescr, $ex, $deprecated, $lineno, $see, $connectives) 
 			= map {$relation->[$_]} ($REL_SNAME, $REL_LNAME,
 				$REL_IPARENTS, $REL_TPARENTS, $REL_ICHILDREN, $REL_SDESCR,
-				$REL_LDESCR, $REL_EX, $REL_DEPRECATED, $REL_LINENO, $REL_SEE);
+				$REL_LDESCR, $REL_EX, $REL_DEPRECATED, $REL_LINENO, $REL_SEE,
+				$REL_CONN);
 																			   
 	# Print examples
 	my @examples = ();
@@ -6891,6 +6895,8 @@ sub relset2latex_visit {
 	}
 	print $ofh "	\\begin{ldescription}\n\t\t"
 		. tex(ucfirst($ldescr)) . "\n\\end{ldescription}\n" if ($ldescr);
+	print $ofh "	\\connectives{$connectives}%\n"
+		if ($connectives);
 	print $ofh "	\\tparents{" .  join(" ", map {texrelref($_, $relset) 
 			. "%\n"} 
 		sorted_relations($relset, grep {! $iparents->{$_}} keys(%$tparents)))
