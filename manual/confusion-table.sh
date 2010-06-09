@@ -6,7 +6,7 @@ tmp=/tmp/confusion-table.out.$$
 echo "\\section{Confusion table: $name}" > $tmp
 echo "\\begin{longtable}{lllp{80mm}}" >> $tmp
 echo "\\textbf{R} & \\textbf{A} & \\textbf{N} & \\textbf{Confusion list} \\\\ \\hline" >> $tmp
-sed -e 's/^\(\([^\t]*\)\t.*\t\([0-9]*\)%=\2\)/\3\\%\t\1/g' \
+sed -e 's/\&/\\\&/g' -e 's/^\(\([^\t]*\)\t.*\t\([0-9]*\)%=\2\)/\3\\%\t\1/g' \
 		-e 's/^\([^0-9]\)/0\\%\t\1/g' \
 	| sort -nr | sed \
 		-e 's/^\([0-9\\%]*\)\t\([^\t]*\)\t\([0-9]*\)/\\rel{\2} \& \1 \& \3 \& \\small/g'\
