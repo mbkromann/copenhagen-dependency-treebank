@@ -6,14 +6,13 @@ quick: cdt-files cdt-manual.pdf
 cdt-manual.pdf: DUMMY
 	cp cdt-manual.tex build
 	cd build; xelatex cdt-manual ; makeindex cdt-manual ; xelatex cdt-manual ; makeindex cdt-manual ; (xelatex cdt-manual 2>&1 && cp build/cdt-manual.pdf ..) | tee /tmp/cdtmanual.log
-	echo "\n\nWarnings:\n"
-	@grep Warning /tmp/cdtmanual.log 
-	echo "\n"
+	@echo "\n\nWarnings:\n"
+	@grep Warning /tmp/cdtmanual.log  || echo "none\n\nSUCCESSFULLY GENERATED cdt-manual.pdf"
 	
 cdt-files: cdt-compile confusion status
 
 cdt-compile:
-	svn update
+	svn update ~/cdt
 	mkdir -p build
 	rm -f build/build
 	cd build ; ln -s . build
@@ -22,6 +21,7 @@ cdt-compile:
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	./disp2scripts.pl cdt-disposition-topics.txt build/cdt-topics
 	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
+	dtag -e 'script build/cdt-topics.dtag' -e 'quit'
 
 confusion:
 	for f in `cd ~/cdt/confusion ; ls confusion-*` ; do \

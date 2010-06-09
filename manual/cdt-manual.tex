@@ -9,6 +9,7 @@
 \usepackage{makeidx}
 \usepackage{a4}
 \usepackage{sectsty}
+\usepackage{longtable}
 \allsectionsfont{\sffamily}
 
 \hypersetup{
@@ -54,7 +55,7 @@
 \newenvironment{relation}{\medskip\hangindent=0mm}{\medskip}
 \newenvironment{examples}{\medskip\par\begin{center}}{\end{center}}
 \newenvironment{ldescription}{}{\smallskip\par\hangindent=5mm}
-\newenvironment{overview}[1]{\begin{figure}[!ht]\def\mycaption{#1}\centering\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
+\newenvironment{overview}[1]{\begin{figure}[!ht]\def\mycaption{#1}\centering\begin{longtable}{|p{120mm}|}\hline}{\\ \hline\end{longtable}\caption{The relations matching \rel{\small\mycaption}.}\end{figure}}
 
 \def\rel#1{\textsf{#1\index{#1}}}
 \def\reldef#1#2{\hypertarget{#1}{#2}}
@@ -158,9 +159,10 @@
 	that you can navigate through the relation hierarchy by clicking
 	on the relation names.
 
-	\input{cdt-topics}
 	
 	\input{cdt-rels}
+
+	\input{cdt-topics}
 
 	\appendix
 
@@ -171,7 +173,7 @@
 	Copenhagen Dependency Treebanks, repeated from the preceding
 	sections.
 
-	\renewenvironment{overview}[1]{\begin{center}\def\mycaption{#1}\begin{tabular}{|p{120mm}|}\hline}{\\ \hline\end{tabular}\nopagebreak\medskip\nopagebreak\par\nopagebreak{The relations matching \rel{\small\mycaption}.}\end{center}\bigskip}
+	\renewenvironment{overview}[1]{\begin{center}\def\mycaption{#1}\begin{longtable}{|p{120mm}|}\hline}{\\ \hline\end{longtable}\nopagebreak\medskip\nopagebreak\par\nopagebreak{The relations matching \rel{\small\mycaption}.}\end{center}\bigskip}
 
 	\input{build/cdt-rels-overviews.tex}
 
