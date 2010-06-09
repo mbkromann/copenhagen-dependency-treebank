@@ -43,8 +43,21 @@ if ( ! -f $fname ) {
 				print "  $dimension=$status\n";
 				`svn propset $dimension $status $fname`;
 				if ($status eq "first") {
-					my $copyfname = "~/cdt/first/$dimension";
-					`svn cp $fname $copyfname 2>/dev/null || cp $fname $copyfname`;
+					my $copypath = "~/cdt/first/$dimension";
+					my @args = split(/\//, $fname);
+					my $copyfname = pop(@args);
+
+					if ($copyfname =~ /\.tag$/) {
+						# Ensure $copyfname is of the form XXXX-LANG
+						$copyfname =~ s/^([^-]*-[^-]*).*.tag/\1/;
+
+						# Add name of annotator
+						my $annotator = `cat ~/.cdtname`;
+						chomp($annotator);
+						$copyfname = "$copypath/$copyfname-$annotator.tag";
+					}
+					`svn cp $fname $copyfname 2>/dev/null || 
+						cp $fname $copyfname`;
 				}
 			}
 		} else {
@@ -56,7 +69,7 @@ if ( ! -f $fname ) {
 
 # Print usage if necessary
 if ($printusage) {
-	print "\nUsage: setstatus dimension1=status1 dimension2=status2 ...\n";
+	print "\nUsage: setstatus file dimension1=status1 dimension2=status2 ...\n";
 	print "Dimensions: a=alignment d=discourse m=morphology p=postag s=syntax\n";
 	print "Status values: 1=first d=discussed f=final none auto outdate-final\n"; 
 	exit 1;
