@@ -1,6 +1,6 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|5:mod|8:pnct|9:cont|22:pnct">became</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|5:mod|8:pnct|9:time|22:pnct">became</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:possd">her</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="2:possd">team's</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">top</W>
@@ -9,7 +9,7 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">six</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">goals</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-9:time" out="3:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Betina</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Nørager</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:pobj">accounted</W>
@@ -74,8 +74,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Viborg</W>
 <W msd="VAP" tag="VBN" in="-11:conj" out="-5:mod|-1:subj|-7:coord|1:pobj|3:pnct#|11:conj">led</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">by</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj|-3:pnct#" out="-1:degr">12-9,</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj|-3:pnct#" out="-1:quant">12-9,</W>
 <W msd="CC" tag="CC" in="7:coord" out="">but</W>
 <W msd="SP" tag="IN" in="6:mod" out="1:nobj|4:pnct">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
@@ -157,8 +157,8 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">fans</W>
-<W msd="VAP" tag="VBN" in="-8:vobj" out="-7:subj|-6:mod|1:degr|2:nobj|8:mod">registered</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VAP" tag="VBN" in="-8:vobj" out="-7:subj|-6:mod|1:quant|2:nobj|8:mod">registered</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="PO" tag="PRP$" in="-2:nobj" out="1:attr|2:possd|3:mod">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">third</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">victory</W>
@@ -213,7 +213,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">showdown</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|4:preds|9:pnct|10:reas|31:pnct|-4:contr">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|4:preds|9:pnct|10:cause|31:pnct|-4:contr">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:part">far</W>
 <W msd="SP" tag="IN" in="-1:part" out="">from</W>
 <W msd="ANP" tag="RB" in="1:mod" out="2:pobj">as</W>
@@ -223,7 +223,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">numbers</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj">indicate</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:reas" out="1:pnct|12:vobj">because</W>
+<W msd="CS" tag="IN" in="-10:cause" out="1:pnct|12:vobj">because</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj|7:pnct">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -235,8 +235,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">scoreboard</W>
-<W msd="VADA" tag="VBD" in="-12:vobj" out="-2:subj|-10:mod|1:degr|2:dobj|3:mod">showed</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-12:vobj" out="-2:subj|-10:mod|1:quant|2:dobj|3:mod">showed</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="ANP" tag="JJ" in="-2:dobj" out="">14-12</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">favour</W>

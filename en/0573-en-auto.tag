@@ -53,8 +53,8 @@
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]">reserved</W>
 <W msd="SP" tag="IN" in="" out="1:dobj">for</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">the</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="RB" in="" out="-1:degr">well</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="RB" in="" out="-1:quant">well</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="">do</W>
 <W msd="XP" tag="." in="-44:pnct" out="">.</W>
@@ -74,9 +74,9 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|1:pnct|4:modp">depth</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-4:modp" out="-2:degr|-1:degr|1:nobj|2:mod">40</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-4:modp" out="-2:quant|-1:quant|1:nobj|2:mod">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cm</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="1:pobj">down</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>

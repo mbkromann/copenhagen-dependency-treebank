@@ -40,8 +40,8 @@
 <W msd="PT" tag="WP" in="-2:ref|1:subj|2:[subj]" out="">who</W>
 <W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:mod|3:lobj">arrived</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:degr">late</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:mod" out="-1:quant">late</W>
 <W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plane</W>
@@ -62,8 +62,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|4:pnct">is</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">way</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">drunk</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">drunk</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -100,8 +100,8 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-8:modp" out="-1:subj|2:preds|3:pnct|10:conj">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">commendable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">commendable</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="6:coord" out="">but</W>
 <W msd="NP=S" tag="NNP" in="5:subj" out="1:mod">Swahili</W>

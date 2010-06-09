@@ -1,6 +1,6 @@
 <s>
-<W msd="NC=S" tag="NN" in="4:subj" out="1:attr|1:{pos}">Growth</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="2:nobj">in</W>
+<W msd="NC=S" tag="NN" in="4:subj" out="1:attr|1:{loc}">Growth</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="2:nobj">in</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">world</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#">trade</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:time|3:pnct">fell</W>
@@ -61,12 +61,12 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="5:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="5:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj|23:dobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">negative</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">trend</W>
-<W _noerror="&3a;nosubj&3a;" msd="VADR" tag="VBZ" in="" out="-5:reas|-3:subj|1:vobj|2:man|5:pnct">is</W>
+<W _noerror="&3a;nosubj&3a;" msd="VADR" tag="VBZ" in="" out="-5:cause|-3:subj|1:vobj|2:man|5:pnct">is</W>
 <W _noerror="&3a;nosubj&3a;" msd="VAP" tag="VBN" in="-1:vobj" out="">noted</W>
 <W msd="SP" tag="IN" in="-2:man" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
@@ -99,8 +99,8 @@
 <W msd="PI" tag="DT" in="-8:conj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}">dilution</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="2:nobj">of</W>
-<W msd="ANP" tag="JJ" in="1:attr|1:{origin}" out="">agricultural</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{origin}">subsidies</W>
+<W msd="ANP" tag="JJ" in="1:attr|1:{source}" out="">agricultural</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}">subsidies</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="-14:conj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj.dobj|1:{patient}|4:nobj">establishment</W>
@@ -124,12 +124,12 @@
 <W msd="ANP" tag="RB" in="2:eval" out="-1:pnct|1:pnct">fortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="" out="-4:neg|-2:eval|1:subj|12:vobj|26:pnct">can</W>
-<W msd="NP=S" tag="NNP" in="-1:subj|1:{origin}|11:[subj]|12:[subj]" out="1:possd|2:attr">GATT's</W>
-<W msd="NC=P" tag="NNS" in="-1:possd" out="-1:{origin}|1:{func}">numbers</W>
+<W msd="NP=S" tag="NNP" in="-1:subj|1:{source}|11:[subj]|12:[subj]" out="1:possd|2:attr">GATT's</W>
+<W msd="NC=P" tag="NNS" in="-1:possd" out="-1:{source}|1:{func}">numbers</W>
 <W msd="SP" tag="IN" in="-2:attr|-1:{func}" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr">the</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:{pos}">trend</W>
-<W msd="SP" tag="IN" in="-2:attr|-1:{pos}" out="1:nobj">in</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:{loc}">trend</W>
+<W msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">scope</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">of</W>
@@ -207,8 +207,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="19:subj" out="1:nobj|2:attr">The</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{origin}">numbers</W>
-<W msd="SP" tag="IN" in="-2:attr|-1:{origin}" out="1:nobj">from</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{source}">numbers</W>
+<W msd="SP" tag="IN" in="-2:attr|-1:{source}" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|14:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr|1:{time}" out="">annual</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:{time}|1:pobj.dobj|1:{patient}">report</W>

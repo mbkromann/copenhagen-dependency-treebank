@@ -49,9 +49,9 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">della</W>
 <W lemma="notte" msd="NC" tag="NOM" in="-1:nobj" out="">notte</W>
 <W lemma="camminare" msd="VADR" tag="VER&3a;pres" in="-7:relr" out="-4:time|-5:subj|1:concom">camminano</W>
-<W lemma="scusare" msd="VAG" tag="VER&3a;geru" in="-1:concom" out="-6:[subj]|1:ext|2:comp">scusandosi</W>
-<W lemma="ripetutamente" msd="RG" tag="ADV" in="-1:ext" out="">ripetutamente</W>
-<W lemma="come" msd="CS" tag="CON" in="-2:comp" out="1:cond">come</W>
+<W lemma="scusare" msd="VAG" tag="VER&3a;geru" in="-1:concom" out="-6:[subj]|1:time|2:resem">scusandosi</W>
+<W lemma="ripetutamente" msd="RG" tag="ADV" in="-1:time" out="">ripetutamente</W>
+<W lemma="come" msd="CS" tag="CON" in="-2:resem" out="1:cond">come</W>
 <W lemma="se" msd="CS" tag="CON" in="-1:cond" out="5:vobj">se</W>
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="4:subj" out="1:ref|2:relr">quello</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:dobj" out="">che</W>

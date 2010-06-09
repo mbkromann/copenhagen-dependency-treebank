@@ -1,3 +1,56 @@
-dobj	1	100%=pnct
-nobj	1	100%=pnct
-pnct	2	50%=nobj	50%=dobj
+accom	3	67%=accom	33%=man
+add	9	89%=add	11%=discmark
+agent	1	100%=agent
+aobj	3	33%=man	33%=nobj	33%=attr
+appa	5	100%=appa
+appr	5	100%=appr
+attr	222	82%=attr	9%=pobj	2%=nobj	1%=conj	1%=time	1%=cause	0%=name	0%=focal	0%=subj	0%=possd	0%=man	0%=aobj	0%=other	0%=loc	0%=modp
+avobj	4	50%=quant	25%=loc	25%=avobj
+cause	5	40%=cause	40%=attr	20%=pobj
+conc	3	67%=contr	33%=conc
+cond	1	100%=cond
+conj	87	95%=conj	2%=attr	1%=nobj	1%=vobj
+cons	1	100%=cons
+contr	3	67%=conc	33%=coord
+coord	60	98%=coord	2%=contr
+correl	4	50%=correl	25%=focal	25%=subj
+dir	14	36%=pobj	36%=dir	14%=loc	7%=part	7%=dobj
+discmark	1	100%=add
+dobj	65	83%=dobj	5%=pobj	3%=preds	3%=iobj	2%=nobj	2%=predo	2%=dir	2%=pnct
+epi	2	50%=epi	50%=man
+eval	8	63%=eval	25%=quant	13%=man
+exem	1	100%=exem
+expl	3	100%=expl
+focal	6	33%=focal	17%=other	17%=correl	17%=loc	17%=attr
+goal	7	43%=pobj	29%=goal	14%=man	14%=scene
+inst	8	50%=inst	13%=loc	13%=scene	13%=preds	13%=pobj
+iobj	2	100%=dobj
+iter	2	100%=time
+loc	40	68%=loc	8%=other	5%=dir	5%=pobj	3%=nobj	3%=preds	3%=avobj	3%=focal	3%=attr	3%=inst
+man	22	36%=man	9%=time	9%=other	9%=quant	5%=source	5%=epi	5%=attr	5%=goal	5%=aobj	5%=accom	5%=eval	5%=pobj
+modp	2	50%=attr	50%=modp
+name	17	65%=name	29%=nobj	6%=attr
+namef	19	100%=namef
+namel	4	100%=namel
+neg	9	100%=neg
+nobj	430	93%=nobj	1%=name	1%=attr	1%=title	1%=pobj	0%=time	0%=possd	0%=subj	0%=vobj	0%=conj	0%=preds	0%=dobj	0%=aobj	0%=loc	0%=pnct
+numm	1	100%=numm
+other	8	38%=loc	25%=man	13%=focal	13%=attr	13%=pobj
+part	3	67%=part	33%=dir
+pnct	207	99%=pnct	0%=nobj	0%=dobj
+pobj	88	51%=pobj	23%=attr	6%=dir	3%=source	3%=nobj	3%=dobj	3%=goal	2%=loc	1%=man	1%=other	1%=inst	1%=cause
+possd	26	88%=possd	8%=nobj	4%=attr
+predo	1	100%=dobj
+preds	32	81%=preds	6%=dobj	3%=nobj	3%=loc	3%=inst	3%=resem
+qobj	2	100%=qobj
+quant	30	77%=quant	7%=man	7%=avobj	7%=eval	3%=time
+relpa	11	64%=relr	36%=relpa
+relr	20	65%=relr	35%=relpa
+resem	1	100%=preds
+scene	3	33%=goal	33%=time	33%=inst
+source	4	75%=pobj	25%=man
+subj	122	97%=subj	2%=nobj	1%=correl	1%=attr
+time	33	70%=time	6%=iter	6%=man	6%=nobj	6%=attr	3%=scene	3%=quant
+title	6	50%=nobj	50%=title
+vobj	82	96%=vobj	2%=nobj	1%=conj
+xpl	2	100%=xpl

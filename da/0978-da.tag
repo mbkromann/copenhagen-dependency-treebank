@@ -57,8 +57,8 @@
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:appa" out="1:pobj|6:pnct">en</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Italy's" lemma="Italien" msd="NP--G==-" tag="NNP" in="-1:nobj" out="2:attr|3:possd">Italiens</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="respected" lemma="respektere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="-1:degr">respekterede</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="respected" lemma="respektere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="-1:quant">respekterede</W>
 <W gloss="journalists" lemma="journalist" msd="NCCPU==I" tag="NNP" in="-3:possd" out="">journalister</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-11:loc" out="1:nobj">i</W>
@@ -122,7 +122,7 @@
 </s>
 <s>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:man|13:att|14:preds|16:time|18:pnct">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:man|13:eval|14:preds|16:time|18:pnct">var</W>
 <W gloss="With" lemma="med" msd="SP" tag="IN" in="-1:man" out="1:nobj">med</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:ref|7:rel">den</W>
 <W gloss="unique" lemma="enestående" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">enestående</W>
@@ -135,7 +135,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="achieve" lemma="præstere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:dobj|-4:[subj]">præstere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="-13:att" out="">allerede</W>
+<W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="-13:eval" out="">allerede</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-14:preds" out="1:nobj">på</W>
 <W gloss="place" lemma="plads" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">plads</W>
 <W gloss="Tuesday" lemma="tirsdag" msd="NCCSU==I" tag="NN" in="-16:time" out="1:nobj">tirsdag</W>
@@ -236,12 +236,12 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Just_like" lemma="ligesom" msd="CS" tag="IN" in="5:comp" out="1:nobj">Ligesom</W>
+<W gloss="Just_like" lemma="ligesom" msd="CS" tag="IN" in="5:resem" out="1:nobj">Ligesom</W>
 <W gloss="Italy's" lemma="Italien" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd|3:appr">Italiens</W>
 <W gloss="police_commissioner" lemma="politichef" msd="NCCSU==I" tag="NN" in="-1:possd" out="">politichef</W>
 <W gloss="Vincenzo" lemma="Vicenzo" msd="NP--U==-" tag="NNP" in="1:namef" out="">Vincenzo</W>
 <W gloss="Parisi" lemma="Parisi" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Parisi</W>
-<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="" out="-5:comp|1:subj|3:vobj|23:pnct">måtte</W>
+<W gloss="had_to" lemma="måtte" msd="VADA=----A-" tag="VBD" in="" out="-5:resem|1:subj|3:vobj|23:pnct">måtte</W>
 <W gloss="state" lemma="stat" msd="NCCSG==D" tag="NN" in="-1:subj|2:[subj]|9:[subj]" out="1:possd">statens</W>
 <W gloss="head" lemma="overhoved" msd="NCNSU==I" tag="NN" in="-1:possd" out="">overhoved</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|2:pobj|5:pnct|7:conj">finde</W>

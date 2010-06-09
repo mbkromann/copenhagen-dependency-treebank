@@ -86,8 +86,8 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:pnct|-1:subj|2:preds|12:pnct">are</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="6:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">interested</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="6:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">interested</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">successful</W>
@@ -189,8 +189,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Havel</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">River</W>
 <W msd="VADA" tag="VBD" in="-8:vobj" out="-7:subj|1:mod|3:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:ext">once</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-1:mod" out="1:time">once</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="U=" tag="TO" in="-3:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-11:[subj]|1:dobj">form</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

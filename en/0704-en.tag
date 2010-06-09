@@ -83,8 +83,8 @@
 <W msd="NC=S" tag="NN" in="1:subj" out="">science</W>
 <W msd="VADA" tag="VBD" in="" out="-5:mod|-1:subj|1:dobj">acquired</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj|4:pnct|5:mod">another</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">positive</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">positive</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">image</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 <W msd="CS" tag="IN" in="-5:mod" out="1:nobj">as</W>
@@ -174,11 +174,11 @@
 <W msd="SP" tag="IN" in="-12:nobj" out="3:vobj|10:conj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">public</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:subj|1:dobj|4:ext|5:pnct">caught</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:subj|1:dobj|4:time|5:pnct">caught</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">sight</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">them</W>
-<W msd="ANP" tag="RB" in="-4:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-4:time" out="">again</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-10:conj" out="-1:coord|6:vobj">that</W>

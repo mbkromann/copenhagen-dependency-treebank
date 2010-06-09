@@ -113,8 +113,8 @@
 <W msd="AC" tag="CD" in="-1:possd" out="1:mod|2:nobj">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">teenage</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">daughters</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|-9:mod|-1:degr|1:dobj|3:avobj|5:pnct">turn</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|-9:mod|-1:quant|1:dobj|3:avobj|5:pnct">turn</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">home</W>
 <W msd="ANP" tag="RB" in="-3:avobj" out="1:mod">upside</W>

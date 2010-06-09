@@ -9,9 +9,9 @@
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Fure</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Lake</W>
-<W msd="VA" tag="MD" in="-7:list" out="-5:subj|3:vobj|5:pnct|6:time|22:pnct|2:ext">can</W>
+<W msd="VA" tag="MD" in="-7:list" out="-5:subj|3:vobj|5:pnct|6:time|22:pnct|2:time">can</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="-1:mod">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="-1:mod">again</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]">recommended</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>

@@ -167,7 +167,7 @@
 <s>
 <W lemma="un" msd="PI" tag="DET:indef" in="" out="">Un</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="" out="">bambino</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="crescere" msd="VAP" tag="VER:pper" in="" out="">cresciuto</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">5</W>

@@ -71,8 +71,8 @@
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
 <W msd="VA" tag="MD" in="" out="-1:pnct|1:subj|3:vobj|5:pnct">Will</W>
 <W msd="PP" tag="PRP" in="-1:subj|2:[subj]" out="">you</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-2:[subj]|-1:ext|1:dobj">love</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-2:[subj]|-1:time|1:dobj">love</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="XP" tag="." in="-5:pnct" out="">?</W>
 </s>

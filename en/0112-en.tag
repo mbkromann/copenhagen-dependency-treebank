@@ -49,8 +49,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj|3:attr|4:possd">Odense</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Theatre's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">talented</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">talented</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="">actors</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>

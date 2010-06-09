@@ -65,8 +65,8 @@
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct">er</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="practical" lemma="praktisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:degr">praktisk</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="practical" lemma="praktisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:quant">praktisk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -80,10 +80,10 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="mine" lemma="mine" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mine</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="has_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:mod|1:subj|2:mod|3:prec|4:@loc">skal</W>
+<W gloss="has_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:mod|1:subj|2:mod|3:time|4:@loc">skal</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="anyway" lemma="alligevel" msd="RGU" tag="RP" in="-2:mod" out="">alligevel</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-3:prec" out="">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-3:time" out="">først</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">på</W>
 <W gloss="the_infirmary" lemma="infirmeri" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">infirmeriet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>

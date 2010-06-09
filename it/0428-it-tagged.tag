@@ -104,7 +104,7 @@
 <s>
 <W lemma="ne" msd="RG" tag="ADV" in="" out="">Ne</W>
 <W lemma="essere" msd="VADR" tag="VER:futu" in="" out="">sarai</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="stanco" msd="AN" tag="ADJ" in="" out="">stanco</W>
 <W lemma="!" msd="XP" tag="SENT" in="" out="">!</W>
 </s>

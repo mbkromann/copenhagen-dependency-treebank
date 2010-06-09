@@ -108,8 +108,8 @@
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:preds" out="1:pnct|2:ref|5:rel">flere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:ref|3:subj|4:[subj]|5:[subj]" out="">som</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:degr">ikke</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:quant">ikke</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-3:subj|-1:neg|1:vobj">har</W>
 <W gloss="dared" lemma="turde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:vobj">turdet</W>
 <W gloss="send" lemma="sende" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|2:@dir|5:mod">sende</W>

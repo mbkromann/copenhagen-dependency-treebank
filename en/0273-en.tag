@@ -41,8 +41,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">You</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:degr|1:pobj|3:pnct|4:time|9:pnct">hear</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:quant|1:pobj|3:pnct|4:time|9:pnct">hear</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">bodybuilding</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

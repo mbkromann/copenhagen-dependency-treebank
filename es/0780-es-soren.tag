@@ -21,15 +21,15 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Carlsberg</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
-<W lemma="tan" msd="RG" tag="ADV" in="8:degr" out="1:degr">Tan</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:degr" out="">sólo</W>
+<W lemma="tan" msd="RG" tag="ADV" in="8:quant" out="1:quant">Tan</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:quant" out="">sólo</W>
 <W lemma="en" msd="SP" tag="SCENE" in="6:space" out="1:nobj|3:conj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">España</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:conj" out="-1:coord|1:nobj">en</W>
 <W lemma="Portugal" msd="NP" tag="NP" in="-1:nobj" out="">Portugal</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:robj|-8:degr|-6:space|1:vobj|2:subj|3:time|17:pnct|23:relr">han</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:robj|-8:quant|-6:space|1:vobj|2:subj|3:time|17:pnct|23:relr">han</W>
 <W lemma="realizar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:[subj]">realizado</W>
 <W lemma="inversin" msd="NC" tag="NC" in="-2:subj|-1:[subj]" out="7:pobj">inversiones</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:time" out="1:nobj">en</W>
@@ -48,8 +48,8 @@
 <W lemma="corona" msd="NC" tag="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="," msd="XP" tag="CM" in="-17:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="5:coord" out="">y</W>
-<W lemma="dentro~de" msd="SP" tag="SCENE" in="4:time" out="1:degr">dentro de</W>
-<W lemma="pocos" msd="AN" tag="QU" in="-1:degr" out="1:nobj">pocos</W>
+<W lemma="dentro~de" msd="SP" tag="SCENE" in="4:time" out="1:quant">dentro de</W>
+<W lemma="pocos" msd="AN" tag="QU" in="-1:quant" out="1:nobj">pocos</W>
 <W lemma="mes" msd="NC" tag="NC" in="-1:nobj" out="">meses</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj|2:[subj]" out="">Carlsberg</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-23:relr" out="-5:coord|-1:subj|-4:time|1:vobj">podrá</W>
@@ -119,8 +119,8 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="hacer" msd="VAD" tag="VLfin" in="" out="-1:robj|-5:dobj|-2:prg|1:time|4:pnct">hizo</W>
 <W lemma="hacer" msd="VAD" tag="VLfin" in="-1:time" out="2:nobj">hace</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:degr" out="">mucho</W>
-<W lemma="tiempo" msd="NC" tag="NC" in="-2:nobj" out="-1:degr">tiempo</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:quant" out="">mucho</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="-2:nobj" out="-1:quant">tiempo</W>
 <W lemma="&3a;" msd="XP" tag="COLON" in="-4:pnct" out="">:</W>
 <W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="1:subj|27:pnct">hay que</W>
 <W lemma="invertir" msd="VAF lexical verb infinite" tag="VLinf" in="-1:subj" out="1:pobj|8:pobj">invertir</W>
@@ -185,8 +185,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:pnct" out="1:nobj">–</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:attr|3:space">edificación</W>
-<W lemma="totalmente" msd="RG" tag="ADV" in="1:degr" out="">totalmente</W>
-<W lemma="nuevo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">nueva</W>
+<W lemma="totalmente" msd="RG" tag="ADV" in="1:quant" out="">totalmente</W>
+<W lemma="nuevo" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">nueva</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:space" out="1:nobj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="terreno" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:space">terreno</W>

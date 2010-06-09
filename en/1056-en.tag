@@ -59,8 +59,8 @@
 <W msd="CC" tag="CC" in="" out="2:conj|24:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj" out="15:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds|6:modp">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="SP" tag="IN" in="-2:preds" out="-1:degr|1:nobj">without</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="SP" tag="IN" in="-2:preds" out="-1:quant|1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sentimentality</W>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
@@ -230,8 +230,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr">the</W>
 <W msd="ANS" tag="RBS" in="-1:attr" out="3:conj">hardest</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">precise</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">precise</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Super</W>

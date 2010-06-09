@@ -160,9 +160,9 @@
 <W msd="ANP" tag="JJ" in="" out="">sexual</W>
 <W msd="NC=S" tag="NN" in="" out="1:pnct">abuse</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|-2:reas">was</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|-2:cause">was</W>
 <W msd="VAP" tag="VBN" in="" out="-9:[subj]|1:nobj|6:pnct|7:mod|16:pnct">allowed</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:mod">hang</W>

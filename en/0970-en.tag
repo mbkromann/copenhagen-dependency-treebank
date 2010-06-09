@@ -142,7 +142,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">step</W>
 <W msd="VADA" tag="VBD" in="" out="-3:subj|1:vobj|11:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod|8:prec">taken</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:mod|8:time">taken</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|3:nobj">an</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">extended</W>
@@ -150,7 +150,7 @@
 <W msd="VAG" tag="VBG" in="-3:nobj" out="-1:mod">meeting</W>
 <W msd="PD" tag="DT" in="2:tobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
-<W msd="CS" tag="IN" in="-8:prec" out="-2:tobj|1:nobj">before</W>
+<W msd="CS" tag="IN" in="-8:time" out="-2:tobj|1:nobj">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Whitsun</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -250,13 +250,13 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">there</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|6:dur">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:dobj|6:time">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">initiative</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">committee</W>
-<W msd="SP" tag="IN" in="-6:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-6:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fall</W>
 <W msd="XP" tag="." in="-31:pnct" out="">.</W>

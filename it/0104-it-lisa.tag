@@ -40,7 +40,7 @@
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attr" out="">politico</W>
 <W lemma="da" msd="SP" tag="PRE" in="-5:pobj.subj|-5:{agent}" out="1:nobj">da</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">parte</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj|3:appr|49:coref-id">dei</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj|3:appr|49:coref-iden">dei</W>
 <W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="">due</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">partiti</W>
 <W lemma="V" msd="NP" tag="NPR" in="-3:appr" out="2:conj">V</W>
@@ -89,7 +89,7 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="fusione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">fusione</W>
 <W lemma="fra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">fra</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-49:coref-id|-1:nobj" out="2:nobj|43:coref-id">i</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-49:coref-iden|-1:nobj" out="2:nobj|43:coref-iden">i</W>
 <W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="">due</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">partiti</W>
 <W lemma="." msd="XP" tag="SENT" in="-44:pnct" out="">.</W>
@@ -105,8 +105,8 @@
 <W lemma="per" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">per</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="passo" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">passo</W>
-<W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>
-<W lemma="decisivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">decisivo</W>
+<W lemma="così" msd="RG" tag="ADV" in="1:quant" out="">così</W>
+<W lemma="decisivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">decisivo</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-8:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="e" msd="CS" tag="CON" in="1:discmark" out="">E</W>
@@ -126,13 +126,13 @@
 <W lemma="attraverso" msd="RG" tag="ADV" in="-1:pobj" out="1:nobj">attraverso</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="periodo" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|4:ref|10:relr">periodo</W>
-<W lemma="assai" msd="RG" tag="ADV" in="1:degr" out="">assai</W>
-<W lemma="lungo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">lungo</W>
+<W lemma="assai" msd="RG" tag="ADV" in="1:quant" out="">assai</W>
+<W lemma="lungo" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">lungo</W>
 <W lemma="in" msd="SP" tag="PRE" in="7:time" out="1:nobj">in</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="-4:ref|-1:nobj" out="">cui</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="5:subj" out="1:nobj">i</W>
 <W lemma="membro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">membri</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-43:coref-id|-1:pobj|-1:{arg}" out="2:nobj">dei</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-43:coref-iden|-1:pobj|-1:{arg}" out="2:nobj">dei</W>
 <W lemma="due" msd="AN" tag="ADJ" in="1:attr" out="">due</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">partiti</W>
 <W lemma="potere" msd="VADR" tag="VER&3a;cpre" in="-10:relr" out="-5:subj|-7:time|1:vobj">possano</W>
@@ -188,8 +188,8 @@
 <W lemma="ciò" msd="PD" tag="PRO&3a;demo" in="-14:coref|2:subj" out="">ciò</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avvenire" msd="VADA" tag="VER&3a;cimp" in="-3:vobj" out="-2:subj|-1:neg|2:cause">avvenisse</W>
-<W lemma="solo" msd="RG" tag="ADV" in="1:degr" out="">solo</W>
-<W lemma="perché" msd="RG" tag="ADV" in="-2:cause" out="-1:degr|5:vobj">perché</W>
+<W lemma="solo" msd="RG" tag="ADV" in="1:quant" out="">solo</W>
+<W lemma="perché" msd="RG" tag="ADV" in="-2:cause" out="-1:quant|5:vobj">perché</W>
 <W lemma="poco" msd="AN" tag="ADJ" in="3:attr" out="2:conj">poche</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="singolo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">singole</W>

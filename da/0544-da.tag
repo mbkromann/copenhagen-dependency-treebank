@@ -39,9 +39,9 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="the_above" lemma="ovennævnt" msd="ANP[CN]SU=DU" tag="JJ" in="2:struct" out="">Ovennævnte</W>
+<W gloss="the_above" lemma="ovennævnt" msd="ANP[CN]SU=DU" tag="JJ" in="2:scene" out="">Ovennævnte</W>
 <W gloss="long" lemma="lang" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">lange</W>
-<W gloss="list" lemma="liste" msd="NCCSU==I" tag="NN" in="3:subj|4:[subj]" out="-2:struct|-1:attr|2:conj">liste</W>
+<W gloss="list" lemma="liste" msd="NCCSU==I" tag="NN" in="3:subj|4:[subj]" out="-2:scene|-1:attr|2:conj">liste</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="factors" lemma="faktor" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">faktorer</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|15:pnct">er</W>
@@ -141,9 +141,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|3:preds|6:pnct">er</W>
-<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="">lige</W>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:degr" out="-1:degr|2:pobj">så</W>
-<W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:degr">store</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="">lige</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:quant" out="-1:quant|2:pobj">så</W>
+<W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:quant">store</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="Japan's" lemma="Japan" msd="NP--G==-" tag="NNP" in="-1:nobj" out="">Japans</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -211,11 +211,11 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Japan" lemma="Japan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Japan</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|8:pnct">har</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds|4:dur">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:preds|4:time">været</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:preds" out="2:nobj">i</W>
 <W gloss="constantly" lemma="konstant" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">konstant</W>
 <W gloss="increase" lemma="stigning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">stigning</W>
-<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-4:dur" out="2:nobj">siden</W>
+<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-4:time" out="2:nobj">siden</W>
 <W gloss="2nd" lemma="2." msd="AO---U=--" tag="JJ" in="1:attr" out="">2.</W>
 <W gloss="World_War" lemma="verdenskrig" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">verdenskrig</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -238,8 +238,8 @@
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|2:subj|3:[subj]" out="">der</W>
 <W gloss="well" lemma="vel" msd="RGU" tag="RP" in="1:epi" out="">vel</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:epi|1:vobj|4:pnct|7:conj">er</W>
-<W gloss="continued" lemma="fortsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:succ">fortsat</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:succ" out="1:nobj">efter</W>
+<W gloss="continued" lemma="fortsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:time">fortsat</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:time" out="1:nobj">efter</W>
 <W gloss="1973," lemma="1973" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1973</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
@@ -247,8 +247,8 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:time|1:subj|2:vobj|-2:coord">har</W>
 <W gloss="the_rise" lemma="stigning" msd="NCCSU==D" tag="NN" in="-1:subj|1:[subj]" out="">stigningen</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|2:preds">været</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="little" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr">lille</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="little" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-2:preds" out="-1:quant">lille</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
@@ -264,9 +264,9 @@
 <W gloss="14-year_olds" lemma="14-årig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">14-årige</W>
 <W gloss="the_of" lemma="japaner" msd="NCCPG==I" tag="NNP" in="4:subj" out="-1:attr|1:possd">japaneres</W>
 <W gloss="average_height" lemma="gennemsnithøjde" msd="XX" tag="FW" in="-1:possd" out="">gennemsnithøjde</W>
-<W gloss="from" lemma="fra" msd="SP" tag="IN" in="2:dur" out="1:nobj">fra</W>
+<W gloss="from" lemma="fra" msd="SP" tag="IN" in="2:time" out="1:nobj">fra</W>
 <W gloss="1958-1978" lemma="1958-78" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1958-78</W>
-<W gloss="rose" lemma="stige" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-4:subj|-2:dur|1:other|3:pnct|6:conj">steg</W>
+<W gloss="rose" lemma="stige" msd="VADA=----A-" tag="VBD" in="-6:vobj" out="-4:subj|-2:time|1:other|3:pnct|6:conj">steg</W>
 <W gloss="8.9" lemma="8,9" msd="AC---U=--" tag="CD" in="-1:other" out="1:nobj">8,9</W>
 <W gloss="cm" lemma="centimeter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">cm</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

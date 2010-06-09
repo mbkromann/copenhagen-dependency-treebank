@@ -164,12 +164,12 @@
 <W msd="PD" tag="DT" in="1:subj|2:[subj]" out="">this</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">succeed</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|4:pnct|5:reas|32:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|4:pnct|5:cause|32:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:mod">difficult</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">say</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="">because</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="1:nobj">Gorky</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Park</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj">finds</W>
@@ -177,8 +177,8 @@
 <W msd="ANP" tag="RB" in="-1:attr" out="">stylistically</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:mod|3:nobj|4:pnct|5:ref">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">slightly</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">overrun</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">slightly</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">overrun</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">area</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:ref|11:mod" out="">where</W>

@@ -118,7 +118,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|12:loc" out="">hvor</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="11:subj" out="">hun</W>
-<W gloss="despite" lemma="trods" msd="SP" tag="IN" in="10:struct" out="1:nobj">trods</W>
+<W gloss="despite" lemma="trods" msd="SP" tag="IN" in="10:scene" out="1:nobj">trods</W>
 <W gloss="her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="position" lemma="position" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">position</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:nobj">som</W>
@@ -128,9 +128,9 @@
 <W gloss="sits" lemma="sidde" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:@loc">sidder</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="off_the_tap" lemma="pengekasse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pengekassen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:rel" out="-11:subj|-12:loc|-10:struct|2:preds">er</W>
-<W gloss="deeply" lemma="dyb" msd="ANP---=-R" tag="JJ" in="1:degr" out="">dybt</W>
-<W gloss="respected" lemma="respektere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:degr">respekteret</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:rel" out="-11:subj|-12:loc|-10:scene|2:preds">er</W>
+<W gloss="deeply" lemma="dyb" msd="ANP---=-R" tag="JJ" in="1:quant" out="">dybt</W>
+<W gloss="respected" lemma="respektere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:quant">respekteret</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-34:pnct" out="">.</W>
 </s>
 </p>
@@ -186,13 +186,13 @@
 </p>
 <p>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="6:cont" out="1:pobj">Samtidig</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="6:time" out="1:pobj">Samtidig</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="education" lemma="uddannelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">uddannelse</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="civil_engineer" lemma="civilingeniør" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">civilingeniør</W>
-<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-6:cont|1:subj|2:dobj|15:pnct">nåede</W>
+<W gloss="reached" lemma="nå" msd="VADA=----A-" tag="VBD" in="" out="-6:time|1:subj|2:dobj|15:pnct">nåede</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|2:[subj]|9:[subj]" out="">hun</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj|7:conj">at</W>
 <W gloss="study" lemma="studere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:dobj">studere</W>

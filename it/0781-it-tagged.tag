@@ -73,7 +73,7 @@
 <s>
 <W lemma="egli" msd="PP" tag="PRO:pers" in="" out="">Egli</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="consapevole" msd="AN" tag="ADJ" in="" out="">consapevole</W>
 <W lemma="che" msd="CS" tag="CON" in="" out="">che</W>
 <W lemma="qualsiasi" msd="AN" tag="ADJ" in="" out="">qualsiasi</W>

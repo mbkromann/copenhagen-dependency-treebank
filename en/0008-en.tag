@@ -115,11 +115,11 @@
 <s>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="RB" in="4:succ" out="-2:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="4:time" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Inner</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:mod">Mission</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|7:pnct|-4:succ">lost</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|7:pnct|-4:time">lost</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="3:nobj|4:mod">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">parish</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">council</W>

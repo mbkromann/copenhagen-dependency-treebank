@@ -48,9 +48,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">proposed</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">analyses</W>
-<W msd="VA" tag="MD" in="" out="-6:subj|1:pnct|2:reas|4:vobj|38:pnct">should</W>
+<W msd="VA" tag="MD" in="" out="-6:subj|1:pnct|2:cause|4:vobj|38:pnct">should</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="-2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAF" tag="VB" in="-4:vobj" out="-10:[subj]|1:preds|2:pnct|3:mod">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">accessible</W>
@@ -151,7 +151,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|5:[subj]" out="">it</W>
-<W msd="VA" tag="MD" in="" out="-4:mod|-1:subj|1:mod|4:vobj|10:pnct|11:reas|26:pnct|27:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-4:mod|-1:subj|1:mod|4:vobj|10:pnct|11:cause|26:pnct|27:pnct">can</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">some</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">instances</W>
@@ -162,11 +162,11 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">patient</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-11:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-11:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|4:mod">is</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pnct|4:mod|8:nobj">difficult</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pnct|4:mod|8:nobj">difficult</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="1:pnct">then</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

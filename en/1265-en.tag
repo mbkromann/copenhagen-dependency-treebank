@@ -141,7 +141,7 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Bill</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]|4:[subj]" out="-1:namef">Clinton</W>
-<W msd="VADR" tag="VBZ" in="" out="-8:mod|-1:subj|1:vobj|18:pnct|61:pnct|19:cont">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-8:mod|-1:subj|1:vobj|18:pnct|61:pnct|19:time">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">tried</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|2:pobj">make</W>
@@ -160,7 +160,7 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">economic</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="">fiasco</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-19:cont" out="9:vobj">while</W>
+<W msd="CS" tag="IN" in="-19:time" out="9:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">George</W>
 <W msd="NP=S" tag="NNP" in="7:subj|8:[subj]|10:[subj]" out="-1:namef|1:pnct">Bush</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

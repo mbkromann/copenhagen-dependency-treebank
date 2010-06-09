@@ -94,8 +94,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj|1:preds|10:pnct#|11:pnct">was</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj|3:ref|4:rel">the</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr">one</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant">one</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj" out="">who</W>
 <W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|3:mod">extended</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>

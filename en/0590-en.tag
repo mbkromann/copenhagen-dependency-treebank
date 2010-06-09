@@ -141,8 +141,8 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">commencing</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">action</W>
-<W msd="VA" tag="MD" in="" out="-6:subj|-18:cond|1:ext|2:vobj|9:pnct|-8:contr">shall</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VA" tag="MD" in="" out="-6:subj|-18:cond|1:time|2:vobj|9:pnct|-8:contr">shall</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">calculated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>

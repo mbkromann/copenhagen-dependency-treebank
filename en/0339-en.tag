@@ -46,8 +46,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]">pass</W>
 <W msd="VA" tag="MD" in="" out="-5:subj|1:neg|2:vobj|4:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|1:ext">happen</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|1:time">happen</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -82,9 +82,9 @@
 </s>
 <s>
 <W msd="CS" tag="IN" in="" out="3:vobj">If</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|-2:degr|2:preds|3:pnct">were</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|-2:quant|2:preds|3:pnct">were</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">so</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">simple</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>

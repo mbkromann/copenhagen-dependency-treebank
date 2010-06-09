@@ -1,13 +1,13 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|6:pnct|7:prec|23:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|6:pnct|7:time|23:pnct">was</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|3:preds">be</W>
 <W msd="AC" tag="CD" in="2:mod" out="1:nobj">72</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-2:mod">old</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="-7:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:mod">got</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd|2:mod">his</W>

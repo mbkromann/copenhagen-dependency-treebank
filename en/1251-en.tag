@@ -140,8 +140,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADA" tag="VBD" in="14:qobj" out="-2:subj|1:part|2:mod|4:pnct|10:conj|12:pnct|13:pnct|-1:degr">gave</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADA" tag="VBD" in="14:qobj" out="-2:subj|1:part|2:mod|4:pnct|10:conj|12:pnct|13:pnct|-1:quant">gave</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">advance</W>
@@ -189,7 +189,7 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">There</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:dobj|8:pnct|9:reas|40:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:dobj|8:pnct|9:cause|40:pnct">has</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[expl]|1:dobj">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
@@ -198,7 +198,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">indulgence</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-9:cause" out="3:vobj">because</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:pnct|-1:subj|3:aobj|7:pnct|8:mod">go</W>

@@ -98,8 +98,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-3:conj" out="-1:coord|1:nobj">nei</W>
 <W lemma="bar" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">bar</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="caro" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">cari</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="caro" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">cari</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="2:subj" out="">ci</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
@@ -109,10 +109,10 @@
 <W lemma="con" msd="SP" tag="PRE" in="-3:pobj" out="1:nobj">con</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="4:attr|14:ref">uomo</W>
-<W lemma="più" msd="RG" tag="ADV" in="3:degr" out="2:conj">più</W>
+<W lemma="più" msd="RG" tag="ADV" in="3:quant" out="2:conj">più</W>
 <W lemma="o" msd="CS" tag="CON" in="1:coord" out="">o</W>
 <W lemma="meno" msd="RG" tag="ADV" in="-2:conj" out="-1:coord">meno</W>
-<W lemma="gradevole" msd="AN" tag="ADJ" in="-4:attr" out="-3:degr|2:conj">gradevole</W>
+<W lemma="gradevole" msd="AN" tag="ADJ" in="-4:attr" out="-3:quant|2:conj">gradevole</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="distinguere" msd="VAP" tag="VER&3a;pper" in="-2:conj" out="-1:coord">distinto</W>
 <W lemma="e" msd="CS" tag="CON" in="5:coord" out="">e</W>
@@ -156,8 +156,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">lavoro-</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-14:subj|-1:robj|18:pnct|2:preds">sente</W>
-<W lemma="meno" msd="RG" tag="ADV" in="1:degr" out="">meno</W>
-<W lemma="colpevole" msd="NC" tag="NOM" in="-2:preds" out="-1:degr|1:concom">colpevole</W>
+<W lemma="meno" msd="RG" tag="ADV" in="1:quant" out="">meno</W>
+<W lemma="colpevole" msd="NC" tag="NOM" in="-2:preds" out="-1:quant|1:concom">colpevole</W>
 <W lemma="andare" msd="VAG" tag="VER&3a;geru" in="-1:concom" out="1:pobj|3:pobj">andando</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="letto" msd="NC" tag="NOM" in="-1:nobj" out="">letto</W>

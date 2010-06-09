@@ -11,11 +11,11 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Olé</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">song</W>
 <W msd="VADA" tag="VBD" in="-10:rel" out="-6:subj|-7:time|1:vobj">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-7:[subj]|1:pnct|2:reas">missing</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-7:[subj]|1:pnct|2:cause">missing</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-2:reas" out="3:vobj">because</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="1:subj|2:[subj]" out="-1:degr">little</W>
+<W msd="CS" tag="IN" in="-2:cause" out="3:vobj">because</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="1:subj|2:[subj]" out="-1:quant">little</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj|2:pnct|4:conj">was</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]">happening</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>

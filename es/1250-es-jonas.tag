@@ -24,8 +24,8 @@
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
 <W lemma="usar" msd="VAD" tag="VLfin" in="" out="2:dobj|3:pobj">usaba</W>
-<W lemma="demasiado" msd="AN" tag="QU" in="1:degr&3a;prg" out="">demasiado</W>
-<W lemma="tiempo" msd="NC" tag="NC" in="-2:dobj" out="-1:degr&3a;prg">tiempo</W>
+<W lemma="demasiado" msd="AN" tag="QU" in="1:quant&3a;prg" out="">demasiado</W>
+<W lemma="tiempo" msd="NC" tag="NC" in="-2:dobj" out="-1:quant&3a;prg">tiempo</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">ello.”</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:prg" out="">¿Entonces</W>
@@ -68,9 +68,9 @@
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Ester</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:subj" out="-1:namef">Brohus</W>
-<W lemma="no" msd="U=" tag="NEG" in="1:neg" out="2:degr">no</W>
+<W lemma="no" msd="U=" tag="NEG" in="1:neg" out="2:quant">no</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-5:prg|-2:subj|-1:neg|3:preds|4:pnct">es</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-2:degr" out="">del</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-2:quant" out="">del</W>
 <W lemma="todo" msd="AN" tag="QU" in="" out="">todo</W>
 <W lemma="desconocida" msd="NC" tag="NC" in="-3:preds" out="">desconocida</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
@@ -154,8 +154,8 @@
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="" out="">Pero</W>
 <W lemma="estar" msd="VAD" tag="VLfin" in="" out="2:preds|3:pnct">estamos</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:ext" out="">muy</W>
-<W lemma="unir" msd="VAF" tag="VLadj" in="-2:preds" out="-1:ext">unidos</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:time" out="">muy</W>
+<W lemma="unir" msd="VAF" tag="VLadj" in="-2:preds" out="-1:time">unidos</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
 <W lemma="mo" msd="PP" tag="PPO" in="4:subj" out="1:nobj|3:conj">Mi</W>
 <W lemma="maridar" msd="VAD" tag="VLfin" in="-1:nobj" out="">marido</W>
@@ -163,8 +163,8 @@
 <W lemma="yo" msd="PP" tag="PPX" in="-3:conj" out="-1:coord">yo</W>
 <W lemma="vivir" msd="VAD" tag="VLfin" in="" out="-4:subj|1:other|3:loc">vivimos</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:other" out="">aún</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:ext" out="">muy</W>
-<W lemma="cerca" msd="RG" tag="ADV" in="-3:loc" out="-1:ext|1:pobj">cerca</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:time" out="">muy</W>
+<W lemma="cerca" msd="RG" tag="ADV" in="-3:loc" out="-1:time|1:pobj">cerca</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="yo" msd="PP" tag="PPO" in="-1:nobj" out="1:nobj">mis</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">padres.”</W>

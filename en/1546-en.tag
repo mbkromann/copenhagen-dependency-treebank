@@ -81,11 +81,11 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|4:dur|15:conj|57:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|4:time|15:conj|57:pnct">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">five</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">camps</W>
-<W msd="SP" tag="IN" in="-4:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-4:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">six</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
@@ -203,12 +203,12 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:preds">was</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="VAP" tag="VBN" in="-2:preds" out="-1:degr|1:pobj|4:conj">shaken</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="VAP" tag="VBN" in="-2:preds" out="-1:quant|1:pobj|4:conj">shaken</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="5:nobj">by</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="-4:conj" out="-2:coord|1:pobj|-1:degr">unprepared</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="-4:conj" out="-2:coord|1:pobj|-1:quant">unprepared</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:[nobj]">for</W>
 <W msd="PD" tag="DT" in="-5:nobj|-1:[nobj]" out="1:nobj|2:ref|3:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">contrast</W>

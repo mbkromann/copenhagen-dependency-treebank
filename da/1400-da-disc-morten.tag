@@ -114,8 +114,8 @@
 <W gloss="the_prison" lemma="fængsel" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:appr|6:mod">fængslet</W>
 <W gloss="Scremska" lemma="Scremska" msd="NP--U==-" tag="NNP" in="-1:appr" out="1:name">Scremska</W>
 <W gloss="Mitrovica" lemma="Mitrovica" msd="NP--U==-" tag="NNP" in="-1:name" out="">Mitrovica</W>
-<W gloss="approx_." lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="65" lemma="65" msd="AC---U=--" tag="CD" in="2:mod" out="-1:degr|1:nobj">65</W>
+<W gloss="approx_." lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="65" lemma="65" msd="AC---U=--" tag="CD" in="2:mod" out="-1:quant|1:nobj">65</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
 <W gloss="west" lemma="vest" msd="RGU" tag="RP" in="-6:mod" out="-2:mod|1:pobj">vest</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

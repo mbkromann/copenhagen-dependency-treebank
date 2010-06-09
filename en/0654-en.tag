@@ -65,9 +65,9 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|16:pnct">But</W>
 <W msd="PP" tag="PRP" in="1:subj" out="9:ref|10:rel">it</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:degr|3:preds">was</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:quant|3:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="NP=S" tag="NNP" in="-3:preds" out="1:possd|2:mod">Ninn-Hansen's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">explanation</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
@@ -136,8 +136,8 @@
 <W msd="CS" tag="IN" in="-1:pobj" out="4:vobj">though</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Christiansen</W>
-<W msd="ANP" tag="RB" in="1:succ" out="">later</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-1:succ|1:mod|4:pobj|23:pobj|27:pnct">spoke</W>
+<W msd="ANP" tag="RB" in="1:time" out="">later</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-2:subj|-1:time|1:mod|4:pobj|23:pobj|27:pnct">spoke</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">several</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">occasions</W>
@@ -184,7 +184,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="1:conj|40:pnct">Nor</W>
-<W msd="VADA" tag="VBD" in="-1:conj" out="2:subj|3:mod|4:vobj|15:pnct|16:cont|26:focal">had</W>
+<W msd="VADA" tag="VBD" in="-1:conj" out="2:subj|3:mod|4:vobj|15:pnct|16:time|26:focal">had</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Michael</W>
 <W msd="NP=S" tag="NNP" in="-2:subj|2:[subj]" out="-1:namef">Christiansen</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">ever</W>
@@ -200,7 +200,7 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Tamil</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">cases</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-16:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-16:time" out="3:vobj">while</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">himself</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:preds|6:pnct|-1:focal">was</W>

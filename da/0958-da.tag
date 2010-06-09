@@ -50,8 +50,8 @@
 <W gloss="been_able_to" lemma="kunne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:vobj">kunnet</W>
 <W gloss="maintain" lemma="opretholde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">opretholde</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
-<W gloss="relatively" lemma="relativ" msd="ANP---=-R" tag="JJ" in="1:degr" out="">relativ</W>
-<W gloss="high" lemma="høj" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">høj</W>
+<W gloss="relatively" lemma="relativ" msd="ANP---=-R" tag="JJ" in="1:quant" out="">relativ</W>
+<W gloss="high" lemma="høj" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">høj</W>
 <W gloss="interest" lemma="forrentning" msd="NCCSU==I" tag="NN" in="-3:nobj" out="1:pobj">forrentning</W>
 <W gloss="on" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="pensionsopsparernes" lemma="pensionsopsparer" msd="NCCPG==D" tag="NNP" in="-1:nobj" out="1:possd">pensionsopsparernes</W>
@@ -165,8 +165,8 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="7:ref|8:rel">Det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:reas|2:preds|5:pnct|15:pnct">er</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:cause|2:preds|5:pnct|15:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">de</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">gamle</W>
 <W gloss="retirement_investors" lemma="pensionsopsparer" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">pensionsopsparere</W>
@@ -209,9 +209,9 @@
 <W gloss="accumulated" lemma="opsparet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">opsparede</W>
 <W gloss="bonus_equalisation_fund" lemma="bonusudjævnings-fond" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bonusudjævnings-fond</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-24:subj|1:reas|2:degr|3:vobj|6:pnct">kan</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-24:subj|1:cause|2:quant|3:vobj|6:pnct">kan</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="be_seen" lemma="se" msd="VAF-=----P-" tag="VB" in="-3:vobj" out="-27:[subj]|1:pobj">ses</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:pobj" out="1:aobj">som</W>
 <W gloss="competition-inhibiting" lemma="konkurrencehæmmende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:aobj" out="">konkurrencehæmmende</W>
@@ -219,8 +219,8 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:reas|2:preds|3:pnct|21:pnct">er</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:cause|2:preds|3:pnct|21:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="unfortunate" lemma="uheldig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">uheldigt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:nobj" out="2:vobj">at</W>

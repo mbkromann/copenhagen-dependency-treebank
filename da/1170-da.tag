@@ -45,8 +45,8 @@
 <W gloss="Stenbjerre" lemma="Stenbjerre" msd="NP--U==-" tag="NNP" in="1:subj" out="">Stenbjerre</W>
 <W gloss="chose" lemma="vælge" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|5:mod|9:pnct|12:conj">valgte</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">den</W>
-<W gloss="totally" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="commercial" lemma="kommerciel" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">kommercielle</W>
+<W gloss="totally" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="commercial" lemma="kommerciel" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">kommercielle</W>
 <W gloss="solution" lemma="løsning" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">løsning</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-5:mod" out="1:nobj">uden</W>
 <W gloss="regardless" lemma="skele" msd="VAG-=SCI--U" tag="VBG" in="-1:nobj" out="1:pobj">skelen</W>

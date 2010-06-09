@@ -50,8 +50,8 @@
 <W gloss="the_shift" lemma="skift" msd="NCNSU==D" tag="NN" in="9:subj" out="1:pobj">skiftet</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|5:pobj">fra</W>
 <W gloss="Altan's" lemma="Altan" msd="NP--G==-" tag="NNP" in="-1:nobj" out="2:attr|3:possd">Altans</W>
-<W gloss="slightly" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="introverted" lemma="indadrettet" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">indadrettede</W>
+<W gloss="slightly" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="introverted" lemma="indadrettet" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">indadrettede</W>
 <W gloss="music" lemma="musik" msd="NCCSU==I" tag="NN" in="-3:possd" out="">musik</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-5:pobj" out="2:nobj">til</W>
 <W gloss="Scottish" lemma="skotsk" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">skotske</W>
@@ -137,9 +137,9 @@
 <W gloss="bagpipe" lemma="sækkepibe" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">sækkepibe</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="4:pnct" out="">(</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="without" lemma="uden" msd="SP" tag="IN" in="2:att" out="-1:neg|1:nobj">uden</W>
+<W gloss="without" lemma="uden" msd="SP" tag="IN" in="2:eval" out="-1:neg|1:nobj">uden</W>
 <W gloss="reason" lemma="grund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">grund</W>
-<W gloss="called" lemma="kalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:modp" out="-4:pnct|-7:[subj]|-2:att|1:dobj|2:pnct">kaldet</W>
+<W gloss="called" lemma="kalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:modp" out="-4:pnct|-7:[subj]|-2:eval|1:dobj|2:pnct">kaldet</W>
 <W gloss="war_pipes" lemma="warpipes" msd="XF" tag="FW" in="-1:dobj" out="">warpipes</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-2:pnct" out="">)</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:subj|1:neg|2:vobj">vil</W>
@@ -183,8 +183,8 @@
 <W gloss="whom" lemma="som" msd="U=" tag="WDT" in="-2:ref|7:dobj" out="">som</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="2:eval" out="">jo</W>
-<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:dur" out="">stadig</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-5:pnct|-2:eval|-1:dur|1:preds|2:dobj|8:pnct">har</W>
+<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:time" out="">stadig</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-5:pnct|-2:eval|-1:time|1:preds|2:dobj|8:pnct">har</W>
 <W gloss="til_gode" lemma="til_gode" msd="RGU" tag="RP" in="-1:preds" out="">til_gode</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="hear" lemma="høre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|1:loc">høre</W>
@@ -223,8 +223,8 @@
 <W gloss="marshland" lemma="marskland" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">marskland</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-22:other" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">den</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="fascinating" lemma="fascinere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:attr" out="-1:degr">fascinerende</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="fascinating" lemma="fascinere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:attr" out="-1:quant">fascinerende</W>
 <W gloss="multiplicity" lemma="mangfoldighed" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">mangfoldighed</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>

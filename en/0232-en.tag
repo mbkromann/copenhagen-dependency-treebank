@@ -200,15 +200,15 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:degr|7:pnct|8:reas|13:pnct">get</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:quant|7:pnct|8:cause|13:pnct">get</W>
 <W msd="VADA" tag="VBD" in="-1:vobj" out="-2:[subj]|1:avobj">looked</W>
 <W msd="CS" tag="IN" in="-1:avobj" out="">after</W>
 <W msd="PI" tag="DT" in="3:mod" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">bit</W>
-<W msd="ANC" tag="JJR" in="-6:degr" out="-3:mod">more</W>
+<W msd="ANC" tag="JJR" in="-6:quant" out="-3:mod">more</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="2:vobj">because</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:mod|2:dobj">are</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">mostly</W>

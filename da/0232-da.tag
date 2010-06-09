@@ -50,8 +50,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">jeg</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|2:other|3:vobj">vil</W>
-<W gloss="enormously" lemma="enorm" msd="ANP---=-R" tag="JJ" in="1:degr" out="">enormt</W>
-<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:other" out="-1:degr">gerne</W>
+<W gloss="enormously" lemma="enorm" msd="ANP---=-R" tag="JJ" in="1:quant" out="">enormt</W>
+<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:other" out="-1:quant">gerne</W>
 <W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:pobj">gå</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="aerobics" lemma="aerobic" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">aerobic</W>
@@ -218,8 +218,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-1:subj|2:preds">er</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="fun" lemma="sjov" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr">sjovt</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="fun" lemma="sjov" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant">sjovt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds|2:loc">være</W>
 <W gloss="boy" lemma="dreng" msd="NCCSU==I" tag="NN" in="-1:preds" out="">dreng</W>
@@ -230,13 +230,13 @@
 </s>
 <s>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj|2:[subj]" out="">Man</W>
-<W gloss="get" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|6:reas|12:pnct">bliver</W>
-<W gloss="cared" lemma="pusle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:degr|3:pobj">puslet</W>
-<W gloss="additional" lemma="ekstra" msd="ANP---=-R" tag="JJ" in="1:degr" out="">ekstra</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:degr" out="-1:degr">meget</W>
+<W gloss="get" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:pnct|6:cause|12:pnct">bliver</W>
+<W gloss="cared" lemma="pusle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:quant|3:pobj">puslet</W>
+<W gloss="additional" lemma="ekstra" msd="ANP---=-R" tag="JJ" in="1:quant" out="">ekstra</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:quant" out="-1:quant">meget</W>
 <W gloss="on_the" lemma="om" msd="RGU" tag="RP" in="-3:pobj" out="">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:cause" out="2:vobj">fordi</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:other|2:dobj">er</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:other" out="">jo</W>

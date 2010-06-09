@@ -100,9 +100,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">discussion</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:part|2:ext|3:pnct|6:conj|14:pnct">blazed</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:part|2:time|3:pnct|6:conj|14:pnct">blazed</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:subj|5:[subj]" out="">Liv</W>
@@ -170,8 +170,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plate</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-12:[subj]|-2:coord|-1:degr|1:dobj">forgot</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-12:[subj]|-2:coord|-1:quant|1:dobj">forgot</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-14:[subj]|1:iobj|2:dobj">tell</W>
 <W msd="NP=S" tag="NNP" in="-1:iobj" out="">Liv</W>

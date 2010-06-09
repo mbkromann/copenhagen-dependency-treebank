@@ -61,8 +61,8 @@
 <W msd="PT" tag="WDT" in="-6:ref|1:subj" out="">which</W>
 <W msd="VADR" tag="VBZ" in="-7:rel" out="-1:subj|1:neg|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="VAP" tag="VBN" in="-3:preds" out="1:pobj|-1:degr">suited</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="VAP" tag="VBN" in="-3:preds" out="1:pobj|-1:quant">suited</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">climate</W>

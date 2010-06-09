@@ -37,9 +37,9 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|-9:time|1:vobj|5:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|2:hab">doubled</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|2:iter">doubled</W>
 <W msd="VADR" tag="VBZ" in="-1:dobj" out="">sales</W>
-<W msd="PD" tag="DT" in="-2:hab" out="1:nobj">every</W>
+<W msd="PD" tag="DT" in="-2:iter" out="1:nobj">every</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">year</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -65,9 +65,9 @@
 <W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}" out="">product</W>
 <W msd="NC=S" tag="NN" in="2:title" out="-1:nobj.dobj|-1:{patient}">manager</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
-<W msd="ANP" tag="JJ" in="-4:subj" out="-2:title|-1:namef|1:pnct|2:attr|2:{origin}">Bred</W>
+<W msd="ANP" tag="JJ" in="-4:subj" out="-2:title|-1:namef|1:pnct|2:attr|2:{source}">Bred</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-2:attr|-2:{origin}" out="1:nobj">Tholstrup</W>
+<W msd="NP=S" tag="NNP" in="-2:attr|-2:{source}" out="1:nobj">Tholstrup</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Cheese</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -98,10 +98,10 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:nobj.dobj|-1:{patient}">producer</W>
 <W msd="VA" tag="MD" in="-5:vobj" out="-4:subj|1:add|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:part|2:dobj|3:prec">start</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-6:[subj]|1:part|2:dobj|3:time">start</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="">production</W>
-<W msd="CS" tag="IN" in="-3:prec" out="1:aobj">before</W>
+<W msd="CS" tag="IN" in="-3:time" out="1:aobj">before</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">long</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
@@ -130,12 +130,12 @@
 <W msd="NC=S" tag="NN" in="-1:@dir" out="1:pobj">home</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|4:possd|5:appr">the</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj|3:{pos}" out="">world's</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj|3:{loc}" out="">world's</W>
 <W msd="ANS" tag="JJS" in="-2:attr" out="">largest</W>
 <W msd="NC=S" tag="NN" in="1:nobj|1:{arg}" out="">food</W>
-<W msd="ANP" tag="JJ" in="-4:possd" out="-3:{pos}|-1:nobj|-1:{arg}">fair</W>
-<W msd="NP=S" tag="NNP" in="-5:appr" out="1:attr|1:{pos}">NUGA</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W msd="ANP" tag="JJ" in="-4:possd" out="-3:{loc}|-1:nobj|-1:{arg}">fair</W>
+<W msd="NP=S" tag="NNP" in="-5:appr" out="1:attr|1:{loc}">NUGA</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Germany</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
@@ -144,9 +144,9 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Pasta</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:time|2:degr|3:preds|10:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:time|2:quant|3:preds|10:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">still</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="PI" tag="DT" in="-3:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="-2:nobj|1:{apart}" out="1:pobj">part</W>
@@ -157,8 +157,8 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="1:degr" out="">Only</W>
-<W msd="AC" tag="CD" in="1:{apart}|6:subj" out="-1:degr|1:pobj">30</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">Only</W>
+<W msd="AC" tag="CD" in="1:{apart}|6:subj" out="-1:quant|1:pobj">30</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="-1:{apart}|1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj|1:{const}" out="">firm's</W>

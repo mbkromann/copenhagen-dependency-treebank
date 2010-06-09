@@ -49,8 +49,8 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="individual" lemma="enkelt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">enkelte</W>
 <W gloss="patient" lemma="patient" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">patient</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="possible" lemma="mulig" msd="ANP---=-R" tag="JJ" in="1:other" out="-1:degr">muligt</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="possible" lemma="mulig" msd="ANP---=-R" tag="JJ" in="1:other" out="-1:quant">muligt</W>
 <W gloss="independent" lemma="uafhængig" msd="ANPCSU=IU" tag="JJ" in="-6:preds" out="-1:other|1:pobj">uafhængig</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="others'" lemma="anden" msd="PI-[CN]PG--U" tag="DT" in="-1:nobj" out="1:possd">andres</W>
@@ -91,9 +91,9 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="physical_therapists" lemma="fysioterapeut" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">fysioterapeuter</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
-<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:iobj|2:ext|5:add|6:dobj|13:pnct">viser</W>
+<W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:iobj|2:time|5:add|6:dobj|13:pnct">viser</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:ext" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">mange</W>
 <W gloss="instances" lemma="tilfælde" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">tilfælde</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-5:add" out="">også</W>
@@ -134,8 +134,8 @@
 <W gloss="meaningful" lemma="meningsfyldt" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">meningsfyldt</W>
 <W gloss="work" lemma="arbejde" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">arbejde</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-11:pnct" out=""> - </W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="1:ext" out="">ofte</W>
-<W gloss="with" lemma="med" msd="SP" tag="IN" in="-13:other" out="-1:ext|1:nobj|4:preds">med</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="1:time" out="">ofte</W>
+<W gloss="with" lemma="med" msd="SP" tag="IN" in="-13:other" out="-1:time|1:nobj|4:preds">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="positive" lemma="positiv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">positiv</W>
 <W gloss="effect" lemma="virkning" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">virkning</W>
@@ -182,8 +182,8 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="5:nobj">med</W>
 <W gloss="warmer" lemma="varm" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="4:attr" out="5:pobj|3:conj">varmere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="dry" lemma="tør" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:conj" out="-1:degr|2:[pobj]|-2:coord">tørre</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="dry" lemma="tør" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:conj" out="-1:quant|2:[pobj]|-2:coord">tørre</W>
 <W gloss="climate_conditions" lemma="klimaforhold" msd="NCNPU==I" tag="NNP" in="-5:nobj" out="-4:attr">klimaforhold</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-5:pobj|-2:[pobj]" out="1:nobj">end</W>
 <W gloss="ours" lemma="vores" msd="PO1[CN]PUPNF" tag="PRP$" in="-1:nobj" out="">vore</W>
@@ -214,8 +214,8 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:attr">De</W>
 <W gloss="sclerosis_victims" lemma="scleroseramt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">scleroseramte</W>
-<W gloss="have" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:ext|8:dobj|9:pnct">får</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:ext" out="">ofte</W>
+<W gloss="have" lemma="få" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:time|8:dobj|9:pnct">får</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:time" out="">ofte</W>
 <hi>
 <W gloss="psychic" lemma="psykisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="5:attr" out="1:pnct|2:conj|4:conj">psykiske</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

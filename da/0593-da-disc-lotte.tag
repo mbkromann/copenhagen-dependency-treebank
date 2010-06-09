@@ -90,11 +90,11 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="With_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="4:bg" out="1:nobj">Med_hensyn_til</W>
+<W gloss="With_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="4:scene" out="1:nobj">Med_hensyn_til</W>
 <W gloss="the_calculation" lemma="beregning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">beregningen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_rent_allowance" lemma="boligydelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">boligydelsen</W>
-<W gloss="is_taken" lemma="tage" msd="VADR=----P-" tag="VBD" in="" out="-4:bg|1:expl|2:dobj|7:pnct">tages</W>
+<W gloss="is_taken" lemma="tage" msd="VADR=----P-" tag="VBD" in="" out="-4:scene|1:expl|2:dobj|7:pnct">tages</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="starting_point" lemma="udgangspunkt" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj">udgangspunkt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
@@ -105,15 +105,15 @@
 </s>
 <s>
 <W gloss="The_threshold_amount" lemma="grænsebeløb" msd="NCNSU==D" tag="NN" in="1:subj" out="">Grænsebeløbet</W>
-<W gloss="is" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:ben|12:time|14:dobj|19:pnct">udgør</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:ben" out="1:nobj">for</W>
+<W gloss="is" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:goal|12:time|14:dobj|19:pnct">udgør</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:goal" out="1:nobj">for</W>
 <W gloss="incomes" lemma="indkomst" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|4:rel">indkomster</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="do_exceed" lemma="overstige" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:neg|1:dobj|5:pnct">overstiger</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:degr|2:nobj">en</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="-1:degr" out="">ca.</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:quant|2:nobj">en</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="-1:quant" out="">ca.</W>
 <W gloss="130,000" lemma="130.000" msd="AC---U=--" tag="CD" in="-2:nobj" out="1:nobj">130.000</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

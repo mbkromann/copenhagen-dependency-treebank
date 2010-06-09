@@ -87,8 +87,8 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="">Han</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:ext|4:vobj|17:pnct">har</W>
-<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-1:ext" out="1:nobj">ved</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|4:vobj|17:pnct">har</W>
+<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-1:time" out="1:nobj">ved</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
 <W gloss="occasions" lemma="lejlighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lejligheder</W>
 <W gloss="emphasized" lemma="understrege" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:pnct|2:dobj">understreget</W>
@@ -204,7 +204,7 @@
 <p>
 <s>
 <W gloss="The_shareholder_group" lemma="aktionærgruppe" msd="NCCSU==D" tag="NN" in="1:subj" out="">Aktionærgruppen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|25:comp|37:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|25:resem|37:pnct">er</W>
 <W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -229,11 +229,11 @@
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-12:pobj" out="1:nobj">til</W>
 <W gloss="disposal" lemma="rådighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">rådighed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-25:comp" out="2:vobj">ligesom</W>
+<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-25:resem" out="2:vobj">ligesom</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="express" lemma="udtrykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:bg">udtrykker</W>
+<W gloss="express" lemma="udtrykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:scene">udtrykker</W>
 <W gloss="uncertainty" lemma="usikkerhed" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">usikkerhed</W>
-<W gloss="with_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="-2:bg" out="2:nobj">med_hensyn_til</W>
+<W gloss="with_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="-2:scene" out="2:nobj">med_hensyn_til</W>
 <W gloss="Klaus" lemma="Klaus" msd="NP--U==-" tag="NNP" in="1:namef" out="">Klaus</W>
 <W gloss="Riskær's" lemma="Riskær" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd">Riskærs</W>
 <W gloss="purchase" lemma="køb" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">køb</W>

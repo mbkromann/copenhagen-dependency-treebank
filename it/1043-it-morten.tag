@@ -50,7 +50,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">di</W>
 <W lemma="centro" msd="NC" tag="NOM" in="-1:nobj" out="">centro</W>
 <W lemma="verso" msd="SP" tag="PRE" in="-6:dir" out="1:nobj">verso</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|22:coref-id">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|22:coref-iden">il</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-1:attr" out="">Socialdemocratico</W>
 <W lemma="." msd="XP" tag="SENT" in="-42:pnct" out="">.</W>
@@ -72,7 +72,7 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="11:coord" out="">e</W>
 <W lemma="infatti" msd="RG" tag="ADV" in="10:prg" out="">infatti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-22:coref-id|9:subj|10:[subj]" out="1:nobj">il</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-22:coref-iden|9:subj|10:[subj]" out="1:nobj">il</W>
 <W lemma="partito" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Partito</W>
 <W lemma="socialdemocratico" msd="AN" tag="ADJ" in="-1:attr" out="">Socialdemocratico</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
@@ -150,8 +150,8 @@
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr" out="2:conj">finanziari</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="politico" msd="NC" tag="NOM" in="-2:conj" out="-1:coord">politici</W>
-<W lemma="meno" msd="RG" tag="ADV" in="1:degr" out="">meno</W>
-<W lemma="pressante" msd="AN" tag="ADJ" in="-5:attr" out="-1:degr">pressanti</W>
+<W lemma="meno" msd="RG" tag="ADV" in="1:quant" out="">meno</W>
+<W lemma="pressante" msd="AN" tag="ADJ" in="-5:attr" out="-1:quant">pressanti</W>
 <W lemma="(" msd="XP" tag="PON" in="2:pnct" out="">(</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-8:conj" out="-2:pnct|-1:coord|1:nobj|7:pnct">l'</W>

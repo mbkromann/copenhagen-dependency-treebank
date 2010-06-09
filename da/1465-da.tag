@@ -60,8 +60,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="5:time" out="3:vobj">når</W>
 <W gloss="Parliament" lemma="folketing" msd="NCNSU==D" tag="NN" in="2:subj" out="">Folketinget</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="1:ext" out="">igen</W>
-<W gloss="convenes" lemma="mødes" msd="VEDR=----A-" tag="VBN" in="-3:vobj" out="-2:subj|-1:ext|1:pnct">mødes</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="1:time" out="">igen</W>
+<W gloss="convenes" lemma="mødes" msd="VEDR=----A-" tag="VBN" in="-3:vobj" out="-2:subj|-1:time|1:pnct">mødes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-5:time|1:vobj">vil</W>
 <W gloss="put_forth" lemma="fremsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|1:dobj">fremsætte</W>
@@ -248,8 +248,8 @@
 <W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">vil</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|3:preds|4:pnct|5:cond">være</W>
 <W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:mod" out="">langt</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:mod">mere</W>
-<W gloss="effective" lemma="effektiv" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">effektivt</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:mod">mere</W>
+<W gloss="effective" lemma="effektiv" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:quant">effektivt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-5:cond" out="3:vobj">hvis</W>
 <W gloss="doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="2:subj" out="">lægerne</W>

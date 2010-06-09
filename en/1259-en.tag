@@ -187,8 +187,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">We</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:ext|1:dobj|14:pnct">forget</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:time|1:dobj|14:pnct">forget</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:pobj">look</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|4:pnct|5:conj">at</W>

@@ -20,8 +20,8 @@
 <W lemma="tesoro" msd="NC" tag="NOM" in="-1:dobj" out="1:pobj|9:cons">tesoro</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">della</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-1:nobj|1:{arg}" out="1:possd|152:coref">sua</W>
-<W lemma="esperienza" msd="NC" tag="NOM" in="-1:possd" out="-1:{arg}|1:bg">esperienza</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:bg" out="1:vobj">nel</W>
+<W lemma="esperienza" msd="NC" tag="NOM" in="-1:possd" out="-1:{arg}|1:scene">esperienza</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:scene" out="1:vobj">nel</W>
 <W lemma="procurare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-8:[subj]|1:dobj">procurarsi</W>
 <W lemma="sponsorizzazione" msd="NC" tag="NOM" in="-1:dobj" out="2:conj">sponsorizzazioni</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -52,8 +52,8 @@
 <W lemma="categoria" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|2:{arg}">categorie</W>
 <W lemma="superiore" msd="AN" tag="ADJ" in="-1:attr" out="">superiori</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:attr|-2:{arg}" out="2:nobj">del</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr|1:{pos}#" out="">road</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|-1:{pos}#|1:attr">racing</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr|1:{loc}#" out="">road</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|-1:{loc}#|1:attr">racing</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="-1:attr" out="">danese</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:add" out="">anche</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="3:time" out="-1:add|2:nobj">nei</W>
@@ -89,11 +89,11 @@
 <W lemma="stesso" msd="AN" tag="ADJ" in="-1:focal" out="">stesso</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:vobj|35:pnct">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|2:preds">stato</W>
-<W lemma="così" msd="RG" tag="ADV" in="1:degr" out="2:nobj">così</W>
-<W lemma="fortunato" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">fortunato</W>
+<W lemma="così" msd="RG" tag="ADV" in="1:quant" out="2:nobj">così</W>
+<W lemma="fortunato" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">fortunato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:nobj" out="10:vobj">che</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="grazia" msd="NC" tag="NOM" in="8:bg" out="-1:pnct|1:pobj|7:pnct">grazie</W>
+<W lemma="grazia" msd="NC" tag="NOM" in="8:scene" out="-1:pnct|1:pobj|7:pnct">grazie</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj|3:conj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Yamaha</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
@@ -101,7 +101,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">Enghave</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Motor</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
-<W _noerror="&3a;nosubj&3a;" lemma="potere" msd="VADR" tag="VER&3a;pres" in="-10:vobj|2:[subj]" out="-8:bg|1:time|2:vobj">posso</W>
+<W _noerror="&3a;nosubj&3a;" lemma="potere" msd="VADR" tag="VER&3a;pres" in="-10:vobj|2:[subj]" out="-8:scene|1:time|2:vobj">posso</W>
 <W lemma="ora" msd="RG" tag="ADV" in="-1:time" out="">ora</W>
 <W lemma="mettere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-2:[subj]|1:man|3:dobj|6:iobj">mettere</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:man" out="1:nobj">a</W>
@@ -123,9 +123,9 @@
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">grandi</W>
 <W lemma="ambizione" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">ambizioni</W>
 <W lemma="." msd="XP" tag="SENT" in="-35:pnct" out="">.</W>
-<W lemma="purtroppo" msd="RG" tag="ADV" in="2:att" out="">Purtroppo</W>
+<W lemma="purtroppo" msd="RG" tag="ADV" in="2:eval" out="">Purtroppo</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="1:[subj]|44:qobj" out="-1:neg|-2:att|1:vobj|15:pnct|18:conj|42:pnct">posso</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="1:[subj]|44:qobj" out="-1:neg|-2:eval|1:vobj|15:pnct|18:conj|42:pnct">posso</W>
 <W lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:iobj|2:dobj">dar</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-1:iobj|-14:coref-var" out="">loro</W>
 <W lemma="nessuno" msd="PI" tag="PRO&3a;indef" in="-2:dobj" out="1:nobj">nessuna</W>
@@ -163,8 +163,8 @@
 <W lemma="interesse" msd="NC" tag="NOM" in="-1:possd" out="-1:{arg}|1:attr|1:{about}">interesse</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr|-1:{about}" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="2:nobj">il</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr|1:{pos}" out="">road</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|-1:{pos}">racing</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:attr|1:{loc}" out="">road</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|-1:{loc}">racing</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="scomparire" msd="VADR" tag="VER&3a;cpre" in="-9:vobj" out="-1:neg|-8:subj">scompaia</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-42:pnct" out="">"</W>

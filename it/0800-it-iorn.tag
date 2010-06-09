@@ -21,8 +21,8 @@
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="conoscere" msd="VADR" tag="VER&3a;pres" in="-19:conj" out="-1:coord|2:dobj|9:pnct">conosce</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:quant|1:nobj">i</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">nomi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">delle</W>
 <W lemma="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">specialità</W>
@@ -156,9 +156,9 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj|-1:[subj]" out="1:nobj">il</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|6:attr">contributo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|2:ext">30</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|2:time">30</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:ext" out="1:nobj">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:time" out="1:nobj">l'</W>
 <W lemma="ora" msd="NC" tag="NOM" in="-1:nobj" out="">ora</W>
 <W lemma="da" msd="SP" tag="PRE" in="-6:attr" out="1:nobj">da</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">parte</W>

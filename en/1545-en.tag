@@ -102,10 +102,10 @@
 <W msd="NC=P" tag="NNS" in="3:subj" out="1:pobj">thousands</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">spectators</W>
-<W msd="VADA" tag="VBD" in="-9:conj" out="-3:subj|1:preds|2:pnct|3:reas">stayed</W>
+<W msd="VADA" tag="VBD" in="-9:conj" out="-3:subj|1:preds|2:pnct|3:cause">stayed</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">away</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-3:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-3:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">excitement</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">was</W>
@@ -139,8 +139,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">track</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PI" tag="DT" in="-4:conj" out="-1:coord|2:attr|4:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">new</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">new</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">pit</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">facility</W>
 <W msd="CS" tag="IN" in="-11:mod" out="1:nobj">after</W>
@@ -192,11 +192,11 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VA" tag="MD" in="-14:conj" out="-1:subj|-2:coord|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="2:preds|4:ext">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="2:preds|4:time">be</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">full</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr|1:attr">speed</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">ahead</W>
-<W msd="ANP" tag="RB" in="-4:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-4:time" out="">again</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>

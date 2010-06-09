@@ -2,8 +2,8 @@
 <W msd="ANP" tag="JJ" in="3:subj|10:[subj]" out="2:nobj">Several</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bank</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">employees</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:dur|6:dobj|19:pnct">tried</W>
-<W msd="SP" tag="IN" in="-1:dur" out="">during</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:time|6:dobj|19:pnct">tried</W>
+<W msd="SP" tag="IN" in="-1:time" out="">during</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="ANP" tag="JJ" in="" out="">annual</W>
 <W msd="ANP" tag="JJ" in="" out="">general</W>

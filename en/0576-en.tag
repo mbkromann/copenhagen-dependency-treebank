@@ -117,8 +117,8 @@
 <s>
 <W msd="SP" tag="IN" in="7:mod" out="1:nobj|5:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">slightly</W>
-<W msd="ANP" tag="RB" in="-2:attr" out="-1:degr">longer</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">slightly</W>
+<W msd="ANP" tag="RB" in="-2:attr" out="-1:quant">longer</W>
 <W msd="VADR" tag="VBP" in="-3:nobj" out="">view</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
@@ -189,7 +189,7 @@
 <W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="2:conj">Moscow</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Washington</W>
-<W msd="VA" tag="MD" in="" out="-12:mod|-3:subj|1:vobj|15:pnct|16:cont|28:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-12:mod|-3:subj|1:vobj|15:pnct|16:time|28:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|4:mod">follow</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="1:attr|2:possd">Europe's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
@@ -205,7 +205,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-4:conj" out="-1:coord">watchfulness</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-16:cont" out="7:vobj">while</W>
+<W msd="CS" tag="IN" in="-16:time" out="7:vobj">while</W>
 <W msd="PI" tag="DT" in="6:subj" out="1:attr|2:attr|3:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">global</W>

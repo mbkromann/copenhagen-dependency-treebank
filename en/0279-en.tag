@@ -34,8 +34,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-1:subj|1:vobj">don't</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|2:dobj|3:time">drink</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant">much</W>
 <W msd="NC=S" tag="NN" in="-3:time" out="">tonight</W>
 <W msd="XP" tag="." in="-9:pnct" out="">!</W>
 </s>

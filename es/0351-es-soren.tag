@@ -145,11 +145,11 @@
 <W lemma="." msd="XP" tag="FS" in="-16:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="6:subj|7:[subj]|20:[subj]|21:[subj]" out="">Él</W>
 <W lemma="," msd="XP" tag="CM" in="3:pnct" out="">,</W>
-<W lemma="por" msd="SP" tag="SCENE" in="4:struct" out="1:nobj">por</W>
+<W lemma="por" msd="SP" tag="SCENE" in="4:scene" out="1:nobj">por</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
 <W lemma="parte" msd="NC" tag="NC" in="-1:possd" out="-3:pnct|1:pnct">parte</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:struct|-6:subj|1:vobj|14:conj|31:pnct">había</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:scene|-6:subj|1:vobj|14:conj|31:pnct">había</W>
 <W lemma="entrar" msd="VAF" tag="VLadj" in="-1:vobj" out="-7:[subj]|1:man|3:loc">entrado</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">hurtadillas</W>
@@ -190,8 +190,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="-1:pnct|1:pnct">Lange</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="suceder" msd="VAD" tag="VLfin" in="" out="2:subj|3:time|5:pnct">sucedieron</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:degr" out="">muchas</W>
-<W lemma="cosa" msd="NC" tag="NC" in="-2:subj" out="-1:degr">cosas</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:quant" out="">muchas</W>
+<W lemma="cosa" msd="NC" tag="NC" in="-2:subj" out="-1:quant">cosas</W>
 <W lemma="aquel" msd="" tag="DM" in="-3:time" out="1:nobj">aquella</W>
 <W lemma="vez" msd="NC" tag="NC" in="-1:nobj" out="">vez</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>

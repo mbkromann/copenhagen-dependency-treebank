@@ -29,8 +29,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-4:subj|1:preds|5:pnct">is</W>
 <W msd="PT" tag="WP" in="-1:preds|2:[dobj]" out="2:rel">what</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-2:[dobj]|-1:subj|1:degr">hear</W>
-<W msd="ANS" tag="JJS" in="-1:degr" out="">most</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-2:[dobj]|-1:subj|1:quant">hear</W>
+<W msd="ANS" tag="JJS" in="-1:quant" out="">most</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -87,8 +87,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">shop</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:degr|2:vobj|8:pnct|13:conj|22:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:quant|2:vobj|8:pnct|13:conj|22:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:preds|2:mod">been</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="">there</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">for</W>
@@ -135,8 +135,8 @@
 <W msd="VADR" tag="VBP" in="" out="-5:subj|1:vobj|6:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj">sold</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="3:nobj">to</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">young</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">young</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">girls</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

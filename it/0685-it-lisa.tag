@@ -27,10 +27,10 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">di</W>
 <W lemma="stupefacente" msd="NC" tag="NOM" in="-1:nobj" out="">stupefacenti</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-9:pnct" out="">:</W>
-<W lemma="quasi" msd="RG" tag="ADV" in="1:degr" out="">quasi</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-11:other" out="-1:degr|1:nobj|6:pnct|7:source">il</W>
-<W lemma="doppio" msd="AN" tag="ADJ" in="-1:nobj" out="1:comp">doppio</W>
-<W lemma="rispetto" msd="NC" tag="NOM" in="-1:comp" out="1:pobj">rispetto</W>
+<W lemma="quasi" msd="RG" tag="ADV" in="1:quant" out="">quasi</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-11:other" out="-1:quant|1:nobj|6:pnct|7:source">il</W>
+<W lemma="doppio" msd="AN" tag="ADJ" in="-1:nobj" out="1:resem">doppio</W>
+<W lemma="rispetto" msd="NC" tag="NOM" in="-1:resem" out="1:pobj">rispetto</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">all'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">anno</W>
 <W lemma="precedente" msd="AN" tag="ADJ" in="-1:attr" out="">precedente</W>
@@ -76,8 +76,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:conj" out="-1:coord|1:nobj">il</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="-1:nobj" out="1:nobj">fatto</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:nobj" out="4:vobj">che</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutte</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="-1:degr|1:nobj">le</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutte</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="-1:quant|1:nobj">le</W>
 <W lemma="vittima" msd="NC" tag="NOM" in="-1:nobj" out="">vittime</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-4:vobj" out="-2:subj|1:vobj|6:pnct">hanno</W>
 <W lemma="abusare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:time|3:pobj.dobj|3:{patient}">abusato</W>
@@ -134,8 +134,8 @@
 <W lemma="risparmiare" msd="VAG" tag="VER&3a;geru" in="-8:concom" out="1:pobj">risparmiando</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="conseguenza" msd="NC" tag="NOM" in="-1:nobj" out="2:nobj">conseguenza</W>
-<W lemma="circa" msd="SP" tag="PRE" in="1:degr" out="">circa</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:degr|1:nobj">800.000</W>
+<W lemma="circa" msd="SP" tag="PRE" in="1:quant" out="">circa</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:quant|1:nobj">800.000</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">awb</W>

@@ -8,8 +8,8 @@
 <W msd="VA" tag="MD" in="" out="-6:pnct|-5:subj|1:vobj|5:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|2:aobj">taken</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-2:aobj" out="-1:degr">seriously</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-2:aobj" out="-1:quant">seriously</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -19,8 +19,8 @@
 <W msd="ANP" tag="RB" in="-1:man" out="">easily</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">long</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">long</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">time</W>
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:preds">get</W>

@@ -123,10 +123,10 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="3:succ" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="3:time" out="1:nobj">Efter</W>
 <W gloss="the_deadline" lemma="frist" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">fristens</W>
 <W gloss="expired" lemma="udløb" msd="NCNSU==I" tag="NN" in="-1:possd" out="">udløb</W>
-<W gloss="will_draw" lemma="trække" msd="VADR=----A-" tag="VBD" in="" out="-3:succ|1:subj|2:dobj|3:loc|7:pnct|11:conj|21:pnct">trækker</W>
+<W gloss="will_draw" lemma="trække" msd="VADR=----A-" tag="VBD" in="" out="-3:time|1:subj|2:dobj|3:loc|7:pnct|11:conj|21:pnct">trækker</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="lots" lemma="lod" msd="NCNSU==I" tag="NN" in="-2:dobj" out="">lod</W>
 <W gloss="among" lemma="blandt" msd="SP" tag="IN" in="-3:loc" out="1:nobj">blandt</W>
@@ -139,13 +139,13 @@
 <W gloss="lucky" lemma="heldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">heldige</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-2:subj|-3:coord|1:vobj">vil</W>
 <W gloss="have" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">få</W>
-<W gloss="sent" lemma="tilsende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|6:prec">tilsendt</W>
+<W gloss="sent" lemma="tilsende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj|6:time">tilsendt</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">deres</W>
 <W gloss="prize" lemma="gevinst" msd="NCCSU==I" tag="NN" in="-1:possd" out="">gevinst</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="3:tobj" out="2:nobj">i</W>
 <W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">god</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">tid</W>
-<W gloss="in" lemma="inden" msd="SP" tag="IN" in="-6:prec" out="-3:tobj|1:nobj">inden</W>
+<W gloss="in" lemma="inden" msd="SP" tag="IN" in="-6:time" out="-3:tobj|1:nobj">inden</W>
 <W gloss="Christmas_Eve" lemma="juleaften" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">juleaften</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>

@@ -54,18 +54,18 @@
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:nobj" out="">sig</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">af</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hans</W>
-<W gloss="knowledge" lemma="viden" morph="vide +n/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">viden</W>
+<W gloss="knowledge" lemma="viden" morph="vide +n/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">viden</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
-<W gloss="driving" lemma="kørsel" morph="køre +sel/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">kørsel</W>
+<W gloss="driving" lemma="kørsel" morph="køre +sel/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">kørsel</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="technique" lemma="teknik" morph="teknik" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">teknik</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-17:vobj" out="-16:subj|-15:mod|-1:add|1:vobj">kan</W>
-<W gloss="profit" lemma="profitere" morph="profit +ere/DER&3a;nv" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-17:[subj]|1:pobj|12:pnct|13:mod">profitere</W>
+<W gloss="profit" lemma="profitere" morph="profit +ere/DERnv" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-17:[subj]|1:pobj|12:pnct|13:mod">profitere</W>
 <W gloss="from" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd|2:mod">hans</W>
-<W gloss="experience" lemma="erfaring" morph="erfare +ing/PRED&3a;core" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">erfaringer</W>
+<W gloss="experience" lemma="erfaring" morph="erfare +ing/DERvn&3a;core" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">erfaringer</W>
 <W gloss="in" lemma="inden" msd="RGU" tag="RP" in="-2:mod" out="1:pobj">inden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="1:nobj">det</W>
@@ -73,16 +73,16 @@
 <W gloss="getting" lemma="skaffe" morph="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">skaffe</W>
 <W gloss="sponsorship_money" lemma="sponsor-krone" morph="krone -sponsor/agent" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="2:conj">sponsor-kroner</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="publicity" lemma="omtale" morph="omtale +Ø/PRED&3a;core" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">omtale</W>
+<W gloss="publicity" lemma="omtale" morph="omtale +Ø/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">omtale</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="CS" tag="IN" in="-13:mod" out="8:vobj">så</W>
 <W gloss="the_interest" lemma="interesse" morph="interesse" msd="NCCSU==D" tag="NN" in="7:subj|8:[subj]" out="1:pobj">interessen</W>
 <W gloss="in" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="speed" lemma="fart" morph="fart" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">fart</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="racing" lemma="væddeløb" morph="løbe +Ø/PRED&3a;core -vædde/func" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">væddeløb</W>
+<W gloss="racing" lemma="væddeløb" morph="løbe +Ø/DERvn&3a;core -vædde/func" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">væddeløb</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
-<W gloss="financially" lemma="økonomisk" morph="økonomi +sk/DENOM&3a;rel.norm" msd="ANP---=-R" tag="JJ" in="1:attr" out="-1:add">økonomisk</W>
+<W gloss="financially" lemma="økonomisk" morph="økonomi +sk/DERna&3a;rel.norm" msd="ANP---=-R" tag="JJ" in="1:attr" out="-1:add">økonomisk</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-1:attr|1:vobj">kan</W>
 <W gloss="take" lemma="løbe" morph="løbe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:@dir">løbe</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="">rundt</W>
@@ -97,7 +97,7 @@
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:mod" out="">jo</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:preds" out="10:vobj">at</W>
-<W gloss="Danish" lemma="dansk" morph="Danmark +sk/DENOM&3a;rel.deono.place" msd="ANP[CN]SU=IU" tag="JJ" in="1:mod" out="">dansk</W>
+<W gloss="Danish" lemma="dansk" morph="Danmark +sk/DERna&3a;rel.deono.loc" msd="ANP[CN]SU=IU" tag="JJ" in="1:mod" out="">dansk</W>
 <W gloss="road_racing" lemma="roadracings" msd="XF" tag="FW" in="8:subj|9:[subj]" out="-1:mod|1:attr|2:possd">roadracings</W>
 <W gloss="major" lemma="stor" morph="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">store</W>
 <W gloss="classes" lemma="klasse" morph="klasse" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">klasser</W>
@@ -116,8 +116,8 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|21:pnct">Og</W>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="will_happen" lemma="ske" morph="ske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:degr|2:pnct|3:cond">sker</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="will_happen" lemma="ske" morph="ske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:quant|2:pnct|3:cond">sker</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:cond" out="5:vobj">hvis</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="4:subj" out="2:attr">vi</W>
@@ -150,20 +150,20 @@
 <W gloss="Motor" lemma="motor" morph="motor" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Motor</W>
 <W gloss="been" lemma="være" morph="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-7:vobj" out="-8:[subj]|2:preds">været</W>
 <W gloss="enough" lemma="så" msd="RGU" tag="RP" in="1:mod" out="3:nobj">så</W>
-<W gloss="lucky" lemma="heldig" morph="held +ig/DENOM&3a;rel.norm" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:mod|1:pnct">heldig</W>
+<W gloss="lucky" lemma="heldig" morph="held +ig/DERna&3a;rel.norm" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:mod|1:pnct">heldig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:nobj" out="2:vobj">at</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">kan</W>
 <W gloss="table" lemma="stille" morph="stille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:pobj">stille</W>
-<W gloss="equipment" lemma="udstyr" morph="udstyre +Ø/PRED&3a;result" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">udstyr</W>
+<W gloss="equipment" lemma="udstyr" morph="udstyre +Ø/DERvn&3a;patient" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">udstyr</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
 <W gloss="disposal" lemma="rådighed" morph="rådighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">rådighed</W>
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="2:nobj">to</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="apprentices" lemma="lærling" morph="lære +ling/PRED&3a;agent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">lærlinge</W>
+<W gloss="apprentices" lemma="lærling" morph="lære +ling/DERvn&3a;agent" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">lærlinge</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
@@ -184,7 +184,7 @@
 </p>
 <p>
 <s>
-<W gloss="guarantee" lemma="garanti" morph="garant +i/NOPRED&3a;script" msd="NCCSU==I" tag="NN" in="6:dobj" out="8:pobj">Garanti</W>
+<W gloss="guarantee" lemma="garanti" morph="garant +i/DERnn&3a;assoc" msd="NCCSU==I" tag="NN" in="6:dobj" out="8:pobj">Garanti</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="41:qobj" out="1:subj|2:mod|3:mod|4:neg|5:vobj|13:pnct|16:conj|40:pnct">kan</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|4:[subj]" out="">jeg</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-2:mod" out="">jo</W>

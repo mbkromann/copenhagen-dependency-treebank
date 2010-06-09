@@ -24,8 +24,8 @@
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">El</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="">partido</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="-2:subj|2:dobj|6:pnct">tiene</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:ext" out="">muchos</W>
-<W lemma="punto" msd="NC" tag="NC" in="-2:dobj" out="-1:ext|1:pobj&3a;other#">puntos</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:time" out="">muchos</W>
+<W lemma="punto" msd="NC" tag="NC" in="-2:dobj" out="-1:time|1:pobj&3a;other#">puntos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="1:attr">vista</W>
 <W lemma="interesante" msd="AN" tag="ADJ" in="-1:attr" out="">interesantes</W>
@@ -161,7 +161,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;other#" out="1:nobj">de</W>
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="">vista</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-7:loc" out="1:nobj">en</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|5:appr|8:coref-prg">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|5:appr|8:coref-res.prg">la</W>
 <W lemma="revista" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">revista</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="parlamento" msd="NC" tag="NC" in="-1:nobj" out="1:attr">parlamento</W>
@@ -169,12 +169,12 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-5:appr" out="">Parliamentary</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Brief</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-8:coref-prg" out="1:pnct">Aquí</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-8:coref-res.prg" out="1:pnct">Aquí</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">él</W>
 <W lemma="considerar" msd="VAD" tag="VLfin" in="" out="-1:subj|2:dobj|8:man|13:pnct">considera</W>
-<W lemma="todo" msd="AN" tag="QU" in="1:ext" out="">todas</W>
-<W lemma="el" msd="PD" tag="ART" in="-2:dobj" out="-1:ext|1:nobj">las</W>
+<W lemma="todo" msd="AN" tag="QU" in="1:time" out="">todas</W>
+<W lemma="el" msd="PD" tag="ART" in="-2:dobj" out="-1:time|1:nobj">las</W>
 <W lemma="especulacin" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">especulaciones</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">sobre</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">un</W>

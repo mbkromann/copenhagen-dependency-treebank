@@ -48,9 +48,9 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">keel</W>
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|3:preds|16:pnct">is</W>
-<W msd="ANP" tag="RB" in="2:struct" out="">respectively</W>
+<W msd="ANP" tag="RB" in="2:scene" out="">respectively</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
-<W msd="AC" tag="CD" in="-3:preds" out="-1:mod|3:pnct#|3:conj|4:ref|5:rel|-2:struct">9,000</W>
+<W msd="AC" tag="CD" in="-3:preds" out="-1:mod|3:pnct#|3:conj|4:ref|5:rel|-2:scene">9,000</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="-3:pnct#|-3:conj" out="-1:mod|-2:coord">10,000,</W>
@@ -123,8 +123,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">ready-made</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">boats</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-7:mod" out="1:degr|2:pobj|8:pnct|9:mod">depending</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">entirely</W>
+<W msd="VAG" tag="VBG" in="-7:mod" out="1:quant|2:pobj|8:pnct|9:mod">depending</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">entirely</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trend</W>

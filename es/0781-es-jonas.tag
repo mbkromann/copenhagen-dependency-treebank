@@ -1,6 +1,6 @@
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="2:preds|3:subj|15:pnct">“Está</W>
-<W lemma="totalmente" msd="RG" tag="ADV" in="1:degr" out="">totalmente</W>
-<W lemma="claro" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">claro</W>
+<W lemma="totalmente" msd="RG" tag="ADV" in="1:quant" out="">totalmente</W>
+<W lemma="claro" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">claro</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="6:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="5:subj" out="1:nobj">las</W>
 <W lemma="inversin" msd="NC" tag="NC" in="-1:nobj" out="1:loc">inversiones</W>
@@ -28,8 +28,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="futuro" msd="NC" tag="NC" in="-1:nobj" out="">futuro</W>
 <W lemma="se" msd="PC" tag="SE" in="" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:time|-5:other|1:degr|2:pobj">tratará</W>
-<W lemma="solamente" msd="RG" tag="ADV" in="-1:degr" out="">solamente</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:time|-5:other|1:quant|2:pobj">tratará</W>
+<W lemma="solamente" msd="RG" tag="ADV" in="-1:quant" out="">solamente</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="-2:pobj" out="1:nobj">de</W>
 <W lemma="comprar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj" out="1:nobj|2:loc">comprar</W>
 <W lemma="accin" msd="NC" tag="NC" in="-1:nobj" out="">acciones</W>
@@ -59,9 +59,9 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{func}#" out="1:nobj">de</W>
 <W lemma="inversin" msd="NC" tag="NC" in="-1:nobj" out="">inversiones</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
-<W lemma="para" msd="SP" tag="SCENE" in="2:ben" out="1:nobj">Para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="2:goal" out="1:nobj">Para</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">él</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="-2:ben|1:preds|2:subj|31:pnct">está</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="-2:goal|1:preds|2:subj|31:pnct">está</W>
 <W lemma="claro" msd="AN" tag="ADJ" in="-1:preds" out="">claro</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-2:subj" out="8:vobj">que</W>
 <W lemma="cada" msd="AN" tag="QU" in="7:subj" out="2:nobj">cada</W>
@@ -112,14 +112,14 @@
 <W lemma="obligacin" msd="NC" tag="NC" in="-2:conj" out="-1:coord|1:attr">obligaciones</W>
 <W lemma="extranjero" msd="AN" tag="ADJ" in="-3:[attrr]|-1:attr" out="">extranjeras</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-5:pobj" out="1:nobj">por</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|7:ext">un</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|7:time">un</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">1,5</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:nobj" out="">por</W>
 <W lemma="ciento" msd="AC" tag="CARD" in="" out="1:pobj|1:{arg}">ciento</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="capital" msd="NC" tag="NC" in="-1:nobj" out="">capital</W>
 <W lemma="," msd="XP" tag="CM" in="-23:pnct" out="">,</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-7:ext" out="1:nobj">como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-7:time" out="1:nobj">como</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">máximo</W>
 <W lemma="." msd="XP" tag="FS" in="-26:pnct" out="">.</W>
 <W lemma="sin" msd="SP" tag="SCENE" in="10:man" out="1:vobj">Sin</W>
@@ -140,12 +140,12 @@
 <W lemma="ATP" msd="XA" tag="ACRNM" in="1:subj" out="">ATP</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-5:vobj" out="-4:time|-1:subj|1:dobj|10:loc">tendrá</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="parte" msd="NC" tag="NC" in="-1:nobj" out="2:degr|3:pobj|3:{arg}">parte</W>
-<W lemma="mucho" msd="RG" tag="ADV" in="1:degr" out="">mucho</W>
-<W lemma="grande" msd="AN" tag="ADJ" in="-2:degr" out="-1:degr">mayor</W>
+<W lemma="parte" msd="NC" tag="NC" in="-1:nobj" out="2:quant|3:pobj|3:{arg}">parte</W>
+<W lemma="mucho" msd="RG" tag="ADV" in="1:quant" out="">mucho</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="-2:quant" out="-1:quant">mayor</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-3:pobj|-3:{arg}" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{pos}">títulos-valores</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{pos}" out="1:nobj">de</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{loc}">títulos-valores</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{loc}" out="1:nobj">de</W>
 <W lemma="origen" msd="NC" tag="NC" in="-1:nobj" out="1:attr">origen</W>
 <W lemma="extranjero" msd="AN" tag="ADJ" in="-1:attr" out="">extranjero</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-10:loc" out="1:nobj">en</W>

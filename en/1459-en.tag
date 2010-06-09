@@ -155,8 +155,8 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:neg" out="">Not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:neg">only</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:degr|1:subj|2:vobj|6:pnct">does</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:neg">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:quant|1:subj|2:vobj|6:pnct">does</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">she</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:mod">sing</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>

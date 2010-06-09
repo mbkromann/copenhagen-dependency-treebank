@@ -147,7 +147,7 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="1:mod" out="">Nor</W>
-<W msd="VADR" tag="VBP" in="" out="-1:mod|1:subj|8:vobj|9:pnct|10:reas|16:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:mod|1:subj|8:vobj|9:pnct|10:cause|16:pnct">have</W>
 <W msd="PI" tag="DT" in="-1:subj|7:[subj]" out="1:nobj|5:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">number</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
@@ -157,7 +157,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Slagelse</W>
 <W msd="VADA" tag="VBD" in="-8:vobj" out="-7:[subj]">escaped</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-10:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|3:preds">make</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>

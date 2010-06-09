@@ -63,7 +63,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="strutturare" msd="VAP" tag="VER:pper" in="" out="">strutturata</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>

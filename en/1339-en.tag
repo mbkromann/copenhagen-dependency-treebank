@@ -105,8 +105,8 @@
 <W msd="VA" tag="MD" in="" out="-8:subj|-16:cond|1:vobj|5:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|3:preds">seem</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:focal">more</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">conspicuous</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:focal">more</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">conspicuous</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>

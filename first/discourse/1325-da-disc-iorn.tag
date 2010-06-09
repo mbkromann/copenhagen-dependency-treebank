@@ -51,7 +51,7 @@
 <W gloss="the_Italians" lemma="italiener" msd="NCCPU==D" tag="NNP" in="3:subj" out="1:mod|33:coref-var">italienerne</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Torino" lemma="Torino" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Torino</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|3:mod|7:mod|40:CONST&3a;elab">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|3:mod|7:mod|40:CONJ&3a;elab">er</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:preds" out="1:attr">de</W>
 <W gloss="smartest" lemma="klog" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">klogeste</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
@@ -91,7 +91,7 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
 <W gloss="yes" lemma="ja" msd="I=" tag="UH" in="2:mod" out="">ja</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="-13:ref|1:mod" out="">så</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-40:CONST&3a;elab" out="-14:xtop|-1:mod|-2:mod|1:subj|3:preds|26:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-40:CONJ&3a;elab" out="-14:xtop|-1:mod|-2:mod|1:subj|3:preds|26:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
 <W gloss="before" lemma="før" msd="CS" tag="IN" in="-3:preds" out="-1:mod|1:pnct|3:vobj">før</W>

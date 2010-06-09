@@ -9,11 +9,11 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="4:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="2:subj" out="1:nobj">we</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Danes</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:dobj|6:pnct|-4:att">have</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:dobj|6:pnct|-4:eval">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">record</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>

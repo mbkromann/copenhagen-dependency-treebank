@@ -3,7 +3,7 @@
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Conservative</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Party</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|1:vobj|21:pnct">is</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:pobj|10:prec">gaining</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:pobj|10:time">gaining</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj|4:pnct|5:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
@@ -13,7 +13,7 @@
 <W msd="PD" tag="DT" in="-5:appa" out="1:nobj|2:pnct">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Liberals</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-10:time" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr|3:possd|4:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">government's</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">10-year</W>
@@ -41,9 +41,9 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">B.T.</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|-15:mod|1:time|2:degr|3:dobj|15:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|-15:mod|1:time|2:quant|3:dobj|15:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:time" out="">now</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="PI" tag="DT" in="-3:dobj" out="1:attr|6:nobj">a</W>
 <W msd="AC" tag="CD" in="-1:attr" out="2:conj|4:nobj">one</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -112,19 +112,19 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:mod" out="">Conservatives</W>
-<W msd="VA" tag="MD" in="" out="-6:mod|-2:subj|1:mod|2:vobj|6:pnct#|7:reas|20:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-6:mod|-2:subj|1:mod|2:vobj|6:pnct#|7:cause|20:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">lose</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj|2:mod">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mandate</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj|-6:pnct#" out="">29,</W>
-<W msd="CS" tag="IN" in="-7:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:cause" out="2:vobj">because</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">mandates</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:preds|3:mod">become</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">expensive</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">expensive</W>
 <W msd="CS" tag="IN" in="-3:mod" out="1:nobj|2:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="">a</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">result</W>
@@ -199,8 +199,8 @@
 <s>
 <W msd="PD" tag="DT" in="9:subj|17:[subj]" out="3:attr|5:nobj|6:pnct|7:appa">The</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">second</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="-1:mod">most</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="-1:mod">most</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">centre</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">party</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>

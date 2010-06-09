@@ -20,9 +20,9 @@
 <W lemma="albero" msd="NC" tag="NOM" in="-1:nobj" out="">albero</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="in" msd="SP" tag="PRE" in="-7:conj" out="3:nobj">in</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
-<W lemma="completamente" msd="RG" tag="ADV" in="1:degr" out="-1:degr">completamente</W>
-<W lemma="vestito" msd="AN" tag="ADJ" in="-3:nobj" out="-1:degr">vestiti</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:quant" out="">più</W>
+<W lemma="completamente" msd="RG" tag="ADV" in="1:quant" out="-1:quant">completamente</W>
+<W lemma="vestito" msd="AN" tag="ADJ" in="-3:nobj" out="-1:quant">vestiti</W>
 <W lemma="," msd="XP" tag="PON" in="-11:pnct" out="">,</W>
 <W lemma="bere" msd="VAG" tag="VER&3a;geru" in="-12:conj" out="-26:[subj]|1:dobj">bevendo</W>
 <W lemma="acqua" msd="NC" tag="NOM" in="-1:dobj" out="">acqua</W>
@@ -92,8 +92,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:attr|-1:{other}" out="1:nobj">i</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">blåt”</W>
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="">più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="1:time" out="-1:degr">tardi</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:quant" out="">più</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="1:time" out="-1:quant">tardi</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-10:conj" out="-1:time|-3:coord|1:nobj">“Sea</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="1:err|3:conj">Bee</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:err" out="">&amp”</W>
@@ -124,9 +124,9 @@
 <W lemma="gli" msd="PP" tag="PRO&3a;pers" in="1:dobj" out="">gli</W>
 <W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-17:conj" out="-2:neg|-4:coord|-3:subj|-1:dobj|4:@dir|5:pnct">va</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="1:prg" out="">proprio</W>
-<W lemma="per" msd="SP" tag="PRE" in="2:degr" out="-1:prg|1:neg">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="2:quant" out="-1:prg|1:neg">per</W>
 <W lemma="niente" msd="AN" tag="ADJ" in="-1:neg" out="">niente</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:@dir" out="-2:degr">giù</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-4:@dir" out="-2:quant">giù</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:subj" out="">“Io</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="3:qobj" out="-1:subj|1:preds|2:pnct">sono</W>

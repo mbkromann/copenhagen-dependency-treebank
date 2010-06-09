@@ -243,8 +243,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:preds">var</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="shaken" lemma="ryste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:degr|1:pobj|4:conj">rystet</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="shaken" lemma="ryste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:quant|1:pobj|4:conj">rystet</W>
 <W gloss="by" lemma="over" msd="SP" tag="IN" in="-1:pobj" out="5:nobj">over</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="totally" lemma="total" msd="ANP---=-R" tag="JJ" in="1:mod" out="">totalt</W>

@@ -93,8 +93,8 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|12:pnct">is</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">likely</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">likely</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen</W>

@@ -74,8 +74,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">development</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">programs</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|1:ext|2:vobj|13:conj|18:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|1:time|2:vobj|13:conj|18:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:mod">established</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">on</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">relatively</W>

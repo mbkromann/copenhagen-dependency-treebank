@@ -63,8 +63,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="7:qobj" out="-13:subj|-2:contr|3:preds|6:pnct">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|2:conj">vague</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant|2:conj">vague</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">general</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>

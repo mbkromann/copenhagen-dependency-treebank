@@ -202,8 +202,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">moment</W>
 <W msd="VADR" tag="VBZ" in="-10:rel" out="-5:mod|-4:subj|-3:mod|1:preds">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|4:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">working</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">language</W>
 <W msd="XP" tag="." in="-30:pnct" out="">.</W>

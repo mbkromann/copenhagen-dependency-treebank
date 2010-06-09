@@ -64,11 +64,11 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|3:pnct|4:prec|11:pnct">wiped</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|3:pnct|4:time|11:pnct">wiped</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">her</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">eyes</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="-4:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:@dir">let</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">herself</W>

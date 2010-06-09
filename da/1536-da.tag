@@ -80,8 +80,8 @@
 <W gloss="place" lemma="sted" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">sted</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-2:tobj" out="1:nobj">i</W>
 <W gloss="dinner_time" lemma="spisetid" msd="NCCSU==D" tag="NN" in="-1:nobj" out="2:attr|3:time">spisetiden</W>
-<W gloss="around" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="6_&3a;_45_p.m." lemma="18.45" msd="AC---U=--" tag="CD" in="-2:attr" out="-1:degr">18.45</W>
+<W gloss="around" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="6_&3a;_45_p.m." lemma="18.45" msd="AC---U=--" tag="CD" in="-2:attr" out="-1:quant">18.45</W>
 <W gloss="last_night" lemma="i_aftes" msd="RGU" tag="RP" in="-3:time" out="">i_aftes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="shortly" lemma="kort" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">kort</W>

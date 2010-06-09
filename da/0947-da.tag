@@ -127,7 +127,7 @@
 <W gloss="the_party" lemma="parti" msd="NCNSU==D" tag="NN" in="1:subj|3:[subj]" out="">partiet</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:other|2:vobj">vil</W>
 <W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-1:other" out="">gerne</W>
-<W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|9:pnct|10:struct">have</W>
+<W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|9:pnct|10:scene">have</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:pnct|3:conj|7:conj">en</W>
 <W gloss="EC_ombudsman" lemma="EF-ombudsmand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">EF-ombudsmand</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -137,7 +137,7 @@
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
 <W gloss="industrial_policy" lemma="industripolitik" msd="NCCSU==I" tag="NN" in="-7:conj" out="-3:coord">industripolitik</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-10:struct" out="4:vobj">mens</W>
+<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-10:scene" out="4:vobj">mens</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="3:expl|4:[expl]" out="">der</W>
 <W gloss="according_to" lemma="ifølge" msd="SP" tag="IN" in="2:source" out="1:nobj">ifølge</W>
 <W gloss="SF" lemma="SF" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">SF</W>

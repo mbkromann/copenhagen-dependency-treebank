@@ -147,7 +147,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:avobj">at</W>
 <W msd="ANP" tag="JJ" in="-1:avobj" out="">first</W>
-<W msd="VADA" tag="VBD" in="-33:conj" out="-18:subj|-2:mod|-19:coord|1:dobj|7:pnct|8:cont">had</W>
+<W msd="VADA" tag="VBD" in="-33:conj" out="-18:subj|-2:mod|-19:coord|1:dobj|7:pnct|8:time">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-20:[subj]|1:dobj|2:mod">take</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">shelter</W>
@@ -155,12 +155,12 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">neighbours</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:cont" out="5:vobj">while</W>
+<W msd="CS" tag="IN" in="-8:time" out="5:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ib</W>
 <W msd="NP=S" tag="NNP" in="3:subj" out="-1:namef">Oustrup</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="1:ext" out="-1:mod">again</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-3:subj|-1:ext|1:@dir">went</W>
+<W msd="ANP" tag="RB" in="1:time" out="-1:mod">again</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-3:subj|-1:time|1:@dir">went</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="1:mod">up</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>

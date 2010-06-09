@@ -103,8 +103,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="5:mod" out="1:nobj">i</W>
 <W gloss="the_fall's" lemma="efterår" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">efterårets</W>
 <W gloss="basic_game_in_Super_League" lemma="Superliga-grundspil" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Superliga-grundspil</W>
-<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:degr">ikke</W>
+<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:quant" out="">slet</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:quant">ikke</W>
 <W gloss="did_live" lemma="leve" msd="VADA=----A-" tag="VBD" in="-19:vobj" out="-18:subj|-5:mod|-1:neg|1:avobj">levede</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -138,8 +138,8 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-9:dobj" out="1:vobj">at</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|3:preds">være</W>
 <W gloss="even" lemma="endnu" msd="RGU" tag="RP" in="1:mod" out="">endnu</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:mod">mere</W>
-<W gloss="conspicuous" lemma="iøjnefaldende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="-1:degr">iøjnefaldende</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:mod">mere</W>
+<W gloss="conspicuous" lemma="iøjnefaldende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="-1:quant">iøjnefaldende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 </p>

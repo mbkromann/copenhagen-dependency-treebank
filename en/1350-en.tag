@@ -20,8 +20,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]" out="">I</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="16:qobj" out="-3:pnct|-2:subj|1:dobj|8:pnct|9:time|13:pnct|14:pnct|-1:ext">try</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="16:qobj" out="-3:pnct|-2:subj|1:dobj|8:pnct|9:time|13:pnct|14:pnct|-1:time">try</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">take</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">a</W>

@@ -148,13 +148,13 @@
 </s>
 <s>
 <W msd="AC" tag="CD" in="1:subj" out="">One</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|2:mod|6:prec|12:conj|24:pnct">injects</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|2:mod|6:time|12:conj|24:pnct">injects</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">VIP</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">penis</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">shortly</W>
-<W msd="CS" tag="IN" in="-6:prec" out="-1:mod|1:nobj">before</W>
+<W msd="CS" tag="IN" in="-6:time" out="-1:mod|1:nobj">before</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intercourse</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="3:mod" out="">then</W>

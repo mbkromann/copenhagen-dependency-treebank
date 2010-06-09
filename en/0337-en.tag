@@ -40,8 +40,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">hall</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">aseptic</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">aseptic</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">hospital</W>
 <W msd="XP" tag="." in="-32:pnct" out="">?</W>
 </s>
@@ -192,12 +192,12 @@
 <s>
 <W msd="ANP" tag="RB" in="2:mod" out="">Then</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[subj]|13:[subj]" out="">I</W>
-<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:mod|4:lobj|5:ext|6:pnct|7:conj|10:pnct|12:conj|14:pnct">walked</W>
+<W msd="VADA" tag="VBD" in="" out="-2:mod|-1:subj|1:mod|4:lobj|5:time|6:pnct|7:conj|10:pnct|12:conj|14:pnct">walked</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="2:conj">quietly</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">calmly</W>
 <W msd="ANP" tag="RB" in="-4:lobj" out="">back</W>
-<W msd="ANP" tag="RB" in="-5:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-5:time" out="">again</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-7:conj" out="-8:[subj]|1:dobj">opened</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

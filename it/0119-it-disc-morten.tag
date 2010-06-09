@@ -11,7 +11,7 @@
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="computer" msd="NC" tag="NOM" in="-1:nobj" out="">computer</W>
-<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-5:relr" out="-4:subj|2:vobj|33:TIME&3a;succ">aveva</W>
+<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-5:relr" out="-4:subj|2:vobj|33:TIME&3a;post">aveva</W>
 <W lemma="semplicemente" msd="RG" tag="ADV" in="1:man" out="">semplicemente</W>
 <W lemma="telefonare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:man|-6:[subj]|1:goal">telefonato</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:¹vobj">per</W>
@@ -44,8 +44,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:time" out="2:nobj">dello</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attr" out="">stesso</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">giorno</W>
-<W lemma="telefonare" msd="VADR" tag="VER&3a;pres" in="-33:TIME&3a;succ" out="-6:time|1:ext|3:pnct|9:vobj|25:+CONST&3a;elab/ATTR1">telefona</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">di</W>
+<W lemma="telefonare" msd="VADR" tag="VER&3a;pres" in="-33:TIME&3a;post" out="-6:time|1:time|3:pnct|9:vobj|25:+CONJ&3a;elab/ATTR1">telefona</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:time" out="1:nobj">di</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="-1:nobj" out="">nuovo</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 </s>
@@ -57,19 +57,19 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="1:vobj">che</W>
 <W lemma="avere" msd="VA" tag="VER&3a;cond" in="-1:vobj|1:[subj]" out="1:vobj">avresti</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">avuto</W>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|6:DESCR&3a;eval">un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj|6:FORMAL&3a;eval">un</W>
 <W lemma="elenco" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">elenco</W>
 <W lemma="telefonico" msd="AN" tag="ADJ" in="-1:attr" out="">telefonico</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:DESCR&3a;eval" out="1:preds|4:pnct|5:pnct">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-6:FORMAL&3a;eval" out="1:preds|4:pnct|5:pnct">È</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">un</W>
 <W lemma="telefono" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">telefono</W>
 <W lemma="strano" msd="AN" tag="ADJ" in="-1:attr" out="">strano</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-4:pnct" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+CONST&3a;elab/ATTR1" out="1:vobj|3:subj|8:pnct|22:+CONJ/e">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ&3a;elab/ATTR1" out="1:vobj|3:subj|8:pnct|22:+CONJ&3a;add/e">ha</W>
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="2:[subj]">detto</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:subj|-2:[subj]" out="-1:pnct|1:nobj|4:pnct">l'</W>
@@ -91,7 +91,7 @@
 <W lemma="albergo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">albergo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">dell'</W>
 <W lemma="amico" msd="NC" tag="NOM" in="-1:nobj" out="">amico</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:+CONJ/e|1:[subj]" out="-9:coord|-8:time|1:vobj|16:pnct|32:+CONJ/(e)/ATTR2">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:+CONJ&3a;add/e|1:[subj]" out="-9:coord|-8:time|1:vobj|16:pnct|32:+CONJ&3a;add/(e)/ATTR2">hanno</W>
 <W lemma="concordare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:dobj">concordato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="3:vobj">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]|4:[subj]|9:[subj]" out="1:nobj">il</W>
@@ -123,7 +123,7 @@
 </s>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-9:pnct" out="">"</W>
-<W lemma="chiedere" msd="VADR" tag="VER&3a;pres" in="-32:+CONJ/(e)/ATTR2" out="-10:qobj|1:subj|8:pnct|13:+CONJ/(e)/ATTR3">chiede</W>
+<W lemma="chiedere" msd="VADR" tag="VER&3a;pres" in="-32:+CONJ&3a;add/(e)/ATTR2" out="-10:qobj|1:subj|8:pnct|13:+CONJ&3a;add/(e)/ATTR3">chiede</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj|4:pnct|6:appa">l'</W>
 <W lemma="avvocato" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">avvocato</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">dell'</W>
@@ -136,21 +136,21 @@
 </p>
 <p>
 <s>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-13:+CONJ/(e)/ATTR3" out="1:nobj|4:pnct|7:qobj|58:+CONJ/(e)/ATTR1">L'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-13:+CONJ&3a;add/(e)/ATTR3" out="1:nobj|4:pnct|7:qobj|58:+CONJ&3a;add/(e)/ATTR1">L'</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dei</W>
 <W lemma="computer" msd="NC" tag="NOM" in="-1:nobj" out="">computer</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-4:pnct" out="">:</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
 <W lemma="perché" msd="CS" tag="CON" in="1:cause" out="">Perché</W>
-<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-7:qobj|1:[subj]" out="-2:pnct|-1:cause|1:vobj|2:pnct|7:AGENTIVE&3a;reas/(perché)/ATTR3">avrei</W>
+<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-7:qobj|1:[subj]" out="-2:pnct|-1:cause|1:vobj|2:pnct|7:AGENTIVE&3a;cause/(perché)/ATTR3">avrei</W>
 <W lemma="dovere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]">dovuto</W>
 <W lemma="?" msd="XP" tag="SENT" in="-2:pnct" out="">?</W>
 </s>
 <s>
 <W lemma="semplicemente" msd="RG" tag="ADV" in="2:man" out="">Semplicemente</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="volere" msd="VADA" tag="VER&3a;impf" in="-7:AGENTIVE&3a;reas/(perché)/ATTR3|1:[subj]" out="-2:man|-1:neg|1:vobj|4:time|11:pnct|17:TELIC&3a;sbj/ATTR3">volevo</W>
+<W lemma="volere" msd="VADA" tag="VER&3a;impf" in="-7:AGENTIVE&3a;cause/(perché)/ATTR3|1:[subj]" out="-2:man|-1:neg|1:vobj|4:time|11:pnct|17:TELIC&3a;cons.sbj/ATTR3">volevo</W>
 <W lemma="parlare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:iobj">parlare</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:iobj" out="1:nobj">con</W>
 <W lemma="lui" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">lui</W>
@@ -167,7 +167,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]|10:[subj]" out="2:nobj">La</W>
 <W lemma="mio" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">mia</W>
 <W lemma="donna" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">donna</W>
-<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-17:TELIC&3a;sbj/ATTR3" out="-3:subj|1:vobj|6:conj">avrebbe</W>
+<W lemma="avere" msd="VA" tag="VER&3a;cond" in="-17:TELIC&3a;cons.sbj/ATTR3" out="-3:subj|1:vobj|6:conj">avrebbe</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dobj">avuto</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:dobj" out="1:nobj">dei</W>
 <W lemma="sospetto" msd="NC" tag="NOM" in="-1:nobj" out="">sospetti</W>
@@ -194,7 +194,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="1:pnct" out="">"</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-58:+CONJ/(e)/ATTR1" out="-1:pnct|1:nobj|4:pnct|5:pnct|7:qobj|44:+CONJ/anche">L'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-58:+CONJ&3a;add/(e)/ATTR1" out="-1:pnct|1:nobj|4:pnct|5:pnct|7:qobj|44:+CONJ&3a;add/anche">L'</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">uomo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mercedes</W>
@@ -238,7 +238,7 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">la</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="">polizia</W>
-<W lemma="intercettare" msd="VADA" tag="VER&3a;remo" in="-44:+CONJ/anche" out="-13:time|-2:subj|2:nobj|16:pnct|19:CONJ/(e)">intercettò</W>
+<W lemma="intercettare" msd="VADA" tag="VER&3a;remo" in="-44:+CONJ&3a;add/anche" out="-13:time|-2:subj|2:nobj|16:pnct|19:CONJ&3a;add/(e)">intercettò</W>
 <W lemma="anche" msd="RG" tag="ADV" in="1:focal" out="">anche</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-2:nobj" out="-1:focal|1:nobj">una</W>
 <W lemma="telefonata" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|8:iobj">telefonata</W>
@@ -257,7 +257,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="dovere" msd="VADA" tag="VER&3a;impf" in="-19:CONJ/(e)|1:[subj]" out="1:vobj|9:pnct|10:time|14:pnct">Doveva</W>
+<W lemma="dovere" msd="VADA" tag="VER&3a;impf" in="-19:CONJ&3a;add/(e)|1:[subj]" out="1:vobj|9:pnct|10:time|14:pnct">Doveva</W>
 <W lemma="andare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-1:[subj]|1:lobj">andare</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:lobj" out="1:nobj">ad</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="2:nobj">un</W>

@@ -114,9 +114,9 @@
 <W gloss="sorrow" lemma="sorg" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sorg</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="4:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-4:[pred]|-1:subj|1:neg|2:ext|9:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-4:[pred]|-1:subj|1:neg|2:time|9:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:ext" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="">altid</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-4:nobj" out="1:vobj">at</W>
 <W gloss="being" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">blive</W>
 <W gloss="understood" lemma="forstå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:mod">forstået</W>

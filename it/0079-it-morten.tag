@@ -26,11 +26,11 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:relelab" out="-1:subj|1:vobj">ha</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:dobj">portato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">ad</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|4:bg">una</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|4:scene">una</W>
 <W lemma="denuncia" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}#">denuncia</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.subj|-1:{agent}#" out="1:nobj">della</W>
 <W lemma="polizia" msd="NC" tag="NOM" in="-1:nobj" out="">polizia</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-4:bg" out="1:nobj">nei</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-4:scene" out="1:nobj">nei</W>
 <W lemma="confronto" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">confronti</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="padre" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">padre</W>
@@ -154,9 +154,9 @@
 <W lemma="regione" msd="NC" tag="NOM" in="-1:nobj" out="">Regione</W>
 <W lemma="ritenere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:dobj|12:pnct">ritiene</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="5:vobj">che</W>
-<W lemma="fino" msd="SP" tag="PRE" in="2:ext" out="">fino</W>
+<W lemma="fino" msd="SP" tag="PRE" in="2:time" out="">fino</W>
 <W lemma="a" msd="SP" tag="PRE" in="1:pobj" out="">a</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="2:subj|3:[subj]|5:[subj]" out="-1:pobj|-2:ext|1:nobj">100</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="2:subj|3:[subj]|5:[subj]" out="-1:pobj|-2:time|1:nobj">100</W>
 <W lemma="disabile" msd="NC" tag="NOM" in="-1:nobj" out="">disabili</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-5:vobj" out="-2:subj|1:vobj">hanno</W>
 <W lemma="utilizzare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-3:[subj]|2:conj">utilizzato</W>

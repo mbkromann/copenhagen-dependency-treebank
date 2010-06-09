@@ -110,8 +110,8 @@
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="6:nobj">Det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-1:subj|2:preds|13:pnct|14:pnct">er</W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="easier" lemma="nem" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:preds" out="-1:degr|2:conj|8:pobj">nemmere</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="easier" lemma="nem" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:preds" out="-1:quant|2:conj|8:pobj">nemmere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="quicker" lemma="hurtig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:conj" out="-1:coord|6:[pobj]">hurtigere</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-6:nobj" out="1:vobj">at</W>
@@ -170,8 +170,8 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="gave_up" lemma="opgive" msd="VADA=----A-" tag="VBD" in="14:qobj" out="-1:subj|2:mod|4:pnct|9:conj|13:pnct|1:degr">opgav</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-1:degr" out="">næsten</W>
+<W gloss="gave_up" lemma="opgive" msd="VADA=----A-" tag="VBD" in="14:qobj" out="-1:subj|2:mod|4:pnct|9:conj|13:pnct|1:quant">opgav</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-1:quant" out="">næsten</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
 <W gloss="advance" lemma="forhånd" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forhånd</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

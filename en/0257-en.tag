@@ -53,8 +53,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">twins</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:degr|1:lobj">existed</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:quant|1:lobj">existed</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">imagination</W>
@@ -106,10 +106,10 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|7:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:conj">arrested</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAP" tag="VBN" in="-2:conj" out="-4:[subj]|-1:coord|3:succ">interrogated</W>
+<W msd="VAP" tag="VBN" in="-2:conj" out="-4:[subj]|-1:coord|3:time">interrogated</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">14</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="-3:succ" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-3:time" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>

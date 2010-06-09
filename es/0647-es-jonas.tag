@@ -34,8 +34,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" tag="NC" in="-1:nobj" out="">cine</W>
 <W lemma="y" msd="CC" tag="CC" in="3:coord" out="">y</W>
-<W lemma="para" msd="SP" tag="SCENE" in="1:degr" out="">para</W>
-<W lemma="nada" msd="AN" tag="QU" in="1:neg" out="-1:degr">nada</W>
+<W lemma="para" msd="SP" tag="SCENE" in="1:quant" out="">para</W>
+<W lemma="nada" msd="AN" tag="QU" in="1:neg" out="-1:quant">nada</W>
 <W lemma="peligroso" msd="AN" tag="ADJ" in="-6:conj?" out="-3:coord|-1:neg">peligrosos</W>
 <W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="7:subj" out="1:nobj">Su</W>
@@ -53,8 +53,8 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:pobj|4:preds">es</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="él" msd="PP" tag="PPX" in="-1:nobj" out="">ellos</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="excepcional" msd="AN" tag="ADJ" in="-4:preds" out="-1:degr">excepcional</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="excepcional" msd="AN" tag="ADJ" in="-4:preds" out="-1:quant">excepcional</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">No</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:neg|1:prg|3:dobj|9:pnct|10:cause|24:pnct">hay</W>
@@ -165,8 +165,8 @@
 <W lemma="aunque" msd="CS" tag="CSUBX" in="-7:conc" out="2:vobj">aunque</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:prg" out="">lÃ³gicamente</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="-2:vobj" out="-1:prg|2:preds">es</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:preds" out="-1:degr|1:pobj">cÃ³modo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:preds" out="-1:quant|1:pobj">cÃ³modo</W>
 <W lemma="para" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">crÃ­ticos</W>

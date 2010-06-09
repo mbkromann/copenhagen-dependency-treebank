@@ -136,8 +136,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">reading</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">novels</W>
 <W msd="SP" tag="IN" in="-6:mod" out="">among</W>
-<W msd="ANP" tag="RB" in="2:neg" out="1:degr">not</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="2:neg" out="1:quant">not</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="ANP" tag="JJ" in="" out="-2:neg">young</W>
 <W msd="NC=P" tag="NNS" in="" out="1:coord">people</W>
 <W msd="CC" tag="CC" in="-1:coord" out="1:add">but</W>
@@ -208,8 +208,8 @@
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:preds">become</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">much</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:mod|2:pobj">more</W>
-<W msd="VAP" tag="VBN" in="-3:preds" out="-1:degr">relaxed</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:mod|2:pobj">more</W>
+<W msd="VAP" tag="VBN" in="-3:preds" out="-1:quant">relaxed</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:obl">than</W>
 <W msd="CS" tag="IN" in="-1:obl" out="">before</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>

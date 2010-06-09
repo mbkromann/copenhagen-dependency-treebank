@@ -55,7 +55,7 @@
 <W lemma="rudezza" msd="NC" tag="NOM" in="" out="">rudezza</W>
 <W lemma="pur" msd="RG" tag="ADV" in="" out="">pur</W>
 <W lemma="essere" msd="VAG" tag="VER:geru" in="" out="">essendo</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="vestito" msd="AN" tag="ADJ" in="" out="">vestiti</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="curato" msd="AN" tag="ADJ" in="" out="">curati</W>

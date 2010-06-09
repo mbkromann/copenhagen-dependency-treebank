@@ -3,7 +3,7 @@
 <W lemma="hoy" msd="RG" tag="ADV" in="2:time" out="-1:other">hoy</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="observar" msd="VAD" tag="VLfin" in="-4:vobj" out="-1:robj|-2:time|1:subj|11:pnct">observan</W>
-<W lemma="hombre" msd="NC" tag="NC" in="-1:subj" out="1:const|11:ref|12:relr|24:coref-id">hombres</W>
+<W lemma="hombre" msd="NC" tag="NC" in="-1:subj" out="1:const|11:ref|12:relr|24:coref-iden">hombres</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:const" out="1:nobj">con</W>
 <W lemma="piel" msd="NC" tag="NC" in="-1:nobj" out="1:attr|4:conj">piel</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">lÃ­vida</W>
@@ -27,7 +27,7 @@
 <W lemma="ni" msd="CC" tag="CCNEG" in="1:coord" out="">ni</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-2:conj" out="-1:coord">asustarse</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
-<W lemma="dicho" msd="AN" tag="QU" in="-24:coref-id|2:subj" out="1:nobj|11:coref|25:coref">Dichos</W>
+<W lemma="dicho" msd="AN" tag="QU" in="-24:coref-iden|2:subj" out="1:nobj|11:coref|25:coref">Dichos</W>
 <W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="">hombres</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|8:pnct">son</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:preds" out="1:about#|6:conj|30:assoc-scope">crÃ­ticos</W>
@@ -50,11 +50,11 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="3:vobj">que</W>
 <W lemma="este" msd="" tag="DM" in="2:subj" out="1:nobj">este</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">dÃ­a</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-3:vobj" out="-2:subj|1:ben|4:preds">es</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">para</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-3:vobj" out="-2:subj|1:goal|4:preds">es</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">para</W>
 <W lemma="él" msd="PP" tag="PPX" in="-1:nobj|-25:coref" out="">ellos</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="excepcional" msd="AN" tag="ADJ" in="-4:preds" out="-1:degr">excepcional</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="excepcional" msd="AN" tag="ADJ" in="-4:preds" out="-1:quant">excepcional</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="2:neg">No</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:neg|3:dobj|5:loc|9:pnct|10:ref|10:cause|20:relelab|24:pnct">hay</W>
@@ -73,7 +73,7 @@
 <W lemma="el" msd="PD" tag="ART" in="7:subj|8:[subj]" out="1:nobj">la</W>
 <W lemma="existencia" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">existencia</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-13:assoc-scope" out="1:nobj|11:coref-id">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-13:assoc-scope" out="1:nobj|11:coref-iden">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:about#">crÃ­ticos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:about#" out="1:nobj">de</W>
 <W lemma="cine" msd="NC" tag="NC" in="-1:nobj" out="">cine</W>
@@ -84,7 +84,7 @@
 <W lemma="." msd="XP" tag="FS" in="-24:pnct" out="">.</W>
 <W lemma="no" msd="U=" tag="NEG" in="4:neg" out="">No</W>
 <W lemma="porque" msd="CS" tag="CSUBX" in="3:cause" out="">porque</W>
-<W lemma="el" msd="PD" tag="ART" in="-11:coref-id|2:subj|4:[subj]" out="1:nobj|5:assoc-scope|25:assoc-scope">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-11:coref-iden|2:subj|4:[subj]" out="1:nobj|5:assoc-scope|25:assoc-scope">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">crÃ­ticos</W>
 <W lemma="acostumbrar" msd="VAD" tag="VLfin" in="" out="-4:neg|-3:cause|-2:subj|1:pobj|9:pnct">acostumbren</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:vobj">a</W>
@@ -164,10 +164,10 @@
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
 <W lemma="aunque" msd="CS" tag="CSUBX" in="-7:conc" out="2:vobj">aunque</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:prg" out="">lÃ³gicamente</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-2:vobj" out="-1:prg|2:preds|3:ben|6:subj">es</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:preds" out="-1:degr">cÃ³modo</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-3:ben" out="1:nobj">para</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-2:vobj" out="-1:prg|2:preds|3:goal|6:subj">es</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:preds" out="-1:quant">cÃ³modo</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-3:goal" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-22:assoc-scope" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">crÃ­ticos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-6:subj" out="">que</W>

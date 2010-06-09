@@ -177,17 +177,17 @@
 <W gloss="the_cartel" lemma="kartel" msd="NCNSU==D" tag="NN" in="-1:subj" out="">kartellet</W>
 <W gloss="stronger" lemma="stærk" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:preds" out="4:pobj|3:conj">stærkere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="2:[pobj]">mere</W>
-<W gloss="untouchable" lemma="urørlig" msd="ANPNSU=IU" tag="JJ" in="-3:conj" out="-1:degr|-2:coord">urørligt</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="2:[pobj]">mere</W>
+<W gloss="untouchable" lemma="urørlig" msd="ANPNSU=IU" tag="JJ" in="-3:conj" out="-1:quant|-2:coord">urørligt</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-4:pobj|-2:[pobj]" out="1:obl">end</W>
 <W gloss="ever" lemma="nogensinde" msd="RGU" tag="RP" in="-1:obl" out="">nogensinde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="cocaine" lemma="cocain" msd="XF" tag="FW" in="1:subj" out="">cocain</W>
-<W gloss="was_streaming" lemma="strømme" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-1:subj|1:pobj|3:comp|-2:coord">strømmede</W>
+<W gloss="was_streaming" lemma="strømme" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-1:subj|1:pobj|3:resem|-2:coord">strømmede</W>
 <W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the_US" lemma="USA" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">USA</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:comp" out="2:avobj">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:resem" out="2:avobj">som</W>
 <W gloss="never" lemma="aldrig" msd="RGU" tag="RP" in="1:neg" out="">aldrig</W>
 <W gloss="before" lemma="før" msd="RGU" tag="RP" in="-2:avobj" out="-1:neg">før</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
@@ -240,8 +240,8 @@
 <W gloss="from_where" lemma="hvorfra" msd="RGU" tag="RP" in="-2:dobj|2:[mod]" out="2:rel">hvorfra</W>
 <W gloss="the_DEA" lemma="DEA" msd="NP--U==-" tag="NNP" in="1:subj" out="">DEA</W>
 <W gloss="got" lemma="have" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[mod]|3:dobj">havde</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="much" lemma="meget" msd="ANPCSU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">megen</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="much" lemma="meget" msd="ANPCSU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">megen</W>
 <W gloss="inside_knowledge" lemma="inside-viden" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr">inside-viden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

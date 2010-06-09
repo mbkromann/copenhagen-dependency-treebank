@@ -212,8 +212,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|2:preds|1:degr">was</W>
-<W msd="ANP" tag="JJ" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-1:subj|-2:coord|2:preds|1:quant">was</W>
+<W msd="ANP" tag="JJ" in="-1:quant" out="">only</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="">boys</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

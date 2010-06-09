@@ -82,8 +82,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="3:vobj">at</W>
 <W gloss="industry" lemma="industri" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="">industrien</W>
-<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="1:ext" out="">igen</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:ext|1:vobj">kan</W>
+<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="1:time" out="">igen</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:vobj">kan</W>
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:iobj|2:dobj">gøre</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
 <W gloss="hopes" lemma="forhåbning" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="1:pobj">forhåbninger</W>
@@ -109,15 +109,15 @@
 <W gloss="Experiences" lemma="erfaring" msd="NCCPU==D" tag="NNP" in="3:subj" out="1:pobj">Erfaringerne</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="that_time" lemma="dengang" msd="RGU" tag="RP" in="-1:nobj" out="">dengang</W>
-<W gloss="suggests" lemma="tyde" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:cont|2:pobj|21:pnct">tyder</W>
-<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:cont" out="">samtidig</W>
+<W gloss="suggests" lemma="tyde" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:time|2:pobj|21:pnct">tyder</W>
+<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:time" out="">samtidig</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
 <W gloss="industrial" lemma="industri" msd="NCCSG==D" tag="NN" in="3:subj|5:[subj]" out="1:possd">industriens</W>
 <W gloss="employment" lemma="beskæftigelse" msd="NCCSU==I" tag="NN" in="-1:possd" out="">beskæftigelse</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:prec" out="">først</W>
-<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:prec|1:dobj">begyndte</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
+<W gloss="began" lemma="begynde" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:time|1:dobj">begyndte</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="rise" lemma="stige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|2:mod">stige</W>
 <W gloss="the_year" lemma="år" msd="NCNSU==D" tag="NN" in="1:tobj" out="">året</W>
@@ -194,8 +194,8 @@
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">20</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">procent</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-6:ref|2:subj|3:[subj]" out="">som</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:prec" out="">først</W>
-<W gloss="must_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:prec|1:vobj|2:pnct|3:mod">skal</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
+<W gloss="must_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:time|1:vobj|2:pnct|3:mod">skal</W>
 <W gloss="reduced" lemma="formindske" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-3:[subj]">formindskes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="before" lemma="før" msd="CS" tag="IN" in="-3:mod" out="2:vobj">før</W>
@@ -232,8 +232,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="are" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|1:subj|8:lobj|11:pnct">ligger</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="are" lemma="ligge" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|8:lobj|11:pnct">ligger</W>
 <W gloss="stocks" lemma="lager" msd="NCNPU==D" tag="NNP" in="-1:subj" out="1:pobj">lagrene</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="as_well" lemma="såvel" msd="RGU" tag="RP" in="2:correl" out="">såvel</W>

@@ -12,8 +12,8 @@
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="raccontare" msd="VADA" tag="VER&3a;impf" in="" out="-7:subj|1:dobj|15:pnct">raccontava</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="9:vobj">che</W>
-<W lemma="bere" msd="VAP" tag="VER&3a;pper" in="8:cond" out="1:ext|3:dobj|6:pnct">bevuta</W>
-<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:ext" out="1:nobj">una</W>
+<W lemma="bere" msd="VAP" tag="VER&3a;pper" in="8:cond" out="1:time|3:dobj|6:pnct">bevuta</W>
+<W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:time" out="1:nobj">una</W>
 <W lemma="volta" msd="NC" tag="NOM" in="-1:nobj" out="">volta</W>
 <W compound="¹l’²acqua" lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-3:dobj" out="1:attr">l’acqua</W>
 <W _compound="1" lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj|8:coref">del</W>
@@ -29,15 +29,15 @@
 <W lemma="oggi" msd="RG" tag="ADV" in="1:time" out="">Oggi</W>
 <W lemma="essere" msd="VA" tag="VER&3a;cond" in="" out="-1:time|1:time|2:vobj|5:cause|26:pnct">sarebbe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:time" out="">già</W>
-<W lemma="morire" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:ext">morto</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:ext" out="1:nobj">più</W>
+<W lemma="morire" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:time">morto</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:time" out="1:nobj">più</W>
 <W lemma="volto" msd="AN" tag="ADJ" in="-1:nobj" out="">volte</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-5:cause" out="3:vobj">perché</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">il</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Nilo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:vobj" out="-2:subj|2:preds">è</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:degr" out="2:cons">così</W>
-<W lemma="inquinare" msd="VAP" tag="VER&3a;pper" in="-2:preds" out="-1:degr">inquinato</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:quant" out="2:cons">così</W>
+<W lemma="inquinare" msd="VAP" tag="VER&3a;pper" in="-2:preds" out="-1:quant">inquinato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:cons" out="8:vobj">che</W>
 <W _compound="1" lemma="al" msd="SP+P" tag="PRE&3a;det" in="7:man" out="2:nobj">al</W>
 <W lemma="semplice" msd="AN" tag="ADJ" in="1:attr" out="">semplice</W>
@@ -101,7 +101,7 @@
 <W lemma="sopravvivere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="">sopravvivere</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-5:preds|1:subj|19:pnct">è</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:subj" out="1:vobj">di</W>
-<W lemma="prendere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|5:man|13:ext">prendere</W>
+<W lemma="prendere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj|5:man|13:time">prendere</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:dobj" out="1:nobj">due</W>
 <W lemma="pillola" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">pillole</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:const">di</W>
@@ -114,7 +114,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj|-1:{arg}" out="1:const">di</W>
 <W lemma="fernet" msd="NC" tag="NOM" in="-1:const" out="1:name">Fernet</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:name" out="">Branca</W>
-<W lemma="tre" msd="AN" tag="ADJ" in="-13:ext" out="1:nobj">tre</W>
+<W lemma="tre" msd="AN" tag="ADJ" in="-13:time" out="1:nobj">tre</W>
 <W lemma="volta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">volte</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="">giorno</W>
@@ -145,8 +145,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">del</W>
 <W lemma="mondo" msd="NC" tag="NOM" in="-1:nobj" out="">mondo</W>
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="" out="-11:subj|1:ext|2:vobj|13:pnct">viene</W>
-<W lemma="spesso" msd="RG" tag="ADV" in="-1:ext" out="">spesso</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="" out="-11:subj|1:time|2:vobj|13:pnct">viene</W>
+<W lemma="spesso" msd="RG" tag="ADV" in="-1:time" out="">spesso</W>
 <W lemma="raffigurare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-13:[subj]|1:man">raffigurato</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="1:nobj">con</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>

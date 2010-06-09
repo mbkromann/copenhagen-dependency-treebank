@@ -20,8 +20,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">ABBA</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-3:subj|1:vobj|6:pnct|7:coord|16:pnct">ha</W>
 <W lemma="ser" msd="VAF" tag="VS" in="-1:vobj" out="-4:[subj]|2:preds">sido</W>
-<W lemma="masivo" msd="RG" tag="ADV" in="1:degr" out="">masivamente</W>
-<W lemma="anunciar" msd="VAF" tag="VLadj" in="-2:preds" out="-1:degr|1:loc">anunciado</W>
+<W lemma="masivo" msd="RG" tag="ADV" in="1:quant" out="">masivamente</W>
+<W lemma="anunciar" msd="VAF" tag="VLadj" in="-2:preds" out="-1:quant|1:loc">anunciado</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">televisión</W>
 <W lemma="," msd="XP" tag="CM" in="-6:pnct" out="">,</W>
@@ -45,8 +45,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">televisión</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-8:vobj" out="-7:subj|2:pobj&3a;nobj">dañan</W>
-<W lemma="mucho" msd="RG" tag="ADV" in="1:degr" out="">mucho</W>
-<W lemma="al" msd="SP" tag="PAL" in="-2:pobj&3a;nobj" out="-1:degr|1:nobj">al</W>
+<W lemma="mucho" msd="RG" tag="ADV" in="1:quant" out="">mucho</W>
+<W lemma="al" msd="SP" tag="PAL" in="-2:pobj&3a;nobj" out="-1:quant|1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">rock</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:attr" out="">danés</W>
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
@@ -61,8 +61,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-2:pobj|-2:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">público</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-4:ref|2:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:degr" out="">sólo</W>
-<W lemma="comprar" msd="VAD" tag="VLfin" in="-6:relr" out="-2:subj|-1:degr|4:dobj|5:time">compran</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:quant" out="">sólo</W>
+<W lemma="comprar" msd="VAD" tag="VLfin" in="-6:relr" out="-2:subj|-1:quant|4:dobj|5:time">compran</W>
 <W lemma="tres" msd="AC" tag="CARD" in="3:numm" out="2:conj">tres</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="cuatro" msd="AC" tag="CARD" in="-2:conj" out="-1:coord">cuatro</W>
@@ -121,8 +121,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="empresa" msd="NC" tag="NC" in="-1:nobj" out="1:ref|3:relr">empresas</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:subj" out="">que</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:degr" out="">más</W>
-<W lemma="anunciar" msd="VAD" tag="VLfin" in="-3:relr" out="-2:subj|-1:degr|1:pobj|3:dobj|9:ref|12:relelab">anuncia</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:quant" out="">más</W>
+<W lemma="anunciar" msd="VAD" tag="VLfin" in="-3:relr" out="-2:subj|-1:quant|1:pobj|3:dobj|9:ref|12:relelab">anuncia</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">televisión</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:dobj" out="1:nobj">los</W>
@@ -166,8 +166,8 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="12:qobj" out="-2:discmark|-1:other|1:preds">es</W>
 <W lemma="mo" msd="PP" tag="PPO" in="-1:preds" out="1:possd">mi</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:possd" out="2:attr|3:subj">opinión</W>
-<W lemma="totalmente" msd="RG" tag="ADV" in="1:degr" out="">totalmente</W>
-<W lemma="personal" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">personal</W>
+<W lemma="totalmente" msd="RG" tag="ADV" in="1:quant" out="">totalmente</W>
+<W lemma="personal" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">personal</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:subj" out="5:vobj">que</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">publicidades</W>
@@ -183,8 +183,8 @@
 <W lemma="cuenta" msd="NC" tag="NC" in="-1:dobj" out="1:pobj|1:pobj&3a;relindleder|2:ref|6:relr">cuentas</W>
 <W lemma="acerca~de" msd="SP" tag="SCENE" in="-1:pobj|-1:pobj&3a;relindleder" out="">acerca de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:ref|4:dobj" out="1:nobj">cuántos</W>
-<W lemma="millones" msd="AC" tag="CARD" in="-1:nobj" out="1:ext">millones</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:ext" out="1:nobj">de</W>
+<W lemma="millones" msd="AC" tag="CARD" in="-1:nobj" out="1:time">millones</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:time" out="1:nobj">de</W>
 <W lemma="corona" msd="NC" tag="NC" in="-1:nobj" out="">coronas</W>
 <W lemma="utilizar" msd="VAD" tag="VLfin" in="-6:relr" out="-4:dobj|1:subj|4:pobj">utiliza</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
@@ -196,8 +196,8 @@
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="1:discmark" out="">Pero</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:discmark|2:dobj|22:pnct">hay</W>
-<W lemma="mucho" msd="AN" tag="ADJ" in="1:degr" out="">mucha</W>
-<W lemma="gente" msd="NC" tag="NC" in="-2:dobj" out="-1:degr|1:ref|2:relr">gente</W>
+<W lemma="mucho" msd="AN" tag="ADJ" in="1:quant" out="">mucha</W>
+<W lemma="gente" msd="NC" tag="NC" in="-2:dobj" out="-1:quant|1:ref|2:relr">gente</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:subj" out="">que</W>
 <W lemma="pensar" msd="VAD" tag="VLfin" in="-2:relr" out="-1:subj|1:forkertkomma|2:dobj">piensa</W>
 <W lemma="," msd="XP" tag="CM" in="-1:forkertkomma" out="">,</W>

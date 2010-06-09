@@ -104,9 +104,9 @@
 <W gloss="cars" lemma="bil" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">biler</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">til</W>
 <W gloss="Europe" lemma="Europa" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Europa</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|2:degr|3:vobj|8:pnct|12:conj|20:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-11:mod|1:subj|2:quant|3:vobj|8:pnct|12:conj|20:pnct">kan</W>
 <W gloss="Subaru" lemma="Subaru" msd="NP--U==-" tag="NNP" in="-1:subj|2:[subj]" out="">Subaru</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="export" lemma="eksportere" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|3:pobj">eksportere</W>
 <W gloss="35,000" lemma="35.000" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">35.000</W>
 <W gloss="cars" lemma="bil" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">biler</W>
@@ -185,20 +185,20 @@
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-5:mod" out="1:pobj">frem</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="spreading" lemma="sprede" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:degr">sprede</W>
+<W gloss="spreading" lemma="sprede" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:quant">sprede</W>
 <W gloss="himself" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:degr" out="-1:mod">meget</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:quant" out="-1:mod">meget</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="counts" lemma="tælle" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|2:mod|3:degr|4:dobj|5:pnct">tæller</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="counts" lemma="tælle" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|2:mod|3:quant|4:dobj|5:pnct">tæller</W>
 <W gloss="the_model_program" lemma="modelprogram" msd="NCNSU==D" tag="NN" in="-1:subj" out="">modelprogrammet</W>
 <W gloss="At_the_moment" lemma="foreløbig" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">foreløbig</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-3:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-3:quant" out="">kun</W>
 <W gloss="Legacy" lemma="Legacy" msd="NP--U==-" tag="NNP" in="-4:dobj" out="">Legacy</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

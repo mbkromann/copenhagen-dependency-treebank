@@ -45,8 +45,8 @@
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="Things" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-3:list" out="-1:subj|2:aobj|3:mod|5:mod">gik</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="amok" lemma="grassat" msd="RGU" tag="RP" in="-2:aobj" out="-1:degr">grassat</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="amok" lemma="grassat" msd="RGU" tag="RP" in="-2:aobj" out="-1:quant">grassat</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W gloss="OB" lemma="OB" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">OB</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:mod" out="1:nobj">i</W>
@@ -72,8 +72,8 @@
 </s>
 <s>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="4:subj|7:[subj]" out="2:attr|3:nobj">De</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="rabid" lemma="rabiat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">rabiate</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="rabid" lemma="rabiat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:quant">rabiate</W>
 <W gloss="fans" lemma="tilhænger" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">tilhængere</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-4:subj|2:neg|3:vobj|5:pnct">kunne</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:correl" out="">heller</W>
@@ -200,8 +200,8 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="looked_like" lemma="ligne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:degr|2:dobj|14:mod|23:pnct">lignede</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-1:degr" out="4:pobj">mere</W>
+<W gloss="looked_like" lemma="ligne" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:quant|2:dobj|14:mod|23:pnct">lignede</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-1:quant" out="4:pobj">mere</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj">et</W>
 <W gloss="accidental" lemma="hændelig" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">hændeligt</W>
 <W gloss="collision" lemma="sammenstød" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">sammenstød</W>

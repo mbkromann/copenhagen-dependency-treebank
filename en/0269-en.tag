@@ -87,9 +87,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|11:pnct|15:conj|26:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:vobj">have</W>
-<W msd="VADA" tag="VBD" in="-1:vobj" out="-3:[subj]|1:dobj|2:degr|3:mod">said</W>
+<W msd="VADA" tag="VBD" in="-1:vobj" out="-3:[subj]|1:dobj|2:quant|3:mod">said</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">test</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">my</W>

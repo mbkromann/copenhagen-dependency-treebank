@@ -1,5 +1,5 @@
-<W lemma="pero" msd="CC" tag="CCAD" in="1:struct" out="">Pero</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="12:inst" out="-1:struct|1:pobj">fue</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="1:scene" out="">Pero</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="12:inst" out="-1:scene|1:pobj">fue</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="plato" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">plato</W>
@@ -64,8 +64,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">g.</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">jamón</W>
-<W lemma="cortar" msd="VAF" tag="VLadj" in="-1:attr" out="1:attr|1:{pos}#">cortado</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{pos}#" out="1:nobj">en</W>
+<W lemma="cortar" msd="VAF" tag="VLadj" in="-1:attr" out="1:attr|1:{loc}#">cortado</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{loc}#" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">juliana</W>
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="dos" msd="AC" tag="CARD" in="-8:conj" out="2:nobj|5:pnct|6:conj">dos</W>
@@ -194,9 +194,9 @@
 <W lemma="," msd="XP" tag="CM" in="-13:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-14:conj" out="1:dobj|5:pobj|9:conj">verter</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="">un</W>
-<W lemma="pocos" msd="AN" tag="QU" in="2:ext" out="">poco</W>
+<W lemma="pocos" msd="AN" tag="QU" in="2:time" out="">poco</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
-<W lemma="salsa" msd="NC" tag="NC" in="" out="-2:ext">salsa</W>
+<W lemma="salsa" msd="NC" tag="NC" in="" out="-2:time">salsa</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-5:pobj" out="1:nobj">sobre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="pescado" msd="NC" tag="NC" in="-1:nobj" out="">pescado</W>
@@ -206,13 +206,13 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">jamón</W>
 <W lemma="." msd="XP" tag="FS" in="-27:pnct" out="">.</W>
-<W lemma="eventualmente" msd="RG" tag="ADV" in="2:struct" out="">Eventualmente</W>
+<W lemma="eventualmente" msd="RG" tag="ADV" in="2:scene" out="">Eventualmente</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-2:struct|-1:robj|1:vobj|6:pnct">puede</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-2:scene|-1:robj|1:vobj|6:pnct">puede</W>
 <W lemma="servir" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:pobj">servir</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="patata" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{pos}#">patatas</W>
-<W lemma="al" msd="SP" tag="PAL" in="-1:attr|-1:{pos}#" out="1:nobj">al</W>
+<W lemma="patata" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{loc}#">patatas</W>
+<W lemma="al" msd="SP" tag="PAL" in="-1:attr|-1:{loc}#" out="1:nobj">al</W>
 <W lemma="horno" msd="NC" tag="NC" in="-1:nobj" out="">horno</W>
 <W lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Preben</W>
@@ -235,8 +235,8 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-2:time|1:vobj|2:loc|18:pnct">ha</W>
 <W lemma="trabajar" msd="VAF" tag="VLadj" in="-1:vobj" out="">trabajado</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
-<W lemma="establecimiento" msd="NC" tag="NC" in="-1:nobj" out="1:comp">establecimientos</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-1:comp" out="1:nobj">como</W>
+<W lemma="establecimiento" msd="NC" tag="NC" in="-1:nobj" out="1:resem">establecimientos</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-1:resem" out="1:nobj">como</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:loc|3:pnct|4:conj">Pakhuset</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Esbjerg</W>

@@ -31,9 +31,9 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="minerale" msd="NC" tag="NOM" in="-4:conj" out="-1:coord">minerali</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="indicare" msd="VAP" tag="VER&3a;pper" in="-6:appa" out="2:ben|14:pnct">indicati</W>
+<W lemma="indicare" msd="VAP" tag="VER&3a;pper" in="-6:appa" out="2:goal|14:pnct">indicati</W>
 <W lemma="sia" msd="CS" tag="CON" in="4:correl" out="">sia</W>
-<W lemma="per" msd="SP" tag="PRE" in="-2:ben" out="1:nobj|4:conj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-2:goal" out="1:nobj|4:conj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">gli</W>
 <W lemma="uomo" msd="NC" tag="NOM" in="-1:nobj" out="">uomini</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="1:coord" out="-4:correl">che</W>
@@ -47,8 +47,8 @@
 <W lemma="polare" msd="AN" tag="ADJ" in="-1:attr" out="">polare</W>
 <W lemma="," msd="XP" tag="PON" in="-14:pnct" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-23:ref|1:subj" out="">che</W>
-<W lemma="assumere" msd="VADR" tag="VER&3a;pres" in="-24:relr" out="-1:subj|1:degr|2:dobj">assumono</W>
-<W lemma="esattamente" msd="RG" tag="ADV" in="-1:degr" out="">esattamente</W>
+<W lemma="assumere" msd="VADR" tag="VER&3a;pres" in="-24:relr" out="-1:subj|1:quant|2:dobj">assumono</W>
+<W lemma="esattamente" msd="RG" tag="ADV" in="-1:quant" out="">esattamente</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="1:nobj">il</W>
 <W lemma="sapore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">sapore</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">delle</W>
@@ -151,8 +151,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]|6:[subj]|8:[subj]" out="-1:namef">Thomsen</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|-5:time|1:vobj|10:pnct">ha</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|2:dobj">avuto</W>
-<W lemma="ampio" msd="AN" tag="ADJ" in="1:degr" out="">ampia</W>
-<W lemma="possibilità" msd="NC" tag="NOM" in="-2:dobj" out="-1:degr|1:pobj">possibilità</W>
+<W lemma="ampio" msd="AN" tag="ADJ" in="1:quant" out="">ampia</W>
+<W lemma="possibilità" msd="NC" tag="NOM" in="-2:dobj" out="-1:quant|1:pobj">possibilità</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">di</W>
 <W lemma="imparare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-6:[subj]|1:dobj">imparare</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:dobj" out="1:vobj">a</W>

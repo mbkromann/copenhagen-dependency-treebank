@@ -138,11 +138,11 @@
 <p>
 <s>
 <W gloss="The_shop" lemma="butik" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]" out="">Butikken</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:degr|2:vobj|7:pnct|12:conj|20:pnct">har</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
-<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|2:dur|1:@loc">ligget</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:quant|2:vobj|7:pnct|12:conj|20:pnct">har</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
+<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|2:time|1:@loc">ligget</W>
 <W gloss="there" lemma="der" msd="RGU" tag="RP" in="-1:@loc" out="">der</W>
-<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-2:dur" out="1:nobj">nogle</W>
+<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-2:time" out="1:nobj">nogle</W>
 <W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">få</W>
 <W gloss="months" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -186,8 +186,8 @@
 <W gloss="are" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|1:vobj|6:pnct">bliver</W>
 <W gloss="sold" lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-7:[subj]|1:pobj">solgt</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">til</W>
-<W gloss="very" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="young" lemma="ung" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">unge</W>
+<W gloss="very" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="young" lemma="ung" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">unge</W>
 <W gloss="girls" lemma="pige" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:attr">piger</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

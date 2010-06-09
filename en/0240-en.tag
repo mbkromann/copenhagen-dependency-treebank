@@ -56,8 +56,8 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="1:degr" out="">NOT</W>
-<W msd="PI" tag="DT" in="" out="1:nobj|-1:degr">A</W>
+<W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
+<W msd="PI" tag="DT" in="" out="1:nobj|-1:quant">A</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">WORD</W>
 <W msd="NP=S" tag="NNP" in="-1:pobj" out="1:nobj">ABOUT</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">AIDS</W>
@@ -190,9 +190,9 @@
 <W msd="PI" tag="DT" in="" out="1:nobj|2:ref|3:rel|14:pnct">An</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">agreement</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:neg|2:ext|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-3:rel" out="-1:subj|1:neg|2:time|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">always</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">always</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="1:mod">present</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">between</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">the</W>

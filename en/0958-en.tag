@@ -109,8 +109,8 @@
 <W msd="SP" tag="IN" in="-1:preds" out="2:vobj|21:conj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">savings</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|16:pnct">are</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dur|7:pobj">made</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:time|7:pobj">made</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|2:attr|3:nobj|4:pnct">the</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">fat</W>
@@ -152,13 +152,13 @@
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="6:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="6:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">retirement</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">investors</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|-6:reas|1:vobj|11:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|-6:cause|1:vobj|11:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj|7:mod">paid</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
@@ -203,9 +203,9 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">equalisation</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">fund</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-31:subj|2:degr|3:vobj|7:pnct|1:reas">can</W>
-<W msd="ANP" tag="RB" in="-1:reas" out="">therefore</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="VA" tag="MD" in="" out="-31:subj|2:quant|3:vobj|7:pnct|1:cause">can</W>
+<W msd="ANP" tag="RB" in="-1:cause" out="">therefore</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-34:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-35:[subj]|1:pobj">seen</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:aobj">as</W>
@@ -213,10 +213,10 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:reas|1:preds|27:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-3:cause|1:preds|27:pnct">is</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">unfortunate</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">HRH</W>

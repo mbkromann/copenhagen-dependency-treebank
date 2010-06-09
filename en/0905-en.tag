@@ -2,8 +2,8 @@
 <W msd="SP" tag="IN" in="14:mod" out="1:nobj|10:pnct">For</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:preds">being</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj|4:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">prominent</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">prominent</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">hope</W>
 <W msd="SP" tag="IN" in="-4:mod" out="3:nobj">in</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">Danish</W>
@@ -125,8 +125,8 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="2:nobj">four</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Funen</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">residents'</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="-5:attr" out="-1:degr">unique</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="-5:attr" out="-1:quant">unique</W>
 <W msd="NC=S" tag="NN" in="-6:possd" out="">sound</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="VAP" tag="VBN" in="-8:mod" out="1:pobj">inspired</W>
@@ -223,8 +223,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:conj" out="-1:subj|1:dobj|3:man|4:focal">know</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-3:man" out="-1:degr">well</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-3:man" out="-1:quant">well</W>
 <W msd="PP" tag="PRP" in="-4:focal" out="">themselves</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>

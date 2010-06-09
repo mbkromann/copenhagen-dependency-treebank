@@ -75,7 +75,7 @@
 <W msd="NP=S" tag="NNP" in="-3:nobj" out="-2:mod|-1:namef">Brix</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|1:preds|15:prec|18:pnct#">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:mod|-1:subj|1:preds|15:time|18:pnct#">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">matter</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -90,10 +90,10 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="CS" tag="IN" in="-15:prec" out="-1:pnct|1:vobj|4:pnct">before</W>
+<W msd="CS" tag="IN" in="-15:time" out="-1:pnct|1:vobj|4:pnct">before</W>
 <W msd="NC=P" tag="NNS" in="-1:vobj" out="2:preds">it's</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-18:pnct#|-2:preds" out="-1:degr">late.</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-18:pnct#|-2:preds" out="-1:quant">late.</W>
 <W msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
 </s>
 <s>
@@ -191,12 +191,12 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">generation</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="ANC" tag="JJR" in="5:degr" out="-1:mod|1:pobj|4:pnct">more</W>
+<W msd="ANC" tag="JJR" in="5:quant" out="-1:mod|1:pobj|4:pnct">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">than</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">previous</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">generations</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="-10:vobj" out="-9:subj|-5:degr|1:vobj">will</W>
+<W msd="VA" tag="MD" in="-10:vobj" out="-9:subj|-5:quant|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:mod">work</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">improve</W>

@@ -171,8 +171,8 @@
 <s>
 <W gloss="Monomættede" lemma="monomættet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Monomættede</W>
 <W gloss="fatty_acids" lemma="fedtsyre" msd="NCCPU==I" tag="NNP" in="1:subj|8:[subj]" out="-1:attr">fedtsyrer</W>
-<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:prec|4:@loc|7:conj|26:pnct">findes</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:prec" out="2:conj">først</W>
+<W gloss="are_found" lemma="findes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:time|4:@loc|7:conj|26:pnct">findes</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:time" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:@loc" out="1:nobj">i</W>

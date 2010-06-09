@@ -131,10 +131,10 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">EC</W>
 <W msd="XP" tag="," in="-20:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-21:pnct" out="">"</W>
-<W msd="VADA" tag="VBD" in="" out="-22:qobj|1:subj|3:dur|14:pnct|2:time">said</W>
+<W msd="VADA" tag="VBD" in="" out="-22:qobj|1:subj|3:time|14:pnct|2:time">said</W>
 <W msd="NP=S" tag="NNP" in="-1:subj" out="">Waigel</W>
 <W msd="ANP" tag="RB" in="-2:time" out="">recently</W>
-<W msd="SP" tag="IN" in="-3:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-3:time" out="1:nobj">during</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">discussion</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -186,8 +186,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:mod|3:preds|16:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">unclear</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">unclear</W>
 <W msd="PT" tag="WP" in="-5:nobj|1:[subj]|2:[subj]" out="1:rel">what</W>
 <W msd="VA" tag="MD" in="-1:rel" out="-1:[subj]|1:vobj|2:cond">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">happen</W>
@@ -218,12 +218,12 @@
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="13:qobj" out="-1:subj|-3:reas|2:preds|11:pnct|12:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">uncertain</W>
+<W msd="VADR" tag="VBZ" in="13:qobj" out="-1:subj|-3:cause|2:preds|11:pnct|12:pnct">is</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">uncertain</W>
 <W msd="PT" tag="WRB" in="-4:nobj|7:[aobj]" out="3:vobj">how</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">ECU</W>

@@ -60,10 +60,10 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">exchange</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:mod|-2:coord">rates</W>
 <W msd="VADR" tag="VBP" in="-6:vobj" out="-4:subj|1:vobj|8:pnct">have</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:man|3:dur">done</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:man|3:time">done</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">relatively</W>
 <W msd="ANP" tag="RB" in="-2:man" out="-1:mod">well</W>
-<W msd="SP" tag="IN" in="-3:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-3:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">currency</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">crisis</W>
@@ -107,9 +107,9 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">exports</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-11:conj" out="-7:subj|-8:coord|-2:reas|2:dobj">has</W>
+<W msd="VADR" tag="VBZ" in="-11:conj" out="-7:subj|-8:coord|-2:cause|2:dobj">has</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr|1:pobj">consequences</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -144,8 +144,8 @@
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">position</W>
 <W msd="VADR" tag="VBZ" in="-16:vobj" out="-14:mod|-2:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:mod">weak</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:mod">weak</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">respect</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:pnct|5:nobj">to</W>

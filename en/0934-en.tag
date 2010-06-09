@@ -82,8 +82,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
 <W msd="VA" tag="MD" in="-6:conj" out="-1:subj|-2:coord|1:neg|2:vobj">will</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:ext">rise</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:time">rise</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -153,8 +153,8 @@
 <W msd="VADA" tag="VBD" in="" out="-11:mod|-1:subj|1:mod|10:dobj|22:pnct">assured</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:possd|5:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">distinguished</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">distinguished</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">speaker's</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="">chair</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">in</W>
@@ -194,9 +194,9 @@
 <W msd="VADR" tag="VBP" in="-7:conj" out="-1:subj|-2:coord|1:vobj">don't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj">intend</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj|2:prec">run</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:lobj|2:time">run</W>
 <W msd="RG" tag="RP" in="-1:lobj" out="">off</W>
-<W msd="CS" tag="IN" in="-2:prec" out="3:vobj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="3:vobj">before</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">reforms</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">have</W>

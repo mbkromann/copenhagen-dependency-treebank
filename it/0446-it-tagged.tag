@@ -222,7 +222,7 @@
 <W lemma="ci" msd="PR" tag="PRO:refl" in="" out="">ci</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="" out="">inoltre</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">14</W>
 <W lemma="registrazione" msd="NC" tag="NOM" in="" out="">registrazioni</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>

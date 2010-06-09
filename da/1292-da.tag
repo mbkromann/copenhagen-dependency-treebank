@@ -46,10 +46,10 @@
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="9:subj|10:[subj]" out="1:pnct|6:appa">vi</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="that_is" lemma="altså" msd="RGU" tag="RP" in="4:mod" out="">altså</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:prec" out="2:conj">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:time" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="all" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-6:appa" out="-4:mod|-3:prec|1:pnct">jeg</W>
+<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-6:appa" out="-4:mod|-3:time|1:pnct">jeg</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-10:vobj" out="-9:subj|-1:neg|1:vobj">har</W>
@@ -126,9 +126,9 @@
 <W gloss="crazy" lemma="afsindig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:attr" out="-2:mod|-1:pnct|1:pnct">afsindige</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:neg|1:preds|2:degr">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:vobj" out="-6:subj|-1:neg|1:preds|2:quant">er</W>
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:preds" out="">med</W>
-<W gloss="anymore" lemma="meget" msd="ANC---=-R" tag="JJR" in="-2:degr" out="">mere</W>
+<W gloss="anymore" lemma="meget" msd="ANC---=-R" tag="JJR" in="-2:quant" out="">mere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -223,9 +223,9 @@
 <s>
 <W gloss="Have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|8:pnct">Har</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">du</W>
-<W gloss="focused" lemma="fokusere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|2:degr|3:pobj">fokuseret</W>
+<W gloss="focused" lemma="fokusere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|2:quant|3:pobj">fokuseret</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:degr" out="-1:mod">meget</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:quant" out="-1:mod">meget</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="2:nobj">på</W>
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="1:namef" out="">John</W>
 <W gloss="Jacobsen" lemma="Jacobsen" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef">Jacobsen</W>

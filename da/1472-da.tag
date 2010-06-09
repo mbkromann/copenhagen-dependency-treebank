@@ -123,8 +123,8 @@
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|21:pnct">Og</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="seemed" lemma="virke" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|2:preds">virkede</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="intimate" lemma="fortrolig" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">fortrolig</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="intimate" lemma="fortrolig" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">fortrolig</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_terrain" lemma="terræn" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|4:rel">terrænet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -178,8 +178,8 @@
 <W gloss="set" lemma="lægge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:pobj">lægge</W>
 <W gloss="the_course" lemma="kurs" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">kursen</W>
 <W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:mod" out="">lidt</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:mod">mere</W>
-<W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-4:pobj" out="1:aobj|-1:degr">mod</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:mod">mere</W>
+<W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-4:pobj" out="1:aobj|-1:quant">mod</W>
 <W gloss="left" lemma="venstre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:aobj" out="">venstre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>

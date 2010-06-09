@@ -40,7 +40,7 @@
 <W lemma="libro" msd="NC" tag="NOM" in="" out="">libro</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
 <W lemma="essere|stare" msd="VAP" tag="VER:pper" in="" out="">state</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="corredare" msd="VAP" tag="VER:pper" in="" out="">corredate</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="linea" msd="NC" tag="NOM" in="" out="">linee</W>

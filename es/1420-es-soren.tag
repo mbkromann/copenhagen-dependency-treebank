@@ -21,10 +21,10 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">edificación</W>
 <W lemma="intenso" msd="AN" tag="ADJ" in="-1:attr" out="">intensa</W>
 <W lemma="." msd="XP" tag="FS" in="-19:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="3:struct" out="1:pnct">Por el contrario</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="3:scene" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-3:struct|-1:robj|1:vobj|9:pnct|23:pnct">debe</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-3:scene|-1:robj|1:vobj|9:pnct|23:pnct">debe</W>
 <W lemma="respetar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">respetar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="naturaleza" msd="NC" tag="NC" in="-1:nobj" out="1:loc">naturaleza</W>
@@ -66,8 +66,8 @@
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
 <W lemma="tratar" msd="VAD" tag="VLfin" in="" out="-1:robj|1:pobj|7:conj">trata</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="2:nobj">de</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="1:ext" out="">240</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:ext">hectáreas</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="1:time" out="">240</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:time">hectáreas</W>
 <W lemma="y" msd="CC" tag="CC" in="3:coord" out="">y</W>
 <W lemma="ese" msd="" tag="DM" in="2:subj|3:[subj]" out="1:nobj">esa</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="">zona</W>
@@ -77,8 +77,8 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="parque" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">parque</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
-<W lemma="ciudad" msd="NC" tag="NC" in="-1:nobj" out="1:ext">ciudad</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:ext" out="2:nobj">de</W>
+<W lemma="ciudad" msd="NC" tag="NC" in="-1:nobj" out="1:time">ciudad</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:time" out="2:nobj">de</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">gran</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">tamaño</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
@@ -94,8 +94,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:subj|-9:fpreds|1:dobj|10:pnct">tendrá</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="parque" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">parque</W>
-<W lemma="natural" msd="AN" tag="ADJ" in="-1:attrr#" out="1:ext">natural</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:ext" out="2:nobj">de</W>
+<W lemma="natural" msd="AN" tag="ADJ" in="-1:attrr#" out="1:time">natural</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:time" out="2:nobj">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="1:numm" out="">25</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:numm|1:attrr#|2:conj">kilómetros</W>
 <W lemma="cuadrar" msd="VAF" tag="VLadj" in="-1:attrr#" out="">cuadrados</W>
@@ -128,7 +128,7 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:conj" out="-1:coord">música</W>
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="14:struct" out="1:pnct">Además</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="14:scene" out="1:pnct">Además</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="12:subj|13:[subj]" out="1:nobj">la</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="1:loc">zona</W>
@@ -142,7 +142,7 @@
 <W lemma="norte" msd="NC" tag="NC" in="-1:attr" out="1:loc">norte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">Ørestaden</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-14:struct|-12:subj|1:vobj|6:pnct">debe</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-14:scene|-12:subj|1:vobj|6:pnct">debe</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">zona</W>
@@ -169,10 +169,10 @@
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1996</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
 <W lemma="y" msd="CC" tag="CC" in="4:discmark" out="">Y</W>
-<W lemma="al" msd="SP" tag="PAL" in="3:struct" out="1:nobj">al</W>
+<W lemma="al" msd="SP" tag="PAL" in="3:scene" out="1:nobj">al</W>
 <W lemma="final" msd="NC" tag="NC" in="-1:nobj" out="">final</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Amager</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:discmark|-3:struct|-1:subj|1:dobj|5:pnct">obtendrá</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:discmark|-3:scene|-1:subj|1:dobj|5:pnct">obtendrá</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:possd">su</W>
 <W lemma="tren" msd="NC" tag="NC" in="-1:possd" out="1:pobj|1:{arg}#">tren</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>

@@ -1,6 +1,6 @@
 <s>
-<W msd="SP" tag="IN" in="14:mod" out="1:degr|2:nobj|12:pnct">At</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">almost</W>
+<W msd="SP" tag="IN" in="14:mod" out="1:quant|2:nobj|12:pnct">At</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="PD" tag="DT" in="-2:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">time</W>
@@ -146,8 +146,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">us</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|3:preds">consider</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="3:nobj">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">incomprehensible</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">incomprehensible</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="4:vobj">that</W>
 <W msd="PI" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">non-socialist</W>

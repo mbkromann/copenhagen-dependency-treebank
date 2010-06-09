@@ -110,9 +110,9 @@
 <s>
 <W gloss="With" lemma="med" msd="SP" tag="IN" in="8:mod" out="2:nobj|5:preds">Med</W>
 <W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:mod" out="">omkring</W>
-<W gloss="300" lemma="300" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:ext">300</W>
+<W gloss="300" lemma="300" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:time">300</W>
 <W gloss="deceased" lemma="død" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:mod" out="">døde</W>
-<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-2:ext" out="">årligt</W>
+<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-2:time" out="">årligt</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-5:preds" out="1:nobj">på</W>
 <W gloss="Hobro" lemma="Hobro" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Hobro</W>
 <W gloss="Hospital" lemma="sygehus" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">Sygehus</W>

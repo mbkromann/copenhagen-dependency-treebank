@@ -27,4 +27,10 @@ find -corpus -yes $X isa(SEM) $Y -do(echo@CONF $FILE\t`etypes($X isa(SEM) $Y)`\t
 told@CONF
 !cat ~/cdt/confusion/relations-semantics.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-semantics.csv
 
+# Extract undefinded relations
+corpus ~/cdt/first/*/*.tag ~/cdt/{da,de,en,es,it}/*.tag
+tell@CONF ~/cdt/docs/unknown-relations.csv
+find -corpus -yes $X isa(-ANY) $Y -do(echo@CONF $FILE\t`etypes($X /./ $Y)`\n)
+told@CONF
+
 

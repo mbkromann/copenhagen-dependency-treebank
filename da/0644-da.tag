@@ -163,8 +163,8 @@
 <W gloss="You" lemma="De" msd="PP2C[SP]N-NP" tag="PRP" in="1:subj|2:[subj]" out="">De</W>
 <W gloss="have_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|7:goal|11:pnct">skal</W>
 <W gloss="drive" lemma="køre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|2:lobj|4:time">køre</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mindst</W>
-<W gloss="20,000" lemma="20.000" msd="AC---U=--" tag="CD" in="-2:lobj" out="-1:degr|1:nobj">20.000</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mindst</W>
+<W gloss="20,000" lemma="20.000" msd="AC---U=--" tag="CD" in="-2:lobj" out="-1:quant|1:nobj">20.000</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
 <W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-4:time" out="">årligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -203,14 +203,14 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|3:time|6:preds|7:pnct|8:cond|15:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|3:time|6:preds|7:pnct|8:cond|15:pnct">er</W>
 <W gloss="the_diesel_cars'" lemma="dieselbil" msd="NCCPG==D" tag="NNP" in="-1:subj" out="1:possd">dieselbilernes</W>
 <W gloss="share" lemma="andel" msd="NCCSU==I" tag="NN" in="-1:possd" out="">andel</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-3:time" out="">i_dag</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="corpses" lemma="lig" msd="ANP[CN]SU=IU" tag="JJ" in="1:comp" out="-1:degr">lig</W>
-<W gloss="zero" lemma="nul" msd="NCNSU==I" tag="NN" in="-6:preds" out="-1:comp">nul</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="corpses" lemma="lig" msd="ANP[CN]SU=IU" tag="JJ" in="1:resem" out="-1:quant">lig</W>
+<W gloss="zero" lemma="nul" msd="NCNSU==I" tag="NN" in="-6:preds" out="-1:resem">nul</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-8:cond" out="2:vobj">når</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
@@ -244,7 +244,7 @@
 <W gloss="long" lemma="lang" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">lange</W>
 <W gloss="trips" lemma="tur" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">ture</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="should" lemma="burde" msd="VADR=----A-" tag="VBD" in="" out="-6:cond|1:subj|2:vobj|13:pnct|14:reas|24:pnct">bør</W>
+<W gloss="should" lemma="burde" msd="VADR=----A-" tag="VBD" in="" out="-6:cond|1:subj|2:vobj|13:pnct|14:cause|24:pnct">bør</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="choose" lemma="vælge" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">vælge</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:other">en</W>
@@ -258,7 +258,7 @@
 <W gloss="2_litre" lemma="2-liter" msd="NCCPG==I" tag="NNP" in="-3:conj" out="-1:coord">2-liters</W>
 <W gloss="class" lemma="klasse" msd="NCCSU==I" tag="NN" in="-5:nobj" out="-4:nobj">klasse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-14:reas" out="4:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-14:cause" out="4:vobj">fordi</W>
 <W gloss="extra" lemma="ekstra" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">ekstra</W>
 <W gloss="engine_power" lemma="motorkraft" msd="NCCSU==I" tag="NN" in="2:subj" out="-1:attr">motorkraft</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>

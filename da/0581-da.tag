@@ -199,8 +199,8 @@
 <W gloss="wood" lemma="skov" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">skov</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
-<W gloss="naturally" lemma="naturligvis" msd="RGU" tag="RP" in="1:att" out="">naturligvis</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:att|1:subj|3:preds|-2:coord">er</W>
+<W gloss="naturally" lemma="naturligvis" msd="RGU" tag="RP" in="1:eval" out="">naturligvis</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:eval|1:subj|3:preds|-2:coord">er</W>
 <W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-1:subj" out="1:nobj">nogle</W>
 <W gloss="places" lemma="sted" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">steder</W>
 <W gloss="better" lemma="god" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:preds" out="1:pobj">bedre</W>
@@ -229,8 +229,8 @@
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">bedste</W>
 <W gloss="mushroom_year" lemma="svampeår" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">svampeår</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:time" out="3:nobj">i</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:degr">lang</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:quant">lang</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-1:attr">tid</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -245,11 +245,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-6:ref|2:other" out="">hvor</W>
 <W gloss="the_summer" lemma="sommer" msd="NCCSU==D" tag="NN" in="1:subj" out="">sommeren</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-8:rel" out="-1:subj|-2:other|1:preds|4:succ|9:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-8:rel" out="-1:subj|-2:other|1:preds|4:time|9:pnct">var</W>
 <W gloss="dry" lemma="tør" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="2:conj">tør</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="warm" lemma="varm" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">varm</W>
-<W gloss="followed" lemma="efterfølge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:succ" out="1:pobj">efterfulgt</W>
+<W gloss="followed" lemma="efterfølge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:time" out="1:pobj">efterfulgt</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="wet" lemma="våd" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">våd</W>

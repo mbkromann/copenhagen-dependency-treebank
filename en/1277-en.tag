@@ -153,8 +153,8 @@
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|2:vobj|11:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:vobj" out="-4:[subj]|-1:degr|1:pobj">interested</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:vobj" out="-4:[subj]|-1:quant|1:pobj">interested</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PT" tag="WP" in="-1:nobj|1:[subj]|2:[subj]" out="1:rel">what</W>
 <W msd="VADR" tag="VBZ" in="-1:rel" out="-1:[subj]|1:vobj">is</W>
@@ -169,8 +169,8 @@
 <W msd="PD" tag="DT" in="3:dobj" out="1:nobj">This</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interest</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="" out="-3:dobj|-1:subj|2:pobj|8:pnct|1:degr">shares</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">entirely</W>
+<W msd="VADR" tag="VBZ" in="" out="-3:dobj|-1:subj|2:pobj|8:pnct|1:quant">shares</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">entirely</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:pnct|4:appr">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">husband</W>
@@ -209,10 +209,10 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">series</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="6:nobj">of</W>
 <W msd="ANP" tag="JJ" in="5:attr" out="">various</W>
-<W msd="ANC" tag="JJR" in="3:degr" out="2:conj">more</W>
+<W msd="ANC" tag="JJR" in="3:quant" out="2:conj">more</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANC" tag="JJR" in="-2:conj" out="-1:coord">less</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-3:degr">official</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-3:quant">official</W>
 <W msd="NC=P" tag="NNS" in="-6:nobj" out="-5:attr|-1:attr">trips</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>

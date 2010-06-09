@@ -43,7 +43,7 @@
 <W msd="AC" tag="CD" in="-2:nobj|-5:pnct#" out="">1976,</W>
 <W msd="PT" tag="WRB" in="-6:time" out="10:vobj">when</W>
 <W msd="NP=S" tag="NNP" in="9:subj" out="">Clevin</W>
-<W msd="CS" tag="IN" in="8:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="8:time" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">eyes</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">of</W>
@@ -51,7 +51,7 @@
 <W msd="PI" tag="DT" in="1:numm" out="-1:mod">a</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|1:mod">million</W>
 <W msd="NC=P" tag="NNS" in="-1:mod" out="">minors</W>
-<W msd="VADA" tag="VBD" in="-10:vobj" out="-9:subj|-8:prec|1:pnct|5:qobj">said</W>
+<W msd="VADA" tag="VBD" in="-10:vobj" out="-9:subj|-8:time|1:pnct|5:qobj">said</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 </s>
 <s>
@@ -81,8 +81,8 @@
 <W msd="NP=S" tag="NNP" in="" out="1:dobj|3:attr|6:pnct">Read</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sentence</W>
-<W msd="AC" tag="CD" in="-3:attr" out="1:degr|2:nobj">one</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="">more</W>
+<W msd="AC" tag="CD" in="-3:attr" out="1:quant|2:nobj">one</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="">more</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -198,10 +198,10 @@
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|9:pnct|-3:reas">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|9:pnct|-3:cause">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">lot</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:vobj">to</W>

@@ -5,7 +5,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">precondition</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:vobj|4:conj|8:pnct|9:prec">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:vobj|4:conj|8:pnct|9:time">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[expl]|4:dobj">created</W>
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
@@ -14,7 +14,7 @@
 <W msd="NC=S" tag="NN" in="-1:mod" out="">firm</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">foundation</W>
 <W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
-<W msd="CS" tag="IN" in="-9:prec" out="7:vobj">before</W>
+<W msd="CS" tag="IN" in="-9:time" out="7:vobj">before</W>
 <W msd="PI" tag="DT" in="6:subj|7:[subj]" out="1:attr|4:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">lasting</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
@@ -25,8 +25,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]">work</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="-25:conj" out="-1:subj|2:preds|1:reas">is</W>
-<W msd="ANP" tag="RB" in="-1:reas" out="">therefore</W>
+<W msd="VADR" tag="VBZ" in="-25:conj" out="-1:subj|2:preds|1:cause">is</W>
+<W msd="ANP" tag="RB" in="-1:cause" out="">therefore</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unconditional</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">requirement</W>
@@ -131,8 +131,8 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-26:conj" out="-8:mod|-1:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">rare</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">rare</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pipes</W>
@@ -149,13 +149,13 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|6:preds|16:pnct|17:time|24:pnct|3:reas">consider</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|6:preds|16:pnct|17:time|24:pnct|3:cause">consider</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="1:pnct|6:nobj">it</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-3:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="-3:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-6:preds" out="-1:degr">risky</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-6:preds" out="-1:quant">risky</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:lobj">force</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>

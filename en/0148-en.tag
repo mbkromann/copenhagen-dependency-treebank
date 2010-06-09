@@ -10,8 +10,8 @@
 <W msd="VA" tag="MD" in="" out="-8:subj|1:neg|2:vobj|5:pnct">must</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-10:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">salty</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">salty</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -34,11 +34,11 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|2:preds|9:conj|13:pnct">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|3:conj">salty</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|3:conj">salty</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">wet</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">wet</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">flavour</W>
@@ -54,10 +54,10 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">oven-proof</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">dish</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="ANC" tag="JJR" in="3:degr" out="2:conj">more</W>
+<W msd="ANC" tag="JJR" in="3:quant" out="2:conj">more</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANC" tag="RBR" in="-2:conj" out="-1:coord">less</W>
-<W msd="ANP" tag="JJ" in="-7:attr" out="-3:degr|1:mod">large</W>
+<W msd="ANP" tag="JJ" in="-7:attr" out="-3:quant|1:mod">large</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="1:pobj">enough</W>
 <W msd="ANP" tag="RB" in="-1:pobj" out="1:nobj">so</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="9:vobj">that</W>

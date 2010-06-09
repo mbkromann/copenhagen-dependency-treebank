@@ -73,8 +73,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj|4:[subj]|6:[subj]" out="">He</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:degr|1:dobj|9:pnct">wants</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:quant|1:dobj|9:pnct">wants</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|2:conj">work</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

@@ -115,8 +115,8 @@
 <W msd="VADR" tag="VBZ" in="-15:conj" out="-5:subj|-6:coord|1:mod|2:neg|4:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="ANP" tag="RB" in="-2:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-4:preds" out="-1:degr">good</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-4:preds" out="-1:quant">good</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>

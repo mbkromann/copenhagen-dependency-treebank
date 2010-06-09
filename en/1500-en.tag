@@ -45,8 +45,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="">behind</W>
 <W msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
 <W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADR" tag="VBZ" in="-15:vobj" out="-14:subj|-1:degr|1:pnct|2:cond">works</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-15:vobj" out="-14:subj|-1:quant|1:pnct|2:cond">works</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
@@ -218,8 +218,8 @@
 <W msd="SP" tag="IN" in="-1:preds" out="4:vobj">that</W>
 <W msd="PP" tag="PRP" in="3:subj" out="4:nobj">it</W>
 <W msd="ANP" tag="RB" in="2:epi" out="">apparently</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
-<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-1:ext|-2:epi">occurs</W>
+<W msd="ANP" tag="RB" in="1:time" out="">often</W>
+<W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|-1:time|-2:epi">occurs</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="9:vobj">that</W>
 <W msd="PD" tag="DT" in="3:mod" out="">both</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">ordinary</W>

@@ -117,11 +117,11 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">symptoms</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|1:neg">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="2:pobj">not</W>
-<W msd="VAF" tag="VB" in="" out="-4:[subj]|4:succ">appear</W>
+<W msd="VAF" tag="VB" in="" out="-4:[subj]|4:time">appear</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="">until</W>
 <W msd="ANP" tag="JJ" in="2:tobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="-4:succ" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-4:time" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-43:pnct" out="">.</W>
 </s>
 <s>

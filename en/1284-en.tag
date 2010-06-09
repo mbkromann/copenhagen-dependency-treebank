@@ -93,8 +93,8 @@
 <W msd="PP" tag="PRP" in="-1:focal" out="">himself</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="" out="-10:pnct|-9:subj|-6:mod|1:vobj|15:pnct">was</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:dur">made</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:time">made</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">discussion</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -104,8 +104,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">media</W>
 <W msd="VAG" tag="VBG" in="-3:nobj" out="-2:subj|3:dobj">drawing</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">hasty</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">hasty</W>
 <W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr">conclusions</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -130,14 +130,14 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">one</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">SAS</W>
-<W msd="VA" tag="MD" in="" out="-6:mod|-4:subj|1:vobj|6:pnct|7:prec|16:pnct">may</W>
+<W msd="VA" tag="MD" in="" out="-6:mod|-4:subj|1:vobj|6:pnct|7:time|16:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:pobj">comment</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">any</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">possible</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">cause</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:prec" out="5:vobj">before</W>
+<W msd="CS" tag="IN" in="-7:time" out="5:vobj">before</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]" out="3:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">accident</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:mod">investigation</W>

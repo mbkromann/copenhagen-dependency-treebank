@@ -200,8 +200,8 @@
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="done" lemma="gøre" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:mod|3:mod|4:mod|5:pnct">gøres</W>
 <W gloss="Fortunately" lemma="heldigvis" msd="RGU" tag="RP" in="-1:mod" out="">heldigvis</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="wonderfully" lemma="pragtfuld" msd="ANP---=-R" tag="JJ" in="-3:mod" out="-1:degr">pragtfuldt</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="wonderfully" lemma="pragtfuld" msd="ANP---=-R" tag="JJ" in="-3:mod" out="-1:quant">pragtfuldt</W>
 <W gloss="at_the_end" lemma="til_sidst" msd="RGU" tag="RP" in="-4:mod" out="">til_sidst</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

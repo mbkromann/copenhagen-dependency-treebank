@@ -190,8 +190,8 @@
 <W gloss="while" lemma="mens" msd="CS" tag="IN" in="-11:mod" out="4:vobj">mens</W>
 <W gloss="Ib" lemma="Ib" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ib</W>
 <W gloss="Oustrup" lemma="Oustrup" msd="NP--U==-" tag="NNP" in="2:subj" out="-1:namef">Oustrup</W>
-<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="1:ext" out="">igen</W>
-<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-2:subj|-1:ext|1:@dir">gik</W>
+<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="1:time" out="">igen</W>
+<W gloss="went" lemma="gå" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-2:subj|-1:time|1:@dir">gik</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">op</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="2:nobj">på</W>
 <W gloss="1." lemma="1." msd="AO---U=--" tag="JJ" in="1:attr" out="">1.</W>

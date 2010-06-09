@@ -12,8 +12,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="">chickens</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-3:mod|-1:subj|1:vobj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">raised</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr|2:pobj">as</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant|2:pobj">as</W>
 <W msd="ANP" tag="RB" in="-10:mod" out="-1:mod|6:conj">highly</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -161,8 +161,8 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|12:pnct">But</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="CS" tag="IN" in="-2:conj" out="-1:degr|2:vobj">if</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="CS" tag="IN" in="-2:conj" out="-1:quant|2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:avobj">live</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="1:pobj">up</W>

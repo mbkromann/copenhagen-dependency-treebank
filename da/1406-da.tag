@@ -83,9 +83,9 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|8:pnct">Og</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:degr|3:preds">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:neg|2:quant|3:preds">var</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="those" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-3:preds" out="1:mod">dem</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="the_field" lemma="bane" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">banen</W>

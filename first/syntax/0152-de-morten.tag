@@ -38,8 +38,8 @@
 <W lemma="als" msd="CS" tag="KOKOM" in="2:coord" out="-3:correl">als</W>
 <W lemma="auch" msd="RG" tag="ADV" in="1:add" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-4:conj" out="-1:add|1:nobj|-2:coord">den</W>
-<W lemma="Mensch" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">Menschen</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="Mensch" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Menschen</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Polarkälte</W>
 <W lemma="gut" msd="AN" tag="ADJD" in="1:man" out="">gut</W>
@@ -60,8 +60,8 @@
 </p>
 <p>
 <s>
-<W lemma="daher" msd="RG" tag="PAV" in="1:reas" out="">Daher</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:reas|1:subj|2:neg|3:preds|4:pnct|45:pnct">ist</W>
+<W lemma="daher" msd="RG" tag="PAV" in="1:cause" out="">Daher</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:cause|1:subj|2:neg|3:preds|4:pnct|45:pnct">ist</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="4:nobj">es</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-2:neg" out="">nicht</W>
 <W lemma="verwunderlich" msd="AN" tag="ADJD" in="-3:preds" out="">verwunderlich</W>
@@ -88,8 +88,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="1:subj|-4:ref" out="">es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-3:vobj" out="-1:subj|1:preds">wäre</W>
 <W lemma="ihr" msd="PP" tag="PPER" in="-1:preds|1:{arg}" out="1:attr.possd">ihr</W>
-<W lemma="letzt" msd="AN" tag="ADJD" in="-1:attr.possd" out="-1:{arg}|1:attr|1:{pos}">letzter</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="letzt" msd="AN" tag="ADJD" in="-1:attr.possd" out="-1:{arg}|1:attr|1:{loc}">letzter</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Zivilisation" msd="NC" tag="NN" in="-1:nobj" out="">Zivilisation</W>
 <W lemma="-" msd="XP" tag="$(" in="-15:pnct" out="">-</W>
@@ -98,8 +98,8 @@
 <W lemma="," msd="XP" tag="$," in="-2:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:dobj" out="1:attr|2:nobj">die</W>
 <W lemma="gut" msd="AN" tag="ADJA" in="-1:attr" out="">beste</W>
-<W lemma="Mahlzeit" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{pos}|4:attr|4:{const}">Mahlzeit</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="Mahlzeit" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{loc}|4:attr|4:{const}">Mahlzeit</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="Stadt" msd="NC" tag="NN" in="-1:nobj" out="">Stadt</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-4:attr|-4:{const}" out="1:nobj">mit</W>
@@ -123,8 +123,8 @@
 <p>
 <s>
 <W lemma="unmittelbar" msd="AN" tag="ADJD" in="1:focal" out="">Unmittelbar</W>
-<W lemma="danach" msd="RG" tag="PAV" in="1:succ" out="-1:focal">danach</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:succ|4:vobj|1:subj|5:pnct">wurden</W>
+<W lemma="danach" msd="RG" tag="PAV" in="1:time" out="-1:focal">danach</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:time|4:vobj|1:subj|5:pnct">wurden</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|3:[subj]" out="1:attr|2:nobj">die</W>
 <W lemma="lang" msd="AN" tag="ADJA" in="-1:attr" out="">langen</W>
 <W lemma="Nagel" msd="NC" tag="NN" in="-2:nobj" out="">Nägel</W>
@@ -166,14 +166,14 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="-6:nobj" out="1:vobj">zu</W>
 <W lemma="lernen" msd="VAF" tag="VVINF" in="-1:vobj" out="-2:vobj|-8:[subj]">lernen</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
-<W lemma="nach" msd="SP" tag="APPR" in="16:succ" out="1:nobj">Nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="16:time" out="1:nobj">Nach</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|8:pnct|12:modp|12:{elab}">einer</W>
-<W lemma="Woche" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">Woche</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{pos}" out="1:nobj">im</W>
-<W lemma="Trainingslager" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">Trainingslager</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:attr|1:{pos}">Akureyi</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="Woche" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Woche</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{loc}" out="1:nobj">im</W>
+<W lemma="Trainingslager" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Trainingslager</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:attr|1:{loc}">Akureyi</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="Island" msd="NP" tag="NE" in="-1:nobj" out="">Island</W>
 <W lemma="-" msd="XP" tag="$(" in="-8:pnct" out="">-</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="3:conc" out="">wenn</W>
@@ -182,7 +182,7 @@
 <W lemma="im" msd="SP+P" tag="APPRART" in="-12:modp|-12:{elab}" out="-3:conc|-1:neg|1:nobj|2:pnct">im</W>
 <W lemma="Zelt" msd="NC" tag="NN" in="-1:nobj" out="">Zelt</W>
 <W lemma="-" msd="XP" tag="$(" in="-2:pnct" out="">-</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="18:[subj]" out="2:subj|19:pnct|-16:succ|18:vobj|12:time">haben</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="18:[subj]" out="2:subj|19:pnct|-16:time|18:vobj|12:time">haben</W>
 <W lemma="Mie" msd="NP" tag="NE" in="1:namef" out="">Mie</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj" out="-1:namef|3:conj|1:pnct|4:pnct|6:conj|9:conj">Graversen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -196,8 +196,8 @@
 <W lemma="Frankenstein" msd="NP" tag="NE" in="-9:conj" out="-2:coord|-1:namef">Frankenstein</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="-12:time" out="">jetzt</W>
 <W lemma="ihr" msd="PO" tag="PPOSAT" in="5:dobj|1:[subj]|1:{agent}" out="1:possd">ihren</W>
-<W lemma="Marsch" msd="NC" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}|1:attr|1:{pos}">Marsch</W>
-<W lemma="quer" msd="AN" tag="ADJD" in="-1:attr|-1:{pos}" out="1:aobj">quer</W>
+<W lemma="Marsch" msd="NC" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}|1:attr|1:{loc}">Marsch</W>
+<W lemma="quer" msd="AN" tag="ADJD" in="-1:attr|-1:{loc}" out="1:aobj">quer</W>
 <W lemma="durch" msd="SP" tag="APPR" in="-1:aobj" out="1:nobj">durch</W>
 <W lemma="Grönland" msd="NP" tag="NE" in="-1:nobj" out="">Grönland</W>
 <W lemma="antreten" msd="VAP" tag="VVPP" in="-18:vobj" out="-18:[subj]|-5:dobj">angetreten</W>

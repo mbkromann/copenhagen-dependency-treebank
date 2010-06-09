@@ -37,10 +37,10 @@
 <W msd="VADR" tag="VBZ" in="-10:vobj" out="-4:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:dobj">refused</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:pnct|3:prec">do</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:pnct|3:time">do</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">anything</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-3:prec" out="5:vobj">before</W>
+<W msd="CS" tag="IN" in="-3:time" out="5:vobj">before</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">attorney</W>
 <W msd="NC=P" tag="NNS" in="" out="">general's</W>

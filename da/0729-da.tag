@@ -63,8 +63,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="" out="-1:pnct|2:conj|10:pnct">Men</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:att|4:neg|5:dobj">ønsker</W>
-<W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-1:att" out="1:nobj">vel</W>
+<W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:eval|4:neg|5:dobj">ønsker</W>
+<W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-1:eval" out="1:nobj">vel</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="label" lemma="mærke" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="">mærke</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-4:neg" out="">ikke</W>
@@ -199,8 +199,8 @@
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">deres</W>
 <W gloss="eyes" lemma="øje" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">øjne</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">på</W>
-<W gloss="kropsduer" lemma="kropsdue" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:comp">kropsduer</W>
-<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-1:comp" out="1:nobj">som</W>
+<W gloss="kropsduer" lemma="kropsdue" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:resem">kropsduer</W>
+<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-1:resem" out="1:nobj">som</W>
 <W gloss="the_actors" lemma="skuespiller" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="2:appr|36:pnct|37:ref|39:rel">skuespillerne</W>
 <W gloss="Patrick" lemma="Patrick" msd="NP--U==-" tag="NNP" in="1:namef" out="">Patrick</W>
 <W gloss="Swayze" lemma="Swayze" msd="NP--U==-" tag="NNP" in="-2:appr" out="-1:namef|3:other|11:pnct|13:conj|22:conj">Swayze</W>

@@ -17,7 +17,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-14:CONSOL&3a;source/(perché)" out="13:DESCR&3a;eval">Rappresenta</W>
+<W lemma="rappresentare" msd="VADR" tag="VER&3a;pres" in="-14:CONSOL&3a;source/(perché)" out="13:FORMAL&3a;eval">Rappresenta</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="" out="">nostra</W>
 <W lemma="caratteristica" msd="NC" tag="NOM" in="" out="">caratteristica</W>
@@ -30,7 +30,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-13:DESCR&3a;eval" out="14:+JOINT">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-13:FORMAL&3a;eval" out="14:+JOINT">È</W>
 <W lemma="ciò" msd="PD" tag="PRO&3a;demo" in="" out="">ciò</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -60,7 +60,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="cinema" msd="NC" tag="NOM" in="" out="">cinema</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="lamentare" msd="VADR" tag="VER&3a;pres" in="-16:CONST&3a;exem" out="19:CONJ/(e)">lamentano</W>
+<W lemma="lamentare" msd="VADR" tag="VER&3a;pres" in="-16:CONST&3a;exem" out="19:CONJ&3a;add/(e)">lamentano</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="quantità" msd="NC" tag="NOM" in="" out="">quantità</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -79,7 +79,7 @@
 <W lemma="così" msd="CS" tag="CON" in="" out="">Così</W>
 <W lemma="come" msd="PT" tag="PRO&3a;inter" in="" out="">come</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="amare" msd="VADR" tag="VER&3a;cpre" in="-19:CONJ/(e)" out="23:TELIC&3a;sbj/per_questo">amiamo</W>
+<W lemma="amare" msd="VADR" tag="VER&3a;cpre" in="-19:CONJ&3a;add/(e)" out="23:TELIC&3a;cons.sbj/per_questo">amiamo</W>
 <W lemma="acquistare" msd="VAF" tag="VER&3a;infi" in="" out="">acquistare</W>
 <W lemma="librare" msd="VAM" tag="VER&3a;impe" in="" out="">libri</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
@@ -102,7 +102,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:TELIC&3a;sbj/per_questo" out="47:+CONST&3a;elab">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-23:TELIC&3a;cons.sbj/per_questo" out="47:+CONJ&3a;elab">È</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -149,7 +149,7 @@
 <W lemma="scena" msd="NC" tag="NOM" in="" out="">scena</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="reale" msd="NC" tag="NOM" in="" out="">Reale</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-47:+CONST&3a;elab" out="20:+CONST&3a;elab">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-47:+CONJ&3a;elab" out="20:+CONJ&3a;elab">ha</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="certo" msd="AN" tag="ADJ" in="" out="">certo</W>
 <W lemma="valore" msd="NC" tag="NOM" in="" out="">valore</W>
@@ -169,7 +169,7 @@
 <p>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Questo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:+CONST&3a;elab" out="11:CONST&3a;apart|35:+AGENTIVE&3a;reas&7c;expl">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-20:+CONJ&3a;elab" out="11:CONST&3a;apart|35:+AGENTIVE&3a;cause&7c;expl">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
 <W lemma="faccia" msd="NC" tag="NOM" in="" out="">faccia</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
@@ -204,7 +204,7 @@
 </p>
 <p>
 <s>
-<W lemma="suonare" msd="VADR" tag="VER&3a;pres" in="-35:+AGENTIVE&3a;reas&7c;expl" out="21:CONTR&3a;sbj/ma">Suona</W>
+<W lemma="suonare" msd="VADR" tag="VER&3a;pres" in="-35:+AGENTIVE&3a;cause&7c;expl" out="21:CONTR&3a;sbj/ma">Suona</W>
 <W lemma="stonare" msd="VAP" tag="VER&3a;pper" in="" out="">stonato</W>
 <W lemma="quando" msd="PT" tag="PRO&3a;inter" in="" out="">quando</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="" out="">noi</W>

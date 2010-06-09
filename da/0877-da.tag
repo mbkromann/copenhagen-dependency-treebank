@@ -92,8 +92,8 @@
 <W gloss="various" lemma="forskellig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">forskellige</W>
 <W gloss="abilities" lemma="evne" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">evner</W>
 <W gloss="are_considered" lemma="tilgodese" msd="VADR=----P-" tag="VBD" in="" out="-3:subj|2:man|3:loc|7:pnct">tilgodeses</W>
-<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:degr" out="">ganske</W>
-<W gloss="excellent" lemma="glimrende" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:degr">glimrende</W>
+<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:quant" out="">ganske</W>
+<W gloss="excellent" lemma="glimrende" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:quant">glimrende</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">danske</W>

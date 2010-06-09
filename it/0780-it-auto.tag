@@ -9,7 +9,7 @@
 <W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
 <W lemma="trattare" msd="VADR" tag="VER:pres" in="" out="">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="poco" msd="RG" tag="ADV" in="" out="">poco</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>

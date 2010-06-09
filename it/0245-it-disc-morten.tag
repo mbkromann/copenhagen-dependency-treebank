@@ -6,7 +6,7 @@
 <W lemma="esistenza" msd="NC" tag="NOM" in="" out="">esistenza</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="neutrone" msd="NC" tag="NOM" in="" out="">neutrone</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="29:+CONST&3a;elab">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="29:+CONJ&3a;elab">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="dimostrare" msd="VAP" tag="VER&3a;pper" in="" out="">dimostrata</W>
 <W lemma="!" msd="XP" tag="SENT" in="" out="">!</W>
@@ -35,7 +35,7 @@
 <W lemma="neutrone" msd="NC" tag="NOM" in="" out="">neutrone</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="nessuno" msd="AN" tag="ADJ" in="" out="">nessuno</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-29:+CONST&3a;elab" out="-21:+SCENE|21:+TELIC&3a;dir/(perciò)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-29:+CONJ&3a;elab" out="-21:+SCENE|21:+TELIC&3a;cons.dir/(perciò)">ha</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="dubitare" msd="VAP" tag="VER&3a;pper" in="" out="">dubitato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -56,7 +56,7 @@
 <p>
 <s>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">Si</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-21:+TELIC&3a;dir/(perciò)" out="33:+CONST&3a;elab">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-21:+TELIC&3a;cons.dir/(perciò)" out="33:+CONJ&3a;elab">è</W>
 <W lemma="iniziare" msd="VAP" tag="VER&3a;pper" in="" out="">iniziato</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="studiare" msd="VAF" tag="VER&3a;infi" in="" out="">studiare</W>
@@ -89,7 +89,7 @@
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">queste</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="" out="">domande</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-33:+CONST&3a;elab" out="11:CONTR&3a;dir/ma">abbiamo</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-33:+CONJ&3a;elab" out="11:CONTR&3a;dir/ma">abbiamo</W>
 <W lemma="ancora" msd="RG" tag="ADV" in="" out="">ancora</W>
 <W lemma="potere" msd="VAP" tag="VER&3a;pper" in="" out="">potuto</W>
 <W lemma="dare" msd="VAF" tag="VER&3a;infi" in="" out="">dare</W>
@@ -100,7 +100,7 @@
 </s>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-11:CONTR&3a;dir/ma" out="30:+CONJ/(e)">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-11:CONTR&3a;dir/ma" out="30:+CONJ&3a;add/(e)">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stati</W>
 <W lemma="realizzare" msd="VAP" tag="VER&3a;pper" in="" out="">realizzati</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">diversi</W>
@@ -130,7 +130,7 @@
 </p>
 <p>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-30:+CONJ/(e)" out="42:+TELIC&3a;dir">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-30:+CONJ&3a;add/(e)" out="42:+TELIC&3a;cons.dir">Sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">state</W>
 <W lemma="stanziare" msd="VAP" tag="VER&3a;pper" in="" out="">stanziate</W>
 <W lemma="ingente" msd="AN" tag="ADJ" in="" out="">ingenti</W>
@@ -172,13 +172,13 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">In</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questo</W>
 <W lemma="modo" msd="NC" tag="NOM" in="" out="">modo</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-42:+TELIC&3a;dir" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-42:+TELIC&3a;cons.dir" out="">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="possibile" msd="AN" tag="ADJ" in="" out="">possibile</W>
 <W lemma="scoprire" msd="VAF" tag="VER&3a;infi" in="" out="">scoprire</W>
 <W lemma="moltissimo" msd="AN" tag="ADJ" in="" out="">moltissime</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="" out="">nuove</W>
-<W lemma="particella" msd="NC" tag="NOM" in="" out="14:CONST&3a;elab">particelle</W>
+<W lemma="particella" msd="NC" tag="NOM" in="" out="14:CONJ&3a;elab">particelle</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="tuttavia" msd="RG" tag="ADV" in="" out="">tuttavia</W>
@@ -192,7 +192,7 @@
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Queste</W>
 <W lemma="particella" msd="NC" tag="NOM" in="" out="">particelle</W>
-<W lemma="svolgere" msd="VADR" tag="VER&3a;pres" in="-14:CONST&3a;elab" out="">svolgono</W>
+<W lemma="svolgere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ&3a;elab" out="">svolgono</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="ruolo" msd="NC" tag="NOM" in="" out="">ruolo</W>
 <W lemma="decisivo" msd="AN" tag="ADJ" in="" out="">decisivo</W>

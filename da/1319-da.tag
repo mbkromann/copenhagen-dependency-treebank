@@ -98,8 +98,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="diligent" lemma="flittig" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="">flittig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="skilful" lemma="dygtig" msd="ANPCSU=IU" tag="JJ" in="-5:conj" out="-2:coord|-1:degr">dygtig</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="skilful" lemma="dygtig" msd="ANPCSU=IU" tag="JJ" in="-5:conj" out="-2:coord|-1:quant">dygtig</W>
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-8:nobj" out="">pige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -140,8 +140,8 @@
 <W gloss="allowed" lemma="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-1:dobj" out="1:pobj">lov</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="complete" lemma="gennemføre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|1:reas">gennemføre</W>
-<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-1:reas" out="1:nobj">på_grund_af</W>
+<W gloss="complete" lemma="gennemføre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|1:cause">gennemføre</W>
+<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-1:cause" out="1:nobj">på_grund_af</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="bestial" lemma="bestialsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">bestialske</W>
 <W gloss="crime" lemma="forbrydelse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">forbrydelse</W>
@@ -190,8 +190,8 @@
 <W gloss="Betina" lemma="Betina" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Betina</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:attr|5:nobj">en</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="diligent" lemma="flittig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr|2:conj">flittig</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="diligent" lemma="flittig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant|2:conj">flittig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="skilful" lemma="dygtig" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">dygtig</W>
 <W gloss="student" lemma="studerende" msd="NCCSU==I" tag="NN" in="-5:nobj" out="">studerende</W>

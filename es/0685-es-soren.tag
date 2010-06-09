@@ -54,8 +54,8 @@
 <W lemma="poder" msd="VAD" tag="VMfin" in="43:dobj/qobj??" out="-3:subj|-1:neg|1:vobj|14:pnct">puede</W>
 <W lemma="aclarar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-4:[subj]|1:dobj|16:vobj">aclarar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="2:nobj">el</W>
-<W lemma="enorme" msd="AN" tag="ADJ" in="1:degr" out="">enorme</W>
-<W lemma="aumento" msd="NC" tag="NC" in="-2:nobj" out="-1:degr|1:other">aumento</W>
+<W lemma="enorme" msd="AN" tag="ADJ" in="1:quant" out="">enorme</W>
+<W lemma="aumento" msd="NC" tag="NC" in="-2:nobj" out="-1:quant|1:other">aumento</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:other" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cantidad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">cantidad</W>
@@ -67,8 +67,8 @@
 <W lemma="drogar" msd="VAD" tag="VLfin" in="-1:nobj" out="">drogas</W>
 <W lemma="," msd="XP" tag="CM" in="-14:pnct" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="2:coord" out="">pero</W>
-<W lemma="en~cambio" msd="RG" tag="ADV" in="1:struct" out="">en cambio</W>
-<W lemma="afirmar" msd="VAD" tag="VLfin" in="-16:vobj" out="-2:coord|-1:struct|1:dobj">afirma</W>
+<W lemma="en~cambio" msd="RG" tag="ADV" in="1:scene" out="">en cambio</W>
+<W lemma="afirmar" msd="VAD" tag="VLfin" in="-16:vobj" out="-2:coord|-1:scene|1:dobj">afirma</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="-2:vobj" out="-1:neg|1:neg|2:dobj">hay</W>
@@ -143,13 +143,13 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="este" msd="" tag="DM" in="-1:nobj" out="1:nobj">este</W>
 <W lemma="modo" msd="NC" tag="NC" in="-1:nobj" out="">modo</W>
-<W lemma="alrededor" msd="SP" tag="SCENE" in="3:degr" out="">alrededor</W>
+<W lemma="alrededor" msd="SP" tag="SCENE" in="3:quant" out="">alrededor</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="1:numm" out="">800.000</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-7:dobj" out="-3:degr|-1:numm">coronas.</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-7:dobj" out="-3:quant|-1:numm">coronas.</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">awb</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:degr" out="">Más</W>
-<W lemma="hospital" msd="NC" tag="NC" in="" out="-1:degr|1:space|6:pnct">hospitales</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:quant" out="">Más</W>
+<W lemma="hospital" msd="NC" tag="NC" in="" out="-1:quant|1:space|6:pnct">hospitales</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:space" out="1:nobj">a</W>
 <W lemma="Europa" msd="NP" tag="NP" in="-1:nobj" out="1:space">Europa</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:space" out="1:nobj">del</W>
@@ -174,8 +174,8 @@
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="ahora" msd="RG" tag="ADV" in="1:time" out="">ahora</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="-12:conj" out="-2:coord|-1:time|1:dobj|5:pnct">hay</W>
-<W lemma="dos" msd="AC" tag="CARD" in="-1:dobj" out="1:degr|2:dir">dos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:degr" out="">más</W>
+<W lemma="dos" msd="AC" tag="CARD" in="-1:dobj" out="1:quant|2:dir">dos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:quant" out="">más</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:dir" out="1:nobj">en</W>
 <W lemma="camino" msd="NC" tag="NC" in="-1:nobj" out="">camino</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
@@ -197,13 +197,13 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="Croacia" msd="NP" tag="NP" in="-1:nobj" out="">Croacia</W>
 <W lemma="," msd="XP" tag="CM" in="-13:pnct" out="">,</W>
-<W lemma="mientras~que" msd="CS" tag="CSUBX" in="6:struct" out="">mientras que</W>
+<W lemma="mientras~que" msd="CS" tag="CSUBX" in="6:scene" out="">mientras que</W>
 <W lemma="otro" msd="AN" tag="QU" in="5:subj" out="1:nobj">otro</W>
 <W lemma="hospital" msd="NC" tag="NC" in="-1:nobj" out="1:attr">hospital</W>
 <W lemma="similar" msd="AN" tag="ADJ" in="-1:attr" out="">similar</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">Give</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-19:vobj" out="-6:struct|-5:subj|1:dir">partirá</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-19:vobj" out="-6:scene|-5:subj|1:dir">partirá</W>
 <W lemma="hacia" msd="SP" tag="SCENE" in="-1:dir" out="1:nobj">hacia</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">Polonia.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">hel</W>

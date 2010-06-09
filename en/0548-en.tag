@@ -85,9 +85,9 @@
 <W msd="VADR" tag="VBP" in="" out="-10:mod|-3:subj|1:tobj">happen</W>
 <W msd="ANP" tag="RB" in="-1:tobj" out="1:pnct|4:xpl">quickly</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
-<W msd="AC" tag="CD" in="-4:xpl" out="-1:mod|-2:degr|1:nobj|2:pnct">10,000</W>
+<W msd="AC" tag="CD" in="-4:xpl" out="-1:mod|-2:quant|1:nobj|2:pnct">10,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="." in="-2:pnct" out="">!</W>
 </s>
@@ -120,8 +120,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[pred]|-3:[subj]|1:prec">been</W>
-<W msd="ANP" tag="RB" in="-1:prec" out="">before</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[pred]|-3:[subj]|1:time">been</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">before</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -143,8 +143,8 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">never</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[dobj]|-3:[subj]|1:prec">seen</W>
-<W msd="ANP" tag="RB" in="-1:prec" out="">before</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[dobj]|-3:[subj]|1:time">seen</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">before</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>

@@ -19,8 +19,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="2:attr|3:nobj">The</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">thing</W>
 <W msd="VA" tag="MD" in="" out="-4:subj|1:vobj|8:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:preds">be</W>
@@ -84,10 +84,10 @@
 <W msd="XP" tag="." in="-47:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-3:reas|1:vobj|10:pnct">should</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-3:cause|1:vobj|10:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>

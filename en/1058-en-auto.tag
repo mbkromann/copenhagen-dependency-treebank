@@ -33,8 +33,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-4:conj" out="-1:subj|-3:mod|3:preds|4:mod|13:coord">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">little</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">little</W>
 <W msd="NC=S" tag="NN" in="-3:preds" out="-1:attr">comfort</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">for</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:ref">the</W>
@@ -137,8 +137,8 @@
 <s>
 <W msd="CS" tag="IN" in="" out="">If</W>
 <W msd="NC=S" tag="NN" in="2:subj" out="">society</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADR" tag="VBZ" in="12:mod" out="-2:subj|-1:degr|3:mod|6:pnct">gains</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADR" tag="VBZ" in="12:mod" out="-2:subj|-1:quant|3:mod|6:pnct">gains</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="ANP" tag="JJ" in="" out="">little</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">with</W>

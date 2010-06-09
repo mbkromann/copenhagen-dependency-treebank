@@ -87,8 +87,8 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:pnct|1:pnct">Hamlet</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W msd="VA" tag="MD" in="-21:conj" out="-6:subj|-7:coord|2:vobj|1:degr">can</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">almost</W>
+<W msd="VA" tag="MD" in="-21:conj" out="-6:subj|-7:coord|2:vobj|1:quant">can</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-8:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">viewed</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:preds">as</W>

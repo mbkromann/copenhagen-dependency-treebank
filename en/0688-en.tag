@@ -50,8 +50,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="4:mod|10:pobj|14:pobj">negotiations</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|6:pnct">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:ext">begin</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:time">begin</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">another</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">front</W>
@@ -75,12 +75,12 @@
 </s>
 <s>
 <W msd="ANP" tag="RB" in="1:tobj" out="">Just</W>
-<W msd="CS" tag="IN" in="5:prec" out="-1:tobj|1:nobj|2:pnct">before</W>
+<W msd="CS" tag="IN" in="5:time" out="-1:tobj|1:nobj|2:pnct">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Christmas</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="2:subj|3:[subj]" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="4:pobj|8:pobj">agreement</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|-5:prec|1:vobj|12:pnct|15:conj|28:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|-5:time|1:vobj|12:pnct|15:conj|28:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">entered</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">into</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">between</W>
@@ -176,9 +176,9 @@
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:dobj">reach</W>
-<W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:prec">a</W>
+<W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:time">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">conclusion</W>
-<W msd="CS" tag="IN" in="-2:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="1:nobj">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Christmas</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>

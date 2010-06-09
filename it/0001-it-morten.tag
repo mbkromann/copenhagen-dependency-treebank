@@ -129,7 +129,7 @@
 <W lemma="congresso" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Congresso</W>
 <W lemma="popolare" msd="AN" tag="ADJ" in="-1:attr" out="">popolare</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="a" msd="SP" tag="PRE" in="8:bg" out="1:nobj|2:nobj|6:pnct">A</W>
+<W lemma="a" msd="SP" tag="PRE" in="8:scene" out="1:nobj|2:nobj|6:pnct">A</W>
 <W lemma="parte" msd="NC" tag="NOM" in="-1:nobj" out="">parte</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="-2:nobj" out="1:nobj">un'</W>
 <W lemma="illusione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">illusione</W>
@@ -137,7 +137,7 @@
 <W lemma="democrazia" msd="NC" tag="NOM" in="-1:nobj" out="">democrazia</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-8:bg|-1:neg|1:preds|8:pnct">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-8:scene|-1:neg|1:preds|8:pnct">era</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:preds" out="1:nobj">in</W>
 <W lemma="grado" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">grado</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:¹vobj">di</W>
@@ -186,8 +186,8 @@
 <W lemma="," msd="XP" tag="PON" in="-8:pnct" out="">,</W>
 <W lemma="cosa" msd="NC" tag="NOM" in="-16:appa" out="1:ref|2:relr|9:ref|10:relr">cosa</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|1:dobj" out="8:conj">che</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-2:relr|2:[subj]|3:[subj]" out="-1:dobj|1:degr|2:vobj">abbiamo</W>
-<W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:degr" out="">tutti</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-2:relr|2:[subj]|3:[subj]" out="-1:dobj|1:quant|2:vobj">abbiamo</W>
+<W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:quant" out="">tutti</W>
 <W lemma="potere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-2:[subj]|1:vobj">potuto</W>
 <W lemma="vedere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]">vedere</W>
 <W lemma="e" msd="CS" tag="CON" in="3:coord" out="">e</W>

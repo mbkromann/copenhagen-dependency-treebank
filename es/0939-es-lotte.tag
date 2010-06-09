@@ -39,8 +39,8 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Hamid</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="-1:namef">Jafar</W>
 <W lemma="estar" msd="VAD" tag="VLfin" in="" out="-1:subj|2:preds|13:pnct">estaba</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="ansioso" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">ansioso</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="ansioso" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">ansioso</W>
 <W lemma="por" msd="SP" tag="SCENE" in="" out="">por</W>
 <W lemma="mostrar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:dobj|5:iobj">mostrar</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="">su</W>
@@ -52,12 +52,12 @@
 <W lemma="socio" msd="NC" tag="NC" in="" out="">socios</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">iraquíes</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
-<W lemma="poco" msd="RG" tag="ADV" in="1:degr" out="">Poco</W>
-<W lemma="antes" msd="RG" tag="ADV" in="4:prec" out="-1:degr">antes</W>
+<W lemma="poco" msd="RG" tag="ADV" in="1:quant" out="">Poco</W>
+<W lemma="antes" msd="RG" tag="ADV" in="4:time" out="-1:quant">antes</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">invasión</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:prec|1:dobj">encargó</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:time|1:dobj">encargó</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="pistola" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">pistola</W>
 <W lemma="suizo" msd="AN" tag="ADJ" in="-1:attr" out="">suiza</W>

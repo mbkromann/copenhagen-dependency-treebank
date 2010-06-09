@@ -72,8 +72,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|1:subj|2:preds|21:pnct">er</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:preds|21:pnct">er</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="tired" lemma="træt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="1:pobj">trætte</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -168,9 +168,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="For" lemma="for" msd="SP" tag="IN" in="2:ben" out="1:nobj">For</W>
+<W gloss="For" lemma="for" msd="SP" tag="IN" in="2:goal" out="1:nobj">For</W>
 <W gloss="immigrants" lemma="indvandrer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">indvandrere</W>
-<W gloss="are" lemma="dreje" msd="VADR=----A-" tag="VBD" in="" out="-2:ben|1:subj|2:dobj|3:pobj|6:pnct|7:&lt;mod&gt;|11:&lt;pobj&gt;|14:pnct">drejer</W>
+<W gloss="are" lemma="dreje" msd="VADR=----A-" tag="VBD" in="" out="-2:goal|1:subj|2:dobj|3:pobj|6:pnct|7:&lt;mod&gt;|11:&lt;pobj&gt;|14:pnct">drejer</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-2:dobj" out="">sig</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">om</W>
@@ -214,13 +214,13 @@
 <W gloss="the_second" lemma="anden" msd="AO---U=--" tag="JJ" in="1:attr" out="">anden</W>
 <W gloss="generation" lemma="generation" msd="NCCSG==I" tag="NN" in="1:nobj" out="-1:attr">generations</W>
 <W gloss="immigrants" lemma="indvandrer" msd="NCCPU==D" tag="NNP" in="-3:nobj" out="-1:nobj">indvandrerne</W>
-<W gloss="continue" lemma="fortsætte" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:loc|3:pnct|4:struct|13:pnct">fortsætter</W>
+<W gloss="continue" lemma="fortsætte" msd="VADR=----A-" tag="VBD" in="" out="-11:subj|1:loc|3:pnct|4:scene|13:pnct">fortsætter</W>
 <W gloss="on_to" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_upper_secondary_level" lemma="gymnasium" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">gymnasiet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-4:struct" out="6:vobj">mens</W>
-<W gloss="respectively" lemma="henholdsvis" msd="RGU" tag="RP" in="1:struct" out="">hhv.</W>
-<W gloss="13" lemma="13" msd="AC---U=--" tag="CD" in="4:subj" out="-1:struct|2:conj|3:nobj">13</W>
+<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-4:scene" out="6:vobj">mens</W>
+<W gloss="respectively" lemma="henholdsvis" msd="RGU" tag="RP" in="1:scene" out="">hhv.</W>
+<W gloss="13" lemma="13" msd="AC---U=--" tag="CD" in="4:subj" out="-1:scene|2:conj|3:nobj">13</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="22" lemma="22" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">22</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-3:nobj|-1:[nobj]" out="">pct.</W>

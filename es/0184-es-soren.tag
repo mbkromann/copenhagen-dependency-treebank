@@ -8,7 +8,7 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-4:conj" out="-1:coord|1:nobj">en</W>
 <W lemma="plato" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:attr">platos</W>
-<W lemma="preparar" morph="preparar +ado/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">preparados</W>
+<W lemma="preparar" morph="preparar +ado/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-1:attr" out="">preparados</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="se" msd="PC" tag="SE" in="1:dobj" out="">se</W>
 <W lemma="usar" morph="usar" msd="VAD" tag="VLfin" in="-10:conj" out="-2:coord|-1:dobj|1:accom|9:pnct">usan</W>
@@ -19,7 +19,7 @@
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="carne" morph="" msd="NC" tag="NC" in="-4:conj" out="">carne</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="verdura" morph="verde +ura/QUAL" msd="NC" tag="NC" in="-6:conj" out="-1:coord">verduras</W>
+<W lemma="verdura" morph="verde +ura/DERan&3a;qual" msd="NC" tag="NC" in="-6:conj" out="-1:coord">verduras</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
 <W lemma="desde" msd="SP" tag="SCENE" in="8:time" out="1:nobj#|2:vobj">Desde</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj#" out="">que</W>
@@ -30,10 +30,10 @@
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresca</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
 <W lemma="haber" morph="haber" msd="VAD" tag="VLfin" in="" out="-1:pnct|-8:time|1:vobj|6:pnct">hemos</W>
-<W _noerror="&3a;nosubj&3a;" lemma="duplicar" morph="duplicar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj|3:hab">duplicado</W>
+<W _noerror="&3a;nosubj&3a;" lemma="duplicar" morph="duplicar" msd="VAF" tag="VLadj" in="-1:vobj" out="1:dobj|3:iter">duplicado</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
-<W lemma="venta" morph="vender +ta/PRED&3a;result" msd="NC" tag="NC" in="-1:nobj" out="">venta</W>
-<W lemma="cada" msd="AN" tag="QU" in="-3:hab" out="1:nobj">cada</W>
+<W lemma="venta" morph="vender +ta/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="">venta</W>
+<W lemma="cada" msd="AN" tag="QU" in="-3:iter" out="1:nobj">cada</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:nobj" out="">año</W>
 <W lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
 <W lemma="esto" msd="" tag="DM" in="2:time" out="1:nobj">Este</W>
@@ -42,7 +42,7 @@
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:vobj">con</W>
 <W _noerror="&3a;nosubj&3a;" lemma="vender" morph="" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">vender</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:dobj" out="1:nobj|3:ref|5:relelab">700</W>
-<W lemma="tonelada" morph="tonel +ada/NOPRED&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">toneladas</W>
+<W lemma="tonelada" morph="tonel +ada/DERnn&3a;other" msd="NC" tag="NC" in="-1:nobj" out="">toneladas</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="3:pnct" out="">–</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:ref|2:subj" out="1:nobj#">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj#" out="">que</W>
@@ -57,11 +57,11 @@
 <W lemma="el" msd="PD" tag="ART" in="5:title" out="1:nobj">el</W>
 <W lemma="jefe" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">jefe</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" morph="producir +ción/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">producción</W>
+<W lemma="&lt;unknown&gt;" morph="producir +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">producción</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-6:subj" out="-1:namef|-5:title|1:pnct|2:attr|2:{origin}">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-6:subj" out="-1:namef|-5:title|1:pnct|2:attr|2:{source}">Bred</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:attr|-2:{origin}" out="1:nobj">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:attr|-2:{source}" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Cheese</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:subj" out="1:nobj">Tholstrup</W>
@@ -69,8 +69,8 @@
 <W lemma="ser" morph="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|8:pnct|10:conj|36:pnct">es</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:attr" out="">único</W>
-<W lemma="productor" morph=" producir +tor/PRED&3a;agent" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:attr|2:pobj.dobj|2:{patient}#">productor</W>
-<W lemma="&lt;unknown&gt;" morph="Dinamarca +Ø/DENOM&3a;rel.deono.place" msd="NC" tag="NC" in="-1:attr" out="">danés</W>
+<W lemma="productor" morph=" producir +tor/DERvn&3a;agent" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:attr|2:pobj.dobj|2:{patient}#">productor</W>
+<W lemma="&lt;unknown&gt;" morph="Dinamarca +Ø/DERna&3a;rel.deono.loc" msd="NC" tag="NC" in="-1:attr" out="">danés</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-2:pobj.dobj|-2:{patient}#" out="1:nobj">de</W>
 <W lemma="pasta" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:attr">pasta</W>
 <W lemma="fresco" msd="AN" tag="ADJ" in="-1:attr" out="">fresca</W>
@@ -83,14 +83,14 @@
 <W lemma="sector" morph="sector" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">sector</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="producto" morph="producir +to/PRED&3a;result" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}#">productos</W>
+<W lemma="producto" morph="producir +to/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}#">productos</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr|-1:{const}#" out="">lácteos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-8:pobj|-8:{arg}" out="1:nobj#|3:vobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj#" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="1:add" out="">también</W>
 <W _noerror="&3a;nosubj&3a;" lemma="haber" morph="haber" msd="VAD" tag="VHfin" in="-3:vobj" out="-1:add|1:dobj">hay</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj|7:[subj]" out="1:nobj">un</W>
-<W lemma="productor" morph=" producir +tor/PRED&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|3:ref|4:relr">productor</W>
+<W lemma="productor" morph=" producir +tor/DERvn&3a;agent" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}#|3:ref|4:relr">productor</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="pan" morph="" msd="NC" tag="NC" in="-1:nobj" out="">pan</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|1:subj" out="">que</W>
@@ -98,7 +98,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj#" out="1:vobj">a</W>
 <W lemma="comenzar" morph="" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-7:[subj]|1:dobj|3:time">comenzar</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" morph="producir +ción/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">producción</W>
+<W lemma="&lt;unknown&gt;" morph="producir +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="">producción</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-3:time" out="2:nobj">en</W>
 <W lemma="pocos" msd="AN" tag="QU" in="1:attr" out="">poco</W>
 <W lemma="tiempo" morph="" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">tiempo</W>
@@ -106,8 +106,8 @@
 <W lemma="a" msd="SP" tag="SCENE" in="7:inst" out="1:nobj">A</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj" out="1:pobj#">través</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj#" out="1:nobj">de</W>
-<W lemma="tendencia" morph="tender +encia/PRED&3a;result" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{pos}">tendencias</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{pos}" out="1:nobj">en</W>
+<W lemma="tendencia" morph="tender +encia/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{loc}">tendencias</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{loc}" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="extranjero" morph="" msd="NC" tag="NC" in="-1:nobj" out="">extranjero</W>
 <W lemma="podar&7c;poder" morph="poder" msd="VAD" tag="VLfin" in="9:qobj" out="-7:inst|1:vobj|8:pnct">podemos</W>
@@ -124,7 +124,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef|2:ref|3:relpa">Bred</W>
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="quien" msd="PT" tag="REL" in="-2:ref|1:subj|7:[subj]|8:[subj]" out="">quien</W>
-<W lemma="&lt;unknown&gt;" morph="regreso +ar/DER&3a;nv" msd="NC" tag="NC" in="-3:relpa" out="-1:subj|1:@loc|3:time|4:time">regresó</W>
+<W lemma="&lt;unknown&gt;" morph="regreso +ar/DERnv" msd="NC" tag="NC" in="-3:relpa" out="-1:subj|1:@loc|3:time|4:time">regresó</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:@loc" out="1:nobj">a</W>
 <W lemma="casa" morph="" msd="NC" tag="NC" in="-1:nobj" out="">casa</W>
 <W lemma="ayer" msd="RG" tag="ADV" in="-3:time" out="">ayer</W>
@@ -135,17 +135,17 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|9:pnct|10:appa">la</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">mayor</W>
-<W lemma="feria" morph="" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}#|4:attr|4:{pos}">feria</W>
+<W lemma="feria" morph="" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}#|4:attr|4:{loc}">feria</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
-<W lemma="producto" morph="producir +to/PRED&3a;result" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{func}#">productos</W>
+<W lemma="producto" morph="producir +to/DERvn&3a;patient" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{func}#">productos</W>
 <W lemma="alimenticio" msd="AN" tag="ADJ" in="-1:attr|-1:{func}#" out="">alimenticios</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-4:attr|-4:{pos}" out="1:nobj">en</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-4:attr|-4:{loc}" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="mundo" morph="" msd="NC" tag="NC" in="-1:nobj" out="">mundo</W>
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="-10:appa" out="1:nobj">la</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:attr|1:{pos}">NUGA</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{pos}" out="1:nobj">en</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:attr|1:{loc}">NUGA</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:attr|-1:{loc}" out="1:nobj">en</W>
 <W lemma="Alemania" msd="NP" tag="NP" in="-1:nobj" out="">Alemania</W>
 <W lemma="." msd="XP" tag="FS" in="-28:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="">Exportación</W>
@@ -158,17 +158,17 @@
 <W lemma="parte" morph="" msd="NC" tag="NC" in="-2:nobj|1:{apart}" out="-1:attr|1:pobj">parte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="-1:{apart}|1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
-<W lemma="negocio" morph="negociar +o/PRED&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">negocios</W>
+<W lemma="negocio" morph="negociar +o/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">negocios</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}#" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Cheese</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:degr" out="">Sólo</W>
-<W lemma="@card@" msd="XS" tag="CODE" in="1:{apart}|9:subj" out="-1:degr|1:pobj">30</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="1:quant" out="">Sólo</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="1:{apart}|9:subj" out="-1:quant|1:pobj">30</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="-1:{apart}|1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">500</W>
-<W lemma="empleado" morph="emplear +ado/PRED&3a;recip" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}">empleados</W>
+<W lemma="empleado" morph="emplear +ado/DERvn&3a;recip" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{const}">empleados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{const}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="empresa" morph="" msd="NC" tag="NC" in="-1:nobj" out="">empresa</W>
@@ -176,7 +176,7 @@
 <W lemma="ocupar" morph="ocupar" msd="VAD" tag="VLfin" in="" out="-1:robj|-9:subj|1:pobj|5:pnct">ocupan</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="tirar" morph="tirar +Ø/PRED&3a;result" msd="VAD" tag="VLfin" in="-1:nobj" out="1:attr">tiras</W>
+<W lemma="tirar" morph="tirar +Ø/DERvn&3a;patient" msd="VAD" tag="VLfin" in="-1:nobj" out="1:attr">tiras</W>
 <W lemma="blando" msd="AN" tag="ADJ" in="-1:attr" out="">blandas</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
 <W lemma="de" msd="SP" tag="SCENE" in="7:prg" out="1:nobj|3:pnct">De</W>
@@ -204,8 +204,8 @@
 <W lemma="&lt;unknown&gt;" morph="ser" msd="VAD" tag="VLfin" in="-4:vobj" out="-1:subj|1:preds">será</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="2:nobj">una</W>
 <W lemma="bueno" msd="AN" tag="ADJ" in="1:attr" out="">buena</W>
-<W lemma="receptor" morph="recibir +Ø/PRED&3a;recip" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">receptora</W>
+<W lemma="receptor" morph="recibir +Ø/DERvn&3a;recip" msd="AN" tag="ADJ" in="-2:nobj" out="-1:attr|1:pobj.dobj|1:{patient}">receptora</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj|1:{agent}" out="1:possd">sus</W>
-<W lemma="producto" morph="producir +to/PRED&3a;result" msd="NC" tag="NC" in="-1:possd" out="-1:{agent}">productos</W>
+<W lemma="producto" morph="producir +to/DERvn&3a;patient" msd="NC" tag="NC" in="-1:possd" out="-1:{agent}">productos</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>

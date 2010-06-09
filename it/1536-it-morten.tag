@@ -9,8 +9,8 @@
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="1:expl" out="">ci</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj|1:[subj]" out="-1:expl|1:vobj">siano</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|2:preds">stati</W>
-<W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:degr" out="">molti</W>
-<W lemma="morte&7c;morto" msd="NC" tag="NOM" in="-2:preds" out="-1:degr">morti</W>
+<W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:quant" out="">molti</W>
+<W lemma="morte&7c;morto" msd="NC" tag="NOM" in="-2:preds" out="-1:quant">morti</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-11:pnct" out="">"</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="1:[subj]" out="-12:qobj|1:vobj|2:subj|8:pnct">ha</W>
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]">detto</W>
@@ -35,8 +35,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">18.45</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="poco" msd="RG" tag="ADV" in="1:degr" out="">poco</W>
-<W lemma="dopo" msd="SP" tag="PRE" in="-13:time" out="-1:degr|1:nobj">dopo</W>
+<W lemma="poco" msd="RG" tag="ADV" in="1:quant" out="">poco</W>
+<W lemma="dopo" msd="SP" tag="PRE" in="-13:time" out="-1:quant|1:nobj">dopo</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">il</W>
 <W lemma="decollo" msd="NC" tag="NOM" in="-1:nobj" out="1:dir|5:attr">decollo</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:dir" out="1:nobj|24:assoc-formal.loc">dall'</W>
@@ -126,9 +126,9 @@
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="4:neg">non</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-8:conj|2:[subj]" out="-1:neg|2:vobj|8:conj">ho</W>
-<W lemma="più" msd="RG" tag="ADV" in="2:degr" out="">più</W>
+<W lemma="più" msd="RG" tag="ADV" in="2:quant" out="">più</W>
 <W lemma="vedere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-2:[subj]">visto</W>
-<W lemma="niente" msd="RG" tag="ADV" in="-4:neg" out="-2:degr">niente</W>
+<W lemma="niente" msd="RG" tag="ADV" in="-4:neg" out="-2:quant">niente</W>
 <W lemma="ma" msd="CS" tag="CON" in="4:coord" out="">ma</W>
 <W lemma="poi" msd="RG" tag="ADV" in="3:time" out="1:prg">poi</W>
 <W lemma="improvvisamente" msd="RG" tag="ADV" in="-1:prg" out="">improvvisamente</W>

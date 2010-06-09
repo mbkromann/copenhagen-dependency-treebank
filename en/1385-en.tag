@@ -3,8 +3,8 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">Things</W>
 <W msd="VADA" tag="VBD" in="-3:list" out="-1:subj|2:aobj|3:mod|5:mod">went</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="RB" in="-2:aobj" out="-1:degr">amok</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="RB" in="-2:aobj" out="-1:quant">amok</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">OB</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">in</W>
@@ -31,8 +31,8 @@
 <W msd="CC" tag="CC" in="1:mod" out="">Nor</W>
 <W msd="VA" tag="MD" in="" out="-1:mod|1:subj|5:vobj|7:pnct">could</W>
 <W msd="PD" tag="DT" in="-1:subj|4:[subj]" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">rabid</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">rabid</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">fans</W>
 <W msd="VADR" tag="VBP" in="-5:vobj" out="-4:[subj]|1:dobj">control</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
@@ -78,9 +78,9 @@
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
 <W msd="AC" tag="CD" in="2:subj" out="-1:mod|1:nobj">30</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">fanatics</W>
-<W msd="VADA" tag="VBD" in="" out="-9:qobj|-2:subj|1:pnct|2:cont|14:pnct">screamed</W>
+<W msd="VADA" tag="VBD" in="" out="-9:qobj|-2:subj|1:pnct|2:time|14:pnct">screamed</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-2:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-2:time" out="3:vobj">while</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">attendants</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj|3:mod">formed</W>
@@ -155,8 +155,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:degr|2:pobj|16:time|27:pnct">looked</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="5:pobj">more</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:quant|2:pobj|16:time|27:pnct">looked</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="5:pobj">more</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">accidental</W>
@@ -238,7 +238,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:avobj|5:mod|12:prec|14:pnct">kicked</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|4:avobj|5:mod|12:time|14:pnct">kicked</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="2:possd">B1909's</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Ole</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:namef">Juel</W>
@@ -250,7 +250,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">revenge</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">20</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">minutes</W>
-<W msd="CS" tag="IN" in="-12:prec" out="-2:tobj|1:nobj">before</W>
+<W msd="CS" tag="IN" in="-12:time" out="-2:tobj|1:nobj">before</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">time</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

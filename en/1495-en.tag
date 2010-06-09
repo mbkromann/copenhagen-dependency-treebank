@@ -124,13 +124,13 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">banks</W>
 <W msd="VA" tag="MD" in="" out="-8:subj|-15:mod|1:vobj|27:pnct">will</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-9:[subj]|1:pobj|5:pnct|6:cont">border</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-9:[subj]|1:pobj|5:pnct|6:time">border</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">20</W>
 <W msd="AC" tag="CD" in="-3:nobj" out="-1:numm|-2:mod">million</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-6:time" out="3:vobj">while</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">other</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">will</W>

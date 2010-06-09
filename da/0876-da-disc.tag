@@ -146,8 +146,8 @@
 <W gloss="rest" lemma="hvile" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:modo|2:tobj">hvile</W>
 <W gloss="covered" lemma="tildække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:modo" out="-2:[subj]">tildækket</W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-2:tobj" out="2:nobj">i</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mindst</W>
-<W gloss="1" lemma="1" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">1</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mindst</W>
+<W gloss="1" lemma="1" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">1</W>
 <W gloss="hour" lemma="time" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">time</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -160,8 +160,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Stir" lemma="røre" msd="VAM-=------" tag="VB" in="" out="1:ext|2:dobj|3:mod|4:mod|5:pnct|6:mod|9:pnct">Rør</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
+<W gloss="Stir" lemma="røre" msd="VAM-=------" tag="VB" in="" out="1:time|2:dobj|3:mod|4:mod|5:pnct|6:mod|9:pnct">Rør</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:time" out="">igen</W>
 <W gloss="the_batter" lemma="dej" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">dejen</W>
 <W gloss="lightly" lemma="let" msd="ANP---=-R" tag="JJ" in="-3:mod" out="">let</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-4:mod" out="">sammen</W>
@@ -203,8 +203,8 @@
 <s>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
 <W gloss="is_used" lemma="bruge" msd="VADR=----P-" tag="VBD" in="" out="-1:expl|2:dobj|5:pobj|8:pnct|11:conj|23:pnct">bruges</W>
-<W gloss="Approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="1" lemma="1" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">1</W>
+<W gloss="Approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="1" lemma="1" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:quant|1:nobj">1</W>
 <W gloss="dl" lemma="deciliter" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">dl</W>
 <W gloss="batter" lemma="dej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dej</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">til</W>

@@ -83,8 +83,8 @@
 <W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="-4:conc" out="-1:mod|4:vobj">selv_om</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="2:mod" out="">jo</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="thought" lemma="tro" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|-1:degr|1:pnct|3:vobj">troede</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="thought" lemma="tro" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|-1:quant|1:pnct|3:vobj">troede</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
 <W gloss="were_going_to" lemma="skulle" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:vobj">skulle</W>
@@ -205,8 +205,8 @@
 <s>
 <W gloss="The_Swedes" lemma="svensker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Svenskerne</W>
 <W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct">var</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="incredible" lemma="utrolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr">utrolige</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="incredible" lemma="utrolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:quant">utrolige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>

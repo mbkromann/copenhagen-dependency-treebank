@@ -94,7 +94,7 @@
 <W lemma="allora" msd="RG" tag="ADV" in="" out="">allora</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
 <W lemma="rimanere" msd="VAP" tag="VER:pper" in="" out="">rimasti</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="nascondere" msd="VAP" tag="VER:pper" in="" out="">nascosti</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>

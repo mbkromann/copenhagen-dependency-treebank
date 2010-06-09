@@ -149,7 +149,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">available</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">fence</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:subj|1:vobj|27:pnct">is</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj|4:pobj|8:pnct|9:cont">used</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj|4:pobj|8:pnct|9:time">used</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pissoir</W>
@@ -158,7 +158,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">male</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">runners</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:cont" out="4:vobj">while</W>
+<W msd="CS" tag="IN" in="-9:time" out="4:vobj">while</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">poor</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">women</W>

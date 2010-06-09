@@ -60,8 +60,8 @@
 <W msd="NC=P" tag="NNS" in="-3:dobj|-1:[dobj]" out="">terrorists</W>
 <W msd="XP" tag="&3a;" in="-15:pnct" out="">-</W>
 <W msd="VA" tag="MD" in="-23:vobj" out="-22:subj|3:vobj|2:man">may</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">quickly</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:quant">quickly</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-25:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-26:[subj]|1:lobj">turned</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">against</W>
@@ -112,7 +112,7 @@
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">expected</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|20:prec">visit</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|20:time">visit</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|12:pnct|13:appa">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="AC" tag="CD" in="-2:nobj" out="1:nobj">three</W>
@@ -132,7 +132,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-4:conj" out="-1:coord">Oman</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
-<W msd="CS" tag="IN" in="-20:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="-20:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:@dir">returns</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
@@ -169,10 +169,10 @@
 <W msd="VADA" tag="VBD" in="-7:rel" out="-1:subj|2:dobj|3:@loc|12:mod">forced</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Iraqi</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">forces</W>
-<W msd="SP" tag="IN" in="-3:@loc" out="1:mod|3:ext">out</W>
+<W msd="SP" tag="IN" in="-3:@loc" out="1:mod|3:time">out</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Kuwait</W>
-<W msd="ANP" tag="RB" in="-3:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-3:time" out="">again</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">little</W>
 <W msd="SP" tag="IN" in="1:mod" out="-2:mod">over</W>

@@ -55,7 +55,7 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="prior" lemma="forud" msd="RGU" tag="RP" in="9:prec" out="1:pobj">Forud</W>
+<W gloss="prior" lemma="forud" msd="RGU" tag="RP" in="9:time" out="1:pobj">Forud</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_UN's" lemma="FN" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:attr|2:possd|3:loc|6:time">FNs</W>
 <W gloss="major" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">store</W>
@@ -64,7 +64,7 @@
 <W gloss="Brazil" lemma="Brasilien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Brasilien</W>
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">næste</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-6:time" out="-1:attr">år</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:prec|3:subj|5:time|8:preds|10:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-9:time|3:subj|5:time|8:preds|10:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="2:numm" out="1:attr">et</W>
 <W gloss="half" lemma="halv" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">halvt</W>
 <W gloss="hundred" lemma="hundrede" msd="NCNSU==I" tag="NN" in="-3:subj" out="-2:numm|1:nobj">hundrede</W>
@@ -101,9 +101,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-7:subj|1:contr|4:preds|7:pnct">er</W>
 <W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:contr" out="">imidlertid</W>
-<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:degr" out="">alt</W>
-<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:degr" out="-1:degr">for</W>
-<W gloss="vague" lemma="ukonkret" msd="ANP[CN]SU=IU" tag="JJ" in="-4:preds" out="-1:degr|2:conj">ukonkret</W>
+<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:quant" out="">alt</W>
+<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:quant" out="-1:quant">for</W>
+<W gloss="vague" lemma="ukonkret" msd="ANP[CN]SU=IU" tag="JJ" in="-4:preds" out="-1:quant|2:conj">ukonkret</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="general" lemma="generel" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">generel</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-7:pnct" out=""> - </W>
@@ -133,8 +133,8 @@
 <W gloss="CONCLUDING_WORDS" lemma="slutord" msd="NCNPU==I" tag="NNP" in="" out="6:pnct|5:conj">SLUTORD</W>
 <W gloss="=" lemma="=" msd="XS" tag="SYM" in="4:coord" out="">=</W>
 <W gloss=".." lemma="..." msd="XP" tag="..." in="3:pnct" out="">...</W>
-<W gloss="absolutely" lemma="slet" msd="RGU" tag="RP" in="1:att" out="">slet</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:att">ikke</W>
+<W gloss="absolutely" lemma="slet" msd="RGU" tag="RP" in="1:eval" out="">slet</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:eval">ikke</W>
 <W gloss="done" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:conj" out="-3:pnct|-1:neg|-4:coord">gjort</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -252,8 +252,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="are_discussing" lemma="diskutere" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|1:subj|2:dobj|10:pnct">diskuterer</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="are_discussing" lemma="diskutere" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|2:dobj|10:pnct">diskuterer</W>
 <W gloss="the_defence_ministers" lemma="forsvarsminister" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">forsvarsministrene</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj|3:other">en</W>
 <W gloss="new" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">ny</W>

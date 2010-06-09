@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="Family_outbreaks" lemma="familieudbrud" msd="NCNPU==I" tag="NNP" in="" out="2:list">Familieudbrud</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="common" lemma="almindelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:list" out="-1:degr">almindelige</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="common" lemma="almindelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:list" out="-1:quant">almindelige</W>
 </s>
 </p>
 <p>
@@ -66,8 +66,8 @@
 </p>
 <p>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|5:preds|6:pnct|7:contr|13:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|5:preds|6:pnct|7:contr|13:pnct">er</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj" out="1:nobj">de</W>
 <W gloss="most" lemma="mange" msd="ANS[CN]PU=DU" tag="JJS" in="-1:nobj" out="1:nobj">fleste</W>
 <W gloss="cases" lemma="tilfælde" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">tilfælde</W>
@@ -112,8 +112,8 @@
 <p>
 <s>
 <W gloss="Infection" lemma="infektion" msd="NCCSU==I" tag="NN" in="1:subj" out="">Infektion</W>
-<W gloss="runs_its_course" lemma="forløbe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:ext|2:man">forløber</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:ext" out="">ofte</W>
+<W gloss="runs_its_course" lemma="forløbe" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:man">forløber</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:time" out="">ofte</W>
 <W gloss="mildly" lemma="mild" msd="ANP---=-R" tag="JJ" in="-2:man" out="">mildt</W>
 </s>
 </p>
@@ -124,8 +124,8 @@
 <W gloss="runs_its_course" lemma="forløbe" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:man|2:loc|6:pnct">forløber</W>
 <W gloss="mildly" lemma="mild" msd="ANP---=-R" tag="JJ" in="-1:man" out="">mildt</W>
 <W gloss="in" lemma="hos" msd="SP" tag="IN" in="-2:loc" out="2:nobj">hos</W>
-<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:degr" out="">langt</W>
-<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:nobj" out="-1:degr|1:nobj">de</W>
+<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:quant" out="">langt</W>
+<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-2:nobj" out="-1:quant|1:nobj">de</W>
 <W gloss="most" lemma="mange" msd="ANS[CN]PU=DU" tag="JJS" in="-1:nobj" out="">fleste</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -149,8 +149,8 @@
 <W gloss="The_discomfort" lemma="ubehag" msd="NCNSU==D" tag="NN" in="1:subj" out="">Ubehaget</W>
 <W gloss="lasts" lemma="vare" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|3:tobj|6:pnct">varer</W>
 <W gloss="most_often" lemma="ofte" msd="RGS" tag="RP" in="-1:eval" out="">oftest</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-3:tobj" out="-1:degr|1:nobj">nogle</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-3:tobj" out="-1:quant|1:nobj">nogle</W>
 <W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">få</W>
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
@@ -160,8 +160,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="5:pnct" out="">"</W>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="4:other" out="3:nobj">I</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="rare" lemma="sjælden" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">sjældne</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="rare" lemma="sjælden" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">sjældne</W>
 <W gloss="instances" lemma="tilfælde" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="-1:attr">tilfælde</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-5:pnct|-4:other|1:subj|2:vobj|9:pnct|16:pnct|12:conj">kan</W>
 <W gloss="the_salmonella_bacteria" lemma="salmonella-bakterie" msd="NCCSU==D" tag="NN" in="-1:subj|1:[subj]|6:[subj]" out="">salmonella-bakterien</W>
@@ -194,8 +194,8 @@
 <W gloss="the_patients" lemma="patient" msd="NCCPU==D" tag="NNP" in="4:subj|5:[subj]" out="2:conj">patienterne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="residents" lemma="beboer" msd="NCCPU==D" tag="NNP" in="-2:conj" out="-1:coord">beboerne</W>
-<W gloss="already" lemma="i_forvejen" msd="RGU" tag="RP" in="1:prec" out="">i_forvejen</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-4:subj|-5:loc|-1:prec|1:vobj">er</W>
+<W gloss="already" lemma="i_forvejen" msd="RGU" tag="RP" in="1:time" out="">i_forvejen</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-4:subj|-5:loc|-1:time|1:vobj">er</W>
 <W gloss="in_a_weakened_state" lemma="svække" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:vobj" out="-5:[subj]">svækkede</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>

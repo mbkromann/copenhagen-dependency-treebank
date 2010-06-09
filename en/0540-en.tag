@@ -93,9 +93,9 @@
 <s>
 <W msd="CS" tag="IN" in="7:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:degr|3:pnct">distill</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|2:quant|3:pnct">distill</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANC" tag="JJR" in="-2:degr" out="">more</W>
+<W msd="ANC" tag="JJR" in="-2:quant" out="">more</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|7:pnct|-7:cond">will</W>

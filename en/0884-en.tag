@@ -97,8 +97,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">result</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:preds">was</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">bad</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">bad</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
@@ -164,8 +164,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Interior</W>
 <W msd="NP=S" tag="NNP" in="-5:nobj" out="-4:title">Seiters</W>
 <W msd="CS" tag="IN" in="-8:pobj" out="2:preds">as</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">expensive</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">expensive</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
@@ -178,8 +178,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr">strike</W>
 <W msd="VADR" tag="VBZ" in="6:qobj" out="-7:mod|-4:subj|1:vobj|4:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:preds">been</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">superfluous</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">superfluous</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADA" tag="VBD" in="" out="-6:qobj|-1:subj|1:vobj|5:pnct">was</W>
@@ -207,8 +207,8 @@
 <W msd="NP=S" tag="NNP" in="3:subj" out="2:conj">Buses</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">trains</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:ext|2:pnct|6:conj|16:pnct">ran</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:time|2:pnct|6:conj|16:pnct">ran</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">garbage</W>

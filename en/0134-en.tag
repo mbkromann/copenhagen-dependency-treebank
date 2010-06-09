@@ -90,8 +90,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">players</W>
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-16:cond|2:vobj|7:pnct|1:succ">might</W>
-<W msd="ANP" tag="RB" in="-1:succ" out="">afterwards</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-16:cond|2:vobj|7:pnct|1:time">might</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">afterwards</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">an</W>
@@ -206,8 +206,8 @@
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|1:pobj">energetic</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|1:pobj">energetic</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">rebels</W>

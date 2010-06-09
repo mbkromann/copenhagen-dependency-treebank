@@ -77,8 +77,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|23:pnct">And</W>
 <W msd="PD" tag="DT" in="1:subj|3:[subj]" out="">this</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:degr|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:quant|2:vobj">will</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:pnct|2:cond">happen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-2:cond" out="6:vobj">if</W>
@@ -140,10 +140,10 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="3:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="42:qobj" out="-1:subj|1:vobj|11:pnct|15:conj|40:pnct|41:pnct|-3:att">cannot</W>
+<W msd="VADR" tag="VBP" in="42:qobj" out="-1:subj|1:vobj|11:pnct|15:conj|40:pnct|41:pnct|-3:eval">cannot</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:iobj|2:dobj">give</W>
 <W msd="PP" tag="PRP" in="-1:iobj" out="">them</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>

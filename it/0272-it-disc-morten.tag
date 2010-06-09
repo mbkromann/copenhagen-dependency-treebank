@@ -5,7 +5,7 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alle</W>
 <W lemma="giovane" msd="AN" tag="ADJ" in="" out="">giovani</W>
 <W lemma="donna" msd="NC" tag="NOM" in="" out="">donne</W>
-<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="" out="31:+CONJ/(e)">arrivano</W>
+<W lemma="arrivare" msd="VADR" tag="VER&3a;pres" in="" out="31:+CONJ&3a;add/(e)">arrivano</W>
 <W lemma="umido" msd="AN" tag="ADJ" in="" out="">umidi</W>
 <W lemma="bacio" msd="NC" tag="NOM" in="" out="">baci</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="" out="">sulla</W>
@@ -36,7 +36,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">700</W>
 <W lemma="poliziotto" msd="NC" tag="NOM" in="" out="">poliziotti</W>
 <W lemma="schierare" msd="VAP" tag="VER&3a;pper" in="" out="">schierati</W>
-<W lemma="partecipare" msd="VADR" tag="VER&3a;pres" in="-31:+CONJ/(e)" out="56:+CONST&3a;elab">partecipano</W>
+<W lemma="partecipare" msd="VADR" tag="VER&3a;pres" in="-31:+CONJ&3a;add/(e)" out="56:+CONJ&3a;elab">partecipano</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="entusiasmo" msd="NC" tag="NOM" in="" out="">entusiasmo</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -92,7 +92,7 @@
 <W lemma="ogni" msd="AN" tag="ADJ" in="" out="">ogni</W>
 <W lemma="cinque" msd="AN" tag="ADJ" in="" out="">cinque</W>
 <W lemma="chilometro" msd="NC" tag="NOM" in="" out="">chilometri</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-56:+CONST&3a;elab" out="25:+CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-56:+CONJ&3a;elab" out="25:+CONJ&3a;add/(e)">è</W>
 <W lemma="installare" msd="VAP" tag="VER&3a;pper" in="" out="">installato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="orologio" msd="NC" tag="NOM" in="" out="">orologio</W>
@@ -117,7 +117,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="percorso" msd="NC" tag="NOM" in="" out="">percorso</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ/(e)" out="30:+DESCR&3a;qual">trovano</W>
+<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ&3a;add/(e)" out="30:+FORMAL&3a;descr">trovano</W>
 <W lemma="banchetto" msd="NC" tag="NOM" in="" out="">banchetti</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="bevanda" msd="NC" tag="NOM" in="" out="">bevande</W>
@@ -147,7 +147,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="possibile" msd="AN" tag="ADJ" in="" out="">possibili</W>
 <W lemma="steccato" msd="NC" tag="NOM" in="" out="">steccati</W>
-<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-30:+DESCR&3a;qual" out="30:CONJ/(e)">vengono</W>
+<W lemma="venire" msd="VADR" tag="VER&3a;pres" in="-30:+FORMAL&3a;descr" out="30:CONJ&3a;add/(e)">vengono</W>
 <W lemma="usare" msd="VAP" tag="VER&3a;pper" in="" out="">usati</W>
 <W lemma="come" msd="SP" tag="PRE" in="" out="">come</W>
 <W lemma="vespasiano" msd="NC" tag="NOM" in="" out="">vespasiano</W>
@@ -177,7 +177,7 @@
 <W lemma="pronto" msd="AN" tag="ADJ" in="" out="">pronto</W>
 <W lemma="soccorso" msd="NC" tag="NOM" in="" out="">soccorso</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="prodigare" msd="VADR" tag="VER&3a;pres" in="-30:CONJ/(e)" out="">prodigano</W>
+<W lemma="prodigare" msd="VADR" tag="VER&3a;pres" in="-30:CONJ&3a;add/(e)" out="">prodigano</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="applicare" msd="VAF" tag="VER&3a;infi" in="" out="">applicare</W>
 <W lemma="cerotto" msd="NC" tag="NOM" in="" out="">cerotti</W>

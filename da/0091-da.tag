@@ -130,8 +130,8 @@
 <W gloss="yet" lemma="hidtil" msd="RGU" tag="RP" in="1:time" out="">hidtil</W>
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-2:attr" out="-1:time">bedste</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="honest" lemma="ærlig" msd="ANP[CN]SU=DU" tag="JJ" in="-5:attr" out="-1:degr|2:conj">ærlige</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="honest" lemma="ærlig" msd="ANP[CN]SU=DU" tag="JJ" in="-5:attr" out="-1:quant|2:conj">ærlige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="sincere" lemma="oprigtig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="-1:coord">oprigtige</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-25:pnct" out="">"</W>
@@ -165,9 +165,9 @@
 <W gloss="by" lemma="ved" msd="SP" tag="IN" in="-3:man" out="1:nobj">ved</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="gaining" lemma="vinde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="3:dobj">vinde</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="4:nobj">så</W>
-<W gloss="much" lemma="meget" msd="ANPCSU=[DI]U" tag="JJ" in="1:degr" out="-1:degr">megen</W>
-<W gloss="superficial_attention" lemma="overfladeopmærksomhed" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:degr|1:pnct">overfladeopmærksomhed</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="4:nobj">så</W>
+<W gloss="much" lemma="meget" msd="ANPCSU=[DI]U" tag="JJ" in="1:quant" out="-1:quant">megen</W>
+<W gloss="superficial_attention" lemma="overfladeopmærksomhed" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:quant|1:pnct">overfladeopmærksomhed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-4:nobj" out="3:vobj">at</W>
 <W gloss="nobody" lemma="ingen" msd="PI-CSU--U" tag="DT" in="2:subj" out="">ingen</W>

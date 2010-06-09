@@ -45,8 +45,8 @@
 <s>
 <W gloss="Rocky" lemma="Rocky" msd="NP--U==-" tag="NNP" in="1:namef" out="">Rocky</W>
 <W gloss="Sullivan" lemma="Sullivan" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Sullivan</W>
-<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:succ|16:pnct|4:@dir">vender</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:succ" out="1:nobj">efter</W>
+<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|16:pnct|4:@dir">vender</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:time" out="1:nobj">efter</W>
 <W gloss="15" lemma="15" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">15</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="back" lemma="tilbage" msd="RGU" tag="RP" in="-4:@dir" out="1:other">tilbage</W>
@@ -76,8 +76,8 @@
 <W gloss="does_have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-9:subj|1:contr|2:neg|4:dobj|10:pnct">har</W>
 <W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:contr" out="">imidlertid</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
-<W gloss="the_right" lemma="ret" msd="RGU" tag="RP" in="1:degr" out="">ret</W>
-<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-4:dobj|5:[nobj]" out="-1:degr|1:other">meget</W>
+<W gloss="the_right" lemma="ret" msd="RGU" tag="RP" in="1:quant" out="">ret</W>
+<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-4:dobj|5:[nobj]" out="-1:quant|1:other">meget</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W gloss="talk" lemma="tale" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|3:pobj">tale</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>

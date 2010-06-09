@@ -6,7 +6,7 @@
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="" out="">noi</W>
 <W lemma="avere" msd="VADA" tag="VER&3a;impf" in="" out="">aveva</W>
 <W lemma="prevedere" msd="VAP" tag="VER&3a;pper" in="" out="">previsto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="19:CONST&3a;elab/ATTR">le</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="19:CONJ&3a;elab/ATTR">le</W>
 <W lemma="difficoltà" msd="NC" tag="NOM" in="" out="">difficoltà</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="cui" msd="PT" tag="PRO&3a;rela" in="" out="">cui</W>
@@ -19,13 +19,13 @@
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="sposare" msd="VAF" tag="VER&3a;infi" in="" out="">sposarci</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="raccontare" msd="VADR" tag="VER&3a;pres" in="" out="106:+CONJ/(e)">racconta</W>
+<W lemma="raccontare" msd="VADR" tag="VER&3a;pres" in="" out="106:+CONJ&3a;add/(e)">racconta</W>
 <W lemma="liso" msd="AN" tag="ADJ" in="" out="">Lise</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Pedersen</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:CONST&3a;elab/ATTR" out="28:CONJ/(e)/ATTR">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:CONJ&3a;elab/ATTR" out="28:CONJ&3a;add/(e)/ATTR">Sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="licenziare" msd="VAP" tag="VER&3a;pper" in="" out="">licenziata</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">all'</W>
@@ -53,7 +53,7 @@
 </s>
 <s>
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="" out="">Mi</W>
-<W lemma="chiedere" msd="VADA" tag="VER&3a;impf" in="-28:CONJ/(e)/ATTR" out="23:CONJ/(e)/ATTR">chiedevano</W>
+<W lemma="chiedere" msd="VADA" tag="VER&3a;impf" in="-28:CONJ&3a;add/(e)/ATTR" out="23:CONJ&3a;add/(e)/ATTR">chiedevano</W>
 <W lemma="perché" msd="CS" tag="CON" in="" out="">perché</W>
 <W lemma="volere" msd="VADA" tag="VER&3a;cimp" in="" out="">volessi</W>
 <W lemma="ancorare" msd="VADR" tag="VER&3a;pres" in="" out="">ancora</W>
@@ -76,7 +76,7 @@
 <s>
 <W lemma="forse" msd="RG" tag="ADV" in="" out="">Forse</W>
 <W lemma="lo" msd="PP" tag="PRO&3a;pers" in="" out="">lo</W>
-<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-23:CONJ/(e)/ATTR" out="">dissero</W>
+<W lemma="dire" msd="VADA" tag="VER&3a;remo" in="-23:CONJ&3a;add/(e)/ATTR" out="">dissero</W>
 <W lemma="solo" msd="RG" tag="ADV" in="" out="">solo</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
 <W lemma="mettere" msd="VAF" tag="VER&3a;infi" in="" out="">mettere</W>
@@ -125,7 +125,7 @@
 <W lemma="Vladimir" msd="NP" tag="NPR" in="" out="">Vladimir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Pimonov</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-106:+CONJ/(e)" out="21:CONST&3a;elab">furono</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-106:+CONJ&3a;add/(e)" out="21:CONJ&3a;elab">furono</W>
 <W lemma="lasciare" msd="VAP" tag="VER&3a;pper" in="" out="">lasciati</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="pace" msd="NC" tag="NOM" in="" out="">pace</W>
@@ -146,7 +146,7 @@
 </s>
 <s>
 <W lemma="liso" msd="AN" tag="ADJ" in="" out="">Lise</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:CONST&3a;elab" out="">Pedersen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:CONJ&3a;elab" out="">Pedersen</W>
 <W lemma="rimanere" msd="VADA" tag="VER&3a;remo" in="" out="">rimase</W>
 <W lemma="incinta" msd="AN" tag="ADJ" in="" out="">incinta</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
@@ -157,7 +157,7 @@
 <W lemma="mentre" msd="CS" tag="CON" in="" out="">mentre</W>
 <W lemma="Vladimir" msd="NP" tag="NPR" in="" out="">Vladimir</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Pimonov</W>
-<W lemma="richiedere" msd="VADA" tag="VER&3a;remo" in="" out="13:TIME&3a;cont/in_quel_istante">richiese</W>
+<W lemma="richiedere" msd="VADA" tag="VER&3a;remo" in="" out="13:TIME&3a;time/in_quel_istante">richiese</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="vedere" msd="VAP" tag="VER&3a;pper" in="" out="">visto</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -170,7 +170,7 @@
 <W lemma="quel" msd="PD" tag="PRO&3a;demo" in="" out="">quel</W>
 <W lemma="preciso" msd="AN" tag="ADJ" in="" out="">preciso</W>
 <W lemma="istante" msd="NC" tag="NOM" in="" out="">istante</W>
-<W lemma="diventare" msd="VADA" tag="VER&3a;remo" in="-13:TIME&3a;cont/in_quel_istante" out="">diventò</W>
+<W lemma="diventare" msd="VADA" tag="VER&3a;remo" in="-13:TIME&3a;time/in_quel_istante" out="">diventò</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">refusenik</W>

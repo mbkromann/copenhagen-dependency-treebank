@@ -15,8 +15,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">train</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|2:subj" out="">which</W>
-<W msd="ANP" tag="RB" in="1:succ" out="">later</W>
-<W msd="VADA" tag="VBD" in="-5:rel" out="-2:subj|1:pobj|4:mod|6:pnct|-1:succ">met</W>
+<W msd="ANP" tag="RB" in="1:time" out="">later</W>
+<W msd="VADA" tag="VBD" in="-5:rel" out="-2:subj|1:pobj|4:mod|6:pnct|-1:time">met</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">accident</W>
@@ -171,14 +171,14 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">collision</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:preds|6:pnct|7:reas">was</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:preds|6:pnct|7:cause">was</W>
 <W msd="ANP" tag="RB" in="-1:preds" out="1:pobj">close</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="2:dobj">having</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">catastrophic</W>
 <W msd="NC=P" tag="NNS" in="-2:dobj" out="-1:attr">consequences</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:reas" out="8:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:cause" out="8:vobj">because</W>
 <W msd="PI" tag="DT" in="7:subj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tanker</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>

@@ -108,14 +108,14 @@
 <W lemma="1" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">1</W>
 <W lemma="hora" msd="NC" tag="NC" in="-1:nobj" out="">hora</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="1:struct" out="">También</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-1:struct|1:vobj|2:time|4:pnct">puede</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="1:scene" out="">También</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-1:scene|1:vobj|2:time|4:pnct">puede</W>
 <W lemma="reposar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="">reposar</W>
 <W lemma="varios" msd="AN" tag="QU" in="-2:time" out="1:nobj">varias</W>
 <W lemma="hora" msd="NC" tag="NC" in="-1:nobj" out="">horas</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
-<W lemma="amasar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:ext|2:dobj|4:time|11:pnct">Amasar</W>
-<W lemma="nuevamente" msd="RG" tag="ADV" in="-1:ext" out="">nuevamente</W>
+<W lemma="amasar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:time|2:dobj|4:time|11:pnct">Amasar</W>
+<W lemma="nuevamente" msd="RG" tag="ADV" in="-1:time" out="">nuevamente</W>
 <W lemma="el" msd="PD" tag="ART" in="-2:dobj" out="1:nobj">la</W>
 <W lemma="masa" msd="NC" tag="NC" in="-1:nobj" out="">masa</W>
 <W lemma="antes" msd="RG" tag="ADV" in="-4:time" out="">antes</W>
@@ -130,8 +130,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">barquillero</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="" out="-2:subj|1:vobj|4:pnct">debe</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="-1:vobj" out="2:preds">estar</W>
-<W lemma="bien" msd="RG" tag="ADV" in="1:degr" out="">bien</W>
-<W lemma="caliente" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">caliente</W>
+<W lemma="bien" msd="RG" tag="ADV" in="1:quant" out="">bien</W>
+<W lemma="caliente" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">caliente</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="7:cond" out="1:vobj">Si</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:vobj" out="1:preds|4:pnct">está</W>
@@ -154,8 +154,8 @@
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">Se</W>
 <W lemma="usar" msd="VAD" tag="VLfin" in="" out="-1:robj|2:subj|6:pobj|9:pnct|12:conj|19:pnct">usa</W>
-<W lemma="aproximadamente" msd="RG" tag="ADV" in="1:degr" out="">aproximadamente</W>
-<W lemma="1" msd="AC" tag="CARD" in="-2:subj" out="-1:degr|1:nobj">1</W>
+<W lemma="aproximadamente" msd="RG" tag="ADV" in="1:quant" out="">aproximadamente</W>
+<W lemma="1" msd="AC" tag="CARD" in="-2:subj" out="-1:quant|1:nobj">1</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">dl</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="masa" msd="NC" tag="NC" in="-1:nobj" out="">masa</W>

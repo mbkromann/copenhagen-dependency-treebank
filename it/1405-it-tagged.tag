@@ -15,7 +15,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="perché" msd="CS" tag="CON" in="" out="">perché</W>
 <W lemma="accadere" msd="VADA" tag="VER:impf" in="" out="">accadeva</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="poco" msd="AN" tag="ADJ" in="" out="">poco</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">questo</W>

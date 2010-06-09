@@ -24,11 +24,11 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:cons|1:subj|5:vobj|6:pnct">hat</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj" out="">man</W>
 <W lemma="beispielsweise" msd="AN" tag="ADJD" in="1:exem" out="">beispielsweise</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="-1:exem|1:nobj|4:coref-id">eine</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="-1:exem|1:nobj|4:coref-iden">eine</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Riesenmaus</W>
 <W lemma="zeugen" msd="VAP" tag="VVPP" in="-5:vobj" out="-2:dobj">gezeugt</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-4:coref-id|2:subj" out="1:nobj|5:ref|18:relelab|23:coref-var">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-4:coref-iden|2:subj" out="1:nobj|5:ref|18:relelab|23:coref-var">Die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Riesenmaus</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|1:vobj|2:pnct|17:pnct">wurde</W>
 <W lemma="erzeugen" msd="VAP" tag="VVPP" in="-1:vobj" out="">erzeugt</W>
@@ -40,7 +40,7 @@
 <W lemma="erblich" msd="AN" tag="ADJA" in="-1:attr" out="">erblichen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="1:pnct|2:possr">,,Wachstumseigenschaften</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-2:possr" out="1:nobj|18:coref-id">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-2:possr" out="1:nobj|18:coref-iden">der</W>
 <W lemma="Ratte" msd="NC" tag="NN" in="-1:nobj" out="">Ratte</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:dir" out="1:nobj">auf</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">eine</W>
@@ -50,15 +50,15 @@
 <W lemma="." msd="XP" tag="$." in="-17:pnct" out="">.</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="2:cons" out="1:nobj">Im</W>
 <W lemma="Ergebnis" msd="NC" tag="NN" in="-1:nobj" out="">Ergebnis</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:cons|1:subj|5:preds|6:pnct|7:comp|10:pnct">war</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:cons|1:subj|5:preds|6:pnct|7:resem|10:pnct">war</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|-23:coref-var" out="1:nobj">die</W>
 <W lemma="Maus" msd="NC" tag="NN" in="-1:nobj" out="">Maus</W>
-<W lemma="fast" msd="RG" tag="ADV" in="1:degr" out="">fast</W>
-<W lemma="genauso" msd="RG" tag="ADV" in="1:degr" out="-1:degr">genauso</W>
-<W lemma="groß" msd="AN" tag="ADJD" in="-5:preds" out="-1:degr">groß</W>
+<W lemma="fast" msd="RG" tag="ADV" in="1:quant" out="">fast</W>
+<W lemma="genauso" msd="RG" tag="ADV" in="1:quant" out="-1:quant">genauso</W>
+<W lemma="groß" msd="AN" tag="ADJD" in="-5:preds" out="-1:quant">groß</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
-<W lemma="wie" msd="CS" tag="KOUS" in="-7:comp" out="1:nobj">wie</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-18:coref-id" out="1:nobj">die</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="-7:resem" out="1:nobj">wie</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-18:coref-iden" out="1:nobj">die</W>
 <W lemma="Ratte" msd="NC" tag="NN" in="-1:nobj" out="">Ratte</W>
 <W lemma="." msd="XP" tag="$." in="-10:pnct" out="">.</W>
 </s>
@@ -91,7 +91,7 @@
 <W lemma="Fabrik" msd="NC" tag="NN" in="-1:nobj" out="1:possr">Fabriken</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:possr" out="1:nobj">der</W>
 <W lemma="Zukunft" msd="NC" tag="NN" in="-1:nobj" out="">Zukunft</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-5:loc|2:subj|6:vobj|7:pnct|14:coref-prg">werden</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-5:loc|2:subj|6:vobj|7:pnct|14:coref-res.prg">werden</W>
 <W lemma="genmanipuliert" msd="AN" tag="ADJA" in="1:attr" out="">genmanipulierte</W>
 <W lemma="Organismus" msd="NC" tag="NN" in="-2:subj|4:[subj]" out="-1:attr">Organismen</W>
 <W lemma="Rohstoff" msd="NC" tag="NN" in="3:dobj" out="1:loc">Rohstoffe</W>
@@ -105,7 +105,7 @@
 <s>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">Und</W>
 <W lemma="in" msd="SP" tag="APPR" in="4:loc" out="1:nobj">in</W>
-<W lemma="dies" msd="PD" tag="PDAT" in="-1:nobj|-14:coref-prg" out="1:attr|2:nobj">dieser</W>
+<W lemma="dies" msd="PD" tag="PDAT" in="-1:nobj|-14:coref-res.prg" out="1:attr|2:nobj">dieser</W>
 <W lemma="technisch" msd="AN" tag="ADJA" in="-1:attr" out="">technischen</W>
 <W lemma="Entwicklung" msd="NC" tag="NN" in="-2:nobj" out="">Entwicklung</W>
 <W lemma="stehen" msd="VA" tag="VVFIN" in="" out="-5:coord|-4:loc|1:subj|4:preds|7:pnct">steht</W>
@@ -124,8 +124,8 @@
 <W lemma="mit" msd="SP" tag="APPR" in="7:pobj" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">der</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="-1:attr" out="">ersten</W>
-<W lemma="Produktion" msd="NC" tag="NN" in="-2:nobj" out="1:comp">Produktion</W>
-<W lemma="mit" msd="SP" tag="APPR" in="-1:comp" out="2:nobj">mit</W>
+<W lemma="Produktion" msd="NC" tag="NN" in="-2:nobj" out="1:resem">Produktion</W>
+<W lemma="mit" msd="SP" tag="APPR" in="-1:resem" out="2:nobj">mit</W>
 <W lemma="genmanipuliert" msd="AN" tag="ADJA" in="1:attr" out="">genmanipulierten</W>
 <W lemma="Organismus" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Organismen</W>
 <W lemma="beginnen" msd="VAF" tag="VVINF" in="2:vobj" out="-7:pobj">beginnen</W>
@@ -142,7 +142,7 @@
 <W lemma="zeigen" msd="VA" tag="VVFIN" in="" out="-7:subj|1:pnct|2:dobj|16:pnct">zeigen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="13:vobj">dass</W>
-<W lemma="nach" msd="SP" tag="APPR" in="12:dur" out="1:nobj|5:pobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="12:time" out="1:nobj|5:pobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="3:nobj">der</W>
 <W lemma="erst" msd="AN" tag="ADJA" in="2:attr" out="">ersten</W>
 <W lemma="genmanipuliert" msd="AN" tag="ADJA" in="1:attr" out="">genmanipulierten</W>
@@ -154,7 +154,7 @@
 <W lemma="viel" msd="PI" tag="PIAT" in="2:[subj]|3:subj" out="1:nobj">viel</W>
 <W lemma="Zeit" msd="NC" tag="NN" in="-1:nobj" out="">Zeit</W>
 <W lemma="vergehen" msd="VAF" tag="VVINF" in="1:vobj" out="-2:[subj]">vergehen</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="-13:vobj" out="-1:vobj|-4:neg|-12:dur|-3:subj">wird</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="-13:vobj" out="-1:vobj|-4:neg|-12:time|-3:subj">wird</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:expl" out="">Es</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:expl|4:vobj|8:conj|19:pnct">wird</W>

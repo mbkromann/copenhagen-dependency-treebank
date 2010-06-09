@@ -34,8 +34,8 @@
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="conoscere" msd="VADR" tag="VER&3a;pres" in="-20:conj" out="-1:coord|2:dobj">conosce</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:quant|1:nobj">i</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">nomi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">delle</W>
 <W lemma="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">specialità</W>

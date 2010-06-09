@@ -30,8 +30,8 @@
 <W lemma="bueno" msd="AN" tag="ADJ" in="-1:attr" out="">mejor</W>
 <W lemma="tratamiento" msd="NC" tag="NC" in="-2:nobj" out="1:pobj|1:{arg}">tratamiento</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="2:nobj">de</W>
-<W lemma="diversos" msd="AN" tag="QU" in="1:ext" out="">diversos</W>
-<W lemma="tipo" msd="NC" tag="NC" in="-2:nobj" out="-1:ext|1:pobj|1:{arg}">tipos</W>
+<W lemma="diversos" msd="AN" tag="QU" in="1:time" out="">diversos</W>
+<W lemma="tipo" msd="NC" tag="NC" in="-2:nobj" out="-1:time|1:pobj|1:{arg}">tipos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">cÃ¡ncer</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
@@ -137,8 +137,8 @@
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">los</W>
 <W lemma="medicamento" msd="NC" tag="NC" in="-1:nobj" out="">medicamentos</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-11:vobj" out="-5:cons|-2:subj|2:preds|3:pnct">serÃ¡n</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="caro" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">caros</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="caro" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">caros</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
 <W lemma="un" msd="PD" tag="ART" in="4:preds" out="2:nobj">Un</W>
 <W lemma="bueno" msd="AN" tag="ADJ" in="1:prg" out="">buen</W>
@@ -202,12 +202,12 @@
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="diferencia" msd="NC" tag="NC" in="-1:nobj" out="">diferencia</W>
 <W lemma="de" msd="SP" tag="SCENE" in="1:pobj" out="2:nobj">de</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="1:ext" out="-1:pobj">500</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:ext">dÃ³lares</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="1:time" out="-1:pobj">500</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:time">dÃ³lares</W>
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
-<W lemma="a" msd="SP" tag="SCENE" in="2:struct" out="1:nobj">A</W>
+<W lemma="a" msd="SP" tag="SCENE" in="2:scene" out="1:nobj">A</W>
 <W lemma="este" msd="" tag="DM" in="-1:nobj" out="">esto</W>
-<W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="-2:struct|1:vobj|4:cause|11:pnct|12:other">hay que</W>
+<W lemma="haber~que" msd="VAD" tag="VMfin" in="" out="-2:scene|1:vobj|4:cause|11:pnct|12:other">hay que</W>
 <W lemma="agregar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">agregar</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">los</W>
 <W lemma="ahorro" msd="NC" tag="NC" in="-1:nobj" out="">ahorros</W>

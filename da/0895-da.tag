@@ -44,8 +44,8 @@
 <W gloss="the_cultivator" lemma="kultivator" msd="NCCSU==D" tag="NN" in="15:nobj" out="1:pnct|2:ref|4:rel">Kultivatoren</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:degr|1:preds|7:pnct">er</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:quant|1:preds|7:pnct">er</W>
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:preds" out="1:nobj">til</W>
 <W gloss="use" lemma="brug" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:loc|3:time">brug</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
@@ -157,15 +157,15 @@
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:goal" out="1:nobj">til</W>
 <W gloss="cutting" lemma="beskæring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">beskæring</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:preds|5:pnct">er</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:degr|2:nobj">en</W>
-<W gloss="whole" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">helt</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:quant|2:nobj">en</W>
+<W gloss="whole" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">helt</W>
 <W gloss="different" lemma="anden" msd="PI-CSU--U" tag="DT" in="-2:nobj" out="1:nobj">anden</W>
 <W gloss="matter" lemma="sag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sag</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:att" out="">Desværre</W>
-<W gloss="there" lemma="der" msd="XX" tag="FW" in="" out="-1:att|1:expl|2:preds|4:dobj|12:pnct">der</W>
+<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:eval" out="">Desværre</W>
+<W gloss="there" lemma="der" msd="XX" tag="FW" in="" out="-1:eval|1:expl|2:preds|4:dobj|12:pnct">der</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-2:preds" out="1:nobj">på</W>
 <W gloss="the_market" lemma="marked" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">markedet</W>

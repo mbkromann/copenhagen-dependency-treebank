@@ -20,8 +20,8 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">certain</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="2:mod">tendency</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="U=" tag="TO" in="-2:mod" out="-1:ext|1:vobj">to</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="U=" tag="TO" in="-2:mod" out="-1:time|1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:@loc">get</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="2:nobj">on</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">pants</W>
@@ -53,21 +53,21 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">gas</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">station</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="-10:conj" out="-11:[subj]|-1:coord|1:dobj|2:mod|6:prec">spray</W>
+<W msd="NC=S" tag="NN" in="-10:conj" out="-11:[subj]|-1:coord|1:dobj|2:mod|6:time">spray</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">oil</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">stain</W>
-<W msd="CS" tag="IN" in="-6:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-6:time" out="1:nobj">before</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">washing</W>
 <W msd="XP" tag="," in="-18:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pants</W>
 <W msd="VA" tag="MD" in="-34:conj" out="-2:subj|-24:coord|-23:cond|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|2:ext">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|2:time">be</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">fine</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="." in="-38:pnct" out="">.</W>
 </s>
 <s>
@@ -106,9 +106,9 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">lungs</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
-<W msd="ANP" tag="RB" in="2:ext" out="">often</W>
+<W msd="ANP" tag="RB" in="2:time" out="">often</W>
 <W msd="VAF" tag="VB" in="1:subj|2:[subj]" out="">help</W>
-<W msd="VADR" tag="VBZ" in="-15:conj" out="-1:subj|-3:coord|1:vobj|-2:ext">is</W>
+<W msd="VADR" tag="VBZ" in="-15:conj" out="-1:subj|-3:coord|1:vobj|-2:time">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">needed</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:part|2:dobj">break</W>
@@ -206,8 +206,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">medicine</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-8:vobj" out="-1:subj|-7:mod|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="SP" tag="IN" in="-2:preds" out="-1:degr|1:nobj">without</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="SP" tag="IN" in="-2:preds" out="-1:quant|1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sugar</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>

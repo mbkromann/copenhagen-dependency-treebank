@@ -99,13 +99,13 @@
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="6:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="6:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|2:mod">the</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Hungarians</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Romania</W>
-<W msd="VA" tag="MD" in="20:qobj" out="-4:subj|-6:reas|1:vobj|4:pnct|5:mod">must</W>
+<W msd="VA" tag="MD" in="20:qobj" out="-4:subj|-6:cause|1:vobj|4:pnct|5:mod">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:vobj">be</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:pobj">discriminated</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">against</W>
@@ -152,12 +152,12 @@
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VA" tag="MD" in="-11:conj" out="-10:mod|-1:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:pnct|5:reas">have</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:pnct|5:cause">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">important</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">role</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:iobj|3:dobj">ask</W>
@@ -213,12 +213,12 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Alliance</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="VA" tag="MD" in="" out="-9:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:degr|2:dobj|4:pnct|5:cont">receive</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:quant|2:dobj|4:pnct|5:time">receive</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">23</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">percent</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">;</W>
-<W msd="CS" tag="IN" in="-5:cont" out="10:vobj">while</W>
+<W msd="CS" tag="IN" in="-5:time" out="10:vobj">while</W>
 <W msd="PD" tag="DT" in="9:subj|10:[subj]|11:[subj]" out="1:attr|3:nobj|5:appr|7:attr|8:possd">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">former</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">minister</W>

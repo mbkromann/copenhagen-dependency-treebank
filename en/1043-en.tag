@@ -64,9 +64,9 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|2:possd">Denmark's</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">economic</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">policy</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:ext|3:preds|16:pnct|-8:contr">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:subj|2:time|3:preds|16:pnct|-8:contr">is</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="-1:mod">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="-1:mod">again</W>
 <W msd="SP" tag="IN" in="-3:preds" out="1:pobj">about</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:preds">become</W>
@@ -132,8 +132,8 @@
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">We</W>
 <W msd="VADR" tag="VBP" in="-5:xpl" out="-1:subj|2:man|3:vobj|9:pnct">cannot</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">well</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:quant">well</W>
 <W msd="VAF" tag="VB" in="-3:vobj" out="-4:[subj]|1:dobj">let</W>
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:attr|2:vobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unemployed</W>

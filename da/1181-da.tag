@@ -144,8 +144,8 @@
 <W gloss="setback" lemma="tilbageslag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">tilbageslag</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="exports" lemma="eksport" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">eksporten</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:subj|-5:coord|1:reas|3:dobj">har</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-4:subj|-5:coord|1:cause|3:dobj">har</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="great" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>
 <W gloss="consequences" lemma="konsekvens" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr|1:pobj">konsekvenser</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -153,9 +153,9 @@
 <W gloss="overall" lemma="samle" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:attr" out="">samlede</W>
 <W gloss="national_economy" lemma="samfundsøkonomi" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">samfundsøkonomi</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="including" lemma="herunder" msd="RGU" tag="RP" in="-4:mod" out="2:degr|3:nobj">herunder</W>
+<W gloss="including" lemma="herunder" msd="RGU" tag="RP" in="-4:mod" out="2:quant|3:nobj">herunder</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="-2:degr" out="-1:neg">mindst</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="-2:quant" out="-1:neg">mindst</W>
 <W gloss="employment" lemma="beskæftigelse" msd="NCCSU==D" tag="NN" in="-3:nobj" out="">beskæftigelsen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>

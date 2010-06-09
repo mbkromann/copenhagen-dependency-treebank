@@ -6,8 +6,8 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|1:subj" out="">que</W>
 <W lemma="constar" msd="VAD" tag="VLfin" in="-4:relpa" out="-1:subj|1:pobj|5:pnct">consta</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="2:nobj">de</W>
-<W lemma="tanto" msd="AN" tag="ADJ" in="1:degr" out="">tantos</W>
-<W lemma="voto" msd="NC" tag="NC" in="-2:nobj" out="-1:degr|1:attr">votos</W>
+<W lemma="tanto" msd="AN" tag="ADJ" in="1:quant" out="">tantos</W>
+<W lemma="voto" msd="NC" tag="NC" in="-2:nobj" out="-1:quant|1:attr">votos</W>
 <W lemma="individual" msd="AN" tag="ADJ" in="-1:attr" out="">individuales</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="3:subj" out="">que</W>
@@ -55,9 +55,9 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:possr" out="1:possd">sus</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:possd" out="">políticos</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
-<W lemma="y" msd="CC" tag="CC" in="-5:coord" out="1:struct">y</W>
-<W lemma="sobre~todo" msd="RG" tag="ADV" in="-1:struct" out="1:bg">sobre todo</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:bg" out="1:nobj">en</W>
+<W lemma="y" msd="CC" tag="CC" in="-5:coord" out="1:scene">y</W>
+<W lemma="sobre~todo" msd="RG" tag="ADV" in="-1:scene" out="1:scene">sobre todo</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:scene" out="1:nobj">en</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">relación</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
@@ -203,18 +203,18 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">votación</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="volver" msd="VAD" tag="VLfin" in="-13:relr" out="-1:robj|-8:subj|-11:coord|-10:prg|2:preds|3:pnct|4:cause">vuelve</W>
-<W lemma="algo" msd="AN" tag="QU" in="1:degr" out="">algo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:preds" out="-1:degr">ilusoria</W>
+<W lemma="algo" msd="AN" tag="QU" in="1:quant" out="">algo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:preds" out="-1:quant">ilusoria</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:pnct" out="">–</W>
 <W lemma="ya~que" msd="CS" tag="CSUBF" in="-4:cause" out="1:vobj">ya que</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="-1:vobj" out="1:degr|3:subj|12:pnct">es</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:degr" out="1:other">más</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="-1:vobj" out="1:quant|3:subj|12:pnct">es</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:quant" out="1:other">más</W>
 <W lemma="bien" msd="RG" tag="ADV" in="-1:other" out="">bien</W>
 <W lemma="un" msd="PD" tag="ART" in="-3:subj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">reacción</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="algo" msd="AN" tag="QU" in="-1:nobj" out="1:degr">algo</W>
-<W lemma="que" msd="CS" tag="CQUE" in="-1:degr" out="1:nobj">que</W>
+<W lemma="algo" msd="AN" tag="QU" in="-1:nobj" out="1:quant">algo</W>
+<W lemma="que" msd="CS" tag="CQUE" in="-1:quant" out="1:nobj">que</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:pobj">decisión</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>

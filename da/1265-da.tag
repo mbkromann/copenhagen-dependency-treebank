@@ -224,10 +224,10 @@
 <W gloss="Clinton's" lemma="Clinton" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd">Clintons</W>
 <W gloss="suitability" lemma="egnethed" msd="NCCSU==I" tag="NN" in="-1:possd" out="">egnethed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:prec" out="2:conj">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:time" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="on" lemma="på" msd="SP" tag="IN" in="-11:mod" out="-3:prec|1:nobj">på</W>
+<W gloss="on" lemma="på" msd="SP" tag="IN" in="-11:mod" out="-3:time|1:nobj">på</W>
 <W gloss="basis" lemma="baggrund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">baggrund</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hans</W>

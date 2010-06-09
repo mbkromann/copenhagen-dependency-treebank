@@ -89,8 +89,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">drinks</W>
 <W msd="VADR" tag="VBP" in="" out="-3:subj|2:dobj|9:pnct">constitute</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">40</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:dobj" out="-1:quant|1:nobj">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">of</W>
 <W msd="PD" tag="DT" in="" out="">the</W>

@@ -9,8 +9,8 @@
 <W msd="SP" tag="IN" in="3:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reality</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-3:mod|-1:subj|-4:coord|1:degr|3:preds|4:pnct|5:time">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-3:mod|-1:subj|-4:coord|1:quant|3:preds|4:pnct|5:time">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">small</W>
 <W msd="NC=S" tag="NN" in="-3:preds" out="-1:attr">change</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -185,8 +185,8 @@
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="PI" tag="DT" in="-3:appa" out="2:attr|3:nobj|4:mod">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">new</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">new</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">brewery</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:attr">a</W>

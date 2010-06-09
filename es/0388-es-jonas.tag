@@ -8,8 +8,8 @@
 <W lemma="tú" msd="PP" tag="PPO" in="2:subj" out="1:nobj">Tu</W>
 <W lemma="madre" msd="NC" tag="NC" in="-1:nobj" out="">madre</W>
 <W lemma="era" msd="VAD" tag="VEfin" in="" out="-2:subj|2:preds|5:pnct">era</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="delgado" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|2:conj">delgada</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="delgado" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant|2:conj">delgada</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="deportivo" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">deportiva</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
@@ -178,8 +178,8 @@
 <W lemma="totalmente" msd="RG" tag="ADV" in="-2:man" out="">totalmente</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
 <W lemma="era" msd="VAD" tag="VEfin" in="" out="2:preds|10:pnct">Era</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|1:man|2:pobj">fÃ¡cil</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant|1:man|2:pobj">fÃ¡cil</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:man" out="">asÃ­</W>
 <W lemma="para" msd="CS" tag="CSUBI" in="-2:pobj" out="1:nobj|4:conj">para</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj" out="">ella...</W>

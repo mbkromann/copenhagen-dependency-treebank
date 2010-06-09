@@ -59,8 +59,8 @@
 <W gloss="I'll" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="-2:other" out="">lige</W>
 <W gloss="analyse" lemma="analysere" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|2:man">analysere</W>
-<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="1:degr" out="">noget</W>
-<W gloss="closely" lemma="nær" msd="ANC---=-R" tag="JJR" in="-2:man" out="-1:degr">nærmere</W>
+<W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="1:quant" out="">noget</W>
+<W gloss="closely" lemma="nær" msd="ANC---=-R" tag="JJR" in="-2:man" out="-1:quant">nærmere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -150,9 +150,9 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Jeg</W>
 <W gloss="will_have_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:eval|2:vobj|12:pnct|13:pnct">skal</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:eval" out="">jo</W>
-<W gloss="retain" lemma="holde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:ben">holde</W>
+<W gloss="retain" lemma="holde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:goal">holde</W>
 <W gloss="weight" lemma="vægt" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">vægt</W>
-<W gloss="for" lemma="til" msd="SP" tag="IN" in="-2:ben" out="1:nobj">til</W>
+<W gloss="for" lemma="til" msd="SP" tag="IN" in="-2:goal" out="1:nobj">til</W>
 <W gloss="the_fight" lemma="kamp" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:time">kampen</W>
 <W gloss="tomorrow" lemma="i_morgen" msd="RGU" tag="RP" in="-1:time" out="2:appa">i_morgen</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="1:pnct" out="">(</W>

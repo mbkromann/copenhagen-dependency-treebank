@@ -74,8 +74,8 @@
 <s>
 <W msd="SP" tag="IN" in="19:mod" out="1:nobj">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:pnct|5:appa">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">recent</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">recent</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">accounts</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-5:appa" out="2:nobj|9:pnct#">the</W>

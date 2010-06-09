@@ -169,11 +169,11 @@
 <W gloss="h." lemma="H." msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">H.</W>
 <W gloss="C." lemma="C." msd="NP--U==-" tag="NNP" in="-1:namef" out="">C.</W>
 <W gloss="Andersen" lemma="Andersen" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef">Andersen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-4:pnct|1:mod|2:preds|3:pnct|4:reas|13:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-4:pnct|1:mod|2:preds|3:pnct|4:cause|13:pnct">er</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-1:mod" out="">jo</W>
 <W gloss="world-renowned" lemma="verdensberømt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="">verdensberømt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-4:reas" out="3:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-4:cause" out="3:vobj">fordi</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="2:subj|3:[subj]|4:[subj]" out="1:possd">hans</W>
 <W gloss="forfatterskab" lemma="forfatterskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">forfatterskab</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>

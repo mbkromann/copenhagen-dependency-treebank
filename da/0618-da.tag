@@ -101,8 +101,8 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="red" lemma="rød" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">rød</W>
 <W gloss="mouth" lemma="mund" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">mund</W>
-<W gloss="deep" lemma="dyb" msd="ANP---=-R" tag="JJ" in="1:degr" out="">dybt</W>
-<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-5:preds" out="-1:degr|1:other">inde</W>
+<W gloss="deep" lemma="dyb" msd="ANP---=-R" tag="JJ" in="1:quant" out="">dybt</W>
+<W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-5:preds" out="-1:quant|1:other">inde</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">det</W>
 <W gloss="white" lemma="hvid" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">hvide</W>
@@ -257,8 +257,8 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="-1:pnct|2:conj|5:pnct">Og</W>
 <W gloss="Merry" lemma="glædelig" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">glædelig</W>
-<W gloss="Christmas" lemma="jul" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:attr|1:ben">jul</W>
-<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:ben" out="1:nobj">til</W>
+<W gloss="Christmas" lemma="jul" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:attr|1:goal">jul</W>
+<W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:goal" out="1:nobj">til</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

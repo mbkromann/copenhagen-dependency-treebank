@@ -9,9 +9,9 @@
 </p>
 <p>
 <s>
-<W lemma="haben" msd="VA" tag="VAFIN" in="6:cond" out="1:subj|2:ext|4:vobj|5:pnct">Hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="6:cond" out="1:subj|2:time|4:vobj|5:pnct">Hat</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj|3:[subj]" out="">man</W>
-<W lemma="einmal" msd="RG" tag="ADV" in="-2:ext" out="">einmal</W>
+<W lemma="einmal" msd="RG" tag="ADV" in="-2:time" out="">einmal</W>
 <W lemma="Nilwasser" msd="NC" tag="NN" in="1:dobj" out="">Nilwasser</W>
 <W lemma="trinken" msd="VAP" tag="VVPP" in="-4:vobj" out="-1:dobj|-3:[subj]">getrunken</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
@@ -31,17 +31,17 @@
 <W lemma="Arzt" msd="NC" tag="NN" in="-2:nobj" out="">Arzt</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="heute" msd="RG" tag="ADV" in="1:time" out="">Heute</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|4:vobj|5:pnct|6:reas|31:pnct|-1:time">wäre</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="1:subj|4:vobj|5:pnct|6:cause|31:pnct|-1:time">wäre</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj|3:[subj]" out="">er</W>
-<W lemma="viel" msd="PI" tag="PIDAT" in="2:ext" out="1:nobj">viele</W>
+<W lemma="viel" msd="PI" tag="PIDAT" in="2:time" out="1:nobj">viele</W>
 <W lemma="Mal" msd="NC" tag="NN" in="-1:nobj" out="">Male</W>
-<W lemma="sterben" msd="VAP" tag="VVPP" in="-4:vobj" out="-3:[subj]|-2:ext">gestorben</W>
+<W lemma="sterben" msd="VAP" tag="VVPP" in="-4:vobj" out="-3:[subj]|-2:time">gestorben</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="weil" msd="CS" tag="KOUS" in="-6:reas" out="5:vobj">weil</W>
+<W lemma="weil" msd="CS" tag="KOUS" in="-6:cause" out="5:vobj">weil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj|21:coref-var">der</W>
 <W lemma="Nil" msd="NP" tag="NE" in="-1:nobj" out="">Nil</W>
-<W lemma="so" msd="RG" tag="ADV" in="1:degr" out="4:nobj">so</W>
-<W lemma="verunreinigen" msd="VAP" tag="VVPP" in="1:preds" out="-1:degr">verunreinigt</W>
+<W lemma="so" msd="RG" tag="ADV" in="1:quant" out="4:nobj">so</W>
+<W lemma="verunreinigen" msd="VAP" tag="VVPP" in="1:preds" out="-1:quant">verunreinigt</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|1:pnct|-1:preds">ist</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="2:vobj">dass</W>
@@ -55,8 +55,8 @@
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-7:time" out="8:vobj">wenn</W>
 <W lemma="man" msd="PP" tag="PIS" in="7:subj" out="">man</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">nur</W>
-<W lemma="sein" msd="PO" tag="PPOSAT" in="5:dobj|1:{const}" out="-1:degr|1:possd">seinen</W>
+<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">nur</W>
+<W lemma="sein" msd="PO" tag="PPOSAT" in="5:dobj|1:{const}" out="-1:quant|1:possd">seinen</W>
 <W lemma="Finger" msd="NC" tag="NN" in="-1:possd" out="-1:{const}">Finger</W>
 <W lemma="in" msd="SP" tag="APPR" in="3:@loc" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj|-21:coref-var" out="1:nobj">den</W>
@@ -67,13 +67,13 @@
 </p>
 <p>
 <s>
-<W lemma="deshalb" msd="RG" tag="PAV" in="3:reas" out="">Deshalb</W>
+<W lemma="deshalb" msd="RG" tag="PAV" in="3:cause" out="">Deshalb</W>
 <W lemma="nie" msd="RG" tag="ADV" in="2:neg" out="">nie</W>
 <W lemma="Gemüse" msd="NC" tag="NN" in="1:dobj" out="">Gemüse</W>
-<W lemma="essen" msd="VAF" tag="VVINF" in="" out="-3:reas|-2:neg|-1:dobj|6:conj|7:pnct">essen</W>
+<W lemma="essen" msd="VAF" tag="VVINF" in="" out="-3:cause|-2:neg|-1:dobj|6:conj|7:pnct">essen</W>
 <W lemma="oder" msd="CC" tag="KON" in="5:coord" out="">oder</W>
-<W lemma="Wasser" msd="NC" tag="NN" in="4:dobj" out="1:attr|1:{origin}">Wasser</W>
-<W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{origin}" out="1:nobj">aus</W>
+<W lemma="Wasser" msd="NC" tag="NN" in="4:dobj" out="1:attr|1:{source}">Wasser</W>
+<W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{source}" out="1:nobj">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Hahn" msd="NC" tag="NN" in="-1:nobj" out="">Hahn</W>
 <W lemma="trinken" msd="VA" tag="VVFIN" in="-6:conj" out="-5:coord|-4:dobj">trinken</W>
@@ -110,10 +110,10 @@
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj" out="">ich</W>
 <W lemma="überleben" msd="VA" tag="VVFIN" in="-7:relr" out="-1:subj|-3:accom">überlebte</W>
 <W lemma="&3a;" msd="XP" tag="$." in="-8:pnct" out="">:</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:ext" out="1:time">3x</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="3:time" out="1:time">3x</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:time" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
-<W lemma="2" msd="AC" tag="CARD" in="-12:xpl" out="-3:ext|1:nobj|4:conj|9:pnct">2</W>
+<W lemma="2" msd="AC" tag="CARD" in="-12:xpl" out="-3:time|1:nobj|4:conj|9:pnct">2</W>
 <W lemma="Tablett&7c;Tablette" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">Tabletten</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="-1:{apart}">Paragurth</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -159,11 +159,11 @@
 <W lemma="-" msd="XP" tag="$(" in="1:pnct" out="">-</W>
 <W lemma="König" msd="NC" tag="NN" in="-4:title|1:{arg}" out="-1:pnct|4:pnct|1:gobj">König</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:gobj" out="2:nobj|-1:{arg}">der</W>
-<W lemma="ganz" msd="AN" tag="ADJA" in="1:degr" out="">ganzen</W>
-<W lemma="Welt" msd="NC" tag="NN" in="-2:nobj" out="-1:degr">Welt</W>
+<W lemma="ganz" msd="AN" tag="ADJA" in="1:quant" out="">ganzen</W>
+<W lemma="Welt" msd="NC" tag="NN" in="-2:nobj" out="-1:quant">Welt</W>
 <W lemma="-" msd="XP" tag="$(" in="-4:pnct" out="">-</W>
-<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-9:subj|6:vobj|7:pnct|1:ext">wird</W>
-<W lemma="oft" msd="RG" tag="ADV" in="-1:ext" out="">oft</W>
+<W lemma="werden" msd="VA" tag="VAFIN" in="" out="-9:subj|6:vobj|7:pnct|1:time">wird</W>
+<W lemma="oft" msd="RG" tag="ADV" in="-1:time" out="">oft</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">mit</W>
 <W lemma="Falkenkopf" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Falkenkopf</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>

@@ -72,27 +72,27 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj|5:ext">involved</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj|5:time">involved</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">construction</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">industry</W>
-<W msd="ANP" tag="RB" in="-5:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-5:time" out="">again</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|5:pnct|8:conj|13:pnct#|14:pnct|4:time">is</W>
 <W msd="ANP" tag="JJ" in="1:mod" out="">much</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">difficult</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">difficult</W>
 <W msd="NC=S" tag="NN" in="-4:time" out="">today</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-8:conj" out="-1:expl|-2:coord|2:dobj|5:preds">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr|1:mod|2:nobj">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant|1:mod|2:nobj">many</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">empty</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">buildings</W>
 <W msd="ANP" tag="JJ" in="-13:pnct#|-5:preds" out="">around.</W>

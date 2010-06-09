@@ -83,9 +83,9 @@
 <s>
 <W msd="SP" tag="IN" in="15:mod" out="2:nobj|5:preds|8:pnct">With</W>
 <W msd="SP" tag="IN" in="1:mod" out="">around</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:ext">300</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:mod|1:mod|2:time">300</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">deceased</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">annually</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">annually</W>
 <W msd="SP" tag="IN" in="-5:preds" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Hobro</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Hospital</W>

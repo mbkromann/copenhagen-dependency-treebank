@@ -31,14 +31,14 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">hope</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:ext">found</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|7:time">found</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:avobj">way</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">formation</W>
-<W msd="ANP" tag="RB" in="-7:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-7:time" out="">again</W>
 <W msd="XP" tag="." in="-36:pnct" out="">.</W>
 </s>
 <s>

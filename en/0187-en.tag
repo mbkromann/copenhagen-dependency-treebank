@@ -30,9 +30,9 @@
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|1:pnct">fell</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-7:focal|-8:discmark|1:degr|2:bg|34:pnct">rose</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">significantly</W>
-<W msd="SP" tag="IN" in="-2:bg" out="1:nobj">for</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-7:focal|-8:discmark|1:quant|2:scene|34:pnct">rose</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">significantly</W>
+<W msd="SP" tag="IN" in="-2:scene" out="1:nobj">for</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj|4:pnct|7:appa|23:modp|23:{elab}">certain</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">types</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -90,8 +90,8 @@
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">user</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-1:attr|-1:{func}#|-2:attr#">systems</W>
 <W msd="VADA" tag="VBD" in="" out="-9:pnct|-8:subj|2:dobj|6:time|9:pnct">attained</W>
-<W msd="ANP" tag="JJ" in="1:degr" out="">approximately</W>
-<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:degr|1:pobj">half</W>
+<W msd="ANP" tag="JJ" in="1:quant" out="">approximately</W>
+<W msd="NC=S" tag="NN" in="-2:dobj" out="-1:quant|1:pobj">half</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">sales</W>

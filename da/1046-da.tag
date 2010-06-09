@@ -108,18 +108,18 @@
 <W gloss="reported" lemma="rapportere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-7:[subj]|1:pnct|2:dobj">rapporteret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
-<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
-<W gloss="1,700" lemma="1.700" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="-1:degr|1:nobj">1.700</W>
+<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
+<W gloss="1,700" lemma="1.700" msd="AC---U=--" tag="CD" in="2:subj|3:[subj]" out="-1:quant|1:nobj">1.700</W>
 <W gloss="artillery_shells" lemma="artillierigranater" msd="XX" tag="FW" in="-1:nobj" out="">artillierigranater</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-2:subj|1:vobj">er</W>
-<W gloss="landed" lemma="havne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj|7:dur">havnet</W>
+<W gloss="landed" lemma="havne" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj|7:time">havnet</W>
 <W gloss="in" lemma="inden" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">inden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">de</W>
 <W gloss="the_serbian" lemma="serbisk" msd="ANP---=-R" tag="JJ" in="1:agent" out="">serbisk</W>
 <W gloss="predominantly" lemma="dominere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="-1:agent">dominerede</W>
 <W gloss="areas" lemma="område" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">områder</W>
-<W gloss="in" lemma="inden" msd="RGU" tag="RP" in="-7:dur" out="1:pobj">inden</W>
+<W gloss="in" lemma="inden" msd="RGU" tag="RP" in="-7:time" out="1:pobj">inden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="nights" lemma="døgn" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">døgn</W>
@@ -128,8 +128,8 @@
 </p>
 <p>
 <s>
-<W gloss="Around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">Omkring</W>
-<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="4:subj|5:[subj]|6:[subj]" out="-1:degr|1:nobj">20</W>
+<W gloss="Around" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">Omkring</W>
+<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="4:subj|5:[subj]|6:[subj]" out="-1:quant|1:nobj">20</W>
 <W gloss="soldiers" lemma="soldat" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="2:conj">soldater</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="civilians" lemma="civil" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:conj" out="-1:coord">civile</W>
@@ -171,11 +171,11 @@
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-3:ref|3:other" out="">hvor</W>
 <W gloss="Islamic" lemma="islamisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">islamiske</W>
 <W gloss="countries" lemma="land" msd="NCNPU==I" tag="NNP" in="1:subj" out="-1:attr">lande</W>
-<W gloss="encouraged" lemma="opfordre" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|-3:other|1:pobj|4:ben">opfordrede</W>
+<W gloss="encouraged" lemma="opfordre" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-1:subj|-3:other|1:pobj|4:goal">opfordrede</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">til</W>
 <W gloss="military" lemma="militær" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">militær</W>
 <W gloss="the_use_of_power" lemma="magtanvendelse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">magtanvendelse</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-4:ben" out="1:nobj">til</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-4:goal" out="1:nobj">til</W>
 <W gloss="advantage" lemma="fordel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">fordel</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>

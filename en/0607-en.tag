@@ -69,8 +69,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">bowels</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:neg|3:vobj">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|-1:degr|1:mod">emptied</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-5:[subj]|-1:quant|1:mod">emptied</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">after</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">visit</W>
@@ -101,8 +101,8 @@
 <s>
 <W msd="ANP" tag="RB" in="5:contr" out="1:pnct">However</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:attr">thing</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|-5:contr|1:preds|14:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
@@ -166,8 +166,8 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">calorie</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">reduction</W>
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj">of</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">200</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">200</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">calories</W>
 <W msd="VA" tag="MD" in="" out="-8:subj|1:vobj|9:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:dobj">provide</W>

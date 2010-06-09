@@ -2,7 +2,7 @@
 <W msd="CC" tag="CC" in="" out="14:conj">But</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
-<W msd="ANP" tag="RB" in="11:succ" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="11:time" out="-2:tobj">later</W>
 <W msd="SP" tag="IN" in="10:mod" out="1:nobj|4:pnct">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">similar</W>
@@ -13,7 +13,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">judge</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Lyngby</W>
-<W msd="VADA" tag="VBD" in="-14:conj" out="-5:subj|-10:mod|-11:succ|1:dobj">decided</W>
+<W msd="VADA" tag="VBD" in="-14:conj" out="-5:subj|-10:mod|-11:time|1:dobj">decided</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj">follow</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:pnct|5:xpl">the</W>
@@ -52,7 +52,7 @@
 <W msd="NP=S" tag="NNP" in="2:title" out="">Judge</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Jette</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-2:title|-1:namef">Krog</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|7:pnct|8:reas|21:pnct|-5:contr">did</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|7:pnct|8:cause|21:pnct|-5:contr">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:preds">find</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Dagø</W>
@@ -60,7 +60,7 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">compensation</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|5:[subj]|6:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">statements</W>
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:man|2:vobj">may</W>

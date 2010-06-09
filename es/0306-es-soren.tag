@@ -18,8 +18,8 @@
 <W lemma="@card@" msd="XS" tag="CODE" in="1:numm" out="">1505</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-4:conj" out="-1:numm|1:nobj">København</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">V.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:degr" out="">Sólo</W>
-<W lemma="el" msd="PD" tag="ART" in="7:subj" out="-1:degr|1:nobj">los</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:quant" out="">Sólo</W>
+<W lemma="el" msd="PD" tag="ART" in="7:subj" out="-1:quant|1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:loc">médicos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
@@ -52,8 +52,8 @@
 <W lemma="La" msd="NP" tag="NP" in="-1:nobj" out="1:nobj">LA</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">MENOPAUSIA</W>
 <W lemma="?" msd="XP" tag="FS" in="-5:pnct" out="">?</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:degr" out="">Muchas</W>
-<W lemma="mujer" msd="NC" tag="NC" in="1:subj|2:[subj]" out="-1:degr">mujeres</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:quant" out="">Muchas</W>
+<W lemma="mujer" msd="NC" tag="NC" in="1:subj|2:[subj]" out="-1:quant">mujeres</W>
 <W lemma="desear" msd="VAD" tag="VLfin" in="" out="-1:subj|1:vobj|6:time|15:pnct">desean</W>
 <W lemma="prescindir" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:[subj]|1:pobj">prescindir</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
@@ -88,8 +88,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-2:pnct" out="">–</W>
 <W lemma="entre" msd="SP" tag="SCENE" in="-3:ex" out="1:nobj">entre</W>
 <W lemma="otro" msd="AN" tag="QU" in="-1:nobj" out="1:nobj">otras</W>
-<W lemma="cosa" msd="NC" tag="NC" in="-1:nobj" out="1:bg">cosas</W>
-<W lemma="acerca~de" msd="SP" tag="SCENE" in="-1:bg" out="1:other">acerca de</W>
+<W lemma="cosa" msd="NC" tag="NC" in="-1:nobj" out="1:scene">cosas</W>
+<W lemma="acerca~de" msd="SP" tag="SCENE" in="-1:scene" out="1:other">acerca de</W>
 <W lemma="si" msd="NC" tag="NC" in="-1:other" out="3:vobj">si</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj|3:[subj]" out="1:nobj">las</W>
 <W lemma="hormona" msd="NC" tag="NC" in="-1:nobj" out="">hormonas</W>
@@ -113,8 +113,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="1:attrr#">píldoras</W>
 <W lemma="anticonceptivo" msd="AN" tag="ADJ" in="-1:attrr#" out="">anticonceptivas</W>
 <W lemma="durante" msd="SP" tag="SCENE" in="-4:time" out="2:nobj">durante</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:ext" out="">muchos</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:ext">años</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:time" out="">muchos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:time">años</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="2:dobj|4:time|8:pnct|10:conj|25:pnct">Tuvo</W>
 <W lemma="3" msd="AC" tag="CARD" in="1:numm" out="">3</W>
@@ -130,11 +130,11 @@
 <W lemma="tener" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">tener</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="">más</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:conj" out="-1:coord|1:vobj|4:bg">quería</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:conj" out="-1:coord|1:vobj|4:scene">quería</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="-1:vobj" out="2:preds">estar</W>
-<W lemma="completamente" msd="RG" tag="ADV" in="1:degr" out="">completamente</W>
-<W lemma="seguro" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">segura</W>
-<W lemma="a" msd="SP" tag="SCENE" in="-4:bg" out="1:nobj">a</W>
+<W lemma="completamente" msd="RG" tag="ADV" in="1:quant" out="">completamente</W>
+<W lemma="seguro" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">segura</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-4:scene" out="1:nobj">a</W>
 <W lemma="causa" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">causa</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
@@ -169,11 +169,11 @@
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="l" msd="PP" tag="PPX" in="-1:nobj" out="">ella</W>
 <W lemma="sobre" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">sobre</W>
-<W lemma="otro" msd="AN" tag="QU" in="-1:nobj" out="1:nobj|4:struct">otro</W>
+<W lemma="otro" msd="AN" tag="QU" in="-1:nobj" out="1:nobj|4:scene">otro</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:about">método</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:about" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">prevención</W>
-<W lemma="en~lugar~de" msd="SP" tag="SCENE" in="-4:struct" out="1:nobj">en lugar de</W>
+<W lemma="en~lugar~de" msd="SP" tag="SCENE" in="-4:scene" out="1:nobj">en lugar de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">píldoras</W>
 <W lemma="anticonceptivo" msd="AN" tag="ADJ" in="-1:attrr#" out="">anticonceptivas</W>
@@ -194,8 +194,8 @@
 <W lemma="riesgo" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:ref|3:relr">riesgos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:dobj" out="">que</W>
 <W lemma="este" msd="" tag="DM" in="1:subj" out="">esto</W>
-<W lemma="significar" msd="VAD" tag="VLfin" in="-3:relr" out="-2:dobj|-1:subj|1:ben">significaba</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">para</W>
+<W lemma="significar" msd="VAD" tag="VLfin" in="-3:relr" out="-2:dobj|-1:subj|1:goal">significaba</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">para</W>
 <W lemma="mujer" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mujeres</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="-1:attr" out="1:pobj|1:{arg}">mayores</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>

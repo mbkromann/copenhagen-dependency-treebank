@@ -17,7 +17,7 @@
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">60</W>
 <W lemma="casa" msd="NC" tag="NOM" in="" out="">case</W>
 <W lemma="armeno" msd="AN" tag="ADJ" in="" out="">armene</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="14:CONJ/(e)">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="14:CONJ&3a;add/(e)">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">state</W>
 <W lemma="incendiare" msd="VAP" tag="VER&3a;pper" in="" out="">incendiate</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
@@ -31,7 +31,7 @@
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">Una</W>
 <W lemma="guarnigione" msd="NC" tag="NOM" in="" out="">guarnigione</W>
 <W lemma="militare" msd="AN" tag="ADJ" in="" out="">militare</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ/(e)" out="21:+CONC/(però)/ATTR1">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ&3a;add/(e)" out="21:+CONC/(però)/ATTR1">ha</W>
 <W lemma="arrestare" msd="VAP" tag="VER&3a;pper" in="" out="">arrestato</W>
 <W lemma="ottanta" msd="AN" tag="ADJ" in="" out="">ottanta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">azerbaigiani</W>
@@ -89,7 +89,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Il</W>
 <W lemma="quartiere" msd="NC" tag="NOM" in="" out="">quartiere</W>
 <W lemma="armeno" msd="AN" tag="ADJ" in="" out="">armeno</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl/(infatti)/ATTR1" out="18:CONJ/(e)/ATTR1">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-11:AGENTIVE&3a;expl/(infatti)/ATTR1" out="18:CONJ&3a;add/(e)/ATTR1">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="sorvegliare" msd="VAP" tag="VER&3a;pper" in="" out="">sorvegliato</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
@@ -107,12 +107,12 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="" out="">altri</W>
 <W lemma="distretto" msd="NC" tag="NOM" in="" out="">distretti</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:CONJ/(e)/ATTR1" out="">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:CONJ&3a;add/(e)/ATTR1" out="">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stati</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="" out="">portati</W>
 <W lemma="lì" msd="RG" tag="ADV" in="" out="">lì</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-60:+CONST&3a;exem/ATTR1" out="-34:qobj|18:+CONJ/inoltre/ATTR2">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-60:+CONST&3a;exem/ATTR1" out="-34:qobj|18:+CONJ&3a;add/inoltre/ATTR2">dice</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 </p>
@@ -130,7 +130,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Gennadij</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Gerasimov</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-18:+CONJ/inoltre/ATTR2" out="19:CONJ/(e)/ATTR2">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-18:+CONJ&3a;add/inoltre/ATTR2" out="19:CONJ&3a;add/(e)/ATTR2">ha</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="" out="">inoltre</W>
 <W lemma="dichiarato" msd="AN" tag="ADJ" in="" out="">dichiarato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -149,7 +149,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-19:CONJ/(e)/ATTR2" out="57:+CONJ/(e)/ATTR3">Ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-19:CONJ&3a;add/(e)/ATTR2" out="57:+CONJ&3a;add/(e)/ATTR3">Ha</W>
 <W lemma="dichiarare" msd="VAP" tag="VER&3a;pper" in="" out="">dichiarato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
@@ -206,7 +206,7 @@
 <W lemma="città" msd="NC" tag="NOM" in="" out="">città</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="come" msd="CS" tag="CON" in="" out="">come</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-57:+CONJ/(e)/ATTR3" out="">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-57:+CONJ&3a;add/(e)/ATTR3" out="">ha</W>
 <W lemma="riportare" msd="VAP" tag="VER&3a;pper" in="" out="">riportato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="portavoce" msd="NC" tag="NOM" in="" out="">portavoce</W>

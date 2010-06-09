@@ -151,8 +151,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">experiences</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:vobj">are</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dur">garnered</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:time">garnered</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">project</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">period</W>

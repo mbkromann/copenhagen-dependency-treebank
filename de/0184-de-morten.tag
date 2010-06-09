@@ -24,7 +24,7 @@
 </p>
 <p>
 <s>
-<W lemma="seit" msd="SP" tag="APPR" in="9:dur" out="3:vobj">Seit</W>
+<W lemma="seit" msd="SP" tag="APPR" in="9:time" out="3:vobj">Seit</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:[subj]|2:subj|6:[subj]" out="">wir</W>
 <W lemma="beginnen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:[subj]|5:vobj">begonnen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:vobj|1:pnct">haben</W>
@@ -33,11 +33,11 @@
 <W lemma="Pasta" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Pasta</W>
 <W lemma="herstellen" msd="VAF" tag="VVIZU" in="-5:vobj" out="-1:dobj|-6:[subj]|1:pnct">herzustellen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-9:dur|1:subj|4:ext|6:vobj|7:pnct">haben</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-9:time|1:subj|4:time|6:vobj|7:pnct">haben</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|5:[subj]" out="">wir</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:dobj" out="1:nobj">den</W>
 <W lemma="Absatz" msd="NC" tag="NN" in="-1:nobj" out="">Absatz</W>
-<W lemma="jed" msd="PI" tag="PIDAT" in="-4:ext" out="1:nobj">jedes</W>
+<W lemma="jed" msd="PI" tag="PIDAT" in="-4:time" out="1:nobj">jedes</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahr</W>
 <W lemma="verdoppeln" msd="VAP" tag="VVPP" in="-6:vobj" out="-4:dobj|-5:[subj]">verdoppelt</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
@@ -62,7 +62,7 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj|3:appr">der</W>
 <W lemma="Produktmanager" msd="NC" tag="NN" in="-1:nobj" out="">Produktmanager</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:appa|61:coref-id">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-3:appr" out="-1:namef|1:pnct|2:appa|61:coref-iden">Bred</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:appa" out="1:name">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
@@ -71,7 +71,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:name|88:coref-id">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="2:subj" out="1:name|88:coref-iden">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-2:subj|1:preds|8:pnct|13:conj|29:pnct">ist</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:preds" out="1:attr|2:attr|3:nobj">der</W>
@@ -111,8 +111,8 @@
 <W lemma="können" msd="VA" tag="VMFIN" in="13:qobj" out="-1:subj|6:vobj|7:pnct|12:pnct">können</W>
 <W lemma="aus" msd="SP" tag="APPR" in="5:source" out="1:nobj">aus</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
-<W lemma="Tendenz" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{pos}">Tendenzen</W>
-<W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{pos}" out="1:nobj">im</W>
+<W lemma="Tendenz" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{loc}">Tendenzen</W>
+<W lemma="im" msd="SP+P" tag="APPRART" in="-1:attr|-1:{loc}" out="1:nobj">im</W>
 <W lemma="Ausland" msd="NC" tag="NN" in="-1:nobj" out="">Ausland</W>
 <W lemma="schließen" msd="VAF" tag="VVINF" in="-6:vobj" out="-5:source|-7:[subj]|2:dobj">schließen</W>
 <W lemma="," msd="XP" tag="$," in="-7:pnct" out="">,</W>
@@ -123,15 +123,15 @@
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
 <W lemma="sagen" msd="VA" tag="VVFIN" in="" out="-13:qobj|2:subj|18:pnct">sagt</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj|-61:coref-id" out="-1:namef|1:pnct|2:ref|15:relpa|76:coref-id">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-2:subj|-61:coref-iden" out="-1:namef|1:pnct|2:ref|15:relpa|76:coref-iden">Bred</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|12:[subj]|13:subj" out="">der</W>
 <W lemma="gestern" msd="RG" tag="ADV" in="12:time" out="">gestern</W>
 <W lemma="von" msd="SP" tag="APPR" in="10:@dir" out="1:nobj">von</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:pnct|6:appa">der</W>
 <W lemma="groß" msd="AN" tag="ADJA" in="-1:attr" out="">größten</W>
-<W lemma="Nahrungsmittelmesse" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{pos}">Nahrungsmittelmesse</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="Nahrungsmittelmesse" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{loc}">Nahrungsmittelmesse</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="Deutschland" msd="NP" tag="NE" in="-1:nobj" out="">Deutschland</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-6:appa" out="1:nobj|2:pnct">der</W>
@@ -150,24 +150,24 @@
 <p>
 <s>
 <W lemma="Pasta" msd="NC" tag="NN" in="1:subj" out="22:coref-var">Pasta</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:dur|3:preds|11:pnct">ist</W>
-<W lemma="bisher" msd="RG" tag="ADV" in="-1:dur" out="">bisher</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">nur</W>
-<W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="-1:degr|1:attr|2:nobj">ein</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:time|3:preds|11:pnct">ist</W>
+<W lemma="bisher" msd="RG" tag="ADV" in="-1:time" out="">bisher</W>
+<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">nur</W>
+<W lemma="ein" msd="P[ID]" tag="ART" in="-3:preds" out="-1:quant|1:attr|2:nobj">ein</W>
 <W lemma="klein" msd="AN" tag="ADJA" in="-1:attr" out="">kleiner</W>
 <W lemma="Teil" msd="NC" tag="NN" in="-2:nobj|1:{apart}" out="1:pobj">Teil</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="Geschäftsgrundlage" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{agent}">Geschäftsgrundlage</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:attr|-1:{agent}" out="1:nobj">von</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-id" out="1:name|8:coref-var">Tholstrup</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj|-88:coref-iden" out="1:name|8:coref-var">Tholstrup</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:name" out="">Cheese</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">Nur</W>
-<W lemma="30" msd="AC" tag="CARD" in="1:{apart}|6:subj|13:[subj]" out="-1:degr|1:pobj">30</W>
+<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">Nur</W>
+<W lemma="30" msd="AC" tag="CARD" in="1:{apart}|6:subj|13:[subj]" out="-1:quant|1:pobj">30</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj" out="-1:{apart}|1:nobj">der</W>
 <W lemma="500" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">500</W>
 <W lemma="Angestellte" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">Angestellten</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-8:coref-var|-1:pobj|-1:{arg}" out="1:nobj|15:coref-id">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-8:coref-var|-1:pobj|-1:{arg}" out="1:nobj|15:coref-iden">der</W>
 <W lemma="Firma" msd="NC" tag="NN" in="-1:nobj" out="">Firma</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:subj|6:nobj|8:pnct">haben</W>
 <W lemma="mit" msd="SP" tag="APPR" in="6:pobj" out="1:nobj">mit</W>
@@ -182,7 +182,7 @@
 </p>
 <p>
 <s>
-<W lemma="d" msd="P[ID]" tag="ART" in="-15:coref-id|2:subj" out="1:nobj">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-15:coref-iden|2:subj" out="1:nobj">Die</W>
 <W lemma="Firma" msd="NC" tag="NN" in="-1:nobj" out="">Firma</W>
 <W lemma="betreiben" msd="VA" tag="VVFIN" in="" out="-2:subj|1:conc|3:time|4:dobj|12:pnct|16:conj|31:pnct">betreibt</W>
 <W lemma="aber" msd="RG" tag="ADV" in="-1:conc" out="1:avobj">aber</W>
@@ -199,7 +199,7 @@
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
 <W lemma="und" msd="CC" tag="KON" in="3:coord" out="">und</W>
 <W lemma="Lars" msd="NP" tag="NE" in="1:namef" out="">Lars</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-76:coref-id|1:subj" out="-1:namef">Bred</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-76:coref-iden|1:subj" out="-1:namef">Bred</W>
 <W lemma="glauben" msd="VA" tag="VVFIN" in="-16:conj" out="-3:coord|-1:subj|1:focal|2:pobj|3:pnct">glaubt</W>
 <W lemma="sogar" msd="RG" tag="ADV" in="-1:focal" out="">sogar</W>
 <W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="2:nobj">daran</W>

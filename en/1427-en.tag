@@ -74,14 +74,14 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="8:conj|28:pnct">But</W>
-<W msd="CS" tag="IN" in="7:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="7:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|3:pnct">succeeded</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">that</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-7:prec|3:preds">was</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-1:subj|-7:time|3:preds">was</W>
 <W msd="ANP" tag="RB" in="1:mod" out="3:nobj">so</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">far</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-1:mod">gone</W>
@@ -115,9 +115,9 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:vobj">whether</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|2:dur">murdered</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|2:time">murdered</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">someone</W>
-<W msd="SP" tag="IN" in="-2:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-2:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>

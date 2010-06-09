@@ -27,8 +27,8 @@
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj|4:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">photographed</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">photographed</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">kitchens</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>

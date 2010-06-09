@@ -125,15 +125,15 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">You</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|8:prec|14:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:dobj|8:time|14:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|3:lobj|5:ext">drive</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|3:lobj|5:time">drive</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:avobj">at</W>
 <W msd="ANS" tag="JJS" in="-1:avobj" out="">least</W>
 <W msd="AC" tag="CD" in="-3:lobj" out="-2:mod|1:nobj">20,000</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">km</W>
-<W msd="ANP" tag="RB" in="-5:ext" out="">annually</W>
-<W msd="CS" tag="IN" in="-8:prec" out="4:vobj">before</W>
+<W msd="ANP" tag="RB" in="-5:time" out="">annually</W>
+<W msd="CS" tag="IN" in="-8:time" out="4:vobj">before</W>
 <W msd="PI" tag="DT" in="3:subj|4:[subj]" out="1:mod|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">diesel</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">engine</W>
@@ -173,14 +173,14 @@
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="7:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="7:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="5:subj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">diesel</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod|1:possd">cars'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">share</W>
 <W msd="NC=S" tag="NN" in="1:time" out="">today</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|-1:time|-7:reas|2:preds|3:pnct|4:time|10:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|-1:time|-7:cause|2:preds|3:pnct|4:time|10:pnct">is</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">almost</W>
 <W msd="NC=S" tag="NN" in="-2:preds" out="-1:attr">nil</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -217,7 +217,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">trips</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-8:cond|1:vobj|16:pnct|17:reas|30:pnct">should</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-8:cond|1:vobj|16:pnct|17:cause|30:pnct">should</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">choose</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">car</W>
@@ -234,7 +234,7 @@
 <W msd="NC=S" tag="NN" in="1:nobj" out="-5:attr">litre</W>
 <W msd="NC=S" tag="NN" in="-7:nobj" out="-1:nobj">class</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-17:reas" out="5:vobj">because</W>
+<W msd="CS" tag="IN" in="-17:cause" out="5:vobj">because</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">extra</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">engine</W>
 <W msd="NC=S" tag="NN" in="2:subj" out="-1:mod|-2:attr">power</W>

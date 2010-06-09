@@ -49,8 +49,8 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">League</W>
 <W msd="VA" tag="MD" in="" out="-7:subj|1:vobj|6:pnct|9:conj|40:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:mod">meet</W>
-<W msd="ANP" tag="RB" in="-1:mod" out="1:dur">twice</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="ANP" tag="RB" in="-1:mod" out="1:time">twice</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">spring</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -176,14 +176,14 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:contr" out="">however</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-4:nobj" out="2:dobj|6:pnct|7:reas">achieving</W>
+<W msd="VAG" tag="VBG" in="-4:nobj" out="2:dobj|6:pnct|7:cause">achieving</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">much</W>
 <W msd="ANC" tag="JJR" in="-2:dobj" out="-1:mod|1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">honor</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:reas" out="9:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:cause" out="9:vobj">because</W>
 <W msd="PD" tag="DT" in="8:subj|10:[subj]" out="1:mod|2:nobj|3:pnct">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">DM</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">gold</W>

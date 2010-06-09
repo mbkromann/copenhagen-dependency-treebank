@@ -40,7 +40,7 @@
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">sound</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-3:mod">equipment</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="VAG" tag="VBG" in="-10:conj" out="3:dobj|5:mod|9:pnct|10:cont">employing</W>
+<W msd="VAG" tag="VBG" in="-10:conj" out="3:dobj|5:mod|9:pnct|10:time">employing</W>
 <W msd="SP" tag="IN" in="2:mod" out="1:mod">up</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:[nobj]">to</W>
 <W msd="AC" tag="CD" in="-3:dobj|-1:[nobj]" out="-2:mod|1:nobj">150</W>
@@ -50,7 +50,7 @@
 <W msd="PI" tag="DT" in="-2:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-10:time" out="3:vobj">while</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tour</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj">lasts</W>

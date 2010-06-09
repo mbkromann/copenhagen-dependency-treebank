@@ -6,8 +6,8 @@
 <W msd="AC" tag="CD" in="-1:dobj" out="1:pobj|7:ref|9:rel">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:attr|4:nobj">the</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">recent</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">recent</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="">stamps</W>
 <W msd="PT" tag="WDT" in="-7:ref|2:subj" out="">that</W>
@@ -139,9 +139,9 @@
 <s>
 <W msd="ANP" tag="RB" in="8:time" out="1:pnct">Now</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="4:subj" out="-2:degr|-1:degr|1:loc">few</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="4:subj" out="-2:quant|-1:quant|1:loc">few</W>
 <W msd="SP" tag="IN" in="-1:loc" out="1:pobj">outside</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>

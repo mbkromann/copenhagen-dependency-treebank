@@ -228,8 +228,8 @@
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-38:xpl" out="-26:pnct|-1:subj|-25:cond|1:vobj|18:pnct">are</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:ext|4:pobj">surprised</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="2:conj">again</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:time|4:pobj">surprised</W>
+<W msd="ANP" tag="RB" in="-1:time" out="2:conj">again</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">again</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">about</W>
@@ -239,8 +239,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">knowledge</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">elemental</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">elemental</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">matters</W>
 <W msd="SP" tag="IN" in="-4:mod" out="2:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Eastern</W>

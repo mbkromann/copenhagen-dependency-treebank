@@ -102,12 +102,12 @@
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="3:conj|21:pnct">Men</W>
 <W gloss="the_week" lemma="uge" msd="NCCSU==D" tag="NN" in="1:tobj" out="">ugen</W>
 <W gloss="after" lemma="efter" msd="RGU" tag="RP" in="1:mod" out="-1:tobj">efter</W>
-<W gloss="removed" lemma="fjerne" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-1:mod|1:subj|5:ext|6:dobj|7:pobj|10:pnct|13:conj">fjernede</W>
+<W gloss="removed" lemma="fjerne" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-1:mod|1:subj|5:time|6:dobj|7:pobj|10:pnct|13:conj">fjernede</W>
 <W gloss="the_grandmother" lemma="mormoder" msd="NCCSU==D" tag="NN" in="-1:subj" out="2:conj">mormoderen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-2:conj" out="-1:coord|1:possd">hendes</W>
 <W gloss="attorney" lemma="advokat" msd="NCCSU==I" tag="NN" in="-1:possd" out="">advokat</W>
-<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-5:ext" out="">igen</W>
+<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-5:time" out="">igen</W>
 <W gloss="the_children" lemma="barn" msd="NCNPU==D" tag="NNP" in="-6:dobj" out="">børnene</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-7:pobj" out="1:nobj">fra</W>
 <W gloss="Bagsværd" lemma="Bagsværd" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Bagsværd</W>
@@ -255,9 +255,9 @@
 <W gloss="warmth" lemma="varme" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">varme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="3:subj" out="">man</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="2:degr" out="">kun</W>
-<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:ext" out="">sjældent</W>
-<W gloss="meet" lemma="møde" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-3:subj|-9:[dobj]|-2:degr|-1:ext">møder</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="2:quant" out="">kun</W>
+<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:time" out="">sjældent</W>
+<W gloss="meet" lemma="møde" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-3:subj|-9:[dobj]|-2:quant|-1:time">møder</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>

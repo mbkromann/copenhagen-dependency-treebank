@@ -50,8 +50,8 @@
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:mod|2:add|4:preds|15:pnct">var</W>
 <W gloss="when" lemma="da" msd="RGU" tag="RP" in="-1:mod" out="">da</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-2:add" out="">også</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-4:preds" out="-1:degr|1:pobj">med</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="with" lemma="med" msd="RGU" tag="RP" in="-4:preds" out="-1:quant|1:pobj">med</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>

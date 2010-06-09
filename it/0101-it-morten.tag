@@ -1,7 +1,7 @@
 <p>
 <s>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">Più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="3:time" out="-1:degr|1:pobj">tardi</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">Più</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="3:time" out="-1:quant|1:pobj">tardi</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">nella</W>
 <W lemma="giornata" msd="NC" tag="NOM" in="-1:nobj" out="">giornata</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-3:time|1:vobj|2:subj|8:pnct|23:pnct">è</W>
@@ -117,8 +117,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-15:coref-var|1:subj|2:[subj]" out="">Skibby</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="-2:vobj" out="-1:subj|1:vobj">era</W>
-<W lemma="salire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:degr|2:loc">salito</W>
-<W lemma="molto" msd="RG" tag="ADV" in="-1:degr" out="">molto</W>
+<W lemma="salire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:quant|2:loc">salito</W>
+<W lemma="molto" msd="RG" tag="ADV" in="-1:quant" out="">molto</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:loc" out="1:nobj">nella</W>
 <W lemma="classifica" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">classifica</W>
 <W lemma="finale" msd="AN" tag="ADJ" in="-1:attr" out="">finale</W>
@@ -142,8 +142,8 @@
 </p>
 <p>
 <s>
-<W lemma="in" msd="SP" tag="PRE" in="1:ext" out="">In</W>
-<W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:subj|2:[subj]" out="-1:ext">molti</W>
+<W lemma="in" msd="SP" tag="PRE" in="1:time" out="">In</W>
+<W lemma="molto" msd="PI" tag="PRO&3a;indef" in="1:subj|2:[subj]" out="-1:time">molti</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|3:pnct|5:ex">hanno</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">avuto</W>
 <W lemma="sfortuna" msd="NC" tag="NOM" in="-1:dobj" out="">sfortuna</W>
@@ -160,8 +160,8 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-8:conj" out="-3:coord|-1:subj|1:vobj|8:pnct">ha</W>
 <W lemma="forare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="1:time">forato</W>
 <W lemma="dopo" msd="RG" tag="ADV" in="-1:time" out="2:nobj">dopo</W>
-<W lemma="solare" msd="VADR" tag="VER&3a;cpre" in="1:degr" out="">soli</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:degr|1:nobj">10</W>
+<W lemma="solare" msd="VADR" tag="VER&3a;cpre" in="1:quant" out="">soli</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:quant|1:nobj">10</W>
 <W lemma="metro" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">metri</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>
 <W lemma="gara" msd="NC" tag="NOM" in="-1:nobj" out="">gara</W>
@@ -204,9 +204,9 @@
 <W lemma="sé" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">sé</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="2:nobj">nell'</W>
 <W lemma="ultimo" msd="AN" tag="ADJ" in="1:attr" out="">ultimo</W>
-<W lemma="giro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:degr">giro</W>
+<W lemma="giro" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|2:quant">giro</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
-<W lemma="circa" msd="RG" tag="ADV" in="-2:degr" out="-1:pnct|1:nobj">circa</W>
+<W lemma="circa" msd="RG" tag="ADV" in="-2:quant" out="-1:pnct|1:nobj">circa</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj|8:coref-res">700</W>
 <W lemma="metro" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">metri</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">dal</W>

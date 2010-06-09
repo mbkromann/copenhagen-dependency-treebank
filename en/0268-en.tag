@@ -140,8 +140,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">fracture</W>
 <W msd="VADR" tag="VBZ" in="" out="-4:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:man">healed</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">quickly</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:quant">quickly</W>
 </s>
 <s>
 <W msd="PD" tag="DT" in="5:subj|7:[subj]" out="2:nobj|3:mod">The</W>
@@ -151,9 +151,9 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">Thorning</W>
 <W msd="VA" tag="MD" in="" out="-5:subj|1:epi|2:vobj|5:pnct">will</W>
 <W msd="ANP" tag="RB" in="-1:epi" out="">certainly</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|1:dobj|2:ext">play</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-7:[subj]|1:dobj|2:time">play</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">football</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -223,8 +223,8 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PT" tag="WP" in="-1:nobj|1:[subj]" out="1:rel">what</W>
 <W msd="VADA" tag="VBD" in="-1:rel" out="-1:[subj]|4:mod">happened</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="2:tobj" out="-1:degr|1:nobj">two</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="2:tobj" out="-1:quant|1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
 <W msd="ANP" tag="RB" in="-4:mod" out="-2:tobj">ago</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>

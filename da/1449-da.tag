@@ -104,8 +104,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_residents" lemma="beboer" msd="NCCPU==D" tag="NNP" in="1:subj" out="">beboerne</W>
-<W gloss="are_raging" lemma="rase" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-1:subj|-2:coord|1:ext">raser</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
+<W gloss="are_raging" lemma="rase" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-1:subj|-2:coord|1:time">raser</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:time" out="">igen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 </p>

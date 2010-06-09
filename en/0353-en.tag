@@ -27,8 +27,8 @@
 </s>
 <s>
 <W msd="XP" tag="&3a;" in="2:pnct" out="">-</W>
-<W msd="PT" tag="WRB" in="1:reas" out="">Why</W>
-<W msd="VADR" tag="VBZ" in="7:qobj" out="-2:pnct|1:subj|2:vobj|4:pnct|-1:reas">is</W>
+<W msd="PT" tag="WRB" in="1:cause" out="">Why</W>
+<W msd="VADR" tag="VBZ" in="7:qobj" out="-2:pnct|1:subj|2:vobj|4:pnct|-1:cause">is</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:[subj]|1:dobj">called</W>
 <W msd="ANP" tag="RB" in="-1:dobj" out="">Scraggly</W>
@@ -58,8 +58,8 @@
 <W msd="ANP" tag="RB" in="11:mod" out="1:pobj">Even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:degr|2:vobj|6:pnct">can</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:quant|2:vobj|6:pnct">can</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">see</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">man's</W>
@@ -82,8 +82,8 @@
 <W msd="ANP" tag="RB" in="1:subj" out="">Scraggly</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">nice</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">nice</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">name</W>
 <W msd="XP" tag="." in="-9:pnct" out="">?</W>
 </s>

@@ -47,8 +47,8 @@
 <W gloss="neck" lemma="hals" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">halsen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="finally" lemma="endelig" msd="RGU" tag="RP" in="1:att" out="">endelig</W>
-<W gloss="speaks" lemma="tale" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:att|-2:coord|1:subj">taler</W>
+<W gloss="finally" lemma="endelig" msd="RGU" tag="RP" in="1:eval" out="">endelig</W>
+<W gloss="speaks" lemma="tale" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-1:eval|-2:coord|1:subj">taler</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
@@ -150,13 +150,13 @@
 <W gloss="breastbone" lemma="brystben" msd="NCNSU==I" tag="NN" in="-1:possd" out="">brystben</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="4:coord" out="">og</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="3:succ" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="3:time" out="1:nobj">efter</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="while" lemma="tid" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tid</W>
-<W gloss="glide" lemma="glide" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-3:succ|-4:coord|1:subj|2:@dir|3:dur">glider</W>
+<W gloss="glide" lemma="glide" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-3:time|-4:coord|1:subj|2:@dir|3:time">glider</W>
 <W gloss="fingertips" lemma="fingerspids" msd="NCCPU==D" tag="NNP" in="-1:subj" out="">fingerspidserne</W>
 <W gloss="down" lemma="ned" msd="RGU" tag="RP" in="-2:@dir" out="">ned</W>
-<W gloss="until" lemma="til" msd="CS" tag="IN" in="-3:dur" out="2:vobj">til</W>
+<W gloss="until" lemma="til" msd="CS" tag="IN" in="-3:time" out="2:vobj">til</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="rest" lemma="hvile" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:lobj">hviler</W>
 <W gloss="above" lemma="over" msd="SP" tag="IN" in="-1:lobj" out="1:nobj">over</W>
@@ -246,9 +246,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-5:cond|1:subj|2:vobj|13:pnct">ville</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">jeg</W>
-<W gloss="scream" lemma="skrige" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pnct|2:dur">skrige</W>
+<W gloss="scream" lemma="skrige" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pnct|2:time">skrige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="until" lemma="til" msd="CS" tag="IN" in="-2:dur" out="2:vobj|4:pnct|5:conj">til</W>
+<W gloss="until" lemma="til" msd="CS" tag="IN" in="-2:time" out="2:vobj|4:pnct|5:conj">til</W>
 <W gloss="someone" lemma="nogen" msd="PI-CSU--U" tag="DT" in="1:subj" out="">nogen</W>
 <W gloss="heard" lemma="høre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">hørte</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
@@ -272,8 +272,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="am_sucked" lemma="suge" msd="VADR=----P-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:comp|7:dir|11:@dir">suges</W>
-<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-1:comp" out="1:nobj">som</W>
+<W gloss="am_sucked" lemma="suge" msd="VADR=----P-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:resem|7:dir|11:@dir">suges</W>
+<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-1:resem" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:loc">et</W>
 <W gloss="withered" lemma="vissen" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">vissent</W>
 <W gloss="leaf" lemma="blad" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">blad</W>

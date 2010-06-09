@@ -1,6 +1,6 @@
 <W lemma="&quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="avere|riavere" msd="VADR" tag="VER:pres" in="" out="">Hanno</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="rifocillare" msd="VAP" tag="VER:pper" in="" out="">rifocillato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="nostro" msd="PO" tag="PRO:poss" in="" out="">nostro</W>

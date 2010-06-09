@@ -80,11 +80,11 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="4:succ" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="4:time" out="1:nobj">Efter</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:possd">en</W>
 <W gloss="nowadays" lemma="dag" msd="NCCSG==I" tag="NN" in="-1:nobj" out="">dags</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:possd" out="">tid</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-4:succ|1:subj|5:vobj|7:pnct">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-4:time|1:subj|5:vobj|7:pnct">ville</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj|4:[subj]" out="1:nobj">det</W>
 <W gloss="most" lemma="meget" msd="ANS[CN]SU=DU" tag="JJS" in="-1:nobj" out="1:pobj">meste</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -104,8 +104,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="All_the_while" lemma="imens" msd="RGU" tag="RP" in="1:cont" out="">Imens</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:cont|1:subj|3:vobj|10:pnct">kunne</W>
+<W gloss="All_the_while" lemma="imens" msd="RGU" tag="RP" in="1:time" out="">Imens</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|3:vobj|10:pnct">kunne</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj|2:[subj]|5:[subj]" out="1:other">de</W>
 <W gloss="long-term_unemployed" lemma="langtidsledig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:other" out="">langtidsledige</W>
 <W gloss="watch" lemma="se" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj|3:conj">se</W>
@@ -198,8 +198,8 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="carry_out" lemma="udføre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|5:loc">udføre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj|7:modp">en</W>
-<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:degr" out="">ganske</W>
-<W gloss="particular" lemma="bestemt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:degr">bestemt</W>
+<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:quant" out="">ganske</W>
+<W gloss="particular" lemma="bestemt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:quant">bestemt</W>
 <W gloss="function" lemma="funktion" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">funktion</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:loc" out="1:nobj">i</W>
 <W gloss="nature" lemma="natur" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">naturen</W>

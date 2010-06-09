@@ -119,9 +119,9 @@
 </p>
 <p>
 <s>
-<W gloss="Has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:dobj|2:dur">Har</W>
+<W gloss="Has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="1:dobj|2:time">Har</W>
 <W gloss="deadline" lemma="frist" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">frist</W>
-<W gloss="of" lemma="til" msd="SP" tag="IN" in="-2:dur" out="2:nobj">til</W>
+<W gloss="of" lemma="til" msd="SP" tag="IN" in="-2:time" out="2:nobj">til</W>
 <W gloss="1" lemma="1." msd="AO---U=--" tag="JJ" in="1:other" out="">1.</W>
 <W gloss="December" lemma="december" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:other">december</W>
 </s>
@@ -144,9 +144,9 @@
 <W gloss="Jørgensen" lemma="Jørgensen" msd="NP--U==-" tag="NNP" in="-2:dobj" out="-1:namef">Jørgensen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-15:subj|1:vobj|25:pnct">har</W>
-<W gloss="been_given" lemma="få" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-16:[subj]|1:dobj|2:dur|5:pobj|12:other">fået</W>
+<W gloss="been_given" lemma="få" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-16:[subj]|1:dobj|2:time|5:pobj|12:other">fået</W>
 <W gloss="deadline" lemma="frist" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">frist</W>
-<W gloss="of" lemma="til" msd="SP" tag="IN" in="-2:dur" out="2:nobj">til</W>
+<W gloss="of" lemma="til" msd="SP" tag="IN" in="-2:time" out="2:nobj">til</W>
 <W gloss="1" lemma="1." msd="AO---U=--" tag="JJ" in="1:other" out="">1.</W>
 <W gloss="December" lemma="december" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:other">december</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-5:pobj" out="3:nobj">af</W>
@@ -175,13 +175,13 @@
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="step" lemma="skridt" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">skridt</W>
 <W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:vobj|9:pnct">blev</W>
-<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:other|6:prec">taget</W>
+<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:other|6:time">taget</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">et</W>
 <W gloss="extended" lemma="udvide" msd="VAPA=S[CN]IA-U" tag="VBN" in="-1:attr" out="">udvidet</W>
 <W gloss="board_meeting" lemma="bestyrelsesmøde" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">bestyrelsesmøde</W>
 <W gloss="the_day" lemma="dag" msd="NCCSU==D" tag="NN" in="1:tobj" out="">dagen</W>
-<W gloss="before" lemma="før" msd="SP" tag="IN" in="-6:prec" out="-1:tobj|1:nobj">før</W>
+<W gloss="before" lemma="før" msd="SP" tag="IN" in="-6:time" out="-1:tobj|1:nobj">før</W>
 <W gloss="Whitsun" lemma="pinse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pinse</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

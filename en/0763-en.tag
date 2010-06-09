@@ -66,8 +66,8 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|2:preds|10:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">proud</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">proud</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">easy</W>
@@ -154,9 +154,9 @@
 <s>
 <W msd="ANP" tag="JJ" in="4:preds" out="1:pnct">Cheap</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:degr" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="2:quant" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBP" in="" out="-4:preds|-2:degr|1:subj|7:pnct#|8:&lt;subj&gt;|15:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-4:preds|-2:quant|1:subj|7:pnct#|8:&lt;subj&gt;|15:pnct">are</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj|4:mod">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:attr|2:nobj">two</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">large</W>

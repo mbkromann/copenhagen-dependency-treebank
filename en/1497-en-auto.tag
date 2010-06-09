@@ -93,9 +93,9 @@
 <W msd="SP" tag="IN" in="-8:nobj" out="">for</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
-<W msd="VAF" tag="VB" in="" out="-2:subj|1:avobj|2:ext">turn</W>
+<W msd="VAF" tag="VB" in="" out="-2:subj|1:avobj|2:time">turn</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="">up</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -223,8 +223,8 @@
 <W msd="RG" tag="RP" in="" out="1:pobj">up</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">with</W>
 <W msd="PI" tag="DT" in="" out="2:attr">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">radical</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">radical</W>
 <W msd="NC=S" tag="NN" in="" out="1:ref|2:rel">proposal</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj|3:[subj]" out="">that</W>
 <W msd="VA" tag="MD" in="-2:rel" out="-1:subj|1:mod|2:vobj">would</W>

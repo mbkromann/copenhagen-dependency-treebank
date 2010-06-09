@@ -32,8 +32,8 @@
 <W lemma="capa" msd="NC" tag="NC" in="-1:nobj" out="1:const#">capas</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:const#" out="1:nobj">de</W>
 <W lemma="tierra" msd="NC" tag="NC" in="-1:nobj" out="">tierra</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:degr" out="">más</W>
-<W lemma="profundo" msd="AN" tag="ADJ" in="-5:attr" out="-1:degr">profundas</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:quant" out="">más</W>
+<W lemma="profundo" msd="AN" tag="ADJ" in="-5:attr" out="-1:quant">profundas</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="-7:vobj" out="-6:subj|1:preds">sean</W>
 <W lemma="resistente" msd="AN" tag="ADJ" in="-1:preds" out="">resistentes</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
@@ -61,8 +61,8 @@
 <W lemma="primero" msd="RG" tag="ADV" in="-1:time" out="">primero</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-15:pnct" out="">–</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
-<W lemma="entonces" msd="RG" tag="ADV" in="1:struct" out="">entonces</W>
-<W lemma="creer" msd="VAF lexical verb infinite" tag="VLinf" in="-17:conj" out="-2:coord|-1:struct|1:dobj">creer</W>
+<W lemma="entonces" msd="RG" tag="ADV" in="1:scene" out="">entonces</W>
+<W lemma="creer" msd="VAF lexical verb infinite" tag="VLinf" in="-17:conj" out="-2:coord|-1:scene|1:dobj">creer</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="se" msd="PC" tag="SE" in="-9:coref|1:robj" out="">se</W>
 <W lemma="curar" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:robj|1:inst">cura</W>
@@ -80,10 +80,10 @@
 <W lemma="el" msd="PD" tag="ART" in="-3:coref|3:subj" out="1:nobj">la</W>
 <W lemma="empresa" msd="NC" tag="NC" in="-1:nobj" out="1:robj">empresa</W>
 <W lemma="se" msd="PC" tag="SE" in="-1:robj" out="">se</W>
-<W lemma="tomar" msd="VAD" tag="VLfin" in="" out="-7:loc|-3:subj|1:dobj|3:bg|13:pnct">toma</W>
+<W lemma="tomar" msd="VAD" tag="VLfin" in="" out="-7:loc|-3:subj|1:dobj|3:scene|13:pnct">toma</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">la</W>
 <W lemma="reserva" msd="NC" tag="NC" in="-1:nobj" out="">reserva</W>
-<W lemma="en~cuanto~a" msd="SP" tag="SCENE" in="-3:bg" out="1:nobj">en cuanto a</W>
+<W lemma="en~cuanto~a" msd="SP" tag="SCENE" in="-3:scene" out="1:nobj">en cuanto a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:loc">daños</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="instalacin" msd="NC" tag="NC" in="-1:nobj" out="1:goal#|11:coref">instalaciones</W>
@@ -94,11 +94,11 @@
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="electricidad" msd="NC" tag="NC" in="-4:conj" out="-1:coord">electricidad</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
-<W lemma="sin~embargo" msd="RG" tag="ADV" in="4:struct" out="1:pnct">Sin embargo</W>
+<W lemma="sin~embargo" msd="RG" tag="ADV" in="4:scene" out="1:pnct">Sin embargo</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="31:cond" out="">si</W>
 <W lemma="se" msd="PC" tag="SE" in="-11:coref|1:robj" out="1:vobj">se</W>
-<W lemma="encontrar" msd="VAD" tag="VLfin" in="-1:vobj" out="-4:struct|-1:robj|1:loc">encuentran</W>
+<W lemma="encontrar" msd="VAD" tag="VLfin" in="-1:vobj" out="-4:scene|-1:robj|1:loc">encuentran</W>
 <W lemma="dentro~de" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">dentro de</W>
 <W lemma="ocho" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">ocho</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:other">centímetros</W>
@@ -130,20 +130,20 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-9:prg|-31:cond|1:preds|2:subj|14:pnct">es</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:preds" out="">rarísimo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-2:subj" out="3:vobj">que</W>
-<W lemma="dicho" msd="AN" tag="QU" in="2:subj" out="1:nobj|24:coref-id">dichos</W>
+<W lemma="dicho" msd="AN" tag="QU" in="2:subj" out="1:nobj|24:coref-iden">dichos</W>
 <W lemma="conducto" msd="NC" tag="NC" in="-1:nobj" out="">conductos</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-3:vobj" out="-2:subj|1:preds">estén</W>
 <W lemma="ubicar" msd="VAF" tag="VLadj" in="-1:preds" out="1:man">ubicados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="manera" msd="NC" tag="NC" in="-1:nobj" out="2:attr">manera</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="preciso" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr|1:other">precisa</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="preciso" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant|1:other">precisa</W>
 <W lemma="en~cuanto~a" msd="SP" tag="SCENE" in="-1:other" out="1:nobj">en cuanto a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="plano" msd="NC" tag="NC" in="-1:nobj" out="">planos</W>
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
-<W lemma="considerar" msd="VAD" tag="VLfin" in="" out="1:struct|2:predo|3:dobj|10:pnct|11:cond|17:pnct">Considero</W>
-<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="-1:struct" out="">por lo tanto</W>
+<W lemma="considerar" msd="VAD" tag="VLfin" in="" out="1:scene|2:predo|3:dobj|10:pnct|11:cond|17:pnct">Considero</W>
+<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="-1:scene" out="">por lo tanto</W>
 <W lemma="peligroso" msd="AN" tag="ADJ" in="-2:predo" out="">peligroso</W>
 <W lemma="forzar" msd="VAF lexical verb infinite" tag="VLinf" in="-3:dobj" out="1:dobj|3:dir">forzar</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
@@ -154,7 +154,7 @@
 <W lemma="original" msd="AN" tag="ADJ" in="-1:attr" out="">original</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="-11:cond" out="1:subj|4:vobj">cuando</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:subj|-24:coref-id|4:[subj]" out="1:attr|2:nobj">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:subj|-24:coref-iden|4:[subj]" out="1:attr|2:nobj">los</W>
 <W lemma="respectivo" msd="AN" tag="ADJ" in="-1:attr" out="">respectivos</W>
 <W lemma="conducto" msd="NC" tag="NC" in="-2:nobj" out="">conductos</W>
 <W lemma="tener~que" msd="VAD" tag="VMfin" in="-4:vobj" out="1:vobj">tienen que</W>

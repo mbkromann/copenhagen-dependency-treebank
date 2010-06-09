@@ -24,8 +24,8 @@
 <W msd="VAP" tag="VBN" in="" out="2:iobj|6:dobj|12:pnct">Told</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">only</W>
 <W msd="PI" tag="DT" in="-2:iobj" out="-1:attr|2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">few</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">few</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">people</W>
 <W msd="PT" tag="WP" in="-6:dobj|2:[dobj]" out="2:rel">what</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
@@ -98,8 +98,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
 <W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|2:preds">became</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">difficult</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">difficult</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|2:mod">shift</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">identity</W>
@@ -122,8 +122,8 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:pobj|8:pnct">stick</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">expensive</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">expensive</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="2:conj">hotels</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">bars</W>

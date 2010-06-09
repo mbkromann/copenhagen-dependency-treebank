@@ -28,10 +28,10 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|18:pnct|-3:reas">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|18:pnct|-3:cause">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">with</W>
 <W msd="VADR" tag="VBP" in="-1:nobj" out="">wonder</W>
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
@@ -108,8 +108,8 @@
 <W msd="VADA" tag="VBD" in="" out="-16:mod|-12:subj|1:vobj|6:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-13:[subj]|1:mod">discussed</W>
 <W msd="SP" tag="IN" in="-1:mod" out="3:nobj">in</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">unfortunate</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">unfortunate</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">terms</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

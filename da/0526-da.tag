@@ -126,8 +126,8 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:other" out="1:nobj">på</W>
 <W gloss="the_day" lemma="dag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">dagen</W>
 <W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-4:vobj" out="-7:[subj]|3:dobj">få</W>
-<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="cloudy" lemma="skyet" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="-1:degr">skyet</W>
+<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="cloudy" lemma="skyet" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="-1:quant">skyet</W>
 <W gloss="weather" lemma="vejr" msd="NCNSU==I" tag="NN" in="-3:dobj" out="-1:attr|2:conj">vejr</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="rain" lemma="regn" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">regn</W>
@@ -151,8 +151,8 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Gale_warning" lemma="kulingvarsel" msd="NCNSU==I" tag="NN" in="" out="1:ben">Kulingvarsel</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:ben" out="2:nobj">for</W>
+<W gloss="Gale_warning" lemma="kulingvarsel" msd="NCNSU==I" tag="NN" in="" out="1:goal">Kulingvarsel</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:goal" out="2:nobj">for</W>
 <W gloss="Southeastern" lemma="sydøstlig" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">Sydøstlige</W>
 <W gloss="Baltic" lemma="Østersø" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:attr|1:pnct|2:conj|5:pnct|6:conj|7:pnct|8:conj|9:pnct|11:conj|12:pnct|13:conj|14:pnct|15:conj|17:conj">Østersø</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -172,12 +172,12 @@
 <W gloss="Tampen" lemma="tamp" msd="NCCSU==D" tag="NN" in="-15:conj" out="">Tampen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Viking" lemma="viking" msd="NCCSU==I" tag="NN" in="-17:conj" out="-1:coord">Viking</W>
-<W gloss="For" lemma="for" msd="SP" tag="IN" in="5:ben" out="1:nobj">For</W>
+<W gloss="For" lemma="for" msd="SP" tag="IN" in="5:goal" out="1:nobj">For</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">de</W>
 <W gloss="domestic" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="" out="">indre</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="">danske</W>
 <W gloss="waters" lemma="farvand" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">farvande</W>
-<W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="" out="-5:ben|1:subj|2:time|17:pnct|7:conj">ventes</W>
+<W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="" out="-5:goal|1:subj|2:time|17:pnct|7:conj">ventes</W>
 <W gloss="the_gale" lemma="kuling" msd="NCCSU==D" tag="NN" in="-1:subj" out="">kulingen</W>
 <W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="-2:time" out="1:pobj">først</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
@@ -186,11 +186,11 @@
 <W gloss="i_aften" lemma="i_aften" msd="RGU" tag="RP" in="1:time" out="">i_aften</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:time|1:expl|2:dobj|-2:coord">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
-<W gloss="warning" lemma="varsel" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj|4:ben">varsel</W>
+<W gloss="warning" lemma="varsel" msd="NCNSU==I" tag="NN" in="-2:dobj" out="1:pobj|4:goal">varsel</W>
 <W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">om</W>
 <W gloss="hard" lemma="hård" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">hård</W>
 <W gloss="winds" lemma="vind" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">vind</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:ben" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-4:goal" out="1:nobj">for</W>
 <W gloss="Kattegat" lemma="Kattegat" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Kattegat</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Limfjord" lemma="Limfjorden" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Limfjorden</W>
@@ -282,8 +282,8 @@
 <W gloss="the_Soviet_Union" lemma="Sovjetunionen" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Sovjetunionen</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-7:pnct" out=""> - </W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
-<W gloss="at_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">samtidig</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:cont|3:subj|4:vobj|9:pnct|10:reas|-2:coord">har</W>
+<W gloss="at_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">samtidig</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:time|3:subj|4:vobj|9:pnct|10:cause|-2:coord">har</W>
 <W gloss="President" lemma="præsident" msd="NCCSU==I" tag="NN" in="2:title" out="">præsident</W>
 <W gloss="Mikhail" lemma="Mikhail" msd="NP--U==-" tag="NNP" in="1:namef" out="">Mikhail</W>
 <W gloss="Gorbachev" lemma="Gorbatjov" msd="NP--U==-" tag="NNP" in="-3:subj|1:[subj]" out="-2:title|-1:namef">Gorbatjov</W>
@@ -293,7 +293,7 @@
 <W gloss="political" lemma="politisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="">politisk</W>
 <W gloss="defeat" lemma="nederlag" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">nederlag</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-10:reas" out="4:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-10:cause" out="4:vobj">fordi</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="3:subj|4:[subj]" out="1:possd">hans</W>
 <W gloss="draft_constitution" lemma="forfatningsudkast" msd="NCNSU==I" tag="NN" in="-1:possd" out="">forfatningsudkast</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>

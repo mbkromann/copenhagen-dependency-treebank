@@ -95,8 +95,8 @@
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="-20:coord" out="1:&lt;mod&gt;|2:&lt;pred&gt;">men</W>
 <W gloss="however" lemma="derimod" msd="RGU" tag="RP" in="-1:&lt;mod&gt;" out="">derimod</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:&lt;pred&gt;" out="2:attr|5:nobj|6:pnct|7:ref|8:rel">en</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">ny</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="new" lemma="ny" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">ny</W>
 <W gloss="hip" lemma="hip" msd="XF" tag="FW" in="2:nobj" out="1:nobj">hip</W>
 <W gloss="hop" lemma="hop" msd="XF" tag="FW" in="-1:nobj" out="">hop</W>
 <W gloss="song" lemma="sang" msd="NCCSU==I" tag="NN" in="-5:nobj" out="-2:nobj">sang</W>

@@ -1,14 +1,14 @@
 <p>
 <s>
 <W lemma="trotzdem" msd="RG" tag="PAV" in="1:contr" out="">Trotzdem</W>
-<W lemma="haben" morph="haben" msd="VA" tag="VAFIN" in="" out="-1:contr|2:subj|3:ext|7:dobj|11:pnct">hatte</W>
+<W lemma="haben" morph="haben" msd="VA" tag="VAFIN" in="" out="-1:contr|2:subj|3:time|7:dobj|11:pnct">hatte</W>
 <W lemma="General" morph="General" msd="NC" tag="NN" in="1:title" out="">General</W>
 <W lemma="Pinochet" msd="NP" tag="NE" in="-2:subj" out="-1:title">Pinochet</W>
-<W lemma="vor" msd="SP" tag="APPR" in="-3:ext" out="1:nobj">vor</W>
+<W lemma="vor" msd="SP" tag="APPR" in="-3:time" out="1:nobj">vor</W>
 <W lemma="einige" msd="PI" tag="PIAT" in="-1:nobj" out="1:nobj">einigen</W>
 <W lemma="Jahr" morph="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahren</W>
 <W lemma="groß" morph="groß" msd="AN" tag="ADJA" in="1:attr" out="">große</W>
-<W lemma="Plan" morph="Plan" msd="NC" tag="NN" in="-7:dobj" out="-1:attr|1:pobj|43:coref-id">Pläne</W>
+<W lemma="Plan" morph="Plan" msd="NC" tag="NN" in="-7:dobj" out="-1:attr|1:pobj|43:coref-iden">Pläne</W>
 <W lemma="für" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">für</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|3:coref|74:coref-var">die</W>
 <W lemma="Insel" morph="Insel" msd="NC" tag="NN" in="-1:nobj" out="">Insel</W>
@@ -17,7 +17,7 @@
 <W lemma="sollen" morph="sollen" msd="VA" tag="VMFIN" in="" out="-1:subj|5:vobj|12:pnct|13:goal|23:pnct">sollte</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:pobj" out="1:nobj">mit</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">einem</W>
-<W lemma="international" morph="national -inter/MOD&3a;rel nation +al/DENOM&3a;rel.norm" msd="AN" tag="ADJA" in="-1:attr" out="">internationalen</W>
+<W lemma="international" morph="national -inter/MOD&3a;qual nation +al/DERna&3a;rel.norm" msd="AN" tag="ADJA" in="-1:attr" out="">internationalen</W>
 <W lemma="Spielcasino" morph="casino -spiel/func" msd="NC" tag="NN" in="-2:nobj" out="">Spielcasino</W>
 <W lemma="ausgestatten&7c;ausstatten" morph="ausgestatten&7c;ausstatten" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:pobj|-6:[subj]|6:conj">ausgestattet</W>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">und</W>
@@ -43,7 +43,7 @@
 <p>
 <s>
 <W lemma="irgendjemand" msd="PP" tag="PIS" in="1:subj|5:[subj]|6:[subj]" out="">Irgendjemand</W>
-<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:subj|3:contr|5:vobj|6:pnct|19:pnct|20:reas|27:pnct">muss</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-1:subj|3:contr|5:vobj|6:pnct|19:pnct|20:cause|27:pnct">muss</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:iobj" out="1:nobj">dem</W>
 <W lemma="General" msd="NC" tag="NN" in="-1:nobj" out="">General</W>
 <W lemma="jedoch" msd="RG" tag="ADV" in="-3:contr" out="">jedoch</W>
@@ -51,7 +51,7 @@
 <W lemma="haben" msd="VAF" tag="VAINF" in="-5:vobj" out="-1:vobj|-6:[subj]">haben</W>
 <W lemma="," msd="XP" tag="$," in="-6:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="11:vobj">dass</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-43:coref-id|9:[subj]|10:subj" out="1:nobj">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-43:coref-iden|9:[subj]|10:subj" out="1:nobj">die</W>
 <W lemma="Plan" msd="NC" tag="NN" in="-1:nobj" out="">Pläne</W>
 <W lemma="zu" msd="SP" tag="APPR" in="7:pobj" out="1:nobj">zu</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:conj">einer</W>
@@ -63,7 +63,7 @@
 <W lemma="führen" msd="VAF" tag="VVINF" in="1:vobj" out="-7:pobj|-9:[subj]">führen</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-11:vobj" out="-10:subj|-1:vobj">würde</W>
 <W lemma="," msd="XP" tag="$," in="-19:pnct" out="">,</W>
-<W lemma="denn" msd="CC" tag="KON" in="-20:reas" out="2:vobj">denn</W>
+<W lemma="denn" msd="CC" tag="KON" in="-20:cause" out="2:vobj">denn</W>
 <W lemma="plötzlich" msd="AN" tag="ADJD" in="1:man" out="">plötzlich</W>
 <W lemma="hören" msd="VA" tag="VVFIN" in="-2:vobj" out="-1:man|1:subj|2:dobj|4:avobj">hörte</W>
 <W lemma="man" msd="PP" tag="PIS" in="-1:subj" out="">man</W>

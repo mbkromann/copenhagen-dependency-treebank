@@ -164,8 +164,8 @@
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-5:ref|5:subj" out="">who</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="2:tobj" out="1:nobj|-1:degr">116</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="2:tobj" out="1:nobj|-1:quant">116</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-2:tobj">ago</W>
 <W msd="VAP" tag="VBN" in="-10:rel" out="-5:subj|-1:mod|1:dobj">invented</W>

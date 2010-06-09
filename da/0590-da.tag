@@ -165,10 +165,10 @@
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-18:subj|1:vobj|14:pnct">skal</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-19:[subj]|1:vobj">være</W>
 <W gloss="brought" lemma="anlægge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-20:[subj]|1:time">anlagt</W>
-<W gloss="within" lemma="inden" msd="SP" tag="IN" in="-1:time" out="3:succ">inden</W>
+<W gloss="within" lemma="inden" msd="SP" tag="IN" in="-1:time" out="3:time">inden</W>
 <W gloss="6" lemma="6" msd="AC---U=--" tag="CD" in="2:tobj" out="1:nobj">6</W>
 <W gloss="months" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:succ" out="-2:tobj|1:pnct|2:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:time" out="-2:tobj|1:pnct|2:nobj">efter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
 <W gloss="the_decision" lemma="afgørelse" msd="NCCSU==D" tag="NN" in="3:subj|4:[subj]" out="2:conj">afgørelsen</W>
@@ -186,9 +186,9 @@
 <W gloss="publicly" lemma="offentlig" msd="ANP---=-R" tag="JJ" in="1:attr" out="">offentligt</W>
 <W gloss="promulgated" lemma="bekendtgøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:vobj" out="-4:[subj]|-1:attr">bekendtgjort</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="shall_be_calculated" lemma="regne" msd="VADR=----P-" tag="VBD" in="" out="-7:cond|1:subj|2:struct|3:time|4:pobj|6:pnct">regnes</W>
+<W gloss="shall_be_calculated" lemma="regne" msd="VADR=----P-" tag="VBD" in="" out="-7:cond|1:subj|2:scene|3:time|4:pobj|6:pnct">regnes</W>
 <W gloss="the_deadline_for_commencing_an_action" lemma="søgsmålsfrist" msd="NCCSU==D" tag="NN" in="-1:subj" out="">søgsmålsfristen</W>
-<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-2:struct" out="">dog</W>
+<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-2:scene" out="">dog</W>
 <W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-3:time" out="">altid</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">fra</W>
 <W gloss="the_announcement" lemma="bekendtgørelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bekendtgørelsen</W>

@@ -3,8 +3,8 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">age</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr">27,</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant">27,</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:attr|2:nobj|4:appr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">young</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">J.D.</W>

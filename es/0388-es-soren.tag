@@ -178,8 +178,8 @@
 <W lemma="totalmente" msd="RG" tag="ADV" in="" out="">totalmente</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
 <W lemma="era" msd="VAD" tag="VEfin" in="" out="2:preds|6:coord|7:prg|8:dir|10:pnct">Era</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr|2:dir">fÃ¡cil</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant|2:dir">fÃ¡cil</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">asÃ­</W>
 <W lemma="para" msd="CS" tag="CSUBI" in="-2:dir" out="1:nobj">para</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj" out="">ella...</W>

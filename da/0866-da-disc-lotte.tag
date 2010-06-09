@@ -165,8 +165,8 @@
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="2:nobj">som</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="-1:pnct|2:attr|3:nobj|4:other|7:pnct">den</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="flossede" lemma="flosset" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">flossede</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="flossede" lemma="flosset" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">flossede</W>
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">regering</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:other" out="1:nobj">i</W>
 <W gloss="man's" lemma="mand" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:possd">mands</W>

@@ -15,7 +15,7 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="15:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="15:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="13:subj|14:[subj]" out="2:mod|4:mod|6:nobj|12:conj">the</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">newly</W>
@@ -30,7 +30,7 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Poul</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Nyrup</W>
 <W msd="NP=S" tag="NNP" in="-12:conj" out="-2:namef|-1:namel|-3:title|-5:coord">Rasmussen</W>
-<W msd="VA" tag="MD" in="" out="-13:subj|-15:reas|1:vobj|10:pnct">must</W>
+<W msd="VA" tag="MD" in="" out="-13:subj|-15:cause|1:vobj|10:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-14:[subj]|1:dobj|4:pnct|5:time">forget</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj">everything</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
@@ -78,18 +78,18 @@
 <W msd="XP" tag="&amp;quot;" in="27:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="26:xtop" out="2:vobj|24:ref">If</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj|10:pnct|11:reas">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:mod|2:vobj|10:pnct|11:cause">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">practically</W>
-<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:dobj|4:avobj|5:dur">ripping</W>
+<W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]|1:dobj|4:avobj|5:time">ripping</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:possd">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">others'</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">hair</W>
 <W msd="SP" tag="IN" in="-4:avobj" out="">out</W>
-<W msd="SP" tag="IN" in="-5:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-5:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-11:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-11:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds|8:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:nobj">in</W>
@@ -106,14 +106,14 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">clear</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|6:pnct|7:prec">have</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|6:pnct|7:time">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">have</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:mod|2:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Black</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Gold</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="-7:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">begin</W>

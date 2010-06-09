@@ -67,8 +67,8 @@
 </p>
 <p>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|6:vobj|11:pnct">skal</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|6:vobj|11:pnct">skal</W>
 <W gloss="the_leaders" lemma="leder" msd="NCCPU==D" tag="NNP" in="-1:subj|5:[subj]" out="1:pobj">lederne</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
@@ -106,9 +106,9 @@
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|7:dobj" out="">som</W>
 <W gloss="Parliament" lemma="folketing" msd="NCNSU==D" tag="NN" in="4:subj|6:[subj]" out="">Folketinget</W>
 <W gloss="shortly" lemma="kort" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">kort</W>
-<W gloss="before" lemma="før" msd="SP" tag="IN" in="2:prec" out="-1:tobj|1:nobj">før</W>
+<W gloss="before" lemma="før" msd="SP" tag="IN" in="2:time" out="-1:tobj|1:nobj">før</W>
 <W gloss="the_summer_vacation" lemma="sommerferie" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sommerferien</W>
-<W gloss="decided" lemma="beslutte" msd="VADA=----A-" tag="VBD" in="-8:rel" out="-4:subj|-2:prec|1:dobj">besluttede</W>
+<W gloss="decided" lemma="beslutte" msd="VADA=----A-" tag="VBD" in="-8:rel" out="-4:subj|-2:time|1:dobj">besluttede</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="appoint" lemma="nedsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:dobj|-6:[subj]">nedsætte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-26:pnct" out="">.</W>
@@ -187,10 +187,10 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="the_Social_Democratic_Party" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="1:subj" out="">Socialdemokratiet</W>
-<W gloss="took_part" lemma="deltage" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:degr|4:pobj">deltog</W>
-<W gloss="much" lemma="alt" msd="RGU" tag="RP" in="1:degr" out="">alt</W>
-<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:degr" out="-1:degr">for</W>
-<W gloss="little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-3:degr" out="-1:degr">lidt</W>
+<W gloss="took_part" lemma="deltage" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|3:quant|4:pobj">deltog</W>
+<W gloss="much" lemma="alt" msd="RGU" tag="RP" in="1:quant" out="">alt</W>
+<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:quant" out="-1:quant">for</W>
+<W gloss="little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-3:quant" out="-1:quant">lidt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">i</W>
 <W gloss="the_debate" lemma="debat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">debatten</W>
 <W gloss="on" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
@@ -198,10 +198,10 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="drive" lemma="køre" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|2:dur|5:dobj|43:pnct">kører</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="drive" lemma="køre" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|2:time|5:dobj|43:pnct">kører</W>
 <W gloss="DSU" lemma="DSU" msd="NP--U==-" tag="NNP" in="-1:subj" out="">DSU</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:dur" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">disse</W>
 <W gloss="months" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-5:dobj" out="1:nobj|6:pnct|7:ref|13:rel">en</W>
@@ -256,8 +256,8 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-1:subj|1:vobj|8:pnct">har</W>
 <W gloss="heard" lemma="høre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|5:other">hørt</W>
-<W gloss="such" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:degr">klar</W>
+<W gloss="such" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="clear" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:quant">klar</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="-1:attr|1:nobj">en</W>
 <W gloss="message" lemma="melding" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">melding</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-5:other" out="1:nobj">fra</W>

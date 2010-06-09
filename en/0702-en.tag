@@ -203,7 +203,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">man</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
 <W msd="VADA" tag="VBD" in="-3:rel" out="-1:subj|2:dobj">knew</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant">much</W>
 <W msd="XP" tag="." in="-12:pnct" out="">!</W>
 </s>

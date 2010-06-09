@@ -52,8 +52,8 @@
 <W gloss="sometimes" lemma="tid" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tider</W>
 <W gloss="eat" lemma="spise" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-2:other|1:subj|3:dobj|-3:coord">spiser</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="5:nobj">så</W>
-<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj" out="-1:degr|1:pobj|3:pnct">meget</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="5:nobj">så</W>
+<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj" out="-1:quant|1:pobj|3:pnct">meget</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -197,8 +197,8 @@
 <W gloss="Turkish" lemma="tyrkisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">Tyrkiske</W>
 <W gloss="men" lemma="mand" msd="NCCPU==I" tag="NNP" in="1:subj" out="-1:attr">mænd</W>
 <W gloss="drink" lemma="drikke" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-3:pnct|2:time|3:dobj|4:other|6:pnct">drikker</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="-1:degr">altid</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="-1:quant">altid</W>
 <W gloss="raki" lemma="raki" msd="XF" tag="FW" in="-3:dobj" out="">raki</W>
 <W gloss="with" lemma="til" msd="SP" tag="IN" in="-4:other" out="1:nobj">til</W>
 <W gloss="meal" lemma="mad" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">maden</W>

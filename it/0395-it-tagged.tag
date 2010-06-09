@@ -63,7 +63,7 @@
 </s>
 <s>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="">Era</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="lontano" msd="AN" tag="ADJ" in="" out="">lontana</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dall'</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="" out="">essere</W>

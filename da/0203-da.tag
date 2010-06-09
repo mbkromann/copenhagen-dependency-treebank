@@ -80,8 +80,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:dobj" out="2:vobj">at</W>
 <W gloss="the_cabin" lemma="kabine" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">kabinen</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
-<W gloss="shrunk" lemma="krympe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:degr">krympet</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:degr" out="1:nobj">en</W>
+<W gloss="shrunk" lemma="krympe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:quant">krympet</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:quant" out="1:nobj">en</W>
 <W gloss="bit" lemma="anelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">anelse</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-11:pnct" out="">!</W>
 </s>
@@ -112,8 +112,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="5:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="4:subj|5:[subj]" out="2:other|3:nobj">det</W>
-<W gloss="slightly" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="the_intransigence" lemma="stejl" msd="ANP[CN]SU=DU" tag="JJ" in="-2:other" out="-1:degr">stejle</W>
+<W gloss="slightly" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="the_intransigence" lemma="stejl" msd="ANP[CN]SU=DU" tag="JJ" in="-2:other" out="-1:quant">stejle</W>
 <W gloss="rear_seat_back" lemma="bagsæde-ryglæn" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">bagsæde-ryglæn</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|1:vobj">er</W>
 <W gloss="shot" lemma="skyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:dobj|3:part">skudt</W>
@@ -177,9 +177,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds">er</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj|2:ben">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj|2:goal">en</W>
 <W gloss="treat" lemma="lækkerbisken" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">lækkerbisken</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="super-longlegged" lemma="super-langbenet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">super-langbenede</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -226,8 +226,8 @@
 <W gloss="8,805" lemma="8805" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">8805</W>
 <W gloss="mm" lemma="millimeter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">mm</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-6:other|2:subj|7:dobj|8:other|25:pnct">har</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="BMW's" lemma="BMW" msd="NP--G==-" tag="NNP" in="-2:subj" out="-1:degr|1:possd">BMW's</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="BMW's" lemma="BMW" msd="NP--G==-" tag="NNP" in="-2:subj" out="-1:quant|1:possd">BMW's</W>
 <W gloss="3_series" lemma="3-serie" msd="NCCSU==I" tag="NN" in="-1:possd" out="">3-serie</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="2:other" out="1:nobj">et</W>
 <W gloss="hair-breadth's" lemma="hårstrå" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hårstrå</W>
@@ -240,8 +240,8 @@
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="is_topped" lemma="toppe" msd="VADR=----P-" tag="VBD" in="-4:rel" out="-1:subj|1:pobj">toppes</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="roominess-giants" lemma="rummeligheds-gigant" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:comp">rummeligheds-giganter</W>
-<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:comp" out="1:nobj">som</W>
+<W gloss="roominess-giants" lemma="rummeligheds-gigant" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:resem">rummeligheds-giganter</W>
+<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:resem" out="1:nobj">som</W>
 <W gloss="Citroen" lemma="Citroen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name|2:pnct|3:conj|6:conj">Citroen</W>
 <W gloss="XM" lemma="XM" msd="NP--U==-" tag="NNP" in="-1:name" out="">XM</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

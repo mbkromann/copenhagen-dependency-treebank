@@ -146,8 +146,8 @@
 <W msd="VADR" tag="VBP" in="-24:conj" out="-2:subj|-6:mod|-7:coord|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">been</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:mod|7:pobj">dominated</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="U=" tag="TO" in="-2:mod" out="-1:degr|1:nobj">to</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="U=" tag="TO" in="-2:mod" out="-1:quant|1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">point</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

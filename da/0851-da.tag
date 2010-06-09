@@ -45,8 +45,8 @@
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="age" lemma="alder" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">alder</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
-<W gloss="only" lemma="bare" msd="RGU" tag="RP" in="1:att" out="">bare</W>
-<W gloss="27," lemma="27" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:att|1:nobj">27</W>
+<W gloss="only" lemma="bare" msd="RGU" tag="RP" in="1:eval" out="">bare</W>
+<W gloss="27," lemma="27" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:eval|1:nobj">27</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="debuted" lemma="debutere" msd="VADA=----A-" tag="VBD" in="" out="-7:other|1:subj|6:time|8:inst|20:pnct">debuterede</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|4:appr">den</W>
@@ -72,8 +72,8 @@
 </s>
 <s>
 <W gloss="The_year" lemma="år" msd="NCNSU==D" tag="NN" in="1:tobj" out="">Året</W>
-<W gloss="after" lemma="efter" msd="RGU" tag="RP" in="1:succ" out="-1:tobj">efter</W>
-<W gloss="repeated" lemma="gentage" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|2:dobj|3:inst|8:pnct|21:pnct|12:conj">gentog</W>
+<W gloss="after" lemma="efter" msd="RGU" tag="RP" in="1:time" out="-1:tobj">efter</W>
+<W gloss="repeated" lemma="gentage" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|2:dobj|3:inst|8:pnct|21:pnct|12:conj">gentog</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="success" lemma="succes" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">succes'en</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:inst" out="3:nobj">med</W>
@@ -133,17 +133,17 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Despite" lemma="trods" msd="SP" tag="IN" in="6:struct" out="1:nobj">Trods</W>
+<W gloss="Despite" lemma="trods" msd="SP" tag="IN" in="6:scene" out="1:nobj">Trods</W>
 <W gloss="its" lemma="sin" msd="PO3[CN]PUSYU" tag="PRP$" in="-1:nobj" out="1:possd|3:loc">sine</W>
 <W gloss="23" lemma="23" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj">23</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-3:loc" out="1:nobj">på</W>
 <W gloss="old" lemma="bag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bagen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:struct|2:subj|4:dur|5:preds|13:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-6:scene|2:subj|4:time|5:preds|13:pnct">er</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Mirror_Dance" lemma="spejldans" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:pnct|1:pnct">Spejldans</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-4:dur" out="">stadig</W>
+<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-4:time" out="">stadig</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-5:preds" out="1:attr|7:nobj">en</W>
 <W gloss="fascinating" lemma="fascinere" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:attr" out="5:conj">fascinerende</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="4:coord" out="">og</W>

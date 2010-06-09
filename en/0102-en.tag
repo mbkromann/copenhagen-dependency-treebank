@@ -150,8 +150,8 @@
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">valid</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">valid</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:attr|1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
@@ -161,8 +161,8 @@
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|3:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">bad</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">bad</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>

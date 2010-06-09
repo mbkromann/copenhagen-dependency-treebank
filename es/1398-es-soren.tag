@@ -48,9 +48,9 @@
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-7:relr" out="-4:subj|-3:time|1:vobj">están</W>
 <W lemma="ocurrir" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]|1:loc">ocurriendo</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="3:nobj">en</W>
-<W lemma="varios" msd="AN" tag="QU" in="2:ext" out="1:(pobj)">varios</W>
+<W lemma="varios" msd="AN" tag="QU" in="2:time" out="1:(pobj)">varios</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:(pobj)" out="">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-3:nobj" out="-2:ext|1:nobj">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-3:nobj" out="-2:time|1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:attr">países</W>
 <W lemma="ex" msd="AN" tag="ADJ" in="-1:attr" out="">ex</W>
 <W lemma="socialista" msd="AN" tag="ADJ" in="-2:attr" out="">socialistas</W>
@@ -120,7 +120,7 @@
 <W lemma="sociedad" msd="NC" tag="NC" in="-1:nobj" out="1:attr">sociedad</W>
 <W lemma="moderno" msd="AN" tag="ADJ" in="-1:attr" out="">moderna</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="-11:vobj" out="-10:subj|-1:neg|1:vobj|10:pnct|11:struct">pueden</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="-11:vobj" out="-10:subj|-1:neg|1:vobj|10:pnct|11:scene">pueden</W>
 <W lemma="hacer" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-11:[subj]|1:dobj">hacer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:dobj" out="1:attr|2:pobj">oídos</W>
 <W lemma="sordo" msd="AN" tag="ADJ" in="-1:attr" out="">sordos</W>
@@ -131,7 +131,7 @@
 <W lemma="mundo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">mundo</W>
 <W lemma="exterior" msd="AN" tag="ADJ" in="-1:attr" out="">exterior</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-10:pnct" out="">–</W>
-<W lemma="sobre~todo" msd="RG" tag="ADV" in="-11:struct" out="5:vobj">sobre todo</W>
+<W lemma="sobre~todo" msd="RG" tag="ADV" in="-11:scene" out="5:vobj">sobre todo</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">las</W>
 <W lemma="sociedad" msd="NC" tag="NC" in="-1:nobj" out="1:possr">sociedades</W>
 <W lemma="cuyo" msd="PT" tag="REL" in="-1:possr" out="1:possd">cuyo</W>
@@ -150,16 +150,16 @@
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:prg" out="1:loc">aún</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="2:nobj">en</W>
 <W lemma="segundo" msd="AO" tag="ORD" in="1:numm" out="">segundo</W>
-<W lemma="lugar" msd="NC" tag="NC" in="-2:nobj" out="-1:numm|1:ben">lugar</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">para</W>
+<W lemma="lugar" msd="NC" tag="NC" in="-2:nobj" out="-1:numm|1:goal">lugar</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:ref|2:relr">partisanos</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:subj" out="">que</W>
-<W lemma="ver" msd="VAD" tag="VLfin" in="-2:relr" out="-1:subj|1:pobj|4:comp">ven</W>
+<W lemma="ver" msd="VAD" tag="VLfin" in="-2:relr" out="-1:subj|1:pobj|4:resem">ven</W>
 <W lemma="al" msd="SP" tag="PAL" in="-1:pobj" out="1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">ejército</W>
 <W lemma="federal" msd="AN" tag="ADJ" in="-1:attrr#" out="">federal</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-4:comp" out="1:nobj">como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-4:resem" out="1:nobj">como</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="insoportable" msd="AN" tag="ADJ" in="1:attr" out="">insoportable</W>
 <W lemma="vestigio" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|1:{arg}">vestigio</W>
@@ -170,8 +170,8 @@
 <W lemma="generacin" msd="NC" tag="NC" in="-1:nobj" out="">generaciones</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="-4:relr" out="-3:subj|-2:time|1:vobj">ha</W>
 <W lemma="estar" msd="VAF" tag="VE" in="-1:vobj" out="-4:[subj]|1:vobj">estado</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]|1:ben|4:dobj">reprimiendo</W>
-<W lemma="por~parte~de" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">por parte de</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="-5:[subj]|1:goal|4:dobj">reprimiendo</W>
+<W lemma="por~parte~de" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">por parte de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="serbio" msd="NC" tag="NC" in="-1:nobj" out="">serbios</W>
 <W lemma="el" msd="PD" tag="ART" in="-4:dobj" out="1:nobj">la</W>

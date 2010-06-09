@@ -47,8 +47,8 @@
 <W gloss="Arne" lemma="Arne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Arne</W>
 <W gloss="Melchior's" lemma="Melchior" msd="NP--G==-" tag="NNP" in="2:[subj]|20:subj|21:[subj]" out="-2:title|-1:namef|-3:neg|1:possd|2:other">Melchiors</W>
 <W gloss="criticism" lemma="kritik" msd="NCCSU==I" tag="NN" in="-1:possd" out="4:pobj">kritik</W>
-<W gloss="put_forward" lemma="fremsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:other" out="-2:[subj]|1:cont">fremsat</W>
-<W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:cont" out="1:nobj">samme</W>
+<W gloss="put_forward" lemma="fremsætte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:other" out="-2:[subj]|1:time">fremsat</W>
+<W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:time" out="1:nobj">samme</W>
 <W gloss="date" lemma="dato" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dato</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-4:pobj" out="1:pnct|2:nobj">af</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -149,11 +149,11 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">på</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|2:ref|6:rel">samme</W>
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">måde</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:ref|4:comp" out="">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:ref|4:resem" out="">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj" out="2:nobj">en</W>
 <W gloss="Coca-Cola" lemma="Coca-Cola" msd="NP--U==-" tag="NNP" in="1:name" out="">Coca-Cola</W>
 <W gloss="manufacturer" lemma="fabrikant" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:name">fabrikant</W>
-<W gloss="views" lemma="betragte" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-4:comp|1:dobj|2:pnct|4:pobj">betragter</W>
+<W gloss="views" lemma="betragte" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-4:resem|1:dobj|2:pnct|4:pobj">betragter</W>
 <W gloss="consumers" lemma="forbruger" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">forbrugerne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="&3a;" lemma="nemlig" msd="RGU" tag="RP" in="1:other" out="">nemlig</W>
@@ -192,8 +192,8 @@
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="1:other" out="">godt</W>
 <W gloss="may" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-9:vobj" out="-8:subj|-1:other|-7:other|1:vobj|8:pnct|23:conj">må</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-9:[subj]|2:preds">være</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="1/3" lemma="1/3" msd="AC---U=--" tag="CD" in="-2:preds" out="-1:degr|1:pobj">1/3</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="1/3" lemma="1/3" msd="AC---U=--" tag="CD" in="-2:preds" out="-1:quant|1:pobj">1/3</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="the_sale" lemma="salg" msd="NCNSU==D" tag="NN" in="-2:nobj" out="-1:pnct|1:pnct">salget</W>
@@ -245,8 +245,8 @@
 <W gloss="reasonable" lemma="rimelig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">rimeligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:nobj" out="10:vobj">at</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="8:subj" out="-1:degr|1:nobj">en</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="8:subj" out="-1:quant|1:nobj">en</W>
 <W gloss="third" lemma="tredjedel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">tredjedel</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">af</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

@@ -156,11 +156,11 @@
 </s>
 <s>
 <W gloss="The_magnet" lemma="magnet" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">Magneten</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|4:prec|7:pnct">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|4:time|7:pnct">skal</W>
 <W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir">stå</W>
 <W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">langs</W>
 <W gloss="the_wire" lemma="ledning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">ledningen</W>
-<W gloss="before" lemma="før" msd="CS" tag="IN" in="-4:prec" out="2:vobj">før</W>
+<W gloss="before" lemma="før" msd="CS" tag="IN" in="-4:time" out="2:vobj">før</W>
 <W gloss="the_current" lemma="strøm" msd="NCCSU==D" tag="NN" in="1:subj" out="">strømmen</W>
 <W gloss="is_closed" lemma="slutte" msd="VADR=----P-" tag="VBD" in="-2:vobj" out="-1:subj">sluttes</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -186,8 +186,8 @@
 </p>
 <p>
 <s>
-<W gloss="do" lemma="lave" msd="VAM-=------" tag="VB" in="" out="1:succ|2:dobj|17:pnct">Lav</W>
-<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="-1:succ" out="">dernæst</W>
+<W gloss="do" lemma="lave" msd="VAM-=------" tag="VB" in="" out="1:time|2:dobj|17:pnct">Lav</W>
+<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="-1:time" out="">dernæst</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:pnct|3:ref|4:rel">en</W>
 <W gloss="series_of_experiments" lemma="forsøgsrække" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forsøgsrække</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -257,8 +257,8 @@
 </p>
 <p>
 <s>
-<W gloss="do" lemma="lave" msd="VAM-=------" tag="VB" in="" out="1:succ|2:dobj|17:pnct">Lav</W>
-<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="-1:succ" out="">dernæst</W>
+<W gloss="do" lemma="lave" msd="VAM-=------" tag="VB" in="" out="1:time|2:dobj|17:pnct">Lav</W>
+<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="-1:time" out="">dernæst</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:pnct|3:ref|4:rel">en</W>
 <W gloss="series_of_experiments" lemma="forsøgsrække" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">forsøgsrække</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

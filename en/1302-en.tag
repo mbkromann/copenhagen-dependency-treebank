@@ -138,8 +138,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">knife</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
-<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:dur">broke</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VADA" tag="VBD" in="-4:rel" out="-1:subj|1:time">broke</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:mod|2:nobj">many</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">hard</W>

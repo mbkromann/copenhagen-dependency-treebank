@@ -66,9 +66,9 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">facelift</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-6:conj" out="-25:[subj]|-1:coord|1:neg|2:degr|3:err|4:vobj|9:conj">has</W>
+<W msd="VADR" tag="VBZ" in="-6:conj" out="-25:[subj]|-1:coord|1:neg|2:quant|3:err|4:vobj|9:conj">has</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="PI" tag="DT" in="-3:err" out="">a</W>
 <W msd="VAP" tag="VBN" in="-4:vobj" out="-29:[subj]|1:dobj">changed</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>

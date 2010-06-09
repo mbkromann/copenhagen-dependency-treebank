@@ -128,8 +128,8 @@
 <W msd="PD" tag="DT" in="-11:conj" out="1:nobj|2:ref|3:rel">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">ones</W>
 <W msd="PT" tag="WP" in="-2:ref|1:subj" out="">who</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:ext|2:preds|5:mod">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:time|2:preds|5:mod">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">face</W>

@@ -31,8 +31,8 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds|5:pnct">es</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">un</W>
 <W lemma="libro" msd="NC" tag="NC" in="-1:nobj" out="2:attr|4:ref|6:relr">libro</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="elegante" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">elegante</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="elegante" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">elegante</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-4:ref|2:subj" out="">que</W>
 <W lemma="nosotros" msd="PP" tag="PPX" in="1:iobj" out="">nos</W>
@@ -159,8 +159,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="">malentendida</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">La</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="1:reas|14:pnct">es</W>
-<W lemma="porque" msd="CS" tag="CSUBX" in="-1:reas" out="3:vobj">porque</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="1:cause|14:pnct">es</W>
+<W lemma="porque" msd="CS" tag="CSUBX" in="-1:cause" out="3:vobj">porque</W>
 <W lemma="evidentemente" msd="RG" tag="ADV" in="2:epi" out="">evidentemente</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Rushdie</W>
 <W lemma="leer" msd="VAD" tag="VLfin" in="-3:vobj" out="-2:epi|-1:subj|1:dobj">lee</W>
@@ -184,6 +184,6 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">británicos</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:preds">son</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="">los</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">más</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="-1:degr">irremediables</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">más</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="-1:quant">irremediables</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>

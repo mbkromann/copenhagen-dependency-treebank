@@ -43,7 +43,7 @@
 <W lemma="and" msd="NP" tag="NPR" in="" out="">and</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">roll</W>
 <W lemma="essere" msd="VADR" tag="VER:pres" in="" out="">è</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="lungi" msd="RG" tag="ADV" in="" out="">lungi</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dall'</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="" out="">essere</W>

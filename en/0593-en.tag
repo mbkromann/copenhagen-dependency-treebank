@@ -105,9 +105,9 @@
 <W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|3:dobj">exceed</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">approximately</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
-<W msd="AC" tag="CD" in="-3:dobj" out="-1:nobj|-2:degr">130,000</W>
+<W msd="AC" tag="CD" in="-3:dobj" out="-1:nobj|-2:quant">130,000</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1992</W>
 <W msd="AC" tag="CD" in="-12:preds" out="1:numa|2:nobj">11</W>
@@ -225,9 +225,9 @@
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:nobj" out="">floorage</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:nobj">limits</W>
-<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:vobj|2:reas">are</W>
+<W msd="VADR" tag="VBP" in="-4:vobj" out="-3:subj|1:vobj|2:cause">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">exceeded</W>
-<W msd="CS" tag="IN" in="-2:reas" out="1:pnct|9:vobj">because</W>
+<W msd="CS" tag="IN" in="-2:cause" out="1:pnct|9:vobj">because</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="7:modp" out="1:nobj|2:pnct">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">example</W>

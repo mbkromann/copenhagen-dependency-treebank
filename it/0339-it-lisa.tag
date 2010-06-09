@@ -26,8 +26,8 @@
 <W lemma="e" msd="CS" tag="CON" in="2:discmark" out="">E</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="fa" msd="RG" tag="ADV" in="" out="-2:discmark|-1:neg|2:dobj|3:pnct|4:xpl|19:pnct">fa</W>
-<W lemma="solo" msd="AN" tag="ADJ" in="1:degr" out="">solo</W>
-<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:dobj|-21:coref-res" out="-1:degr">quello</W>
+<W lemma="solo" msd="AN" tag="ADJ" in="1:quant" out="">solo</W>
+<W lemma="quello" msd="PD" tag="PRO&3a;demo" in="-2:dobj|-21:coref-res" out="-1:quant">quello</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 <W lemma="scrivere" msd="VADR" tag="VER&3a;pres" in="-4:xpl" out="5:pnct|6:conj|3:pobj.pobj|3:{location}">scrive</W>
 >>>>>>> .r507
@@ -51,9 +51,9 @@
 <W lemma="successo" msd="NC" tag="NOM" in="-1:vobj" out="-2:[subj]|1:time">successo</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:time" out="1:nobj">un</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="-1:nobj" out="">tempo</W>
-<W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:ext">non</W>
+<W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:time">non</W>
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="" out="-1:neg|-7:subj|2:vobj|3:pnct|4:cons|12:pnct">deve</W>
-<W lemma="più" msd="RG" tag="ADV" in="-2:ext" out="">più</W>
+<W lemma="più" msd="RG" tag="ADV" in="-2:time" out="">più</W>
 <W lemma="ripetere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="">ripetersi</W>
 <W lemma=";" msd="XP" tag="PON" in="-3:pnct" out="">;</W>
 <W lemma="quindi" msd="RG" tag="ADV" in="-4:cons" out="1:pnct|2:nobj">quindi</W>
@@ -89,8 +89,8 @@
 <W lemma="avversario" msd="NC" tag="NOM" in="-1:nobj" out="">avversario</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;cimp" in="" out="2:preds|3:pnct">Fosse</W>
-<W lemma="così" msd="RG" tag="ADV" in="1:degr" out="">così</W>
-<W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">semplice</W>
+<W lemma="così" msd="RG" tag="ADV" in="1:quant" out="">così</W>
+<W lemma="semplice" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">semplice</W>
 <W lemma="." msd="XP" tag="SENT" in="-3:pnct" out="">.</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj" out="1:nobj">Il</W>
 <W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="">nemico</W>
@@ -129,8 +129,8 @@
 >>>>>>> .r507
 <W lemma="nemico" msd="NC" tag="NOM" in="-1:nobj" out="">nemico</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="così" msd="RG" tag="ADV" in="2:coord" out="1:comp">così</W>
-<W lemma="come" msd="CS" tag="CON" in="-1:comp" out="">come</W>
+<W lemma="così" msd="RG" tag="ADV" in="2:coord" out="1:resem">così</W>
+<W lemma="come" msd="CS" tag="CON" in="-1:resem" out="">come</W>
 <W lemma="coloro" msd="P" tag="PRO" in="-29:conj" out="-2:coord|1:ref|3:relr">coloro</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|2:subj" out="1:dobj|12:ref">che</W>
 <W lemma="li" msd="PP" tag="PRO&3a;pers" in="-1:dobj|-20:ref" out="">li</W>
@@ -138,7 +138,7 @@
 <W lemma="aiutare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="">aiutati</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="chi" msd="PT" tag="PRO&3a;rela" in="-35:conj" out="-1:coord|9:vobj">chi</W>
-<W lemma="a" msd="SP" tag="PRE" in="8:struct" out="2:nobj">a</W>
+<W lemma="a" msd="SP" tag="PRE" in="8:scene" out="2:nobj">a</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">sua</W>
 <W lemma="volta" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">volta</W>
 <<<<<<< .mine
@@ -146,7 +146,7 @@
 =======
 <W lemma="li" msd="PP" tag="PRO&3a;pers" in="-12:ref|2:dobj" out="">li</W>
 >>>>>>> .r507
-<W lemma="difendere" msd="VADR" tag="VER&3a;pres" in="-9:vobj" out="-1:dobj|-2:dobj|-8:struct">difende</W>
+<W lemma="difendere" msd="VADR" tag="VER&3a;pres" in="-9:vobj" out="-1:dobj|-2:dobj|-8:scene">difende</W>
 <W lemma="." msd="XP" tag="SENT" in="-23:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:namef" out="">Oluf</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj|2:[subj]" out="-1:namef|16:coref">Terp</W>

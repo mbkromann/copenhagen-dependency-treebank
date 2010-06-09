@@ -118,7 +118,7 @@
 <W lemma="piastra" msd="NC" tag="NOM" in="" out="">piastra</W>
 <W lemma="dovere" msd="VADR" tag="VER:pres" in="" out="">deve</W>
 <W lemma="essere" msd="VAF" tag="VER:infi" in="" out="">essere</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="caldo" msd="AN" tag="ADJ" in="" out="">calda</W>
 <W lemma=";" msd="XP" tag="PON" in="" out="">;</W>
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>

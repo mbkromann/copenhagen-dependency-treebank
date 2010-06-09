@@ -89,8 +89,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="NC=S" tag="NN" in="-9:rel" out="-7:dobj|-6:subj|-4:mod|3:attr">praise</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:focal|2:pobj">more</W>
-<W msd="ANP" tag="RB" in="-3:attr" out="-1:degr|5:conj">uniformly</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:focal|2:pobj">more</W>
+<W msd="ANP" tag="RB" in="-3:attr" out="-1:quant|5:conj">uniformly</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="2:obl">than</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">ever</W>
 <W msd="CS" tag="IN" in="-2:obl" out="-1:tobj">before</W>
@@ -141,8 +141,8 @@
 <W msd="XP" tag="&3a;" in="-13:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
 <W msd="SP" tag="IN" in="-15:modp" out="-1:focal|3:nobj">in</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">difficult</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">difficult</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">cases</W>
 <W msd="XP" tag="." in="-39:pnct" out="">.</W>
 </s>

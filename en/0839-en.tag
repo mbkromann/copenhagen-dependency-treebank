@@ -38,8 +38,8 @@
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Helen</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:ext|2:vobj">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:time|2:vobj">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-3:[subj]">fighting</W>
 <W msd="SP" tag="IN" in="-8:mod" out="2:nobj">in</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
@@ -91,7 +91,7 @@
 <W msd="PD" tag="DT" in="" out="3:vobj|25:pnct">That</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mother</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:lobj|6:mod|10:pnct|11:reas">was</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:lobj|6:mod|10:pnct|11:cause">was</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">intensive</W>
@@ -102,7 +102,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">heart</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">attack</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-11:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-11:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">gotten</W>

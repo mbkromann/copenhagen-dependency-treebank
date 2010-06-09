@@ -194,11 +194,11 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">no</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="-1:mod">longer</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-4:[subj]|1:dobj">considering</W>
-<W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj|4:dur">voting</W>
+<W msd="NC=S" tag="NN" in="-1:dobj" out="1:pobj|4:time">voting</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">against</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">government</W>
-<W msd="SP" tag="IN" in="-4:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-4:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj|5:mod">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">critical</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">parliamentary</W>

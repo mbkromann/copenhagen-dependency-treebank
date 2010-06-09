@@ -42,10 +42,10 @@
 <W msd="XP" tag="." in="-23:pnct" out="">?</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="3:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|9:mod|11:pnct|12:mod|24:pnct|-3:att">happened</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|9:mod|11:pnct|12:mod|24:pnct|-3:eval">happened</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:pobj">tell</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -83,8 +83,8 @@
 <W msd="VAG" tag="VBG" in="-2:nobj" out="">snowfall</W>
 <W msd="PD" tag="DT" in="2:tobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">night</W>
-<W msd="CS" tag="IN" in="1:prec" out="-2:tobj">before</W>
-<W msd="VAP" tag="VBN" in="-7:vobj" out="-6:subj|-1:prec|1:vobj">had</W>
+<W msd="CS" tag="IN" in="1:time" out="-2:tobj">before</W>
+<W msd="VAP" tag="VBN" in="-7:vobj" out="-6:subj|-1:time|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:dobj|5:preds">made</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">roads</W>
@@ -117,8 +117,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Copenhagen</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:vobj|5:pnct">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|2:mod">delayed</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:mod" out="-1:degr|1:nobj">45</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:mod" out="-1:quant|1:nobj">45</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">minutes</W>
 <W msd="XP" tag="." in="-5:pnct" out="">?</W>
 </s>

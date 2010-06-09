@@ -85,8 +85,8 @@
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="4:subj|5:[subj]" out="1:possd">hans</W>
 <W gloss="grapes" lemma="drue" msd="NCCPU==I" tag="NNP" in="-1:possd" out="">druer</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:prec" out="">først</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-2:neg|-1:prec|1:vobj">har</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-2:neg|-1:time|1:vobj">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:preds">været</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:preds" out="1:nobj">en</W>
 <W gloss="trip" lemma="tur" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@loc">tur</W>
@@ -129,11 +129,11 @@
 <W gloss="without" lemma="uden" msd="RGU" tag="RP" in="-2:loc" out="1:pobj">uden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_marketplace" lemma="torv" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">torvet</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-11:loc|1:subj|4:dur|6:vobj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-11:loc|1:subj|4:time|6:vobj">har</W>
 <W gloss="the_Municipal_Food_Safety_Unit" lemma="levnedsmiddelkontrol" msd="NCCSU==D" tag="NN" in="-1:subj|5:[subj]" out="1:loc">Levnedsmiddelkontrollen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">København</W>
-<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-4:dur" out="1:nobj">siden</W>
+<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-4:time" out="1:nobj">siden</W>
 <W gloss="April" lemma="april" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">april</W>
 <W gloss="uncovered" lemma="afsløre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|1:dobj">afsløret</W>
 <W gloss="ten" lemma="ti" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">ti</W>

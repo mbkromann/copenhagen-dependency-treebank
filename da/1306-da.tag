@@ -166,8 +166,8 @@
 <W gloss="Prince" lemma="prins" msd="NCCSU==I" tag="NN" in="1:title" out="">Prins</W>
 <W gloss="Henrik" lemma="Henrik" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:title">Henrik</W>
 <W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:mod|5:@dir|13:pnct">kommer</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:prec" out="">først</W>
-<W gloss="for" lemma="om" msd="SP" tag="IN" in="-2:mod" out="-1:prec|1:nobj">om</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
+<W gloss="for" lemma="om" msd="SP" tag="IN" in="-2:mod" out="-1:time|1:nobj">om</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="week" lemma="uge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">uge</W>
 <W gloss="homes" lemma="hjem" msd="RGU" tag="RP" in="-5:@dir" out="1:mod">hjem</W>
@@ -221,8 +221,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-6:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-1:subj|1:vobj|16:pnct|19:conj">har</W>
-<W gloss="worked" lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:degr|2:mod|5:mod">arbejdet</W>
-<W gloss="a_great_deal" lemma="meget" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">meget</W>
+<W gloss="worked" lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:quant|2:mod|5:mod">arbejdet</W>
+<W gloss="a_great_deal" lemma="meget" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">meget</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-2:mod" out="1:pobj">sammen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_Queen" lemma="dronning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Dronningen</W>

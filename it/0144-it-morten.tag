@@ -15,8 +15,8 @@
 <W lemma="immigrato" msd="NC" tag="NOM" in="-1:nobj" out="">immigrati</W>
 <W lemma="lottare" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:man|3:time|5:goal|9:pnct|12:pnct">lottano</W>
 <W lemma="disperatamente" msd="RG" tag="ADV" in="-1:man" out="">disperatamente</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-3:time" out="-1:degr|1:nobj">il</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutto</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-3:time" out="-1:quant|1:nobj">il</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-1:nobj" out="">giorno</W>
 <W lemma="per" msd="SP" tag="PRE" in="-5:goal" out="1:nobj">per</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj|4:elab">una</W>
@@ -29,8 +29,8 @@
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj" out="2:nobj">I</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="robusto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr">robusti</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="robusto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:quant">robusti</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:preds|5:pnct|11:conj">sono</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:preds" out="1:nobj">alla</W>
 <W lemma="ricerca" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">ricerca</W>
@@ -60,8 +60,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-4:ref|2:subj|4:[subj]" out="">che</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:relr" out="-2:subj|-1:neg|2:vobj">è</W>
-<W lemma="molto" msd="RG" tag="ADV" in="1:degr" out="">molto</W>
-<W lemma="utilizzare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:degr|-4:[subj]|1:loc">utilizzato</W>
+<W lemma="molto" msd="RG" tag="ADV" in="1:quant" out="">molto</W>
+<W lemma="utilizzare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:quant|-4:[subj]|1:loc">utilizzato</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="2:nobj">in</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:attr" out="">questo</W>
 <W lemma="clima" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">clima</W>
@@ -115,8 +115,8 @@
 </s>
 <s>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">28</W>
-<W lemma="persona" msd="NC" tag="NOM" in="" out="-1:attr|1:ext|3:pnct|4:loc">persone</W>
-<W lemma="in" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">in</W>
+<W lemma="persona" msd="NC" tag="NOM" in="" out="-1:attr|1:time|3:pnct|4:loc">persone</W>
+<W lemma="in" msd="SP" tag="PRE" in="-1:time" out="1:nobj">in</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="-1:nobj" out="">tutto</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
 <W lemma="in" msd="SP" tag="PRE" in="-4:loc" out="1:nobj">in</W>
@@ -136,8 +136,8 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-7:conj|1:[subj]" out="-1:coord|1:vobj|13:pnct">è</W>
 <W lemma="avvolgere" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:loc">avvolto</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="2:nobj">in</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:degr|1:nobj|2:ref|5:relr">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:quant|1:nobj|2:ref|5:relr">i</W>
 <W lemma="tappeto" msd="NC" tag="NOM" in="-1:nobj" out="">tappeti</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-2:ref|6:dobj" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="2:subj|3:[subj]|5:[subj]" out="1:nobj">la</W>

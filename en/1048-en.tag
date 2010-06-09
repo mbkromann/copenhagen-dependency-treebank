@@ -151,8 +151,8 @@
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:pnct|2:mod">increased</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="2:conj|15:pnct">indeed</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:degr|1:mod|3:mod">doubled</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:quant|1:mod|3:mod">doubled</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">number</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:nobj">to</W>
@@ -169,8 +169,8 @@
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">value</W>
-<W msd="VADR" tag="VBZ" in="-23:conj" out="-2:subj|-3:coord|1:degr|2:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">almost</W>
+<W msd="VADR" tag="VBZ" in="-23:conj" out="-2:subj|-3:coord|1:quant|2:vobj">has</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:pobj">halved</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj|4:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
@@ -187,8 +187,8 @@
 <s>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">Motorboats</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|3:dobj|4:pnct|8:conj|19:pnct">show</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">unchanged</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">unchanged</W>
 <W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr">numbers</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">but</W>

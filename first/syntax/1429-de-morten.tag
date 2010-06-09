@@ -1,7 +1,7 @@
 <p>
 <s>
-<W lemma="neu" msd="AN" tag="ADJA" in="" out="1:attr|1:{origin}">Neue</W>
-<W lemma="bei" msd="SP" tag="APPR" in="-1:attr|-1:{origin}" out="1:nobj">bei</W>
+<W lemma="neu" msd="AN" tag="ADJA" in="" out="1:attr|1:{source}">Neue</W>
+<W lemma="bei" msd="SP" tag="APPR" in="-1:attr|-1:{source}" out="1:nobj">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj|6:appa">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">BTCC</W>
 <W lemma="(" msd="XP" tag="$(" in="4:pnct" out="">(</W>
@@ -51,13 +51,13 @@
 <W lemma="Thorkild" msd="NP" tag="NE" in="1:namef" out="">Thorkild</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="9:subj|8:[subj]" out="-1:namef">Thyning</W>
 <W lemma="jetzt" msd="RG" tag="ADV" in="8:time" out="">jetzt</W>
-<W lemma="nach" msd="SP" tag="APPR" in="6:succ" out="1:nobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="6:time" out="1:nobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="Fehlgriff" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{patient}">Fehlgriff</W>
 <W lemma="mit" msd="SP" tag="APPR" in="-1:pobj.pobj|-1:{patient}" out="1:nobj">mit</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Andy-Rouse-Team</W>
-<W lemma="aufgeben" msd="VAP" tag="VVPP" in="1:vobj" out="-10:dobj|-6:succ|-8:[subj]">aufgegeben</W>
+<W lemma="aufgeben" msd="VAP" tag="VVPP" in="1:vobj" out="-10:dobj|-6:time|-8:[subj]">aufgegeben</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-15:relpa" out="-9:subj|-1:vobj|-8:time">hat</W>
 <W lemma="." msd="XP" tag="$." in="-19:pnct" out="">.</W>
 <p>
@@ -67,13 +67,13 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-2:ref|20:[subj]|21:subj" out="">das</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="19:dobj" out="">sich</W>
 <W lemma="kürzlich" msd="AN" tag="ADJD" in="1:time" out="">kürzlich</W>
-<W lemma="nach" msd="SP" tag="APPR" in="17:reas" out="-1:time|1:nobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="17:cause" out="-1:time|1:nobj">nach</W>
 <W lemma="Streitigkeit" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{about}">Streitigkeiten</W>
 <W lemma="um" msd="SP" tag="APPR" in="-1:attr|-1:{about}" out="1:nobj">um</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">eine</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neue</W>
-<W lemma="Kurbelwelle" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{pos}">Kurbelwelle</W>
-<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{pos}" out="1:nobj">in</W>
+<W lemma="Kurbelwelle" msd="NC" tag="NN" in="-2:nobj" out="1:attr|1:{loc}">Kurbelwelle</W>
+<W lemma="in" msd="SP" tag="APPR" in="-1:attr|-1:{loc}" out="1:nobj">in</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="1:nobj">V8</W>
 <W lemma="Modell" msd="NC" tag="NN" in="-1:nobj" out="1:attrg|1:{poss}">Modellen</W>
@@ -84,7 +84,7 @@
 <W lemma="deutsch" msd="AN" tag="ADJA" in="-1:attr" out="">deutschen</W>
 <W lemma="Gruppe" msd="NC" tag="NN" in="-2:nobj" out="1:nobj">Gruppe</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">A-Serie</W>
-<W lemma="zurückziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-20:[subj]|-19:dobj|-17:reas|-5:@dir">zurückgezogen</W>
+<W lemma="zurückziehen" msd="VAP" tag="VVPP" in="1:vobj" out="-20:[subj]|-19:dobj|-17:cause|-5:@dir">zurückgezogen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-23:relpa" out="-21:subj|-1:vobj|1:pnct|20:pnct">hat</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-25:subj|10:vobj">hat</W>
@@ -118,11 +118,11 @@
 <W lemma="1993" msd="AC" tag="CARD" in="1:time" out="">1993</W>
 <W compound="zurückkommt" lemma="zurückkommen" msd="VA" tag="VVFIN" in="-3:vobj" out="6:conj|-2:subj|-1:time">zurückkommt</W>
 <W lemma="und" msd="CC" tag="KON" in="5:coord" out="">und</W>
-<W lemma="deshalb" msd="RG" tag="PAV" in="4:reas" out="">deshalb</W>
+<W lemma="deshalb" msd="RG" tag="PAV" in="4:cause" out="">deshalb</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="3:subj|2:[subj]|9:[subj]" out="1:nobj">die</W>
 <W lemma="Fahrer" msd="NC" tag="NN" in="-1:nobj" out="">Fahrer</W>
 <W lemma="bitten" msd="VAP" tag="VVPP" in="1:vobj" out="-2:[subj]|6:nobj">gebeten</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-6:conj" out="-1:vobj|-3:subj|-5:coord|1:pnct|-4:reas">hat</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-6:conj" out="-1:vobj|-3:subj|-5:coord|1:pnct|-4:cause">hat</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="4:robj" out="">sich</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="">nicht</W>
@@ -161,8 +161,8 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">Das</W>
 <W lemma="Auto" msd="NC" tag="NN" in="-1:nobj" out="">Auto</W>
 <W lemma="verbrauchen" msd="VAP" tag="VVPP" in="" out="-2:subj|12:pnct|8:pnct|2:dobj|5:loc|11:relelab|9:ref">verbraucht</W>
-<W lemma="unter" msd="SP" tag="APPR" in="1:degr" out="">unter</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="-2:dobj" out="-1:degr|1:nobj">0,04</W>
+<W lemma="unter" msd="SP" tag="APPR" in="1:quant" out="">unter</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="-2:dobj" out="-1:quant|1:nobj">0,04</W>
 <W lemma="l" msd="NC" tag="NN" in="-1:nobj|1:{apart}" out="1:nobj">l</W>
 <W lemma="Benzin" msd="NC" tag="NN" in="-1:nobj" out="-1:{apart}">Benzin</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-5:loc" out="1:nobj">auf</W>
@@ -179,9 +179,9 @@
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-3:subj|18:pnct|1:loc|7:man|4:err|14:dobj">wurde</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-1:loc" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:attr|2:{pos}">Silverstone</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:attr|2:{loc}">Silverstone</W>
 <W compound="" lemma="zurückkommen" msd="VA" tag="VVFIN" in="-4:err" out="">zurückkommt</W>
-<W lemma="in" msd="SP" tag="APPR" in="-2:attr|-2:{pos}" out="1:nobj">in</W>
+<W lemma="in" msd="SP" tag="APPR" in="-2:attr|-2:{loc}" out="1:nobj">in</W>
 <W lemma="Großbritannien" msd="NP" tag="NE" in="-1:nobj" out="">Großbritannien</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-7:man" out="1:nobj">im</W>
 <W lemma="Wettbewerb" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{patient}">Wettbewerb</W>
@@ -208,9 +208,9 @@
 <W lemma="Japan" msd="NP" tag="NE" in="-1:nobj" out="">Japan</W>
 <W lemma="gebaut" msd="AN" tag="ADJA" in="-3:attr" out="-2:@loc">gebautes</W>
 <W lemma="Auto" msd="NC" tag="NN" in="-4:nobj" out="">Auto</W>
-<W lemma="knapp" msd="AN" tag="ADJD" in="1:degr" out="">knapp</W>
-<W lemma="über" msd="SP" tag="APPR" in="1:degr" out="-1:degr">über</W>
-<W lemma="@card@" msd="AC" tag="CARD" in="2:dobj" out="-1:degr|1:nobj">0,04</W>
+<W lemma="knapp" msd="AN" tag="ADJD" in="1:quant" out="">knapp</W>
+<W lemma="über" msd="SP" tag="APPR" in="1:quant" out="-1:quant">über</W>
+<W lemma="@card@" msd="AC" tag="CARD" in="2:dobj" out="-1:quant|1:nobj">0,04</W>
 <W lemma="l" msd="NC" tag="NN" in="-1:nobj" out="">l</W>
 <W lemma="verbrauchen" msd="VA" tag="VVFIN" in="-12:relpa" out="-10:time|-9:subj|-2:dobj">verbrauchte</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>

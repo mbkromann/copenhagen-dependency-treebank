@@ -18,8 +18,8 @@
 <W msd="PI" tag="DT" in="-6:preds" out="1:attr|5:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="3:conj">unknown</W>
 <W msd="CC" tag="CC" in="2:coord" out="">or</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">rarely</W>
-<W msd="VAP" tag="VBN" in="-3:conj" out="-2:coord|-1:ext">used</W>
+<W msd="ANP" tag="RB" in="1:time" out="">rarely</W>
+<W msd="VAP" tag="VBN" in="-3:conj" out="-2:coord|-1:time">used</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">word</W>
 <W msd="SP" tag="IN" in="-12:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:nobj">Copenhagen</W>
@@ -68,8 +68,8 @@
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|5:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="3:conj">new</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">expensive</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">expensive</W>
 <W msd="VAG" tag="VBG" in="-5:nobj" out="1:pnct|2:appa">surfacing</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="-2:appa" out="1:attr|4:nobj|5:pnct|6:ref|7:rel">the</W>
@@ -92,8 +92,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">each</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stone</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-8:conj" out="-2:coord|-1:degr|1:mod">difficult</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-8:conj" out="-2:coord|-1:quant|1:mod">difficult</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:@loc|2:mod">walk</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="">on</W>
@@ -141,8 +141,8 @@
 <W msd="VADR" tag="VBZ" in="2:mod" out="-1:subj|1:pnct|2:[pred]">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="-9:appa|-2:[pred]" out="-2:mod|2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">limited</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">limited</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">clientele</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
@@ -181,8 +181,8 @@
 <W msd="AC" tag="CD" in="-1:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:mod|3:possd|4:mod">Copenhagen's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">trafficked</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">trafficked</W>
 <W msd="NC=P" tag="NNS" in="-3:possd" out="">streets</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">pedestrians</W>

@@ -43,7 +43,7 @@
 <W msd="NC=S" tag="NN" in="3:mod" out="1:pnct">Today</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">he</W>
-<W msd="VA" tag="MD" in="" out="-3:mod|-1:subj|1:vobj|4:mod|7:pnct|8:reas|37:pnct">would</W>
+<W msd="VA" tag="MD" in="" out="-3:mod|-1:subj|1:vobj|4:mod|7:pnct|8:cause|37:pnct">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:preds">been</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dead</W>
@@ -51,7 +51,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">over</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Nile</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|2:preds">is</W>
@@ -83,10 +83,10 @@
 <W msd="XP" tag="." in="-37:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">never</W>
-<W msd="VAF" tag="VB" in="" out="-1:neg|-3:reas|1:dobj|3:conj|8:pnct">eat</W>
+<W msd="VAF" tag="VB" in="" out="-1:neg|-3:cause|1:dobj|3:conj|8:pnct">eat</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">vegetables</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="NC=S" tag="NN" in="-3:conj" out="-1:coord|1:dobj">drink</W>
@@ -194,8 +194,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
-<W msd="VADR" tag="VBZ" in="" out="-10:subj|2:vobj|13:pnct|1:ext">is</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBZ" in="" out="-10:subj|2:vobj|13:pnct|1:time">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-12:[subj]|1:pobj">represented</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|6:conj">the</W>

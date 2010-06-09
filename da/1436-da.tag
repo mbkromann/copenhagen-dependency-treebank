@@ -70,11 +70,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-6:dobj" out="3:vobj">at</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="2:subj|3:[subj]" out="">han</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:degr|1:vobj">havde</W>
-<W gloss="saved" lemma="redde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:reas">reddet</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:quant|1:vobj">havde</W>
+<W gloss="saved" lemma="redde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:cause">reddet</W>
 <W gloss="life" lemma="liv" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">livet</W>
-<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-2:reas" out="1:nobj">på_grund_af</W>
+<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-2:cause" out="1:nobj">på_grund_af</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">en</W>
 <W gloss="air_bubble" lemma="luftboble" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">luftboble</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -170,8 +170,8 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|7:pnct">Men</W>
 <W gloss="the_crew" lemma="mandskab" msd="NCNSU==D" tag="NN" in="1:subj" out="">mandskabet</W>
-<W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:degr|2:dobj">så</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:quant|2:dobj">så</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="solitary" lemma="enlig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">enlige</W>
 <W gloss="Pole" lemma="polak" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">polak</W>

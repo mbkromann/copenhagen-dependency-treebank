@@ -192,9 +192,9 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="17:qobj" out="-1:expl|-2:pnct|1:mod|3:dobj|5:pnct|8:conj|16:pnct|2:degr">findes</W>
+<W gloss="is" lemma="findes" msd="VEDR=----A-" tag="VBN" in="17:qobj" out="-1:expl|-2:pnct|1:mod|3:dobj|5:pnct|8:conj|16:pnct|2:quant">findes</W>
 <W gloss="Fortunately" lemma="heldigvis" msd="RGU" tag="RP" in="-1:mod" out="">heldigvis</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:dobj" out="1:nobj">en</W>
 <W gloss="copy" lemma="kopi" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kopi</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

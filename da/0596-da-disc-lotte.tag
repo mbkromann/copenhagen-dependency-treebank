@@ -75,10 +75,10 @@
 <W gloss="cover" lemma="dække" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-10:[subj]|1:dobj|2:time">dække</W>
 <W gloss="needs" lemma="behov" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">behovet</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj|7:pnct|8:conj|18:conj">i</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:dur">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:time">en</W>
 <W gloss="short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">kort</W>
 <W gloss="optaktsperiode" lemma="optaktsperiode" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">optaktsperiode</W>
-<W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:dur" out="1:nobj">på</W>
+<W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:time" out="1:nobj">på</W>
 <W gloss="one-two" lemma="en-to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">en-to</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -87,17 +87,17 @@
 <W gloss="acts_of_war" lemma="krigshandling" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pnct|2:modp">krigshandlinger</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="for" lemma="i" msd="SP" tag="IN" in="-2:modp" out="2:nobj|4:pnct">i</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">cirka</W>
-<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">30</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">cirka</W>
+<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">30</W>
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dage</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-4:pnct" out=""> - </W>
 <W gloss="and" lemma="samt" msd="CC" tag="CC" in="1:coord" out="">samt</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-18:conj" out="-1:coord|5:succ">i</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">cirka</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="3:tobj" out="-1:degr|1:nobj">to</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-18:conj" out="-1:coord|5:time">i</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">cirka</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="3:tobj" out="-1:quant|1:nobj">to</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="immediately" lemma="umiddelbar" msd="ANP---=-R" tag="JJ" in="1:tobj" out="">umiddelbart</W>
-<W gloss="thereafter" lemma="efter" msd="RGU" tag="RP" in="-5:succ" out="-3:tobj|-1:tobj">efter</W>
+<W gloss="thereafter" lemma="efter" msd="RGU" tag="RP" in="-5:time" out="-3:tobj|-1:tobj">efter</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
 </p>
@@ -107,8 +107,8 @@
 <W gloss="is_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:ex|2:vobj">skal</W>
 <W gloss="Among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="-1:ex" out="">blandt_andet</W>
 <W gloss="bring_up-to-date" lemma="ajourføre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|3:dobj|19:conj">ajourføre</W>
-<W gloss="previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:prec" out="">tidligere</W>
-<W gloss="prepared" lemma="udarbejde" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="-1:prec">udarbejdede</W>
+<W gloss="previously" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:time" out="">tidligere</W>
+<W gloss="prepared" lemma="udarbejde" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="-1:time">udarbejdede</W>
 <W gloss="lists" lemma="liste" msd="NCCPU==I" tag="NNP" in="-3:dobj" out="-1:attr|1:pobj|3:ref|4:rel">lister</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="drugs" lemma="lægemiddel" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">lægemidler</W>
@@ -176,8 +176,8 @@
 <W gloss="expects" lemma="forvente" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:vobj|9:pnct">forventer</W>
 <W gloss="the_Ministry_of_the_Interior" lemma="indenrigsministerium" msd="NCNSU==D" tag="NN" in="-1:subj" out="">indenrigsministeriet</W>
 <W gloss="be" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-7:subj|1:vobj">er</W>
-<W gloss="concluded" lemma="afslutte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:prec">afsluttet</W>
-<W gloss="before" lemma="inden" msd="SP" tag="IN" in="-1:prec" out="1:nobj">inden</W>
+<W gloss="concluded" lemma="afslutte" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:time">afsluttet</W>
+<W gloss="before" lemma="inden" msd="SP" tag="IN" in="-1:time" out="1:nobj">inden</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:nobj">den</W>
 <W gloss="1," lemma="1." msd="AO---U=--" tag="JJ" in="-1:nobj" out="">1.</W>
 <W gloss="June" lemma="juni" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:nobj">juni</W>
@@ -187,8 +187,8 @@
 </p>
 <p>
 <s>
-<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="1:succ" out="">Dernæst</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:succ|1:subj|6:vobj|29:pnct">vil</W>
+<W gloss="Then" lemma="dernæst" msd="RGU" tag="RP" in="1:time" out="">Dernæst</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:subj|6:vobj|29:pnct">vil</W>
 <W gloss="the_Ministry_of_the_Interior" lemma="indenrigsministerium" msd="NCNSU==D" tag="NN" in="-1:subj|5:[subj]" out="1:pnct|2:conj|4:conj">indenrigsministeriet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="the_civil_defence_authority" lemma="civilforsvarsstyrelse" msd="NCCSU==D" tag="NN" in="-2:conj" out="">civilforsvarsstyrelsen</W>

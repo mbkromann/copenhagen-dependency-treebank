@@ -150,8 +150,8 @@
 <W msd="ANP" tag="RB" in="3:mod" out="1:pnct">Fortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="15:qobj" out="-4:pnct|-1:expl|-3:mod|1:degr|2:dobj|6:conj|13:pnct|14:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="15:qobj" out="-4:pnct|-1:expl|-3:mod|1:quant|2:dobj|6:conj|13:pnct|14:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">copy</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
@@ -220,8 +220,8 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">television</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">film</W>
-<W msd="ANC" tag="JJR" in="1:degr" out="">more</W>
-<W msd="SP" tag="IN" in="-9:pobj" out="-1:degr|1:nobj">into</W>
+<W msd="ANC" tag="JJR" in="1:quant" out="">more</W>
+<W msd="SP" tag="IN" in="-9:pobj" out="-1:quant|1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">shape</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>

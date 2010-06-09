@@ -30,8 +30,8 @@
 <s>
 <W msd="PP" tag="PRP" in="3:subj|5:[subj]" out="">You</W>
 <W msd="ANP" tag="RB" in="2:add" out="">also</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|-2:add|-1:ext|1:dobj|9:pnct">have</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|-2:add|-1:time|1:dobj|9:pnct">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:pobj">watch</W>
 <W msd="RG" tag="RP" in="-1:pobj" out="1:nobj">out</W>
@@ -70,14 +70,14 @@
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|3:preds">make</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">you</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">handicapped</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">handicapped</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:degr|2:dobj|10:pnct|13:conj|18:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:quant|2:dobj|10:pnct|13:conj|18:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">way</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>

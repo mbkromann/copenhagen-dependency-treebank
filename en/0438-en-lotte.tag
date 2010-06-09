@@ -55,10 +55,10 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|1:preds">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="2:nobj">in</W>
-<W msd="ANC" tag="JJR" in="3:degr" out="">more</W>
+<W msd="ANC" tag="JJR" in="3:quant" out="">more</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:attr" out="-3:degr">friendly</W>
+<W msd="ANP" tag="JJ" in="-1:attr" out="-3:quant">friendly</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">way</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
@@ -202,8 +202,8 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:pnct">cannot</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj|4:attr">take</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant">much</W>
 <W msd="ANP" tag="RB" in="-4:attr" out="-1:mod">longer</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

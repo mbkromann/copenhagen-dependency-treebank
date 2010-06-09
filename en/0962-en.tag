@@ -215,8 +215,8 @@
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stack</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|4:preds|6:conj|9:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="AC" tag="CD" in="2:mod" out="-1:degr|1:nobj">2</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="AC" tag="CD" in="2:mod" out="-1:quant|1:nobj">2</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-2:mod">high</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

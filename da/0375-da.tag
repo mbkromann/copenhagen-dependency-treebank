@@ -60,8 +60,8 @@
 <W gloss="around" lemma="omkring" msd="SP" tag="IN" in="-4:loc" out="1:nobj">omkring</W>
 <W gloss="him" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:nobj" out="">sig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-8:[subj]|-1:coord|1:cont|2:preds">var</W>
-<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:cont" out="">samtidig</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-8:[subj]|-1:coord|1:time|2:preds">var</W>
+<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:time" out="">samtidig</W>
 <W gloss="known" lemma="kendt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="1:pobj">kendt</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -101,8 +101,8 @@
 </p>
 <p>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:cont|2:subj|3:preds|5:pnct">var</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:time|2:subj|3:preds|5:pnct">var</W>
 <W gloss="H.L." lemma="H.L." msd="NP--U==-" tag="NNP" in="1:namef" out="">H.L.</W>
 <W gloss="Hansen" lemma="Hansen" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Hansen</W>
 <W gloss="helpfulness" lemma="hjælpsomhed" msd="NCCSU==D" tag="NN" in="-3:preds" out="1:focal">hjælpsomheden</W>
@@ -148,10 +148,10 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="For" lemma="af" msd="SP" tag="IN" in="3:reas" out="1:nobj">Af</W>
+<W gloss="For" lemma="af" msd="SP" tag="IN" in="3:cause" out="1:nobj">Af</W>
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">samme</W>
 <W gloss="reason" lemma="grund" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">grund</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:reas|1:subj|2:vobj|5:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-3:cause|1:subj|2:vobj|5:pnct">var</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">han</W>
 <W gloss="respected" lemma="respektere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|2:other">respekteret</W>
 <W gloss="knowledge" lemma="viden" msd="RGU" tag="RP" in="1:other" out="">viden</W>
@@ -213,9 +213,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Through" lemma="igennem" msd="SP" tag="IN" in="2:dur" out="1:nobj">Igennem</W>
+<W gloss="Through" lemma="igennem" msd="SP" tag="IN" in="2:time" out="1:nobj">Igennem</W>
 <W gloss="the_years" lemma="år" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">årene</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:dur|1:subj|2:preds|36:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:time|1:subj|2:preds|36:pnct">var</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="chairman" lemma="formand" msd="NCCSU==I" tag="NN" in="-2:preds" out="1:pobj|6:pnct|7:conj">formand</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

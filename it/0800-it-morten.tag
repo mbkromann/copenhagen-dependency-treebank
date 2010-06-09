@@ -21,8 +21,8 @@
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="conoscere" msd="VADR" tag="VER&3a;pres" in="-19:conj" out="-1:coord|2:dobj">conosce</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:quant|1:nobj">i</W>
 <W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">nomi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="1:nobj">delle</W>
 <W lemma="specialità" msd="NC" tag="NOM" in="-1:nobj" out="1:loc">specialità</W>
@@ -116,8 +116,8 @@
 <W lemma="mite" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">mite</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="andare&7c;riandare" msd="VADR" tag="VER&3a;pres" in="-7:conj" out="-1:coord|1:man">va</W>
-<W lemma="benissimo" msd="RG" tag="ADV" in="-1:man" out="1:ext">benissimo</W>
-<W lemma="tra" msd="SP" tag="PRE" in="-1:ext" out="1:pobj">tra</W>
+<W lemma="benissimo" msd="RG" tag="ADV" in="-1:man" out="1:time">benissimo</W>
+<W lemma="tra" msd="SP" tag="PRE" in="-1:time" out="1:pobj">tra</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="noi" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">noi</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="-16:pnct" out="">"</W>
@@ -193,8 +193,8 @@
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:vobj">di</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-1:neg|-4:[subj]|2:nobj">aver</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="bisogno" msd="NC" tag="NOM" in="-2:nobj" out="-1:degr|1:pobj">bisogno</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="bisogno" msd="NC" tag="NOM" in="-2:nobj" out="-1:quant|1:pobj">bisogno</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
 <W lemma="sussidio" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}#">sussidio</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">di</W>

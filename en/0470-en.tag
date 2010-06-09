@@ -27,8 +27,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">blood</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="2:man">circulate</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">quickly</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:quant">quickly</W>
 <W msd="XP" tag="." in="-18:pnct" out="">?</W>
 </s>
 <s>
@@ -109,8 +109,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">tired</W>
 <W msd="NC=P" tag="NNS" in="-5:xpl" out="-3:attr|4:conj">legs</W>
-<W msd="CC" tag="CC" in="3:coord" out="1:ext">and</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="CC" tag="CC" in="3:coord" out="1:time">and</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">nightly</W>
 <W msd="NC=S" tag="NN" in="-4:conj" out="-3:coord|-1:attr|2:conj">discomfort</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -153,12 +153,12 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="6:conj|17:pnct">But</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="RB" in="4:ext" out="-1:degr|1:pnct">often</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="RB" in="4:time" out="-1:quant|1:pnct">often</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">vascular</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="-1:attr">surgeons</W>
-<W msd="VA" tag="MD" in="-6:conj" out="-1:subj|-4:ext|1:vobj">will</W>
+<W msd="VA" tag="MD" in="-6:conj" out="-1:subj|-4:time|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|6:pobj">replace</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:pnct|3:mod|4:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>

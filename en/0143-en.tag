@@ -85,11 +85,11 @@
 <W msd="CC" tag="CC" in="" out="7:conj|42:pnct">And</W>
 <W msd="ANP" tag="RB" in="6:mod" out="1:pnct">otherwise</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="4:prec" out="1:nobj|2:pnct#">before</W>
+<W msd="CS" tag="IN" in="4:time" out="1:nobj|2:pnct#">before</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr">May</W>
 <W msd="AC" tag="CD" in="-2:pnct#|-1:attr" out="">3,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-6:mod|-4:prec|1:vobj">must</W>
+<W msd="VA" tag="MD" in="-7:conj" out="-1:subj|-6:mod|-4:time|1:vobj">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:part|2:dobj">worked</W>
 <W msd="RG" tag="RP" in="-1:part" out="">out</W>

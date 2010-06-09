@@ -95,10 +95,10 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="16:qobj" out="-1:pnct|2:conj|15:pnct">Men</W>
 <W gloss="the_means" lemma="middel" msd="NCNPU==D" tag="NNP" in="1:subj" out="">midlerne</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:preds|2:pnct|3:reas">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:preds|2:pnct|3:cause">er</W>
 <W gloss="wrong" lemma="forkert" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">forkerte</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="since" lemma="da" msd="CS" tag="IN" in="-3:reas" out="2:vobj">da</W>
+<W gloss="since" lemma="da" msd="CS" tag="IN" in="-3:cause" out="2:vobj">da</W>
 <W gloss="the_personnel_reductions" lemma="personalereduktion" msd="NCCPU==I" tag="NNP" in="1:subj|2:[subj]" out="">personalereduktioner</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|7:pnct">vil</W>
 <W gloss="downgrade" lemma="forringe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">forringe</W>
@@ -185,12 +185,12 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="13:pnct" out="">"</W>
 <W gloss="Should" lemma="skulle" msd="VADA=----A-" tag="VBD" in="12:cond" out="7:subj|8:vobj|11:pnct">Skulle</W>
-<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mindre</W>
-<W gloss="healthy" lemma="sund" msd="ANP[CN]PU=[DI]U" tag="JJ" in="5:attr" out="-1:degr|4:conj">sunde</W>
+<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mindre</W>
+<W gloss="healthy" lemma="sund" msd="ANP[CN]PU=[DI]U" tag="JJ" in="5:attr" out="-1:quant|4:conj">sunde</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="3:coord" out="">eller</W>
 <W gloss="perhaps" lemma="måske" msd="RGU" tag="RP" in="2:epi" out="">måske</W>
-<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mindre</W>
-<W gloss="well_run" lemma="veldrevet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:conj" out="-2:epi|-1:degr|-3:coord">veldrevne</W>
+<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mindre</W>
+<W gloss="well_run" lemma="veldrevet" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:conj" out="-2:epi|-1:quant|-3:coord">veldrevne</W>
 <W gloss="financial_institutions" lemma="pengeinstitut" msd="NCNPU==I" tag="NNP" in="-7:subj|1:[subj]" out="-5:attr">pengeinstitutter</W>
 <W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-8:vobj" out="-1:[subj]|1:@loc">komme</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>

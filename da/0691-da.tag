@@ -41,8 +41,8 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:struct" out="">Således</W>
-<W gloss="draws" lemma="nærme" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|2:iobj|3:dobj|22:pnct">nærmer</W>
+<W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:scene" out="">Således</W>
+<W gloss="draws" lemma="nærme" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|2:iobj|3:dobj|22:pnct">nærmer</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-2:iobj" out="">os</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:dobj" out="1:pobj|6:pnct|7:ref|9:rel">ét</W>
@@ -151,13 +151,13 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">der</W>
 <W gloss="presumably" lemma="angivelig" msd="ANP---=-R" tag="JJ" in="1:epi" out="">angiveligt</W>
-<W gloss="is_staring" lemma="stirre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:epi|1:dobj|6:cont|3:@dir">stirrer</W>
+<W gloss="is_staring" lemma="stirre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|-1:epi|1:dobj|6:time|3:@dir">stirrer</W>
 <W gloss="Pluto" lemma="Pluto" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">Pluto</W>
-<W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="">lige</W>
-<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:@dir" out="-1:degr|1:other">ind</W>
+<W gloss="right" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="">lige</W>
+<W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-3:@dir" out="-1:quant|1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:pnct">i</W>
 <W gloss="..." lemma="..." msd="XP" tag="..." in="-1:pnct" out="">...</W>
-<W gloss="all_the_while" lemma="altimens" msd="CS" tag="IN" in="-6:cont" out="2:vobj">altimens</W>
+<W gloss="all_the_while" lemma="altimens" msd="CS" tag="IN" in="-6:time" out="2:vobj">altimens</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="is_removing" lemma="fjerne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:inst">fjerner</W>
 <W gloss="the_turd" lemma="lort" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">lorten</W>

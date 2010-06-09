@@ -108,7 +108,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:nobj|13:cont|21:pnct">affects</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:nobj|13:time|21:pnct">affects</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">attendance</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">at</W>
@@ -121,7 +121,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">town</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-13:cont" out="4:vobj">while</W>
+<W msd="CS" tag="IN" in="-13:time" out="4:vobj">while</W>
 <W msd="PD" tag="DT" in="3:subj|6:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">local</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">brothel</W>

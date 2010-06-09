@@ -61,9 +61,9 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-6:mod" out="2:vobj">until</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:ext|3:vobj">had</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:time|3:vobj">had</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="-1:mod">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="-1:mod">again</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|2:@loc">gotten</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">somewhat</W>
 <W msd="SP" tag="IN" in="-2:@loc" out="-1:mod|1:nobj">on</W>
@@ -187,8 +187,8 @@
 <W msd="PI" tag="DT" in="3:subj" out="1:attr|2:nobj">A</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">new</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">attack</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:prec|5:pnct|10:conj|16:pnct">disappeared</W>
-<W msd="CS" tag="IN" in="-1:prec" out="2:vobj">before</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:time|5:pnct|10:conj|16:pnct">disappeared</W>
+<W msd="CS" tag="IN" in="-1:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">got</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">started</W>

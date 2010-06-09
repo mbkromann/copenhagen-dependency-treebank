@@ -57,8 +57,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="2:mod" out="1:pnct">surprisingly</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-2:mod">only</W>
-<W msd="CS" tag="IN" in="7:mod" out="-1:degr|1:nobj">as</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-2:mod">only</W>
+<W msd="CS" tag="IN" in="7:mod" out="-1:quant|1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|4:nobj">no</W>
 <W msd="XP" tag="." in="-1:pnct" out="">.</W>
 </s>
@@ -153,8 +153,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">flat</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">tire</W>
 <W msd="CS" tag="IN" in="-4:mod" out="2:nobj">after</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">10</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">10</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">metres</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
@@ -186,8 +186,8 @@
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">riders</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:[subj]|3:mod|6:mod">go</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">far</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant">far</W>
 <W msd="SP" tag="IN" in="-3:mod" out="-1:mod|1:nobj">beyond</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">abilities</W>
@@ -195,8 +195,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|4:attr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">curve</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-4:attr" out="1:nobj|-1:degr">700</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-4:attr" out="1:nobj|-1:quant">700</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">metres</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

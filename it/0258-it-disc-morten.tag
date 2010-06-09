@@ -6,7 +6,7 @@
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
 <W lemma="trattare" msd="VADR" tag="VER&3a;pres" in="" out="">tratta</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="" out="27:+CONST&3a;elab">3800</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="" out="27:+CONJ&3a;elab">3800</W>
 <W lemma="tonnellata" msd="NC" tag="NOM" in="" out="">tonnellate</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="rifiuto" msd="NC" tag="NOM" in="" out="">rifiuti</W>
@@ -33,7 +33,7 @@
 </p>
 <p>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-27:+CONST&3a;elab" out="19:+CONJ/(e)&7c;TIME&3a;cont/ora">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-27:+CONJ&3a;elab" out="19:+CONJ&3a;add/(e)&7c;TIME&3a;time/ora">Sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stati</W>
 <W lemma="trasportare" msd="VAP" tag="VER&3a;pper" in="" out="">trasportati</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -52,7 +52,7 @@
 <p>
 <s>
 <W lemma="ora" msd="RG" tag="ADV" in="" out="">Ora</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:+CONJ/(e)&7c;TIME&3a;cont/ora" out="12:DESCR&3a;qual">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-19:+CONJ&3a;add/(e)&7c;TIME&3a;time/ora" out="12:FORMAL&3a;descr">sono</W>
 <W lemma="stoccare" msd="VAP" tag="VER&3a;pper" in="" out="">stoccati</W>
 <W lemma="davanti" msd="SP" tag="PRE" in="" out="">davanti</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
@@ -64,7 +64,7 @@
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">I</W>
 <W lemma="barile" msd="NC" tag="NOM" in="" out="">barili</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-12:DESCR&3a;qual" out="13:CONST&3a;apart">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-12:FORMAL&3a;descr" out="13:CONST&3a;apart">sono</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="balia" msd="NC" tag="NOM" in="" out="">balia</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -77,7 +77,7 @@
 <W lemma="alcuno" msd="PI" tag="PRO&3a;indef" in="" out="">Alcuni</W>
 <W lemma="tra" msd="SP" tag="PRE" in="" out="">tra</W>
 <W lemma="loro" msd="PO" tag="PRO&3a;poss" in="" out="">loro</W>
-<W lemma="perdono" msd="NC" tag="NOM" in="-13:CONST&3a;apart" out="22:CONJ/(e)">perdono</W>
+<W lemma="perdono" msd="NC" tag="NOM" in="-13:CONST&3a;apart" out="22:CONJ&3a;add/(e)">perdono</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -99,7 +99,7 @@
 <W lemma="prodotto" msd="NC" tag="NOM" in="" out="">prodotti</W>
 <W lemma="chimico" msd="AN" tag="ADJ" in="" out="">chimici</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="diffondere" msd="VADR" tag="VER&3a;pres" in="-22:CONJ/(e)" out="42:+CONJ/(e)/ATTR">diffonde</W>
+<W lemma="diffondere" msd="VADR" tag="VER&3a;pres" in="-22:CONJ&3a;add/(e)" out="42:+CONJ&3a;add/(e)/ATTR">diffonde</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dai</W>
 <W lemma="barile" msd="NC" tag="NOM" in="" out="">barili</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -141,7 +141,7 @@
 <W lemma="scorso" msd="AN" tag="ADJ" in="" out="">scorso</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
-<W lemma="firmare" msd="VAP" tag="VER&3a;pper" in="-42:+CONJ/(e)/ATTR" out="44:+TIME&3a;succ/dopo">firmato</W>
+<W lemma="firmare" msd="VAP" tag="VER&3a;pper" in="-42:+CONJ&3a;add/(e)/ATTR" out="44:+TIME&3a;post/dopo">firmato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="" out="">accordo</W>
 <W lemma="tra" msd="SP" tag="PRE" in="" out="">tra</W>
@@ -185,7 +185,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="Nigeria" msd="NP" tag="NPR" in="" out="">Nigeria</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-44:+TIME&3a;succ/dopo" out="">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-44:+TIME&3a;post/dopo" out="">ha</W>
 <W lemma="trattenere" msd="VAP" tag="VER&3a;pper" in="" out="">trattenuto</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="27:+CONST&3a;apart">due</W>
 <W lemma="nave" msd="NC" tag="NOM" in="" out="">navi</W>
@@ -214,7 +214,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">delle</W>
 <W lemma="nave" msd="NC" tag="NOM" in="" out="">navi</W>
 <W lemma="trattenere" msd="VAP" tag="VER&3a;pper" in="" out="">trattenute</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:+CONST&3a;apart" out="-10:+SCENE|21:CONST&3a;elab">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-27:+CONST&3a;apart" out="-10:+SCENE|21:CONJ&3a;elab">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">coaster</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="" out="">danese</W>
@@ -235,7 +235,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Danix</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="" out="">si</W>
-<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-21:CONST&3a;elab" out="">trova</W>
+<W lemma="trovare" msd="VADR" tag="VER&3a;pres" in="-21:CONJ&3a;elab" out="">trova</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nella</W>
 <W lemma="cittadino" msd="AN" tag="ADJ" in="" out="">cittadina</W>
 <W lemma="portuale" msd="NC" tag="NOM" in="" out="">portuale</W>

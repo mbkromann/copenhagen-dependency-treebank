@@ -142,7 +142,7 @@
 <s>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">His</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">thoughts</W>
-<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|2:preds|8:pnct|9:cont|15:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-2:subj|1:mod|2:preds|8:pnct|9:time|15:pnct">were</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">already</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod|1:attr">the</W>
@@ -151,7 +151,7 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Paris</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-9:time" out="3:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="1:possd">Susanne's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">thoughts</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:preds">were</W>

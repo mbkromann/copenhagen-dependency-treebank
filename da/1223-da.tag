@@ -75,8 +75,8 @@
 <W gloss="Kurds" lemma="kurder" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="">kurdere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="who" lemma="som" msd="U=" tag="WDT" in="-6:ref|2:subj" out="">som</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|2:dobj|-1:degr">taler</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="speak" lemma="tale" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|2:dobj|-1:quant">taler</W>
 <W gloss="fluent" lemma="flydende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">flydende</W>
 <W gloss="Swedish" lemma="svensk" msd="NCNSU==I" tag="NN" in="-2:dobj" out="-1:attr">svensk</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
@@ -121,8 +121,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Sweden" lemma="Sverige" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Sverige</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|-4:pnct|2:preds|3:pnct">er</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="bad" lemma="slem" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr">slem</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="bad" lemma="slem" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:quant">slem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -229,8 +229,8 @@
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">gang</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:mod|1:subj|3:preds|6:pnct">er</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="2:pobj">mere</W>
-<W gloss="worth" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="-1:degr">værd</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="2:pobj">mere</W>
+<W gloss="worth" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="-1:quant">værd</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-2:pobj" out="1:nobj">end</W>
 <W gloss="brethren" lemma="broderfolk" msd="NCNSG==D" tag="NN" in="-1:nobj" out="">broderfolkets</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>

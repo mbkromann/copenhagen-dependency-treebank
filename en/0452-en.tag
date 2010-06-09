@@ -111,9 +111,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:vobj">have</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|2:[dobj]" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">prize</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:[dobj]|2:prec">sent</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:[dobj]|2:time">sent</W>
 <W msd="ANP" tag="RB" in="1:man" out="">well</W>
-<W msd="CS" tag="IN" in="-2:prec" out="2:nobj|-1:man">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="2:nobj|-1:man">before</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christmas</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Eve</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>

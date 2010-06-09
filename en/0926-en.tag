@@ -93,8 +93,8 @@
 <W msd="PD" tag="DT" in="4:subj" out="1:attr|2:nobj">These</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">happy</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">moments</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|-1:ext|1:dobj|2:pobj|4:pnct">take</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|-1:time|1:dobj|2:pobj|4:pnct">take</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">by</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">surprise</W>
@@ -204,10 +204,10 @@
 <s>
 <W msd="CS" tag="IN" in="23:cond" out="2:vobj">If</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pnct|3:reas">try</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pnct|3:cause">try</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="10:mod" out="">either</W>
-<W msd="CS" tag="IN" in="-3:reas" out="4:vobj|10:conj">because</W>
+<W msd="CS" tag="IN" in="-3:cause" out="4:vobj|10:conj">because</W>
 <W msd="PI" tag="DT" in="3:subj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">gallery</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">owner</W>

@@ -50,8 +50,8 @@
 <W gloss="Your" lemma="din" msd="PO2CSUSNU" tag="PRP$" in="2:subj" out="1:possd">Din</W>
 <W gloss="mother" lemma="mor" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mor</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|2:preds|5:pnct">var</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="slim" lemma="slank" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr|2:conj">slank</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="slim" lemma="slank" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:quant|2:conj">slank</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="athletic" lemma="sportstrænet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">sportstrænet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -63,11 +63,11 @@
 <W gloss="our" lemma="vores" msd="PO1[CN][SP]UPNU" tag="PRP$" in="-1:dobj" out="1:possd">vores</W>
 <W gloss="daughter" lemma="datter" msd="NCCSU==I" tag="NN" in="-1:possd" out="">datter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-6:time|1:subj|2:degr|4:dobj|5:time|9:pnct">så</W>
+<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-6:time|1:subj|2:quant|4:dobj|5:time|9:pnct">så</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-2:degr" out="">næsten</W>
-<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
-<W gloss="nothing" lemma="ingenting" msd="PI-NSU--U" tag="DT" in="-4:dobj" out="-1:degr">ingenting</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-2:quant" out="">næsten</W>
+<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:quant" out="">slet</W>
+<W gloss="nothing" lemma="ingenting" msd="PI-NSU--U" tag="DT" in="-4:dobj" out="-1:quant">ingenting</W>
 <W gloss="before" lemma="førend" msd="SP" tag="IN" in="-5:time" out="1:obl">førend</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:obl" out="2:nobj">i</W>
 <W gloss="seventh" lemma="syvende" msd="AO---U=--" tag="JJ" in="1:attr" out="">syvende</W>
@@ -258,10 +258,10 @@
 <W gloss="the_truth" lemma="sandhed" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">sandheden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="gradually" lemma="efterhånden" msd="RGU" tag="RP" in="1:time" out="">efterhånden</W>
-<W gloss="repressed" lemma="fortrænge" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:time|-2:coord|1:subj|2:dobj|3:degr">fortrængte</W>
+<W gloss="repressed" lemma="fortrænge" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-1:time|-2:coord|1:subj|2:dobj|3:quant">fortrængte</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-2:dobj" out="">den</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-3:degr" out="">helt</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-3:quant" out="">helt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -283,8 +283,8 @@
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W gloss="acted" lemma="handle" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">handlet</W>
 <W gloss="out_of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="love" lemma="kærlighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:ben">kærlighed</W>
-<W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:ben" out="1:nobj">til</W>
+<W gloss="love" lemma="kærlighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:goal">kærlighed</W>
+<W gloss="for" lemma="til" msd="SP" tag="IN" in="-1:goal" out="1:nobj">til</W>
 <W gloss="you" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:nobj" out="">dig</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>

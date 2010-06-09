@@ -4,7 +4,7 @@
 <W lemma="mio" msd="PO" tag="PRO:poss" in="" out="">mio</W>
 <W lemma="compito" msd="NC" tag="NOM" in="" out="">compito</W>
 <W lemma="essere" msd="VADA" tag="VER:impf" in="" out="">era</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="definire" msd="VAP" tag="VER:pper" in="" out="">definito</W>
 <W lemma=":" msd="XP" tag="PON" in="" out="">:</W>
 <W lemma="bisognare" msd="VADA" tag="VER:impf" in="" out="">bisognava</W>

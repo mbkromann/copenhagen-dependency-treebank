@@ -79,11 +79,11 @@
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="4:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">parents</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|4:cond|21:pnct|-4:reas">must</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|4:cond|21:pnct|-4:cause">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|2:dobj">pay</W>
 <W msd="NP=S" tag="NNP" in="1:nobj" out="">DKK</W>
 <W msd="AC" tag="CD" in="-2:dobj" out="-1:nobj">3,000,</W>

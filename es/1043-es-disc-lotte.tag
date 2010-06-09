@@ -1,4 +1,4 @@
-<W lemma="como" msd="CS" tag="CSUBX" in="15:comp" out="1:nobj">Como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="15:resem" out="1:nobj">Como</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:attr|2:nobj|5:ref|6:relr">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:attr" out="">taimado</W>
 <W lemma="gobierno" msd="NC" tag="NC" in="-2:nobj" out="1:about#">gobierno</W>
@@ -13,7 +13,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:namef" out="">Poul</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:nobj" out="-1:namef|1:namel">Schlüter</W>
 <W lemma="IV" msd="AC" tag="CARD" in="-1:namel" out="">IV</W>
-<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-15:comp|-6:subj|1:vobj|45:pnct">ha</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-15:resem|-6:subj|1:vobj|45:pnct">ha</W>
 <W lemma="emitir" msd="VAF" tag="VLadj" in="-1:vobj" out="-7:[subj]|1:dobj">emitido</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="proyecto" msd="NC" tag="NC" in="-1:nobj" out="1:about">proyecto</W>
@@ -55,7 +55,7 @@
 <W lemma="a" msd="SP" tag="SCENE" in="-8:dir" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="brazo" msd="NC" tag="NC" in="-1:nobj" out="1:const">brazos</W>
-<W lemma="del" msd="SP" tag="PDEL" in="-1:const" out="1:nobj|37:coref-id">del</W>
+<W lemma="del" msd="SP" tag="PDEL" in="-1:const" out="1:nobj|37:coref-iden">del</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="1:attr">partido</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:attr" out="">Socialdemócrata</W>
 <W lemma="." msd="XP" tag="FS" in="-45:pnct" out="">.</W>
@@ -85,17 +85,17 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-3:conj" out="-1:coord|1:nobj">de</W>
 <W lemma="moral" msd="NC" tag="NC" in="-1:nobj" out="">moral</W>
 <W lemma="." msd="XP" tag="FS" in="-12:pnct" out="">.</W>
-<W lemma="porque" msd="CS" tag="CSUBX" in="10:struct" out="">Porque</W>
+<W lemma="porque" msd="CS" tag="CSUBX" in="10:scene" out="">Porque</W>
 <W lemma="ese" msd="" tag="DM" in="9:time" out="1:focal|3:pnct|4:appa">ese</W>
 <W lemma="mismo" msd="AN" tag="ADJ" in="-1:focal" out="1:nobj">mismo</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">día</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-3:pnct" out="">–</W>
 <W lemma="martes" msd="NC" tag="NC" in="-4:appa" out="1:pnct">martes</W>
 <W lemma="-" msd="XP" tag="DASH" in="-1:pnct" out="">-</W>
-<W lemma="el" msd="PD" tag="ART" in="-37:coref-id|3:subj" out="1:nobj|10:coref">el</W>
+<W lemma="el" msd="PD" tag="ART" in="-37:coref-iden|3:subj" out="1:nobj|10:coref">el</W>
 <W lemma="partido" msd="NC" tag="NC" in="-1:nobj" out="1:attr">partido</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:attr" out="">Socialdemócrata</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:subj|-10:struct|-9:time|2:man|7:dobj|16:pnct">emitió</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:subj|-10:scene|-9:time|2:man|7:dobj|16:pnct">emitió</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-2:man" out="-1:pnct|1:nobj|4:pnct">con</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr">una</W>
@@ -143,8 +143,8 @@
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="1:dobj|5:loc|19:pnct|20:coref">Tenemos</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|3:attr">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">superávit</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="grande" msd="AN" tag="ADJ" in="-3:attr" out="-1:degr">grande</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="-3:attr" out="-1:quant">grande</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-5:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="balanza" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}#">balanza</W>
@@ -169,8 +169,8 @@
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:attr|4:attr">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">política</W>
 <W lemma="financiero" msd="AN" tag="ADJ" in="-2:attr" out="">financiera</W>
-<W lemma="menos" msd="RG" tag="ADV" in="1:degr" out="">menos</W>
-<W lemma="restringir" msd="VAF" tag="VLadj" in="-4:attr" out="-1:degr">restringida</W>
+<W lemma="menos" msd="RG" tag="ADV" in="1:quant" out="">menos</W>
+<W lemma="restringir" msd="VAF" tag="VLadj" in="-4:attr" out="-1:quant">restringida</W>
 <W lemma="(" msd="XP" tag="LP" in="2:pnct" out="">(</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">mayor</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="-2:pnct|-1:attr|1:attr|2:pnct">déficit</W>
@@ -179,11 +179,11 @@
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:nobj|2:attr">el</W>
 <W lemma="consumo" msd="NC" tag="NC" in="-1:nobj" out="">consumo</W>
 <W lemma="privado" msd="AN" tag="ADJ" in="-2:attr" out="">privado</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:subj|-14:man|1:degr|2:pnct">aumentaría</W>
-<W lemma="considerablemente" msd="RG" tag="ADV" in="-1:degr" out="">considerablemente</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:subj|-14:man|1:quant|2:pnct">aumentaría</W>
+<W lemma="considerablemente" msd="RG" tag="ADV" in="-1:quant" out="">considerablemente</W>
 <W lemma="." msd="XP" tag="FS" in="-2:pnct" out="">.</W>
-<W lemma="entonces" msd="RG" tag="ADV" in="1:struct" out="">Entonces</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:struct|1:subj|7:conj">descendería</W>
+<W lemma="entonces" msd="RG" tag="ADV" in="1:scene" out="">Entonces</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:scene|1:subj|7:conj">descendería</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="paro" msd="NC" tag="NC" in="-1:nobj" out="">paro</W>
 <W lemma="y" msd="CC" tag="CC" in="4:coord" out="">y</W>

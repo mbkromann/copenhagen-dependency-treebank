@@ -43,7 +43,7 @@
 <s>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Gade</W>
-<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct|79:+CONJ/(og)/ATTR1">forberedte</W>
+<W gloss="prepared" lemma="forberede" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:pobj|23:pnct|79:+CONJ&3a;add/(og)/ATTR1">forberedte</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:mod">de</W>
 <W gloss="delegates" lemma="delegere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-1:mod" out="">delegerede</W>
 <W gloss="for" lemma="på" msd="SP" tag="IN" in="-3:pobj" out="1:pnct|2:nobj">på</W>
@@ -72,7 +72,7 @@
 <p>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
-<W gloss="against" lemma="imod" msd="SP" tag="IN" in="2:mod" out="1:nobj|22:CONJ/og/ATTR1">Imod</W>
+<W gloss="against" lemma="imod" msd="SP" tag="IN" in="2:mod" out="1:nobj|22:CONJ&3a;add/og/ATTR1">Imod</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:nobj" out="">det</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="48:qobj" out="-3:pnct|-2:mod|1:subj|2:dobj|15:pnct">har</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
@@ -94,7 +94,7 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="21:pnct">Og</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-22:CONJ/og/ATTR1" out="-1:mod|-2:coord|1:subj|2:pobj|23:TELIC&3a;sbj/(så)/ATTR1">satser</W>
+<W gloss="rates" lemma="satse" msd="VADR=----A-" tag="VBD" in="-22:CONJ&3a;add/og/ATTR1" out="-1:mod|-2:coord|1:subj|2:pobj|23:TELIC&3a;cons.sbj/(så)/ATTR1">satser</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -117,12 +117,12 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:TELIC&3a;sbj/(så)/ATTR1" out="-1:mod|1:subj|2:preds|3:pnct|4:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:TELIC&3a;cons.sbj/(så)/ATTR1" out="-1:mod|1:subj|2:preds|3:pnct|4:pnct">er</W>
 <W gloss="‘_no’" lemma="nej" msd="NCNSU==D" tag="NN" in="-1:subj" out="">nej'et</W>
 <W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-2:preds" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-4:pnct" out="">"</W>
-<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-79:+CONJ/(og)/ATTR1" out="-48:qobj|2:subj|3:pnct|13:+CONJ/(og)/ATTR1">mente</W>
+<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-79:+CONJ&3a;add/(og)/ATTR1" out="-48:qobj|2:subj|3:pnct|13:+CONJ&3a;add/(og)/ATTR1">mente</W>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Gade</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -135,7 +135,7 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="domestic_political" lemma="indenrigspolitisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">indenrigspolitiske</W>
 <W gloss="front" lemma="front" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">front</W>
-<W gloss="stressed" lemma="fremhæve" msd="VADA=----A-" tag="VBD" in="-13:+CONJ/(og)/ATTR1" out="-4:mod|1:subj|2:pnct|3:dobj|18:pnct|25:+CONJ/og/ATTR1">fremhævede</W>
+<W gloss="stressed" lemma="fremhæve" msd="VADA=----A-" tag="VBD" in="-13:+CONJ&3a;add/(og)/ATTR1" out="-4:mod|1:subj|2:pnct|3:dobj|18:pnct|25:+CONJ&3a;add/og/ATTR1">fremhævede</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj">at</W>
@@ -160,13 +160,13 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="2:coord" out="14:pnct">Og</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="characterized" lemma="betegne" msd="VADA=----A-" tag="VBD" in="-25:+CONJ/og/ATTR1" out="-1:subj|-2:coord|1:dobj|2:pobj|59:+CONJ/(og)/ATTR1">betegnede</W>
+<W gloss="characterized" lemma="betegne" msd="VADA=----A-" tag="VBD" in="-25:+CONJ&3a;add/og/ATTR1" out="-1:subj|-2:coord|1:dobj|2:pobj|59:+CONJ&3a;add/(og)/ATTR1">betegnede</W>
 <W gloss="the_KV_government" lemma="KV-regering" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">KV-regeringen</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="2:nobj">som</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-2:nobj" out="-1:pnct|2:attr|3:nobj|4:mod|7:pnct">den</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="flossede" lemma="flosset" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">flossede</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="flossede" lemma="flosset" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">flossede</W>
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">regering</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="man's" lemma="mand" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:possd">mands</W>
@@ -219,7 +219,7 @@
 <W gloss="slide" lemma="skred" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">skred</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
-<W gloss="maintained" lemma="fastslå" msd="VADA=----A-" tag="VBD" in="-59:+CONJ/(og)/ATTR1" out="-13:qobj|-30:qobj|2:subj|3:pnct|11:+CONJ/(og)/ATTR2">fastslog</W>
+<W gloss="maintained" lemma="fastslå" msd="VADA=----A-" tag="VBD" in="-59:+CONJ&3a;add/(og)/ATTR1" out="-13:qobj|-30:qobj|2:subj|3:pnct|11:+CONJ&3a;add/(og)/ATTR2">fastslog</W>
 <W gloss="Steen" lemma="Steen" msd="NP--U==-" tag="NNP" in="1:namef" out="">Steen</W>
 <W gloss="Gade" lemma="Gade" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Gade</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
@@ -230,7 +230,7 @@
 <W gloss="Holger" lemma="Holger" msd="NP--U==-" tag="NNP" in="2:namef" out="">Holger</W>
 <W gloss="K." lemma="K." msd="NP--U==-" tag="NNP" in="1:namel" out="">K.</W>
 <W gloss="Nielsen" lemma="Nielsen" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Nielsen</W>
-<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-11:+CONJ/(og)/ATTR2" out="-1:subj|1:pnct|2:dobj|26:pnct|30:CONJ/(og)/ATTR2">mente</W>
+<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="-11:+CONJ&3a;add/(og)/ATTR2" out="-1:subj|1:pnct|2:dobj|26:pnct|30:CONJ&3a;add/(og)/ATTR2">mente</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="the_government" lemma="regering" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="">regeringen</W>
@@ -260,7 +260,7 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="believed" lemma="mene" msd="VADA=----A-" tag="VBD" in="-30:CONJ/(og)/ATTR2" out="-1:subj|1:pnct|2:dobj|13:pnct">mente</W>
+<W gloss="believed" lemma="mene" msd="VADA=----A-" tag="VBD" in="-30:CONJ&3a;add/(og)/ATTR2" out="-1:subj|1:pnct|2:dobj|13:pnct">mente</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="the_government" lemma="regering" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]|3:[subj]" out="">regeringen</W>

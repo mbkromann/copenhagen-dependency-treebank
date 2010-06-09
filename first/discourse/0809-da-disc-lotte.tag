@@ -47,7 +47,7 @@
 <W gloss="Hafez" lemma="Hafez" msd="NP--U==-" tag="NNP" in="1:namef" out="">Hafez</W>
 <W gloss="al-Assad" lemma="al-Assad" msd="NP--U==-" tag="NNP" in="-4:appa" out="-1:namef|1:pnct">al-Assad</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="began" lemma="indlede" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:time|2:dobj|6:goal|18:pnct|30:+AGENTIVE&3a;reas/(fordi)ATTR2|87:+CONST&3a;elab|26:+CONJ/(og)/ATTR1">indledte</W>
+<W gloss="began" lemma="indlede" msd="VADA=----A-" tag="VBD" in="" out="-6:subj|1:time|2:dobj|6:goal|18:pnct|30:+AGENTIVE&3a;cause/(fordi)ATTR2|87:+CONJ&3a;elab|26:+CONJ&3a;add/(og)/ATTR1">indledte</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:loc">en</W>
 <W gloss="tour" lemma="rundrejse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">rundrejse</W>
@@ -73,11 +73,11 @@
 <W gloss="Diplomats" lemma="diplomat" msd="NCCPU==I" tag="NNP" in="3:subj" out="1:loc">Diplomater</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_Middle_East" lemma="Mellemøsten" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Mellemøsten</W>
-<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="-26:+CONJ/(og)/ATTR1" out="-3:subj|1:pnct|2:dobj|34:pnct">siger</W>
+<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="-26:+CONJ&3a;add/(og)/ATTR1" out="-3:subj|1:pnct|2:dobj|34:pnct">siger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>
 <W gloss="Assad" lemma="Assad" msd="NP--U==-" tag="NNP" in="1:subj" out="">Assad</W>
-<W gloss="fears" lemma="frygte" msd="VADR=----A-" tag="VBD" in="-2:vobj|-30:+AGENTIVE&3a;reas/(fordi)ATTR2" out="-1:subj|1:pnct|2:dobj|46:+CONST&3a;rest/(med_andre_ord)/ATTR3*|37:[+CONST&3a;rest/(med_andre_ord)/ATTR3]">frygter</W>
+<W gloss="fears" lemma="frygte" msd="VADR=----A-" tag="VBD" in="-2:vobj|-30:+AGENTIVE&3a;cause/(fordi)ATTR2" out="-1:subj|1:pnct|2:dobj|46:+CONST&3a;rest/(med_andre_ord)/ATTR3*|37:[+CONST&3a;rest/(med_andre_ord)/ATTR3]">frygter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="23:vobj">at</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="22:subj|23:[subj]" out="1:nobj|2:pnct|3:ref|5:rel">de</W>
@@ -86,10 +86,10 @@
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|3:dobj" out="">som</W>
 <W gloss="the_UN" lemma="FN" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]" out="">FN</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|1:vobj|14:pnct">har</W>
-<W gloss="introduced" lemma="indføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:pobj|3:reas">indført</W>
+<W gloss="introduced" lemma="indføre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|-3:dobj|1:pobj|3:cause">indført</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mod</W>
 <W gloss="Libya" lemma="Libyen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Libyen</W>
-<W gloss="as_a_result_of" lemma="på_grund_af" msd="SP" tag="IN" in="-3:reas" out="1:nobj">på_grund_af</W>
+<W gloss="as_a_result_of" lemma="på_grund_af" msd="SP" tag="IN" in="-3:cause" out="1:nobj">på_grund_af</W>
 <W gloss="accusations" lemma="beskyldning" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:pobj">beskyldningerne</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -100,8 +100,8 @@
 <W gloss="harbors" lemma="skjule" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-3:[subj]|-1:coord|1:[dobj]">skjuler</W>
 <W gloss="terrorists" lemma="terrorist" msd="NCCPU==I" tag="NNP" in="-3:dobj|-1:[dobj]" out="">terrorister</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-14:pnct" out=""> - </W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="1:man" out="-1:degr">hurtigt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="1:man" out="-1:quant">hurtigt</W>
 <W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-23:vobj" out="-22:subj|-1:man|1:vobj">kan</W>
 <W gloss="be_turned" lemma="vende" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-23:[subj]|1:@dir|3:add">vendes</W>
 <W gloss="against" lemma="mod" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">mod</W>
@@ -134,12 +134,12 @@
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Den</W>
 <W gloss="Syrian" lemma="syrisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">syriske</W>
 <W gloss="leader" lemma="leder" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">leder</W>
-<W gloss="arrived" lemma="ankomme" msd="VADA=----A-" tag="VBD" in="-87:+CONST&3a;elab" out="-3:subj|1:time|2:pobj|5:succ|11:pnct|15:+CONJ/også">ankom</W>
+<W gloss="arrived" lemma="ankomme" msd="VADA=----A-" tag="VBD" in="-87:+CONJ&3a;elab" out="-3:subj|1:time|2:pobj|5:time|11:pnct|15:+CONJ&3a;add/også">ankom</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
 <W gloss="at" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">til</W>
 <W gloss="Abu" lemma="Abu" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name">Abu</W>
 <W gloss="Dhabi" lemma="Dhabi" msd="NP--U==-" tag="NNP" in="-1:name" out="">Dhabi</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-5:succ" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-5:time" out="1:nobj">efter</W>
 <W gloss="visit" lemma="besøg" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:@loc">besøg</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="Saudi_Arabia" lemma="Saudi-Arabien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="2:conj">Saudi-Arabien</W>
@@ -149,10 +149,10 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">Han</W>
-<W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="-15:+CONJ/også" out="-1:subj|1:add|2:dobj|25:pnct|76:+CONJ/(og)">ventes</W>
+<W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="-15:+CONJ&3a;add/også" out="-1:subj|1:add|2:dobj|25:pnct|76:+CONJ&3a;add/(og)">ventes</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
-<W gloss="visit" lemma="besøge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|18:prec">besøge</W>
+<W gloss="visit" lemma="besøge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|18:time">besøge</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:nobj|10:pnct|11:appa">de</W>
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">andre</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">tre</W>
@@ -170,7 +170,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Oman" lemma="Oman" msd="NP--U==-" tag="NNP" in="-4:conj" out="-1:coord">Oman</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-5:pnct" out=""> - </W>
-<W gloss="before" lemma="inden" msd="CS" tag="IN" in="-18:prec" out="2:vobj">inden</W>
+<W gloss="before" lemma="inden" msd="CS" tag="IN" in="-18:time" out="2:vobj">inden</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="returns" lemma="vende" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@dir">vender</W>
 <W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
@@ -209,14 +209,14 @@
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">de</W>
 <W gloss="Iraqi" lemma="irakisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">irakiske</W>
 <W gloss="forces" lemma="styrke" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">styrker</W>
-<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-4:@dir" out="1:other|3:ext">ud</W>
+<W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-4:@dir" out="1:other|3:time">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="Kuwait" lemma="Kuwait" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Kuwait</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-3:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-3:time" out="">igen</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-8:time" out="3:nobj|5:part">for</W>
-<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="over" lemma="over" msd="SP" tag="IN" in="1:degr" out="-1:degr">over</W>
-<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:nobj" out="-1:degr|1:nobj">et</W>
+<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="over" lemma="over" msd="SP" tag="IN" in="1:quant" out="-1:quant">over</W>
+<W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-3:nobj" out="-1:quant|1:nobj">et</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">år</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-5:part" out="">siden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-39:pnct" out="">.</W>
@@ -225,7 +225,7 @@
 <p>
 <s>
 <W gloss="Diplomats" lemma="diplomat" msd="NCCPU==I" tag="NNP" in="1:subj" out="">Diplomater</W>
-<W gloss="estimate" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-76:+CONJ/(og)" out="-1:subj|1:pnct|2:dobj|30:pnct|-45:+CONSOL&3a;source/(eftersom)">vurderer</W>
+<W gloss="estimate" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-76:+CONJ&3a;add/(og)" out="-1:subj|1:pnct|2:dobj|30:pnct|-45:+CONSOL&3a;source/(eftersom)">vurderer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="Assad" lemma="Assad" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]" out="">Assad</W>

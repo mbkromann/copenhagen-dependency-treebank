@@ -15,7 +15,7 @@
 <W lemma="congiungere" msd="VAP" tag="VER:pper" in="" out="">congiunte</W>
 <W lemma="tra" msd="SP" tag="PRE" in="" out="">tra</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">le</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="armato" msd="AN" tag="ADJ" in="" out="">armate</W>
 <W lemma="milizia" msd="NC" tag="NOM" in="" out="">milizie</W>
 <W lemma="serbo" msd="AN" tag="ADJ" in="" out="">serbe</W>

@@ -83,7 +83,7 @@
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">andre</W>
 <W gloss="words" lemma="ord" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">ord</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|9:[subj]" out="">de</W>
-<W gloss="kissed" lemma="kysse" msd="VADA=----A-" tag="VBD" in="-4:xpl" out="-1:subj|3:dobj|8:conj|14:pnct|31:pnct|15:comp">kyssede</W>
+<W gloss="kissed" lemma="kysse" msd="VADA=----A-" tag="VBD" in="-4:xpl" out="-1:subj|3:dobj|8:conj|14:pnct|31:pnct|15:resem">kyssede</W>
 <W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:mod" out="">alt</W>
 <W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:mod" out="-1:mod">for</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:dobj" out="-1:mod|1:mod|2:mod|3:nobj">mange</W>
@@ -98,7 +98,7 @@
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">på</W>
 <W gloss="the_backside" lemma="bagdel" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">bagdelen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W gloss="like" lemma="ligesom" msd="CS" tag="IN" in="-15:comp" out="4:vobj">ligesom</W>
+<W gloss="like" lemma="ligesom" msd="CS" tag="IN" in="-15:resem" out="4:vobj">ligesom</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">de</W>
 <W gloss="playful" lemma="kåd" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">kåde</W>
 <W gloss="princesses" lemma="prinsesse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">prinsesser</W>
@@ -187,8 +187,8 @@
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">til</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="go" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|2:aobj">gå</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="amok" lemma="amok" msd="ANP---=-R" tag="JJ" in="-2:aobj" out="-1:degr">amok</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="amok" lemma="amok" msd="ANP---=-R" tag="JJ" in="-2:aobj" out="-1:quant">amok</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-11:mod" out="2:vobj">for</W>
 <W gloss="such" lemma="sådan" msd="RGU" tag="RP" in="1:mod" out="">sådan</W>
@@ -207,9 +207,9 @@
 <W gloss="Continual" lemma="vedvarende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Vedvarende</W>
 <W gloss="reprimands" lemma="reprimande" msd="NCCPU==I" tag="NNP" in="1:subj|2:[subj]" out="-1:attr">reprimander</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|10:pnct">har</W>
-<W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:degr">hjulpet</W>
+<W gloss="helped" lemma="hjælpe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:quant">hjulpet</W>
 <W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:mod" out="2:pobj">så</W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:degr" out="-1:mod">meget</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-2:quant" out="-1:mod">meget</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod">den</W>
 <W gloss="celebrated" lemma="berømt" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">berømte</W>

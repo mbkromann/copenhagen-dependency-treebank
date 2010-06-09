@@ -179,8 +179,8 @@
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:succ">join</W>
-<W msd="ANP" tag="RB" in="-1:succ" out="">later</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:time">join</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">later</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-9:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-10:qobj|2:subj|14:pnct">says</W>

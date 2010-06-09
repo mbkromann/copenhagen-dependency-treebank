@@ -2,8 +2,8 @@
 <W msd="PD" tag="DT" in="1:subj" out="">That</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">some</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">happy</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">happy</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">news</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>

@@ -44,8 +44,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:time" out="2:nobj">dello</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attr" out="">stesso</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">giorno</W>
-<W lemma="telefonare" msd="VADR" tag="VER&3a;pres" in="" out="-6:time|1:ext|3:pnct|9:vobj">telefona</W>
-<W lemma="di" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">di</W>
+<W lemma="telefonare" msd="VADR" tag="VER&3a;pres" in="" out="-6:time|1:time|3:pnct|9:vobj">telefona</W>
+<W lemma="di" msd="SP" tag="PRE" in="-1:time" out="1:nobj">di</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="-1:nobj" out="">nuovo</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="-3:pnct" out="">:</W>
 </s>

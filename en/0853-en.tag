@@ -59,10 +59,10 @@
 <W msd="CC" tag="CC" in="" out="6:conj|21:pnct">And</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
-<W msd="ANP" tag="RB" in="3:succ" out="-2:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="3:time" out="-2:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-3:succ|1:@dir|3:mod">travelled</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-3:time|1:@dir|3:mod">travelled</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Colombia</W>
 <W msd="U=" tag="TO" in="-3:mod" out="1:vobj">to</W>
@@ -143,8 +143,8 @@
 <W msd="NP=S" tag="NNP" in="-7:conj" out="-1:mod|-2:attr|1:name">System</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Inc.</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="RB" in="1:attr" out="-1:degr">recently</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="RB" in="1:attr" out="-1:quant">recently</W>
 <W msd="NP=S" tag="NNP" in="-12:conj" out="-1:attr|2:conj|3:name|4:pnct|5:ref|8:rel|15:conj">Bing</W>
 <W msd="CC" tag="CC" in="1:coord" out="">&</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Grøndahl</W>

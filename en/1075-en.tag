@@ -52,8 +52,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="31:pnct" out="">"</W>
 <W msd="PT" tag="WRB" in="30:xtop" out="8:vobj|26:ref">When</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="6:subj" out="-1:degr|1:nobj">40</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="6:subj" out="-1:quant|1:nobj">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -145,11 +145,11 @@
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="4:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rules</W>
-<W msd="VA" tag="MD" in="5:qobj" out="-2:subj|-4:reas|1:vobj|3:pnct|4:pnct">must</W>
+<W msd="VA" tag="MD" in="5:qobj" out="-2:subj|-4:cause|1:vobj|3:pnct|4:pnct">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]">tightened</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

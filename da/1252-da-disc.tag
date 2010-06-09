@@ -64,8 +64,8 @@
 <W gloss="simmering" lemma="simre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-16:vobj" out="-20:[subj]|1:mod">simret</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">et</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="weak" lemma="svag" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">svagt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="weak" lemma="svag" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">svagt</W>
 <W gloss="pilot_light" lemma="vågeblus" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">vågeblus</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
@@ -121,9 +121,9 @@
 <W gloss="last" lemma="sidste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">sidste</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="closes" lemma="lukke" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:avobj|2:ext|3:pnct">lukker</W>
+<W gloss="closes" lemma="lukke" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:avobj|2:time|3:pnct">lukker</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="">op</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:time" out="">igen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-23:qobj|2:subj|7:pnct">siger</W>

@@ -124,8 +124,8 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-10:pnct|-9:cond|1:subj|2:preds|9:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="5:nobj">det</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="2:attr|3:nobj">en</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">god</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">god</W>
 <W gloss="idea" lemma="idé" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">idé</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
 <W gloss="contact" lemma="kontakte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">kontakte</W>

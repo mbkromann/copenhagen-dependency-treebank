@@ -75,8 +75,8 @@
 <W msd="VADA" tag="VBD" in="-16:conj" out="-17:[subj]|-1:coord|1:mod|6:mod|9:mod">continued</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
-<W msd="ANP" tag="JJ" in="-1:nobj" out="1:degr|2:nobj">few</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="">more</W>
+<W msd="ANP" tag="JJ" in="-1:nobj" out="1:quant|2:nobj">few</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="">more</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">years</W>
 <W msd="CS" tag="IN" in="-6:mod" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>

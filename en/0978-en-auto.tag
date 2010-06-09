@@ -15,8 +15,8 @@
 <W msd="AC" tag="CD" in="-2:appa" out="1:pobj|6:pnct">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:mod|3:possd">Italy's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">respected</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">respected</W>
 <W msd="NC=P" tag="NNS" in="-3:possd" out="">journalists</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-11:mod" out="1:nobj">in</W>

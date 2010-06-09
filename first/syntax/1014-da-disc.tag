@@ -159,8 +159,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:att" out="">Desværre</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:att|1:subj|2:mod|3:preds|4:pnct|13:conj|17:pnct">er</W>
+<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="1:eval" out="">Desværre</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|1:subj|2:mod|3:preds|4:pnct|13:conj|17:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="4:ref|5:rel">det</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="-2:mod" out="">jo</W>
 <W gloss="the_municipalities" lemma="kommune" msd="NCCPU==D" tag="NNP" in="-3:preds" out="">kommunerne</W>
@@ -203,9 +203,9 @@
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|3:[subj]" out="">De</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|5:pnct|6:mod|20:pnct">kan</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|2:ext">komme</W>
+<W gloss="come" lemma="komme" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|2:time">komme</W>
 <W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:time" out="">igen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="because" lemma="for" msd="CC" tag="CC" in="-6:mod" out="2:vobj">for</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>

@@ -159,8 +159,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-3:ref|5:subj" out="">som</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="4:mod" out="2:nobj">med</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:degr|1:nobj">få</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:quant|1:nobj">få</W>
 <W gloss="exceptions" lemma="undtagelse" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">undtagelser</W>
 <W gloss="consists" lemma="bestå" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-4:mod|1:pobj|4:pnct">består</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
@@ -250,8 +250,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="8:cond" out="3:vobj">Hvis</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj" out="">vi</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="1:ext" out="">altid</W>
-<W gloss="walk" lemma="gå" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:ext|1:@loc|4:pnct">går</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="1:time" out="">altid</W>
+<W gloss="walk" lemma="gå" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:@loc|4:pnct">går</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">i</W>
 <W gloss="others" lemma="anden" msd="PI-[CN]PG--U" tag="DT" in="-1:nobj" out="1:possd">andres</W>
 <W gloss="footprints" lemma="fodspor" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">fodspor</W>

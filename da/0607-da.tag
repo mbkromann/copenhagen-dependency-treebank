@@ -117,8 +117,8 @@
 <W gloss="..." lemma="..." msd="XP" tag="..." in="1:pnct" out="">...</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="" out="-1:pnct|3:vobj|5:pnct">hvis</W>
 <W gloss="the_stool" lemma="afføring" msd="NCCSU==D" tag="NN" in="2:subj" out="">afføringen</W>
-<W gloss="permanently" lemma="varig" msd="ANP---=-R" tag="JJ" in="1:dur" out="">varigt</W>
-<W gloss="changes" lemma="ændre" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:dur|1:dobj">ændrer</W>
+<W gloss="permanently" lemma="varig" msd="ANP---=-R" tag="JJ" in="1:time" out="">varigt</W>
+<W gloss="changes" lemma="ændre" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:dobj">ændrer</W>
 <W gloss="character" lemma="karakter" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">karakter</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -128,9 +128,9 @@
 <p>
 <s>
 <W gloss="most_important" lemma="vigtig" msd="ANS[CN][SP]U=[DI]U" tag="JJS" in="1:preds" out="">Vigtigst</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:struct|16:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:scene|16:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
-<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:struct" out="">imidlertid</W>
+<W gloss="However" lemma="imidlertid" msd="RGU" tag="RP" in="-2:scene" out="">imidlertid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
 <W gloss="undertake" lemma="foretage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">foretage</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
@@ -175,8 +175,8 @@
 <W gloss="calories" lemma="kalorie" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kalorier</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="thereafter" lemma="derefter" msd="RGU" tag="RP" in="1:succ" out="">derefter</W>
-<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-14:conj" out="-1:succ|-2:coord|1:dobj">undgå</W>
+<W gloss="thereafter" lemma="derefter" msd="RGU" tag="RP" in="1:time" out="">derefter</W>
+<W gloss="avoiding" lemma="undgå" msd="VAF-=----A-" tag="VB" in="-14:conj" out="-1:time|-2:coord|1:dobj">undgå</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:dobj" out="">dem</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-30:pnct" out="">.</W>
 </s>
@@ -187,8 +187,8 @@
 <W gloss="daily" lemma="daglig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">daglig</W>
 <W gloss="calorie_reduction" lemma="kalorienedsættelse" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">kalorienedsættelse</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:other" out="2:nobj">på</W>
-<W gloss="only" lemma="blot" msd="RGU" tag="RP" in="1:att" out="">blot</W>
-<W gloss="200" lemma="200" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:att|1:nobj">200</W>
+<W gloss="only" lemma="blot" msd="RGU" tag="RP" in="1:eval" out="">blot</W>
+<W gloss="200" lemma="200" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:eval|1:nobj">200</W>
 <W gloss="calories" lemma="kalorie" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kalorier</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:vobj|8:pnct">vil</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">give</W>

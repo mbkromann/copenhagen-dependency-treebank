@@ -223,7 +223,7 @@
 <W lemma="cacciare" msd="VAP" tag="VER:pper" in="" out="">cacciato</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Brøndby</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="lontano" msd="AN" tag="ADJ" in="" out="">lontano</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dalle</W>
 <W lemma="vetta" msd="NC" tag="NOM" in="" out="">vette</W>

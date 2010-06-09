@@ -95,12 +95,12 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="8:vobj">at</W>
 <W gloss="every" lemma="hver" msd="PI-CSU--U" tag="DT" in="7:subj" out="1:nobj">hver</W>
 <W gloss="Dane" lemma="dansker" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dansker</W>
-<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="5:ext" out="">årligt</W>
+<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="5:time" out="">årligt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="4:mod" out="2:nobj">i</W>
 <W gloss="the_whole" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="1:attr" out="">hele</W>
 <W gloss="his/her" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-2:nobj" out="-1:attr|1:possd">sin</W>
 <W gloss="lifetime" lemma="levetid" msd="NCCSU==I" tag="NN" in="-1:possd" out="">levetid</W>
-<W gloss="taking" lemma="indtage" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-4:mod|1:dobj|-5:ext">indtager</W>
+<W gloss="taking" lemma="indtage" msd="VADR=----A-" tag="VBD" in="-8:vobj" out="-7:subj|-4:mod|1:dobj|-5:time">indtager</W>
 <W gloss="160" lemma="160" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">160</W>
 <W gloss="pills" lemma="pille" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">piller</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
@@ -177,10 +177,10 @@
 <p>
 <s>
 <W gloss="Danes" lemma="dansker" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Danskerne</W>
-<W gloss="consume" lemma="indtage" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:dobj|24:conj|27:pnct|1:ext">indtager</W>
-<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-1:ext" out="">årligt</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="400" lemma="400" msd="AC---U=--" tag="CD" in="-3:dobj" out="-1:degr|1:nobj|4:pnct|5:modp">400</W>
+<W gloss="consume" lemma="indtage" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:dobj|24:conj|27:pnct|1:time">indtager</W>
+<W gloss="annually" lemma="årlig" msd="ANP---=-R" tag="JJ" in="-1:time" out="">årligt</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="400" lemma="400" msd="AC---U=--" tag="CD" in="-3:dobj" out="-1:quant|1:nobj|4:pnct|5:modp">400</W>
 <W gloss="tons" lemma="ton" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="1:attr|2:nobj">ton</W>
 <W gloss="active" lemma="aktiv" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">aktivt</W>
 <W gloss="substances" lemma="stof" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">stof</W>

@@ -99,10 +99,10 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="2:vobj">at</W>
 <W gloss="the_mouse" lemma="mus" msd="NCCSU==D" tag="NN" in="1:subj" out="">musen</W>
 <W gloss="became" lemma="blive" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|4:preds">blev</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="-1:degr">lige</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="-1:degr|2:pobj">så</W>
-<W gloss="large" lemma="stor" msd="ANPCSU=IU" tag="JJ" in="-4:preds" out="-1:degr">stor</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="-1:quant">lige</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="-1:quant|2:pobj">så</W>
+<W gloss="large" lemma="stor" msd="ANPCSU=IU" tag="JJ" in="-4:preds" out="-1:quant">stor</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="the_rat" lemma="rotte" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">rotten</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -199,10 +199,10 @@
 <W gloss="it" lemma="der" msd="U=" tag="WDT" in="2:expl|3:[expl]" out="">der</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:expl|-1:neg|1:vobj">vil</W>
-<W gloss="be" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[expl]|2:dobj|3:dur">gå</W>
+<W gloss="be" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[expl]|2:dobj|3:time">gå</W>
 <W gloss="long" lemma="langt" msd="XX" tag="FW" in="1:attr" out="">langt</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:attr">tid</W>
-<W gloss="between" lemma="fra" msd="SP" tag="IN" in="-3:dur" out="1:nobj|6:pobj">fra</W>
+<W gloss="between" lemma="fra" msd="SP" tag="IN" in="-3:time" out="1:nobj|6:pobj">fra</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:other">den</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="production" lemma="produktion" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">produktion</W>

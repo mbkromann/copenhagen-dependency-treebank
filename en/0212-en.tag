@@ -46,8 +46,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">own-check</W>
 <W msd="VA" tag="MD" in="-7:vobj" out="-6:subj|1:vobj|10:pnct">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|4:vobj|1:degr">be</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="2:conj">entirely</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|4:vobj|1:quant">be</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="2:conj">entirely</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">partially</W>
 <W msd="VAP" tag="VBN" in="-4:vobj" out="-11:[subj]|1:pobj">done</W>

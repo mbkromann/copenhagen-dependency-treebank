@@ -82,9 +82,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|8:pnct">are</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|2:prec">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:preds|2:time">be</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">out</W>
-<W msd="CS" tag="IN" in="-2:prec" out="1:avobj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="1:avobj">before</W>
 <W msd="NC=S" tag="NN" in="-1:avobj" out="1:pnct|2:mod">tomorrow</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Monday</W>

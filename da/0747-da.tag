@@ -50,8 +50,8 @@
 <W gloss="The" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj|5:[subj]" out="1:nobj">De</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">to</W>
 <W gloss="recipients" lemma="modtager" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">modtagere</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:struct|2:vobj|7:pnct">har</W>
-<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:struct" out="">imidlertid</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:scene|2:vobj|7:pnct">har</W>
+<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:scene" out="">imidlertid</W>
 <W gloss="worked" lemma="arbejde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-5:[subj]|1:pobj">arbejdet</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="each" lemma="hver" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">hver</W>
@@ -90,8 +90,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="3:subj" out="14:ref|15:rel">det</W>
-<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:degr">ikke</W>
+<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:quant" out="">slet</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:quant">ikke</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:preds|10:pnct">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj|2:pnct|4:conj">et</W>
 <W gloss="hormone" lemma="hormon" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hormon</W>
@@ -172,18 +172,18 @@
 </s>
 <s>
 <W gloss="One" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">Man</W>
-<W gloss="injects" lemma="indsprøjte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:loc|6:prec|8:pnct|26:pnct|11:conj">indsprøjter</W>
+<W gloss="injects" lemma="indsprøjte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:loc|6:time|8:pnct|26:pnct|11:conj">indsprøjter</W>
 <W gloss="VIP" lemma="VIP" msd="NP--U==-" tag="NNP" in="-1:dobj" out="">VIP</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="penis" lemma="penis" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">penis</W>
-<W gloss="the_short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="1:dur" out="">kort</W>
-<W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="1:tobj" out="-1:dur">tid</W>
-<W gloss="before" lemma="før" msd="SP" tag="IN" in="-6:prec" out="-1:tobj|1:nobj">før</W>
+<W gloss="the_short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="1:time" out="">kort</W>
+<W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="1:tobj" out="-1:time">tid</W>
+<W gloss="before" lemma="før" msd="SP" tag="IN" in="-6:time" out="-1:tobj|1:nobj">før</W>
 <W gloss="intercourse" lemma="samleje" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">samlejet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="then" lemma="herefter" msd="RGU" tag="RP" in="1:succ" out="">herefter</W>
-<W gloss="occurs" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-1:succ|1:expl|2:dobj|-2:coord">opstår</W>
+<W gloss="then" lemma="herefter" msd="RGU" tag="RP" in="1:time" out="">herefter</W>
+<W gloss="occurs" lemma="opstå" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-1:time|1:expl|2:dobj|-2:coord">opstår</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:other">en</W>
 <W gloss="erection" lemma="erektion" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">erektion</W>

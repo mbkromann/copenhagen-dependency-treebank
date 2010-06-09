@@ -49,10 +49,10 @@
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:avobj" out="">ud</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:err">og</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="-1:err" out="">og</W>
-<W gloss="drillet" lemma="drille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:conj" out="-8:[subj]|-2:coord|1:dobj|3:degr">drillet</W>
+<W gloss="drillet" lemma="drille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:conj" out="-8:[subj]|-2:coord|1:dobj|3:quant">drillet</W>
 <W gloss="our" lemma="vores" msd="PO1[CN]PUPNF" tag="PRP$" in="-1:dobj" out="1:possd">vore</W>
 <W gloss="players" lemma="spilllere" msd="XX" tag="FW" in="-1:possd" out="">spilllere</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-3:degr" out="1:pnct|2:pobj">mere</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-3:quant" out="1:pnct|2:pobj">mere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-2:pobj" out="2:vobj">end</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
@@ -115,8 +115,8 @@
 <W gloss="dead_ball_situations" lemma="dødboldsituation" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">dødboldsituationer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-3:ref|2:subj" out="">der</W>
-<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:ext" out="">sjældent</W>
-<W gloss="gives" lemma="give" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|1:dobj|-1:ext">giver</W>
+<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:time" out="">sjældent</W>
+<W gloss="gives" lemma="give" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-2:subj|1:dobj|-1:time">giver</W>
 <W gloss="proceeds" lemma="udbytte" msd="NCNSU==I" tag="NN" in="-1:dobj" out="">udbytte</W>
 <W gloss="resulted" lemma="resultere" msd="VADA=----A-" tag="VBD" in="" out="-9:subj|1:pobj|6:pnct|7:mod|19:pnct">resulterede</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>

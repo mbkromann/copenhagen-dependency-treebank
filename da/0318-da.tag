@@ -100,13 +100,13 @@
 <s>
 <W gloss="Him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="2:subj" out="1:nobj">Ham</W>
 <W gloss="doktorsnuden" lemma="doktorsnude" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">doktorsnuden</W>
-<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:man|2:neg|4:aobj|5:avobj|6:dur|7:pnct">så</W>
+<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|1:man|2:neg|4:aobj|5:avobj|6:time|7:pnct">så</W>
 <W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="-1:man" out="">pludselig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="satisfied" lemma="tilfreds" msd="ANPCSU=IU" tag="JJ" in="-4:aobj" out="-1:degr">tilfreds</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="satisfied" lemma="tilfreds" msd="ANPCSU=IU" tag="JJ" in="-4:aobj" out="-1:quant">tilfreds</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-5:avobj" out="">ud</W>
-<W gloss="any_more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-6:dur" out="">mere</W>
+<W gloss="any_more" lemma="meget" msd="ANC---=-R" tag="JJR" in="-6:time" out="">mere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 </p>
@@ -186,14 +186,14 @@
 </s>
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:succ|3:pnct|4:coord|8:pnct">gjorde</W>
+<W gloss="did" lemma="gøre" msd="VADA=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:time|3:pnct|4:coord|8:pnct">gjorde</W>
 <W gloss="Nathan" lemma="Nathan" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Nathan</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="-2:succ" out="">så</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="-2:time" out="">så</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="-4:coord" out="1:&lt;mod&gt;|3:&lt;mod&gt;">men</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:&lt;mod&gt;" out="">ikke</W>
-<W gloss="for" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="-3:&lt;mod&gt;" out="-1:degr">længe</W>
+<W gloss="for" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="-3:&lt;mod&gt;" out="-1:quant">længe</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 </p>

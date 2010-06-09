@@ -101,7 +101,7 @@
 <W gloss="When" lemma="da" msd="CS" tag="IN" in="18:mod" out="3:vobj">Da</W>
 <W gloss="Andrew" lemma="Andrew" msd="NP--U==-" tag="NNP" in="1:namef" out="">Andrew</W>
 <W gloss="Morton" lemma="Morton" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Morton</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|9:preds|13:succ|14:pnct">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|9:preds|13:time|14:pnct">fik</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj" out="2:possd">sin</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="Diana" lemma="Diana" msd="NP--U==-" tag="NNP" in="-2:possd" out="-1:pnct|1:pnct|2:conj|5:pnct">Diana</W>
@@ -114,7 +114,7 @@
 <W gloss="the_street" lemma="gade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gaden</W>
 <W gloss="three" lemma="tre" msd="AC---U=--" tag="CD" in="2:tobj" out="1:nobj">tre</W>
 <W gloss="months" lemma="måned" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">måneder</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-13:succ" out="-2:tobj">senere</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-13:time" out="-2:tobj">senere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="had" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-18:mod|1:subj|3:dobj|6:pnct|2:man">fik</W>
 <W gloss="the_tone" lemma="tone" msd="NCCSU==D" tag="NN" in="-1:subj" out="">tonen</W>
@@ -221,12 +221,12 @@
 <W gloss="Hewitt" lemma="Hewitt" msd="NP--U==-" tag="NNP" in="3:subj" out="-1:title|2:conj">Hewitt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="Diana" lemma="Diana" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Diana</W>
-<W gloss="know" lemma="kende" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:dobj|2:mod|3:pnct|5:reas|24:conj|34:pnct">kender</W>
+<W gloss="know" lemma="kende" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:dobj|2:mod|3:pnct|5:cause|24:conj|34:pnct">kender</W>
 <W gloss="each_other" lemma="hinanden" msd="PC--PU---" tag="PP" in="-1:dobj" out="">hinanden</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="-2:mod" out="">godt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:exem" out="">bl.a.</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="-1:exem|2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="-1:exem|2:vobj">fordi</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">han</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|7:pnct">har</W>
 <W gloss="played" lemma="spille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">spillet</W>

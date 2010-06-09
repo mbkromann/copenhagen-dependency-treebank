@@ -9,8 +9,8 @@
 <W lemma="immobiliare" msd="AN" tag="ADJ" in="-1:attrr#" out="">immobiliare</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:appr" out="">Norden</W>
 <W lemma="desiderare" msd="VADR" tag="VER&3a;pres" in="" out="-4:subj|1:vobj|4:conj">desidera</W>
-<W lemma="crescere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:degr">crescere</W>
-<W lemma="ulteriormente" msd="RG" tag="ADV" in="-1:degr" out="">ulteriormente</W>
+<W lemma="crescere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-5:[subj]|1:quant">crescere</W>
+<W lemma="ulteriormente" msd="RG" tag="ADV" in="-1:quant" out="">ulteriormente</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="realizzare" msd="VAM" tag="VER&3a;impe" in="-4:conj" out="-1:coord|2:dobj|6:time|19:pnct">realizza</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:attr" out="">questo</W>
@@ -115,8 +115,8 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="controllo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">controllo</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="2:nobj">di</W>
-<W lemma="circa" msd="RG" tag="ADV" in="1:degr" out="">circa</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:degr|2:nobj">il</W>
+<W lemma="circa" msd="RG" tag="ADV" in="1:quant" out="">circa</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:quant|2:nobj">il</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">40</W>
 <W lemma="percento" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj">percento</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">delle</W>
@@ -146,8 +146,8 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Hafnia</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;cpre" in="-6:vobj" out="-5:subj|1:time|7:pnct">sia</W>
 <W lemma="successivamente" msd="RG" tag="ADV" in="-1:time" out="1:vobj">successivamente</W>
-<W lemma="ridurre" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:degr|6:man">ridotto</W>
-<W lemma="fino" msd="CS" tag="CON" in="-1:degr" out="1:pobj">fino</W>
+<W lemma="ridurre" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:quant|6:man">ridotto</W>
+<W lemma="fino" msd="CS" tag="CON" in="-1:quant" out="1:pobj">fino</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="2:nobj">al</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="1:attr" out="">25</W>
 <W lemma="percento" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">percento</W>
@@ -170,8 +170,8 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:dobj" out="2:vobj">che</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Hafnia</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;cpre" in="-2:vobj" out="-1:subj|2:dobj">abbia</W>
-<W lemma="troppo" msd="AN" tag="ADJ" in="1:degr" out="">troppa</W>
-<W lemma="voce" msd="NC" tag="NOM" in="-2:dobj" out="-1:degr|1:time">voce</W>
+<W lemma="troppo" msd="AN" tag="ADJ" in="1:quant" out="">troppa</W>
+<W lemma="voce" msd="NC" tag="NOM" in="-2:dobj" out="-1:quant|1:time">voce</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:time" out="1:nobj">in</W>
 <W lemma="capitolo" msd="NC" tag="NOM" in="-1:nobj" out="">capitolo</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>

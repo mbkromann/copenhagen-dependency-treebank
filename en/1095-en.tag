@@ -25,12 +25,12 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="2:conj">14</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord">18</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|1:vobj|4:pnct|5:reas|28:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:vobj|4:pnct|5:cause|28:pnct">were</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|1:part|2:mod">locked</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">here</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="6:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="6:vobj">because</W>
 <W msd="VAG" tag="VBG" in="5:mod" out="1:pobj">according</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -49,8 +49,8 @@
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:mod">incorrigible</W>
 <W msd="SP" tag="IN" in="-1:mod" out="4:nobj">at</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="2:attr" out="-1:degr">normal</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="-1:quant">normal</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">youth</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod|-2:attr">institutions</W>
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>

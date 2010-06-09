@@ -83,8 +83,8 @@
 <W gloss="carried_out" lemma="udføre" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:dobj|2:pnct">udførte</W>
 <W gloss="the_ambush_attack" lemma="bagholdsangreb" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">bagholdsangrebet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="9:qobj" out="-6:subj|1:struct|2:preds|7:pnct|8:pnct">er</W>
-<W gloss="i_øvrigt" lemma="i_øvrigt" msd="RGU" tag="RP" in="-1:struct" out="">i_øvrigt</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="9:qobj" out="-6:subj|1:scene|2:preds|7:pnct|8:pnct">er</W>
+<W gloss="i_øvrigt" lemma="i_øvrigt" msd="RGU" tag="RP" in="-1:scene" out="">i_øvrigt</W>
 <W gloss="without" lemma="uden" msd="RGU" tag="RP" in="-2:preds" out="1:pobj">uden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="our" lemma="vores" msd="PO1CSUPNF" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">vor</W>
@@ -108,8 +108,8 @@
 <W gloss="Doyle" lemma="Doyle" msd="NP--U==-" tag="NNP" in="3:subj|7:[subj]" out="-1:namef|2:conj">Doyle</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_unpeople" lemma="FN-folk" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">FN-folk</W>
-<W gloss="tried" lemma="søge" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:dur|3:dobj|7:pnct">søgte</W>
-<W gloss="all" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:dur" out="1:nobj">hele</W>
+<W gloss="tried" lemma="søge" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:time|3:dobj|7:pnct">søgte</W>
+<W gloss="all" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:time" out="1:nobj">hele</W>
 <W gloss="Monday" lemma="mandag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">mandagen</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:dobj" out="1:vobj">at</W>
 <W gloss="re-establish" lemma="genetablere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-7:[subj]|1:dobj">genetablere</W>
@@ -149,8 +149,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="continue" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="15:qobj" out="-1:cont|1:subj">fortsatte</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="continue" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="15:qobj" out="-1:time|1:subj">fortsatte</W>
 <W gloss="negotiations" lemma="forhandling" msd="NCCPU==D" tag="NNP" in="-1:subj" out="1:pobj">forhandlingerne</W>
 <W gloss="for" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="another" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|3:pnct|4:ref|5:rel">andre</W>
@@ -197,9 +197,9 @@
 <W gloss="The" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">Det</W>
 <W gloss="Yugoslavian" lemma="jugoslavisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">jugoslaviske</W>
 <W gloss="air_force" lemma="flyvevåben" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">flyvevåben</W>
-<W gloss="flew" lemma="flyve" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:ext|3:lobj|5:time|6:pnct|8:other|15:pnct">fløj</W>
+<W gloss="flew" lemma="flyve" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|2:time|3:lobj|5:time|6:pnct|8:other|15:pnct">fløj</W>
 <W gloss="repeatedly" lemma="gentage" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="1:attr" out="">gentagne</W>
-<W gloss="occasions" lemma="gang" msd="NCCPU==I" tag="NNP" in="-2:ext" out="-1:attr">gange</W>
+<W gloss="occasions" lemma="gang" msd="NCCPU==I" tag="NNP" in="-2:time" out="-1:attr">gange</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-3:lobj" out="1:nobj">over</W>
 <W gloss="the_capital_city" lemma="hovedstad" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">hovedstaden</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-5:time" out="">i_går</W>

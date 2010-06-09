@@ -144,7 +144,7 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="CC" tag="CC" in="" out="-1:pnct|1:pnct|14:conj|39:pnct#|40:pnct">And</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="12:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="12:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="10:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">chance</W>
@@ -156,7 +156,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:dobj">decision</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">quit</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-10:subj|-12:reas|1:preds|2:pnct|3:time">is</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-10:subj|-12:cause|1:preds|2:pnct|3:time">is</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="">greater</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-3:time" out="2:vobj">when</W>

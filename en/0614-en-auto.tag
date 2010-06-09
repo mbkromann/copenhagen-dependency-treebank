@@ -33,11 +33,11 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="" out="">I'm</W>
-<W msd="VAG" tag="VBG" in="" out="1:@loc|4:ext|6:mod|8:pnct|9:coord|18:pnct">going</W>
+<W msd="VAG" tag="VBG" in="" out="1:@loc|4:time|6:mod|8:pnct|9:coord|18:pnct">going</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Sonja</W>
-<W msd="ANP" tag="RB" in="-4:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-4:time" out="">again</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="CS" tag="IN" in="-6:mod" out="-1:mod|1:nobj">after</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">noon</W>
@@ -87,8 +87,8 @@
 <W msd="CC" tag="CC" in="" out="">and</W>
 <W msd="ANP" tag="RB" in="-9:mod" out="3:vobj">then</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:degr|1:lobj">fled</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:quant|1:lobj">fled</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="1:mod">back</W>
 <W msd="U=" tag="TO" in="-1:mod" out="">to</W>
 <W msd="PD" tag="DT" in="" out="">the</W>

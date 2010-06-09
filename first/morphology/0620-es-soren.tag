@@ -20,7 +20,7 @@
 <W lemma="cual" msd="REL" in="-1:nobj" out="">cual</W>
 <W lemma="&lt;unknown&gt;" morph="acudir" msd="VLfin" in="-4:relr" out="-3:cause|1:pobj|3:pnct">acudÃ­</W>
 <W lemma="al" msd="PAL" in="-1:pobj" out="1:nobj">al</W>
-<W lemma="portero" morph="puerta +ero/NOPRED&3a;script" msd="NC" in="-1:nobj" out="2:ref|4:relr">portero</W>
+<W lemma="portero" morph="puerta +ero/DERnn&3a;assoc" msd="NC" in="-1:nobj" out="2:ref|4:relr">portero</W>
 <W lemma="," msd="CM" in="-3:pnct" out="">,</W>
 <W lemma="quien" msd="REL" in="-2:ref|2:subj" out="">quien</W>
 <W lemma="efectivamente" msd="ADV" in="1:prg" out="">efectivamente</W>
@@ -44,7 +44,7 @@
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="2:subj" out="">Flemming</W>
 <W lemma="se" msd="SE" in="1:robj" out="">se</W>
-<W lemma="&lt;unknown&gt;" morph="coger -en/LOC&3a;pos" msd="VLfin" in="" out="-2:subj|-1:robj|1:man|3:pnct">encogiÃ³</W>
+<W lemma="&lt;unknown&gt;" morph="coger -en/LOC&3a;loc" msd="VLfin" in="" out="-2:subj|-1:robj|1:man|3:pnct">encogiÃ³</W>
 <W lemma="de" msd="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="hombro" morph="hombro" msd="NC" in="-1:nobj" out="">hombros</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
@@ -56,7 +56,7 @@
 <W lemma="decir" morph="decir" msd="VLfin" in="" out="-3:qobj|-1:pnct|1:subj|2:man|4:pnct|8:qobj|15:pnct">dijo</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:subj" out="">Ã©l</W>
 <W lemma="con" msd="SCENE" in="-2:man" out="1:nobj">con</W>
-<W lemma="convencimiento" morph="convencer +miento/PRED&3a;core" msd="NC" in="-1:nobj" out="">convencimiento</W>
+<W lemma="convencimiento" morph="convencer +miento/DERvn&3a;core" msd="NC" in="-1:nobj" out="">convencimiento</W>
 <W lemma="," msd="CM" in="-4:pnct" out="">,</W>
 <W lemma="-" msd="DASH" in="3:pnct" out="">-</W>
 <W lemma="y" msd="CC" in="2:coord" out="">y</W>
@@ -126,7 +126,7 @@
 <W lemma="con" msd="SCENE" in="5:man" out="1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">una</W>
 <W lemma="suave" msd="ADJ" in="1:attr" out="">suave</W>
-<W lemma="sonrisa" morph="sonreír +Ø/PRED&3a;core" msd="NC" in="-2:nobj" out="-1:attr">sonrisa</W>
+<W lemma="sonrisa" morph="sonreír +Ø/DERvn&3a;core" msd="NC" in="-2:nobj" out="-1:attr">sonrisa</W>
 <W lemma="el" msd="ART" in="1:dobj" out="">la</W>
 <W lemma="atraer" morph="atraer" msd="VLfin" in="" out="-6:coord|-5:man|-1:dobj|1:man|3:pobj|5:pnct">atrajo</W>
 <W lemma="bien" msd="ADV" in="-1:man" out="1:nobj">bien</W>
@@ -137,13 +137,13 @@
 <W lemma="-" msd="DASH" in="1:pnct" out="">-</W>
 <W lemma="un" msd="ART" in="" out="-1:pnct|1:nobj|5:pnct">Una</W>
 <W lemma="boda" morph="" msd="NC" in="-1:nobj" out="1:attr|3:attr">boda</W>
-<W lemma="&lt;unknown&gt;" morph="navidad +eño/DENOM&3a;rel.norm" msd="ADJ" in="-1:attr" out="">navideÃ±a</W>
-<W lemma="realmente" msd="ADV" in="1:degr" out="">realmente</W>
-<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:attr" out="-1:degr">romÃ¡ntica</W>
+<W lemma="&lt;unknown&gt;" morph="navidad +eño/DERna&3a;rel.norm" msd="ADJ" in="-1:attr" out="">navideÃ±a</W>
+<W lemma="realmente" msd="ADV" in="1:quant" out="">realmente</W>
+<W lemma="&lt;unknown&gt;" msd="ADJ" in="-3:attr" out="-1:quant">romÃ¡ntica</W>
 <W lemma="?" msd="FS" in="-5:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" morph="continuar" msd="VLfin" in="" out="1:subj|3:pnct">continuÃ³</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" in="-1:subj" out="1:nobj">Ã©l</W>
-<W lemma="interrogante" morph="interrogar +nte/PRED&3a;agent" msd="ADJ" in="-1:nobj" out="">interrogante</W>
+<W lemma="interrogante" morph="interrogar +nte/DERvn&3a;agent" msd="ADJ" in="-1:nobj" out="">interrogante</W>
 <W lemma="." msd="FS" in="-3:pnct" out="">.</W>
 <W lemma="-" msd="DASH" in="" out="">-</W>
 <W lemma="&lt;unknown&gt;" msd="NP" in="" out="">Hmm</W>
@@ -160,8 +160,8 @@
 <W lemma="," msd="CM" in="-8:pnct" out="">,</W>
 <W lemma="con" msd="SCENE" in="-9:man" out="1:nobj">con</W>
 <W lemma="un" msd="ART" in="-1:nobj" out="2:nobj">un</W>
-<W lemma="leve" msd="ADJ" in="1:degr" out="">leve</W>
-<W lemma="&lt;unknown&gt;" morph="rojo -+[en][ecer]/DER&3a;av +miento/PRED&3a;result" msd="VLfin" in="-2:nobj" out="-1:degr|1:loc">enrojecimiento</W>
+<W lemma="leve" msd="ADJ" in="1:quant" out="">leve</W>
+<W lemma="&lt;unknown&gt;" morph="rojo -+[en][ecer]/DERav +miento/DERvn&3a;patient" msd="VLfin" in="-2:nobj" out="-1:quant|1:loc">enrojecimiento</W>
 <W lemma="en" msd="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="suyo" msd="PPO" in="-1:nobj" out="1:nobj">sus</W>
 <W lemma="mejilla" morph="" msd="NC" in="-1:nobj" out="">mejillas</W>

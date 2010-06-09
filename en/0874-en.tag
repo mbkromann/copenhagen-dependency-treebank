@@ -26,8 +26,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="">textural</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:degr">woodwind-like</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:quant">woodwind-like</W>
 <W msd="NC=S" tag="NN" in="-7:possd" out="">timbre</W>
 <W msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>

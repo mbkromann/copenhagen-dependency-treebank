@@ -107,8 +107,8 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">disposal</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-5:dobj" out="-1:degr|1:nobj">40</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-5:dobj" out="-1:quant|1:nobj">40</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">percent</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
@@ -161,8 +161,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Hafnia</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:dobj">have</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">great</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">great</W>
 <W msd="PI" tag="DT" in="-3:dobj" out="-1:attr|1:nobj|2:mod">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">say</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

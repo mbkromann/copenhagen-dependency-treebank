@@ -63,13 +63,13 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="-1:correl">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]|3:[subj]" out="">det</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-1:subj|1:vobj|5:pnct|6:reas">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-1:subj|1:vobj|5:pnct|6:cause">vil</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="-2:[subj]|1:vobj">kunne</W>
 <W gloss="let" lemma="lade" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:vobj">lade</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj|1:[dobj]" out="">sig</W>
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[dobj]">gøre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:reas" out="14:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:cause" out="14:vobj">fordi</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="13:subj" out="">vi</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="12:mod" out="2:nobj">på</W>
 <W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:mod" out="">ganske</W>

@@ -48,8 +48,8 @@
 <s>
 <W msd="SP" tag="IN" in="22:mod" out="1:nobj|10:pnct">In</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="2:attr|5:possd">his</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">straightforward</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|2:conj">straightforward</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">objective</W>
 <W msd="NC=S" tag="NN" in="-5:possd" out="1:pobj">charge</W>
@@ -150,11 +150,11 @@
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="4:pobj">Rather</W>
 <W msd="VAF" tag="VB" in="" out="-1:mod|2:dobj|5:pnct#|6:pnct">acquit</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant">many</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">than</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="AC" tag="CD" in="-2:nobj|-5:pnct#" out="-1:degr">few.</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="AC" tag="CD" in="-2:nobj|-5:pnct#" out="-1:quant">few.</W>
 <W msd="XP" tag="&amp;quot;" in="-6:pnct" out="">"</W>
 </s>
 <s>

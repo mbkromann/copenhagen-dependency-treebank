@@ -120,7 +120,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="15:succ" out="-4:tobj|1:pnct|3:modp">later</W>
+<W msd="ANP" tag="RB" in="15:time" out="-4:tobj|1:pnct|3:modp">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">shortly</W>
 <W msd="CS" tag="IN" in="-3:modp" out="-1:tobj|1:nobj|6:pnct">before</W>
@@ -135,7 +135,7 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">colleague</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Anne-Mette</W>
 <W msd="NP=S" tag="NNP" in="-4:appr" out="-1:namef">Larsen</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:@dir|2:pnct|-15:succ">gets</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:@dir|2:pnct|-15:time">gets</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

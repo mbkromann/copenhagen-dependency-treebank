@@ -109,8 +109,8 @@
 </s>
 <s>
 <W msd="AC" tag="CD" in="2:[subj]" out="">600</W>
-<W msd="NP=S" tag="NNP" in="1:degr" out="">NOT</W>
-<W msd="VADA" tag="VBD" in="" out="-2:[subj]|-1:degr">ALLOWED</W>
+<W msd="NP=S" tag="NNP" in="1:quant" out="">NOT</W>
+<W msd="VADA" tag="VBD" in="" out="-2:[subj]|-1:quant">ALLOWED</W>
 </s>
 <s>
 <W msd="AC" tag="CD" in="2:subj|4:[subj]|5:[subj]|7:[subj]" out="1:nobj">600</W>

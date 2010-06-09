@@ -25,8 +25,8 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">Kosan</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="">Holding</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-4:vobj|-5:coord|1:degr|2:subj">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-4:vobj|-5:coord|1:quant|2:subj">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="NP=S" tag="NNP" in="-2:subj|-6:[subj]" out="">Crisplant</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -99,7 +99,7 @@
 <W msd="NC=S" tag="NN" in="2:title" out="-1:attr">director</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Erik</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="-1:namef|-2:title">Thygesen</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|12:pnct|13:cont|26:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|12:pnct|13:time|26:pnct">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj">subscribing</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">24.5</W>
@@ -112,7 +112,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="">business</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-13:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-13:time" out="2:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Unibank</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj|5:pnct|6:mod">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:part|2:dobj">taking</W>

@@ -24,12 +24,12 @@
 <W msd="PI" tag="DT" in="3:subj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">unemployed</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">guy</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-4:[mod]|-3:subj|1:preds|4:pnct|5:reas">feels</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-4:[mod]|-3:subj|1:preds|4:pnct|5:cause">feels</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">like</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fool</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:dobj">wants</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>

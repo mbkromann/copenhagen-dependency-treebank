@@ -28,7 +28,7 @@
 <W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="">possono</W>
 <W lemma="sostituire" msd="VAF" tag="VER:infi" in="" out="">sostituire</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="otto" msd="AN" tag="ADJ" in="" out="">otto</W>
 <W lemma="giocatore" msd="NC" tag="NOM" in="" out="">giocatori</W>
 <W lemma="rispettare" msd="VADR" tag="VER:pres" in="" out="">rispetto</W>

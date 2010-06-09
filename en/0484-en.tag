@@ -163,8 +163,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">values</W>
 <W msd="XP" tag="(" in="5:pnct" out="">(</W>
 <W msd="PI" tag="DT" in="4:subj|5:[subj]" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">flat</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">flat</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">hand</W>
 <W msd="VADR" tag="VBZ" in="-8:modp" out="-5:pnct|-4:subj|1:vobj|7:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">shown</W>

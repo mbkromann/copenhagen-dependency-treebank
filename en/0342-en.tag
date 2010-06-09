@@ -128,10 +128,10 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">This</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fact</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|5:mod|7:pnct|8:cond|20:reas|44:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:preds|5:mod|7:pnct|8:cond|20:cause|44:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">thing</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">for</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">me</W>
@@ -148,7 +148,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">absurd</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">weather</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-20:reas" out="4:vobj">because</W>
+<W msd="CS" tag="IN" in="-20:cause" out="4:vobj">because</W>
 <W msd="PD" tag="DT" in="3:subj|10:[subj]|11:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">marsh</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">croakers</W>
@@ -195,14 +195,14 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wind</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-14:conj" out="-16:[subj]|-1:coord|1:iobj|3:dobj|6:pnct|7:cont">give</W>
+<W msd="VAF" tag="VB" in="-14:conj" out="-16:[subj]|-1:coord|1:iobj|3:dobj|6:pnct|7:time">give</W>
 <W msd="PO" tag="PRP$" in="-1:iobj" out="1:possd">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">wounds</W>
 <W msd="NC=S" tag="NN" in="-3:dobj" out="1:mod">time</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="">heal</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-7:time" out="3:vobj">while</W>
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]|6:[subj]" out="1:possd">my</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">enemies</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj|4:conj">are</W>

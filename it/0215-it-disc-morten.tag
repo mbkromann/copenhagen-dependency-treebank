@@ -1,6 +1,6 @@
 <p>
 <s>
-<W lemma="immaginare" msd="VADR" tag="VER&3a;pres" in="" out="51:TIME&3a;succ/dopo">Immaginiamo</W>
+<W lemma="immaginare" msd="VADR" tag="VER&3a;pres" in="" out="51:TIME&3a;post/dopo">Immaginiamo</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="autorità" msd="NC" tag="NOM" in="" out="">autorità</W>
@@ -51,14 +51,14 @@
 <W lemma="parte" msd="NC" tag="NOM" in="" out="">parte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="petrolio" msd="NC" tag="NOM" in="" out="">petrolio</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-51:TIME&3a;succ/dopo" out="7:CONJ/(e)">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-51:TIME&3a;post/dopo" out="7:CONJ&3a;add/(e)">sarebbe</W>
 <W lemma="scomparire" msd="VAP" tag="VER&3a;pper" in="" out="">scomparso</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Il</W>
 <W lemma="resto" msd="NC" tag="NOM" in="" out="">resto</W>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-7:CONJ/(e)" out="15:TIME&3a;cont/nel_frattempo">potrebbe</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-7:CONJ&3a;add/(e)" out="15:TIME&3a;time/nel_frattempo">potrebbe</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="" out="">essere</W>
 <W lemma="eliminare" msd="VAP" tag="VER&3a;pper" in="" out="">eliminato</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
@@ -73,7 +73,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="disoccupato" msd="NC" tag="NOM" in="" out="">disoccupati</W>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-15:TIME&3a;cont/nel_frattempo" out="13:+TELIC&3a;sbj">potrebbero</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-15:TIME&3a;time/nel_frattempo" out="13:+TELIC&3a;cons.sbj">potrebbero</W>
 <W lemma="guardare" msd="VAF" tag="VER&3a;infi" in="" out="">guardarsi</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="video" msd="AN" tag="ADJ" in="" out="">video</W>
@@ -86,7 +86,7 @@
 </s>
 <s>
 <W lemma="ciò" msd="PD" tag="PRO&3a;demo" in="" out="">Ciò</W>
-<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-13:+TELIC&3a;sbj" out="14:CONJ/e">sarebbe</W>
+<W lemma="essere" msd="VA" tag="VER&3a;cond" in="-13:+TELIC&3a;cons.sbj" out="14:CONJ&3a;add/e">sarebbe</W>
 <W lemma="considerato" msd="AN" tag="ADJ" in="" out="">considerata</W>
 <W lemma="emissione" msd="NC" tag="NOM" in="" out="">emissione</W>
 <W lemma="deliberare" msd="VAP" tag="VER&3a;pper" in="" out="">deliberata</W>
@@ -100,7 +100,7 @@
 </s>
 <s>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">Questo</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ/e" out="27:CONTR&3a;sbj/ma">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-14:CONJ&3a;add/e" out="27:CONTR&3a;sbj/ma">ha</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="" out="">portato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>

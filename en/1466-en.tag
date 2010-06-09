@@ -37,8 +37,8 @@
 </s>
 <s>
 <W msd="ANP" tag="JJ" in="1:subj|3:[subj]" out="">Several</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:degr|2:vobj|7:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">completely</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:quant|2:vobj|7:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">completely</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">covered</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>

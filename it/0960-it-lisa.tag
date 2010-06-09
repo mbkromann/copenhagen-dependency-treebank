@@ -47,17 +47,17 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">Ellemann</W>
 <W lemma=")" msd="XP" tag="PON" in="-3:pnct" out="">)</W>
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="1:robj" out="">si</W>
-<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-1:robj|-11:subj|1:preds|2:time|5:pnct|6:comp">sente</W>
+<W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="-22:conj" out="-17:coord|-1:robj|-11:subj|1:preds|2:time|5:pnct|6:resem">sente</W>
 <W lemma="impotente" msd="AN" tag="ADJ" in="-1:preds" out="">impotente</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj">nel</W>
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj|-10:assoc-scope" out="1:attr|7:coref-var">momento</W>
 <W lemma="decisionale" msd="AN" tag="ADJ" in="-1:attr" out="">decisionale</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="come" msd="CS" tag="CON" in="-6:comp" out="1:pobj.dobj|1:{patient}">come</W>
+<W lemma="come" msd="CS" tag="CON" in="-6:resem" out="1:pobj.dobj|1:{patient}">come</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">nel</W>
 <W lemma="caso" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">caso</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">del</W>
-<W lemma="voto" msd="NC" tag="NOM" in="-1:nobj|-7:coref-var" out="1:attr|56:coref-id">voto</W>
+<W lemma="voto" msd="NC" tag="NOM" in="-1:nobj|-7:coref-var" out="1:attr|56:coref-iden">voto</W>
 <W lemma="per" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="comunità" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">Comunità</W>
@@ -113,7 +113,7 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-2:time" out="1:nobj|4:pnct">nel</W>
 <W lemma="momento" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj">momento</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="voto" msd="NC" tag="NOM" in="-1:nobj|-56:coref-id" out="17:assoc-agent">voto</W>
+<W lemma="voto" msd="NC" tag="NOM" in="-1:nobj|-56:coref-iden" out="17:assoc-agent">voto</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="8:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="7:subj" out="1:nobj|6:pnct">la</W>
@@ -127,7 +127,7 @@
 <W lemma="ridurre" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:pobj">ridotta</W>
 <W lemma="ad" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">ad</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|73:coref-id">crocetta</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|73:coref-iden">crocetta</W>
 <W lemma="insignificante" msd="AN" tag="ADJ" in="-1:attr" out="">insignificante</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-2:attr" out="1:nobj">sulla</W>
 <W lemma="scheda" msd="NC" tag="NOM" in="-1:nobj|-17:assoc-agent" out="1:attr">scheda</W>
@@ -200,7 +200,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-6:pobj" out="1:¹vobj">a</W>
 <W compound="¹guidar²ci" lemma="guidare" msd="VAF" tag="VER&3a;infi" in="-1:¹vobj|0:²dobj¹" out="0:²dobj¹">guidarci</W>
 <W lemma="." msd="XP" tag="SENT" in="-15:pnct" out="">.</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-73:coref-id|2:subj" out="1:nobj">La</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-73:coref-iden|2:subj" out="1:nobj">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">crocetta</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|5:pnct|6:vobj|13:pnct">è</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:preds" out="1:nobj">una</W>

@@ -73,8 +73,8 @@
 </s>
 <s>
 <W gloss="Several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="1:subj" out="">Flere</W>
-<W gloss="are_covered" lemma="dække" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:degr|2:pobj|4:pnct">dækkes</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">helt</W>
+<W gloss="are_covered" lemma="dække" msd="VADR=----P-" tag="VBD" in="" out="-1:subj|1:quant|2:pobj|4:pnct">dækkes</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">helt</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">af</W>
 <W gloss="the_steering_wheel" lemma="rat" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">rattet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -127,8 +127,8 @@
 <W gloss="is_focus" lemma="focusere" msd="VADR=----P-" tag="VBD" in="-2:vobj" out="-1:expl|1:pobj|8:pnct">focuseres</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">det</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="close" lemma="nær" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">nære</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="close" lemma="nær" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">nære</W>
 <W gloss="relationship" lemma="forhold" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="VW" lemma="VW" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">VW</W>

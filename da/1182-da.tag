@@ -65,8 +65,8 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|3:[subj]" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
-<W gloss="admits" lemma="indrømme" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:cont|2:pnct|3:dobj">indrømmer</W>
-<W gloss="at_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:cont" out="">samtidig</W>
+<W gloss="admits" lemma="indrømme" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-3:[subj]|-1:coord|1:time|2:pnct|3:dobj">indrømmer</W>
+<W gloss="at_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:time" out="">samtidig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="3:vobj|8:conj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj" out="">det</W>
@@ -223,12 +223,12 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-10:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="travel" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|3:pnct|5:reas">rejse</W>
+<W gloss="travel" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|3:pnct|5:cause">rejse</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Bosnia" lemma="Bosnien" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Bosnien</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="in_part" lemma="dels" msd="RGU" tag="RP" in="6:mod" out="">dels</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="2:vobj|6:conj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="2:vobj|6:conj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="paid" lemma="betale" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:pnct">betalte</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">godt</W>

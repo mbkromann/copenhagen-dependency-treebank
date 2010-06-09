@@ -68,12 +68,12 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="18" lemma="18" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">18</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-3:nobj|-1:[nobj]" out="">år</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-7:subj|1:vobj|4:pnct|5:reas|25:pnct">var</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-7:subj|1:vobj|4:pnct|5:cause|25:pnct">var</W>
 <W gloss="blocked" lemma="spærre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:part|2:mod">spærret</W>
 <W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-1:part" out="">inde</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="-2:mod" out="">hér</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="4:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="4:vobj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="3:subj|4:[subj]|12:[subj]" out="">de</W>
 <W gloss="according_to" lemma="ifølge" msd="SP" tag="IN" in="2:source" out="1:nobj">ifølge</W>
 <W gloss="the_regime" lemma="regime" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">regimet</W>
@@ -90,8 +90,8 @@
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj|1:[dobj]" out="">sig</W>
 <W gloss="afrette" lemma="afrette" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[dobj]|1:mod">afrette</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:mod" out="3:nobj">på</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="normal" lemma="normal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">normale</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="normal" lemma="normal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">normale</W>
 <W gloss="youth_institutions" lemma="ungdomsinstitution" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:attr">ungdomsinstitutioner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-25:pnct" out="">.</W>
 </s>

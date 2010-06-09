@@ -8,8 +8,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cultivator</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">which</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:degr|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|1:quant|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod|5:mod">use</W>
 <W msd="SP" tag="IN" in="-1:mod" out="">in</W>
@@ -134,10 +134,10 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="3:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBP" in="" out="-1:expl|1:dobj|2:preds|11:pnct|-3:att">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:expl|1:dobj|2:preds|11:pnct|-3:eval">are</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="4:ref">things</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

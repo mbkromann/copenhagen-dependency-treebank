@@ -101,12 +101,12 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">magnet</W>
-<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|10:pnct|5:prec">must</W>
+<W msd="VA" tag="MD" in="" out="-2:subj|1:vobj|10:pnct|5:time">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:@dir">stand</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">along</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">wire</W>
-<W msd="CS" tag="IN" in="-5:prec" out="3:vobj">before</W>
+<W msd="CS" tag="IN" in="-5:time" out="3:vobj">before</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">current</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj">is</W>

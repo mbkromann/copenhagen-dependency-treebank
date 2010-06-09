@@ -119,8 +119,8 @@
 <s>
 <W gloss="Bill" lemma="Bill" msd="NP--U==-" tag="NNP" in="1:namef" out="">Bill</W>
 <W gloss="Clinton" lemma="Clinton" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Clinton</W>
-<W gloss="lived" lemma="bo" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:prec|2:@loc|17:pnct">boede</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:prec" out="">først</W>
+<W gloss="lived" lemma="bo" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:@loc|17:pnct">boede</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="-1:time" out="">først</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="the_address" lemma="addressen" msd="XX" tag="FW" in="-1:nobj" out="1:appr|4:pnct|5:ref|7:rel">addressen</W>
 <W gloss="1011" lemma="1011" msd="AC---U=--" tag="CD" in="-1:appr" out="1:list">1011</W>
@@ -140,16 +140,16 @@
 </s>
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|16:pnct">Men</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:succ" out="">senere</W>
-<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:succ|1:subj|2:@dir">flyttede</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:time" out="">senere</W>
+<W gloss="moved" lemma="flytte" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:time|1:subj|2:@dir">flyttede</W>
 <W gloss="the_family" lemma="familie" msd="NCCSU==D" tag="NN" in="-1:subj" out="">familien</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">til</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod|8:mod">en</W>
 <W gloss="larger" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">større</W>
 <W gloss="house" lemma="villa" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">villa</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="3:nobj">i</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="airy" lemma="luftig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">luftige</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="airy" lemma="luftig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">luftige</W>
 <W gloss="surroundings" lemma="omgivelse" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:attr">omgivelser</W>
 <W gloss="farther" lemma="længe" msd="RGC" tag="RP" in="1:mod" out="">længere</W>
 <W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-8:mod" out="-1:mod|1:mod">væk</W>

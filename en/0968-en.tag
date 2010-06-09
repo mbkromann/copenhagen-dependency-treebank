@@ -123,8 +123,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">into</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">motion</W>
 <W msd="PD" tag="DT" in="-3:dobj" out="2:attr|4:nobj|7:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="4:mod">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">comprehensive</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="4:mod">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">comprehensive</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">aid</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="-1:mod">operation</W>
 <W msd="U=" tag="TO" in="-4:mod" out="1:nobj">to</W>
@@ -139,8 +139,8 @@
 <W msd="AC" tag="CD" in="3:subj|10:[subj]|11:[subj]" out="2:nobj">22,000</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">UN</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">workers</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:dur|7:vobj|23:pnct">will</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|1:time|7:vobj|23:pnct">will</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">course</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -228,8 +228,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:attr">firms</W>
 <W msd="VADR" tag="VBP" in="8:qobj" out="-26:mod|-1:subj|1:vobj|7:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:preds">been</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">cautious</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">cautious</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">investments</W>

@@ -98,13 +98,13 @@
 <W gloss="800,000," lemma="800.000" msd="AC---U=--" tag="CD" in="-1:dobj" out="">800.000</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:vobj|34:pnct">er</W>
-<W gloss="ordered" lemma="bestille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|2:conj|3:pobj|6:succ">bestilt</W>
+<W gloss="ordered" lemma="bestille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|2:conj|3:pobj|6:time">bestilt</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="paid" lemma="betale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:conj" out="-10:[subj]|-1:coord|1:[pobj]">betalt</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-3:pobj|-1:[pobj]" out="1:nobj">af</W>
 <W gloss="Copenhagen" lemma="København" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Københavns</W>
 <W gloss="County_Council" lemma="amtsråd" msd="NCNSU==I" tag="NN" in="-1:possd" out="">Amtsråd</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-6:succ" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-6:time" out="1:nobj">efter</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="intense" lemma="voldsom" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">voldsom</W>
 <W gloss="debate" lemma="debat" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">debat</W>
@@ -222,7 +222,7 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">give</W>
 <W gloss="support" lemma="støtte" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">støtte</W>
-<W gloss="guides" lemma="føre" msd="VADR=----A-" tag="VBD" in="" out="-4:goal|1:subj|3:dobj|6:dir|8:pnct|9:dur|17:pnct">fører</W>
+<W gloss="guides" lemma="føre" msd="VADR=----A-" tag="VBD" in="" out="-4:goal|1:subj|3:dobj|6:dir|8:pnct|9:time|17:pnct">fører</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:nobj">en</W>
 <W gloss="pædagog" lemma="pædagog" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">pædagog</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:dobj" out="1:nobj|2:possd">den</W>
@@ -231,7 +231,7 @@
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-6:dir" out="1:nobj">over</W>
 <W gloss="the_message_board" lemma="staveplade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">stavepladen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="until" lemma="indtil" msd="CS" tag="IN" in="-9:dur" out="2:vobj">indtil</W>
+<W gloss="until" lemma="indtil" msd="CS" tag="IN" in="-9:time" out="2:vobj">indtil</W>
 <W gloss="the_client" lemma="klient" msd="NCCSU==D" tag="NN" in="1:subj" out="">klienten</W>
 <W gloss="points" lemma="pege" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pobj">peger</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>

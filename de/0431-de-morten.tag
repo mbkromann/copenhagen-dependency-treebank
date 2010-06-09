@@ -1,9 +1,9 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:namel" out="">Rench</W>
-<W lemma="Nielsen" msd="NP" tag="NE" in="4:subj" out="-1:namel|1:pnct|2:attr|2:{origin}">Nielsen</W>
+<W lemma="Nielsen" msd="NP" tag="NE" in="4:subj" out="-1:namel|1:pnct|2:attr|2:{source}">Nielsen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-2:attr|-2:{origin}" out="1:pnct">Ebeltoft</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="-2:attr|-2:{source}" out="1:pnct">Ebeltoft</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="veranstaltet" msd="AN" tag="ADJA" in="" out="-4:subj|1:@loc|6:dobj|12:pnct">veranstaltete</W>
 <W lemma="auf" msd="SP" tag="APPR" in="-1:@loc" out="1:nobj">auf</W>
@@ -28,9 +28,9 @@
 <W lemma="Preis" msd="NC" tag="NN" in="-1:nobj" out="">Preis</W>
 <W lemma="gewinnen" msd="VA" tag="VVFIN" in="-6:conj" out="-3:coord|-2:dobj|2:subj">gewann</W>
 <W lemma="Harald" msd="NP" tag="NE" in="1:namef" out="">Harald</W>
-<W lemma="Jensen" msd="NP" tag="NE" in="-2:subj" out="-1:namef|1:pnct|2:attr|2:{origin}">Jensen</W>
+<W lemma="Jensen" msd="NP" tag="NE" in="-2:subj" out="-1:namef|1:pnct|2:attr|2:{source}">Jensen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:attr|-2:{origin}" out="">Vejle</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:attr|-2:{source}" out="">Vejle</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
 </s>
 </p>
@@ -78,8 +78,8 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJA" in="1:namef" out="">Ib</W>
 <W lemma="Garn" msd="NC" tag="NN" in="6:subj|18:[subj]" out="-1:namef|1:pnct|2:title|22:coref">Garn</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="Goldschmied" msd="NC" tag="NN" in="-2:title" out="1:attr|1:{origin}|3:pnct">Goldschmied</W>
-<W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{origin}" out="1:nobj">aus</W>
+<W lemma="Goldschmied" msd="NC" tag="NN" in="-2:title" out="1:attr|1:{source}|3:pnct">Goldschmied</W>
+<W lemma="aus" msd="SP" tag="APPR" in="-1:attr|-1:{source}" out="1:nobj">aus</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Køge</W>
 <W lemma="," msd="XP" tag="$," in="-3:pnct" out="">,</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-6:subj|1:time|12:vobj|13:pnct">hat</W>
@@ -126,12 +126,12 @@
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-7:subj|8:vobj|9:pnct">hat</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj|9:coref-var">den</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Jahreskünstlerschmuck</W>
-<W lemma="für" msd="SP" tag="APPR" in="5:ben" out="3:nobj">für</W>
+<W lemma="für" msd="SP" tag="APPR" in="5:goal" out="3:nobj">für</W>
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NP" note="skal deles" tag="NE" in="-3:nobj" out="1:pnct">,Smykkekæden</W>
 <W lemma="'" msd="XP" tag="$(" in="-1:pnct" out="">'</W>
-<W lemma="entwerfen" msd="VAP" tag="VVPP" in="-8:vobj" out="-15:[subj]|-7:dobj|-5:ben">entworfen</W>
+<W lemma="entwerfen" msd="VAP" tag="VVPP" in="-8:vobj" out="-15:[subj]|-7:dobj|-5:goal">entworfen</W>
 <W lemma="." msd="XP" tag="$." in="-9:pnct" out="">.</W>
 <W lemma="d" msd="PP" tag="PDS" in="-9:coref-var|1:subj" out="">Das</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|1:preds|6:pnct">ist</W>
@@ -149,10 +149,10 @@
 <W lemma="." msd="XP" tag="$." in="-1:pnct" out="">.</W>
 <p>
 <s>
-<W lemma="seit" msd="SP" tag="APPR" in="3:dur" out="1:nobj">Seit</W>
+<W lemma="seit" msd="SP" tag="APPR" in="3:time" out="1:nobj">Seit</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">225</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahren</W>
-<W lemma="geben" msd="VA" tag="VVFIN" in="" out="-3:dur|1:expl|2:loc|4:dobj|7:pnct|8:coref-prg">gibt</W>
+<W lemma="geben" msd="VA" tag="VVFIN" in="" out="-3:time|1:expl|2:loc|4:dobj|7:pnct|8:coref-res.prg">gibt</W>
 <W lemma="es" msd="PP" tag="PPER" in="-1:expl" out="">es</W>
 <W lemma="in" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">in</W>
 <W lemma="Pforzheim" msd="NP" tag="NE" in="-1:nobj" out="">Pforzheim</W>
@@ -160,7 +160,7 @@
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="Uhrenindustrie" msd="NC" tag="NN" in="-2:conj" out="-1:coord">Uhrenindustrie</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-8:coref-prg|2:subj|13:[subj]" out="1:nobj">Das</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-8:coref-res.prg|2:subj|13:[subj]" out="1:nobj">Das</W>
 <W lemma="Jubiläum" msd="NC" tag="NN" in="-1:nobj" out="">Jubiläum</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-2:subj|11:vobj|12:pnct">wurde</W>
 <W lemma="u.a." msd="RG" tag="ADV" in="1:exem" out="">u.a.</W>
@@ -175,12 +175,12 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">Pfennig-Briefmarke</W>
 <W lemma="feiern" msd="VAP" tag="VVPP" in="-11:vobj" out="-13:[subj]|-9:agent|-6:man">gefeiert</W>
 <W lemma="." msd="XP" tag="$." in="-12:pnct" out="">.</W>
-<W lemma="solange" msd="CS" tag="KOUS" in="5:dur" out="3:vobj">Solange</W>
+<W lemma="solange" msd="CS" tag="KOUS" in="5:time" out="3:vobj">Solange</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Auflage" msd="NC" tag="NN" in="-1:nobj" out="">Auflage</W>
 <W lemma="reichen" msd="VA" tag="VVFIN" in="-3:vobj" out="-2:subj|1:pnct">reicht</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="können" msd="VA" tag="VMFIN" in="" out="1:subj|2:loc|17:vobj|18:pnct|-5:dur">können</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="" out="1:subj|2:loc|17:vobj|18:pnct|-5:time">können</W>
 <W lemma="Interessent" msd="NC" tag="NN" in="-1:subj|16:[subj]" out="">Interessenten</W>
 <W lemma="bei" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">bei</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj|3:pnct|4:other">der</W>

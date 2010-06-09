@@ -45,9 +45,9 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">stairs</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="-15:conj" out="-7:mod|-1:subj|-8:coord|2:ext|3:dobj">said</W>
+<W msd="VADA" tag="VBD" in="-15:conj" out="-7:mod|-1:subj|-8:coord|2:time|3:dobj">said</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">once</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="-1:mod">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="-1:mod">again</W>
 <W msd="SP" tag="IN" in="-3:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:preds">was</W>
@@ -85,8 +85,8 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PT" tag="WRB" in="1:reas" out="">Why</W>
-<W msd="VADR" tag="VBP" in="" out="1:subj|2:vobj|4:pnct|-1:reas">do</W>
+<W msd="PT" tag="WRB" in="1:cause" out="">Why</W>
+<W msd="VADR" tag="VBP" in="" out="1:subj|2:vobj|4:pnct|-1:cause">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">we</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">do</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">that</W>
@@ -154,8 +154,8 @@
 <s>
 <W msd="XP" tag="&3a;" in="3:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">I</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|-1:ext|1:dobj|3:lobj|6:pnct|7:mod|19:pnct">had</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADA" tag="VBD" in="" out="-3:pnct|-2:subj|-1:time|1:dobj|3:lobj|6:pnct|7:mod|19:pnct">had</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">name</W>
 <W msd="SP" tag="IN" in="-3:lobj" out="1:nobj">in</W>
@@ -180,9 +180,9 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|14:vobj|17:pnct">thought</W>
 <W msd="CS" tag="IN" in="13:cond" out="3:vobj">if</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-1:subj|-2:degr|1:vobj|8:pnct">could</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-1:subj|-2:quant|1:vobj|8:pnct">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:iobj|3:dobj">get</W>
 <W msd="PI" tag="DT" in="-1:iobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj|2:[subj]" out="">man</W>

@@ -13,7 +13,7 @@
 <W lemma="él" msd="PP" tag="PPX" in="-1:subj" out="">ella</W>
 <W lemma="." msd="XP" tag="FS" in="-2:pnct" out="">.</W>
 <W lemma="era" morph="ser" msd="VAD" tag="VEfin" in="" out="1:preds|7:pnct">Era</W>
-<W lemma="distinto" morph="distinguir +Ø/DEVERB&3a;act.pure" msd="AN" tag="ADJ" in="-1:preds" out="">distinta</W>
+<W lemma="distinto" morph="distinguir +Ø/DERva&3a;act" msd="AN" tag="ADJ" in="-1:preds" out="">distinta</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -57,9 +57,9 @@
 <W lemma="noche" morph="" msd="NC" tag="NC" in="-1:nobj" out="">noche</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="-1:coord">se</W>
-<W lemma="&lt;unknown&gt;" morph="culpa -dis/NEG&3a;priv +ar/DER&3a;nv" msd="VAD" tag="VLfin" in="-10:conj" out="-1:robj|2:comp">disculpan</W>
+<W lemma="&lt;unknown&gt;" morph="culpa -dis/NEG&3a;priv +ar/DERnv" msd="VAD" tag="VLfin" in="-10:conj" out="-1:robj|2:resem">disculpan</W>
 <W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
-<W lemma="como" msd="RG" tag="ADV" in="-2:comp" out="1:cond">como</W>
+<W lemma="como" msd="RG" tag="ADV" in="-2:resem" out="1:cond">como</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="-1:cond" out="">si</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:ref|2:relr">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:dobj" out="">que</W>
@@ -68,7 +68,7 @@
 <W lemma="algo" msd="AN" tag="QU" in="-1:preds" out="1:nobj">algo</W>
 <W lemma="secreto" morph="" msd="NC" tag="NC" in="-1:nobj" out="2:conj">secreto</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="prohibir" morph="prohibir +ido/DEVERB&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">prohibido</W>
+<W lemma="prohibir" morph="prohibir +ido/DERva&3a;pas.part" msd="VAF" tag="VLadj" in="-2:conj" out="-1:coord">prohibido</W>
 <W lemma="." msd="XP" tag="FS" in="-22:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="" out="1:cause">Â¿Por</W>
 <W lemma="&lt;unknown&gt;" morph="" msd="VAD" tag="VLfin" in="-1:cause" out="">quÃ©</W>
@@ -93,10 +93,10 @@
 <W lemma="ese" msd="" tag="DM" in="2:subj" out="">eso</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="&lt;unknown&gt;" morph="tener" msd="VAD" tag="VLfin" in="-9:conj" out="-3:coord|-2:subj|-1:neg|1:dobj">tenÃ­a</W>
-<W lemma="importancia" morph="importar +ante/DEVERB&3a;act.pure +cia/QUAL" msd="NC" tag="NC" in="-1:dobj" out="">importancia</W>
+<W lemma="importancia" morph="importar +ante/DERva&3a;act +cia/DERan&3a;qual" msd="NC" tag="NC" in="-1:dobj" out="">importancia</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" morph="yacer" msd="VAD" tag="VLfin" in="" out="1:fpreds|2:loc|5:man|11:conj|18:pnct">YacÃ­amos</W>
-<W lemma="desnudo" morph="desnudar +o/DEVERB&3a;pas.part" msd="AN" tag="ADJ" in="-1:fpreds" out="">desnudos</W>
+<W lemma="desnudo" morph="desnudar +o/DERva&3a;pas.part" msd="AN" tag="ADJ" in="-1:fpreds" out="">desnudos</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cama" morph="" msd="NC" tag="NC" in="-1:nobj" out="">cama</W>

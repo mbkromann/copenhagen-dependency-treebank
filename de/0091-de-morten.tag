@@ -74,8 +74,8 @@
 <W lemma="Platte" msd="NC" tag="NN" in="-2:nobj" out="">Platte</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="10:pobj" out="1:nobj">als</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:attr">die</W>
-<W lemma="bislang" msd="RG" tag="ADV" in="1:degr" out="">bislang</W>
-<W lemma="gut" msd="AN" tag="ADJA" in="-2:attr" out="-1:degr|1:pnct|2:conj|4:conj">beste</W>
+<W lemma="bislang" msd="RG" tag="ADV" in="1:quant" out="">bislang</W>
+<W lemma="gut" msd="AN" tag="ADJA" in="-2:attr" out="-1:quant|1:pnct|2:conj|4:conj">beste</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="ehrlich" msd="AN" tag="ADJA" in="-2:conj" out="">ehrlichste</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -109,18 +109,18 @@
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="in" msd="SP" tag="APPR" in="7:man" out="1:nobj">in</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-1:nobj|-6:ref" out="">der</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj|72:coref-id">die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="5:subj" out="1:nobj|72:coref-iden">die</W>
 <W lemma="Rockmusik" msd="NC" tag="NN" in="-1:nobj" out="">Rockmusik</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="3:dobj" out="">sich</W>
 <W lemma="zu" msd="SP" tag="APPR" in="2:preds" out="1:nobj">zu</W>
 <W lemma="Tod" msd="NC" tag="NN" in="-1:nobj" out="">Tode</W>
-<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|-2:preds|1:pnct|2:reas">siegt</W>
+<W lemma="siegen" msd="VA" tag="VVFIN" in="-12:relr" out="-5:subj|-3:dobj|-7:man|-2:preds|1:pnct|2:cause">siegt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="indem" msd="CS" tag="KOUS" in="-2:reas" out="6:vobj">indem</W>
+<W lemma="indem" msd="CS" tag="KOUS" in="-2:cause" out="6:vobj">indem</W>
 <W lemma="sie" msd="PP" tag="PPER" in="5:subj" out="">sie</W>
-<W lemma="so" msd="RG" tag="ADV" in="1:degr" out="">so</W>
-<W lemma="viel" msd="PI" tag="PIAT" in="1:degr" out="-1:degr">viel</W>
-<W lemma="oberflächlich" msd="AN" tag="ADJA" in="1:attr" out="-1:degr">oberflächliche</W>
+<W lemma="so" msd="RG" tag="ADV" in="1:quant" out="">so</W>
+<W lemma="viel" msd="PI" tag="PIAT" in="1:quant" out="-1:quant">viel</W>
+<W lemma="oberflächlich" msd="AN" tag="ADJA" in="1:attr" out="-1:quant">oberflächliche</W>
 <W lemma="Aufmerksamkeit" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Aufmerksamkeit</W>
 <W lemma="erregen" msd="VAP" tag="VVPP" in="-6:vobj" out="-5:subj|-1:dobj|1:pnct|2:nobj">erregt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -138,7 +138,7 @@
 <W lemma="erinnern" msd="VAF" tag="VVINF" in="-1:vobj" out="-3:robj|-2:avobj|1:pnct">erinnern</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="was" msd="PT" tag="PRELS" in="-4:dobj" out="11:vobj">was</W>
-<W lemma="von" msd="SP" tag="APPR" in="10:prec" out="1:nobj">von</W>
+<W lemma="von" msd="SP" tag="APPR" in="10:time" out="1:nobj">von</W>
 <W lemma="Anfang" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Anfang</W>
 <W lemma="an" msd="SP" tag="APPR" in="-1:pobj" out="">an</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="7:dobj" out="1:nobj|3:conj">das</W>
@@ -148,7 +148,7 @@
 <W lemma="Bedeutung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj.subj|1:{agent}">Bedeutung</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:possr">der</W>
 <W lemma="Musik" msd="NC" tag="NN" in="-1:possr" out="">Musik</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-11:vobj" out="-7:dobj|1:pnct|-10:prec">waren</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-11:vobj" out="-7:dobj|1:pnct|-10:time">waren</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-48:pnct" out="">"</W>
 <W lemma="schreiben" msd="VA" tag="VVFIN" in="" out="-49:qobj|1:subj|2:pnct">schreibt</W>
@@ -163,8 +163,8 @@
 <W lemma="es" msd="PP" tag="PPER" in="-1:subj" out="">es</W>
 <W lemma="im" msd="SP+P" tag="APPRART" in="-2:loc" out="1:nobj">im</W>
 <W lemma="Buch" msd="NC" tag="NN" in="-1:nobj" out="">Buch</W>
-<W lemma="wesentlich" msd="AN" tag="ADJD" in="1:degr" out="">wesentlich</W>
-<W lemma="mehr" msd="RG" tag="ADV" in="-5:dobj" out="-1:degr">mehr</W>
+<W lemma="wesentlich" msd="AN" tag="ADJD" in="1:quant" out="">wesentlich</W>
+<W lemma="mehr" msd="RG" tag="ADV" in="-5:dobj" out="-1:quant">mehr</W>
 <W lemma="." msd="XP" tag="$." in="-6:pnct" out="">.</W>
 </s>
 </p>
@@ -181,7 +181,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="3:pnct" out="">"</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="-72:coref-id|2:subj" out="1:nobj">Die</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="-72:coref-iden|2:subj" out="1:nobj">Die</W>
 <W lemma="Rockmusik" msd="NC" tag="NN" in="-1:nobj" out="">ROCKMUSIK</W>
 <W lemma="definieren" msd="VA" tag="VVFIN" in="-12:xpl" out="-3:pnct|-2:subj|1:robj|2:loc|4:pobj|7:pnct|35:pnct">definiert</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:robj" out="">sich</W>

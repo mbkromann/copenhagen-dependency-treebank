@@ -109,7 +109,7 @@
 </s>
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="13:conj|22:pnct">Og</W>
-<W gloss="since" lemma="da" msd="CS" tag="IN" in="12:reas" out="3:vobj">da</W>
+<W gloss="since" lemma="da" msd="CS" tag="IN" in="12:cause" out="3:vobj">da</W>
 <W gloss="both" lemma="begge" msd="PD-[CN]PU--U" tag="DT" in="2:subj" out="1:nobj">begge</W>
 <W gloss="clubs" lemma="klub" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">klubber</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj|8:pnct">har</W>
@@ -121,7 +121,7 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="players" lemma="spiller" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">spillere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:reas|1:subj|7:vobj">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-12:cause|1:subj|7:vobj">vil</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:subj|6:[subj]" out="1:nobj">et</W>
 <W gloss="collaboration" lemma="samarbejde" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">samarbejde</W>
 <W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">mellem</W>
@@ -216,8 +216,8 @@
 <W gloss="longer" lemma="lang" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="1:attr" out="">længere</W>
 <W gloss="term" lemma="sigt" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">sigt</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-4:subj|2:man|3:preds|7:pnct">er</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="clearly" lemma="klar" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:degr">klart</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="clearly" lemma="klar" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:quant">klart</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:preds" out="1:vobj">at</W>
 <W gloss="put" lemma="lægge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:part">lægge</W>
 <W gloss="the_clubs" lemma="klub" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">klubberne</W>

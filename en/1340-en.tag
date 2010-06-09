@@ -137,13 +137,13 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Morten</W>
 <W msd="NP=S" tag="NNP" in="8:subj|11:[subj]" out="-1:namef|1:pnct">Olsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="6:prec" out="1:nobj|5:pnct">before</W>
+<W msd="CS" tag="IN" in="6:time" out="1:nobj|5:pnct">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="3:nobj">every</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Super</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="-1:mod">League</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">game</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-10:vobj" out="-8:subj|-6:prec|1:pobj|3:conj|7:mod">watches</W>
+<W msd="VADR" tag="VBZ" in="-10:vobj" out="-8:subj|-6:time|1:pobj|3:conj|7:mod">watches</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">over</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-11:[subj]|-1:coord|1:[dobj]">guards</W>

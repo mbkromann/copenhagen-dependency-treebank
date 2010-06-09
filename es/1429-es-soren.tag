@@ -49,8 +49,8 @@
 <W lemma="abandonar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">abandonar</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:pobj" out="1:pobj">después</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:pobj" out="1:nobj">del</W>
-<W lemma="error" msd="NC" tag="NC" in="-1:nobj" out="1:bg">error</W>
-<W lemma="con~respecto~al" msd="SP" tag="PAL" in="-1:bg" out="1:nobj">con respecto al</W>
+<W lemma="error" msd="NC" tag="NC" in="-1:nobj" out="1:scene">error</W>
+<W lemma="con~respecto~al" msd="SP" tag="PAL" in="-1:scene" out="1:nobj">con respecto al</W>
 <W lemma="equipo" msd="NC" tag="NC" in="-1:nobj" out="2:appr">equipo</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Andy</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:appr" out="-1:namef">Rouse</W>
@@ -70,8 +70,8 @@
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-4:time" out="1:pobj">después</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">unas</W>
-<W lemma="controversia" msd="NC" tag="NC" in="-1:nobj" out="1:bg">controversias</W>
-<W lemma="con~respecto~a" msd="SP" tag="SCENE" in="-1:bg" out="1:nobj">con respecto a</W>
+<W lemma="controversia" msd="NC" tag="NC" in="-1:nobj" out="1:scene">controversias</W>
+<W lemma="con~respecto~a" msd="SP" tag="SCENE" in="-1:scene" out="1:nobj">con respecto a</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">un</W>
 <W lemma="nuevo" msd="AN" tag="ADJ" in="1:attr" out="">nuevo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:loc">cigüeñal</W>
@@ -101,11 +101,11 @@
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="-6:conj" out="-1:coord|1:preds">es</W>
-<W lemma="interpretar" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj|4:comp|7:fpreds">interpretado</W>
+<W lemma="interpretar" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj|4:resem|7:fpreds">interpretado</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="observador" msd="NC" tag="NC" in="-1:nobj" out="">observadores</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-4:comp" out="1:man">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-4:resem" out="1:man">de</W>
 <W lemma="tal" msd="AN" tag="QU" in="-1:man" out="1:nobj">tal</W>
 <W lemma="modo" msd="NC" tag="NC" in="-1:nobj" out="">modo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-7:fpreds" out="2:vobj">que</W>
@@ -149,15 +149,15 @@
 <W lemma="si" msd="CS" tag="CSUBX" in="-7:cond" out="1:vobj">si</W>
 <W lemma="llegar" msd="VAD" tag="VLfin" in="-1:vobj" out="1:pobj">llegara</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:vobj">a</W>
-<W lemma="producirse" msd="VA" tag="VCLI" in="-1:vobj" out="1:ext">producirse</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:ext" out="1:nobj">en</W>
+<W lemma="producirse" msd="VA" tag="VCLI" in="-1:vobj" out="1:time">producirse</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:time" out="1:nobj">en</W>
 <W lemma="masa" msd="NC" tag="NC" in="-1:nobj" out="">masa</W>
 <W lemma="." msd="XP" tag="FS" in="-13:pnct" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj|3:[subj]" out="1:nobj">El</W>
 <W lemma="coche" msd="NC" tag="NC" in="-1:nobj" out="">coche</W>
 <W lemma="poder" msd="VAD" tag="VMfin" in="" out="-2:subj|1:vobj">puede</W>
-<W lemma="recorrer" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-3:[subj]|1:ext|3:dobj|4:inst|9:pnct|10:ref|12:relelab">recorrer</W>
-<W lemma="por~encima~de" msd="SP" tag="SCENE" in="-1:ext" out="">por encima de</W>
+<W lemma="recorrer" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-3:[subj]|1:time|3:dobj|4:inst|9:pnct|10:ref|12:relelab">recorrer</W>
+<W lemma="por~encima~de" msd="SP" tag="SCENE" in="-1:time" out="">por encima de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="1:numm" out="">2.690</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-3:dobj" out="-1:numm">kilómetros</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-4:inst" out="1:nobj">con</W>

@@ -187,9 +187,9 @@
 <p>
 <s>
 <W gloss="Pasta" lemma="pasta" msd="NCCSU==I" tag="NN" in="1:subj" out="">Pasta</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:degr|3:preds|10:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:quant|3:preds|10:pnct">er</W>
 <W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="-1:time" out="">endnu</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:preds" out="1:attr|2:nobj">en</W>
 <W gloss="small" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="part" lemma="del" msd="NCCSU==I" tag="NN" in="-2:nobj" out="1:pobj">del</W>
@@ -200,8 +200,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">Kun</W>
-<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="5:subj" out="-1:degr|1:pobj">30</W>
+<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">Kun</W>
+<W gloss="30" lemma="30" msd="AC---U=--" tag="CD" in="5:subj" out="-1:quant|1:pobj">30</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_firm's" lemma="virksomhed" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">virksomhedens</W>
 <W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj">500</W>
@@ -233,8 +233,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="Lars" lemma="Lars" msd="NP--U==-" tag="NNP" in="1:namef" out="">Lars</W>
 <W gloss="Bred" lemma="Bred" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Bred</W>
-<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:subj|-3:coord|1:att|2:pobj">tror</W>
-<W gloss="even" lemma="sågar" msd="RGU" tag="RP" in="-1:att" out="">sågar</W>
+<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-15:conj" out="-1:subj|-3:coord|1:eval|2:pobj">tror</W>
+<W gloss="even" lemma="sågar" msd="RGU" tag="RP" in="-1:eval" out="">sågar</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="3:vobj">at</W>

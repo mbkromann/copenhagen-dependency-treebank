@@ -47,8 +47,8 @@
 <W gloss="the_crew" lemma="besætning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">besætningen</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|-4:pnct|1:vobj|4:pnct">skal</W>
 <W gloss="be_taken" lemma="tage" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-4:[subj]|2:aobj">tages</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="seriously" lemma="alvorlig" msd="ANP---=-R" tag="JJ" in="-2:aobj" out="-1:degr">alvorligt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="seriously" lemma="alvorlig" msd="ANP---=-R" tag="JJ" in="-2:aobj" out="-1:quant">alvorligt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -60,8 +60,8 @@
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="take" lemma="tage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="3:tobj">tage</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:degr">lang</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="-1:quant">lang</W>
 <W gloss="time" lemma="tid" msd="NCCSU==I" tag="NN" in="-3:tobj" out="-1:attr">tid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-10:nobj" out="1:vobj">at</W>
 <W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:preds">få</W>

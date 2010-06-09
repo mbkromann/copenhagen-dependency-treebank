@@ -19,8 +19,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Channel</W>
 <W msd="NP=P" tag="NNPS" in="-3:nobj" out="-1:mod">Islands</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VAP" tag="VBN" in="-9:vobj" out="-10:[subj]|1:dur">occupied</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-9:vobj" out="-10:[subj]|1:time">occupied</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Second</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">World</W>
@@ -82,12 +82,12 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="6:conj|10:pnct">But</W>
-<W msd="ANP" tag="RB" in="5:succ" out="1:pnct">later</W>
+<W msd="ANP" tag="RB" in="5:time" out="1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">underground</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hospital</W>
-<W msd="VADA" tag="VBD" in="-6:conj" out="-3:subj|1:vobj|-5:succ">was</W>
+<W msd="VADA" tag="VBD" in="-6:conj" out="-3:subj|1:vobj|-5:time">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:avobj|2:mod">fitted</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="">out</W>
 <W msd="ANP" tag="RB" in="-2:mod" out="">there</W>

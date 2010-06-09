@@ -3,8 +3,8 @@
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="ma" msd="CS" tag="CON" in="6:coord" out="">ma</W>
 <W lemma="in" msd="SP" tag="PRE" in="5:loc" out="2:nobj">in</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:degr|1:nobj|10:assoc-const">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:quant|1:nobj|10:assoc-const">i</W>
 <W lemma="ristorante" msd="NC" tag="NOM" in="-1:nobj" out="">ristoranti</W>
 <W lemma="ci" msd="PR" tag="PRO&3a;refl" in="-8:coref|1:dobj" out="">ci</W>
 <W lemma="respingere" msd="VADR" tag="VER&3a;pres" in="-9:conj" out="-5:loc|-6:coord|-1:dobj">respingono</W>
@@ -154,7 +154,7 @@
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">mi</W>
 <W lemma="lasciare" msd="VA" tag="VER&3a;cond" in="-6:conj" out="-3:coord|-2:neg|-1:iobj|1:dobj">lascerebbero</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="soldo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{pos}">soldo</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{pos}" out="1:nobj">nel</W>
+<W lemma="soldo" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{loc}">soldo</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{loc}" out="1:nobj">nel</W>
 <W lemma="portafoglio" msd="NC" tag="NOM" in="-1:nobj" out="">portafoglio</W>
 <W lemma="." msd="XP" tag="SENT" in="-28:pnct" out="">.</W>

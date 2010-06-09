@@ -100,11 +100,11 @@
 <W msd="NP=S" tag="NNP" in="3:subj" out="2:possd">TV's</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Sten</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:namef">Baadsgaard</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:dobj|2:pobj|4:prec|7:pnct|15:conj">showed</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:dobj|2:pobj|4:time|7:pnct|15:conj">showed</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">her</W>
-<W msd="CS" tag="IN" in="-4:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-4:time" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interview</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -125,9 +125,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:neg|2:vobj">had</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:prec">seen</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:time">seen</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="CS" tag="IN" in="-2:prec" out="">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="">before</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-12:conj" out="-1:coord|1:pnct|6:qobj">ask</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>

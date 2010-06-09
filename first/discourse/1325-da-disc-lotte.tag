@@ -104,7 +104,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="2:vobj">at</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|24:+TELIC&3a;sbj">er</W>
+<W gloss="will_be" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|24:+TELIC&3a;cons.sbj">er</W>
 <W gloss="happy" lemma="lykkelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="1:pobj">lykkelige</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -128,7 +128,7 @@
 <p>
 <s>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-24:+TELIC&3a;sbj" out="-1:subj|1:mod|3:preds|4:pnct|-6:+SCENE|14:+CONST&3a;elab">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-24:+TELIC&3a;cons.sbj" out="-1:subj|1:mod|3:preds|4:pnct|-6:+SCENE|14:+CONJ&3a;elab">er</W>
 <W gloss="Of_course" lemma="naturligvis" msd="RGU" tag="RP" in="-1:mod" out="">naturligvis</W>
 <W gloss="clean" lemma="ren" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">ren</W>
 <W gloss="poppycock" lemma="tågesnak" msd="NCCSU==I" tag="NN" in="-3:preds" out="-1:attr">tågesnak</W>
@@ -142,7 +142,7 @@
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Torino" lemma="Torino" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Torinos</W>
 <W gloss="rejseselskab" lemma="rejseselskab" msd="NCNSU==I" tag="NN" in="-1:possd" out="">rejseselskab</W>
-<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-14:+CONST&3a;elab" out="-4:subj|1:pobj|8:pnct|14:+CONC/(selvom)">tror</W>
+<W gloss="believe" lemma="tro" msd="VADR=----A-" tag="VBD" in="-14:+CONJ&3a;elab" out="-4:subj|1:pobj|8:pnct|14:+CONC/(selvom)">tror</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|3:vobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>

@@ -105,11 +105,11 @@
 <W msd="ANP" tag="RB" in="3:contr" out="1:pnct">however</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Synnøve</W>
-<W msd="VADA" tag="VBD" in="" out="-23:mod|-1:subj|-3:contr|4:mod|5:mod|10:pnct|13:reas|29:pnct">appeared</W>
+<W msd="VADA" tag="VBD" in="" out="-23:mod|-1:subj|-3:contr|4:mod|5:mod|10:pnct|13:cause|29:pnct">appeared</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bit</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-2:mod">more</W>
-<W msd="VAP" tag="VBN" in="-4:mod" out="-1:degr">subdued</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-2:mod">more</W>
+<W msd="VAP" tag="VBN" in="-4:mod" out="-1:quant">subdued</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:possd">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">previous</W>
@@ -118,7 +118,7 @@
 <W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:epi" out="1:pnct">perhaps</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-13:reas" out="5:vobj|-2:epi">because</W>
+<W msd="CS" tag="IN" in="-13:cause" out="5:vobj|-2:epi">because</W>
 <W msd="PD" tag="DT" in="4:subj" out="2:nobj|3:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">patent</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">leather</W>
@@ -132,8 +132,8 @@
 <W msd="PT" tag="WRB" in="-1:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|2:mod">gestured</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:mod" out="-1:quant">much</W>
 <W msd="XP" tag="." in="-29:pnct" out="">!</W>
 </s>
 <s>
@@ -185,8 +185,8 @@
 <W msd="ANP" tag="RB" in="25:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">though</W>
 <W msd="PP" tag="PRP" in="1:subj" out="6:ref|7:rel">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:degr|3:preds|4:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:quant|3:preds|4:pnct">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Maiken</W>
 <W msd="NP=S" tag="NNP" in="-3:preds" out="-1:namef">Wexø</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -207,9 +207,9 @@
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">experiences</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-27:vobj" out="-1:subj|-25:focal|1:pnct|2:reas|4:preds">was</W>
+<W msd="VADA" tag="VBD" in="-27:vobj" out="-1:subj|-25:focal|1:pnct|2:cause|4:preds">was</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="-2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-4:preds" out="1:pobj">one</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

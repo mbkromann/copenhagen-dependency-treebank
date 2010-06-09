@@ -153,9 +153,9 @@
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj|6:[subj]" out="1:attr|2:nobj">den</W>
 <W gloss="Philippine" lemma="filippinsk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">filippinske</W>
 <W gloss="nation" lemma="nation" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">nation</W>
-<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="2:dur" out="1:nobj">gennem</W>
+<W gloss="through" lemma="gennem" msd="SP" tag="IN" in="2:time" out="1:nobj">gennem</W>
 <W gloss="the_years" lemma="år" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">årene</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-5:subj|-2:dur|1:vobj">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-5:subj|-2:time|1:vobj">har</W>
 <W gloss="mastered" lemma="mestre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|-7:[dobj]|1:man">mestret</W>
 <W gloss="culturally" lemma="kulturel" msd="ANP---=-R" tag="JJ" in="-1:man" out="">kulturelt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
@@ -193,8 +193,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:dobj" out="4:vobj">at</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="3:subj" out="">vi</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|-1:degr|1:preds">er</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|-1:quant|1:preds">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:nobj|2:pnct|3:ref|4:rel">et</W>
 <W gloss="country" lemma="land" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">land</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>

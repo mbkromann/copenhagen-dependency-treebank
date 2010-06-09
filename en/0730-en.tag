@@ -19,8 +19,8 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:pnct|5:attr|6:nobj|11:ref|12:rel">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">beautiful</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="ANP" tag="JJ" in="1:mod" out="-1:degr">150-year</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="ANP" tag="JJ" in="1:mod" out="-1:quant">150-year</W>
 <W msd="ANP" tag="JJ" in="-5:attr" out="-1:mod">old</W>
 <W msd="NC=S" tag="NN" in="-6:nobj" out="">building</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -128,10 +128,10 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">building</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VA" tag="MD" in="-20:conj" out="-1:subj|-5:coord|-3:reas|1:vobj">can</W>
+<W msd="VA" tag="MD" in="-20:conj" out="-1:subj|-5:coord|-3:cause|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|4:aobj">regard</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">criticism</W>
@@ -192,8 +192,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:preds">make</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Horsens</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:focal">more</W>
-<W msd="ANP" tag="JJ" in="-4:preds" out="-1:degr|1:mod">well-known</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:focal">more</W>
+<W msd="ANP" tag="JJ" in="-4:preds" out="-1:quant|1:mod">well-known</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:nobj">as</W>
 <W msd="NC=P" tag="NNS" in="1:mod" out="">arts</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">city</W>

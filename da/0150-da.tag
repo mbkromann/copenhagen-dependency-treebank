@@ -51,13 +51,13 @@
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="grow" lemma="vokse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:preds">vokse</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
-<W gloss="even" lemma="endnu" msd="RGU" tag="RP" in="1:degr" out="">endnu</W>
-<W gloss="bigger" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:preds" out="-1:degr|1:pnct|2:pobj">større</W>
+<W gloss="even" lemma="endnu" msd="RGU" tag="RP" in="1:quant" out="">endnu</W>
+<W gloss="bigger" lemma="stor" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-3:preds" out="-1:quant|1:pnct|2:pobj">større</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-2:pobj" out="2:vobj">end</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:succ">bliver</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:succ" out="1:nobj">efter</W>
+<W gloss="will_be" lemma="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:time">bliver</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-1:time" out="1:nobj">efter</W>
 <W gloss="the_merger" lemma="fusion" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">fusionen</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:pobj|4:pnct|5:appa">et</W>
@@ -79,10 +79,10 @@
 <W gloss="companies" lemma="selskab" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">selskaber</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:time|2:vobj|19:pnct">har</W>
 <W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="-1:time" out="">allerede</W>
-<W gloss="shown" lemma="vise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-6:[subj]|1:dobj|2:pnct|3:succ">vist</W>
+<W gloss="shown" lemma="vise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-6:[subj]|1:dobj|2:pnct|3:time">vist</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="after" lemma="efter" msd="CS" tag="IN" in="-3:succ" out="4:vobj">efter</W>
+<W gloss="after" lemma="efter" msd="CS" tag="IN" in="-3:time" out="4:vobj">efter</W>
 <W gloss="Norden" lemma="Norden" msd="NP--U==-" tag="NNP" in="3:subj" out="">Norden</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="2:time" out="">i_går</W>
 <W gloss="officially" lemma="officiel" msd="ANP---=-R" tag="JJ" in="1:man" out="">officielt</W>
@@ -107,9 +107,9 @@
 <W gloss="Norden" lemma="Norden" msd="NP--U==-" tag="NNP" in="-2:conj" out="-1:coord">Norden</W>
 <W gloss="seems" lemma="lade" msd="VADR=----A-" tag="VBD" in="8:qobj" out="-3:subj|-4:pnct|1:dobj|2:vobj|6:pnct|7:pnct">lader</W>
 <W gloss="the_door" lemma="dør" msd="NCCSU==D" tag="NN" in="-1:dobj|1:[subj]" out="">døren</W>
-<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds|2:ben">stå</W>
+<W gloss="stand" lemma="stå" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:preds|2:goal">stå</W>
 <W gloss="open" lemma="åben" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">åben</W>
-<W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
+<W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="others" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-1:nobj" out="">andre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-7:pnct" out="">"</W>
@@ -132,13 +132,13 @@
 </p>
 <p>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="2:succ" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="2:time" out="1:nobj">Efter</W>
 <W gloss="the_merger" lemma="fusion" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">fusionen</W>
-<W gloss="advise" lemma="råde" msd="VADR=----A-" tag="VBD" in="" out="-2:succ|1:subj|2:pobj|16:pnct">råder</W>
+<W gloss="advise" lemma="råde" msd="VADR=----A-" tag="VBD" in="" out="-2:time|1:subj|2:pobj|16:pnct">råder</W>
 <W gloss="Hafnia" lemma="Hafnia" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Hafnia</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">over</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">40</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">40</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">procent</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_shares" lemma="aktie" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:loc">aktierne</W>
@@ -194,9 +194,9 @@
 <W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">skal</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">have</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="3:attr|4:nobj">et</W>
-<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:degr" out="">alt</W>
-<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:degr" out="-1:degr">for</W>
-<W gloss="great" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:attr" out="-1:degr">stort</W>
+<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:quant" out="">alt</W>
+<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:quant" out="-1:quant">for</W>
+<W gloss="great" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:attr" out="-1:quant">stort</W>
 <W gloss="words" lemma="ord" msd="NCNSU==I" tag="NN" in="-4:nobj" out="1:nobj">ord</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="should" lemma="skulle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">skulle</W>
@@ -209,9 +209,9 @@
 <W gloss="merger_partners" lemma="fusions-partner" msd="NCCPU==I" tag="NNP" in="1:subj|3:[subj]" out="-1:attr">fusions-partnere</W>
 <W gloss="are_to_be" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:vobj|12:pnct">skal</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|2:reas|1:@dir">jages</W>
+<W gloss="chased" lemma="jage" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-3:[subj]|2:cause|1:@dir">jages</W>
 <W gloss="away" lemma="væk" msd="RGU" tag="RP" in="-1:@dir" out="">væk</W>
-<W gloss="for" lemma="af" msd="SP" tag="IN" in="-2:reas" out="1:nobj">af</W>
+<W gloss="for" lemma="af" msd="SP" tag="IN" in="-2:cause" out="1:nobj">af</W>
 <W gloss="fear" lemma="skræk" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">skræk</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

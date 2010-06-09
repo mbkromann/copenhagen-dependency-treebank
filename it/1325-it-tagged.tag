@@ -33,7 +33,7 @@
 <W lemma="ma" msd="CS" tag="CON" in="" out="">ma</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
 <W lemma="particolarmente" msd="RG" tag="ADV" in="" out="">particolarmente</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="attrezzare" msd="VAP" tag="VER:pper" in="" out="">attrezzato</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>

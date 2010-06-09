@@ -80,17 +80,17 @@
 <W lemma="solicitar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-5:[subj]|1:dobj|3:loc|6:man|7:pnct|8:cause">solicitar</W>
 <W lemma="dicho" msd="AN" tag="QU" in="-1:dobj" out="1:nobj">dicho</W>
 <W lemma="asilo" msd="NC" tag="NC" in="-1:nobj" out="">asilo</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-3:loc" out="1:ext">en</W>
-<W lemma="varios" msd="AN" tag="QU" in="-1:ext" out="1:nobj">varios</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-3:loc" out="1:time">en</W>
+<W lemma="varios" msd="AN" tag="QU" in="-1:time" out="1:nobj">varios</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">países</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-6:man" out="">simultáneamente</W>
 <W lemma="," msd="XP" tag="CM" in="-7:pnct" out="">,</W>
 <W lemma="ya~que" msd="CS" tag="CSUBF" in="-8:cause" out="5:vobj">ya que</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">la</W>
 <W lemma="solicitud" msd="NC" tag="NC" in="-1:nobj" out="">solicitud</W>
-<W lemma="solamente" msd="RG" tag="ADV" in="2:degr" out="">solamente</W>
+<W lemma="solamente" msd="RG" tag="ADV" in="2:quant" out="">solamente</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="tratar" msd="VAD" tag="VLfin" in="-5:vobj" out="-4:subj|-2:degr|-1:robj|1:loc">trata</W>
+<W lemma="tratar" msd="VAD" tag="VLfin" in="-5:vobj" out="-4:subj|-2:quant|-1:robj|1:loc">trata</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">país</W>

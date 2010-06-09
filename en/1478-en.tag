@@ -3,8 +3,8 @@
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">still</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-2:mod|-1:neg">entirely</W>
-<W msd="ANP" tag="JJ" in="-5:conj" out="-4:coord|1:pobj|-1:degr">unaffected</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-2:mod|-1:neg">entirely</W>
+<W msd="ANP" tag="JJ" in="-5:conj" out="-4:coord|1:pobj|-1:quant">unaffected</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">shock</W>
@@ -138,8 +138,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:degr|2:preds|5:conj|11:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">almost</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:quant|2:preds|5:conj|11:pnct">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">seven-thirty</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">it</W>
@@ -153,7 +153,7 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|2:dobj|5:mod|9:pnct|10:cont|17:pnct">put</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:preds|2:dobj|5:mod|9:pnct|10:time|17:pnct">put</W>
 <W msd="SP" tag="IN" in="-1:preds" out="">on</W>
 <W msd="PO" tag="PRP$" in="-2:dobj" out="2:possd">my</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Secumar</W>
@@ -163,7 +163,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">furious</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">pace</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:cont" out="4:vobj">while</W>
+<W msd="CS" tag="IN" in="-10:time" out="4:vobj">while</W>
 <W msd="NC=S" tag="NN" in="2:title" out="">skipper</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Tom</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-2:title|-1:namef">Christiansen</W>
@@ -185,12 +185,12 @@
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">under</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">water</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-8:[subj]|-1:coord|1:preds|5:ext">was</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-8:[subj]|-1:coord|1:preds|5:time">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:@dir">way</W>
 <W msd="RG" tag="RP" in="-1:@dir" out="">up</W>
-<W msd="ANP" tag="RB" in="-5:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-5:time" out="">again</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>

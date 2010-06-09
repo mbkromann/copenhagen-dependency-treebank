@@ -86,9 +86,9 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">against</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Grubba</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="2:succ" out="">afterwards</W>
+<W msd="ANP" tag="RB" in="2:time" out="">afterwards</W>
 <W msd="ANP" tag="RB" in="1:add" out="">also</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-9:[subj]|-3:coord|-1:add|3:pobj|6:conj|-2:succ">took</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-9:[subj]|-3:coord|-1:add|3:pobj|6:conj|-2:time">took</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">set</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>

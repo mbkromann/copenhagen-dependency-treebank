@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|11:pnct">Og</W>
-<W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:struct" out="">så</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:struct|1:expl|2:dobj">var</W>
+<W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:scene" out="">så</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:scene|1:expl|2:dobj">var</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-2:dobj" out="1:other">det</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:other" out="1:nobj">med</W>
@@ -73,8 +73,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="that" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">Så</W>
-<W gloss="simple" lemma="enkel" msd="ANPNSU=IU" tag="JJ" in="1:preds" out="-1:degr">enkelt</W>
+<W gloss="that" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">Så</W>
+<W gloss="simple" lemma="enkel" msd="ANPNSU=IU" tag="JJ" in="1:preds" out="-1:quant">enkelt</W>
 <W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:pnct">er</W>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
@@ -195,8 +195,8 @@
 <W gloss="pædagogernes" lemma="pædagog" msd="NCCPG==D" tag="NNP" in="-4:conj" out="1:possd">pædagogernes</W>
 <W gloss="the_-_kitchen" lemma="the-køkken" msd="NCNSU==I" tag="NN" in="-1:possd" out="">the-køkken</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="on" lemma="videre" msd="RGU" tag="RP" in="-8:conj" out="-1:degr|-2:coord">videre</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="on" lemma="videre" msd="RGU" tag="RP" in="-8:conj" out="-1:quant|-2:coord">videre</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 </p>
@@ -209,8 +209,8 @@
 <W gloss="five" lemma="fem" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">fem</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="weighs" lemma="veje" msd="VADR=----A-" tag="VBD" in="" out="-6:subj|2:dobj|4:pnct">vejer</W>
-<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
-<W gloss="19" lemma="19" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:degr|1:nobj|5:ref">19</W>
+<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
+<W gloss="19" lemma="19" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:quant|1:nobj|5:ref">19</W>
 <W gloss="kilos" lemma="kilo" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">kilo</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
@@ -234,8 +234,8 @@
 </s>
 <s>
 <W gloss="Or" lemma="eller" msd="CC" tag="CC" in="" out="2:conj|7:pnct">Eller</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">cirka</W>
-<W gloss="1,050" lemma="1050" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:degr|1:nobj|2:other">1050</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">cirka</W>
+<W gloss="1,050" lemma="1050" msd="AC---U=--" tag="CD" in="-2:conj" out="-1:quant|1:nobj|2:other">1050</W>
 <W gloss="square_centimetres" lemma="kvadratcentimeter" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kvadratcentimeter</W>
 <W gloss="per" lemma="per" msd="SP" tag="IN" in="-2:other" out="1:nobj">pr.</W>
 <W gloss="kilo" lemma="kilo" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">kilo</W>

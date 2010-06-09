@@ -65,11 +65,11 @@
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="2:subj|3:[subj]" out="1:nobj">den</W>
 <W gloss="man" lemma="mand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">mand</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>
-<W gloss="grown" lemma="vokse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj|3:pnct|4:dur">vokset</W>
+<W gloss="grown" lemma="vokse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj|3:pnct|4:time">vokset</W>
 <W gloss="into" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_job" lemma="opgave" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">opgaven</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-4:dur" out="3:vobj">siden</W>
+<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-4:time" out="3:vobj">siden</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="2:subj" out="">de</W>
 <W gloss="last" lemma="sidst" msd="RGU" tag="RP" in="1:time" out="">sidst</W>
 <W gloss="saw" lemma="se" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:dobj|2:pnct">så</W>
@@ -116,8 +116,8 @@
 <W gloss="awakened" lemma="vække" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">vakt</W>
 <W gloss="attention" lemma="opmærksomhed" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pnct">opmærksomhed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="how" lemma="hvor" msd="RGU" tag="RP" in="1:degr" out="">hvor</W>
-<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-6:nobj" out="-1:degr|1:nobj|2:pnct|3:ref|4:rel|14:contr">få</W>
+<W gloss="how" lemma="hvor" msd="RGU" tag="RP" in="1:quant" out="">hvor</W>
+<W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-6:nobj" out="-1:quant|1:nobj|2:pnct|3:ref|4:rel|14:contr">få</W>
 <W gloss="press_photos" lemma="pressefoto" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">pressefotos</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj|2:[subj]" out="">der</W>
@@ -206,8 +206,8 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|32:pnct">Men</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
-<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:struct|5:dobj">får</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:struct" out="2:nobj">i</W>
+<W gloss="will_get" lemma="få" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:scene|5:dobj">får</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:scene" out="2:nobj">i</W>
 <W gloss="given" lemma="give" msd="VAPA=S[CN]IA-U" tag="VBN" in="1:attr" out="">givet</W>
 <W gloss="least" lemma="fald" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">fald</W>
 <W gloss="tough" lemma="hård" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">hård</W>

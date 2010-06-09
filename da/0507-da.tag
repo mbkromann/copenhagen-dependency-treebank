@@ -72,8 +72,8 @@
 </p>
 <p>
 <s>
-<W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:struct" out="">Således</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|2:vobj|11:pnct">har</W>
+<W gloss="Thus" lemma="således" msd="RGU" tag="RP" in="1:scene" out="">Således</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|2:vobj|11:pnct">har</W>
 <W gloss="the_library" lemma="bibliotek" msd="NCNSU==D" tag="NN" in="-1:subj|1:[subj]" out="">biblioteket</W>
 <W gloss="initiated" lemma="indlede" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj">indledt</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">et</W>
@@ -109,9 +109,9 @@
 <W gloss="particular" lemma="bestemt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">bestemt</W>
 <W gloss="book" lemma="bog" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bog</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="will_be_bought" lemma="købe" msd="VADR=----P-" tag="VBD" in="" out="-20:other|1:subj|2:att|3:pobj|21:pnct">købes</W>
+<W gloss="will_be_bought" lemma="købe" msd="VADR=----P-" tag="VBD" in="" out="-20:other|1:subj|2:eval|3:pobj|21:pnct">købes</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:subj" out="">den</W>
-<W gloss="simply" lemma="simpelthen" msd="RGU" tag="RP" in="-2:att" out="">simpelthen</W>
+<W gloss="simply" lemma="simpelthen" msd="RGU" tag="RP" in="-2:eval" out="">simpelthen</W>
 <W gloss="from" lemma="hos" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">hos</W>
 <W gloss="Wiuff" lemma="Wiuff" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|7:rel">Wiuff</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -135,8 +135,8 @@
 </p>
 <p>
 <s>
-<W gloss="As" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">Så</W>
-<W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="6:time" out="-1:degr|2:vobj">snart</W>
+<W gloss="As" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">Så</W>
+<W gloss="soon" lemma="snart" msd="RGU" tag="RP" in="6:time" out="-1:quant|2:vobj">snart</W>
 <W gloss="book_the" lemma="bog" msd="NCCSU==D" tag="NN" in="1:subj|2:[subj]" out="">bogen</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">er</W>
 <W gloss="received" lemma="modtage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:loc">modtaget</W>
@@ -193,14 +193,14 @@
 <W gloss="during" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="the_project_period" lemma="projektperiode" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">projektperioden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:succ|2:vobj|6:pnct|7:struct|12:pnct">skal</W>
-<W gloss="in_the_future" lemma="fremover" msd="RGU" tag="RP" in="-1:succ" out="">fremover</W>
+<W gloss="will" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-8:subj|1:time|2:vobj|6:pnct|7:scene|12:pnct">skal</W>
+<W gloss="in_the_future" lemma="fremover" msd="RGU" tag="RP" in="-1:time" out="">fremover</W>
 <W gloss="form" lemma="danne" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-10:[subj]|1:dobj">danne</W>
 <W gloss="basis" lemma="grundlag" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">grundlag</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="the_purchasing_policy" lemma="indkøbspolitik" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">indkøbspolitikken</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="so" lemma="således" msd="RGU" tag="RP" in="-7:struct" out="1:nobj">således</W>
+<W gloss="so" lemma="således" msd="RGU" tag="RP" in="-7:scene" out="1:nobj">således</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-1:nobj" out="2:vobj">at</W>
 <W gloss="the_&amp;quot;_book_on_time_&amp;quot;_principle" lemma="bog_til_tiden-princip" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">"Bog_til_tiden"-princippet</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">kan</W>
@@ -224,8 +224,8 @@
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">vil</W>
 <W gloss="to_say" lemma="sige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:pnct|4:dobj">sige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="topical" lemma="aktuel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">aktuelle</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="topical" lemma="aktuel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">aktuelle</W>
 <W gloss="books" lemma="bog" msd="NCCPU==I" tag="NNP" in="-4:dobj" out="-1:attr|1:other">bøger</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:other" out="1:nobj|3:preds">med</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>

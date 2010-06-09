@@ -94,8 +94,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="6:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:pnct|-1:subj|-11:cond|1:preds|10:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">good</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">good</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">idea</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">contact</W>

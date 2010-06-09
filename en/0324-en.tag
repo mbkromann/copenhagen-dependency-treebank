@@ -107,7 +107,7 @@
 <W msd="PD" tag="DT" in="-6:xpl" out="3:vobj">That</W>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="1:possd">God's</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">name</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj|7:pnct|8:reas|18:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:vobj|7:pnct|8:cause|18:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">hitched</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
@@ -115,7 +115,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">men</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="6:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="6:vobj">because</W>
 <W msd="PO" tag="PRP$" in="5:subj|7:[subj]" out="1:possd|3:conj">my</W>
 <W msd="VA" tag="MD" in="-1:possd" out="">will</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

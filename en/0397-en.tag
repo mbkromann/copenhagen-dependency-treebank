@@ -11,9 +11,9 @@
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">time</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="2:succ" out="">later</W>
+<W msd="ANP" tag="RB" in="2:time" out="">later</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADA" tag="VBD" in="-13:conj" out="-1:subj|-3:coord|-2:succ|1:pobj">went</W>
+<W msd="VADA" tag="VBD" in="-13:conj" out="-1:subj|-3:coord|-2:time|1:pobj">went</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">over</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:mod">air</W>

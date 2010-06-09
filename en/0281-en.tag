@@ -158,9 +158,9 @@
 <W msd="XP" tag="&3a;" in="5:pnct" out="">-</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Turkish</W>
 <W msd="NC=P" tag="NNS" in="3:subj" out="-1:attr">men</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:ext" out="-1:degr">always</W>
-<W msd="VADR" tag="VBP" in="" out="-5:pnct|-3:subj|-1:ext|1:dobj|2:mod|5:pnct">drink</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:time" out="-1:quant">always</W>
+<W msd="VADR" tag="VBP" in="" out="-5:pnct|-3:subj|-1:time|1:dobj|2:mod|5:pnct">drink</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="">raki</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>

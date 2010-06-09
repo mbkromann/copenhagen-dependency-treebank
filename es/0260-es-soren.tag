@@ -111,11 +111,11 @@
 <W lemma="era" msd="VAD" tag="VEfin" in="-2:vobj" out="1:dobj">era</W>
 <W lemma="hora" msd="NC" tag="NC" in="-1:dobj" out="">hora</W>
 <W lemma="de" msd="CS" tag="CSUBI" in="" out="">de</W>
-<W lemma="ganar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="4:comp">ganar</W>
+<W lemma="ganar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="4:resem">ganar</W>
 <W lemma="algo" msd="AN" tag="QU" in="" out="">algo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="dinero" msd="NC" tag="NC" in="" out="">dinero</W>
-<W lemma="en~lugar~de" msd="SP" tag="SCENE" in="-4:comp" out="">en lugar de</W>
+<W lemma="en~lugar~de" msd="SP" tag="SCENE" in="-4:resem" out="">en lugar de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">sÃ³lo</W>
 <W lemma="recibir" msd="VAF lexical verb infinite" tag="VLinf" in="" out="1:dobj|5:cause">recibir</W>
 <W lemma="subsidio" msd="NC" tag="NC" in="-1:dobj" out="">subsidio</W>
@@ -178,8 +178,8 @@
 <W lemma="estar" msd="VAD" tag="VLfin" in="-12:vobj" out="-1:subj|1:preds|2:pobj|3:vobj|11:pnct">estaba</W>
 <W lemma="ansioso" msd="AN" tag="ADJ" in="-1:preds" out="">ansioso</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-2:pobj" out="">por</W>
-<W lemma="ver" msd="VAF lexical verb infinite" tag="VLinf" in="-3:vobj" out="1:ext">ver</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:ext" out="">cuÃ¡nto</W>
+<W lemma="ver" msd="VAF lexical verb infinite" tag="VLinf" in="-3:vobj" out="1:time">ver</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:time" out="">cuÃ¡nto</W>
 <W lemma="ir" msd="VAD" tag="VLfin" in="" out="">iba</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>
 <W lemma="ganar" msd="VAF lexical verb infinite" tag="VLinf" in="" out="">ganar</W>

@@ -3,12 +3,12 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|18:pnct">think</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|3:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">far</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:degr">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|3:conj">simple</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">far</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:quant">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant|3:conj">simple</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:coord|-1:degr">smartass</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-2:coord|-1:quant">smartass</W>
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
 <W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:pobj">put</W>
 <W msd="PD" tag="PDT" in="-1:dobj" out="1:nobj">all</W>
@@ -34,9 +34,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:preds" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">truth</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:preds|2:att|5:subj|21:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:preds|2:eval|5:subj|21:pnct">is</W>
 <W msd="XP" tag="&3a;" in="1:pnct" out="">-</W>
-<W msd="SP" tag="IN" in="-2:att" out="-1:pnct|1:nobj|2:pnct">of</W>
+<W msd="SP" tag="IN" in="-2:eval" out="-1:pnct|1:nobj|2:pnct">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:subj" out="2:vobj">that</W>
@@ -84,8 +84,8 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">disposal</W>
 <W msd="PD" tag="DT" in="-4:dobj" out="2:nobj|1:attr|3:attr">the</W>
 <W msd="NP=S" tag="NNP" in="-1:attr" out="">Olympic</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="1:{origin}">players</W>
-<W msd="SP" tag="IN" in="-1:{origin}|-3:attr" out="1:nobj">from</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="1:{source}">players</W>
+<W msd="SP" tag="IN" in="-1:{source}|-3:attr" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{const}#" out="">U-21</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{const}#">team</W>
@@ -132,10 +132,10 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:dobj|12:pnct">portends</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj|5:attr|8:attr">no</W>
 <W msd="NP=S" tag="NNP" in="1:nobj|1:{arg}" out="">WC</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:nobj|-1:{arg}|1:pobj|1:{arg}|3:{pos}|6:{time}">ticket</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:nobj|-1:{arg}|1:pobj|1:{arg}|3:{loc}|6:{time}">ticket</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="SP" tag="IN" in="-3:{pos}|-5:attr" out="1:nobj">in</W>
+<W msd="SP" tag="IN" in="-3:{loc}|-5:attr" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
 <W msd="SP" tag="IN" in="-6:{time}|-8:attr" out="1:nobj">in</W>
@@ -170,8 +170,8 @@
 <W msd="SP" tag="IN" in="-1:man" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{iden}#" out="">x-ray</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{iden}#">vision</W>
-<W msd="PT" tag="WRB" in="1:degr" out="">how</W>
-<W msd="ANP" tag="JJ" in="-5:dobj|12:[preds]" out="-1:degr|12:relr|13:ben">important</W>
+<W msd="PT" tag="WRB" in="1:quant" out="">how</W>
+<W msd="ANP" tag="JJ" in="-5:dobj|12:[preds]" out="-1:quant|12:relr|13:goal">important</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="10:subj" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|9:conj">Schmeichel</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -184,7 +184,7 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Kim</W>
 <W msd="NP=S" tag="NNP" in="-9:conj" out="-2:coord|-1:namef">Christofte</W>
 <W msd="VADR" tag="VBP" in="-12:relr" out="-10:subj|-12:[preds]">are</W>
-<W msd="SP" tag="IN" in="-13:ben" out="1:nobj">for</W>
+<W msd="SP" tag="IN" in="-13:goal" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>

@@ -32,8 +32,8 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-6:mod|1:dobj|3:vobj|7:pnct">had</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|2:[dobj]" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">leg</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[dobj]|1:reas">amputated</W>
-<W msd="CS" tag="IN" in="-1:reas" out="1:pobj">because</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[dobj]|1:cause">amputated</W>
+<W msd="CS" tag="IN" in="-1:cause" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cancer</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>

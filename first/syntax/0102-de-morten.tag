@@ -24,8 +24,8 @@
 <W lemma="." msd="XP" tag="$." in="-18:pnct" out="">.</W>
 <W lemma="es" msd="PP" tag="PPER" in="1:subj|4:[subj]" out="">Es</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="" out="-1:subj|3:vobj|4:pnct|5:cond|25:pnct">wäre</W>
-<W lemma="eindeutig" msd="AN" tag="ADJD" in="1:att" out="">eindeutig</W>
-<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds" out="-1:att">sinnvoller</W>
+<W lemma="eindeutig" msd="AN" tag="ADJD" in="1:eval" out="">eindeutig</W>
+<W lemma="sinnvoller" msd="AN" tag="ADJD" in="1:preds" out="-1:eval">sinnvoller</W>
 <W lemma="sein" msd="VAP" tag="VAPP" in="-3:vobj" out="-4:[subj]|-1:preds">gewesen</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-5:cond" out="3:vobj">wenn</W>
@@ -89,12 +89,12 @@
 <W lemma="&amp;quot;" msd="XP" tag="$(" in="-1:pnct" out="">"</W>
 <W lemma="brauchen" msd="VAF" tag="VVINF" in="-29:relr" out="-25:subj|-23:dobj">brauchen</W>
 <W lemma="." msd="XP" tag="$." in="-36:pnct" out="">.</W>
-<W lemma="denn" msd="CC" tag="KON" in="4:reas" out="">Denn</W>
+<W lemma="denn" msd="CC" tag="KON" in="4:cause" out="">Denn</W>
 <W lemma="kein" msd="PP" tag="PIS" in="3:subj" out="1:pobj">keiner</W>
 <W lemma="von" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">von</W>
 <W lemma="wir" msd="PP" tag="PPER" in="-1:nobj" out="">uns</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|-4:reas|1:ext|5:preds|8:pnct">ist</W>
-<W lemma="24" msd="AC" tag="CARD" in="-1:ext" out="1:nobj">24</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="" out="-3:subj|-4:cause|1:time|5:preds|8:pnct">ist</W>
+<W lemma="24" msd="AC" tag="CARD" in="-1:time" out="1:nobj">24</W>
 <W lemma="Stunde&7c;Stunden" msd="NC" tag="NN" in="-1:nobj" out="1:pobj">Stunden</W>
 <W lemma="am" msd="SP+P" tag="APPRART" in="-1:pobj" out="1:nobj">am</W>
 <W lemma="Tag" msd="NC" tag="NN" in="-1:nobj" out="">Tag</W>
@@ -103,8 +103,8 @@
 <W lemma="Tier" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Tier</W>
 <W lemma="." msd="XP" tag="$." in="-8:pnct" out="">.</W>
 <W lemma="wir" msd="PP" tag="PPER" in="2:subj|4:[subj]|6:[subj]" out="">Wir</W>
-<W lemma="alle" msd="PP" tag="PIS" in="1:degr" out="">alle</W>
-<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-2:subj|-1:degr|2:vobj|5:pnct|6:cond|13:pnct">müssen</W>
+<W lemma="alle" msd="PP" tag="PIS" in="1:quant" out="">alle</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-2:subj|-1:quant|2:vobj|5:pnct|6:cond|13:pnct">müssen</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:dobj" out="">uns</W>
 <W lemma="entspannen" msd="VAF" tag="VVINF" in="-2:vobj" out="-1:dobj|-4:[subj]|2:conj">entspannen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
@@ -112,11 +112,11 @@
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
 <W lemma="wenn" msd="CS" tag="KOUS" in="-6:cond" out="6:vobj">wenn</W>
 <W lemma="wir" msd="PP" tag="PPER" in="4:[subj]|5:subj" out="">wir</W>
-<W lemma="weiterhin" msd="RG" tag="ADV" in="4:ext" out="">weiterhin</W>
+<W lemma="weiterhin" msd="RG" tag="ADV" in="4:time" out="">weiterhin</W>
 <W lemma="vollwertig" msd="AN" tag="ADJA" in="1:attr" out="">vollwertige</W>
 <W lemma="Mensch" msd="NC" tag="NN" in="1:preds" out="-1:attr">Menschen</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="1:vobj" out="-4:[subj]|-1:preds">sein</W>
-<W lemma="wollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj|-4:ext">wollen</W>
+<W lemma="wollen" msd="VA" tag="VMFIN" in="-6:vobj" out="-5:subj|-1:vobj|-4:time">wollen</W>
 <W lemma="." msd="XP" tag="$." in="-13:pnct" out="">.</W>
 </s>
 </p>
@@ -127,8 +127,8 @@
 <W lemma="wir" msd="PP" tag="PPER" in="-1:subj|6:[subj]" out="">wir</W>
 <W lemma="wir" msd="PR" tag="PRF" in="5:dobj" out="">uns</W>
 <W lemma="mit" msd="SP" tag="APPR" in="4:man" out="2:nobj">mit</W>
-<W lemma="alle" msd="PI" tag="PIAT" in="1:degr" out="">allen</W>
-<W lemma="Mittel&7c;Mitteln" msd="NC" tag="NN" in="-2:nobj" out="-1:degr">Mitteln</W>
+<W lemma="alle" msd="PI" tag="PIAT" in="1:quant" out="">allen</W>
+<W lemma="Mittel&7c;Mitteln" msd="NC" tag="NN" in="-2:nobj" out="-1:quant">Mitteln</W>
 <W lemma="dafür" msd="RG" tag="PAV" in="1:pobj" out="3:nobj">dafür</W>
 <W lemma="einsetzen" msd="VAF" tag="VVINF" in="-7:vobj" out="-5:dobj|-4:man|-1:pobj|-6:[subj]">einsetzen</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>
@@ -159,8 +159,8 @@
 <s>
 <W lemma="man" msd="PP" tag="PIS" in="1:subj|12:[subj]|14:[subj]|17:[subj]|18:[subj]" out="">Man</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|2:time|11:vobj|18:pnct|26:pnct">hätte</W>
-<W lemma="schon" msd="RG" tag="ADV" in="1:degr" out="">schon</W>
-<W lemma="langängst" msd="AN" tag="ADJD" in="-2:time" out="-1:degr">längst</W>
+<W lemma="schon" msd="RG" tag="ADV" in="1:quant" out="">schon</W>
+<W lemma="langängst" msd="AN" tag="ADJD" in="-2:time" out="-1:quant">längst</W>
 <W lemma="über" msd="SP" tag="APPR" in="8:pobj" out="1:nobj">über</W>
 <W lemma="Unterhaltung" msd="NC" tag="NN" in="-1:nobj" out="1:pobj|16:coref">Unterhaltung</W>
 <W lemma="als" msd="CS" tag="KOKOM" in="-1:pobj" out="2:nobj">als</W>

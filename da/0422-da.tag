@@ -47,13 +47,13 @@
 <W gloss="broken" lemma="knuse" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:&lt;vobj&gt;" out="-1:[subj]">knust</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="Jens" lemma="Jens" msd="NP--U==-" tag="NNP" in="1:subj" out="">Jens</W>
-<W gloss="walked" lemma="gå" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:@loc|3:pnct|4:man|6:reas">gik</W>
+<W gloss="walked" lemma="gå" msd="VADA=----A-" tag="VBD" in="-7:conj" out="-1:subj|1:@loc|3:pnct|4:man|6:cause">gik</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:@loc" out="1:nobj">på</W>
 <W gloss="toe_tips" lemma="tåspids" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">tåspidser</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="soundlessly" lemma="lydløst" msd="ANP---=-R" tag="JJ" in="-4:man" out="1:pnct">lydløst</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="because" lemma="for" msd="CC" tag="CC" in="-6:reas" out="3:vobj">for</W>
+<W gloss="because" lemma="for" msd="CC" tag="CC" in="-6:cause" out="3:vobj">for</W>
 <W gloss="the_plane's" lemma="fly" msd="NCNSG==D" tag="NN" in="2:subj" out="1:possd">flyets</W>
 <W gloss="noise" lemma="larm" msd="NCCSU==I" tag="NN" in="-1:possd" out="">larm</W>
 <W gloss="drowned_out" lemma="overdøve" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:dobj">overdøvede</W>
@@ -101,8 +101,8 @@
 <W gloss="only" lemma="blot" msd="RGU" tag="RP" in="-1:other" out="">blot</W>
 <W gloss="thrown" lemma="kaste" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|5:@dir">kastet</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
-<W gloss="quite" lemma="ret" msd="RGU" tag="RP" in="1:degr" out="">ret</W>
-<W gloss="indifferent" lemma="ligegyldig" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">ligegyldigt</W>
+<W gloss="quite" lemma="ret" msd="RGU" tag="RP" in="1:quant" out="">ret</W>
+<W gloss="indifferent" lemma="ligegyldig" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">ligegyldigt</W>
 <W gloss="glance" lemma="blik" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">blik</W>
 <W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-5:@dir" out="1:nobj">mod</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:ref|4:rel">en</W>
@@ -113,8 +113,8 @@
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="">ud</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-2:pnct" out=""> - </W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-16:conj" out="-17:[subj]|-1:coord|1:succ|2:vobj">var</W>
-<W gloss="then" lemma="derpå" msd="RGU" tag="RP" in="-1:succ" out="">derpå</W>
+<W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="-16:conj" out="-17:[subj]|-1:coord|1:time|2:vobj">var</W>
+<W gloss="then" lemma="derpå" msd="RGU" tag="RP" in="-1:time" out="">derpå</W>
 <W gloss="gone" lemma="gå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-19:[subj]|1:lobj|2:other">gået</W>
 <W gloss="on" lemma="videre" msd="RGU" tag="RP" in="-1:lobj" out="">videre</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:other" out="1:nobj">med</W>
@@ -205,8 +205,8 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj|9:[nobj]" out="1:nobj|4:rel">en</W>
 <W gloss="building" lemma="bygning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">bygning</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="2:subj|3:[subj]" out="">han</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:degr|1:vobj">havde</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-1:quant|1:vobj">havde</W>
 <W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">set</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>
 <W gloss="smallest" lemma="lille" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">mindste</W>

@@ -130,8 +130,8 @@
 <s>
 <W gloss="The_plane" lemma="fly" msd="NCNSU==D" tag="NN" in="1:subj" out="">Flyet</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|3:preds|4:pnct">er</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="scantily" lemma="nødtørftig" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:degr">nødtørftigt</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="scantily" lemma="nødtørftig" msd="ANP---=-R" tag="JJ" in="1:mod" out="-1:quant">nødtørftigt</W>
 <W gloss="insulated" lemma="isolere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="-1:mod">isoleret</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>

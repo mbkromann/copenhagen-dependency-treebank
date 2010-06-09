@@ -43,9 +43,9 @@
 <s>
 <W gloss="ANTHONY" lemma="Anthony" msd="NP--U==-" tag="NNP" in="1:namef" out="">ANTHONY</W>
 <W gloss="HOPKINS" lemma="Hopkins" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">HOPKINS</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:degr|3:preds|6:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:neg|2:quant|3:preds|6:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="evil" lemma="ond" msd="ANPCSU=IU" tag="JJ" in="-3:preds" out="2:conj">ond</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="cruel" lemma="grusom" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">grusom</W>

@@ -2,8 +2,8 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="10:qobj" out="-2:pnct|-1:subj|2:preds|8:pnct|9:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">late</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">late</W>
 <W msd="U=" tag="TO" in="-4:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">cry</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">over</W>
@@ -54,8 +54,8 @@
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">overwhelming</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="1:subj" out="-1:degr">two</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="1:subj" out="-1:quant">two</W>
 <W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|1:mod">spoke</W>
 <W msd="CS" tag="IN" in="-1:mod" out="2:vobj">after</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
@@ -120,8 +120,8 @@
 <W msd="CS" tag="IN" in="-1:preds" out="1:pobj">as</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj|10:[nobj]" out="6:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:degr|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:quant|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Slovaks</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>

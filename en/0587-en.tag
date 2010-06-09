@@ -111,12 +111,12 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">every</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Dane</W>
-<W msd="VADR" tag="VBZ" in="-21:vobj" out="-2:subj|-19:focal|1:dobj|5:degr">burdens</W>
+<W msd="VADR" tag="VBZ" in="-21:vobj" out="-2:subj|-19:focal|1:dobj|5:quant">burdens</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:nobj">this</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">marine</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">environment</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">much</W>
-<W msd="ANC" tag="JJR" in="-5:degr" out="-1:mod|1:pobj">more</W>
+<W msd="ANC" tag="JJR" in="-5:quant" out="-1:mod|1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:conj">any</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Pole</W>

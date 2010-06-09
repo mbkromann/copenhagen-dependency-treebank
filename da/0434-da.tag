@@ -55,17 +55,17 @@
 <W gloss="present" lemma="fremlægge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:pnct|3:ref|5:rel">fremlægge</W>
 <W gloss="things" lemma="ting" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">tingene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:comp" out="">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:resem" out="">som</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
-<W gloss="do" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:comp">gør</W>
+<W gloss="do" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:resem">gør</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="4:struct" out="1:nobj">På</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="4:scene" out="1:nobj">På</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">den</W>
 <W gloss="the_second" lemma="anden" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">anden</W>
 <W gloss="hand" lemma="side" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">side</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-4:struct|1:subj|2:vobj|8:pnct|9:cond|24:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-4:scene|1:subj|2:vobj|8:pnct|9:cond|24:pnct">kan</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|1:[subj]" out="">det</W>
 <W gloss="provide" lemma="give" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|1:dobj">give</W>
 <W gloss="impression" lemma="indtryk" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">indtryk</W>
@@ -203,8 +203,8 @@
 <W gloss="the_same" lemma="ligesådan" msd="RGU" tag="RP" in="-2:aobj" out="">ligesådan</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:reas|-2:coord|1:subj|2:eval|5:vobj">skal</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-7:conj" out="-1:cause|-2:coord|1:subj|2:eval|5:vobj">skal</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj|4:[subj]" out="">du</W>
 <W gloss="first" lemma="først" msd="RGU" tag="RP" in="-2:eval" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

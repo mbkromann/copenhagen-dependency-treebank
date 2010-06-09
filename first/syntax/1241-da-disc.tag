@@ -65,11 +65,11 @@
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:subj|1:vobj|17:pnct">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|2:vobj">været</W>
 <W gloss="massively" lemma="massiv" msd="ANP---=-R" tag="JJ" in="1:mod" out="">massivt</W>
-<W gloss="advertised" lemma="annoncere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:mod|-7:[subj]|1:mod|3:pnct|4:comp">annonceret</W>
+<W gloss="advertised" lemma="annoncere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:mod|-7:[subj]|1:mod|3:pnct|4:resem">annonceret</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="television" lemma="tv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">tv</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-4:comp" out="8:vobj">ligesom</W>
+<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-4:resem" out="8:vobj">ligesom</W>
 <W gloss="AC/DC" lemma="AC/DC" msd="NP--U==-" tag="NNP" in="7:subj" out="2:conj">AC/DC</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="other" lemma="anden" msd="PI-[CN]PU--U" tag="DT" in="-2:conj" out="-1:coord|1:pnct|2:mod|3:nobj|4:pnct">andre</W>
@@ -88,10 +88,10 @@
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
 <W gloss="think" lemma="tro" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:vobj|6:pnct">tror</W>
 <W gloss="TV_advertisement_campaigns" lemma="tv-annonce-kampagne" msd="NCCPU==I" tag="NNP" in="1:subj" out="">tv-annonce-kampagner</W>
-<W gloss="harm" lemma="skade" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:dobj|3:degr">skader</W>
+<W gloss="harm" lemma="skade" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:dobj|3:quant">skader</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">dansk</W>
 <W gloss="rock" lemma="rock" msd="NCCSU==I" tag="NN" in="-2:dobj" out="-1:attr">rock</W>
-<W gloss="quite_a_bit" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:degr" out="">meget</W>
+<W gloss="quite_a_bit" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:quant" out="">meget</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -174,8 +174,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="advertise_on_TV" lemma="tv-annoncere" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|2:mod|3:pobj|6:pnct">tv-annoncerer</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="extensively" lemma="massiv" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:degr">massivt</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="extensively" lemma="massiv" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:quant">massivt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">med</W>
 <W gloss="opsam" lemma="opsam" msd="XX" tag="FW" in="-1:nobj" out="1:err">opsam</W>
 <W gloss="lings-plader" lemma="lings-plader" msd="XX" tag="FW" in="-1:err" out="">lings-plader</W>
@@ -219,8 +219,8 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:add|2:preds|6:pnct">er</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
 <W gloss="my" lemma="min" msd="PO1CSUSNU" tag="PRP$" in="-2:preds" out="2:attr|3:possd">min</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="personal" lemma="personlig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">personlige</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="personal" lemma="personlig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">personlige</W>
 <W gloss="opinion" lemma="mening" msd="NCCSU==I" tag="NN" in="-3:possd" out="">mening</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-8:nobj" out="2:vobj">at</W>

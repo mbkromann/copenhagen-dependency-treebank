@@ -7,8 +7,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:preds|11:pnct|14:conj|36:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj|3:attr|4:possd|5:mod|7:mod">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">UN's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">far-reaching</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">far-reaching</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="">move</W>
 <W msd="U=" tag="TO" in="-5:mod" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">date</W>

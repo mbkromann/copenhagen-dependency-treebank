@@ -75,8 +75,8 @@
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="parting_gift" lemma="afskedsgave" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">afskedsgave</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-3:preds" out="3:nobj">på</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="1:numm" out="-1:degr">ni</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="nine" lemma="ni" msd="AC---U=--" tag="CD" in="1:numm" out="-1:quant">ni</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:numm|1:nobj">millioner</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-31:pnct" out="">.</W>

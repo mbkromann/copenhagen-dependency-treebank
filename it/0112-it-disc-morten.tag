@@ -25,7 +25,7 @@
 <p>
 <s>
 <W lemma="ma" msd="CS" tag="CON" in="" out="">Ma</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-23:+CONTR&3a;dir/(ma)" out="18:+CONJ/e">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-23:+CONTR&3a;dir/(ma)" out="18:+CONJ&3a;add/e">sono</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="bambino" msd="NC" tag="NOM" in="" out="">bambini</W>
@@ -43,7 +43,7 @@
 <s>
 <W lemma="e" msd="CS" tag="CON" in="" out="">E</W>
 <W lemma="poi" msd="RG" tag="ADV" in="" out="">poi</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:+CONJ/e" out="13:CONST&3a;elab">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-18:+CONJ&3a;add/e" out="13:CONJ&3a;elab">sono</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">degli</W>
 <W lemma="attore" msd="NC" tag="NOM" in="" out="">attori</W>
@@ -56,7 +56,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="stare" msd="VADR" tag="VER&3a;pres" in="-13:CONST&3a;elab" out="33:+TELIC&3a;dir/(perciò)">Stanno</W>
+<W lemma="stare" msd="VADR" tag="VER&3a;pres" in="-13:CONJ&3a;elab" out="33:+TELIC&3a;cons.dir/(perciò)">Stanno</W>
 <W lemma="attualmente" msd="RG" tag="ADV" in="" out="">attualmente</W>
 <W lemma="impersonare" msd="VAG" tag="VER&3a;geru" in="" out="">impersonando</W>
 <W lemma="briciola" msd="NC" tag="NOM" in="" out="">Briciola</W>
@@ -89,7 +89,7 @@
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Henrik</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Prip</W>
-<W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-33:+TELIC&3a;dir/(perciò)" out="12:AGENTIVE&3a;reas/(perché)">fanno</W>
+<W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-33:+TELIC&3a;cons.dir/(perciò)" out="12:AGENTIVE&3a;cause/(perché)">fanno</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="tutto" msd="PI" tag="PRO&3a;indef" in="" out="">tutto</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -101,7 +101,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-12:AGENTIVE&3a;reas/(perché)" out="28:+CONJ/e">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-12:AGENTIVE&3a;cause/(perché)" out="28:+CONJ&3a;add/e">È</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stato</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="" out="">loro</W>
 <W lemma="ordinare" msd="VAP" tag="VER&3a;pper" in="" out="">ordinato</W>
@@ -129,7 +129,7 @@
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="">sono</W>
 <W lemma="sfocare" msd="VAP" tag="VER&3a;pper" in="" out="">sfocati</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-28:+CONJ/e" out="27:+CONST&3a;elab/ATTR1">possono</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-28:+CONJ&3a;add/e" out="27:+CONJ&3a;elab/ATTR1">possono</W>
 <W lemma="aiutare" msd="VAF" tag="VER&3a;infi" in="" out="">aiutarsi</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="vicenda" msd="NC" tag="NOM" in="" out="">vicenda</W>
@@ -156,7 +156,7 @@
 <W lemma="anno" msd="NC" tag="NOM" in="" out="">anni</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-27:+CONST&3a;elab/ATTR1" out="34:+CONJ/(e)/ATTR">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-27:+CONJ&3a;elab/ATTR1" out="34:+CONJ&3a;add/(e)/ATTR">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kim</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Harris</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -168,7 +168,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="" out="">A</W>
 <W lemma="quei" msd="PD" tag="PRO&3a;demo" in="" out="">quei</W>
 <W lemma="tempo" msd="NC" tag="NOM" in="" out="">tempi</W>
-<W lemma="giocare" msd="VADA" tag="VER&3a;impf" in="" out="12:CONJ/(e)/ATTR2">giocavamo</W>
+<W lemma="giocare" msd="VADA" tag="VER&3a;impf" in="" out="12:CONJ&3a;add/(e)/ATTR2">giocavamo</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nella</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="" out="">stessa</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadra</W>
@@ -180,7 +180,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-12:CONJ/(e)/ATTR2" out="">Abbiamo</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-12:CONJ&3a;add/(e)/ATTR2" out="">Abbiamo</W>
 <W lemma="trascorso" msd="AN" tag="ADJ" in="" out="">trascorso</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="" out="">molti</W>
 <W lemma="anno" msd="NC" tag="NOM" in="" out="">anni</W>
@@ -190,7 +190,7 @@
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadra</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-34:+CONJ/(e)/ATTR" out="28:+CONJ/(e)/ATTR1">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-34:+CONJ&3a;add/(e)/ATTR" out="28:+CONJ&3a;add/(e)/ATTR1">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Henrik</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Prip</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -218,7 +218,7 @@
 <W lemma="assieme" msd="RG" tag="ADV" in="" out="">assieme</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="ricordare" msd="VADR" tag="VER&3a;pres" in="-28:+CONJ/(e)/ATTR1" out="-20:+SCENE">ricorda</W>
+<W lemma="ricordare" msd="VADR" tag="VER&3a;pres" in="-28:+CONJ&3a;add/(e)/ATTR1" out="-20:+SCENE">ricorda</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kim</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="tirare" msd="VADR" tag="VER&3a;pres" in="" out="">tira</W>

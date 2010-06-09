@@ -93,8 +93,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="" out="2:attr|3:possd|4:pobj">The</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">lonesome</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">lonesome</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">man</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="">in</W>
 <W msd="PD" tag="DT" in="" out="1:nobj|2:pnct">the</W>

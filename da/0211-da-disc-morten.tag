@@ -203,9 +203,9 @@
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="3:vobj">Men</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="2:loc" out="1:nobj">i</W>
 <W gloss="the_US" lemma="USA" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">USA</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:loc|1:subj|2:att|3:preds|8:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:loc|1:subj|2:eval|3:preds|8:pnct">er</W>
 <W gloss="people" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="actually" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="-2:att" out="">faktisk</W>
+<W gloss="actually" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="-2:eval" out="">faktisk</W>
 <W gloss="i_gang" lemma="i_gang" msd="RGU" tag="RP" in="-3:preds" out="1:pobj">i_gang</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
@@ -234,8 +234,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>
 <W gloss="the_air" lemma="luft" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">luften</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="clear" lemma="klare" msd="VAF-=----A-" tag="VB" in="-7:conj" out="-1:degr|-2:coord|1:dobj|2:pobj">klare</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="clear" lemma="klare" msd="VAF-=----A-" tag="VB" in="-7:conj" out="-1:quant|-2:coord|1:dobj|2:pobj">klare</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="without" lemma="uden" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">uden</W>
 <W gloss="artificial_fertiliser" lemma="kunstgødning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kunstgødning</W>

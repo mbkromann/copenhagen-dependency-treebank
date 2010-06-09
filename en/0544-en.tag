@@ -188,8 +188,8 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">1960-73</W>
 <W msd="VADR" tag="VBP" in="" out="-4:mod|-7:subj|1:vobj|6:pnct|7:mod|23:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|2:mod">risen</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="2:pobj">more</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:degr">strongly</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="2:pobj">more</W>
+<W msd="ANP" tag="RB" in="-2:mod" out="-1:quant">strongly</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">than</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">prices</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
@@ -207,8 +207,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rise</W>
 <W msd="VADR" tag="VBZ" in="-9:conj" out="-3:mod|-2:subj|-4:coord|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:preds">been</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">little</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">little</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
@@ -237,11 +237,11 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">average</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">weight</W>
-<W msd="VADA" tag="VBD" in="-8:conj" out="-3:subj|-4:coord|1:pobj|4:dur">rose</W>
+<W msd="VADA" tag="VBD" in="-8:conj" out="-3:subj|-4:coord|1:pobj|4:time">rose</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">5.5</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">kg</W>
-<W msd="SP" tag="IN" in="-4:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-4:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">same</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">period</W>

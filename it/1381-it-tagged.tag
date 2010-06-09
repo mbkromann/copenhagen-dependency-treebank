@@ -180,7 +180,7 @@
 <W lemma="conto" msd="NC" tag="NOM" in="" out="">conto</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="banca" msd="NC" tag="NOM" in="" out="">banca</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="fornire" msd="VAP" tag="VER:pper" in="" out="">fornito</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>

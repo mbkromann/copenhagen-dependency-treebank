@@ -68,15 +68,15 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="textural" lemma="stoflig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="">stoflige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="woodwind-like" lemma="træblæser-agtig" msd="ANP[CN]SU=DU" tag="JJ" in="-5:conj" out="-1:degr|-2:coord">træblæser-agtige</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="woodwind-like" lemma="træblæser-agtig" msd="ANP[CN]SU=DU" tag="JJ" in="-5:conj" out="-1:quant|-2:coord">træblæser-agtige</W>
 <W gloss="timbre" lemma="timbre" msd="NCCSU==I" tag="NN" in="-7:possd" out="">timbre</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="10:other" out="7:nobj">I</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="free" lemma="fri" msd="ANPCSU=IU" tag="JJ" in="5:attr" out="-1:degr|3:modp">fri</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="free" lemma="fri" msd="ANPCSU=IU" tag="JJ" in="5:attr" out="-1:quant|3:modp">fri</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="2:pnct" out="">(</W>
 <W gloss="among_other_ways" lemma="blandt_andet" msd="RGU" tag="RP" in="1:ex" out="">bl.a.</W>
 <W gloss="tempomæssigt" lemma="tempomæssig" msd="ANP---=-R" tag="JJ" in="-3:modp" out="-2:pnct|-1:ex|1:pnct">tempomæssigt</W>
@@ -84,11 +84,11 @@
 <W gloss="playing_style" lemma="spillestil" msd="NCCSU==I" tag="NN" in="-7:nobj" out="-5:attr|2:conj">spillestil</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="repertoire" lemma="repertoire" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">repertoire</W>
-<W gloss="are_able_to" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-10:other|1:subj|4:struct|5:vobj|9:pnct|10:cond|21:pnct">kan</W>
+<W gloss="are_able_to" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-10:other|1:subj|4:scene|5:vobj|9:pnct|10:cond|21:pnct">kan</W>
 <W gloss="drums" lemma="tromme" msd="NCCPU==I" tag="NNP" in="-1:subj|4:[subj]" out="2:conj">trommer</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="melodic_instrument" lemma="melodiinstrument" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">melodiinstrument</W>
-<W gloss="Yet" lemma="dog" msd="RGU" tag="RP" in="-4:struct" out="">dog</W>
+<W gloss="Yet" lemma="dog" msd="RGU" tag="RP" in="-4:scene" out="">dog</W>
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-5:vobj" out="-4:[subj]|1:dobj|2:man|3:mcomp">gøre</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="quite_well" lemma="udmærket" msd="ANP[CN]SU=IU" tag="JJ" in="-2:man" out="">udmærket</W>
@@ -99,8 +99,8 @@
 <W gloss="that_is" lemma="altså" msd="RGU" tag="RP" in="1:eval" out="">altså</W>
 <W gloss="possess" lemma="besidde" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:eval|1:dobj">besidder</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:degr" out="3:pobj">så</W>
-<W gloss="unusual" lemma="usædvanlig" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">usædvanligt</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:quant" out="3:pobj">så</W>
+<W gloss="unusual" lemma="usædvanlig" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">usædvanligt</W>
 <W gloss="talent" lemma="talent" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">talent</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-3:pobj" out="2:nobj">som</W>
 <W gloss="Marilyn" lemma="Marilyn" msd="NP--U==-" tag="NNP" in="1:namef" out="">Marilyn</W>
@@ -161,15 +161,15 @@
 <W gloss="experiences" lemma="erfaring" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:pobj">erfaringerne</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="2:attr|3:possd">hendes</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="mixed" lemma="blande" msd="VAPA=S[CN]DA-U" tag="VBN" in="-2:attr" out="-1:degr">blandede</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="mixed" lemma="blande" msd="VAPA=S[CN]DA-U" tag="VBN" in="-2:attr" out="-1:quant">blandede</W>
 <W gloss="percussion_arsenal" lemma="slagtøjsarsenal" msd="NCNSU==I" tag="NN" in="-3:possd" out="">slagtøjsarsenal</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-8:pnct" out=""> - </W>
 <W gloss="so" lemma="således" msd="RGU" tag="RP" in="-9:other" out="1:ref|4:rel">således</W>
-<W gloss="which" lemma="som" msd="U=" tag="WDT" in="-1:ref|3:comp" out="">som</W>
+<W gloss="which" lemma="som" msd="U=" tag="WDT" in="-1:ref|3:resem" out="">som</W>
 <W gloss="we" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
-<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-3:comp|-1:add|1:vobj|2:time">kunne</W>
+<W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|-3:resem|-1:add|1:vobj|2:time">kunne</W>
 <W gloss="be_heard" lemma="høre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]">høre</W>
 <W gloss="when" lemma="da" msd="CS" tag="IN" in="-2:time" out="3:vobj">da</W>
 <W gloss="the_group" lemma="gruppe" msd="NCCSU==D" tag="NN" in="2:subj" out="">gruppen</W>

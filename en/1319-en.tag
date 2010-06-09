@@ -4,8 +4,8 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="-4:list" out="-2:pnct|-1:subj|2:preds|4:pnct#|5:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|2:conj">meaningless</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|2:conj">meaningless</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-4:pnct#|-2:conj" out="-1:coord">incomprehensible.</W>
 <W msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
@@ -52,13 +52,13 @@
 <W msd="NP=S" tag="NNP" in="-3:dobj" out="-2:namef|-1:namel">Kjær</W>
 <W msd="CS" tag="IN" in="-4:pobj" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|8:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|1:pnct|2:conj|5:conj">likable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|1:pnct|2:conj|5:conj">likable</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="">diligent</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:degr">talented</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:quant">talented</W>
 <W msd="NC=S" tag="NN" in="-8:nobj" out="">girl</W>
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
@@ -100,8 +100,8 @@
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:dobj|1:reas">complete</W>
-<W msd="CS" tag="IN" in="-1:reas" out="1:pobj">because</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:dobj|1:cause">complete</W>
+<W msd="CS" tag="IN" in="-1:cause" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">bestial</W>
@@ -152,8 +152,8 @@
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="">Betina</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|5:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">diligent</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|2:conj">diligent</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">talented</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">student</W>

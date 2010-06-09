@@ -139,8 +139,8 @@
 <W msd="SP" tag="IN" in="-6:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bosnia-Herzegovina</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-13:mod" out="-1:degr">long</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-13:mod" out="-1:quant">long</W>
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>

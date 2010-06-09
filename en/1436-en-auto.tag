@@ -28,12 +28,12 @@
 <W msd="NC=S" tag="NN" in="-5:time" out="">yesterday</W>
 <W msd="SP" tag="IN" in="-6:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:degr|2:vobj">had</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|3:reas">saved</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:quant|2:vobj">had</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|3:cause">saved</W>
 <W msd="PO" tag="PRP$" in="" out="">his</W>
 <W msd="NC=S" tag="NN" in="" out="">life</W>
-<W msd="CS" tag="IN" in="-3:reas" out="1:pobj">because</W>
+<W msd="CS" tag="IN" in="-3:cause" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj|3:ref|4:rel">an</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">air</W>
@@ -138,8 +138,8 @@
 <W msd="CC" tag="CC" in="" out="3:conj|8:pnct">But</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">crew</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|1:degr|2:dobj">saw</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-2:subj|1:quant|2:dobj">saw</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">solitary</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="">Pole</W>

@@ -181,8 +181,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="3:conj|16:pnct">But</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:neg">only</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:degr|1:subj|4:vobj|7:pnct|9:conj">is</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:neg">only</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:quant|1:subj|4:vobj|7:pnct|9:conj">is</W>
 <W msd="PD" tag="DT" in="-1:subj|3:[subj]" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">welfare</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">state</W>
@@ -209,8 +209,8 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">The</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Danes</W>
-<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|2:vobj|15:pnct|1:ext">have</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-3:pnct|-2:subj|2:vobj|15:pnct|1:time">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]|1:pnct|5:mod|7:mod">been</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="3:focal" out="">even</W>

@@ -184,8 +184,8 @@
 <s>
 <W gloss="The_Queen" lemma="dronning" msd="NCCSU==D" tag="NN" in="1:subj" out="">Dronningen</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|11:pnct">er</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="interested" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:degr|1:pobj">interesseret</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="interested" lemma="interessere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:preds" out="-1:quant|1:pobj">interesseret</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">i</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-2:nobj" out="1:ref|2:rel">hvad</W>

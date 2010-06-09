@@ -98,13 +98,13 @@
 </s>
 <s>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Alimony</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|5:pnct|6:reas|20:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|5:pnct|6:cause|20:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">called</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="2:conj">repayment</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">compensation</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-6:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">emphasis</W>
 <W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|1:preds">is</W>
@@ -191,11 +191,11 @@
 <W msd="ANP" tag="JJ" in="-3:attr" out="">sexist</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">class</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">society</W>
-<W msd="VADR" tag="VBZ" in="-11:vobj" out="-10:subj|1:preds|3:pnct|4:reas">is</W>
+<W msd="VADR" tag="VBZ" in="-11:vobj" out="-10:subj|1:preds|3:pnct|4:cause">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">oppressor</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-4:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj">is</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>

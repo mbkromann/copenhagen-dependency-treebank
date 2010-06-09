@@ -50,8 +50,8 @@
 <W msd="NC=S" tag="NN" in="-2:preds|5:[dobj]" out="3:rel">someone</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
-<W msd="VADR" tag="VBP" in="-3:rel" out="-2:subj|1:degr|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBP" in="-3:rel" out="-2:subj|1:quant|2:vobj">have</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-5:[dobj]|-4:[subj]">dreamed</W>
 <W msd="XP" tag="." in="-9:pnct" out="">?</W>
 <W msd="XP" tag="&amp;quot;" in="-10:pnct" out="">"</W>
@@ -100,8 +100,8 @@
 <W msd="CS" tag="IN" in="-7:mod" out="4:vobj">until</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">smile</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:degr|1:pnct">vanished</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|-1:quant|1:pnct">vanished</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-24:conj" out="-1:pnct|1:subj|2:add|3:preds|5:pnct|7:pnct">is</W>

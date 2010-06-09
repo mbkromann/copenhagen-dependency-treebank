@@ -56,7 +56,7 @@
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-6:coref-res|10:loc" out="1:nobj">All'</W>
 <W lemma="apertura" msd="NC" tag="NOM" in="-1:nobj" out="">apertura</W>
-<W lemma="oltre" msd="RG" tag="ADV" in="8:struct" out="1:pobj|6:pnct">oltre</W>
+<W lemma="oltre" msd="RG" tag="ADV" in="8:scene" out="1:pobj|6:pnct">oltre</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj">ai</W>
 <W lemma="vertice" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">vertici</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:attr" out="2:nobj">della</W>
@@ -64,7 +64,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj" out="-1:namef">BEERS</W>
 <W lemma="," msd="XP" tag="PON" in="-6:pnct" out="">,</W>
 <W lemma="c'" msd="PD" tag="PRO&3a;demo" in="1:expl" out="">c'</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-10:loc|-8:struct|-1:expl|1:subj|15:pnct">erano</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-10:loc|-8:scene|-1:expl|1:subj|15:pnct">erano</W>
 <W lemma="politico" msd="NC" tag="NOM" in="-1:subj" out="1:attr|2:pnct|3:conj|5:conj">politici</W>
 <W lemma="russo" msd="AN" tag="ADJ" in="-1:attr" out="">russi</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
@@ -130,14 +130,14 @@
 <W lemma="figurativo" msd="AN" tag="ADJ" in="-1:attr" out="">figurativo</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-6:subj|1:vobj|12:pnct">ha</W>
-<W lemma="disegnare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:dobj|7:ben">disegnato</W>
+<W lemma="disegnare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-7:[subj]|1:dobj|7:goal">disegnato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">il</W>
 <W lemma="gioiello" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|3:attr">gioiello</W>
 <W lemma="d'" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">d'</W>
 <W lemma="arte" msd="NC" tag="NOM" in="-1:nobj" out="">arte</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:attr" out="1:nobj">dell'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anno</W>
-<W lemma="per" msd="SP" tag="PRE" in="-7:ben" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-7:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="catena" msd="NC" tag="NOM" in="-1:nobj" out="1:appr">catena</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:appr" out="">Smykkekæden</W>
@@ -225,8 +225,8 @@
 <W lemma="in" msd="SP" tag="PRE" in="-1:time" out="1:nobj">in</W>
 <W lemma="agosto" msd="NC" tag="NOM" in="-1:nobj" out="">agosto</W>
 <W lemma="." msd="XP" tag="SENT" in="-5:pnct" out="">.</W>
-<W lemma="entrambi" msd="AN" tag="ADJ" in="1:degr" out="">Entrambi</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-11:assoc-agent|3:subj|4:[subj]" out="-1:degr|1:nobj">gli</W>
+<W lemma="entrambi" msd="AN" tag="ADJ" in="1:quant" out="">Entrambi</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-11:assoc-agent|3:subj|4:[subj]" out="-1:quant|1:nobj">gli</W>
 <W lemma="apprendista" msd="NC" tag="NOM" in="-1:nobj" out="">apprendisti</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="2:robj" out="">si</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-3:subj|1:vobj|10:pnct">sono</W>
@@ -240,8 +240,8 @@
 <W lemma="Jensen" msd="NP" tag="NPR" in="-3:appr" out="-1:namef|1:nobj">Jensen</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Sølvsmedie</W>
 <W lemma="." msd="XP" tag="SENT" in="-10:pnct" out="">.</W>
-<W lemma="congratulazione" msd="NC" tag="NOM" in="" out="1:ben|12:pnct">Congratulazioni</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:ben" out="1:nobj|6:conj">all'</W>
+<W lemma="congratulazione" msd="NC" tag="NOM" in="" out="1:goal|12:pnct">Congratulazioni</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:goal" out="1:nobj|6:conj">all'</W>
 <W lemma="orafo" msd="NC" tag="NOM" in="-1:nobj" out="3:appr">orafo</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:namef" out="">LYKKE</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:namel" out="">ELKJÆR</W>

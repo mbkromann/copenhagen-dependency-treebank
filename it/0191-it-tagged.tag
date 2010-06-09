@@ -179,7 +179,7 @@
 </s>
 <s>
 <W lemma="potere" msd="VADR" tag="VER:pres" in="" out="">Posso</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="capire" msd="VAF" tag="VER:infi" in="" out="">capire</W>
 <W lemma="che" msd="PT" tag="PRO:rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">i</W>

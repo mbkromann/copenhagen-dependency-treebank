@@ -97,8 +97,8 @@
 <W msd="CS" tag="IN" in="-22:mod" out="3:vobj">since</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|5:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">application</W>
-<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:degr|2:vobj">can</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:quant|2:vobj">can</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:pobj">handled</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">by</W>

@@ -87,12 +87,12 @@
 <W gloss="Kampmann" lemma="Kampmann" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Kampmann</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-3:pnct" out="">)</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-12:cond|1:subj|3:dobj|4:pnct|5:reas|28:pnct">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-12:cond|1:subj|3:dobj|4:pnct|5:cause|28:pnct">har</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="historical" lemma="historisk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">historisk</W>
 <W gloss="relevance" lemma="relevans" msd="NCCSU==I" tag="NN" in="-3:dobj" out="-1:attr">relevans</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="2:vobj">fordi</W>
 <W gloss="one" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
 <W gloss="go" lemma="gå" msd="XX" tag="FW" in="-2:vobj" out="-1:subj|1:avobj">gå</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
@@ -213,10 +213,10 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>
 <W gloss="the_question" lemma="spørgsmål" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|5:xpl">spørgsmålet</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W gloss="Why" lemma="hvorfor" msd="RGU" tag="RP" in="3:reas" out="1:mod">Hvorfor</W>
+<W gloss="Why" lemma="hvorfor" msd="RGU" tag="RP" in="3:cause" out="1:mod">Hvorfor</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="earth" lemma="alverden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">alverden</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-5:xpl" out="1:subj|3:vobj|5:pnct|-3:reas">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="-5:xpl" out="1:subj|3:vobj|5:pnct|-3:cause">blev</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:subj|2:[subj]" out="1:nobj">de</W>
 <W gloss="lines" lemma="streg" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">streger</W>
 <W gloss="drawn" lemma="slå" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]|1:mod">slået</W>
@@ -224,11 +224,11 @@
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-5:pnct" out="">?</W>
 </s>
 <s>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="11:xtop" out="1:subj|2:preds|3:pnct|4:reas|10:ref">Blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="11:xtop" out="1:subj|2:preds|3:pnct|4:cause|10:ref">Blev</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-2:preds" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-4:reas" out="3:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-4:cause" out="3:vobj">fordi</W>
 <W gloss="the_minister" lemma="minister" msd="NCCSU==D" tag="NN" in="2:subj" out="">ministeren</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:neg|1:preds|2:pnct">var</W>

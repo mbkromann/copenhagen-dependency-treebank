@@ -180,8 +180,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">crazy</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:degr">original</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-5:conj" out="-2:coord|-1:quant">original</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">operetta</W>
 <W msd="NC=S" tag="NN" in="-8:nobj" out="-1:mod">parody</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>

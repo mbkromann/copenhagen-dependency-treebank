@@ -172,8 +172,8 @@
 <W msd="VA" tag="MD" in="-13:vobj" out="-11:subj|-10:mod|1:man|2:vobj|10:pnct|31:conj">may</W>
 <W msd="ANP" tag="RB" in="-1:man" out="">well</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-13:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:preds" out="-1:degr|1:pobj">1/3</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:preds" out="-1:quant|1:pobj">1/3</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:pnct|2:nobj|3:pnct">the</W>
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -210,8 +210,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="-8:mod" out="2:vobj">so</W>
 <W msd="U=" tag="EX" in="1:expl|3:[expl]" out="">there</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:ext|2:vobj">will</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:expl|1:time|2:vobj">will</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[expl]|1:dobj">be</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj">a</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>

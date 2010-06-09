@@ -88,8 +88,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="23:pnct" out="">"</W>
 <W gloss="When" lemma="når" msd="CS" tag="IN" in="22:xtop" out="7:vobj|21:ref">Når</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="5:subj" out="-1:degr|1:nobj">40</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="5:subj" out="-1:quant|1:nobj">40</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">pct.</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_population" lemma="befolkning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">befolkningen</W>
@@ -175,8 +175,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-1:reas|1:subj|2:vobj|3:pnct|4:pnct">skal</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="5:qobj" out="-1:cause|1:subj|2:vobj|3:pnct|4:pnct">skal</W>
 <W gloss="the_rules" lemma="regel" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">reglerne</W>
 <W gloss="be_tightened" lemma="stramme" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-1:[subj]">strammes</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

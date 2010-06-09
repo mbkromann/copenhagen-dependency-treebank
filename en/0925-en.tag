@@ -128,8 +128,8 @@
 <W msd="PD" tag="DT" in="7:subj" out="2:vobj">That</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">good</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">simplifications</W>
 <W msd="VADA" tag="VBD" in="" out="-7:subj|1:part|3:pnct|4:mod|7:pnct|2:eval">came</W>

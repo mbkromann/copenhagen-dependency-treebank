@@ -83,8 +83,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">Kun</W>
-<W gloss="Frigodan" lemma="Frigodan" msd="NP--U==-" tag="NNP" in="7:subj" out="-1:degr|1:pnct|2:appa">Frigodan</W>
+<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">Kun</W>
+<W gloss="Frigodan" lemma="Frigodan" msd="NP--U==-" tag="NNP" in="7:subj" out="-1:quant|1:pnct|2:appa">Frigodan</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="producer" lemma="producent" msd="NCCSU==I" tag="NN" in="-2:appa" out="1:pobj|4:pnct">producent</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">af</W>
@@ -124,8 +124,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="drinks" lemma="drikkevarer" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">drikkevarer</W>
 <W gloss="constitute" lemma="udgøre" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|2:dobj|7:pnct">udgør</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">40</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="40" lemma="40" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:quant|1:nobj">40</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">pct.</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="danisco_group" lemma="Danisco-koncern" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Danisco-koncernens</W>
@@ -161,14 +161,14 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
 <W gloss="is_expected" lemma="vente" msd="VADR=----P-" tag="VBD" in="" out="-1:expl|1:dobj|5:pnct">ventes</W>
 <W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
-<W gloss="continued" lemma="fortsat" msd="RGU" tag="RP" in="1:dur" out="">fortsat</W>
-<W gloss="satisfactory" lemma="tilfredsstille" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:attr" out="-1:dur">tilfredsstillende</W>
+<W gloss="continued" lemma="fortsat" msd="RGU" tag="RP" in="1:time" out="">fortsat</W>
+<W gloss="satisfactory" lemma="tilfredsstille" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-2:attr" out="-1:time">tilfredsstillende</W>
 <W gloss="development" lemma="udvikling" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">udvikling</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="However" lemma="dog" msd="RGU" tag="RP" in="1:struct" out="">Dog</W>
-<W gloss="notes" lemma="notere" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|2:loc|4:pnct|5:dobj|23:pnct">noterer</W>
+<W gloss="However" lemma="dog" msd="RGU" tag="RP" in="1:scene" out="">Dog</W>
+<W gloss="notes" lemma="notere" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|2:loc|4:pnct|5:dobj|23:pnct">noterer</W>
 <W gloss="koncernledelsen" lemma="koncernledelse" msd="NCCSU==D" tag="NN" in="-1:subj" out="">koncernledelsen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="regnskabsmeddelelsen" lemma="regnskabsmeddelelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">regnskabsmeddelelsen</W>
@@ -227,8 +227,8 @@
 </s>
 <s>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|4:[subj]" out="">Det</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:struct|2:neg|3:vobj|27:pnct">har</W>
-<W gloss="However" lemma="dog" msd="RGU" tag="RP" in="-1:struct" out="">dog</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:scene|2:neg|3:vobj|27:pnct">har</W>
+<W gloss="However" lemma="dog" msd="RGU" tag="RP" in="-1:scene" out="">dog</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="prevented" lemma="forhindre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-4:[subj]|1:pnct|2:dobj">forhindret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

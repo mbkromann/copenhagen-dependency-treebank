@@ -120,8 +120,8 @@
 <W gloss="things" lemma="ting" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|3:rel|14:modp">ting</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
-<W gloss="happen" lemma="ske" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:pnct|5:ref|7:rel|1:ext">sker</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="2:conj">igen</W>
+<W gloss="happen" lemma="ske" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|4:pnct|5:ref|7:rel|1:time">sker</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:time" out="2:conj">igen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:conj" out="-1:coord">igen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -192,10 +192,10 @@
 <p>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Hun</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|2:pnct|3:reas|11:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|2:pnct|3:cause|11:pnct">kan</W>
 <W gloss="smile" lemma="smile" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]">smile</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-3:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-3:cause" out="2:vobj">fordi</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">hun</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">har</W>
 <W gloss="drawn" lemma="drage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">draget</W>
@@ -227,8 +227,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">hun</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-20:conj" out="-1:subj|-2:coord|1:degr|2:dobj|3:pnct|6:conj">har</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-20:conj" out="-1:subj|-2:coord|1:quant|2:dobj|3:pnct|6:conj">har</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-2:dobj" out="">ham</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>

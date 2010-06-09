@@ -96,8 +96,8 @@
 </s>
 <s>
 <W gloss="The_announcements" lemma="meddelelse" msd="NCCPU==D" tag="NNP" in="1:subj|3:[subj]" out="">Meddelelserne</W>
-<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:ext|2:vobj|41:pnct">var</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:ext" out="">altid</W>
+<W gloss="were" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|41:pnct">var</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:time" out="">altid</W>
 <W gloss="timed" lemma="time" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:mod">timet</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:mod" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
@@ -229,8 +229,8 @@
 <W gloss="speaker" lemma="speaker" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">speaker</W>
 <W gloss="in" lemma="ind" msd="RGU" tag="RP" in="-4:@dir" out="">ind</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="overwrought" lemma="eksalteret" msd="ANP[CN]SU=IU" tag="JJ" in="-7:mod" out="-1:degr">eksalteret</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="overwrought" lemma="eksalteret" msd="ANP[CN]SU=IU" tag="JJ" in="-7:mod" out="-1:quant">eksalteret</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-8:pnct" out="">:</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="7:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="6:voc" out="1:attr|2:nobj|3:pnct">Det</W>
@@ -256,15 +256,15 @@
 <W gloss="on" lemma="over" msd="SP" tag="IN" in="3:mod" out="1:nobj|2:pnct">over</W>
 <W gloss="the_radio" lemma="radio" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">radioen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="got" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-7:mod|-3:mod|1:subj|2:degr|3:dobj|4:pnct">fik</W>
+<W gloss="got" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-7:mod|-3:mod|1:subj|2:quant|3:dobj|4:pnct">fik</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-2:quant" out="">kun</W>
 <W gloss="the_music" lemma="musik" msd="NCCSU==D" tag="NN" in="-3:dobj" out="">musikken</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Progress" lemma="fremskridt" msd="NCNSU==I" tag="NN" in="" out="1:ext|2:pnct">Fremskridt</W>
-<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
+<W gloss="Progress" lemma="fremskridt" msd="NCNSU==I" tag="NN" in="" out="1:time|2:pnct">Fremskridt</W>
+<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-1:time" out="">igen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 </p>

@@ -109,7 +109,7 @@
 <W msd="ANP" tag="JJ" in="1:mod" out="">11-year</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:mod">old</W>
 <W msd="VADA" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">was</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:mod|5:pobj|9:prec">playing</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-4:[subj]|1:mod|5:pobj|9:time">playing</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">sand</W>
@@ -118,7 +118,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">little</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">Stewart</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">just</W>
-<W msd="CS" tag="IN" in="-9:prec" out="-1:tobj|4:vobj">before</W>
+<W msd="CS" tag="IN" in="-9:time" out="-1:tobj|4:vobj">before</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">horrifying</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">strangulation</W>

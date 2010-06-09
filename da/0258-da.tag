@@ -54,10 +54,10 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-5:ref|1:subj|2:[subj]" out="">som</W>
 <W gloss="were" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:subj|1:vobj">er</W>
-<W gloss="brought" lemma="bringe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir|3:dur">bragt</W>
+<W gloss="brought" lemma="bringe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@dir|3:time">bragt</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="Koko" lemma="Koko" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Koko</W>
-<W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:dur" out="1:nobj">mellem</W>
+<W gloss="between" lemma="mellem" msd="SP" tag="IN" in="-3:time" out="1:nobj">mellem</W>
 <W gloss="August" lemma="august" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj|3:conj">august</W>
 <W gloss="1987" lemma="1987" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1987</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -143,8 +143,8 @@
 <W gloss="children" lemma="barn" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">børn</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="who" lemma="som" msd="U=" tag="WDT" in="-6:ref|2:subj" out="">som</W>
-<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:dur" out="">stadig</W>
-<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:dur|1:@loc|2:pnct">bor</W>
+<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:time" out="">stadig</W>
+<W gloss="live" lemma="bo" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-2:subj|-1:time|1:@loc|2:pnct">bor</W>
 <W gloss="at_home" lemma="hjemme" msd="RGU" tag="RP" in="-1:@loc" out="">hjemme</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="-18:conj" out="-13:subj|-14:coord|1:pnct|2:dobj">siger</W>
@@ -189,24 +189,24 @@
 <W gloss="store" lemma="oplagre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:other">oplagre</W>
 <W gloss="the_toxic_barrels" lemma="gifttønde" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">gifttønderne</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-2:other" out="1:nobj">for</W>
-<W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|3:modp|6:ext">500</W>
+<W gloss="500" lemma="500" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|3:modp|6:time">500</W>
 <W gloss="naira" lemma="naira" msd="XF" tag="FW" in="-1:nobj" out="">naira</W>
 <W gloss="(" lemma="(" msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W gloss="650" lemma="650" msd="AC---U=--" tag="CD" in="-3:modp" out="-1:pnct|1:nobj|2:pnct">650</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kr.</W>
 <W gloss=")" lemma=")" msd="XP" tag=")" in="-2:pnct" out="">)</W>
-<W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-6:ext" out="1:nobj">om</W>
+<W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-6:time" out="1:nobj">om</W>
 <W gloss="this_month" lemma="måned" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">måneden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-35:pnct" out="">.</W>
 </s>
 </p>
 <p>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="4:succ" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="4:time" out="1:nobj">Efter</W>
 <W gloss="the_revelation" lemma="afsløring" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">afsløringen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_toxic_waste" lemma="giftaffald" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">giftaffaldet</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:succ|1:subj|2:vobj|16:pnct">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-4:time|1:subj|2:vobj|16:pnct">har</W>
 <W gloss="Nigeria" lemma="Nigeria" msd="NP--U==-" tag="NNP" in="-1:subj|1:[subj]|5:[subj]|9:[subj]" out="">Nigeria</W>
 <W gloss="detained" lemma="tilbageholde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|3:pnct|4:conj|8:conj">tilbageholdt</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">to</W>

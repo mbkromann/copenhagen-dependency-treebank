@@ -122,9 +122,9 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="">1993</W>
 <W msd="CC" tag="CC" in="4:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-10:[subj]|-4:coord|-2:reas|1:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-10:[subj]|-4:coord|-2:cause|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-11:[subj]|1:iobj|4:dobj">asked</W>
 <W msd="PD" tag="DT" in="-1:iobj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">drivers</W>

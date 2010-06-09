@@ -94,12 +94,12 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:time" out="2:vobj">when</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|5:succ">awoke</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|5:time">awoke</W>
 <W msd="PI" tag="DT" in="4:tobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">hours</W>
-<W msd="ANP" tag="RB" in="-5:succ" out="-4:tobj">later</W>
+<W msd="ANP" tag="RB" in="-5:time" out="-4:tobj">later</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Bent</W>
 <W msd="NC=P" tag="NNS" in="" out="-25:qobj|-1:subj|1:pnct">smiles</W>

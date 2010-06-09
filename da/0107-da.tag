@@ -102,11 +102,11 @@
 <W gloss="EC_Directive" lemma="EF-direktiv" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">EF-direktiv</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|5:subj" out="">som</W>
-<W gloss="for" lemma="af" msd="SP" tag="IN" in="4:reas" out="1:nobj">af</W>
+<W gloss="for" lemma="af" msd="SP" tag="IN" in="4:cause" out="1:nobj">af</W>
 <W gloss="account" lemma="hensyn" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">hensyn</W>
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="public_health" lemma="folkesundhed" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">folkesundheden</W>
-<W gloss="forbids" lemma="forbyde" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-4:reas|2:iobj|3:dobj">forbyder</W>
+<W gloss="forbids" lemma="forbyde" msd="VADR=----A-" tag="VBD" in="-8:rel" out="-5:subj|-4:cause|2:iobj|3:dobj">forbyder</W>
 <W gloss="private" lemma="privat" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">private</W>
 <W gloss="slaughterhouses" lemma="slagtehus" msd="NCNPU==I" tag="NNP" in="-2:iobj" out="-1:attr">slagtehuse</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-3:dobj" out="1:vobj">at</W>
@@ -121,11 +121,11 @@
 </s>
 <s>
 <W gloss="Public_health" lemma="folkesundhed" msd="NCCSU==D" tag="NN" in="1:subj" out="">Folkesundheden</W>
-<W gloss="suffers" lemma="lide" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|4:dur|11:pnct">lider</W>
+<W gloss="suffers" lemma="lide" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|4:time|11:pnct">lider</W>
 <W gloss="no" lemma="ingen" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">ingen</W>
 <W gloss="harm" lemma="skade" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">skade</W>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="-4:dur" out="-1:degr|1:pnct|3:vobj">længe</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="-4:time" out="-1:quant|1:pnct|3:vobj">længe</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="are_slaughtered" lemma="slagte" msd="VADR=----P-" tag="VBD" in="-3:vobj" out="-1:expl|2:dobj">slagtes</W>
@@ -142,11 +142,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-5:cond|1:subj|2:vobj|11:pnct">skal</W>
 <W gloss="the_slaughterhouse" lemma="slagteri" msd="NCNPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">slagterierne</W>
-<W gloss="directed" lemma="indrette" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pobj|4:comp">indrettes</W>
+<W gloss="directed" lemma="indrette" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-1:[subj]|1:pobj|4:resem">indrettes</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">med</W>
 <W gloss="advanced" lemma="avanceret" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">avanceret</W>
 <W gloss="equipment" lemma="udstyr" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">udstyr</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:comp" out="1:vobj">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-4:resem" out="1:vobj">som</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-1:vobj" out="1:subj|3:preds">var</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="large" lemma="stor" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">store</W>

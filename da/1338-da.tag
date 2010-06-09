@@ -73,8 +73,8 @@
 <W gloss="the_explosion" lemma="eksplosion" msd="NCCSU==D" tag="NN" in="1:subj" out="">eksplosionen</W>
 <W gloss="was_due_to" lemma="skyldes" msd="VEDA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|5:pnct">skyldtes</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="powerful" lemma="kraftig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">kraftig</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="powerful" lemma="kraftig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">kraftig</W>
 <W gloss="bomb" lemma="bombe" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">bombe</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>

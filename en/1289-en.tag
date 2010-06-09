@@ -79,8 +79,8 @@
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">drawn-out</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="3:vobj">that</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:degr|1:mod">stops</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:quant|1:mod">stops</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">altogether</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -202,9 +202,9 @@
 <W msd="CC" tag="CC" in="" out="5:conj">And</W>
 <W msd="ANP" tag="RB" in="4:preds" out="1:pnct">so</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:degr" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="2:quant" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-5:conj" out="-4:preds|-2:degr|1:subj|3:pnct|8:xpl">is</W>
+<W msd="VADR" tag="VBZ" in="-5:conj" out="-4:preds|-2:quant|1:subj|3:pnct|8:xpl">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">film</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>

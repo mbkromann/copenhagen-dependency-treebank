@@ -45,8 +45,8 @@
 <W lemma="polar" msd="AN" tag="ADJ" in="-1:attrr#" out="">polar</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-13:pnct" out="">–</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
-<W lemma="saber" msd="VAD" tag="VLfin" in="-15:conj|-24:coref" out="-1:coord|1:degr|2:pobj|6:coref">saben</W>
-<W lemma="exactamente" msd="RG" tag="ADV" in="-1:degr" out="">exactamente</W>
+<W lemma="saber" msd="VAD" tag="VLfin" in="-15:conj|-24:coref" out="-1:coord|1:quant|2:pobj|6:coref">saben</W>
+<W lemma="exactamente" msd="RG" tag="ADV" in="-1:quant" out="">exactamente</W>
 <W lemma="al" msd="SP" tag="PAL" in="-2:pobj" out="1:nobj">al</W>
 <W lemma="sabor" msd="NC" tag="NC" in="-1:nobj" out="1:ref|4:relr">sabor</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|3:dobj" out="">que</W>
@@ -54,9 +54,9 @@
 <W lemma="l" msd="PP" tag="PPC" in="-6:coref|1:iobj" out="">les</W>
 <W lemma="agregar" msd="VAD" tag="VLfin" in="-4:relr" out="-1:iobj|-2:subj|-3:dobj|1:pnct">agrega</W>
 <W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
-<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="2:struct" out="">Por lo tanto</W>
+<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="2:scene" out="">Por lo tanto</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-2:struct|-1:neg|1:dobj">extraña</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-2:scene|-1:neg|1:dobj">extraña</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="6:vobj">que</W>
 <W lemma="incluso" msd="RG" tag="ADV" in="1:prg" out="">incluso</W>
 <W lemma="cuatro" msd="AC" tag="CARD" in="4:subj" out="-1:prg|1:nobj|17:coref">cuatro</W>
@@ -134,7 +134,7 @@
 <W lemma="espera" msd="NC" tag="NC" in="-1:nobj" out="">espera</W>
 <W lemma="," msd="XP" tag="CM" in="3:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Karo</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj|2:[subj]" out="-1:namef|35:coref-id">Thomsen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj|2:[subj]" out="-1:namef|35:coref-iden">Thomsen</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-6:time|-3:pnct|-1:subj|1:vobj|7:pnct">había</W>
 <W lemma="tener" msd="VAF" tag="VLadj" in="-1:vobj" out="-2:[subj]|1:dobj">tenido</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:dobj" out="1:pobj|1:{arg}">ocasión</W>
@@ -169,7 +169,7 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-3:conj" out="-1:namef">Osetrova</W>
 <W lemma="," msd="XP" tag="CM" in="6:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Karo</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-6:conj|-35:coref-id" out="-1:namef">Thomsen</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-6:conj|-35:coref-iden" out="-1:namef">Thomsen</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="Susan" msd="NP" tag="NP" in="1:namef" out="">Susan</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-9:conj" out="-2:coord|-1:namef">Frankenstein</W>

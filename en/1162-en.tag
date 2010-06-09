@@ -57,8 +57,8 @@
 <W msd="PD" tag="DT" in="-2:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">World</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bank</W>
-<W msd="VADR" tag="VBP" in="" out="-5:subj|1:ext|2:vobj|13:pnct">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-5:subj|1:time|2:vobj|13:pnct">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:dobj">obliged</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:dobj">use</W>
@@ -80,8 +80,8 @@
 <W msd="SP" tag="IN" in="-1:preds" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">these</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">experts</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:preds|5:coord|1:ext">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">rarely</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:preds|5:coord|1:time">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">rarely</W>
 <W msd="NC=P" tag="NNS" in="-2:preds" out="2:conj">technicians</W>
 <W msd="CC" tag="CC" in="1:coord" out="">or</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">engineers</W>
@@ -103,7 +103,7 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="">this</W>
 <W msd="CC" tag="CC" in="11:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="9:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="9:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="7:subj|8:[subj]" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">special</W>
@@ -112,7 +112,7 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Eastern</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod">Europe</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-7:subj|-11:coord|-9:reas|1:vobj|10:mod">has</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-7:subj|-11:coord|-9:cause|1:vobj|10:mod">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-8:[subj]|1:pobj">agreed</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">individual</W>

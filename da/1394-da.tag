@@ -139,8 +139,8 @@
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">pige</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-4:mod" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">det</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="straight" lemma="lige" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">lige</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="straight" lemma="lige" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:quant">lige</W>
 <W gloss="stretch" lemma="stykke" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:nobj">stykke</W>
 <W gloss="road" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">vej</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
@@ -181,8 +181,8 @@
 <W gloss="the_area" lemma="område" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">området</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">for</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="2:attr|3:possd">sin</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="beautiful" lemma="flot" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">flotte</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="beautiful" lemma="flot" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">flotte</W>
 <W gloss="landscaping" lemma="anlæggelse" msd="NCCSU==I" tag="NN" in="-3:possd" out="">anlæggelse</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>

@@ -104,8 +104,8 @@
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-10:mod" out="3:vobj">so</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:degr|1:pobj">believe</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:quant|1:pobj">believe</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">transformation</W>
@@ -129,7 +129,7 @@
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="-15:conj" out="-1:subj|-2:coord|1:neg|2:vobj|9:pnct|10:reas">do</W>
+<W msd="VADR" tag="VBP" in="-15:conj" out="-1:subj|-2:coord|1:neg|2:vobj|9:pnct|10:cause">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">buy</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -139,7 +139,7 @@
 <W msd="PD" tag="DT" in="" out="">this</W>
 <W msd="NC=S" tag="NN" in="" out="">country</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-10:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|2:vobj|5:pnct|5:pnct|5:pnct|6:mod">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
@@ -165,12 +165,12 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|-2:coord|1:neg|2:dobj|4:pnct|5:reas">was</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-1:subj|-2:coord|1:neg|2:dobj|4:pnct|5:cause">was</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAP" tag="VBN" in="-2:dobj|1:nobj" out="1:pobj">allowed</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="-1:nobj">to</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj">was</W>
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]|1:preds">considered</W>

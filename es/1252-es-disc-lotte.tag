@@ -1,9 +1,9 @@
-<W lemma="el" msd="PD" tag="ART" in="27:subj|28:[subj]" out="1:nobj|4:ben|6:time|57:coref-id">La</W>
+<W lemma="el" msd="PD" tag="ART" in="27:subj|28:[subj]" out="1:nobj|4:goal|6:time|57:coref-iden">La</W>
 <W lemma="postura" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">postura</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="-1:nobj" out="">Dinamarca</W>
-<W lemma="ante" msd="SP" tag="SCENE" in="-4:ben" out="1:nobj">ante</W>
-<W lemma="China" msd="NP" tag="NP" in="-1:nobj" out="13:assoc-formal.loc|26:coref-id">China</W>
+<W lemma="ante" msd="SP" tag="SCENE" in="-4:goal" out="1:nobj">ante</W>
+<W lemma="China" msd="NP" tag="NP" in="-1:nobj" out="13:assoc-formal.loc|26:coref-iden">China</W>
 <W lemma="desde" msd="SP" tag="SCENE" in="-6:time" out="1:nobj">desde</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">dramático</W>
@@ -26,10 +26,10 @@
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1989</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-27:subj|-1:robj|1:vobj">ha</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="-28:[subj]|1:degr|2:pnct">enfriado</W>
-<W lemma="considerablemente" msd="RG" tag="ADV" in="-1:degr" out="">considerablemente</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:vobj" out="-28:[subj]|1:quant|2:pnct">enfriado</W>
+<W lemma="considerablemente" msd="RG" tag="ADV" in="-1:quant" out="">considerablemente</W>
 <W lemma="." msd="XP" tag="FS" in="-2:pnct" out="">.</W>
-<W lemma="China" msd="NP" tag="NP" in="-26:coref-id|1:subj" out="19:coref-id">China</W>
+<W lemma="China" msd="NP" tag="NP" in="-26:coref-iden|1:subj" out="19:coref-iden">China</W>
 <W lemma="sufrir" msd="VAD" tag="VLfin" in="" out="-1:subj|1:time|2:dobj|3:attr|4:pnct|7:conj|19:pnct">sufre</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:time" out="">aún</W>
 <W lemma="arresto" msd="NC" tag="NC" in="-2:dobj" out="">arresto</W>
@@ -37,25 +37,25 @@
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="">Danida</W>
-<W lemma="mantener" msd="VAD" tag="VLfin" in="-7:conj" out="-2:coord|-1:subj|1:predo|3:dobj|7:ben">mantiene</W>
-<W lemma="cerrado" msd="AN" tag="ADJ" in="-1:predo" out="1:degr">cerrada</W>
-<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:degr" out="">herméticamente</W>
+<W lemma="mantener" msd="VAD" tag="VLfin" in="-7:conj" out="-2:coord|-1:subj|1:predo|3:dobj|7:goal">mantiene</W>
+<W lemma="cerrado" msd="AN" tag="ADJ" in="-1:predo" out="1:quant">cerrada</W>
+<W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:quant" out="">herméticamente</W>
 <W lemma="el" msd="PD" tag="ART" in="-3:dobj" out="1:nobj">la</W>
 <W lemma="caja" msd="NC" tag="NC" in="-1:nobj" out="1:const#">caja</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:const#" out="1:nobj">de</W>
 <W lemma="caudal" msd="NC" tag="NC" in="-1:nobj" out="">caudales</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-7:ben" out="1:nobj">para</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-7:goal" out="1:nobj">para</W>
 <W lemma="compromiso" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:loc">compromisos</W>
 <W lemma="dans" msd="AN" tag="ADJ" in="-1:attr" out="">daneses</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
-<W lemma="China" msd="NP" tag="NP" in="-1:nobj|-19:coref-id" out="2:assoc|22:coref-id">China</W>
+<W lemma="China" msd="NP" tag="NP" in="-1:nobj|-19:coref-iden" out="2:assoc|22:coref-iden">China</W>
 <W lemma="." msd="XP" tag="FS" in="-19:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-2:assoc|2:subj" out="1:nobj">“Los</W>
 <W lemma="chino" msd="AN" tag="ADJ" in="-1:nobj" out="">chinos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="-2:subj|1:preds|7:pnct">están</W>
 <W lemma="decepcionar" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj">decepcionados</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-57:coref-id" out="1:nobj">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-57:coref-iden" out="1:nobj">la</W>
 <W lemma="postura" msd="NC" tag="NC" in="-1:nobj" out="1:other">postura</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:other" out="1:nobj">de</W>
 <W lemma="Dinamarca" msd="NP" tag="NP" in="-1:nobj" out="2:assoc">Dinamarca</W>
@@ -70,7 +70,7 @@
 <W lemma="extranjero" msd="AN" tag="ADJ" in="-1:attr" out="">extranjeros</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-4:loc" out="1:nobj">en</W>
 <W lemma="China" msd="NP" tag="NP" in="-1:nobj" out="11:coref-var">China</W>
-<W lemma="," msd="XP" tag="CM" in="-8:pnct|-22:coref-id" out="">,</W>
+<W lemma="," msd="XP" tag="CM" in="-8:pnct|-22:coref-iden" out="">,</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="4:coord" out="">pero</W>
 <W lemma="en~cambio" msd="RG" tag="ADV" in="3:contr" out="">en cambio</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
@@ -96,8 +96,8 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="1:vobj">que</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="-1:vobj" out="1:dobj|5:loc|11:cons">hay</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
-<W lemma="desarrollo" msd="NC" tag="NC" in="-1:nobj" out="1:degr|2:attr">desarrollo</W>
-<W lemma="tan" msd="RG" tag="ADV" in="-1:degr" out="">tan</W>
+<W lemma="desarrollo" msd="NC" tag="NC" in="-1:nobj" out="1:quant|2:attr">desarrollo</W>
+<W lemma="tan" msd="RG" tag="ADV" in="-1:quant" out="">tan</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:attr" out="">rápido</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-5:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-20:assoc-const" out="1:nobj">el</W>

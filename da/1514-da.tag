@@ -71,7 +71,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="criminal" lemma="kriminel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">kriminelle</W>
 <W gloss="acquaintances" lemma="bekendt" msd="NCCPU==I" tag="NNP" in="-4:nobj" out="-3:attr|-1:attr">bekendte</W>
-<W gloss="was" lemma="dreje" msd="VADA=----A-" tag="VBD" in="" out="-10:subj|1:dobj|2:source|16:degr|17:pobj|26:pnct">drejede</W>
+<W gloss="was" lemma="dreje" msd="VADA=----A-" tag="VBD" in="" out="-10:subj|1:dobj|2:source|16:quant|17:pobj|26:pnct">drejede</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="according_to" lemma="ifølge" msd="SP" tag="IN" in="-2:source" out="1:nobj">ifølge</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|3:nobj|5:pnct|9:appa">den</W>
@@ -87,7 +87,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="44," lemma="44" msd="AC---U=--" tag="CD" in="-2:attr" out="1:pnct">44</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-16:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-16:quant" out="">kun</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-17:pobj" out="1:nobj">om</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="getting" lemma="skaffe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:iobj|2:dobj">skaffe</W>
@@ -226,7 +226,7 @@
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-4:ref|2:subj|3:[subj]" out="">der</W>
 <W gloss="voluntarily" lemma="frivillig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">frivilligt</W>
 <W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-1:mod|-2:subj|1:vobj">er</W>
-<W gloss="come" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir|4:mod|8:pnct|9:reas">kommet</W>
+<W gloss="come" lemma="komme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:@dir|4:mod|8:pnct|9:cause">kommet</W>
 <W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">hjem</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:mod" out="1:nobj">fra</W>
 <W gloss="Thailand" lemma="Thailand" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Thailand</W>
@@ -235,7 +235,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-9:reas" out="3:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-9:cause" out="3:vobj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="2:subj" out="">de</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="1:mod" out="">ellers</W>
 <W gloss="risked" lemma="risikere" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">risikerede</W>

@@ -115,9 +115,9 @@
 <W msd="SP" tag="IN" in="-4:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">will</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|2:ext">go</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:lobj|2:time">go</W>
 <W msd="ANP" tag="RB" in="-1:lobj" out="">abroad</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>

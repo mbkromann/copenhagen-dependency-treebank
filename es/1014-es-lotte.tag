@@ -19,9 +19,9 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">domiciliaria</W>
 <W lemma="municipal" msd="AN" tag="ADJ" in="-2:attr" out="1:pnct">municipal</W>
 <W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
-<W lemma="pero" msd="CC" tag="CCAD" in="2:struct" out="">Pero</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="2:scene" out="">Pero</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="tener" msd="VAD" tag="VLfin" in="6:qobj" out="-1:neg|-2:struct|1:dobj|4:prg">tiene</W>
+<W lemma="tener" msd="VAD" tag="VLfin" in="6:qobj" out="-1:neg|-2:scene|1:dobj|4:prg">tiene</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:dobj" out="2:vobj">por</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="">qué</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="-2:vobj" out="2:man">ser</W>
@@ -29,15 +29,15 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:man" out="">así,”</W>
 <W lemma="decir" msd="VAD" tag="VLfin" in="" out="-6:qobj|2:subj|3:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:namef" out="">Bente</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef|65:coref-id">Munck</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj" out="-1:namef|65:coref-iden">Munck</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="" out="1:nobj|2:pnct">La</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">contribución</W>
 <W lemma="&3a;" msd="XP" tag="COLON" in="-2:pnct" out="">:</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="13:bg" out="10:pnct">“Con</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="13:scene" out="10:pnct">“Con</W>
 <W lemma="respecto" msd="NC" tag="NC" in="" out="">respecto</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="1:nobj">a</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|62:coref-id">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|62:coref-iden">la</W>
 <W lemma="ley" msd="NC" tag="NC" in="-1:nobj" out="1:about">ley</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:about" out="1:nobj">de</W>
 <W lemma="asistencia" msd="NC" tag="NC" in="-1:nobj" out="1:appr">asistencia</W>
@@ -47,7 +47,7 @@
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
 <W lemma="todo" msd="AN" tag="QU" in="2:subj|3:[subj]" out="1:nobj">toda</W>
 <W lemma="persona" msd="NC" tag="NC" in="-1:nobj" out="">persona</W>
-<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-13:bg|-2:subj|1:vobj|10:pnct">puede</W>
+<W lemma="poder" msd="VAD" tag="VMfin" in="" out="-13:scene|-2:subj|1:vobj|10:pnct">puede</W>
 <W lemma="recibir" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-3:[subj]|1:dobj|3:goal">recibir</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:dobj" out="">subvención</W>
 <W lemma="incluso" msd="RG" tag="ADV" in="1:other" out="">incluso</W>
@@ -58,7 +58,7 @@
 <W lemma="asistente" msd="NC" tag="NC" in="-1:nobj|-40:coref-var" out="35:coref-var">asistente</W>
 <W lemma="domiciliario" msd="AN" tag="ADJ" in="-2:attr" out="">domiciliario</W>
 <W lemma="." msd="XP" tag="FS" in="-10:pnct" out="">.</W>
-<W lemma="el" msd="PD" tag="ART" in="2:subj|3:[subj]" out="1:nobj|10:pnct|13:assoc-const|57:coref-id">Los</W>
+<W lemma="el" msd="PD" tag="ART" in="2:subj|3:[subj]" out="1:nobj|10:pnct|13:assoc-const|57:coref-iden">Los</W>
 <W lemma="municipio" msd="NC" tag="NC" in="-1:nobj" out="">municipios</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="32:qobj" out="-2:subj|1:vobj|19:conj">deben</W>
 <W lemma="velar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-3:[subj]|1:pobj">velar</W>
@@ -66,7 +66,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:pobj" out="1:nobj">la</W>
 <W lemma="seguridad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">seguridad</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|16:coref-id">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|16:coref-iden">los</W>
 <W lemma="anciano" msd="NC" tag="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="," msd="XP" tag="CM" in="-10:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="10:coord" out="">y</W>
@@ -82,7 +82,7 @@
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-19:conj|-8:coref" out="-10:coord|-9:cond|1:vobj|5:goal">deberá</W>
 <W lemma="pagar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:iobj">pagar</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:iobj" out="1:nobj">a</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-16:coref-id" out="1:nobj|4:coref">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-16:coref-iden" out="1:nobj|4:coref">los</W>
 <W lemma="anciano" msd="NC" tag="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="para" msd="CS" tag="CSUBI" in="-5:goal" out="4:vobj">para</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
@@ -94,12 +94,12 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:attr" out="">domiciliaria,”</W>
 <W lemma="decir" msd="VAD" tag="VLfin" in="" out="-32:qobj|1:namef|2:subj|3:pnct">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:namef" out="">Bente</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj|-65:coref-id" out="4:coref">Munck</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:subj|-65:coref-iden" out="4:coref">Munck</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:man" out="">“Así</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="-1:man|1:subj|2:dobj|6:pnct|8:coref-var|10:conj">interpreto</W>
 <W lemma="yo" msd="PP" tag="PPX" in="-1:subj|-4:coref" out="9:coref">yo</W>
-<W lemma="el" msd="PD" tag="ART" in="-2:dobj|-62:coref-id" out="1:nobj">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-2:dobj|-62:coref-iden" out="1:nobj">la</W>
 <W lemma="ley" msd="NC" tag="NC" in="-1:nobj" out="1:about">ley</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:about" out="1:nobj">de</W>
 <W lemma="asistencia" msd="NC" tag="NC" in="-1:nobj" out="">asistencia</W>
@@ -115,14 +115,14 @@
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
 <W lemma="lamentable" msd="RG" tag="ADV" in="1:prg" out="">Lamentablemente</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-1:prg|1:subj|10:pnct|13:conj">son</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:subj|-57:coref-id" out="1:nobj|2:ref|3:relr|11:coref">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:subj|-57:coref-iden" out="1:nobj|2:ref|3:relr|11:coref">los</W>
 <W lemma="municipio" msd="NC" tag="NC" in="-1:nobj" out="">municipios</W>
 <W lemma="quien" msd="PT" tag="REL" in="-2:ref|1:subj" out="">quienes</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:relr" out="-1:subj|1:dobj">evalúan</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">las</W>
 <W lemma="necesidad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.subj|1:{agent}">necesidades</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">de</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-36:coref" out="1:nobj|23:coref-id">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-36:coref" out="1:nobj|23:coref-iden">los</W>
 <W lemma="anciano" msd="NC" tag="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-10:pnct" out="">–</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
@@ -134,18 +134,18 @@
 <W lemma="vista" msd="NC" tag="NC" in="-1:nobj" out="">vista</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-4:attr" out="">económico</W>
 <W lemma="." msd="XP" tag="FS" in="-6:pnct" out="">.</W>
-<W lemma="pero" msd="CC" tag="CCAD" in="4:struct" out="">Pero</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="4:scene" out="">Pero</W>
 <W lemma="este" msd="" tag="DM" in="3:subj" out="1:nobj">esta</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">solución</W>
-<W lemma="solo" msd="AN" tag="ADJ" in="1:degr" out="">solo</W>
-<W lemma="funcionar" msd="VAD" tag="VLfin" in="" out="-3:subj|-1:degr|-4:struct|1:time|4:pnct|5:cause|16:pnct">funciona</W>
+<W lemma="solo" msd="AN" tag="ADJ" in="1:quant" out="">solo</W>
+<W lemma="funcionar" msd="VAD" tag="VLfin" in="" out="-3:subj|-1:quant|-4:scene|1:time|4:pnct|5:cause|16:pnct">funciona</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:time" out="1:attr|2:nobj">a</W>
 <W lemma="corto" msd="AN" tag="ADJ" in="-1:attr" out="">corto</W>
 <W lemma="plazo" msd="NC" tag="NC" in="-2:nobj" out="">plazo</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
 <W lemma="ya~que" msd="CS" tag="CSUBF" in="-5:cause" out="7:vobj">ya que</W>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="6:time" out="3:vobj">cuando</W>
-<W lemma="el" msd="PD" tag="ART" in="-23:coref-id|2:subj" out="1:nobj|5:coref|44:coref-id">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-23:coref-iden|2:subj" out="1:nobj|5:coref|44:coref-iden">los</W>
 <W lemma="anciano" msd="NC" tag="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="necesitar" msd="VAD" tag="VLfin" in="-3:vobj" out="-2:subj|1:dobj|2:pnct">necesitan</W>
 <W lemma="ayuda" msd="NC" tag="NC" in="-1:dobj" out="">ayuda</W>
@@ -171,8 +171,8 @@
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="5:coord" out="">y</W>
 <W lemma="el" msd="PD" tag="ART" in="4:subj" out="1:nobj">las</W>
-<W lemma="residencia" msd="NC" tag="NC" in="-1:nobj" out="1:ben">residencias</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">para</W>
+<W lemma="residencia" msd="NC" tag="NC" in="-1:nobj" out="1:goal">residencias</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">para</W>
 <W lemma="anciano" msd="NC" tag="NC" in="-1:nobj" out="">ancianos</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-11:conj" out="-5:coord|-4:subj|1:preds">están</W>
 <W lemma="lleno" msd="AN" tag="ADJ" in="-1:preds" out="">llenas</W>
@@ -189,7 +189,7 @@
 <W lemma="culpable" msd="AN" tag="ADJ" in="-1:preds" out="1:pobj">culpables</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:nobj" out="3:vobj">que</W>
-<W lemma="el" msd="PD" tag="ART" in="-44:coref-id|2:subj" out="1:nobj">los</W>
+<W lemma="el" msd="PD" tag="ART" in="-44:coref-iden|2:subj" out="1:nobj">los</W>
 <W lemma="anciano" msd="AN" tag="ADJ" in="-1:nobj" out="11:nobj">ancianos</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-3:vobj" out="-2:subj|1:loc|4:loc">acabarán</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">en</W>

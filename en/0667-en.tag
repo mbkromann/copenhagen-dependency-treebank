@@ -97,8 +97,8 @@
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">really</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|2:aobj|3:time">went</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:degr">well</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:quant">well</W>
 <W msd="NC=S" tag="NN" in="-3:time" out="">today</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>

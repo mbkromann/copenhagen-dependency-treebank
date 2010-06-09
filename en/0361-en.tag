@@ -103,8 +103,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-21:[subj]|1:dobj|4:preds">make</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">demonstrations</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-4:preds" out="-1:degr">credible</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-4:preds" out="-1:quant">credible</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-7:cond" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
@@ -211,7 +211,7 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">freedom</W>
 <W msd="CC" tag="CC" in="19:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="18:reas" out="">therefore</W>
+<W msd="ANP" tag="RB" in="18:cause" out="">therefore</W>
 <W msd="PI" tag="DT" in="17:subj" out="1:attr|2:nobj|5:appa|8:conj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">credible</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">defence</W>
@@ -229,7 +229,7 @@
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="">Denmark</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]">concerned</W>
-<W msd="VADR" tag="VBP" in="-27:conj" out="-17:subj|-5:mod|-19:coord|2:preds|3:pnct|4:mod|7:pnct|-18:reas">are</W>
+<W msd="VADR" tag="VBP" in="-27:conj" out="-17:subj|-5:mod|-19:coord|2:preds|3:pnct|4:mod|7:pnct|-18:cause">are</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">particularly</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">necessary</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>

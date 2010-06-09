@@ -127,8 +127,8 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:preds">get</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">accurate</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">accurate</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-15:qobj|1:subj|17:pnct">says</W>

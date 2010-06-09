@@ -90,8 +90,8 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-8:conj" out="-1:subj|-2:coord|1:add|3:preds|4:mod">var</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-1:add" out="">også</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="difficult" lemma="besværlig" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">besværligt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="difficult" lemma="besværlig" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:quant">besværligt</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:mod" out="1:nobj">med</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|3:pnct|4:ref|5:rel">alle</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj">de</W>
@@ -259,8 +259,8 @@
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="sale" lemma="salg" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">salg</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="4:nobj">af</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">cirka</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="2:numm" out="-1:degr|1:attr">en</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">cirka</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="2:numm" out="-1:quant|1:attr">en</W>
 <W gloss="quarter" lemma="kvart" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">kvart</W>
 <W gloss="million" lemma="million" msd="NCCSU==I" tag="NN" in="-4:nobj" out="-2:numm|1:nobj">million</W>
 <W gloss="pots" lemma="krukke" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">krukker</W>

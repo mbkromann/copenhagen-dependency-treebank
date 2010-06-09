@@ -48,12 +48,12 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="September" lemma="september" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:nobj">september</W>
 <W gloss="1982," lemma="1982" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1982</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-7:mod|1:subj|2:mod|3:mod|4:add|5:degr|6:preds|9:pnct">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-7:mod|1:subj|2:mod|3:mod|4:add|5:quant|6:preds|9:pnct">var</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="well" lemma="vel" msd="RGU" tag="RP" in="-2:mod" out="">vel</W>
 <W gloss="really" lemma="egentlig" msd="RGU" tag="RP" in="-3:mod" out="">egentlig</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-4:add" out="">også</W>
-<W gloss="mostly" lemma="meget" msd="ANS---=-R" tag="JJS" in="-5:degr" out="">mest</W>
+<W gloss="mostly" lemma="meget" msd="ANS---=-R" tag="JJS" in="-5:quant" out="">mest</W>
 <W gloss="on" lemma="af" msd="SP" tag="IN" in="-6:preds" out="2:nobj">af</W>
 <W gloss="tactical" lemma="taktisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">taktiske</W>
 <W gloss="grounds" lemma="grund" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">grunde</W>
@@ -127,8 +127,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="for" lemma="at" msd="CS" tag="IN" in="-7:nobj" out="3:vobj">at</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="2:subj" out="">den</W>
-<W gloss="again" lemma="på_ny" msd="RGU" tag="RP" in="1:ext" out="">på_ny</W>
-<W gloss="turn" lemma="dukke" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:ext|1:avobj">dukker</W>
+<W gloss="again" lemma="på_ny" msd="RGU" tag="RP" in="1:time" out="">på_ny</W>
+<W gloss="turn" lemma="dukke" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:avobj">dukker</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="">op</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -244,8 +244,8 @@
 <W gloss="play" lemma="spille" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:avobj">spille</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">med</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="radical" lemma="radikal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:degr">radikale</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="radical" lemma="radikal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="-1:quant">radikale</W>
 <W gloss="proposal" lemma="forslag" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="-1:attr|1:pnct|2:ref|4:rel">forslag</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj|3:[subj]" out="">der</W>

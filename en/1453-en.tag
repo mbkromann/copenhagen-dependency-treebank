@@ -19,8 +19,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|5:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:ext|2:vobj|26:pnct">have</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|1:time|2:vobj|26:pnct">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:pobj|4:dobj">stress</W>
@@ -51,8 +51,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="5:nobj">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|3:preds|11:pnct">is</W>
 <W msd="PD" tag="DT" in="1:mod" out="">all</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="RB" in="-3:preds" out="-1:degr">often</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="RB" in="-3:preds" out="-1:quant">often</W>
 <W msd="SP" tag="IN" in="-5:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:preds">are</W>

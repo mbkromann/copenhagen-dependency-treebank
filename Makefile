@@ -8,11 +8,11 @@ missing:
 
 webmap:
 	rm -f tmp/webmap.tag
-	for lang in `echo da en it es` ; do \
+	for lang in `echo da de en it es` ; do \
 		cat $$lang/*.tag | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
 	done
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
-	cd treebank.dk/maps; cp MapDep___.html index.html
+	cd treebank.dk/map; cp MapDep___.html index.html
 	make webmap.pngs
 
 webmap.clear: 

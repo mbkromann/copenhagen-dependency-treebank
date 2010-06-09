@@ -163,8 +163,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:vobj">help</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj">assure</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:mod|3:attr|5:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">restrained</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">restrained</W>
 <W msd="ANP" tag="JJ" in="-3:attr" out="">collective</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">bargaining</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">result</W>

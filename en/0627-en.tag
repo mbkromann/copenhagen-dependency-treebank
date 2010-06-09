@@ -237,8 +237,8 @@
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="-5:mod" out="4:nobj">in</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">ever</W>
-<W msd="ANC" tag="JJR" in="1:degr" out="-1:mod">more</W>
-<W msd="VAG" tag="VBG" in="1:mod" out="-1:degr">compromising</W>
+<W msd="ANC" tag="JJR" in="1:quant" out="-1:mod">more</W>
+<W msd="VAG" tag="VBG" in="1:mod" out="-1:quant">compromising</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">shapes</W>
 <W msd="XP" tag="." in="-43:pnct" out="">.</W>
 </s>

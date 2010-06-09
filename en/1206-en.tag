@@ -35,8 +35,8 @@
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-3:dobj|-2:[subj]">control</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PT" tag="WDT" in="-6:ref|2:subj" out="">which</W>
-<W msd="ANP" tag="RB" in="1:reas" out="">therefore</W>
-<W msd="VADR" tag="VBP" in="-5:conj" out="-2:subj|-3:coord|1:dobj|2:@dir|-1:reas">drive</W>
+<W msd="ANP" tag="RB" in="1:cause" out="">therefore</W>
+<W msd="VADR" tag="VBP" in="-5:conj" out="-2:subj|-3:coord|1:dobj|2:@dir|-1:cause">drive</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">him</W>
 <W msd="SP" tag="IN" in="-2:@dir" out="1:nobj">into</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|3:ref|5:rel">a</W>

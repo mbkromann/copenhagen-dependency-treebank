@@ -11,8 +11,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">national</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">service</W>
 <W msd="U=" tag="TO" in="-8:mod" out="2:nobj">to</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">one</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">month</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-13:mod" out="1:nobj">at</W>
@@ -238,8 +238,8 @@
 <W msd="NC=S" tag="NN" in="" out="-26:mod|-8:subj|1:mod|6:dobj|15:pnct">emphasise</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">same</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">same</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">report</W>
 <W msd="SP" tag="IN" in="-6:dobj" out="4:vobj">that</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">security</W>
@@ -247,8 +247,8 @@
 <W msd="NC=S" tag="NN" in="1:time" out="">today</W>
 <W msd="VADR" tag="VBP" in="-4:vobj" out="-2:subj|-1:time|1:lobj">lie</W>
 <W msd="PI" tag="DT" in="-1:lobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">different</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">different</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">place</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

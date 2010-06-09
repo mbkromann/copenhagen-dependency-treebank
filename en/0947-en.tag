@@ -84,7 +84,7 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">party</W>
 <W msd="VA" tag="MD" in="-3:conj" out="-2:subj|1:vobj">would</W>
-<W msd="SP" tag="IN" in="-1:vobj" out="-3:[subj]|1:dobj|16:pnct|17:cont">like</W>
+<W msd="SP" tag="IN" in="-1:vobj" out="-3:[subj]|1:dobj|16:pnct|17:time">like</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:nobj|3:pnct|4:conj|12:conj">an</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">ombudsman</W>
@@ -101,7 +101,7 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">industrial</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">policy</W>
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-17:cont" out="5:vobj">while</W>
+<W msd="CS" tag="IN" in="-17:time" out="5:vobj">while</W>
 <W msd="VAG" tag="VBG" in="4:mod" out="1:pobj">according</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">SF</W>

@@ -59,8 +59,8 @@
 <W gloss="Danish_education" lemma="danskundervisning" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">danskundervisningen</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-7:man" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:attr|5:nobj">en</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="6:pobj">mere</W>
-<W gloss="interesting" lemma="spændende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:degr|2:conj">spændende</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="6:pobj">mere</W>
+<W gloss="interesting" lemma="spændende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:quant|2:conj">spændende</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="natural" lemma="naturlig" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">naturlig</W>
 <W gloss="way" lemma="måde" msd="NCCSU==I" tag="NN" in="-5:nobj" out="1:pnct">måde</W>
@@ -123,8 +123,8 @@
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">Vi</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|30:pnct">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|2:preds">været</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="fortunate" lemma="heldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr|1:other">heldige</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="fortunate" lemma="heldig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:quant|1:other">heldige</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:other" out="1:vobj">at</W>
 <W gloss="getting" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">få</W>
 <W gloss="help" lemma="hjælp" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:conj">hjælp</W>
@@ -197,8 +197,8 @@
 <p>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|5:[subj]" out="">Vi</W>
-<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:reas|4:vobj|12:pnct|15:conj|25:pnct">er</W>
-<W gloss="for" lemma="af" msd="SP" tag="IN" in="-1:reas" out="2:nobj">af</W>
+<W gloss="have" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:cause|4:vobj|12:pnct|15:conj|25:pnct">er</W>
+<W gloss="for" lemma="af" msd="SP" tag="IN" in="-1:cause" out="2:nobj">af</W>
 <W gloss="natural" lemma="naturlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">naturlige</W>
 <W gloss="reasons" lemma="grund" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">grunde</W>
 <W gloss="begun" lemma="begynde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:dobj|6:loc">begyndt</W>

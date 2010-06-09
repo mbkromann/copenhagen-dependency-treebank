@@ -18,8 +18,8 @@
 <W msd="VADR" tag="VBP" in="" out="-9:mod|-1:subj">have</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|4:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|2:mod">analyse</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="RB" in="-2:mod" out="-1:degr">closely</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="RB" in="-2:mod" out="-1:quant">closely</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

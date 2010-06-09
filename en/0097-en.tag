@@ -93,8 +93,8 @@
 <W msd="NP=S" tag="NNP" in="1:mod" out="">KV</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">government</W>
 <W msd="VADR" tag="VBZ" in="-16:conj" out="-3:subj|-4:coord|2:mod">governs</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
-<W msd="SP" tag="IN" in="-2:mod" out="-1:degr|1:nobj">at</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">entirely</W>
+<W msd="SP" tag="IN" in="-2:mod" out="-1:quant|1:nobj">at</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mercy</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
@@ -105,10 +105,10 @@
 <W msd="XP" tag="." in="-26:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="15:qobj" out="-1:subj|-3:reas|1:dobj|13:pnct|14:pnct">have</W>
+<W msd="VADR" tag="VBP" in="15:qobj" out="-1:subj|-3:cause|1:dobj|13:pnct|14:pnct">have</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="1:mod|2:nobj|4:mod">few</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">strong</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">feelings</W>
@@ -166,9 +166,9 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">an</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">earlier</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="2:nobj">decision</W>
-<W msd="ANP" tag="RB" in="2:ext" out="">always</W>
+<W msd="ANP" tag="RB" in="2:time" out="">always</W>
 <W msd="U=" tag="TO" in="-2:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:ext|1:pobj">point</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:time|1:pobj">point</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">leader</W>

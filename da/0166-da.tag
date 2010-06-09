@@ -136,11 +136,11 @@
 <W gloss="next" lemma="næste" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">næste</W>
 <W gloss="stop" lemma="stop" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">stop</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-14:other|1:subj|2:vobj|11:pnct|16:att|17:&lt;mod&gt;|18:&lt;mod&gt;|39:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-14:other|1:subj|2:vobj|11:pnct|16:eval|17:&lt;mod&gt;|18:&lt;mod&gt;|39:pnct">kan</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:preds">være</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="certain" lemma="sikker" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">sikker</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="certain" lemma="sikker" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">sikker</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="meeting" lemma="møde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">møde</W>
@@ -152,7 +152,7 @@
 </p>
 <p>
 <s>
-<W gloss="Of_course" lemma="selvsagt" msd="ANP---=-R" tag="JJ" in="-16:att" out="">Selvsagt</W>
+<W gloss="Of_course" lemma="selvsagt" msd="ANP---=-R" tag="JJ" in="-16:eval" out="">Selvsagt</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="-17:&lt;mod&gt;" out="">også</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-18:&lt;mod&gt;" out="1:nobj">på</W>
 <W gloss="the_night_train" lemma="nattog" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:@dir|5:pnct|6:ref|9:rel">nattoget</W>
@@ -164,13 +164,13 @@
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-6:ref|3:time" out="">hvor</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj" out="">man</W>
 <W gloss="of_course" lemma="jo" msd="RGU" tag="RP" in="1:other" out="">jo</W>
-<W gloss="save" lemma="spare" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-2:subj|-3:time|-1:other|1:dobj|6:reas">sparer</W>
+<W gloss="save" lemma="spare" msd="VADR=----A-" tag="VBD" in="-9:rel" out="-2:subj|-3:time|-1:other|1:dobj|6:cause">sparer</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|4:nobj">en</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="expensive" lemma="dyr" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:pnct|1:pnct">dyr</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W gloss="hotelovernatning" lemma="hotelovernatning" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">hotelovernatning</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-6:cause" out="2:vobj">fordi</W>
 <W gloss="you're" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
 <W gloss="travelling" lemma="rejse" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:time">rejser</W>
 <W gloss="at" lemma="om" msd="SP" tag="IN" in="-1:time" out="1:nobj">om</W>

@@ -47,8 +47,8 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:preds|8:pnct|11:conj|29:pnct">er</W>
 <W gloss="the_UN's" lemma="FN" msd="NP--G==-" tag="NNP" in="-1:preds" out="3:attr|4:possd|5:other">FNs</W>
 <W gloss="to_date" lemma="hidtil" msd="RGU" tag="RP" in="1:time" out="">hidtil</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="-1:time">mest</W>
-<W gloss="far-reaching" lemma="vidtgående" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:attr" out="-1:degr">vidtgående</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="-1:time">mest</W>
+<W gloss="far-reaching" lemma="vidtgående" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:attr" out="-1:quant">vidtgående</W>
 <W gloss="move" lemma="træk" msd="NCNSU==I" tag="NN" in="-4:possd" out="">træk</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-5:other" out="1:nobj">i</W>
 <W gloss="the_war" lemma="krig" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">krigen</W>
@@ -241,8 +241,8 @@
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="moving" lemma="flytte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj|4:@dir">flytte</W>
-<W gloss="just_under" lemma="knap" msd="RGU" tag="RP" in="1:degr" out="">knap</W>
-<W gloss="30,000" lemma="30.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">30.000</W>
+<W gloss="just_under" lemma="knap" msd="RGU" tag="RP" in="1:quant" out="">knap</W>
+<W gloss="30,000" lemma="30.000" msd="AC---U=--" tag="CD" in="-2:dobj" out="-1:quant|1:nobj">30.000</W>
 <W gloss="Muslims" lemma="muslim" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">muslimer</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-4:@dir" out="1:other|4:conj">ud</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:other" out="1:nobj">af</W>

@@ -99,8 +99,8 @@
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">Most</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Danes</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|2:dobj|16:pnct">eat</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="-2:dobj" out="-1:degr|1:mod|2:mod|3:nobj|4:pnct|5:ref|6:rel">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:dobj" out="-1:quant|1:mod|2:mod|3:nobj|4:pnct|5:ref|6:rel">many</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">saturated</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">fatty</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">acids</W>
@@ -157,8 +157,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod">the</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">fatty</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">acid</W>
-<W msd="VAP" tag="VBN" in="-3:mod" out="1:degr|2:mod">eaten</W>
-<W msd="ANS" tag="JJS" in="-1:degr" out="">most</W>
+<W msd="VAP" tag="VBN" in="-3:mod" out="1:quant|2:mod">eaten</W>
+<W msd="ANS" tag="JJS" in="-1:quant" out="">most</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:rel">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">south</W>
@@ -205,8 +205,8 @@
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|2:dobj|4:pobj">get</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr|1:nobj">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant|1:nobj">much</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">protein</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
@@ -221,8 +221,8 @@
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="3:attr|4:possd">our</W>
 <W msd="PD" tag="DT" in="1:mod" out="">all</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">great</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">great</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="1:pobj">consumption</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">beef</W>

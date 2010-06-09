@@ -20,8 +20,8 @@
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
 <W lemma="fort" msd="RG" tag="PTKVZ" in="-2:part" out="">fort</W>
 <W lemma="-" msd="XP" tag="$(" in="-3:pnct" out="">-</W>
-<W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">deshalb</W>
-<W lemma="wenden" msd="VA" tag="VVFIN" in="-20:conj" out="-1:reas|1:subj|2:robj|3:pobj">wandte</W>
+<W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">deshalb</W>
+<W lemma="wenden" msd="VA" tag="VVFIN" in="-20:conj" out="-1:cause|1:subj|2:robj|3:pobj">wandte</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj" out="">ich</W>
 <W lemma="ich" msd="PR" tag="PRF" in="-2:robj" out="">mich</W>
 <W lemma="an" msd="SP" tag="APPR" in="-3:pobj" out="1:nobj">an</W>
@@ -87,8 +87,8 @@
 <W lemma="sicher" msd="AN" tag="ADJD" in="-1:epi" out="">sicher</W>
 <W lemma="auch" msd="RG" tag="ADV" in="-2:add" out="">auch</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:preds" out="1:nobj">das</W>
-<W lemma="Beste" msd="NC" tag="NN" in="-1:nobj" out="1:ben">Beste</W>
-<W lemma="für" msd="SP" tag="APPR" in="-1:ben" out="1:nobj">für</W>
+<W lemma="Beste" msd="NC" tag="NN" in="-1:nobj" out="1:goal">Beste</W>
+<W lemma="für" msd="SP" tag="APPR" in="-1:goal" out="1:nobj">für</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:nobj" out="">ihn</W>
 <W lemma="sein" msd="VAF" tag="VAINF" in="-7:vobj" out="-4:preds|-8:[subj]">sein</W>
 <W lemma="." msd="XP" tag="$." in="-14:pnct" out="">.</W>
@@ -122,10 +122,10 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-3:dobj" out="6:vobj">dass</W>
 <W lemma="wir" msd="PP" tag="PPER" in="5:subj" out="">wir</W>
 <W lemma="wir" msd="PR" tag="PRF" in="4:dobj" out="">uns</W>
-<W lemma="noch" msd="RG" tag="ADV" in="3:att" out="">noch</W>
+<W lemma="noch" msd="RG" tag="ADV" in="3:eval" out="">noch</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="2:neg" out="">nicht</W>
-<W lemma="lange" msd="RG" tag="ADV" in="1:dur" out="">lange</W>
-<W lemma="kennen" msd="VA" tag="VVFIN" in="-6:vobj" out="-5:subj|-2:neg|-4:dobj|-1:dur|-3:att|1:pnct">kennen</W>
+<W lemma="lange" msd="RG" tag="ADV" in="1:time" out="">lange</W>
+<W lemma="kennen" msd="VA" tag="VVFIN" in="-6:vobj" out="-5:subj|-2:neg|-4:dobj|-1:time|-3:eval|1:pnct">kennen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="2:coord" out="">aber</W>
 <W lemma="darum" msd="RG" tag="PAV" in="1:pobj" out="">darum</W>
@@ -161,8 +161,8 @@
 <W lemma="ziehen" msd="VA" tag="VVFIN" in="" out="-3:coord|1:subj|2:dobj|4:@dir|7:pnct|-1:fpreds">zog</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-2:dobj" out="">sie</W>
-<W lemma="ganz" msd="AN" tag="ADJD" in="1:degr" out="">ganz</W>
-<W lemma="fest" msd="AN" tag="ADJD" in="-4:@dir" out="-1:degr|1:pobj">fest</W>
+<W lemma="ganz" msd="AN" tag="ADJD" in="1:quant" out="">ganz</W>
+<W lemma="fest" msd="AN" tag="ADJD" in="-4:@dir" out="-1:quant|1:pobj">fest</W>
 <W lemma="an" msd="SP" tag="APPR" in="-1:pobj" out="1:nobj">an</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="-1:nobj" out="">sich</W>
 <W lemma="." msd="XP" tag="$." in="-7:pnct" out="">.</W>
@@ -174,9 +174,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-3:nobj" out="">Weihnachtshochzeit</W>
 <W lemma="?" msd="XP" tag="$." in="-4:pnct" out="">?</W>
 <W lemma="," msd="XP" tag="$," in="-5:pnct" out="">,</W>
-<W lemma="fragen" msd="VA" tag="VVFIN" in="" out="-6:qobj|1:subj|2:ext|3:pnct">fragte</W>
+<W lemma="fragen" msd="VA" tag="VVFIN" in="" out="-6:qobj|1:subj|2:time|3:pnct">fragte</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="">er</W>
-<W lemma="weiter" msd="RG" tag="PTKVZ" in="-2:ext" out="">weiter</W>
+<W lemma="weiter" msd="RG" tag="PTKVZ" in="-2:time" out="">weiter</W>
 <W lemma="." msd="XP" tag="$." in="-3:pnct" out="">.</W>
 </s>
 </p>

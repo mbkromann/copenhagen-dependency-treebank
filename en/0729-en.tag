@@ -87,10 +87,10 @@
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|1:@loc|2:pnct|3:degr|4:pnct|5:mod">comes</W>
+<W msd="VADR" tag="VBZ" in="-14:conj" out="-1:subj|-2:coord|1:@loc|2:pnct|3:quant|4:pnct|5:mod">comes</W>
 <W msd="ANP" tag="RB" in="-1:@loc" out="">here</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-3:degr" out="">too</W>
+<W msd="ANP" tag="RB" in="-3:quant" out="">too</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:mod" out="1:pobj">along</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

@@ -57,8 +57,8 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="2:pnct" out=""> - </W>
-<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-16:conj" out="-2:pnct|-1:reas|1:subj|2:dobj">fik</W>
+<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-16:conj" out="-2:pnct|-1:cause|1:subj|2:dobj">fik</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="addressed" lemma="fat" msd="RGU" tag="RP" in="-2:dobj" out="1:pobj">fat</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
@@ -180,9 +180,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|9:[nobj]" out="7:rel">det</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:conj" out="-1:subj|-2:coord|1:neg|2:ext|3:preds|4:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-14:conj" out="-1:subj|-2:coord|1:neg|2:time|3:preds|4:pnct">er</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:ext" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="">altid</W>
 <W gloss="what" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-3:preds" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="it's" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>

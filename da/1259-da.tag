@@ -102,10 +102,10 @@
 <W gloss="Children's" lemma="barn" msd="NCNPG==I" tag="NNP" in="2:subj|3:[subj]" out="1:possd">Børns</W>
 <W gloss="circumstances" lemma="vilkår" msd="NCNPU==I" tag="NNP" in="-1:possd" out="">vilkår</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="18:qobj" out="-2:subj|-3:pnct|1:vobj|17:pnct">har</W>
-<W gloss="changed" lemma="ændre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|3:degr|4:mod|7:pnct">ændret</W>
+<W gloss="changed" lemma="ændre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|3:quant|4:mod|7:pnct">ændret</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:mod" out="6:nobj">så</W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:degr" out="-1:mod">meget</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="-3:quant" out="-1:mod">meget</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-4:mod" out="1:attr|2:nobj">de</W>
 <W gloss="recent" lemma="sen" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="">seneste</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">år</W>
@@ -239,8 +239,8 @@
 <p>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="forget" lemma="glemme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:degr|2:dobj|16:pnct">glemmer</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">helt</W>
+<W gloss="forget" lemma="glemme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:quant|2:dobj|16:pnct">glemmer</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">helt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="look" lemma="se" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj">se</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|4:pnct|5:conj">på</W>

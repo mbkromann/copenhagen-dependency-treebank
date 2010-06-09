@@ -147,9 +147,9 @@
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="-1:subj" out="">du</W>
 <W gloss="allowed" lemma="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-2:dobj" out="1:nobj">lov</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="bring" lemma="bringe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:succ">bringe</W>
+<W gloss="bring" lemma="bringe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:time">bringe</W>
 <W gloss="the_programme" lemma="program" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">programmet</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-2:succ" out="">senere</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-2:time" out="">senere</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-7:pnct" out="">?</W>
 </s>
 </p>
@@ -199,8 +199,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Then" lemma="da" msd="RGU" tag="RP" in="1:cont" out="">Da</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:cont|1:subj|2:other|3:vobj|7:pnct|10:conj|14:pnct">ville</W>
+<W gloss="Then" lemma="da" msd="RGU" tag="RP" in="1:time" out="">Da</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|2:other|3:vobj|7:pnct|10:conj|14:pnct">ville</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|2:[subj]|3:[subj]" out="">det</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="-2:other" out="">ellers</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:vobj">have</W>
@@ -249,8 +249,8 @@
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">dansk</W>
 <W gloss="TV" lemma="tv" msd="NCNSU==I" tag="NN" in="2:subj" out="-1:attr">TV</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:neg|1:degr|2:pobj">gør</W>
-<W gloss="much" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-1:degr" out="">meget</W>
+<W gloss="makes" lemma="gøre" msd="VADR=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:neg|1:quant|2:pobj">gør</W>
+<W gloss="much" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-1:quant" out="">meget</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="-6:nobj">i</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
 </s>

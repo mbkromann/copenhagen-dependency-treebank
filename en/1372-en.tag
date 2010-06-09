@@ -59,8 +59,8 @@
 <W msd="CC" tag="CC" in="-23:coord" out="1:&lt;mod&gt;|2:&lt;pred&gt;">but</W>
 <W msd="ANP" tag="RB" in="-1:&lt;mod&gt;" out="">rather</W>
 <W msd="PI" tag="DT" in="-2:&lt;pred&gt;" out="2:attr|5:nobj|6:pnct|7:mod">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">new</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">new</W>
 <W msd="NC=S" tag="NN" in="2:nobj" out="1:nobj">hip</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hop</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-2:nobj">song</W>

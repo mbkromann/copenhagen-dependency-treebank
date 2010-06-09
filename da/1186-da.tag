@@ -100,8 +100,8 @@
 <W gloss="Texas" lemma="Texas" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Texas</W>
 <W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="1:mod" out="">stadig</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-13:conj" out="-6:subj|-1:mod|-7:coord|2:preds">er</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="proud" lemma="stolt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">stolt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="proud" lemma="stolt" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">stolt</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:possd">deres</W>
 <W gloss="efforts" lemma="indsats" msd="NCCSU==I" tag="NN" in="-1:possd" out="">indsats</W>
@@ -155,8 +155,8 @@
 <W gloss="economy" lemma="økonomi" msd="NCCSU==I" tag="NN" in="-1:possd" out="">økonomi</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-18:conj" out="-7:subj|-8:coord|1:vobj">vil</W>
 <W gloss="decrease" lemma="aftage" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|2:mod">aftage</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="dramatically" lemma="voldsom" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:degr">voldsomt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="dramatically" lemma="voldsom" msd="ANP---=-R" tag="JJ" in="-2:mod" out="-1:quant">voldsomt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>

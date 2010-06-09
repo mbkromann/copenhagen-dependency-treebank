@@ -9,7 +9,7 @@
 </p>
 <p>
 <s>
-<W lemma="un" msd="PI" tag="DET&3a;indef" in="48:+CONST&3a;elab" out="17:AGENTIVE&3a;expl/(infatti)">Un</W>
+<W lemma="un" msd="PI" tag="DET&3a;indef" in="48:+CONJ&3a;elab" out="17:AGENTIVE&3a;expl/(infatti)">Un</W>
 <W lemma="bel" msd="NC" tag="NOM" in="" out="">bel</W>
 <W lemma="salto" msd="NC" tag="NOM" in="" out="">salto</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -57,7 +57,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Nakskov</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="esistere" msd="VADR" tag="VER&3a;pres" in="" out="-56:+SCENE|-48:+CONST&3a;elab|16:CONJ/e">esistono</W>
+<W lemma="esistere" msd="VADR" tag="VER&3a;pres" in="" out="-56:+SCENE|-48:+CONJ&3a;elab|16:CONJ&3a;add/e">esistono</W>
 <W lemma="ora" msd="RG" tag="ADV" in="" out="">ora</W>
 <W lemma="due" msd="AN" tag="ADJ" in="" out="">due</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadre</W>
@@ -73,7 +73,7 @@
 <W lemma="entrambi" msd="AN" tag="ADJ" in="" out="">entrambe</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadre</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:CONJ/e" out="25:+CONST&3a;elab">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-16:CONJ&3a;add/e" out="25:+CONJ&3a;elab">hanno</W>
 <W lemma="problema" msd="NC" tag="NOM" in="" out="">problemi</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nel</W>
 <W lemma="trovare" msd="VAF" tag="VER&3a;infi" in="" out="">trovare</W>
@@ -98,7 +98,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Rudbjerg</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">IF</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-25:+CONST&3a;elab" out="22:CONJ/e">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ&3a;elab" out="22:CONJ&3a;add/e">è</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="passo" msd="NC" tag="NOM" in="" out="">passo</W>
@@ -120,7 +120,7 @@
 <W lemma="salire" msd="VAG" tag="VER&3a;geru" in="" out="">salendo</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="classifica" msd="NC" tag="NOM" in="" out="">classifica</W>
-<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-22:CONJ/e" out="61:+CONST&3a;elab/ATTR1">potrebbe</W>
+<W lemma="potere" msd="VA" tag="VER&3a;cond" in="-22:CONJ&3a;add/e" out="61:+CONJ&3a;elab/ATTR1">potrebbe</W>
 <W lemma="essere" msd="VAF" tag="VER&3a;infi" in="" out="">esserci</W>
 <W lemma="spazio" msd="NC" tag="NOM" in="" out="">spazio</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -136,7 +136,7 @@
 <p>
 <s>
 <W lemma="-" msd="XP" tag="PON" in="" out="">-</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="13:CONJ/e/ATTR1">Hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="13:CONJ&3a;add/e/ATTR1">Hanno</W>
 <W lemma="molto" msd="PI" tag="PRO&3a;indef" in="" out="">molti</W>
 <W lemma="giovane" msd="NC" tag="NOM" in="" out="">giovani</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -149,7 +149,7 @@
 <s>
 <W lemma="e" msd="CS" tag="CON" in="" out="">E</W>
 <W lemma="quando" msd="RG" tag="ADV" in="" out="">quando</W>
-<W lemma="volere" msd="VADR" tag="VER&3a;futu" in="-13:CONJ/e/ATTR1" out="23:CONTR&3a;sbj/ma/ATTR1">vorranno</W>
+<W lemma="volere" msd="VADR" tag="VER&3a;futu" in="-13:CONJ&3a;add/e/ATTR1" out="23:CONTR&3a;sbj/ma/ATTR1">vorranno</W>
 <W lemma="crescere" msd="VAF" tag="VER&3a;infi" in="" out="">crescere</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
@@ -181,7 +181,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-61:+CONST&3a;elab/ATTR1" out="40:+CONJ/(e)/ATTR2">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-61:+CONJ&3a;elab/ATTR1" out="40:+CONJ&3a;add/(e)/ATTR2">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Gerner</W>
 <W lemma="Jørgensen" msd="NP" tag="NPR" in="" out="">Jørgensen</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -221,7 +221,7 @@
 <W lemma="quello" msd="PD" tag="PRO&3a;demo" in="" out="">quella</W>
 <W lemma="squadra" msd="NC" tag="NOM" in="" out="">squadra</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-40:+CONJ/(e)/ATTR2" out="-27:+SCENE">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="-40:+CONJ&3a;add/(e)/ATTR2" out="-27:+SCENE">dice</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">René</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Thauner</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>

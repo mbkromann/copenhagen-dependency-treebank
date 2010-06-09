@@ -65,7 +65,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="After" lemma="efter" msd="SP" tag="IN" in="10:succ" out="1:nobj">Efter</W>
+<W gloss="After" lemma="efter" msd="SP" tag="IN" in="10:time" out="1:nobj">Efter</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="having" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">være</W>
 <W gloss="been" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:vobj">blevet</W>
@@ -75,7 +75,7 @@
 <W gloss="in" lemma="ved" msd="SP" tag="IN" in="-3:loc" out="1:nobj">ved</W>
 <W gloss="the_army" lemma="hær" msd="NCCSG==D" tag="NN" in="-1:nobj" out="1:possd">Hærens</W>
 <W gloss="Officersskole" lemma="officersskole" msd="NCCSU==I" tag="NN" in="-1:possd" out="">Officersskole</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-10:succ|1:subj|2:loc|12:pnct|5:conj">fortsatte</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-10:time|1:subj|2:loc|12:pnct|5:conj">fortsatte</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|4:[subj]" out="">han</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:loc" out="1:nobj">på</W>
 <W gloss="school" lemma="skolebænk" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">skolebænken</W>
@@ -105,8 +105,8 @@
 <W gloss="1975," lemma="1975" msd="AC---U=--" tag="CD" in="-11:time" out="">1975</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-15:[subj]|1:dur|5:other|7:loc|-1:coord">fortsatte</W>
-<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:dur" out="2:nobj">i</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="-14:conj" out="-15:[subj]|1:time|5:other|7:loc|-1:coord">fortsatte</W>
+<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
 <W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="1:other" out="">endnu</W>
 <W gloss="a_few" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="-2:nobj" out="-1:other|1:nobj">nogle</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
@@ -177,8 +177,8 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-8:&lt;pobj&gt;" out="1:nobj">af</W>
 <W gloss="the_board" lemma="bestyrelse" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">bestyrelsen</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W gloss="the_School" lemma="skole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:ben">Skolen</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:ben" out="1:nobj">for</W>
+<W gloss="the_School" lemma="skole" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:goal">Skolen</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:goal" out="1:nobj">for</W>
 <W gloss="Aviation_Education" lemma="luftfartsuddannelse" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">Luftfartsuddannelserne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-15:&lt;pobj&gt;" out="1:nobj">af</W>
@@ -209,17 +209,17 @@
 <W gloss="Danop" lemma="Danop" msd="NP--U==-" tag="NNP" in="-3:appr" out="">Danop</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|1:dur|6:preds|-1:coord">var</W>
-<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:dur" out="3:succ">i</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|1:time|6:preds|-1:coord">var</W>
+<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:time" out="3:time">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="2:tobj" out="1:nobj">en</W>
 <W gloss="number_of_years" lemma="årrække" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">årrække</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:succ" out="-2:tobj|1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:time" out="-2:tobj|1:nobj">efter</W>
 <W gloss="1985" lemma="1985" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1985</W>
 <W gloss="appraiser" lemma="taksator" msd="NCCSU==I" tag="NN" in="-6:preds" out="1:pobj">taksator</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W gloss="Danish" lemma="dansk" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">Dansk</W>
-<W gloss="Pool" lemma="pool" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:ben">Pool</W>
-<W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:ben" out="1:nobj">for</W>
+<W gloss="Pool" lemma="pool" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:goal">Pool</W>
+<W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:goal" out="1:nobj">for</W>
 <W gloss="Aviation_Insurance" lemma="luftfartsforsikring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">Luftfartsforsikring</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>

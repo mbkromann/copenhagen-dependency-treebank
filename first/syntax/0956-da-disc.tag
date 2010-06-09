@@ -65,8 +65,8 @@
 <W gloss="work" lemma="fungere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]">fungere</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="7:nobj">det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:subj|1:reas|2:preds|5:pnct">er</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-23:conj" out="-1:subj|1:cause|2:preds|5:pnct">er</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">et</W>
 <W gloss="unconditional" lemma="ubetinget" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">ubetinget</W>
 <W gloss="requirement" lemma="krav" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">krav</W>
@@ -190,9 +190,9 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="consider" lemma="anse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:reas|3:pobj|5:pnct|15:pnct|16:time|23:pnct">anser</W>
+<W gloss="consider" lemma="anse" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|2:cause|3:pobj|5:pnct|15:pnct|16:time|23:pnct">anser</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="5:nobj">det</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-2:reas" out="">derfor</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-2:cause" out="">derfor</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:pobj" out="1:preds">for</W>
 <W gloss="risky" lemma="risikabel" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">risikabelt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>

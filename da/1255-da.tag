@@ -70,16 +70,16 @@
 <p>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="composed" lemma="udarbejde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:reas|2:dobj|23:pnct">udarbejdede</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="composed" lemma="udarbejde" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:cause|2:dobj|23:pnct">udarbejdede</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="1:nobj|2:pnct|3:ref|7:rel">en</W>
 <W gloss="article" lemma="artikel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">artikel</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|4:subj" out="">der</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:prec" out="2:conj">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:time" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="criticised" lemma="kritisere" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-4:subj|-3:prec|1:dobj">kritiserede</W>
+<W gloss="criticised" lemma="kritisere" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-4:subj|-3:time|1:dobj">kritiserede</W>
 <W gloss="Danida's" lemma="Danida" msd="NP--G==-" tag="NNP" in="-1:dobj" out="1:mod|2:possd">Danidas</W>
 <W gloss="continued" lemma="fortsætte" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:mod" out="">fortsatte</W>
 <W gloss="engagement" lemma="engagement" msd="NCNSU==I" tag="NN" in="-2:possd" out="1:pobj">engagement</W>
@@ -172,8 +172,8 @@
 <W gloss="Tidende's" lemma="tidende" msd="NCCSG==I" tag="NN" in="2:subj|8:[subj]" out="-1:mod|1:possd">Tidendes</W>
 <W gloss="rejection" lemma="afslag" msd="NCNSU==I" tag="NN" in="-1:possd" out="">afslag</W>
 <W gloss="did_come" lemma="komme" msd="VADA=----A-" tag="VBD" in="" out="-2:subj|4:tobj|6:conj|12:pnct">kom</W>
-<W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="1:prec" out="">først</W>
-<W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="2:tobj" out="-1:prec|1:nobj">seks</W>
+<W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="1:time" out="">først</W>
+<W gloss="six" lemma="seks" msd="AC---U=--" tag="CD" in="2:tobj" out="-1:time|1:nobj">seks</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-4:tobj" out="-2:tobj">senere</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
@@ -189,11 +189,11 @@
 <p>
 <s>
 <W gloss="The_Minister_for_Foreign_Affairs" lemma="udenrigsminister" msd="NCCSU==D" tag="NN" in="1:subj" out="">Udenrigsministeren</W>
-<W gloss="replied" lemma="svare" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|4:succ|5:pnct">svarede</W>
+<W gloss="replied" lemma="svare" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|4:time|5:pnct">svarede</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="3:tobj" out="1:nobj">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-4:succ" out="-3:tobj">senere</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="-4:time" out="-3:tobj">senere</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
@@ -214,8 +214,8 @@
 </s>
 <s>
 <W gloss="somewhat" lemma="nogenlunde" msd="ANP---=-R" tag="JJ" in="1:mod" out="">Nogenlunde</W>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="-1:mod">samtidig</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:cont|1:subj|2:dobj|25:pnct">fik</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="-1:mod">samtidig</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|2:dobj|25:pnct">fik</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="reports" lemma="melding" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="1:pobj|3:pnct|4:nobj">meldinger</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>

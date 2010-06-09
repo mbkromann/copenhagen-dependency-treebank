@@ -14,7 +14,7 @@
 <W lemma="io" msd="PP" tag="PRO&3a;pers" in="" out="">io</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="39:+TELIC&3a;dir/con_questo/ATTR">dice</W>
+<W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="39:+TELIC&3a;cons.dir/con_questo/ATTR">dice</W>
 <W lemma="Kirsten" msd="NP" tag="NPR" in="" out="">Kirsten</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Jacobsen</W>
 <W lemma="riferire" msd="VAG" tag="VER&3a;geru" in="" out="">riferendosi</W>
@@ -53,7 +53,7 @@
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Jacobsen</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:+TELIC&3a;dir/con_questo/ATTR" out="55:+CONJ/(e)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-39:+TELIC&3a;cons.dir/con_questo/ATTR" out="55:+CONJ&3a;add/(e)">ha</W>
 <W lemma="prendere" msd="VAP" tag="VER&3a;pper" in="" out="">preso</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
 <W lemma="lettera" msd="NC" tag="NOM" in="" out="">lettera</W>
@@ -108,7 +108,7 @@
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="" out="">nella</W>
 <W lemma="suo" msd="PO" tag="PRO&3a;poss" in="" out="">sua</W>
 <W lemma="denuncia" msd="NC" tag="NOM" in="" out="">denuncia</W>
-<W lemma="desiderare" msd="VADR" tag="VER&3a;pres" in="-55:+CONJ/(e)" out="">desidera</W>
+<W lemma="desiderare" msd="VADR" tag="VER&3a;pres" in="-55:+CONJ&3a;add/(e)" out="">desidera</W>
 <W lemma="chiedere" msd="VAF" tag="VER&3a;infi" in="" out="">chiedere</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">al</W>
 <W lemma="capo" msd="NC" tag="NOM" in="" out="">capo</W>
@@ -117,7 +117,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="indagare" msd="VAF" tag="VER&3a;infi" in="" out="">indagare</W>
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="56:+CONST&3a;elab">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="56:+CONJ&3a;elab">l'</W>
 <W lemma="associazione" msd="NC" tag="NOM" in="" out="">Associazione</W>
 <W lemma="nazionale" msd="AN" tag="ADJ" in="" out="">nazionale</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Ungbo</W>
@@ -161,7 +161,7 @@
 <W lemma="settimana" msd="NC" tag="NOM" in="" out="">settimane</W>
 <W lemma="fare" msd="VADR" tag="VER&3a;pres" in="" out="">fa</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="48:TELIC&3a;dir/(perciò)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="48:TELIC&3a;cons.dir/(perciò)">ha</W>
 <W lemma="fare" msd="VAP" tag="VER&3a;pper" in="" out="">fatto</W>
 <W lemma="fallimento" msd="NC" tag="NOM" in="" out="">fallimento</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
@@ -173,7 +173,7 @@
 <W lemma="corona" msd="NC" tag="NOM" in="" out="">corone</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
-<W lemma="passo" msd="AN" tag="ADJ" in="-56:+CONST&3a;elab" out="-25:+SCENE">passa</W>
+<W lemma="passo" msd="AN" tag="ADJ" in="-56:+CONJ&3a;elab" out="-25:+SCENE">passa</W>
 <W lemma="giorno" msd="NC" tag="NOM" in="" out="">giorno</W>
 <W lemma="senza" msd="SP" tag="PRE" in="" out="">senza</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
@@ -209,7 +209,7 @@
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">2200</W>
 <W lemma="camera" msd="NC" tag="NOM" in="" out="">camere</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-48:TELIC&3a;dir/(perciò)" out="">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-48:TELIC&3a;cons.dir/(perciò)" out="">sono</W>
 <W lemma="minacciare" msd="VAP" tag="VER&3a;pper" in="" out="">minacciati</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="" out="">un'</W>

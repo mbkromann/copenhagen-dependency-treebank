@@ -133,10 +133,10 @@
 <W gloss="way" lemma="vej" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:@dir">vej</W>
 <W gloss="toward" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="going" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|6:pnct|7:mod|3:reas">gå</W>
+<W gloss="going" lemma="gå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:pobj|6:pnct|7:mod|3:cause">gå</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the_dogs" lemma="hund" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">hundene</W>
-<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-3:reas" out="1:nobj">på_grund_af</W>
+<W gloss="because_of" lemma="på_grund_af" msd="SP" tag="IN" in="-3:cause" out="1:nobj">på_grund_af</W>
 <W gloss="his" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sit</W>
 <W gloss="drinking" lemma="drikkeri" msd="NCNSU==I" tag="NN" in="-1:possd" out="">drikkeri</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-6:pnct" out=""> - </W>

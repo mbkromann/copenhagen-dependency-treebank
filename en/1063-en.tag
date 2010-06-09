@@ -197,7 +197,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]">sail</W>
 <W msd="CC" tag="CC" in="14:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="12:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="12:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">twenty</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
@@ -209,7 +209,7 @@
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">couple</W>
-<W msd="VADA" tag="VBD" in="-19:conj" out="-2:subj|-8:mod|-7:mod|-14:coord|-12:reas|1:dobj|5:mod">bought</W>
+<W msd="VADA" tag="VBD" in="-19:conj" out="-2:subj|-8:mod|-7:mod|-14:coord|-12:cause|1:dobj|5:mod">bought</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:attr|3:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">old</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="">half-timbered</W>

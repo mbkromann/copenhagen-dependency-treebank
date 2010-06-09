@@ -42,7 +42,7 @@
 <p>
 <s>
 <W gloss="The_Social_Democrats" lemma="socialdemokrati" msd="NCNSU==D" tag="NN" in="1:subj" out="">Socialdemokratiet</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|19:reas|27:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:preds|19:cause|27:pnct">er</W>
 <W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -61,11 +61,11 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_prosecuting_authorities" lemma="anklagemyndighed" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">anklagemyndigheden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-19:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-19:cause" out="2:vobj">fordi</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|4:time">var</W>
-<W gloss="prosecutor" lemma="anklager" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:dur">anklager</W>
-<W gloss="on" lemma="under" msd="SP" tag="IN" in="-1:dur" out="1:nobj">under</W>
+<W gloss="prosecutor" lemma="anklager" msd="NCCSU==I" tag="NN" in="-1:preds" out="1:time">anklager</W>
+<W gloss="on" lemma="under" msd="SP" tag="IN" in="-1:time" out="1:nobj">under</W>
 <W gloss="the_case" lemma="sag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sagen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:time" out="1:nobj">i</W>
 <W gloss="1982" lemma="1982" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1982</W>

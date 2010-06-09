@@ -89,9 +89,9 @@
 <W msd="CS" tag="IN" in="-15:mod" out="3:vobj">unless</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">replacement</W>
 <W msd="NC=P" tag="NNS" in="1:dobj" out="-1:mod">workers</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:dobj|1:vobj|1:vobj|2:dur">are</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-1:dobj|1:vobj|1:vobj|2:time">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj|-1:vobj" out="">hired</W>
-<W msd="SP" tag="IN" in="-2:dur" out="">during</W>
+<W msd="SP" tag="IN" in="-2:time" out="">during</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">course</W>
 <W msd="NC=S" tag="NN" in="" out="">period</W>
@@ -107,7 +107,7 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PI" tag="DT" in="3:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="3:pobj">desire</W>
-<W msd="VADR" tag="VBZ" in="" out="-9:mod|1:expl|1:vobj|13:pnct|16:reas|37:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-9:mod|1:expl|1:vobj|13:pnct|16:cause|37:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:expl|-1:vobj" out="-3:dobj">arisen</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="">have</W>
@@ -123,7 +123,7 @@
 <W msd="XP" tag="&3a;" in="-13:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:add" out="1:pnct">also</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-16:reas" out="-2:add|7:vobj">because</W>
+<W msd="CS" tag="IN" in="-16:cause" out="-2:add|7:vobj">because</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">target</W>
 <W msd="NC=P" tag="NNS" in="" out="1:mod">groups</W>
@@ -219,8 +219,8 @@
 <W msd="NC=P" tag="NNS" in="-3:nobj|-1:nobj" out="-1:mod|-1:mod|-2:attr|1:pnct|2:ref|4:rel">jobs</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-2:ref|2:subj" out="">which</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
-<W msd="VAF" tag="VB" in="-4:rel" out="-2:subj|-1:ext">bear</W>
+<W msd="ANP" tag="RB" in="1:time" out="">often</W>
+<W msd="VAF" tag="VB" in="-4:rel" out="-2:subj|-1:time">bear</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="1:pobj">mark</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>

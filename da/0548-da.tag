@@ -80,10 +80,10 @@
 <s>
 <W gloss="The_Earth's" lemma="Jorden" msd="NC[CN][SP]G==[DI]" tag="NN" in="2:subj|8:[subj]|10:[subj]" out="1:possd">Jordens</W>
 <W gloss="magnetic_field" lemma="magnetfelt" msd="NCNSU==I" tag="NN" in="-1:possd" out="">magnetfelt</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:ext|6:vobj|11:pnct">har</W>
-<W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:ext" out="1:nobj|2:dur">mange</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:time|6:vobj|11:pnct">har</W>
+<W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:time" out="1:nobj|2:time">mange</W>
 <W gloss="times" lemma="gang" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">gange</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:dur" out="1:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="1:nobj">i</W>
 <W gloss="the_Earth" lemma="Jorden" msd="NC[CN][SP]G==[DI]" tag="NN" in="-1:nobj" out="1:possd">Jordens</W>
 <W gloss="history" lemma="historie" msd="NCCSU==I" tag="NN" in="-1:possd" out="">historie</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-8:[subj]|2:vobj">været</W>
@@ -126,9 +126,9 @@
 <W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-3:tobj" out="1:pnct|5:xpl">hurtigt</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <hi>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="2:degr" out="">kun</W>
-<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
-<W gloss="10,000" lemma="10.000" msd="AC---U=--" tag="CD" in="-5:xpl" out="-2:degr|-1:degr|1:nobj|2:pnct">10.000</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="2:quant" out="">kun</W>
+<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
+<W gloss="10,000" lemma="10.000" msd="AC---U=--" tag="CD" in="-5:xpl" out="-2:quant|-1:quant|1:nobj|2:pnct">10.000</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-2:pnct" out="">!</W>
 </hi>
@@ -211,10 +211,10 @@
 </s>
 <s>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj" out="">Den</W>
-<W gloss="uses" lemma="benytte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:reas|7:pnct">benytter</W>
+<W gloss="uses" lemma="benytte" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:cause|7:pnct">benytter</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:dobj" out="1:nobj">flere</W>
 <W gloss="things" lemma="ting" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">ting</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:reas" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-3:cause" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="orient" lemma="orientere" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">orientere</W>
 <W gloss="itself" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
@@ -277,8 +277,8 @@
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:loc" out="2:nobj">på</W>
 <W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">lang</W>
 <W gloss="distance" lemma="afstand" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr">afstand</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:reas">og</W>
-<W gloss="thus" lemma="derved" msd="RGU" tag="RP" in="-1:reas" out="">derved</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:cause">og</W>
+<W gloss="thus" lemma="derved" msd="RGU" tag="RP" in="-1:cause" out="">derved</W>
 <W gloss="know" lemma="vide" msd="VAF-=----A-" tag="VB" in="-6:conj" out="-7:[subj]|-2:coord|1:pnct|2:dobj">vide</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:dobj|2:[pred]" out="2:rel">hvor</W>

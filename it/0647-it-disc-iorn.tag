@@ -59,13 +59,13 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-26:+AGENTIVE&3a;expl/(infatti)" out="-9:cond|1:cause|19:pnct|27:CONS">è</W>
 <W lemma="perché" msd="RG" tag="ADV" in="-1:cause" out="2:vobj">perché</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="1:subj|4:coref" out="">questa</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:ben|3:preds|7:pnct|9:cause">è</W>
-<W lemma="per" msd="SP" tag="PRE" in="-1:ben" out="1:nobj">per</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:subj|1:goal|3:preds|7:pnct|9:cause">è</W>
+<W lemma="per" msd="SP" tag="PRE" in="-1:goal" out="1:nobj">per</W>
 <W lemma="loro" msd="PP" tag="PRO&3a;pers" in="-1:nobj" out="">loro</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-3:preds" out="-4:coref|1:nobj">una</W>
 <W lemma="giornata" msd="NC" tag="NOM" in="-1:nobj" out="2:attr">giornata</W>
-<W lemma="particolarmente" msd="RG" tag="ADV" in="1:degr" out="">particolarmente</W>
-<W lemma="insolito" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">insolita</W>
+<W lemma="particolarmente" msd="RG" tag="ADV" in="1:quant" out="">particolarmente</W>
+<W lemma="insolito" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">insolita</W>
 <W lemma="," msd="XP" tag="PON" in="-7:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="2:neg">non</W>
 <W compound="¹essendo²ci" lemma="essere" msd="VAG" tag="VER&3a;geru" in="-9:cause|0:²pobj¹" out="-1:neg|2:preds|0:²pobj¹">essendoci</W>
@@ -83,7 +83,7 @@
 <W lemma="cinematografico" msd="AN" tag="ADJ" in="-1:attr" out="">cinematografici</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:cons" out="1:pnct">,quindi</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-27:CONS" out="-7:subj|-2:cons|1:time|2:vobj|5:pnct|10:+CONJ/(e)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-27:CONS" out="-7:subj|-2:cons|1:time|2:vobj|5:pnct|10:+CONJ&3a;add/(e)">ha</W>
 <W lemma="temporaneamente" msd="RG" tag="ADV" in="-1:time" out="">temporaneamente</W>
 <W lemma="perdere" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-9:[subj]|1:dobj">perso</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:dobj" out="1:nobj">di</W>
@@ -93,7 +93,7 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="1:nobj" out="-1:neg">che</W>
 <W lemma="di" msd="SP" tag="PRE" in="2:prg" out="-1:nobj|1:nobj">di</W>
 <W lemma="solito" msd="NC" tag="NOM" in="-1:nobj" out="">solito</W>
-<W lemma="trascorrere" msd="VADR" tag="VER&3a;cpre" in="-10:+CONJ/(e)" out="-2:prg|1:time|3:fpreds|13:pnct|20:AGENTIVE&3a;expl/(infatti)">trascorrano</W>
+<W lemma="trascorrere" msd="VADR" tag="VER&3a;cpre" in="-10:+CONJ&3a;add/(e)" out="-2:prg|1:time|3:fpreds|13:pnct|20:AGENTIVE&3a;expl/(infatti)">trascorrano</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:time" out="1:nobj">il</W>
 <W lemma="venerdì" msd="NC" tag="NOM" in="-1:nobj" out="">venerdì</W>
 <W lemma="sedere" msd="VAP" tag="VER&3a;pper" in="-3:fpreds" out="1:loc|3:man">seduti</W>

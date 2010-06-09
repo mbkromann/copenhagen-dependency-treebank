@@ -47,8 +47,8 @@
 <W lemma="si" msd="PP" tag="PRO&3a;pers" in="2:robj" out="">Si</W>
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="">è</W>
 <W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="" out="-2:robj|2:vobj|3:subj|10:cons|26:pnct">sono</W>
-<W lemma="inoltre" msd="RG" tag="ADV" in="1:struct" out="">inoltre</W>
-<W lemma="sviluppare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:struct|18:conj|23:conj">sviluppate</W>
+<W lemma="inoltre" msd="RG" tag="ADV" in="1:scene" out="">inoltre</W>
+<W lemma="sviluppare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="-1:scene|18:conj|23:conj">sviluppate</W>
 <W lemma="cura" msd="NC" tag="NOM" in="-3:subj" out="1:attr|2:attr">cure</W>
 <W lemma="farmacologico" msd="AN" tag="ADJ" in="-1:attr" out="">farmacologiche</W>
 <W lemma="per" msd="SP" tag="PRE" in="-2:attr" out="1:nobj">per</W>

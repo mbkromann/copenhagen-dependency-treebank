@@ -104,8 +104,8 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">meaningful</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">work</W>
 <W msd="XP" tag="&3a;" in="-8:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
-<W msd="SP" tag="IN" in="-10:mod" out="1:nobj|4:preds|-1:ext">with</W>
+<W msd="ANP" tag="RB" in="1:time" out="">often</W>
+<W msd="SP" tag="IN" in="-10:mod" out="1:nobj|4:preds|-1:time">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">positive</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">effect</W>
@@ -170,9 +170,9 @@
 <W msd="NC=P" tag="NNS" in="3:subj" out="2:conj">Nurses</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">helpers</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:avobj|2:dur|7:pnct">go</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:avobj|2:time|7:pnct">go</W>
 <W msd="SP" tag="IN" in="-1:avobj" out="">along</W>
-<W msd="SP" tag="IN" in="-2:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-2:time" out="1:nobj">during</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj|3:lobj">trips</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:coord|1:[lobj]">stays</W>
@@ -183,8 +183,8 @@
 <W msd="PD" tag="DT" in="4:subj" out="2:mod">The</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">sclerosis</W>
 <W msd="NC=P" tag="NNS" in="-2:mod" out="-1:mod">victims</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
-<W msd="VADR" tag="VBP" in="" out="-4:subj|6:dobj|7:pnct|-1:ext">have</W>
+<W msd="ANP" tag="RB" in="1:time" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-4:subj|6:dobj|7:pnct|-1:time">have</W>
 <W msd="ANP" tag="JJ" in="5:attr" out="1:pnct|2:conj|4:conj">psychic</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="">social</W>

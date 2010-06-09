@@ -191,10 +191,10 @@
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:pnct|4:pnct|6:xpl|3:degr">said</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:pnct|4:pnct|6:xpl|3:quant">said</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-3:degr" out="">too</W>
+<W msd="ANP" tag="RB" in="-3:quant" out="">too</W>
 <W msd="XP" tag="&3a;" in="-4:pnct" out="">:</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">We</W>
 <W msd="VADA" tag="VBD" in="-6:xpl" out="-1:subj|1:vobj">were</W>

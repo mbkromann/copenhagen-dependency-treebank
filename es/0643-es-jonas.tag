@@ -19,8 +19,8 @@
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
 <W lemma="contar" msd="VAD" tag="VLfin" in="" out="1:iobj|5:dobj">Contaba</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:iobj" out="2:nobj">a</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="pocos" msd="AN" tag="QU" in="-2:nobj" out="-1:degr|1:nobj">poca</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="pocos" msd="AN" tag="QU" in="-2:nobj" out="-1:quant|1:nobj">poca</W>
 <W lemma="gente" msd="NC" tag="NC" in="-1:nobj" out="">gente</W>
 <W lemma="el" msd="PD" tag="ART" in="-5:dobj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="1:dobj" out="">que</W>
@@ -79,10 +79,10 @@
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="era" msd="VAD" tag="VEfin" in="-5:conj" out="-1:coord|4:preds|5:subj">era</W>
-<W lemma="cada" msd="AN" tag="QU" in="3:degr/time" out="1:nobj">cada</W>
+<W lemma="cada" msd="AN" tag="QU" in="3:quant/time" out="1:nobj">cada</W>
 <W lemma="vez" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">vez</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj|1:degr" out="">mÃ¡s</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-4:preds" out="-3:degr/time|-1:degr">difÃ­cil</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj|1:quant" out="">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-4:preds" out="-3:quant/time|-1:quant">difÃ­cil</W>
 <W lemma="cambiar" msd="VAF lexical verb infinite" tag="VLinf" in="-5:subj" out="1:pobj&3a;nobj">cambiar</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj&3a;nobj" out="1:nobj">de</W>
 <W lemma="identidad" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{form}">identidad</W>
@@ -103,8 +103,8 @@
 <W lemma="hotel" msd="NC" tag="NC" in="-1:nobj" out="2:conj">hoteles</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="bar" msd="NC" tag="NC" in="-2:conj" out="-1:coord|2:attr">bares</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">mÃ¡s</W>
-<W lemma="exclusivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">exclusivos</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">mÃ¡s</W>
+<W lemma="exclusivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">exclusivos</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
 <W lemma="lograr" msd="VAD" tag="VLfin" in="" out="1:dobj|3:pobj|12:pnct|19:conj|22:pnct">Logra</W>
 <W lemma="contacto" msd="NC" tag="NC" in="-1:dobj" out="1:aobj.subj|1:{agent}#">contacto</W>
@@ -112,10 +112,10 @@
 <W lemma="con" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">con</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">un</W>
 <W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="4:attr">hombre</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="3:degr" out="2:conj">mÃ¡s</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="3:quant" out="2:conj">mÃ¡s</W>
 <W lemma="o" msd="CC" tag="CC" in="1:coord" out="">o</W>
 <W lemma="menos" msd="RG" tag="ADV" in="-2:conj" out="-1:coord">menos</W>
-<W lemma="lindo" msd="AN" tag="ADJ" in="-4:attr" out="-3:degr|2:conj">lindo</W>
+<W lemma="lindo" msd="AN" tag="ADJ" in="-4:attr" out="-3:quant|2:conj">lindo</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="noble" msd="AN" tag="ADJ" in="-2:conj" out="-1:coord">noble</W>
 <W lemma="," msd="XP" tag="CM" in="-12:pnct" out="">,</W>
@@ -130,11 +130,11 @@
 <W lemma="copa" msd="NC" tag="NC" in="-1:nobj" out="">copa</W>
 <W lemma="." msd="XP" tag="FS" in="-22:pnct" out="">.</W>
 <W lemma="-" msd="XP" tag="DASH" in="5:pnct" out="">-</W>
-<W lemma="generalmente" msd="RG" tag="ADV" in="4:struct" out="1:pnct">Generalmente</W>
+<W lemma="generalmente" msd="RG" tag="ADV" in="4:scene" out="1:pnct">Generalmente</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="2:subj" out="1:nobj">el</W>
 <W lemma="hombre" msd="NC" tag="NC" in="-1:nobj" out="">hombre</W>
-<W lemma="saber" msd="VAD" tag="VLfin" in="" out="-5:pnct|-4:struct|-2:subj|1:dobj|7:pnct">sabe</W>
+<W lemma="saber" msd="VAD" tag="VLfin" in="" out="-5:pnct|-4:scene|-2:subj|1:dobj|7:pnct">sabe</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:dobj" out="2:vobj">que</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="tratar" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:robj|1:pobj">trata</W>
@@ -151,16 +151,16 @@
 <W lemma="casar" msd="VAF" tag="VLadj" in="-1:attr" out="">casados</W>
 <W lemma="," msd="XP" tag="CM" in="3:pnct" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|2:subj" out="">que</W>
-<W lemma="por~ejemplo" msd="RG" tag="ADV" in="1:ext" out="">por ejemplo</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-5:relpa" out="-3:pnct|-2:subj|-1:ext|1:pobj|5:pnct">estÃ¡n</W>
+<W lemma="por~ejemplo" msd="RG" tag="ADV" in="1:time" out="">por ejemplo</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-5:relpa" out="-3:pnct|-2:subj|-1:time|1:pobj|5:pnct">estÃ¡n</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="viaje" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{about}">viaje</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{about}" out="1:nobj">de</W>
 <W lemma="negocio" msd="NC" tag="NC" in="-1:nobj" out="">negocios</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
 <W lemma="tener" msd="VAD" tag="VLfin" in="" out="-15:subj|2:dobj|5:time|23:pnct">tienen</W>
-<W lemma="menos" msd="RG" tag="ADV" in="1:degr" out="">menos</W>
-<W lemma="cargo" msd="NC" tag="NC" in="-2:dobj" out="-1:degr|1:pobj.dobj|1:{patient}#">cargo</W>
+<W lemma="menos" msd="RG" tag="ADV" in="1:quant" out="">menos</W>
+<W lemma="cargo" msd="NC" tag="NC" in="-2:dobj" out="-1:quant|1:pobj.dobj|1:{patient}#">cargo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}#" out="1:nobj">de</W>
 <W lemma="conciencia" msd="NC" tag="NC" in="-1:nobj" out="">conciencia</W>
 <W lemma="cuando" msd="CS" tag="CSUBX" in="-5:time|2:time" out="12:conj">cuando</W>

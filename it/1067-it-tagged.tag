@@ -121,7 +121,7 @@
 <W lemma="lavorio|lavoro" msd="NC" tag="NOM" in="" out="">lavori</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="allestimento" msd="NC" tag="NOM" in="" out="">allestimento</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="realizzare" msd="VAP" tag="VER:pper" in="" out="">realizzati</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>

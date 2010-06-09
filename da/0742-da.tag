@@ -125,8 +125,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:comp" out="2:pobj">Så</W>
-<W gloss="stupid" lemma="dum" msd="ANPCSU=IU" tag="JJ" in="15:preds" out="-1:comp|3:pnct">dum</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:resem" out="2:pobj">Så</W>
+<W gloss="stupid" lemma="dum" msd="ANPCSU=IU" tag="JJ" in="15:preds" out="-1:resem|3:pnct">dum</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="you" lemma="du" msd="PP2CSU-[YN]U" tag="PRP" in="-1:nobj" out="">dig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -152,8 +152,8 @@
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:preds|15:conj|35:pnct">var</W>
-<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="">lige</W>
-<W gloss="before" lemma="før" msd="CS" tag="IN" in="-2:preds" out="-1:degr|1:pnct|3:vobj">før</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="">lige</W>
+<W gloss="before" lemma="før" msd="CS" tag="IN" in="-2:preds" out="-1:quant|1:pnct|3:vobj">før</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|6:[subj]" out="">de</W>
 <W gloss="grabbing" lemma="tage" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-1:subj|1:dobj|2:loc|5:conj|8:pnct">tog</W>
@@ -190,8 +190,8 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:struct|2:neg|3:preds|4:pnct|7:conj|46:pnct">er</W>
-<W gloss="usually" lemma="ellers" msd="RGU" tag="RP" in="-1:struct" out="">ellers</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:scene|2:neg|3:preds|4:pnct|7:conj|46:pnct">er</W>
+<W gloss="usually" lemma="ellers" msd="RGU" tag="RP" in="-1:scene" out="">ellers</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="allowed" lemma="tillade" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:preds" out="">tilladt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>

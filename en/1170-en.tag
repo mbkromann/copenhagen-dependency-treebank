@@ -3,8 +3,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Stenbjerre</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:dobj|5:accom|10:pnct|14:conj">chose</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj">the</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">commercial</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">commercial</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">solution</W>
 <W msd="SP" tag="IN" in="-5:accom" out="1:nobj">without</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">distinction</W>

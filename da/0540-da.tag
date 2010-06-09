@@ -91,11 +91,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="6:vobj">at</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="5:expl" out="">der</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="4:succ" out="2:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="4:time" out="2:nobj">efter</W>
 <W gloss="short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="">kort</W>
 <W gloss="period" lemma="tid" msd="NCCSG==I" tag="NN" in="-2:nobj" out="-1:attr|1:possd">tids</W>
 <W gloss="warming" lemma="opvarmning" msd="NCCSU==I" tag="NN" in="-1:possd" out="">opvarmning</W>
-<W gloss="begins" lemma="begynde" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:expl|-4:succ|1:dobj">begynder</W>
+<W gloss="begins" lemma="begynde" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:expl|-4:time|1:dobj">begynder</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="fordampning" lemma="fordampning" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj|5:pobj">fordampning</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -124,9 +124,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="distill" lemma="destillere" msd="VADR=----A-" tag="VBD" in="4:cond" out="1:subj|2:dur|3:pnct">Destillerer</W>
+<W gloss="distill" lemma="destillere" msd="VADR=----A-" tag="VBD" in="4:cond" out="1:subj|2:time|3:pnct">Destillerer</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj" out="">vi</W>
-<W gloss="more" lemma="videre" msd="RGU" tag="RP" in="-2:dur" out="">videre</W>
+<W gloss="more" lemma="videre" msd="RGU" tag="RP" in="-2:time" out="">videre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-4:cond|1:subj|2:vobj|8:pnct">vil</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">vi</W>
@@ -142,8 +142,8 @@
 <p>
 <s>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Vi</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:struct|2:vobj|15:pnct">kan</W>
-<W gloss="thus" lemma="altså" msd="RGU" tag="RP" in="-1:struct" out="">altså</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:scene|2:vobj|15:pnct">kan</W>
+<W gloss="thus" lemma="altså" msd="RGU" tag="RP" in="-1:scene" out="">altså</W>
 <W gloss="see" lemma="se" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:pnct|2:dobj">se</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>

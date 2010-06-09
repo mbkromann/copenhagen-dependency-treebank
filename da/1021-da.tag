@@ -43,8 +43,8 @@
 <s>
 <W gloss="The" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj|6:[subj]" out="3:attr|4:nobj">Den</W>
 <W gloss="once" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="2:time" out="">tidligere</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="extensive" lemma="omfangsrig" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="-2:time|-1:degr">omfangsrige</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="extensive" lemma="omfangsrig" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="-2:time|-1:quant">omfangsrige</W>
 <W gloss="Kosan_group" lemma="Kosan-gruppe" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">Kosan-gruppe</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:vobj|5:pnct">er</W>
 <W gloss="scattered" lemma="spredt" msd="ANP[CN]SU=IU" tag="JJ" in="-1:vobj" out="-6:[subj]|1:pobj">spredt</W>
@@ -66,14 +66,14 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Kosan" lemma="Kosan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:name">Kosan</W>
 <W gloss="Holding" lemma="Holding" msd="NP--U==-" tag="NNP" in="-1:name" out="">Holding</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-4:preds|1:degr|2:subj|-5:coord">er</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-11:conj" out="-4:preds|1:quant|2:subj|-5:coord">er</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="Crisplant" lemma="Crisplant" msd="NP--U==-" tag="NNP" in="-2:subj" out="">Crisplant</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:struct" out="">Samtidig</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|5:vobj|11:pnct">har</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:scene" out="">Samtidig</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|5:vobj|11:pnct">har</W>
 <W gloss="the_investment_consortium" lemma="investeringskonsortium" msd="NCNSU==D" tag="NN" in="-1:subj|4:[subj]" out="3:appr">investeringskonsortiet</W>
 <W gloss="Scandinavian" lemma="Scandinavian" msd="NP--U==-" tag="NNP" in="2:attr" out="">Scandinavian</W>
 <W gloss="Acquisition" lemma="Acquisition" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Acquisition</W>
@@ -124,7 +124,7 @@
 <W gloss="Teknova_director" lemma="Teknova-direktør" msd="NCCSU==D" tag="NN" in="2:title" out="">Teknova-direktør</W>
 <W gloss="Erik" lemma="Erik" msd="NP--U==-" tag="NNP" in="1:namef" out="">Erik</W>
 <W gloss="Thygesen" lemma="Thygesen" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef|-2:title">Thygesen</W>
-<W gloss="is_subscribing" lemma="tegne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|9:pnct|10:struct|21:pnct">tegner</W>
+<W gloss="is_subscribing" lemma="tegne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|9:pnct|10:scene|21:pnct">tegner</W>
 <W gloss="24.5" lemma="24,5" msd="AC---U=--" tag="CD" in="-1:dobj" out="1:nobj">24,5</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">procent</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -134,12 +134,12 @@
 <W gloss="own" lemma="egen" msd="ANPCSU=[DI]U" tag="JJ" in="-1:attr" out="">egen</W>
 <W gloss="business" lemma="virksomhed" msd="NCCSU==I" tag="NN" in="-2:possd" out="">virksomhed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-10:struct" out="2:vobj">mens</W>
+<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-10:scene" out="2:vobj">mens</W>
 <W gloss="Unibank" lemma="Unibank" msd="NP--U==-" tag="NNP" in="1:subj" out="">Unibank</W>
-<W gloss="is_taking_over" lemma="overtage" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:pnct|3:dur">overtager</W>
+<W gloss="is_taking_over" lemma="overtage" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:pnct|3:time">overtager</W>
 <W gloss="the_rest" lemma="rest" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">resten</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="until" lemma="indtil" msd="CS" tag="IN" in="-3:dur" out="2:vobj">indtil</W>
+<W gloss="until" lemma="indtil" msd="CS" tag="IN" in="-3:time" out="2:vobj">indtil</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl|2:[expl]" out="">der</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:expl|1:vobj">er</W>
 <W gloss="found" lemma="finde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[expl]|2:dobj">fundet</W>
@@ -152,8 +152,8 @@
 <s>
 <W gloss="Kosan" lemma="Kosan" msd="NP--U==-" tag="NNP" in="2:subj|5:[subj]|6:[subj]" out="1:name">Kosan</W>
 <W gloss="Holding" lemma="Holding" msd="NP--U==-" tag="NNP" in="-1:name" out="">Holding</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:dur|3:vobj|32:pnct">har</W>
-<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-1:dur" out="1:nobj">siden</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:time|3:vobj|32:pnct">har</W>
+<W gloss="since" lemma="siden" msd="SP" tag="IN" in="-1:time" out="1:nobj">siden</W>
 <W gloss="1989" lemma="1989" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1989</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-5:[subj]|1:vobj">været</W>
 <W gloss="owned" lemma="eje" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-6:[subj]|1:pobj|9:other|12:coord">ejet</W>
@@ -201,8 +201,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="5:coord" out="">og</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="4:time" out="1:nobj">i</W>
-<W gloss="April" lemma="april" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:comp">april</W>
-<W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:comp" out="1:nobj">samme</W>
+<W gloss="April" lemma="april" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:resem">april</W>
+<W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:resem" out="1:nobj">samme</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">år</W>
 <W gloss="implemented" lemma="gennemføre" msd="VADA=----A-" tag="VBD" in="-12:conj" out="-4:time|1:subj|2:mcomp|13:dobj|-5:coord">gennemførte</W>
 <W gloss="SDS" lemma="SDS" msd="NP--U==-" tag="NNP" in="-1:subj" out="">SDS</W>

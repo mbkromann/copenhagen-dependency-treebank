@@ -1,8 +1,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:mod" out="2:nobj|9:pnct">After</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="1:nobj|2:mod|-1:degr">30</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="1:nobj|2:mod|-1:quant">30</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
@@ -178,8 +178,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord|1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
-<W msd="VADR" tag="VBP" in="-6:conj" out="-4:subj|1:ext|2:vobj">have</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="-6:conj" out="-4:subj|1:time|2:vobj">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-6:[subj]|1:dobj">believed</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="4:vobj">that</W>
 <W msd="VAG" tag="VBG" in="" out="1:pobj|1:pobj">looking</W>

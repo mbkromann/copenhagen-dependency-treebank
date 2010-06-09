@@ -20,7 +20,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">La</W>
 <W lemma="giovane" msd="AN" tag="ADJ" in="" out="">giovane</W>
 <W lemma="madre" msd="NC" tag="NOM" in="" out="">madre</W>
-<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-11:AGENTIVE&3a;expl/(infatti)" out="26:+TELIC&3a;dir/(perciò)">aveva</W>
+<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-11:AGENTIVE&3a;expl/(infatti)" out="26:+TELIC&3a;cons.dir/(perciò)">aveva</W>
 <W lemma="constatare" msd="VAP" tag="VER&3a;pper" in="" out="">constatato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="" out="">paio</W>
@@ -46,7 +46,7 @@
 </p>
 <p>
 <s>
-<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-26:+TELIC&3a;dir/(perciò)" out="39:CONTR&3a;dir/ma|57:+CONST&3a;elab">Aveva</W>
+<W lemma="avere" msd="VADA" tag="VER&3a;impf" in="-26:+TELIC&3a;cons.dir/(perciò)" out="39:CONTR&3a;dir/ma|57:+CONJ&3a;elab">Aveva</W>
 <W lemma="pregare" msd="VAP" tag="VER&3a;pper" in="" out="">pregato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="marito" msd="NC" tag="NOM" in="" out="">marito</W>
@@ -103,7 +103,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">l'</W>
 <W lemma="accusa" msd="NC" tag="NOM" in="" out="">accusa</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-57:+CONST&3a;elab" out="8:+JOINT/ATTR">fu</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;remo" in="-57:+CONJ&3a;elab" out="8:+JOINT/ATTR">fu</W>
 <W lemma="prendere" msd="VAP" tag="VER&3a;pper" in="" out="">preso</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
@@ -129,7 +129,7 @@
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Anders</W>
-<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="10:CONJ/(e)/ATTR">era</W>
+<W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="10:CONJ&3a;add/(e)/ATTR">era</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="" out="">completamente</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">diverso</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
@@ -139,7 +139,7 @@
 </s>
 <s>
 <W lemma="mi" msd="PP" tag="PRO&3a;pers" in="" out="">Mi</W>
-<W lemma="irritare" msd="VADA" tag="VER&3a;impf" in="-10:CONJ/(e)/ATTR" out="">irritava</W>
+<W lemma="irritare" msd="VADA" tag="VER&3a;impf" in="-10:CONJ&3a;add/(e)/ATTR" out="">irritava</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="piccolo" msd="AN" tag="ADJ" in="" out="">piccolo</W>
@@ -157,7 +157,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-9:CONTR&3a;dir/(ma)/ATTR" out="15:AGENTIVE&3a;reas/(perché)/ATTR">Devo</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="-9:CONTR&3a;dir/(ma)/ATTR" out="15:AGENTIVE&3a;cause/(perché)/ATTR">Devo</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="" out="">averlo</W>
 <W lemma="colpire" msd="VAP" tag="VER&3a;pper" in="" out="">colpito</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
@@ -172,7 +172,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-15:AGENTIVE&3a;reas/(perché)/ATTR" out="21:+TELIC&3a;dir/(perciò)">Ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-15:AGENTIVE&3a;cause/(perché)/ATTR" out="21:+TELIC&3a;cons.dir/(perciò)">Ha</W>
 <W lemma="cominciare" msd="VAP" tag="VER&3a;pper" in="" out="">cominciato</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="roteare" msd="VAF" tag="VER&3a;infi" in="" out="">roteare</W>
@@ -193,7 +193,7 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:+TELIC&3a;dir/(perciò)" out="">È</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-21:+TELIC&3a;cons.dir/(perciò)" out="">È</W>
 <W lemma="diventare" msd="VAP" tag="VER&3a;pper" in="" out="">diventato</W>
 <W lemma="nervoso" msd="NC" tag="NOM" in="" out="">nervoso</W>
 <W lemma="quando" msd="CS" tag="CON" in="" out="">quando</W>
@@ -207,7 +207,7 @@
 <W lemma="molto" msd="AN" tag="ADJ" in="" out="">molta</W>
 <W lemma="fatica" msd="NC" tag="NOM" in="" out="">fatica</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="11:CONJ/anche/ATTR">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="11:CONJ&3a;add/anche/ATTR">ha</W>
 <W lemma="quindi" msd="RG" tag="ADV" in="" out="">quindi</W>
 <W lemma="chiamare" msd="VAP" tag="VER&3a;pper" in="" out="">chiamato</W>
 <W lemma="un'" msd="PI" tag="DET&3a;indef" in="" out="">un'</W>
@@ -218,7 +218,7 @@
 <p>
 <s>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:CONJ/anche/ATTR" out="">Ho</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:CONJ&3a;add/anche/ATTR" out="">Ho</W>
 <W lemma="telefonare" msd="VAP" tag="VER&3a;pper" in="" out="">telefonato</W>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">anche</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>

@@ -165,9 +165,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">demonstrate</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:preds|2:degr">are</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:preds|2:quant">are</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="PI" tag="DT" in="-3:preds" out="1:nobj|2:ref|3:rel">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">country</W>
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>

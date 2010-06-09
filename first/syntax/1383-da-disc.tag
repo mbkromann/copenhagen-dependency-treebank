@@ -156,8 +156,8 @@
 </s>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Jeg</W>
-<W gloss="want_to" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:reas|2:vobj|19:pnct">vil</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="want_to" lemma="ville" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:cause|2:vobj|19:pnct">vil</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="introduce" lemma="indføre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj">indføre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:nobj">en</W>
 <W gloss="provision" lemma="bestemmelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">bestemmelse</W>

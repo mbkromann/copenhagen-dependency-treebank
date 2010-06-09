@@ -1,7 +1,7 @@
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="10:coref-var|81:coref-id">Larsen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="10:coref-var|81:coref-iden">Larsen</W>
 <W lemma="resistere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|2:man|4:pnct">resiste</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:man" out="-1:degr|1:nobj">del</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-2:man" out="-1:quant|1:nobj">del</W>
 <W lemma="previsto" msd="NC" tag="NOM" in="-1:nobj" out="">previsto</W>
 <W lemma="?" msd="XP" tag="SENT" in="-4:pnct" out="">?</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="2:pnct" out="">"</W>
@@ -27,7 +27,7 @@
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-7:prg|-3:subj|1:vobj|10:pnct|11:conj">ha</W>
 <W lemma="portare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dir|4:dobj">portato</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:dir" out="1:nobj">in</W>
-<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj" out="1:nobj|48:coref-id">questo</W>
+<W lemma="questo" msd="PD" tag="PRO&3a;demo" in="-1:nobj" out="1:nobj|48:coref-iden">questo</W>
 <W lemma="settore" msd="NC" tag="NOM" in="-1:nobj" out="">settore</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-4:dobj" out="1:nobj">una</W>
 <W lemma="ventata" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">ventata</W>
@@ -75,11 +75,11 @@
 <W lemma="dare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">dare</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">una</W>
 <W lemma="scrollata" msd="NC" tag="NOM" in="-1:nobj" out="">scrollata</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-48:coref-id|-5:iobj" out="2:nobj">al</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-48:coref-iden|-5:iobj" out="2:nobj">al</W>
 <W lemma="nostro" msd="PO" tag="PRO&3a;poss" in="1:attr" out="">nostro</W>
 <W lemma="settore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">settore</W>
 <W lemma="." msd="XP" tag="SENT" in="-9:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-81:coref-id|1:subj|2:[subj]" out="">Larsen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-81:coref-iden|1:subj|2:[subj]" out="">Larsen</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|17:pnct">ha</W>
 <W lemma="dire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:man|2:dobj">detto</W>
 <W lemma="pubblicamente" msd="RG" tag="ADV" in="-1:man" out="">pubblicamente</W>
@@ -88,8 +88,8 @@
 <W lemma="considerare" msd="VADR" tag="VER&3a;pres" in="-2:vobj" out="-1:neg|1:dobj">considera</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">70</W>
-<W lemma="milione" msd="NC" tag="NOM" in="-1:nobj" out="1:comp">milioni</W>
-<W lemma="come" msd="SP" tag="PRE" in="-1:comp" out="1:nobj|4:contr">come</W>
+<W lemma="milione" msd="NC" tag="NOM" in="-1:nobj" out="1:resem">milioni</W>
+<W lemma="come" msd="SP" tag="PRE" in="-1:resem" out="1:nobj|4:contr">come</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="perdita" msd="NC" tag="NOM" in="-1:nobj" out="">perdita</W>
 <W lemma="ma" msd="CS" tag="CON" in="1:coord" out="">ma</W>

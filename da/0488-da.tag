@@ -104,8 +104,8 @@
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:pobj|6:pnct|9:appa">en</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the_US" lemma="USA" msd="NP--G==-" tag="NNP" in="-1:nobj" out="2:attr|3:possd">USAs</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="popular" lemma="populær" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">populære</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="popular" lemma="populær" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:quant">populære</W>
 <W gloss="cable_channels" lemma="kabelkanal" msd="NCCPU==I" tag="NNP" in="-3:possd" out="">kabelkanaler</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="Home" lemma="Home" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Home</W>
@@ -131,12 +131,12 @@
 </s>
 <s>
 <W gloss="There" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">Der</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="11:qobj" out="-1:expl|4:dobj|5:comp|9:pnct|10:pnct">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="11:qobj" out="-1:expl|4:dobj|5:resem|9:pnct|10:pnct">er</W>
 <W gloss="long" lemma="lang" msd="ANP[CN]PU=[DI]U" tag="JJ" in="3:attr" out="1:pnct">lange</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="tranquil" lemma="rolig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">rolige</W>
 <W gloss="scenes" lemma="scene" msd="NCCPU==I" tag="NNP" in="-4:dobj" out="-3:attr|-1:attr">scener</W>
-<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-5:comp" out="1:obl">som</W>
+<W gloss="like" lemma="som" msd="U=" tag="WDT" in="-5:resem" out="1:obl">som</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-1:obl" out="1:nobj">på</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="1:nobj">et</W>
 <W gloss="theatre" lemma="teater" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">teater</W>
@@ -155,22 +155,22 @@
 <W gloss="Hotel" lemma="Hotel" msd="NP--U==-" tag="NNP" in="1:nobj" out="">Hotel</W>
 <W gloss="Room" lemma="room" msd="XF" tag="FW" in="-3:appr" out="-1:nobj|-2:pnct|1:pnct">room</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
-<W gloss="paint" lemma="tegne" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:pobj|14:pnct|15:reas|23:pnct">tegner</W>
+<W gloss="paint" lemma="tegne" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:pobj|14:pnct|15:cause|23:pnct">tegner</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:preds">blive</W>
-<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:degr" out="6:pobj">mindre</W>
-<W gloss="hectic" lemma="hektisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:degr|4:conj">hektisk</W>
+<W gloss="less" lemma="lille" msd="ANC---=-R" tag="JJR" in="1:quant" out="6:pobj">mindre</W>
+<W gloss="hectic" lemma="hektisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:quant|4:conj">hektisk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
-<W gloss="even" lemma="endnu" msd="RGU" tag="RP" in="1:degr" out="">endnu</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:degr|2:[pobj]">mere</W>
-<W gloss="intense" lemma="intens" msd="ANPCSU=IU" tag="JJ" in="-4:conj" out="-1:degr|-3:coord">intens</W>
+<W gloss="even" lemma="endnu" msd="RGU" tag="RP" in="1:quant" out="">endnu</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:quant|2:[pobj]">mere</W>
+<W gloss="intense" lemma="intens" msd="ANPCSU=IU" tag="JJ" in="-4:conj" out="-1:quant|-3:coord">intens</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-6:pobj|-2:[pobj]" out="1:nobj">end</W>
 <W gloss="its" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W gloss="popular" lemma="populær" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">populære</W>
 <W gloss="predecessor" lemma="forgænger" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">forgænger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W gloss="because" lemma="for" msd="CC" tag="CC" in="-15:reas" out="3:vobj">for</W>
+<W gloss="because" lemma="for" msd="CC" tag="CC" in="-15:cause" out="3:vobj">for</W>
 <W gloss="entire" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="2:subj" out="1:nobj">hele</W>
 <W gloss="the_plot" lemma="handling" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">handlingen</W>
 <W gloss="is_played_out" lemma="udspille" msd="VADR=----P-" tag="VBD" in="-3:vobj" out="-2:subj|1:loc">udspilles</W>
@@ -200,8 +200,8 @@
 <W gloss="different" lemma="forskellig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">forskellige</W>
 <W gloss="periods" lemma="periode" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr|1:pnct|3:appa">perioder</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
-<W gloss="respectively" lemma="henholdsvis" msd="RGU" tag="RP" in="1:struct" out="">henholdsvis</W>
-<W gloss="the_1930s" lemma="30er" msd="NCCPU==D" tag="NNP" in="-3:appa" out="-1:struct|1:pnct|2:conj|4:conj">30erne</W>
+<W gloss="respectively" lemma="henholdsvis" msd="RGU" tag="RP" in="1:scene" out="">henholdsvis</W>
+<W gloss="the_1930s" lemma="30er" msd="NCCPU==D" tag="NNP" in="-3:appa" out="-1:scene|1:pnct|2:conj|4:conj">30erne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="the_1960s" lemma="60er" msd="NCCPU==D" tag="NNP" in="-2:conj" out="">60erne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

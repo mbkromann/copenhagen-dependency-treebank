@@ -42,8 +42,8 @@
 <W lemma="." msd="XP" tag="SENT" in="-13:pnct" out="">.</W>
 </s>
 <s>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="1:struct|2:vobj|14:pnct">Ha</W>
-<W lemma="inoltre" msd="RG" tag="ADV" in="-1:struct" out="">inoltre</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="1:scene|2:vobj|14:pnct">Ha</W>
+<W lemma="inoltre" msd="RG" tag="ADV" in="-1:scene" out="">inoltre</W>
 <W lemma="aiutare" msd="VAP" tag="VER&3a;pper" in="-2:vobj" out="1:iobj|2:dobj">aiutato</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:iobj" out="">DSB</W>
 <W lemma="a" msd="SP" tag="PRE" in="-2:dobj" out="1:vobj">a</W>
@@ -128,8 +128,8 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-1:vobj" out="1:preds|9:pnct|11:conj">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:preds" out="1:nobj">il</W>
 <W lemma="modo" msd="NC" tag="NOM" in="-1:nobj" out="2:attr|3:pobj">modo</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="semplice" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">semplice</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="semplice" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">semplice</W>
 <W lemma="di" msd="SP" tag="PRE" in="-3:pobj" out="1:vobj">di</W>
 <W lemma="aggirare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:dobj">aggirare</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">la</W>
@@ -137,8 +137,8 @@
 <W lemma="," msd="XP" tag="PON" in="-9:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-11:conj" out="-1:coord|2:dobj">abbiamo</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutti</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:degr|1:nobj">i</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutti</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:dobj" out="-1:quant|1:nobj">i</W>
 <W lemma="rimorchiatore" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">rimorchiatori</W>
 <W lemma="attraccare" msd="VAP" tag="VER&3a;pper" in="-1:attr" out="1:loc">attraccati</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-1:loc" out="1:nobj">nelle</W>

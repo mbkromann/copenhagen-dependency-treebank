@@ -66,7 +66,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">research</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">subjects</W>
-<W msd="VADA" tag="VBD" in="" out="-8:subj|1:dobj|7:pnct|8:reas|16:pnct">had</W>
+<W msd="VADA" tag="VBD" in="" out="-8:subj|1:dobj|7:pnct|8:cause|16:pnct">had</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj|3:mod">an</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">easier</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
@@ -74,7 +74,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">reading</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">training</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="6:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="6:vobj">because</W>
 <W msd="PD" tag="DT" in="5:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">image</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>

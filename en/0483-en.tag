@@ -168,7 +168,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="2:conj">spirits</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">cigarettes</W>
-<W msd="VA" tag="MD" in="-8:vobj" out="-7:subj|1:add|2:vobj|8:pnct|9:reas">will</W>
+<W msd="VA" tag="MD" in="-8:vobj" out="-7:subj|1:add|2:vobj|8:pnct|9:cause">will</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-9:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:mod">reduced</W>
@@ -177,7 +177,7 @@
 <W msd="VAG" tag="VBG" in="-1:mod" out="">coming</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">years</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:reas" out="5:vobj">because</W>
+<W msd="CS" tag="IN" in="-9:cause" out="5:vobj">because</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|6:[subj]" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">price</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>

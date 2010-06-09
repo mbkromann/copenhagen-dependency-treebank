@@ -89,8 +89,8 @@
 <s>
 <W gloss="In" lemma="i" msd="SP" tag="IN" in="9:mod" out="1:nobj">I</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="2:attr|5:possd">sin</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="straightforward" lemma="redelig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr|2:conj">redelige</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="straightforward" lemma="redelig" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant|2:conj">redelige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="objective" lemma="objektiv" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="-1:coord">objektive</W>
 <W gloss="charge" lemma="retsbelæring" msd="NCCSU==I" tag="NN" in="-5:possd" out="1:pobj">retsbelæring</W>

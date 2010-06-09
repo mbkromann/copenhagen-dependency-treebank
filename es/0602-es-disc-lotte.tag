@@ -57,9 +57,9 @@
 <W lemma="noche" msd="NC" tag="NC" in="-1:nobj" out="">noche</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="-1:coord">se</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-10:conj" out="-1:robj|2:comp">disculpan</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-10:conj" out="-1:robj|2:resem">disculpan</W>
 <W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
-<W lemma="como" msd="RG" tag="ADV" in="-2:comp" out="1:cond">como</W>
+<W lemma="como" msd="RG" tag="ADV" in="-2:resem" out="1:cond">como</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="-1:cond" out="">si</W>
 <W lemma="el" msd="PD" tag="ART" in="3:subj" out="1:ref|2:relr">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:dobj" out="">que</W>

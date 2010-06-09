@@ -127,8 +127,8 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|4:mod">known</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">other</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-4:mod" out="-1:degr">long</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-4:mod" out="-1:quant">long</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="PD" tag="DT" in="1:subj|5:[nobj]" out="4:rel">that</W>

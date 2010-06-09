@@ -1,9 +1,9 @@
 <s>
 <W msd="CC" tag="CC" in="" out="4:conj|12:pnct">But</W>
 <W msd="ANP" tag="RB" in="1:neg" out="">not</W>
-<W msd="CS" tag="IN" in="2:prec" out="-1:neg|1:obl">before</W>
+<W msd="CS" tag="IN" in="2:time" out="-1:neg|1:obl">before</W>
 <W msd="AC" tag="CD" in="-1:obl" out="">1969</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-2:prec|1:subj|2:vobj">did</W>
+<W msd="VADA" tag="VBD" in="-4:conj" out="-2:time|1:subj|2:vobj">did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">he</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:dobj|2:pobj">do</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">anything</W>
@@ -55,10 +55,10 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|8:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-3:mod|-1:subj|54:pnct">had</W>
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]">picked</W>
-<W msd="RG" tag="RP" in="" out="3:ext|5:conj">up</W>
+<W msd="RG" tag="RP" in="" out="3:time|5:conj">up</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">idea</W>
-<W msd="ANP" tag="RB" in="-3:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-3:time" out="">again</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="-5:conj" out="-8:[subj]|-1:coord|1:dobj">recorded</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj" out="3:possd|20:pnct|21:ref|22:rel">Lennon/McCartney's</W>
@@ -100,8 +100,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="">out</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="2:nobj">his</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="1:nobj|2:mod|-1:degr">25</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="1:nobj|2:mod|-1:quant">25</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">in</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
@@ -218,8 +218,8 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">notorious</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">film</W>
 <W msd="VADA" tag="VBD" in="" out="-8:subj|3:preds|8:pnct|20:conj|22:pnct">was</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="2:pobj|-1:degr">as</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="2:pobj|-1:quant">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">audacious</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

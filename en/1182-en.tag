@@ -185,13 +185,13 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">buddy</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="U=" tag="TO" in="-8:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:@dir|3:pnct|6:reas">travel</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-10:[subj]|1:@dir|3:pnct|6:cause">travel</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bosnia</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="7:mod" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">part</W>
-<W msd="CS" tag="IN" in="-6:reas" out="2:vobj|7:conj">because</W>
+<W msd="CS" tag="IN" in="-6:cause" out="2:vobj|7:conj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:man|2:pnct">paid</W>
 <W msd="ANP" tag="RB" in="-1:man" out="">well</W>

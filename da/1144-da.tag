@@ -43,8 +43,8 @@
 <s>
 <W gloss="Is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="1:subj|3:preds|4:pnct|9:pnct">Er</W>
 <W gloss="Larsen" lemma="Larsen" msd="NP--U==-" tag="NNP" in="-1:subj" out="">Larsen</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="3:pobj">mere</W>
-<W gloss="stubborn" lemma="sejlivet" msd="ANP[CN]SU=IU" tag="JJ" in="-3:preds" out="-1:degr">sejlivet</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="3:pobj">mere</W>
+<W gloss="stubborn" lemma="sejlivet" msd="ANP[CN]SU=IU" tag="JJ" in="-3:preds" out="-1:quant">sejlivet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="than" lemma="end" msd="CS" tag="IN" in="-3:pobj" out="2:vobj">end</W>
 <W gloss="you" lemma="I" msd="PP2CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
@@ -201,10 +201,10 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj" out="">mange</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:conj" out="-1:subj|-2:coord|1:preds|2:pnct|3:reas">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-20:conj" out="-1:subj|-2:coord|1:preds|2:pnct|3:cause">er</W>
 <W gloss="waiting_and_seeing" lemma="afvente" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="-1:preds" out="">afventende</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-3:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-3:cause" out="2:vobj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="feel" lemma="føle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|4:preds">føler</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">den</W>

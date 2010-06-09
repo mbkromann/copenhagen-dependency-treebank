@@ -132,8 +132,8 @@
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">dominating</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">lives</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="SP" tag="IN" in="-7:mod" out="2:nobj|-1:degr">for</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="SP" tag="IN" in="-7:mod" out="2:nobj|-1:quant">for</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">limited</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">periods</W>
 <W msd="XP" tag="&3a;" in="-10:pnct" out="">-</W>
@@ -171,8 +171,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|2:ref|8:rel">Lvov</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-2:ref|6:mod" out="">where</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="4:subj" out="1:pobj|3:nobj|-1:degr">34</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="4:subj" out="1:pobj|3:nobj|-1:quant">34</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">149,000</W>
 <W msd="NP=P" tag="NNPS" in="-3:nobj" out="">Jews</W>

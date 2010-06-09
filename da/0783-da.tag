@@ -114,8 +114,8 @@
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
 <W gloss="want" lemma="ønske" msd="VADR=----A-" tag="VBD" in="19:qobj" out="-1:subj|-2:pnct|1:dobj|18:pnct">ønsker</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj|4:other">noget</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="generally" lemma="almen" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">alment</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="generally" lemma="almen" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">alment</W>
 <W gloss="quality_material" lemma="kvalitetsstof" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">kvalitetsstof</W>
 <W gloss="in" lemma="inden" msd="RGU" tag="RP" in="-4:other" out="1:pobj">inden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -240,11 +240,11 @@
 </s>
 <s>
 <W gloss="It" lemma="den" msd="PP3CSU-NU" tag="PRP" in="1:subj|3:[subj]" out="">Den</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|3:preds|4:comp|12:reas|21:pnct">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|3:preds|4:resem|12:cause|21:pnct">blev</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="-1:time" out="">i_går</W>
 <W gloss="declared" lemma="erklære" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]">erklæret</W>
 <W gloss="bankrupt" lemma="konkurs" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="">konkurs</W>
-<W gloss="as" lemma="ligesom" msd="CS" tag="IN" in="-4:comp" out="1:nobj">ligesom</W>
+<W gloss="as" lemma="ligesom" msd="CS" tag="IN" in="-4:resem" out="1:nobj">ligesom</W>
 <W gloss="its" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd|2:pnct|5:appa">sin</W>
 <W gloss="owner" lemma="ejer" msd="NCCSU==I" tag="NN" in="-1:possd" out="">ejer</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -252,7 +252,7 @@
 <W gloss="Riskær" lemma="Riskær" msd="NP--U==-" tag="NNP" in="1:namel" out="">Riskær</W>
 <W gloss="Pedersen" lemma="Pedersen" msd="NP--U==-" tag="NNP" in="-5:appa" out="-2:namef|-1:namel|1:pnct">Pedersen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="pursuant_to" lemma="efter" msd="SP" tag="IN" in="-12:reas" out="1:nobj">efter</W>
+<W gloss="pursuant_to" lemma="efter" msd="SP" tag="IN" in="-12:cause" out="1:nobj">efter</W>
 <W gloss="petition" lemma="begæring" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">begæring</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:err|2:nobj">af</W>
 <W gloss="by" lemma="af" msd="XX" tag="FW" in="-1:err" out="">af</W>

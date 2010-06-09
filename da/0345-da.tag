@@ -92,8 +92,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-5:pnct" out="">"</W>
 <W gloss="asks" lemma="spørge" msd="VADR=----A-" tag="VBD" in="" out="-6:qobj|1:subj|3:man|4:pnct">spørger</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">han</W>
-<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="uncertainly" lemma="usikker" msd="ANP---=-R" tag="JJ" in="-3:man" out="-1:degr">usikkert</W>
+<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="uncertainly" lemma="usikker" msd="ANP---=-R" tag="JJ" in="-3:man" out="-1:quant">usikkert</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 </p>
@@ -201,9 +201,9 @@
 <W gloss="wanted_to" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:other|2:vobj|11:pnct">ville</W>
 <W gloss="well" lemma="god" msd="ANP---=-R" tag="JJ" in="-1:other" out="">godt</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:vobj">have</W>
-<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|2:dur|3:@loc|6:mcomp">ligget</W>
-<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:dur" out="-1:degr">længere</W>
+<W gloss="been" lemma="ligge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|2:time|3:@loc|6:mcomp">ligget</W>
+<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="longer" lemma="længe" msd="RGC" tag="RP" in="-2:time" out="-1:quant">længere</W>
 <W gloss="the_time" lemma="inde" msd="RGU" tag="RP" in="-3:@loc" out="1:other">inde</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="bed" lemma="seng" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sengen</W>
@@ -250,15 +250,15 @@
 <W gloss="cosy" lemma="hyggelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">hyggelige</W>
 <W gloss="living_room" lemma="stue" msd="NCCSU==I" tag="NN" in="-2:possd" out="">stue</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="walks" lemma="gå" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-9:[subj]|-1:coord|1:succ|2:@dir">går</W>
-<W gloss="then" lemma="så" msd="RGU" tag="RP" in="-1:succ" out="">så</W>
+<W gloss="walks" lemma="gå" msd="VADR=----A-" tag="VBD" in="-8:conj" out="-9:[subj]|-1:coord|1:time|2:@dir">går</W>
+<W gloss="then" lemma="så" msd="RGU" tag="RP" in="-1:time" out="">så</W>
 <W gloss="towards" lemma="mod" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">mod</W>
 <W gloss="the_exit_door" lemma="udgangsdør" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">udgangsdøren</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|4:[subj]|6:[subj]" out="">Han</W>
-<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:conj|11:pnct|12:cont|20:pnct">vender</W>
+<W gloss="turning" lemma="vende" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:dobj|3:conj|11:pnct|12:time|20:pnct">vender</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="tries" lemma="prøve" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-4:[subj]|-1:coord|1:dobj">prøver</W>
@@ -270,7 +270,7 @@
 <W gloss="cheery" lemma="munter" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">munter</W>
 <W gloss="tone" lemma="klang" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">klang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W gloss="when" lemma="da" msd="CS" tag="IN" in="-12:cont" out="2:vobj">da</W>
+<W gloss="when" lemma="da" msd="CS" tag="IN" in="-12:time" out="2:vobj">da</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:pnct|4:qobj">siger</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>

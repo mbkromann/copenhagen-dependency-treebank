@@ -56,7 +56,7 @@
 <W gloss="Ole" lemma="Ole" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ole</W>
 <W gloss="Jensen" lemma="Jensen" msd="NP--U==-" tag="NNP" in="-4:conj" out="-2:title|-1:namef">Jensen</W>
 <W gloss="and" lemma="samt" msd="CC" tag="CC" in="1:coord" out="">samt</W>
-<W gloss="Riskær's" lemma="Riskær" msd="NP--G==-" tag="NNP" in="-6:conj" out="-1:coord|1:attr|2:possd|4:appr|22:+CONST&3a;elab">Riskærs</W>
+<W gloss="Riskær's" lemma="Riskær" msd="NP--G==-" tag="NNP" in="-6:conj" out="-1:coord|1:attr|2:possd|4:appr|22:+CONJ&3a;elab">Riskærs</W>
 <W gloss="former" lemma="tidlig" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-1:attr" out="">tidligere</W>
 <W gloss="partner" lemma="partner" msd="NCCSU==I" tag="NN" in="-2:possd" out="">partner</W>
 <W gloss="Peder" lemma="Peder" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peder</W>
@@ -78,7 +78,7 @@
 <s>
 <W gloss="Klaus" lemma="Klaus" msd="NP--U==-" tag="NNP" in="1:namef" out="">Klaus</W>
 <W gloss="Riskær" lemma="Riskær" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Riskær</W>
-<W gloss="owns" lemma="eje" msd="VADR=----A-" tag="VBD" in="-22:+CONST&3a;elab" out="-1:subj|-12:+SCENE|1:dobj|5:nobj|9:CONJ/(og)">ejer</W>
+<W gloss="owns" lemma="eje" msd="VADR=----A-" tag="VBD" in="-22:+CONJ&3a;elab" out="-1:subj|-12:+SCENE|1:dobj|5:nobj|9:CONJ&3a;add/(og)">ejer</W>
 <W gloss="half" lemma="halvdel" msd="NCCSU==D" tag="NN" in="-1:dobj" out="1:pobj">halvdelen</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Accumulator" lemma="Accumulator" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Accumulator</W>
@@ -87,8 +87,8 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|5:[subj]" out="">Han</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-9:CONJ/(og)" out="-1:subj|1:ext|4:vobj|17:pnct|34:AGENTIVE&3a;expl/(nemlig)">har</W>
-<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-1:ext" out="1:nobj">ved</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-9:CONJ&3a;add/(og)" out="-1:subj|1:time|4:vobj|17:pnct|34:AGENTIVE&3a;expl/(nemlig)">har</W>
+<W gloss="on" lemma="ved" msd="SP" tag="IN" in="-1:time" out="1:nobj">ved</W>
 <W gloss="several" lemma="mange" msd="ANC[CN]PU=[DI]U" tag="JJR" in="-1:nobj" out="1:nobj">flere</W>
 <W gloss="occasions" lemma="lejlighed" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">lejligheder</W>
 <W gloss="emphasized" lemma="understrege" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-5:[subj]|1:pnct|2:dobj">understreget</W>
@@ -121,7 +121,7 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-4:other" out="1:nobj">af</W>
 <W gloss="1991," lemma="1991" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1991</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-34:AGENTIVE&3a;expl/(nemlig)" out="-14:loc|1:subj|3:loc|6:vobj|11:pnct|23:+CONST&3a;elab">er</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-34:AGENTIVE&3a;expl/(nemlig)" out="-14:loc|1:subj|3:loc|6:vobj|11:pnct|23:+CONJ&3a;elab">er</W>
 <W gloss="capital_and_reserves" lemma="egenkapital" msd="NCCSU==D" tag="NN" in="-1:subj|5:[subj]" out="">egenkapitalen</W>
 <W gloss="even" lemma="allerede" msd="RGU" tag="RP" in="1:time" out="">allerede</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:loc" out="-1:time|2:nobj">i</W>
@@ -144,11 +144,11 @@
 <W gloss="Invest" lemma="Invest" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Invest</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">til</W>
 <W gloss="the_Danish_Stock_Exchange" lemma="fondsbørs" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Fondsbørsen</W>
-<W gloss="says" lemma="hedde" msd="VADR=----A-" tag="VBD" in="-23:+CONST&3a;elab" out="-7:loc|1:subj|2:pnct|3:dobj|14:pnct|18:AGENTIVE&3a;reas/(for)&7c;CONST&3a;elab">hedder</W>
+<W gloss="says" lemma="hedde" msd="VADR=----A-" tag="VBD" in="-23:+CONJ&3a;elab" out="-7:loc|1:subj|2:pnct|3:dobj|14:pnct|18:AGENTIVE&3a;cause/(for)&7c;CONJ&3a;elab">hedder</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="9:vobj">at</W>
-<W gloss="the_shareholder_group's" lemma="aktionærgruppe" msd="NCCSG==D" tag="NN" in="8:subj" out="1:possd|56:+CONST&3a;elab">aktionærgruppens</W>
+<W gloss="the_shareholder_group's" lemma="aktionærgruppe" msd="NCCSG==D" tag="NN" in="8:subj" out="1:possd|56:+CONJ&3a;elab">aktionærgruppens</W>
 <W gloss="request" lemma="anmodning" msd="NCCSU==I" tag="NN" in="-1:possd" out="1:pobj">anmodning</W>
 <W gloss="to" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="convening" lemma="indkaldelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">indkaldelse</W>
@@ -162,7 +162,7 @@
 </s>
 <s>
 <W gloss="That" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="is_the_assessment_of" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-18:AGENTIVE&3a;reas/(for)&7c;CONST&3a;elab" out="-1:dobj|1:subj|6:conj|27:pnct">vurderer</W>
+<W gloss="is_the_assessment_of" lemma="vurdere" msd="VADR=----A-" tag="VBD" in="-18:AGENTIVE&3a;cause/(for)&7c;CONJ&3a;elab" out="-1:dobj|1:subj|6:conj|27:pnct">vurderer</W>
 <W gloss="management" lemma="ledelse" msd="NCCSU==D" tag="NN" in="-1:subj|5:[subj]" out="1:pobj">ledelsen</W>
 <W gloss="at" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="Accumulator" lemma="Accumulator" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:nobj">Accumulator</W>
@@ -204,7 +204,7 @@
 <p>
 <s>
 <W gloss="The_shareholder_group" lemma="aktionærgruppe" msd="NCCSU==D" tag="NN" in="1:subj" out="">Aktionærgruppen</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+CONST&3a;elab" out="-1:subj|-10:+SCENE|1:preds|25:comp|37:pnct|44:CONJ/og">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-56:+CONJ&3a;elab" out="-1:subj|-10:+SCENE|1:preds|25:resem|37:pnct|44:CONJ&3a;add/og">er</W>
 <W gloss="dissatisfied" lemma="utilfreds" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:pobj">utilfreds</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">med</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -229,11 +229,11 @@
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-12:pobj" out="1:nobj">til</W>
 <W gloss="disposal" lemma="rådighed" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">rådighed</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
-<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-25:comp" out="2:vobj">ligesom</W>
+<W gloss="just_as" lemma="ligesom" msd="CS" tag="IN" in="-25:resem" out="2:vobj">ligesom</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
-<W gloss="express" lemma="udtrykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:bg">udtrykker</W>
+<W gloss="express" lemma="udtrykke" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:scene">udtrykker</W>
 <W gloss="uncertainty" lemma="usikkerhed" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">usikkerhed</W>
-<W gloss="with_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="-2:bg" out="2:nobj">med_hensyn_til</W>
+<W gloss="with_respect_to" lemma="med_hensyn_til" msd="SP" tag="IN" in="-2:scene" out="2:nobj">med_hensyn_til</W>
 <W gloss="Klaus" lemma="Klaus" msd="NP--U==-" tag="NNP" in="1:namef" out="">Klaus</W>
 <W gloss="Riskær's" lemma="Riskær" msd="NP--G==-" tag="NNP" in="-2:nobj" out="-1:namef|1:possd">Riskærs</W>
 <W gloss="purchase" lemma="køb" msd="NCNSU==I" tag="NN" in="-1:possd" out="1:pobj">køb</W>
@@ -248,7 +248,7 @@
 <W gloss="the_extent_to_which" lemma="hvorvidt" msd="CS" tag="IN" in="3:[mod]|3:conj" out="-1:coord">hvorvidt</W>
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="2:subj|3:[subj]" out="1:nobj">denne</W>
 <W gloss="investment" lemma="investering" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">investering</W>
-<W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-44:CONJ/og" out="-2:subj|-3:[mod]|-3:conj|1:vobj">er</W>
+<W gloss="has_been" lemma="være" msd="VADR=----A-" tag="VBD" in="-44:CONJ&3a;add/og" out="-2:subj|-3:[mod]|-3:conj|1:vobj">er</W>
 <W gloss="kept" lemma="holde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:lobj">holdt</W>
 <W gloss="without" lemma="uden" msd="RGU" tag="RP" in="-1:lobj" out="1:pobj">uden</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>

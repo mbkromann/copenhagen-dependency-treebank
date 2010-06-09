@@ -152,12 +152,12 @@
 <W msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>
 <W msd="ANP" tag="JJ" in="1:subj|2:[subj]|4:[subj]" out="">many</W>
-<W msd="VADR" tag="VBP" in="-19:conj" out="-1:subj|-2:coord|1:vobj|4:pnct|5:reas">are</W>
+<W msd="VADR" tag="VBP" in="-19:conj" out="-1:subj|-2:coord|1:vobj|4:pnct|5:cause">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|2:conj">waiting</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-2:conj" out="-4:[subj]|-1:coord">seeing</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|4:vobj">feel</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">the</W>

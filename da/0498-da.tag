@@ -190,9 +190,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="5:vobj">at</W>
 <W gloss="Western_Europe" lemma="Vesteuropa" msd="NP--U==-" tag="NNP" in="4:subj|5:[subj]" out="">Vesteuropa</W>
-<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:degr" out="">alt</W>
-<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:degr" out="-1:degr">for</W>
-<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="1:time" out="-1:degr">længe</W>
+<W gloss="all" lemma="alt" msd="RGU" tag="RP" in="1:quant" out="">alt</W>
+<W gloss="for" lemma="for" msd="RGU" tag="RP" in="1:quant" out="-1:quant">for</W>
+<W gloss="long" lemma="længe" msd="RGP" tag="RP" in="1:time" out="-1:quant">længe</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-4:subj|-1:time|1:vobj">har</W>
 <W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-5:[subj]|1:man|2:pobj">set</W>
 <W gloss="passively" lemma="passiv" msd="ANP---=-R" tag="JJ" in="-1:man" out="">passivt</W>

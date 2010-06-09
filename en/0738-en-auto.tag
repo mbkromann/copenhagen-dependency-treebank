@@ -21,9 +21,9 @@
 <W msd="VAF" tag="VB" in="" out="">hold</W>
 <W msd="RG" tag="RP" in="" out="1:pobj">up</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
-<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:dur">the</W>
+<W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:time">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">strain</W>
-<W msd="SP" tag="IN" in="-2:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-2:time" out="1:nobj">during</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">boxing</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">match</W>
@@ -66,8 +66,8 @@
 <W msd="NC=S" tag="NN" in="" out="">verge</W>
 <W msd="SP" tag="IN" in="" out="">of</W>
 <W msd="VAG" tag="VBG" in="" out="">giving</W>
-<W msd="RG" tag="RP" in="" out="1:degr">up</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">completely</W>
+<W msd="RG" tag="RP" in="" out="1:quant">up</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">completely</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -88,8 +88,8 @@
 <W msd="NC=S" tag="NN" in="" out="">punching</W>
 <W msd="NC=S" tag="NN" in="" out="">bag</W>
 <W msd="SP" tag="IN" in="-5:mod" out="2:nobj">with</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">one</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">one</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hand</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -110,9 +110,9 @@
 <W msd="ANP" tag="RB" in="-1:attr" out="">ever</W>
 <W msd="VAG" tag="VBG" in="" out="">going</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
-<W msd="VAF" tag="VB" in="" out="1:preds|2:ext">be</W>
+<W msd="VAF" tag="VB" in="" out="1:preds|2:time">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">ready</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="." in="-41:pnct" out="">.</W>
 </s>
 <s>

@@ -73,8 +73,8 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|4:conj">pieces</W>
 <W msd="CC" tag="CC" in="3:coord" out="1:neg">but</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-4:conj" out="-3:coord|-1:degr">small</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-4:conj" out="-3:coord|-1:quant">small</W>
 <W msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>
 <s>
@@ -153,8 +153,8 @@
 <W msd="PD" tag="DT" in="-2:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">peppers</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">again</W>
-<W msd="VADR" tag="VBP" in="-6:conj" out="-2:coord|-1:ext|1:mod">sauté</W>
+<W msd="ANP" tag="RB" in="1:time" out="">again</W>
+<W msd="VADR" tag="VBP" in="-6:conj" out="-2:coord|-1:time|1:mod">sauté</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
@@ -180,8 +180,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">oven-proof</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">dish</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-5:modp" out="1:nobj|3:conj|-1:degr">22</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-5:modp" out="1:nobj|3:conj|-1:quant">22</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">cm</W>
 <W msd="NC=S" tag="NN" in="1:coord" out="">x</W>
 <W msd="AC" tag="CD" in="-3:conj" out="-1:coord|1:nobj">30</W>

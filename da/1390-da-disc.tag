@@ -116,8 +116,8 @@
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="" out="2:conj|21:pnct">Og</W>
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="will_happen" lemma="ske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:degr|2:pnct|3:cond">sker</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="will_happen" lemma="ske" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:quant|2:pnct|3:cond">sker</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-3:cond" out="5:vobj">hvis</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="4:subj" out="2:attr">vi</W>

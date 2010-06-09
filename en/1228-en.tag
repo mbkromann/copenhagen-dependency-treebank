@@ -25,8 +25,8 @@
 <W msd="PD" tag="DT" in="3:subj|5:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">other</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">countries</W>
-<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:degr">will</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">completely</W>
+<W msd="VA" tag="MD" in="-4:vobj" out="-3:subj|2:vobj|1:quant">will</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">completely</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-5:[subj]|1:dobj">accept</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">demands</W>
@@ -46,8 +46,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">compromise</W>
 <W msd="VADR" tag="VBZ" in="-4:vobj" out="-3:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|2:lobj|3:mod">gone</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="-2:lobj" out="-1:degr">far</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:lobj" out="-1:quant">far</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|4:pobj">taking</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:possd">the</W>

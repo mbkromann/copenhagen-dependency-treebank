@@ -105,8 +105,8 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="ringraziare" msd="VAF" tag="VER&3a;infi" in="-2:conj" out="-33:[subj]|-1:coord|1:man|5:dobj">ringraziare</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:man" out="2:nobj">con</W>
-<W lemma="tutto" msd="AN" tag="ADJ" in="1:degr" out="">tutto</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:degr|1:nobj">il</W>
+<W lemma="tutto" msd="AN" tag="ADJ" in="1:quant" out="">tutto</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-2:nobj" out="-1:quant|1:nobj">il</W>
 <W lemma="cuore" msd="NC" tag="NOM" in="-1:nobj" out="">cuore</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-5:dobj" out="9:vobj">che</W>
 <W lemma="quel" msd="PD" tag="PRO&3a;demo" in="-76:coref-res|8:time" out="1:nobj|4:pnct">quel</W>
@@ -144,8 +144,8 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-15:subj|1:vobj|6:pnct">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-16:[subj]|1:prg">stata</W>
 <W lemma="niente" msd="RG" tag="ADV" in="-1:prg" out="1:nobj">niente</W>
-<W lemma="meno" msd="RG" tag="ADV" in="-1:nobj" out="1:comp">meno</W>
-<W lemma="che" msd="CS" tag="CON" in="-1:comp" out="1:preds">che</W>
+<W lemma="meno" msd="RG" tag="ADV" in="-1:nobj" out="1:resem">meno</W>
+<W lemma="che" msd="CS" tag="CON" in="-1:resem" out="1:preds">che</W>
 <W lemma="monumentale" msd="AN" tag="ADJ" in="-1:preds" out="">monumentale</W>
 <W lemma="." msd="XP" tag="SENT" in="-6:pnct" out="">.</W>
 </s>

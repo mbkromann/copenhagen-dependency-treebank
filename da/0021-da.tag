@@ -128,8 +128,8 @@
 <W gloss="the_security_committee" lemma="sikkerhedsudvalg" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">sikkerhedsudvalgets</W>
 <W gloss="knowledge" lemma="vidende" msd="NCNSU==I" tag="NN" in="-1:possd" out="">vidende</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="why" lemma="hvorfor" msd="RGU" tag="RP" in="1:reas" out="">hvorfor</W>
-<W gloss="did" lemma="have" msd="VADR=----A-" tag="VBD" in="-11:list" out="-9:xtop|-1:reas|1:subj|2:eval|3:neg|4:vobj">har</W>
+<W gloss="why" lemma="hvorfor" msd="RGU" tag="RP" in="1:cause" out="">hvorfor</W>
+<W gloss="did" lemma="have" msd="VADR=----A-" tag="VBD" in="-11:list" out="-9:xtop|-1:cause|1:subj|2:eval|3:neg|4:vobj">har</W>
 <W gloss="they" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|3:[subj]" out="">man</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-2:eval" out="">så</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
@@ -145,8 +145,8 @@
 <W gloss="Or" lemma="eller" msd="CC" tag="CC" in="-2:list" out="1:conj">Eller</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-1:conj" out="1:expl|3:dobj">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="6:nobj">så</W>
-<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj" out="-1:degr|1:nobj|4:pnct">meget</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="6:nobj">så</W>
+<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-3:dobj" out="-1:quant|1:nobj|4:pnct">meget</W>
 <W gloss="muddle" lemma="kludder" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">kludder</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the_intelligence_service" lemma="efterretningsvæsen" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">efterretningsvæsenet</W>

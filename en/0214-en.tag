@@ -94,8 +94,8 @@
 <W msd="AC" tag="CD" in="1:subj|2:[subj]|3:[subj]" out="-1:numm|-2:mod">million</W>
 <W msd="VADR" tag="VBP" in="" out="-7:mod|-1:subj|1:vobj|14:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:vobj">been</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:mod|9:pobj|1:ext">appropriated</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">annually</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:mod|9:pobj|1:time">appropriated</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">annually</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:pnct|3:conj|5:conj">England</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

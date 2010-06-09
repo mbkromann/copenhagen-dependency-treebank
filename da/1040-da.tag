@@ -66,8 +66,8 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">han</W>
 <W gloss="fled" lemma="flygte" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:pobj|3:time">flygtede</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="-3:nobj">til</W>
-<W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="1:att" out="">allerede</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:time" out="-1:att|1:nobj">i</W>
+<W gloss="already" lemma="allerede" msd="RGU" tag="RP" in="1:eval" out="">allerede</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:time" out="-1:eval|1:nobj">i</W>
 <W gloss="1936" lemma="1936" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1936</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
@@ -104,8 +104,8 @@
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="1:coord" out="">men</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-7:conj" out="3:vobj|-1:coord">at</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="2:subj" out="">den</W>
-<W gloss="often" lemma="tit" msd="RGP" tag="RP" in="1:ext" out="">tit</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:ext|1:preds">er</W>
+<W gloss="often" lemma="tit" msd="RGP" tag="RP" in="1:time" out="">tit</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:preds">er</W>
 <W gloss="funny" lemma="morsom" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="">morsom</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -237,9 +237,9 @@
 <W gloss="theatre" lemma="teater" msd="NCNSU==D" tag="NN" in="-1:nobj" out="1:pnct|2:ref|3:rel">teatret</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">som</W>
-<W gloss="closes" lemma="lukke" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:avobj|2:ben|4:other|6:time">lukker</W>
+<W gloss="closes" lemma="lukke" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:avobj|2:goal|4:other|6:time">lukker</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:avobj" out="">op</W>
-<W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
+<W gloss="to" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="audience" lemma="publikum" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">publikum</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj">med</W>
 <W gloss="premiere" lemma="premiere" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">premiere</W>

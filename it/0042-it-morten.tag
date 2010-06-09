@@ -26,14 +26,14 @@
 <W lemma="risultato" msd="NC" tag="NOM" in="-1:dobj" out="1:loc|5:time">risultati</W>
 <W lemma="in" msd="SP" tag="PRE" in="-1:loc" out="2:nobj">in</W>
 <W lemma="altri&7c;altro" msd="PI" tag="PRO&3a;indef" in="1:attr" out="">altri</W>
-<W lemma="settore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|7:ext">settori</W>
+<W lemma="settore" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:attr|7:time">settori</W>
 <W lemma="politico" msd="AN" tag="ADJ" in="-1:attr" out="">politici</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="-5:time" out="1:nobj">sull'</W>
 <W lemma="orlo" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj|1:{arg}">orlo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">della</W>
 <W lemma="crisi" msd="NC" tag="NOM" in="-1:nobj" out="">crisi</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
-<W lemma="come" msd="SP" tag="PRE" in="-7:ext" out="1:nobj">come</W>
+<W lemma="come" msd="SP" tag="PRE" in="-7:time" out="1:nobj">come</W>
 <W lemma="istruzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pnct|2:conj|6:conj">istruzione</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
 <W lemma="mercato" msd="NC" tag="NOM" in="-2:conj" out="1:pobj|1:{arg}#">mercato</W>
@@ -105,7 +105,7 @@
 </p>
 <p>
 <s>
-<W lemma="oltre" msd="RG" tag="ADV" in="16:bg" out="1:pobj|4:pnct|6:relpa">Oltre</W>
+<W lemma="oltre" msd="RG" tag="ADV" in="16:scene" out="1:pobj|4:pnct|6:relpa">Oltre</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|4:ref">alla</W>
 <W lemma="legge" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">legge</W>
 <W lemma="finanziario" msd="AN" tag="ADJ" in="-1:attr" out="">finanziaria</W>
@@ -121,7 +121,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="3:subj|4:[subj]" out="1:nobj|2:appr">il</W>
 <W lemma="governo" msd="NC" tag="NOM" in="-1:nobj" out="">governo</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:appr" out="">KV</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-16:bg|-3:subj|1:vobj|27:pnct">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-16:scene|-3:subj|1:vobj|27:pnct">ha</W>
 <W lemma="emanare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-4:[subj]|1:dobj">emanato</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:dobj" out="1:nobj|4:ref|5:relr">22</W>
 <W lemma="proposta" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">proposte</W>
@@ -131,20 +131,20 @@
 <W lemma="spaziare" msd="VADR" tag="VER&3a;pres" in="-5:relr" out="-1:subj|1:pobj">spaziano</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|7:pobj">dalla</W>
 <W lemma="riduzione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}">riduzione</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|2:ben">dei</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj|2:goal">dei</W>
 <W lemma="contributo" msd="NC" tag="NOM" in="-1:nobj" out="">contributi</W>
-<W lemma="per" msd="SP" tag="PRE" in="-2:ben" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-2:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="disoccupazione" msd="NC" tag="NOM" in="-1:nobj" out="">disoccupazione</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-7:pobj" out="1:nobj">all'</W>
-<W lemma="abolizione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:ext|5:ben">abolizione</W>
+<W lemma="abolizione" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.dobj|1:{patient}|3:time|5:goal">abolizione</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">della</W>
 <W lemma="tassa" msd="NC" tag="NOM" in="-1:nobj" out="">tassa</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:ext" out="1:nobj">del</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-3:time" out="1:nobj">del</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">6%</W>
-<W lemma="per" msd="SP" tag="PRE" in="-5:ben" out="1:nobj">per</W>
-<W lemma="reddito" msd="NC" tag="NOM" in="-1:nobj" out="1:ext">redditi</W>
-<W lemma="fino" msd="CS" tag="CON" in="-1:ext" out="1:pobj">fino</W>
+<W lemma="per" msd="SP" tag="PRE" in="-5:goal" out="1:nobj">per</W>
+<W lemma="reddito" msd="NC" tag="NOM" in="-1:nobj" out="1:time">redditi</W>
+<W lemma="fino" msd="CS" tag="CON" in="-1:time" out="1:pobj">fino</W>
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="1:nobj">200.000</W>
 <W lemma="corona" msd="NC" tag="NOM" in="-1:nobj" out="">corone</W>
@@ -198,10 +198,10 @@
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-4:conj" out="-1:coord|1:nobj">le</W>
 <W lemma="azienda" msd="NC" tag="NOM" in="-1:nobj" out="">aziende</W>
-<W lemma="abbassare" msd="VADR" tag="VER&3a;futu" in="-7:vobj" out="-6:subj|1:dobj|3:degr|9:relr">abbasseranno</W>
+<W lemma="abbassare" msd="VADR" tag="VER&3a;futu" in="-7:vobj" out="-6:subj|1:dobj|3:quant|9:relr">abbasseranno</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj">i</W>
 <W lemma="prezzo" msd="NC" tag="NOM" in="-1:nobj" out="">prezzi</W>
-<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-3:degr" out="2:nobj">nella</W>
+<W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-3:quant" out="2:nobj">nella</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="1:attr" out="">stessa</W>
 <W lemma="misura" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">misura</W>
 <W lemma="in" msd="SP" tag="PRE" in="3:man" out="1:nobj">in</W>

@@ -64,8 +64,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
 <W msd="SP" tag="IN" in="-8:conj" out="-1:coord|2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|1:ext">is</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:preds|1:time">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">funny</W>
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>

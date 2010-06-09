@@ -64,8 +64,8 @@
 <W msd="VADR" tag="VBP" in="-3:rel" out="-3:[pred]|-2:subj|1:pnct|4:mod">work</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="ANP" tag="RB" in="2:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="SP" tag="IN" in="-4:mod" out="-2:neg|-1:degr|1:nobj|4:pnct|7:conj">with</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="SP" tag="IN" in="-4:mod" out="-2:neg|-1:quant|1:nobj|4:pnct|7:conj">with</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">respect</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">ownership</W>
@@ -83,8 +83,8 @@
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">as</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">one</W>
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj">must</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:degr|2:preds">be</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">entirely</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:quant|2:preds">be</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">entirely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="1:nobj">clear</W>
 <W msd="PT" tag="WRB" in="-1:nobj|2:[mod]" out="2:rel">how</W>
 <W msd="AC" tag="CD" in="1:subj" out="">one</W>
@@ -123,10 +123,10 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">housing</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|8:[dobj]" out="7:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-26:conj" out="-1:subj|-5:coord|-3:reas|1:neg|2:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-26:conj" out="-1:subj|-5:coord|-3:cause|1:neg|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">structure</W>

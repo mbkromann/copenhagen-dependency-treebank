@@ -139,8 +139,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
 <W gloss="Fiat" lemma="Fiat" msd="NP--U==-" tag="NNP" in="3:subj|4:[subj]" out="">Fiat</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="2:neg" out="">ikke</W>
-<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="is_able_to" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|-1:degr|1:vobj">kan</W>
+<W gloss="just" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="is_able_to" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:neg|-1:quant|1:vobj">kan</W>
 <W gloss="make" lemma="lave" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|2:dobj">lave</W>
 <W gloss="practical" lemma="praktisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">praktiske</W>
 <W gloss="everyday_cars" lemma="hverdags-bil" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">hverdags-biler</W>
@@ -228,8 +228,8 @@
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:other" out="1:nobj">med</W>
 <W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">10</W>
 <W gloss="seats" lemma="siddeplads" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">siddepladser</W>
-<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:struct">og</W>
-<W gloss="further" lemma="yderlig" msd="ANC---=-R" tag="JJR" in="-1:struct" out="">yderligere</W>
+<W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="1:scene">og</W>
+<W gloss="further" lemma="yderlig" msd="ANC---=-R" tag="JJR" in="-1:scene" out="">yderligere</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-9:conj" out="3:nobj|-2:coord">en</W>
 <W gloss="Ducato" lemma="Ducato" msd="NP--U==-" tag="NNP" in="2:name" out="1:name">Ducato</W>
 <W gloss="14" lemma="14" msd="AC---U=--" tag="CD" in="-1:name" out="">14</W>

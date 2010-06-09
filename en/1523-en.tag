@@ -154,8 +154,8 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">gruesome</W>
 <W msd="NC=P" tag="NNS" in="-2:possd" out="">crimes</W>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
-<W msd="CC" tag="CC" in="2:coord" out="1:succ">and</W>
-<W msd="ANP" tag="RB" in="-1:succ" out="">afterwards</W>
+<W msd="CC" tag="CC" in="2:coord" out="1:time">and</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">afterwards</W>
 <W msd="VAP" tag="VBN" in="-9:conj" out="-16:[subj]|-2:coord|1:part|2:dobj">cleaned</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
 <W msd="PD" tag="DT" in="-2:dobj" out="1:mod|2:attr|3:nobj">any</W>

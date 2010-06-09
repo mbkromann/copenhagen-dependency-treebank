@@ -95,8 +95,8 @@
 <W gloss="EBRD" lemma="EBRD" msd="NP--U==-" tag="NNP" in="3:subj|5:[subj]" out="2:conj">EBRD</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="the_World_Bank" lemma="verdensbank" msd="NCCSU==D" tag="NN" in="-2:conj" out="-1:coord">Verdensbanken</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:ext|2:vobj|11:pnct">er</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:ext" out="">ofte</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:time|2:vobj|11:pnct">er</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:time" out="">ofte</W>
 <W gloss="referred" lemma="henvise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-5:[subj]|1:pobj">henvist</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -118,8 +118,8 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:preds" out="4:vobj">at</W>
 <W gloss="these" lemma="denne" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:nobj">disse</W>
 <W gloss="experts" lemma="ekspert" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">eksperter</W>
-<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:ext" out="">sjældent</W>
-<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|4:pnct|5:coord|-1:ext">er</W>
+<W gloss="rarely" lemma="sjælden" msd="ANP---=-R" tag="JJ" in="1:time" out="">sjældent</W>
+<W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:preds|4:pnct|5:coord|-1:time">er</W>
 <W gloss="technicians" lemma="tekniker" msd="NCCPU==I" tag="NNP" in="-1:preds" out="2:conj">teknikere</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="engineers" lemma="ingeniør" msd="NCCPU==I" tag="NNP" in="-2:conj" out="-1:coord">ingeniører</W>
@@ -142,8 +142,8 @@
 <W gloss="acknowledged" lemma="erkende" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|-3:dobj">erkendt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-2:coord|-1:reas|1:subj|2:@dir|10:mod|15:pnct">går</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-2:coord|-1:cause|1:subj|2:@dir|10:mod|15:pnct">går</W>
 <W gloss="the_special_aid_fund_for_Eastern_Europe" lemma="østlandepulje" msd="NCCSU==D" tag="NN" in="-1:subj" out="">Østlandepuljen</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ind</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:mod" out="2:nobj|3:preds">med</W>

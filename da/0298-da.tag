@@ -63,8 +63,8 @@
 <W gloss="one" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="1:pobj">et</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:loc">de</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="photographed" lemma="fotografere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="-1:degr">fotograferede</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="photographed" lemma="fotografere" msd="VAPA=P[CN][DI]A-U" tag="VBN" in="-2:attr" out="-1:quant">fotograferede</W>
 <W gloss="kitchens" lemma="køkken" msd="NCNPU==I" tag="NNP" in="-3:nobj" out="">køkkener</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:loc" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
@@ -114,9 +114,9 @@
 <W gloss="nice" lemma="flot" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:attr">flot</W>
 <W gloss="home_decor_magazine" lemma="interiør-blad" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">interiør-blad</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:succ" out="">så</W>
-<W gloss="slamming" lemma="smække" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-1:succ|-2:coord|1:dobj|2:@dir|5:mcomp">smække</W>
-<W gloss="legs" lemma="ben" msd="NCNPU==D" tag="NNP" in="-1:dobj" out="">benene</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:time" out="">så</W>
+<W gloss="slamming" lemma="smække" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-1:time|-2:coord|1:dobj|2:@dir|5:mcomp">smække</W>
+<W gloss="legs" lemma="goal" msd="NCNPU==D" tag="NNP" in="-1:dobj" out="">benene</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="1:other">op</W>
 <W gloss="on" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_sofa" lemma="sofa" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">sofaen</W>
@@ -176,8 +176,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_housing_co-op" lemma="andelsforening" msd="NCCSU==D" tag="NN" in="1:subj" out="">andelsforeningen</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|-2:coord|2:preds">er</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="6:nobj">så</W>
-<W gloss="fond" lemma="glad" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pobj|4:pnct">glad</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="6:nobj">så</W>
+<W gloss="fond" lemma="glad" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pobj|4:pnct">glad</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
 <W gloss="social" lemma="selskabelig" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">selskabeligt</W>
 <W gloss="fellowship" lemma="samvær" msd="NCNSU==I" tag="NN" in="-2:nobj" out="-1:attr">samvær</W>

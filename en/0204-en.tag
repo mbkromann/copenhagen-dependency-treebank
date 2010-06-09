@@ -67,8 +67,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mouse</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|3:preds">became</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr|2:pobj">as</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-3:preds" out="-1:mod">large</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="1:nobj">as</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

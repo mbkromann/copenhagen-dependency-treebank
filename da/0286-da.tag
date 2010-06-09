@@ -51,8 +51,8 @@
 <W gloss="stone" lemma="sten" msd="NCCPU==D" tag="NNP" in="1:subj" out="">Stenene</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:eval|3:preds|4:pnct">er</W>
 <W gloss="generally" lemma="i_det_hele_taget" msd="RGU" tag="RP" in="-1:eval" out="">i_det_hele_taget</W>
-<W gloss="quite" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="sensitive" lemma="ømfindtlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:degr">ømfindtlige</W>
+<W gloss="quite" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="sensitive" lemma="ømfindtlig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-3:preds" out="-1:quant">ømfindtlige</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -63,8 +63,8 @@
 <W gloss="kick" lemma="spark" msd="NCNSU==I" tag="NN" in="-2:conj" out="-1:coord">spark</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:vobj|8:pnct">kan</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|2:preds">være</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="3:nobj">så</W>
-<W gloss="painful" lemma="smertefuld" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pnct">smertefuldt</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="3:nobj">så</W>
+<W gloss="painful" lemma="smertefuld" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pnct">smertefuldt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:nobj" out="2:vobj">at</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
@@ -74,8 +74,8 @@
 </p>
 <p>
 <s>
-<W gloss="Diseases" lemma="sygdom" msd="NCCPU==I" tag="NNP" in="5:subj" out="1:comp">Sygdomme</W>
-<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:comp" out="1:nobj">som</W>
+<W gloss="Diseases" lemma="sygdom" msd="NCCPU==I" tag="NNP" in="5:subj" out="1:resem">Sygdomme</W>
+<W gloss="such_as" lemma="som" msd="U=" tag="WDT" in="-1:resem" out="1:nobj">som</W>
 <W gloss="mumps" lemma="fåresyge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">fåresyge</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="gonorrhea" lemma="gonorré" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">gonorré</W>
@@ -119,11 +119,11 @@
 <s>
 <W gloss="Some" lemma="nogen" msd="PI-[CN]PU--U" tag="DT" in="1:subj|2:[subj]" out="">Nogle</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|9:pnct">kan</W>
-<W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@loc|4:dur">få</W>
+<W gloss="few" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:@loc|4:time">få</W>
 <W gloss="pain" lemma="smerte" msd="NCCPU==I" tag="NNP" in="-1:dobj" out="">smerter</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">i</W>
 <W gloss="stone" lemma="sten" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="">stenene</W>
-<W gloss="during" lemma="under" msd="SP" tag="IN" in="-4:dur" out="3:nobj">under</W>
+<W gloss="during" lemma="under" msd="SP" tag="IN" in="-4:time" out="3:nobj">under</W>
 <W gloss="intense" lemma="stærk" msd="ANPCSU=IU" tag="JJ" in="2:attr" out="">stærk</W>
 <W gloss="sexual" lemma="sexuel" msd="ANPCSU=IU" tag="JJ" in="1:attr" out="">sexuel</W>
 <W gloss="arousal" lemma="ophidselse" msd="NCCSU==I" tag="NN" in="-3:nobj" out="-2:attr|-1:attr">ophidselse</W>
@@ -137,8 +137,8 @@
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="the_second" lemma="anden" msd="PI-CSU--U" tag="DT" in="-2:conj" out="1:[nobj]|-1:coord">anden</W>
 <W gloss="kind" lemma="form" msd="NCCSU==I" tag="NN" in="-3:nobj|-1:[nobj]" out="">form</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:att|2:vobj|5:pnct">kan</W>
-<W gloss="naturally" lemma="naturligvis" msd="RGU" tag="RP" in="-1:att" out="">naturligvis</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:eval|2:vobj|5:pnct">kan</W>
+<W gloss="naturally" lemma="naturligvis" msd="RGU" tag="RP" in="-1:eval" out="">naturligvis</W>
 <W gloss="alleviate" lemma="afhjælpe" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-9:[subj]|1:dobj">afhjælpe</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:dobj" out="1:nobj">det</W>
 <W gloss="problem" lemma="problem" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">problem</W>
@@ -235,8 +235,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">det</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-1:subj|2:preds|3:pnct">er</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="boring" lemma="kedelig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr">kedeligt</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="boring" lemma="kedelig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant">kedeligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-5:nobj" out="3:vobj">at</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="2:subj" out="">det</W>

@@ -163,9 +163,9 @@
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-4:pobj" out="1:nobj">til</W>
 <W gloss="elimination" lemma="afskaffelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">afskaffelse</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
-<W gloss="6" lemma="6" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:ben">6</W>
+<W gloss="6" lemma="6" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj|2:goal">6</W>
 <W gloss="the_percent_tax" lemma="procent-skat" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pct.-skatten</W>
-<W gloss="on" lemma="for" msd="SP" tag="IN" in="-2:ben" out="1:nobj">for</W>
+<W gloss="on" lemma="for" msd="SP" tag="IN" in="-2:goal" out="1:nobj">for</W>
 <W gloss="income" lemma="indtægt" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:other">indtægter</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:other" out="1:other">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:nobj">til</W>
@@ -195,8 +195,8 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="assure" lemma="sikre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">sikre</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="restrained" lemma="afdæmpet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:degr">afdæmpet</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="restrained" lemma="afdæmpet" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:quant">afdæmpet</W>
 <W gloss="collective_bargaining_result" lemma="overenskomstresultat" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">overenskomstresultat</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -227,9 +227,9 @@
 <W gloss="same" lemma="samme" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:rel">samme</W>
 <W gloss="extent" lemma="omfang" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">omfang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:comp" out="">som</W>
+<W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|2:resem" out="">som</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]" out="">vi</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:comp|1:vobj|5:pnct">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-5:rel" out="-1:subj|-2:resem|1:vobj|5:pnct">ville</W>
 <W gloss="lower" lemma="nedsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">nedsætte</W>
 <W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:conj">moms</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>

@@ -22,8 +22,8 @@
 <W msd="PD" tag="DT" in="-4:appa" out="1:mod|6:nobj|7:pnct|8:ref|12:rel">the</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="3:conj">exiled</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:succ" out="">later</W>
-<W msd="VADA" tag="VBD" in="-3:conj" out="-2:coord|-1:succ">returned</W>
+<W msd="ANP" tag="RB" in="1:time" out="">later</W>
+<W msd="VADA" tag="VBD" in="-3:conj" out="-2:coord|-1:time">returned</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peder</W>
 <W msd="NP=S" tag="NNP" in="-6:nobj" out="-1:namef">Oxe</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -103,13 +103,13 @@
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-8:modp" out="1:nobj|9:pnct|12:pnct">without</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="2:mod">it</W>
-<W msd="ANP" tag="RB" in="1:reas" out="">therefore</W>
-<W msd="VAG" tag="VBG" in="-2:mod" out="1:dobj|-1:reas">needing</W>
+<W msd="ANP" tag="RB" in="1:cause" out="">therefore</W>
+<W msd="VAG" tag="VBG" in="-2:mod" out="1:dobj|-1:cause">needing</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:preds">be</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="2:attr">her</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">popular</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">popular</W>
 <W msd="XP" tag="." in="-9:pnct" out="">!</W>
 </s>
 <s>

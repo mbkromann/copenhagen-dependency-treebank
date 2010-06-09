@@ -6,9 +6,9 @@
 </p>
 <p>
 <s>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-6:other" out="1:pnct|2:attr|2:{pos}">Linderöd</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-6:other" out="1:pnct|2:attr|2:{loc}">Linderöd</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="Schweden" msd="NP" tag="NE" in="-2:attr|-2:{pos}" out="">Schweden</W>
+<W lemma="Schweden" msd="NP" tag="NE" in="-2:attr|-2:{loc}" out="">Schweden</W>
 </s>
 </p>
 <p>
@@ -33,13 +33,13 @@
 <W lemma="Arbeitslose" msd="NC" tag="NN" in="-1:nobj" out="">Arbeitsloser</W>
 <W lemma="er&7c;es&7c;sie&7c;Sie" msd="PR" tag="PRF" in="2:robj" out="">sich</W>
 <W lemma="bloßstellen" msd="VAP" tag="VVPP" in="1:vobj" out="-3:[subj]">bloßgestellt</W>
-<W lemma="fühlen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-1:vobj|-2:robj|1:pnct|2:reas">fühlt</W>
+<W lemma="fühlen" msd="VA" tag="VVFIN" in="-5:vobj" out="-4:subj|-1:vobj|-2:robj|1:pnct|2:cause">fühlt</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="weil" msd="CS" tag="KOUS" in="-2:reas" out="4:vobj">weil</W>
+<W lemma="weil" msd="CS" tag="KOUS" in="-2:cause" out="4:vobj">weil</W>
 <W lemma="er" msd="PP" tag="PPER" in="2:[subj]|3:subj" out="">er</W>
-<W lemma="gerne" msd="RG" tag="ADV" in="2:att" out="">gerne</W>
+<W lemma="gerne" msd="RG" tag="ADV" in="2:eval" out="">gerne</W>
 <W lemma="arbeiten" msd="VAF" tag="VVINF" in="1:vobj" out="-2:[subj]">arbeiten</W>
-<W lemma="mögen" msd="VA" tag="VMFIN" in="-4:vobj" out="-3:subj|-2:att|-1:vobj">möchte</W>
+<W lemma="mögen" msd="VA" tag="VMFIN" in="-4:vobj" out="-3:subj|-2:eval|-1:vobj">möchte</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>
@@ -119,8 +119,8 @@
 <W lemma="bewerben" msd="VAP" tag="VVPP" in="-9:vobj" out="-7:robj|-8:[subj]|-3:pobj|-6:other|6:conj">beworben</W>
 <W lemma="," msd="XP" tag="$," in="-10:pnct" out="">,</W>
 <W lemma="aber" msd="CC" tag="KON" in="4:coord" out="">aber</W>
-<W lemma="nur" msd="RG" tag="ADV" in="1:degr" out="">nur</W>
-<W lemma="abschlägig" msd="AN" tag="ADJA" in="1:attr" out="-1:degr">abschlägige</W>
+<W lemma="nur" msd="RG" tag="ADV" in="1:quant" out="">nur</W>
+<W lemma="abschlägig" msd="AN" tag="ADJA" in="1:attr" out="-1:quant">abschlägige</W>
 <W lemma="Bescheid" msd="NC" tag="NN" in="1:dobj" out="-1:attr">Bescheide</W>
 <W lemma="bekommen" msd="VA" tag="VVFIN" in="-6:conj" out="-4:coord|-1:dobj">bekommen</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
@@ -161,20 +161,20 @@
 <p>
 <s>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj|6:[subj]" out="">Ich</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|5:vobj|7:conj|12:pnct|13:reas|21:pnct">habe</W>
-<W lemma="für" msd="SP" tag="APPR" in="4:ben" out="1:nobj">für</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="" out="-1:subj|5:vobj|7:conj|12:pnct|13:cause|21:pnct">habe</W>
+<W lemma="für" msd="SP" tag="APPR" in="4:goal" out="1:nobj">für</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="1:nobj">A/S</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-1:nobj" out="">Bladkompagniet</W>
 <W lemma="Zeitung" msd="NC" tag="NN" in="1:dobj" out="">Zeitungen</W>
-<W lemma="austragen" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:ben|-6:[subj]|-1:dobj">ausgetragen</W>
+<W lemma="austragen" msd="VAP" tag="VVPP" in="-5:vobj" out="-4:goal|-6:[subj]|-1:dobj">ausgetragen</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-7:conj" out="-1:coord|2:preds">war</W>
-<W lemma="wirklich" msd="AN" tag="ADJD" in="1:degr" out="">wirklich</W>
-<W lemma="froh" msd="AN" tag="ADJD" in="-2:preds" out="-1:degr|2:conj">froh</W>
+<W lemma="wirklich" msd="AN" tag="ADJD" in="1:quant" out="">wirklich</W>
+<W lemma="froh" msd="AN" tag="ADJD" in="-2:preds" out="-1:quant|2:conj">froh</W>
 <W lemma="und" msd="CC" tag="KON" in="1:conj" out="">und</W>
 <W lemma="zufrieden" msd="AN" tag="ADJD" in="-2:conj" out="-1:conj">zufrieden</W>
 <W lemma="," msd="XP" tag="$," in="-12:pnct" out="">,</W>
-<W lemma="denn" msd="CC" tag="KON" in="-13:reas" out="2:vobj">denn</W>
+<W lemma="denn" msd="CC" tag="KON" in="-13:cause" out="2:vobj">denn</W>
 <W lemma="ich" msd="PP" tag="PPER" in="1:subj|6:[subj]" out="">ich</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-2:vobj" out="-1:subj|5:vobj">habe</W>
 <W lemma="mein" msd="PO" tag="PPOSAT" in="2:{arg}|4:time" out="1:attr|2:possd">mein</W>
@@ -191,11 +191,11 @@
 <W lemma="Mitglied" msd="NC" tag="NN" in="-1:nobj" out="1:gobj|1:{arg}">Mitglied</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:gobj|-1:{arg}" out="1:nobj">einer</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">A-Kasse</W>
-<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-4:man|1:subj|4:att|8:vobj|10:conj|19:pnct">musste</W>
+<W lemma="müssen" msd="VA" tag="VMFIN" in="" out="-4:man|1:subj|4:eval|8:vobj|10:conj|19:pnct">musste</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj|7:[subj]|16:[subj]|17:[subj]" out="">ich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">den</W>
 <W lemma="Nebenjob" msd="NC" tag="NN" in="-1:nobj" out="">Nebenjob</W>
-<W lemma="natürlich" msd="AN" tag="ADJD" in="-4:att" out="">natürlich</W>
+<W lemma="natürlich" msd="AN" tag="ADJD" in="-4:eval" out="">natürlich</W>
 <W lemma="auf" msd="SP" tag="APPR" in="3:@loc" out="1:nobj">auf</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Arbeitslosengeldkarte</W>
@@ -205,8 +205,8 @@
 <W lemma="gespannt" msd="AN" tag="ADJD" in="-1:preds" out="1:pobj">gespannt</W>
 <W lemma="darauf" msd="RG" tag="PAV" in="-1:pobj" out="1:pnct|3:nobj">darauf</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="wie" msd="CS" tag="KOUS" in="1:degr" out="">wie</W>
-<W lemma="viel" msd="PP" tag="PIS" in="-3:nobj" out="-1:degr|3:vobj">viel</W>
+<W lemma="wie" msd="CS" tag="KOUS" in="1:quant" out="">wie</W>
+<W lemma="viel" msd="PP" tag="PIS" in="-3:nobj" out="-1:quant|3:vobj">viel</W>
 <W lemma="übrig" msd="AN" tag="ADJD" in="1:preds" out="">übrig</W>
 <W lemma="bleiben" msd="VAF" tag="VVINF" in="1:vobj" out="-1:preds|-16:[subj]">bleiben</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="-3:vobj" out="-1:vobj|-17:[subj]">würde</W>

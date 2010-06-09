@@ -59,8 +59,8 @@
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="-6:xpl" out="-1:pnct|1:subj|3:preds|10:pnct|11:pnct">Is</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="3:nobj">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">much</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">talk</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -81,8 +81,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:name">Radio</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="2:attr|3:possd">Denmark's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:mod">expensive</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|2:mod">expensive</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">production</W>
 <W msd="U=" tag="TO" in="-2:mod" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">date</W>
@@ -222,8 +222,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|14:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pnct|3:mod|5:pobj">based</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="-3:mod" out="-1:degr|1:pnct">freely</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="-3:mod" out="-1:quant|1:pnct">freely</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">-</W>
 <W msd="SP" tag="IN" in="-5:pobj" out="2:nobj">on</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Carit</W>

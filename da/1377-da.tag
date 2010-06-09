@@ -121,8 +121,8 @@
 <W gloss="in_the_middle" lemma="midt" msd="RGU" tag="RP" in="1:mod" out="">midt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:preds" out="-1:mod|1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="2:attr|4:nobj|6:mod">den</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="hectic" lemma="hektisk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">hektiske</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="hectic" lemma="hektisk" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">hektiske</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W gloss="trading_period" lemma="handelstid" msd="NCCSU==I" tag="NN" in="-4:nobj" out="-1:pnct|1:pnct">handelstid</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
@@ -141,23 +141,23 @@
 </s>
 <s>
 <W gloss="myself" lemma="selv" msd="PD-[CN][SP]U--U" tag="DT" in="1:focal" out="">Selv</W>
-<W gloss="discover" lemma="opdage" msd="VADR=----A-" tag="VBD" in="" out="-1:focal|1:subj|3:degr|4:dobj|9:pnct|10:reas|24:pnct|2:epi">opdager</W>
+<W gloss="discover" lemma="opdage" msd="VADR=----A-" tag="VBD" in="" out="-1:focal|1:subj|3:quant|4:dobj|9:pnct|10:cause|24:pnct|2:epi">opdager</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="probably" lemma="vist" msd="RGU" tag="RP" in="-2:epi" out="">vist</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-3:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-3:quant" out="">kun</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-4:dobj" out="1:nobj">et</W>
 <W gloss="few" lemma="fåtal" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">fåtal</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="1:nobj">alle</W>
 <W gloss="the_rumours" lemma="rygte" msd="NCNPU==D" tag="NNP" in="-1:nobj" out="">rygterne</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-10:reas" out="6:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-10:cause" out="6:vobj">fordi</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="5:subj" out="">jeg</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="4:degr" out="">kun</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="4:quant" out="">kun</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="3:mod" out="1:attr|2:nobj">en</W>
 <W gloss="rare" lemma="sjælden" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">sjælden</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">gang</W>
-<W gloss="buy" lemma="købe" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-3:mod|-4:degr|1:dobj|4:mod">køber</W>
+<W gloss="buy" lemma="købe" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|-3:mod|-4:quant|1:dobj|4:mod">køber</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>
 <W gloss="Turkish" lemma="tyrkisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">tyrkisk</W>
 <W gloss="paper" lemma="avis" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">avis</W>

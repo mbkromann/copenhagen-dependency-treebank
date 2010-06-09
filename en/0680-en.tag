@@ -118,8 +118,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
 <W msd="VADR" tag="VBP" in="-6:vobj" out="-9:[dobj]|-7:[subj]|1:pobj|16:mod">put</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="4:nobj">on</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="2:attr" out="-1:degr">reluctant</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="2:attr" out="-1:quant">reluctant</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">EC</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod|-2:attr|1:pnct|2:attr">members</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

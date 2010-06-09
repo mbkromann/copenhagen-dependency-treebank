@@ -103,9 +103,9 @@
 </s>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|2:ext">siger</W>
+<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|2:time">siger</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:ext" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="">altid</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
@@ -144,8 +144,8 @@
 <W gloss="Ester" lemma="Ester" msd="NP--U==-" tag="NNP" in="1:namef" out="">Ester</W>
 <W gloss="Brohus" lemma="Brohus" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Brohus</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="">ikke</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="unknown" lemma="ukendt" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-1:degr">ukendt</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="unknown" lemma="ukendt" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-1:quant">ukendt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>

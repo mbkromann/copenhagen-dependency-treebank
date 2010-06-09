@@ -26,8 +26,8 @@
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
 <W lemma="ropa" msd="NC" tag="NC" in="-1:possd" out="">ropa</W>
 <W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
-<W lemma="bien" msd="RG" tag="ADV" in="1:degr" out="">bien</W>
-<W lemma="entender" msd="VAF" tag="VLadj" in="-7:prg" out="-1:degr">entendido</W>
+<W lemma="bien" msd="RG" tag="ADV" in="1:quant" out="">bien</W>
+<W lemma="entender" msd="VAF" tag="VLadj" in="-7:prg" out="-1:quant">entendido</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-8:pnct" out="11:nobj">–</W>
 <W lemma="beber" msd="VAF" tag="VLadj" in="-17:concom" out="1:dobj|3:pnct|4:conj|8:conj">bebiendo</W>
 <W lemma="aguar" msd="VAD" tag="VLfin" in="-1:dobj" out="1:attr">agua</W>
@@ -81,9 +81,9 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-2:other" out="1:nobj">de</W>
 <W lemma="grupo" msd="NC" tag="NC" in="-1:nobj" out="1:attr">grupos</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:attr" out="1:nobj">con</W>
-<W lemma="nombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:comp">nombres</W>
+<W lemma="nombre" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:resem">nombres</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">crípticos</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-2:comp" out="1:nobj">como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-2:resem" out="1:nobj">como</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="1:pobj|4:conj|9:conj">“40</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">fiebre”</W>
@@ -104,8 +104,8 @@
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="1:vobj|4:other|20:pnct">han</W>
 <W lemma="llamar" msd="VAF" tag="VLadj" in="-1:vobj" out="-2:iobj|7:dobj">llamado</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="2:pnct" out="">–</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="contra" msd="SP" tag="SCENE" in="-4:other" out="-2:pnct|-1:degr|1:nobj|3:pnct">contra</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="contra" msd="SP" tag="SCENE" in="-4:other" out="-2:pnct|-1:quant|1:nobj|3:pnct">contra</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:nobj" out="1:possd">su</W>
 <W lemma="voluntad" msd="NC" tag="NC" in="-1:possd" out="">voluntad</W>
 <W lemma="-" msd="XP" tag="DASH" in="-3:pnct" out="">-</W>
@@ -122,9 +122,9 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:nobj">años</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">90</W>
 <W lemma="." msd="XP" tag="FS" in="-20:pnct" out="">.</W>
-<W lemma="pero" msd="CC" tag="CCAD" in="2:struct" out="">Pero</W>
+<W lemma="pero" msd="CC" tag="CCAD" in="2:scene" out="">Pero</W>
 <W lemma="l" msd="PP" tag="PPC" in="-23:coref|1:iobj" out="5:coref">le</W>
-<W lemma="dar" msd="VAD" tag="VLfin" in="" out="-1:iobj|-2:struct|2:dobj|3:pnct">da</W>
+<W lemma="dar" msd="VAD" tag="VLfin" in="" out="-1:iobj|-2:scene|2:dobj|3:pnct">da</W>
 <W lemma="mucho" msd="AN" tag="ADJ" in="1:attr" out="">mucha</W>
 <W lemma="rabia" msd="NC" tag="NC" in="-2:dobj" out="-1:attr">rabia</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
@@ -132,7 +132,7 @@
 <W lemma="ser" msd="VAD" tag="VLfin" in="3:qobj" out="-1:subj|1:preds|2:pnct">soy</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:preds" out="">yo!”</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="insistir" msd="VAD" tag="VLfin" in="-4:coref" out="-3:qobj|1:loc|9:pnct|10:time|11:coref|15:comp|61:pnct">insiste</W>
+<W lemma="insistir" msd="VAD" tag="VLfin" in="-4:coref" out="-3:qobj|1:loc|9:pnct|10:time|11:coref|15:resem|61:pnct">insiste</W>
 <W lemma="bajo" msd="SP" tag="SCENE" in="-1:loc" out="1:nobj">bajo</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|3:other">el</W>
 <W lemma="viejo" msd="AN" tag="ADJ" in="1:attr" out="">viejo</W>
@@ -147,7 +147,7 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:man" out="1:nobj">de</W>
 <W lemma="espalda" msd="NC" tag="NC" in="-1:nobj" out="">espalda</W>
 <W lemma="," msd="XP" tag="CM" in="1:pnct" out="">,</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-15:comp" out="-1:pnct|3:nobj|5:pnct">como</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-15:resem" out="-1:pnct|3:nobj|5:pnct">como</W>
 <W lemma="bueno" msd="AN" tag="ADJ" in="2:attr" out="">buen</W>
 <W lemma="atrever" msd="VAF" tag="VLadj" in="1:attr" out="">atrevido</W>
 <W lemma="muchacho" msd="NC" tag="NC" in="-3:nobj" out="-2:attr|-1:attr|1:attr">muchacho</W>

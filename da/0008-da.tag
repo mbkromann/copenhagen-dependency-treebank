@@ -42,13 +42,13 @@
 <p>
 <s>
 <hi>
-<W gloss="For" lemma="for" msd="SP" tag="IN" in="6:ext" out="2:nobj">For</W>
+<W gloss="For" lemma="for" msd="SP" tag="IN" in="6:time" out="2:nobj">For</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">første</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:attr|1:time">gang</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="100" lemma="100" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">100</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-6:ext|2:subj|3:dobj|6:pnct">tabte</W>
+<W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-6:time|2:subj|3:dobj|6:pnct">tabte</W>
 <W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Indre</W>
 <W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:attr">Mission</W>
 <W gloss="the_parish_council_elections" lemma="menighedsrådsvalg" msd="NCNSU==D" tag="NN" in="-3:dobj" out="1:loc">menighedsrådsvalget</W>
@@ -161,8 +161,8 @@
 <s>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="2:tobj" out="1:nobj">20</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:succ" out="-2:tobj">senere</W>
-<W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|2:subj|3:dobj|6:pnct">tabte</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:time" out="-2:tobj">senere</W>
+<W gloss="lost" lemma="tabe" msd="VADA=----A-" tag="VBD" in="" out="-1:time|2:subj|3:dobj|6:pnct">tabte</W>
 <W gloss="Inner" lemma="indre" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Indre</W>
 <W gloss="Mission" lemma="mission" msd="NCCSU==I" tag="NN" in="-2:subj" out="-1:attr">Mission</W>
 <W gloss="the_parish_council_election" lemma="menighedsrådsvalg" msd="NCNSU==D" tag="NN" in="-3:dobj" out="1:loc">menighedsrådsvalget</W>
@@ -235,9 +235,9 @@
 <p>
 <s>
 <W gloss="eight-five" lemma="otte-fem" msd="AC---U=--" tag="CD" in="1:preds" out="">Otte-fem</W>
-<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:prec|5:pnct">stod</W>
+<W gloss="stood" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:preds|1:subj|2:time|5:pnct">stod</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:prec" out="2:nobj">i</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:time" out="2:nobj">i</W>
 <W gloss="old" lemma="gammel" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">gamle</W>
 <W gloss="days" lemma="dag" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">dage</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>

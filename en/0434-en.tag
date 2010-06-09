@@ -170,10 +170,10 @@
 <W msd="ANP" tag="RB" in="-1:aobj" out="">well</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|5:[subj]" out="">you</W>
-<W msd="VA" tag="MD" in="-11:conj" out="-1:subj|-5:coord|1:mod|4:vobj|-3:reas">must</W>
+<W msd="VA" tag="MD" in="-11:conj" out="-1:subj|-5:coord|1:mod|4:vobj|-3:cause">must</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="2:conj">first</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">foremost</W>

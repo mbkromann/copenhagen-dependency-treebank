@@ -34,7 +34,7 @@
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="dubbio" msd="NC" tag="NOM" in="" out="">dubbio</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="">una</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="magro" msd="AN" tag="ADJ" in="" out="">magra</W>
 <W lemma="consolazione" msd="NC" tag="NOM" in="" out="">consolazione</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
@@ -151,7 +151,7 @@
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">la</W>
 <W lemma="comunità" msd="NC" tag="NOM" in="" out="">comunità</W>
 <W lemma="guadagnare" msd="VADR" tag="VER:pres" in="" out="">guadagna</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="poco" msd="RG" tag="ADV" in="" out="">poco</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
 <W lemma="questo" msd="PD" tag="PRO:demo" in="" out="">questa</W>

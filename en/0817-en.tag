@@ -2,7 +2,7 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:mod|2:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Social</W>
 <W msd="NP=P" tag="NNPS" in="-2:nobj" out="">Democrats</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:preds|24:reas|34:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:preds|24:cause|34:pnct">are</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:nobj">unhappy</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="7:vobj">that</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]|9:[subj]" out="1:attr|2:attr|3:nobj|5:appr">the</W>
@@ -26,7 +26,7 @@
 <W msd="VAG" tag="VBG" in="-1:mod" out="">prosecuting</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">authorities</W>
 <W msd="XP" tag="," in="-14:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-24:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-24:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|6:mod">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj|2:mod">a</W>

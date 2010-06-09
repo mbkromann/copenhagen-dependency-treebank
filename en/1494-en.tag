@@ -6,8 +6,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-5:mod|1:dobj|14:pnct">got</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="2:attr|3:nobj">some</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">new</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">new</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="1:pobj">angles</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="PT" tag="WRB" in="-1:nobj|7:[mod]" out="4:rel">how</W>
@@ -36,10 +36,10 @@
 <W msd="ANP" tag="RB" in="1:mod" out="">just</W>
 <W msd="VADA" tag="VBD" in="" out="-2:subj|-1:mod|1:dobj|17:pnct">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:prec">demonstrate</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj|3:time">demonstrate</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">his</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">skills</W>
-<W msd="CS" tag="IN" in="-3:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-3:time" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:mod|5:pnct|7:ref|9:rel">the</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DC</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">finale</W>

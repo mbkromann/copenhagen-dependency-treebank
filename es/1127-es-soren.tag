@@ -62,8 +62,8 @@
 <W lemma="uno" msd="AC" tag="CARD" in="9:preds" out="1:pobj|1:{arg}">uno</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">los</W>
-<W lemma="bueno" msd="AN" tag="ADJ" in="1:degr" out="">mejores</W>
-<W lemma="aspecto" msd="NC" tag="NC" in="-2:nobj" out="-1:degr|1:pobj|1:{arg}">aspectos</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="1:quant" out="">mejores</W>
+<W lemma="aspecto" msd="NC" tag="NC" in="-2:nobj" out="-1:quant|1:pobj|1:{arg}">aspectos</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">la</W>
 <W lemma="largo" msd="AN" tag="ADJ" in="1:attr" out="">larga</W>
@@ -96,8 +96,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="-1:preds" out="1:pobj">aclamada</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="-1:pobj" out="1:nobj">como</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="2:nobj">la</W>
-<W lemma="bueno" msd="AN" tag="ADJ" in="1:degr" out="">mejor</W>
-<W lemma="novelar" msd="VAD" tag="VLfin" in="-2:nobj" out="-1:degr|1:pobj|1:{arg}">novela</W>
+<W lemma="bueno" msd="AN" tag="ADJ" in="1:quant" out="">mejor</W>
+<W lemma="novelar" msd="VAD" tag="VLfin" in="-2:nobj" out="-1:quant|1:pobj|1:{arg}">novela</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="2:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:namef" out="">Helle</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-2:nobj" out="-1:namef">Stangerup</W>
@@ -107,8 +107,8 @@
 <W lemma="ser" msd="VAD" tag="VSfin" in="-12:vobj" out="-3:pnct|-2:other|1:prg|2:preds|5:pnct|6:pnct">sea</W>
 <W lemma="necesariamente" msd="RG" tag="ADV" in="-1:prg" out="">necesariamente</W>
 <W lemma="el" msd="PD" tag="ART" in="-2:preds" out="2:preds">la</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="">más</W>
-<W lemma="popular" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">popular</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="">más</W>
+<W lemma="popular" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">popular</W>
 <W lemma="!" msd="XP" tag="FS" in="-5:pnct" out="">!</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-6:pnct" out="">–</W>
 <W lemma="se" msd="PC" tag="SE" in="1:subj" out="">se</W>
@@ -216,6 +216,6 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">una</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="2:attr">misión</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="grande" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">grande</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="grande" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">grande</W>
 <W lemma="." msd="XP" tag="FS" in="-8:pnct" out="">.</W>

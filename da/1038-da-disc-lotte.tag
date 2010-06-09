@@ -223,8 +223,8 @@
 </p>
 <p>
 <s>
-<W gloss="perhaps" lemma="eventuel" msd="ANP---=-R" tag="JJ" in="1:struct" out="">Evt.</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|2:vobj|7:pnct">kan</W>
+<W gloss="perhaps" lemma="eventuel" msd="ANP---=-R" tag="JJ" in="1:scene" out="">Evt.</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|2:vobj|7:pnct">kan</W>
 <W gloss="You" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj|1:[subj]" out="">man</W>
 <W gloss="to_offer" lemma="servere" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:[subj]|3:dobj|4:pobj">serverer</W>
 <W gloss="baked_in_butter" lemma="smørbagt" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:attr" out="">smørbagte</W>

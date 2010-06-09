@@ -156,8 +156,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="1993" lemma="1993" msd="AC---U=--" tag="CD" in="-1:nobj" out="">1993</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-2:coord|-1:reas|1:vobj">har</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-7:[subj]|-2:coord|-1:cause|1:vobj">har</W>
 <W gloss="asked" lemma="bede" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-8:[subj]|1:dobj|2:pobj">bedt</W>
 <W gloss="the_drivers" lemma="kører" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">kørerne</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="2:nobj">om</W>

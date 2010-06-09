@@ -123,8 +123,8 @@
 <W msd="U=" tag="TO" in="-4:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">achieve</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
-<W msd="ANC" tag="JJR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">even</W>
+<W msd="ANC" tag="JJR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">even</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">use</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">labor</W>

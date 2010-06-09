@@ -16,8 +16,8 @@
 <W msd="NP=S" tag="NNP" in="2:namef" out="">Richard</W>
 <W msd="NP=S" tag="NNP" in="1:namel" out="">Møller</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="-2:namef|-1:namel|-3:title">Nielsen</W>
-<W msd="VADA" tag="VBD" in="" out="-17:mod|-1:subj|1:degr|2:vobj|18:pnct">had</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="" out="-17:mod|-1:subj|1:quant|2:vobj|18:pnct">had</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">decided</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:pobj">five</W>
@@ -187,12 +187,12 @@
 <W msd="NP=S" tag="NNP" in="3:subj|4:[subj]" out="2:possd">OB's</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Johnny</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:namef">Hansen</W>
-<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|4:pnct|5:cont|25:pnct">will</W>
+<W msd="VA" tag="MD" in="" out="-3:subj|1:vobj|4:pnct|5:time|25:pnct">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:mod">start</W>
 <W msd="CS" tag="IN" in="-1:mod" out="1:nobj">as</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">defender</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:cont" out="14:vobj">while</W>
+<W msd="CS" tag="IN" in="-5:time" out="14:vobj">while</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Lars</W>
 <W msd="NP=S" tag="NNP" in="12:subj|13:[subj]" out="-1:namef|1:pnct|2:list|6:conj">Elstrup</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

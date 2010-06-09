@@ -46,8 +46,8 @@
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:other" out="">så</W>
 <W gloss="small" lemma="lille" msd="ANP---=-R" tag="JJ" in="-2:other" out="-1:other">småt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="1:dur" out="">endnu</W>
-<W gloss="at" lemma="til" msd="SP" tag="IN" in="-5:other" out="-1:dur|1:nobj">til</W>
+<W gloss="still" lemma="endnu" msd="RGU" tag="RP" in="1:time" out="">endnu</W>
+<W gloss="at" lemma="til" msd="SP" tag="IN" in="-5:other" out="-1:time|1:nobj">til</W>
 <W gloss="luxury_prices" lemma="luksuspris" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pnct|2:appa">luksuspris</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="35" lemma="35" msd="AC---U=--" tag="CD" in="-2:appa" out="1:nobj|2:other">35</W>
@@ -60,7 +60,7 @@
 </s>
 <s>
 <W gloss="With" lemma="med" msd="SP" tag="IN" in="" out="1:nobj|2:pnct">Med</W>
-<W gloss="bones" lemma="ben" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">ben</W>
+<W gloss="bones" lemma="goal" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">ben</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>

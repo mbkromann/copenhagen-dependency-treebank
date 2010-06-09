@@ -112,8 +112,8 @@
 <p>
 <s>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Hun</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:struct|2:vobj|27:pnct">er</W>
-<W gloss="Yet" lemma="dog" msd="RGU" tag="RP" in="-1:struct" out="">dog</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:scene|2:vobj|27:pnct">er</W>
+<W gloss="Yet" lemma="dog" msd="RGU" tag="RP" in="-1:scene" out="">dog</W>
 <W gloss="convinced" lemma="overbevise" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:pobj">overbevist</W>
 <W gloss="on_the" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -260,8 +260,8 @@
 <W gloss="the_special_agreement" lemma="særaftale" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">særaftalen</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">et</W>
-<W gloss="whole" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">nyt</W>
+<W gloss="whole" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">nyt</W>
 <W gloss="basis_for_the_referendum" lemma="afstemningsgrundlag" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">afstemningsgrundlag</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>

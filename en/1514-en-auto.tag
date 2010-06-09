@@ -31,7 +31,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">criminal</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-3:attr|-1:attr">acquaintances</W>
-<W msd="VADA" tag="VBD" in="" out="-10:subj|1:pnct|19:degr|20:pobj|26:pnct">were</W>
+<W msd="VADA" tag="VBD" in="" out="-10:subj|1:pnct|19:quant|20:pobj|26:pnct">were</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="" out="">according</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
@@ -50,7 +50,7 @@
 <W msd="ANP" tag="JJ" in="" out="">drug-related</W>
 <W msd="NC=P" tag="NNS" in="" out="">charges</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-19:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-19:quant" out="">only</W>
 <W msd="SP" tag="IN" in="-20:pobj" out="1:nobj">about</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:iobj|2:dobj">getting</W>
 <W msd="PP" tag="PRP" in="-1:iobj" out="">him</W>
@@ -198,7 +198,7 @@
 <W msd="PT" tag="WP" in="-4:ref|1:subj|3:[subj]" out="">who</W>
 <W msd="VADR" tag="VBP" in="-5:rel" out="-1:subj|1:mod|2:vobj">have</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">voluntarily</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|4:mod|9:pnct|10:reas">come</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:@dir|4:mod|9:pnct|10:cause">come</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="1:mod">home</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Thailand</W>
@@ -208,7 +208,7 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-10:cause" out="3:vobj">because</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">they</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">otherwise</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:dobj">risked</W>

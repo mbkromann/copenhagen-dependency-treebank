@@ -50,14 +50,14 @@
 <s>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Film</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:mod">people</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:pnct|7:cont|15:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:pnct|7:time|15:pnct">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:pobj">moaning</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">about</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">lack</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">funding</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-7:time" out="2:vobj">while</W>
 <W msd="NC=P" tag="NNS" in="1:subj" out="">authors</W>
 <W msd="NC=S" tag="NN" in="-2:vobj" out="-1:subj|1:dobj|3:pobj">rip</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>

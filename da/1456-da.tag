@@ -164,8 +164,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-31:conj" out="-19:mod|-20:coord|1:subj|9:vobj">kunne</W>
 <W gloss="the" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj|8:[subj]|9:[subj]|10:[subj]" out="2:attr|3:nobj|4:mod">de</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="misleading" lemma="misvisende" msd="ANP---=-R" tag="JJ" in="-2:attr" out="-1:degr">misvisende</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="misleading" lemma="misvisende" msd="ANP---=-R" tag="JJ" in="-2:attr" out="-1:quant">misvisende</W>
 <W gloss="conclusions" lemma="konklusion" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">konklusioner</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:mod|2:possd">Deres</W>

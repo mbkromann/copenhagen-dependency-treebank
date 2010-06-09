@@ -41,19 +41,19 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="For" lemma="for" msd="SP" tag="IN" in="7:ben" out="2:nobj">For</W>
+<W gloss="For" lemma="for" msd="SP" tag="IN" in="7:goal" out="2:nobj">For</W>
 <W gloss="Søs" lemma="Søs" msd="NP--U==-" tag="NNP" in="1:namef" out="">Søs</W>
 <W gloss="Krusell" lemma="Krusell" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef|1:pnct|2:appa">Krusell</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="16" lemma="16" msd="AC---U=--" tag="CD" in="-2:appa" out="1:nobj|2:pnct">16</W>
 <W gloss="years_old" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-7:ben|1:subj|2:vobj|6:pnct">har</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-7:goal|1:subj|2:vobj|6:pnct">har</W>
 <W gloss="project_the" lemma="projekt" msd="NCNSU==D" tag="NN" in="-1:subj|1:[subj]" out="">projektet</W>
 <W gloss="meant" lemma="betyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj">betydet</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr">noget</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="special" lemma="speciel" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">specielt</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="special" lemma="speciel" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">specielt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 </p>
@@ -149,9 +149,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Every" lemma="hver" msd="PI-CSU--U" tag="DT" in="2:hab" out="1:nobj">Hver</W>
+<W gloss="Every" lemma="hver" msd="PI-CSU--U" tag="DT" in="2:iter" out="1:nobj">Hver</W>
 <W gloss="Friday" lemma="fredag" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">fredag</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:hab|1:subj|2:vobj|12:pnct">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:iter|1:subj|2:vobj|12:pnct">har</W>
 <W gloss="the_students" lemma="elev" msd="NCCPU==D" tag="NNP" in="-1:subj|1:[subj]" out="">eleverne</W>
 <W gloss="received" lemma="få" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj">fået</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">en</W>

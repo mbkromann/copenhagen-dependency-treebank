@@ -1,8 +1,8 @@
 <s>
 <W msd="ANP" tag="RB" in="1:mod" out="">So</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">much</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:mod">more</W>
-<W msd="ANP" tag="JJ" in="1:preds" out="-1:degr">disturbing</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:mod">more</W>
+<W msd="ANP" tag="JJ" in="1:preds" out="-1:quant">disturbing</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:preds|1:subj|25:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:pnct|5:ref|21:rel">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Bosnian</W>

@@ -125,14 +125,14 @@
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>
-<W msd="VAG" tag="VBG" in="" out="1:dobj|3:@dir|4:pnct|7:ext|8:mod|15:pnct">Feeling</W>
+<W msd="VAG" tag="VBG" in="" out="1:dobj|3:@dir|4:pnct|7:time|8:mod|15:pnct">Feeling</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">way</W>
 <W msd="SP" tag="IN" in="-3:@dir" out="">around</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="1:mod" out="">every</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod">so</W>
-<W msd="ANP" tag="RB" in="-7:ext" out="-1:mod">often</W>
+<W msd="ANP" tag="RB" in="-7:time" out="-1:mod">often</W>
 <W msd="SP" tag="IN" in="-8:mod" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">such</W>
 <W msd="PI" tag="DT" in="-2:nobj" out="-1:attr|1:attr|2:nobj">an</W>

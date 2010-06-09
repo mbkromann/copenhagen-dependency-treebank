@@ -1,14 +1,14 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct|8:reas|20:pnct">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:preds|7:pnct|8:cause|20:pnct">was</W>
 <W msd="PI" tag="DT" in="-1:preds" out="2:attr|5:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">important</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|2:conj">important</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAG" tag="VBG" in="-2:conj" out="-1:coord">groundbreaking</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">decision</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="4:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="4:vobj">because</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">naval</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">effort</W>
@@ -180,8 +180,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">initiative</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|-6:mod|1:vobj|4:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:mod">come</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:degr">late</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:mod" out="-1:quant">late</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

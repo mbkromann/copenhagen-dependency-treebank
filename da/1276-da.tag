@@ -90,11 +90,11 @@
 <W gloss="Later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:mod" out="">Senere</W>
 <W gloss="had" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|2:vobj|52:pnct">har</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]|7:[subj]" out="">han</W>
-<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|3:@dir|4:ext|6:conj">taget</W>
+<W gloss="taken" lemma="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:dobj|3:@dir|4:time|6:conj">taget</W>
 <W gloss="idea" lemma="idé" msd="XX" tag="FW" in="-1:dobj" out="1:err">idé</W>
 <W gloss="a" lemma="en" msd="XX" tag="FW" in="-1:err" out="">en</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-3:@dir" out="">op</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:time" out="">igen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="recorded" lemma="indspille" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:conj" out="-7:[subj]|-1:coord|1:dobj">indspillet</W>
 <W gloss="Lennon/McCartneys" lemma="Lennon/McCartney" msd="NP--G==-" tag="NNP" in="-1:dobj" out="3:possd|20:pnct|21:ref|22:rel">Lennon/McCartneys</W>
@@ -146,16 +146,16 @@
 <p>
 <s>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="6:dobj" out="2:attr|3:nobj|4:mod">Det</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="big" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">store</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="big" lemma="stor" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">store</W>
 <W gloss="push" lemma="skub" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">skub</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-4:mod" out="1:nobj">i</W>
 <W gloss="career" lemma="karriere" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">karrieren</W>
-<W gloss="did_get" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-6:dobj|2:subj|3:mod|4:prec|20:pnct">fik</W>
+<W gloss="did_get" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-6:dobj|2:subj|3:mod|4:time|20:pnct">fik</W>
 <W gloss="Joe" lemma="Joe" msd="NP--U==-" tag="NNP" in="1:namef" out="">Joe</W>
 <W gloss="Cocker" lemma="Cocker" msd="NP--U==-" tag="NNP" in="-2:subj" out="-1:namef">Cocker</W>
 <W gloss="really" lemma="egentlig" msd="RGU" tag="RP" in="-3:mod" out="">egentlig</W>
-<W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="-4:prec" out="1:mod">først</W>
+<W gloss="not_until" lemma="først" msd="RGU" tag="RP" in="-4:time" out="1:mod">først</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="1982," lemma="1982" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:pnct|2:ref|4:rel">1982</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -253,9 +253,9 @@
 <W gloss="notorious" lemma="berygtet" msd="ANP[CN]SU=DU" tag="JJ" in="-2:conj" out="-1:coord">berygtede</W>
 <W gloss="film" lemma="film" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">film</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-8:subj|4:preds|7:pnct|16:conj|18:pnct">var</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="2:degr" out="">næsten</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="2:quant" out="">næsten</W>
 <W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:mod" out="">lige</W>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:mod" out="-1:mod|-2:degr|2:pobj">så</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:mod" out="-1:mod|-2:quant|2:pobj">så</W>
 <W gloss="audacious" lemma="dristig" msd="ANPNSU=IU" tag="JJ" in="-4:preds" out="-1:mod">dristigt</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-2:pobj" out="1:nobj">som</W>
 <W gloss="the_film" lemma="film" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">filmen</W>

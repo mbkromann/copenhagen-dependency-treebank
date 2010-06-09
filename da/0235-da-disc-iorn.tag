@@ -56,7 +56,7 @@
 <W gloss="On" lemma="i" msd="SP" tag="IN" in="3:mod" out="1:nobj">I</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="side_street" lemma="sidegade" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">sidegade</W>
-<W gloss="is_blinking" lemma="blinke" msd="VADR=----A-" tag="VBD" in="-14:JOINT" out="-3:mod|1:subj|6:pnct|10:CONST&3a;elab">blinker</W>
+<W gloss="is_blinking" lemma="blinke" msd="VADR=----A-" tag="VBD" in="-14:JOINT" out="-3:mod|1:subj|6:pnct|10:CONJ&3a;elab">blinker</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj" out="1:nobj">en</W>
 <W gloss="façade" lemma="facade" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:attr">facade</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:attr" out="2:nobj">i</W>
@@ -66,7 +66,7 @@
 </s>
 <s>
 <W gloss="Here" lemma="her" msd="RGU" tag="RP" in="1:loc" out="">Her</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONST&3a;elab" out="-1:loc|1:subj|2:vobj|6:pnct|9:conj|15:pnct|19:DESCR&3a;qual">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONJ&3a;elab" out="-1:loc|1:subj|2:vobj|6:pnct|9:conj|15:pnct|19:FORMAL&3a;descr">kan</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">vi</W>
 <W gloss="get" lemma="få" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-1:[subj]|2:dobj">få</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="2:dobj" out="">noget</W>
@@ -85,7 +85,7 @@
 </s>
 <s>
 <W gloss="The_bar" lemma="bar" msd="NCCSU==D" tag="NN" in="1:subj" out="">Baren</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:DESCR&3a;qual" out="-1:subj|1:preds|8:pnct|18:CONJ/(og)">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:FORMAL&3a;descr" out="-1:subj|1:preds|8:pnct|18:CONJ&3a;add/(og)">er</W>
 <W gloss="dark" lemma="mørk" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="2:conj|4:conj">mørk</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="oblong" lemma="aflang" msd="ANPCSU=IU" tag="JJ" in="-2:conj" out="-1:coord">aflang</W>
@@ -103,7 +103,7 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:attr" out="2:nobj">i</W>
 <W gloss="tight" lemma="stram" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">stramme</W>
 <W gloss="dresses" lemma="kjole" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:attr">kjoler</W>
-<W gloss="circulate" lemma="cirkulere" msd="VADR=----A-" tag="VBD" in="-18:CONJ/(og)" out="-4:subj|1:dir|5:pnct|9:TELIC&3a;sbj">cirkulerer</W>
+<W gloss="circulate" lemma="cirkulere" msd="VADR=----A-" tag="VBD" in="-18:CONJ&3a;add/(og)" out="-4:subj|1:dir|5:pnct|9:TELIC&3a;cons.sbj">cirkulerer</W>
 <W gloss="along" lemma="langs" msd="SP" tag="IN" in="-1:dir" out="1:nobj">langs</W>
 <W gloss="the_row" lemma="række" msd="NCCSU==D" tag="NN" in="-1:nobj" out="1:pobj">rækken</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -112,7 +112,7 @@
 </s>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">Det</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:TELIC&3a;sbj" out="-1:subj|1:epi|2:preds|4:pnct|8:AGENTIVE&3a;expl/(nemlig)|20:JOINT">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-9:TELIC&3a;cons.sbj" out="-1:subj|1:epi|2:preds|4:pnct|8:AGENTIVE&3a;expl/(nemlig)|20:JOINT">er</W>
 <W gloss="definitely" lemma="afgjort" msd="ANP---=-R" tag="JJ" in="-1:epi" out="">afgjort</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:nobj">en</W>
 <W gloss="hooker_bar" lemma="luderbar" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">luderbar</W>
@@ -163,8 +163,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|3:subj" out="">der</W>
 <W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
-<W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="1:cont" out="-1:add">i_dag</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-1:cont|1:preds">er</W>
+<W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="1:time" out="-1:add">i_dag</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-6:rel" out="-3:subj|-1:time|1:preds">er</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PG=[DI]U" tag="JJ" in="-1:preds" out="1:possd">manges</W>
 <W gloss="reality" lemma="virkelighed" msd="NCCSU==I" tag="NN" in="-1:possd" out="">virkelighed</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
@@ -173,7 +173,7 @@
 <p>
 <s>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">Jeg</W>
-<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="-41:+JOINT" out="-1:subj|1:mod|2:pobj|15:pnct|19:CONJ/(og)">ser</W>
+<W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="-41:+JOINT" out="-1:subj|1:mod|2:pobj|15:pnct|19:CONJ&3a;add/(og)">ser</W>
 <W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="-1:mod" out="">langt</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">efter</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:attr">en</W>
@@ -192,9 +192,9 @@
 </s>
 <s>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="4:dobj" out="">Hende</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-19:CONJ/(og)" out="1:subj|2:att|3:vobj|7:pnct|10:conj|30:pnct|34:JOINT">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-19:CONJ&3a;add/(og)" out="1:subj|2:eval|3:vobj|7:pnct|10:conj|30:pnct|34:JOINT">ville</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
-<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:att" out="">gerne</W>
+<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:eval" out="">gerne</W>
 <W gloss="lather" lemma="smøre" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:dobj|-2:[subj]|1:avobj">smøre</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>

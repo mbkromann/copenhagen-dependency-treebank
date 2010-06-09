@@ -30,8 +30,8 @@
 <W msd="PD" tag="DT" in="-2:conj" out="-1:coord|1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">book's</W>
 <W msd="XP" tag="(" in="2:pnct" out="">(</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-8:possd" out="-2:pnct|-1:degr|1:pnct|3:nobj">few</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-8:possd" out="-2:pnct|-1:quant|1:pnct|3:nobj">few</W>
 <W msd="XP" tag=")" in="-1:pnct" out="">)</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">scanning</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">images</W>
@@ -154,10 +154,10 @@
 <W msd="ANP" tag="JJ" in="1:attr" out="">upper</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">walls</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
-<W msd="VADR" tag="VBP" in="" out="-11:mod|-8:subj|2:preds|3:dur|5:pnct">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">passive</W>
-<W msd="SP" tag="IN" in="-3:dur" out="1:nobj">during</W>
+<W msd="VADR" tag="VBP" in="" out="-11:mod|-8:subj|2:preds|3:time|5:pnct">are</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">entirely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">passive</W>
+<W msd="SP" tag="IN" in="-3:time" out="1:nobj">during</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">intercourse</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -185,13 +185,13 @@
 <W msd="XP" tag="&3a;" in="-16:pnct" out="">:</W>
 <W msd="SP" tag="IN" in="8:mod" out="1:nobj|5:pnct">In</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:mod|3:nobj">the</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="VAP" tag="VBN" in="-2:mod" out="-1:degr">relaxed</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="VAP" tag="VBN" in="-2:mod" out="-1:quant">relaxed</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">vagina</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">penis</W>
-<W msd="VADR" tag="VBZ" in="-25:xpl" out="-8:mod|-2:subj|1:dobj|3:mod|19:cont|43:pnct">hits</W>
+<W msd="VADR" tag="VBZ" in="-25:xpl" out="-8:mod|-2:subj|1:dobj|3:mod|19:time|43:pnct">hits</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">forewall</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="1:mod">close</W>
@@ -210,7 +210,7 @@
 <W msd="VADR" tag="VBZ" in="-8:rel" out="-4:subj|1:vobj">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|-6:@loc|1:pnct">located</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-19:cont" out="7:vobj">while</W>
+<W msd="CS" tag="IN" in="-19:time" out="7:vobj">while</W>
 <W msd="PI" tag="DT" in="6:subj|7:[subj]" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">penis</W>
 <W msd="SP" tag="IN" in="4:mod" out="1:nobj">in</W>

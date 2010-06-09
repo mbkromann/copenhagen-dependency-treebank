@@ -118,8 +118,8 @@
 <W gloss="permanent_secretary" lemma="departementschef" msd="NCCSU==I" tag="NN" in="-2:possd" out="">departementschef</W>
 <W gloss="Peter" lemma="Peter" msd="NP--U==-" tag="NNP" in="1:namef" out="">Peter</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Wiese</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="hard" lemma="hård" msd="ANP---=-R" tag="JJ" in="-7:mod" out="-1:degr">hårdt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="hard" lemma="hård" msd="ANP---=-R" tag="JJ" in="-7:mod" out="-1:quant">hårdt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="since" lemma="idet" msd="CS" tag="IN" in="-9:mod" out="3:vobj">idet</W>
 <W gloss="Wiese" lemma="Wiese" msd="NP--U==-" tag="NNP" in="2:subj|3:[subj]|20:[subj]|21:[subj]" out="">Wiese</W>

@@ -58,10 +58,10 @@
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-7:mod" out="2:vobj">since</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|3:dur">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:preds|3:time">is</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">leave</W>
-<W msd="SP" tag="IN" in="-3:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-3:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|3:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">next</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">school</W>
@@ -163,8 +163,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
-<W msd="VADR" tag="VBP" in="" out="-8:mod|-1:subj|2:vobj|12:pnct|13:mod|23:pnct|1:ext">have</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-8:mod|-1:subj|2:vobj|12:pnct|13:mod|23:pnct|1:time">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:mod">heard</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="3:pobj">complaints</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">from</W>
@@ -184,14 +184,14 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">students</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|2:preds">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">book-oriented</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">book-oriented</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|1:ext">have</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|1:time">have</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">asked</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:pnct|4:xpl">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">question</W>
@@ -217,8 +217,8 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:mod|1:nobj">Holte</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">School</W>
 <W msd="VADR" tag="VBP" in="" out="-10:mod|-7:subj|2:preds|3:pnct|7:conj|11:pnct">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">creatively-oriented</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">creatively-oriented</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>

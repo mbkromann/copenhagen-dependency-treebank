@@ -113,8 +113,8 @@
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">We</W>
 <W msd="VADR" tag="VBP" in="" out="-2:pnct|-1:subj|2:preds|5:pnct">are</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="VAP" tag="VBN" in="-2:preds" out="-1:degr|1:pobj">pleased</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="VAP" tag="VBN" in="-2:preds" out="-1:quant|1:pobj">pleased</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="">her</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -210,10 +210,10 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">don't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@loc|3:ext">go</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@loc|3:time">go</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">welfare</W>
-<W msd="ANP" tag="RB" in="-3:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-3:time" out="">again</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-11:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-12:qobj|2:subj|3:pnct">says</W>

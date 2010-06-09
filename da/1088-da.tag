@@ -66,8 +66,8 @@
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">være</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:preds" out="2:attr|3:mod">de</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="tasty" lemma="velsmagende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">velsmagende</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="tasty" lemma="velsmagende" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-2:attr" out="-1:quant">velsmagende</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-3:mod" out="1:nobj">i</W>
 <W gloss="all" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:nobj" out="1:nobj">hele</W>
 <W gloss="Thailand" lemma="Thailand" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Thailand</W>

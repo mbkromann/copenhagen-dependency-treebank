@@ -155,7 +155,7 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="12:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="12:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="10:mod" out="1:nobj">as</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|6:appa">a</W>
@@ -167,7 +167,7 @@
 <W msd="ANP" tag="JJ" in="-6:appa" out="-1:mod|1:pnct">you-sayer</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-10:mod|1:preds|6:pnct|-12:reas">am</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-10:mod|1:preds|6:pnct|-12:cause">am</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">proud</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">my</W>
@@ -216,8 +216,8 @@
 <W msd="PI" tag="DT" in="-4:conj" out="-1:coord|1:mod|2:nobj">a</W>
 <W msd="VAP" tag="VBN" in="-1:mod" out="">complicated</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">world</W>
-<W msd="VADR" tag="VBZ" in="" out="-12:subj|1:ext|2:preds|3:pnct">is</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBZ" in="" out="-12:subj|1:time|2:preds|3:pnct">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">wise</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>

@@ -129,10 +129,10 @@
 <W msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="3:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="4:ref|5:rel">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|13:conj|19:pnct|-3:att">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|13:conj|19:pnct|-3:eval">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">municipalities</W>
 <W msd="PT" tag="WP" in="-4:ref|1:subj" out="">who</W>
@@ -156,11 +156,11 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|19:pnct">But</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds|3:pnct|4:reas">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">short-sighted</W>
+<W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:preds|3:pnct|4:cause">is</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">short-sighted</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:reas" out="8:vobj">because</W>
+<W msd="CS" tag="IN" in="-4:cause" out="8:vobj">because</W>
 <W msd="PT" tag="WRB" in="7:time" out="3:vobj">when</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:attr">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">elderly</W>
@@ -177,12 +177,12 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">They</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|4:pnct|5:reas|19:pnct">cannot</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|2:ext">come</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|4:pnct|5:cause|19:pnct">cannot</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:@dir|2:time">come</W>
 <W msd="NC=S" tag="NN" in="-1:@dir" out="">home</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="2:vobj">because</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:dobj|10:conj">is</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:mod">nobody</W>

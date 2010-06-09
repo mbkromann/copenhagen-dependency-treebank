@@ -192,9 +192,9 @@
 </s>
 <s>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="4:dobj" out="">Hende</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:att|3:vobj|7:pnct|10:conj|30:pnct">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:eval|3:vobj|7:pnct|10:conj|30:pnct">ville</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
-<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:att" out="">gerne</W>
+<W gloss="like" lemma="gerne" msd="RGU" tag="RP" in="-2:eval" out="">gerne</W>
 <W gloss="lather" lemma="smøre" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:dobj|-2:[subj]|1:avobj">smøre</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>

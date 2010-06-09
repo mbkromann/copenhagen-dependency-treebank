@@ -91,8 +91,8 @@
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="i" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|10:[subj]|11:[subj]" out="">Jeg</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|2:preds|9:conj|16:pnct|17:pnct">er</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="happy" lemma="glad" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">glad</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="happy" lemma="glad" msd="ANP[CN]SU=IU" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">glad</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:preds">være</W>
@@ -244,8 +244,8 @@
 <W gloss="defence" lemma="forsvar" msd="NCNSU==I" tag="NN" in="-1:possd" out="">forsvar</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj">er</W>
 <W gloss="become" lemma="blive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|2:preds|3:mod">blevet</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="stable" lemma="stabil" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr">stabilt</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="stable" lemma="stabil" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant">stabilt</W>
 <W gloss="after" lemma="efter" msd="SP" tag="IN" in="-3:mod" out="1:nobj">efter</W>
 <W gloss="Piechnik's" lemma="Piechnik" msd="NP--G==-" tag="NNP" in="-1:nobj" out="1:possd">Piechniks</W>
 <W gloss="entry" lemma="entre" msd="NCCSU==I" tag="NN" in="-1:possd" out="">entre</W>
@@ -263,10 +263,10 @@
 <W gloss="Quinn's" lemma="Quinn" msd="NP--G==-" tag="NNP" in="3:subj|5:[subj]" out="1:mod|2:possd">Quinns</W>
 <W gloss="dried-up" lemma="udtørre" msd="VAPA=S[CN]DA-U" tag="VBN" in="-1:mod" out="">udtørrede</W>
 <W gloss="stream_of_goals" lemma="målstrøm" msd="NCCSU==I" tag="NN" in="-2:possd" out="">målstrøm</W>
-<W gloss="begins" lemma="begynde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:dobj|3:ext|4:mod">begynder</W>
+<W gloss="begins" lemma="begynde" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:dobj|3:time|4:mod">begynder</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="risle" lemma="risle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]">risle</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-3:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-3:time" out="">igen</W>
 <W gloss="tonight" lemma="i_aften" msd="RGU" tag="RP" in="-4:mod" out="">i_aften</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>

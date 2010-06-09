@@ -194,8 +194,8 @@
 <p>
 <s>
 <W gloss="The_driver" lemma="chauffør" msd="NCCSU==D" tag="NN" in="1:subj|3:[subj]" out="">Chaufføren</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:ext|2:vobj|24:pnct">blev</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:ext" out="">igen</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|24:pnct">blev</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-1:time" out="">igen</W>
 <W gloss="forced" lemma="tvinge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:@dir|4:mod">tvunget</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>

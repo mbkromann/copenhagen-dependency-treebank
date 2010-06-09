@@ -54,7 +54,7 @@
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">goal</W>
-<W msd="VADR" tag="VBZ" in="37:qobj" out="-3:pnct|-2:subj|1:preds|7:pnct|8:reas|36:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="37:qobj" out="-3:pnct|-2:subj|1:preds|7:pnct|8:cause|36:pnct">is</W>
 <W msd="U=" tag="TO" in="-1:preds" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:preds">make</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
@@ -62,7 +62,7 @@
 <W msd="ANP" tag="RB" in="1:man" out="">politically</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-1:man">conscious</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="">because</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">otherwise</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">they</W>
 <W msd="VA" tag="MD" in="" out="-2:mod|-1:subj">will</W>
@@ -108,7 +108,7 @@
 <W msd="VAG" tag="VBG" in="1:mod" out="">growing</W>
 <W msd="ANP" tag="JJ" in="" out="-1:mod">environmental</W>
 <W msd="NC=P" tag="NNS" in="" out="">problems</W>
-<W msd="VA" tag="MD" in="-9:vobj" out="-8:subj|1:vobj|8:pnct|10:reas">will</W>
+<W msd="VA" tag="MD" in="-9:vobj" out="-8:subj|1:vobj|8:pnct|10:cause">will</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-9:[subj]|1:dobj|3:vobj">make</W>
 <W msd="PD" tag="DT" in="-1:dobj|2:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">situation</W>
@@ -118,7 +118,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">explosion</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="CS" tag="IN" in="-10:reas" out="-1:pnct|21:vobj|26:pnct">because</W>
+<W msd="CS" tag="IN" in="-10:cause" out="-1:pnct|21:vobj|26:pnct">because</W>
 <W msd="PT" tag="WRB" in="20:time" out="">when</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=P" tag="NNS" in="" out="">people</W>
@@ -172,11 +172,11 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">strong</W>
 <W msd="CC" tag="CC" in="6:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="4:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|18:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">party</W>
-<W msd="VADR" tag="VBZ" in="-19:conj" out="-2:subj|-6:coord|-4:reas|1:dobj">wants</W>
+<W msd="VADR" tag="VBZ" in="-19:conj" out="-2:subj|-6:coord|-4:cause|1:dobj">wants</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj|9:coord">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:pobj">collaborate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>

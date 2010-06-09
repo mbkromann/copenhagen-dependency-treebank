@@ -79,8 +79,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="3:coord" out="">og</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-9:ref|2:subj" out="">som</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="drive" lemma="drive" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-2:subj|-3:coord|-1:reas|1:dobj|2:@dir">driver</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="drive" lemma="drive" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-2:subj|-3:coord|-1:cause|1:dobj|2:@dir">driver</W>
 <W gloss="him" lemma="han" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">ham</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-2:@dir" out="1:mod">ud</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>

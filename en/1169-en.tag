@@ -62,9 +62,9 @@
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Hot</W>
 <W msd="NP=S" tag="NNP" in="1:subj|6:[subj]" out="-1:mod">Springs</W>
-<W msd="VADR" tag="VBZ" in="-29:conj" out="-1:subj|-17:mod|-19:coord|2:prec|5:vobj">has</W>
+<W msd="VADR" tag="VBZ" in="-29:conj" out="-1:subj|-17:mod|-19:coord|2:time|5:vobj">has</W>
 <W msd="PD" tag="DT" in="2:mod" out="">neither</W>
-<W msd="CS" tag="IN" in="-2:prec" out="2:conj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="2:conj">before</W>
 <W msd="CC" tag="CC" in="1:coord" out="-2:mod">nor</W>
 <W msd="CS" tag="IN" in="-2:conj" out="-1:coord">since</W>
 <W msd="VAP" tag="VBN" in="-5:vobj" out="-6:[subj]|1:dobj">seen</W>
@@ -110,18 +110,18 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="5:conj|17:pnct">But</W>
-<W msd="ANP" tag="RB" in="4:succ" out="1:pnct">later</W>
+<W msd="ANP" tag="RB" in="4:time" out="1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">family</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-2:subj|-4:succ|1:@dir">moved</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-2:subj|-4:time|1:@dir">moved</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:mod|8:mod">a</W>
 <W msd="ANC" tag="JJR" in="-1:attr" out="">larger</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">house</W>
 <W msd="SP" tag="IN" in="-3:mod" out="3:nobj">in</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">airy</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">airy</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">surroundings</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">farther</W>
 <W msd="SP" tag="IN" in="-8:mod" out="-1:mod|1:nobj">from</W>

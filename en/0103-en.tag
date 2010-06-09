@@ -175,14 +175,14 @@
 <W msd="SP" tag="IN" in="-3:mod" out="3:vobj">whereupon</W>
 <W msd="PD" tag="DT" in="2:subj|5:[subj]" out="1:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Urd</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:@dir|3:conj|6:pnct|7:reas">turned</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:@dir|3:conj|6:pnct|7:cause">turned</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAP" tag="VBN" in="-3:conj" out="-5:[subj]|-1:coord|1:@dir">limped</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="">Århus</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:cause" out="2:vobj">because</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">DSB</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|2:dobj|3:mod">has</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">reserve</W>
@@ -220,17 +220,17 @@
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">it</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|7:cont|13:pnct|-3:reas">was</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|6:pnct|7:time|13:pnct|-3:cause">was</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">tugged</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">loading</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">dock</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-7:time" out="2:vobj">while</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:mod|2:preds">was</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>

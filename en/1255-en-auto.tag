@@ -31,10 +31,10 @@
 <W msd="XP" tag="." in="-22:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VAP" tag="VBN" in="" out="-1:subj|-3:reas|1:dobj|23:pnct">composed</W>
+<W msd="VAP" tag="VBN" in="" out="-1:subj|-3:cause|1:dobj|23:pnct">composed</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj|2:ref|3:pnct|8:rel">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">article</W>
 <W msd="SP" tag="IN" in="-2:ref|6:subj" out="">that</W>
@@ -109,10 +109,10 @@
 <s>
 <W msd="PI" tag="DT" in="" out="">A</W>
 <W msd="NC=S" tag="NN" in="" out="">week</W>
-<W msd="ANP" tag="RB" in="3:succ" out="1:pnct">later</W>
+<W msd="ANP" tag="RB" in="3:time" out="1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:succ|1:dobj|4:pobj|6:pnct">received</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:time|1:dobj|4:pobj|6:pnct">received</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="">a</W>
 <W msd="ANP" tag="JJ" in="" out="">standard</W>
 <W msd="NC=S" tag="NN" in="" out="">rejection</W>
@@ -173,12 +173,12 @@
 <W msd="SP" tag="IN" in="" out="">for</W>
 <W msd="NP=S" tag="NNP" in="" out="">Foreign</W>
 <W msd="NP=S" tag="NNP" in="" out="">Affairs</W>
-<W msd="VADA" tag="VBD" in="" out="5:succ|6:pnct">replied</W>
+<W msd="VADA" tag="VBD" in="" out="5:time|6:pnct">replied</W>
 <W msd="PI" tag="DT" in="4:tobj" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">couple</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">weeks</W>
-<W msd="ANP" tag="RB" in="-5:succ" out="-4:tobj">later</W>
+<W msd="ANP" tag="RB" in="-5:time" out="-4:tobj">later</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>

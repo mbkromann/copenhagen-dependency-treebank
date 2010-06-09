@@ -251,7 +251,7 @@
 <W lemma="canzone" msd="NC" tag="NOM" in="" out="">canzoni</W>
 <W lemma="comparire" msd="VADR" tag="VER:pres" in="" out="">compaiono</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="sei" msd="AN" tag="ADJ" in="" out="">sei</W>
 <W lemma="colonna" msd="NC" tag="NOM" in="" out="">colonne</W>
 <W lemma="sonoro" msd="AN" tag="ADJ" in="" out="">sonore</W>

@@ -54,13 +54,13 @@
 <W lemma="el" msd="PD" tag="ART" in="" out="">el</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="publicar" msd="VAD" tag="VLfin" in="" out="-1:robj|1:subj|6:ext">publica</W>
+<W lemma="publicar" msd="VAD" tag="VLfin" in="" out="-1:robj|1:subj|6:time">publica</W>
 <W lemma="tres" msd="AC" tag="CARD" in="-1:subj" out="2:nobj">tres</W>
 <W lemma="nueva" msd="NC" tag="NC" in="1:attr" out="">nuevas</W>
 <W lemma="coleccin" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">colecciones</W>
 <W lemma="de" msd="SP" tag="SCENE" in="" out="">de</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">poesías</W>
-<W lemma="cada" msd="AN" tag="QU" in="-6:ext" out="1:nobj">cada</W>
+<W lemma="cada" msd="AN" tag="QU" in="-6:time" out="1:nobj">cada</W>
 <W lemma="dos" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">dos</W>
 <W lemma="mes" msd="NC" tag="NC" in="-1:nobj" out="">meses</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
@@ -191,17 +191,17 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-10:pnct" out="">–</W>
 <W lemma="y" msd="CC" tag="CC" in="2:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:time" out="">todavía</W>
-<W lemma="vendar&7c;vender" msd="VAD" tag="VLfin" in="-13:conj" out="-1:time|-2:coord|1:dobj|4:ext">vende</W>
+<W lemma="vendar&7c;vender" msd="VAD" tag="VLfin" in="-13:conj" out="-1:time|-2:coord|1:dobj|4:time">vende</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">unos</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">75</W>
 <W lemma="ejemplar" msd="AN" tag="ADJ" in="-1:nobj" out="">ejemplares</W>
-<W lemma="al" msd="SP" tag="PAL" in="-4:ext" out="1:nobj">al</W>
+<W lemma="al" msd="SP" tag="PAL" in="-4:time" out="1:nobj">al</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">año</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
-<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="3:reas" out="">Por lo tanto</W>
+<W lemma="por~lo~tanto" msd="CS" tag="CSUBF" in="3:cause" out="">Por lo tanto</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-3:reas|-1:robj|1:vobj">ha</W>
+<W lemma="haber" msd="VAD" tag="VHfin" in="" out="-3:cause|-1:robj|1:vobj">ha</W>
 <W lemma="sentido" msd="NC" tag="NC" in="-1:vobj" out="">sentido</W>
 <W lemma="motivar" msd="VAF" tag="VLadj" in="" out="">motivado</W>
 <W lemma="a" msd="SP" tag="SCENE" in="" out="">a</W>

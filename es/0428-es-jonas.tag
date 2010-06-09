@@ -103,11 +103,11 @@
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-5:dobj|1:subj">respondió</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:subj" out="">Silius.</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="5:pnct" out="">–</W>
-<W lemma="A" msd="XS" tag="ALFS" in="4:bg" out="1:nobj">A</W>
+<W lemma="A" msd="XS" tag="ALFS" in="4:scene" out="1:nobj">A</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">propósito</W>
 <W lemma="," msd="XP" tag="CM" in="2:pnct" out="">,</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:[subj]" out="-5:pnct|-1:neg|-4:bg|-2:pnct|1:vobj|2:loc|5:pnct|8:pnct">deberíais</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:[subj]" out="-5:pnct|-1:neg|-4:scene|-2:pnct|1:vobj|2:loc|5:pnct|8:pnct">deberíais</W>
 <W lemma="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-1:[subj]">encontraros</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>

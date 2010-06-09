@@ -95,8 +95,8 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:vobj|7:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|3:preds">made</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|1:pobj">easy</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant|1:pobj">easy</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="">her</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>

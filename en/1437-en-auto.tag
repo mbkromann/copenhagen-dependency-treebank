@@ -10,7 +10,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">stand</W>
 <W msd="XP" tag="&3a;" in="-5:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">we</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|2:mod|8:succ">are</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|2:mod|8:time">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]">going</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">with</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
@@ -18,7 +18,7 @@
 <W msd="PD" tag="PDT" in="1:mod" out="">half</W>
 <W msd="PI" tag="DT" in="2:tobj" out="-1:mod|1:nobj">an</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hour</W>
-<W msd="ANP" tag="RB" in="-8:succ" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-8:time" out="-2:tobj">later</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -94,8 +94,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">plane</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|3:preds|4:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">scantily</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant">scantily</W>
 <W msd="VAP" tag="VBN" in="-3:preds" out="-1:mod">insulated</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>

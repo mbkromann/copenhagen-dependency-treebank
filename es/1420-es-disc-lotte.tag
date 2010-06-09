@@ -2,15 +2,15 @@
 <W lemma="nuevo" msd="AN" tag="ADJ" in="1:attr" out="">nuevas</W>
 <W lemma="empresa" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">empresas</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="" out="-3:subj|1:vobj|11:pnct|12:loc|19:pnct">deben</W>
-<W lemma="situarse" msd="VA" tag="VCLI" in="-1:vobj" out="-4:[subj]|1:degr|2:loc">situarse</W>
-<W lemma="principalmente" msd="RG" tag="ADV" in="-1:degr" out="">principalmente</W>
+<W lemma="situarse" msd="VA" tag="VCLI" in="-1:vobj" out="-4:[subj]|1:quant|2:loc">situarse</W>
+<W lemma="principalmente" msd="RG" tag="ADV" in="-1:quant" out="">principalmente</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">en</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj|2:loc|8:coref">la</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="">zona</W>
 <W lemma="al" msd="SP" tag="PAL" in="-2:loc" out="1:nobj">al</W>
 <W lemma="sur" msd="SP" tag="PE" in="-1:nobj" out="">sur</W>
 <W lemma="del" msd="SP" tag="PDEL" in="" out="1:nobj">del</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj|21:coref-id">Bella</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:nobj|21:coref-iden">Bella</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Centret</W>
 <W lemma="," msd="XP" tag="CM" in="-11:pnct" out="">,</W>
 <W lemma="donde" msd="RG" tag="ADV" in="-12:loc|-8:coref" out="1:vobj">donde</W>
@@ -21,17 +21,17 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attr">edificación</W>
 <W lemma="intenso" msd="AN" tag="ADJ" in="-1:attr" out="">intensa</W>
 <W lemma="." msd="XP" tag="FS" in="-19:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="3:struct" out="1:pnct">Por el contrario</W>
+<W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="3:scene" out="1:pnct">Por el contrario</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-3:struct|-1:robj|1:vobj|2:subj|9:pnct|23:pnct">debe</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-3:scene|-1:robj|1:vobj|2:subj|9:pnct|23:pnct">debe</W>
 <W lemma="respetar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:[subj]">respetar</W>
-<W lemma="el" msd="PD" tag="ART" in="-2:subj|-1:[subj]" out="1:nobj|2:loc|19:coref-id">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-2:subj|-1:[subj]" out="1:nobj|2:loc|19:coref-iden">la</W>
 <W lemma="naturaleza" msd="NC" tag="NC" in="-1:nobj" out="">naturaleza</W>
 <W lemma="al" msd="SP" tag="PAL" in="-2:loc" out="1:nobj|6:coref">al</W>
 <W lemma="norte" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}|5:loc">norte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj|-21:coref-id" out="1:nobj">Bella</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj|-21:coref-iden" out="1:nobj">Bella</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Centret</W>
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
 <W lemma="donde" msd="RG" tag="ADV" in="-5:loc|-6:coref" out="6:vobj">donde</W>
@@ -45,7 +45,7 @@
 <W lemma="por" msd="SP" tag="SCENE" in="-2:cause" out="1:nobj">por</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-1:nobj" out="1:pobj">consideración</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
-<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-19:coref-id" out="1:nobj">la</W>
+<W lemma="el" msd="PD" tag="ART" in="-1:nobj|-19:coref-iden" out="1:nobj">la</W>
 <W lemma="naturaleza" msd="NC" tag="NC" in="-1:nobj" out="">naturaleza</W>
 <W lemma="." msd="XP" tag="FS" in="-23:pnct" out="">.</W>
 <W lemma="el" msd="PD" tag="ART" in="11:subj|12:[subj]" out="1:nobj|5:ref|7:relr|21:coref-var">La</W>
@@ -58,7 +58,7 @@
 <W lemma="formar" msd="VAD" tag="VLfin" in="-7:relr" out="-2:subj|-1:neg|1:dobj">forma</W>
 <W lemma="parte" msd="NC" tag="NC" in="-1:dobj" out="1:pobj|1:{arg}">parte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="51:coref-id">Ørestaden</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="51:coref-iden">Ørestaden</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="" out="-11:subj|1:vobj|3:pnct">debe</W>
 <W lemma="estar" msd="VAF" tag="VEinf" in="-1:vobj" out="-12:[subj]|1:dobj">estar</W>
 <W lemma="proteger" msd="VAF" tag="VLadj" in="-1:dobj" out="">protegida</W>
@@ -90,12 +90,12 @@
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="-4:relpa" out="-2:subj|-1:time|1:preds|2:pnct">están</W>
 <W lemma="proteger" msd="VAF" tag="VLadj" in="-1:preds" out="">protegidos</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="81:coref-id">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="1:subj" out="81:coref-iden">Amager</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:subj|1:dobj|8:other|10:pnct">tendrá</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|3:ext">un</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj|3:time">un</W>
 <W lemma="parque" msd="NC" tag="NC" in="-1:nobj" out="1:attr">parque</W>
 <W lemma="natural" msd="AN" tag="ADJ" in="-1:attr" out="">natural</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-3:ext" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-3:time" out="1:nobj">de</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">25</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:attrr#">kilómetros</W>
 <W lemma="cuadrar" msd="VAF" tag="VLadj" in="-1:attrr#" out="">cuadrados</W>
@@ -109,7 +109,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="cultura" msd="NC" tag="NC" in="-1:nobj" out="">cultura</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-5:loc" out="1:nobj">en</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj|-51:coref-id" out="1:pnct|28:assoc-const">Ørestaden</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj|-51:coref-iden" out="1:pnct|28:assoc-const">Ørestaden</W>
 <W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="2:subj|3:[subj]" out="1:nobj">Ny</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Tøjhusgrunden</W>
@@ -128,7 +128,7 @@
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-2:conj" out="-1:coord">música</W>
 <W lemma="." msd="XP" tag="FS" in="-14:pnct" out="">.</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="14:struct" out="1:pnct">Además</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="14:scene" out="1:pnct">Además</W>
 <W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
 <W lemma="el" msd="PD" tag="ART" in="12:subj|13:[subj]" out="1:nobj|2:loc|6:loc">la</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="">zona</W>
@@ -142,7 +142,7 @@
 <W lemma="norte" msd="NC" tag="NC" in="-1:attr" out="1:pobj|1:{arg}">norte</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:nobj" out="">Ørestaden</W>
-<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-14:struct|-12:subj|1:vobj|6:pnct">debe</W>
+<W lemma="deber" msd="VAD" tag="VMfin" in="" out="-14:scene|-12:subj|1:vobj|6:pnct">debe</W>
 <W lemma="ser" msd="VAF" tag="VSinf" in="-1:vobj" out="-13:[subj]|1:preds">ser</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:preds" out="1:nobj">una</W>
 <W lemma="zona" msd="NC" tag="NC" in="-1:nobj" out="1:goal#">zona</W>
@@ -168,11 +168,11 @@
 <W lemma="en" msd="SP" tag="SCENE" in="-6:time" out="1:nobj">en</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="">1996</W>
 <W lemma="." msd="XP" tag="FS" in="-15:pnct" out="">.</W>
-<W lemma="y" msd="CC" tag="CC" in="4:struct" out="">Y</W>
+<W lemma="y" msd="CC" tag="CC" in="4:scene" out="">Y</W>
 <W lemma="al" msd="SP" tag="PAL" in="3:time" out="1:nobj">al</W>
 <W lemma="final" msd="NC" tag="NC" in="-1:nobj" out="">final</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-81:coref-id|1:subj" out="17:assoc-const">Amager</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:time|-1:subj|-4:struct|1:dobj|5:pnct">obtendrá</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-81:coref-iden|1:subj" out="17:assoc-const">Amager</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-3:time|-1:subj|-4:scene|1:dobj|5:pnct">obtendrá</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="-1:dobj" out="1:nobj">su</W>
 <W lemma="tren" msd="NC" tag="NC" in="-1:nobj" out="1:loc#">tren</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:loc#" out="1:nobj">de</W>

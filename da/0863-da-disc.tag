@@ -210,8 +210,8 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="4:conj|12:pnct">Men</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="-1:neg">kun</W>
-<W gloss="the_welfare_state" lemma="velfærdsstat" msd="NCCSU==D" tag="NN" in="1:subj" out="-1:degr">velfærdsstaten</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="-1:neg">kun</W>
+<W gloss="the_welfare_state" lemma="velfærdsstat" msd="NCCSU==D" tag="NN" in="1:subj" out="-1:quant">velfærdsstaten</W>
 <W gloss="is_threatened" lemma="true" msd="VADR=----P-" tag="VBD" in="-4:conj" out="-1:subj|1:pobj|3:pnct|5:conj">trues</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="internationalisation" lemma="internationalisering" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">internationaliseringen</W>
@@ -234,10 +234,10 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="5:preds" out="">Det</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|1:subj|2:time|3:ext|4:vobj|19:pnct">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-2:pnct|1:subj|2:time|3:time|4:vobj|19:pnct">har</W>
 <W gloss="The_Danes" lemma="dansker" msd="NCCPU==D" tag="NNP" in="-1:subj|3:[subj]" out="">danskerne</W>
 <W gloss="now" lemma="nu" msd="RGU" tag="RP" in="-2:time" out="">nu</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-3:ext" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-3:time" out="">altid</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-4:vobj" out="-3:[subj]|-5:preds|1:pnct|3:mod|8:mod">været</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="even" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>

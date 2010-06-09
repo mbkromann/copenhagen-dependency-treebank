@@ -2,7 +2,7 @@
 <W msd="VA" tag="MD" in="" out="1:subj|2:vobj|44:pnct">Can</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]|2:[subj]" out="">you</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]|1:vobj">be</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod|5:mod|9:pnct|10:cont">seduced</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod|5:mod|9:pnct|10:time">seduced</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">King's</W>
@@ -12,7 +12,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">degree</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-2:attr">heat</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-10:time" out="2:vobj">while</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|14:[subj]|18:[subj]|21:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|13:conj|16:pnct|17:conj|20:conj">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:lobj|5:pnct|7:mod">lying</W>
@@ -105,8 +105,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Blue</W>
 <W msd="CC" tag="CC" in="5:coord" out="1:pnct">or</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="RB" in="2:attr" out="-1:degr|1:pnct">recently</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="RB" in="2:attr" out="-1:quant|1:pnct">recently</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-10:conj" out="-5:coord|-2:attr|1:nobj|3:conj">Sea</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bee</W>

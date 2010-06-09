@@ -243,10 +243,10 @@
 <s>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|2:[subj]" out="7:nobj">Det</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|13:pnct|14:pnct">er</W>
-<W gloss="succeeded" lemma="lykkes" msd="VEPA=[SP][CN][DI][ARU]-U" tag="VBD" in="-1:vobj" out="-2:[subj]|1:iobj|3:ext">lykkedes</W>
+<W gloss="succeeded" lemma="lykkes" msd="VEPA=[SP][CN][DI][ARU]-U" tag="VBD" in="-1:vobj" out="-2:[subj]|1:iobj|3:time">lykkedes</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:iobj" out="">mig</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="1:other" out="">nok</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:ext" out="-1:other|1:nobj">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:time" out="-1:other|1:nobj">en</W>
 <W gloss="time" lemma="gang" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">gang</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-7:nobj" out="1:vobj">at</W>
 <W gloss="low" lemma="lave" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|3:avobj">lave</W>

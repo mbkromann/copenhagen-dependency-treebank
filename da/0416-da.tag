@@ -63,8 +63,8 @@
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-10:cond" out="2:vobj|6:conj">hvis</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">var</W>
-<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:degr">gammel</W>
-<W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:degr" out="">nok</W>
+<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-1:preds" out="1:quant">gammel</W>
+<W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-1:quant" out="">nok</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="if" lemma="hvis" msd="CS" tag="IN" in="-6:conj" out="-1:coord|2:vobj">hvis</W>
 <W gloss="you" lemma="du" msd="PP2CSN-NU" tag="PRP" in="1:subj" out="">du</W>
@@ -99,8 +99,8 @@
 <W gloss="-" lemma="-" msd="XP" tag="-" in="1:pnct" out=""> - </W>
 <W gloss="Am" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:pnct|1:subj|3:man|4:preds|6:pnct">Er</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
-<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="really" lemma="rigtig" msd="ANP---=-R" tag="JJ" in="-3:man" out="-1:degr">rigtig</W>
+<W gloss="quite" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="really" lemma="rigtig" msd="ANP---=-R" tag="JJ" in="-3:man" out="-1:quant">rigtig</W>
 <W gloss="your" lemma="din" msd="PO2CSUSNU" tag="PRP$" in="-4:preds" out="1:possd">din</W>
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-1:possd" out="">pige</W>
 <W gloss="?" lemma="?" msd="XP" tag="?" in="-6:pnct" out="">?</W>
@@ -235,8 +235,8 @@
 <W gloss="superfluous" lemma="overflødig" msd="ANPNSU=IU" tag="JJ" in="-1:preds" out="">overflødigt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-3:nobj" out="1:vobj">at</W>
 <W gloss="write" lemma="skrive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:dobj">skrive</W>
-<W gloss="how" lemma="hvor" msd="RGU" tag="RP" in="1:degr" out="">hvor</W>
-<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-2:dobj|2:[pred]" out="-1:degr|2:rel|5:conj">gammel</W>
+<W gloss="how" lemma="hvor" msd="RGU" tag="RP" in="1:quant" out="">hvor</W>
+<W gloss="old" lemma="gammel" msd="ANPCSU=IU" tag="JJ" in="-2:dobj|2:[pred]" out="-1:quant|2:rel|5:conj">gammel</W>
 <W gloss="the_girl" lemma="pige" msd="NCCSU==D" tag="NN" in="1:subj" out="">pigen</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:rel" out="-1:subj|-2:[pred]|1:pnct">er</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>

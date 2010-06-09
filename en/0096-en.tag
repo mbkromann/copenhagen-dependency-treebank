@@ -101,9 +101,9 @@
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|1:dobj">realise</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|9:[dobj]" out="8:rel">it</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:neg|2:degr|3:preds">is</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:neg|2:quant|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">only</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">only</W>
 <W msd="PD" tag="DT" in="-3:preds" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">young</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">girl</W>
@@ -139,8 +139,8 @@
 <W msd="PO" tag="PRP$" in="2:subj" out="1:possd">Our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">society</W>
 <W msd="VADR" tag="VBZ" in="" out="-3:pnct|-2:subj|2:preds|7:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj|-1:degr">good</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="1:pobj|-1:quant">good</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:mod">people</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">like</W>

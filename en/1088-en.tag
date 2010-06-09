@@ -246,9 +246,9 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-7:[subj]|6:mod">received</W>
 <W msd="PD" tag="DT" in="1:mod" out="">no</W>
-<W msd="ANP" tag="RB" in="2:succ" out="-1:mod|1:pobj">later</W>
+<W msd="ANP" tag="RB" in="2:time" out="-1:mod|1:pobj">later</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="">than</W>
-<W msd="AC" tag="CD" in="2:tobj" out="-2:succ|1:nobj">three</W>
+<W msd="AC" tag="CD" in="2:tobj" out="-2:time|1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="CS" tag="IN" in="-6:mod" out="-2:tobj|1:nobj">after</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>

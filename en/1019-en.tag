@@ -220,8 +220,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj|6:[subj]" out="">They</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="ANP" tag="RB" in="" out="-2:subj|-1:ext|1:dobj|2:part|4:conj|6:pnct">back</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="ANP" tag="RB" in="" out="-2:subj|-1:time|1:dobj|2:part|4:conj|6:pnct">back</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">me</W>
 <W msd="RG" tag="RP" in="-2:part" out="">up</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

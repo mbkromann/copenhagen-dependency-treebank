@@ -5,8 +5,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:ext|2:preds|3:pnct|39:conj|43:pnct">were</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VADA" tag="VBD" in="" out="-6:mod|-1:subj|1:time|2:preds|3:pnct|39:conj|43:pnct">were</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">silent</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="35:coord" out="">and</W>

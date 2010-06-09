@@ -81,8 +81,8 @@
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">by</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:ref|2:rel|14:modp">things</W>
 <W msd="PT" tag="WDT" in="-1:ref|1:subj" out="">that</W>
-<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:ext|4:pnct|5:ref|7:rel">happen</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="2:conj">again</W>
+<W msd="VADR" tag="VBP" in="-2:rel" out="-1:subj|1:time|4:pnct|5:ref|7:rel">happen</W>
+<W msd="ANP" tag="RB" in="-1:time" out="2:conj">again</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="-2:conj" out="-1:coord">again</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -152,10 +152,10 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">She</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|2:pnct|3:reas|12:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|2:pnct|3:cause|12:pnct">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]">smile</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-3:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-3:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">she</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:mod">profited</W>
@@ -187,8 +187,8 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADR" tag="VBZ" in="-19:conj" out="-1:subj|-2:coord|1:degr|2:dobj|3:pnct|6:conj">has</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="-19:conj" out="-1:subj|-2:coord|1:quant|2:dobj|3:pnct|6:conj">has</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="PP" tag="PRP" in="-2:dobj" out="">him</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>

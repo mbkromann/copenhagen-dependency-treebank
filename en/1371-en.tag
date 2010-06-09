@@ -27,8 +27,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rock</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">clubs</W>
-<W msd="AC" tag="CD" in="-9:mod" out="2:nobj|1:degr">one</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="">more</W>
+<W msd="AC" tag="CD" in="-9:mod" out="2:nobj|1:quant">one</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="">more</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
 <W msd="U=" tag="TO" in="-12:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:iobj|2:dobj">convince</W>
@@ -106,7 +106,7 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="3:nobj">It</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|7:pnct|8:reas|21:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:pnct|-1:subj|1:preds|7:pnct|8:cause|21:pnct">is</W>
 <W msd="NC=S" tag="NN" in="-1:preds" out="">fine</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">play</W>
@@ -114,7 +114,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">small</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">clubs</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj">don't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj">have</W>
@@ -134,8 +134,8 @@
 <W msd="ANP" tag="RB" in="2:mod" out="">then</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-3:conj" out="-2:mod|-1:expl|1:dobj">is</W>
-<W msd="AC" tag="CD" in="-1:dobj" out="2:mod|3:nobj|13:pnct|15:xpl|1:degr">one</W>
-<W msd="ANC" tag="RBR" in="-1:degr" out="">more</W>
+<W msd="AC" tag="CD" in="-1:dobj" out="2:mod|3:nobj|13:pnct|15:xpl|1:quant">one</W>
+<W msd="ANC" tag="RBR" in="-1:quant" out="">more</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">vital</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:nobj">reason</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="2:vobj">that</W>

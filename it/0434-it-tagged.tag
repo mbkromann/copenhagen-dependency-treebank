@@ -109,7 +109,7 @@
 <W lemma="cosa" msd="NC" tag="NOM" in="" out="">Cosa</W>
 <W lemma="ritenere" msd="VADR" tag="VER:pres" in="" out="">ritieni</W>
 <W lemma="sia" msd="CS" tag="CON" in="" out="">sia</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="esporre" msd="VAP" tag="VER:pper" in="" out="">esposto</W>
 <W lemma="?" msd="XP" tag="SENT" in="" out="">?</W>
 </s>

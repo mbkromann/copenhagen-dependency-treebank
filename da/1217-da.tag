@@ -94,8 +94,8 @@
 </p>
 <p>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|2:mod|3:preds|11:pnct|12:mod|19:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|2:mod|3:preds|11:pnct|12:mod|19:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="3:nobj">det</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-2:mod" out="">nok</W>
 <W gloss="worthwhile" lemma="værd" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-3:preds" out="">værd</W>

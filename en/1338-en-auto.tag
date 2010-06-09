@@ -40,8 +40,8 @@
 <W msd="ANP" tag="JJ" in="" out="">due</W>
 <W msd="U=" tag="TO" in="" out="1:dobj|5:pnct">to</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">powerful</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">powerful</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">bomb</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>

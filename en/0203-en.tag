@@ -63,8 +63,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cabin's</W>
 <W msd="AC" tag="CD" in="-2:possd" out="2:mod|3:nobj">9</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:mod" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:mod" out="-1:quant">important</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="">measurements</W>
 <W msd="XP" tag=")" in="-9:pnct" out="">)</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
@@ -80,8 +80,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">fact</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="7:vobj">that</W>
 <W msd="PD" tag="DT" in="6:subj|7:[subj]" out="2:attr|5:nobj">the</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">slightly</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">sloping</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">slightly</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">sloping</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">rear</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="-1:attr">seat</W>
 <W msd="ANP" tag="RB" in="-5:nobj" out="-1:mod">back</W>
@@ -106,9 +106,9 @@
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-9:[subj]|1:pobj">diminished</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:pnct|4:nobj">by</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:struct" out="1:pnct">respectively</W>
+<W msd="ANP" tag="RB" in="2:scene" out="1:pnct">respectively</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="AC" tag="CD" in="-4:nobj" out="-2:struct|2:conj|3:nobj">10</W>
+<W msd="AC" tag="CD" in="-4:nobj" out="-2:scene|2:conj|3:nobj">10</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">8</W>
 <W msd="NC=S" tag="NN" in="-3:nobj|-1:[nobj]" out="">mm</W>
@@ -122,9 +122,9 @@
 <W msd="ANP" tag="RB" in="-1:attr" out="">front/back</W>
 <W msd="VADA" tag="VBD" in="-7:vobj" out="-6:subj|1:pnct|4:dobj">lost</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:struct" out="1:pnct">respectively</W>
+<W msd="ANP" tag="RB" in="2:scene" out="1:pnct">respectively</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="AC" tag="CD" in="-4:dobj" out="-2:struct|2:conj|3:nobj">4</W>
+<W msd="AC" tag="CD" in="-4:dobj" out="-2:scene|2:conj|3:nobj">4</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="AC" tag="CD" in="-2:conj" out="-1:coord|1:[nobj]">10</W>
 <W msd="NC=S" tag="NN" in="-3:nobj|-1:[nobj]" out="">mm</W>

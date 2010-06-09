@@ -20,8 +20,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">education</W>
 <W msd="SP" tag="IN" in="-7:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|5:nobj">a</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="5:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr|2:conj">interesting</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="5:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant|2:conj">interesting</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">natural</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="">way</W>

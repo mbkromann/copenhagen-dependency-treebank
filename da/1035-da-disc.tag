@@ -110,8 +110,8 @@
 <W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">skal</W>
 <W gloss="do" lemma="gøre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:iobj|3:preds|4:pnct|5:dobj">gøre</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="clearly" lemma="klar" msd="ANP---=-R" tag="JJ" in="-3:preds" out="-1:degr">klart</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="clearly" lemma="klar" msd="ANP---=-R" tag="JJ" in="-3:preds" out="-1:quant">klart</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="how" lemma="hvordan" msd="RGU" tag="RP" in="-5:dobj|2:[mod]" out="2:rel">hvordan</W>
 <W gloss="one" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
@@ -143,8 +143,8 @@
 <W gloss="co-operative_housing" lemma="andelsbolig" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">andelsboliger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-16:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">derfor</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:conj" out="-2:coord|-1:reas|1:subj|2:neg|3:preds|5:pnct">er</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-19:conj" out="-2:coord|-1:cause|1:subj|2:neg|3:preds|5:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj|11:[dobj]" out="10:rel">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-3:preds" out="1:nobj">den</W>
@@ -152,10 +152,10 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="Svend" lemma="Svend" msd="NP--U==-" tag="NNP" in="1:namef" out="">Svend</W>
 <W gloss="Trangeled" lemma="Trangeled" msd="NP--U==-" tag="NNP" in="4:subj|5:[subj]" out="-1:namef">Trangeled</W>
-<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:prec" out="2:conj">først</W>
+<W gloss="first" lemma="først" msd="RGU" tag="RP" in="3:time" out="2:conj">først</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="foremost" lemma="fremmest" msd="ANP[CN]SU=IU" tag="JJ" in="-2:conj" out="-1:coord">fremmest</W>
-<W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="-10:rel" out="-4:subj|-3:prec|1:vobj">vil</W>
+<W gloss="would" lemma="ville" msd="VADR=----A-" tag="VBD" in="-10:rel" out="-4:subj|-3:time|1:vobj">vil</W>
 <W gloss="recommend" lemma="anbefale" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-5:[subj]|-11:[dobj]">anbefale</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>

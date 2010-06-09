@@ -90,12 +90,12 @@
 <s>
 <W msd="PD" tag="DT" in="1:subj|2:[subj]" out="">Some</W>
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|10:pnct">can</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|5:dur">feel</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:lobj|5:time">feel</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">pain</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">testicles</W>
-<W msd="SP" tag="IN" in="-5:dur" out="3:nobj">during</W>
+<W msd="SP" tag="IN" in="-5:time" out="3:nobj">during</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">intense</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">sexual</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-2:attr|-1:attr">arousal</W>
@@ -206,8 +206,8 @@
 <W msd="ANP" tag="JJ" in="-2:preds" out="-1:mod">boring</W>
 <W msd="SP" tag="IN" in="-3:nobj" out="3:vobj">that</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:ext|1:dobj|2:lobj">takes</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-2:subj|-1:time|1:dobj|2:lobj">takes</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">place</W>
 <W msd="SP" tag="IN" in="-2:lobj" out="1:nobj">in</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">bed</W>

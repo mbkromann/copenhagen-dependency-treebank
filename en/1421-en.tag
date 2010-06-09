@@ -24,9 +24,9 @@
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">public</W>
-<W msd="VADR" tag="VBZ" in="-20:conj" out="-4:subj|-5:coord|1:pnct|2:reas|4:vobj">is</W>
+<W msd="VADR" tag="VBZ" in="-20:conj" out="-4:subj|-5:coord|1:pnct|2:cause|4:vobj">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="-2:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="-4:vobj" out="-8:[subj]|1:mod">requested</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
@@ -224,7 +224,7 @@
 <W msd="NC=S" tag="NN" in="-2:dobj" out="-1:attr">treatment</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
-<W msd="VADR" tag="VBZ" in="-9:conj" out="-1:expl|-8:mod|1:epi|2:dobj|14:reas">is</W>
+<W msd="VADR" tag="VBZ" in="-9:conj" out="-1:expl|-8:mod|1:epi|2:dobj|14:cause">is</W>
 <W msd="ANP" tag="RB" in="-1:epi" out="">certainly</W>
 <W msd="PI" tag="DT" in="-2:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">risk</W>
@@ -238,7 +238,7 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">wound</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-14:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-14:cause" out="2:vobj">because</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:expl|1:mod|2:dobj|4:preds">are</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">actually</W>

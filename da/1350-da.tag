@@ -61,8 +61,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]" out="">Jeg</W>
-<W gloss="try" lemma="forsøge" msd="VADR=----A-" tag="VBD" in="14:qobj" out="-1:subj|-2:pnct|1:ext|2:dobj|8:pnct|9:time|13:pnct">forsøger</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:ext" out="">altid</W>
+<W gloss="try" lemma="forsøge" msd="VADR=----A-" tag="VBD" in="14:qobj" out="-1:subj|-2:pnct|1:time|2:dobj|8:pnct|9:time|13:pnct">forsøger</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:time" out="">altid</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="kill" lemma="slå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">slå</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|2:mod">et</W>
@@ -110,9 +110,9 @@
 <p>
 <s>
 <W gloss="Jason" lemma="Jason" msd="NP--U==-" tag="NNP" in="1:subj" out="">Jason</W>
-<W gloss="seems" lemma="synes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:neg|2:ext|3:pnct|5:vobj|10:pnct">synes</W>
+<W gloss="seems" lemma="synes" msd="VEDR=----A-" tag="VBN" in="" out="-1:subj|1:neg|2:time|3:pnct|5:vobj|10:pnct">synes</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:ext" out="">altid</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="">altid</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="3:nobj">det</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-5:vobj" out="-1:subj|1:preds">er</W>

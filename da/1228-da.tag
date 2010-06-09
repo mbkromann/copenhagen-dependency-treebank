@@ -85,8 +85,8 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Han</W>
-<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:pnct|3:dobj|32:pnct|1:cont">mente</W>
-<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:cont" out="">samtidig</W>
+<W gloss="thought" lemma="mene" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:pnct|3:dobj|32:pnct|1:time">mente</W>
+<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-1:time" out="">samtidig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-3:dobj" out="15:conj">at</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">det</W>

@@ -35,10 +35,10 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">parting</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">gift</W>
 <W msd="SP" tag="IN" in="-4:preds" out="4:nobj">of</W>
-<W msd="ANP" tag="RB" in="3:degr" out="">approximately</W>
+<W msd="ANP" tag="RB" in="3:quant" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">DKK</W>
 <W msd="AC" tag="CD" in="1:numm" out="">nine</W>
-<W msd="AC" tag="CD" in="-4:nobj" out="-1:numm|-2:mod|-3:degr">million</W>
+<W msd="AC" tag="CD" in="-4:nobj" out="-1:numm|-2:mod|-3:quant">million</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
 <s>
@@ -86,8 +86,8 @@
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">proved</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">optimistic</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">optimistic</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
@@ -141,9 +141,9 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="6:mod" out="1:pnct|2:degr">Abroad</W>
+<W msd="ANP" tag="RB" in="6:mod" out="1:pnct|2:quant">Abroad</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">reaction</W>

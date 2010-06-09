@@ -1,11 +1,11 @@
 <s>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]" out="">Depeche</W>
 <W msd="PP" tag="PRP" in="1:focal" out="">themselves</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|1:vobj|3:pnct|4:cont|51:conj|62:pnct|-1:focal">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|1:vobj|3:pnct|4:time|51:conj|62:pnct|-1:focal">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:dobj">having</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">fun</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-4:time" out="2:vobj">while</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:vobj|4:pnct|5:ref|11:rel">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">recording</W>
@@ -79,22 +79,22 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">It</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:degr|1:dobj|2:pobj|5:coord|26:pnct">brings</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:quant|1:dobj|2:pobj|5:coord|26:pnct">brings</W>
 <W msd="PP" tag="PRP" in="-1:dobj|6:[subj]" out="">you</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="1:nobj">to</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">tears</W>
 <W msd="XP" tag="(" in="1:pnct" out="">(</W>
 <W msd="CC" tag="CC" in="-5:coord" out="-1:pnct|1:&lt;dobj&gt;|20:pnct">or</W>
 <W msd="U=" tag="TO" in="-1:&lt;dobj&gt;" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:iobj|3:dobj|6:pnct|7:cont">give</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:iobj|3:dobj|6:pnct|7:time">give</W>
 <W msd="PO" tag="PRP$" in="-1:iobj" out="1:possd">your</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">girlfriend</W>
 <W msd="PI" tag="DT" in="-3:dobj" out="1:attr|2:nobj">an</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">extra</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">kiss</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-7:time" out="2:vobj">while</W>
 <W msd="U=" tag="EX" in="1:expl" out="">there</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:expl|1:mod|2:dobj|3:pnct|4:mod">is</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">still</W>

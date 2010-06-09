@@ -31,13 +31,13 @@
 <s>
 <W msd="U=" tag="EX" in="1:expl|2:[expl]" out="">There</W>
 <W msd="VA" tag="MD" in="" out="-1:expl|1:vobj|9:pnct|14:conj|21:pnct">may</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:preds|6:degr|5:time">be</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[expl]|1:preds|6:quant|5:time">be</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">bit</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rain</W>
 <W msd="NC=S" tag="NN" in="-5:time" out="">tonight</W>
-<W msd="ANS" tag="JJS" in="-6:degr" out="1:nobj">most</W>
+<W msd="ANS" tag="JJS" in="-6:quant" out="1:nobj">most</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">places</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="4:coord" out="">and</W>
@@ -243,13 +243,13 @@
 <W msd="NP=S" tag="NNP" in="2:title" out="">President</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Mikhail</W>
 <W msd="NP=S" tag="NNP" in="1:subj|2:[subj]" out="-2:title|-1:namef">Gorbachev</W>
-<W msd="VADR" tag="VBZ" in="-21:conj" out="-1:subj|-8:mod|-10:coord|1:vobj|5:pnct|6:reas">has</W>
+<W msd="VADR" tag="VBZ" in="-21:conj" out="-1:subj|-8:mod|-10:coord|1:vobj|5:pnct|6:cause">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">suffered</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">political</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">defeat</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:reas" out="4:vobj">because</W>
+<W msd="CS" tag="IN" in="-6:cause" out="4:vobj">because</W>
 <W msd="PO" tag="PRP$" in="3:subj|5:[subj]" out="2:possd">his</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">draft</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="-1:mod">constitution</W>

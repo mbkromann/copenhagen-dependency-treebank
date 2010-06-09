@@ -237,8 +237,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Jutlandese</W>
 <W msd="SP" tag="IN" in="-3:accom" out="">without</W>
 <W msd="VAG" tag="VBG" in="" out="2:attr">making</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">big</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">big</W>
 <W msd="PI" tag="DT" in="" out="">a</W>
 <W msd="NC=S" tag="NN" in="" out="">fool</W>
 <W msd="SP" tag="IN" in="" out="">of</W>

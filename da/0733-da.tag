@@ -88,8 +88,8 @@
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:preds|3:pnct|9:pnct">er</W>
-<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="uncertain" lemma="usikker" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:degr">usikkert</W>
+<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="uncertain" lemma="usikker" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="-1:quant">usikkert</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-5:nobj|4:[dobj]" out="4:rel">hvad</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr">de</W>
@@ -223,8 +223,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="6:vobj">at</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="5:subj" out="2:attr|3:nobj">et</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="large" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">stort</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="large" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">stort</W>
 <W gloss="number" lemma="antal" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:nobj">antal</W>
 <W gloss="road_users" lemma="trafikant" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">trafikanter</W>
 <W gloss="drive" lemma="køre" msd="VADR=----A-" tag="VBD" in="-6:vobj" out="-5:subj|1:man">kører</W>

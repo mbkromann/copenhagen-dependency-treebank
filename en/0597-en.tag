@@ -14,8 +14,8 @@
 <s>
 <W msd="NC=S" tag="NN" in="1:subj" out="">Nothing</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|50:pnct">is</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="9:pobj">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">dangerous</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="9:pobj">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">dangerous</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">morality</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
@@ -49,7 +49,7 @@
 <W msd="NC=S" tag="NN" in="-2:possd" out="">desert</W>
 <W msd="XP" tag="," in="-17:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
-<W msd="VAF" tag="VB" in="-19:conj" out="-1:coord|1:dobj|5:pobj|7:pnct|8:reas">criminalize</W>
+<W msd="VAF" tag="VB" in="-19:conj" out="-1:coord|1:dobj|5:pobj|7:pnct|8:cause">criminalize</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">all</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">attacks</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">on</W>
@@ -57,7 +57,7 @@
 <W msd="CS" tag="IN" in="-5:pobj" out="1:nobj">as</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">sacrilege</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="3:vobj">because</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">they</W>
 <W msd="ANP" tag="RB" in="1:add" out="">also</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|-1:add|1:dobj">strike</W>
@@ -88,8 +88,8 @@
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
 <W msd="ANP" tag="JJ" in="-2:vobj" out="-3:[subj]|1:pnct|3:modp|7:pobj">subject</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="2:pobj">more</W>
-<W msd="ANP" tag="RB" in="-3:modp" out="-1:degr">intensely</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="2:pobj">more</W>
+<W msd="ANP" tag="RB" in="-3:modp" out="-1:quant">intensely</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj|2:pnct">than</W>
 <W msd="ANS" tag="JJS" in="-1:nobj" out="">most</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -132,8 +132,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">man</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">personally</W>
-<W msd="VAP" tag="VBN" in="-6:mod" out="-1:mod|1:reas">wronged</W>
-<W msd="CS" tag="IN" in="-1:reas" out="3:vobj">because</W>
+<W msd="VAP" tag="VBN" in="-6:mod" out="-1:mod|1:cause">wronged</W>
+<W msd="CS" tag="IN" in="-1:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">world</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|1:mod|2:vobj|5:pnct">had</W>
@@ -186,11 +186,11 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|8:mod">the</W>
 <W msd="ANS" tag="JJS" in="-1:attr" out="1:pnct|3:conj|6:conj">richest</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-1:degr">beautiful</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-1:quant">beautiful</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-6:conj" out="-2:coord|-1:degr">vital</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-6:conj" out="-2:coord|-1:quant">vital</W>
 <W msd="SP" tag="IN" in="-8:mod" out="1:nobj">in</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">literature</W>

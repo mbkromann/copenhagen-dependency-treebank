@@ -31,8 +31,8 @@
 <W lemma="zu" msd="U=" tag="PTKZU" in="-1:nobj" out="1:vobj">zu</W>
 <W lemma="streiken" msd="VAF" tag="VVINF" in="-1:vobj" out="">streiken</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
-<W lemma="gestern" msd="RG" tag="ADV" in="1:prec" out="">gestern</W>
-<W lemma="haben" msd="VA" tag="VAFIN" in="-15:conj" out="-2:coord|-1:prec|1:subj|3:vobj|18:pnct">haben</W>
+<W lemma="gestern" msd="RG" tag="ADV" in="1:time" out="">gestern</W>
+<W lemma="haben" msd="VA" tag="VAFIN" in="-15:conj" out="-2:coord|-1:time|1:subj|3:vobj|18:pnct">haben</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|-19:coref-var|2:[subj]|6:[subj]" out="1:nobj|24:coref-var|85:coref-var">die</W>
 <W lemma="Fußballspieler" msd="NC" tag="NN" in="-1:nobj" out="">Fußballspieler</W>
 <W lemma="beschließen" msd="VAP" tag="VVPP" in="-3:vobj" out="-2:[subj]|1:pnct|4:dobj">beschlossen</W>
@@ -55,8 +55,8 @@
 </p>
 <p>
 <s>
-<W lemma="jetzt" msd="RG" tag="ADV" in="1:cont" out="">Jetzt</W>
-<W lemma="setzen" msd="VA" tag="VVFIN" in="" out="-1:cont|1:subj|3:dobj|6:part|25:pnct">setzen</W>
+<W lemma="jetzt" msd="RG" tag="ADV" in="1:time" out="">Jetzt</W>
+<W lemma="setzen" msd="VA" tag="VVFIN" in="" out="-1:time|1:subj|3:dobj|6:part|25:pnct">setzen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj|-37:coref-var|-24:coref-var" out="1:nobj|34:coref|114:coref-var">die</W>
 <W lemma="Beteiligte" msd="NC" tag="NN" in="-1:nobj" out="">Beteiligten</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="-3:dobj" out="1:attr|2:nobj|4:pnct|6:ref|13:relelab">einen</W>
@@ -86,11 +86,11 @@
 </p>
 <p>
 <s>
-<W lemma="bis" msd="CC" tag="KON" in="4:prec" out="1:pobj">Bis</W>
+<W lemma="bis" msd="CC" tag="KON" in="4:time" out="1:pobj">Bis</W>
 <W lemma="zum" msd="SP+P" tag="APPRART" in="-1:pobj" out="2:nobj">zum</W>
 <W lemma="3." msd="AN" tag="ADJA" in="1:nobj" out="">3.</W>
 <W lemma="Mai" msd="NC" tag="NN" in="-2:nobj" out="-1:nobj">Mai</W>
-<W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-4:prec|1:subj|12:vobj|13:pnct|40:pnct">sollen</W>
+<W lemma="sollen" msd="VA" tag="VMFIN" in="" out="-4:time|1:subj|12:vobj|13:pnct|40:pnct">sollen</W>
 <W lemma="sie" msd="PP" tag="PPER" in="-34:coref|-1:subj|10:[subj]|11:[subj]" out="">sie</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="9:dobj" out="1:attr|2:nobj|4:conj">einen</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neuen</W>
@@ -135,11 +135,11 @@
 </p>
 <p>
 <s>
-<W lemma="aus" msd="SP" tag="APPR" in="4:reas" out="1:nobj">Aus</W>
+<W lemma="aus" msd="SP" tag="APPR" in="4:cause" out="1:nobj">Aus</W>
 <W lemma="Grund&7c;Gründen" msd="NC" tag="NN" in="-1:nobj" out="1:poss">Gründen</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:poss" out="1:nobj">des</W>
 <W lemma="Verhandlungsklima" msd="NC" tag="NN" in="-1:nobj" out="">Verhandlungsklimas</W>
-<W lemma="fordern" msd="VA" tag="VVFIN" in="" out="-4:reas|1:subj|3:dobj|5:part|6:pnct|13:nobj|15:pnct|21:pnct">fordert</W>
+<W lemma="fordern" msd="VA" tag="VVFIN" in="" out="-4:cause|1:subj|3:dobj|5:part|6:pnct|13:nobj|15:pnct|21:pnct">fordert</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:subj" out="1:nobj">der</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">Divisionsausschuss</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-3:dobj" out="1:nobj">die</W>
@@ -153,9 +153,9 @@
 <W lemma="neu" msd="AN" tag="ADJA" in="1:attr" out="">neuen</W>
 <W lemma="Vertragsabschluß" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Vertragsabschlüssen</W>
 <W lemma="zu" msd="U=" tag="PTKZU" in="-13:nobj" out="1:vobj">zu</W>
-<W lemma="verzichten" msd="VAF" tag="VVINF" in="-1:vobj" out="-7:pobj|2:dur">verzichten</W>
+<W lemma="verzichten" msd="VAF" tag="VVINF" in="-1:vobj" out="-7:pobj|2:time">verzichten</W>
 <W lemma="," msd="XP" tag="$," in="-15:pnct" out="">,</W>
-<W lemma="so" msd="RG" tag="ADV" in="-2:dur" out="1:avobj">so</W>
+<W lemma="so" msd="RG" tag="ADV" in="-2:time" out="1:avobj">so</W>
 <W lemma="lange" msd="RG" tag="ADV" in="-1:avobj" out="3:vobj">lange</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="2:subj" out="1:nobj">die</W>
 <W lemma="Verhandlung" msd="NC" tag="NN" in="-1:nobj" out="">Verhandlungen</W>
@@ -188,11 +188,11 @@
 <W lemma="anwenden" msd="VAF" tag="VVIZU" in="-8:dobj" out="-3:dobj">anzuwenden</W>
 <W lemma="," msd="XP" tag="$," in="-4:pnct" out="">,</W>
 <W lemma="d" msd="PT" tag="PRELS" in="-5:ref|5:subj" out="">die</W>
-<W lemma="vor" msd="SP" tag="APPR" in="4:prec" out="1:nobj">vor</W>
+<W lemma="vor" msd="SP" tag="APPR" in="4:time" out="1:nobj">vor</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="2:nobj">dem</W>
 <W lemma="9." msd="AN" tag="ADJA" in="1:nobj" out="">9.</W>
 <W lemma="März" msd="NC" tag="NN" in="-2:nobj" out="-1:nobj">März</W>
-<W lemma="gelten" msd="VA" tag="VVFIN" in="-10:relr" out="-5:subj|-4:prec">galten</W>
+<W lemma="gelten" msd="VA" tag="VVFIN" in="-10:relr" out="-5:subj|-4:time">galten</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
 </s>
 </p>

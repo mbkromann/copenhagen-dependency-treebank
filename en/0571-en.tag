@@ -168,11 +168,11 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">reward</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
-<W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|4:dur">a</W>
+<W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|4:time">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">display</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">courage</W>
-<W msd="SP" tag="IN" in="-4:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-4:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Second</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">World</W>

@@ -44,13 +44,13 @@
 <W gloss="KOLDING" lemma="Kolding" msd="NP--U==-" tag="NNP" in="" out="1:pnct|3:list">KOLDING</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="So" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:list" out="-1:mod|1:subj|6:ext|7:preds|18:pnct">er</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:list" out="-1:mod|1:subj|6:time|7:preds|18:pnct">er</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|4:appr">den</W>
 <W gloss="from_Kolding" lemma="koldingensisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">koldingensiske</W>
 <W gloss="car_salesman" lemma="bilsælger" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">bilsælger</W>
 <W gloss="Christian" lemma="Christian" msd="NP--U==-" tag="NNP" in="1:namef" out="">Christian</W>
 <W gloss="Christensen" lemma="Christensen" msd="NP--U==-" tag="NNP" in="-4:appr" out="-1:namef">Christensen</W>
-<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-6:ext" out="">igen</W>
+<W gloss="once_again" lemma="igen" msd="RGU" tag="RP" in="-6:time" out="">igen</W>
 <W gloss="ready" lemma="klar" msd="ANPCSU=IU" tag="JJ" in="-7:preds" out="1:pobj">klar</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -188,8 +188,8 @@
 <W gloss="before" lemma="tidlig" msd="ANC---=-R" tag="JJR" in="1:mod" out="-3:tobj">tidligere</W>
 <W gloss="had" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:mod|1:subj|13:vobj|16:pnct">var</W>
 <W gloss="his" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:subj|12:[subj]|13:[subj]|14:[subj]" out="2:attr|3:possd|4:pnct|5:appa">hans</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="good" lemma="god" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">gode</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="good" lemma="god" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">gode</W>
 <W gloss="friend" lemma="ven" msd="NCCSU==I" tag="NN" in="-3:possd" out="">ven</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-5:appa" out="1:attr|2:nobj|4:appr|6:pnct">den</W>

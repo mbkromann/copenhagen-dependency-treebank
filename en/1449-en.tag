@@ -69,8 +69,8 @@
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">residents</W>
 <W msd="VADR" tag="VBP" in="-13:conj" out="-2:subj|-3:coord|1:vobj">are</W>
-<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:ext">raging</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VAG" tag="VBG" in="-1:vobj" out="-3:[subj]|1:time">raging</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>
@@ -84,8 +84,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">riots</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|2:lobj">gone</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="-2:lobj" out="-1:degr">far</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:lobj" out="-1:quant">far</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>

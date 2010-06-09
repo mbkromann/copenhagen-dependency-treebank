@@ -42,9 +42,9 @@
 <p>
 <s>
 <W gloss="So" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">Så</W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="-1:mod">meget</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="-1:degr">mere</W>
-<W gloss="disturbing" lemma="forurolige" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="1:preds" out="-1:degr">foruroligende</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="-1:mod">meget</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="-1:quant">mere</W>
+<W gloss="disturbing" lemma="forurolige" msd="VAPR=[SP][CN][DI][ARU]-U" tag="VBG" in="1:preds" out="-1:quant">foruroligende</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:preds|1:subj|20:pnct">er</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:subj" out="1:attr|2:nobj|3:pnct|4:ref|17:rel">det</W>
 <W gloss="Bosnian" lemma="bosnisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">bosniske</W>

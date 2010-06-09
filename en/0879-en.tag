@@ -126,8 +126,8 @@
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fee</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:degr|2:pobj|15:pnct">depends</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">entirely</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:subj|1:quant|2:pobj|15:pnct">depends</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">entirely</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:ref|10:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">category</W>

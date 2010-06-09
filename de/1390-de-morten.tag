@@ -21,7 +21,7 @@
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:nobj|1:[subj]|1:{agent}" out="1:possd">seinen</W>
 <W lemma="Erfahrung" msd="NC" tag="NN" in="-1:possd" out="-1:[subj]|-1:{agent}">Erfahrungen</W>
 <W lemma="profitieren" msd="VAF" tag="VVINF" in="1:vobj" out="-16:[subj]|-3:pobj|12:cons">profitieren</W>
-<W lemma="können" msd="VA" tag="VMFIN" in="-18:vobj" out="-17:subj|-1:vobj|-5:add|-15:add|1:pnct|9:bg">können</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="-18:vobj" out="-17:subj|-1:vobj|-5:add|-15:add|1:pnct|9:scene">können</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="was" msd="PT" tag="PRELS" in="7:subj" out="">was</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="6:dobj" out="1:nobj">die</W>
@@ -30,7 +30,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="2:conj">Sponsormitteln</W>
 <W lemma="und" msd="CC" tag="KON" in="1:coord" out="">und</W>
 <W lemma="PR" msd="NP" tag="NE" in="-2:conj" out="-1:coord">PR</W>
-<W lemma="betreffen" msd="VA" tag="VVFIN" in="-9:bg" out="-6:dobj|-7:subj|1:pnct">betrifft</W>
+<W lemma="betreffen" msd="VA" tag="VVFIN" in="-9:scene" out="-6:dobj|-7:subj|1:pnct">betrifft</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="so" msd="RG" tag="ADV" in="-12:cons" out="1:nobj">so</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-1:nobj" out="10:vobj">dass</W>
@@ -146,12 +146,12 @@
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">den</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="-1:attr" out="">beiden</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-2:nobj" out="">80-Kubik-Maschinen</W>
-<W lemma="können" msd="VA" tag="VMFIN" in="36:qobj" out="1:subj|4:eval|5:att|6:neg|7:vobj|8:pnct|11:conj|34:pnct|35:pnct">kann</W>
+<W lemma="können" msd="VA" tag="VMFIN" in="36:qobj" out="1:subj|4:eval|5:eval|6:neg|7:vobj|8:pnct|11:conj|34:pnct|35:pnct">kann</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj|6:[subj]" out="">ich</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="5:iobj" out="1:attr">den</W>
 <W lemma="beide" msd="PI" tag="PIDAT" in="-1:attr" out="">beiden</W>
 <W lemma="ja" msd="RG" tag="ADV" in="-4:eval" out="">ja</W>
-<W lemma="leider" msd="RG" tag="ADV" in="-5:att" out="">leider</W>
+<W lemma="leider" msd="RG" tag="ADV" in="-5:eval" out="">leider</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-6:neg" out="">nicht</W>
 <W lemma="geben" msd="VAF" tag="VVINF" in="-7:vobj" out="-16:dobj|-6:[subj]|-5:iobj">geben</W>
 <W lemma="," msd="XP" tag="$," in="-8:pnct" out="">,</W>

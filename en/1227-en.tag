@@ -161,8 +161,8 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="-12:[subj]|1:dobj|2:pobj">resign</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">themselves</W>
 <W msd="U=" tag="TO" in="-2:pobj" out="3:nobj">to</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="VAP" tag="VBN" in="1:mod" out="-1:degr">reduced</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="VAP" tag="VBN" in="1:mod" out="-1:quant">reduced</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">income</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>

@@ -185,8 +185,8 @@
 </s>
 <s>
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|3:[subj]" out="">Han</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|6:pnct|1:degr">blev</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:vobj|6:pnct|1:quant">blev</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="delayed" lemma="forsinke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:mod">forsinket</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:mod" out="1:nobj">et</W>
 <W gloss="couple" lemma="par" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">par</W>

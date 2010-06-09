@@ -1,8 +1,8 @@
 <s>
-<W msd="NC=S" tag="NN" in="4:subj" out="1:attr|1:{pos}">Growth</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="2:nobj">in</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{pos}#" out="">world</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{pos}#">trade</W>
+<W msd="NC=S" tag="NN" in="4:subj" out="1:attr|1:{loc}">Growth</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="2:nobj">in</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{loc}#" out="">world</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{loc}#">trade</W>
 <W msd="VADA" tag="VBD" in="" out="-4:subj|1:time|3:pnct">fell</W>
 <W msd="SP" tag="IN" in="-1:time" out="1:nobj">in</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1991</W>
@@ -61,12 +61,12 @@
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="5:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="5:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">negative</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">trend</W>
-<W msd="VADR" tag="VBZ" in="" out="-5:reas|-3:subj|1:vobj|5:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-5:cause|-3:subj|1:vobj|5:pnct">is</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:accom">noted</W>
 <W msd="SP" tag="IN" in="-1:accom" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">great</W>
@@ -121,9 +121,9 @@
 <s>
 <W msd="CC" tag="CC" in="4:neg" out="">Nor</W>
 <W msd="XP" tag="," in="1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:att" out="-1:pnct|1:pnct">fortunately</W>
+<W msd="ANP" tag="RB" in="2:eval" out="-1:pnct|1:pnct">fortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VA" tag="MD" in="" out="-4:neg|-2:att|1:subj|12:vobj|26:pnct">can</W>
+<W msd="VA" tag="MD" in="" out="-4:neg|-2:eval|1:subj|12:vobj|26:pnct">can</W>
 <W msd="NP=S" tag="NNP" in="-1:subj|1:{agent}|11:[subj]|12:[subj]" out="1:possd">GATT's</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="-1:{agent}|1:pobj|1:{arg}">numbers</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">for</W>
@@ -133,8 +133,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">scope</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="2:nobj">of</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{pos}" out="">world</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{pos}">trade</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{loc}" out="">world</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{loc}">trade</W>
 <W msd="VAF" tag="VB" in="-12:vobj" out="-11:[subj]|1:vobj">be</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-12:[subj]|1:pobj">interpreted</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="1:nobj">as</W>
@@ -207,8 +207,8 @@
 </s>
 <s>
 <W msd="PD" tag="DT" in="19:subj" out="1:nobj|2:attr">The</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{origin}">numbers</W>
-<W msd="SP" tag="IN" in="-1:{origin}|-2:attr" out="1:nobj">from</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{source}">numbers</W>
+<W msd="SP" tag="IN" in="-1:{source}|-2:attr" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:attr">the</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{time}#" out="">annual</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{time}#|1:{agent}">report</W>

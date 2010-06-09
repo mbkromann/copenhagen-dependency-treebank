@@ -151,8 +151,8 @@
 <W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|8:[subj]|9:[subj]" out="">Han</W>
 <W gloss="has" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:pnct|3:mod|7:vobj|15:pnct">er</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
-<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:mod" out="1:nobj|3:pnct|-1:degr">mod</W>
+<W gloss="much" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="against" lemma="mod" msd="SP" tag="IN" in="-3:mod" out="1:nobj|3:pnct|-1:quant">mod</W>
 <W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sin</W>
 <W gloss="will" lemma="vilje" msd="NCCSU==I" tag="NN" in="-1:possd" out="">vilje</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>

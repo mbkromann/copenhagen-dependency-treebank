@@ -15,8 +15,8 @@
 <W lemma="," msd="XP" tag="CM" in="-3:pnct" out="">,</W>
 <W lemma="uno" msd="AC" tag="CARD" in="2:subj" out="">uno</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="estar" msd="VAD" tag="VLfin" in="-6:conj" out="-2:subj|-1:neg|1:degr|3:preds|4:pnct|8:conj">estaba</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:degr" out="1:nobj">para</W>
+<W lemma="estar" msd="VAD" tag="VLfin" in="-6:conj" out="-2:subj|-1:neg|1:quant|3:preds|4:pnct|8:conj">estaba</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:quant" out="1:nobj">para</W>
 <W lemma="nada" msd="AN" tag="QU" in="-1:nobj" out="">nada</W>
 <W lemma="interesado" msd="AN" tag="ADJ" in="-3:preds" out="">interesado</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
@@ -60,9 +60,9 @@
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="" out="-1:namef|2:ref|5:relpa">Andersen</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-2:ref|3:subj" out="">que</W>
-<W lemma="sin~embargo" msd="RG" tag="ADV" in="2:struct" out="">sin embargo</W>
+<W lemma="sin~embargo" msd="RG" tag="ADV" in="2:scene" out="">sin embargo</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
-<W lemma="querer" msd="VAD" tag="VLfin" in="-5:relpa" out="-3:subj|-11:neg|-2:struct|-1:neg|1:vobj">quiso</W>
+<W lemma="querer" msd="VAD" tag="VLfin" in="-5:relpa" out="-3:subj|-11:neg|-2:scene|-1:neg|1:vobj">quiso</W>
 <W lemma="hablar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:pobj">hablar</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">con</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="-20:coref|1:nobj|13:coref">los</W>
@@ -110,8 +110,8 @@
 <W lemma="quien" msd="PT" tag="REL" in="-1:nobj" out="">quien</W>
 <W lemma="l" msd="PP" tag="PPC" in="-4:coref|1:iobj" out="-2:xtop">le</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-1:iobj|2:preds">pareció</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="bien" msd="RG" tag="ADV" in="-2:preds" out="-1:degr">bien</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="bien" msd="RG" tag="ADV" in="-2:preds" out="-1:quant">bien</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="otro" msd="AN" tag="QU" in="" out="">otra</W>
 <W lemma="&amp;quot;" msd="XP" tag="QT" in="" out="">"</W>
@@ -158,8 +158,8 @@
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
 <W lemma="en" msd="SP" tag="SCENE" in="-2:ref|2:loc" out="">en</W>
 <W lemma="donde" msd="RG" tag="ADV" in="" out="">donde</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:relpa" out="-2:loc|1:ben|6:dobj">habia</W>
-<W lemma="para" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj">para</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:relpa" out="-2:loc|1:goal|6:dobj">habia</W>
+<W lemma="para" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj">para</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:time">ocasión</W>
 <W lemma="del" msd="SP" tag="PDEL" in="-1:time" out="1:nobj">del</W>
@@ -167,11 +167,11 @@
 <W lemma="un" msd="PD" tag="ART" in="-6:dobj" out="1:nobj|3:elab">una</W>
 <W lemma="misa" msd="NC" tag="NC" in="-1:nobj" out="">misa</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:pnct" out="">–</W>
-<W lemma="un" msd="PD" tag="ART" in="-3:elab" out="-1:pnct|1:nobj|4:ben">un</W>
+<W lemma="un" msd="PD" tag="ART" in="-3:elab" out="-1:pnct|1:nobj|4:goal">un</W>
 <W lemma="tipo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj|1:{arg}">tipo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="protestar" msd="VAD" tag="VLfin" in="-1:nobj" out="">protesta</W>
-<W lemma="contra" msd="SP" tag="SCENE" in="-4:ben" out="1:nobj">contra</W>
+<W lemma="contra" msd="SP" tag="SCENE" in="-4:goal" out="1:nobj">contra</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="evento" msd="NC" tag="NC" in="-1:nobj" out="1:agent">evento</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:agent" out="1:nobj">de</W>

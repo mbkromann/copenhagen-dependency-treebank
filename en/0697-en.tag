@@ -22,11 +22,11 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">travel</W>
 <W msd="CC" tag="CC" in="6:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">therefore</W>
+<W msd="ANP" tag="RB" in="4:cause" out="1:pnct">therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="1:subj|2:[subj]" out="-1:attr">businesses</W>
-<W msd="VADR" tag="VBP" in="-22:conj" out="-1:subj|-6:coord|-4:reas|1:vobj">are</W>
+<W msd="VADR" tag="VBP" in="-22:conj" out="-1:subj|-6:coord|-4:cause|1:vobj">are</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">having</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="1:nobj">difficulty</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:lobj">breaking</W>
@@ -46,8 +46,8 @@
 <W msd="CS" tag="IN" in="-4:mod" out="3:vobj">since</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">satellite</W>
 <W msd="NC=S" tag="NN" in="1:subj" out="-1:mod">equipment</W>
-<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:ext|2:preds">is</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">often</W>
+<W msd="VADR" tag="VBZ" in="-3:vobj" out="-1:subj|1:time|2:preds">is</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">often</W>
 <W msd="PD" tag="DT" in="-2:preds" out="1:nobj|2:mod">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">flagship</W>
 <W msd="SP" tag="IN" in="-2:mod" out="2:nobj">of</W>
@@ -161,8 +161,8 @@
 <W msd="SP" tag="IN" in="-1:@dir" out="">around</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">unpredictable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">unpredictable</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">way</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>

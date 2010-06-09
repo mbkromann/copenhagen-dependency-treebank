@@ -126,8 +126,8 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|7:pnct">But</W>
 <W msd="PD" tag="DT" in="1:subj" out="">that</W>
-<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:degr|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:quant|2:preds">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="PI" tag="DT" in="-2:preds" out="1:mod|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">half</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">truth</W>
@@ -225,8 +225,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADA" tag="VBD" in="-12:conj" out="-1:subj|-11:mod|3:dobj">forgot</W>
 <W msd="PD" tag="DT" in="1:mod" out="">all</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="ANP" tag="JJ" in="-3:dobj" out="-1:degr|1:pobj">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="ANP" tag="JJ" in="-3:dobj" out="-1:quant|1:pobj">many</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:ref|2:rel">those</W>
 <W msd="PT" tag="WP" in="-1:ref|1:subj" out="">who</W>

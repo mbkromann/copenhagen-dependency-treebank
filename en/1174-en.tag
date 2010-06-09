@@ -40,8 +40,8 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">on</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">board</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|3:nobj|4:pnct|5:ref|15:rel">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">new</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">new</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">ship</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-5:ref|10:mod" out="">where</W>
@@ -90,7 +90,7 @@
 <W msd="CC" tag="CC" in="18:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">even</W>
-<W msd="SP" tag="IN" in="15:dur" out="-1:focal|1:nobj|3:pnct">during</W>
+<W msd="SP" tag="IN" in="15:time" out="-1:focal|1:nobj|3:pnct">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">this</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">voyage</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -105,7 +105,7 @@
 <W msd="VAG" tag="VBG" in="1:mod" out="">shipping</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">company</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-30:conj" out="-9:subj|-18:coord|1:vobj|-15:dur">had</W>
+<W msd="VADA" tag="VBD" in="-30:conj" out="-9:subj|-18:coord|1:vobj|-15:time">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-10:[subj]|1:dobj|3:preds|4:mod">made</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="6:nobj">it</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">crystal</W>
@@ -188,8 +188,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:degr|2:preds|9:pnct">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:quant|2:preds|9:pnct">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="SP" tag="IN" in="-2:preds" out="1:nobj">about</W>
 <W msd="PT" tag="WRB" in="-1:nobj|5:[mod]" out="">how</W>
 <W msd="U=" tag="TO" in="" out="1:vobj">to</W>

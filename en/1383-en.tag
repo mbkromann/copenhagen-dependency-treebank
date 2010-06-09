@@ -145,10 +145,10 @@
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|-3:reas|1:dobj|26:pnct">want</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|-3:cause|1:dobj|26:pnct">want</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">introduce</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
@@ -157,14 +157,14 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:iobj|2:dobj">require</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj|2:[subj]" out="">institutions</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:succ">conduct</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|7:time">conduct</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">first</W>
 <W msd="NC=S" tag="NN" in="-2:possd" out="1:pobj">assessment</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">activity</W>
 <W msd="PD" tag="DT" in="1:mod" out="">no</W>
-<W msd="ANP" tag="RB" in="-7:succ" out="-1:mod|1:pobj">later</W>
+<W msd="ANP" tag="RB" in="-7:time" out="-1:mod|1:pobj">later</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:pobj">than</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">6</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>

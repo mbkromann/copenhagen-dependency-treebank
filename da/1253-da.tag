@@ -49,9 +49,9 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="then" lemma="så" msd="RGU" tag="RP" in="1:mod" out="">så</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-1:mod|-2:coord|1:subj|2:cont|3:vobj|6:pnct|9:conj">ville</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-1:mod|-2:coord|1:subj|2:time|3:vobj|6:pnct|9:conj">ville</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj|2:[subj]" out="">jeg</W>
-<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-2:cont" out="">samtidig</W>
+<W gloss="the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="-2:time" out="">samtidig</W>
 <W gloss="ruin" lemma="ødelægge" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-2:[subj]|1:dobj">ødelægge</W>
 <W gloss="my" lemma="min" msd="PO1NSUSNU" tag="PRP$" in="-1:dobj" out="1:possd">mit</W>
 <W gloss="life" lemma="liv" msd="NCNSU==I" tag="NN" in="-1:possd" out="">liv</W>
@@ -118,11 +118,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-10:dobj" out="2:vobj">at</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj" out="">jeg</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@dir|4:ext">kommer</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:@dir|4:time">kommer</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:mod">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="the_construction_industry" lemma="byggebranche" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">byggebranchen</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-4:time" out="">igen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 </p>

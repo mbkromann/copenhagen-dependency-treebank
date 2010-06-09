@@ -130,10 +130,10 @@
 <W gloss="TV's" lemma="TV" msd="NCNSG==I" tag="NN" in="3:subj" out="2:possd">TVs</W>
 <W gloss="Sten" lemma="Sten" msd="NP--U==-" tag="NNP" in="1:namef" out="">Sten</W>
 <W gloss="Baadsgaard" lemma="Baadsgaard" msd="NP--U==-" tag="NNP" in="-2:possd" out="-1:namef">Baadsgaard</W>
-<W gloss="showed" lemma="vise" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:iobj|2:dobj|3:prec|5:pnct|9:conj">viste</W>
+<W gloss="showed" lemma="vise" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:iobj|2:dobj|3:time|5:pnct|9:conj">viste</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:iobj" out="">hende</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-2:dobj" out="">den</W>
-<W gloss="before" lemma="før" msd="SP" tag="IN" in="-3:prec" out="1:nobj">før</W>
+<W gloss="before" lemma="før" msd="SP" tag="IN" in="-3:time" out="1:nobj">før</W>
 <W gloss="the_interview" lemma="interview" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">interviewet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="3:coord" out="">men</W>
@@ -149,9 +149,9 @@
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="2:subj|3:[subj]" out="">hun</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-2:subj|-1:neg|1:vobj">havde</W>
-<W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:prec">set</W>
+<W gloss="seen" lemma="se" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:time">set</W>
 <W gloss="it" lemma="den" msd="PP3CSU-NU" tag="PRP" in="-1:dobj" out="">den</W>
-<W gloss="before" lemma="før" msd="RGU" tag="RP" in="-2:prec" out="">før</W>
+<W gloss="before" lemma="før" msd="RGU" tag="RP" in="-2:time" out="">før</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="ask" lemma="spørge" msd="VAF-=----A-" tag="VB" in="-10:conj" out="-13:[subj]|1:pnct|8:vobj|-1:coord">spørge</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>

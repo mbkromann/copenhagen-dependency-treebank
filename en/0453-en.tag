@@ -41,8 +41,8 @@
 <W msd="PI" tag="DT" in="-1:preds" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bachelor</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADR" tag="VBZ" in="-4:conj" out="-5:[subj]|-1:coord|1:ext|2:vobj">has</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBZ" in="-4:conj" out="-5:[subj]|-1:coord|1:time|2:vobj">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-7:[subj]|1:avobj">lived</W>
 <W msd="ANP" tag="RB" in="-1:avobj" out="">alone</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>

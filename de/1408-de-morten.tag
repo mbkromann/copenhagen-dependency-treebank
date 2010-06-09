@@ -6,10 +6,10 @@
 <W lemma="zum" msd="SP+P" tag="APPRART" in="6:pobj" out="1:nobj|2:appr">zum</W>
 <W lemma="Thema" msd="NC" tag="NN" in="-1:nobj" out="">Thema</W>
 <W lemma="Dänemark" msd="NP" tag="NE" in="-2:appr" out="">Dänemark</W>
-<W lemma="nach" msd="SP" tag="APPR" in="3:succ" out="1:nobj">nach</W>
+<W lemma="nach" msd="SP" tag="APPR" in="3:time" out="1:nobj">nach</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">dem</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">EF-Nein</W>
-<W lemma="meinen" msd="VA" tag="VVFIN" in="-9:relr" out="-8:subj|-9:[dobj]|-6:pobj|-3:succ|1:pnct">meinen</W>
+<W lemma="meinen" msd="VA" tag="VVFIN" in="-9:relr" out="-8:subj|-9:[dobj]|-6:pobj|-3:time|1:pnct">meinen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="hängen" msd="VA" tag="VVFIN" in="" out="-11:subj|1:pobj|2:part|7:pnct">hängt</W>
 <W lemma="davon" msd="RG" tag="PAV" in="-1:pobj" out="2:pnct|3:nobj">davon</W>
@@ -50,9 +50,9 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:nobj">einem</W>
 <W lemma="Lösungsvorschlag" msd="NC" tag="NN" in="-1:nobj" out="">Lösungsvorschlag</W>
 <W lemma="kommen" msd="VAF" tag="VVINF" in="1:vobj" out="-5:[subj]|-3:pobj">kommen</W>
-<W lemma="sollen" msd="VA" tag="VMFIN" in="-7:vobj" out="-6:subj|-1:vobj|-5:neg|1:pnct|2:prec">sollten</W>
+<W lemma="sollen" msd="VA" tag="VMFIN" in="-7:vobj" out="-6:subj|-1:vobj|-5:neg|1:pnct|2:time">sollten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="bevor" msd="CS" tag="KOUS" in="-2:prec" out="3:vobj">bevor</W>
+<W lemma="bevor" msd="CS" tag="KOUS" in="-2:time" out="3:vobj">bevor</W>
 <W lemma="wir" msd="PP" tag="PPER" in="1:[subj]|2:subj" out="">wir</W>
 <W lemma="sehen" msd="VAP" tag="VVPP" in="1:vobj" out="-1:[subj]|3:dobj">gesehen</W>
 <W lemma="haben" msd="VA" tag="VAFIN" in="-3:vobj" out="-2:subj|-1:vobj|1:pnct">haben</W>
@@ -99,7 +99,7 @@
 <W lemma="entsprechen" msd="VA" tag="VVFIN" in="-5:relr" out="-3:subj|-2:dobj">entspricht</W>
 <W lemma="." msd="XP" tag="$." in="-15:pnct" out="">.</W>
 <W lemma="Sie&7c;sie" msd="PP" tag="PPER" in="1:subj" out="">Sie</W>
-<W lemma="denken" msd="VA" tag="VVFIN" in="" out="-1:subj|1:neg|2:pobj|9:reas|14:pnct">denkt</W>
+<W lemma="denken" msd="VA" tag="VVFIN" in="" out="-1:subj|1:neg|2:pobj|9:cause|14:pnct">denkt</W>
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="-1:neg" out="">nicht</W>
 <W lemma="daran" msd="RG" tag="PAV" in="-2:pobj" out="1:pnct|5:nobj">daran</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
@@ -108,7 +108,7 @@
 <W lemma="einfach" msd="AN" tag="ADJD" in="1:prg" out="">einfach</W>
 <W lemma="hinnehmen" msd="VAF" tag="VVIZU" in="-5:nobj" out="-3:dobj|-1:prg|1:pnct">hinzunehmen</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
-<W lemma="weil" msd="CS" tag="KOUS" in="-9:reas" out="4:vobj">weil</W>
+<W lemma="weil" msd="CS" tag="KOUS" in="-9:cause" out="4:vobj">weil</W>
 <W lemma="es" msd="PP" tag="PPER" in="3:expl" out="">es</W>
 <W lemma="kein" msd="PI" tag="PIAT" in="2:dobj" out="1:nobj">keine</W>
 <W lemma="Zwischenlösung" msd="NC" tag="NN" in="-1:nobj" out="">Zwischenlösung</W>
@@ -163,7 +163,7 @@
 <p>
 <s>
 <W lemma="er" msd="PP" tag="PPER" in="1:subj" out="">Er</W>
-<W lemma="bezeichnen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:loc|2:dobj|8:comp|11:pnct">bezeichnet</W>
+<W lemma="bezeichnen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:loc|2:dobj|8:resem|11:pnct">bezeichnet</W>
 <W lemma="hier" msd="RG" tag="ADV" in="-1:loc" out="">hier</W>
 <W lemma="alle" msd="PI" tag="PIAT" in="-2:dobj" out="1:nobj">alle</W>
 <W lemma="Spekulation" msd="NC" tag="NN" in="-1:nobj" out="1:attr|1:{about}">Spekulationen</W>
@@ -171,7 +171,7 @@
 <W lemma="ein" msd="P[ID]" tag="ART" in="-1:nobj" out="1:attr|2:nobj">eine</W>
 <W lemma="neu" msd="AN" tag="ADJA" in="-1:attr" out="">neue</W>
 <W lemma="Volksabstimmung" msd="NC" tag="NN" in="-2:nobj" out="">Volksabstimmung</W>
-<W lemma="als" msd="CS" tag="KOKOM" in="-8:comp" out="2:nobj">als</W>
+<W lemma="als" msd="CS" tag="KOKOM" in="-8:resem" out="2:nobj">als</W>
 <W lemma="rein" msd="AN" tag="ADJA" in="1:attr" out="">reines</W>
 <W lemma="Wunschdenken" msd="NC" tag="NN" in="-2:nobj" out="-1:attr">Wunschdenken</W>
 <W lemma="." msd="XP" tag="$." in="-11:pnct" out="">.</W>
@@ -184,8 +184,8 @@
 <W lemma="juristisch" msd="AN" tag="ADJD" in="1:attr" out="">juristisch</W>
 <W lemma="bindend" msd="AN" tag="ADJD" in="-2:preds" out="-1:attr">bindend</W>
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
-<W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">deshalb</W>
-<W lemma="sein" msd="VA" tag="VAFIN" in="-5:conj" out="-2:coord|-1:reas|1:subj|2:preds">ist</W>
+<W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">deshalb</W>
+<W lemma="sein" msd="VA" tag="VAFIN" in="-5:conj" out="-2:coord|-1:cause|1:subj|2:preds">ist</W>
 <W lemma="Dänemark" msd="NP" tag="NE" in="-1:subj|7:[subj]" out="">Dänemark</W>
 <W lemma="außer" msd="SP" tag="APPR" in="-2:preds" out="1:nobj">außer</W>
 <W lemma="Stand" msd="NC" tag="NN" in="-1:nobj" out="1:pnct|4:nobj">Stande</W>

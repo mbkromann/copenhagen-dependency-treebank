@@ -69,10 +69,10 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="door" lemma="dør" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">dør</W>
-<W gloss="increases" lemma="forøge" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:dobj|3:degr|4:pnct">forøger</W>
+<W gloss="increases" lemma="forøge" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:dobj|3:quant|4:pnct">forøger</W>
 <W gloss="the_thief's" lemma="tyv" msd="NCCSG==D" tag="NN" in="-1:dobj" out="1:possd">tyvens</W>
 <W gloss="work" lemma="arbejde" msd="NCNSU==I" tag="NN" in="-1:possd" out="">arbejde</W>
-<W gloss="considerably" lemma="betydelig" msd="ANP---=-R" tag="JJ" in="-3:degr" out="">betydeligt</W>
+<W gloss="considerably" lemma="betydelig" msd="ANP---=-R" tag="JJ" in="-3:quant" out="">betydeligt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>
@@ -82,13 +82,13 @@
 <W gloss="lock" lemma="lås" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">lås</W>
 <W gloss="wears_out" lemma="slide" msd="VADR=----P-" tag="VBD" in="-3:vobj" out="-2:subj|3:conj">slides</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="1:ext" out="">ofte</W>
-<W gloss="should" lemma="burde" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-5:[subj]|-1:ext|1:vobj|-2:coord">bør</W>
-<W gloss="a_change" lemma="skifte" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-6:[subj]|1:part|2:succ">skiftes</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="1:time" out="">ofte</W>
+<W gloss="should" lemma="burde" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-5:[subj]|-1:time|1:vobj|-2:coord">bør</W>
+<W gloss="a_change" lemma="skifte" msd="VAF-=----P-" tag="VB" in="-1:vobj" out="-6:[subj]|1:part|2:time">skiftes</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:part" out="">ud</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:succ" out="2:nobj">efter</W>
-<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:degr" out="">ca.</W>
-<W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj|2:attr|3:possd">10</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-2:time" out="2:nobj">efter</W>
+<W gloss="approximately" lemma="cirka" msd="RGU" tag="RP" in="1:quant" out="">ca.</W>
+<W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj|2:attr|3:possd">10</W>
 <W gloss="years" lemma="år" msd="NCNPG==I" tag="NNP" in="-1:nobj" out="">års</W>
 <W gloss="normal" lemma="normal" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="">normal</W>
 <W gloss="use" lemma="brug" msd="NCCSU==I" tag="NN" in="-3:possd" out="">brug</W>
@@ -129,8 +129,8 @@
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="the_edge_of_the_door" lemma="dørkant" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">dørkanten</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="precluding" lemma="udelukke" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-10:[subj]|1:reas|3:dobj|-1:coord">udelukker</W>
-<W gloss="thereby" lemma="derved" msd="RGU" tag="RP" in="-1:reas" out="">derved</W>
+<W gloss="precluding" lemma="udelukke" msd="VADR=----A-" tag="VBD" in="-4:conj" out="-10:[subj]|1:cause|3:dobj|-1:coord">udelukker</W>
+<W gloss="thereby" lemma="derved" msd="RGU" tag="RP" in="-1:cause" out="">derved</W>
 <W gloss="direct" lemma="direkte" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">direkte</W>
 <W gloss="attack" lemma="angreb" msd="NCNSU==I" tag="NN" in="-3:dobj" out="-1:attr|1:pobj">angreb</W>
 <W gloss="on" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
@@ -159,8 +159,8 @@
 <W gloss="outermost" lemma="yderst" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">yderste</W>
 <W gloss="position" lemma="stilling" msd="NCCSU==I" tag="NN" in="-2:possd" out="">stilling</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:other" out="2:nobj">med</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mindst</W>
-<W gloss="10_mm" lemma="lOmm's" msd="XX" tag="FW" in="-2:nobj" out="-1:degr|1:possd">lOmm's</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mindst</W>
+<W gloss="10_mm" lemma="lOmm's" msd="XX" tag="FW" in="-2:nobj" out="-1:quant|1:possd">lOmm's</W>
 <W gloss="intervention" lemma="indgreb" msd="NCNSU==I" tag="NN" in="-1:possd" out="">indgreb</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
@@ -243,8 +243,8 @@
 <W gloss="outermost" lemma="yderst" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">yderste</W>
 <W gloss="position" lemma="stilling" msd="NCCSU==I" tag="NN" in="-2:possd" out="">stilling</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-3:other" out="2:nobj">med</W>
-<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mindst</W>
-<W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">10</W>
+<W gloss="at_least" lemma="lille" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mindst</W>
+<W gloss="10" lemma="10" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">10</W>
 <W gloss="mm" lemma="mm's" msd="XX" tag="FW" in="-1:nobj" out="1:possd">mm's</W>
 <W gloss="intervention" lemma="indgreb" msd="NCNSU==I" tag="NN" in="-1:possd" out="">indgreb</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-12:pnct" out="">,</W>

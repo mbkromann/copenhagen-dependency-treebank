@@ -40,9 +40,9 @@
 <W msd="I=" tag="UH" in="8:qobj" out="-1:pnct|1:pnct|3:conj">Yes</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Søren</W>
-<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:subj|1:pnct|2:degr|3:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-3:conj" out="-1:subj|1:pnct|2:quant|3:pnct">is</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">too</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
 <W msd="VADA" tag="VBD" in="" out="-8:qobj|-1:subj|1:dobj|2:vobj|3:pnct">heard</W>

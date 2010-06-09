@@ -51,8 +51,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">story</W>
 <W msd="PT" tag="WDT" in="-3:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|2:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">totally</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">predictable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">totally</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">predictable</W>
 <W msd="VADR" tag="VBZ" in="-24:conj" out="-23:subj|1:dobj|3:@dir|7:conj">takes</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">force</W>
@@ -168,9 +168,9 @@
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="4:subj" out="1:pnct">she</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="2:degr" out="1:pnct">too</W>
+<W msd="ANP" tag="RB" in="2:quant" out="1:pnct">too</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="VADR" tag="VBZ" in="-8:conj" out="-4:subj|-2:degr|1:preds|4:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="-8:conj" out="-4:subj|-2:quant|1:preds|4:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:preds" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">brilliant</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">researcher</W>

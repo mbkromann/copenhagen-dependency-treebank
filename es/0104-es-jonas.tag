@@ -12,8 +12,8 @@
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="ser" msd="VAD" tag="VSfin" in="" out="-12:subj|-1:neg|1:preds|4:pnct">es</W>
 <W lemma="algo" msd="AN" tag="QU" in="-1:preds" out="2:attr">algo</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="novedoso" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">novedoso</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="novedoso" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">novedoso</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
 <W lemma="de~hecho" msd="RG" tag="ADV" in="1:prg" out="">De hecho</W>
 <W lemma="haber" msd="VAD" tag="VHfin" in="" out="-1:prg|1:vobj|17:pnct|22:conj|54:pnct">ha</W>
@@ -79,15 +79,15 @@
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="estar" msd="VAD" tag="VLfin" in="" out="-3:subj|-1:neg|-6:time|1:preds|11:pnct">estaban</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="2:nobj">lo</W>
-<W lemma="suficientemente" msd="RG" tag="ADV" in="1:degr" out="">suficientemente</W>
-<W lemma="maduro" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr|1:pobj">maduros</W>
+<W lemma="suficientemente" msd="RG" tag="ADV" in="1:quant" out="">suficientemente</W>
+<W lemma="maduro" msd="AN" tag="ADJ" in="-2:nobj" out="-1:quant|1:pobj">maduros</W>
 <W lemma="como" msd="RG" tag="ADV" in="-1:pobj" out="1:pobj">como</W>
 <W lemma="para" msd="CS" tag="CSUBI" in="-1:pobj" out="1:vobj">para</W>
 <W lemma="dar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="1:dobj">dar</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="paso" msd="NC" tag="NC" in="-1:nobj" out="2:attr">paso</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="decisivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">decisivo</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="decisivo" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">decisivo</W>
 <W lemma="&3a;" msd="XP" tag="COLON" in="-11:pnct" out="">:</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="4:prg" out="2:nobj">“En</W>
 <W lemma="cierto" msd="AN" tag="QU" in="1:attr" out="">cierto</W>
@@ -98,10 +98,10 @@
 <W lemma="momento" msd="NC" tag="NC" in="-1:nobj" out="">momento</W>
 <W lemma="ahora" msd="RG" tag="ADV" in="-3:time" out="">ahora</W>
 <W lemma="." msd="XP" tag="FS" in="-4:pnct" out="">.</W>
-<W lemma="en~todo~caso" msd="RG" tag="ADV" in="1:struct" out="">En todo caso</W>
-<W lemma="deber" msd="VAD" tag="VLfin" in="" out="-1:struct|2:vobj|22:pnct">debemos</W>
-<W lemma="primero" msd="RG" tag="ADV" in="1:struct" out="">primero</W>
-<W lemma="pasar" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="-1:struct|1:pobj">pasar</W>
+<W lemma="en~todo~caso" msd="RG" tag="ADV" in="1:scene" out="">En todo caso</W>
+<W lemma="deber" msd="VAD" tag="VLfin" in="" out="-1:scene|2:vobj|22:pnct">debemos</W>
+<W lemma="primero" msd="RG" tag="ADV" in="1:scene" out="">primero</W>
+<W lemma="pasar" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="-1:scene|1:pobj">pasar</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">por</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:nobj" out="2:nobj|4:ref|10:relr">un</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="1:attr" out="">largísimo</W>
@@ -168,8 +168,8 @@
 <W lemma="fracasar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:[subj]">fracasar</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="si" msd="CS" tag="CSUBX" in="-3:cond" out="5:vobj">si</W>
-<W lemma="tan" msd="RG" tag="ADV" in="1:degr" out="">tan</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:other" out="-1:degr">sólo</W>
+<W lemma="tan" msd="RG" tag="ADV" in="1:quant" out="">tan</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="1:other" out="-1:quant">sólo</W>
 <W lemma="alguno" msd="AN" tag="QU" in="2:subj" out="-1:other|1:nobj">algunas</W>
 <W lemma="persona" msd="NC" tag="NC" in="-1:nobj" out="">personas</W>
 <W lemma="mantener" msd="VAD" tag="VLfin" in="-5:vobj" out="-2:subj|1:dobj|3:part">mantuvieran</W>

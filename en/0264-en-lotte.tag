@@ -47,8 +47,8 @@
 <W msd="RG" tag="RP" in="-1:pobj" out="1:nobj">off</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:attr">the</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">landing</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#|1:{pos}">pad</W>
-<W msd="SP" tag="IN" in="-3:attr|-1:{pos}" out="2:nobj">at</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#|1:{loc}">pad</W>
+<W msd="SP" tag="IN" in="-3:attr|-1:{loc}" out="2:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="1:name" out="">Nørresø</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:name">Collegium</W>
 <W msd="ANP" tag="RB" in="-8:time" out="">immediately</W>
@@ -58,10 +58,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">responsibility</W>
 <W msd="U=" tag="TO" in="-3:pobj" out="2:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gitte</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:attr|1:{origin}">Laursen</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{origin}" out="1:nobj">of</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|1:{pos}">Højbjerg</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="1:nobj">near</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:attr|1:{source}">Laursen</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|1:{loc}">Højbjerg</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">near</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Rødkærsbro</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -81,8 +81,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="22:qobj" out="-2:pnct|-1:subj|1:vobj|5:inst|7:time|12:pnct|17:conj|21:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj">driven</W>
-<W msd="SP" tag="IN" in="1:degr" out="">around</W>
-<W msd="AC" tag="CD" in="-2:dobj" out="-1:degr|1:nobj">30,000</W>
+<W msd="SP" tag="IN" in="1:quant" out="">around</W>
+<W msd="AC" tag="CD" in="-2:dobj" out="-1:quant|1:nobj">30,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">kilometers</W>
 <W msd="SP" tag="IN" in="-5:inst" out="1:nobj">in</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
@@ -98,8 +98,8 @@
 <W msd="NC=S" tag="NN" in="-2:attr|-1:{time}" out="">today</W>
 <W msd="VADR" tag="VBZ" in="-17:conj" out="-3:subj|-4:coord|1:preds">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="2:attr.possd">my</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr.possd" out="-1:degr">exciting</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr.possd" out="-1:quant">exciting</W>
 <W msd="XP" tag="," in="-21:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="" out="-22:qobj|2:subj|4:time|20:pnct|3:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gitte</W>
@@ -138,8 +138,8 @@
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="JJ" in="1:{origin}|17:subj|18:[subj]" out="1:possd|4:pnct|7:appa|9:ref|11:relpa">Viborg's</W>
-<W msd="NC=S" tag="NN" in="-1:possd" out="-1:{origin}|1:pobj|1:{arg}">director</W>
+<W msd="ANP" tag="JJ" in="1:{source}|17:subj|18:[subj]" out="1:possd|4:pnct|7:appa|9:ref|11:relpa">Viborg's</W>
+<W msd="NC=S" tag="NN" in="-1:possd" out="-1:{source}|1:pobj|1:{arg}">director</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{arg}" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tourism</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -212,8 +212,8 @@
 <W msd="SP" tag="IN" in="-1:pobj.subj|-1:{agent}" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{func}#" out="">Agricultural</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{func}#|1:attr|1:{origin}#">Council</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{origin}#" out="1:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{func}#|1:attr|1:{source}#">Council</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{source}#" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
@@ -224,10 +224,10 @@
 <W msd="U=" tag="TO" in="-1:nobj" out="1:nobj">to</W>
 <W msd="VAF" tag="VB" in="-1:nobj" out="1:dobj">secure</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj|2:attr|4:attr">the</W>
-<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{func}|3:{pos}">lines</W>
+<W msd="NC=P" tag="NNS" in="-1:nobj" out="1:{func}|3:{loc}">lines</W>
 <W msd="SP" tag="IN" in="-2:attr|-1:{func}" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">communication</W>
-<W msd="SP" tag="IN" in="-4:attr|-3:{pos}" out="1:nobj">between</W>
+<W msd="SP" tag="IN" in="-4:attr|-3:{loc}" out="1:nobj">between</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|4:conj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{func}#" out="">Agricultural</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{func}#">University</W>

@@ -138,8 +138,8 @@
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-3:ref|6:subj" out="">which</W>
 <W msd="SP" tag="IN" in="5:mod" out="2:nobj|4:pnct">with</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:degr|1:nobj">few</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:quant|1:nobj">few</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">exceptions</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="VADR" tag="VBZ" in="-9:rel" out="-6:subj|-5:mod|1:pobj|5:pnct">consists</W>
@@ -236,8 +236,8 @@
 <W msd="XP" tag="&amp;quot;" in="12:pnct" out="">"</W>
 <W msd="CS" tag="IN" in="11:cond" out="3:vobj">If</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:lobj|6:pnct|-1:ext">walk</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:lobj|6:pnct|-1:time">walk</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:mod">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">footprints</W>

@@ -84,9 +84,9 @@
 <div1 type=caption>
 <p>
 <s>
-<W gloss="this" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">Så</W>
-<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:degr" out="-1:degr">langt</W>
-<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="3:@dir" out="-1:degr|1:other">ned</W>
+<W gloss="this" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">Så</W>
+<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:quant" out="-1:quant">langt</W>
+<W gloss="down" lemma="ned" msd="RGU" tag="RP" in="3:@dir" out="-1:quant|1:other">ned</W>
 <W gloss="into" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="the_well" lemma="brønd" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">brønden</W>
 <W gloss="fell" lemma="falde" msd="VADA=----A-" tag="VBD" in="" out="1:subj|2:pnct|3:xpl|5:pnct|-3:@dir">faldt</W>
@@ -133,8 +133,8 @@
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="rescue" lemma="undsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">undsætte</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">den</W>
-<W gloss="severely" lemma="hård" msd="ANP---=-R" tag="JJ" in="1:degr" out="">hårdt</W>
-<W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:degr">kvæstede</W>
+<W gloss="severely" lemma="hård" msd="ANP---=-R" tag="JJ" in="1:quant" out="">hårdt</W>
+<W gloss="injured" lemma="kvæstet" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="-1:quant">kvæstede</W>
 <W gloss="boy" lemma="dreng" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">dreng</W>
 </s>
 </p>
@@ -184,8 +184,8 @@
 <W gloss="open" lemma="åben" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">åbne</W>
 <W gloss="skull_fracture" lemma="kraniebrud" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">kraniebrud</W>
 <W gloss="is_healed" lemma="læge" msd="VADR=----P-" tag="VBD" in="" out="-3:subj|2:man">læges</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:degr">hurtigt</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="quickly" lemma="hurtig" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:quant">hurtigt</W>
 </s>
 </p>
 </div1>
@@ -259,10 +259,10 @@
 <W gloss="reminds" lemma="minde" msd="NCNPU==I" tag="NNP" in="" out="-1:attr|1:pnct|5:conj|18:pnct">minder</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="3:coord" out="">men</W>
-<W gloss="improbably" lemma="usandsynlig" msd="ANP---=-R" tag="JJ" in="1:degr" out="">usandsynligt</W>
-<W gloss="lucky" lemma="heldig" msd="ANP---=-R" tag="JJ" in="1:man" out="-1:degr">heldigt</W>
-<W gloss="escaped" lemma="slippe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:conj" out="-1:man|-3:coord|1:comp">sluppet</W>
-<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:comp" out="1:nobj">i</W>
+<W gloss="improbably" lemma="usandsynlig" msd="ANP---=-R" tag="JJ" in="1:quant" out="">usandsynligt</W>
+<W gloss="lucky" lemma="heldig" msd="ANP---=-R" tag="JJ" in="1:man" out="-1:quant">heldigt</W>
+<W gloss="escaped" lemma="slippe" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-5:conj" out="-1:man|-3:coord|1:resem">sluppet</W>
+<W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:resem" out="1:nobj">i</W>
 <W gloss="relation" lemma="forhold" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">forhold</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">til</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -270,8 +270,8 @@
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:ref|1:subj" out="">der</W>
 <W gloss="happened" lemma="ske" msd="VADA=----A-" tag="VBD" in="-2:rel" out="-1:subj|1:tobj">skete</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:tobj" out="2:nobj|4:part">for</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">kun</W>
-<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">to</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">kun</W>
+<W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">to</W>
 <W gloss="weeks" lemma="uge" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">uger</W>
 <W gloss="since" lemma="siden" msd="RGU" tag="RP" in="-4:part" out="">siden</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>

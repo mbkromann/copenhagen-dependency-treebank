@@ -100,9 +100,9 @@
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W msd="NP=S" tag="NNP" in="3:[subj]|6:[subj]|0:[subj]" out="1:add|2:att|3:vobj|8:pnct|0:[subj]">I'm</W>
+<W msd="NP=S" tag="NNP" in="3:[subj]|6:[subj]|0:[subj]" out="1:add|2:eval|3:vobj|8:pnct|0:[subj]">I'm</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
-<W msd="ANP" tag="RB" in="-2:att" out="">just</W>
+<W msd="ANP" tag="RB" in="-2:eval" out="">just</W>
 <W msd="VAG" tag="VBG" in="-3:vobj" out="-3:[subj]|1:dobj|2:goal">saying</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
 <W msd="U=" tag="TO" in="-2:goal" out="1:vobj">to</W>
@@ -141,10 +141,10 @@
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Then</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Then</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|5:[subj]" out="">he</W>
-<W msd="VA" tag="MD" in="" out="-3:reas|-1:subj|1:vobj|12:pnct">would</W>
+<W msd="VA" tag="MD" in="" out="-3:cause|-1:subj|1:vobj|12:pnct">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">able</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:vobj">to</W>
@@ -202,9 +202,9 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:pnct">cannot</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:dobj|4:time">take</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:degr">much</W>
-<W msd="ANP" tag="RB" in="-4:time" out="-1:degr">longer</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:quant">much</W>
+<W msd="ANP" tag="RB" in="-4:time" out="-1:quant">longer</W>
 <W msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
 <s>
@@ -238,8 +238,8 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj" out="">She</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|2:preds|3:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">utterly</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">miserable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">utterly</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">miserable</W>
 <W msd="XP" tag="." in="-3:pnct" out="">.</W>
 </s>
 <s>

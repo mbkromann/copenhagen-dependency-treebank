@@ -74,8 +74,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Europe</W>
 <W msd="XP" tag="," in="-11:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Subaru</W>
-<W msd="VA" tag="MD" in="" out="-1:subj|-13:mod|1:degr|2:vobj|15:conj|21:pnct">can</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VA" tag="MD" in="" out="-1:subj|-13:mod|1:quant|2:vobj|15:conj|21:pnct">can</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|3:pobj">export</W>
 <W msd="AC" tag="CD" in="-1:dobj" out="1:nobj">35,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cars</W>
@@ -158,8 +158,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj|3:mod">spreading</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">himself</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:mod" out="-1:degr">thin</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:mod" out="-1:quant">thin</W>
 <W msd="XP" tag="." in="-16:pnct" out="">.</W>
 </s>
 <s>

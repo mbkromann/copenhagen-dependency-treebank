@@ -1,8 +1,8 @@
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="2:preds|3:subj|9:pnct">¿Es</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:degr" out="3:pobj&3a;comp">más</W>
-<W lemma="resistente" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">resistente</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:quant" out="3:pobj&3a;resem">más</W>
+<W lemma="resistente" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">resistente</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-3:subj" out="">Larsen</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-3:pobj&3a;comp" out="1:nobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-3:pobj&3a;resem" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:ref|2:relr">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|2:dobj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-2:relr" out="1:vobj">habíais</W>
@@ -10,8 +10,8 @@
 <W lemma="?" msd="XP" tag="FS" in="-9:pnct" out="">?</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="2:subj" out="1:nobj">“El</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">jutlandés</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:bg|4:preds|7:pnct">es</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-1:bg" out="2:vobj">como</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-2:subj|1:scene|4:preds|7:pnct">es</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-1:scene" out="2:vobj">como</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
 <W lemma="saber" msd="VAD" tag="VLfin" in="-2:vobj" out="-1:robj">sabe</W>
 <W lemma="fuerte" msd="AN" tag="ADJ" in="-4:preds" out="2:conj">fuerte</W>
@@ -142,8 +142,8 @@
 <W lemma="que" msd="CS" tag="CQUE" in="-1:ref|1:subj" out="">que</W>
 <W lemma="caracterizar" msd="VAD" tag="VLfin" in="-2:relr" out="-1:subj|1:pobj">caracteriza</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="2:nobj">a</W>
-<W lemma="todo" msd="AN" tag="QU" in="1:ext" out="">toda</W>
-<W lemma="el" msd="PD" tag="ART" in="-2:nobj" out="-1:ext|1:nobj">la</W>
+<W lemma="todo" msd="AN" tag="QU" in="1:time" out="">toda</W>
+<W lemma="el" msd="PD" tag="ART" in="-2:nobj" out="-1:time|1:nobj">la</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">sociedad.”</W>
 <W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="3:cond" out="2:pnct">¿Mirando</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="" out="">atrás</W>

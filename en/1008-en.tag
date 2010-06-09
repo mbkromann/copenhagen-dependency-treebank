@@ -48,8 +48,8 @@
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Gothland</W>
 <W msd="VADA" tag="VBD" in="" out="-14:mod|-6:subj|2:preds|3:time|5:pnct">were</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="VAP" tag="VBN" in="-2:preds" out="-1:degr">exhausted</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="VAP" tag="VBN" in="-2:preds" out="-1:quant">exhausted</W>
 <W msd="NC=S" tag="NN" in="-3:time" out="1:nobj">yesterday</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">afternoon</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
@@ -168,9 +168,9 @@
 <W msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W msd="PD" tag="DT" in="8:mod" out="1:nobj|2:prec|4:pnct">The</W>
+<W msd="PD" tag="DT" in="8:mod" out="1:nobj|2:time|4:pnct">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">night</W>
-<W msd="CS" tag="IN" in="-2:prec" out="1:aobj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="1:aobj">before</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">last</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj" out="2:nobj">the</W>

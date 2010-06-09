@@ -106,7 +106,7 @@
 <p>
 <s>
 <W gloss="The_chairman_of_the_board" lemma="bestyrelsesformand" msd="NCCSU==D" tag="NN" in="1:subj" out="">Bestyrelsesformanden</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:dobj|11:reas|27:pnct">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|2:dobj|11:cause|27:pnct">fik</W>
 <W gloss="and_a_half" lemma="halvanden" msd="ANPNSU=IU" tag="JJ" in="1:attr" out="">halvandet</W>
 <W gloss="years" lemma="år" msd="NCNSG==I" tag="NN" in="-2:dobj" out="-1:attr|1:possd|3:conj">års</W>
 <W gloss="prison" lemma="fængsel" msd="NCNSU==I" tag="NN" in="-1:possd" out="">fængsel</W>
@@ -117,7 +117,7 @@
 <W gloss="one" lemma="en" msd="PI-CSU--U" tag="DT" in="1:numm" out="">en</W>
 <W gloss="million" lemma="million" msd="NCCSU==I" tag="NN" in="-2:nobj" out="-1:numm|1:nobj">million</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
-<W gloss="for" lemma="for" msd="SP" tag="IN" in="-11:reas" out="1:nobj">for</W>
+<W gloss="for" lemma="for" msd="SP" tag="IN" in="-11:cause" out="1:nobj">for</W>
 <W gloss="mandagsvig" lemma="mandagsvig" msd="XX" tag="FW" in="-1:nobj" out="1:pnct|2:conj|8:conj">mandagsvig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="tax_fraud" lemma="skattesvig" msd="NC[CN]SU==I" tag="NNS" in="-2:conj" out="1:other">skattesvig</W>
@@ -166,8 +166,8 @@
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:nobj">et</W>
 <W gloss="loss" lemma="tab" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj">tab</W>
 <W gloss="of" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="3:nobj">på</W>
-<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
-<W gloss="60" lemma="60" msd="AC---U=--" tag="CD" in="1:numm" out="-1:degr">60</W>
+<W gloss="around" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
+<W gloss="60" lemma="60" msd="AC---U=--" tag="CD" in="1:numm" out="-1:quant">60</W>
 <W gloss="million" lemma="million" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="-1:numm|1:nobj">millioner</W>
 <W gloss="DKK" lemma="krone" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">kroner</W>
 <W gloss="through" lemma="ved" msd="SP" tag="IN" in="-9:man" out="4:nobj">ved</W>
@@ -204,8 +204,8 @@
 <W gloss="Nils" lemma="Nils" msd="NP--U==-" tag="NNP" in="2:namef" out="1:namef">Nils</W>
 <W gloss="Erik" lemma="Erik" msd="NP--U==-" tag="NNP" in="-1:namef" out="">Erik</W>
 <W gloss="Jensen" lemma="Jensen" msd="NP--U==-" tag="NNP" in="1:subj" out="-3:title|-2:namef">Jensen</W>
-<W gloss="placed" lemma="lægge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:struct|2:neg|3:dobj|15:pnct">lagde</W>
-<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:struct" out="">dog</W>
+<W gloss="placed" lemma="lægge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:scene|2:neg|3:dobj|15:pnct">lagde</W>
+<W gloss="however" lemma="dog" msd="RGU" tag="RP" in="-1:scene" out="">dog</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="conceal" lemma="skjul" msd="NCNSU==I" tag="NN" in="-3:dobj" out="1:pobj">skjul</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:pnct|2:nobj">på</W>

@@ -2,7 +2,7 @@
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="sentire" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|-1:robj|1:vobj|4:pnct|6:conj|17:pnct">sente</W>
 <W lemma="stringere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|1:pobj">stringere</W>
-<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|11:assoc-const|63:coref-id">dalla</W>
+<W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-1:pobj" out="1:nobj|11:assoc-const|63:coref-iden">dalla</W>
 <W lemma="cravatta" msd="NC" tag="NOM" in="-1:nobj" out="">cravatta</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="non" msd="RG" tag="ADV" in="1:neg" out="">non</W>
@@ -18,7 +18,7 @@
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="1:robj" out="">si</W>
 <W lemma="slegare" msd="VADR" tag="VER&3a;cpre" in="-4:vobj" out="-3:subj|-1:robj">sleghi</W>
 <W lemma="." msd="XP" tag="SENT" in="-17:pnct" out="">.</W>
-<W lemma="Berlino" msd="NP" tag="NPR" in="3:qobj" out="1:pnct|15:coref-id">Berlino</W>
+<W lemma="Berlino" msd="NP" tag="NPR" in="3:qobj" out="1:pnct|15:coref-iden">Berlino</W>
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 <W lemma="-" msd="XP" tag="PON" in="1:pnct" out="">-</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="-1:pnct|-3:qobj|7:qobj">dice-</W>
@@ -33,7 +33,7 @@
 <W lemma="?" msd="XP" tag="SENT" in="-2:pnct" out="">?</W>
 <W lemma="sì" msd="RG" tag="ADV" in="3:qobj" out="1:pnct|2:nobj">Sì</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj|-15:coref-id" out="11:assoc-formal.loc">Berlino-</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-2:nobj|-15:coref-iden" out="11:assoc-formal.loc">Berlino-</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="-3:qobj|1:subj|3:pnct">dice</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:subj" out="1:nobj">il</W>
 <W lemma="caporedattore" msd="NC" tag="NOM" in="-1:nobj" out="">caporedattore</W>
@@ -65,12 +65,12 @@
 <W lemma="?" msd="XP" tag="SENT" in="-1:pnct" out="">?</W>
 <W lemma="Peter" msd="NP" tag="NPR" in="1:subj" out="">Peter</W>
 <W lemma="dimenticare" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:dobj|4:conj|7:pnct">dimentica</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-63:coref-id|-1:dobj" out="1:nobj">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-63:coref-iden|-1:dobj" out="1:nobj">la</W>
 <W lemma="cravatta" msd="NC" tag="NOM" in="-1:nobj" out="">cravatta</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="annuire" msd="VADR" tag="VER&3a;pres" in="-4:conj" out="-1:coord|2:nobj">annuisce</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:ext" out="">più</W>
-<W lemma="volto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:ext">volte</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:time" out="">più</W>
+<W lemma="volto" msd="AN" tag="ADJ" in="-2:nobj" out="-1:time">volte</W>
 <W lemma="." msd="XP" tag="SENT" in="-7:pnct" out="">.</W>
 <W lemma="sì" msd="RG" tag="ADV" in="2:qobj" out="1:pnct">Sì</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>
@@ -81,7 +81,7 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:loc" out="1:nobj">a</W>
 <W lemma="Berlino" msd="NP" tag="NPR" in="-1:nobj" out="14:²coref">Berlino</W>
 <W lemma="con" msd="SP" tag="PRE" in="-3:man" out="2:nobj">con</W>
-<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="19:coref-id">suo</W>
+<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="1:attr" out="19:coref-iden">suo</W>
 <W lemma="padre" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">padre</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="proprio" msd="RG" tag="ADV" in="1:focal" out="">proprio</W>
@@ -100,7 +100,7 @@
 <W lemma="disordine" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">disordine</W>
 <W lemma="generale" msd="AN" tag="ADJ" in="-1:attr" out="">generale</W>
 <W lemma="." msd="XP" tag="SENT" in="-25:pnct" out="">.</W>
-<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-19:coref-id|1:attr" out="18:coref-var">Suo</W>
+<W lemma="suo" msd="PO" tag="PRO&3a;poss" in="-19:coref-iden|1:attr" out="18:coref-var">Suo</W>
 <W lemma="padre" msd="NC" tag="NOM" in="1:subj|2:[subj]" out="-1:attr">padre</W>
 <W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="" out="-1:subj|1:vobj|15:pnct">ha</W>
 <W lemma="sentire" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-2:[subj]|1:dobj">sentito</W>

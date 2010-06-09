@@ -90,11 +90,11 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="1:lobj">way</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="1:nobj">toward</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj|4:reas|8:pnct|9:mod">going</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj|4:cause|8:pnct|9:mod">going</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">dogs</W>
-<W msd="CS" tag="IN" in="-4:reas" out="1:pobj">because</W>
+<W msd="CS" tag="IN" in="-4:cause" out="1:pobj">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">drinking</W>

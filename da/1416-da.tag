@@ -243,8 +243,8 @@
 <W gloss="even_though" lemma="selv_om" msd="CS" tag="IN" in="7:xtop" out="2:vobj|6:ref">selv_om</W>
 <W gloss="everyone" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:subj" out="">alle</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|3:pnct">er</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="secretive" lemma="hemmelighedsfuld" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:degr">hemmelighedsfulde</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="secretive" lemma="hemmelighedsfuld" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:preds" out="-1:quant">hemmelighedsfulde</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="so" lemma="så" msd="RGU" tag="RP" in="-6:ref|1:mod" out="">så</W>
 <W gloss="is_believed" lemma="mene" msd="VADR=----P-" tag="VBD" in="-12:conj" out="-7:xtop|-1:mod|-8:coord|1:subj|2:time|3:pnct">menes</W>

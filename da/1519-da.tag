@@ -53,8 +53,8 @@
 <W gloss="the_train" lemma="tog" msd="NCNSU==D" tag="NN" in="8:subj" out="1:pnct|2:ref|4:rel">toget</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-2:ref|2:subj" out="">der</W>
-<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:succ" out="">senere</W>
-<W gloss="met_with_an_accident" lemma="forulykke" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|1:mod|3:pnct|-1:succ">forulykkede</W>
+<W gloss="later" lemma="sen" msd="ANC---=-R" tag="JJR" in="1:time" out="">senere</W>
+<W gloss="met_with_an_accident" lemma="forulykke" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-2:subj|1:mod|3:pnct|-1:time">forulykkede</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:mod" out="1:nobj">i</W>
 <W gloss="Næstved" lemma="Næstved" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Næstved</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
@@ -188,7 +188,7 @@
 <W gloss="collision" lemma="kollision" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kollision</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds|7:pnct|8:reas">var</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:preds|7:pnct|8:cause">var</W>
 <W gloss="close" lemma="tæt" msd="ANP---=-R" tag="JJ" in="-1:preds" out="1:pobj">tæt</W>
 <W gloss="to" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">på</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -196,7 +196,7 @@
 <W gloss="catastrophic" lemma="katastrofal" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">katastrofale</W>
 <W gloss="consequences" lemma="følge" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr">følger</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-8:reas" out="6:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-8:cause" out="6:vobj">fordi</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="5:subj" out="1:nobj|2:mod">en</W>
 <W gloss="tanker" lemma="tankvogn" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tankvogn</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-2:mod" out="1:nobj">med</W>

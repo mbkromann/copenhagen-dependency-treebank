@@ -14,7 +14,7 @@
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="navigare" msd="VAF" tag="VER&3a;infi" in="" out="">navigare</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="74:+CONST&3a;elab/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="74:+CONJ&3a;elab/ATTR">è</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="sommergibile" msd="AN" tag="ADJ" in="" out="">sommergibile</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Spækhuggeren</W>
@@ -62,7 +62,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Le</W>
 <W lemma="condizione" msd="NC" tag="NOM" in="" out="">condizioni</W>
 <W lemma="per" msd="SP" tag="PRE" in="" out="">per</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="69:+CONST&3a;elab">l'</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="" out="69:+CONJ&3a;elab">l'</W>
 <W lemma="asta" msd="NC" tag="NOM" in="" out="">asta</W>
 <W lemma="dire" msd="VADR" tag="VER&3a;pres" in="" out="">dicono</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="" out="">chiaro</W>
@@ -88,7 +88,7 @@
 <W lemma="reale" msd="AN" tag="ADJ" in="" out="">Reale</W>
 <W lemma="&amp;quot;" msd="XP" tag="PON" in="" out="">"</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
-<W lemma="comunicare" msd="VADR" tag="VER&3a;pres" in="-74:+CONST&3a;elab/ATTR" out="">comunica</W>
+<W lemma="comunicare" msd="VADR" tag="VER&3a;pres" in="-74:+CONJ&3a;elab/ATTR" out="">comunica</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="capitano" msd="NC" tag="NOM" in="" out="">Capitano</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -96,7 +96,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Per</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Mikkelsen</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="9:+CONST&3a;elab">Holmen</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="9:+CONJ&3a;elab">Holmen</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="Copenhagen" msd="NP" tag="NPR" in="" out="">Copenhagen</W>
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
@@ -105,7 +105,7 @@
 <p>
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Holmen</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-9:+CONST&3a;elab" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-9:+CONJ&3a;elab" out="">è</W>
 <W lemma="purtroppo" msd="RG" tag="ADV" in="" out="">purtroppo</W>
 <W lemma="destinare" msd="VAP" tag="VER&3a;pper" in="" out="">destinato</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
@@ -131,8 +131,8 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="marina" msd="NC" tag="NOM" in="" out="">Marina</W>
 <W lemma="reale" msd="AN" tag="ADJ" in="" out="">reale</W>
-<W lemma="comprendere" msd="VADR" tag="VER&3a;pres" in="-69:+CONST&3a;elab" out="-12:+SCENE|109:+CONJ/anche">comprende</W>
-<W lemma="quattro" msd="AN" tag="ADJ" in="" out="47:DESCR&3a;qual">quattro</W>
+<W lemma="comprendere" msd="VADR" tag="VER&3a;pres" in="-69:+CONJ&3a;elab" out="-12:+SCENE|109:+CONJ&3a;add/anche">comprende</W>
+<W lemma="quattro" msd="AN" tag="ADJ" in="" out="47:FORMAL&3a;descr">quattro</W>
 <W lemma="nave" msd="NC" tag="NOM" in="" out="">navi</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="perlustrazione" msd="NC" tag="NOM" in="" out="">perlustrazione</W>
@@ -179,7 +179,7 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-47:DESCR&3a;qual" out="6:&3a;AGENTIVE&3a;expl/(nemlig)|34:CONTR&3a;dir/ma">Sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-47:FORMAL&3a;descr" out="6:&3a;AGENTIVE&3a;expl/(nemlig)|34:CONTR&3a;dir/ma">Sono</W>
 <W lemma="certo" msd="RG" tag="ADV" in="" out="">certo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">delle</W>
 <W lemma="bello" msd="AN" tag="ADJ" in="" out="">belle</W>
@@ -240,7 +240,7 @@
 <s>
 <W lemma="anche" msd="RG" tag="ADV" in="" out="">Anche</W>
 <W lemma="questo" msd="PD" tag="PRO&3a;demo" in="" out="">questa</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-109:+CONJ/anche" out="">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-109:+CONJ&3a;add/anche" out="">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="costruire" msd="VAP" tag="VER&3a;pper" in="" out="">costruita</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">all'</W>

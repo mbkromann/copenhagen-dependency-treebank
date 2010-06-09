@@ -95,8 +95,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=P" tag="NNS" in="-2:conj" out="-1:coord">civilians</W>
 <W msd="VADA" tag="VBD" in="6:qobj" out="-4:subj|1:vobj|5:pnct">were</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:dur">killed</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-5:[subj]|1:time">killed</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">bombardment</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>

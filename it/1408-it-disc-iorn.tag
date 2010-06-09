@@ -204,12 +204,12 @@
 <W lemma="sede" msd="NC" tag="NOM" in="-1:nobj" out="">sede</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="1:subj" out="">Auken</W>
 <W lemma="definire" msd="VADR" tag="VER&3a;pres" in="" out="-4:loc|-1:subj|1:dobj|10:pnct|11:cause|35:pnct">definisce</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:dobj" out="1:pobj.dobj|1:{patient}|5:comp">l’idea</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:dobj" out="1:pobj.dobj|1:{patient}|5:resem">l’idea</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.dobj|-1:{patient}" out="1:dobj">di</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj|-91:coref-var" out="2:nobj">un</W>
 <W lemma="nuovo" msd="AN" tag="ADJ" in="1:attr" out="">nuovo</W>
 <W lemma="referendum" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr">referendum</W>
-<W lemma="come" msd="SP" tag="PRE" in="-5:comp" out="1:dobj">come</W>
+<W lemma="come" msd="SP" tag="PRE" in="-5:resem" out="1:dobj">come</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="-1:dobj" out="1:nobj">un</W>
 <W lemma="desiderio" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">desiderio</W>
 <W lemma="inconsistente" msd="AN" tag="ADJ" in="-1:attr" out="">inconsistente</W>

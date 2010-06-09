@@ -55,8 +55,8 @@
 <W lemma="tonnellata" msd="NC" tag="NOM" in="" out="">tonnellate</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-3:elab" out="2:nobj">cioè</W>
-<W lemma="circa" msd="SP" tag="PRE" in="1:degr" out="">circa</W>
-<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:degr">2,8</W>
+<W lemma="circa" msd="SP" tag="PRE" in="1:quant" out="">circa</W>
+<W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:quant">2,8</W>
 <W lemma="milione" msd="NC" tag="NOM" in="" out="">milioni</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="confezione" msd="NC" tag="NOM" in="" out="">confezioni</W>

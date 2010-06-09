@@ -1,7 +1,7 @@
 <p>
 <s>
 <W lemma="non" msd="RG" tag="ADV" in="" out="">Non</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="49:+CONJ/(e)">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="49:+CONJ&3a;add/(e)">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">stata</W>
 <W lemma="commentare" msd="VAP" tag="VER&3a;pper" in="" out="">commentata</W>
 <W lemma="nemmeno" msd="RG" tag="ADV" in="" out="">nemmeno</W>
@@ -50,7 +50,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Lo</W>
 <W lemma="stesso" msd="AN" tag="ADJ" in="" out="">stesso</W>
 <W lemma="destino" msd="NC" tag="NOM" in="" out="">destino</W>
-<W lemma="tocco" msd="AN" tag="ADJ" in="-49:+CONJ/(e)" out="54:+CONC/tuttavia">tocca</W>
+<W lemma="tocco" msd="AN" tag="ADJ" in="-49:+CONJ&3a;add/(e)" out="54:+CONC/tuttavia">tocca</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
 <W lemma="domanda" msd="NC" tag="NOM" in="" out="">domanda</W>
 <W lemma="principale" msd="AN" tag="ADJ" in="" out="">principale</W>
@@ -71,7 +71,7 @@
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="" out="">sulla</W>
 <W lemma="questione" msd="NC" tag="NOM" in="" out="">questione</W>
 <W lemma="se" msd="CS" tag="CON" in="" out="">se</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="67:+CONST&3a;elab">Kræftens</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="67:+CONJ&3a;elab">Kræftens</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Bekæmpelse</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
 <W lemma="considerare" msd="VADR" tag="VER&3a;pres" in="" out="">consideri</W>
@@ -138,7 +138,7 @@
 <s>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Kræftens</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">Bekæmpelse</W>
-<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="-67:+CONST&3a;elab" out="40:CONJ/(e)">sembra</W>
+<W lemma="sembrare" msd="VADR" tag="VER&3a;pres" in="-67:+CONJ&3a;elab" out="40:CONJ&3a;add/(e)">sembra</W>
 <W lemma="concepire" msd="VAF" tag="VER&3a;infi" in="" out="">concepire</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="contribuente" msd="NC" tag="NOM" in="" out="">contribuenti</W>
@@ -178,8 +178,8 @@
 <W lemma="." msd="XP" tag="SENT" in="" out="">.</W>
 </s>
 <s>
-<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-40:CONJ/(e)" out="27:;AGENTIVE&3a;expl|66:+CONC/(però)">Posso</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="potere" msd="VADR" tag="VER&3a;pres" in="-40:CONJ&3a;add/(e)" out="27:;AGENTIVE&3a;expl|66:+CONC/(però)">Posso</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="capire" msd="VAF" tag="VER&3a;infi" in="" out="">capire</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>

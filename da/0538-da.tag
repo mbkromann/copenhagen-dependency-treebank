@@ -70,8 +70,8 @@
 <W gloss="solve" lemma="løse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|6:man">løse</W>
 <W gloss="this" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:dobj" out="3:attr|4:nobj">den</W>
 <W gloss="otherwise" lemma="ellers" msd="RGU" tag="RP" in="2:other" out="">ellers</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="simple" lemma="simpel" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="-1:degr|-2:other">simple</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="simple" lemma="simpel" msd="ANP[CN]SU=DU" tag="JJ" in="-3:attr" out="-1:quant|-2:other">simple</W>
 <W gloss="task" lemma="opgave" msd="NCCSU==I" tag="NN" in="-4:nobj" out="">opgave</W>
 <W gloss="physically" lemma="kropslig" msd="ANP---=-R" tag="JJ" in="-6:man" out="">kropsligt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
@@ -113,8 +113,8 @@
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:preds|1:subj|2:other|6:pnct|8:xpl">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="for" lemma="med" msd="SP" tag="IN" in="-2:other" out="2:nobj">med</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:degr|1:nobj">alle</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:nobj" out="-1:quant|1:nobj">alle</W>
 <W gloss="tasks" lemma="opgave" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">opgaver</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-6:pnct" out="">:</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">De</W>
@@ -133,14 +133,14 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|2:preds">er</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="expedient" lemma="hensigtsmæssig" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:degr">hensigtsmæssig</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="expedient" lemma="hensigtsmæssig" msd="ANPCSU=IU" tag="JJ" in="-2:preds" out="-1:quant">hensigtsmæssig</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">Også</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="-1:add">derfor</W>
-<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:qobj" out="-1:reas|1:subj|2:preds|9:pnct">er</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="-1:add">derfor</W>
+<W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="10:qobj" out="-1:cause|1:subj|2:preds|9:pnct">er</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="2:nobj">det</W>
 <W gloss="important" lemma="vigtig" msd="ANPNSU=IU" tag="JJ" in="-2:preds" out="">vigtigt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:nobj" out="1:vobj">at</W>
@@ -158,12 +158,12 @@
 <p>
 <s>
 <W gloss="actually" lemma="faktisk" msd="ANP---=-R" tag="JJ" in="1:eval" out="">Faktisk</W>
-<W gloss="banks" lemma="banke" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|1:subj|4:epi|5:degr|6:pobj|9:pnct">banker</W>
+<W gloss="banks" lemma="banke" msd="VADR=----A-" tag="VBD" in="" out="-1:eval|1:subj|4:epi|5:quant|6:pobj|9:pnct">banker</W>
 <W gloss="His" lemma="hans" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:subj" out="1:focal|2:possd">hans</W>
 <W gloss="own" lemma="egen" msd="ANPCSU=[DI]U" tag="JJ" in="-1:focal" out="">egen</W>
 <W gloss="brain" lemma="hjerne" msd="NCCSU==I" tag="NN" in="-2:possd" out="">hjerne</W>
 <W gloss="enough" lemma="nok" msd="RGU" tag="RP" in="-4:epi" out="">nok</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="-5:degr" out="">mest</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="-5:quant" out="">mest</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-6:pobj" out="1:nobj">for</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr">det</W>
 <W gloss="musical" lemma="musisk" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">musiske</W>

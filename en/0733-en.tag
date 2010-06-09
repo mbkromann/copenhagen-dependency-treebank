@@ -219,8 +219,8 @@
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:dobj|16:conj|17:pnct">notes</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="7:vobj">that</W>
 <W msd="PI" tag="DT" in="6:subj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">large</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">large</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="1:pobj">number</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">motorists</W>

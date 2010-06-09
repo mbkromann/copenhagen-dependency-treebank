@@ -38,11 +38,11 @@
 <W msd="XP" tag="." in="-14:pnct" out="">.</W>
 </s>
 <s>
-<W msd="AC" tag="CD" in="" out="1:nobj|3:pnct|4:reas|31:pnct|2:accom">40</W>
+<W msd="AC" tag="CD" in="" out="1:nobj|3:pnct|4:cause|31:pnct|2:accom">40</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">times</W>
 <W msd="ANP" tag="RB" in="-2:accom" out="">alone</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-4:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj|5:pnct|6:focal">was</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:accom">driving</W>
@@ -53,13 +53,13 @@
 <W msd="ANP" tag="RB" in="-6:focal" out="1:pobj">even</W>
 <W msd="ANP" tag="RB" in="-1:pobj" out="1:pnct|8:vobj">though</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="6:reas" out="1:pobj|4:pnct">because</W>
+<W msd="CS" tag="IN" in="6:cause" out="1:pobj|4:pnct">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">drunk</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr">driving</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">he</W>
-<W msd="VADA" tag="VBD" in="-8:vobj" out="-1:subj|-6:reas|1:vobj">had</W>
+<W msd="VADA" tag="VBD" in="-8:vobj" out="-1:subj|-6:cause|1:vobj">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|7:mod">lost</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:nobj">right</W>

@@ -141,7 +141,7 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">October</W>
 <W msd="CC" tag="CC" in="10:coord" out="1:pnct">and</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="SP" tag="IN" in="8:dur" out="1:nobj|6:pnct">during</W>
+<W msd="SP" tag="IN" in="8:time" out="1:nobj|6:pnct">during</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd|2:mod">our</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">walk</W>
 <W msd="SP" tag="IN" in="-2:mod" out="1:nobj">in</W>
@@ -149,7 +149,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">woods</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-24:conj" out="-1:subj|-10:coord|-8:dur|1:dobj">meet</W>
+<W msd="VADR" tag="VBP" in="-24:conj" out="-1:subj|-10:coord|-8:time|1:dobj">meet</W>
 <W msd="ANP" tag="JJ" in="-1:dobj" out="1:nobj|2:pnct|3:ref|13:rel">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">others</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>

@@ -111,8 +111,8 @@
 <W gloss="Research" lemma="forsknings-" msd="XX" tag="FW" in="3:subj" out="2:conj">Forsknings-</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="development_programs" lemma="udviklingsprogram" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">udviklingsprogrammer</W>
-<W gloss="are_established" lemma="etablere" msd="VADR=----P-" tag="VBD" in="" out="-3:subj|2:mod|9:conj|16:pnct|1:ext">etableres</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:ext" out="">ofte</W>
+<W gloss="are_established" lemma="etablere" msd="VADR=----P-" tag="VBD" in="" out="-3:subj|2:mod|9:conj|16:pnct|1:time">etableres</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:time" out="">ofte</W>
 <W gloss="on" lemma="med" msd="SP" tag="IN" in="-2:mod" out="3:nobj">med</W>
 <W gloss="relatively" lemma="relativ" msd="ANP---=-R" tag="JJ" in="1:mod" out="">relativt</W>
 <W gloss="short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="1:attr" out="-1:mod">kort</W>

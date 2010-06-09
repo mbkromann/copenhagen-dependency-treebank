@@ -135,9 +135,9 @@
 <W gloss="made" lemma="gøre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj|5:preds">gjort</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:dobj" out="">det</W>
 <hi>
-<W gloss="too" lemma="for" msd="RGU" tag="RP" in="2:degr" out="">for</W>
+<W gloss="too" lemma="for" msd="RGU" tag="RP" in="2:quant" out="">for</W>
 </hi>
-<W gloss="easy" lemma="let" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-2:degr|1:pobj">let</W>
+<W gloss="easy" lemma="let" msd="ANP[CN]SU=IU" tag="JJ" in="-5:preds" out="-2:quant|1:pobj">let</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="her" lemma="hun" msd="PP3CSU-NU" tag="PRP" in="-1:nobj" out="">hende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -226,14 +226,14 @@
 <W gloss="food" lemma="mad" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">mad</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="wine" lemma="vin" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">vin</W>
-<W gloss="forced" lemma="tvinge" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-5:subj|1:dobj|2:@dir|6:pnct|7:comp">tvang</W>
+<W gloss="forced" lemma="tvinge" msd="VADA=----A-" tag="VBD" in="-6:conj" out="-5:subj|1:dobj|2:@dir|6:pnct|7:resem">tvang</W>
 <W gloss="nausea" lemma="kvalme" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">kvalmen</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-2:@dir" out="1:other">op</W>
 <W gloss="to" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="her" lemma="hendes" msd="PO3[CN][SP]USNU" tag="PRP$" in="-1:nobj" out="1:possd">hendes</W>
 <W gloss="mouth" lemma="mund" msd="NCCSU==I" tag="NN" in="-1:possd" out="">mund</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-7:comp" out="1:nobj">som</W>
+<W gloss="as" lemma="som" msd="U=" tag="WDT" in="-7:resem" out="1:nobj">som</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="warning" lemma="advarsel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">advarsel</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-16:pnct" out="">.</W>

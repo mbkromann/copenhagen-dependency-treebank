@@ -45,8 +45,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-6:conj" out="-1:subj|-2:coord|1:add|3:preds|4:mod">was</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">difficult</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">difficult</W>
 <W msd="SP" tag="IN" in="-4:mod" out="1:nobj">with</W>
 <W msd="PD" tag="PDT" in="-1:nobj" out="1:nobj|3:ref|4:rel">all</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
@@ -217,12 +217,12 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">sale</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="6:nobj">of</W>
-<W msd="ANP" tag="RB" in="5:degr" out="">approximately</W>
+<W msd="ANP" tag="RB" in="5:quant" out="">approximately</W>
 <W msd="PI" tag="DT" in="4:numm" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">quarter</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="">a</W>
-<W msd="AC" tag="CD" in="-6:nobj" out="-4:numm|1:nobj|-5:degr">million</W>
+<W msd="AC" tag="CD" in="-6:nobj" out="-4:numm|1:nobj|-5:quant">million</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj">pieces</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">pottery</W>

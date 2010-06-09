@@ -54,8 +54,8 @@
 <W msd="PT" tag="WDT" in="-2:ref|1:subj" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:preds">are</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|4:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="RB" in="-2:attr" out="-1:degr">obviously</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="RB" in="-2:attr" out="-1:quant">obviously</W>
 <W msd="VADR" tag="VBZ" in="1:mod" out="">sales</W>
 <W msd="NC=P" tag="NNS" in="-4:nobj" out="-1:mod">topics</W>
 <W msd="VADR" tag="VBP" in="" out="-10:preds|1:subj|28:pnct">are</W>
@@ -146,8 +146,8 @@
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">future</W>
 <W msd="NC=S" tag="NN" in="-4:vobj" out="-5:[subj]|1:dobj">have</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:degr|2:pobj">concentrate</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-7:[subj]|1:quant|2:pobj">concentrate</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">on</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">its</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">own</W>
@@ -169,8 +169,8 @@
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">among</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|3:attr|5:possd">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">group's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">important</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">important</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">gold</W>
 <W msd="NC=P" tag="NNS" in="-5:possd" out="-1:mod">eggs</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
@@ -220,7 +220,7 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod">companies</W>
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="2:coord" out="3:pnct">but</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-10:conj" out="-2:coord|-1:degr">legal</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-10:conj" out="-2:coord|-1:quant">legal</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">-</W>
 </s>

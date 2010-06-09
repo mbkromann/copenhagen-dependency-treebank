@@ -1,9 +1,9 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj|8:[subj]" out="1:nobj">The</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Queen</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:prec|6:vobj|18:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|2:time|6:vobj|18:pnct">has</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">twice</W>
-<W msd="CS" tag="IN" in="-2:prec" out="-1:mod|1:pobj">before</W>
+<W msd="CS" tag="IN" in="-2:time" out="-1:mod|1:pobj">before</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">during</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">reign</W>

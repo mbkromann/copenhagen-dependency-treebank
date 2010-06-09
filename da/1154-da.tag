@@ -160,8 +160,8 @@
 <W gloss="at_the_moment" lemma="foreløbig" msd="ANP---=-R" tag="JJ" in="1:mod" out="">foreløbig</W>
 <W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:mod|-2:coord|1:subj|3:mod|6:vobj">har</W>
 <W gloss="the_contributions" lemma="bidrag" msd="NCNPU==D" tag="NNP" in="-1:subj|5:[subj]|6:[subj]" out="">bidragene</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:mod" out="-1:degr|1:nobj">til</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="in" lemma="til" msd="SP" tag="IN" in="-3:mod" out="-1:quant|1:nobj">til</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:attr">det</W>
 <W gloss="unbearable" lemma="ulidelig" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">ulidelige</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-6:vobj" out="-5:[subj]|1:vobj">været</W>

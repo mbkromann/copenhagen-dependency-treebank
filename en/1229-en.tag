@@ -51,14 +51,14 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">part</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Bosnia-Herzegovina</W>
-<W msd="VADA" tag="VBD" in="-12:vobj" out="-11:subj|1:preds|7:dur">was</W>
+<W msd="VADA" tag="VBD" in="-12:vobj" out="-11:subj|1:preds|7:time">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">subject</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:mod|3:nobj">a</W>
 <W msd="NP=S" tag="NNP" in="-1:mod" out="">Serbian</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">infantry</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="-1:mod">attack</W>
-<W msd="SP" tag="IN" in="-7:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-7:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">day</W>
 <W msd="XP" tag="." in="-23:pnct" out="">.</W>

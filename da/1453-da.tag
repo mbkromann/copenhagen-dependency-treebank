@@ -61,8 +61,8 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]|4:[subj]" out="">Vi</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:ext|2:vobj|22:pnct">har</W>
-<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:ext" out="">ofte</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|-2:pnct|1:time|2:vobj|22:pnct">har</W>
+<W gloss="often" lemma="ofte" msd="RGP" tag="RP" in="-1:time" out="">ofte</W>
 <W gloss="had_to" lemma="måtte" msd="XX" tag="FW" in="-2:vobj" out="-3:[subj]|1:vobj">måtte</W>
 <W gloss="stress" lemma="indskærpe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:pobj|3:pnct|4:dobj">indskærpe</W>
 <W gloss="to" lemma="overfor" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">overfor</W>

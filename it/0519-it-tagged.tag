@@ -34,7 +34,7 @@
 <W lemma="prendere" msd="VAP" tag="VER:pper" in="" out="">preso</W>
 <W lemma="un" msd="PI" tag="DET:indef" in="" out="">un</W>
 <W lemma="aspetto" msd="NC" tag="NOM" in="" out="">aspetto</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="aggressivo" msd="AN" tag="ADJ" in="" out="">aggressivo</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
@@ -245,7 +245,7 @@
 <W lemma="benevolenza" msd="NC" tag="NOM" in="" out="">benevolenza</W>
 <W lemma="intridere" msd="VAP" tag="VER:pper" in="" out="">intrisa</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="una" msd="PI" tag="DET:indef" in="" out="">una</W>

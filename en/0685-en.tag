@@ -27,8 +27,8 @@
 <s>
 <W msd="PD" tag="DT" in="1:subj" out="">This</W>
 <W msd="VADR" tag="VBZ" in="11:mod" out="-1:subj|4:preds|9:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="RB" in="1:mod" out="-1:degr">twice</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="RB" in="1:mod" out="-1:quant">twice</W>
 <W msd="ANP" tag="RB" in="1:mod" out="-1:mod|2:pobj">as</W>
 <W msd="ANP" tag="JJ" in="-4:preds" out="-1:mod">many</W>
 <W msd="CS" tag="IN" in="-2:pobj" out="3:avobj">as</W>
@@ -143,9 +143,9 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="RB" in="1:inst" out="">thereby</W>
 <W msd="VAF" tag="VB" in="-10:conj" out="-16:[subj]|-2:coord|-1:inst|3:dobj">save</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">approximately</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">approximately</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">DKK</W>
-<W msd="AC" tag="CD" in="-3:dobj" out="-1:mod|-2:degr">800,000</W>
+<W msd="AC" tag="CD" in="-3:dobj" out="-1:mod|-2:quant">800,000</W>
 <W msd="XP" tag="." in="-17:pnct" out="">.</W>
 </s>
 <s>
@@ -189,7 +189,7 @@
 <s>
 <W msd="NP=S" tag="NNP" in="2:subj|3:[subj]|5:[subj]" out="1:nobj">Vejle</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Country</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|13:pnct|14:cont|26:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:vobj|13:pnct|14:time|26:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj">decided</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|1:dobj|4:@dir">send</W>
@@ -203,7 +203,7 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-2:mod" out="">Croatia</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-14:cont" out="7:vobj">while</W>
+<W msd="CS" tag="IN" in="-14:time" out="7:vobj">while</W>
 <W msd="PI" tag="DT" in="6:subj|7:[subj]|8:[subj]" out="1:attr|3:nobj|4:mod">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">corresponding</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">emergency</W>

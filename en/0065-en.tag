@@ -18,12 +18,12 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
-<W msd="ANP" tag="RB" in="5:prec" out="-4:tobj|1:pnct">before</W>
+<W msd="ANP" tag="RB" in="5:time" out="-4:tobj|1:pnct">before</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">young</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">mother</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|-5:prec|1:vobj|15:pnct">had</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|-5:time|1:vobj|15:pnct">had</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">learned</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">her</W>
@@ -71,8 +71,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">son</W>
 <W msd="VAP" tag="VBN" in="-3:vobj" out="-2:[dobj]|1:lobj">placed</W>
 <W msd="SP" tag="IN" in="-1:lobj" out="3:nobj">in</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">satisfactory</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">satisfactory</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">circumstances</W>
 <W msd="XP" tag="." in="-32:pnct" out="">.</W>
 </s>
@@ -115,8 +115,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Anders</W>
 <W msd="VADA" tag="VBD" in="-10:xpl" out="-2:pnct|-1:subj|1:dobj|9:pnct">had</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|3:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="2:pobj|-1:degr">different</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="2:pobj|-1:quant">different</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">disposition</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">from</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">my</W>

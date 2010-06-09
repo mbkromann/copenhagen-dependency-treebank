@@ -90,8 +90,8 @@
 <W gloss="relief" lemma="lettelse" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">lettelse</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="them" lemma="de" msd="PP3[CN]PU-NU" tag="PRP" in="-1:nobj" out="">dem</W>
-<W gloss="altogether" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="to" lemma="at" msd="U=" tag="TO" in="-7:nobj" out="-1:degr|1:vobj">at</W>
+<W gloss="altogether" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="to" lemma="at" msd="U=" tag="TO" in="-7:nobj" out="-1:quant|1:vobj">at</W>
 <W gloss="drop" lemma="droppe" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">droppe</W>
 <W gloss="it" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:dobj" out="1:attr|2:nobj">det</W>
 <W gloss="sexual" lemma="seksuel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">seksuelle</W>
@@ -116,8 +116,8 @@
 <s>
 <W gloss="The_book" lemma="bog" msd="NCCSU==D" tag="NN" in="1:subj" out="">Bogen</W>
 <W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|2:lobj|12:pnct">kommer</W>
-<W gloss="far" lemma="vidt" msd="RGU" tag="RP" in="1:degr" out="">vidt</W>
-<W gloss="around" lemma="omkring" msd="RGU" tag="RP" in="-2:lobj" out="-1:degr|1:pnct|2:modp">omkring</W>
+<W gloss="far" lemma="vidt" msd="RGU" tag="RP" in="1:quant" out="">vidt</W>
+<W gloss="around" lemma="omkring" msd="RGU" tag="RP" in="-2:lobj" out="-1:quant|1:pnct|2:modp">omkring</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-1:pnct" out=""> - </W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-2:modp" out="1:nobj|4:pobj|6:pobj">fra</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>
@@ -166,8 +166,8 @@
 <W gloss="sexuality" lemma="seksualitet" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">seksualitet</W>
 <W gloss="having_to" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:vobj">skal</W>
 <W gloss="hang" lemma="hænge" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|3:avobj">hænge</W>
-<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:degr" out="">så</W>
-<W gloss="closely" lemma="tæt" msd="ANP---=-R" tag="JJ" in="1:other" out="-1:degr">tæt</W>
+<W gloss="so" lemma="så" msd="RGU" tag="RP" in="1:quant" out="">så</W>
+<W gloss="closely" lemma="tæt" msd="ANP---=-R" tag="JJ" in="1:other" out="-1:quant">tæt</W>
 <W gloss="together" lemma="sammen" msd="RGU" tag="RP" in="-3:avobj" out="-1:other">sammen</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>

@@ -205,8 +205,8 @@
 <W gloss="The_claim" lemma="påstand" msd="NCCSU==D" tag="NN" in="3:subj" out="1:pobj">Påstanden</W>
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="sexual_abuse" lemma="sex-misbrug" msd="NC[CN]SU==I" tag="NNS" in="-1:nobj" out="">sex-misbrug</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:reas|2:dobj|9:pnct|10:mod|16:pnct">fik</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:cause|2:dobj|9:pnct|10:mod|16:pnct">fik</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="allowed" lemma="lov" msd="NC[CN][SP]U==[DI]" tag="NN" in="-2:dobj" out="1:pobj">lov</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>

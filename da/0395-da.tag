@@ -102,8 +102,8 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="was_being" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:degr|2:dobj|3:preds|4:pnct">var</W>
-<W gloss="far_from" lemma="langtfra" msd="RGU" tag="RP" in="-1:degr" out="">langtfra</W>
+<W gloss="was_being" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:quant|2:dobj|3:preds|4:pnct">var</W>
+<W gloss="far_from" lemma="langtfra" msd="RGU" tag="RP" in="-1:quant" out="">langtfra</W>
 <W gloss="death" lemma="død" msd="NCCSU==D" tag="NN" in="-2:dobj" out="">døden</W>
 <W gloss="near" lemma="nær" msd="SP" tag="IN" in="-3:preds" out="">nær</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -112,12 +112,12 @@
 <p>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="looked" lemma="kigge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|4:pnct|5:cont|23:pnct">kiggede</W>
+<W gloss="looked" lemma="kigge" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:lobj|4:pnct|5:time|23:pnct">kiggede</W>
 <W gloss="-" lemma="tværs" msd="RGU" tag="RP" in="-1:lobj" out="1:other">tværs</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="the_street" lemma="gade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">gaden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="meanwhile" lemma="imens" msd="CS" tag="IN" in="-5:cont" out="6:vobj">imens</W>
+<W gloss="meanwhile" lemma="imens" msd="CS" tag="IN" in="-5:time" out="6:vobj">imens</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="5:subj" out="1:attr|2:nobj|3:other">den</W>
 <W gloss="blue" lemma="blå" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">blå</W>
 <W gloss="smoke" lemma="røg" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">røg</W>
@@ -161,8 +161,8 @@
 <W gloss="creature" lemma="skabning" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">skabning</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-5:ref|2:subj" out="">der</W>
-<W gloss="rather" lemma="snarere" msd="RGU" tag="RP" in="1:degr" out="8:pobj">snarere</W>
-<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:degr|1:avobj">så</W>
+<W gloss="rather" lemma="snarere" msd="RGU" tag="RP" in="1:quant" out="8:pobj">snarere</W>
+<W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:quant|1:avobj">så</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-1:avobj" out="1:pobj">ud</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
@@ -193,13 +193,13 @@
 </s>
 <s>
 <W gloss="She" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="1:subj" out="">Hun</W>
-<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:@loc|5:pnct|6:cont|13:pnct">stod</W>
-<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
+<W gloss="was_standing" lemma="stå" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:@loc|5:pnct|6:time|13:pnct">stod</W>
+<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:time" out="">stadig</W>
 <W gloss="at" lemma="ved" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">ved</W>
 <W gloss="her" lemma="sin" msd="PO3NSUSYU" tag="PRP$" in="-1:nobj" out="1:possd">sit</W>
 <W gloss="window" lemma="vindue" msd="NCNSU==I" tag="NN" in="-1:possd" out="">vindue</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="when" lemma="da" msd="CS" tag="IN" in="-6:cont" out="2:vobj">da</W>
+<W gloss="when" lemma="da" msd="CS" tag="IN" in="-6:time" out="2:vobj">da</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">de</W>
 <W gloss="turned_on" lemma="tænde" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:loc">tændte</W>
 <W gloss="the_light" lemma="lys" msd="NCNSU==D" tag="NN" in="-1:dobj" out="">lyset</W>

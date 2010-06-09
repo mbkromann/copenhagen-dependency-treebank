@@ -57,8 +57,8 @@
 <W msd="NC=P" tag="NNS" in="-2:possd" out="-2:{poss}">industries</W>
 <W msd="SP" tag="IN" in="-4:man" out="1:nobj">with</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|2:attr">a</W>
-<W msd="NC=S" tag="NN" in="-1:nobj" out="1:{pos}">kiss</W>
-<W msd="SP" tag="IN" in="-2:attr|-1:{pos}" out="1:nobj">on</W>
+<W msd="NC=S" tag="NN" in="-1:nobj" out="1:{loc}">kiss</W>
+<W msd="SP" tag="IN" in="-2:attr|-1:{loc}" out="1:nobj">on</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">hand</W>
 <W msd="SP" tag="IN" in="-10:goal" out="1:nobj">in</W>
@@ -97,8 +97,8 @@
 <W msd="VA" tag="MD" in="-3:vobj" out="-2:subj|1:vobj">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:man">function</W>
 <W msd="SP" tag="IN" in="-1:man" out="2:nobj">with</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">so</W>
-<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:degr|1:attr|2:nobj">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">so</W>
+<W msd="ANP" tag="JJ" in="-2:nobj" out="-1:quant|1:attr|2:nobj">many</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">different</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">languages</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
@@ -154,17 +154,17 @@
 <s>
 <W msd="NP=S" tag="NNP" in="2:namef" out="1:namef">Mikkel</W>
 <W msd="NP=S" tag="NNP" in="-1:namef" out="">Thorvald</W>
-<W msd="NP=S" tag="NNP" in="" out="-2:namef|1:pnct|2:attr|2:{quant}|5:pnct|8:attr|8:{func}|9:pnct|10:attr|10:{origin}|11:pnct|14:qobj">Madsen</W>
+<W msd="NP=S" tag="NNP" in="" out="-2:namef|1:pnct|2:attr|2:{quant}|5:pnct|8:attr|8:{func}|9:pnct|10:attr|10:{source}|11:pnct|14:qobj">Madsen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="-2:attr|-2:{quant}" out="1:nobj">19</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:aobj">years</W>
 <W msd="ANP" tag="JJ" in="-1:aobj" out="">old</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{func}#" out="">high</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{pos}" out="-1:attr|-1:{func}#">school</W>
-<W msd="NC=S" tag="NN" in="-8:attr|-8:{func}" out="-1:attr|-1:{pos}">student</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{loc}" out="-1:attr|-1:{func}#">school</W>
+<W msd="NC=S" tag="NN" in="-8:attr|-8:{func}" out="-1:attr|-1:{loc}">student</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-10:attr|-10:{origin}" out="">Værløse</W>
+<W msd="NP=S" tag="NNP" in="-10:attr|-10:{source}" out="">Værløse</W>
 <W msd="XP" tag="&3a;" in="-11:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>

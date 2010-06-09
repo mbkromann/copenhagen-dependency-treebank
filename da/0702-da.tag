@@ -107,8 +107,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">i</W>
 <W gloss="this" lemma="denne" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">denne</W>
 <W gloss="biography" lemma="biografi" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">biografi</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:struct|2:vobj|4:pnct">har</W>
-<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:struct" out="">imidlertid</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-7:subj|1:scene|2:vobj|4:pnct">har</W>
+<W gloss="however" lemma="imidlertid" msd="RGU" tag="RP" in="-1:scene" out="">imidlertid</W>
 <W gloss="shocked" lemma="chokere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-9:[subj]|1:dobj">chokeret</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:dobj" out="">mig</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-4:pnct" out="">.</W>
@@ -159,8 +159,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="look" lemma="se" msd="VADR=----A-" tag="VBD" in="" out="-5:cond|1:subj|3:epi|6:aobj|7:avobj|8:pnct">ser</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj" out="">hun</W>
-<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:degr" out="">ganske</W>
-<W gloss="shown" lemma="vist" msd="RGU" tag="RP" in="-3:epi" out="-1:degr">vist</W>
+<W gloss="quite" lemma="ganske" msd="RGU" tag="RP" in="1:quant" out="">ganske</W>
+<W gloss="shown" lemma="vist" msd="RGU" tag="RP" in="-3:epi" out="-1:quant">vist</W>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">20</W>
 <W gloss="years" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="younger" lemma="ung" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-6:aobj" out="-2:other">yngre</W>
@@ -246,8 +246,8 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="who" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj" out="">der</W>
 <W gloss="knew" lemma="vide" msd="VADA=----A-" tag="VBD" in="-3:rel" out="-1:subj|2:dobj">vidste</W>
-<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:degr" out="">for</W>
-<W gloss="much" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-2:dobj" out="-1:degr">meget</W>
+<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:quant" out="">for</W>
+<W gloss="much" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-2:dobj" out="-1:quant">meget</W>
 <W gloss="!" lemma="!" msd="XP" tag="!" in="-13:pnct" out="">!</W>
 </s>
 </p>

@@ -97,8 +97,8 @@
 <W lemma="er" msd="PP" tag="PPER" in="1:subj|15:[subj]" out="">Er</W>
 <W lemma="werden" msd="VA" tag="VAFIN" in="" out="-1:subj|3:man|14:vobj|15:pnct">wurde</W>
 <W lemma="-" msd="XP" tag="$(" in="2:pnct" out="">-</W>
-<W lemma="sehr" msd="RG" tag="ADV" in="1:degr" out="">sehr</W>
-<W lemma="gegen" msd="SP" tag="APPR" in="-3:man" out="-2:pnct|-1:degr|1:nobj|3:pnct">gegen</W>
+<W lemma="sehr" msd="RG" tag="ADV" in="1:quant" out="">sehr</W>
+<W lemma="gegen" msd="SP" tag="APPR" in="-3:man" out="-2:pnct|-1:quant|1:nobj|3:pnct">gegen</W>
 <W lemma="sein" msd="PO" tag="PPOSAT" in="-1:nobj" out="1:possd">seinen</W>
 <W lemma="Wille" msd="NC" tag="NN" in="-1:possd" out="">Willen</W>
 <W lemma="-" msd="XP" tag="$(" in="-3:pnct" out="">-</W>
@@ -115,8 +115,8 @@
 <W lemma="machen" msd="VA" tag="VVFIN" in="" out="-1:subj|1:dobj|2:conc|4:preds|5:pnct">macht</W>
 <W lemma="er" msd="PP" tag="PPER" in="-1:dobj" out="">ihn</W>
 <W lemma="aber" msd="RG" tag="ADV" in="-2:conc" out="">aber</W>
-<W lemma="wirklich" msd="AN" tag="ADJD" in="1:degr" out="">wirklich</W>
-<W lemma="ungehalten" msd="AN" tag="ADJD" in="-4:preds" out="-1:degr">ungehalten</W>
+<W lemma="wirklich" msd="AN" tag="ADJD" in="1:quant" out="">wirklich</W>
+<W lemma="ungehalten" msd="AN" tag="ADJD" in="-4:preds" out="-1:quant">ungehalten</W>
 <W lemma="." msd="XP" tag="$." in="-5:pnct" out="">.</W>
 </s>
 </p>
@@ -130,8 +130,8 @@
 <W lemma="er" msd="PP" tag="PPER" in="-1:subj" out="8:pnct|9:modp|9:{elab}">er</W>
 <W lemma="unter" msd="SP" tag="APPR" in="-2:loc" out="1:nobj">unter</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:nobj" out="4:attr|5:nobj">der</W>
-<W lemma="mehrere" msd="PI" tag="PIAT" in="1:degr" out="">mehrere</W>
-<W lemma="hundert" msd="AC" tag="CARD" in="2:attr|2:{quant}" out="-1:degr|1:nobj">hundert</W>
+<W lemma="mehrere" msd="PI" tag="PIAT" in="1:quant" out="">mehrere</W>
+<W lemma="hundert" msd="AC" tag="CARD" in="2:attr|2:{quant}" out="-1:quant|1:nobj">hundert</W>
 <W lemma="Jahr" msd="NC" tag="NN" in="-1:nobj" out="">Jahre</W>
 <W lemma="alt" msd="AN" tag="ADJA" in="-4:attr" out="-2:attr|-2:{quant}">alten</W>
 <W lemma="Eiche" msd="NC" tag="NN" in="-5:nobj" out="">Eiche</W>

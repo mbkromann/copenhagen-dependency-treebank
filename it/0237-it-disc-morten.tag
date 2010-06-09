@@ -38,9 +38,9 @@
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="" out="">scansionate</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="libro" msd="NC" tag="NOM" in="" out="">libro</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-36:JOINT" out="32:CONJ/inoltre">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-36:JOINT" out="32:CONJ&3a;add/inoltre">sono</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="" out="">state</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="corredare" msd="VAP" tag="VER&3a;pper" in="" out="">corredate</W>
 <W lemma="da" msd="SP" tag="PRE" in="" out="">da</W>
 <W lemma="linea" msd="NC" tag="NOM" in="" out="">linee</W>
@@ -70,7 +70,7 @@
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="libro" msd="NC" tag="NOM" in="" out="">libro</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-32:CONJ/inoltre" out="25:+CONJ/(e)">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-32:CONJ&3a;add/inoltre" out="25:+CONJ&3a;add/(e)">sono</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="" out="">inoltre</W>
 <W lemma="illustrare" msd="VAP" tag="VER&3a;pper" in="" out="">illustrati</W>
 <W lemma="con" msd="SP" tag="PRE" in="" out="">con</W>
@@ -95,13 +95,13 @@
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">Diverse</W>
 <W lemma="ipotesi&7c;ipoteso" msd="NC" tag="NOM" in="" out="">ipotesi</W>
 <W lemma="tradizionale" msd="AN" tag="ADJ" in="" out="">tradizionali</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ/(e)" out="6:&3a;CONST&3a;exem/p.es">hanno</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ&3a;add/(e)" out="6:&3a;CONST&3a;exem/p.es">hanno</W>
 <W lemma="trovare" msd="VAP" tag="VER&3a;pper" in="" out="">trovato</W>
 <W lemma="confermare" msd="VAM" tag="VER&3a;impe" in="" out="">conferma</W>
 <W lemma="&3a;" msd="XP" tag="PON" in="" out="">:</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="esempio" msd="NC" tag="NOM" in="" out="">esempio</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:&3a;CONST&3a;exem/p.es" out="44:+CONJ/inoltre/ATTR">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-6:&3a;CONST&3a;exem/p.es" out="44:+CONJ&3a;add/inoltre/ATTR">è</W>
 <W lemma="chiaro" msd="AN" tag="ADJ" in="" out="">chiaro</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="in" msd="SP" tag="PRE" in="" out="">in</W>
@@ -145,7 +145,7 @@
 <s>
 <W lemma="lasso" msd="AN" tag="ADJ" in="" out="">Lasse</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Hessel</W>
-<W lemma="presentare" msd="VADR" tag="VER&3a;pres" in="-44:+CONJ/inoltre/ATTR" out="-9:+SCENE|22:CONST&3a;exem/p.es">presenta</W>
+<W lemma="presentare" msd="VADR" tag="VER&3a;pres" in="-44:+CONJ&3a;add/inoltre/ATTR" out="-9:+SCENE|22:CONST&3a;exem/p.es">presenta</W>
 <W lemma="inoltre" msd="RG" tag="ADV" in="" out="">inoltre</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="paio" msd="NC" tag="NOM" in="" out="">paio</W>
@@ -167,7 +167,7 @@
 <W lemma="parte" msd="NC" tag="NOM" in="" out="">parte</W>
 <W lemma="anteriore" msd="AN" tag="ADJ" in="" out="">anteriore</W>
 <W lemma=")" msd="XP" tag="PON" in="" out="">)</W>
-<W lemma="rimanere" msd="VADR" tag="VER&3a;pres" in="-22:CONST&3a;exem/p.es" out="19:CONJ/inotlre">rimane</W>
+<W lemma="rimanere" msd="VADR" tag="VER&3a;pres" in="-22:CONST&3a;exem/p.es" out="19:CONJ&3a;add/inotlre">rimane</W>
 <W lemma="completamente" msd="RG" tag="ADV" in="" out="">completamente</W>
 <W lemma="passivo" msd="AN" tag="ADJ" in="" out="">passiva</W>
 <W lemma="durante" msd="SP" tag="PRE" in="" out="">durante</W>
@@ -186,7 +186,7 @@
 <W lemma="già" msd="RG" tag="ADV" in="" out="">già</W>
 <W lemma="avere" msd="VAP" tag="VER&3a;pper" in="" out="">avuto</W>
 <W lemma="figlio" msd="NC" tag="NOM" in="" out="">figli</W>
-<W lemma="tendere" msd="VADR" tag="VER&3a;pres" in="-19:CONJ/inotlre" out="22:AGENTIVE&3a;expl/(infatti)">tendono</W>
+<W lemma="tendere" msd="VADR" tag="VER&3a;pres" in="-19:CONJ&3a;add/inotlre" out="22:AGENTIVE&3a;expl/(infatti)">tendono</W>
 <W lemma="ad" msd="SP" tag="PRE" in="" out="">ad</W>
 <W lemma="avere&7c;riavere" msd="VAF" tag="VER&3a;infi" in="" out="">avere</W>
 <W lemma="una" msd="PI" tag="DET&3a;indef" in="" out="">una</W>

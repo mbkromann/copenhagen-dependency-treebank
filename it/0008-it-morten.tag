@@ -121,8 +121,8 @@
 <s>
 <W lemma="vent'" msd="AN" tag="ADJ" in="7:time" out="1:nobj|4:pnct">Vent'</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="2:time">anni</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="-2:time" out="-1:degr">tardi</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="-2:time" out="-1:quant">tardi</W>
 <W lemma="," msd="XP" tag="PON" in="-4:pnct" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="2:subj" out="1:nobj">Indre</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Mission</W>
@@ -173,7 +173,7 @@
 <s>
 <W lemma="infatti" msd="RG" tag="ADV" in="1:prg" out="">Infatti</W>
 <W lemma="essere" msd="VADA" tag="VER&3a;impf" in="" out="-1:prg|1:preds|24:pnct">era</W>
-<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="3:conj|9:ben">candidato</W>
+<W lemma="candidato" msd="NC" tag="NOM" in="-1:preds" out="3:conj|9:goal">candidato</W>
 <W lemma="," msd="XP" tag="PON" in="2:pnct" out="">,</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="uno" msd="PI" tag="DET&3a;indef" in="-3:conj" out="-1:coord|-2:pnct|1:attr|5:pnct">uno</W>
@@ -182,7 +182,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="-1:pobj|-1:{arg}" out="1:nobj">dell'</W>
 <W lemma="iniziativa" msd="NC" tag="NOM" in="-1:nobj" out="">iniziativa</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="per" msd="SP" tag="PRE" in="-9:ben" out="1:nobj">per</W>
+<W lemma="per" msd="SP" tag="PRE" in="-9:goal" out="1:nobj">per</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj|3:ref|4:relr">la</W>
 <W lemma="collaborazione" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">collaborazione</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:attr" out="">grundtvigiana-socialdemocratica</W>

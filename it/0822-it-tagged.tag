@@ -25,7 +25,7 @@
 <W lemma="non" msd="RG" tag="ADV" in="" out="">non</W>
 <W lemma="vi" msd="PR" tag="PRO:refl" in="" out="">vi</W>
 <W lemma="essere" msd="VADR" tag="VER:cpre" in="" out="">siano</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="più" msd="RG" tag="ADV" in="" out="">più</W>
 <W lemma="informazione" msd="NC" tag="NOM" in="" out="">informazioni</W>
 <W lemma="dal" msd="SP+P" tag="PRE:det" in="" out="">dal</W>

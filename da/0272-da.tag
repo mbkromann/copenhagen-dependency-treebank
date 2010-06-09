@@ -41,9 +41,9 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="As" lemma="som" msd="U=" tag="WDT" in="2:comp" out="1:nobj">Som</W>
+<W gloss="As" lemma="som" msd="U=" tag="WDT" in="2:resem" out="1:nobj">Som</W>
 <W gloss="thanks" lemma="tak" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tak</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-2:comp|2:subj|3:vobj|28:pnct">kan</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-2:resem|2:subj|3:vobj|28:pnct">kan</W>
 <W gloss="young" lemma="ung" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">unge</W>
 <W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="-2:subj|1:[subj]" out="-1:attr">kvinder</W>
 <W gloss="save" lemma="redde" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-1:[subj]|1:iobj|2:dobj|11:coord">redde</W>
@@ -107,8 +107,8 @@
 <W gloss="plastic_cups" lemma="plasticbæger" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">plasticbægre</W>
 <W gloss="maintain" lemma="opretholde" msd="VADR=----A-" tag="VBD" in="-15:rel" out="-11:subj|-10:conc|1:dobj">opretholder</W>
 <W gloss="an" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj|4:man">en</W>
-<W gloss="whole" lemma="hel" msd="XX" tag="FW" in="1:degr" out="">hel</W>
-<W gloss="incredible" lemma="utrolig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">utrolig</W>
+<W gloss="whole" lemma="hel" msd="XX" tag="FW" in="1:quant" out="">hel</W>
+<W gloss="incredible" lemma="utrolig" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">utrolig</W>
 <W gloss="discipline" lemma="disciplin" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">disciplin</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-4:man" out="1:nobj">med</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">den</W>

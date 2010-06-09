@@ -99,8 +99,8 @@
 <W lemma="fijo" msd="AN" tag="ADJ" in="-1:attrr#" out="1:pnct">fijo</W>
 <W lemma="." msd="XP" tag="FS" in="-1:pnct" out="">.</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="2:preds|3:pobj|5:pnct">“Estamos</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="contento" msd="AN" tag="ADJ" in="-2:preds" out="-1:degr">contentos</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="contento" msd="AN" tag="ADJ" in="-2:preds" out="-1:quant">contentos</W>
 <W lemma="con" msd="SP" tag="SCENE" in="-3:pobj" out="1:nobj">con</W>
 <W lemma="l" msd="PP" tag="PPX" in="-1:nobj" out="">ella</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
@@ -122,8 +122,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">confitero</W>
 <W lemma="." msd="XP" tag="FS" in="-3:pnct" out="">.</W>
-<W lemma="hacer" msd="VAD" tag="VLfin" in="5:time" out="1:ext|2:pnct">Hace</W>
-<W lemma="poco" msd="RG" tag="ADV" in="-1:ext" out="">poco</W>
+<W lemma="hacer" msd="VAD" tag="VLfin" in="5:time" out="1:time|2:pnct">Hace</W>
+<W lemma="poco" msd="RG" tag="ADV" in="-1:time" out="">poco</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="2:subj" out="1:possd">su</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:possd" out="">alegría</W>
@@ -183,8 +183,8 @@
 <W lemma="fijo" msd="AN" tag="ADJ" in="-1:attr" out="">fijo</W>
 <W lemma="." msd="XP" tag="FS" in="-9:pnct" out="">.</W>
 <W lemma="yo" msd="PP" tag="PPX" in="1:iobj" out="">Me</W>
-<W lemma="alegrar" msd="VAD" tag="VLfin" in="9:qobj" out="-1:iobj|1:degr|2:subj|8:pnct">alegro</W>
-<W lemma="mucho" msd="RG" tag="ADV" in="-1:degr" out="">mucho</W>
+<W lemma="alegrar" msd="VAD" tag="VLfin" in="9:qobj" out="-1:iobj|1:quant|2:subj|8:pnct">alegro</W>
+<W lemma="mucho" msd="RG" tag="ADV" in="-1:quant" out="">mucho</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-2:subj" out="2:vobj">de</W>
 <W lemma="no" msd="U=" tag="NEG" in="1:neg" out="">no</W>
 <W lemma="tener~que" msd="VAF" tag="VMinf" in="-2:vobj" out="-1:neg|1:vobj">tener que</W>

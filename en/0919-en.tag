@@ -1,8 +1,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">traffic</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:degr|2:pnct">stops</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">completely</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:quant|2:pnct">stops</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">completely</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
@@ -90,8 +90,8 @@
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">driver</W>
 <W msd="VADR" tag="VBZ" in="" out="-2:subj|2:preds|3:pnct|5:conj|16:pnct">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="RB" in="-2:preds" out="-1:degr">alone</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="RB" in="-2:preds" out="-1:quant">alone</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADR" tag="VBZ" in="-5:conj" out="-1:subj|1:@dir|4:mod">runs</W>
@@ -111,12 +111,12 @@
 <W msd="PI" tag="DT" in="3:tobj" out="1:attr|2:nobj">A</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">short</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">time</W>
-<W msd="ANP" tag="RB" in="5:succ" out="-3:tobj|1:pnct">later</W>
+<W msd="ANP" tag="RB" in="5:time" out="-3:tobj|1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="AC" tag="CD" in="3:subj" out="1:mod|2:nobj|5:mod">two</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">uniformed</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="">officers</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:pnct|14:pnct|-5:succ">arrive</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:pnct|14:pnct|-5:time">arrive</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="VAG" tag="VBG" in="-5:mod" out="1:iobj|2:dobj|6:conj">ordering</W>
 <W msd="NC=P" tag="NNS" in="-1:iobj|2:[subj]" out="">people</W>
@@ -230,8 +230,8 @@
 <s>
 <W msd="PD" tag="DT" in="2:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">end</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:degr|2:pobj|9:pnct">sounds</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">almost</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|1:quant|2:pobj|9:pnct">sounds</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">almost</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="2:nobj">like</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:pnct|1:@dir|4:pnct">sailing</W>

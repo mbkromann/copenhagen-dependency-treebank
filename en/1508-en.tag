@@ -53,8 +53,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="ANP" tag="JJ" in="1:subj" out="">many</W>
 <W msd="VADA" tag="VBD" in="-28:conj" out="-1:subj|-2:coord|2:preds">were</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">comfortable</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">comfortable</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="">this</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
@@ -63,7 +63,7 @@
 <W msd="PT" tag="WRB" in="22:mod" out="3:vobj">When</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Andrew</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Morton</W>
-<W msd="VAF" tag="VB" in="-3:vobj" out="-1:subj|1:dobj|9:preds|14:succ|15:pnct">put</W>
+<W msd="VAF" tag="VB" in="-3:vobj" out="-1:subj|1:dobj|9:preds|14:time|15:pnct">put</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="2:possd">his</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:possd" out="-1:pnct|1:pnct|2:conj|5:pnct">Diana</W>
@@ -77,7 +77,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">street</W>
 <W msd="AC" tag="CD" in="2:tobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">months</W>
-<W msd="ANP" tag="RB" in="-14:succ" out="-2:tobj">later</W>
+<W msd="ANP" tag="RB" in="-14:time" out="-2:tobj">later</W>
 <W msd="XP" tag="," in="-15:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">tone</W>
@@ -185,12 +185,12 @@
 <W msd="NP=S" tag="NNP" in="3:subj" out="-1:title|2:conj">Hewitt</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NP=S" tag="NNP" in="-2:conj" out="-1:coord">Diana</W>
-<W msd="VAF" tag="VB" in="" out="-3:subj|1:dobj|3:man|4:pnct|5:reas|36:conj|41:pnct">know</W>
+<W msd="VAF" tag="VB" in="" out="-3:subj|1:dobj|3:man|4:pnct|5:cause|36:conj|41:pnct">know</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">each</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="">other</W>
 <W msd="ANP" tag="RB" in="-3:man" out="">well</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-5:reas" out="1:pnct|7:vobj">because</W>
+<W msd="CS" tag="IN" in="-5:cause" out="1:pnct|7:vobj">because</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="5:mod" out="1:nobj|3:pnct">among</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">other</W>

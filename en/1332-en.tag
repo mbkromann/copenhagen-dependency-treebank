@@ -5,10 +5,10 @@
 <W msd="SP" tag="IN" in="-1:avobj" out="">out</W>
 <W msd="ANP" tag="JJ" in="-2:mod" out="">hard</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-6:[subj]|-1:coord|1:dobj|3:degr">harassed</W>
+<W msd="VADA" tag="VBD" in="-4:conj" out="-6:[subj]|-1:coord|1:dobj|3:quant">harassed</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">our</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">players</W>
-<W msd="ANC" tag="JJR" in="-3:degr" out="1:pobj">more</W>
+<W msd="ANC" tag="JJR" in="-3:quant" out="1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="2:vobj">than</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:pobj">care</W>
@@ -21,10 +21,10 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">switch</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">in</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">goalkeepers</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-4:subj|1:dobj|3:degr">changed</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-4:subj|1:dobj|3:quant">changed</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">storyline</W>
-<W msd="ANP" tag="RB" in="-3:degr" out="">completely</W>
+<W msd="ANP" tag="RB" in="-3:quant" out="">completely</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>
 <s>
@@ -72,8 +72,8 @@
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">situations</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-5:ref|1:subj" out="">which</W>
-<W msd="VADR" tag="VBP" in="-6:rel" out="-1:subj|2:preds|3:pnct|1:ext">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">rarely</W>
+<W msd="VADR" tag="VBP" in="-6:rel" out="-1:subj|2:preds|3:pnct|1:time">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">rarely</W>
 <W msd="ANP" tag="JJ" in="-2:preds" out="">profitable</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="" out="-12:subj|1:pobj|7:pnct|8:time|24:pnct">resulted</W>

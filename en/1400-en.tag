@@ -193,7 +193,7 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">things</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADR" tag="VBZ" in="" out="-6:pnct|-1:subj|-5:mod|1:iobj|2:dobj|13:pnct|14:reas|25:pnct">asks</W>
+<W msd="VADR" tag="VBZ" in="" out="-6:pnct|-1:subj|-5:mod|1:iobj|2:dobj|13:pnct|14:cause|25:pnct">asks</W>
 <W msd="PP" tag="PRP" in="-1:iobj|2:[subj]" out="">us</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">buy</W>
@@ -207,7 +207,7 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-8:conj" out="-1:coord">margarine</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-14:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-14:cause" out="3:vobj">because</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]|5:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">prisoners</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:add|2:vobj">have</W>
@@ -228,8 +228,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="5:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="26:qobj" out="-5:mod|-1:subj|1:vobj|7:pnct|10:conj|24:pnct|25:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:preds">become</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">difficult</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">difficult</W>
 <W msd="U=" tag="TO" in="-5:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">get</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">food</W>

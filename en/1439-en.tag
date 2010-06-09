@@ -50,10 +50,10 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="" out="-5:mod|-1:subj|1:vobj|13:pnct#|14:pnct">don't</W>
-<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:pobj|3:reas">play</W>
+<W msd="NC=S" tag="NN" in="-1:vobj" out="-2:[subj]|1:pobj|3:cause">play</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">people</W>
-<W msd="CS" tag="IN" in="-3:reas" out="1:vobj|5:conj">because</W>
+<W msd="CS" tag="IN" in="-3:cause" out="1:vobj|5:conj">because</W>
 <W msd="NC=S" tag="NN" in="-1:vobj" out="1:preds|2:pnct">they're</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">famous</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -69,8 +69,8 @@
 <W msd="CC" tag="CC" in="" out="2:conj|30:pnct">And</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Lofgren</W>
 <W msd="VADR" tag="VBZ" in="-2:conj" out="-1:subj|2:vobj">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|-1:degr|1:pobj">honoured</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|-1:quant|1:pobj">honoured</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">at</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:pobj">playing</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -146,8 +146,8 @@
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="5:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-7:conj" out="-1:subj|-3:coord|3:vobj|-2:contr">is</W>
 <W msd="PD" tag="DT" in="1:mod" out="">all</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:mod">too</W>
-<W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|-1:degr">overlooked</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:mod">too</W>
+<W msd="VAP" tag="VBN" in="-3:vobj" out="-4:[subj]|-1:quant">overlooked</W>
 <W msd="SP" tag="IN" in="-5:nobj" out="4:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Nils</W>
 <W msd="NP=S" tag="NNP" in="2:subj" out="-1:namef">Lofgren</W>

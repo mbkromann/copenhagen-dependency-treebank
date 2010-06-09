@@ -182,7 +182,7 @@
 <W msd="VADA" tag="VBD" in="" out="-1:subj|1:dobj|34:pnct">said</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Milosevic</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:@dir|19:prec">sent</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj|2:@dir|19:time">sent</W>
 <W msd="NC=P" tag="NNS" in="-1:dobj" out="">letters</W>
 <W msd="U=" tag="TO" in="-2:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj|3:pnct|5:appa|8:conj">the</W>
@@ -201,7 +201,7 @@
 <W msd="NP=S" tag="NNP" in="-5:appa" out="-1:namef|1:pnct">Yeltsin</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:tobj" out="">just</W>
-<W msd="CS" tag="IN" in="-19:prec" out="-1:tobj|5:vobj">before</W>
+<W msd="CS" tag="IN" in="-19:time" out="-1:tobj|5:vobj">before</W>
 <W msd="PD" tag="DT" in="4:subj|5:[subj]|7:[subj]" out="3:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="2:mod" out="">UN</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Security</W>

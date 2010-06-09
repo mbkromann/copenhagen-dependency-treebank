@@ -184,10 +184,10 @@
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">particles</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-7:ref|4:subj" out="">which</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="RB" in="2:ext" out="-1:degr">often</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VAF" tag="VB" in="-11:rel" out="-4:subj|-1:degr|-2:ext|1:tobj">exist</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="RB" in="2:time" out="-1:quant">often</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VAF" tag="VB" in="-11:rel" out="-4:subj|-1:quant|-2:time|1:tobj">exist</W>
 <W msd="SP" tag="IN" in="-1:tobj" out="3:nobj">for</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">incredibly</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="-1:mod">short</W>

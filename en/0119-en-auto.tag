@@ -10,8 +10,8 @@
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">computer</W>
 <W msd="NC=S" tag="NN" in="" out="">man</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:degr|1:mod">called</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VADA" tag="VBD" in="-5:vobj" out="-1:quant|1:mod">called</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">say</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="">that</W>
@@ -49,8 +49,8 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct">day</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
-<W msd="VADA" tag="VBD" in="" out="-4:mod|-1:subj|1:ext|2:pnct">called</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VADA" tag="VBD" in="" out="-4:mod|-1:subj|1:time|2:pnct">called</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="&3a;" in="-2:pnct" out="">:</W>
 </s>
 <s>
@@ -104,11 +104,11 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">telephone</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">booth</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VAF" tag="VB" in="-5:conj" out="-9:[subj]|-1:coord|4:succ">call</W>
+<W msd="VAF" tag="VB" in="-5:conj" out="-9:[subj]|-1:coord|4:time">call</W>
 <W msd="PI" tag="DT" in="3:tobj" out="1:mod|2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:mod" out="">half</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">hour</W>
-<W msd="ANP" tag="RB" in="-4:succ" out="-3:tobj">later</W>
+<W msd="ANP" tag="RB" in="-4:time" out="-3:tobj">later</W>
 <W msd="XP" tag="." in="-27:pnct" out="">.</W>
 </s>
 <s>
@@ -139,8 +139,8 @@
 <W msd="NC=S" tag="NN" in="" out="1:pnct|4:qobj">man</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W msd="PT" tag="WRB" in="1:reas" out="">Why</W>
-<W msd="VA" tag="MD" in="-4:qobj" out="-2:pnct|1:subj|3:pnct|-1:reas">should</W>
+<W msd="PT" tag="WRB" in="1:cause" out="">Why</W>
+<W msd="VA" tag="MD" in="-4:qobj" out="-2:pnct|1:subj|3:pnct|-1:cause">should</W>
 <W msd="PP" tag="PRP" in="-1:subj" out="">it</W>
 <W msd="VAF" tag="VB" in="" out="">be</W>
 <W msd="XP" tag="." in="-3:pnct" out="">?</W>
@@ -199,13 +199,13 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">I</W>
 <W msd="VADA" tag="VBD" in="" out="-2:pnct|-1:subj">was</W>
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]">supposed</W>
-<W msd="U=" tag="TO" in="" out="1:vobj|5:pnct|6:reas|17:pnct">to</W>
+<W msd="U=" tag="TO" in="" out="1:vobj|5:pnct|6:cause|17:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@dir">go</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">another</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">telephone</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-6:reas" out="">because</W>
+<W msd="CS" tag="IN" in="-6:cause" out="">because</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">he</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj">was</W>
 <W msd="VAG" tag="VBG" in="" out="-2:[subj]">going</W>
@@ -251,7 +251,7 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">He</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj">was</W>
 <W msd="VAP" tag="VBN" in="" out="-2:[subj]">supposed</W>
-<W msd="U=" tag="TO" in="" out="1:vobj|9:pnct|10:prec|14:pnct">to</W>
+<W msd="U=" tag="TO" in="" out="1:vobj|9:pnct|10:time|14:pnct">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:@loc|5:mod">come</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="1:mod">out</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:nobj">to</W>
@@ -261,7 +261,7 @@
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj">get</W>
 <W msd="NC=S" tag="NN" in="-1:dobj" out="">something</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-10:prec" out="2:vobj">before</W>
+<W msd="CS" tag="IN" in="-10:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">was</W>
 <W msd="ANP" tag="JJ" in="-1:preds" out="">dark</W>

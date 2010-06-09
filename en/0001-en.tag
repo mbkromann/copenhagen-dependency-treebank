@@ -96,8 +96,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|4:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="4:pobj">conditions</W>
-<W msd="VADR" tag="VBP" in="" out="-6:mod|-2:subj|2:vobj|15:pnct|16:pnct|1:ext">are</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-6:mod|-2:subj|2:vobj|15:pnct|16:pnct|1:time">are</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-4:[subj]">created</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="1:nobj|9:conj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -121,7 +121,7 @@
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W msd="XP" tag="&amp;quot;" in="16:pnct" out="">"</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">Precisely</W>
-<W msd="CS" tag="IN" in="14:reas" out="-1:mod|2:vobj">because</W>
+<W msd="CS" tag="IN" in="14:cause" out="-1:mod|2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|4:[subj]" out="">we</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:neg|3:vobj|10:pnct">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="1:focal">not</W>
@@ -135,7 +135,7 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">society</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
-<W msd="VADR" tag="VBP" in="-18:qobj" out="-16:pnct|-1:subj|-14:reas|1:preds|4:pnct">are</W>
+<W msd="VADR" tag="VBP" in="-18:qobj" out="-16:pnct|-1:subj|-14:cause|1:preds|4:pnct">are</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">against</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC" tag="NP--U==-" in="-1:nobj" out="">Duma</W>

@@ -159,8 +159,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Parliament</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PT" tag="WDT" in="-9:ref|6:subj|8:[subj]" out="">which</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="SP" tag="IN" in="4:mod" out="-1:degr|1:nobj">at</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="SP" tag="IN" in="4:mod" out="-1:quant|1:nobj">at</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">late</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">point</W>

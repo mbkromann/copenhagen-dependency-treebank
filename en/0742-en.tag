@@ -190,12 +190,12 @@
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-4:[subj]|1:dobj">protested</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|5:dur">could</W>
+<W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|5:time">could</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj|2:vobj">have</W>
 <W msd="NP=S" tag="NNP" in="-1:dobj|1:[subj]" out="">Einar</W>
 <W msd="VAG" tag="VBG" in="-2:vobj" out="-1:[subj]|1:mod">lying</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">cross-wise</W>
-<W msd="SP" tag="IN" in="-5:dur" out="1:nobj">during</W>
+<W msd="SP" tag="IN" in="-5:time" out="1:nobj">during</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trip</W>
 <W msd="XP" tag="." in="-42:pnct" out="">.</W>

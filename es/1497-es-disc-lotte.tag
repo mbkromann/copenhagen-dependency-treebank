@@ -8,8 +8,8 @@
 <W lemma="septiembre" msd="NC" tag="NC" in="-1:nobj" out="1:attr|1:{time}">septiembre</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:attr|-1:{time}" out="1:nobj">de</W>
 <W lemma="@card@" msd="XS" tag="CODE" in="-1:nobj" out="">1982</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-10:time|1:struct|4:pobj">fue</W>
-<W lemma="en" msd="SP" tag="SCENE" in="-1:struct" out="2:nobj">en</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-10:time|1:scene|4:pobj">fue</W>
+<W lemma="en" msd="SP" tag="SCENE" in="-1:scene" out="2:nobj">en</W>
 <W lemma="grande" msd="AN" tag="ADJ" in="1:attr" out="">gran</W>
 <W lemma="medida" msd="NC" tag="NC" in="-2:nobj" out="-1:attr">medida</W>
 <W lemma="por" msd="SP" tag="SCENE" in="-4:pobj" out="1:nobj">por</W>
@@ -37,10 +37,10 @@
 <W lemma="atascar" msd="VAF" tag="VLadj" in="" out="">atascado</W>
 <W lemma="." msd="XP" tag="FS" in="" out="">.</W>
 <W lemma="pero" msd="CC" tag="CCAD" in="1:diskmark" out="">PERO</W>
-<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-1:diskmark|1:ext|4:preds|11:pnct">fue</W>
-<W lemma="un" msd="PD" tag="ART" in="-1:ext" out="1:nobj">una</W>
-<W lemma="vez" msd="NC" tag="NC" in="-1:nobj" out="1:degr">vez</W>
-<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:degr" out="">más</W>
+<W lemma="ser" msd="VAD" tag="VSfin" in="" out="-1:diskmark|1:time|4:preds|11:pnct">fue</W>
+<W lemma="un" msd="PD" tag="ART" in="-1:time" out="1:nobj">una</W>
+<W lemma="vez" msd="NC" tag="NC" in="-1:nobj" out="1:quant">vez</W>
+<W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-1:quant" out="">más</W>
 <W lemma="un" msd="PD" tag="ART" in="-4:preds" out="1:nobj">un</W>
 <W lemma="error" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pobj">error</W>
 <W lemma="fatal" msd="AN" tag="ADJ" in="-1:attr" out="">fatal</W>
@@ -94,11 +94,11 @@
 <W lemma="descartar" msd="VAF lexical verb infinite" tag="VLinf" in="-2:vobj" out="1:dobj">descartar</W>
 <W lemma="l" msd="PP" tag="PPO" in="-1:dobj" out="">lo</W>
 <W lemma="?" msd="XP" tag="FS" in="" out="">?</W>
-<W lemma="en~todo~caso" msd="RG" tag="ADV" in="4:struct" out="">En todo caso</W>
+<W lemma="en~todo~caso" msd="RG" tag="ADV" in="4:scene" out="">En todo caso</W>
 <W lemma="," msd="XP" tag="CM" in="" out="">,</W>
 <W lemma="suyo" msd="PP" tag="PPO" in="" out="">su</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="1:subj" out="">formación</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:struct|-1:subj|1:preds">significó</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="" out="-4:scene|-1:subj|1:preds">significó</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="1:nobj">el</W>
 <W lemma="comienzo" msd="NC" tag="NC" in="-1:nobj" out="1:pobj.dobj|1:{patient}|61:fpredo">comienzo</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
@@ -152,8 +152,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:subj" out="1:nobj">el</W>
 <W lemma="gobierno" msd="NC" tag="NC" in="-1:nobj" out="">gobierno</W>
 <W lemma="." msd="XP" tag="FS" in="-11:pnct" out="">.</W>
-<W lemma="mucho" msd="AN" tag="QU" in="1:ext" out="">Mucho</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-8:coref-res" out="-1:ext|1:pobj">más</W>
+<W lemma="mucho" msd="AN" tag="QU" in="1:time" out="">Mucho</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-8:coref-res" out="-1:time|1:pobj">más</W>
 <W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="">lo</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="3:vobj">que</W>
@@ -193,8 +193,8 @@
 <W lemma="juego" msd="NC" tag="NC" in="-1:nobj" out="">juego</W>
 <W lemma="un" msd="PD" tag="ART" in="-3:dobj" out="1:nobj">unas</W>
 <W lemma="propuesta" msd="NC" tag="NC" in="-1:nobj" out="2:attr|3:ref|4:relr">propuestas</W>
-<W lemma="muy" msd="RG" tag="ADV" in="1:degr" out="">muy</W>
-<W lemma="radical" msd="AN" tag="ADJ" in="-2:attr" out="-1:degr">radicales</W>
+<W lemma="muy" msd="RG" tag="ADV" in="1:quant" out="">muy</W>
+<W lemma="radical" msd="AN" tag="ADJ" in="-2:attr" out="-1:quant">radicales</W>
 <W lemma="que" msd="CS" tag="CQUE" in="-3:ref|1:subj" out="">que</W>
 <W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-4:relr" out="-1:subj|1:man|2:dobj">cambiarían</W>
 <W lemma="decisivo" msd="RG" tag="ADV" in="-1:man" out="">decisivamente</W>

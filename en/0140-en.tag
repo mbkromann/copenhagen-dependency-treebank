@@ -50,7 +50,7 @@
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|33:pnct">But</W>
 <W msd="NC=S" tag="NN" in="1:subj|2:[subj]|3:[subj]" out="">someone</W>
-<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:vobj|21:reas">must</W>
+<W msd="VA" tag="MD" in="-2:conj" out="-1:subj|1:vobj|21:cause">must</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-3:[subj]|1:mod|5:dobj">whispered</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -71,7 +71,7 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">global</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">outcry</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-21:reas" out="3:vobj">because</W>
+<W msd="CS" tag="IN" in="-21:cause" out="3:vobj">because</W>
 <W msd="ANP" tag="RB" in="2:man" out="">suddenly</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">people</W>
 <W msd="VADA" tag="VBD" in="-3:vobj" out="-1:subj|-2:man|1:neg|2:vobj">did</W>

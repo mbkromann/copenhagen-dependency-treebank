@@ -42,8 +42,8 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="9:nobj">Det</W>
-<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:ext|2:vobj|7:pnct|18:pnct">har</W>
-<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:ext" out="">altid</W>
+<W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:time|2:vobj|7:pnct|18:pnct">har</W>
+<W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-1:time" out="">altid</W>
 <W gloss="surprised" lemma="overraske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj">overrasket</W>
 <W gloss="people" lemma="folk" msd="NCNPU==I" tag="NNP" in="-1:dobj" out="1:mod">folk</W>
 <W gloss="south" lemma="syd" msd="RGU" tag="RP" in="-1:mod" out="1:pobj">syd</W>
@@ -57,8 +57,8 @@
 <W gloss="could" lemma="kunne" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-2:mod|1:vobj">kunne</W>
 <W gloss="implementing" lemma="gennemføre" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:dobj">gennemføre</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:degr">kort</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="short" lemma="kort" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="-1:quant">kort</W>
 <W gloss="election_campaign" lemma="valgkamp" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">valgkamp</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
@@ -102,8 +102,8 @@
 <s>
 <W gloss="An" lemma="en" msd="PI-CSU--U" tag="DT" in="2:subj" out="1:nobj">En</W>
 <W gloss="election_campaign" lemma="valgkamp" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">valgkamp</W>
-<W gloss="conducted" lemma="føre" msd="VADR=----P-" tag="VBD" in="" out="-2:subj|1:reas|2:mod|6:pnct">føres</W>
-<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="conducted" lemma="føre" msd="VADR=----P-" tag="VBD" in="" out="-2:subj|1:cause|2:mod|6:pnct">føres</W>
+<W gloss="therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-2:mod" out="1:nobj">over</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">en</W>
 <W gloss="long" lemma="lang" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">lang</W>
@@ -154,8 +154,8 @@
 <W gloss="our" lemma="vores" msd="PO1[CN]PUPNF" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">vore</W>
 <W gloss="German" lemma="tysk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">tyske</W>
 <W gloss="citizens" lemma="medborger" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">medborgere</W>
-<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:degr" out="">slet</W>
-<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-7:neg" out="-1:degr">ikke</W>
+<W gloss="even" lemma="slet" msd="RGU" tag="RP" in="1:quant" out="">slet</W>
+<W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-7:neg" out="-1:quant">ikke</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
@@ -208,8 +208,8 @@
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="is" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds|16:conj">er</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:preds" out="2:attr|3:nobj|4:pnct|5:ref|7:rel">et</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">nyt</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="new" lemma="ny" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">nyt</W>
 <W gloss="party" lemma="parti" msd="NCNSU==I" tag="NN" in="-3:nobj" out="">parti</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="that" lemma="der" msd="U=" tag="WDT" in="-5:ref|2:subj|3:[subj]|4:[subj]" out="">der</W>

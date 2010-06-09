@@ -195,8 +195,8 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="2:conj|9:pnct">Or</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">approximately</W>
-<W msd="AC" tag="CD" in="-2:conj" out="2:nobj|3:mod|-1:degr">1,050</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">approximately</W>
+<W msd="AC" tag="CD" in="-2:conj" out="2:nobj|3:mod|-1:quant">1,050</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">square</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">centimetres</W>
 <W msd="SP" tag="IN" in="-3:mod" out="1:nobj">per</W>

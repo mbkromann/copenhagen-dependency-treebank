@@ -54,8 +54,8 @@
 <W gloss="the_ruins" lemma="ruin" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:loc">ruinerne</W>
 <W gloss="of" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Erzincan" lemma="Erzincan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="4:loc">Erzincan</W>
-<W gloss="about" lemma="omkring" msd="SP" tag="IN" in="1:degr" out="">omkring</W>
-<W gloss="575" lemma="575" msd="AC---U=--" tag="CD" in="2:other" out="-1:degr|1:nobj">575</W>
+<W gloss="about" lemma="omkring" msd="SP" tag="IN" in="1:quant" out="">omkring</W>
+<W gloss="575" lemma="575" msd="AC---U=--" tag="CD" in="2:other" out="-1:quant|1:nobj">575</W>
 <W gloss="km" lemma="kilometer" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">km</W>
 <W gloss="east" lemma="øst" msd="RGU" tag="RP" in="-4:loc" out="-2:other|1:pobj">øst</W>
 <W gloss="of" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
@@ -66,28 +66,28 @@
 <p>
 <s>
 <W gloss="It" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="5:nobj">Det</W>
-<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|2:neg|3:preds|11:pnct|12:reas|24:pnct">var</W>
-<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:dur" out="">stadig</W>
+<W gloss="is" lemma="være" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|2:neg|3:preds|11:pnct|12:cause|24:pnct">var</W>
+<W gloss="still" lemma="stadig" msd="RGU" tag="RP" in="-1:time" out="">stadig</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="possible" lemma="mulig" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="">muligt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-5:nobj" out="1:vobj">at</W>
 <W gloss="abandon" lemma="opgive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj">opgive</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">et</W>
-<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:degr" out="">mere</W>
-<W gloss="precise" lemma="præcis" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:degr">præcist</W>
+<W gloss="more" lemma="meget" msd="ANC---=-R" tag="JJR" in="1:quant" out="">mere</W>
+<W gloss="precise" lemma="præcis" msd="ANPNSU=IU" tag="JJ" in="-2:attr" out="-1:quant">præcist</W>
 <W gloss="number" lemma="antal" msd="NCNSU==I" tag="NN" in="-3:nobj" out="1:nobj">antal</W>
 <W gloss="victims" lemma="dødsoffer" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">dødsofre</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-12:reas" out="3:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-12:cause" out="3:vobj">fordi</W>
 <W gloss="many" lemma="mange" msd="ANP[CN]PU=[DI]U" tag="JJ" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">mange</W>
 <W gloss="villages" lemma="landsby" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">landsbyer</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|5:pnct|6:dur">har</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|1:vobj|5:pnct|6:time">har</W>
 <W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:vobj">været</W>
 <W gloss="cut_off" lemma="afskære" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">afskåret</W>
 <W gloss="from" lemma="fra" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">fra</W>
 <W gloss="the_outside_world" lemma="omverden" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">omverdenen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-6:dur" out="2:vobj">siden</W>
+<W gloss="since" lemma="siden" msd="CS" tag="IN" in="-6:time" out="2:vobj">siden</W>
 <W gloss="the_earthquake" lemma="jordskælv" msd="NCNSU==D" tag="NN" in="1:subj" out="">jordskælvet</W>
 <W gloss="hit" lemma="ramme" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj">ramte</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-24:pnct" out="">.</W>
@@ -111,13 +111,13 @@
 <W gloss="journalist" lemma="journalist" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">journalist</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-3:ref|1:subj" out="">der</W>
-<W gloss="erratic" lemma="bevæge" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|6:reas|2:@dir">bevægede</W>
+<W gloss="erratic" lemma="bevæge" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|6:cause|2:@dir">bevægede</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="through" lemma="gennem" msd="SP" tag="IN" in="-2:@dir" out="1:nobj">gennem</W>
 <W gloss="the_ruins" lemma="ruin" msd="NCCPU==D" tag="NNP" in="-1:nobj" out="1:loc">ruinerne</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="Erzincan" lemma="Erzincan" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Erzincan</W>
-<W gloss="for" lemma="efter" msd="SP" tag="IN" in="-6:reas" out="1:nobj">efter</W>
+<W gloss="for" lemma="efter" msd="SP" tag="IN" in="-6:cause" out="1:nobj">efter</W>
 <W gloss="survivors" lemma="overleve" msd="VAPR=[SP][CN][DI]A-U" tag="VBG" in="-1:nobj" out="">overlevende</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-13:pnct" out="">.</W>
 </s>

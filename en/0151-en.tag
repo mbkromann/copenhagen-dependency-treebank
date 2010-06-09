@@ -144,8 +144,8 @@
 <W msd="PT" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">that</W>
 <W msd="VADR" tag="VBP" in="-3:rel" out="-1:subj|1:vobj|7:conj">cannot</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:preds">be</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">French</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">French</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PT" tag="WDT" in="-8:ref|4:dobj" out="">which</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">one</W>

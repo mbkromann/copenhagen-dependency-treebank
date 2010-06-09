@@ -2,8 +2,8 @@
 <W msd="PT" tag="WP" in="3:dobj" out="">What</W>
 <W msd="VADA" tag="VBD" in="" out="1:subj|2:vobj">did</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|-3:dobj|1:prec|8:pnct">do</W>
-<W msd="CS" tag="IN" in="-1:prec" out="2:vobj">before</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:[subj]|-3:dobj|1:time|8:pnct">do</W>
+<W msd="CS" tag="IN" in="-1:time" out="2:vobj">before</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">began</W>
 <W msd="VAG" tag="VBG" in="-1:dobj" out="1:pobj">working</W>
@@ -33,8 +33,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|1:part|3:tobj">took</W>
 <W msd="RG" tag="RP" in="-1:part" out="">up</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:tobj" out="-1:degr|1:mod">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:tobj" out="-1:quant|1:mod">much</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="ANP" tag="JJ" in="-1:possd|-8:pnct#" out="">time.</W>
@@ -59,8 +59,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="2:subj" out="">They</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:ext|1:dobj|2:pnct">say</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-1:time|1:dobj|2:pnct">say</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="">that</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
@@ -100,8 +100,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="-1:namef">Brohus</W>
 <W msd="VADR" tag="VBZ" in="" out="-5:mod|-1:subj|1:neg|3:preds|4:pnct">is</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">unknown</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">entirely</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">unknown</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

@@ -57,8 +57,8 @@
 </p>
 <p>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|11:vobj|20:pnct">skal</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|11:vobj|20:pnct">skal</W>
 <W gloss="the" lemma="den" msd="PD-CSU--U" tag="DT" in="-1:subj|10:[subj]" out="1:attr|2:attr|4:nobj|6:conj">den</W>
 <W gloss="newly_engaged" lemma="nyforlovet" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nyforlovede</W>
 <W gloss="Social_Liberal" lemma="radikal" msd="ANP[CN]SU=DU" tag="JJ" in="-2:attr" out="">radikale</W>
@@ -119,7 +119,7 @@
 <W gloss="If" lemma="hvis" msd="CS" tag="IN" in="22:xtop" out="3:vobj|21:ref">Hvis</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="2:subj|3:[subj]" out="">man</W>
 <W gloss="practically" lemma="nær" msd="ANS---=-R" tag="JJS" in="1:mod" out="">nærmest</W>
-<W gloss="are" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj|7:pnct|8:reas">har</W>
+<W gloss="are" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:mod|1:vobj|7:pnct|8:cause">har</W>
 <W gloss="torn" lemma="rive" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj|4:mod">revet</W>
 <W gloss="totterne" lemma="tot" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">totterne</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-2:pobj" out="1:nobj">af</W>
@@ -127,7 +127,7 @@
 <W gloss="during" lemma="om" msd="SP" tag="IN" in="-4:mod" out="1:nobj">om</W>
 <W gloss="the_day" lemma="dag" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">dagen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-8:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-8:cause" out="2:vobj">fordi</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|2:preds|7:pnct">er</W>
 <W gloss="headlong" lemma="rivende" msd="ANP---=-R" tag="JJ" in="1:mod" out="">rivende</W>

@@ -136,12 +136,12 @@
 <s>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="2:subj" out="1:nobj">Et</W>
 <W gloss="Alimony" lemma="hustrubidrag" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">hustrubidrag</W>
-<W gloss="is_called" lemma="kalde" msd="VADR=----P-" tag="VBD" in="" out="-2:subj|1:dobj|4:pnct|5:reas|20:pnct">kaldes</W>
+<W gloss="is_called" lemma="kalde" msd="VADR=----P-" tag="VBD" in="" out="-2:subj|1:dobj|4:pnct|5:cause|20:pnct">kaldes</W>
 <W gloss="repayment" lemma="tilbagebetaling" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:conj">tilbagebetaling</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
 <W gloss="compensation" lemma="erstatning" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord">erstatning</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="2:vobj">fordi</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="placed" lemma="lægge" msd="VADR=----P-" tag="VBD" in="-2:vobj" out="-1:expl|1:dobj">lægges</W>
 <W gloss="weight" lemma="vægt" msd="NCCSU==I" tag="NN" in="-1:dobj" out="1:pobj">vægt</W>

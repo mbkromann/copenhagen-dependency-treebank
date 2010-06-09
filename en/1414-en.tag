@@ -72,8 +72,8 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="PO" tag="PRP$" in="-3:conj" out="-1:coord|1:possd">her</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">attorney</W>
-<W msd="ANP" tag="RB" in="2:mod" out="1:ext">once</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="2:mod" out="1:time">once</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="VAP" tag="VBN" in="-12:conj" out="-9:mod|-7:subj|-2:mod|1:dobj|3:pobj|8:pnct|11:conj">removed</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
@@ -190,10 +190,10 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:nobj">The</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">two</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">children</W>
-<W msd="VADR" tag="VBP" in="" out="-3:subj|1:dobj|3:degr|9:pnct">love</W>
+<W msd="VADR" tag="VBP" in="" out="-3:subj|1:dobj|3:quant|9:pnct">love</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">their</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">grandmother</W>
-<W msd="ANC" tag="JJR" in="-3:degr" out="1:pobj">more</W>
+<W msd="ANC" tag="JJR" in="-3:quant" out="1:pobj">more</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">than</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:mod">anything</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
@@ -223,9 +223,9 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">warmth</W>
 <W msd="PP" tag="PRP" in="3:subj" out="">you</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">rarely</W>
-<W msd="VAF" tag="VB" in="-6:rel" out="-6:[dobj]|-3:subj|-2:degr|-1:ext">meet</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
+<W msd="ANP" tag="RB" in="1:time" out="">rarely</W>
+<W msd="VAF" tag="VB" in="-6:rel" out="-6:[dobj]|-3:subj|-2:quant|-1:time">meet</W>
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>

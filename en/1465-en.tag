@@ -19,8 +19,8 @@
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="7:time" out="2:vobj|4:pnct">when</W>
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Parliament</W>
-<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:ext">convenes</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">again</W>
+<W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|1:time">convenes</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">again</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PO" tag="PRP$" in="2:subj|3:[subj]" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">party</W>
@@ -205,8 +205,8 @@
 <W msd="VA" tag="MD" in="-2:vobj" out="-1:subj|1:vobj|5:pnct|6:cond">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|3:preds">be</W>
 <W msd="ANP" tag="RB" in="1:mod" out="">far</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="-1:mod">more</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr">effective</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="-1:mod">more</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant">effective</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-6:cond" out="2:vobj">if</W>
 <W msd="NC=P" tag="NNS" in="1:subj|3:[subj]" out="">doctors</W>

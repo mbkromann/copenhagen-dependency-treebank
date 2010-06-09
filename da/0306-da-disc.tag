@@ -65,8 +65,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:degr" out="">Kun</W>
-<W gloss="Weekly_Magazine's" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="3:subj|4:[subj]" out="-1:degr|1:appr|2:possd">Ugemagasinet</W>
+<W gloss="Only" lemma="kun" msd="RGU" tag="RP" in="1:quant" out="">Kun</W>
+<W gloss="Weekly_Magazine's" lemma="ugemagasin" msd="NCNSU==D" tag="NN" in="3:subj|4:[subj]" out="-1:quant|1:appr|2:possd">Ugemagasinet</W>
 <W gloss="SUNDAY" lemma="søndag" msd="NCCSG==I" tag="NN" in="-1:appr" out="">SØNDAG's</W>
 <W gloss="doctors" lemma="læge" msd="NCCPU==I" tag="NNP" in="-2:possd" out="">læger</W>
 <W gloss="may" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct">må</W>
@@ -79,8 +79,8 @@
 <W gloss="NB" lemma="observere" msd="VAM-=------" tag="VB" in="" out="1:pnct|3:xpl">OBS</W>
 <W gloss="&3a;" lemma="&3a;" msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
 <W gloss="the_doctors" lemma="læge" msd="NCCPU==D" tag="NNP" in="1:subj|4:[subj]" out="">Lægerne</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="-1:subj|1:att|2:neg|3:vobj|9:pnct">kan</W>
-<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="-1:att" out="">desværre</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:xpl" out="-1:subj|1:eval|2:neg|3:vobj|9:pnct">kan</W>
+<W gloss="Unfortunately" lemma="desværre" msd="RGU" tag="RP" in="-1:eval" out="">desværre</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
 <W gloss="take_upon" lemma="påtage" msd="VAF-=----A-" tag="VB" in="-3:vobj" out="-4:[subj]|1:iobj|2:dobj">påtage</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:iobj" out="">sig</W>
@@ -134,8 +134,8 @@
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="-3:nobj">på</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="-2:loc" out="">her</W>
 <W gloss="-" lemma="-" msd="XP" tag="-" in="-3:pnct" out=""> - </W>
-<W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:ext" out="">bl.a.</W>
-<W gloss="whether" lemma="om" msd="CS" tag="IN" in="-12:modp" out="-1:ext|2:vobj">om</W>
+<W gloss="among_other_things" lemma="blandt_andet" msd="RGU" tag="RP" in="1:time" out="">bl.a.</W>
+<W gloss="whether" lemma="om" msd="CS" tag="IN" in="-12:modp" out="-1:time|2:vobj">om</W>
 <W gloss="hormones" lemma="hormon" msd="NCNPU==I" tag="NNP" in="1:subj|2:[subj]" out="">hormoner</W>
 <W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">kan</W>
 <W gloss="replace" lemma="erstatte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">erstatte</W>
@@ -248,8 +248,8 @@
 <W gloss="might" lemma="måtte" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:vobj">måtte</W>
 <W gloss="be" lemma="være" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]">være</W>
 <W gloss="for" lemma="for" msd="SP" tag="IN" in="-5:pobj" out="1:nobj">for</W>
-<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:degr">kvinder</W>
-<W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:degr" out="1:nobj">over</W>
+<W gloss="women" lemma="kvinde" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:quant">kvinder</W>
+<W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:quant" out="1:nobj">over</W>
 <W gloss="40," lemma="40" msd="AC---U=--" tag="CD" in="-1:nobj" out="1:nobj">40</W>
 <W gloss="the_year" lemma="år" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">år</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-11:pnct" out="">,</W>

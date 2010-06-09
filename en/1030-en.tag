@@ -9,8 +9,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">shift</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj|5:pobj">from</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:attr|3:possd">Altan's</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">slightly</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">introverted</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">slightly</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">introverted</W>
 <W msd="NC=S" tag="NN" in="-3:possd" out="">music</W>
 <W msd="U=" tag="TO" in="-5:pobj" out="1:nobj">to</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:mod|2:nobj">the</W>
@@ -187,8 +187,8 @@
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">marshland</W>
 <W msd="SP" tag="IN" in="-23:mod" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">fascinating</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">fascinating</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">multiplicity</W>
 <W msd="XP" tag="." in="-28:pnct" out="">.</W>
 </s>
@@ -197,8 +197,8 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">soul</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="2:dobj" out="">what</W>
-<W msd="ANC" tag="JJR" in="1:degr" out="">more</W>
-<W msd="VADR" tag="VBP" in="" out="-5:voc|-2:dobj|-1:degr|1:subj|2:vobj|3:pnct">do</W>
+<W msd="ANC" tag="JJR" in="1:quant" out="">more</W>
+<W msd="VADR" tag="VBP" in="" out="-5:voc|-2:dobj|-1:quant|1:subj|2:vobj|3:pnct">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-1:[subj]">want</W>
 <W msd="XP" tag="." in="-3:pnct" out="">?</W>

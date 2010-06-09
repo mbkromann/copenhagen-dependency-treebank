@@ -169,8 +169,8 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|7:pnct">Men</W>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
-<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:degr|2:preds">var</W>
-<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:degr" out="">kun</W>
+<W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:quant|2:preds">var</W>
+<W gloss="only" lemma="kun" msd="RGU" tag="RP" in="-1:quant" out="">kun</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:preds" out="1:attr|2:nobj">en</W>
 <W gloss="half" lemma="halv" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">halv</W>
 <W gloss="truth" lemma="sandhed" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">sandhed</W>

@@ -134,13 +134,13 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">We</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:reas|23:pnct">have</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|6:cause|23:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:dobj">made</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="NP=S" tag="NNP" in="-2:dobj" out="-1:pnct|1:pnct|2:pnct">Chicism</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-2:pnct" out="">"</W>
-<W msd="CS" tag="IN" in="-6:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-6:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]|6:[subj]|9:[subj]|13:[subj]" out="">we</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj|5:pnct|6:conj">to</W>

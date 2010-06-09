@@ -160,8 +160,8 @@
 <W msd="NC=S" tag="NN" in="" out="">price</W>
 <W msd="NC=S" tag="NN" in="" out="">difference</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="2:nobj">at</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="AC" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">three</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="AC" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">three</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">øre</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
@@ -199,8 +199,8 @@
 <W msd="VADR" tag="VBP" in="18:qobj" out="-1:subj|17:pnct">want</W>
 <W msd="U=" tag="TO" in="" out="">to</W>
 <W msd="VAF" tag="VB" in="" out="-3:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">completely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:nobj">sure</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">completely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:nobj">sure</W>
 <W msd="SP" tag="IN" in="-1:nobj" out="4:vobj">that</W>
 <W msd="PD" tag="DT" in="" out="">the</W>
 <W msd="NC=S" tag="NN" in="" out="">car</W>
@@ -229,14 +229,14 @@
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]" out="">Shell</W>
 <W msd="VADA" tag="VBD" in="" out="-1:subj|-3:mod">had</W>
 <W msd="U=" tag="TO" in="" out="1:vobj|16:pnct">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj|6:pnct|7:reas">pull</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|3:lobj|6:pnct|7:cause">pull</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">product</W>
 <W msd="RG" tag="RP" in="-3:lobj" out="1:nobj">off</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">market</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:reas" out="2:vobj">because</W>
+<W msd="CS" tag="IN" in="-7:cause" out="2:vobj">because</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:dobj">damaged</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="">a</W>

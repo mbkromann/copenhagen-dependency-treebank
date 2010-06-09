@@ -1,8 +1,8 @@
 <s>
 <W msd="NC=S" tag="NN" in="1:mod" out="">Family</W>
 <W msd="NC=P" tag="NNS" in="" out="-1:mod|2:list">outbreaks</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:list" out="-1:degr">common</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:list" out="-1:quant">common</W>
 </s>
 <s>
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">Most</W>
@@ -18,11 +18,11 @@
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="4:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="4:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">most</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">cases</W>
-<W msd="VADR" tag="VBP" in="" out="-2:subj|-4:reas|3:preds|4:pnct|5:mod|12:pnct">are</W>
+<W msd="VADR" tag="VBP" in="" out="-2:subj|-4:cause|3:preds|4:pnct|5:mod|12:pnct">are</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">so-called</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">family</W>
 <W msd="NC=P" tag="NNS" in="-3:preds" out="-1:mod|-2:attr">outbreaks</W>
@@ -67,8 +67,8 @@
 </s>
 <s>
 <W msd="NC=S" tag="NN" in="2:subj" out="">Infection</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">often</W>
-<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:ext|1:dobj|3:mod">runs</W>
+<W msd="ANP" tag="RB" in="1:time" out="">often</W>
+<W msd="VADR" tag="VBZ" in="" out="-2:subj|-1:time|1:dobj|3:mod">runs</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:possd">its</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">course</W>
 <W msd="ANP" tag="RB" in="-3:mod" out="">mildly</W>
@@ -93,8 +93,8 @@
 <W msd="NP=S" tag="NNP" in="1:subj" out="">Diarrhea</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|5:pnct|8:conj|15:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr|3:nobj">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">common</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">common</W>
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">symptom</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj" out="">some</W>
@@ -111,9 +111,9 @@
 <s>
 <W msd="PD" tag="DT" in="4:subj" out="1:nobj">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">discomfort</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="RB" in="1:ext" out="-1:degr">often</W>
-<W msd="VADR" tag="VBZ" in="" out="-4:subj|-1:ext|2:tobj|5:pnct">lasts</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="RB" in="1:time" out="-1:quant">often</W>
+<W msd="VADR" tag="VBZ" in="" out="-4:subj|-1:time|2:tobj|5:pnct">lasts</W>
 <W msd="ANP" tag="RB" in="1:attr" out="">only</W>
 <W msd="PI" tag="DT" in="-2:tobj" out="-1:attr|1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">few</W>
@@ -123,8 +123,8 @@
 <s>
 <W msd="XP" tag="&amp;quot;" in="9:pnct" out="">"</W>
 <W msd="SP" tag="IN" in="8:mod" out="3:nobj|4:pnct">In</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="1:attr" out="-1:degr">rare</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="1:attr" out="-1:quant">rare</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr">instances</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="3:subj|4:[subj]|9:[subj]" out="2:nobj">the</W>

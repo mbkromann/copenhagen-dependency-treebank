@@ -109,14 +109,14 @@
 <W msd="PD" tag="DT" in="15:subj" out="1:nobj|2:mod">The</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">trip</W>
 <W msd="CC" tag="CC" in="-2:mod" out="1:nobj">plus</W>
-<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod|10:mod|7:dur">five</W>
+<W msd="AC" tag="CD" in="-1:nobj" out="1:nobj|2:mod|10:mod|7:time">five</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="SP" tag="IN" in="-2:mod" out="">with</W>
 <W msd="VAF" tag="VB" in="" out="">complete</W>
 <W msd="NC=S" tag="NN" in="" out="">room</W>
 <W msd="CC" tag="CC" in="" out="">and</W>
 <W msd="NC=S" tag="NN" in="" out="">board</W>
-<W msd="SP" tag="IN" in="-7:dur" out="2:nobj">during</W>
+<W msd="SP" tag="IN" in="-7:time" out="2:nobj">during</W>
 <W msd="NP=S" tag="NNP" in="1:mod" out="">Christmas</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">week</W>
 <W msd="SP" tag="IN" in="-10:mod" out="1:nobj">at</W>

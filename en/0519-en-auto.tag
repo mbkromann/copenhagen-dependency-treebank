@@ -39,8 +39,8 @@
 <W msd="ANC" tag="RBR" in="" out="-1:mod">more</W>
 <W msd="ANP" tag="JJ" in="" out="">intense</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="ANP" tag="JJ" in="-6:attr" out="-1:degr">erotic</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="ANP" tag="JJ" in="-6:attr" out="-1:quant">erotic</W>
 <W msd="NC=S" tag="NN" in="-7:nobj" out="">expression</W>
 <W msd="XP" tag="," in="-12:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|5:[subj]|12:[subj]" out="">you</W>
@@ -85,8 +85,8 @@
 <W msd="XP" tag="&amp;quot;" in="-1:pnct" out="">"</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADR" tag="VBZ" in="-10:conj" out="-1:subj|1:degr|2:dobj">has</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="">more</W>
+<W msd="VADR" tag="VBZ" in="-10:conj" out="-1:subj|1:quant|2:dobj">has</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="">more</W>
 <W msd="U=" tag="TO" in="-2:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:pobj">do</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
@@ -212,8 +212,8 @@
 <W msd="NC=P" tag="NNS" in="1:subj" out="">people</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj|3:mod">criticise</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">you</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-3:mod" out="-1:degr">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-3:mod" out="-1:quant">much</W>
 <W msd="XP" tag="." in="-11:pnct" out="">?</W>
 <W msd="XP" tag="&amp;quot;" in="-12:pnct" out="">"</W>
 </s>

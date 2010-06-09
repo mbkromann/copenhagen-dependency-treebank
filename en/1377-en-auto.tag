@@ -83,8 +83,8 @@
 <W msd="NC=S" tag="NN" in="" out="">middle</W>
 <W msd="SP" tag="IN" in="" out="1:nobj">of</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:attr|5:nobj|7:mod">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">hectic</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">hectic</W>
 <W msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">trading</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod|-2:pnct|1:pnct">period</W>
@@ -106,8 +106,8 @@
 <s>
 <W msd="PP" tag="PRP" in="3:subj" out="">I</W>
 <W msd="ANP" tag="RB" in="2:mod" out="">probably</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">only</W>
-<W msd="VAF" tag="VB" in="" out="-3:subj|-2:mod|-1:degr|1:dobj|7:focal|8:pnct|9:reas|21:pnct">discover</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">only</W>
+<W msd="VAF" tag="VB" in="" out="-3:subj|-2:mod|-1:quant|1:dobj|7:focal|8:pnct|9:cause|21:pnct">discover</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:pobj">few</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
@@ -116,11 +116,11 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">rumours</W>
 <W msd="PP" tag="PRP" in="-7:focal" out="">myself</W>
 <W msd="XP" tag="," in="-8:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-9:reas" out="4:vobj">because</W>
+<W msd="CS" tag="IN" in="-9:cause" out="4:vobj">because</W>
 <W msd="PP" tag="PRP" in="3:subj" out="">I</W>
-<W msd="ANP" tag="RB" in="2:degr" out="">only</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">rarely</W>
-<W msd="VAF" tag="VB" in="-4:vobj" out="-3:subj|-2:degr|1:dobj|4:mod|-1:ext">buy</W>
+<W msd="ANP" tag="RB" in="2:quant" out="">only</W>
+<W msd="ANP" tag="RB" in="1:time" out="">rarely</W>
+<W msd="VAF" tag="VB" in="-4:vobj" out="-3:subj|-2:quant|1:dobj|4:mod|-1:time">buy</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Turkish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">paper</W>

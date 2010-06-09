@@ -59,8 +59,8 @@
 <W gloss="is_open" lemma="åbne" msd="VADR=----P-" tag="VBD" in="-8:rel" out="-2:mod|-1:expl|1:pobj">åbnes</W>
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="2:attr|3:nobj">en</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="intense" lemma="intens" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:degr">intens</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="intense" lemma="intens" msd="ANPCSU=IU" tag="JJ" in="-2:attr" out="-1:quant">intens</W>
 <W gloss="urbanisation" lemma="bebyggelse" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">bebyggelse</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>

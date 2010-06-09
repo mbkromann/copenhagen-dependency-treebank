@@ -89,7 +89,7 @@
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="" out="2:conj|29:pnct">Men</W>
 <W gloss="someone" lemma="nogen" msd="PI-CSU--U" tag="DT" in="1:subj|2:[subj]|3:[subj]" out="">nogen</W>
-<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:vobj|19:reas">må</W>
+<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:vobj|19:cause">må</W>
 <W gloss="have" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|1:vobj">have</W>
 <W gloss="whispered" lemma="hviske" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:iobj|2:loc|4:pnct|5:dobj">hvisket</W>
 <W gloss="the_general's" lemma="general" msd="NCCSU==D" tag="NN" in="-1:iobj" out="">generalen</W>
@@ -108,7 +108,7 @@
 <W gloss="global" lemma="global" msd="ANPNSU=IU" tag="JJ" in="-1:attr" out="">globalt</W>
 <W gloss="outcry" lemma="ramaskrig" msd="NCNSU==I" tag="NN" in="-2:nobj" out="">ramaskrig</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-9:pnct" out="">,</W>
-<W gloss="because" lemma="for" msd="CC" tag="CC" in="-19:reas" out="2:vobj">for</W>
+<W gloss="because" lemma="for" msd="CC" tag="CC" in="-19:cause" out="2:vobj">for</W>
 <W gloss="suddenly" lemma="pludselig" msd="RGU" tag="RP" in="1:other" out="">pludselig</W>
 <W gloss="did_hear" lemma="høre" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:other|1:subj|2:neg|3:dobj|4:pobj">hørte</W>
 <W gloss="people" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="-1:subj" out="">man</W>

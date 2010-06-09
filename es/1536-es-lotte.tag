@@ -32,15 +32,15 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-1:other" out="1:nobj">de</W>
 <W lemma="cenar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj" out="">cenar</W>
 <W lemma="," msd="XP" tag="CM" in="2:pnct" out="">,</W>
-<W lemma="aproximadamente" msd="RG" tag="ADV" in="1:degr" out="">aproximadamente</W>
-<W lemma="a" msd="SP" tag="SCENE" in="-9:time" out="-2:pnct|-1:degr|1:nobj|4:pnct">a</W>
+<W lemma="aproximadamente" msd="RG" tag="ADV" in="1:quant" out="">aproximadamente</W>
+<W lemma="a" msd="SP" tag="SCENE" in="-9:time" out="-2:pnct|-1:quant|1:nobj|4:pnct">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
 <W lemma="@card@" msd="AC" tag="CARD" in="-1:nobj" out="1:nobj">18.45</W>
 <W lemma="hora" msd="NC" tag="NC" in="-1:nobj" out="">horas</W>
 <W lemma="," msd="XP" tag="CM" in="-4:pnct" out="">,</W>
-<W lemma="pocos" msd="AN" tag="QU" in="2:degr" out="">poco</W>
+<W lemma="pocos" msd="AN" tag="QU" in="2:quant" out="">poco</W>
 <W lemma="&lt;unknown&gt;" msd="RG" tag="ADV" in="" out="">después</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-16:time" out="-2:degr|14:vobj">de</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-16:time" out="-2:quant|14:vobj">de</W>
 <W lemma="que" msd="CS" tag="CQUE" in="" out="">que</W>
 <W lemma="el" msd="PD" tag="ART" in="12:subj" out="1:nobj|4:other|22:assoc-scope|34:assoc-const">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="1:other">avión</W>
@@ -61,12 +61,12 @@
 <W lemma="de" msd="SP" tag="SCENE" in="-2:loc" out="1:nobj">de</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="">Amsterdam</W>
 <W lemma="." msd="XP" tag="FS" in="-36:pnct" out="">.</W>
-<W lemma="de" msd="SP" tag="SCENE" in="5:struct" out="2:pnct">De</W>
+<W lemma="de" msd="SP" tag="SCENE" in="5:scene" out="2:pnct">De</W>
 <W lemma="repente" msd="NC" tag="NC" in="" out="">repente</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
-<W lemma="el" msd="PD" tag="ART" in="-22:assoc-scope|2:subj" out="1:nobj|9:coref|61:coref-id">el</W>
+<W lemma="el" msd="PD" tag="ART" in="-22:assoc-scope|2:subj" out="1:nobj|9:coref|61:coref-iden">el</W>
 <W lemma="piloto" msd="NC" tag="NC" in="-1:nobj" out="">piloto</W>
-<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="-5:struct|-2:subj|1:pobj|6:dobj|26:pnct">comunicó</W>
+<W lemma="&lt;unknown&gt;" msd="VAF" tag="VLadj" in="" out="-5:scene|-2:subj|1:pobj|6:dobj|26:pnct">comunicó</W>
 <W lemma="a" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">a</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-13:assoc-const" out="1:nobj">la</W>
 <W lemma="torre" msd="NC" tag="NC" in="-1:nobj" out="1:goal#">torre</W>
@@ -125,7 +125,7 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj|-28:assoc-const" out="1:nobj">los</W>
 <W lemma="motor" msd="NC" tag="NC" in="-1:nobj" out="">motores</W>
 <W lemma="." msd="XP" tag="FS" in="-5:pnct" out="">.</W>
-<W lemma="el" msd="PD" tag="ART" in="-61:coref-id|2:subj" out="1:nobj">El</W>
+<W lemma="el" msd="PD" tag="ART" in="-61:coref-iden|2:subj" out="1:nobj">El</W>
 <W lemma="piloto" msd="NC" tag="NC" in="-1:nobj|2:[subj]" out="">piloto</W>
 <W lemma="intentar" msd="VAD" tag="VLfin" in="" out="-2:subj|1:vobj|4:pnct|8:conj">intentaba</W>
 <W lemma="enderezar" msd="VAF lexical verb infinite" tag="VLinf" in="-1:vobj" out="-2:[subj]|1:dobj">enderezar</W>

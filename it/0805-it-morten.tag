@@ -14,9 +14,9 @@
 <W lemma="rimpiangere" msd="VAF" tag="VER&3a;infi" in="-2:vobj" out="-13:[subj]|1:elab">rimpiangere</W>
 <W lemma="ciò" msd="PD" tag="PRO&3a;demo" in="-1:elab" out="1:ref|4:relr|7:conj|7:ref">ciò</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="-1:ref|3:subj" out="">che</W>
-<W lemma="più" msd="RG" tag="ADV" in="2:degr" out="">più</W>
+<W lemma="più" msd="RG" tag="ADV" in="2:quant" out="">più</W>
 <W lemma="gli" msd="PP" tag="PRO&3a;pers" in="1:iobj" out="">gli</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:relr" out="-3:subj|-2:degr|-1:iobj|1:preds">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-4:relr" out="-3:subj|-2:quant|-1:iobj|1:preds">è</W>
 <W lemma="congeniale" msd="AN" tag="ADJ" in="-1:preds" out="">congeniale</W>
 <W lemma="e" msd="CS" tag="CON" in="1:coord" out="">e</W>
 <W lemma="cioè" msd="RG" tag="ADV" in="-7:conj|-7:ref" out="-1:coord|1:preds">cioè</W>
@@ -131,8 +131,8 @@
 <W lemma="qualità" msd="NC" tag="NOM" in="-1:nobj" out="">qualità</W>
 <W lemma="," msd="XP" tag="PON" in="-10:pnct" out="">,</W>
 <W lemma="con" msd="SP" tag="PRE" in="-11:man" out="1:nobj">con</W>
-<W lemma="riferimento" msd="NC" tag="NOM" in="-1:nobj" out="1:ext|5:loc|10:pobj">riferimento</W>
-<W lemma="fra" msd="SP" tag="PRE" in="-1:ext" out="1:nobj">fra</W>
+<W lemma="riferimento" msd="NC" tag="NOM" in="-1:nobj" out="1:time|5:loc|10:pobj">riferimento</W>
+<W lemma="fra" msd="SP" tag="PRE" in="-1:time" out="1:nobj">fra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">l'</W>
 <W lemma="altro" msd="AN" tag="ADJ" in="-1:nobj" out="">altro</W>
 <W lemma="," msd="XP" tag="PON" in="1:pnct" out="">,</W>
@@ -175,8 +175,8 @@
 <W lemma="britannico" msd="AN" tag="ADJ" in="-1:attr" out="">britannica</W>
 <W lemma="," msd="XP" tag="PON" in="-2:pnct" out="">,</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-3:appa" out="2:attr">la</W>
-<W lemma="meno" msd="RG" tag="ADV" in="1:degr" out="">meno</W>
-<W lemma="dotare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-1:degr|1:pobj">dotata</W>
+<W lemma="meno" msd="RG" tag="ADV" in="1:quant" out="">meno</W>
+<W lemma="dotare" msd="VAP" tag="VER&3a;pper" in="-2:attr" out="-1:quant|1:pobj">dotata</W>
 <W lemma="tra" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">tra</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="area" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">aree</W>

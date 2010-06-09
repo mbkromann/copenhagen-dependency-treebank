@@ -65,12 +65,12 @@
 <W msd="XP" tag="." in="-18:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="5:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="5:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">ordinary</W>
 <W msd="NC=S" tag="NN" in="2:subj|4:[subj]" out="-1:attr|1:possd">homeowners'</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">insurance</W>
-<W msd="VADR" tag="VBZ" in="16:qobj" out="-2:subj|-5:reas|1:neg|2:vobj">does</W>
+<W msd="VADR" tag="VBZ" in="16:qobj" out="-2:subj|-5:cause|1:neg|2:vobj">does</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-4:[subj]|4:dobj">cover</W>
 <W msd="XP" tag="&amp;quot;" in="3:pnct" out="">"</W>
@@ -132,11 +132,11 @@
 <W msd="PI" tag="DT" in="-1:nobj" out="2:nobj">a</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">video</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:mod">recorder</W>
-<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:vobj|3:pnct|4:cont|23:pnct">had</W>
+<W msd="VADA" tag="VBD" in="" out="-6:subj|1:dobj|2:vobj|3:pnct|4:time|23:pnct">had</W>
 <W msd="PP" tag="PRP" in="-1:dobj|1:[dobj]" out="">it</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-1:[dobj]">stolen</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-4:cont" out="2:vobj">while</W>
+<W msd="CS" tag="IN" in="-4:time" out="2:vobj">while</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>

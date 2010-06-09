@@ -9,8 +9,8 @@
 <W msd="SP" tag="IN" in="-1:pobj" out="2:nobj">of</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">rock</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:mod|2:attr|4:possd">history's</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">ambitious</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">ambitious</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">record</W>
 <W msd="NC=P" tag="NNS" in="-4:possd" out="-1:mod">projects</W>
 <W msd="XP" tag="&3a;" in="-12:pnct" out="">:</W>

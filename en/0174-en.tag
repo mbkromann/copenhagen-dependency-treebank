@@ -59,10 +59,10 @@
 </s>
 <s>
 <W msd="CC" tag="CC" in="" out="4:conj|21:pnct">But</W>
-<W msd="ANP" tag="RB" in="3:succ" out="1:pnct">later</W>
+<W msd="ANP" tag="RB" in="3:time" out="1:pnct">later</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">they</W>
-<W msd="VADA" tag="VBD" in="-4:conj" out="-1:subj|-3:succ|1:dobj">discovered</W>
+<W msd="VADA" tag="VBD" in="-4:conj" out="-1:subj|-3:time|1:dobj">discovered</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="3:vobj">that</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|4:[subj]" out="1:nobj">the</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">million</W>
@@ -87,8 +87,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">interim</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">it</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:subj|-5:mod|1:degr|2:vobj|9:pnct">has</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:subj|-5:mod|1:quant|2:vobj|9:pnct">has</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:@dir">led</W>
 <W msd="U=" tag="TO" in="-1:@dir" out="1:nobj">to</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj">a</W>
@@ -153,14 +153,14 @@
 <W msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="" out="1:mod|3:pnct|4:appa|7:cont|28:pnct">Mostly</W>
+<W msd="ANP" tag="RB" in="" out="1:mod|3:pnct|4:appa|7:time|28:pnct">Mostly</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">in</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
 <W msd="XP" tag="&3a;" in="-3:pnct" out="">:</W>
 <W msd="AC" tag="CD" in="-4:appa" out="1:nobj|2:pnct">100,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">copies</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-7:cont" out="3:vobj">while</W>
+<W msd="CS" tag="IN" in="-7:time" out="3:vobj">while</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">rest</W>
 <W msd="VADR" tag="VBP" in="-3:vobj" out="-2:subj|1:vobj">are</W>
@@ -203,17 +203,17 @@
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|1:mod|3:pnct|4:degr">played</W>
+<W msd="VADA" tag="VBD" in="-5:conj" out="-6:[subj]|1:mod|3:pnct|4:quant">played</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">one</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-4:degr" out="1:nobj">only</W>
-<W msd="U=" tag="TO" in="-1:nobj" out="1:vobj|5:ext">to</W>
+<W msd="ANP" tag="RB" in="-4:quant" out="1:nobj">only</W>
+<W msd="U=" tag="TO" in="-1:nobj" out="1:vobj|5:time">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="1:mod|6:conj">eat</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="1:nobj">three</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">days</W>
-<W msd="ANP" tag="RB" in="-5:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-5:time" out="">again</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VAF" tag="VB" in="-6:conj" out="-1:coord|1:mod|3:pnct|4:mod">play</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">for</W>

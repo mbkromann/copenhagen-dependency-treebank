@@ -24,7 +24,7 @@
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">della</W>
 <W lemma="divisione" msd="NC" tag="NOM" in="" out="">divisione</W>
 <W lemma="danese" msd="AN" tag="ADJ" in="" out="">danese</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-16:+AGENTIVE&3a;expl/(infatti)" out="43:+TELIC&3a;dir/(perciò)">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-16:+AGENTIVE&3a;expl/(infatti)" out="43:+TELIC&3a;cons.dir/(perciò)">sono</W>
 <W lemma="tutto" msd="AN" tag="ADJ" in="" out="">tutti</W>
 <W lemma="d'" msd="SP" tag="PRE" in="" out="">d'</W>
 <W lemma="accordo" msd="NC" tag="NOM" in="" out="">accordo</W>
@@ -67,7 +67,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">le</W>
 <W lemma="parte&7c;parto" msd="NC" tag="NOM" in="" out="">parti</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-43:+TELIC&3a;dir/(perciò)" out="32:+CONJ/inoltre">sono</W>
+<W lemma="essere&7c;sonare" msd="VADR" tag="VER&3a;pres" in="-43:+TELIC&3a;cons.dir/(perciò)" out="32:+CONJ&3a;add/inoltre">sono</W>
 <W lemma="accordare" msd="VAP" tag="VER&3a;pper" in="" out="">accordate</W>
 <W lemma="sul" msd="SP+P" tag="PRE&3a;det" in="" out="">sul</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="" out="">fatto</W>
@@ -99,7 +99,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">il</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">3</W>
 <W lemma="maggio" msd="NC" tag="NOM" in="" out="">maggio</W>
-<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-32:+CONJ/inoltre" out="49:+AGENTIVE&3a;reas/a_causa_di">dovranno</W>
+<W lemma="dovere" msd="VADR" tag="VER&3a;futu" in="-32:+CONJ&3a;add/inoltre" out="49:+AGENTIVE&3a;cause/a_causa_di">dovranno</W>
 <W lemma="avere" msd="VAF" tag="VER&3a;infi" in="" out="">aver</W>
 <W lemma="elaborare" msd="VAP" tag="VER&3a;pper" in="" out="">elaborato</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
@@ -148,7 +148,7 @@
 <W lemma="associazione" msd="NC" tag="NOM" in="" out="">Associazione</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
 <W lemma="divisione" msd="NC" tag="NOM" in="" out="">divisione</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-49:+AGENTIVE&3a;reas/a_causa_di" out="40:CONTR&3a;dir/(ma)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-49:+AGENTIVE&3a;cause/a_causa_di" out="40:CONTR&3a;dir/(ma)">ha</W>
 <W lemma="invitare" msd="VAP" tag="VER&3a;pper" in="" out="">invitato</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">i</W>
 <W lemma="club" msd="NC" tag="NOM" in="" out="">club</W>

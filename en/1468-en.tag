@@ -22,8 +22,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">It</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:preds|4:pnct">is</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:attr">the</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">practical</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">practical</W>
 <W msd="XP" tag="." in="-4:pnct" out="">.</W>
 </s>
 <s>

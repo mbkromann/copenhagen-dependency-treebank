@@ -94,9 +94,9 @@
 <W gloss="remarks" lemma="bemærkning" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">bemærkninger</W>
 <W gloss="Ekstra" lemma="ekstra" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">Ekstra</W>
 <W gloss="Bladet" lemma="blad" msd="NCNSU==D" tag="NN" in="1:subj" out="-1:attr">Bladet</W>
-<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|-4:[dobj]|1:pnct|2:cont">fik</W>
+<W gloss="received" lemma="få" msd="VADA=----A-" tag="VBD" in="-4:rel" out="-1:subj|-4:[dobj]|1:pnct|2:time">fik</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W gloss="when" lemma="da" msd="CS" tag="IN" in="-2:cont" out="3:vobj">da</W>
+<W gloss="when" lemma="da" msd="CS" tag="IN" in="-2:time" out="3:vobj">da</W>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="2:subj" out="">vi</W>
 <W gloss="yesterday" lemma="i_går" msd="RGU" tag="RP" in="1:time" out="">i_går</W>
 <W gloss="took" lemma="tage" msd="VADA=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:time|1:dobj|2:pobj">tog</W>
@@ -155,8 +155,8 @@
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_ministry" lemma="ministerium" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">ministeriet</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-4:neg" out="">ikke</W>
-<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:degr" out="">for</W>
-<W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="-6:preds" out="-1:degr">god</W>
+<W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:quant" out="">for</W>
+<W gloss="good" lemma="god" msd="ANPCSU=IU" tag="JJ" in="-6:preds" out="-1:quant">god</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 <s>
@@ -243,11 +243,11 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-2:ref|1:subj|2:[subj]" out="">der</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-3:rel" out="-1:subj|1:vobj">har</W>
-<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|4:dur">været</W>
+<W gloss="been" lemma="være" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:preds|4:time">været</W>
 <W gloss="up" lemma="oppe" msd="RGU" tag="RP" in="-1:preds" out="1:nobj">oppe</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="vie" lemma="skændes" msd="VEF-=----A-" tag="VB" in="-1:vobj" out="">skændes</W>
-<W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="-4:dur" out="">endnu</W>
+<W gloss="yet" lemma="endnu" msd="RGU" tag="RP" in="-4:time" out="">endnu</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-21:pnct" out="">.</W>
 </s>
 </p>

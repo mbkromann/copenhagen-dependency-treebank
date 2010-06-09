@@ -130,8 +130,8 @@
 <W msd="NC=S" tag="NN" in="-3:nobj" out="">creature</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W msd="PT" tag="WP" in="-5:ref|1:subj" out="">who</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|1:degr">looked</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="4:pobj">more</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|1:quant">looked</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="4:pobj">more</W>
 <W msd="SP" tag="IN" in="" out="1:preds">like</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="1:possd">his</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">sister</W>
@@ -213,8 +213,8 @@
 <W msd="CS" tag="IN" in="-1:preds" out="1:pobj">as</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="2:vobj">if</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">it</W>
-<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:degr|2:preds">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:quant|2:preds">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="ANP" tag="RB" in="-2:preds|2:[mod]" out="2:rel">now</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="-2:rel" out="-2:[mod]|-1:subj|1:dobj">began</W>

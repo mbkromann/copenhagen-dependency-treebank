@@ -175,7 +175,7 @@
 <W gloss="administers" lemma="administrere" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|2:pnct">administrerer</W>
 <W gloss="the_lending_right_fee" lemma="bibliotekspenge" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">bibliotekspengene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="3:subj|8:vobj|13:pnct|14:comp|30:pnct|-8:source">bliver</W>
+<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="3:subj|8:vobj|13:pnct|14:resem|30:pnct|-8:source">bliver</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="" out="">"</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="1:mod" out="">over</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:subj|5:[subj]" out="-1:mod|1:nobj">en</W>
@@ -189,7 +189,7 @@
 <W gloss="new" lemma="ny" msd="ANP[CN]SU=DU" tag="JJ" in="-1:attr" out="">nye</W>
 <W gloss="law" lemma="lov" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">lov</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
-<W gloss="and" lemma="ligesom" msd="CS" tag="IN" in="-14:comp" out="8:vobj">ligesom</W>
+<W gloss="and" lemma="ligesom" msd="CS" tag="IN" in="-14:resem" out="8:vobj">ligesom</W>
 <W gloss="quite_a_few" lemma="adskillig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="7:subj|8:[subj]" out="1:nobj">adskillige</W>
 <W gloss="authors" lemma="forfatter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:pobj">forfattere</W>
 <W gloss="of" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>

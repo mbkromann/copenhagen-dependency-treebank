@@ -45,8 +45,8 @@
 <W msd="ANP" tag="RB" in="-2:focal" out="1:pobj">even</W>
 <W msd="CS" tag="IN" in="-1:pobj" out="3:vobj">though</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">we</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">almost</W>
-<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|-1:degr">thought</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">almost</W>
+<W msd="VADA" tag="VBD" in="-3:vobj" out="-2:subj|2:vobj|-1:quant">thought</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]|4:[subj]" out="">we</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">were</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-2:[subj]|1:dobj">going</W>

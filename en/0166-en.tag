@@ -94,8 +94,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">you</W>
 <W msd="VA" tag="MD" in="" out="-17:mod|-1:subj|1:vobj|9:pnct">can</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|2:preds">be</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">entirely</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">certain</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">entirely</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">certain</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="1:dobj">meeting</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:attr|2:nobj">some</W>
@@ -119,7 +119,7 @@
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-8:ref|2:mod" out="">where</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
-<W msd="VADR" tag="VBP" in="-10:rel" out="-2:mod|-1:subj|-15:mod|-11:mod|1:dobj|7:pnct|8:reas|13:pnct">save</W>
+<W msd="VADR" tag="VBP" in="-10:rel" out="-2:mod|-1:subj|-15:mod|-11:mod|1:dobj|7:pnct|8:cause|13:pnct">save</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="2:attr|5:nobj">an</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
 <W msd="ANP" tag="JJ" in="-2:attr" out="-1:pnct|1:pnct">expensive</W>
@@ -127,7 +127,7 @@
 <W msd="NC=S" tag="NN" in="1:mod" out="">hotel</W>
 <W msd="NC=S" tag="NN" in="-5:nobj" out="-1:mod">stay</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="-8:reas" out="1:vobj">because</W>
+<W msd="CS" tag="IN" in="-8:cause" out="1:vobj">because</W>
 <W msd="NC=S" tag="NN" in="-1:vobj|1:[subj]" out="1:vobj">you're</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-1:[subj]|1:mod">travelling</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">at</W>
@@ -200,8 +200,8 @@
 <W msd="PP" tag="PRP" in="1:subj" out="">we</W>
 <W msd="VADR" tag="VBP" in="-15:conj" out="-9:mod|-1:subj|-10:coord|2:vobj">know</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">you</W>
-<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:ext|2:vobj">can't</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:time|2:vobj">can't</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|3:mod">set</W>
 <W msd="PO" tag="PRP$" in="-1:dobj" out="1:nobj">your</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mind</W>

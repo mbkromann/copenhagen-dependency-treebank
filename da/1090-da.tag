@@ -72,8 +72,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-23:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:cont" out="">Samtidig</W>
-<W gloss="were" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:cont|1:expl|2:mod|4:vobj|15:pnct">er</W>
+<W gloss="At_the_same_time" lemma="samtidig" msd="RGU" tag="RP" in="1:time" out="">Samtidig</W>
+<W gloss="were" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-1:time|1:expl|2:mod|4:vobj|15:pnct">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl|3:[expl]" out="">der</W>
 <W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:mod" out="1:nobj">på</W>
 <W gloss="that_spot" lemma="sted" msd="NCNSU==D" tag="NN" in="-1:nobj" out="">stedet</W>

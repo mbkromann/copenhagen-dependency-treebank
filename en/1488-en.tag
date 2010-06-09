@@ -196,8 +196,8 @@
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Sine</W>
 <W msd="NP=S" tag="NNP" in="-3:dobj" out="-2:title|-1:namef">Diemar</W>
 <W msd="SP" tag="IN" in="-4:pobj" out="3:nobj">for</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="VAP" tag="VBN" in="1:mod" out="-1:degr">detailed</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="VAP" tag="VBN" in="1:mod" out="-1:quant">detailed</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:mod">comments</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="2:coord" out="">but</W>

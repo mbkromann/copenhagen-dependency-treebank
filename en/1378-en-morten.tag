@@ -50,12 +50,12 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">meal</W>
 <W msd="XP" tag="&3a;" in="-7:pnct" out="">-</W>
 <W msd="CC" tag="CC" in="6:coord" out="">and</W>
-<W msd="SP" tag="IN" in="5:ben" out="2:nobj|3:pnct">for</W>
+<W msd="SP" tag="IN" in="5:goal" out="2:nobj|3:pnct">for</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{time}#" out="">between-meal</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{time}#">snacks</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">they</W>
-<W msd="VA" tag="MD" in="-14:conj" out="-6:coord|-5:ben|-1:subj|1:vobj">may</W>
+<W msd="VA" tag="MD" in="-14:conj" out="-6:coord|-5:goal|-1:subj|1:vobj">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:preds">be</W>
 <W msd="PD" tag="DT" in="-1:preds" out="2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">only</W>
@@ -99,8 +99,8 @@
 <W msd="ANS" tag="JJS" in="2:subj" out="1:nobj">Most</W>
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Danes</W>
 <W msd="VADR" tag="VBP" in="" out="-2:subj|2:dobj|16:pnct">eat</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="RB" in="-2:dobj" out="-1:degr|1:attr|3:nobj|4:pnct|5:ref|6:relpa">many</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:dobj" out="-1:quant|1:attr|3:nobj|4:pnct|5:ref|6:relpa">many</W>
 <W msd="VAP" tag="VBN" in="-1:attr" out="">saturated</W>
 <W msd="ANP" tag="JJ" in="1:attr#" out="">fatty</W>
 <W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr#">acids</W>
@@ -109,8 +109,8 @@
 <W msd="VADR" tag="VBP" in="-6:relpa" out="-1:subj|1:vobj">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:@loc">found</W>
 <W msd="SP" tag="IN" in="-1:@loc" out="2:nobj">in</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{origin}#" out="">dairy</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{origin}#|3:conj">products</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{source}#" out="">dairy</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{source}#|3:conj">products</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{const}#" out="">meat</W>
 <W msd="NC=P" tag="NNS" in="-3:conj" out="-1:attr|-1:{const}#|-2:coord">products</W>
@@ -123,13 +123,13 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|14:pnct">are</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|1:pobj">contained</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="7:nobj|9:conj">in</W>
-<W msd="NC=S" tag="NN" in="6:attr|6:{origin}#" out="1:pnct|3:conj|5:conj">corn</W>
+<W msd="NC=S" tag="NN" in="6:attr|6:{source}#" out="1:pnct|3:conj|5:conj">corn</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{origin}#" out="">grape</W>
-<W msd="NC=S" tag="NN" in="-3:conj|3:{origin}#" out="-1:attr|-1:{origin}#">seed</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{source}#" out="">grape</W>
+<W msd="NC=S" tag="NN" in="-3:conj|3:{source}#" out="-1:attr|-1:{source}#">seed</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="NC=S" tag="NN" in="-5:conj|1:{origin}#" out="-1:coord">sunflower</W>
-<W msd="NC=S" tag="NN" in="-7:nobj" out="-6:attr|-6:{origin}#|-3:{origin}#|-1:{origin}#">oil</W>
+<W msd="NC=S" tag="NN" in="-5:conj|1:{source}#" out="-1:coord">sunflower</W>
+<W msd="NC=S" tag="NN" in="-7:nobj" out="-6:attr|-6:{source}#|-3:{source}#|-1:{source}#">oil</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="SP" tag="IN" in="-9:conj" out="-1:coord|2:nobj">in</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">low-fat</W>
@@ -148,8 +148,8 @@
 <W msd="ANP" tag="JJ" in="-2:conj" out="-1:coord">foremost</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="SP" tag="IN" in="-6:@loc" out="2:nobj">in</W>
-<W msd="ANP" tag="JJ" in="1:attr|1:{origin}#" out="">olive</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{origin}#">oil</W>
+<W msd="ANP" tag="JJ" in="1:attr|1:{source}#" out="">olive</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{source}#">oil</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="VADR" tag="VBZ" in="-11:conj" out="-1:coord|1:add|2:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:add" out="">also</W>
@@ -157,8 +157,8 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:attr">the</W>
 <W msd="ANP" tag="JJ" in="1:attr#" out="">fatty</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr#">acid</W>
-<W msd="VAP" tag="VBN" in="-3:attr" out="1:degr|2:loc">eaten</W>
-<W msd="ANS" tag="JJS" in="-1:degr" out="">most</W>
+<W msd="VAP" tag="VBN" in="-3:attr" out="1:quant|2:loc">eaten</W>
+<W msd="ANS" tag="JJS" in="-1:quant" out="">most</W>
 <W msd="SP" tag="IN" in="-2:loc" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|5:relpa">the</W>
 <W msd="ANP" tag="RB" in="-1:nobj" out="">south</W>
@@ -168,11 +168,11 @@
 <W msd="VADR" tag="VBP" in="-5:relpa" out="-1:subj|-2:loc|1:neg|2:vobj">do</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|2:dobj">experience</W>
-<W msd="CS" tag="IN" in="1:degr" out="">as</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr|3:nobj">many</W>
+<W msd="CS" tag="IN" in="1:quant" out="">as</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant|3:nobj">many</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{const}#" out="">heart</W>
-<W msd="NC=S" tag="NN" in="1:attr|1:{pos}#" out="-1:attr|-1:{const}#">vessel</W>
-<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{pos}#">diseases</W>
+<W msd="NC=S" tag="NN" in="1:attr|1:{loc}#" out="-1:attr|-1:{const}#">vessel</W>
+<W msd="NC=P" tag="NNS" in="-3:nobj" out="-1:attr|-1:{loc}#">diseases</W>
 <W msd="XP" tag="." in="-33:pnct" out="">.</W>
 </s>
 <s>
@@ -195,18 +195,18 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:dobj|3:ben|17:pnct">is</W>
+<W msd="VADR" tag="VBZ" in="" out="-1:expl|1:dobj|3:goal|17:pnct">is</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="6:nobj">tendency</W>
-<W msd="SP" tag="IN" in="-3:ben" out="1:nobj">for</W>
-<W msd="PP" tag="PRP" in="-1:nobj|5:[subj]" out="2:attr|2:{pos}">us</W>
+<W msd="SP" tag="IN" in="-3:goal" out="1:nobj">for</W>
+<W msd="PP" tag="PRP" in="-1:nobj|5:[subj]" out="2:attr|2:{loc}">us</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">here</W>
-<W msd="SP" tag="IN" in="-2:attr|-2:{pos}" out="-1:focal|1:nobj">at</W>
+<W msd="SP" tag="IN" in="-2:attr|-2:{loc}" out="-1:focal|1:nobj">at</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">home</W>
 <W msd="U=" tag="TO" in="-6:nobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-5:[subj]|2:dobj|4:source">get</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:degr|1:nobj">much</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="ANP" tag="JJ" in="-2:dobj" out="-1:quant|1:nobj">much</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">protein</W>
 <W msd="SP" tag="IN" in="-4:source" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
@@ -220,9 +220,9 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="1:pobj">due</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="1:nobj">to</W>
 <W msd="PO" tag="PRP$" in="-1:nobj|4:[subj]|4:{agent}" out="3:attr|4:possd">our</W>
-<W msd="PD" tag="DT" in="1:degr" out="">all</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:degr">too</W>
-<W msd="ANP" tag="JJ" in="-3:attr" out="-1:degr">great</W>
+<W msd="PD" tag="DT" in="1:quant" out="">all</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:quant">too</W>
+<W msd="ANP" tag="JJ" in="-3:attr" out="-1:quant">great</W>
 <W msd="NC=S" tag="NN" in="-4:possd" out="-4:[subj]|-4:{agent}|1:pobj.dobj|1:{patient}">consumption</W>
 <W msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">beef</W>

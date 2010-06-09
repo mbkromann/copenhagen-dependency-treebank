@@ -141,9 +141,9 @@
 </s>
 <s>
 <W gloss="The_discussion" lemma="diskussion" msd="NCCSU==D" tag="NN" in="1:subj" out="">Diskussionen</W>
-<W gloss="blazed" lemma="blusse" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:part|2:ext|3:pnct|6:conj|14:pnct">blussede</W>
+<W gloss="blazed" lemma="blusse" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:part|2:time|3:pnct|6:conj|14:pnct">blussede</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-1:part" out="">op</W>
-<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:ext" out="">igen</W>
+<W gloss="again" lemma="igen" msd="RGU" tag="RP" in="-2:time" out="">igen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="Liv" lemma="Liv" msd="NP--U==-" tag="NNP" in="1:subj" out="">Liv</W>
@@ -198,8 +198,8 @@
 <W gloss="Marianne" lemma="Marianne" msd="NP--U==-" tag="NNP" in="-1:subj|2:[subj]" out="">Marianne</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="so" lemma="se" msd="VADA=----A-" tag="VBD" in="-3:conj" out="-2:[subj]|-1:coord|2:aobj|3:avobj">så</W>
-<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="envious" lemma="misundelig" msd="ANPCSU=IU" tag="JJ" in="-2:aobj" out="-1:degr">misundelig</W>
+<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="envious" lemma="misundelig" msd="ANPCSU=IU" tag="JJ" in="-2:aobj" out="-1:quant">misundelig</W>
 <W gloss="in_addition" lemma="ud" msd="RGU" tag="RP" in="-3:avobj" out="">ud</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
@@ -218,8 +218,8 @@
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="-1:other" out="1:nobj">over</W>
 <W gloss="the_plate" lemma="plade" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">pladen</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="forgot" lemma="glemme" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:degr|2:dobj">glemte</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">helt</W>
+<W gloss="forgot" lemma="glemme" msd="VADA=----A-" tag="VBD" in="-11:conj" out="-12:[subj]|-1:coord|1:quant|2:dobj">glemte</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">helt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-2:dobj" out="1:vobj">at</W>
 <W gloss="tell" lemma="fortælle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:iobj|2:pnct|3:dobj">fortælle</W>
 <W gloss="Liv" lemma="Liv" msd="NP--U==-" tag="NNP" in="-1:iobj" out="">Liv</W>

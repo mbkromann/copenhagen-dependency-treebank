@@ -78,8 +78,8 @@
 <W msd="NC=S" tag="NN" in="-3:possd" out="">secretary</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="-5:appr" out="-1:namef">Wiese</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-8:attr" out="-1:degr">hard</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-8:attr" out="-1:quant">hard</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="CS" tag="IN" in="-10:mod" out="2:vobj">since</W>
 <W msd="NP=S" tag="NNP" in="1:subj|3:[subj]|18:[subj]|19:[subj]" out="">Wiese</W>

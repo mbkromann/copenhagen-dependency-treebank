@@ -7,8 +7,8 @@
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">grapes</W>
 <W msd="SP" tag="IN" in="-3:pobj" out="1:nobj">from</W>
-<W msd="VAG" tag="VBG" in="-1:nobj" out="1:dur">moulding</W>
-<W msd="SP" tag="IN" in="-1:dur" out="1:nobj">during</W>
+<W msd="VAG" tag="VBG" in="-1:nobj" out="1:time">moulding</W>
+<W msd="SP" tag="IN" in="-1:time" out="1:nobj">during</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">transport</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
 </s>

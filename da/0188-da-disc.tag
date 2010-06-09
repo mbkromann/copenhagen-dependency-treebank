@@ -168,8 +168,8 @@
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="the_screen" lemma="skærm" msd="NCCSU==D" tag="NN" in="1:subj" out="">skærmen</W>
 <W gloss="shows" lemma="vise" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:subj|-2:coord|2:man|4:dobj">viser</W>
-<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:degr" out="">meget</W>
-<W gloss="instructively" lemma="pædagogisk" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:degr">pædagogisk</W>
+<W gloss="very" lemma="meget" msd="ANP---=-R" tag="JJ" in="1:quant" out="">meget</W>
+<W gloss="instructively" lemma="pædagogisk" msd="ANP---=-R" tag="JJ" in="-2:man" out="-1:quant">pædagogisk</W>
 <W gloss="the_nearest" lemma="nær" msd="ANS[CN][SP]U=DU" tag="JJS" in="1:attr" out="">nærmeste</W>
 <W gloss="route" lemma="vej" msd="NCCSU==I" tag="NN" in="-4:dobj" out="-1:attr|1:@dir">vej</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
@@ -213,9 +213,9 @@
 <W gloss="this" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|3:[subj]" out="">det</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-12:conj" out="-1:subj|-2:coord|1:other|2:vobj">har</W>
 <W gloss="probably" lemma="nok" msd="RGU" tag="RP" in="-1:other" out="">nok</W>
-<W gloss="cheated" lemma="snyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:degr|3:pobj">snydt</W>
+<W gloss="cheated" lemma="snyde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-3:[subj]|1:dobj|2:quant|3:pobj">snydt</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:dobj" out="">os</W>
-<W gloss="little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-2:degr" out="">lidt</W>
+<W gloss="little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-2:quant" out="">lidt</W>
 <W gloss="of" lemma="med" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">med</W>
 <W gloss="time" lemma="tid" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">tiden</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-19:pnct" out="">,</W>

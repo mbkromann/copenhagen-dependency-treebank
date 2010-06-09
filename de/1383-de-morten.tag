@@ -111,8 +111,8 @@
 <W lemma="möglich" msd="AN" tag="ADJD" in="1:preds" out="">möglich</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-8:vobj" out="-7:subj|-1:preds|-6:time">ist</W>
 <W lemma="." msd="XP" tag="$." in="-16:pnct" out="">.</W>
-<W lemma="deshalb" msd="RG" tag="PAV" in="1:reas" out="">Deshalb</W>
-<W lemma="wollen" msd="VA" tag="VMFIN" in="" out="-1:reas|1:subj|4:vobj|19:pnct">will</W>
+<W lemma="deshalb" msd="RG" tag="PAV" in="1:cause" out="">Deshalb</W>
+<W lemma="wollen" msd="VA" tag="VMFIN" in="" out="-1:cause|1:subj|4:vobj|19:pnct">will</W>
 <W lemma="ich" msd="PP" tag="PPER" in="-1:subj|3:[subj]" out="">ich</W>
 <W lemma="ein" msd="P[ID]" tag="ART" in="2:dobj" out="1:nobj|3:pnct|5:ref|16:relr">eine</W>
 <W lemma="Vorschrift" msd="NC" tag="NN" in="-1:nobj" out="">Vorschrift</W>
@@ -122,8 +122,8 @@
 <W lemma="d" msd="PT" tag="PRELS" in="-1:nobj|-5:ref" out="">der</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="9:[subj]|10:subj" out="1:nobj">die</W>
 <W lemma="Institution" msd="NC" tag="NN" in="-1:nobj" out="">Institutionen</W>
-<W lemma="spätestens" msd="RG" tag="ADV" in="1:degr" out="">spätestens</W>
-<W lemma="6" msd="AC" tag="CARD" in="2:time" out="-1:degr|1:nobj">6</W>
+<W lemma="spätestens" msd="RG" tag="ADV" in="1:quant" out="">spätestens</W>
+<W lemma="6" msd="AC" tag="CARD" in="2:time" out="-1:quant|1:nobj">6</W>
 <W lemma="Monat" msd="NC" tag="NN" in="-1:nobj" out="">Monate</W>
 <W lemma="nach" msd="SP" tag="APPR" in="4:time" out="-2:time|1:nobj">nach</W>
 <W lemma="Studienstart" msd="NC" tag="NN" in="-1:nobj" out="">Studienstart</W>
@@ -144,8 +144,8 @@
 <W lemma="dass" msd="CS" tag="KOUS" in="-2:dobj" out="5:vobj">dass</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="4:subj" out="1:nobj">die</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="-1:nobj" out="">SU-Regeln</W>
-<W lemma="so" msd="RG" tag="ADV" in="1:degr" out="4:nobj">so</W>
-<W lemma="maßvoll" msd="AN" tag="ADJD" in="1:preds" out="-1:degr">maßvoll</W>
+<W lemma="so" msd="RG" tag="ADV" in="1:quant" out="4:nobj">so</W>
+<W lemma="maßvoll" msd="AN" tag="ADJD" in="1:preds" out="-1:quant">maßvoll</W>
 <W lemma="sein" msd="VA" tag="VAFIN" in="-5:vobj" out="-4:subj|-1:preds|1:pnct">sind</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="dass" msd="CS" tag="KOUS" in="-4:nobj" out="10:vobj">dass</W>

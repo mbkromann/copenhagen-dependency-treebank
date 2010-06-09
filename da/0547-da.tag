@@ -75,15 +75,15 @@
 <W gloss="sound_equipment" lemma="lydanlæg" msd="NCNPU==I" tag="NNP" in="-2:conj" out="-1:coord">lydanlæg</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="-7:part" out="">op</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="employing" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:coord|3:dobj|5:dur|7:pnct|8:cont">beskæftiger</W>
+<W gloss="employing" lemma="beskæftige" msd="VADR=----A-" tag="VBD" in="-9:conj" out="-1:coord|3:dobj|5:time|7:pnct|8:time">beskæftiger</W>
 <W gloss="up" lemma="op" msd="RGU" tag="RP" in="2:other" out="1:other">op</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:other" out="1:[nobj]">til</W>
 <W gloss="150" lemma="150" msd="AC---U=--" tag="CD" in="-3:dobj|-1:[nobj]" out="-2:other|1:nobj">150</W>
 <W gloss="people" lemma="menneske" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">mennesker</W>
-<W gloss="the_day" lemma="døgn" msd="NCNSU==D" tag="NN" in="-5:dur" out="1:other">døgnet</W>
+<W gloss="the_day" lemma="døgn" msd="NCNSU==D" tag="NN" in="-5:time" out="1:other">døgnet</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:other" out="">rundt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
-<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-8:cont" out="2:vobj">mens</W>
+<W gloss="while" lemma="mens" msd="CS" tag="IN" in="-8:time" out="2:vobj">mens</W>
 <W gloss="the_tour" lemma="tourné" msd="NCCSU==D" tag="NN" in="1:subj" out="">tournéen</W>
 <W gloss="lasts" lemma="vare" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj">varer</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-20:pnct" out="">.</W>
@@ -91,8 +91,8 @@
 </p>
 <p>
 <s>
-<W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:struct" out="">Alligevel</W>
-<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:struct|1:subj|4:vobj|6:pnct|7:cond|12:pnct">kan</W>
+<W gloss="Nevertheless" lemma="alligevel" msd="RGU" tag="RP" in="1:scene" out="">Alligevel</W>
+<W gloss="can" lemma="kunne" msd="VADR=----A-" tag="VBD" in="" out="-1:scene|1:subj|4:vobj|6:pnct|7:cond|12:pnct">kan</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:subj|3:[subj]" out="1:nobj">en</W>
 <W gloss="such" lemma="sådan" msd="ANPCSU=IU" tag="JJ" in="-1:nobj" out="1:nobj">sådan</W>
 <W gloss="tour" lemma="tourné" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">tourné</W>
@@ -141,9 +141,9 @@
 <W gloss="the_deficit" lemma="underskud" msd="NCNSU==D" tag="NN" in="1:subj|2:[subj]" out="">underskuddet</W>
 <W gloss="could" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-2:conj" out="-1:subj|1:vobj|5:pnct">kan</W>
 <W gloss="be" lemma="blive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-2:[subj]|3:preds">blive</W>
-<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="">lige</W>
-<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:degr" out="-1:degr">så</W>
-<W gloss="big" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">stort</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="">lige</W>
+<W gloss="as" lemma="så" msd="RGU" tag="RP" in="1:quant" out="-1:quant">så</W>
+<W gloss="big" lemma="stor" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:quant">stort</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="relates" lemma="fortælle" msd="VADR=----A-" tag="VBD" in="" out="-8:qobj|2:subj|3:pnct">fortæller</W>
 <W gloss="Arne" lemma="Arne" msd="NP--U==-" tag="NNP" in="1:namef" out="">Arne</W>

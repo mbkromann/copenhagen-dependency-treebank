@@ -63,8 +63,8 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Texas</W>
 <W msd="VADR" tag="VBZ" in="-13:conj" out="-5:subj|-6:coord|1:mod|3:preds">is</W>
 <W msd="ANP" tag="RB" in="-1:mod" out="">still</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|1:pobj">proud</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant|1:pobj">proud</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">their</W>
 <W msd="NC=P" tag="NNS" in="-1:possd" out="">efforts</W>

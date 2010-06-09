@@ -2,8 +2,8 @@
 <W msd="VADA" tag="VBD" in="" out="1:@dir">Got</W>
 <W msd="SP" tag="IN" in="-1:@dir" out="1:nobj">into</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:attr">the</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:{origin}">Citroën</W>
-<W msd="SP" tag="IN" in="-1:{origin}|-2:attr" out="1:nobj">from</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:{source}">Citroën</W>
+<W msd="SP" tag="IN" in="-1:{source}|-2:attr" out="1:nobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1926</W>
 </s>
 <s>
@@ -32,10 +32,10 @@
 <W msd="ANP" tag="JJ" in="-1:attr" out="">nice</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="NP=S" tag="NNP" in="-3:attr" out="">two-banger</W>
-<W msd="NP=S" tag="NNP" in="-4:nobj" out="1:name|3:{origin}">Citroën</W>
+<W msd="NP=S" tag="NNP" in="-4:nobj" out="1:name|3:{source}">Citroën</W>
 <W msd="NP=S" tag="NNP" in="-1:name" out="1:name">B</W>
 <W msd="AC" tag="CD" in="-1:name" out="">12</W>
-<W msd="SP" tag="IN" in="-3:{origin}|-7:attr" out="1:nobj">from</W>
+<W msd="SP" tag="IN" in="-3:{source}|-7:attr" out="1:nobj">from</W>
 <W msd="AC" tag="CD" in="-1:nobj" out="">1926</W>
 <W msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
@@ -47,21 +47,21 @@
 <W msd="RG" tag="RP" in="-1:@dir" out="1:nobj">off</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj|3:attr">the</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="">landing</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#|1:{pos}">pad</W>
-<W msd="SP" tag="IN" in="-1:{pos}|-3:attr" out="1:nobj">at</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#|1:{loc}">pad</W>
+<W msd="SP" tag="IN" in="-1:{loc}|-3:attr" out="1:nobj">at</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:nobj">Nørresø</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Collegium</W>
 <W msd="ANP" tag="RB" in="-8:time" out="">immediately</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-10:conj" out="-1:coord|1:dobj|3:ben">left</W>
+<W msd="VADA" tag="VBD" in="-10:conj" out="-1:coord|1:dobj|3:goal">left</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">responsibility</W>
-<W msd="U=" tag="TO" in="-3:ben" out="2:nobj">to</W>
+<W msd="U=" tag="TO" in="-3:goal" out="2:nobj">to</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gitte</W>
-<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:attr|1:{origin}">Laursen</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{origin}" out="1:nobj">of</W>
-<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|1:{pos}">Højbjerg</W>
-<W msd="SP" tag="IN" in="-1:attr|-1:{pos}" out="1:nobj">near</W>
+<W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:namef|1:attr|1:{source}">Laursen</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{source}" out="1:nobj">of</W>
+<W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr|1:{loc}">Højbjerg</W>
+<W msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">near</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Rødkærsbro</W>
 <W msd="XP" tag="." in="-20:pnct" out="">.</W>
 </s>
@@ -81,8 +81,8 @@
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">I</W>
 <W msd="VADR" tag="VBP" in="22:qobj" out="-2:pnct|-1:subj|1:vobj|12:pnct|17:conj|21:pnct">have</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|2:@dir|4:loc|6:time">driven</W>
-<W msd="SP" tag="IN" in="1:degr" out="">around</W>
-<W msd="AC" tag="CD" in="-2:@dir" out="-1:degr|1:nobj">30,000</W>
+<W msd="SP" tag="IN" in="1:quant" out="">around</W>
+<W msd="AC" tag="CD" in="-2:@dir" out="-1:quant|1:nobj">30,000</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">kilometers</W>
 <W msd="SP" tag="IN" in="-4:loc" out="1:nobj">in</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
@@ -98,8 +98,8 @@
 <W msd="NC=S" tag="NN" in="-1:{time}|-2:attr" out="">today</W>
 <W msd="VADR" tag="VBZ" in="-17:conj" out="-4:coord|-3:nobj|1:preds">is</W>
 <W msd="PO" tag="PRP$" in="-1:preds" out="2:attr">my</W>
-<W msd="ANS" tag="RBS" in="1:degr" out="">most</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">exciting</W>
+<W msd="ANS" tag="RBS" in="1:quant" out="">most</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">exciting</W>
 <W msd="XP" tag="," in="-21:pnct" out="">,</W>
 <W msd="VADA" tag="VBD" in="" out="-22:qobj|2:subj|3:pnct|4:time|20:pnct">said</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Gitte</W>

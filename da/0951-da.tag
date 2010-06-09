@@ -45,8 +45,8 @@
 <W gloss="all" lemma="hel" msd="ANP[CN]SU=DU" tag="JJ" in="-1:nobj" out="">hele</W>
 <W gloss="says" lemma="stå" msd="VADR=----A-" tag="VBD" in="" out="-2:subj|1:iobj|3:preds|4:pnct|12:pnct|7:conj">står</W>
 <W gloss="me" lemma="jeg" msd="PP1CSU-[YN]U" tag="PRP" in="-1:iobj" out="">mig</W>
-<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:degr" out="">lidt</W>
-<W gloss="unclear" lemma="uklar" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:degr">uklart</W>
+<W gloss="a_little" lemma="lidt" msd="ANP---=-R" tag="JJ" in="1:quant" out="">lidt</W>
+<W gloss="unclear" lemma="uklar" msd="ANPNSU=IU" tag="JJ" in="-3:preds" out="-1:quant">uklart</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|2:[subj]" out="">jeg</W>
@@ -125,8 +125,8 @@
 </s>
 <s>
 <W gloss="The_situation" lemma="situation" msd="NCCSU==D" tag="NN" in="1:subj" out="">Situationen</W>
-<W gloss="corresponds" lemma="svare" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:degr|2:pobj|19:pnct">svarer</W>
-<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-1:degr" out="">lidt</W>
+<W gloss="corresponds" lemma="svare" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:quant|2:pobj|19:pnct">svarer</W>
+<W gloss="a_bit" lemma="lidt" msd="ANP---=-R" tag="JJ" in="-1:quant" out="">lidt</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">til</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:nobj" out="4:vobj">at</W>
@@ -134,11 +134,11 @@
 <W gloss="either" lemma="heller" msd="RGU" tag="RP" in="1:other" out="">heller</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="-1:other">ikke</W>
 <W gloss="would_be_allowed_to" lemma="måtte" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|-1:neg|1:vobj">må</W>
-<W gloss="remove" lemma="fjerne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|2:dobj|4:succ">fjerne</W>
+<W gloss="remove" lemma="fjerne" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|2:dobj|4:time">fjerne</W>
 <W gloss="extra" lemma="ekstra" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="1:attr" out="">ekstra</W>
 <W gloss="car_lights" lemma="billygte" msd="NCCPU==I" tag="NNP" in="-2:dobj" out="-1:attr|1:other">billygter</W>
 <W gloss="etc." lemma="med_videre" msd="RGU" tag="RP" in="-1:other" out="">m.v.</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-4:succ" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="-4:time" out="1:nobj">efter</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
 <W gloss="having" lemma="have" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:vobj">have</W>
 <W gloss="sold" lemma="sælge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="1:dobj">solgt</W>

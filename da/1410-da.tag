@@ -76,8 +76,8 @@
 <W gloss="the_world's" lemma="verden" msd="NCCSG==I" tag="NN" in="-1:nobj" out="1:attr|5:possd">verdens</W>
 <W gloss="best" lemma="god" msd="ANS[CN][SP]U=DU" tag="JJS" in="-1:attr" out="3:conj">bedste</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
-<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:degr" out="">mest</W>
-<W gloss="complete" lemma="komplet" msd="ANP[CN]SU=DU" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">komplette</W>
+<W gloss="most" lemma="meget" msd="ANS---=-R" tag="JJS" in="1:quant" out="">mest</W>
+<W gloss="complete" lemma="komplet" msd="ANP[CN]SU=DU" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">komplette</W>
 <W gloss="attacker" lemma="angriber" msd="NCCSU==I" tag="NN" in="-5:possd" out="">angriber</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-8:pnct" out="">,</W>
 <W gloss="knows" lemma="vide" msd="VADR=----A-" tag="VBD" in="" out="-14:subj|1:pnct|2:dobj|5:pnct">ved</W>

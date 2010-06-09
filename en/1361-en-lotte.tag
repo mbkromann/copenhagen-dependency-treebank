@@ -3,12 +3,12 @@
 <W msd="VADR" tag="VBP" in="" out="-1:subj|2:vobj|18:pnct">think</W>
 <W msd="PP" tag="PRP" in="1:subj" out="8:nobj">it</W>
 <W msd="VADR" tag="VBZ" in="-2:vobj" out="-1:subj|3:preds">is</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">far</W>
-<W msd="ANP" tag="RB" in="1:degr" out="-1:degr">too</W>
-<W msd="ANP" tag="JJ" in="-3:preds" out="-1:degr|3:conj">simple</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">far</W>
+<W msd="ANP" tag="RB" in="1:quant" out="-1:quant">too</W>
+<W msd="ANP" tag="JJ" in="-3:preds" out="-1:quant|3:conj">simple</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">too</W>
-<W msd="VADR" tag="VBP" in="-3:conj" out="-2:coord|-1:degr">smartass</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">too</W>
+<W msd="VADR" tag="VBP" in="-3:conj" out="-2:coord|-1:quant">smartass</W>
 <W msd="U=" tag="TO" in="-8:nobj" out="1:vobj">to</W>
 <W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|4:loc">put</W>
 <W msd="PD" tag="PDT" in="-1:dobj" out="1:nobj">all</W>
@@ -84,8 +84,8 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="-1:{arg}">disposal</W>
 <W msd="PD" tag="DT" in="-4:dobj" out="2:nobj|3:attr">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{func}#" out="">Olympic</W>
-<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{func}#|1:{origin}">players</W>
-<W msd="SP" tag="IN" in="-3:attr|-1:{origin}" out="1:nobj">from</W>
+<W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr|-1:{func}#|1:{source}">players</W>
+<W msd="SP" tag="IN" in="-3:attr|-1:{source}" out="1:nobj">from</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="2:nobj">the</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{const}#" out="">U-21</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{const}#">team</W>
@@ -132,10 +132,10 @@
 <W msd="VADR" tag="VBZ" in="" out="-5:subj|1:dobj|12:pnct">portends</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:pobj|1:{arg}|2:nobj|3:attr|5:attr|8:attr">no</W>
 <W msd="NP=S" tag="NNP" in="-1:pobj|-1:{arg}" out="">WC</W>
-<W msd="NC=S" tag="NN" in="-2:nobj" out="1:{func}|3:{pos}|6:{time}">ticket</W>
+<W msd="NC=S" tag="NN" in="-2:nobj" out="1:{func}|3:{loc}|6:{time}">ticket</W>
 <W msd="SP" tag="IN" in="-3:attr|-1:{func}" out="1:nobj">for</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Denmark</W>
-<W msd="SP" tag="IN" in="-5:attr|-3:{pos}" out="1:nobj">in</W>
+<W msd="SP" tag="IN" in="-5:attr|-3:{loc}" out="1:nobj">in</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">US</W>
 <W msd="SP" tag="IN" in="-8:attr|-6:{time}" out="1:nobj">in</W>
@@ -170,8 +170,8 @@
 <W msd="SP" tag="IN" in="-1:man" out="2:nobj">with</W>
 <W msd="ANP" tag="JJ" in="1:attr|1:{func}#" out="">x-ray</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="-1:attr|-1:{func}#">vision</W>
-<W msd="PT" tag="WRB" in="1:degr" out="">how</W>
-<W msd="ANP" tag="JJ" in="-5:dobj|13:[preds]" out="-1:degr|12:relr|13:pobj">important</W>
+<W msd="PT" tag="WRB" in="1:quant" out="">how</W>
+<W msd="ANP" tag="JJ" in="-5:dobj|13:[preds]" out="-1:quant|12:relr|13:pobj">important</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Peter</W>
 <W msd="NP=S" tag="NNP" in="10:subj" out="-1:namef|1:pnct|3:conj|4:pnct|6:conj|9:conj">Schmeichel</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>

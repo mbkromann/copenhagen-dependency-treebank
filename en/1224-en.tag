@@ -20,8 +20,8 @@
 </s>
 <s>
 <W msd="U=" tag="EX" in="1:expl" out="">There</W>
-<W msd="VADA" tag="VBD" in="" out="-1:expl|2:dobj|4:pnct#|5:pnct|1:ext">was</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADA" tag="VBD" in="" out="-1:expl|2:dobj|4:pnct#|5:pnct|1:time">was</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="NC=S" tag="NN" in="-2:dobj" out="1:mod">something</W>
 <W msd="U=" tag="TO" in="-1:mod" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj|-4:pnct#" out="">do.</W>
@@ -139,8 +139,8 @@
 <W msd="VA" tag="MD" in="" out="-1:subj|1:vobj|5:pnct|7:conj|32:pnct">would</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:dobj">like</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:degr">help</W>
-<W msd="ANC" tag="JJR" in="-1:degr" out="">more</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-4:[subj]|1:quant">help</W>
+<W msd="ANC" tag="JJR" in="-1:quant" out="">more</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="1:coord" out="">but</W>
 <W msd="VA" tag="MD" in="-7:conj" out="-8:[subj]|-1:coord|1:neg|2:pnct|21:conj">must</W>
@@ -151,8 +151,8 @@
 <W msd="NC=S" tag="NN" in="-1:possd" out="">wife</W>
 <W msd="NP=S" tag="NNP" in="-2:appr" out="">Ellen</W>
 <W msd="PT" tag="WP" in="-3:ref|1:subj|3:[subj]" out="">who</W>
-<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|2:vobj|4:pnct|5:time|1:ext">has</W>
-<W msd="ANP" tag="RB" in="-1:ext" out="">always</W>
+<W msd="VADR" tag="VBZ" in="-4:rel" out="-1:subj|2:vobj|4:pnct|5:time|1:time">has</W>
+<W msd="ANP" tag="RB" in="-1:time" out="">always</W>
 <W msd="VADA" tag="VBD" in="-2:vobj" out="-3:[subj]|1:part">chimed</W>
 <W msd="SP" tag="IN" in="-1:part" out="">in</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
@@ -223,11 +223,11 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">You</W>
-<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|4:degr|5:pnct">don't</W>
+<W msd="VADR" tag="VBP" in="" out="-1:subj|1:vobj|4:quant|5:pnct">don't</W>
 <W msd="VADR" tag="VBP" in="-1:vobj" out="-2:[subj]|1:dobj">do</W>
 <W msd="SP" tag="IN" in="-1:dobj" out="">that</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>
-<W msd="ANC" tag="JJR" in="-4:degr" out="-1:mod">more</W>
+<W msd="ANC" tag="JJR" in="-4:quant" out="-1:mod">more</W>
 <W msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>

@@ -109,10 +109,10 @@
 <W msd="VAF" tag="VB" in="" out="">be</W>
 <W msd="ANP" tag="JJ" in="" out="1:nobj|6:pnct">able</W>
 <W msd="U=" tag="TO" in="-1:nobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:succ">broadcast</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="1:dobj|3:time">broadcast</W>
 <W msd="PD" tag="DT" in="-1:dobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">programme</W>
-<W msd="ANP" tag="RB" in="-3:succ" out="">later</W>
+<W msd="ANP" tag="RB" in="-3:time" out="">later</W>
 <W msd="XP" tag="." in="-6:pnct" out="">?</W>
 </s>
 <s>

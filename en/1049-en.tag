@@ -227,7 +227,7 @@
 <W msd="VADR" tag="VBZ" in="-6:vobj" out="-5:subj|1:vobj">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-6:[subj]|1:dobj">had</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:pobj|10:pnct|12:reas">ask</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-8:[subj]|1:pobj|10:pnct|12:cause">ask</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">for</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:nobj|4:possd">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>
@@ -239,7 +239,7 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">fight</W>
 <W msd="XP" tag="," in="-10:pnct" out="">,</W>
 <W msd="ANP" tag="RB" in="1:epi" out="">presumably</W>
-<W msd="CS" tag="IN" in="-12:reas" out="1:pobj|-1:epi">because</W>
+<W msd="CS" tag="IN" in="-12:cause" out="1:pobj|-1:epi">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="3:nobj">of</W>
 <W msd="ANP" tag="JJ" in="2:attr" out="">acute</W>
 <W msd="NC=S" tag="NN" in="1:mod" out="">writing</W>

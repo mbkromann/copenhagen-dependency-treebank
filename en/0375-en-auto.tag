@@ -81,9 +81,9 @@
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
 <W msd="NC=S" tag="NN" in="-2:conj" out="-1:coord">deed</W>
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-6:mod" out="1:pnct|2:degr|3:pnct">financially</W>
+<W msd="ANP" tag="RB" in="-6:mod" out="1:pnct|2:quant|3:pnct">financially</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="ANP" tag="RB" in="-2:degr" out="">too</W>
+<W msd="ANP" tag="RB" in="-2:quant" out="">too</W>
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
@@ -107,8 +107,8 @@
 <W msd="XP" tag="," in="-3:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="3:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="2:subj" out="">he</W>
-<W msd="ANP" tag="RB" in="1:ext" out="">always</W>
-<W msd="VADA" tag="VBD" in="-7:conj" out="-2:subj|-3:coord|-1:ext|1:mod">behaved</W>
+<W msd="ANP" tag="RB" in="1:time" out="">always</W>
+<W msd="VADA" tag="VBD" in="-7:conj" out="-2:subj|-3:coord|-1:time|1:mod">behaved</W>
 <W msd="SP" tag="IN" in="-1:mod" out="1:nobj">with</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="2:conj">dignity</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>

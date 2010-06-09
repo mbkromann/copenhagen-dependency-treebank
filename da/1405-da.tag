@@ -48,12 +48,12 @@
 <W gloss="when" lemma="hvor" msd="RGU" tag="RP" in="-3:ref|3:mod" out="">hvor</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="2:expl" out="">der</W>
 <W gloss="also" lemma="også" msd="RGU" tag="RP" in="1:add" out="">også</W>
-<W gloss="was_missing" lemma="mangle" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-2:expl|-3:mod|-1:add|1:dobj|2:mod|4:pnct|5:reas">manglede</W>
+<W gloss="was_missing" lemma="mangle" msd="VADA=----A-" tag="VBD" in="-6:rel" out="-2:expl|-3:mod|-1:add|1:dobj|2:mod|4:pnct|5:cause">manglede</W>
 <W gloss="fervour" lemma="glød" msd="NCCSU==I" tag="NN" in="-1:dobj" out="">glød</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:mod" out="1:nobj">i</W>
 <W gloss="the_Olé_song" lemma="Olé-sang" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">Olé-sangen</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="2:vobj">fordi</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="1:expl" out="">der</W>
 <W gloss="was_happening" lemma="ske" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:expl|2:dobj|3:pnct|4:mod">skete</W>
 <W gloss="too" lemma="for" msd="RGU" tag="RP" in="1:mod" out="">for</W>

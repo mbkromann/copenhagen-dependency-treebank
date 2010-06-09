@@ -42,10 +42,10 @@
 <p>
 <s>
 <W gloss="The_massacre" lemma="nedslagtning" msd="NCCSU==D" tag="NN" in="1:subj" out="">Nedslagtningen</W>
-<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:dur|5:pnct">fortsatte</W>
-<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:dur" out="2:nobj">i</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:degr" out="">næsten</W>
-<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:degr|1:nobj">20</W>
+<W gloss="continued" lemma="fortsætte" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:time|5:pnct">fortsatte</W>
+<W gloss="for" lemma="i" msd="SP" tag="IN" in="-1:time" out="2:nobj">i</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="1:quant" out="">næsten</W>
+<W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="-2:nobj" out="-1:quant|1:nobj">20</W>
 <W gloss="minutes" lemma="minut" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">minutter</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
@@ -98,9 +98,9 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-7:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="As" lemma="som" msd="U=" tag="WDT" in="2:struct" out="1:nobj">Som</W>
+<W gloss="As" lemma="som" msd="U=" tag="WDT" in="2:scene" out="1:nobj">Som</W>
 <W gloss="reply" lemma="svar" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">svar</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-2:struct|1:subj|2:vobj|14:pnct">blev</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-2:scene|1:subj|2:vobj|14:pnct">blev</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|1:[subj]" out="">hun</W>
 <W gloss="attacked" lemma="overfalde" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:vobj" out="-1:[subj]|1:pobj">overfaldet</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
@@ -180,8 +180,8 @@
 <W gloss="at" lemma="mod" msd="SP" tag="IN" in="-1:dir" out="1:nobj">mod</W>
 <W gloss="everybody" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:nobj" out="">alle</W>
 <W gloss="..." lemma="..." msd="XP" tag="..." in="-5:pnct" out="">...</W>
-<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:degr" out="">lige</W>
-<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-7:eval" out="-1:degr|1:pobj">meget</W>
+<W gloss="just" lemma="lige" msd="RGU" tag="RP" in="1:quant" out="">lige</W>
+<W gloss="very" lemma="meget" msd="ANP[CN]SU=IU" tag="JJ" in="-7:eval" out="-1:quant|1:pobj">meget</W>
 <W gloss="if" lemma="om" msd="CS" tag="IN" in="-1:pobj" out="2:vobj">om</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj" out="">det</W>
 <W gloss="was" lemma="være" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">var</W>
@@ -199,12 +199,12 @@
 <W gloss="Two" lemma="to" msd="AC---U=--" tag="CD" in="3:subj|4:[subj]" out="1:attr|2:nobj">To</W>
 <W gloss="Spanish" lemma="spansk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">spanske</W>
 <W gloss="members_of_a_TV_crew" lemma="TV-folk" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">TV-folk</W>
-<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|5:reas|19:pnct">blev</W>
+<W gloss="were" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-3:subj|1:vobj|4:pnct|5:cause|19:pnct">blev</W>
 <W gloss="beaten" lemma="gennembanke" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:pobj">gennembanket</W>
 <W gloss="by" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="Soviet_soldiers" lemma="Sovjet-soldat" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">Sovjet-soldater</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:reas" out="2:vobj">fordi</W>
+<W gloss="because" lemma="fordi" msd="CS" tag="IN" in="-5:cause" out="2:vobj">fordi</W>
 <W gloss="they" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj|2:[subj]" out="">de</W>
 <W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:vobj">havde</W>
 <W gloss="filmed" lemma="filme" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">filmet</W>
@@ -221,8 +221,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-19:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Afterward" lemma="bagefter" msd="RGU" tag="RP" in="1:succ" out="">Bagefter</W>
-<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:succ|1:subj|3:vobj|4:pnct">blev</W>
+<W gloss="Afterward" lemma="bagefter" msd="RGU" tag="RP" in="1:time" out="">Bagefter</W>
+<W gloss="was" lemma="blive" msd="VADA=----A-" tag="VBD" in="" out="-1:time|1:subj|3:vobj|4:pnct">blev</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:subj|2:[subj]" out="1:possd">deres</W>
 <W gloss="camera" lemma="kamera" msd="NCNSU==I" tag="NN" in="-1:possd" out="">kamera</W>
 <W gloss="confiscated" lemma="konfiskere" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-3:vobj" out="-2:[subj]">konfiskeret</W>
@@ -244,9 +244,9 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="5:vobj">at</W>
 <W gloss="Soviet" lemma="sovjetisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr" out="">sovjetiske</W>
 <W gloss="soldiers" lemma="soldat" msd="NCCPU==I" tag="NNP" in="3:subj|4:[subj]|6:[subj]" out="-1:attr">soldater</W>
-<W gloss="after" lemma="efter" msd="SP" tag="IN" in="2:succ" out="1:nobj">efter</W>
+<W gloss="after" lemma="efter" msd="SP" tag="IN" in="2:time" out="1:nobj">efter</W>
 <W gloss="the_massacre" lemma="massakre" msd="NCCSU==D" tag="NN" in="-1:nobj" out="">massakren</W>
-<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-3:subj|-2:succ|1:vobj">havde</W>
+<W gloss="had" lemma="have" msd="VADA=----A-" tag="VBD" in="-5:vobj" out="-3:subj|-2:time|1:vobj">havde</W>
 <W gloss="tried" lemma="forsøge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-4:[subj]|1:dobj">forsøgt</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:dobj" out="1:vobj">at</W>
 <W gloss="dress" lemma="klæde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-6:[subj]|2:dobj|3:pobj|6:goal">klæde</W>

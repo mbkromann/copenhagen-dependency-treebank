@@ -147,14 +147,14 @@
 <W msd="PD" tag="DT" in="3:subj" out="1:attr|2:nobj">The</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">Danish</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">team</W>
-<W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|10:pnct|7:prec">was</W>
+<W msd="VADA" tag="VBD" in="" out="-3:subj|1:preds|10:pnct|7:time">was</W>
 <W msd="SP" tag="IN" in="-1:preds" out="1:nobj">in</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="1:attr|2:nobj">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">good</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="1:pobj">frame</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">mind</W>
-<W msd="CS" tag="IN" in="-7:prec" out="1:nobj">before</W>
+<W msd="CS" tag="IN" in="-7:time" out="1:nobj">before</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">match</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>

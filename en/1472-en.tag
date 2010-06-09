@@ -92,8 +92,8 @@
 <W msd="CC" tag="CC" in="" out="2:conj|23:pnct">And</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">he</W>
 <W msd="VADA" tag="VBD" in="-2:conj" out="-1:subj|2:preds">seemed</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr|1:pobj">intimate</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant|1:pobj">intimate</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">with</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|4:ref|6:rel">the</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">terrain</W>
@@ -150,8 +150,8 @@
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">course</W>
 <W msd="PI" tag="DT" in="2:mod" out="1:attr">a</W>
 <W msd="ANP" tag="RB" in="-1:attr" out="">little</W>
-<W msd="ANC" tag="JJR" in="1:degr" out="-2:mod">more</W>
-<W msd="SP" tag="IN" in="-6:pobj" out="1:nobj|-1:degr">towards</W>
+<W msd="ANC" tag="JJR" in="1:quant" out="-2:mod">more</W>
+<W msd="SP" tag="IN" in="-6:pobj" out="1:nobj|-1:quant">towards</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">the</W>
 <W msd="VAP" tag="VBN" in="-1:nobj" out="">left</W>
 <W msd="XP" tag="," in="-13:pnct" out="">,</W>

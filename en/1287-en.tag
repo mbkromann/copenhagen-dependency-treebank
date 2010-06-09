@@ -161,8 +161,8 @@
 </s>
 <s>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">He</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|2:vobj|7:pnct|1:degr">was</W>
-<W msd="ANP" tag="RB" in="-1:degr" out="">only</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|2:vobj|7:pnct|1:quant">was</W>
+<W msd="ANP" tag="RB" in="-1:quant" out="">only</W>
 <W msd="VAP" tag="VBN" in="-2:vobj" out="-3:[subj]|1:mod">delayed</W>
 <W msd="PI" tag="DT" in="-1:mod" out="1:nobj">a</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj">couple</W>

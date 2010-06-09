@@ -8,8 +8,8 @@
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">I</W>
 <W msd="VADA" tag="VBD" in="-7:conj" out="-1:subj|-2:coord|2:preds">became</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="">more</W>
-<W msd="ANP" tag="JJ" in="-2:preds" out="-1:degr">distant</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="">more</W>
+<W msd="ANP" tag="JJ" in="-2:preds" out="-1:quant">distant</W>
 <W msd="XP" tag="." in="-10:pnct" out="">.</W>
 </s>
 <s>
@@ -190,7 +190,7 @@
 <s>
 <W msd="XP" tag="&3a;" in="-6:pnct" out="">-</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">I</W>
-<W msd="VADR" tag="VBP" in="-20:conj" out="-1:subj|-11:coord|1:focal|2:vobj|8:degr|9:pnct|10:conj">can't</W>
+<W msd="VADR" tag="VBP" in="-20:conj" out="-1:subj|-11:coord|1:focal|2:vobj|8:quant|9:pnct|10:conj">can't</W>
 <W msd="ANP" tag="RB" in="-1:focal" out="">even</W>
 <W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:@dir">get</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
@@ -198,7 +198,7 @@
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:possd">my</W>
 <W msd="NC=S" tag="NN" in="-1:possd" out="">mouth</W>
 <W msd="PD" tag="DT" in="1:mod" out="">any</W>
-<W msd="ANC" tag="JJR" in="-8:degr" out="-1:mod">more</W>
+<W msd="ANC" tag="JJR" in="-8:quant" out="-1:mod">more</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="VADR" tag="VBP" in="-10:conj" out="1:subj|2:vobj|6:pnct">do</W>
 <W msd="PP" tag="PRP" in="-1:subj|1:[subj]" out="">you</W>

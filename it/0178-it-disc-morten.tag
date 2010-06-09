@@ -28,7 +28,7 @@
 <W lemma="ex" msd="AN" tag="ADJ" in="" out="">ex</W>
 <W lemma="socio" msd="NC" tag="NOM" in="" out="">socio</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="25:+CONST&3a;elab">Riskær</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="25:+CONJ&3a;elab">Riskær</W>
 <W lemma="," msd="XP" tag="PON" in="" out="">,</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Peder</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Hauch</W>
@@ -40,7 +40,7 @@
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">Il</W>
 <W lemma="capitale" msd="NC" tag="NOM" in="" out="">capitale</W>
 <W lemma="sociale" msd="AN" tag="ADJ" in="" out="">sociale</W>
-<W lemma="ammontare" msd="VADR" tag="VER&3a;pres" in="13:+SCENE&7c;CONST&3a;elab" out="">ammonta</W>
+<W lemma="ammontare" msd="VADR" tag="VER&3a;pres" in="13:+SCENE&7c;CONJ&3a;elab" out="">ammonta</W>
 <W lemma="a" msd="SP" tag="PRE" in="" out="">a</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">483</W>
 <W lemma="milione" msd="NC" tag="NOM" in="" out="">milioni</W>
@@ -53,7 +53,7 @@
 <s>
 <W lemma="Klaus" msd="NP" tag="NPR" in="" out="">Klaus</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Riskær</W>
-<W lemma="possedere" msd="VADR" tag="VER&3a;pres" in="-25:+CONST&3a;elab" out="-13:+SCENE&7c;CONST&3a;elab|12:CONJ/(e)">possiede</W>
+<W lemma="possedere" msd="VADR" tag="VER&3a;pres" in="-25:+CONJ&3a;elab" out="-13:+SCENE&7c;CONJ&3a;elab|12:CONJ&3a;add/(e)">possiede</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="metà" msd="NC" tag="NOM" in="" out="">metà</W>
 <W lemma="di" msd="SP" tag="PRE" in="" out="">di</W>
@@ -65,7 +65,7 @@
 <W lemma="in" msd="SP" tag="PRE" in="" out="">In</W>
 <W lemma="diverso" msd="AN" tag="ADJ" in="" out="">diverse</W>
 <W lemma="occasione" msd="NC" tag="NOM" in="" out="">occasioni</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-12:CONJ/(e)" out="31:AGENTIVE&3a;expl/(infatti)">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-12:CONJ&3a;add/(e)" out="31:AGENTIVE&3a;expl/(infatti)">ha</W>
 <W lemma="sottolineare" msd="VAP" tag="VER&3a;pper" in="" out="">sottolineato</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
@@ -96,7 +96,7 @@
 <W lemma="mese" msd="NC" tag="NOM" in="" out="">mesi</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">del</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="" out="">1991</W>
-<W lemma="indicare" msd="VADA" tag="VER&3a;impf" in="-31:AGENTIVE&3a;expl/(infatti)" out="28:+CONST&3a;elab">indicava</W>
+<W lemma="indicare" msd="VADA" tag="VER&3a;impf" in="-31:AGENTIVE&3a;expl/(infatti)" out="28:+CONJ&3a;elab">indicava</W>
 <W lemma="un" msd="PI" tag="DET&3a;indef" in="" out="">un</W>
 <W lemma="capitale" msd="NC" tag="NOM" in="" out="">capitale</W>
 <W lemma="sociale" msd="AN" tag="ADJ" in="" out="">sociale</W>
@@ -124,11 +124,11 @@
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="" out="">alla</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">Fondsbørsen</W>
 <W lemma="si" msd="PR" tag="PRO&3a;refl" in="" out="">si</W>
-<W lemma="indire" msd="VADR" tag="VER&3a;cpre" in="-28:+CONST&3a;elab" out="22:AGENTIVE&3a;reas/(perché&7c;CONST&3a;elab">indica</W>
+<W lemma="indire" msd="VADR" tag="VER&3a;cpre" in="-28:+CONJ&3a;elab" out="22:AGENTIVE&3a;cause/(perché&7c;CONJ&3a;elab">indica</W>
 <W lemma="che" msd="PT" tag="PRO&3a;rela" in="" out="">che</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="richiesta" msd="NC" tag="NOM" in="" out="">richiesta</W>
-<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="63:+CONST&3a;elab">del</W>
+<W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="63:+CONJ&3a;elab">del</W>
 <W lemma="gruppo" msd="NC" tag="NOM" in="" out="">gruppo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">degli</W>
 <W lemma="azionista" msd="NC" tag="NOM" in="" out="">azionisti</W>
@@ -146,7 +146,7 @@
 </s>
 <s>
 <W lemma="così" msd="RG" tag="ADV" in="" out="">Così</W>
-<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:AGENTIVE&3a;reas/(perché&7c;CONST&3a;elab" out="">ha</W>
+<W lemma="avere&7c;riavere" msd="VADR" tag="VER&3a;pres" in="-22:AGENTIVE&3a;cause/(perché&7c;CONJ&3a;elab" out="">ha</W>
 <W lemma="decidere" msd="VAP" tag="VER&3a;pper" in="" out="">deciso</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="" out="">la</W>
 <W lemma="direzione" msd="NC" tag="NOM" in="" out="">direzione</W>
@@ -191,7 +191,7 @@
 <W lemma="gruppo" msd="NC" tag="NOM" in="" out="">gruppo</W>
 <W lemma="del" msd="SP+P" tag="PRE&3a;det" in="" out="">degli</W>
 <W lemma="azionista" msd="NC" tag="NOM" in="" out="">azionisti</W>
-<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-63:+CONST&3a;elab" out="-13:+SCENE">è</W>
+<W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-63:+CONJ&3a;elab" out="-13:+SCENE">è</W>
 <W lemma="amareggiare" msd="VAP" tag="VER&3a;pper" in="" out="">amareggiato</W>
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="" out="">dal</W>
 <W lemma="fatto" msd="NC" tag="NOM" in="" out="">fatto</W>

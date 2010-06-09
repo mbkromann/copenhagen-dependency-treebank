@@ -208,7 +208,7 @@
 <W lemma="personale" msd="AN" tag="ADJ" in="" out="">personali</W>
 <W lemma="si" msd="PR" tag="PRO:refl" in="" out="">si</W>
 <W lemma="essere|sonare" msd="VADR" tag="VER:pres" in="" out="">sono</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="presto" msd="RG" tag="ADV" in="" out="">presto</W>
 <W lemma="dimostrare" msd="VAP" tag="VER:pper" in="" out="">dimostrati</W>
 <W lemma="il" msd="PD" tag="DET:def" in="" out="">il</W>

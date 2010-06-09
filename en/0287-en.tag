@@ -149,8 +149,8 @@
 <W msd="VADA" tag="VBD" in="" out="-7:mod|-2:subj|1:preds|7:pnct|10:conj|18:pnct">seemed</W>
 <W msd="ANC" tag="JJR" in="-1:preds" out="3:conj|4:pobj">stronger</W>
 <W msd="CC" tag="CC" in="2:coord" out="">and</W>
-<W msd="ANC" tag="RBR" in="1:degr" out="2:[pobj]">more</W>
-<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:degr">untouchable</W>
+<W msd="ANC" tag="RBR" in="1:quant" out="2:[pobj]">more</W>
+<W msd="ANP" tag="JJ" in="-3:conj" out="-2:coord|-1:quant">untouchable</W>
 <W msd="SP" tag="IN" in="-4:pobj|-2:[pobj]" out="1:obl">than</W>
 <W msd="ANP" tag="RB" in="-1:obl" out="">ever</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>

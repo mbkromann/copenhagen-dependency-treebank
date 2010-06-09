@@ -134,14 +134,14 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="1:attr">June</W>
 <W msd="AC" tag="CD" in="-1:attr" out="">22</W>
 <W msd="CC" tag="CC" in="1:coord" out="">and</W>
-<W msd="VADA" tag="VBD" in="-7:conj" out="-8:[subj]|-1:coord|1:dobj|4:avobj|7:ext|8:time|9:pnct|10:time">made</W>
+<W msd="VADA" tag="VBD" in="-7:conj" out="-8:[subj]|-1:coord|1:dobj|4:avobj|7:time|8:time|9:pnct|10:time">made</W>
 <W msd="PI" tag="DT" in="-1:dobj" out="1:attr">a</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="1:mod">little</W>
 <W msd="ANP" tag="JJ" in="-1:mod" out="">extra</W>
 <W msd="SP" tag="IN" in="-4:avobj" out="1:pobj">out</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PP" tag="PRP" in="-1:nobj" out="">it</W>
-<W msd="ANP" tag="RB" in="-7:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-7:time" out="">again</W>
 <W msd="NC=S" tag="NN" in="-8:time" out="">yesterday</W>
 <W msd="XP" tag="," in="-9:pnct" out="">,</W>
 <W msd="PT" tag="WRB" in="-10:time" out="8:vobj">when</W>

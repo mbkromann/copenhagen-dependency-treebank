@@ -137,11 +137,11 @@
 </s>
 <s>
 <W gloss="In_the_meantime" lemma="imens" msd="RGU" tag="RP" in="1:mod" out="">Imens</W>
-<W gloss="turn_upside_down" lemma="vælte" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|4:degr|5:dobj|6:pnct">vælter</W>
+<W gloss="turn_upside_down" lemma="vælte" msd="VADR=----A-" tag="VBD" in="" out="-1:mod|1:subj|4:quant|5:dobj|6:pnct">vælter</W>
 <W gloss="their" lemma="deres" msd="PO3[CN][SP]UPNU" tag="PRP$" in="-1:subj" out="1:possd">deres</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:possd" out="1:nobj">to</W>
 <W gloss="teenage_daughters" lemma="teenagedatter" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">teenagedøtre</W>
-<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-4:degr" out="">næsten</W>
+<W gloss="almost" lemma="næsten" msd="RGU" tag="RP" in="-4:quant" out="">næsten</W>
 <W gloss="home" lemma="hjem" msd="NCNSU==D" tag="NN" in="-5:dobj" out="">hjemmet</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>

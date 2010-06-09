@@ -4,7 +4,7 @@
 <W msd="SP" tag="IN" in="" out="1:nobj">towards</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">China</W>
 <W msd="XP" tag="," in="-4:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="15:dur" out="1:nobj|14:pnct#">since</W>
+<W msd="CS" tag="IN" in="15:time" out="1:nobj|14:pnct#">since</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:nobj">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">dramatic</W>
 <W msd="NC=S" tag="NN" in="-2:nobj" out="">suppression</W>
@@ -19,13 +19,13 @@
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="">Square</W>
 <W msd="SP" tag="IN" in="-8:time" out="1:nobj">in</W>
 <W msd="AC" note="skal adskilles" tag="CD" in="-1:nobj|-14:pnct#" out="">1989,</W>
-<W msd="VADR" tag="VBZ" in="" out="-20:subj|-15:dur|1:vobj|9:pnct">has</W>
+<W msd="VADR" tag="VBZ" in="" out="-20:subj|-15:time|1:vobj|9:pnct">has</W>
 <W msd="VAP" tag="VBN" in="-1:vobj" out="-21:[subj]|1:vobj">been</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-22:[subj]|1:man">simmering</W>
 <W msd="SP" tag="IN" in="-1:man" out="1:nobj">on</W>
 <W msd="PI" tag="DT" in="-1:nobj" out="2:attr|4:nobj">a</W>
-<W msd="ANP" tag="RB" in="1:degr" out="">very</W>
-<W msd="ANP" tag="JJ" in="-2:attr" out="-1:degr">weak</W>
+<W msd="ANP" tag="RB" in="1:quant" out="">very</W>
+<W msd="ANP" tag="JJ" in="-2:attr" out="-1:quant">weak</W>
 <W msd="NC=S" tag="NN" in="" out="">pilot</W>
 <W msd="NC=S" tag="NN" in="-4:nobj" out="">light</W>
 <W msd="XP" tag="." in="-9:pnct" out="">.</W>
@@ -43,8 +43,8 @@
 <W msd="PD" tag="DT" in="-1:dobj|3:[dobj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">coffers</W>
 <W msd="ANP" tag="RB" in="1:man" out="">hermetically</W>
-<W msd="VAP" tag="VBN" in="-4:vobj" out="-6:[subj]|-3:[dobj]|-1:man|1:bg">sealed</W>
-<W msd="SP" tag="IN" in="-1:bg" out="2:nobj">on</W>
+<W msd="VAP" tag="VBN" in="-4:vobj" out="-6:[subj]|-3:[dobj]|-1:man|1:scene">sealed</W>
+<W msd="SP" tag="IN" in="-1:scene" out="2:nobj">on</W>
 <W msd="ANP" tag="JJ" in="1:attr" out="">Danish</W>
 <W msd="NC=P" tag="NNS" in="-2:nobj" out="-1:attr">commitments</W>
 <W msd="U=" tag="TO" in="" out="1:nobj">to</W>
@@ -83,16 +83,16 @@
 <W msd="PD" tag="DT" in="-1:nobj" out="1:attr|2:other">the</W>
 <W msd="ANP" tag="JJ" in="-1:attr" out="">last</W>
 <W msd="U=" tag="TO" in="-2:other" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:avobj|2:ext">turn</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:avobj|2:time">turn</W>
 <W msd="RG" tag="RP" in="-1:avobj" out="">up</W>
-<W msd="ANP" tag="RB" in="-2:ext" out="">again</W>
+<W msd="ANP" tag="RB" in="-2:time" out="">again</W>
 <W msd="XP" tag="," in="-21:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-22:pnct" out="">"</W>
 <W msd="VADR" tag="VBZ" in="" out="-23:qobj|2:subj|7:pnct">says</W>
 <W msd="NP=S" tag="NNP" in="1:namef" out="">Oliver</W>
-<W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:origin">Jensen</W>
+<W msd="NP=S" tag="NNP" in="-2:subj" out="-1:namef|1:pnct|2:source">Jensen</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
-<W msd="NP=S" tag="NNP" in="-2:origin" out="1:loc">FLS</W>
+<W msd="NP=S" tag="NNP" in="-2:source" out="1:loc">FLS</W>
 <W msd="SP" tag="IN" in="-1:loc" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="">Peking</W>
 <W msd="XP" tag="." in="-7:pnct" out="">.</W>
@@ -107,8 +107,8 @@
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr">China</W>
 <W msd="VADR" tag="VBZ" in="-5:vobj" out="-4:subj|1:vobj">is</W>
 <W msd="VAG" tag="VBG" in="-1:vobj" out="-5:[subj]|2:man">going</W>
-<W msd="ANP" tag="RB" in="1:degr" out="2:nobj">so</W>
-<W msd="ANP" tag="RB" in="-2:man" out="-1:degr">fast</W>
+<W msd="ANP" tag="RB" in="1:quant" out="2:nobj">so</W>
+<W msd="ANP" tag="RB" in="-2:man" out="-1:quant">fast</W>
 <W msd="SP" tag="IN" in="-2:nobj" out="2:vobj">that</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">you</W>
 <W msd="VADR" tag="VBP" in="-2:vobj" out="-1:subj|1:dobj">lose</W>
@@ -147,13 +147,13 @@
 <W msd="ANP" tag="JJ" in="-1:preds" out="">exciting</W>
 <W msd="U=" tag="TO" in="-3:nobj" out="1:vobj">to</W>
 <W _noerror="&3a;nosubj&3a;" msd="VAF" tag="VB" in="-1:vobj" out="2:dobj">see</W>
-<W msd="PT" tag="WRB" in="1:degr" out="">how</W>
-<W msd="ANP" tag="RB" in="-2:dobj|4:[mod]" out="-1:degr|2:relr">far</W>
+<W msd="PT" tag="WRB" in="1:quant" out="">how</W>
+<W msd="ANP" tag="RB" in="-2:dobj|4:[mod]" out="-1:quant|2:relr">far</W>
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">they</W>
 <W msd="VADR" tag="VBP" in="-2:relr" out="-1:subj|1:dobj">dare</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|-4:[mod]|1:bg">go</W>
-<W msd="SP" tag="IN" in="-1:bg" out="1:nobj">in</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|-4:[mod]|1:scene">go</W>
+<W msd="SP" tag="IN" in="-1:scene" out="1:nobj">in</W>
 <W msd="VAG" tag="VBG" in="-1:nobj" out="2:dobj">unleashing</W>
 <W msd="NC=S" tag="NN" in="" out="">market</W>
 <W msd="AC" note="skal adskilles" tag="CD" in="-15:pnct#|-2:dobj" out="">forces.</W>

@@ -9,11 +9,11 @@
 <W msd="VAF" tag="VB" in="" out="-7:cond|1:pobj">write</W>
 <W msd="U=" tag="TO" in="-1:pobj" out="2:nobj">to</W>
 <W msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W msd="PD" tag="DT" in="-2:nobj" out="-1:pnct|1:nobj|2:pnct|3:pnct|4:attr|4:{pos}|7:pnct|8:other|10:other">The</W>
+<W msd="PD" tag="DT" in="-2:nobj" out="-1:pnct|1:nobj|2:pnct|3:pnct|4:attr|4:{loc}|7:pnct|8:other|10:other">The</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">Doctors</W>
 <W msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-3:pnct" out="">"</W>
-<W msd="NP=S" tag="NNP" in="-4:attr|-4:{pos}" out="2:nobj">SUNDAY</W>
+<W msd="NP=S" tag="NNP" in="-4:attr|-4:{loc}" out="2:nobj">SUNDAY</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{time}#" out="">Weekly</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{time}#">Magazine</W>
 <W msd="XP" tag="," in="-7:pnct" out="">,</W>
@@ -23,11 +23,11 @@
 <W msd="NP=S" tag="NNP" in="-1:other" out="1:other">Copenhagen</W>
 <W msd="NP=S" tag="NNP" in="-1:other" out="">V.</W>
 <W msd="ANP" tag="RB" in="1:focal" out="">Only</W>
-<W msd="PD" tag="DT" in="4:{pos}|5:subj|6:[subj]" out="-1:focal|1:nobj|4:possd">the</W>
+<W msd="PD" tag="DT" in="4:{loc}|5:subj|6:[subj]" out="-1:focal|1:nobj|4:possd">the</W>
 <W msd="NP=S" tag="NNP" in="-1:nobj" out="2:nobj">SUNDAY</W>
 <W msd="NP=S" tag="NNP" in="1:attr|1:{time}#" out="">Weekly</W>
 <W msd="NP=S" tag="NNP" in="-2:nobj" out="-1:attr|-1:{time}#">Magazine's</W>
-<W msd="NC=P" tag="NNS" in="-4:possd" out="-4:{pos}">doctors</W>
+<W msd="NC=P" tag="NNS" in="-4:possd" out="-4:{loc}">doctors</W>
 <W msd="VA" tag="MD" in="" out="-5:subj|1:vobj|4:pnct">may</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-6:[subj]|1:dobj">open</W>
 <W msd="PO" tag="PRP$" in="-1:dobj|1:{agent}" out="1:possd">your</W>
@@ -37,11 +37,11 @@
 <s>
 <W msd="NP=S" tag="NNP" in="" out="1:pnct|6:xpl">NB</W>
 <W msd="XP" tag="&3a;" in="-1:pnct" out="">:</W>
-<W msd="ANP" tag="RB" in="4:att" out="1:pnct">Unfortunately</W>
+<W msd="ANP" tag="RB" in="4:eval" out="1:pnct">Unfortunately</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PD" tag="DT" in="2:subj|3:[subj]|8:[subj]" out="1:nobj">the</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">doctors</W>
-<W msd="VADR" tag="VBP" in="-6:xpl" out="-2:subj|-4:att|1:vobj|10:pnct">cannot</W>
+<W msd="VADR" tag="VBP" in="-6:xpl" out="-2:subj|-4:eval|1:vobj|10:pnct">cannot</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj|2:pobj">take</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="3:nobj">it</W>
 <W msd="SP" tag="IN" in="-2:pobj" out="1:nobj">upon</W>
@@ -129,11 +129,11 @@
 <s>
 <W msd="PP" tag="PRP" in="1:subj|2:[subj]" out="">She</W>
 <W msd="VADR" tag="VBZ" in="" out="-1:subj|1:vobj|8:pnct">has</W>
-<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|4:dur">taken</W>
+<W msd="VAP" tag="VBN" in="-1:vobj" out="-2:[subj]|3:dobj|4:time">taken</W>
 <W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
 <W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#">pills</W>
-<W msd="SP" tag="IN" in="-4:dur" out="1:nobj">for</W>
+<W msd="SP" tag="IN" in="-4:time" out="1:nobj">for</W>
 <W msd="ANP" tag="JJ" in="-1:nobj" out="1:nobj">many</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">years</W>
 <W msd="XP" tag="." in="-8:pnct" out="">.</W>
@@ -160,25 +160,25 @@
 <W msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W msd="CC" tag="CC" in="9:coord" out="">and</W>
 <W msd="XP" note="" tag="," in="1:pnct" out="">,</W>
-<W msd="CS" tag="IN" in="7:reas" out="-1:pnct|1:pobj|6:pnct">because</W>
+<W msd="CS" tag="IN" in="7:cause" out="-1:pnct|1:pobj|6:pnct">because</W>
 <W msd="SP" tag="IN" in="-1:pobj" out="1:nobj">of</W>
 <W msd="PO" tag="PRP$" in="-1:nobj" out="1:nobj">her</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="1:pobj|1:{arg}">opposition</W>
 <W msd="U=" tag="TO" in="-1:pobj|-1:{arg}" out="1:nobj">to</W>
 <W msd="NC=S" tag="NN" in="-1:nobj" out="">abortion</W>
 <W msd="XP" tag="," in="-6:pnct" out="">,</W>
-<W msd="VADA" tag="VBD" in="-24:conj" out="-25:[subj]|-7:reas|-9:coord|1:dobj">wanted</W>
+<W msd="VADA" tag="VBD" in="-24:conj" out="-25:[subj]|-7:cause|-9:coord|1:dobj">wanted</W>
 <W msd="U=" tag="TO" in="-1:dobj" out="1:vobj">to</W>
 <W msd="VAF" tag="VB" in="-1:vobj" out="-27:[subj]|2:aobj">make</W>
-<W msd="AC" note="skal adskilles" tag="CD" in="1:degr" out="">100%</W>
-<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:degr">sure</W>
+<W msd="AC" note="skal adskilles" tag="CD" in="1:quant" out="">100%</W>
+<W msd="ANP" tag="JJ" in="-2:aobj" out="-1:quant">sure</W>
 <W msd="XP" tag="." in="-29:pnct" out="">.</W>
 </s>
 <s>
-<W msd="ANP" tag="RB" in="3:reas" out="1:pnct">Therefore</W>
+<W msd="ANP" tag="RB" in="3:cause" out="1:pnct">Therefore</W>
 <W msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W msd="PP" tag="PRP" in="1:subj" out="">she</W>
-<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:reas|3:dobj|13:pnct">chose</W>
+<W msd="VADA" tag="VBD" in="" out="-1:subj|-3:cause|3:dobj|13:pnct">chose</W>
 <W msd="NC=S" tag="NN" in="1:nobj.dobj|1:{patient}#" out="">birth</W>
 <W msd="NC=S" tag="NN" in="1:attr|1:{func}#" out="-1:nobj.dobj|-1:{patient}#">control</W>
 <W msd="NC=P" tag="NNS" in="-3:dobj" out="-1:attr|-1:{func}#|1:pnct|2:ref|3:relpa">pills</W>
@@ -218,9 +218,9 @@
 <W msd="PP" tag="PRP" in="1:subj|3:[subj]" out="">she</W>
 <W msd="VADA" tag="VBD" in="-17:conj" out="-1:subj|-2:coord|1:neg|2:vobj">did</W>
 <W msd="ANP" tag="RB" in="-1:neg" out="">not</W>
-<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:degr">want</W>
+<W msd="VAF" tag="VB" in="-2:vobj" out="-3:[subj]|1:dobj|2:quant">want</W>
 <W msd="PP" tag="PRP" in="-1:dobj" out="">it</W>
-<W msd="SP" tag="IN" in="-2:degr" out="1:nobj">under</W>
+<W msd="SP" tag="IN" in="-2:quant" out="1:nobj">under</W>
 <W msd="PD" tag="DT" in="-1:nobj" out="1:nobj">any</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">circumstances</W>
 <W msd="XP" tag="." in="-24:pnct" out="">.</W>
@@ -230,8 +230,8 @@
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="">risks</W>
 <W msd="U=" tag="EX" in="-2:ref|1:subj|2:[subj]" out="">there</W>
 <W msd="VA" tag="MD" in="-3:relr" out="-1:subj|1:vobj">might</W>
-<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:ben">be</W>
-<W msd="SP" tag="IN" in="-1:ben" out="1:nobj">for</W>
+<W msd="VAF" tag="VB" in="-1:vobj" out="-2:[subj]|1:goal">be</W>
+<W msd="SP" tag="IN" in="-1:goal" out="1:nobj">for</W>
 <W msd="NC=P" tag="NNS" in="-1:nobj" out="1:pobj|1:{quant}">women</W>
 <W msd="SP" tag="IN" in="-1:pobj|-1:{quant}" out="1:nobj">over</W>
 <W msd="AC" note="skal adskilles" tag="CD" in="-1:nobj" out="">40,</W>

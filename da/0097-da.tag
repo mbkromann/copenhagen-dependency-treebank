@@ -123,16 +123,16 @@
 <W gloss="but" lemma="men" msd="CC" tag="CC" in="2:coord" out="">men</W>
 <W gloss="the_KV_government" lemma="KV-regering" msd="NCCSU==D" tag="NN" in="1:subj" out="">KV-regeringen</W>
 <W gloss="governs" lemma="regere" msd="VADR=----A-" tag="VBD" in="-10:conj" out="-1:subj|-2:coord|2:man">regerer</W>
-<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:man" out="-1:degr|1:nobj">på</W>
+<W gloss="entirely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="at" lemma="på" msd="SP" tag="IN" in="-2:man" out="-1:quant|1:nobj">på</W>
 <W gloss="the_Social_Democratic_Party" lemma="socialdemokrati" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">Socialdemokratiets</W>
 <W gloss="mercy" lemma="nåde" msd="NCCSU==I" tag="NN" in="-1:possd" out="">nåde</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
 <s>
 <W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj" out="">Vi</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="17:qobj" out="-1:subj|1:reas|2:dobj|15:pnct|16:pnct|23:pnct">har</W>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:reas" out="">derfor</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="17:qobj" out="-1:subj|1:cause|2:dobj|15:pnct|16:pnct|23:pnct">har</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-1:cause" out="">derfor</W>
 <W gloss="few" lemma="få" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:dobj|4:[subj]" out="1:attr|2:nobj|4:other">få</W>
 <W gloss="strong" lemma="stærk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">stærke</W>
 <W gloss="feelings" lemma="følelse" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="">følelser</W>
@@ -253,12 +253,12 @@
 <W gloss="government" lemma="regering" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">regering</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-4:pnct" out="">,</W>
 <W gloss="which" lemma="der" msd="U=" tag="WDT" in="-5:ref|2:subj|3:[subj]" out="">der</W>
-<W gloss="thereby" lemma="dermed" msd="RGU" tag="RP" in="1:reas" out="">dermed</W>
-<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:reas|1:vobj|6:pnct">ville</W>
+<W gloss="thereby" lemma="dermed" msd="RGU" tag="RP" in="1:cause" out="">dermed</W>
+<W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-7:rel" out="-2:subj|-1:cause|1:vobj|6:pnct">ville</W>
 <W gloss="have" lemma="få" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:[subj]|1:dobj">få</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:dobj" out="2:attr|3:nobj">en</W>
-<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:degr" out="">langt</W>
-<W gloss="sharper" lemma="skarp" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:attr" out="-1:degr">skarpere</W>
+<W gloss="far" lemma="lang" msd="ANP---=-R" tag="JJ" in="1:quant" out="">langt</W>
+<W gloss="sharper" lemma="skarp" msd="ANC[CN][SP]U=[DI]U" tag="JJR" in="-2:attr" out="-1:quant">skarpere</W>
 <W gloss="profile" lemma="profil" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">profil</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-6:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-20:pnct" out="">"</W>

@@ -72,8 +72,8 @@
 <W lemma="dovere" msd="VADR" tag="VER&3a;pres" in="18:qobj" out="-2:subj|1:vobj|17:pnct">devono</W>
 <W lemma="iniziare" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="-3:[subj]|4:time|7:goal">iniziare</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="3:time" out="2:nobj">al</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr">tardi</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="-2:nobj" out="-1:quant">tardi</W>
 <W lemma="entro" msd="SP" tag="PRE" in="-4:time" out="-3:time|2:nobj">entro</W>
 <W lemma="aprile" msd="NC" tag="NOM" in="1:nobj" out="">aprile</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-2:nobj" out="-1:nobj">1987</W>
@@ -115,11 +115,11 @@
 <W lemma="dal" msd="SP+P" tag="PRE&3a;det" in="-5:time" out="-1:focal|1:nobj">dall'</W>
 <W lemma="inizio" msd="NC" tag="NOM" in="-1:nobj" out="6:appa">inizio</W>
 <W lemma="," msd="XP" tag="PON" in="5:pnct" out="">,</W>
-<W lemma="più" msd="RG" tag="ADV" in="4:degr" out="1:pobj">più</W>
+<W lemma="più" msd="RG" tag="ADV" in="4:quant" out="1:pobj">più</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">di</W>
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">due</W>
 <W lemma="anno" msd="NC" tag="NOM" in="-1:nobj" out="">anni</W>
-<W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-6:appa" out="-4:degr|-5:pnct|1:pnct">fa</W>
+<W lemma="fare" msd="VADR" tag="VER&3a;pres" in="-6:appa" out="-4:quant|-5:pnct|1:pnct">fa</W>
 <W lemma=";" msd="XP" tag="PON" in="-1:pnct" out="">;</W>
 <W lemma="adesso" msd="RG" tag="ADV" in="1:time" out="">adesso</W>
 <W lemma="volere" msd="VADR" tag="VER&3a;pres" in="-16:vobj" out="-1:time|-19:[subj]|1:dobj">vogliamo</W>
@@ -169,8 +169,8 @@
 <W lemma="a" msd="SP" tag="PRE" in="-4:loc" out="1:nobj">a</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="-1:nobj" out="">Jyderup</W>
 <W lemma="al" msd="SP+P" tag="PRE&3a;det" in="3:time" out="2:nobj">al</W>
-<W lemma="più" msd="RG" tag="ADV" in="1:degr" out="">più</W>
-<W lemma="tardo" msd="AN" tag="ADJ" in="-2:nobj" out="-1:degr">tardi</W>
+<W lemma="più" msd="RG" tag="ADV" in="1:quant" out="">più</W>
+<W lemma="tardo" msd="AN" tag="ADJ" in="-2:nobj" out="-1:quant">tardi</W>
 <W lemma="nel" msd="SP+P" tag="PRE&3a;det" in="-13:time" out="-3:time|1:nobj">nel</W>
 <W lemma="trimestre" msd="NC" tag="NOM" in="-1:nobj" out="1:attr">trimestre</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr" out="1:nobj">di</W>

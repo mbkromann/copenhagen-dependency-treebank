@@ -45,8 +45,8 @@
 <W gloss="got" lemma="få" msd="VADA=----A-" tag="VBD" in="" out="-1:subj|1:eval|2:dobj|14:pnct">fik</W>
 <W gloss="At_any_rate" lemma="i_hvert_fald" msd="RGU" tag="RP" in="-1:eval" out="">i_hvert_fald</W>
 <W gloss="some" lemma="nogen" msd="PI-CSU--U" tag="DT" in="-2:dobj" out="2:attr|3:nobj">nogen</W>
-<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:degr" out="">helt</W>
-<W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:degr">nye</W>
+<W gloss="completely" lemma="hel" msd="ANP---=-R" tag="JJ" in="1:quant" out="">helt</W>
+<W gloss="new" lemma="ny" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:attr" out="-1:quant">nye</W>
 <W gloss="angles" lemma="vinkel" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="1:pobj">vinkler</W>
 <W gloss="on" lemma="på" msd="RGU" tag="RP" in="-1:pobj" out="1:pnct|2:nobj">på</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -139,8 +139,8 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-12:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:reas" out="">Derfor</W>
-<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:reas|1:subj|3:neg|4:aobj|13:pnct">har</W>
+<W gloss="So" lemma="derfor" msd="RGU" tag="RP" in="1:cause" out="">Derfor</W>
+<W gloss="have" lemma="have" msd="VADR=----A-" tag="VBD" in="" out="-1:cause|1:subj|3:neg|4:aobj|13:pnct">har</W>
 <W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-1:subj" out="">jeg</W>
 <W gloss="nor" lemma="heller" msd="RGU" tag="RP" in="1:correl" out="">heller</W>
 <W gloss="no" lemma="ikke" msd="RGU" tag="RP" in="-3:neg" out="-1:correl">ikke</W>

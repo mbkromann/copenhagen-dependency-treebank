@@ -149,8 +149,8 @@
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">país</W>
 <W lemma="y" msd="CC" tag="CC" in="-7:pnct" out="">y</W>
-<W lemma="repartirse" msd="VA" tag="VCLI" in="-9:vobj" out="1:ben|9:pnct|10:vobj">repartirse</W>
-<W lemma="entre" msd="SP" tag="SCENE" in="-1:ben" out="1:nobj|5:conj">entre</W>
+<W lemma="repartirse" msd="VA" tag="VCLI" in="-9:vobj" out="1:goal|9:pnct|10:vobj">repartirse</W>
+<W lemma="entre" msd="SP" tag="SCENE" in="-1:goal" out="1:nobj|5:conj">entre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">el</W>
 <W lemma="servicio" msd="NC" tag="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">servicio</W>
 <W lemma="hospitalario" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">hospitalario</W>
@@ -159,8 +159,8 @@
 <W lemma="servicio" msd="NC" tag="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">servicio</W>
 <W lemma="sanitario" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">sanitario</W>
 <W lemma="," msd="XP" tag="CM" in="-9:pnct" out="">,</W>
-<W lemma="evaluar" msd="VAF" tag="VLadj" in="-10:vobj" out="1:struct|2:man|3:vobj">evaluando</W>
-<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:struct" out="">además</W>
+<W lemma="evaluar" msd="VAF" tag="VLadj" in="-10:vobj" out="1:scene|2:man|3:vobj">evaluando</W>
+<W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:scene" out="">además</W>
 <W lemma="&lt;unknown&gt;" msd="AN" tag="ADJ" in="-2:man" out="">cómo</W>
 <W lemma="deber" msd="VAD" tag="VMfin" in="-3:vobj" out="1:vobj">debe</W>
 <W lemma="realizarse" msd="VA" tag="VCLI" in="-1:vobj" out="1:subj|3:loc">realizarse</W>
@@ -168,7 +168,7 @@
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NC" in="-1:nobj" out="">colaboración</W>
 <W lemma="entre" msd="SP" tag="SCENE" in="-3:loc" out="1:nobj">entre</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">las</W>
-<W lemma="autoridad" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pnct|4:pnct|8:comp">autoridades</W>
+<W lemma="autoridad" msd="NC" tag="NC" in="-1:nobj" out="1:attr|2:pnct|4:pnct|8:resem">autoridades</W>
 <W lemma="central" msd="AN" tag="ADJ" in="-1:attr" out="2:conj|4:conj|6:conj">centrales</W>
 <W lemma="," msd="XP" tag="CM" in="-2:pnct" out="">,</W>
 <W lemma="estatal" msd="AN" tag="ADJ" in="-2:conj" out="">estatales</W>
@@ -176,7 +176,7 @@
 <W lemma="regional" msd="AN" tag="ADJ" in="-4:conj" out="">regionales</W>
 <W lemma="y" msd="CC" tag="CC" in="1:coord" out="">y</W>
 <W lemma="municipal" msd="AN" tag="ADJ" in="-6:conj" out="-1:coord">municipales</W>
-<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-8:comp" out="1:advsynt#">así</W>
+<W lemma="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-8:resem" out="1:advsynt#">así</W>
 <W lemma="como" msd="CS" tag="CSUBX" in="-1:advsynt#" out="1:nobj">como</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:nobj" out="1:nobj">los</W>
 <W lemma="productor" msd="NC" tag="NC" in="-1:nobj" out="2:conj">productores</W>

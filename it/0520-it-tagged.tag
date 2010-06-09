@@ -150,7 +150,7 @@
 <W lemma="capello" msd="NC" tag="NOM" in="" out="">capelli</W>
 <W lemma="umido" msd="AN" tag="ADJ" in="" out="">umidi</W>
 <W lemma="e" msd="CS" tag="CON" in="" out="">e</W>
-<W lemma="ben" msd="RG" tag="ADV" in="" out="">ben</W>
+<W lemma="goal" msd="RG" tag="ADV" in="" out="">ben</W>
 <W lemma="pettinato" msd="AN" tag="ADJ" in="" out="">pettinati</W>
 <W lemma="sedere" msd="VADR" tag="VER:pres" in="" out="">siedono</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NOM" in="" out="">stancamente</W>
