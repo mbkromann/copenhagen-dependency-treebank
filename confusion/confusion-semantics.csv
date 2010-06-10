@@ -1,18 +1,21 @@
-{about}	12	33%={about}	25%={arg}	17%={patient}	17%={func}	8%={loc}
-{agent}	16	38%={agent}	25%={arg}	19%={experiencer}	6%={loc}	6%={patient}	6%={source}
-{apart}	1	100%={const}
-{arg}	50	34%={arg}	16%={func}	10%={const}	8%={agent}	8%={patient}	8%={source}	6%={about}	4%={loc}	4%={other}	2%={poss}
+{about}	13	31%={arg}	31%={about}	15%={patient}	15%={func}	8%={loc}
+{agent}	17	35%={agent}	29%={arg}	18%={experiencer}	6%={loc}	6%={patient}	6%={source}
+{apart}	7	71%={apart}	14%={loc}	14%={const}
+{arg}	56	34%={arg}	14%={func}	11%={const}	9%={agent}	9%={source}	7%={about}	7%={patient}	4%={loc}	4%={other}	2%={poss}
 {class}	1	100%={const}
-{const}	17	29%={const}	29%={arg}	12%={form}	6%={apart}	6%={loc}	6%={class}	6%={func}	6%={source}
+{const}	20	35%={const}	30%={arg}	10%={form}	5%={apart}	5%={loc}	5%={class}	5%={func}	5%={source}
 {elab}	2	50%={loc}	50%={elab}
 {eval}	1	100%={eval}
 {experiencer}	4	75%={agent}	25%={patient}
 {form}	2	100%={const}
-{func}	32	50%={func}	25%={arg}	9%={loc}	6%={about}	3%={const}	3%={patient}	3%={iden}
+{func}	33	48%={func}	24%={arg}	9%={loc}	6%={about}	3%={const}	3%={patient}	3%={iden}	3%={other}
 {iden}	1	100%={func}
-{loc}	28	64%={loc}	11%={func}	7%={arg}	4%={const}	4%={agent}	4%={elab}	4%={about}	4%={poss}
-{other}	3	67%={arg}	33%={time}
+{location}	1	100%={loc}
+{loc}	31	58%={loc}	10%={func}	6%={arg}	3%={const}	3%={location}	3%={agent}	3%={elab}	3%={apart}	3%={recipient}	3%={about}	3%={poss}
+{other}	4	50%={arg}	25%={time}	25%={func}
 {patient}	21	57%={patient}	19%={arg}	10%={about}	5%={func}	5%={experiencer}	5%={agent}
-{poss}	7	71%={poss}	14%={loc}	14%={arg}
-{source}	20	60%={source}	20%={arg}	10%={time}	5%={const}	5%={agent}
+{poss}	8	75%={poss}	13%={loc}	13%={arg}
+{quant}	1	100%={quant}
+{recipient}	1	100%={loc}
+{source}	21	57%={source}	24%={arg}	10%={time}	5%={const}	5%={agent}
 {time}	11	73%={time}	18%={source}	9%={other}

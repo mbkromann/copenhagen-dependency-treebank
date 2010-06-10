@@ -1,4 +1,5 @@
-	
+dtag=~/cdt/dtag/dtag.pl
+
 all: clean cdt-files figures cdt-manual.pdf
 
 quick: cdt-files cdt-manual.pdf
@@ -17,11 +18,12 @@ cdt-compile:
 	rm -f build/build
 	cd build ; ln -s . build
 	rm -rf build/*.tex build/*.dtag
-	dtag -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
+	rm -f ~/cdt/docs/relations-cdt.csv
+	${dtag} -e 'script ~/cdt/tools/scripts/makeconfusion.dtag' -e 'quit'
 	./disp2scripts.pl cdt-disposition.txt build/cdt-rels
 	./disp2scripts.pl cdt-disposition-topics.txt build/cdt-topics
-	dtag -e 'script build/cdt-rels.dtag' -e 'quit'
-	dtag -e 'script build/cdt-topics.dtag' -e 'quit'
+	${dtag} -e 'script build/cdt-rels.dtag' -e 'quit'
+	${dtag} -e 'script build/cdt-topics.dtag' -e 'quit'
 
 confusion:
 	for f in `cd ~/cdt/confusion ; ls confusion-*` ; do \
@@ -36,7 +38,7 @@ status:
 
 figures: 
 	ls build/*.dtag | grep -v script | sed -e 's/^\(.*\).dtag$$/script \1.dtag\nprint \1.ps/g' > build/script.dtag
-	dtag -e 'cdtmanualsetup' -e 'script build/script.dtag' -e 'quit!'
+	${dtag} -e 'cdtmanualsetup' -e 'script build/script.dtag' -e 'quit!'
 	for f in `ls build/*.dtag | grep -v script | sed -e 's/.dtag$$//g'` ; do \
 		echo "===" $$f "===" ; \
 		(echo "%!PS-Adobe-2.0" ; cat $$f.ps) | ps2eps -f -l > $$f.eps ; \

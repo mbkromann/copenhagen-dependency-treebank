@@ -33,4 +33,6 @@ tell@CONF ~/cdt/docs/unknown-relations.csv
 find -corpus -yes $X isa(-ANY) $Y -do(echo@CONF $FILE\t`etypes($X /./ $Y)`\n)
 told@CONF
 
-
+# Make confusion tables for morphology
+!~/cdt/tools/relations-morphology
+!cat ~/cdt/confusion/relations-morphology.csv | ~/cdt/tools/dtag-confusion > ~/cdt/confusion/confusion-morphology.csv
