@@ -6827,7 +6827,7 @@ sub cmd_relset2latex {
 
 	# Print overview
 	open(my $ovfh, ">:encoding(UTF-8)", $ofile);
-	print $ovfh "\\begin{overview}{$relations}\n\n$relset_cmdsummary\n\n\\end{overview}\n";
+	print $ovfh "\\begin{overview}{$relations}\n\n$relset_cmdsummary\\end{overview}\n";
 	close($ovfh);
 }
 
