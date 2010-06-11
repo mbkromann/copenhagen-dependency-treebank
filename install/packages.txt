@@ -25,4 +25,4 @@ readline-common					install
 subversion					install
 gv						install
 libtext-csv-xs-perl				install
-
+ttf-linux-libertine				install
