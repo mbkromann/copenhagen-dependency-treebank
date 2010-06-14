@@ -51,30 +51,24 @@
 [*] en/0307-en.tag
 [*] es/0307-es-jonas.tag
 [*] da/0421-da.tag
+[*] en/0421-en.tag
 [*] es/0421-es-lotte.tag
 [*] da/0431-da.tag
+[*] en/0431-en.tag
 [*] es/0431-es-lotte.tag
-[ ] da/0502-da.tag
-[ ] da/0531-da.tag
-[ ] da/0593-da.tag
-
-[ ] en/0421-en.tag
-
-[ ] en/0431-en.tag
-
-
-[ ] en/0502-en.tag
+[*] da/0502-da.tag
+[*] en/0502-en.tag
 [ ] es/0502-es-soren.tag
-
+[*] da/0531-da.tag
 [ ] en/0531-en.tag
 [ ] es/0531-es-jonas.tag
-
+[*] da/0593-da.tag
 [ ] en/0593-en.tag
 [ ] es/0593-es-lotte.tag
-[ ] da/0602-da.tag
+[*] da/0602-da.tag
 [ ] en/0602-en.tag
 [ ] es/0602-es-jonas.tag
-[ ] da/0620-da.tag
+[*] da/0620-da.tag
 [ ] en/0620-en.tag
 [ ] es/0620-es-soren.tag
 
