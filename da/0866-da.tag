@@ -80,14 +80,14 @@
 <W gloss="right" lemma="rigtig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">rigtige</W>
 <W gloss="arguments" lemma="argument" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">argumenter</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-4:conj" out="1:attr|2:nobj|3:loc|-1:coord">de</W>
+<W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-4:conj" out="-1:coord|1:attr|2:nobj|3:loc">de</W>
 <W gloss="active" lemma="aktiv" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:attr" out="">aktive</W>
 <W gloss="no-people" lemma="nej-folk" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="">nej-folk</W>
 <W gloss="here" lemma="her" msd="RGU" tag="RP" in="-3:loc" out="1:pnct|2:conj|4:conj">her</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="there" lemma="der" msd="RGU" tag="RP" in="-2:conj" out="">der</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:conj" out="1:nobj|-1:coord">alle</W>
+<W gloss="all" lemma="al" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-4:conj" out="-1:coord|1:nobj">alle</W>
 <W gloss="on_behalf" lemma="vegne" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">vegne</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-15:pnct" out="">.</W>
 </s>
@@ -235,7 +235,7 @@
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="3:vobj">at</W>
 <W gloss="the_government" lemma="regering" msd="NCCSU==D" tag="NN" in="2:subj|3:[subj]" out="">regeringen</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="1:pnct" out="">"</W>
-<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:pnct|1:vobj|4:pnct|20:pnct|9:conj">er</W>
+<W gloss="was" lemma="være" msd="VADR=----A-" tag="VBD" in="-3:vobj" out="-2:subj|-1:pnct|1:vobj|4:pnct|9:conj|20:pnct">er</W>
 <W gloss="permeated" lemma="gennemsyre" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-3:[subj]|1:pobj">gennemsyret</W>
 <W gloss="with" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="skandalesager" lemma="skandalesag" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">skandalesager</W>
@@ -244,7 +244,7 @@
 <W gloss="any" lemma="enhver" msd="PI-CSU--U" tag="DT" in="3:subj|4:[subj]" out="1:attr|2:nobj">enhver</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]SU=IU" tag="JJ" in="-1:attr" out="">politisk</W>
 <W gloss="logic" lemma="logik" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">logik</W>
-<W gloss="should" lemma="burde" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-3:subj|1:vobj|-4:coord">burde</W>
+<W gloss="should" lemma="burde" msd="VADA=----A-" tag="VBD" in="-9:conj" out="-3:subj|-4:coord|1:vobj">burde</W>
 <W gloss="dictate" lemma="tilsige" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-4:[subj]|1:pnct|2:dobj">tilsige</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="2:vobj">at</W>

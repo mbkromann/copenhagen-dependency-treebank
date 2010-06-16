@@ -158,7 +158,7 @@
 <p>
 <s>
 <W gloss="Rushdie" lemma="Rushdie" msd="NP--U==-" tag="NNP" in="1:subj" out="">Rushdie</W>
-<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|10:pnct|12:loc|33:pnct|1:@dir">går</W>
+<W gloss="goes" lemma="gå" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:@dir|10:pnct|12:loc|33:pnct">går</W>
 <W gloss="in_favour" lemma="ind" msd="RGU" tag="RP" in="-1:@dir" out="1:other">ind</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:other" out="1:nobj">i</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:attr|2:attr|3:nobj">en</W>

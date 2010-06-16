@@ -41,8 +41,8 @@
 <div1 type=main>
 <p>
 <s>
-<W gloss="Passage" lemma="overfart" msd="NCCSU==D" tag="NN" in="3:subj" out="1:loc">Overfarten</W>
-<W gloss="across" lemma="på" msd="SP" tag="IN" in="-1:loc" out="1:nobj">på</W>
+<W gloss="Passage" lemma="overfart" msd="NCCSU==D" tag="NN" in="3:subj" out="1:attr|1:{loc}">Overfarten</W>
+<W gloss="across" lemma="på" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">på</W>
 <W gloss="the_Great_Belt" lemma="Storebælt" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Storebælt</W>
 <W gloss="was_opened" lemma="åbne" msd="VADA=----P-" tag="VBD" in="" out="-3:subj|1:pobj|4:time|8:pnct">åbnedes</W>
 <W gloss="to" lemma="for" msd="SP" tag="IN" in="-1:pobj" out="2:nobj">for</W>
@@ -234,7 +234,7 @@
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">år</W>
 <W gloss="2000" lemma="2000" msd="AC---U=--" tag="CD" in="-1:nobj" out="">2000</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="in" lemma="på" msd="SP" tag="IN" in="-15:conj" out="1:nobj|-1:coord">på</W>
+<W gloss="in" lemma="på" msd="SP" tag="IN" in="-15:conj" out="-1:coord|1:nobj">på</W>
 <W gloss="the_Baltic" lemma="Østersøen" msd="NP--U==-" tag="NNP" in="-1:nobj" out="1:time">Østersøen</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:time" out="1:nobj">i</W>
 <W gloss="year" lemma="år" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:nobj">år</W>
