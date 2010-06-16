@@ -162,7 +162,7 @@
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">af</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-1:nobj" out="1:nobj">en</W>
 <W gloss="calorie_table" lemma="kalorietabel" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">kalorietabel</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-5:inst|-6:coord|14:conj|1:@dir">finde</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-9:conj" out="-5:inst|-6:coord|1:@dir|14:conj">finde</W>
 <W gloss="above" lemma="frem" msd="RGU" tag="RP" in="-1:@dir" out="1:pobj">frem</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|4:rel">de</W>

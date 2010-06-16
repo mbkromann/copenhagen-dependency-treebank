@@ -154,7 +154,7 @@
 </s>
 <s>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="1:subj" out="">De</W>
-<W gloss="keeps" lemma="holde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:part|8:pnct|2:@loc">holder</W>
+<W gloss="keeps" lemma="holde" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:part|2:@loc|8:pnct">holder</W>
 <W gloss="in" lemma="til" msd="RGU" tag="RP" in="-1:part" out="">til</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-2:@loc" out="1:nobj">på</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="1:attr|2:nobj">de</W>

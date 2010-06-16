@@ -159,7 +159,7 @@
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="something" lemma="nogen" msd="PI-NSU--U" tag="DT" in="-2:preds" out="1:nobj">noget</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="write" lemma="skrive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="2:pobj|1:@dir">skrive</W>
+<W gloss="write" lemma="skrive" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|2:pobj">skrive</W>
 <W gloss="home" lemma="hjem" msd="RGU" tag="RP" in="-1:@dir" out="">hjem</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-2:pobj" out="">om</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-7:pnct" out="">,</W>
