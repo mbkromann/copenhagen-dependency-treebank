@@ -185,15 +185,15 @@
 [*] de/0848-de-morten.tag
 [*] it/0848-it-lisa.tag
 [*] da/0866-da.tag
-[ ] de/0866-de-morten.tag
-[ ] it/0866-it-morten.tag
+[*] de/0866-de-morten.tag
+[*] it/0866-it-morten.tag
 [*] da/0876-da.tag
-[ ] de/0876-de-morten.tag
-[ ] it/0876-it-morten.tag
-[ ] da/0881-da.tag
-[ ] de/0881-de-morten.tag
-[ ] it/0881-it-morten.tag
-[ ] da/0915-da.tag
+[*] de/0876-de-morten.tag
+[*] it/0876-it-lisa.tag
+[*] da/0881-da.tag
+[*] de/0881-de-morten.tag
+[*] it/0881-it-morten.tag
+[*] da/0915-da.tag
 [ ] de/0915-de-morten.tag
 [ ] it/0915-it-morten.tag
 [ ] da/0939-da.tag
@@ -860,7 +860,7 @@
 [ ] da-de/0864-da-de-morten.atag
 [ ] de/0864-de-morten.tag
 [ ] da-de/0866-da-de-morten.atag
-[ ] de/0866-de-morten.tag
+[*] de/0866-de-morten.tag
 [ ] da-de/0870-da-de-morten.atag
 [ ] de/0870-de-morten.tag
 [ ] da-de/0873-da-de-morten.atag
@@ -872,7 +872,7 @@
 [ ] da-de/0879-da-de-morten.atag
 [ ] de/0879-de-morten.tag
 [ ] da-de/0881-da-de-morten.atag
-[ ] de/0881-de-morten.tag
+[*] de/0881-de-morten.tag
 [ ] da-de/0883-da-de-morten.atag
 [ ] de/0883-de-morten.tag
 [ ] da-de/0888-da-de-morten.atag
@@ -2834,7 +2834,7 @@ Flere italienske tekster:
 [*] it/0800-it-morten.tag
 [*] it/0805-it-morten.tag
 [ ] it/0848-it-morten.tag
-[ ] it/0866-it-morten.tag
+[*] it/0866-it-morten.tag
 [ ] it/0876-it-morten.tag
 [ ] da-it/0881-da-it-morten.atag
 [ ] da-it/0915-da-it-morten.atag
@@ -2884,9 +2884,9 @@ Flere italienske tekster:
 [ ] da-it/0805-da-it-morten.atag
 [*] it/0805-it-morten.tag
 [ ] da-it/0866-da-it-morten.atag
-[ ] it/0866-it-morten.tag
+[*] it/0866-it-morten.tag
 [ ] da-it/0881-da-it-morten.atag
-[ ] it/0881-it-morten.tag
+[*] it/0881-it-morten.tag
 [ ] da-it/0939-da-it-morten.atag
 [ ] it/0939-it-morten.tag
 [ ] da-it/0998-da-it-morten.atag
@@ -4579,7 +4579,7 @@ Flere italienske tekster:
 [ ] da-de/0864-da-de-morten.atag
 [ ] de/0864-de-morten.tag
 [ ] da-de/0866-da-de-morten.atag
-[ ] de/0866-de-morten.tag
+[*] de/0866-de-morten.tag
 [ ] da-de/0870-da-de-morten.atag
 [ ] de/0870-de-morten.tag
 [ ] da-de/0873-da-de-morten.atag
@@ -4591,7 +4591,7 @@ Flere italienske tekster:
 [ ] da-de/0879-da-de-morten.atag
 [ ] de/0879-de-morten.tag
 [ ] da-de/0881-da-de-morten.atag
-[ ] de/0881-de-morten.tag
+[*] de/0881-de-morten.tag
 [ ] da-de/0883-da-de-morten.atag
 [ ] de/0883-de-morten.tag
 [ ] da-de/0888-da-de-morten.atag
@@ -5233,7 +5233,7 @@ Flere italienske tekster:
 [*] it/0800-it-morten.tag
 [*] it/0805-it-morten.tag
 [ ] it/0848-it-morten.tag
-[ ] it/0866-it-morten.tag
+[*] it/0866-it-morten.tag
 [ ] it/0876-it-morten.tag
 [ ] da-it/0881-da-it-morten.atag
 [ ] da-it/0915-da-it-morten.atag
@@ -5283,9 +5283,9 @@ Flere italienske tekster:
 [ ] da-it/0805-da-it-morten.atag
 [*] it/0805-it-morten.tag
 [ ] da-it/0866-da-it-morten.atag
-[ ] it/0866-it-morten.tag
+[*] it/0866-it-morten.tag
 [ ] da-it/0881-da-it-morten.atag
-[ ] it/0881-it-morten.tag
+[*] it/0881-it-morten.tag
 [ ] da-it/0939-da-it-morten.atag
 [ ] it/0939-it-morten.tag
 [ ] da-it/0998-da-it-morten.atag
@@ -6978,7 +6978,7 @@ Flere italienske tekster:
 [ ] da-de/0864-da-de-morten.atag
 [ ] de/0864-de-morten.tag
 [ ] da-de/0866-da-de-morten.atag
-[ ] de/0866-de-morten.tag
+[*] de/0866-de-morten.tag
 [ ] da-de/0870-da-de-morten.atag
 [ ] de/0870-de-morten.tag
 [ ] da-de/0873-da-de-morten.atag
@@ -6986,11 +6986,11 @@ Flere italienske tekster:
 [ ] da-de/0874-da-de-morten.atag
 [ ] de/0874-de-morten.tag
 [ ] da-de/0876-da-de-morten.atag
-[ ] de/0876-de-morten.tag
+[*] de/0876-de-morten.tag
 [ ] da-de/0879-da-de-morten.atag
 [ ] de/0879-de-morten.tag
 [ ] da-de/0881-da-de-morten.atag
-[ ] de/0881-de-morten.tag
+[*] de/0881-de-morten.tag
 [ ] da-de/0883-da-de-morten.atag
 [ ] de/0883-de-morten.tag
 [ ] da-de/0888-da-de-morten.atag
@@ -7578,7 +7578,7 @@ Flere italienske tekster:
 [*] it/0729-it-lisa.tag
 [ ] it/0780-it-lisa.tag
 [*] it/0783-it-lisa.tag
-[ ] it/0876-it-lisa.tag
+[*] it/0876-it-lisa.tag
 [ ] it/0881-it-lisa.tag
 [ ] it/0915-it-lisa.tag
 [ ] it/0939-it-lisa.tag

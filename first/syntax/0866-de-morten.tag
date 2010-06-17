@@ -153,7 +153,7 @@
 <W lemma="und" msd="CC" tag="KON" in="2:coord" out="">und</W>
 <W lemma="&lt;unknown&gt;" msd="NC" tag="NN" in="1:attr" out="">Kristeligt</W>
 <W lemma="&lt;unknown&gt;" msd="NP" tag="NE" in="-7:conj" out="-2:coord|-1:attr">Folkeparti</W>
-<W lemma="d" msd="P[ID]" tag="ART" in="13:iobj" out="1:attr|2:nobj">der</W>
+<W lemma="d" msd="P[ID]" tag="ART" in="" out="1:attr|2:nobj">der</W>
 <W lemma="rasant" msd="AN" tag="ADJA" in="-1:attr" out="">rasanten</W>
 <W lemma="Talfahrt" msd="NC" tag="NN" in="-2:nobj" out="1:pobj.subj|1:{agent}">Talfahrt</W>
 <W lemma="d" msd="P[ID]" tag="ART" in="-1:pobj.subj|-1:{agent}" out="1:attr|2:pnct|3:attr|4:nobj|5:attr">des</W>
@@ -166,7 +166,7 @@
 <W lemma="nicht" msd="RG" tag="PTKNEG" in="3:neg" out="">nicht</W>
 <W lemma="bald" msd="RG" tag="ADV" in="2:time" out="">bald</W>
 <W lemma="Einhalt" msd="NC" tag="NN" in="1:dobj" out="">Einhalt</W>
-<W lemma="gebieten" msd="VA" tag="VVFIN" in="-22:vobj" out="-21:subj|-3:neg|-2:time|-1:dobj|1:pnct|-13:iobj">gebieten</W>
+<W lemma="gebieten" msd="VA" tag="VVFIN" in="-22:vobj" out="-21:subj|-3:neg|-2:time|-1:dobj|1:pnct">gebieten</W>
 <W lemma="," msd="XP" tag="$," in="-1:pnct" out="">,</W>
 <W lemma="übernehmen" msd="VA" tag="VVFIN" in="13:qobj" out="-25:pnct|-24:xtop|1:subj|4:cons|5:dobj|11:pnct|12:pnct">übernehmen</W>
 <W lemma="dies" msd="PD" tag="PDAT" in="-1:subj" out="1:nobj">diese</W>

@@ -244,7 +244,7 @@
 </s>
 <s>
 <W gloss="In_addition" lemma="hertil" msd="RGU" tag="RP" in="1:@dir" out="">Hertil</W>
-<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="1:subj|10:pnct|-1:@dir">kommer</W>
+<W gloss="are" lemma="komme" msd="VADR=----A-" tag="VBD" in="" out="-1:@dir|1:subj|10:pnct">kommer</W>
 <W gloss="savings" lemma="besparelse" msd="NCCPU==I" tag="NNP" in="-1:subj" out="1:cons">besparelser</W>
 <W gloss="as" lemma="som" msd="U=" tag="WDT" in="-1:cons" out="1:nobj">som</W>
 <W gloss="result" lemma="følge" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">følge</W>
