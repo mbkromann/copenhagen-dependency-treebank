@@ -191,7 +191,7 @@
 <W gloss="able" lemma="stand" msd="NCCSU==I" tag="NN" in="-1:nobj" out="1:pobj">stand</W>
 <W gloss="in" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
 <W gloss="that" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="1:vobj">at</W>
-<W gloss="travelling" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="5:conj|1:@dir">rejse</W>
+<W gloss="travelling" lemma="rejse" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:@dir|5:conj">rejse</W>
 <W gloss="around" lemma="rundt" msd="RGU" tag="RP" in="-1:@dir" out="1:loc">rundt</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
 <W gloss="the_US" lemma="USA" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">USA</W>

@@ -113,7 +113,7 @@
 <W gloss="of" lemma="om" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">om</W>
 <W gloss="ideology" lemma="ideologi" msd="NCCSU==I" tag="NN" in="-1:nobj" out="2:conj">ideologi</W>
 <W gloss="or" lemma="eller" msd="CC" tag="CC" in="1:coord" out="">eller</W>
-<W gloss="morality" lemma="moral" msd="NCCSU==I" tag="NN" in="-2:conj" out="1:pnct|2:other|-1:coord">moral</W>
+<W gloss="morality" lemma="moral" msd="NCCSU==I" tag="NN" in="-2:conj" out="-1:coord|1:pnct|2:other">moral</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="if" lemma="om" msd="CS" tag="IN" in="-2:other" out="2:vobj">om</W>
 <W gloss="you" lemma="man" msd="PI-C[SP]N--U" tag="DT" in="1:subj" out="">man</W>
@@ -149,7 +149,7 @@
 <W gloss="are" lemma="være" msd="VADR=----A-" tag="VBD" in="" out="-3:subj|1:preds|3:conj">er</W>
 <W gloss="clear" lemma="tydelig" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-1:preds" out="">tydelige</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-6:[subj]|1:man|2:vobj|-1:coord">kan</W>
+<W gloss="may" lemma="kunne" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-6:[subj]|-1:coord|1:man|2:vobj">kan</W>
 <W gloss="square" lemma="firkantet" msd="ANP---=-R" tag="JJ" in="-1:man" out="">firkantet</W>
 <W gloss="be_expressed" lemma="udtrykke" msd="VAF-=----P-" tag="VB" in="-2:vobj" out="-8:[subj]|1:man|2:pnct|7:xpl">udtrykkes</W>
 <W gloss="in_this_way" lemma="således" msd="RGU" tag="RP" in="-1:man" out="">således</W>
@@ -226,7 +226,7 @@
 </s>
 <s>
 <W gloss="Then" lemma="så" msd="RGU" tag="RP" in="1:cons" out="">Så</W>
-<W gloss="will_fall" lemma="falde" msd="VADR=----A-" tag="VBD" in="" out="-1:cons|1:subj|5:pnct|4:conj">falder</W>
+<W gloss="will_fall" lemma="falde" msd="VADR=----A-" tag="VBD" in="" out="-1:cons|1:subj|4:conj|5:pnct">falder</W>
 <W gloss="unemployment" lemma="ledighed" msd="NCCSU==D" tag="NN" in="-1:subj" out="">ledigheden</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
 <W gloss="tax_revenue" lemma="skatteindtægt" msd="NCCPU==D" tag="NNP" in="1:subj" out="">skatteindtægterne</W>

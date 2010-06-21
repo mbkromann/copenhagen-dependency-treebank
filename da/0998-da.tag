@@ -59,7 +59,7 @@
 <W gloss="our" lemma="vores" msd="PO1[CN][SP]UPNU" tag="PRP$" in="-1:nobj" out="1:attr|2:possd">vores</W>
 <W gloss="first" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="week_of_sales" lemma="udsalgsuge" msd="NCCSU==I" tag="NN" in="-2:possd" out="">udsalgsuge</W>
-<W gloss="were" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-7:qobj" out="-5:pnct|-4:time|1:subj|7:pnct|23:conj|40:pnct|4:@loc">lå</W>
+<W gloss="were" lemma="ligge" msd="VADA=----A-" tag="VBD" in="-7:qobj" out="-5:pnct|-4:time|1:subj|4:@loc|7:pnct|23:conj|40:pnct">lå</W>
 <W gloss="the_turnover" lemma="omsætning" msd="NCCSU==D" tag="NN" in="-1:subj" out="">omsætningen</W>
 <W gloss="20" lemma="20" msd="AC---U=--" tag="CD" in="2:other" out="1:nobj">20</W>
 <W gloss="percent" lemma="procent" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="">pct.</W>
