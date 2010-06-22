@@ -153,7 +153,7 @@
 <W gloss="for" lemma="til" msd="SP" tag="IN" in="1:goal" out="1:nobj">til</W>
 <W gloss="hunting" lemma="jagt" morph="jage +t/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:nobj" out="-1:goal">jagt</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
-<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="1:expl|3:dobj|5:pnct|8:conj|37:pnct|-17:scene">er</W>
+<W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="" out="-17:scene|1:expl|3:dobj|5:pnct|8:conj|37:pnct">er</W>
 <W gloss="there" lemma="der" msd="U=" tag="WDT" in="-1:expl" out="">der</W>
 <W gloss="far" lemma="lang" morph="lang" msd="ANP---=-R" tag="JJ" in="1:quant" out="">langt</W>
 <W gloss="more" lemma="meget" morph="meget" msd="ANC[CN]SU=IU" tag="JJR" in="-3:dobj" out="-1:quant|1:nobj">mere</W>

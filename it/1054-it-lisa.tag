@@ -76,7 +76,7 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="-15:cause|1:[subj]" out="-2:eval|1:vobj|28:pnct">è</W>
 <W lemma="essere&7c;stare" msd="VAP" tag="VER&3a;pper" in="-1:vobj" out="-1:[subj]|1:preds">stata</W>
 <W lemma="notare" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="1:dobj">notata</W>
-<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|14:resem">la</W>
+<W lemma="il" msd="PD" tag="DET&3a;def" in="-1:dobj" out="1:nobj|14:contr">la</W>
 <W lemma="scarsità" msd="NC" tag="NOM" in="-1:nobj" out="1:pobj.subj|1:{agent}">scarsità</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:pobj.subj|-1:{agent}" out="1:nobj">di</W>
 <W lemma="foto" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|2:attr|2:{loc}|4:ref|5:relr">foto</W>
@@ -90,7 +90,7 @@
 <W lemma="due" msd="AN" tag="ADJ" in="-1:nobj" out="1:nobj">due</W>
 <W lemma="politico" msd="NC" tag="NOM" in="-1:nobj" out="">politici</W>
 <W lemma="," msd="XP" tag="PON" in="-5:pnct" out="">,</W>
-<W lemma="in" msd="SP" tag="PRE" in="-14:resem" out="2:nobj">in</W>
+<W lemma="in" msd="SP" tag="PRE" in="-14:contr" out="2:nobj">in</W>
 <W lemma="stridente" msd="AN" tag="ADJ" in="1:attr" out="">stridente</W>
 <W lemma="contrasto" msd="NC" tag="NOM" in="-2:nobj" out="-1:attr|1:pobj">contrasto</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">con</W>
@@ -165,8 +165,8 @@
 <W lemma="a" msd="SP" tag="PRE" in="-1:pobj" out="1:vobj">a</W>
 <W lemma="concorrere" msd="VAF" tag="VER&3a;infi" in="-1:vobj" out="1:pobj">concorrere</W>
 <W lemma="con" msd="SP" tag="PRE" in="-1:pobj" out="1:nobj">con</W>
-<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:resem">nomi</W>
-<W lemma="come" msd="SP" tag="PRE" in="-1:resem" out="2:nobj">come</W>
+<W lemma="nome" msd="NC" tag="NOM" in="-1:nobj" out="1:exem">nomi</W>
+<W lemma="come" msd="SP" tag="PRE" in="-1:exem" out="2:nobj">come</W>
 <W lemma="James" msd="NP" tag="NPR" in="1:namef" out="">James</W>
 <W lemma="Baker" msd="NP" tag="NPR" in="-2:nobj" out="-1:namef|1:pnct|2:conj|13:pnct|14:conj|20:pnct|21:conj|29:conj">Baker</W>
 <W lemma="," msd="XP" tag="PON" in="-1:pnct" out="">,</W>

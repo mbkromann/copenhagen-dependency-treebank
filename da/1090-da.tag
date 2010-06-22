@@ -135,7 +135,7 @@
 <W gloss="company" lemma="selskab" msd="NCNSU==I" tag="NN" in="-3:nobj" out="-1:attr|1:pobj">selskab</W>
 <W gloss="with" lemma="med" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">med</W>
 <W gloss="the_country's" lemma="land" msd="NCNSG==D" tag="NN" in="-1:nobj" out="1:possd">landets</W>
-<W gloss="ten" lemma="ti" msd="AC---U=--" tag="CD" in="-1:possd" out="2:mod|3:nobj|1:attr">ti</W>
+<W gloss="ten" lemma="ti" msd="AC---U=--" tag="CD" in="-1:possd" out="1:attr|2:mod|3:nobj">ti</W>
 <W gloss="top" lemma="første" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">første</W>
 <W gloss="alternative" lemma="alternativ" msd="ANP[CN]PU=[DI]U" tag="JJ" in="-2:mod" out="">alternative</W>
 <W gloss="cosmetologists" lemma="kosmetolog" msd="NCCPU==I" tag="NNP" in="-3:nobj" out="">kosmetologer</W>
