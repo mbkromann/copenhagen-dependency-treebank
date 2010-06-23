@@ -1,4 +1,4 @@
-ANY-TOPICS-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE: Top-level relations
+ANY-TOPICS-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE-ONT: Top-level relations
 
 SYNTAX-SYNCOMP-SYNADJ-TOPICS: Syntactic relations
 > SYNCOMP: Complement relations
@@ -26,6 +26,8 @@ SEMANTICS-QUALIA-SEMROLE-TOPICS: Semantic relations
 ALIGN-TOPICS: Word alignment relations
 
 RULE-TOPICS: Rule schemata for complex relations
+
+ONT: Ontological relations
 
 -ANY: Relations misplaced outside the ANY hierarchy
 
