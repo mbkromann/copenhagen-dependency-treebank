@@ -175,7 +175,7 @@
 <W gloss="administers" lemma="administrere" msd="VADR=----A-" tag="VBD" in="-4:rel" out="-1:subj|1:dobj|2:pnct">administrerer</W>
 <W gloss="the_lending_right_fee" lemma="bibliotekspenge" msd="NCCPU==D" tag="NNP" in="-1:dobj" out="">bibliotekspengene</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="3:subj|8:vobj|13:pnct|14:resem|30:pnct|-8:source">bliver</W>
+<W gloss="becomes" lemma="blive" msd="VADR=----A-" tag="VBD" in="" out="-8:source|3:subj|8:vobj|13:pnct|14:resem|30:pnct">bliver</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="" out="">"</W>
 <W gloss="over" lemma="over" msd="SP" tag="IN" in="1:mod" out="">over</W>
 <W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-3:subj|5:[subj]" out="-1:mod|1:nobj">en</W>

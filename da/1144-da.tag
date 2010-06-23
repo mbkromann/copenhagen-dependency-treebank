@@ -229,7 +229,7 @@
 </p>
 <p>
 <s>
-<W gloss="Must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="1:subj|3:pnct|4:time|10:vobj|18:pnct|2:time">Må</W>
+<W gloss="Must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="1:subj|2:time|3:pnct|4:time|10:vobj|18:pnct">Må</W>
 <W gloss="you" lemma="I" msd="PP2CPN-NU" tag="PRP" in="-1:subj|9:[subj]" out="">I</W>
 <W gloss="today" lemma="i_dag" msd="RGU" tag="RP" in="-2:time" out="">i_dag</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-3:pnct" out="">,</W>

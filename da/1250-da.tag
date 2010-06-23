@@ -103,7 +103,7 @@
 </s>
 <s>
 <W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|3:pnct|2:time">siger</W>
+<W gloss="say" lemma="sige" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|2:time|3:pnct">siger</W>
 <W gloss="They" lemma="de" msd="PP3[CN]PN-NU" tag="PRP" in="-1:subj" out="">de</W>
 <W gloss="always" lemma="altid" msd="RGU" tag="RP" in="-2:time" out="">altid</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

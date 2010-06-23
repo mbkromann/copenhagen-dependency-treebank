@@ -223,18 +223,18 @@
 [*] da/1127-da.tag
 [*] de/1127-de-morten.tag
 [*] it/1127-it-lisa.tag
-[ ] da/1144-da.tag
+[*] da/1144-da.tag
 [*] de/1144-de-morten.tag
-[ ] it/1144-it-morten.tag
-[ ] da/1227-da.tag
+[*] it/1144-it-morten.tag
+[*] da/1227-da.tag
 [*] de/1227-de-morten.tag
-[ ] it/1227-it-morten.tag
-[ ] da/1250-da.tag
+[*] it/1227-it-lisa.tag
+[*] da/1250-da.tag
 [*] de/1250-de-morten.tag
-[ ] it/1250-it-morten.tag
-[ ] da/1337-da.tag
+[*] it/1250-it-morten.tag
+[*] da/1337-da.tag
 [*] de/1337-de-morten.tag
-[ ] it/1337-it-morten.tag
+[*] it/1337-it-morten.tag
 [ ] da/1398-da.tag
 [*] de/1398-de-morten.tag
 [ ] it/1398-it-morten.tag
@@ -2851,8 +2851,8 @@ Flere italienske tekster:
 [ ] da-it/1144-da-it-morten.atag
 [ ] da-it/1227-da-it-morten.atag
 [ ] da-it/1250-da-it-morten.atag
-[ ] it/1250-it-morten.tag
-[ ] it/1337-it-morten.tag
+[*] it/1250-it-morten.tag
+[*] it/1337-it-morten.tag
 [ ] it/1398-it-morten.tag
 [*] it/1420-it-morten.tag
 [ ] it/1497-it-morten.tag
@@ -2898,11 +2898,11 @@ Flere italienske tekster:
 [ ] da-it/1090-da-it-morten.atag
 [*] it/1090-it-morten.tag
 [ ] da-it/1144-da-it-morten.atag
-[ ] it/1144-it-morten.tag
+[*] it/1144-it-morten.tag
 [ ] da-it/1250-da-it-morten.atag
-[ ] it/1250-it-morten.tag
+[*] it/1250-it-morten.tag
 [ ] da-it/1337-da-it-morten.atag
-[ ] it/1337-it-morten.tag
+[*] it/1337-it-morten.tag
 [ ] da-it/1420-da-it-morten.atag
 [*] it/1420-it-morten.tag
 [ ] da-it/1536-da-it-morten.atag
@@ -5188,7 +5188,7 @@ Flere italienske tekster:
 [ ] it/1090-it-lisa.tag
 [*] it/1127-it-lisa.tag
 [ ] it/1144-it-lisa.tag
-[ ] it/1227-it-lisa.tag
+[*] it/1227-it-lisa.tag
 [ ] it/1497-it-lisa.tag
 [ ] it/1536-it-lisa.tag
 
@@ -5250,8 +5250,8 @@ Flere italienske tekster:
 [ ] da-it/1144-da-it-morten.atag
 [ ] da-it/1227-da-it-morten.atag
 [ ] da-it/1250-da-it-morten.atag
-[ ] it/1250-it-morten.tag
-[ ] it/1337-it-morten.tag
+[*] it/1250-it-morten.tag
+[*] it/1337-it-morten.tag
 [ ] it/1398-it-morten.tag
 [ ] it/1420-it-morten.tag
 [ ] it/1497-it-morten.tag
@@ -5297,11 +5297,11 @@ Flere italienske tekster:
 [ ] da-it/1090-da-it-morten.atag
 [*] it/1090-it-morten.tag
 [ ] da-it/1144-da-it-morten.atag
-[ ] it/1144-it-morten.tag
+[*] it/1144-it-morten.tag
 [ ] da-it/1250-da-it-morten.atag
-[ ] it/1250-it-morten.tag
+[*] it/1250-it-morten.tag
 [ ] da-it/1337-da-it-morten.atag
-[ ] it/1337-it-morten.tag
+[*] it/1337-it-morten.tag
 [ ] da-it/1420-da-it-morten.atag
 [ ] it/1420-it-morten.tag
 [ ] da-it/1536-da-it-morten.atag
@@ -7587,6 +7587,6 @@ Flere italienske tekster:
 [ ] it/1090-it-lisa.tag
 [*] it/1127-it-lisa.tag
 [ ] it/1144-it-lisa.tag
-[ ] it/1227-it-lisa.tag
+[*] it/1227-it-lisa.tag
 [ ] it/1497-it-lisa.tag
 [ ] it/1536-it-lisa.tag
