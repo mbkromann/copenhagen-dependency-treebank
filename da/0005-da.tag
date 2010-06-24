@@ -85,13 +85,13 @@
 <p>
 <s>
 <W gloss="So" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj" out="">Det</W>
-<W gloss="believes" lemma="mene" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|26:pnct|6:conj">mener</W>
+<W gloss="believes" lemma="mene" msd="VADR=----A-" tag="VBD" in="" out="-1:dobj|1:subj|6:conj|26:pnct">mener</W>
 <W gloss="the_Social_Democratic_Party" lemma="socialdemokrati" msd="NCNSG==D" tag="NN" in="-1:subj|5:[subj]" out="1:possd|3:appr">Socialdemokratiets</W>
 <W gloss="vice_chairperson" lemma="næstformand" msd="NCCSU==I" tag="NN" in="-1:possd" out="">næstformand</W>
 <W gloss="Birte" lemma="Birte" msd="NP--U==-" tag="NNP" in="1:namef" out="">Birte</W>
 <W gloss="Weiss" lemma="Weiss" msd="NP--U==-" tag="NNP" in="-3:appr" out="-1:namef">Weiss</W>
 <W gloss="who" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="suggests" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:[subj]|1:pnct|2:dobj|-1:coord">foreslår</W>
+<W gloss="suggests" lemma="foreslå" msd="VADR=----A-" tag="VBD" in="-6:conj" out="-5:[subj]|-1:coord|1:pnct|2:dobj">foreslår</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="that" lemma="at" msd="CS" tag="IN" in="-2:dobj" out="4:vobj">at</W>
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="3:subj" out="1:attr|2:nobj">de</W>
@@ -238,7 +238,7 @@
 <W gloss="Mogens" lemma="Mogens" msd="NP--U==-" tag="NNP" in="1:namef" out="">Mogens</W>
 <W gloss="Glistrup" lemma="Glistrup" msd="NP--U==-" tag="NNP" in="-2:nobj" out="-1:namef|2:conj">Glistrup</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:conj" out="1:attr|2:attr|3:nobj|-1:coord">en</W>
+<W gloss="a" lemma="en" msd="PI-CSU--U" tag="DT" in="-2:conj" out="-1:coord|1:attr|2:attr|3:nobj">en</W>
 <W gloss="small" lemma="lille" msd="ANP[CN]SU=[DI]U" tag="JJ" in="-1:attr" out="">lille</W>
 <W gloss="Yugoslavian" lemma="jugoslavisk" msd="ANP[CN]SU=IU" tag="JJ" in="-2:attr" out="">jugoslavisk</W>
 <W gloss="girl" lemma="pige" msd="NCCSU==I" tag="NN" in="-3:nobj" out="">pige</W>
