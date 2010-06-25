@@ -229,7 +229,7 @@
 <W gloss="keep" lemma="bibeholde" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:dobj|2:tobj">bibeholde</W>
 <W gloss="the_tournament" lemma="turnering" msd="NCCSU==D" tag="NN" in="-1:dobj" out="">turneringen</W>
 <W gloss="spring_/_autumn" lemma="forår/efterår" msd="XX" tag="FW" in="-2:tobj" out="">forår/efterår</W>
-<W gloss="will_pull" lemma="rykke" msd="VADR=----A-" tag="VBD" in="" out="-13:cond|1:subj|6:pnct|3:@dir">rykker</W>
+<W gloss="will_pull" lemma="rykke" msd="VADR=----A-" tag="VBD" in="" out="-13:cond|1:subj|3:@dir|6:pnct">rykker</W>
 <W gloss="two" lemma="to" msd="AC---U=--" tag="CD" in="-1:subj" out="1:nobj">to</W>
 <W gloss="teams" lemma="hold" msd="NCNPU==I" tag="NNP" in="-1:nobj" out="">hold</W>
 <W gloss="out" lemma="ud" msd="RGU" tag="RP" in="-3:@dir" out="1:other">ud</W>

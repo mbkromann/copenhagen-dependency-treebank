@@ -250,14 +250,16 @@
 [*] da/0001-da.tag
 [*] it/0001-it-morten.tag
 [*] da/0005-da.tag
-[ ] it/0005-it-lisa.tag
-[ ] da/0008-da.tag
-[ ] it/0008-it-morten.tag
-[ ] da/0042-da.tag
-[ ] it/0042-it-morten.tag
-[ ] da/0043-da.tag
-[ ] it/0043-it-morten.tag
-[ ] da/0061-da.tag
+[*] it/0005-it-lisa.tag
+[*] da/0008-da.tag
+[*] it/0008-it-morten.tag
+[*] da/0029-da.tag
+[*] it/0029-it-lisa.tag
+[*] da/0042-da.tag
+[*] it/0042-it-morten.tag
+[*] da/0043-da.tag
+[*] it/0043-it-lisa.tag
+[*] da/0061-da.tag
 [ ] it/0061-it-morten.tag
 [ ] da/0065-da.tag
 [ ] it/0065-it-morten.tag
@@ -3065,9 +3067,9 @@ Flere italienske tekster:
 [ ] da-it/0001-da-it-morten.atag
 [*] it/0001-it-morten.tag
 [ ] da-it/0008-da-it-morten.atag
-[ ] it/0008-it-morten.tag
+[*] it/0008-it-morten.tag
 [ ] da-it/0042-da-it-morten.atag
-[ ] it/0042-it-morten.tag
+[*] it/0042-it-morten.tag
 [ ] da-it/0061-da-it-morten.atag
 [ ] it/0061-it-morten.tag
 [ ] da-it/0079-da-it-morten.atag
@@ -5095,9 +5097,9 @@ Flere italienske tekster:
 
 # Tasks from Lisa
 [ ] it/0001-it-lisa.tag
-[ ] it/0005-it-lisa.tag
-[ ] it/0029-it-lisa.tag
-[ ] it/0043-it-lisa.tag
+[*] it/0005-it-lisa.tag
+[*] it/0029-it-lisa.tag
+[*] it/0043-it-lisa.tag
 [ ] it/0065-it-lisa.tag
 [ ] it/0079-it-lisa.tag
 [ ] it/0090-it-lisa.tag
@@ -5464,9 +5466,9 @@ Flere italienske tekster:
 [ ] da-it/0001-da-it-morten.atag
 [*] it/0001-it-morten.tag
 [ ] da-it/0008-da-it-morten.atag
-[ ] it/0008-it-morten.tag
+[*] it/0008-it-morten.tag
 [ ] da-it/0042-da-it-morten.atag
-[ ] it/0042-it-morten.tag
+[*] it/0042-it-morten.tag
 [ ] da-it/0061-da-it-morten.atag
 [ ] it/0061-it-morten.tag
 [ ] da-it/0079-da-it-morten.atag
@@ -7494,9 +7496,9 @@ Flere italienske tekster:
 
 # Tasks from Lisa
 [ ] it/0001-it-lisa.tag
-[ ] it/0005-it-lisa.tag
-[ ] it/0029-it-lisa.tag
-[ ] it/0043-it-lisa.tag
+[*] it/0005-it-lisa.tag
+[*] it/0029-it-lisa.tag
+[*] it/0043-it-lisa.tag
 [ ] it/0065-it-lisa.tag
 [ ] it/0079-it-lisa.tag
 [ ] it/0090-it-lisa.tag

@@ -26,12 +26,12 @@
 <W lemma="essere" msd="VADR" tag="VER&3a;pres" in="" out="-2:subj|1:preds|2:time|13:time|34:pnct">è</W>
 <W lemma="accadere" msd="VAP" tag="VER&3a;pper" in="-1:preds" out="">accaduto</W>
 <W lemma="ieri" msd="RG" tag="ADV" in="-2:time" out="1:attr|1:{time}">ieri</W>
-<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{time}" out="1:nobj">all'</W>
-<W lemma="ora" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{goal}#|3:pnct|4:appa">ora</W>
+<W lemma="al" msd="SP+P" tag="PRE&3a;det" in="-1:attr|-1:{time}" out="1:nobj|5:appa">all'</W>
+<W lemma="ora" msd="NC" tag="NOM" in="-1:nobj" out="1:attr|1:{goal}#|3:pnct">ora</W>
 <W lemma="di" msd="SP" tag="PRE" in="-1:attr|-1:{goal}#" out="1:nobj">di</W>
 <W lemma="cena" msd="NC" tag="NOM" in="-1:nobj" out="">cena</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
-<W lemma="verso" msd="SP" tag="PRE" in="-4:appa" out="1:nobj|3:pnct">verso</W>
+<W lemma="verso" msd="SP" tag="PRE" in="-5:appa" out="1:nobj|3:pnct">verso</W>
 <W lemma="il" msd="PD" tag="DET&3a;def" in="-1:nobj" out="1:nobj">le</W>
 <W lemma="@card@" msd="AN" tag="NUM" in="-1:nobj" out="">18.45</W>
 <W lemma="," msd="XP" tag="PON" in="-3:pnct" out="">,</W>
