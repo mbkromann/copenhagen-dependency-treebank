@@ -20,11 +20,12 @@ fi
 # Run update program
 updates=~/cdt-all/trunk/install/updates
 user=`cat ~/.cdtname | sed -e 's/i.*rn/iorn/g'`
+host=`hostname`
 if [ -d $updates ] ; then
 	cd $updates
 	export LANG=C
 	for f in `ls | sort | grep .sh | sed -e 's/.sh$//g'` ; do
-		logfile=~/cdt-all/trunk/install/logs/$user-$f.log
+		logfile=~/cdt-all/trunk/install/logs/$user-$host-$f.log
 		if [ ! -f ".$f.done" ] ; then
 			echo "Applying update $f"
 			( bash $f.sh 2>&1 && touch ".$f.done" ) | tee $logfile  

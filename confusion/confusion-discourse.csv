@@ -1,18 +1,18 @@
-AGENTIVE:expl	6	33%=CONJ:add	33%=AGENTIVE:expl	17%=CONSOL:motiv	17%=vobj
+AGENTIVE:expl	6	33.3%=CONJ:add	33.3%=AGENTIVE:expl	16.7%=CONSOL:motiv	16.7%=vobj
 ANSW	1	100%=ANSW
 CONC	2	50%=CONJ:add	50%=CONC
-CONJ:add	39	40%=CONJ:add	29%=CONJ:elab	5%=CONTR:sbj	5%=AGENTIVE:expl	4%=conj	3%=rel	3%=TELIC:cons.sbj	3%=time	3%=TELIC:cons.dir	3%=CONST:exem	3%=CONC	2%=qobj
-CONJ:elab	27	42%=CONJ:add	41%=CONJ:elab	5%=CONST:rest	4%=FORMAL:descr	4%=CONSOL:source	2%=qobj	2%=xpl
+CONJ:add	39	39.7%=CONJ:add	29.1%=CONJ:elab	5.1%=CONTR:sbj	5.1%=AGENTIVE:expl	3.8%=conj	2.6%=rel	2.6%=TELIC:cons.sbj	2.6%=time	2.6%=TELIC:cons.dir	2.6%=CONST:exem	2.6%=CONC	1.7%=qobj
+CONJ:elab	27	42%=CONJ:add	40.7%=CONJ:elab	4.9%=CONST:rest	3.7%=FORMAL:descr	3.7%=CONSOL:source	2.5%=qobj	2.5%=xpl
 CONSOL:motiv	1	100%=AGENTIVE:expl
 CONSOL:source	1	100%=CONJ:elab
 CONST:exem	1	100%=CONJ:add
-CONST:rest	4	50%=CONST:rest	33%=CONJ:elab	17%=xpl
+CONST:rest	4	50%=CONST:rest	33.3%=CONJ:elab	16.7%=xpl
 CONTR	1	50%=CONTR:sbj	50%=conj
 CONTR:dir	2	50%=expl	50%=CONTR:dir
 CONTR:sbj	10	40%=conj	25%=CONTR:sbj	20%=CONJ:add	10%=coord	5%=CONTR
 FORMAL:descr	1	100%=CONJ:elab
 JOINT	2	100%=JOINT
 SCENE	4	100%=SCENE
-TELIC:cons.dir	3	44%=TELIC:cons.dir	33%=CONJ:add	22%=vobj
+TELIC:cons.dir	3	44.4%=TELIC:cons.dir	33.3%=CONJ:add	22.2%=vobj
 TELIC:cons.sbj	4	75%=TELIC:cons.sbj	25%=CONJ:add
 xpl CONJ:elab	1	100%=xpl

@@ -1,21 +1,21 @@
-{about}	13	31%={arg}	31%={about}	15%={patient}	15%={func}	8%={loc}
-{agent}	17	35%={agent}	29%={arg}	18%={experiencer}	6%={loc}	6%={patient}	6%={source}
-{apart}	7	71%={apart}	14%={loc}	14%={const}
-{arg}	56	34%={arg}	14%={func}	11%={const}	9%={agent}	9%={source}	7%={about}	7%={patient}	4%={loc}	4%={other}	2%={poss}
+{about}	13	30.8%={arg}	30.8%={about}	15.4%={patient}	15.4%={func}	7.7%={loc}
+{agent}	17	35.3%={agent}	29.4%={arg}	17.6%={experiencer}	5.9%={loc}	5.9%={patient}	5.9%={source}
+{apart}	7	71.4%={apart}	14.3%={loc}	14.3%={const}
+{arg}	56	33.9%={arg}	14.3%={func}	10.7%={const}	8.9%={agent}	8.9%={source}	7.1%={about}	7.1%={patient}	3.6%={loc}	3.6%={other}	1.8%={poss}
 {class}	1	100%={const}
-{const}	21	33%={const}	29%={arg}	10%={form}	5%={apart}	5%={loc}	5%={class}	5%={func}	5%={poss}	5%={source}
+{const}	21	33.3%={const}	28.6%={arg}	9.5%={form}	4.8%={apart}	4.8%={loc}	4.8%={class}	4.8%={func}	4.8%={poss}	4.8%={source}
 {elab}	2	50%={loc}	50%={elab}
 {eval}	1	100%={eval}
 {experiencer}	4	75%={agent}	25%={patient}
 {form}	2	100%={const}
-{func}	33	48%={func}	24%={arg}	9%={loc}	6%={about}	3%={const}	3%={patient}	3%={iden}	3%={other}
+{func}	33	48.5%={func}	24.2%={arg}	9.1%={loc}	6.1%={about}	3%={const}	3%={patient}	3%={iden}	3%={other}
 {iden}	1	100%={func}
 {location}	1	100%={loc}
-{loc}	31	58%={loc}	10%={func}	6%={arg}	3%={const}	3%={location}	3%={agent}	3%={elab}	3%={apart}	3%={recipient}	3%={about}	3%={poss}
+{loc}	31	58.1%={loc}	9.7%={func}	6.5%={arg}	3.2%={const}	3.2%={location}	3.2%={agent}	3.2%={elab}	3.2%={apart}	3.2%={recipient}	3.2%={about}	3.2%={poss}
 {other}	4	50%={arg}	25%={time}	25%={func}
-{patient}	22	55%={patient}	18%={arg}	9%={about}	5%={func}	5%={poss}	5%={experiencer}	5%={agent}
+{patient}	22	54.5%={patient}	18.2%={arg}	9.1%={about}	4.5%={func}	4.5%={poss}	4.5%={experiencer}	4.5%={agent}
 {poss}	10	60%={poss}	10%={loc}	10%={const}	10%={arg}	10%={patient}
 {quant}	1	100%={quant}
 {recipient}	1	100%={loc}
-{source}	21	57%={source}	24%={arg}	10%={time}	5%={const}	5%={agent}
-{time}	11	73%={time}	18%={source}	9%={other}
+{source}	21	57.1%={source}	23.8%={arg}	9.5%={time}	4.8%={const}	4.8%={agent}
+{time}	11	72.7%={time}	18.2%={source}	9.1%={other}

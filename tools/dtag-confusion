@@ -71,5 +71,5 @@ sub count {
 }
 
 sub percentage {
-	return int(shift() * 100 + 0.5);
+	return int(shift() * 100 * 10 + 0.5) / 10;
 }
