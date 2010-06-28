@@ -1,33 +1,33 @@
-ANY-TOPICS-SYNTAX-MORPHOLOGY-DISCOURSE-ANAPHORA-SEMANTICS-ALIGNMENT-RULE-ONT: Top-level relations
+ANY-!SYNTAX-!DISCOURSE-!ANAPHORA-!SEMANTICS-!ALIGNMENT-!ONTOLOGY-!RULE-!TOPIC: Top-level relations
 
-SYNTAX-SYNCOMP-SYNADJ-TOPICS: Syntactic relations
-> SYNCOMP: Complement relations
-> ADVERB: Adverbial adjunct relations
-> SYNADJ-ADVERB: Other adjunct relations
+SYNTAX-!SYNCOMP-!SYNADJ-TOPIC: Syntactic relations
+> SYNCOMP-TOPIC: Complement relations
+> SYNADJ-!ADVERB-TOPIC: Non-adverbial adjunct relations
+> ADVERB-TOPIC: Adverbial adjunct relations
 
-MORPHOLOGY-MORPHCOMP-MORPHDERIV-TOPICS: Morphological relations
-> MORPHCOMP: Compositional relations
-> MORPHDERIV-PREFIX-SUFFIX: Derivational relations
-> > PREFIX: Prefix relations
-> > SUFFIX: Suffix relations
+MORPHOLOGY-!MORPHCOMP-!MORPHDERIV-TOPIC: Morphological relations
+> MORPHCOMP-TOPIC: Compositional relations
+> MORPHDERIV-!PREFIX-!SUFFIX-TOPIC: Derivational relations
+> > PREFIX-TOPIC: Prefix relations
+> > SUFFIX-TOPIC: Suffix relations
 
-DISCOURSE-DISCFUNC-DISCSEM-TOPICS: Discourse relations
-> DISCFUNC: Functional relations
-> DISCSEM: Semantic relations
+DISCOURSE-!DISCFUNC-!DISCSEM-TOPIC: Discourse relations
+> DISCFUNC-TOPIC: Functional relations
+> DISCSEM-TOPIC: Semantic relations
 
-ANAPHORA-coref-assoc-TOPICS: Anaphor relations
-> coref: Coreference relations
-> assoc: Associative anaphor relations
+ANAPHORA-!coref-!assoc-TOPIC: Anaphor relations
+> coref-TOPIC: Coreference relations
+> assoc-TOPIC: Associative anaphor relations
 
-SEMANTICS-QUALIA-SEMROLE-TOPICS: Semantic relations
+SEMANTICS-!QUALIA-!SEMROLE-TOPIC: Semantic relations
 > QUALIA: Qualia relations
 > SEMROLE: Thematic role relations
 
-ALIGN-TOPICS: Word alignment relations
+ALIGNMENT-TOPIC: Word alignment relations
 
-RULE-TOPICS: Rule schemata for complex relations
+RULE-TOPIC: Rule schemata for complex relations
 
-ONT: Ontological relations
+ONTOLOGY-TOPIC: Ontological relations
 
 -ANY: Relations misplaced outside the ANY hierarchy
 
