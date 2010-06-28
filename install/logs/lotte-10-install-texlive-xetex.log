@@ -1,13 +1,47 @@
-p   texlive-xetex                   - TeX Live: XeTeX packages                  
+p   texlive-xetex                   - TeX Live: XeTeX macros                    
 Installing texlive-xetex
 Please enter your password below
 Reading package lists...
 Building dependency tree...
 Reading state information...
+<<<<<<< .mine
+The following packages were automatically installed and are no longer required:
+  libdns35
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  dvipdfmx
+=======
 The following packages were automatically installed and are no longer required:
   linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
 Use 'apt-get autoremove' to remove them.
+>>>>>>> .r1171
 The following NEW packages will be installed:
+<<<<<<< .mine
+  dvipdfmx texlive-xetex
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6734kB of archives.
+After this operation, 12.8MB of additional disk space will be used.
+Do you want to continue [Y/n]? Get:1 http://dk.archive.ubuntu.com hardy/universe dvipdfmx 1:20070518-2 [367kB]
+Get:2 http://dk.archive.ubuntu.com hardy-updates/universe texlive-xetex 2007.dfsg.1-2ubuntu0.1 [6367kB]
+Fetched 6734kB in 0s (8863kB/s)
+Selecting previously deselected package dvipdfmx.
+(Reading database ... 144871 files and directories currently installed.)
+Unpacking dvipdfmx (from .../dvipdfmx_1%3a20070518-2_i386.deb) ...
+Selecting previously deselected package texlive-xetex.
+Unpacking texlive-xetex (from .../texlive-xetex_2007.dfsg.1-2ubuntu0.1_i386.deb) ...
+Setting up dvipdfmx (1:20070518-2) ...
+Replacing config file /etc/texmf/texmf.cnf with new version
+mktexlsr: Updating /var/lib/texmf/ls-R-TEXMFMAIN... 
+mktexlsr: Updating /var/lib/texmf/ls-R-TEXLIVE... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+
+Setting up texlive-xetex (2007.dfsg.1-2ubuntu0.1) ...
+Running mktexlsr. This may take some time... done.
+Building format(s) --all --cnffile /etc/texmf/fmt.d/10texlive-xetex.cnf.
+	This may take some time... done.
+
+=======
   texlive-xetex
 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
 Need to get 5720kB of archives.
@@ -22,3 +56,4 @@ Running mktexlsr. This may take some time... done.
 Building format(s) --all --cnffile /etc/texmf/fmt.d/10texlive-xetex.cnf.
 	This may take some time... done.
 
+>>>>>>> .r1171

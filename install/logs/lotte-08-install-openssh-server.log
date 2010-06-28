@@ -1,32 +1,35 @@
-p   openssh-server                  - secure shell (SSH) server, for secure acce
+p   openssh-server                  - secure shell server, an rshd replacement  
 Installing openssh-server
 Please enter your password below
 Reading package lists...
 Building dependency tree...
 Reading state information...
 The following packages were automatically installed and are no longer required:
-  linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
+  libdns35
 Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  openssh-blacklist
 Suggested packages:
-  rssh molly-guard openssh-blacklist openssh-blacklist-extra
+  molly-guard rssh
 The following NEW packages will be installed:
-  openssh-server
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 285kB of archives.
-After this operation, 778kB of additional disk space will be used.
-Get:1 http://dk.archive.ubuntu.com/ubuntu/ lucid/main openssh-server 1:5.3p1-3ubuntu3 [285kB]
+  openssh-blacklist openssh-server
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2378kB of archives.
+After this operation, 4870kB of additional disk space will be used.
+Do you want to continue [Y/n]? Err http://dk.archive.ubuntu.com hardy-updates/main openssh-blacklist 0.1-1ubuntu0.8.04.1
+  Could not connect to dk.archive.ubuntu.com:80 (130.225.254.116). - connect (113 No route to host)
+Get:1 http://security.ubuntu.com hardy-security/main openssh-blacklist 0.1-1ubuntu0.8.04.1 [2124kB]
+Get:2 http://security.ubuntu.com hardy-security/main openssh-server 1:4.7p1-8ubuntu1.2 [254kB]
 Preconfiguring packages ...
-Fetched 285kB in 0s (1069kB/s)
+Fetched 2378kB in 8s (292kB/s)
+Selecting previously deselected package openssh-blacklist.
+(Reading database ... 144993 files and directories currently installed.)
+Unpacking openssh-blacklist (from .../openssh-blacklist_0.1-1ubuntu0.8.04.1_all.deb) ...
 Selecting previously deselected package openssh-server.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 174984 files and directories currently installed.)
-Unpacking openssh-server (from .../openssh-server_1%3a5.3p1-3ubuntu3_i386.deb) ...
-Processing triggers for ureadahead ...
-ureadahead will be reprofiled on next reboot
-Processing triggers for ufw ...
-Processing triggers for man-db ...
-Setting up openssh-server (1:5.3p1-3ubuntu3) ...
+Unpacking openssh-server (from .../openssh-server_1%3a4.7p1-8ubuntu1.2_i386.deb) ...
+Setting up openssh-blacklist (0.1-1ubuntu0.8.04.1) ...
+Setting up openssh-server (1:4.7p1-8ubuntu1.2) ...
 Creating SSH2 RSA key; this may take some time ...
 Creating SSH2 DSA key; this may take some time ...
- * Stopping OpenBSD Secure Shell server sshd       [80G [74G[ OK ]
-ssh start/running, process 4830
+ * Restarting OpenBSD Secure Shell server sshd       [80G [74G[ OK ]
 

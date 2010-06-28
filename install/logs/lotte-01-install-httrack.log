@@ -3,9 +3,17 @@ Please enter your password below
 Reading package lists...
 Building dependency tree...
 Reading state information...
+httrack is already the newest version.
 The following packages were automatically installed and are no longer required:
+<<<<<<< .mine
+  libdns35
+=======
   linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
+>>>>>>> .r1171
 Use 'apt-get autoremove' to remove them.
+<<<<<<< .mine
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+=======
 The following extra packages will be installed:
   libhttrack2
 Suggested packages:
@@ -29,3 +37,4 @@ Setting up libhttrack2 (3.43.9-1ubuntu1) ...
 Setting up httrack (3.43.9-1ubuntu1) ...
 Processing triggers for libc-bin ...
 ldconfig deferred processing now taking place
+>>>>>>> .r1171

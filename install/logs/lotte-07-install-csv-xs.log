@@ -1,3 +1,5 @@
+<<<<<<< .mine
+=======
 p   libtext-csv-perl                - comma-separated values manipulator (using 
 Installing libtext-csv-xs-perl
 Please enter your password below
@@ -9,3 +11,4 @@ The following packages were automatically installed and are no longer required:
   linux-headers-2.6.32-21 linux-headers-2.6.32-21-generic
 Use 'apt-get autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+>>>>>>> .r1171
