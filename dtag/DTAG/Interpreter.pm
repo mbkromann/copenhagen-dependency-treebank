@@ -335,6 +335,8 @@ my $query_grammar = q{
 	UnaryType :
 		  "(" Type ")"
 			{ $item[2] } 
+		| "!" TypeName
+			{ FindTypeAtomic->new($item[2], 1) }
 		| TypeName
 			{ FindTypeAtomic->new($item[1]) }
 
@@ -12909,13 +12911,14 @@ sub match {
     my $tparent = $self->{'args'}[0];
 	
     # Check for equality
-    return 1 if ($tparent eq $string);
+	my $subtypes_only = $self->{'args'}[1];
+    return 1 if ($tparent eq $string && ! $subtypes_only);
 
 	# Retrieve canonical names and check for existence and equality
 	$string = shortname($relset, $string);
 	$tparent = shortname($relset, $tparent);
 	return 0 if (! (defined($string) && defined($tparent)));
-	return 1 if ($string eq $tparent);
+	return 1 if ($string eq $tparent && ! $subtypes_only);
 
     # Check relation set   
     return $relset->{$string}[$REL_TPARENTS]->{$tparent};
