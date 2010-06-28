@@ -1,4 +1,6 @@
 # Indsæt "*" når annotationen er afsluttet
+[*] da/1536-da.tag
+[*] en/1536-en-morten.tag
 [*] en/0151-en-morten.tag
 [*] en/1361-en-morten.tag
 [*] en/1031-en-morten.tag
@@ -260,9 +262,9 @@
 [*] da/0043-da.tag
 [*] it/0043-it-lisa.tag
 [*] da/0061-da.tag
-[ ] it/0061-it-morten.tag
-[ ] da/0065-da.tag
-[ ] it/0065-it-morten.tag
+[*] it/0061-it-morten.tag
+[*] da/0065-da.tag
+[ ] it/0065-it-lisa.tag
 [ ] da/0086-da.tag
 [ ] it/0086-it-morten.tag
 [ ] da/0090-da.tag
@@ -3071,7 +3073,7 @@ Flere italienske tekster:
 [ ] da-it/0042-da-it-morten.atag
 [*] it/0042-it-morten.tag
 [ ] da-it/0061-da-it-morten.atag
-[ ] it/0061-it-morten.tag
+[*] it/0061-it-morten.tag
 [ ] da-it/0079-da-it-morten.atag
 [ ] it/0079-it-morten.tag
 [ ] da-it/0086-da-it-morten.atag
@@ -5470,7 +5472,7 @@ Flere italienske tekster:
 [ ] da-it/0042-da-it-morten.atag
 [*] it/0042-it-morten.tag
 [ ] da-it/0061-da-it-morten.atag
-[ ] it/0061-it-morten.tag
+[*] it/0061-it-morten.tag
 [ ] da-it/0079-da-it-morten.atag
 [ ] it/0079-it-morten.tag
 [ ] da-it/0086-da-it-morten.atag
