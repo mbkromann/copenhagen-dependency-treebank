@@ -1,7 +1,8 @@
 AGENTIVE:expl	6	33.3%=CONJ:add	33.3%=AGENTIVE:expl	16.7%=CONSOL:motiv	16.7%=vobj
+AGENTIVE:reas	1	100%=qobj
 ANSW	1	100%=ANSW
 CONC	2	50%=CONJ:add	50%=CONC
-CONJ:add	39	39.7%=CONJ:add	29.1%=CONJ:elab	5.1%=CONTR:sbj	5.1%=AGENTIVE:expl	3.8%=conj	2.6%=rel	2.6%=TELIC:cons.sbj	2.6%=time	2.6%=TELIC:cons.dir	2.6%=CONST:exem	2.6%=CONC	1.7%=qobj
+CONJ:add	41	37.8%=CONJ:add	27.6%=CONJ:elab	6.5%=qobj	4.9%=CONTR:sbj	4.9%=AGENTIVE:expl	3.7%=conj	2.4%=rel	2.4%=TELIC:cons.sbj	2.4%=time	2.4%=TELIC:cons.dir	2.4%=CONST:exem	2.4%=CONC
 CONJ:elab	27	42%=CONJ:add	40.7%=CONJ:elab	4.9%=CONST:rest	3.7%=FORMAL:descr	3.7%=CONSOL:source	2.5%=qobj	2.5%=xpl
 CONSOL:motiv	1	100%=AGENTIVE:expl
 CONSOL:source	1	100%=CONJ:elab
