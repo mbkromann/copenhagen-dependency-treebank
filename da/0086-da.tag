@@ -155,7 +155,7 @@
 <W gloss="John" lemma="John" msd="NP--U==-" tag="NNP" in="2:namef" out="">John</W>
 <W gloss="Lee" lemma="Lee" msd="NP--U==-" tag="NNP" in="1:namel" out="">Lee</W>
 <W gloss="Hooker" lemma="Hooker" msd="NP--U==-" tag="NNP" in="1:subj" out="-2:namef|-1:namel">Hooker</W>
-<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|3:time|1:@dir">kom</W>
+<W gloss="came" lemma="komme" msd="VADA=----A-" tag="VBD" in="-4:vobj" out="-1:subj|1:@dir|3:time">kom</W>
 <W gloss="into" lemma="til" msd="SP" tag="IN" in="-1:@dir" out="1:nobj">til</W>
 <W gloss="the_world" lemma="verden" msd="NCCSU==I" tag="NN" in="-1:nobj" out="">verden</W>
 <W gloss="back" lemma="dengang" msd="RGU" tag="RP" in="-3:time" out="1:time">dengang</W>
