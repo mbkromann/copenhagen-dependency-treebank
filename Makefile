@@ -9,17 +9,17 @@ missing:
 webmap:
 	rm -f tmp/webmap.tag
 	for lang in `echo da de en it es` ; do \
-		cat $$lang/*.tag | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
+		cat `ls $$lang/*.tag | grep -v auto | grep -v tagged` | sed -e "s/<W/<W _lang=\"$$lang\"/g" >> tmp/webmap.tag ; \
 	done
 	dtag -e 'load tmp/webmap.tag' -e 'webmap' -e 'quit'
-	cd treebank.dk/map; cp MapDep___.html index.html
+	cd treebank.dk/map; cp */MapDep___.html 000/
 	make webmap.pngs
 
 webmap.clear: 
 	find treebank.dk/map -type f | grep -v index.html | xargs rm -f
 
 webmap.pngs:
-	cd treebank.dk/map ; for f in `ls *.tag | sed -e 's/.tag//'` ; do \
+	cd treebank.dk/map ; for f in `ls */*.tag | sed -e 's/.tag//'` ; do \
 		if [ ! -f $$f.png ] ; then \
 			dtag -u -q -e "layout -vars /stream:.*/|cat|msd|lexeme|gloss|id" -e "load $$f.tag" -e "print $$f.ps" -e "exit" ; \
             (echo "%!PS-Adobe-2.0" ; cat $$f.ps ) | ps2eps -f -l > $$f.eps ; \
@@ -28,10 +28,10 @@ webmap.pngs:
         fi ; \
 	done
 	make webmap.pngs.missing
-	cd treebank.dk ; lftp -f .upload
+	#cd treebank.dk ; lftp -f .upload
 
 webmap.pngs.missing:
-	( for f in `cd treebank.dk/map ; ls ex*.tag | sed -e 's/.tag$$//g'` ; do \
+	( for f in `cd treebank.dk/map ; ls */ex*.tag | sed -e 's/.tag$$//g'` ; do \
 		if [ ! -f treebank.dk/map/$$f.png ] ; then echo $$f ; fi ; \
 	done ) | tee treebank.dk/map/missing
 
