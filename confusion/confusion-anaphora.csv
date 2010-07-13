@@ -1,2 +1,3 @@
-coref-res	1	100%=coref-res
+coref	1	100%=coref-res
+coref-res	2	50%=coref	50%=coref-res
 ref	38	100%=ref

@@ -13,9 +13,10 @@ map {$dimensions->{$_} = $_} values(%$dimensions);
 my $statuses = {
 	"1" => "first",
 	"d" => "discussed",
-	"f" => "final" };
+	"f" => "final",
+	"f1" => "final1" };
 map {$statuses->{$_} = $_} 
-	("none", "auto", "outdated-final", "first", "discussed", "final"); 
+	("none", "auto", "outdated-final", "first", "discussed", "final", "final1"); 
 
 # Find file
 my $fname = shift(@ARGV);
@@ -42,7 +43,7 @@ if ( ! -f $fname ) {
 			} else {
 				print "  $dimension=$status\n";
 				`svn propset $dimension $status $fname`;
-				if ($status eq "first") {
+				if ($status eq "first" || $status eq "final1") {
 					my $copypath = "~/cdt/first/$dimension";
 					my @args = split(/\//, $fname);
 					my $copyfname = pop(@args);
