@@ -10,15 +10,15 @@
 [*] es/0596-es-soren.tag
 [*] es/0607-es-lotte.tag
 [*] es/0643-es-jonas.tag
-[ ] es/0685-es-soren.tag
-[ ] es/0705-es-lotte.tag
-[ ] es/0729-es-lotte.tag
-[ ] es/0780-es-soren.tag
-[ ] es/0783-es-lotte.tag
-[ ] es/0800-es-soren.tag
-[ ] es/0805-es-lotte.tag
-[ ] es/0848-es-lotte.tag
-[ ] es/0866-es-jonas.tag
+[*] es/0685-es-soren.tag
+[*] es/0705-es-lotte.tag
+[*] es/0729-es-lotte.tag
+[*] es/0780-es-soren.tag
+[*] es/0783-es-lotte.tag
+[*] es/0800-es-soren.tag
+[*] es/0805-es-lotte.tag
+[*] es/0848-es-lotte.tag
+[*] es/0866-es-jonas.tag
 [ ] es/0881-es-lotte.tag
 [ ] es/0915-es-soren.tag
 [ ] es/0939-es-lotte.tag
@@ -336,7 +336,7 @@ Skal læses igennem. 0001-0112: lavet efter system med underløbende relationer 
 
 
 [ ] es/0705-es-lotte.tag 
-[ ] es/0805-es-lotte.tag
+[*] es/0805-es-lotte.tag
 [ ] es/0939-es-lotte.tag
 [ ] da-es/0705-da-es-lotte.atag
 [ ] da-es/0805-da-es-lotte.atag
