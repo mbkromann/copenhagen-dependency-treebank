@@ -19,9 +19,9 @@
 [*] es/0805-es-lotte.tag
 [*] es/0848-es-lotte.tag
 [*] es/0866-es-jonas.tag
-[ ] es/0881-es-lotte.tag
-[ ] es/0915-es-soren.tag
-[ ] es/0939-es-lotte.tag
+[*] es/0881-es-lotte.tag
+[*] es/0915-es-soren.tag
+[*] es/0939-es-lotte.tag
 [ ] es/0960-es-soren.tag
 [ ] es/0998-es-jonas.tag
 [ ] es/1043-es-lotte.tag
@@ -337,7 +337,7 @@ Skal læses igennem. 0001-0112: lavet efter system med underløbende relationer 
 
 [ ] es/0705-es-lotte.tag 
 [*] es/0805-es-lotte.tag
-[ ] es/0939-es-lotte.tag
+[*] es/0939-es-lotte.tag
 [ ] da-es/0705-da-es-lotte.atag
 [ ] da-es/0805-da-es-lotte.atag
 [ ] da-es/0939-da-es-lotte.atag
