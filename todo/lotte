@@ -31,10 +31,11 @@
 [*] es/1127-es-soren.tag
 [*] es/1144-es-jonas.tag
 [*] es/1227-es-lotte.tag
-[ ] es/1250-es-jonas.tag
-[ ] es/1337-es-lotte.tag
-[ ] es/1497-es-jonas.tag
-[ ] es/1536-es-lotte.tag
+[*] es/1250-es-jonas.tag
+[*] es/1337-es-lotte.tag
+[*] es/1398-es-soren.tag
+[*] es/1497-es-jonas.tag
+[*] es/1536-es-lotte.tag
 
 [*] da/0001-da-lotte.tag
 [*] en/1536-en-lotte.tag
@@ -326,7 +327,7 @@ Skal læses igennem. 0001-0112: lavet efter system med underløbende relationer 
 
 [ ] da/1398-da.tag
 [ ] en/1398-en.tag
-[ ] es/1398-es-soren.tag
+
 
 [ ] da/1497-da.tag
 [ ] en/1497-en-auto.tag
