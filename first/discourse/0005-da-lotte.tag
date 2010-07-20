@@ -55,7 +55,7 @@
 <W gloss="foreigners" lemma="udlænding" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="1:attr|1:{loc}">udlændinge</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:attr|-1:{loc}" out="1:nobj">i</W>
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
-<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|1:neg|2:vobj|7:pnct|12:coref-res|-14:+DISCOTHER|63:+CONST&3a;exem/(eksempelvis)|13:+TELIC&3a;cons.sbj/derfor/ATTR1">må</W>
+<W gloss="must" lemma="måtte" msd="VADR=----A-" tag="VBD" in="" out="-5:subj|-14:+DISCOTHER|1:neg|2:vobj|7:pnct|12:coref-res|13:+TELIC&3a;cons.sbj/derfor/ATTR1|63:+CONST&3a;exem/(eksempelvis)">må</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="lead" lemma="føre" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-7:[subj]|1:pobj">føre</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj">til</W>
@@ -68,13 +68,13 @@
 <p>
 <s>
 <W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-12:coref-res|1:cause" out="">Derfor</W>
-<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-13:+TELIC&3a;cons.sbj/derfor/ATTR1" out="-1:cause|1:subj|6:vobj|11:pnct|16:coref-res|17:+CONJ&3a;add/og/ATTR1*|29:[+CONJ&3a;add/og/ATTR1]">skal</W>
+<W gloss="must" lemma="skulle" msd="VADR=----A-" tag="VBD" in="-13:+TELIC&3a;cons.sbj/derfor/ATTR1" out="-1:cause|1:subj|6:vobj|11:pnct|16:coref-res|17:+CONJ&3a;add/og/ATTR1*">skal</W>
 <W gloss="the_leaders" lemma="leder" msd="NCCPU==D" tag="NNP" in="-1:subj|5:[subj]" out="1:pobj.dobj|1:{patient}|25:coref-var">lederne</W>
 <W gloss="of" lemma="af" msd="SP" tag="IN" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">af</W>
 <W gloss="the" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-1:nobj" out="2:nobj">de</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:attr|1:{goal}#" out="">politiske</W>
 <W gloss="parties" lemma="parti" msd="NCNPU==I" tag="NNP" in="-2:nobj" out="-1:attr|-1:{goal}#">partier</W>
-<W gloss="take" lemma="påtage" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="1:robj|2:dobj|-5:[subj]">påtage</W>
+<W gloss="take" lemma="påtage" msd="VAF-=----A-" tag="VB" in="-6:vobj" out="-5:[subj]|1:robj|2:dobj">påtage</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:robj" out="">sig</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:dobj" out="1:attr|2:nobj">et</W>
 <W gloss="direct" lemma="direkte" msd="ANP[CN][SP]U=[DI]U" tag="JJ" in="-1:attr" out="">direkte</W>
@@ -84,7 +84,7 @@
 </p>
 <p>
 <s>
-<W gloss="So" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj|-16:coref-res" out="">Det</W>
+<W gloss="So" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-16:coref-res|1:dobj" out="">Det</W>
 <W gloss="believes" lemma="mene" msd="VADR=----A-" tag="VBD" in="-17:+CONJ&3a;add/og/ATTR1*" out="-1:dobj|1:subj|6:conj|26:pnct|84:+*CONJ&3a;add/(og)">mener</W>
 <W gloss="the_Social_Democratic_Party" lemma="socialdemokrati" msd="NCNSG==D" tag="NN" in="-1:subj|1:{arg}" out="1:possd|3:appr|30:coref-var">Socialdemokratiets</W>
 <W gloss="vice_chairperson" lemma="næstformand" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{arg}">næstformand</W>
@@ -97,7 +97,7 @@
 <W gloss="they" lemma="den" msd="PD-[CN]PU--U" tag="DT" in="-25:coref-var|3:subj" out="2:nobj">de</W>
 <W gloss="political" lemma="politisk" msd="ANP[CN]PU=[DI]U" tag="JJ" in="1:aobj.dobj|1:{patient}" out="">politiske</W>
 <W gloss="leaders" lemma="leder" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:aobj.dobj|-1:{patient}">ledere</W>
-<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-29:[+CONJ&3a;add/og/ATTR1]|-4:vobj" out="-3:subj|1:part|2:loc|76:coref-res">kommer</W>
+<W gloss="comes" lemma="komme" msd="VADR=----A-" tag="VBD" in="-4:vobj" out="-3:subj|1:part|2:loc|76:coref-res">kommer</W>
 <W gloss="with" lemma="med" msd="RGU" tag="RP" in="-1:part" out="">med</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:loc" out="1:nobj">i</W>
 <W gloss="the" lemma="den" msd="PD-NSU--U" tag="DT" in="-1:nobj" out="1:nobj|2:pnct|3:ref|8:relr">det</W>
@@ -124,7 +124,7 @@
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="where" lemma="hvor" msd="RGU" tag="RP" in="-2:ref|2:loc" out="">hvor</W>
 <W gloss="the_dialogue" lemma="dialog" msd="NCCSU==D" tag="NN" in="1:subj" out="">dialogen</W>
-<W gloss="has_been_short-circuited" lemma="kortslutte" msd="VADR=----P-" tag="VBD" in="-5:relr" out="-2:loc|-1:subj|1:agent|18:coref-res|11:[CONTR&3a;sbj/(men)/ATTR1]">kortsluttes</W>
+<W gloss="has_been_short-circuited" lemma="kortslutte" msd="VADR=----P-" tag="VBD" in="-5:relr" out="-2:loc|-1:subj|1:agent|18:coref-res">kortsluttes</W>
 <W gloss="with" lemma="af" msd="SP" tag="IN" in="-1:agent" out="1:nobj">af</W>
 <W gloss="fire_bombs" lemma="brandbombe" msd="NCCPU==I" tag="NNP" in="-1:nobj" out="3:conj">brandbomber</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="2:coord" out="">og</W>
@@ -135,7 +135,7 @@
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
 <W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="52:coref">Vi</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="-11:[CONTR&3a;sbj/(men)/ATTR1]|15:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|13:pnct|14:pnct">vil</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|13:pnct|14:pnct">vil</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj|-21:assoc-const" out="-3:[subj]|1:robj|2:pobj">finde</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:robj" out="">os</W>
