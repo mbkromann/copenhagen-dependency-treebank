@@ -43,7 +43,7 @@
 <W gloss="Terp" lemma="Terp" msd="NP--U==-" tag="NNP" in="1:subj|2:[subj]|6:[subj]|7:[subj]" out="-1:namef|3:coref">Terp</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="" out="-1:subj|1:vobj|5:conj|8:pnct">har</W>
 <W gloss="taken" lemma="tage" morph="tage" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:vobj" out="-2:[subj]|1:dobj">taget</W>
-<W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj|1:{agent}|-3:coref" out="1:possd|14:coref">sin</W>
+<W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:dobj|-3:coref|1:{agent}" out="1:possd|14:coref">sin</W>
 <W gloss="turn" lemma="tørn" morph="tørn" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{agent}">tørn</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-5:conj" out="-6:[subj]|-1:coord|1:vobj|10:CONJ&3a;elab/og">kan</W>
@@ -53,17 +53,17 @@
 </s>
 <s>
 <W gloss="And" lemma="og" msd="CC" tag="CC" in="4:coord" out="">Og</W>
-<W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="3:dobj|-6:coref-res" out="8:coref">det</W>
+<W gloss="that" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-6:coref-res|3:dobj" out="8:coref">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="1:neg" out="">ikke</W>
 <W gloss="only" lemma="alene" msd="RGU" tag="RP" in="1:quant" out="-1:neg">alene</W>
-<W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONJ&3a;elab/og" out="-1:quant|-4:coord|2:pnct|-3:dobj|1:subj|6:CONJ&3a;elab/(også)">kan</W>
+<W gloss="can" lemma="kunne" morph="kunne" msd="VADR=----A-" tag="VBD" in="-10:CONJ&3a;elab/og" out="-1:quant|-4:coord|-3:dobj|1:subj|2:pnct|6:CONJ&3a;elab/(også)">kan</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|-14:coref" out="6:coref">han</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:dobj|-8:coref" out="">Det</W>
+<W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-8:coref|1:dobj" out="">Det</W>
 <W gloss="does" lemma="gøre" morph="gøre" msd="VADR=----A-" tag="VBD" in="-6:CONJ&3a;elab/(også)" out="-1:dobj|1:subj|3:conj|13:pnct|19:AGENTIVE&3a;reas/(fordi)/ATTR">gør</W>
-<W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|2:[subj]|-6:coref" out="133:coref">han</W>
+<W gloss="He" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|-6:coref|2:[subj]" out="133:coref">han</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="writes" lemma="skrive" morph="skrift +ve/DERnv" msd="VADR=----A-" tag="VBD" in="-3:conj" out="-2:[subj]|-1:coord|1:loc|3:pobj">skriver</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-1:loc" out="1:nobj">i</W>
@@ -95,7 +95,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-11:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="1:&lt;cause&gt;|-14:coref-res" out="">Derfor</W>
+<W gloss="Therefore" lemma="derfor" msd="RGU" tag="RP" in="-14:coref-res|1:&lt;cause&gt;" out="">Derfor</W>
 <W gloss="fortification" lemma="befæstning" morph="befæste +ning/DERvn&3a;patient" msd="NCCSU==I" tag="NN" in="-15:TELIC&3a;cons.sbj/derfor/ATTR" out="-1:&lt;cause&gt;|2:conj|6:pnct|10:coref-res|11:+CONTR&3a;sbj/men/ATTR&amp;CONJ&3a;elab/men/ATTR">befæstning</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
 <W gloss="a" lemma="en" msd="PI-NSU--U" tag="DT" in="-2:conj" out="-1:coord|1:nobj|2:attr">et</W>
@@ -106,7 +106,7 @@
 </s>
 <s>
 <W gloss="But" lemma="men" msd="CC" tag="CC" in="2:coord" out="">Men</W>
-<W gloss="with_that" lemma="dermed" msd="RGU" tag="RP" in="1:inst|-10:coref-res" out="">dermed</W>
+<W gloss="with_that" lemma="dermed" msd="RGU" tag="RP" in="-10:coref-res|1:inst" out="">dermed</W>
 <W gloss="hear" lemma="høre" morph="høre" msd="VADR=----A-" tag="VBD" in="-11:+CONTR&3a;sbj/men/ATTR&amp;CONJ&3a;elab/men/ATTR" out="-1:inst|-2:coord|1:subj|2:neg|3:part|4:pnct|12:+AGENTIVE/expl/(for)/ATTR">hører</W>
 <W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-1:subj" out="">det</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-2:neg" out="">ikke</W>
@@ -134,7 +134,7 @@
 <W gloss="." lemma="." msd="XP" tag="." in="-5:pnct" out="">.</W>
 </s>
 <s>
-<W gloss="The_enemy" lemma="fjende" morph="fjende" msd="NCCSU==D" tag="NN" in="1:subj|-16:coref-iden" out="23:coref-iden">Fjenden</W>
+<W gloss="The_enemy" lemma="fjende" morph="fjende" msd="NCCSU==D" tag="NN" in="-16:coref-iden|1:subj" out="23:coref-iden">Fjenden</W>
 <W gloss="is" lemma="være" morph="være" msd="VADR=----A-" tag="VBD" in="-16:CONTR&3a;dir/(derimod)/ATTR" out="-1:subj|1:preds|3:pnct|21:CONST&3a;rest/(dvs)/ATTR">er</W>
 <W gloss="among" lemma="iblandt" msd="SP" tag="IN" in="-1:preds" out="1:nobj">iblandt</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:nobj" out="">os</W>
@@ -196,7 +196,7 @@
 <p>
 <s>
 <W gloss="Oluf" lemma="Oluf" msd="NP--U==-" tag="NNP" in="1:namef" out="">Oluf</W>
-<W gloss="Terp" lemma="Terp" msd="NP--U==-" tag="NNP" in="1:subj|-133:coref" out="-1:namef|22:coref">Terp</W>
+<W gloss="Terp" lemma="Terp" msd="NP--U==-" tag="NNP" in="-133:coref|1:subj" out="-1:namef|22:coref">Terp</W>
 <W gloss="has" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-25:+CONJ&3a;add/(og)" out="-1:subj|1:dobj|15:pnct|18:CONJ&3a;elab">har</W>
 <W gloss="an" lemma="en" msd="PI-NSU--U" tag="DT" in="-1:dobj" out="1:nobj|17:coref-iden">et</W>
 <W gloss="answer" lemma="svar" morph="svare +Ø/DERvn&3a;core" msd="NCNSU==I" tag="NN" in="-1:nobj" out="1:pobj.pobj|1:{recipient}">svar</W>
@@ -218,11 +218,11 @@
 <W gloss="An" lemma="en" msd="PI-NSU--U" tag="DT" in="-17:coref-iden|-18:CONJ&3a;elab" out="1:nobj|2:ref|4:relr|10:pnct|19:+CONJ&3a;add/og">Et</W>
 <W gloss="answer" lemma="svar" morph="svare +Ø/DERvn&3a;core" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">svar</W>
 <W gloss="which" lemma="som" msd="U=" tag="WDT" in="-2:ref|2:dobj" out="">som</W>
-<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|-22:coref" out="4:coref">han</W>
+<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-22:coref|1:subj" out="4:coref">han</W>
 <W gloss="gives" lemma="give" morph="give" msd="VADR=----A-" tag="VBD" in="-4:relr" out="-1:subj|-2:dobj|1:pnct|2:time">giver</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
 <W gloss="when" lemma="når" msd="CS" tag="IN" in="-2:time" out="2:vobj">når</W>
-<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="1:subj|-4:coref" out="13:coref">han</W>
+<W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-4:coref|1:subj" out="13:coref">han</W>
 <W gloss="is" lemma="blive" morph="blive" msd="VADR=----A-" tag="VBD" in="-2:vobj" out="-1:subj|1:preds">bliver</W>
 <W gloss="asked" lemma="spørge" morph="spørge" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-1:preds" out="">spurgt</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-10:pnct" out="">.</W>
@@ -238,7 +238,7 @@
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|-13:coref" out="3:coref">han</W>
 <W gloss="for_a_long_time" lemma="længe" msd="RGP" tag="RP" in="-2:time" out="">længe</W>
 <W gloss="about" lemma="om" msd="SP" tag="IN" in="-3:pobj" out="1:nobj">om</W>
-<W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj|1:{agent}|-3:coref|17:coref-res" out="1:possd|15:coref">sin</W>
+<W gloss="his" lemma="sin" msd="PO3CSUSYU" tag="PRP$" in="-1:nobj|-3:coref|1:{agent}|17:coref-res" out="1:possd|15:coref">sin</W>
 <W gloss="ideas" lemma="tanke" morph="tænke +Ø/DERvn&3a;core" msd="NCCSU==I" tag="NN" in="-1:possd" out="-1:{agent}">tanke</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-6:pnct" out="">.</W>
 </s>
@@ -255,7 +255,7 @@
 <W gloss="says" lemma="sige" morph="sige" msd="VADR=----A-" tag="VBD" in="-18:+*CONJ&3a;elab/ATTR*" out="1:subj|2:pnct|3:qobj|10:pnct|13:*CONJ&3a;elab/ATTR">siger</W>
 <W gloss="he" lemma="han" msd="PP3CSN-NU" tag="PRP" in="-1:subj|-15:coref" out="">han</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
-<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-3:qobj" out="-7:subj|-8:pnct|1:vobj|-17:coref-res">skal</W>
+<W gloss="must" lemma="skulle" morph="skulle" msd="VADR=----A-" tag="VBD" in="-3:qobj" out="-7:subj|-8:pnct|-17:coref-res|1:vobj">skal</W>
 <W gloss="gather" lemma="samle" morph="samle" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-8:[subj]|1:dobj|2:loc">samle</W>
 <W gloss="themselves" lemma="sig" msd="PP3[CN][SP]U-YU" tag="PRP" in="-1:dobj" out="">sig</W>
 <W gloss="around" lemma="om" msd="SP" tag="IN" in="-2:loc" out="1:nobj">om</W>
@@ -275,11 +275,11 @@
 <W _noerror="&3a;nosubj&3a;" gloss="stand" lemma="stå" morph="stå" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="1:aobj|3:conj">stå</W>
 <W gloss="fast" lemma="fast" morph="fast" msd="ANP---=-R" tag="JJ" in="-1:aobj" out="">fast</W>
 <W gloss="and" lemma="og" msd="CC" tag="CC" in="1:coord" out="">og</W>
-<W gloss="contribute" lemma="yde" morph="yde" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:coord|2:pnct|3:dobj|1:iobj">yde</W>
+<W gloss="contribute" lemma="yde" morph="yde" msd="VAF-=----A-" tag="VB" in="-3:conj" out="-1:coord|1:iobj|2:pnct|3:dobj">yde</W>
 <W gloss="the_fatherland" lemma="fædreland" morph="land -fædre/func" msd="NCNSU==D" tag="NN" in="-122:coref-var|-1:iobj" out="3:coref">fædrelandet</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="what" lemma="hvad" msd="PT-[CN]SU--U" tag="WDT" in="-3:dobj|4:[nobj]" out="2:relr">hvad</W>
-<W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="1:subj|-3:coref" out="">det</W>
+<W gloss="it" lemma="det" msd="PP3NSU-NU" tag="PRP" in="-3:coref|1:subj" out="">det</W>
 <W gloss="have" lemma="have" morph="have" msd="VADR=----A-" tag="VBD" in="-2:relr" out="-1:subj|1:dobj">har</W>
 <W gloss="requirement" lemma="krav" morph="kræve +Ø/DERvn&3a;core" msd="NCNSU==I" tag="NN" in="-1:dobj" out="1:pobj">krav</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="-4:[nobj]">på</W>

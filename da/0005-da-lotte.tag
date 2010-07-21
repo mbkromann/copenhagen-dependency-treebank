@@ -116,7 +116,7 @@
 </p>
 <p>
 <s>
-<W gloss="Birte" lemma="Birte" msd="NP--U==-" tag="NNP" in="-30:coref-var|1:namef" out="21:assoc-const|35:coref">Birte</W>
+<W gloss="Birte" lemma="Birte" msd="NP--U==-" tag="NNP" in="-30:coref-var|1:namef" out="35:coref|18:assoc-const">Birte</W>
 <W gloss="Weiss" lemma="Weiss" msd="NP--U==-" tag="NNP" in="1:subj" out="-1:namef">Weiss</W>
 <W gloss="makes_reference" lemma="henvise" msd="VADR=----A-" tag="VBD" in="-63:+CONST&3a;exem/(eksempelvis)" out="-1:subj|1:pobj|12:pnct|32:*CONTR&3a;sbj/(men)/ATTR1">henviser</W>
 <W gloss="to" lemma="til" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|5:relr">til</W>
@@ -134,10 +134,10 @@
 </s>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]" out="52:coref">Vi</W>
-<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-2:pnct|-1:subj|1:neg|2:vobj|13:pnct|14:pnct">vil</W>
+<W gloss="We" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|3:[subj]|-18:assoc-const" out="52:coref">Vi</W>
+<W gloss="will" lemma="ville" msd="VADR=----A-" tag="VBD" in="15:qobj" out="-2:pnct|-1:subj|1:neg|13:pnct|14:pnct|2:vobj">vil</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
-<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj|-21:assoc-const" out="-3:[subj]|1:robj|2:pobj">finde</W>
+<W gloss="find" lemma="finde" msd="VAF-=----A-" tag="VB" in="-2:vobj" out="-3:[subj]|1:robj|2:pobj">finde</W>
 <W gloss="us" lemma="vi" msd="PP1CPU-[YN]U" tag="PRP" in="-1:robj" out="">os</W>
 <W gloss="in" lemma="i" msd="SP" tag="IN" in="-2:pobj" out="1:pnct|2:nobj">i</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-1:pnct" out="">,</W>
@@ -150,7 +150,7 @@
 <W gloss="Denmark" lemma="Danmark" msd="NP--U==-" tag="NNP" in="-1:nobj" out="">Danmark</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-13:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-14:pnct" out="">"</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-32:*CONTR&3a;sbj/(men)/ATTR1" out="1:subj|2:pnct|-15:qobj">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-32:*CONTR&3a;sbj/(men)/ATTR1" out="-15:qobj|1:subj|2:pnct">siger</W>
 <W gloss="she" lemma="hun" msd="PP3CSN-NU" tag="PRP" in="-1:subj|-35:coref" out="">hun</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>

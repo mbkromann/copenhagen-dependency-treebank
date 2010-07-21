@@ -81,7 +81,7 @@
 <p>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|4:[subj]|-38:coref" out="48:coref">Jeg</W>
+<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-38:coref|1:subj|4:[subj]" out="48:coref">Jeg</W>
 <W gloss="aim" lemma="satse" msd="VADR=----A-" tag="VBD" in="-38:+CONST&3a;rest/(med_andre_ord)/ATTR" out="-2:pnct|-1:subj|1:pobj|15:pnct|45:+*TELIC&3a;goal/så/ATTR|56:+CONJ&3a;add/udover">satser</W>
 <W gloss="in" lemma="på" msd="SP" tag="IN" in="-1:pobj" out="1:nobj|2:vobj">på</W>
 <W gloss="to" lemma="at" msd="U=" tag="TO" in="-1:nobj" out="">at</W>
@@ -102,7 +102,7 @@
 </p>
 <p>
 <s>
-<W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="3:subj|4:[subj]|-14:coref-var" out="1:attr|2:nobj|38:coref-var">En</W>
+<W gloss="A" lemma="en" msd="PI-CSU--U" tag="DT" in="-14:coref-var|3:subj|4:[subj]" out="1:attr|2:nobj|38:coref-var">En</W>
 <W gloss="sensible" lemma="fornuftig" msd="ANPCSU=IU" tag="JJ" in="-1:attr" out="">fornuftig</W>
 <W gloss="Finance_Act" lemma="finanslov" msd="NCCSU==I" tag="NN" in="-2:nobj" out="">finanslov</W>
 <W gloss="can" lemma="skulle" msd="VADR=----A-" tag="VBD" in="22:qobj" out="-3:subj|1:vobj|20:pnct|21:pnct">skal</W>
@@ -137,7 +137,7 @@
 </p>
 <p>
 <s>
-<W gloss="the_KV_government" lemma="KV-regering" msd="NCCSU==D" tag="NN" in="1:subj|12:[subj]|-8:assoc-const" out="">KV-regeringen</W>
+<W gloss="the_KV_government" lemma="KV-regering" msd="NCCSU==D" tag="NN" in="-8:assoc-const|1:subj|12:[subj]" out="">KV-regeringen</W>
 <W gloss="has" lemma="have" msd="VADR=----A-" tag="VBD" in="-56:+CONJ&3a;add/udover" out="-1:subj|1:other|11:vobj|33:pnct|40:+CONTR&3a;sbj/(men)/ATTR*">har</W>
 <W gloss="In_addition_to" lemma="udover" msd="SP" tag="IN" in="-1:other" out="1:nobj">udover</W>
 <W gloss="the_Finance_Act" lemma="finanslov" msd="NCCSU==D" tag="NN" in="-1:nobj|-38:coref-var" out="1:pnct|2:ref|3:relpa">finansloven</W>
@@ -177,7 +177,7 @@
 <p>
 <s>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="">Henning</W>
-<W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="1:subj|-48:coref-iden" out="-1:namef|33:coref">Dyremose</W>
+<W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-48:coref-iden|1:subj" out="-1:namef|33:coref">Dyremose</W>
 <W gloss="does_believe" lemma="mene" msd="VADR=----A-" tag="VBD" in="-40:+CONTR&3a;sbj/(men)/ATTR*" out="-1:subj|1:neg|2:pnct|3:dobj|20:pnct|58:+*AGENTIVE&3a;sbj/(for)/ATTR">mener</W>
 <W gloss="not" lemma="ikke" msd="RGU" tag="RP" in="-1:neg" out="">ikke</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
@@ -210,7 +210,7 @@
 <p>
 <s>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="2:pnct" out="">"</W>
-<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="1:subj|-33:coref" out="18:assoc-const|28:coref">Jeg</W>
+<W gloss="I" lemma="jeg" msd="PP1CSN-NU" tag="PRP" in="-33:coref|1:subj" out="18:assoc-const|28:coref">Jeg</W>
 <W gloss="doubt" lemma="tvivle" msd="VADR=----A-" tag="VBD" in="25:qobj" out="-2:pnct|-1:subj|2:epi|3:pobj|24:pnct">tvivler</W>
 <W gloss="Honestly" lemma="oprigtig" msd="ANP---=-R" tag="JJ" in="1:man" out="">oprigtig</W>
 <W gloss="speaking" lemma="tale" msd="VAPA=S[CN]I[ARU]-U" tag="VBN" in="-2:epi" out="-1:man">talt</W>
@@ -228,7 +228,7 @@
 <W gloss="extent" lemma="omfang" msd="NCNSU==I" tag="NN" in="-1:nobj" out="">omfang</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-2:pnct" out="">,</W>
 <W gloss="that" lemma="som" msd="U=" tag="WDT" in="-3:ref|3:man" out="">som</W>
-<W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="1:subj|2:[subj]|-18:assoc-const" out="">vi</W>
+<W gloss="we" lemma="vi" msd="PP1CPN-NU" tag="PRP" in="-18:assoc-const|1:subj|2:[subj]" out="">vi</W>
 <W gloss="would" lemma="ville" msd="VADA=----A-" tag="VBD" in="-5:relr" out="-1:subj|1:vobj|5:pnct">ville</W>
 <W gloss="lower" lemma="nedsætte" msd="VAF-=----A-" tag="VB" in="-1:vobj" out="-3:man|-2:[subj]|1:dobj">nedsætte</W>
 <W gloss="VAT" lemma="moms" msd="NCCSU==I" tag="NN" in="-1:dobj" out="2:nobj">moms</W>
@@ -236,7 +236,7 @@
 <W gloss="fees" lemma="afgift" msd="NCCPU==I" tag="NNP" in="-2:nobj" out="-1:coord">afgifter</W>
 <W gloss="," lemma="," msd="XP" tag="," in="-5:pnct" out="">,</W>
 <W gloss="&amp;quot;" lemma="&amp;quot;" msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
-<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-58:+*AGENTIVE&3a;sbj/(for)/ATTR" out="-25:qobj|3:pnct|-32:+SCENE">siger</W>
+<W gloss="says" lemma="sige" msd="VADR=----A-" tag="VBD" in="-58:+*AGENTIVE&3a;sbj/(for)/ATTR" out="-25:qobj|-32:+SCENE|3:pnct">siger</W>
 <W gloss="Henning" lemma="Henning" msd="NP--U==-" tag="NNP" in="1:namef" out="1:subj">Henning</W>
 <W gloss="Dyremose" lemma="Dyremose" msd="NP--U==-" tag="NNP" in="-1:subj|-28:coref" out="-1:namef">Dyremose</W>
 <W gloss="." lemma="." msd="XP" tag="." in="-3:pnct" out="">.</W>

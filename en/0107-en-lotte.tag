@@ -48,7 +48,7 @@
 <W msd="NP=P" tag="NNPS" in="-1:nobj" out="">Ministers</W>
 <W msd="XP" tag="," in="-23:pnct" out="">,</W>
 <W msd="XP" tag="&amp;quot;" in="-24:pnct" out="">"</W>
-<W msd="VADR" tag="VBZ" in="-45:*CONTR&3a;sbj/nevertheless/ATTR" out="1:subj|2:pnct|10:CONST&3a;exem/among_other_things|-25:qobj">says</W>
+<W msd="VADR" tag="VBZ" in="-45:*CONTR&3a;sbj/nevertheless/ATTR" out="-25:qobj|1:subj|2:pnct|10:CONST&3a;exem/among_other_things">says</W>
 <W msd="NP=S" tag="NNP" in="-1:subj|-49:coref" out="8:coref">Duetoft</W>
 <W msd="XP" tag="." in="-2:pnct" out="">.</W>
 </s>
