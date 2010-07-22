@@ -1,3 +1,130 @@
+[*] da/0152-da-lotte.tag
+[*] en/0152-en-lotte.tag
+[*] da/0212-da-lotte.tag
+[*] en/0212-en-lotte.tag
+[*] es/0212-es-lotte.tag
+[ ] da/0235-da.tag
+[ ] en/0235-en.tag
+[*] da/0260-da-lotte.tag
+[ ] en/0260-en.tag
+[*] da/0339-da-lotte.tag
+[ ] en/0339-en.tag
+[ ] da/0351-da.tag
+[ ] en/0351-en-auto.tag
+[ ] da/0376-da.tag
+[ ] en/0376-en.tag
+[ ] da/0426-da.tag
+[ ] en/0426-en.tag
+[ ] da/0428-da.tag
+[ ] en/0428-en.tag
+[ ] da/0596-da.tag
+[ ] en/0596-en-auto.tag
+[ ] da/0607-da.tag
+[ ] en/0607-en.tag
+[ ] da/0643-da.tag
+[ ] en/0643-en.tag
+[*] en/0647-en.tag
+[*] da/0647-da.tag
+[ ] da/0685-da.tag
+[ ] en/0685-en.tag
+[ ] da/0705-da.tag
+[ ] en/0705-en.tag
+[ ] da/0729-da.tag
+[ ] en/0729-en.tag
+[ ] da/0780-da.tag
+[ ] en/0780-en.tag
+[ ] da/0783-da.tag
+[ ] en/0783-en.tag
+[ ] da/0800-da.tag
+[ ] en/0800-en.tag
+[ ] da/0805-da.tag
+[ ] en/0805-en.tag
+[ ] da/0848-da.tag
+[ ] en/0848-en-auto.tag
+[ ] da/0866-da.tag
+[ ] en/0866-en.tag
+[*] da/0876-da.tag
+[*] en/0876-en.tag
+[ ] da/0881-da.tag
+[ ] en/0881-en.tag
+[ ] da/0915-da.tag
+[ ] en/0915-en.tag
+[ ] da/0939-da.tag
+[ ] en/0939-en.tag
+[ ] da/0960-da.tag
+[ ] en/0960-en.tag
+[ ] da/0998-da.tag
+[ ] en/0998-en.tag
+[ ] da/1043-da.tag
+[ ] en/1043-en.tag
+[ ] da/1054-da.tag
+[ ] en/1054-en.tag
+[ ] da/1057-da.tag
+[ ] en/1057-en-auto.tag
+[*] da/1077-da.tag
+[*] en/1077-en-lotte.tag
+[ ] da/1090-da.tag
+[ ] en/1090-en.tag
+[ ] da/1127-da.tag
+[ ] en/1127-en.tag
+[ ] da/1144-da.tag
+[ ] en/1144-en.tag
+[ ] da/1227-da.tag
+[ ] en/1227-en.tag
+[ ] da/1250-da.tag
+[ ] en/1250-en.tag
+[ ] da/1337-da.tag
+[ ] en/1337-en-auto.tag
+[ ] da/1398-da.tag
+[ ] en/1398-en.tag
+[*] en/1420-en.tag
+[*] da/1420-da.tag
+[ ] da/1497-da.tag
+[ ] en/1497-en-auto.tag
+[ ] da/1536-da.tag
+[*] en/1536-en-lotte.tag
+
+
+[*] es/0152-es-lotte.tag
+
+[*] es/0235-es-jonas.tag
+[*] es/0260-es-soren.tag
+[*] es/0339-es-lotte.tag
+[*] es/0351-es-soren.tag
+[*] es/0376-es-jonas.tag
+[*] es/0426-es-soren.tag
+[*] es/0428-es-jonas.tag
+[*] es/0596-es-soren.tag
+[*] es/0607-es-lotte.tag
+[*] es/0643-es-jonas.tag
+[*] es/0685-es-soren.tag
+[*] es/0705-es-lotte.tag
+[*] es/0729-es-lotte.tag
+[*] es/0780-es-soren.tag
+[*] es/0783-es-lotte.tag
+[*] es/0800-es-soren.tag
+[*] es/0805-es-lotte.tag
+[*] es/0848-es-lotte.tag
+[*] es/0866-es-jonas.tag
+[*] es/0881-es-lotte.tag
+[*] es/0915-es-soren.tag
+[*] es/0939-es-lotte.tag
+[*] es/0960-es-soren.tag
+[*] es/0998-es-jonas.tag
+[*] es/1043-es-lotte.tag
+[*] es/1054-es-soren.tag
+[*] es/1057-es-jonas.tag
+[*] es/1090-es-lotte.tag
+[*] es/1127-es-soren.tag
+[*] es/1144-es-jonas.tag
+[*] es/1227-es-lotte.tag
+[*] es/1250-es-jonas.tag
+[*] es/1337-es-lotte.tag
+[*] es/1398-es-soren.tag
+[*] es/1497-es-jonas.tag
+[*] es/1536-es-lotte.tag
+Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-do)
+
 Korpus 1
 [ ] en/0104-en.tag
 [ ] da/0104-da.tag
@@ -105,132 +232,7 @@ Er rettede:
 0675 + 0781: annoteret før ~pl
 Resten tjek for ido/ado, etc.
 
-Korpus 2
-[ ] da/0152-da.tag
-[ ] en/0152-en.tag
-[ ] da/0212-da.tag
-[ ] en/0212-en.tag
-[ ] da/0235-da.tag
-[ ] en/0235-en.tag
-[*] da/0260-da-lotte.tag
-[ ] en/0260-en.tag
-[*] da/0339-da-lotte.tag
-[ ] en/0339-en.tag
-[ ] da/0351-da.tag
-[ ] en/0351-en-auto.tag
-[ ] da/0376-da.tag
-[ ] en/0376-en.tag
-[ ] da/0426-da.tag
-[ ] en/0426-en.tag
-[ ] da/0428-da.tag
-[ ] en/0428-en.tag
-[ ] da/0596-da.tag
-[ ] en/0596-en-auto.tag
-[ ] da/0607-da.tag
-[ ] en/0607-en.tag
-[ ] da/0643-da.tag
-[ ] en/0643-en.tag
-[*] en/0647-en.tag
-[*] da/0647-da.tag
-[ ] da/0685-da.tag
-[ ] en/0685-en.tag
-[ ] da/0705-da.tag
-[ ] en/0705-en.tag
-[ ] da/0729-da.tag
-[ ] en/0729-en.tag
-[ ] da/0780-da.tag
-[ ] en/0780-en.tag
-[ ] da/0783-da.tag
-[ ] en/0783-en.tag
-[ ] da/0800-da.tag
-[ ] en/0800-en.tag
-[ ] da/0805-da.tag
-[ ] en/0805-en.tag
-[ ] da/0848-da.tag
-[ ] en/0848-en-auto.tag
-[ ] da/0866-da.tag
-[ ] en/0866-en.tag
-[*] da/0876-da.tag
-[*] en/0876-en.tag
-[ ] da/0881-da.tag
-[ ] en/0881-en.tag
-[ ] da/0915-da.tag
-[ ] en/0915-en.tag
-[ ] da/0939-da.tag
-[ ] en/0939-en.tag
-[ ] da/0960-da.tag
-[ ] en/0960-en.tag
-[ ] da/0998-da.tag
-[ ] en/0998-en.tag
-[ ] da/1043-da.tag
-[ ] en/1043-en.tag
-[ ] da/1054-da.tag
-[ ] en/1054-en.tag
-[ ] da/1057-da.tag
-[ ] en/1057-en-auto.tag
-[*] da/1077-da.tag
-[*] en/1077-en-lotte.tag
-[ ] da/1090-da.tag
-[ ] en/1090-en.tag
-[ ] da/1127-da.tag
-[ ] en/1127-en.tag
-[ ] da/1144-da.tag
-[ ] en/1144-en.tag
-[ ] da/1227-da.tag
-[ ] en/1227-en.tag
-[ ] da/1250-da.tag
-[ ] en/1250-en.tag
-[ ] da/1337-da.tag
-[ ] en/1337-en-auto.tag
-[ ] da/1398-da.tag
-[ ] en/1398-en.tag
-[*] en/1420-en.tag
-[*] da/1420-da.tag
-[ ] da/1497-da.tag
-[ ] en/1497-en-auto.tag
-[ ] da/1536-da.tag
-[*] en/1536-en-lotte.tag
 
-
-[*] es/0152-es-lotte.tag
-[*] es/0212-es-soren.tag
-[*] es/0235-es-jonas.tag
-[*] es/0260-es-soren.tag
-[*] es/0339-es-lotte.tag
-[*] es/0351-es-soren.tag
-[*] es/0376-es-jonas.tag
-[*] es/0426-es-soren.tag
-[*] es/0428-es-jonas.tag
-[*] es/0596-es-soren.tag
-[*] es/0607-es-lotte.tag
-[*] es/0643-es-jonas.tag
-[*] es/0685-es-soren.tag
-[*] es/0705-es-lotte.tag
-[*] es/0729-es-lotte.tag
-[*] es/0780-es-soren.tag
-[*] es/0783-es-lotte.tag
-[*] es/0800-es-soren.tag
-[*] es/0805-es-lotte.tag
-[*] es/0848-es-lotte.tag
-[*] es/0866-es-jonas.tag
-[*] es/0881-es-lotte.tag
-[*] es/0915-es-soren.tag
-[*] es/0939-es-lotte.tag
-[*] es/0960-es-soren.tag
-[*] es/0998-es-jonas.tag
-[*] es/1043-es-lotte.tag
-[*] es/1054-es-soren.tag
-[*] es/1057-es-jonas.tag
-[*] es/1090-es-lotte.tag
-[*] es/1127-es-soren.tag
-[*] es/1144-es-jonas.tag
-[*] es/1227-es-lotte.tag
-[*] es/1250-es-jonas.tag
-[*] es/1337-es-lotte.tag
-[*] es/1398-es-soren.tag
-[*] es/1497-es-jonas.tag
-[*] es/1536-es-lotte.tag
-Korpus 2: morf.-annoteret efter de ny regler incl. ~pl: dog tjek ado/ido (-da/-do)
 
 FÆRDIG: 25 tekster da/en: s=1, d=1, anaforer =1 til agreement (færdig 21.07.10)
 Skal læses igennem. 0001-0112: lavet efter system med underløbende relationer (excl 1536 - mangler anaf+disk) OK
