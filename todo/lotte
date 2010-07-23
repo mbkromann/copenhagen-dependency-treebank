@@ -1,10 +1,12 @@
 [*] da/0152-da-lotte.tag
 [*] en/0152-en-lotte.tag
+[*] es/0152-es-lotte.tag
 [*] da/0212-da-lotte.tag
 [*] en/0212-en-lotte.tag
 [*] es/0212-es-lotte.tag
-[ ] da/0235-da.tag
-[ ] en/0235-en.tag
+[*] da/0235-da.tag
+[*] en/0235-en.tag
+[*] es/0235-es-lotte.tag
 [*] da/0260-da-lotte.tag
 [ ] en/0260-en.tag
 [*] da/0339-da-lotte.tag
@@ -85,9 +87,9 @@
 [*] en/1536-en-lotte.tag
 
 
-[*] es/0152-es-lotte.tag
 
-[*] es/0235-es-jonas.tag
+
+
 [*] es/0260-es-soren.tag
 [*] es/0339-es-lotte.tag
 [*] es/0351-es-soren.tag
