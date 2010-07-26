@@ -1,41 +1,41 @@
-<W lemma="apartado" morph="parte ! -+[a][ar]/DERnv -a/AGENT !! +ado/DERva&3a;pas.part" msd="NC" tag="NC" in="" out="1:pobj.dobj|1:{patient}">Apartado</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">de</W>
-<W lemma="correo" morph="correo" msd="NC" tag="NC" in="-1:nobj" out="1:numm">correos</W>
-<W lemma="@card@" msd="XS" tag="CODE" in="-1:numm" out="1:nobj">64</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-1:nobj" out="1:pnct|2:appa">LinderÃ¶d</W>
-<W lemma="," msd="XP" tag="CM" in="-1:pnct" out="">,</W>
-<W lemma="Suecia" msd="NP" tag="NP" in="-2:appa" out="">Suecia</W>
-<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="3:subj" out="">Idiota</W>
-<W lemma="si" msd="CS" tag="CSUBX" in="2:cond" out="">si</W>
+<W lemma="apartado" morph="parte ! -+[a][ar]/DERnv -a/AGENT !! +ado/DERva&3a;pas.part" msd="NC" tag="NC" in="" out="1:pobj|1:{arg}|3:nobj|4:other|5:pnct|6:other">Apartado</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
+<W lemma="correo" morph="correo" msd="NC" tag="NC" in="-1:nobj" out="">correos</W>
+<W lemma="@card@" msd="XS" tag="CODE" in="-3:nobj" out="">64</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="-4:other" out="">LinderÃ¶d</W>
+<W lemma="," msd="XP" tag="CM" in="-5:pnct" out="">,</W>
+<W lemma="Suecia" msd="NP" tag="NP" in="-6:other" out="">Suecia</W>
+<W lemma="&lt;unknown&gt;" msd="NP" tag="NP" in="3:subj" out="1:&lt;cond&gt;">Idiota</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="-1:&lt;cond&gt;" out="">si</W>
 <W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
-<W lemma="querer" morph="querer" msd="VAD" tag="VLfin" in="" out="-3:subj|-1:robj|-2:cond|1:dobj">quiere</W>
+<W lemma="querer" morph="querer" msd="VAD" tag="VLfin" in="" out="-3:subj|-1:robj|1:dobj">quiere</W>
 <W lemma="trabajar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:dobj" out="">trabajar</W>
 <W lemma="un" msd="PD" tag="ART" in="" out="2:nobj">Un</W>
 <W lemma="verdadero" morph="verdad +ero/DERna&3a;rel" msd="AN" tag="ADJ" in="1:attr" out="">verdadero</W>
-<W lemma="relato" morph="relatar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-2:nobj" out="-1:attr|1:pobj|2:ref|6:relr">relato</W>
-<W lemma="sobre" msd="SP" tag="SCENE" in="-1:pobj" out="">sobre</W>
-<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-2:ref|4:dobj" out="">cÃ³mo</W>
-<W lemma="un" msd="PD" tag="ART" in="3:subj" out="1:nobj">un</W>
+<W lemma="relato" morph="relatar !! +o/DERvn&3a;core" msd="NC" tag="NC" in="-2:nobj" out="1:pobj.dobj|1:{patient}|-1:attr">relato</W>
+<W lemma="sobre" msd="SP" tag="SCENE" in="-1:pobj.dobj|-1:{patient}" out="1:nobj">sobre</W>
+<W lemma="&lt;unknown&gt;" morph="" msd="NC" tag="NC" in="-1:nobj|4:[man]" out="4:relr">cÃ³mo</W>
+<W lemma="un" msd="PD" tag="ART" in="3:subj|6:[subj]" out="1:nobj">un</W>
 <W lemma="desempleado" morph="emplear !! +ado/DERva&3a;pas.part -des/NEG&3a;priv" msd="NC" tag="NC" in="-1:nobj" out="">desempleado</W>
-<W lemma="se" msd="PC" tag="SE" in="1:robj" out="2:predo">se</W>
-<W lemma="sentar&7c;sentir" morph="sentir" msd="VAD" tag="VLfin" in="-6:relr" out="-3:subj|-4:dobj|-1:robj|2:cause|3:vobj|7:pnct">siente</W>
-<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-2:predo" out="">ridÃ­culo</W>
-<W lemma="porque" msd="CS" tag="CSUBX" in="-2:cause" out="">porque</W>
-<W lemma="tener" morph="tener" msd="VAD" tag="VLfin" in="-3:vobj" out="1:dobj">tiene</W>
-<W lemma="gana" morph="gana" msd="NC" tag="NC" in="-1:dobj" out="1:pobj">ganas</W>
-<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj" out="1:nobj">de</W>
+<W lemma="se" msd="PC" tag="SE" in="1:robj" out="">se</W>
+<W lemma="sentar&7c;sentir" morph="sentir" msd="VAD" tag="VLfin" in="-4:relr" out="-3:subj|-1:robj|2:cause|7:pnct|-4:[man]|1:preds">siente</W>
+<W lemma="&lt;unknown&gt;" morph="&lt;unknown&gt;" msd="VAD" tag="VLfin" in="-1:preds" out="">ridÃ­culo</W>
+<W lemma="porque" msd="CS" tag="CSUBX" in="-2:cause" out="1:vobj">porque</W>
+<W lemma="tener" morph="tener" msd="VAD" tag="VLfin" in="-1:vobj" out="1:dobj|-6:[subj]">tiene</W>
+<W lemma="gana" morph="gana" msd="NC" tag="NC" in="-1:dobj" out="1:pobj|1:{arg}">ganas</W>
+<W lemma="de" msd="SP" tag="SCENE" in="-1:pobj|-1:{arg}" out="1:nobj">de</W>
 <W lemma="trabajar" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="-1:nobj" out="">trabajar</W>
 <W lemma="." msd="XP" tag="FS" in="-7:pnct" out="">.</W>
-<W lemma="repartir" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="5:subj" out="1:nobj">Repartir</W>
-<W lemma="&lt;unknown&gt;" morph="período !!!!iód +ico/DERna&3a;rel ~s" msd="AN" tag="ADJ" in="-1:nobj" out="1:pobj">periÃ³dicos</W>
-<W lemma="como" msd="CS" tag="CSUBX" in="-1:pobj" out="1:nobj">como</W>
-<W lemma="&lt;unknown&gt;" morph="ocupar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:aobj.dobj|1:{patient}#">ocupaciÃ³n</W>
-<W lemma="suplementario" morph="suplir !!e +mento/DERvn&3a;core ! +aria/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:aobj.dobj|-1:{patient}#" out="">suplementaria</W>
-<W lemma="&lt;unknown&gt;" morph="poder" msd="VAD" tag="VLfin" in="" out="-5:subj|1:vobj|4:cause|6:vobj|10:pnct">podrÃ­a</W>
-<W lemma="ser" morph="&lt;unknown&gt;" msd="VAF" tag="VSinf" in="-1:vobj" out="1:preds">ser</W>
+<W lemma="repartir" morph="&lt;unknown&gt;" msd="VAF lexical verb infinite" tag="VLinf" in="5:subj|6:[subj]" out="2:goal|1:dobj">Repartir</W>
+<W lemma="&lt;unknown&gt;" morph="período !!!!iód +ico/DERna&3a;rel ~s" msd="AN" tag="ADJ" in="-1:dobj" out="">periÃ³dicos</W>
+<W lemma="como" msd="CS" tag="CSUBX" in="-2:goal" out="1:nobj">como</W>
+<W lemma="&lt;unknown&gt;" morph="ocupar ! +ción/DERvn&3a;core" msd="NC" tag="NC" in="-1:nobj" out="1:attr">ocupaciÃ³n</W>
+<W lemma="suplementario" morph="suplir !!e +mento/DERvn&3a;core ! +aria/DERna&3a;rel" msd="AN" tag="ADJ" in="-1:attr" out="">suplementaria</W>
+<W lemma="&lt;unknown&gt;" morph="poder" msd="VAD" tag="VLfin" in="" out="-5:subj|1:vobj|6:vobj|10:pnct|4:cond">podrÃ­a</W>
+<W lemma="ser" morph="&lt;unknown&gt;" msd="VAF" tag="VSinf" in="-1:vobj" out="1:preds|-6:[subj]">ser</W>
 <W lemma="el" msd="PD" tag="ART" in="-1:preds" out="1:nobj">la</W>
 <W lemma="felicidad" morph="feliz !c +idad/DERan&3a;qual" msd="NC" tag="NC" in="-1:nobj" out="">felicidad</W>
-<W lemma="si" msd="CS" tag="CSUBX" in="-4:cause" out="">si</W>
+<W lemma="si" msd="CS" tag="CSUBX" in="-4:cond" out="">si</W>
 <W lemma="se" msd="PC" tag="SE" in="1:subj" out="">se</W>
 <W lemma="recibir" morph="recibir" msd="VAD" tag="VLfin" in="-6:vobj" out="-1:subj|1:dobj">recibiese</W>
 <W lemma="un" msd="PD" tag="ART" in="-1:dobj" out="1:nobj">un</W>
