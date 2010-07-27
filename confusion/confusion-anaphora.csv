@@ -1,3 +1,16 @@
-coref	1	100%=coref-res
-coref-res	2	50%=coref	50%=coref-res
-ref	38	100%=ref
+assoc	1	100%=assoc-telic
+assoc-agentive	3	66.7%=assoc-telic	33.3%=coref
+assoc-const	19	42.1%=assoc-const	21.1%=assoc-telic	15.8%=coref	10.5%=assoc-loc	5.3%=coref-iden	5.3%=coref-var
+assoc-event	1	100%=coref-res.prg
+assoc-inst	1	100%=coref-iden
+assoc-loc	6	66.7%=assoc-loc	33.3%=assoc-const
+assoc-patient	1	100%=coref-var
+assoc-telic	27	63%=assoc-telic	14.8%=assoc-const	7.4%=coref-var	7.4%=assoc-agentive	3.7%=coref-res	3.7%=assoc
+assoc-time	1	100%=assoc-time
+coref	211	80.1%=coref	8.5%=coref-var	4.7%=coref-iden	4%=coref-res	1.2%=assoc-const	0.5%=coref assoc-telic	0.5%=coref-res.prg	0.5%=assoc-agentive
+coref assoc-telic	1	100%=coref
+coref-iden	48	41.7%=coref-iden	33.3%=coref-var	20.8%=coref	2.1%=assoc-const	2.1%=assoc-inst
+coref-res	26	50%=coref-res	38.5%=coref	7.7%=coref-res.prg	3.8%=assoc-telic
+coref-res.prg	6	33.3%=coref	33.3%=coref-res	16.7%=coref-var	16.7%=assoc-event
+coref-var	71	45.1%=coref-var	25.4%=coref	22.5%=coref-iden	2.8%=assoc-telic	1.4%=assoc-const	1.4%=coref-res.prg	1.4%=assoc-patient
+ref	79	100%=ref

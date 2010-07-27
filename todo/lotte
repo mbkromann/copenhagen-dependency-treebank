@@ -9,13 +9,16 @@
 [*] es/0235-es-lotte.tag
 [*] da/0260-da-lotte.tag
 [*] en/0260-en.tag
-[ ] es/0260-es-soren.tag
+[*] es/0260-es-soren.tag
 [*] da/0339-da-lotte.tag
-[ ] en/0339-en.tag
-[ ] da/0351-da.tag
-[ ] en/0351-en-auto.tag
-[ ] da/0376-da.tag
-[ ] en/0376-en.tag
+[*] en/0339-en.tag
+[*] es/0339-es-lotte.tag
+[*] da/0351-da.tag
+[*] en/0351-en-auto.tag
+[*] es/0351-es-soren.tag
+[*] da/0376-da.tag
+[*] en/0376-en.tag
+[*] es/0376-es-jonas.tag
 [ ] da/0426-da.tag
 [ ] en/0426-en.tag
 [ ] da/0428-da.tag
@@ -88,9 +91,9 @@
 [*] en/1536-en-lotte.tag
 
 
-[*] es/0339-es-lotte.tag
-[*] es/0351-es-soren.tag
-[*] es/0376-es-jonas.tag
+
+
+
 [*] es/0426-es-soren.tag
 [*] es/0428-es-jonas.tag
 [*] es/0596-es-soren.tag
@@ -185,7 +188,7 @@ Korpus 1
 [ ] en/1428-en.tag
 [ ] da/1429-da.tag
 [ ] en/1429-en.tag
-
+[ ] en/1536-en-lotte.tag
 
 [*] es/0104-es-lotte.tag
 [*] es/0184-es-soren.tag
@@ -239,7 +242,7 @@ Rettet diskurs(=fjernet underliggende pile): 0001, 1536, 0107, 0260 (ingen under
 Anaforer ok: 0260; 0956; 0112, 0107, 0005, 0306, 1014,0008, 0113, 0339, 1035, 0042 (tjekket i forhold til genitiver/poss.pron) OK
 Tekster fra korpus 1 & 2 (der her er syntaks-, diskurs- og anaforannoterede er kopieret over i de respektive tasklists 21.07.10
 [*] da/0001-da-lotte.tag
-[*] en/1536-en-lotte.tag
+
 [*] en/0107-en-lotte.tag
 [*] da/0260-da-lotte.tag
 [*] en/0956-en-lotte.tag
